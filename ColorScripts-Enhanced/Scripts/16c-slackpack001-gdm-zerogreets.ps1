@@ -5,7 +5,7 @@
 # Source SHA-256: 84d39fe9c5a478e63238d1c36b1dec2c034e05ede9aae92c5830383ee0ed6ae1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: gDm-ZeroGreets.ans by GngrDr3dM4n (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ZeroGreets
 # SAUCE Author: GngrDr3dM4n
 # SAUCE Group: Slackers
@@ -23,7 +23,7 @@ Write-Host '
 [34m██▌║[0;37m  [0;1;32mI[0;32m''M[0;1;30m [0;1;32mN[0;32mOT[0;1;30m    [0;34m║▐██████████[0;37m  [0;1;30m░█[0m█[1m█████████▄▄▄▄▄▄▄▄▄███████████[0m  [34m▀█████████████[0m
 [34m██▌║[0;37m [0;1;31mE[0;31mLITE[0;32m [0;1;32mAND[0;32m   [0;34m╚═════╗▐███[0;37m  [0;1;30m░█[0;1;37m███▀▀▀▀▀▀▀█████████████████████▓[0m  [34m█████████████[0m
 [34m██▌║[0;37m [0;1;32mI[0;32m [0;1;32mC[0;32mAN''T[0;37m [0;1;32mE[0;32mVER      [0;34m║▐██     [0;1;37m▀▄▄███████▄▄▀▀▀▀▀▀▀▀▀▄▄▄▄▄▄▄▀▀██▓[0m [34m▀████████████[0m
-[34m██▌║[0;37m [0;1;32mS[0;32mHUT [0;1;32mT[0;32mHE [0;1;32mF[0;32mUCK [0;1;32mU[0;32mP. [0;34m║▐█▀[0;37m [0;1;30m░█[0;1;37m█[0m [1m████[0;31m ▀ [0;1;37m██████[0m [1m███[0m [1m▄███████████▄[0m [1m▄▄[0m [34m▀███████████[0m
+[34m██▌║[0;37m [0;1;32m [0;32m    [0;1;32m [0;32m   [0;1;32m [0;32m    [0;1;32m [0;32m   [0;34m║▐█▀[0;37m [0;1;30m░█[0;1;37m█[0m [1m████[0;31m ▀ [0;1;37m██████[0m [1m███[0m [1m▄███████████▄[0m [1m▄▄[0m [34m▀███████████[0m
 [34m██▌║[0;37m  [0;1;30m*[0;32msnicker[0;1;30m         [0;34m║▐█[0;37m  [0;1;30m█[0m█[1m█▄▀█████[0;1;33m│[0;1;37m█████▀▄███[0m [1m█████[0;31m  ▀[0;1;37m█████[0m [1m█▓[0m  [34m███████████[0m
 [34m██▌║[0;37m                [0;34m╔══╝▐█ [0;1;30m░█[0;1;37m████▄▄▀▀█[0;1;33m│[0;1;37m█▀▀▄▄██████▄▀▀▀█[0;1;33m│[0;1;37m█▀▀▀▀▀▄███▒[0m [34m███████████[0m
 [34m██▌║[0;37m [0;1;30m*[0;1;33mSNIFF[0;1;36m [0;1;33mSNIFF[0;33m   [0;34m║▐████ [0;33m▓[0;37m█[0;1;37m█████████[0;1;33m│[0;1;37m████████████████[0;1;33m│[0;1;37m██████████▓[0m [34m███████████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 378e9891f50648511491a435c45a2fd20de96dac50a7ff10ff0b49ed8bc274af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-TC.ANS by soul trader (dox); released in dox_07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the core!...
 # SAUCE Author: soul trader
 # SAUCE Group: dox
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [31mthe core.! ansi request by [ didnt request ] .. made for.. skrubly!!!!....[0m
+  [31m                                                                          [0m
 
                 [31m▄▄▄▄▄▄▄▄▄[0;30;41m░[0;31;40m▓▀▀▀▀▀▀▀▀▀██  [0m   [31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
       [31m▄▄▄▄▄▄▄▄▄ ██▀▀▀▀▀▀▀▀▀[0;1;33m ███████ [0;30;41m░[0;31;40m▓███████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██[0m
@@ -30,7 +30,4 @@ Write-Host '
 [1;33;40m [0;31m██[0;1;33m [0;1;33;43m [0;1;33;40m███████  [0;33m█[0;1;33m███████[0;33m█[0;1;33m███████▀▀[0;1;33;43m▀[0;1;33;40m███[0;1;37;40m██[0;1;33;40m██[0;33m█[0;1;33m███████▄▄[0;1;33;43m▄[0;1;33;40m███████[0;33m█[0;1;33m██████ [0;31m██▀▀▀[0;30;41m▄▄▄▄▄▄▄[0m
 [1;33;40m [0;31m██[0;1;33m [0;33m▀[0;1;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓ [0;31m▄▄▄▄▄▄[0;1;33m [0;33m▀[0;1;33m▀▀▀▀▀▀▀ [0;31m▄▄▄▄▄▄▄▄▄[0;1;33m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;31m██░[0;30;41m▓[0;1;33;40m [0;30;41m███████[0m
 [1;33;40m [0;31m██[0;30;41mlst!_[0;31;40m███▀██████████▄▄▄██▀▀▀███████▄█████▀▀▀▀▀███████████▀████████░[0;30;41m▓[0;1;33;40m [0;30;41m███████[0m
-                    [31m▀▀▀▀▀▀▀ [0m
-[1;33m  [0;31m [0;1;33m  [0;31mhellO!. im soul trader, i choose to do art because i believe that[0m
-  [31m [0;37m  [0;31meven people with no skill can learn to do non-phatty ansi!ascii..[0m
-[31m   [0;37m  [0;31mwant some ansi done for your board?..ok.. sure. keep art dead....[0m'
+                    [31m▀▀▀▀▀▀▀ [0m'

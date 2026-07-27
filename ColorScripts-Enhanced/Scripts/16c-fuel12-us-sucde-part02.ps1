@@ -5,7 +5,7 @@
 # Source SHA-256: 38b1da3a47ee32e5a6abfda6d8fdb229f4c981fe7cbbba13538f2f0d6f670ce2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SUCDE.ANS by Spirit Of Rage + Mr4tune (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Suicide
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Fuel Productions
@@ -50,5 +50,5 @@ Write-Host '
 [1;33;43m▓█▌[0m [36m▐[0;1;36;46m▐▌[0;1;34;40m▌[0m [1;33;43m░▄██████▄[0;33m▄▄▄▄[0;1;33m▄█[0;1;33;43m██▄[0;33m▄[0;1;33m▄▄[0;1;33;43m██[0;1;33;40m▄▄[0;1;33;43m█████[0;33m▌[0;36m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m▀▀[0;1;36;40m▀[0;1;36;46m▀▀[0;36m█[0;1;36;46m▀[0;35m▀[0;37m [0;1;33;43m▐███▄▄█████[0;30;43m▐[0;35;40m▐[0;1;35;45m▐█[0;35m▌[0;37m [0;35m▀[0;1;35;45m▀█[0;35m▄[0;1;30m [0m
 [33m░[0;30;43m▓▓[0;37;40m [0;36;40m▀[0;1;36;40m▀[0;1;30;40m  [0;33msuicide[0;37m  [0;33m [0;1;36m   [0;30;43m▓▓▓▓▓[0;1;36;40m   [0m [1;33m  [0;33m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓▓[0;37;40m [0;33;40m+o[0;1;33;40m deezack[0;1;30;40m        [0;33m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;37;40m  [0;35;40m4o!▀[0;1;35;45m▀█[0;1;35;40m▄[0m [35m▐[0;1;35;45m▐█[0;35m▌[0m
 [1;30m─────────────────────────────────────────────-──────-─────-──-── -─  ─[0;1;33m [0m [35m▀[0;1;35m▀[0;1;35;45m▀[0;1;35;40m██[0;35m▀[0;37m [0;1;30m-[0m
-        ansi pic by [1mspirit of rage/fuel - [0m font by [1mmr4tune/cia.echo.awe[0m        [1m [0m
+                    [1m                      [0m         [1m                    [0m        [1m [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

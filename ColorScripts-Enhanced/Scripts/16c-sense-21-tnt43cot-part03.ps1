@@ -5,7 +5,7 @@
 # Source SHA-256: cde442a5d5b18bf617415c0f959d8d48fd6b86d271272ab43512ff02e7017e92
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt43cot.ans by Taintedx + Aesthetic (sense.imagery); released in sense-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cotm(jungle.fevah)
 # SAUCE Author: aesthetic.tainted
 # SAUCE Group: sense.imagery
@@ -54,4 +54,4 @@ Write-Host '
                                                  [1;33m [0m        [36m■▄   [0;1;30;46m▀[0;36m▓ ▄▌▀[0m
                                                [1;33m  [0m           [36m ■▄[0;1;36;46m▄▒▒[0;36m█▄[0m
                                             [1;33m    [0m            [36m    ▀▀[0;1;30m▀[0m
-               [1m░░ c[0;1;36mo[0;36mnstipation.of.the.[0;37mmind[0;1;30m>>[0;1;37moperated.by.haliphax[0m<<[0m'
+               [1m░░  [0;1;36m [0;36m                  [0;37m    [0;1;30m  [0;1;37m                    [0m  [0m'

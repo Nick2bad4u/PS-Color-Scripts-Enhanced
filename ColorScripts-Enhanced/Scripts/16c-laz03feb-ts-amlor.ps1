@@ -5,7 +5,7 @@
 # Source SHA-256: cbbbbbb4d30aa4a606870258fa523e13ee98527d1fc946b0e8c0e5dca5ee059d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-AMLOR.ANS by tr(ansi)ent ((laz)arus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: (am)lor
 # SAUCE Author: tr(ansi)ent
 # SAUCE Group: (laz)arus
@@ -48,6 +48,5 @@ Write-Host '
 [1;31m  [0;1;33m▌[0;1;31m  [0;1;33m▀[0;1;37m▀[0;1;33m▄▄▄[0;1;37m■[0;1;33m ■[0;1;37m▄▀[0m [1;33m▓▓[0;35m░██████[0;1;35;45m░░░[0;35m▌▄ [0;1;30m [0m             [32m  [0m  [35m▄[0;1;32;45m░░[0;35m▐[0;1;35;45m░[0;35m▌[0m [1;31;43m░░[0;33m▀▀▀[0;35m     [0m  [36m░░[0m     [1;36m▒▒[0m
   [1;33m■[0m  [1;33m▄▄▄█▀▀▀▄▄[0m [1;33m▄▒▒▄■[0m [35m▀▀[0;1;35;45m░░▒▓▒░[0;35m█▄▄▄▄[0m          [35m▄▄▄[0;1;32;45m▓▓[0;35m▀▀▀[0m [35m▀█▄[0m    [35m  [0m    [36m░[0m      [1;36m░[0;1;37m░[0m
 [1;33m░[0m [1;33m▀▀█▀[0;1;37m▀▀▀[0;1;33m▀▄[0;1;37m▄▄▄[0;1;33m▄▄▓▓▄▄▄▄▄▄■[0m       [35m▀▀▀▀▀▀[0m    [35m▀▀▀[0m           [35m▀▀[0m
-[1;33m a  ░░, . m[0;1;37mom[0;1;33mm .░. e[0;1;37mntar[0;1;33my .░░. l [0;1;37maps[0;1;33me ..░░. of r[0;1;37meas[0;1;33mon .░...░. o[0;1;37mpped[0;1;33m░: m[0;1;37ma[0;1;33mD[0;1;37md[0;1;33mm [0;1;37ma[0;1;33m [0;1;37mx[0;1;33m.[0m
-[32m└┐┘─└┐[0;1;32m┘│┴┤┌┐┘[0;1;36m┘└┬┴┌┐├┤[0;1;37m─└┤┴│┴┤┌[0;1;33m├└┐┌└┘┬[0;1;31m┘└┤└┬┤│[0;33m┴┬├┘─┤[0;31m┬┴└┘├─[0;1;30m┴└┤┘└┤[0m┘┬┐└─┤├[1m│└┘─┤[0;1;32m┬└┘┤┬┐[0;32m┘[0m
-[1;36mt [0;1;32mhe[0;1;36m  s[0;1;32mil[0;1;36m [0;1;32ment[0;1;36m w[0;1;32malls[0;1;36m [0;36m....[0;1;36m [0;36m.[0;1;36m t[0;1;32mh[0;1;36m [0;1;32mey[0;1;36m [0;36m..[0;1;36m s[0;1;32mpo ke[0;1;36m [0;36m..[0;1;36m t[0;1;32mo [0;1;36mm[0;1;32me[0;1;36m [0;36m..[0;1;36m a[0;1;32mnd[0;1;36m t[0;1;32mol[0;1;36m [0;1;32md[0;1;36m m[0;1;32me[0;1;36m n[0;1;32mo[0;1;36m [0;1;32mt hing[0;1;36m [0;36m..[0m'
+[1;33m    ░░     [0;1;37m  [0;1;33m   ░   [0;1;37m    [0;1;33m   ░░    [0;1;37m   [0;1;33m    ░░      [0;1;37m   [0;1;33m    ░   ░   [0;1;37m    [0;1;33m░   [0;1;37m [0;1;33m [0;1;37m [0;1;33m  [0;1;37m [0;1;33m [0;1;37m [0;1;33m [0m
+[32m└┐┘─└┐[0;1;32m┘│┴┤┌┐┘[0;1;36m┘└┬┴┌┐├┤[0;1;37m─└┤┴│┴┤┌[0;1;33m├└┐┌└┘┬[0;1;31m┘└┤└┬┤│[0;33m┴┬├┘─┤[0;31m┬┴└┘├─[0;1;30m┴└┤┘└┤[0m┘┬┐└─┤├[1m│└┘─┤[0;1;32m┬└┘┤┬┐[0;32m┘[0m'

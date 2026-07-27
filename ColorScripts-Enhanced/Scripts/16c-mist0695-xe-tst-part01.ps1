@@ -5,7 +5,7 @@
 # Source SHA-256: e9385afd8336c328eeabc3dc82bdfd6ba70260753a5d42e08846cda6697f5804
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XE-TST.ANS by Xeryrus (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Screaming Tomato
 # SAUCE Author: Xeryrus
 # SAUCE Group: MiSTiGRiS
@@ -22,13 +22,4 @@ Write-Host '
              [1;31;41m▒[0m  [1;37;47m▒[0;1;33;47m [0m██ [1;47m▒[0m██ [1;47m░[0m██▄ ▄▄▄▄ ▀[1;47m▒[0m████▄▄▄▄▄ [31m [0;37m    [0;1;37;47m▒[0;1;33;47m [0m██ [1;30mxe[0m  [1;31;41m░[0;31m▓[0m
              [1;31;41m░[0;31m░█   [0;1;30m░[0;31m█  [0;1;30m░[0;31m█   [0;1;30m░[0;31m█   [0;1;30m░[0;31m█▀▀▀▀▀█     [0;1;30m░[0;31m█▓███   [0;1;30m░[0;31m█████[0;1;31;41m▒[0;31m█[0m
              [31m█▒█  [0;1;30m▄▓[0;31m▓ [0;1;30m▄▓[0;31m█  [0;1;30m▄▓[0;31m█  [0;1;30m▄▓[0;31m█▄        [0;1;30m▄▒[0;31m▄█████  [0;1;30m▄▓[0;31m█████[0;1;31;41m▓[0;31m█[0m
-             [31m█▓███████[0;30;41mM i S T i G R i S[0;31;40m██[0;30;41m  1 9 9 5[0;31;40m█[0;1;31;41m ▀[0;31m█[0;1;31;41m▀▀[0;31m█[0;1;31;41m▀▀▀▀▀[0;31m█[0m
-
-
-
-
-
-
-
-
-                     [31m [0m'
+             [31m█▓███████[0;30;41mM i S T i G R i S[0;31;40m██[0;30;41m  1 9 9 5[0;31;40m█[0;1;31;41m ▀[0;31m█[0;1;31;41m▀▀[0;31m█[0;1;31;41m▀▀▀▀▀[0;31m█[0m'

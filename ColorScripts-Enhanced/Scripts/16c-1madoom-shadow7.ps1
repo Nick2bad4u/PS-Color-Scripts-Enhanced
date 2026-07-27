@@ -5,7 +5,7 @@
 # Source SHA-256: c6d4e9fc1d11febe8b326bf196d96c17c5a7dad9dc46767f6399ba6cb69b23a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SHADOW7.ANS by Doomsday (ShadowByte); released in 1madoom and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ringl Rangl wos fia Handl?
 # SAUCE Author: Doomsday
 # SAUCE Group: ShadowByte
@@ -23,7 +23,7 @@ Write-Host '
      [1;47m▓▓▓▓▓▒[0m        [1;30m▐[0m▌ [1;36msay that theyr Headquater is the   [0m▐[1;30m▌[0m       [1;47m▒▓▓██[0;1;40m▄[0;1;47m██▓▓[0m▀
 [1;47m▓[0;1;40m████[0;1;47m▓▓▓[0;1;40m███[0m        [1;30m▐[0m▌ [31mSkyNet BBS [0;1;36m(+43-3178-2471)[0m         ▐[1;30m▌[0m       [1;47m▓████[0m [1;47m▓████[0m
 [1;47m█████[0;1;40m█[0;1;47m█████[0m        [1;30m▐[0m▌                                    ▐[1;30m▌[0m       [1;47m█████[0;1;40m▄[0;1;47m█████[0m
-                   [1;30m▐[0m▌ [34mHere they are:[0m                     [37m▐[0;1;30m▌[0m
+                   [1;30m▐[0m▌ [34m              [0m                     [37m▐[0;1;30m▌[0m
 [34m░▒▓▀▀ [0;1;37;47m░░[0;1;30;47m░░▒[0m        [1;30m▐[0m▌                                    ▐[1;30m▌[0m       [34m░▒▓▀▀ [0;34;47m  [0;1;30;47m░░▒[0m
 [34m▓▀[0;37m▄[0;1;37;47m░▒[0m [1;47m░░  [0;1;30;47m░[0m        [1;30m▐[0m▌ [31mRed StRiPe: [0;1;30mCoder, Composer, SysOp[0m ▐[1;30m▌[0m       [34m▓▀[0;37m▄[0;1;37;47m░▒[0m [1;47m░░  [0;1;30;47m░[0m
 ▄[1;47m░░▒▓[0m [1;47m▒▒░░ [0m        [1;30m▐[0m▌             [1;30mof Shadowbyte WHQ[0m      ▐[1;30m▌[0m       ▄[1;47m░░▒▓[0m [1;47m▒▒░░ [0m

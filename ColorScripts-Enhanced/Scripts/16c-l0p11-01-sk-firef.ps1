@@ -5,7 +5,7 @@
 # Source SHA-256: 2a700f05d9cf496a34be94249a7887ba52d3ab2f4eba0ac34a780ea70c40d1b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!FIREF.ANS by sIMONkING (tHELo0p); released in l0p11_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 4 firefx!
 # SAUCE Author: sIMONkING
 # SAUCE Group: tHELo0p
@@ -54,5 +54,4 @@ Write-Host '
           [1;34;44m▓▓[0;34m▌[0;37m  [0;33m▄▄▄▄▄[0;34m▐[0;1;34;44m█[0;1;34;46m▀[0;34m▌[0;33m▀[0;37m [0;34m▐[0;1;34;44m▀[0;1;34;46m▀[0;34m▌ [0;1;34;44m▀█[0;34m▄▄[0m    [33m▀█[0;37m  [0;34m▀▀[0;1;34;44m▀▀[0;34m█[0;1;34;44m▄▄██[0;1;34;46m▓▒░░[0;36m▀[0;37m  [0;34m▀[0;1;34;44m▀[0;34m██[0;1;34;44m▄▄▀[0;34m▀[0;37m [0;34m█[0;1;34;44m█[0m  [1;33m▐[0m
  [33m█[0;1;33;43m░░░░░░[0;33m█[0;37m  [0;1;34;44m▀▄▄[0;34m▄[0m   [1;33;43m▒▒[0m [1;34;44m▀▀[0;34m█[0;37m [0;33m▄[0;37m [0;34m▀▀▀▄[0;37m [0;34m▀▀[0;1;34;44m▀▀[0;34m███[0;37m  [0;33m▀[0;37m  [0;33m▀▄[0;37m [0;34m ▀▀▀[0;33m▄[0;34m [0m     [33m▀▄[0m      [33m▀[0;37m [0;34m█[0;1;34;46m [0m  [1;33;43m▓[0m
    [33m▀▀[0;1;33;43m▒▒▒[0;33m▄▄[0;37m  [0;34m▀▀▀[0m    [1;33m▀[0;33m▀[0;1;33m▄[0m    [1;33m▀[0;33m▀[0;1;33m▄[0m    [33m▀[0m         [33m▀[0;1;33m▄[0m [1;33;43m▓▓[0m    [1;33m▀[0m              [1;33m▀[0;34m█[0;1;34;44m▀[0m   [1;33m▀[0m
-        [1;33m▀[0;33m▀▀[0;1;33m▄[0m                                    [1;33m▀[0m [1;30mlogo,pic by simonking![0m
-                                                  [1;30msimonking@poczta.onet.pl[0m'
+        [1;33m▀[0;33m▀▀[0;1;33m▄[0m                                    [1;33m▀[0m [1;30m                      [0m'

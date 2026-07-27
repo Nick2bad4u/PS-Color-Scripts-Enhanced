@@ -5,7 +5,7 @@
 # Source SHA-256: 7d0dac8be3ce032c150691c8d8932247c76728a459292985f5b07c48da2a3f58
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-iqtm.ans by Access Denied + Avenging Angel + Enzo (1465-001); released in 1465-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -32,6 +32,5 @@ Write-Host '
 [34m▀█[0;1;37;44m4d[0;34m█[0;32m   [0;37m [0;31m▄[0;1;31;41m█[0;1;31;40m▄[0;1;31;41m▄▀[0;31m▀[0;37m [0;34m [0;31m ▀[0;1;31;41m▀██▀[0m  [35;41m [0;37;40m [0;31;40m▀[0;1;31;41m▀██▒[0m [33m▀▄[0;1;31;43m▒[0;1;31;41m██▄[0;31m▄[0;37m [0;34m [0;37m [0;31m▀[0;1;31;41m▀██▄[0;31m▄[0;37m [0;34m   [0;37m [0;1;31;41m▀███[0;31m▄[0m       [1;31;41m█[0;1;31;40m▄▄[0;1;31;41m▄██▀[0;31m▒[0m
 [30;44m [0;1;37;44mavg[0;30;44m [0;34;40m▒[0;32;40m [0;37;40m [0;1;31;41m▒██▀[0;31m▀ [0;34m▒▒ ▒ [0;31m  ▀[0;1;31;41m [0;1;31;40m [0m [31m▀▄▄▄▀▀█[0;37m [0;34m [0;37m [0;31m▄█[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0;34m   [0;37m [0;31m▄[0;1;31;41m▀▀[0;1;31;40m▀[0;31m▀[0;37m [0;34m  [0;37m  [0;31m▄█[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0;37m [0;34m   [0;37m  [0;31m▄[0;1;31m█[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0;1;31;41m█[0m
          [32m  [0m          [31m [0;1;31;41m [0;1;31;40m▄[0;1;31;41m▄█▀[0;31m▀   [0;1;31;41m▒[0;31m [0;34m  [0m     [34m  [0m           [31m▀[0m          [31m▒▀[0;37m  [0;31m  [0;1;31;41m▒[0;31m ▒[0m
-[37m  [0;1;30mtextspace if spec[0m  [1;31;41m▒██▀[0;31m▀   [0;1;31m▒[0m [1;31;41m█[0;31m [0;34m   [0;36mthank you for using [0;1;36miQTerm[0;36m [0m     [31m  ▀▄[0;1;31;41m [0m
-  [1;30mwants to use ..[0m   [31m▒▒▒▒   [0;37m  [0;1;31m▀▄[0;1;31;41m█[0;31m   [0;37m [0;1;30miniquity development team ''06[0m
-  [1;30mline 25 is open as well...[0m        [1;30mhttp://[0m [1;30mor email ?[0m'
+[37m  [0;1;30m                 [0m  [1;31;41m▒██▀[0;31m▀   [0;1;31m▒[0m [1;31;41m█[0;31m [0;34m   [0;36m                    [0;1;36m      [0;36m [0m     [31m  ▀▄[0;1;31;41m [0m
+  [1;30m               [0m   [31m▒▒▒▒   [0;37m  [0;1;31m▀▄[0;1;31;41m█[0;31m   [0;37m [0;1;30m                             [0m'

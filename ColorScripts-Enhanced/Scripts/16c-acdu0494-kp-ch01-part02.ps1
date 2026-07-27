@@ -5,7 +5,7 @@
 # Source SHA-256: 19a3af2f12a50756fe3ce0d7867c4a8c5a807dfda0e5928808c8c4a1f16bb113
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KP-CH01.ANS by Kingpin (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Channel Zer0
 # SAUCE Author: Kingpin
 # SAUCE Group: ACiD Productions
@@ -59,9 +59,4 @@ Write-Host '
               [1;32;42m░[0;32m██▓[0;1;30m░[0m      [1;32;42m░[0;32m██▓[0;1;30m░[0m     [1;32;42m░[0;32m██▓[0;1;30m░    [0;1;32;42m░[0;32m██▓[0;1;30m░ [0;1;32;42m░[0;32m██▓[0;1;30m░[0;32m▀▀  [0;1;32;42m░[0;32m██▓[0;1;30m░[0m
               [1;32;42m░[0;32m██▓▄▄▄▄▄  [0;1;32;42m░[0;32m██▓▄▄▄▄  [0;1;32;42m░[0;32m██▓[0;1;30m░    [0;1;32;42m░[0;32m██▓[0;1;30m░ [0;1;32;42m░[0;32m██▓▄▄▄▄▄[0;1;32;42m░[0;32m██▓[0;1;30m░[0m
 
-[1;30m─ ───  ─────────────────────────────────────────────────────────────────  ─── ─[0m
-       Original Picture/ANSI "Decker" - by [1mKingpin [0m(L.W.G.)  02/21/94
-         If you would like an original ANSI/RIP/VGA/or EGA from me,
-         please contact me at eapu294@orion.oac.uci.edu or on CZ,
-                       Gothic''s Network, I-Net, etc...
-               This Artwork is (c) [1;30m<[0;1;37mACiD[0;1;30m> [0mProductions 1994[0m'
+[1;30m─ ───  ─────────────────────────────────────────────────────────────────  ─── ─[0m'

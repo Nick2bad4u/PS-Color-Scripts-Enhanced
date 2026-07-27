@@ -5,7 +5,7 @@
 # Source SHA-256: 91bb2e8b081f565a7f9b75c8d433622d7e1c7263e2dd76709bb0b04d7662ff3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-&.ANS by The Night Angel (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: & (ampersand)
 # SAUCE Author: The Night Angel
 # SAUCE Group: awe lettering
@@ -36,9 +36,8 @@ Write-Host '
 [34m ▀▄[0m      [34m▀■ ▄  ▐▌   ▀▀[0;1;36;44m░[0;34m░ ▌ ▐▌▀[0;34;47m▒[0;37;44m░[0;34;40m▌░  [0;1;33;40m▌    [0;34m▐▌  ░ ▄[0;1;34m▄[0;31m▀[0;1;33;41m░[0;1;37;41m░[0;1;31;41m▓▓[0;1;31;40m▒[0m     [31m▀  [0;34m▐[0m       [34m▄▀    ▌░[0m
      [34m▀[0;1;34m░[0m         [34m▀▄[0m       [34m░  ▀▄▄▀ ▀ [0;1;33m░▌ [0;34m▄▄▄▄█▄    ▀ [0;31m▐[0;1;31;41m░░░[0;31m▀▀▀ [0;34m░    ▐▄▄▄▄▓▀▀[0m      [34m▌[0m
 [36m──-─────-────-────  [0;34m▀▀▀  [0;36m─--───────-───-─-  [0;34m▀▀ [0;31m▄ ■▀▀ [0;36m──- [0;34m▀▀▀▀▀▀▀▀▀  ░ [0;36m─────- [0;30;44m▓[0m
-[1;33;40mfluor[0;1;36;40m:[0m [36mhow about we do a joint?[0m
-[1;33meerie[0;1;36m:[0m [36m(: a^oqe se awes[0m
-[1;33mslvrthrn[0;1;36m:[0;36m I''m sorta [0;1;36mfucking[0;36m bored of your cheap standard type of ridiculous    [0m
-   [30m^[0m      [1;36msquared outlines[0;36m.[0;1;36m [0;36mWhy don''t you take a look at what you do first. [0m
-[1;33mthe[0;30m│[0;1;33mextremist[0;1;36m: [0;36mThanks for being nicer than him ;)[0m
-[30m* see FIRE0896.ZIP for details :)[0m'
+[1;33;40m     [0;1;36;40m [0m [36m                        [0m
+[1;33m     [0;1;36m [0m [36m                [0m
+[1;33m        [0;1;36m [0;36m           [0;1;36m       [0;36m                                                    [0m
+   [30m [0m      [1;36m                [0;36m [0;1;36m [0;36m                                                [0m
+[1;33m   [0;30m│[0;1;33m         [0;1;36m  [0;36m                                  [0m'

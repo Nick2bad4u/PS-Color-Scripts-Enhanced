@@ -5,7 +5,7 @@
 # Source SHA-256: b73f53831788d78d4ff4466cd128e024f482e15e77260c40c0a2ba2fa4c22764
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XMSLEIGH.ANS by Jean Ludwig (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -27,6 +27,6 @@ Write-Host '
 [34;41m█[0;34;46m   [0;1;30;46m█      [0;1;37;46m°                    .              .   [0;33;46m▀▀▀▄▄▄  █  [0;1;37;46m°  ·   [0;34;41m█[0m
 [34;41m█[0;34;46m             [0;1;37;46m°       °                   °        °     [0;33;46m▀▀▀▄▄▄      [0;34;41m█[0m
 [34;41m█[0;34;46m  [0;1;37;46m°      .                       , °                  °       [0;33;46m▀▀▀   [0;34;41m█[0m
-[34;41m█[0;34;46m              [0;1;37;46m°          °                     °      Screen by     [0;34;41m█[0m
-[34;41m█[0;34;46m  [0;1;36;46m''Twas the night before.......                       [0;1;37;46mJean Ludwig   [0;34;41m█[0m
+[34;41m█[0;34;46m              [0;1;37;46m                                                      [0;34;41m█[0m
+[34;41m█[0;34;46m  [0;1;36;46m                                                    [0;1;37;46m              [0;34;41m█[0m
 [34;41m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄[0m'

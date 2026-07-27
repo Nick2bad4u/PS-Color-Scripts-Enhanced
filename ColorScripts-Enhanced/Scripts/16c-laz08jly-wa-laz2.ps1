@@ -5,7 +5,7 @@
 # Source SHA-256: 6c783f4391a285baef3d848c7cfbc04b0cbb432c364f9ec1d37f784f11ea0f0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-LAZ2.ANS by warpus (lazarus); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lazarus promo
 # SAUCE Author: warpus
 # SAUCE Group: lazarus
@@ -30,9 +30,4 @@ Write-Host '
 [34m  [0;1;34;44m▒█[0;1;34;47m▓[0;1;34;44m░▒▓█▌ [0;34m▌ [0;35m   [0;34m [0;1;34;44m▒█[0;1;34;47m▓[0;1;34;44m▌[0;34m [0;35m [0;34m [0;1;34;44m ▓ [0;34m  [0;1;34m░[0;1;34;44m▒▓█▌ [0;34m▌ [0;35m    [0;34m█[0;1;34;44m▒██ ▓█[0;1;34;47m▓[0;34m▌██[0;1;34;44m▄▄[0;34m▌[0;35m     [0;34m▐[0;1;34;44m ▓▓▒[0;34m▌[0m    [34m   ░[0;1;34;44m░░[0;34m▒   [0m
 [34m  [0;1;34;44m▓[0;1;34;47m▓▒[0;34m█▀█[0;1;34;44m▀▀█▄[0;34m▄ [0;35m  [0;34m [0;1;34;44m▓[0;1;34;47m▓▒[0;1;34;44m▌[0;34m  [0;1;34;44m █▌[0;34m▌[0m   [34m▀█[0;1;34;44m▀▀█▒[0;34m▄[0m    [34m█[0;1;34;44m▓[0;1;34;47m█▓[0;1;34;44m █[0;1;34;47m▓▓[0;1;34;44m [0;34m█[0;1;34;44m░▓▓[0;34m▌[0;35m     [0;34m▐[0;1;34;44m▐█▓▓[0;34m▌       ▒[0;1;34;44m▓▓[0;34m░   [0m
 [34m  [0;1;34;44m█[0;1;34;47m░░[0;34m█   ▀▀▀▀[0;1;34;44m  [0;34m▄▄[0;1;34;44m█[0;1;34;47m▒░[0;1;34;44m▌[0;34m ▐[0;1;34;47m▓▓[0;34m█ [0m   [34m   ▀▀▀[0;1;34;44m [0;34m██▄▄[0;1;34;44m░█[0;1;34;47m▒░[0;34m▐[0;1;34;47m█▒░[0;1;34;44m [0;34m██[0;1;34;44m░░[0;34m█▄   ▄[0;1;34;44m▄███▌[0m      [34m  ▓[0;1;34;44m██[0;34m    [0m
-[34m  ▀▀▀▀[0;35m         [0;34m  ▀▀▀▀ [0;1;34;44m▐[0;1;34;47m░░▓▓[0;1;34;44m███░   [0;34m█      ▀▀▀▀ [0;1;37m   [0;34m  ▀▀▀[0;1;34;44m░[0;1;37;44m▐[0;1;34;47m  ▒█[0;1;34;44m██[0;1;34;40m▀▀[0;34m▐█[0;1;34;44m   ░█[0;1;34;47m██▓▓█[0;1;37;40m [0;34m  [0m
-     [35m [0;37m [0;35m         [0m      [1;30m  [0;1;37m  [0m
-     [35m  [0;1;35ml a z a r u s [0;35m -  demanding scene reforms[0m        [34mwarpus[0m
-     [35m     [0m
-
-       [1;30mgreets to samurai and grind king - that''s where i got the shading :)[0m'
+[34m  ▀▀▀▀[0;35m         [0;34m  ▀▀▀▀ [0;1;34;44m▐[0;1;34;47m░░▓▓[0;1;34;44m███░   [0;34m█      ▀▀▀▀ [0;1;37m   [0;34m  ▀▀▀[0;1;34;44m░[0;1;37;44m▐[0;1;34;47m  ▒█[0;1;34;44m██[0;1;34;40m▀▀[0;34m▐█[0;1;34;44m   ░█[0;1;34;47m██▓▓█[0;1;37;40m [0;34m  [0m'

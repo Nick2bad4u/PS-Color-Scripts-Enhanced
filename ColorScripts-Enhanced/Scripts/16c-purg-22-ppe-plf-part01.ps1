@@ -5,15 +5,15 @@
 # Source SHA-256: 59f55c64172b30d1d9c2d41733c336479dcfc8cb7604b361366cf8b59db30147
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-PLF.ANS by Purplee (purg-22); released in purg-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
-[1;30mHEY! This ascii reqiures[0m [1;30m3dfx damnit![0m
+[1;30m                        [0m [1;30m            [0m
 
 
-                     [31m,sssss@@@@@@@@@@SSSSSSSSSSSS@@@@@@@@@@@ssss,_[0m
+                     [31m                                             [0m
 [37m [0;31m   [0m      [32m   [0;37m [0;31m_.,┌mS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Sm┐,._ [0m
            [31m,sS$$$$$$$│$$$$$$$$$$$$$$$$$$$$$$│││││││$$$$$$$$$$$$$$$$$$│$$$b,_[0m
 [1;33m          [0;31m:$$$$$$$$$$$$$$$$$$$[0;1;31m$$$$[0;31m$$$$$[0;1;31;41m$$$$[0;31m$$$$$$$$$$$$$$$$$$$$$[0;1;30m$$$$$[0;31m$$[0;33m$$$$[0;31m$b[0m

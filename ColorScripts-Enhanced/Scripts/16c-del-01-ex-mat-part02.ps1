@@ -5,7 +5,7 @@
 # Source SHA-256: 3f1bdc00b824df5e88e8ae90fc777e2917b23ccbd0f4dbdd29eeaa423e757252
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EX-MAT.ANS by Excelsior (del_01); released in del_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 29-56
 # Columns: 1-80
 
@@ -28,13 +28,4 @@ Write-Host '
                      ██ [33m▀███[0;1;33;43m▐[0m  [1;30;43m█[0;33m██[0;1;33;43m▐[0m
                       ▀█▄ [33m▀█[0;1;33;43m▐[0m [1;30;40m▐[0;1;30;43m▌[0;33m▀[0;1;33;43m▄[0;1;33;40m▀[0m
                         ▀█▄   ▄▄ ▄
-                           ▀▀▀
-
-[1m [0m              [1m      [0m  [1m EXcelsior·Deleria[0m
-
-             [1m"I am just too damn lazy to add a font.."[0m
-
-
-               [1m (slight modifications made by MrO)[0m
-
-                       [1m"this is art, kids.."[0m'
+                           ▀▀▀[0m'

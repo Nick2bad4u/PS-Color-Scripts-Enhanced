@@ -5,7 +5,7 @@
 # Source SHA-256: e72e3b29f620f374fa8e89992c23a7e7ba92ca53ae81cce1c46c8cb69d0529c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NM-CITY2.ANS by The Necromancer (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 42-67
 # Columns: 1-80
 
@@ -33,5 +33,5 @@ Write-Host '
                            [1;37;40m▀[0;1;37;44m▄ [0;1;34;44m▄[0;1;34;40m▀[0m      [1;34;40m▀    ▀[0m      [1;34;40m▀[0;1;37;40m█[0;1;37;44m  [0;1;34;44m█[0m
                              [1;34;40m▀[0m                    [1;37;40m▄[0;1;37;44m▀  [0;1;34;44m█[0m
                                                 [1;37;40m▄[0;1;37;44m▀  [0;1;34;44m▄[0;1;34;40m▀[0m
-[1;37;40mA[0mNS[1;30mi [0;1;37mb[0my [1mT[0;1;31mh[0;31me [0;1;37mNec[0;1;31mroma[0;31mncer [0;1;30m[[0;1;37mG[0;1;33mR[0;1;31mi[0;31mM[0;1;30m] [0;1;37m''9[0m2             [1m▀[0;1;44m▄ [0;1;34;44m▄[0;1;34;40m▀[0m
+[1;37;40m [0m  [1;30m  [0;1;37m [0m  [1m [0;1;31m [0;31m  [0;1;37m   [0;1;31m    [0;31m     [0;1;30m [0;1;37m [0;1;33m [0;1;31m [0;31m [0;1;30m  [0;1;37m  [0m              [1m▀[0;1;44m▄ [0;1;34;44m▄[0;1;34;40m▀[0m
                                                  [1;34;40m▀[0m'

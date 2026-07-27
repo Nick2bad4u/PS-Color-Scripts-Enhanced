@@ -5,7 +5,7 @@
 # Source SHA-256: 1d73fa615f5cb82543900e57e6966f55fb0183bbaf4432754f03cdb4a920245f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-TEH3.ANS by Terminator2 (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Eleventh Hour
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -22,7 +22,7 @@ Write-Host '
                                      [1;30m░  ▀[0m         [1;30m░[0m
 
 
-[30mTT iz GaY[0;1;36m░[0m                   [36m░[0m      [36m░[0m                [30miCE Blows Y0 Mamaa...[0m
+[30m         [0;1;36m░[0m                   [36m░[0m      [36m░[0m                [30m                     [0m
         [30;46m█[0;1;36m▒▄▄▀[0;1;36;46m▒[0m               [36m▒   [0;1;36m▀▄▄[0;36m▒░[0m         [1;36m▄   ▄  [0;36m░   [0;1;36m▄  ▄▄    ▄ ▄▄▄[0;1;36;46m▓[0;1;36m▀[0;1;36;46m▒[0m
 [30;46m█[0;1;36m▀[0;30;46m██[0;1;36m▀▀[0;30;46m█[0;1;36m▀▀▓[0;1;36;46m▓[0;1;36m▌▐▌ [0;30;46m███████████[0;1;36m▀▄▄[0;36m▓░[0;30;46m███[0;1;36m▐[0;1;36;46m▓▒░[0;36m▀▀[0;30;46m█[0;36m▀[0;30;46m██[0;1;36m▄▌[0;30;46m██[0;1;36m▀[0;1;36;46m▓[0;1;36m▄▄[0;30;46m█[0;36m▄▒[0m       [1;36m▄▄[0;1;36;46m▒[0;1;36m▀▄▐[0;1;36;46m▓[0m [1;36;46m▒▓[0;1;36m▌▐▌[0m
 [1;36m  [0;1;30m▄[0;1;30;46m▒░[0;36m▀[0;1;30;46m░ [0m [1;36;46m▓▒[0m  [1;36m▀[0m             [1;36m▐[0;1;36;46m▓▒[0;1;36m▀[0;1;36;46m▓▒[0;36m▄ [0;1;36;46m▒░[0;36m▌[0m     [1;36m▀▀[0;1;36;46m▒[0;36m▄▌ [0;1;36;46m▒▓[0;1;36m▌  [0;36m▓░  ▀▄▄▌ [0;1;36m▀▌  [0;1;36;46m▓▒[0m [1;36;46m░▒[0;1;30mt2[0;1;36m▀ [0;1;30m░[0m
@@ -46,14 +46,14 @@ Write-Host '
            [1;30m▄[0;1;30;46m▓[0;1;30m▀ ░▀▀[0;1;30;46m▓[0;1;30m▄▀▄▄[0;1;30;46m▓[0;1;30m▀ ▀▀▀▓[0;1;30;46m▓[0;1;30m▄▀▀[0;1;30;46m▓[0;1;30m▄ ▒▀▀▀[0;1;30;46m▓[0;1;30m▄[0m       [1;30m▓[0m
           [1;30m▐[0;1;30;46m▓[0;1;30m▌[0;1;30;46m▓[0;1;30m▄   ▐▓▀[0m        [1;30m▒▐[0;1;30;46m▓[0;1;30m▌▄▐[0;1;30;46m▓[0;1;30m▌░ ▄[0;1;30;46m▓[0;1;30m▐[0;1;30;46m▓[0m       [1;30m█  The Newest ViSiON-X[0m
            [1;30m▀▓▀▌   ▀▒[0m         [1;30m░ ▀▀[0;1;30;46m▓[0;1;30m▌▀    ▀▀▓[0m       [1;30m▓[0m
-            [1;30m▒[0m      [1;30m░[0;30mtt is gay!  [0;1;30m▀▓░[0;30mice blo[0;1;30m▒[0m       [1;30m▓  Dual Standard 16.8k[0m
+            [1;30m▒[0m      [1;30m░[0;30m            [0;1;30m▀▓░[0;30m       [0;1;30m▒[0m       [1;30m▓                     [0m
             [1;30m░[0m                    [1;30m▒[0m        [1;30m░[0m       [1;30m▒[0m
 [1;30m ────────────────────────────────░────────────────░────────────────────────────[0m
-[1;30m the eleventh hour · 415·855·9657 · acid member board · running newest vision-x[0m
+[1;30m                                                                               [0m
 [1;30m ──────────────────────────────────────────────────────────────────────────────[0m
-       [1;30m...ansi finish at 2:30am on July 1st, by t2 of acid productions...[0m
+       [1;30m                                                                  [0m
 [1;30m ──────────────────────────────────────────────────────────────────────────────[0m
-[1;30m greets go out to · jeff,paul,carl,mike,harvey,mike,paul,john,john,jon,brandon,[0m
-[1;30m  scott,scott,chris,anders,greg,casey,shihear kalimazoo,mirage,ice,tribe,corp,[0m
-[1;30m enormous birthday greets go out to rad man and myself,and i love you,ginny! :)[0m
+[1;30m                                                                               [0m
+[1;30m                                                                              [0m
+[1;30m                                                                               [0m
 [1;30m ──────────────────────────────────────────────────────────────────────────────[0m'

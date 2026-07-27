@@ -5,7 +5,7 @@
 # Source SHA-256: 339e87eaf8c98ca0951041c7f7c269580ee8dec2142cc067619ab6223bbeac62
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-NM1.ANS by Terminator2 (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Necrom
 # SAUCE Author: Terminator2
 # SAUCE Group: Domino
@@ -32,7 +32,7 @@ Write-Host '
 __________ _ [1;31m▐█▀▄  [0m___ [1;31m▀▀[0;31m▄▄ [0;1;31m▄█▀▀[0;31m▄[0;1;31m▄[0;1;31;41m▓▓█[0;1;31;40m▀▀▀ [0m___ [1;30m▄ ▀▓█▀ [0m____  _  __:__  ____/|__ __
               [1;31m▀▀[0m        [31m█[0;1;31;41m░[0;31m▌  ▄[0;1;31;41m▄▄▓█[0;1;31;40m▀[0m                     _ __/ _|_ ___  /   |
 [1m. [0mn e c r o m a n c e r [1m.[0;31m▀  [0;1;31;41m▄█[0;1;31;40m▀ [0;31m▄[0;1;31;41m▓[0;1;31;40m▄  [0;1;30;40m<-- nUTSAQ!   [0m__/\\__ |         \/    |
- [1m. [0mnaked and on crack[1m! .   [0;1;31m▐[0;1;31;41m█[0m  [31m▐[0;1;31;41m▐[0;1;31;47m▓[0;1;31;40m▀[0;1;31;41m▓[0m                \     \|  -|┐          |
+ [1m  [0m                  [1m      [0;1;31m▐[0;1;31;41m█[0m  [31m▐[0;1;31;41m▐[0;1;31;47m▓[0;1;31;40m▀[0;1;31;41m▓[0m                            ┐           
  ansi[1m/[0mascii by t2[1m.[0mtwi[1m.[0mrms  [1;31;41m█[0;1;31;40m▌   [0;1;31;41m▒[0;1;31;40m▀▀  ░[0m       /\___ _ |   ,     |:      __  |__
   [1m. [0m06 [1m/ [0m97 [1m.  [0;1;30m▄▄▄[0m         [35m▄▄[0m     [37m_ ____/\  /[0m        [37m|   |\    |∙   `\/|   |[0m
             [1;30m▄█[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█▀▀▄▄  ▄▌   ▀[0m           \/         |   | \ __:_   :  |   :

@@ -5,7 +5,7 @@
 # Source SHA-256: 1baa27add6f642227aeef38aa22bb97b37df612e1aac6a27bdbaf05a557f88a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: e0-3pcs.ice by Enzo (iCE); released in ice-200206a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Small pieces
 # SAUCE Author: Enzo
 # SAUCE Group: iCE
@@ -17,7 +17,7 @@
 Write-Host '
  [33m [0;1;30m [0m                                                       [1;30m▄[0m▄[1;30;47m▀▀[0m████[1;47m░░░[0;1;30;47m▀[0m▄▄▄    [32m [0;1;30m▄[0;32m▄[0m
          [36mFile Menu to piranha bbs[0m        [37m          [0;31m▄[0;1;31m▄▄▄[0m   [1;30;47m█[0m [1;30m  [0;1;37m menu[0;1;33m    [0m [1;47m░[0;1;30;40m▌[0m  [1;30m▄▀[0;32m▀▀[0m
-[37m  [0;36mMake sure to telnet: <piranha.zapto.org>[0;37m      [0;31m▄▀▄[0;1;31m▄▄[0;1;31;41m▄█[0;1;31;47m▀▀[0;31m▄[0;37m  [0;1;33m [0;1;30m [0;1;37mprompt  [0;1;33m [0m [1;47m░[0;1;30;40m▌[0m    [32m  [0m
+[37m  [0;36m                                        [0;37m      [0;31m▄▀▄[0;1;31m▄▄[0;1;31;41m▄█[0;1;31;47m▀▀[0;31m▄[0;37m  [0;1;33m [0;1;30m [0;1;37m        [0;1;33m [0m [1;47m░[0;1;30;40m▌[0m    [32m  [0m
                                           [37m     [0;1;31;41m ▄▄██[0;1;31;47m██[0;1;31;41m█[0;1;31;47m█▓▓[0m [36m [0;1;37m goes here[0;1;33m [0m █[1;30m▌[0m  [32m ▄[0;1;32;42m░[0;32m█[0m
           [36m   w0rd to fever !       [0m         [37m  [0;31m▐[0;1;31;41m▓██████▀█▀[0;31m▀[0;37m [0;1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄█[1;30;47m▄[0m   [1;30m▀[0;32m [0;37m [0m
 [36m        [0m                         [36m            [0;37m [0;1;31;41m▒▒█▓█▓█▄[0;31m▄▀[0;37m [0;1;33;43m░[0;33m▌[0;37m [0;1;30m▀▀[0m▀▀▀▀▀ [1;30m▄[0m [1;30m  ▄[0m  [33m    [0m

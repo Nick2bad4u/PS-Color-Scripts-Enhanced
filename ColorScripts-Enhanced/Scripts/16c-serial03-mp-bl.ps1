@@ -5,7 +5,7 @@
 # Source SHA-256: a3f3c54f4ae0c2f3eb2b134cc650d1144dfbf6336b22f9003a3126c1f6062999
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-bl.ans by meatpod (serial); released in serial03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bloo lines
 # SAUCE Author: meatpod
 # SAUCE Group: serial
@@ -38,12 +38,4 @@ Write-Host '
  [34m:[0m            [34m    : [0;1;30mmp.[0;33m ;$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.$$$$$$$$$$$$$$b.[0;37m`?$[0m
 [37m [0;34m..[0;37m  [0;34m...... .. .. .   [0;33m.d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$y$$$$$$$$$$$$$$$$b.[0;37m`[0m
                 [34m     [0;33m,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-[37m-[cut heah, bitz]------------------------------------------------------X8-------[0m
-[37msorry I didn''t just draw you a font dude... like... sorry. =)  but I think this[0m
-[37mis a pretty cool pic even if the little 2-letter job kinda sucks. I''m not much[0m
-[37mon the inverse letter deal... sargon''s better than me. at everything. god I[0m
-[37mreally suck. anyway... this is for the prodigy. if you rip it, I''ll be pleased,[0m
-[37mbut sargon will catch you and then everyone will laugh at you, and you''ll[0m
-[37mprobably be kicked out of whatever shitty group you''re in, especially if it''s[0m
-[37mserial because we can''t tolerate rippers. peace out. werd. I''m a fucking alkie.[0m
-[37m -meat in a pod[0m'
+[37m-[cut heah, bitz]------------------------------------------------------X8-------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 08ef8f0f3b1a3f4d22e603fa72a17a8e5fb31fc3ebc4db12ce06e2136c6435c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASCII-27.ANS by Konami (ttdmisyk); released in ttdmisyk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -32,7 +32,7 @@ Write-Host '
 [31m`7,[0m         [1;33m$$$$$$[0;1;31m [0m            [1;30ml [0m       [1;30m;[0m              [1;30m$$ [0m                [1;31m  ,b$[0;1;33;41m$[0m
          [1;33m.,\$$$\²`[0;1;31m [0m            [1;30m;[0m                       [1;30m$$[0m                 [1;31m,b$$[0;1;33;41m$$[0m
 [1;33;40m ,⌐S$$$7²"``[0m       [31m$$$$$$[0m   [31mcome now [0;1;31mautobot[0;31m,[0m          [1;30mll[0m             [1;31m ,sS$$[0;1;33m$$$$[0m
-[1;33m $$$$$$[0m   [1mKONAMI[0m   [31m$$$$$$[0m   [31mwe all must die some day![0;37m  [0;1;30m;;[0m           [1;31m,⌐S$$[0;1;33m$$$$$$$[0m
+[1;33m       [0m   [1m      [0m   [31m      [0m   [31m                         [0;37m  [0;1;30m  [0m           [1;31m ⌐   [0;1;33m       [0m
 [1;33m $$$$$$[0m         [31m.,\$$$\²`[0m               [1;30m,[0m                  [1;33m  [0;1;31m  ,⌐sS$[0;1;33;41m$$[0;1;33;40m$$$$$$┼/⌐²[0m
     [1;33m`²/ [0;31m,⌐S$$$7²"``[0m           [1;30m$7"``[0m     [1;30ml[0m             [31m. ,⌐s@/[0;1;31mS$[0;1;33m$$[0;1;37m$$[0;1;33m$$$/⌐┴²"`[0m
         [31m$$$$$$[0m                [1;30m$[0m         [1;30m;,,    [0m

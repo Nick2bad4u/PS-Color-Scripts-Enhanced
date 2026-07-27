@@ -5,7 +5,7 @@
 # Source SHA-256: 1284413a0f3ea737eaac69a4d70c474ee5ff7bfd204d36ccb4669192286a2245
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-GAUL.ANS by filth (bLOCKtR0NiCS); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: NATiON
 # SAUCE Author: filth
 # SAUCE Group: bLOCKtR0NiCS
@@ -35,29 +35,17 @@ Write-Host '
           [31m▐[0;1;31;41m▓███▓[0m                                               [31m░[0;1;31;41m▓████▓[0;31m▌[0m
            [31m░░░░░[0m      [37mMCMXCiV[0m      [1;37mN[0m [1mA[0m [1mT[0;31m [0;1;37mi[0m [1m0[0m [1mN[0m       [37mMCMXCV[0m     [31m▀░░░░░[0m
 
-       [31manimal,[0;1;31m  asian[0m [1;31mknight,  [0;31mazrael,[0;37m  [0;1;31mblade,  [0;31mcyber-christ,[0;1;31m  cyber-tike[0m
-       [31mcyber[0;37m [0;31mx,[0;1;31m  cynic[0m [1;31mcypher,[0m [31mdeath karnage,[0;37m [0;1;31mdeeply[0m [1;31mdisturbed,[0m [31mdesolated-[0m
-       [31mdream,[0;1;31m  the[0m [1;31mdepredator,  [0;31mdreadnought,[0;1;31m  dragon[0m  [1;31mrider,[0m  [31meternal[0;1;31m [0;31mlie[0m
-       [1;31mfinal[0m [1;31mdescendant,[0m [31mfizban,[0;37m [0;1;31mforlorn[0m [1;31mextender,[0m [31mgrave[0;37m [0;31mdigga'',[0;37m [0;1;31mgreatful-[0m
-       [1;31mdead,  [0;31mhandyman,[0;1;31m  the[0m  [1;31mimmortal,  [0;31mindigestion,[0;1;31m  kamikazee,  [0;31mkiller[0m
-       [31mleonard0,[0;1;31m  lord[0m [1;31mash,[0m  [31mlord[0;37m [0;31mvice,[0;1;31m  maestro,[0;1;30m  [0;31mmr. man,  [0;1;31mmr. sinister[0m
-       [31mmagnetic m,[0;1;31m  marshmallow hex,[0;31m the masked pirate,  [0;1;31mmindcrime,[0;31m omega-[0m
-       [31mredd,[0;1;31m prince of death, [0;31mred leader,[0;1;31m replay, [0;31mriptide,[0;1;31m skyhigh,[0;31m smooz[0m
-       [1;31msociopath, [0;31mspirit of illusion,[0;1;31m suicidal maniac,[0;31m swami, [0;1;31mtranquility[0m
-       [31mvandal,  [0;1;31mvanquish,  [0;31mvector,  [0;1;31mveritech,[0;31m  village idiot, [0;1;31mwhite noise[0m
-                           [1;31myoung,[0;31m zepplin,[0;1;31m zero option[0m
+       [31m       [0;1;31m       [0m [1;31m         [0;31m       [0;37m  [0;1;31m        [0;31m             [0;1;31m            [0m
+       [31m     [0;37m [0;31m  [0;1;31m       [0m [1;31m       [0m [31m              [0;37m [0;1;31m      [0m [1;31m          [0m [31m          [0m
+       [31m      [0;1;31m     [0m [1;31m             [0;31m            [0;1;31m        [0m  [1;31m      [0m  [31m       [0;1;31m [0;31m   [0m
+       [1;31m     [0m [1;31m           [0m [31m       [0;37m [0;1;31m       [0m [1;31m         [0m [31m     [0;37m [0;31m       [0;37m [0;1;31m         [0m
+       [1;31m       [0;31m         [0;1;31m     [0m  [1;31m           [0;31m            [0;1;31m              [0;31m      [0m
+       [31m         [0;1;31m      [0m [1;31m    [0m  [31m    [0;37m [0;31m     [0;1;31m          [0;1;30m  [0;31m          [0;1;31m            [0m
+       [31m           [0;1;31m                  [0;31m                     [0;1;31m          [0;31m       [0m
+       [31m     [0;1;31m                  [0;31m           [0;1;31m         [0;31m        [0;1;31m         [0;31m      [0m
+       [1;31m           [0;31m                   [0;1;31m                 [0;31m        [0;1;31m           [0m
+       [31m         [0;1;31m           [0;31m         [0;1;31m         [0;31m                 [0;1;31m           [0m
+                           [1;31m      [0;31m         [0;1;31m            [0m
        [31m█▀█ ▀[0m                                                        [31m▀[0;37m [0;31m█▀█[0m
        [31m▀▀█▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀█▀▀[0m
-       [31m▀ ▀▀▀[0;37m [0;31m▀[0m                                                    [31m▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀[0m
-                      [37m"[0;1;30mHimself a man of boundless energy,[0m
-         [1;30mhe terrorized waverers with the[0m [1;30mrigours of an iron discipline.[0m"
-
-                         [1;30mJulius[0m [1;30mCaeser[0m [1;30mon[0m [1;30mVercingetorex[0m
-                               [1;30mGallic[0m [1;30mWar[0m ([1;30mVII.1ff[0m)
-
-          [31mthrowback waddups to: [0;1;31mazrael[0;31m, [0;1;31mdeeply disturbed[0;31m, and[0;1;31m maestro[0;31m.[0m
-              [31mbonus throwback group greets: [0;1;31mTWiLiGHT[0;31m and[0;1;31m LEGiON[0m
-                    [31mtwo awesome groups, six terrible movies![0m
-
-
-        [31m100% ancient original boogie by filth of fIREtR0NiCS MMXXI AD[0m'
+       [31m▀ ▀▀▀[0;37m [0;31m▀[0m                                                    [31m▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀[0m'

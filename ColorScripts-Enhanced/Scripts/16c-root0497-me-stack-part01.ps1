@@ -5,7 +5,7 @@
 # Source SHA-256: 94b0070f385627e6ec324c5b55573c4ea41e59adc452f366409135cdf3d45982
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ME-STACK.ANS by Malformed Earthborn (Root/Twisted); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo colly
 # SAUCE Author: Malformed Earthborn
 # SAUCE Group: Root/Twisted
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
- foam logo for dark spawn ...                                  [1;33mme''s logo stack![0m
+                                                               [1;33m                [0m
 [1;30m-────────────────────────────────────────────────────────────────────────────--[0m
 
 
@@ -39,6 +39,5 @@ Write-Host '
 
 
 
- twisted promo ...
-[1;30m-─────────────────────────────────────────────────────────────────────────────--[0m
-'
+                  
+[1;30m-─────────────────────────────────────────────────────────────────────────────--[0m'

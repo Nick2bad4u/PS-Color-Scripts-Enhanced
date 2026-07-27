@@ -5,7 +5,7 @@
 # Source SHA-256: cc520c0b91e8637cfdca52178cea4ae90ff89015e2071db277ef9c290b354611
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UG-P54.ANS by Abomination + Mass Delusion (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pier 54 (that's what the fone says)
 # SAUCE Author: Union Group Prod.
 # SAUCE Group: Union
@@ -62,5 +62,4 @@ Write-Host '
 [1m    [0m■             [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     ■        [1m▐[0;1;47m░[0m█████[1;47m░[0m██[1m▀▀▄▄▄▄▄▄[0m
 [1m  a[0mnsi by [1ma[0mbomination[1m,[0m font[1m/[0mclouds by [1mm[0mass [1md[0melusion        ▀▓█▓████ [1m▄[0;1;47m▓▀▀▀██[0;1;40m██▄[0m
   oh jeez, an ansi as fucked up as this could only be         ▀▀▀▀ [1m▐[0;1;47m▒[0m█[47m [0;1;47m░░ ███[0;1;40m█▌[0m
-  brought to you by two of the oddest people in one of              ▀█▓███[1;47m▓█[0;1;40m▀▀[0m
-  the oddest groups and magazines ;)[0m'
+                                                                    ▀█▓███[1;47m▓█[0;1;40m▀▀[0m'

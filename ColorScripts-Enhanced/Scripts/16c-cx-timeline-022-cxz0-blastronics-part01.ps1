@@ -5,7 +5,7 @@
 # Source SHA-256: 07a071b9392d8dd80ff27cee9c5949d7b8d1aa0fec48c421ecb42fcd218e5530
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: [022] cxz0-Blastronics.ans by Cyonx + Enzo (cx-timeline); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20140511
 # SAUCE Dimensions: 80x244
 # SAUCE Font: IBM VGA
@@ -15,14 +15,14 @@
 Write-Host '
 [37;40m [0;1;37;40m.[0m            [35m▄▄▄▀[0m      [33m  [0;37m [0;33m.[0m                                     [1;37m.[0m
             [1;30;45m▌[0;35;44m█▓▓[0;35;40m▌[0m
-[37;40m  [0;35;40m [0;1;30;40m▀▄▄▄    ▐[0;35;44m█[0;1;31;40m█[0;35;44m▓▓[0m       [1;30;40m▄▄[0m     [36mI[0;37m [0;33mam proud to be part of a species where a subset[0m
+[37;40m  [0;35;40m [0;1;30;40m▀▄▄▄    ▐[0;35;44m█[0;1;31;40m█[0;35;44m▓▓[0m       [1;30;40m▄▄[0m     [36m [0;37m [0;33m                                               [0m
 [37m  [0;1;30m  ▐[0;1;34;47m▒░[0m█[1;47m░▒▓[0;1;30;40m▐[0;35;44m▓[0;1;31;40m▓[0;35;44m▓▒[0;35;40m [0;1;37;47m▓▒░[0m██[1;34;47m░▒[0;1;30;40m▌[0m     [33mof its members willingly put their lives at risk[0m
 [37m  [0;1;30m   [0;1;30;47m▌[0;1;34;47m░[0m██[1;47m░▒[0;1;30;40m▐[0;35;44m▓[0;1;31;40m▒[0;35;44m▒▒[0;35;40m [0;1;37;47m▒░ [0m██[1;34;47m░[0m▌      [33mto push the boundaries of our existence.[0m
       [1;30m▀[0m▀▀▀[1m▀[0;1;30m▐[0;35;44m▓[0;1;31;40m░[0;35;44m▒░[0;35;40m [0;1;37;40m▀[0m▀▀▀▀▀  [36m.[0m     [36m-[0;37m [0;33mNeil DeGrasse Tyson[0m
 [36m  [0m         [1;30m▐[0;35;44m▒[0;35;40m [0;35;44m░░[0;35;40m [0;1;37;40m▀[0;1;37;47m▒▓▒[0;1;37;40m▀   [0;1;30;40m■[0m                                                  [31m.[0m
 [37m  [0;1;37m [0;33m [0;36mC[0;33myon[0;36mx[0;33m  [0;1;30m▐[0;35;44m▒[0;35;40m [0;35;44m░[0;34;40m█▓▄▄▄▄[0m
-[1;30;40m  [0;34m  [0;33mEn[0;36mz0[0;33m   [0;1;30m▐[0;35;44m░[0;35;40m [0;34;40m████[0;1;34;44m░░▒▒▒[0;1;34;40m  [0m     [36mF[0;33mrom now on we''ll live in a world where man has[0m
-[37m  [0;1;34m  [0;33m05[0;36m.[0;33m14[0;1;34m  [0;1;30m▐[0;35;44m░[0;35;40m [0;34;40m█[0;1;34;44m░[0;34m▓▀▀▀▀[0;1;34;44m▒▓▓[0;1;34;40m [0m     [33mwalked on the Moon. It''s not a miracle, we just[0m
+[1;30;40m  [0;34m  [0;33m  [0;36m  [0;33m   [0;1;30m▐[0;35;44m░[0;35;40m [0;34;40m████[0;1;34;44m░░▒▒▒[0;1;34;40m  [0m     [36m [0;33m                                              [0m
+[37m  [0;1;34m  [0;33m  [0;36m [0;33m  [0;1;34m  [0;1;30m▐[0;35;44m░[0;35;40m [0;34;40m█[0;1;34;44m░[0;34m▓▀▀▀▀[0;1;34;44m▒▓▓[0;1;34;40m [0m     [33m                                               [0m
 [37m  [0;34m [0m        [1;30m▐[0;34m█ ██ [0;1;37;47m█▓[0;1;37;40m  [0;1;30;40m▐[0;1;34;44m▓█[0;1;34;40m [0m     [33mdecided to go.[0m
 [37m  [0;1;34m.[0m        [1;30m▐[0;34m█░██▄▄[0;1;34m▄▄▄[0;1;34;44m▓█[0;1;34;40m▌ [0m     [33m [0;36m- [0;33mJim Lovell[0m
             [1;30;44m▌[0;44m░[0;34;40m█[0;1;34;44m░░▒▒▓▓█[0;1;34;40m▌ last[0m     [1m.[0m
@@ -58,6 +58,4 @@ Write-Host '
 [1;30;40m██▄▀[0m    [1;30m▄▀[0m [1;30m ▄██▄▀▄▀▄▀▄▀▄▀▄▀▀[0m      [1;30m▀▄▀▄▀▄▀▄ ▒█[0m░░[1;30m█▄▀▄▀▄▀▄▀▄▀▄▀▄▀█▀▄█▄▀▄▀▄▀▄▀▄▀▄▀▄[0m
 [1;30m▀██[0m        [1;30m▒▀▀[0m   [1;30m▄▀▄▀▄▀▄▀    [0m        [1;30m▀▄ ▒▄▀▄▀▄▀■▄   [0m [1;30m▀ ▀▄▀▄▀ ▀▄▀▄▀ ▀ ▀▄▀▄▀▄▀ ▀[0m
   [1;30m▀▒[0m             [1;30m ▀▄▀▄▀▄[0m             [1;30m▀▄▒▀▄▀▄▀▄■▀ [0m    [1;30m [0m   [1;30m▀ ▀▄[0m [1;30m   ▀[0m
-    [1;30m  [0m           [1;30m   ▀ ▀[0m                   [1;30m▀ ▀    [0m          [1;30m  ▀[0m
-
-'
+    [1;30m  [0m           [1;30m   ▀ ▀[0m                   [1;30m▀ ▀    [0m          [1;30m  ▀[0m'

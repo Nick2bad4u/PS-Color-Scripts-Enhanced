@@ -5,7 +5,7 @@
 # Source SHA-256: 08631c6e444c12b6c71bbe489988c97599eec650de42ca66baafbe6ef147eda9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dy-skool.ans by Discyple (mimic15); released in mimic15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -16,7 +16,7 @@ Write-Host '
                        [1;36m`[0;36m└$b.  [0;1;36m`$$$$;$$''`''$$$l   l$[0;36ml[0;1;36m$$$[0m          THE BOOKS YO!
                     [36mY$/,┌l$l .$$[0;1;36m''$$l$l   l$l[0;36m*$S$*'' $$$$$$$$[0m
              [1;31m/S[0;31mX;    [0;36m`┘**┘'' $$''  $$ `*$S$*[0;1;36m''[0m                     GOOD LUCK TO
-            [33m_[0;1;31m`^[0;31m`[0m                                                [37mthe STUDENTZ.[0m
+            [33m [0;1;31m  [0;31m [0m                                                [37m             [0m
             [1;33m$S;[0m
          [1;37m/ [0;1;33m;$$ [0;1;37m;%s┌,..,┐s%##%s┐.   .┐x#S$$$$S#s¬┌,....,┌s%#S[0m''
            [1;33m$$; [0;1;37m$$$$$$$$$$$$$$$$$[0m'' [1md$$$$$$$$$$$$$$$$$$$$$$$$$[0m      [1;5;35m;$b[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: eaebd5f6e1211eb22458a9c02e6d892b70e6ea1b7a8010caa2c9099329e4a95c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-LOST.ANS by .:(cLEANER):. (.:(nEON^sTRIKE):.); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .:(lOST^pARADIZE^lOGO):.
 # SAUCE Author: .:(cLEANER):.
 # SAUCE Group: .:(nEON^sTRIKE):.
@@ -36,5 +36,4 @@ Write-Host '
 [32m    [0;1;32;42m▒▒[0m [32m■▄■▀   [0;1;32;42m▒▒[0m [32m■▄■█   [0;1;32;42m▒▒[0m [32m■▄■▀ [0;1;37m░ [0;1;32;42m▒▒[0m [32m■▄■█   [0;1;32;42m▒▒[0m [1;37;40m░  [0;32m▐▌   [0;1;32;42m▒▒[0m  [1;30;40m░  [0;32m▄▄■▀ [0;1;30m░   [0;1;32;42m▒▒[0m [32m■▄[0m
 [32m   [0;1;32m▐[0;1;37;42m▓[0;1;32;40m▌[0;1;30;40m░   [0;1;37;40m░  [0;1;32;40m▐[0;1;32;42m▓[0;1;32;40m▌[0;1;30;40m░  [0;32m▐▌[0;1;30m░ [0;1;32m▐[0;1;32;42m▓[0;1;32;40m▌▀■▄  [0;1;30;40m░ [0;1;32;40m▐[0;1;37;42m▓[0;1;32;40m▌   [0;32m▐▌ [0;1;30m░[0;1;32m▐[0;1;32;42m▓[0;1;32;40m▌  [0;1;30;40m░ [0;1;32;42m░[0m   [1;32;40m▐[0;1;32;42m▓[0;1;32;40m▌ [0;1;37;40m░ [0;32m▄[0;1;32m▀ [0;1;37m░  [0;32m▄ [0;1;37m░ [0;1;32m▐[0;1;32;42m▓[0;1;32;40m▌[0m
 [1;32;40m   █[0;1;32;42m▓[0m    [1;30;40m░   [0;1;32;40m█[0;1;32;42m▓[0m  [1;37;40m░ [0;1;32;42m░[0m [1;30;40m░ [0;1;32;40m█[0;1;37;42m▓[0m   [1;32;40m▐▌[0;1;37;40m░  [0;1;32;40m█[0;1;32;42m▓[0m  [1;37;40m░ [0;1;32;42m░[0m   [1;32;40m█[0;1;32;42m▓[0;32m■▄▄▄▀  [0;1;37m░ [0;1;37;42m▓[0;1;32;42m▓[0m  [1;30;40m░ [0;32m▀■▄▄[0;1;32m■[0;32m▀  [0;1;37m░ [0;1;37;42m▓[0;1;32;42m▓[0;32m■▄▄▄▀[0m
-        [1;37m░[0m        [1;30m░    ░[0m        [1;37m░    [0;1;30m░    [0;1;37m░   [0;1;30m░[0m     [1;37m░[0m       [1;37m░   [0;1;30m░   [0;1;37m░ [0;1;30m░[0m
-[1;30m-[0m-[1;30m-[0;36m[[0;1;30ml[0mOS[1;30mT[0;36m^[0;1;30mP[0mARADIZ[1;30mE[0;36m][0;1;30m-[0m-[1;30m-[0;36m[[0;1;30mc[0mONTAC[1;30mT[0;36m^[0;1;30mm[0mE[36m^[0;1;30ma[0mT[36m:^[0;1;30mc[0mLEANE[1;30mR[0;36m@[0;1;30mc[0mHE[1;30mZ[0;36m.[0;1;30mC[0mO[1;30mM[0;36m][0;1;30m-[0m-[1;30m-[0;36m[[0;1;30m2[0m8[36m/[0;1;30m1[0m1[36m/[0;37m9[0;1;30m7[0;36m][0;1;30m-[0m-[1;30m-[0;36m[[0;1;30m2[0m0[36m:[0;37m2[0;1;30m5[0;36m][0;1;30m-[0m-[1;30m-[0m'
+        [1;37m░[0m        [1;30m░    ░[0m        [1;37m░    [0;1;30m░    [0;1;37m░   [0;1;30m░[0m     [1;37m░[0m       [1;37m░   [0;1;30m░   [0;1;37m░ [0;1;30m░[0m'

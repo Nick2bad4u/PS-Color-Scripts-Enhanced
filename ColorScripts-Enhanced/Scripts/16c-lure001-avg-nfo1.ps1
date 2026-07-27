@@ -5,7 +5,7 @@
 # Source SHA-256: 9d1144870183e76fd89912bbf2e2326aaedd9ca2eb3201ee4735a7c42e2e506a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-NFO1.ANS by avenging angel (lure bitch); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neverfall emag
 # SAUCE Author: avenging angel
 # SAUCE Group: lure bitch
@@ -34,8 +34,4 @@ Write-Host '
          [33m [0;1;34;44m▐▄[0;34m▄▄[0;37m [0;1;30m▐[0;1;37;47m██[0m▀[1;47m▀███▄[0;1;40m▄[0;1;47m██▄[0m [1;31;43m ▄[0;33m▄[0;37m  [0;34m▀[0;1;34m▀▀[0;1;34;44m▀▓▓[0;1;34;47m [0;1;37;47m ▄▄[0;1;34;40m█[0;34m [0;33m ██[0;1;31;43m ▄[0;1;30;40m [0;1;31;40m▒▓▓▓[0;1;31;41m▀ ▄[0m▄▄[1;31m▄[0;31m█[0;1;31;41m▀▀[0m [33m [0;1;31;43m▀[0;1;31;47m▄[0;1;31;43m█[0;33m [0m
           [34m▀▓▓▓▓[0;1;30m▐[0;1;37;47m██[0;1;30;40m▄[0m  [1;47m██[0m▀[1;47m▀██▀[0m [33m▓▓▓▓▓▓▓ [0;37m    [0;34m▀[0;1;34m▀▀▀[0;34m [0;33m ▓▓▓▓[0;37m [0;31m▓▓▓▓▓▌▀[0;37m▀[0;1;37m▀[0m▀[1;31m▀[0;31m▀[0;37m [0;33m ▓▓▓▓[0m
 [37m [0;33m          [0;1;30m     [0m▀[1;47m▀[0;1;40m▒[0m▄[1;47m▄▀[0m▀     [33m                                           [0m
-        [1;30m    avg  [0m ▀▀▀  [1mn[0meverfall[1;30m [0;1;37me[0mmag[1;30m [0m#1[1;30m (n1)[0m
-
-                 [33m          [0m
-                 [33m            [0m
-                    [33m            [0m'
+        [1;30m         [0m ▀▀▀  [1m [0m        [1;30m [0;1;37m [0m   [1;30m [0m  [1;30m     [0m'

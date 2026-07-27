@@ -5,7 +5,7 @@
 # Source SHA-256: 557f12528903dc9e7c644b13113066f91a7a0ea2d46df350528bf7fe6ba4412f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPD!NCD2.ANS by spud (ncd0397); released in ncd0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: like a fucking plant
 # SAUCE Author: spud
 # SAUCE Date: 19970218
@@ -50,17 +50,4 @@ Write-Host '
                                 [33m▓[0m
                                 [33m▀[0m
 
-[1;30m-----------(saksa litte hva?)---------------------------------------------------[0m
- [1;30mfor those of ya who didn''t catch ''saksa litte hva?'', don''t care..;)[0m
- [1;30mwellwell...i''de like to call this one ''like a fucking plant'', and that''s[0m
-[1;30m what i''m going to do...ive called this ''like a fucking plant''.[0m
-[1;30m maybees ya should try to view it in superduper-16-million-color-vga-mode??  [0m
-
- [1;30mour theme for this awesome pack is nature and whales...well, it should[0m
-[1;30m be, lootsa nature-stuff this time...hums...maybees this should [0m
-[1;30m be entered in tha nfo?  jaujau....too late...err....:)[0m
- [1;30mheh...next time tha teme might be you, so watch up,...yop....[0m
-[1;30m well, enough of this crap, i''ll think ill make us some kind of a[0m
-[1;30m greeeetingsscreen now...yopilidup, ya might be there...if i stop [0m
-[1;30m like writing now might maybees...the final end.  end.[0m
-[1;30m     something like a copyright to me on this... ([0;1;36mc[0;1;30m)[0;36mspúd[0;1;36m [0;36m''97[0m'
+[1;30m-----------(saksa litte hva?)---------------------------------------------------[0m'

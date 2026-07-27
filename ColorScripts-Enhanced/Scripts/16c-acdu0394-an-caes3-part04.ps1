@@ -5,7 +5,7 @@
 # Source SHA-256: 549d6b8ae865ea7b2f4a594ae7ffa7b118732eb5126ef927327bc26696d472f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-CAES3.ANS by Andrew Nice (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Caesar's Palace
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -43,9 +43,4 @@ Write-Host '
       [1;30;40m▄█[0;1;30;43m▓▓[0;1;30;40m▀[0m      [1;30;40m▐[0;1;30;43m▓▓▓▓[0m     [1;30;43m▓[0m   [1;30;43m▓▓▓[0;1;30;40m▄▄▄    ▐[0;1;30;43m▓▓▓[0m     [1;30;43m▓[0m    [1;30;43m▓▓▓[0;1;30;40m▄▄▄[0m     [1;30;43m▓▓▓[0;1;30;40m▄▄▄[0m
      [1;30;40m▀▀▀▀[0m        [1;30;40m▀▀▀▀   ▄ ▀[0m     [1;30;40m▀▀▀▀▀▀▀▀ ▀▀▀   ▄ ▀[0m      [1;30;40m▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀ ▀[0m
 [1;30;40mC[0m     [1;30;40ma[0m     [1;30;40me[0m     [1;30;40ms[0m     [1;30;40ma[0m     [1;30;40mr   ''   s   ···   P[0m     [1;30;40ma[0m     [1;30;40ml[0m     [1;30;40ma[0m     [1;30;40mc[0m     [1;30;40me[0m
-             [1;30;40m7    0    8   ··   6    6    5    ··  2    7    1    0[0m
-              [1;30;40mSysop: Centurion ··· CoSysops: Andrew Nice · Q-Ball[0m
-         [1;30;40mOver 600 megs Online ··· Running Renegade v.7-17 ··· 14400 v.32[0m
-                             [1;30;40mQuantumNet ··· CQNet[0m
-
-                   [1;30;40m···ANSI and Font by [0;1;37;40mAn[0;1;33;40mdrew Ni[0;33mc[0;1;30me <[0;33mA[0;1;33mC[0;1;37mi[0;33mD[0;1;30m>···[0m'
+             [1;30;40m7    0    8   ··   6    6    5    ··  2    7    1    0[0m'

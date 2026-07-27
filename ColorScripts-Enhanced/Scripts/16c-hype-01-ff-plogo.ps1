@@ -5,7 +5,7 @@
 # Source SHA-256: aa3e976f3d3c2845ef0506f158a44e455e51fd8a72feabe2b4ba56931ae46c12
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FF-PLOGO.ANS by Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pentagram.systems
 # SAUCE Author: Free Fall
 # SAUCE Group: Hype.produktions
@@ -27,12 +27,4 @@ Write-Host '
 [37m [0;31m░░[0m   [31m▀▀█[0;1;31;41m▓▓[0;31m█▄▄▓▓▀[0m    [31m░░[0m   [31m░[0m   [31m▀▀[0;1;31;41m▀▓▀[0;31m▀[0m     [31m░[0;1;30m [0m [31m▓▌▀▀[0;1;33;41m░[0m    Hype   [31m▀[0;1;31;41m▀▓[0m [31m▓[0;1;30m [0;31m▀▀█[0;1;33;41m░░[0;31m░[0;1;31;41m█[0;31m█▄[0m
                             [31m░[0m       [31m░░[0m     [31m▀[0;1;31;41m▀[0;31m▀[0m               [31m▄[0;1;31;41m▓[0;31m▌[0m      [31m▀▒[0;1;31;41m▀[0;1;33;41m░[0;31m█▌[0m
      [31m░[0m                                                     [31m■▀[0;1;31;41m▀[0m     [31m▄[0;1;33;41m░░[0;31m▌▓[0;1;30m  [0;31m▀█[0m
-                                                               [31m▀ ▄[0;1;33;41m░[0;1;31;41m█[0;31m▀[0;1;30m [0;31m▀[0;1;30m  [0;31m■[0m
-                 [31mr[0;1;31mu[0mnning:                           staff:
-
-                 [31mc[0;1;31mu[0mstomized pcboard ver.i5.2        sop:  666
-                 [31m2[0;1;31m8[0m8oo v.32/v.fast                  csp:  blacktom
-                 [31m2[0;1;31m.[0m5 gigs online / unlimited        fsp:  logan
-
-                              nodes:  4i6 Too Fast[0m
-'
+                                                               [31m▀ ▄[0;1;33;41m░[0;1;31;41m█[0;31m▀[0;1;30m [0;31m▀[0;1;30m  [0;31m■[0m'

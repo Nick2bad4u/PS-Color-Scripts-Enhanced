@@ -5,7 +5,7 @@
 # Source SHA-256: c912658074f79d8a4915f28c5a5709e76a0af8cda0b156c413e4ba6111c5f53f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HM-TNT.ANS by head mOnk (Bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the nocturnal trip!
 # SAUCE Author: head mOnk
 # SAUCE Group: Bamboosh
@@ -27,7 +27,6 @@ Write-Host '
                             [1;30m■ ▀ ▀▄■▀▄[0m  [1;30m▀■ ▀▄[0m [1;30m▀▄[0m [1;30m▄▀[0m [1;30m ▀▄[0m
                              [1;30m▀[0m [1;30m▄[0m            [1;30m■▀[0m   [1;30m▀  ▄▀[0m
 
-                                                                    [1;33m[[0mhead m[1;33mO[0mnk[1;33m][0m
+                                                                    [1;33m [0m      [1;33m [0m  [1;33m [0m
 [1;30m--[0m
-[1;30mtnt...[0m
-[1;30mmail requests to head.monk@la.multi.se[0m'
+[1;30mtnt...[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: dcad55bd2c7ebeed3d75c531899bd62abecd7cf93c9405783aab64b6b56709a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-iNKII.ans by filth (bLOCKtR0NiCS); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iNC. TO
 # SAUCE Author: filth
 # SAUCE Group: bLOCKtR0NiCS
@@ -19,9 +19,9 @@ Write-Host '
 
 
 
-         [1;36m" The universe[0m [1;36mis under no obligation to make sense of you. "[0m
+         [1;36m              [0m [1;36m                                              [0m
 
-                                       [1;35m- Neil deGrasse Tyson[0m
+                                       [1;35m                     [0m
 
 
 [35m███[0;1;36;45m                                [0;35m█████████████████████████████████████████████[0m

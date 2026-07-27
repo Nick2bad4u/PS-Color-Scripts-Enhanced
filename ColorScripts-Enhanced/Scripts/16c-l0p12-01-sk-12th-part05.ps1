@@ -5,7 +5,7 @@
 # Source SHA-256: d47a1f1f3376408cf74e04510141c11adc191db1569b78ed76e1d9d192c1878a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!12TH!.ANS by Simonking (l0p12_01); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 189-235
 # Columns: 1-80
 
@@ -25,10 +25,10 @@ Write-Host '
 [37m [0;1;30;47m [0;1;30;40m▌ [0m [1;47m▀[0;1;30;47m [0;1;30;40m▌[0m   [1;30m▀[0;1;30;47m▄[0;1;30;40m▄[0m  [1;30m▀▄[0m  [35m░[0;37m [0;1;30m ▐[0;1;30;47m▐[0m  [1;30m▀▄[0m    [1;30m▄[0m [1;30;47m▀▄[0;1;30;40m▀[0m  ▀[1;30m▄[0m [35m░[0m    [1;30m▄▀[0m              [1;30m▄[0m▀   [1;30m▀[0m    [1;30;47m▌[0;1;30;40m▌sK![0m
   [1;30m▀▄[0m  [1;30m▀▀▄[0m     [1;30m▀[0m       [1;30m▄[0m▀          [1;30;47m█[0;1;37;47m▀[0;1;30;40m▌[0m          [1;30m▀[0m                           ▀[1;30m▄[0m
            [1;30m▄▀[0m                      [1;30m▀▄[0m                               [1;30m▀▄[0m
-[1m     [0m        [1ms-n[0;1;33ma[0;1;37mil:[0m [1mwOJCI[0;1;33mE[0;1;37mCH pYDYNKOW[0;1;33mS[0;1;37mKI, kA[0;1;33mJ[0;1;37mKI 4, 13-[0;1;33m2[0;1;37m00 dZIALD[0;1;33mO[0;1;37mWO[0m
+[1m     [0m        [1m   [0;1;33m [0;1;37m   [0m [1m     [0;1;33m [0;1;37m           [0;1;33m [0;1;37m      [0;1;33m [0;1;37m         [0;1;33m [0;1;37m         [0;1;33m [0;1;37m  [0m
 [1m       [0;1;30m▄▀[0;1;37m  [0;1;30m▀▄▄[0m               [1me-m[0;1;33ma[0;1;37mil:[0m [1mschiz[0;1;33mo[0;1;37mos@[0;1;33mp[0;1;37mf.pl[0m                 [1;30m▄▀[0m [1;30m▀▄[0m
                                                                           [1;30m ▀[0m
-  -4 kew[1;30ml[0m ct[1;30mx[0m, friendl[1;30my[0m swap[1;30mp[0m!, i[1;30mn[0m dis[1;30mk[0m an[1;30md[0m tap[1;30me[0m, mang[1;30ma[0m an[1;30md[0m anim[1;30me[0m, musi[1;30mc[0m, cod[1;30me[0m
+        [1;30m [0m   [1;30m [0m         [1;30m [0m     [1;30m [0m    [1;30m [0m    [1;30m [0m   [1;30m [0m    [1;30m [0m      [1;30m [0m   [1;30m [0m     [1;30m [0m      [1;30m [0m     [1;30m [0m
 
 [1;30m [0m
 
@@ -36,7 +36,7 @@ Write-Host '
                                           [1m░░░░░░░░░░░░░[0m
                                          [1m░[0m█[1;47m▀[0m██[1;47m  ▀[0m████████[1;47m▀[0m███████[1;47m▀▀▓[0m
                                          [1m░[0m████[1;47msCHIZOOS/nEGATIVE[0m████[1;47m▒[0m
-         [33mi looking for new, cool ctx![0m     [37m██[0;1;37;47m wOJCIECH pYDYNKOWSKI [0m█[1;47m░[0m
+         [33m                            [0m     [37m██[0;1;37;47m                      [0m█[1;47m░[0m
                                           ██████████████████████████   [1;36m▄▄[0;36m▄▄▄▄▄▄ [0m
 [1;37m   [0;1;30m▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄▄▄[0m ▄[1;36m▄[0m▄▄ ▄▄[1;47m██[0m [1;30m▄▄▄▄[0m▄▄[1;36m▄[0m▄▄ [1;30m▄▄▄▄[0m▄▄[1;36m▄[0m▄▄ [1;30m▄▄▄▄[0m▄▄[1;36m▄[0m▄▄ [1;30m▄▄▄▄▄▄▄▄▄[0m [1;36;46m░[0m
    [1;30;47m▒░░▒[0m [1;30;47m▓▒▒▓[0m [1;30;47m▒░░▒[0m [1;30;47m▓▓▓▓[0m [1;30;47m▒░░▒[0m [1;36;47m░▒░░[0m [1;30;47m█▄[0m██ [1;30;47m▒░░▒[0m [1;36;47m░▒░░[0m [1;30;47m▒░░▒[0m [1;36;47m░▒░░[0m [1;30;47m▒░░▒[0m [1;36;47m░▒░░[0m [1;30;47m▒░░▒[0m [1;30;47m▓▒▒▓[0m [36m▓[0m
@@ -51,8 +51,7 @@ Write-Host '
 [37;40m [0;36;40m▓[0;37;40m [0;1;33;43m░▒▒░[0m [33;44m▒░▒▒[0;37;40m [0;1;33;43m░▒▒░[0m [33;44m▒░▒▒[0;37;40m [0;1;33;43m░▒▒░[0m [33;44m▒░▒▒[0;37;40m [0;33;44m▒░▒▒[0;37;40m [0;1;33;43m░▒▒░[0m [33;44m▒░▒▒[0;37;40m [0;1;33;43m░▒▒░[0m [33;44m▒░▒▒[0;37;40m [0;1;33;43m░▒▒░[0m [33;44m▒░▒▒[0;37;40m [0;1;33;43m░▒▒░[0m [33;44m▒░▒▒[0m
 [37;40m [0;1;36;46m░[0m [33;44m▓[0;1;33;43m░░[0;33;44m▓[0;33;40m▄[0;33;44m▓▒▓▓[0;37;40m [0;33;44m▓[0;1;33;43m░░[0;33;44m▓[0;33;40m▄[0;33;44m▓▒▓▓[0;37;40m [0;33;44m▓[0;1;33;43m░░[0;33;44m▓[0;37;40m [0;33;44m▓▒▓▓[0;37;40m [0;33;44m▓▒▓▓[0;37;40m [0;33;44m▓[0;1;33;43m░░[0;33;44m▓[0;33;40m▄[0;33;44m▓▒▓▓[0;37;40m [0;33;44m▓[0;1;33;43m░░[0;33;44m▓[0;33;40m▄[0;33;44m▓▒▓▓[0;37;40m [0;33;44m▓[0;1;33;43m░░[0;33;44m▓[0;33;40m▄[0;33;44m▓▒▓▓[0;37;40m [0;33;44m▓[0;1;33;43m░░[0;33;44m▓[0;33;40m▄[0;33;44m▓▒▓▓[0m
 [37;40m [0;1;36;46m▒[0;1;36;40m▄▄[0;1;37;40m▄[0;1;36;40m▄▄[0;36m▄[0m                                  [37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;37msK![0m
-      [33m- friendly swapp![0;37m  [0;33m- music''n''code[0m   [1;37;47mkAJKI 4, 13-200 dZIALDOWO[0;1;30;47m░[0m
-      [33m- disk/tape[0m        [33m- you![0;37m [0;33mwrite to[0;37m  [0;1;37;47m     schizoos@pf.pl[0m██████[1;30;47m▒[0m
+      [33m                 [0;37m  [0;33m              [0m   [1;37;47m                         [0;1;30;47m░[0m
+      [33m           [0m        [33m      [0;37m [0;33m        [0;37m  [0;1;37;47m                   [0m██████[1;30;47m▒[0m
       [33m- manga''n''anime[0m      [33mme![0m           [1;30m [0m██[1;30;47m▄[0m███████[1;30;47m▄[0m█████[1;30;47m▄[0m███[1;30;47m▄[0m██[1;30;47m▄▄▓[0;1;30;40m░[0m
-                                          [1;30m                ░░░░░░░░░░░[0m
-'
+                                          [1;30m                ░░░░░░░░░░░[0m'

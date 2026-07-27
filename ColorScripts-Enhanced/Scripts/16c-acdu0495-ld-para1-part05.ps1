@@ -5,7 +5,7 @@
 # Source SHA-256: a59d55b358cc99ea2b4d52808d92e6b70807e280d120e83c6460c76cedcb5a30
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-PARA1.ANS by Lord Jazz (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Parallox
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -55,8 +55,7 @@ Write-Host '
 [1;30m▄[0;1;30;47m▓▒▓█▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▌▐█[0;1;30;47m▓[0;1;30;40m▄██▀▓█[0;1;30;47m▓▀[0;1;30;40m█▓▌░▄ ■  [0;1;31;40mp  a  r  a  l  l  O  x   [0;1;30;40m▀▐█▄▓[0;1;30;47m▓[0;1;30;40m▌░▄▓▄░▀▀█[0;1;30;47m▓[0;1;30;40m█▀░▄[0;1;30;47m▀[0;1;30;40m██▄░[0m
 [1;30;40m▀[0;1;30;47m█▓█[0;1;30;40m▓▀█▀ ▄ ▀▀░   ░▀▀▀▀[0m                                  [1;30;40m▀▀▓▀ ■ ▀  ▄▀█▄ ▄█[0;1;30;47m▓▒▀[0;1;30;40m▄█▌[0m
 [1;30;40m▄▓▄▀▀░  ▀▓▀ ■ [0mnOde1:714.367.0251([1;33m144OO[0m) nOde2:714.367.1946([1;33m288OO[0m)  [1;30m▀▀░  ▀▀▓▀▓▀[0m
-[1;30m ▀  [0mthat One gUy:bad breath the Other gUys:spiCeman/ear/kung laO/ranCid-cnc [1;30m▄▓▄[0m
-[1;30m ▀■ ░  [0mnewUSERpassword:spurs#1 .. tcn diStrobution .. cancer member bOard  [1;30m■ ▀[0m
+[1;30m ▀  [0m                                                                        [1;30m▄▓▄[0m
+[1;30m ▀■ ░  [0m                                                                    [1;30m■ ▀[0m
 [1;30;47m▓[0m▄[1;30m▄▄ ▄▄ ▄▄▓▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▓▄▄▄░▄ ▄▄▄▀▓[0m
-[1;30m▓[0m▀▀▀[1;30m▓[0m▀[1;30m▓[0m▀▀[1;30m▀[0m▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀░▀ ▀▀▀▀▀▀▀▀▀▀▓ ▀▀▀▀▀▓ ▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▓▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▓▀▓[0m
-[1;30manseeBYlOrdJazz![0maCid[1;30mproductions! .. the parallox! .. oneHUNDREDpercentOriginal![0m'
+[1;30m▓[0m▀▀▀[1;30m▓[0m▀[1;30m▓[0m▀▀[1;30m▀[0m▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀░▀ ▀▀▀▀▀▀▀▀▀▀▓ ▀▀▀▀▀▓ ▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▓▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▓▀▓[0m'

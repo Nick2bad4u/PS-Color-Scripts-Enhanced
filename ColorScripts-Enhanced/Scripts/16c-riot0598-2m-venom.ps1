@@ -5,7 +5,7 @@
 # Source SHA-256: 3f13795ff68818e6e2d342c961f0a8b27cc7bb60882d9120df58f5ca1ba4c518
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2M-VENOM.ANS by 2much4u (RioT Productions); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: For Venom
 # SAUCE Author: 2much4u
 # SAUCE Group: RioT Productions
@@ -36,6 +36,4 @@ Write-Host '
                                [1;30m▀[0m                             [1;30m▐▀▀▀▀[0m   [1;30m▐▄█▀▀▀▀2m[0m
                                                                        [1;30m▀▌[0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mThis is for the new group known as Venom. I did this cuz in their first pak [0m
-[1;30mthere was[0m [1;30man ansi for RioT. Nice to meet you doodz. =][0m'
+[1;30m--------------------------------------------------------------------------------[0m'

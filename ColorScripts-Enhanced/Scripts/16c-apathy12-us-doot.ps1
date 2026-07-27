@@ -5,7 +5,7 @@
 # Source SHA-256: 37936c1735dd8539674e1cbc7cae4acb5df26f75e5c48e01c04c82c3862afc26
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DOOT.ANS by Apox + Massm (Apathy); released in apathy12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Doot
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Apathy
@@ -28,13 +28,4 @@ Write-Host '
 [1;30m▓█[0;1;37m [0;1;31m▀[0;1;31;41m▒░░[0;31m▄[0;37m [0;1;30m▀████▀[0m [31m████[0;37m [0;1;37m [0;31m░░▀▀▀█▄▄▄▄█▀▀[0;37m [0;1;30m▄▄███▄▄[0;1;37m [0;31m▀▀█▄▄▄▄█▀▀▀[0;37m [0;1;30m▄■[0m [31m████[0;37m [0;1;30m▀█▀▀▀[0m [31m▄█[0;1;31;41m░░▒[0;1;31;40m▌[0;1;30;40m▐█▓░[0m
 [1;30;40m███▄▄[0;1;37;40m [0;31m▀▀█▄▄▄▄[0;37m [0;31m■▐▀▀▓▓░[0;37m [0;1;30m▄▄▄█▄▄▄▄▄▄▄▄███████████▄▄▄▄▄▄▄▄████[0;1;37m [0;31m░▓▓▄▌▀[0;37m [0;31m■[0;37m [0;31m░▄██▀▀[0;1;37m [0;1;30m▄▄██▓░[0m
 ░░░[1;30m████▄▄▄▄▄▄▄█▄▄[0;1;37m [0;31m░░[0;37m [0;1;30m▄███████▀████████[0;1;30;47m▓▓▓▓▓▓▓▓▓[0;1;30;40m██████████▄[0m [31m░░[0;37m [0;1;30m▄██▄▄▄▄▄▄▄███[0m░░[1;30m█▓░[0m
-░░░░░░░[1;30m██████████▄▄▄▄███████▄▓▄█████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1m      [0m    [1m       [0m
-[1;30m   [0m         [1m [0;34m [0m             [34m       [0m
-       [1;30m  [0;31moutline: massm [0;1;37m                [0m         [31m  shading: apox[0;1;37m     [0m
-             [34m [0m
-             [34m [0m
-
-
-
-        [37m[[0;1;37ma[0mP[1;30mATHY[0m]    [1m***[0m    MADE WITH PRIDE IN THE [1mU[0;1;34mS[0;1;31mA[0m   [1m***[0m    [[1mf[0;1;33mI[0;1;31mR[0;31mE[0;37m][0m
-[37m [0;1;5;37m   [0m'
+░░░░░░░[1;30m██████████▄▄▄▄███████▄▓▄█████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1m      [0m    [1m       [0m'

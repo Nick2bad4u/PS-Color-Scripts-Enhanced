@@ -5,7 +5,7 @@
 # Source SHA-256: 07c6b7776e538c7a1207263f2b831ea42de0684a9dd14d8bd7ba8cd657c075a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UDE-INTE.ANS by Ude (afc-r6); released in afc-r6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -56,4 +56,4 @@ Write-Host '
 [1;36;40m  [0;36m▀[0;1;36;46m░▒ ▒  ░░  ░ [0;36m▀█[0;1;36;46m░ ░[0;36m▀ ▀[0;36;46m [0;1;36;46m░ ░▒[0;36m▀ ▀[0;1;36;46m░      ░[0;36m▀[0;1;36;46m░  ░[0;36m▀   ▀[0;1;36;46m░  [0;36m▀[0;1;36;46m░    [0;36m▀[0;1;36;46m░  ░ ▒[0;36m▀[0;1;36;46m░       ░[0;36m▀▀[0m
       [36m▀▀▀▀▀▀▀    ▀▀[0m     [36m▀▀▀[0m      [36m▀▀▀▀▀   ▀▀[0m       [36m▀   ▀▀▀   ▀▀▀▀    ▀▀▀▀▀▀[0m
 
-      [1;35mOpen[0;35m: [0;1;35mNWRK [0;35m■ [0;1;35mZyXEL 19[0;35m.[0;1;35m2k [0;35m■ +[0;1;35m358[0;35m-[0;1;35m41[0;35m-[0;1;35mTHINK! [0;35m([0;1;35mDNA[0;35m) ■ [0;1;35mSysOp[0;35m: [0;1;35mBachel[0;35mi[0;1;35mer[0m'
+      [1;35m    [0;35m  [0;1;35m     [0;35m■ [0;1;35m        [0;35m [0;1;35m   [0;35m■  [0;1;35m   [0;35m [0;1;35m  [0;35m [0;1;35m       [0;35m [0;1;35m   [0;35m  ■ [0;1;35m     [0;35m  [0;1;35m      [0;35m [0;1;35m  [0m'

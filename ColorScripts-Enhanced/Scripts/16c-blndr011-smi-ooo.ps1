@@ -5,7 +5,7 @@
 # Source SHA-256: 3d16cb798a1484e730caffe6d8398bfdd5816f6cfdb8f86d05d06ee8989e1b50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMI-OOO.ANS by samurai (p301); released in blndr011 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: out of order
 # SAUCE Author: samurai
 # SAUCE Group: p301
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[32m>>[0;1;32m blender compo [0;32m#[0;1;32m11[0m
+[32m  [0;1;32m               [0;32m [0;1;32m  [0m
 
 
        [34m   ░[0;30;44m▓[0;34;40m    [0m                                                [34;40m   ░[0;30;44m▓[0;34;40m    [0m
@@ -47,7 +47,5 @@ Write-Host '
            [1;33m▀[0;1;33;43m░░[0;33m▀[0;1;33m [0m        [33m█[0;30;43m░[0;33;40m░[0;30;43m▓[0m                        [37;40m    [0;1;37;40m▀▀▀▀▀▀[0m
           [1;33m      [0m        [33m░[0;30;43m▓[0m
 
-[32;40m>>[0;37;40m [0;1;32;40mout of order[0;32m:[0;1;32m even the communists can''t handle it@(*#&@ :)[0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mfor [0mrisu''s[1;30m bbs out of order.  sorry there was no font.  i may decide to put one[0m
-[1;30mon later.  enjoy buddy.[0m'
+[32;40m  [0;37;40m [0;1;32;40m            [0;32m [0;1;32m                                             [0m
+[1;30m--------------------------------------------------------------------------------[0m'

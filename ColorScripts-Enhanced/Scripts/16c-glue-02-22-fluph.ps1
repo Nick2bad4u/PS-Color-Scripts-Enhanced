@@ -5,7 +5,7 @@
 # Source SHA-256: 29295c1f2ab16748a266d6da75ce3658704d3e2d1e72500ec6c7e13d761c180b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-FLUPH.ANS by catch22 (glue/fuel); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fluphY stuPH
 # SAUCE Author: catch22
 # SAUCE Group: glue/fuel
@@ -45,16 +45,4 @@ Write-Host '
 
                                   [31mF L U P H[0m
 
-[31m-----[0m
-[31myou can put a font there instead of the text.  since you don''t like my fonts[0m
-[31mthen you don''t get one =)  i''m sure you care.  i tried to do a good pic for[0m
-[31mya, and actually i''m pretty pleased about it.  oh and one more thing, i seem to[0m
-[31mbe getting a lot of critics lately, and to them all i have to say is "paper[0m
-[31mcan hold milk, a whole lot better than plastic".[0m
-
-[31m"now kids, it''s time for me to look through my magic mirror.  i see shaft, and[0m
-[31m warpus, and hennifer, and stereo, and samurai, and ruiner, and corinthian,[0m
-[31m and lord drakul, and seraphim, and the knight, and thrasher, and burps, and[0m
-[37m [0;31munique phreak, and ironghost"[0m
-
-[31m               why the FUCK does she never say my NAME?!@?!#$[0m'
+[31m-----[0m'

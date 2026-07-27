@@ -5,7 +5,7 @@
 # Source SHA-256: f2a82793900bc5f40ad7b16a9f916945264238d46f6d23b913310b0e97ee0614
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!FREY.ANS by sIMON kING (tHElo0p); released in l0p01_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fREY
 # SAUCE Author: sIMON kING
 # SAUCE Group: tHElo0p
@@ -36,20 +36,4 @@ Write-Host '
 [1;30;40m     ▀[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0m     [1;30m▀▀▓▓▓▄▄[0m             [33m   [0;1;31m ▀▄▄▄▄▄▄[0;33m▄▄▄▄▄▓▓▒░░░[0;1;31m [0;33msK!l0p[0m       [1;30m▄▄▄▓▓[0;1;30;47m▓[0m
         [1;30m▀▀▓▓▄▄[0m        [1;30m▀▀▓▓▓▓▓▒▒▒▒▒░░░░ ░ ░[0;1;31m ▀[0;33m▀▀██▓▓▓▓▒▒░░[0m   [1;30m░ ░[0;1;31m [0;1;30m░[0;1;31m [0;1;30m░░░▒▒▒▓▓▀▀▀[0m
             [1;30m▀▀▓▒[0m                            [1;31m    [0;33m▒▒▒▒░░[0;1;31m [0m
-                [1;30m▀░[0m            [1;33m  [0m     [1;33mf[0m        [1;33mr[0m [33m░░░░[0;37m  [0;1;33me[0m       [1;33my[0m
-
-
-
-[1;30mkolejne ansi, tym razem dla frey''a do pakowania rarem. ansi zrobione 02.02.99r.[0m
-[1;30mjezeli chcesz ansi, ascii lub jestes swapperem to koniecznie napisz do mnie.[0m
-[1;30mwymiana stuffu i doswiadczen. adres...[0m
-[1;30msimon king/thelo0p (n.o.t.e.)[0m
-[1;30mszymon grabinski[0m
-[1;30m1 armii woj.pol. 6/10[0m
-[1;30m89410 wiecbork[0m
-
-[1;30mlub poczta elektroniczna...[0m
-[1;30msimon_k@friko.onet.pl[0m
-
-[1;30mpozdrowienia dla... rema, paydy, garfielda, snapa, griftera, rivena, calego[0m
-[1;30m                    thelo0p, #polishscene, #ascii, #ansi.[0m'
+                [1;30m▀░[0m            [1;33m  [0m     [1;33mf[0m        [1;33mr[0m [33m░░░░[0;37m  [0;1;33me[0m       [1;33my[0m'

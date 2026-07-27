@@ -5,7 +5,7 @@
 # Source SHA-256: fc23b47f05943b7c59d2f4e18ff89964a87ecd1b794be138b1c7717cfb89d0ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-TS2.ICE by Cool T (ice-0693); released in ice-0693 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 29-59
 # Columns: 1-80
 
@@ -37,7 +37,5 @@ Write-Host '
 [35m░[0;32m▒▀▓▄ [0;1;37;47m▒[0m  [1;37;47m▒[0m▀   [1;47m▒[0m ▄▀ [1;47m▒[0m ▄▀ [1;47m▒[0m▄ [1;47m▒[0m [1;47m▒[0m▄▀  [1;47m▒[0m [1;47m▒[0m  [1;47m▒[0m      ▀▀▄   [1;47m▒[0m  [1;47m▒[0m▄ [1;47m▒[0m   [1;47m▒[0m  [1;47m▒[0m [1;47m▒[0m  [1;47m▒[0m [1;47m▒[0m  [1;47m▒[0m [32m▓▀[0m
 [35m▀▒[0;32m░▒░ [0;1;37;47m▓[0m  [1;37;47m▓[0;1;37;40m▄▄▄ [0;1;37;47m▓[0m  [1;37;47m▓[0m [1;37;47m▓[0m  [1;37;47m▓[0m [1;37;47m▓[0m  [1;37;47m▓[0m [1;37;47m▓[0m    [1;37;47m▓[0m [1;37;47m▓[0m  [1;37;47m▓[0m     [1;37;40m▀▄▄▀   [0;1;37;47m▓[0m  [1;37;47m▓[0m  [1;37;47m▓[0m   [1;37;47m▓[0m  [1;37;47m▓[0m [1;37;40m▀▄▄▀ [0;1;37;47m▓[0m  [1;37;47m▓[0m [32m▒░[0m
 [1;30m───[0;32m░[0;1;30m─────────────────────────────────────────────────────────────────────────[0;32m░[0;1;30m─[0m
-¬⌐ [1m9O8-PRI-VATE [0m¬⌐ [1mSysOp: Bob Marley [0m¬⌐ [1m96oo bps [0m¬⌐ [1m8oo+ Megs [0m¬⌐ [1mCall Today! [0m¬⌐
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m(c) 1993 by Cool T of iCE(tm) - All Rights Reserved.[0m
-[1;30m"[0;30mWow! I didn''t know that ansis under 100 lines still existed![0;1;30m" [0;30m:-)[0m'
+ ⌐ [1m             [0m ⌐ [1m                  [0m ⌐ [1m         [0m ⌐ [1m          [0m ⌐ [1m            [0m ⌐
+[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

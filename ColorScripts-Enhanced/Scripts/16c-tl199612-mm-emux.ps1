@@ -5,7 +5,7 @@
 # Source SHA-256: 607504f7080675c9327ff527f8e57414b70ca0c4d864d9e2a1c2bc207f55e22e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-EMUX.ANS by maytag man (teklordz); released in tl199612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: emu colony x
 # SAUCE Author: maytag man
 # SAUCE Group: teklordz
@@ -55,11 +55,4 @@ Write-Host '
 [1m█████▄▄▄▄█▄▄▄[0m M [1m▀▀[0m [36m▀█[0;37m [0;1;37m ▄ ▀[0m  [1m▄▄ ▀▀[0m 0   [1m▀[0m  L   o [1m▀▀██▀ [0mn [1m▀[0m Y [1m ▀▀▀▀█▀▀▀▀▀▀▀▀████[0;1;43m▓▓[0m
 [1m██[0;1;43m▓▓[0;1;40m████████▄▄▄▄▄██▄[0m [36m▀■[0;37m [0;1;37m█████████▄▄▄███▄▄▄▄█▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄██▄▄▄▄▄  [0m X  [1m███[0;1;43m▓▓▓[0m
 
--------------------------------------------------------------------------------
- yo yo yo... this new skool el33t ANSi by [1;33;47mmaytag man (teklordz)[0m
-[33;44m greets go to all the scene, especially my idols: suicidal snowman [0m
-[33;44m halaster, prisoner#1, nootropic, and all the rest of the great artists [0m
-[37;40m [0;1;32;40myo mac daddy hatter... whats up?[0m [1;32mus jooz mokiez rawk[0m
- [1;36mthis is my first tl pic[0m
-
-'
+-------------------------------------------------------------------------------[0m'

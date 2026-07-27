@@ -5,7 +5,7 @@
 # Source SHA-256: 82c3fc9125e624ac8758e9842be3dda2e355abea30b767d8e481a4b5bda9e42b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-TREP.ANS by fLeA (ESP Productions); released in esp0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: fLeA
 # SAUCE Group: ESP Productions
 # SAUCE Date: 19960130
@@ -31,8 +31,8 @@ Write-Host '
                                                     [31m░█[0m
                                                      [31m░█[0m
         [37mφ[0;1;30m──────────[0m─────[1;30m──────────────────────[0m─────[1;30m─────────────[0m─[1;30m────────φ[0m
-        [1;30m│[0m [1;31m.[0;31m.[0;1;31m.[0;31m.[0;1;31m.[0;31m.J[0;1;31mu[0;31mST [0;1;31ma[0;31m L[0;1;31mi[0;31mTTL[0;1;31me[0;31m H[0;1;31ma[0;31mRDC[0;1;31mo[0;31mR[0;1;31me[0;31m, J[0;1;31mu[0;31mST [0;1;31ma[0;31m L[0;1;31mi[0;31mTTL[0;1;31me[0;31m [0;1;31mi[0;31mND[0;1;31mu[0;31mSTR[0;1;31mia[0;31mL, J[0;1;31mu[0;31mST[0m   [1;30m│[0m
-        [1;30m│[0m [1;31ma[0;31m L[0;1;31mi[0;31mTTL[0;1;31me[0;31m [0;1;31ma[0;31mLT[0;1;31me[0;31mRN[0;1;31ma[0;31mT[0;1;31mi[0;31mV[0;1;31me[0;31m.[0;1;31m.[0;31m.[0;1;31m.[0;31m.[0;1;31m.[0;31mB[0;1;31mu[0;31mT V[0;1;31me[0;31mR[0;1;31my[0;31m K[0;1;31me[0;31mWL[0;1;31m![0m                       [1;30m│[0m
+        [1;30m│[0m [1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m  [0;1;31m [0;31m   [0;1;31m [0;31m  [0;1;31m [0;31m   [0;1;31m [0;31m  [0;1;31m [0;31m   [0;1;31m [0;31m [0;1;31m [0;31m   [0;1;31m [0;31m   [0;1;31m [0;31m  [0;1;31m [0;31m   [0;1;31m [0;31m [0;1;31m [0;31m  [0;1;31m [0;31m   [0;1;31m  [0;31m    [0;1;31m [0;31m  [0m   [1;30m│[0m
+        [1;30m│[0m [1;31m [0;31m  [0;1;31m [0;31m   [0;1;31m [0;31m [0;1;31m [0;31m  [0;1;31m [0;31m  [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m   [0;1;31m [0;31m [0;1;31m [0;31m  [0;1;31m [0;31m  [0;1;31m [0m                       [1;30m│[0m
         [1;30m│[0m                                                                [1;30m│[0m
-        [1;30m│[0m [1mS[0my[1mS[0mo[1mP: D[0ma[1mV[0mi[1mD K[0mai[1mS[0me[1mRM[0ma[1mN[0m             a[1mNS[0mi[1m B[0my f[1mL[0me[1mA [0mo[1mF D[0ma[1mM[0ma[1mG[0me[1m [0mi[1mNC.[0m [1;30m│[0m
+        [1;30m│[0m [1m [0m [1m [0m [1m    [0m [1m [0m [1m   [0m  [1m [0m [1m  [0m [1m [0m              [1m  [0m [1m  [0m   [1m [0m [1m  [0m [1m   [0m [1m [0m [1m [0m [1m [0m [1m   [0m [1;30m│[0m
         [1;30mφ───────[0m────[1;30m──────────────[0m─[1;30m──────────────────────────────[0m─────[1;30m───[0mφ[0m'

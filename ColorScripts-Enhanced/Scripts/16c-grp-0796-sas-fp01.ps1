@@ -5,7 +5,7 @@
 # Source SHA-256: 581531d5a72f32c28ec92986ad872a6da1fdf068be7f4f11fb2847b44d6fa96c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SAS-FP01.ANS by Sassafras (gRAPE aSSkEY); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Filth Pig Main Menu
 # SAUCE Author: Sassafras
 # SAUCE Group: gRAPE aSSkEY
@@ -21,12 +21,12 @@ Write-Host '
 [1;31m$$²''[0;36m [0;1;31m`²$$$[0m$$$a.                  .a$$[1;31m$$$$$$[0m$a
 [1;31m²''[0m     [1;31m`²$$$$$[0m$a.              .a$[1;31m$$$$$$$$[0m$²''               [1;31m∙[0mFiLTH PiG[1;31m∙[0m
          [1;31m`²²$$$$[0m$aa.         .a$[1;31m$$$$$²''`²$$[0m$$a
-    [1;33m²aaa.[0m    [1;31m`²²$$[0m$$$aa.  .aa$$[1;31m$$$²²''[0;1;33m.a[0;36m [0;1;31m ²$$$$[0m$a             [1;36mA[0;1;37m·[0mAsshole
-      [1;33m`$$$$aaaa[0;31m.[0;36m [0;1;31m`²²$$[0m$$aa$[1;31m$$$²²[0;31m.[0;1;33maa$$$''[0m   [1;31m`$$$$[0m$!            [1;36mB[0;1;37m·[0mBitch
-$aa.     [1;33m`²²²$$[0;31m$$$a.[0;1;36m  [0m`$$$$''[1m [0;31m.a$$[0;1;33m$$²²[0;36m   [0;1;31m.a$$$²[0m²''             [1;36mC[0;1;37m·[0mCunt
+    [1;33m     [0m    [1;31m     [0m             [1;31m      [0;1;33m  [0;36m [0;1;31m      [0m               [1;36m [0;1;37m [0m       
+      [1;33m         [0;31m [0;36m [0;1;31m     [0m     [1;31m     [0;31m [0;1;33m      [0m   [1;31m     [0m              [1;36m [0;1;37m [0m     
+         [1;33m      [0;31m     [0;1;36m  [0m      [1m [0;31m    [0;1;33m    [0;36m   [0;1;31m      [0m               [1;36m [0;1;37m [0m    
 [1;31m$$[0m$$$$aaa.      ...aaa$[1;31m$$$$[0m$$aaa.[36m   [0;1;31m.aa$$$$$[0m$$$$a.           [1;36mD[0;1;37m·[0mDick
 [1;31m$$$$$$$$$[0m$$$aaa$[1;31m$$$$$$$$$$$$$$$$[0m$$$$aa.[1;31m`²²$$$$$$$[0m$           [1;36mE[0;1;37m·[0m ...
-[1;31m$$$$$$$$[0m$$$$$''[1;31m [0maaaa[1;31m`²²²²²²²²²²$$$$$$$$$[0m$$$aa.[1;31m`²$$[0m$           [1;36mF[0;1;37m·[0mFuck
+[1;31m        [0m      [1;31m [0m    [1;31m                    [0m      [1;31m    [0m            [1;36m [0;1;37m [0m    
 [1;31m$$$$$$[0m$²''[1;31m.aaa$$$$$[0m$! a$$$$$$$a. [1;31m$$²²²[0;1;36m [0;1;31maaa²²²$[0m$$.²''           [1;36mG[0;1;37m·[0mGimp
 [1;31m$$$$$[0m! [1;31ma$$$$$$$$$$[0m$ [1;31m$$$²$$$²$$[0m$.[1;36m [0;1;31maa$$$$$$$[0m$$a [1;31m$$[0m$a.          [1;36mH[0;1;37m·[0mHorny
 [1;31m$$$$[0m$[1;36m [0;1;31m!$$$$$$$$$$[0m![1;31m $$$$ $$$ $$$[0m$[1;31m !$$$$$$$$$$$[0m$a[1;31m²$$[0m$.         [1;36mI[0;1;37m·[0m ...

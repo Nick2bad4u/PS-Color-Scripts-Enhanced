@@ -5,13 +5,13 @@
 # Source SHA-256: f954e9388c5ad347373cdb67cb843a1e21ad1b84de8be17363fdbad2989dec6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ECL.ANS by Cheeze + Haji (ecl-10); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
 Write-Host '
-[30mHAJI WILL TRY TO STICK TO ASCII FROM NOW ON, SORRY ABOUT ANY TROUBLES THIS[0m
-[30mSUCK-O-TRONIC ANSI MAY HAVE CAUSED.  KILL YOUR PARENTS, EAT TWINKIES![0m
+[30m                                                                          [0m
+[30m                                                                     [0m
 [1;37m                               [0m                          [1m░░░[0m
 [1m                               [0m          [1m   [0m          [1m░░░[0;1;32;47m▒▒▒[0;1;37;42m▒[0;1;37;47m▒▓[0;1;37;40m▄[0;1;33;40m▄[0m
 [1m                               [0m                         [1;32m [0;1;32;47m▓▓▓▓▒▒[0;1;37;42m▒[0;1;37;47m▒[0;1;37;40m░[0m
@@ -27,4 +27,4 @@ Write-Host '
 [1;34;44m▒▒[0;34m▌[0;1;34m      [0;34m▐[0;1;34;44m░░░  [0;34m▄▄▄▄▄▄▄▄▄[0;1;34;44m [0;34m▄▄[0;1;34m   [0;34m▄▄[0;1;33;44m▒▒▒░░░[0;1;34;44m  [0;34m▄▄▄▄▄▄▄▄▄[0;1;34;44m   [0;34m█▀[0;1;34m [0m [1;32m [0;32m██[0;30;42m░░░░░[0;32;40m░[0;34;40m [0;30;44m░░░[0;34;40m█▄▄[0;1;34;40m   [0;34m▄▄██ [0m
 [37m [0;1;34m [0;34m■  [0;37m [0;34m░░[0;37m [0;34m▀[0m                      [1;33m░░░[0m                [1;34m  [0m     [32m┌▀▀▀▀▀[0m   [1;34m [0m
    [1;34m [0m                                                   [32m   ├─►[0;30;42m►h[0;1;30;42ma[0;42mj[0;1;42mi[0;1;33;42mECLIPSE[0m
-[1;30mjoint by haji/cz(general fuckups)[0m [1;30m.. ELK''97[0m               [32m└─►[0;30;42m►ch[0;1;30;42me[0;42mez[0;1;42me[0;1;33;42mELK[0;32m►[0;30;42m►[0m'
+[1;30m                                 [0m [1;30m         [0m               [32m└─►[0;30;42m►  [0;1;30;42m [0;42m  [0;1;42m [0;1;33;42m   [0;32m►[0;30;42m►[0m'

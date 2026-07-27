@@ -5,7 +5,7 @@
 # Source SHA-256: 624a78a3c28ae84e46c1682ebed238fe941e2875c86aa937262bf342a19ea353
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-SEROT.ANS by Magnetic Rage (SEPTiC); released in sept9602 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Serotonin
 # SAUCE Author: Magnetic Rage
 # SAUCE Group: SEPTiC
@@ -41,21 +41,20 @@ Write-Host '
            [1;30m [0m             [1;30m▐▌[0m  [1;30m░▐▌[0m
         [1;31m░[0m                 [1;30m▀▄▄ ▀[0m
                                                                       [1;30m░░[0m
-        [1;31m [0m  [1;30m [0m [1;30m  [0m   [1ms[0;1;31merotonin[0;1;30m [0;31m-[0;37m [0;1;31msysop[0;31m:[0;37m [0;1;31mservility[0m [31m,[0;37m [0;1;31mremote[0;31m:[0;37m [0;1;31mrazor[0m       [1;30m░▒▒░[0m  [1;30m░[0m
-        [1;31m░[0m     [1;30m  [0m  [1;30m  [0;31mPCboard[0;1;30m [0;31mv15[0;36m.[0;31m22[0;1;30m  /[0;31m100[0;1;30m  [0;36m([0;31mOS[0;1;30m/[0;31m2[0;36m)[0;1;30m  [0;31mCustomized[0m          [1;30m░░    [0m
-        [1;31m▒[0m      [1;30m  [0m           [1;30m  [0;31mIBM[0;1;30m / [0;31mPC[0;1;30m [0;31mwarez[0;1;30m [0;31monly[0;36m![0m                    [1;30m [0m
+        [1;31m [0m  [1;30m [0m [1;30m  [0m   [1m [0;1;31m        [0;1;30m [0;31m [0;37m [0;1;31m     [0;31m [0;37m [0;1;31m         [0m [31m [0;37m [0;1;31m      [0;31m [0;37m [0;1;31m     [0m       [1;30m░▒▒░[0m  [1;30m░[0m
+        [1;31m░[0m     [1;30m  [0m  [1;30m  [0;31m       [0;1;30m [0;31m   [0;36m [0;31m  [0;1;30m   [0;31m   [0;1;30m  [0;36m [0;31m  [0;1;30m [0;31m [0;36m [0;1;30m  [0;31m          [0m          [1;30m░░    [0m
+        [1;31m▒[0m      [1;30m  [0m           [1;30m  [0;31m   [0;1;30m   [0;31m  [0;1;30m [0;31m     [0;1;30m [0;31m    [0;36m [0m                    [1;30m [0m
         [1;31m▓[0m  [31m [0m    [1;30m  [0m               [1;30m  [0m [31m1[0;1;30m.[0;31m9[0;1;30m [0;31mgigs[0m
-   [1;31m░░[0m [1;31m▒▓█▓▒▒░ [0m [1;30m [0;1;31m░[0m     [31mnode1[0;36m.<[0;31m519[0;1;30m>[0;31mXxX[0;1;30m.[0;31mxXxX[0;1;30m [0;36m-[0;1;30m [0;31mSportster[0;1;30m [0;31m28[0;1;30m.[0;31m8[0m            [1;30m [0m
-        [1;31m▓[0;31m   [0m   [1;30m  [0m     [31mnode2[0;36m.<[0;31m519[0;1;30m>[0;31mXxX[0;1;30m.[0;31mxXxX[0;1;30m [0;36m-[0;1;30m    [0;31mGVC[0;1;30m [0;31m28[0;1;30m.[0;31m8[0;1;30m    [0m
-     [31m   [0;1;31m▒[0;31m  [0m    [1;30m  [0m     [31mnode3[0;36m.<[0;31m519[0;1;30m>[0;31mXxX[0;1;30m.[0;31mxXxX[0;1;30m [0;36m-[0;1;30m  [0;31mCourier[0;1;30m [0;31m33[0;36m.[0;31m6[0m
+   [1;31m░░[0m [1;31m▒▓█▓▒▒░ [0m [1;30m [0;1;31m░[0m     [31m     [0;36m  [0;31m   [0;1;30m [0;31m   [0;1;30m [0;31m    [0;1;30m [0;36m [0;1;30m [0;31m         [0;1;30m [0;31m  [0;1;30m [0;31m [0m            [1;30m [0m
+        [1;31m▓[0;31m   [0m   [1;30m  [0m     [31m     [0;36m  [0;31m   [0;1;30m [0;31m   [0;1;30m [0;31m    [0;1;30m [0;36m [0;1;30m    [0;31m   [0;1;30m [0;31m  [0;1;30m [0;31m [0;1;30m    [0m
+     [31m   [0;1;31m▒[0;31m  [0m    [1;30m  [0m     [31m     [0;36m  [0;31m   [0;1;30m [0;31m   [0;1;30m [0;31m    [0;1;30m [0;36m [0;1;30m  [0;31m       [0;1;30m [0;31m  [0;36m [0;31m [0m
         [1;31m▒[0m
-       [1;30m [0;1;31m░[0;1;30m         [0m       [33mansi[0;1;30m [0;33mby[0;1;30m [0;33mmagnetic rage[0;1;30m [0;33m<[0;1;31mseptic[0;33m>[0m
-[33mgreets[0;1;31m [0;1;30m: [0;33mmr.sinister[0;1;30m,[0;33mippy[0;1;30m,[0;33mstc[0;1;30m,[0;1;33mlemon[0;33made[0;1;30m,[0;33meO[0;1;30m,[0;33mtetanus[0;1;30m,[0;33mbetrayer[0;1;30m,[0;33mellisdee[0;1;30m,[0;33mrest of 5i9[0;1;30m.[0m
+       [1;30m [0;1;31m░[0;1;30m         [0m       [33m    [0;1;30m [0;33m  [0;1;30m [0;33m             [0;1;30m [0;33m [0;1;31m      [0;33m [0m
+[33m      [0;1;31m [0;1;30m  [0;33m           [0;1;30m [0;33m    [0;1;30m [0;33m   [0;1;30m [0;1;33m     [0;33m   [0;1;30m [0;33m  [0;1;30m [0;33m       [0;1;30m [0;33m        [0;1;30m [0;33m        [0;1;30m [0;33m           [0;1;30m [0m
 
-[1;30m        [0;31m░[0;1;30m  [0m     i[1;30mf you would like an ansi or logo from me, catch[0m
-        [31m [0m   [31m [0;37m   [0;31m  [0;1;30mme on iRC in #acid, #ice as mr_ OR mr_septic[0m
+[1;30m        [0;31m░[0;1;30m  [0m      [1;30m                                               [0m
+        [31m [0m   [31m [0;37m   [0;31m  [0;1;30m                                            [0m
         [1;30m [0m
         [1;30m [0m
         [1;30m [0m
-        [1;30m░[0m
-        [1;30m [0m'
+        [1;30m░[0m'

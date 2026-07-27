@@ -5,7 +5,7 @@
 # Source SHA-256: 824b916b080c9f7e96389c145d10d28f0f99cc472484909c199218c16f5f0aef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: !-1335.ANS by flame (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: : INTRO :
 # SAUCE Author: flame
 # SAUCE Group: RILE
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-[30mflame drew this.  bleh.[0m
+[30m                       [0m
                                                                        [1;30m■[0m
                  ·
-[33myou silly groups can have world domination.  we''re [0;35mfine[0;33m on planet [0;1;35mritoran-5[0;33m.  [0m
+[33m                                                   [0;35m    [0;33m           [0;1;35m         [0;33m   [0m
 [31m [0m                                 [31m [0m
 [31m       [0;37m·[0;31m              [0m            [31m   [0;34m▄▄▄▄▄[0;31m▄▄[0;1;33;44m▄▄[0;1;33;40m▄[0;1;37;40m▄▄[0;1;33;40m▄▄▄▄[0;1;37;40m▄[0;1;33;40m▄[0;31m▄▄▄[0;34m▄▄▄▄█▄[0;37m [0;31m         [0m
     [31m              [0m       [34m▄[0;31m▄▄▄▄[0;34;41m▀▀[0;37;41m▄[0;34;41m░[0;31;40m██[0;1;33;40m▒▒[0;1;33;41m░[0;31;43m▀[0;1;37;41m▄[0;1;33;41m███[0;1;37;41m██████[0;1;33;44m█[0;1;33;40m█[0;1;37;40m██[0;1;33;40m█[0;1;37;40m██[0;1;33;40m██[0;1;33;44m▄▄[0;41m▓▄░[0;31;40m██▌ ▄▄▄[0;1;31;40m▄[0;31m░[0m
@@ -41,7 +41,7 @@ Write-Host '
 [1;31;41m ▐▄▒[0;31m██████████[0;32;41m░▓█[0;32;40m██[0;1;32;42m [0;1;32;40m▒[0;32;41m███████████▓[0;31;40m████████████████████████▀█████[0;1;31;40m▒[0;31m███████[0;31;43m▓▄[0;1;33;43m▀[0;31;43m▄[0;31;40m█████[0m
 [31;40m▓[0;1;31;41m▐█▓[0;31m██████[0;1;31m▒[0;32;41m░░▒█████████[0;31;42m░[0;32;41m▓███████▌[0;31;40m██████████████████████████████████████▓████[0;30;41mfl[0;31;40m█[0;1;31;40m▒[0m
 [31m▓[0m
-[31m░[0;37m  [0;35mrile, the resurrection.  we''re not here to dominate, but to produce art.[0m
+[31m░[0;37m  [0;35m                                                                        [0m
 [31m░[0m
 [31m [0m
 [31m [0;1;35mpack #001[0;34m.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 585adb35e8a4a86e544277834f0637baed86dcb4ff9745a43ea896345e1aa025
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JDA_INP3.ANS by Joda (Drg^InP); released in drg0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: InPulse Inc.
 # SAUCE Author: Joda
 # SAUCE Group: Drg^InP
@@ -30,8 +30,4 @@ Write-Host '
            [31m██[0;1;31;41m [0;31m█[0;37m [0;31m████[0;37m [0;31m█[0;1;31;41m░░[0;31m█[0;37m [0;1;31;41m░[0;31m██[0;1;31;41m░[0m      [1;30m▀▀▀▀[0m [1;30m▀▀▀▀[0m [1;31;41m▒░░▒[0m [1;31;41m▒░░▒[0m [1;31;41m░[0;31m███[0;37m [0;1;31;41m░[0;31m███[0;37m [0;31m████[0m
            [31m████[0;37m [0;31m████[0;37m [0;31m████[0;37m [0;31m████[0;37m [0;1;30mJoda[0m [31m ▀██▄█▓█▀[0;37m [0;1;31;41m░[0;31m███ [0;1;31;41m░[0;31m███▄████[0;37m [0;31m▀███▄███▀[0m
 [37m         [0;31m   [0;37m  [0m
-            [31mi   [0;37m [0;31mn   [0;37m [0;31mc   [0;37m [0;31mo   [0;37m [0;31mr   [0;37m [0;31mp   [0;37m [0;31mo    r    a    t    e    d [0m
-
-           [31m          [0;37m  [0;31m   [0;37m [0;1;30m            [0m [31m [0;37m             [0m
-              [31m          [0m       [1;30m [0m  [31m  [0;37m [0;31m   [0m
-                   [31m [0m              [31m   [0m    [31m [0m'
+            [31mi   [0;37m [0;31mn   [0;37m [0;31mc   [0;37m [0;31mo   [0;37m [0;31mr   [0;37m [0;31mp   [0;37m [0;31mo    r    a    t    e    d [0m'

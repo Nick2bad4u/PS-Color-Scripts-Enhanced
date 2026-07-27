@@ -5,7 +5,7 @@
 # Source SHA-256: 741c8497ec3c4bd3e1bc95dffe8c015898fd9ae38e594698e0575d852af922fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: C-TDH2.ANS by Captin (iMAGE Productions); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Dark Half #2
 # SAUCE Author: Captin
 # SAUCE Group: iMAGE Productions
@@ -44,11 +44,11 @@ Write-Host '
 [1;37m▐[0;1;37;47m▓▓▓[0;1;37;40m▌[0m                              [1;37;40m▀▀[0m
 [1;37;40m ▀▀[0m
 [1;37;40m┌[0m─[1;30m┐──────────────────────────────────────────────────────────────────────────[0;1;37m┌[0m─[1;30m┐[0m
-└[1;30m─┘ H·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH[0m└[1;30m─┘[0m
-[1;30m │·TDH·TDH·TD[0mH[1m· T[0;1;34mh[0;34me [0;1;37mD[0;1;34ma[0;34mr[0;1;30mk [0;1;37mH[0;1;34ma[0;34ml[0;1;30mf  [0;1;37m7[0;1;34m0[0;34m8[0;1;30m5131408  [0;1;37mS[0;1;34my[0;34ms[0;1;30mop [0;1;37mH[0;1;34ma[0;34mw[0;1;30mkeye [0;1;37mP[0;1;34mi[0;34me[0;1;30mrce [0;1;37mD[0mH[1;30m·TDH·TDH·TDH│T[0m
-[1;30mT│H·TDH·TDH·T[0mD[1mH[0m        [1mC[0;1;34mo[0;34m: [0;1;37mJ[0;1;34mi[0;34mm[0;1;30mbob  [0;1;37mF[0;1;34mi[0;34ml[0;1;30meCo: [0;1;37mU[0;1;34mn[0;34mc[0;1;30mle [0;1;37mP[0;1;34mh[0;34me[0;1;30mster[0m        [1;37mT[0mD[1;30mH·TDH·TDH·TD│·[0m
-[1;30m·│DH·TDH·TDH·[0mT[1mD 5[0;1;34m6[0;34m0 [0;1;37mM[0;1;34me[0;34mg[0;1;30ms [0;1;37mO[0;1;34mn[0;34ml[0;1;30mine  [0;1;37mE[0;1;34ml[0;34mi[0;1;30mte[0;34m/[0;1;37mH[0;1;34mp[0;34ma[0;1;30mv[0;34m/[0;1;37mA[0;1;34md[0;34mu[0;1;30mlt  [0;1;37mO[0;1;34mn[0;34ml[0;1;30mine [0;1;37mG[0;1;34ma[0;34mm[0;1;30mes [0;1;37m·[0mT[1;30mDH·TDH·TDH·T│H[0m
-[1;30mH│TDH·TDH·TDH[0m·[1mT  9[0;1;34m6[0;34m0[0;1;30m0-[0;1;37m2[0;1;34m8[0;34m0[0;1;30m00  [0;1;37mN[0;1;34mU[0;34mP[0;1;37m: N[0;1;34mi[0;34mN  [0;1;37m0[0;1;34m-[0;34m3 [0;1;37mM[0;1;34mo[0;34mn[0;1;30mth  [0;1;37mA[0;1;34mn[0;34ms[0;1;30mi: [0;1;37mÇ[0;1;34mà[0;34m₧[0;1;30m│∩   [0;1;37mH[0m·[1;30mTDH·TDH·TDH·│D[0m
-[1;30mD│·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH│T[0m
-[1;37m┌[0m─[1;30m┐·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·TDH·T[0;1;37m┌[0m─[1;30m┐[0m
+└[1;30m─┘                                                                          [0m└[1;30m─┘[0m
+[1;30m │           [0m [1m   [0;1;34m [0;34m  [0;1;37m [0;1;34m [0;34m [0;1;30m  [0;1;37m [0;1;34m [0;34m [0;1;30m   [0;1;37m [0;1;34m [0;34m [0;1;30m         [0;1;37m [0;1;34m [0;34m [0;1;30m   [0;1;37m [0;1;34m [0;34m [0;1;30m     [0;1;37m [0;1;34m [0;34m [0;1;30m    [0;1;37m [0m [1;30m            │ [0m
+[1;30m │           [0m [1m [0m        [1m [0;1;34m [0;34m  [0;1;37m [0;1;34m [0;34m [0;1;30m     [0;1;37m [0;1;34m [0;34m [0;1;30m     [0;1;37m [0;1;34m [0;34m [0;1;30m   [0;1;37m [0;1;34m [0;34m [0;1;30m    [0m        [1;37m [0m [1;30m            │ [0m
+[1;30m │           [0m [1m   [0;1;34m [0;34m  [0;1;37m [0;1;34m [0;34m [0;1;30m  [0;1;37m [0;1;34m [0;34m [0;1;30m     [0;1;37m [0;1;34m [0;34m [0;1;30m  [0;34m [0;1;37m [0;1;34m [0;34m [0;1;30m [0;34m [0;1;37m [0;1;34m [0;34m [0;1;30m    [0;1;37m [0;1;34m [0;34m [0;1;30m    [0;1;37m [0;1;34m [0;34m [0;1;30m   [0;1;37m [0m [1;30m            │ [0m
+[1;30m │           [0m [1m    [0;1;34m [0;34m [0;1;30m  [0;1;37m [0;1;34m [0;34m [0;1;30m    [0;1;37m [0;1;34m [0;34m [0;1;37m   [0;1;34m [0;34m   [0;1;37m [0;1;34m [0;34m  [0;1;37m [0;1;34m [0;34m [0;1;30m    [0;1;37m [0;1;34m [0;34m [0;1;30m   [0;1;37m [0;1;34m [0;34m [0;1;30m│    [0;1;37m [0m [1;30m            │ [0m
+[1;30m │                                                                            │ [0m
+[1;37m┌[0m─[1;30m┐                                                                          [0;1;37m┌[0m─[1;30m┐[0m
 └[1;30m─┘──────────────────────────────────────────────────────────────────────────[0m└[1;30m─┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0d25ff9d05fc10f3f405c06a3d7129e7716ac1e93b282cb83eb4c74ba7ff6d7f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NC-FOAM2.ANS by Necrolyte (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Foam
 # SAUCE Author: Necrolyte
 # SAUCE Dimensions: 80x25
@@ -31,6 +31,5 @@ Write-Host '
        [1;30m░░    [0m▀▀[1;30m▀ [0;32m░[0;30;42m▓[0m
 
                                                                      [34;40m▄▄▄▄▄▄▄▄[0m
-                                                             [34;40m(   )[0;31;40msta[0;31;44mrt foami[0;31;40mng[0m
-                                                                     [34;40m▀▀▀▀▀▀▀▀[0m
-                                                             [34;40m(   )[0;31;40mget y0 foamer[0m'
+                                                             [34;40m     [0;31;40m   [0;31;44m        [0;31;40m  [0m
+                                                                     [34;40m▀▀▀▀▀▀▀▀[0m'

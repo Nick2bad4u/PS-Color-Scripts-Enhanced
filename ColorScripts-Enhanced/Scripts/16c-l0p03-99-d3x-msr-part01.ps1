@@ -5,7 +5,7 @@
 # Source SHA-256: 2c0a9312cb3fe08ac18a5e14830d98aa5992f3439a4576fbaf11022c5969f971
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D3X_MSR.ANS by Dexter + Simonking (bLOW#9, tHElo0p); released in l0p03_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mEASURE competition
 # SAUCE Author: dEXTER, sIMONkING
 # SAUCE Group: bLOW#9, tHElo0p
@@ -38,7 +38,4 @@ Write-Host '
   [1;30m░░[0m [1;31m█████▓▒[0m [1m█████[0;1;47m▓▓[0m [1;31m█████▓▒[0m [1;47m▓█[0;1;40m████[0m [1;31m███▓▓ [0m   [1;30m░░[0m   [1;30m░[0;1;37m▐▌[0;1;32m▐▓▌[0m [1;32m░[0m [1m▀▓▀[0m [1;32m▐▓▌[0m [1m▓[0m     [1;30m░░[0m
   [1;30m░[0;1;37m▐[0m [33m▓[0;1;31m███▓▓▌[0;1;37m▐█████[0;1;37;47m▓▓[0;1;31;40m▐█████▓▒▌[0;1;37;47m▓▓[0;1;37;40m█████▌[0;1;31;40m██▓▓[0m [1;30m░░░░░░░░░[0;1;37m▓[0m [1;32m█▓░░[0m  [1m▐▌[0m [1;32m░█▓░░[0m      [1;30m░░[0m
    [1m█[0m [33m▓[0;1;31m██▒▓▓▄▄▄▄▄▄▄▄▄▄█████▓▓▄▄▄▄▄▄▄▄▄█▓▓▒[0m [1;30mno lame[0m  [1m▐[0m [1;32m▐▓▌ [0m   [1m▓▄▄▄[0m         [1;30m░░░░░░░[0m
-   [1m▓▄[0m [33m▀[0;1;31m▒▓▓█████████████████▓▓▓███████▓▒▀[0m  [1;30mno[0m [1;30mcopy[0m   [1m▒[0m [1;32m▀▓▄[0m
-ansi by dexter/blow#9[0m
-
-'
+   [1m▓▄[0m [33m▀[0;1;31m▒▓▓█████████████████▓▓▓███████▓▒▀[0m  [1;30mno[0m [1;30mcopy[0m   [1m▒[0m [1;32m▀▓▄[0m'

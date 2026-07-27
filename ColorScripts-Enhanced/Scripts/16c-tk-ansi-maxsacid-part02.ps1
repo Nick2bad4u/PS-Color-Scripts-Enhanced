@@ -5,7 +5,7 @@
 # Source SHA-256: 89525b6f0a02013f76492ea1f7a33d8f0b093711c726d3a7b02b8c75c79e00af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAXSACID.ANS by Tank (ACiD Productions); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Maximum Security BBS Ad
 # SAUCE Author: Tank
 # SAUCE Group: ACiD Productions
@@ -33,8 +33,8 @@ Write-Host '
 [1;30m   8   [0;33m▄▓▓▓▒▒▒▒▒▒[0;1;37m▀-▀▀-▀▀▄██▀▄█▀▄██ [0;1;30m▄██[0m              [1;37mSy[0mso[1;30mp: [0;1;37mT[0mh[1;30me [0;1;37mWa[0mrd[1;30meN[0m
 [1;30m    8[0;33m▄███▓▓▓▓▓█▀[0m           [1;37m▀▀-███[0;33m█[0;1;30m███▌[0m              [1;37mSp[0mee[1;30md: [0;1;37m3[0m8.[1;30m4 [0;1;37mU[0mS[1;30mR [0;1;37mD[0mS
      [33m▀▀▀▀▀▀▀▀▀[0m                 [1;37m█   [0;1;30m▀▀[0m               [1;37mMu[0mlt[1;30mi-[0;1;37mNo[0md[1;30me/[0;1;37mMu[0mlt[1;30mi-[0;1;37mGi[0mg[1;30ms[0m
-                                                    [1;37mNu[0mmbe[1;30mr:([0;1;31m4[0;31m08[0;1;30m)[0;1;31mP[0;31mRI[0;1;30m-[0;1;31mV[0;31mATE[0m
-[1;37mV[0mi[1mP [0m([1mc[0m)[1mon[0m''[1m91 [0m& [1mTANK <[0mAC[1mi[0mD[1m> [0m''[1m92[0m
+                                                    [1;37m  [0m   [1;30m   [0;1;31m [0;31m  [0;1;30m [0;1;31m [0;31m  [0;1;30m [0;1;31m [0;31m   [0m
+[1;37m [0m [1m  [0m [1m [0m [1m  [0m [1m   [0m  [1m      [0m  [1m [0m [1m  [0m [1m  [0m
 
    ▄████▄    ▐███▄     ▄█████▄   █▌     ▐█   ▐████▄     █  [1;30;47m▄[0m███████[1;30;47m▄[0m  █▄     ▄█
   ███[1;30;47m▄██▄[0m    ██[1;30m██▀    [0m▐██[1;30;47m▄███[0m▀  ▐██     ██▌  ██[1;30;47m██▄[0m██   ▐█▌ [1;30m▀██[0m███[1;30m██▀  [0;1;30;47m▌[0m██▄ ▄██[1;30;47m▐[0m

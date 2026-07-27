@@ -5,7 +5,7 @@
 # Source SHA-256: 5d4ac1341bed885cfd72717aa87fa4987662335c55a9bf9255141f3c41755a24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TO-ILL.ICE by Tornado (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -28,7 +28,7 @@ Write-Host '
                           [1;30;40m▀▀▀▀▀▀▓▓▓▓▓▓▓▓▓▄ ▀ [0;33m▀[0;33;43m [0;1;33;43m░░▒▒[0;1;33;40m▄▄[0;1;30;40m▀▀▀▀▀▀ ▄▄▄▒▀[0m▐▄▄▄ [1;30m▀▀▓▓▌[0m
 [1;30m  a TORNADo<[0;1;37mi[0;1;36mC[0;1;34mE[0;1;30m> PROdUCTION..[0m                   [33m▀▀▀▀▀▀▀  [0;1;30m▀▀▀▒▒▀[0m▄[1;47m░▒▒▒▓▓▓[0m▌[1;30m▄▀[0m
                                                               ▐█[1;47m░▒▒▒▓▓[0;1;40m█ [0;1;30;40m▄[0m
-[1;30;40m  CyberSys Programming Presents..  Illustrator Magazine.[0m      █[1;47m░▒▒▒▓▓[0;1;40m▀[0;1;30;40m▄▓▌[0m
+[1;30;40m                                                        [0m      █[1;47m░▒▒▒▓▓[0;1;40m▀[0;1;30;40m▄▓▌[0m
                                                             ▄█[1;47m░░▒▒▓▓[0;1;40m▌ [0;1;30;40m▀▀[0m
                            [33m▄ ▄▄ ▄  ▄▄[0m                      [37m▐█[0;1;37;47m░▒▒▓▓[0;1;37;40m█▀[0m
                            [33m▐█▄▐█▄▐▄▐█▄█▄▄[0m                 [37m▄[0;1;37;47m░▒▒▓▓[0;1;37;40m█▀[0m

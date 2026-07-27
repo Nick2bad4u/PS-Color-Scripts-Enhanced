@@ -5,7 +5,7 @@
 # Source SHA-256: 51a01fa2c5528adf975c7207bbeab9b212c1b33e7af0ca8c99271f144ea025d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-GUT2.ANS by tainted (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gutter emag
 # SAUCE Author: tainted
 # SAUCE Group: FiRE
@@ -45,7 +45,7 @@ Write-Host '
                                [1;30m▄[0;1;30;47m▓▓[0m  [1;30m▀[0m [1;30m█▄██▄█[0m [1;30m▀[0m  [1;30;47m▓▓[0;1;30;40m▄[0m
                              [1;30m░▒▓▀[0m     [1;30m▀[0m    [1;30m▀[0m     [1;30m▀▓▒░[0m
 
-                        [31mthe [0;1;31mfilthiest[0;31m emag to ever exist.░░[0m
+                        [31m    [0;1;31m         [0;31m                    ░░[0m
 
-           [31mgreets out to my long time doodle brother, love you [0;1;31mfilth[0;31m![0m
+           [31m                                                    [0;1;31m     [0;31m [0m
                                                                                [30m░[0m'

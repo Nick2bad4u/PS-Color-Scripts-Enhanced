@@ -5,7 +5,7 @@
 # Source SHA-256: 944c3d17e2eb6fbff7cb6491b5e11d917248ce8ac954930f7369b0b3c4ab3947
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JP-LOGO2.ANS by jump (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo-cluster
 # SAUCE Author: jump
 # SAUCE Group: phat studios '97
@@ -16,8 +16,8 @@
 
 Write-Host '
 [37m  [0;1;30m ▄▓▀▀[0m [1;30m░░[0m                                                               [1;30m▀▓▄[0m
- [1;30m ▐▌   [0ma file_id for local group,i put my favorite colors over the white   [1;30m▐▌[0m
-[1;30m░░▐▌[0m  [1;30m [0m sucking id.greetz trc and his little hacienda.      [1mjump[0;1;30m([0mc[1;30m)[0m in [1m97[0m  [1;30m▐▌░░[0m
+ [1;30m ▐▌   [0m                                                                    [1;30m▐▌[0m
+[1;30m░░▐▌[0m  [1;30m [0m                                                     [1m    [0;1;30m [0m [1;30m [0m    [1m  [0m  [1;30m▐▌░░[0m
    [1;30m▀▓▄[0m                                                                   [1;30m▄▓▀[0m
    [1m           [0;1;30m▄[0;1;37m        [0;1;30m▄[0m                  [1m          ▄        ▄[0m
    [1m    [0;1;30m▄▄██▄▀█▌▀[0;1;37m [0;1;30m▀▀▀[0;1;37m [0;1;30;47m▓[0;1;30;40m▀▀░░[0;1;37;40m [0;1;30;40m▀▀▀██[0;1;37;40m [0;1;30;47m▓▓[0;1;30;40m██▌[0m    [1m   ▄▄██▄▀█▌▀ ▀▀▀ ▓▀▀░░ ▀▀▀██ ▓▓██▌[0m
@@ -35,11 +35,11 @@ Write-Host '
    [1m   [0;1;30m▀[0;1;30;47m▓▓[0;1;37;40m  [0;1;30;40m▀▀▀▀▀■▀▀[0;1;37;40m [0;1;30;40m▀▀▀▀▀▀▓▄ ░░[0;1;37;40m [0;1;30;40m▄[0;1;37;40m [0;1;30;40m▀▀█▌[0m    [1m  ▀▓▓  ▀▀▀▀▀■▀▀ ▀▀▀▀▀▀▓▄ ░░ ▄ ▀▀█▌[0m
    [1m  [0;1;30m█▄▄▄[0;1;37m [0mthe united dreams [1;30m▀▀■▀[0;1;37m  [0;1;30m▐▄▄[0m     [1m █▄▄▄ the united dreams ▀▀■▀  ▐▄▄[0m
    [1m  [0;1;30m▓██▀[0;1;37m  put your infos here in[0;1;30m░░██[0;1;30;47m▓[0m    [1m ▓██▀  put your infos here in░░██▓[0m
-   [1m  [0;1;30m▐█▌▐▌[0;1;37m  and write some shit    [0;1;30m▐██[0m    [1m ▐█▌▐▌  and write some shit    ▐██[0m
+   [1m  [0;1;30m▐█▌▐▌[0;1;37m                         [0;1;30m▐██[0m    [1m ▐█▌▐▌                         ▐██[0m
     [1m [0;1;30m▀[0;1;37m [0;1;30m▄█[0;1;30;47m▓[0;1;30;40m▄▄▄▄[0;1;37;40m  [0;1;30;40m▄▄▄▄▄[0;1;37;40m         [0;1;30;40m▄[0;1;37;40m  [0;1;30;40m▄▄▓█▌[0m    [1m ▀ ▄█▓▄▄▄▄  ▄▄▄▄▄         ▄  ▄▄▓█▌[0m
     [1m [0;34m29.2.97[0;1;37m [0;1;30m▀▓[0;1;30;47m▓▓[0;1;30;40m▀▀▀▓█▄▀██████▌████▀▀[0m     [1m 29.2.97 ▀▓▓▓▀▀▀▓█▄▀██████▌████▀▀[0m
 
   [1;30m ▄▓▀▀[0m [1;30m░░[0m                                                               [1;30m▀▓▄[0m
- [1;30m ▐▌   [0mwrite some critics or something else to Fido  2:240/5068.47         [1;30m▐▌[0m
-[1;30m░░▐▌[0m  [1;30m [0m leave credits or suck and do it yourself.phat^genetics  [1;30m([0mc[1;30m)[0m in [1m97[0m  [1;30m▐▌░░[0m
+ [1;30m ▐▌   [0m                                                                    [1;30m▐▌[0m
+[1;30m░░▐▌[0m  [1;30m [0m                                                         [1;30m [0m [1;30m [0m    [1m  [0m  [1;30m▐▌░░[0m
    [1;30m▀▓▄[0m                                                                   [1;30m▄▓▀[0m'

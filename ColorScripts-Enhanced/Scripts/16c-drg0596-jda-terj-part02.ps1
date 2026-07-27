@@ -5,7 +5,7 @@
 # Source SHA-256: 533e60549ed92ea0f3ff91b98c72e29ac4fd620b0f18427eac243f974c99a6c8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JDA_TERJ.ANS by Joda (Drg^InP); released in drg0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: No title!!!
 # SAUCE Author: Joda
 # SAUCE Group: Drg^InP
@@ -35,9 +35,4 @@ Write-Host '
 [1;34;40m███[0;1;34;44m▀▀[0;1;34;40m██████[0;1;34;44m▀ ▀[0;1;34;40m████[0;1;34;44m▀ ▀▀[0;1;34;40m█[0;1;34;44m▀ ▀▀[0;1;34;40m█[0;1;34;44m▀ ▀[0;1;34;40m█▄▄▄▄▄▄███[0;1;34;44m▀ ▀[0;1;34;40m██████[0;1;34;44m▀▀   [0;1;34;40m█████[0;1;34;44m█▀ ▀▀ ▀████▀ ▀▀█▀ ▀█[0m
 [1;34;44m▀     ▀▀ ▀     ▀                ▀▀    ▀▀     ▀[0;1;34;40m█[0;1;34;44m▀▀       ▀▀ ▀         ▀          [0m
 [1;34;44m                    [0;34m▓[0;1;34;44m                                                  [0;34m▓[0;1;34;44m        [0m
-[34m▀▓▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-
-[1;30mThis[0mis[1;30mmy[0mpicture[1;30mof[0mTerje[1;30mElde[0mpretending[1;30mto[0mbe[1;30ma[0msame
-Terje Elde = Macintosh dude!
-Fuck! I forgot his mustage![0m'
+[34m▀▓▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

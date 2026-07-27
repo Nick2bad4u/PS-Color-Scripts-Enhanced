@@ -5,7 +5,7 @@
 # Source SHA-256: bed65f0310d53fdf5eaf38a1cb648753dd56294db9bea1baa9354cc81ea36811
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: POS-DTD6.ANS by positive pain (dtd'blz); released in dtd04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: devotion to darkness
 # SAUCE Author: positive pain
 # SAUCE Group: dtd'blz
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-                        [30;41m▌▌d[0;1;31;40mevotion to[0m
-                                [1;31;40mdarknes[0;30;41ms▐▐[0m           [1;31;40mggggggggg gg   g[0m     [1;31;40mg[0m
-                      [1;31;40mgggggggg[0m              [1;31;40m,s@¼¼¼ⁿⁿⁿ¼¼¼¼¼¼¼¼[0m
+                        [30;41m▌▌ [0;1;31;40m          [0m
+                                [1;31;40m       [0;30;41m ▐▐[0m           [1;31;40m                [0m     [1;31;40m [0m
+                      [1;31;40m        [0m              [1;31;40m                 [0m
              [1;31;40m,s@¼¼¼ⁿⁿⁿ[0;32;41m½[0;1;31;40m¼¼¼¼¼¼¼[0m             [1;31;40md¼¼¼¼¼¼   ¼¼¼[0;32;41m½[0;1;31;40m¼¼¼¼[0m
             [1;31;40md¼¼¼¼¼¼   ¼¼¼¼ gggggggg[0m       [1;31;40ml¼¼[0;1;31;41m½░░[0;1;31;40m¼¼   ¼¼¼¼%%%¼[0m
          [1;30;40m, [0;31ml[0;1;31m¼¼¼¼¼¼¼   ¼¼¼¼ ¼¼¼[0;1;31;41m½½[0;1;31;40m¼¼¼xx[0m     [1;31;40mⁿⁿⁿⁿⁿ%¼¼   ¼¼¼%%[0;1;30;41ml[0;1;30;40m;[0;31ml [0;1;30m,[0m
@@ -26,7 +26,7 @@ Write-Host '
         [1;30m,  ;;;[0;31mll[0;1;31m%¼¼   ¼¼¼% ¼¼[0;1;31;41m½½½½[0;1;31;40m¼¼   ¼¼¼¼¼¼¼¼ ¼¼¼   ¼¼%%[0;31ml[0;1;30m;;;;,  ,[0m
        [1;30m,  ,,;;;[0;31ml[0;1;31m%¼¼   ¼¼%% %%¼[0;1;31;41m½½[0;1;31;40m¼¼¼   ¼¼¼¼¼¼½¼ ¼¼¼   ¼%[0;31mll[0;1;30m;;,;[0m
            [1;31m%[0;31ml[0;1;30m;[0;31ml[0;1;31m%¼¼[0;1;31;41m½░[0m  [1;31;40m¼¼%[0;31ml [0;1;30m;[0;31ml[0;1;31m%%¼¼¼¼   ¼¼[0;32;41m¼░[0;1;31;40m¼¼¼¼ uuuuuu%[0;31ml[0;1;30m,;,;;,, ,[0m
-        [1;31my yy yyyyyyyyy¼%[0;31ml[0;1;30m; ,;;[0;31ml[0;1;31m%¼¼[0;1;31;41m½▒[0m  [1;31;40m¼¼¼¼¼¼¼l [0;31mpos''dtd [0;1;30m;,;  [0;30;41m;[0m
+        [1;31m                [0;31m [0;1;30m     [0;31m [0;1;31m   [0;1;31;41m ▒[0m  [1;31;40m         [0;31m        [0;1;30m     [0;30;41m [0m
                       [1;30;40m, ,;,;,;[0;31mll[0;1;31m%¼¼   ¼¼¼¼¼¼?[0m               [1;30m,[0m
-                         [1;30m, ,;[0;31mll[0;1;31m%uuuuuu¼¼¼Sⁿ''[0m
+                         [1;30m    [0;31m  [0;1;31m             [0m
                            [1;30m;[0m'

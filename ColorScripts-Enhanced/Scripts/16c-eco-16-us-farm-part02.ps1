@@ -5,7 +5,7 @@
 # Source SHA-256: e2f4f7448f9ba585d4e2a1e64eeaf71a66474378c4d7866299fd8430a990212e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FARM.ANS by President + Commissaris Plons (ecolove); released in eco-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: on the farm
 # SAUCE Author: plons & president
 # SAUCE Group: ecolove
@@ -45,11 +45,4 @@ Write-Host '
 [1;31;41m▄▀[0;31m▀[0;1;31;41m▀▀▄▀▀█░[0m ▐[1;32;47m▓[0;1;32;42m▓[0;32m▌[0;31m▀[0;1;31;41m▀[0;1;31;47m▄█[0;31m▄  [0;32m ▓[0;1;32;42m▐[0;1;37;40m█[0;1;32;42m░[0m [32m [0;1;31m▀[0;1;31;41m▄[0;31m▄[0;32m  ▀[0;1;32;42m▀█▄[0;1;32;40m▄[0;32m▄[0;1;32m▄[0;1;32;42m▄[0;1;32;40m█[0;1;32;42m▀[0;32m▀ [0;31m▐▌ [0;1;32;42m █[0;1;32;47m▒[0;1;33;40m [0;1;33;41m [0;31m▌[0;32m [0;31m▀[0;1;31;41m█[0;31m▀ [0;1;32m▓▓▓[0;32m [0;31m▄▄█[0;1;31;41m▓[0;31m▀ █[0;1;31;41m▀[0;31m▀[0;1;31;41m▀ [0;1;31;47m█[0;1;31;41m▀[0;31m▀[0;1;31;41m▀[0;1;31;47m▄[0m
 [1;31;41m░[0;31m█[0;37m  [0;31m█[0;1;31;41m░[0m  [1;31;41m  [0m  ▀[1;32;47m▀[0;1;32;42m▄[0;1;32;40m▄[0;32m▄[0;31m▀▀[0;32m ▄[0;1;32m▄[0;1;32;42m▄█▀[0;32m▀[0;1;30;41m▀[0;1;31;41m░[0;32m  [0;1;31;47m▄[0;1;31;41m▀[0;31m▀▄▄ [0;32m▀[0;1;32;42m▀█▀[0;1;32;40m▀[0;32m▀  [0;31m▄▄▀[0;32m ▐[0;1;32;42m▐[0;1;37;47m█[0m▌[32m [0;1;33;41m [0;31m█[0;37m  [0;1;31;41m  [0;31m [0;1;32m░░░[0;31m█▀[0;37m [0;1;31;41m░░[0m  [31m█[0;1;31;41m [0m  [31m██[0;37m  [0;1;31;41m ▓[0m
 [31m▓▓[0;37m  [0;31m▓▓[0;37m  [0;31m▓▓[0;37m  [0;31m▓▓[0;37m▀[0;1;32m▀[0;1;32;47m▀█[0;1;32;42m██[0;1;32;40m█▀[0;32m▀[0;31m▓[0;32m  [0;31m▓▓[0;37m  [0;31m▓▓[0;37m  [0;31m▓▓[0;37m  [0;32m▀[0;1;32m▀[0;1;32;47m▀[0;1;32;42m█[0;1;32;40m▄▄[0m   [32m▄[0;1;32;42m▄[0;1;32;40m█[0;1;32;47m [0;1;32;40m [0;32m [0;31m▓▓[0;37m  [0;31m▓▓   ▓▓[0;37m  [0;31m▓▓[0;37m  [0;31m▓▓[0;37m  [0;31m▓▓[0;37m  [0;31m▓▓[0m
-[31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0m   [31m░░[0m   [31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0;32m  [0;37m▀[0;1;32m▀[0;1;32;47m▀[0;1;32;40m██[0;1;32;47m▀[0;1;32;40m▀[0m▀[31m░[0;1;32m [0;31m ░░[0;37m  [0;31m░░   ░░  ░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0m
-
-
-[1;30ma joint by [0;1;37mc[0mommissaris [1mp[0mlons[1;30m & [0;1;37mp[0mresident
-
-[1;30mthis one''s for rattrap and his band called S.O.A. , which should sound like[0m
-[1;30mmetal/hiphop. so when you think about this kind of music, and close your eyes,[0m
-[1;30myou''ll think about a pigeon right ?[0m'
+[31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0m   [31m░░[0m   [31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0;32m  [0;37m▀[0;1;32m▀[0;1;32;47m▀[0;1;32;40m██[0;1;32;47m▀[0;1;32;40m▀[0m▀[31m░[0;1;32m [0;31m ░░[0;37m  [0;31m░░   ░░  ░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0;37m  [0;31m░░[0m'

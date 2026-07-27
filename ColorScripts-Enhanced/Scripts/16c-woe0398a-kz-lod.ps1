@@ -5,7 +5,7 @@
 # Source SHA-256: 8493dfbe379a2978b6088ecc22baf726a8eaff60267aed3d333a08eb3a0047d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KZ-LOD.ANS by klumzee (wOE!); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: LOD!
 # SAUCE Author: klumzee
 # SAUCE Group: wOE!
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mland of destruction[0m([1;30mlod[0m)[1;30m [0m                                    [1;30m     [0m [1;30mmethane[0m([1;30mwOe[0m)
+[1;30m                   [0m [1;30m   [0m [1;30m [0m                                    [1;30m     [0m [1;30m       [0m [1;30m   [0m 
 [1m▄▄▄[0m▄[1;30m▄[0;1;37m▄▄[0;1;30m▄▄▄▄▄▄[0m▄▄[1m▄▄▄[0m▄▄▄▄[1;30m▄▄▄▄▄[0m
 [1;30m▄▄▄ [0m▀▀▀[1m▀[0m▀ [1;30m▄▄▄[0m ▀▀[1m▀[0m▀[1;30m ▄▄▄  ▄▄[0m▄[1;30m▄▄▄▄▄[0m
 [1m█[0;1;30m█ ▄[0;1;36;46m ▓▒[0;1;30;46m░[0;1;30;40m█▄[0m [1;30;47m▄░[0;1;30;40m█[0m [1;30m▀[0m [1;30m▄█[0;1;37m█[0;1;37;47m▓▒[0;1;30;40m█▄[0m ▀[1m█[0;1;30;47m▄[0;1;30;40m███▀▀[0m

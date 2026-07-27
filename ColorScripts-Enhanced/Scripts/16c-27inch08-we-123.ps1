@@ -5,13 +5,13 @@
 # Source SHA-256: 8ffefed522263e155b4a52eee735e9f6e13402395ec271481d26686701a26927
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-123.ans by Enzo + Abstrakt (27inch08); released in 27inch08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
 [34m [0m                                                              [34m [0m          [1;30m▌[0m
-[34m [0m              [1;35m [0m        [34m  [0;37m [0;1;30m (eat with chopsticks)[0m                    [1;30m░[0;33m   [0;1;30;43m▓[0m
+[34m [0m              [1;35m [0m        [34m  [0;37m [0;1;30m                      [0m                    [1;30m░[0;33m   [0;1;30;43m▓[0m
                                   [37m  [0m                                    [1;30;43m░[0m
 [34m▄[0;36;44m▄▄[0;34;40m█  ██[0;36;44m ▄▄█[0;1;36;46m▀[0;36;44m█▓▓░   [0;34;40m  ▒███[0;1;34;44m░[0;34m█ [0;37m   [0;33m [0;1;30m▌[0;34m ▄[0;36;44m▄■[0;34;40m████   ▄█████████████████[0;1;34;44m▄[0;34m█▒[0;33m  ▌  █ [0;34m [0;1;34;44m▒▒[0;34m██[0;36;44m▄[0;34;40m▄[0m
 [36;44m█[0;1;36;46m▀[0;34m▀▄▄[0;36;44m▄[0;1;36;46m■[0;34m██████████████▄█▀█[0;1;34;44m▒[0;34m▒  [0;37m   [0;1;30;43m▒[0;33m [0;34m▒[0;36;44m▒▒[0;34;40m████ █░▓███[0;1;33;44m░░░[0;34m██████████[0;1;34;44m▒█[0;1;34;47m▄[0;34m▀[0;33m  █  █  [0;34m▒[0;1;34;44m██[0;34m██[0;36;44m▒[0;34;40m█[0m
@@ -45,6 +45,4 @@ Write-Host '
 [32m█[0;1;32;42m█▄[0;32m█▀[0;33m █  █ [0;32m▒[0;1;32;42m██▀▀ [0;32m██████▄[0;1;32;42m [0;32m██████████████[0;1;33;42m▄█[0;32m██[0;37m [0;33m ▌ [0;32m▒[0;33m █  [0;1;32;42m █▀[0;32m███████[0;1;32;42m [0;32m█[0;1;32;42m▀[0;32m█▀▀▄███[0;1;33;42m▄▄[0;1;33;40m██[0;32m██[0;1;32;42m██[0m
 [32m███▒[0;37m [0;33m▌  █ [0;32m█[0;1;32;42m▓▓[0;32m██████[0;1;32;42m▄[0;32m█[0;1;32;42m [0;32m▄[0;1;32;42m  [0;32m██████▀[0;1;36m▄[0;32m▄█▀██[0;1;33;42m▒▀[0;32m█▒[0;37m   [0;32m▓▓[0;37m    [0;1;32;42m▒[0;32m██████[0;1;32;42m▄▀[0;32m█▀█▄█[0;1;33;42m▄[0;32m█[0;1;33;42m    [0;32m█[0;1;33m███[0;32m██[0;1;32;42m▄█▀[0m
 [32m███[0;37m  [0;33m  ▌ [0;32m█[0;1;32;42m▒▒[0;32m█████[0;1;32;42m▄█[0;32m▀▄█████[0;1;32;42m▄[0;32m█[0;1;32;42m▀▀▄[0;32m▄▀▀▀▄[0;1;33;42m░ [0;32m██  [0;37m  [0;32m██[0;37m   [0;32m▒[0;1;32;42m░[0;32m██████[0;1;32;42m██[0;32m▀  [0;1;33;42m▄█[0;32m█████[0;1;33;42m  [0;32m███[0;1;32;42m▄█▀[0;32m▀▀▄[0m
-[1;30;42m░░[0;32m [0m     [32m▒[0;1;32;42m░[0;32m██████[0;1;32;42m ▀[0;32m ▒█████[0;1;32;42m█▀[0;32m▀[0;1;36m▄[0;32m▄▀███████▒    [0;1;32m▒▒[0;32m   ▒████████[0;1;32;42m▀▀[0;32m  █[0;1;33;42m▀[0;32m████████[0;1;32;42m▀[0;32m▀▀▀   ▒[0;1;30;42m░[0m
-
-[32m_[0;37m [0;35muno [0;1;31mdois [0;31mthree[0;37m [0;36m* 2004[0m               [32mthis has been an abstrenzo ansi c[0;36mO[0;32mmb[0;36mOOOO[0m'
+[1;30;42m░░[0;32m [0m     [32m▒[0;1;32;42m░[0;32m██████[0;1;32;42m ▀[0;32m ▒█████[0;1;32;42m█▀[0;32m▀[0;1;36m▄[0;32m▄▀███████▒    [0;1;32m▒▒[0;32m   ▒████████[0;1;32;42m▀▀[0;32m  █[0;1;33;42m▀[0;32m████████[0;1;32;42m▀[0;32m▀▀▀   ▒[0;1;30;42m░[0m'

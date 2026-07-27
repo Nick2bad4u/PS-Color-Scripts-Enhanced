@@ -5,7 +5,7 @@
 # Source SHA-256: f69489dea9ef5cb75c4134d484d0c109e09b56dc9264fa04daf15c3c5f7eafc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-DIE#6.ANS by The Shamen (die-pk4); released in die-pk4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-93
 # Columns: 1-80
 
@@ -43,12 +43,12 @@ Write-Host '
 [1;30m  :[0m             [1;30m│ [0;1;37mT [0me r m i n a l l y  [1mS [0ma n e[1;30m-  [0;1;37m+[0m613-[1m5[0m23-[1m7[0m337 [1;30m│[0m             [1;30m:[0m
 [1;30m  .[0m             [1;30m│ [0;1;37mT [0mh e   [1mR [0me b e l l i o n   [1;30m-  [0;1;37m+[0m617-[1m5[0m32-[1m6[0m461 [1;30m│[0m             [1;30m.[0m
 [1;30m  .[0m             [1;30m:[0m                                              [1;30m:[0m             [1;30m.[0m
-                [1;30m. [0;1;34mM[0;34mA[0;1;30mKE [0;1;34mS[0;34mU[0;1;30mRE [0;1;34mT[0;34mO [0;1;34mC[0;34mA[0;1;30mLL [0;1;34mV[0;34mi[0;1;30mOLENT  [0;1;34mC[0;34mR[0;1;30miMES [0;1;34mT[0;34mO [0;1;34mR[0;34mE[0;1;30mQUEST .[0m
-[1;30m  .[0m                                [1;34mY[0;34mO[0;1;30mUR [0;1;34mA[0;34mN[0;1;30mSi![0m                                [1;30m.[0m
+                [1;30m  [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;34m  [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;34m [0;1;30m       [0;1;34m [0;34m [0;1;30m     [0;1;34m [0;34m  [0;1;34m [0;34m [0;1;30m       [0m
+[1;30m   [0m                                [1;34m [0;34m [0;1;30m   [0;1;34m [0;34m [0;1;30m   [0m                                [1;30m [0m
                 [1;30m.[0m                                              [1;30m.[0m
 
 [1;37m┌────[0m───────[1;30m───────────  ─    ─[0m
-[1;37m│[0;1;30m/┤NSi: THE SHAMEN/DiE![0m
+[1;37m│[0;1;30m ┤                    [0m
 :..  ────[1;30m──────────  ─[0m     [1;30m─[0m
 [1;30m.[0m
 

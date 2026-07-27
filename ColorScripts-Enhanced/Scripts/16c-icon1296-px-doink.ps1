@@ -5,7 +5,7 @@
 # Source SHA-256: 0dd7392952c43d4f8968cc1b12c8a7b034ee52f09c18747e4db344f963855085
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PX-DOINK.ANS by PhasaX (iCON); released in icon1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: doink
 # SAUCE Author: PhasaX
 # SAUCE Group: iCON
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
- [1;30m------[0m[[1;36mdoink!  [0;1;37mit''s a good board run by cheeze of cia..just call it now[0m][1;30m------[0m
+ [1;30m      [0m [1;36m        [0;1;37m                                                        [0m [1;30m      [0m
 
-                 yeah!      /wahoo!
+                                   
         [36m▄▄▄▄▄▓[0m     [37m\   ▄▄▀▀[0;1;36m0[0m
 [1;36m   [0;36m▄▓[0;36;46m  [0;1;36;40m▓[0;1;36;46m▄▄ ▓▄ ▄ [0;36m▄▄  [0;1;36m0 [0m▀     █  ▄▀▀▄ ▄▓   "[1mdoink![0m"
   [36m▀[0;36;46m [0;36;40m▒[0;1;36;46m▀▄[0;1;36;40m▒[0;1;36;46m█▀█▀[0;1;36;40m▓[0;1;36;46m█▓█▄  [0;36m▄[0m         [37m▀▀    ▀  ▒ [0;1;34m/[0m
@@ -32,7 +32,4 @@ Write-Host '
      [1;30m▀ ▀[0m     ░ [1;30m▄ [0m░ [1;30m░▀[0m     [36m▒▀▀▀▓▀[0m       [1;30m▄[0m            [1;30m▀   [0;36m░[0m       [1;30m▒  [0;36m░[0m        [1;30m▒[0m
      [1;30m░ ▀▄▄[0m      [1;30m░ ▀   ▄▄▀ [0;36m░[0m      [1;30m▀ ▓[0m░     [1;30m░▀[0m         [1;30m▄ ▄▄   ▄▄▀[0m       ░    [1;30m▓[0m
           [1;30m▀▀▀ ░▀   ▀▀[0m        [1;30m░  ▀▀   ▄▄▄▀▀   ▀▀▄▄▄ ▀▀[0m     [1;30m▀▀    ▀▄▄[0m     [1;30m▄▄▀[0m
-                       [1;30m▀▄▄ ▄▄▄▀▀[0m                                   [1;30m▀▀ ▀[0m
-
-
-[1;30m ---[0;34m[[0;1;36mdoink! [0;1;34mlogo by phaserX of icon..i hope you like it cheeze.. kinda sucks[0;34m][0;1;30m---[0m'
+                       [1;30m▀▄▄ ▄▄▄▀▀[0m                                   [1;30m▀▀ ▀[0m'

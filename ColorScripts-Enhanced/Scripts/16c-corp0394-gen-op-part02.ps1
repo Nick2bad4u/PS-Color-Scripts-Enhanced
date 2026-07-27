@@ -5,7 +5,7 @@
 # Source SHA-256: 73e958d2a7ddd9e0193f2e474a1513822d35af5085e6241b0770c873ab0c5e1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GEN-OP.ANS by Genesis (corp0394); released in corp0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-92
 # Columns: 1-80
 
@@ -42,13 +42,10 @@ Write-Host '
 [35m   [0;1;37m▄[0;1;35m▄▄[0;35m▄[0;1;35m▄[0;35m▄[0;1;35m▄▄[0;35m▄[0;1;35m▄[0;35m▄▄[0;1;35m▄[0;35m▄▄ ▄ ▄▄ ▄  ▄   [0;1;30m█[0m                                    [34m█[0m
 [34m  [0;1;37m▐■[0;1;35m▌[0m
 [1;35m   ▀[0m
-[1;35m  ▐[0m        [1;37m4 Kicking Nodes - 1.7 Gig HD - PC Only! - CORP Swedish HQ[0m
-[1;37m  [0;35m▐  [0;1;37mNode #1: +46-NOT-4-YOU(16.8k Dual), Node #2: +46-NOT-4-YOU(16.8k Dual)[0m
-     [1;37mNode #3: +46-NOET4-YOU(21.6k Dual), Node #4: +46-NOT-4-YOU(16.8k Dual)[0m
-[1;37m  [0;35m▐[0m             [1;37mLocal SysOp: THE JUDGE/DF Remote Sysop: oMNiBUz/RBS[0m
-            [1;37mCoSysOps: Nixon, Dominator/RBS, The Flash/TRG, Soundman/DF[0m
+[1;35m  ▐[0m        [1;37m                                                         [0m
+[1;37m  [0;35m▐  [0;1;37m                                                                      [0m
+     [1;37m                                                                      [0m
+[1;37m  [0;35m▐[0m             [1;37m                                                   [0m
+            [1;37m                                                          [0m
 
-                              [1;37m▄ ▄ [0;1;35m▄[0;1;37m▄ [0;1;35m▄[0;1;37m▄[0;1;35m▄▄[0;1;37m▄[0;1;35m▄[0;35m▄[0;1;35m▄[0;35m▄[0;1;35m▄▄[0;35m▄[0;1;35m▄[0;35m▄▄[0;1;35m▄[0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌[0m
-
-             [35m,80x50'' Ansi (c) Genesis of CORP Advertisement(tm) 1993[0m
-                  [35mThe mind is a somewhat strange place, isn''t it?[0m'
+                              [1;37m▄ ▄ [0;1;35m▄[0;1;37m▄ [0;1;35m▄[0;1;37m▄[0;1;35m▄▄[0;1;37m▄[0;1;35m▄[0;35m▄[0;1;35m▄[0;35m▄[0;1;35m▄▄[0;35m▄[0;1;35m▄[0;35m▄▄[0;1;35m▄[0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌[0m'

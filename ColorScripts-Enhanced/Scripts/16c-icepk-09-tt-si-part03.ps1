@@ -5,7 +5,7 @@
 # Source SHA-256: 703f32c73652b5143335f5dcaa82a8bc757ae00841075d33c7f3b73f7e3be9e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-SI.ICE by Tempus Thales (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 74-123
 # Columns: 1-80
 
@@ -50,13 +50,10 @@ Write-Host '
 ── ▀[1;30m▀▀▀▀▀▀▀▀▀▀ [0m▀[1;30m▀▀▀▀▀[0m     ▀[1;30m▀▀▀▀▀ [0m▀[1;30m▀▀▀▀▀   [0m▀[1;30m▀▀▀▀▀ [0m▀[1;30m▀▀▀▀▀ [0m▀[1;30m▀▀▀▀▀▀▀▀▀▀  [0m▀[1;30m▀▀▀▀▀ [0m──
 
        [1;30m···─[0m┤[1;35mS[0;35mudden [0;1;35mI[0;35mmpact[0;37m>[0m                             [37m<[0;1;30m[[0;35m8o5[0;1;30m][0;35m493[0;1;30m-[0;35m1287[0;37m├[0;1;30m─···[0m
-                               <[1;35mT[0;35mCSNet - [0;1;35mC[0;35mCiNet[0;37m├[0;1;30m─···[0m
-       [1;30m···─[0m┤[35mM[0;1;35mi[0;35mRAGE [0;1;35mW[0;35mestern [0;1;35mH[0;35meadquarters - [0;1;35mL[0;35megacy [0;1;35mW[0;35mestern [0;1;35mH[0;35meadquarters[0;37m>[0m
-[37m  <[0;1;35mA[0;35mll artists (3oo Baud and down) are welcome to call regardless of speed.[0;37m├[0;1;30m─··[0m
-[1;30m···─[0m┤[1;35mF[0;35meaturing over 9OO of the best ansis from [0;1;35mi[0;35mCE, AC[0;1;35mi[0;35mD, M[0;1;35mi[0;35mRAGE, Legacy...[0;37m>[0m
-       [37m<[0;1;35mA[0;35mlso featuring over 16O of the best VGAs from the same groups.[0;37m├[0;1;30m─···[0m
-         [1;30m···─[0m┤[1;35mS[0;35mys[0;1;35mO[0;35mp: [0;1;35mC[0;35mrushed AC[0;1;35mi[0;35mD - [0;1;35mC[0;35mo[0;1;35mS[0;35mys[0;1;35mO[0;35mp: [0;1;35mG[0;35m. [0;1;35mW[0;35mashington [[0;1;35mi[0;35mCE?][0;37m>[0m
-                     [37m<[0;1;35mC[0;35mourier 14.4 HST Only/24OO By Invite[0;37m├[0;1;30m─···[0m
-
-                 [1;34m· T[0;34mempus [0;1;34mT[0;34mhales, [0;1;37mi[0;1;34mC[0;34mE [0;1;34mA[0;34mdvertisements - [0;1;34m9[0;34m/[0;1;34m2[0;34m7/[0;1;34m9[0;34m2 [0;1;34m·[0m
-                            [34m"Only lamers do quotes."[0m'
+                                [1;35m [0;35m        [0;1;35m [0;35m     [0;37m├[0;1;30m─   [0m
+       [1;30m   ─[0m┤[35m [0;1;35m [0;35m     [0;1;35m [0;35m       [0;1;35m [0;35m              [0;1;35m [0;35m      [0;1;35m [0;35m       [0;1;35m [0;35m           [0;37m [0m
+[37m   [0;1;35m [0;35m                                                                       [0;37m├[0;1;30m─  [0m
+[1;30m   ─[0m┤[1;35m [0;35m                                         [0;1;35m [0;35m      [0;1;35m [0;35m    [0;1;35m [0;35m               [0;37m [0m
+       [37m [0;1;35m [0;35m                                                             [0;37m├[0;1;30m─   [0m
+         [1;30m   ─[0m┤[1;35m [0;35m  [0;1;35m [0;35m   [0;1;35m [0;35m         [0;1;35m [0;35m    [0;1;35m [0;35m [0;1;35m [0;35m  [0;1;35m [0;35m   [0;1;35m [0;35m  [0;1;35m [0;35m           [0;1;35m [0;35m    [0;37m [0m
+                     [37m [0;1;35m [0;35m                                   [0;37m├[0;1;30m─   [0m'

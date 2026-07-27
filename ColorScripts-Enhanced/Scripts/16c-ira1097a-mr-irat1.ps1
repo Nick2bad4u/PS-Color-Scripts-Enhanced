@@ -5,7 +5,7 @@
 # Source SHA-256: 0bc736f25096cd5548c66edb94018fe7c4cede51d7302725b0f24f66060253e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-IRAT1.ANS by Mr.Wrong (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Irato promotional
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Irato
@@ -31,7 +31,4 @@ Write-Host '
          [1m▀[0m▄  [31m▀▀[0;31;47m▓[0;31;43m░[0;33;40m▀[0;37;40m [0m      [33;40m▀▄▄[0;37;40m  [0;33;40m░▐[0;33;47m▓[0;31;47m▓[0;33;41m▓[0;31;40m▌[0;1;37;40m▄■[0m       [31m▐[0;31;43m░░[0;33;40m▌[0m         [1;30;40m▀ [0m [1;31m▄[0;1;31;47m▓░[0m [31m▀[0;37m [0;1;37m■▀[0m
            [1;30m▀ [0m  [31m▄▌[0;37m   [0m       [37m [0;33m▀▀▀▀▀▀[0;37m▄[0;1;37m▄▌░[0m        [31m▀[0;33;47m▓[0;33;40m█[0;37;40m         [0;31;40m▄ ▀[0;37;40m   [0;1;37;40m▀▌[0;1;30;40m[[0;1;37;40mwrng[0;1;30;40m][0m
              [1;31m▀▀[0m                     [1m▀[0m         [31m▄▄▄[0;33m▀[0;37m [0;33m▀ ▄▄▄▀[0;31m▀  [0m
-                                          [1;31m▄[0m [31m▀▀[0;37m    [0;1;31m▀[0m
-
-  [1;30m- [0mEuh... there''s a lot of irato logo''s this month, but, hey, it''s the first
-    pack, so here it is.[0m'
+                                          [1;31m▄[0m [31m▀▀[0;37m    [0;1;31m▀[0m'

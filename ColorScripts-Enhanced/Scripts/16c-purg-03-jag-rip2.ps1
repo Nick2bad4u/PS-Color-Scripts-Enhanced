@@ -5,7 +5,7 @@
 # Source SHA-256: 4679e95db7118f38db868df7efe6b95977b4dacc4ba46465611c3b6aeac9940b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JAG-RIP2.ANS by Jaguar (purg-03); released in purg-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -35,5 +35,4 @@ Write-Host '
       [1;31m ▀▄[0m  [1;30m▀▀█████▀▀[0;32;41m█[0m  [37;40m  [0m  [1;30;40m▀██▄▄▄█▀[0m    [1;30m█████▄[0m   [31m [0;1;30m▐▓█▀·■▄█▀▀▀▀[0m   [32;41m▓[0m [1;31;40m▀[0m
          [1;31m▓[0;31m [0;1;31m▄[0m [31m [0;1;31m▄[0;31m     [0;32;41m▓[0;31;40m  ▀[0;37;40m [0;31;40m [0;37;40m▒[0;31;40m  [0;1;31;40m▄[0;31m    [0;37m   [0;31m ▄       [0;37m [0m [31m▓[0m [37m    [0m     [37m     [0;32;41m▒[0;37;40m   [0m
    [37;40m                 [0;32;41m▒[0;37;40m                                           [0;32;41m░[0;37;40m   [0m
-           [37;40m  [0m       [32;41m░[0m                                           [31;40m▀[0m
-[1;31;40m[JaGuaR] [PuRG]-[ViBE]-[fDM][0m'
+           [37;40m  [0m       [32;41m░[0m                                           [31;40m▀[0m'

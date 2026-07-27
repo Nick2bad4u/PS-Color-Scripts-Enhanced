@@ -5,7 +5,7 @@
 # Source SHA-256: 93728bbe60fa187bc9a52ca40dbded69f016f4f0f3a04d466fa65743109b1438
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-PIRA.ans by Zeus Ii (blocktronics_blocktober); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20160730
 # SAUCE Dimensions: 80x201
 # SAUCE Font: IBM VGA
@@ -51,5 +51,4 @@ Write-Host '
 [37m  [0;1;30m▀▀[0m          [35m   ▀████[0m       [37m [0;35m  ▀█    [0;37m    [0;35m   █[0;1;31;45m▀[0;35m█████[0m
                    [35m▀▀█[0m     [37m    [0;35m  ▐   [0m     [35m    █[0;1;31;45m░[0;35m███[0m
                                               [35m ██▀[0m
-[37m  [0;1;30m [0m                                            [1;30m▀[0m
- [1;30m  [0m Piranha [1;30m- Under the BLACK ƒLAG <[0mACiD[1;30m> bbs / telnet :[0m blackflag.acid.org[0m'
+[37m  [0;1;30m [0m                                            [1;30m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e7f415882397abb2384ad48d3684b01bbcf95380d7851a70f2ca015d65a5cb12
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D5-CD.ANS by dee five (gel); released in gel-007 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: chronic distortion add
 # SAUCE Author: dee five
 # SAUCE Group: gel
@@ -33,6 +33,4 @@ Write-Host '
 [1;34;45m▒░░▒[0m  [1;34;45m▒░░▒[0m [1;34;45m▒░░▒[0m [1;34;45m▒░░▒[0m [1;34;45m▒░░▒[0m [1;34;45m▒░░▒[0m [1;34;45m▒░░▒[0m [1;34;45m▒░░▒[0m [1;34;45m▒░░▒[0m [1;34;45m▒░░▒[0m [1;34;45m▒░░▒[0m         [33m▀▄▄▄[0;1;33;43m░▒[0;1;33;40m▄▄[0;1;33;43m▓[0m
 [1;34;45m▓▒▒▓[0m  [1;34;45m▓▒▒▓[0m [1;34;45m▓▒▒▓[0m [1;34;45m▓▒▒▓[0m [1;34;45m▓▒▒▓[0m [1;34;45m▓▒▒▓[0m [1;34;45m▓▒▒▓[0m [1;34;45m▓▒▒▓[0m [1;34;45m▓▒▒▓[0m [1;34;45m▓▒▒▓[0m [1;34;45m▓▒▒▓[0m       [33m█[0m    [33m▀▀▀[0m     [1;33m█[0m
 [1;34;45m█▓▓█[0m  [1;34;45m█▓▓█[0m [1;34;45m█▓▓█[0m [1;34;45m█▓▓█[0m [1;34;45m█▓▓█[0m [1;34;45m█▓▓█[0m [1;34;45m█▓▓█[0m [1;34;45m█▓▓█[0m [1;34;45m█▓▓█[0m [1;34;45m█▓▓█[0m [1;34;45m█▓▓█[0m     [33m■[0m                [1;33m■[0m
-[1;34m████▄[0m [1;34m████[0m [1;34m████[0m [1;34m████[0m [1;34m████[0m [1;34m████▄████[0m [1;34m████ ████[0m [1;34m████[0m [1;34m████▄[0m       [1;35m+o[0;35m eye+cee[0m
-                                                       [33m [0m
-  [1;34md[0m    [1;34m1[0m    [1;34ms[0m    [1;34mt[0m    [1;34m0[0m    [1;34mr[0m    [1;34mt[0m    [1;34m1[0m    [1;34m0[0m    [1;34mn[0m    [1;34m![0m     [1;35m(9o5) 648-xxxx[0m'
+[1;34m████▄[0m [1;34m████[0m [1;34m████[0m [1;34m████[0m [1;34m████[0m [1;34m████▄████[0m [1;34m████ ████[0m [1;34m████[0m [1;34m████▄[0m       [1;35m+o[0;35m eye+cee[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 03ceac60a6d035c052a440c9ff33543eb478d4dd2adc0535f4619a6ff1016c2b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M-DSTAR.ANS by milkmang (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Deathstar
 # SAUCE Author: milkmang
 # SAUCE Group: nerp
@@ -44,20 +44,7 @@ Write-Host '
                                                                         [1;31m [0m
                       [36m(╘[0m   [1;36mD  E  A  T  H  S  T  A  R  [0;36m ╛)[0;1;33m [0m     [1;31m  [0m
 
-     +o would be cannabis from Remorse 1911, chearleader of the weed dep.
-                        remorse memb. running, obvTWOOO
+                                                                         
+                                                       
 
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-CUT ME HEERE!!!
-top Nerpfont by ville, rest by me
-
-oik, respect to following
-
-bizzarro..made me keep drawing
-cannabis..well. there must be some reason im doing you a 180 liner for free ;>
-tainted...good luch with glue
-rusted....i keep trying to get more own style in my work
-samurai...special sauce goes t3
-
-  +  stridh, danen .. swedish mangos.[0m'
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m'

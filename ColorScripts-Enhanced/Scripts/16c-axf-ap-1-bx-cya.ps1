@@ -5,7 +5,7 @@
 # Source SHA-256: f7f09c91f9584fa0206b32a2c266b39c05971e158c8e8c8aa57d571d4062d7e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-CYA.ANS by baxter (Axial Force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Virtual Hell logoff screen
 # SAUCE Author: baxter
 # SAUCE Group: Axial Force
@@ -32,7 +32,4 @@ Write-Host '
 [1;32;42m█[0;1;32;40m█[0;1;32;42m▒▓[0;1;32;40m█[0;1;32;42m▒▓▒[0;32m▌[0;1;31;41m▒[0;32m▐[0;1;30m·························································[0;32m▌[0;1;31;41m▒[0;32m▐[0;1;32;42m▒[0;1;32;40m██[0;1;32;42m▓▒▒▒▒[0;32m█[0m
 [1;32;42m▓▒░ ▒░▒░[0;32m▌[0;1;31;41m░[0;32m▐[0;1;30m·························································[0;32m▌[0;1;31;41m░[0;32m▐[0;1;32;42m░▓[0;1;32;40m█[0;1;32;42m▒▒░▒░░[0m
 [1;32;42m▒░  ░ ░ [0;32m█▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄███[0;1;32;42m▒░░[0;32m█[0;1;32;42m░░░[0m
-[1;36;42mbX[0;32m███[0;1;32;42m░░[0;32m██████████████████████████████████████████████████████████████████[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m███[0;1;32;42m░[0m
-[1;30;40mre-cut-here-cut-here-cut-here-cut-here-cut-here-cut-here-cut-here-cut-here-cut-h[0m
-Leave me some mail if you think you belong in this board list.
-BTW what do you think of this new style ?                                 Baxter[0m'
+[1;36;42mbX[0;32m███[0;1;32;42m░░[0;32m██████████████████████████████████████████████████████████████████[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m███[0;1;32;42m░[0m'

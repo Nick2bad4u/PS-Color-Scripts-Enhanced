@@ -5,7 +5,7 @@
 # Source SHA-256: 379999a2be7f07b392506e17058428d9d7da31bace6eb6461075f571316f389c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OB!FSN.ANS by oddball (fusion); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fusion logotYp3
 # SAUCE Author: oddball
 # SAUCE Group: fusion
@@ -29,11 +29,4 @@ Write-Host '
      [33m░ [0;35;43m▒[0;33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0;1;30;40m░[0m            [33m▐[0;1;30m░[0;33m ▀▀[0;1;30;43m░[0;33m▀[0m               [1;30m▓[0;33moddball!░  ▀▀▀▀▀[0m
        [35m▒[0m                                  [1;30m░[0m
 
-[37m==[cut!]================================================================[cut!]==[0m
-[37m damn.. i was really busy this month, or lazy? :), well at least i''ve got one[0m
-[37mpic ready, i was thinking it might come handy in the info file, but who knows?[0m
-
-[37m q!cK gr3ets g0e5 t0:[0m
-
-[37mdanen, catharsis, caithor, every one i know, the whole fusion crew and everyone[0m
-[37mi forgot.[0m'
+[37m==[cut!]================================================================[cut!]==[0m'

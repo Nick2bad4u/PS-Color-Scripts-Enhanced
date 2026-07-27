@@ -5,7 +5,7 @@
 # Source SHA-256: c41726b028076bebb40e33ab1be7f110f0d4d8c4a5df72de0f60602381327214
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-SRNTY.ANS by Crimson Ryder (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Serenity
 # SAUCE Author: Crimson Ryder
 # SAUCE Group: Shiver
@@ -43,20 +43,19 @@ Write-Host '
 [31m▓[0m   [1;30m░[0m               [1;30m█▀▀[0;31m▐▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m            [1;30m░[0m
 [31m█[0m   [1;30m▒[0m               [1;30m▓[0m          [33mS·E·R·E·N·i·T·Y[0m      [1;30m [0m    [1;30m█[0m            [1;30m▒[0m
     [1;30m▓[0m       [31m░[0m       [1;30m▒[0m  [31m▐[0m                            [1;30m [0m    [1;30m▓[0m            [1;30m▓[0m
-    [1;30m█[0m       [31m▒[0m       [1;30m░[0m  [31m▀[0m    [1;30mSysOp : NarTTeiK [VOR] [0m      [1;30m▓[0m            [1;30m█[0m
+    [1;30m█[0m       [31m▒[0m       [1;30m░[0m  [31m▀[0m    [1;30m                       [0m      [1;30m▓[0m            [1;30m█[0m
             [31m▓[0m                                            [1;30m▒[0m                    [31m ▒[0m
-            [31m█[0m          [1;30m     Remote Sysop : Primus_ [0m      [1;30m▒[0m
-                        [1;30mCoSys :[0m [1;30mCrimson Ryder [SHiVER][0m   [1;30m░[0m
+            [31m█[0m          [1;30m                            [0m      [1;30m▒[0m
+                        [1;30m       [0m [1;30m                      [0m   [1;30m░[0m
                     [33m░[0m                                                [31m [0m
                     [33m░[0m    [1;30m  [ 2 o 4 ] 7 7 4 - 2 3 2 6[0m            [31m░[0m   [31m [0m         [1;30m░[0m
-          [1;30m░[0m         [33m▒[0m  [1;30m   14.4k USR ■ VOR Canadian HQ  [0;31m░[0;1;30m  [0m      [31m▒[0m   [31m [0m         [1;30m▒[0m
+          [1;30m░[0m         [33m▒[0m  [1;30m             ■                  [0;31m░[0;1;30m  [0m      [31m▒[0m   [31m [0m         [1;30m▒[0m
           [1;30m▒[0m         [33m▒[0m [1;30m  ■[0m [1;30mSHiVER  Central Canadian HQ[0m [1;30m■[0;31m▒[0;1;30m [0;33m░[0m      [31m▓[0m   [31m [0m         [1;30m▓[0m
-          [1;30m▓[0m         [33m▓[0m   [1;30m  Best Art Oriented Board in  [0m [31m▓[0m [33m▒[0m [33m     [0;31m█[0;33m           [0m  [1;30m█[0m
+          [1;30m▓[0m         [33m▓[0m   [1;30m                              [0m [31m▓[0m [33m▒[0m [33m     [0;31m█[0;33m           [0m  [1;30m█[0m
     [31m░[0m     [1;30m█[0m       [33m [0m [33m▓[0m          [1;30m   [0m [1;30m[[0m [1;30m2 o 4[0m [1;30m][0m    [31m■[0m [31m▀[0m [31m▄[0;33m [0;31m █[0m [33m▓[0m [33m [0;31m [0m            [31m░[0;33m   [0m
     [31m▒[0m             [33m [0m [33m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31;41m ▄[0;31m██[0;33m█[0m [33m [0;31m [0m            [31m▒[0m
     [31m▓[0m             [33m                                  [0;1;30m   [0;31m▀[0;33m [0;1;30m [0;31m [0;33m [0;31m [0;33m  [0m          [31m▓[0m
-    [31m█[0m                  [33m/┤NS[0;1;30mi[0;33m [0;1;30m■[0;33m Crimson Ryder [0;1;30m[[0;33mSH[0;1;30mi[0;33mVER[0;1;30m]  [0;31m [0;33m [0;31m [0m  [31m [0m    [1;30m░[0m       [31m█[0m
+    [31m█[0m                  [33m ┤  [0;1;30m [0;33m [0;1;30m■[0;33m               [0;1;30m [0;33m  [0;1;30m [0;33m   [0;1;30m   [0;31m [0;33m [0;31m [0m  [31m [0m    [1;30m░[0m       [31m█[0m
                [31m░[0m             [1;30m [0m    [1;30m▓[0m                  [1;30m  [0m [33m [0m        [1;30m▒[0m
                [31m▒[0m             [1;30m [0m    [1;30m█[0m                              [1;30m▓[0m
-▀[1;30m ▀  ▀▀▀▀[0m   [1;30m▀▀[0m [31m▓[0;37m▀[0;1;30m▀▀[0m            [1;30m▀[0m         [1;30m▀[0m    [1;30m▀▀[0m    [1;30m▀ [0m▀[1;30m▀▀[0m   [1;30m▀▀[0m   [1;30m█▀▀[0m      [1;30m▀▀[0m▀[1;30m  ▀[0m
-[1;30m                                                                                [0m'
+▀[1;30m ▀  ▀▀▀▀[0m   [1;30m▀▀[0m [31m▓[0;37m▀[0;1;30m▀▀[0m            [1;30m▀[0m         [1;30m▀[0m    [1;30m▀▀[0m    [1;30m▀ [0m▀[1;30m▀▀[0m   [1;30m▀▀[0m   [1;30m█▀▀[0m      [1;30m▀▀[0m▀[1;30m  ▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d819f53fdfaf067c98504b7c677d713da21c5dd3d0ea9a5ac6ca832f8c8f4d8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GULP-04.ANS by The Joint (joint05); released in joint05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19960814
 # SAUCE Dimensions: 80x49
 # Lines: 1-49
@@ -53,11 +53,4 @@ Write-Host '
                       [36m▄████▀[0m    [36m▀▀▀▀▀[0m      [36m▀▀▀▀[0m     [36m▀████▄[0m
                     [36m▄██▀▀[0m                              [36m▀▀██▄[0m
                    [36m▐█▀[0m                                    [36m▀█▌[0m
-                   [36m▀[0m                                        [36m▀[0m
-
-
-[37mnail: this says gulp?@... as toon really isn''t my style i''ll leave it like that[0m
-[37mblazemore: uhm... i tried to draw a hand holding a drink, but uhm.. you see.[0m
-[37mliithn: i shaded the poor gulp guy, and added an ugly background (which i hope[0m
-        [37mturn out to be uglier in the ending pice). [0m
-[37mcygreet: i made horny kenny with the chainsaw (my version) it sucks tho... =)[0m'
+                   [36m▀[0m                                        [36m▀[0m'

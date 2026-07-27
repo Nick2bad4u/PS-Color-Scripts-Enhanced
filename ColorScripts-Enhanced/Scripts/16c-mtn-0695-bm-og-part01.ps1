@@ -5,7 +5,7 @@
 # Source SHA-256: 91e6f1707f06f6d7d48ecb26b934860213242adb48bdf465773cc45754a0c5f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM!OG.ANS by blIndman (READ THE INI FILE); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Original Gangsters
 # SAUCE Author: blIndman
 # SAUCE Group: READ THE INI FILE
@@ -16,11 +16,11 @@
 
 Write-Host '
 [1;30m▀▀▀▀▀▀ [0;1;30;46m░[0m [1;30m▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀[0m
-░ [1;36m▄▀▄ ■[0;1;36;46m█[0;1;36;40m▄ [0;36m▄[0;1;30;46m░[0m [1;30m█ this one is for my pal felony.. and ofcouze the prophet hehe..▀[0m
-▒ [1;36;46m▓[0;1;36;40m■▀▄ [0;1;36;46m▓[0m [1;36;46m▓[0m [1;36;46m▓[0m [1;30m▓ if you want to request an ansi or sumthin'' then contact me at ▒[0m
-▓ [1;36;46m▒[0m [36m▄[0;1;36m▀ ▓ [0;36m▀ [0;1;36;46m▒[0m [1;30m▒ some board that I call frequently.. try splatter king.. =)    ▓[0m
-[1;30m█ [0;1;30;46m▓[0;36m▀ [0;1;30m▄▄▄ [0;36m▀ [0;1;30;46m▒[0m [1;30m▓ blind greets to - the foreigner, serial killer, staff at[0m      [1;30m█[0m
-[1;30m▒blindman ''95░ splatter king.. ''n every one else on the scene !![0m             [1;30m▄[0m
+░ [1;36m▄▀▄ ■[0;1;36;46m█[0;1;36;40m▄ [0;36m▄[0;1;30;46m░[0m [1;30m█                                                               ▀[0m
+▒ [1;36;46m▓[0;1;36;40m■▀▄ [0;1;36;46m▓[0m [1;36;46m▓[0m [1;36;46m▓[0m [1;30m▓                                                               ▒[0m
+▓ [1;36;46m▒[0m [36m▄[0;1;36m▀ ▓ [0;36m▀ [0;1;36;46m▒[0m [1;30m▒                                                               ▓[0m
+[1;30m█ [0;1;30;46m▓[0;36m▀ [0;1;30m▄▄▄ [0;36m▀ [0;1;30;46m▒[0m [1;30m▓                                                         [0m      [1;30m█[0m
+[1;30m▒            ░                                                  [0m             [1;30m▄[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;37;47m████████████████████████████████████████████████████████████████████████████████[0m
 [1;37;47m███████████████████▓███████████████████████████▓█████▓█████████[0;1;37;40m█[0;1;37;47m████▓████████▓█[0;1;37;40m█[0m

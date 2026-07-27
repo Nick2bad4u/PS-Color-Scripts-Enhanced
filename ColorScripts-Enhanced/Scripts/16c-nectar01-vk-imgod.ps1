@@ -5,7 +5,7 @@
 # Source SHA-256: b33ba22ecf94882c5225963cb24304669a326d25b844b5aa4729513ce5db37d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VK-IMGOD.ANS by Veks (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
 [1;34;44m▓▒░░[0;34m███████[0;34;44m [0;1;34;44m░[0;34m█▀▀▀▀█[0;1;34;44m░[0;34m███▄▄▄▄████▀▀▀▀▄▄▄▄[0;1;34;44m▄▄  [0;34m█▄▄▄ ▀▀▀▀[0;34;44m [0;1;34;44m░▓▄[0;34m▄▄▄▄█[0;34;44m [0;1;34;44m░[0;34m██████▀▀  ▄▄███[0m [1;30;44m░[0m
 [1;34;44m▒░[0;34m██████[0;1;30;44m░[0;34m██▄▄▄███[0;34;44m [0;34;40m▄▄▄   ▄▄▄▄██████[0;34;44m [0;1;34;44m▄ ███▓▓▒░   [0;34m███[0;1;30;44m░[0;34m███[0;1;34;44m▒▓▒░░   [0;34m█▀▄▄▄▄▄█████[0;1;34;44m░▒▓[0;34m█[0;34;44m [0;34;40m▄[0m
 
-[1;37;40mhouse of the holy ...   logo by veks "i demand a re-count" of ice. 199Sex .[0m
+[1;37;40m                                                                           [0m
 
 
 

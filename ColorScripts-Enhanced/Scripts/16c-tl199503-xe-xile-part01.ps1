@@ -5,7 +5,7 @@
 # Source SHA-256: 45d72c19337ca1aea5ed884446dbb266a8cc974d11e074b7b791156998c3cb02
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XE-XILE.ANS by Xeryrus (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Savage Exile!
 # SAUCE Author: Xeryrus
 # SAUCE Group: TekLordZ
@@ -29,7 +29,7 @@ Write-Host '
               [35m▄[0m  [35m▀▀████▓▒░ [0m  [35m▀▓▒▒▓█▓█▒▐▓█[0m [35m▀░▒▓▄▄ ░▒▀[0m  [35m▀░▒▓▄▄ ░▒▀[0m  [35m█[0m
                                [35m▀▀▀▀[0m [35m▄▄▄█▀[0m   [35m ▀▀▀▀▀[0m  [35m▒[0m   [35m ▀▀▀▀▀[0m    [35m▓[0m
               [35m▄[0m                [35m▓[0m                    [35m▓[0m             [35m▒[0m
-                               [35m█[0m  [35mPRoDUCTioN.95[0m     [35m█[0m             [35m░[0m
+                               [35m█[0m  [35m             [0m     [35m█[0m             [35m░[0m
               [35m▀[0m                [35m▀[0m                    [35m▄[0m
                                [35m▄[0m
                                                     [35m▀[0m
@@ -39,7 +39,7 @@ Write-Host '
 
 [36m▄▄   [0m
 [36m█████▄[0m
-  [36m▀███▄▄[0m                                       [1;30m"Mic CheCK! oNe Two. One TWO![0m
+  [36m▀███▄▄[0m                                       [1;30m                             [0m
 [36m█▄▄▄[0m [36m▀▀██▄[0m                                        [1;30mCheck it Boyeez! my First[0m
   [36m▀█▀█▄▄[0m [36m█▄▄[0m                             [31m▄[0m           [1;30mmajor ansi for SLiCE!"[0m
 [36m█▄▄[0m  [36m██████▀▀▄▄███▄▄▄[0m               [31m▄▄▄▄█▓▓░ [0m

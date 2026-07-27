@@ -5,7 +5,7 @@
 # Source SHA-256: e2fef5a51f248a53469a29cfe1e8f025f66c4aeea11b4636adc9dabc01688454
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FUEL.ANS by Drynwhyl + Thrasher (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fuel Promotional
 # SAUCE Author: Drynwhyl & Thrash<r
 # SAUCE Group: Fuel Productions
@@ -33,8 +33,4 @@ Write-Host '
                                 [1;34m▐[0m      [36m▐[0m     [36m▌[0m       [31m▄[0m      [1;36m░[0;36m▀■[0;37m [0;36m▐▀[0m           [1;36m░[0m
                                 [1;34m▐[0m      [36m▐[0m     [36m▀[0m       [31m▌[0m          [36m▐[0m            [36m■[0m
                                 [1;34m▀[0m      [36m▀ [0m            [31m▌[0m          [36m▀[0m
-                                        [36m▀[0m            [31m▀[0m
-
-[37ma joint production by:[0m
-[37mdrynwhyl - font (drynwhyl[0;1;36m@[0minnocent.com)
-thrasher - colored blocks around font (thrasher[1;36m@[0mnetlink.be)[0m'
+                                        [36m▀[0m            [31m▀[0m'

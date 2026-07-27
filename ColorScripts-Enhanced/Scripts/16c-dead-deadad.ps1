@@ -5,7 +5,7 @@
 # Source SHA-256: 862b467ac2baf751a1a654eab00a6d52bbc051b592adca0bf8faf52e366aedc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEADAD.ANS by Eternal Darkness (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -47,10 +47,4 @@ Write-Host '
        █[1;30m█▄▄▄▄▄▄▄▄▄[0;1;30;47m▀[0m▀    ▀[1;30;47m▀[0;1;30;40m▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▀[0m▀ █[1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄█  [0m█[1;30m█▄▄▄▄▄▄▄▄▄[0;1;30;47m▀[0m▀
        ▀▀▀▀▀▀▀▀▀▀▀        ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀
 
-           [1mD [0ma m n   [1mE [0mx c e l l e m t    [1mA [0mr t   [1mD [0me s i g n e r s
-
-   [1mDeAD [0mis currently looking for new artists & programmers. If you''re looking
-    for a great art group to join, call our World HQ, The Last Dimension at
-          612/636.4616 or you can contact one of our members to join.
-
-                           ANS[1mi[0m∙[1mE[0mterna[1;30ml [0;1;37mD[0marknes[1;30ms[0m∙[1mD[0me[1mAD[0m'
+           [1mD [0ma m n   [1mE [0mx c e l l e m t    [1mA [0mr t   [1mD [0me s i g n e r s[0m'

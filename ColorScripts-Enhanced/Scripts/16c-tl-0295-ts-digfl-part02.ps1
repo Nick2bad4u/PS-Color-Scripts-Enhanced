@@ -5,7 +5,7 @@
 # Source SHA-256: b4f5f71e0e467b3ae8dbac0cb065bafa9eea351552408dc835dd8b6c9cb81db2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-DIGFL.ANS by Ts (TekLordZ); released in tl-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digital Fluid
 # SAUCE Author: Ts
 # SAUCE Group: TekLordZ
@@ -47,13 +47,13 @@ Write-Host '
 [1;32m   [0;1;32;42m░▒░▄[0;32m▄ ▄[0;1;32;42m▄▓ [0m [32m▀[0;1;32;42m▀░ [0m   [32m▀[0;32;42m [0;1;32;42m▀░[0;32m▄▄▄[0;32;42m [0;1;32;42m░▀[0;32m▓  ▀[0;1;32;42m▀▒▀[0;32m▀ [0;1;33m▄ [0;32m▀[0;32;42m [0;32;40m▀ [0;1;33;40m▄[0;1;33;43m▓▒[0m [32m▄[0;32;42m [0;1;32;42m▀ [0m     [32m▄[0;1;32;42m▒░▀ [0;32m▄  [0;32;42m  [0;1;32;42m░ [0;32m▄▄[0;32;42m [0;1;32;42m░▒░ [0m
 [1;32m   [0;32m▐[0;1;32;42m░▀[0;32m▀   ▀[0;1;32;42m▀[0;32m▀   ▀[0m                   [32m▀[0m
 [32m    ▀[0m
-[32m  [0;1;32mDigitalFluid·SystemLord·Bum·[Rain·Evolution·Rebellion]·HouseBoy·Irq5·[Rain][0m
-[1;32m  [0;32mRainWHQ·Integrity·GripNHQ·Broken·Paramount·Stile·Void·Lapse·Cranium·Fidelis[0m
-[32m  [0;1;32mVpi·Rancid·Wind·Pot·Suicide·Fawk·Sabre·RebellionUSHQ·Evolution·Member·Board[0m
-[1;32m  [0;32m6i3magazineUSHQ·RainNetworkWHQ·InfinityNetworkNode·TsanNetworkNode·i500Megz[0m
-[1;30m█ [0;1;32mFluidDigital·Renegade·vers·10-31·exp·DigitalFluid·6i2·43i·277o·FluidDigital [0;1;30m█[0m
+[32m  [0;1;32m                                                                           [0m
+[1;32m  [0;32m                                                                           [0m
+[32m  [0;1;32m                                                                           [0m
+[1;32m  [0;32m                                                                           [0m
+[1;30m█ [0;1;32m                                                                            [0;1;30m█[0m
 █                                                                             ▀
-[1;30m··ansi·by·ts·of·TekLordz·Produkshuns·based·in·the·beautiful·Downtown·Honolulu··[0m
+[1;30m                                                                               [0m
 [1;30m▄ ▄[0m                                                                       [1;30m▄   ▄[0m
 █[1;30m█▀[0m█▀▀[1;30m█ ▀[0m                                                             [1;30m▀  [0m▀[1;30m▀[0m▀█[1;30m█▀[0m
 █▄▄ ▄▄▄▄[1;30m▄▄▄   ▄[0m                                                [1;30m▄   ▄▄▄[0m▄▄  [1;30m█[0m▄▄▄█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d7713190c82eac2f2f0723b07af1a3c109a2b200fa93579fca73c43f84fa78a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUI-SOVP.ANS by SuiCyco (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Agressor
 # SAUCE Author: SuiCyco
 # SAUCE Group: Driven
@@ -16,8 +16,8 @@
 
 Write-Host '
 [1;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30;44mPic Description: Looks like a soviet pilot, but actually an American F-5E     [0m
-[1;30;44mfighter pilot in an "aggressor" squadron. No, I am not a communist.           [0m
+[1;30;44m                                                                              [0m
+[1;30;44m                                                                              [0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;36;40m██████████████████████████████████[0;1;36;46m▓▒░[0;36m█████████████████████████████████████████[0m
 [1;36m█████████████████████████████████[0;1;36;46m▓▒░                                          [0m

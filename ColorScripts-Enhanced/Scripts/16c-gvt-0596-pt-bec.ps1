@@ -5,7 +5,7 @@
 # Source SHA-256: d42ea4ac12c1c646099e5cd088d1cffdd42bd3ad1a2743026e71283f5d7b6db2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-BEC.ANS by pitt (gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the becoming
 # SAUCE Author: pitt
 # SAUCE Group: gravity
@@ -26,10 +26,6 @@ Write-Host '
 [1;35;40m [0;35m▀██[0;35;45m [0;1;35;45m▀[0;35m▄  [0;1;31m▄▄[0;31m▄▄█▀ [0;35m▄▄▄[0;1;35m▄  [0;35m▀█[0;1;35;45m▀▀▀[0;1;35;40m██▄[0;1;31;40m▀[0;1;31;41m▄▄[0;41m░[0;31;40m▄▄▄▄▄▄▄▄ [0;1;35;40m▀[0;1;35;45m▀▀▀[0;1;35;40m██[0;1;35;45m▓▓[0;1;35;40m██████[0;1;35;47m▓▓[0;1;35;40m█▄[0;32m▀[0;1;32;42m▀[0;1;32;40m████[0;1;32;47m▒▒[0;1;32;42m▓▓▀[0;32m▀[0;37m░░[0;1;35m▄▀[0m
 [1;30mpitt/   [0;1;31m█[0;1;31;41m▌[0;41m░[0;31;40m▀[0m      [31;40m▄▄▄▀[0m            [1;31;40m▀▀[0;31m▀▀▀▀▀[0;1;31;41m▄[0;31m█[0m                    [32m▀▀▀▀▀▀▀▀[0m
 [1;30mgravity  [0;1;31m▀▀[0;1;31;41m▄▄▄[0;31m█▄[0;37;41m░[0;31;40m██▀  [0;37;40mth e   b  e   c  o[0;1;31;40m▀[0;31m▀ [0;37mm    i   n    g[0m
-             [1;31m▀▀▀[0;31m▀[0m     [37mops: unlimited calibar[0m
+             [1;31m▀▀▀[0;31m▀[0m     [37m                      [0m
 
-[37m------[BodaBoomBadaBing]--------------------------------------------------------[0m
-[37my0.. uC... use this for your last caller screen.. or matrix.. or logoff thing..[0m
-[37mor something.. to tidy up your board and make it cooler.. your board.. rules..[0m
-[37mjust needs some cool ansis.. (unfortunately this is about as cool as I can do)[0m
-[37mbut this isn''t that bad.. well enjoy.. woohoo![0m'
+[37m------[BodaBoomBadaBing]--------------------------------------------------------[0m'

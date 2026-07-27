@@ -5,7 +5,7 @@
 # Source SHA-256: f2bba10d7b2334c2327d9335ea3c7570c4f9909fcc7a6c70d3df1a983be9faf5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DP!TATO1.ANS by death parade (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tatoo - allways under pressure!
 # SAUCE Author: death parade
 # SAUCE Date: 19951123
@@ -53,6 +53,4 @@ Write-Host '
 [1;37m      [0;31m▐[0;1;37m  [0;31m▌▌[0;1;37m▐███▌ [0;31m███▐[0;1;31;41m░[0;31m█▄[0;1;37m▀██▄▄[0;31m▀▀[0;1;37m▄▄█[0;1;37;47m███[0;1;37;40m▌[0;31m▐█▓▌[0;1;37m▐███▌ ▀█▄▄[0;31m▀▀[0;1;37m▄▄██▀[0;31m▄▄[0;1;37m▀▀▀▓▀ [0;31m▄▄[0;1;31;41m░[0;31m▐▐[0m
 [1;37m         [0;31m▌[0;1;37m ▀[0;1;37;47m▓[0;1;37;40m▀▀█▄ [0;31m▌▓▐[0;1;37m [0;31m▌▀▌▄▄[0;1;37m▀▀[0;1;37;47m▓[0;1;37;40m▀▀▄██▀▀▀ [0;31m▐▌▌[0;1;37m▀▀▀[0;1;37;47m▓[0;1;37;40m█▄■  ▀▀▀▓▀ [0;31m▄▐▌▌▓▀▌▐▀[0;1;31;41m░[0;31m▀▐▌▐[0m
 [1;37m                   [0;31m▐▐[0;1;37m   [0;31m▌▐▌[0;1;37m  [0m       [1;30m^[0;31mt[0;1;31mATOO?[0;31m![0;1;30m^[0;1;37m             [0;31m▐[0;1;37m  [0;31m▐[0;1;37m  [0;31m▐[0;1;37m [0;31m▌[0;1;37m  [0;31m▌[0m
-[1;37m                   [0;31m▐[0;1;37m     [0;31m▐[0;1;37m [0;1;30m^[0;31ma[0;1;31mLLWAYS[0m+[1;31muNDER[0m+[1;31mpRESSURE..[0;31m.[0;1;30m^[0;1;31m [0m [1m  [0;31m▐[0;1;37m     [0;31m▐[0m
-
-[1;30m^cREDITZ[0m:[1;30maLL[0m+[1;30mdRAWING[0m+[1;30mbY[0m+[1;30mdEATH[0m+[1;30mpARADE![0m%[1;30mtATOO''Z[0m+[1;30mfONT[0m+[1;30maND[0m+[1;30mfIXING[0m+[1;30mbY[0m+[1;30mcREEPING[0m+[1;30mdEATH^[0m'
+[1;37m                   [0;31m▐[0;1;37m     [0;31m▐[0;1;37m [0;1;30m [0;31m [0;1;31m      [0m [1;31m     [0m [1;31m          [0;31m [0;1;30m [0;1;31m [0m [1m  [0;31m▐[0;1;37m     [0;31m▐[0m'

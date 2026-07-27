@@ -5,7 +5,7 @@
 # Source SHA-256: 5f64d43e57a2bd00ffb7a1b5a8fb0c7001063ff7e0464d55f3310b5ef26ace9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VD!OTB.ANS by Vigod (rage9605); released in rage9605 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -30,6 +30,4 @@ Write-Host '
 [1;30;40m          vIGod [0;1;35;46m█▒▓▓█[0m [1;35m█[0;1;35;46m▒▓▓[0;1;35;40m█[0m [1;35m█[0;1;35;46m▓▓▒[0;1;35;40m█[0m [1;35m█[0;1;35;46m░▒▓[0;1;35;40m█[0m [1;35;46m█▒▓▓█[0m [1;35m█[0;1;35;46m▒▓▓[0;1;35;40m█[0m [1;35m█[0;1;35;46m▓▓▒[0;1;35;40m█[0m [1;35m█[0;1;35;46m░▒▓[0;1;35;40m█[0;1;33;40m [0;1;33;46m▒▓▓[0;1;33;40m [0m
                 [1;35m▀[0;1;35;46m████[0;1;35;40m▄▀▀▀▀[0m   [1;35m▀▀▀▀▄█[0;1;35;46m███[0;1;35;40m▀[0;1;34;40m [0;34m▄[0;1;35m▀▀▀▀▀████▀[0;1;34;44m▒[0;34m▄[0;1;35m▀▀▀▀▄████▀[0;1;33m▄[0;1;33;46m▓[0;1;33;40m▀[0;35m   [0m
                                        [34m▀[0;1;34;44m░░░▒▒▒[0;1;34;40m▄▄▄▄[0;1;34;44m▒▒░░[0;34m▀[0;37m [0;35m [0;1;30mrAGE![0;35m       [0m
-                                          [34m▀▀[0;1;34;44m░░░░░[0;34m▀▀▀[0m     [35m           [0m
-
-[1;35mSome nodes , some sysops , some users and lots of affils ![0m'
+                                          [34m▀▀[0;1;34;44m░░░░░[0;34m▀▀▀[0m     [35m           [0m'

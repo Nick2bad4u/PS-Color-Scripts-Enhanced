@@ -5,7 +5,7 @@
 # Source SHA-256: 5b72c5c0a8e1c71d0f754fcb1c1942d08796e2697c0db6cc54b485e0acf4b103
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RAGE.ANS by Trasher1 (rg-0197a); released in rg-0197a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -25,9 +25,4 @@ Write-Host '
 [36m  ▄[0;1;36;46m▄[0;36m [0;35m▐[0;1;35;45m██[0;1;35;47m▒[0;1;35;45m███▄[0;35m▄[0;36m░ [0;35m▀[0;1;35;45m▀█▄[0;35m▄[0;37m [0;35m▄[0;1;35;45m▄█▀[0;35m▀[0;37m [0;36m░ ▀[0;1;36;46m▐██▄[0;36m▄[0;32m  [0;37m [0;35m▄[0;1;35;45m▄█▀[0;35m▀▐[0;1;35;45m█████▄[0;35m▄ [0;36m [0;35m▄[0;1;35;45m▄██▀[0;35m▀ ▄[0;1;35;45m▄███▄[0;35m▄[0;37m [0;36m▀[0;37m [0;35m▄[0;1;35;45m▄██▀[0;35m▀[0;36m   [0m
 [36m ▄[0;1;36;46m█[0;36m▌[0;35m▄█[0;1;35;45m▄███▀[0;35m▀▀[0;32m [0;36m▄[0;1;36;46m▄[0;36m▄▄[0;35m▀[0;1;35;45m▀█[0;35m▄[0;37m [0;35m▀[0;1;35;45m▀█[0;35m▄[0;37m [0;32m [0;36m  ▐[0;1;36;46m█▌[0;36m▀[0;32m  [0;37m [0;35m▄[0;1;35;45m█▀[0;35m▀ ▄[0;1;35;45m▄██▀[0;35m▀ [0;36m░[0;35m [0;1;35m▄[0;1;35;45m███▀[0;35m▀ ▄[0;1;35;45m▄███▀[0;35m▀[0;37m  [0;35m▄▄[0;1;35;45m▄██▀[0;35m▀▌[0;36m▀  [0m
 [36m ▀[0;1;36;46m▀[0;36m▄ [0;35m▀[0;1;35;45m▀█▀[0;35m▀[0;37m [0;36m  ▄[0;1;36;46m▄█▀[0;36m▀■▄[0;1;35m▀[0m   [35m▀[0;37m [0;36m▄▌░[0;1;36;46m▒▓[0;36m▀[0;1;36;46m▀[0;36m▀[0;1;36;46m▀█[0;36m▄▄[0;37m [0;1;35m▀[0m   [36m▄▄ [0;1;35m▀▀▀▀▀▀▀▀[0;35m▀[0;36m ▄[0;1;36m▄▄▄[0m [35m▀[0;1;35m▀▀▀▀▀▀▀▀▀[0;35m▀[0;37m [0;36m▄[0;1;36m▄▄[0;36m█ [0m
-[37m  [0;1;36m ▀▄▄▄▄▄[0;36m▄▓▒░▐▀ [0m   [36m▀[0;1;36;46m▀█▀[0;36m▀[0;1;36m▀▀▀[0;36m▀       ▌░▒▓[0;1;36;46m█▀[0;36m░[0;1;36;46m▐█[0;1;36;40m▀[0;36m▀▒█▓▒[0;1;36;46m▐█▌[0;36m▓▒░▐[0;37m  [0;1;36m▀[0;36m▌░▒▓[0;1;36;46m▐████▌[0;36m░█░▀[0m
-                        [36m         [0m
-                 [35m           [0;1;35m<[0;35m>[0;37m  [0;1;35mR[0;35ma[0;36mg[0;1;36me[0;35m [0;1;36mArts[0;35m [0;36m9[0;35m7[0;1;35m''[0m [35m<[0;1;35m>[0m
-         [1;36mmmmmmmmm.. donno i belive my weirdist font, but came out kewl[0m
-         [1;36mafta all.......... bah bye.. [0m
-                           [1;36mTRasheR1\Pathra/[0m'
+[37m  [0;1;36m ▀▄▄▄▄▄[0;36m▄▓▒░▐▀ [0m   [36m▀[0;1;36;46m▀█▀[0;36m▀[0;1;36m▀▀▀[0;36m▀       ▌░▒▓[0;1;36;46m█▀[0;36m░[0;1;36;46m▐█[0;1;36;40m▀[0;36m▀▒█▓▒[0;1;36;46m▐█▌[0;36m▓▒░▐[0;37m  [0;1;36m▀[0;36m▌░▒▓[0;1;36;46m▐████▌[0;36m░█░▀[0m'

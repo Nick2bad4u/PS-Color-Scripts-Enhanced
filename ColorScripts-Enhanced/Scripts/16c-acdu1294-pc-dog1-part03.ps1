@@ -5,7 +5,7 @@
 # Source SHA-256: cd20788285769c9cc5905ff8203a6bf52af0cbef21a717a39072df8da408622f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-DOG1.ANS by P-Chan + Terminator2 (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Delusions of Grandeur
 # SAUCE Author: P-Chan
 # SAUCE Group: ACiD Productions
@@ -37,10 +37,4 @@ Write-Host '
                                         [34m░[0m          [34m▒[0m
 [1;35m                   [0mD e l u s i o n s   O f   G r a [34m░[0m [37md e u r[0m
                   [1;37m [0m
-[1m                          [0m       619.566.0794           [1m                     [0m
-[1m  [0m                        SysOp: The Undead Sorceror
-                        MANY AFFILIATIONS - JUST CALL!
-
-                  Artwork by P-Chan <ACiD> / Logo by t2 <ACiD>
-
-  Greets: Monarch,Criminal,Killer,Lord Jazz,Eerie,Nightmare,Dynosaw,ACiD Crew![0m'
+[1m                          [0m       619.566.0794           [1m                     [0m'

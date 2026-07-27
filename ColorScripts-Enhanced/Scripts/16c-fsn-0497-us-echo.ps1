@@ -5,7 +5,7 @@
 # Source SHA-256: d57e8acf5fee2013b161107ecb3ab7555d811da4553fd7d28b8fae535d0fb1d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ECHO.ANS by Wat0r + Rex (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: echo
 # SAUCE Author: wO/rX
 # SAUCE Date: 19970406
@@ -31,7 +31,4 @@ Write-Host '
    [37m [0;31m  ▄[0;1;31;41m░▓█[0;1;31;47m▄[0;1;31;41m▌[0;31m▌                        ▄▄▄ [0m         [31m   ░[0;30;41m▓▓[0;31;40m░  ▀██[0;1;31;41m▀[0;31m█▄▄  ▄▄█[0;1;31;41m▄[0;31m██▀     [0m
       [31m  ▄[0;1;31;41m ▀[0;31m▀       [0m       [31m       [0m    [1;31;41m▐[0;1;31;47m▓[0;1;31;41m▌[0m          [31m            ▀▀▀████▌▀▀        [0m
          [31m       [0m             [31m [0m     [31m▀[0;1;31;41m▀█[0;1;31;47m▄█[0;1;31;41m▀[0;31m▀[0m        [31m                              [0m
-                                     [31m▀[0;1;31;41m▀[0;31m▀[0m      [37mwe melt like iCE ..[0m
-
-
-[31m   [0m     [31m"echo promotional font by rex from fusion and watOr from echo"[0m'
+                                     [31m▀[0;1;31;41m▀[0;31m▀[0m      [37m                   [0m'

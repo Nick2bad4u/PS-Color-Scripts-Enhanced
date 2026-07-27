@@ -5,7 +5,7 @@
 # Source SHA-256: 439e20511ef4037dba690a3e01ff88ee328d854804b43ffdf33889e585bfdf8d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FW-MATRI.ANS by funkyworm (force.); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logon Matrix
 # SAUCE Author: funkyworm
 # SAUCE Group: force.
@@ -39,7 +39,4 @@ Write-Host '
  [1;30;42m       [0;32m█[0;1;32;42m▀▀▀█[0m ▀▀▀▀[1;47m▀░▀▀▀[0;1;40m█[0;1;47m▀▀▀▀▀▀▀▀[0m▀▀▀▀ [1;32;42m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;42mfunkyworm.[0;32m█████[0;1;32;42m░ ░[0;32m██[0;1;32;42m░[0m
  [32m████████████[0;1;32;42m▀▀▀▀[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;32;42m▀▀▀▀▀[0;32m█[0;1;30;42m         [0;32m█████████████████████[0;1;32;42m░[0;32m███████[0;1;32;42m▀[0;32m  [0m
 
-[1;30m─────────[[0mƒunkyworm[1m°[0mƒorce[1;30m]───────────────────────────────────────[0m     [1;30m────[0m    [1;30m─ [0m
-
-        [1;30mit''s a bit past christmas and i couldn''t wait till the end of [0m
-        [1;30mnine seven to release this so here iz my yewltide anzee.werd.[0m'
+[1;30m─────────[[0mƒunkyworm[1m°[0mƒorce[1;30m]───────────────────────────────────────[0m     [1;30m────[0m    [1;30m─ [0m'

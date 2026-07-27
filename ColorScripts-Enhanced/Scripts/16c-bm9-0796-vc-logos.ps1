@@ -5,7 +5,7 @@
 # Source SHA-256: 5177dfd454ab43ac8cb6cf53f3de7522dc95a709a3016859b638f07500dbbd3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC!LOGOS.ANS by VOiCE (BLACK MAiDEN); released in bm9-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Cluster
 # SAUCE Author: VOiCE
 # SAUCE Group: BLACK MAiDEN
@@ -50,7 +50,4 @@ Write-Host '
       [1;30m∙[0m   [1;30m-[0m [1;30m -- b l a c k - m a i d e n - b r a z i l i a n - h q[0m [1;30m--[0m  [1;30m-[0m   [1;30m∙[0m
 
 
-[1;30m--[ [0;1;37mEnd[0;1;30m ]-----------------------------------------------------------------------[0m
-
-  That was it for the logos already. Didn''t have much time to do more on one
-hand, but on the other hand didn''t have more requests either. :)[0m'
+[1;30m--[ [0;1;37mEnd[0;1;30m ]-----------------------------------------------------------------------[0m'

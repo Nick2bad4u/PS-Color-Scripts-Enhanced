@@ -5,7 +5,7 @@
 # Source SHA-256: a6de633578657f25f568802841b3709d830218508de015af8a1cbe1be63161eb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-FIEND.ANS by ize (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: superfiend
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -30,4 +30,4 @@ Write-Host '
          [1;36m [0;32m▐[0;1;36;42m▐[0;1;36;46m█▄[0;1;37;40m█[0;30;41m▓░[0;1;35;41m░▓[0;1;35;40m█[0;1;35;45m▌[0;35m▌[0;32m▐[0;1;36m██[0;1;36;46m▀[0;1;33;46m▐[0;32m▐[0;1;36;42m▐[0;1;36;46m█▄▐[0;1;36;40m▄▄▄▄▄▄[0;32m▐[0;1;36;42m▐[0;1;36;40m█[0;1;36;46m [0;1;33;46m█[0;1;36;40m [0;35m▌[0;32m▐[0;1;36;42m▐█[0;1;36;40m████▀[0;36m▀▀[0;1;36m [0;32m▀[0;1;36;42m▀▀[0;1;36;40m██████[0;1;36;46m▀▀ [0;36m▀[0;31m▐[0;1;35;45m▓[0;30;41m▓[0m
           [32m▀[0;1;36m▀[0;36m▀[0;1;33m▀[0;30;41m▓░[0;1;35;41m░▓[0;1;35;40m██[0;1;35;45m [0;1;36;40m [0;32m▀▀[0;1;36m▀[0;36m▀[0;1;36m [0;32m▀[0;1;36m▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▀▀[0;1;36m [0;31m▄[0;1;35;45m▄[0;1;35;40m▄▄▄▄▄▄[0;35m▄▄[0;31m▐[0;1;35;45m▄▄[0;1;35;40m▄▄▄▄▄▄▄▄▄▄▄▄[0;35m▌[0;31m▀[0;35m▀[0m
      [31m░[0;30;41m▓[0;31;40m▄[0;1;35;40m▄▄[0;35m▄▐[0;1;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m▀▀▀░[0;30;45m▓[0m        [31m░[0;30;41m▓[0m         [31m░[0;30;41m▓[0m
-       [31m░[0m    [34mSuper fiend -- @pedantik @ neophyte[0m'
+       [31m░[0m    [34m                                   [0m'

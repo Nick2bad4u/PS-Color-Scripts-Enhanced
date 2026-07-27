@@ -5,7 +5,7 @@
 # Source SHA-256: 559cde19f49ed7058b2dfc7539a04e130747aeca4a90c733bdae518f10289077
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YK`D4M.ANS by YaNKeE (iNSoMNia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DH3~4NS1~M4CH1N3
 # SAUCE Author: YaNKeE
 # SAUCE Group: iNSoMNia
@@ -36,6 +36,4 @@ Write-Host '
        [1;32m▐[0;1;32;42m░ [0;1;30;42m░[0m [1;34m▐[0;1;34;44m ░[0;1;30;44m░[0;1;34;40m▌  ▐[0;1;30;44m░[0;1;34;44m░[0;1;30;44m░[0;1;34;40m▌[0;1;35;40m▄[0;1;35;45m░[0;1;30;45m▒░ [0;1;35;45m░[0;1;35;40m▀  [0;1;31;40m▀[0;1;30;41m░[0;1;31;41m░ ░[0;31m▀  [0;36m▐[0m     [1;36m▐[0;1;30;46m░[0m [1;33m▐[0;1;33;43m░[0;1;30;43m░[0;1;33;40m▌   ▀[0;1;33;43m░[0;1;33;40m▌  [0;32m▐[0;1;32;42m░[0;32m▌ [0;1;30;47m▒░[0;1;37;40m▌  ▐[0;1;30;47m░[0m
         [32m▀[0;1;30;42m▒[0;32m▀  [0;34m▀[0;1;30;44m░▒[0;1;34;40m▀   [0;34m▀[0;1;30;44m▒[0;1;34;40m▀  [0;35m▀[0;1;35;45m▄░[0;1;35;40m▀[0m       [31m▀[0m          [1;30;46m▒[0m   [1;33m▀[0;1;30;43m▒[0;33m▀    ▀    [0;1;30;42m░[0m   [1m▀[0m▌  ▀
                                               [1;36m▀[0m
-                             .% [1mDH3[0m■[1m4NS1[0m■[1mM4CH1N3 [0m%.
-
-                           [34ma[0;1;34mn[0;34ms[0;1;34mi b[0;34my [0;1;34mY[0;34ma[0;1;34mN[0;31mK[0;1;31meE [0;34m[[0;37miNS[0;34m/[0;1;30moRc[0;34m/[0;1;30mLs[0;34m][0m'
+                             .% [1mDH3[0m■[1m4NS1[0m■[1mM4CH1N3 [0m%.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4e0baa6a787fd073dabdd9065a350a36fce50de616176c685daa921f10ce48dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-PC1.ANS by Black Lightning (Union); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Psycho City
 # SAUCE Author: Black Lightning
 # SAUCE Group: Union
@@ -52,11 +52,4 @@ Write-Host '
 [36m   ▒  ███▌[0m     [36m▀▓▄    ▄▀[0m        [36m▀▓▄    ▄▀   ▒    ▀██▀▀  ▀    ▀██▌    ▐█▀    ▀▀■▀[0m
      [36m▀███▓[0m        [36m▀■ ▀[0m            [36m▀▀■ ▀[0m                  [36m▄■▄██▄█▀■   ▀[0m
        [36m▀█▌[0m                                                   [36m▀▀[0m
-         [36m▀[0m                 [1;30m·  [0;1;37mC  [0;1;30m·  [0;1;37mI  [0;1;30m·  [0;1;37mT  [0;1;30m·  [0;1;37mY  [0;1;30m·[0m
-
-                  [1;30m.[0;1;37m5io[0;1;30m.[0;1;37m797[0;1;30m.[0;1;37mo525[0;1;30m.[0;1;37msysop[0;1;30m.[0;1;37mveks[0;1;30m.[0;1;37mkillraven[0;1;30m.[0;1;37mvoid[0;1;30m.[0;1;37mwhq[0;1;30m.[0m
-
-[1;30mhappy ansi, veks. from your friend, grimace. blak liting. surprise. [0;1;37mFREE ANSI![0m
-[1;30mgo back to the top and see the exerts from songs, and e-mail me the title and[0m
-[1;30martists at pac_bell, or i-net at aj368@detroit.freenet.org ... anyone can enter.[0m
-[1;30mfirst four correct entries accepted, only.[0m'
+         [36m▀[0m                 [1;30m·  [0;1;37mC  [0;1;30m·  [0;1;37mI  [0;1;30m·  [0;1;37mT  [0;1;30m·  [0;1;37mY  [0;1;30m·[0m'

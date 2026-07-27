@@ -5,7 +5,7 @@
 # Source SHA-256: 901833d4071ff3f1c1936ea0441aa71b93dc86613d015a1686f9de0a05533548
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MG-INTR.ICE by Magnus (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-92
 # Columns: 1-80
 
@@ -49,10 +49,10 @@ Write-Host '
 [1;31;40m    [0;31m▀▀▀▀▀ ▀▀▀   ▀▀▀▀    ▀▀▀▀  ▀▀▀▀▀▀   ▀▀▀▀▀▀  ▀▀▀▀▀ ▀▀▀▀▀▀  ▀▀▀▀▀▀▀ ▀  ▀▀▀▀▀▀[0m
 
 
-               [31mI[0;1;31mn[0mt[1mruder is a great board in (616), run by Esote[0mr[1;31mi[0;31mc[0m
-[31m    U[0;1;31mn[0mf[1mortunately, this young man was not available for questioning (sta[0mt[1;31ms[0;31m)[0m
-              [31mS[0;1;31mo[0m, [1min conclusion, find the number and give it a ca[0ml[1;31ml[0;31m![0m
+               [31m [0;1;31m [0m [1m                                             [0m [1;31m [0;31m [0m
+[31m     [0;1;31m [0m [1m                                                                 [0m [1;31m [0;31m [0m
+              [31m [0;1;31m [0m  [1m                                               [0m [1;31m [0;31m [0m
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m    [0;34mA[0;1;34mN[0mS[1mi Produced by Magnus of iCE, with thanks to QuR''aN for the st[0ma[1;34mt[0;34ms. [0;1;30m:)[0m
+[1;30m    [0;34m [0;1;34m [0m [1m                                                             [0m [1;34m [0;34m   [0;1;30m  [0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

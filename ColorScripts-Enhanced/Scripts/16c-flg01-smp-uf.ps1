@@ -5,7 +5,7 @@
 # Source SHA-256: 1ec727dc97cfcb768191acc9896e5cde7cd048ec739433a08fd41ff1c8e7745b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-UF.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Urine Fumes LOGOFF menu
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
@@ -40,6 +40,4 @@ Write-Host '
                     [34m▀█▀[0m               [34m▐█[0m         [1;30m▄▀▀[0m
                                        [34m▀▄[0m      [1;30m▄[0m
 
-───[cut]────────────────────────────────────────────────────────────────────────
-Please tell me if you like this. Thanks :)
-Requests? Shrimp@hotmail.co.il[0m'
+───[cut]────────────────────────────────────────────────────────────────────────[0m'

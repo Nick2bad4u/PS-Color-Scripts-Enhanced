@@ -5,7 +5,7 @@
 # Source SHA-256: d60715bb227cf5752163422025445ecf4b579b676dd61715b9bacc9e40d14e15
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!STARY.ANS by sIMONkING (tHElo0p); released in l0p02_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sTARY fACET z lYSA gLOWA =)
 # SAUCE Author: sIMONkING
 # SAUCE Group: tHElo0p
@@ -39,9 +39,4 @@ Write-Host '
         [36m▀▀▀[0;1;36;46m▀[0;36m█▌ [0;1;30;46m▌[0;1;36;46m ██[0;36m█[0;37m [0;36m▐[0;1;36;46m█▌[0m   [33m░░▒▓▄[0;37m▀[0;33m▄[0;1;30;43m░░[0;33m▄[0;37m▀[0;33m▄[0;1;30;43m░[0;33m▄[0;1;31;43m░░▒▓▓[0m  [1;36;46m▐█[0;36m▌[0m     [36m█[0;1;36;46m▀██[0;36m▌[0m       [36m█[0;1;36;46m█▀▀[0;36m▌[0m
 [1;30msK!l0p[0;1;31m     [0;36m▐▌[0;1;31m   [0;1;36;46m▐█[0;36m█[0;1;31m   [0;36m█[0;1;36;46m▀[0;36m▌[0;1;31m    [0;33m░▒▒▓▓█[0;1;30;43m░░░[0;1;31;43m░░░[0;33m▀▀▀[0;1;31m▀[0m  [36m▐[0;1;36;46m▀[0;36m█[0m        [36m▀▀▀▄[0m    [36m▄▀▀▀[0m
            [36m▀[0m   [36m█[0;1;36;46m▀[0;36m█▌[0m     [36m▀[0;37m   [0;33m░░░[0;37m [0;33m      [0;1;31m [0m       [36m▄▀▀[0m
-              [36m▄▀▀[0m       [1;31m  [0m
-
-[1;30martworx: simonking/thelo0p (email: zuegrab@by.onet.pl)[0m
-[1;30mgreetings for: rem, aktin, payda, riven, kipsake, soulflyer, zeusII, prst,[0m
-[1;30m               garfield, trance, inclusive, fitzroy, doctor_q, sir mentor[0m
-[1;30m               and rest my friends. [0m'
+              [36m▄▀▀[0m       [1;31m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 119261f17720e4dd16286be46861365a6725b7cfa791394120dcbeac225e8898
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-DNTOX.ANS by Terminator2 (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Deadly Intoxication
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -17,7 +17,7 @@
 Write-Host '
 [33m▀[0;1;31m▀▀▀▀▀▀    [0;33m▀▀▀▀▀▀▀[0m                                  [1;31m▀▄ ▀▄  ▄ ▀▀▄▄▀▀▄▄ ▀▄[0m
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[47m┌┌┌[0;1;30;47m"Prophet" - Taken Off Prophet Issue #3, Is A Trademark of Extreme Studios.[0;47m┌┌[0m
+[47m┌┌┌[0;1;30;47m                                                                          [0;47m┌┌[0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
                                                    [1;36m▄   ▄[0m
@@ -42,17 +42,17 @@ Write-Host '
 [33m [0;1;30m▄ ▀▌ ▐[0;1;30;43m▓[0;1;30;40m▄ ▐[0;1;30;43m▒[0;33m▌ [0;1;30;43m▓[0;1;30;40m▌ ▐[0;1;30;43m▒[0m [1;30;40m▄  [0;32m▀ [0;1;30;42m▒░[0m   [32m▐[0;1;30;42m▒[0m [32m▀[0;32;43m▓[0m [1;30;40m▄  ▐[0;1;30;43m▒[0m [1;30;40m▄ ▌▐[0;1;30;43m▓[0;1;30;40m▄  ▄▀   [0;1;30;43m▓[0;1;30;40m▌  ▀[0;1;30;43m▓[0m [1;30;40m▄  [0;33m▐[0;1;30;43m▒[0m [1;30;40m▄  [0;1;30;43m▓[0;1;30;40m▌[0;1;30;43m▓[0;1;30;40m▄ ▐[0;1;30;43m▒[0;1;30;40m▌[0m
 [1;30;40m▀█[0;1;30;43m▓▓[0;1;30;40m▄▀▐▀ ▄[0;1;30;43m▓▓[0;1;30;40m▀▄█▀ ▀▌▀[0;1;30;42m▓▒░[0;32m▀[0;1;30m▐[0;1;30;42m▓▒[0;1;30;40m▀ ▄[0;1;30;42m▓[0;1;30;40m▌[0;32m▀▄▄[0;1;30;42m▒▓[0;1;30;40m▀ ▀▌▀[0;1;30;43m▓[0;1;30;40m▄▀ ▀▄▄▀▄[0;1;30;43m▓[0;1;30;40m▄ ▄█▀ ▀▄▄[0;1;30;43m▓[0;1;30;40m█▀ ▀▌▀[0;1;30;43m▒▓[0;1;30;40m▄▀▐▀ ▄█[0;1;30;43m▓[0;1;30;40m▀[0m
                       [1;30;40m▄[0m                                 [1;30;40m▄[0m
-                      [1;30;40m▄[0m       [1;30;40mDeadly Intoxication[0m
+                      [1;30;40m▄[0m       [1;30;40m                   [0m
                             [1;30;40m8·0·1 · 5·7·6 · 9·0·1·9[0m     [1;30;40m▀[0m
-                      [1;30;40m▄   SysOp · Time Killer [LAPSE][0m
-                                 [1;30;40mRemote · Game[0m          [1;30;40m▄[0m
-                      [1;30;40m▄    Co·SysOp · Weasel [LAPSE][0m
-                           [1;30;40mInsomnia E-Mag! Dist Site    ▄[0m
-                      [1;30;40m▄[0m     [1;30;40mLUPUS Distrobution Site[0m
-                      [1;30;42m▒[0m    [1;30;40mLAPSE World Head·Quarters    ▄[0m
-                     [32m▐[0;1;30;42m░[0m  [1;30;40mSCAM! E-Mag! US Head·Quarters  [0;1;30;43m▓[0m
-                     [1;30;42m ░[0;32m▌   [0;1;30mNeurosis Net Mountain Hub    [0;1;30;43m▒[0m
-                    [32m▐[0;1;32;42m▄ [0;32m█    [0;1;30mSatanNet · Skeletal Net[0m     [1;30;43m░[0;33m▌[0m
-                     [32m▀▀  [0;1;30mSlime·Net World Head·Quarters [0;33m▐██[0m
-                           [1;30mANSi · Terminator2 <ACiD>   [0;33m██[0;1;33;43m▄[0;33m▌[0m
+                      [1;30;40m▄                              [0m
+                                 [1;30;40m             [0m          [1;30;40m▄[0m
+                      [1;30;40m▄                             [0m
+                           [1;30;40m                             ▄[0m
+                      [1;30;40m▄[0m     [1;30;40m                       [0m
+                      [1;30;42m▒[0m    [1;30;40m                             ▄[0m
+                     [32m▐[0;1;30;42m░[0m  [1;30;40m                               [0;1;30;43m▓[0m
+                     [1;30;42m ░[0;32m▌   [0;1;30m                             [0;1;30;43m▒[0m
+                    [32m▐[0;1;32;42m▄ [0;32m█    [0;1;30m                       [0m     [1;30;43m░[0;33m▌[0m
+                     [32m▀▀  [0;1;30m                              [0;33m▐██[0m
+                           [1;30m                            [0;33m██[0;1;33;43m▄[0;33m▌[0m
                                                         [33m▀▀[0m'

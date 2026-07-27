@@ -5,7 +5,7 @@
 # Source SHA-256: 7626aea720c59000bbed10a4966298d9a3b9d1f90d8ac2ea423ec02b71c94193
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: G-CYBER.ANS by Genocide (Pyro); released in pyro01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cyber Mail
 # SAUCE Author: Genocide
 # SAUCE Group: Pyro
@@ -25,7 +25,7 @@ Write-Host '
         [1;30m▀▀█▀▀▀▒▀▀▀▓▀▀▀▀▀▓▀▀▀▀ [0;1;35m░ [0;1;30m▀▀▀▀▀▒▀▀▀▀ [0;35m░ ▒   [0;1;30m▀▒▀▀▀▓▀▓▀▀▀▀[0m         [1;32m▀▀▀▀[0m
           [1;30m▓   ░   ▒  [0;35m░  [0;1;30m▒ [0;35m■▀▀▀▀▀▀▀▀▀ [0;1;30m░ [0;35m▀▀▀▀▀▀▀▀▀▀ [0;1;30m░ [0;35m▀ [0;1;30m▒[0;35m■[0;1;30m▒   [0;35m░[0m
           [1;30m▒[0m       [1;30m░   [0;1;35m░ [0;1;30m░  [0m1[1;30m) [0;1;35mOption 1   [0m4[1;30m) [0;1;35mOption 4  [0;1;30m░ ░ [0;1;35m░[0m
-          [1;30m░[0m             [35m▄  [0;37m2[0;1;30m) [0;1;35mOption 2   [0m5[1;30m) [0;1;35mEtc etc[0m      [35m▄   ░[0m
+          [1;30m░[0m             [35m▄  [0;37m [0;1;30m  [0;1;35m           [0m [1;30m  [0;1;35m       [0m      [35m▄   ░[0m
                     [35m░   ▐▌ [0;37m3[0;1;30m) [0;1;35mOption 3   [0m6[1;30m) [0;1;35mMain[0m        [35m▐▌ [0;1;35m░[0m
                        [1;35m░ [0;35m▀■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■▀[0m
 [34m▀▀▓[0;31;44m░  [0;1;34;44m░   [0;35;44m░ [0;34;40m██▓██[0;1;36;44m▄▄▄   [0;34m▄▄   [0;35m▒ [0;1;35m░ [0;34m▄▄[0;1;30;44m░ [0;31;44m░[0;34;40m█[0;1;36;44m▄▄▄ [0;34m▄▄  [0;1;35m░ [0;35m▒ [0;34m▀█[0;1;34;44m░▒▓[0;1;34;46m▓▒[0;1;34;47m▓[0;1;34;45m▓[0;1;34;40m▀   [0;1;34;44m▒▓▒░ [0;35;44m░[0;1;36;44m▄▄[0;1;30;44m░[0;34m▓▀▀▀[0m

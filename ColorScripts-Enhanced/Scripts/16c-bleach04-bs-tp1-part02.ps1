@@ -5,7 +5,7 @@
 # Source SHA-256: bc68c182278e6556ff026d40f69878e9f8c4667a7278cf3ec368f2a3b9f9c482
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-TP1.ANS by burps (Bleach); released in bleach04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Territorial Pissings
 # SAUCE Author: burps
 # SAUCE Group: Bleach
@@ -57,8 +57,8 @@ Write-Host '
 [1;33;40m                                   ▀▀                                           [0m
 [1;33;40m  [0;1;30;40m■▄▄ ▄▓▄  ░▄▄ ▓▄▄▄  ▄ ■▄ ■▓▄▄▓ ▄▄■▄ ▄▄▓▄ ▄▀▓▄▄■▀▀■▓▄▄  ▄▄ ▄▓ ■▄  ▄■▓ ▄ ▄▄▀▓▄▄■ [0m
 [1;30;40m █ ▒   ░       ▒   ▓▀      ▒  ░    ▐▓▀ ▒  ▓        ▒   ▒▀            ▀     ▒  █ [0m
-[1;30;40m ▓  yeah the font was a bit too big this time, no the name was too long ;)    ▓ [0m
-[1;30;40m ▒  greetz go out to : the guy who requested this (i the hell don''t know who  ▒ [0m
-[1;30;40m    you are ;), tk, cd, ws, venior, sc, na, neophyte, bytemare, ...           ░ [0m
+[1;30;40m ▓                                                                            ▓ [0m
+[1;30;40m ▒                                                                            ▒ [0m
+[1;30;40m                                                                              ░ [0m
 [1;30;40m ■▄■▓▄▄■▓ ▄ ▓ ■▄▄▓■░■▄▄▄ ▄▓■ ▄▓■ ▓▄■█▄ ▓▄ ■░ ▄■ ▄▄■▀▓ ▄▀■░ ▓▄■█▄ ▓▄  ▄▄▓■▒▄■▄▒  [0m
 [1;30;40m    ▒       ▒ ▒           ░   ▒        ░            ░      ▒     ░  ▀    ░   ░  [0m'

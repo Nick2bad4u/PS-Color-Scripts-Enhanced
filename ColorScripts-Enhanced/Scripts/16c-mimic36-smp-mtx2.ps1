@@ -5,7 +5,7 @@
 # Source SHA-256: 4feb8dceb495a6037634ef07ece89f796542809a4c77b98700e8aa0e730da375
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: smp-mtx2.ans by Shrimp (Mimic Productions); released in mimic36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Shrimp
 # SAUCE Group: Mimic Productions
 # SAUCE Date: 20010606
@@ -38,10 +38,4 @@ logoff  l$$[1m$$[0m$b `$$[1m$$$[0m$$;   ?[1m$[0m`  ┌[1m*?$$III[0mb `�
        :?b~"┘$[1m$$$[0mb ?$$$┐, `ⁿ┘*$$b      _  ;[1m,,[0m,[1m [0m [1m;$P[0m [33m;[0;1;31m$$[0;33mP j[0;1;31m$$[0;33mP[0;37m ,d$[0;1;37m$$$$[0m$$$: 1$$[1m$$[0m$
 [1mMatrix[0m  ,`┘*. `ⁿ$[1m$[0mb  `┘*S#┐,.   `ⁿ* .,[1md$[0m$ [1m [0m$[1m$$[0ml `` [33m1[0;1;31m\┘[0;33m'' ,[0;1;31m$[0;33mP`[0;37m   `ⁿ*?$[0;1;37m$$$$[0m1  `/$$[1m$[0m
        ,*┘┘ⁿ` `. ~┘*,,      `  [33m?┐[0;37m   ?[0;1;37m$$$[0mP [1m [0m┘*[1m*[0m'' [33m\d[0;1;31m\[0;33m'',┌#[0;1;31mS[0;33mP`  [0;37m`*,.[0m    [37m~"ⁿ┘*$b,  `ⁿ[0m
-[37m─[cut]──────────────────────────────────────────────────────────────────────────[0m
-
-[37mRemember that DESPERADO guy who could only draw skulls? heh[0m
-[37mAnyway, here''s another freebie matrix :) [0m
-[37mShrimp@mimic.ca[0m
-
-[1;37m<TGuardian:#ansi> flood: Dead people are good for one thing.. fuckin...[0m'
+[37m─[cut]──────────────────────────────────────────────────────────────────────────[0m'

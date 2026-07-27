@@ -5,7 +5,7 @@
 # Source SHA-256: a296f1c4865abe87986da0875a6a83029c4d91439c20dd61abd0cb370aae48b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US_HAZAD.ANS by Jerusalem + Avenger (boil / black maiden); released in bl_omann and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hazardousic
 # SAUCE Author: various artists
 # SAUCE Group: boil / black maiden
@@ -41,5 +41,5 @@ Write-Host '
 
 [36;40m↓↓[0m                                                                         [32;40m░░░░[0m
 
-[31;40mwhacK-0 shading [0;35;40m■ [0;1;33;40mjerusalem[0;1;34;40m([0mboil[1;34m)[0m
-[31moutlines[0;33m,[0;31mbackground[0;33m,[0;31mlittl'' shading touchups[0;35m ■[0;31m [0;1;33mavenger[0;1;34m([0mblack maiden[1;34m)[0m'
+[31;40m                [0;35;40m■ [0;1;33;40m         [0;1;34;40m [0m    [1;34m [0m
+[31m        [0;33m [0;31m          [0;33m [0;31m                       [0;35m ■[0;31m [0;1;33m       [0;1;34m [0m            [1;34m [0m'

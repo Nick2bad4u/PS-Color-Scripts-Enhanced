@@ -5,7 +5,7 @@
 # Source SHA-256: 618eed40d02640cee85acf427b532fd2ff46d69b780bb2c7c504d3d11d9c02cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HOCZ-B#2.ANS by Coma Toazt + Holocaust (8lE7k!?!??$!?@#$); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blerk,numero,dos : regency!
 # SAUCE Author: cOma toaZt/hOlocaust
 # SAUCE Group: 8lE7k!?!??$!?@#$
@@ -25,17 +25,17 @@ Write-Host '
 [1m      $ [0;32m$        $      [0;1;32ma[0;1;37m        [0;1;32ma"~[0;32m`[0;1;37m [0;1;32ms"[0;32m~''[0;1;37m    [0;1;30m$[0;1;37m  [0;1;32m"a[0;32m,[0;1;30ms[0;32m"[0;1;37m [0;1;32ma[0;1;37m       [0;32m"[0;1;30ma[0;32m,.[0;1;32m"[0;32ma[0;1;32ms[0m
 [1m      [0;1;33m$[0;1;37m [0;32m$    ;    a[0;1;30m,"[0;32m  [0;1;30m [0;32m,    [0;1;30m![0;32m  [0;1;32m"s[0;32m,[0;1;30m,[0;32m.[0;1;32m"[0;1;37m  [0;1;30m,[0;1;32m;[0;1;37m    [0;1;30m$[0;1;37m [0;1;32m$a,  a[0;32m %    [0;1;30m![0;32ma,.  "[0;1;30m$[0;32ma[0;1;37m [0;1;32m$[0;32m.[0m
 [1;37m      [0;1;33m$[0;1;37m [0;32m$s[0;1;30m$[0;32ma@''[0;1;30ma[0;32m,,..[0;1;30m.,,a"[0;32m$s$[0;1;30ms[0;32ms[0;1;30m$[0;32ma,,...[0;1;30m.,a$"[0;32m$[0;1;30ma[0;32ms[0;1;30m$o#[0;1;37m [0;32m$[0;1;32m `""@[0;32m [0;30;42m$[0;32;40ms[0;1;30;40ma[0;32m$[0;1;30ms$[0;32m `$    `[0;1;30m&[0;1;32m [0;32m&[0m
-[1;37m      [0;1;33m$[0;1;37ma[0;1;33mayt[0;1;37mfa''[0;1;33m@sa.$adse''a[0;1;32ms[0;1;33m@[0;1;32ma[0;1;33m1[0;1;32masdfa$sasrat[0;32ms[0;1;32ma[0;32m#a[0;1;32me[0;32ms@[0;1;30m$[0;1;32m    $a[0;32ma[0;1;32mr@[0;32m#[0;1;32ms[0;32me$[0;1;32m [0;32m"as[0;1;30m$!#$[0;1;32m [0;1;30m$[0m
-[1m      [0;1;30mblerk produckshuns[0m #2[1;30m...a krad anscii for [0mhal![1;30m woo woo[0;1;32m `@[0;32maa[0;1;32m![0;32mae[0;1;30ma[0;32ma[0;1;30mw@[0m
-      wtf[1;30m is blerk$@^*&(? blerk is monthly joint anscii by hOlocaust and [0m
-      [1;30mcoma toaZt originally found in the #5 bleach aneurysm. woop de doo[0m
-      [1;30mi say, cuz this month it''s in toon! yaya were messed..this month''s [0m
-      [1;30mpicture by coma toazt, blerk header by holocaust, and regency font[0m
-      [1;30mby coma toazt. woo woo. comments/critisism go to [0mentropy@arcos.org
+[1;37m      [0;1;33m [0;1;37m [0;1;33m   [0;1;37m   [0;1;33m           [0;1;32m [0;1;33m [0;1;32m [0;1;33m [0;1;32m            [0;32m [0;1;32m [0;32m  [0;1;32m [0;32m  [0;1;30m [0;1;32m      [0;32m [0;1;32m  [0;32m [0;1;32m [0;32m  [0;1;32m [0;32m   [0;1;30m    [0;1;32m [0;1;30m [0m
+[1m      [0;1;30m                  [0m   [1;30m                     [0m    [1;30m        [0;1;32m   [0;32m  [0;1;32m [0;32m  [0;1;30m [0;32m [0;1;30m  [0m
+         [1;30m                                                                [0m
+      [1;30m                                                                  [0m
+      [1;30m                                                                   [0m
+      [1;30m                                                                  [0m
+      [1;30m                                                 [0m                 
 
-      [1mcoma toazt[0m is in toon/saga, [1mholocaust[0m is in bleach/toon/vsl yayay!
+      [1m          [0m                  [1m         [0m                             
       [1;30m---[ [0mhal may cut here[1;30m ]-------------------------------------------[0m
-[1;30mtoa[0mZ[1;30mt style shading in effect...[0m             [1ms[0m  [1;32m²[0m [1;32m .  [0m
+[1;30m   [0m [1;30m                            [0m             [1m [0m  [1;32m [0m [1;32m    [0m
                                       [1;32m`[0m  [1;32m  ''[0m        [1;32m`s [0m          [1;30m s[0m  [1;30m²[0m [32m.[0m
                                 [1;32m  [0m  [1m`[0m    [1;32ms²[0m [1;32m  s[0m  [1;32m,[0m  [1;32m [0;1;37m,[0;1;32m$[0m      [1;30m,[0m [1;30m''[0m        [32ms[0m
                               [1;32m`[0m [1;32m²[0m [1;32m.[0m [1;32m. ,[0;1;37ms[0;1;32mss$[0;1;37m¼[0;1;32mS[0;32m½[0;1;32m$$½$[0;1;32;42m$[0;1;32;40ms[0;1;37;40m$[0;1;32;40m$¼$[0;30;42m$[0;32;40m¼''[0;1;30;40ms²[0;1;32;40m,[0;1;37;40m$[0;1;32;42m¼[0;1;32;40mS[0;32m¼[0;1;32ms[0;32mss,[0;1;32m,[0;32ms[0;1;32m''[0m
@@ -61,7 +61,7 @@ Write-Host '
            [1;30m`[0;33m""  [0;1;30mS[0;33m²"[0;1;30mS[0;1;30;43m$[0;1;30;40m²$''[0;1;31;40m S$[0;33m$$²[0;1;30m$½[0m       [1;31m,$[0;1;30m$[0;33m²[0;1;31m s$[0;33m½[0;30;43m$[0;1;30;40m$$[0m     [1;30m'' "  .[0m
            [33m  ,  `[0;1;31ms[0;33m ,[0;1;30m$s'' [0;1;31m$$[0;30;43m$[0;33;40m²$[0;1;31;40ms[0;33ms[0;1;30m²[0;33m [0;1;31m ss$[0;33m''[0;1;31ms$[0;33m''  ''²[0m   [1;30m''[0m
 [32m`[0;1;32m²[0;32ms[0;1;32mS[0;32m$[0;1;33ms[0;1;32m,[0m             [1;30m "² [0;33m`$''[0;1;31m s[0;33m½$[0;1;30m''[0;33m [0;1;31m$$[0;33m''  ²[0m
-[32mss[0;1;32mJ$[0;1;32;42m½[0;1;32;40m$[0;1;33;42mS[0;1;37;40mSss,[0m             [33m''  [0;1;31m $[0;33mS[0;1;30m''[0m                                     [32m,[0;1;30m¼[0m
+[32m  [0;1;32m  [0;1;32;42m [0;1;32;40m [0;1;33;42m [0;1;37;40m    [0m             [33m   [0;1;31m  [0;33m [0;1;30m [0m                                     [32m [0;1;30m [0m
 [32m `[0;1;32m$[0;30;42m$[0;1;32;40m$[0;1;33;40m$[0;1;37;40m$[0;1;33;40mS[0;1;37;40m²²",[0m               [1;31m`''[0;33m s[0m                      [1;37m.  s[0;1;33m,[0;1;37m  [0;32m,[0;1;32m  [0;1;33m,s[0;1;32mS$[0;32m$$[0;1;30m''[0m
 [1;32m [0;32m ,[0;1;32m"[0;32m"[0;1;32m''[0m                     [33m,[0m                    [1;37m`[0m [1m.,[0;1;33ms[0;1;37mS[0;1;33mS$$[0;1;32m$[0;1;33;42m$[0;1;32;40m$[0;1;32;42m$[0;32m$[0;1;32mS[0;32mS[0;1;32ms[0;32m,[0;1;33m²[0;1;32m''[0m
                           [33m$[0;37m  [0;1;30m,[0m             [1m`,sSS$$$$$[0;1;33m$[0;1;37m$[0;1;33;42m$[0;1;33;40m$$[0;1;32;42m$[0;1;32;40m$[0;1;33;40m$[0;1;32;40m$$[0;32m$[0;30;42m$[0;32;40m$[0;1;30;40mS[0;32mS[0;1;30mss[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 98256167744e9cf35602299395f0cf82613643d0eeba29eefc5a638eb4079fbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SYNA.ANS by Cleaner + Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 33-64
 # Columns: 1-80
 
@@ -40,5 +40,5 @@ Write-Host '
 [1;30m  ▀■ ▄▄▄ ▄  ▀   ▀■ ▄▄ ▄ ■▀    ▄▄ ▄ ▄▄ ▄ ▀   ▄▄ ▄ █   ▀ ▄▄▄▄▄▄ ▀ ▀▄[0m [32m ▀▀ █ ▄▄ ▀ [0;1;30m▄[0m
                                                                     [1;30m▀▀ ▄ ▄▄ ▀[0m
 
-[1;30m   [0mANSi by [1mSylvao[0m and [1mCleaner[0m from [1mFire Dream[0m -- [1mSyntax[0m 2017 ANSi Competition
+[1;30m   [0m        [1m      [0m     [1m       [0m      [1m          [0m    [1m      [0m                      
 [30m?![0m'

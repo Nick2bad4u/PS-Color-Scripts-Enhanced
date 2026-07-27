@@ -5,7 +5,7 @@
 # Source SHA-256: 0e9901bc12fdca76070eff4a201952bd3815dc3231e3d35891247505cd870124
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NM-NC.ANS by Netman (tdd-0295); released in tdd-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: No Carrier
 # SAUCE Author: Netman
 # SAUCE Date: 19950215
@@ -15,7 +15,7 @@
 
 Write-Host '
         [34m▄    ▄[0m           [30;44m▀[0m       [30;44m▀[0m        [1;30;40m┌──────────────────────────────[0m────[1m─┼[0m
-       [1;44m [0;1;34;44m█[0;34m█  [0;34;44m [0;1;34;44m█[0;34m█[0m         [34;44m [0;1;34;44m█ [0m     [1;34;44m █ [0m       [31m│ [0;1;37mWould anyone send me some feedback[0m│
+       [1;44m [0;1;34;44m█[0;34m█  [0;34;44m [0;1;34;44m█[0;34m█[0m         [34;44m [0;1;34;44m█ [0m     [1;34;44m █ [0m       [31m│ [0;1;37m                                  [0m│
  [31m▀▀▀▀ [0;31;44m [0;1;34;44m▓█▌[0m  [1;34;44m▐▓█[0;34m█ [0;31m▀▀▀▀▀ [0;31;44m [0;1;34;44m▓█▌[0m [31m▀▀▀ [0;1;34;44m▐█▓ [0m [31m▀▀▀▀▀┤ [0;1;37mconcerning this here new sig. vs  [0;1;30m│[0m
 [1;30m [0;1;33m▀▀▀ [0;1;33;44m [0;1;34;44m▓▒▓▒▄[0;34m▄[0;1;34;44m▐▒▓▒[0;34m█ [0;1;33m▀▀▀ [0;1;33;44m [0;1;34;44m▓▒▓▒▄[0;34m▄ [0;30;44m▀[0;1;34;44m▄▒▓▒▓ [0m [1;33;40m▀▀▀▀┤ [0;1;37;40mmy previous one? Thanx.[0m           [1;30;40m│[0m
 [1;30m [0;1;32m▀▀ [0;1;32;44m [0;1;34;44m░▒░▒░▒░▒░▒░▒[0;34m█ [0;1;32m▀ [0;1;32;44m [0;1;34;44m░▒░▒░▒░▄░▒░▒░▒░ [0m [1;32;40m▀▀▀┤   [0;1;37;40mGreets to:[0m                      [1;30;40m│[0m

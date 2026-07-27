@@ -5,7 +5,7 @@
 # Source SHA-256: 57b472ca32d4898c93a3efdbb5aad1b0ef5b2f60c67d3050d665adad724f03c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KU-LITE1.ANS by Kung Lao (Blade Productions); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Lite
 # SAUCE Author: Kung Lao
 # SAUCE Group: Blade Productions
@@ -59,8 +59,8 @@ Write-Host '
          [1;30m▀▄█▀▌ ▀[0m          [1;30m▀██▀▄▌[0m                       [1;30m▄▀█▄▀█▀▄    ▀▌▄█▀[0m
           [1;30m▐▌[0m               [1;30m▐▌  ▌[0m                        [1;30m▄█▌ ▌[0m        [1;30m▀▐▌ ▄[0m
            [1;30m▌[0m               [1;30m▀▌[0m     [1;37mThe LiTE[0m               [1;30m▐[0m             [1;30m▀▄▌[0m
-           [1;30m▌[0m                    [1;37mSysop: Rancid[0m                            [1;30m■[0m     [1;30m■[0m
-           [1;30m▌[0m                   [1;37mCo-Sysop: Xenon[0m
+           [1;30m▌[0m                    [1;37m             [0m                            [1;30m■[0m     [1;30m■[0m
+           [1;30m▌[0m                   [1;37m               [0m
            [1;30m▌[0m                       [1;37m640 Megs[0m                              [1;30m▌[0m     [1;30m▌[0m
            [1;30m▌[0m                        [1;37m1 line[0m                                 [1;30m▄[0m
            [1;30m█[0m                         [1;37m28.8[0m                                    [1;30m▀▄▌[0m

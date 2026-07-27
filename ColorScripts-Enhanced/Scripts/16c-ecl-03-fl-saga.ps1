@@ -5,7 +5,7 @@
 # Source SHA-256: fec9192fb5bf146a429ccd5754a25a703caced00d524e359fa8b69efe6da4757
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-SAGA.ANS by blame (guest); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SAGA PIMP
 # SAUCE Author: blame
 # SAUCE Group: guest
@@ -31,12 +31,5 @@ Write-Host '
 [1;31m▒▒▒▓▀▀▀▀███[0;1;31;45m▓[0;1;31;40m█████▄▄    [0;33m  ▄█[0;1;31;43m░[0;34;43mSAGA‼[0;1;31;43m░░░░[0;33m▀▀▒▒▀█[0;1;31;43m▀████[0;1;31;47m▓▀[0;1;31;43m█▓▓░░[0;33m█[0;1;33;41m░░▒▓[0m       [1;43m█░[0m       [1;43m▒▒▓[0;33m [0m
 [1;30m      [0;33m  [0;1;31m ▒▒▒▒▀▀▀▀▀[0;1;31;43m▓▓▒▒░░░[0;33m█[0;30;43m░[0;33;40m▓▀▀▀▀[0;31;40m▀[0;33;40m▒▒[0;30;43m▒[0;33;40m▒▒▒▒[0;30;43m▒▒▒[0;33;40m▒[0;1;31;40m▒▒[0;33m▀[0;1;31m▀▀▀▀▀▀▀[0;33m▀▀▒██[0;1;33;43m░[0;1;32;43m░[0;33m▄▄▒▒▒▒[0;1;37;43m█▌[0;33m▌[0m      [1;37;43m▓▓█[0;33m [0m
 [31m-(( flame [0;1;35m-[0;31m i babble. ))----------------------------[0;37m [0;31m----[0;37m [0;33m▀▀▀[0;1;37;43m░▒▓[0;1;37;40m▓▄▄[0;1;37;43m██[0;1;37;40m▓▄[0;33m▄[0;31m -- [0;1;37;43m███[0;1;37;40m▒[0m
-[35mthis is a tribute to the old, original saga, and everyone who [0;37m  [0;1;37m▀▀▀[0;1;37;43m██[0;1;37;40m▀▀▀▀▀▓[0;1;37;43m████[0;1;37;40m▒[0m
-[35mmade that group happen.  high fives to: dieztropic, cheeze, rai, ky, blatz,[0;37m [0;1;37m▀▀[0;33m▀[0m
-[35mlago, defiant, fluor, rza, samnesia, fatslayer, fever, eclipse pimps, samsara[0m
-[35mdudes, all of my other scene friends, and anyone i''ve forgotten.[0m
-
-
-
-
-[1;33m [0m'
+[35m                                                              [0;37m  [0;1;37m▀▀▀[0;1;37;43m██[0;1;37;40m▀▀▀▀▀▓[0;1;37;43m████[0;1;37;40m▒[0m
+[35m                                                                           [0;37m [0;1;37m▀▀[0;33m▀[0m'

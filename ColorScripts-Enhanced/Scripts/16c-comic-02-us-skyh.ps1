@@ -5,7 +5,7 @@
 # Source SHA-256: 4fbb1e0598ce2c6c1886ee98d07b34b7e8c873a0aa78d9876be70ef8903a7a4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SKYH.ANS by Fonzie + Drax (comic-02); released in comic-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -32,6 +32,4 @@ l$$$$$ⁿⁿⁿⁿⁿ?p. , .._.., o?ⁿⁿⁿ  , .  ⁿⁿⁿⁿⁿ     °ⁿⁿ
 [1m  [0m:i%.[34m $[0;1;34m$[0;34m$$ [0;1;37m  [0m:.%:i[1m  [0;34m $$$$ [0;1;34m$[0;34m$$$ $$[0;1;34m$[0;34m$   [0;37m:.i%:.[0;34m  [0;1;34m$[0;34m$$$ $[0;1;34m$[0;34m$$  [0;37m.[0;1;37m  [0m:i%.[34m  $[0;1;34m$[0;34m$$  [0;37m.%:i[0;1;37m  [0m
 . .:. [34m $$$$ [0;37m  . ..:  [0;34m $$[0;1;34m$[0;34m$ $$$$ `²÷$b,. ._. .,d$÷²'' $$$$  [0m   [37m.:. [0;34m  $$$$ [0;37m. ..:[0m
 [37m.[0m    [37m.[0m   [37m.  :  .[0m      [37m,  .[0m   [37m..[0m     [37m...[0m    [37m.[0m    [37m::. ..[0m    [37m.[0m     [37m.[0m        [37m.[0m
-                            [37m,[0m   [37m.[0m
-[37m[font : fonzie][0m          [37m [0m                    [37m.[0m             [37m.[0m
-[37m[color&background : drax][0m'
+                            [37m,[0m   [37m.[0m'

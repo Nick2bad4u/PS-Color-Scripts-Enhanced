@@ -5,7 +5,7 @@
 # Source SHA-256: 002ce4acfe1b5dba024613e6bc44ad8d9b958e3a99c685085c98d0d4ffbfd952
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-MOON1.ANS by spear (fokus); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Moon
 # SAUCE Author: spear
 # SAUCE Group: fokus
@@ -51,15 +51,4 @@ Write-Host '
            [1;30m [0;34m ▐▌[0m     [34m█[0;37m [0m                            [37m [0;1;37m▀[0m▀[1;30m▀[0m
             [34m [0;37m [0;34m▓[0m     [34m▓[0m
             [34m [0;37m [0;34m▒[0m     [34m▒[0m
-                    [34m░[0;33m        The Moon. Operated by Phli. [0m
-
-
-[1;32m---------[Concept Breakdown] <<----------------------[0m  [1;32mchop this shit off if use[0m
-
-  The idealism I had behind this particular ansi is simple. "FLOW". I took
-  simple hollow lines and wrapped them into letters, then contrasted them with
-  solids melting into them. Example: Go to the second and third legs of the M,
-  the grey line wraps down and makes the right hand wall for the second O, then
-  it essentially wraps into the N where the hollow goes up through the middle.
-  The ''background'' is just abstraction and frustration let out from hours of
-  drawing this thing. :).[0m'
+                    [34m░[0;33m                                    [0m'

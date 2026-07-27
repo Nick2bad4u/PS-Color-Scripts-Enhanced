@@ -5,7 +5,7 @@
 # Source SHA-256: c1eeda5c5338e114dba76df3e121a33a5ee71622d50f422b9f0a23b632914ffa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NF-BSKET.ANS by necro (fire-34); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: basketful of heads
 # SAUCE Author: necro
 # SAUCE Date: 20210105
@@ -46,7 +46,7 @@ Write-Host '
 [1m▌[0m█████[1m▌[0m███▌███▐█████▌███[1;30m [0m   [1;30m▓[0;1;30;47m▒░▒▓[0;1;30;40m█▓▓▒░ [0m▐██▌ [1;30m░▒▓█[0;1;30;47m▓▓▓▓[0;1;30;40m██▓░[0m ▐███[1m▌[0m████[1m▌[0m█[1m▌[0m██[1m▌[0m██[1m▐[0m█[1m▐[0m███
 [1m▌[0m█████[1m▌[0m███████▐█▌███▌███[1;30m [0m   [1;30m▐[0;1;30;47m▓▒▒▓[0;1;30;40m██▓▓▒░[0m▐[1;30;47m [0m█▌ [1;30m░▒█[0;1;30;47m▓▓░▒▒▓[0;1;30;40m█▓▒[0m ▐███[1m▌[0m████[1m▌[0m████[1m▌[0m██[1m▐[0m█████
 
-[1;30mFrom the comic Basketful of Heads.[0m                                      [1;30mnf/2021[0m
+[1;30m                                  [0m                                      [1;30m       [0m
 
 
 

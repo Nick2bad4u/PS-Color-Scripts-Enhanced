@@ -5,18 +5,18 @@
 # Source SHA-256: db9aea897491f692ff0632d4759b09089a5a9946d6df3b167a0e66619b6ad180
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-SP1.ANS by Beyond Cool (3nt0994); released in 3nt0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 92-123
 # Columns: 1-80
 
 Write-Host '
-              [1;30;40m■ OPAL LUN SAT_YR.9 (c) of Marvel Entertainment Group ■[0m
+              [1;30;40m■                                                     ■[0m
 
-[1;33;40mNo-one has ever opened this doors ... Many have tried and died in the attempt...[0m
-[1;33;40m  What makes you think *YOU* can open them ? What makes you so damn special ?[0m
-[1;33;40mBehind this doors lies eternal Fame ... Before these doors lies eternal Pain ...[0m
-       [1;33;40mWill you take the Pain for the Fame ? In the Name of the Game ?[0m
-                     [1;33;40mAre you *DiViNE* enough to enter ...[0m
+[1;33;40m                                                                                [0m
+[1;33;40m                                                                             [0m
+[1;33;40m                                                                                [0m
+       [1;33;40m                                                               [0m
+                     [1;33;40m                                    [0m
 
 ▀▀▀▀▀▀▀██▀▀ [1;35m▄ [0m█████▀▀▀▀▀▀[46m▓▒[0;36;40m▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀[0;37;46m▒[0;37;40m▀▀▀▀▀▀▀▀██▀▀▀▀▀▀██▀▀▀▀▀▀▀█[0m
 [1;35;40m▄███▀█▄  ▄███ [0m▀▀█▀ [1;35m▄████▄  ▄██▀▀▀█▄ ▄███▀▀█▄ ▄███▀▀█▄ ▄███▀▀█▄  ▄████▄  ▄███▀█▄[0m
@@ -32,12 +32,12 @@ Write-Host '
 [37m██████████████████ [0;35m█▀ [0;37m██[0;37;46m▓▒░[0;36;40m▄ [0;35;40m▀█▄▄▄█▀▌▀█▄ [0;36;40m█ [0;35;40m▄[0;1;35;45m░[0m [35m▀███▄█[0;1;35;45m░[0;1;35;40m▀ [0;35m▀█▄ [0;37m█ [0;35m▄[0;1;35;45m░[0m ████████████████
 ██████████████████ [35m▌[0;37m▐████[0;37;46m▓▒░[0;36;40m█▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄[0;37;46m▒[0;37;40m▄▄▄▄█▄▄▄▄██████████[0;36;47m[[0;1;30;47mB[0;36;47m·[0;1;30;47mC[0;36;47m][0;37;40m█[0m
 
-[37;40m  [0;1;35;40mA[0;35mRE [0;1;35mY[0;35mOU [0;1;35mR[0;35mEADY [0;1;35mT[0;35mO [0;1;35mE[0;35mNTER [0;1;35mA W[0;35mORLD [0;1;35mW[0;35mHERE [0;1;35mM[0;35mADNESS [0;1;35mi[0;35mS [0;1;35mA V[0;35mIRTUE [0;1;35mA[0;35mND [0;1;35mS[0;35mANiTY [0;1;35mA C[0;35mRiME?[0m
+[37;40m  [0;1;35;40m [0;35m   [0;1;35m [0;35m   [0;1;35m [0;35m     [0;1;35m [0;35m  [0;1;35m [0;35m     [0;1;35m   [0;35m     [0;1;35m [0;35m     [0;1;35m [0;35m       [0;1;35m [0;35m  [0;1;35m   [0;35m      [0;1;35m [0;35m   [0;1;35m [0;35m      [0;1;35m   [0;35m     [0m
 
 [1;30m─-[0m─-[1m─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-[0m─-[1;30m─-[0m
 
-                  [34mANSi + FoNTS HaNDPaiNTeD iN THeDRaW By BeyonD C00l[0m
-                      [34mGreetZ Ta BuRPS, WHiTEY, iCE (All oF YoU :)[0m
+                  [34m                                                  [0m
+                      [34m                                           [0m
 
 [1;30m─-[0m─-[1m─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-[0m─-[1;30m─-[0m
                                                                           [34mBC/3nT[0m'

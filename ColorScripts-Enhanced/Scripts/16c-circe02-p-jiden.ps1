@@ -5,7 +5,7 @@
 # Source SHA-256: d3dd82465348af25d841af7e987a79b3529884efdadb811622dfe6f1b73dcbca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P-JIDEN.ANS by pesho (circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: jiden ciri
 # SAUCE Author: pesho
 # SAUCE Group: circe
@@ -30,5 +30,5 @@ Write-Host '
 [1;33m             |_       ____        | \____   ____                 |      |[0m
 [1;33m   [0;33mmm m mmmm mm[0;1;33m\__  __>   |       |   ╙-----''   \___       _     |      |[0;33mmmmmm[0m
 [1;33m   [0;33mÑ[0;1;33m             [0;32m╙---''    |_      |                ╙------'' |_   |      |_[0;1;33m   [0;33mÑ[0m
-[32m   [0;33mÑ[0;32m [0;36mOperador: [0;1;37maLITA[0;36m.[0;32m       \__   |   [0;34m.[0;1;34m C [0;34m.[0;1;34m I [0;34m.[0;1;34m R [0;34m.[0;1;34m I [0;34m.[0;32m       \__|      _/m  [0;33mÑ[0m
-[32m   [0;33mÑmnmmmmmmmm  mm mmmmmmmmmmm[0;32m╙---''[0;33mmmmmmmmmmmmmnmmmmmmmmmmmmmm m [0;32m╙------''[0;33mmmmmÑ[0m'
+[32m   [0;33m [0;32m [0;36m          [0;1;37m     [0;36m [0;32m                 [0;34m [0;1;34m   [0;34m [0;1;34m   [0;34m [0;1;34m   [0;34m [0;1;34m   [0;34m [0;32m                      [0;33m [0m
+[32m   [0;33m                           [0;32m╙    [0;33m                              [0;32m╙       [0;33m     [0m'

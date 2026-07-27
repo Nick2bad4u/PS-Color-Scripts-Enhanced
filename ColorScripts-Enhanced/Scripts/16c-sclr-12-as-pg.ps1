@@ -5,7 +5,7 @@
 # Source SHA-256: dfcce037869a809441692348a8d407b34d353b2cfc0ebed237bf9815270a1dbf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-PG.ANS by as-d (secular); released in sclr-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pappy girl
 # SAUCE Author: as-d
 # SAUCE Group: secular
@@ -51,6 +51,4 @@ Write-Host '
 [37;40m           [0;32;40m:....$[0;1;30;42m$[0;1;32;40m$[0;32;40m$[0;37;40m [0;32;40m....[0;37;40m [0;32;40m$[0;1;32;40m$$[0;1;30;42m$[0;32;40m$:$[0;1;30;42m$[0;1;32;40m$[0;32;40m$l[0;37;40m [0;32;40m$$[0;1;32;40m$[0;1;30;42m$[0;32;40m$[0;37;40m [0;32;40m....[0;37;40m [0;32;40m$[0;1;32;40m$$[0;32;40m$[0;37;40m [0;32;40m$[0;1;32;40m$$[0;1;30;42m$[0;32;40m$[0;37;40m [0;32;40m..:[0;37;40m  [0;32;40m╓╓╓╓[0;37;40m           [0m
 [37;40m                [0;32;40ml$[0;1;32;40m$[0;32;40m$[0;37;40m:   [0;32;40m_.l$[0;1;32;40m$$$[0;32;40m:$$[0;1;32;40m$$[0;32;40m$[0;37;40m [0;32;40ml[0;1;32;40m$$$[0;32;40m$:[0;37;40m   [0;32;40m_,l[0;1;32;40m│[0;1;30;42m$[0;32;40m$[0;37;40m:[0;32;40ml$[0;1;32;40m$$[0;32;40m$:[0;37;40m     [0;32;40ml[0;1;32;40m$[0;1;32;42m$$[0;32;40ml[0;37;40m          [0m
 [37;40m                [0;32;40m:[0;1;32;42m$[0;32;40m$$$a*\╙╙7[0;1;32;40m$[0;32;40m$$$ll$[0;1;32;40m$[0;1;32;42m$[0;32;40m$::$[0;1;32;42m$[0;1;32;40m$│[0;32;40mla*\╙╙\\╜^[0;37;40m [0;32;40m:$[0;1;32;40m$[0;1;32;42m$[0;1;32;40m│[0;32;40ml[0;37;40m   [0;32;40m_,[0;1;30;42m$[0;1;32;40m│$[0;32;40m$:[0;37;40m          [0m
-[37;40m                 [0;32;40my[0;1;32;40myyy[0;32;40mymm[0;1;32;40mmmy[0;32;40myy[0;1;32;40m$[0;1;30;42m$[0;32;40m$:$$$$l[0;37;40m [0;32;40m$[0;1;32;42m$[0;32;40m$$$[0;37;40m     [0;32;40ml[0;1;30;42m$[0;32;40m$$[0;37;40m: [0;32;40m$$$$$a*\╙╙\\╜^[0;37;40m           [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m'
+[37;40m                 [0;32;40my[0;1;32;40myyy[0;32;40mymm[0;1;32;40mmmy[0;32;40myy[0;1;32;40m$[0;1;30;42m$[0;32;40m$:$$$$l[0;37;40m [0;32;40m$[0;1;32;42m$[0;32;40m$$$[0;37;40m     [0;32;40ml[0;1;30;42m$[0;32;40m$$[0;37;40m: [0;32;40m$$$$$a*\╙╙\\╜^[0;37;40m           [0m'

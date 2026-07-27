@@ -5,7 +5,7 @@
 # Source SHA-256: deaf87552daf01b30c70ae8eea3c68f2fbaa82aa24ca796e0a1591d6a01e61c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: $H-NEWS.ANS by Shinigami (.%.AXss.%. -97); released in axss-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: A NEWS Logo for The Nocturnal Trip.
 # SAUCE Author: Shinigami
 # SAUCE Group: .%.AXss.%. -97
@@ -49,11 +49,9 @@ Write-Host '
 
 [1;30m_______________________________________________________________________________[0m
 
-  [1;30mThis Logo was made solely for The Nocturnal Trip BBS, so if you want to use it[0m
-  [1;30myou gotta ask the Sysop of that BBS for permission. Yes lamer, this IS a NEWS[0m
-  [1;30mLogo :) and you may NOT rip it, please, you must get sum of ur own inspiration[0m
-  [1;30mif you are a ripper... well, anywayz, cu l8erz[0m [1;30mdewd.[0m
+  [1;30m                                                                              [0m
+  [1;30m                                                                             [0m
+  [1;30m                                                                              [0m
+  [1;30m                                              [0m [1;30m     [0m
 
-                                                          [1;30m  $[0m [1;30mh[0m [1;30mí[0m [1;30m∩[0m [1;30mí[0m [1;30mÇ[0m [1;30m/┤[0m [1;30mm[0m [1;30mì[0m
-
-                             [1;30mI[0m [1;30mcommand[0m [1;30mthe[0m [1;30mDevil...[0m'
+                                                          [1;30m  $[0m [1;30mh[0m [1;30mí[0m [1;30m∩[0m [1;30mí[0m [1;30mÇ[0m [1;30m/┤[0m [1;30mm[0m [1;30mì[0m'

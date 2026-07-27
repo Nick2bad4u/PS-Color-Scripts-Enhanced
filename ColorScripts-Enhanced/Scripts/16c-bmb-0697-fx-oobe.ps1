@@ -5,7 +5,7 @@
 # Source SHA-256: 373f2d883822858cd055b4992dc47a03f65bca2dfbc17ee2324d60a1bd2a1e3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-OOBE.ANS by Flux (Psychic Release); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: oobe - my new boardie, check?*#!"
 # SAUCE Author: Flux
 # SAUCE Group: Psychic Release
@@ -23,9 +23,4 @@ Write-Host '
        [36;40m████[0;1;35;46m ░ [0m     [36m ████[0;1;35;46m [0;36m█[0;1;35;46m [0m     [36m ████[0;1;35;46m [0;36m█[0;1;35;46m ░ ▄[0;36m█[0m    [36m [0;1;35;46m     ▄░░ [0;36m▀▀▀[0;37m [0;36m ▄▄▄▄██[0;1;35;46m▄[0;36m▌[0m
        [1;35m▐[0;1;35;46m█▄▄▄▄█[0;1;35;40m▌[0m    [1;35m▐[0;1;35;45m▓[0;1;35;46m▄▄[0;1;36;46m [0;1;35;46m░░▄[0;1;35;40m▌[0m    [1;35m▐[0;1;35;45m▓[0;1;35;46m▄▄░░▄▄▄▄▌[0;36m█[0m    [1;35m▐[0;1;35;45m▓▓[0;1;35;46m▄▄▄▌▄▄█[0;1;35;40m▌[0m    [1;35m▐[0;1;35;46m▄▄▄░░▐[0;1;35;45m▓[0m
 [1;30m───────[0;36m [0;35m▀[0;1;35m▀[0;1;35;46m█[0;1;35;45m▓▓█▄[0;1;35;40m▄▄▄▄[0;1;35;45m▄[0;1;35;40m█[0;1;35;47m▀▓▓[0;1;35;40m██[0;1;35;45m█▄[0;1;35;40m▄▄▄▄[0;1;35;45m▄[0;1;35;40m██[0;1;35;45m▓▓[0;1;35;40m██[0;1;35;47m▓▓▄[0;1;35;40m█[0;1;35;45m▓[0;1;35;40m▌  [0;35m▄[0;1;35;46m█[0;1;35;40m██[0;1;35;47m▀▓▓[0;1;35;40m███[0;1;35;45m█▄[0;1;35;40m▄▄▄▄[0;1;35;45m▄[0;1;35;40m█[0;1;35;45m▓▓[0;1;35;46m██[0;1;35;45m█[0;1;35;40m▌[0;1;30;40m──────── [0m
-[36mfluxworks[0;37m      [0;36m [0;35m▀[0;1;35m▀▀▀▀▀▀[0;35m▀[0m   [36m  [0;35m▀[0;1;35m▀▀▀▀▀▀[0;35m▀[0m   [35m▀[0;1;35m▀▀▀▀▀▀▀▀▀▀▀[0;35m▀[0m     [36m  [0;35m▀[0;1;35m▀▀▀▀▀▀▀[0;35m▀[0;36m [0;37m [0;36mbamboosh[0m
-           [1;34m [0m                     [1moobe[0m [1;34m>>[0;36m flux[0m
-
-[37m*snipp*[0m                                                                [37m *snipp*[0m
-
-[37mwell.. inspiration just came to me ;)[0m'
+[36mfluxworks[0;37m      [0;36m [0;35m▀[0;1;35m▀▀▀▀▀▀[0;35m▀[0m   [36m  [0;35m▀[0;1;35m▀▀▀▀▀▀[0;35m▀[0m   [35m▀[0;1;35m▀▀▀▀▀▀▀▀▀▀▀[0;35m▀[0m     [36m  [0;35m▀[0;1;35m▀▀▀▀▀▀▀[0;35m▀[0;36m [0;37m [0;36mbamboosh[0m'

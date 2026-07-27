@@ -5,7 +5,7 @@
 # Source SHA-256: 1aa4d526b1129293022b0a73fcfa6c5eb15ea6ce2d5a61a91ea4dc953dab5c62
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BH_LOGIN.ANS by Crusader (bh-02); released in bh-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -24,12 +24,12 @@ Write-Host '
                  [34m▓[0m           [34m▓  ■[0m     [34m▒   ▄▄▄▄▄[0m             [34m░[0m
                 [34m▄▀[0;1;34m▀▀[0;34m▀[0;1;34m▄[0;34m▄▀▀▀▄▀■▀▄[0;1;34m▄▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▓▄▄▀[0m     [34m▀▀▀▀▄[0;1;34m▄▄[0;34m▄[0;1;34m▄    [0;34m▓[0m
            [34m■    ▌[0m                                       [34m▀▀▀▀▀▄[0m
-               [34m▐ [0;36mYÆR HÆ∩DLε[0;1;30m····[0;36m»[0m                            [36m« [0;34m▌[0m
-               [34m▌ [0;36mYÆR PÆSSW0RT[0;1;30m..[0;36m»[0m                            [36m« [0;34m▐[0m
+               [34m▐ [0;36m          [0;1;30m    [0;36m [0m                            [36m  [0;34m▌[0m
+               [34m▌ [0;36m            [0;1;30m  [0;36m [0m                            [36m  [0;34m▐[0m
             [34m░  ▐ [0;36mYÆR L0CATI0∩[0;1;30m..[0;36m»[0m                            [36m« [0;34m▌[0m
                [34m▌ [0;36mC0∩∩εCT I∩PH0[0;1;30m.[0;36m»[0m                            [36m« [0;34m▐■[0m
-               [34m▌ [0;36mSYSTεM STÆTUS[0;1;30m·[0;36m»[0m                            [36m« [0;34m▐[0m
+               [34m▌ [0;36m             [0;1;30m [0;36m [0m                            [36m  [0;34m▐[0m
                [34m▐▄[0m     [34m▄[0m        [34m▄▄▄▄▄[0m         [1;34m▄▄[0m          [34m▄▀▄▄▄▌[0m
                 [34m▀▀▀▀▀▀ ▀▀[0;1;34m▀▀[0;34m▀▀[0;1;34m▀[0;34m▀[0m     [34m▀▓▀▀▀[0;1;34m▀▀▀[0;34m▀  [0;1;34m▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▓▀▀[0m
                  [34m▒[0m          [34m░[0m        [34m░[0m     [34m▒[0m     [34m▄    ▒[0m     [34m░[0m
-                        [34m▓[0m             [34m■[0m      [34m░ [0;1;30m/┤∩SI by CRUSÆDεR 0F PH∩+BLUεHεLL[0m'
+                        [34m▓[0m             [34m■[0m      [34m░ [0;1;30m ┤                               [0m'

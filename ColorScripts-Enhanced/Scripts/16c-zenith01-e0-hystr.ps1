@@ -5,7 +5,7 @@
 # Source SHA-256: ae53d60487f8106ff5c6a3b9758357d7d77960117544984bd5c4d853732ef344
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: E0-HYSTR.ANS by enzo (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hysteria's Matrix
 # SAUCE Author: enzo
 # SAUCE Group: Zenith
@@ -39,6 +39,4 @@ Write-Host '
 ▀▀[1;30m▀[0;31m▄▄▄█[0;1;31;41m▄[0;31m█▄▄[0;1;30m▀[0;1;30;47m▄[0;1;37;47m▄[0;1;30;47m▀[0m▄[1;30m▄[0m [31m▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m▓█▄▄[0m     [31m▄[0;1;31m▄[0;1;31;41m▄[0;1;31;47m▓▓[0;1;31;40m▀▀[0m [1;30m▄[0m▄[1;47m▄[0;1;40m█[0;1;47m█[0m▀▄[1;31m▄[0;1;31;47m▄[0;1;31;41m▄[0;31m█[0;1;31m▄[0;31m▄▄[0;1;30m▀[0m▀▀▀[31m▄▄▄▄███[0;1;31;41m░[0m [34m█[0;1;34;44m▄█[0;1;34;46m░▓[0;1;34;44m▄[0;36m   [0;1;37m▀[0;33m [0;1;37m▀▀[0;1;37;47m█[0;1;37;40m▀[0m
 [31m██[0;1;31;41m▀[0;1;31;40m▀[0;31m▀▀[0;37m  [0;31m ▀[0;1;31m▓[0;31m▌[0;30;47m░[0;37;40m█▀[0;1;37;47m▄▄█▄[0;1;37;40m▄▄[0m▄ [31m▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m█▄[0;1;31;41m▄[0;1;31;40m█▀▀[0;1;34;40m [0;1;30;40m▄[0m▄▄[1;47m▄█[0;1;40m█[0;1;47m█[0;1;40m▀[0;1;47m▄[0;1;40m▌[0;31m▐[0;1;31;47m░▓[0m [34m▄[0;32m [0;31m▀▀▀████▀▀▀[0;37m [0;34m▄▄[0;1;34m▄▄[0;34m▄[0;1;34;44m ▀[0;1;34;46m█▓[0;1;34;44m█▀[0;36m  [0;1;37m▄▀▀█[0;33m [0;1;37;47m▐[0;1;37;40m▄[0m
 [1;30;40m [0m   [1;30m [0m  [1;30m [0m [1;31m░[0;1;31;41m░[0;31m▌[0;30;47m▓[0;37;40m█[0;1;37;47m▄▄██▄[0;1;37;40m▄[0;1;37;47m█[0;1;37;40m█[0;1;37;47m██▄[0m [1;31;41m▐[0;1;31;40m▄[0;1;31;47m░[0m [1;30m▄[0;1;30;47m▀[0;1;37;47m▄ ▀[0m▀[1;30;47m▄[0;1;37;40m▄▄[0;1;37;47m▄██[0;1;37;40m▌[0;31m▐[0;1;31;47m▒[0;1;31;40m▌[0m [34m█[0;1;34;44m▀▀[0;34m█▄▄▄▄▄▄██[0;1;34;44m [0;1;33;44m [0;1;37;44m enzo[0;1;33;44mFIRE[0;30;44m░▓[0;36;40m [0;1;37;40m▀▀▀▀[0;36m [0;1;37;47m▐[0;36m [0m
-[1;30m-+--[0m [1;30m-- -[0m                     [34m [0m
-[1;30mit''s my own character called Ken Tuko[0m [1;30mand if you don''t have the "zen" you[0m [1;30mwon''t[0m
-[1;30munderstand ... .[0m [1;30m=)[0m'
+[1;30m-+--[0m [1;30m-- -[0m                     [34m [0m'

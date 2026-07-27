@@ -5,7 +5,7 @@
 # Source SHA-256: b2f9e24236b5b41f4f1c5ffc5d5cfda9105de80619e3a46088924f7b13194709
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IK-CMPTN.ANS by ill communikation (Teklordz); released in tl-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Compton
 # SAUCE Author: ill communikation
 # SAUCE Group: Teklordz
@@ -27,8 +27,8 @@ Write-Host '
 [1;30m▒[0m  [1;31;41m▓[0;1;31;40m▌[0;1;37;47m [0;1;37;40m▄[0;1;37;47m [0;1;31;40m▐▌[0;1;37;47m [0;1;37;40m▄[0;1;37;47m [0;1;31;40m▐█[0m   [1;30m▐[0;1;30;42m▓▓▓[0;1;30;40m▌▐[0;1;30;42m▓▓▓[0;1;30;40m▐[0;1;30;42m▓▒▒[0;1;30;40m▌[0m            [1mcarol - anyone else i know -[0m     [1;30m▒[0m
 [1;30m▒[0m   [1;31m█▄[0m▀[1;31m▄█[0;1;31;41m▓[0;1;31;40m▄[0m▀[1;31m▄█[0m    [1;30m▐[0;1;30;42m▓▓█[0;1;30;40m▌▐[0;1;30;42m▓▓[0;1;30;40m█▐[0;1;30;42m▓▓[0;1;30;40m█▌[0m  [1;30m░[0m                                          [1;30m▒[0m
 [1;30m▓[0m    [1;31m▀[0;1;31;41m▓[0;1;31;40m█▀▀[0;1;31;41m▓[0;1;31;40m█▀[0m      [1;30m▀[0;1;30;42m█[0;1;30;40m▀[0;33m [0;37m [0;1;30m▀█▀[0m [1;30m▀█▀[0m   [1;30m▒[0m [1;30mI[0mf [1myou would like an ansi for your bbs   [0;1;30m▓[0m
-[1;30m▓[0m      [1;31m▀██▀[0m                       [1;30m▓[0m [1myou can contact me on IRC or at[0m [1mmy box..[0m [1;30m▓[0m
-[1;30m█[0m                                [1;30m▄█▄ [0;1;37m157-7672@tnet.bt.quake.com.... latez..[0m  [1;30m█[0m
+[1;30m▓[0m      [1;31m▀██▀[0m                       [1;30m▓[0m [1m                               [0m [1m        [0m [1;30m▓[0m
+[1;30m█[0m                                [1;30m▄█▄ [0;1;37m                                      [0m  [1;30m█[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
 [1;30m█████████▌██████▀▀█ ██████[0;32m  [0;1;30m█ ██████[0;32m   [0;37m [0;1;30m██████▀▀█[0;32m [0;1;30m██████▀▀█[0m [1;30m██████▀▀▄[0m [1;30m██████▀▀█[0m

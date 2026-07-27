@@ -5,7 +5,7 @@
 # Source SHA-256: 697f3a411485859be48f3278e5576af86a6d87129fbcb9d60fd9d9fabf632270
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5D-OSS.ANS by slayer dreams (maiden); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ordeal  shivers
 # SAUCE Author: slayer dreams
 # SAUCE Group: maiden
@@ -23,8 +23,4 @@ Write-Host '
 [32m▀▀█[0;1;32;42m▀[0;1;32;40m▄[0;32m [0;35m [0;1;35m▌█▀█▌[0;35m  [0;1;35m▄[0;1;35;42m▒▓[0;1;35;40m▄[0;1;35;42m▓[0;1;35;40m▐[0;1;35;45m▓▓[0;1;35;40m▌█[0;35m ▀▀▌▀▀▐█▄█▌ ▐█[0;32;45m▒[0;35;42m▓[0;35;40m▌▐▌ ▐▌ ░▄[0;1;35;45m░[0;35m█[0;32;45m░[0;35;42m▒[0;1;35;45m▒▒[0;1;35;40m▄  ▐[0;1;35;42m▓▓▒[0;1;35;45m█[0;1;35;40m█▄[0;1;35;45m▓▓[0;35m  [0;1;37m██[0;1;35m██[0;32m  [0;1;32m▐[0;1;32;42m▌[0;32m█▌█[0m
 [32m▄▄█[0;1;32;42m░[0;1;32;40m▌[0;32m [0;35m [0;1;35m▄[0;1;37m██[0;1;35m▀▀▀▀▀[0;32m▐▄[0;1;32m▄[0;32m▌[0;35m [0;1;35;47m▓[0;1;35;45m▓[0;1;35;40m▄▀▀[0;35m  ▌  [0;1;35;45m░░[0;35m█▀▌▀▀▌[0;32m▐▄[0;1;32m▄[0;35m █[0;30;45m░[0;35;40m▓▀▀▀▀▌ [0;1;32;40m▄[0;32m▌[0;1;35;45m▒▓[0;1;35;47m▓[0;1;35;40m▀▀▀▀░[0;32m▐[0;35m [0;1;37m██[0;1;35m█▀▀▀▀[0;35m  [0;1;32m▄[0;32m [0;1;32m▄[0;1;32;42m▀[0;35;42m░[0;32;45m▓[0;32;40m▌[0;1;32;42m▄[0m
     [1;32m▌[0m         [35m [0m     [1;35m░░ [0m    [1;35m▀[0;35m▀▀▀[0;1;35m░[0;35m▐[0;1;35m▄[0;35m▌ [0;1;35m▄[0;35m▌     ░[0;30;45m▓[0m    [35;40m▌   [0;1;35;40m░░░[0m     [32m▐[0m          [32m [0m
-    [1;32m▀[0m     [35mshiver([0;1;35ms[0;35m)[0m                              [35m▀[0m           [1;32m▀[0m
-                                                    [1;35m+opd by sl[0;35m(ayer)[0;1;35mdreams[0;35m, me![0m
-
-
-          [35m* that''s my board![0m'
+    [1;32m▀[0m     [35m       [0;1;35m [0;35m [0m                              [35m▀[0m           [1;32m▀[0m'

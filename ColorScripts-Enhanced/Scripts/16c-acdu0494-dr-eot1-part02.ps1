@@ -5,7 +5,7 @@
 # Source SHA-256: 660b20619cad63c9e4e0b63fe9fe820eb53cc30cf21c8c9c97aa0266742dd046
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-EOT1.ANS by Duster (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: End of Time
 # SAUCE Author: Duster
 # SAUCE Group: ACiD Productions
@@ -59,5 +59,4 @@ Write-Host '
 [36m████████████████ [0;1;31;43m▓▓▒▒▒[0m [1;37;40m▄▄[0;33m▀▀[0;1;31m▀▀▀[0;1;37m▄█████████████████████████████████████████▀[0;1;31m▐ [0;36m████[0m
 [36m█████████████████▄[0;33m▀[0;1;31;43m▒[0;33m▀▄[0;1;31;43m░[0;33m▄▄[0;1;37m▀▀▀▀██████████████████████████████████████████▀[0;1;31m▄██[0;36m▐███[0m
 [36m██████████████████▀[0;33m▄[0;1;31;43m░▒▒▒▒▒▒▒▒[0;33m▄▄▄▄▄[0;1;37m▀▀██████████████████████████████████ [0;1;31;43m▒▓[0;1;31;40m██▌[0;36m███[0m
-[1;31m▄▄[0;31m▄[0;1;31m▄[0;31m▄▄[0;1;30m▄[0;31m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m▄[0;1;30m▄[0;31m▄▄[0;1;31m▄[0;31m▄[0;1;31m▄▄[0m
-'
+[1;31m▄▄[0;31m▄[0;1;31m▄[0;31m▄▄[0;1;30m▄[0;31m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m▄[0;1;30m▄[0;31m▄▄[0;1;31m▄[0;31m▄[0;1;31m▄▄[0m'

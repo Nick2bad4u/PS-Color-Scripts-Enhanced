@@ -5,7 +5,7 @@
 # Source SHA-256: 1bff17449b0c1bf94986c5086388ca31c169bb5aaf7cf1bd1ab9a33bd98a4324
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RN-4SERA.ANS by The Ruiner (glue-02); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19970830
 # SAUCE Dimensions: 80x63
 # Lines: 31-63
@@ -39,9 +39,9 @@ Write-Host '
                    [1;32m   [0;1;37m██[0;1;32;42m▄▄[0;1;32;40m▄▄[0;32m▄▄[0;1;32m▀▀▀▀[0;32m▀▀[0;1;32m [0m   [1;32mlifeFORCE[0m   [1;32m▄▄█[0;1;32;42m▀ [0;32m▀ [0m   [31m▐[0m
                      [1;32m     [0m                          [1;32m▀[0;32m▀▀[0;1;32m  [0m     [31m▀[0m
 
-                [1;37mansi by tHERUIN3r. bringing back f9 in a big way.[0m
+                [1;37m                                                 [0m
 
-        [1mthis font is void. seraphim asked me for a l4 font,but then l8r[0m
-        [1mchanged his mind. now he wants something else. i dont know what[0m
-        [1mbecause i can''t remember. but if anyone wants an l4 font., take[0m
+        [1m                                                               [0m
+        [1m                                                               [0m
+        [1m                                                               [0m
         [1mit.[0m'

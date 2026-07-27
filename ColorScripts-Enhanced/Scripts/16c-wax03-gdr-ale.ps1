@@ -5,16 +5,16 @@
 # Source SHA-256: d3f62bc7662aca04997f0c661e62f659700339c3068883e0e8ecdb26132d2f3c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GDR-ALE.ANS by Gravedancer (wax03); released in wax03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
 [1;30mgdr[0m [1m [0;33m      ,a&%aa&&&8[0;1;31m88888888[0;33m8b,.    [0;1;30m``''`[0m      `:IIIIII&&aa,._____..,,,aa&&&&III
-     [33m   [0;1;30m,a[0;33md8888[0;1;31m88888888888[0;33m88F*`  `  [0m           [1;37m   [0m`:IIIIIIIIIIIIIIIIIIIIIIIF**''`
-[1;30m  ,[0m  [1;30m,ad[0;33m88b`7II88[0;1;31m888888[0;33mF`''`         [0m          [1;30m,   [0m  `7IIIIIIIIIIIIIIIII&&aa,.___
-[1;30m ,;[0m  [1;30mF**[0;33m²''   7II88[0;1;31m888[0;33m8i             [0m           [1;30m;;,.[0m`''  7IIIIIIIIIIIIIIIIIIIIIIII
-[1;30m,;''[0m  [33m         iI$88[0;1;31m8[0;33m88;      __.,a&&&,. [0;1;37m [0m       [1;30m`'';,[0;1;37m [0m  `_IIIIIIIIIIIIIIIIIIIIIII
+     [33m   [0;1;30m  [0;33m     [0;1;31m           [0;33m          [0m           [1;37m   [0m                              
+[1;30m   [0m  [1;30m   [0;33m         [0;1;31m      [0;33m             [0m          [1;30m    [0m                              
+[1;30m   [0m  [1;30m   [0;33m          [0;1;31m   [0;33m               [0m           [1;30m    [0m                             
+[1;30m   [0m  [33m              [0;1;31m [0;33m                    [0;1;37m [0m       [1;30m    [0;1;37m [0m                           
 [1;30m;;[0m   [33m         ;$$$888;  F  ²7888[0;1;31m8888[0;33m888;[0;1;37m [0m          [1;30m`;[0m`''7IIIII''''''`````        _,I
 [1;30m'';[0m   [1;30m.[0;33m,,a*²''  ''7$$$888bd8F*'' `''²**7[0;1;31m8888[0;33mi[0;1;37m [0m           [1m   [0m`:III''''               ;II
 [1;30m ;[0m   [1;30mi[0;33m88;[0;1;37m [0m,[1mF''   [0;33m7$$88[0;1;31m88[0;33m88&a[0;1;37m  [0m;$[1m;  _ [0;33m`''7$;   [0;1;37m     [0m    ,:IIIIi                 ``I
@@ -30,7 +30,4 @@ ba,788i [33mii&&a,`'';$b,dF*'',d$$$888[0;1;31m888888888[0;33m888;  [0m   [3
 8888888 [33m I$$$$$$$$$$88[0;1;31m8888[0;33m88FQ88[0;1;31m8888888[0;33m8F''_,[0m    [1;30m;''  lIIIIIII[0m                 [1;30miII[0m
 8888888; [33mi$$''''7$F~~²²**7[0;1;31m888[0;33mF''d8[0;1;31m888888[0;33m8i'',d8''[0;1;30m ;,  ,._`:IIIIIi[0m                 [1;30mIII[0m
 8888888i [33m;$$8[0;1;31m88[0;33m888&&&aad888bd8[0;1;31m888[0;33m888²'',d[0;1;31m8[0;33mF'' [0;1;30m `;;,:II::IIIII;[0m              [1;30m_.:III[0m
-[1;30m88888888; [0;33m`78888888[0;1;31m88888[0;33m8888[0;1;31m88[0;33m8F*²'',ad8[0;1;31m88[0;33m8; [0;1;30m .,:IIIIIIII:*~ [0m   [1;30m__.,,..___```'':II[0m
-[1;30m888888888; [0;33mI$F''''²''788[0;1;31m888[0;33mF*²²''`_.   i8[0;1;31m8888[0;33m8i [0;1;30m;IIIIIIIII::IIIIIIIIIIIIIIIIIIIIIIII[0m
-[1;30m888888888b,[0;33m`7Q[0;1;31m8888888[0;33m88F_.,;;iiI  ;8[0;1;31m888[0;33mb`7I [0;1;30mIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII[0m
-             [1;31m         [0m'
+[1;30m88888888; [0;33m`78888888[0;1;31m88888[0;33m8888[0;1;31m88[0;33m8F*²'',ad8[0;1;31m88[0;33m8; [0;1;30m .,:IIIIIIII:*~ [0m   [1;30m__.,,..___```'':II[0m'

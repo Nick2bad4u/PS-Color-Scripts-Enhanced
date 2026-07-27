@@ -5,7 +5,7 @@
 # Source SHA-256: cbf3e118d364ad89ad81d9e6d3f14cca039bc8ff2072fc8a1d0013dbb63694dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HO-UNHRA.ANS by HOoDOo (Stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: UNHoLY RAGE Logo
 # SAUCE Author: HOoDOo
 # SAUCE Group: Stile
@@ -19,7 +19,7 @@ Write-Host '
       [1;30m▄▄[0;1;30;42m▀▀[0;1;30;40m▄[0m                    [1;30m▐[0m             [1;34mU N H O L Y  R A G E[0m
   [1;30m▄▄[0;1;30;42m▀▀    ▄[0;1;30;40m█▄ [0m                 [1;30m▐[0m
 [1;30m■▀[0;1;30;42m▄▒░[0;32m▀[0;1;30;42m░░▄[0;1;30;40m▀[0m [1;30m▐[0;1;30;42m▀[0;1;30;40m█[0m                 [1;30m▐[0m   [1;30mHOoDOo brings ya yet another ansi created[0m
-   [1;30m█[0;1;30;42m▓▒█[0;1;30;40m▀[0m    [1;30;42m█▐[0;1;30;40m▌[0m                [1;30m█[0m  [1;30mfor his own little board [0;32mUNHoLY RAGE[0;1;30m...     [0m
+   [1;30m█[0;1;30;42m▓▒█[0;1;30;40m▀[0m    [1;30;42m█▐[0;1;30;40m▌[0m                [1;30m█[0m  [1;30m                         [0;32m           [0;1;30m        [0m
    [1;30m █▀[0m  [1;30mHo![0m [1;30m▐[0;1;30;42m [0;1;30;40m█[0m                [1;30m█[0m  [1;30m [0m
   [1;30m■▀ [0m  [1;30mSTiLE▐[0;1;30;42m [0;1;30;40m█[0m  [1;30m▄▄[0;1;30;42m▀▀[0;1;30;40m▄[0m         [1;30m▌[0m
             [1;30m█[0;1;30;42m░[0;1;30;40m█■▀▀[0;1;30;42m█▒▓▐[0;1;30;40m▌[0m        [1;30m▌[0m  [1;30mGreetz:[0m [1;30mAll [0;32mSTiLE [0;1;30mmembers, [0;32mnixxon[0;1;30m,         [0m

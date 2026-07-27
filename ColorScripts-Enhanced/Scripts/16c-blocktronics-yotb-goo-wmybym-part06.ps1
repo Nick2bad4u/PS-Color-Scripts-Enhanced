@@ -5,7 +5,7 @@
 # Source SHA-256: 7d2e8ccd8ab68423db3a61efba768e28c4f59e46832ff835062951dc54710dcb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: goo-WMYBYM.ans by mypalGOO (blocktronics); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: we miss you BYM
 # SAUCE Author: mypalGOO
 # SAUCE Group: blocktronics
@@ -57,8 +57,4 @@ Write-Host '
 [1;32m █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █   █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █[0m
 [1;32m █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █   █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █[0m
 [1;32m █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █   █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █[0m
-  [32mw[0;37m [0;1;32me[0m [1;32m [0m                             [32mm[0;37m [0;1;32mi[0m [1;32ms[0m [1;32ms[0m                             [32my[0;37m [0;1;32mo[0m [1;32mu[0m
-
-
-               [1;30m.[0m  [1;30m.[0m. [1;30m.[0m..A[1;30mNS[0;1;32mi[0;1;30m [0md[1;30m0NE[0m [1;32mi[0;1;30mN [0mM[1;30mMXV [0mb[1;30my[0m m[1;30mypal[0;1;32mGOO[0m^[32m67[0;37m..[0;1;30m.[0m .[1;30m.[0m  [1;30m.[0m
-                              [1;30m..aBSTRACT.W0RLDs..[0m'
+  [32mw[0;37m [0;1;32me[0m [1;32m [0m                             [32mm[0;37m [0;1;32mi[0m [1;32ms[0m [1;32ms[0m                             [32my[0;37m [0;1;32mo[0m [1;32mu[0m'

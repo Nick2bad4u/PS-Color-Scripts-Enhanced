@@ -5,7 +5,7 @@
 # Source SHA-256: febc0c367ca335d1729da7a22ad74bb8ceaae639a03c1a7a77bd26202a8c407f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EYE-CAKE.ANS by Eyeball (JiVE); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cake + S0domy
 # SAUCE Author: Eyeball
 # SAUCE Group: JiVE
@@ -13,7 +13,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [1;30msm1l3y frum[0m [1;30mwiz4rd[0m [1;30mmay 96[0m                         [1;30mnutha^origgie^eye^jive![0m
+  [1;30m           [0m [1;30m      [0m [1;30m      [0m                         [1;30m                       [0m
  [32m$$$$$$$$ⁿ''''[0;1;37m,y@y,[0;32m``ⁿ$$$$$$$$$$$$$$$$$$$$$$$$$ⁿⁿⁿ$$$$$$$$$$$$ⁿ''''[0;1;37m,y@y[0m,[32m``ⁿ$$$$$$$$[0;37m [0m
  [32m$$$$$S''[0;1;37m,y$$$[0m$[1m$$$$$y[0;32m`$$$$$$ⁿ$$$$$$$$$$$$$$$$$y, `$$$$ⁿ''$$$$''[0;37my$[0;1;37m$$$$$$$[0m$y,[32m`$$$$$$[0;37m [0m
  [32m$$$$$''[0;1;30my[0mI[1m$$$$[0m$[1m''[0m,yy[1m,`[0;32m,$$$$$$y$$$$$$$$$$$$$$$$$$$y,$$$$, :$$$,[0;37m`[0;1;30mⁿⁿⁿⁿⁿ$[0m$$[1m$$$[0my[32m`$$$$$[0;37m [0m
@@ -46,14 +46,13 @@ Write-Host '
  [32m$OIiiIO$''[0;1;30m,y@$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@y,[0;32m`$OIIiiIO$[0;37m [0m
  [32mOIi::iIO[0m [1;30m$$$Sⁿ```````````````````ⁿS$$$$$$$Sⁿ````````````````````ⁿ$$$[0m [32mOIii::iIO[0;37m [0m
  [32mIi:··:iI[0m [1;30m$$''[0;1;31m,y@$$$$$$$$$$$$$$[0;1;31;41m$$[0;1;31;40mS@y,[0;1;30;40m`$$$$$''[0;1;31;40m,y@$$$$$$$$$$$$$$$[0;1;31;41m$$[0;1;31;40mS@y,[0;1;30;40m`$[0m [32mIi::··:iI[0;37m [0m
- [32mi:·[0m  [32m·:i[0m [1;30m$''[0;1;31m,$$$[0;31mOOOOOOOOOOOOO[0;1;31m$$$[0;1;31;41m$[0;1;31;40m`''$[0;1;30;40m $ⁿ`ⁿ''[0;1;31;40m,$$$$[0;31mOOOOOOOOOOOOO[0;1;31m$$$[0;1;31;41m$[0;1;31;40m''`$[0m [1;30;40m$[0m [32mi:··[0m  [32m·:i[0;37m [0m
- [32m:·[0m    [32m·:[0m [1;30m$[0m [1;31m$$[0;31mOOIIIIIIIIIIIIIOO[0;1;31m$$[0;1;30m  [0;1;31;41m$[0;1;30;40m ⁿ [0;1;31;40m$[0;1;30;40m .[0;1;31;40m`$$[0;31mOOIIIIIIIIIIIIIOO[0;1;31m$$[0m  [1;31mⁿ[0m [1;30m$[0m [32m;·[0m      [32m:[0;37m [0m
- [32m·[0m      [32m·[0m [1;30m$[0m [1;31m$[0;31mOIIiiiiiiiiiiiiiIIO[0;1;31m$[0;1;30m  [0;1;31mⁿ[0;1;30m [0;1;31myy$yy[0m [1;31m`[0;31mⁿIIiiiiiiiiiiiiiIIO[0;1;31m$@[0;1;31;41m$[0;1;31;40m,[0;1;30;40m`$[0m [32m·[0m       [32m·[0;37m [0m
+ [32m   [0m  [32m   [0m [1;30m  [0;1;31m    [0;31m             [0;1;31m   [0;1;31;41m [0;1;31;40m   [0;1;30;40m      [0;1;31;40m     [0;31m             [0;1;31m   [0;1;31;41m [0;1;31;40m   [0m [1;30;40m [0m [32m    [0m  [32m   [0;37m [0m
+ [32m  [0m    [32m  [0m [1;30m [0m [1;31m  [0;31m                 [0;1;31m  [0;1;30m  [0;1;31;41m [0;1;30;40m   [0;1;31;40m [0;1;30;40m  [0;1;31;40m   [0;31m                 [0;1;31m  [0m  [1;31m [0m [1;30m [0m [32m  [0m      [32m [0;37m [0m
+ [32m [0m      [32m [0m [1;30m [0m [1;31m [0;31m                   [0;1;31m [0;1;30m  [0;1;31m [0;1;30m [0;1;31m     [0m [1;31m [0;31m                   [0;1;31m  [0;1;31;41m [0;1;31;40m [0;1;30;40m  [0m [32m [0m       [32m [0;37m [0m
           [1;30m$[0m [1;31m$[0;31mIii:::::::::::::iiI[0;1;31;41m$[0m [1;30;40m$yy,[0m [31mI[0m [1;30m,yⁿ''[0m                 [1;30m.,,[0;1;31m`[0;1;31;41m$[0m [1;30;40m$[0m
           [1;30;40m$[0m [1;31;40m$[0;31mi::·············::i[0;1;31m$[0;1;30m ⁿ`ⁿ$,[0;31m`[0;1;30m,''[0;1;31m,y@[0;31m::·············::,[0m [1;30m$[0m [1;31;41m$[0m [1;30;40m$[0m
           [1;30;40m$,[0;1;31;40m`[0;31m:··[0;37m             [0;31m··:[0;1;31m$,,[0;1;31;41m$[0m [1;30;40m$$$$,[0;1;31;40m`$[0;31m:··[0;37m             [0;31m··:[0;1;31m,[0;1;30m`[0;1;31m,$[0m [1;30m$[0m
           [1;30m$$,[0;31m`[0;37m                 [0;31m·[0;1;31m$Sⁿ''[0;1;30m,$$$$$,[0;1;31m`[0;31m`[0;37m                 [0;1;31m$$Sⁿ''[0;1;30m,$[0m
           [1;30m$$S,,,,,,,,,,,,,,,,,,,,,y$$$$$$$$$y,,,,,,,,,,,,,,,,,,,,y$$$[0m
           [1;30m`ⁿS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Sⁿ''[0m
-            [1;30m      [0m    [1;31mc[0m  [31ma[0m  [1;30mk[0m  [1;30me[0m    [1;30m+[0m    [1;30ms[0m  [1;30m0[0m  [1;30md[0m  [1;30mo[0m  [31mm[0m  [1;31my[0m
-                                                                   [1;30m          [0m'
+            [1;30m      [0m    [1;31mc[0m  [31ma[0m  [1;30mk[0m  [1;30me[0m    [1;30m+[0m    [1;30ms[0m  [1;30m0[0m  [1;30md[0m  [1;30mo[0m  [31mm[0m  [1;31my[0m'

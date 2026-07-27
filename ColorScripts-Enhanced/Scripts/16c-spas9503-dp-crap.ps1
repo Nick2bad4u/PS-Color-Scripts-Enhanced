@@ -5,7 +5,7 @@
 # Source SHA-256: a1bde47f545b29f1a4200d73007c1e4f20ed05c7b494c0bf1586cb72c45a6564
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DP-CRAP!.ANS by Dairy Product (spas9503); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: miscellaneous crap!
 # SAUCE Author: Dairy Product
 # SAUCE Date: 19950225
@@ -25,8 +25,8 @@ Write-Host '
 [36;44m▓[0;1;37;46m░▒▓[0;1;37;44m▓[0;1;37;40m█▄[0;1;30;40m▐[0;1;30;45m▌[0;36;45m░[0;1;35;45m▒[0;1;30;40m▌[0;1;37;40m■  [0;1;30;40m▄▄[0;35;46m▓[0;1;30;45m▀[0;1;30;40m■▀[0;1;30;47m▓[0;1;30;45m▓[0;1;30;40m█ [0;1;37;40m▀[0;1;37;46m▓[0m [1;35;45m▒[0;1;30;45m▓▓[0;1;30;40m▓[0;1;30;45m▄[0;1;30;40m▓ ▐[0;1;30;47m▓[0;1;30;45m▓[0;1;30;40m█ [0;1;37;40m▀▓ [0;1;35;45m▒[0;1;30;45m▓▓[0;1;30;40m▓[0;1;30;45m▄[0;35;46m▓[0m [1;37;40m▓[0;1;37;46m▓[0;1;37;40m▒ [0;1;30;40m▓[0;1;30;45m▓▓▀[0;1;30;46m▓[0;1;30;40m█ ▀[0;1;30;47m▓[0;1;30;45m▓[0;1;30;40m█ [0;1;37;40m▀[0;1;37;46m▓[0m [1;35;45m▒[0;1;30;45m▓▓[0;1;30;40m▓[0;1;30;45m▄[0;1;30;40m▓ [0;1;37;46m▒▒░ [0m
 [1;37;40m▀▀▀▀▀▀▀ [0;1;30;40m▀▀[0;1;35;45m▓[0;1;30;40m█▄[0;1;30;47m▓[0;1;30;40m█[0;1;30;45m▄▄[0;1;30;40m▀▀   ▀▀▓▓▄■[0;1;35;45m▓[0;1;30;40m■▀▀ ■▄█[0;1;30;45m ▓[0;1;30;40m▀▓▓▄■[0;1;35;45m▓[0;1;30;40m■▀▀  [0;1;37;40m▀▀▀▀ [0;1;30;40m▒■▀▀  [0;1;37;40m▀  [0;1;30;40m▀▀▓▓▄■[0;1;35;45m▓[0;1;30;40m■▀▀ ■[0;1;37;40m▀▀▀▀▀[0m
                                   [1;30;40m▀[0;1;30;45m▄[0;35m▓[0;1;30;45m▐[0;1;30;40m▌[0m
-[1;37;40mhere are some miscellaneous ansis   [0;1;30;40m▀[0;1;30;45m▄[0;1;30;40m▀  [0;1;37;40mi have done phor tokyo undergr0und,[0m
-[1;37;40mcop magazine, etc. maybe you''ll find them useful?? ≈)  dp[0m
+[1;37;40m                                    [0;1;30;40m▀[0;1;30;45m▄[0;1;30;40m▀  [0;1;37;40m                                   [0m
+[1;37;40m                                                         [0m
 [1;37;40m [0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 ▓█▓▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▒[30;47mdp[0m
 [37;40m██▓[0m     [36;40m▄▄▄[0;36;46m   [0;36;40m█[0;36;46m                     [0;1;36;46m▄ ▄▄▄▄[0;36m▄▄▄[0m     [37m▓██[0m

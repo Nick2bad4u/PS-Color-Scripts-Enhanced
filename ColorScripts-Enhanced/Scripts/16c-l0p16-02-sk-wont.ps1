@@ -5,7 +5,7 @@
 # Source SHA-256: 6cfbfed018e75b54e6fca1e00cedbb7127a2e46e5d5ffa97fbfb33a455182415
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!WONT.ANS by simonking (thelo0p); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lure wont die!
 # SAUCE Author: simonking
 # SAUCE Group: thelo0p
@@ -49,7 +49,6 @@ Write-Host '
 [1m███████    [0m   [35m▐▐[0;1;35;47m▄[0;1;35;45m▀[0;1;37;40m [0m          [35m▐▐[0;1;35;47m▄[0;1;35;45m▀[0;1;37;40m [0m      [35m█[0;1;35;45m█[0;1;35;47m█[0m [35m█[0;1;35;45m█[0;1;35;47m░[0m   [35m█[0;1;35;47m█▀[0m         [35m█[0;1;35;47m▀[0;1;35;45m█[0m    [35m▄[0;1;35;45m▄▄[0;35m█[0;37m [0;35m█████[0m
 [1;37m███████[0m    [1m [0;35m░░▐[0;1;35;45m▀▀▀▀▀▀▀▀▀▀▀▀ [0;35m░█[0;1;35;45m▀▀▀[0;35m█[0;1;35;45m▀▀▀▀▀▀▀▀▀[0;35m░█[0;1;35;45m█[0;1;35;47m▄[0m [35m░░[0;37m [0;35m▀[0;1;35;45m▀▄[0;35m▄[0m   [35m░░░░[0;37m [0;35m█[0;1;35;45m█▄[0;35m▄[0;1;35;45m▄█▀[0;35m▀[0;37m [0;35m░░▓▓▓▓▓[0m
                                [1;35mwont die![0m    [35m█[0;1;35;45m▀▀[0m      [35m▀[0;1;35;45m▀▀▀[0m       [35m▀[0;1;35;45m▀█[0;1;35;47m▀[0;35m▀[0m     [35m▒▒▒▒▒[0m
-[1;31m    [0m                 [1;31mans[0;33mi[0;1;31m fo[0;33mr[0;1;31m al[0;33ml[0;1;31m member[0;33ms[0;1;31m o[0;33mf[0;1;31m die[0;33md[0;1;31m lur[0;33me[0;1;31m [0;35m [0m          [35m▀[0m       [35m░░░░░[0m
+[1;31m    [0m                 [1;31m   [0;33m [0;1;31m   [0;33m [0;1;31m   [0;33m [0;1;31m       [0;33m [0;1;31m  [0;33m [0;1;31m    [0;33m [0;1;31m    [0;33m [0;1;31m [0;35m [0m          [35m▀[0m       [35m░░░░░[0m
 
-[1;30m-------------------------------------------------------------------------------[0m
-[1;30m      ansi done by sIMONkING/thelo0p [simonking@poczta.onet.pl][0m  [1;30m(c)2002[0m'
+[1;30m-------------------------------------------------------------------------------[0m'

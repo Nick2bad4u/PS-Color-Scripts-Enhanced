@@ -5,7 +5,7 @@
 # Source SHA-256: ec4ef2978b01e1ff30958aa83ce9de05a97e166b3344a427297a1dcaf6dafcce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TB-SE.ANS by Tribe (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Savage Exile!
 # SAUCE Author: Tribe
 # SAUCE Group: Toon
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mYes, an anime character with an afro!  Only someone as crazy as me could do this[0m
+[1;30m                                                                                [0m
 
-[1;30mTooN!tOOn!TooN!tOOn!TooN!tOOn!TooN!tOOn!TooN!tOOn!TooN!tOOn!TooN!tOOn!TooN!tOOn[0m
+[1;30m                                                                               [0m
 ▄▄ [1;36;46m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m ▄▄
 ▄[1m▄ [0;1;36m█ [0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;36m█ [0;1;37m▄[0m▄
 [1;47m▀[0;1;40m█ [0;1;36;40m█ [0;1;37;40m█[0;1;37;47m▀[0m▀▀▀▀▀▀▀▀▀[1;47m▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀[1;47m▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀[1;47m▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀[1;47m▀▀▀▀▀▀▀▀█[0;1;40m█ [0;1;36;40m█ [0;1;37;40m█[0;1;37;47m▀[0m
@@ -32,7 +32,7 @@ Write-Host '
 [1;47m▀[0;1;40m█ [0;1;36;40m█ [0;1;37;40m█[0;1;37;46m▀■▀█[0;1;37;40m█[0;1;37;46m▀[0;1;37;40m██[0;1;37;47m▄[0m▄▄▄▄▄▄▄▄▄[1;47m▄▄▄▄▄▄▄[0m▄▄▄▄▄▄▄▄▄[1;47m▄▄▄▄▄▄▄[0m▄▄▄▄▄▄▄▄▄[1;47m▄▄▄▄▄▄▄[0m▄▄▄▄▄▄▄▄▄[1;47m▄[0;1;40m█ [0;1;36;40m█ [0;1;37;40m█[0;1;37;47m▀[0m
 [1m▀▀ [0;1;36m█ [0;1;37m▀▀[0;36m▀[0;1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;36m█ [0;1;37m▀▀[0m
 ▀▀ [1;36;46m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m ▀▀
-    [1;30mWant an ansi?  Call up Savage Exile! or Fluxland, both in tha 905 A/C![0m
+    [1;30m                                                                      [0m
 [1;30m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m [0;1;37m████████████████████████████████████████████████████████████████████[0;1;37;47m▀▄    [0m███
  [1m███████████████████████████████████████████████████████████████████[0;1;47m█▀▌▀   [0m███

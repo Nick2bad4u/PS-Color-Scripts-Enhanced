@@ -5,7 +5,7 @@
 # Source SHA-256: 8b1772c8808d7cc9b042cc26b44902a01f0ebc76185a7012bf00149dd1dbd979
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CYBRACD2.ANS by Blade Runner (acdu0992); released in acdu0992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 73-116
 # Columns: 1-80
 
@@ -46,10 +46,10 @@ Write-Host '
                 [1;37mC[0mYBE[1;30mR [0;1;37mC[0mIT[1;30mY[0m                 [1;30m█▀▀▀▀▀▀   ▄   ▀█▀[0m
       [1;37m│[0m       [1;36mS[0;36mys[0;1;36mO[0;36mp[0;1;30m: [0;1;35mBr[0;35miare[0;1;35mos[0m               [1;30m▀▄[0m         [1;30m▀▄▀[0m
       │ [1;36mC[0;36mo[0;1;36mS[0;36mys[0;1;36mO[0;36mps[0;1;30m: [0;1;35mAlac[0;35mrity Fit[0;1;35mzugh[0m            [1;30m▀▄▄▄▄▄▄▀▀▀[0m
-      │            &  [1;33mM[0;1;31mo[0;31mn[0;37md[0;1;33mo[0;1;31mm[0;31ma[0;37mn[0m
-      [37m.[0m     [1;32m<[0;32mAC[0;1;37mi[0;32mD[0;1;32m> [0mMem[1;30mber Bo[0mard
-      [1;30m│[0m       [1;34mRunn[0;34ming For[0;1;34mnaX[0m
-      [1;30m│[0m    [1;36mIB[0;36mM [0;1;30m/ [0;36mAM[0;1;36mIGA [0;1;30m/ [0;1;36mCon[0;36msole[0m
-      [30m.[0m      [33m60[0;1;30m0 [0;1;33mM[0;33meg[0;1;30ms [0;1;33mo[0;33m'' [0;1;33mS[0;33mtuf[0;1;30mf[0m
+      │               [1;33m [0;1;31m [0;31m [0;37m [0;1;33m [0;1;31m [0;31m [0;37m [0m
+      [37m [0m     [1;32m [0;32m  [0;1;37m [0;32m [0;1;32m  [0m   [1;30m      [0m   
+      [1;30m│[0m       [1;34m    [0;34m       [0;1;34m   [0m
+      [1;30m│[0m    [1;36m  [0;36m  [0;1;30m  [0;36m  [0;1;36m    [0;1;30m  [0;1;36m   [0;36m    [0m
+      [30m [0m      [33m  [0;1;30m  [0;1;33m [0;33m  [0;1;30m  [0;1;33m [0;33m  [0;1;33m [0;33m   [0;1;30m [0m
 
-[1;30m  ─  ─[0m─ ──[1m──· · A[0;1;36mN[0;1;34mS[0;34mi [0;1;30mby [0;1;35mBlad[0;35me[0;1;35m·[0;35mRunner [0;1;30mof [0;32m<[0;1;32mAC[0;1;37mi[0;1;32mD[0;32m> [0;1;37mP[0mroduction[1;30ms ([0;1;32mtm[0;1;30m) [0;1;37m· ·──[0m── ─[1;30m─  ─[0m'
+[1;30m  ─  ─[0m─ ──[1m──     [0;1;36m [0;1;34m [0;34m  [0;1;30m   [0;1;35m    [0;35m [0;1;35m [0;35m       [0;1;30m   [0;32m [0;1;32m  [0;1;37m [0;1;32m [0;32m  [0;1;37m [0m         [1;30m   [0;1;32m  [0;1;30m  [0;1;37m   ──[0m── ─[1;30m─  ─[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3f64cccf622c98d694d017eee00cbd1bd99905060be555b79f5f02e429aad1c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-PLD4.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: polanada
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -64,6 +64,6 @@ Write-Host '
      [1;31;41m▀█▓▒░[0;31m█▄[0m        [31m▄▄▄███████▀▀[0m                                       [31m▄███▀[0m
       [31m▀[0;1;31;41m░░░░[0;31m██████████████▀▀▀[0m             [1;30m░[0m [1;30m░░[0mp o l a n a d[31m░[0;1;37;41ma[0;31m▓[0;1;30m░[0;31m!![0;37m   [0;31m■▄▄█▓▀▀[0m
          [31m▀▀▀▓▓▓███▀▀▀▀[0m
-            [31m░░░[0m                               [36msysop[0;1;36m:[0m_[36mwarpus[0m
+            [31m░░░[0m                               [36m     [0;1;36m [0m [36m      [0m
 
                                                                         [1;30m░░[[0meof[1;30m][0m'

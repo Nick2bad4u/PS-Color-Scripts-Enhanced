@@ -5,7 +5,7 @@
 # Source SHA-256: 734c4e49810a01d8a2f01ebaaddfe374c579e0373badbc6ea194acfa2395674b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-PHCK.ANS by Cleaner (Fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Phrack Magazine
 # SAUCE Author: Cleaner
 # SAUCE Group: Fire
@@ -38,5 +38,5 @@ Write-Host '
 [1;30m  ▄[0;35m [0;1;30m ▄▀[0;35m    [0;1;30m█[0;35m [0;1;30m▄[0;35m [0;1;30m▄ ▄▀ [0;35m [0;1;30m▄[0;35m  [0;1;30m█[0;35m [0;1;30m▄▄ ▀ [0;35m   [0;1;30m▀ ▄  ▄▄[0;35m [0;1;30m▄ ▀   ▄▄[0;35m [0;1;30m▄▀[0;35m [0;1;30m▄▄ ▄ ▀ [0;35m [0;1;30m  ▄ ▄ ▄▀[0m  [1;30m▀[0m [1;30m▄[0m [1;30m▄▄[0m
                               [1;30mCl![0m
 
-  Phrack Magazine [1m--[0m Quality since 1985[1m![0m            ANSi by Cleaner[1m,[0m July 2024
+                  [1m  [0m                   [1m [0m                           [1m [0m          
 [30m■[0m'

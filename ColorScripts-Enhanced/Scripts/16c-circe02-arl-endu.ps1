@@ -5,12 +5,12 @@
 # Source SHA-256: 14921364a8afb6da3df50056584e58384495db808cbfdbb71b6a2d5e104a7ce7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-ENDU.ANS by Arlequin (circe02); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-12
 # Columns: 1-80
 
 Write-Host '
-[1m .,▬┌┌⌐⌐ggg[0mgggggggggggggggggggggggggggggg[1mggg**[0m         [1m,▬┌┌⌐[0mggggggggggggggggggg
+[1m   ▬┌┌⌐⌐   [0m                              [1m     [0m         [1m ▬┌┌⌐[0m                   
 [1m!$$[0;1;47m$$[0m$$$***$$[30;47m$$$[0;37;40m$$$$$$$$$$$$$$$$$$$$$$$$[0;1;37;47m$$[0;1;37;40m$$!;[0m    [1;35;45m$$[0;1;35;40m:[0;35m [0;1;37mj$[0;1;37;47m$$[0m$$$$$$$$$$[1;47m$$$[0;1;40m$$$[0m$$$[30;47m$$[0;37;40m [0m
 [1;37;47m$$[0;1;37;40m$F┘`[0;1;35;40m__.,,..__[0;1;37;40m`"ⁿ└*Y$$[0;1;37;47m$$[0m$$$$$[30;47m$$$[0;1;37;40m$F*┘┘ⁿⁿ"``[0;1;31;40m__.l [0;35m  [0;1;35m![0;35m$[0;1;35m│[0;35m [0;1;37m$F*└└└└**$$F*┘ⁿ"`[0;1;31m__[0;1;37m"ⁿ└*T$[0m
 [1mF`[0;1;35m,┌dF*┘ⁿ"``"ⁿ┘[0;1;35;45m$$[0;1;35;40mb┐,[0;35m [0;1;35m_[0;1;37m``"└└[0m└"`[1;31m+ ,,▬┌g%[0;31m@&[0;1;31mF*┘ⁿ"[0;31m``[0m   [1;35m|[0;35m$[0;1;35m$ _.,▬┌┌[0;35m┌[0;1;35m▬,. [0;1;31m*g%@F[0;31m┘"[0;1;31mⁿ└Yb┐,[0m

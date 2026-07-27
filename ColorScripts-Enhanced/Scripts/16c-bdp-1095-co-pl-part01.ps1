@@ -5,7 +5,7 @@
 # Source SHA-256: 77edd75d38d3fbb5052b3a1c0d29ffffb7da42fb23597b0a94d89aa88be4cdda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-PL.ANS by Coeffey (BdP); released in bdp-1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Promised Lands
 # SAUCE Author: Coeffey
 # SAUCE Group: BdP
@@ -17,13 +17,13 @@
 Write-Host '
                    [1;30m [0m               ░                                          [1;30m [0m
                    [1;30m  [0m           ▄▄[1;47m▄[0;30;47m░[0;37;40m▀▀▄▄[0m                                     [1;30;40m  [0m
- [1;30mYeah wanna have an ansi or[0m   ▄[1;30;47m░[0;1;37;47m▄▓▌[0m▌  [1;30m░[0m▐[1;47m░[0m▄  [1;30m [0m  [1;30m [0m [1;30mI would like to say Peace to[0m
- [1;30mlogo ? Just fill in the    [0m [1;30m▐[0;1;30;47m▒░[0;1;37;47m■░[0m█ [1;30m  [0m▄[1;47m▒▓■[0m▌ [1;30m  [0m   [1;30mmy man Bernie , for keeping[0m
- [1;30mrequester(in the BdPpacks)![0m [1;30m▓[0;1;30;47m▓▒░░[0m▓ [1;30m [0m▐[1;47m▒▓▀[0m▀ [1;30m░[0m [1;30m   [0m [1;30mit real ! Rc , X-men got [0m
+ [1;30m                          [0m   ▄[1;30;47m░[0;1;37;47m▄▓▌[0m▌  [1;30m░[0m▐[1;47m░[0m▄  [1;30m [0m  [1;30m [0m [1;30m                            [0m
+ [1;30m                           [0m [1;30m▐[0;1;30;47m▒░[0;1;37;47m■░[0m█ [1;30m  [0m▄[1;47m▒▓■[0m▌ [1;30m  [0m   [1;30m                           [0m
+ [1;30m                           [0m [1;30m▓[0;1;30;47m▓▒░░[0m▓ [1;30m [0m▐[1;47m▒▓▀[0m▀ [1;30m░[0m [1;30m   [0m [1;30m                         [0m
  [1;30mOr call me Voice at [0m        [1;30m▀[0;36m▄▄[0;37m▀▀[0;1;30m▄  ░[0m▀[1;47m▀[0m▌ ▄[1;47m■[0;1;30;47m░[0m▄ ▄ [1;30mlighted up !BdP for there[0m [1;30mdope[0m
- [1;30m03/7760716 ans ask for Gert[0m [36m█[0;1;30;46m░░▒▒▓[0m     ▀ [36m▄[0;37m▀▀[0;1;30;47m░▒[0m  [1;30;40mgroup ! BurpS , Dr.Vibe , [0m
+ [1;30m                           [0m [36m█[0;1;30;46m░░▒▒▓[0m     ▀ [36m▄[0;37m▀▀[0;1;30;47m░▒[0m  [1;30;40m                          [0m
  [1;30;40mIn the week call 19-21[0m [1;30;40mu[0m [1;30;40m.[0m  [36m▐[0;1;36;46m░▄[0;1;30;46m░░▒[0;36m▌   ▀[0;1;36;46m▓▄■[0;36m▌ ▄[0;1;30m▄▌[0m [1;30mCount Drakula , Night Angel[0m [1;30m,[0m
- [1;30mIn the weekends vry :don''t![0m [1;30m [0;36m▀[0;1;36;46m▀▓░[0;1;30;46m░[0;36m█[0;1;30m░   [0;36m▐[0;1;36;46m▀[0;36m▀▐▄[0;1;30;46m▒▓[0m  [1;30;40mand everybody who draws here[0m
+ [1;30m                           [0m [1;30m [0;36m▀[0;1;36;46m▀▓░[0;1;30;46m░[0;36m█[0;1;30m░   [0;36m▐[0;1;36;46m▀[0;36m▀▐▄[0;1;30;46m▒▓[0m  [1;30;40m                            [0m
                  [1;30;40mSat :don''t![0m [1;30;40m    [0;36m▀▀[0;1;36;46m■[0;30;46m░[0;36;40m▄▄▀▀ ▀[0;1;36;46m■[0;1;30;46m░[0;36m▀[0;1;30m  [0m [1;30min Belgium ! Pourqoi pas ?[0m
                  [1;30mSun :14-21u[0m [1;30m       [0;36m░ [0;1;30m          [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
@@ -39,7 +39,7 @@ Write-Host '
 [30;44m              [0;1;34;44m█[0;30;44m         [0;1;34;44m▒[0;30;44m              [0;1;34;44m█[0;30;44m      ▐[0;1;30;40m█[0;30;43m▌[0;1;31;43m░[0;30;43m▀▀[0;1;31;43m░[0;30;43m   ▄▄▀▀[0;1;31;43m░[0;30;43m   ▀[0;1;37;40m▀▄[0;30;43m▄[0;1;31;43m░[0;30;43m     ▀▀[0;1;31;43m░[0;30;43m▐[0;1;30;40m█[0;30;44m▌[0m
 [30;44m              [0;1;34;44m▓[0;30;44m         [0;1;34;44m▒[0;30;44m              [0;1;34;44m▓[0;30;44m      ▐[0;1;30;40m█[0m [30;43m▄▄▄▄▄▄▄▄▄▄▄[0m [30;43m▄▄▄▄▄[0m [30;43m█▄▄▄▄▄▄▄▄▄█[0;1;30;40m█[0;30;44m▌[0m
 [30;44m        [0;1;34;44m░[0;30;44m     [0;1;34;44m▒[0;30;44m         [0;1;34;44m░[0;30;44m              [0;1;34;44m▓[0;30;44m      ▐[0;1;30;40m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;30;44m▌[0m
-[30;44m              [0;1;34;44m░[0;30;44m         [0;1;34;44m░[0;30;44m              [0;1;34;44m▓[0;30;44m      ▐[0;1;30;40m█ There is something strange !!█[0;30;44m▌[0m
+[30;44m              [0;1;34;44m░[0;30;44m         [0;1;34;44m░[0;30;44m              [0;1;34;44m▓[0;30;44m      ▐[0;1;30;40m█                              █[0;30;44m▌[0m
 [30;44m              [0;1;34;44m░[0;30;44m         [0;1;34;44m░[0;30;44m              [0;1;34;44m▒[0;30;44m      ▐[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;44m▌[0m
 [30;44m              [0;1;34;44m░[0;30;44m         [0;1;34;44m░[0;30;44m              [0;1;34;44m▒[0;30;44m       [0;1;34;44m▒▓[0;30;44m                               [0m
 [30;44m          [0;1;34;44m░[0;30;44m   [0;1;34;44m░[0;30;44m                      [0;1;34;44m░[0;30;44m [0;1;34;44m▒[0;30;44m       [0;1;34;44m░░[0;30;44m                               [0m

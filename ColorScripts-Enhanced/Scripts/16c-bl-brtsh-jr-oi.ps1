@@ -5,7 +5,7 @@
 # Source SHA-256: 179839fda5a781a9dd102fee0dca9d6dd8fa8afcc109a82e17564600ec7dbd06
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_OI!.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: oi! matriX
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -39,5 +39,4 @@ Write-Host '
                                           [33m░░░[0m       [33m▀[0m   [33m░[0m
 
 
-[1;30m----------------------------------------------------------------(sfinx)---------[0m
-[1;30m...free logon-matrix with oiFX[0m                                    [1;30mjerusalem~b[0;30;47moi[0;1;30;40ml[0m'
+[1;30m----------------------------------------------------------------(sfinx)---------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 761d0725ed6853fccd9535cc6c56f4f772bcea1f9395438b01ae32511030d8ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KHZ-GE2.ANS by killaHertz (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: galactic enterprises
 # SAUCE Author: killaHertz
 # SAUCE Group: READ THE INI FILE
@@ -54,7 +54,5 @@ Write-Host '
 [1;35m    [0;1;30m▓[0m      [1;35m     [0m        [1;30;47m▓[0m▄▄▄▄▄[1;30;47m▒[0m█▀▀          [1;30;47m░[0m▀█▄▄▄▄▄▄[1;30;47m▓[0m     [1;35m     [0;1;30m▓[0;1;35m     [0m
              [1;35m [0m
                 [35m  A[0;1;30m m e r[0m [1;30mi[0m [1;30mc[0m [35mA[0m     [1;30m  [0m      [35mK[0;37m [0;1;30mi l l a   H e r t [0;35mz[0m
-              [1;30mspastic/warner studios[0m         [1;30mspastic/warner studios[0m
-                  [1;30m      [0;1;35m:[0;35m:![0;1;30m - 2 0 3 - 8 8 7 - 6 5 5 [0;35m4:[0;1;35m:[0m
-
-            [1;30m     [0m  [1;30mAnsi Schishkabob Presented by Killa Hertz[0m'
+              [1;30m                      [0m         [1;30m                      [0m
+                  [1;30m      [0;1;35m:[0;35m:![0;1;30m - 2 0 3 - 8 8 7 - 6 5 5 [0;35m4:[0;1;35m:[0m'

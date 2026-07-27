@@ -5,7 +5,7 @@
 # Source SHA-256: f0c7dffbd599a88645a2222cfa911635a89dc9e1535965375915bddc09cf1895
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mt-business shirt.ans by Misfit (blocktronics_1010); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20140403
 # SAUCE Dimensions: 81x47
 # SAUCE Font: IBM VGA
@@ -53,10 +53,10 @@ Write-Host '
 [1;40m██████[0;1;45m▌[0;35m█ [0;37m [0;35m░▓█[0;1;37;45m ▀█[0;1;37;40m██████████████████████▐█████████████████▌ [0;35m ░█[0;1;37m███▌ [0m█[1;47m██████████████[0m
 [1;40m██████[0;35m█▓  [0;37m [0;35m░▓██[0;1;37;45m▀[0;1;37;40m█[0;1;37;45m█[0;1;37;40m██████████████████▄[0;1;37;45m▓[0;1;37;40m▐█████████████████▓  [0;35m ░[0;1;37;45m █[0;1;37;40m██ [0m▐█[1;47m█▀▀████▄▄▀▀██[0m
 [1;40m   [0m [1m    [0m                                         [30m░░░[0m        [30m▒░[0m
-[37m [0;1;30m"business shirt" by Misfit <ACiD / b7> - done as part of a book project that[0m
-[1;30m will accompany the new album by [0;1;35mThe Sexy Accident[0;1;30m - a band fronted by none[0m
-[1;30m other than fellow ANSI artist Jesse "Halaster" Kates! The book is full of[0m
-[1;30m original art, including ANSI pieces by myself, Ungenannt and mattmatthew! Check[0m
-[1;30m it out at [0mhttp://music.sexyaccident.com[1;30m, give it a listen and buy a copy or 3.[0m
+[37m [0;1;30m                                                                            [0m
+[1;30m                                 [0;1;35m                 [0;1;30m                         [0m
+[1;30m                                                                          [0m
+[1;30m                                                                                [0m
+[1;30m           [0m                             [1;30m                                       [0m
 
                                       [30m .[0m'

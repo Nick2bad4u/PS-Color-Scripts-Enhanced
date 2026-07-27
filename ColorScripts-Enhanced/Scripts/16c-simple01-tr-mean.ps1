@@ -5,7 +5,7 @@
 # Source SHA-256: 22cdd3f6b0a51e1c6847ad879008c5d4c99dd2662e689d6b13c77be80973d899
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-MEAN.ANS by terrato (simple01); released in simple01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: terrato
 # SAUCE Date: 19961216
 # SAUCE Dimensions: 80x43
@@ -54,5 +54,4 @@ Write-Host '
 [31;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$P²²"""```"²4$P"`[0m    [31;40m`"4$$$$$$$$$$$$$$[0m
 [31;40m$$$$P"''[0m     [31;40m`"²4$$$$$$$$P"`[0m       [31;40m`"4$P"`[0m            [31;40m,d$''[0m         [31;40m$$$P"''``[0m
 [31;40m$$$''[0m             [31;40m`"²4$$$[0m             [31;40mi[0m          [31;40m__.,+²"`[0m          [31;40m`4$,[0m
-[31;40m`4b,__.,s÷+,[0m          [31;40m`"+,._[0m         [31;40m:[0m                              [31;40m`"²+,_[0m
-[37;40m [0m'
+[31;40m`4b,__.,s÷+,[0m          [31;40m`"+,._[0m         [31;40m:[0m                              [31;40m`"²+,_[0m'

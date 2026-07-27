@@ -5,7 +5,7 @@
 # Source SHA-256: 50388308a41235349a75ba85f6c15513ecc94bd0b05364a91f0ff4c1486d704c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-FIRMX.ANS by Abstrakt + Radical (fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fire remix
 # SAUCE Author: abstrakt / radical
 # SAUCE Group: fire
@@ -42,7 +42,7 @@ $[1m$[0;1;32m$[0;1;33m$[0;1;37m$[0m$j└'' [1;30mabs[0;1;37m [0;1;32m└
  ''$P             [32m`  `''[0m         [32mT┘[0m            [32m`²''    [0;1;32m`[0;32m''[0;1;37m  [0;32m`[0;1;32m''[0;1;37m [0;32m`└┘''[0m            [37mY$''[0m
 [37m  `[0m                                                                         [37m''[0m
 
-[37m    [0;1;37mremix[0m [1m↓↓  [0moriginal by radical from fire #32
+[37m    [0;1;37m     [0m [1m↓↓  [0m                                 
           [1m↓↓[0m
 
                                                                    [1m.╓g╖[0m
@@ -62,7 +62,7 @@ $[1m$[0;1;32m$[0;1;33m$[0;1;37m$[0m$j└'' [1;30mabs[0;1;37m [0;1;32m└
           [1ml$$   .╖[0m      [1m.╓gd$$ssss$$$$$²²²²''   l$$'' ╓ss╖sd$$bsss╖,. .,╓s$²''[0m
         [1mbsd$$d$$$$[0m      [1m`²°°""```[0m              [1m;$P d$'' 7$b``''"°ⁿ²T$$$$P²''[0m
         [1m''"[0m                                     [1m:$b `²s''`$$[0m
-                [1mfinally f1r3 .. #30.[0m            [1m`²bg╥gd$P''  _rad[0mFIRE>
+                [1m                    [0m            [1m    ╥           [0m     
                                                   [1m`"²²"''[0m
 
                                                                                [30m.[0m'

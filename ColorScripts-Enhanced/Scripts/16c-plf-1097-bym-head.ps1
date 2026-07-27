@@ -5,7 +5,7 @@
 # Source SHA-256: e89d38283a9079a5d4ef6ef5fae196763fe8c39ef328c21d765e63e21369708a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-HEAD.ANS by (BYM)Stor Gul Man (poffelipoff); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: heathenpride
 # SAUCE Author: (BYM)Stor Gul Man
 # SAUCE Group: poffelipoff
@@ -16,8 +16,8 @@
 
 Write-Host '
 
-[1mheathenpride[0m
-[1;36m([0;36mOperated by Stridh[0;1;36m)[0m                                          [1;30m░░░░[0m
+[1m            [0m
+[1;36m [0;36m                  [0;1;36m [0m                                          [1;30m░░░░[0m
 [1;30m  ▄██[0;1;30;47m▀▀▓▓▓▌▀▀[0m  [34m▄▄▄▄█[0;1;34;44m▄▄[0;34m▀[0;30;47m███[0;1;30;40m▀▀▀[0;30;47m▄[0;1;30;40m▀[0;30;47m▄▄[0;1;30;47m▄[0;30;47m  [0;37;40m▄▄ [0;36;40m▄▄█[0;1;36;46m [0;36m▓▓█▄▄[0;37m [0;1;30m▀[0m██▀▀▀▀▀▀██▀█[1;30m██▀▀[0m  [1;30m▀[0m▀██[1;30;47m▀[0;1;30;40m▄[0m ▄▄[1;30m▄[0m
 [1;30m ▐█[0;1;30;47m▌[0m███[30;47m [0;37;40m█[0;1;30;47m▀[0;30;47m ▄[0;34;40m▄█▀█▄[0;1;34;44m▄▀  [0;30;47m██[0;1;30;40m▄▄[0;33m▄██▄▄▄[0;34m▀█▄▄[0;1;30m▀[0;1;30;47m▄ [0m [36m▀▐[0;1;36;46m▐ [0;36m ▄ ▀[0;1;36;46m▐▄[0;36m▄  ▐[0;1;36;46m [0;36m▓▓█▄▄  [0;1;30m▀▓█[0;36m █▓▒▐[0;37m ▄█[0;1;30;47m░[0m█[1;30m▌[0m██[1;30;47m [0;1;30;40m▌[0m
 [1;30m  ▀[0m███[1;30;47m░░▄[0;30;47m▄[0;34;40m▄█▀█[0;1;34;44m▄ ▀  [0;34m▌[0;30;47m█[0;1;30;40m▄[0;33m███[0;1;31;43m░░▓▓▄▄[0;33m█▄[0;34m▀▓▌[0;1;30m▐[0;30;47m [0;1;30;47m▐[0;36m ▐[0;1;36;46m▐▄ [0;36m▐  ▐[0;1;36;46m█▌[0;36m▌▌▐[0;1;36;46m▐▌[0;36m▄▄▀▀██▄ [0;1;30m▌[0;36m  ▀▀▌[0;37m [0;1;30;47m▌[0m██▓▓▀[1;30;47m▄[0;1;30;40m▀[0m

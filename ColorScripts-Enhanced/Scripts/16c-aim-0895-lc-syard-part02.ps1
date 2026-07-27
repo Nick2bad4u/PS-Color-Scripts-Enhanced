@@ -5,7 +5,7 @@
 # Source SHA-256: e8c42e813487d5ba89cade300d14e1e8a3362f4bca3d78a684ebfa1277e64c77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LC-SYARD.ANS by Luc (<AiM>); released in aim-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Scotland Yard Ansi
 # SAUCE Author: Luc
 # SAUCE Group: <AiM>
@@ -53,12 +53,4 @@ Write-Host '
       [1;30m [0m [1;36;46m▒[0;36m██[0;37m [0;1;30;46m░[0;36m██[0;1;30;46m▒[0m [1;36;46m░[0;36m███[0;1;30;46m░[0m [1;30;46m▓[0m [1;36;46m░[0m [1;30;46m░[0;36m███[0;1;30;46m█[0m [1;36;46m▒[0;36m███[0;1;30;46m▓[0m   [36m████[0;1;30;46m░[0m [1;30;46m▒[0m [1;36;46m░[0m [1;30;46m░[0;36m███[0;1;30;46m█[0m [1;36;46m░[0;36m█[0;1;30;46m░[0;36m [0;1;30;46m░[0;36m█[0;1;30;46m▒[0m [1;36;46m░[0m [1;30;46m░[0;36m███[0;1;30;46m█[0m
       [1;30m [0m [1;36;46m░[0;36m██[0;1;30mS[0;1;30;46m░[0;36m██[0;1;30;46m▓[0m [36m█[0;1;30;46m [0;36m██[0;1;30;46m░[0;1;30;40mC[0;1;30;46m▓[0m [1;36;46m [0;1;30;40mO[0;1;30;46m░[0;36m██[0;1;30;46m █[0m [1;36;46m▒[0;36m███[0;1;30;46m█[0;1;30;40mT[0m  [36m█████[0;1;30mL[0;1;30;46m▓[0m [1;36;46m [0;1;30;40mA[0;1;30;46m░[0;36m██[0;1;30;46m █[0m [1;36;46m [0;36m█[0;1;30;46m░[0;1;30;40mN[0;1;30;46m░ ▓[0m [1;36;46m [0;1;30;40mD[0;1;30;46m░[0;36m██[0;1;30;46m █[0m
       [1;30m [0m [36m███[0;37m [0;1;30;46m░[0;36m██[0;1;30;46m█[0m [36m ██[0;1;30;46m ░[0m [1;30;46m█[0m [1;36;46m [0m [1;30;46m░ [0;36m█[0;1;30;46m█[0;36m [0;37m [0;1;36;46m░[0;36m███[0;1;30;46m█[0m    [36m████[0;37m [0;1;30;46m█[0m [1;36;46m [0m [1;30;46m░ [0;36m█[0;1;30;46m█[0;36m [0;37m [0;1;36;46m [0;36m█[0;1;30;46m░[0;36m ██[0;1;30;46m█[0m [1;36;46m [0m [1;30;46m░ [0;36m█[0;1;30;46m█[0;36m [0m
-       [1;30m  [0;36m▀▀▀▀[0;1;30m▀▀[0m    [36m▀▀[0;1;30m▀▀[0m   [36m▀▀[0;1;30m▀▀[0m    [1;30m▀[0;36m▀[0;1;30m▀▀[0m     [36m ▀[0;1;30m▀▀[0m  [36m▀ ▀[0;1;30m▀▀[0m   [36m▀▀▀ [0;1;30m▀▀[0m  [36m▀▀▀[0;1;30m▀▀[0m
-[1m   [0;1;30m    [0m                        [1mScotland Yard [0;1;30m[[0m213[1;30m][0m
-            [1;30m[[0;1;37m [0;33mAiM[0;1;30m ] [ [0;33mFiRM[0;1;30m ] [ [0;33mFSW[0;1;37m [0;1;30m] [ [0;33mWDc[0;1;37m [0;1;30m] [ [0;33mTRiC[0;1;37m [0;1;30m] [[0;1;37m [0;33miLL[0;1;37m [0;1;30m] [[0;1;37m [0;33mSC[0;1;37m [0;1;30m][0m
-       Many Nodes, Many more Affils, Many Megs, Menu elito Users, Very Fast
-         Very Private, Get the # from Sherlock Ohms on those super elite
-            boars that you wish you were on.. AiM HQ of Something.. .
-                                  '' DA SHiT ''
-
-[1m.. Ansi by Luc of AiM .. 2 minute Phont by Stalker & Bng .. Ganja by ButerMan ..[0m'
+       [1;30m  [0;36m▀▀▀▀[0;1;30m▀▀[0m    [36m▀▀[0;1;30m▀▀[0m   [36m▀▀[0;1;30m▀▀[0m    [1;30m▀[0;36m▀[0;1;30m▀▀[0m     [36m ▀[0;1;30m▀▀[0m  [36m▀ ▀[0;1;30m▀▀[0m   [36m▀▀▀ [0;1;30m▀▀[0m  [36m▀▀▀[0;1;30m▀▀[0m'

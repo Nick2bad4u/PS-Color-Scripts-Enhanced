@@ -5,7 +5,7 @@
 # Source SHA-256: c7e4f7c359e69d6be7fdc2db9498a6b9d18da4e3ae1ed84270c20df5c46526c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B!-MAIN.ANS by bleach (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dr?! main
 # SAUCE Author: bleach
 # SAUCE Group: dope
@@ -35,7 +35,6 @@ Write-Host '
              [1;30;40m█[0;1;30;47m▓▄[0m [1;30;40m▀    ▀▀█    ▀▀[0m          [1;30;40m▀  ░▀    ▀▀[0m     [1;30;40m▀██▄ (c)opyright?![0m
             [1;30;40m▀▀[0m        [33mchoice[0;1;33m?![0m;                    [1;30m▀[0m        [1;30m▀▀▓▀▀ ▀▀▀  ▀[0m
 
-         time left[1;30m; [0;1;37m%TL[0m            time now[1;30m; [0;1;37m%TI[0m
+                  [1;30m  [0;1;37m   [0m                    [1;30m  [0;1;37m   [0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mmain menu for mu bbs, i''d advice you not take this one.. =)[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 80db8d5238a4389c2ec77845c1f901d520248f3be63eff6bec04c3ca88fa5a85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-TRN.ICE by Tempus Thales (ice-0693); released in ice-0693 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-99
 # Columns: 1-80
 
@@ -55,7 +55,4 @@ Write-Host '
                ▄[1;47m▄[0;1;40m███▄[0m▐[1;47m▐[0;1;40m███    [0m▀[1m▀[0;1;47m▀[0;1;40m███▀▀   [0m▀[1;47m▀[0;1;40m████▄▄▄[0;1;47m▄[0;1;40m▀▀    [0m▄[1;47m▄[0;1;40m███▄[0m
                       █[1m███[0m
                        █[1m██▌[0m
-                        ▀[1m▀[0;1;47m▀[0;1;40m▄[0m
-
-[1;40mSysOp[0m:  [1mWiz Bandit [0m& [1mSyntax Error [0;1;30m-[0m/[1;30m- [0;1;37mRunning[0m:  [1mSuper tweaked out PCBoard v15[0m.[1mo[0m
-[1mAffiliations[0m: [1mSWaT [0m& [1mCyberCrime [0;1;30m-[0m/[1;30m- [0;1;37m813[0m.[1m433[0m.[1m2283[0m/[1m2234[0m/[1mPRiV [0;1;30m-[0m/[1;30m- [0;1;37mANS[0mi[1;30m·[0;1;33mTEMPUS[0;1;30m([0;1;37mi[0mCE[1;30m)[0m'
+                        ▀[1m▀[0;1;47m▀[0;1;40m▄[0m'

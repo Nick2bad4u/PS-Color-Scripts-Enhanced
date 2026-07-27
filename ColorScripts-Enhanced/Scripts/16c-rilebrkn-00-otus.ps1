@@ -5,7 +5,7 @@
 # Source SHA-256: 63d8c8fee8bad775f7b2443b5df91821f672fbf46de468d024e912da4ded7c65
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 00-OTUS.ANS by wave (rile); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: a stats screen for me.
 # SAUCE Author: wave
 # SAUCE Group: rile
@@ -38,7 +38,4 @@ Write-Host '
                                 [33m▀██[0;1;33;43m▀▀▀█▓▓█▀▀▀[0;33m██▀[0m   [33m   [0m         [34m▀░[0;30;44m▓[0m
                                    [33;40m▀▀▀███[0;30;43m░░[0;33;40m▓▀[0m     [33;40m    [0;37;40m [0m
 
-     [33;40m░[0;30;43m▓[0;37;40m [0;33;40mhaha. this ''23-liner'', or atleast almost 23-liner pic thing is for me&  [0m
-[33;40m        myself only. eh. and this is my first ''pic'' ever actually. especially[0m
-        [33;40mfirst ansi that im releasing:> ehhe. phear this. phear me too. [0m
-        [33;40mi guess this is 99% original. hoho. [0m'
+     [33;40m░[0;30;43m▓[0;37;40m [0;33;40m                                                                        [0m'

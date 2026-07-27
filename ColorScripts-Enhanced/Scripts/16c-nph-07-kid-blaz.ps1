@@ -5,7 +5,7 @@
 # Source SHA-256: 80e9da6fddeb7725f93763b3d2ff3a9def962e51fe0720f3e8c38201cb0614dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KID-BLAZ.ANS by Alex Kidd (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Blazam!
 # SAUCE Author: Alex Kidd
 # SAUCE Group: Nitrophusion
@@ -26,7 +26,7 @@ Write-Host '
 [1;31m,[0;31ms,$$ [0;37m$[0;1;37m$: [0m²[1m'' [0;31m$ [0;37m²[0;1;37m: $$ [0;1;31m$≈.[0m                       [1;30ms  [0;31m,$[0;1;31m$[0;31m$$$[0;1;31m$[0;31m$$[0m            [31m$$[0m
 [1;31m$[0;31m$$$$ [0;37m$[0;1;37m$$[0m%$[1m$ [0;31m$ [0;37m$[0;1;37m$$$$ [0;1;31m$$$[0m                       [1;30m$[0m
 [31m$$$$$,[0;37m`²S[0;1;37mS²''[0;31m,$[0;1;31m,[0m`²[1mS²''[0;1;31m,[0;31m$[0;1;31m$$[0m                      [1;30m,$[0m                  ,
-[31m`²"`$$''[0;1;37m,[0;1;36mss [0;31m$S[0;1;31m$S$SsS$$[0;31m`²[0;1;31m''[0m                     [1;30ms$$sssssssssssssssss[0ms$s[1ms   [0;1;33m,s,,s,²,[0m
+[31m       [0;1;37m [0;1;36m   [0;31m  [0;1;31m        [0;31m  [0;1;31m [0m                     [1;30m                    [0m   [1m    [0;1;33m        [0m
 [1;33m    [0;31m$$ [0;1;36m²''[0;31m,S$%$S[0;1;31m$$$$$$[0m                        $[1;30m$$$$$$$$$$$$$$$$$$[0m$[1;30m$[0m$$$[1m!$$ [0;31m* [0;1;33m$:[0;31m-[0;1;33m:''[0m
 [1;33m    [0;31m`$$[0;1;31m$''[0;1;37mssssssss[0;31m`[0;1;31m$$''[0m                        $[1;30m$ $ $ $ $$$$$$$$$$$[0m''[1;30m$[0m$[1m$:  [0;1;33m:s"Ss²''[0m
      [31m$$[0;1;31m$  [0;31m,%s,s,  $[0;1;31m$[0m                         $[1;30m$ $ $ $ $$$$$$$$$[0m$'' $[1;30m$[0m$[1m!$$ [0;31m-+[0;1;33m:$%s''[0m

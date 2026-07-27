@@ -5,7 +5,7 @@
 # Source SHA-256: 8cc70e09f2912da8e216620f5b3dff2eb3b26a466dfafc7d18fca37f29621118
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-TCL7.ANS by anomite (dominio); released in dom006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ticalganjareeferstjallhasjwhatever
 # SAUCE Author: anomite
 # SAUCE Group: dominio
@@ -43,10 +43,4 @@ Write-Host '
 [32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░░[0;30;42m▓[0;32;40m░░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓▓▓[0;32;40m░░[0;30;42m▓[0m   [33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░░[0;30;43m▓[0;37;40m  [0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓▓▓[0;32;40m░░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓▓[0;32;40m░[0;30;42m▓▓[0;32;40m░[0;30;42m▓[0;32;40m [0m
 
 
-[37;40m--------------------[0m
-
-[37;40mhmm, I didnt want to make a logo to this pic.[0m
-[37;40mIt''s for [0;1;37;40mcherox[0m''s bbs, tical. Hope he''ll use it.
-
-
-anomite ( [1mdominio[0m )[0m'
+[37;40m--------------------[0m'

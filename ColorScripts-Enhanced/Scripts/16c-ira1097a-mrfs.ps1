@@ -5,7 +5,7 @@
 # Source SHA-256: ab3463d630e4b2c088f383c9f3dfcb9e9bdbb18ee9c7ca14f6d3a3b66953695b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MRFS.ANS by Mr Wrong + Flying Squirrel (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: irato promotional
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Irato
@@ -42,12 +42,12 @@ Write-Host '
 [37m [0;34m▒▒[0m       [34m▓[0m   [34m░[0m   [34m▓[0;37m  [0;34m▒       [0;37m [0;34m▒░[0m     [34m▒[0m      [34m░[0m    [34m▓▒[0m    [34m░[0;37m [0;34m▒[0;37m [0;34m░[0m   [34m▒[0m   [34m░[0;37m  [0;34m▓[0m    [34m▒▓░[0m
 [1;30m-[0;34m░[0;1;30m-[0m+[1;30m-----[0m+[34m▒[0;1;30m----[0m+[1;30m--[0;34m▒[0;1;30m--[0;34m░[0;1;30m-----[0m+[1;30m--[0;34m░[0;1;30m--[0m+[1;30m---[0;34m░[0;1;30m-[0m+[1;30m-----[0m+[1;30m---[0;34m▒░[0;37m+[0;1;30m-----[0;34m░[0;1;30m-----[0;34m░[0;1;30m-----[0m+[34m▒[0;1;30m----[0;34m░▒[0;1;30m--[0m
           [34m░[0m       [34m░[0m                              [34m░[0m                    [34m░[0m     [34m░[0m
-[37mi know this the worse background you have ever seen[0;1;30m,[0m but it[1;30m''[0ms a beginning [36m=)[0m
-[37mwrong don[0;1;30m''[0mt like it but i decided to release it anyway[1;30m..[0m
+[37m                                                   [0;1;30m [0m       [1;30m [0m              [36m  [0m
+[37m         [0;1;30m [0m                                            [1;30m  [0m
 
-[1;30m*[0m font drawn by [1mMr[0m_[1mWrong[0m.
-[1;30m*[0m background drawn by [1mFlying Squirrel[0m.
+[1;30m [0m               [1m  [0m [1m     [0m 
+[1;30m [0m                     [1m               [0m 
 
-[1;30m  [0mirat[1;30m-[0m0 promotional joint 1997[1;30m.[0m
+[1;30m  [0m    [1;30m [0m                        [1;30m [0m
 
 [1;30m---[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m-----[0m+[1;30m---[0m'

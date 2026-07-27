@@ -5,7 +5,7 @@
 # Source SHA-256: a72c69723bd6324609f1b8f3b019860575da554ea02e343d04106b0ea9b8dadd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-KNO1.ANS by avenging angel (sense); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: knocturnal
 # SAUCE Author: avenging angel
 # SAUCE Group: sense
@@ -36,8 +36,4 @@ Write-Host '
 [34m▒██[0;1;36;46m▄█[0;34;46m▄[0;34;40m░░░ [0;36;40m▄▄▄[0;36;44m▄▄[0;34;40m▓▓▓[0;36;44m▀▀[0;1;36;46m  ▄███[0;1;36;44m▄[0;36m▄▄[0;34m▄[0;37m   [0m    [1;36m     [0m   [34;46m▄[0;1;36;46m█████[0;1;36;40m▒▒[0;34;46m▀[0;36;40m▄▄▄[0;34;40m▄[0;37;40m  [0;1;36;40m  [0m     [34;46m▄[0;1;36;46m█▄[0;34m▓▓█[0;36;44m [0;1;36;46m▄█[0;34;46m▒[0;34;40m█▓[0m
 [34;40m▓█[0;34;46m▀[0;1;36;46m█▀[0;34m▒▒▒▄█[0;1;36;46m▒▒█████▄[0;36;44m▄▄ ▀[0;1;36;46m▀███████▄[0;36;44m▄[0;34;40m▄[0m    [34;40m▓▄▄▄▄▄▄[0;37;40m  [0;34;46m▄[0;1;36;46m▀▀▀[0;34;46m▄▄▄▄[0;1;36;46m ▀███[0;1;36;40m▒▒▒[0;34;46m▀[0;36;40m▄▄[0;34;40m▄[0;37;40m  [0;34;46m▄[0;1;36;46m▀▄[0;34;46m▀[0;34;40m█[0;34;46m▀[0;1;36;46m█▀[0;36;44m▄[0;34;40m██[0m
 [34;40m██[0;1;36;46m▒▀[0;34m▓▓▓███[0;36;44m  ▄▄▀[0;1;36;44m▀▀[0;1;36;46m▀[0;34;46m [0;1;36;46m▒█▄[0;36;44m▄[0;1;36;40m▒▒▒[0;1;36;46m▀███▀█▄[0;34m▒[0m    [34m█[0;34;46m▒▒[0;36;44m████▄[0;34;40m▄[0;34;46m▀[0;1;36;46m  [0;34;46m ▒[0;1;34;44m ▒▒[0;1;34;47m▓▓▀[0;1;34;44m▄ [0;34;46m▄▄▄▄▄  ▀[0;34;40m▄[0;36;44m [0;34;46m▄[0;1;36;46m ▀[0;34;46m ▄[0;36;44m ▀▀[0;34;40m█ [0m
-[34;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;37;40m  [0;34;40m  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ [0m
-
-
-[1;30;40mgreets to propane, enzo, aesthetic, portia, and thats about it[0m
-[1;30;40mall complaints and requests to radman@acid.org[0m'
+[34;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;37;40m  [0;34;40m  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ [0m'

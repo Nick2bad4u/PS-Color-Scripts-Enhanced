@@ -5,7 +5,7 @@
 # Source SHA-256: 0b1e64b85101eae50362d484e23dfdc6696def7ae345f7fde8eea5de76d32a60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KO-DARK.ANS by kingpin_o (guest) (brhood02); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dark eternity
 # SAUCE Author: kingpin_o (guest)
 # SAUCE Date: 19981229
@@ -59,5 +59,4 @@ Write-Host '
 [1;30m▓[0m [1;30m░[0m   [1;30m░▓░[0m      [1;30m▒[0m     [1;30m░[0m   [1;30m ▒[0m    [1;30m░[0m  [1;30m░[0m  [1;30m▒░[0m [1;30m░[0m   [1;30m░▓░[0m     [1;30m▒[0m    [1;30m░[0m [1;30m░▓░[0m    [1;30m░▒[0m      [1;30m░▓░░[0m
 [1;30m▒[0m [1;30m░[0m   [1;30m ▓[0m       [1;30m░[0m     [1;30m░[0m    [1;30m░[0m       [1;30m░[0m  [1;30m░[0m  [1;30m░[0m    [1;30m▓░[0m     [1;30m░[0m    [1;30m░[0m  [1;30m░ [0m     [1;30m░[0m       [1;30m▒░[0m
 [1;30m░[0m [1;30m░[0m    [1;30m▒[0m       [1;30m░[0m     [1;30m░[0m    [1;30m░[0m          [1;30m░[0m       [1;30m▒[0m      [1;30m░[0m              [1;30m░[0m       [1;30m░[0m
-[1;30m░[0m      [1;30m░[0m       [1;30m░[0m                             [1;30m░[0m                             [1;30m░[0m
-[1;30m           [0m'
+[1;30m░[0m      [1;30m░[0m       [1;30m░[0m                             [1;30m░[0m                             [1;30m░[0m'

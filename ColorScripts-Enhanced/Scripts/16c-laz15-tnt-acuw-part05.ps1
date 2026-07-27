@@ -5,7 +5,7 @@
 # Source SHA-256: 69a759cdac646b1314323ab16d8e4754051dc89d158385eedd85bd27c7ba0aaf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt-acuw.ans by tainted (blocktronics); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: acid underworld bbs
 # SAUCE Author: tainted
 # SAUCE Group: blocktronics
@@ -45,15 +45,15 @@ Write-Host '
   [1;30m░░░[0m
                      [1;32mA[0;32m C i D   [0;1;36mU  N  D  E  R  W  O  R  L  D[0m
 
-              [1;30m- font inspired by [0mkeetars[1;30m most amazing RIP piece! -[0m
+              [1;30m                   [0m       [1;30m                          [0m
 
 
-    [1;30m" If [0mBlack Flag [1;30mis a strip club,[0;1;37m ACiD[0;1;30m [0mUnderworld[1;30m is the champagne room "[0m
-                                                     [1;30m- [0mMisfit [1;30m<ACiD/67>[0m
+    [1;30m     [0m           [1;30m                [0;1;37m     [0;1;30m [0m          [1;30m                        [0m
+                                                     [1;30m  [0m       [1;30m         [0m
 
 
-                              acidunderworld[1;30m:31337[0m
-                                [1;30mop: [0mhawk hubbard
+                                            [1;30m      [0m
+                                [1;30m    [0m            
 
 
 

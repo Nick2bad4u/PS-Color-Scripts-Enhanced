@@ -5,7 +5,7 @@
 # Source SHA-256: c5d7c371a345a082eb32cc6de84b14b1d58ae2bf8cc93ebb9a4fb644111dc110
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPH_MON.ANS by Sephiroth (Sadist); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Monks
 # SAUCE Author: Sephiroth
 # SAUCE Group: Sadist
@@ -60,6 +60,6 @@ Write-Host '
     [31m▒[0m        [31m░[0m
     [31m░[0m
 
-[1;30m░░[0m [31mA really old original ansi that I (sephiroth) released too early years ago.[0m
-[1;30m  [0m [31mSo i redid the background,font and changed some on the actual monks and[0m
-[1;30m░░[0m [31mnow i can finally release it like it was meant to.[0m'
+[1;30m░░[0m [31m                                                                           [0m
+[1;30m  [0m [31m                                                                       [0m
+[1;30m░░[0m [31m                                                  [0m'

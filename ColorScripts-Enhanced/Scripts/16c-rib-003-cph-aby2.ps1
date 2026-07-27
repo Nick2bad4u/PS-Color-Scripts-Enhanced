@@ -5,12 +5,12 @@
 # Source SHA-256: 65f39aaa90693b4d3ccc138c7ce673663555610053dd13796e8413472b6db452
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-ABY2.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
 Write-Host '
-                  [1;34mand the voice of Immortal said :[0m
+                  [1;34m                                [0m
 
                   [36m▄▄[0m                  [34m░░[0m   [36m     [0m
                   [36m▓[0;1;36;46m▄▄[0;36m█[0m                      [36m  ▄▄▌[0m
@@ -26,5 +26,4 @@ Write-Host '
   [1;34m       [0m     [34m▐▐[0m    [32m▀▀[0m   [1;34m██[0;1;34;47m▓[0;1;34;40m▄▄▐[0;1;34;46m█[0;1;34;47m▒▓[0;1;34;40m▌[0;35m▐[0;35;42m▓▓[0;35;40m▄▄[0;37;40m [0;34;40m  ▌[0;32;40m▐[0;1;32;42m░▄[0;32m█▌[0;36;42m░▒▓▓[0;36;40m▄▄▐[0;35;46m▒▒▒[0;35;40m▌[0;34;40m ▀▀▀[0m
               [34;40m▐▀[0;37;40m [0;34;40m {Ph?![0m   [1;34;40m▀▀▀▀[0;1;34;46m█[0;1;34;47m▓ ░▓[0m [35m▀▀[0;35;42m▓▒░░[0;32;40m▄▄▐[0;1;32;42m▒▓█[0;32m▌[0;36m  ▀▀▀[0;35;46m░▒▒▓▓[0;1;35;45m░[0m
               [34m▐[0;37m [0;34m  -----   [0m    [34m▄[0;37m  [0;1;34m▀▀▌[0m    [32m▀▀▀▀[0;1;32;42m░▀▀[0;1;37;40m█[0;1;32;42m▌[0;36m  [0m       [35m▀▀▌[0m      [34m░▒[0m
-              [34m▐▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌[0m                [32m▀▀▌[0;36m [0m
-                                                [1;34mbye[0m [1;34m, mortal ! =)[0m'
+              [34m▐▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌[0m                [32m▀▀▌[0;36m [0m'

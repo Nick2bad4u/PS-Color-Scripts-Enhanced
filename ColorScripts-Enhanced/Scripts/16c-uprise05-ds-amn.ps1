@@ -5,7 +5,7 @@
 # Source SHA-256: 2c5f797d4c039d888b1b6e09148622fabc9756ee6cbdd2f4a60b44c4ba97a6b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-AMN.ANS by Dyingsoul (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -30,8 +30,4 @@ Write-Host '
            [30;45m▓▓▓[0m           [36m▄█▄▄▄▄▄ [0;30;45m▓▓[0m [36m█[0;1;36;46m▄[0;36m█▄▄[0;1;36;46m▄[0;36m▄▄▄▄▄▄▄▄█[0;1;36;46m▄[0;36m█▄▄▄▄▄▄▄▄[0;36;46m [0;1;36;46m▄[0;36m▄▄▄▄▄▄▄▄[0;1;36;46m▄▀ [0;36m▀[0m
 [36m    [0mansi by             [36m█[0;36;46m [0;1;36;46m██[0;1;37;40m██[0;1;36;46m▄[0;36m█▄▄▄▄█[0;1;36;46m█▀▀▀▀▀████████████████████████[0;1;36;47m▓▓[0;1;36;46m█▀ [0;36m▀[0m
 [36m   [0mdyingsoul of          [36m▀██[0;1;36;46m▀▀███▀▀▀▀[0;36m█▀   ▀▀▀▀▀▀▀▀█[0;1;36;46m▀[0;36m█▀▀▀▀▀▀▀▀█[0;1;36;46m▀[0;36m▀▀▀▀▀▀▀▀[0m
-[36m [0mtOL^SVG^UPRiSe^ARC         [36m▀▀▀▀▀▀▀[0m                [36m▀[0m
-
-well.....rather fuckedup but wtf....if you aren''t sysop of AMNESIA BBS don''t
-use this one! greets goes out to: sph,nOah,ZeusII,lek and all the other I''ve
-forgotten! =)[0m'
+[36m [0mtOL^SVG^UPRiSe^ARC         [36m▀▀▀▀▀▀▀[0m                [36m▀[0m'

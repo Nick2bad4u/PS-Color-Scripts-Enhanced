@@ -5,7 +5,7 @@
 # Source SHA-256: bb83b59e9989e8a53680118a1b58403f6e28643ae9651d4befbe88fc85f125b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-VORT2.ANS by Boba Fett (READ THE INI FILE); released in plan9-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: vortex ansis
 # SAUCE Author: Boba Fett
 # SAUCE Group: READ THE INI FILE
@@ -39,8 +39,8 @@ Write-Host '
    [1;31m▀▀▀▄▄▄[0m [1;30m▀▀▀▀▓▄▄▄▄[0m     [1;30m▒[0m          [1;31m▀▀[0m         [1;30m▀▄▄▓[0;1;30;47m▓▓[0;1;30;40m█▀▄░░[0m        [1;30m▒[0m       [1;30m▄▄▄▄▄▓▀[0m
          [1;31m▀▀▀█▄▄▄▄[0m [1;30m▀▀▀▀▀▀▓▄▄▄▄▄▄▄[0m   [1;30mbobafett?[0m     [1;30m▀█▀▄[0;1;30;47m▓▓[0;1;30;40m█▄[0m [1;30m▄▄▄▄▄▄▄▓▀▀▀▀▀▀▀▀[0m
 -(ch0p!)------------------------------------------------------------------------
-this matrix took me forever... I hope you like this ln, it took me forever...  I
-really evaluated some stuff about my ansi during this 25 liner and decided I am
-going to draw ansi pics again...  but I will only do them for trade or cash...
-ask me about if interested...  Man, this thing is wierd as shit...
+                                                                                
+                                                                               
+                                                                              
+                                                                  
 -(ch0p!)------------------------------------------------------------------------[0m'

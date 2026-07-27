@@ -5,12 +5,12 @@
 # Source SHA-256: 0046fadf763d2a8bc2a595431d59a0464206745724bb4ec8b6a09258ca8fb635
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: gnk-mim1.ans by Genick (mimic15); released in mimic15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
-  [35mg[0;1;34menick-►[0;35m►[0;34m [0;37m   [0m
+  [35m [0;1;34m      ►[0;35m►[0;34m [0;37m   [0m
 [37m                  [0m
                                                          [35m.[0;1;34m┌*@@@*┐.[0;35m_[0m
 [32m                            .[0m                         [35m;[0;1;34m;ll♫♫♫♫♫♫♫♫♫7┐,..,┌*@[0;35m` [0m
@@ -35,13 +35,4 @@ Write-Host '
 
 
 
- ♫♫♫ ♫♫ ♫
-
-    heya! a huge change.. it was hard to draw in some other style.. i''m not
-    used to it.. it took me alot of time to draw this kickass ascii..
-    but it was worth it! .. c''ya - genick (mimic).
-
-    btw - email me for requests: genick@inter.net.il[0m
-
-
-'
+ ♫♫♫ ♫♫ ♫[0m'

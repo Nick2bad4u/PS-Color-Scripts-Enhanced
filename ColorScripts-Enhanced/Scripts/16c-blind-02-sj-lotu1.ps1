@@ -5,7 +5,7 @@
 # Source SHA-256: c5195eb0e7acb55e61a0f52107a98732f5104384d13c8866b9a869c1c16bb8c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SJ-LOTU1.ANS by tHE sAD jESTER (BliND STUdiosh); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: tHE sAD jESTER
 # SAUCE Group: BliND STUdiosh
 # SAUCE Date: 19960106
@@ -29,7 +29,5 @@ Write-Host '
                  [1;30m█[0;1;30;42m▓[0;32m██[0;1;30;42m▓▄█[0m [1;32;42m ▒[0;1;30;42m█[0m [1;30;42m█▓  ░▓█[0m [1;30;42m▄[0;1;32;42m░[0;1;30;40m█[0m [1;30m▀[0;1;30;42m▒▄[0;1;33;42m░[0;1;30;42m▓▄[0;1;30;40m▀[0m [1;30;42m░[0;1;32;42m░[0;1;30;42m█[0m [1;30m█[0;1;30;42m░[0;1;32;42m   [0;1;30;42m▓█[0;1;30;40mU[0;1;30;42m▄[0;1;32;42m░[0;1;30;42m█[0m
                  [1;30;42m██▒▄███[0;32m [0;1;30;42m▒[0;1;32;42m░[0;1;30;40m█[0m [1;30;42m██▓▄███[0m [1;30;42m▓[0;1;32;42m░[0;1;30;40m█[0m [1;30m  [0m     [1;30m █[0;1;32;42m░[0;1;30;42m█[0m [1;30m██[0;1;30;42m▒▄▓█[0;1;30;40m█[0m [1;30;42m▓[0;1;32;42m░[0;1;30;40m█[0m
                   [1;30m▀▀▀▒▀▀■▓▀[0m   [1;30m▀▀▀▓▀▀■▒▀[0m          [1;30m░▀[0m  [32m [0;1;30m▀▀[0;1;30;42m█[0;1;30;40m▀▀▀■▓▀[0m
-                  [1;30m   [0m       [1;30mJe suis completement foo[0m
-                           [1;30m  B l i n D  D i S T r O[0m
-                  [1;30m4 - nodes 28.8[0m                 [1;30m0  t [0m [1;30mo[0m  [1;30m4[0m [1;30mday[0m
-                               [1;30m  [514] pri-vate[0m'
+                  [1;30m   [0m       [1;30m                        [0m
+                           [1;30m  B l i n D  D i S T r O[0m'

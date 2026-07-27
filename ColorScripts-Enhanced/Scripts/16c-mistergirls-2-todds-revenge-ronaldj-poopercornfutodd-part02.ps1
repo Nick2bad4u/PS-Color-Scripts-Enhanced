@@ -5,7 +5,7 @@
 # Source SHA-256: 941e9366e653b7ece3dc98e5cd37d1988c43c69243660b2fe33a1e7a77f92df7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ronaldj-poopercornfutodd.ans by Ronald J Peppercorn (Mistergirls); released in mistergirls-2-todds-revenge and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Poopercorn
 # SAUCE Author: Ronald J Peppercorn
 # SAUCE Group: Mistergirls
@@ -41,17 +41,4 @@ Write-Host '
 [37m████████████████████▌ [0;33m█[0;33;47m▓▓▓[0;33;40m███▌[0;37;40m [0;1;30;47m█[0m████[1;30;47m   [0m▌ [33m▀▀▀▀▀▀[0;1;31m▓▓▓▓▓▓▄▄▄[0;33m▀▀[0;37m █████████████████████[0m
 [37m█████████████████████ [0;33m▐█[0;33;47m▓▓▓[0;33;40m███[0;37;40m [0;1;30;40m▐[0;1;30;47m░[0m███████[1;30;47m███████[0;1;30;40m▄▄▄▄▄▄[0;1;31;40m▀▀▀[0m▀ ██████████████████████
 █████████████████████  [33m▀▀▀▀▀▀▀[0;37m [0;1;30m▐[0;1;30;47m▓[0m████████[1;30;47m▀██████████████▀[0m███████████████████████
-██████████████████████[1;30m███████████[0m███████████[1;30;47m           [0m█████████████████████████
-
-
-THIS IS A PICSHURE OF TODD. (MOMS NEW BOYFREND) HE''S SUCH EN ASSHOLE, HE ALWAYS
-MAKES FUN OF ME, HE REESENTLY STARTED CALLIN ME RONALD J POOPERCORN BECOZ IT IS
-SIMILAR TO PEPPERCORN WICH IS MY REAL SIRNAME.
-AND EVERTIM HE SAYS IT HE LAUGHS AND CHUGGS ON SOME MORE BEER THEN BURPS.
-FUCK THAT GUY TODD, HE''S GONNA PAY ONE DAY, IM GONNA STEEL THAT GUN AND SHOOT
-HIS DICK OFF SO HE CAN STOP PLOWING MY MOM IN THE SPARE BEDROOM.
-
-F U TODD  I HOPE YOUR DICK FALLS OFF.
-
-ansi by ronald j peppercorn.
-rip and die.[0m'
+██████████████████████[1;30m███████████[0m███████████[1;30;47m           [0m█████████████████████████[0m'

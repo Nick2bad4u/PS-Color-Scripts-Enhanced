@@ -5,7 +5,7 @@
 # Source SHA-256: 95c81377ca3496f57575b3aeecf6f588c2a61497b3fc83d29d79aa32b7b14c68
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 4d-ds69.ans by Access Denied (1465-001); released in 1465-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -33,6 +33,4 @@ Write-Host '
 [1;30;47m ▀[0;1;30;40m▄█▀▓█[0;1;30;43m█▒▒[0;1;31;43m▀▒[0;1;30;43m▀██[0;1;30;40m█▓▓▄▄▄▄▄████[0m [1;30m▀[0;1;30;47m▒[0;1;30;40m█▒█[0;1;30;47m  ▒████[0;1;30;40m▀█[0;1;30;47m▀ [0;1;37;47m▄▄[0;1;30;47m ▒█[0;1;30;40m█▀▓[0;1;30;47m██████[0m  [1;30m▀▀▀▀▀[0;1;31;41m▒▒[0;1;30;47m▒▒▒[0m  [1;30m██████[0;1;30;47m▒[0m
 [1;47m▒▒[0;1;30;47m▒█[0;1;30;40m██[0;1;30;43m██[0;1;30;40m██▄▀▀[0;1;30;43m▄█[0;1;30;40m▓██[0;1;30;47m▒▀▀[0;1;30;40m█▀███[0;1;30;47m▒▀[0m [1;30m█▒[0m [1;30m█[0;1;30;47m ▄████[0;1;30;40m▄[0;1;30;47m▀[0;1;37;47m▄▄[0;1;30;47m ▄▄██[0;1;30;40m▀█[0;1;30;47m▀▒[0;1;30;40m██[0m   [1;30;47m█[0;31m▒▒[0;1;30;47m▒▒▒[0m  [31m▀▀[0;1;30m▀▀▀▀ ▀[0m   [1;30m▒[0;1;30;47m▒ [0m
 [1;47m▀[0;1;30;47m▄█[0;1;30;40m▀█▄[0;1;30;47m▀▀▒[0;1;30;40m█[0;1;30;47m█[0;1;30;40m█▄[0m  [1;30m▀▀██[0;1;30;47m▄ [0;1;37;47m▒▄[0;1;30;47m▀[0;1;30;40m▄▀▀[0m  [1;30m▒[0m  [1;30m█[0;1;30;47m█[0;1;30;40m▀▀▄█[0;1;30;47m▀ ▄▄██[0;1;30;40m▀▀[0m [1;30m▄[0;1;30;47m▀ ▄[0;1;30;40m▀█[0;1;30;47m▀▀▀▀█[0;1;31;41m▒▒[0;1;30;47m   [0m  [1;30m██▀▀▀[0m  [1;30m█[0;1;30;47m▀[0;1;30;40m██[0;1;30;47m▄  [0m
-[1;30m▀[0m [1;30m▄[0;1;30;47m▀   ▄[0;1;30;40m▀█[0;1;30;47m▀ [0;1;30;40m█▒[0m [1;30m▀▄▄[0m [1;30m▀▀[0;1;30;47m▄[0;1;37;47m▀▒[0;1;30;47m ▀[0;1;30;40m▄[0m        [1;30m▒█[0;1;30;47m▄██[0;1;30;40m▀▀[0m   [1;30m▄[0;1;30;47m▀ ▄[0;1;30;40m▀[0m [1;30m▒█[0;1;30;47m▒▒▒▒█[0;1;30;40m▄▄▄▄▄▄▄[0;1;30;47m▓▓[0;1;30;40m▄▄▄▄▄█[0;1;30;47m░ ▀[0;1;30;40m▄▀▀[0m
-[36mdeep space 69 bbs[0;1;34m // [0;36mnwebt.com[0;1;34m + ansi by [0;36maccess denied [0;1;34m([0;36m4d[0;1;34m) of the [0;36m1465 projekt[0m
-            [1;34msysop: [0;36mscotty[0;1;34m + home of [0;36mgatornet[0;1;34m (msg/ibbs) [0;36mleague 69[0m'
+[1;30m▀[0m [1;30m▄[0;1;30;47m▀   ▄[0;1;30;40m▀█[0;1;30;47m▀ [0;1;30;40m█▒[0m [1;30m▀▄▄[0m [1;30m▀▀[0;1;30;47m▄[0;1;37;47m▀▒[0;1;30;47m ▀[0;1;30;40m▄[0m        [1;30m▒█[0;1;30;47m▄██[0;1;30;40m▀▀[0m   [1;30m▄[0;1;30;47m▀ ▄[0;1;30;40m▀[0m [1;30m▒█[0;1;30;47m▒▒▒▒█[0;1;30;40m▄▄▄▄▄▄▄[0;1;30;47m▓▓[0;1;30;40m▄▄▄▄▄█[0;1;30;47m░ ▀[0;1;30;40m▄▀▀[0m'

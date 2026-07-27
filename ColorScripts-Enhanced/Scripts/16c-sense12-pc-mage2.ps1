@@ -5,7 +5,7 @@
 # Source SHA-256: 87d37b5e1e49528c28fbe82bf2d0e9cc5ff65df0d12ece0c291305b044df04a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-MAGE2.ANS by Proctologist (SeNSE); released in sense12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Mages
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNSE
@@ -36,11 +36,11 @@ Write-Host '
 [1;30m∙[0m                -[1;35mA[0m┐ [35mNi![0m                        [37m-[0;1;35mE[0m┐ [35mNi![0m                        [1;30m∙[0m
 [1;30m:[0m                -[1;35mB[0m┤ [35mNi![0m                        [37m-[0;1;35mF[0m┤ [35mNi![0m                        [1;30m:[0m
 [1;30ml[0m                -[1;35mC[0m┤ [35mNi![0m                        [37m-[0;1;35mG[0m┤ [35mNi![0m                        [1;30ml[0m
-[1;30m$[0m                -[1;35mD[0m┘ [35mNi![0m                        [37m-[0;1;35mH[0m┘ [35mMonty Python rules :)[0m      [1;30m$[0m
+[1;30m [0m                 [1;35m [0m┘ [35m   [0m                        [37m [0;1;35m [0m┘ [35m                     [0m      [1;30m [0m
 [1;30m$$$$Sll:[0m [1;30m:[0m          [1;30m:[0m  [1;30m:[0m          [1;30m:[0m    [1;30m:[0m       [1;30m::[0m  [1;30m:[0m           [1;30m:[0m     [1;30m::[0m [1;30m:llS$$$$[0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mHey look, I drew a big purple ass!@  Uhh.. yeah.. whatever.  Another for Mind[0m
-[1;30mDemon, only this one wasn''t requested.[0m
+[1;30m                                                                             [0m
+[1;30m                                      [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

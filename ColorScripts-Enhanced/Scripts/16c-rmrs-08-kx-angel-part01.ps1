@@ -5,7 +5,7 @@
 # Source SHA-256: 65e1672affdd7647b15f3e8a3ed7a32d3e9898496bf36f9612c2f671b7f12e8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KX-ANGEL.ANS by Kxmode (rmrs-08); released in rmrs-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -29,13 +29,13 @@ Write-Host '
 [1;37m          [0;1;35m$$@F[0;1;37m  [0;1;35mE$[0;1;37m   [0;1;35m*$@"[0;1;37m  [0;1;35m&$$d[0;1;37m  [0;1;35m&$4F[0;1;37m  [0;1;35m&$B"[0;1;37m [0;1;35m*$e.[0;1;37m  [0;1;35m@$[0;1;37m  [0;1;35m*$c"[0;1;37m  [0;1;35m$>[0;1;37m [0;1;35m![0;1;37m  [0m
 [1m          [0;1;35m$R[0m
 [1m         [0;1;35m.""[0m
-[1m         [0;35m.[0;1;37m                       [0;1;30m.[0;1;37m [0;1;30m.e[0;1;37m  [0;1;30meeeeeer[0;1;37m [0;1;30mu.[0;1;37m [0;1;30m..[0;1;37m        [0m original artwork[1m   [0m
+[1m         [0;35m [0;1;37m                       [0;1;30m [0;1;37m [0;1;30m  [0;1;37m  [0;1;30m       [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m        [0m                 [1m   [0m
 [1m         [0;1;35m:[0;1;37m                  [0;1;30m.ue@$$[0;1;37m [0;1;30m#$&[0;1;37m [0;1;30m"$$$$$[0;1;37m [0;1;30m:$$[0;1;37m [0;1;30m$R$bo.[0;1;37m       ([0mC[1m)[0m1997 [1m       [0m
 [1m.[0mis[1m [0mproud[1m:[0mto[1m [0mpresent[1m.    [0;1;30mur[0;1;37m [0;1;30m$$$$$$[0;1;37m [0;1;30m$$$&[0;1;37m [0;1;30m?$$$~[0;1;37m [0;1;30m$$<[0;1;37m [0;1;30m"$$$$$"[0;1;37m [0;1;30me.[0;1;37m  [0m   [1m.[0mkXmode[1m.[0m
 [1m         [0ma[1m             [0;1;30mz$$F[0;1;37m [0;1;30m$$$$$*[0;1;37m [0;1;30m$$$$&[0;1;37m [0;1;30m#$F[0;1;37m [0;1;30m@$$$[0;1;37m  [0;1;30m"$$$>[0;1;37m  [0;1;30m$$b.[0;1;37m    .[0mrmrs[1m![0mascii[1m.[0m
 [1m [0;35m··--[0;1;37m.[0m245[35m+[0;37mline[0;1;37m.[0;35m-[0;1;35m-·[0;35m·[0;1;37m  [0;1;30m.$$$$F[0;1;37m [0;1;30m~~~~~ .$$$$$k[0;1;37m [0;1;30m#[0;1;37m [0;1;30md$$$#[0;1;37m [0;1;30m$[0;1;37m [0;1;30mR$&[0;1;37m [0;1;30m$[0;1;37m [0;1;30m$$$$c[0;1;37m                [0m
 [1m         [0;1;35m|[0;1;37m           [0;1;30m$$$$$F[0;1;37m [0;1;30m$$$.[0;1;37m [0;1;30msee$$$$$c[0;1;37m [0;1;30m.$$$$@ Me`$[0;1;37m [0;1;30me$[0;1;37m [0;1;30m$$$$$:[0;1;37m [0m  [1m"[0mthis is my[1m [0m
-[1m    [0m  [1m.[0mascii[1m.       [0;1;30m''$$$$$F[0;1;37m [0;1;30m$$$$[0;1;37m [0;1;30m.[0;1;37m [0m k[1m [0mX[1m [0mm o d[1m [0me[1;30m .[0;1;37m [0;1;30m$$. .$$[0;1;37m [0;1;30m$$$$$F[0;1;37m   [0mfirst ascii[1m [0m
+[1m    [0m  [1m [0m     [1m        [0;1;30m       [0;1;37m [0;1;30m    [0;1;37m [0;1;30m [0;1;37m [0m  [1m [0m [1m [0m     [1m [0m [1;30m  [0;1;37m [0;1;30m       [0;1;37m [0;1;30m      [0;1;37m   [0m           [1m [0m
 [1m         [0;35m|[0;1;37m           [0;1;30m$$$$$F[0;1;37m [0;1;30m$$$$k[0;1;37m [0;1;30m9$$$$$F[0;1;37m [0;1;30mz.''$$$#[0;1;37m [0;1;30m$$$eE$$[0;1;37m [0;1;30m$$$$$~[0;1;37m  [0mis about a [1m  [0m
 [1m       :[0mby[1m:          [0;1;30m''*$$$F[0;1;37m [0;1;30m$$$$$[0;1;37m [0;1;30m''$$$$$[0;1;37m [0;1;30m:$$[0;1;37m [0;1;30m"$$$[0;1;37m [0;1;30m$$$%d$$[0;1;37m [0;1;30m$$$$"[0;1;37m       [0myear.[1m"   [0m
 [1m         [0;1;35m|_________[0;35m____[0;1;30m~R$F[0;1;37m [0;1;30m$$$$$k[0;1;37m [0;1;30m&$$$"[0;1;37m [0;1;30m$$$N[0;1;37m [0;1;30m"$$[0;1;37m [0;1;30m$$$$$$$[0;1;37m [0;1;30m$$#''[0;35m__[0;1;35m___[0;1;37m            [0m

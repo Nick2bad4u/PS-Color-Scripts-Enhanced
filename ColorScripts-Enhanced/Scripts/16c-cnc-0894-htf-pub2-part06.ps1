@@ -5,7 +5,7 @@
 # Source SHA-256: e98505c970b3fdb9bf03eeb6840bc71a3de582114b91351110567a0dfd98f95c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HTF-PUB2.ANS by Hanzo The Fiend (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 248-296
 # Columns: 1-80
 
@@ -42,19 +42,17 @@ Write-Host '
 
 [1;34m  [0;1;30;47m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
 [1;30;40m  [0;1;30;47m█[0m█[1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;47m [0;1;30;47m█[0m
-[1;30;40m  [0;1;30;47m█[0m█[1m█[0m                    [1mT[0;1;36mh[0;1;34mere''s A Pube In My Ta[0;1;36mc[0;1;37mo[0m                        [1;37m█[0;1;37;47m [0;1;30;47m█[0m
+[1;30;40m  [0;1;30;47m█[0m█[1m█[0m                    [1m [0;1;36m [0;1;34m                     [0;1;36m [0;1;37m [0m                        [1;37m█[0;1;37;47m [0;1;30;47m█[0m
 [1;30;40m  [0;1;30;47m█[0m█[1m█[0m                         [35m([0;1;37m7[0;1;35m14[0;35m)[0;1;37m5[0;1;35m37[0;35m-[0;1;37m7[0;1;35m213[0m                               [1;37m█[0;1;37;47m [0;1;30;47m█[0m
 [1;30;40m  [0;1;30;47m█[0m█[1m█[0m                                                                     [1m█[0;1;47m [0;1;30;47m█[0m
-[1;30;40m  [0;1;30;47m█[0m█[1m█[0m        [1mT[0mF[1;30mJC W[0mH[1mQ[0m                         [1mP[0me[1;30mNiSN[0mE[1mT[0m                    [1m█[0;1;47m [0;1;30;47m█[0m
-[1;30;40m  [0;1;30;47m█[0m█[1m█   C[0ma[1;30mNCeR Member Boa[0mr[1md[0m          [1mS[0mY[1;30mSop: Malicious Onslaug[0mh[1mt[0m           [1m█[0;1;47m [0;1;30;47m█[0m
-[1;30;40m  [0;1;30;47m█[0m█[1m█    P[0me[1;30mNiS Courier [0mH[1mQ[0m         [1mC[0mo[1;30mSYSops: EviL DicK [LaW■PeNi[0mS[1m][0m         [1m█[0;1;47m [0;1;30;47m█[0m
-[1;30;40m  [0;1;30;47m█[0m█[1m█   L[0ma[1;30mW Contracting [0mH[1mQ[0m       [1mR[0me[1;30maper Wildwood [CaNCeR■iCE■LaW■PeNi[0mS[1m]   █[0;1;47m [0;1;30;47m█[0m
+[1;30;40m  [0;1;30;47m█[0m█[1m█[0m        [1m [0m [1;30m    [0m [1m [0m                         [1m [0m [1;30m    [0m [1m [0m                    [1m█[0;1;47m [0;1;30;47m█[0m
+[1;30;40m  [0;1;30;47m█[0m█[1m█    [0m [1;30m               [0m [1m [0m          [1m [0m [1;30m                      [0m [1m [0m           [1m█[0;1;47m [0;1;30;47m█[0m
+[1;30;40m  [0;1;30;47m█[0m█[1m█     [0m [1;30m            [0m [1m [0m         [1m [0m [1;30m                      ■    [0m [1m [0m         [1m█[0;1;47m [0;1;30;47m█[0m
+[1;30;40m  [0;1;30;47m█[0m█[1m█    [0m [1;30m              [0m [1m [0m       [1m [0m [1;30m                     ■   ■   ■    [0m [1m    █[0;1;47m [0;1;30;47m█[0m
 [1;30;40m  [0;1;30;47m█[0m█[1m█[0m     [1mC[0ma[1;30mNCeR Music [0mH[1mQ[0m                                                 [1m█[0;1;47m [0;1;30;47m█[0m
 [1;30;40m  [0;1;30;47m█[0m█[1m█[0m                                                                     [1m█[0;1;47m [0;1;30;47m█[0m
 [1;30;40m  [0;1;30;47m█[0m█[1m█  ┌┐[0m          [1m┌─[0m──┬──[1;30m──┬─[0m───┬─[1m───┬───[0m─┬────[1;30m─┬──[0m──┬──[1m─┐[0m           [1m┌┐  █[0;1;47m [0;1;30;47m█[0m
 [1;30;40m  [0;1;30;47m█[0m█[1m█  └┴─[0m──[1;30m────[0m──[1m─┘ S    [0;1;36mU    [0;36mP    [0;1;34mP    O    [0;36mR    [0;1;36mT    [0;1;37mS └─[0m──[1;30m─────[0m──[1m─┴┘  █[0;1;47m [0;1;30;47m█[0m
-[1;30;40m  [0;1;30;47m█[0m█[1m█  A[0mN[1;30mSi[0;1;34m/[0;1;37mR[0mi[1;30mP[0;1;34m/[0;1;37mV[0mg[1;30ma[0;1;34m/[0;1;37mD[0me[1;30mmos[0;1;34m/[0;1;37mI[0mn[1;30mtros[0;1;34m/[0;1;37mM[0mu[1;30msic [0;1;37m0[0m-[1;30m7 [0;1;37md[0ma[1;30mys [0;1;37mw[0ma[1;30mrez  [0;1;37mE[0m-[1;30mmags  [0;1;37mP[0;1;34m/[0mH[1;34m/[0;1;30mA[0;1;34m/[0mV[1;34m/[0;1;37mC  █[0;1;37;47m [0;1;30;47m█[0m
+[1;30;40m  [0;1;30;47m█[0m█[1m█   [0m [1;30m  [0;1;34m [0;1;37m [0m [1;30m [0;1;34m [0;1;37m [0m [1;30m [0;1;34m [0;1;37m [0m [1;30m   [0;1;34m [0;1;37m [0m [1;30m    [0;1;34m [0;1;37m [0m [1;30m    [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m   [0;1;37m [0m [1;30m     [0;1;37m [0m [1;30m      [0;1;37m [0;1;34m [0m [1;34m [0;1;30m [0;1;34m [0m [1;34m [0;1;37m   █[0;1;37;47m [0;1;30;47m█[0m
 [1;30;40m  [0;1;30;47m█ [0;1;37;40m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;37;47m [0;1;30;47m█[0m
-[1;30;40m  [0;1;30;47m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-
-                         [1mC[0mo[1;30mpyrights [0;1;37m1[0m9[1;30m94 [0;1;37mC[0ma[1;30mNCeR [0;1;37mP[0mr[1;30moductions[0m'
+[1;30;40m  [0;1;30;47m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

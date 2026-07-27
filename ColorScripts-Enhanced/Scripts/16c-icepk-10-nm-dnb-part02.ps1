@@ -5,7 +5,7 @@
 # Source SHA-256: 693bc814d43c1ab83822abf2e7ef122c8a6fb3da4ced995a05d1a9670552a991
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NM-DNB.ICE by The Necromancer (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-82
 # Columns: 1-80
 
@@ -42,4 +42,4 @@ Write-Host '
 [1;30m    [0m█▓▒   ▄▄▄██▓▓▒▒░░▄█▓▒[1;30m▄ [0m▄▄▄[1;30;47m▄[0m██[1;30;47m▄[0m▓▒░██[1;30;47m▄[0m▓▒░    [1;30m▀▀ ▀▀ [0m▄█▓▒[1;30m▄ [0m▄▓▒░[1;30m▀▀  [0m▄▄█▓▒[1;30m▀[0m
 [1;30m   [0m▄█▓▒[1;30;47m▄[0m██▓▒░[1;30m▀▀▀ ▀▀▀[0;1;30;47m▄[0m██[1;30;47m▄[0m▓▒░▓▒░█[1;30;47m▀▀▄[0;1;30;40m▀▀ ▀▀ ▀▀[0m          ███[1;30;47m▄[0m▓▒░▓[1;30m▀    [0m██▓▒[1;30m▀[0m
 [1;30m  [0m███[1;30;47m▄[0m▓▒░            [1;30m▀▀ ▀▀▀▀▀  ▀▀[0m                    [1;30m▀▀ ▀▀▀[0m       [1;30m▀▀[0m
-[1;30m   ▀▀ ▀▀[0m                                    [1;37mA[0mNS[1;30mi [0;1;37mB[0my[1;30m: [0;1;37mT[0;1;31mh[0;31me [0;1;37mNec[0;1;31mroma[0;31mncer [0;1;30m[[0;1;37mi[0;1;36mC[0;36mE[0;1;30m] [0;1;37m''[0m9[1;30m2[0m'
+[1;30m   ▀▀ ▀▀[0m                                    [1;37m [0m  [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0;1;31m [0;31m  [0;1;37m   [0;1;31m    [0;31m     [0;1;30m [0;1;37m [0;1;36m [0;36m [0;1;30m  [0;1;37m [0m [1;30m [0m'

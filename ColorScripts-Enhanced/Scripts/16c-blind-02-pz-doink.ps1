@@ -5,7 +5,7 @@
 # Source SHA-256: 967177b76805367a77ce9754309bcfdc7f70ad2563268a948ae96e3e6974dc4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PZ-DOINK.ANS by Puzant (blind-02); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -27,6 +27,4 @@ Write-Host '
      [1m█▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;47m▓[0;1;40m▀▀█▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▓▄▄▄▄▄▄  [0;1;30;40m███▓▓▒[0m     [1m▄▄▄▄▄▄▄▄▄▄▄[0;1;47m▓[0m
      [1m███[0;1;47m▓▓[0;1;40m▀▀▀▀▀▀[0;1;30;40msq2/iCE[0m  ░░     [1m▀▀▀▀[0m░[1m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;47m▓▓[0m [1;30m▓▓▓▒▒░ [0m░░      ░░[1m▀▀▀▀[0;1;47m▓▒[0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30m Umm here ya go, enjoy. Just to let ya know, i made the original font then Sq2[0m
-[1;30m(iCE) fixed it up and added the background to it....[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

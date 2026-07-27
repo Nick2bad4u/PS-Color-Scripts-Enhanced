@@ -5,7 +5,7 @@
 # Source SHA-256: b54d1a95f31d7812ea15ecb121eb304654f804adf46f9bd7aca757940018ca5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FXMAIN.ANS by Flux (prbmb); released in bmb-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: main menu
 # SAUCE Author: Flux
 # SAUCE Group: prbmb
@@ -38,15 +38,6 @@ Write-Host '
 [35m▀[0;1;35;45m▒▓[0;1;35;40m█[0;1;35;45m▀[0;1;35;40m▀▀[0;35m▐[0;1;35;45m▒▓▓[0;1;35;40m███[0;1;35;45m▓▓▄[0;1;35;40m▄[0;35m▄[0;37m [0;1;31m [0;33m▀[0;1;31m▀▀▀[0;1;31;43m▀[0;1;31;40m▀[0;33m▀[0m
 [1;35m [0;35m▀[0;1;35m▀[0m          [35m▀[0;1;35m▀▀[0m    [1;30mflux[0m
 --
-hau.. the 2nd and probably the last ansi for bytehunter .. prices for ansi;
+                                                                           
 
-diz          $0
-pure logo    $0
-logo+pic     $0
-24liners     $0
-100liners    out of order
-
-cheap, or what?  i am tired of money, i have just too much of those pieces of
-paper with pictures.. want some of ''em?   too bad it isn''t true..
-
-flux .. prbmb 1997 :: :  call oobe +4732157810 - 24hrs.. art.modding.coding.pr[0m'
+diz          $0[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 25423bf9be47b1279baa5531883aa9c18a09567d95f1a0842eb5bebddc64081a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-NUMB1.ANS by cheeze munkee (mOoo!$! (nlight)); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: comfterably numb (#1)
 # SAUCE Author: cheeze munkee
 # SAUCE Group: mOoo!$! (nlight)
@@ -17,8 +17,8 @@
 Write-Host '
                           [1m▄▄[0m▄▄[1m▄[0m▄▄▄▄▄[1m▓▀▀[0m▀▀[1m▀[0m▀▀▀▀[1m▀▀[0m▀▀▀▀[1m▀[0m▀▀[1m■▄[0m
                      ▄[1m▓▀[0m▀▀ [36m--- ++ -   --- - -+-  --   --[0;37m▐[0;1;37m▌[0m
-                    [1m▐[0m▌     [34mc[0;32mo[0;36mm[0;31mf[0;35mt[0;33me[0;37mr[0;1;30ma[0;1;34mb[0;1;32ml[0;1;36my [0;1;31mn[0;1;35mu[0;1;33mm[0;1;37mb[0m          [1m▄ [0m■▀
-                     ▀▓      [1;36m([0;36m+[0;1;32mo[0;1;36m)[0;1;32md[0;36meler[0;1;36;41mi[0;36mous [0;1;32md[0;36mingo  [0;37m▄[0;1;37;47m░[0m
+                    [1m▐[0m▌     [34m [0;32m [0;36m [0;31m [0;35m [0;33m [0;37m [0;1;30m [0;1;34m [0;1;32m [0;1;36m  [0;1;31m [0;1;35m [0;1;33m [0;1;37m [0m          [1m▄ [0m■▀
+                     ▀▓      [1;36m [0;36m [0;1;32m [0;1;36m [0;1;32m [0;36m    [0;1;36;41m [0;36m    [0;1;32m [0;36m      [0;37m▄[0;1;37;47m░[0m
                         ▀[1m■▄ [0;1;36m#[0;1;32m7[0;36mi4[0;1;36m-[0;1;32ma[0;36msS[0;1;36m-[0;1;32mr[0;36maPe[0m       [1;37;47m░[0m▄
                           ▐[1m▌ [0;1;32ms[0;36mce[0;1;34mn[0;36mes [0;1;32mm[0;36most    [0;1;37m▄[0;1;37;47m▓░[0m▄
                        ▄■ ▀      [1;32mu[0;36mn[0;1;37;43md[0;36mergr[0;1;33mo[0;36mund [0;1;37m▀[0m▀

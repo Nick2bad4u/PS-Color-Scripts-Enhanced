@@ -5,7 +5,7 @@
 # Source SHA-256: 7b903f0aa2def2e1e60dd02c1c72946237c76521df42b18eed691d3a6feee201
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-MAIN.ANS by Precious Metal (riot0698); released in riot0698 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -22,11 +22,4 @@ Write-Host '
       [1;31;41m▐[0;1;31;40m█[0;1;31;42m▄▄▄▐[0;31m▌▀[0;1;31;47m▀▀ ▌ [0;41m▄[0;31;40m▄[0;1;31;47m░░   ▓[0;1;31;41m▌[0;1;31;42m▒▓▓[0;1;31;44m█[0;1;31;47m  ░▓[0;1;31;40m██[0;1;31;42m▓▓[0;1;31;41m▀[0;1;31;40m▀[0;31m▀▐[0;1;31;41m▓▓▐[0;1;31;42m▓▒[0;32m█[0;1;32m▌[0;1;31;41m▐[0;1;31;40m██[0;1;35;47m▄▓[0;1;31;47m▓▓[0;1;31;40m█▐[0;1;31;42m██████[0;31m▌[0;37m [0;33m▀▀▀[0m
          [31m▀[0;1;31m▀▀[0m   [31m▀▀▌▀▀[0;37m [0;31m▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m█[0;1;31;47m▄▐[0;1;31;41m▌[0m [31m▀[0;1;31;41m▀[0;1;31;40m██[0;1;31;47m▄▄▄[0;1;31;40m██[0;1;31;41m▀[0;31m▀[0m    [31m▀[0;1;31;41m▓▀[0;1;31;40m▀[0;32m▀[0;1;32m▀[0m  [31m▀[0;1;31;41m▀[0;1;31;40m███[0;1;31;41m▀[0;31m▀[0;37m [0;1;31m▀▀▀▀[0;31m▀[0m
               [1;37mMain[0m       [31m▀[0;1;31m▀ [0m [1mMenu[0;1;30m░[0m     [36m▄[0;1;37;47m▄▄ [0m       [1;30m▀▀░[0m        [1;30m▀▀▀▀[0m
-                                       [36m▀▀▀[0m
-
-
-[37m freebee...please leave the inits in them[0m
-[37m  This is a bit wild, but what the hell...ya know?[0m
-
-   [37mBuy Yngwie Malmsteen''s Concerto Suite for Electric Guitar and Orchestra[0m
-      [37min E Flat Minor Op 1 it rocks!![0m'
+                                       [36m▀▀▀[0m'

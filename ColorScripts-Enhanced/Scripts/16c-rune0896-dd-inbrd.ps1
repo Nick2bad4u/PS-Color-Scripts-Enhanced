@@ -5,7 +5,7 @@
 # Source SHA-256: 36b219cfbce4a66b1385f43e2e7960862ecaf1e7dbe2109a3039b9fed6e40d4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-INBRD.ANS by delirious dingo (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: inbred emag
 # SAUCE Author: delirious dingo
 # SAUCE Group: rune
@@ -31,5 +31,4 @@ Write-Host '
             [36m▀█[0;1;36m█  [0;31m█[0;1;31m██████  ████[0;1;31;41m▒[0;31m█  █[0;1;31m██████  █[0;1;31;41m▓▓[0;1;31;40m██  [0;31m█[0;1;31;41m▒[0;1;31;40m██[0;1;31;41m▓▓[0;1;31;40m█  ██[0;1;31;41m▓▓[0;31m██  [0;36m█[0m
               [36m▒ [0;31m▐█[0;1;31;41m▒▒[0;1;31;40m███▌ ▐[0;1;31;41m▓▓[0;1;31;40m██[0;31m█▌ ▐█[0;1;31m█████▌ ▀▀▀▄▄[0;31m▄ ▐█[0;1;31m█████▌ ▐████[0;31m█▌ [0;36m▒▀[0m
                 [31m██▓[0;1;31;41mdd[0;1;31;40m██   [0;31m▀▀▀▀▀▀ ██▓[0;1;31;41m▒[0;1;31;40m███  [0;1;31;41m▓▓[0;1;31;40m██[0;31m██ ██▓[0;1;31;41m▓[0;1;31;40m███  ███[0;1;31;41m▓[0;31m▓█[0m
-              [36m░  [0;31m▀▀▀[0;1;31m▀▀▀▀[0m          [31m▀▀[0;1;31m▀▀▀▀▀▀▀▀▀[0;31m▀▀   ▀▀[0;1;31m▀▀▀▀▀▀▀▀▀[0;31m▀▀   [0;36m░[0m
-                 [1;37mi[0mnbred .. [1me[0mmag ][ [1ms[0mlacking in nigity nine six ..[0m'
+              [36m░  [0;31m▀▀▀[0;1;31m▀▀▀▀[0m          [31m▀▀[0;1;31m▀▀▀▀▀▀▀▀▀[0;31m▀▀   ▀▀[0;1;31m▀▀▀▀▀▀▀▀▀[0;31m▀▀   [0;36m░[0m'

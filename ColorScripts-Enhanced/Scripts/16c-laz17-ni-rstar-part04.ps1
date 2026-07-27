@@ -5,7 +5,7 @@
 # Source SHA-256: 1bf79edd335d777acd69eb8b53b64659a148ecc77500847f9bb7a5b781e6c31d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-RSTAR.ANS by Nitron (Lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Heat of Anger
 # SAUCE Author: Nitron
 # SAUCE Group: Lazarus
@@ -39,4 +39,4 @@ Write-Host '
 [1;30m▒▒▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒▒░░▒▒░░░░░░░░░░░░░░░░[0m [1;30m░░  ░░[0m    [1;30m░░[0m     [1;30m░[0m
 [1;30m▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒░░░░░░░░░░░░░░░░░░░░[0m [1;30m░░ ░░[0m  [1;30m░    ░░[0m    [1;30m░░░[0m
 [1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒▒░░░░░░░░░░░░░░░░░░░░░[0m  [1;30m░░[0m [1;30m░[0m   [1;30m░[0m          [1;30m░░[0m
-[31mTHE RED STAR VOL 1[0;1;30m ░░ [0;31mTHE BATTLE OF KAR DATHRA''S GATE [0;1;30m░░ [0;31mNITRON [0;1;30m░░[0;31m 13.0.10.8.16[0m'
+[31m                  [0;1;30m ░░ [0;31m                                [0;1;30m░░ [0;31m       [0;1;30m░░[0;31m             [0m'

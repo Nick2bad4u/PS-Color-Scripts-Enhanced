@@ -5,7 +5,7 @@
 # Source SHA-256: 2c6f657f16bce5d8c2eaa0442ac3ed7d1b94cd8539a58bb7ea1837b4e7b4c54d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SUI.ICE by Boa + Cold And Ugly (iCE '96); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Suicide Emag
 # SAUCE Author: BoA/Cold n Ugly
 # SAUCE Group: iCE '96
@@ -42,6 +42,4 @@ Write-Host '
 
 [33m░░░░[0m                                                                       [33m░░░░[0;37m [0m
 
-[1;30m[eof]------- ------ ---- -- -[0m
-
-[1;37m- B[0mo[1;30mAsaurus [0;1;37m-[0m               [1;37mi[0mC[1;30mE [0;1;37mA[0md[1;30mvertisements [0;1;37m19[0m9[1;30m6[0m              [1;37m- C[0mo[1;30mld n [0;1;37mU[0mg[1;30mly [0;1;37m-[0m'
+[1;30m[eof]------- ------ ---- -- -[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b1cd4aab699f0f31af525ffd6fa0064b391fce284afd57431ecc489ff04af56c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM!FJBUL.ANS by sims (303 productions); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fresh jive bulletins
 # SAUCE Author: sims
 # SAUCE Group: 303 productions
@@ -39,5 +39,4 @@ Write-Host '
 ▐[1;30m▄ ▓[0m  [1;30m▀[0m▌   [1m▄[0;1;47m█▓[0m▀[1;30m▄██▀▄▄▐▄▄[0;1;30;43m▓█[0;1;30;40m███▄▄▓█▀  ░▓[0m     [1;30m████[0;1;30;47m▓░  ░░         ▀▐  ▐░░▀█[0;1;30;40m█▄▌[0m  [30;43m▓[0m
 [37;40m █[0;1;30;40m▌[0m   [1;30m▄[0m▐▄[1m [0;1;41m▀[0;1;47m█[0m▌▀[1;30m  ▀▌▀█▀▀▀█▌█▀▓▀▐▀▀▓░ ░[0;1;35m [0m  [1;30m▄▄▓█▀▌█▓██[0;1;30;47m▓▓▄▄▓▀▐  ▐▀▓  ▀▀██▄▄██████[0;1;30;40m▄[0m
  [1;30m▐[0;1;30;47m▓▀[0;1;30;40m▄▐[0;1;30;47m░[0m▀   [1;33m▀[0m         [1;30m ▓▀[0m        [1;30m░[0m    [1;30m▄▄▓▄▄[0m [1;30m▐▀█▄▄[0m [1;30m███[0m [1;30m▄██▀█[0;1;30;47m▐[0;1;30;40m█[0;1;30;47m█[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m▀▀▀[0m
-  [1;30m▀[0m▐▀[1;30m▀▀[0m                             [1;30m▀▀[0m  [1;30m▀▀▀▀[0m  [1;30m▓▀▀▀[0m [1;30m▀▀▀▀[0m [1;30m▀▀▀▀[0m
-            [1;30m                      [0m'
+  [1;30m▀[0m▐▀[1;30m▀▀[0m                             [1;30m▀▀[0m  [1;30m▀▀▀▀[0m  [1;30m▓▀▀▀[0m [1;30m▀▀▀▀[0m [1;30m▀▀▀▀[0m'

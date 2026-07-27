@@ -5,7 +5,7 @@
 # Source SHA-256: 96e75cdce06abe5081a937221171be66a68c7c2be50cdf3f9b2db869b464ad1a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GC-ARA1.ANS by Galanacer (glue-17); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -33,20 +33,4 @@ Write-Host '
 [1;30m▀[0;1;37m  [0;1;36m▄▄▀[0;36m▀[0;1;37m [0;36m▄▄█▀[0;1;37m [0;1;36m▄[0;36m▀[0;1;37m  [0;1;36m▐▓[0;36m▓▄[0;1;37m   ([0;1;36me[0;1;37m) [0;1;36mco[0;36mmmand[0;1;37m  ([0;1;36mk[0;1;37m) [0;1;36mco[0;36mmmand[0;1;37m  ([0;1;36mq[0;1;37m) [0;1;36mco[0;36mmmand[0;1;37m [0;1;30m▄[0;36m▓[0;1;36;46m░▓█▌[0;36m█▓██▄[0;37m [0;36m░░░░░[0m
 [1;36m▄▀▀[0;1;37m [0;1;30m▄▄[0;1;30;46m█▄░[0;36m▀[0;1;37m [0;1;36m▄▀[0;1;37m    [0;1;36m▓░[0;36m▌[0;1;37m    ([0;1;36mf[0;1;37m) [0;1;36mco[0;36mmmand[0;1;37m  ([0;1;36ml[0;1;37m) [0;1;36mco[0;36mmmand[0;1;37m  ([0;1;36mr[0;1;37m) [0;1;36mco[0;36mmmand[0;1;37m [0;1;30;46m▓░░░[0;36m█[0;1;30;46m▄▌░░▄[0;1;30;40m▌[0m [1;30m [0m
 [1;30m▄▄[0;1;30;46m▓███▓[0;1;30;40m▀[0;1;37;40m [0;1;36;40m▄▀[0;1;37;40m     [0;1;36;40m░░░[0;1;37;40m  ([0;1;36;40m?[0;1;37;40m) [0;1;5;37;40m_[0m                                   [1;30m▄█[0;1;30;46m▓▓▓[0;1;30;40m███▓▓▀▀▀[0m [1;30m■[0m
-[1;30m-(cut line)---------------------------------------------------------------------[0m
-
-                                  !!!ATTENTION!!!
-
-First of all, I am Boba Fett, aka b0b4fett, back with a new nick, galanacer,
-just got tired of the old Star Wars related nick and wanted to be a little more
-anonymous with myself...  you can still reach me at [1mboba.fett@x-net.net [0mthough,
-I plan to fix that soon...
-
-I''m not quite sure whether I''m done with this or not...  I can never tell.  Its
-been awhile, about 3-4 months since I got my ansi on, so go easy these are the
-first blocks to come from my ansi pen since GLUE-11...  I like a few things
-about this, so now my style will surely change after all this off-time.  I''m
-getting better, that''s for damn sure.
-
-hello to Kitiara, Starlord, Eko, Sunna, TaintedX, Catch22, TheRuiner, & the rest
-of TEAM GLUE.[0m'
+[1;30m-(cut line)---------------------------------------------------------------------[0m'

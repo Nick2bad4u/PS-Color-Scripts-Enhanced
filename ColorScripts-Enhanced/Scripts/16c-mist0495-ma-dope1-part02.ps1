@@ -5,7 +5,7 @@
 # Source SHA-256: 224fe90c8d39d8fb9c2bff9aa8bdd2c72794c19f5a91d60203422143c4cba4a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-DOPE1.ANS by Mavrik (Mistigris); released in mist0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dope Essay Ad
 # SAUCE Author: Mavrik
 # SAUCE Group: Mistigris
@@ -41,20 +41,18 @@ Write-Host '
 [37m▄▄▄▄▄▄▀[0;1;37;47m▀[0;1;37;40m██▄[0;1;37;47m▄[0;1;37;40m██████[0;1;37;47m▀▐[0;1;37;40m██▌[0m▄▄▀[1;47m▀[0;1;40m█▄[0;1;47m▄[0;1;40m██████▀[0m▄▄ █[1m███[0m            █[1m█ [0m▄▀[1;47m▀[0;1;40m██▄[0;1;47m▄[0;1;40m██████[0;1;47m▀[0m▀▄▄▄▄▄
         ▀▀▀[1;47m▀▀▀▀[0m▀▀▀█[1;47m▀▀▀▀[0m    ▀▀[1;47m▀▀▀▀[0m▀▀     █[1m████▄▄[0;1;30mma    [0m▄▄[1;47m▄[0;1;40m█[0m     ▀▀▀[1;47m▀▀▀▀[0m▀▀▀
                                         █[1m██[0m▀[1;47m▀[0;1;40m██████▄[0;1;47m▄[0;1;40m██[0;1;47m▀[0m▀
-   [1mdop[0me [1mi[0ms [1ma[0mn [1messa[0my [1mreleasin[0mg [1mgrou[0mp [1mfou [0m█[1m██ n[0m▀▀▀[1;47m▀▀▀▀[0m▀▀▀ [1mde[0md [1mb[0my [1mvanquis[0mh [1mo[0mf
-   [1maci[0md. [1mfo[0mr [1mmor[0me [1minformatio[0mn [1mcontac[0mt [1mh[0m▐[1;47m▐[0;1;40m██▌ i[0mm [1mwhereve[0mr [1myo[0mu [1mwan[0mt [1m=[0m) [1mthi[0ms
-   [1mi[0ms [1mlik[0me [1mm[0my [1mfirs[0mt [1mtoo[0mn [1mtyp[0me [1mans[0mi [1m(o[0mr █[1;47m▀▀▀▀[0m [1;40mmayb[0me [1msecon[0md [1mbu[0mt [1mthi[0ms [1mi[0ms [1mm[0my
-   [1mfirs[0mt [1mon[0me [1mwort[0mh [1mmentionin[0mg[1m) s[0mo [1mi hop[0me [1myo[0mu [1mlik[0me [1mi[0mt [1mv[0mq. [1myou''r[0me [1mjelou[0ms [1mo[0mf
-   [1mth[0me [1mfon[0mt [1maren[0mt [1myou[0m? [1m=[0m) greets go to hal[1m- [0mgood luck in acid, timewarp[1m-[0m
-[1m   [0merp i fergot what i wanted to say =), frost angel[1m- [0mcuz i just finished
-   talking to you on my board and its your fault im late submitting this!
-   =) actualy its cthulu''s =), nit[1mNATSNOC- [0mwow you got reconized as your
-   real handle, dr. cpu[1m- [0mrecoil neone?, helter[1m- [0mhiya, and everlast[1m- [0mwoo
-   i''ve almost got stunts! =)[1m. [0mwow alot of greets! & [1mhapp[0my [1mb-da[0my [1mcthul[0mu!
+   [1m   [0m  [1m [0m  [1m [0m  [1m    [0m  [1m        [0m  [1m    [0m  [1m    [0m█[1m██  [0m▀▀▀[1;47m▀▀▀▀[0m▀▀▀ [1m  [0m  [1m [0m  [1m       [0m  [1m [0m 
+   [1m   [0m   [1m  [0m  [1m   [0m  [1m          [0m  [1m      [0m  [1m [0m▐[1;47m▐[0;1;40m██▌  [0m  [1m       [0m  [1m  [0m  [1m   [0m  [1m [0m  [1m   [0m 
+   [1m [0m  [1m   [0m  [1m [0m  [1m    [0m  [1m   [0m  [1m   [0m  [1m   [0m  [1m  [0m  █[1;47m▀▀▀▀[0m [1;40m    [0m  [1m     [0m  [1m  [0m  [1m   [0m  [1m [0m  [1m [0m 
+   [1m    [0m  [1m  [0m  [1m    [0m  [1m         [0m [1m   [0m  [1m     [0m  [1m  [0m  [1m   [0m  [1m [0m  [1m [0m   [1m     [0m  [1m     [0m  [1m [0m 
+   [1m  [0m  [1m   [0m  [1m    [0m  [1m   [0m  [1m [0m                  [1m  [0m                           [1m [0m
+[1m   [0m                                                 [1m  [0m                   
+                                                                         
+                                  [1m         [0m                             
+                       [1m  [0m                     [1m  [0m                  [1m  [0m   
+                             [1m  [0m                      [1m    [0m  [1m    [0m  [1m     [0m  
 
                         [1;31m▄▀▄[0m                       [1;31m▄[0;31m▄[0m
                        [1;31m▐[0;31m▌ [0;1;31m▐[0;31m▌▄ [0;1;31m▄[0m            [1;31m▄ ▌   ▐[0;31m▌ [0;1;31;41m▌[0m [1;31;41m▌[0;31m▀▀[0m
                         [1;31m▀■ [0;1;31;41m▌[0m [1;31;40m▌▐[0;31m▌ [0;1;31m▄[0;31m▄ [0;1;31m▄ [0;31m▄ [0;1;31m▄[0;31m▄ [0;1;31m▄ [0;1;31;41m▌[0;31m▄▀  [0;1;31m▀▀[0;1;31;41m▌[0;31m▀[0;1;31m▀[0;31m▀▄[0m
-                           [1;31m▀ ▌▀ ▀ [0;31m▀  ▀  [0;1;31m▀  [0;31m▀ [0;1;31m▀ [0;31m▀    [0;1;31m▀ ▀▀[0;31m▀[0m
-
-[30m--->8 cut here >8------ 80 lines on the dot ----->8 "cut here''s" are 31i73 >8---[0m'
+                           [1;31m▀ ▌▀ ▀ [0;31m▀  ▀  [0;1;31m▀  [0;31m▀ [0;1;31m▀ [0;31m▀    [0;1;31m▀ ▀▀[0;31m▀[0m'

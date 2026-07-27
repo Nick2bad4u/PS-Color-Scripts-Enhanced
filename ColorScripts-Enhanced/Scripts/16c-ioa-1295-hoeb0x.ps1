@@ -5,7 +5,7 @@
 # Source SHA-256: 129f4449b6a272e7d716dca615069b8fb0bf16632197df9ecbb1ff57216b6fc5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: $HOEB0X.ANS by Frame (S!P); released in ioa-1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, scaling, or background-space stripping; split only into contiguous source-row ranges at manually reviewed composition boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -27,5 +27,4 @@ Write-Host '
 [34;40m  [0;34;44m [0;34;40m░[0;34;44m   [0;34;40m▓[0;34;44m [0;34;40m██▓███████▄▀██████ [0;36;40m▀ [0;34;40m████▄▄▄███▓███████ [0;36;40m░ [0;34;40m████████▓█▄▄▄█████▓  ██ [0;34;44m [0;34;40m▒[0m
 [34;40m  █▄█▀▀░▀▀▀▀███▓▀ █[0;34;44m              [0;34;40m███████▀▀▀▀███▓▄▄▄██▓█▀▀▀▀ ░▀▀▀▀▀ ▓▀▒  █▀  ░[0m
 [34;40m  ▓▀[0m           [34;40m░  ▓█▀░▀[0m      [34;40m▀▀▓[0;34;44m [0;34;40m▀█▀░▀[0m       [34;40m██▒[0m     [34;40m░[0m             [34;40m░ ░[0m
-[34;40m  ░   ƒrame/s!p   ░[0m            [34;40m░  ░[0m           [34;40m▀░[0m
-                                              [34;40m [0m'
+[34;40m  ░   ƒrame/s!p   ░[0m            [34;40m░  ░[0m           [34;40m▀░[0m'

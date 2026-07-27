@@ -5,7 +5,7 @@
 # Source SHA-256: 42291e7fc13e9d5546e46a96e70c0e0d75a748ca892e5421d92241d7d3d00ed6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-TRAGI.ANS by Mendator (helium01); released in helium01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
        [1;30m▐▌[0m [1;30m▐▌▀▀ ▄▄▄▄▄[0m       [1;30m▄▄▄▄▄ ▀▀▀▀[0m [1;30m ▐▌[0m [1;30m▐▌[0m      [1;30m ▀▀▀▀[0m             [1;30m▐▌[0m  [1;30m ▐▌[0m
         [1;30m▀▄▀[0m         [1;30m ▀▀▀▀▀[0m             [1;30m ▀▄▀ ansi by mendator/stile![0m [1;30m ▀■▄■▀ [0m
 [1;30m---[ CUT RIGHT HERE ]-----------------------------------------------------------[0m
-[1;30mdamn!.. the logo became to small... did some eyes instead!..... hope I''m not[0m
-[1;30mdisqualified or something.... it''s a damn small logo but what the fuck!...[0m
-[1;30mhope I win!!... vote for me!.. - mendator of stile[0m
+[1;30m                                                                            [0m
+[1;30m                                                                          [0m
+[1;30m                                                  [0m
 [1;30m--------------------------------------------------------------------------------[0m'

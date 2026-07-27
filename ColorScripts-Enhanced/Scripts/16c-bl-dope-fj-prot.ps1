@@ -5,7 +5,7 @@
 # Source SHA-256: fdcfc235bdf19625e21a45ce38e4b12205a4b21cf1be16675510de223a1d9cd3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ_PROT.ANS by Fastjack (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: irrational beachparty
 # SAUCE Author: Fastjack
 # SAUCE Group: boil
@@ -41,4 +41,4 @@ Write-Host '
 
 
 [1;30m---------------------------------------------------------------[[0mbeach party[1;30m]----[0m
-[1;30malien & dope.[0m [1;30mthey[0m [1;30mcome from planet weed... =)[0m              [1;30mfastjack^boil[0m [1;30m//fdn░[0m'
+[1;30m             [0m [1;30m    [0m [1;30m                           [0m              [1;30m             [0m [1;30m     ░[0m'

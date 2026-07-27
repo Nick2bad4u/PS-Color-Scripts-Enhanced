@@ -5,7 +5,7 @@
 # Source SHA-256: 1a8c47c169ea0bd92558eb6b0768a7f1e2ae14f72c72982691f6532131bb62ee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-FIRE.ANS by Abomination (skl-0194); released in skl-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -13,8 +13,8 @@ Write-Host '
                    [31m▄[0m     [31m▄▀▀▀▀▀▀██▄[0m
                   [31m█[0;1;31;41m░░[0m  [31m▄█[0m        [31m███ [0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
                 [31m▄▀ █[0;1;31;41m░[0m  [31m█▌[0m         [31m██ [0m█ [1;30mabomination of SKILL presents an[0m        █
-              [31m▄█   ▐[0;1;31;41m░[0m  [31m█[0m          [31m██ [0m█ [1;30mansi add for fire in the sky. If your   [0m█
-            [31m▄██[0m     [31m█  █[0m        [31m▄█▀  [0m█ [1;30mintrested in an ansi, call any skill    [0m█
+              [31m▄█   ▐[0;1;31;41m░[0m  [31m█[0m          [31m██ [0m█ [1;30m                                        [0m█
+            [31m▄██[0m     [31m█  █[0m        [31m▄█▀  [0m█ [1;30m                                        [0m█
         [31m▄█ ▀██[0m      [31m█  █[0m        [31m▄▀   [0m█ [1;30mboard & I''ll get you that ansi. :) -Pace[0m█
        [31m████  ▀█[0m     [31m█  █[0m      [31m▄▀▀▄   [0m█ [1;30m1/10/94 AB-FIRE.ANS (tm) Copywrong 1994 [0m█
       [31m▄ ▀███▄  ▀    █  █   ▄██▀   █▄ [0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀

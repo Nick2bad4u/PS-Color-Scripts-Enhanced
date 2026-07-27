@@ -5,7 +5,7 @@
 # Source SHA-256: 42f436e7b432b3af2a86662f2771f11952219e407d5a293147afceaa70f3cdbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OZ-SSF.ANS by oOze (D#*); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: files
 # SAUCE Author: oOze
 # SAUCE Group: D#*
@@ -34,12 +34,9 @@ Write-Host '
 [34m██[0;1;34;44metc...[0;34m██████████▄▄▄▌[0m     [1;37m_[0m                [1m_[0m               [1m_[0m
 [34m██████████████████████[0m     [1;37;45ma[0;1;35;40m area change[0m    [1;45mn[0m [1;35mnew files[0m     [1;45ms[0m [1;35mfile search[0m
 [34m▀▀▓▓▓▓▓▓▓▓▓██████████[0m      [1;37;45md[0m [1;35mdownload[0m       [1;45ml[0m [1;35mlist files[0m
-  [34m░░░░░░░ [0;1;34m-Oz[0;34m         [0m     [1;37;45mu[0m [1;35mupload(yeah!)[0m  [1;45mk[0m [1;35mtext search [0m  [1;45mq[0m [1;35mquit to main[0m
+  [34m░░░░░░░ [0;1;34m   [0;34m         [0m     [1;37;45m [0m [1;35m             [0m  [1;45m [0m [1;35m            [0m  [1;45m [0m [1;35m            [0m
                                                 [1m_[0m
-                                               [1;35mc[0;1;37;45mO[0;1;35;40mmmand[0m   [30;47m► [0;37;40m►[0;1;37;40m___[0m
+                                               [1;35m [0;1;37;45m [0;1;35;40m     [0m   [30;47m► [0;37;40m►[0;1;37;40m   [0m
 
 
-------------------///
-this files menu is for Munchkin
-
-props: to her & ripper for doing my homework :)[0m'
+------------------///[0m'

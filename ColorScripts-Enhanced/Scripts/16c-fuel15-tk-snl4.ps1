@@ -5,7 +5,7 @@
 # Source SHA-256: 776d8b013f92da1b46d5c7fe6298986452fb89fc1666b21e17944cad638b5613
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-SNL4.ANS by the knight (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: scenial 4 logoff
 # SAUCE Author: the knight
 # SAUCE Group: fuel productions
@@ -38,7 +38,4 @@ Write-Host '
    [31;40m▀██[0;37;40m  [0;31;40m░░░░[0;37;40m  [0;31;40m  ▀▀▀▀▀▀▀▀▀▀ [0m          [31;40m░░░        ░░░▄▄▓▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;31;47m▓[0;1;31;41m█[0;30;41m▒[0m
     [31;40m▄██[0;30;41mtk[0;31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓██████▀▀▀▓▓▓▀▀██[0;1;31;41m·[0;31m█[0;1;31;41m■ [0;31m▓[0;1;31;41m▄[0;31m▓█[0;1;31;41m█▄[0;31m█[0;1;31;41m▀[0;31m█[0;1;31;41m█▄▄▄██▄███████[0;1;31;47m▓▓▒▒[0;30;41m░▓[0m
        [31;40m▀▀▀▓▓▓▀▀▀▀▀▀▀▀ ▀▀▀▀ ▀[0m         [31;40m░░░[0m         [31;40m▀[0;37;40m [0;31;40m▀▀▀▀[0;37;40m  [0;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-          [31;40m░░░[0m
-
-   [1;30;40mif it''s too arty, unreadable, whatever... don''t use it.....[0m
-   [1;30mansi by the knight of littlegroupfuel[0m'
+          [31;40m░░░[0m'

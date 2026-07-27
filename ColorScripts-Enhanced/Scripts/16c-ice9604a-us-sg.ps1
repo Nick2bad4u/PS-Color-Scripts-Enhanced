@@ -5,12 +5,12 @@
 # Source SHA-256: a3b26eb82bed9bdbd3a54588a6af9ca5023a8acf371cad3489a51affe2c606ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SG.ICE by Fluor + Rza (ice9604a); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
---[1m([0;1;33mSpinal Gamma[0m_[1;33mDefiant[0m_[1;33mTrade[0;1;37m)[0m-
+  [1m [0;1;33m            [0m [1;33m       [0m [1;33m     [0;1;37m [0m 
 
                   ▄[1m▄[0;1;33m▄▐▄▄▄▄[0m            [1m    [0m  [1;30m [0;1;33m [0;35m▄[0;1;33m▄▄▄▄▄▄▄ [0m
                ▄[47m [0;1;33;47m▄[0;1;33;40m██████████▄[0m         [1m    [0;1;33m [0;35m▄[0;1;33;45m▄[0;1;33;40m███████████▄[0m
@@ -29,8 +29,4 @@ Write-Host '
 [1;30;40m███████████▀[0;1;37;40m▄███▄▄▄▄▄▄▄▄▄▄▄[0;1;34;47m▒[0;1;34;40m▀ [0;1;30;40m▄▄███████▓ ▀[0m▀▀[1m▀▀▀▀▀▀▀▀[0;36m▀▀▀[0;1;34m▀▀▀[0;1;30m ▄▄▄██████████████████[0m
 [1;30m████████████▄▄▌[0;1;37m▐▌ [0;1;30m▄▄█▄▄▄▄▄▄▄████████████████████████████████████████████████████[0m
 [1;30m██████████████▄ [0;1;37m▀ [0;1;30m▄█████████████████████████████████████████████████████████████[0m
-[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;33m-[0;1;37m.[0mfluor[1;34m([0;1;34;44miCE[0;1;34;40m)[0m     [1m [0;1;30m [0m               . ..[1mand[0m.. .            [1m-[0m.[1;30mthe bhikku RZA[0;1;31m([0;1;31;41mDiSC0[0;1;31;40m)[0m
-              this month i[1m''[0mll greet all my favorite logo artists[1m![0m
-[1m  hlecter[0m,[1m tna[0m,[1m the rza[0m,[1m 4thds[0m,[1m boa[0m,[1m pnakotic[0m,[1m MM°[0m,[1m odb[0m,[1m xypherm[0m,[1m unsane[0m,[1m #28[0m,
-[1m  halaster[0m,[1m apox[0m,[1m noot[0m,[1m sq2[0m,[1m eerie[0m,[1m pale[0m,[1m sgrunger[0m,[1m veks[0m, [1mmaestro and lordjazz[0m.[0m'
+[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

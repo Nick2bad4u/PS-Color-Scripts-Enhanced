@@ -5,13 +5,13 @@
 # Source SHA-256: 9d007aca9df89bc362992271a5212ced239cafcbcf708b3842adede6569a1d2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-HA1.ANS by Nailz (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
-[1mThis is out to all the members that believe in the group Union and are proud to[0m
-[1m   be a part of it. Special thanks to Syntax, i wish everyone was like him[0;1;31m..[0m
+[1m                                                                               [0m
+[1m                                                                          [0;1;31m  [0m
 
 [1;31m  [0m▄▄[47m  [0;1;40m▄    [0m▄▄[47m [0;1;47m▄▄[0;1;40m█▄▄ [0m█▄[47m   [0;1;47m▄▄[0;1;40m█▄▄▄▄▄   [0m▄▄[1;47m░[0m▄[47m   [0;1;47m▄▄[0;1;40m█▄ [0m▄▄▄▄▄▄[1m▄[0m     ▄[47m [0;40m▄[0;47m [0;1;47m░ ▄▄[0;1;40m█▄▄▄▄▄[0m
 ▄[47m [0;1;47m▄▄[0;1;40m█▄   [0m▄[1;47m░[0m▀ ▀[1;47m▀[0;1;40m█████[0;1;47m▄▄[0;1;40m█[0;1;47m▄[0;1;40m█████[0;1;47m▀▀▀[0;1;40m███▄ [0;1;47m  [0m▀ ▀[1;47m▀[0;1;40m███▌[0m▐[1;47m▒ ▄ [0;1;40m███████[0m▀[47m [0;1;47m▄[0;1;40m▀[0m▀[1m▀[0;1;47m▀▀[0;1;40m██[0;1;47m█▀▀▀[0;1;40m███▄[0m

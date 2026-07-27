@@ -5,7 +5,7 @@
 # Source SHA-256: 3a950b9cbb7c9bcc3ed71ee6fba14cbbf53dd3b07a9b8580136a692f088d67e4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AOFACID5.ANS by Darkman (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-93
 # Columns: 1-80
 
@@ -48,12 +48,11 @@ Write-Host '
 [1;30;40m┌──▄  ▓  ░[0;30m┤┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘[0;1;30m░  ▓  ▄──┐[0m
 [1;30m└[0m▄▄ ▀[1m■·    [0;1;30m░[0m            [1;37mA [0;1;34mG E N T S   [0;1;37mO [0;1;34mF   [0;1;37mF [0;1;34mO R T U N E[0m           [1;30m░    [0;1;37m·■[0m▀ ▄▄[1;30m┘[0m
 [1;30m [0;1;37m│[0;1;30;47m▒[0m▀[1m■·[0m                                                                    [1m·■[0m▀[1;30;47m▒[0;1;37;40m│[0m
-[1;37;40m │[0m│[1;30m▓[0m        [1;30m∙[0;1;37mR[0;1;31mAZOR 1911 Member Board & Site[0m       [1;30m∙[0;1;37mH[0;1;31mYPE Distribution[0m        [1;30m▓[0m│[1m│[0m
-[1m │[0m│[1;30m│[0m        ∙[1mA[0;1;31mCiD Tejas Affiliate[0m                 ∙[1mT[0;1;31mEI Affiliate[0m            [1;30m│[0m│[1m│[0m
-[1m │[0m│[1;30m│[0m        [1;37m∙A[0;1;31mCiD Courier Site[0m                    [1;37m∙C[0;1;31melerityNet[0m              [1;30m│[0m│[1m│[0m
-[1m │[0m│[1;30m│[0m        ∙[1mC[0;1;31mybercrime[0m                           ∙[1mC[0;1;31melerity 1.41[0m            [1;30m│[0m│[1m│[0m
-[1m │[0m│[1;30m▓[0m        [1;30m∙[0;1;37m7[0;1;31m60Megz[0m                              [1;30m∙[0;1;37mR[0;1;31mazor/NitroNet[0m           [1;30m▓[0m│[1m│[0m
+[1;37;40m │[0m│[1;30m▓[0m        [1;30m [0;1;37m [0;1;31m                             [0m       [1;30m [0;1;37m [0;1;31m                [0m        [1;30m▓[0m│[1m│[0m
+[1m │[0m│[1;30m│[0m         [1m [0;1;31m                   [0m                  [1m [0;1;31m            [0m            [1;30m│[0m│[1m│[0m
+[1m │[0m│[1;30m│[0m        [1;37m  [0;1;31m                [0m                    [1;37m  [0;1;31m          [0m              [1;30m│[0m│[1m│[0m
+[1m │[0m│[1;30m│[0m         [1m [0;1;31m         [0m                            [1m [0;1;31m            [0m            [1;30m│[0m│[1m│[0m
+[1m │[0m│[1;30m▓[0m        [1;30m [0;1;37m [0;1;31m      [0m                              [1;30m [0;1;37m [0;1;31m             [0m           [1;30m▓[0m│[1m│[0m
 [1m │[0;1;30;47m▒[0m▄[1m■·[0m                                                                    [1m·■[0m▄[1;30;47m▒[0;1;37;40m│[0m
 [1;30;40m┌[0m▀▀ ▄[1m■·[0m     [1m4[0;1;31m09[0;31m■[0;1;37m7[0;1;31m68[0;31m■[0;1;37m3[0;1;31m767 [0;31m- [0;1;37m1[0;1;31m4.4 HST/v42[0m     [1;37m4[0;1;31m09[0;31m■[0;1;37m7[0;1;31m86[0;31m■[0;1;37m1[0;1;31m598 [0;31m- [0;1;37m1[0;1;31m4.4/v32[0m      [1;37m·■[0m▄ ▀▀[1;30m┐[0m
-[1;30m└──[0m▀                                                                        [1;30m▀──┘[0m
-[1;37mACiD Productions[0m                                                 [1;30m∙[0m∙[1m∙∙Darkman ''92[0m'
+[1;30m└──[0m▀                                                                        [1;30m▀──┘[0m'

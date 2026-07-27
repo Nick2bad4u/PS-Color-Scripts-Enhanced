@@ -5,7 +5,7 @@
 # Source SHA-256: e23785d8777f0afd7a0ca607c592f02fc2acd8906959078cf64c92f31a42ccf6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HELLACD1.ANS by The Malevolent Trickster (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 38-70
 # Columns: 1-80
 
@@ -38,8 +38,8 @@ Write-Host '
      ▀[1;30;47m▀[0;1;30;41m▄▄▄▄[0;1;30;47m▀[0m▀      ▀[1;30;47m▀[0;1;30;41m▄▄▄▄[0;1;30;47m▀[0m▀  ▀▀[1;30;47m▀▀▀[0;1;30;41m▄▄▄▄▄▄[0;1;30;47m▀[0m▀  ▀[1;30;47m▀[0;1;30;41m▄▄▄[0;1;30;47m▀▀▀▀▀▀[0;1;30;41m▄▄▄▄[0;1;30;47m▀▀[0m▀[1;30;47m▀[0;1;30;41m▄▄▄[0;1;30;47m▀▀▀▀▀▀[0;1;30;41m▄▄▄[0;1;30;47m▀▀[0m▀
   [31m▄    [0;37m▀▀▀▀[0m          [37m▀▀▀▀[0m         [37m▀▀▀▀▀▀[0m      [37m▀▀▀[0m      [37m▀▀▀▀    ▀▀▀[0m      [37m▀▀▀ [0;31m▄[0m
 [31m▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀[0m
-[31m ▓ [0;1;37mT[0;1;33mD[0;1;31mT [0;1;37mE[0;1;33ma[0;1;31ms[0;31mtern [0;1;37mC[0;1;33mo[0;1;31mu[0;31mrier [0;1;37mH[0;1;33mo[0;1;31mm[0;31me - [0;1;37mI[0;1;33mU[0;1;31mD [0;1;37mD[0;1;33mi[0;1;31ms[0;31mtribution [0;1;37mS[0;1;33mi[0;1;31mt[0;31me - [0;1;37m8[0;1;33m0[0;1;31m0[0;31m+ [0;1;37mM[0;1;33me[0;1;31mg[0;31mabytes [0;1;37mO[0;1;33mn[0;1;31m-[0;31mline ▓[0m
-[31m ▒[0m                   [1;37mU[0;1;33mS[0;1;31mR [0;1;37mv[0;1;33m.[0;1;31m3[0;31m2bis [0;1;37mD[0;1;33mu[0;1;31ma[0;31ml - [0;1;37mC[0;1;33me[0;1;31ml[0;31merity/[0;1;37mC[0;1;33me[0;1;31ml[0;31merityNET[0m                 [31m▒[0m
-[31m ▓[0m         [1;37mS[0;1;33my[0;1;31ms[0;31mOp: [0;1;37mA[0;1;33ms[0;1;31mm[0;31modeus - [0;1;37mC[0;1;33mo[0;1;31mS[0;31mysOp: [0;1;37mT[0;1;33mh[0;1;31me [0;1;37mN[0;1;33me[0;1;31mc[0;31mromancer - [0;1;37m3[0;1;33m1[0;1;31m3[0;31m∙[0;1;37m3[0;1;33m4[0;1;31m9[0;31m∙[0;1;37m4[0;1;33m9[0;1;31m3[0;31m3[0m         [31m▓[0m
+[31m ▓ [0;1;37m [0;1;33m [0;1;31m  [0;1;37m [0;1;33m [0;1;31m [0;31m     [0;1;37m [0;1;33m [0;1;31m [0;31m     [0;1;37m [0;1;33m [0;1;31m [0;31m    [0;1;37m [0;1;33m [0;1;31m  [0;1;37m [0;1;33m [0;1;31m [0;31m          [0;1;37m [0;1;33m [0;1;31m [0;31m    [0;1;37m [0;1;33m [0;1;31m [0;31m  [0;1;37m [0;1;33m [0;1;31m [0;31m       [0;1;37m [0;1;33m [0;1;31m [0;31m     ▓[0m
+[31m ▒[0m                   [1;37m [0;1;33m [0;1;31m  [0;1;37m [0;1;33m [0;1;31m [0;31m     [0;1;37m [0;1;33m [0;1;31m [0;31m    [0;1;37m [0;1;33m [0;1;31m [0;31m      [0;1;37m [0;1;33m [0;1;31m [0;31m        [0m                 [31m▒[0m
+[31m ▓[0m         [1;37m [0;1;33m [0;1;31m [0;31m    [0;1;37m [0;1;33m [0;1;31m [0;31m        [0;1;37m [0;1;33m [0;1;31m [0;31m      [0;1;37m [0;1;33m [0;1;31m  [0;1;37m [0;1;33m [0;1;31m [0;31m           [0;1;37m [0;1;33m [0;1;31m [0;31m [0;1;37m [0;1;33m [0;1;31m [0;31m [0;1;37m [0;1;33m [0;1;31m [0;31m [0m         [31m▓[0m
 [31m▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄[0m
-[31m  ▀[0m       [1;37mT[0mh[1;30me [0;1;37mM[0ma[1;30mlevolent [0;1;37mT[0mr[1;30mickster <A[0mC[1mi[0mD[1;30m> Productions - DTC - o1/24/92[0m      [31m▀ [0m'
+[31m  ▀[0m       [1;37m [0m [1;30m  [0;1;37m [0m [1;30m         [0;1;37m [0m [1;30m          [0m [1m [0m [1;30m                              [0m      [31m▀ [0m'

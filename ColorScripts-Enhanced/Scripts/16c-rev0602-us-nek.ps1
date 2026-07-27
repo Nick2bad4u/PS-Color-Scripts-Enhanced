@@ -5,7 +5,7 @@
 # Source SHA-256: 9feda725ef03ce61c0baa1171112b390bfc8a47571799a83788c8d7c3b1e321a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Us-nek.ans by Avenging Angel + Zeus Ii (Lure/Revival); released in rev0602 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "nek"
 # SAUCE Author: avg an zII
 # SAUCE Group: Lure/Revival
@@ -32,9 +32,4 @@ Write-Host '
   [1;47m▒▒░[0;1;30;47m░░[0m   [1;47m█[0;1;33;47m█[0m [35m▀[0;35;47m░[0;1;30;47m░[0m   ▀[1m▀▀█████[0;1;33m█▄▄▄[0m▄[1;33;47m░[0m▓   ▄▄█[1;47m▄█▀[0m▀   [1;47m███▒[0;1;30;47m░▓[0;1;30;45m▓▓[0m [1;30m▓[0;1;30;47m██[0m  ▄[1;47m░░░[0m   [1;35;47m██▓▓░[0m▀▀
   [1;47m▓▓▒▒[0m   [1;47m██[0m▀  [1;30;47m▒▓[0;1;30;40m▄[0m  [35m▄▄[0m       [37m▀▀▀▀▀▓█[0;1;37;47m▄▄▄▀▀[0m▀▀  [1;30m▄▄[0m [1;47m▀█▓░[0;1;30;47m▓▓██[0;1;30;40m▓▓[0;1;30;47m█[0;1;30;40m▀[0m  ▓▓▓   [35m█▀▀[0;37m [0;35m▄▄[0;37m▄▄[0m
 [37m  [0;1;37;47m██▓▓[0m   [1;45m▀[0;1;47m█[0m▄[1;30m▄▄▄██[0m  [1;30m███████[0;35m█▄▄[0;1;35m▄▄[0m  ▀▀▀▀    [1;30m▄▄███[0m  ▀▀[1;33m▀▀▀▀▀[0;1;30;47m██▓[0m   ▒[1;33m██ [0m  [35m▄██[0;1;35;47m███[0;1;35;40m█[0;1;35;47m▓[0m
-  ▓▓▓▓▓    ▀▀[1;30m▀▀▀▀[0m  [1;30m▓▓▓▓▓▓▓[0;35m▓▓▓[0;1;35m▓▓▓[0m         [1;30m▓▓▓▓▓▓[0m        [1;30;47m▓▓▓▓▓[0m▓▓▓▓   [1;30m▓▓▓▓▓▓▓▓[0m
-  avg(lure)                                                Zeus II(Revival)
-  [1;35moutline[0m                                                          [1;35m shading[0m
-
-[1;30mzeusII: make it look ugly[0m
-[1;30mavg_: ok[0m'
+  ▓▓▓▓▓    ▀▀[1;30m▀▀▀▀[0m  [1;30m▓▓▓▓▓▓▓[0;35m▓▓▓[0;1;35m▓▓▓[0m         [1;30m▓▓▓▓▓▓[0m        [1;30;47m▓▓▓▓▓[0m▓▓▓▓   [1;30m▓▓▓▓▓▓▓▓[0m'

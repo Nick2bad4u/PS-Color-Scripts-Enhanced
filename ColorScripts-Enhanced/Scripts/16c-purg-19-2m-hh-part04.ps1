@@ -5,7 +5,7 @@
 # Source SHA-256: 612a5ef60efd54675a3355e4c7728f3a3970944739579e40ef0c55bf44a102a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2m-hh.ans by 2mStone (purg!logo's); released in purg-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Happy Halloween!
 # SAUCE Author: 2mStone
 # SAUCE Group: purg!logo's
@@ -42,19 +42,18 @@ Write-Host '
                            [1;35m▐▌[0m
                            [1;35m▐[0m
 [1;30m------------------------------------bobbit--------------------------------------[0m
-[1;30mI know my shading still needs work, but I think I''ve made some noticible[0m
-[1;30mimprovments.[0m [1;30m=][0m [1;30mAnd yes, I block copied and pasted the H. So what, I got lazy!@#[0m
-[1;30m;> AAAAANNNDDD yes, I realize that I SUCK at hair... give me time.... =)[0m
-[1;30mAlso, note that I left the background blank ON PURPOSE. I''m going for that[0m
-[1;30mwhole, fade to black thing... :p[0m
+[1;30m                                                                        [0m
+[1;30m            [0m [1;30m  [0m [1;30m                                                                [0m
+[1;30m                                                                        [0m
+[1;30m                                                                          [0m
+[1;30m                                [0m
 
-[1;30mAnyways![0m
+[1;30m        [0m
 
-[1;30mThis is for ANYONE to use, so go ahead and use it if you like it - just leave in[0m
-[1;30mthe inits <not neccessarily the logo at the top, just the inits beside the [0m
-[1;30mskull).[0m
+[1;30m                                                                                [0m
+[1;30m                                                                           [0m
+[1;30m       [0m
 
-[1;30mGreets to: Tung-Lo, DyingSoul, Filth, Tee_Are, Jandor, BlackEyez, Gwydian, [0m
-           [1;30mDJ_Lethal, SOR, and anyone else who I fergot! :)[0m
-                                                                         [1;30m  -2m[0m
-                                                                       [1;30m    latez[0m'
+[1;30m                                                                           [0m
+           [1;30m                                                [0m
+                                                                         [1;30m  -2m[0m'

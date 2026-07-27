@@ -5,7 +5,7 @@
 # Source SHA-256: 4d120789639ea124e4e020af34ae82773765ea082f78f658bbe582e8a5c44146
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ND.ANS by Simonking + Mrviolent (thelo0p); released in l0p13_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no delay screen
 # SAUCE Author: mrviolent^simonking
 # SAUCE Group: thelo0p
@@ -32,14 +32,12 @@ Write-Host '
 [1;31;40m▐[0;1;31;47m▓▓▓▓▓▓[0;33m  [0;1;31m▐[0;1;31;43m▓▓▓▓▓[0;1;31;40m▌[0;33m  [0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀[0;33m  [0;1;31m▐[0;1;31;43m▓▓▓▓▓[0;1;31;40m▌[0;33m [0;1;31m▐[0;1;31;43m▓▓▓▓▓▓[0;1;31;40m▌▐[0;1;31;43m▓▓▓▓▓▓[0;33m  [0;1;31m▐[0;1;31;43m▓▓▓▓▓[0;1;31;40m▌[0;33m  [0;1;31m▀▀▀▀▀▀▀[0;1;31;47m▒▒▒▒▒▒[0;1;31;40m▌[0m
 [33m [0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m██████████████[0m [33m [0;1;31m█[0;1;31;47m▓▓▓▓[0;1;31;40m█▄▄█[0;1;31;47m▓▓▓▓[0;1;31;40m█[0;33m  [0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m  [0;1;30m▄[0m▄▄▄▄▄[1;31;47m░░░░░░[0m▀
 [1;30m██████████████████████▓▓▓▓▓▓▓▓█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-[33m[mv][0m         [1;30m             [0msimonking/thelo0p^impure1940                     [33m[sK!][0m
-[37m  [0m                             [37mszymon grabinski[0m
-                        [37mul. 1 armii wojska polskiego 6/10[0m
-[37m  [0m                           [37m89-410 wiecbork, poland[0m
-[37m    [0m                    [37me-mail: simonking@poczta.onet.pl[0m
+[33m    [0m         [1;30m             [0m                                                 [33m     [0m
+[37m  [0m                             [37m                [0m
+                        [37m                                 [0m
+[37m  [0m                           [37m                       [0m
+[37m    [0m                    [37m                                [0m
 
-[1;30m [0m [1;30m- 4 support "no delay", - 4 ascii/ansi, -4 100%really swap!, -4 friendship![0m
+[1;30m [0m [1;30m                                                                           [0m
 
-[33m-[cut]-------------------------------------------------------------------------[0m
-[33moutlines,shading by mrviolent/thelo0p[0m
-[33madditional shading and touchups by simonking/thelo0p^impure1940[0m'
+[33m-[cut]-------------------------------------------------------------------------[0m'

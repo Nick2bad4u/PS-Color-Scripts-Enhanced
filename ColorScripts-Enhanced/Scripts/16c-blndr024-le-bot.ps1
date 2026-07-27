@@ -5,14 +5,14 @@
 # Source SHA-256: bc633cb2148260f4e634cc0a7ec3c4e2871eafa6d8a4b554a42f6c3d9f9847db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LE-BOT.ANS by Leaf Eater (blndr024); released in blndr024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
-       [1;32mAs if godzilla wasn''t enough,[0m [1;32min [0;32m[year][0;1;32m japan is ravaged by a really[0m
-[1;32mrevolting robot... the americans were forced to drop a new type of bomb, this[0m
-[1;32mone more devistating even than those dropped many years ago... [0m
+       [1;32m                             [0m [1;32m   [0;32m      [0;1;32m                             [0m
+[1;32m                                                                             [0m
+[1;32m                                                               [0m
                                                                   [32m [0;37m [0;32m.[0m
 
                          [1;30m.[0m,┐s%#S$$$$$$$$S#%s[1;30m┐,.[0m     [1;35m                          [0m
@@ -27,7 +27,7 @@ Write-Host '
     [35m`[0;37m  [0;35m:[0;1;35m$$$$$$$$$$[0;35m;[0m   [35m.[0m            [1;33m           [0m
        [35m ?[0;1;35m$$$$$$$$[0;35mP''[0;37m  [0;35m''[0;37m  [0;1;30m                        [0m
         [1;35m `╚?$$$[0;35mP╝''[0m    [35m`[0m           [34m,[0;1;34mb[0;1;33m [0m      [1;34m.[0m
-      [35m`?[0m    [35m.[0m              [1;33m       [0;1;34m$$b,.[0;34m..[0;1;34m.d$[0;34m,.[0m          [1;30maaaAAAAAaAAAaaaaaAARghh[0m
+      [35m  [0m    [35m [0m              [1;33m       [0;1;34m     [0;34m  [0;1;34m   [0;34m  [0m          [1;30m                       [0m
          [35m`[0m        [35m''`[0m              [34m`?[0;1;34m$[0;34mP''[0;1;34m`╝$P[0;34m╝[0;1;34m"[0;34m``''[0;1;33m [0m
             [35m?[0m   [35m$[0m                  [34m `[0;1;30m,[0mdb.[34m`[0;1;30m.[0md$$╝''``[1;30m?[0m
             [35m`[0m                       [1;30m`?[0m$$$╝"╝[1;30m?[0m
@@ -39,10 +39,9 @@ Write-Host '
 
                           [37m,[0m       [37m.[0m
                       [37m.=======,.[0m
-    [35meat oldskul, [0;37m  ,/` [0m         [37m`\_[0m   [1;32mthis bomb of a composition was created by[0m
+    [35m             [0;37m      [0m         [37m   [0m   [1;32m                                         [0m
    [35mwarpus =)[0m       [37m\__,---[0m    [37m__ /''[0m
-                    [37m`\   ---/` ./  .[0m              [32mleaf eater[0m
+                    [37m                [0m              [32m          [0m
                   [37m`   \.  |[0m   [37m./[0m
                  [37m.  :  `\_|__/[0m     [37m;[0m                   [1;32mfor[0m
-                          `
-                                                [32mblender #24[0m'
+                          `[0m'

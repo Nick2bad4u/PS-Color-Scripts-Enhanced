@@ -5,7 +5,7 @@
 # Source SHA-256: 3a79b6a565f0d9a764b15b7be47a361c7480494e6c12e3330d5ea72788b7d619
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-USE4.ANS by Avenging Angel + Dissonance (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Used
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Hieroglyphics
@@ -39,16 +39,16 @@ Write-Host '
                      [1m▀▀▀▀[0m▀[1m▄▄▄▄[0m▄   [1m [0;1;30m░░░░░░ [0mt[1mhe[0m u[1msed[0m c[1moalition[0;1;30m ░░░░░░░░[0m
                                      [1;30m         [0m
 
-                [1;30mthis will most probaly be the last time you see a [0m
-                [1;30mused logo drawn by me(dee1 did the outline) this[0m
-                [1;30mis because used is dead, if you didnt already know.[0m
-                [1;30mit dies on pack 7, and i wish all the members good[0m
-                [1;30mluck, on finding another group.. first i would like [0m
-                [1;30mto thank spear, and mister wrong.. both these people[0m
-                [1;30mwere exceptionally great leaders, and most importantly[0m
-                [1;30mthey are great friends of mine.. so like.. dont fuck[0m
-                [1;30mwith either of them, or myself and propane may have to[0m
-                [1;30mrape your pet monkey..[0m
+                [1;30m                                                  [0m
+                [1;30m                                                [0m
+                [1;30m                                                   [0m
+                [1;30m                                                  [0m
+                [1;30m                                                    [0m
+                [1;30m                                                    [0m
+                [1;30m                                                      [0m
+                [1;30m                                                    [0m
+                [1;30m                                                      [0m
+                [1;30m                      [0m
 
 
 

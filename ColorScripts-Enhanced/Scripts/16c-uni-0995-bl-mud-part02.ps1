@@ -5,7 +5,7 @@
 # Source SHA-256: a8d3df208d0b1810be5f4d3bdcee653972af23fa012a2d0df9e6d3faadcaa6b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-MUD.ANS by Black Lightning (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: M.U.D.
 # SAUCE Author: Black Lightning
 # SAUCE Group: Union
@@ -45,11 +45,4 @@ Write-Host '
                                                     [33m▐[0;30;43m░░░[0;33;40m▀[0m
                        [37;40mM[0m                [37;40mU[0m           [33;40m█[0;30;43m▓▓[0;33;40m▌ [0;37;40mD[0m
 [37;40m  t h e  b o a r d  f o r m e r l y  k n o w n  a s  [0;33;40m▀[0;30;43m▀■[0;33;40m▄  [0;37;40ma n i[0;33;40m■[0;37;40mm a n i a[0m
-[37;40m  sys[0;1;37;40m0[0mp [1;33mB[0;33mlenda[0;1;33mh[0;33mea[0;1;33mD [0mthis board is affiliated in a way    [33m▀▀▄▄  ▀ [0;37mwith [0;1;33mU[0;33mnio[0;1;33mn[0m
-                        [1;30mlike hell if i know the number[0m
-
-          [1;30mThis has a been a black lightning production. Union in 1995.[0m
-[1;30m    [0m" [1mUnion[0m. [1mWe would type it like [0mF[1mair[0mL[1migh[0mT [1mif it only had more letters[0m. "
- [1;30mpicture taken from cyberforce number three. Cyblade is (c) of Marc Silvestri.[0m
-[1;30m 25% original if you count the left arm that IS showing, the lightning hair, and[0m
-                                   [1;30mthe font.[0m'
+[37;40m     [0;1;37;40m [0m  [1;33m [0;33m     [0;1;33m [0;33m  [0;1;33m  [0m                                     [33m▀▀▄▄  ▀ [0;37m     [0;1;33m [0;33m   [0;1;33m [0m'

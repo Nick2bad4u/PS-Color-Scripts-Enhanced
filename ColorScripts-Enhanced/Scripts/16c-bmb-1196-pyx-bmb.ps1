@@ -5,7 +5,7 @@
 # Source SHA-256: 99d80739ca0fe6d5eeda2c1f40343e19a375eddad2874273efe2395d3c8d7b7d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-BMB.ANS by Pyx (Bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bamboosh!? (-hsoobmaB
 # SAUCE Author: Pyx
 # SAUCE Group: Bamboosh
@@ -39,6 +39,4 @@ Write-Host '
  [1;33m [0m                     [1;33;43m▐██▓[0;33m [0;1;33;43m▐██▓[0;33m [0;1;33;43m▐██▌[0;33m [0;1;33;43m░░[0;33m [0;1;33;43m▐██▌[0;33m [0;1;33;43m▓██▌[0;33m [0;1;33;43m▓██▌[0m
  [1;33m  [0m                    [1;33;43m░▀▀[0;33m█▄[0;33;47m▓[0;1;33;43m▀▒▀[0;33m █[0;1;33;43m▀░ [0;33m █[0;1;33;43m [0;33m █[0;1;33;43m░▀[0;33m█ [0;1;33;43m▀▒▀[0;33;47m▓[0;33;40m▄█[0;1;33;43m▀▀░[0m
 
-[1;33m                               [0;33m----------------[0;1;33m  [0m
-
- [1;33mSee anything strange with this ansi?! [0m [1;33m¡¿isna siht htiw egnarts gnihtyna[0m [1;33meeS[0m'
+[1;33m                               [0;33m----------------[0;1;33m  [0m'

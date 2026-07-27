@@ -5,7 +5,7 @@
 # Source SHA-256: e91c27a923b4801e854bcde5d0936e71bc77febbca98c985e55daf399e6e3388
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRS-FOH.ANS by Krisis (fORCE); released in force-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Force of Habit
 # SAUCE Author: Krisis
 # SAUCE Group: fORCE
@@ -36,6 +36,6 @@ Write-Host '
        [33m░▒▓▓▒░[0;37m  [0;33m░▒▓▒░[0m             [32m▀▀▀▀▀▀▀▀▀[0m                [33m░▒▓▒░[0;37m  [0;33m░▒▓▓▒░[0;37m [0;32m[[0;1;32mfORCE[0;32m][0;37m [0m
 [33m▄■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▄[0m
 [33m█[0m
-[33m█[0m               [1;33mYO WOlVERiNE!.. Add YA bbS iNfO iN hERE biYAtCh![0m              [33m █[0m
+[33m█[0m               [1;33m                                                [0m              [33m █[0m
 [33m█[0m
 [33m▀■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 01bc6aaf29b5d4bf5b82a801626726fd4c0e9b1dcee304d3ef52282b7fe6b8e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-ANGER.ANS by flame (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: angry alice
 # SAUCE Author: flame
 # SAUCE Group: RILE
@@ -41,13 +41,4 @@ Write-Host '
      [32m [0m      [33m▒▄[0m    [33m▀[0;1;31;43m▀▒[0;33m▌  [0m       [33m▀[0;1;31;43m▀[0;33m▌▄░[0m     [33m▀░▀▀▓█▄▄░░▀[0;1;31;43m▀█▄[0;33m▄[0m      [33m▀[0m
                     [33m▀[0;1;31;43m▀[0;33m▄    [0m       [33m▀░[0;37m [0;33m▄░[0m         [33m▀▀█▄[0;1;31;43m▄[0;33m▄[0;37m [0;33m▀▀[0;37m [0;33m▄[0m       [35mangry alice ..[0m
                       [33m▀▒▄[0;37m  [0;33m  [0m        [33m ▀  [0m           [33m▀▀█▄[0m
-                        [33m▀░[0m               [33m   [0m             [33m▀[0m
-
-[31mthis is kinda like how i drew a long time ago.  [0m
-[31msorta brings back the day.[0m
-
-[31mfor [0;1;31mfever[0;31m.[0m
-
-[36m"definately one of more unique ones this month."[0m
-
-[34m.. i don''t need people cutting my back ..[0m'
+                        [33m▀░[0m               [33m   [0m             [33m▀[0m'

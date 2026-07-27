@@ -5,7 +5,7 @@
 # Source SHA-256: a1b024d58e4a513847f1a05dfd33c127d888a317b6e577b8cef4d32008afa08a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ILLX-RE2.ANS by illusion x (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: revival
 # SAUCE Author: illusion x
 # SAUCE Group: revival
@@ -22,7 +22,7 @@ Write-Host '
  [34m██[0;1;36;44m$$[0;34m███[0;1;36;44m`╨QQ╨''[0;34m██[0;1;36;44m,@,[0;34m█[0;1;37;44m [0;1;36;44m`╨Q$$$[0;1;34;44m$$$,[0;34m██[0;1;34;44m`[0;1;35;45m╨QQ╨''  ,[0;1;34;44m$[0;34m█  [0;37m$,[0;34m  [0;37m`╨QQ╨''[0;34m  [0;37m,[0;1;30m$$,[0;34m  [0;1;30m`╨QQ╨''   $   $$[0m
  [34m██[0;1;36;44m$$[0;34m███[0;1;36;44m╥,__[0;1;37;44m  [0;1;36;44m,d$$$$p╥,_,$$[0;1;34;44m$$$$$p╥,_,,╥p$$$.[0m ,$$$p╥,_,,╥p$$[1;30m$$$$p╥,_,,╥._,$. ,$$[0m
  [34m██[0;1;36;44m$$[0;1;35;45mbnd$$$$$b,  I$$$$$$$[0;1;34;44m$$$$$$$$$$$$$$$$$$$[0m$$$$$$$$$$$$$$$[1;30m$$$$$$$$$$$$$$$$$$$$[0m
- [34m██[0;1;36;44mⁿⁿ[0;1;35;45mⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ[0;1;34;44mⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ[0mⁿⁿⁿⁿⁿⁿⁿⁿ[1;30mⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ$$$ⁿⁿ[0m
+ [34m██[0;1;36;44m  [0;1;35;45m                    [0;1;34;44m                   [0m        [1;30m                           [0m
  [34m███[0;1;35;44m [0;35m█████████▀▀▀████████[0;34m███████████████████[0;37m  [0;1;30m$$$$$$$$$`[0;31m▄▄▄[0;1;30m`[0;30;41m$$$[0;1;30;40m$$$$$$$$$$$$$$[0m
 [34m [0;37m    [0;31m▐████████   ▀▀▀█████ [0;37m          ▄▄▄       [0;1;30m$$$$$$$$P[0;1;37m [0;30;41m$$$[0;31;40m [0;30;41m$$$[0;1;30;40m$$ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ[0m
 [34m      [0;31m▀███   ▌  ▐   █████[0;34m  [0;1;30;47m▓▒░[0m▀▀▀[34m   [0;37m▀▀▀[0;31;47m░[0;37;41m▓[0;31;47m▓[0;31;40m▀▀▀█[0;30;41m$$[0;31;40m▄▄▄[0;1;30;40m''[0;31m▄▄▄[0;1;37m [0;31m▄[0;30;41m$$[0;31;40m▀[0;30;41m$$[0;31;40m▄[0;1;30;40m$$[0m  [31m░[0;30;41m▓[0;31;40m░[0m
@@ -31,5 +31,4 @@ Write-Host '
 [31;40m [0;1;30;40m░░░▓███▐▌████[0;1;30;47m█[0;1;30;40m█▐██▌[0;34m [0;1;30m▀▀▀▀[0;1;30;47m▓▒[0m█▀▀▀▀▀▀▀█[30;47m░[0;37;40m▓▌[0;34;40m     [0;32;40m  [0;37;40m  [0;31;40m▀▀▀[0m    [31;40m▐██▌ ▐██▌ [0;37;40m  [0;30;41m▒▒▒[0;31;40m [0m
 [37;40m [0;31;40m          [0;34;40m  [0;1;30;47m▓▓[0;1;30;40m█▐█[0;1;30;47m▓[0;1;30;40m▌[0;34m                        [0m                [31m▐███[0;30;41m░[0;31;40m█▓[0;30;41m░[0;31;40m▓[0;30;41m░▓[0;31;40m░ ░ [0m
 [37;40m [0;31;40m [0;34;40m [0;31;40m         [0;34;40m [0;1;30;40m▀▀▀[0;1;30;47m▓▒░[0m         [31m    [0m   [31m    [0m
-[37m [0;31m   [0;34m  [0;31m         [0;34m [0;37m▀▀▀[0m
-[37m [0;31m                              [0m'
+[37m [0;31m   [0;34m  [0;31m         [0;34m [0;37m▀▀▀[0m'

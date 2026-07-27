@@ -5,7 +5,7 @@
 # Source SHA-256: 323082dba2c6bf39c65932ae79115bd0ab269c5a49c5c3bf31a52168c8300887
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-7ALO.ANS by minotaur (axf-037a); released in axf-037a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 7alo logo
 # SAUCE Author: minotaur
 # SAUCE Date: 19970219
@@ -37,5 +37,4 @@ Write-Host '
 [1;34;40m     [0m                         [30;44m▓[0;1;34;44m 7 [0;30;44m░▒▓[0;1;34;40m .A.L.O![0m
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mthis logo was requested by a guy using the nick ''7alo'' on the irc...[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

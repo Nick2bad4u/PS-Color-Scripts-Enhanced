@@ -5,7 +5,7 @@
 # Source SHA-256: 798cb9f1edcd9d7ac1b262bd5e92d22d562511dec0a1cf06c85fb7a210bf80ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-APPLY.ANS by beeyacH! (bat04); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: melack newuserinpho
 # SAUCE Author: beeyacH!
 # SAUCE Date: 19961217
@@ -30,10 +30,9 @@ Write-Host '
       [35m▀[0m
 
       [1;35m░▄▄▄█▀[0;1;37m▀▀[0m         [1;35m▀[0m        [1;35m▀[0;1;37m▀[0;1;35m▀[0m                [1;35m▀[0m        [1;35m▀[0;1;37m▀[0;1;35m▀[0m   [1m▀▀[0;1;35m▀█▄▄▄░[0m
-    [35m▄[0;1;35m██▓▀[0;35m       w0ah, welcome tew melack, running under iniquity   <bC>[0;1;35m▀▓██[0;35m▄[0;37m [0m
-   [35m▐[0;1;35;45m▌█▐[0;30;47m██[0m    [31;40m [0;37;40m [0;35;40mim running this board just fer phun, so don''t come[0;37;40m [0;31;40m [0m    [30;47m██[0;1;35;45m▐█▌[0;35m▌[0m
-   [35m█[0;1;35;45m░▓[0;1;35;40m▌[0m    [31m    [0;35mcomplaining on  something! this board is basically[0;37m [0;31m   [0m    [1;35m▐[0;1;35;45m▓░[0;35m█[0m
-   [35m▐▀[0;31m [0;35m▄[0m      [35msupposed to collect ansi pack''s, but warez is welcome![0m      [35m▄[0;31m [0;35m▀▌[0m
-   [31m [0;35m▐[0;1;35;45m▌[0;35m█[0;1;35;45m▌[0m      [35mlast, most important. concider this board as a joke! [0m     [1;35;45m▌[0;35m█[0;1;35;45m▌[0;35m▌[0;31m [0m
-   [31m   [0;35m▀[0;1;35m▀[0;1;35;45m▓▄[0;1;35;40m▄[0;35m▄[0;37m  [0;35m▄[0m             [35m▄▄[0;1;35m▄[0;35m▄[0m   [35m▄[0m                 [35m▄[0;37m  [0;35m▄[0m        [35m▄[0;37m  [0;35m▄[0;1;35m▄[0;1;35;45m▄▓[0;1;35;40m▀[0;35m▀[0;31m   [0m
-             [31m [0m                                                    [31m [0m'
+    [35m▄[0;1;35m██▓▀[0;35m                                                              [0;1;35m▀▓██[0;35m▄[0;37m [0m
+   [35m▐[0;1;35;45m▌█▐[0;30;47m██[0m    [31;40m [0;37;40m [0;35;40m                                                  [0;37;40m [0;31;40m [0m    [30;47m██[0;1;35;45m▐█▌[0;35m▌[0m
+   [35m█[0;1;35;45m░▓[0;1;35;40m▌[0m    [31m    [0;35m                                                  [0;37m [0;31m   [0m    [1;35m▐[0;1;35;45m▓░[0;35m█[0m
+   [35m▐▀[0;31m [0;35m▄[0m      [35m                                                      [0m      [35m▄[0;31m [0;35m▀▌[0m
+   [31m [0;35m▐[0;1;35;45m▌[0;35m█[0;1;35;45m▌[0m      [35m                                                     [0m     [1;35;45m▌[0;35m█[0;1;35;45m▌[0;35m▌[0;31m [0m
+   [31m   [0;35m▀[0;1;35m▀[0;1;35;45m▓▄[0;1;35;40m▄[0;35m▄[0;37m  [0;35m▄[0m             [35m▄▄[0;1;35m▄[0;35m▄[0m   [35m▄[0m                 [35m▄[0;37m  [0;35m▄[0m        [35m▄[0;37m  [0;35m▄[0;1;35m▄[0;1;35;45m▄▓[0;1;35;40m▀[0;35m▀[0;31m   [0m'

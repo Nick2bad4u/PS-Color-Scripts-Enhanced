@@ -5,12 +5,12 @@
 # Source SHA-256: 3d49d17414674d8f6b08538266e6fe187377e4e3c96835d5d0f8ee2fb27e446c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-LOVE.ANS by Abstrakt (rmrs-46); released in rmrs-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
- [1;30mI[0;31m♥[0;1;30mRMRS[0m
+ [1;30m [0;31m [0;1;30m    [0m
 
        [1;30m   [0m                             [1;30m                             [0m     [1;30m       [0m
 
@@ -32,7 +32,4 @@ Write-Host '
  [1;30m♫♫♫♫♫♫♫♫♫k[0;1;37m  [0;1;35mY[0;35m`[0;1;30m.j♫♫♫♫♫♫♫♫♫♫♫b.[0;1;31m`[0;31m4$$$$$$$$$$$$$P[0;1;30m`.j♫♫♫♫♫♫♫♫♫♫♫A.[0;1;35m`└[0;35m⌂Q$$$$$$[0;34m\`[0;1;30m.┌♫♫♫[0;1;37m [0m
  [1;30m♫♫♫♫♫♫♫♫♫♫L┐.j♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫b.[0;1;31m`[0;31m4$$$$$$$$$P[0;1;30m`.j♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫S%┐.[0;35m [0;1;35m`''[0;35m└*[0;34mP[0;37m [0;1;30m:♫♫♫♫♫[0;1;37m [0m
  [1;30m♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫k.[0;1;31m`[0;31m4$$$$$P[0;1;30m`.j♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫S*┐.[0;34m`[0;1;30m_l♫♫♫♫♫[0;1;37m [0m
- [1;30m``````````````````````````````````[0;1;37m [0;1;31m`[0;31m4$P[0;1;30m`[0;1;37m [0;1;30m`````````````````````````````````````[0;1;37m [0m
- [1;30m__abs[0m*   [1m                            [0;1;30m`[0;1;37m      [0m     [1;30mDYING HARD LIKE BRUCE WILLIS.[0m
-
- // yes this is ugly, i''m rusty as fuck so shutup.[0m'
+ [1;30m``````````````````````````````````[0;1;37m [0;1;31m`[0;31m4$P[0;1;30m`[0;1;37m [0;1;30m`````````````````````````````````````[0;1;37m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e7bc82a912f99f7486b2a0a73fc6c09bf8fe4bafeb88ba61d8ea69abc65aa409
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-AWCA1.ANS by Chromatik (Blade Productions); released in blde9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: A Wind Called Amnesia
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -55,9 +55,7 @@ Write-Host '
                                      [33m░[0m
 
 [1;30m▄▄ [0m ▄▄█▓█▄▄  [1;30m▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▓[0m [1;30m▄▄▄▄▄▄▄▓▄▄▄▄▓[0m [1;30m▄▄▄▄▄▄▄▄▄▄▓▄[0m
- ▄█▓████████▄[1;30m what a depressing ansi. =) Andy, hey.. running out of greets[0m [1;30m2 [0m
-[37m▄██[0;30;47mchromatik.[0;37;40m▓▄[0;1;30;40myou. Chris.. thanks. Tp, thanks for the support for my ansis.  [0m
-▀[33m [0;37m▓▀▀▓█[0;30;47mblade95[0;37;40m▓[0;1;30;40mIt''s great knowing that people appreciate my work.[0m  [1;30;40m▓blade prod.[0m
-[1;30;40m▀▀▀▀▀[0;1;36;40m   [0m▓▀█▓▀▀ [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▓ ▀▀▀▀▀▀▀▀▀▀▓▀[0m
-          [33m    [0m
- [37m [0m'
+ ▄█▓████████▄[1;30m                                                             [0m [1;30m  [0m
+[37m▄██[0;30;47m          [0;37;40m▓▄[0;1;30;40m                                                               [0m
+▀[33m [0;37m▓▀▀▓█[0;30;47m       [0;37;40m▓[0;1;30;40m                                                  [0m  [1;30;40m▓           [0m
+[1;30;40m▀▀▀▀▀[0;1;36;40m   [0m▓▀█▓▀▀ [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▓ ▀▀▀▀▀▀▀▀▀▀▓▀[0m'

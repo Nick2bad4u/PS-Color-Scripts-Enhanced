@@ -5,7 +5,7 @@
 # Source SHA-256: a19e4f6e4d6875d95c91592d65b80da8c2fcb55d94168c85c43d4353b156e0cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LQ!MBBS3.ANS by LiQUiD (ARSiN Productions(c)); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mystic BBS Software
 # SAUCE Author: LiQUiD
 # SAUCE Group: ARSiN Productions(c)
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                         [36mlQ![0;1;30mARS[0mi[1;30mN Productions[0;36m([0;1;30mc[0;36m)[0m
+                                                         [36m   [0;1;30m   [0m [1;30m             [0;36m [0;1;30m [0;36m [0m
                                                                       [36m''[0;1;30m98[0m
                   [34m,s[0;1;34mS$[0;34mSs,[0m       [34m,s[0;1;34mS[0;34m$Ss,[0m                 [34m   ,[0;1;34msS$[0;34mSs,[0m
         [34m,[0;1;34msS[0;34m$Ss,sS$Ss,$$$$Ss,s[0;1;34mS$S[0;34m$$$$$$$S$Ss,[0m      [36m  [0;34m,[0;1;34msS$[0;34mSs,$$$$$$$$S,sS$Ss,[0m
@@ -33,6 +33,4 @@ Write-Host '
 [34m:[0;36m :$[0;1;36m$[0;36m$s[0;1;36m$[0;36m$$[0;1;36m$[0;36m$[0;1;37m  [0;36m$$$$$$[0;1;36m$[0;36m$$[0;1;37m [0;36m$$[0;1;36ms[0;36m$$[0;1;36m$[0;1;37m   [0;1;36m$$[0;36m$$$:[0;1;37m [0;36m$[0;1;36m$$[0;36m$[0;1;36m$[0m   [1;36m$[0;36m$$$$:[0;37m [0;36m:[0;1;36m$[0;36m$[0;1;36ms$[0;36m$[0;1;36m:[0;1;37m  [0;1;36m$[0;36m$[0;1;36m$[0;36m$$[0;1;36m$$[0m [1m    [0;34mill[0m
 [36m  [0;1;37m [0;36m$$$$$$$$$::$[0;1;36m$[0;36m$$$$$[0;1;36m"[0;1;37m [0;1;36ms[0;36m$[0;1;36m$[0;36m$$[0;1;36m$[0;36m$[0;1;36m$s$[0;36m$$[0;1;36m$[0;36m$[0;1;36m"[0;1;37m [0;1;36ms[0;36m$$$$$[0;1;36m$s$[0;36m$$$[0;1;36m$[0;36m"[0;37m  [0;1;37m [0;1;36m:$[0;36m$$$[0;1;37m  [0;1;36m:$[0;36m$$$[0;1;36m$[0;36m$[0;1;36m"[0m [1m    [0;34m:ii[0m
 [34m.[0;1;37m   [0;36m"²$[0;1;36m$[0;36m$$$$$[0;1;37m  [0;36m"²[0;1;36m²"[0;1;37m      [0;36m"²²$[0;1;36m$[0;36m$$²²"[0;1;37m      [0;1;36m"²²[0;36m$$$$²²"[0m    [1;37m    [0;36m"²[0;1;36m²$s$[0;36m$²²"[0m   [1;37m     [0;34m::[0m
-[1;37m        [0;36m"²²"[0m                                                                [1;37m [0m [34m.[0m
-[1;37m   [0m                                                                         [1m [0m
-[1m   [0m'
+[1;37m        [0;36m"²²"[0m                                                                [1;37m [0m [34m.[0m'

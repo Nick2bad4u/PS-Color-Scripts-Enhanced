@@ -5,7 +5,7 @@
 # Source SHA-256: b1394119f09c60282b57119bb649f91056e6025b1cd5196c66a3a432ecf40102
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ISO-SF.ANS by Isotone (Shaolin's Finest); released in shao0498 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ` font
 # SAUCE Author: Isotone
 # SAUCE Group: Shaolin's Finest
@@ -45,16 +45,6 @@ Write-Host '
 
 
 [37m [0;1;30m-----------------------------------------------------------------------------[0m
-[1;30m   hmmm...pretty pathetic logo eh? thats it, maybe i should quit ansi <sniff> [0m
-     [1;30m      [0m  [1;30mfrom now on i might stick to ascii i think ------>[0m
- [1;30m-----------------------------------------------------------------------------[0m
-         [1;30mansi: [0ma[1;30mnsi-[0mn[1;30mever-[0ms[1;30meems-[0mi[1;30mnteresting (when i do it anyway)[0m
-
-
-
-
-
-
-
-
-'
+[1;30m                                                                              [0m
+     [1;30m      [0m  [1;30m                                                  [0m
+ [1;30m-----------------------------------------------------------------------------[0m'

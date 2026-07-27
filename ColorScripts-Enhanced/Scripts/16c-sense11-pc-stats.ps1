@@ -5,7 +5,7 @@
 # Source SHA-256: adc338693ef1ead5db92f7ccddc404b1bbf50ed3ae6482d5ec622fb237fab7a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-STATS.ANS by Proctologist (SeNSE); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: statisticks
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNSE
@@ -17,7 +17,7 @@
 Write-Host '
   [1;36m,[0m               [1;36m,[0m               [1;36m,[0m               [1;36m,[0m               [1;36m,[0m
 [1;36md''[0m [1;30m.:::::::::::[0m [1;36md''[0m [1;30m.:::::::::::[0m [1;36md''[0m [1;30m.:::::::::::[0m [1;36md''[0m [1;30m.:::::::::::[0m [1;36md''[0m [1;30m.::::::::::::[0m
-[1;36m$[0;36mb[0;1;36m,[0;36m_[0;1;30m`^┘llllllll[0m [36m$[0;1;36mb[0;36m,_[0;1;30m`^┘llllllll[0m [1;36m$b[0;36m,_[0;1;30m`^┘llllllll[0m [36m$[0;1;36mb[0;36m,_[0;1;30m`^┘llllllll[0m [1;36m$[0;36mb[0;1;36m,_[0;1;30m`^┘lllllllll[0m
+[1;36m [0;36m [0;1;36m [0;36m [0;1;30m  ┘        [0m [36m [0;1;36m [0;36m  [0;1;30m  ┘        [0m [1;36m  [0;36m  [0;1;30m  ┘        [0m [36m [0;1;36m [0;36m  [0;1;30m  ┘        [0m [1;36m [0;36m [0;1;36m  [0;1;30m  ┘         [0m
 [1;36m$[0;36m$$$[0;1;36m$[0;36mb,[0;37m [0;1;30m`?$$$$$[0m [36m$$$$[0;1;36m$[0;36mb[0;1;36m,[0m [1;30m$$$$$$$[0m [36m$[0;1;36m$[0;36m$$[0;1;36m$[0;36mb,[0;37m [0;1;30m`?$$$$$[0m [36m$[0;1;36m$[0;36m$$$[0;1;36mb[0;36m,[0;37m [0;1;30m$$$$$$$[0m [36m$$$[0;1;36m$[0;36m$b[0;1;36m,[0m [1;30m`?$$$$$$[0m
 [36m$$$[0;32m$[0;36m$$[0;32mP[0;36m`[0;1;36m.[0m [1;30m`ⁿ$$$[0m [36m$$[0;32m$[0;36m$$$$[0;37m [0;1;30m$$$$$$$[0m [32m$[0;36m$$[0;32m$[0;36m$[0;32m$[0;36mP`.[0;37m [0;1;30m`ⁿ$$$[0m [36m$$$[0;32m$[0;36m$$[0;32m$[0;37m [0;1;30m$$$$$$$[0m [36m$[0;32m$[0;36m$$$[0;32m$[0;36mP[0;1;36m`[0;36m.[0;37m [0;1;30m`ⁿ$$$$[0m
 [36m$[0;32m$[0;36m$[0;32m$[0;36m$[0;32m$[0;37m [0;1;30m.[0m [36m$[0;1;36mb[0;36m,_[0;1;30m`?[0m [36m$$[0;32m$$[0;36m$[0;32m$[0;36m$[0;37m [0;1;30m`?$$$$$[0m [32m$[0;36m$[0;32m$$[0;36m$[0;32m$[0;37m [0;1;30m.[0m [1;36m$[0;36mb[0;1;36m,[0;36m_[0;1;30m`?[0m [32m$[0;36m$$[0;32m$$[0;36m$[0;32m$[0;37m [0;1;30m`?$$$$$[0m [36m$[0;32m$$[0;36m$$[0;32m$[0;37m [0;1;30m.[0m [36m$[0;1;36mb,_[0;1;30m`?$[0m
@@ -38,10 +38,10 @@ Write-Host '
 [1;32mS$Pⁿ`[0;1;30m_,g$$$$$$$[0m [1;32m$$Pⁿ`[0;1;30m_,g$$$$$$$[0m [1;32mS$Pⁿ`[0;1;30m_,g$$$$$$$[0m [1;32m$$Pⁿ`[0;1;30m_,g$$$$$$$[0m [1;32mS$Pⁿ`[0;1;30m_,g$$$$$$$l[0m
 [1;32m$''[0m [1;30m''`''$$$$$$$P''[0m [1;32m$''[0m [1;30m''`''$$$$$$$P''[0m [1;32m$''[0m [1;30m''`''$$$$$$$P''[0m [1;32m$''[0m [1;30m''`''$$$$$$$P''[0m [1;32m$''[0m [1;30m''`''$$$$$$$P''[0m
 [1;32m`∙∙''[0m [1;30m,S*╜ⁿ"`[0m    [1;32m`∙∙''[0m [1;30m,S*╜ⁿ"`[0m    [1;32m`∙∙''[0m [1;30m,S*╜ⁿ"`[0m    [1;32m`∙∙''[0m [1;30m,S*╜ⁿ"`[0m    [1;32m`∙∙''[0m [1;30m,S*╜ⁿ"`[0m  [31mp[0;1;31mC[0m
-                              [1m·[0;1;35m-[0;35m[[0;37m [0;1;32mP[0;32mRES[0;1;32mS[0;32m [0;1;32mE[0;32mNTE[0;1;32mR[0m [35m][0;1;35m-[0;1;37m·[0m
+                              [1m [0;1;35m [0;35m [0;37m [0;1;32m [0;32m   [0;1;32m [0;32m [0;1;32m [0;32m   [0;1;32m [0m [35m [0;1;35m [0;1;37m [0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mThis one''s also for Lord Esher''s Haven.  C''mon people, request something.  The[0m
-[1;30monly requests I got this month were from locals.[0m
+[1;30m                                                                              [0m
+[1;30m                                                [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

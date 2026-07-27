@@ -5,7 +5,7 @@
 # Source SHA-256: 4e506a31031f1ebd349d3d68612be6e89dfeec6eae3dc9193c4d8d1cc255f6c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-BRAIN.ANS by trinity (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: brain-damage
 # SAUCE Author: trinity
 # SAUCE Group: phat studios '97
@@ -41,6 +41,4 @@ Write-Host '
          [33m▀▀▀▄▄[0;37m  [0;33m░░░[0m                       [1;35m▄██▀▀[0m
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mjes,   on  the  upper  side  you   can  see  a  logoffscreen  for the  so called[0m
-[1;30m"brain damage" opd by warhawk[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

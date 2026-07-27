@@ -5,7 +5,7 @@
 # Source SHA-256: ee161bb0f8fcb29e991d6ca86dade19a3097854f890d54b5b321aa8564f6081b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: md-honey.ans by MSd!@# (Soap); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Honey Blunt
 # SAUCE Author: MSd!@#
 # SAUCE Group: Soap
@@ -41,5 +41,4 @@ $P''` [1;30m  [0;1;37m    [0m`[1;30m [0m``[1;30m''4$$''[0;36m,[0;37mJ[0
 [1m          [0m$[1;30m$$[0;1;37m [0;1;33m$$$sggg[0;1;37m [0;1;33m$[0;1;32m$;[0;1;37m    [0;1;33m`$$[0;1;32m$[0;1;37m [0;1;33mggg[0;1;37m S[0;1;33mSS²$$;[0;1;32m $$[0;1;33m$ss[0;1;37m [0;1;32m²[0;32m²[0;1;37m [0;1;33m$$b,.,d²[0;1;32m''[0m [1;30m:[0m
 [1m          [0m$[1;30m$$[0;1;37m [0;1;33m$$[0;1;37m$ [0;1;33m$$$[0;1;37m [0;1;33m$[0;1;32m$$[0;1;37m [0;1;33m4$[0;1;37m$ [0;1;33m$$[0;1;32m$[0;1;37m [0;1;33m$[0;1;37m$[0;1;33m$[0;1;37m $[0;1;33m$[0;1;37m$ 4[0;1;33m$l[0;1;37m [0;1;33m$[0;1;32m$[0;1;33m$[0;1;37m g[0;1;33mgg[0;1;37m  [0;1;33m²²[0m [1;30m... ...:[0m
 [1m          [0m$[1;30m$$[0;1;37m $[0;1;33m$[0;1;37m$n$[0;1;33m$$[0;1;37m [0;1;33m$$$n$[0;1;37m$$ [0;1;33m$$$n$[0;1;37m$[0;1;33m$[0;1;37m $$$ $[0;1;33m$$[0;1;37m [0;1;33m$$$n[0;1;37m$[0;1;33m$$[0m :[1;30m.. :.. .[0m
-          `²[1;30mSb,.. . [0m [1m    [0m              [1;30m  [0m.  .. .[1;30m.[0m.[1;30m.  [0m.:[1;30m:[0m.[1;30m. . [0m
-          [1;30m   [0;1;37m    [0m.[1;30m  [0m..[1;30m..  ..[0;1;37m th[0;1;33me[0;1;37m hon[0;1;33mey[0;1;37m blu[0;1;33mnt[0m  .   .[1;30m.[0m.[1;30m. msd[0m'
+          `²[1;30mSb,.. . [0m [1m    [0m              [1;30m  [0m.  .. .[1;30m.[0m.[1;30m.  [0m.:[1;30m:[0m.[1;30m. . [0m'

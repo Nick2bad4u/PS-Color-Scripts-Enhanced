@@ -5,7 +5,7 @@
 # Source SHA-256: bf61e2be70b134ee8a52c1ab7a45dee8b2c49ed002b71162344f4771d5482cc1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PZ-SKUL1.ANS by Pzyko (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SkullFish
 # SAUCE Author: Pzyko
 # SAUCE Group: AWE Lettering
@@ -30,7 +30,4 @@ Write-Host '
            [31m  ▀[0;37m [0;31m▀[0;1;37;41m▒[0m    [31m▄[0m   [31m▀[0;37m [0;31m▄[0;37m [0;31m▀[0;1;37m▀[0;1;37;41m░[0;1;37;40m▄[0;1;37;41m▄[0;31m [0;37m▐▐▐▄▄▄▄  ▐░ ▀▀▀▄ ▐[0;1;37m▒[0m▀▀█▐ [1;41m█[0;31m▄▀ [0;1;37;41m▀[0m [31m▀[0;37m [0;1;37m▀[0;1;37;41m▀[0;31m▀[0;37m  [0;31m▀[0;37m [0;1;37;41m▄[0;31m▄[0m
                    [1;37;41m░[0;1;37;40m▄[0;1;37;41m▓▓▄[0;31m▄[0;37m [0;1;37m▄[0;31m▄[0;37m [0;1;37m▀[0m  [31m▄[0;1;37;41m▓[0;1;37;40m▄[0;31m▄[0;37m  ▀ [0;31m▄[0;1;37m▄[0;31m▄[0;37m ▀ [0;31m▄[0;37m ▀▀ [0;31m▄[0;37m [0;1;37m▄▄▄[0;31m▄[0;37m [0;31m▄[0;1;37;41m▒[0;1;37;40m▀[0;31m▀[0;37m [0;31m ▀[0;1;37;41m▒[0;1;37;40m▄[0;31m▄ [0m
                      [31m▀[0;1;37m▀[0;1;37;41m▀[0m  [31m▀[0m       [31m▀[0;1;37m▀[0;1;37;41m▀▒[0;1;37;40m▄[0;1;37;41m▀[0m [31m▀[0;1;37;41m▓[0;31m▄[0;1;37;41m▄▀[0;1;37;40m▀▀[0;1;37;41m▓▀[0;1;37;40m▀▀[0m [31m▀[0;37m [0;1;37;41m▀[0;1;37;40m▀[0;1;37;41m▒▀[0m [31m▄[0m    [31m▀[0;37m [0;31m [0m
-                                          [31m▀[0m     [31m▀ [0m       [31m [0;37m [0;31m [0m
-     [37m  head operator> [0;1;37mbreed[0m  helping hands> [1moned pzyko[0m        [1;33mskullfish[0m_[0m
-
-'
+                                          [31m▀[0m     [31m▀ [0m       [31m [0;37m [0;31m [0m'

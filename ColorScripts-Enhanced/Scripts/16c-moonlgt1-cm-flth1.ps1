@@ -5,7 +5,7 @@
 # Source SHA-256: bb5d0972286fd737ceeabc2f9f5bb65f454e598b355b5b7138b290e50294c485
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-FLTH1.ANS by cheeze mOnkey (mewnlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: filth!#(trippy ansi)
 # SAUCE Author: cheeze mOnkey
 # SAUCE Group: mewnlight
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                               [1;33mw[0;33melcome to filth[0m
+                               [1;33m [0;33m               [0m
                        [1;35m░[0m                            [1;35m░[0m
                       [1;35m▀▓▀▀   ▀ [0;1;35;42m▀▀ ▀▓[0m  [1;35m▄■ ▀  ▀[0;1;35;42m▀ ▀▀ ▀▀▓▀▓[0m
                          [1;46m█▀▀▀ ▀[0;1;33;42m▄   [0;1;35;42m▐[0m [1;35m▐▌[0m      [1;35;42m   [0;1;32;42m▄     [0;1;35;42m█[0m  [1;33m░[0m

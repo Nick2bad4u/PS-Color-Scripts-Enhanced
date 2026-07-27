@@ -5,7 +5,7 @@
 # Source SHA-256: ea1b0f3399ca5eb2f8f44b10204dede1a363e54516538c3bccff6a99bf4fcab9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-TV1.ANS by brilliantly clad (cow); released in cow-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: watch this, watch that, watch me
 # SAUCE Author: brilliantly clad
 # SAUCE Group: cow
@@ -63,5 +63,4 @@ Write-Host '
 [37mthis ansi was [0m         [31m▀▀▀▄▄[0;1;30m░░[0m              [31m▄▄▄▀▀▀▀▀▄[0;37m [0;31m▄▄▄▄▀▀▀▀[0;37m    yet another[0m
 [37mdrawn by some belgian dude  [0;31m▀▄[0m       [31m▄▄▄▀▀▀▀[0;37m [0;31m▓▓▓▓▀▀▀[0m       [37m     [0m      [37mspawn ![0m
                       [37m        [0;31m▀▀▀▀▀▀▀▀▀▄▓░▒▓▓█▀[0m
-                                          [31m▓▀▀[0;37m      [0m
-                                             [37m      [0m'
+                                          [31m▓▀▀[0;37m      [0m'

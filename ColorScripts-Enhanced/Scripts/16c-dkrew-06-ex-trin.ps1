@@ -5,7 +5,7 @@
 # Source SHA-256: 0d3f4d3cf749ed55a0ec721ef717ff026e758352a6f33c6f4061f34d91efe726
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EX-TRIN.ANS by Ex-Con (dead krew!.); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Trinity Colly!
 # SAUCE Author: Ex-Con
 # SAUCE Group: dead krew!.
@@ -48,11 +48,4 @@ Write-Host '
 
                                                               [1;30m┌────────────────┐[0m
 [1;30m.[0m [1;30m··[0m [1;30m·[0m [1;30m∙∙─---──-────--────────────────-────-─────-─-──────────| [0;1;37m■[0mEnd of Logos[1m■[0;1;30m |[0m
-                                                              [1;30m└────────────────┘[0m
- After reading the NEWBIES (tutorial), i made theses fonts with the help of the
- tutorial it self.  Hey!!  If your a newbie and want to learn the good way, try
- to get your hands on the newbies0.zip or something of the sort. Thanx and guys
- have fun, and i hope you like theses fonts. If you want to have something from
- me, you can reach me on Light Show (613) 841-8289.
-
-                                        Thanx: [1;30m![0m![1mEx-Con[0m![1;30m![0m'
+                                                              [1;30m└────────────────┘[0m'

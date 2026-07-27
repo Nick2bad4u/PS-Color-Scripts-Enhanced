@@ -5,7 +5,7 @@
 # Source SHA-256: 1fb2b13efd651e4e83593e871733f55e33155424aa0d3273feff6266b83f2a1a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-NEO1.ANS by Duster (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Neo Tokyo
 # SAUCE Author: Duster
 # SAUCE Group: ACiD Productions
@@ -59,5 +59,4 @@ Write-Host '
 [47m         [0;40m▌[0;1;47m▒▓[0;1;40m████████████▌[0;1;47m░░▒▒░[0m [1;40m████████████████████ █████████[0;1;47m▓▒▒[0m▄▄▄▄[1;47m░░░[0;1;40m▐[0;1;47m▒▓▓▒[0m▌[47m  [0m
 [47m         [0;40m▌[0;1;47m▒▓[0;1;40m█████████████[0m▐[1;47m░░▒▒░[0m▄[1m▀▀███████████████▀▄███████████[0;1;47m▓▓▒▒▒▒▒░░[0m▌[1;47m▓▓▓▒[0m▌[47m  [0m
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-'
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

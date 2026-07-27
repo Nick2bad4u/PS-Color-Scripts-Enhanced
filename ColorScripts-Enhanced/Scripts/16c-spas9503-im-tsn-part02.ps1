@@ -5,7 +5,7 @@
 # Source SHA-256: ece0298e49342d3ec1693f8d4f0e4dae715f8539db1938ec1a1b98049b9aad0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-TSN.ANS by The Image (READ THE INI FILE); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Stellar Nights add
 # SAUCE Author: The Image
 # SAUCE Group: READ THE INI FILE
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mi, i dunno doc.. its just im havin these seizures, and and i.. i cant think of[0m
-[1;36m░[0m  [1;30many k-rad fonts today..i guess its a plaguw or something.. oh.. geez..[0m
+[1;30m                                                                              [0m
+[1;36m░[0m  [1;30m                                                                      [0m
 [1;31m▒▓[0m
 [1;31m▓█▄▄[0m             [1;31m▒[0m               [1;31m░[0m         [1;30m-image[0m
 [1;31m███████▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

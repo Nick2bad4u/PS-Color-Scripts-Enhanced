@@ -5,7 +5,7 @@
 # Source SHA-256: de5b43db8244a8c90b84f8ae287fe74b15f65404f4084f54d645eaa534b69536
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CIVIL1.ANS by Tosh10 (ea_oct94); released in ea_oct94 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -54,7 +54,7 @@ Write-Host '
 [1;30;40m █[0;1;30;46m▓[0;1;30;40m█ █[0;1;30;46m▓[0;1;30;40m█ █[0;1;30;46m▓[0;1;30;40m█ █[0;1;30;46m▓[0;1;30;40m█ ███ █[0;1;30;46m▓[0;1;30;40m█ █[0;1;30;46m▓[0;1;30;40m█ █[0;1;30;46m▓[0;1;30;40m█  [0;30;43m▒[0m [1;37;41m▐[0;1;31;41m░░░[0;1;30;47m▐[0;1;37;47m░[0;1;31;41m░[0;31;47m▌[0;1;31;41m░[0m [30;43m▒[0m [30;43m▒[0m [30;43m▒[0m [1;30;40m█[0;1;30;46m▓[0;1;30;40m█ ███ ███ █[0;1;30;46m▓[0;1;30;40m█ █[0;1;30;46m▓[0;1;30;40m█ █[0;1;30;46m▓[0;1;30;40m█ █[0;1;30;46m▓[0;1;30;40m█[0m
 [1;30;40m ▀▀▀▀▀▀▀ ▀▀▀ ▀▀▀▀▀▀  ▀▀▀ ▀▀▀▀▀▀▀[0m                    [1;30;40m▀▀▀▀▀▀ ▀▀▀  ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀[0m
 [1;30;40m ▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀▀[1m▀▀▀▀[0m▀[1m▀[0m▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀[1;30m▀[0m▀[1m▀▀▀▀▀[0m▀[1m▀[0m▀[1;30m▀▀▀▀▀▀▀[0m
-[1;30m  ──  [0;1;36m♦ [0;1;30m15ooMEG [0;1;36m♦ [0;1;30mRuNNiNG oN THe LaTeST PCBoaRD [0;1;36m♦ [0;1;30mLoCaTeD iN SCaNDiNaVia [0;1;36m♦  [0;1;30m──[0m
-[1;30m  ───[0m                [1;36m♦ [0;1;30mMuLTiNoDe SySTeM [0;1;36m♦ [0;1;30mSySoP PHReaKSMiTH [0;1;36m♦[0m             [1;30m────[0m
+[1;30m  ──  [0;1;36m  [0;1;30m        [0;1;36m  [0;1;30m                              [0;1;36m  [0;1;30m                       [0;1;36m   [0;1;30m──[0m
+[1;30m  ───[0m                [1;36m  [0;1;30m                 [0;1;36m  [0;1;30m                  [0;1;36m [0m             [1;30m────[0m
 [1;30m  ─────[0m                 [1;36m♦[0;1;30m■■[ÆNSi By ToSH1o φ ERRoR ÆRT]■■[0;1;36m♦[0m              [1;30m──────[0m
 [1;30m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄[1m▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄[1;30m▄[0;1;37m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

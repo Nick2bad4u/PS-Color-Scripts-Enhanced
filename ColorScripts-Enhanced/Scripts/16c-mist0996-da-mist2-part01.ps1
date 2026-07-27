@@ -5,7 +5,7 @@
 # Source SHA-256: 3b7f29b645b10096cbe5e9441aa3bb3fc2048995e1b0604b960e293fe8988e8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DA-MIST2.ANS by dash (MiSTiGRiS); released in mist0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: untitled
 # SAUCE Author: dash
 # SAUCE Group: MiSTiGRiS
@@ -18,8 +18,8 @@ Write-Host '
 
 
 
- [1;30mi stay at peoples houses, i walk on the streets alot, i meet lots of people,[0m
-[1;30mand i don''t wear any underwear, whats my job???[0;30mai''m a hooker...[0m
+ [1;30m                                                                            [0m
+[1;30m                                               [0;30m                [0m
                                        [1;37m░[0m           [1m░[0m
                                        [1m▐▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▐███████▌▄▄    ▄[0m
 [30mdash productions[0m       [37m░  ░[0;30;47m▓[0;37;40m░[0;30;47m▒[0;37;40m▒[0;30;47m░[0;37;40m▓[0;30;47m░[0;1;37;40m▓▓▓▓██████████████████████████████████▄██▌ ▄██[0m

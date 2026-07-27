@@ -5,7 +5,7 @@
 # Source SHA-256: 46dd0075ba2c46a1646d926ec82a16817c8d972526197ab50d9bc9cfa9013e32
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ACID.ANS by Shadow Lord + Asd (secular); released in sclr-25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: acid.org
 # SAUCE Author: shl & as-d
 # SAUCE Group: secular
@@ -24,8 +24,8 @@ Write-Host '
   [1;31m.......[0m [1;32m;$$$[0;1;32;42m$├[0;1;32;40m$; [0;1;33;40m┘²²²└/$$l[0m [1;33m.┐\[0;1;33;46m$[0;1;33;40m├$S**S$├$/┌.[0;1;32;40m `/$$\`[0;1;37;40m  [0m [1;33m,┐\$├$P*┘┘²²²└/$$1[0m
   [1;31m:[0;1;37m q,[0m [1;33m.d\.[0;1;32m`/$$\[0;36m.[0;37m [0;36m+[0m     [1;33m;$$;J$7┘`[0m [36m.[0;37m [0;36m+[0;37m    [0;1;33m`└7├i.┌┌┌┌[0m [1;33m.d$├\└`[0;36m.[0;37m [0;36m+[0;37m    [0;1;31m:[0m  [1;33m;$$l[0m
   [1;31m:[0;1;37m `[0;1;33m.d[0;1;37;47m$[0;1;33;40m$7`[0;36m ,[0;37m [0;36m`[0m       [36m;[0;32m;[0;1;32;42m;;[0;1;33;40m;;$7[0m [36m,`[0m         [1;33m ''²/[0m [1;33m?[0;1;33;46m$[0;1;33;40m$ld$$7`[0;36m,`[0m        [1;31m:[0m  [1;33ml[0;1;37;47m$$[0;1;33;40m;[0m
- [35meee[0;1;35meeeeee[0;35meee[0;1;35meeeeee[0;35meee[0;1;35meeeeee[0;35meee[0;1;35meeeeee[0;35meee[0;1;35meeeeee[0;35meee[0;1;35meeeeee[0;35meee[0;1;35meeeeee[0;35meee[0;1;35meeeeee[0;35meee[0m
-[37m [0;1;35meeee[0;35meeee[0;1;35meeeee[0;35meeee[0;1;35meeeee[0;35meeee[0;1;35meeeee[0;35meeee[0;1;35meeeee[0;35meeee[0;1;35meeeee[0;35meeee[0;1;35meeeee[0;35meeee[0;1;35meeeee[0;35meeee[0;1;35meeee[0m
+ [35m   [0;1;35m      [0;35m   [0;1;35m      [0;35m   [0;1;35m      [0;35m   [0;1;35m      [0;35m   [0;1;35m      [0;35m   [0;1;35m      [0;35m   [0;1;35m      [0;35m   [0;1;35m      [0;35m   [0m
+[37m [0;1;35m    [0;35m    [0;1;35m     [0;35m    [0;1;35m     [0;35m    [0;1;35m     [0;35m    [0;1;35m     [0;35m    [0;1;35m     [0;35m    [0;1;35m     [0;35m    [0;1;35m     [0;35m    [0;1;35m    [0m
   [1;31m.[0m  [1;32m┌┌┌┌[0m [1;33m┌[0;1;32m┌┌┌┌[0;1;36m┌┌┌┌[0;1;32m┌┌┌[0m [1;32m┌┌┌┌┌┌[0m [1;36m┌┌[0;32m┌┌[0;1;36m┌[0;1;36;44m┌┌[0;32m┌[0;1;32m┌┌[0;1;36m┌┌[0;32m┌┌[0;37m [0;32m┌┌┌[0;1;32m┌┌┌┌┌┌[0m [1;32m┌┌┌[0;1;36m┌┌[0;1;32m┌┌[0;1;36m┌┌[0;32m┌┌[0;1;32m┌[0m [1;32m ,┌┐,[0m
   [1;31ma[0m [1m [0;1;33m`7$├L,[0;1;36m`└/$├$$$[0;1;36;44m├[0;1;36;40m├$[0m [1;33m;$$├$L[0m [1;36m/$$├[0;1;36;44m$$[0;1;36;40m├├$$├├$\[0m [1;33m7$T$[0;36m;;;;;;.[0;1;36m`└/$├[0;1;36;44m$$[0;1;36;40m$├├$[0m [1;32m;[0;1;32;42m$[0;1;32;40m$[0;1;32;42m$$[0;1;32;40m;[0m
   [1;31mc[0m [1m;\.[0;1;33m`/[0;1;33;46m$[0;1;33;40m├b┌,._[0;1;36;40m`"└*/$[0m [1;33ml$$;$├b.[0;1;36m`┘/├S**S├\└`[0;1;33m.d$$1[0;1;37;47m$$[0;1;33;40m$[0m [1;33m`/$$b┌,._[0;1;36m`"└*/$[0m [1;32m `┘└`[0m
@@ -36,6 +36,4 @@ Write-Host '
 
 
 
------[cut here ]-------------
-[1;30mshadow lord/sclr - font[0m
-[1;30mas-d/sclr - color&touchups[0m'
+-----[cut here ]-------------[0m'

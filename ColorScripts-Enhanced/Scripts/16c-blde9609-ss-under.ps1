@@ -5,7 +5,7 @@
 # Source SHA-256: 381aa09d59ae7b7f812bab37cea4390316545046d5471c8a2299daa496e4281c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-UNDER.ANS by soul seeker (blade productions); released in blde9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: belial's downfall
 # SAUCE Author: soul seeker
 # SAUCE Group: blade productions
@@ -35,8 +35,7 @@ Write-Host '
       [1;31;41m▒[0;31m▄ [0;36m▀▄▄▀[0m     [35m█[0;1;35;45m░[0;35m██ [0;36m▄    [0;37m█[0;1;37;47m▀░░[0m          [34m█[0;1;34;44m▀░░[0m        [36m░[0m         [37m▄▄[0m       [36m▓  ▀ [0;1;30m░[0m
        [31m▀[0;1;31;41m░[0;31m▄▄▄▀   [0;35m█[0;1;35;45m░[0;35m██[0m         [37m▀▀[0m         [36m▀  [0;34m▀▀ [0;36m▄[0m                [37m█[0;1;37;47m▀░░[0m      [36m▄  █[0m
 [36m    [0;34m▄▄   [0;31m▀▀   [0;1;35;45m░░░[0;35m█[0m     [36m█[0m                  [36m▀ ▀[0m                   [37m▀▀[0m          [36m▄[0m
-[36m   [0;34m█[0;1;34;44m▀░░[0m    [35m▄[0;1;35;45m▄▓▒░[0m            [1;36;40mb[0;36melial[0;1;36m''[0;36ms [0;1;36mu[0;36mnder[0;1;36mWEAR... u[0;36mhm[0;1;36m... u[0;36mnder[0;1;36mARM...[0m
-[1;36m    [0;34m▀▀[0m     [35m▀[0;35;45m   [0;35;40m▀[0m       [36;40m▄[0m            [1;36;40mu[0;36mhm[0;1;36m... u[0;36mnderfall[0;1;36m...[0m
+[36m   [0;34m█[0;1;34;44m▀░░[0m    [35m▄[0;1;35;45m▄▓▒░[0m            [1;36;40m [0;36m     [0;1;36m [0;36m  [0;1;36m [0;36m    [0;1;36m         [0;36m  [0;1;36m     [0;36m    [0;1;36m      [0m
+[1;36m    [0;34m▀▀[0m     [35m▀[0;35;45m   [0;35;40m▀[0m       [36;40m▄[0m            [1;36;40m [0;36m  [0;1;36m     [0;36m        [0;1;36m   [0m
 
-[1;36m [0;1;30m-/cut here/-------------------------------------------------------------------[0m
-[1;30m To Belial -->  [0mNope, i didn''t forget the [1mr [0min underfall...  I ALMOST did... ;)[0m'
+[1;36m [0;1;30m-/cut here/-------------------------------------------------------------------[0m'

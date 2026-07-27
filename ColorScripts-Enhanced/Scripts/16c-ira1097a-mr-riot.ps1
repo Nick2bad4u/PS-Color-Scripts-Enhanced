@@ -5,7 +5,7 @@
 # Source SHA-256: 68aeb8c80b07b65501b2c9dce0cfc8a8e8bd63609329f2d75ab7c46419f5162f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-RIOT.ANS by Mr.Wrong (irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Riot
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: irato
@@ -33,6 +33,4 @@ Write-Host '
                 [1;34m    [0m [34m▀■[0;37m [0m          [1;37m■▄[0m▀ [34m▐▀[0;37m    [0;34m■▀[0;37m [0;30;42m▀[0;1;32;40m▄▄▄▄[0;1;32;42m▄[0;1;32;40m██            [0m
                                           [1;34m [0;30;42m▀[0;1;32;42m▄[0;1;32;40m███▀▀▀▀▀▀  [0m
                          [1;32m [0m                [30;42m▄[0;1;32;40m▀[0m        [1;30m[[0;1;37mwrng[0;1;30m][0m
-                                [1;33m-[0;1;32m ri[0;1;32;42mo[0;1;32;40mt[0m [1;33m-[0m
-                         [1m [0m   [1;32m([0;32mdeuxieme prise[0;1;32m)[0m
-                          [1;33madmin[0;1;37m''[0;1;33ms[0;1;37m: Nitro [0m&[1m Bilbo[0m'
+                                [1;33m-[0;1;32m ri[0;1;32;42mo[0;1;32;40mt[0m [1;33m-[0m'

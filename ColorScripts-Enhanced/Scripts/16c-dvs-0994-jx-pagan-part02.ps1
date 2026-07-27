@@ -5,7 +5,7 @@
 # Source SHA-256: 0935ddcddcedcf93f28bc60ad9962a8421e695e91dd6d865ee4b0ff00a4b355b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JX-PAGAN.ANS by Jynx (dvs-0994); released in dvs-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 34-66
 # Columns: 1-80
 
@@ -25,13 +25,13 @@ Write-Host '
 [1;30;47m▓▒░[0;1;37;47m░▒[0m▀▀▀▀▒[1;30m▓▄▄[0;1;30;47m▓▓▓▒[0m▀[1;30m▄[0;1;30;47m▓▓▒[0m▓[47m [0;1;47m░░▒ [0m▓▒ ▒▓[1;30;47m▒░ [0;1;37;47m░▒ ░░[0m▌ [1;30m▓[0;1;30;47m▒░ [0;1;37;47m░ ░ [0m▓▌   ▓▌[31m█▒▓[0;31;41m   [0;31;40m▒▓[0;31;41m    [0;31;40m▒[0;31;41m    [0;31;40m▒▓[0;31;41m   [0m
 [37;40m▀[0;1;30;47m░[0m▄▄▄[1;30m▓[0;1;30;47m▓▒░▒▓▓[0m▓[1;30;47m▒[0m▒[1;30m▒▄[0;1;30;47m▓▓▒░[0m▓[1;47m▒░ ░[0m▓[1;47m░ [0m▓ ░▒▓[1;30;47m░[0;42m▓[0;47m [0;1;47m░   ▒[0m [1;30;40m▒[0;1;30;47m░[0m▓▓▓▓[42m▓[0;40m▓▒▒  ░▒[0;31;40m▐[0;31;41m [0;31;40m▒▓█[0;31;41m   [0;31;40m▒[0;31;41m    [0;31;40m▒▓[0;31;41m    [0;31;40m▒█[0;31;41m [0;1;31;41m░[0m
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;37;47m [0;1;30;47m∙                /%/ Ansi by Jynx /%/ Taken from Pitt #2 /%/                 ∙ [0m
+[1;37;47m [0;1;30;47m                                                                               [0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30;40mPaGaN PaGaN P[0;31m▄▄▄[0;1;30;41m░ [0;1;31;41m░░▒[0;1;31;40m▄▄ [0;1;30;40mPaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN Pa[0m
-[1;30;40m PaGaN PaG[0;31m▄▀▀▀▀[0;1;30;41m░▒░  [0;1;31;41m░▒▓█[0;1;31;40m▄[0;1;30;40mPaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN P[0m
-[1;30;40mN PaGaN PaG[0m▄█[1;47m░[0m▀[1;30maGa[0;31m▀▀[0;1;30;41m░[0;1;31;41m░▒▓▓█[0;1;30;40mPaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN[0m
-[1;30;40maN PaGaN Pa[0m▐[1;47m░▒[0;1;40m▌[0;1;30;40mPaGaN [0;31m▐[0;1;31;41m░▒▓█[0;1;31;40m▌[0;1;30;40mPaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN[0m
-[1;30;40mGaN PaGaN P[0m▐[1;47m▒▓[0;1;30;40mN PaGaN[0;1;31;41m░▒▓█[0;1;31;40m█[0;1;30;40mN PaGaN PaGa[0;31m▄[0;1;31m▄▄▄[0;1;30mN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN[0m
+[1;30;40m             [0;31m▄▄▄[0;1;30;41m░ [0;1;31;41m░░▒[0;1;31;40m▄▄ [0;1;30;40m                                                        [0m
+[1;30;40m          [0;31m▄▀▀▀▀[0;1;30;41m░▒░  [0;1;31;41m░▒▓█[0;1;31;40m▄[0;1;30;40m                                                       [0m
+[1;30;40m           [0m▄█[1;47m░[0m▀[1;30m   [0;31m▀▀[0;1;30;41m░[0;1;31;41m░▒▓▓█[0;1;30;40m                                                     [0m
+[1;30;40m           [0m▐[1;47m░▒[0;1;40m▌[0;1;30;40m      [0;31m▐[0;1;31;41m░▒▓█[0;1;31;40m▌[0;1;30;40m                                                     [0m
+[1;30;40m           [0m▐[1;47m▒▓[0;1;30;40m       [0;1;31;41m░▒▓█[0;1;31;40m█[0;1;30;40m            [0;31m▄[0;1;31m▄▄▄[0;1;30m                                     [0m
 [1;30maGaN PaGaN [0;1;37;47m▒▓[0;1;37;40m▌[0;1;30;40maN[0;31m▄▄▄▄[0;1;31;41m░▒▓█[0;1;31;40m▀[0;1;30;40mGaN PaGaN [0;31m▄[0;1;31;41m░▒▒▓▓[0;1;31;40m▀▀[0;1;30;40mN PaGaN PaGaN PaGaN PaGaN PaGaN PaGaN[0m
 [1;30;40mPaGaN PaGa[0;31m▀▄▄▄[0;1;30;41m▒░ ░ [0;1;31;41m░▒[0;1;31;40m▀▀[0;1;30;40maN[0;31m▄[0;1;31m▄▄▄ [0;1;30mPaGa[0;31m█[0;1;31;41m░▒▓[0;1;31;40m▀[0;1;30;40mN PaGaN PaGa[0;31m▄[0;1;31m▄▄▄[0;1;30maN PaGaN PaGaN PaGaN PaGa[0m
 [1;30m PaGaN PaG[0m▐[1;47m░░[0m▄[31m▀▀▀▀ [0;1;30mPaG[0;31m▄[0;1;30;41m░[0;1;31;41m░▒▓[0;1;31;40m█▀▀▄[0;1;30;40mN [0;31m█[0;1;31;41m░▒▓[0;1;31;40m▌[0;1;30;40mGaN PaGaN [0;31m▄[0;1;30;41m░[0;1;31;41m░▒▓[0;1;31;40m█▀▀▄[0;1;30;40mN Pa[0;31m▄▄[0;1;30;41m░[0;1;31;41m░░ [0;31m▄▄[0;1;30mN PaGaN PaG[0m
@@ -41,5 +41,5 @@ Write-Host '
 [1;30;40maGaN PaG[0m▐▓█[1;47m░▒▓[0;1;40m██▄[0;1;30;40mPaGaN[0;31m▀[0;1;30;41m░[0;1;31;41m░▒▓[0;1;31;40m▄▄▄▀[0m▄[1m▌[0;1;30mPa[0;31m▀[0;1;31;41m░▒▒▓▓[0;1;31;40m▄▄▄▀[0;1;30;40mPaG[0;31m▀[0;1;30;41m░[0;1;31;41m░▒▓[0;1;31;40m▄▄▄▀[0m▄[1m▌[0m▐[47m [0;1;47m░▒▓[0;1;40m▄[0;1;30;40mGaN P[0;1;31;41m▓[0;1;31;40m▌[0;1;30;40maN PaGaN[0m
 [1;30;40mPaGaN Pa[0m▀[47m [0;1;47m░▒▓[0;1;40m█▀▀[0;1;30;40mN PaGaN P[0;31m▀[0;1;31m▀▀▀ [0m▀[1m▀[0;1;30mN PaGa[0;31m▀[0;1;31m▀▀▀ [0m▒▀ [1;30mPaGaN[0;31m▀[0;1;31m▀▀▀[0;1;30ma[0m▀[1m▀[0;1;30mPa[0m▀▀▀[1m▀[0;1;30mPaGaN P[0;1;31m▀[0;1;30mGaN PaGa[0m
 [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;37;47m [0;1;30;47m:∙    PaGaN - 201 891 5399 - PaGaN WHQ - LoRDS DiSTRo - DePTHeRiA DiSTRo    ∙: [0m
+[1;37;47m [0;1;30;47m                                                                               [0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

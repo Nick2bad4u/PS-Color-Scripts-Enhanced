@@ -5,7 +5,7 @@
 # Source SHA-256: 2ca7a08019946d0a143f91508654038f7dab56992fbbf69f68a6bbe88563da2c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-TOD.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 66-115
 # Columns: 1-80
 
@@ -46,17 +46,4 @@ Write-Host '
            [31m█▌[0;1;31;41m▒▒░[0;31m████[0;31;41m    [0;31;40m█▀   ▐[0;1;30;41m▒░▒[0;31m▌ ▐[0;1;30;41m▒░▒[0;31m▌ ▐[0;1;30;41m▒░▒[0;31m▌ ▐[0;1;30;41m▒░▒[0;31m▌ ▐[0;1;30;41m▒░▒[0;31m▌ ▐[0;1;30;41m▒░▒[0;31m▌ ▐[0;1;30;41m▒░▒[0;31m▌[0m
            [31m▐█▌[0;1;31;41m░  [0;31m███████▌    [0;1;30m▐[0;1;30;41m▓▒▓[0m   [1;30;41m▓▒▓[0;1;30;40m▌ ▐[0;1;30;41m▓▒▓[0m   [1;30;41m▓▒▓[0;1;30;40m▌ ▐[0;1;30;41m▓▒▓[0m   [1;30;41m▓▒▓[0m   [1;30;41m▓▒▓[0;1;30;40m▌[0m
             [31m▀▀ ▀███████▀[0m      [1;30m▀[0;1;30;41m▓[0;1;30;40m██▄█[0;1;30;41m█▓[0;1;30;40m▀   ▀[0;1;30;41m▓[0;1;30;40m██▄█[0;1;30;41m█▓[0;1;30;40m▀   ▀[0;1;30;41m▓[0;1;30;40m█▌  ▀[0;1;30;41m▓[0;1;30;40m▀  ▐[0;1;30;41m█▓[0;1;30;40m▀[0m
-                 [31m▀▀▀▀[0m           [1;30m▀▀▀▀▀[0m       [1;30m▀▀▀▀▀[0m       [1;30m▀[0m         [1;30m▀[0m
-
-                                                    [1;37mW[0;1;33mo[0;1;31mrshippe[0;31mr[0;1;30ms [0;1;37mo[0;1;33mf [0;1;37ma f[0;1;33ma[0;1;31mll[0;31me[0;1;30mn [0;1;37mc[0;1;33mu[0;1;31ml[0;31mt[0m
-                                                      [1;37mh[0;1;33mu[0;1;31mdd[0;31ml[0;1;30me [0;1;37ma[0;1;33mi[0;1;31mmless[0;31ml[0;1;30my [0;1;37mi[0;1;33mn [0;1;37ma r[0;1;33mo[0;1;31mo[0;31mm[0m
-                                                      [1;37mP[0;1;33mr[0;1;31mayi[0;31mn[0;1;30mg [0;1;37mt[0;1;33mo [0;1;37ma g[0;1;33mo[0;1;31md [0;1;37mo[0;1;33mf [0;1;37md[0;1;33me[0;1;31mce[0;31mi[0;1;30mt[0m
-     [1;37m≈[0m∙[1;30m·[0m     [1;31mT[0;31mempl[0;1;30me [0;1;31mo[0;31mf [0;1;31mD[0;31moo[0;1;30mm    ·[0m∙[1m≈[0m                         [1ml[0;1;33mi[0;1;31me[0;31ms[0;1;30m, [0;1;37ma[0;1;33mn[0;1;31md [0;1;37md[0;1;33ma[0;31mr[0;1;31mk [0;1;37md[0;1;33mr[0;1;31mea[0;31mm[0;1;30ms[0m
-     [1;37m≈[0m∙[1;30m·[0m                       [1;30m·[0m∙[1m≈[0m                    [1mW[0;1;33ma[0;1;31mi[0;31ml[0;1;30ms [0;1;37mo[0;1;33mf [0;1;37ml[0;1;33ma[0;1;31mught[0;31me[0;1;30mr [0;1;37mr[0;1;33mi[0;1;31mn[0;31mg [0;1;37mo[0;1;33mu[0;1;31mt[0m
-     [1;37m≈[0m∙[1;30m· [0;1;37mSysOp[0;1;30m-[0mThe Dark Shadow [1;30m·[0m∙[1m≈[0m                            [1mt[0;1;33mh[0;1;31me [0;1;37mc[0;1;33me[0;1;31mili[0;31mn[0;1;30mg [0;1;37ms[0;1;33mh[0;1;31mak[0;31me[0;1;30ms[0m
-     [1;37m≈[0m∙[1;30m·[0m        [1;30mThe Dark Shadow·[0m∙[1m≈[0m                     [1mw[0;1;33ma[0;1;31ml[0;31ml[0;1;30ms [0;1;37mb[0;1;33mu[0;1;31mck[0;31ml[0;1;30me [0;1;37mu[0;1;33mn[0;1;31md[0;31me[0;1;30mr [0;1;37ms[0;1;33mt[0;1;31mre[0;31ms[0;1;30ms[0m
-     [1;37m≈[0m∙[1;30m·[0m                       [1;30m·[0m∙[1m≈[0m                      [1mP[0;1;33ma[0;1;31mrishione[0;31mr[0;1;30ms [0;1;37mw[0;1;33mh[0;1;31mo [0;1;37mh[0;1;33me[0;1;31ml[0;31md [0;1;37ms[0;1;33mo[0m
-     [1;37m≈[0m∙[1;30m·[0m      [1;33m1303DREAMON[0m      [1;30m·[0m∙[1m≈[0m            [1mt[0;1;33mi[0;1;31mght[0;31ml[0;1;30my [0;1;37mt[0;1;33mo [0;1;37mt[0;1;33mh[0;1;31me[0;31mi[0;1;30mr [0;1;37mf[0;1;31mai[0;31mt[0;1;30mh [0;1;37mm[0;1;33mo[0;1;31mmen[0;31mt[0;1;30ms [0;1;37ma[0;1;33mg[0;1;31mo[0m
-                                                                 [1;37mc[0;1;33mu[0;1;31mr[0;31ms[0;1;30me [0;1;37mt[0;1;33mh[0;1;31me[0;31mi[0;1;30mr [0;1;37mg[0;1;33mo[0;1;31md[0m
-                                                      [1;37mt[0;1;33mh[0;1;31me[0;31my [0;1;37mh[0;1;33ma[0;1;31mv[0;31me [0;1;37mm[0;1;33me[0;1;31mt [0;1;37mt[0;1;33mh[0;1;31me[0;31mi[0;1;30mr [0;1;37md[0;1;33me[0;1;31mmi[0;31ms[0;1;30me[0m
-                                                   [1;37ma[0;1;33mm[0;1;31mass[0;31me[0;1;30md [0;1;37mi[0;1;33mn [0;1;37mT[0;1;33mh[0;1;31me [0;1;37mT[0;1;33me[0;1;31mmp[0;31ml[0;1;30me [0;1;37mo[0;1;33mf [0;1;37mD[0;1;33mo[0;1;31mo[0;31mm[0m'
+                 [31m▀▀▀▀[0m           [1;30m▀▀▀▀▀[0m       [1;30m▀▀▀▀▀[0m       [1;30m▀[0m         [1;30m▀[0m'

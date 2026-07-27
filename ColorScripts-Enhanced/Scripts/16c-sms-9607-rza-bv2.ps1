@@ -5,7 +5,7 @@
 # Source SHA-256: f5869e0bb28ffd66fdc26c4a76066eafd970b83c1017d7716d5090045a5ab179
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZA-BV2.ANS by The RZA (Samsara); released in sms-9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bottled Violence
 # SAUCE Author: The RZA
 # SAUCE Group: Samsara
@@ -17,11 +17,11 @@
 Write-Host '
 [31m     [0m
 [37m  [0;31m▄[0m         [31m     [0m      [31m█[0;37m  [0;31m▄[0m                                   [1;30m         [0m
- [1;31m▄[0;1;31;41m▓[0;31m▀▀[0;37m [0;31m▀      [0;37m [0;31m  [0m     [31m▀▀ ▀[0;1;31;41m▀▓[0;31m▀[0m        [1;30mFUCK FONTS.[0m                      [1;30m         [0m
-[1;30m  [0;1;31;41m▀[0;1;30;40m come child, its time[0m  [1;31;41m░[0m     [1;30m [0m [1;30m                                   [0m
-  [31m▓           ▄  ▄ ▄▄▄▄[0;1;31;41m▄[0m  [31m▓[0m      [1;30m [0m  [1;30mThis is an advo for [0;31mB[0;1;31mO[0;1;37mT[0;1;30mTLED [0;31mV[0;1;31mI[0;1;37mO[0;1;30mLENCE,[0m
-  [31m░[0m           [31m     [0m   [31m▀[0;1;31;41m▀[0m  [31m░[0m         [1;30mMy favorite local demented system.[0m
-                                    [1;30mInvitation only.       [0m
+ [1;31m▄[0;1;31;41m▓[0;31m▀▀[0;37m [0;31m▀      [0;37m [0;31m  [0m     [31m▀▀ ▀[0;1;31;41m▀▓[0;31m▀[0m        [1;30m           [0m                      [1;30m         [0m
+[1;30m  [0;1;31;41m▀[0;1;30;40m                     [0m  [1;31;41m░[0m     [1;30m [0m [1;30m                                   [0m
+  [31m▓           ▄  ▄ ▄▄▄▄[0;1;31;41m▄[0m  [31m▓[0m      [1;30m [0m  [1;30m                    [0;31m [0;1;31m [0;1;37m [0;1;30m     [0;31m [0;1;31m [0;1;37m [0;1;30m      [0m
+  [31m░[0m           [31m     [0m   [31m▀[0;1;31;41m▀[0m  [31m░[0m         [1;30m                                  [0m
+                                    [1;30m                       [0m
 
    ·
                           [1m·[0m                          [1m·[0m

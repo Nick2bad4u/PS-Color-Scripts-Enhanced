@@ -5,7 +5,7 @@
 # Source SHA-256: 72d6b2a6964729a6ba5176597b5345e0033079b93212933e06772287c9a8796e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZE-BLAK.ANS by ize (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Thursday
 # SAUCE Author: ize
 # SAUCE Group: Revival 2002
@@ -29,6 +29,4 @@ Write-Host '
 [1;34;40m  [0;33m [0;30;43m▓[0;1;33;43m░[0;30;43m░[0;34;40m ███░[0;36;40m [0;33;40m▀▀▀▀▀▀▀[0;36;40m [0;34;40m▐[0;30;44m░[0;34;40m▓▌[0;36;40m [0;34;40m▄▄▄▄▄▄▄▄▄▄▄▄█ [0;36;40m [0;30;44m▓[0;34;40m█[0;30;44m░[0;34;40m▓▄▄▄▄▄▄▄▄▄▄▄▄▄█ [0;30;43m▓[0;33;40m█[0;1;33;43m██░[0;33m▌[0;34m▐██▌ [0;33m▐░[0m
 [1;34m   [0;30;43m▓[0;1;33;43m░[0;30;43m░[0;34;40m ███▄▄▄▄▄▄▄▄▄▄▄███ [0;36;40m [0;33;40m▄[0;34;40m ███▄▄▄▄▄▄▄▄▄▄███░[0;30;43m█[0;33;40m▄▄▄[0;1;37;40m▄[0;1;33;40m▄▄[0;33m▄▄▄▄▄▄▄▄▄[0;34;43m░[0;33;40m▓[0;30;43m [0;33;40m█[0;34;40m ███░[0;30;44m▓[0m
 [1;34;40m [0m   [33m░[0;30;43m▓[0m    [34;40m [0m                       [34;40m  [0m        [33;40m░[0;30;43m▓░░[0;33;40m█[0;1;33;43m▀▀▀[0;30;43m  thursday [0;33;40m░[0;30;43m▓[0;33;40m  [0;34;40m [0;37;40m [0;1;33;40m [0m
-                                [34m           [0m   [33m░[0;30;43m▓[0;37;40m  [0;33;40m  [0m
-
-                 [35;40mHey, this was fun! still needs more practice tho! :)[0m'
+                                [34m           [0m   [33m░[0;30;43m▓[0;37;40m  [0;33;40m  [0m'

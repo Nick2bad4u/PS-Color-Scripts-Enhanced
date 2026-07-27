@@ -5,7 +5,7 @@
 # Source SHA-256: e6d85f901c1d29d0bea73011d8b807464aec6925ad5b5f6946b40444e1f66e2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SEL-ACID.ANS by seltorn (black maiden); released in ceg-012a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: seltorn
 # SAUCE Group: black maiden
 # SAUCE Date: 20000809
@@ -42,14 +42,13 @@ Write-Host '
 
 [1;37m ------[0m
 
-[1;37m this 23liner was done in one of my worst acid trips. i had horrors for like 11[0m
-[1;37m hours.[0m [1;37mi dont know, was it overlaid or was i overlaid, whatever. but i am sure[0m
-[1;37m i''m not gonna  abuse drugs anymore. im not going to get a chance to do it any-[0m
+[1;37m                                                                               [0m
+[1;37m       [0m [1;37m                                                                       [0m
+[1;37m                                                                               [0m
 [1;37m way.[0m
 
-[1;37m so, fast greets to everyone whom i respect and remember: avenger, zippy, unse-[0m
-[1;37m enf8, vader, toot,  keen, vilaz, naxor, lord matrix, everyone who used to know[0m
-[1;37m me when i was active back 2 years ago... see ya.[0m
+[1;37m                                                                               [0m
+[1;37m                                                                               [0m
+[1;37m                                                 [0m
 
-                                                           [1;37m_sel[0m
-                                                            [1;37ms3@cd.sysda.kiev.ua[0m'
+                                                           [1;37m_sel[0m'

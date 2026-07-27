@@ -5,7 +5,7 @@
 # Source SHA-256: 0bedca4ad522bc2c4137d3ea01d604dcbb2cda8d923c412f5b6b337edcf68900
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-EH.ANS by Shrimp (lure001); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -42,11 +42,11 @@ Write-Host '
 [35m█[0;1;35;45m█[0;35m█[0m   [35m▀▀▀[0;37m  [0;1;35;45m█[0;35m█[0m                  [37m░░░  [0;35m█[0;37m [0;35m▄▄▄▄█[0;36m [0;37m [0;36m [0;1;35;45m█[0m   [1;35;45m▒[0m  [36mPack #1 [0;37m  [0;35m█[0;1;35;45m█▀▀[0;35m███▄▄▄▄[0;37m [0;35m▄[0;37m [0;35m▄[0m
 [35m█[0;1;35;45m▀▀▀▀▀[0;35m██[0;1;35;45m▀[0;35m█[0;1;35;45m▀▀[0;35m█[0m                       [35m█[0;37m [0;1;35;45m▓[0m    [36m  [0;37m [0;1;35;45m▓[0m   [1;35;45m▓[0;35m▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;35;45m▄[0;35m█[0m
                                [35m▀[0;37m [0;35m▀▀▀▀[0;37m [0;1;35;45m▒[0m [36m11/00 [0;1;35;45m▒[0m
-"Then came Jesus forth, wearing the   [1;35;45m░[0;35m▄▄▄▄▄▄▄[0;1;35;45m░[0m  [36mFounder, Senior Member,[0;37m [0;36mANSI [0;37m [0;35m░[0m
-[37m crown of thorns, and the purple robe.[0m        [1;35;45m░[0m  [36m&[0;37m [0;36mASCII[0;37m [0;36mArtist, Webmaster, NFO[0;35m░[0m
-[37m And Pilate saith unto them, [0;1;37mBEHOLD THE MAN![0m" [35m█[0;37m  [0;36mWriter, Food & Sex Provider,[0;37m  [0;35m▒[0m
-[37m  [0m                                            [35m█[0;37m  [0;36mPreaching Prophet, God:[0m       [35m▓[0m
-[37m  - The Gospel according to John (19:5)[0m       [1;35;45m░[0m       [1;33m░░[0m [1;36mShrimp[0;1;37m.[0m [1;33m░░[0m            [35m▓[0m
-                                              [1;35;45m▒[0m ([1mShrimpzoni[0m@[1mHotmail[0m.[1mcom[0m)       [35m█[0m
+                                      [1;35;45m░[0;35m▄▄▄▄▄▄▄[0;1;35;45m░[0m  [36m                       [0;37m [0;36m     [0;37m [0;35m░[0m
+[37m                                      [0m        [1;35;45m░[0m  [36m [0;37m [0;36m     [0;37m [0;36m                      [0;35m░[0m
+[37m                             [0;1;37m               [0m  [35m█[0;37m  [0;36m                            [0;37m  [0;35m▒[0m
+[37m  [0m                                            [35m█[0;37m  [0;36m                       [0m       [35m▓[0m
+[37m                                       [0m       [1;35;45m░[0m       [1;33m░░[0m [1;36m      [0;1;37m [0m [1;33m░░[0m            [35m▓[0m
+                                              [1;35;45m▒[0m  [1m          [0m [1m       [0m [1m   [0m        [35m█[0m
 [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35m▄[0;35m▄▄▄▄[0;1;35m▄[0;35m▄▄▄▄▄[0;1;35m▄▄[0;35m▄▄[0;1;35m▄[0;35m▄[0;1;35m▄▄▄▄[0;1;35;45m▓[0m                                [1;35;45m░[0m
 [1;35;40m▒▒▒▒▒░░░[0m [1;35m░░[0m                                   [35m█▄▄▄▄▄[0;37m  [0;35m▄[0;37m  [0;35m▄[0m                     [1;35;45m▒[0m'

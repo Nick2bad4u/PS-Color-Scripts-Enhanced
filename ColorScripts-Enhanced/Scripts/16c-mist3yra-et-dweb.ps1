@@ -5,7 +5,7 @@
 # Source SHA-256: 3f53614ec4d20d5912cb5c95e03a7656957cb757a5e39d3fb80abb45a98d3953
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ET-DWEB.ANS by Etana (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DoDEL on the web
 # SAUCE Author: Etana
 # SAUCE Group: MiSTiGRiS
@@ -36,5 +36,4 @@ Write-Host '
             [1;30m▀▀█▄▄▄[0m                [1;32m█[0;1;30m▄[0m      [1;30m▄[0;1;32m▀▓[0;1;30m▀[0m          [1;32m███▓  ███[0;1;30m▀▀▀▄▄[0m      [1;30m▓[0m
              [1;30m█    ▀▀▀▓▄▄▄[0m        [1;32m▀ [0;1;30m▀▄  ▓▀▀  [0;1;32m▀▀▓██▄    ▄██▓▓   ▓██[0m     [1;30m▀▀▀▀▄▄ █[0m
             [1;30m█[0m           [1;30m▀▓▄▄[0m      [1;30m▄▄▓█▀[0m        [1;32m▀▓██▄███▓▀▀  ▄▀██▀[0m           [1;30m▀▀▀▄[0m
-[1;34mSee us at  [0;1;30m█[0m                [1;30m▀▀▀▀▀▀    ▀[0m
-[1;34mour [0;35mNEW [0;1;34mwebsite: [0mwww.geocities.com/Athens/Parthenon/7799/dodel.html[0m'
+[1;34mSee us at  [0;1;30m█[0m                [1;30m▀▀▀▀▀▀    ▀[0m'

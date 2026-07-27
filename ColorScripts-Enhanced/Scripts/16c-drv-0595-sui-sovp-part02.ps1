@@ -5,7 +5,7 @@
 # Source SHA-256: d7713190c82eac2f2f0723b07af1a3c109a2b200fa93579fca73c43f84fa78a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUI-SOVP.ANS by SuiCyco (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Agressor
 # SAUCE Author: SuiCyco
 # SAUCE Group: Driven
@@ -44,8 +44,5 @@ Write-Host '
 [1;36;46m▓█▓▓░▒█▓[0;1;36;40m█[0m▐[1;30;47m▐[0;1;30;40m▌[0;32m░░▒▓[0;1;32;42m░[0;32m▓▒▓[0;1;34;42m▀▀▀▀▀▀▀▀[0;32m▓▓▒░▓░▒▓░▒[0;1;30m▐[0;1;30;47m▌[0m▌[32m▒▒▓▒▌ [0;1;30m░[0m░░░▒[32m▐░▒▒[0;1;32m▒[0;32m▒[0;1;32m▓▒[0;32m▓[0;1;36m▐[0;1;36;46m▒▓▒▓█▓▒█▓▒▒█▒▓▒▓[0m
 [1;36;46m██▓█▒▓█▓█[0;1;36;40m▌[0m█[1;30m█[0;32m░░░▒▓▓▒▓▒▒▓▓▓▓▓▓▒▒▒▓░▒▓▒░▓▌[0;1;30m█[0m█[32m░▒▓░ [0;1;30m░▒[0m░▒▒░[32m▓▒▒░▒░▒▓▒[0;1;36m▐[0;1;36;46m▓█▓██▓▒█▓▒▓█▓█▓▒[0m
 [1;34;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30;44mArea 88 · Driven WHQ [0;34m█[0;1;30;44mSpecializing[0;34m█[0;1;30;44min:[0;34m█[0;1;30;44mCouriering, Art and Coding.            [0m
-[1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-
-'
+[1;30;44m                     [0;34m█[0;1;30;44m            [0;34m█[0;1;30;44m   [0;34m█[0;1;30;44m                                       [0m
+[1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

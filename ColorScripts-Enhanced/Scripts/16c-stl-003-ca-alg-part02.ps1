@@ -5,7 +5,7 @@
 # Source SHA-256: 1509b8bc30ba30d5d478e3752057b3321a75ac667d9708d9fc975c4f6a3e08bc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-ALG.ANS by Catonica (Stile Productions 95); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Moose City Logo
 # SAUCE Author: Catonica
 # SAUCE Group: Stile Productions 95
@@ -42,8 +42,6 @@ Write-Host '
 [1;30m ░░▒▓▓████████████████████████████████████████████████████████████████████▓▓▓▒░[0m
  [1;30m ░░░░▓▀▀[0m [1;30m▀█[0m [1;30m▀▀▀▀▓▓▀▀▀▀▀▀[0m [1;30m█[0m     [1;30m▀▀▀▀▀▀▀▀▀▀▀▀[0m    [1;30m▀[0m  [1;30m▀[0m  [1;30m▀▀▀▀▀▀▀▀▀ ▀▀██▀▀▀[0m  [1;30m▀ ▀ ░[0m
   [1;30m [0m        [1;30m▒[0m     [1;30m▓  [0m   [1;30m  [0m [1;30m▓[0;1;37m  [0;1;30m [0m +46 (o)8 55o 16892                  [1;30m█[0m
-  [1;30m░[0m        [1;30m░[0m              Sysop''s : [1mCatonica[0m And [1mPiiku![0m            [1;30m▓[0m         [1;30m░[0m
+  [1;30m░[0m        [1;30m░[0m                        [1m        [0m     [1m      [0m            [1;30m▓[0m         [1;30m░[0m
                  [1;30m░[0m         [1;30m [0m                                       [1;30m▒[0m
-           [1;30m░[0m               [1;30m[[0m■[1;30m] [0;1;37mThe Moose Is Loose! [0;1;30m[[0m■[1;30m][0m        [1;30m    [0m [1;30m░[0m
-
-                    Ansi by [1mCatonica [0mof [1mStile [0min Oktober 1995[0m'
+           [1;30m░[0m               [1;30m [0m■[1;30m  [0;1;37m                    [0;1;30m [0m■[1;30m [0m        [1;30m    [0m [1;30m░[0m'

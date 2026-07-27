@@ -5,7 +5,7 @@
 # Source SHA-256: 838039cac04280ecda19031d752516579d88b05379fa78a9707894d92d2c2264
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M2-GRAPE.ANS by milkman (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: grape
 # SAUCE Author: milkman
 # SAUCE Group: shade
@@ -58,8 +58,4 @@ Write-Host '
                [1;36;46m▐[0;1;36;40m▌[0;1;36;46m▄[0;1;36;40m▄▄▄▄▄▄▄▄▄▄[0;1;36;46m▄█▌[0m  [1;36;46m▐[0;1;36;40m▌[0;1;36;46m▄[0;1;36;40m▄▄▄▄▄▄▄▄▄▄[0;1;36;46m▄█▄[0;1;36;40m▄▄[0;1;36;46m█[0;1;36;40m▌[0;1;36;46m▌[0m
                        [36m▄[0;1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;36;46m▄█▌[0m  [36m▀[0;1;36m ▀▀▀▀▀▀▀▀[0;36m▀[0m
 
-[37m------------------------------------------------------------------------------- [0m
-[37m  woop.[0m
-[37m made this logo for my board (46 60 80022). say whatever about it. [0m
-[37m don''t complain about the font, i know the basicidea isn''t mine but i was short[0m
-[37m of time and had to rush.[0m'
+[37m------------------------------------------------------------------------------- [0m'

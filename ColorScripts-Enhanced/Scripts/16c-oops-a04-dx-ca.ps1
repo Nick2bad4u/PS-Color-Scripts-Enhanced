@@ -5,7 +5,7 @@
 # Source SHA-256: dbbe9f699ede065c572b39d6d1e91bec514196fc8d80dbf9d0221b4bbc35d935
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX!-CA.ANS by Drax (oops_a04); released in oops_a04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
 
 
 --------------------------------------------------------------------------------
-Hi , i fucking sucks at background (as we all know) .. so .. damnet.. my
-fonts are getting boring 2 ... damnet.. im getting bored .. ciao!@
+                                                                        
+                                                                  
 
 (drax) -[0m'

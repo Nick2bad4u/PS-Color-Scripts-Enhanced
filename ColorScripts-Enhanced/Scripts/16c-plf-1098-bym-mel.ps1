@@ -5,7 +5,7 @@
 # Source SHA-256: cd64f3bde36a9fe242bec988386dadeaa0d74ce6825dffc76b325b453107e2d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-MEL.ANS by bubbelbym (poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: myluev
 # SAUCE Author: bubbelbym
 # SAUCE Group: poffelipoff
@@ -53,4 +53,4 @@ Write-Host '
  [33m▀[0;1;33m▀[0;36m [0;1;33m▄▀▀[0;36m [0;34m█[0;36;44m▒▓[0;36;40m [0;1;33;40m█[0;33m▌[0;34m▐[0;34;46m▓[0;36;44m▒[0m   [33;40m▄▀ [0m    [34;40m▀[0;1;34;40m▒[0;36;44m░▓[0;34;46m [0;36;40m██ [0;34;40m▐[0;36;44m░[0;36;40m▌ [0;33;40m▀[0;1;33;40m▌[0;34;46m█[0;34;40m▌[0;36;40m  [0;33;40m▌[0;34;40m▀█[0;34;46m▓░[0;36;40m███[0;33;40m▐[0;1;33;40m▌[0;34m▐[0;34;46m▓▒[0;36;40m█▀[0;33;40m▄▌[0;34;40m▐[0;36;40m███▀  [0;1;33;40m▄██▀▀▀[0;36m [0;1;33m▄[0;33m▄▄[0m
 [37m [0;36m [0;33m░[0;30;43m▓[0;33;40m▀[0;36;40m   [0;1;34;40m▒[0;36;44m░▒[0m   [34;40m▐▀[0m     [1;36;40m      [0;36m  [0;34m▀[0;36;44m░▓[0;1;37;46m [0;36m▌[0;1;36m [0;36m [0;34m▀▌[0m   [34m▀▌[0;1;36m    [0;36m [0;34m▀[0;34;46m▓[0;36;40m██▌ [0;33;40m▌[0;34;40m▐▀[0;34;46m▓[0;36;40m  [0;1;33;40m█[0;33m▌[0;34m▐[0;36m█▀[0m   [33m▄[0;1;33m▄▀▀▀▀[0;33m▀[0;36m [0;33m░░[0;30;43m▓[0m
         [36;40m  [0m                     [34;40m▀[0;34;46m▄[0;36;40m▌[0m                [34;40m▀[0;36;40m█▌  [0;34;40m▐[0m     [1;33;40m▌[0;34m▐[0m      [33m▀[0m
-[37m [0;36m ansi by [0;1;37mbig yellow man[0;36m [0;1;36m░░░░[0;36m [0;1;36m░[0;36m  [0;34m▌[0m   [36mpoffelipoff[0m    [34m▌[0m      [36mproductions     1998[0m'
+[37m [0;36m         [0;1;37m              [0;36m [0;1;36m░░░░[0;36m [0;1;36m░[0;36m  [0;34m▌[0m   [36m           [0m    [34m▌[0m      [36m                    [0m'

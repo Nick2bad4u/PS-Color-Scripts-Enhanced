@@ -5,7 +5,7 @@
 # Source SHA-256: af56c83b589aca51e179a2201864a86370e76b63b863dd2ee82d961a1c69e39d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HB-ICEY.ANS by Hatebreed (esp0496); released in esp0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
@@ -22,7 +22,4 @@ Write-Host '
      [34m░[0;37m▐[0;1;37;47m░░▒[0;34m░[0;37m▐███ ███▌[0;34m░[0;37m▐███ █[0;1;37;47m ░[0m▌[34m░[0;37m▐[0;1;37;47m░░░[0m ██[1;47m░[0m▌[34m░[0;37m▐███ [0;1;37;47m░░ [0m▌[34m░[0;37m▐█[0;1;37;47m░[0m█[34m▒[0;1;37;47m▒▒░[0m▌[34m░[0;37m▐█[0;1;33;47m [0;1;37;47m░[0m [1;33;47m [0m██▌[34m░[0;37m▐[0;1;37;47m░░▒[0;34m░[0m
      [34m░ [0;37m▀[0;1;37;47m▒▓[0;1;37;40m▌ [0m▀███[1;47m░░[0m▀   ▀█████▀ [34m░░[0;37m▀██[0;1;37;47m░░[0m█▀   ▀█████▀[34m░░ [0;37m▀█[0;1;37;47m░▒▓▓[0m▀  [34m░[0;37m▀[0;1;37;47m░▒▒░░[0m▀[34m░░ [0;37m▀[0;1;37;47m▒▓[0;1;37;40m▌[0m
               [34m░░[0m            [34m░[0m
-        [1;34mI[0m      [1;34mC[0m        [1;34mE[0m          [1;34mY[0m         [1;34mC[0m        [1;34mO[0m          [1;34mO[0m       [1;34mL[0m
-
-[1;34m-[HaTeBReeD]-[0m
-  [1;34m-[eSP]-[0m                  [1;34m    [0m   [1;34mF L A V A[0m'
+        [1;34mI[0m      [1;34mC[0m        [1;34mE[0m          [1;34mY[0m         [1;34mC[0m        [1;34mO[0m          [1;34mO[0m       [1;34mL[0m'

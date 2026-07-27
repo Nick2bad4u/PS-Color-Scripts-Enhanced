@@ -5,7 +5,7 @@
 # Source SHA-256: b5ddaa082bf12d60522de295386656e329898a1957f73d4d4a28f97a3a013d0b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!-ATOM.ANS by sIMON kING (pROCREATION); released in pen15-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: aTOM
 # SAUCE Author: sIMON kING
 # SAUCE Group: pROCREATION
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[simon_k@friko.onet.pl]
+                       
                                              [1;33m▄▄▄▄▄█[0;1;33;47m▓[0;1;33;40m█[0;1;37;47m█[0;1;33;40m██▌[0;31m ▄▄▄▄▄▄▄▄▄██[0;1;31;41m░[0;31m█[0;1;30;41m▒▀█[0m
              [1;30m▄▄▄▄▄▄[0m [1;30m▄[0m                   [1;30m█[0;1;33;47m▄[0;1;33;40m███▀▀▀[0;31m [0;1;30m▄▄[0;1;33m▐[0;1;37m█[0;1;37;47m█[0;1;37;40m█[0;1;33;40m█▌[0;31m▀▀███[0;1;31;41m░[0;31m█[0;37m [0;1;30m▄▄▄■[0;31m██[0;1;31;41m ░[0;1;30;41m░[0;31m█[0m
 [37m    [0;1;30m▄▄▄▓▀▀▀▀▀ [0;31m▄▄▄▄▄▄[0;37m [0;1;30m■[0m [1;30m▄▄[0;31m▄▄[0m             [1;33m█████ [0;1;31;41m░[0;31m█[0;1;30;41m░▒█[0;31m [0;1;33m█[0;1;37m█[0;1;33m███[0;31m  ▐[0;1;31;41m░[0;31m███▌[0;37m  [0;1;30m▐▌[0;31m█[0;1;31;41m░[0;31m████  [0m
@@ -33,8 +33,4 @@ Write-Host '
   [31m  [0;35m▐[0;1;31;45m░▒▓[0;35m█▌[0;31m  [0m      [35m▐[0;1;31;45m ░ [0;1;33;45m░[0;1;31;45m [0;31m [0;35m███[0;1;31;45m [0;35m▌[0;31m  [0;35m▄▄▄▄███[0;1;35;45m░[0;35m█[0;1;33m [0;31m██████▀▀▀▀[0;37m  [0;33m▄▄▄▄▄▄███[0;1;31;43m▀█▀[0;33m███[0;1;31;43m ░[0;33m▄▄[0m
      [1;31;45m░[0;35m████[0;31m      [0;35m▄▄[0;1;35;45m░[0;1;31;45m   [0;35m▀▀[0;1;30m [0;35m█[0;1;33;45m░[0;35m██[0;1;35;45m░[0;35m▀▀▀▀[0;37m [0;1;30m▄▄▄▄▄■[0m              [33m  ▀▀▀███[0;1;31;43m [0;33m█[0;1;31;43m░[0;33m▀▀▀▀[0m
 [37m    [0;35m █[0;1;33;45m░[0;35m█[0;1;35;45m░[0;35m█▄▄▄█[0;1;35;45m [0;35m▀▀▀▀[0;31m    [0;1;30m■▄▄▄▄▄▄▄▓▀▀▀ [0m"...[1;30mw[0mith weapon in pocke[1;36mt[0m
-     [35m▀▀▀▀▀▀[0m    [37m    [0m                     [1;30mb[0me brave it''s so eas[1;36my[0m
-                                [1;30mw[0mithout it you''re so helples[1;36ms[0m
-                                           [1;30ml[0mook in the mirro[1;36mr[0m
-                                          [1;30mh[0mow do you feel no[1;36mw[0m
-                [1;30mw[0mhat do you think about yourself, about atom[1;36m?[0m" [sK!][0m'
+     [35m▀▀▀▀▀▀[0m    [37m    [0m                     [1;30mb[0me brave it''s so eas[1;36my[0m'

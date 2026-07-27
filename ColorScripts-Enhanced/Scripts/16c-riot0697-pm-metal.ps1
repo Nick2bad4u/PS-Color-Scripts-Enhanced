@@ -5,7 +5,7 @@
 # Source SHA-256: 3c789f44d87b792b5d013eb3cb6c13527ef8e9a9b2085827782b4155058d0229
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-METAL.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -35,14 +35,4 @@ Write-Host '
 [1;34m$$$$$$$$$$$$$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$$$[0;31m$[0;34m$$$$$$$$[0;1;34m$$$$$$$[0;34m$$$$$$$$$$$$$$$$$$$$$$[0;31m$[0;1;34m$[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$[0;31m$[0;34m$$$$$$$$[0;1;34m$$$$$$$$$[0;34m$$$$$$$$$$$$$$$$$$$$[0;31m$[0;1;34m$$[0m
 
-[1m   [0m                        [1m <<[0m  [34m6[0;1;34m1[0;34m9[0;1;34m-[0;34m4[0;1;34m2[0;34m3-4[0;1;34m97[0;34m0[0;37m [0;1;37m>>[0m
-   [1m  [0m                    [1m  [0m [1m<<[0m  [34mW[0;1;34marloc[0;34mk W[0;1;34mH[0;34mQ[0;37m  [0;1;37m>>[0m
-                       [1m    [0m [1m<<[0m  [34mM[0;1;34metalNe[0;34mt W[0;1;34mH[0;34mQ[0;37m [0;1;37m>>[0m
-  [1m  [0m      [1m      [0m       [1m<<[0m  [34mK[0;1;34mrue[0;34ml E[0;1;34mma[0;34mg D[0;1;34mistr[0;34mo S[0;1;34mit[0;34me [0;37m [0;1;37m>>[0m
-                      [1m [0;1;30m  [0;1;37m<<[0;1;30m S[0myso[1;30mp[0m:[1m [0;34mP[0;1;34mreciou[0;34ms M[0;1;34meta[0;34ml [0;1;37m>>[0m
-
-
-
-
-
-Up the Irons! to all the callers at Metal Edge[0m'
+[1m   [0m                        [1m <<[0m  [34m6[0;1;34m1[0;34m9[0;1;34m-[0;34m4[0;1;34m2[0;34m3-4[0;1;34m97[0;34m0[0;37m [0;1;37m>>[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 89997f83f4a417027274fb887af8b6d0e131e654e4e3e23ff09fc3c0d884f2d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RI-ST.ANS by iAR (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: shaolin temple
 # SAUCE Author: iAR
 # SAUCE Group: eclipse
@@ -35,6 +35,4 @@ Write-Host '
       ▄  [1;34m▄▄▄█[0;1;34;44m▓[0;34m▌▐[0;1;34;44m█[0;1;34;40m██▄[0m
       [1m▀[0m▀[1;34m ████[0;1;34;44m▓[0;34m▌▐[0;1;34;44m█[0;1;34;47m▓▓▓[0;1;34;40m [0m
         [1;34m █████ █[0;1;34;47m██[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m  [0m
-        [1;34m▐█████ ████[0;1;34;44m▓[0;34m▌[0m
-[1;37m                    [0m
-  [1m      [0m'
+        [1;34m▐█████ ████[0;1;34;44m▓[0;34m▌[0m'

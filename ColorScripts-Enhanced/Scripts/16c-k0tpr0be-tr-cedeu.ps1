@@ -5,7 +5,7 @@
 # Source SHA-256: 1cd4d85445937846a8919faf8f3a0e2496d8b1489f7380fffbb06fd42b856a6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-CEDEU.ANS by trate (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: drink the light in colors
 # SAUCE Author: trate
 # SAUCE Group: fbk
@@ -42,24 +42,24 @@ the background           .... quite... [1;30m    [0m [32m█[0;1;32m▓█�
 theory:                           [1;30m▄▄▄▄▄▄▄▄█[0m [32m ▀▀[0;1;32m   [0m  [1;30m  [0;32m▀[0;1;32m▀▀[0;1;30m ▀▀ [0m [1;30m┐[0m
                                   [1;30m█▓██[0;1;30;47mn[0;1;30;40mice██[0m                  [1;30m│[0m
 all these non                       [1;30m▀▀▀▀▀▀▀▀▀[0m                 [1;30m│[0m
-ansi specialists                     ^ quite invisible, nor?  [1;30m│[0m
-just look at                                                  [1;30m└ [0mnihilistic
-e.g. blackknight''s                                              alien from
-logo clustoz and                                                mars carrying
-say                                                             a hat on his
-                                                                central brain
-"[1;30m whooow fuckIN'' damit this guy rocks![0m "                        to avoid damage
-                                                                caused by
-...but.. none of his                                            intense sun
-(and a lot of german
-artists do so)
-fonts is self-
-development..
+                                                              [1;30m│[0m
+                                                              [1;30m└ [0m          
+                                                                          
+                                                                             
+                                                                            
+                                                                             
+ [1;30m                                     [0m                                         
+                                                                         
+                                                                           
+                    
+              
+              
+             
 
 blaaa...
 
-[1;35mFUCK THE SCENE POLITICS![0m
-fuck english
+[1;35m                        [0m
+            
 
-(it''s time for ficken)
+                      
                ^-- coden[0m'

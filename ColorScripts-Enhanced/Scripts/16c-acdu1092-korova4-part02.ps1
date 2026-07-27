@@ -5,7 +5,7 @@
 # Source SHA-256: 75f3d1f6e1993c9d59acb14aba8a2aea42552500e429e8b602a76d9bd81edb17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KOROVA4.ANS by Sonic (acdu1092); released in acdu1092 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 41-80
 # Columns: 1-80
 
@@ -41,12 +41,4 @@ Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;33m─────[0;33m─[0;1;33m────[0;33m─[0;1;33m───[0;33m─[0;1;33m──[0;33m─[0;1;33m─[0;33m──[0;1;33m─[0;33m───[0;1;33m─[0;33m────────────────────────────[0;1;33m─[0;33m───[0;1;33m─[0;33m──[0;1;33m─[0;33m─[0;1;33m──[0;33m─[0;1;33m───[0;33m─[0;1;33m────[0;33m─[0;1;33m─────[0m
 
-                          [1;37m3[0mo[1;30m5.[0;1;37m8[0m9[1;30m3.[0;1;37m1[0m5[1;30mo8    [0;1;37m9[0m6[1;30moo+ [0;1;37mP[0ml[1;30mease[0m
-                                 AC[1mi[0mD [1mFL O[0mu[1;30mtpost[0m
-                      [1;37m2[0mo[1;30moo+ [0;1;37mT[0me[1;30mxts of all [0;1;37mS[0mo[1;30mrts [0;1;37m· [0mo[1;30m-[0m7 [1mD[0ma[1;30my [0;1;37mW[0ma[1;30mrez[0m
-           [1;37mS[0my[1;30ms[0;1;37mO[0mp[1;30m: [0;1;33mE[0;33merie [0;1;33mS[0;33mmith [0;1;30m<[0mAC[1mi[0mD[1;30m> [0;1;37m· R[0me[1;30mmote [0;1;37mS[0;1;30mys[0;1;37mO[0;1;30mp: [0;1;33mB[0;33mlade [0;1;33mR[0;33munner [0;1;30m<[0mAC[1mi[0mD[1;30m>[0m
-[1;30m    [0;1;37mN[0ma[1;30md[0;1;37mS[0ma[1;30mt [0;1;37mWHQ · C[0my[1;30mber[0;1;37mC[0mr[1;30mime [0;1;37mI[0mn[1;30mternational [0;1;37m· S[0mk[1;30m8[0;1;37mN[0me[1;30mt [0;1;37mFL H[0mu[1;30mb [0;1;37m·  [0mAC[1mi[0mD [1mP[0ma[1;30mramount [0;1;37mN[0me[1;30mt[0m
-                            [1;37mA[0mr[1;30mt [0;1;37mC[0mo[1;30mllection [0;1;37mI[0mn[1;30mcluding:[0m
-                   AC[1mi[0mD [1m· i[0mCE [1m· [0mM[1mi[0mRAGE [1m· [0mINC[1;30m-[0mAD [1m· [0mH[1mi[0mPE [1m· [0mHYPE
-
-                           ANS[1;30mi·[0;1;36mS[0;1;34moni[0;34mc [0;33m<[0;1;33mAC[0;1;37mi[0;1;33mD[0;33m>[0;1;30m·[0mo9[1;30m.[0m27[1;30m.[0m92[0m'
+                          [1;37m3[0mo[1;30m5.[0;1;37m8[0m9[1;30m3.[0;1;37m1[0m5[1;30mo8    [0;1;37m9[0m6[1;30moo+ [0;1;37mP[0ml[1;30mease[0m'

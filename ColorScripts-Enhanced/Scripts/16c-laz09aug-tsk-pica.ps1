@@ -5,7 +5,7 @@
 # Source SHA-256: 794f7796e93d4853af0d6d334affbb44828fe39e4d83d3a934adcecb6dce778d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-PICA.ANS by The Silent Killer (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Picalrt
 # SAUCE Author: The Silent Killer
 # SAUCE Group: lazarus
@@ -17,7 +17,7 @@
 Write-Host '
 
 
-                                                           [1mRT [0m=[1m [0mdese[1mRT[0m
+                                                           [1m   [0m [1m [0m    [1m  [0m
 ▄[1;31m▄[0m▄[1;31m▄▄▄▄ [0m                                          [1m          [0m     [1;32m   [0m    [31m   ░[0m
    [1;31m▀▀▀[0;1;31;43m▓▓▒▒░[0;33m▄▄[0m   [1;37mPIC [0m=[1m PIC[0maso   [31m░[0m                  [1;34m      ▄▄▄[0;32m▄[0;35;42m░▒▓▓[0;35;40m▄▄[0;32;40m▄[0;1;32;40m    [0;31m   ░▒░[0m
 [1;33;43m [0;33m▄▄[0;1;33m  [0;31m [0;1;33m  [0;33m▀▀[0;1;31;43m░░[0;1;33;43m  ░[0;33m▄[0;1;33m [0m             [31m░▒░[0m            [1;32;44m▓▒░[0;1;34;44m [0;1;34;40m   ▄[0;1;34;44m▀▀[0;1;34;40m██[0;1;34;42m▓▒░[0;32m▀▀[0;35m▀[0;35;42m▓▒░[0;1;32;42m ░[0;32m▄[0m   [31m ░▒▓▒░[0m
@@ -33,4 +33,4 @@ Write-Host '
 [31m▐[0;1;31;41m░[0;31m▓▌[0;1;33m [0;1;33;43m [0;1;33;47m██[0;1;33;43m▀[0;33m▄[0;1;33m [0;31m▒░[0;1;33m [0;33m▐[0;1;33;43m▐▒▓[0;1;33;40m▌[0;1;37;40m [0;31m▓[0;1;31;41m░[0;31m▓ [0;37m ▀[0;1;37;47m▀▀[0;1;37;40m██▄▄▄▄    [0;31m░▒▒▒░ [0;1;34;44m [0;1;34;40m███  [0;1;34;44m ▀▀[0;34m▀▀▀[0m      [31m░[0m       [1;32;42m [0;1;32;45m▓▓▓[0;35m░░[0m
 [1;33m [0;31m▀▀[0;1;33m [0;33m▄[0;1;33;43m [0;33m▀▀[0m   [31m░[0;1;33m [0;33m▄[0;1;33;43m █▓[0;1;33;40m█ [0;31m░▒▓▒░[0m   [1;37m [0m▀▀▀[1;47m▀▀▀▀▓▓[0;1;40m█ [0;31m░░░[0;1;34m [0;34m▀▀▀[0;1;34;44m▀▀[0;1;34;40m█▄▄[0m                    [35m░░░[0m
                [33m▀▀[0;1;33;43m▀[0;33m▄[0;1;37m [0;31m░▒░[0m
-                     [31m░ [0m            [1;37mAL [0m=[1m AL[0mien experience[0m'
+                     [31m░ [0m            [1;37m   [0m [1m   [0m              [0m'

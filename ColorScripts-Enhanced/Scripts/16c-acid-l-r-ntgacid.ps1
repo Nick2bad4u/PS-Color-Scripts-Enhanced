@@ -5,7 +5,7 @@
 # Source SHA-256: b8c088f33c3b4e2a1d6b5dfb05c127376629340dd6ea50df9920eeae4b12a320
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NTGACID.ANS by Manufacturer (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -57,6 +57,4 @@ Write-Host '
 [1;32;47m [0m██[1;47m▀▄[0m█▓█[1;30m█▓▀[0;32m▄████████████[0;1;30;42m░░░[0;1;30;47m [0m██[1;47m▀▄[0m█▓█[1;30m█▓▀[0;32m▄███████████████[0;1;30;42m░░░[0;1;30;47m [0m██[1;47m▀▄[0m█▓█[1;30m█▓▀[0;32m▄███▌[0;1;32m█[0;1;32;42m▓▒░[0;1;32;40m▌[0m
 ▀██[1;47m▀[0m█▓█[1;30;47m▄[0;1;30;40m▀[0;32m▄███████████████[0;1;30;42m░░[0m▀██[1;47m▀[0m█▓█[1;30;47m▄[0;1;30;40m▀[0;32m▄██████████████████[0;1;30;42m░░[0m▀██[1;47m▀[0m█▓█[1;30;47m▄[0;1;30;40m▀[0;32m▄████▀[0;1;32m▄[0;1;32;42m▓▒░[0;1;32;40m█[0m
 [1;32;40m▄▄[0;1;32;47m▄▄▄▄[0;1;32;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;32;47m▄▄▄▄[0;1;32;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;32;47m▄▄▄▄[0;1;32;40m▄▄▄▄▄▄▄▄[0;1;32;42m▓▓▒░[0;1;32;40m▀[0m
-[1;32;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30;40m∞  [0;1;37;40mNevada Te[0;1;32;40msting [0;32mGrou[0;1;30mnds  ∞  [0;1;37m8oo+ M[0;1;32megz On[0;32mlin[0;1;30me  ∞  [0;1;37mHST [0;1;32mQuali[0;32mty Use[0;1;30mrs ONLY  ∞[0m
-[1;30m∞ [0;1;37mRu[0;1;32mnning [0;32mViSiO[0;1;30mN-X  ∞  [0;1;37mTo[0;1;32mxic N[0;32met W[0;1;30mHQ  ∞  [0;1;37mS[0;1;32mysO[0;32mp: AFTE[0;1;30mRMATH  ∞  [0;1;37m3[0;1;32m13·[0;32m348·[0;1;30m2829 ∞[0m'
+[1;32;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

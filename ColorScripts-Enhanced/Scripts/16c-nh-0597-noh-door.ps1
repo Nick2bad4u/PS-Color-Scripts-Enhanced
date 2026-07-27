@@ -5,7 +5,7 @@
 # Source SHA-256: cc5003656c03d5111cc50a5b019ce6671ed26a83fa0fdfb14970c696e540ac72
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-DOOR.ANS by nOah? (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the doors#@! rock n' roll#@!
 # SAUCE Author: nOah?
 # SAUCE Group: nh!
@@ -27,25 +27,4 @@ Write-Host '
  [1;30m█▌▄[0;31m▀[0;33m▀[0;31m▀▐[0;33;41m█▌[0;31;40m █[0;33;41m▌[0;31;40m▄▐[0;33;41m█▌[0;31;40m  ▀[0;33;40m▀▀[0;33;41m▀█[0;30;43m░[0;33;40m▓[0;33;41m█▄[0;31;40m▄ ▀ [0;1;30;40m▄▌▄[0;31m▀[0;33m▀▀[0;33;41m▀████▄[0;31;40m▄ ▀  [0;31;41m░[0;33;41m█[0;30;43m░[0;33;40m▓[0;33;41m██▌[0;31;40m░[0;30;41m▓[0;31;40m  [0;1;30;40m██▌▄▄[0;31m ▀[0;33m▀[0;33;41m▀█▌[0;31;40m █[0;33;41m██[0;31;40m▌▀▀ [0;1;30;40m█[0m
  [1;30m▄████▌▄▄▄▄▄▄▄▄▄▄▐█▐█▄▄▄▄▄▄▄▄▄█▀████▌▄▄▄▄▄▄▄▄▄▐█▄▄▄▄▄▄▄▄▄▄▄████████▄▄▄▄▄▄▄▄▄▐██▀[0m
 [1;30m ▀▀▌███▀▀▀[0m [1;30m▐▀▀▀█▐██▄█▀▐█▌▀█▀▀▀▀▌[0m     [1;30m   ▀▀▀▐▀▀▀▀▀▀[0m [1;30m▐▀▀██████▐▀▀▀▀▐█▀▀[0m [1;30m▀▐███▐▀▀▐▀[0m
-[1;30m    ▀[0m           [1;30m▐[0m   [1;30m [0m  [1;30m [0m                                [1;30m [0m  [1;30m▀[0m              [1;30m▀[0m
-
-
-          [31mThe Celebration of the Lizard /Jim Morrison[0m
-[31m             [0m
-             [31m   lions in the streets and roaming[0m
-                [31mdogs in heat, rabid foaming[0m
-                [31ma best caged in the heart of a city[0m
-                [31mthe body of his mother [0m
-                [31mrotting in the summer ground[0m
-                [31mhe fled the town[0m
-
-                [31mhe went down South and crossed the border[0m
-                [31mleft the chaos and disorder[0m
-                [31mback there over his shoulder[0m
-
-                [31mone morning he awoke in a green hotel[0m
-                [31mwith a strange creature groaning beside him[0m
-                [31msweat oozed from its shiny skin[0m
-
-                [31mis everybody in?[0m
-                [31mthe ceremony is about to begin[0m'
+[1;30m    ▀[0m           [1;30m▐[0m   [1;30m [0m  [1;30m [0m                                [1;30m [0m  [1;30m▀[0m              [1;30m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b6329153ffc816c9127f3c0e480b957fe3cfa540f4cf7e7c799d4bd142eb5bb8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH!-NPS.ANS by ChaoTiC! (.:[nITROPHUSION]:.); released in nph-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: NitRoPhUsIoN AnSi!
 # SAUCE Author: ChaoTiC!
 # SAUCE Group: .:[nITROPHUSION]:.
@@ -32,8 +32,4 @@ Write-Host '
               [1;30m█░[0;1;31m░[0;1;32;42m [0;1;30;42m░▒▓[0;1;30;40m░▀▀░[0;1;32;40m [0;1;32;42m░[0;1;32;40m [0;1;32;42m░ [0;32m▀[0;1;30m▐▌[0;1;32;42m [0;1;30;42m░▒▒[0;1;32;42m [0;32m▀▀[0;1;32m [0;1;30m▄▄▄▄▄▒█▓[0m [32m▄[0;1;30;42m▓▒░░[0;32m▄[0;1;30m░[0;32m▄[0;1;32m [0;1;30m▓[0;1;32m [0;1;32;42m [0;1;30;42m▓█[0;32m▌[0;1;30m▐█[0m
              [1;30m░██▄ [0;32m▀[0;1;30m░[0;1;30;42m░[0;1;32;42m ░[0;32m▄[0;1;32m [0;1;30m▓[0;32m▀▀▀[0;1;32m [0;1;30m▄░▌[0;32m▐[0;1;30;42m▓░[0;1;31;40m░[0;1;32;40m [0;1;30;40m█████░███▓█[0m [32m▀[0;1;30;42m░▓░[0;1;32;42m ▒░ ░[0;32m▄[0;1;32;42m░ ░░[0;32m▀[0;1;30m▐▓[0m
               [1;30m▀Ch!█▄▄[0;1;30;42m▄▄▄▄▄▄[0;1;30;40m░▄████▄[0;1;30;42m▄▄▄[0;1;30;40m▄▓▓█▓██▓▓████▄▄[0;1;30;42m▄▄▄▄[0;1;30;40m░[0;1;30;42m▄▄▄▄▄▄[0;1;30;40m░▄▓▀[0m
-                      [1;30m░[0m                         [1;30m░[0m
-                                 [1;30m.[0;32m:[0;1;30m[[0;32mn[0;1;37mITrO[0;32mP[0;1;37mHu[0;32mS[0;1;37mIoN[0;1;30m][0;32m:[0;1;30m.[0m
-
-[1;30m===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===CuT=HeRe===[0m
-      [1;30mn0 RaTiO[0m  [1;30m∙[0m [1;30mKaLL mY BoaRd DreAm MoUNtainS 04.50.27.72.98 ∙ [0m [1;30mn0 RaTiO[0m'
+                      [1;30m░[0m                         [1;30m░[0m'

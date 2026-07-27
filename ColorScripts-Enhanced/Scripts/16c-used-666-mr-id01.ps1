@@ -5,7 +5,7 @@
 # Source SHA-256: 57f971974f0e3646e157e0a678293cb66c2ab670d84daab740a75e78826562e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-ID01.ANS by Mr.Wrong (The Used Coalition); released in used-666 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Idle dreams
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: The Used Coalition
@@ -33,5 +33,4 @@ Write-Host '
 [37m [0;1;34;44m ▄[0;1;34;47m▓[0;1;34;44m▓▒░[0;34m█[0;1;34;44m▄▄[0;1;34;40m▄[0;1;34;44m░[0;1;34;40m▄[0;34m▄[0;37m ▀▄  [0;1;30m▀▀▄[0;1;30;47m▄[0;1;37;40m▀[0m▀▄ [34m▀▄▄▄[0;37m  [0;1;30m▀[0m [1;30m▄[0m ▀ [1;47m▀[0m▀  [1;30m▄▀▀[0m [34m▄▄[0;37m ▄▀[0;1;37m▀[0;1;30;47m▄[0;1;30;40m▄▀▀[0m  [1;30m▄[0;1;37m▀[0m [1;30m▄[0m ▀ [34m▄[0;1;34m▄[0;1;34;44m░[0;1;34;40m▄[0;1;34;44m▄▄[0;34m█[0;1;34;44m░▒▓[0;1;34;47m▓[0;1;34;44m▄[0;34m█[0m
 [37m  [0;34m▀[0;1;34m▀[0m [34m▄[0;1;34;44m▄[0;34m▄[0;37m [0;34m▀[0;1;34;44m▀▄[0;34m▄[0m    [37m  [0;1;36m [0m   [1;30m▀[0m [1;30m▄[0m▄   [34m▀▀▄[0;37m [0;1;30m▀[0m [1;36m   [0m   [1;30m▄[0m  [34m▄▀▀[0;37m    [0;1;30m▀[0m     [1;30m▄[0m         [34m▄[0;1;34;44m▄▀[0;34m▀ ▄[0;1;34;44m▄[0;34m▄[0;1;34m▀[0;34m▀[0m
 [37m [0;1;36m▀[0m▀[1;30m▀[0m  [34m▀[0;37m [0;34m▄[0;37m [0;34m [0;37m [0;34m▀▀▄[0;37m [0;1;30m▀[0m▀[1;36m▀▀▀▀▀[0;1;30m▀[0m    [1;30m▀[0m▀[1;30m▀[0m  [34m▄[0;37m [0;1;30m▀[0;1;36m▀▀▀[0m▀[1;30m▀[0m   [34m▄[0;37m  [0;1;30m▀[0m▀[1;36m▀▀▀▀▀▀▀[0;1;30m▀[0m   [1;30m▀[0;1;36m▀▀[0m▀[1;30m▀[0m [34m▄▀▀[0;37m [0;34m [0;37m [0;34m▄[0;37m [0;34m▀[0;37m [0;1;30m▀[0m▀[1;36m▀[0m
-[1;30m              [0m [34m▄[0m   [37mi[0;1;37m d l e[0m  d [1mr e a m s[0;1;30m                         [0m [34m▄[0;1;30m   [0m  [1;30mMr.Wrong[0m
-                            [1;30m+o: ralgoth[0m                      [1;30mThe Used Coalition[0m'
+[1;30m              [0m [34m▄[0m   [37m [0;1;37m      [0m    [1m         [0;1;30m                         [0m [34m▄[0;1;30m   [0m  [1;30m        [0m'

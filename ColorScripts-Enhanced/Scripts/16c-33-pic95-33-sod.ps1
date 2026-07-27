@@ -5,7 +5,7 @@
 # Source SHA-256: 52177858f5f59aa741569a5c4c2e4914afca4d3d91b16a7f4e1ad918f5d7c5ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-SOD.ANS by Eerie (Shiver); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Seeds of Destruction
 # SAUCE Author: Eerie
 # SAUCE Group: Shiver
@@ -62,6 +62,4 @@ Write-Host '
      [1;47m▐[0;1;40m██[0;1;47m▌[0m [1;47m▐[0;1;40m██████[0;1;47m▌[0m [1;47m▐[0;1;40m██[0;1;47m▌[0m [1;47m▐[0;1;40m██████[0;1;47m▌[0m [1;47m▐[0;1;40m██[0;1;47m▌[0m [1;47m▐[0;1;40m██████[0;1;47m▌[0m [1;47m▐[0;1;40m██[0;1;47m▌[0m [1;47m▐[0;1;40m██████[0;1;47m▌[0m [1;47m▐[0;1;40m██[0;1;47m▌[0m [1;47m▐[0;1;40m██████[0;1;47m▌[0m
      [1;47m▐[0;1;40m██[0;1;47m▌[0m [1;47m▐[0;1;40m██████[0;1;47m▌[0m [1;47m▐[0;1;40m██[0;1;47m▌[0m [1;47m▐[0;1;40m██████[0;1;47m▌[0m [1;47m▐[0;1;40m██[0;1;47m▌[0m [1;47m▐[0;1;40m██████[0;1;47m▌[0m [1;47m▐[0;1;40m██[0;1;47m▌[0m [1;47m▐[0;1;40m██████[0;1;47m▌[0m [1;47m▐[0;1;40m██[0;1;47m▌[0m [1;47m▐[0;1;40m██████[0;1;47m▌[0m [1;30;40m33[0m
      ▀▀▀[1m▀[0m▀█[1;47m▀▀[0;1;40m█[0;1;47m▀▀▀░[0m ▀▀▀[1m▀[0m▀[47m [0;1;47m▀▀[0;1;40m█[0;1;47m▀▀▀░[0m ▀▀▀[1m▀[0m▀[47m [0;1;47m▀▀[0;1;40m█[0;1;47m▀▀▀░[0m ▀▀▀[1m▀[0m▀[47m [0;1;47m▀▀[0;1;40m█[0;1;47m▀▀▀░[0m ▀▀▀[1m▀[0m▀█[1;47m▀▀[0;1;40m█[0;1;47m▀▀▀░[0m
-      o    f          d    e    s    t    r    u    c    t    i    o    n
-
-[47m [0;30;47meerie [0m               [36;40mvIOLENCE!!!! vIOLENCE eVERYWHERE!!![0m              [36;47m [0;30;47mshiver [0m'
+      o    f          d    e    s    t    r    u    c    t    i    o    n[0m'

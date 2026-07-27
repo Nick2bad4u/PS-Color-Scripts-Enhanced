@@ -5,7 +5,7 @@
 # Source SHA-256: 5cfdfbc4e3311f21f203ce393d1fbcd18eb26e00d394b392c80d8a28a6a49b24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: h7da-ink.ans by H7 + Devil Angel (Remorse & TRSi); released in rmrs-49 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ink
 # SAUCE Author: H7 and Devil Angel
 # SAUCE Group: Remorse & TRSi
@@ -37,7 +37,4 @@ Write-Host '
                [35m_d[0;1;35m$7[0;35m╜"`` [0;37m [0;1;35m_ [0;36m,,i[0;1;36;46m$[0;1;36;40m$[0;36m$[0;1;30m$7''[0;35m [0;1;35m,[0;35m$$[0;1;35m$[0;35m$'' [0;1;30m,[0;36my[0;1;36m$i[0;1;36;46m┌[0;1;36;40m,[0;1;37;40m┌i[0;1;36;40m$i[0;1;37;40myy┐[0;1;36;40m┐,,,__[0m   [1;30m`[0;35m`[0;1;35;45m`[0;35m"┘[0;1;30m+[0;35m  [0;36m`[0;37m [0;1;30m.[0m
               [35mi` [0;1;35m  [0;35m      [0m   [36m`[0;1;37m┘[0;1;36;46m$[0;1;36;40m$[0;36m7[0;1;30m`[0;35m,╓$[0;1;35m$[0;35m$$[0;1;35m$[0;35m''[0;37m [0;1;30m4$[0;36m$[0;1;36m$$[0;1;36;46m7[0;1;36;40mⁿ[0;1;37;40m``[0m             [35m [0;37m  [0;1;30m [0m [35m [0;37m  [0;1;30m''[0m  [1;30m`[0m
                            [36m_[0;37m [0;1;37m,[0;1;36;46m┘[0;1;36;40m''[0;35m [0m    [37m [0;35m`"[0;1;35mⁿ[0;35m4,[0;37m [0;1;30m`┘[0;36m4[0;1;36m$[0;1;36;46m$[0;1;36;40m,[0;1;37;40m__[0m           [1;30mH7/MIMIC[0m
-                              [1;36;46m░[0m            [35m`[0m   [36m [0;1;36;46m`[0;1;36;40m`[0;1;37;40m` [0;1;36;40m''[0m'' [1;30m''[0;36m [0;37m`[0;1;30m`''[0m [1;30mD_ANGEL/RMRS[0m
-
-         [1;30mThankz to H7 for hax0ring it and making it look rather l33t now[0m
-         [1;30m4 smoooothz board iNK, that bitch reprzents![0m'
+                              [1;36;46m░[0m            [35m`[0m   [36m [0;1;36;46m`[0;1;36;40m`[0;1;37;40m` [0;1;36;40m''[0m'' [1;30m''[0;36m [0;37m`[0;1;30m`''[0m [1;30mD_ANGEL/RMRS[0m'

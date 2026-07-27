@@ -5,7 +5,7 @@
 # Source SHA-256: d386480ff994c9cfe011eac2ba237a8bf2e5b81a3fe08eab10f3b2a0027cd4e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TL!RR.ANS by timeless (rare!ascii ^ ecl); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rare!a
 # SAUCE Author: timeless
 # SAUCE Group: rare!ascii ^ ecl
@@ -19,7 +19,7 @@ Write-Host '
 
 
 
-    [33m [0;1;30mrare ascii[0;33m [0;1;30m-  just some pc freaks, drawing in order of square ;)[0m [1;30m┌┌ [0m
+    [33m [0;1;30m          [0;33m [0;1;30m                                                     [0m [1;30m┌┌ [0m
      [1;36m  [0m
    [34m░░[0;1;34m§§²²²²7²²^^^²²7§§§[0;34m§§§[0;1;34m§§§§§§§§§§§§²²²²7²²^^^^²²§§§§§§§§§§§§§§§§§§§§§[0m
      [1;34;44m§[0;1;34;40m|[0;33m §Ss.sS²^[0;1;30m²S[0;33ms.[0;1;34m`²§[0;1;34;44m§§§[0;1;34;40m§²²²::[0;1;31;40m ____[0;1;34;40m└[0;1;37;40m [0m§Ss[1m.sS²^²Ss.[0;1;34m`²²²²²7²²^^^²²§§[0;1;37;44m§§[0;1;34;40m§§§[0m

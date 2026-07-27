@@ -5,7 +5,7 @@
 # Source SHA-256: fa18257b2b6a259f18412a15c50b3346238420de526cc94488711f7b720a96af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-NETO1.ANS by Rimgale (LUCiD); released in lcd-a002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Neo Tokyo #1
 # SAUCE Author: Rimgale
 # SAUCE Group: LUCiD
@@ -35,10 +35,9 @@ Write-Host '
 [36m▀▀[0;1;30m▄▄[0;1;30;44m▓▓[0;1;30;40m▄ [0;1;30;44m▒░ ░ [0;34m▓▒ [0;1;30;44m▒▓█▓▓▓[0;1;30;40m▄ [0;1;30;44m▓▒▒▓▓▓[0;1;30;40m▄ [0;1;30;44m▓▓[0;1;30;40m▄[0;1;30;44m▓▒▓▒[0;1;30;40m▀[0;1;30;44m▓▒▒░░[0;1;34;44m░[0;34m▄  [0;1;30m▀▀▀▀▀▀▀[0;1;30;44m▓▒░  ░░[0m [1;30;40m▄[0;36m▀▀[0;1;30m▄▄[0;1;30;44m▓▓[0m [1;30;40m▄[0;1;36;40m▀▀[0;1;30;40m▄▄[0;1;30;44m▒▓[0m
 [1;30;44m░▒▓▓▒▒▓[0;1;30;40m▄[0;1;30;44m▓▒░ ░ [0;34m▓ [0;1;30;44m░▒▓▒▒▒▓[0;1;30;40m▄[0;1;30;44m▓░░░▓▒▓[0m [1;30;44m▒░▓▓░▒░[0m [1;30;44m▒▒░▒░░ [0m [34m▒▓[0;34;44m [0;1;30;44m░▒▓▓[0;1;30;40m▄[0;1;30;44m▓▒░▒░ [0;1;34;44m░[0m [1;30;44m▓▒▒▓▓▒░[0;1;30;40m▄[0;1;30;44m▓▓░▒▓░▒[0m
 
-[1;30;40m    Sys[0;1;34;40mop: [0mTasmaniac <Acid> / N[1mode [0m1: +32-5O-620112 / Node 2: +32-5O-[1;34m625[0;1;30m717[0m
-      [1;30mACi[0;1;34mD E[0mHQ ■ BLADE EHQ ■ DiE [1mBHQ [0m■ ET EHQ ■ RR BHQ ■ X-TRAKKER S[1;34mUPP[0;1;30mORT[0m
-        [1;30mBLA[0;1;34mCK [0mDESiGN ■ DELUSiON ■ [1mREME[0mDY ■ LANCELOT II MAGAZiNE ■ [1;34mAPO[0;1;30mGGE[0m
-                 [1;30miD [0;1;34mSOF[0mTWARE ■ SOF[1mTWARE [0mCREATiON BYTES MA[1;34mGAZ[0;1;30miNE[0m
+[1;30;40m       [0;1;34;40m    [0m                    [1m    [0m                                  [1;34m   [0;1;30m   [0m
+      [1;30m   [0;1;34m   [0m   ■           ■     [1m    [0m■        ■        ■            [1;34m   [0;1;30m   [0m
+        [1;30m   [0;1;34m   [0m       ■          ■ [1m    [0m   ■                      ■ [1;34m   [0;1;30m   [0m
+                 [1;30m   [0;1;34m   [0m      ■    [1m      [0m                 [1;34m   [0;1;30m   [0m
           [1;34m▒[0m
-[1;37m▄ ▄▓[0m▄[1m▄[0m▄▓[1;34m▄[0m▄[1;34m▓▄[0;1;30m▄[0;1;34m▄[0;1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m
-[1;30mAnsi by Rimgale of Lucid''94 ..[0m'
+[1;37m▄ ▄▓[0m▄[1m▄[0m▄▓[1;34m▄[0m▄[1;34m▓▄[0;1;30m▄[0;1;34m▄[0;1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m'

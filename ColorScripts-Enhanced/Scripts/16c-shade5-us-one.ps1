@@ -5,7 +5,7 @@
 # Source SHA-256: d383b1d6eae763315cf2b0e211f492b668b601c7416f1940320eb1d88c2a8702
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ONE.ANS by Raider + Gooe (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: one liner
 # SAUCE Author: gooe & raider
 # SAUCE Group: shade
@@ -33,14 +33,11 @@ Write-Host '
    [1;30m>>[0m det har jag svårt att tro på                         [1;30m  [0;1;31;41m▐[0;31m▌▐[0;1;31;41m█[0;1;37;41m░[0;31m▌[0;33m [0;1;34;44m▐[0;1;37;44m░░[0;1;34;47m▓[0;1;34;44m█▌[0m
    [1;30m>>[0m jag oxå ..                                            [31m▐[0;31;47m▓[0;31;40m▌[0;1;31;41m░█[0;1;31;47m▓[0;31m▌[0;34m▐[0;1;34;44m▐▀[0;34m▌▀▀▀[0m
    [1;30m>>[0m KÄFT!                                                 [31m▐[0;1;31;41m░[0;31m▌[0;1;31;41m░▓▓[0;31m▌[0m       [30;42m▓▓[0m
-   [1;30;40m>>[0m njaa, det här är ql ...                               [31m▐[0;31;47m█[0;31;40m [0;1;31;41m [0;31;47m▓[0;1;31;41m░[0m  .[1;33mgo[0m([1;33msh[0;1;33;42made[0m)
+   [1;30;40m  [0m                                                       [31m▐[0;31;47m█[0;31;40m [0;1;31;41m [0;31;47m▓[0;1;31;41m░[0m   [1;33m  [0m [1;33m  [0;1;33;42m   [0m 
                                                             [31m█[0;1;30;41m░[0;31m▐███[0m
 [37m- -──[0;1;37m─[0m─[1m-[0m─-- -  add a liner ? [[1my[0m/[1mn[0m] [5m_[0m -  -- -───[1m-[0m─[1m─[0m──-- -  [30;41m▓▓░░[0;31;40m▐█[0;1;33;41m░░[0;30;43m█▓[0m
                                                             [30;41m▓▓[0;31;40m▀▀▀▌[0m
 
 
        [37;40m  [0m
-[1;32;40m----------------------------------------------------------------- CUT ----------[0m
-
-[1;32mansi and font outlines bu gooe, font shading and touchups by raider.[0m
-[1;30mfan gooe, alltså. attans va grym den ansin var, fan en ära att få shada den :)[0m'
+[1;32;40m----------------------------------------------------------------- CUT ----------[0m'

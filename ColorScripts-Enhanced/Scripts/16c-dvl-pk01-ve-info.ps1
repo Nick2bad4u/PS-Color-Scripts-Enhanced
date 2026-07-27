@@ -5,7 +5,7 @@
 # Source SHA-256: c02088d29c4df9ad484ae6989537b23f5b00d65b8f143c628aa6036b8dbfa696
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VE-INFO.ANS by VeNoMouS (DeViL FoRCeS); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iNF0 4 EveryPlace
 # SAUCE Author: VeNoMouS
 # SAUCE Group: DeViL FoRCeS
@@ -31,9 +31,7 @@ Write-Host '
 [33m½¼½¼SSsssssssssssSS[0;1;33m½[0;33m½¼[0;1;33mS[0;33mssss[0;1;33mS[0;33m½¼½SsssssS½½½Ss[0;1;33mss[0;33mssS½¼[0;1;33m½¼[0;33m¼¼½¼½¼½¼½[0;1;33m½[0;33m½¼½¼½¼[0;1;33m½[0;33m¼½¼¼½[0;1;33m½[0;33m½¼½¼½[0m
 [33m`²S$¼½[0;1;33m½¼½¼[0;33m¼½¼½¼½¼½¼½[0;1;33m½½[0;33m¼½¼½¼½¼½½½¼¼½[0;1;33m½¼½[0;33m½¼½½½½¼¼½½¼¼½¼½½¼½¼½¼½[0;1;33m½[0;33m½¼½¼½[0;1;33m½¼[0;33m¼½¼½¼½¼½$S²''[0m
                [1;37m╔══[0m───[1;30m───  ·  ·    ·   ·  ·  ·    ·    ·    ·  ·[0m
-               [1m║ <S[0m>e[1;30mrvicios[0m          [1m<I[0m>[1;30mnformacion Del Sistema │[0m
+               [1m║   [0m  [1;30m       [0m          [1m  [0m [1;30m                       │[0m
                │                                                │
-               [1;30m│  [0;1;37m<C[0m>o[1;30mstos[0m               [1m<C[0m>[1;30momandos Globales    [0;1;37m║[0m
-                 [1;30m· · ·    ·   ·  ·  ·  ·    ·  · ·  · · ───[0m───[1m══╝[0m
-
-                                  [1;34mT[0;34mu [0;1;34mE[0;34ml[0;1;30meccion:[0m'
+               [1;30m│  [0;1;37m  [0m  [1;30m    [0m               [1m  [0m [1;30m                    [0;1;37m║[0m
+                 [1;30m· · ·    ·   ·  ·  ·  ·    ·  · ·  · · ───[0m───[1m══╝[0m'

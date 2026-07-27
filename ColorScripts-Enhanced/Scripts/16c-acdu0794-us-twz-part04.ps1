@@ -5,7 +5,7 @@
 # Source SHA-256: dfb7f3b21cb515459c6765fc25575abfcaabe99f715ea67d9dd2082c825fe3db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TWZ.ANS by Crime Lord + Beastie (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Warp Zone
 # SAUCE Author: Multiple Artists
 # SAUCE Group: ACiD Productions
@@ -43,11 +43,9 @@ Write-Host '
 [33m  [0;37m▀[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓█[0;1;37;40m█[0;1;37;47m█[0;1;37;40m███▀[0;33m▄[0;1;31;43m░░[0;33m▄ ▄[0;1;31;43m░▒▓[0;1;31;40m▄    [0;31mWARNING:[0m
 [31m  [0;1;31m▀▄[0;33m▄[0;1;37m▀▀▀▀▀[0;33m▄▄▀[0;1;31;43m░▒▒░[0;33m▀▄█[0;1;31;43m░░▒▓[0;1;31;40m▄   [0mEntering The Warp Zone may be hazardous
  [1;31m▄[0;1;31;43m▓▒▒░░[0;33m██[0;1;31;43m░[0;33m█[0;1;31;43m░▒[0;33m▄▀▀▄[0;1;31;43m▒░[0;33m██[0;1;31;43m░▒[0;1;31;40m▀[0m      to your health. You might end up like
-  [1;31m▀[0;1;31;43m▓▒░[0;33m█▀[0;37m▄ [0;1;37m▄▄[0;33m▀▀▀▀▀▀[0;1;37m▄▄ [0m▄[33m▀[0;1;31;43m░[0;33m▄[0m       [37mthis poor bastard to the left...[0m
+  [1;31m▀[0;1;31;43m▓▒░[0;33m█▀[0;37m▄ [0;1;37m▄▄[0;33m▀▀▀▀▀▀[0;1;37m▄▄ [0m▄[33m▀[0;1;31;43m░[0;33m▄[0m       [37m                                [0m
 [37m   [0;1;31m▄[0;1;31;43m▒░[0m [1;30;40m▀[0m▀▀ [1m▀▀[0;1;47m▓▒[0m▀[1;47m▓▒[0;1;40m▀ ▀[0m▀[1;30m▀ [0;1;31;43m░▒[0m
 [1;31;40m  ▐[0;1;31;43m▓▒░[0m [1;30;40m▄[0m▄▄▄[1m▄[0m       [1m▄[0m▄▄[1;30m▄ [0;1;31;43m░▒[0;33m▌ [0;1;30mANSI by [0;1;37mCrime Lord [0;1;30mfor [0;1;37mAC[0mi[1mD Productions [0;1;30m1994[0m
 [1;30m   [0;1;31m▀[0;1;31;43m▒░░[0;33m▄▄[0;37m▀[0;33m▄▄[0;1;31;43m░[0;33m▀▀[0;1;31;43m▒▓▒░[0;33m▄▄[0;37m▀[0;33m▄[0;1;31;43m▒░[0;33m▀    [0;1;30m50% original... original idea was taken from[0m
       [33m▀▀ [0;1;31;43m░░[0;33m▀▄[0;1;31;43m░▒▓█▓▓▒░[0;33m█ ▀[0m        [1;30mthe WildCATS character WarBlade. But since I[0m
-          [33m▀▀▀[0;1;31;43m░░▒▓▒░[0;33m▀▀ [0;1;30mcL![0m         [1;30mam so fuckin lazy, I decided to switch some[0m
-                                    [1;30mthings around to my advantage... love it or[0m
-                                      [1;30mleave it...[0m'
+          [33m▀▀▀[0;1;31;43m░░▒▓▒░[0;33m▀▀ [0;1;30m   [0m         [1;30m                                           [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e60d686f62f3e0bfd67b81e7335ad062de9671b7eb6704459dddd869d5222326
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-TGM2.ANS by Trip (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Global Market
 # SAUCE Author: Trip
 # SAUCE Date: 19951106
@@ -24,7 +24,7 @@ Write-Host '
    [1;30m▒▄[0m     ▐[1;47m█▌[0m████  [1m▐[0;1;47m▌░[0m██[1;47m░[0m█         █  don''t wanna pay, I might still do you one,
    [1;30m░▒  ▄  [0m█[1;47m███▄■[0m▌  [1;47m██▄▄■[0m█▌   [1;30m░   [0m█▀▀  although I would prefer a trade instead[1;30m░[0mof
 ▌     [1;30m▓  [0m▄[1;47m▀▀▀[0m▀▀▀  █▀▀▀      [1;30m▒  [0m█▀▀ a freebie. If you want 1 completely free, you
-▌     [1;30m▒  [0m▀                 [1;30m░ [0m▄▄█   may not get 1. [1mgreetz[0m: tm, sw,[1;30m▄[0mky,[1;30m▄[0mev,[1;30m█[0mgr, tz
+▌     [1;30m▒  [0m▀                 [1;30m░ [0m▄▄█                  [1m      [0m         [1;30m▄[0m   [1;30m▄[0m   [1;30m█[0m      
 ▀▀▀█  [1;30m░[0m       [1;30m░ ░   ▓   ░░   [0m█   [=============================================]
 [31m▓▄ [0;37m█    [0;1;30m▒░[0m        [1;30m░▒ [0m▄▄▄▄▄▄█▀▀ [31m▄█▓████▓▒▓█▓█████▓▒▓▓█▓███▓▓███[0;1;30;41m▐▌▀▄■▐▌[0;1;30;40m█[0;31m██[0;1;30;41m▀[0;31m████[0;1;30;41m▀[0;1;30;40m▓[0;1;30;41m▀[0m
 [31m█▀ [0;37m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m       [31m▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀ [0;1;30;41m▀▄▄▄▀[0;31m█[0;1;30m█[0;31m███[0;1;30;41m■ [0;31m███[0;1;30;41m■[0;31m█[0m
@@ -62,4 +62,4 @@ Write-Host '
        [1;30;40m▀▄[0m        [1;31m▀[0m▀▀▀[1;31m▀[0m▀▀▀[43m▓[0;40m▀▌▀[0m               [33;40m▒    ░[0m     [33;40m▄[0;1;33;43m▓[0;33m█░  ▓█▀█▓ ▀░▓█▒[0;33;41m▄[0;33;40m██▓[0;33;41m▓▒ [0;33;40m█[0m
          [1;30;40m▄[0m               [43m▓[0m                 [33;40m░[0m         [33;40m▄[0;1;33;43m▒[0;33m▀█░░ ░ ░▓██▓▄ ░▓█░▒█▒ [0;33;41m▄[0;33;40m█▓[0m
            [1;30;40m■[0m
-[1;41m"it has too much color"  -voiz of int.  ..hmmm...colored blocks... no wonder[0;31m████[0m'
+[1;41m                                                                            [0;31m████[0m'

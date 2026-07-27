@@ -5,7 +5,7 @@
 # Source SHA-256: b250fcc62211904eacfb70872dbed11b5db4f862601789cb4b5a8883fb8e1363
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M-LB8.ANS by milkmang (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lunchbox (8) and hazard/2
 # SAUCE Author: milkmang
 # SAUCE Group: black maiden
@@ -40,7 +40,4 @@ Write-Host '
 
 
 
-[1;33mmOM[0m
-
-[32mhis is for me and avenger, im using it and im in a trade with him since a  [0m
-[32mlong time. hope he like''s it.[0m'
+[1;33mmOM[0m'

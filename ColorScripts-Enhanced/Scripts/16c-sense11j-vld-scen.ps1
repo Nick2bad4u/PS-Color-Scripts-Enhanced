@@ -5,7 +5,7 @@
 # Source SHA-256: 8928465db1160115cd81aa04f73c2a90762dfd207501ea4b09b50ade91816266
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VLD-SCEN.ANS by velo (sense); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Scent
 # SAUCE Author: velo
 # SAUCE Group: sense
@@ -40,20 +40,4 @@ Write-Host '
 [1;30m░░░░░░[0;31m   [0;1;30m▄▀▀▀[0;31m [0;1;30m▀[0m▄   ▀   ▀[31m  ░░[0;1;30m ░░░[0m      [1;30m▀▀[0;34m▀▀▀███▄[0m      [1;30m  [0;31m    ▌[0m       [37m▄[0;1;37;47mvl[0md[1;30m([0msense[1;30m)[0m
 [1;30m [0m       [1;30m▀[0m                                      [34m▀[0m         [37m  [0;31m▀[0m      [1;30m▄▀[0m▀
 
-[1;30m8< ------------------------------------------------------------------------- >8 [0m
-
-[1;30mgreets to:[0m
-[1;30m            snowball, my main man... ''sup homez![0m
-[1;30m            president, come draw with us once more! :)[0m
-[1;30m            aes, thank god you sleep when i''m awake and vice versa ;)[0m
-            [1;30matax, keep entertaining me on #sense[0m [1;30m;)[0m
-            [1;30menzo, bym, always impressed[0m [1;30mby your wicked stylez[0m
-
-            [1;30mand :   #give (ircnet), #sense & #ans (efnet)[0m
-
-            [1;30mfinally : everyone bringing ansi back to what it is..[0m
-                      [1;30mwhat is it? it''s fun, and a lotta people[0m
-                      [1;30m(including myself) forgot all about that....[0m
-                      [1;30mw0rd up to all artgroups and sysops around![0m
-
-[1;30mrequests to: velodrome@dwaalspoor.com[0m'
+[1;30m8< ------------------------------------------------------------------------- >8 [0m'

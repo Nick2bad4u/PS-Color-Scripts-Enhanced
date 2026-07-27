@@ -5,7 +5,7 @@
 # Source SHA-256: fa897b09504afc7c82ec9751e19f1966e6fdce090fbaec5cf993003dbd2c254f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FO-GAJL.ANS by flexor (phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nofont
 # SAUCE Author: flexor
 # SAUCE Group: phobia
@@ -54,9 +54,4 @@ Write-Host '
 [34;40m███████████████████████████████▄[0;37;40m [0;1;31;43m [0;1;31;40m██[0;1;31;43m▄[0;33m▄[0;1;31;43m▄█████████▀▀     [0;33m▀▀[0;1;31m      ▄█[0;1;31;43m█[0;1;31;40m██[0;1;31;43m█▓▒░[0;30;43m░[0;33;40m▓[0;30;43m▓[0;37;40m [0;31;40m [0;30;41m░[0;31;40m██[0m
 [34;40m████████████████████████████████▄ [0;33;40m▀▀[0;1;31;43m▀▀▀███▀▀▀▀   [0;33m▀▀▀[0;34m ▄▄   [0;1;31m  ▄███[0;1;31;43m████[0;1;31;40m██[0;1;31;43m▓▒░[0;30;43m░▒▓[0;37;40m [0;30;41m░ [0;31;40m█[0m
 [34;40m███████████████████████████████████▄▄▄ [0;33;40m▀▀▀▀▀▀▀[0;34;40m ▄▄▄███████▄[0;37;40m [0;1;31;40m██[0;1;31;43m▓▓▓[0;1;31;40m█[0;1;31;43m██[0;1;31;40m██[0;1;31;43m▓▒░░[0;30;43m░▒[0;31;40m  [0;30;41m░[0;31;40m██[0m
-[34;40m██████████████████████████████████████████████████████████▄[0;37;40m [0;1;31;40m█████[0;1;31;43m█[0;1;31;40m██[0;1;31;43m▓▒░░[0;30;43m░▒▒[0;33;40m [0;30;41m░[0;31;40m███[0m
-
-
-[33;40m no font here no... just use this where you want it... [0m
-
-[37;40m [0;33;40moh. btw.. if you will use it.. greet me .. "flexor" :)[0m'
+[34;40m██████████████████████████████████████████████████████████▄[0;37;40m [0;1;31;40m█████[0;1;31;43m█[0;1;31;40m██[0;1;31;43m▓▒░░[0;30;43m░▒▒[0;33;40m [0;30;41m░[0;31;40m███[0m'

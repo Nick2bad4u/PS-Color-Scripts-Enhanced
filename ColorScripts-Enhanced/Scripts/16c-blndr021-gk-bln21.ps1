@@ -5,7 +5,7 @@
 # Source SHA-256: 86c8c04f6c0c70ec1efe712935daf9ab21e96061ad0b6bbb55c17ba8bf52a7d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GK-BLN21.ANS by grind king (LAZARoo!@); released in blndr021 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kermit the lush
 # SAUCE Author: grind king
 # SAUCE Group: LAZARoo!@
@@ -35,4 +35,4 @@ Write-Host '
                                [1;37m▄▄▄▄[0;1;37;47m▒[0m▀██ ▀▀  [1m▀▀█[0;1;47m▓[0m█▓[1m  [0;33m▓▒▌[0;37m [0;32m█████ ███▌[0;37m [0;32m▄██[0;1;32;42m░[0;32m▌[0;36m▐[0m
                                [1;37m█[0;1;36m██[0;1;37;47m█▓[0m▌█▓[34m ░[0;30;44m▓▓[0;34;40m░░[0;37;40m  [0;1;37;47m█▌[0;1;37;40m▒[0m▌[1;33m [0;33m▐[0;37m [0;33m▌[0;32m▐[0;1;32;42m  [0;32m████▓█▀▄█[0;1;32;42m  [0;32m█▌[0;36m▐█░[0m
                                [1;37;47m▒▒[0;1;37;40m██[0;1;37;47m▓░[0m█▌[34m▒█[0;1;34m█[0;1;34;44m█▓[0;30;44m▒[0;34;40m [0;1;37;40m▐[0;1;37;47m [0;1;37;40m▒▒  [0;33m▐[0;37m  [0;1;32;42m ░░░[0;32m██████████▌[0;36m▐[0;1;36;46m [0;1;36;40m▒[0m
-                                       [1;34m   [0m          [33m▀[0m    [1;30mgrind king (LAZ)[0m'
+                                       [1;34m   [0m          [33m▀[0m    [1;30m                [0m'

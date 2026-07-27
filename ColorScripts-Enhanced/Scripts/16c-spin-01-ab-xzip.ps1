@@ -5,7 +5,7 @@
 # Source SHA-256: 81d7446a54ea3cdf632c66b3ec7650750ad27736ff7ecfedea2a03c1e2754161
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-XZIP.ANS by aCID^bURN (spin/arc); released in spin-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: foto on the mighty xzip!
 # SAUCE Author: aCID^bURN
 # SAUCE Group: spin/arc
@@ -53,14 +53,4 @@ Write-Host '
 [30;40m   [0;1;30;40m░░[0;36m░[0;30;46m▓[0;37;40m [0;31;40m▄▀[0m     [31;40m▌▀[0;31;41m [0m     [1;31;40m▀▀▌▀▀▀[0;31m▌[0;1;31;41m▄▄▄▄  [0;41m▌[0;1;31;41m▐[0m       ▐[1;30;41m░[0m       [1;31;41m▌░[0;31m▌[0;31;41m [0;31;40m▀▀▀[0;1;31;40m▀▀    [0;1;30;40m░░░░[0m
         [31m▌[0m         [31m▄[0m               [31m▀▀[0;37;41m░░[0;1;31;40m▌░░   [0m░[30;47m▓[0;37;40m▌ [0;1;30;40m░░[0m            [1;30m[ab][0m [1;30m░░░░[0m
      [36m░░[0m                             [37m▀[0;1;30;47m░▓ [0m░[30;47m▓[0m
-                                     [1;30;47m▄▄[0m
-
- [1;30m->>> well aCID^bURN doing a picture of the mighty xzip.. 1998...[0m [1;30mit''s quite[0m
-      [1;30mlike him :)[0m [1;30mmohahahaha haha ha a.[0m
-
-      [1;30mfont & pic by : aCID^bURN ... no background... :([0m
-
-      [1;30mxzip! : use[0m [1;30mit on are51 or sume ;) or maybe[0m [1;30mprint it out and hang the[0m
-              [1;30mfoto above your bed :)[0m [1;30mtihihihi...[0m
-
-      [1;30mremember that i had changed to [ab] ... from burn...dont[0m [1;30mforget it! =))[0m'
+                                     [1;30;47m▄▄[0m'

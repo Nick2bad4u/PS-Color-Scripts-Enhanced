@@ -5,7 +5,7 @@
 # Source SHA-256: 237f10680405febd1764c28f22ae66a95f2c588b3ac25b29f0ac3d931e165ac3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-FIRE.ANS by avg_ (blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fire
 # SAUCE Author: avg_
 # SAUCE Group: blocktronics
@@ -64,4 +64,4 @@ Write-Host '
 
 
 
-[31mavg_[0m                   [31m░░░[0;37;41mfIRE  -1067 degr33S - fUEGO[0;31;40m░░░[0m     [31;40miknowivan@gmail.com[0m'
+[31m    [0m                   [31m░░░[0;37;41m                           [0;31;40m░░░[0m     [31;40m                   [0m'

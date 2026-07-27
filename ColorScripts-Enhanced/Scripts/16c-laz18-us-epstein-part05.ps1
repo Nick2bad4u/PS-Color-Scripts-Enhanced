@@ -5,7 +5,7 @@
 # Source SHA-256: 44c9112a3ff734278586d86366b713a36387ad162343a10689781fadbcd93c49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-epstein.ans by Warpus + Aesthetic (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Have a seat...
 # SAUCE Author: aesthetic & warpus
 # SAUCE Group: LAZARUS
@@ -57,6 +57,6 @@ Write-Host '
 [31m ▌▌▌▌▌▌▌▌▌▌▌▌▌▌  ▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌  ▌▌▌▌▌▌▌▌▌ ▌▌▌▌▌▌ ░▒▌▌▌▌▌▒░  ▌▌▌▌▌▌▌▌▌▀[0m
 
 
-[37m       ░ [0;1;37mw[0m [1me[0m [1m''[0m [1mr[0m [1me[0m   [1mr[0m [1me a[0m [1ml[0m [1ml[0m [1my[0m   [1mu[0m [1mg[0m [1ml[0m [1my[0m   [1mm o t h e r f u c k e r s[0m ░
+[37m       ░ [0;1;37m [0m [1m [0m [1m [0m [1m [0m [1m [0m   [1m [0m [1m   [0m [1m [0m [1m [0m [1m [0m   [1m [0m [1m [0m [1m [0m [1m [0m   [1m                         [0m ░
 
                           [30;47m█[0m'

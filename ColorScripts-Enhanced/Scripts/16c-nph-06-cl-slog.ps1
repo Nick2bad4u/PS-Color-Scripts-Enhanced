@@ -5,7 +5,7 @@
 # Source SHA-256: cf866232116f289d213507e9710658559df2f8970a035ce186798e4aa91e40ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-SLOG.ANS by cLEANEr (nITROPHUSIOn); released in nph-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sLISERs lOGIn
 # SAUCE Author: cLEANEr
 # SAUCE Group: nITROPHUSIOn
@@ -37,6 +37,4 @@ Write-Host '
 [1;30;40m██  [0;1;33;40m▀[0;1;33;43m▓▓[0;1;33;40m▄▀▀▀▀[0;33m▄[0;1;33;43m░░[0;33m▀[0m     [1;30m█▓[0;1;30;47m▓▓[0;1;30;40m▓█▄▄▄[0;1;30;47m▀▀▀[0m██[1;47m░░[0m██[1;30;47m▄▄▄[0;1;30;40m▀▀▀[0m      [1;30m░░[0m        [1;30m░░   [0;1;33;43m░▒▓[0;1;33;40m▄▄██[0;1;33;43m▓▓[0;1;33;40m▄▄[0;1;33;43m▓▒▓[0m
 [1;30;40m█[0m▓ [1;30m░░ [0;1;33m▀▀█[0;1;33;43m▓▒░[0;33m▀▀  [0;37m░░ [0;1;30m░░ █▓▓██[0;1;30;47m▓▒▒░░[0m█[1;30;47m▄▄▄[0;1;30;40m▀▀▀    ░ [0;1;37;40mW[0;1;31;40me[0;31mlcome [0;1;37mo[0;1;31mn [0;1;37mS[0;1;31ml[0;31misers[0;37m!  [0;33m▐[0;1;33;43m░▒[0;1;33;40m▀[0;1;33;43m▓▓[0;1;33;40m████▀[0;1;33;43m▒▓[0;1;33;40m▌[0m
 [1;30;40m██[0m           [1;30mc[0mL[1m!N[0mP[1;30mh    ██▓▓█[0;1;30;47m▓▓[0;1;30;40m▀▀▀    [0m░░      [1mS[0;1;31my[0;31msgewd[0;37m: [0;1;37mS[0;1;31mp[0;31mider[0m       [33m▀[0;1;33;43m░░[0;33m▄[0;1;33m▀▀▀▀▄[0;1;33;43m▓▓[0;1;33;40m▀[0m
-[1;30;47m▀[0;1;30;40m██[0m▓▓[1;30m███[0m▓[1;30m██▓▓▓▓▒▒▒░░    ▀▀▀    ░░[0m        [1;30m░░    [0m░░     [1;30m░░[0m        ░░   [33m▀▀[0;1;33;43m░▒▓[0;1;33;40m█▀▀  [0;1;30;40m░[0m
-
- [1;30m-[0m-[36m[[0;37mS[0;1;30mliser[0ms[36m^[0;37mL[0;1;30mogi[0mn[36m^[0;37mR[0;1;30mequeste[0md[36m^[0;37mB[0;1;30my[0;36m^[0;37mD[0;1;30mar[0mk[36m^[0;37mA[0;1;30mnge[0ml[36m][0;1;30m-[0m-[1;30m-[0;36m[[0;1;30m2[0m7[36m/[0;37m1[0;1;30m2[0;36m/[0;1;30m9[0m7[36m][0;37m-[0;1;30m-[0;36m[[0;1;30m5[0;36m:[0;1;30m4[0m0[1;30ma[0mm[36m][0;1;30m-[0m-[1;30m-[0;36m[[0;37mC[0;1;30mleane[0mr[36m][0;37m-[0;1;30m-[0m'
+[1;30;47m▀[0;1;30;40m██[0m▓▓[1;30m███[0m▓[1;30m██▓▓▓▓▒▒▒░░    ▀▀▀    ░░[0m        [1;30m░░    [0m░░     [1;30m░░[0m        ░░   [33m▀▀[0;1;33;43m░▒▓[0;1;33;40m█▀▀  [0;1;30;40m░[0m'

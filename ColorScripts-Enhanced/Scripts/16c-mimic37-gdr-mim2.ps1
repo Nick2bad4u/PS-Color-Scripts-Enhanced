@@ -5,7 +5,7 @@
 # Source SHA-256: ea747128349127464d8ecfd416bbb182a4c781e054b58de6411f9476b8c9fecb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: gdr-mim2.ans by Gravedancer (mimic37); released in mimic37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -37,5 +37,4 @@ Write-Host '
       [1;30m;$$$$$$$$$$$$$;;a[0m  ; ``''       [1;31m  [0;33m,a&[0;1;31maa&&888b, [0;33mIII*b,[0m         [1;30m i$$$$$;`````[0m
      [1;30m`````''''''²²²****7$$''[0m [1;30m,,,d&&aa,._[0m [33m;;i[0;1;31mI88888$$$$$&&[0;33m88[0;1;31m88IIb,[0;1;30m ___ ,;$$$$$$;[0m    [1;30m [0m
 
-[1m-----[0m
-[1mi suck.[0m'
+[1m-----[0m'

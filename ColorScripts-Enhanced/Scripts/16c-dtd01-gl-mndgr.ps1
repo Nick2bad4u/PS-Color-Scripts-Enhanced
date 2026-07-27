@@ -5,7 +5,7 @@
 # Source SHA-256: 94db1309da610ebe543dc48e2899d83eb7ae84033ebd12c0529dfcfbd8ecd8ec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GL-MNDGR.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: MiND - THE GREEN EYE -
 # SAUCE Author: GLANDYTH-A-KRAE
 # SAUCE Group: DEVOTiON TO DARKNESS
@@ -17,8 +17,8 @@
 Write-Host '
 [1;30m─┤ MiND - THE GREEN EYE - ├─────────────────────────────────────────────────────[0m
             [1;32m.   .[0m                       [1;32m.[0m
-          [1;32m.m    [0;32ml$[0;1;32mn[0m                   [1;32mmd:  .,[0;32mm[0;1;32mmd$$b[0;32mb[0;1;32mn.  .mn.[0m
-         [1;32m.[0;32m$[0;1;32ml    [0;32md$$b[0;1;32m.[0m                 [1;32m$[0;32m$bdⁿ[0;35mⁿ[0;32mⁿ"[0;35m`[0;32m""ⁿⁿ[0;35mⁿ[0;32m$$n[0;1;32m.[0;32mⁿ$`''[0;1;32mⁿ[0;32mm,[0m
+          [1;32m      [0;32m  [0;1;32m [0m                   [1;32m       [0;32m [0;1;32m     [0;32m [0;1;32m        [0m
+         [1;32m [0;32m [0;1;32m     [0;32m    [0;1;32m [0m                 [1;32m [0;32m    [0;35m [0;32m  [0;35m [0;32m    [0;35m [0;32m   [0;1;32m [0;32m    [0;1;32m [0;32m  [0m
         [32md$$[0;1;32mb. [0;32m.d$ `$$.[0m           [35m.m[0;32mⁿ`[0;1;32m''[0;32mⁿ$[0;35m:[0m            [35m`[0;32m$b '' $   `''[0;35mn.[0m
        [32mm$"`"ⁿⁿ"''    ⁿ$b[0m     [1;32m.b[0;32mn.[0m       [35m$:[0m             [35m`$[0;32m. [0;35md$.[0m     [35m`".[0;32m.[0m
       [32md[0;35m$''[0m            [32mⁿ$b  [0;35m.·[0;32m`b.[0m        [32m"[0;35m:[0m             [35ml[0;32m$  $[0;35mb:[0m        [35m`"m[0;32m.[0m
@@ -37,7 +37,7 @@ Write-Host '
 [37m [0;35m [0m                      [1;35m$bl$[0;35m"    [0;1;35m.[0;35mⁿ[0;1;35m"bmnd[0;35mⁿ[0;32m▀[0;1;35m""[0;35mⁿ[0;1;35m"[0;35m" [0;1;35mⁿb.[0m      [35m°[0;1;35m·._ .[0m
                         [1;35m$$;[0;35m''   [0;1;35m.[0;35md[0;1;35m$"[0;35m'' "[0;1;35mm [0;1;30mgl[0;1;35m.''[0m        [35m°[0;1;35m ·. . _.[0;35m·[0m
         [1;35m·[0m              [1;35m.$"    ."[0m        [1;35m"[0;35m''[0m
-            [1;35m.[0m          [35ml[0;1;35m''   .`  [0;32m·[0;1;30m[.[0;32m.[0;1;30m.[0;32mT[0;1;30mHE [0;32mG[0;1;30mREEN [0;32mE[0;1;30mYE.[0;32m.[0;1;30m.][0;32m·[0m
+            [1;35m [0m          [35m [0;1;35m        [0;32m [0;1;30m  [0;32m [0;1;30m [0;32m [0;1;30m   [0;32m [0;1;30m     [0;32m [0;1;30m   [0;32m [0;1;30m  [0;32m [0m
               [1;35m·[0m       [1;35m.''  .[0;35m''[0m
                [1;35m`·._ ·[0;35m°[0;1;35m  [0;35m·[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

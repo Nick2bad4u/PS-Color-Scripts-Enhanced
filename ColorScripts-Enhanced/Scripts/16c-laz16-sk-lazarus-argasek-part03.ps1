@@ -5,7 +5,7 @@
 # Source SHA-256: 4def4f89beb4f64bf273e959fb13cd5b2572eca62681305a172a0d451b0bf186
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sK!LAZARUS_argasek.ans by sIMONkING (LAZARUS^thelo0p!); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Argasek na Xenium!
 # SAUCE Author: sIMONkING
 # SAUCE Group: LAZARUS^thelo0p!
@@ -49,7 +49,7 @@ Write-Host '
 [1;31m█▀[0;34m███▄█▀██▄▀▀█▀▀▀▀▄█████[0;1;31m████[0m     █  ▄█ [1;33m▄█[0;1;37m██[0;1;33m▄[0m  [1;33m█[0m   [1;33m██[0m█ [1;33m██[0m    ▀█▀█▄   [32m▀▀[0m
 [1;31m█[0;34m▄▀██████▄██████████████[0;1;31m▄██[0m      ▀     [1;33m█[0m [1;33m█[0;1;37m██▄[0m [1;33m█▄▄▀██[0m [1;33m▄▀[0m       ▀███▀
 [1;31m▀[0m    [34m▀▀▀▀▀[0;37m  [0;34m▀[0;37m    [0;34m▀▀[0;37m  [0;34m▀[0;37m [0;34m▀[0;37m   [0;1;31m▀[0m            [1;33m█▄[0m [1;33m▀[0;1;37m▀[0;1;33m█▄[0m  [1;33m█▀█[0;1;37m▄▀[0m
-  [1;30mZ[0mbieznosc [1;30mn[0mazw [1;30mi[0m [1;30mp[0mostaci [1;30mp[0mrzypadkowa [1;30m=[0m) [1;33m▀▀[0m [1;31m▄██▄[0;1;33m▀[0m [1;33m▀[0;1;37m▀[0m   [1;30mK[0matowice [1;30m2[0m6-[1;30m2[0m8.[1;30m0[0m8.[1;30m2[0m022
+  [1;30m [0m         [1;30m [0m    [1;30m [0m [1;30m [0m       [1;30m [0m           [1;30m [0m  [1;33m▀▀[0m [1;31m▄██▄[0;1;33m▀[0m [1;33m▀[0;1;37m▀[0m   [1;30m [0m        [1;30m [0m  [1;30m [0m  [1;30m [0m  [1;30m [0m   
               [1;30m█[0m [30;47m▓▓[0;37;40m  [0;1;30;40m▄[0m                        [1;31m▀▀▀▀[0m                            [1m░░░[0m
    [1;36m░░░░[0m      [1;30m█[0m [1;30m░[0;30;47m▒▒█[0;1;30;40m▀[0m [1;30m▄[0;1;30;42m▌[0;1;30;40m▄▄[0m        [1;30m░░[0m   [1;30m░░[0m   [1;30m░░░░░░░░░░ ░░ █[0;1;37m▀[0m▀▀▄▄            [1;30m▄▄[0;1;37m██▓[0m
    [1;30m▄[0;1;30;46m▓▓[0;1;30;40m█[0m     [1;30m▄▀[0m [1;30m▄[0;30;47m░[0;1;30;47m▒[0m  [1;30m░[0;1;30;42m▌  ░░░░[0;1;30;40m███▄▄▓▓░[0m [1;30m░▓▓▄[0m   [1;30m▄▄▄▄▄▄▄[0m      █     [1;30m▀▀▀█▄▄▄ ▄▄█[0;1;30;47m▀[0m██[1;47m▀[0;1;40m█[0;1;30;40m█[0m

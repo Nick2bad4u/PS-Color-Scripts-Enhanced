@@ -5,7 +5,7 @@
 # Source SHA-256: ae9fc6fd56a3a1033a21bcccf0ff6cbbcb55964e641262d7dc05bfe2aa96e05c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ-ATL.ANS by Fastjack (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: go! atlantis edit
 # SAUCE Author: Fastjack
 # SAUCE Group: boil
@@ -32,7 +32,7 @@ Write-Host '
 [37m  [0;34m░█▄░[0m    [1;30m░[0m [1;30ma t l a n t i s[0m [1;30m░[0m      [34m░▄▄█[0;1;34;44m░[0;34m▀▀▀▀[0;37m [0;34m░░[0m          [34m▄[0;37m [0;1;30m░[0m  [34m░[0;37m [0;1;34;44m ▒▒░[0;34m█▌░░[0m
    [34m░░▀▀▄▄[0;37m [0;34m▄[0m                    [34m░░▄▀▀▀[0m                      [1;30m   [0m [34m░░▀[0;37m [0;34m▀▀▀[0m
                             [34m░░▀[0m
-           [34mput watchawant [0m     [34m▌[0;1;37;44m [0;1;34;44mput watchawant[0;1;37;44m [0;34m▐[0m    [34mput watchawant[0m
+           [34m               [0m     [34m▌[0;1;37;44m [0;1;34;44m              [0;1;37;44m [0;34m▐[0m    [34m              [0m
                        [34m  [0m      [34m▄ [0m                                    [34m▄░░[0m
       [34m░▄▀▀[0m           [34m▄[0;37m [0;1;30m░░[0m       [34m▓[0m                          [34m▄[0m          [34m█▄▄█▀▀[0m
    [34m░░▄█[0m         [34m░░▄▄▀[0m         [34m▄▄▀▓▄▄▄░░[0m                   [34m█▄[0m        [34m▄[0;1;34;44m▄▓▓░[0;34m▓▀[0m
@@ -42,4 +42,4 @@ Write-Host '
 
 
 [1;30m--------------------------------------------------------------------------[nfo]-[0m
-[1;30mmy entry phor go! compo #4 (atlantis edition)[0m                    [1;30mFastjack^boil ░[0m'
+[1;30m                                             [0m                    [1;30m              ░[0m'

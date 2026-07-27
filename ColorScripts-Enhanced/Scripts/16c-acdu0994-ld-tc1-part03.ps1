@@ -5,7 +5,7 @@
 # Source SHA-256: 512516998a2605c7d8ba64b3326dd99cf65144b7aef159e67044ef4b0f1ac9ab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-TC1.ANS by Lord Jazz (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Complex
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -38,9 +38,9 @@ Write-Host '
                                     [1;30m▒   ▀▓[0m         [1;36m▒[0m             [1;30m░[0m       [1;36m▓▀  [0;1;30m▓[0m
 [1;30m [0;1;37mT  [0;1;36mh  [0;36me    C  [0;1;30mo  m  p  l  e  x  ···   ···  ··· [0;1;36m▄ ▄▓█▄ ▄  ▄ [0;1;30m▓▀▀ ▀▀ ▀ ▀▀▀ [0;1;36m▒ [0;1;30m▀▀░[0m
                                                    [1;36m▀[0m        [1;30m░[0m            [1;36m░[0m
-[1;36m [0;1;30m░[0m                         [1;30mAnsi :: Lord Jazz [[0;36mACiD[0;1;30m][0m                          [1;30m░[0m
-[1;30m ▒[0m             [1;30m░[0m                 [36m10[0;1;36m0% [0;36mOri[0;1;36mginal[0m              [1;30m░[0m                [1;30m▒[0m
-[1;30m ▓[0m     [1;30m▒[0m       [1;30m▒[0m      [1;30m"What The Hell Does That Font Say?!"  ▒   ▒[0m         [1;30m▒  ▓[0m
+[1;36m [0;1;30m░[0m                         [1;30m                   [0;36m    [0;1;30m [0m                          [1;30m░[0m
+[1;30m ▒[0m             [1;30m░[0m                 [36m  [0;1;36m   [0;36m   [0;1;36m     [0m              [1;30m░[0m                [1;30m▒[0m
+[1;30m ▓[0m     [1;30m▒[0m       [1;30m▒[0m      [1;30m                                      ▒   ▒[0m         [1;30m▒  ▓[0m
 [1;30m▄█▄▒▄ ▄▓▄ ▄  ▄▄▓▄▄ ▄▓ ▄[0m                                  [1;30m▄▄▄▓▄  ▓▄  ▄ ▄▄ ▄▓▄▄█▄[0m
                [1;30m▒[0m                                                           [1;30m▀▓[0m
 [1;30m A  C  i  D    ░   N  y  n  d  e  e  f  o  r  e  ···[0m              [1;30m··· No.3 ·▒·[0m

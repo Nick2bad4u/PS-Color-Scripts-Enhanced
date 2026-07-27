@@ -5,7 +5,7 @@
 # Source SHA-256: 8c5b562abcf99f7cdfe77e95dcdfc3620be5236dd57e20c51685502fdc632f33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5D-TMA-.ANS by slayerdreams (maiden (BR)); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tma logo!
 # SAUCE Author: slayerdreams
 # SAUCE Group: maiden (BR)
@@ -29,7 +29,4 @@ Write-Host '
 [35m▄▄▄▄▄[0;1;35;45m ▄▄[0;1;35;47m▓▓[0;35m█[0m    [31m [0;1;31m▐▀[0;31m▀▀[0m   [31m▀▀▀██[0;30;41m░░[0;31;40m  [0;1;32;40m [0;30;42m░[0;1;32;47m▓▓[0;1;32;40m██[0;32m█▄[0;37m [0;35m  [0;1;35m▓[0;35m [0;1;35m [0;35m [0;1;35m▀▀▀[0;32m   [0;30;41m░[0;1;31;40m█[0;1;37;40m██[0;1;31;41m▌[0;31m▌[0;32m  [0;1;32m▐[0;32m    [0;1;32m▌[0;32m [0;37m [0;31m▄[0;30;41m░[0;1;31;40m█[0;1;31;41m [0m [30;42m░[0;1;32;40m█[0;1;32;47m▓▓[0;1;32;42m [0m
 [30;45m░[0;1;35;45m▀▀▀▀▀▀▀▀▀[0;35m█[0m     [1;31m▐[0m   [1;35;45m░▓[0;1;35;40m▄▄[0m    [31m░[0;30;41m▓[0;31;40m [0;37;40m [0;32;40m▄█[0;1;32;42m▀▀▀▀▀[0;32m▓▌[0;37m  [0;1;35m░[0m [31m▐▄▄▄▄▄▄▄▓[0;1;31;41m▀▀▀▀[0;31m█▄[0;1;31m [0;1;32m▐[0;32m [0m   [1;32m▌[0;32m [0;31m▐[0;30;41m░[0;1;31;41m▀▀ [0m [30;42m░[0;1;32;42m▀▀▀ [0m
                 [1;31m▐[0m                      [32m░░[0m            [30;41m▓[0m       [1;32;40m▐[0;32m▄[0;1;32m▄▄▄▌[0;32m [0;31m░[0;30;41m▓[0m
-                [1;31;40m▐▄ [0;1;32;40mt[0;1;37;40mwelve [0;1;32;40mm[0;1;37;40monkeys [0;1;32;40ma[0;1;37;40mrmy[0m
-
-[1;32m    [0;1;37mEu to procurando adotar um novo metodo de fazer background, portanto, se vc[0m
-[1maxar[0m [1mque esta feio, FODA-SE!!$$##@[0m'
+                [1;31;40m▐▄ [0;1;32;40m [0;1;37;40m      [0;1;32;40m [0;1;37;40m       [0;1;32;40m [0;1;37;40m   [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3214b1edd396840d448ca07a5a213146c76c062b5a231d3b8566c172af29cd59
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR-FREE.ANS by propane (rca15-a); released in rca15-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Freebie
 # SAUCE Author: propane
 # SAUCE Date: 19970921
@@ -41,7 +41,6 @@ Write-Host '
 
 ◄◄◄◄◄◄◄◄▒░ --------------------------------------------------------- ░▒►►►►►►►►►
 
-[33m:[0;37m [0;1;33mI dunno if anyone wants this, but feel free to use it, just leave my "pr" on[0m
-[33m:[0;37m [0;1;33mthere. I''m not sure why i drew this, just felt like drawing :][0m
-[33m:[0;37m [0;1;33m            [0m
-[33m:[0m                           [37mpropane.[0;1;37mrCa [0m'
+[33m [0;37m [0;1;33m                                                                            [0m
+[33m [0;37m [0;1;33m                                                              [0m
+[33m:[0;37m [0;1;33m            [0m'

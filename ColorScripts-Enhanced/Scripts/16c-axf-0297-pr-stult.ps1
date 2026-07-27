@@ -5,7 +5,7 @@
 # Source SHA-256: 771cc52f70b183dec305f07b2bd81fb6bdefaea52f35cc3e0ebbeef437af4405
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR-STULT.ANS by Primal Rage (Axf/Xeed); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Stultify
 # SAUCE Author: Primal Rage
 # SAUCE Group: Axf/Xeed
@@ -59,5 +59,4 @@ Write-Host '
               [32m▄▄▄[0;37m [0;1;32;42m▒▀▒[0m  [1;32;42m▒▀▒[0m  [1;32;42m▒▀▒[0m [1;32;42m▒▀▒[0m  [1;32;42m▒▀▒[0m  [1;32;42m▒▀▒[0m  [1;32;42m▒▀▒[0m  [1;32;42m▒▀▒[0m  [1;32;42m▒▀▒[0m [1;32;42m▒▀▒[0m
               [1;30;42m▒▄▒[0m [1;30;42m▒▄▒[0m  [1;30;42m▒▄▒[0m  [1;30;42m▒▄▒[0m [1;30;42m▒▄▒[0m  [1;30;42m▒▄▒[0m [1;32m [0;1;30;42m▒▄▒[0m  [1;30;42m▒▄▒[0m  [1;30;42m▒▄▒[0m  [1;30;42m▒▄▒[0m [1;30;42m▒▄▒[0m
                [1;30m▀▀▀▀▀[0m    [1;30m▀▀▀[0m  [1;30m▀▀▀▀▀▀[0m  [1;30m▀▀▀[0m   [1;30m▀▀▀ ▀▀▀[0m  [1;30m███[0m   [1;30m▀▀▀███[0m
-                                                   [1;30m▄██▀[0m     [1;30m▀▀▀[0m
-      [1;32mOne hundre[0;32md[0;1;32m percent original Ansee by [0;32mPrimal Rage[0;1;32m of [0;32m-AXF-[0;1;32m and [0;32mXeed[0;1;32m![0m'
+                                                   [1;30m▄██▀[0m     [1;30m▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 443ca84e5158296a5c4b4b43ed4b5db1498a52becae25487de58a1578992250b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-IDRAW.ICE by Kitiara (ice0002a); released in ice0002a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -33,12 +33,4 @@ Write-Host '
                                [1;31;43m░▒░▒[0;33m▄▀█[0;1;31;43m░░░░░▒▒▒▓▓░▒░[0;33m█▒[0m   [33m░[0m          [34m▐██▓▓▓▓▒▒░▒▓█[0m
 [34m░[0m                             [37m▄[0;33m▐[0;1;31;43m░░▒▒[0;33m▄░▀▀██[0;1;31;43m░░░░▒▒░[0;33m▓[0;1;31;43m░░[0;33m█▓[0m              [34m▀███▓█▓▓██▓█[0m
                             [1;37m▄[0;1;37;47m▓▒[0m▄[33m▀[0;1;31;43m▒░▒▒▒[0;33m█▄░[0;37m [0;33m▀▀▀[0;1;31;43m ░░[0;33m▓▀▓▀▀[0m                 [34m████▓█████[0m
-                          [1;37m▄███[0;1;37;47m▓▒░[0m▄[33m▀[0;1;31;43m░▒░▒▒▒[0;33m█▄▄▄[0;37m  [0;33m▀░[0m           [1;30mK!T<iCE>[0m   [34m█████████[0m
-
-
-
-
-
-
-
-               [37m [0m'
+                          [1;37m▄███[0;1;37;47m▓▒░[0m▄[33m▀[0;1;31;43m░▒░▒▒▒[0;33m█▄▄▄[0;37m  [0;33m▀░[0m           [1;30mK!T<iCE>[0m   [34m█████████[0m'

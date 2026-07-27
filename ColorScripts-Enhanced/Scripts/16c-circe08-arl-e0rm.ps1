@@ -5,7 +5,7 @@
 # Source SHA-256: c8887492a8e150bfd34165df20598112066b0250f428b00322c2833f224c174b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-E0RM.ANS by arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: enzo remix
 # SAUCE Author: arlequin
 # SAUCE Group: circe
@@ -33,25 +33,4 @@ Write-Host '
                         [1;36m☺☺☺☺[0;36m☻☻☻☻☻☻\,[0;37m [0;33m`''[0;1;31m▀▀[0;33m▀''`[0;37m  [0;1;30m¬¬[0m  [35m [0m
                         [1;36m☻☻☻☻☺☺[0;36m☻☻☻☻☻☻☻☺☺☺[0m    [1;30m¬[0m  [35m    [0m        [35m   [0m
                                [35m      [0m   [1;30m¬¬[0m
-                                    [35m   [0;37m [0;1;30m¬[0m        [36m  [0m
-
-                [37menzo remix[0m
-
-[37marlek aka arle aka arl aka arlequin[0m
-[37mpsc crew[0m
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                       [37m [0m'
+                                    [35m   [0;37m [0;1;30m¬[0m        [36m  [0m'

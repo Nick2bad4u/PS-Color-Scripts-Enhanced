@@ -5,7 +5,7 @@
 # Source SHA-256: b23355f3f0ae0d938f8a3e0f61c7ddaa10b51a010f7fa6c03a1e7d21da17081b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M-LB6.ANS by milkmang (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lunchbox (6) logo #2
 # SAUCE Author: milkmang
 # SAUCE Group: nerp
@@ -40,5 +40,4 @@ Write-Host '
              [31m ░▌▐▓▌[0m   [31m ▄▄██▀ ▀▀██▄▄▄▄██▀▄▄█▀  ▀█▄    ▐▌[0m    [31m▐[0m    [31m▌[0;37m [0;31m ▀▀▄[0m
              [31m ░  ▀▄█▀▀▀▀[0m        [31m ▀▀▀  ▀███▌    ▐██▄▄▄█▌[0m    [31m▐▌[0;37m  [0;31m▐▌[0m     [31m  [0m
               [31m░■▀ [0m                      [31m▀▀▀▄[0m   [31m▀▀▀█▐█▀[0m     [31m▐█▄▄█▌[0m
-              [31m░▌[0m                                            [31m▀▓▓▀[0m
-                     [31m<[0;1;31mthe lunchbox, place of penetration[0;31m>[0m    [31m [0m'
+              [31m░▌[0m                                            [31m▀▓▓▀[0m'

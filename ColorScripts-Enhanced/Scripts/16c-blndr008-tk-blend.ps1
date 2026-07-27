@@ -5,7 +5,7 @@
 # Source SHA-256: 0fcfcfbf5fd5680b4b0fa2872656f6c143aeb8d8f949c6e159bc1fc3c0f16255
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-BLEND.ANS by The Knight (Fuel); released in blndr008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tguardian pho' blender
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel
@@ -45,16 +45,16 @@ Write-Host '
  [1;32meye wILL[0m      [1;32m [0;1;33m▀█▄▄▄[0;33m▀ ▀▀[0;37m [0;1;37m▄▄▄▄[0;1;36m▄▄▄▄[0m [33m ▄[0;1;33;43m▄[0;1;33;40m█[0;1;37;40m████▄[0;33m▄[0;1;33m ▀█[0;33m▀[0;1;33m [0;1;37m [0m▄▄█[1;30;47m░▄[0m▀[1;30m▀[0;1;36m▄▄▄[0m [33m█[0;1;30;43m░▒▓[0m
  [1;32mkbanlinekikk0rz[0m [1;33m [0;33m [0;1;33;43m█[0;1;33;40m█[0;1;33;43m███[0;1;33;40m▄ [0;1;37;40m▀▀▀▀▀[0;1;36;40m▀[0;33m▄▄[0;1;33;43m▄▄[0;1;33;40m██████[0;1;37;40m██[0;1;33;43m▌[0;33m▌[0;37m ▄▄[0;1;30;47m▄[0m▀▀[1;30m▀[0;1;37m▄▄[0;1;36m▄▄████[0m [1;30;43m░▒▓█[0m
  [1;32my00r sorry    [0m   [1;33m▀▀▀ [0;1;37m▄[0;1;33m▀[0;33m▀[0;1;33m▄[0;33m▄▀[0;1;33;43m ░▒▓[0;1;33;40m████████[0;1;33;43m▀[0;1;33;40m████[0;1;33;43m [0;1;33;40m ▄[0;33m▄[0;37m [0;1;37m████████[0;1;36m███[0m [1;30;43m▒▓█[0;1;30;40m▀[0m
- [1;32masshole if y00 [0m [33m█▓▓█[0;1;33m [0;1;37m█[0;1;33m [0;1;37m█[0;1;33;43m█▌[0;33m▌[0;1;33;43m░▒[0;1;33;40m█[0;1;33;43m█[0;1;33;40m████[0;1;33;43m▀[0;1;33;40m▀[0;33m▀▐[0;1;33;43m▐[0;1;33;40m██[0;1;33;43m▀[0;33m▀[0;1;33m▄[0;1;33;43m▀[0;33m▀[0;1;37m▄███████████[0;1;36m█[0m [1;30;43m▓██[0;1;30;40m▌[0m
+ [1;32m               [0m [33m█▓▓█[0;1;33m [0;1;37m█[0;1;33m [0;1;37m█[0;1;33;43m█▌[0;33m▌[0;1;33;43m░▒[0;1;33;40m█[0;1;33;43m█[0;1;33;40m████[0;1;33;43m▀[0;1;33;40m▀[0;33m▀▐[0;1;33;43m▐[0;1;33;40m██[0;1;33;43m▀[0;33m▀[0;1;33m▄[0;1;33;43m▀[0;33m▀[0;1;37m▄███████████[0;1;36m█[0m [1;30;43m▓██[0;1;30;40m▌[0m
  [1;32mdewn0t obbey0rz[0m [33m█[0;33;47m▓█[0;33;40m█[0;37;40m [0;1;37;40m▌[0;1;33;40m▐█[0;1;33;43m▌[0;33m▌▀▀▀[0;1;33;43m▀▀▀[0;1;33;40m▀[0;33m▀[0;1;37m▄▄▀[0;33m▄[0;1;33;43m▄[0;1;33;40m██ ▄▀[0m  [1m [0;33m▄▄▄[0;37m [0;1;37m█████████[0m [1;30;43m██[0;1;30;47m▓█[0m
  [1;32mmee!@|#|@[0m     ▄[1;30;47m░[0m▄▄[33m▀▀[0;37m [0;1;33m▄█[0;1;33;43m▀[0;33m▀[0;37m [0;1;37m▄▄▄▄▄▄█[0m [1m██▌▐█[0;1;33m█▌[0;33m▀[0;1;33m▀[0;1;33;43m▀[0;1;33;40m█[0;1;33;43m▀[0;1;33;40m▀▀▀█[0;1;33;43m▌[0;1;33;40m [0;1;37;40m████████[0m [1;30;43m█[0;1;30;47m▓▒▓[0m
               [1;30;47m░[0;1;37;47m■■[0;1;33;40m▄[0m [1;33m▄▄█[0;1;33;43m▀[0;33m▀ ▄▄▄▄▄▄▄▄▄▄▄▄▄▀[0;1;33;43m▀[0;1;33;40m███▄▄▄▄██▄▐█▌[0;1;30;40m▄▄▄▄▄▄▄▄▄[0;1;30;47m██▓▓[0m
              [1;30;47m▒[0;1;37;47m■[0m▀[1;33m▄▀█[0;1;33;43m▀[0;1;33;40m▀[0;33m▀[0;1;33m [0;33m▀▀▀▀[0;33;47m▓▓[0;33;40m▀▀▀▀▀▀▀▀▀▀[0;37;40m [0;33;40m▀[0;1;33;40m▀[0;1;33;43m▀[0;1;33;40m█▀▀▀▐█▌▄█▀[0m [1;30m▀▀▀▀▀▓▀▀ ▀[0m░░
             [1;30;47m░[0;1;37;47m■■[0;1;30;47m▒[0m▄                        [1;33m      ▄█▀[0m [1;33m▀[0m
-   ▀■▄     ▀▀▄▀  [1;32mnow where''s my bowl o'' rice[0m [1;32m!?.[0;1;33m▀[0m
+   ▀■▄     ▀▀▄▀  [1;32m                           [0m [1;32m   [0;1;33m▀[0m
       ▀ ▄▄▄▀▀
 
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[1;32m [0m- the piece of shit [1;32m(tguardian)[0m was drawn by [1mThe Knight[0m of [1mFuel [0mfor blender -
+[1;32m [0m                    [1;32m           [0m              [1m          [0m    [1m     [0m             
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e36555d324424c667c9cec76ff27de88a8c73c79a1018d71c06425b384fb0e86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VDR-COL.ANS by Vader (bad attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Collection
 # SAUCE Author: Vader
 # SAUCE Group: bad attitude
@@ -17,7 +17,7 @@
 Write-Host '
 [1;34m▀▄■▀■▄▀▄■▄▄▀▄■▀■▀■▀■▄▄■▄■▀▄■▀■▄▀▀■▄▄▀■▄■▀▀■▀■▄■▄▀■▀▄▄■▀▀▄■▀▄■▀▄▀▀▄▄▀■▀■▄▄▀▄■▀▄■▄[0m
 
-[1;34m            .small logo collection by vader of bad attitude in 1997.[0m
+[1;34m                                                                    [0m
 
                         [1;30m█▀▀▀▀▀▀▀█[0m [1;30m█▀▀▀▀▀▀██▀▀▀▀▀▀▀▀▀▀█▄[0m
            [1;34m  [0m          [1;30m█▀[0m [1;34m▓███▓[0m [1;30m▀██[0m [1;34m▓██▓▄ [0;1;30m▀[0m [1;34m▓██████▓▄[0m [1;30m█[0m
@@ -47,7 +47,7 @@ Write-Host '
                                                                    [1;30m [0m
 [1;30m-------bah----------------------------------------------------------------------[0m
 
-                             [1;30m      ansi by[0m
+                             [1;30m             [0m
                     [31m [0m
                     [31m [0;37m [0;34m█ ███[0;37m  [0;34m█▀██▄[0;37m  [0;34m█▀██[0m   [34m█▀███[0;37m  [0;34m█▀██▄[0;37m [0;31m [0m
                     [31m [0;37m [0;34m▓[0;37m [0;34m██▓[0;37m  [0;34m▓[0;37m [0;34m██▓[0;37m  [0;34m▓[0;37m [0;34m██▓[0;37m  [0;34m▓[0;37m [0;34m██▓[0;37m  [0;34m▓[0;37m [0;34m██▓[0;37m [0;31m [0m
@@ -60,7 +60,7 @@ Write-Host '
                    [31m                                      [0m
 [1;30m--------------------------------------------------------------------------------[0m
 
-[1;30myea i know... all of them suxx... but what the heck... i''m doing this for fun.[0m
+[1;30m                                                                              [0m
 
 [1;30m--------------------------------------------------------------------------------[0m
 

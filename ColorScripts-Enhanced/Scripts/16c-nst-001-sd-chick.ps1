@@ -5,7 +5,7 @@
 # Source SHA-256: 3999febaa6fe54007b79d7b5a27286dbaf7f5b0f1fbe7513bef9b2cbe9f4126c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD!CHICK.ANS by sad (neon strike); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fried chick
 # SAUCE Author: sad
 # SAUCE Group: neon strike
@@ -43,6 +43,4 @@ Write-Host '
             [36m▀▀▀▀▓▓███▄▄[0;1;30;46m░░[0;36m█▀▀▀  ▀▀▀  ▄▓▓▌▀▀▀[0m    [36m▀▀▀▀█▄███▄▄▓▓▌▀▀▀  ▀▀▀   [0m
                      [36m▐▀[0m             [36m [0m                   [36m▐▀[0m             [36m [0m
 
-[35m------------------------------------------------------------------------------- [0m
-[35m [0m              [35mambience ansi surprise compo - topic: a chicken ![0m
-                  [35mso i fried one :) ansi by sad. neon strike.   [0m'
+[35m------------------------------------------------------------------------------- [0m'

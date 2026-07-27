@@ -5,7 +5,7 @@
 # Source SHA-256: 66191268376d2cf77987f8b66c6557494786534af1e482f9e21c18b46100acb2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RC(DRE1).ANS by 2] ^0  lost  2] [ (.boogiE%Woogie.); released in bdp-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the(dream(theatre(loginsequence)))
 # SAUCE Author: 2] ^0  lost  2] [
 # SAUCE Group: .boogiE%Woogie.
@@ -31,7 +31,7 @@ Write-Host '
                 [33m▀ ▄■ ▀[0m                                [31m▄▄[0;37m [0m
      [37m [0m                                               [31m▀█▓▀[0m
      [37m  [0;31m▄[0;1;31;41m▒[0;1;31;40m▄[0m                                              [31m▄█▄[0m
-     [31m▄■▀▄[0;1;31;41m▓[0m   handle     : trebraruna filha da dor        [31m▀[0;37m [0;31m▄[0m
-         [31m▐[0m   [37mpassword[0m   [37m: na ara da vida jaz uma morte[0m       [31m▀[0m
-         [31m▐[0m   [37musernote   : da lua és filha, dos lobos consorte[0m
+     [31m▄■▀▄[0;1;31;41m▓[0m                                               [31m▀[0;37m [0;31m▄[0m
+         [31m▐[0m   [37m        [0m   [37m                              [0m       [31m▀[0m
+         [31m▐[0m   [37m                                                [0m
          [31m▓[0m                                               [31m░[0m'

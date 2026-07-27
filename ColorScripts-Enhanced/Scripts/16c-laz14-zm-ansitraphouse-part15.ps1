@@ -5,7 +5,7 @@
 # Source SHA-256: 4ab97caa605b7e6dfd4894f2b62ed970971e0825d06d372fb502310b7bc5cfe6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZM-ANSiTRaPHouSE.ans by Zeromous (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ZM-ANSiTRaPHouSE
 # SAUCE Author: Zeromous
 # SAUCE Group: LAZARUS
@@ -16,26 +16,26 @@
 # Columns: 1-80
 
 Write-Host '
-          [36mSpecial Thanks to [0;1;35mWarpus [0;36mfor inviting me to Lazarus and encouraging[0m
-[37m          [0;36mme to the max. He wanted to contribute to my traphouse opus and did[0m
-[36m          a wonderful job with the moody HOUSE logo.  Thanks Warpy![0m
-[36m          You are an awesome ringleader and have amazing ideas. The Lazarus[0m
-[36m          shoe sale was a runaway success and I''m so happy I got to take part[0m
-[36m          in such inspired fun[0m
+          [36m                  [0;1;35m       [0;36m                                          [0m
+[37m          [0;36m                                                                   [0m
+[36m                                                                   [0m
+[36m                                                                           [0m
+[36m                                                                             [0m
+[36m                              [0m
 
-[37m          [0;1;36mThere''s so much more I''ve removed from this [0;1;30m765[0;1;36m liner but i think[0m
-          [1;36mthose details are better left out. One of those things that works[0m
-[1;36m          better in your head, execution is amazing[0;1;30m/shit[0;1;36m, but doesn''t fit[0m
+[37m          [0;1;36m                                            [0;1;30m   [0;1;36m                  [0m
+          [1;36m                                                                 [0m
+[1;36m                                                   [0;1;30m     [0;1;36m                 [0m
 
-          [1;36mSee if you can find all the references to [0;1;37mansi[0;1;36m groups current or[0m
-          [1;36mexpired, who wished I produced fo them - Zeromous [LazaruS][0m
+          [1;36m                                          [0;1;37m    [0;1;36m                  [0m
+          [1;36m                                                           [0m
 
-          [1mOne last trap ... a failed abomination i put too much work in to[0m
-[1m          to abandon.  Such is the life of an over constricted ansi artist[0m
-          [1mIts such fucking punk rock to end on an UNFINSHED ANSI. mic drop[0m
+          [1m                                                                [0m
+[1m                                                                          [0m
+          [1m                                                                [0m
 
-          [1mfuck it im breaking out of this mother-fucking trap of ansi[0m
-          [1mfuck it im breaking out of this mother-fucking trap of ansi[0m
+          [1m                                                           [0m
+          [1m                                                           [0m
 
 
           [33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m         [0;36m▄▄▄[0;36;43m▓▓▓▓▓▓[0;36;40m▓▓▓▓▓▄▄▄[0m

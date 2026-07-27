@@ -5,7 +5,7 @@
 # Source SHA-256: 0e852449eb62005da98b69e46eb1b438f480fcc8d91e777b2e45edfbc3f2d640
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH-SAC.ANS by Creature Of Hell (sac0998a); released in sac0998a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -32,5 +32,4 @@ Write-Host '
 [37m [0;34mcH.SAC[0m     [35m░[0;37m  [0;35m░░▀[0;1;35;45m░[0;35m█▄▓▄▄▓▀[0m     [37m            [0;1;30m▄▓▌[0m        [1;30m▄▓▀▀[0m     [35m▐[0;1;35;45m░░[0;35m▀▀[0;37m [0;35m▄▄[0;37m    [0m
 [34m                  [0;37m  [0;35m ▒ [0;37m [0;35m [0m    [37m                [0;1;30m▀[0m  [1;30m▄[0m [1;30m  ▀[0m            [35m▄▄█[0;1;35;45m░░░░[0;35m▀[0m
                      [35m░[0;37m  [0;35m [0;37m     [0m                                 [35m▀▀▀[0;1;35;45m░▒▓▓▒[0m
-                                                                    [1;35m▀[0;1;35;45m▓[0;1;35;40m▌[0m
-'
+                                                                    [1;35m▀[0;1;35;45m▓[0;1;35;40m▌[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 70e07dde2e1382648602e8286312e1b693f9bbd52fa093c183093e5aee38052d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OF-PRELO.ANS by overfiend (aXialfOrce); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tdw-prelogon!
 # SAUCE Author: overfiend
 # SAUCE Group: aXialfOrce
@@ -30,10 +30,10 @@ Write-Host '
      [1;30m²"^~[0m           [1;30m~^"²+T$$$$[0m [1;30m$$[0;31m$$[0;1;30m$[0;31m$[0;1;30m$[0m [1;32m;[0;32mi[0;1;32m;[0m [1;30m$[0;31m$[0;1;30m$$[0;31m$[0;1;30m$$[0m [1;32md[0memOn[1;32mw[0mOmb [1;34m²$$$$$[0;34m$[0;1;34ms$$$$$$[0;34m$''[0m
                      [37m      [0;1;30m~"²[0m [1;30m²+T$$$$si$is$$$$T+²[0m          [1;34m.,s²²²[0;34m²²[0;1;34m$$$$$$[0;34m$''[0m
 [37m   [0;1;30m╓─▄ ■ ▀ ■ ▄─-+░■·─-[0m░[30;47m▓[0;1;30;40m ─-───+░Of!─-─-+─░──·──-[0m░[30;47m▓[0;1;30;40m ─-·─-▓─-·─-·+╖[0m [1;33m,s$[0;1;34m$$$$[0;34m$''[0m
-[37m   [0;1;30m░[0m [1;32mt[0mhe [1;32md[0memOn[1;32mw[0mOmb [1;32;47mi[0ms running iniquity onepointzeroalphatwenty[1;32m5[0m [1;30m░[0m [1;33m²$$$[0;1;34m$$[0;34m$''[0m
-[37m   [0;1;30m▄[0m pure art and warez board with almost [1;32m8[0m g[1;32;47mi[0mgabytez of philez [1;30m▄[0m [1;33ms$[0;33m$$²[0;34m$''[0m
-[37m   [0;1;30m■[0m curently seeking artistz and courierz for better trading [1;32m&[0m [1;30m■[0m [33m''"~[0;37m  [0;1;30m [0m
-   [1;30m■[0m looks of this board[1;30m,.[0m                                      [1;30m■[0m
+[37m   [0;1;30m░[0m [1;32m [0m   [1;32m [0m    [1;32m [0m    [1;32;47m [0m                                          [1;32m [0m [1;30m░[0m [1;33m    [0;1;34m  [0;34m  [0m
+[37m   [0;1;30m▄[0m                                      [1;32m [0m  [1;32;47m [0m                  [1;30m▄[0m [1;33m  [0;33m   [0;34m  [0m
+[37m   [0;1;30m■[0m                                                          [1;32m [0m [1;30m■[0m [33m   [0;37m  [0;1;30m [0m
+   [1;30m■[0m                    [1;30m  [0m                                      [1;30m■[0m
    [1;30m▀[0m                                                            [1;30m▀[0m
-   [1;30m▒[0m staff[1;30m:[0m [1;32msOp[0m [1;30m-[0m overf[1;32;47mi[0mend [1;30m,.[0m [1;32mcOsOp[0m [1;30m-[0m macrOs and snowblind     [1;30m▒[0m
+   [1;30m▒[0m      [1;30m [0m [1;32m   [0m [1;30m [0m      [1;32;47m [0m    [1;30m  [0m [1;32m     [0m [1;30m [0m                          [1;30m▒[0m
    [1;30m╙+■░-─·───+▒■──--[0m░[30;47m▓[0;1;30;40m ─-+░·-──--─-─░■──▒■──-──-░+─-────-[0m░[30;47m▓[0;1;30;40m─--──╜[0m [1;30m[[0menter[1;32m/[0mcr[1;30m]|pk[0m'

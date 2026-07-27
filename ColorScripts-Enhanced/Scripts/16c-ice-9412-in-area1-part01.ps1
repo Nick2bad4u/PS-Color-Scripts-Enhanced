@@ -5,7 +5,7 @@
 # Source SHA-256: f2aaec1c08c4f36ff4e4658b7f1da0b7d3199f02c718425d4b81a917aec8073e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-AREA1.ICE by Incubus (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -31,9 +31,9 @@ Write-Host '
 [1;30;44m [0;1;34;44mDEC [0m [1;34;44m░   [0;1;30;44m░░░▒▓[0m
 
                          [1;34;40mi [0;34mC [0;1;30mE   [0;1;34mA [0;34md [0;1;30mv e r t i s m e n t s[0m
-                                     [1;34mP[0;34mR[0;1;30mESEN[0;34mT[0;1;34mS[0m
+                                     [1;34m [0;34m [0;1;30m    [0;34m [0;1;34m [0m
                   [1;30mA n   [0;1;34mI [0;34mn [0;1;30mc u b u s   C a r t o o n y   A n s i[0m
-                            [30miCE - Simply the Best[0m
+                            [30m                     [0m
 [1;44m                                                                               [0m
 [1;44m                                                                               [0m
 [1;44m           [0;34m▀▀▀▀[0;1m▄▄▄[0m▄▄▄▄▄▄▄▄▄▄[30;44m▄▄▄▄                                               [0m

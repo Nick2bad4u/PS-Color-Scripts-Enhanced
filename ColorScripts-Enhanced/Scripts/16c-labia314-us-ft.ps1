@@ -5,7 +5,7 @@
 # Source SHA-256: 01b6fd65d16312d6d642c6b089c00172ec01e7f0f11b7a6182ac3d7860570a7a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-ft.ans by Meatpod + Shrimp (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
 [1;34m                    [0;36m [0;1;30mj''[0;36m,$[0;1;36m$$$$$P[0;36m''[0m     [37m [0;1;30m [0m [1;30m     [0;35m`$$[0;1;35m$$$[0;35m$$b[0;37m [0;1;36m [0;36m [0m           [1;30m____[0m
 [1;34m        [0;1;30m____ .... ,, ''[0;1;34m [0;1;30m$[0;36m$$[0;1;36m$$[0;36mP''  [0;1;30m ----    '' ''''[0;36m [0;35m`?$$$$$$1  [0;37m [0;1;30m   ````[0m
 [1;34m       [0;1;30m` [0;1;34m           [0;36m [0;1;30m.[0;1;34m [0;1;30m?[0;36m$$$1[0;37m [0;36m  [0;1;34m [0m [31m               [0;35m`ⁿ╩$$$$1 [0m
-[1;34m        [0;1;30m [0;1;34m           [0;36m  [0;1;30m`[0m [1;30m~"[0;36mⁿ╩[0;1;36m*[0;36m. [0;1;30m  [0;31m   [0;36m [0;31m             [0;35m j$Pⁿ'' [0;37m [0;32msar[0;1;34m/[0;32mshrimp[0m
+[1;34m        [0;1;30m [0;1;34m           [0;36m  [0;1;30m [0m [1;30m  [0;36m ╩[0;1;36m [0;36m  [0;1;30m  [0;31m   [0;36m [0;31m             [0;35m       [0;37m [0;32m   [0;1;34m [0;32m      [0m
 [1;34m        [0;1;30m` [0;1;34m          [0;36m  [0;1;34m [0;1;30m  `` ≈.[0;36m` [0;1;30m [0;31m               [0;35m [0;1;30m [0;35m $''    [0m
 [37m            [0;1;30m                                    [0;35m   i  [0;1;30m [0;35m [0;1;30m [0m
          [1;30m   [0m                                       [35m: [0m'

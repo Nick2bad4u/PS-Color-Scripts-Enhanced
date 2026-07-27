@@ -5,7 +5,7 @@
 # Source SHA-256: ec8009566876d202f6fea856e575860fcbcf38f9b0f902641af179a9cf4f797e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GAVEL76.ANS by Michael Arnett (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -53,5 +53,4 @@ Write-Host '
 [1;32;42m       [0;31;42m■  [0;30;42m▀▀▀  ▀▀  ▐[0;1;34;43m░[0;30;43m░░   ▐[0m   [30;43m▐[0m   [30;43m  ▒░    ░   ▒▒▒     ▒▐   ░░▐[0;30;42m   [0;31;42m■ [0;30;42m▒[0;1;32;42m▀█▀       [0m
 [1;32;42m          [0;31;42m■ ■     [0;30;42m▐[0;1;34;43m░[0;30;43m░▒▒    [0m   [30;43m▌[0m   [30;43m▌ ▒░     ░  ░░▒▒▒▐▒▒▒▌   ░   ▐[0;31;42m■ ■[0;30;42m▒▌         [0m
 [30;42m                 ▐[0;30;43m ░░▒    ▄▀▀▀▄▀▀▀ ▀▒░     ░    ░░░ ▀▄▀     ░░  ▐[0;30;42m▀▀▒▌▄[0;31;42m■       [0m
-[31;42m                [0;30;42m▐[0;30;43m  ░▒       ▌    ▒▒▒░░           ░░░░░        ░  ▐[0;31;42m■ ■         [0m
-[37;40mMagic Bus 3/92[0m                                          [37;40m(C)1992 Michael Arnett[0m'
+[31;42m                [0;30;42m▐[0;30;43m  ░▒       ▌    ▒▒▒░░           ░░░░░        ░  ▐[0;31;42m■ ■         [0m'

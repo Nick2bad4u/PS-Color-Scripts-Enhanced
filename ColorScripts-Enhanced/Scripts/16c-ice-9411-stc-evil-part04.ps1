@@ -5,7 +5,7 @@
 # Source SHA-256: 8b5e10fdae2d501b6801bef4cd096b952eb5daecc60a7eb4a76c489ac146e7d5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-EVIL.ICE by Stone The Crow (ice-9411); released in ice-9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 138-179
 # Columns: 1-80
 
@@ -43,12 +43,10 @@ Write-Host '
           [1;30m▀▓▄  [0m ░  [1;30;47m▓[0m [1;30;40m [0m  [1;30;40m▓[0m [1;30;40m  [0m [1;30;40m▀▄  [0m ▒  [1;30;47m▓[0m [1;30;40m [0m  [1;30;40m░[0m [1;30;40m   ▀▓▄  [0m [1;30;40m▀▄[0;1;30;47m▓[0;1;30;40m  [0m [1;37;40m░[0m  [1;30;47m▓[0m [1;30;40m  ▄▄▓[0m
 
     [1;30;40m░[0m                                                                     [1;30;40m░[0m
-    [1;30;40m▒[0m   [36m░[0m         [36mSysop [0;1;30m=[0;36m Betrayer[0m [1;30m° [0;36mCoSysops [0;1;30m=[0;36m [0;1;36m([0;36ma few of ''em[0;1;36m)[0m        [36m░[0m   [1;30m▒[0m
-    [1;30m▓[0m   [36m▒[0m   [36mA bunch of HQ affiliations [0;1;30m° [0;36mSome dist site[0m [36maffiliations[0m  [36m▒[0m   [1;30m▓[0m
-    [1;30m▄[0;1;30;46m▓[0;36m■[0m [36m▓▄[0m       [36m1[0;1;30m.[0;36m2 Gigs Online [0;1;30m°[0;36m Running Oblivion2 Registered [0m     [36m▄[0;1;30;46m░[0m [36m■[0;1;30;46m▓[0;1;30;40m▄[0m
-   [1;30;40m▐▀▌[0m [36m▀[0;1;30;46m░[0;36m▄[0m   [36mThis board is dedicated to art[0;1;30m °[0;36m No GAY warez involved[0m  [36m▄[0;1;30;46m▒[0;36m▀[0m [1;30m▐▀▌[0m
-     [1;30m▌[0m  [1;36;46m░[0m   [36mNo[0;1;30m [0;36m NUP [0;1;30m° [0;36mNo file ratios for LD callers[0;1;30m °[0;36m 4O8[0;1;30m [0;36m 251[0;1;30m [0;36m 622O [0m [36m█[0m  [1;30m▐[0m
-        [36m▌[0m       [1;30m [0m [36mJust call the fucking board[0;1;30m.[0;36m You''ll like it[0;1;30m.[0m [1;30m  [0m     [36m▐[0m
-        [36m▌[0m                                                             [36m▐[0m
-
- [36m      [0;1;30mice    ice  i c e[0;36m [0m [36mi[0;1;36mC[0;1;37mE[0;36m  rules, boys and girls.[0;1;30m  i c e  ice    ice[0m'
+    [1;30;40m▒[0m   [36m░[0m         [36m      [0;1;30m [0;36m         [0m [1;30m  [0;36m         [0;1;30m [0;36m [0;1;36m [0;36m            [0;1;36m [0m        [36m░[0m   [1;30m▒[0m
+    [1;30m▓[0m   [36m▒[0m   [36m                           [0;1;30m  [0;36m              [0m [36m            [0m  [36m▒[0m   [1;30m▓[0m
+    [1;30m▄[0;1;30;46m▓[0;36m■[0m [36m▓▄[0m       [36m [0;1;30m [0;36m              [0;1;30m [0;36m                              [0m     [36m▄[0;1;30;46m░[0m [36m■[0;1;30;46m▓[0;1;30;40m▄[0m
+   [1;30;40m▐▀▌[0m [36m▀[0;1;30;46m░[0;36m▄[0m   [36m                              [0;1;30m  [0;36m                      [0m  [36m▄[0;1;30;46m▒[0;36m▀[0m [1;30m▐▀▌[0m
+     [1;30m▌[0m  [1;36;46m░[0m   [36m  [0;1;30m [0;36m     [0;1;30m  [0;36m                             [0;1;30m  [0;36m    [0;1;30m [0;36m    [0;1;30m [0;36m      [0m [36m█[0m  [1;30m▐[0m
+        [36m▌[0m       [1;30m [0m [36m                           [0;1;30m [0;36m               [0;1;30m [0m [1;30m  [0m     [36m▐[0m
+        [36m▌[0m                                                             [36m▐[0m'

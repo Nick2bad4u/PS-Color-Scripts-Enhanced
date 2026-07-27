@@ -5,7 +5,7 @@
 # Source SHA-256: 02cca7b691c1d377f72e302e532b8c25ffcad524df380375405529430a943f24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FV-SOQ.ANS by fe v  e   r (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: life on europa?
 # SAUCE Author: fe v  e   r
 # SAUCE Group: rile
@@ -38,10 +38,4 @@ Write-Host '
                                           [30;47m████████[0;1;30;40m▄▄▄[0;30;47m██[0;1;30;40m▀▀▄▓░[0m             [1;33m▄■[0m
    [1;33m■[0m                                     [30;47m██[0;1;30;40m░░[0;30;47m██[0;1;30;40m▄▐[0;1;30;47m▀▓[0;1;30;40m█▄▐██▄[0;30;47m█[0;1;30;40m░[0m     [1m▄[0;1;41m░[0;1;33;40m▄[0m
                                          [30;47m███[0;1;30;40m▀▄▀[0;1;30;47m▀▓[0;1;30;40m▓▀[0;30;47m█[0;1;30;40m▀█▀▓█▀[0;30;47m█[0m      [31;40m▀[0m
-                                             [30;47m█[0;1;30;40m▀▀▐█▓▄█[0;1;30;47m▓[0;1;30;40m▀▀[0m     [30mfever[0m
-
-[37mlife on europa?[0m
-[37mwhy is there greys carved into the pyramids ?[0m
-[37mwhy are there pyramids on mars?[0m
-[37mno background, does space have a background or a font?[0m
-[37mfor paines'' see of quidity.[0m'
+                                             [30;47m█[0;1;30;40m▀▀▐█▓▄█[0;1;30;47m▓[0;1;30;40m▀▀[0m     [30mfever[0m'

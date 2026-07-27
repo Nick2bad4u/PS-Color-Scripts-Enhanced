@@ -5,7 +5,7 @@
 # Source SHA-256: 58fb58b044fc089d16b6b415aba3ede1f97d5958f3095161a8ade0bd9db4a233
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-TRP.ANS by Mastermind (Vapor); released in vpr-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Riot Parade
 # SAUCE Author: Mastermind
 # SAUCE Group: Vapor
@@ -35,9 +35,9 @@ Write-Host '
 ▐███████████[47m [0m██[1;30;47m▀[0;1;30m▄▄[0;35m▀▀▀▀▀▀▀▀▀[0;1;30m▄▄[0;1;30;47m▀▀▀[0;1;30m▄ [0;35m▀▀▀▀▀ [0;1;30m▄▄▄[0;1;30;47m▀[0;1;30m▄▄▄▄▄▄[0;1;30;47m▀▀[0;1;30m▄[0;35m░ ▀▀[0;30;45m▄[0;35m▀▀▀▀▀ [0;1;30m▄▄▄[0;1;30;47m▀▀[0m███[1;30;47m░[0m████[1;30;47m░[0m█▌
  [1;30m▄[0m▀██▀[1;30;47m░[0m█[47m [0m███▀████▄[1;30;47m▀▀▀▀▀▀▀▀▀[0m██████[1;30;47m▀▀▀▀▀▀▀[0m███████▀█████[1;30;47m▀▀▀▀▀▀▀▀▀▀▀[0m███▄███[1;30;47m░▒░[0m▀██▀[1;30m▄[0m
 [35m█ [0m█                                                                          [1;47m█[0;1;30m░[0;1;30;45m█[0m
-[35m█[0;1;30m░[0;1;47m░[0m  [1;30mHEY! THE RIOT PARADE, SYSOP IS MYSELF MASTERMIND, GOBS OF AFFILS, NETS  [0;1;47m▓[0m [1;30;45m▓[0m
-[1;30;45m░[0;1;30m░[0;1;47m▒[0m  [1;30mART N'' SHIT ;)! LOOK FOR IT OPENING THE FIRST DAY OF SUMMER VACTATION!  [0;1;47m▒[0m [1;30;45m▒[0m
-[1;30;45m▒[0m [1;47m▓[0m     ▄               [1;30mmm [Union∙Infinity∙Vapor∙Rigid][0m                    [1;30m░ [0;1;47m░[0m [1;30;45m░[0m
+[35m█[0;1;30m░[0;1;47m░[0m  [1;30m                                                                        [0;1;47m▓[0m [1;30;45m▓[0m
+[1;30;45m░[0;1;30m░[0;1;47m▒[0m  [1;30m                                                                        [0;1;47m▒[0m [1;30;45m▒[0m
+[1;30;45m▒[0m [1;47m▓[0m     ▄               [1;30m                               [0m                    [1;30m░ [0;1;47m░[0m [1;30;45m░[0m
 [1;30;45m▓[0m [1m█[0;1;47m▄[0;1;30m░ [0;1m▀▀[0;1;47m█[0;1m▀▀[0m▀               [1m▄[0m                          [1;47m▄[0m                     [1m▄[0m█[1;30m░[0;35m█[0m
 [1;30m█[0;35m▄ [0;1m▀▀▀▀▀[0;1;47m▄[0;1m▀▀▀[0m▀[1m▀[0m▀[1m▀▀▀[0m▀▀[1m▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀[0m▀[1m▀[0m▀[1m▀█▀[0m▀[1;30m▀[0m▀▀▀▀▀▀▀▀▀▀[1m▀▀[0m▀▀▀▀▀[1m▀▀ [0;35m▄█[0m
 [35m [0;1;30m▀▀[0;35m▀▀[0;1;30m▀[0;35m▀[0;1;30m▀[0;1;30;47m▄[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▄[0;1;30m▀[0;35m▀[0;1;30m▀▀▀▀▀▀▀▀[0;35m▀▀▀▀▀[0;1;30m▀[0;35m▀▀[0;1;30m▀▀[0;35m▀[0;1;30m▀[0;35m▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e31abba08f89b023d6e2f11c4332b0c9cf3cacc933414581040faeee7415d60c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5D-WZ0.ANS by slayer dreams (maiden brazil); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: weed zine ansi!@
 # SAUCE Author: slayer dreams
 # SAUCE Group: maiden brazil
@@ -16,7 +16,7 @@
 
 Write-Host '
                                                                     [1;34m▄[0;34m [0m
-                           [34m▐[0;1;34m▀[0;34m▀▌ [0;1;37mpromo by slayer dreams of maiden@[0m   [1;34m▌[0m
+                           [34m▐[0;1;34m▀[0;34m▀▌ [0;1;37m                                 [0m   [1;34m▌[0m
              [34m▐[0;1;34m▀[0;34m▀▀▀▀▀[0;1;34;44m▄[0;34m██▀▀[0;1;34;44m░░░[0;34m  ▌[0m                     [31m▄▄▄▄▄▐▄[0m        [1;34m▄▌[0m
              [34m▐[0m   [34m░[0;30;44m▓▓[0;37;40m  [0;1;34;40m▀▄[0;34m▄██[0;1;34;44m▄▄[0;34m████▄▄[0;1;34m▄[0m   [31m [0;1;31m▄▄▄▄▄▄█[0;1;31;41m███▓▓░░  [0;31m█▐██▄[0;37m [0;34m ▄▄▄▄█[0;1;34;44m▌[0;34m▄█[0;1;34;44m▐[0;1;34;40m▌[0;34m     [0m
              [34m▐▄▄▄[0;30;44m░░[0;1;31;44m░[0m   [1;34m▐[0;1;34;44m▌░▒▓█▌[0;34m█[0;1;34;44m▄[0;1;34;40m▀[0;34m  [0;32m [0;37m [0;1;37m▀[0;1;31m██[0;1;31;47m▓▓█[0;1;31;40m██[0;1;31;41m█[0;1;31;47m▓[0;1;31;41m▓[0;31m  [0;1;31;41m░░  [0;31m███▐████▄[0;34m  ███[0;1;34;44m▌[0;34m██[0;1;34;44m▐▀[0;1;34;40m▄[0;34m    [0;37m [0m
@@ -38,5 +38,4 @@ Write-Host '
 [37;40m [0;34;40m  ▀▀▀▀▀██[0;1;34;44m▀[0;34m▄▄▄▄[0;1;34m▄[0;1;34;44m░[0;30;44m░[0;34;40m▓[0;30;44m▓▓[0;34;40m░[0;30;44m▓[0;34;40m  ░[0;30;44m▓[0m   [30;44m▓[0;34;40m    [0;1;37;40mwweeeedd zziinnee !@@#[0m     [1;34m▐[0;1;34;44m▌[0;34m██[0;1;34;44m ▐▀ [0;34m██  ▌  ░[0;30;44m▓[0m
                                                                [1;34;40m▀[0;1;34;44m▄[0;34m██[0;1;34;44m▐[0;34m████▄[0;1;34m▄[0;34m▌  [0m
 
-[1;30m-8<-------------(cut)--[0m
-[1;30mansi requested by p0gue[0m'
+[1;30m-8<-------------(cut)--[0m'

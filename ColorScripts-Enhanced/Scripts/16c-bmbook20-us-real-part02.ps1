@@ -5,7 +5,7 @@
 # Source SHA-256: 09d6aa30d29eb9334ad741359d7e3ec65cf4e293194789a1597967e1b5af3797
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-REAL.ANS by Avenger + Shine (black maiden); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: scream!
 # SAUCE Author: shine + avenger
 # SAUCE Group: black maiden
@@ -57,5 +57,4 @@ Write-Host '
 [33;41m███[0;32;43m▄[0;33;41m▄[0;33;40m▄▄[0;33;41m▄███[0;32;43m░░[0;33;41m█▀[0m   [31;40m▄[0;33;40m▄[0;33;41m▄█[0;1;33;43m░░▀[0;31;43m▄[0;33;40m█[0;32;43m▀[0;1;33;42m▀░[0;31;43m▄[0;37;40m [0;34;40m■[0;37;40m [0;31;40m▀[0;33;41m ▀▀[0;31;40m▌▀[0;37;40m [0;31;40m▀[0;33;40m▀▀▀▀[0;37;40m  [0;31;40m▀▀[0;33;41m▀▀▀[0;33;40m████[0;31;40m██[0;33;41m▄███▄[0;33;40m▄▄[0;33;41m▄██[0;32;43m▀▓▓▓▓[0;33;41m▄[0;31;40m▄▄[0m
 [31;40m▀███[0;33;40m▓▓▓▓▓▓▓▓[0;31;40m█▀[0m    [31;40m▀[0;33;40m▀▀▀▀▀[0;31;40m▀[0;37;40m [0;31;43m▓▓▓▓[0;31;40m██[0;37;40m [0;34;40m▀[0;31;40m [0m                      [31;40m▀█[0;33;41m▀[0;1;33;43m▀░░[0;33;41m███[0;33;40m██[0;31;40m█[0;37;40m [0;33;41m▀[0;32;43m▀▀▄█[0;33;41m█[0;31;40m█[0m
 [34;40m▄[0;37;40m  [0;31;40m▀▀▀▀▀▀▀[0m   [34;40m▄▓▓▓▓[0;31;40m  [0m                [37;40mlangerwehe[0m        [34;40m▀▓▓▓▓[0;37;40m  [0;31;40m▀[0;33;40m▀▀▀▀[0;31;40m▀▀[0;37;40m [0;34;40m [0;37;40m [0;33;40m█[0;33;41m█▀[0;31;40m▀▀▀[0m
-[36;40m░[0;34;40m▀▀[0m                          [31;40m [0m                                    [31;40m [0;34;40m■░[0;31;40m [0;33;40m▀[0;31;40m▀[0m
-                                      [37;40maugust 20th-22nd[0m          [31;40m  [0m'
+[36;40m░[0;34;40m▀▀[0m                          [31;40m [0m                                    [31;40m [0;34;40m■░[0;31;40m [0;33;40m▀[0;31;40m▀[0m'

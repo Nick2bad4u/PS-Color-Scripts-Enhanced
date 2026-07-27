@@ -5,7 +5,7 @@
 # Source SHA-256: afa82e50cc357e6d1f1eb3544aeb4654e41c9865e55bed9f0a094d37c5f8478c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-H5.ANS by Avenging Angel + Propane (the used coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: who said pimpn was hard labour?.
 # SAUCE Author: ave_angel // propane
 # SAUCE Group: the used coalition
@@ -40,15 +40,4 @@ Write-Host '
     [1;30m▀▀[0;1;30;47m█[0;1;30;40m▄[0;1;30;47m▓▄[0;1;30;40m    [0m  [1;30m▀[0;32m▀[0;1;32;42m  ▄███▄[0;32m█▄[0;1;32m▒▒[0;1;32;42m [0;32m█[0;1;30m█[0m  [1;31m [0;1;31;43m [0;1;31;40m█[0;1;31;43m▀[0;33m▀[0;37m  [0;32m▄▄[0;37m [0;32m▄[0;1;32;42m  ▄[0;32m▄[0;37m [0;32m▄[0;1;32m▄▄▓▒▒[0;32m▄██[0;1;32;42m▀[0;1;30;42m▄[0;1;30;40m▀[0m    [1;30m▄▄▄▀[0;1;30;47m▓▀[0;1;30;40m▄[0;1;30;47m█[0;1;30;40m▀▀[0m
 [1;30m     [0m    [1;30m▀▀ [0;1;32m░░▒▒[0;1;32;42m▄██▄████▀[0;32m█[0;1;32;42m [0;32m▄[0;1;30;42m▄[0;32m▀[0;1;30m▀[0m   [33m▀▀[0;37m    [0;32m▄▄[0;1;32;42m░░░░  [0;32m▄[0;1;32;42m▄████[0;1;32;40m▓▓[0;1;32;42m░░[0;1;30;42m▀[0;1;30;40m▄[0m   [1;30m▀▀[0;1;30;47m▓[0;1;30;40m▄▄▀▀▀[0m
 
-                        [1;30mh e l l i u m    f i v e . .[0m
-[1;30moriginal outline [0;1;37mpropane[0mbleu
-[1;30mthe massive redoness on this font [0;1;37mavengingangel[0mused
-
-
-
-
-
-
-
-
- [1;30m  [0m [35m [0m'
+                        [1;30mh e l l i u m    f i v e . .[0m'

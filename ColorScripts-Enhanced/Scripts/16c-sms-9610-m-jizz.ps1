@@ -5,7 +5,7 @@
 # Source SHA-256: e017c92399aa2e9c3793f621e0a860af104f4ab372f2dbcc24edf677d812ab8b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M!JIZZ.ANS by Mice (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jizz
 # SAUCE Author: Mice
 # SAUCE Group: Samsara
@@ -36,5 +36,5 @@ Write-Host '
  [1m"²$$$$²²[0m     [1;32my$$$$[0m  [1mssssss[0m [1m$$$$$$²^""²[0;1;32m$$$[0;32m$[0;36m$$[0;37m [0;1;37m$$$$$$²^""²[0;1;32m$$[0;32m$y[0;36my$[0;37m $''[0;1;30m,$$$$yyy$$²""[0m
 [1m   ²$[0;1;32m$$yy[0;1;37m     [0;1;32m$$[0;32m$$$$[0;1;37m ²$[0;1;32m$$$$[0;1;37m $[0;1;32m$$$$$[0;1;37m            $$[0;1;32m$$$$[0;1;37m              [0;1;30m`²S$$$$$$$ :░[0m
 [1m  [0;1;32;42m░[0;1;37;40m [0;1;32;40m$$$$$[0;1;37;40m  J  [0;1;32;40m$²[0;32m²²²[0;36m$[0;1;37m [0;1;32my[0;1;32;42m▒[0;1;32;40m$[0;32m$²[0;1;37m I [0;1;32m$$$[0;32m$²[0;1;37m  Z       y[0;1;32my$$[0;1;32;42m░[0;1;32;40m²[0;32m²$[0;1;37m  Z[0m
-[1m   [0;1;32my$$[0;32m$$[0;36m$[0;1;37m     [0;1;32;42m░[0;32myyy[0;36my$[0;1;37m [0;32m$$$[0;36m$yy[0;32myy[0;1;32;42m▓[0;32m$$[0;36m$[0;32my  [0;1;37m          [0;1;32m$$[0;32m$y[0;36my$[0;1;37m      [0;1;30m-[0;1;37m [0moutkast''s[1m JiZZ[0m!@
+[1m   [0;1;32m   [0;32m  [0;36m [0;1;37m     [0;1;32;42m░[0;32m   [0;36m  [0;1;37m [0;32m   [0;36m   [0;32m  [0;1;32;42m▓[0;32m  [0;36m [0;32m   [0;1;37m          [0;1;32m  [0;32m  [0;36m  [0;1;37m      [0;1;30m [0;1;37m [0m         [1m     [0m  
 [1m   [0;1;32m$[0;32m$$$[0;36m$$ss[0;32msss$$[0;36m$$$$[0;1;37m [0;32m$$[0;36m$[0;32m$[0;36m$$[0;32m $$$[0;36m$$$ss[0;1;37m  [0m    [1m    [0;32m$$[0;36m$$$$ss[0;1;37m    [0;1;30m-[0;1;37m [0mascii[1m [0mby[1m m![0m.sms[0m'

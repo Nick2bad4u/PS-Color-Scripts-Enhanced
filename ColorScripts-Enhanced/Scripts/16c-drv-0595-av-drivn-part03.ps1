@@ -5,7 +5,7 @@
 # Source SHA-256: 2b262ff01800374d6b0a8cc16cfbedd7c6e048be42ee9dc5f300f69d63a546b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AV-DRIVN.ANS by Aventari (Driven/Punk); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Driven Ansi
 # SAUCE Author: Aventari
 # SAUCE Group: Driven/Punk
@@ -53,15 +53,4 @@ Write-Host '
                          [37m▄█[0;1;30m█▀▀[0m      ▄▄▄▄▀                         if you couldnt
                         [1;30m▄▄[0m     [1;30m▓[0m▄▄░▄▄▄▄  [1;30m▄▒[0m                       tell, i made
                        [1;30m█▀   [0m▀[1;30m▀▓[0m▀    ▀  ▀  [1;30m▓[0m                       this one up :)
-                             [1;30m█▄ [0m▀[1;30m▀▀   [0m▀▀                          187% original,
-                                                                  baby!
-               [[34mout of the [0;37mashes [0;34mof VPA[0;37m.. [0;1;34mDRIVEN[0m]                 -DudE! I had a
-                                                                  kick ass face
-                                                                  and a rippin
-                                                                  font, but
-                                                                  GuileDraw
-                                                                  couldn''t save
-                                                                  it, and kicked
-                                                                  me to Dos! Fuk
-                                                                  it was 2x
-                                                                  better...[0m'
+                             [1;30m█▄ [0m▀[1;30m▀▀   [0m▀▀                          187% original,[0m'

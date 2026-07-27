@@ -5,7 +5,7 @@
 # Source SHA-256: 56dc255e5f04d7ed91e7340e44304498590107c78222e670f5aea3b7bad89fca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-POEM1.ANS by tr4nsi3nt (l4z4rus); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: p03m-1
 # SAUCE Author: tr4nsi3nt
 # SAUCE Group: l4z4rus
@@ -37,5 +37,5 @@ Write-Host '
 [33m▓▓▓▓▓[0;1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░[0m    [1;30m▀▄[0m  [1;30m▄▀[0m [1;30m▐▌[0m [1;30m■ [0m  [1;30m█▄[0m [1;30m█▄[0m [1;30m█[0m [1;30m█[0m       [1;30m█▓[0m  [1;36mreality. yummy,[0m
 [33m▒▒▒▒[0;1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m       [1;30m▀▀▄▀[0m   [1;30m▀▄▌[0m   [1;30m█▄[0m [1;30m█▄[0m [1;30m█▄▀[0m       [1;30m▐▓[0m  [1;36myummy, yummy, i [0;1;30m▓[0m
 [33m░░░░[0;1;30m░░░░░░░░░░░░░░░░░[0m                 [1;30m▀[0m                    [1;30m▐▓[0m  [1;36mgot love in my [0m
-[1;30mansi and poem by transient/laz. anyone can use any part[0m  [1;30m█▀▀█▌[0m [1;36mtummy. winney poo[0m
-[1;30mthey like, for a matrix or whatever?! i do care ..♥love♥[0m [1;30m█▄▄▄[0m  [1;36msings the giddy.[0;1;30m░[0m'
+[1;30m                                                       [0m  [1;30m█▀▀█▌[0m [1;36m                 [0m
+[1;30m                                                        [0m [1;30m█▄▄▄[0m  [1;36m                [0;1;30m░[0m'

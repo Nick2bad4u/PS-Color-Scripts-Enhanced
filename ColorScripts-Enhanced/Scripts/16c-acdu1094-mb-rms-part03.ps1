@@ -5,7 +5,7 @@
 # Source SHA-256: a315c1fd90aa59180020542a15be0e7b51be86a9cbafee9d6cbbcd9ef85889e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-RMS.ANS by Morbius + Vanquish (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rise of the Midnight Suns
 # SAUCE Author: Morbius
 # SAUCE Group: ACiD Productions
@@ -59,7 +59,4 @@ Write-Host '
                [1;30mr i s e   o f   t h e   m i d n i g h t   s u n s[0m
 
                    [1;37m[[0mN[1;30mode1]  6 o 4 . 4 3 1 . 6 5 1 6  [Node1][0m
-                   [1;37m[[0mN[1;30mode2]  6 o 4 . 4 3 1 . 3 8 2 1  [Node2][0m
-
-                    [1;30mansi: morbius.acid aka. the masked pirate[0m
-                          [1;30mcoolio fonts by: vanquish.acid[0m'
+                   [1;37m[[0mN[1;30mode2]  6 o 4 . 4 3 1 . 3 8 2 1  [Node2][0m'

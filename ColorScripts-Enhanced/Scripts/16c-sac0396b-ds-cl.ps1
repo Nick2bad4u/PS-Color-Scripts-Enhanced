@@ -5,7 +5,7 @@
 # Source SHA-256: 63d1f1f3e4bf33c7a753e214b0f8a03730df18dc5811b87c5917908aefc305f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-CL.ANS by dark star; released in sac0396b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Crystal Lake
 # SAUCE Author: Dark Star
 # SAUCE Group: SAC
@@ -40,12 +40,12 @@ Write-Host '
 [1m  [0;1;30m▀[0;1;37m  [0;1;30m▀▀█▀[0;1;37m    [0;1;30m▀████▀[0;1;37m                                         [0;1;30m▀████▀[0;1;37m    [0;1;30m▀█▀▀[0;1;37m  [0;1;30m▀[0m
 [1m               [0;1;30m██[0m [1m        [0;35m■[0;1;37m [0mC[1;35m·[0;1;37mR[0;1;35m·[0;1;37mY[0;1;35m·[0;1;37mS[0;1;35m·[0;1;37mT[0;1;35m·[0;1;37mA[0;1;35m·[0mL[1m  [0mL[1;35m·[0;1;37mA[0;1;35m·[0;1;37mK[0;1;35m·[0mE[1m [0;35m■[0;1;37m          [0;1;30m██[0m
 [1m              [0;1;30m▐██▌[0;1;37m                                           [0;1;30m▐██▌[0m
-[1m               [0;1;30m██[0m [1m      [0;35m■[0;1;37m [0mS[1mySOP[0mS[1m : [0mJ[1mASE[0m7[1;35m·[0mH[1mAW[0mK[1;35m·[0mS[1mHRiN[0mK[1m [0;35m■[0;1;37m        [0;1;30m██[0m
+[1m               [0;1;30m██[0m [1m      [0;35m■[0;1;37m [0m [1m    [0m [1m   [0m [1m   [0m [1;35m [0m [1m  [0m [1;35m [0m [1m    [0m [1m [0;35m■[0;1;37m        [0;1;30m██[0m
 [1m               [0;1;30m▐▌[0m [1m                                            [0;1;30m▐▌[0m
 [1m              [0;1;30m▄██▄[0;1;37m      [0;35m■[0;1;37m [0m3[1m [0mN[1mODE[0mS[1m [0m([1m1x33.6k [0m&[1m 2xISDN[0m)[1m [0;35m■[0;1;37m       [0;1;30m▄██▄[0m
 [1m              [0;1;30m▀██[0;1;37m▀                                           ▀[0;1;30m██▀[0m
 [1m               [0;1;30m▐▌[0m [1m             [0;35m■[0;1;37m [0mN[1mEO[0mN[1m [0mO[1mUTPOS[0mt[1m [0;35m■[0;1;37m               [0;1;30m▐▌[0m
-[1m                           [0;35m■[0;1;37m [0mt[1mWiLiGH[0mt[1m [0mM[1mEMBERBOAR[0md[1m [0;35m■ [0;1;37m          [0;1;30m ▄[0m
+[1m                           [0;35m■[0;1;37m [0m [1m      [0m [1m [0m [1m         [0m [1m [0;35m■ [0;1;37m          [0;1;30m ▄[0m
 [1m    [0;1;30m▄▄▄▄▄▄▄▀[0;1;37m  [0;1;30m▀▄▄▄▄▄▄▄[0;1;37m    [0;35m■[0;1;37m [0mR[1mAV[0mE[1m [0mN[1mAtiO[0mN[1m [0mE[1mASTERN H[0mQ[1m [0;35m■[0;1;37m         [0;1;30m▀[0;1;37m   [0;1;30m▄▄▄▄▀[0;1;37m  [0;1;30m▄▀▄▄▄▄[0m
 [1m [0;1;30m▄[0;1;37m [0;1;30m▄▄[0;1;37m [0;1;30m▄▄▄▄▄▄▄▄▄[0;1;37m  [0;1;30m▄▄▄[0;1;37m                                   [0;1;30m▄▄▄▄▄▄▄▄[0;1;37m [0;1;30m▄[0;1;37m [0;1;30m▄▄▄▄[0;1;37m     [0;1;30m▄▄▄▄[0m
 [1;30m▀█▀▀▀▀▀▀[0;1;37m    [0;1;30m▀▀▀▀▀▀▀▀▀▀[0;1;37m  [0;35m■[0;1;37m [0m/[1m┤NS[0mi[1m [0mB[1mY [0mD[1m/┤R[0mK[1m [0mS[1mT/┤R<S/┤C[0m>[1m [0;35m■[0;1;37m  [0;1;30m▀[0;1;37m        [0;1;30m▀▀▀▀▀▀▀▀▀▀▀[0m'

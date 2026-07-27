@@ -5,7 +5,7 @@
 # Source SHA-256: 789d345b41ca12f4a45f60b62b2476d570cf906f4511153ae2da8d6c4fffcf72
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TROM2.ANS by Multiple Artists (ACiD Productions); released in acdu1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Realm of Magic
 # SAUCE Author: Multiple Artists
 # SAUCE Group: ACiD Productions
@@ -47,10 +47,10 @@ Write-Host '
 [34m ▀▀[0;1;34;44m░░░▒░▒▒▒▒░▒░░░[0;34m▄  ░▒▒▒▒░░ ░[0m    [34m░[0;37m [0;34m░░▒▄▄██[0;1;34;44m░ ░░░░░ ░[0;34m▄▄ [0;37m [0;34m [0m
 [34m░     ▀▀▀▀▀█[0;1;34;44m░░░░[0;34m█[0;1;34;44m░░[0;34m▄ ░ ░░▒▒▓▒▓▓██[0;1;34;44m░[0;34m█[0;1;34;44m░░░[0;34m█[0;1;34;44m░░▒░▒▒▒░▒▒▒▒▒▒▒░▒░░[0;34m█[0;1;34;44m░░░[0;34m█[0;1;34;44m░[0;34m██████▄▄▄▄[0m
 [34m░░[0;37m [0;1;30mGreetz:[0m   [34m ▀▀▀█[0;1;34;44m░[0;34m██         [0m                                      [34m▀▀▀▀▀▓▓█▓▄▄[0m
-[34m▒░[0;37m [0;1;30mSomms, Pod,[0m [1;30mrm[0m [34m██[0;1;34;44m░[0;34m█[0m              [1;30mThe Red Oracle of[0m [1;30mMultitasking[0m          [34m▒▀▓▓[0m
-[34m▒▒[0;37m [0;1;30mMM°, 33, dd, [0m   [34m███▌[0m                 [37m∙[0;1;37m The Realm of Magic[0m ∙                 [34m▒[0m
-[34m▓▒[0;37m [0;1;30msomms, neurotic,[0m [34m█▓▓[0m                   [37m∙[0;1;37m SysOpper: Mage[0m ∙
-[34m▓▓[0;37m [0;1;30mgrimlock, ld!<─┐[0m  [34m▓▓▓░[0m            [37msorry, that''s all we know...[0m
+[34m▒░[0;37m [0;1;30m           [0m [1;30m  [0m [34m██[0;1;34;44m░[0;34m█[0m              [1;30m                 [0m [1;30m            [0m          [34m▒▀▓▓[0m
+[34m▒▒[0;37m [0;1;30m             [0m   [34m███▌[0m                 [37m [0;1;37m                   [0m                   [34m▒[0m
+[34m▓▒[0;37m [0;1;30m                [0m [34m█▓▓[0m                   [37m [0;1;37m               [0m  
+[34m▓▓[0;37m [0;1;30m              ─┐[0m  [34m▓▓▓░[0m            [37m                            [0m
 [34m█▓[0m                [1;30m│[0m   [34m░▒▒▒▒[0m                                                  [34m ▒▓[0m
 [34m███▓█▓▓▒▓▒▒░▒░░ ░[0;37m [0;1;30m│[0m    [34m ░▒▓▓▓█▄▄▄▄▄▄▄[0m                                [34m▄▄▄▄▄▄██▓▒░[0m
                   [1;30m└────┐[0m     [34m▀▀▀▀▀▀[0;1;34;44m░[0;34m█[0;1;34;44m░░░[0;34m█[0;1;34;44m░░░▒░▒▒▒░▒▒▒▒▒▒▒░▒▒░░░[0;34m█[0;1;34;44m░░░[0;34m█[0;1;34;44m░░[0;34m█▀▀▀▀▀[0m

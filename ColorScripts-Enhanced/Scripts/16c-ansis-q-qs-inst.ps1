@@ -5,7 +5,7 @@
 # Source SHA-256: bee9ace48f386228a7f8d5a51ac1f109a09d7e9733c546f41f3574df809ca1bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QS-INST.ANS by Quick Silver (ansis-q); released in ansis-q and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -55,8 +55,8 @@ Write-Host '
 [1;31m█[0;31m█▄▄[0;1;31m█[0;31m█▄▄▄▄  [0;1;31m█[0;31m█▄▄▄ [0;1;31m█[0;31m█▄▄▄▄  ░[0;1;31m█[0;31m█▄▄▄[0;1;31m█[0;31m█▄▄▄ [0;1;31m█[0;31m█▄▄▄[0;1;31m█[0;31m█▄▄▄  [0;1;31m█[0;31m█▄▄▄[0;1;31m█[0;31m█▄▄▄[0;1;31m█[0;31m█▄▄▄ [0;1;31m█[0;31m█▄▄▄▄  [0;1;31m█[0;31m█▄▄▄[0m
 [31m   ▄[0m                                                                       [31m▄[0m
 [31m ▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀[0m
-[31m  ▓  [0;37mT[0;1;37mhe [0mI[1mnstitution [0;1;30m- [0mU[1mPS [0mC[1mourier [0mH[1mome [0;1;30m- [0mS[1mTM [0mW[1morld [0mH[1mQ [0;1;30m- [0mi[1mNFiNiTY [0mM[1mag [0mH[1mome  [0;31m▓[0m
-[31m  ▒    [0;37mV[0;1;37mortex[0m/[1mNET [0;1;30m- [0mC[1myber [0mC[1mrime [0mI[1mnternational[0m/[1mNET [0;1;30m- [0m2[1moo [0mM[1megabytes [0mO[1mnline    [0;31m▒[0m
-[31m  ▓  [0;37m([0;1;37m416[0m)[1m483[0m/[1m0781 [0;1;30m- [0mN[1mo [0mL[1mocals [0;1;30m- [0mS[1mysOp: [0mL[1most [0mS[1moul  [0mC[1mo: [0mF[1morbidden [0mN[1mostalgia  [0;31m▓[0m
+[31m  ▓  [0;37m [0;1;37m   [0m [1m           [0;1;30m  [0m [1m   [0m [1m       [0m [1m    [0;1;30m  [0m [1m   [0m [1m     [0m [1m  [0;1;30m  [0m [1m        [0m [1m   [0m [1m     [0;31m▓[0m
+[31m  ▒    [0;37m [0;1;37m     [0m [1m    [0;1;30m  [0m [1m     [0m [1m     [0m [1m            [0m [1m    [0;1;30m  [0m [1m   [0m [1m         [0m [1m         [0;31m▒[0m
+[31m  ▓  [0;37m [0;1;37m   [0m [1m   [0m [1m     [0;1;30m  [0m [1m  [0m [1m      [0;1;30m  [0m [1m      [0m [1m    [0m [1m     [0m [1m   [0m [1m         [0m [1m          [0;31m▓[0m
 [31m ▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄[0m
-[31m   ▀[0m         [1;37mA[0mn[1;30msi [0;1;37mB[0my[1;30m: [0;1;37mQ[0mU[1;30miCk [0;1;37mS[0mi[1;30mLVεR <[0;1;37mi[0;1;36mC[0;36mE[0;1;30m:[0;1;37mT[0;1;36mN[0;36mo[0;1;30m> [0;1;37mP[0mr[1;30moductions - [0;1;37mo[0m5[1;30m/[0;1;37m1[0m7[1;30m/[0;1;37m9[0m2        [31m▀[0m'
+[31m   ▀[0m         [1;37m [0m [1;30m   [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m    [0;1;37m [0m [1;30m      [0;1;37m [0;1;36m [0;36m [0;1;30m [0;1;37m [0;1;36m [0;36m [0;1;30m  [0;1;37m [0m [1;30m            [0;1;37m [0m [1;30m [0;1;37m [0m [1;30m [0;1;37m [0m         [31m▀[0m'

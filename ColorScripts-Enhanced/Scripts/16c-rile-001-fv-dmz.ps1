@@ -5,7 +5,7 @@
 # Source SHA-256: fe49866a1aad73c3bb2ebc93af976af96c1eebeb3d46eb0a9803e70e29b85dad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FV-DMZ.ANS by fe v  e   r (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dmz compo.  nifty!
 # SAUCE Author: fe v  e   r
 # SAUCE Group: rile
@@ -40,10 +40,10 @@ Write-Host '
 [1;30;40m▄▄▄▄▐██▄▄▄█[0;1;30;47m▀[0;1;30;40m██▄▄▄██[0;1;30;47m▀▀[0;1;30;40m███▄▄▄▄[0;30;47m█[0;30;43m▄[0;1;31;43m▀████[0;1;31;47m▀[0;1;31;43m███████▄[0;30;43m▀▌[0;1;31;43m▐███████▀▀[0;30;43m▄▄[0;30;47m█[0;30;43m▀▀▀   [0;1;31;43m ▄██▓▓░[0;30;43m▐[0;30;47m█[0;30;43m▄▄▄▀  [0m
 [1;30;40m████▀██[0;1;30;47m▄▄[0;1;30;40m█[0;1;30;47m▄░▄█▄[0;1;30;40m██[0;1;30;47m▓▓▄▄▄[0;1;30;40m██[0;1;30;47m▄▄▓▓[0;1;30;40m▌[0;30;47m█[0;30;43m▌[0;1;31;43m▐██[0;1;31;47m▄▓▓[0;1;31;43m███████▌[0;30;43m▐ [0;1;31;43m█████▀[0;30;43m▄[0;30;47m█[0;30;43m▀▀ [0;1;31;43m░░█▓▓▄ ▀▀▀[0;30;43m [0;1;31;43m░░[0;30;43m▄[0;30;47m█[0;30;43m▀▀     [0m
 
-[37;40m-- original work by me for the downtown militirized zone compo =)[0m
-[37;40m-- i really didn''t think a font would work with this pic. so i just scribbled[0m
-[37;40m-- a design =) and here''s a header since i have a bit more time it''ll complete [0m
-[37;40m-- this art ensamble..[0m
+[37;40m                                                                 [0m
+[37;40m                                                                             [0m
+[37;40m                                                                               [0m
+[37;40m                      [0m
 
 [30;46m▀▀[0;37;40m [0;30;41m▄[0;37;40m [0;30;41m▄ ▄ [0;1;31;41m▄[0;1;33;41m░░[0;30;41m▄█▐[0m
 [30;46m▌[0;1;37;46m█▄▄[0;30;46m▀[0;30;41m█▌[0;1;31;41m■▀██[0;30;41m▐█[0;30;47m█[0;1;33;41m [0;30;41m▀[0;37;40m  [0;30;46m▄█▀▀[0m
@@ -57,4 +57,4 @@ Write-Host '
     [30;41m▀ ▄▄▄██[0;1;31;40m▄[0;1;31;41m▀▀[0;30;41m▄▄█[0;30;46m█▀▀[0;1;37;46m▄▄▓░▀▀ ▀██▄[0;30;46m▀[0;37;40m [0;30;41m██████[0m
 [37;40m [0;1;30;40mfv[0;36m [0;37m  [0;30;46m▀[0;37;40m  [0;1;31;40m▄[0;30;41m▄▄[0;37;40m  [0;30;46m▀▀[0;1;37;46m░[0;30;46m▐▄▄▄▄▄[0m     [30;46m▄▄ [0m
         [1;31;40m▐ [0m [30;46m▀[0;1;37;46m▄[0;30;46m▐▄▄[0m    [36;40m   [0m
-       [30;46m▀[0;37;40m [0;30;46m█[0;36;40m░[0;30;46m▓[0m   [36;40m-: downtown militarized zone :-[0m'
+       [30;46m▀[0;37;40m [0;30;46m█[0;36;40m░[0;30;46m▓[0m   [36;40m                               [0m'

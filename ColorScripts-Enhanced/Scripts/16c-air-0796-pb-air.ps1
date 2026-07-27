@@ -5,7 +5,7 @@
 # Source SHA-256: 4ec28701391178bc52cfd033d4258a034cf6f8dc8dce09ce4b95555a0e1641b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PB-AIR.ANS by piratebox (air-0796); released in air-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: guest appearance air promo
 # SAUCE Author: piratebox
 # SAUCE Group: .
@@ -30,10 +30,4 @@ Write-Host '
 [1m      [0;1;34m   %%%%%%%%%%%%%%%[0;34m░%[0;37m`ⁿs$"[0;34m.%%%░%%%%%%%%%%%[0;37m $sⁿ''[0;34m%[0;1;34m░%%%%%[0;34m%[0;33m`$[0;1;33m$$$²$$$[0;33m$''[0;34m%[0;1;34m%%%[0m
 [1m        [0;1;34m %%%░%%%%%%%%%%%%%%%%░%%%%%%%%%%░%%%%%%%%%%%%%%SaS%%[0;34m%[0;33m`[0;1;33mⁿ$$n$[0;33mSⁿ░[0;34m%[0;1;34m%%%%[0m
 [1m         [0;1;34m`s%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%░%%%%%%%a''  aa%$$%%%%%$$%%%s''[0m
-[1m         ",^÷_,^·[0;34m░[0;1;37m`²$x"''`^÷_,^·ⁿ`²$s·^,_÷^",^÷_,^·ⁿ`²$x"''`^÷_,^·ⁿ`²[0;1;34m░[0;1;37ms·^,_÷^[0m
-[1m            [0m
-[1m            [0m
-[1m [0m        This is my promo ascii for AIR, for my guest appearance.
-[1m [0m
-         You want Art, mail me ... [1mpbox@net.bluemoon.net[0m
-[1m [0m                                                                   [1m         [0m'
+[1m         ",^÷_,^·[0;34m░[0;1;37m`²$x"''`^÷_,^·ⁿ`²$s·^,_÷^",^÷_,^·ⁿ`²$x"''`^÷_,^·ⁿ`²[0;1;34m░[0;1;37ms·^,_÷^[0m'

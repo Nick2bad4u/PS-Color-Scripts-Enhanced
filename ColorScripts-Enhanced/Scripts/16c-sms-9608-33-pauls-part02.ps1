@@ -5,7 +5,7 @@
 # Source SHA-256: c46679264561d8a1f295ff26402d9b1b552a8733960fce5b2cb531b52f6f3d7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-PAULS.ANS by EERIE-KUN (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: PAUL'S BOUTIQUE
 # SAUCE Author: EERIE-KUN
 # SAUCE Group: SAMSARA
@@ -58,5 +58,4 @@ Write-Host '
 [36m█[0;1;36m███████████████[0;1;36;46m▀[0;1;36;40m██████████[0;1;37;40m███[0;1;33;40m██[0;1;36;40m███████████▀[0;36m█[0;1;36m███████████████▀[0;36m█[0;1;36m███████████████▀[0m
                                   [36m▐[0;1;36;46m▐[0;1;37;40m██[0;1;36;40m██▄▄▄▄▄▄▄[0m
 [1;31mthe rza[0;36m''s [0;1;33mpaul''s boutique [0;30;46m▓▓▓▓▓▓▓▓[0;36;40m▐[0;1;36;46m▐[0;1;36;40m███████████[0;30;46m▓▓▓▓[0;37;40m [0;1;36;40mall your pd warez & more!@@[0m
-                                  [36m▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m█████████[0m
-[1mhere ya go bro!@  ansi by eerie-kun[0m              [1mof [0;1;31msamsara.  [0;1;33m100% original!@!@[0m'
+                                  [36m▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m█████████[0m'

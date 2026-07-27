@@ -5,7 +5,7 @@
 # Source SHA-256: e60df5caaed643b1549b657f516487aeb5f37b6b8f9559982630414e49987c09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IG-STAB2.ANS by the IronGhost (Stab Productions); released in spe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Stab Promo #2./1996\.
 # SAUCE Author: the IronGhost
 # SAUCE Group: Stab Productions
@@ -39,11 +39,11 @@ Write-Host '
 [37m  [0;32m▀[0;1;32m▒[0;32m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m   [0;32m▀▀▀▓▀[0m        [1;30m░[0;31m▀[0;1;31;41m░░▀█▓▓ ░[0;31m▄▓█▓▀[0;1;30m░[0m [1;34m  [0m     [32m▀▀▀▒▀[0;37m  [0;32m▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀[0;1;30mig[0m
 -+-+-+-+-+-+-+-+-+-+-+[32m░[0;37m+-+-+-+-+-+-+[0;31m░▀▀▀▀▀▀[0;37m-+-+-+-+-+-+-+-+-+-+-+-+[ Tear Me ]+-[0m
 
-[1;30mokay.. uhh yeah.. cool no? ..uhh special thanks to pixel pushah :)..uhh he[0m
-[1;30mhelped out the shading and gave me some ideas..thanks man.. greets to : blind,[0m
-[1;30mstraka,kosh,STABmasterArson,kobby,all the stab boys, skism guys, sphere guys,[0m
-[1;30mtweed,beddy,flame,phenostar,mort_,all those funky guys on #ascii/#mop/#twisted/#[0m
-[1;30mansi_scene. uhh support sites/memberboards feel free to use this in your logon[0m
-[1;30m.the IronGhost of Stab Productions :) [0m
+[1;30m                                                                          [0m
+[1;30m                                                                              [0m
+[1;30m                                                                             [0m
+[1;30m                                                                                [0m
+[1;30m                                                                              [0m
+[1;30m                                      [0m
 
 -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-[0m'

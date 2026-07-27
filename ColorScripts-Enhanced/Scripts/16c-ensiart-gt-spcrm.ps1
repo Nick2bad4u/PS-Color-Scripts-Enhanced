@@ -5,7 +5,7 @@
 # Source SHA-256: 78f4674f9926360e0ed60c38d3831d02d7f634adcfdda8730d62e2dddb3e05e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GT_SPCRM.ANS by Andrew Welch (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
@@ -25,5 +25,4 @@ Write-Host '
             [1;34;40m██[0;1;34;44m [0m          [1;34;43m  [0m     [1;31;40m██[0;1;31;41m [0m [1;34;40m██[0;1;34;44m [0m [1;35;40m██[0;1;35;45m [0m [1;32;40m██[0;1;32;42m [0m  [1;32;43m  [0m      [1;32;44m  [0m      [1;32;45m  [0m
              [1;32;44m  [0m [1;30;47m· [0;1;33;47mDallas, TX  [0;1;30;47m·[0;1;30;40m▄[0;1;31;40m██[0;1;31;41m [0m [1;34;40m██[0;1;34;44m [0m [1;35;40m██[0;1;35;45m [0m  [1;35;42m  [0m [1;30;47m· 214-248-7461  [0;1;31;47m2400[0;1;30;47m/[0;1;37;47mMNP [0;1;30;47m·[0;1;30;40m▄[0m
                  [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;30;41m  [0m [1;34;40m██[0;1;34;44m [0m [1;35;40m██[0;1;35;45m [0m      [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                                    [1;34;40m██[0;1;34;44m [0m  [1;34;45m  [0m
-                                     [1;34;44m  [0m'
+                                    [1;34;40m██[0;1;34;44m [0m  [1;34;45m  [0m'

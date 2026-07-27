@@ -5,7 +5,7 @@
 # Source SHA-256: 8aa763edab5cd43970032e56eed72101b514d24d8d4d20e0545cb984563fcf69
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DS1.ANS by Avenger + Avenging Angel (glue-31); released in glue-31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -31,9 +31,4 @@ Write-Host '
    [1;34;44m██[0m [36m [0;37m  [0;1;34;44m  [0m   [1;30m▀▀▀[0;1;30;47m█▄[0;1;30;40m▄[0;1;30;47m▄[0m▄ [36m▀[0;1;36;46m▀██[0;36m▄[0;1;30;46m▄[0;1;36;46m▀██▓▓▄█[0;36m▀[0;34m▄[0;1;34;44m▄[0;1;34;40m▒[0;1;36;40m▒[0;36m▌ [0;34m [0;1;37;47m▀█[0m▄  ▄[1;47m [0m█ [34m▐[0;1;34m▀[0;34m▄[0;1;34;44m▄[0;1;34;47m▓▓[0;1;34;40m▀[0;1;34;44m▀[0;1;34;40m█▄█[0;1;34;44m█[0;1;34;40m▓▓[0m    [1;34m▒▒[0m
    [1;34;44m▀█[0;34m▄[0;37m  [0;34m▄[0;1;34;44m  [0m [1;30m       [0m  [1;30m▀▀▄[0m [1;30m▀[0;36m▀[0;1;36m▀[0;36m▀ [0;1;30m▀[0;36m▀[0;1;36m▀▀[0;1;36;46m▀█[0;36m▄[0;34m▀▀[0;1;34m [0;1;36m░[0;36m▌[0;1;36m  [0m▐▀[1;47m▀ ■ [0m▀  [34m▄▀[0;1;34m▀[0;34m▄[0;1;34;44m▄[0;1;34;47m▓[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀  [0;1;34m▒▒[0;34m▄[0;37m  [0;34m▄[0;1;34;44m▄[0;34m█[0;37m  [0;1;30m░░░░░[0m
     [34m▀[0;1;34;44m▀ ■ [0;34m▀[0;37m [0m                       [36m     [0;37m [0;36m▄▌[0;1;36m [0;36m [0;37m▐[0;36m▌[0;37m [0m       [34m▄▀[0;1;34m▀[0;34m  [0m    [37m   [0;34m▀████▀[0;37m [0m
-[37m            d [0;1;37ma[0m [1mr[0m [1mk[0m  s [1mo r r o w[0m         [36m▀[0;37m [0;36m▄▀[0;37m                                   [0m
-                                                         [37m     [0;31m  [0m
-[37moriginal outline by avenger of black maiden[0m
-[37mreEVERYTHING by avenging angel of the used coalition[0m
-[37m   [0m
-[37m   [0m'
+[37m            d [0;1;37ma[0m [1mr[0m [1mk[0m  s [1mo r r o w[0m         [36m▀[0;37m [0;36m▄▀[0;37m                                   [0m'

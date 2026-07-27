@@ -5,7 +5,7 @@
 # Source SHA-256: b720ac5b5bd4f5c05cfb52a44b447c101de42495a75d22ad8187d09d27df4904
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WT-CLUST.ANS by wiktor (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo/menu cluster
 # SAUCE Author: wiktor
 # SAUCE Group: phat studios '97
@@ -16,9 +16,9 @@
 
 Write-Host '
 
- [1;31m▄  [0;33m▄▄[0;1;30;43m░[0;30;43mwt[0;33;40m■[0m     [37;40myes it''s me, wiktor. back again in 1997 with some stupid [0m
-[1;31;40m▄[0;1;31;43m▓[0;1;31;40m▄  [0;33m▀█■▀▀▀■[0m    [37mansi fonts. greets to all at bdn3 and to the guys[0m
-[37m [0;1;31m▀▀■ [0;33m▀  [0;1;31m▀▀  ▄[0m    die mir danach die kippen abgezogen haben.
+ [1;31m▄  [0;33m▄▄[0;1;30;43m░[0;30;43m  [0;33;40m■[0m     [37;40m                                                         [0m
+[1;31;40m▄[0;1;31;43m▓[0;1;31;40m▄  [0;33m▀█■▀▀▀■[0m    [37m                                                 [0m
+[37m [0;1;31m▀▀■ [0;33m▀  [0;1;31m▀▀  ▄[0m                                              
 
 [1;30m──([0mdigital rage logo #1[1;30m)────────────────────────────────────────────────────────[0m
 
@@ -48,9 +48,4 @@ Write-Host '
 
                            [33md[0;37m [0;33mi[0;37m [0;33mg[0;37m [0;33mi[0;37m [0;33mt[0;37m [0;33ma[0;37m [0;33ml[0;37m [0;33m [0;37m [0;33mr[0;37m [0;33ma[0;37m [0;33mg[0;37m [0;33me[0m
 
-[1;30m──([0mdigital rage logo #2[1;30m)────────────────────────────────────────────────────────[0m
-
-
-             [1mdigi[0;1;31mta[0;31mhl [0;1;37mdigi[0;1;31mta[0;31mhl [0;1;37mdigi[0;1;31mta[0;31mhl [0;1;37mdigi[0;1;31mta[0;31mhl [0;1;37mdigi[0;1;31mta[0;31mhl [0;1;37mdigi[0;1;31mta[0;31mhl[0m
-
-'
+[1;30m──([0mdigital rage logo #2[1;30m)────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a32f5a27974c0fb843751a2b34e078fb36ad73287abe531600da02dd400697d8
 # Source License: FAL-1.3
 # Source Attribution: ROY-DS.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Desert Storm Logon
 # SAUCE Author: ROY
 # SAUCE Group: READ THE INI FILE
@@ -39,9 +39,8 @@ Write-Host '
 
                     [34m········· [0;1m! i[0;1;34mTS [0;1mi[0;1;34mL-[0;1mL[0;1;34mEGAL ! [0;34m·········[0m
 
-      [34m·········· [0;1mR[0;1;34mUNNiNG [0;1mO[0;1;34mN [0;1mA[0;1;34mMiGA [0;1m4[0;1;34m000/40 [0;1mw[0;1;34mith [0;1m2 G[0;1;34miGs [0;1mH[0;1;34mD [0;1mS[0;1;34mPACE [0;34m··········[0m
+      [34m           [0;1m [0;1;34m       [0;1m [0;1;34m  [0;1m [0;1;34m     [0;1m [0;1;34m       [0;1m [0;1;34m    [0;1m   [0;1;34m    [0;1m [0;1;34m  [0;1m [0;1;34m     [0;34m          [0m
                [34m·········· [0;1m5 N[0;1;34mODES [0;1mD[0;1;34mUAL + [0;1m2 N[0;1;34mODES [0;1mi[0;1;34mSDN [0;34m··········[0m
-[34m   ·········· [0;1mS[0;1;34mTAFF [0;1mA[0;1;34mRE: [0;1mE[0;1;34mxTERMiNATOR/[0;1mi[0;1;34mL-[0;1mL[0;1;34mEGAL , [0;1mR[0;1;34mAGE/[0;1mR[0;1;34mMD , [0;1mS[0;1;34mLiMER [0;34m··········[0m
-           [34m·········· [0;1mi[0;1;34mBM - [0;1mA[0;1;34mMiGA - [0;1mC[0;1;34mONSOLES - [0;1mT[0;1;34mRACE [0;1mW[0;1;34mAREZ [0;34m··········[0m
-                      [34m·········· [0;1m0[0;1;34m-3 [0;1mD[0;1;34mAYS [0;1mO[0;1;34mNLY [0;34m··········[0m
-         [34m·········· [0;1mN[0;1;34mO [0;1mN[0;1;34mUP , [0;1mC[0;1;34mOZ [0;1mT[0;1;34mHiS [0;1mB[0;1;34mOARD [0;1mi[0;1;34mS [0;1mT[0;1;34mOTALY [0;1mC[0;1;34mLOSED [0;34m··········[0m'
+[34m              [0;1m [0;1;34m     [0;1m [0;1;34m    [0;1m [0;1;34m            [0;1m [0;1;34m  [0;1m [0;1;34m       [0;1m [0;1;34m    [0;1m [0;1;34m     [0;1m [0;1;34m      [0;34m          [0m
+           [34m           [0;1m [0;1;34m     [0;1m [0;1;34m       [0;1m [0;1;34m          [0;1m [0;1;34m     [0;1m [0;1;34m     [0;34m          [0m
+                      [34m·········· [0;1m0[0;1;34m-3 [0;1mD[0;1;34mAYS [0;1mO[0;1;34mNLY [0;34m··········[0m'

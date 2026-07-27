@@ -5,7 +5,7 @@
 # Source SHA-256: 0c2384031baebdbfec6bff9008e75c882ef007b2bdee5b21076d8bb4ce3407d5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc72.ans by Black Jack & Ack (rmrs+srl [03/05/97]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Welcome Screen (The Living End)
 # SAUCE Author: Black Jack & Ack
 # SAUCE Group: rmrs+srl [03/05/97]
@@ -20,7 +20,7 @@ Write-Host '
 [1;30manother wicked  [0;32m;;il&[0;1;32m$$$$[0;32m$$$$Pi&$$$$$$$li;   .;''[0;34md$$$$P'' [0;1;37m_.,mmb i$$S@m,_[0;32m`Y$$$$$$$[0m
 [1;30mass ack + bj    [0;32m;i&$$$[0;1;32m$$$[0;32m$$P'',;i&$$[0;1;32m$[0;32m$$li;   ;i''[0;34md$$$P''[0;1;37m,d$$$$$$$;`ⁿ`Y$$$$b [0;32mY$$$$$$[0m
 [1;30mjoint.. word    [0;32m;;il&$$$$P'' ;i&$$[0;1;32m$$[0;32m$$$$&i;   Y [0;34m$$$P[0;1;37m,d$$$$Pⁿ"`[0;34m,gS$S@m,[0;1;37m~~"ⁿ[0;1;33m;$[0;32m$$Pⁿ[0m
-            [1;30m,dS@m[0;32mⁿilb,`ⁿ'' ,;il$$$$[0;1;32m$$$[0;32m$$$&i;,  b[0;34m`$P''[0;1;37mdPⁿ''[0;34m,m@S$Pⁿⁿⁿⁿⁿⁿⁿ°"~[0;1;33m,dP[0;32mPⁿ[0;1;30m.''i/[0m
+            [1;30m     [0;32m                 [0;1;32m   [0;32m          [0;34m    [0;1;37m    [0;34m                [0;1;33m   [0;32m  [0;1;30m    [0m
          [1;30m,d$Pⁿ°'' [0;32m,d$$$$$$$$$$$$$$$$$$$$$$$$$$b,Y$S@@mmmm[0;1;32mmmmmm@@@S$[0;1;33m$$$$$[0;32mP`[0;1;30m.;''[0;1;33mm[0;32mm@$[0m
       [37m,d[0;1;30m$Pⁿ''  _,[0m.,,[1m,,[0m,.._[32mⁿⁿ"[0;37m__[0;1;30m,[0m,,[1;30m,ggggggggggggg[0mg[1;30mg,[0mg[1;30m_[0;32mⁿY$$$$[0;1;32m$$[0;1;33m$$Pⁿ''[0;1;30m..;;iP''[0;1;33m,gd$$$[0;1;32m$[0;32m$[0m
      [37mⁿ[0;1;30mY$$$$$$$[0m$$$[1m$$[0m$[1m$[0;1;30m$PⁿY$$$$$$$$$$$$$$$$$$$$$$$$[0m$$[1m$$[0m$[1m$[0m$$$[1;30m$IIi;'' [0;1;33m,,,ggd$$$$$$$$[0;1;32m$[0m
@@ -43,12 +43,12 @@ Write-Host '
                 [34m;&[0;1;34m$[0;34m$$''[0m      [34mi. .;&$[0;1;34m$[0;34mP"~ [0;36m`[0;34ml$[0;1;34m$[0;34mP''. ;&[0;1;34m$[0;34m$;[0m     [34m''I,.[0m
                 [34ml$[0;1;34m$$[0;34m$b,_ _  [0;1;34m&[0;34mi. l$[0;1;34m$[0;34m$b,_ .;[0;1;34m&[0;34m$li ,d[0;1;34m$[0;34m$$b,_    &[0;1;34mI[0;34m;  BLACK JACK[0m
                  [34m`ⁿ°"` ` ,_d[0;1;34m$&[0;34mi. `ⁿ°"`''   `ⁿ$Yi. `ⁿ°"` ` ,_d[0;1;34m$&I; ..[0m
-            [1;34mg[0;34mggg.[0m       [34maaaa[0m            [34maaaa[0m            [1;37m. +  , _[0m
-            [34m$$[0;1;34m$[0;34m$:   g[0;1;34mgg[0;34mgggg[0;1;34mag[0;34mggg.   [0;1;34mg[0;34mggggg[0;1;34mg[0;34mg,g&$² +[0;1;34m,    [0;34m,g&$[0;1;34m'' [0;34m∙.[0;1;37m` ,[0m
+            [1;34m [0;34m    [0m       [34m    [0m            [34m    [0m            [1;37m        [0m
+            [34m  [0;1;34m [0;34m      [0;1;34m  [0;34m    [0;1;34m  [0;34m       [0;1;34m [0;34m     [0;1;34m [0;34m        [0;1;34m     [0;34m    [0;1;34m  [0;34m  [0;1;37m   [0m
 [1m   . -  + . [0;34m$$$[0;1;34m$:   [0;34m$$$[0;1;34m$[0;34m$$[0;1;34m$ [0;34m$$$$:[0;1;37m.'' [0;34m$[0;1;34m$$[0;34m$$$$[0;1;34m$$[0;34m$$$:   $,[0;1;37m.''[0;34m$$[0;1;34m$[0;34m$:   $[0;1;34m, [0;1;37m`.[0m
            [1m`[0;34m$$[0;1;34m$$:   [0;34m$$[0;1;34m$[0;34m$$$[0;1;34m$y[0;34m$$$$[0;1;34m:   [0;34m$$[0;1;34m$[0;34m$ $$$[0;1;34m$[0;34m$$$:   [0;1;34m$[0;34m$l $[0;1;34m$$[0;34m$:   [0;1;34m$[0;34m$l  [0;1;37m`.[0m
             [34m$[0;1;34m$$[0;34m$:[0;1;37m`+.[0;34m$[0;1;34m$$[0;34m$$[0;1;34m$$$[0;34m$$$[0;1;34m$:   [0;34m$[0;1;34m$[0;34m$$u$$[0;1;34m$$$[0;34m$$[0;1;34m:  [0;1;37m;[0;1;34m$$[0;34m$l$$[0;1;34m$$[0;34m: [0;1;37m+ [0;34m$[0;1;34m$[0;34m$l    [0;1;37m.[0m
-        [1;34ma aaggggaa aggggggggggggaa aggggggggggggaa[0;1;37m+[0;1;34maggggggggaa aggggaa a[0m
+        [1;34m                                          [0;1;37m [0;1;34m                     [0m
             [1;34m$$[0;34m$$:   [0;1;34m$$[0;34m$l$$$[0;1;34m$$[0;34m$$$:   $[0;1;34m$$[0;34ml$$[0;1;34m$$[0;34m$$$$[0;1;34m:[0;1;37m''  [0;34m$[0;1;34m$[0;34m$$$$[0;1;34m$$[0;34m:[0;1;37m.  [0;34m$$[0;1;34m$[0;34ml[0m      [1;37m;[0m
             [34m$[0;1;34m$[0;34m$$: [0;1;37m.''[0;34m$[0;1;34m$[0;34mP $$$$$[0;1;34m$[0;34m$$:[0;1;37m`. [0;34m$[0;1;34m$[0;34mP $$$[0;1;34m$$[0;34m$$[0;1;34m$:   [0;34m$$[0;1;34m$[0;34m$$[0;1;34m$[0;34m$$aaaa$[0;1;34m$P[0m
             [34m$$$[0;1;34m$:[0;1;37m''  [0;1;34m$[0;34m² [0;1;37m`.   [0;1;34m$[0;34m$$$:  [0;1;37m`[0;1;34m$²[0;1;37m._  ,+''[0;34mACK    $[0;1;34m$$[0;34m$gg[0;1;34mgg. [0;1;37m`+[0;1;34m$²[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b159eb93c4b5f5bcaac7f49cd3b132a1873e1afe52f795fd31ee220fb0668837
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SCORPION.ANS by The Scorpions Tail (ansis-s); released in ansis-s and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -53,7 +53,7 @@ Write-Host '
       [1;30m▒[0m▒             [1;30m▒[0m▒▒▒▒▒    [1;30m░██████▓█████[0;1;37m▒[0m        [35m([0;1;36m313[0;35m) [0;1;36m495.1335[0m
      [1;30m▒[0m▒            [1;30m▒[0m▒▒[1;30m▒[0m           [1;30m▒▒████[0m▓  [1;30m▐▀▌[0m     [36mCelerity 0day warez[0m
      [1;30m▒[0m▒           ▒▒▒[1;30m▒[0m               [1;30m▐▀▌[0m
-     [1;30m▒[0m▒          ▒▒▒[1;30m▒[0m                           [1;36mAccepting Quailty LD[0m
+     [1;30m▒[0m▒          ▒▒▒[1;30m▒[0m                           [1;36m                    [0m
       [1;30m▐[0m         [1;30m▒[0m▒▒▒                                 [1;36m9600+ Users[0m
                [1;30m▒[0m▒▒▒▒▒▒▒[1;30m▒[0m
                [1;30m▒[0m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[1m▒[0m▀▀  [36mNUP - MAHLE[0m

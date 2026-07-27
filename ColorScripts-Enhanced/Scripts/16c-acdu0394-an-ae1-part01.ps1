@@ -5,7 +5,7 @@
 # Source SHA-256: 6f49f5ed6fe66e59e9211ee3c5c319c39f5ea92cf0d7dc15767342ec1f2c1b8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-AE1.ANS by Andrew Nice + Maestro (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Awakened Earth
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -33,10 +33,4 @@ Write-Host '
                                  [1;30;40m▀▄ ▀ ▀ ▄▀[0m
                                    [1;30;40m▀▀▀▀▀[0m
                                   A C i D
-                           P R O D U C T I O N S[0m
-
-
-
-
-
-'
+                           P R O D U C T I O N S[0m'

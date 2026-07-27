@@ -5,7 +5,7 @@
 # Source SHA-256: 78c9a80dfd599cd1f7c9380cca04bc2e850e3def2fe9a08d5b91190c30ccf751
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-LOGO1.ANS by trinity (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logocluster no#1
 # SAUCE Author: trinity
 # SAUCE Group: phat studios '97
@@ -28,13 +28,13 @@ Write-Host '
    [32m▀▀█▀█[0;1;32;42m██▀▀██▓[0;32m▌[0;37m  [0;1;33m░░▀▀▀▌[0;32m▐█[0;1;32;42m░░[0;33;42m░▓▓[0;32;40m█▄▓▄▄▀▀▀▓[0;1;32;42m▀▀▀▓▓░░[0;32m██[0;33;42m░▒░[0;32;40m██▀▀█████▀▀▀tr[0;37;40m [0;31;40m▄[0;1;33;41m▄████[0;31m█[0m
    [37m   [0;32m▓▓█[0;1;32;42m████▄▓░[0;32m▄▓▓▓▓▓▓▄███[0;33;42m░░▓▀▀[0;32;40m██▐[0;1;34;42m░▒░[0;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;32m▓▀▀▀▀▓▓ [0;37m [0;31m▀▀[0;1;31;41m░▄[0;1;33;41m▀▀[0;31m▀▀▀▀▓▓[0m
     [37m  [0;32m▄█[0;1;32;42m▀▀▀█[0;1;32;47m▓[0;1;32;42m███▄▄▄[0;32m▄▄▄[0;1;30;42m░▒░[0;32m▀█▐█[0;33;42m░[0;32;40m█▀▀[0;37;40m  [0;32;40m█▀▀[0;37;40m [0;31;40mjoshijas dreamland[0;37;40m [0;32;40m░░[0;37;40m  [0;31;40m▀▀▀▀[0;37;40m [0m     [31;40m░░[0m
-    [37;40m    [0;32;40m▀▀▀▀▀█[0;1;32;42m▀▀▀[0;32m█▓▓▀[0;31m shc.member phat.member tdr.whq downbeat.dst bmb.dst[0m
-   [37m   [0m          [32m▀[0;37m [0;32m░░[0m                 [31mcd.dst blabla[0m
-                      [31m      [0;1;30m [0;31mo+ joshija[0;37m [0;31m   co+ abraxas.trinity[0m
+    [37;40m    [0;32;40m▀▀▀▀▀█[0;1;32;42m▀▀▀[0;32m█▓▓▀[0;31m                                                    [0m
+   [37m   [0m          [32m▀[0;37m [0;32m░░[0m                 [31m             [0m
+                      [31m      [0;1;30m [0;31m          [0;37m [0;31m                      [0m
                                     [31m+49[0;37m [0;31m2304-74831[0m
 
 [1;30m--[0;31m critical disease [0;1;30m------------------------------------------------------------[0m
-  [31mrequested by doc mike[0m
+  [31m                     [0m
 
 
                   [34m▐▄[0;37m [0;34m░░[0;37m  [0;35m [0;34m▄▄▄[0;1;34m██▀  [0m [34m ▐[0;1;34;44m░░[0;34m▄[0;37m [0;34m▄▄▄▌[0m       [34m░░[0;37m  [0;34m▄▄▄▄▄▄▄▄▄▄▄▄[0m
@@ -58,9 +58,4 @@ Write-Host '
                   [34m▀▀▓▓▀█▄[0m                        [34m▀[0m    [34m▐▀[0m        [34m▓▓▀▀▀▀▀ [0m
                     [34m░░[0;37m [0;34m▐[0m                                        [34m░░[0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30m yes, i am new to the phat crew..;) maybe you want to request an ansi by me? [0m
-[1;30mjust email me at trinity@shelter.tnet.de or leave a mail in "joshijas dreamland"[0m
-[1;30mmy personal greets in random order...:[0m
-[1;30mnoize, joshija, cirion, panther, abraxas, nail, dj dasch, blade, trc, eddie,[0m
-[1;30meverybody in phat and everybody in shc[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4f7340a39405887988a2fa82becb1c38b180a439ee15f01db314b3c003b6627c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: spike.ans by clear2ooo (clear2ooo-ascii-year-lf); released in clear2ooo-ascii-year-lf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spike
 # SAUCE Author: clear2ooo
 # SAUCE Date: 20250301
@@ -59,5 +59,4 @@ Write-Host '
                            [34m█            █           █                           [0m
                                  [34m█            █                                 [0m
                            [34m█                        █                           [0m
-                     [34m█            █     █    █            █                     [0m
-'
+                     [34m█            █     █    █            █                     [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b823bdacce5d24d70985f7694503b3bdfd98d75eac9110af79c20d1c277968a9
 # Source License: FAL-1.3
 # Source Attribution: ROY-PC1.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Park Central
 # SAUCE Author: ROY
 # SAUCE Group: READ THE INI FILE
@@ -51,7 +51,7 @@ Write-Host '
         [31m░[0m       ▀▀[1;30m▀▀▀  [0;31m░▒[0;1;30m░[0m                                     ▀▀[1;30m▀▀▀[0m
                        [31m▒▓░[0;1;30m░[0m
                       [1;30m░[0;31m▓█▒[0;1;30m░[0m
-          [1;30m15 BLAZi[0;32mNG NODES[0;31m░[0;32m-/\- 15+ [0;1;33mGIGS SPACE FOR WAR[0;32mEZ -/\- PC/AM[0;1;30miGA/MAC[0m
+          [1;30m        [0;32m        [0;31m░[0;32m         [0;1;33m                  [0;32m             [0;1;30m       [0m
                      [1;30m░[0;31m░▓█▒░[0;1;30m░[0m
                       [1;30m░[0;31m▒▓░[0;1;30m░[0m                               [1;30mANSI BY ROY<SAC>[0m
                        [1;30m░[0;31m░[0m'

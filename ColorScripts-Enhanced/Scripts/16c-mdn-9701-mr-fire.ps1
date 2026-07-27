@@ -5,7 +5,7 @@
 # Source SHA-256: bcee4ab6eada2710c55a2de94f61da47ef9bd0ade05f49d501325bc78c4b7325
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-FIRE.ANS by .,s$(minotaur)$s,. (MAiDEN BRAZiL!); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fire logo...
 # SAUCE Author: .,s$(minotaur)$s,.
 # SAUCE Group: MAiDEN BRAZiL!
@@ -33,5 +33,4 @@ Write-Host '
       [1;30m ▀▄▄▄▄▄▄▄█    ▀▀▀▀▀▀▄▄▄[0;31m ▀▀▀  ▀▀▀▀▀ [0;1;30m▄▄[0;31m  ▐[0;1;33;41m▒▒▒▒▒[0;31m▌  [0;1;30m▄▄▄▄[0;31m ▀▀▀▀[0;1;33;41m▀▀▀[0;31m▌  [0;1;30m▓[0m
                              [1;30m▀▀▀▀▀▀▀▀▀▀▀█ [0;31m  ▄[0;1;33;41m░░░░[0;31m▀▀ [0;1;30m▄▀    ▀▀▀▀▄▄▄[0;31m ▀ [0;1;30m▐▌[0m
             [1;46m +o [0m [1maskani [0m               [1;30m █[0;31m ▀▀▀▀▀▀ [0;1;30m▄■▀             ▀▀▀▀[0m
-                                        [1;30m ▀▀▀▀▀▀▀▀   [0m
-         [1m  [0m  [1;46m + [0m  [1m55.xxx.xxxxxxx[0m'
+                                        [1;30m ▀▀▀▀▀▀▀▀   [0m'

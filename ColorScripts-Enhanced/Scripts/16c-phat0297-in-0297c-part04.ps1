@@ -5,7 +5,7 @@
 # Source SHA-256: 78694e63b6c4410c242a126310bfb89ac25ca1c775e3da419d9d908aff259b55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-0297C.ANS by insert (Phat Studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ansi clust nummer iii
 # SAUCE Author: insert
 # SAUCE Group: Phat Studios '97
@@ -24,7 +24,7 @@ Write-Host '
 [1;32m░[0m  [32m▌▄▄[0;37m [0;32m▀[0m   [32m▌[0m   [32m▐▌[0m      [32m█[0m   [32m▐▌[0;37m [0;32m▀▀█▄▄▄▄▄█[0;1;32m▌[0m [32m█▄▐▌[0m      [32m█[0m   [1;32m▀▀[0m [1;32m▀[0m [32m▀▀█[0m   [32m█[0;37m  [0;32m▐▄▄[0m    [32m▄▄█[0m
      [32m▐▄▄▄▄[0;37m [0;32m▀[0;37m  [0;32m▀░▀▀▀▀▀▀[0m      [32m█[0m   [32m▀[0;1;32m@@insert[0m   [32m█▀▀[0;37m  [0;32m▀[0;37m [0;32m█[0;37m  [0;32m▀[0;37m  [0;32m▀▀▀▀▀[0;37m  [0;1;32m█[0m [32m▄▄▄[0;37m  [0;32m▄[0m     [32m▄[0m
                    [1;32m▀▀[0m  [1;32m▀[0m  [32m▀▀▀[0;37m [0;32m▀[0m           [32m▀▀▀[0m                              [32m▀▀▀▀[0m
-[1;37m╒real weird phat promo[0m
+[1;37m╒                     [0m
           [35m■▄[0;1;35m▄[0;35m [0m                [35m▄▄[0;1;36;45m▀  ▄▄[0;35m██▀▀▀▀▀█████████▄▄▄▄[0m
            [35m▐[0;1;35;45m░[0;1;35;40m▌[0m [32m░░[0m   [32m▄[0;37m [0;1;30m [0;32m▄▄[0m       [35m▀[0;1;36;45m ▒[0;1;36;40m▌[0m       [31m▄[0;1;31;41m░░[0;1;31;40m▄[0m [35m▀▀██▌[0;37m [0;35m▀▀▀▀█████▀▀▀[0m
       [35m▄▄▄[0;1;35;45m▄[0;35m▀▀[0;1;35m▀[0m  [32m ▀ [0;37m  [0;32m▀[0;35m░[0;1;30m  [0;32m▀▀█▄[0m     [35m▐[0;37m [0;1;36m▀[0m        [31m▀[0;1;31m▀[0m    [35m▐▀[0m              [31m▄█▀[0;1;31;41m░[0;1;31;40m▌[0m
@@ -48,10 +48,4 @@ Write-Host '
        [36m▄█▀[0;37m  [0;36m▄[0;1;36;46m▄[0;36m▀▀█[0;1;36;46m░[0;1;36;40m▌[0m   [35m▐[0;1;35;45m░[0;1;35;40m▌[0m                                 [31m [0;1;31;41m▐▓▓░░[0;31m██▌[0m
      [36m▄▄▄[0;1;36;46m▒[0;36m▀[0m    [1;36;46m░▒▀▓░[0;1;36;40m▌[0m  [35m [0;1;35m▀[0m       [36m░░[0m                        [31m ▐[0;1;31;41m█▒░  ░[0;31m▌[0m
        [36m▀▀▀▀▀▀▀▀[0m
-[1;36m-------------------------------------------------------------------------------[0m
-[1;36mi went trough so many packs one day that i tought that i just had to draw[0m
-[1;36msomething .. and another phat ansee came out [0m
-[1;36mi think i was only searcingh for my limits - no, didn''t find any :)[0m
-[1;36moh man.. what a mess.. but i am releasing this anyway cuz there must be someone[0m
-[1;36melse who likes this one too :)[0m
-'
+[1;36m-------------------------------------------------------------------------------[0m'

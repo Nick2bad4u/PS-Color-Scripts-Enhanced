@@ -5,7 +5,7 @@
 # Source SHA-256: 4de81684ce1755b9abf39543743e129b2573257930e89116e44ea3c001ff3ef8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM-NAMI.ANS by Aesthetic + Avenging Angel (jasper); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: namistai bbs
 # SAUCE Author: 43avg=BALKAN MADNESS
 # SAUCE Group: jasper
@@ -43,10 +43,4 @@ Write-Host '
 [36m▓█[0;32m [0;1;36;46m░[0;1;37;46mn a[0;1;36;40m▒[0m [32m░[0;37m [0;1;36;46m▒▓[0m  [32m█[0;37m [0;32m█[0;37m [0;1;37;46m [0;1;36;40m▄▄[0;36m▄█[0;32m▀ [0;37m [0;1;30;46m▓▄[0;1;37;46mm i    s[0;36m█[0;1;36;46m░[0m [32m█[0;37m [0;32m▌[0;1;30m▀[0;1;36m▒[0;1;37;46mt[0;1;36;46m [0;36m▄ [0;32m▐▀ [0;1;36;46m▓▒░[0;36m██[0;1;37;46m a[0;1;36;46m░[0;36m█▌[0;1;36m▒▒[0;36m▄█[0;1;36;46m░░[0;1;37;46mi[0;36m██▓░▒▓[0;37m  [0;36m░▓[0m
 [37m [0;36m▐ █▀▀▀[0;1;30m▀[0m   [1;30m▀[0;36m▀[0;37m   [0;32m▀[0;37m  [0;1;30m▀[0;36m▀[0;1;36m▀[0;1;36;46m▒[0m [32m [0;1;30m▀█▀[0m [1;30m▀[0;36m▀▀█[0;1;36;46m░▒ ░[0;36m█▀[0;37m  [0;32m▀[0;37m  [0;1;36m ▒[0;36m▐[0;37m   [0;32m  [0;37m  [0;36m▀▀▀▀▀█[0;37m [0;36m▌[0;37m  [0;36m▀▀▀█[0;1;30;46m▄[0;36m▀[0;1;30m▀[0m  [36m [0;37m    [0;36m░[0m
 [37m [0;36m ▀  [0m               [36m  ▓[0m           [36m▀▀[0;1;36;46m▓[0;1;36;40m▌[0m        [36m▀[0m             [36m▀[0m
-      [1;37mquestion:[0m       [36m░[0m              [1;36m▌[0m
-
-      what do you get when you cross to ansi drawing aussie maniacs?
-
-      [1manswer:[0m
-
-      balkan madness.[0m'
+      [1;37m         [0m       [36m░[0m              [1;36m▌[0m'

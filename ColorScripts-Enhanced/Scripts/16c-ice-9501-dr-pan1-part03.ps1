@@ -5,7 +5,7 @@
 # Source SHA-256: 215d102d12c6f97fec9300a46f0770b0648f2fbd26568f3860cd48baffed134e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-PAN1.ICE by Lord Drakul (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 92-137
 # Columns: 1-80
 
@@ -48,7 +48,7 @@ Write-Host '
 [1;30;40m░  ▀▀▀[0;1;30;46m▓▓[0;1;30;40m▓[0m                           [36mT[0;1;36mh[0;1;37me Panthe[0;1;36mo[0;36mn[0m
         [1;30m▀▀▄[0m
            [1;30m▀■[0m                       [36m7[0;1;36m03[0;1;37m-378-3[0;1;36m55[0;36m3[0m
-                         [36mi[0;1;36mC[0;1;37mE USHQ  [0;36mP[0;1;36mM[0;1;37mT USHQ  [0;36mV[0;1;36mer[0;1;37mtigoNET WHQ[0m
+                         [36m [0;1;36m [0;1;37m        [0;36m [0;1;36m [0;1;37m        [0;36m [0;1;36m  [0;1;37m           [0m
                                                  [1;30m░[0m                      [1;30m░[0m
 [1;30m    ░[0m                    [1;30m░[0m                              [1;30m░[0m               [1;30m░ ░    ░[0m
 [1;30m    ░[0m                 [1;30m░  ░[0m     [1;30m░[0m               [1;30m░ ░[0m                  [1;30m░   ▒ ░[0m

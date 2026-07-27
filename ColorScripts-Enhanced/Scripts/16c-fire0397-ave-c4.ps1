@@ -5,7 +5,7 @@
 # Source SHA-256: 1acd6f60a7fbb3f326f2148c59e3d3e17a2335695953822845ecd873cf549a01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-C4.ANS by Avenger (Fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Crypt
 # SAUCE Author: Avenger
 # SAUCE Group: Fire
@@ -39,8 +39,8 @@ Write-Host '
 [31m▓▀▐[0;37;41m░[0;31;47m▓[0;1;31;40m▒▒▒[0;31m█▄[0;1;31;41m▄[0;31m▌[0m      [36m░░[0m     [34m [0;37m  [0;34m▐[0m   [1;37ms [0mtuff here     [1ms [0mtuff here       [1;30m [0;34mave_[0;36m ░▄▌[0;37m  [0;34m▌[0;31m▀[0m
 
 [34m--------------------------------------------------------------------------------[0m
-[1;37mfor nail.[0m sorry about not releasing that much this time. i had to work a lot for
-the black maiden paq, which is released NOW.
+[1;37m         [0m                                                                       
+                                            
 
-contacts: [1mavengerbm@aol.com [0m(only payreq''s please - 5$ per logo)  ..
+          [1m                  [0m                                        
     ..    [1mhazard/2 [0m+49.(o)2406.929269[0m'

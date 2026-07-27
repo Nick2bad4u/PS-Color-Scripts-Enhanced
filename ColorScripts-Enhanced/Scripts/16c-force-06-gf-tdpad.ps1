@@ -5,7 +5,7 @@
 # Source SHA-256: 70c282d343db464f83ebdfd9fb679dd3694c8fa6981d10a89111f09b0e460243
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GF-TDPAD.ANS by Ghostface (fORCE); released in force-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DEvILS PLAYGrOUND
 # SAUCE Author: Ghostface
 # SAUCE Group: fORCE
@@ -33,14 +33,8 @@ Write-Host '
 [1;33m█[0m  [1;30m                                                      [0m [1;30m [0;32m▄▓[0;1;37m▄█▀[0;31m      [0;1;37m▀█▄[0;32m▓▄[0;1;30m [0m [1;30m [0;1;33m▀█[0m
 [1;33;45m▓[0;1;37;40m°+ 2 [0;32mNOdEz[0;1;32m [0m↔ [32mDEViL:[0;1;37m [0;32mSCROtE[0;1;37m [0m↔ [32mSPAWNz[0;1;37m [0;32m: ViRtUa, QUENCh[0;1;32m![0;32m [0;1;37m+°[0;31m [0;32m█[0;1;37m▐████▄[0;1;30m    [0;1;37m▄████▌[0;32m█[0;31m [0;37m  [0;1;33;45m▓[0m
 [1;33;45m▒[0;1;37;40m°+ R[0;32mOCkiNg[0;1;37m [0;32mPCb[0;37m [0;32m15.22[0;1;37m [0m↔ [32mPPEz[0;1;37m [0m↔ [32m2[0;37m [0;32m++[0;37m [0;32mGiGz[0;37m [0;32m+[0;37m [0;32mCd''z[0;1;37m [0;32mONliN[0;1;32me[0m [1m+°[0;32m▐[0;1;37m▐█[0;1;37;42m▀[0;1;37;40m█████▌▐█████[0;1;37;42m▀[0;1;37;40m█▌[0;32m▌[0;1;30m [0m [1;33;45m▒[0m
-[1;33;45m░[0;1;37;40m°+ o[0;32m-3DAY[0;37m [0;32mPc[0;37m ↔ [0;32mfUCk Off lAMERz ! [0;37m↔ [0;32mFASt[0;1;37m [0;32mtRAdERz[0;1;37m [0;32mONLY[0;1;32m![0m [1m+°[0;32m▐[0;1;37m▐[0;1;37;47m▓[0;1;32;42m▓▄[0;42m▀[0;1;42m▀▀[0;1;40m█▌[0m▐[1;42m█▀▀▀[0;1;32;42m▓▀[0;47m▓[0;40m▌[0;32;40m▌[0;37;40m [0;35;40m [0;1;33;45m░[0m
+[1;33;45m░[0;1;37;40m    [0;32m     [0;37m [0;32m  [0;37m ↔ [0;32m                  [0;37m↔ [0;32m    [0;1;37m [0;32m       [0;1;37m [0;32m    [0;1;32m [0m [1m  [0;32m▐[0;1;37m▐[0;1;37;47m▓[0;1;32;42m▓▄[0;42m▀[0;1;42m▀▀[0;1;40m█▌[0m▐[1;42m█▀▀▀[0;1;32;42m▓▀[0;47m▓[0;40m▌[0;32;40m▌[0;37;40m [0;35;40m [0;1;33;45m░[0m
 [1;33;45m [0;1;30;40m     [0mG[1;30mhOSt[0mf[1;30mACE / [0mfORCE[1;30m                                  [0;32m █[0;1;37;47m▓▓▓[0;1;37;40m██[0;1;37;42m█[0;1;37;40m  [0;1;30;40m [0;1;37;40m ███[0;1;37;47m▓▓▓[0;32m█ [0;37m  [0;1;33;45m [0m
 [35m▀█▄▓▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▓▄▄▓▄▄[0;32m [0;37m [0;32m▓[0;1;37m▓[0;1;37;47m▓▓▓[0;1;37;40m▀■  ■▀[0;1;37;47m▓▓▓[0;1;37;40m▓[0;32m▓[0;37m [0;1;30m [0;35m▄█▀[0m
 [37m [0;1;30m ▀[0;1;30;45m▓[0;1;30;40m [0m [1;30m666[0m [1;30m:[0m [1;30m666[0;36m [0;1;30m:[0;36m [0;1;30m666[0;31m [0;1;30m: 666 : 666: bE A dEVil kAll NOW =)[0m [1;35m [0;1;30m [0;32m▀■[0;1;37;42m▀[0;1;37;40m▄  [0;32m [0;1;37m   ▄[0;1;37;42m▀[0;32m■▀[0;1;30m [0;1;37m [0;1;30;45m▓[0;1;30;40m▀[0m
-[1;30m  [0m  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m    [32m▀▀▀[0;1;30m [0;32m▀▀ [0;37m  [0;1;30m▀▀▀ [0m
-[1;30m                [0m                                      [31m [0m
-                     [31m  [0m                               [1;32m [0m
-                                                      [31m [0m
-                                                      [31m [0m
-                                                      [1;37m   [0m
-                          [1;30m   [0m'
+[1;30m  [0m  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m    [32m▀▀▀[0;1;30m [0;32m▀▀ [0;37m  [0;1;30m▀▀▀ [0m'

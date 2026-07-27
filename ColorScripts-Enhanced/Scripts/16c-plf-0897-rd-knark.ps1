@@ -5,7 +5,7 @@
 # Source SHA-256: 688f88ee0ff1979390836688c9fe658d6281cfbff1539469c1bca27a1b36e411
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-KNARK.ANS by raider (polisen); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mld
 # SAUCE Author: raider
 # SAUCE Group: polisen
@@ -34,6 +34,4 @@ Write-Host '
                  [34m▐[0;34;46m▄[0;1;33;44m▀[0;34m█▀▀▀[0;1;34m     [0;34m▀▀▀███▌[0;1;34m [0;1;34;44m░[0;1;34;40m█▄[0;34m▄[0;1;34;44m▄[0;34m▄[0;1;34m [0;1;30m▄[0;34m▀[0;1;34m▀[0;1;34;44m▀▀[0;34m▀▀[0;1;34m  ░ [0;1;30m▀▄[0m
                  [34m▀[0;1;34m [0;1;30m░░▀▀ [0m [1;34m     [0;1;30m▀▌[0;34m▐▀▀▀▒█[0;1;34;44m▀▀[0;34;47m▓▓[0;34;40m█▌[0;37;40m [0;1;30;40m▀[0m  [34m▌[0m        [1;30m░░[0m
                        [1;30mmortal[0;1;34m       [0;34m▀▀▀███▀[0m
-                        [1;34m ░[0mdreams[1;34m [0m     [1;30m▀▀░[0m    [1;34m+[0mo [1;30mchoff[0m
-
-                          [1;30m                        [0m'
+                        [1;34m ░[0m      [1;34m [0m     [1;30m▀▀░[0m    [1;34m [0m  [1;30m     [0m'

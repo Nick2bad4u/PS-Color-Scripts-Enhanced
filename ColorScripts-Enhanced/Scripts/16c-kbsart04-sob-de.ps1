@@ -5,7 +5,7 @@
 # Source SHA-256: 821c78b876499ead16ad5e1763d363878715b5e434620b7b9936593680b1b398
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOB-DE.ANS by Somberlain (Kibosh); released in kbsart04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: deadend.darktech.org
 # SAUCE Author: Somberlain
 # SAUCE Group: Kibosh
@@ -33,10 +33,9 @@ Write-Host '
 [1;30;47m▄[0;1;30;40m▀▀[0m                               [32m▐[0;1;32;42m██[0;32m▌[0;37m [0;32m▄[0;1;32;42m▄█[0m   [32m▀[0;1;32;42m▀█[0m [1;32;42m░░[0m                 [1;30m-Somberlain[0m
  [1;30m▄▄██████████████████████████████▄[0m [32m▀[0;1;32;42m▀███▀[0;32m▀[0;37m [0;1;30m▄[0;1;30;47m▀[0;1;30;40m▄[0m   [32m▓▓[0;37m [0;1;30m░▓██████████████████████[0m░[30;47m▓[0;1;30;40m▄ [0m
 [1;30;40m█[0m░[30;47m▓[0;1;30;40m▀▀[0m                                            [32m░░[0;37m                        [0;1;30m▀▀██▌[0m
-[1;30m██▌[0m   hope I left enough space...                                            [1;30m▐[0;1;30;47m▓[0;1;30;40m█[0m
+[1;30m██▌[0m                                                                          [1;30m▐[0;1;30;47m▓[0;1;30;40m█[0m
 [1;30;40m█[0;1;30;47m▓[0;1;30;40m▌[0m                                                                          [1;30m▐[0;1;30;47m░▓[0m
 [1;30;47m▓░[0m                                                                           [1;30m [0;1;37;47m░[0;1;30;47m░[0m
-[1;30;47m░[0;1;37;47m░[0m    [30mAnd[0;1;30m [0;30mgod[0;1;30m [0;30mwept[0;1;30m [0;30mas[0;1;30m [0;30mwe[0;1;30m [0;30mbaptised[0;1;30m [0;30mhis[0;1;30m [0;30mlast[0;1;30m [0;30mangel[0;1;30m [0;30min[0;1;30m [0;30mhis[0;1;30m [0;30mown[0;1;30m [0;30mblood[0;37m             [0;1;37;47m▓░[0m
-[1;37;47m░▓[0m     [30m-[0;37m [0;30mHis[0;1;30m [0;30mwings[0;1;30m [0;30mhad[0;1;30m [0;30mwitherd,[0;1;30m [0;30mhis[0;1;30m [0;30mwhite[0;1;30m [0;30mcloak[0;1;30m [0;30mbecame[0;1;30m [0;30mred[0;37m                    [0;1;37;47m█▓[0m
-[1;37;47m▓█[0m     [30mhe[0;1;30m [0;30mcried[0;1;30m [0;30min[0;1;30m [0;30msorrow,[0;1;30m [0;30mvain[0;1;30m [0;30mand[0;1;30m [0;30mdespair.[0;37m                                  [0;1;37;47m██[0m
-'
+[1;30;47m░[0;1;37;47m░[0m    [30m   [0;1;30m [0;30m   [0;1;30m [0;30m    [0;1;30m [0;30m  [0;1;30m [0;30m  [0;1;30m [0;30m        [0;1;30m [0;30m   [0;1;30m [0;30m    [0;1;30m [0;30m     [0;1;30m [0;30m  [0;1;30m [0;30m   [0;1;30m [0;30m   [0;1;30m [0;30m     [0;37m             [0;1;37;47m▓░[0m
+[1;37;47m░▓[0m     [30m [0;37m [0;30m   [0;1;30m [0;30m     [0;1;30m [0;30m   [0;1;30m [0;30m        [0;1;30m [0;30m   [0;1;30m [0;30m     [0;1;30m [0;30m     [0;1;30m [0;30m      [0;1;30m [0;30m   [0;37m                    [0;1;37;47m█▓[0m
+[1;37;47m▓█[0m     [30m  [0;1;30m [0;30m     [0;1;30m [0;30m  [0;1;30m [0;30m       [0;1;30m [0;30m    [0;1;30m [0;30m   [0;1;30m [0;30m        [0;37m                                  [0;1;37;47m██[0m'

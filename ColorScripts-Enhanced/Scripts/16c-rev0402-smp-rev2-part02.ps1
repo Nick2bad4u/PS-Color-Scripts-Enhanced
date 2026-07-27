@@ -5,7 +5,7 @@
 # Source SHA-256: 563f07123d7e92dba3a77c52139254be58cab38dc392d4a75d092d1213f499fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Smp-rev2.ans by milkmang (the legion); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pacbell
 # SAUCE Author: milkmang
 # SAUCE Group: the legion
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[37;40mShrimp[0;1;37;40m([0;1;33;40mRevival[0;1;37;40m)[0m
+[37;40m      [0;1;37;40m [0;1;33;40m       [0;1;37;40m [0m
                     [32m▄▄▄▄▄▄[0m
               [32m  ▄▄[0;1;32;42m  [0;32m███[0;1;32;42m▄[0;32m████▄▄[0m                     [32m▄▄[0m
            [32m▄▄▄███[0;1;32;42m▄▄▄▀[0;32m█▀▀▀███████▄ [0m                [32m█[0;1;32;42m▓░[0;32m█[0m        [32m▄▄▄▄█[0;1;32;42m▄[0;32m█[0;1;32;42m▄▄▄▄[0;32m▄▄▄[0;37m  [0;32m [0m
@@ -37,16 +37,4 @@ Write-Host '
 [32m█▄[0;37m  [0;32m▐█[0;1;32;42m [0;32m█[0;1;32;42m▀▀▄[0;32m██▄[0m     [32m▀▀▀█[0;1;32;42m▀ [0;32m███████▄▄▄▄▄▄[0m      [32m▄███[0;1;32;42m▀[0;32m█████▄▄[0m          [32m▐██████[0;1;32;42m▀[0;32m███▄▄[0m
 
 
-                                                                               [37m↓[0m
-[37mOK. I [0;1;37mSHOULD[0m be studying for that huge Medieval Hebrew poetry test, but I won''t,
-since ANSI comes first. Anyway.. As you can see, both versions of the ANSI above
-are WAY out of style.. as a matter of fact, it''s the first time in years that I
-have managed to get more than 5 letters in a logo :) . The reason for the change
-is that Discyple, whom I had a conversation with, has shown interest in seeing
-what would be the result  if I tried something completely different. Personally,
-I like it, kinda. I did two different versions; the first is purely NS, and is
-greatly influenced by the works of PhonyEye and Bizzarro. The second one turned
-out much better though, IMO. All 7 letters are present. I''d love to hear what
-you have to say about this questionable new style. I talk too much.
-
-Shrimpz0rs[0m'
+                                                                               [37m↓[0m'

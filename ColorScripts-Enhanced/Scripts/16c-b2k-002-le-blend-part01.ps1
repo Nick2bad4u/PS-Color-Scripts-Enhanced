@@ -5,19 +5,19 @@
 # Source SHA-256: 59acf17ef10e162baf262eb923f953f8f9f67ddb7759de9853424adadc5aa74b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LE-BLEND.ANS by Leonardo (b2k-002); released in b2k-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
-Made in haste :)
-I''m tired i go to sleep now..
-this ansi is not ready but i hope you like it :)
-i will touch up in the next days.. ok.. greetings fly to all artists
+                
+                             
+                                                
+                                                                    
 
-good night
+          
 
-leo!bm leo@biosys.net
+                     
 
 
 [1;36m████████████████████████████████████████████████████████████████████████████████[0m

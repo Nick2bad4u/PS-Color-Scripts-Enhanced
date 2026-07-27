@@ -5,7 +5,7 @@
 # Source SHA-256: 9d007aca9df89bc362992271a5212ced239cafcbcf708b3842adede6569a1d2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-HA1.ANS by Nailz (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 116-151
 # Columns: 1-80
 
@@ -40,9 +40,4 @@ Write-Host '
 [31m▀[0m                                                                           [31m▀[0m
                  [37m6   [0;1;37m1   7   [0;1;31m-   [0;1;37m2   3   2   [0;1;31m-   [0;1;37m6   6   9   [0m9
 
---[1;30m-------------------------! [0;1;37mAnsi by Nailz [0;1;31m.[0;1;37muNION[0;1;31m. [0;1;30m!--------------------------[0m--
-  [1;33mW0W[0;1;31m!  [0mM[1my first actual original ansi[0;1;31m..  [0;1;37mHey Trev[0;1;31m!  [0;1;37mIt REALLY windy today, you[0m
-            [1;37mmight wanna grab a telephone booth or something QUICKL[0mY[1;31m![0m
-G[1mreets out to[0;1;31m:  [0;1;37mMass Delusion, KooL, Stormfront, Syntax Error, Future Assassin[0m
-o[1mLD uniOn fOLk [0;1;31m- [0;1;37mGenoCide, Blue Devil, Stone Angel, Hound, Praying Mantis[0;1;31m..[0m
-n[1mEW uniOn fOLk [0;1;31m- [0;1;37mSurreal Logic, Point Blank, Nivenh, Magnus[0m'
+--[1;30m-------------------------! [0;1;37mAnsi by Nailz [0;1;31m.[0;1;37muNION[0;1;31m. [0;1;30m!--------------------------[0m--[0m'

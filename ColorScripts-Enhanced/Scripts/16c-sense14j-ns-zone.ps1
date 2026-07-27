@@ -5,7 +5,7 @@
 # Source SHA-256: 379bf04b0f2acb360fa0993f309e0587670b98b6d5adfe698252702b630352a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NS-ZONE.ANS by ansichrist (senseimagery); released in sense14j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: outzone
 # SAUCE Author: ansichrist
 # SAUCE Group: senseimagery
@@ -37,6 +37,4 @@ Write-Host '
 [1;36m▒▓███[0;1;36;46m▄▀[0;1;36;40m▀▀[0;36m▀[0m          [31m▄▄▄▄[0m     [36m▄[0;1;36m [0;36m▄[0;1;36m▄▄█[0;1;36;46m▓▓[0;1;36;40m▀[0;1;36;46m▀[0;1;37;46m▓▓[0;1;36;46m▀[0;36m▌▀▄[0m    [36m▀▀[0m    [36m▀[0;1;36m▀[0;1;36;46m▀▄[0;36m▄[0;1;36m  [0;36m▀▀▄▀[0;1;36m▀[0;1;36;46m▀▄[0;1;36;40m▄[0;1;36;46m▒[0;1;36;40m█[0;1;36;46m▄[0;1;36;40m▀[0;1;36;46m▀[0;1;36;40m█▓[0;36m▌[0;1;36m [0;31m░[0m
 [1;36m▓[0;1;36;46m▓▀[0;1;36;40m▀[0;36m▀[0m     [31m▄▄▄[0;30;41m░░[0;31;40m██████████▄[0m        [36;40m▄[0;1;36;46m▄[0;1;37;46m▓[0;1;36;46m▄[0;36m▄▐▀[0m     [31m▄▄ [0m    [31m█▄[0m           [36m▀[0;1;36m [0;36m ▄▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m▓[0;1;37;46m▓▓[0;1;36;46m▄[0;36m▄[0m
 [1;36;46m▒[0;36m▀[0;1;36m   [0;31m▄▄█████████████████████▄▄▄[0m    [36m▀[0;1;36m▀[0;36m▀[0;1;36m [0;36m▐[0;1;36m  [0;31m▄[0;30;41m░░[0;31;40m█████▄▄▄[0;30;41m░[0;31;40m▓█▄▄[0m    [31;40m▀▄▄[0m       [36;40m▀░[0;1;36;40m░[0;1;37;40m░░[0;1;36;40m░[0;36m░[0m
-[1;36m  [0;31m▄█[0;1;37;41mo[0;30;41mo[0;1;37;41mu[0;30;41mu[0;1;37;41mt[0;30;41mt[0;1;37;41mz[0;30;41mz[0;1;37;41mo[0;30;41mo[0;1;37;41mn[0;30;41mn[0;1;37;41me[0;30;41me[0;1;37;41m b[0;30;41mb[0;1;37;41mb[0;30;41mb[0;1;37;41ms[0;30;41ms[0;1;37;41m.[0;30;41m.[0;31;40m███████▄▄[0;1;36;40m   [0;36m▐[0;1;36m  [0;31m██████████████████████████▄▄▄[0;1;30mns.[0m
-
-[1;30mjust had to test my skills with a new style...[0m'
+[1;36m  [0;31m▄█[0;1;37;41mo[0;30;41mo[0;1;37;41mu[0;30;41mu[0;1;37;41mt[0;30;41mt[0;1;37;41mz[0;30;41mz[0;1;37;41mo[0;30;41mo[0;1;37;41mn[0;30;41mn[0;1;37;41me[0;30;41me[0;1;37;41m b[0;30;41mb[0;1;37;41mb[0;30;41mb[0;1;37;41ms[0;30;41ms[0;1;37;41m.[0;30;41m.[0;31;40m███████▄▄[0;1;36;40m   [0;36m▐[0;1;36m  [0;31m██████████████████████████▄▄▄[0;1;30mns.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 308eba44073ef460ea846b2a10e2ad059084088d4e0db3c39522e4e42c1da0da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-23L.ANS by Lord Drakul (Twilight); released in twi-9709 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Anime Matrix
 # SAUCE Author: Lord Drakul
 # SAUCE Group: Twilight
@@ -38,9 +38,4 @@ Write-Host '
 [1;31;40m█[0;1;31;47m▓[0;1;31;43m▀[0;1;31;40m▀[0;33m▀[0;1;33m▄▄▄[0;1;33;43m▀[0;1;33;40m▀[0;33m▀[0;32m▄[0;1;32m▄[0m [1;33m█[0;33m▌[0;1;31m [0;33m [0;1;31;43m▓[0;1;31;40m▄[0;33m▄ [0;1;33m▀▀[0;1;33;43m▄[0;1;33;40m▄ [0;33m▀[0;1;31m▀▓▄▄[0m [1;33m▀▀▀▀▀[0;1;31m▄▄▄[0;1;31;47m▓[0;1;31;40m▀[0;33m▄[0;1;33m▄▄▀▀[0;1;31m▓░░[0;1;33m▓▀[0;32m░▒▓▌[0;33m▐[0;1;33m▌▀▄[0;33m▄▀[0;37m [0;1;33m▀▀▄[0m  [33m▀[0;1;33m▀▀▄▄[0;1;31m▀███[0;1;31;47m▓[0;1;31;43m▌[0m
 [33m▀[0;1;33m▄[0;33m▄[0;1;33m▀[0;33m▀[0;1;33m ▄▄[0;33m▄[0;1;33m ▄[0;33m▄[0;1;33m▀[0;33m▀[0;37m [0;1;33m▀▄[0;33m▄ [0;1;31m▀[0;33m▀[0;1;31;43m▒░[0;33m▄▄[0;37m [0;1;33m▀▀[0;1;33;43m▄[0;1;33;40m▄▄[0;33m▄▀[0;1;31m▀[0m  [1;31m▀▀[0;33m▄[0;1;33m▄▄▄▀▀▀[0;1;31m▄▀▀[0;1;33m▄[0m [1;33m▀▄[0;33m▄[0;37m  [0;32m▀[0;33m▄▀[0;37m [0;33m▀[0;1;33m▄[0m [1;32m▀[0;32m▀▓[0;37m [0;33m▐[0;1;33m▌[0m [33m▀[0;1;33m▀▀▄▄▀▄▄[0;1;31m▀█▀[0m
 [1;33m▓[0m  [1;33m▄[0;1;33;43m▀[0;1;33;40m▀[0;32m▓▄[0;1;32m▄[0;1;33m▐[0;33m▌[0;32m▄[0;37m [0;1;33m▄▀[0;33m▀[0;32m▄[0;1;33m▀▀▄▄▄[0;33m▄[0;1;31m▀▀[0;1;31;43m▀▓▄[0;1;31;40m▄▄[0;33m▄[0;1;33m▀▀▀▀▀▀▀▀▀[0;33m▄[0;1;31m▄[0m [33m▄[0;1;33m▄▄[0;1;33;43m▓[0;1;33;40m▀[0;1;31;40mdr[0;32m▄[0;1;32m▄[0m [1;33m▀▀[0;33m▀[0;37m [0;32m▓▄[0;1;32m▄[0;33m▐[0;1;33m▌[0;33m▀▄[0;1;33m▄▄▀[0;1;32m▄[0;32m▄[0;1;33m▀▄[0m [32m▄[0;1;32m▄[0;1;33m▀▄[0;33m▄[0;1;33m▀[0;33m▄▓[0m
-[37m--------------------------[cut here]--------------------------------------------[0m
-[1;37mThis is free for anyone use. . . oh wait. . nah this is only for abcb cafe and [0m
-[1mmy mine own personal use.  No i''m not going to rape it.[0m
-[1mYou happy now kyo!? :)[0m
-[1m          [0m
-                                [1m-drakz out.[0m'
+[37m--------------------------[cut here]--------------------------------------------[0m'

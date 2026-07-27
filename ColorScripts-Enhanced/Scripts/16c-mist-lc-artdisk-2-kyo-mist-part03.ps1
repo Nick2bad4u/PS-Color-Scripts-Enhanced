@@ -5,7 +5,7 @@
 # Source SHA-256: a2953e090fe8ab8fe42fcfeaf4d80cf5dd850ac78e21d8f8c62bc715bdee0308
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KYO-MIST.ANS by Kyo! (mISTFUNK 1998); released in mist-lc-artdisk-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: my body is alive, but my spirit is
 # SAUCE Author: Kyo!
 # SAUCE Group: mISTFUNK 1998
@@ -53,14 +53,14 @@ Write-Host '
 
 [1;30m▄██▀■·[0m· m i s t i [1mG[0m r i s  r e p r e s e n t i n [1mG[0m  i n  t h e [30m [0;37m1 9 9 [0;1;37m8[0m · [1;30m·■█▀█▄[0m
 [1;30;47m▓[0;1;30;40m▌[0;1;34;40m▄[0;1;34;46m▓[0;36m▀[0;1;30m█[0m                                                                   [1;30m■[0;1;34m ▄[0;1;34;46m▓░[0m▐[1;30;47m▓[0m
-[1;30;47m░[0;1;30;40m▌▄▄▀▀[0m       ·100% pure original flavor, straight from the 808·          [1;30m▀▄[0;1;34m▀▀[0;1;30m▄[0m▐[1;30;47m▒[0m
+[1;30;47m░[0;1;30;40m▌▄▄▀▀[0m                                                                   [1;30m▀▄[0;1;34m▀▀[0;1;30m▄[0m▐[1;30;47m▒[0m
 █                                                                          [1;30m▀▀[0m ▐[1;30;47m▓[0m
-█    [1mT[0mhis ansi has taken, god knows how long. I completed it after I had      ▐▓
-▓    just broken up with my ex girlfriend...  I have included a poem which     [1;30m▓[0m
-▒    I wrote after we had broken up... I don''t understand. About 1/8th         [1;30m▒[0m
-░    of this ansi was done when I was quasi-drunk.  Greets go out to my        [1;30m░[0m
-     homies down at Nuuanu, hey Matt and Aaron!  Hello''s to Phil Smith,        [1;30m [0m
-[1;30m░[0m    Tracy Ching, Erica Chiu, Laura Chu, Ilima Hawkins, Jen Say, and Yvonne    [1;30m░[0m
-[1;30m▒[0m    Cam.  Natalie, you fucking slut. I hope your happy with Gavin...          [1;30m▓[0m
+█    [1m [0m                                                                        ▐▓
+▓                                                                              [1;30m▓[0m
+▒                                                                              [1;30m▒[0m
+░                                                                              [1;30m░[0m
+                                                                               [1;30m [0m
+[1;30m░[0m                                                                              [1;30m░[0m
+[1;30m▒[0m                                                                              [1;30m▓[0m
 [1;30m█▄ ▄▄■·  [0m                                                             [1;30m [0m  [1;30m·■▄▄[0m [1;30m▄█[0m
-[1;30m ▀▀▀[0m                    - Scott Tsukamaki (kyo)                             [1;30m▀▀▀[0m'
+[1;30m ▀▀▀[0m                                                                        [1;30m▀▀▀[0m'

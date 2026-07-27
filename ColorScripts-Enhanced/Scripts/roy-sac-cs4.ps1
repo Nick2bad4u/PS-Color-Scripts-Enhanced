@@ -5,7 +5,7 @@
 # Source SHA-256: 947b858ae9e4b02345ada3062c07a92a54f32e9965f8ca5cd60a6b3c2824a075
 # Source License: FAL-1.3
 # Source Attribution: ROY-CS4.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -31,9 +31,9 @@ Write-Host '
 ███▀▀▀▀▀▀ ▀ ▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀ ▀▀▀  ▀▀▀▀▀▀▀██ ▀██ ▀▀▀▀▀▀▀▀▀        [1;30m░ ROY<SAC>[0m
 █▀                                            ▀   ▀                  [1;30m▒[0m
 [1;30m    [0m■  [1;33mSYSOP [0;32mis [0;1;33mROY [0;32m/ [0;1;33mS/┤C [0;32m■ [0;1;33mDYN/┤STY [0;32m■ [0;1;33mPE/┤NUTS[0m            [1;30m░[0m       [1;30m░▓░[0m
-[1;30m    [0m■  [1;33mCOSYSOPS [0;32mare [0;1;33mCYZ [0;32m■ [0;1;33mCHRiSTO [0;32m■ [0;1;33mGEE[0m                       [1;30m░[0m      [1;30m▀[0m
-[1;30m    [0m■  [32m3 [0;1;33mNODES HS [0;32m■ 2 [0;1;33mNODES ISDN [0;32m■ 2,4 [0;1;33mGiG HD [0;32m■ 16 [0;1;33mMB RAM[0m      [1;30m░░░[0m        [1;30m░[0m
-[1;30m▀[0m      [32mi[0;1;33m486/100 [0;32m■ [0;1;33mOS2/WARP [0;32m■ [0;1;33mPCBoard [0;32m15.22 [0;1;33mREGISTERED[0m           [1;30m░░░░░   ░░    ▀[0m
+[1;30m    [0m■  [1;33m         [0;32m    [0;1;33m    [0;32m■ [0;1;33m        [0;32m■ [0;1;33m   [0m                       [1;30m░[0m      [1;30m▀[0m
+[1;30m    [0m■  [32m  [0;1;33m         [0;32m■   [0;1;33m           [0;32m■     [0;1;33m       [0;32m■    [0;1;33m      [0m      [1;30m░░░[0m        [1;30m░[0m
+[1;30m▀[0m      [32m [0;1;33m        [0;32m■ [0;1;33m         [0;32m■ [0;1;33m        [0;32m      [0;1;33m          [0m           [1;30m░░░░░   ░░    ▀[0m
 [1;30m░   [0m■  [1;33mIBM [0;32m■ [0;1;33mCONSOLES [0;32m■ [0;1;33mDEMOS [0;32m■ [0;1;33mLARGE PCB AREA[0m              [1;30m░ ░░░░░░░░░░░[0m     [1;30m░[0m
 [1;30m▒   [0m■  [1;33mS/┤C [0;32m- [0;1;33mSUPERIOR ART CREATIONS WORLDHEADQUARTER   [0;1;30m░ ░░░░░░░░  ░░░░░░░░  ▒[0m
 [1;30m▓   [0m■  [1;33mDNS  [0;32m- [0;1;33mDYNASTY HEADQUARTER[0m                          [1;30m░ ░░ ░░░  ░░░ ░    ▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 13c097f0fcd4c1bb998da2e8551b88d52ffb4f95531cb0bf8870e4d2516c6da3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-PULSE.ANS by Phlare (Decades); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pulse
 # SAUCE Author: Phlare
 # SAUCE Group: Decades
@@ -31,7 +31,4 @@ Write-Host '
   [1m [0;1;30m▄▓▓[0;1;30;47m▓▓▓▓▓▓[0;1;30;40m▄▄[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;47m▓▓▒▓▓[0;1;30;40m▓▓▀▀▀[0m [1;30m▀▀▀▌▄▄█[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;47m▓▓▓[0;1;30;40m█▄████▓▄▄[0;1;37;40m    [0;34m▀▀▀▌[0;1;37m   [0;1;30m▐▄▄█▓[0;1;30;47m▓▓[0;1;30;40m▌▐▌bv[0m
   [1m   [0;1;30m▀▀[0;1;30;47m▓▒▒▓▓▓[0;1;30;40m█▓▓▓▀▀▀[0;1;37;40m           [0;1;30;40m▀▀[0;1;30;47m▓[0;1;30;40m▓▓[0;1;30;47m▓▓▓▓▒▓[0;1;30;40m▀▀▓▓▓[0;1;30;47m▓[0;1;30;40m▀▀▌[0;1;37;40m  [0;1;30;40m▄▄█▄[0;34m▀─[0;1;30m▄▄[0;1;30;47m▓▓▓[0;1;30;40m▓░[0m [1;30m▄[0;1;30;47m▒▓▓[0;1;30;40m▀■▄[0m
   [1m       [0;1;30m▀█▀▀[0m [1;30m░░░[0;1;37m [0;1;30mpulse.         [0;1;37m [0;1;30m▒█▀▀▀▀[0;1;37m    [0;1;30m░░░[0;1;37m   [0;1;30m▀▓  [0;1;30;47m▓[0;1;30;40m▀[0;1;30;47m▄[0;1;30;40m▀▀[0;1;30;47m▓[0;1;30;40m▀▓▓█[0;1;30;47m▒▓▓[0;1;30;40m▓▀[0;1;37;40m         [0m
-          [1;30m▌[0m [30m514-434-9508[0m          [1;30m░[0;1;37m [0;1;30m                 [0m   [1;30m▀ [0m   [1;30m░░[0m [1;30m▀▀▌[0m
-          [1;30m   [0m       [1;34m [0m
-            [1;30m   [0m
-  [1;30mPhlare<Decades>      [0m'
+          [1;30m▌[0m [30m514-434-9508[0m          [1;30m░[0;1;37m [0;1;30m                 [0m   [1;30m▀ [0m   [1;30m░░[0m [1;30m▀▀▌[0m'

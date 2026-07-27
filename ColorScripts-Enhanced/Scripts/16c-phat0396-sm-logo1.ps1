@@ -5,7 +5,7 @@
 # Source SHA-256: df4120a5b5307cf1d33b3b29e4a13a8ee1e95f7f354f6450c50a0e78017b80cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-LOGO1.ANS by SyncMaster (WOS^PhAT^blind); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hAPPY VALENTINE
 # SAUCE Author: SyncMaster
 # SAUCE Group: WOS^PhAT^blind
@@ -40,6 +40,5 @@ Write-Host '
      [34m█[0;37m [0;1;37;47m███████[0m [34m■▀▀[0;1;36m·[0;1;32msm[0;1;36m·[0;34m▓[0;37m [0;1;37;47m███████[0m [34m█[0;37m [0;1;37;47m████▄▓[0m [34m▐▒▒▄[0;37m  [0;1;37m▀▀▀[0;1;37;47m██████▓[0m [34m▐▀▄▄▄▄[0;37m [0;1;37m▀▀▀[0;1;37;47m████▓▓[0m [34m█ [0m
      [34m■▄▄▄▄▄▄▄▄▄▀      ▐▄▄▄▄▄▄▄▄▄▀▄▄▄▄▄▄▄▄■   ▀▀▀▀▄▄▄▄▄▄▄▄▄█     ▀▀▀■▄▄▄▄▄▄▄■ [0m
 [34m [0;1;30m+─-─-─-───--- -───-- ───-─-─-─-─────---─  ─ ────--──-──  ─ ─-─-─-─────-───-─+[0m
-                  tAKE i eASY, bABY tAKE it as iT cOMES.
-[34m [0;1;30m+─-─-─-───--- -───-- ───-─-─-─-─────---─  ─ ────--──-──  ─ ─-─-─-─────-───-─+[0m
-                                                            [1;30m   [0m'
+                                                        
+[34m [0;1;30m+─-─-─-───--- -───-- ───-─-─-─-─────---─  ─ ────--──-──  ─ ─-─-─-─────-───-─+[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1c7a831ef9b5dac146db8ad34c1f1a16efc128bb4d376beee6fca43014fa9cf9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZE-DIEZ.ANS by ize (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: diezel power
 # SAUCE Author: ize
 # SAUCE Group: nerp
@@ -31,5 +31,4 @@ Write-Host '
 [37;40m [0;35;40m█[0;1;35;45m░[0;35m▄[0;34m ░█[0;1;34;44m░░[0;34;46m▓▓[0;1;34;44m░[0;34m▐[0;34;46m▓▓[0;1;34;44m░ [0;34m▌▐[0;1;34;44m░░░[0;34m█▌█[0;1;34;44m░░[0;34m██▌█[0;1;34;44m░[0;30;44m░[0;34;40m██[0;34;46m▓[0;34;40m▌[0;1;34;44m░░[0;34;46m▓[0;34;40m▌█[0;1;34;44m░░[0;34m███▌█████▌█[0;1;34;44m░░[0;34;46m▓█[0;34;40m█▌█[0;30;44m░[0;1;34;44m░░[0;34m▌█[0;30;44m░░[0;34;40m█[0;30;44m  [0;34;40m░   [0;31;40m░░[0m
 [37;40m [0;35;40m▐[0;1;35;45m▓[0;1;35;47m▓[0;35m▄[0;34m  ▀▀█[0;30;44m  [0;34;40m█[0;30;44m░░[0;34;40m█▀ ▐[0;30;44m░░[0;34;40m██▌ ▀▀███████▀▀ ▀▀█████▀▀▀  ▀▀████[0;1;34;44m [0;34m██▀▀ ▀▀█████[0;30;44miz[0;34;40m▀▀  [0;35;40m░░[0m
 [37;40m [0;35;40m ▀[0;1;35;45m▀▀▄▄[0;35m▄▄▄▄▄[0m    [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35;45m▄▄▐[0;35m▄▄▄▄▄▄▄▄[0;1;35;45m▄▄▄▐[0;35m▄▄▄▄▄▄▄▄▄▄[0;1;35;47m▓[0;1;35;45m▄[0;35m▄▄▄▄▄▄▄▄▄▄▄▄▓▓░░[0m
-      [35m▀[0;1;35m▀▀▀[0;35m▀▀██[0;1;35;45m▄▄▄[0;1;35;47m█████████▓▒[0;1;35;45m▌[0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;35;45m▀▀▀▀▀▀▀▐▓▓░░[0;35m▓▓░░[0m
-                              [34mdiezel? yeh.. sum board.[0m'
+      [35m▀[0;1;35m▀▀▀[0;35m▀▀██[0;1;35;45m▄▄▄[0;1;35;47m█████████▓▒[0;1;35;45m▌[0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;35;45m▀▀▀▀▀▀▀▐▓▓░░[0;35m▓▓░░[0m'

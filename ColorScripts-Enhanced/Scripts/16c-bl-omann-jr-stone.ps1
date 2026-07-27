@@ -5,7 +5,7 @@
 # Source SHA-256: 33c6e9356381b4a6f19ccc9527fc435d0de7028d9c79bb077bc8dd26c3944ee7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_STONE.ANS by jerusalem (boil); released in bl_omann and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: armillasph?re
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,4 +40,4 @@ Write-Host '
 [36m    ───[0;31m ▀[0;37m▀[0;31m▀[0;1;33;41m▐[0;1;37;40m█[0;1;33;41m▌[0m▀[1;33m▀[0;31m▀  [0;37m▀[0;1;37m▀[0;31m ▐[0;37m▀[0;1;33m▀[0;31m▀ [0;36m──────────────────────────[0;31m [0;1;34m▀[0;36m▀[0;1;34m  [0;36m─────[0;1;34m [0;34m░░░▐[0;36m▀▀[0;1;34m▀ [0;36m──  [0m
 
        [36m [0m
-[1;5;33m▐▐▌[0m [36mstonehenge go entry #10. erkennen ist der erste schritt ins grab.[0m'
+[1;5;33m▐▐▌[0m [36m                                                                 [0m'

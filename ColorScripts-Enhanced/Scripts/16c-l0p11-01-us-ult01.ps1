@@ -5,7 +5,7 @@
 # Source SHA-256: 29fb5c48ed5437980b6b00fa5d8de5c5859db5a6eafd4508c9b6a4fd269d92da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ULT01.ANS by Simonking + Firefx (l0p11_01); released in l0p11_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -31,9 +31,4 @@ Write-Host '
 [34m█▄[0;37m [0;34m▄▄▄▄▄[0;1;34m▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▄[0;37m [0;34m▄[0;37m [0;34m▄[0;1;34m▄[0m [33m███[0m    [1;30;43m▒▒▒[0m [33m▄▄▄[0m    [33m▄▄[0;37m [0;33m▄▄▄[0m    [33m███[0;37m [0;34m▄[0;37m [0;34m▄[0;37m [0;34m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;34;44m▄[0m [34m▄▄▄▄▄▄▄▄[0m
                    [34m█[0;37m [0;33m███▄▄▄▄█[0;1;30;43m░░[0m [33m███[0;37m  [0;33m▄▄██[0;37m [0;33m███▄▄▄▄███[0;37m [0;34m█[0m
                    [1;34;44m▄[0;34m▄▄[0;37m [0;33m█████[0;1;30;43m░[0;33m██[0;37m [0;33m███[0;37m   [0;33m███[0;37m  [0;33m ██████[0;37m [0;34m▄▄█[0m
-                         [37m■ u l t i m a   a n s ■[0m
-
-
-[1;37moutlines by simonking/thelo0p[0m
-[1;37msimonking@poczta.onet.pl[0m
-[1;37mreshaped/shaded by firefx/uhh.. nothing[0m'
+                         [37m■ u l t i m a   a n s ■[0m'

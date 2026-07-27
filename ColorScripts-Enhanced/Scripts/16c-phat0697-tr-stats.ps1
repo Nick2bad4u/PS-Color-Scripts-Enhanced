@@ -5,7 +5,7 @@
 # Source SHA-256: ed48ef37fa2ab5cf40784921e29c7dcbcaf9ea40e28decac2d9af15d47af1b99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR!STATS.ANS by trinity (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: status ansi
 # SAUCE Author: trinity
 # SAUCE Group: Phat Studios '97
@@ -41,10 +41,4 @@ Write-Host '
 
 
 
-[1;30;40m--------------------------------------------------------------------------------[0m
-[1;30;40myes, there are only 3 ansis from me in the pack but i really got  lack of time.[0m
-[1;30mi hope to do some more for the next pack. i''ll draw requests as fast as possible[0m
-[1;30mbut i already said, that i don''t have much time at the moment. but hey!? it''s [0m
-[1;30msummer! who the hell needs ansis? =)[0m [1;30mgreets 2 all my friends and dewds who know [0m
-[1;30mme. _try_ to reqeust an ansi by email [0;31mtrinity@shelter.tnet.de[0;37m [0;1;30mp.s. the ansi is[0m
-[1;30malso for everybody![0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

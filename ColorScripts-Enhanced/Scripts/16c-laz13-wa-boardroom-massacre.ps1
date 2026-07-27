@@ -5,7 +5,7 @@
 # Source SHA-256: 0cf9e50d11f8c38f858b98bcfcacd430d69d84b4118529f85fee11f5ae29a4f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-boardroom-massacre.ans by warpus (LAZARUS); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Boardroom Massacre
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -22,7 +22,7 @@ Write-Host '
 [1;37;40m████████████████████████████████████████████████████████████████████████████████[0m
 [1;37;40m████████████████████████████████████████████████████████████████████████████████[0m
 [1;37;40m████████████████████████████████████████████████████████████████████████████████[0m
-[1;37;40m██████[0;31;107mLet your sophisticated side shine through with our branded insoles[0;1m████████[0m
+[1;37;40m██████[0;31;107m                                                                  [0;1m████████[0m
 [1m████████████████████████████████████████████████████████████████████████████████[0m
 [1m████████████████████████████████████████████████████████████████████████████████[0m
 [1m████████████████████████████████████████████████████████████████████████████████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 059fec5c48d518d1777728f5c861aa657614e8fbb3fbd42de38187e6cc9c00df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RP-MENU5.ANS by Raptor (axf-ap-1); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -17,18 +17,17 @@ Write-Host '
 [1;36m    [0;1;35m▓[0;35m█▀[0m                                                               [35m▀█[0;1;35m▓[0m
 [1;36m    [0;1;35m▒[0;35m▌[0m                                                                 [35m▐[0;1;35m▒[0m
 [1;36m    [0;1;35m░[0m                                                                   [1;35m░[0m
-[1;36m    [0;35m█[0m               [37m[[0;1;37mY[0;1;30m][0;1;32mO[0;32mUR MAIL BOX[0m             [37m[[0;1;37mR[0;1;30m][0;1;32mE[0;32mAD MESSAGES[0m         [35m█[0m
+[1;36m    [0;35m█[0m               [37m [0;1;37m [0;1;30m [0;1;32m [0;32m           [0m             [37m [0;1;37m [0;1;30m [0;1;32m [0;32m           [0m         [35m█[0m
 
-                    [37m[[0;1;37mP[0;1;30m][0;1;32mO[0;32mST[0;37m [0;32mMESSAGE[0m              [37m[[0;1;37mJ[0;1;30m][0;1;32mO[0;32mIN CONF.[0m
+                    [37m [0;1;37m [0;1;30m [0;1;32m [0;32m  [0;37m [0;32m       [0m              [37m [0;1;37m [0;1;30m [0;1;32m [0;32m        [0m
 
-                    [37m[[0;1;37mB[0;1;30m][0;1;32mL[0;32mUEWAVE[0m                  [37m[[0;1;37mA[0;1;30m][0;1;32mB[0;32mANDON[0;37m [0;32mCONF.[0m
+                    [37m [0;1;37m [0;1;30m [0;1;32m [0;32m      [0m                  [37m [0;1;37m [0;1;30m [0;1;32m [0;32m     [0;37m [0;32m     [0m
 
 
-                                  [37m[[0;1;37m![0;1;30m][0m [1mL[0;1;32mO[0;32mGOƒƒ[0m
+                                  [37m [0;1;37m [0;1;30m [0m [1m [0;1;32m [0;32m    [0m
                                   [37m[[0;1;37m-[0;1;30m][0m [1mB[0;1;32mA[0;32mCk¡[0m
 [1;36m    [0;1;35m░[0m                                                                   [35m█[0m
 [36m   [0;35m▐[0;1;35m▓[0;35m▌[0m                                                                 [35m▐[0;1;35m░[0;35m▌[0m
 [36m  [0;35m▄[0;1;35m░▓▒░[0;35m▄▄[0m                                                           [35m▄▄[0;1;35m░▒▓░[0;35m▄[0m
 [36m [0;35m█[0;1;35m▓▓░▓▓▒░[0;35m█[0;1;35m░[0;35m█▄▄▄[0;36m [0;35m▄▄[0;36m  [0;35m ▄[0m                                [35m▄[0;36m    [0;35m▄▄[0;36m [0;35m▄▄▄█[0;1;35m░[0;35m█[0;1;35m░▒▓▓░▓▓[0;35m█[0m
-[36m [0;35m▀▀[0;1;35m░▒░[0;35m▀[0;1;35m░[0;35m▀▀▀▀[0;1;35m░[0;35m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35m░[0;35m▀▀▀▀▀▀▀▀▀[0;1;35m░▒[0;35m▀▀▀▀▀[0;1;35m▓░[0;35m▀▀▀▀▀▀▀▀▀▀▀[0;1;35m▒░[0;35m▀▀▀▀▀▀▀[0;1;35m░[0;35m▀▀▀▀[0;1;35m░[0;35m▀[0;1;35m░░░[0;35m▀▀[0m
-[1;34m [0;1;37mR[0ma[1;30mpTor[0;1;34m [0m'
+[36m [0;35m▀▀[0;1;35m░▒░[0;35m▀[0;1;35m░[0;35m▀▀▀▀[0;1;35m░[0;35m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35m░[0;35m▀▀▀▀▀▀▀▀▀[0;1;35m░▒[0;35m▀▀▀▀▀[0;1;35m▓░[0;35m▀▀▀▀▀▀▀▀▀▀▀[0;1;35m▒░[0;35m▀▀▀▀▀▀▀[0;1;35m░[0;35m▀▀▀▀[0;1;35m░[0;35m▀[0;1;35m░░░[0;35m▀▀[0m'

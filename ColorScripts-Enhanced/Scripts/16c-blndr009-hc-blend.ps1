@@ -5,7 +5,7 @@
 # Source SHA-256: ea2fd4ec5d8bb6d0ff55915c3db077525754e72d740c4b2b50bf34ba913f9347
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HC-BLEND.ANS by eiht ball (dark); released in blndr009 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: eiht ball
 # SAUCE Group: dark
 # SAUCE Date: 19970119
@@ -37,7 +37,4 @@ Write-Host '
 [32m██████████████████▀[0;37m [0;1;31m▄███████[0;1;31;43m█████▄▄██[0;1;31;40m███[0;1;31;43m▓▄▄[0;1;31;40m███[0;1;31;43m▄▄▄    [0;33m▄[0;37m [0;32m▀████████████████████████[0m
 [32m█████████████████▀[0;37m [0;1;31m███████████████████████████████[0;1;31;43m▄░  [0;33m█[0;37m [0;32m▀███████████████████████[0m
 [32m█████████████████[0;37m [0;1;31m█████████████████████████████████[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▄  [0m [32m███████████████████████[0m
-[32m████████████████▌[0;1;31m▐████████████████████████████████████[0;1;31;43m▌ [0;33m▌[0;32m▐██████████████████████[0m
-[37mhulk hogan[0m
-[37msuicide[0m
-[37mhell[0m'
+[32m████████████████▌[0;1;31m▐████████████████████████████████████[0;1;31;43m▌ [0;33m▌[0;32m▐██████████████████████[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ad48e4668291effe4d6972f6e490084206dc0d80113168459cfd4f8d87034f63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DM-GTV.ANS by domino (gravity); released in gvt-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gravity tv
 # SAUCE Author: domino
 # SAUCE Group: gravity
@@ -40,6 +40,4 @@ Write-Host '
                                     [36m▐[0;1;30;46m▒▒▒░░▒▒░░▒▒▓▓[0m   [1;35;45m▓▒░░[0;35m████▌[0m
                                    [1;30m▄[0;1;30;46m░▓▓▓▒▒▓▓▒▒▓▓▓▓[0;1;30;40m▌[0m [1;35m▐[0;1;35;45m▒░░[0;35m█████[0m
                                   [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;35;45m▓▒░[0;35m█████▌[0m
-[1;37m=-=-=-=-=-=-=-=-=-=-=-=%#[Gtv, AlwAyZ fReSh, aLLdAtimE!]#%=-=-=-=-=-=-=-=-=-=-=[0m
-                                 [1;30md[0;35mo[0;1;35mmino.gravi[0;35mt[0;1;30my[0m
-                  [1;30ma[0;35mn[0;1;35my requests should be sent to poot@gate.n[0;35me[0;1;30mt[0m'
+[1;37m=-=-=-=-=-=-=-=-=-=-=-=%#[Gtv, AlwAyZ fReSh, aLLdAtimE!]#%=-=-=-=-=-=-=-=-=-=-=[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: cc9348db41f418cf6b6ba77bdcaff084aebd14cf1ff2e458725282dc654b8c5c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-COD.ANS by Entreri (CaNCeR Productions); released in cnc-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Castle Of Darkness
 # SAUCE Author: Entreri
 # SAUCE Group: CaNCeR Productions
@@ -45,19 +45,4 @@ Write-Host '
 
                        [33mC A S T L E   O f  D A R K N E S S[0m
 
-                           [37m. [0;33mN[0;1;31mo[0mde 1 (714) 282-76[1;31m4[0;33m4 [0;37m.[0m
-                           [37m. [0;33mN[0;1;31mo[0mde 2 (714) PRI-VA[1;31mT[0;33mE [0;37m.[0m
-[37m    . [0;33m1[0;1;31m.[0m2 Gigs online + 600 megs of H/P/A/C/V + 600 More megs coming so[1;31mo[0;33mn [0;37m.[0m
-                       [37m. [0;33m1 [0;37mBlazing USR V.34 28.8 Mod[0;1;31me[0;33mm [0;37m.[0m
-                      [37m. [0;33mR[0;1;31mu[0mnning RG 10-05 Modded to He[1;31ml[0;33ml [0;37m.[0m
-                                 [37m. [0;33mS[0;1;31my[0msOp: E[1;31ma[0;33mr [0;37m.[0m
-
-                                   [37m. [0;33mA[0;1;31mf[0mfi[1;31ml[0;33ms [0;37m.[0m
-                         [37m. [0;33mC[0;1;31ma[0mNCeR World HeadQuarte[1;31mr[0;33ms [0;37m.[0m
-                      [37m. [0;33mL[0;1;31me[0mTHAL-NeT Western HeadQuarte[1;31mr[0;33ms [0;37m.[0m
-                         [37m. [0;33mE[0;1;31mV[0miL Western HeadQuarte[1;31mr[0;33ms [0;37m.[0m
-                           [37m. [0;33mi[0;1;31mD[0mP Distribution Si[1;31mt[0;33me [0;37m.[0m
-                           [37m. [0;33mJ[0;1;31mo[0mLT Distribution Si[1;31mt[0;33me [0;37m.[0m
-
-                   [37m. [0;33mS[0;1;31mu[0mpporting LeTHAL-NeT and Insanity-N[1;31me[0;33mt [0;1;37m.[0m
-                          . [33mC[0;1;31mr[0meators-Net coming so[1;31mo[0;33mn [0;37m.[0m'
+                           [37m. [0;33mN[0;1;31mo[0mde 1 (714) 282-76[1;31m4[0;33m4 [0;37m.[0m'

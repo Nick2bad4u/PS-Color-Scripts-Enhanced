@@ -5,7 +5,7 @@
 # Source SHA-256: 6df74f6028e67e60b11cc5f3b5eb6ab8869b1da199251b71f0086c99b12cd414
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STLH2.ANS by The Weeze (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -31,5 +31,4 @@ Write-Host '
          [1;37;40m█[0;1;33;42m▒▒▒▒[0;1;30;40m██[0;1;33;42m▒▒▒▒[0;1;30;40m█[0;1;37;40m█[0;1;33;42m▒▒▒▒[0;1;30;40m██[0;1;33;42m▒▒▒▒[0;1;30;40m█[0;1;37;40m█[0;1;33;42m▒▒▒▒[0;1;30;40m█ [0;1;37;40m█[0;1;33;42m▒▒▒▒[0;1;30;40m█[0;1;37;40m█[0;1;33;42m▒▒▒▒[0;1;30;40m█   [0;1;37;40m█[0;1;33;42m▒▒▒▒[0;1;30;40m█  █[0;1;33;42m▒▒▒▒[0;1;30;40m█[0m
          [1;37;40m█[0;1;33;41m▒▒▒▒[0;1;30;40m██[0;1;33;41m▒▒▒▒[0;1;30;40m█[0;1;37;40m█[0;1;33;41m▒▒▒▒[0;1;30;40m██[0;1;33;41m▒▒▒▒[0;1;30;40m█ [0;1;37;40m█[0;1;33;41m▒▒▒▒[0;1;30;40m█[0;1;33;41m▒▒▒▒[0;1;30;40m█ [0;1;37;40m█[0;1;33;41m▒▒▒▒[0;1;30;40m█▄▄▄[0;1;37;40m█[0;1;33;41m▒▒▒▒[0;1;30;40m█  █[0;1;33;41m▒▒▒▒[0;1;30;40m█[0m
          [1;37;40m█[0;1;33;41m░░░░[0;1;30;40m██[0;1;33;41m░░░░[0;1;30;40m█[0;1;37;40m█[0;1;33;41m░░░░[0;1;30;40m██[0;1;33;41m░░░░[0;1;30;40m█  [0;1;37;40m█[0;1;33;41m░░░░░░░[0;1;30;40m█  [0;1;37;40m█[0;1;33;41m░░░░░░░[0;1;30;40m█[0;1;37;40m█[0;1;33;41m░░░░[0;1;30;40m█  █[0;1;33;41m░░░░[0;1;30;40m█[0m
-         [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀[0m
-                             [1;31;40mÆÑs¡∙[0;1;35;40mT[0;1;32;40mh[0;1;33;40me [0;1;35;40mW[0;1;32;40me[0;1;33;40me[0;1;35;40mz[0;1;32;40mE [0;1;37;40m[[0;1;36;40mi[0;1;34;40mCE[0;1;37;40m][0;1;31;40m∙[0m'
+         [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀[0m'

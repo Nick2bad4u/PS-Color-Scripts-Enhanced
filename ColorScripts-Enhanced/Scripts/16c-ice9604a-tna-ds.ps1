@@ -5,13 +5,13 @@
 # Source SHA-256: 9c6e15d24089f3944b70149c78df5f6fdf356c2d040e47aa1689c8f053e90577
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-DS.ICE by The Night Angel (ice9604a); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
 
- [1;30m- tna(iCE)[0m
+ [1;30m          [0m
         [34m▄▄▄▄▄▄▄[0;1;34m▄[0;34m▄▄[0m
 [34m   ▄▄[0;1;34;44m▄▄▄███████▓[0;34m▓[0m
 [34m ▄[0;1;34;44m▄██████████[0;1;34;47m▓▓[0;1;34;44m▌[0;34m▌[0m
@@ -26,6 +26,4 @@ Write-Host '
 [37m [0;34m▐▄▄▄▄▄▄██[0;1;34;44m▀[0;34m▀▀ [0;37m▄[0;30;47m░[0;37;40m▓▄ [0;34;40m▀▀[0;1;34;44m▀[0;34m█▄▄▄▄▄▄▄  [0;37m▐  [0;34m▐[0;1;34;44m░[0m  ▐[30;47m░[0;37;40m▀▀ [0;34;40m▄█[0;34;44m [0;34;40m██▒ █[0;1;34;44m░[0m  ▄▄▄▄█[47m [0;34;47m░[0;30;47m░[0;37;40m▓▄▄▄▄▄ [0;34;40m▀▀▀▀▀▀▀▀[0m
                [37;40m░░[0m               [37;40m▀  [0;34;40m▀▀▀ [0;37;40m▀[0;30;47m▓[0m          [34;40m█[0;1;34;44m░[0m         ░░
  [1;30m───-─-─────-──── [0;1;37mD r e a m s c a p e [0;1;30m── ─[0m         [34m█[0;1;34;44m░[0;34m░[0m
-                                                   [34m█[0;1;34;44m▒[0;34m▒[0m
-[34m [0;1;30mWell, that''s pretty good for a 40 minutes logo..[0m
-[1;30m Don''t you think?  :)[0m'
+                                                   [34m█[0;1;34;44m▒[0;34m▒[0m'

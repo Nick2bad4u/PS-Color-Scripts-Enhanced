@@ -5,7 +5,7 @@
 # Source SHA-256: c793006da48df1ad7c59883306d10cb288633b84e313c596dd184139ffd3defb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-GANG.ANS by Strahd (SKANK); released in sknk0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gangrene
 # SAUCE Author: Strahd
 # SAUCE Group: SKANK
@@ -54,7 +54,7 @@ Write-Host '
 
 [34m▓▀[0;37m [0;34m▀[0;37m [0;34m▀[0m                                                                    [34m▀[0;37m [0;34m▀[0;37m [0;34m▀▓[0m
 [34m▓[0m                                                                              [34m▓[0m
-[34m▒[0m   [34mThis ansi goes to a board that im not eleeeeeeeet enough to get on!     [0m   [34m▒[0m
+[34m▒[0m   [34m                                                                        [0m   [34m▒[0m
 [34m▒[0m                                                                              [34m▒[0m
 [34m░[0m                                                                              [34m░[0m
 

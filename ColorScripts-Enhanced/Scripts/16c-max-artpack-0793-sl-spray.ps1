@@ -5,7 +5,7 @@
 # Source SHA-256: ced1217b30b6e57937065bd56184cfe25eceaea89078c9e3dd923479245b4d3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-SPRAY.ANS by Slinger (max_artpack_0793); released in max_artpack_0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -51,8 +51,8 @@ Write-Host '
                [1;35m·[0m     [35m·[0m     [35m·[0m         [35m·  [0;1;30m·  ·[0m       [1;30m▀▀▀[0;1;30;44m▄▄[0;34m████████████[0;1;30;44m▄▄[0;1;30m▀[0m
            [1;35m·[0m       [1;35m· [0;35m·  ·[0m      [35m·[0m                        [1;30m▀▀▀▀▀▀▀▀▀▀▀▀[0m
           [1mM [0;1;31mA S T E R S   O F [0;35m· [0;1;31mT H E [0;35m· [0;1mA [0;1;31mR T   E [0;1mX [0;1;31mP E R I E N C E[0m
-       [1;35m·  ·· · ·  [0;1m-=■=- [0;31mPromotional Logo by Slinger [0;1m-=■=-[0m
-[1m   [0;1;35m· ■  ·  · ·  ■  [0;35m·  [0;1m■- [0;31mof m/┤x Productions 1993 [0;1m-■[0m
+       [1;35m           [0;1m  ■   [0;31m                            [0;1m  ■  [0m
+[1m   [0;1;35m  ■          ■  [0;35m   [0;1m■  [0;31m     ┤                   [0;1m ■[0m
 [1m  [0;1;35m· · ■▄  ▄ ▄ ■·· · · [0;35m·   [0;1m---------------------[0m
 [1m  [0;1;35m·■·· ▄██[0;1;35;45m█[0m [1;35m▄■·· ·■· · [0;35m·   ·[0m     [35m·    ·[0m     [1;30m·[0m
 [1;30m  [0;1;35m·· ■▀█[0;1;35;45m█▓█[0;1;35m▀▀ · ···■  ·   [0;35m·  ·[0m     [35m·    [0;1;30m·[0m

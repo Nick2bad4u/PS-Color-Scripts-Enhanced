@@ -5,7 +5,7 @@
 # Source SHA-256: 4596b898e8bb0435880cb9cf74cab34c6c59b3d90163d5c8944b87c6278d1e8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-mtx.ans by Avg + Razghaul (crisis8); released in crisis8 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -33,6 +33,4 @@ Write-Host '
 [1;37;47m████▒[0m█▀▀▀█[1;47m░▓▓▓▄[0m▄  [33m▀[0;1;31;43m▀▓▓▓█[0;33m▄[0;37m   [0;33m▄[0;1;31;43m██▄█▀[0;33m▀[0;37m  ▄▓▓[0;1;37;47m▄[0m█▄▄▓▓ [1;32;42m░░▓▓[0;32m▄[0;37m▀[0;1;36;46m█[0;1;36;47m███  ▓▓░██████[0;1;36;46m██[0;1;36;47m▄[0m [32m▓▓▓▄▄[0;37m▀[0;1;36;47m▀[0;1;36;46m█[0m
 [1;37;47m██▀[0m▀[32m▄▄[0;1;32;42m░░[0m [1;47m ▓█████▄[0m▄  [33m▀[0;1;31;43m▀██[0;1;31;40m▄▄[0;1;31;43m▄█[0;1;31;47m███[0;1;31;43m▀[0;33m▀[0;37m  ▄[0;1;37;47m▄██▀[0m▀█[1;47m░░░[0m [1;32;42m░▓▓██[0;32m█[0;37m [0;1;36;46m█[0;1;36;47m██▀  ░░ [0;1;36;46m███[0;1;36;47m▀▀[0;1;36;46m████[0;1;36;47m▄[0m [1;32;42m ░░░░[0m [1;36;47m▀[0m
 [1;37;47m▀[0m▀[32m▄[0;1;32;42m▄▓▓▓[0;32m▀[0;37m▄[0;1;37;47m░████████[0m▄ [33m▀▄▄▀[0;1;31m▀[0;1;31;43m▀▀▀[0;1;31;40m▀[0;33m▀▄▄▀[0;37m  ▀▀▀ ▄[0;1;37;47m▄▓▓▓[0m [32m█[0;1;32;42m▓███▀[0m [1;36;47m▄[0;1;36;46m█[0;1;36;47m██[0;1;36;46m█[0;1;36;47m▄[0m▄▀▀[1;36;47m █[0;1;36;46m██[0;1;36;47m▄[0m▄▀[1;36;47m▀[0;1;36;46m███[0;1;36;47m▒[0m [1;32;42m░▓▓▓▄[0m
- [32m█[0;1;32;42m███▀[0;32m▀[0;37m▄[0;1;37;47m ▓█████████[0m [33m▄[0;1;31;43m▒█▒[0;33m▒[0;37m   [0;33m▒[0;1;31;43m▄█▒[0;33m▄[0;37m [0;33m▄[0;37m   ▒[0;1;37;47m▒████▒[0m [1;32;42m██▀[0;32m▀[0;37m▄[0;1;36;47m▄[0;1;36;46m██████[0;1;36;47m [0m▒ [1;32m▄[0;32m▄▄[0;37m▀▀▀[0;32m▄[0;1;32m▄[0m ▀▀██ [32m▀[0;1;32;42m▀██▒[0m
-
-thejointmadness begins.. avg and razghaul[0m'
+ [32m█[0;1;32;42m███▀[0;32m▀[0;37m▄[0;1;37;47m ▓█████████[0m [33m▄[0;1;31;43m▒█▒[0;33m▒[0;37m   [0;33m▒[0;1;31;43m▄█▒[0;33m▄[0;37m [0;33m▄[0;37m   ▒[0;1;37;47m▒████▒[0m [1;32;42m██▀[0;32m▀[0;37m▄[0;1;36;47m▄[0;1;36;46m██████[0;1;36;47m [0m▒ [1;32m▄[0;32m▄▄[0;37m▀▀▀[0;32m▄[0;1;32m▄[0m ▀▀██ [32m▀[0;1;32;42m▀██▒[0m'

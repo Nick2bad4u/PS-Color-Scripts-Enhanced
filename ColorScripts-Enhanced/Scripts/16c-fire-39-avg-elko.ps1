@@ -5,7 +5,7 @@
 # Source SHA-256: 1c2bb9438b3a5317a5caa12e4d6e15e5673d6d7895ce14a8d2a6f98ac666515d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-ELKO.ANS by Savage (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Elko's Sexier Brother
 # SAUCE Author: Savage
 # SAUCE Group: Fire
@@ -51,5 +51,4 @@ Write-Host '
 [1;34;46m▓▓[0;36m [0;1;34;44m▄[0;1;34;46m █▄▄█▀▀▄[0;36m  [0;1;34;45m ▓ [0;1;34;46m█ █▄▄█[0;34m▀[0;35m▄[0;35;46m█[0;35;40m▀[0;36;40m [0;1;30;40m▄[0;1;35;40m▄[0;1;35;47m▄[0;33m ▐[0;1;31;43m░[0;33m█[0;1;31;43m░░▒░░▒▒▒▓▓▓▓▓[0;1;31;40m▓▓▓▓▓[0;1;31;43m█[0;1;31;47m█▓▓▓░[0;33m▓ [0;1;35;47m ▄▄▄[0;1;30;40m [0;36m■[0;1;30m▐[0;1;30;46m■░[0;1;32;46m [0;1;30;46m·[0;32m [0;36m▄[0;1;32;42m▄████[0;1;32;40m█[0m
 [1;34;45m ▀[0;1;34;44m▄[0;1;34;45m ▀[0;1;34;46m▄▄▄▄█[0;1;34;44m▀[0;36m [0;34m▒[0;35m▐[0;1;34;45m▓ █ █[0;1;34;46m▄▄█[0;34m▀[0;35m▓▀[0;36m  [0;33m▄[0;1;35;47m▄▄▄[0;33m [0;1;30m▐[0;1;31;43m░░▒░▒▒▒▓▓▓▓[0;1;31;40m▓▓▓[0;1;31;47m▓▓▓[0;1;31;43m█[0;1;31;47m███[0;1;31;43m██[0;1;31;47m▓▓▓[0;33m█ [0;1;35;47m▀▀ ▄▄[0;33m▄[0;1;30m [0;1;30;46m▓▄▄[0;1;30;40m▌[0;36m▐[0;1;32m▓[0;1;32;46m▀ ▄[0;1;32;42m██▀[0m
 [35;44m■▀[0;1;34;45m ▀ ▄▄[0;1;34;44m█▀ [0;36m [0;34m█[0;36m [0;1;34;45m  [0;1;34;44m█[0;1;34;45m▄█▄▀[0;1;34;44m▀[0;34m▀[0;35m▒[0;36m  [0;30;43m▀[0;1;35;47m■ ▄▄▄[0;1;30;40m▌[0;33m [0;1;31;43m▒░▒▒▒▓▓▓[0;1;31;40m▓▓[0;1;31;43m▓[0;1;31;47m▄[0;1;31;43m██████[0;1;31;47m███[0;1;31;43m███[0;1;31;47m█▓[0;1;31;43m▌[0;33m▌[0;1;35m▐[0;1;35;47m█▀▀ ■▄[0;33m▄[0;1;30m ▀[0;32m [0;1;32;46m   [0;1;32;40m▓▀[0;36m▀[0m
-[1;30mavg_[0m
-             [1;30mElko VS the guy they told Elko not to worry about.[0m'
+[1;30mavg_[0m'

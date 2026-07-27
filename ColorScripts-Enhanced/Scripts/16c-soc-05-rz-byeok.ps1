@@ -5,7 +5,7 @@
 # Source SHA-256: cb7b3b3667aa5cdfc3b6bb63fa18e0e90731a0dcbd45e815b58cb90149b9c9ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZ-BYEOK.ANS by rzarector (society); released in soc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: organized kaos!
 # SAUCE Author: rzarector
 # SAUCE Group: society
@@ -29,13 +29,8 @@ Write-Host '
 [33;40m░░░▒▒░░ [0;37;40m  [0;35;40m░ [0;30;45m▓[0;35;40m░▓[0;1;35;40m░[0;35m▓[0;1;35m▒▒[0;35m▌ [0;1;30m   [0;35m▐[0;30;45m░[0;35;40m▓░[0;30;45m▓[0;35;40m░[0m
 [32;40m-------------[0;37;40m [0;35;40m░[0;30;45m▓[0;35;40m░▓[0;1;35;40m░[0;35m▓░[0;30;45m▓[0;1;30;40m░ [0;35m ░[0;30;45m▓[0;37;40m [0;32;40m---[0;37;40m organized kaos /2[0;32;40m -->> /[0m
 [33;40m  [0m               [35;40m░[0;30;45m▓[0;35;40m▓[0;1;35;40m░░░[0;1;30;40m [0;1;35;40m░[0m
-[34m  [0;1;34mex-whq:[0;34m force[0m    [35m▒[0m       [36msystem operator: [0;1;36mkrisis[0m
-[34m  optix, xpress,  [0;37m [0;35m░[0;1;35m [0m
-  [34mdark sorrow.  [0;36m   [0;35m░[0;37m [0;36m sadly, this great board has died. The whole Australian[0m
-[34m  [0;1;34mex-ahq:[0;34m awe,    [0m    [36mbbs scene will soon disappear with it.[0;37m [0;36mWhy is was taken[0m
-[37m  [0;34mblade, cia, sik,[0;37m [0;35m░[0;37m  [0;36mdown? [0m
-[37m  [0;34mexpose, fusion,  [0m
-[37m  [0;34mnerp, department 38, black maiden, illness, xisit,[0;37m [0;34mskyjump team, demesne,[0m
-[37m  [0;34msociety, morph.[0m
-[37m  [0;1;34mex-distro:[0m [34mblender, demise, core.[0m
-[37m  [0;1;34mex-member:[0m [34mice[0m'
+[34m  [0;1;34m       [0;34m      [0m    [35m▒[0m       [36m                 [0;1;36m      [0m
+[34m                  [0;37m [0;35m░[0;1;35m [0m
+  [34m              [0;36m   [0;35m░[0;37m [0;36m                                                       [0m
+[34m  [0;1;34m       [0;34m         [0m    [36m                                      [0;37m [0;36m                [0m
+[37m  [0;34m                [0;37m [0;35m░[0;37m  [0;36m      [0m'

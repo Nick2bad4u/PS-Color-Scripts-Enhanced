@@ -5,7 +5,7 @@
 # Source SHA-256: 0691fd45cb0a3692f4c688c91ee937543866ebfcf992d0c09b1a032cbef7a877
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TF-TOTAL.ANS by twisted foo (impact); released in impact07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: total chaos preshuttle
 # SAUCE Author: twisted foo
 # SAUCE Group: impact
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                              ▄▄█▄██[1;30;47m([0;1;37;47mauthwhore[0;1;30;47m)[0;30;47m:[0;37;40m► twisted foo[0m
+                                              ▄▄█▄██[1;30;47m [0;1;37;47m         [0;1;30;47m [0;30;47m [0;37;40m►            [0m
                                                  [37;40m▒[0m      [37;40m▀[0m
 
                                        [1;30;40m         [0m
@@ -34,5 +34,5 @@ Write-Host '
 [37;40m      [0;34;40m █[0;1;34;44m█▄[0;34m▄  ▄▄[0;1;34;44m▄██▀▀▀▄████▌[0;34m▌[0;31m▓[0;34m▐[0;1;34;44m█▀░[0;34m [0;31m█▄▄[0;34m █▄ ▀▀[0;1;34;44m▀▀▀[0;34m▀ ▀▀▀▀[0;1;34;44m▀▀▀▀[0;34m▌▀▀▀[0;31m ▄▄▄[0;1;31;41m▄▄[0;31m█[0m
 [37m     [0;34m░[0;30;44m▓[0;34;40m ▀▀[0;1;34;44m■[0;34m███▀▀▀▀ [0;31m▄[0;34m ▀[0;1;34;44m▀▀▀[0;34m▀▀▀  ▀ [0;31m▄▄[0;1;31;41m ▀[0;31m█▄▄▄▄▓▀[0m   [31m▀▓▀▀▀[0;34m  [0;31m▄▄▄▄▄[0;1;31;41m▄▄▄████▓[0;31m▌[0m
                 [31m▀▀▀[0;1;31;41m▀[0;31m█▄▄▄▄[0;37m  t o t a l    c h a o s[0;31m ▀▀▀▀[0;1;31;41m▀▀▀▀[0;31m▀▀▀▀▓▀▀▀▀[0m
-                   [31m▓[0m                                [37m([0;1;37mtwisted foo[0m)impact
+                   [31m▓[0m                                [37m [0;1;37m           [0m       
                    [31m░[0m'

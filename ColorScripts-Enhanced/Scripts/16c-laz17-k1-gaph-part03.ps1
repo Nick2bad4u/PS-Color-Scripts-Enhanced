@@ -5,7 +5,7 @@
 # Source SHA-256: 1d8274a3067ee9dceff5217ba623d52cc89d9a82b97e0d139ba0cfb907e15723
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: k1-gaph.ans by knocturnal (lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Pharcyde
 # SAUCE Author: knocturnal
 # SAUCE Group: lazarus
@@ -45,6 +45,6 @@ Write-Host '
              [31m▀■▄▄[0;1;30m ▀[0m▀▒▒▒[1;30m▌[0m [31m█  [0m        [31m░▄▄[0m         [31m▄▄▀▒▄▄▄▄▄▄▄[0;1;30m ▀▒[0m▒▒[1;30m▌[0;31m▐▌[0m
                  [31m▀▀█[0;1;30m [0m░░ [31m█▌▒▒▒▒▒▒▒▒▀▀▀▀ ▒▒▒▒▒▒▒▀▀[0m           [31m▀▓[0;37m [0;1;30m▐[0m░ [31m▐▌k1[0m
                 [31m░[0;37m [0;31m░░▒▄▄▄█[0;1;30m [0m                                 [31m ▐▌[0;37m [0;1;30m▀[0m [31m▓[0m
-                             [37mtelnet: [0;1;37mbbs[0m.[1mpharcyde[0m.[1morg[0m        [31m▓▓▓▓▓[0m
-                              [37msysop: access denied[0m
+                             [37m        [0;1;37m   [0m [1m        [0m [1m   [0m        [31m▓▓▓▓▓[0m
+                              [37m                    [0m
 [30m█[0m'

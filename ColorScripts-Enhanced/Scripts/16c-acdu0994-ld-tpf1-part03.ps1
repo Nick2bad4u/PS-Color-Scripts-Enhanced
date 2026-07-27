@@ -5,7 +5,7 @@
 # Source SHA-256: e85ecbcced60600851226ce6147a2f82b016844c80f01802b28fd6c401ff0917
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-TPF1.ANS by Lord Jazz (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Phoenix Foundation
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -29,35 +29,35 @@ Write-Host '
                [31m▀■[0m     [31m█ ▒[0m                        [31m▒[0m           [31m░    ▀▄ ▄[0;1;31m▒[0;31m▄[0;1;31;41m░[0;31m▓▀[0m
                       [31m▓[0m                          [31m░[0m                  [31m■  ▄▀[0;1;31;41m▒[0;31m▀▄[0m
                       [31m▒[0m                                                  [31m▓  ■[0m
-                      [31m░[0m      [1;31m·  T[0;31mhe [0;1;31mP[0;31mhoenix [0;1;31mF[0;31moundation  [0;1;31m·[0m                [31m▒[0m
+                      [31m░[0m      [1;31m    [0;31m   [0;1;31m [0;31m       [0;1;31m [0;31m           [0;1;31m [0m                [31m▒[0m
                                                                          [31m░[0m
-                                      [1;31mO[0;31mperators :[0m
+                                      [1;31m [0;31m          [0m
 
-                                       [1;30mS: SCi-Fi[0m
-                                 [1;30mRemote: Sledge Hammer[0m
+                                       [1;30m         [0m
+                                 [1;30m                     [0m
 
-                                        [1;31mN[0;31modes :[0m
+                                        [1;31m [0;31m      [0m
 
                                 [1;30m714-669-0558, 28.8v.fc[0m
-                               [1;30m714-pri-vate 14.4v.32bis[0m
+                               [1;30m                        [0m
 
-                                    [1;31mA[0;31mffiliations :[0m
+                                    [1;31m [0;31m             [0m
 
-                                 [1;30mUC/Random Dist. Site[0m
+                                 [1;30m                    [0m
 
-                                  [1;31mB[0;31moard [0;1;31mI[0;31mnformation :[0m
+                                  [1;31m [0;31m     [0;1;31m [0;31m            [0m
 
-                [1;30mGames,Apps,Utils,Consoles,Art,Mags,Coding, and h/p/c/v[0m
-                                [1;30m2.2gigs, plus 3x cd-rom[0m
-                       [1;30m0-day consoles, 0-1 games and apps/utils[0m
-                                [1;30mPentium-90 under Novell[0m
+                [1;30m                                                      [0m
+                                [1;30m                       [0m
+                       [1;30m                                        [0m
+                                [1;30m                       [0m
 
-                                       [1;31mR[0;31munning :[0m               [31m░[0m
+                                       [1;31m [0;31m        [0m               [31m░[0m
                                                               [31m▄▒ ▄■[0m
-                            [1;30mCelerity/Alacrity 2.01b Custom   [0;31m▒▄[0;1;31;41m▓[0;31m▄[0m
+                            [1;30m                                 [0;31m▒▄[0;1;31;41m▓[0;31m▄[0m
                                                            [31m▀▀▓ [0;1;31;41m░[0;31m▀▓▀▀[0m
 [1;30m--- [0;1;37mA[0mC[1;30miD [0;1;37mP[0mro[1;30mductions ----------------------------------------- [0;31m█ ▒ [0;1;30m--- [0;1;37m1[0m9[1;30m94 ---[0m
-[1;30m    [0m100% Original           [1;30m··· Ansi :: Lord Jazz <[0;1;31mA[0;31mCiD[0;1;30m> ··    [0;31m▓[0m
+[1;30m    [0m                        [1;30m                       [0;1;31m [0;31m   [0;1;30m        [0;31m▓[0m
                                                       [31m░[0m        [31m▒[0m
                                                   [1;31m▀ [0;31m▄ ▒  ▄[0m     [31m░[0m
                                                   [1;31m▄▒▄[0;1;31;41m░[0;31m▓▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 0dc5d6c2ffd2b47192a497cf17b5dc1119e4bd4d58ad1ff505773cc1a516bd5f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKN-MD.ANS by Skin 972 (pang03); released in pang03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -29,4 +29,4 @@ Write-Host '
                         [35m▀▀[0;1;30;45m░▀[0;35m█[0;1;30;45m▀▀[0;35m▄  ▀[0;1;30;45m▀▀▓▀[0;35m▀▀▀ [0;34m▀[0;37m [0;35m█[0;1;30;45m███▄[0;35m█▄▄█████[0;1;30;45m▀▓▀▀░[0;35m▀▀[0m
                               [1;30m [0m           [34m▀[0;37m [0;35m▐[0;1;30;45m░▓▀░[0;35m██▀▀▀   ▐▀▀[0m
                               [1;30m [0m                [1;30m [0m
-          [1;30m                    ─ [0;1;35mM[0;35mid[0;1;35mN[0;35migh[0;1;35mT[0;35m·[0;1;35mD[0;35mr[0;1;35mE[0;35ma[0;1;35mM[0;1;30m ─         [0m'
+          [1;30m                    ─ [0;1;35m [0;35m  [0;1;35m [0;35m   [0;1;35m [0;35m [0;1;35m [0;35m [0;1;35m [0;35m [0;1;35m [0;1;30m ─         [0m'

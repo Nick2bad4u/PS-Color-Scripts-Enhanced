@@ -5,7 +5,7 @@
 # Source SHA-256: 84b35a63e574c78c13b501bbc6962aca0fdfaa69b2c122a3dc0adc3e25af1221
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GMP-JAZ.ANS by Grump (fORCE); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Global Domination
 # SAUCE Author: Grump
 # SAUCE Group: fORCE
@@ -36,8 +36,4 @@ Write-Host '
 [1;30m█▌[0m                                                [30;42m▀[0;1;32;42m▄▄[0;1;32;40m▌[0;1;37;40m■▄   [0;1;32;40m▀█[0;1;32;42m▄████▄▄[0;32m█[0;1;32;42m███[0;1;32;40m███ [0;1;37;40m▐███[0m
 [1;30;40m██▄[0m                                              [30;42m▌[0;1;32;42m▐[0;1;32;40m███▄▄  ▄▄███[0;1;32;42m▀[0;1;32;40m██████[0;1;32;42m▄██[0;1;32;40m██▌ [0;1;37;40m███[0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀  ▀    ▀[0m       [1;30;40m▀   [0;1;30;42m [0;1;32;40m███████████[0;1;32;42m▀[0;1;32;40m█[0;1;32;42m▄[0;1;32;40m██[0;1;32;42m▀▀▀▀▀[0;32m█[0;1;32m██▌ [0;1;37m██[0m
-[1m███████████████████████████████████████████████████▄▄▄▄▄▄▄▄   [0;32m▀▄▄▄▄▄▄▄▄▄█[0;1;32;42m░▒▓[0m  [1;37;40m█[0m
-[1;30mYeah this sure isn''t my best ansi ever, sorry but I havn''t drawn an ansi in over[0m
-[1;30m3 months so I have REALY lost the skill to a large degree. Year 12 just takes it[0m
-[1;30moutta you. Hope Warhammer finds it to be good enough for his choice System.[0m
-[1;30mIf you want a VGA done, email grump@stevie.powerup.com.au and I*WILL*do it 4 ya.[0m'
+[1m███████████████████████████████████████████████████▄▄▄▄▄▄▄▄   [0;32m▀▄▄▄▄▄▄▄▄▄█[0;1;32;42m░▒▓[0m  [1;37;40m█[0m'

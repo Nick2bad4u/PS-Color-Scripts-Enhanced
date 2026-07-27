@@ -5,7 +5,7 @@
 # Source SHA-256: eb4a604619ed3dd338b1185e73f4f5b2c517c78469bf762088d615018b6f2183
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-IS.ANS by WatOr (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Illusionary Summit
 # SAUCE Author: WatOr
 # SAUCE Group: Toon
@@ -33,7 +33,7 @@ Write-Host '
      [1;30m▀▀▀██▄[0m [1;30m▀▀▀▀[0m
 
 
-                    [1;30m- someone PLEASE teach me backgrounds? -[0m
+                    [1;30m                                        [0m
 
 
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀

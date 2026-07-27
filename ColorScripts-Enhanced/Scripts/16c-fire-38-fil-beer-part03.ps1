@@ -5,7 +5,7 @@
 # Source SHA-256: b053bffa36face7d03917aaeb670f648da9de5987e08feb07b1fbe3b9108ce90
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-BEER.ANS by filth (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ROCK THE 40 oz.
 # SAUCE Author: filth
 # SAUCE Group: FiRE
@@ -45,7 +45,7 @@ Write-Host '
 [37m  [0;34m█[0;1;34;44m░░[0;34m█[0m     [34m▄[0;1;34;44m░░▄[0;34m█▄[0m            [1;32msysop:[0m [1;32mpaulie420beers[0m             [34m▄█[0;1;34;44m▄░░[0;34m▄[0m     [34m█[0;1;34;44m░░[0;34m█[0m
 [37m [0;34m░[0;1;34;44m▓▓[0;34m█▌[0;37m  [0;34m▄▄▀▀▀▀[0;1;34;44m ▀[0;34m█[0m                                              [34m█[0;1;34;44m■▀[0;34m▀▀▀▀▄▄[0;37m  [0;34m▐█[0;1;34;44m▓▓[0;34m░[0m
 [37m [0;1;34;44m▐[0;1;34;40m███[0;1;34;44m■▄[0;34m▀▀[0m            [1;32mFSXnet ARAKnet DOVEnet RETROnet WWIVnet[0m           [34m▀▀[0;1;34;44m▄░[0;1;34;40m███[0;1;34;44m▌[0m
- [1;34;44m░▀▀[0;34m▀▀[0m                  [1;32mZEROnet FIDOnet WEEDnet SPOOKnet[0m                  [34m▀▀[0;1;34;44m▀▀ [0m
+ [1;34;44m░▀▀[0;34m▀▀[0m                  [1;32m                                [0m                  [34m▀▀[0;1;34;44m▀▀ [0m
 
-               [1;30mthis ANSinet is brought to you by FiLTHnet of FiREnet[0m
+               [1;30m                                                     [0m
                                   [1;30m▲[0m [1;30m2 O 2 3[0m [1;30m▲[0m'

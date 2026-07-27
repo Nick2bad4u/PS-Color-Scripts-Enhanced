@@ -5,7 +5,7 @@
 # Source SHA-256: 1856ef9bb1a2f575e213fa0795b117bc823015c7383ce00489727aa5f39dca9d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-COL4.ANS by {YBERPUNCh (RiB); released in rib-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: {YBERPUNCh
 # SAUCE Group: RiB
 # SAUCE Date: 19971210
@@ -49,11 +49,10 @@ Write-Host '
 [37m [0;1;30m▀[0;1;30;44m▄[0;34m█▄▄[0m     [1;30m▐[0;34m█[0;1;34;44m{Ph?![0;34m▀[0;1;30m▀[0;1;30;44m▄[0;34m█▄[0m    [37m   [0;1;30m▄[0;34m▄[0;1;30;44m▀ [0;34m█▀[0;1;30m▀[0;1;30;44m▄[0;34m██████[0;37m [0;1;30m▄[0;1;30;44m▀[0;34m█[0;1;30m▐[0;34m█▄[0;37m [0;1;30m▐[0;34m████▌█[0;1;30;44m▄[0;34m██████[0;37m [0m    [1;30m░░[0m  [1;30m▐[0;34m██▌[0m
     [1;30m▀[0;34m▀[0;1;30;44m▄[0;34m█▄▄▄[0;1;30;44m▀[0;34m██▀▀[0m     [1;30m▀[0;34m▀▀[0;1;30;44m▄[0;34m█▄[0;1;30;44m▀[0;34m█▀▀▀▀[0m      [1;30m▀[0;34m▀▀[0;1;30;44m▄[0;34m█[0;1;30;44m▀[0;34m█▀[0;37m  [0;1;30m▐[0;34m█▄[0;1;30;44m▀[0;34m█▀▀▀[0m     [34m▀▀[0;1;30;44m▄[0;34m█[0;37m          [0;1;30;44m▌[0;34m██[0m
 [1;30m░░[0m          [34m▌[0m                      [1;30m░░[0m              [34m▌[0m                         [34m▌[0m
-[1;34m      [0m  [1;34mg   [0;34m▀[0;1;34m a     n     g     s      t       a  [0m [1;34m h o u s e  download[0m      [34m▌[0m
+[1;34m      [0m  [1;34m    [0;34m▀[0;1;34m                                     [0m [1;34m                    [0m      [34m▌[0m
 
 
 [1;35;45m░▀▀▒▀▀▓██▓▓▀░▄[0;35m▀[0;1;35m▀[0;35m▀[0;1;35m▀[0;1;35;45m▀[0;1;35;40m██▄▄▄▄[0;1;35;45m▌[0;1;35;40m▄▄▄▄██[0;1;35;45m▀[0m▀▀[1m▀[0m [35m▀[0;1;35;45m░[0;35m█[0;1;35;45m▀[0;35m▄▄▄▄█[0;1;35;45m▓██▓▓▀[0;35m█████[0;1;35;45m░[0;35m█[0;1;35;45m▄[0;35m▀▀[0;1;35m▀[0;35m▄[0;1;30;45m▒░░[0;35m█[0;1;35;45m░▄▄[0;1;30;45m▀▄[0;35m█[0;1;35;45m{Ph?![0m
 [35m▄▄▄▄[0;1;35m▄[0;35m▀▀[0;1;35;45m░▀▀▌[0;35m█[0;1;35;45m█[0m [1mf[0;1;33m [0;1;37mo[0;1;33m [0;1;37mr :[0m [1;35mme[0m              [35m▐[0;1;35;45m░░[0;35m██[0;1;35;45m▄[0;35m▀▀▀▀▀▀▀▀▀[0;1;35m▀[0;35m▄▄▄▄▄▄█[0;1;35;45m▐[0;35m▐█▀[0;1;33m▄[0;35m▀██[0;1;35;45m▐█▓[0;1;30;45m▐▌[0;35m███▓▓[0m
 [35m▄▄[0;1;35m▄[0;35m▀▀█[0;1;35;45m░▀[0;35m▄▄ [0;1;35;45m▐[0;1;35;40m [0m [1msay_s :[0m [1;35mrib application[0m  [35m▄▄▄▄▄[0;1;35;45m░[0;35m▀▀▓▀▀▀▌▀▀▀[0;1;35m▀[0;35m▄▄▄▄[0;1;35m▄[0;35m░██[0;1;30;45m▒[0;35m▄█[0;1;35;45m░░[0;35m█[0;1;35;45m▀[0;1;30;45m █[0;35m█[0;1;35;45m▄[0;35m▌ ░░[0m
-[35m▀▀▀▀█[0;1;35;45m▄[0;35m▀▀[0;1;35m▀[0m  [35m▀[0;1;35m▀[0;35m [0;37m [0;35m▄[0;37m      [0;35m▄[0m    [35m▐▀▀▀▀▀▀▀▀▀[0;1;35;45m░▀░▄[0;35m▀▀[0;1;35m▀[0;35m▐[0;1;35;45m▀░▀▀▀▀▀▀▀▀▀[0;35m█[0;1;35;45m▄[0;35m▀▀▀[0;1;35m▀[0;1;30m [0;35m▀▀[0;1;30;45m░▐[0;35m█[0;1;35;45m░[0;1;30;45m  ▀[0;35m█[0;1;35;45m▐[0;1;35;40m▌  [0m
-'
+[35m▀▀▀▀█[0;1;35;45m▄[0;35m▀▀[0;1;35m▀[0m  [35m▀[0;1;35m▀[0;35m [0;37m [0;35m▄[0;37m      [0;35m▄[0m    [35m▐▀▀▀▀▀▀▀▀▀[0;1;35;45m░▀░▄[0;35m▀▀[0;1;35m▀[0;35m▐[0;1;35;45m▀░▀▀▀▀▀▀▀▀▀[0;35m█[0;1;35;45m▄[0;35m▀▀▀[0;1;35m▀[0;1;30m [0;35m▀▀[0;1;30;45m░▐[0;35m█[0;1;35;45m░[0;1;30;45m  ▀[0;35m█[0;1;35;45m▐[0;1;35;40m▌  [0m'

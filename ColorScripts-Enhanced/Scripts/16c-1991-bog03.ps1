@@ -5,7 +5,7 @@
 # Source SHA-256: ceda165938452d32824ffbc90952f6018cde7b13f49e91ca49a11961b3c68d8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BOG03.ANS by Frozen Tormentor (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ Write-Host '
 [1;35;47m [0m█[1;30m█[0m█[30;47m■ ■ ■ [0;1;33;47m■ [0;30;47m■ ■[0;1;30;40m▌  [0;1;35;40m▀[0;1;35;45m▄[0;35m█[0;1;30;45m▀[0;1;30;40m▄▄ [0;1;35;40m█[0;1;30;45m▐ [0;35m█[0;1;30m█   [0;1;35m▄▄▄[0;1;35;45m▀▀▀[0;35m██[0;1;30;45m▄[0;1;30;40m▀  [0;1;35;40m▀[0;1;35;45m▄[0;35m██████████[0;1;35;45m▄[0;1;35;40m▀▀[0;1;35;45m▄[0;35m██████████[0;1;35;45m▄[0;1;35;40m▀[0m
 [1;35;47m [0m█[1;30m█[0m█[30;47m■ ■ ■ ■ ■ ■[0;1;30;40m▌    [0;1;35;40m▀[0;1;35;45m▄▄[0;35m█[0;1;30;45m▀[0;1;35;45m▌[0;1;30;45m▌[0;35m█[0;1;30;45m▐[0;1;35;45m▀▀▀▀[0;1;30;45m▄▄▄[0;1;30;40m▀▀▀▀▀[0m      [1;35;40m▀▀[0;1;35;45m▄▄▄▄▄▄[0;1;35;40m▀▀    ▀▀[0;1;35;45m▄▄▄▄▄▄[0;1;35;40m▀▀[0m
 [1;35;47m [0m█[1;30m█[0m█[47m          [0;40m█[0m        [1;35;40m▀▀[0;1;30;45m▐[0;35m█[0;1;30;45m▄[0;1;30;40m▀▀▀▀▀[0m
-                         [1;30;40m▀▀[0m          [34mAn [0;1;34mICE [0;34mCourtesy 13[0;1;30m/[0;34m07[0;1;30m/[0;34m91 [0;1;30m- Fro[0;34mzen Torm[0;1;34mento[0;1;37mr[0m'
+                         [1;30;40m▀▀[0m          [34m   [0;1;34m    [0;34m           [0;1;30m [0;34m  [0;1;30m [0;34m   [0;1;30m     [0;34m        [0;1;34m    [0;1;37m [0m'

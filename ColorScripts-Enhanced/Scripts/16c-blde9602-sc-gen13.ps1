@@ -5,7 +5,7 @@
 # Source SHA-256: 5acfc20bb84b6967de6f4e34c1e895d05858fb9ae44f200925c0f75f451dfcd8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-GEN13.ANS by subconsciousness (bladeproductions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: genonethree!stats
 # SAUCE Author: subconsciousness
 # SAUCE Group: bladeproductions
@@ -24,7 +24,7 @@ Write-Host '
      [1;34m▐██[0m [1m██████▓███▓[0;1;30m░[0;1;37m▄██[0;1;37;47m▓[0;1;37;40m▌▐[0;1;37;47m▓▓[0;1;37;40m██████[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m▌[0m
       [1;34m██▓▄[0;1;37m▀█████████[0;1;37;47m▓▓[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m▀[0m▄[1;47m▒[0;1;40m█▀[0;1;30;40m░[0;1;37;40m ▀██[0;1;37;47m▓▓▓[0;1;37;40m▓[0m           stats go in here kuma! or
       [1;34m▐████▄▄[0;1;37m▀▀█[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓▓▒[0;1;37;40m▀▀[0m [1;30m▄[0m▀[1;47m░▒[0;1;40m▓▄[0;1;42m▓[0;1;40m████[0;1;47m▒[0;1;40m▀[0m               where ever the funky
-       [1;34m██[0;1;34;47m▓[0;1;34;40m█████▄▄▄▄▄▄▓▄[0;1;30;40m▀▓▄▄[0m [1;34m▄[0;1;37m▀▀▀▀[0;1;34m▄▄▄[0;1;34;47m▓[0;1;34;40m▌[0m                 shit you want to
+       [1;34m██[0;1;34;47m▓[0;1;34;40m█████▄▄▄▄▄▄▓▄[0;1;30;40m▀▓▄▄[0m [1;34m▄[0;1;37m▀▀▀▀[0;1;34m▄▄▄[0;1;34;47m▓[0;1;34;40m▌[0m                                 
       [1;30m▄[0m [1;34;47m▓▓[0;1;34;40m██[0;1;34;47m▓[0;1;34;40m████▄▀▀████▄▄▄██▓▀█[0;1;34;47m█▓▓▒[0;1;34;40m▀[0m                   with this damn
       [1;30m▓▄ [0;1;34m▀[0;1;34;47m▓▓▓▓[0;1;34;40m█████▓▄  ▀▀▀▀▀▄▄██[0;1;34;47m▓▓[0;1;34;40m▀[0;1;30;40m [0;34m▄[0m                     [37m  ansi!?!?![0m
       [1;30m███▄[0m ▀[1;34;47m▒▓▓[0;1;34;40m█[0;1;34;47m▓[0;1;34;40m█████▄▄▄▄████▀▀[0m [1;30m▄▄[0;1;30;44m░▒[0m

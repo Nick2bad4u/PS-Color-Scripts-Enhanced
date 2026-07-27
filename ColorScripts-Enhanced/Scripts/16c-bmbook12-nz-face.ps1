@@ -5,7 +5,7 @@
 # Source SHA-256: 39b5130d21e3878371c5b269c8e1df1e68f81559ef660cd613f9133035c16d01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-FACE.ANS by noize (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hazard/2
 # SAUCE Author: noize
 # SAUCE Group: black maiden
@@ -40,5 +40,4 @@ Write-Host '
 [1;36;46m████████████[0;1;37;40m████[0;1;36;46m███[0;1;36;40m▌[0;33m▐███▓[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░   [0;37;40m      [0m                           [33;40m░[0;30;43m▓▓[0;33;40m░[0;30;43m▓[0;33;40m░░[0;30;43m▓[0;33;40m░[0;1;33;43m░░░░░[0m
 
 
-[31m░[0;30;41m▓[0;31;40m----[0;37;40m [0;31;40mface out of alita i - hazard/2 login-screen[0m
-       [31;40mfor avenger^bm^ms^fire[0m'
+[31m░[0;30;41m▓[0;31;40m    [0;37;40m [0;31;40m                                           [0m'

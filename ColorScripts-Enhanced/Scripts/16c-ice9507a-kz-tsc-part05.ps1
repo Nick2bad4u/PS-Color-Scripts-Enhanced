@@ -5,7 +5,7 @@
 # Source SHA-256: 8fda92747baca143bcb153e888da37998ddd0ea809192b934385895eaeac1e33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KZ-TSC.ICE by Kamikazee (ice9507a); released in ice9507a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 188-237
 # Columns: 1-80
 
@@ -58,5 +58,4 @@ Write-Host '
                                                       [33m▓[0m
               [33m▀[0m                                        [33m▒[0m
                                                         [33m░[0m
-          [33m▀[0m
-'
+          [33m▀[0m'

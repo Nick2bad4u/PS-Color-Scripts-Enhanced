@@ -5,7 +5,7 @@
 # Source SHA-256: 0269f304c468cc9434f6ea131b02719d4f08ebf827a31a961ffc9649248f531f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NB-POFT.ANS by Night Breed (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 145-191
 # Columns: 1-80
 
@@ -44,16 +44,11 @@ Write-Host '
               [1m    [0m       [1;30m  [0m
 
                  [1m■───[0m [1;30mP[0;1;37m [0;32me[0;1;37m [0;1;32mr[0;1;37m s i s t e n c e   o f   T [0;1;36mi[0;1;37m [0;36mm[0;1;37m [0;1;30me[0m [1;37m───■[0m
-              [1;36m   [0;1;37m│  [0;1;36m    [0;1;30m ·[0;32m∙[0;1;32m─[0;1;37m■[0;1;30m Sy[0;32msG[0;1;32mod[0;1;30m [0;1;37m:[0;1;30m [0;1;37mDarker[0;1;30m [0;1;36mI[0;36mma[0;1;30mge [0;1;37m■[0;1;36m─[0;36m∙[0;1;30m·[0;1;36m   [0m  [1;36m [0;1;37m │[0;1;36m        [0m
-            [1;30m [0m    [1;37m│  [0m  [1;30m ·[0;32m∙[0;1;32m─[0;1;37m■[0;1;30m Co[0;32mSy[0;1;32msG[0;1;37mod: Turin [TR[0;1;36miN[0;36miT[0;1;30mY][0m [1;37m■[0;1;36m─[0;36m∙[0;1;30m·[0m    [1;37m │[0m
-            [1;30m [0m    [1;37m│  [0m  [1;30m·[0;32m∙[0;1;32m─[0;1;37m■[0m [1;30mCo[0;32mSy[0;1;32msG[0;1;37mod: Nightbreed[0;1;30m [0;1;37m[[0;1;36mHa[0;36mvo[0;1;30mk] [0;1;37m■[0;1;36m─[0;36m∙[0;1;30m·[0m  [1;37m │[0m
-            [1;30m [0m    [1;37m│  [0;1;30m·[0;32m∙[0;1;32m─[0;1;37m■[0m [1;30mLo[0;32mok[0;1;32min[0;1;37mg for Nets and Dist.[0;1;30m [0;1;36mS[0;36mit[0;1;30mes [0;1;37m■[0;1;36m─[0;36m∙[0;1;30m·[0;1;37m │[0m
-            [1;30m [0m    [1;37m│  [0m  [1;30m ·[0;32m∙[0;1;32m─[0;1;37m■[0;1;30m No [0;32mN[0;1;32mew[0;1;30m [0;1;37mUser Password[0;1;30m [0;1;36m■[0;1;30m [0;36mN[0;1;30mUV [0;1;37m■[0;1;36m─[0;36m∙[0;1;30m· [0m   [1;37m│[0m
-                 [1m│  [0m    [1;30m·[0;32m∙[0;1;32m─[0;1;37m■[0m [1;30mRu[0;32mnn[0;1;32min[0;1;30mg [0;1;37mOblivion/2[0;1;30m [0;1;36m■[0;1;30m [0;36m16[0;1;30m.8 [0;1;37m■[0;1;36m─[0;36m∙[0;1;30m·[0m    [1;37m│[0m
+              [1;36m   [0;1;37m│  [0;1;36m    [0;1;30m  [0;32m [0;1;32m─[0;1;37m■[0;1;30m   [0;32m  [0;1;32m  [0;1;30m [0;1;37m [0;1;30m [0;1;37m      [0;1;30m [0;1;36m [0;36m  [0;1;30m   [0;1;37m■[0;1;36m─[0;36m [0;1;30m [0;1;36m   [0m  [1;36m [0;1;37m │[0;1;36m        [0m
+            [1;30m [0m    [1;37m│  [0m  [1;30m  [0;32m [0;1;32m─[0;1;37m■[0;1;30m   [0;32m  [0;1;32m  [0;1;37m             [0;1;36m  [0;36m  [0;1;30m  [0m [1;37m■[0;1;36m─[0;36m [0;1;30m [0m    [1;37m │[0m
+            [1;30m [0m    [1;37m│  [0m  [1;30m [0;32m [0;1;32m─[0;1;37m■[0m [1;30m  [0;32m  [0;1;32m  [0;1;37m              [0;1;30m [0;1;37m [0;1;36m  [0;36m  [0;1;30m   [0;1;37m■[0;1;36m─[0;36m [0;1;30m [0m  [1;37m │[0m
+            [1;30m [0m    [1;37m│  [0;1;30m [0;32m [0;1;32m─[0;1;37m■[0m [1;30m  [0;32m  [0;1;32m  [0;1;37m                    [0;1;30m [0;1;36m [0;36m  [0;1;30m   [0;1;37m■[0;1;36m─[0;36m [0;1;30m [0;1;37m │[0m
+            [1;30m [0m    [1;37m│  [0m  [1;30m  [0;32m [0;1;32m─[0;1;37m■[0;1;30m    [0;32m [0;1;32m  [0;1;30m [0;1;37m             [0;1;30m [0;1;36m■[0;1;30m [0;36m [0;1;30m   [0;1;37m■[0;1;36m─[0;36m [0;1;30m  [0m   [1;37m│[0m
+                 [1m│  [0m    [1;30m [0;32m [0;1;32m─[0;1;37m■[0m [1;30m  [0;32m  [0;1;32m  [0;1;30m  [0;1;37m          [0;1;30m [0;1;36m■[0;1;30m [0;36m  [0;1;30m   [0;1;37m■[0;1;36m─[0;36m [0;1;30m [0m    [1;37m│[0m
        [31m   [0m       [1;37m│  [0m     [1;30m·[0;32m∙[0;1;32m─[0;1;37m■[0m [1;30m7o[0;32m8∙[0;1;32m51[0;1;37m3∙4741 ■[0;1;30m [0;1;37mCa[0;1;36mll[0;1;30m [0;36mN[0;1;30mow [0;1;37m■[0;1;36m─[0;36m∙[0;1;30m·[0m     [1;37m│[0m
-       [31m   [0m       [1;37m■─────────────────────────────────────────────■[0m
-      [31m    [0m
-[1;30m      [0;31m     [0;1;30m                                                                     [0m
-      [31m     [0m
-      [31m     [0m
-      [31m      [0m'
+       [31m   [0m       [1;37m■─────────────────────────────────────────────■[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1f1765372b5f3131fc350acc702556a43beef254ba02ffd9cd3385266c1ce9c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-VPR.ANS by sir death (vapor); released in vpr0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: vapor promotional
 # SAUCE Author: sir death
 # SAUCE Group: vapor
@@ -16,8 +16,8 @@
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0m
-[1;30m█[0m     [1;30ms i r  d e a t h[0m        [1;30m█    for an ansi by me, email me on state of[0m     [1;30m█[0m
-[1;30m█[0m      [1;30m▄▄▄[0m            [1;30m▄▄[0m      [1;30m█    euphoria, fatal error darkside of hell,[0m     [1;30m█[0m
+[1;30m█[0m     [1;30m                [0m        [1;30m█                                           [0m     [1;30m█[0m
+[1;30m█[0m      [1;30m▄▄▄[0m            [1;30m▄▄[0m      [1;30m█                                           [0m     [1;30m█[0m
 [1;30m█   ▄█▀▀ ▀██▄[0m       [1;30m▄███▌[0m     [1;30m█[0m          [1;30mor any other board i am on.[0m           [1;30m█[0m
 [1;30m█  ▐█    ▀▀█▓▌   ▄▄▄▄ ▀██[0m     [1;30m█[0m                                                [1;30m█[0m
 [1;30m█   ▀█▄[0m     [1;30m▀  ▄█▀   ▀▄█▓▌    █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

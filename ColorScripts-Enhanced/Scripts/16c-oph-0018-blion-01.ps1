@@ -5,7 +5,7 @@
 # Source SHA-256: 1e19264cb42153e5e0beab6bb47eecbe5a13ea9e32005a032e79007a3a24032d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLION-01.ANS by bass lion (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 2]  []2  ^^[[[_]_ 0\_[[[[22_  \\[20
 # SAUCE Author: bass lion
 # SAUCE Date: 19960917
@@ -20,14 +20,4 @@ Write-Host '
 [1;34m    ▐█▒█████▓ [0;35m█▒   ██[0m     [35m██[0m     [35m█▒[0m       [35m█▒  █▒ ██ █▒■   █▄[0;1;34m▀███▒██▓▌[0m
      [1;34m▀███████ [0;35m█▒   ██ ▄█▀▀██[0m     [35m█▒[0m       [35m█▒  █▒ ██ █▒    ██ [0;1;34m██████▀[0m
        [1;34m▀▀▀▓██ [0;35m█░   █▀ █░  ██[0m     [35m▀░    ██ █░  █░ ██ █░    █▀[0;1;34m▄█▓▀▀▀[0m
-             [35m▀▀▀▀▀▀    ▀▀▀  ▀[0m      [35m▀▀▀▀▀   ▀▀  ▀▀▀  ▀ ▀▀▀▀[0m
-                        [35m· [0;1;34mpumpiⁿnⁿ da beat [0;35m·[0m
-
-
-
-
-[37m  extended: this was a logo (one of my first) for da club bbs, for which [0m
-            [37mthey never used because i never sent it to them.. [0m
-
-[37m [0m
-[37m  done: august 1995[0m'
+             [35m▀▀▀▀▀▀    ▀▀▀  ▀[0m      [35m▀▀▀▀▀   ▀▀  ▀▀▀  ▀ ▀▀▀▀[0m'

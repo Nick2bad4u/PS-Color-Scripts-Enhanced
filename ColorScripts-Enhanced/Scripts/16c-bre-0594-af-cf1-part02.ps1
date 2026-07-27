@@ -5,7 +5,7 @@
 # Source SHA-256: a7ea6acb1ad7bc048b7827f096c32bd22c0a29ae46d23994d1dd7fb7597971d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-CF1.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 38-80
 # Columns: 1-80
 
@@ -43,13 +43,13 @@ Write-Host '
        [33m▀▀████▄[0;1;33m▀[0;33m██▄▄▀██▀▐█ ▀█▀ ▀[0;1;33;43m░░[0;33m█▀[0;1;33m▐[0;1;33;43m░[0m [33m█ ▀███▀▄███▀   ▄█████▄▐[0;33;43m [0;33;40m█▐████▀▄███▄[0m
 
 
-                             [1;30;40m─[0;1;33;40mCl[0;33menc[0;1;30mhed Fist─[0m
+                             [1;30;40m─[0;1;33;40m  [0;33m   [0;1;30m        ─[0m
                              [1;30m─[0;1;33m(9[0;33m05[0;1;30m)819∙1208─[0m
-                  [1;30m─[0;1;33mSy[0;33ms: M[0;1;30maxx [Union/Dark/Lithium/KindRed─[0m
-                          [1;30m─[0;1;33mKi[0;33mndR[0;1;30med Mag Courier HQ─[0m
-                          [1;30m─[0;1;33mLi[0;33mthi[0;1;30mum Mag Courier HQ─[0m
-                            [1;30m─[0;1;33mDa[0;33mrk M[0;1;30member Board─[0m
-                            [1;30m─[0;1;33mUn[0;33mio[0;1;30mn Member Board─[0m
-                            [1;30m─[0;1;33mAr[0;33mt & M[0;1;30music ONLY─[0m
-                        [1;30m─[0;1;33mRu[0;33mnni[0;1;30mng AXiS BBS Software─[0m
+                  [1;30m─[0;1;33m  [0;33m    [0;1;30m                               ─[0m
+                          [1;30m─[0;1;33m  [0;33m   [0;1;30m                 ─[0m
+                          [1;30m─[0;1;33m  [0;33m   [0;1;30m                 ─[0m
+                            [1;30m─[0;1;33m  [0;33m    [0;1;30m           ─[0m
+                            [1;30m─[0;1;33m  [0;33m  [0;1;30m              ─[0m
+                            [1;30m─[0;1;33m  [0;33m     [0;1;30m         ─[0m
+                        [1;30m─[0;1;33m  [0;33m   [0;1;30m                    ─[0m
                              [1;30m─[0;1;33m14[0;33m4o[0;1;30mo v32 v42─[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 6eb7342ed9ced5e9b0a934c46f1bc10581e8150537c4c12a225bc63dfff0f3c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-PHOBI.ANS by phorce phed (leper society); released in ls-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: phobia
 # SAUCE Author: phorce phed
 # SAUCE Group: leper society
@@ -33,5 +33,5 @@ Write-Host '
 [1;35m▀▄  ▄[0;35m▀ [0;34m▀▓█▀▄ ▒ [0;1;35m▀▄ [0;36m░[0;35m▄[0;1;35m▀[0;30mpp[0;1;36;45m░[0;35m▄▄[0;1;35m▄▄▐░▀▄  ▄[0;35m▀ [0;34m■[0;1;36m▀ [0;1;31m▄▀ [0;1;35m▀▄[0;34m▀ [0;35m▄[0;1;35m▀ [0;1;36m▒▓[0;35m▄▄▄[0;1;35m▀ ▀▄ [0;34m▀[0;1;31m▄▀ [0;1;35m▀▄[0;34m▀▀[0;1;35m▄[0;35m▀ [0;34m█▌[0;1;35;45m▓[0;1;35;40m▄▄▄▐▌[0m
 [34m▄ [0;1;35m▀[0;35m▀  [0;34m▄█▀██ ▄ ▀[0;30mpp[0;1;35m▀[0;1;34m░ [0;34m▄█▄ ▄▄▄  ▄▄ [0;1;35m▀▀  [0;35m▀▀[0;1;31m▀[0;35m▀ [0;34m▄█▄ [0;1;35m▀[0;35m▀ [0;34m▄▄▄▄▄ ▄▄█▒ [0;1;35m▀[0;35m▀  [0;34m▄▄ [0;35m▀[0;1;35m▀ [0;34m▄█▓▄▄▄▄▄▄[0m
 [34m█▓▄▀ ▓█▒█ ██ █▄▀██▒▀▌█▀██▓██▄▀█▀ █▄███▓██▄██▀███▄██░▀███▄███▄██▒██▐██▀██▄██▀▄██[0m
-[30mgreets to[0;34m▀[0;30mthe old school.  ♦  triple-a: i give indie three months max[0m       [1;30mpp[0m
+[30m         [0;34m▀[0;30m                                                           [0m       [1;30m  [0m
                                                                            [1;30m[ls][0m'

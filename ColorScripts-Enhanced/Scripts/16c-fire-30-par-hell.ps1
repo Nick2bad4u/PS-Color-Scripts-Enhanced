@@ -5,7 +5,7 @@
 # Source SHA-256: 4f624f0f4ac35e90b7904c63a819bf95de93c69e672e3e732fa6039d7b619c03
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-HELL.ANS by Pariah (Fire); released in fire-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hellbound
 # SAUCE Author: Pariah
 # SAUCE Group: Fire
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-(c)[1mPariah [0m                 [31m                       [0;37m    [0;31m [0;37m [0;1;37mHellbound[0;31m [0;37m+o dark shadow[0m
+   [1m       [0m                 [31m                       [0;37m    [0;31m [0;37m [0;1;37m         [0;31m [0;37m              [0m
 
             [33m.[0m                      [31m [0;33m.[0m
           [31m, [0m                [37m  [0;1;30m   [0;31m ,[0;1;30m             [0m
@@ -28,7 +28,7 @@ Write-Host '
 [1;34m            [0m [31m$[0;1;31m$$$$$$[0;31m''[0m          [31m`7[0;1;31m$$$$$b[0;31m,`7[0;1;31m$$$[0;31m''[0m          [31m`7[0;1;31m$$$$$b[0;31m,[0;1;31m  [0m        [34m     [0m
 [1;34m            [0m [31m$[0;1;31m$$$$$[0;31m$[0;37m [0;1;34m          [0m  [31m`[0;1;31m$$$$$$[0;31m;[0;1;31m $$$[0m             [31m`[0;1;31m$$$$$$[0;31m;[0;1;31m [0m        [34m [0;1;31m    [0m
 [34m::[0;1;34m::         [0;31m~~[0;1;31m~~~[0;31m~"[0m              [31m)╜[0;1;31mⁿ"~[0;31m~~ ~[0;1;31m~~[0m [31m       [0m   [37m  [0;31m )╜[0;1;31mⁿ"~[0;31m~` [0;37m [0;1;31m      [0;1;34m  ::[0;34m::[0m
-[34m88[0;1;34m88[0m [34my[0;1;34myyyy[0;34myy[0;37m $$[0;1;37m$$$9[0m9 [34myy[0;1;34myyyyyyy[0;34my%''[0;37m,[0;1;37mg@8Ñ$$[0m$ [1m$$[0mÑ [34myy[0;1;34myyyyyyy[0;34my%`[0;37m,[0;1;37mg@8Ñ$$h[0m,[34m`%yy[0;1;34myyy[0;34my[0;37m [0;1;34m88[0;34m88[0m
+[34m  [0;1;34m  [0m [34m [0;1;34m    [0;34m  [0;37m   [0;1;37m    [0m  [34m  [0;1;34m       [0;34m   [0;37m [0;1;37m      [0m  [1m  [0m  [34m  [0;1;34m       [0;34m   [0;37m [0;1;37m       [0m [34m    [0;1;34m   [0;34m [0;37m [0;1;34m  [0;34m  [0m
 [34m$[0;1;34m$$$[0m [34m$[0;1;34m$$$$$[0;34m$[0;37m $[0;1;37m$$$$$$[0m [34m$[0;1;34m$$$$$$$$[0;34m$[0;37m ;[0;1;37m$$$$$$$$[0my[1m$$$[0m [34m$[0;1;34m$$$$$$$$[0;34m$[0;37m ;[0;1;37m$$$[0;1;36m$$[0;1;37m$$$$[0m; [34m$[0;1;34m$$$$[0;34m$[0;37m [0;1;34m$$$[0;34m$[0m
 [1;34m$$$$[0;34my[0;1;34m$$$$$$$[0m [1m$$$$$$$[0m [1;34m$$$$$$$$$$[0m [1;30m.[0m`[1mⁿ7$$$$$$$$$ [0;34m$[0;1;34m$$$$$$$$$[0;34mh,[0;37m`[0;1;37mⁿ7$$$$$$$ [0;1;34m$$$$$$[0;34my[0;1;34m$$$$[0m
 [1;34m$$$$$$$$$$$$[0m [1m$$$$$$$[0m [1;34m$$$[0;1;37m$$[0;1;34m$$$$$h[0;34m,[0;37m`)%[0;1;37my$$$$[0;1;36m$$[0;1;37m$$[0m,[34m`ⁿ[0;1;34m7$$$$P╜[0;34mⁿ`[0;37m_,d%[0;1;37my$$$$$[0m;[1m [0;1;34m$$$$$$$$$$$[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 916e698d64d5879afaffa58780602855fd2137c8fc5a8f5724fa4d09e2113565
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-TER06.ANS by Drakula (tsd-1); released in tsd-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 41-63
 # Columns: 1-80
 
@@ -26,8 +26,8 @@ Write-Host '
         [1;31m█[0m                    [1;31m▌[0m                                           [1;31m█[0m
         [1;31m▌[0m                               [31m▌[0m                                [1;31m▌[0m
                              [1;30mT [0;33mε [0;1;33mR R [0;1;37mΘ R [0;1;33mç Θ [0;33mR [0;1;30mP[0m
-           [1;30m■ Ru[0;33m∩∩''∩ u∩[0;1;33mdÆ prΘß[0;1;37mÆΘrd ■ $¥$Θp: LΘrD $Æ[0;1;33mtan ■ çΘ: DRÆ[0;33mKU[0;1;30mLÆ ■[0m
-               [1;30m■ 960[0;33m0-28k8 [0;1;33m■ 500 M[0;1;37meGz ■ PRO[0;1;33mG''z ■ D[0;33mεMΘz ■ Æ[0;1;30m∩z¡z ■[0m
+           [1;30m■   [0;33m       [0;1;33m       [0;1;37m     ■               [0;1;33m    ■        [0;33m  [0;1;30m   ■[0m
+               [1;30m■    [0;33m       [0;1;33m■      [0;1;37m    ■    [0;1;33m    ■  [0;33m     ■  [0;1;30m     ■[0m
                           [1;30m■ ∩um[0;33mßÆ: 3[0;1;33m2-[0;1;37m14-[0;1;33m4[0;33m376[0;1;30m77 ■[0m
                                [1;30m■ [0;33mF[0;1;33mRO[0;1;37mM 1[0;1;33m9:[0;33m30 [0;1;30m■[0m
 

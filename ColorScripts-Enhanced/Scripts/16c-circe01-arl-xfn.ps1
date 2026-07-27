@@ -5,7 +5,7 @@
 # Source SHA-256: 3b05e80843f038770b27133bfd752a52629231c51d8ecb62bc6ffd97ea81d6e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-XFN.ANS by Arlequin (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
@@ -23,7 +23,4 @@ Write-Host '
 [1;33mzzgggg[0;1;33;45m$[0;1;33;40m$$b [0;35m [0;1;33mj$[0;1;33;45m$[0;1;33;40m$b┌┌d$g [0;1;37;40m!$b[0m,[1;33m`"ⁿ└*Y$$b.[0m`Y[1m$$F[0mⁿⁿY[1m$$#%[0mgggg¬┐▬,.___j[1m$$$$$[0;1;33m `ⁿⁿY$$$F┘`[0m
 [1;33m`F±*╜ⁿ"`[0m▬[1m┌┌[0m▬[1;33m``''ⁿⁿ└*Y$$l[0m:$[1;47m$$[0;1;40m$$&@[0m%gggg[1m%@$$[0m!    l$[1m$$$$$$$$$$$$[0;1;47m$$$[0;1;40m$$$$[0;1;47m$[0m![1;33m ggP*ⁿ`[0m,▬[1mg[0m
 [1mbm[0m%#[1m&$$[0;30;47m$$[0;1;37;47m$$[0;1;37;40m$$$$$[0m@%z¬┐[1;33m`" [0;1;37mj$$[0m$ⁿⁿⁿⁿ[30;47m$$$[0;1;37;40m$$$$$[0m$b┌┌d[1m$[0;1;47mArl[0;1;40m╠[0m╝ⁿ°"~` `~"[1m°ⁿ╚$$[0;1;47m$$L[0m,[1;33m``"[0m [1md[0;1;47m$$[0;1;40m$[0m$
-`╝╝[1m╝╝╝╝╝$$╠╠╠[0m╠╝╝╝╝╝╝[1m╝╝╝╝╝╝[0m╝╝    ╝╝╝╝╝╝[1m╝╝╝╝╝╝╝╝[0m╝╝╝'' ╖ X ╖ F ╖ N [1m`╝╝╝╝╝╝╝╝╝╝╝╝╝''[0m
-[35m                                         [0m            [35m      [0m
-[35m                                                            [0m
-[35m                                                            [0m'
+`╝╝[1m╝╝╝╝╝$$╠╠╠[0m╠╝╝╝╝╝╝[1m╝╝╝╝╝╝[0m╝╝    ╝╝╝╝╝╝[1m╝╝╝╝╝╝╝╝[0m╝╝╝'' ╖ X ╖ F ╖ N [1m`╝╝╝╝╝╝╝╝╝╝╝╝╝''[0m'

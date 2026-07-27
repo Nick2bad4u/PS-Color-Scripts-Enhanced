@@ -5,7 +5,7 @@
 # Source SHA-256: b6b3cc8e3ef5058eb1acf76f07de7e2b8040976f0c84d51fce4a4d78027da02b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-MELLW.ANS by Spirit Of Rage + Lord Drakul + Tung Lo + Black Viper (brotherhood); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mellow
 # SAUCE Author: tl + ld + sor
 # SAUCE Group: brotherhood
@@ -37,8 +37,4 @@ Write-Host '
 [1;30;40m▓[0m  [1;33;47m▓▓▓[0m  [31m░[0m   [1;33;47m▓▓▓[0m [1;33;47m▓▓▓[0m     [1;33;47m▌▓█[0m [1;33;47m▓▓▓[0m     [1;33;47m▓██[0m [1;33;47m▓▓▓[0m     [1;33;47m▓██[0m [1;33;47m▓▓▓[0m     [1;33;47m▓▓▓[0m [1;33;47m▒▓▓[0m   [1;33m█[0m  [1;33;47m▓▓▓[0m  [1;30m█[0;1;30;47m▓[0m
 [1;30;40m▓[0m  [1;33m▐[0;1;33;47m█[0;1;33;40m█[0m▌ [31m░[0m   [1;33;47m█[0;1;33;40m█▓[0m [1;33;47m███[0m     [1;33;47m▌██[0m [1;33;47m███[0m     [1;33;47m███[0m [1;33;47m███[0m     [1;33;47m███[0m [1;33;47m███[0m     [1;33;47m███[0m [1;33;47m▓██[0m   [1;33m█[0m ▐[1;33;47m██[0;1;33;40m▌[0m  [1;30m▓[0m▒
 [1;30m▒[0m   [1;33m▀▓▓[0m▄    [1;33m▓▓▓[0m [1;33;47m▀▀[0;1;33;40m▓[0m  ▄[1;33m▄▄[0;1;33;47m█[0;1;33;40m█[0;1;33;47m▀[0m [1;33;47m▀█[0;1;33;40m█[0m  ▄[1;33m▄▄█[0;1;33;47m█▀[0m [1;33;47m▀█[0;1;33;40m█[0m  ▄[1;33m▄▄█[0;1;33;47m█▀[0m [1;33m▓▓[0;1;33;47m▀[0m  ▄[1;33m▄▄█[0;1;33;47m█▀[0m [1;33;47m▀█[0;1;33;40m█▄[0m▄ [1;33m█▄██▀[0m   [1;30m▒[0m░
-[33m..[0;1;33m% m e l l o w %[0;33m...................................................[0;1;33m+o zatchmo[0;33m..[0m
-
-[1;30moutlines by [0mtung lo [1;30mand[0m blackviper
-[1;30mface shading by [0mlord drakul
-[1;30mthe rest by [0mspirit of rage[0m'
+[33m..[0;1;33m% m e l l o w %[0;33m...................................................[0;1;33m+o zatchmo[0;33m..[0m'

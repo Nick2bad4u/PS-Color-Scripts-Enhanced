@@ -5,7 +5,7 @@
 # Source SHA-256: ed86690cb8be9666fd3d15307807dccce9005c64b135ee68f953d99fc833a736
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RY-MAID1.ANS by RoyalVoomit (Maiden); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Maiden Promo
 # SAUCE Author: RoyalVoomit
 # SAUCE Group: Maiden
@@ -23,5 +23,4 @@ Write-Host '
 [1;33;41m█[0;1;33m█▀▀█▓▓ [0;31m▐[0;1;31;41m▓█▌[0m  [1;31;41m█[0;1;31;47m▓[0;1;31;41m▌[0m  [1;31;41m▒▓▓[0m [1;31;41m▓█▌[0m   [1;31;41m▐█▓[0;1;31m▄▄[0;1;31;41m██[0;1;31;47m▓[0m [1;31;41m▐[0;1;31;47m▓[0;1;31;41m█[0m   [1;31;41m▐[0;1;31;47m█[0;1;31;41m▌[0m [31m▐[0;1;31;41m▀▀[0;31m▌    ▄▄▄█[0;1;31;41m▀▀█[0;1;31m▄▄  [0;1;31;41m▐[0;1;31;47m█▓[0m [1;33m▄▄████[0;1;33;41m██[0m
         [31m▓[0;1;31;41m▄▄[0;31m█  ███  █[0;1;31;41m░░[0m  [1;31m▀▀[0;1;31;41m█[0;1;31m▄[0;31m▄[0;31;41m [0;1;31;41m██[0m  [31m█[0;1;31;41m▀▀[0;31m▌ ▀▀█▄▄█[0;1;31;41m▀[0;31m█▄ ▀▀█▄▄█▀▀▀    ▀[0;31;41m [0;1;31;41m▀▓[0m [31m█[0;1;31;41m▀[0;31m█[0m
          [31m▀▀▀[0m                 [31m▀▀▀[0m            [31m▀▀▀▀[0m              [31m▄ ▀▀ ▀▀▀[0m
-                      [31mwe are maids working in the scene[0m         [31m■ .·[0m
-                                 [30mfuck you son[0m'
+                      [31m                                 [0m         [31m■   [0m'

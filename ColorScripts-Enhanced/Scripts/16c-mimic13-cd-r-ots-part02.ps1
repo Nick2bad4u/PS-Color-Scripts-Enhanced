@@ -5,7 +5,7 @@
 # Source SHA-256: 316abb82ec258f97281e07834259598c2979cd037c904ebae2800273b1174ae3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cd!r-ots.ans by Cat-Dog (mimic13); released in mimic13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 49-73
 # Columns: 1-80
 
@@ -28,9 +28,7 @@ Write-Host '
                 [35m:[0;37m [0;1;37m$$[0m       [32m`└@[0;1;32my@$$$$*┘[0;32m"`[0m    [1;34m`^""^`[0m
                                [32m`^""^`[0m
                  [37m [0;35m.[0m
-                    [35m` [0m   [35m.[0;37m      remorse - own that shit[0m
+                    [35m  [0m   [35m [0;37m                             [0m
 
 
-[37m────(cut mmkoy?)────────────────────────────────────────────────────────────────[0m
-[37m i wanted this to be a remorse guest, but i was unable to get to a computer in [0m
-[37mtime to ask or send it. heh. own that shit.[0m'
+[37m────(cut mmkoy?)────────────────────────────────────────────────────────────────[0m'

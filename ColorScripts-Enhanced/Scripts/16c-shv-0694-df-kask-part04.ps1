@@ -5,7 +5,7 @@
 # Source SHA-256: c3b29b8707cd16facb2ea14e7b00e3a1bf9054e6add551bcb8bfe6aeaa70e73b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DF-KASK.ANS by Darkfire (shv-0694); released in shv-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 128-168
 # Columns: 1-80
 
@@ -48,5 +48,4 @@ Write-Host '
 [1;30;40m   [0;1;30;47m█▓▒░ [0;1;37;47m░▒▓█[0m   [1;30;40m│   [0;1;37;40m⌂ [0;1;34;40m0-3 [0;34mDay [0;1;30mWarez [0;1;37m⌂ [0;1;30miMC Net [0;1;37m⌂ [0;1;30mH/P[0;34m/V/[0;1;34mA/C [0;1;37m⌂   [0;1;30m│    [0;1;37m█[0;1;37;47m█▓▒░ [0;1;30;47m░▒▓[0m
 [1;30;40m  [0;1;30;47m███▓▒░ [0;1;37;47m░▒▓█[0m  [1;30;40m│ [0;1;37;40m⌂ [0;1;34;40mGig[0;34m''s/[0;1;30mWarez[0;1;37m/[0;1;30mHacks[0;1;37m/[0;1;30mPhreaks[0;1;37m... [0;1;30mand Ka[0;34msk[0;1;34mits [0;1;37m⌂[0;1;30m│   [0;1;37m█[0;1;37;47m█▓▒░ [0;1;30;47m░▒▓██[0m
 [1;30;40m [0;1;30;47m█████▓▒░ [0;1;37;47m░▒▓█[0m [1;30;40m│[0m                                             [1;30;40m│  [0;1;37;40m██[0;1;37;47m▓▒░ [0;1;30;47m░▒▓████[0m
-[1;30;40m───────────────┴─────────────────────────────────────────────┴──────────────────[0m
-                            [1;31;40mA [0;31mD[0;1;30markfire [0;1;31m[[0;31mS[0;1;30mHIVE[0;31mR[0;1;31m] [0;1;30mAn[0;31ms[0;1;31mi[0m                          [1;30m·[0m'
+[1;30;40m───────────────┴─────────────────────────────────────────────┴──────────────────[0m'

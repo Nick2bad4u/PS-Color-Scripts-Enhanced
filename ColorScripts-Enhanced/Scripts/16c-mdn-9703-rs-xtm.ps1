@@ -5,7 +5,7 @@
 # Source SHA-256: e14649d74dce7690ddc271d58207fe0488b45857fc295a4d6c0ba6c4f272e39f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-XTM.ANS by rorshack (Maiden Brazil); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: xtreme!
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -33,6 +33,4 @@ Write-Host '
                [36m▀[0;1;36;46m ▀[0;1;37;40m██[0;1;37;46m▓[0;1;36;47m▓[0;1;36;46m▀▀▀▀▀▀▀[0;36m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
                  [36m▀██▀▀▀[0m
 
-                      [31m░░░ [0;1;30me [0;31m░[0;30;41m▓[0;31;40m▐[0;1;37;41mx[0;31m▌░[0;1;30m  t [0;31mr[0;1;30m [0;30;41m▓[0;31;40m░[0;1;30;40m [0;1;37;40me[0;1;30;40m ░[0;31m░░[0;1;30m  [0;1;31mm[0;1;30m  e [0;31m░[0;30;41m▓[0;31;40m░[0m
-
-                             [36mpull it to the extreme[0m'
+                      [31m░░░ [0;1;30me [0;31m░[0;30;41m▓[0;31;40m▐[0;1;37;41mx[0;31m▌░[0;1;30m  t [0;31mr[0;1;30m [0;30;41m▓[0;31;40m░[0;1;30;40m [0;1;37;40me[0;1;30;40m ░[0;31m░░[0;1;30m  [0;1;31mm[0;1;30m  e [0;31m░[0;30;41m▓[0;31;40m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ddc5d082c9ade93582bf51aae5addaaf69604882074f5cfccefaeb66a8230cab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ODB-ADDY.ANS by Ol' Dirty Bastard (Shaolin's Finest); released in shao0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shaolin's Finest Ad.
 # SAUCE Author: Ol' Dirty Bastard
 # SAUCE Group: Shaolin's Finest
@@ -36,5 +36,4 @@ Write-Host '
 [32;40m█▌▀▐█████[0;1;32;42m▀[0;32m▄▄▄[0;1;32m▄[0m [1;36m▄[0;36m▄▄[0;1;36;46m▀[0;36m████████▄[0;1;36m▐[0;1;36;46m▌[0;36m█[0;1;36;46m▀[0;36m██▄▄▄▄▄▄[0;1;36;46m▀[0;36m▄░▄█▀ [0;1;30m▀░▀░▀░▀[0m [33;45m███[0;33;40m▄[0m
 
 
-[1;30;40m--------------------------------------------------------------------------------[0m
-[1;30;40mjust a little advertisement for shaolin''s finest..[0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

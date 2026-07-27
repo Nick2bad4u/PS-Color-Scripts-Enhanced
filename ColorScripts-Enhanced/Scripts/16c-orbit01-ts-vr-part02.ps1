@@ -5,7 +5,7 @@
 # Source SHA-256: 932219177e735a60f8cd1231b8a66029be4cea0245927e3a92f2086719e299d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-VR.ANS by Tsunami Surge (orbit01); released in orbit01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-62
 # Columns: 1-80
 
@@ -18,7 +18,7 @@ Write-Host '
      [35;41m░░░░░[0m [35;41m░[0;31;40m▄   ▐[0;35;41m░░░░[0;31;40m▄▄▄ ▄[0;35;41m░░░░░[0;31;40m▀[0;35;41m░░░░░[0m [35;41m░░░░░[0m    [31;40m▀▀[0;35;41m░░░[0m [35;41m░░░░░[0m  [35;41m░░░░░[0m
      [35;41m▒▒▒▒▒[0m [35;41m▒▒▒[0;35;40m▄ ▐[0;35;41m▒▒▒▒▒[0;35;40m▀▄[0;35;41m▒▒▒▒▒[0;35;40m▀  [0;35;41m▒▒▒▒▒[0m [35;41m▒▒▒▒▒▒▒▒▒▒[0;35;40m▀▄[0;35;41m▒▒[0m [35;41m▒▒▒▒▒[0m  [35;41m▒▒▒▒▒[0m
      [35;41m▓▓▓▓▓[0m [35;41m▓▓▓▓▓[0;35;40m▄▀[0;35;41m▓▓[0;35;40m▀▄[0;35;41m▓▓▓▓▓[0;35;40m▀    [0;35;41m▓▓▓▓▓[0m [35;41m▓▓▓▓▓▓▓▓[0;35;40m▀▄[0;35;41m▓▓▓▓[0m [35;41m▓▓▓▓▓[0m  [35;41m▓▓▓▓▓[0m
-                   [1;37;40m"Now your playing with [0;1;34;40mPOWER[0;1;37;40m"[0m                 [1;37;40m▐[0;1;31;47m[[0;31;47mT[0;1;30;47msunami[0;31;47m''9[0;1;30;47m3[0;1;31;47m][0;1;30;40m▌[0m
+                   [1;37;40m                       [0;1;34;40m     [0;1;37;40m [0m                 [1;37;40m▐[0;1;31;47m [0;31;47m [0;1;30;47m      [0;31;47m  [0;1;30;47m [0;1;31;47m [0;1;30;40m▌[0m
 [1;31;40m┌─────────────────────────────────────────────────────────────────────────────┐[0m
 [1;31;40m│ ⌐ ⌐ ⌐ ⌐ ⌐ ⌐ ⌐ ⌐ ⌐ ⌐V⌐I⌐R⌐T⌐U⌐A⌐L⌐ ⌐R⌐E⌐A⌐L⌐I⌐T⌐Y⌐ ⌐B⌐B⌐S⌐ ⌐ ⌐ ⌐ ⌐ ⌐ ⌐ ⌐ ⌐ ⌐ [0;31m│[0m
 [1;31m│ [0;31m⌐Node 1 ⌐313⌐851⌐3613 ⌐ ⌐ ⌐ ⌐ ⌐ ⌐TAG⌐2.6d ⌐ ⌐ ⌐ ⌐ ⌐ ⌐Node 2 ⌐313⌐851⌐5443 ⌐ [0;35m│[0m

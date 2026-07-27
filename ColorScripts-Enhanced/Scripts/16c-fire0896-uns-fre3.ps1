@@ -5,7 +5,7 @@
 # Source SHA-256: effc83fbfc94c0d5e7494fd17226530cc3a5f19e834d1a40d1265ee546c6d8a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UNS-FRE3.ANS by Unsane (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fire Promotional Logo
 # SAUCE Author: Unsane
 # SAUCE Group: fire
@@ -30,8 +30,4 @@ Write-Host '
           [34m░[0;30;44m▓[0;37;44m [0;34;40m█████▌▒▐[0;37;40m [0;34;40m░[0;37;40m  [0;34;40m    ░[0;30;44m▓[0;34;40m███[0;37;44m ░[0;34;40m██[0;37;44m░[0;34;40m░[0;30;44m▓[0m       [34;40m    ▐███▌[0m        [34;40m▐███▌[0m
           [34;40m░[0;30;44m▓[0;37;44m  [0;34;40m█[0;37;44m [0;37;40m [0;34;40m  [0m       [34;40m   ░[0;30;44m▓[0;37;44m░[0;34;40m███[0;37;40m  [0;34;40m░[0;30;44m▓[0m             [34;40m ▀████▄▄▄▄▄▄▄███▀ [0m
             [34;40m   [0m                [34;40m   [0m                     [34;40m▀▀███▄▄▄▄      [0m
-          [1;34;40mfIRE [0;31m([0;1;31m1996[0;31m)[0;37m [0;1;37m░ [0;1;34mansi by: [0;34mu[0;1;34mn[0ms[1mane[0m \ [1;34mfIRE [0;31m([0;1;31m1996[0;31m)[0m       [34m▀▀▀▀     [0m
-
-          [1;31mgreets[0;31m: [0;37msplatt, rai, horrid nature, halaster, iodine, blatz[0m
-                  [37mlagomorph, radman, sinned, apox, tna, eclipse, mass[0m
-                  [37mmurderer, dieznyik, suicidal5, maestr0, FiRE, stuff[0m'
+          [1;34;40m     [0;31m [0;1;31m    [0;31m [0;37m [0;1;37m░ [0;1;34m         [0;34m [0;1;34m [0m [1m   [0m   [1;34m     [0;31m [0;1;31m    [0;31m [0m       [34m▀▀▀▀     [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 63215f87c20a8b676d0aae8e306c6e249bb682a9ebea582d7207ea71f1d15e91
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-CLOUD.ANS by mobb deep (caption%trick); released in trick01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: clouded
 # SAUCE Author: mobb deep
 # SAUCE Group: caption%trick
@@ -40,11 +40,4 @@ Write-Host '
      [34m▀▀▌[0;1;34m▀[0;34m                 [0m   [34m▀[0;1;34;44m▀▀▀▀▀[0;34m▀█[0;1;34m [0;34m▌▀[0;1;34m  [0;34m▄▄[0;1;34;44m▀ [0;34m▀▀[0;37m [0;34m▀▀▌█[0;1;34m█[0;34m▀[0;37m [0;34m▌▀▀[0;1;34;46m░░[0;1;34;44m [0m [34m▀▀[0;37m [0;34m▌▀▀█[0;1;34m [0;34m▄▄▄[0;1;34;44m▀[0;1;34;40m▄[0m [1;34mmd.[0m
 
 
---------------------------------------------------------------------------------
-yeah... i drew a crappy menu screen for my board ''clouded''.
-if you want something from me you can contact me at pookieguy@hotmail.com
-or call crooklyn at +32-11/27.30.00 and leave me a message...
-and if you draw something for clouded i''ll love you forever.[0m
-
-
-'
+--------------------------------------------------------------------------------[0m'

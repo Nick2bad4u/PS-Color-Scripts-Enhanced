@@ -5,7 +5,7 @@
 # Source SHA-256: 0857664b96fd13a54b9b7690af29d74f654258bfd28777c7b04b6793d952df64
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-ES.ANS by Integrity 06/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eternity's Salvation
 # SAUCE Author: Integrity 06/95
 # SAUCE Group: Eerie
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-                                                              [1meerie [integrity][0m
+                                                              [1m                 [0m
 
-[1;44m               [0;30;44mredheaded chicks are the coolest, fuck the rest.                [0m
+[1;44m               [0;30;44m                                                                [0m
 [34;40m███████████████████████████████████████████████████████████████████████████████[0m
 [34;44m                          [0;30;44mi n t e g r i t y   1 9 9 5                          [0m
 [30;44m                   [0;34;40m█████[0;34;44m [0;34;40m▓[0;34;44m [0;30;44m▌▄■▀  ▀■▄ [0;34;40m▓[0;30;44m■[0;34;40m▒[0;30;44m▄▄[0;34;40m▓[0;34;44m [0;34;40m██████████████[0;34;44m                     [0m

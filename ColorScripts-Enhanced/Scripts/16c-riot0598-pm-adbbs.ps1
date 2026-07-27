@@ -5,7 +5,7 @@
 # Source SHA-256: b3def0ed202c7435316c6c053335b20100bbd15310a7c455eb36a6a1f3e1210d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-ADBBS.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -18,13 +18,13 @@ Write-Host '
 [1;30;40m ▀[0;36m▀[0;1;30;46m▄▄▓▓▀▀▀[0;1;30;40m▄[0;1;30;44m▓[0;1;30;40m▄▄▄▄▄▄[0m   [34m [0m       [1;37madd bbs[0m   [1;30mM[0metal[1;30m E[0mdge              [1;30;44m▓▓[0;1;30;40m▀▀▀[0;1;30;44m▓▓[0;1;30;46m▄▄█▒░▄▄▐[0m░[30;47m▓[0m
 [1;37;40m¡pm![0m [1;30m▀▀▀▀▀▀▀▀[0m  [1;30m▀▀▀▀[0m                                                    [1;30m▀[0;1;30;46m▓▓[0;1;30;40m▀▀▀▀[0m
      [1;30m  [0m
-  [1mßß[0;1;35mS [0;1;37mÑ⌂[0;1;35mmε[0m              ~BN
-  [1;35mP[0;1;37mhºñ[0;1;35mε [0;1;37mÑûm[0;1;35mbετ[0m          ~PN
-  [1;35mSy[0;1;37msºp[0;1;35m Ñ⌂[0;1;37mmε[0m            ~SN
-  [1;35mß[0;1;37m⌂u[0;1;35mδ ταt[0;1;37mε[0m             ~BR
-  [1mSºƒ[0;1;35mtw⌂[0;1;37mτε[0m              ~SF
-  [1;35mStºτ[0;1;37m⌂g[0;1;35mε[0m               ~ST
-  [1m0th[0;1;35mετ I[0;1;37mñƒ[0;1;35mº[0m            ~IN
+  [1m  [0;1;35m  [0;1;37m ⌂[0;1;35m  [0m                 
+  [1;35m [0;1;37m   [0;1;35m  [0;1;37m   [0;1;35m   [0m             
+  [1;35m  [0;1;37m   [0;1;35m  ⌂[0;1;37m  [0m               
+  [1;35m [0;1;37m⌂ [0;1;35m     [0;1;37m [0m                
+  [1m   [0;1;35m  ⌂[0;1;37m  [0m                 
+  [1;35m    [0;1;37m⌂ [0;1;35m [0m                  
+  [1m   [0;1;35m    [0;1;37m  [0;1;35m [0m               
 
 
 

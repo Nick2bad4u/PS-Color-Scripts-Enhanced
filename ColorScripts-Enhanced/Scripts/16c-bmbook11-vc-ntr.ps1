@@ -5,7 +5,7 @@
 # Source SHA-256: 9961e7a3b26f5fe7b8ed1795fa60234cd0659e56b803997e4b3a9d32da474013
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC!NTR.ANS by VOiCE (BLACK MAiDEN); released in bmbook11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neutron logo
 # SAUCE Author: VOiCE
 # SAUCE Group: BLACK MAiDEN
@@ -37,15 +37,11 @@ Write-Host '
 
 [1;37m-──[[0m Speech... [1m]──────────────────────────────────────────────────────────────--[0m
 
-  Well, besides the usual lack of time, I have a little problem with my phone
-right now which doesn''t accept modem calls anymore. So I lack a bit the
-communication with the rest of the pals, but I hope to get that fixed soon.
+                                                                             
+                                                                       
+                                                                           
 
-  My regards go to our ex-member Rascal, who will live on in the spirit of Black
-Maiden :). Greetings go to the usual people who know me, and a huge kiss goes to
-Diane (on second thought, I rather give her the kiss in person than through
-ansi :))
-
-  Stay tuned,
-
-                                   -- voice!bm[0m'
+                                                                                
+                                                                                
+                                                                           
+ansi :))[0m'

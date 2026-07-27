@@ -5,7 +5,7 @@
 # Source SHA-256: 82fabf0167d97b7191e789af1f53c835194e7eaa98f861a4ae5ba18eafca778e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MOO_BLZ.ANS by moolok; released in sac-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -34,7 +34,4 @@ Write-Host '
   [1;36;44m▓[0;1;36;47m▓[0;1;37;40m█[0;1;36;44m▓[0;1;37;40m█[0m    [1m▀[0;1;36;47m▓▓[0;1;37;40m██[0m                   [1;36;44m▓[0;1;36;47m▓[0;1;37;40m█████[0;1;36;47m░▓[0;1;37;40m████████[0m                [1;36;44m▓[0;1;36;47m▓[0;1;37;40m███[0m  [1;36;44m▓[0m
    [1;36;44m▓[0;1;37;40m███[0m       [1;36;44m▓[0;1;37;40m█[0m                    [1;36;44m▓[0;1;36;47m▓[0;1;37;40m███[0;1;36;44m▓[0;1;36;47m▓[0;1;37;40m████████[0m                  [1;36;44m▓[0;1;36;47m▓[0;1;37;40m█[0m
    [1;36;44m▓[0;1;36;47m▓[0;1;37;40m█[0m         [1;36;44m▓[0;1;36;40m [0m                     [1;36;47m▓[0;1;37;40m█[0m   [1;36;44m▓[0;1;37;40m█[0m [1m▀█[0;1;36;44m▓[0;1;37;40m█[0m                    [1;36;44m▓[0;1;37;40m█[0m
-    [1;36;44m▓[0;1;37;40m█[0m                                 [1;36;47m▓[0m    [1;36;44m▓[0m    [1;36;44m▓[0m                     [1;36;44m▓[0m
-
- [1;36m♥ This is my second ANSI picture. It was hard to fit that long name into ♥[0m
-[1;36m ♥ 80 chars a line. Xmas time :D , cheers[0m'
+    [1;36;44m▓[0;1;37;40m█[0m                                 [1;36;47m▓[0m    [1;36;44m▓[0m    [1;36;44m▓[0m                     [1;36;44m▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1abf4f2afdc5ff20eabcb172919062905a3b8cafaf808859c024e598501ade49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HTF-PILE.ANS by Hanzo The Fiend (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 251-298
 # Columns: 1-80
 
@@ -50,10 +50,8 @@ Write-Host '
 [34m [0;31m▀[0;1;31;41m░░[0m [31m▀[0;1;31;41m▒[0m [31m▄[0;1;31;41m░[0;31m▀ [0;1;31m▐[0;1;31;43m░▓[0m  [1;31m▀[0;1;31;43m░▒▓[0m  [1;33m▀[0;1;33;43m▓▒[0m  [1;33m▀[0;1;33;43m▓[0;1;33m▄▀  ▐[0;1;33;43m▓▒▓▒[0;1;33m▌ [0;1;33;43m▓▒▓[0m  [1;34mS[0;34mir [0;1;34mL[0;34mancelot[0;31m: [0;34mKeep ''em cumming!!![0m
 [34m [0;1;31m▄ [0;31m▀[0;1;31;41m░[0;31m▄▄▀ ▀▀ [0;1;31;43m▓▓[0;1;31m▌   ▐[0;1;31;43m░▒[0m [1;33m▄  ▀[0;1;33;43m▓[0;1;33m▄▄▀ ▀▄▄▀  ▀[0;1;33;43m▓[0;1;33m█ ▐[0;1;33;43m▓▒[0;1;33m▌ [0;1;34mG[0;34malileo[0;31m: [0;34mecho y| deltree c:*.*[0m
 [34m  [0;1;31m▀▄▄▄▄▄▄▄▄[0;1;31;43m▓▓[0;1;31m█[0m     [1;31;43m▒▓[0;1;31m▌ [0;1;33m▀▄[0m          [1;33m▀▀▀▀ ▄[0;1;33;43m▓▒[0;1;33m▀  [0;1;34mH[0;34manzo [0;1;34mT[0;34mhe [0;1;34mF[0;34miend[0;31m: [0;34mWell, umm.......[0m
-                    [1;31m▀▀▄  [0;1;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [1;34mM[0;34mad [0;1;34mM[0;34man[0;31m: [0;34mGo take a shit, man!!![0m
-[34m    [0;1;34m▒[0;34m▀▄[0m         [34m▄[0m         [34m▄[0m            [34m▄[0m      [1;34mA[0;34mnd [0;1;34mE[0;34mverybody [0;1;34mE[0;34mlse[0;31m: [0;1;30mWhooo Hooo!![0m
+                    [1;31m▀▀▄  [0;1;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [1;34m [0;34m   [0;1;34m [0;34m  [0;31m  [0;34m                      [0m
+[34m    [0;1;34m▒[0;34m▀▄[0m         [34m▄[0m         [34m▄[0m            [34m▄[0m      [1;34m [0;34m   [0;1;34m [0;34m         [0;1;34m [0;34m   [0;31m  [0;1;30m            [0m
 [1;30m    [0;1;34m▓[0;34m▄▀ ▄  ▄   ▄[0;1;34m▒ [0;34m▄ ▄  ▄ ▀[0;1;34m▒[0;34m▀ ▀  ▄   ▄  [0;1;34m▒[0m
 [1;34m    ▒  ▒  [0;34m▀▄▀ ▀▄▀ [0;1;34m▒[0;34m▄[0;1;34m▓ [0;34m▀▄  [0;1;34m▓  ▒ [0;34m▀▄▀ [0;1;34m▒ ▓ [0;34m▄[0m
-                                                  [1;34mA[0;34mnsi [0;1;34mB[0;34my  [0;1;35m╠[0;35m╣[0;31mÆ[0;1;31mÑ[0;1;33mZ[0;1mô [0;1;32mT[0;32mhe [0;1;32mF[0;32miend[0m
-
-      [1mC[0mopyrights [1m1[0m994 [1mC[0ma[1mN[0mCe[1mR P[0mroduction[0m'
+                                                  [1;34m [0;34m    [0;1;34m [0;34m   [0;1;35m╠[0;35m╣[0;31m [0;1;31m [0;1;33m [0;1m  [0;1;32m [0;32m   [0;1;32m [0;32m    [0m'

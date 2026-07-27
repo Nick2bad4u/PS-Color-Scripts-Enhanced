@@ -5,7 +5,7 @@
 # Source SHA-256: 6fd802e6a5fbc17d53c0a26df2fea150b95d2a4ab9d1510c30c9ed0c4068f14d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GL!_FMFN.ANS by Glutz (Hallucigenia); released in hal0299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fireman Fighting Saudia Arabia
 # SAUCE Author: Glutz
 # SAUCE Group: Hallucigenia
@@ -36,7 +36,7 @@ Write-Host '
 
 
 [1;32m────────────────────────────────────────────────────────────────────────────────[0m
-[1;32m This pic was done for a blender compo it is in another pack. It sux but it was [0m
-[1;32m done in 1hr and 23min and its dumb but oh well. The words were Fireman Fighting[0m
- [1;32mSaudia Arabia[0m  [1;32m─  Glutz[0m
+[1;32m                                                                                [0m
+[1;32m                                                                                [0m
+ [1;32m             [0m  [1;32m─       [0m
 [1;32m───────────────────────────────────────────────────────────────────────────────[0m'

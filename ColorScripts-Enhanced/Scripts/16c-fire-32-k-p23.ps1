@@ -5,7 +5,7 @@
 # Source SHA-256: e802361bd243a1bc7d55af0b386fab19e90b4934d5398526613730129ba15b4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K-P23.ANS by kyp (fire); released in fire-32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ponr - the 23liner
 # SAUCE Author: kyp
 # SAUCE Group: fire
@@ -37,7 +37,4 @@ Write-Host '
 [1;31;41m░[0;31m█[0;35m▐[0;1;33;45m stay [0;35m▌[0;1;31;41m▄▄▐[0;1;31;40m▄[0;31m █[0;33;41m░▓[0;37;43m░[0;33;40m▀[0;31;40m  ▀ ░░░  █[0;33;41m░▓▓[0;33;40m▀▐[0;1;33;40m░[0;31m   [0;33;47m▓[0;33;40m▄[0;31;40m       [0;37;40m [0;1;30;40m▐[0;1;30;47m▓▓[0;1;30;40m▀▀▀▐█[0;1;30;47m░░░░░[0m████[1m▀█[0;1;47m▓▀[0m▌▄[1m▄[0;1;47m▄[0;1;40m█▄[0;31m [0;1;30m███[0m
 [1;31;41m▓▌[0;1;31;40m▄[0;31m▄ ░▓▓▓[0;1;31;41m▐[0;1;31;47m▓[0;1;31;41m█▄[0;31m▌▐[0;33;41m▄▒[0;33;40m▀[0;31;40m  ▄[0;1;33;41m░[0;1;33;40m▓▄■[0;31m    [0;33;41m░[0;31;43m▒[0;37;43m░[0;31;40m  [0;1;33;43m▐[0;1;33;40m [0;1;31;41m▄[0;31m▄  [0;33m▀[0;1;33;43m░[0;33m▌▄[0;31m    [0;37m [0;1;30m▐[0;1;30;47m██[0;1;30;40m   ▐█▀█[0;1;30;47m▓▓▓░░[0m██[1;30m▐[0m███▄[1;47m▐▀[0m█[1;47m▓[0;1;40m▓▓[0m░░░
 [1;31;47m▐[0;1;31;40m█[0;31m▌▄▄[0;1;31;41m░░░░ █[0;1;31;40m█[0;1;31;41m▀[0;31m █[0;1;31;41m░[0;1;30;40m░[0;31m  ▀[0;1;33;41m▓▓[0;1;33;40m▀[0;31m ░░░ ▐[0;33;41m▓[0;35;43m▓[0;33;40m▌[0;31;40m [0;33;40m▄[0;1;33;40m▌[0;31m [0;1;31;41m▐▄[0;31m█▄▄ [0;33m▀[0;1;35;43m░░[0;33m▄▌[0;31m [0;37m [0;1;30m▐█[0;1;30;47m██[0;1;30;40m▓▓▓█░   ▀▀[0m▀▀▀[1;30m▐[0;1;37;47m░░[0m██[1;47m▀[0m█[1m░░░[0;31m [0;1;30m░░░[0m
-[1;31;47m▄[0;1;31;40m█▄[0;1;31;41m▐▄▓▓▓[0;1;33;41m░░[0;1;31;41m [0;31m▀▄[0;1;31;41m░[0;35;43m░[0;33;40m▀[0;31;40m ▐▄[0;1;33;41m▄[0;1;33;40m▀[0;31m ░▓▓▓ ▄[0;33;41m▓[0;35;43m░[0;33;40m▀▄[0;1;33;43m▄[0;1;33;40m▀[0;31m░▓[0;1;31;41m▓[0;1;31;47m▄▐[0;1;31;41m▄▄▌[0;31m▓▓░[0;35m▀░░[0;37m [0;1;30m ██▌▀▀██▓     [0m  [1;30m▄▓▀[0m▀▀██▄   [31m [0;1;30mkyp[0m
-                                                 [1;30m [0m
-
-[1;30mscreen for myth''s [0mpoint of no return                    [31m  [0;37m  [0;31mwahrheit@t-online.de[0m'
+[1;31;47m▄[0;1;31;40m█▄[0;1;31;41m▐▄▓▓▓[0;1;33;41m░░[0;1;31;41m [0;31m▀▄[0;1;31;41m░[0;35;43m░[0;33;40m▀[0;31;40m ▐▄[0;1;33;41m▄[0;1;33;40m▀[0;31m ░▓▓▓ ▄[0;33;41m▓[0;35;43m░[0;33;40m▀▄[0;1;33;43m▄[0;1;33;40m▀[0;31m░▓[0;1;31;41m▓[0;1;31;47m▄▐[0;1;31;41m▄▄▌[0;31m▓▓░[0;35m▀░░[0;37m [0;1;30m ██▌▀▀██▓     [0m  [1;30m▄▓▀[0m▀▀██▄   [31m [0;1;30mkyp[0m'

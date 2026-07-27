@@ -5,7 +5,7 @@
 # Source SHA-256: ba31c109b1960f129dc2927155b225270e9caa8596041bd7e19cb3b8aaf1ab52
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-FG.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: THE FATE GATE
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -63,4 +63,4 @@ Write-Host '
 [1;32;42m░░[0;1;32;40m▀[0;1;37;42m░[0;1;32;40m▄[0;1;37;40m▀▀[0;1;37;47m▒▒▒▓▓▓▓▓[0m [1;37;47m▒▒▓▓[0m [1;32;40m█▀[0;1;37;42m░[0;1;37;40m▀▀[0;1;37;47m▓▓▓▓▓▓▓▓▓▓[0;1;37;40m▀[0;1;37;47m▒▒▒[0;1;37;40m▄ ▄[0;1;32;40m▄[0;1;37;40m▀[0;1;37;47m▓▓▓▓▓▓▓▓▓▒[0;1;37;40m▀▀[0;1;32;40m▄▀[0;1;37;40m▄[0;1;37;47m▓[0;1;37;40m▀▀▀[0;1;37;47m▓▓▓▓▓▓▓▓▓▓[0;1;37;40m▀▀[0;1;32;40m▄▄██[0m
 [1;32;42m▒▓[0m [1;37;42m░░[0;1;32;42m░░[0m   [1;37;40m▀▀  ▄[0;1;37;47m▓▓▓▓[0;1;37;40m█   [0;1;37;42m░[0m     [1;37;40m▀▀▀▀   [0;1;32;42m░[0m  [1;37;40m▀▀▀    [0;32m░ [0;1;37m▀▀▀▀ [0;1;37;42m░[0m   [1;37;42m▒░[0m       [1;37;40m▀▀▀▀▀▀[0;1;37;42m░░[0m   [1;30;40m.[0m
 [1;32;42m▓[0m [1;30;40m─ [0;1;37;42m░[0;1;32;42m░░[0m [1;30;40m────── [0;1;37;40m▀[0;1;37;47m▓▓▓[0m [1;30;40m── [0;1;37;42m▒[0m [1;30;40m────────── [0;1;32;42m░[0m [1;30;40m────────────── [0;1;37;42m▒[0m [1;30;40m── [0;1;37;42m▒[0;1;32;42m░[0m [1;30;40m───────── [0;1;32;42m░[0;1;37;42m░[0m [1;30;40m── [0m: [1;30m─[0m
-[1;32;42m▓[0m [1;30;40mAN[0mS[32mI [0;1;30mBY HET[0mERO [1m█[0;1;30mF LKC[0mC [1;30m(1o-31-94) [0;1;32;42m░[0m [1;30;40mGREETZ TO PILOT, TRO[0mN[1;32mI[0;1;30mCS, ROY & R[0;32mA[0;1;32mI[0;1;30mSE[0mR [1m+[0m'
+[1;32;42m▓[0m [1;30;40m  [0m [32m  [0;1;30m      [0m    [1m█[0;1;30m     [0m  [1;30m           [0;1;32;42m░[0m [1;30;40m                    [0m [1;32m [0;1;30m           [0;32m [0;1;32m [0;1;30m  [0m  [1m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: afa300e0e86f5c1a91309c651ee77aeddd100c6ec390329a4844e6a27184dd46
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PY-EXT13.ANS by Pyro (FusioN); released in fsn-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Exit Thirteen
 # SAUCE Author: Pyro
 # SAUCE Group: FusioN
@@ -42,13 +42,13 @@ Write-Host '
 [1;30m░░▒▒▓▓[0m  [1;30;47m▓▓▓▓[0m  [1;30;41m▓[0m                        [1;30;41m░[0m                  [1;30;41m▓[0m         [1;30;47m▓▓▓▓[0m  [1;30m▓▓▒▒░[0m
 [1;30m░░▒▒[0m  [1;30m██[0m      [1;30;41m█[0m                        [1;30;41m▒[0m                  [1;30;41m▓[0m             [1;30m██[0m  [1;30m▒▒░[0m
 [1;30m░░[0m  [1;30m▓▓[0m        [1;30;41m█[0m                        [1;30;41m▓[0m                  [1;30;41m█[0m               [1;30m▓▓[0m  [1;30m░[0m
-  [1;30m▒▒[0m         [31mexit thirteen [0;1;31m°[0m [31mru[0;1;31mn[0;31mn[0;1;31min[0;31mg[0;37m [0;1;31mpc[0;1;30;41m█[0;1;31;40mboard[0;31m [0;1;31m1[0;31m5[0;1;31m.2[0;31m ° [0;1;31m2[0;31m40[0;1;31m0[0;31m-[0;1;30;41m█[0;31m14.4kbaud [0m       [1;30m▒▒[0m
+  [1;30m▒▒[0m         [31m              [0;1;31m [0m [31m  [0;1;31m [0;31m [0;1;31m  [0;31m [0;37m [0;1;31m  [0;1;30;41m█[0;1;31;40m     [0;31m [0;1;31m [0;31m [0;1;31m  [0;31m   [0;1;31m [0;31m  [0;1;31m [0;31m [0;1;30;41m█[0;31m          [0m       [1;30m▒▒[0m
 [1;30m░░[0m                                     [1;30;41m█[0m                                      [1;30m░[0m
-             [31msysop: the ma[0;1;31md[0;31m m[0;1;31ma[0;31mg[0;1;31me[0;31m [0;1;31m°[0;31m [0;1;31mcosys:[0;31m [0;1;31mlord[0;31m t[0;1;31mha[0;31mn[0;1;31mo[0;31ms [0;1;31m°[0;31m 4o1.nice.try[0m
+             [31m             [0;1;31m [0;31m  [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m      [0;31m [0;1;31m    [0;31m  [0;1;31m  [0;31m [0;1;31m [0;31m  [0;1;31m [0;31m             [0m
              [31m [0m
-              [31m700+ megs onli[0;1;31mn[0;31me ° [0;1;31mcd[0;31m-[0;1;31mrom[0;31m [0;1;31monlin[0;31me [0;1;31m°[0;31m 0[0;1;31m-7[0;31m day ibm warez[0m
+              [31m              [0;1;31m [0;31m    [0;1;31m  [0;31m [0;1;31m   [0;31m [0;1;31m     [0;31m  [0;1;31m [0;31m  [0;1;31m  [0;31m              [0m
 [1;30m░░[0m                                                                            [1;30m░[0m
-  [1;30m▒▒[0m           [31mh/p/a/v/c [0;1;31ms[0;31mupp[0;1;31mor[0;31mt [0;1;31m°[0;31m [0;1;31mall types[0;31m o[0;1;31mf[0;31m [0;1;31ma[0;31mr[0;1;31mt[0;31m p[0;1;31ma[0;31mks and mags[0m           [1;30m▒▒[0m
+  [1;30m▒▒[0m           [31m          [0;1;31m [0;31m   [0;1;31m  [0;31m  [0;1;31m [0;31m [0;1;31m         [0;31m  [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m  [0;1;31m [0;31m           [0m           [1;30m▒▒[0m
 [1;30m░░[0m  [1;30m▓▓[0m                                                                    [1;30m▓▓[0m  [1;30m░[0m
 [1;30m░░▒▒[0m  [1;30m██[0m                                                                [1;30m██[0m  [1;30m▒▒░[0m
 [1;30m░░▒▒▓▓[0m  [1;30;47m▓▓▓▓[0m                                                        [1;30;47m▓▓▓▓[0m  [1;30m▓▓▒▒░[0m
@@ -60,8 +60,4 @@ Write-Host '
         [1;30;47m▓▓▓▓[0m        [1;31;41m    ░░░░▒▒▒▒▓▓▓▓████████▓▓▓▓▒▒▒▒░░░░    [0m        [1;30;47m▓▓▓▓[0m
             [1;30;47m▒▒▒▒░░░░[0m            [1;31;41m▓▓▓▓████████▓▓▓▓[0m            [1;30;47m░░░░▒▒▒▒[0m
                     [1;30;47m    [0;1;37;47m░░░░▒▒▒▒[0m                [1;47m▒▒▒▒░░░░[0;1;30;47m    [0m
-[1;30m    [0m                            [1;47m▓▓▓▓████████▓▓▓▓[0m
-[1;30mansi by pyro[0m
-
-      [1;30mif you''d like an ansi by me for your board, leave me e-mail on this board[0m
-[1;30m [0m'
+[1;30m    [0m                            [1;47m▓▓▓▓████████▓▓▓▓[0m'

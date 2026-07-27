@@ -5,7 +5,7 @@
 # Source SHA-256: bdc775d31b8fce94d9f9c58bc301c0d889b44d3fcdb48de57e656a0edad59a47
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JC-NEC#3.ANS by juice (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: necrospire menuset
 # SAUCE Author: juice
 # SAUCE Group: gas
@@ -34,7 +34,7 @@ Write-Host '
 [1;30;47m░  [s] [0;30;47mfilespec search  [0;37;40m▓[0m           [1;31;40m▀█████████████[0;1;31;41m█▓▓[0;1;31;40m██[0;1;31;41m▀░[0;31m▀▀[0;32m▄░[0;1;31;41m░ [0m [1;31;42m            [0;1;30;42m░▒ [0;32m▀[0m
 [1;37;47m░  [0;1;30;47m[n] [0;30;47mnew files scan   [0;37;40m▌   [0;34;40m░[0m      [1;31;40m▄█▄[0;1;31;47m█▓[0;1;31;40m██████████████[0;1;31;41m▄[0;31m▄▄[0;31;41m [0m [32;47m▓[0;32;40m▄▄▄▓[0;32;42m [0;1;30;42m░    ░  ░░░▒░[0;32m▄[0;32;42m [0m
 [37;40m▓[0;37;47m                       [0;37;40m▌  [0;34;40m░▒░[0m      [1;31;40m▀██████████████[0;1;31;41m▀▀▀░ [0;31m▀ [0;32m▄[0;32;42m  [0;1;30;42m░░             [0;1;32;42mjc[0;32m▀[0m
-[32;47m   [0;1;30;47m[r] [0;30;47mprotocol select  [0;37;40m▓   [0;34;40m░    ░[0m                                             [34;40m░[0m
-[34;47m   [0;1;30;47m[m] [0;30;47mmove a file     ░ [0m      [34;40m░    [0;1;37;40marea #♂2  [0m♂Z
+[32;47m   [0;1;30;47m    [0;30;47m                 [0;37;40m▓   [0;34;40m░    ░[0m                                             [34;40m░[0m
+[34;47m   [0;1;30;47m    [0;30;47m                ░ [0m      [34;40m░    [0;1;37;40m          [0m  
 [1;30;47m▒                     [0;30;47m░▒[0;37;40m▓  [0;34;40m░[0m                                                 [34;40m░░[0m
 [37;40m▀[0;1;37;47m░ [0;1;30;47m░[0m▓▀▓[47m [0;1;30;47m░▒░ [0m▓▒▓▀▀▀▓[47m  [0;1;30;47m░▒░[0m▀     [1;30m[[0m-[1;30m] [0mmain menu     [1;30m[[0mp[1;30m] [0mpage juice    [1;30m[[0ml[1;30m] [0mlogoff[0m'

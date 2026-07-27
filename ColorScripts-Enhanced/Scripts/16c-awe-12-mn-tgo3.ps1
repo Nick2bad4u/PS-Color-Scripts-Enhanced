@@ -5,7 +5,7 @@
 # Source SHA-256: 06ff083ee7af76c34078818dbd31742c38abd6176f4381dfe6366eb1e3a58c37
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MN-TGO3.ANS by Menace (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tarango
 # SAUCE Author: Menace
 # SAUCE Group: AWE Lettering
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-menace([1;33mawe[0m)                           [1;30m▄[0m
+       [1;33m   [0m                            [1;30m▄[0m
                         [1;33m░ [0;34m░[0;30;44m▓[0;34;40m▄[0;1;34;44m▄[0;34m▄[0m      [1;30m▀[0;1;30;47m▄[0;1;30;40m█▄[0m     [1;30;40m░[0m
       [32m▄[0;1;33m▄▄[0m            [1;33m░ ░▓  [0;34m▀[0;1;34;44m▀█░░[0;34m▄[0m      [1;30m▀█[0;1;30;47m▓[0m▄   [1;30m▓[0m
      [32m▀[0;1;33;42m▀███[0;1;33;40m▄▄[0;1;33;42m▄██▓[0m [1;33;40m▄▄▄[0;1;37;40m▄▄  [0;1;33;40m██▄▄[0;1;33;44m▓░ [0;30;44m░[0;34;40m▓[0;1;34;44m▄[0;34m▄░[0;30;44m▓[0m   [1;30;40m▐[0;1;30;47m░ [0m▌  [1;30m▐[0m       ░[30;47m▓[0;37;40m▐[0;1;33;47mt[0;1;33;40marango![0m

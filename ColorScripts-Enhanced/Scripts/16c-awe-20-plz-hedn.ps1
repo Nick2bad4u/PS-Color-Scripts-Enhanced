@@ -5,7 +5,7 @@
 # Source SHA-256: bf47c8aef269a5c8373b521c94fe0794b005b60fe95673e7f0f7052442e1675f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PLZ-HEDN.ANS by Plazz (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hedonic
 # SAUCE Author: Plazz
 # SAUCE Group: AWE Lettering
@@ -36,12 +36,6 @@ plazz([1mawe[0m) [1;30m▄▄▄▄██████▄        ▄▄▄▄ 
 [1;30m██[0m [1;30m█ ▌─████▄▄▄▄▀▀█[0;1;30;45m▄[0;1;30;40m█▄[0m  [1;30m▀[0;1;34m [0;1;30m─[0;1;31m [0;1;30m█▀▄▄[0;1;30;47m██[0;1;30;40m▀▀▀[0;1;34;40m [0;1;30;40m──────[0;1;34;40m [0;1;30;40m▀▀██▄▄▀▀▀███████▀██████▀▀▀████ ▒█[0;32m [0;1;30m─[0;32m [0m
 [1;30m▀[0;32m [0;37m [0;1;30m▐ ▌[0m   [1;34m  [0;1;30m▀▀▀▀██▄▄▀▀█▄[0m [1;34m  [0;1;30m ▀█▀▀    [0;1;34m  [0;1;30m  [0;1;34m       [0;1;30m  ▀▀███▄▄▄▄▄▄▄███▀▀▄▄███▀▀▀  [0m [1;30m▀█▄▀[0m
 [32m  [0;37m [0;1;30m▐[0m      [1;34m   [0m [1;30m [0m [1;30m ▀▀██▄▀▄ [0;1;34m  [0;1;30m [0;1;34m  [0m                  [1;34m   [0m  [1;30m▀▀▀▀▀▀ ▀▄▄██▀▀             [0m
-    [1;30m▀[0m      [1;34m         [0;1;30m ▀█▀[0m   [1mhedonic[0m(+[1mo sinful flesh[0m)[1;30m           ▀                 [0m
+    [1;30m▀[0m      [1;34m         [0;1;30m ▀█▀[0m   [1m       [0m  [1m              [0m [1;30m           ▀                 [0m
               [1;34m  [0m             [1;34m          [0m            [1;30m  [0m
-────────────────────────────────────────────────────────────────────────────────
-[1moh god. dee1, never EVER *[0;1;33mEVER[0;1;37m*[0m [1mlet me allow you to talk me into doing a large[0m
-[1mfont again ok? ok guys, i was drawing this on lack of sleep rubbing my eyes alot[0m
-[1mof the time trying to stay awake at all costs.this is for sinful flesh''s[0m [1mhedonic[0m
-[1mwhatever that means. heh.[0m
-
-[1m-- plazz[0m'
+────────────────────────────────────────────────────────────────────────────────[0m'

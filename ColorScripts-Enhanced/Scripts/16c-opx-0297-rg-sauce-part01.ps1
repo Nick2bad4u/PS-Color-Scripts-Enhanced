@@ -5,7 +5,7 @@
 # Source SHA-256: 4a7e52ffbe20cca0222d11d667d1dfe03b78004cef96d5e43552690b1c6b755c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG!SAUCE.ANS by rage (opium); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: special sauce
 # SAUCE Author: rage
 # SAUCE Group: opium
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[33m        [0m    [1;33m [0m   [1;33ma[0;33mLieNs [0;1;33mp[0;33mLayIng [0;1;33mm[0;33mOoNbasKet[0;1;32m....[0;33m [0;1;33mn[0;33mAAhHhh[0;1;32m....[0m
+[33m        [0m    [1;33m [0m   [1;33m [0;33m      [0;1;33m [0;33m       [0;1;33m [0;33m         [0;1;32m    [0;33m [0;1;33m [0;33m      [0;1;32m    [0m
            [1;30m▄[0m     [1;30m▄▄█▄▄▄▌[0m [1;30m▄[0m      [1;30m▄[0m     [1;30m▄[0m [1;30m▄ ▄▄▄▄▄▌▄▄▄▄▄▄█▓▄▄▄▄▌  ▄ [0m         [1;30m▄[0m
 [1;30m▐▄███▄▄[0;34m [0;1;30m▄[0;34m▌█████▄█[0;1;30;44m▀▌■[0;34m█[0;1;30;44m▀▀█▀▀[0;34m██▄▄▓[0;1;30;44m■[0;34m█[0;1;30;44m▀█[0;1;30;40m▄[0;1;30;44m███████▀▀▌▀████████[0;1;30;40m██████████▓▄▄▄ ▐▄▄████▄▐[0m
 [1;30m█[0;1;30;44m▀▌▀[0;1;34;44m [0;1;30;44m▀[0;1;34;44m     ▄▄▄■    ▄▄▌            [0;1;30;44m▄[0;1;34;44m [0;1;30;44m▄███████■ [0;34m███[0;1;30;44m▀█▌▀█▀[0;1;30;40m███[0;1;30;44m███[0;1;30;40m█████████████████▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: ce454267ead6a9d96cfcf8f77322f00f86a4cec53678a1e4165de2b219b4cb16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL&DKY-N.ANS by Cleaner + Darky (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nitrophusion
 # SAUCE Author: Cleaner & Darky'
 # SAUCE Group: Nitrophusion
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30;44mcleaning on a dark night...                                                     [0m
+[30;44m                                                                                [0m
 
 
                                            [34m▀[0m
@@ -43,8 +43,4 @@ Write-Host '
 [34m    ■ ▀[0m                  [34m▀    [0;1;31;41m▓▓▒▒▒[0;31m█[0m            [34m▀▄[0m
                          [34m▐▌   [0;1;31;41m▒▒░░[0;31m██[0m               [34m▀    ▄[0m
                              [31m▐[0;1;31;41m░░[0;31m█[0;33;41m▄▄[0;31m▌[0m
-             [34m▀   ▄[0m     [34m▀[0m       [31m▀▀[0;33;41m▀▀[0;31m▌[0m
-
-
-
-[30;44m                                       history can be great sometimes... NPH is.[0m'
+             [34m▀   ▄[0m     [34m▀[0m       [31m▀▀[0;33;41m▀▀[0;31m▌[0m'

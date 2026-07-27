@@ -5,7 +5,7 @@
 # Source SHA-256: 4b3cd8496522c184f6a181e4a076cbcbc779acde5baf7ffe08964055dcd42c6e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-TCPLX.ANS by puschel; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
@@ -24,5 +24,4 @@ Write-Host '
 [1;30m  [0;1;36;46m▒▒[0;1;30;46m▓[0;1;30;40m████   [0;36m▐[0;1;36;46m░ [0;1;30;40m▓▌     [0;36m■[0;1;30m  ▓[0;1;30;46m▒[0;36m▌[0;1;30m ██▓  [0;1;36m▐[0;1;36;46m▒[0;1;30;46m [0;36m▌[0;1;30m▀▀▀▀▀▀▄█▌▄▄▄▄ [0;36m▐[0;1;30;46m [0;1;36;46m▒[0;1;36;40m▌[0;1;30;40m ▄▄▄▄▄   █[0;1;33;47m█[0;1;30;40m▌▄▄[0m
 [1;30m   [0;1;36;46m█▓▒[0;1;30;46m▓█▓█[0;1;30;40m▄  [0;36m▀▀[0;1;30;46m▓█[0;1;30;40m▄▄ [0;1;37;40m▄[0;1;36;40m▀[0;1;30;40m ▄▓[0;1;30;46m▒░[0;1;30;40m ▐██▌ [0;1;37;40m▄[0;1;36;46m▓▒▒░[0;1;30;40m  [0;1;31;40m [0;1;30;40m  [0;1;30;46m▒▓[0;1;30;40m█▄▄█▀▄[0;36m▄[0;1;30;46m▒░ [0;1;36;46m░[0;36m▄[0;1;30m▄▓█▀ [0m▄[1;30m ▐█[0;1;33;47m▒[0;1;30;40m▌▐[0;1;30;46m▓▒[0;36m▄[0;1;30m [0;1;37m■▀[0;1;30m [0;1;36m■[0;1;31m [0m
 [1;30m    [0;1;37m▀[0;1;36m▀[0;1;36;46m█▒░[0;1;30;46m▓▒[0;1;30;40m██▄▄▄▄▄[0;36m■[0;1;36m▀[0;1;30m ▀▀▀  [0;36m▀[0;1;30m  ▀██▄▄  [0;1;36m▀[0;36m▀▀[0;1;30m▀  [0;36m▀[0;1;30;46m░░[0;36m▀[0;1;30m▀        [0;36m▀[0;1;30m▀[0;1;30;46m▓[0;1;30;40m▀ [0m▄[1;30;47m░▒[0m▄[1;30;47m▓[0;1;30;40m█▀[0mpl[36m▀[0;1;30;46m░[0;1;36;46m▒▓[0;1;36;40m▄▄▄▀[0m
-[1;30m         [0;1;36m▀▀[0;36m▀[0;1;30m▀▀▀▀   [0;1;36mt[0;1;30m [0;36mh[0;1;30m e  [0m-[1;30m                                       [0m<[1;30ms[0;36ma[0;1;36mc[0m>[36m▀[0;1;36m▀▀▀[0m
-[1;30m        [0;1;37m-[0;1;30m        [0m-[1;30m   [0m-[1;30m  [0m-[1;30m [0;1;37mc[0;1;30m [0;1;36mo[0;1;30m [0;36mm[0;1;30m p l e x [0m-[1;30m    [0m-[1;30m      [0;1;37m+[0;1;30m [0;1;37mX[0m-[1;36mf[0;36mo[0;1;30mrce [0mH[36mQ[0;1;30m [0;1;37m+[0m'
+[1;30m         [0;1;36m▀▀[0;36m▀[0;1;30m▀▀▀▀   [0;1;36mt[0;1;30m [0;36mh[0;1;30m e  [0m-[1;30m                                       [0m<[1;30ms[0;36ma[0;1;36mc[0m>[36m▀[0;1;36m▀▀▀[0m'

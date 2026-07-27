@@ -5,7 +5,7 @@
 # Source SHA-256: 6d930799b80d7897e5e72d0884f8e6060fae677500080bce3f753dfdfe8da347
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-DOMIN.ANS by Smooth (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Dominion
 # SAUCE Author: Smooth
 # SAUCE Group: ACiD Productions
@@ -52,8 +52,8 @@ Write-Host '
 [1;30m██▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄██▄▄▄██▄▄▄▄▄▄▄▄▄▄▄▄▄███▄▄▄█████████▄▄▄▄▄▄▄▄▄▄█▄▄▄▄█▄▄[0m [32m▀▀[0;1;32;42m░░[0;32m▄[0;1;32;42m░░[0m
 [1;30;40m███████████████████████████████████████████████████████████████████████▀[0m  [32m▐[0;1;32;42m▓▒░[0m
 [1;30m───────────────────────────────────────────────────────────────────────[0m [32m▀▄█▀▀[0m [1;30m─[0m
-[1;37m [0;1;33mT[0;1;32mh[0;32me Dominion - Sys:Formic Acid [UNiON/SHiVER VGA Coordinator][0m [32m- Running OBV[0;1;32m/[0;1;33m2[0m
-[1m       [0;1;33mT[0;1;32me[0;32mkLordZ Western US Hq - EMiGRE Western US Hq - UNiON Member Boa[0;1;32mr[0;1;33md[0;32m [0m
-[1;37m              [0;32m [0;1;33mS[0;1;32mH[0;32miVER Member Board - CoRPSE Distro - VOiD Dist[0;1;32mr[0;1;33mo[0m
-[1;37m                         [0;32m [0;1;33m4[0;1;32mi[0;32m5.738.i909 - NUP: FUNK D[0;1;32mA[0;1;33mT[0m [1;37m [0m
+[1;37m [0;1;33m [0;1;32m [0;32m                                                           [0m [32m             [0;1;32m [0;1;33m [0m
+[1m       [0;1;33m [0;1;32m [0;32m                                                              [0;1;32m [0;1;33m [0;32m [0m
+[1;37m              [0;32m [0;1;33m [0;1;32m [0;32m                                             [0;1;32m [0;1;33m [0m
+[1;37m                         [0;32m [0;1;33m [0;1;32m [0;32m                        [0;1;32m [0;1;33m [0m [1;37m [0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

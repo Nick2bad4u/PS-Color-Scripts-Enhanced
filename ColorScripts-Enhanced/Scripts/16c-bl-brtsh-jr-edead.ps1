@@ -5,7 +5,7 @@
 # Source SHA-256: 712aafe7fe2bf247c2fcb7af46b3f274e09b0cf51f34a9d4f737007c59b46b74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_EDEAD.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ED:: kalkkette...
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
                      [1;30m▀▀▀[0m
 
 
-[1;30m-------------------------------------------------------░░_ request.+o hell razor[0m
-[1;30man evil dead logo - for a very red board.[0m [1;30msprengt die kalkkette![0m  [1;30mjerusalem~boil[0m'
+[1;30m-------------------------------------------------------░░_ request.+o hell razor[0m'

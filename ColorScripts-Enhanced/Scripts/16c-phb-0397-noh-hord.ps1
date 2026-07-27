@@ -5,7 +5,7 @@
 # Source SHA-256: e438f40a8c251331e656b585121155215d2c175d9ee012df98bfd294aeeff4ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-HORD.ANS by nOah! (phb-0397); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: horde..
 # SAUCE Author: nOah!
 # SAUCE Date: 19970302
@@ -30,7 +30,4 @@ Write-Host '
               [32mεεεεεεεεεεε[0;37m [0;30;45mh[0m   [35;40mor[0;37;40m  [0;32;43md[0;37;40m [0;35;40me[0m           [32;40m▬■▀[0m   [32;40m▀▀▀[0m
 
 
-[37;40m--------------------------------------------------------------------------------[0m
-[37;40mOk....not one single good phont from me this time....[0m
-[37;40mhmm....but look out for me in the next pack...[0m
-[37;40mThen i will do some nice phonts =)[0m'
+[37;40m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 01fc28a54185c63cebb7e8f4df09ce2a2012c3d140b21ae1dc80c9db9629e0ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-TRB.ICE by Bodycount (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 101-150
 # Columns: 1-80
 
@@ -49,14 +49,12 @@ Write-Host '
 [1;30m  [0m [36m█[0;1;36;46m░▓▄[0;36m▄[0;1;30m  [0;36m▐[0;1;30;46m▒▓[0;1;30;40m▀[0m  [36m█[0;1;36;46m░▓▄[0;36m▄[0;1;30m [0;36m▄[0;30;46m░[0;1;30;46m▒▓[0;1;30;40m▀[0m [36m █[0;1;36;46m░▓▄[0;36m▄[0m   [1;30m▐[0;1;30;46m▓█[0;36m  [0m  [1;30;46m░▒▓[0;1;30;40m▌[0m  [36m█[0;1;36;46m░▓▄[0;36m▄[0m   [1;30m▐[0;1;30;46m▓█[0;36m [0m  [36m▄[0;1;36;46m▄▓░[0;36m█[0m [36m [0m [36m▐[0;1;36;46m░▓▄[0;36m▌[0m
 [1;30m [0m [36m▐[0;30;46m░[0;36;40m█[0;1;36;46m░ [0;36m▀▀[0;1;30m [0;36m▀[0;1;30m▀[0m   [36m▐█▓[0;1;36;46m░[0;36m█▀▀[0m [36m▀[0;1;30m▀[0m   [36m▐[0;30;46m░[0;36;40m█[0;1;36;46m░[0;36m█▀▀[0m   [1;30m▀▀▀[0;36m ▄[0;30;46m░[0;1;30;46m▒▓[0;1;30;40m▀[0m  [36m▐[0;30;46m░[0;36;40m█[0;1;36;46m░[0;36m█▀▀ [0m [36m [0;1;30m▀▀▀[0m [36m▀▀█[0;1;36;46m░ [0;30;46m░[0;36;40m▌  █[0;30;46m░[0;1;36;46m░[0;36m█▀▀[0;37m [0m
 [1;30m [0m [36m▀▀[0m           [36m▀▀[0m           [36m▀▀ [0m         [36m▀  ▀[0;1;30m▀[0m    [36m▀▀  [0m [36m   [0m           [36m▀▀[0m [36m▀▀[0m  [36m  [0m
-[1;30m               [0m  [36m [0m            [1;37m [0m T[1mhe [0mR[1mealm [0mB[1meneath[0m
+[1;30m               [0m  [36m [0m            [1;37m [0m  [1m   [0m [1m     [0m [1m      [0m
                  [36m [0m
-[1;30m     [0m            [36m [0m           [37mS[0;1;37mysOp : [0mS[1mtar[0mD[1must <[0mD[1mARK>[0m
-[1;30m   [0m              [36m [0m         [37mP[0;1;37mNW Chq ∙ [0mT[1mHC [0mC[1mhq ∙ [0mT[1mCC [0mW[1mhq[0m
-[1;30m     [0m           [36m  [0m          [37m D[0;1;37mREAD [0mD[1mistrobution [0mS[1mite[0m
-[1;30m   [0m             [36m [0m          [37mC[0;1;37mrimson [0mN[1met ∙ [0mI[1mnfinet ∙ [0mE[1mtc[0m
-[1;30m [0m               [36m [0m        [37m2[0;1;37m.5 [0mG[1migs [0mO[1mnline ∙ [0mO[1m-4 [0mD[1may [0mW[1marez[0m
-[1;30m [0m               [36m [0m             [37mR[0;1;37munning [0mO[1mblivion 2.25[0m
-[1;30m  [0m                        [1;37m([0m5[1m19)[0m4[1m73-[0m4[1m328 ∙ ([0m5[1m19)[0m4[1m73-[0m9[1m378[0m
-
-              A[1mNSI [0mW[1mhipped [0mU[1mp [0mB[1my [0mB[1mody[0mC[1mount [0mA[1mka [0mF[1mistandantilus [[0mi[1mCE][0m'
+[1;30m     [0m            [36m [0m           [37m [0;1;37m       [0m [1m   [0m [1m     [0m [1m    [0m
+[1;30m   [0m              [36m [0m         [37m [0;1;37m         [0m [1m   [0m [1m     [0m [1m   [0m [1m  [0m
+[1;30m     [0m           [36m  [0m          [37m  [0;1;37m     [0m [1m            [0m [1m   [0m
+[1;30m   [0m             [36m [0m          [37m [0;1;37m       [0m [1m     [0m [1m         [0m [1m  [0m
+[1;30m [0m               [36m [0m        [37m [0;1;37m   [0m [1m    [0m [1m        [0m [1m   [0m [1m   [0m [1m    [0m
+[1;30m [0m               [36m [0m             [37m [0;1;37m       [0m [1m            [0m
+[1;30m  [0m                        [1;37m([0m5[1m19)[0m4[1m73-[0m4[1m328 ∙ ([0m5[1m19)[0m4[1m73-[0m9[1m378[0m'

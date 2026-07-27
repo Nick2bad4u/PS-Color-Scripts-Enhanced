@@ -5,7 +5,7 @@
 # Source SHA-256: d3e3c35909df829701de0be70d5d44752ff33b872394fb86f6a71af832f63a45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ee-cl.ans by Elle (sac-36); released in sac-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 162-201
 # Columns: 1-80
 
@@ -46,7 +46,7 @@ Write-Host '
            [36m    [0;37m   [0;1;30m▀▀▀▀▓▓▓▀▀▀▓▓█▄▄██▓▓[0m       [1;30m▐▓[0;1;30;41m▄▄[0;31m█[0;1;30;41m▄[0;31m█[0;1;30;41m▄[0;1;31;40m▓▓[0;1;30;40m▀▀[0m      [31m░░▓[0;1;30m▌█▓[0;31m███▓▓▓█▀▀▄[0m
                                              [1;30m▀▀[0;31m▓▒░▓[0;1;31m▓[0m           [31m▓[0;1;30m▀[0m [31m [0;1;30m█▓▓[0;31m███▀   ▐▌[0m
                                                [1;30m ░░ [0m           [31m░[0;1;30m▀[0m  [31m  [0;1;30m▀[0;31m▀ █▌    ▀[0m
-[36m  [0m            [36m [0;37m  [0;1;30mANSized by ,[0;1;37mee[0;1;30m''[0;1;31m [0;1;30mof[0;31m [0m            [1;30m░[0m            [1;30m▐[0;31m▓[0m        [31m█[0m
+[36m  [0m            [36m [0;37m  [0;1;30m            [0;1;37m  [0;1;30m [0;1;31m [0;1;30m  [0;31m [0m            [1;30m░[0m            [1;30m▐[0;31m▓[0m        [31m█[0m
 [36m  [0m            [36m  [0m                                [1;30m░[0m             [1;30m▀[0;31m▄[0;37m [0;31m▀[0m     [31m▓[0m
-[36m  [0m            [36m [0;1;33mS[0;33mUPERIOR [0;1;33mA[0;33mRT [0;1;33mC[0;33mREATIONS[0m                                  [31m▒[0m
+[36m  [0m            [36m [0;1;33m [0;33m        [0;1;33m [0;33m   [0;1;33m [0;33m        [0m                                  [31m▒[0m
                                                 [1;30m░[0m                      [31m░[0m'

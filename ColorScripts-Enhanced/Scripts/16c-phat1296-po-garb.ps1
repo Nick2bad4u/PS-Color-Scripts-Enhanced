@@ -5,7 +5,7 @@
 # Source SHA-256: 6d8998c8b6bc15ef4628708b3fdb513aea17c90cc33ad9121c18027c2ad68881
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-GARB.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: garbage.
 # SAUCE Author: poti.
 # SAUCE Group: phat.
@@ -31,7 +31,7 @@ Write-Host '
 [31;40m█[0;30;41m║[0;31;40m█ [0;1;37;47m░░░▓▓▓▓[0m ▄▄[1;47m░░▓▓[0;1;40m█▀ [0;41m▓[0;47m   [0;1;47m░░░░[0m [31m░ [0;1;37;47m░░▓▓▓[0;1;37;40m▀ [0;31m▌[0;1;37;47m▓▓▓░░░░[0m [31m▄▄░ [0;1;37m▀[0;1;37;47m▓░░░[0m [1;37;47m░░░░  ░[0m [31m░ [0;1;37;47m░░▓▓▓[0;1;37;40m▀ [0;31m█[0;31;41m [0;30;41m░ [0m
 [31;40m█[0;30;41m▼[0;31;40m█ [0;31;47m   [0;1;37;47m░░░░     [0;1;37;40m▀▀ [0;30;41m▓░[0;31;40m▌[0;31;47m       [0m [37;40m▄[0;37;47m   [0;1;37;40m▀▀ [0;31m▄[0;37;41m░[0;31;40m▌[0;1;37;47m░░░    [0m [41m░[0;31;40m█▄█▄ [0;37;40m▀▀█▌[0;37;47m       [0m [37;40m▄[0;37;47m   [0;1;37;40m▀▀ [0;31m▄[0;31;41m   [0;30;41mpo[0m
 [31;40m░▓▀[0m              [31;40m▀▀▀▀[0m              [31;40m▀▀▀▀[0m         [31;40m▀▀▓▀▀▀▀[0m                [31;40m▀▀░▓▀▀▀▀[0m
-        [31;40mgarbage " down in a hole - I like to fly " lord chaos/b2b(op)[0m
+        [31;40m                                                             [0m
 
 
 
@@ -39,7 +39,4 @@ Write-Host '
 
 
 
-[1;30;40m-------------------------------------------------------------------------------[0m
-[1;30;40mthis one was requested by lord chaos^b2b for his forthcomming board called[0m
-[1;30;40m''garbage'' - thanx very much for the kaoz-ascii I got in return. hope you like[0m
-[1;30;40mmine as well :) style inspired by my one and only font-hero: 33rie.[0m'
+[1;30;40m-------------------------------------------------------------------------------[0m'

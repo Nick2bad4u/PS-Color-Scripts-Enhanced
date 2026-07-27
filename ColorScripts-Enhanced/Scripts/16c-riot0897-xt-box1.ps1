@@ -5,7 +5,7 @@
 # Source SHA-256: 42224c6ee5ca13a9db5dc5faaed3f34b7233701316d5c567338e828bc4177aaf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XT-BOX1.ANS by Exocet (riot0897); released in riot0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -40,6 +40,6 @@ Write-Host '
 
 [1;30m---------[cRaCk!]-----------------------------------------[cRaCk!]-------------[0m
 
-       [1;30mFor Mankind''s BBS. Just a simple welcome screen. Checks out pretty[0m
-[1;30m       damn good in vga mode. Requests go to [0mEhksohset@hotmail.com
+       [1;30m                                                                  [0m
+[1;30m                                             [0m                     
 [1;30m                                                               -xt[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 870f5655f1aeb0a1e57408fb74ef0e1af219ae9346c9688ac6895165f9ef83da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SU-REHAB.ANS by Suhu (afc-r7); released in afc-r7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 77-115
 # Columns: 1-80
 
@@ -42,10 +42,8 @@ Write-Host '
 [1;34;40m [0;1;34;44m▒▒▒▒▒░░[0;34m█ [0;1;30mJ [0;1;37mU V E N i L E   R E H A B i L i T A T i O N   C E N T [0mE [1;30mR [0;34m█[0;1;34;44m░░▒▒▒▒▒▒[0m
 [1;34;40m [0;1;34;44m░░░░░░[0;34m██[0m      [1;30mS[0my[1msOp: Snake Man ■ Co-SysOps: Metal Guru & Moza[0mr[1;30mt[0m      [34m██[0;1;34;44m░░░░░░░[0m
 [1;34;40m [0;34m██████[0;34;44m [0m   [1;30;40mE[0ml[1miteNet World Host ■ SF.Pirates Host ■ PC-TOP Home Boa[0mr[1;30md   [0;34m████████[0m
-         [1;30mN[0m·[1mA·T·O Dist. Site ■ CORP Dist. Site ■ PCBoard v15.1/ß ■ 24 [0;1;30mh[0m
-[1;30m  O[0mN[1mLY Foreign callers accepted! ■ 1 Gig online, Unlimited Offline Collectio[0mn[1;30ms[0m
-                   [1;30mC[0mD[1m-ROM, currently software on CDs: 1,634[0mm[1;30mb[0m
+         [1;30m [0m [1m                 ■                 ■                 ■    [0;1;30m [0m
+[1;30m   [0m [1m                             ■                                          [0m [1;30m [0m
+                   [1;30m [0m [1m                                      [0m [1;30m [0m
 
-[1;30m  N[0mo[1mde 1 ZyXEL U-1496E+ 9600/14400/16800/19200 bp[0ms[1;30m![0m         [1;30m+[0m3[1m58-PUHELIN-NUME[0mR[1;30mO[0m
-[1;30m  N[0mo[1mde 2 USR HST DS v32bis 9600/14400/16800 bp[0ms[1;30m![0m
-[1;30m  N[0mo[1mde 3 ZyXEL U-1496E 9600/14400/16800 bp[0ms[1;30m![0m                 [1;30mA[0mn[1msi by Suhu / A[0mF[1;30mC[0m'
+[1;30m  N[0mo[1mde 1 ZyXEL U-1496E+ 9600/14400/16800/19200 bp[0ms[1;30m![0m         [1;30m+[0m3[1m58-PUHELIN-NUME[0mR[1;30mO[0m'

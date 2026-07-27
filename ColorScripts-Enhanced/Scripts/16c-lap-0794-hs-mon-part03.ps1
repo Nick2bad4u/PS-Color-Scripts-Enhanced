@@ -5,7 +5,7 @@
 # Source SHA-256: 21085b0e4b22d624b2c0eabfc11a9afc786f3387a23e0427d6ed3567537cc916
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HS-MON.ANS by HellSpawn (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Monastery of Destruction
 # SAUCE Author: HellSpawn
 # SAUCE Group: Lapse
@@ -54,14 +54,14 @@ Write-Host '
 
 
                         [1;37;47m███▓▒░░░░░ [0;1;30;47m░░░▒▒▒▒▓▓▓███[0;1;30;40m▓▓▓▒▒▒░░░ ░[0m
-                        [1;37;47m█▓[0;1;37;40m▀    Monast[0mery Of Destruct[1;30mion[0m
+                        [1;37;47m█▓[0;1;37;40m▀          [0m               [1;30m   [0m
                         [1;37;47m▓░[0m         [1;37;40m(801)486[0m-02[1;30m51[0m
                         [1;37;47m▒░[0m            [1;37;40m5[0m65 [1;30mMegz[0m
-                        [1;37;47m░[0;1;30;47m░[0m   [1;37;40mCyberNet, [0mFlameN[1;30met, CanNet    ░[0m
-                        [1;30;47m░▒[0m         [1;37;40mElite[0m, H/P/[1;30mC/A[0m
-                        [1;30;47m▒▓[0m         [1;37;40m0-15 [0mDay Wa[1;30mrez[0m
-                        [1;30;47m▓█[0m       [1;37;40mZero-G Me[0mmber [1;30mBoard[0m       [1;30m░[0m
+                        [1;37;47m░[0;1;30;47m░[0m   [1;37;40m          [0m      [1;30m              ░[0m
+                        [1;30;47m░▒[0m         [1;37;40m     [0m      [1;30m   [0m
+                        [1;30;47m▒▓[0m         [1;37;40m     [0m      [1;30m   [0m
+                        [1;30;47m▓█[0m       [1;37;40m         [0m     [1;30m     [0m       [1;30m░[0m
                         [1;30;47m█[0;1;30;40m▓[0m            [1;37;40mUBM [0mU-[1;30mHQ[0m            [1;30m▒░[0m
-                        [1;30m▓▒[0m        [1;37mBHA [0mMemb[1;30mer Board[0m        [1;30m▓▒[0m
-                        [1;30m▒░[0m       [1;37mSysOp: [0mLeat[1;30mher Head[0m      [1;30m▓█[0m
+                        [1;30m▓▒[0m        [1;37m    [0m    [1;30m        [0m        [1;30m▓▒[0m
+                        [1;30m▒░[0m       [1;37m       [0m    [1;30m        [0m      [1;30m▓█[0m
                         [1;30m░[0m                          [1;30m░ ░░▒▓▓██[0m'

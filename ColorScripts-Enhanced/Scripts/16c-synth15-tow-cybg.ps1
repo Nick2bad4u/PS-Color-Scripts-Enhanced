@@ -5,7 +5,7 @@
 # Source SHA-256: 68f8fa5ff08ae66d81f4585acd038488c4b313976fc68f955a93a2b95f41c8bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TOW-CYBG.ANS by Towser (Synthetic Org!); released in synth15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cyber `Sommit'
 # SAUCE Author: Towser
 # SAUCE Group: Synthetic Org!
@@ -49,8 +49,8 @@ Write-Host '
 
 [1;30m---------------------------------[Snippeth]-------------------------------------[0m
 
-[1;32mA[0;32mS[0;1;30mki shiet Cyborg Knight first pic for Synth, kindah old but not too shabby yo?[0m
-[1;30mmaybe i should stick to logo''s? [0;1;36m>[0;36m=[0;1;30m) [0m
+[1;32m [0;32m [0;1;30m                                                                             [0m
+[1;30m                                [0;1;36m [0;36m [0;1;30m  [0m
 
-[1;34mn[0;34mu[0;1;30mts to [0;1;35mo[0;35md[0;1;30mb[0;1;37m,[0;1;30m [0;1;35mt[0;35mr[0;1;30mip[0;1;37m,[0;1;30m [0;1;35mi[0;35mb[0;1;30manez[0;1;37m,[0;1;30m [0;1;35ms[0;35my[0;1;30mnth[0;1;37m^[0;1;35ms[0;35mh[0;1;30mao[0m                                 [36m[[0;37m [0;1;30mT[0mo[1mws[0me[1;30mr[0m [36m][0m
+[1;34m [0;34m [0;1;30m      [0;1;35m [0;35m [0;1;30m [0;1;37m [0;1;30m [0;1;35m [0;35m [0;1;30m  [0;1;37m [0;1;30m [0;1;35m [0;35m [0;1;30m    [0;1;37m [0;1;30m [0;1;35m [0;35m [0;1;30m   [0;1;37m [0;1;35m [0;35m [0;1;30m  [0m                                 [36m [0;37m [0;1;30m [0m [1m  [0m [1;30m [0m [36m [0m
 [1;30m-------------------------------[[0;1;36mE[0;36mO[0;1;30mF 40 [0;1;36mL[0;36mi[0;1;30mnez]-----------------------------------[0m'

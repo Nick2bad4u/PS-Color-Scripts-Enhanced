@@ -5,7 +5,7 @@
 # Source SHA-256: 4c3efdebb3db2b3696e29b546540d20b82105fb999ce66266cdd2602b3f40bcd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-LANS.ANS by Fire (promo) 08/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lan's Laughter
 # SAUCE Author: Fire (promo) 08/95
 # SAUCE Group: Eerie
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-   alright, this fire logo sucks. so what, its been done at the last minute
-             on a mono screen. you can''t always get whatcha want.
+                                                                           
+                                                                 
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1m███████████████████████████████████████████████████████████████████████████████[0m
 [1m███████████████████████████████████████████████████████████████████████████████[0m

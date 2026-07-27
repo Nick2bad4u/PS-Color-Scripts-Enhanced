@@ -5,7 +5,7 @@
 # Source SHA-256: d3981163512cea5a1f0424ef3ddc766cb28feaa5924d2d5ece0bcd1feba21b23
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-CD1.ANS by Black Lightning (Union); released in uni-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chaos Domain
 # SAUCE Author: Black Lightning
 # SAUCE Group: Union
@@ -31,15 +31,10 @@ Write-Host '
 [30manywhere, anyTIME[0;34m▀▀▀▀▀▀    ▀  ■▀[0m        [34m▀▀▀[0m          [34m▀▀▀[0m       [34m▀▀▀▀[0m     [30mfamily.[0m
                         [1;36mD[0m      [36mO[0m      [1;34mM[0m      [1;37mA[0m      I      [1;32mN[0m                   [1;37m▄[0m
 [1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                  Op - Digital Ranger, Remotes - Capain America,
-                      Co - Darkforce, Questor, Chaotic Quack
-                           ATDT 16035821841. Remember it.
+                                                                
+                                                            
+                                                         
 
 [30mSay it, say it,[0m            [1;30m▄ ▄ ▄▄  ▄  ▄  ▄▄[0m                  [30mW E L C O M E[0m
 [30mUNION![0m                     [1;30m▓▌▓ ▓▐▓ ▓ ▓ ▓ ▓▐▓  Is Cool.[0m       [30mT O T H E N E[0m
-                            [1;30m▀▀ ▀ ▀ ▀  ▀  ▀ ▀[0m                 [30mX T U N I O N[0m
-                               [30mSuper secret[0m
-[1;30mHello:[0m                        [30mBlack message[0m
-[1;30mThe Gaurdian, Darkforce, Neurotic, Nailz, Animal, Cyric, mAZZ dELUSIONZ, Abom,[0m
-[1;30mand you too. Yes, you. Stop pointing at yourself. If you want me to call you by[0m
-[1;30myour real handle, send me some mail, or tell me so on IRC. Ok?[0m'
+                            [1;30m▀▀ ▀ ▀ ▀  ▀  ▀ ▀[0m                 [30mX T U N I O N[0m'

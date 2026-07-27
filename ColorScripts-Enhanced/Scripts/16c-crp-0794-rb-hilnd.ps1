@@ -5,7 +5,7 @@
 # Source SHA-256: aadb478ef7ea47a1b7e2c9951471adf6a76d33db70329c3aee46fb5cbb4123b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RB_HILND.ANS by Red Baron (crp-0794); released in crp-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -58,5 +58,4 @@ Write-Host '
 [1;30m ███▄[0m       [1;30m█  ██[0m            [1;30mNo N[0muP A[1mt ThI[0ms MoMe[1;30mnT![0m              [1;30m██ █    ▄██▀[0m
 [1;30m ████▄[0m     [1;30m█▀  ██[0m      [1;30mP/H/[0mA/C/V/T ⌂ [1mEliTe [0mGrOuPs WeLc[1;30mOmE![0m      [1;30m██  ▀█   ██▀[0m
 [1;30m  █████   █▀[0m        [1;30mSySo[0mP: TiMbEr WoL[1mF  Co[0;1;30m: [0mFlyInG DuTc[1;30mHmAn    ██    ▀█   ▀█[0m
-[1;30m   ███    ▀█[0m                                                    [1;30m██[0m         [1;30m▀█[0m
-                        [1;30mAno[0mther MiND Production (C) 1[1;30m994[0m'
+[1;30m   ███    ▀█[0m                                                    [1;30m██[0m         [1;30m▀█[0m'

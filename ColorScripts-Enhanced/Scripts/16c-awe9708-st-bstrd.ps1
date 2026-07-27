@@ -5,7 +5,7 @@
 # Source SHA-256: 1936695e2d7409a4789cc08c154f01cbde4fb54529ffef4fde1e15b5d051d884
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-BSTRD.ANS by Splatt (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bastard
 # SAUCE Author: Splatt
 # SAUCE Group: AWE Lettering
@@ -34,5 +34,4 @@ Write-Host '
                [1;37;47m▓▄[0;1;37;40m▄[0m▄ [36m▀▀ ▄[0;1;36;46m▄ ▀[0;1;36;40m▀[0;36m▀▐[0;1;36;46m░[0;36m▄ [0;1;37m▄   [0;36m▓▀ [0;1;36;46m░░░[0;36m███▓▌[0m      [1;37m▀▀[0;1;36m▀[0;36m▀▌sk!▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m███▀▀[0;1;36;46m▓░[0;36m▓▄▄▌[0m
                [1;37;47m▒▀[0;1;37;40m██[0m     [36m▀▀[0m       [30;47m▒[0m   [36;40m▀▀ ░[0;30;46m▓    [0;36;40m▀▌[0m                       [36;40m▀[0m
              [1;30;40m▀[0;1;30;47m▄[0m█▄[1;47m▄[0;1;40m██▀[0m            ░      [36m░[0;30;46m▓▓▓[0;36;40m▀▀▀▌[0m
-               [1;30;40m▀[0m▐[1;47m▀[0;1;40m▀[0m                                    [1;36;40mBastard[0m
-                    [1;37;40mthis is for my boy magnatop[0m        [36mby skidOO[0m'
+               [1;30;40m▀[0m▐[1;47m▀[0;1;40m▀[0m                                    [1;36;40m       [0m'

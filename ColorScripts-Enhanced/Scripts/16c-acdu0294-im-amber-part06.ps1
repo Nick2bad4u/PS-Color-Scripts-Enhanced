@@ -5,7 +5,7 @@
 # Source SHA-256: 731e66bffbbf53e0b5bed4354c69214638fed40cbac5abe02967be8c4381153f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-AMBER.ANS by Iron Man (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Amber
 # SAUCE Author: Iron Man
 # SAUCE Group: ACiD Productions
@@ -50,13 +50,13 @@ Write-Host '
   [1;31;40m▀[0;1;31;41m▒░[0;31m▄▄▄██▄▄▄██▀[0m        [37m▀███████[0;1;37;47m░░░░[0m█████████▀                 [31m▀[0;1;31;41m░░[0;31m▄▄▄██▄▄▄[0;1;31;41m░▒[0;1;31;40m▀[0m
 [1;31;40m    [0;31m▀▀[0;1;31;41m░░░░[0;31m██▀▀[0m             [37m▀▀▀█████[0;1;37;47m░░░░░[0m▀▀▀                      [31m▀▀██[0;1;31;41m░░░░[0;31m▀▀[0m
         [31m▀▀[0m                       [37m▀▀▀▀[0m                                [31m▀▀[0m
-        [43m  [0m  [1;33m·[0;1;30mIntrusionNet[0;1;33m·[0m      [1;33m·[0;1;30mBAD Member Board[0;1;33m·[0m      [1;33m·[0;1;30miMPACTNet[0;1;33m·  [0;1;33;43m  [0m
-    ▄[1;33;47m░░[0m [1;33;43m [0;43m░[0m  [1;33;40m·[0;1;30;40mStormwatchNet[0;1;33;40m·[0m       [1;33;40m·[0;1;30;40mEMPIRE Distro[0;1;33;40m·[0m        [1;33;40m·[0;1;30;40mCCiNet[0;1;33;40m·    [0;43m░ [0m [1;33;47m██[0;1;33;40m▄[0m
-[1;33;40m    [0;1;33;47m▒▒[0m  [43m░▒[0m  [1;33;40m■[0;1;37;40m([0;1;30;40m914[0;1;37;40m)[0;1;30;40m779[0;1;37;40m-[0;1;30;40m1369[0;1;33;40m■[0m     [1;33;40m·[0;1;30;40mPsychosis Distro[0;1;33;40m·[0m      [1;33;40m·[0;1;30;40mShadowNet[0;1;33;40m·  [0;43m▒░[0m  [1;33;47m▓▓[0m
+        [43m  [0m  [1;33m [0;1;30m            [0;1;33m [0m      [1;33m [0;1;30m                [0;1;33m [0m      [1;33m [0;1;30m         [0;1;33m   [0;1;33;43m  [0m
+    ▄[1;33;47m░░[0m [1;33;43m [0;43m░[0m  [1;33;40m [0;1;30;40m             [0;1;33;40m [0m       [1;33;40m [0;1;30;40m             [0;1;33;40m [0m        [1;33;40m [0;1;30;40m      [0;1;33;40m     [0;43m░ [0m [1;33;47m██[0;1;33;40m▄[0m
+[1;33;40m    [0;1;33;47m▒▒[0m  [43m░▒[0m  [1;33;40m■[0;1;37;40m [0;1;30;40m   [0;1;37;40m [0;1;30;40m   [0;1;37;40m [0;1;30;40m    [0;1;33;40m■[0m     [1;33;40m [0;1;30;40m                [0;1;33;40m [0m      [1;33;40m [0;1;30;40m         [0;1;33;40m   [0;43m▒░[0m  [1;33;47m▓▓[0m
     [1;33;47m▓▓[0m  [43m▒▓[0m                   [1;33;40m·[0;1;30;40mRansom Game Review WHQ[0;1;33;40m·[0m                [43m▓▒[0m  [1;33;47m▒▒[0m
     [1;33;40m▀[0;1;33;47m██[0m [43m▓[0;40m█[0m                     [1;33;40m·[0;1;30;40mLancelot 2 Distro[0;1;33;40m·[0m                   █[43m▓[0m [1;33;47m░░[0m▀
-        ██                        [1;33m·[0;1;30mLupis Distro[0;1;33m·[0m                     ██
-        ▀▀                      [1;33m·[0;1;30m3.2 Gigs Online[0;1;33m·[0m                    ▀▀
+        ██                        [1;33m [0;1;30m            [0;1;33m [0m                     ██
+        ▀▀                      [1;33m [0;1;30m               [0;1;33m [0m                    ▀▀
      [31m▄▄██[0;1;31;41m░░[0;31m▄▄[0m                  [1;33m·[0;1;30m16.8 Dual Standard[0;1;33m·[0m               [31m▄▄[0;1;31;41m░░░[0;31m█▄▄[0m
 [31m  ▄[0;1;31;41m░░░[0;31m█▀▀▀▀[0;1;31;41m░░▒▒[0;1;31;40m▄[0m               [1;33;40m·[0;1;30;40mACiD Member Board[0;1;33;40m·[0m             [31m▄[0;1;31;41m░░░░[0;31m▀▀▀▀█[0;1;31;41m░░░[0;31m▄[0m
 [31m [0;1;31;41m░░░[0;31m██  ██  █[0;1;31;41m░▒▓▓[0m               [1;33;40m·[0;1;30;40miCE Member Board[0;1;33;40m·[0m            [1;31;41m▓▒░░[0;31m█  ██  ██[0;1;31;41m░░▒[0m

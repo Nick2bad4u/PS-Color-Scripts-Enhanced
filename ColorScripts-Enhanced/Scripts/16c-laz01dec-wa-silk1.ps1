@@ -5,7 +5,7 @@
 # Source SHA-256: e1a924605ed397ce404530a2ba91cc321cacabcc8b358bf53f1703c0b2c997d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-SILK1.ANS by warpus (lazarus); released in laz01dec and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: silk
 # SAUCE Author: warpus
 # SAUCE Group: lazarus
@@ -48,17 +48,4 @@ Write-Host '
                                            [31m ░░░[0m     [31m [0;35m░░░░  [0;35;41m██[0;37;40m  [0;34;40m█▀[0;31;44m░░[0;34;40m▒▒░░ [0;32;40m  [0;31;40m      [0m
 [1;30;40mi kind of forgot how to shade so i just went nuts[0m   [31m  [0m     [35;44m▓▓▒▒░░[0;37;40m  [0;34;40m█[0;1;34;44m░░▒▒▓▓██[0;1;34;47m▓▓[0;34m  [0m
                                                     [31m  [0m    [31m     [0;34m█▄▓▓▄█[0;31m  [0m
-[1;30mi must say that it turned out quite interesting[0m      [31m  [0;37m [0;31m [0;37m  [0;31m [0;37m [0;31m    [0;34m░░[0;31m  [0m
-
-[1;30mgreets to: hennifer, agent77, epoxy, shadow hunter, nitris, phantasm, mr.blobie[0m
-           [1;30mcheeze, wyvern, tetanus, isosceles, tna, fluor, widowmaker, dieznyik[0m
-           [1;30mflame, grind king, eiht ball, erratic, samurai, 4th, maharet,[0m
-           [1;30mtechnifix, safety hazard, magnetic rage, fire lord, and offspring[0m
-
-[1;30mjust to name a few artistically inclined people i know or like to talk to :)[0m
-
-[1;30moh and by the way, i''m really a guy.  that whole girl thing was just a plot to[0m
-[1;30mgenerally confuse and irritate everyone.  too bad, eh? :)[0m
-
-[1;30myeah, that''s a crappy divisor.  i don''t care.               [0m
-[1;30mdon''t use with font, iceage (juuuust making sure:)       [--------------------] [0m'
+[1;30m                                               [0m      [31m  [0;37m [0;31m [0;37m  [0;31m [0;37m [0;31m    [0;34m░░[0;31m  [0m'

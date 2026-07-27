@@ -5,7 +5,7 @@
 # Source SHA-256: de3aea287675497332970793d788e3844381818b2e2dd2288792a5b1d6e90b83
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (ZA)MAIN.ANS by ZALZA (SPIN); released in spin-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: ZALZA
 # SAUCE Group: SPIN
 # SAUCE Date: 19980719
@@ -25,16 +25,16 @@ Write-Host '
 [1;30m  .i:I:I¼$$¼½öp±=-[0m       ~                     ~        ~       [1;30m-=±pöS½$[[0;1;32mza[0;1;30m]i½.[0m
 [1;30mi~°^''[0m                        [1;30;47ma[0m .  c .  i .  d   [1;30m░[0m        [31m__[0;32m~^ -÷¬i¼[0;1;32mp[0;32m=-  ^~[0;31m__   [0;1;30m░[0m
 [1;30m^[0m     [1;30m░░[0m                                             [31m_.s[0;1;31mi[0;31m|$io,._ [0;32m^~ [0;31m_.,oi$|[0;1;31mi[0;31ms._[0m
-[1;30m:[0m                                                  [1;30m_ [0;31m~ⁿi:[0;1;37mⁿ[0mⁿ[1;30mⁿ[0;31m:iⁿ~[0;1;30m____[0;31m~ⁿi:[0;1;30mⁿ[0mⁿ[1mⁿ[0;31m:iⁿ~[0m
-[31m  [0;1;30m[[0mJ[1;30m] [0;36;47mj[0;36;40mOiN cONF.[0m        [1;30;40m[[0mW[1;30m] [0;36mtHE wALL[0m              [1;30m^is._[0;31m`^~~^~[0;1;30m,i$ÖⁿⁿÖ$i.[0;31m^~~^`[0;1;30m_.s[0m
-[1;30m  [[0mL[1;30m] [0;36mliST fiLES[0m        [1;30m[[0mA[1;30m] [0;36maDD bBS[0m                 [1;30m°$▓SzSIi ^~~.ii ~~^ :ISz$▓$[0m
-[1;30m: [[0mU[1;30m] [0;36muPLOAD[0m            [1;30m[[0mR[1;30m] [0;36mrE[0;36;47mQ[0;36;40mUEST[0m             [1;30;40m_    `ⁿS$Sⁿ'':i½i_  _i½i  `ⁿS$S''[0m
-[1;30m  [[0mD[1;30m] [0;36mdOWNLOAD[0m          [1;30m[[0mT[1;30m] [0;36mtODAY''S nEWS[0m        [1;30m░[0m        [33m_  [0;1;30m~~^°ⁿⁿⁿⁿ°^~~  [0;33m_[0m
+[1;30m [0m                                                  [1;30m  [0;31m    [0;1;37m [0m [1;30m [0;31m    [0;1;30m    [0;31m    [0;1;30m [0m [1m [0;31m    [0m
+[31m  [0;1;30m [0m [1;30m  [0;36;47m [0;36;40m         [0m        [1;30;40m [0m [1;30m  [0;36m        [0m              [1;30m     [0;31m      [0;1;30m          [0;31m     [0;1;30m   [0m
+[1;30m   [0m [1;30m  [0;36m          [0m        [1;30m [0m [1;30m  [0;36m       [0m                 [1;30m  ▓                      ▓ [0m
+[1;30m   [0m [1;30m  [0;36m      [0m            [1;30m [0m [1;30m  [0;36m  [0;36;47m [0;36;40m    [0m             [1;30;40m                               [0m
+[1;30m   [0m [1;30m  [0;36m        [0m          [1;30m [0m [1;30m  [0;36m            [0m        [1;30m░[0m        [33m   [0;1;30m              [0;33m [0m
                                                       [33m.s$|$io,._    _.,oi$|$s. [0;1;30m.[0m
-[1;30m  [[0mL[1;30m] [0;36mlAMER liST[0m        [1;30m[[0m![1;30m] [0;36maBOUT mE ;)[0m              [33m|ⁿ^~[0;31m~~[0;37m½i.[0m       [37m.i½[0;31m~~[0;33m~^ⁿ|[0m
-[1;30m: [[0mN[1;30m] [0;36mnEW fILES[0m         [1;30m[[0m%[1;30m] [0;36mtOP uSERS![0m     [1;30m░░[0m        [33m^ [0;1;30mi[0m| ~[1mi[0m:         :[1mi[0m~ |[1;30mi [0;33m^[0m
-[33m  [0;1;30m[[0mW[1;30m] [0;36mwRi[0;36;47mT[0;36;40mE mESSAGE[0m     [1;30;40m[[0mS[1;30m] [0;36msPiN iNFO.[0m               [33m: [0;1;30m~[0m~                 ~[1;30m~ [0;33m: [0;1;30m:[0m
-[1;30m  [[0mE[1;30m] [0;36meNTER mESSAGE[0m     [1;30m[[0mM[1;30m] [0;36mmESS cONF''S[0m         [1;30m:    [0;33m_ [0;1;30mi   [0;1;37mi[0m:    [31m_    [0;37m:[0;1;37mi   [0;1;30mi [0;33m_[0m
-[1;30m: [[0mH[1;30m] [0;36mhELP mE![0m          [1;30m[[0mG[1;30m] [0;36;47mg[0;36;40mOODBYE(cLiCK)[0m         [1;30;40mi [0;33m|cp,[0;31m,.[0;37m½i.[0;31m.siYis.[0;37m.i½[0;31m.,[0;33m,pc|[0m
+[1;30m   [0m [1;30m  [0;36m          [0m        [1;30m [0m [1;30m  [0;36m           [0m              [33m    [0;31m  [0;37m   [0m       [37m   [0;31m  [0;33m    [0m
+[1;30m   [0m [1;30m  [0;36m         [0m         [1;30m [0m [1;30m  [0;36m          [0m     [1;30m░░[0m        [33m  [0;1;30m [0m   [1m [0m           [1m [0m   [1;30m  [0;33m [0m
+[33m  [0;1;30m [0m [1;30m  [0;36m   [0;36;47m [0;36;40m         [0m     [1;30;40m [0m [1;30m  [0;36m          [0m               [33m  [0;1;30m [0m                   [1;30m  [0;33m  [0;1;30m [0m
+[1;30m   [0m [1;30m  [0;36m             [0m     [1;30m [0m [1;30m  [0;36m           [0m         [1;30m     [0;33m  [0;1;30m    [0;1;37m [0m     [31m     [0;37m [0;1;37m    [0;1;30m  [0;33m [0m
+[1;30m   [0m [1;30m  [0;36m        [0m          [1;30m [0m [1;30m  [0;36;47m [0;36;40m             [0m         [1;30;40m  [0;33m    [0;31m  [0;37m   [0;31m       [0;37m   [0;31m  [0;33m    [0m
 [1;30mi_[0m  [1;30m [0m                     [1;30m_[0m                    [1;30m_i  ░ [0;33m`°ⁿS|$iÅ■*[0;31m^~ ~^[0;33m*■Åi$|Sⁿ°'' [0;1;30m░[0m
                                                    [1;30m~[0m     [33m^~[0m             [33m~^[0m     [1;30m^[0m'

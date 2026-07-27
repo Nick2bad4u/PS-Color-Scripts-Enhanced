@@ -5,7 +5,7 @@
 # Source SHA-256: b72810a8382c181c1264c0fd8729d54415b665e5c05e9a4099bc0263790a301d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CY-BUR.ANS by cynical (READ THE INI FILE); released in blur-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blur #2
 # SAUCE Author: cynical
 # SAUCE Group: READ THE INI FILE
@@ -31,5 +31,4 @@ Write-Host '
                 [32;40m▀▄[0m       [36;40m▄▄[0;36;42m░░▒░[0;36;40m▌[0m             [36;40m▄▄▄[0;36;42m░░▒░[0m   [36;42m░▒▒░[0m
                   [1;32;40m■[0m          [36m▀[0;1;32m▀▀▄[0m               [36m▀▀▀▄  ▄[0;36;42m░░▒░[0;36;40m▄[0m
                    [1;32;40m▄[0m            [36m [0m                   [1;32m▀[0;36m   ▀▀      [0m
-                   [1;32m [0m                                 [1;32m■[0m
-                                                               [36m-cynical.[bLUR][0m'
+                   [1;32m [0m                                 [1;32m■[0m'

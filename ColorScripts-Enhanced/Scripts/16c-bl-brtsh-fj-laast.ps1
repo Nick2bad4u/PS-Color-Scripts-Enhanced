@@ -5,7 +5,7 @@
 # Source SHA-256: 56f2f4cc4b44b76ca6b758067e0f02d7d4e8bd21ab78367fb877e3e84206d96e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ_LAAST.ANS by fastjack (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: free lastcaller
 # SAUCE Author: fastjack
 # SAUCE Group: boil
@@ -41,4 +41,4 @@ Write-Host '
 
 
 [1;30m-----------------░░------------------------▒------------------(freeeeee)--------[0m
-it''s not a trick. it''s a freebee !  take it or leave it...      [1;30mfastjack^boil[0m [1;30m░[0m'
+                                                                [1;30m             [0m [1;30m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 87c0a3c566b67a59af97e7e2ab05d391b30722c6c8715a4186dcbe99400c8cc5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ER404.ans by Horsenburger + Nail (blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: error 404
 # SAUCE Author: horsenburger + nail
 # SAUCE Group: blocktronics
@@ -59,6 +59,6 @@ Write-Host '
 
 
 
-                        [1;30mhellboy created by mike mignola.[0m
+                        [1;30m                                [0m
 
-     [1;30mansi by horsenburger and nail of blocktronics[0m [1;30m ░[0m [1;30m www.blocktronics.org[0m'
+     [1;30m                                             [0m [1;30m ░[0m [1;30m                     [0m'

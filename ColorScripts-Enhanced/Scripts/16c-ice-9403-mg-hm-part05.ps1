@@ -5,7 +5,7 @@
 # Source SHA-256: 1de9f5d17945f204b45adadc9bf5a656fb813d4d731e2e5bda78dd7c0604dafc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MG-HM.ICE by Magnus (ice-9403); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 195-239
 # Columns: 1-80
 
@@ -32,9 +32,9 @@ Write-Host '
 [35m    [0;30m████████[0m
 [30m    ████████[0m              [1m·  H a r v e s t  M o o n  ·[0m
                                  [1m216.951.7059[0m
-                    [1mSysops: QuR''aN . JabberWocky . Magnus[0m
-            [1mUSRobotics  TERBO . No Ratios . 430 Megabytes Online[0m
-            [1mPull-Down Menus . ViSiON/2 and Support . Art Support[0m
+                    [1m                                     [0m
+            [1m                                                    [0m
+            [1m                                                    [0m
 
                                               [1;35m▄[0m                  [1;35m▄[0m
                                            [1;35m■▄▐▌[0m         [1;35m■[0m        [1;35m▐[0;35m▌[0m
@@ -53,5 +53,4 @@ Write-Host '
  [32m▀[0;1;32;42m░[0;32m▄ ▀[0;1;30;42m░[0;32m▄▄▀■▀[0;1;32;42m░░[0;32m▌ ▐[0;1;32;42m░▒░[0;32m▄ [0m█[1;30;47m░▒[0m [32m▄▄▀  ▄ ▀[0m     [32m▄▀[0m
 [32m ▄▄ ▀ ▐[0;1;30;42m░▒░[0;32m▌  ▀▄  ▀[0;1;32;42m░▒░[0;32m█ [0m▀[32m▄[0;1;32;42m░▒[0;32m▌ ▄█[0;1;32;42m░[0;32m▌ ▄[0;1;30;42m▒[0;32m▀[0m         Twingle.Shadow.StormWatch.Valiant
   [32m▀[0;1;32;42m▒░[0;32m▄ ▀▀[0;1;30;42m░░[0;32m▄    ▄  ▄▀▄▄▀[0;1;32;42m░▒[0;32m▀ ▀▐[0;1;32;42m░▒[0;32m▀    ▀[0m        Fanatic.Allegiance.iCN.GRiP.UNiON
-       [32m▀    ▀[0m          [32m▀[0m                                  ans[1mi [0mby [1;30mmag[0;32mnu[0;1;32ms [0mof [1;30mi[0;32mc[0;1;32me[0m
-                                            [1;30mminor revisions and font by [0;1;32mi[0;32mnc[0;1;30mubus[0m'
+       [32m▀    ▀[0m          [32m▀[0m                                     [1m  [0m   [1;30m   [0;32m  [0;1;32m  [0m   [1;30m [0;32m [0;1;32m [0m'

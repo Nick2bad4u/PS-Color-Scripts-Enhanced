@@ -5,7 +5,7 @@
 # Source SHA-256: 6249c3e3988e3376769d9f868e861c84c2cadf30e2a3fa5ad018844918d80480
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-PHATM.ANS by tricycle (phat productions '96); released in phat1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "official phat member board"screen
 # SAUCE Author: tricycle
 # SAUCE Group: phat productions '96
@@ -35,6 +35,6 @@ Write-Host '
               [34m▀[0m   [1;34;44m▌[0m [34m░[0m   [34m▀▀▀▀[0;1;34m▒[0;34m▀▀█▄▄[0m   [34m█▀▀[0;37m [0;1;34;44m░[0;34m■[0m    [1;36m░[0m░ [1;34m░[0m [34m▐▀▀▀▀▀[0;1;34;44m░[0;34m▄▄▄[0m   [34m▐▀■[0m   [1;36;46m▓▒░[0;36m▓[0;1;30;46m▓▀[0;36m▄[0m
                  [1;34m░[0;1;34;44m▌[0m         [1;34m░[0m    [34m▀▀▀▀▀[0;1;34;44m▀[0;34m▌▀[0m      [36m░[0m    [34m▀▓■[0m   [1;34m░[0m [1;34;44m░▒[0;34m▀▓▄▐[0m    [1;36m▐[0;1;36;46m▒[0;1;33;46mp[0;1;31;46mh[0;1;35;46ma[0;1;34;46mt[0;1;30;46m░▒[0m
                   [1;34m▀■[0m                [34m■▀[0m               [34m░[0m      [1;34m░[0;1;34;44m▌[0m [34m░[0;37m [0;34m▐[0m    [1;36;46m▒░[0;36m█[0;1;36;46m░[0;1;30;46m░[0;1;36;46m [0;1;30;46m░[0;1;30;40m▌[0m
-                         [1mofficial  phat  member  board[0m      [1;34m [0;1;34;44m▌[0m       [1;36m▐[0;1;36;46m░[0;1;32;46mc[0;1;36;46ma[0;1;37;46mp[0;1;30;46m ░▒[0m
+                         [1m                             [0m      [1;34m [0;1;34;44m▌[0m       [1;36m▐[0;1;36;46m░[0;1;32;46m [0;1;36;46m [0;1;37;46m [0;1;30;46m ░▒[0m
                                                              [1;34m▀■[0m      [1;36m▀[0;36m▀▀[0;1;30;46m░[0;1;36;46m [0;1;30;46m░▒[0;1;30;40m▌[0m
                                                                            [1;30m▀[0m'

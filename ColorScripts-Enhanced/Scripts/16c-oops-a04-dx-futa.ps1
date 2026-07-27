@@ -5,7 +5,7 @@
 # Source SHA-256: cc116e37da5c6edaec65a02c56dce87f1e91f53d8b07b2fdae1c06511ed16f3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX!-FUTA.ANS by Drax (oops_a04); released in oops_a04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
 
 
 ---------------[delete]---------------------------------------------------------
-Hi funk-man .. nothing speciall with this ascii.. maybe the coloring is with
-more colors.. heh=) .. well bye !@
+                                                                            
+                                  
 
 (/drax\)--   -[0m'

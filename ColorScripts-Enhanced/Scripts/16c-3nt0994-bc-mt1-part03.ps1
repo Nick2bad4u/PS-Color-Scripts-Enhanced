@@ -5,7 +5,7 @@
 # Source SHA-256: b66cddd438bf9ad1ff67aee2ea779142be5b7b4710d64f6369aa79011737a237
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-MT1.ANS by Beyond Cool (3nt0994); released in 3nt0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 86-127
 # Columns: 1-80
 
@@ -32,23 +32,23 @@ Write-Host '
 
 [1;30m────────-M─[0;1;31m─[0;1;30m-[0;36mY[0;1;30m─[0;35m─[0;1;30m-[0;1;36mS[0m─[1;35m─[0m-[1mT[0m─[1;35m─[0m-[1mi[0m─[1;35m─[0m-[1mC[0m─[1;35m─[0m-[1mA[0m─[1;35m─[0m─[1ml[0m─[1;35m──────[0m-[1mT[0m─[1;35m─[0m-[1mH[0m─[1;35m─[0m-[1mi[0m─[1;35m─[0m-[1mE[0m─[1;35m─[0m-[1;36mV[0;1;30m─[0;35m─[0;1;30m-[0;36mE[0;1;30m─[0;1;31m─[0;1;30m-S─────────[0m
 
-[1;33m                                 [0;1;30mD[0;36mA[0;1;36mM[0;1;37mNATiON [0;1;36mW[0;36mH[0;1;30mQ[0m
-[1;30m                                 C[0;36mA[0;1;36mT[0;1;37mHEDRAL [0;1;36mW[0;36mH[0;1;30mQ[0m
-[1;30m                                   R[0;36mH[0;1;36mY[0;1;37mME [0;1;36mB[0;36mH[0;1;30mQ[0m
-[1;30m                                  V[0;36mE[0;1;36mL[0;1;37mOCiTY [0;1;36mB[0;36mH[0;1;30mQ[0m
-[1;30m                                  A[0;36mN[0;1;36mT[0;1;37mARES [0;1;36mF[0;36mH[0;1;30mQ[0m
-[1;30m                               P[0;36mH[0;1;36mU[0;1;37mN PPE AFFiLi[0;1;36mA[0;36mT[0;1;30mE[0m
-[1;30m                              T[0;36mH[0;1;36mE [0;1;37mCYBERPUNKS D[0;1;36mi[0;36mS[0;1;30mT[0m
-[1;30m                                    P[0;36mM[0;1;36mA [0;1;37mD[0;1;36mi[0;36mS[0;1;30mT[0m
-[1;30m                              T[0;36mH[0;1;36mE [0;1;37mFLiNTSTONES D[0;1;36mi[0;36mS[0;1;30mT[0m
-[1;30m                               B[0;36mL[0;1;36mA[0;1;37mCK DESiGN D[0;1;36mi[0;36mS[0;1;30mT[0m
-[1;30m                                 B[0;36mL[0;1;36mA[0;1;37mCK OUT D[0;1;36mi[0;36mS[0;1;30mT[0m
-[1;30m                                P[0;36mR[0;1;36mO[0;1;37mBOTECTOR D[0;1;36mi[0;36mS[0;1;30mT[0m
-[1;30m                                  i[0;36mM[0;1;36mA[0;1;37mGiNE D[0;1;36mi[0;36mS[0;1;30mT[0m
+[1;33m                                 [0;1;30m [0;36m [0;1;36m [0;1;37m       [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                                  [0;36m [0;1;36m [0;1;37m       [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                                    [0;36m [0;1;36m [0;1;37m   [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                                   [0;36m [0;1;36m [0;1;37m      [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                                   [0;36m [0;1;36m [0;1;37m     [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                                [0;36m [0;1;36m [0;1;37m            [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                               [0;36m [0;1;36m  [0;1;37m            [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                                     [0;36m [0;1;36m  [0;1;37m [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                               [0;36m [0;1;36m  [0;1;37m             [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                                [0;36m [0;1;36m [0;1;37m           [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                                  [0;36m [0;1;36m [0;1;37m        [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                                 [0;36m [0;1;36m [0;1;37m          [0;1;36m [0;36m [0;1;30m [0m
+[1;30m                                   [0;36m [0;1;36m [0;1;37m      [0;1;36m [0;36m [0;1;30m [0m
 
- [36mlEADER: [0;1;37mTEMPEST [0;1;30m-[0m/[1;36m- [0;36mHiDEoUT BUilT[0m [36moN [0;1;37mPCBoARD 15.x [0;1;36m-[0m\[1;30m- [0;1;37m*FAST*[0;36m (0-7) [0;1;37mSCENEWAREZ[0m
+ [36m        [0;1;37m        [0;1;30m [0m [1;36m  [0;36m             [0m [36m   [0;1;37m             [0;1;36m [0m [1;30m  [0;1;37m      [0;36m       [0;1;37m          [0m
 [1;30m───────────────────────────────────────┐┌───────────────────────────────────────[0m
- [1;30mPERSoNAl GREETZ To : BURPS [LBo][0m      [1;30m││ FiNiSHED BY B∙C oN 16:32  Aug, 28 1994[0m
-[1;30m GRoUP GREETZ To : iCE, ACiD, LBo[0m      [1;30m││ FoNT + DRAWiNG DoNE ENTiRElY BY B∙C[0m
-[1;30m PERSoNAl HATRED To : FREAKER [TUC][0m    [1;30m││[0m [1;30mTRiNiTY - THE DiViNE GRoUP ! - KiK ASS[0m
+ [1;30m                                [0m      [1;30m││                                       [0m
+[1;30m                                 [0m      [1;30m││                                    [0m
+[1;30m                                   [0m    [1;30m││[0m [1;30m                                      [0m
 [1;30m───────────────────────────────────────┘└───────────────────────────────────────[0m'

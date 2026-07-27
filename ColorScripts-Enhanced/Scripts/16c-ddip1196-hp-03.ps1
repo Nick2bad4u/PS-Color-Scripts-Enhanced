@@ -5,7 +5,7 @@
 # Source SHA-256: b163079defcbcde50e27b538497e690cce460a7c49fa9d0713f1134a0b37b26e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HP-03.ANS by Hyper (ddip1196); released in ddip1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -26,9 +26,7 @@ Write-Host '
                 [37m▀▄▄[0;1;36m▀▀■ [0;34m▄■▀█[0;1;34;44m░▓[0;1;30;40m [0;1;30;47m░[0;1;30;40m  [0m▀▄▄[1;36m▀▀■ [0;34m▄■▀█[0;1;34;44m░▓[0;1;30;40m [0;1;30;47m░[0;1;30;40m  [0m ▀▄▄[1;36m▀▀■ [0m█
                 [1;30m   [0m▀▀▀▄▄▄▄▄ [34m▀[0;37m▐▌  [0;1;30m   [0m▀▀▀▄▄▄▄▄ [34m▀[0;37m▐▌   [0;1;30m   [0m▀▀▀▄█
                     [1;30m       [0m▀▀▀       [1;30m       [0m▀▀▀
-                            D[1;36mi[0;34mGiTÆL[0;37m D[0;1;36mi[0;34mViNiTY[0;37m i[0;1;36mN[0;34mC.[0m
+                             [1;36m [0;34m     [0;37m  [0;1;36m [0;34m      [0;37m  [0;1;36m [0;34m  [0m
 
                                    [1;37m<┤NSi[0m
-                                 [1mßY[0m [1m├┤YPεR[0m
-
- [1;30m         [0m'
+                                 [1m  [0m [1m├┤    [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 625213b3825ef42dc5f7175aa41b400c5e7cafc012fc07d0a2f785d0c93a3fed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-GLUE1.ANS by Warpus (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Glue Promotional
 # SAUCE Author: Warpus
 # SAUCE Group: AWE Lettering
@@ -32,13 +32,4 @@ Write-Host '
   [1;34m    [0m [31m  ▐▌▐[0;1;31;41m▓[0;31m ▐  [0;1;34m▀▀ [0m [1;31;41m▒▒[0;31m█▄  [0;1;31;41m██[0;31m  █▀▀[0;1;31;41m▐[0;1;31;47m▓[0;31m▄     [0;1;31;41m█[0;1;31;40m▀[0;31m▐[0;1;31;47m▒[0;31m [0;1;31;41m█[0;31m  [0;1;31;41m▒  [0m [1;34m▀██▌ [0;31m█   █  [0;1;34m▀▀▀      [0m
    [1;34m [0m   [31m [0;30;41m░[0;31;40m▓▄[0;1;31;41m▐█[0;1;31;40m▄▄▄▄▄[0;1;31;47m▓▓[0;1;31;41m█▓▓[0;31m▌ ▀▄█▀▀▀▀  █[0;1;31;41m█▓[0m  [31m  ░[0;1;31;41m█[0;31m ▐[0;1;31;47m▓[0;31m [0;1;31;41m█[0;31m  [0;1;31;41m░  [0;31m▌▄[0m   [31m▐[0;30;41m░[0;31;40m▓█▀▀ ▒▒[0;37;40m [0;34;40m warpus[0m
        [31;40m░[0;30;41m▓[0m            [1;31;41m██[0;31m▌[0m   [31m▀▄   [0;30;41m░[0;31;40m▓ [0;1;31;40m▀▀[0;31m▀▀▀▀▀▀ ▐[0;1;31;41m▀[0;31m [0m      [31m ▀▀▀▀[0;30;41m░[0;31;40m  ▌    ▐▌[0m
-                             [31;40m ░[0;30;41m▓[0m                          [30;41m▓[0;37;40m  [0;31;40m▀ ▄▄ ▀[0m
-
-     [1;31;40m                 [0m  [1;31mglue[0;31m [0;1;31m [0;31m keeping it together[0m
-
-
-
-
-[37m [0;1;30mdrawn in just under an hour, a guest for the glue pack.[0m
-
- [1;30mcheck that thing out, it''s elite.[0m'
+                             [31;40m ░[0;30;41m▓[0m                          [30;41m▓[0;37;40m  [0;31;40m▀ ▄▄ ▀[0m'

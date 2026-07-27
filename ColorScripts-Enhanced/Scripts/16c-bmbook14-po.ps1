@@ -5,7 +5,7 @@
 # Source SHA-256: 2d1e9c846aff4a603965dd63b7b70c8dea45f64c7abbece12c0ed5fcd8aa2950
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO!.ANS by -------------------- (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: poti
 # SAUCE Author: --------------------
 # SAUCE Group: black maiden
@@ -23,6 +23,5 @@ Write-Host '
  [32m░░[0;37m  [0;1;31m▀[0;1;31;41m▀[0;1;31;47m▓▓[0;1;31;41m▄[0;1;31;40m▄▄[0;31m▄[0;1;34m▀▀▀[0m              origin [1mgermany[0m        [1;30m [0m
 [32m░▓▓█[0;1;32;42m▄[0;1;32;40m▄▄▄[0;1;32;41m▄[0;1;31;42m▀[0;1;31;40m▀[0;31m▀[0m    [37m▄▐[0;1;37;47m▄[0;1;37;40m▒[0m▄
     [32m ▀[0;1;32m▀▀▀[0;1;32;47m▓[0;1;32;42m█[0;1;32;40m▓▒░[0m ▐[1;47m█[0;1;36;40m██[0;1;37;40m█▓▒[0m        [1;30mnot much too say ''bout him, either. besides his[0m
-                ▀[1;47m▀[0;1;36;40m▓[0;1;37;40m█▀[0m         [1;30m"job" fon black maiden, he''s also modding for[0m
-                  [1;36m░[0m           [1;30mxpress and operating one of the fastest artboards[0m
-                              [1;30min germany.[0m'
+                ▀[1;47m▀[0;1;36;40m▓[0;1;37;40m█▀[0m         [1;30m                                             [0m
+                  [1;36m░[0m           [1;30m                                                 [0m'

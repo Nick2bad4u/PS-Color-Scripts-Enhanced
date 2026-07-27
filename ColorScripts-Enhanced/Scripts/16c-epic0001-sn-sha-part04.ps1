@@ -5,7 +5,7 @@
 # Source SHA-256: cb4b4932c8def6ef4a583497bf4c456ae7d46c91394fe6bf1d3a3d707ad0c69b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-SHA.ANS by Snowball (Ecolove); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shaolin Style
 # SAUCE Author: Snowball
 # SAUCE Group: Ecolove
@@ -48,13 +48,13 @@ Write-Host '
 
                                       [1;30m▄[0m
 [1;30m     [0m                               [1;30m▀[0m
-    [1;36mQuick Shoutouts:[0m  [1;30mEpic ... ta ... pr ... 144 ... db ... cpl ... sd ... ex0[0m
-                   [1;30m▄[0m  [1;30mVII[0m  [1;30m...[0m [1;30mxm ...[0m [1;30map ... inc ... cls    [0m
-                   [1;30m█▀[0m [1;30mGlue[0m [1;30m...[0m [1;30mld ... gec... tg  ... vld[0m  [1;30m▄[0m           [1;30m▄[0m
+    [1;36m                [0m  [1;30m                                                        [0m
+                   [1;30m▄[0m  [1;30m   [0m  [1;30m   [0m [1;30m      [0m [1;30m                      [0m
+                   [1;30m█▀[0m [1;30m    [0m [1;30m   [0m [1;30m                         [0m  [1;30m▄[0m           [1;30m▄[0m
                    [1;30m▄[0m  [1;30mKibosh[0m    [1;30m▄[0m                       [1;30m▀▀█▄▀[0m [1;30m▀[0m    [1;30m▀▄▄▌[0m
                       [1;30mEcl[0m     [1;30m▀[0m   [1;30m▄█▄[0m                              [1;30m▄[0m [1;30m█▀[0m
                    [1;30m▀[0m  [1;30mIce[0m          [1;30m▀[0m
-                   [1;30m█[0m  [1;30mAcid[0m     [1;30mFor sure i forgot some ppl [0m
+                   [1;30m█[0m  [1;30m    [0m     [1;30m                           [0m
 [34m▄[0m
 [34m▌[0m
 [34m█[0;1;36;44mSnowball[0;34m█[0;1;36;44madult entertainment (c)  [0;34m▓▓▒▒░░[0;37m [0;34m░░░[0m      [34m░░░[0;37m [0;1;36m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: fd12185e2bdfafaf04e429dd7166830b550273ca0b168e8f5907d75ca7fa8477
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-NEWM.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "NEW" (mail?)
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
@@ -38,7 +38,5 @@ Write-Host '
                        [37m▀▀▀█[0;1;37;47m▓██[0m█▌        ▄█[1;47m█▓░[0m▀▀[1;47m▀▓▄▄[0m▄▄▄    [32m▀[0;1;33;42m▀[0;32m▌[0m    [37m▐█[0;1;37;47m███▓▓░[0m▀
                [37m▄[0m   [37m▄▄  ▄▄[0;1;37;47m░▓█▀[0m█▀   ▄ ▄▄▄█[1;47m▄█▀[0m▀     ▀▀[1;47m▀▓▓[0m█▄ ▄  [32m▀[0m    [37m ▀█[0;1;37;47m▀▀[0m██▄ ▄▄ ▄
 
-[1mYou have [0;32m475[0;1;37m new message(s). Would you like to read mail? [0m [1;36;42m [0;1;37;42mYea[0;1;36;42m [0m [1m/[0m nay
-────(cut)───────────────────────────────────────────────────────────────────────
-It says "new" and you can use it if you want to. Remember: BBS''s are dead.
-Shrimp@hotmail.co.il[0m'
+[1m         [0;32m   [0;1;37m                                              [0m [1;36;42m [0;1;37;42m   [0;1;36;42m [0m [1m [0m    
+────(cut)───────────────────────────────────────────────────────────────────────[0m'

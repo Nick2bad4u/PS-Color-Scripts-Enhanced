@@ -5,7 +5,7 @@
 # Source SHA-256: c188f25cfbd012e60746cbff7ebf520d10ada668a6a0928d99015da1cfec816e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-INK.ANS by Smooth (Teklordz); released in tl199603 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iNKage
 # SAUCE Author: Smooth
 # SAUCE Group: Teklordz
@@ -36,5 +36,5 @@ Write-Host '
 [36m   [0;32m [0;37m  ▀▀▀▄▄  [0;1;30m [0m [1;30mbY - sMOOtH.tL[0m    [1;30m▄▄[0m [1;30m▀  [0m      [1;30m  [0m                     [31m  ▄░[0;37m [0;1;30m▀▀▀█▄[0m
 [36m           [0m   [1;30m▄[0m        [1;30m▄▄▄▄▄▄█▀▀▀[0m               [36m              [0m      [31m █[0;1;31;41m░[0;31m▓ [0m     [1;30m▀[0m
 [36m.[0;1;32m8o8[0;36m.[0;32m674[0;36m.167[0;1;36m3[0;36m [0;1;36m     [0;1;30m▀▀▀▀▀▀[0m                                       [31m [0m   [31m▐▌[0;1;31;41m▒░[0;31m▌ [0m
-[36mrunning.obv[0;1;36mTWO[0;36m {[0;32mp[0;1;32mHUNKe[0;32md.s[0;1;32mETU[0;32mp[0;36m} --`smoot[0;1;36mH[0;36m*t[0;1;36ms[0;36m''= dude[0;1;36mZ[0;36m.w/powe[0;1;36mR[0;1;32m²[0m   [31m  [0;37m  [0;31m▓▀▄[0;1;31;41m▓░[0;31m█▄      [0m
-[36mart[0;1;36mstuff[0;36m /~^~\ ziNEs+[0;1;36mMAGz[0;36m /~^~\ [0;31mmOP.[0;1;31mHI[0;31m.hQ [0;36m_/~^~\_[0;37m [0;31mtek[0;1;31mLORDz[0;31m.whq <█▄▄▄█[0;1;31;41m░▒▒░[0;31m██▄[0;36m    [0m'
+[36m           [0;1;36m   [0;36m  [0;32m [0;1;32m     [0;32m   [0;1;32m   [0;32m [0;36m          [0;1;36m [0;36m  [0;1;36m [0;36m       [0;1;36m [0;36m       [0;1;36m [0;1;32m [0m   [31m  [0;37m  [0;31m▓▀▄[0;1;31;41m▓░[0;31m█▄      [0m
+[36m   [0;1;36m     [0;36m             [0;1;36m    [0;36m       [0;31m    [0;1;31m  [0;31m    [0;36m       [0;37m [0;31m   [0;1;31m     [0;31m      █▄▄▄█[0;1;31;41m░▒▒░[0;31m██▄[0;36m    [0m'

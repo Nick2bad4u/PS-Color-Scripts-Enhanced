@@ -5,7 +5,7 @@
 # Source SHA-256: 1bb4ef3ebdd876e048e82b3e95727083d4666b180e7d7b70d80bf306ad135389
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc43.ans by Black Jack (Plain [11/14/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ascii for ANYONE
 # SAUCE Author: Black Jack
 # SAUCE Group: Plain [11/14/96]
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[31mb,_  `m,_   _[0m       [31m.   .[0m       [1;37m_,mmmm@@@@mmmm,_    [0;31m.   [0;1;30mblack jack    [0;31m`;[0m
+[31m             [0m       [31m     [0m       [1;37m                    [0;31m    [0;1;30m              [0;31m  [0m
 [31m`Y$$b,`Y$b,  `,[0m      [31m:.:    [0;1;37m,mPⁿ°"~`[0m_,m[1;30m@@[0mm,_[1m`~"°ⁿYm, [0;31m`:.[0m          [31m_.+ ''[0m
 [31m+ `"ⁿ$b,$[0;1;31m$$,  [0;31md,_ _,mi:''  [0;1;37m,dm,_`ⁿY$[0m$$$[1;30m$$$$[0m$$$[1m$Pⁿ''_,mb, [0;31m`ⁿb,_  ,mPⁿ''[0m      [31m,__[0m
 [31m`;   l$[0;1;31m$[0;31m$&$[0;1;31m$m[0;31md$Pⁿ''~[0;1;31mⁿ[0;31mYi   [0;1;37m&$I`ⁿ:i:,[0mⁿ°"~    ~"°ⁿ[1m,:i:ⁿ''I$&  [0;31m`Y$S$Pⁿ''[0m      [31m,$$Y''`+[0m
@@ -38,9 +38,4 @@ Write-Host '
 [31m`Y$[0;1;31m$$il$$y$&$$$$$$$$$Il$[0;31m$$,[0m                      [31m;[0m    [31m,dY$[0;1;31m$$[0;31m$[0;1;31m$$ⁿ$$$$[0;31m$$b,_[0;37m  [0;31m _,$[0;1;31m$[0m
 [31m  `ⁿ$$$[0;1;31milI[0;31m$$[0;1;31m$$$[0;31m$[0;1;31m$$$[0;31m$[0;1;31m$$i[0;31m$$$b,_[0m                [31m_,m@Pⁿ"°ⁿY$$$$$[0;1;31m$$$y$[0;31m$[0;1;31m$$$$[0;31m$$[0;1;31m$[0;31m$$S$[0;1;31m$$[0;31m$[0m
       [31m`~[0;1;31m"[0;31m"[0;1;31m""[0;31m"[0;1;31m°ⁿY$$$$Il[0;31mPⁿ°"~ `+[0m               [31mⁿ°"~[0m       [31m~"°ⁿ$$$$$$$$$$$$$[0;1;31m$[0;31m$$ⁿ°"~[0m
-[31m--------------------------------------------------------------------------------[0m
-        [1;37mok .. this is an ascii for ANY board.. ANYONE can use this .. no matter[0m
-[1mwho .. or for what board.. add a font to the bottom of this .. etc.. whatever.[0m
-[1mJust keep my name.  Have fun all you hicks.[0m
-
-                                              [1m - Black Jack [plain.odelay][0m'
+[31m--------------------------------------------------------------------------------[0m'

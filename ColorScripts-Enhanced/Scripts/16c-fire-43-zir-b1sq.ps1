@@ -5,7 +5,7 @@
 # Source SHA-256: cb5e4afcd527af4414855657918f6de61185a5727c5abd424f3a1ca94af0dd70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-B1SQ.ANS by zir (FiRE); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: zir
 # SAUCE Group: FiRE
 # SAUCE Date: 20250707
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                     [1;30;40m░░░  [0mbisquick upside[1;30m-[0mdown spells [1;30m:[0m
+                     [1;30;40m░░░  [0m               [1;30m [0m            [1;30m [0m
 
                       [34m▄[0;1;34;44m▄[0;34m█▄░▄░[0m                  [37m░░░[0m             [1;37m░░░░[0m
                [34m░░░▄[0;37m  [0;34m░[0;1;34;44m■[0;1;34;47m▄[0;1;34;44m▀[0;34m▓[0;37m [0;34m▀[0;37m   [0;34m▀[0;37m [0;34m░░░[0;37m [0;34m░░░[0m       [1;37;47m▐█░[0m  [1;30m░░ ░░[0m    [33m░[0;1;37m▄████[0;1;33m█▄▄[0m

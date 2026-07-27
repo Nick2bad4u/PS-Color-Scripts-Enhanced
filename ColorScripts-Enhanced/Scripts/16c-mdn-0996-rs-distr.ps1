@@ -5,7 +5,7 @@
 # Source SHA-256: f3afa187f131a67fbf4bc8a0928b02da92ef61c678c6d478eeeb6a6c69723d5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-DISTR.ANS by Rorshack (Maiden Productions); released in mdn-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: HQ/Distro Ansi
 # SAUCE Author: Rorshack
 # SAUCE Group: Maiden Productions
@@ -16,9 +16,9 @@
 
 Write-Host '
 
-                          [1;30m.[0m.: [1;36mMAiDEN Productions[0m :.[1;30m.[0m
+                          [1;30m [0m   [1;36m                  [0m   [1;30m [0m
 
-              [1;30m^[0;1;37m Br[0;1;31ming[0;31ming your daughter to the slaughter in[0;1;31m 19[0;1;37m96 [0;1;30m^[0m
+              [1;30m [0;1;37m   [0;1;31m   [0;31m                                     [0;1;31m   [0;1;37m   [0;1;30m [0m
 
                                        [36m [0;1;36m        [0m   [36m [0;1;36m        [0m
   [1;31m▄▄▄▄[0m [1;31m▄▄[0m  [1;31m▄[0m    [1;31m▄[0m     [36m [0;1;36m        [0m   [1;36m▀▀[0;36m▀[0;1;36m▀[0m        [1;36;46m█▀▀█[0m   [1;36m [0m        [1;31m▄[0m   [1;30m [0;1;31m▄[0m  [1;31m▄▄[0m [1;31m▄▄▄▄[0m
@@ -29,7 +29,4 @@ Write-Host '
   [1;31;41m░[0;31m█[0;37m [0;1;30;46m█░[0;36m█[0;1;30;46m▐[0m [1;30;46m█░[0;36m█[0;1;30;46m▐[0m [1;30;46m▌░[0;36m█[0;1;30;46m█[0m [31m▒[0;37m [0;1;30;46m█░[0;36m█[0;1;30;46m▐[0m [1;30;46m▌[0;36m█[0;1;30;46m░█[0m [31m▒[0;37m [0;1;30;46m█░[0;36m█[0;1;30;46m▐[0m [31m▒[0;37m [0;1;30;46m█░[0;36m█[0;1;30;46m▐[0m [1;30;46m▌[0;36m█[0;1;30;46m░█[0m [31m▒[0;37m [0;1;30;46m█░[0;36m█[0;1;30;46m▐[0m [1;30;46m▌[0;36m█[0;1;30;46m░█[0m [31m▒[0;37m [0;1;30;46m█░[0;36m█[0;1;30;46m▐[0m [1;30;46m▌░[0;36m█[0;1;30;46m█[0m [31m█[0;1;31;41m░[0m
   [31m██[0;37m [0;1;30m█[0;1;30;46m▓▄█[0m [1;30m█[0;1;30;46m▓▄█[0m [1;30;46m█▓▄[0;1;30;40m█[0m [31m▓[0;37m [0;1;30m▀[0;1;30;46m▓▄█[0;1;30;40m▄[0;1;30;46m█▄▓[0;1;30;40m█[0m [31m▓[0;37m [0;1;30m█[0;1;30;46m▓▄█[0m [31m▓[0;37m [0;1;30m▀[0;1;30;46m▓▄█[0;1;30;40m▄[0;1;30;46m█▄▓[0;1;30;40m█[0m [31m▓[0;37m [0;1;30m▀[0;1;30;46m▓▄█[0;1;30;40m▄[0;1;30;46m█▄▓[0;1;30;40m▀[0m [31m▓[0;37m [0;1;30m█[0;1;30;46m▓▄█[0m [1;30;46m█▓▄[0;1;30;40m█[0m [31m██[0m
 [37m  [0;31m██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄██▄▄▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄▄▄▄▄██[0m
-[37m  [0;31m▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-
-                   [1;30m.[0m.: [36mMaiden Official World Headquarter[0;37m :.[0;1;30m.[0m'
+[37m  [0;31m▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

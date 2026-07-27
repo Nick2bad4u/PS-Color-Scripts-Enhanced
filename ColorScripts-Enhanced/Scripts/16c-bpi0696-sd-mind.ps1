@@ -5,7 +5,7 @@
 # Source SHA-256: 408dab540e0650e027fb77f453a2e2a18fd6d94b0721de740a5f9b5460c5befa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD!MIND.ANS by sad (black pyramid!inc.); released in bpi0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: out'a my mind.
 # SAUCE Author: sad
 # SAUCE Group: black pyramid!inc.
@@ -54,7 +54,7 @@ Write-Host '
                      [1;30m▐███████████████████████████████████▌[0m
 
 [1;32m─────────────────────────────────────────────────────────────────────────────── [0m
- [1;31mhmmm, i know this ansi sucks.. but it''s just an old one i found in my ansi[0m
- [1;31mdir and i completed it (made it even worse) some more. sow if you want to use[0m
- [1;31mthis ansi (i think not).. i just drew it out of my head...         sad!bpi''96[0m
+ [1;31m                                                                          [0m
+ [1;31m                                                                             [0m
+ [1;31m                                                                             [0m
 [1;32m─────────────────────────────────────────────────────────────────────────────── [0m'

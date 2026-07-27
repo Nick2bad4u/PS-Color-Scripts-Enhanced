@@ -5,7 +5,7 @@
 # Source SHA-256: 1e0ed43e8fd0741eea6af0d2be1fcd3021df2ad7874754b6dee542e64f0d9f39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5D-FR0.ANS by slayer duriamis (maiden); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fr logo!
 # SAUCE Author: slayer duriamis
 # SAUCE Group: maiden
@@ -27,5 +27,5 @@ Write-Host '
 [31m██[0;30;41m░[0;31;40m▓██▄▌[0;36;40m [0;31;40m▀[0;1;31;41m▀[0;1;31;40m▄[0;31m▌[0;36m [0;1;31m▀[0;36m [0;1;36m▐▌[0;36m [0;1;36m▐▀▀[0;36m [0;31m▄▌[0;36m▀▀[0;36;41m▒[0;1;36;46m░[0;36m▀[0;31;46m░░[0;36;41m▓[0;36;40m███▄▄▀▀▀▀[0;31;40m▐▌[0;36;40m▀▀██▀██▄     ▐▄█[0;31;46m░[0;36;40m█▌  [0;1;31;40m▐[0;1;31;41m▌[0;31m██▐██▀[0;30;41m░[0;31;40m▓██[0;37;40m██[0;31;40m█[0m
 [31;40m▀▀▀▀[0;36;40m [0;31;40m▐▄▄█████[0;1;31;41m▀[0;31m▄[0;1;31m▄[0;36m [0;1;36m▀▄▌[0;31m▄▄[0;30;41m░[0;1;31;40m▀[0;36m   [0;31m▌[0;36m░  [0;31m▐[0;31;46m░[0;1;36;46m░[0;36m▀▀[0m   [1;31m▄[0;31m▌[0;36m  [0;1;31m▀[0;31m▄▄[0m    [36m ▀▀[0;31m▌[0;1;36m▀[0;36m▀▀ ▌ [0;31m▌[0;36m     [0;1;31m▀[0;36;41m▒[0;31;40m▀▐██▄▄██████[0m
                       [31;40m░[0m    [1;31;40m▀[0;31m▀▀▀▀[0;36m░[0;30;46m▓[0m            [31;40m▀▀▀[0;1;31;40m▄[0;31m▄▄▄▌[0m    [36m▀▌[0;31m▀[0;1;31m▀[0;36m     ▐▌           [0m
-    [1;36m+opd by badworm [0m                                       [36m▌[0m     [36m▄▄▀[0m
+    [1;36m                [0m                                       [36m▌[0m     [36m▄▄▀[0m
                                               [1;36mreven[0;36m(g)[0;1;36me[0m    [1;36m▀[0;36m▀▀▀▀▀[0m'

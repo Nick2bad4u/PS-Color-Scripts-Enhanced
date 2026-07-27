@@ -5,7 +5,7 @@
 # Source SHA-256: 751434316d43b13e84c7578427ed9f3e5d5a87b50f3a6f3b4163ae63b635833f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PE!NEWS.ANS by Phonyeye (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -26,8 +26,4 @@ Write-Host '
           [35m▐[0;1;35;46m▌▄[0;35m▌[0m         [33m░[0;30;43m▓[0;33;40m░[0m    [34;40m█[0;1;34;44m░▀[0;1;34;46m▓[0;1;34;44m▌[0m [31mSpeed[0;36m![0;1;31mNews[0;31m [0;1;32m::[0m  [1;33m▄▄[0;1;33;43m▀[0;33m░[0;30;43m▓[0;37;40m  [0;36;40m  [0m       [34;40m▀       [0m
      [34;40m░[0;30;44m▓[0m   [1;35;45m▐[0;1;35;46m▄[0;1;35;45m█[0;35m▌▄▄▄[0m                [34m▀▀[0m                 [33m░[0;30;43m▓[0m      [36;40m░░░[0m
           [35;40m▀▀▐██[0;30;45m░[0;35;40m▓░░[0;30;45m▓[0;37;40m [0;1;30;40mAnsi by P[0;1;30;41mh[0;1;30;40monyEye[0m
-              [35m░░[0;30;45m▓[0m            [1;30;40m^[0m              [36m░░[0m
-
-      [32m- [0;1;37msome of u r wondering: "y the hell he''s buzy AT 2:00 AM???"[0m
-  [36m  [0m    [1;37mwelp ppl at holidays um mostly on inet at night 10:00-5:00 :)[0m
-  [36m  [0m    [1;37mso... if u wanna Chat, get urself an account and come to the irc.[0m'
+              [35m░░[0;30;45m▓[0m            [1;30;40m^[0m              [36m░░[0m'

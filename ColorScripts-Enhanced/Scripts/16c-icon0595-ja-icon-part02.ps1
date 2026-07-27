@@ -5,7 +5,7 @@
 # Source SHA-256: c95a73b7e17d20b8757086353168a48bdc3503a645f0fa9f5963ca06b147f748
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JA-ICON.ANS by Jashik (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pure shit...:)
 # SAUCE Author: Jashik
 # SAUCE Group: iCON
@@ -27,10 +27,10 @@ Write-Host '
 [30;42m ▀[0m   [30;42m░[0m                                                                   [30;42m░[0m   [30;42m▀  [0m
 [1;30;42m▓▒[0;30;42m  ▀ ▀[0m  [30;42m▀▀▀▀[0;1;32;42m▓[0;1;32;40m█[0m                                                 [1;32;40m█[0;1;32;42m▓[0;30;42m▀▀▀▀[0m  [30;42m▀ ▀  [0;1;30;42m▒▓[0;30;42m [0m
 [1;30;42m█▓▓▒▒░[0;30;42m      [0;1;32;42m░▒▓[0;1;32;40m█[0;30;42m████[0m                                       [30;42m████[0;1;32;40m█[0;1;32;42m▓▒░[0;30;42m      [0;1;30;42m░▒▒▓▓█[0;30;42m [0m
-[1;30;42m▓▒▒░░░░░[0;30;42m   [0;1;32;42m░░░▒▓[0;1;32;40m▌[0;30;42m██[0;37;40m<-green skulls wid like flames and shit,[0;30;42m███[0;1;32;40m▌[0;1;32;42m▓▒░░░[0;30;42m   [0;1;30;42m░░░░░▒▒▓[0;30;42m [0m
+[1;30;42m▓▒▒░░░░░[0;30;42m   [0;1;32;42m░░░▒▓[0;1;32;40m▌[0;30;42m██[0;37;40m                                        [0;30;42m███[0;1;32;40m▌[0;1;32;42m▓▒░░░[0;30;42m   [0;1;30;42m░░░░░▒▒▓[0;30;42m [0m
 [30;42m  ▄▄▄▄ [0;1;30;42m░░[0;30;42m [0;1;32;42m░░▒▒▓▓[0;1;32;40m█[0;30;42m█[0m   [37;40mWATTA ya mean you can''t see no flames?[0m  [30;42m█[0;1;32;40m█[0;1;32;42m▓▓▒▒░░[0;30;42m [0;1;30;42m░░[0;30;42m ▄▄▄▄   [0m
          [30;42m▄▄▄▄[0;1;32;40m▀▀▀[0m     ...er..well..you see..there was this      [1;32m▀▀▀[0;30;42m▄▄▄▄[0m
-                     [37;40mgirl and well you see...she...oh ..nevermind...[0m
+                     [37;40m                                               [0m
 
 
      [1;34;40m▄[0;1;34;44m▓▒░[0;30;44m     [0;1;34;44m░▒▓█[0;1;34;40m▄[0;30;44m█[0m   [1;34;40m▄[0;1;34;44m▓░▓[0;1;34;40m▄[0m           [30;44m████████████[0;1;34;40m▄▄[0;30;44m█[0m     [30;44m▀[0;1;34;44m▒▓█[0;1;34;40m▄[0m
@@ -42,12 +42,7 @@ Write-Host '
    [1;34;40m▄[0;1;34;44m▓▒░[0;30;44m   ▄[0m    [30;44m▄  [0;1;34;44m░▒[0;1;34;40m▄[0;30;44m█[0m  [30;44m [0;1;34;44m░▒▓[0m         [1;34;40m▄[0;1;34;44m▒░[0;30;44m    ▄[0m    [30;44m▄    ▀[0m   [30;44m█[0m    [30;44m  [0;1;34;44m░▒[0m
   [1;34;40m▐[0;1;34;44m█▓▒░[0;30;44m ▄[0m        [1;34;44m░▒▓█[0;1;34;40m▌[0m  [1;34;44m░▒▓█[0m        [1;34;40m▐[0;1;34;44m█▓▒░[0;30;44m ▄[0m        [30;44m    ▐[0m       [30;44m [0;1;34;44m░▒▓[0m
    [1;34;40m▀[0;1;34;44m▓[0;1;34;40m▀[0;30;44m▄[0m           [30;44m▄▄[0;1;34;40m▀[0m   [30;44m█▄▄[0m          [1;34;40m▀[0;1;34;44m▓[0;1;34;40m▀▀[0m           [30;44m▄ ▄[0m        [30;44m▄[0;1;34;44m▓█[0;1;34;40m▀[0m
-  The thing above this sez Jashik in korean....wha? you say you don''t care?
-oh well then i''ll just start doing all my ansis with you in mind then won''t
-I, and here i thought it was doing it so i could look at it funky...silly me..
-:)
-
- ...yep i think this is enough gayness for one day...so you see...inside this
-"thing" was a GREAT ANSi and it''s still there somewhere...you..just...can''t..
-see it.....hell...neither can i.....laterz......
-                                           -Jashik[0m'
+                                                                           
+                                                                           
+                                                                              
+:)[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8bdef43c58ffa74832457a1a5c9d96285bbccd6a22f561d0bf86eae928377e99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ACIDLSD2.ANS by Grimm (acid_a-d); released in acid_a-d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 91-135
 # Columns: 1-80
 
@@ -50,8 +50,4 @@ Write-Host '
 [1;37m    [0m█[31m▒▒[0;1;37m█▄[0;31;47m▄[0;31;40m▒[0;1;37;40m▄▀ ▄▄▄▄  [0m▐▌[31m▒▒[0;1;37m▌ [0m▌[31m▒▒[0;1;37m▌[0m▐[31m▒▒[0;1;37m█  [0m█[31m▒▒[0;1;37;47m▄[0m▄[31m▒▒[0;1;37m▀▄ [0m█[31m▒▒[0;1;37m█   [0m█[31m▒▒[0;37m▄[0;31m▒[0;1;37m▀▄[0m█[31m▒▒[0;1;37m█[0m     █[31m▒▒[0;1;37m█ [0m█[31m▒▒[0;1;37m█[0m
 [1;37m    [0m█[31m▓▓[0;1;37m█[0;1;37;41m▀[0;31m▓[0;1;37;41m▄[0;1;37;40m▀[0m▄▀ ▄▄ [1m▀▄ [0m█[31m▓▓[0;1;37m▌ [0;31;47m▐[0;31;40m▓▓[0;1;37;40m▌[0m▐[31m▓▓[0;1;37m█  [0m█[31m▓▓[0;1;37;41m▀▀[0;31;47m▄[0;31;40m▓▓[0;1;37;40m█ [0m█[31m▓▓[0;1;37m█   [0m█[31m▓▓[0;1;37m█[0m▀[31;47m▀[0;31;40m▓[0;31;47m▄[0;31;40m▓▓[0;1;37;40m█[0m     █[31m▓▓[0;1;37m█ [0m█[31m▓▓[0;1;37m█[0m
 [1;37m  [0m▄▄█[41m    [0;1;41m▄[0;1;40m▀ [0m█ [1m▀▄▄[0m▀ [1m█ [0m█[41m  [0;1;41m▀▀   ▀▀  [0;1;40m█  [0m█[41m  [0;1;47m▄▄[0m█[41m  [0;1;40m█ [0m█[41m  [0;1;40m█   [0m█[41m  [0;1;40m█  [0m▀[31;47m▀[0;31;41m  [0;1;37;40m█[0m     █[31;47m██[0;1;37;41m▀[0;1;37;40m▄[0;31;47m▄██[0;1;37;40m█[0m
-▄█[31;47m▀▀▀▀▀▀▀[0;1;37;40m▀   [0m▀▄▄▄▄[1m▀[0m▄█[31;47m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;40m█[0m█[31;47m▀▀▀▀[0;1;37;47m▀[0;31;47m▀▀▀▀[0;1;37;40m█[0;31;47m▀▀▀▀[0;1;37;40m█▄[0m█[31;47m▀▀▀▀[0;1;37;40m█▄  [0m▀[31;47m▀▀[0;1;37;40m█▄ [0m▄█[31;47m▀▀▀▀▀▀▀▀▀[0;1;37;40m█▄[0m
-
-[1;37;40m [0;1;30;40m>>    [0;1;37;40mI[0;1;31;40mN[0;31mC [0;1;37mC[0manadian [1mH[0mome      [1mN[0;1;31mA[0;31mP/[0;1;31mP[0;1;37mA A[0muthorized [1mH[0mub       [31mI[0;1;31mC[0;1;37mE N[0morth [1mH[0mome     [1m<<[0m
-[1m [0m>>         [1m14[0;31m.[0;1;37m4 D[0mual [1mS[0mtandard v[1m33 [0mv[1m42[0m      [1mS[0mys[1mO[0mp[31m: [0;1;37mO[0mptical [1mI[0mllusion          <<
- [1m>>[0m                  [1mANS[0mi by[31m: [0;1;37mG[0mrimm [31m<[0;1;37mAC[0mi[1mD[0;31m> / [0;1;37mJ[0mune [1m13[0;31m, [0;1;37m1991[0m                   [1;30m<<[0m'
+▄█[31;47m▀▀▀▀▀▀▀[0;1;37;40m▀   [0m▀▄▄▄▄[1m▀[0m▄█[31;47m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;40m█[0m█[31;47m▀▀▀▀[0;1;37;47m▀[0;31;47m▀▀▀▀[0;1;37;40m█[0;31;47m▀▀▀▀[0;1;37;40m█▄[0m█[31;47m▀▀▀▀[0;1;37;40m█▄  [0m▀[31;47m▀▀[0;1;37;40m█▄ [0m▄█[31;47m▀▀▀▀▀▀▀▀▀[0;1;37;40m█▄[0m'

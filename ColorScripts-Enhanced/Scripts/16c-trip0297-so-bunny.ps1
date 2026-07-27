@@ -5,7 +5,7 @@
 # Source SHA-256: 98f3520fe7d8946df736caf3c33901975b89f3eafb2401fe1b276864bd282dcc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-BUNNY.ANS by Soopaphunky (Trippin productions); released in trip0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Psycodelic Bunny?
 # SAUCE Author: Soopaphunky
 # SAUCE Group: Trippin productions
@@ -42,15 +42,4 @@ Write-Host '
 [1;33m▐▐▐▐▐│▐▐▀▓▄▀▐▐▐▐▐▐▐▐[0;34m ▀████▀ [0;36m▌▌▌▌▌▌▌▌█[0;37m  [0;1;31m█[0m [1;31mit alot....[0m [1;31m         █[0m [34m▀▀▀▀▀▀[0;1;34m  ▀████▀  [0m
 [1;33m▀▀▀▀▀│▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0m [36m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m  [0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;33m────▄█[0m
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30mForgive me viewer, for I have sinned..   [0m
-
-[1;30mIf you''re wonderin''[0m [1;30mits a bunny biznotch...[0m
-
-[1;30mIts phucked![0m
-
-[1;30mActually, I was kinda under tha influence when this ansi was made.. =)  [0m
-[1;30mhmmm..... maybe I oughta try that more often....[0m
-[1;30mLook at this shit in VGA mode...                [0m
-                                                [1;30m-Soop[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

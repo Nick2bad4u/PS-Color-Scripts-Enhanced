@@ -5,7 +5,7 @@
 # Source SHA-256: c683dc338716a9453ba541906eeb82cadffab3fb89c44841f52e7528b94b46b4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-USA.ANS by Shrimp (tus-02); released in tus-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20010917
 # SAUCE Dimensions: 80x26
 # Lines: 1-26
@@ -35,6 +35,4 @@ Write-Host '
 [1;34m☻☻☻☻☻☻☻☻☻[0m $[1m$[0m$$$[1m$[0m$$ [1;34m☻☻☻☻☻☻[0m $$$[1m$[0m$$$$ [1;34m☻☻☻[0m $$$$$$ [1;34m╚╩╩╩╩╩╩╩╩╩╩║[0m $$$[1m$$$$$$$[0m$$$ [1;34m☻☻☻☻☻☻☻[0m
 [1;34m☻☻☻☻☻☻☻☻☻[0m $$$[1m$[0m$$$$ [1;34m☻☻☻☻☻☻[0m $[1m$[0m$$$[1m$[0m$$ [1;34m☻☻☻[0m $[1m$[0m$$[1m$[0m$ $$$$$$$$$$$  $$[1m$$$$$$$$$[0m$$ [1;34m☻☻☻☻☻☻☻[0m
 [1;34m╚╩╩╩╩╩╩╩╝[0m $[1m$[0m$$$[1m$[0m$$ [1;34m☻☻☻☻☻☻[0m $$$[1m$[0m$$$$ [1;34m☻☻☻[0m $$$$$$ $[1m$[0m$$[1m$[0m$$$[1m$[0m$$  $$[1m$$$$$$$$$[0m$$ [1;34m☻☻☻☻☻☻☻[0m
-aaaaaaaaaa$$$[1m$[0m$$$$ [1;34m☻☻☻☻☻☻[0m $$$$$$$$ [1;34m☻☻☻[0m $[1m$[0m$$[1m$[0m$ $$$$$$$$$$$  $$[1m$$$$$$$$$[0m$$aaaaaaaa
-
-Sorry.[0m'
+aaaaaaaaaa$$$[1m$[0m$$$$ [1;34m☻☻☻☻☻☻[0m $$$$$$$$ [1;34m☻☻☻[0m $[1m$[0m$$[1m$[0m$ $$$$$$$$$$$  $$[1m$$$$$$$$$[0m$$aaaaaaaa[0m'

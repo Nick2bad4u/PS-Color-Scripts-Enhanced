@@ -5,7 +5,7 @@
 # Source SHA-256: 25e52b44f9f80c98087223e8dbc3b7923bf740c7bc106b0c5bd64f49916bb343
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-ICE1.ICE by Incubus (ice-9408); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -34,9 +34,9 @@ Write-Host '
 [30mis a horny [0;33m███▀[0;36m▐██[0;1;36;46m░░[0;36m███[0;1;36;46m░░[0;36m▄[0;30mme [0;33m▄▄█▀[0;1;30m▄ [0;31m▀   [0;1;30m█[0m                     ░         ▒▀▀░
 [30mwife who   [0;33m▐██▌[0;1;30;46m░[0;36m███[0;1;36;46m░▒[0;36m▄▀█[0;1;36;46m░░▒[0m [33m█▀▀   [0;1;30m▀▄▄▄▀[0m                                ░
 [30malways wants[0;33m██▌[0;1;30;46m▒░[0;36m███[0;1;36;46m░[0;36m▀▄[0;1;30;46m  [0;1;36;46m░[0;36m▀[0m                                               ░
-[30msex! He uses[0;33m▐█▄ [0;1;30m▀▀[0;36m▀▀ [0;1;30m▀▀[0;36m▀  [0;30mIf you''re viewing[0m
-[30mme for sex   [0;33m██▄ ▄[0;1;30;43m░[0;33m████▄ [0;30mthis black on black text in ACiDView, then you[0m
-[30mand that''s it![0;33m██ ▀███▄▀[0;34m▄ [0;30mprobably have a real bad headache because of all that[0m
+[30m            [0;33m▐█▄ [0;1;30m▀▀[0;36m▀▀ [0;1;30m▀▀[0;36m▀  [0;30m                 [0m
+[30m             [0;33m██▄ ▄[0;1;30;43m░[0;33m████▄ [0;30m                                              [0m
+[30m              [0;33m██ ▀███▄▀[0;34m▄ [0;30m                                                     [0m
 [30mI feel so    [0;1;33m▀[0;1m▄[0;1;33m▄▀ [0;34m▄▄▄▄[0;30;44m▄[0;1;34;44m░▒[0m [30mdamn blinking text![0m                         [30mWEED[0m
 [30mdirty!!!!!   [0;34m▐ [0;33m▄█▀[0;34m▄[0;1;34;44m░[0;34m█[0;1;34;44m░[0;30;44m▐ [0;1;34;44m░[0;34m█▄[0m                                           [30mWEED[0m
              [34m▄[0;1;30;44m▒[0;34m▄▄[0;30;44m [0;1;34;44m░▒ ░▒[0;30;44m▀▄ [0;1;34;44m░[0;34m▀ [0;30miCE Rules, you[0m                           [30mWEED[0m
@@ -44,5 +44,5 @@ Write-Host '
 [30mchicks[0m      [34m▄▀▀[0;1;30;44m░  ░[0;30;44m▄    [0;1;34;44m░[0;34m▄[0;30;44m▄█[0m   [30madmit it..[0m                             [30mWEED[0m
 [30mrule![0m       [34m▀▀▄▄▄▀▀▀▄▄▄▀▀[0;1m▄[0;30;44m▄[0m                                           [30macid[0m
              ▄▄▄  [34m▀▀▀[0m▄▄[1;47m░▒▓[0;1m▀[0m                                           [30mWEED[0m
-[30mIn order to fully enjoy this ansi, you must smoke about a quarter ounce of weed[0m
+[30m                                                                               [0m
      [1m▄▄▄▄▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1ed6f949795c3ec96778764822abd6d623997e6fb4d29dee06ad1e80449306cd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-MIST.ANS by Wat0r (toon0895); released in toon0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
@@ -42,7 +42,7 @@ Write-Host '
          [1;30;40m█▄▄[0m [1;30;40m▄▄[0m [1;30;40m▄▄[0m  [1;30;40m█▄▄[0m  [1;30;40m█▄▄ ▄▄[0m     [1;30;40m█▄▄▄[0m
 
 [1;30;40m-[ watOr says ]-----------------------------------------------------------------[0m
-[1;30;40mthis ansi is for Vertigo of haze or bleach or whatever now :)  sorry I took so[0m
-[1;30;40mlong... had this a LONG time ago but just sat on my HD.. and the extender bust[0m
-[1;30;40mand all that stuff so ... anyway.. here ya go.[0m
+[1;30;40m                                                                              [0m
+[1;30;40m                                                                              [0m
+[1;30;40m                                              [0m
 [1;30;40m-------------------------------------------------------------------------[wO!?]-[0m'

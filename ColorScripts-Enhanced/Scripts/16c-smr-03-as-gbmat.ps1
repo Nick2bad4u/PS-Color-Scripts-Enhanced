@@ -5,7 +5,7 @@
 # Source SHA-256: dda04f76680c7d8571920be61250bb4bf16dfa220cfb6cfb3ac04ffa1a49a36d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-GBMAT.ANS by Asd (smr-03); released in smr-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -33,5 +33,4 @@ Write-Host '
 [37m                  [0;35m░[0;1;31m+o asd[0m  [35m░[0;37m        [0;35m▐▓[0;1;31;45m░[0m
                            [35m░[0;37m        [0;35m░[0;1;35m░[0m
                                     [35m░[0;37m                                           [0m
-[1;30m------------[0m
-[1;30mmatrix menu for groovy board.[0m  [1;30m//asd^smr^sclr[0m'
+[1;30m------------[0m'

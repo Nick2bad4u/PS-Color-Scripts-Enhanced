@@ -5,7 +5,7 @@
 # Source SHA-256: 84167fa1a69450cfb4506c2fc2f0b9235ad959c02c76193fa67861f70ce2dfc9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ!WKDWR.ANS by Majick (CAP/iNSOMNiA/VOiD); released in insm0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Weekend Warriors
 # SAUCE Author: Majick
 # SAUCE Group: CAP/iNSOMNiA/VOiD
@@ -33,7 +33,7 @@ Write-Host '
 [36m▀▓▒▒░░[0m          [37m▄▀ [0;36;47m▒[0;36;40m▒░█▀[0;36;47m▒[0m  [1;37;47m░[0m [36;47m▒[0;36;40m▒░[0;36;47m▒[0m     [36;47m▒[0;36;40m▒░[0;36;47m▒[0m     [36;47m░[0;36;40m▒ [0;1;37;47m░[0m [36;47m▒[0;36;40m▒░[0;36;47m▒[0;36;40m▄[0;37;40m█ [0;1;37;40m░[0;1;37;47m░[0m [36;47m▒[0;36;40m▒░[0;1;37;47m░[0m     ▄▄▄▄▀ [36m░[0;37m█[0m
 [37m  [0;36m▀█▓▒▒░[0m     [37m▄▄▀   [0;36;47m▓[0;36;40m▓▒█ [0;36;47m░[0m  [37;40m█ [0;36;47m▓[0;36;40m▓▒[0;36;47m▓[0m     [36;47m▓[0;36;40m▓▒[0;36;47m▓[0m     [36;47m▒[0;36;40m▒░[0;37;40m█ [0;36;47m▓[0;36;40m▒▒ ░   [0;37;40m█ [0;36;47m▓[0;36;40m▓▒[0;37;40m█[0m     [36;47m▒[0;36;40m▓▒ ▒ [0;37;40m▄▀[0m
      [36;40m▀▀▀▀▀▀[0;37;40m▀▀[0m      [36;40m▀▀▀▀ [0;37;40m▀▀▀▀ [0;36;40m▀▀▀▀[0m     [36;40m▀▀▀▀[0m     [36;40m▀▀▀[0;37;40m▀  [0;36;40m▀▀▀▀[0;37;40m▀▀▀  [0;36;40m▀▀▀[0;37;40m▀[0m     [36;40m▀▀▀▀[0;37;40m▀▀[0m
-                             [36;40m< [0;1;30;40mp[0mU[1mTCHER [0;1;30ms[0mt[1mATS [0;1;30mh[0mE[1mRE [0;36m>[0m
+                             [36;40m  [0;1;30;40m [0m [1m      [0;1;30m [0m [1m    [0;1;30m [0m [1m   [0;36m [0m
 [1;30m------------------------------[0;1;37m8[0m<[1;30m--[0;1;37m( [0msnippit here [1m)[0;1;30m------------------------------[0m
-fer da [1;30mW[0;1;37meekend [0;1;30mW[0;1;37marriors [0mboard [1m.. [0mi dunno [1m.. [0mi think it[1m''[0ms pretty cool [1m.. [0mowell [1m..[0m
+       [1;30m [0;1;37m       [0;1;30m [0;1;37m        [0m      [1m   [0m        [1m   [0m          [1m [0m              [1m   [0m      [1m  [0m
 [1;30m--------------------------------------------------------------------------------[0m'

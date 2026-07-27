@@ -5,7 +5,7 @@
 # Source SHA-256: 877f77c975ad1c41d34ae35282d3f75e9c5bec73ab06e2027f961403e96b8f27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-PNET.ANS by Sole Assassin (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Prism Net
 # SAUCE Author: Sole Assassin
 # SAUCE Group: UNiON
@@ -45,5 +45,5 @@ Write-Host '
                 [1;30m▀[0m▄            ▄                     [1;30m▀ [0;1;37m▀ ▄█[0;1;37;47m▄[0;1;37;40m█[0;1;37;47m█[0;1;37;40m█▄ ▀[0m
                   [1;37;40m▀▄    ▀▀▀▀[0m▀ [1m█ [0m▀▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀[1m▀[0m▀[1m▀▀▀▀██[0;1;47m▀▄▄█▀[0;1;40m▀▀[0m▀ [1m▀▀ ▀[0m
                                                 [1m▄[0m▀   ▀[1m▄▀ ▀███▀[0m▄[1m▀▄[0m▀
-       [1;30mContact The Sysop Of This Baord For Info[0m     [1;37m▄ [0m▄ [1m▄[0m▀ [1m█ [0m▀[1m▄[0m▀  [1m▄[0m
-          [1;30mOn Becoming Part Of The Newest Net Around.[0m     ▀ [1m▄[0m▀[0m'
+       [1;30m                                        [0m     [1;37m▄ [0m▄ [1m▄[0m▀ [1m█ [0m▀[1m▄[0m▀  [1m▄[0m
+          [1;30m                                          [0m     ▀ [1m▄[0m▀[0m'

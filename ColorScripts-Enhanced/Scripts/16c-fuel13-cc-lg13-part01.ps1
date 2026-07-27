@@ -5,7 +5,7 @@
 # Source SHA-256: dd8199973c1e617ea054278228f68ecfe0ab98a68d976f82eea10d8930833475
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-LG13.ANS by Chronicc (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ansi logos pack 13
 # SAUCE Author: Chronicc
 # SAUCE Group: Fuel Productions
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-        [1m░░[0;1;31m [0;1;37m░[0;1;31m  [0m [1mf[0muel[31m [0;1;37mp[0mroductions [1m1[0m997 [1ma[0mnsis [1mb[0my[31m [0;1;37mc[0mhronicc.[1mf[0muel.[1ms[0maga [1;31m  [0;1;37m░[0m [1m░░[0m
+        [1m░░[0;1;31m [0;1;37m░[0;1;31m  [0m [1m [0m   [31m [0;1;37m [0m           [1m [0m    [1m [0m     [1m [0m [31m [0;1;37m [0m        [1m [0m    [1m [0m    [1;31m  [0;1;37m░[0m [1m░░[0m
 
 
                                                     [32m▐[0m
@@ -36,5 +36,4 @@ Write-Host '
     [31m▀▀▐▀▀▀▀▀▀▀▀ [0m   [31m ▀▐▀▀▀▀▀▀▀▀ [0m    [31m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▐▀▀[0m
                [31m     [0m
 
-[37m█[0;30;47ma[0;1;37;47mir[0;30;47m comp[0;1;37;47mo[0;30;47m an[0;1;37;47msi[0;30;47m, th[0;1;37;47men[0;30;47m the n[0;1;37;47mam[0;30;47me ch[0;1;37;47ma[0;30;47mnged.. s[0;1;37;47mo[0;30;47m th[0;1;37;47ma[0;30;47mts it.t[0;1;37;47mak[0;30;47me it or l[0;1;37;47mea[0;30;47mve it  ░ 1 ▒ [0m
-'
+[37m█[0;30;47m [0;1;37;47m  [0;30;47m     [0;1;37;47m [0;30;47m   [0;1;37;47m  [0;30;47m    [0;1;37;47m  [0;30;47m      [0;1;37;47m  [0;30;47m    [0;1;37;47m [0;30;47m        [0;1;37;47m [0;30;47m   [0;1;37;47m [0;30;47m       [0;1;37;47m  [0;30;47m         [0;1;37;47m  [0;30;47m       ░   ▒ [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 15cf2c7606bd4888028b6ffa9e674e95b0cf25dcdad3b58ba1baf18f31e44f47
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: l-jbk2.ans by Lame (mimic81); released in mimic81 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 84-125
 # Columns: 1-80
 
@@ -48,7 +48,4 @@ Write-Host '
 [31m$$$$$$$$$$$$$$$t$$$\.J$$/┌┌┐┌┐.[0;37m  [0;32m?j'' [0;31m /$$$$$$$$$$$$$$$$$$t┌,_    [0m     [31m.┌$$$$$$$$[0m
 [31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$:[0;32m    [0;31m j$$$$$$$$$$$$$$$$$$$$$$$$$$SSS$$$$$$$$$$$$$[0m
 [31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$tat$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-[32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-
-[1;30mLet''s see, we''ve got some cartoony shit, graf inspired fonts, some pirate action[0m
-[1;30msome sort or Arabian headware, jealous skin tones, and bling.  Must be by [0;1;37mlame.[0m'
+[32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m'

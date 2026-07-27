@@ -5,7 +5,7 @@
 # Source SHA-256: d558d6fa7dfac47220f0c3e36f2d12bfdd77aecf5ec2ab9d25304a8ba98addb7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DABODDAH.ANS by Dracula (rca0697a); released in rca0697a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -33,8 +33,4 @@ Write-Host '
     [1;36;46m▓[0;36m█[0;1;36;46m▄▀[0;36m█▄▀[0;37m [0;31m▄[0m        [36m▄[0;1;30;46m▒[0;1;36;46m░[0;36m▀▀▀▀[0m               [1;36;46m▒[0;36m▀[0m    [1;31;41m▒[0m      [36m▄▀▀▀▀[0;37m  [0;31m▄▀[0m              [31m▀[0m
 [36m▄▄▄▀▀▀▀[0m            [36m▄[0;37m [0;1;30;46m░[0m                [31m▄[0m          [1;31;41m▓[0m [31m▀▄▄▄[0m
                                               [36m▀[0m        [31m▀▀▀▀▄▄▀[0m
-                                                  [36m▄▀[0m
-
-[1;30m-----------[ uhm a little 10 minute font for yer ass man..] hehhope it will do~~[0m
-
-   [1;30mHere ya go boddah welcome to rCa...this ansi will self destruct in 4 lines![0m'
+                                                  [36m▄▀[0m'

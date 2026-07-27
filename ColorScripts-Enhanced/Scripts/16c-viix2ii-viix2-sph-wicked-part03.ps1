@@ -5,7 +5,7 @@
 # Source SHA-256: 489aaf7443deecaabd39a6e6492953426d91bafdd01312ca3e5dc88bf6fb500d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ViiX2 - SPH - WICKED.ANS by Sephiroth (viiX2); released in viix2ii and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: WickedMinority
 # SAUCE Author: Sephiroth
 # SAUCE Group: viiX2
@@ -51,7 +51,4 @@ Write-Host '
 [31m  ▄▄▀[0;1;31;41m▀░[0;31m [0;1;30m▀[0;30;41m░[0;1;31;41m░▄░[0;30;41m░[0;31;40m [0;30;41m▓[0;31;40m▀[0;1;31;41m░[0;1;30;40m▀░[0;31m        [0;1;30m░▀▀[0;1;30;41m▒[0;1;31;41m░▓▀▀[0;1;30;40m▀▀░[0;31m [0;30;41m▓[0;31;40m         [0;30;41m▓[0;31;40m█[0;1;31;41m▓░[0;31m   [0;1;30m░▀[0;31m▀▀[0;1;30m▄▀[0;1;30;41m▄▓[0;31m [0;1;30m▀▀░[0;31m        [0m
 [31m ▀▀ ^sph_[0;30;41m▓[0;1;30;40m▀▀[0;1;30;41m▒[0;30;41m▓[0m     [31;40mW i c k e d [0;1;30;40m▄▀▀░[0;31m M i n o r i t y[0;37m [0;31m░              +o kidfrost[0m
 [31m  [0;34m                                                                   [0m
-[31m░░[0m
-[31mansi by sephiroth 2005..[0m
-[31mdeus ex machina[0m
-[31m  [0m'
+[31m░░[0m'

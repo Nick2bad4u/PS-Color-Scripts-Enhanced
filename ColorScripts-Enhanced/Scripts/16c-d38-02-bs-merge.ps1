@@ -5,7 +5,7 @@
 # Source SHA-256: f5b9222f7a8a7102de82da1a151fc4020287a3da38acad557d418054f907f49d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-MERGE.ANS by Blind Sniper (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: D38/KiRRA Merge
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
@@ -39,14 +39,14 @@ Write-Host '
 [36m▒░███▒▌[0;1;30m [0;35m█[0;1;35;45m ░░▒[0;1;35;40m▒[0;30;45m▒[0;1;37;40m▐████▄[0;34m,▄■[0;1;37;44m▄[0;1;37;40m███[0;1;37;47m▓▓▒[0;1;35;40m░[0;1;35;45m▒[0;1;33;40m█[0;1;33;45m▐[0;1;33;40m█████▌█[0;1;35;40m▓▒▒▒░░░░░░░░░░░░░░▒▒▓██[0;1;35;45m▓[0;1;35;40m█[0;1;35;45m▓▓▒░ [0;35m▄[0;37m [0;36m▒██░█░[0m
 [36m░[0m    [36m░[0;37m [0;35m▐[0;1;35;45m ░▒▒[0;1;35;40m▓[0;1;35;45m█[0;1;35;40m▓▒[0;30;45m▓[0;1;37;40m▀▀█[0;1;37;47m▓[0;1;37;40m██████[0;1;37;47m▓[0;1;37;45m▀[0;1;35;40m▓[0;1;35;45m▓▓[0;1;33;40m▒▓███████[0;1;33;45m░[0;1;33;40m▓[0;1;35;40m█▓▓▓▓[0;35m▄[0;1;35;45m▒[0;35m▄▄▄▄▄▄▄▄▄▄▄▄ ▀▀[0;1;35;45m▀▀▀▒▒  [0;35m▀[0;37m [0;36m░[0;37m  [0;36m [0;37m [0;36m░[0m
         [35m█[0;1;35m░[0;1;35;45m▒▒▓▓█[0;1;35;40m▓█▓▄[0;30;45m░▓[0;35;40m▄[0;1;35;40m▄[0;35m▄[0;1;35m▄▄▒▓[0;1;35;45m▒[0;1;33;45m ░▒[0;1;33;40m▓██████████[0;1;33;45m▒░ [0;1;35;40m██[0;1;35;45m▓▓▓▓[0;1;35;40m██[0;1;35;45m███▓██▓▓▒░[0;35m█[0m
-[30;44m▓▒░ [0;36;44mCelebrating The Hottest Merge Of The Year - D38 And KiRRA! (In No Order)[0;30;44m ░▒▓[0m
+[30;44m▓▒░ [0;36;44m                                                                        [0;30;44m ░▒▓[0m
 
 [37;40m[[0;1;30;40mTime For A Break. Time For A Shag[0m]---------------------------------------------
 
-[1;30m[[0;1;32mBlind Sniper[0;1;30m][0m [32mHmmm, I should''ve probably finished off the head but I''m a [0m
-               [32mlazy bastard...[0m
-               [32mYou might''ve already seen this ansi in Zenith Zine.[0m
-               [32mIf you haven''t go d/l it and represent! (Plug 1, Plug 1)[0m
-               [32mIt was supposed to be a joint effort by me and Ooze[0m
-               [32mbut he was out leeching files so I finished it off for him[0m
+[1;30m [0;1;32m            [0;1;30m [0m [32m                                                           [0m
+               [32m               [0m
+               [32m                                                   [0m
+               [32m                                                        [0m
+               [32m                                                   [0m
+               [32m                                                          [0m
                [32m<Sigh>[0;37m [0;1;32m:)* [0m'

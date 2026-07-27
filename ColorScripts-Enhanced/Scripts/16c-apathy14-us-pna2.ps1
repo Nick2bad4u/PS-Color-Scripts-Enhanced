@@ -5,7 +5,7 @@
 # Source SHA-256: e0936921601f70e98af62e4adde5c09147dc57f77398cc31a69140d6e7a031b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PNA2.ANS by Apox + Tical + Unsane + Loi (Apathy Studios); released in apathy14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Paranoia/2
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Apathy Studios
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mboy racer, we''re gonna [0m
-[1;30mkill this pretty thing...[0m               [1;31m░░[0m
+[1;30m                       [0m
+[1;30m                         [0m               [1;31m░░[0m
                                                              [32m░[0m
                                                             [32m░▒░[0m        [1;31m▄▄▄▄[0m [1;31m░[0m
        [1;30m      [0m                           [1;31m░░[0m  [1;36m█[0;1;37m██[0;1;33m█▄[0m      [1;32m▄[0;32m▄[0;1;32;42m ░ [0;32m▓▓▒░[0;37m [0;32m░[0;37m  [0;1;31m▄[0;1;31;47m▓[0;1;31;40m▀▀[0m [31m [0;1;31m▀▀▓░[0m
@@ -35,6 +35,4 @@ Write-Host '
            [1;34;44m░  ▀▀[0;34m▀▀[0m                       [1;33m▄■▀███[0;1;37m█▌[0m    [1;32m▀▀▀▀▀[0;1;37m▀▀[0m
           [34m▐█▀▀[0m      [1;37m pna2[0m [1m..[0m                [1;33m██[0;1;37m███▄[0m
           [34m▀[0m                                [1;30m [0;1;33m▀[0;1;37m██▓▓░[0m    [1;33m▀[0m [1;30m                     [0m
-         [34m▀[0m                                  [1;33m  [0m [1m░░[0m
- first wave: tical                                        occupying general: loi
- invasion squad: unsane                               provisional governor: apox[0m'
+         [34m▀[0m                                  [1;33m  [0m [1m░░[0m'

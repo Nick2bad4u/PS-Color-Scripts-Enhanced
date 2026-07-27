@@ -5,12 +5,12 @@
 # Source SHA-256: f2d39f7047e16d76c6dff095b47cd00e4285447a901c306cdf5f961d63c71cb7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CF-NMS.ANS by Corn Flax (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
- code: Moonlight                                        artwork: Corn Flax
+                                                                          
                                                                              [1m [0m
                                                                              [1;33m [0m
                          [31m▄▄▄▄▄▄[0;37m     [0;1;30m▄[0m▄▄▄[1;30;47m▀[0m███████▄▄▄▄                         [1;33m [0m
@@ -29,8 +29,4 @@ Write-Host '
   [36m▀█[0;1;36m███▀[0m [36m▀[0;1;36m▀[0;1;36;46m▀█████[0;1;36;40m▀▓▓▀▀▀▀[0;1;36;46m▀[0;1;36;40m██[0;1;33;40m██[0;1;36;40m██[0;1;33;40m█[0;1;36;40m█▀▀▀▀▀[0m    [36m▀[0;1;36m▀▀▀▀▀[0;1;36;46m▀██████[0;1;36;40m▀▀▀▀▀▀[0m    [36m▀[0;1;36m▀▀▀[0;1;36;46m▀[0;1;36;40m▄▄▄[0;1;36;46m▄[0;1;36;40m▀▀▀[0m
               [36m▀[0;1;36m▀▀■▄▄▄▄[0;1;36;46m▄[0;1;36;40m███▀▀▀[0m
 
------%------------------------------<<----------------------------------<-8;----
-TSS // AIT.. ahah.. comeon now, get serious!@$#%.. people like underground
-soultraper (these 2groups ldzrs) should sell their modems.. you stinck guys,
-98%RiPES, the rest.. pureHorro..quit.. quit now.. make the israelian sence
-huge huge favour.. :).. [1mcf[0mroothnover // [1mpang^production(s)..[0m'
+-----%------------------------------<<----------------------------------<-8;----[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a6e0356bede9daba43975de967494a053cead92c878ca298a0d9770775b92b64
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-ACID.ANS by Asd (sclr-13); released in sclr-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -25,14 +25,4 @@ Write-Host '
 [37;40m    [0;1;33;40m$[0;1;36;42m$[0;1;37;40m│$[0;1;33;40m$[0;1;37;40m/[0;1;33;40m┌__[0;37;40m    [0;1;33;40m:[0;1;33;46m:[0;1;33;40m:[0;37;40m [0;1;33;40m)[0;1;37;40m$$[0;1;33;40m$│[0;1;32;40m$[0;1;33;40m$[0;1;37;40m/[0;1;32;40m┌__[0;37;40m     [0;1;33;40m_[0;1;32;40m,┐⌐⌐*L$[0;1;36;42m$[0;1;37;40m$$[0;1;33;40m$$[0;1;33;46m$[0;1;32;40m$│[0;1;33;42m$[0;1;32;40m$[0;1;33;40m$/┌.__[0;37;40m   [0;1;33;40m:::[0;37;40m [0;1;33;40m)[0;1;37;46m$[0;1;37;40m$l[0;37;40m        [0m
 [37;40m    [0;1;33;40m`[0;1;32;40m┘/[0;1;37;40m$[0;1;33;40m│[0;1;36;42m$[0;1;33;40m$SS8↕↕[0;1;37;40m*⌐⌐)[0;1;33;40m$[0;1;37;40m$│[0;1;33;42m$$[0;1;33;40m$$[0;1;32;40m│[0;1;33;46m$[0;1;33;42m$[0;1;32;40mSS8↕↕[0;1;33;40m*⌐⌐)$$│[0;1;37;46m$[0;1;32;40m│$[0;1;33;40m$│[0;1;37;40m$[0;1;33;42m$[0;1;33;40m│[0;1;36;40m│[0;1;32;40m┘[0;1;33;40m/[0;1;32;40m$│[0;1;36;42m$[0;1;33;40m│$S[0;1;37;40mS8[0;1;33;40m8[0;1;32;40m↕[0;1;37;40m↕*⌐⌐)$│$[0;1;32;40m│[0;37;40m        [0m
 [37;40m      [0;1;33;40m:[0;37;40m          [0;1;37;40m`"²┘*⌂[0;1;32;40m⌐┘"`[0;37;40m         [0;1;33;40m`"²┘*⌂[0;1;32;40m⌐┘[0;1;36;40m`"[0;1;32;40m²┘*⌐┘[0;37;40m             [0;1;33;40m:[0;1;32;40m`"²┘⌂⌐┘[0;37;40m        [0m
-[37;40m      [0;1;33;40m:,,...........[0;37;40ml[0;1;33;40m.[0;37;40mi[0;1;33;40m.[0;37;40mv[0;1;33;40m.[0;37;40me[0;1;33;40m..[0;37;40mi[0;1;33;40m.[0;37;40mn[0;1;33;40m..[0;37;40ma[0;1;33;40m.[0;37;40mc[0;1;33;40m.[0;37;40mi[0;1;33;40m.[0;37;40md[0;1;33;40m..[0;37;40mw[0;1;33;40m.[0;37;40mo[0;1;33;40m.[0;37;40mr[0;1;33;40m.[0;37;40ml[0;1;33;40m.[0;37;40md[0;1;33;40m..........,,:[0;37;40m asd^sclr      [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m'
+[37;40m      [0;1;33;40m:,,...........[0;37;40ml[0;1;33;40m.[0;37;40mi[0;1;33;40m.[0;37;40mv[0;1;33;40m.[0;37;40me[0;1;33;40m..[0;37;40mi[0;1;33;40m.[0;37;40mn[0;1;33;40m..[0;37;40ma[0;1;33;40m.[0;37;40mc[0;1;33;40m.[0;37;40mi[0;1;33;40m.[0;37;40md[0;1;33;40m..[0;37;40mw[0;1;33;40m.[0;37;40mo[0;1;33;40m.[0;37;40mr[0;1;33;40m.[0;37;40ml[0;1;33;40m.[0;37;40md[0;1;33;40m..........,,:[0;37;40m asd^sclr      [0m'

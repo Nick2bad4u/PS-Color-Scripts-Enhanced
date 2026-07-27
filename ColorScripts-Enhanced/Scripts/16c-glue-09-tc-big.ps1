@@ -5,12 +5,12 @@
 # Source SHA-256: faa1698736c0cb00e5b7935ea9f5905ee6ba2fcd3d5018d4c229ced711dc16ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TC-BIG.ANS by The Chef (glue-09); released in glue-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
-[1mt[0mheCHEF[1m:[0m:                                                 [1m  [0m  [31m ▌[0m
+[1m [0m      [1m [0m                                                  [1m  [0m  [31m ▌[0m
 [37m:[0;1;37m:[0m [1mg[0mlue[1m''[0m98                                              [1m      [0;31m░▓▌[0m
                                                          [1;37m [0m [1m   [0;31m▄[0;1;31;41m ▄[0;31m▀[0m
                                                             [1;37m [0;31m▄███▌[0m
@@ -57,5 +57,4 @@ Write-Host '
                ▄ ▄▄████▓▓▓ [31m▀ ███[0;1;31;41m░░░░[0;31m█ [0;1;31mG[0;31mEEE$TA$ [0;1;31m [0m [31m [0;37m██▓▓▓▒▒▒[0m
                    [37m▓▓▓▓▒▒▒▒▀[0m    [31m░░░░[0;37m  [0;1;31mP[0;31mARADI$E[0m    [37m▐▀▒▒▒░░░[0m
                    [37m▒▒▒▒░░░░ [0;31moperated by [0;1;31mrash[0;31m ([0;1;31mglue[0;31m)[0;37m ░░░  [0m
-                   [37m░░░░     [0;30mansi by thechef, glue productions 1998[0m
-                             [31m         [0m'
+                   [37m░░░░     [0;30m                                      [0m'

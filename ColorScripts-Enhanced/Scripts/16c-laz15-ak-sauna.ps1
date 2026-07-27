@@ -5,7 +5,7 @@
 # Source SHA-256: 62defbd97fceb20bb73f746f795853acf088a00809c81ffa3036551114548fe6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-SAuNA.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
 # SAUCE Date: 20220524
@@ -35,7 +35,7 @@ Write-Host '
 [35mb    [0;1;31m`[0;31m"[0;1;31m.┌┐. .,  d$$$$$[0;31m$$P[0;1;34m  [0;32m,[0;1;32m$[0;32m.  [0;1;33m`┘[0;32m [0;1;33m4j[0;33mjP[0;1;33m   ,$ $$$$$$.   [0;1;36mY$$[0;1;34mP    [0;33m.d$[0;1;31m$$[0;31m.[0;1;35m`4$$A[0;35m┐,`[0;31mj[0;1;31m$$[0m
 [1;35m$[0;35m$\.   [0;1;31m`²[0;31m²''[0;1;31m($$[0;31m)[0;1;31m `4$[0;31mj$P┘''[0;34m .[0;1;34md[0;1;32m$$$[0;32mb.        [0;1;33m,d$$ ²''^` $$b[0;33m.  [0;1;36m`[0;1;34m` [0;33m.,¬$$$▒[0;1;31m▒$$[0;31mb.[0;1;35m`²[0;35m''`[0;31m.d[0;1;31m$$d[0m
 [1;35m$$$[0;35m$[0;1;35m$[0;35ms┐.    [0;31m`''        [0;34m.┌[0;1;34md$$[0;1;32m$$$$$$S#%%#S[0;32m$[0;1;33m$$$$┌s%#$$$$$[0;33m$$S#S$$$$$$$$[0;1;31m$$$$$$%[0;31m#$[0;1;31m$$$$$[0m
-[1;35m$ [0;1;31mS[0;1;32mA[0;1;33mU[0;1;36mN[0;1;35mA $S#%[0;35m%[0;34mss[0;1;34msss%#S$$$$$$[0m [1;35mGENDER NEUTRAL BATHHOUSE [0;33m$$$$$$$$$$$$$[0;1;31m$$[0;31m$[0;1;37m [0;1;31ma[0;33mb[0;1;33ms[0;32mt[0;36mr[0;1;35ma[0;1;34mk[0;1;30mt[0;1;37m [0;1;31m$[0m
+[1;35m  [0;1;31m [0;1;32m [0;1;33m [0;1;36m [0;1;35m      [0;35m [0;34m  [0;1;34m            [0m [1;35m                         [0;33m             [0;1;31m  [0;31m [0;1;37m [0;1;31m [0;33m [0;1;33m [0;32m [0;36m [0;1;35m [0;1;34m [0;1;30m [0;1;37m [0;1;31m [0m
 [1;35m--------------------------------------------------------------------------------[0m
 [1;35m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m'

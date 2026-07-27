@@ -5,7 +5,7 @@
 # Source SHA-256: e9a81e6a9080b60a1442fc190265afc376c6d0aeba9da714b54ace11aba56a82
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: smp-csad.ans by Shrimp (Revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chaos AD
 # SAUCE Author: Shrimp
 # SAUCE Group: Revival
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-Shrimp[1m([0;1;33mRevival[0;1;37m)[0m
+      [1m [0;1;33m       [0;1;37m [0m
                                                                  [32m▄[0m
                [32m▀▄▄[0m        [37m█[0;1;33;47m▄▄▄▄[0m█            [32m▄▌[0m                [32m ▄[0;1;32;42m▄[0;32m▌[0;37m    ▄▄ [0m
    [32m█▄[0m            [32m▀[0;1;32;42m■▄[0;32m▄▄[0m    [37m█[0;1;33;47m▓▓▓▓[0m█          [32m▄[0;1;32;42m▄[0;32m█[0m               [32m [0;37m [0;32m▀[0;37m ▄▄▄[0;1;33;47m▄▄▄█[0m█
@@ -39,7 +39,7 @@ Shrimp[1m([0;1;33mRevival[0;1;37m)[0m
                                                [32m▐[0;1;32;42m█[0;1;37;42m█▀[0;32m█▀[0m
                                                [32m▐[0;1;32;42m▀[0;32m█▀[0m
                                     [33m  [0m         [32m▐▀[0m                      [1;37m    PgDn[0m
-Shrimp[1m([0;1;33mRevival[0;1;37m)[0m                       [33m    [0m    [33m    [0m
+      [1m [0;1;33m       [0;1;37m [0m                       [33m    [0m    [33m    [0m
              [33m▄▄▄▄[0m    [33m▄▄▄[0m               [33m    [0m   [33m▄▄[0;1;33;43m▄▌▄[0;33m▄[0m          [33m▄▄█▀[0m     [33m    [0m
 [34m  [0;33m▄[0;1;33;43m▄[0;33m█▄[0m   [33m ▄█[0;1;33;43m▐[0;1;37;43m▄[0;1;33;43m█▓░[0;33m█▄[0;1;33;43m▄▄██[0;33m█[0;34m  ██████    [0;33m ▄▄█[0;1;33;43m▄▄[0;33m█▄ ▐[0;1;33;43m░▓██▀[0;33m██▄▄[0;34m  [0;33m▄▄██▀▀▀[0m    [34m  ▄▄ [0;33m ██▄[0m
 [34m [0;33m▐[0;1;33;43m█▀▌[0;33m█▄▄█[0;1;33;43m▄▌▐▀▀▀[0;33m███[0;1;33;43m▀▀▐▀▌[0;33m█[0;34m  █[0;1;34;44m▌ ▄[0;34m██ [0;33m  ▄[0;1;33;43m▐▄▐[0;1;37;43m█[0;1;33;43m██▄▌[0;33m█▄█[0;1;33;43m ▀[0;33m█▀▄[0;1;33;43m ▀▌[0;33m██▀▀[0m     [34m▄▄▄███[0;1;34;44m▄[0;34m█  [0;33m█[0;1;33;43m█▄[0;33m█[0m
@@ -62,6 +62,4 @@ Shrimp[1m([0;1;33mRevival[0;1;37m)[0m                       [33m    [0m   
            [33m▀██[0;1;33;43m▀▌▐▀[0;33m█▀▀▀███ ▀[0;1;33;43m  ▀[0;33m▀████▄▄[0m              [33m▀[0;1;33;43m▀ ▄[0;33m█▄▄▄  ▄▄[0;1;33;43m▄[0;1;37;43m▄[0;33m█▄[0m   [33m▀█[0;1;37;43m▀[0;1;33;43m▀[0;33m██▀[0m
               [33m▀▀▀[0m     [33m▐█▀[0m    [33m▄█[0;1;33;43m▄▐[0;33m███[0;1;33;43m ▄[0;33m█▄▄▄ [0m    [33m▄▌ [0m   [33m▀█[0;1;33;43m█[0;1;37;43m█▄[0;1;33;43m▄▌[0;33m█▄█[0;1;33;43m▐▀[0;33m█▀[0m
            [37mChaos AD[0;34m [0;33m▄ ▀[0m     [33m▐[0;1;33;43m [0;1;37;43m██[0;1;33;43m█▄▌[0;33m███[0;1;33;43m ▀█▌▄▄▄[0;33m██▀[0m      [33m▐[0;1;33;43m ▌▀▌▀[0;33m██▌▀▀[0m
-                             [33m▀[0;1;33;43m▐▀[0;33m█▀▀[0m    [33m▀▀[0;1;33;43m ▀▀[0;33m█▀[0m         [33m▀[0;1;33;43m [0;33m████▀[0m
-[1;37mChoose one, C4nnabis :)[0m
-[1mItamar@digital-artist.org[0m'
+                             [33m▀[0;1;33;43m▐▀[0;33m█▀▀[0m    [33m▀▀[0;1;33;43m ▀▀[0;33m█▀[0m         [33m▀[0;1;33;43m [0;33m████▀[0m'

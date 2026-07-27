@@ -5,7 +5,7 @@
 # Source SHA-256: bfd80044dc3173588254ebc437fef88ef1dde3b5b0ce3d8ecf72ea7e50bc37b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-AGILE.ANS by Prosthesis + Reanimator (glue/legion); released in glue-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: agile
 # SAUCE Author: prst/reanimator
 # SAUCE Group: glue/legion
@@ -36,7 +36,4 @@ Write-Host '
 [1;30;40m░░░░░░[0;1;37;40m   [0;31m░░░░█[0;1;31;41m░░░▄▄[0;31m▄▄   ▀▀[0;1;31;41m░░░▒▓▓▓[0;1;31;40m██[0;1;37;41m▓▓▓▓▓▓▓[0;1;31;40m███[0;1;37;40m  [0;1;34;40m█[0;1;37;44m██▓▓▓[0;1;34;44m▓▒[0;34m▄▄[0;1;37m      [0;1;35m   [0;30;45m▓[0;1;35;40m███[0;35m██[0m
 [1;30m░░░░░░[0;1;37m   [0;31m░[0;1;31;41m░░░▒▓▓[0;1;37;41m███[0;1;31;41m▓▓░░[0;31m▄▄▄[0;1;37m   [0;31m ▀▀▀▀▀[0;1;31;41m░░░░░▓▓▓▓[0;31m░[0;1;37m  [0;1;34;44m░▒▒▓[0;1;34;40m████[0;1;34;44m▓░[0;30;44m▒▓▓[0;1;37;40m   [0;1;35;40m [0;35m▀[0;1;37;45m░▒█▒[0;1;35;40m█[0;1;35;45m▓▒░[0;1;30;45m▓[0;1;30;40m▀[0m
 [1m         [0;31m░[0;1;31;41m░░░▒█[0;1;37;41m▒▒▒▒▒▒▒[0;1;31;41m██▓▒░░[0;31m▄▄[0;1;37m         [0;31m▀▀▀▀░░░[0;1;37m [0;30;44m▓▓▓░░░[0;1;37;44m░░[0;34m▀▀[0;1;37m   [0;30;42m█████[0;35;40m ▀[0;1;37;45m▓▒[0;1;35;45m▓░[0;1;30;45m▓[0;1;30;40m▀[0m
-[30;42m▓▓▓▓▓▓[0;32;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;30;40m░░░[0;30;44m▓▓▓▓▓[0;1;30;40m░░[0;32m░[0;30;42m▓▓▓▓▓▓▓▓[0;1;30;40m░░[0;35m▀[0;1;30;45m░[0;35m▀[0;1;30m░[0;32m░[0;30;42m▓▓[0;1;30;40m░░[0;30;42m██[0m
-
-[1;34;40m  [0m   [1;34moutlines[0;1;37m /[0m [1;32msome color design by prosthesis[0m [1m/[0m [1;33mglue[0m [1m/[0m [1;33mblackmaiden[0m
- [1;34m  [0m  [1;34mshading [0m   [1;32m                  by reanimator[0m [1m/[0m [1;33mlegion[0m'
+[30;42m▓▓▓▓▓▓[0;32;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;30;40m░░░[0;30;44m▓▓▓▓▓[0;1;30;40m░░[0;32m░[0;30;42m▓▓▓▓▓▓▓▓[0;1;30;40m░░[0;35m▀[0;1;30;45m░[0;35m▀[0;1;30m░[0;32m░[0;30;42m▓▓[0;1;30;40m░░[0;30;42m██[0m'

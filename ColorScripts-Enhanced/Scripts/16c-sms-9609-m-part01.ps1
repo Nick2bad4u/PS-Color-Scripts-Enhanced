@@ -5,7 +5,7 @@
 # Source SHA-256: 66ce999ca4089ff749e50134b09bdfef83cea0e1a97a5cd9670be08c0dc61c48
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M!&.ANS by Mice (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: & (Ampersand)
 # SAUCE Author: Mice
 # SAUCE Group: Samsara
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mphear, a [0;1;31msamsara[0;1;37m thing!@%       [0m
+[1m         [0;1;31m       [0;1;37m                [0m
 
 
 
@@ -38,5 +38,4 @@ Write-Host '
 [31m"²S$$$$$$$$$$$$$$$$$$$$$$$ [0m     [31m$$b[0m     [31mss,[0m     [1;31md$$[0;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
     [31m""²²S$$$$$$$$$$$S²²"" [0m      [31m`$$$,[0m   [31m`$$[0m     [1;31m7[0;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
                                  [31m`$$$[0m   [31m,$$[0m       [31m""²²S$$$$$$$$$$$$$$$$$S²²""[0m
-                                 [31m$$²"  ,$$P[0m
-                             [1;31m,ss ssss,[0m [31m²²"[0m'
+                                 [31m$$²"  ,$$P[0m'

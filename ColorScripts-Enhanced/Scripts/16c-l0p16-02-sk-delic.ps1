@@ -5,7 +5,7 @@
 # Source SHA-256: 6f7fc2342d238aa826b360d9aeb9589cb953cbdbdec9289629fcb9c7dfe7f817
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!DELIC.ANS by Simonking + Delicious (thelo0p^lure); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pszczolka
 # SAUCE Author: delicious^simonking
 # SAUCE Group: thelo0p^lure
@@ -37,5 +37,4 @@ Write-Host '
 [1;34;44m░░[0;34m▌   ▐[0;1;34;44m▓▓▀[0;34m▀  [0;37m░[0;1;30m▌[0;34m  [0;1;30;47m░░░[0;34m  [0;1;37m░[0;1;30;47m░░░[0;1;30;40m▌[0;34m  [0;1;30;47m░░[0;34m    [0;1;30m▐[0;1;30;47m░░[0;34m  [0;1;30;47m░░[0;1;30;40m█▀[0;34m  [0;1;37m▄▐[0;1;37;43m▓▓▓▓[0;1;37;40m▄▄▄[0m        [44m█████████████▓▓█[0;37;44m█[0m
 [1;34;44m  [0;34m▌ [0;37m░[0;34m▄[0;1;30;44m [0;1;34;44m▒▒[0;34m▌   [0;37m [0;34m  [0;1;30m▐[0;1;30;47m▒▒▒▒[0;34m  [0;1;30m▐[0;1;30;47m▒▒[0;34m  [0;1;30m▐[0;1;30;47m▒▒[0;1;37;40m░[0;34m        [0;1;30;47m▒[0;1;30;40m▀[0;34m [0;1;37m▄[0;1;37;43m████████▓▓▓▓▓▓▓▓[0;1;37;40m▄▄▄[0;34m  [0;1;30m▀[0m▀[1;30;47m░░░░░░░░░[0;44m██[0;1;30;47m░░[0m
 [36;44m░░[0;34;40m██[0;1;30;44m▒▒[0;1;34;44m░[0;34m██    [0;37m [0;34m  [0;1;30m▀[0;1;30;47m▓▓▓[0;1;30;40m▀[0;34m  [0;1;30;47m▓▓[0;1;30;40m▌[0;34m  [0;1;30m█[0;1;30;47m▓▓▓[0;1;30;40m█[0;34m   [0;1;30m▀[0;1;30;47m▓▓[0;1;30;40m▀[0;34m [0;33m▄[0;1;37;43m█████[0;1;37;40m▀▀█[0;1;37;43m█████▓▓▓▓[0;1;37;40m▀[0m▀[1;47m▀[0;1;40m███▄[0;34m  [0;1;30;47m▒▒▒▒▒▒▒▒░░▒▒[0m
-[34m▀ ▀▀█▀█      [0;37m [0;1;30m▓▄[0;34m     [0;1;30m▄[0;1;30;47m███[0;1;30;40m▌[0;34m  [0;1;30m▓[0;1;30;47m███[0;1;30;40m▓▓▄[0;34m     [0;33m█[0;1;37;43m████[0;1;37;40m▀[0;34m [0;1;37m [0;33m▐[0;1;37;43m░▀[0;1;37;40m█████[0;1;37;43m▓▓▓[0;1;37;40m▌ [0m █[1m███▌[0;34m [0;1;30m▐[0;1;30;47m▓▓▓▓▓▓▓▒▒▓▓[0m
-[36m [0;37mo[0;1;30mutlines [0mb[1;30my [0;1;36md[0;36meliciuos/[0;1;36mf[0;36mluid [0;34m[] [0;37ms[0;1;30mhading/[0mt[1;30mouchups/[0mf[1;30mont[0;36m [0;37mb[0;1;30my[0;36m [0;1;36ms[0;36mIMON[0;1;36mk[0;36mING/[0;1;36mt[0;36mhelo0p^[0;1;36ml[0;36mure[0m'
+[34m▀ ▀▀█▀█      [0;37m [0;1;30m▓▄[0;34m     [0;1;30m▄[0;1;30;47m███[0;1;30;40m▌[0;34m  [0;1;30m▓[0;1;30;47m███[0;1;30;40m▓▓▄[0;34m     [0;33m█[0;1;37;43m████[0;1;37;40m▀[0;34m [0;1;37m [0;33m▐[0;1;37;43m░▀[0;1;37;40m█████[0;1;37;43m▓▓▓[0;1;37;40m▌ [0m █[1m███▌[0;34m [0;1;30m▐[0;1;30;47m▓▓▓▓▓▓▓▒▒▓▓[0m'

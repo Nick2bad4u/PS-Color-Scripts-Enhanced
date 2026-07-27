@@ -5,7 +5,7 @@
 # Source SHA-256: 4ec80e3462288b4d842031c723428a4444bfa93ec24b3c1536e73e04726e4f68
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-PRACT.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Practical Joke #2
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -31,5 +31,4 @@ Write-Host '
 [36m [0m   [36m▀▀[0;1;36;46m░[0;36m▄ [0m   [36m [0;37m  [0;36m   [0m   [36m  [0m                                              [1;36m▄[0;1;36;46m░[0;36m▀▀[0m
 [37m [0;36m [0;37m [0;36m [0;37m [0;36m [0;1;30m [0m [36m▀■▄ ▄■▀[0;1;30m [0;36m▀[0;37m [0;36m▄[0;37m  [0;1;30mt h e   p r a c t i c a l  j o k e [0m [36m▄[0;37m [0;36m▀ ▀ ■▄ ▄■[0;1;36m▀[0m
   [36m [0m    [1;30m       [0m      [36m■[0m      [36m ▄ ■▀[0;37m [0;36m    [0m     [36m▀■[0;37m [0;36m▄[0m         [36m■[0m     [36m  [0m
-   [36m [0m     [36m [0m           [36m▀ ▄[0;37m [0;36m▄[0;37m [0;36m■[0m      [36m [0;37m [0;36m [0m          [36m■ ▄ ▄ ▀[0m
-                   [36m [0;37m  [0;36m   [0m'
+   [36m [0m     [36m [0m           [36m▀ ▄[0;37m [0;36m▄[0;37m [0;36m■[0m      [36m [0;37m [0;36m [0m          [36m■ ▄ ▄ ▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 856f22a5b991250ed8c26a4cf31fe49cdf85b6db40379588791440665b80c64d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-TERMT.ICE by image (ice); released in ice9505a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Termite Terrace
 # SAUCE Author: image
 # SAUCE Group: ice
@@ -36,12 +36,12 @@ Write-Host '
             [35m   [0m    [35m▀[0;1;31;45m ▀[0;35m█[0;1;30m [0m                                [35m   [0m    [35m▀[0;1;31;45m ▀[0;35m█[0;1;30m [0;35m  [0m    [35m▀[0;1;31;45m ▀[0;35m█[0;1;30m [0m
  [1;31m▄▀▀▀▀▀▀[0;31m▀[0;1;31m▀[0;31m▀▀▀[0;1;31m▀▀[0;31m▀▀▀[0;1;31m▀[0;35m [0m [35m▀[0m [31m ▀▀▀[0m  [31m▀▀[0m [31m [0m  [31m▀[0m     [31m▀[0m              [35m        [0m [35m▀[0m [31m [0;35m       [0m [35m▀[0m [31m [0;37m [0m
 [1;31;41m▓[0m [1;31;40m▄▀▀▀▀▀▀▀▀[0;31m▀[0;1;31m▀▀[0;31m▀▀▀[0;1;31m▀[0;31m▀▀▀▀▀▀▀▀[0;1;31m▀[0;31m▀▀▀▀▀▀▀▀▀▀▀[0;1;31m [0;31m▀▀▀▀  ▀▀▀ [0m  [31m▀[0m       [31m▀[0m
-[1;31;41m▒[0m [1;31;41m▓[0m ..[1mtermite terrace[0m..[1m [0m214.288.3211...[1m [0;1;30mthe only affil that matters is [0;1;37mice[0m  [1;31m   [0m
-[1;31;41m░[0m [1;31;41m▒[0m [1;30;40manywaze[0m [1;30;40mcall it up and have a[0;1;37;40m [0;1;30;40mg[0m0[1;30mod time[0;1;37m.. [0;1;30mmister[0;1;37m to[0m0[1mn g[0m0[1mon [0;1;30mis a c[0m0[1;30molie[0m  [31m░[0m
+[1;31;41m▒[0m [1;31;41m▓[0m   [1m               [0m  [1m [0m               [1m [0;1;30m                               [0;1;37m   [0m  [1;31m   [0m
+[1;31;41m░[0m [1;31;41m▒[0m [1;30;40m       [0m [1;30;40m                     [0;1;37;40m [0;1;30;40m [0m [1;30m       [0;1;37m   [0;1;30m      [0;1;37m   [0m [1m   [0m [1m   [0;1;30m      [0m [1;30m    [0m  [31m░[0m
 [31m▓[0m [1;31;41m░[0m [1;30;40mboy[0m.. [1;30mw[0m0[1;30mo[0m..                                                            [31m ▒[0m [31m [0;37m [0m
 [31m▒[0m [31m█[0m                                                                         [31m▓[0m [31m░[0;37m [0m
-[31m░[0m [31m▓[0m [1;30manywaze[0;1;37m [0;1;30mif you want an ansi from me[0m..[1m [0;1;30mfind me and ask[0m.. [1;30mdont forget to[0;1;37m [0m [31m█[0m [31m▒[0;37m [0m
-[31m [0m [31m▒ [0;1;30msay please[0m..[1m [0;1;30mits so much nicer that way[0m... [1;30manywaze[0m...[1m [0;1;30mthats about[0;1;37m [0;1;30mit[0m..[1m [0m [1;31;41m░[0m [31m▓[0;37m [0m
+[31m░[0m [31m▓[0m [1;30m       [0;1;37m [0;1;30m                           [0m  [1m [0;1;30m               [0m   [1;30m              [0;1;37m [0m [31m█[0m [31m▒[0;37m [0m
+[31m [0m [31m▒ [0;1;30m          [0m  [1m [0;1;30m                          [0m    [1;30m       [0m   [1m [0;1;30m           [0;1;37m [0;1;30m  [0m  [1m [0m [1;31;41m░[0m [31m▓[0;37m [0m
   [31m░[0m                                                                         [1;31;41m▒[0m [1;31;41m░[0m
                                                                     [1mtanx..[0m  [1;31;41m▓[0m [1;31;41m▒[0m
                   [31m▄[0m       [31m▄   ▄▄▄ ▄▄▄▄▄[0;1;31m▄[0;31m▄▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;31m▄▄▄▄▄▄▄▄[0;1;31m▄[0;31m▄▄▄[0;1;31m▄▄[0;31m▄[0;1;31m▄▄▄▄▄▄▄▄▄▀[0m [1;31;41m▓[0m

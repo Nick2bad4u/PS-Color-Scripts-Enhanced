@@ -5,7 +5,7 @@
 # Source SHA-256: b5d84adf40f5a5550bc08ed67adeb2e97424859478a4dd652c1befb1eb590eda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-ZC2.ANS by The Stalker (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -53,5 +53,4 @@ Write-Host '
                    [33m▀▀█[0;1;31;43m░░░░░░░░░▒▒▒▒▒▒░░▒▒▒▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░[0;33m█[0m
                        [33m▀▀█[0;1;31;43m░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▒▒▒░[0;33m███[0m
                             [33m▀▀▀█[0;1;31;43m░░▒░░░▒▒▒▒▒▓▓▓██▓▓▓▓▒▒▒░░░[0;33m██▀[0m
-                                    [33m▀▀▀[0;1;31;43m░░░▒▒▒▓▒▓▓▒▒░░[0;33m█▀▀▀▀[0m
-'
+                                    [33m▀▀▀[0;1;31;43m░░░▒▒▒▓▒▓▓▒▒░░[0;33m█▀▀▀▀[0m'

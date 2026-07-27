@@ -5,7 +5,7 @@
 # Source SHA-256: 2f2f0226dfcb6b0c8004e88f0002edd84ae8d072294230dda1e8f66032593341
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-FC.ANS by Pyx (Bamboosh / Society); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 333- Eff Seeh -EEE
 # SAUCE Author: Pyx
 # SAUCE Group: Bamboosh / Society
@@ -35,4 +35,4 @@ Write-Host '
     [35m░░░[0m   [35mpyx[0;31m▄[0;1;31;41m▄███▀[0;1;31;40m▀▀[0;31m▀   [0m               [31m░░░[0m   [31m   ▀[0;1;31m▀▀[0;1;31;41m▀███████▌[0;31m▌ [0m
         [31m ▄[0;1;31m▄[0;1;31;41m▄▀[0;1;31;40m▀▀[0;31m▀[0m    [31m░░[0m                                [31m  ▀[0;1;31m▀[0;1;31;41m▀█▄[0;1;31;40m▄[0;31m [0m
       [31m▄[0;1;31;41m▄[0;1;31;40m▀▀[0;31m [0m                                                 [31m ▀[0;1;31m▀[0;1;31;41m▄[0;31m▄[0m
-      [1;31m▀[0m                    [35m/mode #FriendChip +o slash [0m          [1;31m▀[0m'
+      [1;31m▀[0m                    [35m                           [0m          [1;31m▀[0m'

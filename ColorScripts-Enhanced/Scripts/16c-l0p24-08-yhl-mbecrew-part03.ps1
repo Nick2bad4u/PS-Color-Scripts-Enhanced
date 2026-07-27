@@ -5,7 +5,7 @@
 # Source SHA-256: 1519adf92b87e969d6382bdc9793333e56c52fd6b5b0c4cd024e7e6f0485bc2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: yhl_mbecrew.ans by Yhl (l0p24_08); released in l0p24_08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 78-115
 # Columns: 1-80
 
@@ -42,9 +42,9 @@ Write-Host '
    [31m [0;1;31m$[0;31m$$[0m   [34m│[0;31m  `$$.[0m           [31m*└ⁿ"`$[0;1;31m$$[0;31m  $$$*┘"`       `┘''[0m        [31m    $$  [0;1;34m.[0m
    [31m $$$[0m    [31m_.,┤$$$┐[0m             [31m;$$l[0m          [34m┐[0m              [34m"[0m     [31m└┘[0m
    [31m $$$y@S$│$7*┘ⁿ4$b[0m     [34m,[0m      [31ml$$;[0m
-   [31m $$$*┘"`       `┘'' [0m          [31m$$$;[0m          [32mMonke[0;1;32my Brain[0;1;33m [0;1;32mE[0;1;33maters[0m
+   [31m     ┘          ┘  [0m          [31m    [0m          [32m     [0;1;32m       [0;1;33m [0;1;32m [0;1;33m     [0m
                            [31m     $$$[0m           [1;30m![0m      [1;30m![0m     [1;30m![0m
-    [1;30mansiart made by yhl -.[0;31m   │$@$$$┐._ [0m
+    [1;30m                      [0;31m   │     ┐   [0m
                            [31m   `"┘*S$││$[0m                     [1;34m│[0m
          [1;30m             [0m               [31m`''[0m                 [34m`[0m
      [1;34m,[0m'

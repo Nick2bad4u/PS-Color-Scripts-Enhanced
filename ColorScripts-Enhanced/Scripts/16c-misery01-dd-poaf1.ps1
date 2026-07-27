@@ -5,7 +5,7 @@
 # Source SHA-256: e2dfe5e25ba8e77bd46f26e4bf7ac171736a83ef2e4b2f04c1e7d2248af7bd2e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-POAF1.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Poaf.
 # SAUCE Author: Da Drug
 # SAUCE Group: Misery Productions.
@@ -32,8 +32,4 @@ Write-Host '
 [32m  ▀ [0;37;42m░[0m               [32;40m▀[0;37;42m░░[0;32;40m▄[0m        [32;40m▀▀[0m
                       [32;40m▀[0;37;42m▄░[0;32;40m▄[0m
                      [32;40m▄[0;37;42m░░[0;32;40m▀[0m
-                    [32;40m▀▀[0m
-
-
-
-                      [1;32;40mnew background style [0;1;37;40m- speaks for itself.[0m'
+                    [32;40m▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5fc5c7d581c8002ec272b4c4715c6825acc9c06b1c10a8d73f822979825f5b1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-SH1.ANS by Mother Fungus (DoS); released in dos-v195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Satan's Hammer
 # SAUCE Author: Mother Fungus
 # SAUCE Group: DoS
@@ -40,8 +40,8 @@ Write-Host '
         [31m▐▓[0m     [31m▓▌ ▐▓    ▐▓  ▐▓[0m        [31m▓▌ ▐▓[0m        [31m▓▌ ▐▓▓[0;31;41m▒[0;31;40m▄[0m     [31;40m▐▓[0m     [31;40m▐█[0m
          [31m▒    ░▌   ▒    ▀    ▒[0m       [31m░▌   ▒[0m       [31m░▌    ▀▀███▀   ▒[0m     [31m▓▌[0m
                                                                       [31m░▌[0m
-                           [1;31m■▄   [0;31m▄[0m     [30mFire. Fire. Huh huh huh[0m [30mhuh[0m
-                            [1;31m▐[0;1;31;41m█[0m    [1;31;40m▄[0m         [30mFires cool.[0m
+                           [1;31m■▄   [0;31m▄[0m     [30m                       [0m [30m   [0m
+                            [1;31m▐[0;1;31;41m█[0m    [1;31;40m▄[0m         [30m           [0m
                             [1;31;41m███[0;1;31;40m▄  ▐[0;1;31;41m█[0m                [1;31;40m■▄   ▄  ■▄[0m         [31m▄[0m
                          [1;31m▄▄[0;1;31;41m██▓▓██[0;1;31;40m█[0;1;31;41m██[0m   [1;31;41m▓[0m       [31m∙[0m     [1;31m▐[0;1;31;41m█[0m  [1;31;41m███[0;1;31;40m▄▐█[0m
             [1;31;40m■   ■[0m      [31m■[0;1;31m▄[0;1;31;41m███▓▒▒▒▓[0;1;31;40m█[0;1;31;41m██[0m [1;31;40m▄[0;1;31;41m██▓[0m     [1;31;40m■[0m      [1;31;41m███[0;1;31;40m▄[0;1;31;41m▓██████[0;1;31;40m▄    ▄  [0m
@@ -61,5 +61,5 @@ Write-Host '
              [31m▀▀[0;1;31;41m▓▒▒▒░░▒▒▒▒▒▒░░░░░░▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒▒[0;31m▀▀▀[0;1;31m     [0m
                   [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
                   [1;30m· ·· ·─ ───────[0m─[1;30m─[0m──────────[1m─[0m─[1m───────[0m
-                             [1;37mANSi[0m by: M[1;30mother[0m [1;30mF[0mungus [[1mDOS][0m
+                             [1;37m    [0m      [1;30m     [0m [1;30m [0m       [1m    [0m
                             [1m──────[0m──────[1m─[0m──────[1;30m─[0m──[1;30m──── ── ···[0m'

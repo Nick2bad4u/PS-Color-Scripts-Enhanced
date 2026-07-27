@@ -5,7 +5,7 @@
 # Source SHA-256: 94ddadd2710e404a218c0afa940573e555ebc4362b56c8f670a23d2827b3189d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%FÄRG.ANS by big y3llow man (GUMMiBOLL.art); released in plf-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: s?tter f?rg p? tillvaron
 # SAUCE Author: big y3llow man
 # SAUCE Group: GUMMiBOLL.art
@@ -29,6 +29,4 @@ Write-Host '
    [30;43m▓[0;33;40m▄▄█[0;30;43m ░░[0;33;40m███▄▄[0;30;43m▓[0m      [37;40m  [0;30;44m▓▓[0;37;40m                            [0;30;44m▓▓▓▀[0;1;34;44m░░[0;30;44m▀▀▀▀▀▀▀▀    ░░░░░░░[0;37;40m [0m
 [30;43m▓[0;33;40m▄█████[0;30;43m░░ [0;33;40m▀▀▀▀▀▀▀[0;37;40m [0;30;44m▀▀▀▀▀▀░░ [0;1;34;44m▄▄▄▄▄▄▄▄▄▄▄▄[0;30;44m   ░░  [0;1;34;44m▄▄▄▄▄▄▄[0;30;44m ░░░ [0;1;34;44m▄▄▄███████▀▀▀▀▀[0;30;44m [0;1;34;44m▄▌[0;30;44m   [0;37;40m [0m
 [30;44m▀▀▀▀▀▀▀▀▀▀▀ [0;1;34;44m▄▄▄▄▄▄▄█████▓▓▓██████████████████▓▓████████████████████████████▓▓█[0;30;44m [0;37;40m [0m
-[30;44m       [0;1;34;44m▄▄██████████████████████████████████████████████████████████████████████[0m
-[1m          [0m
- [1mpoffelipoff put''s color on the grey world!!! [0m'
+[30;44m       [0;1;34;44m▄▄██████████████████████████████████████████████████████████████████████[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d2f726d376d43ab3e2f036490b30a72955d2854edca479c3fbbb29672ead2def
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-ICEBR.ANS by rorshack (Maiden Brazil); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: icebreaker
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -33,15 +33,4 @@ Write-Host '
     [34m▐██[0;1;34;44m▀▀▀▀[0;34m█▌▀▀▀█[0;1;34;44m░[0;34m█▄▐██[0;1;34;44m▀▀▀▀▀[0;34m█▌█[0;1;34;44m▐██[0;1;34;47m▓▒[0;44m▄▄[0;34;40m█  ▄█[0;1;34;44m▀▀▀▀▀▀[0;34m██[0;1;34;44m▀▀▀▀▀[0;34m██[0;1;34;44m░[0;34m██ ▄█[0;1;34;44m▐███▌[0;34m█▐█[0;1;34;44m▀▀[0;34m█▌[0m
             [34m▀▀[0;37m  [0;34m▀▀▀▀    [0;37m [0;34m     ▀▀▀▀▀▀▀▀▀[0;37m  [0;34m    [0m                 [34m▀▀▀▀▀▀▀▀[0m
 
-[1;30m---> cut! <--------------------------------------------------------> cut! <---[0m
-
-Here you can read ''icebreaker''.
-
-Kinda ilegible, sorry! 10 letters in the same line are kinda difficult! :)
-
-As I live in a tropical country, I don''t know exactly how is an icebreaker. I
-think it looks like that behind the logo. Well, hope it looks like an
-icebreaker. :)
-
-[1m- Rorshack[0m
-  [1;30mrorshack@sili.com.br[0m'
+[1;30m---> cut! <--------------------------------------------------------> cut! <---[0m'

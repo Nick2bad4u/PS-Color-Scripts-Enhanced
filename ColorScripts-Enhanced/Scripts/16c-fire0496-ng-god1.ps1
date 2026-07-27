@@ -5,7 +5,7 @@
 # Source SHA-256: f1f5b0b6f00583e00b7235d173d4a3826e1c3cc15b9785fd11560e1cc3473cde
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NG-GOD1.ANS by Nosegos (fayher?); released in fire0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gardens of death
 # SAUCE Author: Nosegos
 # SAUCE Group: fayher?
@@ -40,10 +40,10 @@ Write-Host '
     [1;30m▐▌[0m [1;30m■▄[0m [1;30m▄■▀█ █[0m [1;30m▐▌ █ ▐▌█■[0m  [1;30m█ ▀█[0m [1;30m▀▀█ [0m   [1;30m▐▌[0m  [1;30m ▐▌█■[0m     [1;30m█[0m [1;30m▐▌█■[0m  [1;30m▄■▀█[0m [1;30m █[0m [1;30m▐▌█▀▄[0m
      [1;30m▀■▄▌ ▀■▄█ █▀■▄[0m [1;30m█■▀ █▄■[0m [1;30m█[0m [1;30m █[0m [1;30m█▄█ [0m   [1;30m ▀■▄■▀[0m [1;30m█[0m      [1;30m█■▀[0m [1;30m█▄■[0m [1;30m▀■▄█[0m [1;30m █▄▀[0m [1;30m█[0m [1;30m▐▌[0m
 [1;30m-------[all 100% original ansi by nosegos]--------------------------------------[0m
-[1;30mHey! You try do a font on three lines! I would be happy if i could skip the     [0m
-[1;30mwhole font-thing.. Anyways, it''s all 100% original.. that means that this ansi[0m
-[1;30mcan wear the official "nosegos guarantee stamp". Press your nose against the    [0m
-[1;30mscreen, and if the ansi smells like roses, it''s a nosegos ansi. I created this[0m
-[1;30msystem to protect myself from rippers, and if you would like to copy my idea,[0m
-[1;30mplease hand over 999.95 $ in royalties, thank you. [0m
+[1;30m                                                                                [0m
+[1;30m                                                                              [0m
+[1;30m                                                                                [0m
+[1;30m                                                                              [0m
+[1;30m                                                                             [0m
+[1;30m                                                   [0m
 [1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4199b7f5f269dd1c8097628ad0acbb6f7e79d5c233a725bb761e9f7023b8c122
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-EI1.ANS by Terminator2 (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Evil Intention
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -42,14 +42,14 @@ Write-Host '
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 
 [1;30m    ──── System Info ────[0m     [1;30m── Staff Dudes ──[0m     [1;30m──── Affils. ────[0m
-[1;30m  3.6 Gigs Of Stuff Online![0m       [1;30mIndicator[0m          [1;30mDua Distro Site[0m
-[1;30m  Node 1 . 408 · 298 · 1920[0m       [1;30mBetrayer![0m        [1;30mFusion Distro Site![0m
-[1;30m  Node 2 . 408 · 298 · 2053[0m     [1;30mBinary Beast![0m         [1;30mManifest WHQ![0m
-[1;30m  IBM/ART/ADULT Conferences[0m       [1;30mOverFlow![0m          [1;30mREM Distro Site[0m
-[1;30m  No NUP . Running Vision/X[0m                          [1;30mSuck Western HQ[0m
-                                                    [1;30mScum Member Board[0m
+[1;30m                           [0m       [1;30m         [0m          [1;30m               [0m
+[1;30m                           [0m       [1;30m         [0m        [1;30m                   [0m
+[1;30m                           [0m     [1;30m             [0m         [1;30m             [0m
+[1;30m                           [0m       [1;30m         [0m          [1;30m               [0m
+[1;30m                           [0m                          [1;30m               [0m
+                                                    [1;30m                 [0m
                            [1;30m──── Network Stats ────[0m
-                              [1;30mIntentNet WHQHub[0m
+                              [1;30m                [0m
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30m A · N · S · i  .  T · E · R · M · I · N · A · T · O · R · 2  .  A · C · i · D[0m

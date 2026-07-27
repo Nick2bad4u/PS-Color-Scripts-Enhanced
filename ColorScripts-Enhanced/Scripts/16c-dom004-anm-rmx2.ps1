@@ -5,7 +5,7 @@
 # Source SHA-256: 5ee394686d8beab4c4972530dd677da3dcc3a0bcec3567d14e94a98229f82123
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-RMX2.ANS by anomite (dominio); released in dom004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: phersum remix.
 # SAUCE Author: anomite
 # SAUCE Group: dominio
@@ -18,7 +18,7 @@ Write-Host '
 [1;32;46m▌[0;36m░[0;37m [0;1;30m▄▄[0m  [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m   [1;30m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m  [1;30m▄▄▄▄▄▄[0m     [36m▄▄▄▄▄  [0m         [36moH mY gOD,[0m
 [1;32;46m▌[0m [1;30m▐[0;1;37;47m█░[0;1;30;40m▌███[0;1;30;47m  [0;1;37;47m░▄▄▄▄▄[0;1;30;47m▀▀[0;1;30;40m███▌[0m [1;30m░█[0;1;30;47m▓▓[0;1;30;40m█████[0m░[1;30m▓[0;30;47m▓[0;1;30;40m██▓[0m░[1;30m█▐██▓▓[0m░[1;30m█▌[0m  [36m  ▐[0;1;36;46m█[0;1;37;40m██[0;1;36;46m▌[0;36m▌[0m           [36miT''s[0;37m [0;36mdA[0m
 [1;32;46m█[0;36m▌[0;37m [0;1;30;47m▄[0;1;37;47m█[0;1;30;47m▀[0;1;30;40m▄[0m [1;30m▀▀█[0;1;30;47m▄▄▄[0;1;37;47m▀▀▀██░[0;1;30;47m▀[0;1;30;40m██▄ ▀██[0;1;30;47m▓[0;1;30;40m█████▓▓[0;30;47m▓[0;1;30;40m█▓[0m░[1;30m▌[0m [1;30m██[0m░[1;30m███[0m  [36m▄▄[0;1;36;46m▄█[0;1;37;40m█[0;1;36;46m▀▀[0;36m▀[0m    [36m▄[0;37m [0;36m▄▌ ▀[0;37m  [0;36m [0;1;32mfONKY[0m
-[1;32;46m█▌[0m  [1;30m█[0;1;37;47m░░[0;1;30;47m▀▀[0;1;30;40m▄▄[0m [1;30m▀▀▀▀█[0;1;30;47m▄▄▄[0;1;30;40m█[0;1;30;47m [0;1;37;47m░[0;1;30;47m▀[0;1;30;40m█[0m  [1;30m██[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m██[0;1;30;40m█[0m░[1;30m████[0m [1;30m▐█[0m░[1;30m▓██▌[0m [36m▀[0;1;36;46m▀██▄[0;36m▄▄[0m     [36m▀[0;1;30;46m░[0;36m▌[0;37m [0;36m▀[0m     [36msHIT![0m
+[1;32;46m█▌[0m  [1;30m█[0;1;37;47m░░[0;1;30;47m▀▀[0;1;30;40m▄▄[0m [1;30m▀▀▀▀█[0;1;30;47m▄▄▄[0;1;30;40m█[0;1;30;47m [0;1;37;47m░[0;1;30;47m▀[0;1;30;40m█[0m  [1;30m██[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m██[0;1;30;40m█[0m░[1;30m████[0m [1;30m▐█[0m░[1;30m▓██▌[0m [36m▀[0;1;36;46m▀██▄[0;36m▄▄[0m     [36m▀[0;1;30;46m░[0;36m▌[0;37m [0;36m▀[0m     [36m     [0m
 [1;37m█[0;1;32;46m█▄[0;36m▄[0;37m [0;1;30m▐[0;1;30;47m▄▄[0;1;37;47m░[0;1;30;47m▄▓▓[0;1;30;40m███▄▄▄▀▀▀▀[0;1;30;47m▄▄[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▄[0m [1;30m▀████████▀▀▄▄█[0m░[1;30m▓██[0m     [36m▐[0;1;36;46m█[0;36m▌▀[0;37m  [0;36m▄[0;1;36;46m█░[0;36m▄  [0m
 [1;32;46m█▌▄[0;1;36;46m [0;36m▄[0;37m  [0;1;30m▀▀[0m [1;30m▄▄[0m▄▄▄[1;30m▄▄▀▀▀▀▀  ▀█[0;1;30;47m▓[0;1;30;40m█▀[0m [1;30m▀[0m▄▄▄▄▄▄▄▄▄▄[1;30m▀▀▀[0m    [36m▄[0;1;36;46m▄██[0;36m▌░░[0;37m [0;36m▀▀▀▌▀ [0m
 [1;37m█[0;1;32;46m███▀[0;36m█▀[0;37m [0;1;30m█[0;1;37;47m▄[0m▌▀▀▀[1;47m▀▀█▄▄▄▄▄░░[0;1;30;40m█▄▀ [0m▄█████████▀▀▄[1;30;47m▀██[0;1;30;40m▄[0m  [36m [0;1;36;46m░█▀[0;36m▌[0;37m [0;36m▄▄[0;1;36;46m▄█[0;36m▄[0;1;30m▄[0m      [36m   [0m
@@ -42,11 +42,4 @@ Write-Host '
          [36m▀▀[0;1;32;46m▀▀░░░[0;36m█░[0m               [36m▄[0;1;32;46m▄▄▄▄▄██[0;36m▌[0m     [36m▄▄▄▄█[0;1;36;46m▀▀▀▀[0;36m▀▀▀▀▀▀▀▀▀[0m       [36m [0;1;30m▀[0m
               [36m    [0m
 
-[37m----------------------------------[0m
-
-[37mremix of an old ansi I made in scum artpack #[0;1;37m02[0m,
-
-check out the shading on that old one. :>
-
-
-phear my skillz.[0m'
+[37m----------------------------------[0m'

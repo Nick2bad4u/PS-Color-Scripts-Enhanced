@@ -5,7 +5,7 @@
 # Source SHA-256: 20b0c793979472c50e9357e154191fb05f722cd6f033494ade906893fb51ec18
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BT-NIHIL.ANS by buzztone (ANGER PRODUCTIONS); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: B00MER's - NiHiL - RIP THE SYSTEM!
 # SAUCE Author: buzztone
 # SAUCE Group: ANGER PRODUCTIONS
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mb[0;1;36muz[0;36mzt[0;1;37mone[0;36m!@[0;1;37m9[0;36m6ang[0;1;37mer[0;36m!@[0;1;37mpro[0;36mduct[0;1;36mion[0;1;37ms[0;36m!@feeling@!the!fun[0;1;37mky@!vibes!f[0;36mrom@!b[0;1;36m00[0;36mmers[0;1;37m!t[0;36mune[0;1;37ms!!![0m
+[1m [0;1;36m  [0;36m  [0;1;37m   [0;36m  [0;1;37m [0;36m    [0;1;37m  [0;36m  [0;1;37m   [0;36m    [0;1;36m   [0;1;37m [0;36m                  [0;1;37m           [0;36m      [0;1;36m  [0;36m    [0;1;37m  [0;36m   [0;1;37m    [0m
 [34m███████████▌[0;35m██[0;1;35;45m▀ [0;35m███[0;1;35;45m▀ ▄[0;35m█▀██[0;1;35;45m▄[0;35m█[0;1;35;45m  [0;35m▐[0;1;35;45m ▄ [0;35m██[0;1;35;45m   [0;35m█[0;1;35;45m ▄ ▄[0;35m███▐██[0;1;35;45m ▄[0;35m█▀▐█[0;1;35;45m  ▄[0;35m███[0;1;35;45m▀[0;35m██[0;37m [0;30;43m▀▀[0;37;40m [0;35;40m█[0;1;35;45m▄[0;35m█[0;37m [0;35m█[0;1;35;45m▄[0;35m███▐[0m
 [34m███████████[0;35m▐█[0;1;35;45m█ █▄ [0;35m▐[0;1;35;45m▀██▀[0;35m█[0;37m [0;1;35;45m▄ [0;35m▐█▌[0;1;31m▄[0;35m▐[0;1;35;45m ▀[0;35m▀█[0;1;35;45m█  ▀ [0;35m█[0;1;35;45m▄ ▀▄[0;35m█[0;37m [0;1;35;45m ▀[0;35m██▌▐█[0;37m [0;35m█[0;1;35;45m▀[0;35m█[0;37m [0;35m█[0;1;35;45m█[0;35m█▐▌[0;30;43m▌[0;1;31;43m [0;30;43m▐[0;35;40m▐█▀[0;30;43m▀[0;37;40m [0;35;40m▐[0;1;35;45m▌[0;35m▌███[0m
 [34m███████████▌[0;35m█[0;1;35;45m███[0;35m█▌▐█[0;1;35;45m█▀[0;35m█[0;37m [0;35m▐[0;1;35;45m▌[0m  [1;35;45m▐[0;35m▌[0;30;43m▌▐[0;35;40m▐[0;1;35;45m▌[0m  [35m█[0;1;35;45m▀   ▀▄[0;35m█[0;1;35;45m▄▌ [0m [35m█[0;1;35;45m▐█[0;35m█ ▀▀▌▐[0;1;35;45m [0m [30;43m▐[0;35;40m▐[0;1;35;45m▌[0m [1;31m▄[0;35m▀[0;30;43m▀[0;1;31;43m [0;1;31;40m▄[0;35m▀[0;30;43m▀[0;1;31;43m  [0m [35m█▀▐█▐█[0m
@@ -50,11 +50,9 @@ Write-Host '
       [1;30m██▄▄▄▄▄▄▄▄[0m [1m▀▀▀▀▀▀▀[0m [1m▀▀▀▀▀▀▀[0m [1;30m▄▄▄▄▄▄▄[0m [1m▀▀▀▀▀▀▀[0m [1m▀▀▀▀▀▀▀[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██[0m
        [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
  [1;30m─────────────────────────────────────────────────────────────────────────[0m───[1m──[0m
- [1;30m [0;1;37m N[0mi[1mHiL [0m/[1m Running OBV v2.30 [0m/[1m Sysop[0m:[1m B00MER [0mof[1m [0m[[1mkosmic[0m/[1m2tryp2 produtkions[0m][1m [0m
+ [1;30m [0;1;37m  [0m [1m    [0m [1m                   [0m [1m      [0m [1m        [0m  [1m [0m [1m      [0m [1m                  [0m [1m [0m
                           [1mPhone[0m: +[1m1[0m-[1m214[0m-[1m221[0m-[1m8109[0m
  [1m───[0m───[1;30m────────────────────────────────────────────────────────────────────────[0m
- [1;30mNIHIL - (Nihilism) \ ''nì-(h)e-,l: A viewpoint that traditional values and[0m
- [1;30mbeliefs[0m [1;30mare unfounded and that existance is senseless and useless.[0m
- [1;30m─────────────────────────────────────────────────────────────────────────[0m───[1m──[0m
- [1;30mhope you like this little ansi i cooked up!  It was pretty hot when I took it[0m
- [1;30mout of the oven!  [0m  greets - pixel pusher/B00MER/jesus[0m'
+ [1;30m                                                                         [0m
+ [1;30m       [0m [1;30m                                                          [0m
+ [1;30m─────────────────────────────────────────────────────────────────────────[0m───[1m──[0m'

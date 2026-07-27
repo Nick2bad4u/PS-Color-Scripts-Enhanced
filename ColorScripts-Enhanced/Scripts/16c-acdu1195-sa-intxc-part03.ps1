@@ -5,7 +5,7 @@
 # Source SHA-256: 8b1f49d670b0d1c869744d9026f4c409b8ca8e4f5d63344d25f38110bcb5bef5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-INTXC.ANS by Soul Assassin (ACiD Productions); released in acdu1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Intoxica
 # SAUCE Author: Soul Assassin
 # SAUCE Group: ACiD Productions
@@ -38,16 +38,15 @@ Write-Host '
  [1;46m█[0m                      [1m [0;1;46m▓█████[0;1;40m██▀[0m          [1m ▀█[0;1;46m████[0;1;40m▀[0m                        [1m █[0m
                          [1m ▀████▀[0m             [1m  ▀[0;1;46m██[0;1;40m▀   [0m
                           [1m  ▀[0m                  [1m  ▀[0m
-                     [1mFor those who can''t read, it''s writen[0m
+                     [1m                                     [0m
 
                                 [1mI N T O[0;31m X[0;1;37m I C A[0m
 
-                     [1;36mJunior mafia/ink distro/suicide distro[0m
-                     [1;36mlight distro/ aim distro/ sonik distro[0m
-                     [1;36m    Hmp e-mag distro / hor distro[0m
+                     [1;36m                                      [0m
+                     [1;36m                                      [0m
+                     [1;36m                                 [0m
 
-                  [36m    [0m   [36mart/rgmods/e-mags/demos/hpavc[0m
-                               [36m [0;37m [0;36mon renegade[0m
+                  [36m    [0m   [36m                             [0m
+                               [36m [0;37m [0;36m           [0m
 
-                    [36m      [0;37m [0;36mCall now! (606) 266-6720[0m
-                         [1;30m  No raTio For lD callers[0m'
+                    [36m      [0;37m [0;36mCall now! (606) 266-6720[0m'

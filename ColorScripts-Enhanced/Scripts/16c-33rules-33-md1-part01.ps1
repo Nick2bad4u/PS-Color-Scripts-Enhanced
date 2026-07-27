@@ -5,7 +5,7 @@
 # Source SHA-256: d0ab456dc4866b06b1b8b3e6828fb32c1a3bb29fa78ac6723176d27acf272208
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-MD1.ANS by Fire 06/96 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mutual Dillusions
 # SAUCE Author: Fire 06/96
 # SAUCE Group: Eerie
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[36mtrip in peace tim leary[0m                 [36mlo-fi lo-rez wonder : [0;1;36meerie-kun [0;36mof [0;1;31mfire[0m
+[36m                       [0m                 [36m                      [0;1;36m          [0;36m   [0;1;31m    [0m
 
 
 

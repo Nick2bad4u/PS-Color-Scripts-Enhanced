@@ -5,7 +5,7 @@
 # Source SHA-256: 5fe267e6232196d7d5db685878902895b4053d73c92ff70c3bf819793713c041
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-moral.ans by meatpod (homo); released in homosex9 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: morals obsuck
 # SAUCE Author: meatpod
 # SAUCE Group: homo
@@ -39,9 +39,4 @@ $$[1;30m__[0m  `[1m?$[0m$$[1m$$$$P[0m`[33m,dP``└%,._[0;31m`^`[0;33m_.
        [31m`[0m         [31m` [0m     [31m` =[0;37m [0;31m`[0m      [31m`[0m     [1;37mo  B  S  C  U  R  E  D[0m    [33m-[0;37m      [0m
        [31m└`,[0m    [31m `[0m                   [31m `, [0m
 
-[37m[cut here]-8X-------------------------------------------------------------------[0m
-
-[37mthis is a present for aneurizm, cosysop of morals obscured. he got me partially[0m
-[37min touch with msd, who still, btw, owes me a 175 line $20 ascii (ahem).[0m
-
-[37mmeatpod.[0m'
+[37m[cut here]-8X-------------------------------------------------------------------[0m'

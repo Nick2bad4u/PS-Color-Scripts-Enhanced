@@ -5,7 +5,7 @@
 # Source SHA-256: bca52b88aa8421bb28cdc8c4bd7e4d1ddd050619ade552553a4ee77d3bff1ae1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-DHIGH.ANS by Proctologist (SeNsE); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digital High
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNsE
@@ -40,7 +40,7 @@ Write-Host '
                       [34;40m`∙ .  . ∙ `[0m                      [36;40m`^"^```"ⁿ╜S$$$$$S''   [0;1;35;40mj[0;35mP''[0m
 [35m [0m
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mYet another request for a local board.  At this rate every board in 403 is gonna[0m
-[1;30mlook the same. :)[0m
+[1;30m                                                                                [0m
+[1;30m                 [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

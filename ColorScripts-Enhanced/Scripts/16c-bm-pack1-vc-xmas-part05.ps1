@@ -5,7 +5,7 @@
 # Source SHA-256: 925913a1f67741ccebfeb1d7f4a10845cb8ebead93bdd5fc78b376d5e5b9d707
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC-XMAS.ANS by VOiCE (BLF\CK MF\iDEN); released in bm-pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: On merrily, merrily christmas.
 # SAUCE Author: VOiCE
 # SAUCE Group: BLF\CK MF\iDEN
@@ -47,15 +47,15 @@ Write-Host '
 [1;30;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 
 
-                 [36m"[0;1;30mThe [0;36mangel[0;1;30m sleeps! Oh, may [0;36mhis[0;1;30m sleep,[0m
-                  [1;30mWhich is enduring, so be deep![0m
-     [31m░[0m            [1;30mHeaven have [0;36mhim[0;1;30m in its sacred keep![0m
-    [31m░█[0m            [1;30mThis chamber changed for one more holy,[0m
-    [31m▒█░[0m           [1;30mThis [0;36mtree[0;1;30m for one more melancholy[0m
-   [31m░███░[0m          [1;30mI pray to God that [0;36mhe[0;1;30m may lie[0m
- [31m░[0m [31m░████░[0m         [1;30mForever with unopened eye,[0m
- [31m░░[0m [31m▒██[0;1;33;41m░[0;31m█░[0m        [1;30mWhile the pale [0;36mcolored[0;1;30m [0;36mchild[0;1;30m goes by![0;36m"[0m
- [31m░█▒░██[0;1;33;41m░░[0;31m██░[0m          [1;30m- Variation on ''The Sleeper'' by Edgar Allan Poe.[0m
+                 [36m [0;1;30m    [0;36m     [0;1;30m                 [0;36m   [0;1;30m       [0m
+                  [1;30m                              [0m
+     [31m░[0m            [1;30m            [0;36m   [0;1;30m                    [0m
+    [31m░█[0m            [1;30m                                       [0m
+    [31m▒█░[0m           [1;30m     [0;36m    [0;1;30m                        [0m
+   [31m░███░[0m          [1;30m                   [0;36m  [0;1;30m        [0m
+ [31m░[0m [31m░████░[0m         [1;30m                          [0m
+ [31m░░[0m [31m▒██[0;1;33;41m░[0;31m█░[0m        [1;30m               [0;36m       [0;1;30m [0;36m     [0;1;30m         [0;36m [0m
+ [31m░█▒░██[0;1;33;41m░░[0;31m██░[0m          [1;30m                                                [0m
  [31m░███░[0;1;33;41m░▒░░░[0;31m█░[0m
 [1;30m [0;31m░█[0;1;33;41m░[0;31m█░█[0;1;33;41m░▒▓▒░[0;31m█░[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
   [31m░[0;1;33;41m░▒░[0;31m░█[0;1;33;41m░▒░[0;31m██░[0;1;30m▄[0m              [1;30m▄▄  [0m   [1;30m▄▄▄▄▄▄▄▄[0m     [1;30m▄▄▄▄▄ [0m    [1;30m▄▄▄▄▄▄▄▄   [0m  [1;30m▄▄▄▄▄▄▄▄[0m

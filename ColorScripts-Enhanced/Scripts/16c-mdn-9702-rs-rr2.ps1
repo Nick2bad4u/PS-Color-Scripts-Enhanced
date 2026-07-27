@@ -5,7 +5,7 @@
 # Source SHA-256: e23cf9054adf1560e13ef37c5f732b3b79fcb971aeb0b68c0d1b10a8560023a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-RR2.ANS by rorshack (Maiden Brazil!); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: refuse, resist
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil!
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-                     [36mT[0;1;36mh[0;1;37mi[0;36ms logo was made quite some time ago.[0m
-                     [36mBut I don''t remember who asked for it! [0m
-         [36mWell, anyways, here is it. Hope you (wherever you are) get it![0m
-                                  [36mAnd sorry! :)[0m
+                     [36m [0;1;36m [0;1;37m [0;36m                                    [0m
+                     [36m                                       [0m
+         [36m                                                              [0m
+                                  [36m             [0m
 
 [37m  [0;1;37m▀[0;1;37;47m█▓░[0;1;37;40m▀[0m▀[1;47m▓▒░[0;1;30;47m░[0;1;30;40m▄[0m   [1m▄▄[0;1;47m█▓▒░[0m▄  [1;30m░[0m [1m▀[0;1;47m█▓░[0;1;40m▀[0m▀[1;47m▓▒░[0;1;30;47m░[0;1;30;40m▄[0m [1m▀[0;1;47m█▓░[0m          [1m▀[0;1;47m█▓░[0;1;40m▀[0m▀[1;47m▓▒░[0;1;30;47m░[0;1;30;40m▄[0m    [1m▄▄[0;1;47m█▓▒░[0m▄
    [1m▐[0;1;47m▒[0m▌[1;30m [0;1;37m▐[0;1;37;47m▒░[0;1;30;47m░▒█[0;1;30;40m▌[0m [1;47m█▓▒░[0m▀▀[1;30;47m░░▓[0m [1;30m░░░[0;1;37m▐[0;1;37;47m▒[0m▌[1;30m [0;1;36m▄[0m ▀[1;30m▀▀[0m [36m▄[0;37m [0;1;37m▐[0;1;37;47m▒[0m▌ [1m▀[0;1;47m█▓▒░[0;1;30;47m░[0m▀   [1m▐[0;1;47m▒[0m▌[1;30m [0m  ▀[1;30m▀▀[0m    [1;47m█▓▒░[0m▀▀[1;30;47m░░▓[0m
@@ -41,10 +41,10 @@ Write-Host '
     [1;30m▀[0;1;30;47m█[0;1;30;40m▌[0m           [1;30m▀[0m▀[1;30m▀▀[0m              [1;30m▀▀[0;1;30;47m█[0;1;30;40m▌[0m     [1;30m▀[0;1;30;47m█[0;1;30;40m▌[0m     [1;30m░░[0m    [1;30m▀▀[0;1;30;47m█[0;1;30;40m▌[0m           [1;30m▀▀[0;1;30;47m█[0;1;30;40m▌[0m
       [1;30m▀[0m                                [1;30m▀[0m       [1;30m▀[0m              [1;30m▀[0m              [1;30m▀[0m
 
-   [36m░[0;30;46m▓[0;36;40m▐[0;30;46mr[0;36;40m▌[0;1;36;40mefuse, resist[0m logo by [1;36mrorshack[0;1;37m [0mof[1m [0;1;36mmaiden[0m - that I must say, it''s
-      simply the best art group in brazil
-   [36m░[0;30;46m▓[0;36;40m▐[0;30;46mr[0;36;40m▌[0;37;40might now I''m listening to [0;1;36;40mthe evil that man do[0m from [1;36miron maiden[0m
+   [36m░[0;30;46m▓[0;36;40m▐[0;30;46m [0;36;40m▌[0;1;36;40m             [0m         [1;36m        [0;1;37m [0m  [1m [0;1;36m      [0m                        
+                                         
+   [36m░[0;30;46m▓[0;36;40m▐[0;30;46m [0;36;40m▌[0;37;40m                          [0;1;36;40m                    [0m      [1;36m           [0m
 
-   [36m░[0;30;46m▓[0;36;40m▐[0;30;46mr[0;36;40m▌[0;37;40memember kid, we will take control of your pc if you don''t download[0m
-      [37;40mthe artpacks from that [0;1;36;40mmaiden[0m guys :)
-   [36m░[0;30;46m▓[0;36;40m▐[0;30;46me[0;36;40m▌[0;37;40mnought ''r''s for now - [0;1;36;40mrorshack[0m'
+   [36m░[0;30;46m▓[0;36;40m▐[0;30;46m [0;36;40m▌[0;37;40m                                                                  [0m
+      [37;40m                       [0;1;36;40m      [0m        
+   [36m░[0;30;46m▓[0;36;40m▐[0;30;46m [0;36;40m▌[0;37;40m                      [0;1;36;40m        [0m'

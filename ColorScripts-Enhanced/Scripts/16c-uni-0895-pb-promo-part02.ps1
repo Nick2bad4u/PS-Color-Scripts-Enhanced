@@ -5,7 +5,7 @@
 # Source SHA-256: 5d4efbe17609d33c75ccbbc1aaebfe56892c4503d19306e6c826d0253a8e2d3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PB-PROMO.ANS by Point Blank (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Union Promotional!
 # SAUCE Author: Point Blank
 # SAUCE Group: Union
@@ -62,6 +62,4 @@ Write-Host '
                            [36m [0;1;37m▀[0;1;37;47m▓▒▓[0;1;37;40m▀█[0;1;37;47m▓[0;1;37;40m▀   [0;31m▄ [0;1;37m▀▄▀[0;1;37;47m▓[0;1;37;40m█[0m
                           [1;30m [0;36m   [0;1;30m  [0;36m [0;1;37m [0;36m [0;1;37m▄ [0;1;31;41m▓[0;1;31;40m▄▓[0;1;31;41m░[0m  [1;47m▓[0m [1m▀[0m
                           [1;30m [0m   [1;30m└───[0m [36m [0;1;37;47m▓[0m [1;31m▀   [0;1;37m▄ [0m [1;30m─┘[0m
-                       [1;30m     [0;36m         [0;1;37m▀▀▀▀[0;36m    [0m
-                     [1;30m [0m [1;30m [0m  [1;30mansi.p0int.blank.uni0n.95[0m
-                       [1;30m    [0m'
+                       [1;30m     [0;36m         [0;1;37m▀▀▀▀[0;36m    [0m'

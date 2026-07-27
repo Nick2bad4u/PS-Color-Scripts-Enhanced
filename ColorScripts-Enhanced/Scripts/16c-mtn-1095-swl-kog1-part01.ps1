@@ -5,7 +5,7 @@
 # Source SHA-256: e78102312286d705276514e722e5bab26e5a22a83d8ec3e4ebddf1178f8bd152
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SWL-KOG1.ANS by screeching we`sel (mOtion!); released in mtn-1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kinGdom Of gRoove
 # SAUCE Author: screeching we`sel
 # SAUCE Group: mOtion!
@@ -30,11 +30,11 @@ Write-Host '
 [1;30m░▒ [0;34m▀[0;1;30m▄▄[0m [1;30m▓[0m [34m▀▄[0;1;34;44m▀[0;34m█[0;1;34;44m▀■[0;34m▓[0;1;34;44m░[0m [1;34;44m░ ░[0;34m▀▀▀[0;37m  [0;1;30m▒[0;34m▀▄[0;1;34;44m▀[0;34m█[0;1;34;44m▀■[0;34m▓[0;1;34;44m░[0;1;30;40m░[0;1;34;44m░ ░[0;34m▀▀▀▄▓[0;37m [0;1;30m░[0;1;34;44m░ ░[0;34m▀▀▀[0;1;30m▄[0m [1;30m░[0;1;34;44m░ ░[0;34m█[0;1;34;44m▀■[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░▓[0;1;34;40m▄[0;1;30;40m░[0m  [34m█▀[0;37m [0;1;30m [0;1;30;47m▀[0;1;30;40m▄▄[0m [1;30m▒[0m
 [1;30m ▄[0;1;30;47m▀▀░[0;1;30;40m▄▀▀▓[0m░[1;30m▄▄ [0;34m▀▀▀▀▀[0m    [1;30m▀[0m▒[1;30m▀▀▀▓ swl[0;34m▀▀▀▀[0m    [34m▀▀▀▀▀▀[0m   [1;30m▀▀[0m▒[1;30m▓▀▀▄▄[0;34m▀▀▀[0;1;34m▀[0;1;30m [0;34m▀[0;1;34m▀[0;34m▀[0;1;34m▀▀[0;1;34;44m▒[0;34m▀▀[0;37m  ▒[0;1;30m [0;1;30;47m▄[0;1;37;40m▓[0;1;37;47m▄[0;1;30;47m▀[0;1;30;40m▄[0m
 [1;30m▐[0;1;30;47m▌[0;1;37;47m▒░[0;1;30;47m▐[0;1;30;40m▓[0m [1;30m▀▀▀[0m▒[1;30m▀▀[0m                                                        [1;30m▀▀▀▀[0m [1;30;47m▓▌▒[0;1;37;40m█[0;1;30;47m▐[0;1;30;40m▌[0m
-[1;30;40m░▀[0;1;30;47m█▄▒[0;1;30;40m█[0m▒[1;30m▌| y0!y0!y0! weasl here representing▓[0m [1;30mtgi (stands for some big[0m  [1;30m|█[0m▒[1;30m▀▀[0;1;30;47m▄▄[0;1;30;40m▀[0m
-[1;30m▄[0;1;30;47m▀[0;1;30;40m▄▄▀▀▄▌| word! anywayz wnat an ansi j0 can either call [0mk0g[1;30m or email[0m   [1;30m|▓▄[0;1;30;47m▀▀[0;1;30;40m▄ ░ [0m
-[1;37;47m▄▓▀▄[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▌|[0m [1;30mme [0mbRUbS1@CLARk.NEt[1;30m.[0m [1;30mEmail me or call [0mk0g [1;30meven if you dont [0m  [1;30m|█[0m▒[1;30;47m▌[0;1;37;40m▓[0;1;30;47m▐[0;1;30;40m▌░ [0m
-[1;37;47m▒[0;1;30;47m▄█▄[0;1;37;40m░[0;1;30;47m░[0;1;30;40m█▌|[0m [1;30mwant an ansi also. Another thing i wana do a [0mjOiNT ANSI[1;30m with[0m [1;30m|██[0;1;30;47m▀▄[0;1;30;40m▀░[0m [1;30m [0m
-[1;30;47m▒█▓█▌[0;1;37;47m▄[0;1;30;47m▐[0;1;30;40m▓|░[0m  [1;30msomeone so email me if your intersted l8a foolz. swl.TGi   |█▀░[0m [1;30m▓▄[0m
+[1;30;40m░▀[0;1;30;47m█▄▒[0;1;30;40m█[0m▒[1;30m▌                                   ▓[0m [1;30m                        [0m  [1;30m █[0m▒[1;30m▀▀[0;1;30;47m▄▄[0;1;30;40m▀[0m
+[1;30m▄[0;1;30;47m▀[0;1;30;40m▄▄▀▀▄▌                                                [0m   [1;30m         [0m   [1;30m ▓▄[0;1;30;47m▀▀[0;1;30;40m▄ ░ [0m
+[1;37;47m▄▓▀▄[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▌ [0m [1;30m   [0m                [1;30m [0m [1;30m                 [0m    [1;30m                 [0m  [1;30m █[0m▒[1;30;47m▌[0;1;37;40m▓[0;1;30;47m▐[0;1;30;40m▌░ [0m
+[1;37;47m▒[0;1;30;47m▄█▄[0;1;37;40m░[0;1;30;47m░[0;1;30;40m█▌ [0m [1;30m                                             [0m          [1;30m     [0m [1;30m ██[0;1;30;47m▀▄[0;1;30;40m▀░[0m [1;30m [0m
+[1;30;47m▒█▓█▌[0;1;37;47m▄[0;1;30;47m▐[0;1;30;40m▓ ░[0m  [1;30m                                                            █▀░[0m [1;30m▓▄[0m
 [1;30;47m▒▓█[0;1;30;40m▓[0;1;30;47m▀▄[0;1;30;40m▀▀▀▀▀-----────-────-─-----─----───--─-────-─---─-─----─-───-─-─█░▄█▀░▀▀[0m
 [1;30;47m▓[0;1;30;40m▓▀▀[0m [1;30m▄██▄▓[0;1;30;47m█████████▀███▓▓[0;1;30;40m▀▓[0;1;30;47m█▓████████████████████[0;1;30;40m▒░▀[0;1;30;47m██[0;1;30;40m▀[0;1;30;47m██████▓███[0;1;30;40m███[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓▓▒░[0m
 [1;30m▓▒[0m   [1;30m███████████[0;1;30;47m▄▄▄░▄[0;1;30;40m█[0;1;30;47m▄[0;1;30;40m██▀[0;33m▄▄▄[0;1;30m▀▀▀█[0;1;30;47m▀░▀▀[0;1;30;40m████[0;1;30;47m▓[0;1;30;40m████████▒░ ▄█████▓██[0;1;30;47m▓▓▓[0;1;30;40m█[0;1;30;47m▓▒[0;1;30;40m██[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;47m▓▒[0m

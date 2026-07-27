@@ -5,7 +5,7 @@
 # Source SHA-256: 77c2c20b736119473bfa62e238a7ba4121c5010cc206fd90b3f638220cc775a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-JABBERWOCKY.ANS by Oddfirefox + LDA + Ldb + Polyducks + Cthulu (Mistigris); released in mist0620 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jabberwocky
 # SAUCE Author: a bunch of cards
 # SAUCE Group: Mistigris
@@ -38,27 +38,22 @@ Write-Host '
         Wk                                                        Be
          Wa                                                       jb,
           Wk_         [1m┌────────────────────────────────────┐[0m      :B:
-           ^Wk        [1m│"And hast thou slain the Jabberwock?│[0m      jB
-             ^W.      [1m│Come to my arms, my beamish boy!    │[0m      AY
-              `B,     [1m│O frabjous day! Callooh! Callay!"   │[0m     jW
-                We    [1m│He chortled in his joy.[0m             [1m│[0m    jW`
+                      [1m│                                    │[0m        
+                      [1m│                                    │[0m        
+                      [1m│                                    │[0m       
+                      [1m│                       [0m             [1m│[0m       
                  jk   [1m└────────────────────────────────────┘[0m   AB
-                  We                                          jB''
-                   Wa                                        aB''
+                                                                 
+                                                                
                    `YW                                     .BJ''
                      `BW.                                 aW~
                        "BB.                              oB`
                          "Bj,                           JB`
                             RR                         JW`
                              `RR                       WB
-                               RRk                    jB`
-                                YRR                   CB
+                                                         
+                                                        
                                  `RR                  %B
-                                  YbR                 %B
+                                                        
                              [31m:;[0;37m    KRR          _     :%[0m
-[37m                           [0;1;31m:%%[0;31m%;   [0;37m''Ybo      ,AWWW%:   :[0m
-[37m                          eoo%[0;1;31m%:[0;31m:[0;37m   :rr     jRbEWEk%: .[0m
-[37m                         eBbWCW[0;1;31m%[0;31m:,[0;37m   %%:  .AWWEbb"     ;[0m
-[37m                        jcbb:Y[0;1;31mY%[0;31m:[0;37m    :  %kbEEEbb:CY%    W[0m
-[37m                        Bkbbc [0;1;31m`[0;31my[0;37m    :  ob^''_.,~JYbbr%,  B%[0m
-[37m                        BbWERb.      .%Y oYBKbc` wWw%%  %  A,[0m'
+[37m                           [0;1;31m:%%[0;31m%;   [0;37m''Ybo      ,AWWW%:   :[0m'

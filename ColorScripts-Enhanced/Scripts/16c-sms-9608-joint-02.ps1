@@ -5,7 +5,7 @@
 # Source SHA-256: 793d2b3b1a70864440df2b0abd2dcd05694e25d203c848db1afa63e6461afe45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JOINT-02.ANS by Eerie + Defiant (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ICF
 # SAUCE Author: DEFIANT & EERIE-KUN
 # SAUCE Group: SAMSARA
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[31m"[0;1;31mLOOK AT ALL MY SOCKS!@@  SO MANY SOCKS!@!@[0;31m"[0m
+[31m [0;1;31m                                          [0;31m [0m
 
                 [30;46m▓▓[0m
                 [30;46m▓▓[0m

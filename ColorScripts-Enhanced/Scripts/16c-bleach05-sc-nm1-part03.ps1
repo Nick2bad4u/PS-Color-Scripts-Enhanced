@@ -5,7 +5,7 @@
 # Source SHA-256: 68aac21b86d431ad095aa29c3d33a4afe22e0511623220b5b9b8214873080512
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-NM1.ANS by Stone Chapel (Bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nevermind
 # SAUCE Author: Stone Chapel
 # SAUCE Group: Bleach
@@ -56,6 +56,5 @@ Write-Host '
 [34m▀[0m    [34m░▒[0;37m [0;36m░[0m    [36m■[0m              [36m■[0m                         [36m░[0m   [36m■[0m           [34m▄[0;37m  [0;34m▄▄[0;37m [0;34m▄▄[0;1;34;44m░[0m
 [34m█[0m                [37m.  [0;34m░[0;37m [0;34m▒░[0m       [1;30m░[0m      [1;30m▀[0m     [34m.[0;37m [0;34m.[0;36mx[0;34m.[0;1;34mm[0;34m.....[0;1;34mi[0;34m.....[0;1;34mn[0;34m.....[0;1;34md[0;34m.[0;36mx[0;34m..[0;37m [0;34m.[0m
 [1;34;44m░[0m  [34m■▀,[0m       [1;34maffilitates:     [0;1;30m░▒[0m   [1;30m■[0;1;30;46m▓[0m [1;30m▄▄[0;1;30;46m▓[0m      [1;34m7 1 4 - 6 3 0 - 2 5 7 7[0m
-[1;34;44m▒[0;34m▌[0;1;34macid.blch.illness.wicked.nodorio[0;1;30m░[0;1;30;46m▓[0;1;30;40m█▀[0m [1;30;46m▓▒[0;1;30;40m▒░[0;1;34;40m [0m [1;34msys.stonechapel/co.lordjazz[0m
-[1;34;44m▓▒░[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;34m▄▄[0;37m [0;34m▄[0;37m  [0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▓[0;1;30;40m▄█[0;1;30;46m▓[0m
-[1;34mi[0m [1;34mfound[0m [1;34mit[0m [1;34mhard,[0m [1;34mits[0m [1;34mhard[0m [1;34mto[0m [1;34mfind[0;34m...[0m   [1;34moh[0m [1;34mwell[0;34m..[0m   [1;34mwhatever[0;34m..[0;37m  [0;1;36mnevermind[0;34m...[0m'
+[1;34;44m▒[0;34m▌[0;1;34m                                [0;1;30m░[0;1;30;46m▓[0;1;30;40m█▀[0m [1;30;46m▓▒[0;1;30;40m▒░[0;1;34;40m [0m [1;34m                           [0m
+[1;34;44m▓▒░[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;34m▄▄[0;37m [0;34m▄[0;37m  [0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▓[0;1;30;40m▄█[0;1;30;46m▓[0m'

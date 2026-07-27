@@ -5,7 +5,7 @@
 # Source SHA-256: 592b6a709a9d056b1ba7069a92fc803211d40d3d4e5779113ce8380ee7300fc5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pdzw0-p.ans by Podsi (12318); released in 12318 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -32,8 +32,4 @@ Write-Host '
                 [33m`"[0;37m    [0;1;37m [0m°[1mⁿ└ⁿ[0m"[1m [0m [1md$b[0m     [1m$$$$$$$$mm[0m      [33m`Q$$┐.[0;1;33m`└*SS7┘`[0m
                            [1m*[0m  [1m`[0mⁿ''     [1m`Q$$$$$t7[0m''        [33m`^""""[0m
                          [1;37mdb[0m           [1m  `°ⁿⁿ°d$b *[0m
-                         [1m`[0m''                  `[1m"[0m`
-
-serving: pdz
-original font from which there is no evidence whatsoever anymore: w0
-greetz: 123, SAC, impure, mimic, remorse, reddog[0m'
+                         [1m`[0m''                  `[1m"[0m`[0m'

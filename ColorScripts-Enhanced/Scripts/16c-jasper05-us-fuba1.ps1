@@ -5,7 +5,7 @@
 # Source SHA-256: ad32b5b47017c5801c7979cd17cddc46328fc3bcdf5fd63daad0ea74eeaecb48
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FUBA1.ANS by Untamed + Arrogance + Vade79 (jasper); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fubar
 # SAUCE Author: untamed/arrogance/v9
 # SAUCE Group: jasper
@@ -43,8 +43,8 @@ Write-Host '
                                          [32m▐[0m
 
 [1;30m-------------------------------------------------------------------------------[0m
-[1;30mjust a quick font for fever''s fubar! fucked up beyond all repair i say! it also[0m
-[1;30mcomes with a seal of approval from v9(tm)![0m
+[1;30m                                                                               [0m
+[1;30m                                          [0m
 
   [1;30m█▄ █[0m [1;30m█▀█[0m
    [1;30m▀█▀[0m [1;30m▀▀█[0m [1;30mseal of apporval[0m

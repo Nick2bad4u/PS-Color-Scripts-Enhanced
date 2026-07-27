@@ -5,7 +5,7 @@
 # Source SHA-256: 4cb5684596bb771cea09f2e64d0d0ac321a6facabbf6f0365704eba2a962df35
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-ELD.ANS by Pariah (REMORSE); released in rmrs-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eld
 # SAUCE Author: Pariah
 # SAUCE Group: REMORSE
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-([1mc[0m)[1mPariah[0m                                                     [1mEldorado [0m+o Infect
+ [1m [0m [1m      [0m                                                     [1m         [0m         
 
 [1m    [0m                      [33m_.,╓g[0;1;31m%@@@@@@@@@@@@@@@%[0;33mg╖,._[0;37m [0m
     [1;37m   [0m [1m [0m           [33m_,g8[0;1;31mÑ$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Ñ[0;33m8g,_[0m
@@ -39,7 +39,7 @@ Write-Host '
  [1m    [0m     [33m`[0;1;31m7$[0;33mP''[0;37m        [0;33m`7P`[0m     [33m`7 [0;37m$[0;1;37m$$$$$$$[0m$ [1;31m$$$$P[0;33m''[0m    [33m`7[0;1;31mP[0;33m''[0m    [33m`7[0;1;31m$$$[0;33m''[0m
 [37m                                 [0;33m''[0;37m ;[0;1;37m$$$$$$$[0m$ [33m`[0;1;31m7P[0;33m''[0m        [33m`[0m       [33m`7''[0m          [37m  [0m
                                    [1;37m [0m`7[1m$$$$$[0m$
-SCRATCH MONOPOLY: PART 1[1;34m    [0m_[1m,g@88@g[0m,_`7[1m$$$[0m$      LESSON #4: ITCHY VINYL SESSION
+                        [1;34m    [0m [1m       [0m    [1m   [0m                                     
 [34m___[0;1;34m___________________[0;34m__[0;1;34m  [0m,[1md[0m  __[1m_$$$$$[0mh,`7[1m$[0m'' [1;34m     [0;34m___[0;1;34m________________________[0;34m___[0m
 [34m$[0;1;34m$$$$$$$$$$$$$$$$$$$$$$[0;34m''[0;37m d[0;1;37m$$[0m  ╙[1m╨$$$$$$$$[0m;,[1mg@Ñ$Ñ[0m   [34m`ⁿ7[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$[0;34m$[0m
 [34m$[0;1;34m$$$$$$$$$$$$$$$$$$$$$[0;34ml[0;1;34m [0m;[1m$$$[0m  [1m88$[0m   [1m$$$$$[0mⁿ[1;30m`[0m _[1m,,[0m   [1m$[0mh,[34m`7[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$[0;34m$[0m
@@ -50,6 +50,4 @@ SCRATCH MONOPOLY: PART 1[1;34m    [0m_[1m,g@88@g[0m,_`7[1m$$$[0m$      LES
 [1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;34mh,[0;37m`[0;1;37m$$$$$$$$$$$$$Ñ8888P[0mⁿ`[34m,d[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;34m$[0;1;37m [0m)[1m$$$$$$$$$[0;1;33m$$[0;1;37m$$$$$[0m'' [34m,d[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [34m$[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;34mP`[0;37m,[0;1;37m$$$$$$$$$$$$$$$$[0m( [34m;$[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;34m$[0m
-[34m$$[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$[0;34mP''[0;1;30m,[0mdP╜ⁿ°[1m"^``````^"°[0mⁿ╙7[1;30m,[0;1;34m [0;34m`7[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$[0;34m$$[0m
-                             [1;30m  [0;1;37m [0m
-'
+[34m$$[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$[0;34mP''[0;1;30m,[0mdP╜ⁿ°[1m"^``````^"°[0mⁿ╙7[1;30m,[0;1;34m [0;34m`7[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$[0;34m$$[0m'

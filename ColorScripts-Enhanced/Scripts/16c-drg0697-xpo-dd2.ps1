@@ -5,7 +5,7 @@
 # Source SHA-256: 9832ebb0264281f3526079d92e2e6c7a228b20b8b39c4370a46a42c227371c10
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XPO-DD2.ANS by Xpozed (drg0697); released in drg0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -30,5 +30,4 @@ Write-Host '
                          [1;32m           [0m          [1;32m       [0;1;36m__xpo[0m
                        [1;32;42mD[0;1;32;40m  O  O  D  L  E  [0;1;32;42mD[0;1;32;40m  R  A  W[0m
 
----
-this would be okay if i could just bother to put background.[0m'
+---[0m'

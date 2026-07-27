@@ -5,7 +5,7 @@
 # Source SHA-256: 8437bebd20f5ed5cb646db7ac5a965dc4f9a25becb3f9b5628d355980035fd29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RI-DOINK.ANS by rai (blade); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dOink!
 # SAUCE Author: rai
 # SAUCE Group: blade
@@ -51,8 +51,4 @@ Write-Host '
            [1;30m▐██████████[0m      [1;30m▐█▌[0m  [1;34m██▌[0m    [1;34m █▌[0m  [1;34;46m▓[0;1;34;40m█▌[0m    [1;34m █▌[0m [1;34m▐[0;1;34;47m▓[0m  [1;34m▐[0;1;34;46m▄[0;1;34;40m▌ [0m [1;34m [0m [1;34m▐▌[0m [1;34m█▌▀ ▄  [0m
            [1;30m██████▌▐█[0;1;30;47m▓▒[0;1;30;40m▌[0m▀ ▄▄▄▄▄[1;30m░░[0;1;34m▐[0;1;34;47m▓▓[0m [1;30m░░░[0m  [1;34m▐[0;1;34;47m▓[0m [1;34m▐[0;1;34;46m▓[0;1;34;47m▓[0m [1;30m░░  [0m [1;34m▐[0;1;34;47m▓[0m  [1;34;47m▓[0;1;34;40m▌[0;1;30;40m░[0m [1;34;47m▓▓[0;1;34;40m [0;1;30;40m░░[0m [1;34m▐[0;1;34;47m▓[0m [1;34m▐[0;1;34;47m▓[0;1;34;40m [0;1;30;40m░░[0;1;34;40m▐[0;1;34;46m▄[0;1;34;40m▌[0m [1;30m░[0m
        [1;30m░░[0m [1;30m█▀▀▀▀▀▀▀ ▀▀[0m▄▄[1;30;47m░░░[0m███[1;47m░[0m▌  [1;34m██▌[0m    [1;34m▄█[0;1;34;46m▀[0m  [1;34;46m▄[0;1;34;40m█▌[0m    [1;34m▄█▀[0m [1;34m▐█[0m  [1;34m▐█▌[0m    [1;34;46m▓▓[0;1;34;40m▌▐[0;1;34;46m▓[0m [1;30m [0m [1;34m ██[0m
-               [1;30m▀[0m [1;30m▀▀[0m▀▀▀▀▀▀▀▀▀▀      [1;34m▀[0m  [1;34m▀[0m  [1;34m▀▀▀[0m   [1;34m▀ [0m [1;34m▀[0m  [1;34m   ▀[0m   [1;34m▀▀[0m   [1;34m■▀▀[0m  [1;34m▀▀[0m [1;30m  [0;1;34m▀▀[0m
-
-          d o i n k ? ! opd by cheeze, dunno about stats, but it''s a cool
-              ass board :) ansi by rai of blade productions 1 9 9 5 ![0m
-'
+               [1;30m▀[0m [1;30m▀▀[0m▀▀▀▀▀▀▀▀▀▀      [1;34m▀[0m  [1;34m▀[0m  [1;34m▀▀▀[0m   [1;34m▀ [0m [1;34m▀[0m  [1;34m   ▀[0m   [1;34m▀▀[0m   [1;34m■▀▀[0m  [1;34m▀▀[0m [1;30m  [0;1;34m▀▀[0m'

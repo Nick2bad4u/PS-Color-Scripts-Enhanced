@@ -5,7 +5,7 @@
 # Source SHA-256: b4e1f88f155244ff8b733b9145ba4218b76ef610067a5e703014a855ab764920
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MMANG-RN.ANS by milkmang 1979 (plf-24); released in plf-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ronin, fuckeveryonewhodidn'tcare
 # SAUCE Author: milkmang 1979
 # SAUCE Date: 20000720
@@ -32,6 +32,4 @@ Write-Host '
                [1m▒██████[0;1;47m▓[0;1;40m▐██████[0m  [1;45m█[0;1;40m▄[0;1;33;40m██[0;1;36;40m█[0;1;36;46m▄[0;36m▄[0;37m [0;31m▀[0;1;31m▒▒▀▀[0;31m▀[0;37m [0;1;37m▄▄█████████          [0m
                [1m░██[0;1;47m▀[0;1;40m▀▀▀[0m▀[1m▐███████▄ [0m [35m▄[0;1;36m▄███[0;1;36;46m▄[0m   [1m ▒██████[0;1;47m▀▀[0;1;40m▀▀▀[0m▀▀[1m         [0m
                [1m░░░░    ▐███▀▀▀▀▀ [0m [30;45m░[0;1;37;40m█[0;1;37;45m█[0;1;36;40m███[0;1;36;46m▄[0m                  [1m   [0m
-                       [1m  [0m       [1m  [0;30;45m▓[0;1;37;45m▀▀▀[0;1;37;40m▀[0;1;36;40m▀▀[0m [1m    [0m
-                                [1m  [0m   [1m        [0m
-         if gutter still was, this logo should be top five. if not top.[0m'
+                       [1m  [0m       [1m  [0;30;45m▓[0;1;37;45m▀▀▀[0;1;37;40m▀[0;1;36;40m▀▀[0m [1m    [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 49710f139fbda6a4af81b499592cb2a93121c36ae88691548b5af67f7fca2c88
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-SWE.ANS by dizzy (sadist); released in sadist01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sweart
 # SAUCE Author: dizzy
 # SAUCE Group: sadist
@@ -39,12 +39,4 @@ Write-Host '
      ▀[1;47m▀▀██▄███[0m█[1;30m░░[0m [1;31;41m▐[0;1;37;41m██▓░[0;1;31;41m██▌[0;31m▓[0;37m  [0;31m░░[0;37m ▐▓░░[0m     [37m▀▀▀█▄    ▀▀▀[0;1;37;47m▀▀▀█[0m█    ▀[1;47m▀███[0m█ ▄[1;47m▄████[0m█
         █[1;47m▄█████▄[0m▄ [31m▀[0;1;37;41m░▒░[0;1;31;41m██▀[0;31m▓[0;37m                              ▀▀█▄    ▀[0;1;37;47m▀██▄██████▌[0m▌
       ▄█[1;47m▀▀▀[0;1;40m▒▒[0;1;47m▀▀▀▀[0m█▄  [31m▀▀▀[0m                                        [37m  ▀▀[0;1;37;47m▀[0m▀▀▀▀[1;47m▀▀█▌[0m
-           [1m░░[0m             [1mthe first time i draw ansi in 6 months[0m           ▀▀█[1m▓░[0m
-placed 2:nd in compo.     [1mthe skill is not lost ... puh. fast work[0m
-                          [1min about 50 minutes, see ya![0m
-                          ps. the art scene lives !! ;)
-
-                          greetings:
-                          to all guys keeping the real art scene
-                          alive ;).. also to all original #sweart
-                          gangztas.[0m'
+           [1m░░[0m             [1m                                      [0m           ▀▀█[1m▓░[0m'

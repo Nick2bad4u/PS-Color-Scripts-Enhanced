@@ -5,7 +5,7 @@
 # Source SHA-256: 75d7c2735199ef5deb9a55e2449311083aff92c42b46b6e77e9b6056ef86c60a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VD-FURY.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -58,5 +58,4 @@ Write-Host '
 
 
 
-[1;34m·  ·   ∙ ∙ ──  ──────  ─────────────────────────────────  ──────  ── ∙ ∙   ·  ·[0m
-                                                                   [1;30m[VLAD] ASTEK[0m'
+[1;34m·  ·   ∙ ∙ ──  ──────  ─────────────────────────────────  ──────  ── ∙ ∙   ·  ·[0m'

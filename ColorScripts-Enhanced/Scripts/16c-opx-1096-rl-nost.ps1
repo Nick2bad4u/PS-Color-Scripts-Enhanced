@@ -5,7 +5,7 @@
 # Source SHA-256: 3885f0e8af1df764df81ae8c9e0a1720b81e665c476c6980add7e869865597b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL!-NOST.ANS by rawlock (rl!) (oPx); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nostalgica
 # SAUCE Author: rawlock (rl!)
 # SAUCE Group: oPx
@@ -38,4 +38,4 @@ Write-Host '
 [31m▀▀▀▀[0;1;31m  [0;31m▀▀▀▀▀[0;1;31m [0;36m▄▄[0;1;31m [0;31m▀▀▀▀[0;1;31m [0;36m▄▄[0;1;36;46m▄[0;36m▄▄[0;1;31m [0;31m▀▀▀▀▀▀▀[0;1;31m [0;36m▄▄[0;1;31m [0;31m▀▀▀▀▀[0;36m ▄▄[0;1;31m [0;31m▀▀▀▀▀▀[0;1;31m [0;31m▀▀[0;1;31m [0;31m▀▀▀▀▀[0;1;31m [0;36m▄[0;1;31m  [0;31m▀▀▀██[0;1;31;41m░▀ [0;31m▀[0;1;31m [0;31m▀▀▀▀▀[0m
 [36m█[0;1;36;46m▄░▄▄▄[0;1;36;47m▓[0;1;36;46m▄▄▄▄▄▄▓▄▄▄▄▄▄▓█[0;1;36;40m▀[0;1;36;46m▀▓▄▄▓▄▄▄░▄▄▓█▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▓▄▄░▄▄▄▄▄[0;36m█[0;1;31m [0;1;30m▀[0;31m▀▀▀▀▀▀[0;36m ▄▄█[0;1;36;46m▓▄▄▄░[0m
 [32m [0;36m▀[0;1;36m▀▀▀▀▀▀[0;36m  ▀[0;1;36m▀▀▀▀▀▀▀▀▀     [0;36m▀[0;1;36m▀▀▀▀▀▀▀▀▀[0;36m ▀[0;1;36m▀▀[0;1;37m▀[0m▀[1;30m▀[0m▀[1m▀▀[0;1;36m▀[0;1;37m▀[0;1;36m▀[0;36m  ▀[0;1;36m▀▀▀▀▀▀▀▀▀[0;36m ▀[0;1;36m▀[0;36m▀▀[0;1;30m▀   ▀[0;36m▀▀[0;1;36m▀▀▀▀▀[0;36m ▀[0;1;36m▀[0m
-n[1mO[0mst[1;30;47ma[0mlgica[1;30m [0m- [1;30m6 nodes░2 i[0;1;30;47ms[0;1;30;40mdn - ansi made by[0m rawlock![1;30m of[0m░op[1;30;47mi[0mum [1;30min░october 1996!.!.[0m'
+ [1m [0m  [1;30;47m [0m     [1;30m [0m  [1;30m       ░   [0;1;30;47m [0;1;30;40m                 [0m         [1;30m   [0m░  [1;30;47m [0m   [1;30m  ░                [0m'

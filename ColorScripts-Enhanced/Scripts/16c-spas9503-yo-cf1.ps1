@@ -5,7 +5,7 @@
 # Source SHA-256: c818a5f6a3c45fb8a92da41ddb033229ebeb12cc01136ed3036ae5a31e7c4174
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YO-CF1.ANS by Young (Spastic Studios); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cruel Fate
 # SAUCE Author: Young
 # SAUCE Group: Spastic Studios
@@ -54,6 +54,4 @@ Write-Host '
 [32m [0;1;30m▒▒[0;32m▀▓█▓█ [0;1;33;42m░░░[0;32m██▓ [0;1;30m▄▓ [0;32m▀▓█▓█ ▓█[0;1;33;42m░[0;32m█▓  [0;1;30m▄ [0;32m▀▓█▓█ ▓█[0;1;33;42m░[0;32m█▓ [0;1;30m▒▄ [0;32m▀▓█▓█ [0;1;33;42m▒░░[0;32m█▓▓ [0;1;30m▒▄ [0;32m▀▓█▓█ [0;1;33;42m▒░░[0;32m█▓▓[0m
 [32m [0;1;30m▓▓▒ [0;32m▀▒█▄[0;1;33;42m░[0;32m█▓▀▀ [0;1;30m▒█▓▓▄ [0;32m▀▒█ ▓█▀▀ [0;1;30m▄▓▓▓▄ [0;32m▀▒█▄▓█▀▀[0;1;30m▒▄▓█▓▄ [0;32m▀▒█▄[0;1;33;42m░[0;32m█▓▀▀ [0;1;30m▄▓▓▓▄ [0;32m▀▒█▄[0;1;33;42m░[0;32m█▓▀▀[0;1;30m▄▓[0m
 [1;30m  ▒░  [0;32m░[0m        [1;30m░  ▒   [0;32m░[0m        [1;30m▒ ▒   [0;32m░[0m      [1;30m░   ▒   [0;32m░[0m         [1;30m▒ ▒   [0;32m░[0m        [1;30m▒[0m
-[1;30m  ░[0m     [1;30mF[0m         [1;30m░[0m     [1;30mA[0m        [1;30m░[0m     [1;30mT[0m        [1;30m░[0m     [1;30mE[0m       [1;30m░ ░[0m     [1;30m![0m
-
-                      [1;30m418 YOU KNOW sys:voiz 418 YOU KNOW[0m'
+[1;30m  ░[0m     [1;30mF[0m         [1;30m░[0m     [1;30mA[0m        [1;30m░[0m     [1;30mT[0m        [1;30m░[0m     [1;30mE[0m       [1;30m░ ░[0m     [1;30m![0m'

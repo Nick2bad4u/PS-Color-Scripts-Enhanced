@@ -5,7 +5,7 @@
 # Source SHA-256: e8a2ac898ce0784b470fa7c78a9336d5007b6ef0984be7300ab3703799e5af77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-SINS.ANS by Fistandantilus (READ THE INI FILE); released in rage0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Immortal Sins (tm)
 # SAUCE Author: Fistandantilus
 # SAUCE Group: READ THE INI FILE
@@ -36,20 +36,20 @@ Write-Host '
 [1m [0;35m▀ ▄ ▄▀ ▄ ▀ ▀ ▄▀▄██▀██▄█████[0;1;35;45m▀[0;35m█[0;1;35;45m▄▀█▄█▄▄[0;35m█[0;1;35;45m▀▄█[0;35m█[0;1;35;45m▄▄▀[0;35m█[0;1;35;45m▄██▀▄▀[0;35m█[0;1;35;45m▀[0;35m█▀████▄█▀██▄▀ ▀▄█▀ ▄ ▀▄ ▀[0m
 [1;30m▄  ▄ ▄  ▄ ▄ ▄▄▄ ▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄ ▄▄▄ ▄ ▄  ▄ ▄  ▄[0m
 
-                      [1mI[0mm[1;30mmort[0;35ma[0;1;35ml [0;1mS[0mi[35mn[0;1;35ms [0;1mB[0mu[1;30mllet[0;35mi[0;1;35mn [0;1mB[0mo[1;30ma[0;35mr[0;1;35md [0;1mS[0my[1;30mste[0;35mm[0;1;35ms[0m
+                      [1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [35m [0;1;35m  [0;1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m  [0;1m [0m [1;30m   [0;35m [0;1;35m [0m
 
-     [1;30m─[0m─[1m─ S[0mt[1;30ma[0;35mf[0;1;35mf [0;1;30m: [0;1mL[0mi[1;30mqu[0;35mi[0;1;35md [0;1mV[0mi[1;30molen[0;35mc[0;1;35me [0;1m[[0mP[1;30mN[0;35mW[0;1;35m][0m
-                 [1mH[0ma[1;30mirym[0;35ma[0;1;35mn [0;1m[[0mP[1;30mN[0;35mW[0;1;35m][0m
-                 [1mR[0ma[1;30mistl[0;35mi[0;1;35mn [0;1m[[0mM[1;30mAGi[0;35mC[0;1;35m][0m
-                 [1mT[0my[1;30mr[0;35ma[0;1;35mn [0;1m[[0mC[1;30mi[0;35mA[0;1;35m][0m
+     [1;30m─[0m─[1m─  [0m [1;30m [0;35m [0;1;35m  [0;1;30m  [0;1m [0m [1;30m  [0;35m [0;1;35m  [0;1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m [0m
+                 [1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m [0m
+                 [1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [1;30m   [0;35m [0;1;35m [0m
+                 [1m [0m [1;30m [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m [0m
 
-     [1;30m─[0m─[1m─ P[0mN[1;30mW [0;1mD[0mi[1;30mstributi[0;35mo[0;1;35mn [0;1mS[0mi[35mt[0;1;35me[0m            [1mA[0mN[35mS[0;1;35mi [0;1;30m∙ [0;1mF[0mi[1;30mSTANDANTiL[0;35mU[0;1;35mS[0;1;30m[[0;1mR[0mA[35mG[0;1;35mE[0;1;30m][[0;1mi[0mC[35mE[0;1;30m][[0;1mT[0mi[35mT[0;1;35mS[0;1;30m][0m
-     [1;30m─[0m─[1m─ C[0mi[1;30mA [0;1mM[0me[1;30mmb[0;35me[0;1;35mr [0;1mB[0mo[1;30ma[0;35mr[0;1;35md[0m
-     [1;30m─[0m─[1m─ R[0mi[1;30mTU[0;35mA[0;1;35mL [0;1mD[0mi[1;30mstributi[0;35mo[0;1;35mn [0;1mS[0mi[35mt[0;1;35me[0m
-     [1;30m─[0m─[1m─ O[0m-[1;30m3 [0;1mD[0ma[1;30my [0;1mW[0ma[1;30mr[0;35me[0;1;35mz [0;1;30m& [0;1mH[0m/[1;30mP/A/V[0;35m/[0;1;35mC [0;1mS[0;1;30muppo[0;35mr[0;1;35mt[0m
-     [1;30m─[0m─[1m─ 4[0m5[1;30mO [0;1mM[0me[35mg[0;1;35mz [0;1mO[0mn[1;30mli[0;35mn[0;1;35me [0;1mW[0mi[35mt[0;1;35mh [0;1;30m2 [0;1mG[0mi[35mg[0;1;35ms [0;1mI[0mn [1mS[0mt[1;30mora[0;35mg[0;1;35me [0;1mA[0mn[1;30md [0;1mG[0mr[1;30mowi[0;35mn[0;1;35mg[0m
-     [1;30m─[0m─[1m─ T[0mh[35mi[0;1;35ms [0;1mI[0ms [1mA P[0mr[1;30miva[0;35mt[0;1;35me [0;1mB[0mu[1;30mllet[0;35mi[0;1;35mn [0;1mB[0mo[1;30ma[0;35mr[0;1;35md [0;1mS[0my[1;30mste[0;35mm[0;1;35m.[0m
-     [1;30m─[0m─[1m─ ([0m5[1;30mi9)PRi-VA[0;35mT[0;1;35mE[0m
+     [1;30m─[0m─[1m─  [0m [1;30m  [0;1m [0m [1;30m        [0;35m [0;1;35m  [0;1m [0m [35m [0;1;35m [0m            [1m [0m [35m [0;1;35m  [0;1;30m  [0;1m [0m [1;30m          [0;35m [0;1;35m [0;1;30m [0;1m [0m [35m [0;1;35m [0;1;30m  [0;1m [0m [35m [0;1;30m  [0;1m [0m [35m [0;1;35m [0;1;30m [0m
+     [1;30m─[0m─[1m─  [0m [1;30m  [0;1m [0m [1;30m  [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m [0m
+     [1;30m─[0m─[1m─  [0m [1;30m  [0;35m [0;1;35m  [0;1m [0m [1;30m        [0;35m [0;1;35m  [0;1m [0m [35m [0;1;35m [0m
+     [1;30m─[0m─[1m─  [0m [1;30m  [0;1m [0m [1;30m  [0;1m [0m [1;30m [0;35m [0;1;35m  [0;1;30m  [0;1m [0m [1;30m     [0;35m [0;1;35m  [0;1m [0;1;30m    [0;35m [0;1;35m [0m
+     [1;30m─[0m─[1m─  [0m [1;30m  [0;1m [0m [35m [0;1;35m  [0;1m [0m [1;30m  [0;35m [0;1;35m  [0;1m [0m [35m [0;1;35m  [0;1;30m  [0;1m [0m [35m [0;1;35m  [0;1m [0m  [1m [0m [1;30m   [0;35m [0;1;35m  [0;1m [0m [1;30m  [0;1m [0m [1;30m   [0;35m [0;1;35m [0m
+     [1;30m─[0m─[1m─  [0m [35m [0;1;35m  [0;1m [0m  [1m   [0m [1;30m   [0;35m [0;1;35m  [0;1m [0m [1;30m    [0;35m [0;1;35m  [0;1m [0m [1;30m [0;35m [0;1;35m  [0;1m [0m [1;30m   [0;35m [0;1;35m [0m
+     [1;30m─[0m─[1m─  [0m [1;30m         [0;35m [0;1;35m [0m
 
 [1;35m [0;1m▀  ▀  ▀  ▀ ▀ ▀▀ ▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀ ▀▀▀▀ ▀ ▀  ▀ ▀ ▀[0m
 [1m [0;35m▀ ▄ ▄▀ ▄ ▀ ▀ ▄▀▄██▀██▄█████[0;1;35;45m▀[0;35m█[0;1;35;45m▄▀█▄█▄▄[0;35m█[0;1;35;45m▀▄█[0;35m█[0;1;35;45m▄▄▀[0;35m█[0;1;35;45m▄██▀▄▀[0;35m█[0;1;35;45m▀[0;35m█▀████▄█▀██▄▀ ▀▄█▀ ▄ ▀▄ ▀[0m

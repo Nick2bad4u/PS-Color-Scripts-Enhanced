@@ -5,7 +5,7 @@
 # Source SHA-256: 882589619ffc2a93cd7cae155e85af0cf32a870aed46077eb5bc1a59a12d5dbc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZE-BLND2.ANS by Ezmpf (blndr012); released in blndr012 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -22,7 +22,7 @@ Write-Host '
 [1;36m$$$$$$$$$$$$$$$$$$$ [0;1;30m$b,`╜ⁿ'',d$[0;1;36m $$$$b,[0;1;31m`[0;1;36m,$$$$$$$$$$$$$$$$$$$P''[0;1;33m,g$$$$$$$$$$$[0m [33m$$$$$$[0m
 [1;36m$$$$$$$$$$$$$$$$$$$ [0;1;30m$$$$8$$$$$[0;1;36m $$$$$''[0;1;31m,[0;1;36m`$$$$$$$$$$$$$$$$$$''[0;1;33m,$$$$$$$$$$$$$$[0m [33m$$$$$$[0m
 [1;36m$$$$$$$$$$$$$$$$$$$[0m [1;30m$$$$$$$$$$ [0;1;36m$$$$$bgd$$$$$$$$$$$$$$$$$''[0;1;33m,$$$$$$$$$$$$$$$[0m [33mgggggg[0m
-[1;34mggggggggggggggggggg,[0;1;30m`"╜╜╜╜╜╜"''[0;1;34m*gggggggggggggggggggggggggggggggggggggggggg[0m [33m$$$$$$[0m
+[1;34m                    [0;1;30m  ╜╜╜╜╜╜  [0;1;34m                                           [0m [33m      [0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$[0;1;30m $$$$$$ $ [0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m [33m$$$$$$[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$[0;1;30m $$$$$$ $ [0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m [33mgggggg[0m
 [1;34m$$$$$$$$$$$$$$$$$$$$$[0;1;30m $$$$$$ $ [0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m [33m$$$$$$[0m
@@ -31,11 +31,4 @@ Write-Host '
 [1;34m╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜''[0;1;30m,$$$$$$'',$$$$ggg,[0;1;34m`╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜╜[0m [33m$$$$$$[0m
 [1;33m$$$$$$$$$$$$$$$$$''[0;1;30m,$$$$$$''[0;1;33m,[0;1;30m`$$$$$$$P[0;1;33m d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m [33m$$$$$$[0m
 [1;33m$$$$$$$$$$$$$$$$$,[0;1;30m`$$$$$$b,[0;1;33m [0;1;30m`$$$$╜''[0;1;33m,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ggggggg[0m
-[1;33m$$$$$$$$$$$$$$$$$$b,[0;1;30m`╜$$$$P [0;1;33m,[0;1;30m`P''[0;1;33m,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-                       [1;30m `"`[0m                                          zempf*blade
-
-    woohoo...this ascii sucks some major shit. but, i''m bored, so i felt like
-    doodling. anyways, the cyborg-type thing''s holding a bloody knife, cause
-    he just murdered somebody. (the bermuda triangle is in the backround some-
-    where). i just have to re-iterate the fact that this thing really sucks.
-                 (but, you can still feel free to let me win)[0m'
+[1;33m$$$$$$$$$$$$$$$$$$b,[0;1;30m`╜$$$$P [0;1;33m,[0;1;30m`P''[0;1;33m,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m'

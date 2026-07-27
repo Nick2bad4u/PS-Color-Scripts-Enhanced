@@ -5,7 +5,7 @@
 # Source SHA-256: c5e2006c47d4cb95c0c3ca7646b7f02b6fef236717a2f849c704a4beeccaf2c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SDP-FEAR.ANS by s?dp0l (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: preview
 # SAUCE Author: s?dp0l
 # SAUCE Group: fbk
@@ -23,7 +23,7 @@ Write-Host '
           [1;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
  [1;32m▄▄██████████████████▓▀▀▀▀▀   [0m      [1;30m   [0m    [1;30m  [0m       [1;32m(because,[0m
 [1;32m▐██████▓▀▀▀▀▀▀     [0m [1;31m [0m          [1;30m▄  ░[0m   [1;30m▀▀[0m  [1;30m░░[0m        [1;32m in the next pak, [0m
-[1;32m               [0m      [1;31m [0m       [1;30m ░[0m          [1;30m▒[0m  [1;30m [0m        [1;32mthere wouldn''t be a way,[0m
+[1;32m               [0m      [1;31m [0m       [1;30m ░[0m          [1;30m▒[0m  [1;30m [0m        [1;32m                        [0m
 [1;32m             [0m         [1;31m [0m     [1;30m░[0m       [1;30m [0m     [1;30m▒[0m  [1;32m    to av oi T:[0m
                        [1;31m [0m   [1;30m░[0m   [1;30m▒[0;33m▀▀▀▀ [0;37m [0;33m▀▀▀[0;1;30m ░▒[0m  [1;30m [0m      [1;32mwh i l e ...[0m
                         [1;31m [0m [1;30m░[0m   [1;30m░[0m [30;47m▒[0;1;37;47m▓[0;1;37;40m █[0;1;37;47m▓[0;33m [0;1;37;47m░[0;1;37;40m █▄[0m [1;30m▒[0m  [1;30m [0m     [1;32m       OTHER crews[0m

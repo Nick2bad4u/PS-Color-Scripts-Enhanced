@@ -5,7 +5,7 @@
 # Source SHA-256: ff9ffb1d1204476038d5829fd7115af6e2eecafbbb22f712e65d1036dee9b350
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-NAME.ANS by Boba Fett (READ THE INI FILE); released in plan9-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: name/p-werd screen
 # SAUCE Author: Boba Fett
 # SAUCE Group: READ THE INI FILE
@@ -38,14 +38,4 @@ password:                [1;30m▄▓▀[0m [1;30m▀■[0;1;30;47m▄[0m�
 [1;30;40m▓[0;1;30;47m▓▓[0;1;30;40m▄[0m  [1;30m°[0m      [1;30m▓▓░░[0m      [1;30m▐[0;1;30;47m▓▓[0;1;30;40m▌[0;1;36;40m▐[0;1;36;46m▓▓[0;1;36;40m█ [0m▀[1;47m░▓░[0;1;40m ░[0m▄■[1m [0m█ [1;36m▀[0;1;36;46m█▓[0;1;36;40m█[0;1;36;46m▓▓[0;1;36;40m▄[0;1;30;40m·▀█▀▄█▄  [0m      [1;30m▀[0m           [1;30m▄[0;1;30;47m▓[0;1;30;40m▄[0m
 [1;30;40m▀ ▄▄▄[0m        [1;30m░░[0m       [1;30m▄▓▄▀ [0;1;36;46m▓▒▒▓▒[0;36m▄[0;37m ▀▓▄[0;1;37m [0m■▀▐[1m▓[0m▀■[1;36m▐[0;1;36;46m█▓▒▒▓▒[0;36m▄[0;37m [0;1;30m▀[0;1;30;47m▓▓[0;1;30;40m▀▐▄[0m                [1;30m░▄▄▀[0;1;30;47m▓[0m
 [1;30;40m░▀█[0;1;30;47m▓▓[0;1;30;40m█▄[0m              [1;30m▄▀[0;1;30;47m▓▓[0;1;30;40m▌[0;1;36;40m▐[0;1;36;46m▒░[0;36m▓[0;1;36;46m▒[0;36m▀[0;37m ▄■[0;1;37m [0m░▓■▄▀[1m [0;36m▄▓[0;1;36;46m▒▓▒░░▒░[0;36m▓▒▄[0;37m [0;1;30m▄█[0;1;30;47m▓▓[0;1;30;40m▄bobafett![0m    [1;30m░▄[0;1;30;47m▓▓[0;1;30;40m█▓▄[0m
-[1;30;40m-(cut)--------------------------------------------------------------------------[0m
-[1;30;40mhere is a last minute d00dle with parts from an old pic I am fooling with.[0m
-[1;30mI drew this for dark territory bbs, but if anyone wants to use it, feel free.[0m
-
-[1;30mboba fett![0m
-
-
-
-
-
-'
+[1;30;40m-(cut)--------------------------------------------------------------------------[0m'

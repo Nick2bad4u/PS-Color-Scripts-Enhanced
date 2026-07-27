@@ -5,7 +5,7 @@
 # Source SHA-256: e91f038774ada4af6cf841fcb2e464c010345fda81707f7a8f042395bb1176a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dman-negatives.ans by dman (pcb'n'b7); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ????????
 # SAUCE Author: dman
 # SAUCE Group: pcb'n'b7
@@ -62,6 +62,4 @@ Write-Host '
         [1;34m▐[0m    [1;34m░[0m      [1;34m▌[0m  [1;34m▄[0m       [1;34m░[0m    [1;34m▄[0m        [1;34m▒▓▒[0m      [1;34m░ [0m   [1;34m▒[0m       [1;34m▒[0m    [1;34m░[0m
         [1;34m■[0m    [1;34m▀[0m      [1;34m▄[0m          [1;34m▌[0m              [1;34m▒[0m       [1;34m■[0m    [1;34m░[0m       [1;34m░[0m    [1;34m■[0m
                                               [1;34m░[0m            [1;34m▄[0m       [1;34m▌[0m
-                                              [1;34m▌[0m
-                      [36mansi by dman^placebo^blocktronics[0m
-                               [36mrussia.kovrov.2014[0m'
+                                              [1;34m▌[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: cd6936980ed9ef6a232c1fd3db92e2a42d53decb487580e22995fd16bf6f899a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-DRG.ANS by Pyx (bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Deranged
 # SAUCE Author: Pyx
 # SAUCE Group: bamboosh
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                   intense
+                          
    [35m▄▄[0;1;31;45m░▒▓▒▓[0;1;31;40m█▄▄[0;35m [0;34m▀▀▄▓[0;37m sucking  [0;34m▄▄▀▀■▄▄[0m           [34m▄▄▄▄▄[0m   [34m  [0m        [34m▄▄▀▀▓▄[0m
 [35m ▄█▀▀[0m     [1;31m▀▀[0;1;31;45m▓▓█[0m   [34m▀[0;35m  [0;34m▄[0;35m  [0;34m▄▄▄▀[0m       [34m▀▀▀▓▀▀▄▄▀▓▀▀[0m     [35m░ [0;34m▀■▀▓▄▄▄▄▀▀[0m      [34m▀▀▀▄[0m
 [35m▀[0;1;31;45m░[0;35m ▄  [0;1;35m░[0m     [1;31m▐[0;1;31;45m▓▓[0;1;31;40m█[0m   [1;35m░[0;35m  [0;34m▀▀[0m           [1;31;45m░[0m                  [35m░[0m             [34m░[0m      [1;31m▒[0;34m■ [0m
@@ -40,10 +40,4 @@ Write-Host '
                       ▀▀▄▄▄ [1m▄▄▄[0m▄▄[1m [0m [1m▄▄▄[0m▄▄    ▄▄▄▀
                            [1m▐███[0;1;47m▓▓[0m▌[1m▐███[0;1;47m▓▒[0m▌▀▀▀
                            [1m█████[0;1;47m▒[0m▌ [1m████[0;1;47m▓[0;1;40m [0m
-                            [1m▀▀▀▀▀[0m  [1m ▀▀▀ [0m
-[1m    [0m      [1m" Smile to the world, and the world will smile back "[0m
-
-  Hello to my friends in deranged - don''t let this annoy you, i''m just
-  messing around with you a bit, bear with me :)
-  (To all you dummies out there: This is the example of how you make a
-   bad ansi, to piss of your friends =D)[0m'
+                            [1m▀▀▀▀▀[0m  [1m ▀▀▀ [0m'

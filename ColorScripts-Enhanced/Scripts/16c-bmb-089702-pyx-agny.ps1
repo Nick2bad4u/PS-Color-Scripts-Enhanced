@@ -5,7 +5,7 @@
 # Source SHA-256: dc01ef6e04224becd840ee91d794e6302d4cc5cc00b4acab02159e4d6fb1b9a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-AGNY.ANS by Pyx (Bamboosh / Society); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: agony script
 # SAUCE Author: Pyx
 # SAUCE Group: Bamboosh / Society
@@ -29,7 +29,4 @@ Write-Host '
 [37m [0;34m▀[0;1;34m▀▀▀[0;1;34;44m▀█[0;1;36;46m░░[0;36;44m▀[0;1;36;40m▀[0;36m▀[0;34m▀[0m   [34m [0;1;34;44m░░[0;36;44m▄[0;1;36;46m█[0;1;36;44m▄[0;1;34;44m▄[0;1;34;40m▄[0;34m▄▄▄ [0m   [34m▄[0;1;34;44m▄[0;1;34;40m█▄[0;34m▄░░░░▀[0;1;34;44m▀▄[0;1;34;40m▄[0;34m▄[0m   [34m▀██[0;37m [0;34m██[0;1;34;44m▄█[0;1;34;47m▀[0;44m█[0;1;44m█▄[0;44m▄[0;1;34;44m▄[0;34m▄▄▄▄ [0;37m [0;1;34;44m▀█▀[0;34m▐▀▀[0m
 [34m▄▄▓▀[0m        [1;34m▄[0;34m▄[0m   [34m▐[0;1;34;44m▐[0;44m█[0;1;44m█[0;1;36;46m█[0;36;44m█[0;1;34;44m███▄▄░░[0;34m▄[0;1;34;44m [0;34m▄▄▄[0;1;34;44m▀█[0;1;34;40m█[0;1;34;44m▄[0;1;34;40m▄[0;34m▄[0;37m  [0;34m▀[0;1;34m▀▀[0;34m▀[0;37m [0;34m░░░░▄[0;1;34;44m░░▓▓[0;1;34;47m▄[0;44m▀[0;1;34;40m▀▀[0;34m▀█▄▄█▀ [0;37m [0;34m▀[0m
     [34m▄▄[0;1;34m▄▄[0;1;34;44m▄██▀[0;1;34;40m▀▀[0;34m▀   ▀[0;36;44m▀[0;1;36;46m░░[0;1;34;44m██▀[0;34m▀[0;1;34;44m▄█▀[0;34m█▀▀ ▄▀[0;37m [0;34m░[0;30;44m▓[0;34;40m▀[0;1;34;40m▀▀▀[0;34m▀[0m     [34m ▄▄[0;1;34;44m    ░░[0;34m▀▀▀▀[0m      [34m     [0m
-[37m [0;34m▀▀▀▀▀░[0;30;44m▓[0;34;40m   [0m   [34;40m    ░░░▀▀[0;1;34;40m▀▀[0;34m▀ ▀▀▀▀▀[0m               [34m▀▀▀▀▀▀[0m
-
-
-[37m15 lines for Kelthar''s [0;1;36magony[0m script. Here you go, enjoy kel![0m'
+[37m [0;34m▀▀▀▀▀░[0;30;44m▓[0;34;40m   [0m   [34;40m    ░░░▀▀[0;1;34;40m▀▀[0;34m▀ ▀▀▀▀▀[0m               [34m▀▀▀▀▀▀[0m'

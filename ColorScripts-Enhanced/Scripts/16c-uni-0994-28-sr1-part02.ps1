@@ -5,7 +5,7 @@
 # Source SHA-256: 46d00e55c80bc15699cb42bc9e82ad0f5797e1b7976374402b2d3dd7b1970401
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 28-SR1.ANS by #28 (Union); released in uni-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Satanic Remorse
 # SAUCE Author: #28
 # SAUCE Group: Union
@@ -52,6 +52,4 @@ Write-Host '
  [1;37;47m▓[0;1;37;40m███[0m       [1;37;40m▓███[0;1;30;40m░[0;1;37;40m ████ [0;1;37;41m█[0;1;37;40m███ ███ ███▄ [0;1;37;41m▒[0;1;37;40m███[0;1;30;40m░[0;1;37;40m ████ ████[0m      [1;37;41m▓[0;1;37;40m███[0;1;30;40m░[0;1;37;40m ███▓ [0;1;37;41m▓[0;1;37;40m███[0;1;30;40m░[0;1;37;40m ████[0m
 [1;37;40m [0;1;37;47m▐[0;1;37;40m██▓[0m       [1;37;40m▀███[0;1;30;40m░[0;1;37;40m ████ ███[0;1;37;41m▓[0;1;37;40m ███ ████[0;31m ▀[0;1m███[0;1;30m░[0;1;37m ████ ███▓[0m      [1;37m████[0;1;30m░[0;1;37m ███▓ ▀███[0;1;30m░[0;1;37m ████[0m
 [1;37m [0;1;37;47m▐[0;1;37;40m██▓[0;1;30;40m░[0m      [1;37;40m▐███▌▐███▌▐████▐███▐[0;1;37;47m██[0;1;37;40m██▌▐███▌▐███▌ ███▓[0m      [1;37;40m▐███▌▐███▌ ▐███▌▐███▌[0m
-▀[1m▀▀▀░▀[0m      [1m░ ▀▀▀▀▀▀░ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░ ▀▀▀▀▀▀░ ▀▀▀▀░▀[0m      [1m░▀▀▀▀▀▀   ░ ▀▀▀▀▀▀░[0m
-
-[1;31m sysop: helios[0;31m  Ω[0;1;31m  7O8 438 65O4[0;31m  Ω[0;1;31m  28.8k[0;31m  Ω[0;1;31m  625 Megs[0;31m  Ω[0;1;31m  uSu net[0;31m  Ω[0;1;31m  void net[0m'
+▀[1m▀▀▀░▀[0m      [1m░ ▀▀▀▀▀▀░ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░ ▀▀▀▀▀▀░ ▀▀▀▀░▀[0m      [1m░▀▀▀▀▀▀   ░ ▀▀▀▀▀▀░[0m'

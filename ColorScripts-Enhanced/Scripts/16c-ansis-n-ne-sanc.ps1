@@ -5,7 +5,7 @@
 # Source SHA-256: 65c1ef6929a17f6982c00744458509ed7ab3424dfd0edd21688039cabcfd27c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NE-SANC.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -52,10 +52,10 @@ Write-Host '
           [1;37;40m██[0m      [1;37;40m▓▌ ▐  ▌[0m     [1;37;40m▓▌   ▓▌    ▓▌   ▐[0m     [1;37;40m▐  ▌[0m      [1;37;40m▓[0m     [1;37;40m██[0m
           [1;37;40m██[0m      [1;37;40m▐[0m           [1;37;40m▐    ▐[0m     [1;37;40m▐[0m                    [1;37;40m▐[0m     [1;37;40m██[0m
          [1;37;40m▐█▌[0m                                                        [1;37;40m▐█▌[0m
-         [1;37;40m██[0m     [1;36;40mT[0;36mhe [0;1;36mS[0;36manctuary [0;1;36m-/- (3o5)491-5oo8 -/- N[0;36mo [0;1;36mD[0;36mist [0;1;36mS[0;36mites    [0;1;37m██[0m
-         [1;37m██[0m       [1;36mS[0;36mound[0;1;36m/G[0;36mraphic[0;1;36m/ANS[0;36mi[0;1;36m/VGA ONLY -/- O[0;36mver [0;1;36m200 M[0;36megs[0m      [1;37m██[0m
-         [1;37m██[0m                [1;36mS[0;36mysop[0;1;36m: T[0;36mempus [0;1;36mT[0;36mhales [0;34m[[0;1;37mi[0mC[1;30mE[0;34m][0m                [1;37m██[0m
-         [1;37m▐█▌[0m              [1;36mM[0;36moderator/[0;1;36mC[0;36mo: [0;1;36mL[0;36mady [0;1;36mI[0;36mn [0;1;36mB[0;36mlack[0m               [1;37m▐█▌[0m
+         [1;37;40m██[0m     [1;36;40m [0;36m   [0;1;36m [0;36m         [0;1;36m                       [0;36m  [0;1;36m [0;36m    [0;1;36m [0;36m        [0;1;37m██[0m
+         [1;37m██[0m       [1;36m [0;36m    [0;1;36m  [0;36m      [0;1;36m    [0;36m [0;1;36m               [0;36m    [0;1;36m     [0;36m   [0m      [1;37m██[0m
+         [1;37m██[0m                [1;36m [0;36m    [0;1;36m   [0;36m      [0;1;36m [0;36m      [0;34m [0;1;37m [0m [1;30m [0;34m [0m                [1;37m██[0m
+         [1;37m▐█▌[0m              [1;36m [0;36m         [0;1;36m [0;36m   [0;1;36m [0;36m    [0;1;36m [0;36m  [0;1;36m [0;36m    [0m               [1;37m▐█▌[0m
           [1;37m▀██▄▄[0m                                                  [1;37m▄▄██▀[0m
             [1;37m▀▀▀███▄▄▄▄▄[0m        [1;34mANSi[0;34m·[0;1;34mNEMES[0;34mi[0;1;34mS[0;34m·[[0;1;37mi[0mC[1;30mE[0;34m][0m        [1;37m▄▄▄▄▄███▀▀▀[0m
                   [1m▀▀▀▀▀█████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█████▀▀▀▀▀[0m

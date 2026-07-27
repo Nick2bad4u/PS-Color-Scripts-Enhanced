@@ -5,12 +5,12 @@
 # Source SHA-256: 285275dfb5077bdadb4e862a00ef75185cec370f7f0b8795afceafc504611e70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REP-DU5T.ANS by Reptical (karma-06); released in karma-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
 Write-Host '
-[31mReptical[0;33m                   [0m
+[31m        [0;33m                   [0m
               [33m.[0m          [33m,[0m       [33m. [0m
          [33m,_ _.j,_''.db┐._.j,._[0;37m  [0;33m_.j,_,[0m
           [33m~^"4$$$$$$$$$$$$$$$P┘"~~"`[0;37m     [0;33m [0m
@@ -33,7 +33,4 @@ Write-Host '
                                                                          [35m``[0;1;34m [0;35m/[0;34m/[0m
 
    [33m [0;31m [0;33m                                                                          [0m
-[37m---+ D 4 Dust      [0m
-[37mAlright, i made this ascii for ME, D for: Dust . Thank you.[0m
-[37mnow, if you want a ascii, then i''ll be doing trade''s, so just catch me on #ascii[0m
-[37mor something. BYE.                                                              [0m'
+[37m---+ D 4 Dust      [0m'

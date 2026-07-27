@@ -5,7 +5,7 @@
 # Source SHA-256: 80248d6a3a3fa78a6e0c02e004d188d4b63b1772054f8a9df936e020a82d3401
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 3D-SL1.ANS by rztd (dOminO/lazarus); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spEEd lOadEr
 # SAUCE Author: rztd
 # SAUCE Group: dOminO/lazarus
@@ -38,18 +38,4 @@ Write-Host '
                 [34m▐▀[0;1;34;44m▄[0;34m▌▐[0;1;34;44m▓▓▓[0m [1m▐[0;1;47m█▓▓[0m▌▄[1;47m▒▓▓[0;1;40m▀▀▀[0m▀[1;31m▄[0;31m▄▌[0;1;37m▄[0m▀[1m▀▀[0m▀[34m░▄[0;1;34m▄▄[0;1;34;44m▀[0;34m▀░[0;33m▐[0;1;33m▄█[0;1;37m█[0;1;33m [0m
                 [34m▀▀▀[0;37m [0;34m▄[0;1;34;44m░░[0;34m▌[0;37m [0;1;37m█▀[0m▀[33m [0;1;33m▄▄▄[0;31m░░[0;1;31;41m▐[0;1;31;40m▄[0;1;31;41m▄[0;1;31;40m▐[0;1;31;41m▓░░[0;31m▄▄▀[0;34m ▀[0;1;34m▀▀[0;34m▀[0;1;33m▄▄[0;1;33;43m▄▓▓▀[0;33m▀ [0m
                   [34m ▀▌▌▀ [0;1;33m▄[0;1;37m▄▄[0;1;33;43m▄▓[0;1;37;40m█[0;1;37;43m▀[0;1;33;40m▀[0;33m  [0;31m░▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m█[0;1;31;41m▓[0;31m▀▀[0;1;33m █[0;1;33;43m█[0;1;37;40m▄▄[0;1;33;43m▄▓[0;1;37;40m█[0;1;37;43m▀[0;1;33;40m▀▀[0m                          [1;30m [0m
-                         [1;33m▀[0;1;37m▀▀[0;1;33m▀[0;33m  [0;37m [0;34m█▀[0m     [1;34m▄▐[0;34m█[0;1;34m█ [0;1;37m▀▀▀[0;1;33m▀  [0m
-[1;30m[for phonyeye''s speed loader, for use of phonyeye ONLY]-----------------------[0m
-
-[1;30mwhee, there''s a nice one..  drawing has become easier but other very relevant [0m
-[1;30mthings in the scene are becoming harder and harder to sort through and get [0m
-[1;30maround, i quit rile this month and nixed who knows how many groups off my name.[0m
-[1;30mi''ve cut it down to two groups i admire, lazarus and twilight...[0m  [1;30mthese two[0m
-[1;30mgroups are extremely well run and i respect all the senior staff of both of [0m
-[1;30mthese groups being friends with them has brought alot of thought and extremely[0m
-[1;30mbeneficial encouragement upon me..   [0m
-                                       [1;30mthank you hennifer pantalon[0m
-                         [1;30mthank you warpus[0m
-[1;30mthank you''s to all my friends, you know who you are[0m
-
-                                                  [1;30mrusted of lazarus''n''twilight[0m'
+                         [1;33m▀[0;1;37m▀▀[0;1;33m▀[0;33m  [0;37m [0;34m█▀[0m     [1;34m▄▐[0;34m█[0;1;34m█ [0;1;37m▀▀▀[0;1;33m▀  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d311c6f2821d3d1a0827c0fac3380dfc87e8ec17eee7dccf3ea9e3b1554a3513
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-SF1.ANS by dumbcheeze (eclipse SUCKS); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spayed females won?
 # SAUCE Author: dumbcheeze
 # SAUCE Group: eclipse SUCKS
@@ -50,10 +50,6 @@ Write-Host '
 │                   ▀[1m▀[0;1;47m▀[0;1;40m█[0;1;47m████████████████████████[0;1;40m▀▀[0m         S           H
 │    S         K     [30;47m███[0;37;40m [0;1;37;40m▀▀▀██[0;1;37;47m████████████[0;1;37;40m▀▀▀[0m
 │                               [1m▀▀▀▀▀▀[0m
-└─►[30;47m► breed''s skullfish ░▒▓[0;37;40m [0;30;47m▓[0;37;40m  [0;1;30;40mhe wanted tis ansi for some reason <shrug> =)[0m
+└─►[30;47m►                   ░▒▓[0;37;40m [0;30;47m▓[0;37;40m  [0;1;30;40m                                             [0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mi swear it says skullfish.. the snowman is just blocking it ;) .. i really dont[0m
-[1;30mlike this ansi too much, but i''ll release it anyways.  it was originally done[0m
-[1;30mfor some blender, topics being snowman, flying, and disneyland. so, wee.. [0m
-[1;30mi promise that my other stuff is better =)[0m                                   [1;30m-cz[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

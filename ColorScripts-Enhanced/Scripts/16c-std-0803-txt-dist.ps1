@@ -5,7 +5,7 @@
 # Source SHA-256: b4034916e087b04586b3c4633d4a6cd3385943cd3029fd1d5df4dd54f24271b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TXT-DIST.ANS by The Textorcist (Spread The Disease); released in std-0803 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Distro Tag
 # SAUCE Author: The Textorcist
 # SAUCE Group: Spread The Disease
@@ -41,6 +41,4 @@ Write-Host '
 [1;30m [0m                       [1;31m  [0;33m░░▀▀███[0;1;31;43m▀▀[0;1;31;40m██[0;1;35;43m▓███[0;1;31;40m██[0;1;31;43m▀▀[0;33m█[0;1;31;43m░░[0;33m▒▒▀░[0m
 [37m    [0;35m [0;1;30mspread the disease[0m          [33m▒▒▒▒[0;1;35;43m████[0;33m▒▒▒▒░░░[0m     [1;30mdistribution site.[0m
 
----
-just a small something for the sysops of any bbs spreading the disease.
-thanks..    txt.[0m'
+---[0m'

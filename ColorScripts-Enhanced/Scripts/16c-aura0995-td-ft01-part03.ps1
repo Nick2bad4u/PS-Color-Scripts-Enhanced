@@ -5,7 +5,7 @@
 # Source SHA-256: 80c08dff44f22932ac1ad1ed31eb70f9068cb32cdd9fdf1f13544e284ca820a6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TD-FT01.ANS by Twilight Serenity (aura0995); released in aura0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 68-106
 # Columns: 1-80
 
@@ -42,10 +42,10 @@ Write-Host '
 [34m:..[0;1;30m [0;34m▀▀█▄ .[0;1;30m [0;36mf a t e ![0;1;30m [0;34m▐▌[0;30;44m█[0;34;40m▐▌ [0;36;40m        [0;1;31;40m■[0;36m [0;1;30m [0;36m [0;1;31m [0;36m     [0;34m▄█▀▀ [0;1;30m   [0;1;31m  [0;1;30m [0;1;34m [0;34m▄▀ [0;1;31m  [0;1;30m  [0;34m▀▀█▄ [0;1;30mTSerenity |[0m
 [1;30m┌──--─[0m [34m▓▌ [0;1;30m---───-──-─[0;30m [0;34m▀▄[0;34;44m [0;37;40m [0;1;30;40m ──--────----─-[0;30m [0;34m▄ ▀ [0;1;30m─────[0;30m [0;34m■  ▀[0;37m [0;1;30m─────-─-·[0m [34m▓▌[0;1;30m ─----────┘[0m
 [1;30m└[0m─[1;30m─[0m── [34m▄▀[0;1;30m [0m──[1;30m─[0m────[1;30m─[0m──-──── [34m▀ ▄[0;37m ───--─ [0;34m▄ [0;37m-[0;34m ■[0;37m ∙─--───----───-─-─--─-─ [0;34m▄▀[0;37m ────----─->[0m
-[34m ■  ▀[0m   [1;30mFATE :: 9O5-666-2469 : Sysops : DAZE and TWILIGHT SER [0;34m■  ▀[0;37m [0;1;30mENITY  OBV/2.[0m
-[1;30mAURA World Headquarters : INFINITY EMAG Canadian Headquarters : TRANK!ASCII Dist[0m
-[1;30mribution Site : ESCAPENet World Headquarters : AURA Net World Headquarters :    [0m
-[1;30mTwingle Net : Black Net : CIP Net : Agora Net : AURA Net : OBV Support Network!![0m
+[34m ■  ▀[0m   [1;30m                                                      [0;34m■  ▀[0;37m [0;1;30m             [0m
+[1;30m                                                                                [0m
+[1;30m                                                                                [0m
+[1;30m                                                                                [0m
 [1;30m┌─-─-─-──------──---─-────---────--────────────────────────--──────----─-───--─[0m┐
-[1;30m|[0;1;37m░[0m [1;30m.Fate Ansi Created by: TWILIGHT SERENETY and is completely Original - td..[0m [1m░[0m|
+[1;30m [0;1;37m░[0m [1;30m                                                                          [0m [1m░[0m 
 [1;30m└[0m─[1;30m─[0m──[1;30m─[0m─────[1;30m─[0m───---────[1;30m─[0m───-────---──-────--─────------───-─────--───-──-─--──--┘[0m'

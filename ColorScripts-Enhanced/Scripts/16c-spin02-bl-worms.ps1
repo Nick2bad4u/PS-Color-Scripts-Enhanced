@@ -5,7 +5,7 @@
 # Source SHA-256: 66d711deaf9b3984b8ca542590c246915e13f2f5f4e12e1c6d3c6aa7f390d5f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-WORMS.ANS by Blader (spin); released in spin02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Worms
 # SAUCE Author: Blader
 # SAUCE Group: spin
@@ -35,8 +35,4 @@ Write-Host '
                         [33mi$$$$$$[0;1;32m$$$[0;32m$$$$$$$$$$$$$$$$$$$$$$$$i[0m
                         [33m;$$$$$$$$[0;32m$$$$$$$$$$$$$$$$$$$$$$$$$l[0m
                         [33mi$$$$$$$$$[0;32m$$$$$$$$$$$$$$$$$$$$$$$$l[0m
-                        [33m;$$$$$$$$$[0;32m$$$$$$$$$$$$$$$$$$$$WORMS[0m
-
-
-
-                              [37mWorms by BLaDER [-98][0m'
+                        [33m;$$$$$$$$$[0;32m$$$$$$$$$$$$$$$$$$$$WORMS[0m'

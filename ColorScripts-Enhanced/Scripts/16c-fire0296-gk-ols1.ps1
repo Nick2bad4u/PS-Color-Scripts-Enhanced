@@ -5,7 +5,7 @@
 # Source SHA-256: 93d9dc90ca6d05d913acc17ca3b94b6ae2f8ab652fcd57cc3c6f549938dddc8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GK-OLS1.ANS by Grind King (Fire); released in fire0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tha Ol' Skool
 # SAUCE Author: Grind King
 # SAUCE Group: Fire
@@ -41,16 +41,8 @@ Write-Host '
 
 [1;30;40m** read ┐[0m
 
-[1;30mhey. there''s a bit of a story behind this piccy. well, not really, but anyway.[0m
-[1;30mi originally drew it last summer for an emag called vibe that was being coded   [0m
-[1;30mby my buddy grath. it never got off the ground, so all the artwork that i had[0m
-[1;30mdone for it sat on my hd, unused and unreleased (i was not in a group at the [0m
-[1;30mtime).[0m
-
-[1;30mi liked that little green d00d so much that i decided to fix it up for eiht[0m
-[1;30mball''s board. so i improved the shading and added a new font, which strayed a [0m
-[1;30mlot from my normal shit non-style. if anything, i''d say that it was very[0m
-[35mnootropic[0;1;30m in-flu-enced. [0m
-
-[1;30mumm.. not much ansi lately. exams caught up on me. life sucks. bye.[0m
-[1;30m [0m'
+[1;30m                                                                              [0m
+[1;30m                                                                                [0m
+[1;30m                                                                             [0m
+[1;30m                                                                             [0m
+[1;30mtime).[0m'

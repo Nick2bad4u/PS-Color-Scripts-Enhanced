@@ -5,7 +5,7 @@
 # Source SHA-256: 2fc0dd162e45ba7d373efb8b0839df0f5f02bb334ae9b7d2f72604e677536528
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-GLUE.ANS by drs (glue); released in glue-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: HAPPY BIRTHDAY GLUE!
 # SAUCE Author: drs
 # SAUCE Group: glue
@@ -41,12 +41,12 @@ Write-Host '
            [1;33m█[0;1;32m█[0;1;37m█[0;1;37;47m░[0m▀▀  [1;30;47m▓▓▓▒[0;1;37;47m   ▐██[0;1;32;40m█[0;1;33;40m██[0;1;37;47m░         [0m   [30m  [0;1;30m  [0;1;31;41m░[0;31m█[0;1;31;41m░░▒▒▓▓███▀[0;30;41m▓[0;31;40m░ [0m
            [37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0m    [1;30;40m░░░[0;1;30;47m▓[0m█[1;47m  ▐██[0;1;32;40m█[0;1;33;40m██[0;1;37;47m░[0m███[1;30;47m ░░▒▒▓▓██[0;1;30;40m░░[0m [1;30m [0;30;41m▓[0;31;40m░░░░[0;30;41m▓[0;31;40m░░░[0;30;41m▓[0;31;40m░░░[0;30;41m▓[0m
                     [37;40m  [0;30;47m▓[0;37;40m░░[0;30;47m▓[0;37;40m░[0m    [1;33;40m▀[0m▀▀▀[1;30;47m░░▒▒▓▓██[0;1;30;40m░░  [0m
-                                               [1m  [0;1;32mHAPPY[0;1;37m [0;1;33mBIRTHDAY[0m [1m      [0m
-                                               [1m  [0;1;31mFELIZ[0;1;37m [0;1;32mCUMPLEANOS[0m  [1m      [0m
-                                               [1m [0m [1;32mFELICE[0;1;37m [0;1;36mCOMPLEANNO[0m [1m [0m [1m  [0m
-                                               [1m [0m [1;34mJOYEUX[0;1;37m [0;1;32mANNIVERSAIRE[0;1;37m       [0m
-                                               [1m [0m [1;32mALLES[0;1;37m [0;1;33mGUTE [0;1;36mZUM [0;1;34mGEBURTSTAG[0;1;37m [0m
+                                               [1m  [0;1;32m     [0;1;37m [0;1;33m        [0m [1m      [0m
+                                               [1m  [0;1;31m     [0;1;37m [0;1;32m          [0m  [1m      [0m
+                                               [1m [0m [1;32m      [0;1;37m [0;1;36m          [0m [1m [0m [1m  [0m
+                                               [1m [0m [1;34m      [0;1;37m [0;1;32m            [0;1;37m       [0m
+                                               [1m [0m [1;32m     [0;1;37m [0;1;33m     [0;1;36m    [0;1;34m          [0;1;37m [0m
                                                [1m [0m [1m─────────────────────────[0m
-                                              [1m  [0m [1;35mMAY [0;1;34mYOU [0;1;36mHAVE [0;1;31mA [0;1;37mVERY [0;1;32mHAPPY[0m
-                                               [1m                    [0m [1;33mKWANZA[0;1;37m [0m
+                                              [1m  [0m [1;35m    [0;1;34m    [0;1;36m     [0;1;31m  [0;1;37m     [0;1;32m     [0m
+                                               [1m                    [0m [1;33m      [0;1;37m [0m
                                               [1m                    [0m [1m  [0;1;31mTOO[0;1;37m ![0m'

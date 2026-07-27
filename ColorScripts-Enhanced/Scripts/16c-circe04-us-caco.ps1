@@ -5,7 +5,7 @@
 # Source SHA-256: 37f564863d64e5347f061aa63fee6a8f9adc9c7fbb2b9e149ea13047ca0b466c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CACO.ANS by Cleaner + Ball Tongue (Circe/Cia/Gray); released in circe04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "Caco"
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Circe/Cia/Gray
@@ -47,8 +47,7 @@ Write-Host '
         [31m░[0m   [31m░░[0m       [31m░[0;37m  [0;31m▓▓▓[0;1;30;41m░░░[0;30;41m░░[0;31;40m▓▓▓▓[0;30;41m░[0;31;40m░[0m    [31;40m▓[0;1;30;41m░░[0;31m▓▓[0;30;41m░░[0;37;40m [0;31;40m░░[0m             [31;40m░░░[0m
                         [31;40m░░░[0m     [31;40m░░░░░[0m     [31;40m░[0;37;40m  [0;31;40m░░[0m
 
-[37;40m  ANSI by:[0m
+[37;40m          [0m
 
-[1;31;40m [0m Cleaner (face outline)
-[1;31m [0m and
-  Ball Tongue (Shadeing,Font,Background)[0m'
+[1;31;40m [0m                       
+[1;31m [0m and[0m'

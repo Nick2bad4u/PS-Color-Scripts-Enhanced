@@ -5,7 +5,7 @@
 # Source SHA-256: 3a5571dd98572686ab9618bbd1dfdc009527de4f093a184cd565cb41a93249f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-ALD3.ANS by subconsciousness (bladeproductions); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ".. who is yer' favorite mc?!?"
 # SAUCE Author: subconsciousness
 # SAUCE Group: bladeproductions
@@ -37,13 +37,4 @@ Write-Host '
              [1;35m░[0m [1;35m░░░░▒▀▀▀▀[0m [1;34m▄▄[0;34m▄▄█▄[0;37m [0;1;30m▀[0;1;30;47m▓▒░ ░[0m▌[32m▐[0;1;32;42m░▄[0m [35m▀▀▀[0;1;34;45m▓[0;35m▄[0;1;35m▄[0;35m▄[0;1;35m▒▓▒▀▀▀▀[0m [34m▄▄█▄[0m
                    [1;35m░[0m   [34m▀▀▀▓[0;1;34;44m▀▀[0;1;34;47m▓[0;1;34;40m█[0;1;34;44m▄[0;34m▄▄[0;37m ▀▀▀ [0;32m▀[0;1;32m▀[0;1;32;47m▓[0;1;32;40m▀▀▀[0m [35m▀[0;1;35m░[0m [1;35m░░▒[0m [1;34m▀▀█▀▀▀▀[0;34m▓▀▀▀▀[0m
                    [1;35m░[0m         [1;34m▀[0;34m▀▀▀▓▀▀▀▀▀[0;37m  [0;1;32m█[0m         [1;35m░[0m   [1;34m▄[0m
-──[eof]──-─----─-───---------─-─ [1;34m▄[0m ────----─-─-─-- [1;35m░[0m -─────----─--─-─---─------
-
- [1me[0mx[1;30mactly 23 lines of a messy ass logo that says "ald".. which is "alderaan"[0m.[1m.[0m
-[1mt[0mha[1;30mt board run by yer favorite mc! <did you know?!? mc, stands for master..[0m o[1mf[0m
-  [1m.[0m.[1;30m... ceremony, ?> .. <but in this case it''d be.... mindcrime!> .. by th[0ma[1mt[0m
-   [1mw[0ma[1;30mcked ass artist that doesn''t give a fuck -- subconsciousness of blad[0me[1m![0m
-
-                            ([1mc[0m) [1msubconsciousness[0m
-
-            "i''m not realy copywriting it, it just looks cool .."[0m'
+──[eof]──-─----─-───---------─-─ [1;34m▄[0m ────----─-─-─-- [1;35m░[0m -─────----─--─-─---─------[0m'

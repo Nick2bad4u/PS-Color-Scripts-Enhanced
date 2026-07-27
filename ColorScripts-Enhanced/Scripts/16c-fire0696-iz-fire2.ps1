@@ -5,7 +5,7 @@
 # Source SHA-256: 7224169bfc56ee4dae149f9fb0394fc6d86140b428564c7fdb13e9b8ce17223f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-FIRE2.ANS by ize (fire?); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fire promo no2
 # SAUCE Author: ize
 # SAUCE Group: fire?
@@ -50,6 +50,6 @@ Write-Host '
 [37m it''s my first real picture[0m                              [33m [0;1;31m  [0;33m█[0;1;31;43m▓█[0;1;31;47m█[0;1;31;43m▓░[0;33m▄█[0;1;31;43m░[0;33m█▀[0;1;31;43m░[0;33m▀[0m
 [37m well I don''t think it got that bad? ..                    [0;33m▐[0;1;31;43m▐[0;1;31;40m▀░▀█[0;1;31;43m [0;1;31;40m [0;33m▄▄▄▄[0;1;31;43m░[0;33m▄[0m
                                                          [1;31m  [0;33m█[0;1;31;41m▓[0;1;31;43m█[0;1;31;40m▄█[0;1;31;43m▓▌[0;33m▌▐[0;1;31;45m▓[0;1;31;43m▀▀▓[0;1;30;40miz[0m
- heyas to rex, abnormal, deuterium and all irc buds!     [1;31m [0;33m▐[0;1;31;43m▓▀░▀ ░[0;33m▀▀▀[0;1;31;43m░[0;33m▀[0;1;31m [0;1;31;43m░[0;1;31;40m [0m
+                                                         [1;31m [0;33m▐[0;1;31;43m▓▀░▀ ░[0;33m▀▀▀[0;1;31;43m░[0;33m▀[0;1;31m [0;1;31;43m░[0;1;31;40m [0m
                 [1;30m                   [0m           [1;31m  [0m         [1;31m [0;33m▀[0;1;31;43m░[0;33m▀[0;1;31m       [0m    [1;31m [0m
-        ■ ize.fire - burning up competition[0m'
+        ■                                  [0m'

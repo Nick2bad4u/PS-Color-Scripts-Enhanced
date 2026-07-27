@@ -5,7 +5,7 @@
 # Source SHA-256: f71081d6536240a666e571542ad2909734eb13ba057beafea61591fdfcb262af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CU-ANKH.ICE by Cold and Ugly (iCE); released in ice9607a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ankh
 # SAUCE Author: Cold and Ugly
 # SAUCE Group: iCE
@@ -38,4 +38,4 @@ Write-Host '
                           [31m▐[0;1;31;41m░[0m [31m▀▀[0;1;31m▄[0;31m [0;1;31m▄[0;31m▄[0;37m  [0;33m▀▀[0m     [31m▀▀[0;1;31;41m▒▒[0;31m▀[0;37m  [0;31m▐▀[0m
                        [31m▄[0;37m  [0;31m▀[0m        [1;31m▀[0;31m■▓▓[0;37m [0;31m▄[0;37m [0;31m█▀[0;37m [0;31m▀▄▀[0;1;31;41m░[0m
                                      [31m░░ [0m        [31m▐▌[0m
-[37m  Ankh:[0;1;37m http://shoga.wwa.com/~mcgrath/ankh/[0m   [31m▄[0;37m [0;31m▀[0m      [37mansi: [0;1;37mCold and Ugly[0m/[1miCE[0m'
+[37m       [0;1;37m                                    [0m   [31m▄[0;37m [0;31m▀[0m      [37m      [0;1;37m             [0m [1m   [0m'

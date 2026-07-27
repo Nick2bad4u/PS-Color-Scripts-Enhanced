@@ -5,7 +5,7 @@
 # Source SHA-256: 8b3f15e27b4d7cd385d2d35608f588a8d80407284817901290ae6a0b2485b0b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KF-CLOWN.ANS by Kid Frost (moi-0197); released in moi-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -28,5 +28,5 @@ Write-Host '
                            [1;30m▓ ░▓  [0;1;37m▄█[0;1;37;47m▓[0;1;37;40m█▀[0;31m▄ [0;34m██▓██▓▄[0;31m▄▄▓▀[0m
                             [1;30m▀ [0;1;37m▄▀█[0;1;37;47m▓[0;1;37;40m██▀ [0;31m▀▀▀▀▀▀▀▀▀▀[0m
                             [37m▄[0;1;37m▀[0;1;33m▄[0;31m▓▄[0;1;37m▀[0;1;37;47m▓[0;1;37;40m▀[0m
-                             ▀▄[1;33m▀[0m▄[1;47m▒[0;1;40m▀[0m                [1;40mk[0mid [1mf[0mrost ([1mm[0mOisis!) :)
+                             ▀▄[1;33m▀[0m▄[1;47m▒[0;1;40m▀[0m                [1;40m [0m   [1m [0m      [1m [0m          
                                ▀[0m'

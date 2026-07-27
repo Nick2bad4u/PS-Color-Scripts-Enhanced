@@ -5,7 +5,7 @@
 # Source SHA-256: 142fe7398ba111973d33aafab65b6cacf30359e26fc113b55bba38843a15bbcd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-LAST.ANS by Facsimile (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -16,7 +16,7 @@ Write-Host '
            ■▀[1;30m▀▀▀[0;1;30;47m▄▄▄ ░     [0m          [1;30;40m▄ ▒▓ ▀  [0mIF [1;30myou wish to request an ansi from[0m
         [31m■ ▄  [0;1;30m█▐ ▄▄ ▀▀[0;1;30;47m▄ ░ [0;1;30;40m▌ [0;31m■▄▄▄ ▀ ▄[0m     [1;30m■ [0;31m▄ [0;1;30mme, contact [0;31m▄ [0;1;30mme [0;31m■ [0;1;30mon Channel Zero,[0m
 [1;30m  [0;31m■ █ ▀  [0;1;31;41m▀█[0;31m█ [0;1;30m█▐ [0;31m▄ [0;1;30m▀▀▄ ▀[0;1;30;47m▄ [0m ■▄ [31m▀ [0;1;30m▄▀ [0;1;31;41m▐█▀▌▄▀ ▄  ▀ [0;31m██▐ ▄█▀ ▄   ▀    ▄ [0;1;30mLast Resort,[0m
-[1;30mFacsim[0mile[1mF[0ma[1;30mc █■ l[0me[1mFa[0mc[1ms[0;1;30mi [0;1;30;47m▌[0m [1;30;40me▐[0;1;37;47m▀[0;1;37;40m▄ [0;1;30;40mm[0mi[1mleF[0ma[1mcs[0mimi[1ml[0me[1;30mFacs[0mi[1;30mm[0;31mi[0;1;30mle[0mF[1;30mac[0ms[1;30mimile Divide Overflow,[0m
+[1;30m      [0m   [1m [0m [1;30m  █■  [0m [1m  [0m [1m [0;1;30m  [0;1;30;47m▌[0m [1;30;40m ▐[0;1;37;47m▀[0;1;37;40m▄ [0;1;30;40m [0m [1m   [0m [1m  [0m   [1m [0m [1;30m    [0m [1;30m [0;31m [0;1;30m  [0m [1;30m  [0m [1;30m                      [0m
 [1;30m  [0;31m▄ ▄  [0;1;31;41m▄▀[0;31m▄ [0;37m▀ [0;1;30m█▌[0m█▀ ▀ [1;31;41m▄[0m ▀ [31m▄ ▀ [0;1;30;47m▒[0;1;37;47m░▀[0;1;37;40m▄ [0;31m▀▄[0;1;31;41m▄█[0;31m█ ▌ ▀ █▀   ▄[0m       [31m▀  [0;1;30mor Eternal Insanity.[0m
       [31m▄   ▀  [0;1;30m█▌  [0;31m▀[0m       [1;30m▄▀ [0;1;30;47m▓  [0;1;37;47m░▀[0;1;37;40m▄    [0;31m▄[0m          [1;30mNo beggin for free ansis. Col-[0m
         [1;30m▒░  ▐▓█▄ fx  [0;31m▀ [0;1;30m▄█▌ ▄[0;1;30;47m█▄░ [0;1;37;47m░▐[0;1;37;40m▌[0m           [31m■  [0;1;30mlaterals [0;31m▄ [0;1;30minclude free d/l''s,[0m

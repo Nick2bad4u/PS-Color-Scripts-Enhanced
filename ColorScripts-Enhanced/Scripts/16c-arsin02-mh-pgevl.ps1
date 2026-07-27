@@ -5,13 +5,13 @@
 # Source SHA-256: 03181025edf5cb0fc2ebaa7303a6a299e1eb3e0e198aa893b3fd2b1ed49e1aad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH!PGEVL.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
 Write-Host '
-                      [33msee no evil, hear no evil,   [0;1;33m▄[0m
-                           [33mspeak no evil...[0m       [1;33m▐▌[0m
+                      [33m                             [0;1;33m▄[0m
+                           [33m                [0m       [1;33m▐▌[0m
                      [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;37m▄[0;1;30m▀▀▀▀▀█[0m
                      [1;30m█ [0;1;31m▐▌▀▀▄[0;35m▀[0;1;34m▐▌▀▀▄[0;32m▀▀▄[0;1;31m▀▀▐▌[0;35m▀▄[0;1;34m▀▀▄[0;32m▀▀▄[0;1;31m▀▀[0;1;31;47m▄[0;1;34;40m▀▀▄  [0;1;30;40m█[0m
                      [1;30;40m█ [0;1;31;40m█  [0;35m▐[0;1;31;45m▐[0;1;31;40m▌[0;1;34;40m█[0;35m▐▌[0;32m▐[0;1;34;42m▐[0;1;34;40m▌[0;1;31;40m▐[0;1;31;42m▌[0;32m▌[0;35m▐▌[0;1;31m█[0;1;34m█[0;35m▐▌[0;32m▐[0;1;34;42m▐[0;1;34;40m▌[0;1;31;40m▐[0;1;31;42m▌[0;32m▌[0;1;34m▐[0;1;31;47m▐[0;1;31;40m▌ [0;1;34;40m▐▌ [0;1;30;40m█[0m
@@ -22,9 +22,6 @@ Write-Host '
                      [1;30;40m█ [0;31m▐▌▄▄▀[0;1;35m▄▄▐▌ [0;1;32m▀▄▄▀[0;31m▄▄▐▌[0;1;35m▄▀ [0;34m▄▀[0;1;32m▄▄▀[0;31m▄▄[0;31;47m▀[0;34;40m▄▄▀  [0;1;30;40m█[0m
                      [1;30;40m█  [0;31m█   [0;1;35m▄▄▀[0m      [31m▄▄▀[0;1;30mpyrogenesis[0m▀[1;30mbbs! █[0m
                      [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-                                 [33m...or welcome it all.[0m
+                                 [33m                     [0m
 
-                        [1;36m─═≡ [0;36m8 1 8 [0;1;5;36m- [0;36m3 6 9 [0;1;5;36m- [0;36m3 6 3 3 [0;1;36m≡═─[0m
-
-                                  [1;37m9pm-5am only[0m
-                              [1;37muntil further notice[0m'
+                        [1;36m─═≡ [0;36m8 1 8 [0;1;5;36m- [0;36m3 6 9 [0;1;5;36m- [0;36m3 6 3 3 [0;1;36m≡═─[0m'

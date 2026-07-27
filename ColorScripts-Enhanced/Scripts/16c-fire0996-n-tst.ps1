@@ -5,7 +5,7 @@
 # Source SHA-256: 37be931a2c52decdb5556a67957b24d28c3094c7cca63a54291bd05f4e3583b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-TST.ANS by nail (fire0996); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the screaming tomato
 # SAUCE Author: nail
 # SAUCE Date: 19960905
@@ -34,6 +34,4 @@ Write-Host '
 [37m [0;1;30m    [0m [1;30m██[0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▓[0;1;30;40m▀█▄[0;31m▀█[0;1;37;41m▀▒░░[0;31m█[0;1;37;41m░[0;31m██[0;1;31;41m▀[0;31m██▀[0;1;30m ▐[0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▓[0;1;30;40m█[0m   [1;30m▐[0;1;30;46m▓▓[0;1;30;40m▀ ▄▐[0;1;30;46m▓▓[0;1;30;40m█  ▀[0;1;30;46m▓█▓[0;1;30;40m▄[0;1;30;46m▓[0;1;30;40m ▄▐[0;1;30;46m▓▓[0;1;30;40m█[0;1;30;46m▓[0;1;30;40m▄[0;1;30;46m▓[0;1;30;40m▀[0;31m▄■[0;37m [0;31m▐▀▄[0;1;31m▀[0;31m▀▐[0;1;31;41m▄[0m  [31m▀[0m
     [1;30m▄▀▀ ▀▐[0;1;30;46m▓[0;1;30;40m █▀█▄[0;31m▀▀▀▀▀▀▀▀▀  [0;1;30m▄[0;1;30;46m▓[0;1;30;40m▀[0;1;30;46m▓[0;1;30;40m █▀▌▀ ▀█[0;1;30;46m▓[0;1;30;40m▀█[0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▓[0;1;30;40m█▄  ▀▀▀[0;1;30;46m▓▓[0;1;30;40m█▄[0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▓[0;1;30;40m█▀█▀[0;31m▄[0;1;31;41m▒[0;31m▀ [0;37m [0;1;31m▄▌[0m   [31m▐[0;1;31;41m░[0;31m▌[0;37m [0;1;31m▀[0m
 [1;30m  ▄[0m       [1;30m█▌▌[0m  [1;30m▀▀ ■ ▄ nail[0m [1;30m▄[0m [1;30m▀▐▌▐▌ fire [0m  [1;30m▀▀█▌  ▀ █▄ [0;1;30;46m▓[0m    [1;30m▐█▐▌ [0;31m▐[0;1;31;41m░[0;31m▌[0;37m [0;31m▐[0;1;31;41m▓[0;31m▌[0m    [31m▀[0m
-          [1;30m▀▀[0m                   [1;30m▀▀[0m            [1;30m▀ ▄[0m   [1;30m▀▀▀[0m     [1;30m▀▀▌ [0m [31m▀[0m   [31m▀[0m     [31m▀[0m
-          [31m2 years screaming tomato - neither hoarse nor ketchup yet[0m
-    [1;30m +oo  nitnatsnoc cthulu    [0m [1;30m604-430-8805[0m [1;30m    acid - fire - mistigris[0m'
+          [1;30m▀▀[0m                   [1;30m▀▀[0m            [1;30m▀ ▄[0m   [1;30m▀▀▀[0m     [1;30m▀▀▌ [0m [31m▀[0m   [31m▀[0m     [31m▀[0m'

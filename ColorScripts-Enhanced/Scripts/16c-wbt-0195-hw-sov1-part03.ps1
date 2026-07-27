@@ -5,7 +5,7 @@
 # Source SHA-256: ab317995def84cf7bdb0e55c08c4a8268a3d6dab8f8fdde0d2e3ebe35aac5555
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HW-SOV1.ANS by Heat Wave (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Spirits of Vengeance
 # SAUCE Author: Heat Wave
 # SAUCE Group: WBT/SHiVER
@@ -30,7 +30,7 @@ Write-Host '
 [34m█████[0;30mw[0;1;37m██[0;30me   heat[0;31m░░[0;30mave  [0;31m███████████[0;1;31;41m▒▓[0;30mh[0;31m██████████████[0;30mt[0;1;31;41m▓▒[0;31m██████████████[0;30me[0;31m███████████[0m
 [34m█████[0;30mw[0;1;37m█[0;30mve   heat wave   [0;31m███████████[0;1;31;41m▒▓[0;30me[0;31m█████████████[0;30mt[0;1;31;41m▓▓▒░[0;31m███████████[0;30mv[0;31m████████████[0m
 [37m────────────────────────────────────────────────────────────────────────────────[0m
-[30mheat wave   heat[0;1;37m▄▄▄▄▄▄▄▄▄[0;30meat wave   heat wave   heat wave   heat wave   heat wav[0m
+[30m                [0;1;37m▄▄▄▄▄▄▄▄▄[0;30m                                                       [0m
 [30mheat wave   [0;1;37m▄▄▀▀[0;30m [0;37m▄▄▄▄▄▄▄[0;30mh[0;1;37m▀▀▄▄[0;30mwave   heat wave   hea[0;1;37m▄▀▀▀█[0;30me   hea[0;1;37m█▀▀▀▄[0;30me   heat wav[0m
 [30mheat wave [0;1;37m▄▀[0;30mh[0;1;33m▄▄[0;1;33;47m▓▓▓▒▒░░░[0m███▄▄[30m [0;1;37m█[0;30mave   heat wave   h[0;1;37m▄▀[0;30mt[0;37m▄▀[0;30ma[0;1;37m█[0;30me   hea[0;1;37m█[0;30m [0;37m▀▄[0;30mv[0;1;37m▀▄[0;30m  heat wav[0m
 [30mheat wav[0;1;37m▄▀[0;30m [0;1;33m▄███[0;1;33;47m▓▓▒▒░░░[0m████▀[30mt[0;1;37m▄▀[0;30mave   heat wave  [0;1;37m▄▀[0;30me[0;37m▄██[0;30mw[0;1;37m█[0;30mve   heat[0;1;37m█[0;30mw[0;37m██▄[0;30m [0;1;37m▀▄[0;30mheat wav[0m
@@ -48,16 +48,15 @@ Write-Host '
 [30mheat wa[0;1;30m▄▀[0;30m [0;37m▄████[0;37;43m▓▓▓▒▒░░[0;33;40m███▀[0;30;40ma[0;1;30;40m▄▀[0;30mwave   heat wave   hea[0;1;30m▀▄[0;30mw[0;1;33;43m    ░▒▓    [0;30mw[0;1;30m▄▀[0;30me   heat wav[0m
 [30mheat wa[0;1;30m█[0;30me[0;37m▀▀███[0;37;43m▓▓▓▒▒░░[0;33;40m█▀▀[0;30;40mh[0;1;30;40m▄▀[0;30mt wav[0;33mS[0;30m [0;33mP[0;30m [0;37mi[0;30me[0;37mR[0;30mt[0;1;33mi[0;30mw[0;1;33mT[0;30mv[0;1;33mS[0;30m   heat[0;1;30m▀▄[0;30ma[0;33m▀[0;1;33;43m       [0;33m▀[0;30m [0;1;30m▄▀[0;30mve   heat wav[0m
 [30mheat wav[0;1;30m▀▀▄▄▄[0;30me[0;33m▀▀▀▀▀▀[0;30me[0;1;30m▄▄▀▀[0;30meat wave   h[0;1;33mO[0;30ma[0;1;33mF[0;30m wave   heat w[0;1;30m▀▄[0;30me[0;33m▀▀▀▀▀[0;30ma[0;1;30m▄▀[0;30mwave   heat wav[0m
-[30mheat wave   h[0;1;30m▀▀▀▀▀▀▀▀[0;30m   heat w[0;1;33mV[0;30mv[0;1;33mE[0;30m [0;1;33mN[0;30m [0;1;33mG[0;30me[0;1;33mE[0;30mt[0;37mA[0;30mw[0;37mN[0;30mv[0;33mC[0;30m [0;33mE[0;30m heat wav[0;1;30m▀▀▀▀▀▀▀[0;30mt wave   heat wav[0m
-[30mheat wave   heat wa[0;1;30m▄▄▓▓[0;30m heat wave   heat wave   heat wave   heat wave   heat wav[0m
+[30m             [0;1;30m▀▀▀▀▀▀▀▀[0;30m         [0;1;33m [0;30m [0;1;33m [0;30m [0;1;33m [0;30m [0;1;33m [0;30m [0;1;33m [0;30m [0;37m [0;30m [0;37m [0;30m [0;33m [0;30m [0;33m [0;30m         [0;1;30m▀▀▀▀▀▀▀[0;30m                 [0m
+[30m                   [0;1;30m▄▄▓▓[0;30m                                                         [0m
 [30mheat wave[0;1;30m▓█[0;30m he[0;1;30m▀[0;30mt[0;1;30m▀▀▀▀▀▀▀▀▀▓[0;30ma[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀[0;30mt[0;1;30m▀▀▀[0;30mv[0;1;30m▀▀▀▀▀▀▓▀[0;30m w[0;1;30m▀▀▀▓[0;30m  h[0;1;30m▀▀▓▀[0;30mwav[0;1;30m█▓[0;30m  heat wav[0m
-[30mheat wave  [0;1;30m░░[0;30meat[0;1;37mPROPHECY[0;30mh[0;1;37mWHQ[0;30m [0;1;30m:[0;30ma[0;1;37mSHiVER[0;30me[0;1;37mMichigan[0;30m [0;1;37mHQ[0;30me[0;1;30m:[0;30mt[0;1;37m&[0;30mw[0;1;37malot[0;30m [0;1;37mmore[0;30mt w[0;1;30m░░[0;30me   heat wav[0m
-[30mheat wave[0;1;30m▓[0;30m  heat wave   heat [0;1;37m8[0;30ma[0;1;37mnodes[0;30mh[0;1;30m:[0;30ma[0;1;37m16.8[0;30mv[0;1;37m/[0;30m [0;1;37m28.8[0;30mat wave   heat wave[0;1;30m▓[0;30m  heat wav[0m
-[30mheat wave   heat[0;37mSys-God[0;30m [0;1;37m:[0;30me[0;37mVengeance[0;30m [0;37m[[0;1;37mShiver[0;30mv[0;1;37msenior/Evol[0;30mv[0;1;37msenior[0m][30mt wave   heat wav[0m
+[30m           [0;1;30m░░[0;30m   [0;1;37m        [0;30m [0;1;37m   [0;30m [0;1;30m [0;30m [0;1;37m      [0;30m [0;1;37m        [0;30m [0;1;37m  [0;30m [0;1;30m [0;30m [0;1;37m [0;30m [0;1;37m    [0;30m [0;1;37m    [0;30m   [0;1;30m░░[0;30m            [0m
+[30m         [0;1;30m▓[0;30m                   [0;1;37m [0;30m [0;1;37m     [0;30m [0;1;30m [0;30m [0;1;37m    [0;30m [0;1;37m [0;30m [0;1;37m    [0;30m                   [0;1;30m▓[0;30m          [0m
+[30m                [0;37m       [0;30m [0;1;37m [0;30m [0;37m         [0;30m [0;37m [0;1;37m      [0;30m [0;1;37m           [0;30m [0;1;37m      [0m [30m                 [0m
 [30mheat wave[0;1;30m▓█[0;30m he[0;1;30m▄▓▄▄[0;30mave[0;1;30m▓▄▄▄[0;30mea[0;1;30m▄▓▄▄▄▄▄▄[0;30m [0;1;30m▄▄▄[0;30mt[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄[0;30m [0;1;30m▓▄▄▄▄▄▄▄▄▄[0;30mt[0;1;30m▄[0;30mwav[0;1;30m█▓[0;30m  heat wav[0m
-[30mheat wave   heat wave   heat [0;1;30m▀▀[0;30mve   heat[0;1;30m▓▓▀[0;30mve   heat wav[0;1;30m▓▓▀▀[0;30mheat wave   heat wav[0m
-[30mheat wave   heat wave   heat wave   heat wave   heat wave   heat wave   heat wav[0m
+[30m                             [0;1;30m▀▀[0;30m         [0;1;30m▓▓▀[0;30m             [0;1;30m▓▓▀▀[0;30m                    [0m
+[30m                                                                                [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[1;30m∙∙∙[0moh[30mw[0;37mwell...[0;30me[0;37mhere[0;30ma[0;37myou[0;30m [0;37mgo...[0;30m [0;37monce[0;30m [0;37magain[0;30mt[0;37manother[0;30m [0;37mansi[0;30m [0;37mby[0;30mv[0;37mHeat[0;30mh[0;37mWave[0;30mw[0;37mof[0;30me[0;37mWBT[0;30mh[0;37m''95[0;1;30m∙∙∙[0;30mv[0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
-'
+[1;30m   [0m  [30m [0;37m       [0;30m [0;37m    [0;30m [0;37m   [0;30m [0;37m     [0;30m [0;37m    [0;30m [0;37m     [0;30m [0;37m       [0;30m [0;37m    [0;30m [0;37m  [0;30m [0;37m    [0;30m [0;37m    [0;30m [0;37m  [0;30m [0;37m   [0;30m [0;37m   [0;1;30m   [0;30m [0m
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f9f946a098f118bf675aa3251ba1e08d34a8767efd00102cc777dc816b483f52
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-SIMP1.ANS by thext (irato); released in ira9807 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Suicidal Impulsion
 # SAUCE Author: thext
 # SAUCE Group: irato
@@ -25,16 +25,16 @@ Write-Host '
 [34m█[0;1;34;44m░░▓▓▓[0;1;34;46m▓▓▄[0m  [1;34mmain menu[0;34m  [0;36m▌[0;37m [0;1;34;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [34m▄▄ ▀▀▀ [0;1;34m▌[0m   [36msuicidal[0;1;36mi[0;34m  [0;1;34m▌[0m [34;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [34m▀[0;1;34;44m░░░░[0;34m█ ▀■ ▄[0;1;34m▄▄▄▄▄▄▄▄▄▄[0;34m▄▌[0;37m [0;30;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-[34m [0;1;34;44m [0;34m  [0m                                                             [34m [0;37m   [0;34mthext glue[0m
+[34m [0;1;34;44m [0;34m  [0m                                                             [34m [0;37m   [0;34m          [0m
 [34m▄▄[0m
-[34m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m[ [0;36mm[0;37m [0;1;34m] message menu[0m      [1;34m[[0m [36mr[0;1;34m ][0m [1;34mrash[0m              [1;34m[[0m [36md[0;1;34m ][0m [1;34mdionyzos[0m     [34m [0;37m [0;34m ▐[0;36;44m░[0;34;40m█[0m
-[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m[[0m [36mf[0;37m [0;1;34m] file menu[0m         [1;34m[[0m [36mw[0;1;34m ][0m [1;34mmr.wrong[0m          [1;34m[[0m [36mk[0;1;34m ][0m [1;34mcthulu[0m      [34m  [0;37m  [0;34m█[0;36;44m░[0;34;40m█[0m
-[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m[[0m [36mg[0;37m [0;1;34m][0m [1;34mgoodbye   [0m        [1;34m[[0m [36mf[0;1;34m ][0m [1;34mfever[0m             [1;34m[[0m [36ma[0;1;34m ][0m [1;34maylektriq[0m       [34m▌[0;36;44m░[0;34;40m█[0m
+[34m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m  [0;36m [0;37m [0;1;34m              [0m      [1;34m [0m [36m [0;1;34m  [0m [1;34m    [0m              [1;34m [0m [36m [0;1;34m  [0m [1;34m        [0m     [34m [0;37m [0;34m ▐[0;36;44m░[0;34;40m█[0m
+[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m [0m [36m [0;37m [0;1;34m           [0m         [1;34m [0m [36m [0;1;34m  [0m [1;34m        [0m          [1;34m [0m [36m [0;1;34m  [0m [1;34m      [0m      [34m  [0;37m  [0;34m█[0;36;44m░[0;34;40m█[0m
+[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m [0m [36m [0;37m [0;1;34m [0m [1;34m          [0m        [1;34m [0m [36m [0;1;34m  [0m [1;34m     [0m             [1;34m [0m [36m [0;1;34m  [0m [1;34m         [0m       [34m▌[0;36;44m░[0;34;40m█[0m
 [34;40m▐[0;1;34;44m░[0;34m░[0m                           [1;34m[[0m [36mq[0;1;34m ][0m [1;34mquip[0m              [1;34m[[0m [36mh[0;1;34m ][0m [1;34metana[0m           [34m▌[0;36;44m░[0;34;40m█[0m
-[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m[[0m [36mg[0;37m [0;1;34m][0m [1;34mgreets to[0m         [1;34m[[0m [36mw[0;1;34m ][0m [1;34mwarpus[0m            [1;34m[[0m [36mh[0;1;34m ][0m [1;34mhappyfish[0m       [34m▌[0;36;44m░[0;34;40m█[0m
-[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m[[0m [36mc[0;37m [0;1;34m][0m [1;34mcatch 22 [0m         [1;34m[[0m [36mi[0;1;34m ][0m [1;34mironghost[0m         [1;34m[[0m [36mz[0;1;34m ][0m [1;34mparanoid[0m        [34m▌[0;36;44m░[0;34;40m█[0m
-[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m[[0m [36me[0;37m [0;1;34m][0m [1;34meto for pablo[0m     [1;34m[[0m [36m![0;1;34m ][0m [1;34mpanacea[0m           [1;34m[[0m [36mm[0;1;34m ][0m [1;34mempty[0m  [34m [0m        [34m▌[0;36;44m░[0;34;40m█[0m
-[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m[[0m [36md[0;1;34m ][0m [1;34mdangermouse[0m       [1;34m[[0m [36mv[0;1;34m ][0m [1;34mvade[0m              [1;34m[[0m [36ms[0;1;34m ][0m [1;34msilverthorn[0m     [34m▌[0;36;44m░[0;34;40m█[0m
-[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m[[0m [36mc[0;1;34m ][0m [1;34mcryogenic[0m        [1;34m [[0m [36mg[0;1;34m ][0m [1;34mgod among lice[0m    [1;34m[[0m [36mx[0;1;34m ][0m [1;34mdecax[0m           [34m█[0;36;44m░[0;34;40m█[0m
+[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m [0m [36m [0;37m [0;1;34m [0m [1;34m         [0m         [1;34m [0m [36m [0;1;34m  [0m [1;34m      [0m            [1;34m [0m [36m [0;1;34m  [0m [1;34m         [0m       [34m▌[0;36;44m░[0;34;40m█[0m
+[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m [0m [36m [0;37m [0;1;34m [0m [1;34m         [0m         [1;34m [0m [36m [0;1;34m  [0m [1;34m         [0m         [1;34m [0m [36m [0;1;34m  [0m [1;34m        [0m        [34m▌[0;36;44m░[0;34;40m█[0m
+[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m [0m [36m [0;37m [0;1;34m [0m [1;34m             [0m     [1;34m [0m [36m [0;1;34m  [0m [1;34m       [0m           [1;34m [0m [36m [0;1;34m  [0m [1;34m     [0m  [34m [0m        [34m▌[0;36;44m░[0;34;40m█[0m
+[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m [0m [36m [0;1;34m  [0m [1;34m           [0m       [1;34m [0m [36m [0;1;34m  [0m [1;34m    [0m              [1;34m [0m [36m [0;1;34m  [0m [1;34m           [0m     [34m▌[0;36;44m░[0;34;40m█[0m
+[34;40m▐[0;1;34;44m░[0;34m░[0;37m   [0;1;34m [0m [36m [0;1;34m  [0m [1;34m         [0m        [1;34m  [0m [36m [0;1;34m  [0m [1;34m              [0m    [1;34m [0m [36m [0;1;34m  [0m [1;34m     [0m           [34m█[0;36;44m░[0;34;40m█[0m
 [34;40m▐[0;1;34;44m░[0;34m░[0m                                                                         [34m█[0;36;44m░[0;34;40m█[0m
 [34;40m▐[0;1;34;44m [0;34m▄▄[0;37m [0;1;34mt-minus [0;36m15 [0;1;34m-- what will you do now? [[0;36m . [0;1;34m][0m [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███[0m'

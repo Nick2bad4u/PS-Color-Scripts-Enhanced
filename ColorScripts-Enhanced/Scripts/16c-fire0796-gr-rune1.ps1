@@ -5,7 +5,7 @@
 # Source SHA-256: 72e4edc5e9237866d386e04b052a2fa6a4e1d9297a03ab3916df14411998f1b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-RUNE1.ANS by gunthar (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rune header
 # SAUCE Author: gunthar
 # SAUCE Group: fire
@@ -28,7 +28,7 @@ Write-Host '
 [1;34;40m    [0;34m▐[0;30;44m░[0m  [36;40m▀▀▀   ░  [0;1;36;40m▄[0;36m▄▄[0;1;36;46m▀▀[0;30;46m░[0;36;40m▀▀▀▀[0;30;46m░[0;36;40m▀    [0;34;40m░ ░[0m           [34;40m▀░[0m      [34;40m▀▀[0m       [1;34;40m▀▀   [0;34m░▀[0;1;34m▀▀▀▀▀▀▀[0;34m▀[0m
 [34m   [0;30;44m▓[0;34;40m▐[0;34;44m   [0;30;44m░[0;34;40m░░  [0;36;40m▄[0;1;36;46m▀[0;36m▀▀▀▀   ░    ░[0m
 [36m   [0;30;44m▓[0;34;40m▐[0;1;34;44m░░ [0;30;44m░[0m  [36;40m▐[0;30;46m░[0m
-[30;40m    [0;34;40m▐[0;1;34;44m░▓▌[0;34m▌ [0;36m░▓[0m                    [37mheader for the 07/96 rune newsletter ..[0m
+[30;40m    [0;34;40m▐[0;1;34;44m░▓▌[0;34m▌ [0;36m░▓[0m                    [37m                                       [0m
 [37m   [0;30;44m▓[0;34;40m▐[0;34;44m [0;1;34;44m▄▄[0;34m▌[0m
 [34m    ▐[0;1;34;44m▐[0;1;34;40m█[0;1;34;44m▓░[0m  [36m░▌[0m
 [36m    [0;34m▐[0;1;34;44m▐[0;1;34;40m██[0;1;34;44m [0;34m▄   [0;1;36m■  [0;1;30mGr.[0m

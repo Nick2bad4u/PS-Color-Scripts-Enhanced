@@ -5,7 +5,7 @@
 # Source SHA-256: d34b606042a4e7650c497b5efb4fc987c4fde8c955868470845bfd88f0c07c97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-TU2.ANS by Crime Lord (riot0194); released in riot0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 97-143
 # Columns: 1-80
 
@@ -37,20 +37,20 @@ Write-Host '
       [1;30;47m░░[0m [1;30;47m▒▒[0m [1;30;47m▓▓[0m ▄[1;30;47m░░[0m [1;30;47m▒░[0m▄   [1;30m▀▀    [0;1;47m░ [0m                                             [1;47m░ [0m
       [1;47m  [0m [1;30;47m▓▓[0;1;30m▌[0;1;30;47m▒▒░░[0m▀   ▀[1;30;47m░ [0;1;47m░▒▓[0;1m█    [0;1;47m  [0m██[47m           [0m▄  ▄ [1;30m8[0mi[1m8.FIN.DI[0mD[1;30m! [0m▀ ▀[47m             [0m
 
-[1;30mNote: The "the" & "two" fonts were borrowed from VN[0m
+[1;30m                                                   [0m
 
 [1m▀ [0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀ [1m▀[0m
-     [1;30mDue to a recent encounter with the authorities, The Unknown II is no[0m
-     [1;30mlonger in service... but I finished this ansi for The Red Herring and[0m
-     [1;30mintend to release it anyhow. I guess this is a warning to all SysOps[0m
-     [1;30mto be careful... as usual, you can contact me for an ansi in any of[0m
-     [1;30mthe usual rituals, Malicious Intent or ToXiC-Net[0m
+     [1;30m                                                                    [0m
+     [1;30m                                                                     [0m
+     [1;30m                                                                    [0m
+     [1;30m                                                                   [0m
+     [1;30m                                                [0m
 
-     [1;30m"Will ansi for food"[0m
+     [1;30m                    [0m
 [1m▄ [0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄ [1m▄[0m
 
-                                [1mA[0mn[1;30msi: [0;1mC[0mr[1;30mime [0;1mL[0mo[1;30mrd[0m
-                [1;30m"Why can''t I give you a BJ?" asked the gay cannibal...[0m
+                                [1m [0m [1;30m    [0;1m [0m [1;30m    [0;1m [0m [1;30m  [0m
+                [1;30m                                                      [0m
 
          [1;30m────────────────── [0;1;30;47m▓██[0;1;30m▀▀▀▄ [0;1;30;47m▓[0;1;30m██ [0;1;30;47m▓██[0;1;30m▀▀█ ▀[0;1;30;47m▓[0;1;30m██▀ ([0;1mTM[0;1;30m) ──────────────────[0m
          [1mCopyright (c) 1993 [0;1;30;47m▒▓█[0m   [1;30m█ [0;1;30;47m▒▓[0;1;30m█ [0;1;30;47m▒▓█[0m  [1;30m█  [0;1;30;47m▒▓[0;1;30m█  [0;1mAll rights are reserved[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 7bada8013f4ce511116507b953a866ac7b995155c598933f5a2c71cd67fd9c23
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AE-AMBER.ANS by Alter Ego (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Amber
 # SAUCE Author: Alter Ego
 # SAUCE Group: ACiD Productions
@@ -60,8 +60,8 @@ Write-Host '
 [1;37m▐[0;1;37;47m██████████████████████████████████████████[0;1;37;40m█▄▀▀▐[0;1;37;47m██[0;1;37;40m▌▐█[0;1;37;47m██[0;1;37;40m█[0m                      [1;30;40m▌[0m
 [1;37;40m▐███▀▀▀[0m           C      o      r      w      i       n     ''s[1;30m▀  ▀▀[0m▀[1;30m▀[0m▀▀[1m▀[0m▀[1m▀[0m▀▄  [1;30m▌[0m
 [1;30m [0;1;37m▀█▌[0m         [1;33mA[0m            [1;33mM[0m            [1;33mB[0m            [1;33mE[0m            [1;33mR[0m         ▐▄[1;30m▀[0m
-[1;30m   [0;1;37m▀[0m              ACiD New York Outpost.  Nothing else matters.            [1m▀[0m
+[1;30m   [0;1;37m▀[0m                                                                       [1m▀[0m
 
-[1m   ▄   [0;1;30m"[0m..and with a word he cracked the child''s fragile eggshell mind.[1;30m"   [0m▄
+[1m   ▄   [0;1;30m [0m                                                               [1;30m    [0m▄
  [1m▄█[0m▌                                                                       ▐▀[1;30m▄[0m
-[1;37m▐███▄[0m▄▄ [1;30mThis ansi was 100% copied by Alter Ego of ACiD Productions ▄  ▄ ▄▄▄▀  ▌[0m'
+[1;37m▐███▄[0m▄▄ [1;30m                                                           ▄  ▄ ▄▄▄▀  ▌[0m'

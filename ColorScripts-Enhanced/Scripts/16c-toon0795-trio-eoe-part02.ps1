@@ -5,7 +5,7 @@
 # Source SHA-256: 5fa5d1a18a658d1e0131ec6efda6b68e4a6f6772dd8789a4ec11bc0bb3ab5659
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TRIO-EOE.ANS by Calamity + Xeryrus + Wat0r (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: EOE
 # SAUCE Author: Calamity/Xeryrus/Wat
 # SAUCE Group: Toon
@@ -50,7 +50,7 @@ Write-Host '
          [35m▀▀▌[0;1;36m▐[0;1;36;44m█▒[0;1;36;40m▌[0;34m [0;35m▄█[0;1;31;45m░[0;1;35;45m■▄▀[0;35m▀[0;37m  [0;34m▒░ ▄[0;37m [0;35m■▀▀██[0;1;35;45m░[0;35m█▀▀[0;37m [0;36m▀[0;1;32;46m▒[0;36m▀▄[0;37m [0;1;36m▐[0;1;36;46m▒[0;34m█▀[0m    [35m▄▄▀[0m    [35m▀▀▀  [0m    [35m▐[0m
             [1;36m▐ [0;34m▐[0;1;36;44m░[0;34m▄ [0;37m [0;35m▀▀▀[0m     [34m█▌ [0;35m▄▄█[0;37m [0;35m▄[0;34m  [0;1;37m▄▄▄▄▄[0m  [36m ▌[0;1;37;46m░[0;1;36;46m░[0m   [35m▄▄█▄[0m               [35m▄[0m
            [1;36m▀■ [0m [34m▀▓▀▀▀▄▄▄▄▄▄▀[0;37m [0;34m█[0;37m  [0;35m▀[0;37m [0;35m▄[0;37m [0;1;37m▄▀[0m    [34m [0;1;37m▀▀▄[0;34m [0;1;37;46m▒[0;36m▌[0m     [35m▀[0m               [35m■[0m
-             [37m. .. e[0;1;37mlements[0m o[34m▐[0;1;37mf[0m  e[1mv▐olution![0m [1m▄█[0;1;46m▓▒[0m [36m▀[0m
+             [37m      [0;1;37m       [0m  [34m▐[0;1;37m [0m   [1m ▐        [0m [1m▄█[0;1;46m▓▒[0m [36m▀[0m
                             [34m▄[0m     [1;37m■[0m      [1m▀▐▄▀[0m [1m█[0m [1m▄[0m
                                    [1m▀[0m       [1m▀[0m  [1m▄[0m [36m■[0m
 

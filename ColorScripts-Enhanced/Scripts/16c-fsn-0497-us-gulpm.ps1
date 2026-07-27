@@ -5,7 +5,7 @@
 # Source SHA-256: dab2525e0f214fb7c8b9c312f515939d74b30ea39ee46ed423fc368682c1a06e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GULPM.ANS by Ize + Shaft (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gulp matrix
 # SAUCE Author: shaft + ize
 # SAUCE Group: fusion
@@ -38,18 +38,4 @@ Write-Host '
 [1;37m   [0m▄[1m▄[0;1;47m▄██[0m▀[1;47m███[0m█ ▀[1;30m█▀▀[0m                      [33m      ▐██▌    █████▄[0m               [33m███▌[0;37m▐[0m
 [1;37m  [0m ▀▀ ▄[1;47m▄███▌[0m▀                           [33m      ██▀   ▐▄▄▀█████▄▄▄[0m           [33m█▀▀[0;37m ▐[0m
 [1;37m   [0m ▐[1;47m▀▀[0;1;40m▀▀[0m▀▀  [36mshaft + ize[0;1;37m         [0m       [1m           [0m  [33m▀█▄ ▀▀[0;1;33;43m░░[0;33m█████▄▄▄[0m     [33m██▌[0;1;37m [0m▄[1;37;47m▄[0m
-              [36m          [0;1;31m   [0m                                [33m   ▀▀▀▀▀[0;1;33;43m░░[0;33m██▄[0m   [37m▄[0;1;37m▄▄[0;1;37;47m▄[0;1;37;40m█[0m
-
-          [36mshaft did the outlines and ize did the shading & background[0m
-
-          [36mNOTE: shaft did another version of this ansi.. I havnt seen it[0m
-                [36myet tho but I bet its better! Hope he doesnt mind =)[0m
-
-
-
-
-
-              [37m            [0m                                             [37m [0m
-         [37m                 [0m
-           [37m           [0m
-           [37m             [0m'
+              [36m          [0;1;31m   [0m                                [33m   ▀▀▀▀▀[0;1;33;43m░░[0;33m██▄[0m   [37m▄[0;1;37m▄▄[0;1;37;47m▄[0;1;37;40m█[0m'

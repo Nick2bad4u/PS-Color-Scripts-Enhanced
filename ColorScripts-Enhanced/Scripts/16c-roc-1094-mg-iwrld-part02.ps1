@@ -5,7 +5,7 @@
 # Source SHA-256: 6085edafe034b0735cd7ad9d76078ea3e76b21a2e1ed3e2f94720817341c2b89
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MG-IWRLD.ANS by Muthergoose (READ THE INI FILE); released in roc-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Inter World
 # SAUCE Author: Muthergoose
 # SAUCE Group: READ THE INI FILE
@@ -50,11 +50,6 @@ Write-Host '
          [1;34;40m███▌ ▐███[0m         [1;34;40m▐█[0;1;36;40m█[0;1;34;40m█▌[0m     [1;34;40m█[0m        [1;34;40m█  █████[0m     [1;34;40m███████▀[0m
                              [1;36;40m█[0m               [1;34;40m█[0m       [1;34;40m▀███[0m
                              [1;36;40m█[0m
-                                                              MUTHERGOOSE
+                                                                         
                                                                  [ROC]
-                    [1m3 0 1  -  7 6 2  -  5 8 9 9[0m
-
-
-[1m  SYSOP : [0;36mSilver Storm[0m
-
-'
+                    [1m3 0 1  -  7 6 2  -  5 8 9 9[0m'

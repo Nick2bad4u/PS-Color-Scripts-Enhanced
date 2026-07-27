@@ -5,7 +5,7 @@
 # Source SHA-256: 83571975e58a779f41a6f76dc6a6a293d01f6f3dd5efe36d8d6f838f7df952e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-WOEZ.ANS by smoke (woe(guest)); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: woezine!@
 # SAUCE Author: smoke
 # SAUCE Group: woe(guest)
@@ -30,5 +30,4 @@ Write-Host '
         [1;33m▀▀[0;1;35m▀[0;1;33m▀[0;1;35m▀▀[0;35m▀▀[0m     [1;30m▀▀[0m▀▀[34m [0;37m▀[0m   [37m▀[0;34m  [0;37m▀▀▀▀[0m      [31m▄▀[0m   [1;31;41m██[0;1;31;47m▀▀░[0m [31m [0;1;35m░[0;31m  [0;1;31;47m▓▓[0;1;31;41m█[0;1;31;40m▀[0;31m▀[0m
           [37mw[0m   [1;37mo[0m   [1me[0m   [1mz[0m   [1mi[0m   [1mn[0m   [1;33me[0m    [31m░▄[0;1;31;41m▄█[0;31m ▄[0;1;31m▄[0;31m▀[0;1;31m▀▀[0m    [35m▄[0;1;35m▄▓[0;31m  [0;1;31;47m▓▓[0;1;31;41m█[0;31m▌[0m
                                         [1;31;41m░[0;31m▀▀[0m                    [1;31m▀[0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
-smokes a pimp " unf"[0m'
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m'

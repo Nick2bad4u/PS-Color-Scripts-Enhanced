@@ -5,7 +5,7 @@
 # Source SHA-256: 767e06f364a14e69b84d75a9c1418cdc721c28c45b99002e679278abe3d96de1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-HOOKD.ANS by Proctoohickey (SeNSE); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hooked
 # SAUCE Author: Proctoohickey
 # SAUCE Group: SeNSE
@@ -32,6 +32,6 @@ Write-Host '
               [1;30m.''[0m      [1;30m`[0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mHooked e-mag.  I was bored so I drew something for Indecent.[0m
+[1;30m                                                            [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

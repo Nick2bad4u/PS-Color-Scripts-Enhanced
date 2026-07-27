@@ -5,7 +5,7 @@
 # Source SHA-256: 4e09d54cf8b9ed03c6fb5e07517c6d12da9e135a74af6fc679acc4162b7899ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD!LOGOF.ANS by sad (black pyramid!inc); released in bpi0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logoff logo
 # SAUCE Author: sad
 # SAUCE Group: black pyramid!inc
@@ -32,17 +32,17 @@ Write-Host '
  [1;33md o n ''t   f o r g e t   t o   c a l l   t h e s e   g r e a t   b o a r d s[0m [1;33m:[0m
 
 
-                       [1mcyberdyne systems [0;1;30m^ [0m+32.164o5652
+                       [1m                  [0;1;30m  [0m            
                           [1mequalizer[0m  [1;30m^[0m +331.45251923
-                           [1mprototype[0m [1;30m^[0m +49.6o743529
-                        [1mdigital motion[0m [1;30m^[0m +47.22.259784
-                           [1mthe bronx[0m [1;30m^[0m +32.1465ooo1
-                        [1mspirits of hell[0;1;30m ^[0m +32.152o6749
+                           [1m         [0m [1;30m [0m             
+                        [1m              [0m [1;30m [0m              
+                           [1m         [0m [1;30m [0m             
+                        [1m               [0;1;30m  [0m             
                            [1mdarkworld[0m [1;30m^[0m +32.52215111
-                         [1mdigital fuse[0m  [1;30m^[0m +32.2757o776
+                         [1m            [0m  [1;30m [0m             
                            [1mthe metal[0m [1;30m^[0m +32.59234351
-                        [1msacred grounds[0;1;30m [0m [1;30m^[0m +32.11273ooo
-                         [1mblack heaven[0m  [1;30m^[0m +32.56753276
-                         [1mhallucinogen[0m [1;30m^[0m +331.45o64561
+                        [1m              [0;1;30m [0m [1;30m [0m             
+                         [1m            [0m  [1;30m [0m             
+                         [1m            [0m [1;30m [0m              
                             [1mkoaz[0m  [1;30m^[0m +49.2421931494
                            [1mescapade[0m  [1;30m^[0m +49.53415932[0m'

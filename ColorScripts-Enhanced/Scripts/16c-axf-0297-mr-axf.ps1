@@ -5,7 +5,7 @@
 # Source SHA-256: e8c0642800e294eb8b1d9d9ab500bac8bcdc1c685dc7b626c2f9fcd9acb88ca1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-AXF.ANS by .,s$(minotaur)$s,. (.,s$(AXF)$s,.); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: axf logo
 # SAUCE Author: .,s$(minotaur)$s,.
 # SAUCE Group: .,s$(AXF)$s,.
@@ -34,5 +34,4 @@ Write-Host '
                  [31m▀▀▀████[0;1;33;41m░░[0;31m▀[0m       [31m▀▀▀[0;1;33;41m░[0;31m█[0m       [31m▐█[0;1;33;41m░░ [0;31m▀▀▀[0m    [34m  [0m   [34m ▐▀▀▄▄▄[0;1;34m▄[0;34m▀▀▀  [0m
                                               [31m▀▀[0m           [34m [0m    [1;34m▐[0m [34m        [0m
                                                            [34m [0m    [34m▐[0m
-                                                                [1;34m▀[0m
-                                            [1;36m               [0m  minotaur[1;36m<axf>[0m'
+                                                                [1;34m▀[0m'

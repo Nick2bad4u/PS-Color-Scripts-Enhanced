@@ -5,7 +5,7 @@
 # Source SHA-256: 3f62a55f62d2ae6f66b24c664f678a575d1293792d26b9b2683a0d59120227cd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-COM.ANS by Stone The Crow (ACiD Productions); released in acdu0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ill Communication
 # SAUCE Author: Stone The Crow
 # SAUCE Group: ACiD Productions
@@ -58,5 +58,4 @@ Write-Host '
 [31m  [0m [31m [0m  [31m [0m   [31m [0m [34m      ▀▌[0;31m  [0;34m▀▒▀▓▀▀▀▀   ▀▀ ▀▀▀   ▀     [0m
 [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;37m▄▄[0m [1;37m▄[0m [1;37m▄ [0m                      [1;37m▄[0m   [1;37m▄▄[0m [1;37m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;47m█▓▒░[0m█[1;47m░[0m███████████[1;30;47m░[0m█▓▒[1;30;47m▓[0m ▒ ░   [1;30m    i     [0mC[1;30m     [0;1;37mE[0;1;30m   [0m    ░ ▒ ▒[1;30;47m▒[0m▓████[1;30;47m░[0m█████████[1;47m░░▒▓█[0m
-▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀[0m [1;30m▀[0m [1;30m▀[0m                   [1;30m▀▀[0m [1;30m▀[0m [1;30m▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[0m
-'
+▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀[0m [1;30m▀[0m [1;30m▀[0m                   [1;30m▀▀[0m [1;30m▀[0m [1;30m▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[0m'

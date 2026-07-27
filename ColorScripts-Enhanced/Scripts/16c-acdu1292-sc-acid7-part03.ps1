@@ -5,7 +5,7 @@
 # Source SHA-256: 5fa88528797cb18d1fc11e6cef3718465e74abeacaae840778533875df147c96
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-ACID7.ANS by Alter Ego (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 98-145
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
 [33m   [0;1;30mThey dwell within these walls not as men, but as[0m       [33m▒▒▓▓▒▓▓▒▓[0;1;30;43m█▓[0;33m▓[0;1;30;43m█[0;33m▓[0;1;30;43m▓█▓█[0;33m▓[0;1;30;43m██[0m
    [1;30;40mrotted shells of the bodies that reflect what they    [0;33m░▒░▒▒░▒▓▒▒▓▓▒▓▓▒▓▓▒▓▓▓[0m
 [33m   [0;1;30monce were. They live, hate, and fear no longer.[0m      [33m░ ░ ░  ░ ░░░▓▒░▒░▓▒▒▒░▒[0m
-[33m   [0;1;30mThis is where the dead come to die."  Ae92[0m                 [33m░    ░   ░ ░░░ ░░[0m
+[33m   [0;1;30m                                          [0m                 [33m░    ░   ░ ░░░ ░░[0m
                                                          [33m░[0m       [33m░  ░[0m      [33m░[0m
        [37m▄▄[0;1;37m▄▄ [0mT H E [1;30m▄▄▄▄[0m▄    [1m▄▄▄[0m      [1m▄▄[0m     [1;30m▄▄▄▄▄[0m▄       [1m▄▄    [0;33m░[0m     [37m▄▄▄█[0;37;47m [0;1;37;47m■[0;1;37;40m▄▄[0m
 [1;37;40m  [0m▄▄█[1;47m■ ▄█▄███[0;1;40m▄[0;1;30;40m▄▀▀▀▀▀[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀▌▄[0m▄[1m▀██[0;1;47m▀█[0;1;40m▄  ▄[0;1;47m████[0;1;40m▄[0;1;30;40m▀██▀[0m▀[1;30m▀█[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m■▀[0;1;30;40m▄   [0;1;37;40m▐███    [0;1;30;40m▄[0m▄[1;30;47m█▄■▀[0m██[1;47m▀[0m█[1;47m▀[0;1;40m█[0;1;47m▄[0;1;40m█▄[0m
@@ -51,8 +51,8 @@ Write-Host '
        [1;30m▀█[0;1;30;47m▀▌▀  [0m▀▀▀   [1m▐█[0;1;47m▀[0;1;40m█▌[0m       [1;40m▀▀[0;1;47m▄█▌■ [0;1;30;47m▄[0;1;30;40m▄▄[0;1;30;47m▀▄█[0;1;30;40m▀[0m       [1;37;40m▀[0;1;37;47m█[0;1;37;40m▀[0m          [1;30;40m▀███▀[0m▀ [1;30m▐▄[0m
      [1;30m▄▌[0m              [1;37m▀█▀[0m           [1;37m▀▀[0;1;37;47m   [0;1;30;47m■▀[0;1;30;40m▀▀[0m                             [1;30;40m▄[0;32m▄[0;1;30m▀[0m
 [1;30m    ▀[0;32m▄[0;1;30m▄[0m                                                                 [32m▀[0;1;30;42m▓[0;32m▄▄[0m
-[32m    ▄▄[0;1;30;42m▓[0;32m▀[0m               [33mS[0;1;33mp[0my[1mrit''s [0;33mC[0;1;33mr[0my[1mpt [0;1;30m∙ [0;33mS[0;1;33my[0ms[1mOp[0m: [33mB[0;1;33ml[0ma[1mck [0;33mS[0;1;33mp[0my[1mrit[0m              [32m▄▄[0;1;30;42m▒░[0;32m▄▄[0m
-[32m ▄▄[0;1;30;42m░▒[0;32m▄▄[0m     [33mR[0;1;33mu[0mn[1mning [0;33mP[0;1;33mC [0;33mE[0;1;33mx[0mp[1mress [0;1;30m∙ [0;33mI[0;1;33mN[0mS[1mAN[0mi[1mTY [0;33mH[0;1;33mo[0;1;37mme [0;1;30m∙ [0;33mA[0;1;33mC[0mi[1mD [0;33mE[0;1;33ma[0ms[1mtern [0;33mA[0;1;33mg[0mo[1mra    [0;32m▐▀▐[0;1;32;42m░▒[0;1;30;42m░[0;32m▌▀▌[0m
+[32m    ▄▄[0;1;30;42m▓[0;32m▀[0m               [33m [0;1;33m [0m [1m      [0;33m [0;1;33m [0m [1m   [0;1;30m  [0;33m [0;1;33m [0m [1m  [0m  [33m [0;1;33m [0m [1m   [0;33m [0;1;33m [0m [1m   [0m              [32m▄▄[0;1;30;42m▒░[0;32m▄▄[0m
+[32m ▄▄[0;1;30;42m░▒[0;32m▄▄[0m     [33m [0;1;33m [0m [1m     [0;33m [0;1;33m  [0;33m [0;1;33m [0m [1m     [0;1;30m  [0;33m [0;1;33m [0m [1m  [0m [1m   [0;33m [0;1;33m [0;1;37m   [0;1;30m  [0;33m [0;1;33m [0m [1m  [0;33m [0;1;33m [0m [1m     [0;33m [0;1;33m [0m [1m      [0;32m▐▀▐[0;1;32;42m░▒[0;1;30;42m░[0;32m▌▀▌[0m
 [32m▐▀▐[0;1;30;42m░[0;1;32;42m▒░[0;32m▌▀▌[0m                 [33mR[0;1;33ma[0mz[1mor [0;33m1[0;1;33m9[0m1[1m1 [0;33mS[0;1;33mi[0mt[1me [0;1;30m∙ [0;33m8[0;1;33m0[0m2[1m.[0;33m8[0;1;33m7[0m9[1m.[0;33m1[0;1;33m1[0m3[1m6[0m               [32m▄[0;1;30;42m▄▄ [0;32m▄▀[0;1;30;42m░[0;32m▄[0m
 [32m ▄[0;1;30;42m░[0;32m▀▄█[0;1;30;42m▄▄[0;32m▄[0m                                                            [32m▀[0;1;37;42m▄[0;32m▀[0;1;30;42m▄[0;1;37;42m▄[0;1;32;42m░[0;32m▀▄[0;1;30;42m░[0;32m▀[0m
 [32m ▀[0;1;30;42m░[0;32m▄▀[0;1;32;42m░[0;1;37;42m▄[0;1;30;42m▄[0;32m▀[0;1;37;42m▄[0;32m▀  [0;1;30m·─  ──·───[0;33m──[0;31m─[0;1;31m─ [0;1;37mANSi by Alter Ego [0;1;30m[[0;1;37mAC[0mi[1mD[0;1;30m] [0;1;31m─[0;31m─[0;33m──[0;1;30m───·──  ─· [0;32m▐▀ [0;31m▄[0;31;42m▀[0;32;40m▀ ▐▀▌[0m

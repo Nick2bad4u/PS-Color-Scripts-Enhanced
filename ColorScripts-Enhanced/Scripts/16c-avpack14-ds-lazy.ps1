@@ -5,7 +5,7 @@
 # Source SHA-256: a7f7198bd3ce4d6856053b2c599a52ed3749f50a8abfc146780992361cfbf6ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-LAZY.ANS by deathstroke (Apocalyptic Visions); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lazy schizo piece
 # SAUCE Author: deathstroke
 # SAUCE Group: Apocalyptic Visions
@@ -29,7 +29,7 @@ Write-Host '
 [1;30;45m░░░[0;35m█████████████████████[0;1;33m [0;1;33;43m░[0;1;33;40m [0;35m█████[0;30;45m ▀▀▀▀     ▀▀▀▀   [0m        [1;30;45m░░░[0;30;45m [0;35;40m   ▀    ▀▀▀[0;1;30;45m░░░░[0;35m▀▀▀ [0m
 [37m [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;33m [0;1;33;43m▒[0;1;33;40m [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m        [32mds.av[0m
                             [1;33m▐ [0m
-                 [1;33m█[0m   [1;33m▄[0m   [1;33;43m▓[0m  [1;33m▐ [0m       [34m03 5968-XXXX (Yes I have a phone line =0)[0m
+                 [1;33m█[0m   [1;33m▄[0m   [1;33;43m▓[0m  [1;33m▐ [0m       [34m                                         [0m
                  [1;33m▄[0m     [35m [0;37m [0;1;33m▄[0m
   [1;31mthe[0m           [1;33;47m▓▓[0;1;33;40m█[0m    [1;33m▄▄█▄▄[0m  [1;33m█[0;1;33;43m▓[0;1;33;47m▓[0m
  [1;31mlaziest[0m          [1;33;47m▓▓▓[0;1;33;40m▄[0;1;33;47m▓▓[0;1;33;40m█████▄▄▄[0m   [1;33m▄[0m     [1;33;43m▓▓[0m

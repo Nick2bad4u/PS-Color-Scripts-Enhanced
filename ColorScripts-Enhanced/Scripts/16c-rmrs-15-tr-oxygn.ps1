@@ -5,7 +5,7 @@
 # Source SHA-256: 862e23a630c8dcc7fcb6418a72f4e23b9ade99d50858c6f1ce41b6206e7201d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-OXYGN.ANS by Terrato (ACiD Productions); released in rmrs-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Oxygen
 # SAUCE Author: Terrato
 # SAUCE Group: ACiD Productions
@@ -44,5 +44,4 @@ Write-Host '
 [31m _.,gQ$$$$$$$$$$$$$$$$$$$P`_.,*+" [0;1;30m                    [0;1;31m`4$$$$$$$$$$$$$$'' .:i$i$$$[0m
 [31m$$$ÑP╨╨²²""²╨4Ñ$$$$P""²"`   [0;1;30m         [0m [1;30m                [0;1;31m,$$$$$$i$$$$$$$'' .ii$i$$$$[0m
                                       [1;30m                [0;1;31m`4$$$$ii$$$$$$: .:i$i$$$$$[0m
-                                      [1;30m                  [0;1;31m`iiiii$$$$$i'',P"`       [0m
-                                        [1;30m                 [0;1;31m`iii$$$$$i''[0m ∙∙terrato..[0m'
+                                      [1;30m                  [0;1;31m`iiiii$$$$$i'',P"`       [0m'

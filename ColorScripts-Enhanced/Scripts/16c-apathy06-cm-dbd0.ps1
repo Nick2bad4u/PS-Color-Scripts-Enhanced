@@ -5,7 +5,7 @@
 # Source SHA-256: 83c4c44ae33232759b29853da9ff9bc86275563caf75a4e12778fd124d4ab434
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-DBD0.ANS by Carpet Monkey (READ THE INI FILE); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dead by Daylight
 # SAUCE Author: Carpet Monkey
 # SAUCE Group: READ THE INI FILE
@@ -34,8 +34,8 @@ Write-Host '
 [1;30;44m░▒▓[0;1;30;40m█[0m [1;30;40m█[0m [34m▐█[0;1;34m █[0;1;34;46m▓▒░[0;1;37;40m▄[0;1;33;40m▄▄▄▄▄█████▀▀[0m  [34m▐█[0;1;34m █[0;1;34;46m▓▒░[0;1;37;40m▄[0;1;33;40m▄▄▄▄▄█████[0;1;33;47m▓▓[0m [34m ▐█[0;1;34m █[0;1;34;46m▓▒░[0;1;37;40m▄[0;1;33;40m▄▄▄▄▄█████▀▀[0m  [1;30;40m█[0m [1;30;40m█[0;1;30;44m▓▒░[0m
 [1;30;44m░▒▓[0;1;30;40m█[0m [1;30;40m█[0m  [34m▀[0m [1;34m ▀▀[0m                 [34m▀[0m [1;34m ▀▀[0m                 [34m▀[0m [1;34m ▀▀[0m                [1;30m█[0m [1;30m█[0;1;30;44m▓▒░[0m
 [1;34mcm''[0;34m▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀ ··d·e·[0;34ma·d··[0;1;34mb·y··[0;1;36md·a·[0;1;37my·l·i·g·h·t··[0m [1;30m ▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀[0m [34m▀▀▀▀[0;37m [0m
-                 [1;30m█[0m   [1;30msYsOp: mainframe [eden]! ............[0m   [1;30m█[0m
+                 [1;30m█[0m   [1;30m                                     [0m   [1;30m█[0m
                  [1;30m█[0m   [1;30m............ eden whQ!!!! ,,.........[0m   [1;30m█[0m
-                 [1;30m█[0m   [1;30mdink dink dink dink dink dink dink!!![0m   [1;30m█[0m
-                 [1;30m█[0m   [1;30mansi bi carpet m0nkey ov apaThy pRod.,[0m  [1;30m█[0m
+                 [1;30m█[0m   [1;30m                                     [0m   [1;30m█[0m
+                 [1;30m█[0m   [1;30m                                      [0m  [1;30m█[0m
                  [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

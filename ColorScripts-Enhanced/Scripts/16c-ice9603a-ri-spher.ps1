@@ -5,7 +5,7 @@
 # Source SHA-256: f5fc2763ad4163b7c8aef2434ee15f4edddfb5662eeede392ea4210ec2462dc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RI-SPHER.ICE by rai (ice); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the sphere
 # SAUCE Author: rai
 # SAUCE Group: ice
@@ -51,6 +51,4 @@ Write-Host '
 [1;33m ░▄▄  [0m  [1;33m▐████▌ ▐████▒░░[0;33m [0;1;33m [0m [1;33m   ▐█▄█▄░[0m  [1;33m███▌[0m   [1;33m████▌[0m [1;33m  ▄▄▄▄▄█████[0m  [1;33m▐████[0m [1;33m ████▌[0m
   [1;33m▐███▄▄█████[0;1;33;43m█[0;1;33;40m██████▌[0m     [1;33m  [0m  [1;33m████▌[0m  [1;33m▐████▄▄▐███▄██████▌ [0m [1;33m████▌[0m  [1;33m████▌[0m [1;33m▐████▄▄▄[0;1;33;43m▓[0m
   [1;33m░[0;1;33;43m█[0;1;33;40m█████▌▀▀▀░  ▐████[0m     [1;33m [0m  [1;33m ▐████[0m [1;33m░▒███▌[0m   [1;33m██████▌▀▀▀ [0m [1;33m ▐████░  ████[0m  [1;33m████████[0m
-   [1;33m▀▀▀▀[0m         [1;33m ▀▀▀▀▀[0m        [1;33m ▀▀▀▀▀[0m  [1;33m▐▀▀▀[0m   [1;33m▀▀▀▀[0m         [1;33m ▀▀▀▀▀[0m        [1;33m▀▀▀▀▒   [0m
-
-[1;33mthis one is for[0m [1;33mthe sphere and the sphere only .. please dont rip it ..[0m [1;33mrai, ice[0m'
+   [1;33m▀▀▀▀[0m         [1;33m ▀▀▀▀▀[0m        [1;33m ▀▀▀▀▀[0m  [1;33m▐▀▀▀[0m   [1;33m▀▀▀▀[0m         [1;33m ▀▀▀▀▀[0m        [1;33m▀▀▀▀▒   [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1e877366865a6f23e50500993ad38459ff4b44981f580b38560f89cd634942d7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WAPCHUNK.ANS by Dieznyik (zxica); released in zxica and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -33,12 +33,4 @@ Write-Host '
 [30;42m▒[0;32;40m█▄▐[0;1;33;42m░░[0;32m██[0;1;33;42m░░[0;32m▀[0;30;42m░[0;32;40m█[0;1;32;42m░░[0;32m█[0;1;33;42m░░▓▓[0;30;42m░▓[0;32;40m  [0;30;44m▓▓[0;32;40m [0;33;40m [0;30;43m▓░[0;1;31;43m░[0;33m█▄▄▐[0;30;43m░░[0;33;40m██[0;1;33;43m░[0;33m█▌▀█▌ [0;31m▄▄[0;33m [0;1;31;41m▄[0;1;31;47m▓[0;30;41m░[0;31;40m░ [0;33;40m▐▀▀▀ ▀▀▀▀[0;30;43m░[0;33;40m█▀██[0;32;43m░[0;33;42m▓[0;33;40m██[0;37;43m░[0;33;47m▓░[0;37;43m██[0;34;47m░[0;37;40m▌[0m
 [32;40m [0;34;42m▄[0;30;42m░[0;32;40m█▄████[0;1;32;42m░░[0;32m█[0;30;42m░[0;32;40m██[0;1;32;42m░[0;32m██[0;1;33;42m░[0;32m▌ [0m        [30;43m▒[0;33;40m██[0;30;43m░[0;33;40m█████▀▐[0;30;43m░[0;33;40m▀▀▀[0;31;40m▄[0;1;31;41m░▓[0;1;31;47m▓[0;31m▌▀░   [0;33m   [0;30;43m▓▓[0;33;40m▄▄▄       ▀█[0;33;47m▓░[0;37;43m▓█[0;34;47m░[0;37;44m▓▒[0;34;40m▓[0m
 [32;40m [0;34;40m▄[0;32;44m▐▀░[0;34;42m░░[0;30;42m░░[0;32;40m███[0;34;42m░[0;32;44m▓[0;34;42m░▄[0;34;40m▀[0;32;44m░[0;34;42m▄[0;34;40m▀[0;30;42m▓[0;32;40m [0;32;44m▒[0;34;40m▄[0;37;40m [0;30;42m▓[0m   [30;43m▓░[0;33;40m▀[0;1;33;43m░░[0;33m██[0;33;47m▓▓[0;33;40m█▄[0;30;43m▓[0;33;40m  [0;31;40m░[0;30;41m▓[0;31;40m▀[0;33;40m▄▄███▄▄▄▄███[0;30;43m░░[0;33;40m█[0;1;33;43m░[0;33m██▄▄ [0;30;43m▓[0;33;40m▄▄█[0;37;43m░[0;33;47m▓░[0;37;43m█[0;34;47m░[0;37;44m░[0;34;47m▓[0;30;44m▒▓[0m
-[30;44m▓░[0;34;40m▀▐[0;30;44m░[0;34;42m█▄▄▄[0;32;44m▓[0;34;42m░[0;32;44m░[0;34;42m▓▓█[0;34;40m▌[0;30;42m▓▓[0m    [34;40m▀[0;30;44m▓[0m       [33;40m ▀▀▐[0;30;43m░[0;33;40m██▌▄█▄▄▄█▌▀▀▌▀[0;30;43m░[0;33;40m▓███[0;1;31;43m░░[0;33m██[0;32;43m░[0;33;42m▓[0;33;40m█████[0;30;43m░░[0;33;40m█[0;37;43m░[0;33;47m▓░░[0;37;43m█[0;37;44m▓[0;37;40m▀▀[0;30;44m▓[0;34;40m░[0;30;44m▓[0m
-
-[32;40mwooded lumber is a board located in toronto ontario! spazoid (the sysop) payed[0m
-[32;40mme 10 bucks for this.. so if you want one like it, 25 lines, creative, and [0m
-[32;40mall that shit, just let me know.. my email is [0;33;40merasmus2[0;31;40m@[0;33;40mhotmail[0;31;40m.[0;33;40mcom[0;32;40m..[0m
-
-[32;40manyways! as for the actual ansi.. its a giant ''WL'' smashed together, with a [0m
-[32;40mpicture forming the letters.. kinda like a p#1 font, although i didn''t take the[0m
-[32;40midea from there.. (this was another one of those drawn-on-paper things).. [0m'
+[30;44m▓░[0;34;40m▀▐[0;30;44m░[0;34;42m█▄▄▄[0;32;44m▓[0;34;42m░[0;32;44m░[0;34;42m▓▓█[0;34;40m▌[0;30;42m▓▓[0m    [34;40m▀[0;30;44m▓[0m       [33;40m ▀▀▐[0;30;43m░[0;33;40m██▌▄█▄▄▄█▌▀▀▌▀[0;30;43m░[0;33;40m▓███[0;1;31;43m░░[0;33m██[0;32;43m░[0;33;42m▓[0;33;40m█████[0;30;43m░░[0;33;40m█[0;37;43m░[0;33;47m▓░░[0;37;43m█[0;37;44m▓[0;37;40m▀▀[0;30;44m▓[0;34;40m░[0;30;44m▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9523e15b3d40a8074e055f8ea4e6a12612bdd951f9818ba869ef12b15c1a633c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 13-RISE1.ANS by Ville (Blend); released in 13-solo1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rising death
 # SAUCE Author: Ville
 # SAUCE Group: Blend
@@ -26,8 +26,4 @@ Write-Host '
            [1;47m▓[0;1;40m██[0;1;46m▓▓█[0;1;40m██[0;1;47m▒[0m [1;31m [0;31m▀▀▐█[0;1;31m [0;1;37;47m░▓[0;1;37;40m█████[0;1;37;47m▓[0;1;30;40m▌[0;1;31;40m [0;31m░░[0;1;31m [0m▄[1m▄▄▄▄[0m▄[1;31m [0;31m▀▀▀▀▀▀▀█[0;1;31;41m░[0;31m█[0;1;31m  [0;1;30;47m▌[0;1;37;47m▓[0;1;37;40m▀▀▀█[0;1;37;47m███[0;1;37;40m▌[0m
           [1m▒[0;1;47m▐[0;1;40m██[0;1;46m█[0;1;40m█████▄▄▄▄[0m▄  [1;47m▀[0;1;40m███[0;1;46m▓▓▓[0;1;40m█[0m▌▄[1m▄▄▄█[0;1;46m▓▓▓▓[0;1;40m█[0;1;47m█[0;1;46m▓▓[0;1;47m██▄[0m▌[1;31m [0;31m▀▌▀[0;1;31m [0m [1;47m▄[0;1;40m█[0;1;31;40m  [0m▐[1m█▓[0;1;47m██[0;1;40m▒[0m
           ▀[1;47m▀[0;1;40m█[0;1;47m▓[0;1;40m███[0;1;47m▄[0m▌▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌[0mville(blend)[1m▒█[0;1;47m▄[0;1;40m▄▄▄▄▄█[0;1;47m▌[0m   ▀[1m▀▀▀[0m
-              [1m░░░░[0m
-                     [31mrising death!#%[0m
-[31m [0m
-[37m [0;31m [0m        [31mhandle  [    [0m                     [31m][0;37m  [0;31mpassword [[0m           [31m][0m
-[37m [0;31m [0m        [31mlocation and other shit comes here, [0m'
+              [1m░░░░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1c58f7778e4faf22655b3281722c91a8e3ecface69e1803c8fcd9d0a5f1e0b8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-RE.ANS by Phorce Phed (ls-0394); released in ls-0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-96
 # Columns: 1-80
 
@@ -49,14 +49,14 @@ Write-Host '
 
                                   [1;31m6i[0;31m6·384·22[0;35mi7[0m
 
-                                [1;31mru[0;31mnning renega[0;35mde[0m
-                               [1;31msy[0;31msop: razerstri[0;35mke[0m
-                      [1;31mco[0;31m-sysops: colors, perrin, and sku[0;35mll[0m
-                                [1;31mru[0;31mnning renegade[0m
-                                  [1;31mon[0;31mline gam[0;35mes[0m
-                                  [1;31mad[0;31mult are[0;35mas[0m
-                                    [1;31mme[0;31mssag[0;35mes[0m
-                                    [1;31m24 [0;31mhou[0;35mrs[0m
+                                [1;31m  [0;31m            [0;35m  [0m
+                               [1;31m  [0;31m              [0;35m  [0m
+                      [1;31m  [0;31m                                [0;35m  [0m
+                                [1;31m  [0;31m              [0m
+                                  [1;31m  [0;31m        [0;35m  [0m
+                                  [1;31m  [0;31m       [0;35m  [0m
+                                    [1;31m  [0;31m    [0;35m  [0m
+                                    [1;31m   [0;31m   [0;35m  [0m
 
 
-                    [34m([0;1;34mc[0;34m) [0;1;37mp[0mh[1;30morce ph[0me[1md [0;34m[[0;1;37m└[0;32me[0;1;32mp[0;32me[0;1;37mΓ δ[0;32mo[0;1;32mcie[0;32mt[0;1;37mµ[0;34m]  MC[0;1;34mMCX[0;34mIV[0m'
+                    [34m [0;1;34m [0;34m  [0;1;37m [0m [1;30m       [0m [1m  [0;34m [0;1;37m└[0;32m [0;1;32m [0;32m [0;1;37m   [0;32m [0;1;32m   [0;32m [0;1;37m [0;34m     [0;1;34m   [0;34m  [0m'

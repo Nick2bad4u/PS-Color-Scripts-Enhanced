@@ -5,7 +5,7 @@
 # Source SHA-256: 4976638bd94caf1211b929b2f026f62a0eea4c00a7e1b5ff3bbc59b85b47e553
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-KSAD.ANS by nOah? (Bamboosh); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: K-sad?!?
 # SAUCE Author: nOah?
 # SAUCE Group: Bamboosh
@@ -33,7 +33,4 @@ Write-Host '
                                          [32m▀▌[0;1;32;42m░░▓▓▓░░ [0;32m█▀▀[0m     [1;30m▌▄▄▐[0;1;30;47m▓▓░░░░▀[0;1;30;40m▀[0;1;30;47m▓▓[0;1;30;40m█▄▄[0m
                                            [32m▀▀[0;1;32;42m░░[0;32m▀▀░[0;30;42m▓[0m     [1;30;40m▀▀▀▀▓▀▀▀▀▀▀█[0;1;30;47m▓▓[0;1;30;40m▌▀▀▀░░[0m
 
-[1;30m--[0m
-[1;30mhey blindsniper...here you go ;)[0m
-[1;30mi still don''t understand a shit about that name[0m
-[1;30mwtf is k-sad?..laugh at me if you want...;)[0m'
+[1;30m--[0m'

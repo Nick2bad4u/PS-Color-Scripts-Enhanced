@@ -5,7 +5,7 @@
 # Source SHA-256: b680ddb6c5d6a1841de14c364a745ea460c3557cd82d995e32ad2b7984d3972d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ_WAWO.ANS by Fastjack (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sonic's Waterworld
 # SAUCE Author: Fastjack
 # SAUCE Group: boil
@@ -47,7 +47,7 @@ Write-Host '
 [34;40m ░[0m               [34;40m░[0m          [1;34;40m▐[0;1;33;44m░[0;1;34;40m▌[0m                                             [34m▒[0m
 [34m ░[0m                           [1;34m▀[0m                            [34m░[0m                 [1;34;44m░[0m
                                                                            [1;34m▐[0;1;34;44m▓[0;1;34;40m▌[0m
- [34m░[0m                 [37m...hey, sonic, put yer''affils in here...  [0m               [1;34m▀[0m
+ [34m░[0m                 [37m                                          [0m               [1;34m▀[0m
  [34m▒[0m
 [37m [0;1;34;44m░[0m
 [1;34m▐[0;1;34;44m▓[0;1;34;40m▌[0m
@@ -56,4 +56,4 @@ Write-Host '
 
 
 [1;30m--------------------------------------------------------------------------[nfo]-[0m
-[1;30mthiz is my first requested font ever... so don''t be 2 critical !  fastjack^boil░[0m'
+[1;30m                                                                               ░[0m'

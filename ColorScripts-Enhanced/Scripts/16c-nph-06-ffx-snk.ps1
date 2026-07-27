@@ -5,7 +5,7 @@
 # Source SHA-256: c14bafee7b5c53c01855882e7a87c4d9b8c7dc2579e8f256e515dd675ba2d3a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FFX-SNK.ANS by FireFox (Nitrophusion); released in nph-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nitrophusion Promo
 # SAUCE Author: FireFox
 # SAUCE Group: Nitrophusion
@@ -63,5 +63,5 @@ Write-Host '
 [1;35mThis is just an idea that i had[0m                   =======> [1;34m▐▀▀  █▀▄[0;34m░░░▒▓▓[0;1;36m█[0;34m▓▓▒░░[0m
 [1;35mthis afternoon when i was thinking while[0m               \/   [1;34m█   █   [0;34m░▒▓[0;1;36m██[0;34m▓[0;1;36m██[0;34m▓▒░░[0m
 [1;35mmy LaTiN teacher was talking about his text.[0m              [1;34m▀▄▀  ▄█   [0;34m░░▒▓▓▒▓▓▒░░[0m
-[1;35mOh!ShiT the artpack has just been released this[0m                      [34m░░▒▒░▒▒░░[0m
-[1;35mweek-end,i must wait for the next one ...   <^---21h24---^>[0m            [34m░░░░░[0m'
+[1;35m                                               [0m                      [34m░░▒▒░▒▒░░[0m
+[1;35m                                                           [0m            [34m░░░░░[0m'

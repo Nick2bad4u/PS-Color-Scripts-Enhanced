@@ -5,7 +5,7 @@
 # Source SHA-256: 59f0b669a65bc129ff4c9355d6be2a1e1a9bff72f78df50665349ef83535fbd1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-COR1.ANS by Pushead (Eden); released in eden0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cOre
 # SAUCE Author: Pushead
 # SAUCE Group: Eden
@@ -28,24 +28,24 @@ Write-Host '
 
 
 [1;30m▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30m▒ [0;1;37mgreets and shit[0m
+[1;30m▒ [0;1;37m               [0m
 [1;30m░ ----------------------------------------------------------------------------[0m
-[1;30m  [0msince this is my first ansi for eden, i wanna give a big kick to the nuts to
-  all ya''ll out there who run the scene and keep the shit going.  over here in
-  904 there are a few fuckers i gotta say wuzzup to including modeus khahn who
-  makes some of the most killer fonts i ever seen and night blade who does sum
-  pretty cool shiznit.  uh i''d like to say thanks to lord jazz because he , to
-  me, is the god of ansi.  chromatik, you rock ass too.  i cant really say any
-  thing to the groups out there cuz, well shit, there aren''t any worth talking
-  about.  sorry bout the limited anseez-o-mine but i''ve been busy as hell. hey
-  woodstock look at this i actually made one before the deadline!  i also want
-  to say good luck to all the groups out there who make it happen and hope you
-  put out good shit !  latez
-                                                        - pushead
+[1;30m  [0m                                                                            
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                            
+                                                                 
   [1;30m----------------------------------------------------------------------------[0m
-[1;30m  [0;1;37mc[0mO[1mre - 904%259%8595 - running obvlivion/2 - sysop : shadow - call the shit[0m
+[1;30m  [0;1;37m [0m [1m                                                                        [0m
 [1;30m░ ----------------------------------------------------------------------------[0m
-[1;30m▒ [0;1;36mi[0;36mn[0;1;30mfiniti.zend.9042624090.nup:entombed.gahd:pushead.edendistro.creators.net!![0m
+[1;30m▒ [0;1;36m [0;36m [0;1;30m                                                                          [0m
 [1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 
 [1;30m  [0;1;30;47m░[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30;47m░[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄[1;30;47m░[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30;47m░[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█

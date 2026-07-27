@@ -5,7 +5,7 @@
 # Source SHA-256: 0554e445cd6a85bc1cc2abae2d70bd6cf1adcf59d266aa4d6b21b9ba40868306
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CODEFENIX-HALLOWEEN.ANS by Codefenix (Mistigris); released in mist1022 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Happy Halloween
 # SAUCE Author: Codefenix
 # SAUCE Group: Mistigris
@@ -36,11 +36,11 @@ Write-Host '
 [37;40m  [0;31;40m▐     ▓▌  █▓▌   ▐▒[0;37;40m [0;31;40m▓▀      ▌[0;37;40m       [0;31;40m°[0;37;40m        [0;31;40m▌[0;37;40m     [0;31;40m█      ██     ▀█ ███  █[0m
 [37;40m  [0;31;40m│[0;37;40m     [0;31;40m▓   ▐▓[0;37;40m     [0;31;40m▌[0;37;40m [0;31;40m▌[0;37;40m             [0;1;30;40m∙[0mƒ[1;30m∙[0;1;37mr[0;1;30m∙[0;1;37mo[0;1;30m∙[0mm[1;30m∙[0m        [31m│      ▐▌      ▌ ██▀  ▌[0m
 [37m  [0;31m°[0;37m     [0;31m▐[0;37m    [0;31m▌[0;37m       [0;31m│[0;37m                              [0;31m°       ▌[0;37m      [0;31m│ █    │[0m
-[37m        [0;31m│[0;37m    [0;31m│[0;37m       [0;31m│[0;37m     [0;1;30m∙[0m [1mC[0mo[1;30mnstructive[0;1;37mC[0mh[1;30maos [0;1;37mB[0mB[1;30mS[0m [1;30m∙[0;31m        │[0;37m      [0;31m° ▌    │[0m
+[37m        [0;31m│[0;37m    [0;31m│[0;37m       [0;31m│[0;37m     [0;1;30m [0m [1m [0m [1;30m          [0;1;37m [0m [1;30m    [0;1;37m [0m [1;30m [0m [1;30m [0;31m        │[0;37m      [0;31m  ▌    │[0m
 [37m        [0;31m°[0;37m    [0;31m│[0;37m       [0;31m°[0;37m                                      [0;31m°[0;37m        [0;31m│    °[0m
 [37m             [0;31m│[0m
-[1;30m                          https[0;1;37m://[0mconchaos[1m.[0;1;30msynchro[0;1;37m.[0;1;30mnet[0m
-                         [1;30mtelnet[0;1;37m://[0mconchaos[1m.[0;1;30msynchro[0;1;37m.[0;1;30mnet[0m
+[1;30m                               [0;1;37m   [0m        [1m [0;1;30m       [0;1;37m [0;1;30m   [0m
+                         [1;30m      [0;1;37m   [0m        [1m [0;1;30m       [0;1;37m [0;1;30m   [0m
 
 
                                  [1m▄███▄[0m

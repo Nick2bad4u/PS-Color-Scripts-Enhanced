@@ -5,7 +5,7 @@
 # Source SHA-256: fa18d3d3bf8a8c0e870666b13061dc055f537109670e3acb79e4519067fa59e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-DRUGS.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: TV is Drug
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
@@ -34,7 +34,4 @@ Write-Host '
 [37m             [0;32m■▄[0;36m▄███[0;30m█████[0;36m▐[0;1;32m█[0;32m█[0;1;32m███[0m
         [32m■[0;37m ▄▄██▄[0;32m▀▀[0;36m█[0;30m█▀▀█▀[0;32m     ▀[0;1;37m████▄▄[0m [32m■[0m
 [37m          [0;37;47m▌[0;32;40m [0;37;47m▄[0;37;40m▀                  [0;1;37;40m▀[0m [1m▀[0m
-          [36m█[0m
-
-
-[37m  the monsters in my game[0;1;37m The Creation of a Self[0m have CRT heads to um.. break.[0m'
+          [36m█[0m'

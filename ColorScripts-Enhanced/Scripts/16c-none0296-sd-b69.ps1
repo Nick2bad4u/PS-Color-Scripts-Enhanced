@@ -5,7 +5,7 @@
 # Source SHA-256: b04991442a9efe1c7f551acac75151fdb2bbb3e93f2bfb442a5c8996b9f6f750
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-B69.ANS by Sirdeath (none0296); released in none0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -22,10 +22,10 @@ Write-Host '
                  [1;31;43m▒[0;33m██▓   ▄[0;1;31;43m▀[0;33m██▀  [0;1;31;43m░  [0;33m▓░ ▀██[0;1;31;43m▀[0;33m▄   [0;1;33;43m░░[0;33m█[0;1;31;43m░[0m [1;31;43m░[0;33m██▓[0m     [1;33;43m░[0;33m██[0;1;31;43m▐[0m
                [35m■[0;33m▀[0;33;43m [0;33;40m█▄█▀▀▀▀[0m     [33;40m▀███▀[0m      [33;40m▀▀▀▀█▄██▀████[0m     [33;40m███[0;1;31;43m░[0m
              [35m▄[0m
-          [35m▄[0m       [33mwelcome to [0;1;31mblah[0;33m, the best [0;1;31mart [0;33mrelated board around here.[0m
-         [35m▀█▀    [0;33mso, if you called for [0;1;31mwarez[0;33m, or [0;1;31mx-rated gifs[0;33m, hang up.[0m
+          [35m▄[0m       [33m           [0;1;31m    [0;33m           [0;1;31m    [0;33m                          [0m
+         [35m▀█▀    [0;33m                      [0;1;31m     [0;33m     [0;1;31m            [0;33m          [0m
       [35m▄[0;1;35;45m░░[0;35m▄ ▄[0m
-     [35m▄ ▀▀■    [0;33mbesides that, [0;1;31mblah [0;33mis ran by the artist, [0;1;31msir death[0;33m.[0m
+     [35m▄ ▀▀■    [0;33m              [0;1;31m     [0;33m                      [0;1;31m         [0;33m [0m
 [33m    [0;35m▐[0;1;35;45m▄■[0;35m▄▄[0m
 [35m    [0;1;35m█[0;1;35;45m▌[0;35m██▌[0m
      [1;35m▀[0;1;35;45m▄░░[0;35m▄[0m

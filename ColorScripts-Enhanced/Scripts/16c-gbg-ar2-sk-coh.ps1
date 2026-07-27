@@ -5,7 +5,7 @@
 # Source SHA-256: d351c30626a0f867b745775874fae3430caa40f2de63cdce87c25490ff459466
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-COH.ANS by SiKE (tRASH!); released in gbg-ar2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Crusaders of Hell logo
 # SAUCE Author: SiKE
 # SAUCE Group: tRASH!
@@ -19,7 +19,7 @@ Write-Host '
 [32m.s$$[0;37m [0;32m$$$Ss.[0;37m [0;1;34m$$$$$$[0;32m$$$$$$[0;1;34m$$[0m [1;34m$$$$$$[0;32m.s$$[0;37m [0;32m$$$Ss.[0;1;34m$$[0m [1;34m$$$$$$[0;32m.s$$[0;37m [0;32m$$$Ss.[0;37m [0;1;34m$$$$$$[0m [32m$$$Ss.[0m
 [32m$$$$[0;31m [0;32m$$$$$$[0;37m  [0;32mssss[0;37m [0;32m$$$$$$[0;1;34m$$-ssssss[0;32m$$$$[0;37m [0;32m$$$$$$[0;1;34m$$[0m [1;34m$$$$$$[0;32m$$$$[0;37m [0;32m$$$$$$[0m   [32m$$$$[0;37m [0;32m$$$$$$[0m
 [32m$²"²[0m   [1;34m$SS$[0m  [32mS²"²[0;37m [0;32m$²""²$[0m   [1;34m$S²²S$[0;32mS²"²_$²""²$[0;1;34m$S[0m [1;34m$S²²S$[0;32m$²"²s[0;37m  [0;1;34m$SS$[0m   [32m$$$$-ys%ssy[0m
-[1;32msS$S[0m   [1;36msSSs[0m  [1;32msS$S[0m [1;32msS$$Ss[0;1;36m$$[0m [1;36msS$$Ss[0;1;32msS$S[0m [1;32msS$$Ss[0;1;36msS[0m [1;36msS$$Ss[0;1;32msS$S[0m [36m  [0;1;36msSSs[0m        [1;32msS$SSs[0m
+[1;32m    [0m   [1;36m    [0m  [1;32m    [0m [1;32m      [0;1;36m  [0m [1;36m      [0;1;32m    [0m [1;32m      [0;1;36m  [0m [1;36m      [0;1;32m    [0m [36m  [0;1;36m    [0m        [1;32m      [0m
 [1;32m$$$$[0m [1;32m$$$$$$[0m  [1;32m$$$$[0m [1;32m$$$$$$[0;1;36m$$_$²"""''[0;1;32m$$$$[0m [1;32m$$$$$$[0;1;36m$$_$²"""''[0;1;32m$$$$[0m [1;32m$$$$$$[0m   [1;32m$$$$[0m [1;32m$$$$$$[0m
 [1;32m`²S$_$²"""''[0;1;30m [0m [1;32m`²S$_$²"""''[0;1;30m,ssss$$$,[0;1;32m`²S$[0;1;36m [0;1;32m$²"""''[0;1;30m,ssss$$$,[0;1;32m`²S$_$²"""''[0;1;30m;S.[0;1;32m`²S$_$²"""''[0m
 [1;30m$s.[0m  [1;30m,s$$$$$$$s.[0m  [1;30m,s$$$$$$$$S²""[0;32m_[0;1;30m"²² s$S²""²"""²S$$$$$Ss. .;$$$$$$$$s. [0m [1;30m,s$$$$[0m
@@ -34,7 +34,7 @@ Write-Host '
 [1;30m$$$$$$$$$$$$$$$$$$$$$''[0;32m.s$$[0;37m [0;32m$$$Ss.[0;1;34m$[0;1;30m [0;1;34m$$$$$$[0;32m$$[0;37m [0;1;30m$$[0m [1;34m$$$$[0m [1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;30m$$$$$$$$$$$$$$$$$$$$$[0m [32m$$$$[0;37m [0;32m$$$$$$[0;1;34m$s[0m [1;30mss[0m [32m$$$$[0;37m [0;1;30m$$[0m [1;34m$²"²[0m [1;30m$$$$$$$$$$$²"'' `"²$$$$$$$$[0m
 [1;30m$$$$$$$$$$$$$$$$$$$$$[0m [32m$²"²[0;1;32m_[0;32m$²""²$[0;1;34mS[0m [1;30m²²²[0m [32m$²"²[0;37m [0;1;30m$$[0m [1;36msS$S[0m [1;30m""""""²$$$$  [0;1;32mW[0;1;36mh[0;1;34mq[0;1;30m  $$$$$$$$[0m
-[1;30mSSSSSSSSSSSSSSSSSSSSS[0m [1;32msS$S[0m [1;32msS$$Ss[0;1;36ms[0m [1;36m$$$$$$[0;1;32m$S[0m [1;30m²²[0m [1;36m$$$$[0m [1;36m$$$$$$[0m [1;30mSSSSSs. .sSSSSSSSSS[0m
+[1;30m                     [0m [1;32m    [0m [1;32m      [0;1;36m [0m [1;36m      [0;1;32m  [0m [1;30m  [0m [1;36m    [0m [1;36m      [0m [1;30m                   [0m
 [1;30m!!!!!!!!!!!!!!!!!!!!![0m [1;32m$$$$ $$$$$$[0;1;36m$_$²"""''[0;1;32m$$[0m [1;32m$$$$$$[0;1;36m$_$²"""''[0;1;30m,!!!!!!!!!!!!!!!!!!![0m
 [1;30m:::::::::::::::::::::,[0;1;32m`²S$ $²"""''[0;1;30m:::::,[0;1;32m`²S$_$²"""''[0;1;30m,::::::::::::::[sike/tRASH!][0m
 [1;30m..............................................................................[0m'

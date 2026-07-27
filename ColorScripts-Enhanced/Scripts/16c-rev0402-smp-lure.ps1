@@ -5,7 +5,7 @@
 # Source SHA-256: 137e3eb09fe2a199997ab4229aded31f8d8a146080611d389f0cf96c670d964a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-LURE.ANS by Shrimp (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lure
 # SAUCE Author: Shrimp
 # SAUCE Group: Revival
@@ -42,9 +42,4 @@ Write-Host '
 [37m▀▀[0;1;37;47m▀■[0m▄▄▌▄[1;47m▄█▄[0m▄▄         ▐▄▄▄▄[36m [0;37m▄[0m     [37m [0;1;37mLure[0m   [1;33;46m [0;36m▀▀[0m        [37m▄[0m     [1;33m  [0m  [36m▀▀▀▀▀▀▀▀[0m        [37m▐[0m
 [37m▄▄▄▄[0;1;37;47m [0m▀▀▀█[1;47m▀[0;1;33;40m█[0;1;37;40m██[0;1;37;47m▓░[0m▄▄▄ ▐[1;47m▄[0;1;33;40m▄[0m▐[1;47m▀█▄[0m▄▄  ▄▄█              ░[30;47m▓[0;37;40m▄▌▄[0;1;37;47m░▓▄[0m█▄▄   ▄           ▄ [1;33m [0m▄[1;47msm[0;1;37;47mp[0m
           [1;33m░[0m
-─────<cut>──────────────────────────────────────────────────────────────────────
-This is for AVG and his group ''Lure''. I like''m. Alot.
-ANSI is somewhat influenced by the most inspiring, creative and talented artist
-I''ve met during my scene life- [1mMr4tune[0m. He REALLY should be drawing again.. =)
-
-Shrimp (Itamar@digital-artist.org)[0m'
+─────<cut>──────────────────────────────────────────────────────────────────────[0m'

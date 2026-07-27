@@ -5,7 +5,7 @@
 # Source SHA-256: 0435bb7bffdd2252eb267548d4ffb52e2d1e10c0e55d7c569e363a983b26ca2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5m-enighdr.ans by Smooth (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Enigma Doc Header
 # SAUCE Author: Smooth
 # SAUCE Group: Legacy Krew
@@ -17,7 +17,7 @@
 
 Write-Host '
 [31m ------------------------------------------------------------------------------[0m
-[31m [0;1;37;41m             Variations of Enigma 1/2 BBS Software Logo Doc Headers           [0m
+[31m [0;1;37;41m                                                                              [0m
 [31m ------------------------------------------------------------------------------[0m
 
 

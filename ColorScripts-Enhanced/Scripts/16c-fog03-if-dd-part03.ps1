@@ -5,7 +5,7 @@
 # Source SHA-256: da19320052456c1bb9cfe3d3d4265c136f8d58c7e5580c457a4cfe5f0fbcd28e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IF-DD.ANS by infernal.flames (fog03); released in fog03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DREAM DEMENSION
 # SAUCE Author: infernal.flames
 # SAUCE Date: 19951015
@@ -37,11 +37,4 @@ Write-Host '
                     [34m [0;37m [0;34m▓▀   [0;37m [0;34m [0m          [34m  [0;1;30m          [0m
 
 
-                    [1;34m   [0m   [1;34mD.R.E.A.M  D.E.M.E.N.S.I.O.N[0m
-
-                   [1;30mAnsi by Infernal Flames of FOG Productionz.[0m
-                             [1;30m1995(C) FOG Productionz.[0m
-
-
-
-                             [1;30m      [0m'
+                    [1;34m   [0m   [1;34mD.R.E.A.M  D.E.M.E.N.S.I.O.N[0m'

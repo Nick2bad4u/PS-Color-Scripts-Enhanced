@@ -5,7 +5,7 @@
 # Source SHA-256: ce23faf6bb8385d20a748282b8fc5f440235661c89de0e1d46767e9645c4dd04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-1984.ANS by rorshack (Maiden Brazil); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: newspeak rules (?!)
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -32,6 +32,4 @@ Write-Host '
                    [1;30m▐▄▄▄▐████▓▓░[0m [31m██[0;1;31;41m░▓[0;1;31;40m█▄██████████[0;1;31;45m▓[0;1;35;40m░[0;1;35;45m▓█████▓[0;1;35;40m▄▄[0m
 
 
-                                     [1m1984.[0m
-
-                         [30mthe big brother watches you.[0m'
+                                     [1m1984.[0m'

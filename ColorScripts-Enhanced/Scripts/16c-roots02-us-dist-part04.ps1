@@ -5,12 +5,12 @@
 # Source SHA-256: 97d3f4f7bbe50a01ed26249250a79279a6171a36bbd898c5ac0729114bad0b70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-dist.ans by Kargus + Frosty + Avenging Angel (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 132-171
 # Columns: 1-80
 
 Write-Host '
-                   [1;30m. ..[0;1;37mt[0me[1;30mlnet [0;1;37mt[0mo[1;30m [0;1;37mt[0mh[1;30me [0;1;37md[0mi[1;30mstortion [0;1;37mb[0mi[1;30mtches.. .[0m
+                   [1;30m    [0;1;37m [0m [1;30m     [0;1;37m [0m [1;30m [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m         [0;1;37m [0m [1;30m         [0m
  [31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░ ░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0;37m [0;31m░[0m
 [31m░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓░▓[0m
 [31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0;31m▓[0;1;31;41m░[0m
@@ -44,9 +44,4 @@ Write-Host '
 [1;31;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;31;41m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-[31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
-
-                               [1;37mt[0me[1;30mlnet://d1st.org[0m
-                               [1;30m  [0;1;37mo[0m+ [1mj[0ma[1;30mck[0;1;37mp[0mh[1;30mlash[0m
-
-[31m:[0;1;31m:[0;31m:[0;1;30m [0;1;37mp[0mi[1;30mc [0;1;37mo[0mu[1;30mtline; [0;1;37mk[0ma[1;30mrgus/[0;1;37ms[0mh[1;30mading[0;31m [0;1;30m&[0;31m [0;1;37ml[0mo[1;30mgo; [0;1;37mf[0mr[1;30mosty/[0;1;37ms[0mh[1;30mading[0m [1mt[0mo[1;30muchups[0m [1;30m&[0m [1md[0me[1;30mvil; [0;1;37ma[0mv[1;30mg [0;31m:[0;1;31m:[0;31m:[0m'
+[31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m'

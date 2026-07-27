@@ -5,7 +5,7 @@
 # Source SHA-256: 7e3e0787e8b3cd77a28733e829a41c6dedc2436d3c8f6251c1117da412780dab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-SAT7.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: saturn seven.
 # SAUCE Author: poti.
 # SAUCE Group: phat.
@@ -32,13 +32,11 @@ Write-Host '
 [37m [0;1;33;41m▓██[0;1;33;40m▌[0m   [1;33;41m███▓[0;31m [0;1;33;41m▓██▓[0;31m  [0;1;33m▄[0;1;33;41m▓██[0;1;33;40m▀[0;31m [0;1;33;41m▓███[0m   [1;33;41m▓██[0;1;33;40m█[0m [1;33;44m███[0m  [31m [0;1;33;41m███▓[0m   [1;33;41m▓█[0;1;33;40m██ [0;1;33;41m█[0;1;33;40m██[0;1;33;41m▓[0;1;33;40m   ▐███▌[0;1;33;41m▓[0;1;33;40m█[0;1;37;40m█[0;1;33;40m█[0m   [1;33;41m▓███[0;1;33;40mo[0m
 [1;33m▄███▄▄▄▄▄[0;1;37;41m█[0;1;33;40m█▌ ▀▀█▄▄█████▀ ▀█[0;1;37;40m█[0;1;33;40m▄▄▄▄▄█▀▀[0;1;34;40m [0;1;33;44m█[0;1;37;44m██[0m  [1;33m ▀██▄▄▄▄██[0;1;37m█[0;1;33m▀ ▀▐█▀▀ ▄███▀ ▀▀█▌   ▐███▄[0m
 
-[1;33m     [0m   [1;33m  saturn 7 - ''[0;31mwhen we heard a sound of thunder[0;1;33m'' - tempo (op)[0m
+[1;33m     [0m   [1;33m              [0;31m                                [0;1;33m              [0m
 
 
 
 
 
 
-[1;30m------------------------------------------------------------------------------- [0m
-[1;30mthis one was a real quicky done during x-files for scope^tkl ''cos he needed a [0m
-[1;30mlogo for his ansi. actually he neither liked nor used it. fu! ;)[0m'
+[1;30m------------------------------------------------------------------------------- [0m'

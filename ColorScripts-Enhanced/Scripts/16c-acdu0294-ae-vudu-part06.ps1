@@ -5,7 +5,7 @@
 # Source SHA-256: 43ea17844e27c58ec0f89f78486c27ae093c67235a5112b67e77ddd0ca21a3e6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AE-VUDU.ANS by Alter Ego (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ACiD - On Top In 1994
 # SAUCE Author: Alter Ego
 # SAUCE Group: ACiD Productions
@@ -61,7 +61,5 @@ Write-Host '
               [1;33;40m█[0;1;33;43m▓██[0;1;33;40m▀[0;1;37;40m▀[0m           [1;37;40m▀[0;1;33;43m██▓[0m         [1;37;40m▐[0;1;33;40m█[0;1;33;43m▓▓[0;1;33;40m██[0;1;33;43m▓[0;1;33;40m▀[0;1;37;40m▀ [0;1;37;42m  [0;1;30;42m░░▒▒[0;1;37;40m▀▀[0;1;33;40m▀▀█[0;1;33;43m▓██[0;1;37;40m█▀▀[0m
               [1;37;40m▀[0;1;33;40m▀[0m                 [1;37;40m▀[0m           [1;37;40m▀[0;1;33;40m▀▀[0m       [1;33;42m  [0;1;30;42m░░▒▒▓▓[0;1;30;40m▄▄▄Ae[0m
                                                         [1;30;42m  ░░▒▒▒▓[0;1;30;40m▀[0m
-                           [1;37;40mWould you like to be on top?  [0;1;37;42m  [0;1;30;42m░░[0;32m▀[0m
-                                                          [32;42m [0;32;40m▀[0m
-[37;40mAlter Ego[0m
-[37;40mACiD Productions [0;1;30;40m- [0mJanuary 1994[0m'
+                           [1;37;40m                              [0;1;37;42m  [0;1;30;42m░░[0;32m▀[0m
+                                                          [32;42m [0;32;40m▀[0m'

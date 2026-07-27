@@ -5,7 +5,7 @@
 # Source SHA-256: ef60361ab0ff8d0a7dbdff4edd363a7c5cd1cf8504063335984adfef79485dfa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MBSACID.ANS by Zed Nitro (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -37,10 +37,10 @@ Write-Host '
 [37;40m [0;1;30;40m░▓▓▓▓▀▀▀▀▀[0m          [1;37;47m▒[0;1;34;44m▓ [0;34;47m██[0;34;40m██[0;1;37;44m▄ [0;34m█[0;34;44m [0;37;44m▄ [0;34;47m█████[0;37;40m█ [0;1;37;47m▒[0;1;34;44m▓             ░░[0;44m▄[0;40m▀ [0;1;40m▀[0;1;44m▄[0;1;34;44m░░ [0;34;47m████████████▀[0;37;40m▀[0m
                      [1;37;47m░[0;1;34;47m▀▀[0;34;47m▀▀▀[0;37;40m█ [0;1;37;40m▀[0;1;37;44m▄[0m▀ [1m█[0;44m▄▄▄▄▄[0;40m█ [0;1;47m░[0;1;34;47m▀▀[0;44m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;40m▀[0m     [1;40m▀[0;1;44m▄[0;34;47m▀▀▀▀▀▀▀▀▀▀▀▀[0;37;40m▀[0m
                      [1;30m┌──────────────────────────────────────────────────[0m────[1m───┐[0m
-     [1;34mZ[0;34med [0;1;34mN[0;34mitro[0m       [1;30m│[0;1;37m· [0mMy Boomin'' System [1m· [0mFLT IBM Courier HQ [1m· [0mFLT Console [1m· │[0m
-[1;34m<[0;34mAC[0;1;34mi[0;34mD[0;1;34m> [0;34mProductions   [0;1;30m│[0;1;37m· [0mMinistry Amiga Canadian HQ [1m· [0m1.5 gigs  [1m· [0m0 Day wares [1m· [0m│
-                     [1;30m│[0m         sysops: Blade Runner [1;30m/ [0mSpaceman Spiff           [1;30m│[0m
-                     [1;30m│[0m       Co''s: Shadow Master  [1;30m/ [0mThe Hawk  [1;30m/  [0mRadar         [1;30m│[0m
+     [1;34m [0;34m   [0;1;34m [0;34m    [0m       [1;30m│[0;1;37m  [0m                  [1m  [0m                   [1m  [0m            [1m  │[0m
+[1;34m [0;34m  [0;1;34m [0;34m [0;1;34m  [0;34m              [0;1;30m│[0;1;37m  [0m                           [1m  [0m          [1m  [0m            [1m  [0m│
+                     [1;30m│[0m                              [1;30m  [0m                         [1;30m│[0m
+                     [1;30m│[0m                            [1;30m  [0m          [1;30m   [0m              [1;30m│[0m
                      [1;30m│ [0;1;37mNode 1: [0m514-937-2005  [1mNode 2: [0m514-937-2909 [1m· 16.8k Dual [0;1;30m│[0m
                      [1;30m│ [0;1;37mNode 3: [0m514-937-1413  [1mNode 4[0m: 514-937-0804 [1m· 14.4k HST  [0;1;30m│[0m
                      [1;30m└─────────────────────────────────────────────────────────┘[0m'

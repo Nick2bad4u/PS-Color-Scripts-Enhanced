@@ -5,7 +5,7 @@
 # Source SHA-256: 3482dea163e13ba5f57d45233d7ba87333436c6628388c500f2f07fe5a7e2e57
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CDI.ICE by Halaster + Slothy + Boa (The Logomafia); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ode to CDi
 # SAUCE Author: boa.halaster.slothy
 # SAUCE Group: The Logomafia
@@ -32,9 +32,7 @@ Write-Host '
                [30;45m▓▒[0m [30;44m▓[0m [34;40m░[0;30;44m▒[0;34;40m░ ░[0;1;34;44m▒[0;34;46m▒[0;1;36;40m░ [0;34m▐[0;1;34;44m░░[0;34m▄[0;37m▒[0;34m▄   ░ ▄▀[0;30;44m▓[0m  [30;44m▀[0;37;40m▒[0;1;30;40m░[0;1;34;44m░░[0;34m▌ [0;1;36m░[0;34;46m▒[0;1;34;44m▒[0m [30;44m▓[0m   [30;45m▒▓[0m
                 [35;40m░[0;30;45m▓[0m   [30;44m▓[0m [34;40m░[0;1;34;44m░[0;34;46m▓[0;36;40m░   [0;34;40m▀[0;30;44m░[0;34;40m▀ ─ ──────── ─ ▀[0;30;44m░[0;34;40m▀   [0;36;40m░[0;34;46m▓[0;1;34;44m░[0;30;44m▒[0;34;40m░ [0;30;45m▓[0;35;40m░[0m
                       [34;40m░▓[0;1;34;40m░[0;34m░[0m     [30;44m▓[0m   [1;34;40mcool dudes   [0;30;44m▓[0m     [34;40m░[0;30;44m▒░[0;34;40m░[0m
-                       [30;44m▓▓[0m  [34;40mboa    [0;1;34;40mincorporated    [0;34mhal  [0;30;44m▓[0;34;40m░[0m
+                       [30;44m▓▓[0m  [34;40m       [0;1;34;40m                [0;34m     [0;30;44m▓[0;34;40m░[0m
                      [34;40m░[0m     [34;40mslo··∙─ ────────── ─∙··thy[0m
 
-                                      [1;30;40m- -------- ------------------ ------[[0;1;37;40me[0mo[1;30mf][0m
-[1;30m   This has been a joint "[0;1;31mF[0;31mire [0;1;30mn [0;1;34mi[0;34mCE[0;1;30m" production courtesy of the LogoMafia:[0m
-                  [1;37mS[0mi[1;30mr [0;1;37mH[0ma[1;30mlaster, [0;1;37mL[0mo[1;30mrd [0;1;37mS[0ml[1;30mothenator & [0;1;37mB[0mo[1;30mAsaurus.[0m'
+                                      [1;30;40m- -------- ------------------ ------[[0;1;37;40me[0mo[1;30mf][0m'

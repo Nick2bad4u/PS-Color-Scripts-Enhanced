@@ -5,7 +5,7 @@
 # Source SHA-256: b12cf6707b5e875997582dd2f2c67c34178327fd7ea482ad0de833a46a5990c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZB!COL30.ANS by Zubfatal (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -37,11 +37,10 @@ Write-Host '
 [1m$$$$$$$$$$$$$ [0;32m$$$$$$$$$$$$$$$$$$ [0;1;37m$$$$$$$$$$$[0m$$''[1;30m.d$$$$$$$$$$$$$$$$$$$$$''[0m.$$[1m$$$$$[0m
 [1m$$$$$$$$$$$$$ [0;32m$$$$$$$$$$$$$$$$$$ [0;1;37m$$$$$$$$$²²²[0m''[1;30m.$$$$$$$$$$$$$$$$$$$$$$''[0m.d[1m$$$$$$$[0m
 
-             * [1mansi2askii conversion[0m,[1m orig[0m.[1m ansi by magnatop[0m^[1meclipse[0m
+               [1m                     [0m [1m     [0m [1m                 [0m [1m       [0m
 
 
     [1m__\/__  [0;1;30m.----------------------------------------.[0m       [1;30m.-( [0mmade for [1;30m)-.[0m
 [1;30m.--[0;1;37m<_ oO _>[0;1;30m-┤[0m [1mdunno [0m..                          [1;30m.----┴-------┴--------------┴-.[0m
 [1;30m|---[0;1;37m(_\/_)[0;1;30m--|----------┬-┬--------------------┬-┤[0m [1meveryone [0m..                 [1;30m|[0m
-[1;30m└-┐  [0;1;37m`--''   [0;1;30m└( [0mtitle [1;30m)-'' `-( [0mrequested: [1mno![0m [1;30m)-'' `-----------------------------''[0m
-'
+[1;30m└-┐  [0;1;37m`--''   [0;1;30m└( [0mtitle [1;30m)-'' `-( [0mrequested: [1mno![0m [1;30m)-'' `-----------------------------''[0m'

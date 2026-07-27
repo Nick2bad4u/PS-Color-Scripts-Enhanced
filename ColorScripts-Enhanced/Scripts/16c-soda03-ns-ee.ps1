@@ -5,7 +5,7 @@
 # Source SHA-256: 3cff70f51457de7a71ea40d3c9e501d3a19baeb94f05c11a75d4ca1caead59e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NS-EE.ANS by Ansichrist (soda03); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -35,5 +35,4 @@ Write-Host '
 [33m [0;1;30;43m▓[0;33m [0;1;30m▐[0;33m   [0;1;30m▐[0;33m [0;1;31m          [0;33m▐[0;1;33;43m░░[0;33m▓░[0;37m▓[0;1;37m▄▄[0;1;37;47m▄[0m▄[1;37;47m▄[0;1;37;40m█████[0;1;37;47m [0;1;37;40m [0m█[1;37m████[0;1;37;47m▄[0m▄[1;37m [0m▄[1;37;47m▄[0;1;37;40m████[0;1;37;47m▄[0m▓[33m░▓[0;1;33;43m░[0;33m▌[0;1;31m [0m [31m▐[0;1;31;41m░[0;31m██[0;1;33;41mopshun 10!%@..[0;31m███[0m
 [33m [0;1;30m▌[0;33m [0;1;30m▐[0;33m   [0;1;30m▐[0;33m [0;1;31m         [0;33m░▓[0;1;33;43m░░[0;33m▌[0;37m▐[0;1;37;47m▐[0;1;37;40m██████████▓[0;1;37;47m▄[0;1;37;40m███████[0;1;37;47m▄[0;1;37;40m▓███████[0m▌[33m▐[0;1;33;43m░[0;33m [0;1;31m [0;31m░▓[0;1;31;41m░[0;31m█[0;1;37;41m►[0;1;33;41mbacdafucup...[0;31m███▓[0m
 [33m [0;1;30m▌ns.  ▐[0;33m [0;1;31m          [0;33m▐[0;1;33;43m░░[0;33m▄ [0;37m▀[0;1;37;47m▀[0;1;37;40m▓▓█████[0;1;37;47m▀[0m▀░▀[1;37;47m▀[0;1;37;40m█████[0;1;37;47m▀[0m▀░▀[1;37;47m▀█[0;1;37;40m██[0;1;37;47m▀[0m▓░[33m▐▌ [0;31m░[0;30;41m░[0;31;40m▓[0;30;41m_\ () |) /\ |''()|''░[0;31;40m▓[0m
-[37;40m>>nipsnapscut-------------------------------------------------------------------[0m
-[37;40mblender-entry remix.. =) btw. that logo says "e"...[0m'
+[37;40m>>nipsnapscut-------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2d4902f8bc46a853ac0cdeae302a4a3db9f8d9bb90857c7599adb1466a206da5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-ATTAK.ANS by caynan (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: massive attack!
 # SAUCE Author: caynan
 # SAUCE Group: fbk
@@ -59,7 +59,7 @@ Write-Host '
 [1;30m-+-([0;1;37mc[0mu[1;30mt)-----------------------------([0;36mc[0;1;36mu[0;36mt[0;1;30m)------------------------------(c[0mu[1mt[0;1;30m)-+-[0m
       [36m ▄ [0m
       [36m▀[0;1;36;46m▓[0;36m▀ ▄▄[0;1;36m▄[0;1;36;46m▄  ▄          ░░                [0;36m█████████████████[0;1;36;46m░[0;36m██▄▄▄  [0;37m [0m
-       [36m▄█[0;1;36;46m▄▀▀[0;30;46m  i painted this ghetto-king for the board of a good[0;34;46m░[0;1;36;46m [0;30;46m [0;1;36;46m▄[0;30;46m [0;1;36;46m░[0;36m▄[0m
-      [36m▐█[0;1;36;46m▓▌[0;30;46m [0;34;46m░[0;30;46m    friend of mine - for crazy l''s massive attack![0;36;46mll[0;30;46m  [0;1;36;46m░▐▌▓[0;36m█▌[0m
-       [36m▀█[0;1;36;46m▀[0;30;46m [0;1;36;46m■[0;30;46m   it''s a well designed pb... give him a call... :)[0;1;36;46m ▄▄▓▀ [0;36m█▀ ▄ [0m
+       [36m▄█[0;1;36;46m▄▀▀[0;30;46m                                                    [0;34;46m░[0;1;36;46m [0;30;46m [0;1;36;46m▄[0;30;46m [0;1;36;46m░[0;36m▄[0m
+      [36m▐█[0;1;36;46m▓▌[0;30;46m [0;34;46m░[0;30;46m                                                  [0;36;46m  [0;30;46m  [0;1;36;46m░▐▌▓[0;36m█▌[0m
+       [36m▀█[0;1;36;46m▀[0;30;46m [0;1;36;46m■[0;30;46m                                                   [0;1;36;46m ▄▄▓▀ [0;36m█▀ ▄ [0m
         [1;30m [0;36m ▀▀▀▓█[0;1;36;46m                               [0;36m█████████[0;1;36;46m ░▒ ■  ▀▀[0;36m█[0;1;36;46m [0;36m▀▀ [0;1;30m  [0;36m▀[0;1;36;46m▀[0;36m▀[0;37m [0;1;30m     [0m'

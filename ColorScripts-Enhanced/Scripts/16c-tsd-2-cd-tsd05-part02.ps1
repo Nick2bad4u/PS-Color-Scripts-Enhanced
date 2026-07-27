@@ -5,7 +5,7 @@
 # Source SHA-256: 0880ac4bdaf965922ab675a2157e59e421446df78d4ee0978ee638c3e9789f45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-TSD05.ANS by Drakula (tsd-2); released in tsd-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 48-95
 # Columns: 1-80
 
@@ -46,10 +46,10 @@ Write-Host '
                          [1;37;40m[T·[0m·ε·[1;30m·R··R··Θ··R··ç··Θ·[0m·R·[1m·P][0m
 
 
-         [1m■ Z[0m¥[1;30mzΘP: LΘrD $Æt[0mÆ[1m∩ ■ ç[0mΘ[1;30m-Z¥z: DRÆkU[0ml[1mÆ ■ R[0mε[1;30mMΘTε: THÆ HΘT Θ[0m∩[1mε ■[0m
-            [1m■ 9[0mk[1;30m6 - 28k8 ß[0mp[1m$ ■ R[0mU[1;30m∩∩¡∩'' Pß 2.01 HεÆV¥L¥ çU$TΘm¡z[0mε[1md ■[0m
-       [1m■ T[0m$[1;30mD WH[0;1;37mq ■ H[0mΘ[1;30mD CΘuR¡εrz W[0mh[1mq ■ R[0mÆ[1;30mD¡CÆL D¡$T[0mR[1mΘ ■ D[0mε[1;30mεP WÆTεRz D¡[0m$[1mT ■[0m
-                        [1m■ ∩[0mu[1;30mMßÆ: +32 (0)14 FU CK [0mU[1m! ■[0m
+         [1m■  [0m [1;30m             [0m [1m  ■  [0m [1;30m           [0m [1m  ■  [0m [1;30m               [0m [1m  ■[0m
+            [1m■  [0m [1;30m          [0m [1m  ■  [0m [1;30m                              [0m [1m  ■[0m
+       [1m■  [0m [1;30m    [0;1;37m  ■  [0m [1;30m            [0m [1m  ■  [0m [1;30m          [0m [1m  ■  [0m [1;30m            [0m [1m  ■[0m
+                        [1m■  [0m [1;30m                     [0m [1m  ■[0m
 
 
 

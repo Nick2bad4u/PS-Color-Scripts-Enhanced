@@ -5,7 +5,7 @@
 # Source SHA-256: 081ced45da550ada74b7e863a88afa9f42fd30e204f8ca6897be74b65ebbb9df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SQR!NIP1.ANS by square (rare!ascii); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nipple (damn you psylock =)
 # SAUCE Author: square
 # SAUCE Group: rare!ascii
@@ -19,8 +19,8 @@ Write-Host '
                      [1;30m -[0m  [1;30m -[0m [1;30m-┴╫┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴╖[0m
  [1;30mNipple[0m [1;30m                [0m      [1;30m║[0m [33m|[0;1;31m|[0;33mi|&&P*[0;1;30m└[0;33m²ⁿ[0;1;30mⁿ²┘[0;33m*[0;1;30mY[0;33m$$$$lll[0;1;31m|||||llS[0;33mg[0;1;30m,[0m`╚T|[1;34m|i$$[0;34m$li[0;1;30ml[0m [1;30m║[0m
                               [1;30m║[0m [1;31ml|[0;33ml|l[0;1;30ml [0m   _.,,_   [1;30m`[0;33m°[0;1;30m²[0;33m╚[0;1;30m*[0;33mYllllllll[0;1;31m||[0;33mb[0;1;30m,[0m`T[1;34m|i$l$[0;34m$$[0;37m [0;1;30m│[0m
- [1;30mYou don''t need eyes to see,[0m  [1;30m║[0m [33m||i$i$[0;1;30m,[0;33m  [0;37m`Tg[0;1;37ml$llS[0mg,     [33m [0;1;30m`^[0;33m°²[0;1;30m┘[0;33mT$$ll[0;1;31m|[0;33mb[0;1;30m,[0;1;34m`Tii$l[0;34ml[0;37m [0;1;30m| [0m
- [1;30myou need ...[0m                 [1;30m│[0m [1;31m||l[0;33ml||$Ss[0;1;30m,[0;33m [0;1;30m`[0mT[1mll$[0m$''[34m,d[0;1;34mⁿ  [0;1;31mg[0;1;30m,[0m²*[1mg▬[0m,_ [1;30m`[0;33m°[0;1;30m┘[0;33mY[0;1;31m|l[0;33mb[0;1;30m,[0;1;34m`Ti$l[0m [1;30m│[0m
+ [1;30m                           [0m  [1;30m║[0m [33m      [0;1;30m [0;33m  [0;37m   [0;1;37m     [0m       [33m [0;1;30m  [0;33m  [0;1;30m┘[0;33m     [0;1;31m [0;33m [0;1;30m [0;1;34m      [0;34m [0;37m [0;1;30m  [0m
+ [1;30m            [0m                 [1;30m│[0m [1;31m   [0;33m      [0;1;30m [0;33m [0;1;30m [0m [1m   [0m  [34m  [0;1;34m   [0;1;31m [0;1;30m [0m  [1m ▬[0m   [1;30m [0;33m [0;1;30m┘[0;33m [0;1;31m  [0;33m [0;1;30m [0;1;34m     [0m [1;30m│[0m
                               [1;30m|[0m [1;31m|||il||[0;33m$$$b[0;1;30m,_`[0m°Y$,[34m`[0;1;34m*[0;1;30m.[0m,[1mg[0;1;31mlⁿ[0;1;30m''[0;31m [0;37ml[0;1;37m$llS[0mg▬[1;30m.[0;33m_[0;1;30m`┘[0;33mT[0;1;31m$[0;33mb[0;1;30m,[0;1;34m`Tl[0m [1;30m║[0m
                               [1;30m:[0m [1;30m|[0;1;31m;|||ii|[0;33m|$&&Ss[0;1;30m,_`[0;1;37m°[0m┘▬_  _,▬d[1m$ll$[0m$P[1m╝[0m`    [1;30m`┘[0;33mTb[0;1;30m,[0;1;34m`[0m [1;30m║[0m
                                 [1;30m`;|:[0;1;31m;|il||[0;33m$$$&ll[0;1;30mSg,  `°[0;1;37mⁿ╨[0m╨╨╨²°`  [1;30m_,._[0m   [1;30m l[0;33m$$b[0;37m [0;1;30m║[0m
@@ -35,6 +35,6 @@ Write-Host '
 [1;30m│   [0m &[1m§[0m§[1;30m:[0m   [1;30m`[0m7[1m§§[0mb[1;30m,[0m7[1m§§[0mb[1;30m,[0m§[1m§§l§§[0mS[1mg,.[0m.[1m,▬[0md[1m§l§§S[0ms[1m,.[0m.[1m,▬[0md[1m§l§[0m§[1;30m''[0m    [1m`[0m7[1m§§l§[0m7²^[1m`[0;1;30m`[0m  [1;30m_[0;1;37m,┐[0m [1;30m  │║[0m
 [1;30m|   :[0;1;37m§§[0m§     [1;30m `[0m7[1m§§§§§[0m§7[1m§§[0ml[1m§§[0ml[1;30m`[0m°[1m┘[0m╩[1m╩└[0m²[1m°[0;1;30m`[0m§[1m§[0ml`[1m°┘╩[0m╩[1m└²°`[0m│[1m§§[0mS%g┬[1m▬┬[0md§[1m§§l§[0mSg┬┬gS[1m§[0m7[1m''[0m [1;30m :║║[0m
 [1;30m:   [0;1;37m└''[0;1;30m`[0m         [1;30m`[0m°┴┴²[1;30m''[0m 7┘[1;30m''[0;1;37m└[0m''[1;30m`[0m         └[1;30m''`[0m          `^[1m°²[0m┘[1m*[0m⌂77*└°[1;30m`[0;1;37m`°[0m²┘*└²[1;30m''[0;1;37m [0m  [1;30m |║║ [0m
-      [1;30m rARE[0m![1;30mASCii [0m                                                         [1;30m │║║[0m
+      [1;30m     [0m [1;30m      [0m                                                         [1;30m │║║[0m
                                             [1;30m  ┬[0m          [1;30m┬    ┬  ┬ ┌┐┌┬┐┌╥┬╥║║║[0m
                                               [1;30m`[0m          [1;30m`[0m    [1;30m`  ` ````````````[0m'

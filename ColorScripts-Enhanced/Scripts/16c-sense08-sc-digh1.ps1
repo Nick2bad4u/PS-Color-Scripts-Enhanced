@@ -5,7 +5,7 @@
 # Source SHA-256: 2c7450042df59fda7f8c01ef59947657e13f51e2e68794d46e9f3355ab17ec8d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-DIGH1.ANS by scrye (sense); released in sense08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: digital high logo
 # SAUCE Author: scrye
 # SAUCE Group: sense
@@ -35,6 +35,4 @@ Write-Host '
 [36;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m                       [36;40m▀▄[0m              [36;40m▄[0m         [36;40m▄▀[0;37;40m [0;36;40m░[0;1;36;40m░[0m
 [36m░░░░░░░░░░░░░░░░░[0m                         [36m ■[0m           [36m▀[0;1;36;46m▀[0;36m▀[0m      [36m▄■[0m
                               [36m░░░[0m            [36m▀▀▀▄▄▄▄[0m     [36m ▄▄▄▄▀▀[0m
-                                                     [36m▀▀▀▀[0m
-[1;30m---- This was requested for a new local board.. Don''t rip this... --------------[0m
-                             [1;36m [0m'
+                                                     [36m▀▀▀▀[0m'

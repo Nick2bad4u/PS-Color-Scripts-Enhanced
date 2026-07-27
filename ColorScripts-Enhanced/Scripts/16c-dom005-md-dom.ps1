@@ -5,7 +5,7 @@
 # Source SHA-256: 46646d474c91baa501fa5c3b1f8f5c84a6840b7f391275a889359de42471bf6e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD!DOM.ANS by mobb deep (dominio); released in dom005 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: clouded?!
 # SAUCE Author: mobb deep
 # SAUCE Group: dominio
@@ -52,9 +52,5 @@ Write-Host '
 █▀ █[1;47m██████████████▄[0m▄▄▄▄▄▄▄▄▄▄▄▄[1;47m▄█▄[0m▄▄▄▄▄▄▄▄▄[1;47m▄▄███▄[0m▄▄▄▄▄      ▄▄[1;47m▄████████████████[0;1;37;47m▓[0m
 ▀ █[1;47m█████▓▓▓▓▓██████████████████████████████████████████▄ [0m  █[1;47m▓▓▓▓██████████████▓[0;1;37;47m█[0m
  █[1;47m███████████████████████████████████████████▓▓▓▓███████ [0m █[1;47m▓▓▓▓████████████████[0;1;37;47m▓[0m
-                                                                     [1m   [0m [1m_md!dom[0m
----[1m                         [0m
-ehrm...yeah i know it sucks and all...but gimme a break...i only started drawing
-like three months ago...so...:)...nevermind....
-requests: pookieguy@hotmail.com
-or call crooklyn at +32/11-27.30.00 and leave me a messy...[0m'
+                                                                     [1m   [0m [1m       [0m
+---[1m                         [0m'

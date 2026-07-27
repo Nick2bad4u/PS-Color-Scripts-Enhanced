@@ -5,7 +5,7 @@
 # Source SHA-256: b28a3d9ee9598c62e199dca83b53ac99ed5d09f774003c3d0b62e65c7fcbd131
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IPH-SANT.ANS by inphamilair (iph) (plf guest starr); released in iph-008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: :: santa is evil
 # SAUCE Author: inphamilair (iph)
 # SAUCE Group: plf guest starr
@@ -16,7 +16,7 @@
 
 Write-Host '
   [1;30m:::::[0m                                  [1;30m:::::::::::[0m
-[1;30m░░░[0m   [1;34m [0;1;30m:::::[0m   [1;37mwe[0m [1;37mall knew it..[0m                  [1;30m░░░[0m               [32m  ñññÑÑ[0;1;32mÑÑÑÑÑ[0m
+[1;30m░░░[0m   [1;34m [0;1;30m     [0m   [1;37m  [0m [1;37m             [0m                  [1;30m░░░[0m               [32m       [0;1;32m     [0m
 [1;30m [0;34m,┐g[0;1;34m###g┌.[0;1;30m [0;1;34m [0;1;30m░░   [0m    [1;30m   [0m      [1;30m_,┌┌#i;;;;,...[0m      [31m  [0;1;30m░░[0m    [1;30m:::[0m     [32m  ÑÑÑÑ[0;1;32mÑÑÑÑÑÑÑ[0m
 [1;30m;$[0;34m$$$[0;1;36m$$$[0;1;34m$$[0;1;37mi,[0m [1;34m [0;1;30m ░░░░[0m    [31m  .,g#$$$8888i[0;1;30miiii;;;.;..  [0;31m  [0m    [1;30m:::[0m         [32m  ÑÑÑÑ[0;1;32mÑÑÑÑÑ[0m
 [1;30mi$[0;34m$$[0;30;44m$$$[0;1;36;40m$$[0;1;34;40m$$[0;1;37;40mi [0;1;34;40m [0;1;30;40m [0m [1;30m░[0m     [31m,d$$l[0;30;41m$$$$$$$$[0;31;40m888888ii[0;1;30;40miii;;;;..   [0m               [32m ÑÑÑÑ[0;1;32mÑÑÑÑ[0m

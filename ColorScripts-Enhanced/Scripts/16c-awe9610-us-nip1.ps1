@@ -5,7 +5,7 @@
 # Source SHA-256: f7fe71d3ee72b2942b521822a855e701e3fe06755dd05c7ef56316b32fb692c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-NIP1.ANS by Fluor + Circus Freak (awe / samsara); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: NIP Emag
 # SAUCE Author: Fluor / Circus Freak
 # SAUCE Group: awe / samsara
@@ -34,6 +34,4 @@ Write-Host '
 [1m  [0;36m│[0;37m  [0;36m│[0;37m [0;36m│▐▐[0;30;46m│[0;36;40m█▄[0;37;40m [0;1;30;40m▀▀▀▀[0;1;37;40m [0;35m▐█[0;1;36;45m▀▄░[0;35m██▌[0;1;30m▀[0m [36m▐[0;1;36;46m░[0;1;37;46m▄▓[0;36m▓ [0;1;30m▀▀ [0;36m█[0;1;37;46m▒[0;36m█[0;1;36;46m░[0;36m▌[0;37m  [0;36m▐[0;1;36;46m░░[0;36m█[0;1;37;46m▓▀[0;36m▄[0;1;37m [0;36m■[0m   [1;30m░▓▀▀▀▀▀▀ [0;36m▄█[0;30;46m│[0;36;40m▌▌│[0;1;37;40m [0;36m│[0;37m  [0;36m│[0m
 [1;37m ─   ─ ──────── [0;35m▄▄▓[0;1;36;45m▄█▓▒░▀[0;35m█▌[0;1;37m─[0;36m▄██[0;1;37;46m■▀[0;36m█▄[0;1;37m──[0;36m▄█[0;1;37;46m▓▀[0;36m█▓▄[0;1;37m─[0;36m▐[0;1;37;46m▀ [0;1;35;46m▒▄[0;1;36;46m░[0;36m▌[0;1;37m──────────────────── ─[0m  [1m ─[0m
            [35m▀ ▀▀▀▀▀▀▀▀▀▀▓[0;1;36;45m■[0;1;35;45m░[0;35m▌[0m    [36m▀▀[0;1;36;46m░[0;36m▌[0;37m  [0;36m▐[0;1;36;46m░[0;36m▀▀[0m    [36m▐▓[0;1;35;46m▀▓▓█▄[0;36m▓▄▄[0m
-                                  [36m▀[0;37m  [0;36m▀[0m       [36m▐[0;1;36;46m░[0;1;35;46m■[0;36m▓▀▀▀▀▀▀▀▀▀ ▀[0m
-
-                [1;37ma[0m [1mwonderful logo by [0;35mfluor[0;1;35m@[0;1;37mawe[0m [1;35m&[0m [1;45mc[0;1;35;40m^[0;1;36;40mfreak[0;1;35;40m@[0;1;37;45ms[0;1;36;40mamsara[0m'
+                                  [36m▀[0;37m  [0;36m▀[0m       [36m▐[0;1;36;46m░[0;1;35;46m■[0;36m▓▀▀▀▀▀▀▀▀▀ ▀[0m'

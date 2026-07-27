@@ -5,7 +5,7 @@
 # Source SHA-256: eef1880793423749d5b740934b79d866749754b6b5d010e7fa2a432ecb504968
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2S-BLENDER2025C.ANS by 2stoned (Mistigris); released in blndr2025c and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BLENDER 2025C
 # SAUCE Author: 2stoned
 # SAUCE Group: Mistigris
@@ -57,10 +57,10 @@ Write-Host '
 [30m███████████████████████▀▀▀▀▀▀                      ▀▀▀▀▀▀██████████████████████[0m
 [30m████████▀▀                 [0;1;33mB[0;1;30m─[0;1;33mL[0;1;30m─[0;1;33mE[0;1;30m─[0;1;33mN[0;1;30m─[0;1;33mD[0;1;30m─[0;1;33mE[0;1;30m─[0;1;33mR   2[0;1;30m─[0;1;33m0[0;1;30m─[0;1;33m2[0;1;30m─[0;1;33m5[0;1;30m─[0;1;33mC                  [0;30m▀▀███████[0m
 [30m███████                                                                 ███████[0m
-[30m█████▀ [0;1;32mLATE NIGHT TALK SHOW HOST[0;1;33m [0;1;31mDESTROYING CIVILIZATION[0;1;34m [0;1;36mAT CORPORATE HQ[0;30m  ▀████[0m
+[30m█████▀ [0;1;32m                         [0;1;33m [0;1;31m                       [0;1;34m [0;1;36m               [0;30m  ▀████[0m
 [30m███▀[0;37m                                                                        [0;30m▀██[0m
 [30m██                                    [0;1;33m»[0;1;37m-[0;1;33m«[0m                                    [30m▀█[0m
 [30m█▀                                                                            █[0m
 [30m█                           [0;35m¡[0;37m [0;1;35m2  S  T  O  N  E  D[0m [35m![0;1;35m                           [0;30m█[0m
-[30m█                     [0;1;30mfueled by fresh bud n unclean women[0m                     [30m█[0m
+[30m█                     [0;1;30m                                   [0m                     [30m█[0m
 [30m█                                                                             █[0m'

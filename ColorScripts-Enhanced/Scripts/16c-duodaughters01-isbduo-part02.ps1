@@ -5,7 +5,7 @@
 # Source SHA-256: ee3ad1f621e1c537c93a71d972bcf0596bd1c2cacaaa79071fbf7298203991d7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ISBDUO.ans by Dark Wizard (duodaughters01); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20151211
 # SAUCE Dimensions: 80x70
 # SAUCE Font: IBM VGA
@@ -47,4 +47,4 @@ Write-Host '
        [1;34;44m▒▓[0;1;34;40m██ ▄▄█████▀[0m      [1;34;44m░▒▓▓[0;1;34;40m█    ███▀▀  [0;1;34;44m▒▓[0;1;34;40m██ ▄▄█████▀[0m       [1;34;44m░▒▓▓[0;1;34;40m█  ▐████▄▄[0m
       [1;34;44m░▒▓▓[0;1;34;40m█ ██▀▀▀[0m        [34m▐[0;1;34;44m░▒▓[0;1;34;40m▀[0m     [1;34m▀▀    [0;1;34;44m░▒▓▓[0;1;34;40m█ ██▀▀▀[0m         [34m▐[0;1;34;44m░▒▓[0;1;34;40m▀    ███▀▀[0m
      [34m▐[0;1;34;44m░▒▓[0;1;34;40m▀[0m                [34m▀[0m             [34m▐[0;1;34;44m░▒▓[0;1;34;40m▀[0m       [1m1[0m2[1;30m-[0;1;37m1[0m1[1;30m-[0;1;37m1[0m5  [34m▀[0m       [1;34m▀▀[0m
-      [34m▀[0m                                  [34m▀[0m      [1;30mD[0;1;37m [0mA[1m R K [0;1;30mW[0;1;37m [0;1;30mi[0;1;37m [0mZ[1m [0mA[1m R D [0;1;30m<[0;1;37mD[0;1;32mU[0;32mo[0;1;30m>[0m'
+      [34m▀[0m                                  [34m▀[0m      [1;30m [0;1;37m [0m [1m     [0;1;30m [0;1;37m [0;1;30m [0;1;37m [0m [1m [0m [1m     [0;1;30m [0;1;37m [0;1;32m [0;32m [0;1;30m [0m'

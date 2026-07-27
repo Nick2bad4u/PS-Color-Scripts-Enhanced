@@ -5,7 +5,7 @@
 # Source SHA-256: 1cc5115c65855ad7f402b2b882b1efe3e091c6c7d9fb36ecdfbc53c2efc4a6ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ_CMTRX.ANS by fastjack (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FS:: kein plan
 # SAUCE Author: fastjack
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
 
 
 
-[1;30m-------------------------------------------------------------(schleim)----------[0m
-[1;30msome kind of command matrix for my board... hmmm... dont know    fastjack^boil[0m'
+[1;30m-------------------------------------------------------------(schleim)----------[0m'

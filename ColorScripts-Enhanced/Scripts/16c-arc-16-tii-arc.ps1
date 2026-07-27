@@ -5,7 +5,7 @@
 # Source SHA-256: 42c55cfdcb72fcc66daecf3701911c9a0da061439e216c78d4d786b760ed86f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TII-ARC.ANS by tetsuo_ii (arc-16); released in arc-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alphaforce
 # SAUCE Author: tetsuo_ii
 # SAUCE Date: 20000401
@@ -38,5 +38,4 @@ Write-Host '
 
 
 
-[1;30m- ---------------------------------------------------------------------------- -[0m
-[1;30malpha force u mutha! .. well .. it says alpha force ;)[0m [1;30m- tetsuo_ii[0m'
+[1;30m- ---------------------------------------------------------------------------- -[0m'

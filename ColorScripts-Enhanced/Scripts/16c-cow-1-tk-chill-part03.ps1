@@ -5,7 +5,7 @@
 # Source SHA-256: 0f85715346ba4a302829eb5581d37bda1ffb7c4a4a909fdc45865a2968d78168
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-CHILL.ANS by The Knight (CoW); released in cow-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chillout Zone logon
 # SAUCE Author: The Knight
 # SAUCE Group: CoW
@@ -50,16 +50,16 @@ Write-Host '
    ▀[1;47m▀[0;1;40m██████▀[0m▐[1;47m▐[0;1;40m███[0;1;30;40m [0;1;37;47m▐[0;1;37;40m███[0m▐[1;47m▐[0;1;40m███[0m ▀[1;47m▀[0;1;40m██████▀[0m ▀[1;47m▀[0;1;40m██████▀[0m ▀[1;47m▀[0;1;40m██████▀[0m ▀[1;47m▀[0;1;40m██████▀[0m     [1m [0;1;47m▐[0;1;40m██▀[0m
 
 
-                              [1;30mΦ[0m [1;30mSysop is Turbo-D[0m [1;30mΦ[0m
+                              [1;30m [0m [1;30m                [0m [1;30m [0m
 
-     [1;30mTly memberboard, big whig site, asspenetraters site, floorfaller site,[0m
-[1;30m       [0m       [1;30mlaughing dog site, drunk son of a @#&@! site, etc...[0m
+     [1;30m                                                                      [0m
+[1;30m       [0m       [1;30m                                                    [0m
 
 
     [1;30m [0m [1;30m▄■▀▀▄■▄[0m         [1;30m▓[0m                                               [1;30m▓[0m
 [1;30m ▄■▀▀▀ [0m    [1;30m▓[0m  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀ ▀▀ ▀      ▀ ▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀[0m [1;30m▀▀▀▒▀▀[0m [1;30m▀▀▀■▄ [0m
-[1;30m▐▌[0m   [1;30mAnsi drawn by The Knight^Cow^Fuel. If you[0m [1;30mwant an ansi like this, order[0m [1;30m▓▐▌[0m
-[1;30m█[0m   [1;30myours now.[0m [1;30mMore greetz to everyone on Cownet... It''s fun, keep up the     [0m [1;30m█[0m
-[1;30m▐▌[0m  [1;30mgreat work bS![0m [1;30mSpecial greetz to Turbo-D.Thanx for not puking in my room;)▐▌[0m
+[1;30m▐▌[0m   [1;30m                                         [0m [1;30m                             [0m [1;30m▓▐▌[0m
+[1;30m█[0m   [1;30m          [0m [1;30m                                                               [0m [1;30m█[0m
+[1;30m▐▌[0m  [1;30m              [0m [1;30m                                                           ▐▌[0m
  [1;30m▀■▄▄[0m   [1;30m▓[0m              [1;30m▓[0m                                         [1;30m [0m    [1;30m▓[0m    [1;30m▄▄■▀[0m
     [1;30m ▀▀▀▀▀▀▀▀▓▀▀▀▀▀ ▀▀ ▀▀ ▀      ▀ ▀ ▀▀▀▀▀▓ ▀▀ ▀▀ ▀      ▀ ▀ ▀▀▀▀▀■▄▄▀■▀[0m [1;30m▀▀ [0m'

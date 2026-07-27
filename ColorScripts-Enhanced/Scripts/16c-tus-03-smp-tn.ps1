@@ -5,7 +5,7 @@
 # Source SHA-256: 1628701830bce9f3c8f5855aef1c5cb495c8c01f0c5f4d335d44edc1b51ee813
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Smp-tn.ans by Shrimp (Foliage); released in tus-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
 # SAUCE Date: 20011002
@@ -37,8 +37,4 @@ Write-Host '
 [36m$#aa#S$$[0;1;36ml$$$$l[0;36m$$$│b. [0;37m  [0;34m`?$[0;1;34ml$l[0;34mP''[0m   [35m.┌#$$SS$$$$$[0;1;35ml$ll[0;35m$$│#┐.[0m    [34m~"ⁿ*/$│[0;1;34ml$$$$$ll[0;34m$l[0m
 [36m$$$$$[0;1;36mll$$$$$$$$l[0;36m$$$$b  [0;37m [0;34m `ⁿ┘''[0m   [35m.d$$$$$$$[0;1;35mlll$$$$$$ll[0;35m$$$$Sa┐,.[0m      [34m~"[0;1;34mⁿ┘?$$l[0;34m$P[0m
 [36m$[0;1;36mll$$$$$$$$$$$$$$l[0;36m$$$1  [0m       [35mj$$$$[0;1;35mlll$$$$$$$$$$$$$$ll[0;35m$$$$$$$S#%a.[0m    [34m,[0;1;34m$\[0;34m└`[0m
-[36m$$[0;1;36ml$$$$$$$$$$$$$$$l[0;36m$$$:  [0m     [35m:$$$$[0;1;35ml$$$$$$$$$$$$$$$$$$$$ll[0;35m$$$$$$$P[0m    [34m'' [0m    [32m [0;37m  [0;36m↓[0m
-
-[1;36mT.N[0m [34m- Tamr Nafar, an Israeli Arab rapper. Respect.[0m
-
-[37mShrimp(TUS)[0m'
+[36m$$[0;1;36ml$$$$$$$$$$$$$$$l[0;36m$$$:  [0m     [35m:$$$$[0;1;35ml$$$$$$$$$$$$$$$$$$$$ll[0;35m$$$$$$$P[0m    [34m'' [0m    [32m [0;37m  [0;36m↓[0m'

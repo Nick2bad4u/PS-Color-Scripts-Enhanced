@@ -5,7 +5,7 @@
 # Source SHA-256: e6bbabec576cf8668b7cf707dc1ee1f6828093706e19436b448fb0cb63bb9d72
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMI-SKEL.ANS by samurai (klexikal); released in k-ronin and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: skeleton knight
 # SAUCE Author: samurai
 # SAUCE Group: klexikal
@@ -38,6 +38,4 @@ Write-Host '
 [34m▀▒▒[0;1;34m▒▒[0;34m███████████  [0;1;30m▄[0;36m▄█[0;1;36;46m▒▒▒▒▒[0;36m▀░░[0;1;36;46m░▓[0;1;36;40m▓[0;1;36;46m███▄█▓[0;36m▓[0;1;30m ░████[0;1;30;47m▓▓[0m▒▒▒[1;30m░  ▀[0;1;30;47m▓▓[0;1;30;40m█████[0;1;30;47m▓▓[0;1;30;46m▄[0;1;36;40m▒▒[0;1;36;46m░░░░░░░░[0;36m▄[0;1;30m▄[0;36m [0;1;30m▀[0;36m░░[0m
 [34m ░░▓▓[0;1;34m▒▒[0;34m████[0;1;34m▒▒▒▒▒▒[0;34m [0;1;30m▀[0;1;36;46m░░░░░░░░[0;36m█[0;1;36;46m▄[0;1;36;40m▓[0;1;36;46m██▀▄█▀[0;36m▓▓[0;1;30m▀ ▓█[0;1;30;47m███[0m▒▒▒░░░[1;30m▒[0m [1;30m ▀[0m░░░▒▒▒▒▒[1;30;47m▓[0m [36m▀▓█[0;1;36;46m░░░░[0;1;36;40m▒▒▒▒[0;1;30;40m▄[0;36m  [0;1;30m░[0m
 smi[34m ▀▓▓[0;1;34m▒▒▒▒▒░░░░░ [0;1;36m░▒▒▒▒▒▒[0;36m██[0;1;36;46m▀▀▀[0;36m█[0;1;36;46m ▀[0;1;36;40m▒▒▒[0;1;30;40m▀[0;36m  [0;1;30m░██[0;1;30;47m▓▓[0m▒▒░░░[1;30m▀░░░░░░ ▀[0m░░[1;30m██▓▓░[0;36m ░░▀[0;1;36m▒▒▒▒░░░░ [0;36m  [0m
-[1;30m=={ [0m3:26:1998[1;30m }===================================================={ [0mnotes ↓[1;30m }==[0m
-[1;30mjust another onna those experimental 23 liners.  strap on your 3d goggles cause[0m
-[1;30mthis is blurrrrry![0m'
+[1;30m=={ [0m3:26:1998[1;30m }===================================================={ [0mnotes ↓[1;30m }==[0m'

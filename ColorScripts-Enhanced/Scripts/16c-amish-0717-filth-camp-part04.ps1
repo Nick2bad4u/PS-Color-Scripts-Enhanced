@@ -5,7 +5,7 @@
 # Source SHA-256: 74a6bc52f0ec7fe9b0e31581a8081b6fba51aaf1837a5ca885f1cde329d25c8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: filth - camp.ans by filth (AMiSH); released in amish-0717 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: CAMP: A STORY
 # SAUCE Author: filth
 # SAUCE Group: AMiSH
@@ -59,6 +59,4 @@ Write-Host '
 [1;30m  ██▄ [0;30m██[0;1;37m░░  ■■[0;30m▓ ▀█▀▀[0;1;30m██[0;30m██ ██[0;1;30m████████  [0;30m█[0;1;37m░░[0;30m██[0;1;37m■[0;30m██▓[0;1;30m███████[0;1;37m░░░[0;30m█▓[0;1;30m█[0;1;37m▄ [0;30m██[0;1;30m░██████[0m▒▒[1;30m██[0m▒▒[1;30m▓▓▀[0m
 [1;30m  ▓▓[0m▒▒[1;30m█▄▄[0;30m▀███████[0;1;30m▄▄██[0;30m███ █[0;1;30m███████[0m▒[1;30m██[0;30m███  [0;34mfil  [0;1;30m▓█[0;1;37m░░[0;1;30m█[0m▒[1;30m█[0;30m█   [0;37m░[0;1;30m█░[0;30m███[0;1;30m░██[0m▒▒[1;30m███▓▓▓▀▀░[0m
 [1;30m  ▓▓▓▓▓[0m▒▒▒[1;30m█[0m▒▒[1;30m█[0m▒▒[1;30m███████▓▓[0m▒▒[1;30m███[0m▒▒[1;30m▓▓▓█[0m▒▒[1;30m██[0m▒▒▒▒▒[1;30m▓▓▓[0m▒[1;30m▓[0m▒▒[1;30m▓▓█[0;1;37m░[0m▒▒[1;30m███▓[0m▒[1;30m█▓▓▀▀▀ ▀▀░░░[0m
-     [1;30m░[0m            [1;30m░░[0m                                        [1;30m░░[0m
-
-                       [1mfilth  [0;1;30m  [0m [1mA[0m [1;33m M  [0;33mi  [0;31mS  [0;1;30mH[0m  [1;30m   2017[0m'
+     [1;30m░[0m            [1;30m░░[0m                                        [1;30m░░[0m'

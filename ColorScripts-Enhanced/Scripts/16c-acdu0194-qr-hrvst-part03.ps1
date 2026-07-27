@@ -5,7 +5,7 @@
 # Source SHA-256: 8c0376be18dcc2e33eba6bd3c8706b257c87565bc7d17379429a1f0cf7d8eed6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QR-HRVST.ANS by Quasar (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 75-109
 # Columns: 1-80
 
@@ -36,12 +36,12 @@ Write-Host '
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
                  [1mH   A   R   V   E   S   T[0m       [1mM   O   O   N[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-     · SysOps: QuR''aN [PSY/HEAT], JabberWocky [PSY] · Israfel [PSY/iCE] ·
-  · Supporting Art Packs from over thirty different groups, big and small ·
-  · Also supporting Console, including: SNES/Genesis/Neo/Turbo16/GameGear ·
-   · ToXiC Net · CyberCrime International Network · Shadow Net · Neo Net ·
-     · No Ratios for -ALL- Users · Over 430 Megabytes Online Storage ·
-            · Operating On A 21.6k US Robotics Dual Standard ·
+                                                                         
+                                                                           
+                                                                           
+                                                                          
+                                                                      
+                                                              
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-              [1;30m▄   ▀ ▄█ [0mAnsi by Quasar of [1m/┤[0;1;33mC[0;1;32mi[0mD Productions [1;30m█▄ ▀   ▄[0m
+              [1;30m▄   ▀ ▄█ [0m                  [1m ┤[0;1;33m [0;1;32m [0m              [1;30m█▄ ▀   ▄[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

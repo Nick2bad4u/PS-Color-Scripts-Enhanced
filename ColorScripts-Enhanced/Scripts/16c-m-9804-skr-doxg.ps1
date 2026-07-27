@@ -5,7 +5,7 @@
 # Source SHA-256: 691091180da571d9598b7e54ff24e2ab50d5ada8385328a4543da118def88770
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKR-DOXG.ANS by Skrubly (mISTFUNK 1998); released in m-9804 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dox logo
 # SAUCE Author: Skrubly
 # SAUCE Group: mISTFUNK 1998
@@ -34,5 +34,4 @@ Write-Host '
         [32m░▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▓▓▓▓[0;32;42m          [0;32;40m▓▓▓▓▓▓▓▓▓▓▒▒▓▓▓▓▓▓▓▓▓▓▓▒░[0m
         [32;40m░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒▒▒▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒░░[0m
 
-                                                                  [1;30;40mskr[0m
-                            [1;30;40mWho''s your daddy?[0m'
+                                                                  [1;30;40mskr[0m'

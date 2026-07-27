@@ -5,7 +5,7 @@
 # Source SHA-256: 1939658409e1d82aab40c37e38252ee1d1c60c14bda16400b1678718e0791e57
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: qz-logo1.ans by Quazar (iCE Advertisements); released in ice-200208 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Collection
 # SAUCE Author: Quazar
 # SAUCE Group: iCE Advertisements
@@ -25,7 +25,7 @@ Write-Host '
 [1;30m [0;34m▄▓███[0;34;44m   [0;1;30;44m░▒▓[0m ▄▀ [1;30m▄▌ [0m▓█ [1;30;44m▓[0;1;30;40m▌[0m▐▓▀▀ ▀▀▀▀ [1;30m▄▄▄[0;1;30;44m▓▓[0;1;30;40m█████████[0;1;30;44m▓[0;1;30;40m▌[0m▐▓▀▀ [1;30m▄▄▄█[0;1;30;44m▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒░ [0;34m▓[0m
 [34m▐▓█▌██[0;34;44m   [0;1;30;44m░▒▒▓[0;1;30;40m▄▄[0;1;30;44m▓▓▓[0;1;30;40m▄ [0m▀▌[1;30m▐ [0m▀ [1;30m▄[0;1;30;44m▓▓[0;1;30;40m████▓▀▓▓██▓▀▓▀███▓██ [0m▀ [1;30m▄[0;1;30;44m▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒░░░░░░ [0;1;34;40m▐[0;34m▓▌[0m
 [34m ▀▓█▄[0;34;44m     [0;1;30;44m░░▒▓▓▒▒▒▓▓[0;1;30;40m▄▄[0;1;30;44m▓[0;1;30;40m█[0;1;30;44m▓▓[0;1;30;40m▓▀▀▓████▓▄▄▀▀ ░ ▀▓▓▓▀█[0;1;30;44m▓▓▓▓▓▒▒▒▒▒▒░░░░░░░░░░   [0;30;44mqz[0;34;40m▓▄[0;1;34;44m▀[0;34m▀[0m
-[30mI dedicate this ansi to my mother, without her, you wouldn''t even see this....[0m
+[30m                                                                              [0m
 
 
 
@@ -51,10 +51,4 @@ Write-Host '
 [1;30m▐███▄ [0;34m▀▀[0;1;30;44m░[0;34m▄▀[0;34;44m  [0;34;42m█[0;34;40m▀[0;1;30;44m░[0;34m▄▀▀ [0;1;30m▄▓▓▓▄ [0;34m▀[0;36;44m▒▒▒▒▓▓▓▓▓[0;36;40m▓▀▄▄[0;1;37;46m░[0;36m▌▀▌ [0;1;30m▄▓████▓▓▄ [0;34m▀[0;34;46m▒▒▒▒░░░░░[0;1;37;46m░[0;36m▀[0;1;37;46m░[0;36m▄[0;1;37;46m░[0;36m▌▀▌ [0;1;30m▄███▌[0m
 [1;30m▐███▓[0;1;30;47m█[0;1;30;40m▓▄▄ [0;34m▀[0;34;44m  [0;1;30;44m░[0;34m▀ [0;1;30m▄▄█▓▓████▓▄ [0;36m▀▀[0;1;34;46m░░[0;1;37;46m░[0;36m▀▌▌▐▀▌▀▌▌ [0;1;30m▄▓███[0;1;30;47m▓[0;1;30;40m████▓▓▄ [0;36m▀▀[0;34;46m░[0;1;37;46m░[0;1;34;46m░[0;36m▀▌▌▐▀▌▀▌▌ [0;1;30m▄█████▌[0m
 [1;30m ▀██████▓▓▄ [0;34m▀ [0;1;30m▄█████[0;1;30;47m▓[0;1;30;40m▀█▓▀██[0;1;30;47m▓[0;1;30;40m▓▄ [0;36m▀▌ ▀▌ [0;1;30m▄▄▄▄▄▓███▀▀▒[0;1;30;47m▓[0;1;30;40m▀████▓▓▓▄ [0;36m▀▌ ▀▌ [0;1;30m▄▄▄▄▄██████▀[0m
-[1;30;41m▒▓[0m [1;30m▀▀▀████▓███████[0;1;30;47m▓[0;1;30;40m▄▄███▓▄▄▒[0;1;30;47m▓[0;1;30;40m█▓▄▄▓▄▄████████▄▄▓▓[0;1;30;47m▓[0;1;30;40m██▄[0;1;30;47m▓[0;1;30;40m██████▓▄▄▓▄▄▓███████▀▀▀ [0;1;30;41m▓▒[0m
-[30mI dedicate this ansi to my mother, if it weren''t for her, you''d never see this.[0m
-[1;30mfont inspiration from an old famous [0mtempus [1;30mlogo, I guess it''s always just stuck[0m
-[1;30mwith me. anyways, he was one of the the best, probably still is ! -qz  09.02.02[0m
-
-
-'
+[1;30;41m▒▓[0m [1;30m▀▀▀████▓███████[0;1;30;47m▓[0;1;30;40m▄▄███▓▄▄▒[0;1;30;47m▓[0;1;30;40m█▓▄▄▓▄▄████████▄▄▓▓[0;1;30;47m▓[0;1;30;40m██▄[0;1;30;47m▓[0;1;30;40m██████▓▄▄▓▄▄▓███████▀▀▀ [0;1;30;41m▓▒[0m'

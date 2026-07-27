@@ -5,7 +5,7 @@
 # Source SHA-256: 4096044dc4b1f5c3ee1ec4ce61273e93cd0bb535dede5389e3218d59ee93116a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-B1.ANS by sir_death. (apathy.); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blah.
 # SAUCE Author: sir_death.
 # SAUCE Group: apathy.
@@ -41,9 +41,5 @@ Write-Host '
          [1;30m▀▄[0m      [1m▀[0;1;31;47m▓█[0;1;31;40m▄[0m     [1;31m▄██▀  ██[0;1;31;47m▓[0m  [1m▀[0;1;31;47m▓[0;1;31;40m█▄[0m     [1;31m▄[0;1;31;47m██[0;1;31;40m▀  [0;1;31;47m▓[0;1;31;40m██[0m         [1;31;47m▓█[0;1;31;40m█[0m
 [1;30msirdeath.   ▄[0m      [1m▀[0;1;31m▀█[0;1;37m▄▄[0;1;31m▄█▀▀   ▀[0;1;37m▀[0;1;31m█[0;1;37m█    ▀[0;1;31m▀█[0;1;37m▄▄[0;1;31m▄█▀▀    [0;1;37m█[0;1;31;47m▓[0;1;31;40m█[0m         [1m█[0;1;31;47m▓[0;1;31;40m▓░░ ░[0m
 [1;30m--------------------------------------------------------------------------------[0m
-[1;30m [0;33mcall [0;1;31mblah[0;33m.  the raddest board in four one nine.  the number is, ([0;1;31m419[0;33m)[0;1;31m472[0;33m-[0;1;31m0158[0;33m.[0m
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30;44m                [0;30;44mlittle phont by [0;1;34;44ms1r_d3ath [0;30;44mof [0;1;34;44mapathy [0;30;44men el 1996.                 [0m
-
-   [37;40myeah, there''s a little style of every artist in here.  but nothings ripped.[0m'
+[1;30m [0;33m     [0;1;31m    [0;33m                                                        [0;1;31m   [0;33m [0;1;31m   [0;33m [0;1;31m    [0;33m [0m
+[1;30m--------------------------------------------------------------------------------[0m'

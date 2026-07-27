@@ -5,7 +5,7 @@
 # Source SHA-256: ac81a3d67f9f84af4be4e59be1003ce3241a8475c885624530bd078f68986ea3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: A-ALIEN.ANS by alecs (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: drastic's alien.
 # SAUCE Author: alecs
 # SAUCE Group: nerp
@@ -38,9 +38,4 @@ Write-Host '
                          [1;30m [0m   [31m░█[0;1;31;41m▓▓[0;31m██▐[0;1;31;41m▀[0;1;31;47m▓[0;1;31;41m█▄▄[0;31m█████▌[0;37m [0;31m▐[0;1;31;41m  ░[0;31m ▄[0;1;31;41m▄█▄[0;31m▄[0;1;31;41m [0;31m▐██▄███▌[0;37m [0;36m▀[0;1;36;46m▄[0;36m█[0;37m [0;31m ▐███▄[0;30;41ma[0m
                          [1;30;40m [0m   [31m  [0m                  [31m▀▀▀[0;1;31;41m▀[0;1;31;47m▄░▓[0;1;31;41m███▓░[0;31m████▀[0m   [36m▀[0m
 
-[31mpress ''[0;1;31m↓[0;31m'' for more information.[0m
-
-[37m [0;31mokay. this is an alien. really. i mean, all the people drawing aliens draw [0m
-[37m [0;31mthem with big  eyes and a human-like  head. why don''t  they draw them like[0m
-[31m this? most of us really dont know how an alien REALLY looks, so i can draw[0m
-[31m them like i want them to look.[0m        [31m       [0;37m  [0;31m   [0m   [31m-alecs(nerp/skr/mean)[0m'
+[31m       [0;1;31m↓[0;31m                       [0m'

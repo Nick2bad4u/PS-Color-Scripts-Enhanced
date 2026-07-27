@@ -5,7 +5,7 @@
 # Source SHA-256: e4e701d29704ef62fda263f04a7cae13bd1655f8e2ce72c0a5491d74f0926ed7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-TG3.ANS by Andrew Nice (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Thieve's Guild
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -39,13 +39,13 @@ Write-Host '
            [1;30;45m▓▓▓▓[0;33m▒    [0;1;30;45m▓▓▓[0;1;30;40m▌▐[0;1;30;45m▓▓[0;33m▒    [0;1;30;45m▓▓[0;1;30;40m▌   [0;1;30;45m▓▓▓▓[0;1;30;40m▌   [0;33m▒[0;1;30;45m▓▓▓[0;1;30;40m▌  [0;33m░[0;1;30m▐[0;1;30;45m▓▓[0m [1;30;45m▓▓▓▓[0m   [1;30;40m▐[0;33m▒[0;1;30;45m▓▓[0m
           [1;30;40m▄█[0;1;30;45m██[0;1;30;40m█[0;33m▓[0;1;30m▄ ▄███▀▄███[0;33m▓ [0;1;30m▄▄██▀   ▄█████▄ ▄[0;33m▓[0;1;30m████▄ ▄██▀▄████ ▄▄█[0;33m▓[0;1;30m▀[0m
         [1;30m▄[0m                                                             [1;30m▄[0m
-       [1;30m▓[0m                [1;30mThieves Guild  ·  7O8∙26i∙i849[0m                 [1;30m▓[0m
-       [1;30m█[0m                    [1;30mSysop: Sneaky Car Thief[0m                    [1;30m█[0m
-       [1;30m█[0m                  [1;30mCiPNet Whq.  ·   ShadowNet[0m                   [1;30m█[0m
-       [1;30m█    ░    Havok USHQ  ·  CiA Dist░Site  ·  SpLat Dist Site[0m      [1;30m█[0m
-[1;30m  ░[0m     [1;30m▀   ▒16.8k  ·  45O Megs Online  ▒  Running Renegade v.7-17  ▄ ▀[0m
+       [1;30m▓[0m                [1;30m                              [0m                 [1;30m▓[0m
+       [1;30m█[0m                    [1;30m                       [0m                    [1;30m█[0m
+       [1;30m█[0m                  [1;30m                          [0m                   [1;30m█[0m
+       [1;30m█    ░                           ░                        [0m      [1;30m█[0m
+[1;30m  ░[0m     [1;30m▀   ▒                           ▒                           ▄ ▀[0m
 [1;30m  ▒▄▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▄[0m
-[1;30m■▀▓  Picture From Marvel Comics[0m                  [1;30mAnsi by [0;35mA[0;36mn[0;1;36mdrew Ni[0;36mc[0;35me[0;1;30m▒[0;35m[[0;36mAC[0;1;36mi[0;36mD[0;35m]  [0;1;30m▓■[0m
+[1;30m■▀▓                            [0m                  [1;30m        [0;35m [0;36m [0;1;36m       [0;36m [0;35m [0;1;30m▒[0;35m [0;36m  [0;1;36m [0;36m [0;35m   [0;1;30m▓■[0m
 [1;30m  ▀▀▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ░▄▄▄▄▄▄▄▄▒▀[0m
      [1;30m▒[0m                               [1;30m▒[0m                                       [1;30m░[0m
      [1;30m░[0m                               [1;30m░[0m'

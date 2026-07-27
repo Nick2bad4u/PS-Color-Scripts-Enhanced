@@ -5,7 +5,7 @@
 # Source SHA-256: 1acca7707dbb2403194c713a6fb92424cc5f4a3e3e50849e53d0a674611810cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-EPIC.ANS by The Night Angel + Tainted (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Epic
 # SAUCE Author: TNA / TNT
 # SAUCE Group: Blocktronics
@@ -47,8 +47,4 @@ Write-Host '
                          [36m▐░ ▌[0;37m  [0;34m▐[0;37m   [0;36m▐[0m
                          [36m▐▓ ▌[0;37m  [0;34m▀[0;37m   [0;30;46m▓[0m
                          [36m▐█▄▌[0m
-                          [36m▀▀[0m
-           [37mtna[0;1;30m[[0;36mfire[0;1;30m][0m                                tnt[1;30m[[0;1;36mblocktronics[0;1;30m][0m
-
-
-                                 [1;30mbound by gOop.[0m'
+                          [36m▀▀[0m'

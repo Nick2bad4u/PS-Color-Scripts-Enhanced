@@ -5,7 +5,7 @@
 # Source SHA-256: 2e1a9374045714ac5d76c17a93333bb988fdc799e9487d3a5a10bc4aec4ef1a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-GULP!.ANS by raider .. (opx); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gUlp!!@
 # SAUCE Author: raider ..
 # SAUCE Group: opx
@@ -45,7 +45,7 @@ Write-Host '
       [31;40m▀▀▀▀▀░[0;1;30;40m [0m                     [34m░[0m     [1;35m  [0;35mgulpgulpgulp.[0;1;35m    [0m [34m░[0m             [34m░░[0m
 
 [37m [0;30;43m████[0m             [30;43m▓[0m     [1;30;40m░[0m       [30;43m▓▓[0m
-   [1;33;40m [0;30;43m███[0;1;33;40m   [0m [1;33m [0;30;43m▓▓[0;37;40m  [0;1;33;40mgu[0;1;33;43ml[0;1;33;40mp. op[0;1;33;43mp[0;1;33;40med[0;30;43m▓[0;1;33;40mby p[0;1;33;43msy[0;1;33;40mxium. ansi[0;33m░[0;1;33mby r[0;1;33;43mai[0;1;33;40mder, dec.[0;30;43m▓[0;1;33;40m1[0;1;33;43m9[0;1;33;40m96.[0m  [33m░[0m
+   [1;33;40m [0;30;43m███[0;1;33;40m   [0m [1;33m [0;30;43m▓▓[0;37;40m  [0;1;33;40m  [0;1;33;43m [0;1;33;40m     [0;1;33;43m [0;1;33;40m  [0;30;43m▓[0;1;33;40m    [0;1;33;43m  [0;1;33;40m          [0;33m░[0;1;33m    [0;1;33;43m  [0;1;33;40m         [0;30;43m▓[0;1;33;40m [0;1;33;43m [0;1;33;40m   [0m  [33m░[0m
       [1;30m░[0m                [1;30m░[0m             [33m░[0m         [33m  ░░[0m                        [1;30m░[0m
-[33m greets in no[0;1;30m░[0;33morder: vain, lord[0;1;30m░[0;33mautopsy, empty, rawlock, zeusii,[0;1;30m░[0;33mlord spatter.[0m
+[33m             [0;1;30m░[0;33m                 [0;1;30m░[0;33m                                [0;1;30m░[0;33m             [0m
     [1;30m░[0m                              [1;30m░[0m                                  [1;30m░░[0m'

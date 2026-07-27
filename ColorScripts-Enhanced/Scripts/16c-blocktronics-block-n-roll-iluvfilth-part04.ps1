@@ -5,7 +5,7 @@
 # Source SHA-256: e23307945489478e91bfd3163b5a781074d4803f126eb76fc57111d02f398263
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: iluvfilth.ans by Tcf (blocktronics_block_n_roll); released in blocktronics_block_n_roll and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20160421
 # SAUCE Dimensions: 80x153
 # SAUCE Font: IBM VGA
@@ -41,9 +41,9 @@ Write-Host '
    [1;30m▒▒▒[0m                    [1;30m░░ ▀ ▐█[0;1;36m█  ▐ ▒▌[0;1;30m   ▐[0m░[1;30m▓▌[0;1;36m   ██▌[0m        [1;30m██  [0m [1;30m ▄  ████▌[0m  [1;30m▬·[0m
                [1;30m▒▒▒[0m        [1;36m    [0;1;30m  ▀[0;1;36m▒▒   ░█[0;1;30m   █ ▒ [0;1;36m  ▒▒▀ [0m                 [1;30m█▀█▀[0m [1;30m▄■[0m
                [1;30m▒▒▒ ▒▒▒▒   [0;1;36m    [0m                      [1;30m█[0m                 [1;30m███▀[0m
-   [1;30m    at  some   point   the dreams and also the realities  they become the[0m
- [1;30msame. we   no longer have the   ability to differentiate. your fear and your[0m
- [1;30msorrow visit   you by day.[0m  [30mas [0;1;30mas soon   as one develops    then begins decay[0m
+   [1;30m                                                                         [0m
+ [1;30m                                                                            [0m
+ [1;30m                          [0m  [30m   [0;1;30m                                              [0m
                                [1;30m▒▒▒[0m
                                [1;30m▒▒▒[0m
                                [1;30m▒▒▒[0m                                    [1;30m▒▒▒[0m

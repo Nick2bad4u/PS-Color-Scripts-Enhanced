@@ -5,7 +5,7 @@
 # Source SHA-256: 1a2809ef10e68f77bc8e9fcf673fe9b53d0ed2cac04f1531ad04759c2ca8f00c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S0G-UW2.ANS by Snoop (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Underworld
 # SAUCE Author: Snoop
 # SAUCE Group: READ THE INI FILE
@@ -52,6 +52,4 @@ Write-Host '
        [1;30m▀▓[0m      [1;30m▓[0m         [1;30m▒[0m      [1;30m▒▓[0m         [1;30m░   ░[0m     [1;30m░   █   ░   ░    ▓[0m
         [1;30m█░[0m      [1;30m▀▄[0m           [1;30m▒ ░█  [0;1;34mU[0;1;30mnder[0;1;34mW[0;1;30morld[0m          [1;30m▓▀[0m            [1;30m▓▀[0m
          [1;30m▀▓[0m      [1;30m▀▓[0m              [1;30m▀▄[0;1;34mS[0;1;30mysOp [0;1;34mP[0;1;30mele[0m           [1;30m▓[0m           [1;30m▀[0m
-                  [1;30m▓[0m             [1;34m.·[0;1;30m619[0;1;34m·[0;1;30m794[0;1;34m·[0;1;30m8882[0;1;34m·.[0m
-
-                                 [1;30mans[0;1;37mi[0;1;31m·[0;1;30mb[0;1;37my[0;1;31m·[0;1;30mSnoo[0;1;37mp[0m'
+                  [1;30m▓[0m             [1;34m.·[0;1;30m619[0;1;34m·[0;1;30m794[0;1;34m·[0;1;30m8882[0;1;34m·.[0m'

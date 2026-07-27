@@ -5,7 +5,7 @@
 # Source SHA-256: 33a1a55c2c0377f8bb188a79320ffa973e64deec32b0d51ab5147af8b1182bb1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-STIMP.ANS by Turtle (Void); released in void0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Meltdown
 # SAUCE Author: Turtle
 # SAUCE Group: Void
@@ -40,6 +40,6 @@ Write-Host '
 
  [1;30m─[0m  [1;30m ─[0m  [1;30m─ ────────────┌─[[0;1;37mP[0;1;30mictur[0me[1;30m [0;1;37ma[0;1;30mn[0md[1;30m [0;1;37mF[0;1;30mon[0mt[1;30m [0;1;37mb[0;1;30my[0m:[1;30m [0;1;37mT[0;1;30murtl[0me[1;30m]─┐────────────── ─  ─    ─[0m
  [1;30m─[0m  [1;30m ─[0m  [1;30m─ ────────────┘───────[[0;1;37mL[0;1;30mog[0mo[1m b[0;1;30my[0m:[1m V[0;1;30meeka[0my[1;30m]───────└────────────── ─  ─    ─[0m
-[1;30m          [0;1;37mI[0mf[1;30m [0my[1;30mou would like an ansi by me email me at: VoidTr@aol.com[0m
-[1;37m G[0mre[1;30mets: Weazel, Veks, The Undecided, Toon Goon, Cartoon Freaks and the rest[0m [1;30mof[0m
+[1;30m          [0;1;37m [0m [1;30m [0m [1;30m                                                       [0m
+[1;37m  [0m  [1;30m                                                                        [0m [1;30m  [0m
 [1;30m     [0m                           [1;37m-[0m [1;30mV  O  I[0;1;37m [0;1;30m D[0m [1;37m-[0;1;30m [0m'

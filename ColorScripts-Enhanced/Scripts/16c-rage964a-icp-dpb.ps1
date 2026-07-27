@@ -5,7 +5,7 @@
 # Source SHA-256: 9f387e5e176764246f0749171c520687d32957e15ace7d51d1cc3e63cc063bad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ICP-DPB.ANS by Icepick (RAGE); released in rage964a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Disel Power
 # SAUCE Author: Icepick
 # SAUCE Group: RAGE
@@ -30,8 +30,4 @@ Write-Host '
 [35m ▀█[0;1;35;45m▓▄▀[0;35m▀   █[0;1;35;45m■▓[0;35m▓█▀ ▒  █[0;1;35;45m▄░■[0;35m▀▀[0m     [35m▀▓▀   █[0;1;35;45m▒■[0;35m█  ▄   ▀▀[0;1;35;45m░▓[0;35m█▀ ▀▀█[0;1;35;45m▄▒▄[0;35m▀▀  ██[0;1;35;45m░▄▀[0;35m▀  ▀██[0;1;35;45m▄▀[0;35m▀[0m
 [35m   ▀[0;1;35;45m▓[0;35m▌ ▄   █[0;1;35m█[0;1;35;45m■[0m [35m▄ ░   █[0;1;35;45m▓[0;35m▌ ▀ ▄    ▒  ▀  █[0;1;35;45m▓▀[0;35m▀[0m       [35m▓▀ ▄[0;1;35;45m▒[0;35m▄  █[0;1;35;45m▓[0;35m▌▄  ▄ █[0;1;35;45m▓[0;35m█[0m     [35m▐[0;1;35;45m▒▒[0;35m▌[0m
 [35m   ▄ ▀■ ▄   ▀■ ■[0m     [35m▀[0;1;35m■[0;35m▀ ▄[0m      [35m░ ▄[0;1;35;45m▓[0;1;35;40m▄[0;35m▀ ▀■  ▀[0m     [35m▒   ▀  ▄ ▀■ ▄[0;1;35;45m░[0;35m▄  ▀■ ▀  ▄ ▀[0;1;35;45m▀▓[0m [35m▄[0m
-[35m  [0;36m([0;1;36mF[0;36m) [0;1;35mF[0;35mile Dir''s[0m      [36m([0;1;36mR[0;36m) [0;1;35mR[0;35mead Mess▀s[0m     [36m([0;1;36mG[0;36m) [0;1;35mC[0;35mya L8r[0m         [35m▀[0;36m([0;1;36mO[0;36m) [0;1;35mB[0;35mug Me▄  ▀■[0m
-[35m  [0;36m([0;1;36mU[0;36m) [0;1;35mU[0;35mpload Warez    [0;36m([0;1;36mE[0;36m) [0;1;35mE[0;35mnter Messages  [0;36m([0;1;36mTOP[0;36m) [0;1;35mT[0;35mop Ul/Dl[0m      [36m([0;1;36mLAS[0;36m) [0;1;35mL[0;35mast Calls[0m
-[35m  [0;36m([0;1;36mD[0;36m) [0;1;35mD[0;35mownload Stuff  [0;36m([0;1;36mQ[0;36m) [0;1;35mQ[0;35muick Messy Scn [0;36m([0;1;36mULB[0;36m) [0;1;35mU[0;35mlb Info[0m       [36m([0;1;36mRSM[0;36m) [0;1;35mR[0;35mesume Dl[0m
-[35m  [0;36m([0;1;36mZ[0;36m) [0;1;35mZ[0;35mippy search    [0;36m([0;1;36mW[0;36m) [0;1;35mC[0;35mhange Ur Info  [0;36m([0;1;36mACR[0;36m) [0;1;35mA[0;35mcr Translator [0;36m([0;1;36mAUT[0;36m) [0;1;35mA[0;35muto Sig[0m
-[35m  [0;36m([0;1;36mL[0;36m) [0;1;35mL[0;35mocate Filename [0;36m([0;1;36mM[0;36m) [0;1;35mM[0;35mode (Anc/Asc)  [0;36m([0;1;36mWWF[0;36m) [0;1;35mP[0;35mcb Wrestling  [0;36m([0;1;36mTIM[0;36m) [0;1;35mD[0;35migi Clock[0m'
+[35m  [0;36m [0;1;36m [0;36m  [0;1;35m [0;35m         [0m      [36m [0;1;36m [0;36m  [0;1;35m [0;35m        ▀ [0m     [36m [0;1;36m [0;36m  [0;1;35m [0;35m      [0m         [35m▀[0;36m [0;1;36m [0;36m  [0;1;35m [0;35m     ▄  ▀■[0m'

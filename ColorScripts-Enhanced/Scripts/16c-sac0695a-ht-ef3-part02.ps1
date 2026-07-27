@@ -5,7 +5,7 @@
 # Source SHA-256: 0a12dd7a8840e50adac2617e19a6544d1f84f1ef625459b10aff80fb09a2542b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-EF3.ANS by hetero; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: EISERNE FRONT LOGIN
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -48,7 +48,7 @@ Write-Host '
 [1;30m [0;31m█[0m                           [1;30m▒[0m                                [36m▀▀▀█[0m            [31m█[0m
 [31m █[0m              [1;36mTMD [0m─[1;30m─────────────────[0m─ [36mAPPLICATION HEADQUARTERS ▓[0m            [31m█[0m
 [31m █[0m            [36m░ [0;1;36mTHE LKCC [0m─[1;30m───────────────────[0m─ [36mDISTRIBUTION SITE[0m              [31m█[0m
-[31m █[0m              [1;36mSUPERIOR ART CREATIONS [0m─[1;30m─[0m─ [36mEUROPEAN HEADQUARTERS[0m      [1;30m░[0m       [31m█[0m
+[31m █[0m              [1;36m                       [0m─[1;30m─[0m─ [36m                     [0m      [1;30m░[0m       [31m█[0m
 [31m [0;33;41m░[0m      [1;30;40m░[0m       [1;36;40mYAKUZA [0m─[1;30m────────────────────[0m─ [36mWORLD HEADQUARTERS[0m      [1;30m▒[0m       [31m█[0m
 [31m [0;33;41m░[0m      [1;30;40m▒[0m     [36m░ [0;1;36mSHADOW [0m─[1;30m─────────────────────[0m─ [36mDISTRIBUTION SITE ░    [0;1;30m▓[0m       [31m█[0m
 [31m [0;33;41m▒[0m      [1;30;40m▓[0m     [36m▒ [0;1;36mDESIGNERS [0m─[1;30m────────────────[0m─ [36mGERMAN HEADQUARTERS ▒    [0;1;30m█[0m       [31m█[0m
@@ -63,5 +63,5 @@ Write-Host '
 [33m    [0;31m▄[0m                          [33m▄[0m                    [33m▓[0m                         [33m▀[0m
                              [33m▀[0m
 
-[1;30m─ansi by hetero / lkcc^sac -- quick greets 2 rs, dd, roy, mm, hx, bm, md, xxs,─[0m
-[1;30m─────── doc, ea, ds, grap, acen, shot, plasmoid, kirby, frog + tweety! ────────[0m'
+[1;30m─                                                                             ─[0m
+[1;30m───────                                                                ────────[0m'

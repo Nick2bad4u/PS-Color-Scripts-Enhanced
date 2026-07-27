@@ -5,7 +5,7 @@
 # Source SHA-256: 205256ac0fb4071bffeed61aefbc052e414c02da0832480c99b6bc30f11a6072
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PHN-QICK.ANS by Phanteon (Bamboosh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Quick login
 # SAUCE Author: Phanteon
 # SAUCE Group: Bamboosh
@@ -30,9 +30,4 @@ Write-Host '
 [32;46m  [0;36;40m▄   [0;32;40m▀▀▀▀▀▀▀▀▀▀  ▀▀▀    ▀▀▀▀▀▀[0m      [32;40m▀▀█[0;1;32;42m▀ [0;32m▀▀[0m      [32m▀▀▀▀▀▀[0m     [32m▀[0;32;42m [0;1;32;42m▀▀▀▀[0;32m█▀   ▀[0;32;42m [0;1;32;42m▀▀[0;32m█▀[0m
 [32;46m [0;1;36;46m█▄▄[0;36m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄▄[0;36;46m [0;1;36;46m▄▄[0;36m█▄▄[0m     [36m▄▄█[0;1;36;46m▄[0;36m█▄▄▄▄▄▄▄▄▄▄█[0;36;46m [0;36;40m▄[0m         [36;40m▄[0m        [36;40m▄[0m
 [36;40m▀▀▀█[0;1;36;46m▀▀▀██▓▓████████▀▀▀▀▀▀▀▀▀▀▀█████▓▓▄▄▄▄▄▄▄███▀▀▀▀▀▀▀▀▀▀███▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m█[0m
-      [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m         [36m▀▀▀▀▀█[0;1;36;46m▀▀▀▀▀▀▀▀▀ [0;36m▀▀▀[0m        [36m▀▀▀▀▀▀█[0;1;36;46m▀▓▀▀[0;36m█▀▀▀▀█[0;1;36;46m▀▀▀▀[0;36m█▀▀[0m
-
-[36m  [0;1;32mQ[0;32muick [0;1;32mL[0;32mogin ?[0m
-
-[1;30m [0m
-A quicklogin ansi for uhmm.. Angus i think. =)[0m'
+      [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m         [36m▀▀▀▀▀█[0;1;36;46m▀▀▀▀▀▀▀▀▀ [0;36m▀▀▀[0m        [36m▀▀▀▀▀▀█[0;1;36;46m▀▓▀▀[0;36m█▀▀▀▀█[0;1;36;46m▀▀▀▀[0;36m█▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2eb3321b3eb8c2d8f7ac185519c0536cd997c756e162d398d394d4fdd52a995a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KT-PZ1.ANS by Kurrupt (force-05); released in force-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -34,7 +34,7 @@ Write-Host '
 [34m████▄▄[0;1;34m▀▀▀▀▀[0;34m ▄▄▓[0;30;44m░ [0;34;40m▄▄[0;1;34;40m▀▀▀▀▀▀▀▀▀ [0;34m▄▄[0;30;44m░[0;34;40m▄[0;1;34;40m▀▀▀▀▀ [0;34m▄[0;30;44m░ [0;34;40m▄▄[0;1;34;40m▀▀▀▀[0;34m░▄▄[0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀ [0;34m▄▓▄▄▄[0;1;34m▀▀▀▀▀▀▀▀ [0;34m▄▒[0m
 [1;37;44m [0;30;44m [0;34;40m██████████[0;30;44m [0;34;40m█[0;30;44m  [0;34;40m██[0;30;44m [0;34;40m█████████[0;30;44m [0;34;40m█[0;30;44m  [0;34;40m████████[0;30;44m [0;34;40m██████████████████████████████████████▓[0m
 [1;37;44m   [0;1;34;44m       [0;30;44m [0;1;34;44m     [0;34m████████████████████████████████████████████████████████████████[0m
-[30;44m -[0;34;40m█[0;30;44mkURRUPt/fORCE[0;34;40m█[0;30;44m- CONtACt ME ON POiNt ZERO (+612-809-7016) OR kPt@ZiP.COM.AU - [0m
+[30;44m  [0;34;40m█[0;30;44m             [0;34;40m█[0;30;44m                                                               [0m
 [1;37;44m   [0;1;34;44m   [0;30;44m [0;1;34;44m         [0;34m████████████████████████████████████████████████████████████████[0m
 [34m████[0;30;44m    [0;34;40m████[0;30;44m    [0;34;40m█[0;30;44m        [0;34;40m█████▓▀████▓▀▀▀▀▀▀▓████████████████████████████████████[0m
 [30;44m░[0;34;40m█████[0;30;44m [0;34;40m█████████████████▓▀▀▀[0;1;34;40m  [0;34m▄▀▀[0;1;34m    [0;31m▄▄▄▄▄▄[0;1;34m  [0;34m▀▀▀▓████▓▀████████████████████████▓[0m

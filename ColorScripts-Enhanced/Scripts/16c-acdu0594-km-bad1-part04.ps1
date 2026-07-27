@@ -5,7 +5,7 @@
 # Source SHA-256: 6cf6c64e55aea01a6e970c4b9d0a830e26065c3dc80ede584299bd1520bf6acc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KM-BAD1.ANS by King Midas (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Badlands
 # SAUCE Author: King Midas
 # SAUCE Group: ACiD Productions
@@ -52,14 +52,13 @@ Write-Host '
 [1;30;40m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30;40m─[0m─────────────────────────────────────────────────────────────────────────────[1;30m─[0m
 [1;30m─[0m─[1m──[0m┬[1m─────────────────────────────────────────────────────────────────────[0m┬[1m──[0m─[1;30m─[0m
-[[1;31m■[0m] [1;30m│[0m                            The Badlands                             [1;30m│ [0m[[1;31m■[0m]
+ [1;31m■[0m  [1;30m│[0m                                                                     [1;30m│ [0m [1;31m■[0m 
 [1;30m──┬─┘[0m                      (408) 268-4251 [16.8 D/S]                      [1;30m└─┬──[0m
-[1;30m──┘[0m                Running Vision-X registered wit FelonyNet                [1;30m└──[0m
-                          1.5 gigzz wit 16.8 ringdown
-       Lots o'' affils: BGR Distro, Lance-2 distro, NiG WHQ, Chaos Distro
-      NFA Member Board, NADA Distro, [1mACiD Affiliate[0m, UiD Us Hq, JAHoV WHQ
-                 SC Courier HQ, iLLUSiON Distro, Unreal Distro
+[1;30m──┘[0m                                                                         [1;30m└──[0m
+                                                     
+                                                                        
+                                     [1m              [0m                      
+                                                              
 [1;30m─[0m─[1m───────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m
                  A N S [1mi  [0mb y  K [1mi [0mn g  M [1mi [0md a s  o f  A C [1mi [0mD
-[1;30m─[0m─[1m───────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m
-                  [1;30mGreets go out to the one''s i''ve left behind[0m'
+[1;30m─[0m─[1m───────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m'

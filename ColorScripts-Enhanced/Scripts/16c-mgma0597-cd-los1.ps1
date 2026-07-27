@@ -5,7 +5,7 @@
 # Source SHA-256: 9e3b6ea7634879835a5ea18133cc2eadc8dfa1c6ab66e43852bccbffbaffad2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!-LOS1.ANS by cardiac (magma); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lost reality font #1
 # SAUCE Author: cardiac
 # SAUCE Group: magma
@@ -15,11 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-[31m░[0;37m [0;31m░▒▓█[0;1;31;41mcardiac presents...[0;31m▌[0m                                [1;31mmagma `97[0m
+[31m░[0;37m [0;31m░▒▓█[0;1;31;41m                   [0;31m▌[0m                                [1;31m         [0m
 
 
 
-                       [1;34melectric head[0;34m''[0;1;34ms [0;34m..[0m
+                       [1;34m             [0;34m [0;1;34m  [0;34m  [0m
 
 [1;30mx$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$x[0m
 [1;30m$"[0;34m▄[0;1;34;44m░▄▄[0;34m█▄[0;1;30m"$$$[0;31m [0;37m░[0;30;47m▓[0;31;40m [0;1;30;40m$$$$$$$$$$$$$$$$$$$$$$[0m░[30;47m▓[0;1;30;40m$$$$$$$$$$$$$$$$$$$$$[0;34m▄[0;1;34;44m░▄▄[0;34m█▄[0;1;30m$$$$$$[0;31m [0;37m░[0;30;47m▓[0;31;40m [0;1;30;40m$$$[0m
@@ -29,14 +29,5 @@ Write-Host '
 [1;30m$$[0;34m▐[0;1;34;44m▐█[0;1;34;47m▓▓[0;1;34;44m░[0;34m▌[0;1;30m$$$$[0;34m▄█[0;1;34;44m▄▄[0;34m█[0;31m [0;1;30m$[0;1;34;44m░▓███░[0;34m [0;1;30m$$$[0;34m [0;1;34;44m░▓██▌[0;34m█[0;37m [0;1;30m$$[0;34m▄▄▄▄▄▄ [0;37m  [0;34m ▀[0;1;34;44m▀██▄[0;34m██[0;37m [0;1;30m$$$[0;34m▐[0;1;34;44m▐█[0;1;34;47m▓▓[0;1;34;44m░[0;34m▌[0;1;30m$$$s[0;34m▄█[0;1;34;44m▄▄[0;34m▄[0;37m [0;1;30m$$[0m
 [1;30m$$[0;34m▐[0;1;34;44m▀███▌[0;34m▌[0;37m ░[0;30;47m▓[0;34;40m▐[0;1;34;44m▐███▌[0;34m▌[0;1;30m$[0;34m▐[0;1;34;44m▐█[0;1;34;47m▓▓[0;1;34;44m▌[0;34m▌[0;1;30m$$$[0;34m▐[0;1;34;44m▐cd!▌[0;34m▌[0;1;30m$$$[0;34m▐[0;1;34;44m▐█[0;1;34;47m▓▓[0;1;34;44m▌[0;34m▌[0;37m░░[0;31m [0;34m▐[0;1;34;44m▐▓██▌[0;34m▌[0;37m [0;1;30m$$$[0;34m▐[0;1;34;44m▀███▌[0;34m▌[0;1;30m$$$[0;34m▐[0;1;34;44m▐███▌[0;34m▌[0;1;30m$$[0m
 [1;30m$$[0;34m▀▀▀▀█[0;1;34;44m▀[0;34m█▄▄▄█[0;1;34;44m▀▀▀[0;34m▀▀[0;1;30m$$$[0;34m▀▀[0;1;34;44m▀▀▀░[0;34m▄▄▄█[0;1;34;44m▀▀▀[0;34m▀▀[0;1;30m$$[0m░[30;47m▓[0;1;30;40m$[0;34m▀▀[0;1;34;44m▀▀▀░[0;34m▄▄▄█[0;1;34;44m▀▀▀[0;34m▀▀[0;37m [0;1;30m$$$[0;31m [0;34m▀▀▀▀█[0;1;34;44m▀[0;34m█▄▄▄█[0;1;34;44m▀▀▀[0;34m▀▀[0;37m [0;1;30m$$[0m
-[1;30m$$$$$$sssssssssss$cd!$sssssssssssss$$$$$$$$ssssssssssss$$$[0m░░[1;30m$$$$ssssssssssss$$$$[0m
-[1;30m"$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;31m  [0;37m░[0;31m [0;37m░▒▓█[0;1;30;47mreality[0m█▓▒░[31m [0;37m░[0;31m  [0;1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$"[0m
-
-
-
-                      [31m                    [0;37m     [0m
-                         [1;31m    [0;34m..[0;1;34m a lost[0;1;31m [0;1;34mreality[0;34m![0m
-
-
-
-                                    [31m                                            [0m'
+[1;30m                                                          [0m░░[1;30m                    [0m
+[1;30m"$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;31m  [0;37m░[0;31m [0;37m░▒▓█[0;1;30;47mreality[0m█▓▒░[31m [0;37m░[0;31m  [0;1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$"[0m'

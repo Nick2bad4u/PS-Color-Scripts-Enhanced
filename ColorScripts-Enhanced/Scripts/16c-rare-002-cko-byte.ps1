@@ -5,7 +5,7 @@
 # Source SHA-256: 05be2f9bc626423887d23ae1acfea1f7c8239dbc8ea4f7476d1b17690e350ffe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CKO-BYTE.ANS by cuckoo (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: byteztag logo
 # SAUCE Author: cuckoo
 # SAUCE Group: rare!ascii
@@ -15,14 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-   [31msy[0;1;31myyy[0m [1;30m::: [0m                  [31msy[0;1;31myyy [0;1;30m:::[0m   [1;30mlogo done by cuckoo[0m  [1;30m ::[0m [1;30m [0m
-yyy[1;31m [0;31m:§[0;1;31m§&[0m yyyyyyyyyyyyyyyyyy[1my[0myyy[1;31m [0;31m:§[0;1;31m§& [0myyyyyyy[1my[0myyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+   [31m  [0;1;31m   [0m [1;30m    [0m                  [31m  [0;1;31m    [0;1;30m   [0m   [1;30m                   [0m  [1;30m   [0m [1;30m [0m
+   [1;31m [0;31m  [0;1;31m  [0m                   [1m [0m   [1;31m [0;31m  [0;1;31m   [0m       [1m [0m                                   
 ÑÑS: [31m§[0;1;31m§§ [0m┘²°°²┘*7lSSl7*7l[1mS[0;1;33mS[0;1;37ml[0m7*7l [31m§[0;1;31m§§[0m ┘²°┘7S[1mS[0;1;33mS[0;1;37mS[0mS[1mS[0mSl7*┘²°°²┘*7lSSl7*┘²°°²┘*7lS[1mS[0mS[1mÑ[0;1;33mÑ[0m
 [1;37mÑ[0mSl: [31m&[0;1;31m§§:7┘²²┘7@┌.[0m``[31m.┐[0;1;31m@[0m :l[1ml[0m: [31m@┌[0;1;31m. [0;31m&[0;1;31m§§d7┘²[0m ll[1mll[0mll7''[31m.┐[0;1;31m@7┘²²┘7@┌.[0m``[31m.┐[0;1;31m@7┘²²┘7@┌.[0m`7lS[1mÑ[0m
-[1;33mÑ[0;1;37mS[0ml: [31ml[0;1;31m§§l[0m :ll: [31ml[0;1;31m§§l[0;31mj§[0;1;31m§l[0m :ll: [31ml[0;1;31m§§l[0;31ml[0;1;31mS§l[0m :ll:[31m yy[0;1;31myys[0;31mj[0;1;31m§§l[0m  ^^  [31m&[0;1;31m§§:[0;31mj§[0;1;31m§l[0m  ^^      └lS[1mÑ[0m
+[1;33m [0;1;37m [0m   [31m [0;1;31m   [0m      [31m [0;1;31m   [0;31m  [0;1;31m  [0m      [31m [0;1;31m   [0;31m [0;1;31m   [0m     [31m   [0;1;31m   [0;31m [0;1;31m   [0m      [31m [0;1;31m   [0;31m  [0;1;31m  [0m          └  [1m [0m
 [1m^[0m^^^ [31mS[0;1;31mS§§[0m ^^^^ [31mS[0;1;31mS§§[0;31mS[0;1;31mS§§[0m `^^` [31m:[0;1;31m§§&[0;31mS[0;1;31mS§S[0m `^^`[31m &[0;1;31mS§: [0;31mS[0;1;31mS§§^^^^^^^^^^^^^^^^^^^^§§§§[0m ^^^
 [31m [0;1;30m::[0m  [31m^^[0;1;31m^^^^^^^^^^^^[0;31m^[0;1;31m^^^^^^^^^^§§§[0;31m^[0;1;31m^^^^^^^^^^^^^ [0;31m^[0;1;31m^^^^^^[0;1;37m [0m [[1mbyteztag[0m][1m  [0;31m^^[0;1;31m^^^^^ [0;1;30m:::[0m
-                            [1;30m  [0;31m^^[0;1;31m^ [0m
-
-[1;30m                    [0m           [1;30m-[0m [1;30mbyteztag logo -[0m
-                      [1;30m- no one uses this one, except niobium[0m'
+                            [1;30m  [0;31m^^[0;1;31m^ [0m'

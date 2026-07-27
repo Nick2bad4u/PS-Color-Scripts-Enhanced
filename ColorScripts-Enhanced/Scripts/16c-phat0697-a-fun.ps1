@@ -5,7 +5,7 @@
 # Source SHA-256: 3f35f12e766e5f5bdac614ac74568521aa2bcab9b489f18ced0816bc77bb5a55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: A-FUN.ANS by alecs (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: funeral fog
 # SAUCE Author: alecs
 # SAUCE Group: Phat Studios '97
@@ -49,10 +49,8 @@ alecs / [1mmean scheme [0m/ [1mcia[0m / [1mphat[0m                [34m   
 [1;33;47m░▓██[0;1;33;40m▌[0m            [1;33;47m▓[0;1;33;40m▀█[0;1;37;40m██[0m     ▄[1;33m▄[0;1;33;47m▄█▓▓░[0m ▄[1;33;47m▄[0;1;37;40m██[0;1;33;47m▀[0m▀ [36m▀▐[0;1;36;46m▀[0;36m▄[0;37m ▀[0;1;33;47m▓▄█[0m█         [36m▐▀▀▀█▀[0;1;36;46m▀▀▐▓▓█▀[0;36m▄[0;1;36;46m▄▓▓[0;36m▀[0m
 [1;33;47m▓██▓▓[0;1;33;40m░░[0m          [1;33m▀▀▐[0;1;37m██▄▄[0;1;33m▄[0;1;33;47m▄[0;1;37;40m█▀[0;1;33;40m▀▀[0m▐[1;33;47m░[0m▌█  [1;33;47m░▓[0;1;37;40m██[0m▒░    ▄▐[1;33;47m░▓[0;1;37;40m█[0;1;33;47m▓[0m         [36m▐[0m   [36m▐▌[0m   [36m░░ ▀[0;1;36m▀▀▀[0;1;36;46m░[0;36m█[0m
 [1;33m▀▀▌░░[0m              ▀[1;33m▀▀[0;1;37m▀▀[0;1;33m▀ [0m    ▀▀▌   ▀▌░░▀▌ ▀▀  [1;33m▀[0;1;37m▀▌[0m▀░         [36m▀   ▐▌[0m
-[37m  [0;1;33m▀[0m   [1;36mfuneral fog [0;36m-[0;1;36m +o catharsis[0m     ▀           [1m▌[0m            [36m■▄▄▀[0m
-                            [1;30mansi by alecs[0m        [1;33m▀[0;1;30m [0m
+[37m  [0;1;33m▀[0m   [1;36m            [0;36m [0;1;36m             [0m     ▀           [1m▌[0m            [36m■▄▄▀[0m
+                            [1;30m             [0m        [1;33m▀[0;1;30m [0m
 
 
-[1;30m-------------------------------------------------------------------------------[0m
-colourscheme by [1mtna[0m. sorry, it was made in haste (for a [1mcompo[0m in [1m#nightcompo[0m).
-got [1m4th [0mafter[1m shaft[0m,[1m sargon [0mand[1m mr4tune[0m.[0m'
+[1;30m-------------------------------------------------------------------------------[0m'

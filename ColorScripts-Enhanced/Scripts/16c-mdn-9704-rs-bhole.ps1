@@ -5,7 +5,7 @@
 # Source SHA-256: e676917a46a0a10ea7bf8317adad0b9f41dc93d7a90e40e11df516cb75735372
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-BHOLE.ANS by rorshack (Maiden Brazil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: black hole menu, won't you come?
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -23,13 +23,4 @@ Write-Host '
 [1;30;46m░[0;36m██[0;1;36;46m░░░[0m [34m▐████[0;37m [0;34m███[0;1;30;44m░░░░░░[0m [34m████[0;1;30;44m░░[0m [1;30;44m░░░░░░[0;34m▌▐[0;1;30;44m░░░[0;34m▌[0;36m▐[0;1;36m▌[0;34m▐██[0;1;30;44m░░[0m [34m███[0;1;30;44m░░░[0m [1;34;44m░░░[0;34m██[0;1;30;44m░░░░[0m [34m██[0;1;30;44m░░[0;34m▌[0;36m▐[0;1;36;46m░░░[0;36m██[0;1;30;46m░[0m
 [1;36;46m░░░▓▓▓[0m [34m▐[0;1;30;44m░░░░[0m [1;30;44m░░░▒▓▓▓▓▓[0m [1;30;44m░░░░▓▓[0m [1;30;44m▓▓▓▓▓▓[0;1;30;40m▌▐[0;1;30;44m▓▓▓[0;1;30;40m▌[0;1;36;40m▐▌[0;1;30;40m▐[0;1;30;44m░░▓▓[0m [1;30;44m░░░░▓▓[0m [1;30;44m░░░░░▓▓▓▓[0m [1;30;44m░░▓▓[0;1;30;40m▌[0;1;36;40m▐[0;1;36;46m▓▓▓░░░[0m
 [1;36;46m▓▓▓[0;1;36;40m███[0m [1;30;44m▓▓▓▓▓[0;1;30;40m▄[0;1;30;44m▓▓▓▓[0;1;30;40m█████▄[0;1;30;44m▓▓▓▓██[0;1;30;40m▄██████▌█████[0m  [1;30m█[0;1;30;44m▓▓[0;1;30;40m██[0m [1;30;44m▓▓▓▓[0;1;30;40m██▄[0;1;30;44m▓▓▓▓▓[0;1;30;40m████▄[0;1;30;44m▓▓[0;1;30;40m██[0m [1;36m████[0;1;36;46m▓▓▓[0m
-[1;36;46m█[0;1;37;40m██[0;1;36;40m▀▀[0m  [1;30m▀▀▀▀▀[0m           [1;30m▀▀▀▀[0m          [1;30m▀▀▀▀▀[0m  [1;30m▀▀▀▀▀[0m    [1;30m▀▀▀[0m    [1;30m▀▀▀▀[0m   [1;30m▀▀▀[0m  [1m▀██[0;1;36m████[0m
-
-     [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m
-     [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m
-     [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m
-     [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m
-     [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m
-     [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m
-     [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m
-     [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m       [1;30m[[0;1;37mx[0;1;30m][0m [1mXz[0mxxx[1;30mxyyyywwww[0m'
+[1;36;46m█[0;1;37;40m██[0;1;36;40m▀▀[0m  [1;30m▀▀▀▀▀[0m           [1;30m▀▀▀▀[0m          [1;30m▀▀▀▀▀[0m  [1;30m▀▀▀▀▀[0m    [1;30m▀▀▀[0m    [1;30m▀▀▀▀[0m   [1;30m▀▀▀[0m  [1m▀██[0;1;36m████[0m'

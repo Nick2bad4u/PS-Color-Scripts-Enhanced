@@ -5,7 +5,7 @@
 # Source SHA-256: b89a32d42a12faa1f125cb1cdcce51639c039cd76b905f1810ffa9f7278c2b8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Frx-hp01.ans by Ferrex (sac-19); released in sac-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
 [1m█▀▀[0;1;36m▀▀[0;34m [0;1;36m▀[0;1;34m▀▀▀▀▀[0;34m [0;1;34m▀▀▀▀▀[0;1;37m [0;34m▀[0;1;34m▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀▀▀[0;1;37m [0;34m▀▀▀▀▀▀▀▀[0;1;37m [0;34m▀▀[0;1;37m [0;34m▀[0;1;37m [0;34m▀[0;1;37m      [0;34m▀[0;1;37m               [0;34m [0;1;37m            [0m
 [1;34m▀[0m                                                                              [34m░[0m
 [1;34m█[0m               [34m░[0m               [34m░[0m                                              [34m░[0m
-[1;34m█[0m [34mhAMPSHiRE.[0m        [34m░[0m             [34m░[0m    [34m░[0m   [34m░[0;37m [0;34mFerrex<SAC>[0m                     [34m [0;37m [0;34m▒[0m
+[1;34m█[0m [34m          [0m        [34m░[0m             [34m░[0m    [34m░[0m   [34m░[0;37m [0;34m           [0m                     [34m [0;37m [0;34m▒[0m
 [1;34m█[0m             [34m░[0;37m [0;34m░▒▒▒▒░[0m           [34m░▒░[0;37m [0;34m░[0;37m  [0;34m░░[0m                       [34m            [0;37m  [0;34m▓[0m
 [1;34m▄[0m          [34m░░░▒▒▒▒▄▄▒▒░░░░  [0m   [34m░░▒▒▒░░░░▒░[0m      [34m░[0m        [34m ░[0m         [34m         [0;37m  [0;34m▓[0m
 [1;34m█[0m  [34m░[0;37m  [0;34m░░[0;37m [0;34m▒▒▒▒░[0;37m [0;34m■▀░░[0;37m [0;34m░▀■[0;1;34m▄▄[0m [34m░░[0;37m  [0;34m░▒[0;37m  [0;34m▄▄▄▄▄▄[0;37m [0;34m▒░░[0;37m  [0;34m░░[0m        [34m░[0m         [34m            [0;37m [0;34m▒[0m

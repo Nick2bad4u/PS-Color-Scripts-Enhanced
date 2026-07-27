@@ -5,7 +5,7 @@
 # Source SHA-256: 33443810c11c1b2b8ef73c16a76cc487523ba7c6dff90a511789a415437f05c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-WAST1.ANS by Diamond Traveller (mistigris); released in mist1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wasted Time
 # SAUCE Author: Diamond Traveller
 # SAUCE Group: mistigris
@@ -61,6 +61,4 @@ Write-Host '
 
            [1m─[0m───[1;30m─[0m─[1;30m────────[0;1;37md[0;1;30m─[0;1;37mi[0;1;30m─[0;1;37ma[0;1;30m─[0;1;37mm[0;1;30m─[0;1;37mo[0;1;30m─[0;1;37mn[0;1;30m─[0;1;37md[0;1;30m───[0;1;37mt[0;1;30m─[0;1;37mr[0;1;30m─[0;1;37ma[0;1;30m─[0;1;37mv[0;1;30m─[0;1;37me[0;1;30m─[0;1;37ml[0;1;30m─[0;1;37ml[0;1;30m─[0;1;37me[0;1;30m─[0;1;37mr[0;1;30m───────[0m─[1;30m─[0m────[1m─[0m
 
-[1;30m---------------8<---------------------------------------------------------------[0m
-[1;30mfinish''d in speed for tha kewl mist november pack..[0m
-[1;30mgreets to zoltar, eerie, blacke, mistigris staff and ... thas all =][0m'
+[1;30m---------------8<---------------------------------------------------------------[0m'

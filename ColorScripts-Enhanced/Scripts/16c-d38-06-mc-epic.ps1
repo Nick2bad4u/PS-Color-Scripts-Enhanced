@@ -5,7 +5,7 @@
 # Source SHA-256: 9e111ff4bdc251329efffc846ecc2df9368473e3c238bc1dccbfd060e9811616
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!EPIC!.ANS by Madcap, teehee (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Epic megagames?!?!
 # SAUCE Author: Madcap, teehee
 # SAUCE Group: D38
@@ -38,19 +38,19 @@ Write-Host '
 [1;30;47m  ▐[0;1;30;40m█[0;1;30;47m▐▄─█ [0;1;30;40m█[0;1;30;47m▄▀[0;1;30;40m█[0;1;30;47m┌─▀[0;1;30;40m█[0;1;30;47m▄  ▄ [0;1;30;40m▌[0;33m▐[0;1;33m█[0;1;33;43m▄[0;33m▌ [0;1;33m█   █ █[0;33m▀▀ [0;1;33;43m▄[0;1;33;40m▄ [0;1;33;43m▄[0;1;33;40m [0;1;33;44m▄[0;1;33;40m▀[0;33m▀▀  [0;1;33m▄▀[0;33m▀▀[0;1;33m▄ █[0;33m▀▀ [0;1;30m▌ [0;1;33;43m▄[0;1;33;40m▀[0;33m▀▀ [0;1;33;43m▄[0;1;33;40m▀[0;33m▀[0;1;33;43m▄[0;1;33;40m █   █[0;33m▀▀[0;1;33;43m▄[0m
 [1;30;47m             ┘       [0;1;30;40m▀[0;33m▄█▀▀[0;33;47m▓[0;33m▄█▄▄ █ █▄▄ █▀▓█ ▄▄▄▀  ▀▄▄▄▀ █▀    █▄▄▌ [0;33;44m▓[0;33m▄▄[0;33;44m▀[0;1;33;40m [0;33m█▄▄ █▄▄[0;1;33;47m▀[0m
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀── ─
- [1;35mDonut rip it!.. <thinks>.. wait a sec.. why     [0;1;30m▄[0;1;30;47m▀ [0;30;47moi!.. here.. you[0m███▀[1;30m▀■[0;1;37m▄██▄[0m
-[1;35mwould you wanna rip it?.. hmm.. and what exactly[0;1;30m▐[0m██[30;47mcan have my money[0m█▓   [1m▄▄[0;1;36m`''[0m─▄
-[1;35mwould you rip?!@#!?.. I dunno.. maybe the guy   [0m▐██[30;47m.. and my food!..[0m█[1;30m▒   [0;1;37m██[0m▐[1m██[0m▌
+ [1;35m                                                [0;1;30m▄[0;1;30;47m▀ [0;30;47m                [0m███▀[1;30m▀■[0;1;37m▄██▄[0m
+[1;35m                                                [0;1;30m▐[0m██[30;47m                 [0m█▓   [1m▄▄[0;1;36m  [0m─▄
+[1;35m                                                [0m▐██[30;47m                 [0m█[1;30m▒   [0;1;37m██[0m▐[1m██[0m▌
 [1;35mwho doesnt have no eyeballs..hmm.. hmm.. that   [0;1;30m░[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀▀     [0;1;37;43m▄[0;1;37;40m███[0;1;37;43m▄[0m
-[1;35;40mgreen bit on the wall maybe?.. anyway.. Madcap did this.. and is now in a[0;1;37;40m▐█ █[0m
-[1;35;40mstate of wonder on why he did.. maybe it was to prove a point.. that..   [0;1;37;40m▄< ▄▌[0m
-[1;35;40mepicmegagames really need a new ansi catalog.. ok ok.. Blake Stone:Aliens of[0m
-[1;35;40mgold is under Apogee.. but yeah.. I mean.. why dont they.. urm.. use something[0m
-[1;35;40mdifferent in their catalogs, instead of thedraw fonts.. or whatever they''re[0m
-[1;35;40musing.. they''re nice and presentable I guess... but they''re phudging boring me[0m
-[1;35;40mpants off.. I thought.. that maybe.. just maybe.. with Safari software.. or[0m
-[1;35;40mwhatever their name was.. they might think "hey.. lets do something good[0m
-[1;35;40mlookin".. grr.. sure sure.. maybe they should use better in-game graphics firet[0m
-[1;35;40mbut can ya see where I''m coming from?[0m
+[1;35;40m                                                                         [0;1;37;40m▐█ █[0m
+[1;35;40m                                                                         [0;1;37;40m▄  ▄▌[0m
+[1;35;40m                                                                            [0m
+[1;35;40m                                                                              [0m
+[1;35;40m                                                                           [0m
+[1;35;40m                                                                              [0m
+[1;35;40m                                                                           [0m
+[1;35;40m                                                                        [0m
+[1;35;40m                                                                               [0m
+[1;35;40m                                     [0m
 
                                                                     [1;35;40m-MC!D38[0m'

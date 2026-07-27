@@ -5,7 +5,7 @@
 # Source SHA-256: ecc7cea93e18fab0d4d265590ceeca4fcc704b5e4f2fb3e75f5b6dbf165dae97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WM-1B67.ANS by Watermelon (R.C.A.); released in rca-9606 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Site 1B67
 # SAUCE Author: Watermelon
 # SAUCE Group: R.C.A.
@@ -16,8 +16,8 @@
 
 Write-Host '
 [34m╓────────────────────┬─────────────────────────────────────────────────────────╖[0m
-[34m║[0;31m § §  [0;32m ¢¢¢[0m   [1;34m Ω[0m     [34m│[0;31m A Big Hey Goes Out To aLL my R.C.A. buddies and all my[0;37m  [0;34m║[0m
-[34m║[0;31m §  §[0;37m [0;32m¢[0m     [1;34m Ω Ω[0m    [34m│[0;37m [0;31mother Buds. Well i''m outta here. l8r all.[0m               [34m║[0m
+[34m║[0;31m      [0;32m    [0m   [1;34m  [0m     [34m│[0;31m                                                       [0;37m  [0;34m║[0m
+[34m║[0;31m     [0;37m [0;32m [0m     [1;34m    [0m    [34m│[0;37m [0;31m                                         [0m               [34m║[0m
 [34m║[0;31m § [0;37m [0;31m  [0;37m [0;32m¢¢¢[0;37m  [0;1;34mΩ[0m  [1;34m Ω[0m [1m96[0;34m│[0m                                                         [34m║[0m
 [34m╟────────────────────┴─────────────────────────────────────────────────────────╢[0m
 [34m║[0m      [31m [0;34mOne[0;37m  [0;34m▄▓██▀[0;31m ░░░░░░░░░▄[0m      [1;34mSite[0m               [1;30m▄▄█[0;34m░░▒▒▒▓▓▓▓▓▓▓▓▓██████▀[0;37m [0;34m║[0m

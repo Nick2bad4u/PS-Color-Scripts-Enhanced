@@ -5,7 +5,7 @@
 # Source SHA-256: 791e98e2f68ae41ef813c9303853fa00499150a5017081854c38f0d844f76387
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NC-CH1.ICE by Neurotic (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cybernetic Holocaust
 # SAUCE Author: Neurotic
 # SAUCE Group: iCE
@@ -53,7 +53,4 @@ Write-Host '
 ▐[1;47m▓[0;1;40m███[0;1;47m▓▒░[0m█▄ ▄[1m██[0m█ [1;47m▐[0;1;40m█[0;1;47m▓[0m▌▐[1;47m▓▄[0m▄ ▄[1;47m▐[0;1;40m█[0;30;47m░[0m [1;37;47m▐[0;1;37;40m██[0m▌      ▐[1;47m▓█[0;1;40m█[0;1;47m▄[0;1;40m████[0;1;47m▌[0m [30;47m░[0;1;37;40m███[0;1;37;47m▄[0m▄[1;47m▐[0;1;40m██[0;1;47m▓[0m▌▐[1;47m▓[0;1;40m██████[0;1;47m▓[0m▌ █[1m█[0;1;47m▌[0m
 ▐[1;47m▓[0;1;40m██[0;1;47m█[0;1;40m███[0;1;47m█▓[0m▌▐[1m█[0;1;47m▓[0m▌▐[1;47m▓[0;1;40m█[0;1;47m▓[0m▌ ▀▀[1;47m▀[0;1;40m███[0;1;47m▓[0m▌▐[1;47m▓[0;1;40m██[0;1;47m▌[0m▄▄[1;47m▄[0;1;40m██[0m▓ [1;47m▒[0;1;40m███████[0;1;47m▓[0m▌▐[1;47m▓[0;1;40m███████[0;1;47m▓[0m▌ ▀▀▀▀[1;47m▓[0;1;40m███[0m█ [1;47m▐[0;1;40m█[0;1;47m░[0m
 ▐[1;47m▓[0;1;40m█[0;1;47m█▀[0m▀█[1;47m█[0;1;40m█[0;1;47m█[0m█ [1;47m▀[0m▀ █[1m██████[0;1;47m▄[0m▄▀[1;47m▀[0m█▀ ▐[1;47m▓[0;1;40m███████[0;1;47m▓[0m▌▐[1;47m▓[0;1;40m██[0;1;47m▀[0m▀[47m [0;1;40m███[0m█ ▀[1;47m▀[0;1;40m██[0;1;47m▓▒░[0m█▀ ▐[1;47m▓[0;1;40m██████[0;1;47m▓[0m▌ [1;47m▐[0;1;40m█[0;1;47m▒[0m
-▐[1;47m▓[0;1;40m█[0;1;47m█[0m▌ ▐[1;47m█[0;1;40m█[0;1;47m█[0;30;47m░[0m [37;40m▄▄ [0;30;47m░[0;1;37;40m█[0;1;37;47m▀▐[0;1;37;40m██[0;1;37;47m▓▒░[0m▌ ▄▐▄ ▀[1;47m▀[0;1;40m██[0;1;47m▓▒░[0m█▀ █[1m██[0;1;47m▓[0m▌ ▐[1;47m▓[0;1;40m██[0;30;47m░[0m [37;40m▄▄▄▄▄▄▄▄▐▄ ▀[0;1;37;47m▀[0;1;37;40m████[0m█▀  [1;47m▐[0;1;40m█[0;1;47m▓[0m
-[1;40m [0mc[1mybernetic [0mh[1molocaust [0;1;30m= [0m2[1m16-[0m5[1m43-[0m2[1m338 [0;1;30m= [0mS[1mysop: [0mM[1morpheus <AC[0mi[1mD> [0;1;30m= [0ma[1mrt/[0ms[1mtuff/[0me[1mtc[0m
-[1m   pic and stuff by neurotic[0;1;30m. [0;1;37mif you want an ansi for your board or whatever[0m
-[1;37m    send [0m$20[1m to: [0mjason p [1;30m\ [0mpo box 215 [1;30m\ [0morleans, ontario [1;30m\ [0mk1c 1s7 [1;30m\ [0mcanada[0m'
+▐[1;47m▓[0;1;40m█[0;1;47m█[0m▌ ▐[1;47m█[0;1;40m█[0;1;47m█[0;30;47m░[0m [37;40m▄▄ [0;30;47m░[0;1;37;40m█[0;1;37;47m▀▐[0;1;37;40m██[0;1;37;47m▓▒░[0m▌ ▄▐▄ ▀[1;47m▀[0;1;40m██[0;1;47m▓▒░[0m█▀ █[1m██[0;1;47m▓[0m▌ ▐[1;47m▓[0;1;40m██[0;30;47m░[0m [37;40m▄▄▄▄▄▄▄▄▐▄ ▀[0;1;37;47m▀[0;1;37;40m████[0m█▀  [1;47m▐[0;1;40m█[0;1;47m▓[0m'

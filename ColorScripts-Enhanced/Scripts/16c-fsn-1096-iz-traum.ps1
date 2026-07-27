@@ -5,7 +5,7 @@
 # Source SHA-256: 94475cefe2a36e40e93d6da9356e12211500e86d63d4ca78fc5fd59f41fe8832
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-TRAUM.ANS by ize (fire); released in fsn-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: trauma
 # SAUCE Author: ize
 # SAUCE Group: fire
@@ -29,9 +29,4 @@ Write-Host '
 [1;32m [0;1;33m  [0;1;32m [0;1;36m [0m░[30;47m▓[0;1;33;47m▓[0;1;33;40m█ [0;36m▀[0;1;36;46m▀[0;1;36;40m█████▄▄▄[0;1;36;46m▄[0;1;36;40m██[0;1;37;40m██[0;1;36;40m█▀ [0;1;33;40m  [0;1;33;47m▓[0;1;33;40m█████[0;1;36;40m [0;36m▐[0;1;36;46m▐[0;1;36;40m███▌  [0;36m▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m███████████▄  [0;36m▄[0;1;36;46m▄[0;1;36;40m█[0;1;37;40m██▌[0;1;36;40m [0;1;33;40m ▐█[0;1;33;47m▓[0m░[30;47m▓[0m
 [1;32;40m [0;1;33;40m [0m   ░[30;47m▓[0;1;33;47m▓[0;1;33;40m█[0;1;37;40m█▄[0;1;33;40m▄[0;1;36;40m [0;36m▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m██[0;1;37;40m██▀▀▀[0;1;36;40m   [0;1;33;40m ▄███████▌[0;1;36;40m [0;36m▀[0;1;36m▀▀▀▀  [0;1;33m  ▄▄▄▄▄▄[0;1;36m [0;36m▀[0;1;36m▀▀▀[0;1;36;46m▀[0;1;36;47m█[0;1;36;40m█████[0;1;37;40m██▀ [0;1;36;40m [0;1;33;40m ██[0;1;33;47m▓[0m░[30;47m▓[0m
 [1;32;40m  [0;1;33;40m [0m    [1;33m▐█[0;1;37m███[0;1;33m██▄▄[0m       [1;33m ▄▄█[0;1;33;47m██[0;1;33;40m█████████▄▄▄▄▄▄▄[0;1;37;47m█[0;1;37;40m██[0;1;33;40m██████[0;1;33;47m█▓▓[0;1;33;40m▄▄ [0;1;36;40m [0;36m▀[0;1;36m▀▀▀ [0;1;33m   ▄███▌[0m
-    [1;33m [0;1;36m  [0;1;33m [0;1;37m▀▀████[0;1;33m████████[0;1;33;47m█▓▓██[0;1;33;40m████████████████[0;1;37;47m██[0;1;37;40m█[0;1;37;47m█[0;1;37;40m███[0;1;33;40m███████████▄▄▄▄▄▄██[0;1;33;47m▓▓[0;1;33;40m▀▀ [0m
-       [1;33m [0;1;36m [0;1;33m [0m       [1;33m [0m                                                [1m  [0m
-
-   [1m- ize - bo.alm@mailbox.kdtnet.se[0m
-[1m     [0m
-                      [1m     [0m'
+    [1;33m [0;1;36m  [0;1;33m [0;1;37m▀▀████[0;1;33m████████[0;1;33;47m█▓▓██[0;1;33;40m████████████████[0;1;37;47m██[0;1;37;40m█[0;1;37;47m█[0;1;37;40m███[0;1;33;40m███████████▄▄▄▄▄▄██[0;1;33;47m▓▓[0;1;33;40m▀▀ [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c5d692fdf7bf3ab6bb329d0e016fa7b5ac6024b0cbfbf7f0bd262a81332968c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NS-123.ANS by ansichrist (used coalition); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: showing my skills... or not.
 # SAUCE Author: ansichrist
 # SAUCE Group: used coalition
@@ -55,7 +55,7 @@ Write-Host '
 
 [36m░[0;30;46m▓░[0;36;40m▓█[0;1;37;46m░▒▓▒░[0;36m▌▌▐[0;37m [0;1;37mUsed for guess who? ;)[0m
 
-[1;30meerie is my idol! ansichrist.[0m                                           [35m▄▄▄▄▄[0m
+[1;30m                             [0m                                           [35m▄▄▄▄▄[0m
 [35m  ▄──▄▄▄      ▄──▄▄▄ ▄──▄▄▄▄ ▄[0m          [35m▄──▄▄┌─────────▄▄▄░▄──▄▄┌───────▀▀[0;1;31;45m░░▒[0m
 [1m [0;35m ░  [0;1;31;45m░▒░[0;1;37;40m     [0;35m ░  █[0;1;31;45m▒░[0;35m ░  [0;1;31;45m░▒[0m              [35m░  [0;1;31;45m░▒[0;35m█─────────[0;1;31;45m░▒░[0;35m░░  [0;1;31;45m▒░░[0;35m─────────█[0;1;31;45m░░[0m
 [33m░[0;35m    ▓[0;1;31;45m░[0;35m█ [0;33m░░░░[0;35m    ▓[0;1;31;45m░[0;35m█░   ▓[0;1;31;45m░[0;35m [0;33m░░░░░░░░░░░░[0;35m    ▓[0;1;31;45m░[0;35m█ [0;33m░░░░[0;1;37m [0;35m   ▓[0;1;31;45m░[0;35m█░   ▓[0;1;31;45m░[0;35m█ [0;33m░░░░ [0;35m   ▓█[0;1;31;45m░[0;35m [0;33m░[0m

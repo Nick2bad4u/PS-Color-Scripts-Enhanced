@@ -5,7 +5,7 @@
 # Source SHA-256: f7077d380eb98b708ed73ddf29616ccbe5845b3b39fd098e990109156970d147
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FN-AM.ANS by Fusion (acdu0793); released in acdu0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 42-80
 # Columns: 1-80
 
@@ -47,5 +47,4 @@ Write-Host '
                                                         [1;30m▀[0;1;30;43m▓▒░[0;33m███[0;1;31;43m░░▒▒▒[0;33m▄[0m      ▄[1;33;47m░[0m▌
                                                           [1;30m▀[0;1;30;43m▓▒░[0;33m██[0;1;31;43m░░▒░░[0;33m▌[0m▄▄▄[1;33;47m▒░[0;1;30;47m░[0m▀
                                                             [1;30m▀[0;1;30;43m▓▒░[0;33m██[0;1;31;43m░[0;33m██[0m▐[1;30;47m░[0m█[1;47m░[0m█▀
-                                                               [1;30m▀▀[0;1;30;43m▓▒░[0;33m█▀[0m▀▀[0m
-'
+                                                               [1;30m▀▀[0;1;30;43m▓▒░[0;33m█▀[0m▀▀[0m'

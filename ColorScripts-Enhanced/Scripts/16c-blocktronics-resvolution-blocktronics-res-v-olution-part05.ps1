@@ -5,18 +5,18 @@
 # Source SHA-256: e60e7e5f22989d906c7b8afe36ba18900047a60bd7589862e0a50aadd092653c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _blocktronics_res[v]olution.ans by Avenging Angel + Enzo (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 195-242
 # Columns: 1-80
 
 Write-Host '
 [1;36;42m███[0m [1;36;42m██[0m [1;36;42m██[0m   [1;30mno fucking way he did it...[0m                               [1;36m [0;1;36;42m██[0;32m [0;1;36;42m   ███[0m
 [1;36;42m███[0;1;30;42m▄[0;1;36;42m██[0;1;30;40m [0;1;36;42m██[0;32m  [0;37m [0;35mIts 2008 and we are really proud of what we do, because[0;37m  [0;32m  [0;1;36;42m██[0;32m▒[0;1;36;42m░░[0;1;30;42m▄[0;1;36;42m███[0m
-[1;36;42m█[0;1;36;46m▀[0;1;30;42m▄[0;32m [0;1;36;42m█[0;1;36;46m█[0;32m [0;1;36;42m██[0;32m  [0;37m [0;35mWe draw ANSI and we were born to draw ANSI! Something that[0;32m [0;1;36;42m██[0;32m█[0;1;36;42m▓▓[0;32m [0;1;30;42m [0;1;36;42m▀█[0m
+[1;36;42m█[0;1;36;46m▀[0;1;30;42m▄[0;32m [0;1;36;42m█[0;1;36;46m█[0;32m [0;1;36;42m██[0;32m  [0;37m [0;35m                                                          [0;32m [0;1;36;42m██[0;32m█[0;1;36;42m▓▓[0;32m [0;1;30;42m [0;1;36;42m▀█[0m
 [32m███[0;37m [0;1;36;42m██[0;32m [0;1;36;42m██[0m   [35myou will never understand...never.[0m                         [1;36;42m██[0;32m█[0;1;36;42m██[0m [1;36;42m██▄[0m
 [1;36;42m░░░[0m [1;36;42m██[0;32m [0;1;36;42m██[0m   [1;30mthat silly mexican can''t even spell t-u-r-d[0m                [1;36;42m██[0;32m▒[0;1;36;42m██[0m [1;36;42m▀██[0m
 [1;36;42m▓▓▓[0m [1;36;42m██[0;32m▒[0;1;36;42m██[0m   [35mThis pack is dedicated for all of those that helped to[0m     [1;36;42m██[0;32m [0;1;36;42m██[0m [1;36;42m██▄[0m
-[1;36;42m███[0m [1;36;42m██ ██[0m   [35mmake this group a reality and keep[0;1;32m [0;35mthe ansi dream burning[0;37m  [0;1;36;42m██[0;32m▒[0;1;36;42m██[0m [1;36;42m ▀▀[0m
+[1;36;42m███[0m [1;36;42m██ ██[0m   [35m                                  [0;1;32m [0;35m                      [0;37m  [0;1;36;42m██[0;32m▒[0;1;36;42m██[0m [1;36;42m ▀▀[0m
 [1;36;42m███[0m [1;36;42m█████[0m   [35mon their hearts.[0m                                           [1;36;42m██▄██[0m [1;36;42m▀  [0m
 [1;36;42m█▀ [0m [1;36;42m▀███▀[0m                                                              [1;36;42m▀███▀[0m [1;36;42m   [0m
 [1;30;42m▄██[0;32m [0;1;30;42m▄[0;1;36;42m [0;1;30;42m▄[0;32m▀[0;1;30m▀[0;32m  [0;37m [0;35mThe Blocktronics revolution is unleashed...[0m              [32m  [0;1;30m▀[0;32m▀[0;1;30;42m▄[0;1;30;40m██[0;32m [0;1;30;42m██▄[0m
@@ -49,12 +49,9 @@ Write-Host '
 [1;30m█[0m [1;36;42m█████[0;1;30;40m▄▒[0m        [32mfacebook_[0;37m [0;1;32m"blocktronics"[0m [1;32m(group)[0m                      [1;30m▀█[0;32m█[0;1;36;42m▀▀▀[0;32m█[0;37m [0;1;30m█[0m
 [1;30m█[0m [1;36;42m▀██▀[0;1;30;42m▄[0;1;30;40m▀[0m       [32mDeviantArt_[0;37m [0;1;32mblocktronics.deviantart.com[0m                   [1;30m▀[0;32m▀[0;1;30;42m▄[0;32m██[0;37m [0;1;30m█[0m
 [1;30m█[0;32m ▀[0;1;30;42m▄█[0;1;30;40m▄▄[0;1;32;40m [0m         [32mYou[0;37m [0;32mTube_[0;37m [0;1;32mSearch[0m [1;32mfor[0m [1;32m"Ansi[0m [1;32mis[0m [1;32mdead"[0m [1;32mvideos[0m           [1;32m   [0;1;30;42m▀▀▀▀[0;1;30;40m▄[0;32m [0;1;30m█[0m
-[1;30m█[0m [1;36;42m▒▒▒▒▒[0m     [32mGoogle[0;37m [0;32mGroups_[0;37m [0;1;32mhttp://groups.google.com/group/blocktronics[0m  [1;30m░[0;1;36;42m ▓ ▓▓[0m [1;30m█[0m
+[1;30m█[0m [1;36;42m▒▒▒▒▒[0m     [32m      [0;37m [0;32m       [0;37m [0;1;32m                                           [0m  [1;30m░[0;1;36;42m ▓ ▓▓[0m [1;30m█[0m
 [32m  [0;1;36;42m▀█ ▀[0;1;30;42m▄[0;1;30;40m▀[0;32m [0;1;30m▀▀[0m                                                          [1;30m   ▀[0;1;30;42m▄[0;1;36;42m▀[0;32m█[0;1;36;42m██[0m
 [1;30;42m▀[0;1;30;40m▄[0;32m███[0;1;30;42m▒▀[0;32m█[0;1;36;42m▒▄▄▄[0;32m████[0;1;30;46m▄[0;1;36;46m ▒[0;1;36;42m███▄██████▄[0;1;30;42m▀[0;32m▄[0;1;30m▄[0;32m  [0;1;30m▒[0;1;30;42m▒[0;1;36;42m█████[0;1;36;46m▄[0;1;36;42m████▄[0;32m█[0;1;36;42m▀[0;32m█[0;1;30;42m▒█[0;1;30;40m▄[0;1;30;46m▀[0;1;36;46m▄[0;1;36;42m████[0;1;36;46m▄[0;1;36;42m████[0;1;36;46m [0;1;36;42m██[0;1;36;46m [0;36;42m██▒[0;32;40m█[0;1;30;42m▀▒ [0;1;36;42m▀[0;32m█[0;1;30m▄[0;1;30;42m▀[0m
 [1;36;42m█[0;1;36;46m▄[0;32m██████▀[0;1;36;42m▀█████▒[0;32m [0;1;30m▀[0;1;30;46m▄[0;1;36;46m▀[0;1;36;42m████▄ ▀███▒[0;32m███[0;1;30;42m▀[0;1;30;40m▄█[0;1;30;46m▄[0;1;36;46m▀[0;1;36;42m█████ ▀▀▀[0;32m██[0;1;30;42m▄[0;1;30;40m▀[0;32m [0;1;30;42m▒[0;1;36;46m▒[0;1;36;42m███[0;1;36;46m▀ [0;1;36;42m███[0;1;36;46m▀ [0;36m▀▀[0;1;36;46m [0;36m▄[0;36;42m█▒[0;32;40m█████[0;1;30;42m  [0;1;36;46m▄[0;1;36;42m█[0m
 [32m▄█▓▓▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███▒▒▄▄█[0m
-[32m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
-
-                           [1;30m[ artwork by avg and enzO ][0m
-                                [1;30mblocktronics.2008[0m'
+[32m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m'

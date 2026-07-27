@@ -5,7 +5,7 @@
 # Source SHA-256: 1dc1bda71bee0abc4c7d816e0ebd569ae14db43fcf2de4cb512b19c09edb6986
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-DCN.ANS by .:(cLEANER):. (.:(nEON^sTRIKE):.); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .:(dEFCON^lOGO):.
 # SAUCE Author: .:(cLEANER):.
 # SAUCE Group: .:(nEON^sTRIKE):.
@@ -25,6 +25,4 @@ Write-Host '
 [1;30;47m░▒▓[0;1;30;40m▀ [0;1;34;46m▒░[0;36m█[0;1;34;46m░[0;36m▄▄▄[0;1;34;46m▒▓▒[0;1;34;40m▌[0;1;30;40m▐ [0;1;34;46m▒░[0;36m█[0;1;34;46m░[0;36m▄▄▄[0;1;34;46m▒▓▓[0;1;34;40m▌[0m▐ [1;34;46m▒░[0;36m▌[0;1;30m▐[0;1;30;47m▓[0;1;30;40m▓█[0;1;30;47m▓██▓[0;1;30;40m▀ [0;1;34;46m▒░[0;36m█[0;1;34;46m░[0;36m▄▄▄[0;1;34;46m▒▓▓[0;1;34;40m▌ [0;1;34;46m▓▒░[0;36m█▄▄[0;1;34;46m░▒▓[0;1;34;40m▌[0;1;30;40m▐ [0;1;34;46m▒░[0;36m▌[0;1;30m▐[0;1;30;47m▒[0m [1;34;40m▄[0;1;34;46m▓▒░[0;36m▌[0;1;30m▐[0m
 ─ [1;30m──[0;1;34;46m▓▒[0;36m█[0;1;34;46m░[0;36m██[0;1;34;46m░▒[0;1;34;40m▀▀▀[0m─[1;30m─[0;1;34;46m▓▒[0;36m█[0;1;34;46m░ [0;36m█[0;1;34;46m░▒[0;1;34;40m▀▀▀[0;1;30;40m──[0;1;34;46m▓▒[0;36m█[0;1;30m── ──[0m─[1m─[0m─[1;30m──[0;1;34;46m▓▒[0;36m█[0;1;34;46m░ [0;36m█[0;1;34;46m░▒[0;1;34;40m▀▀▀[0;1;30;40m─[0m─[1;30m─[0;1;34m▀[0;1;34;46m▒░[0;36m█[0;1;34;46m░▒▓[0;1;34;40m▀[0;1;30;40m──[0;1;34;46m▓▒[0;36m█[0;1;30m─ ─[0;1;34m▐█[0;1;34;46m▓▒[0;36m▀[0;1;30m─[0m─
   [1;34m▄█[0;1;34;46m▓[0;36m▀▀▀[0m       [1;34m▄█[0;1;34;46m▓[0;36m▀▀▀[0m       [1;34m▄█[0;1;34;46m▓[0;36m▀[0m         [1;34m▄█[0;1;34;46m▓[0;36m▀▀▀[0m             [36m▀▀   [0;1;34m▄█[0;1;34;46m▓[0;36m▀[0m     [1;34m▀▀[0m
-[1;34m■▀▀[0m          [1;34m■▀▀[0m          [1;34m■▀▀[0m          [1;34m■▀▀[0m                     [1;34m■▀▀[0m
-
-[1;30m-[0m--[1;30m-[0;36m[[0;1;30md[0mEFCO[1;30mN[0;36m^[0;1;30ml[0mOG[1;30mO[0;36m][0;1;30m-[0m-[1;30m-[0;36m[[0;1;30mc[0mONTAC[1;30mT[0;36m^[0;1;30mm[0mE[36m^[0;1;30ma[0mT[36m^[0;1;30mc[0mLEANE[1;30mR[0;36m@[0;1;30mc[0mHE[1;30mZ[0;36m.[0;1;30mC[0mO[1;30mM[0;36m][0;1;30m-[0m-[1;30m-[0;36m[[0;37m2[0;1;30m9[0;36m/[0;37m1[0;1;30m1[0;36m/[0;37m9[0;1;30m7[0;36m][0;1;30m-[0m-[1;30m-[0;36m[[0;1;30m4[0;36m:[0;37m1[0;1;30m3[0ma[1;30mm[0;36m][0;1;30m-[0m--[1;30m-[0m'
+[1;34m■▀▀[0m          [1;34m■▀▀[0m          [1;34m■▀▀[0m          [1;34m■▀▀[0m                     [1;34m■▀▀[0m'

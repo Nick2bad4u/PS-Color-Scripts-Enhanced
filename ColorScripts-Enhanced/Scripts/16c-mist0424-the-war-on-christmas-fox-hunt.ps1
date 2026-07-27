@@ -5,7 +5,7 @@
 # Source SHA-256: 31c93f7f9c6333d1eceb9c23a3735105a594a065e8af219d141c1258a35cd4dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: THE_WAR_ON_CHRISTMAS-FOX_HUNT.ANS by TheWarOnChristmas (Mistigris); released in mist0424 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fox Hunt
 # SAUCE Author: TheWarOnChristmas
 # SAUCE Group: Mistigris
@@ -24,7 +24,7 @@ Write-Host '
 [1;34m$$[0;1;37m`¬[0;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$e[0;1;30mjΓ│b[0;34m/[0;1;30m,d┘''j''P"dL4ÑTb     qX4P4┘"4\`,[0;34m`√$$[0m
 [1;34m╨[0;34m√$$$$Pφφφ√$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Az,[0;1;30m,d''p''d''d''jΓ`["T└      \`4 `4 \`\~-,[0;34m`[0m
 [1;37m$►[0;34m`$P''[0;1;36mdSSL┐[0;34m`√$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$P[0;33m,dbydSbyb┐/┐[0;1;30m''[0;33m,[0;1;30m²[0;33m,[0;1;30m`M M ,[0;33m\[0;1;30m`[0;33m,[0;1;30m`[0;34md$\┐,\,_\d[0m
-[1;37m$b,[0;1;36m∙ª²²"4$$$b.jb[0;1;37mP²²√$$[0m$$l[1;30ml[0;36mlllllllllllllll7[0;33m,d$$$$$$$$$$$$$$$$$$[0;1;30mb,┐d`[0;33m?$b[0;36m└lllllllll[0m
+[1;37m   [0;1;36m             [0;1;37m      [0m   [1;30m [0;36m                [0;33m                    [0;1;30m  ┐  [0;33m   [0;36m└         [0m
 [32mw,[0;1;37m9$$$$$b[0;1;36m`"²''[0;1;37m     ²-[0;1;36m  [0;1;37m`[0;36m√$$$$$$$$$$$$$$$P[0;33m,d$$$$$$ÑÑÑÑÑÑÑÑÑÑÑÑÑ$[0;1;30m4L    [0;33mYSb[0;36m`+S$ÿ$$$$[0m
 [32m²4{+[0;1;37m)$$$$Ñ$$$be,ed$$$$Sb,[0;1;36m4$$$$$$$$$$$$Γ[0;33mjP²''[0;1;37m,┌%%##@@SSSSSSSSSSL.[0;1;30m4b [0;1;37m.d$@@#%e┐,[0;1;36m`²√$[0m
 [1;37m$ÿÿ$$$$$$$$$$$$$$$$$$$$$$[0;33m [0;1;37m`qyp''╞yyyyyyyyyd$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$┐,[0;1;36m`[0m

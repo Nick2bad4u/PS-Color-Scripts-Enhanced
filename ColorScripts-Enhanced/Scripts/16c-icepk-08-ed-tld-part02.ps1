@@ -5,7 +5,7 @@
 # Source SHA-256: 33c97837338c473304f7ef7f89e05ed6522061acdbab3eb2f1f0289b510d89b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ED-TLD.ICE by Eternal Darkness (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -52,11 +52,11 @@ Write-Host '
     ▄[1;47m▄[0;1;40m▀[0m▄▄█▀  █[1;47m▀[0m ▄[1;47m▀▒[0m▄   ▄█[1;47m▒[0m▄ ▄[1;47m▀ [0m▄▄[1;47m░▒[0m ▄█[1;47m▓[0m   █[1;47m░[0m▄ ▀▄[1m▄ [0m▄█▀  █[1;47m▀[0m  ▀[1;47m▒[0m ▄[1;47m░[0m▀ ▄█[1;47m▓[0m   █[1;47m░[0m▄
 
 
-        [1;30mThe Last Dime[0mnsion ■ (6[1m12) 636.4616 ■ I[0mNC-AD World [1;30mHeadQuarters[0m
-      [1;30mINC Distribut[0mion ■ Unde[1mrWare Report WHQ ■ U[0mT/EMC Sife [1;30m■ TSAN Member[0m
-       [1;30mCyberCrime/N[0mET ■ TSANn[1met ■ UT-Net ■ INCnet [0m■ Large Ar[1;30mt Collection[0m
-           [1;30mRunning Pa[0mragon! ■ S[1mys: Death Knight [0m■ Co: Almi[1;30mghty Fatts[0m
+        [1;30m             [0m      ■   [1m             ■  [0m            [1;30m            [0m
+      [1;30m             [0m    ■     [1m                 ■  [0m           [1;30m■            [0m
+       [1;30m            [0m   ■      [1m   ■        ■        [0m■         [1;30m            [0m
+           [1;30m          [0m       ■  [1m                 [0m■         [1;30m          [0m
 
 [1;30m───────────────────[0m─[1;30m─[0m────────[1m─[0m─[1m───────────────[0m─[1m─[0m─────────[1;30m─[0m─[1;30m─────────────────────[0m
-      [1;30mANSi: E[0mt[1mernaL Darkne[0ms[1;30ms [[0mi[1mCE[0;1;30m] - [0mo8[1;30m∙[0m23[1;30m∙[0m92 [1;30m- [0;1;37mI[0mn[1;30msane [0;1;37mC[0mr[1;30meators [0;1;37mE[0mn[1;30mterprise![0m
+      [1;30m       [0m [1m            [0m [1;30m   [0m [1m  [0;1;30m    [0m  [1;30m [0m  [1;30m [0m   [1;30m  [0;1;37m [0m [1;30m     [0;1;37m [0m [1;30m       [0;1;37m [0m [1;30m         [0m
 [1;30m───────────────────[0m─[1;30m─[0m────────[1m─[0m─[1m───────────────[0m─[1m─[0m─────────[1;30m─[0m─[1;30m─────────────────────[0m'

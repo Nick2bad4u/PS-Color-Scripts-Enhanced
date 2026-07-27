@@ -5,7 +5,7 @@
 # Source SHA-256: b87fca5e5ae68f6bbbec4ea81eee15fc1ac0a037271b7a1957ccd50e258587fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-&1.ANS by Samsara 08/96 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: & (Ampersand)
 # SAUCE Author: Samsara 08/96
 # SAUCE Group: Eerie
@@ -39,11 +39,8 @@ Write-Host '
                        [30;41m▓[0;37;40m [0;30;41m▓░░▓▓▓▓▓▓▓▓[0;37;40m [0;30;41m▓[0m        [30;47m▓[0m
                           [30;41m▓▓[0m
 
-[35;40m          [0;1;37;40m& [0;35m([0;1;33mAMPERSAND[0;35m)[0;1;30m [0;1;33m 215-0pn-s00n[0;36m  [0;35moperated by [0;1;34mmogel[0;33m [0;35m& [0;1;34meerie-kun[0;35m![0m
-                [1;31mdoomed to obscurity[0;31m [0;1;31mproductions [0;35mworld headquarters[0m
-           [1;31msamsara[0;31m [0;35mworld headquarters,[0;31m [0;1;31mundergrown [0;35muniverse headquarters[0m
+[35;40m          [0;1;37;40m  [0;35m [0;1;33m         [0;35m [0;1;30m [0;1;33m             [0;36m  [0;35m            [0;1;34m     [0;33m [0;35m  [0;1;34m         [0;35m [0m
+                [1;31m                   [0;31m [0;1;31m            [0;35m                  [0m
+           [1;31m       [0;31m [0;35m                   [0;31m [0;1;31m           [0;35m                     [0m
 
-[30;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-
-[37;40mansi by [0;32;40meerie-kun[0;37;40m (samsara) - 100% original.[0m
-[31;40mthanks to all of you who voted for me as 4th best logo artist ever.  :)[0m'
+[30;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

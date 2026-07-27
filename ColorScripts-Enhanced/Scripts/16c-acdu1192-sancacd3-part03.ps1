@@ -5,7 +5,7 @@
 # Source SHA-256: 6f9f8d795251830d1d782bf9dd885c9c0f40d5fc9fdc8c24000b68fc4fc0aba8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SANCACD3.ANS by Blade Runner (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 90-132
 # Columns: 1-80
 
@@ -42,14 +42,14 @@ Write-Host '
                     ▐[1;30m▐█▌[0m                                [1;30m█▌[0m       [1;30m▀[0m▌ [1;30m█[0m
                       [1;30m█▌[0m                                [1;30m▐[0m           [1;30m█[0m
                       [1;30m▐    [0mS[1manctuary[0;1;30m([0mtm[1;30m) ■ [0;1;37m3[0mo[1m5[0;1;30m.[0;1;37m792[0;1;30m.[0;1;37m8771[0m             [1;30m▌[0m
-             S[1mys[0mO[1mp[0;1;30m: [0mT[1mempus [0mT[1mhales [0;1;30m[[0;1;37mi[0;1;36mC[0;1;34mE[0;1;30m] ■ [0mM[1moderator[0;1;30m/[0mC[1mo[0;1;30m: [0mL[1mady [0mI[1mn [0mB[1mlack[0m
+              [1m  [0m [1m [0;1;30m  [0m [1m      [0m [1m      [0;1;30m [0;1;37m [0;1;36m [0;1;34m [0;1;30m  ■ [0m [1m        [0;1;30m [0m [1m [0;1;30m  [0m [1m    [0m [1m  [0m [1m    [0m
 
-[1m [0;1;30m[·[0mi[1mCE [0mU[1mnited [0mS[1mtates [0mH[1meadquarters[0;1;30m/[0mM[1member [0mB[1moard [0;1;30m■ [0;1;37mM[0mi[1mRAGE [0mS[1mouthern [0mH[1meadquarters[0;1;30m·][0m
-      [1;30m[·[0;1;37mRAZOR[0;1;30m· [0mS[1mupport [0mS[1mite[0;1;30m/[0mM[1member [0mB[1moard [0;1;30m■ [0mI[1mllustrator [0mD[1mistribution [0mS[1mite[0;1;30m·][0m
-       [1;30m[·[0;1;37mAC[0mi[1mD[0;1;30m/[0mi[1mCE[0;1;30m/[0;1;37mM[0mi[1mRAGE[0;1;30m/[0;1;37mGR[0mi[1mM[0;1;30m/[0;1;37mLTD[0;1;30m/[0;1;37mD[0me[1mAD[0;1;30m/[0;1;37mH[0mi[1mPE[0;1;30m/[0;1;37mH[0my[1mPE[0;1;30m/[0;1;37mT[0mi[1mA[0;1;30m/[0;1;37mFPG[0;1;30m/[0;1;37mVS[0mi [1mANS[0mi[1;30m/[0;1;37mVGA[0;1;30m''[0ms[1;30m·][0m
-               [1;30m[·[0mUS[1mRobotics [0mD[1mual [0mS[1mtandard [0mv[1;30m.[0;1;37m32[0;1;30m/[0;1;37m38[0;1;30m.[0;1;37m4[0mk [1;30m■ [0;1;37m2[0moo [1mMegs[0;1;30m·][0m
-                         [1;30m[·[0mM[1mercury [0mD[1mistribution [0mS[1mite[0;1;30m·][0m
+[1m [0;1;30m  [0m [1m   [0m [1m      [0m [1m      [0m [1m           [0;1;30m [0m [1m      [0m [1m     [0;1;30m■ [0;1;37m [0m [1m     [0m [1m        [0m [1m           [0;1;30m  [0m
+      [1;30m  [0;1;37m     [0;1;30m  [0m [1m       [0m [1m   [0;1;30m [0m [1m      [0m [1m     [0;1;30m■ [0m [1m           [0m [1m            [0m [1m   [0;1;30m  [0m
+       [1;30m  [0;1;37m  [0m [1m [0;1;30m [0m [1m  [0;1;30m [0;1;37m [0m [1m    [0;1;30m [0;1;37m  [0m [1m [0;1;30m [0;1;37m   [0;1;30m [0;1;37m [0m [1m  [0;1;30m [0;1;37m [0m [1m  [0;1;30m [0;1;37m [0m [1m  [0;1;30m [0;1;37m [0m [1m [0;1;30m [0;1;37m   [0;1;30m [0;1;37m  [0m  [1m   [0m [1;30m [0;1;37m   [0;1;30m [0m [1;30m  [0m
+               [1;30m  [0m  [1m         [0m [1m    [0m [1m        [0m [1;30m [0;1;37m  [0;1;30m [0;1;37m  [0;1;30m [0;1;37m [0m  [1;30m■ [0;1;37m [0m   [1m    [0;1;30m  [0m
+                         [1;30m  [0m [1m       [0m [1m            [0m [1m   [0;1;30m  [0m
 
 
 
-[1;37mA[0mNS[1;30mi [0mb[1;30my [0;1;35mBlad[0;35me[0;1;35m·[0;35mRunner [0;37m([0;1;30mno Tempus, I''m [0;1;35mnot [0;1;30mjoining iCE[0m) o[1;30mf [0;35m<[0;1;35m/┤C[0;35mi[0;1;35mD[0;35m> [0;1;35mProduc[0;35mtions: [0;1;37m=)[0m'
+[1;37m [0m  [1;30m  [0m [1;30m  [0;1;35m    [0;35m [0;1;35m [0;35m       [0;37m [0;1;30m               [0;1;35m    [0;1;30m           [0m   [1;30m  [0;35m [0;1;35m ┤ [0;35m [0;1;35m [0;35m  [0;1;35m      [0;35m       [0;1;37m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0666a9085e4f1f90e731fa6c42376209f7a118ad159afd4ba2769850814fcfe6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aw-duod.ans by Abdully Wahaa (duoduo2); released in duoduo2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20151219
 # SAUCE Dimensions: 80x139
 # SAUCE Font: IBM VGA
@@ -44,16 +44,4 @@ Write-Host '
                        [34m■▀[0;1;36;44m▀█[0;1;37;44m█▄[0;1;36;40m▄▄[0;34m▄  [0;1;34m░░░░░  [0;34m▄[0;1;36m▄▄[0;1;37;44m▄█[0;1;36;44m█▀[0;34m▀■[0m
                        [34m▀▄[0;1;36m▄[0;1;37;44m▄[0;1;33;44m██[0;1;37;44m▀[0;34m▀▄▄▀▄▄ ▄▄▀▄▄▀[0;1;37;44m▀[0;1;33;44m██[0;1;37;44m▄[0;1;36;40m▄[0;34m▄▀[0m
                        [34m▀▀ ▄[0;1;37;44m▄██▄█[0;1;36;44m██[0;1;37;44m▄[0;34m▄▄▄[0;1;37;44m▄[0;1;36;44m██[0;1;37;44m█▄██▄[0;34m▄ ▀▀[0m
-                            [34m▀[0;1;36m▀[0;34m▀▄▀[0;1;37;44m▀[0;1;33;44m██[0;1;36;44m█[0;1;33;44m██[0;1;37;44m▀[0;34m▀▄▀[0;1;36m▀[0;34m▀[0m
-
-
-
-
-[35m [0;1;37mABDULLY WAHAA PRODUKTIONZ 2015[0m
-
-
-[1;37m I MAYK THIS PICTAR SHOWNINGS INSIDE OF MIND OF ADOLF HITLERS. HE IS MANS WHOO[0m
-[1;37m DUS NOT LIYK JEWS MENS. HE ALWAYS VERY ANGRIES BECOZ OF JEWS MENS STEELING[0m
-[1;37m SAKRID PALESTINES LAND. JEWS IS TERRORISTS MAST NOT BE FORGIVEN THEY KILL[0m
-[1;37m PROPHET JESUS WHY THEY DO DIS? WHY KIL JESUS IF JEWS IS NICE PEEPUL DEY NOT[0m
-[1;37m KILL JEESUS. I VERY UPSET WEN JESUS DIE.[0m'
+                            [34m▀[0;1;36m▀[0;34m▀▄▀[0;1;37;44m▀[0;1;33;44m██[0;1;36;44m█[0;1;33;44m██[0;1;37;44m▀[0;34m▀▄▀[0;1;36m▀[0;34m▀[0m'

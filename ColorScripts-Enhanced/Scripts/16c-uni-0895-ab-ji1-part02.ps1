@@ -5,7 +5,7 @@
 # Source SHA-256: a5480eeb88f1fe7d08478c839435e03dedea605ba57bfffcc5ac57771140708e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-JI1.ANS by Abomination (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: #28's Jello Insanity
 # SAUCE Author: Abomination
 # SAUCE Group: Union
@@ -49,6 +49,4 @@ Write-Host '
 [34m██████████  [0;32m███████[0;37m [0;1;32m█[0;1;32;42m░[0;32m█[0;37m [0;32m██████████[0;37m [0;1;32m█[0;32m██[0;37m [0;32m▓██████████████████[0;37m [0;34m██[0;1;34;44mfav union font[0;34m█████[0m
 [34m██████████                                                ▄[0;1;34;44mmaster #28 runs it:) [0m
 [1;32;44m                                                 [0;34m██████████████████████[0;1;32;44m         [0m
-[1;34;44mansi by abomination of [0;1;37;44mu[0;33;44mn[0;1;37;44mi[0;1;35;44mo[0;1;37;44mn[0;34m█[0;1;32;44m- its a slug, namit![0;34m██████████████████████[0;1;32;44m         [0m
-
-              [32m   [0m'
+[1;34;44mansi by abomination of [0;1;37;44mu[0;33;44mn[0;1;37;44mi[0;1;35;44mo[0;1;37;44mn[0;34m█[0;1;32;44m- its a slug, namit![0;34m██████████████████████[0;1;32;44m         [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: af8f06f3091fb27b542aa847b4a9f51185b54684f91311f5e52a7cab1ecd430a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-MTX.ANS by Thrasher + Madball (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: a matrix dammit
 # SAUCE Author: madball & thrasher
 # SAUCE Group: fuel
@@ -39,10 +39,4 @@ Write-Host '
 [30;41mmad[0;1;31;45m&[0;30;41mthr[0;31;40m▌[0m         [1;34;40m% command %[0m                              [34m   ▀▀▄▀[0;1;34;44m▓[0;1;34;47m▓▓[0;1;34;44m▀[0;34m▀▄▀▀[0m
 [1;31;41m░░[0;31m█[0;1;31;41m [0;31m██▓▌[0m                                                     [34m  ░▀▀[0;1;34;44m░▀[0m [34m▄[0m
 
-[37myo yo![0m
-
-[37mthis matrix was done by madball for propane.[0m
-[37mi did some touchups a long time ago, and found it back during a hd cleanup ;)[0m
-[37mso, don''t rip or use this.. only madball and me can.[0m
-
-[37mthrasher@netlink.be[0m'
+[37myo yo![0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 6658cd1fa5bb7ade0720b887ac007f478dddc8a8529825480ce31464a1243f2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-POT1.ANS by mARShMAllOw (fACt!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: phrehenetic outworld traderS reQ.o1
 # SAUCE Author: mARShMAllOw
 # SAUCE Group: fACt!
@@ -31,7 +31,4 @@ Write-Host '
 [35m   █[0;1;35m██[0;35m▓[0;1;35m██████[0;35m█[0m            [35m█[0;1;35m██[0;35m▓[0;1;35m██████[0;35m█  █[0;1;35m██[0;35m▓[0;1;35m█████[0;35m█   █[0;1;35m██[0;35m▓[0;1;35m██████[0;35m█  █[0;1;35m██[0;35m▓[0;1;35m█████[0;35mmA![0m
 [35m    ▀▀▀▀▀▀▀▀▀▀▀[0m            [35m▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
-          [36mP H R E N E T I C[0m      [36mO U T A W O R L D[0m      [36mT R A D E R S[0m
-
-
-                   [1;37mansi requested by The Living Death [POT][0m'
+          [36mP H R E N E T I C[0m      [36mO U T A W O R L D[0m      [36mT R A D E R S[0m'

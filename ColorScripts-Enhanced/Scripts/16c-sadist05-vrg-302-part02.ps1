@@ -5,7 +5,7 @@
 # Source SHA-256: ff040122cf58edba49e4dfae791d08a7c5c380ea2f8409f1ea28ff5fd83acc63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VRG-302.ans by vaRgr (SADIST); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the glade
 # SAUCE Author: vaRgr
 # SAUCE Group: SADIST
@@ -34,8 +34,8 @@ Write-Host '
                  [34m▀[0m       [34m▀[0m                 [34m▀[0m        [34m▀▀▀[0m      [34m▀[0m
 
 
-[1;30mvaRgr[0m
-[1;30m-SADIST-[0m
+[1;30m     [0m
+[1;30m        [0m
 
 
                               [30m█[0m

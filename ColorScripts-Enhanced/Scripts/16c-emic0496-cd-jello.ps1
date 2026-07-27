@@ -5,7 +5,7 @@
 # Source SHA-256: bea700bed2f7d0ad14bc54d5bc8902febf3da5397879cd5ab02d12f12841575d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-JELLO.ANS by Creaping Death (EMiC); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: jello!
 # SAUCE Author: Creaping Death
 # SAUCE Group: EMiC
@@ -27,13 +27,13 @@ Write-Host '
 [1;36;46m▒▓[0;1;36;40m▀[0;36m▄▀[0m                                                                      [36m░▄[0;1;36m▀[0;1;36;46m▒░[0m
 [1;36;40m▀[0;36m▄░[0m                                                                          [36m▀▄[0;1;36m▀[0m
 [36m▀[0m                                                                            [36m▲[0;37m [0;36m░[0m
-[36m▄[0;37m yes this is LAME!!!!!!!!!!!!!!!!!!! fuck it ;) 10 min job ;) greets go out [0;36m░[0;37m [0;36m▒[0m
-[36m▓[0;37m to: hy!ml!cy!gj!mo!tc!khz!iv!cc!zl!be!ls!rth!aCK!aj!trank!basic!suave!acid [0;36m░[0;37m [0;36m▓[0m
-[36m▒[0;37m !ice!dark!cia!fire!tang!ftc!wicked!sand!any!asshole!reading!this!emic!mga! [0;36m░[0;37m [0;36m▒[0m
-[37m  jello!idea!vagina!cock!os!mm!at!pz!prizm!jest!msd!bam!cm!every!one!on!my!b [0;36m░[0;37m [0;36m░[0m
-[36m█[0;37m oard!shit!eye!cant!think!of!anyone!else!ss!dk!dl!s0ap!apathy!anemia!lr!eYE [0;36m░[0;37m [0;36m▀[0m
-[36m█[0;37m !am!really!lame!aa!dc!mommy!vB!eYE!hAVE!a!9!inCH!diCK!for!jew!all!two!suck [0;36m░[0;37m [0;36m█[0m
-[36m█[0;37m !th!cA!cD!is!da!mang!this!ansi!really!sucks!moose!cock!bye!mother!fuckers! [0;36m░[0;37m [0;36m░[0m
+[36m▄[0;37m                                                                            [0;36m░[0;37m [0;36m▒[0m
+[36m▓[0;37m                                                                            [0;36m░[0;37m [0;36m▓[0m
+[36m▒[0;37m                                                                            [0;36m░[0;37m [0;36m▒[0m
+[37m                                                                             [0;36m░[0;37m [0;36m░[0m
+[36m█[0;37m                                                                            [0;36m░[0;37m [0;36m▀[0m
+[36m█[0;37m                                                                            [0;36m░[0;37m [0;36m█[0m
+[36m█[0;37m                                                                            [0;36m░[0;37m [0;36m░[0m
 [36m█[0m                                                                            [36m░[0;37m [0;36m█[0m
 [36m░[0m                                                                    [37m- cD[0m    [36m░[0;37m [0;36m█[0m
 [36m█[0m                                                                            [36m▼[0;37m [0;36m [0m

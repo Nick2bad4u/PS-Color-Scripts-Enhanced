@@ -5,7 +5,7 @@
 # Source SHA-256: 305269627d1c781e6a662884992f531c13bde70fd5fe6e8e90fcad656afcaf6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-DUNG2.ANS by Smooth (TekLordZ); released in tl-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Anutha Dungeon 2 ANSi
 # SAUCE Author: Smooth
 # SAUCE Group: TekLordZ
@@ -46,14 +46,7 @@ Write-Host '
                   [1;30;40m░    ▀[0m▀▀[1;30m▀[0m▀[1;30m▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀   ░[0m
                      [35m░  [0;1;37m·  [0md  u  n  g  e  o  n   t  w  o  [1m·  [0;35m░[0m
 
-     [35m░[0m [37m [0;1;37m·[0m Sysop - Smooth [1m·[0m CoSys - DimeBag [1m·[0m Remote CoSys - Formic Acid [1m·[0;1;30m [0m [35m░[0m
+     [35m░[0m [37m [0;1;37m [0m                [1m [0m                 [1m [0m                            [1m [0;1;30m [0m [35m░[0m
                  [1;30m [0m
-                     [35m░[0m  [1;37m·[0m    Hawaii''s Finest Art Board    [1m·[0m  [35m░[0m
-[1;30m░▒▓▀▓▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m      [1;30mANSi by Smooth [ACiD.TekLordZ]    [0m  [1;30m  ▀ ▀▀▀▀▀▀▀▀▀▀▓▀▓▒[0m
-                            [1;30mFont by Halaster [ReLIC][0m
-
-[1;30mGreetz: Rad Man, Formic Acid, Corwin, Alter Ego, Flair, SchizoSynth, Cat, [0m
-[1;30m        Halaster (Thanks for the Dungeon2 logo), Guide, Amp, Lazarus, [0m
-[1;30m        Immortal, Celestian, Eerie, Jazz, and Magellan.[0m
-
-[1;30mGroup Greetz: ACiD, UNiON, iCE, Unchained, Bleach, Shiver, Relic, CiA and DARK[0m'
+                     [35m░[0m  [1;37m [0m                                 [1m [0m  [35m░[0m
+[1;30m░▒▓▀▓▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m      [1;30mANSi by Smooth [ACiD.TekLordZ]    [0m  [1;30m  ▀ ▀▀▀▀▀▀▀▀▀▀▓▀▓▒[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e753024e29fbd97df4f470cb9646727af39d257740a24a172d8958f11833bdfa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KS-PLOST.ANS by Kronos (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-97
 # Columns: 1-80
 
@@ -46,15 +46,15 @@ Write-Host '
 
                           [1;36mP [0mA [1;30mR [0;1;36mA [0;1;30mD [0mI S [1;36mE    L [0;1;30mO [0mS [1;36mT[0m
                                [1;36m<[0m2[1;30m1[0m6[1;36m>[0m4[1;30m6[0;1;36m4[0;1;37m.[0;1;36m7[0;1;30m7[0m6[1;36m3[0m
-                   [1;36mV[0mi[1;30ms[0;1;36mi[0mo[1;30mn[0m/[1;36m2 B[0;1;30me[0mt[1;36ma S[0;1;30mi[0mt[1;36me [0;1;34mφ [0;1;36m1[0;1;30m6[0m.[1;36m8 D[0;1;30mu[0ma[1;36ml S[0mt[1;30ma[0;1;36mn[0md[1;30ma[0mr[1;36md[0m
-[1;36m   P[0ms[1;30myc[0mh[1;30mo[0msi[1;36ms M[0ma[1;30mga[0mz[1;30mi[0mn[1;36me W[0mH[1;36mQ [0;1;34mφ [0;1;36mi[0mC[1;36mE M[0me[1;30mmb[0me[1;36mr B[0mo[1;30ma[0mr[1;36md [0;1;34mφ [0;1;36mG[0mO[1;30mTH[0mi[1;36mC U[0m.S[1;36m. H[0mQ [1;34mφ [0;1;36mB[0mA[1;36mD D[0mi[1;30mst[0mr[1;36mo[0m
-         [1;36mi[0mM[1;30mPH[0mo[1;30mB[0mi[1;36mA D[0mi[1;30mst[0mr[1;30mi[0mbu[1;30mt[0;1;36mi[0mo[1;36mn [0;1;34mφ [0;1;36mM[0mi[1;30mRA[0mG[1;36mE D[0mi[1;30mst[0mr[1;30mi[0mbu[1;30mt[0;1;36mi[0mo[1;36mn [0;1;34mφ [0;1;36mE[0mt[1;30me[0mr[1;30mni[0mt[1;36my D[0mi[1;30mst[0mr[1;36mo[0m
-               [1;36mi[0mN[1;30mF[0mi[1;30mN[0;1;36mi[0mT[1;36mY D[0mi[1;30msk[0mma[1;36mg D[0mi[1;30mst[0mr[1;30mi[0mbu[1;30mt[0;1;36mi[0mo[1;36mn [0;1;34mφ [0;1;37mQ[0mU[1mi[0mC[1mK C[0me[1mn[0mt[1mr[0ma[1ml H[0mQ
-                       [1;36mP[0me[1;30mn[0;1;36mg[0mui[1;30mnd[0mo[1;36mm W[0mH[1;36mQ [0;1;34mφ [0;1;36mH[0;1;30me[0mA[1;36mT [0;1;37mC[0mo[1;30mu[0mr[1;30mi[0me[1mr H[0mQ
-                [1;36mN[0mE[1;36mO N[0me[1;36mt W[0mH[1;36mQ [0;1;34mφ [0;1;36mC[0mC[1;36mi N[0me[1;36mt [0;1;34mφ [0;1;36mi[0mN[1;30mA[0;1;36mS[0mN[1;30mI[0mT[1;36mY N[0me[1;36mt [0;1;34mφ [0;1;36mT[0mo[1;30mX[0mi[1;36mC N[0me[1;36mt[0m
-       [1;36mS[0my[1;30ms[0mg[1;30mo[0md[1;36ms[0;1;37m: [0;1;36mJ[0ma[1;36mb[0;1;30mb[0me[1;36mr"t[0mh[1;36me s[0mp[1;30mo[0mo[1;30mg[0mi[1;36me[0;1;30m"[0;1;36mw[0mo[1;30mc[0mk[1;36my [[0mP[1;30mS[0mY[1;36m] a[0mn[1;36md I[0mz[1;30mZy[0mr[1;36ma[0mf[1;30ma[0me[1;36ml [[0mi[1;30mC[0mE[1;36m/[0mP[1;30mS[0mY[1;36m][0m
+                   [1;36m [0m [1;30m [0;1;36m [0m [1;30m [0m [1;36m   [0;1;30m [0m [1;36m   [0;1;30m [0m [1;36m  [0;1;34m  [0;1;36m [0;1;30m [0m [1;36m   [0;1;30m [0m [1;36m   [0m [1;30m [0;1;36m [0m [1;30m [0m [1;36m [0m
+[1;36m    [0m [1;30m  [0m [1;30m [0m  [1;36m   [0m [1;30m  [0m [1;30m [0m [1;36m   [0m [1;36m  [0;1;34m  [0;1;36m [0m [1;36m   [0m [1;30m  [0m [1;36m   [0m [1;30m [0m [1;36m  [0;1;34m  [0;1;36m [0m [1;30m  [0m [1;36m   [0m  [1;36m   [0m  [1;34m  [0;1;36m [0m [1;36m   [0m [1;30m  [0m [1;36m [0m
+         [1;36m [0m [1;30m  [0m [1;30m [0m [1;36m   [0m [1;30m  [0m [1;30m [0m  [1;30m [0;1;36m [0m [1;36m  [0;1;34m  [0;1;36m [0m [1;30m  [0m [1;36m   [0m [1;30m  [0m [1;30m [0m  [1;30m [0;1;36m [0m [1;36m  [0;1;34m  [0;1;36m [0m [1;30m [0m [1;30m  [0m [1;36m   [0m [1;30m  [0m [1;36m [0m
+               [1;36m [0m [1;30m [0m [1;30m [0;1;36m [0m [1;36m   [0m [1;30m  [0m  [1;36m   [0m [1;30m  [0m [1;30m [0m  [1;30m [0;1;36m [0m [1;36m  [0;1;34m  [0;1;37m [0m [1m [0m [1m   [0m [1m [0m [1m [0m [1m   [0m 
+                       [1;36m [0m [1;30m [0;1;36m [0m  [1;30m  [0m [1;36m   [0m [1;36m  [0;1;34m  [0;1;36m [0;1;30m [0m [1;36m  [0;1;37m [0m [1;30m [0m [1;30m [0m [1m   [0m 
+                [1;36m [0m [1;36m   [0m [1;36m   [0m [1;36m  [0;1;34m  [0;1;36m [0m [1;36m   [0m [1;36m  [0;1;34m  [0;1;36m [0m [1;30m [0;1;36m [0m [1;30m [0m [1;36m   [0m [1;36m  [0;1;34m  [0;1;36m [0m [1;30m [0m [1;36m   [0m [1;36m [0m
+       [1;36m [0m [1;30m [0m [1;30m [0m [1;36m [0;1;37m  [0;1;36m [0m [1;36m [0;1;30m [0m [1;36m   [0m [1;36m   [0m [1;30m [0m [1;30m [0m [1;36m [0;1;30m [0;1;36m [0m [1;30m [0m [1;36m   [0m [1;30m [0m [1;36m   [0m [1;36m   [0m [1;30m  [0m [1;36m [0m [1;30m [0m [1;36m   [0m [1;30m [0m [1;36m [0m [1;30m [0m [1;36m [0m
 
-                   [1;30m"Well, this is my 2nd.. any better?"[0m
-[1;30m   "Yeah, so I borrowed the font from Eternal Darkness.. or was it Data?:)"[0m
+                   [1;30m                                    [0m
+[1;30m                                                                           [0m
 
-[1;30m   ─[0m─[1m─[0m─[1;30m─ [0;1;36mA[0;1;30mn[0ms[1;36mi d[0mr[1;30ma[0mw[1;36mn s[0mo[1;36ml[0;1;30me[0ml[1;36my b[0my [1;36mK[0mr[1;36mo[0;1;30mn[0mo[1;36ms o[0mf [1;34mAC[0;1;37mi[0;1;34mD [0;1;36mP[0mr[1;30mo[0;1;36md[0;1;30mu[0mc[1;36mt[0mi[1;30mo[0mn[1;36ms o[0mn [1;36m1[0m2[1;30m/[0;1;36m1[0;1;30m/[0m9[1;36m3 [0;1;30m─[0m─[1m─[0m─[1;30m─[0m'
+[1;30m   ─[0m─[1m─[0m─[1;30m─ [0;1;36m [0;1;30m [0m [1;36m   [0m [1;30m [0m [1;36m   [0m [1;36m [0;1;30m [0m [1;36m   [0m  [1;36m [0m [1;36m [0;1;30m [0m [1;36m   [0m  [1;34m  [0;1;37m [0;1;34m  [0;1;36m [0m [1;30m [0;1;36m [0;1;30m [0m [1;36m [0m [1;30m [0m [1;36m   [0m  [1;36m [0m [1;30m [0;1;36m [0;1;30m [0m [1;36m  [0;1;30m─[0m─[1m─[0m─[1;30m─[0m'

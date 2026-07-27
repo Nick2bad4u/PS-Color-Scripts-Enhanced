@@ -5,7 +5,7 @@
 # Source SHA-256: 929e93e114f51ca8664ce3bc0a6c6de200008356dff79704b2c53eb099d9dc47
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-LOTE.ANS by Sound Of Silence + Nuclear Dreamer (SUiCiDE); released in su-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Living On The Edge ANSi
 # SAUCE Author: Multiple Artists
 # SAUCE Group: SUiCiDE
@@ -44,20 +44,15 @@ Write-Host '
             [31;40m▐[0;35;41m ▓[0;31;40m███████[0;1;30;41m░[0;31m▌[0m [31m██████████[0;1;30;41m░▒▓[0m  [31m▐██[0;35;41m▓[0;31;40m█████████[0;1;30;41m░▒[0;31m ▐████[0;35;41m░[0;31;40m████[0;1;30;41m░[0;31m▌[0m
             [31m ▀███████[0;1;30;41m░▒▓[0m [31m▀████████[0;1;30;41m░▒▓[0m   [31m ▀██████████[0;1;30;41m░▒▓[0m [31m ▀███[0;35;41m▒[0;31;40m███[0;1;30;41m░▒▓[0m
               [31m ▀▀▀▀▀▀▀▀[0m    [31m▀▀▀▀▀▀▀▀▀▀[0m      [31m▀▀▀▀▀▀▀▀▀▀▀[0m     [31m▀▀▀▀▀▀▀▀[0m
-[1;30mNuclear Dreamer [SUiCiDE][0m
+[1;30m                         [0m
 
 [1;30m─[0m─[1m────────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m
 
-[1;30m                                  P[0ms[1mychoNet WHQ[0m
-[1;30m                                   S[0mU[1miCiDENet[0m
-[1;30m                                  S[0mU[1miCiDE Site[0m
-[1;30m                       P[0mC[1mBoard 15.2/Renegade For Messages[0m
-[1;30m                                  [[0m6[1mo4]XXX-XXXX[0m
-                      [1m          [0;1;30mP[0ms[1mysOp[0m [1m· Psycho Bob[0m
+[1;30m                                   [0m [1m           [0m
+[1;30m                                    [0m [1m        [0m
+[1;30m                                   [0m [1m          [0m
+[1;30m                        [0m [1m                                [0m
+[1;30m                                   [0m [1m           [0m
+                      [1m          [0;1;30m [0m [1m    [0m [1m            [0m
 
-[1;30m─[0m─[1m────────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m
-[1;30mGreets - Psycho Bob..  I''ll Poll I swear I will![0m
-         [1;30mCyber Wolfe.. Hey.. Look at my phont. wow.[0m
-         [1;30mEverybody in suicide..[0m
-
-[1;34m             [0;1;37m"[0;1;36mE[0;1;34mv[0;34merything else started with a ''P'' so why not Psys[0;1;34mO[0;1;36mp[0;1;37m?"[0m'
+[1;30m─[0m─[1m────────────────────────────────────────────────────────────────────────────[0m─[1;30m─[0m'

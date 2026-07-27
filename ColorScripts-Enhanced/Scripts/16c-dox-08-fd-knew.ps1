@@ -5,7 +5,7 @@
 # Source SHA-256: 9ec0436407fe3aab6c6148bd1d78c85d61e8f3be48ff6e8e409bbde44d7891f3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FD-KNEW.ANS by flood/chef (dox); released in dox_08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: killarmy matrix
 # SAUCE Author: flood/chef
 # SAUCE Group: dox
@@ -31,5 +31,4 @@ Write-Host '
   [1;30m░░[0m  [1;30m▓▓▓░░[0m [1;30m▄[0;31m■▀▀[0m
 [1;30m░▒▓░░░[0m [1;30m░[0m    [1;30m░[0;31m▀■[0m      [31mStatus :[0;37m 000% complete[0m                       [1;30m░░░░░░░[0m
  [1;30m░▒ [0m          [1;30m▒[0m      [31mQuestion :[0m                                    [1;30m░░▒▓░░[0m
-  [1;30m░ [0m              [32m [0;37m  [0;31mAnswer :[0;37m [0;5;37m_[0m                                      [1;30m░▀▒░░[0m
- [1;30m  [0m              [32m             [0;37m [0;32m             [0m                        [1;30m      [0m'
+  [1;30m░ [0m              [32m [0;37m  [0;31mAnswer :[0;37m [0;5;37m_[0m                                      [1;30m░▀▒░░[0m'

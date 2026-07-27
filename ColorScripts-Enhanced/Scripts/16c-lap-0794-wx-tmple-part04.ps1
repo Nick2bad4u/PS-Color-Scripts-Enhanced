@@ -5,7 +5,7 @@
 # Source SHA-256: 04160702c67c26efe9441247487507a4b5187a423178c8be18e5db490f300a82
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WX-TMPLE.ANS by Waxman (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lost Temple
 # SAUCE Author: Waxman
 # SAUCE Group: Lapse
@@ -29,7 +29,7 @@ Write-Host '
 [1;30m░ [0;1;31;41m░ [0m                                                                        [31m██[0m
 [1;30m░ [0;1;31;41m ░ [0m [1;30m░[0m                                                                    [1;31;41m ░ [0m
 [1m [0;1;31;41m ░▒░ [0m                  [1;30m▄▄▄▄▄▄▄▄[0m                                          [1;31;41m ░▒░ [0m
-[1m [0;1;31;41m ▒▓▒ [0m  [1;30mXXXXXXXXXXXXXX  ▓█ [0m▄▄▄▄ [1;30m█  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  [0;1;31;41m ▒▓▒ [0m
+[1m [0;1;31;41m ▒▓▒ [0m  [1;30m                ▓█ [0m▄▄▄▄ [1;30m█                                         [0;1;31;41m ▒▓▒ [0m
 [1m  [0;1;31;41m▓[0;1;31m█[0;1;31;41m▓[0m   [1;30mX[0m            [1;30mX  ▒ █ [0;1;30;47m▓▒░[0m█ [1;30m█  X[0m                                  [1;30mX   [0;1;31;41m▓[0;1;31m█[0;1;31;41m▓[0m
 [1m [0m▄▄▄▄▄  [1;30mX[0m            [1;30mX  ░  █ [0;1;30;47m▓▒░[0m█ [1;30m█  X  [0;1;31mTh[0;31mis [0;1;30mis just a suggested c[0mol[1mor [0;1;30mX  [0m▄▄▄▄▄
   [1;30;47m░ ░[0m   [1;30mX[0m            [1;30mX  ░   █ [0;1;30;47m▓▒░[0m█ [1;30m█  X[0m            [1;31msc[0;31mhe[0;1;30mme, you are [0mfr[1mee[0;1;30mX   [0;1;30;47m░ ░[0m
@@ -56,8 +56,8 @@ Write-Host '
 [1;30m  ▌█▐   X[0m                                 [1;30mX  ░   █ [0;1;30;47m▓▒░[0m█ [1;30m█  X[0m           [1;30mX   ▌█▐[0m
 [1;30m  ▌█▐   [0;1;31mA l[0;31min[0;1;30me here would become this lo[0mng[1m..  [0;1;30m░   █ [0;1;30;47m▓▒░[0m█ [1;30m█  X[0m          [1;30mX   ▌█▐[0m
 [1;30m  ▌█▐   X[0m                                   [1;30mX  ░   █ ▀▀▀[0m▀ [1;30m█  X[0m         [1;30mX   ▌█▐[0m
-[1;30m  ███   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  ░   █▀▀▀▀▀▀█  XXXXXXXXXX   ███[0m
+[1;30m  ███                                           ░   █▀▀▀▀▀▀█               ███[0m
 [1;30m ▀▀▀▀▀[0m                                           [1;30m░  ▓[0m      [1;30m▓[0m              [1;30m▀▀▀▀▀[0m
                                                   [1;30m░ ▒[0m      [1;30m▒[0m
-[1;30m [0;1;31mWX[0;31m-T[0;1;30mMPLE.LPS is a Waxman Production c. [0m19[1m94[0m       [1;30m░░[0m      [1;30m░[0m
+[1;30m [0;1;31m  [0;31m  [0;1;30m                                   [0m  [1m  [0m       [1;30m░░[0m      [1;30m░[0m
                                                     [1;30m░░░░░░░░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 445ec9203439835da8fbcac9c3177a352e10ec49a335c5b8ec0a7a88be88c8d7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TL!RBIGH.ANS by timeless (ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rbi
 # SAUCE Author: timeless
 # SAUCE Group: ecolove
@@ -26,4 +26,4 @@ Write-Host '
  [1;30m▀[0m  [1;30m█  ▐▌[0;32m  [0;36m░░[0;32;46m▒[0;1;36;46m░░[0;36m█[0m      [1;30m░░[0m     [32m█[0;1;32;42m░░[0;32m▀███▄▄▄ [0;1;30m▀[0;32m ▄▄[0;1;32;42m░░▀[0;32m███▀▀▀█░░[0;1;30m▐  ▀▀[0;32m [0;1;30m ▌▐[0m  [1;30m█[0m  [1;30m█▄ ▀▀  █[0m
 [1;30m░░[0m  [1;30m▄[0m   [1;30m▀[0;36m  [0m   [36m░░  ░░[0m              [32m░░▀▀▀[0;1;32;42m░░[0;32m█[0;32;46m▓▓[0;32;40m▀▀▀  ░░[0m       [1;30;40m▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀█  █ [0m
         [1;30m [0m [1;30m ▄[0m                              [32m░░[0m                 [1;30m [0m [1;30m ▄[0;32m   [0m    [1;30m    ██▄ [0m
-                [1mrave beats internation german headquarters [0m  [1;30m■[0m'
+                [1m                                           [0m  [1;30m■[0m'

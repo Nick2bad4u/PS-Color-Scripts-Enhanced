@@ -5,7 +5,7 @@
 # Source SHA-256: b89f69f9623a7ccabda0e6d104ad4f52aae499c4421c5c679a44542895fdb658
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 05-FINAL.ANS by Trahma + Black Viper + Dieznyik + Cheeze + Illusion X + Nail + Widowmaker (swap06); released in swap06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
@@ -50,6 +50,4 @@ Write-Host '
      [35m░░▓█▌    ▐██▓ ▐███▌    ▐▌▀  ▐███▌    ░▓█▀ ▄▄█▌    █████[0;1;35;45m░[0;35m█[0;36;45m░░[0;35;40m█[0;1;35;45m░░[0;35m█[0;36;45m░▒▓░▒[0m   [1;36;40m▀▀[0;36m▀▀[0m
      [35m░▓██▓[0m     [35m▐█▓░▓████████▓░  ░▓███▌    ░▓██████    ░▓▌ ▐█████▌▀▀▀ ▀▀ ▀    [0;36m▀▀▀[0m
       [35m▐██▓░    ▐█▓░▐███▌[0m          [35m████[0m     [35m░▓██▀▐█▌    ▐▌██▌▀███▓░[0m            [36m▀[0;35m▀[0m
-     [35m▀▀▀▀██████▐▀▀ ▐▀▀▀▓░ ░▓██▌█▐▐████[0m     [35m░▓██ ▐███████▌[0m     [35m▀█████████▌▌▐  ▌ ▀[0m
-
-[37mswap(tm) #06 - 09/28 : trahma, bviper, cheeze, diez, illx, nail, and widowmaker[0m'
+     [35m▀▀▀▀██████▐▀▀ ▐▀▀▀▓░ ░▓██▌█▐▐████[0m     [35m░▓██ ▐███████▌[0m     [35m▀█████████▌▌▐  ▌ ▀[0m'

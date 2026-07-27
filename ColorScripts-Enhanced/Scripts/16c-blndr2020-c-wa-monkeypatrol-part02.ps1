@@ -5,7 +5,7 @@
 # Source SHA-256: 30762d5edfb9abcd5d6a2c3bb8855276702d7e42215c39be4a4d5ffc5829962a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: c-wa-monkeypatrol.ans by warpus (BLENDER); released in blndr2020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: monkey patrol
 # SAUCE Author: warpus
 # SAUCE Group: BLENDER
@@ -52,10 +52,10 @@ Write-Host '
                         [30m█[0;37m   [0;30m█[0m                   [30m█[0m               [30m████████████████[0m
                             [30m█[0m      [30m█[0m            [30m█[0m     [30m█████████████████████████▒[0m
 
-         [1;30mdrawn[0m [1;30mfor[0m [1;30mblender[0m [1;30m2020[0m [1;30m/[0m [1;30mMONKEYS[0m [1;30m/[0m [1;30mRESCUING[0m [1;30m/ BETW[0;1;30;47mEEN REALITI[0;1;37;47mES[0;1;37;40m█[0m      [30m█[0m
+         [1;30m     [0m [1;30m   [0m [1;30m       [0m [1;30m    [0m [1;30m [0m [1;30m       [0m [1;30m [0m [1;30m        [0m [1;30m      [0;1;30;47m           [0;1;37;47m  [0;1;37;40m█[0m      [30m█[0m
 
-                   [37mA i didn''t HAVE TIME T[0;32mO FINISH THIS PRODUCTION[0m
+                   [37m                      [0;32m                        [0m
 
-                 [1;37m [0m                   [1;30mby[0;1;32m warpus[0m
+                 [1;37m [0m                   [1;30m  [0;1;32m       [0m
 
                                        [30;41m█[0m'

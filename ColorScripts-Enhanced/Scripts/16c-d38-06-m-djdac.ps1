@@ -5,7 +5,7 @@
 # Source SHA-256: 0cf67f626cf998bcaf517dcd6b74daa4b40ce5bce326d97e1f1a11d6e53ad49a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M!-DJDAC.ANS by Myth (d38-06); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digital Audio Crew (DJ-DAC)
 # SAUCE Author: Myth
 # SAUCE Group: ?
@@ -46,7 +46,7 @@ Write-Host '
 [1;34;46m▓▒░░ [0;36;47m██▓▒░░░[0;37;40m██[0;36;47m▒[0;37;40m█[0;36;47m▒▀▀▀▀▀▄▄█[0;33;47m░[0;37;40m█[0;36;47m▀░[0;37;43m▓▒░[0;33;40m█[0;37;43m░[0;33;40m█[0;37;43m░[0;36;43m  [0;33;43mmyth[0;33;40m███████░█▄▄▄ ▄ ░▓██████████░ [0;1;30;40m [0;33m [0;1;30m [0;33m [0;1;30m░[0;1;30;47m░[0;36;47m▒░▓[0m
 [1;34;46m▓▓▒▒░[0;36;47m▓▒░[0;31;47m      [0;36;47m░[0;31;47m [0;36;47m▓[0;31;47m  [0;36;47m■[0;31;47m [0;33;47m░[0;31;47m  [0;36;47m█▄[0;33;47m░[0;31;47m [0;37;43m▓▓▒▒░[0;36;43m [0;37;43m░[0;36;43m     [0;33;40m████████████████▓███████████▓ [0;1;30;40m░[0;33m [0;1;30m [0;33m [0;1;30m ▒[0;36;47m░▓▓▓[0m
 
-          [1;30;40m                     digital audio crew[0m
+          [1;30;40m                                       [0m
 
-                     [1;30m [0m   [1;30;47mALL[0;1;30;40m [0;34mdis[0;37m ORIGINAL [0;34mansi by myth[0m
+                     [1;30m [0m   [1;30;47m   [0;1;30;40m [0;34m   [0;37m          [0;34m            [0m
            [34m         [0m    [37m          [0;34m   25/vga[0m'

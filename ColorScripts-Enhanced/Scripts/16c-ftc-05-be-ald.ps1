@@ -5,7 +5,7 @@
 # Source SHA-256: bc2458b969231b9da640c0e6314add18e1995b36ff01c05f6ba1d7ecfd44377c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BE-ALD.ANS by brain eater (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alderAAn
 # SAUCE Author: brain eater
 # SAUCE Group: ftc
@@ -31,4 +31,4 @@ Write-Host '
                 [35;44m▓▓▒░[0m        [1;34;46m ░▒▓[0m  [1;32;47m▒▓▒▒[0m        [1;32;47m░  ░[0m  [1;30;44m▒▒▓[0;1;30;40m█[0m     [36m   █[0;1;36;46m▒▒▒[0m  [1;31m▐█[0;1;31;41m▓█[0;1;31;40m███[0;1;31;41m   [0m
    [35m      ░[0;37m [0;35m░▒▓█[0;35;44m▓▓▓▒▒[0;34;40m▀▀▀▀▀[0;36;40m▀[0;34;40m▀[0;36;40m▀▀▀▀▀[0;37;40m [0;1;31;40m [0;1;32;47m░▒░░[0m▀▀▀▀▀▀▀▀▀▀▀▀ [34m▄[0;1;30;44m ░▒▓[0;1;30;40m▀▀▀▀[0;36m▀[0;1;30m▀[0;36m▀▀▀[0;1;30m▀[0;36m▀▀[0;37m [0;1;31m▄███[0;1;31;41m▀▀▀  ░ [0m
                                                          [1;31m  [0m   [1;31m▀[0m [1;31m▀▀▀▀[0;1;31;41m▀▀▀   ░ ░░░░[0m
-                     [1;30m ..[0;1;32ma[0mlderAAn [1;32m+[0mo [1;32mm[0mindcrime[1;30m..[0m                         [31m▀▀▀▀[0;1;31;41m  ░ [0m'
+                     [1;30m   [0;1;32m [0m        [1;32m [0m  [1;32m [0m        [1;30m  [0m                         [31m▀▀▀▀[0;1;31;41m  ░ [0m'

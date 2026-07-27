@@ -5,7 +5,7 @@
 # Source SHA-256: a3220e9ffdb8fb215905d0280684dbb7da50ca421603f05e4f06bc2f8b8e5753
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!JASPE.ANS by sIMONkING (thelo0p); released in bafh-pack5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: jASPER lOGO
 # SAUCE Author: sIMONkING
 # SAUCE Group: thelo0p
@@ -33,6 +33,4 @@ Write-Host '
 [1;37m█▀█████[0;1;37;47m▄[0m▄[1;30m [0;31m▀[0;37m ▀▄[0;1;37m ████████████[0;1;37;47m▀[0;1;37;40m██████[0;1;37;47m [0;1;37;40m  ██[0m  [1m██[0m    [32m  jASPER!!![0m      [1;30m▀[0m
 [1m▀[0;1;47m [0m   [1m▀██[0;1;47m▄[0;1;40m▄█[0;1;47m▄[0;1;40m▄████▀█[0;1;47m▀[0;1;40m███████[0m▀▄   [1m▀[0m▀[1m▄██[0m  [1m██[0m
   ▀     [1m▀[0m▀▄        [1m▀[0m▀▄       ▀
-                      [1;30m▀[0m
-[31mSPECIAL FOR UNTEMD[0m
-[1;30mANSI DONE BY SIMONKING/THELOOP^IMPURE1940[0m'
+                      [1;30m▀[0m'

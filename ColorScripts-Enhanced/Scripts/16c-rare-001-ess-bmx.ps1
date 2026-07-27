@@ -5,7 +5,7 @@
 # Source SHA-256: 9a8d6e6ce6041699bd027245e132f8000d2839d85fc0741919ecbe8ece9b3019
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ESS!BMX.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BodyCount Matrix
 # SAUCE Author: Essence
 # SAUCE Group: rARE!ASCii
@@ -24,7 +24,7 @@ $$[1m$$$[0m$$[1;30mi[0m  [36m$b,_.,g*--*y$$$$`[0;37m  [0;1;30m::::::[0m 
 $[1m$$[0;1;33m$$[0;1;37m$[0m$[1;30m:[0m [1;30m·[0;36ml$[0;1;37;46m░░[0;36m$P [0;1;36m [0;1;33m.[0;1;37m::[0;1;36m [0;36m7$[0;1;36m$[0;36mi[0;1;36m [0;1;30m__[0;31m__[0;1;31m__.,d§§[0;31m§§§§Y[0;1;30mb,__[0m [1;30m_[0m  [1;30m::[0m [1m [0ml[1;30m,..  :::[0m   apply[1;30m░░[0m [1;30ml[0m SSS
 $[1m$$$$[0m$l[1;30m`[0m  [1;30m:[0;36m$[0;1;37;46m░░[0;36m$l[0;1;36m  [0;1;33m::`[0;36m,[0;1;36m [0;36m$$:[0;37m [0;1;31m§§§[0;31m§§[0;1;31m§S[0;31m§*╝╝*[0;1;31mS[0;31m§§§§SSli[0;1;30m::[0;31m.[0m   [37md$[0;1;30m;;;::...·[0;1;37m  [0myell    [1;30m:[0m III
 $Y*╝²[1;30m`[0;1;37m  [0;1;30m_[0m.[1;36m [0;36m$[0;1;36m$$$[0;36m$b,  .d[0;1;30m:[0;36mSP`[0;1;30m,[0;1;31m`╚§§[0;31m§§§:    ;§SSli[0;1;30m::[0;31mi"^" . [0;37mIIi[0;1;30miiii;;;;[0m [1m [0mmsg       ll[1;30ml[0m
-[1;30m`[0;1;37m [0;1;30m_.[0m,g@$[1m$[0m$[1;36m [0;36mI[0;1;36m$$$$$[0;36m$$$$$[0;1;30mi[0;36ml [0;1;30m:i:[0;31m [0;1;31ml§[0;31m§§§§%gg%SSli[0;1;30m::[0;31mi`[0m       [37mii[0;1;30mll[0mlll[1;30mllii∙[0;1;37m [0;1;30m░░[0m        ii[1;30mi[0m
+[1;30m [0;1;37m [0;1;30m  [0m    [1m [0m [1;36m [0;36m [0;1;36m     [0;36m     [0;1;30m [0;36m  [0;1;30m   [0;31m [0;1;31m  [0;31m            [0;1;30m  [0;31m  [0m       [37m  [0;1;30m  [0m   [1;30m     [0;1;37m [0;1;30m░░[0m          [1;30m [0m
 [1;30m,[0md$[1m$$$[0m$$Y*[1;36m [0;36ml$[0;1;36m$$[0;1;33m$[0;1;37m$$[0;1;36m$[0;36mSSS[0;1;30mS[0;36mib,[0;1;30m`[0;1;37m,[0;1;31md[0;31m§[0;1;31m§╝"`[0;31m`"╚§§§SS[0;1;30m:[0;31mi`_.,,._[0m   [37m::lIIIIIIll[0;1;30m:[0;1;37m [0mlogoff  [1;30m:[0m [1;30m:::[0m
 [1;30ml[0m$[1m$[0;1;36m$$[0mP`    [1;30m;[0;36m$[0;1;36m$$$$[0;1;33m$[0;1;36m$$[0;36mSI[0;1;30m^[0;36m:: [0;37m [0;1;31m§[0;31m§[0;1;31mP[0;31m   [0;1;30m   [0;31m  [0;1;31m7[0;31mY$[0;1;30m:[0;31miiIP"`[0;1;31m`"7[0;31mb, [0;1;30m:[0m:SSSSSSSSI:[1m [0;1;30m,__[0m   [1;30m_,l[0m [1;30m·∙[0m
 $$[1m$$[0m$l    [1;30m :[0;36mS[0;1;36m$$$$$$[0;36m$il[0;1;36m [0;36m:∙ [0;37m [0;1;31m╚Yl[0;31m   [0;1;30m   [0;31m  [0;1;31ml[0;31m l[0;1;30m;[0;31milI[0m      [1;31ml[0;31m§[0;1;30mi[0;1;37m [0ml$[1m$$$[0;1;33m$$[0;1;37m$[0m$Si[1;30m``"$²╝╝"`[0m    [1;30m·[0m

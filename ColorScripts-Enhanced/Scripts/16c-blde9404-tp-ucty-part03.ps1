@@ -5,7 +5,7 @@
 # Source SHA-256: 4a5c89c7e80af93b067672432e9881583a178363799d021c7cdb7f7e928396a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-UCTY.ANS by Technophreak (blde9404); released in blde9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 60-106
 # Columns: 1-80
 
@@ -36,23 +36,23 @@ Write-Host '
            [1;37mt    h    e[0m      [1;37mu    n    d    e    r    c    i    t    y[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
 
-                       [35mT[0;1;35mh[0;1;30me finest H/P/A board in 2[0;1;35mO[0;35m9[0m
+                       [35m [0;1;35m [0;1;30m                         [0;1;35m [0;35m [0m
 
           [35m2    [0;1;35mO    [0;1;30m9    [0;1;37m·    [0;1;30m6    8    3    [0;1;37m·    [0;1;30m3    6    [0;1;35m7    [0;35m3[0m
 
-               [35mR[0;1;35mu[0;1;30mnning Oblivion /2 2.20b15 for your enjoyme[0;1;35mn[0;35mt[0m
-                     [35mB[0;1;35ml[0;1;30mastin out 14400 bits per seco[0;1;35mn[0;35md[0m
+               [35m [0;1;35m [0;1;30m                                          [0;1;35m [0;35m [0m
+                     [35m [0;1;35m [0;1;30m                             [0;1;35m [0;35m [0m
 
-                         [35mB[0;1;35mL[0m/┤DE  Distribution Si[1;35mt[0;35me[0m
-                          [35mR[0;1;35mo[0;1;30mT World Head Quarte[0;1;35mr[0;35ms[0m
-                           [35mD[0;1;35mn[0;1;30mA Net Member Boa[0;1;35mr[0;35md[0m
-                              [35mA[0;1;35mA[0;1;30mA Western H[0;1;35mu[0;35mb[0m
-                           [35mD[0;1;35mi[0;1;30mE Distribution Si[0;1;35mt[0;35me[0m
-                      [35mC[0;1;35my[0;1;30mberCrime International Netwo[0;1;35mr[0;35mk[0m
+                         [35m [0;1;35m [0m ┤                   [1;35m [0;35m [0m
+                          [35m [0;1;35m [0;1;30m                   [0;1;35m [0;35m [0m
+                           [35m [0;1;35m [0;1;30m                [0;1;35m [0;35m [0m
+                              [35m [0;1;35m [0;1;30m           [0;1;35m [0;35m [0m
+                           [35m [0;1;35m [0;1;30m                 [0;1;35m [0;35m [0m
+                      [35m [0;1;35m [0;1;30m                            [0;1;35m [0;35m [0m
 
-                              [35mS[0;1;35my[0;1;30msOp: Korru[0;1;35mp[0;35mt[0m
-                              [35m3[0;1;35m6[0;1;30m4 Megs Onli[0;1;35mn[0;35me[0m
-                       [35mN[0;1;35mo [0;1;30mNUP, No Lamers, No Nonsen[0;1;35ms[0;35me[0m
+                              [35m [0;1;35m [0;1;30m          [0;1;35m [0;35m [0m
+                              [35m [0;1;35m [0;1;30m           [0;1;35m [0;35m [0m
+                       [35m [0;1;35m  [0;1;30m                         [0;1;35m [0;35m [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[1;30m [0;1;37mANSi by TechnoPhreak of BL/┤DE Advertisements Incorporated - Kickin it in ''94![0m
+[1;30m [0;1;37m                           ┤                                                  [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 291916c7038f44e90318e61064c2da6faa2dea2fecb63ece1531b8fbad2dd2aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TDC.ANS by Grifter 805 (viv-0895); released in viv-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -27,6 +27,4 @@ Write-Host '
                 [1;30;47m▒[0m  [1;30mGrif [0;1;30;41m█   [0;1;30;47m█[0m [1;30;41m█   █[0m [1;30m▐[0;1;30;41m█    █[0;1;30m▐[0;1;30;41m█    █[0m [1;30mter [0;1;30;47m▒[0m
                 [1;30;47m░[0m   [1;30mGri▐[0;1;30;41m█▄▄▄[0;1;30;47m█[0m [1;30;41m█▄▄▄█[0m [1;30m▐[0;1;30;41m█▄▄▄▄█[0;1;30m▐[0;1;30;41m█▄▄▄▄█[0m [1;30mGri [0;1;30;47m░[0m
                 [1;30;47m░[0m                                      [1;30;47m░[0m
-                ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-                          [1;30mOf [0;1mVIVID [0;1;30mProductions[0m
-'
+                ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 941eb554c87a82fe666f2948dd6f180adf01c692676080a37ee0c0b08c9be798
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR_WORM1.ANS by CRUCiFER (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Worm Flying
 # SAUCE Author: CRUCiFER
 # SAUCE Group: Department 38
@@ -34,9 +34,4 @@ Write-Host '
          [1;30m█[0m ▄[1;47m▄███████████████████████████▀[0;1;40m▀[0m▀▄[1m▄[0;1;47m▄█████▄[0;1;40m▄[0m▄[1;30m▀▀█▄ ▀[0m [31m▄[0;1;31m▄[0;1;31;41m▓▓▓▓▓[0;1;31;40m▄[0;1;31;41m▓▒░[0;31m▀[0;1;30m  [0m [1;30m [0m
         [1;30m█[0m ▄[1;47m▄████████████████████████▀[0;1;40m▀[0m▀▄[1m▄[0;1;47m▄█████████████▄[0;1;40m▄[0m▄[1;31m▀▀[0;1;31;41m▓▓▓▓▓▒▒░░[0;31m▀▀[0;1;30m ▄[0m
         [1;30m▀▄▄[0;1;37m     [0m▄[1m▄▄▄▄▄▄▀▀▀▀▀▀▀▀▀▀▀[0m▀▄[1m▄[0;1;47m▄█████████████████████▄[0;1;40m▄[0m▄[31m▀▀[0;1;31;41m░[0;31m▀▀[0;1;31m [0;1;30m▄▄▀▀[0m
-             [1m          [0m▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;47m▀██████████████████▄[0;1;40m▄[0m▄ [1;30m▀ [0m   [1;30m [0m [1;30mcr·d38[0m
-
-
-
-[1;30m...These worm pictures are for Dizzy''s Dilemma...I love this guy, and I can''t [0m
-[1;30mwait see more of his whacky antics...:>[0m'
+             [1m          [0m▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;47m▀██████████████████▄[0;1;40m▄[0m▄ [1;30m▀ [0m   [1;30m [0m [1;30mcr·d38[0m'

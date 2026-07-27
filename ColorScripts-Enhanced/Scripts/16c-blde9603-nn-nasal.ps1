@@ -5,7 +5,7 @@
 # Source SHA-256: 2ce70bc9879d7098f42e36ded18690bf8d9e673071097f4fb0f7252733cb22b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NN-NASAL.ANS by neo negro (blade); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nasal malfunction
 # SAUCE Author: neo negro
 # SAUCE Group: blade
@@ -35,7 +35,7 @@ Write-Host '
           [1;47m▓▓▓▓▓[0m [1;30;47m░░░░░[0m▀▀[1;30m▀[0;1;30;47m▓[0m▒▒ [1;47m░░░░░[0m [1;30;47m░░░░░[0m [1;30;47m▓[0m▒▒[1;30m▀[0mnn![1;30m▀[0;1;30;47m▓[0m▒▒ [1;47m░░░░░[0m▄[30;47m░[0;1;30;47m▓▓[0m▒▒ [1;30;47m░░░░[0m▌
                 ▀▀▀▀▀▀   ▐▌▀▀▀▀▀▀ ▀▀▀▀▀▀▀         ▀▀▐▌▀▀▀    ▀▀[1;47m░░░░[0m▀
                          ▐▌      +358-0-xxxxxx      ▐▌
-                         [32;47m░[0;37;40m  [0;1;32;40m▄[0m    affils galore    [1;32m▄  [0;32;47m░[0m
+                         [32;47m░[0;37;40m  [0;1;32;40m▄[0m                     [1;32m▄  [0;32;47m░[0m
                          [32;47m▓[0;37;40m [0;1;32;42m▀[0;32m▓[0;1;32;42m [0;32m▄[0m                 [32m▄[0;1;32;42m [0;32m▓[0;1;32;42m▀[0m [32;47m▓[0m
 [35;40m░ ░  ░[0m       [1;35;40m░    ░  ░ ░░[0;1;35;42m▒[0;32m▌ ▀ ▐▓░[0;37m malfunction [0;32m░▓▌ ▀ ▐[0;1;35;42m▒[0;1;35;40m░░ ░  ░    ░[0m       [35m░  ░ ░[0m
                           [32m▀■▄■▀[0m                 [32m▀■▄■▀[0m'

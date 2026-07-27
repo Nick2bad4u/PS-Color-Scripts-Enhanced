@@ -5,7 +5,7 @@
 # Source SHA-256: 08a5337720c39263c4cf1dc44ff755c0682a75315fe75022a34b82e82dde9b37
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-NOCT.ANS by Skidoo + Magnatop (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nocturne
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -35,4 +35,4 @@ Write-Host '
                      [37m▀[0;1;37m▀▀▀[0m▄ [31m▀ [0;30;41m▀▀[0;31;40m▄[0;30;41m██[0;31;40m░[0;30;41m░[0;31;40m▓███▀▀  [0;37;40m▄[0;1;37;47m▒▓[0;1;37;40m██[0;1;37;47m▓▓▓[0m▓ [31m▀▀ ▓[0;1;31m██[0;1;31;47m▒[0;31m▌[0m
                                 [31m▀▀▀▀▀ mO  [0;37m▀[0;1;37m▀[0;1;37;47m▀[0;1;37;40m███████[0;1;37;47m▓░░[0m▀  [31m▀▀[0;31;47m▓[0;31;40m▀ ..[0m
       [1;35;40mnocturnal [0;35m..[0m                            [37m▀[0;1;37m▀[0;1;37;47m▀[0;1;37;40m█[0;1;37;47m▀[0;1;37;40m▀▀[0m▀      ▒
-      [35m(┤NSi by [0;1;35mMaGaNtOP [0;35m& [0;1;35mSkidOO[0m                            ░[0m'
+      [35m ┤       [0;1;35m         [0;35m  [0;1;35m      [0m                            ░[0m'

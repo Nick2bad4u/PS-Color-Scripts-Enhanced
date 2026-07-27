@@ -5,7 +5,7 @@
 # Source SHA-256: 96f7eb529c7038577e369e020cfba2a5a38d7428d1290884089893cc0ef16b30
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-rmrs1.ans by Avenging Angel + Cryogenic (sense27); released in sense27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -37,10 +37,4 @@ Write-Host '
 [34m [0;35m░[0;36m [0;35m▀[0;1;35;45m▀[0;1;35;47m▄▒[0;1;35;45m▒[0;35m▀[0;36m [0;35m░░░░░[0;36m [0;35m▀[0;1;35;45m▒█[0;1;35;47m▄▄[0;1;35;40m▀[0;35m▀▀[0;1;35;45m█[0;1;35;47m  [0;1;35;45m██[0;35m█ [0;1;35;45m▒██[0;1;35;47m▀  ▀[0;1;35;45m█▒[0;36m [0;1;35m▓▓[0;35m▀[0m      [35m███[0;34m [0;35m▀▀▀[0;36m    [0;35m░[0;37m [0;35m░░░░░[0;37m  [0;34m [0;35m░░[0m
                 [1;35m░░░░[0m     [1;35m▀▀▀[0;35m▀▀█▀▀[0;1;35;45m▀[0;1;35;47m▄  ▄[0;1;35;45m▀[0;35m▀[0;34m [0;1;35m░░[0m [35m░░░░[0m
 [37m [0;1;30mremorse[0m                       [35m▓[0;37m  [0;1;35m░░░░[0m
-                                [35m░[0m
-
-
-
-
-
-[37m [0;1;30mwe put the rmrs in remorse! - font outlines by cryogenic and colors avg love.[0m'
+                                [35m░[0m'

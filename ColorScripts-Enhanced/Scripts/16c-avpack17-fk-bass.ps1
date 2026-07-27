@@ -5,12 +5,12 @@
 # Source SHA-256: 0060e8c4da3020ec46a8ce5cf16ff9dddd0dae5c286dff09ecd7dee9d3c84566
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fk-bass.ans by Flick (avpack17); released in avpack17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
-[1;32mFucK[0;32m''[0;1;32ms[0;32m..[0;1;32m [0;30mblac[0;37m [0;30m asshole, its cherry ri[0;37m [0;30me with goodness![0m
+[1;32m    [0;32m [0;1;32m [0;32m  [0;1;32m [0;30m    [0;37m [0;30m                       [0;37m [0;30m                [0m
                         [1;30mit is black i[0m [1;30mnt it?[0m       [36m▄[0m   [36m [0;33m██▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;33m▀▀██▀▀[0m
 [37m   [0;36m▓[0;1;36;46m░[0;1;36;40m██[0;1;37;46m▀[0m          [36m ▓[0;1;36;46m░[0;1;36;40m██[0;1;37;46m▀[0m    [1;30m|[0m     [36m▓[0;1;37m▄[0;1;36m▄[0m [1;36;46m▓░[0;36m██[0;1;37;46m [0;36m▌[0;37m  [0;36m▄▄▄██[0;37m [0;36m▀▓[0;1;36;46m░[0;1;36;40m█[0;32m██[0;36m  [0m       [34m▄▄▄█[0m
 [37m   [0;36m▐████▌[0;37m         [0;36m [0;1;32;46m░[0;1;36;40m▓[0;36m███[0m         [36m▐[0;1;36m██[0;1;36;46m▓[0m [36m▌▓████[0;37m [0;36m▓████[0m   [36m▓██[0;32m██[0;36m ▓[0;1;36;46m░[0;1;36;40m██[0;1;37;46m▀[0m  [34m█████[0;37m [0;34m█[0m
@@ -30,5 +30,5 @@ Write-Host '
         [33m▀▀▀▀▀[0;37m [0;33m▀▀▀[0;37m [0;36m▓[0;1;35;46m▓▓▓▓[0;36m [0;37m [0;36m▓[0;1;35;46m▓▓▓▓[0m  [33m▄██[0;37m [0;36m▓[0;37m [0;1;35;46m▓▓▓[0m   [33m██[0m    [1;35m▐[0;1;35;46m▓[0;1;35;40m█▀▀▀[0;1;30;40m▀[0m     [1;32;46m░[0;1;35;46m▓▓[0;1;35;40m█▀▀▀▀▀[0m
                  [1;35m ▀▀▀[0m [36m [0;37m  [0;1;35m▐[0;1;35;46m███[0;1;35;40m▓▀[0m  [33m██[0;37m [0;36m▓[0;37m [0;1;35;46m███[0m   [33m██[0m   [1;35m▄[0;36m [0m          [1;35m▀[0;1;30m▀[0m
                 [1;35m▀[0m       [36m [0;1;35m▀[0;1;30m▀[0m      [33m██[0m   [1;35m▀▀▀▄[0m  [33m██[0m     [1;30m [0m
-         [1;35m/[0m                       [33m██[0m         [33m██[0m                [37m(FucK/av)[0m
-     [1;35mso why w[0m [1;35muld FucK do purple?[0;33m██▀▀[0;37m [0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'
+         [1;35m [0m                       [33m██[0m         [33m██[0m                [37m         [0m
+     [1;35m        [0m [1;35m                   [0;33m██▀▀[0;37m [0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

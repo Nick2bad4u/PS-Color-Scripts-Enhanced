@@ -5,7 +5,7 @@
 # Source SHA-256: 59a533affb4b7609c0580cd55f67f28a3236f79e3e84c6b3e89e96acbcb059b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-green.ans by Meatpod (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -30,21 +30,7 @@ Write-Host '
 [37m [0;1;37m [0m ```[1m [0m;[1m$$$$$$$[0m;[1m [0m```  [1m [0m    [1mo [0myour options          `[1m""[0m`,[1md$$[0m [32m|[0;37m  [0;1;32m$$$[0m [32m`[0;1;32m$$$$[0;32m┘`[0;37m,[0;1;32m [0;32m`[0;1;32m  [0m
 [1;30m       [0m `[1m└?$P┘[0m''            [1mo [0myour options             [1m $$$$[0m [32m|___[0;1;32m [0m  [32m;[0;1;32m$$$[0;32ml[0;1;32m [0m;[1m$[0;1;32m [0;32m___[0m
          [1;37m     [0m             [1mo [0myour options             [32m [0;37m`*[0;1;37m$$[0m__[32m ;$ [0;37m  [0;1;32m ?$$$[0;32m,.[0;37m`[0;1;32m $$$[0m
-  [1;30mthe woods are [0m                                        [32m   [0;1;37m  [0;32m  ?; [0;37m [0;1;32m  `/$$$$$$$$[0m
+  [1;30m              [0m                                        [32m   [0;1;37m  [0;32m     [0;37m [0;1;32m            [0m
  [1;30mdark tonight.. . [0m                                              [32m`└*┐,.[0;37m [0;1;32m [0;32m`^└┴[0;1;32m$$$[0m
            [1;30m      [0m                                                   [32m `._[0;37m [0;32m     [0;1;32m [0m
-[cut here]-8X-------------------------------------------------------------------
-
-here ya go, haws... greensting all the way. I thought this one of the best
-logos I''ve ever drawn, but everyone I''ve talked to about it has given me
-lukewarm responses...
-
-<scotty> I don''t know, jules... I don''t know if I could ever like an ascii that
-         was drawn by a jew
-
-<discofunk> you fucking jew.               [30mhey, guess what? YOU''RE[0m
-                                                 [30ma FAT FAGGOOTTTT[0m
-[37mit''s so hard to please people...[0m
-[37manyway... toot toot[0m
-
-[37mmeatpod[0m'
+[cut here]-8X-------------------------------------------------------------------[0m'

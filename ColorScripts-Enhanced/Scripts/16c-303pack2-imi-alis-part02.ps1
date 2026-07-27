@@ -5,7 +5,7 @@
 # Source SHA-256: bb737bf02c42adae58c0d03424d5f80c585e8fe9b78f6b919aceef5db68dde8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IMI-ALIS.ANS by imani (swat,3o3); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alice in wonderland
 # SAUCE Author: imani
 # SAUCE Group: swat,3o3
@@ -36,14 +36,4 @@ Write-Host '
 
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30mLook!!..;)..it''s Alice in wonderland½![0m [1;30mWith a BIIIG head compared to her body.[0m
-[1;30mOk there''s no background and the thing below her [0m
-[1;30mneck is a colar(it sucked)..well this is[0m
-[1;30mto PLC I think.. enjoy..;)[0m
-
-[1;30mgreet goes out to:[0m
-
-[1;30mplC-, Corenwyn, Reanimater.[0m
-[1;30mFilmnet television, and all members in SWAT(the mag)[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

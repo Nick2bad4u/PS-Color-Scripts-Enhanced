@@ -5,7 +5,7 @@
 # Source SHA-256: 99a1d0405bcd38b359e9b56dd0ea4ff95d7e8231d4dd69ca365084171da8ab67
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sm-pisel.ans by Smooth (iCE Advertisements); released in ice-200209 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pirahna Select Menu
 # SAUCE Author: Smooth
 # SAUCE Group: iCE Advertisements
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m▀[0m [1;41m MainMenu! [0m [1;30m▀[0m [1;41m Messages [0m [1;30m▀[0m [1;41m DoorMenu [0m [1;30m▀[0m [1;41m FileMenu [0m [1;30m▀[0m [1;41m VoteMenu [0m [1;30m▀[0m [1;41m NodeList [0m
+[1;30m▀[0m [1;41m           [0m [1;30m▀[0m [1;41m          [0m [1;30m▀[0m [1;41m          [0m [1;30m▀[0m [1;41m          [0m [1;30m▀[0m [1;41m          [0m [1;30m▀[0m [1;41m          [0m
 █▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄[1;30m▄ [0m       [1;30m▄▄▄▄▄▄▄[0m           [1;30m▄▄▄▄▄▄▄[0m        [1;30m▄[0m▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄
 ██[1;47m░░░░░[0m█████████▀      [1;30m░▒▓█▓▀▀▀▀██▓▄[0m    [1;30m▄▓████▀▀▀▀▓█▓▒░[0m      ▀███████[1;47m░░░░░░[0m████
 █[1;47m░░░░[0m█████████▀    [1;30m▀[0m  [1;30m▄[0m  [33m▄▄▄[0m     [1;30m▓▒▒▒▒▒▒▒▒▓▀ [0m    [33m▄▄▄[0;37m  [0;1;30m▄[0m  [1;30m▀ [0m    ▀████████[1;47m░░░░[0m███

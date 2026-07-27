@@ -5,7 +5,7 @@
 # Source SHA-256: 2febbff45f10bad2900691b43cfcca282c0d82e8f420a26d0cdc8bca3278fef3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-VOODO.ANS by Tuffguy (Ecolove); released in eco-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Voodoo lounge matrix
 # SAUCE Author: Tuffguy
 # SAUCE Group: Ecolove
@@ -41,10 +41,4 @@ Write-Host '
   [1;30m [0m        [1;30m [0m        [1;30m░░[0m   [1;30m▒[0m          [1;30m▐[0m                 ▐              ▀    [1;30m▐[0m
 
 
-[1;30m--------->8------------------>8-------------------->8------------------>8-------[0m
-[1;30mvoodoo lounge logon ansi, for vladimir[0m
-[1;30mgreets: everybody in ecolove, dEMENTiA, iMAGE! and revolution, vtg, ta, fb[0m
-[1;30mappel, l44 (hope to see some vga from you soon), sn, quicksilver, deadbyte,[0m
-[1;30mdepsua, sk8er, skin, unique, vision/iMAGE!, vision/EmpYre, pr, vladimir, robert[0m
-[1;30mall people i forgot and the whole dutch boardscene (or what''s left of it) [0m
-[1;30moldskool never dies, it just becomes older ;)[0m'
+[1;30m--------->8------------------>8-------------------->8------------------>8-------[0m'

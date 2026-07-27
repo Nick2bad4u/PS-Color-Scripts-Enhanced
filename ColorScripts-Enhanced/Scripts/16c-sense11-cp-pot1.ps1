@@ -5,7 +5,7 @@
 # Source SHA-256: dea3f8e8cea7c85fded742d7e346b6bf61d3f63e24ae32b7eb77bc7a19ddbedb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CP-POT1.ANS by cyber phreak (sense); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: request info
 # SAUCE Author: cyber phreak
 # SAUCE Group: sense
@@ -39,8 +39,8 @@ Write-Host '
 
 
 [1;30m--------------------------------------------------------------------------------[0m
- please email me if you have any requests or wanna trade something =)
+                                                                     
 
-                                                              cyberphreak//sense
-                                                              phuman@icon.co.za
+                                                                                
+                                                                               
 [1;30m--------------------------------------------------------------------------------[0m'

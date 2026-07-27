@@ -5,7 +5,7 @@
 # Source SHA-256: 563d436c928ae21f0ae371909a2347f76da14425f601ae08ea6a26a902dcee96
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 9MM-ELD1.ANS by 9 Millimeter (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eldorado
 # SAUCE Author: 9 Millimeter
 # SAUCE Group: AWE Lettering
@@ -29,8 +29,4 @@ Write-Host '
        [32;40m██   ▀[0;1;32;42m▀▓░[0m   ▀▀▀[1;47m▀█▌[0m▐▀▀▀▌▀[1m▓▓   [0;34m▀▀▀[0;1;34;44m▀[0;34m█[0;1;34;44m▄[0;34m██[0;30;44m░[0;34;40m▓██  ▀▀▀▐▓▄▄▄[0m     [36;40m▐[0;1;36;46m█████▀▀[0;36m▀▀▀[0m
        [30;42m░[0;32;40m▓[0m     [1;32;42m░[0;32m▌[0m         [37m▐[0m     [1;37m░░[0m        [34m▀▀[0;1;34;44m░▓▓░[0m       [34m░[0m         [1;36;46m▐▓█▀[0;36m▀[0m
        [32m░░[0m     [32m▐[0m          [37m▀[0m                  [34m▀[0;1;34;44m▀[0;34m▌[0m                 [36m▐[0;1;36;46m░[0;36m▀[0m
-[1;30m+─---─---─----─ --──---- [0m▀ [1;30m-──----──- --─--- [0;34m▐ [0;1;30m─- [0;1;30;44m [0;1;34;44meld[0;34morado! [0;1;30m-─- [0;36m▌[0;1;30m--── -- - -──=[0m
-
-- back from the trash can! =]
-
-menace is now known as 9mm (9 millimeter)[0m'
+[1;30m+─---─---─----─ --──---- [0m▀ [1;30m-──----──- --─--- [0;34m▐ [0;1;30m─- [0;1;30;44m [0;1;34;44meld[0;34morado! [0;1;30m-─- [0;36m▌[0;1;30m--── -- - -──=[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ad2d4b31101ffbb7b8412773473ee166c70a3bb9becf4b9ebeef5fc870abd574
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GI-DELI.ANS by Gigantor (TekLordZ); released in tl199512 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Deli
 # SAUCE Author: Gigantor
 # SAUCE Group: TekLordZ
@@ -19,7 +19,7 @@ Write-Host '
 
 
 
-            [1;30m [0m   [1;30mpicturecopiedoutofcloakanddaggercopyrightmarvelcomics [0m
+            [1;30m [0m   [1;30m                                                      [0m
       [1;30mgi! [0m  [1;30m,aS$$$$$$Sa.    S$$$$$$$$$$$$$$$.[0;1;31m²S$s "[0;31mi[0;1;31m$O[0;31mS$[0;1;31m$s,s[0;31m$[0;1;31m$ s.[0;1;30m`$$$$Sa.[0m
           [1;30m,S$$$$$$$$$$$$s.  `²S$$$$$$$$$$$$$$s[0;31m`$[0;1;31m²[0;1;30m,Ss[0;1;31m`$[0;31m$$[0;1;31m$$S$$[0;31m$[0;1;31m [0;31m`$[0;1;31ms.[0;1;30m`$$$$$[0m
          [1;30m,S$$$$$$$$$$$$$$$Sis.  `"SOS$$$$$$$$''[0;31ms''[0;1;30m$$$$s[0;1;31m`$[0;31m$[0;1;31m$''$$[0;31m$''[0;1;31m s''[0;31mI[0;1;31m`[0;1;30m,$$$$$[0m
@@ -41,7 +41,7 @@ Write-Host '
         [1;30m`$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$C I$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
        [1;30m  `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$s.`²S$$$$$$$$$$$$$$$$$$$$$$l[0m
        [1;30m   `²$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$SsiS$$$$$$$$$$$$$$$$$$$S²''[0m
-              [1;30moffcenteredasciifacedonebygigantorofteklordzproductions[0m
+              [1;30m                                                       [0m
 
 
                                 [1;37m    [0m

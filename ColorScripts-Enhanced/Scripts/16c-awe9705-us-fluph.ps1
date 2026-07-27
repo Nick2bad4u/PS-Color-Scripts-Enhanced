@@ -5,7 +5,7 @@
 # Source SHA-256: ce4b6ca9a96e404a8ad9263350fb1809ca30a71c2f6b6f184f50c090cdd8809c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FLUPH.ANS by Grindstoned + Apox (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fluph
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                 [1;30m [0m    [1;30m▄ [0m [1;30m [0m [1;30m   [0m                    [1;30m▄[0m   [1mgrindstoned@hotmail.com[0m
+                 [1;30m [0m    [1;30m▄ [0m [1;30m [0m [1;30m   [0m                    [1;30m▄[0m   [1m                       [0m
  [1;36m-[0;1;37m phobiuh[0;1;36m''[0;1;37ms[0m   [1;30m▄▄[0;33m▄▄▄[0;37m [0;33m▄[0;1;31;43m [0;33m▄[0;1;30m▄     [0m              [1;30m ▄[0;33m▌[0;1;30m [0;33m▄[0;1;31m▄[0;1;31;43m▄[0;1;31;40m▄▄[0;33m▄[0;37m      [0;1;37mapox@ice.org[0m
             [1;30m▄[0;1;30;43m▀ [0;35;43m [0;33;40m▓▀[0;37;40m    [0;33;40m▀[0;1;31;43m▀█▄[0;1;30;43m▀[0;1;30;40m▄   [0;1;30;43m▀[0m          [1;30m▄[0;1;30;43m▀[0;1;31;43m▄▌[0;33m▌[0;1;30m [0m  [33m▀[0;1;31;43m▀█[0;1;31;47m▓[0;1;31;43m▓▄[0;33m▄[0;1;30m [0m
   [36m▀[0;1;36;46m▀[0;36m░[0m      [33m▐██[0;1;36;43m░[0;33m█▌[0m    [1;36m░[0m [33m▐[0;1;31;43m▐[0;1;31;47m▓[0;1;31;43m█▌[0;33m▌[0;1;30m [0;1;31;43m▄█[0;33m▀[0;1;30m▀[0m       [33m▐[0;1;31;43m▐██▌[0;33m▌[0m    [33m▐[0;1;31;43m░▓░▓░[0;33m▌[0;1;30m [0m    [1;36m░[0m     [36m░[0;30;46m▓[0m
@@ -35,7 +35,7 @@ Write-Host '
 [36m▄[0;1;36;46m▄█[0;1;36;40m▄▄[0;36m█[0;1;30m▀[0m [1;36m░[0m    [1m▄[0;1;36m▄[0;1;36;46m█▄[0;36m██▄▄[0;1;36;46m▄[0;36m▄▄▀[0;1;37m▀[0;1;37;46m▀[0;1;36;40m▓▄▄[0;36m▄[0;1;30m [0;1;36m▀[0;36m▀[0;1;30m▀[0;1;36m▐▓[0;1;37m█▄█[0m [36m   ▄[0;37m [0;36m▀▀[0;37m [0;36m▀[0;1;34;46m░[0;36m████▄[0;1;30m▄[0;36m ▀▀▀ [0;37m  [0;1;30m [0;1;36;46m▀[0;1;37;46m▀[0m  [1;36m█[0m [36m▄[0;1;36;46m▄░░[0;36m▀[0;1;30m▀[0;36m░[0m
 [36m▀[0;1;36;46m▀▀[0;1;36;47m▓█[0;1;36;40m▀[0;36m [0;1;30m [0m  [36m░[0;30;46m▓[0;37;40m  [0;36;40m▄[0;1;36;46m▀[0;36m█[0;30;46mfluph[0;36;40m█[0;1;34;46m░[0;36m▓▀[0;1;30m▀[0;36m  [0;1;36m▀▀▀▀[0;36m▀ [0;1;36m▐▀[0;36m▀[0;1;37m▀█▀[0;36m▀ ▀[0;1;36;46m▀ [0;36m█[0;1;36;46m░[0;36m▄█[0;1;30;46m▄▄[0;36m▀▀[0;1;30m▀[0;36m▄[0;1;36;46m▄[0;1;33;46m▄[0;36m▄ [0;1;36;46m▀[0;36m▀[0;37m [0;1;36m░[0m     [1;36m█[0m  [36m▀[0;37m [0;36m▄[0;1;36;46m▄[0;1;37;46m▄[0;36m▄[0m
 [37m [0;36m+──[0;37m [0;36m▄[0;1;37;46m▄[0;1;36;46m▄[0;36m▄[0;1;30m▄ [0;36m────────-─────-<[0;1;36m ░[0;36m >─-─[0;37m [0;1;36m▐[0m [36m─ ▀ ─────────-──── ▀▀ ──[0;37m [0;1;36m░▓[0;36m ──-[0;37m [0;1;36m█[0;36m ─-─ ▀▀[0m
-[37m  [0;36m░[0m   [36m▀▀[0;37m [0;1;37moutline; apox,[0m [1mgstoned,. .[0;1;36m▐[0m [1mshadings & bground;[0m [1mgstone[0;1;36m▐▌[0;1;37md,.[0;1;36m▐▌[0;1;37m.[0m    [36m░[0m
-[37m  [0;1;37m [0m   [1mgstoned greets; harry, tna, [0m [1;36m░[0m [1mfluor, ravergab, the awe[0m [1mc[0m [1;36m▀[0m [36m▄[0;1;36m▄▀[0;1;37m rew[0m
-  [36m░[0m      [1;37mapox[0m [1mgreets;[0m [1m< put your greets here :) >[0m                          [36m░[0m
+[37m  [0;36m░[0m   [36m▀▀[0;37m [0;1;37m              [0m [1m           [0;1;36m▐[0m [1m                   [0m [1m      [0;1;36m▐▌[0;1;37m   [0;1;36m▐▌[0;1;37m [0m    [36m░[0m
+[37m  [0;1;37m [0m   [1m                            [0m [1;36m░[0m [1m                        [0m [1m [0m [1;36m▀[0m [36m▄[0;1;36m▄▀[0;1;37m    [0m
+  [36m░[0m      [1;37m    [0m [1m       [0m [1m                           [0m                          [36m░[0m
 [37m [0;36m+-────-───────────────────-──────────-────────────--< [0;1;36m░[0;36m >-─────────────-──-+[0m'

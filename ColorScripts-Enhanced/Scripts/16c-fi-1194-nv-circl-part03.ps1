@@ -5,7 +5,7 @@
 # Source SHA-256: a5633f6582dca0bf0976fdbcbd2cd14287750abc515a164bd2077efb06331f15
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-CIRCL.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 94-128
 # Columns: 1-80
 
@@ -34,13 +34,13 @@ Write-Host '
                    [1;37m┌[0m─[1;30m─ 8[0m1 3  [1m-   5   2   4   -   1  [0m7 5[1;30m1 ─[0m─[1m┐[0m
                    [1m└──[0m─[1m──[0m─[1m─[0m──[1;30m─[0m┬─[1;30m─[0m─[1;30m── ── ── ──[0m─[1;30m─[0m─┬[1;30m─[0m──[1m─[0m─[1m──[0m─[1m──┘[0m
                    ┌──────────┴─[1;32mS[0;32mys[0;33mop: Lord [0;32mAs[0;1;32mh[0m─┴──────────┐
-                   └┬[1;32mC[0;32mos[0;33m:Palidin,No fear,Uninhibited,Fl[0;32mas[0;1;32mh[0m┬┘
+                   └┬[1;32m [0;32m  [0;33m                               [0;32m  [0;1;32m [0m┬┘
                     └───┬───[1;32mN[0;32mat[0;33mion south eastern [0;32mhu[0;1;32mb[0m───┬──┘
-                        └┬[1;32mN[0;32mat[0;33mion member / Distro bo[0;32mar[0;1;32md[0m┬┘
+                        └┬[1;32m [0;32m  [0;33m                      [0;32m  [0;1;32m [0m┬┘
                          └─────┬─[1;32mF[0;32miD[0;33mELiS dis[0;32mtr[0;1;32mo[0m─┬─────┘
                                └┬─[1;32mR[0;32map[0;33mture [0;32mne[0;1;32mt[0m──┬┘
-                                ├[1;32mV[0;32mal[0;33mkeries [0;32mne[0;1;32mt[0m┬┘
+                                ├[1;32m [0;32m  [0;33m       [0;32m  [0;1;32m [0m┬┘
                  ┌──────────────┴──[1;32mS[0;32mto[0;33mrm [0;32mne[0;1;32mt[0m──┴───────────────┐
-                 └┬[1;32mR[0;32men[0;33megade 1-02 Maxed out beyond recognit[0;32mio[0;1;32mn[0m┬┘
+                 └┬[1;32m [0;32m  [0;33m                                    [0;32m  [0;1;32m [0m┬┘
                   └─────┬───[1;32m6[0;32m50[0;33mmb ansi packs onl[0;32min[0;1;32me[0m───┬──────┘
-                        └─[1;32mN[0;32mo [0;33mratios / No Nuv / No [0;32mnu[0;1;32mp[0m─┘[0m'
+                        └─[1;32m [0;32m  [0;33m                     [0;32m  [0;1;32m [0m─┘[0m'

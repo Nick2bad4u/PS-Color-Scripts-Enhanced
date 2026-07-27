@@ -5,7 +5,7 @@
 # Source SHA-256: df99548f9d6a4516cfcce056daf21f69b2b76297bf08280dbb1e71cde212e1a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-jesus.ans by Warpus + Lucaslink (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sanitize your balls
 # SAUCE Author: lucaslink & warpus
 # SAUCE Group: LAZARUS
@@ -35,15 +35,15 @@ Write-Host '
 
 
 
-[37m   [0;35mSANITIZE[0;1;30m [0;35myour BALLS bbs    [0;1;30m//    +o [0mBunny         [1;30mcosysop [0mFranz
+[37m   [0;35m        [0;1;30m [0;35m                  [0;1;30m         [0m              [1;30m        [0m     
 
-   [1;30m27 active dial-up nodes[0m     [1;30m24.4 [0m.[1;30m 28.8 [0m.  [1;30m33.6 USR ELITE  [0m.  [1;30mV.42bis MNP5[0m
+   [1;30m                       [0m     [1;30m     [0m [1;30m      [0m   [1;30m                [0m   [1;30m            [0m
 
-   [1;30mGLOBAL PIN smash league interbbs NET  [0m.[1;30m  18.9 MB of high-res BOWLING PIX[0m
+   [1;30m                                      [0m [1;30m                                 [0m
 
-   [1;30m486DX2/66 server OVERCLOCKED TO[0m [1;30mI''LL SUCK YOUR DICK[0m
+   [1;30m                               [0m [1;30m                   [0m
 
-   [1;30m900+ xxx bowling door games  [0m.  [1;30mno upload ratios  [0m.  [1;30mmulti-line one-liners[0m
+   [1;30m                             [0m   [1;30m                  [0m   [1;30m                     [0m
 
 
 
@@ -56,5 +56,5 @@ Write-Host '
                                       [1;30m░░[0m
 
 
-  [1;30m•copyright 1993 Lazarus Lane Systems                   Ball rights reserved[0m
+  [1;30m                                                                           [0m
               [30;45m█[0m'

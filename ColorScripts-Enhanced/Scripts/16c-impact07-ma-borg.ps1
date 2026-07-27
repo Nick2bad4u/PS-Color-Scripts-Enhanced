@@ -5,7 +5,7 @@
 # Source SHA-256: 3a057e37b9fab49566819dce4846d7fe9c3751945ac9342c47b2ab42a4fffe20
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-BORG.ANS by mafesto (impact); released in impact07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: skate shop
 # SAUCE Author: mafesto
 # SAUCE Group: impact
@@ -44,7 +44,4 @@ Write-Host '
 [1;30m    [0;34m▀▄▄▄▀▀▀▀███▀▀▀▄▄▀ ▐[0;34;44m   [0;30;44mgun[0;34;40m██[0;34;44m  [0;34;40m▌[0m       [1;30;40m▓[0m                [1;30m▒[0m           [1;30m▓[0m
         [34m▀▀▀▀▄▄▄▀▀▀[0m     [34m▀▀[0;34;44m    [0;34;40m█▀▀[0m         [1;30;40m▀[0m                [1;30m▓[0m           [1;30m▀[0m
                                                           [1;30m▀[0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mit''s a cyborg .. the bremuda triangle is the little symbol on his chest, and[0m
-[1;30mhe''s about to do some major killing. :) this is for the skate shop. - mafesto.[0m
-[1;30m-[bremuda triangle, cyborg, killing]--[blender]-----[mafesto∙riot]--------------[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

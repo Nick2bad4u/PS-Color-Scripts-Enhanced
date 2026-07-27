@@ -5,7 +5,7 @@
 # Source SHA-256: 3828cb70a9593193ab8e09b105ae2e36d9332b313c19afcf86afd5709a9bf894
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-DC1.ANS by shadowhand (spastic); released in spas9508 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: derceto
 # SAUCE Author: shadowhand
 # SAUCE Group: spastic
@@ -38,15 +38,15 @@ Write-Host '
 [35m [0;1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m       [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m       [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m       [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m       [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m       [1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀ [0;1;35m▀▀[0;35m▀[0;1;35m▀[0;35m▀[0m
                         [35m... [0;37mx  [0;1;37md e r c e t o  [0mx [35m...[0m
 
-                        [37mx[0;35m! [0;1;37ms[0m:[1mshadowhand[0m?![1mspastic [0;35m![0;37mx[0m
-                        [37mx[0;35m! [0;1;37mall art[0m, [1mall the time [0;35m![0;37mx[0m
+                        [37m [0;35m  [0;1;37m [0m [1m          [0m  [1m        [0;35m [0;37m [0m
+                        [37m [0;35m  [0;1;37m       [0m  [1m             [0;35m [0;37m [0m
                                                             [31m▓   ▄▄[0;1;30m▄▄▄[0;1;31;41m░[0m
                         [35m... [0;37mx  ([0;1;37m316[0m)[1m686[0m![1m8486  [0mx [35m...[0m        [1;30m▄[0;1;31;41m░[0;1;30;40m▀[0;31m▀▓    ■▒▀[0;1;30m▀▀▄[0;31m▓[0m
                                                          [1;30m▄[0;31m▀[0m       [36m▒  [0;31m░    ■▀[0;1;30m▄[0m
 ───--────------------------------─----------─────------ [31m░ [0;36m▀ ▄▄[0;1;36;46m░▒▄[0;36m█▄  ▄▄▓▀    [0;31m▒[0m
-[37mif you would like an advertisement, ansi, rip, or other[0;1;30m▐[0;31m▒  [0;36m█[0;36;46m [0;1;36;46m░ [0;36m▄[0;1;36;46m░[0;36m▓▄[0;36;46m  [0;36;40m▓[0;36;46m [0;1;36;46m░▒▄[0;36m▄  [0;31m▓▌[0m
-[37martwork from me, contact me at derceto or over the nets[0;31m▐▓ [0;36m■▀▓[0;30;46msd.spast▀c[0;36;40m▄[0;36;46m [0;1;36;46m░[0;36m▀  [0;31m▓▌[0m
+[37m                                                       [0;1;30m▐[0;31m▒  [0;36m█[0;36;46m [0;1;36;46m░ [0;36m▄[0;1;36;46m░[0;36m▓▄[0;36;46m  [0;36;40m▓[0;36;46m [0;1;36;46m░▒▄[0;36m▄  [0;31m▓▌[0m
+[37m                                                       [0;31m▐▓ [0;36m■▀▓[0;30;46m        ▀ [0;36;40m▄[0;36;46m [0;1;36;46m░[0;36m▀  [0;31m▓▌[0m
 [37m─────────--──---------─---------------------------─---- [0;1;31;41m░[0;31m■   [0;36m▀▀[0;36;46m [0;36;40m▄▓▓▀▒ ■    ▓ [0;1;31;41m░[0m
-shoe is copyright by jeff macnelly                       [1;30m▀[0;31m▓[0m        [36m▄[0m      [31m·[0;1;30m▄▀[0m
+                                                         [1;30m▀[0;31m▓[0m        [36m▄[0m      [31m [0;1;30m▄▀[0m
                                                            [1;30m▀▀[0;31m▄▓[0;1;30m▄  [0;31m■▄  [0;1;30m▄[0;31m▓[0;1;31;41m░[0;31m▀[0;1;30m▀[0m
                                                                 [1;31;41m░[0;31m▀▀▒[0;1;30m▀▀[0m'

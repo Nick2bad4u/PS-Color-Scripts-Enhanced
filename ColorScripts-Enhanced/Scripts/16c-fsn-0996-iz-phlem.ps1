@@ -5,7 +5,7 @@
 # Source SHA-256: 2913499642522cae064c944406c63d4b7e3fb111aec52fff656fc53ed86d8999
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-PHLEM.ANS by ize (fusion); released in fsn-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: phlem
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -34,7 +34,4 @@ Write-Host '
 [1;36m [0;1;37m▐██[0;1;36m██[0;1;33m [0;30miz[0;32m▀[0;1;33m▀▀ [0;1;36m▐████▄ [0;32m ▀[0;1;33m▀▀ [0;1;36m███   [0;32m▀[0;1;33;42m▀[0;1;33;40m█▀▀ [0;32m▄[0;1;33;42m▄█[0;1;33;40m█▀[0;1;37;40m▀▀[0;1;33;40m [0;1;36;40m    ▄▄▄██▄▄▄▄[0;1;37;40m▄▄[0;1;36;40m▄███████▄▄▄▄▄█████▌ [0m
 [1;36;40m  [0;1;37;40m▀██[0;1;36;40m██▄▄▄▄▄[0;1;36;46m▓▓[0;1;36;40m██████▄▄▄▄████[0;1;37;40m█▄[0;1;36;40m           ▄▄▄▄[0;1;36;47m▓▓[0;1;36;40m██████████[0;1;37;40m████[0;1;36;40m█████████████[0;1;36;47m▓▓[0;1;36;40m▀▀  [0m
 [1;36;40m   [0m░[30;47m▓[0;1;37;40m▀▀[0;1;36;40m▀██████████████████[0;1;37;40m██████[0;1;36;40m██[0;1;36;46m▓▓[0;1;36;40m███████████████████[0;1;37;40m███████[0;1;36;40m████████▀▀▀▀      [0m
-                                           ░[30;47m▓[0;37;40m [0;1;37;40m                  [0m       [1mphlem[0m
-
-           originally for a compo .. but missed the deadline :( .. hmm
-            I wouldnt prolly win anyhow ..   ARGH.. 50 bucks! ;) damn![0m'
+                                           ░[30;47m▓[0;37;40m [0;1;37;40m                  [0m       [1mphlem[0m'

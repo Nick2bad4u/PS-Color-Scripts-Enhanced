@@ -5,7 +5,7 @@
 # Source SHA-256: 5a90d1b092227fa54353e6794b9604e991702edfd6d8717f1c3c36f2980e5ce4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-EOE2.ANS by WatOr (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: EOE
 # SAUCE Author: WatOr
 # SAUCE Group: Toon
@@ -46,16 +46,4 @@ Write-Host '
        [1m▄▄▄[0m▄██ [1m█[0;1;47m▀█[0;1;40m█[0;1;47m▀▄ [0m▄[31m▀[0;1;31;41m░[0;31m▄▄█▀▀[0;37m    [0;1;31m [0;31m▀[0;1;31;41m░[0;31m▄▄█▀▀[0m    [31m▐[0;1;31;43m▓[0;1;31;40m█▄█▀▀▀[0m █[1;47m ▀▄████[0;1;30;40m [0m█[1;47m▄[0;1;40m▄▄[0m
       [1m▀[0;31m [0;37m [0;1;37m▀▀[0m▀█▄[1m▀▀▀▀▀[0m▄[31m   [0;37m  [0;31m ▀▀▄[0;37m  [0;31m  [0m     [34m  [0;31m [0;37m [0;31m▄ ▀▀█[0;1;31m▌[0;34m [0;37m  [0;31m▀[0;1;31;41m░[0;31m█▄[0;1;30m  [0m▄[1m▀▀▀▀[0m▄█▄[1m▄▀▀▄[0;1;30m [0m
         [31m [0;1;37m▄██[0;1;37;47m▄[0m█▀▀▀▀▀ [31melements[0;37m [0;31m ▄[0m   [31m(of)[0;1;37m [0m [31m■ evol ▀[0;1;31;41m░[0;31m▄▄█▀▀[0m    [37m▀▀▀▀▀[0;1;37;47m▐[0;1;37;40m█[0;1;37;47m▄[0;1;37;40m█▄[0;1;30;40m   [0m
-       [31m [0;1;37m▄▀[0m                     [31m■[0m          [31m  [0;1;31m [0m    [31m [0m              [1;30m  [0;1;37m▀▀▀▄[0;1;30m [0m
-         [31m [0m                                                            [1;30m [0m
-              [31m[too.oh.one][0;37m [0;31mnine.six.seven-eight.three.seven.too[0m
-
-                       [31mda sop is New School of toonz/cia[0m
-                       [31m  don''t know bout rest of staff[0m
-                       [31mcustomized oblivion so call now!![0m
-                           [31mansi/font by watOr of t∞∞n[0m
-                          [31mdis lil'' cat is 80% original[0m
-[37m [0;31m [0m                 [31m<only cuz he''s screaming it takes off 20%>[0m
-
-
-                         [31m [0;37m [0;31m% Another TOON production %[0m'
+       [31m [0;1;37m▄▀[0m                     [31m■[0m          [31m  [0;1;31m [0m    [31m [0m              [1;30m  [0;1;37m▀▀▀▄[0;1;30m [0m'

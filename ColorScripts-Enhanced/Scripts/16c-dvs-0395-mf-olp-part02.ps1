@@ -5,7 +5,7 @@
 # Source SHA-256: ab23f24533a48a087f10dec912f4868051c86eb6fca87cf6d6e1e8523138ea94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-OLP.ANS by Morbid Fixation (DVS); released in dvs-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: One Last Phix ANSi
 # SAUCE Author: Morbid Fixation
 # SAUCE Group: DVS
@@ -35,19 +35,9 @@ Write-Host '
                                 [32m▀▀▀▀▀[0;1;33m▀▀██[0;1;32;42m▓▓[0;1;33;40m▓▓[0;32m▀▀[0;1;33m▀[0m
 
                     [1;37m─────[0m────────[1;30m──────────[0m───────────[1m───────[0m
-                       [1;30m·[0;1;35mS[0;35my[0;1;30msops: [0;1;32mA[0;32mc[0;1;30mid [0;1;32mP[0;32mh[0;1;30mix. [0;1;31mC[0;31mh[0;1;30memical [0;1;31mH[0;31ma[0;1;30mlo·[0m
-                    [1;30m·[0;1;34mF[0;34ma[0;1;30mstest art in [0;1;33m7[0;1;30m1[0;1;33m7 [0;1;30m(that''s saying alot)·[0m
-                           [1;30m·[0;1;37mS[0mp[1;30mastic member boa[0mr[1md[0;1;30m·[0m
+                       [1;30m [0;1;35m [0;35m [0;1;30m      [0;1;32m [0;32m [0;1;30m   [0;1;32m [0;32m [0;1;30m    [0;1;31m [0;31m [0;1;30m       [0;1;31m [0;31m [0;1;30m   [0m
+                    [1;30m [0;1;34m [0;34m [0;1;30m             [0;1;33m [0;1;30m [0;1;33m  [0;1;30m                     [0m
+                           [1;30m [0;1;37m [0m [1;30m                [0m [1m [0;1;30m [0m
                               [1;30m·.717.795.9408.·[0m
-                               [1;30mNUP: Breakfast[0m
-                    [1;37m─────[0m────────[1;30m──────────[0m───────────[1m───────[0m
-
-                     [1;30mAnsi by [0;1;35mM[0;35mo[0;1;30mrbid [0;1;35mF[0;35mi[0;1;30mxation·[0;1;35mD[0;35mV[0;1;30mS. Ad for OLP.[0m
-                     [1;30mGreets out to: [0;1;32mA[0;32mc[0;1;30mid [0;1;32mP[0;32mh[0;1;30mix. [0;5;31mC[0;5;35mh[0;1;5;36me[0;1;5;32mm[0;1;5;36mi[0;5;35mc[0;1;5;32ma[0;1;5;34ml H[0;1;5;36ma[0;1;5;32ml[0;5;35mo[0;1;30m.[0m
-                       [1;30mand Leper Messiah (you are da man)[0m
-                         [1;30mAnd the rest of ya DVS boys. YO[0m
-                          [1;30m''Dis is some funky shit ''eh?[0m
-                            [1;30mThanks: Acid Phix·Spastic[0m
-                              [1;30mThe tips help ALOT!!![0m
-                                [1;30mAnd yes Damnit the[0m
-                                 [1;30mbox is crooked=)[0m'
+                               [1;30m              [0m
+                    [1;37m─────[0m────────[1;30m──────────[0m───────────[1m───────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 446eb7917adca6cfd74ba8954583f142c403177f516f7289251977e0c9fd9666
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-ABSOL.ANS by bk (EGArtists); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: absolom
 # SAUCE Author: bk
 # SAUCE Group: EGArtists
@@ -36,8 +36,5 @@ Write-Host '
 [33m""""²² ²[0m        [1;33m$²²²[0m                  [1;30m:[0m     [1;32m?    [0;1;33m,[0;1;37mP[0;1;33m"[0;32m"""""""""[0;1;33m²[0;32m²²²²²[0;1;32m$[0;1;33;42m$[0;1;32;42mi[0;32m$[0;1;33mi[0m      [1;30m:[0m
 [1;33m....,CB4ssssssss$  [0;1;37mf[0;1;35mr[0;1;33mee[0;1;32ms[0;1;33mt[0;1;32my[0;1;36mL[0;1;32me [0;1;37ma[0;1;33mb[0;33ms[0;1;35m0[0;33ml[0;1;31m0[0;33mm[0;1;35m. [0;1;30m:::::. [0;32m`+[0;1;32m+[0;1;33m'' [0;1;30m.::::::::::::::: [0;1;32m!$[0;1;32;42mI[0;30;42m$[0;32;40m$[0;1;32;40mP² [0;1;30;40m::::[0m
                                                                       [30;42m░$[0m
-[1;32;40mi[0;1;5;32;40mF [0;32mth[0;1;32mi[0;32ms [0;1;32mw[0;32mer[0;1;32me d[0;32mr[0;1;5;32mUCK[0;32ms [0;1;32mi w[0;32mou[0;1;32ml[0;32md ma[0;1;32mke a m[0;32mill[0;1;5;32mYO[0;1;32mn o[0;32mf th[0;1;32mis [0;32mcomb[0;1;32minati[0;1;5;32mU[0;1;32mn [0;36m-wyclef  [0;30;42m▒[0;32;40m▒[0;30;42m█[0m
-                                                                          [32;40m░[0;30;42m▓[0;32;40m░[0m
-[1;30;40mi found the hidden message ... =) nah, think not, but i think it''s better[0m
-[1;30;40mnot to mention how many space cookies made this weird colors and the wicked[0m
-[1;30;40moutlines possible...............i''m stoned. i''m outta here. goodnight folks[0m'
+[1;32;40m [0;1;5;32;40m  [0;32m  [0;1;32m [0;32m  [0;1;32m [0;32m  [0;1;32m   [0;32m [0;1;5;32m   [0;32m  [0;1;32m   [0;32m  [0;1;32m [0;32m    [0;1;32m      [0;32m   [0;1;5;32m  [0;1;32m   [0;32m    [0;1;32m   [0;32m    [0;1;32m     [0;1;5;32m [0;1;32m  [0;36m         [0;30;42m▒[0;32;40m▒[0;30;42m█[0m
+                                                                          [32;40m░[0;30;42m▓[0;32;40m░[0m'

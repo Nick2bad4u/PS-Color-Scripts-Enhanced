@@ -5,7 +5,7 @@
 # Source SHA-256: 035e3f28fa50bdffa7c5323ec1e6885672c0f2f2f629dc0378b4c030a0de4034
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-16CLRS.ANS by nail (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sixteen colors
 # SAUCE Author: nail
 # SAUCE Group: fire
@@ -51,9 +51,4 @@ Write-Host '
        [31m████▄████████▄[0;37m  [0;31m▀▓▓[0;1;31;41m▀▀▓▓▓░░[0;31m████[0;1;31;41m▀▀▀▀░░░[0;31m█▀[0m        [31m▀[0;1;31;41m▀[0;1;31;47m▓▓[0;1;31;41m█▀[0;31m█[0;1;31;41m░░ [0;31m████▓▓▀[0m     [31m██[0m
      [31m▄[0;1;31;41m░░[0;31m████▀▀▀[0;37m    [0;31m▀▀▀▄[0;37m [0;31m ▀▀████████████████▀[0m             [31m▀▀[0;1;31;41m▀▀[0;31m█[0;1;31;41m▀[0;31m████▀▀ [0m       [31m█[0m
 [37m  [0;31m ▄████▀▀[0m                [31m   ▀▀▀▓▓▓▓▓▓▀▀▀ [0m                                   [31m█[0m
-[37m [0;31m▀▀▀[0m
-
-
-        [31m [0;1;31m  S I X T E E N   C O L O R S[0m [31m  ANSI & ASCII Artpack Archive[0m
-
-                           [31m... https://16colo.rs/[0;37m [0;31m...[0m'
+[37m [0;31m▀▀▀[0m'

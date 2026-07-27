@@ -5,7 +5,7 @@
 # Source SHA-256: 5fbdb6ee2cde6cf34250681a61c39fa74af3a2794d4c417cbf9bdc01416928b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NM-MAST.ANS by The Necromancer (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 49-72
 # Columns: 1-80
 
@@ -31,5 +31,4 @@ Write-Host '
            [40m░[0m             [40m░[0m       [40m░[0m     [40m░  ░  ░   ░[0m         [40m░    ░[0m       [40m░ ░[0m
 [40m░[0m                     [40m░    ░ ░[0m                       [40m░[0m               [40m░[0m
                                                                                [40m▒[0m
-                                [1;30;40m-[0m-[1m-  [0;1;30mτ[0m├┤[1mΣ  [0;1;30m-[0m-[1m-[0m
-'
+                                [1;30;40m-[0m-[1m-  [0;1;30mτ[0m├┤[1mΣ  [0;1;30m-[0m-[1m-[0m'

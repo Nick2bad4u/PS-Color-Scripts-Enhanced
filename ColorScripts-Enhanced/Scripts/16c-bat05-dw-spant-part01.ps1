@@ -5,7 +5,7 @@
 # Source SHA-256: 01d635efb93af72b2be69a21d55a6190ec842c0e70d0f4f712a4c7ed51d8fb25
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DW-SPANT.ANS by darkwing (bad attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: babe for spantobi
 # SAUCE Author: darkwing
 # SAUCE Group: bad attitude
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[35mdarkwing is back with an unrequested ansi for spantobi/doze in the year of 1997[0;1;35m.[0m
+[35m                                                                               [0;1;35m [0m
 [1;35;45m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;35;45m▓▓▓▓▒▓▓▒▓▒▓▓▓▒▓▒▓▒▓▓▒▓▒▓▒▒▓▒▓▓▓▓▓▓▒▓▒▓▒▓▓▓▓▓▓▒▒▒▓▒▓▒▓▓▓▒▓▓▒▓▓▓▓▓▒▓▒▓▒▓▓▓▒▒▓▓▓▓▒▓[0m
 [1;35;45m▒▒▒▓▒▒▒▒▓▒▒▒▓▓▒▒▒▒▓▓▓▒▒▒▓▓▒▒▒▓▓▒▒▒▓▓▒▒▒▒▓▓▓▒▒▒▒▓▒▒▒▓▒▒▒▒▒▒▓▒▒▒▒▓▒▒▒▒▒▒▓▒▒▒▒▒▓▒▒▒[0m

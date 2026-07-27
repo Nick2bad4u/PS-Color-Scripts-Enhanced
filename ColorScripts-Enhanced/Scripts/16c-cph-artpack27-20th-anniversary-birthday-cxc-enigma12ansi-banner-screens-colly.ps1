@@ -5,7 +5,7 @@
 # Source SHA-256: 1fa6fc49825d416266be6e8fd5a53a44616e9325749477be30cad4484f5ef27b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cxc_enigma12Ansi_banner_screens_colly.ans by Coaxcable (cph.artpack27.20th.anniversary.birthday); released in cph.artpack27.20th.anniversary.birthday and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -39,7 +39,7 @@ Write-Host '
 
  -----------------------------------------------------------------------------
 
-File Was Downloaded from [1;36mENiGMA 1/2 BBS[0m
+                         [1;36m              [0m
 [1;36m [0;1;31m█▄▄[0;1;36m▄▄[0m   [1;31m█[0;1;36m▄▄[0;36m▄▄[0m     [1;36;46m■[0;36m▄[0;1;36m▄▄[0;36m▄▄[0;37m  [0;1;36;41m█[0;1;36;40m▄[0;36m▄[0;37m [0;36m▄▄[0;37m [0;36m▄[0;1;36;41m█[0;1;36;40m▄[0;36m▄▄[0m
 [1;36;46m▄[0;36m▀[0;31m█[0;1;31m▌[0m [1;36m▀[0;1;36;46m■[0;1;36;40m▌[0m [1;31m██[0;31m▓[0;1;36m▌[0;36m▀[0;1;36;46m■[0;36m▌[0;1;36m▀[0;36m▀▐[0;31m█[0;36m▀[0;37m [0;1;36m▐[0;1;36;41m█[0;36m▀[0;1;36;46m■[0m [36m▀[0;1;36;41m█[0;36m▀[0;1;36;41m█[0;36m▀[0;1;36;41m█[0;1;36;46m■[0m [36m▀[0;37m  [0;1;36;46m■▄[0;36m▄[0m
 [1;36m▌[0;31m█[0;1;31;41m█[0m [1;36m▄▄[0;1;36;46m■[0;1;36;40m▀[0m [1;31m█[0;31m█▓[0;37m  [0;1;31;41m█[0;36m▌[0;1;31m█[0;36m▌[0;31m▀[0;1;31;41m▐[0;31m▄[0;1;31m▄[0m [1;31;41m█[0;1;36;41m█[0;1;36;40m▐[0m [31m▌[0;1;36;46m■[0m [36m▀[0;37m [0;1;36;41m█[0;31m█[0;37m [0;31m▄[0;1;31m█[0;36m▀[0;37m [0;1;31;41m▐[0;1;36;41m▓[0m

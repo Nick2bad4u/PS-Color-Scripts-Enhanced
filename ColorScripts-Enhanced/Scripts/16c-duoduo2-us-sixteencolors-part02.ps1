@@ -5,7 +5,7 @@
 # Source SHA-256: 316e1acc2571803e3e935c027a9327b1a6355f90c908a45f78a13b12be5e2314
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-sixteencolors.ans by Da Font King + The Great American Hunter (duoduo2); released in duoduo2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20170413
 # SAUCE Dimensions: 80x70
 # SAUCE Font: IBM VGA
@@ -22,14 +22,4 @@ Write-Host '
           [1;30m▒▒[0;1;33m [0;36m  ▓▓▓▓▓▀  ▓▓▓▓▓▀   ▀▓▓▄  ▓▓ ▀▓▓▓▓  ▀▓▓▓▓[0;1;30m██[0;1;33;46m▓▓[0;1;30;40m████[0;36m▀██[0;1;30m▀[0m
           [1;30m░░[0;1;33m [0;36m  ▀▀▀▀    ▀▀▀▀[0m       [36m▀▀  ▀▀   ▀▀▀    ▀▀▀[0;1;30m██[0;36m▀▀[0m
           [1;30m░░[0;1;33m [0m                                      [1;30m▒██▌[0m
-         [1;30m ░░░░[0m [1;30msixteen colors.[0;31m  [0;1;30m░░░▒▒▓▓▓▓████████████▀[0m
-
-          d0pe fontage by da font king!
-          pic by the great american hunter.
-
-yo, this is a shoutout to whoever goes to textmodes to check out ansi art..
-fuck you, you should be supporting doug moore.. this is a portrait of dug.
-evry tim you don''t check out his dope site for ansi (sixteencolors.net) you
-bring a tear to this legendary iconic figure of a man.
-support sixteencolors. and fuck the other sites, this guy is the real deal..
-plus he''s american, so you should support american everything..[0m'
+         [1;30m ░░░░[0m [1;30msixteen colors.[0;31m  [0;1;30m░░░▒▒▓▓▓▓████████████▀[0m'

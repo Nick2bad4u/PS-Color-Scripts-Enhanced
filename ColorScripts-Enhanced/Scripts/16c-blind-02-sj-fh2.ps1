@@ -5,16 +5,16 @@
 # Source SHA-256: 0cddf60b13101221aff43470a48c5fb13a74f7d00548d68eee9125911c47c7a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SJ-FH2.ANS by The Sad Jester (blind-02); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19951221
 # SAUCE Dimensions: 80x20
 # Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
-          [1;33;47m [0m [31m ▄▓[0;37m  [0;31monhe - four oh tree - not four you[0m
+          [1;33;47m [0m [31m ▄▓[0;37m  [0;31m                                  [0m
          [1;33;47m [0m [31m▄[0;1;31;41m▄░[0;31m█▀█[0;1;31;41m░▄[0;31m█[0m    [31m1[403](nOT4YOu)[0m
-       [37ms[0;1;33;47m ▒[0m [31m█[0;1;31;41m░░ [0;31m █[0;1;31;41m░░[0;31m█''Where Hope springs eternally false''[0m
+       [37m [0;1;33;47m ▒[0m [31m█[0;1;31;41m░░ [0;31m █[0;1;31;41m░░[0;31m█                                    [0m
       [37ma[0;1;33;47m ▒▓[0;1;33;40m▀[0;31m█[0;1;31;41m░▒ [0m [31m█[0;1;31;41m▒░[0;31m█[0m          [1;31;41m ░▄ [0m
      d[1;33;47m ░▒▓[0m [1;31;41m ▒▒ [0;31m █[0;1;31;41m▓▒[0;31m█[0;37m [0;31m█[0;1;31;41m▄░[0;31m▀█[0;1;31;41m▄░[0;31m█ [0;1;31;41m ░░ [0m [31;41m▄[0;1;31;41m░▄[0;31m█▀█[0;1;31;41m▄▓[0;31m█[0;37m [0;31m█[0;1;31;41m░▄[0;31m█▀[0;1;31;41m░▄[0;31m█[0m   [31m                        [0m
     [1;33m [0mj[1;33;47m ▒▒▓[0;1;33;40m [0;1;31;41m ▒▓ [0;31m █[0;1;31;41m▀▓[0;31m█  ▀▀[0;1;31m [0;31m█[0;1;31;41m░▒[0;31m█ [0;1;31;41m ▒░ [0m [31m█[0;1;31;41m▒░[0;31m█ ▀▀▀▀[0;37m [0;31m█[0;1;31;41m▒░[0;31m█[0;1;31m [0;31m▀▀ [0;1;31m [0m   [31m             [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 2742fd9f15eeb57ac96630f4dca9b3514ecdedb86d265db52edb85f0983d07c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PHB-RD.ANS by Phobic (Bamboosh); released in bmb-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Radical Dreams [ans] logo
 # SAUCE Author: Phobic
 # SAUCE Group: Bamboosh
@@ -29,15 +29,4 @@ Write-Host '
       [1;30m▀▓▄▄[0m [36m▀▀▓[0;1;36;46m▀▀▀[0m [1;31;41m░▓▒[0;31m▓[0;1;31;41m░[0;31m▓█[0;37m [0;1;37;46m░░[0;36m██[0;1;36;46m▀▀▀[0;36m█[0;1;36;46m▀[0;36m▄▄▄[0;1;36;46m▀[0;36m▀[0;1;31m [0;1;31;41m▀░░▒░[0;31m▓█▄[0;37m [0;1;36m▀▀[0m [31m▄[0;1;31;41m▒▓▒░[0;31m▓██[0;37m [0;36m█[0;1;36;46m▀▀[0;36m▓▀▀[0;37m [0;1;30m▄▄▓▀[0m
         [1;30m ▀▀[0;1;30;47m▓[0;1;30;40m▄[0;36m░[0;1;30m▄▄[0m [31m▄[0;1;31;41m░░ [0;31m█▓▀░[0;37m [0;1;30m▒▄▄▄▄▄▄▄[0;36m░[0;1;30m▄▄▄░[0m [1;31m░[0;31m▀█[0;1;31;41m▒[0;31m█▒█▓█▓██[0;1;31;41m░[0;31m▀[0;1;31;41m░░[0;31m█▒█░▓ [0;1;30m▄▄▄▄▄▓▀▀ [0m
                  [1;31m [0;1;30m▄░▄▄[0m [1;30m░[0m [1;30m▄░[0m                [1;30m▄▄▄░ ▄▄▄▄ ▄▄▄▄▄▄[0m [31m▀▌[0;1;30m [0;1;31mphobic[0;31m^[0;1;31;41mBMB[0m
-                       [31m<[0;1;31m r[0m [1;33ma d i c[0;1;37m [0;1;33ma[0;1;37m [0;1;31ml[0;1;37m  ^  [0;1;31md[0;1;37m [0;1;33mr e a m[0;1;37m [0;1;31ms[0;1;37m [0;31m>[0m    [31m▒ [0;1;30m▀[0m
-                          [1;33m                             [0m
-    [1;30m  [[0mφ[1;30m] [0mBamboosh whq[1;30m [[0mφ[1;30m] [0mAegis nhq[1;30m [[0mφ[1;30m] [0mKosmic[1;30m [0mnhq[1;30m [[0mφ[1;30m] [0mInsomnia nhq [1;30m[[0mφ[1;30m][0m
-   [1;30m    [[0mφ[1;30m] [0mGender-8[1;30m [0mnhq[1;30m [[0mφ[1;30m] [0mFalcon nhq[1;30m [[0mφ[1;30m] [0mAmable nhq[1;30m [[0mφ[1;30m] [0mAnemia nhq[1;30m [[0mφ[1;30m] [0m [1;30m  [0m
-   [1;30m    [0m [1;30m[[0mφ[1;30m] [0mGroove nhq[1;30m [[0mφ[1;30m] [0mKinetic nhq[1;30m [[0mφ[1;30m] [0mTriloxy nhq [1;30m[[0mφ[1;30m][0m Damn nhq[1;30m [[0mφ[1;30m][0m
-[1;30m    [[0mφ[1;30m] [0mGore Design of Energy nhq[1;30m [[0mφ[1;30m][0m Eliot Music Systems Support Site[1;30m [[0mφ[1;30m][0m
-   [1;30m     [[0mφ[1;30m] [0mVersatile Site[1;30m [[0mφ[1;30m] [0mXenon Development Site[1;30m [[0mφ[1;30m][0m NDC[1;30m [0mSite[1;30m [[0mφ[1;30m][0m
-            [1;30m[[0mφ[1;30m] [0mOrchide Site[1;30m [[0mφ[1;30m][0m Fop[1;30m [0mSite[1;30m [[0mφ[1;30m] [0mDynamic Crew Site[1;30m [[0mφ[1;30m][0m
-    [1;30m [0m           [1;30m[[0mφ[1;30m] [0mPersuasive Music Site[1;30m [[0mφ[1;30m] [0mContraz[1;30m [0mSite[1;30m [[0mφ[1;30m] [0m
-
-
-'
+                       [31m<[0;1;31m r[0m [1;33ma d i c[0;1;37m [0;1;33ma[0;1;37m [0;1;31ml[0;1;37m  ^  [0;1;31md[0;1;37m [0;1;33mr e a m[0;1;37m [0;1;31ms[0;1;37m [0;31m>[0m    [31m▒ [0;1;30m▀[0m'

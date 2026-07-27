@@ -5,7 +5,7 @@
 # Source SHA-256: 0b1576037804a2bde83fae289c2e83dd84e0d81a0f7828a740489754c28485cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V9-GUT.ICE by Vade79 (iCE); released in ice9812a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Gutter #8
 # SAUCE Author: Vade79
 # SAUCE Group: iCE
@@ -38,5 +38,4 @@ Write-Host '
 [31m▀[0;1;31m▓[0;1;30m░[0m░[1;30m ▐[0;1;30;47m░▐[0;1;30;40m ▀▄█▓[0;30;47m▓[0;37;40m░[0;1;37;40m░░[0m▀[1m░ [0;1;30m▐▀[0m [1;30m▄▄[0;1;30;47m█▌▀▀[0;1;37;47m▄▄▄▄████[0;1;37;40m███▓▓▒[0m░ [1;30m▐[0;1;30;47m▓█[0;1;30;40m▌[0m [1;31;41m░▓[0;1;31;40m▓[0;1;31;41m▀ ▬[0;31m▌ [0;1;30m▄▄[0m [1;30m▄[0m [1;30m▀▀▀▀[0m   [31m▬ ▀[0;1;31m▀[0;1;31;41m▄▀░ ▀ [0m
 [1;30;40m.[0;31m▀[0;1;30m ░ █[0;1;30;47m▓[0;1;30;40m▄█▄▄▄▄[0m     [1;30m ▬ ▀▀ ▐▄▀▀[0m▀[1;30m▀[0m▀[1m▀▀▀▐▓█▓▓▒░[0;30;47m▓▓[0;1;30;40m▓[0m [1;30m▐[0;1;30;47m█[0;1;30;40m█ [0;31m▐[0;1;31;41m▓█[0;1;31;40m▄[0;1;31;45m▀[0;31;45m▓[0;31;40m▀ [0;1;30;40m▄▄[0;1;30;47m▄▓[0;1;30;40m▀▀[0m  [1;30m▄█▀▄▌[0;31m ▄[0;1;31;41m▄▄[0;41m [0;31;40m▄▀█[0;31;45m▓▓[0m
 [31;40m▄[0;37;40m [0;1;30;40m■[0m [1;30m▄▄▄▄[0m [1;30m▀▀▀▀▀▀▀[0;30;47m▓[0;37;40m░[0;1;30;40m██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m    [1;30m▀ ▀▀░[0;1;30;47m▓[0;1;30;40m▀▐ [0;31m▐[0;1;31;41m█▀[0;31m█[0;1;31;41m▄[0;31m▄ ░[0;37m [0;1;30m▄█▄█▀▀[0m░[1;30m▄▀[0;1;30;47m▀[0;1;30;40m▄[0m [31m ▀[0;1;31;41m▀  [0;31m▀░ ▄[0;1;31;41m▄[0m
-[1;31;40m▀[0;31m▀[0;37m    [0;1;30m▀▀▀▀▀▀▀▀[0m  [1;30m▄▄▄▄▬[0m     [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▐[0;1;30;47m▓▓▓▓[0;1;30;40m▄[0m░[1;30m█▄▌ [0;31m▐▀ ▀▀ ▄■ [0;37m [0;1;30m▀[0m  [1;30m▀[0m   [1;30m▀▀[0m [31m▄▀░ ▄[0;1;31;41m▄░[0;30;41m░[0;31;40m▄ ▀[0m
-[1;30;40mvade79(_v9)∙[0;1;36;40mi[0;36mC[0;1;30mE[0m [1;30m--[0m [1;30mA lil weird promo for Gutter#8. filth''s t00ty-pat00tie e-mag![0m'
+[1;31;40m▀[0;31m▀[0;37m    [0;1;30m▀▀▀▀▀▀▀▀[0m  [1;30m▄▄▄▄▬[0m     [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▐[0;1;30;47m▓▓▓▓[0;1;30;40m▄[0m░[1;30m█▄▌ [0;31m▐▀ ▀▀ ▄■ [0;37m [0;1;30m▀[0m  [1;30m▀[0m   [1;30m▀▀[0m [31m▄▀░ ▄[0;1;31;41m▄░[0;30;41m░[0;31;40m▄ ▀[0m'

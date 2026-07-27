@@ -5,7 +5,7 @@
 # Source SHA-256: 469ae00fff05a4febef6c5d90521771522d9a576b8afa156ca41f608b713d9ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 1999 - 18 - Joint - FEV-SYCO.ANS by fever (CIA); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: An Innocent Psychopath
 # SAUCE Author: fever
 # SAUCE Group: CIA
@@ -30,14 +30,14 @@ Write-Host '
 [33m██████▄▄▄[0;37m  [0;33m▓█▀[0;37m     [0;33m░░░[0;37m [0;1;30m▌[0m [1;30;43m░░[0;33;41m▓[0;31;40m▒▒[0;37;40m      [0;1;30;43m▒▒░░[0;43m░░[0;33;40m██▓[0;37;40m [0;30;47m█[0;37;40m [0;31;40m░[0;37;40m [0;1;30;40m▒[0m [31m▀[0;1;30m▐░░▓▀▀[0;33m  [0;1;30m▐██████████████████[0m
 [43m░░░░░░░░░░░[0;33;40m▄█████████▄▄[0;1;30;40m▌[0m [1;30;43m░[0;33;41m▓[0;31;40m▓▓[0;37;40m      [0;1;30;40m▐[0;1;30;43m▓▓▒▒░░[0;43m░[0;33;40m█[0;1;30;43m▓[0m [1;30;43m▓[0;30;47m█[0;31;40m▌[0;37;40m [0;1;30;40m▀[0m [1;30m▐[0;1;30;43m▓[0;1;30;40m░[0m [1;30m█▄[0;1;30;43m▓▓[0;30;47m█[0;1;30;40m▐██████████████████[0m
 
- "You can''t tell by his actions, or his cannibalistic tendacies but he''s
-  thinking, Help me."
+                                                                        
+                     
 
- "Portrait of an Innocent Psychopath" - By Fever
+                                                
 
-  I drew this pic from scratch, the style was pretty heavily influenced by
-  Samurai whom I love. I don''t intend to disgrace Sammy but when this ansi
-  turned out more sloppy than cool it might appear otherwise.
-  Check out cyberplasty.cjb.net sometime and see my latest pencil sketches.
-  Props to the artists who''re stickin with the ansi medium through 1999.
+                                                                          
+                                                                          
+                                                             
+                                                                           
+                                                                        
   pez[0m'

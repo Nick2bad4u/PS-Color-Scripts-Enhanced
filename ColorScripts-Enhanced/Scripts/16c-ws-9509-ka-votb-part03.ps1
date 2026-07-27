@@ -5,7 +5,7 @@
 # Source SHA-256: 0a745f4ea08ee95494a3a10ad3220e5bf5259b38b4d3fc4a4eacdc1aea509357
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KA-VOTB.ANS by kadaver (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: valley of the buffalo
 # SAUCE Author: kadaver
 # SAUCE Group: READ THE INI FILE
@@ -24,15 +24,4 @@ Write-Host '
            [1;30m░[0m  [1;32;42m▒░▒[0;32m▄▄  ▄[0;1;32;42m   [0m [1;30m■[0m [1;31;41m░░[0;31m▄▄[0;32m [0;1;30m▀■[0m [31m▄[0;1;31;41m ░[0m [1;30m▄[0m [1;32;42m░░[0;32m▄▄[0;1;30m▐▓▄[0;32m▀[0;1;32;42m▒▒[0;32m▌[0;37m [0;1;30m■▄[0;1;34m [0;1;31;41m▒░░[0;31m▄[0;1;30m▀▒[0;31m▄▄[0;1;31;41m   [0m [1;30m░[0m
           [1;30m▓▒▄[0m  [32m▀[0;1;32;42m░  [0;1;30;42m▒░░[0;1;32;42m [0;32m▀[0;37m  [0;1;30m▓[0m  [31m▀[0;1;31;41m░[0;1;30;41m▒░[0;31m▄[0;37m  [0;31m■▀[0;1;30m [0m [1;30m▓▒[0m [32m▀[0;1;30;42m▒░[0;32m▄▄[0;1;30m░▒[0;32m▀[0;1;32;42m░[0;1;30;42m░[0m  [1;30m▓[0m  [31m▀[0;1;31;41m [0;1;30;41m░░▒[0;1;31;41m   [0;31m▀[0;37m  [0;1;30m▒▓[0m
           [1;30m▒▓█▒▄[0m  [32m▀▀▀▀▀[0m   [1;30m▒░▓▄[0m   [31m▀▀■[0;37m  [0;1;30m▄░▒█▀▄[0m [1;30m■[0m [32m▀■[0;37m  [0;32m■▀[0;1;30m  ░▒▓▄[0m  [31m▀▀▀▀▀[0;37m  [0;1;30m▄█▓▒[0m
-         [1;30m ░▀[0m  [1;36mv[0;1;34mALLEY[0;1;30m.[0;1;36mo[0;1;34mF[0;1;30m.[0;1;36mt[0;1;34mHE[0;1;30m.[0;1;36mb[0;1;34mUFFALOS[0;1;30m.[0;1;36ms[0;1;34mYSOPS[0;1;30m.[0;1;36ms[0;1;34mPARK[0;1;30m.[0;1;36ms[0;1;34mUREAL[0;1;30m.[0;1;36ml[0;1;34mOGIC[0;1;30m.[0;1;36m[[0;1;34mICE][0;32m [0;1;30m▀░[0;32m        [0m
-           [1;36mc[0;1;34mO[0;1;30m.[0;1;36ma[0;1;34mZAGOTH[0;1;30m.[0;1;36m[[0;1;34mICE][0;1;30m.[0;1;36mi[0;1;34mCE[0;1;30m.[0;1;36mm[0;1;34mEMBER[0;1;30m.[0;1;36mt[0;1;34mERBIUM[0;1;30m.[0;1;36me[0;1;34mMAG[0;1;30m.[0;1;36md[0;1;34mISTRO[0;1;30m.[0;1;36ma[0;1;34mURA[0;1;30m.[0;1;36md[0;1;34mISTRO[0m       [1;34m [0m
-                      [1;36mf[0;1;34mAROUT[0;1;30m.[0;1;36me[0;1;34mMAG[0;1;30m.[0;1;36mc[0;1;34mHQ[0;1;30m.[0;1;36mn[0;1;34mETHERWORLD[0;1;30m.[0;1;36me[0;1;34mMAG[0;1;30m.[0;1;36mw[0;1;34mHQ[0m
-
-
-[1;30m  [0m                                                             [1;30mkadaver[warner][0m
-
-
-
-
-
-                                                                          [35m [0m'
+         [1;30m ░▀[0m  [1;36m [0;1;34m     [0;1;30m [0;1;36m [0;1;34m [0;1;30m [0;1;36m [0;1;34m  [0;1;30m [0;1;36m [0;1;34m       [0;1;30m [0;1;36m [0;1;34m     [0;1;30m [0;1;36m [0;1;34m    [0;1;30m [0;1;36m [0;1;34m     [0;1;30m [0;1;36m [0;1;34m    [0;1;30m [0;1;36m [0;1;34m    [0;32m [0;1;30m▀░[0;32m        [0m'

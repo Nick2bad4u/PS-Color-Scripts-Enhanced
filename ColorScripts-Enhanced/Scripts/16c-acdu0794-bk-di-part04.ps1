@@ -5,7 +5,7 @@
 # Source SHA-256: 1bc11825002ce4532d8cdadc676feac176392507807f46b10ed0bd1c9e80e3d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-DI.ANS by Bad Karma (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Darkest Illusion
 # SAUCE Author: Bad Karma
 # SAUCE Group: ACiD Productions
@@ -51,14 +51,14 @@ Write-Host '
                  [1;30;40m▓   ▓[0m     [1;30;40m▓[0m      [1;30;40m▓[0m       [1;30;40m▓[0m      [1;30;40m▓   ▓[0m     [1;30;40m▓[0m
                  [1;30;40m░   ░[0m     [1;30;40m░[0m      [1;30;40m░[0m       [1;30;40m░[0m      [1;30;40m░   ░[0m     [1;30;40m░[0m
 
-                 [1;30;40mViSiON-X 0.99ß[0m            [1;30;40mSysop''s :  Cowgod[0m
-             [1;30;40mFBi World Headquarters[0m                   [1;30;40mMisfit[0m
-              [1;30;40mEViL F/X  Dist Site[0m                     [1;30;40mEpicurus[0m
-              [1;30;40mSRi-Net Member Site[0m                     [1;30;40mManiac[0m
-               [1;30;40mH·P·A·V·C  Online[0m
-                 [1;30;40m0-7 Day Warez[0m
+                 [1;30;40m              [0m            [1;30;40m                 [0m
+             [1;30;40m                      [0m                   [1;30;40m      [0m
+              [1;30;40m                   [0m                     [1;30;40m        [0m
+              [1;30;40m                   [0m                     [1;30;40m      [0m
+               [1;30;40m                 [0m
+                 [1;30;40m             [0m
 
 
 [1;30;40m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
-                         [1;30mANSI by [0m:  [1mB[0ma[1;30md [0;1;37mK[0ma[1;30mrma  <AC[0mi[1;30mD>[0m
+                         [1;30m        [0m   [1m [0m [1;30m  [0;1;37m [0m [1;30m        [0m [1;30m  [0m
                [1;30m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m'

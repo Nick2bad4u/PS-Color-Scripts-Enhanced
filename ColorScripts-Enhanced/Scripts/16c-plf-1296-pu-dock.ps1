@@ -5,7 +5,7 @@
 # Source SHA-256: f57990a0ba7377324821a48dc9a31af8f56c7ed172d0109105765bf68490f52d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PU-DOCK.ANS by puppiluppan (poffelipoff); released in plf_1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dockland logo
 # SAUCE Author: puppiluppan
 # SAUCE Group: poffelipoff
@@ -36,5 +36,4 @@ Write-Host '
          [1;31m▄[0;1;31;41m▓▓[0;1;31;40m▄[0m [1;31;41m▓[0m [1;31;41m▓▓[0m [1;31;41m▓▓[0;1;31;40m▄[0;1;31;41m▓▓[0m [1;31;41m▓▓[0;1;31;40m▄▐[0;1;31;41m▓[0;1;31;40m▌[0m [1;31;41m▓▓[0;1;31;40m▀▐[0;1;31;41m▓[0m [1;31m▀▀[0m [1;31m▄▄[0;1;31;41m▓▓[0;1;31;40m▄[0;1;31;41m▓▓[0m [1;31m▐[0;1;31;41m▓[0;1;31;40m▌[0;1;31;41m▓▓[0;1;31;40m▀[0m [1;31m▀[0;1;31;41m▓[0m [1;31m▐[0;1;31;41m▓[0m  [1;31m▀▀[0m
         [31m▐[0;1;31;41m▒[0m  [31m▀▀[0;1;31;41m▒[0;31m▌[0;1;31;41m▒▒[0m [1;31;41m▒▒▒▒▒[0m [31m▀[0;37m [0;31m▄▐[0;1;31;41m▒[0;31m▄[0;1;31;41m▒[0;31m▀[0;37m [0;1;31;41m▒▒[0;31m▌[0;37m   [0;1;31;41m▒[0;31m▀[0;37m  [0;31m▀[0;1;31;41m▒▒▒[0m [1;31;41m▒▒▒▒▒[0;31m▌[0;37m [0;31m▐▌[0;37m  [0;31m▀[0;1;31;41m▒[0;31m▄▄[0;37m [0m
       [37m   [0;1;31;41m░░[0;31m▄▄[0;1;31;41m░░░░░[0m [1;31;41m░░[0;31m▌[0;1;31;41m░░[0m [1;31;41m░░░[0;31m▐[0;1;31;41m░░[0;31m▀[0;1;31;41m░[0;31m▄[0;30;41mpu![0;31;40m▄[0;1;31;41m░░░░[0;31m▄▄▄[0;1;31;41m░░░[0;31m▌▐[0;1;31;41m░░[0;31m▐[0;1;31;41m░░░░[0;31m▌▄[0;1;31;41m░[0;31m▄▄▄▐[0;1;31;41m░[0m
-          [31m▀▀▀[0;37m [0;31m▀▀[0;37m [0;31m▀▀▀▀[0;37m  [0;31m▀▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀[0;37m [0;31m▀▀▀▀▀[0;37m  [0;31m▀▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▀▀▀[0;37m [0;31m▀▀▀▀[0m
-      [37m    [0;1;37m.Life ain''t a bitch, life is a flower. smelling honey.[0m'
+          [31m▀▀▀[0;37m [0;31m▀▀[0;37m [0;31m▀▀▀▀[0;37m  [0;31m▀▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀[0;37m [0;31m▀▀▀▀▀[0;37m  [0;31m▀▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▀▀▀[0;37m [0;31m▀▀▀▀[0m'

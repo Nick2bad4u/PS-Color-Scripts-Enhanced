@@ -5,7 +5,7 @@
 # Source SHA-256: 9b996cfc8661e91eeafb3b21d91fb79c027a0f385a4c83db3c2f5154c5795c7d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARG-PANT.ANS by Argyle (sense07); released in sense07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-14
 # Columns: 1-80
 
@@ -22,5 +22,4 @@ Write-Host '
 [31;40m█[0;30;41m    [0;31;40m█[0;37;40m [0;33;40m  [0m        [33;40m█    █[0;37;40m [0;33;40m█[0m   [33;40m █[0;37;40m [0;33;40m█[0m     [33;40m█[0m     [33;40m █[0m     [33;40m▀[0;37;40m [0;33;40m████[0m          [31;40m █████▌[0;37;40m [0;31;40m▐█████[0m
 [30;41m░░░░░░[0;37;40m [0;33;40m  [0m        [33;40m█  ▄▄▀[0;37;40m [0;33;40m█[0m   [33;40m █[0;37;40m [0;33;40m█[0m     [33;40m█▄▄[0m     [33;40m▀▀▀▀▀▄[0;37;40m [0;33;40m████[0m           [30;41m░░░░░▐[0;37;40m [0;30;41m▌░░░░░[0m
 [30;41m▒▒▒▒▒▒[0m           [33;40m█[0m    [33;40m█[0;37;40m [0;33;40m█[0m   [33;40m █[0;37;40m [0;33;40m█[0m     [33;40m█[0m            [33;40m█[0;37;40m [0;33;40m▀▀▀▀[0m           [30;41m▒▒▒▒▒[0m   [30;41m▒▒▒▒▒[0m
-[30;41m▓▓▓▓▓▓[0m           [33;40m█[0m    [33;40m█[0;37;40m [0;33;40m▀▄▄▄▄▀[0;37;40m [0;33;40m█▄▄▄▄[0;37;40m [0;33;40m█▄▄▄▄[0;37;40m  [0;33;40m▀▄▄▄▄▄▀ ████[0m           [30;41m▓▓▓▓▓█[0;37;40m  [0;30;41m▓▓▓▓▓[0m
-                 [33;40m [0m   [1;37;40m        Done By /\rgyle[0m'
+[30;41m▓▓▓▓▓▓[0m           [33;40m█[0m    [33;40m█[0;37;40m [0;33;40m▀▄▄▄▄▀[0;37;40m [0;33;40m█▄▄▄▄[0;37;40m [0;33;40m█▄▄▄▄[0;37;40m  [0;33;40m▀▄▄▄▄▄▀ ████[0m           [30;41m▓▓▓▓▓█[0;37;40m  [0;30;41m▓▓▓▓▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 118a3592e46a3c47559edc32f28171fa857ab81384a003868445ad8e9c7f6b95
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-TLA1.ANS by chromatik (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the lethal aspect
 # SAUCE Author: chromatik
 # SAUCE Group: Blade Productions
@@ -56,10 +56,4 @@ Write-Host '
                          [33m░[0m   [33m▄[0m [33m▐[0;1;31;43m▀▀[0;33m█▀[0m   [33m▐[0;1;31;43m▀░[0;33m▓▄▀▀▀[0m  [33m▀▀▀▄█[0;1;31;43m▓[0;33m▌[0m    [33m▀[0m  [33m▀▒[0m
                                [33m▀▀[0m      [33m▀[0m               [33m▀[0m        [33m░[0m
 
-             [1;30m%[0m [1;31mt [0;33mh e[0;1;31m [0;1;30m%[0;33m [0;1;31ml [0;33me t h a l[0;1;31m [0;1;30m%[0;33m [0;1;31ma [0;33ms p e c t[0;37m [0;1;30m%[0m
-
-               [1;30msysop[0;33m [0;1;30m... [0;1;31mx[0;33mypher[0;1;31m m[0;33matryx[0m
-               [1;30mstaff[0m [1;30m... [0;1;31mc[0;33marnifex[0m
-                         [1;31mv[0;33mector[0;1;31m h[0;33melix[0m
-
-[1;30m    [0m             [1;30m.ansi.by.chromatik.blade.1995.[0m'
+             [1;30m%[0m [1;31mt [0;33mh e[0;1;31m [0;1;30m%[0;33m [0;1;31ml [0;33me t h a l[0;1;31m [0;1;30m%[0;33m [0;1;31ma [0;33ms p e c t[0;37m [0;1;30m%[0m'

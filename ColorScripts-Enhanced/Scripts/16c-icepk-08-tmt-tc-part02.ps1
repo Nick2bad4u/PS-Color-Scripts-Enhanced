@@ -5,7 +5,7 @@
 # Source SHA-256: d8ce8afd3195f835c362bcbe16a37a6e79c353a177902d972142c4650ad74393
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TMT-TC.ICE by The Malevolent Trickster (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-85
 # Columns: 1-80
 
@@ -46,6 +46,6 @@ Write-Host '
      [1;30m▀▀████▄▀▀▓▓█████▄▀▓▓██▓▓▌▐▓▓████▓▓ ▒▓▓▓▓▓▓▓▓▒▌▐▓▓█▀▄▓▓███▓▓▀▀▄████▀▀[0m
          [1;30m▀▀███▄▀▀▒▒▓▓▓█▄▀▒▓▓▓▒ ░▒▓▓▓▒▒░ ░░▒▒▒▒▒▒░░ ░▓▀▄▒▒▓▓▓▓▀▀▄███▀▀[0m
 
-[31m┌ ──-[0;1;31m---- [0;1;37mINC Canadia[0mn Home - [1;30miCE [0;31mCa[0;1;31mnadi[0;31man [0;1;30mHome [0m- APEX Canad[1mian Home [0;1;31m----[0;31m─── ┐[0m
-[31m│ [0;1;37mMiRAGE [0mDistributio[1;30mn - 416-[0;31m733[0;1;31m-9880 - Apoca[0;31mlyp[0;1;30mse BBS Sof[0mtware Canad[1mian Home [0;31m│[0m
+[31m┌ ── [0;1;31m     [0;1;37m           [0m         [1;30m    [0;31m  [0;1;31m    [0;31m   [0;1;30m     [0m            [1m         [0;1;31m    [0;31m─── ┐[0m
+[31m│ [0;1;37m       [0m           [1;30m        [0;31m   [0;1;31m             [0;31m   [0;1;30m          [0m           [1m         [0;31m│[0m
 [31m└ ──-[0;1;31m---- ───── [0;1;37mOver [0m1000 [1;30mAnsi[0;31ms O[0;1;31mnline - Sy[0;31msO[0;1;30mp: The [0mUnfor[1mgiven [0;1;31m───── ----[0;31m─── ┘[0m'

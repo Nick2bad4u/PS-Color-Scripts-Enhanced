@@ -5,7 +5,7 @@
 # Source SHA-256: b77cf30d19247c12fc44835ac2844b6aa855e4dea08a9b752d9b01aff0b02c3a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!Z-LG10.ANS by noize (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: unleashed! again
 # SAUCE Author: noize
 # SAUCE Group: fbk.sargahd
@@ -39,9 +39,4 @@ Write-Host '
 [37m  [0;31m [0m              [1;31;47m▓▓░[0;1;31;41m██▐▄░[0m [33m░[0;37m [0;1;34m░[0;34m▀▀▀[0;1;34m▀▀[0;34m▀▀▀[0m   [33m▐▄▄▐██[0;31m  ▀▐█▀▀ [0;37m  [0;31mnz███[0m
 
 
-[37m--------------------------------------------------------------------------------[0m
-[37munleashed! ''u''. stylecredits go to a flame^twilight. had fun.[0m
-[37mtoday is ''fastnacht'' - and i''m punished by singing people screaming stuff[0m
-[37mthrough their megaphones - '' i am from the rammler-crew ... dumm ... dumm ...[0m
-[37mdumm. '' or '' the firemen - the firemen - we all sing - heia - heia ... ''[0m
-[37mit''s unbelievable ...[0m'
+[37m--------------------------------------------------------------------------------[0m'

@@ -5,13 +5,13 @@
 # Source SHA-256: 30ab9ae848ff0a0b5dfe79ec11d051e0b44f2fd8beb7984a58d816cd655e6e4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: J.ANS by The Knight (fl-anst1); released in fl-anst1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30m [0m     [1;30m.%.Small ansi tutorial by The Knight of Fuel - iCE euro. divison.%.[0m
+[1;30m [0m     [1;30m                                                                   [0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
  the left eyebrow     [1;31m▄▄[0;1;31;43m█[0;1;31;40m▄▄▄▄▄[0;1;31;43m███████████[0;1;31;40m▄▄▄▄▄▄▄[0;1;31;43m█[0;1;31;40m▄▄▄▄▄▄[0m
@@ -48,6 +48,4 @@ this time[1;31m [0;33m▀[0;1;31;43m  ▒▓▓▓▓▓▓▓██▓[0;1;
                   [33m▀[0;1;31;43m░░░▒▒▓▓▓▓▓▓▓▓█▓▓▓██▓▓▓▓▓▓▒▓▒▒▒▒░░░░░[0;33m▀[0m
                     [33m▀[0;1;31;43m▒▒▓▓▓▓▓▒░▒▒▒▒▓▓▓▓▒▒▒▒▒▒░░░▒▒▒▒▒[0;33m▀▀[0;1;31m [0mI realised that there
                       [1;31m ▀▀▀[0;1;31;43m▓▓▓▒░░░░▒▒▒▒▒▒▒░░░░░░░[0;33m▀▀▀[0;37m  can''t possibly be any [0m
-                          [37m   [0;1;31m▀▀▀▀▀[0;1;31;43m▄▄[0;33m████▀▀▀▀[0m    [37mlight reflection on the right[0m
-                                 [1;31m       [0m  side of her face, and made it brown
-                                       instead of pink.[0m'
+                          [37m   [0;1;31m▀▀▀▀▀[0;1;31;43m▄▄[0;33m████▀▀▀▀[0m    [37mlight reflection on the right[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1ad6022c1349def05d82b24799c8fd60966d9e784f41e414cae4a7d82575da8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QS-STI.ANS by quasar (shade(tm)); released in shade3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spantobi multinode art&designsystem
 # SAUCE Author: quasar
 # SAUCE Group: shade(tm)
@@ -37,8 +37,7 @@ Write-Host '
                                                                          [1;31m░░[0m
 s         p         a         n        ▐[30;47mt[0;37;40m▌        o         b         i[0m        [37;40m?[0m
 
-[37;40m               [0m          [37;40mpartymasters:  [0;1;37;40mdoze[0m & [1mquasar[0m
-                         multinode art&design systems
+[37;40m               [0m          [37;40m               [0;1;37;40m    [0m   [1m      [0m
+                                                     
 
-[1;30m ──────────────────────────────────────────────────────────────────────────────[0m
- picture / font layout & design by [1mquasar[0m of [1mshade productions[0m in late nov. 1996[0m'
+[1;30m ──────────────────────────────────────────────────────────────────────────────[0m'

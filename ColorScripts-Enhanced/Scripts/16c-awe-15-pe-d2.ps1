@@ -5,7 +5,7 @@
 # Source SHA-256: 2c2ec039fb38e12882630dd8a315dedf6d27fb79527c73a8fa290c1e4923e39c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PE!D2.ANS by Phony Eye (AWE Lettering); released in awe-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dust
 # SAUCE Author: Phony Eye
 # SAUCE Group: AWE Lettering
@@ -52,6 +52,4 @@ Write-Host '
    [1;35m░[0m  [35m@[0;37m [0;33m░[0;1;31;43m▀▓[0;33m▌[0m             [37m░[0;30;47m▓[0;37;40m▀[0;1;37;40m▀[0;1;37;47m▀[0m▌  █[1;47m██▓█  ▀▌[0m  ▐[1;47m█▀[0m█▀                   [1;30m^[0m  [1;30mAweCia[0m
         [33m░█[0;1;31;43m░[0;33m▌[0m                    [37m▐[0;1;37;47m▐█[0;1;33;40m█[0;1;37;47m███▄▌▀[0m▌  [1;47m [0m▀      [1mFanks for samurai...[0m [1m [0;1;30m     [0m
         [33m░░ [0;35m [0m                     [37m▀[0;1;37;47m▀[0;1;33;40m███[0;1;37;47m█▀[0m█▀               [1myou gave me            [0m
-                                   [33m [0;37m▀▀▀[0m          [1;37m    [0m          [1minspiration[0m [1mas[0m
-                                                 [1myou[0m [1mcan see in some certain  [0m
-                                                       [1mparts of the ansi =) [0m'
+                                   [33m [0;37m▀▀▀[0m          [1;37m    [0m          [1m           [0m [1m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a26616c8bdbe4bdde73fd516596720a11af4465f12d0b3c0006bf064a1a62af3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-PCOVE.ANS by cool 't (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pirate's cove
 # SAUCE Author: cool 't
 # SAUCE Group: READ THE INI FILE
@@ -49,16 +49,13 @@ Write-Host '
 [1;30m  ▐[0;1;30;43m▓[0m   [1;30;43m▓[0;1;30;40m▌▐▌[0m     [1;30m▐[0;1;30;43m▓[0m           [1;30m▐▌[0m     [1;30m▐[0;1;30;43m▓[0m  [1;30m▐[0;1;30;43m▓[0m [1;30;43m▓[0;1;30;40m▌[0m          [1;30m▐[0;1;30;43m▓[0m    [1;30m▐▌    ▐[0;1;30;43m▓[0m [1;30;43m▓[0;1;30;40m▌[0m     [1;30m▐[0;1;30;43m▓[0m
 [1;30m▀■▀[0m     [1;30m▀■[0m     [1;30m■▀[0m            [1;30m▀    ▀■▀    ▀■▀[0m         [1;30m▀■▀[0m     [1;30m▀[0m      [1;30m▀■▀    ▀■▀[0m
 
-[1;30m   [0;36m`` [0;1;37mP[0mirate''s [1mC[0move[36m. [0;1;37mN[0mot just another [1mB[0mBS to call [36m── [0;1;37mT[0mhe [1mO[0mNLY [1mB[0mBS to call[36m! ''''[0m
+[1;30m   [0;36m   [0;1;37m [0m        [1m [0m   [36m  [0;1;37m [0m                [1m [0m           [36m── [0;1;37m [0m   [1m [0m    [1m [0m          [36m    [0m
 
-[1;30m (yes, this is another ansi i did many months ago but never released in a pak!)[0m
- [32m▄[0;1;32;42m▒[0;32m▄▀▀■▄[0m              [1;30m(enjoy it with your ops, folkssshh!)[0m
+[1;30m                                                                               [0m
+ [32m▄[0;1;32;42m▒[0;32m▄▀▀■▄[0m              [1;30m                                    [0m
 [32m▐[0;1;32;42m░[0;32m▀■▀[0;1;32;42m░■[0;32m▄■[0m                                                            [1;30m▄────▄[0m
-[32m▐[0;37m  [0;30;43m░[0;33;40m▌[0;37;40m  [0;32;40m▀▌[0m   [1;30;40m<xxxxxxxxx>[0m [1;30mhey coolt, how is the ansi coming?[0m           [33mwarner[0m
+[32m▐[0;37m  [0;30;43m░[0;33;40m▌[0;37;40m  [0;32;40m▀▌[0m   [1;30;40m           [0m [1;30m                                  [0m           [33m      [0m
 [37m  [0;33m▐[0;1;30;43m░[0;43m░[0;33;40m▌[0m      [1;30;40m/msg xxxxxxxxx it''s not.  8∙) [0m                           [1;30m▓▄▄▄▄▓[0m
   [33m▀[0;32;43m░[0;33;40m▀▀[0m
 [1;30;40m2oLines.....$5[0m [1;30m──────[0m [1;30m5oLines....$1o ──────[0m [1;30m1ooLines...$2o[0m [1;30m─────[0m [1;30m2oo+Lines..$3o[0m
-[1;30m─── call [0;1;37mc[0mool t[1;30m at 717.323.3247(steve) or e-mail him at tgi@unix.gcomm.com! ───[0m
-
-
- [1;30m                [0m'
+[1;30m───      [0;1;37m [0m     [1;30m                                                             ───[0m'

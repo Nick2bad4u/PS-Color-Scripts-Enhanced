@@ -5,7 +5,7 @@
 # Source SHA-256: 134b4283c18f01cf1d83a07a3a996e52337c89657c26848195df0017694aa510
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2M-RSGNL.ANS by 2much4u (RioT Productions); released in riot0298 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: 2much4u
 # SAUCE Group: RioT Productions
 # SAUCE Date: 19980224
@@ -44,6 +44,4 @@ Write-Host '
                                          [1;34m▌[0m [1;34m▌▐ ▐[0m
                                          [1;34m▌[0m [1;34m▌▐ ▐[0m
 [1;30m2m[0m                                       [1;34m▀▀ [0m [1;34m▀▀[0m
-[1;30m---------------------------------------- render --------------------------------[0m
-
-[1;30mUhm, this is the Rossignol chicken. Looks pretty SHITTY in ansi, but that''s him.[0m'
+[1;30m---------------------------------------- render --------------------------------[0m'

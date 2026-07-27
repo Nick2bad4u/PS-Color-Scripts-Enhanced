@@ -5,7 +5,7 @@
 # Source SHA-256: a7c6dd190dff24b461baccb40a6e3d8aa7f5902d4330aa7a3f6634b3383c812b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SE-DCITY.ANS by Side Effect (adfa0993); released in adfa0993 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 148-197
 # Columns: 1-80
 
@@ -50,13 +50,6 @@ Write-Host '
 [1;37;40m  [0;1;37;47m░[0;33m░░░░░░ [0;1;37;47m░[0m [1;37;47m░[0;33m░░[0;37m▀▀▀▀[0;1;37;47m░[0m [1;37;47m░[0;33m░░[0;1;37;47m░[0m [1;37;47m░[0;33m░░[0;1;37;47m░[0m [1;37;47m░[0;33m░░░░░░ [0;1;37;47m░[0m [1;37;47m░[0;33m░░[0;37m▀▀▀▀[0;1;37;47m░[0m [1;37;47m░[0;33m░░[0;1;37;47m░[0m     [1;37;47m░[0;33m░░[0;1;37;47m░[0m     [1;37;47m░[0;33m░░░░░░░[0;1;37;47m░[0m
 [1;37;40m  [0m▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀ ▀▀▀▀     ▀▀▀▀     ▀▀▀▀▀▀▀▀▀
 
-                            .[1;33m: [0;1;37mC[0mR[1mI[0mM[1mI[0mNAL [1mI[0mNTENT [1mW[0mHQ [1;33m:[0m.
+                             [1;33m  [0;1;37m [0m [1m [0m [1m [0m    [1m [0m      [1m [0m   [1;33m [0m 
 
-                              .[1;33m: [0;1;37m+[0m61[1m-[0m3[1m-[0mLEG[1m-[0mENDS [1;33m:[0m.
-
-                   .[1;33m: [0;1;37mA[0mUSTRALIANS [1mD[0mEDICATED [1mT[0mO [1mP[0mERFECTION [1;33m:[0m.
-
-                      .[1;33m: [0;1;37mS[0mYS[1mO[0mP[1m: R[0mOUGHNECK [1m∙ C[0mO[1m: S[0mHOOTER [1;33m:[0m.
-
-                  .[1;33m: [0mANS[1mi : SI[0mDE EFFE[1mCT O[0mF [1mF[0m/i[1mC [0m∙ C[1mi [0m∙ /[1m][0mDF[1m[[0m\ [1;33m:[0m.[0m
-'
+                              .[1;33m: [0;1;37m+[0m61[1m-[0m3[1m-[0mLEG[1m-[0mENDS [1;33m:[0m.[0m'

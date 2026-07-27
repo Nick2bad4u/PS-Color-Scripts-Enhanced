@@ -5,7 +5,7 @@
 # Source SHA-256: 2ada1ce78ba82cfae09a336080a9dd3affbd7669ae9432eb278100a042a888da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-SCITY.ANS by Tank (acdu0393); released in acdu0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -40,11 +40,4 @@ Write-Host '
 
 [1;30m [0;32m· ■ ▄ ▀▄▄▀[0;32;42m  [0;1;32;42m· ■ ▀ ▄▀▀▄[0;1;32;40m██▐│ [0;1;33;40mS I N   C I T Y   B B S [0;1;32;40m│▌██[0;1;32;42m▀▄▄▀ ▄ ■ ·  [0;32m▄▀▀▄ ▀ ■ ·[0m
 
-           [1;31mN0DE#1([0;31m203[0;1;31m)[0;31m754[0;1;31m-[0;31m9049 [0;1;31mN0DE#2([0;31m203[0;1;31m)[0;31mITS[0;1;31m-[0;31mPRIV [0;1;31mN0DE#3([0;31m203[0;1;31m)[0;31mSIN[0;1;31m-[0;31mCITY[0m
-                [1;36mS[0;36mys[0;1;36mO[0;36mp[0;1;37m: T[0mhe [1mP[0mla[1;30mgue  [0;1;36mC[0;36mo''s[0;1;37m: T[0mhe [1mH[0mam[1;30mmer [0;1;37m& G[0men[1;30m. [0;1;37mP[0mat[1;30mton[0m
-                         [1;34m1[0;34m700 [0;1;34mM[0;34megs [0;1;37m/ [0;1;34m3 N[0;34modes [0;1;37m/ [0;1;34m24 H[0;34mours[0m
-              [1;35mU[0;35mNTouchables [0;1;37m/ [0;1;35mT[0;35mhe [0;1;35mR[0;35mape [0;1;35mW[0;35mare [0;1;35mS[0;35myndicate [0;1;37m/ [0;1;35mD[0;35mead [0;1;35mM[0;35memory[0m
-                          [1;35mA[0;35mcE [0;1;37m/ [0;1;35mT[0;35mrash [0;1;35mN[0;35met [0;1;35mM[0;35member [0;1;37m/ [0;1;35mT[0;35mRBZ[0m
-                [1;34mW[0;34marez [0;1;37m/ [0;1;34mA[0;34mnarchy [0;1;37m/ [0;1;34mC[0;34monsoles [0;1;37m/ [0;1;34mL[0;34matest [0;1;34mM[0;34mags [0;1;37m/ [0;1;34mV[0;34mirii[0m
-
-                              [1;30mANSi By TANK [0;1;34m<[0;1;30mAC[0;34mi[0;1;30mD[0;1;34m>[0m'
+           [1;31mN0DE#1([0;31m203[0;1;31m)[0;31m754[0;1;31m-[0;31m9049 [0;1;31mN0DE#2([0;31m203[0;1;31m)[0;31mITS[0;1;31m-[0;31mPRIV [0;1;31mN0DE#3([0;31m203[0;1;31m)[0;31mSIN[0;1;31m-[0;31mCITY[0m'

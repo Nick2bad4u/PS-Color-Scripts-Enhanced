@@ -5,7 +5,7 @@
 # Source SHA-256: 574d8f982945d078abea95870f103c2d1684951e9ec991c0b0504fefb0ba2f4d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-LOGOZ.ANS by Putrid Carcass (Glue); released in glue-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Colly
 # SAUCE Author: Putrid Carcass
 # SAUCE Group: Glue
@@ -18,7 +18,7 @@ Write-Host '
 #1
          [35m▐█▓[0m
         [35m▄██▌[0;37m [0;35m▄[0;37m [0;35m▀[0m
-      [35m▄█▀██▄▀[0m         [1;33;45macolyte8269@yahoo.com[0m [1mis who this is for! draw him art[0m
+      [35m▄█▀██▄▀[0m         [1;33;45m                     [0m [1m                                [0m
   [35m▄[0;37m  [0;35m▀▀▄██▀[0m
     [35m▀▄█[0;1;35;45m▀[0;35m█[0;1;35;45m▄▄[0;35m▄[0m
 [36m─────[0;37m [0;35m▀[0;1;35;45m▀▄▄▀█▄[0;35m█▄▄[0;37m [0;36m───────────────────────────────────────────────────────────────[0m
@@ -35,7 +35,4 @@ Write-Host '
 [1;30m▓▄[0m [1;30m▄[0m [35m▐███[0;1;31;45m▐[0;1;31;47m▒▓[0;1;31;45m▄▄[0;35m▌[0;37m [0;35m▀███ [0;1;37;45m▒[0;1;33;45m▌[0;35m▀[0m                     [35m-     -   - - -- --- --------- --+-[0m
 [1;30m█████[0m [35m▀█[0;1;31;45m▄█[0;1;31;47m▓[0;1;31;45m█▀[0;35m▀[0;37m [0;1;30m▄[0;35m▐▄██▌[0;1;37;45m░[0;35m▀[0;37m [0;1;30m▄██[0m░░[1;30m█[0m░[1;30m███████[0m░░[1;30m█████[0m░[1;30m█████████████████▓▓[0m [1;30m▓[0m [1;30m ▓[0m  [1;30m░[0m    [1;30m░[0m
 [36m─────[0;37m [0;1;31m▄▀▀[0;35m▀▀[0;37m [0;36m──[0;37m [0;35m▄█▀[0;37m [0;36m──[0;35m▐ [0;36m─────────────────────────────────────────────────────────[0m
-[1;31m▄[0m   [1;31m▀[0m       [35m▄[0;37m [0;35m▀[0m       [35m [0m                                        [36mpc [0;1;36mglue [0;1;37m1999[0m
-
-
-'
+[1;31m▄[0m   [1;31m▀[0m       [35m▄[0;37m [0;35m▀[0m       [35m [0m                                        [36mpc [0;1;36mglue [0;1;37m1999[0m'

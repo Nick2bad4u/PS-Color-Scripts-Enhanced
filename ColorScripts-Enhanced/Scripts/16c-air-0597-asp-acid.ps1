@@ -5,7 +5,7 @@
 # Source SHA-256: 67da153b8d48db6053108faff6e254c833903a0fb4667df826b0285d125246e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASP_ACID.ANS by +aspyre_ (+aiR_); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: acid+logo_thing
 # SAUCE Author: +aspyre_
 # SAUCE Group: +aiR_
@@ -34,5 +34,5 @@ Write-Host '
 .·∙⌐~"^''≥¬,∙'' [1mku[0mt `∙.. ¬.                                         . · ∙ ,
          `∙.  [1mhe[0mre  ,∙· `∙.·''+ - . · ↨ ≥ ∙ . ÷ « ≥ ╥ æ > º . · ∙ '' [1masP[0myre ` ∙ ·.
             `      ''                                            `∙ ._ . ∙ ''    `
-   [1mgre[0mets [1mray[0mden [1m& cyber[0mshock   [1m..[0m. [1mdi[0ms [1masc[0mii [1mfe[0mr [1ma[0mir [1mma[0my [1m9[0m7 [1mpa[0mck [1m≥ -[0m┐
-     [1m╙ (foun[0mders_[1mo[0mf+[1mai[0mr) ╜           /[1m>[0m> [1mac[0mid [1mlo[0mgo [1m(wh[0mat [1mel[0mse) ≤ ─[1m-[0m-─[1m┘[0m'
+   [1m   [0m    [1m   [0m    [1m       [0m        [1m  [0m  [1m  [0m  [1m   [0m   [1m  [0m  [1m [0m   [1m  [0m  [1m [0m  [1m  [0m   [1m   [0m┐
+     [1m╙      [0m     [1m [0m  [1m  [0m   ╜            [1m [0m  [1m  [0m   [1m  [0m   [1m   [0m   [1m  [0m      ─[1m [0m ─[1m┘[0m'

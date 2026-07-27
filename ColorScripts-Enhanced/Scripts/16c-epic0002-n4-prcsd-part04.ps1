@@ -5,7 +5,7 @@
 # Source SHA-256: f143d82b85929bc3fa4522a4b471a3baa660853fa96a0d3e3394880eadc8a9bc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N4-PRCSD.ANS by Sod (Epic); released in epic0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Processed Corp
 # SAUCE Author: Sod
 # SAUCE Group: Epic
@@ -55,6 +55,4 @@ Write-Host '
             [31m  [0m           [1;30m▒  [0m    [1;30m▓         █▓ ▄▄[0m [1;31;41m▐▌[0;31m░[0;1;31;41m▓▓[0m [1;33;43m▓[0;1;33;40m▓[0;31m▐[0;1;31;41m▓[0;1;31;40m▌[0;1;30;40m [0;1;31;40m█[0;1;31;41m▓[0;1;30;40m▀▀▀ [0m
                          [1;30m░[0m [1;30m    [0m [1;30m▀[0m         [1;30m▀▀▀▀▀[0m [1;30m [0;31m▀[0;1;31m▀▀[0m  [1;30m   [0;1;31m▀[0;1;31;41m▀[0;1;31;40m▄[0;1;30;40m [0;1;31;40m▀[0m
                                                             [31m▀[0;37m [0m
-                           [1;37mp[0;1;31m [0;1;33mr[0;1;31m o c e s s e d   c o r[0;31m [0;1;31mp[0m
-
-            [1;30man ansi from the mind of sod [epic] :: sodium@urban-a.net[0m'
+                           [1;37mp[0;1;31m [0;1;33mr[0;1;31m o c e s s e d   c o r[0;31m [0;1;31mp[0m'

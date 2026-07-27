@@ -5,7 +5,7 @@
 # Source SHA-256: d462e366405cf71c48391f99e48052c0da8c947bb07f9e4b172f9612b3df7cad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SG-ICEMA.ANS by Soing (flux-003); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iceman request
 # SAUCE Author: Soing
 # SAUCE Date: 19970805
@@ -37,8 +37,4 @@ Write-Host '
 
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mOki, this was an request from iceman for his new board "Black Hole"... [0m
-[1;30mIt''s more an logo than a bulletin, mmmhh, shit happens...[0m
-
-[1;30msoing_flux@cyberdude.com[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

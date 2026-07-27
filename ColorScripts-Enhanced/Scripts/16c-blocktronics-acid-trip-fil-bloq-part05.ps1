@@ -5,7 +5,7 @@
 # Source SHA-256: c6faae65edb67b18cedf254b8f6bb47a94528f5fdfb6d0839cd4f1e78311aef8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-BLOQ.ANS by Filth (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BLOCKTRONICS
 # SAUCE Author: Filth
 # SAUCE Group: blocktronics
@@ -44,7 +44,7 @@ Write-Host '
 
 [37m     [0;1;30m2[0m                   [1;30mO[0m                       [1;30ml[0m                       [1;30m3[0m
 
-          [1;30mjust[0;1;33m [0;1;30mbecause[0;1;33m [0;1;30mwe''re[0;1;33m [0;1;30munderground[0;1;33m [0;1;30m//[0;1;33m  [0;1;30mdoesn''t[0;1;33m [0;1;30mmean[0;1;33m [0;1;30mwe''re[0;1;33m [0;1;30mdead[0m
+          [1;30m    [0;1;33m [0;1;30m       [0;1;33m [0;1;30m     [0;1;33m [0;1;30m           [0;1;33m [0;1;30m  [0;1;33m  [0;1;30m       [0;1;33m [0;1;30m    [0;1;33m [0;1;30m     [0;1;33m [0;1;30m    [0m
 
 
 
@@ -52,12 +52,4 @@ Write-Host '
 
 
 
-     [36m······································································[0m
-
-[37m      [0;36mi''m going to write this up as one of my all time favorite drawings[0m
-[37m      [0;36mi''ve ever done in the ansi medium.  i''m not basing that off skill,[0m
-[37m      [0;36mtechnique, presentation, or any other snappy art term.  i''m saying[0m
-[37m      [0;36mthat because i finished this up a few hours before entering it at[0m
-[37m      [0;36mthe demosplash shindig that was awesomely taking place in the city[0m
-[37m      [0;36mwhere i live - pittsburgh.[0m
-'
+     [36m······································································[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3cb88c90f087535bc8aa0a08ebc1f243a22ccdf3e0d7bdf970d95aaabf7ffd4d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-CHAT.ANS by minotaur (MAiDEN bRAZiL); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: chat screen ( for my board only )
 # SAUCE Author: minotaur
 # SAUCE Group: MAiDEN bRAZiL
@@ -33,6 +33,6 @@ Write-Host '
              [1;30m▌[0m                [1;30m██▀▀▀▌[0m                  [1;30m█▀▀▀▀▀▀▌[0m
              [1;30m▌[0m
 
-[30m         [0m         [37m [0;1;37mW[0mHY [1mD[0mO U [1mW[0mANT [1mT[0mO [1mT[0mALK [1mW[0mITH [1mM[0miNOTAUR ?
+[30m         [0m         [37m [0;1;37m [0m   [1m [0m    [1m [0m    [1m [0m  [1m [0m    [1m [0m    [1m [0m         
 
            [1m[....................................................][0m'

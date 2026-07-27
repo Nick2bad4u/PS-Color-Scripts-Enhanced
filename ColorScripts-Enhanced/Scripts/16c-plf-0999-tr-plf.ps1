@@ -5,7 +5,7 @@
 # Source SHA-256: d424942e2ed2ab440d3be17bded5c5f5bf57163be9086a95cb1adb318ca33025
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-PLF.ANS by Tarot (poffelipoff); released in plf-0999 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Poffelipoff Ansee
 # SAUCE Author: Tarot
 # SAUCE Group: poffelipoff
@@ -16,7 +16,7 @@
 
 Write-Host '
 
-                                                                [35mTAROT/PLF&GLUE[0m
+                                                                [35m              [0m
 [1;32;46m▓▓[0;1;32;40m█████[0;1;36;40m████[0;1;32;40m█[0;1;32;46m▓[0m  [1;32m▐[0;1;36m█████[0;1;32m██[0;1;36m [0m  [1;32m▀▀██[0;1;36m█████████████████[0;1;32m██▀▀[0m [1;33m▄[0;1;37m▄▄[0;1;37;47m▓▓█[0;1;37;40m▀▀▀[0;1;37;47m▀[0m▄▄▄▄▄▄▄▄  [1;30m▀[0m▀[1m▀▀[0;1;47m▓▒[0m▄
 [1;32m███▀▀█[0m  [1;36m [0;1;32m███[0m  [1;33m▌[0;1;32m▐█[0;1;36m█████[0;1;32m█[0m  [1;33m▄[0m  [1;32m█▀▀▀[0m          [1;32m▀▀[0;1;36m▀[0;1;32m██▀[0m [1;33m▄█[0;1;37;47m██[0;1;37;40m▀▀▄[0m▄[1;47m▀▀[0m█[1;47m  [0m▀▀[1;47m▄▄▄▄[0m█████[1m▒▒[0m▄[1m▄[0m [1;30m▀[0m
 [1;32m█[0;1;36m█[0;1;32m█[0m [1;33m▄[0m  [1;33m▀[0m [1;32m▀▀[0m  [1;33m█▌[0m [1;32m██[0;1;36m███[0;1;32m█[0m   [1m [0m  [1;36m [0m  [1m▄▄▄[0;1;47m▒▒░░[0m███▄▄[1m▄[0m  [1;32m▀[0m [1;33;47m█[0;1;37;40m█[0;1;37;47m█[0;1;37;40m▀[0m [1m▄[0;1;47m▀[0m█[1;47m▄[0m▀[1m▀[0m [1m▄██████████▄[0m▀▀▀[1;47m▒▒▒[0;1;40m▄[0m
@@ -39,14 +39,4 @@ Write-Host '
 [1;36m                [0m [31m▀[0;35;41m▒▒[0;1;35;40m▀[0;31m░[0;30;41m▓[0;1;32;42m▒▒▒[0;32m ▀[0;1;32;42m▄[0;32m▀▀[0;1;32m▀[0m     [32m███[0;31m░[0;30;41m▓[0;1;32;40m███[0;32m [0;1;32m▐[0;1;32;42m▒▒[0;32m▌  ▀▀▀▀▀███▌[0;1;32;42m░[0m [31m▀[0;35;41m▒▒[0;1;35;40m▀[0;31m ▀[0;35;41m▒▒[0;1;35;40m▀[0;30;41m▓[0;31;40m▀[0;35;41m▒▒[0;1;35;40m▀[0;31m [0m
                  [31m ▒▒[0m   [1;32;42m░░[0;30;42m░[0;32;40m▓  [0m        [32;40m███▄▄▄▄▄▄▄[0;1;32;42m░░░[0;32m▌      ███▌[0m   [31m▒▒[0m   [31m▒▒[0;37m  [0;31m ▒▒ [0m
                   [31m░[0;30;41m▓[0m   [32;40m▐[0;35;42mPLF[0;32;40m▌[0m         [35;42m      [0;32;40m█[0;35;42m [0;32;40m██████     ▐[0;35;42m   [0m    [31;40m░[0;30;41m▓[0m   [31;40m░[0;30;41m▓[0m   [31;40m░[0;30;41m▓[0m
-                        [32;40m▒▒▒▒[0m         [32;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m     [32;40m▒▒▒▒[0m
-                        [36;40m     [0m
-
-[35;40mHey, it''s a POffelipoff ansi![0m
-
-[35;40m23 (or more) lines from Tarot, drawn at work in about two hours. Tarot says[0m
-[35;40mhello to: Ville, Creator, Bym, Cthulu & Liceboy (who are at my pad right now,[0m
-[35;40mI think), Dieznyik, Vader, Tesla, Milkman, the people in Glue & PLf, and all[0m
-[35;40mthe art-scene casualties. Mail all your requests to jaakko.raami@kuvalehdet.fi. [0m
-[35;40mIt is very likely that you won''t never get your art, as I''m lazy. Oh, and draw[0m
-[35;40mfor Nasal malfunction![0m'
+                        [32;40m▒▒▒▒[0m         [32;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m     [32;40m▒▒▒▒[0m'

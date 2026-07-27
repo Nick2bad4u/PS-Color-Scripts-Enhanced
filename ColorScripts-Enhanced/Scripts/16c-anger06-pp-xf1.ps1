@@ -5,7 +5,7 @@
 # Source SHA-256: e9f081695aa40428a091fd99302e51bfeb8cd268d4cd9dc96fbf16aba761d54c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-XF1.ANS by pixel_pusher (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: x-filez add..nig
 # SAUCE Author: pixel_pusher
 # SAUCE Group: anger
@@ -35,5 +35,4 @@ Write-Host '
  [1;30m ▌|[0;32m▄[0;1;32;42m▒▓░[0;1;32;40m▄[0;35m▀[0;1;35;45m  ░▒░ ░[0;35m▀[0m   [1;36m▓[0;1;36;46m▓▒▓█[0;1;36;40m▀░[0m      [1;35m ▀[0;1;35;45m▓▓▒▒░░ [0;35m▀[0;32m [0;1;32;42m▒[0;32m▌[0;1;30m|▌========[X-FILEZ]=======▐|[0m
  [1;30m ▌|░[0;1;32m [0;1;32;42m░[0;32m░ [0;37m [0;35m░▀[0;1;35;45m ░[0;1;31;45m [0;35m▀░[0;37m [0;1;30mX -[0;1;36m░▀▀[0;1;30mf i l e S[0m   [35m░▀[0;1;35;45m░░░[0;35m▀░[0;37m [0;32m░[0;1;32;42m░[0;32m▌[0;1;30m|▌------------------------▐|[0m
   [1;30m░`\_[0;32m▀[0;1;30m______[0;35m▀[0;1;30m_________________________[0;35m▀[0;1;30m_____[0;32m▀[0;1;30m/''\________________________/'' [0m
-                 [36m   [0m             [36m [0m     [1;30m░[0m [1;30m  [0m [1;30mfreshztuff; pixel_pusher/anger[0m
-                                 [36m  [0m'
+                 [36m   [0m             [36m [0m     [1;30m░[0m [1;30m  [0m [1;30m                              [0m'

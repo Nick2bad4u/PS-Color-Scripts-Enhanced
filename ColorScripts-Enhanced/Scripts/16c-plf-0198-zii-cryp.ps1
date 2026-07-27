@@ -5,7 +5,7 @@
 # Source SHA-256: 29b992c2258086e819fa0ef643561dbb3337d62029028cbe516930a57eb4f693
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-CRYP.ANS by Zeus II (Poffelipoffelipoffel); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The CRYPT
 # SAUCE Author: Zeus II
 # SAUCE Group: Poffelipoffelipoffel
@@ -48,6 +48,6 @@ Write-Host '
                           [31m▀[0;1;33;41m▀[0;1;37;40m▓█[0;1;33;41m▌[0;31m▐[0m   [31m [0m   [31m▀[0m                  [31m░[0m
                             [31m▀[0;1;33;41m▀▀▄[0;31m▄[0m        [1;31mThe Crypt [0;1;33m    [0m
                               [31m ▀[0;37m [0;1;33;41m▄[0;31m▄[0m    [31m▀▌[0;1;31moperated by nail/fire [0;31m   ▄▀[0m
-                                   [31m▀[0;37m  [0;31m [0;37m  [0;1;31mlogo by Zeus II/fuel [0;31m  ▄ [0m
+                                   [31m▀[0;37m  [0;31m [0;37m  [0;1;31m                     [0;31m  ▄ [0m
                                       [31m▀[0;1;33;41m▀[0;31m [0m                     [1;33;41m▀[0;31m▀[0m
                                         [31m [0;1;37m▀[0m'

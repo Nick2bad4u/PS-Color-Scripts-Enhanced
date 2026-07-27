@@ -5,7 +5,7 @@
 # Source SHA-256: 7ea2cec435f30caff48840e2c3d8435a03ad592642ef2056577a919b621a782d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KU-CD00.ANS by Kung Lao (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -50,13 +50,13 @@ Write-Host '
                                                       [1;30me[0m
 
                                 [34m([0;1;34m7[0;1;36m1[0;1;37m4)586-0536[0m
-                             [1;30m░  [0;34mS[0;1;34my[0;1;36ms[0;1;37mop: Shadowspawn[0m      [1;30m░[0m
-                             [1;30m▒  [0;34mR[0;1;34me[0;1;36mm[0;1;37mote: Leonardo[0m        [1;30m▒[0m
-                             [1;30m▓  [0;34mC[0;1;34mo[0;1;36m''[0;1;37ms: Cannabis & Gumby  [0;1;30m▓[0m
-                             [1;30m█  [0;34mR[0;1;34mu[0;1;36mn[0;1;37mning Renegade 5/31   [0;1;30m█[0m
-                             [1;30m█  [0;34mC[0;1;34mi[0;1;36mG [0;1;37mWHQ[0m                 █
-                             [1;30m█  [0;34m4[0;1;34m2[0;1;36m0 [0;1;37mMegz Online[0m         [1;37m█[0m
-                             [1;30m█  [0;34m0[0;1;34m-[0;1;36m7 [0;1;37mDay Warez[0m           █
-                             [1;30m█  [0;34mN[0;1;34mu[0;1;36mp [0;1;37mRequired[0m            [1;37m█[0m
-                             [1;30m█  [0;34m''[0;1;34mn[0;1;36mo[0;1;37mt much, but growing'' █[0m
+                             [1;30m░  [0;34m [0;1;34m [0;1;36m [0;1;37m               [0m      [1;30m░[0m
+                             [1;30m▒  [0;34m [0;1;34m [0;1;36m [0;1;37m             [0m        [1;30m▒[0m
+                             [1;30m▓  [0;34m [0;1;34m [0;1;36m [0;1;37m                     [0;1;30m▓[0m
+                             [1;30m█  [0;34m [0;1;34m [0;1;36m [0;1;37m                     [0;1;30m█[0m
+                             [1;30m█  [0;34m [0;1;34m [0;1;36m  [0;1;37m   [0m                 █
+                             [1;30m█  [0;34m [0;1;34m [0;1;36m  [0;1;37m           [0m         [1;37m█[0m
+                             [1;30m█  [0;34m [0;1;34m [0;1;36m  [0;1;37m         [0m           █
+                             [1;30m█  [0;34m [0;1;34m [0;1;36m  [0;1;37m        [0m            [1;37m█[0m
+                             [1;30m█  [0;34m [0;1;34m [0;1;36m [0;1;37m                     █[0m
                              [1;30m▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀▀▀▀[0m▀▀[1;30m▀▀[0m▀[1m▀[0m▀[1m▀▀▀▀[0m'

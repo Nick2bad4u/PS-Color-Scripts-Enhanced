@@ -5,7 +5,7 @@
 # Source SHA-256: f414955db148b0acc7e71be2d49be6808d92e6840eb7a1a105b2bf2a5312c772
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GI-DO_14.ANS by giger (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dominion ad xiv
 # SAUCE Author: giger
 # SAUCE Group: leper society
@@ -37,5 +37,4 @@ Write-Host '
 [1;32;42m░[0;32m          ░▀  [0;1;32;42m▀[0;32m▀▀▀▒[0m    [32m▀[0m       [32m▄█▒[0;1;32;42m▀[0m   [32m░[0m    [32m■[0;37m [0;32m░[0;37m [0;32m▀[0;1;32;42m▓[0;32m▓[0m    [32m▀[0;37m  [0;32m▓[0;1;32;42m░▀[0;32m        [0;37m [0;32m▀ [0;1;32;42m▀[0;32m  ▀[0;1;32;42m░[0m
 [32m▀[0m    [32m [0m   [32m░▓▀▌[0m      [32m■[0m      [32m▀▀▄▄▄▓[0;37m  [0;32m▀▄[0m   [32m▒[0m   [32m▄▓[0m    [1;32;42m▒░[0m    [32m▄[0;37m  [0;32m▌ ▓▀▀▀▒[0;37m  [0;32m▄▄▀[0;37m [0;32m█░[0;37m [0;32m ▐[0;1;32;42m▀[0m
  [1;32;42m░[0;32m▄[0;1;32;42m▄[0;32m▓[0m   [32m▄▀ [0;37m [0;32m█[0m   [32m▄▄▀[0;37m [0;32m        [0m        [32m▀[0;37m  [0;32m▓[0;37m  [0;32m▀[0;37m  [0;32m▌[0;37m  [0;32m▄▀[0;37m  [0;32m▄▓▀[0;37m  [0;1;32;42m▄[0;32m░[0m       [32m▀[0m   [32m▀▄▀[0;37m  [0;32m▐ [0;37m  [0m
-[37m  [0;32m▓gi▀▀[0;37m  [0;32m [0m   [32m▀▀▓[0m   [32m                [0m     [32m▀▄▄▄▓[0m           [32m▀[0;37m [0;32m▀▀■░▄▄▌[0m       [32m▀■░ ls▄[0m
-                [32m dominion  4l2  444 46O7      sysop giger     [0m'
+[37m  [0;32m▓gi▀▀[0;37m  [0;32m [0m   [32m▀▀▓[0m   [32m                [0m     [32m▀▄▄▄▓[0m           [32m▀[0;37m [0;32m▀▀■░▄▄▌[0m       [32m▀■░ ls▄[0m'

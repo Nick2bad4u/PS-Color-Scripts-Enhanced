@@ -5,7 +5,7 @@
 # Source SHA-256: 4362370c28cf497dbd1066185aabf31180d6a4a9913c645995dedbc27604d5b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-MAIL.ANS by Cleaner (Ecolove); released in eco-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nitrophusion Email Lister Matrix
 # SAUCE Author: Cleaner
 # SAUCE Group: Ecolove
@@ -38,11 +38,4 @@ Write-Host '
 [1;36;40m█[0m  [1mb[0mR[1;30mOWSE [0m [36m■ [0;37m [0;1;37me[0mD[1;30miT [0m [36m■  [0;1;37ms[0mE[1;30mARCH[0m  [1;36m▄[0;1;36;46m▓▓▒▒░[0;36m▄[0;37m [0;33m▀▀[0;1;31;43m░░▒▒▓▓█[0;1;31;41m▓▓▓[0;1;31;40m████[0;1;31;47m▓▓▓▒▒▒▒░░[0m▀▀ [36m▄[0;1;30;46m░░[0;1;36;46m░░▒▒▓▓███[0;1;37;46m█[0m
 [1;36;40m█[0;1;36;46m▓[0m [1mp[0mR[1;30mESS[0;1;37m E[0mS[1;30mC[0;1;37m t[0mO[1m e[0mX[1;30miT[0;1;37m t[0mO[1m b[0mO[1;30mARD[0m  [1;36m▐[0;1;36;46m▓▒▒░░[0;1;30;46m░[0;1;31;40m [0;1;31;43m▒[0;1;31;40m▄▄ [0;33m▀▀[0;1;31;43m▒▒[0;1;31;47m▓▓▓▓▓▓▓▓▒▒▒░░[0m▀▀[1;31m ▄▄▓[0m [1;30;46m░[0;1;36;46m░░▒▒▓▓███[0;1;37;46m██▓[0m
 [1;36;40m█▄▄▄▄▄ ▄▄▄▄[0;1;36;46m▓▓[0;1;36;40m▄▄▄▄▄▄▄▄ ▄▄▄▄[0;1;36;46m▓▓[0;1;36;40m▄▄▄[0;1;36;46m▓▒░░[0;1;30;46m░░[0;36m▌[0;33m▐[0;1;31m▓[0;1;31;43m▒▓[0;1;31;40m▓▓▄▄[0m [1;31m▀▀▀[0;1;31;47m▒▒▒▒▒[0m▀▀▀ [33m▄▄[0;1;31;43m░▒▒[0;1;31;40m▓[0;1;31;43m▒[0;1;31;40m▌[0;36m▐[0;1;36;46m▒▒▓▓███[0;1;37;46m██▓▓▓[0m
-[1;30;40m+[0m─[1;30m∙[0;1;33m▲[0m [36mAnsi Screen[0;37m [0;1;33m▲[0;1;30m∙─[0m──[1;30m∙[0;1;33m▼[0;36m PAGE DOWN for Comments[0;37m [0;1;33m▼[0m∙[1;30m────[0m────[1;30m────[0m∙[1;30m────[0;1;33m[[0;36m22[0;1;33m/[0;36m11[0;1;33m/[0;36m98[0;1;33m][0m─[1;30m─+[0m
-
- I drawed this 1 on paper when my philosophy teacher was talking and thought it
- would be perfect for a 23 liners :) It''s for the Nitrophusion Email Lister PPE
- which will  be out in the following  days, be sure to check  it out as well as
- the  others Nitrophusion  releases  on ftp://ftp.stack.nl/pub/gfx/nitrophusion
- and on our support boards in france.
-                                                          Cleaner[Ecolove][0m'
+[1;30;40m+[0m─[1;30m∙[0;1;33m▲[0m [36mAnsi Screen[0;37m [0;1;33m▲[0;1;30m∙─[0m──[1;30m∙[0;1;33m▼[0;36m PAGE DOWN for Comments[0;37m [0;1;33m▼[0m∙[1;30m────[0m────[1;30m────[0m∙[1;30m────[0;1;33m[[0;36m22[0;1;33m/[0;36m11[0;1;33m/[0;36m98[0;1;33m][0m─[1;30m─+[0m'

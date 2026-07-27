@@ -5,7 +5,7 @@
 # Source SHA-256: e7d8c5da8a7b1ba92bdda27af2be980dae801c70f559872e70c9437f088bc777
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR_AGEN1.ANS by CRUCiFER (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Agency
 # SAUCE Author: CRUCiFER
 # SAUCE Group: Department 38
@@ -34,8 +34,4 @@ Write-Host '
 [1;30;40m░▒[0;32m▀▌[0;1;30m▒▓▒▓▓█[0;32m▐▀[0;1;30m▄██████▄▄▄██████████████▄▄▄▄████▄[0;32m▀▌[0;1;30m███[0;32m▐▌[0;1;30m████████▄▄▄██████▓█▓▓[0;32m▌[0;1;30m▓▒▒░▒░[0m
 [1;30m                                                   [0;32;46m█[0;1;30;40m                            [0m
                                                   [1;30m [0;32m▐[0;1;30m [0m                     [1;30mcr·d38[0m
-[1;30m░▒░▒▒▓▒▓▓█▓████████████████████████████████████████▄█████████████████▓█▓▓▒▓▒▒░▒░[0m
-
-
-
-[1;30m...A quick screen for The Agency...I really gotta learn how to do backgrounds!:>[0m'
+[1;30m░▒░▒▒▓▒▓▓█▓████████████████████████████████████████▄█████████████████▓█▓▓▒▓▒▒░▒░[0m'

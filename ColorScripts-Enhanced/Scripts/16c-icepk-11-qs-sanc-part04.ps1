@@ -5,7 +5,7 @@
 # Source SHA-256: 686ef0e3413ce97d94f8d0aef37a49f558e437c836d96dfcd24fe7dd9d2613b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QS-SANC.ICE by Quicksilver (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 116-153
 # Columns: 1-80
 
@@ -42,9 +42,9 @@ Write-Host '
 [1;30m▓[0;1;37m▀[0;1;37;47m▄[0;1;30;47m▀▀▀████▀▀▀▄▀[0m▀ [1m▄[0;1;47m▀[0;1;30;47m▄█▄▀▄[0m▄[1m▀[0;1;47m▄[0;1;30;47m▀█[0m█[1;30;47m▀▀██████▀▀▀▄[0m█[1;47m▄[0;1;30;47m▀▀████▀██▌▀▀[0m▀ [1m▄[0;1;47m▀[0;1;30;47m▄█▌▀████▄▀[0m▀        [1;30m▓[0m
 [1;30m█    [0;1;37m▀[0m▀▀▀▀[1m▀[0m▀▀▀  [1m▀[0m▀▀▀▀▀▀▀▀▀[1m▀[0m▀▀▀ [1m▀[0m▀▀▀▀▀▀▀[1m▀[0m▀▀▀  [1m▀[0m▀▀▀▀[1m▀[0m▀▀▀▀  [1m▀[0m▀▀▀▀▀▀[1;47m▄[0;1;30;47m▀█▀[0m▀          [1;30m█[0m
 [1;30m▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀ ▀▀▀▀ ▀    ▀    [0;1;37m▀[0m▀   [1;30m▀   ▀▀▀▀▀▀[0m
-[1;30m   ▀▀ ▀ Ansi[0m: Q[1mUiCk [0mS[1miLVER [0;34m- [0;1;34miCE [0;34m- [0;1;37m11[0m/[1m28[0m/[1m92 [0;1;30m▀ ▀▀[0m
+[1;30m   ▀▀ ▀     [0m   [1m     [0m [1m      [0;34m  [0;1;34m    [0;34m  [0;1;37m  [0m [1m  [0m [1m   [0;1;30m▀ ▀▀[0m
 [1;30m   ┌───────────────────────────────────────────────────────────────────────┐[0m
-[1;30m   │ [0miCE U.S. [1mHeadquarters  [0mLTD Southern [1mHeadquarters  [0mMiRAGE [1mDistribution [0;1;30m│[0m
-[1;30m   │ [0mPrognosis [1mSite  [0mRAZOR [1mSupport Site  [0mSysOp[1m: Tempus  [0mCo[1m: Lady in Black  [0;1;30m│[0m
+[1;30m   │ [0m         [1m              [0m             [1m              [0m       [1m             [0;1;30m│[0m
+[1;30m   │ [0m          [1m      [0m      [1m              [0m     [1m          [0m  [1m                 [0;1;30m│[0m
 [1;30m   └───────────────────────────────────────────────────────────────────────┘[0m
                   [1;30m- [0m3  o  5  /  [1m7  9  2  [0m-  [1m8  7  7  1 [0;1;30m-[0m'

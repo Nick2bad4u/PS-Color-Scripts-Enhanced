@@ -5,7 +5,7 @@
 # Source SHA-256: 6a715cf96ee0f14d490567a0bb83f625dca5dfeda2f928bdcfa7813323ef2044
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_BRDAM.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: zOOm ZooM!
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
       [35m░░░[0m                                [1;34m   ▄[0m
 
 
-[1;30m----------------░░-░-----------------(requested by warhawk:: )------------------[0m
-[1;30ma brain damage logo - as wished. zOOm![0m                            [1;30mjerusalem~boil[0m'
+[1;30m----------------░░-░-----------------(requested by warhawk:: )------------------[0m'

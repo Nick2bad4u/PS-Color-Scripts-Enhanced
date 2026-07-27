@@ -5,7 +5,7 @@
 # Source SHA-256: fd16057a2ebb2b6059e40ab297e70befd4e8cb57b5ea0535b252360e97e14cfe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JD-ANGEL.ANS by Jedi (Paw); released in paw-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Angel Dust
 # SAUCE Author: Jedi
 # SAUCE Group: Paw
@@ -40,7 +40,7 @@ Write-Host '
 [32m  ███[0;1;32;42m   ░░░░░   [0;32m█[0m         [32m█[0;1;32;42m           [0;32m█[0m      [32m█[0;1;32;42m ░░░░▒░▒░   [0m     [32m██[0;1;32;42m  ░░░░░  [0;32m█[0m
 [32m    ▀█████████▀▀[0m           [32m▀█████████▀[0m        [32m▀████████▀[0m         [32m█████████[0m
 
-                               [1;30mAngel Dust[0m
-                           [1;30mPAW WHQ/ ENiGMA WEST[0m
+                               [1;30m          [0m
+                           [1;30m                    [0m
                                 [1;30mOP: SB[0m
                               [1;30m[2O6] 631.8O12[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: bd6f66e9ac06ea58f759f40f0c94038aae8a4a257c4c3642a706173bc1a64f76
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-NEO1.ANS by cHEZ (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nEO-sPORIN
 # SAUCE Author: cHEZ
 # SAUCE Group: eclipse
@@ -35,5 +35,4 @@ Write-Host '
 [37m  [0m            [37m█▌ [0;36m▐█[0;1;33;46m░░[0;36m▌ [0;37m▐▀▀[0;36m  ███[0;1;33;46m ░▒▒▒[0;1;33;40m░░░[0m    [36m▐[0;1;33;46m░░░[0;36m▌▐█[0;1;33;46m  [0;36m▌ [0;37m▐█▌[0;36m ▐[0;1;33;46m░░░[0;36m▌ [0;37m▐█[0m
 [37m  [0m            [1;37;47m░[0m  [36m████   ▄▄▄█▀▀▀ █[0;1;33;46m░░░[0;36m▀▀▀▀▀▀▀▀▀[0;1;33m  [0;36m  ▀███▄   ▄[0;1;33;46m▒▒▒[0;36m▀  [0;37m██[0m
 [37m  [0m         [1;37m░░░[0;1;37;47m▒▒[0m [36m  ▀▀▀▀▀     [0;37m▄▄[0m      [37m▄▄▄▄▄▄▄▄▄██▄[0m    [36m▀▀▀▀▀[0m    [37m▄[0;1;37;47m░░[0m█
-              [1m░░[0m
-                   neosporin .. america''s most used ointment.[0m'
+              [1m░░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: bb049903335f283e075bfd64c85aef1b9ed3cd7c4be6146fe874e9ff20b74559
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-BD.ANS by Spirit of Rage (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Brain Damage
 # SAUCE Author: Spirit of Rage
 # SAUCE Group: Fuel Productions
@@ -48,13 +48,13 @@ Write-Host '
                       [30;47m▓[0m          [36;40m [0m   [1;37;40m [0;30;47m▓[0m
 [1;30;40m──-──[cut here]──--─────░░─────+─────-─────+─────░──--───▒──────+────-──░───+─-─[0m
 
-  [1;30mwant one of these... email me at [0msor_@hotmail.com[1;30m or catch me on irc (efnet)[0m
-  [1;30mon [0m#fuel[1;30m or [0m#wave[1;30m...[0m
+  [1;30m                                 [0m                [1;30m                           [0m
+  [1;30m   [0m     [1;30m    [0m     [1;30m   [0m
 
-  [1;30mgreets to: teakay, mr4tune, mindvibe, abesent spinister, zeusII,[0m [1;30mspeedfreak,[0m
-  [1;30mhaddock, sadistic intent, aoh, and the rest.. you know who you are.. cause i[0m
-[1;30m [0m [1;30mforgot =)[0m
+  [1;30m                                                                [0m [1;30m           [0m
+  [1;30m                                                                            [0m
+[1;30m [0m [1;30m         [0m
 
-   [1;30m// spirit of rage out...[0m
+   [1;30m                        [0m
 
 [1;30m──-──[end of file]-─────░░─────+─────-─────+─────░──--───▒──────+────-──░───+-──[0m'

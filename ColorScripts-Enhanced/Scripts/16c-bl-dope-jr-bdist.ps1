@@ -5,7 +5,7 @@
 # Source SHA-256: 61228a1580d5324ee002efb816904f711fcdf501ea27a99c245d4fd6100b0bc0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_BDIST.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: they come to get our dope!
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
      [33m▀▀▀▀ [0m     [1;30m▀[0m    [30;47md[0;1;30;40mistribution[0;35m░[0;30;47ms[0;1;30;40mite.[0;35m▀▀▀▀░[0m
 
 
-[1;30m-----░░-----░----------------------------------------░------------------[[0mhack![1;30m]-[0m
-[1;30mthey come to get our dope![0m                                        [1;30mjerusalem°boil[0m'
+[1;30m-----░░-----░----------------------------------------░------------------[[0mhack![1;30m]-[0m'

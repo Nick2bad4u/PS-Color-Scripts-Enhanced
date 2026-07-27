@@ -5,7 +5,7 @@
 # Source SHA-256: bad2761bb0e86c428a7a2766d9078433d8229b951d041746d672cd7ec8f2c28b
 # Source License: FAL-1.3
 # Source Attribution: ROY-COMI.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -27,6 +27,6 @@ Write-Host '
 [1;30m▓[0;33;41m▒[0;33m█▀▀▀[0;1;31m▀[0;33m▀▀[0;1;31m▀[0;33m▀[0;1;31m▀▀▀▀▀▀▀[0;33m▀[0;1;31m▀[0;33m▀▀[0;1;31m▀[0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31m▀[0;33m▀▀[0;1;31m▀[0;33m▀[0;1;31m▀▀▀▀▀▀▀▀▀[0;33m▀[0;1;31m▀[0;33m▀▀[0;1;31m▀[0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;33;41m▒[0;1;30m▓[0m
 [1;30m▒[0;33m█▓ [0;1;30m█▓▒░▒░░░░░░ ░ [0mT[1;30mUSCON [0m- Y[1;30mAKUZA [0m- T[1;30mHUNDERSTORM [0m- O[1;30m.S.P [0;1mWHQ [0;1;30m░ ░░░░░░░▒░▒▓█ [0;33m▓█[0;1;30m▒[0m
 [1;30m░[0;33m█▒ [0;1;30m▓▒░░░░░░░░░░  [0mB[1;30mOMB20 [0m- Z[1;30mYKLOP [0;1mGHQ  [0;1;30m, [0mR[1;30mADICAL [0mR[1;30mHYTHMS [0;1mBHQ  [0;1;30m░░░░░░░░░░░▒▓ [0;33m▒█[0;1;30m░[0m
-[1;30m:[0;33m█▓ [0;1;30m▒ [0mL[1;30mIQUID [0m- N[1;30mEWAGE [0m- S[1;30mANCTION [0m- X[1;30m-TREME [0m- D[1;30mREAMS [0m- D[1;30mEEP [0m- L[1;30mEMON [0;1mDISTRO [0;1;30m▒ [0;33m▓█[0;1;30m:[0m
+[1;30m [0;33m█▓ [0;1;30m▒ [0m [1;30m      [0m   [1;30m      [0m   [1;30m        [0m   [1;30m       [0m   [1;30m      [0m   [1;30m    [0m   [1;30m     [0;1m       [0;1;30m▒ [0;33m▓█[0;1;30m [0m
 [1;30m│[0;1;31m█[0;33m█▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;33m▄▄[0;1;31m▄[0;33m▄[0;1;31m▄▄▄▄▄▄▄▄▄[0;33m▄[0;1;31m▄[0;33m▄▄[0;1;31m▄[0;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;33m▄▄[0;1;31m▄[0;33m▄[0;1;31m▄▄▄▄▄▄▄▄[0;33m▄[0;1;31m▄[0;33m▄▄[0;1;31m▄[0;33m▄▄▄█[0;1;31m█[0;1;30m│[0m
 [1;30m└─────────────────────────────────────────────────────────────────────────────┘[0m'

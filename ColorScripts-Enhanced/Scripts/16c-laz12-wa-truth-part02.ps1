@@ -5,7 +5,7 @@
 # Source SHA-256: 00f03ec9b90a10249c163762b2b9e5575241640b2cbe6fbd4333766a4d4ddad7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-truth.ans by warpus (LAZARUS); released in laz12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Truth
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -40,12 +40,12 @@ Write-Host '
 
 
 
-[37m                        [0;30mf[0;1;30mI''ve got this friend, you see[0m
+[37m                        [0;30m [0;1;30m                             [0m
 
 
 
 
-                              [1;30mwho makes me feel[0m
+                              [1;30m                 [0m
 
 
                                 [30;47m█[0m'

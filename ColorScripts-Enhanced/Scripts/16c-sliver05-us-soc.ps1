@@ -5,7 +5,7 @@
 # Source SHA-256: 8bc1e612b3e0eba1f01c5ee03ddf9ca6262f0fea9945c84b7769eb21447aa1fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SOC.ANS by Unique Phreak + Sadistic Intent (sliver); released in sliver05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: society promo
 # SAUCE Author: multiple artists
 # SAUCE Group: sliver
@@ -37,7 +37,4 @@ Write-Host '
                     [1;32;40m              [0m      [32m▐▀[0m     [32m▄▀[0m    [30;47m███▀▄[0m
                                          [32;40m█    ▐[0m
                                           [32;40m▀▄▄▄[0m
-                                             [32;40m▌[0m
-
-[37;40m [0;1;30;40msadistic intent:[0m font outline, background
- [1;30munique phreak:[0m font coloring, touchups[0m'
+                                             [32;40m▌[0m'

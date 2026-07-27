@@ -5,7 +5,7 @@
 # Source SHA-256: 75af12c428d7d2a464793a0bfbb9b1186b9e3b9ff3f4b1e0dc19b241dcf4563c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-theCentre.ans by Enzo + Avenging Angel + Jeepee (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -15,15 +15,15 @@ Write-Host '
 
 
 
-                              [1;35m   [0;32m([0;1;33m6[0;32m)lock([0;1;33m7[0;32m)ronics[0m
+                              [1;35m   [0;32m [0;1;33m [0;32m      [0;1;33m [0;32m       [0m
 
-                                  [32m [0;37m  [0;32mfeaturing[0m
+                                  [32m [0;37m  [0;32m         [0m
 
-         [35m [0;37m   [0;35mj33p33 "[0;1;35mSan[0;35m"[0m     [35mavg "[0;1;35mShinoda[0;35m" cro cop[0;37m  [0;32m [0;37m  [0;35menzO "[0;1;35mNakamura[0;35m"[0m
+         [35m [0;37m   [0;35m        [0;1;35m   [0;35m [0m     [35m     [0;1;35m       [0;35m         [0;37m  [0;32m [0;37m  [0;35m      [0;1;35m        [0;35m [0m
 
                                         [32min[0m
 
-                  [1;35m   [0m [1;35m [0m            [35m"[0;1;35mPsY NiNJ4Z[0;35m"[0m
+                  [1;35m   [0m [1;35m [0m            [35m [0;1;35m          [0;35m [0m
 
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 7d934236dc9830f40f992ebbd0db8dd92a0cc77b1c8b33bc119ffb8e565713b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FV-BLEND.ANS by fever (CiA); released in blndr008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: fever
 # SAUCE Group: CiA
 # SAUCE Date: 19970111
@@ -46,6 +46,4 @@ Write-Host '
      [31m▀▀[0;1;31;41m▀▀▀▀[0;31m▀▀▄▄[0;1;31;41m▄▄▄[0;1;31;40m█[0;1;31;47m▀▓▓[0;1;31;41m▄[0;31m▄[0;1;31;41m▄[0;1;31;40m█[0;1;31;41m▌[0;31m▌▐[0;1;31;41m▐[0;1;31;40m█[0;1;31;47m▄░▄[0;1;31;40m█████[0;1;31;41m▀[0;31m▀[0m
               [31m▀[0;1;31;41m▀▀[0;1;31;40m█[0;1;31;47m▄▄[0;1;31;40m█[0;1;31;47m▀[0;1;31;40m██[0;1;31;41m█▀[0;31m▀▄[0;1;31;41m [0;31m▀[0;1;31;41m▀[0;1;31;40m█████[0;1;31;41m▀[0;31m▀▀[0m
                  [31m▀▀▀[0;1;31;41m▀▀▀[0;31m▀▀[0;1;31;41m▀▄[0;1;31;40m██[0;1;31;41m▄[0;1;31;40m███[0;1;31;41m▓▓▀[0;31m▀[0m     [1;30mfor the blender #0??[0m [1;30m,      [0m
-                          [31m▀▀▀[0;1;31;41m▀▀▀▀[0;31m▀▀[0m       [1;30m3 things = china , smoking, tguard[0m
-                                        [1;30mfigure the pic out from the text boxes[0m
-                                        [1;30mhope you like. all original of course =)[0m'
+                          [31m▀▀▀[0;1;31;41m▀▀▀▀[0;31m▀▀[0m       [1;30m                                  [0m'

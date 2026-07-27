@@ -5,7 +5,7 @@
 # Source SHA-256: 648c43d5735a5e6ab93e15f67bbbd54f16336308483e9353a857be0d7b329f01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ISO-HG.ICE by isosceles (da ice.); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sleepwalker's hangout
 # SAUCE Author: isosceles
 # SAUCE Group: da ice.
@@ -48,7 +48,4 @@ Write-Host '
 [30;47m        ▄███▄ █████  ▀[0;37;40m▒[0;30;47m▀    ▀▀[0;37;40m▒[0;30;47m▀▄████▀   ▀▀█▓█▀[0;37;40m▌[0;30;47m██ █████[0;37;40m▌[0;30;47m██▄▀████ ████■████▀    [0m
 [30;47m        █████ █████               ▀          ▄▄[0m [30;47m██ ████[0m [30;47m       ▀   [0;37;40m▒[0;30;47m▀           [0m
 [30;47m        ▀█▓██▀████▀    higher.grounds          ▀   ███[0m [37;40m░[0;37;47m                        [0m
-[37;47m                                                    [0;30;47m▀▀▓                         [0m
-[30;47m305.927.7801 [0;1;37;47m·[0;30;47mice.mb[0;1;37;47m·[0;30;47memerge.distro[0;1;37;47m·[0;30;47mrust.shq[0;1;37;47m·[0;30;47mtrench.shq[0;1;37;47m· [0;30;47msleep[ice] is in control[0m
-[30;47m                                                                                [0m
-[30;47m                   ansi c/o isosceles.triangle [ice/magic]                      [0m'
+[37;47m                                                    [0;30;47m▀▀▓                         [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 6052ffe32963ac3b13f75ff41c6b30cbe2bf7411bf3e9c09e31232e037c5c39f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DI-PATR1.ANS by divine intervention (ash i996!); released in ash-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: patriarch's underground phont! ;)
 # SAUCE Author: divine intervention
 # SAUCE Group: ash i996!
@@ -31,7 +31,7 @@ Write-Host '
 [1;30;40m▓[0;1;30;41m  v▐di.ash.1[0;1;30;40m▓[0;1;30;41m996[0;1;30;40m████████████████████[0;1;30;41m▀!  [0;1;30;40m▓▄ couriers.. call about req. artwrk. ▓[0m
 [1;30;40m▒▓[0;1;30;41m ■░▀▀▀▀▀▀▀▀■▀▀▀■░▀       ▀░       ▀░■ [0;1;30;40m▓▒▓▄[0m           [1;30m..[0;1;37mg[0mr[1;30mee[0mt[1mz[0;1;30m..[0m             [1;30m▓▒[0m
 [1;30m░▒▓[0;1;30;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;40m▓▒░▒▓▄ natas, total, hd, mb, cyth, mb ▓▒░[0m
-            [1;30m░di-patr1.ans░[0m                  [1;30m▓▄ all ash memb''s, cyst, iw, bm ▓▒░[0m
+            [1;30m░            ░[0m                  [1;30m▓▄                              ▓▒░[0m
                                              [1;30m▀▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▒░[0m
 
                                    [1;30m▀[0m                             [1;30m▄[0m
@@ -48,8 +48,4 @@ Write-Host '
 [1;31m  [0;31m░▒▓[0;1;31;41m░▒[0m [31mu    n    d    e    r    g    r    o    u    n    d▀▓ ▀  ▐[0;1;31;41m░▒[0m [31m██[0m
 [31m    ▀▓▌[0m                                                          [31m▐[0;31;41m [0;1;31;41m░[0m [31m██[0m
      [31m▒[0m                           [31m4i4.367.4o33[0m                     [31m▀▀▀▓▀[0m
-     [31m░[0m                       [31ms:\totalitarian\ash[0m                     [31m▒[0m
-                      [31mc:\divineintervention.ash\gestapo[0m
-                         [31mart\messages\political\hpav[0m
-
-                           [31mdivine intervention.ash[0m'
+     [31m░[0m                       [31m                   [0m                     [31m▒[0m'

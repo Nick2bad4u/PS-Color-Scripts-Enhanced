@@ -5,7 +5,7 @@
 # Source SHA-256: 0b2f31e26344704cf98ad5200d2f9093e90b14af364c9fd1405a9f95b9ffae01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-DUNG2.ANS by Smooth (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dungeon II
 # SAUCE Author: Smooth
 # SAUCE Group: ACiD Productions
@@ -31,16 +31,12 @@ Write-Host '
 [1;30m▓███████████████████████▄▄▄████████▄▄▄███████████████▄▄▄███████████████████▄▄▄▄[0m█
                                       [1m▀[0m     [1m ▀  ▀▀▀ ▀▀▀▀▀▀[0m▀[1m▀▀▀▀▀[0m▀[1m▀▀▀[0m▀▀▀[1m▀[0m▀▀▀▀▀▀▀▀
    [1;30m▒[0m
-   [1;30m▓[0m        Dungeon 2 . Runnin'' Da Latest Verzion of Oblivion/2         [1;30m░[0m
-   [1;30m█[0m            Main Dude - Smooth . Da Utha Dude - DimeBag
+   [1;30m▓[0m                                                                    [1;30m░[0m
+   [1;30m█[0m                                                       
    [1;30m█[0m             [1;30mA C [0mi D     H a [1mw a [0mi i     O u t p o [1;30ms t[0m              [1;30m░[0m
-   [1;30m█[0m     DARK Distro Site -  Paranoia Pacific Hq - Lancelot ][ Dist     [1;30m░[0m
-   [1;30m█[0m            EMiGRE Mag Hq . TekLordZ Whq . Terbium Dist             [1;30m▒[0m
-   [1;30m█[0m                iFXnet Whq - FederationNet HI Hub                   [1;30m▓[0m
-   [1;30m█[0m     Hawaii''s Best Ahrt, Demo, and EMag System in the Pahcifik      [1;30m█[0m
+   [1;30m█[0m                                                                    [1;30m░[0m
+   [1;30m█[0m                                                                    [1;30m▒[0m
+   [1;30m█[0m                                                                    [1;30m▓[0m
+   [1;30m█[0m                                                                    [1;30m█[0m
    [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄[0m      [1;30m▄[0m          [1;30m▄▄█▄     [0m
-                                                                        [1;30m█[0m
-[1;30mGreetz go out to : RaD Man, ReDMaN, Somms, T2, Tasmaniac, Freak, Alter Ego,[0m
-[1;30m                   Lord Jazz and Eternal Lie.[0m
-        [1;30mCarnifex[0m [1;30m- Thanks for the Greetz in da DARK pack homee.[0m
-       [1;30mAlter Ego - Loved the Eleventh Dungeon Two ANSi man.  ;)[0m'
+                                                                        [1;30m█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 6bb9c6e57eed9e0dbe8fe7d3f79e930ffe1ad21da02f45660b400e08f3eceaad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DV8-INF.ANS by dv8 (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: matrix for comatose
 # SAUCE Author: dv8
 # SAUCE Group: black maiden
@@ -38,7 +38,4 @@ Write-Host '
 [1;37m██[0;1;37;47m▓▄   [0;1;37;40m███[0;1;37;47m   [0;1;37;40m██[0;1;37;47m▄   ▀▓[0;1;37;40m████[0;1;37;47m▌[0m▌[36m [0;34m███[0;1;34;44m░░░[0;34m█████▄▄[0;30;43m█▄[0;1;31;40m▀[0;1;31;43m▀[0;1;31;40m████[0;1;31;47m█[0;1;31;40m█▄▄[0;1;31;47m██[0;1;31;40m██████[0;1;31;43m▀ [0;33m▀▀▀▀[0;30;43m█[0;33;40m▄▄[0;30;43m▀[0;33;40m█[0;1;31;43m░[0;33m▌[0;34m▐[0;1;34;44m░▓▓░░[0m
 [1;37;40m████[0;1;37;47m▌  ▐[0;1;37;40m██[0;1;37;47m▌  ▐[0;1;37;40m██[0;1;37;47m▌   [0;1;37;40m██████[0;1;37;47m▄[0m▄[1m [0;34m▀██[0;1;34;44m ░░[0;34m███████ ▄▄[0;30;43m█▄[0;1;31;40m▀[0;1;31;43m▀[0;1;31;40m█████▀▀▀▀▀[0;30;43m█[0;1;31;40m▄▄   █[0;1;31;43m░░[0;33m██████[0;37m [0;34m█[0;1;34;44m░░ [0;34m▌[0m
 [1;37m██[0;1;37;47m▓▀ ░ [0;1;37;40m█[0;1;37;47m▓▀ ░[0;1;37;40m▒█[0;1;37;47m▓▀ ░[0;1;37;40m▒█[0;1;37;47m▓▀ ░[0;1;37;40m█[0;1;37;47m▓▓[0;1;37;40m█[0;1;37;47m▄[0m▄[1m [0;34m▀[0;1;34;44m░▓▓░░[0;34m█[0;1;34;44m░[0;34m██▌▐[0;1;34;44m░▓▓░[0;34m▄▄▄▄▄▄▄▄[0;1;31m▀█████▀ ▄[0;1;31;43m▓[0;33m███[0;1;33;43mdv8[0;1;31;40m▒[0;33m▀[0;30;44m█[0;1;31;40m [0;30;44m [0;34;40m█[0;1;36;44m   [0m
-[35mcut--[0m
-[32mjerk. [0;34ma last minute production by dv8. [0;1;34mit''s a trade with[0;36m [0;1;36mcomatose^fuel[0;36m [0;1;34mfor his[0m
-[1;34msoon upcoming[0;1;36m telnet-board[0;36m [0;1;34mcalled[0;1;36m [0;1;37minfestation[0;34m.[0m
-[33mshading of hair and background by avenger.[0m'
+[35mcut--[0m'

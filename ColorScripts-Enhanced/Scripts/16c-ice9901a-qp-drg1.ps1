@@ -5,7 +5,7 @@
 # Source SHA-256: 675bad8c4dbfe41cbff5ca17f3a065a519a5d1c17207bb6a2105a5f06311998a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QP-DRG1.ICE by Quip (Ice Advertisements); released in ice9901a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dr. Ganja
 # SAUCE Author: Quip
 # SAUCE Group: Ice Advertisements
@@ -36,7 +36,7 @@ Write-Host '
                       [33m▒▓[0;31m▓[0;33m▒░[0;31m░[0;33m░[0;31m░[0;33m ▐██[0;1;31m▒[0;1;37m▀███▀███[0;1;37;47m▓[0m▀[33m▄[0;1;31;43m▀[0;33m██ ░█ [0;37m  ▓█[0;1;37;47m▓▓[0m█▄[1m░[0m  [1;34m▀[0;1;34;44m█▓[0;1;34;40m█▄▄▄█[0;1;34;47m▄▓[0;1;34;40m▀  [0m▄[1;47m░[0;1;37;47m░[0m
                       [33m░░[0;31m░[0;33m [0;31m░ [0;33m [0;31m░[0;33m█▐██▄[0;1;31m▀[0;33m▄▄▄[0;1;31;43m▀▀[0;33m█████▀▀  ▓█▌ [0;37m ░█[0;1;37;47m██░[0m█[1;47m░[0m█▄         [1;30m▄[0m▄▄[1;47m▄██[0;1;37;47m▓[0m
                       [31m░[0;33m    [0;31m [0;33m  ▀▀▀▀▀▀ ▀▀▀▀        ▀▀▀  [0;37m  ▀▀▀▀▀▀▀▀▀[0;1;30m▀[0m   [1;30m▀[0m▀▀▀▀▀▀▀▀▀▀
-                       [33m  [0;37m([0;1;37mL[0m)ist blacklist ([1mS[0m)earch blacklist ([1mA[0m)dd lamer ([1mQ[0m)uit
+                       [33m  [0;37m [0;1;37m [0m                [1m [0m                  [1m [0m           [1m [0m    
 [1;30m-[cut]--------------------------------------------------------------------------[0m
-This ansi is for Prime-62k of Hoth Systems.
+                                           
 [1;30m-[cut]--------------------------------------------------------------------------[0m'

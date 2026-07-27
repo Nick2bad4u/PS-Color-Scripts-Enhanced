@@ -5,7 +5,7 @@
 # Source SHA-256: 8295ab80df4c2fa7d5ca62f4b1ca5f8eff6a149779fdb3d79a607e269f1547e4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: m7m-soc.ans by Metal Militia (mimic38); released in mimic38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -33,6 +33,4 @@ Write-Host '
 [35m       [0;31m l$#[0;35m$$[0;31m│[0;35m$Q[0;31mQQ[0;35m$[0;31m│[0;35m$$$[0;31m$#[0;35m       [0;31m l$$$$$$$$$╩[0;35m╩╩$$$$[0;1;35m$$[0;35m$[0;31m/.[0;35m      [0;31m#$$$$$│$888$│$$$$Y[0m
 [1;31m     [0;31m  .\Y[0;1;31m [0;31mY$$[0;35m$$$$$$$[0;31m$$Y[0;35m [0m        [31m\$$$$Y$$$$[0m   [31ml[0;35m$$$$$$$$[0;31m│[0;35m$8[0;31m8888$$$$$$$$$$$$8\*`[0m
 [31m│Q##Q8\└` [0;1;31m [0;35m [0;31m`²╩╩╩╩╩╩╩²''[0;35m       [0;31m_.,7\*└` `*/Ñ[0m   [31ml[0;35m$QQ[0;31m\`²╩╩╩╩╩╩╩╩*\`└[0;35m*[0;31m/[0;35m7,[0;31m._       [0m
-              [35m [0m     [35m    [0;31m \²`[0m         [35m [0m      [35m    [0m             [35m   [0m         [31m''²/  ↓↓[0m
-
-                                     [37msocialist justice in israel now. m7mMERETZ[0m'
+              [35m [0m     [35m    [0;31m \²`[0m         [35m [0m      [35m    [0m             [35m   [0m         [31m''²/  ↓↓[0m'

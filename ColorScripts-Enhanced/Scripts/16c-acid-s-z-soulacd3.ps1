@@ -5,7 +5,7 @@
 # Source SHA-256: d0c05589a38db867719a4042e6a55396e1baf686ed918ab9cb17184938f1ed40
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOULACD3.ANS by Jed (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -26,12 +26,12 @@ Write-Host '
                              [31m▐▌ ▀▐▌▄████[0;1;31;41m▀[0;1;31;40m███[0;1;37;40m▄[0;1;31;40m▐▌▀▌[0;31m▐▌[0m
                               [31m█  █▐▀[0;1;37m▄[0;31m▀▀[0;1;37m▄▄[0;1;31m▀▀[0;1;37m▄[0;1;31m▀▌█▐ [0;31m█[0m
                               [31m▐▌ █   [0;1;37m█    █ ▀ [0;1;31m█▌[0;31m▐▌[0m
-[31m    [0;1;36mIl[0;36mlu[0;1;36mm[0;36min[0;1;30ma[0;36mt[0;1;30mus [0;1;36mDi[0;36ms[0;1;36mt[0;36mribu[0;1;30mt[0;36mi[0;1;30mon   [0;31m█ ▐▌    ▄▄    [0;1;31m▐█ [0;31m█   [0;1;36mIl[0;36mlu[0;1;36mm[0;36min[0;1;30ma[0;36mt[0;1;30mus [0;1;36mDi[0;36ms[0;1;36mt[0;36mribu[0;1;30mt[0;36mi[0;1;30mon[0m
+[31m    [0;1;36m  [0;36m  [0;1;36m [0;36m  [0;1;30m [0;36m [0;1;30m   [0;1;36m  [0;36m [0;1;36m [0;36m    [0;1;30m [0;36m [0;1;30m     [0;31m█ ▐▌    ▄▄    [0;1;31m▐█ [0;31m█   [0;1;36m  [0;36m  [0;1;36m [0;36m  [0;1;30m [0;36m [0;1;30m   [0;1;36m  [0;36m [0;1;36m [0;36m    [0;1;30m [0;36m [0;1;30m  [0m
      [32mT[0;1;32mh[0;1;37me [0;32mF[0;1;33mi[0;1;32mR[0;1;37mM [0;32mD[0;1;32mistributi[0;1;37mon[0m     [31m▐▌ ▌▌[0;1;37m█ [0;31m▀▀▀▀ [0;1;37m█[0;1;31m▐▐▌[0;31m▐▌    [0;32mT[0;1;32mh[0;1;37me [0;32mF[0;1;33mi[0;1;32mR[0;1;37mM [0;32mD[0;1;32mistributi[0;1;37mon[0m
      [31mAp[0;1;31moca[0;1;37mlypse [0;31mß[0;1;31me[0;1;37mta [0;31mN[0;1;31mo[0;1;37mde[0m       [31m▀▄ █▄[0;1;37m▀▀▀▀▀▀[0;1;31m▄█ [0;31m▄▀[0m     [31mAp[0;1;31moca[0;1;37mlypse [0;31mß[0;1;31me[0;1;37mta [0;31mN[0;1;31mo[0;1;37mde[0m
          [1;30mS[0my[1ms[0mO[1mp [0;1;30mS[0ml[1mash[0m              [31m▀▄▀██[0;1;31;41m▄▄[0;1;31;40m██▀[0;31m▄▀[0m           [1;30mS[0my[1ms[0mO[1mp [0;1;30mS[0ml[1mash[0m
-     [1;33mC[0;1;31mo[0;31m-[0;1;31mSysO[0;31mp[0;1;30ms S[0;31mi[0;1;31mckle[0;1;33mr[0;1;30m/[0;31mJ[0;1;31mE[0;1;33mD[0m          [31m▀▄▄▄▄▄▄▀[0m         [1;33mC[0;1;31mo[0;31m-[0;1;31mSysO[0;31mp[0;1;30ms S[0;31mi[0;1;31mckle[0;1;33mr[0;1;30m/[0;31mJ[0;1;31mE[0;1;33mD[0m
-[1;37mR[0;1;35mesc[0;35mu[0;1;30me [0;1;37mR[0;1;35maid[0;35me[0;1;30mr W[0;35me[0;1;35ms[0;1;37mt [0;1;30mH[0;35me[0;1;35ma[0;1;37md[0;1;30mQ[0;35mu[0;1;35marte[0;1;37mr[0m                  [1;37mR[0;1;35mesc[0;35mu[0;1;30me [0;1;37mR[0;1;35maid[0;35me[0;1;30mr W[0;35me[0;1;35ms[0;1;37mt [0;1;30mH[0;35me[0;1;35ma[0;1;37md[0;1;30mQ[0;35mu[0;1;35marte[0;1;37mr[0m
+     [1;33m [0;1;31m [0;31m [0;1;31m    [0;31m [0;1;30m   [0;31m [0;1;31m    [0;1;33m [0;1;30m [0;31m [0;1;31m [0;1;33m [0m          [31m▀▄▄▄▄▄▄▀[0m         [1;33m [0;1;31m [0;31m [0;1;31m    [0;31m [0;1;30m   [0;31m [0;1;31m    [0;1;33m [0;1;30m [0;31m [0;1;31m [0;1;33m [0m
+[1;37m [0;1;35m   [0;35m [0;1;30m  [0;1;37m [0;1;35m   [0;35m [0;1;30m   [0;35m [0;1;35m [0;1;37m  [0;1;30m [0;35m [0;1;35m [0;1;37m [0;1;30m [0;35m [0;1;35m    [0;1;37m [0m                  [1;37m [0;1;35m   [0;35m [0;1;30m  [0;1;37m [0;1;35m   [0;35m [0;1;30m   [0;35m [0;1;35m [0;1;37m  [0;1;30m [0;35m [0;1;35m [0;1;37m [0;1;30m [0;35m [0;1;35m    [0;1;37m [0m
                                           [34m▄█   ▄[0;1;34;44m▄[0;34m▄▄[0m
                          [34m▄▄▄▀▀▀▀█[0m        [34m█[0;1;34;44m▀[0;34m█   █[0;1;34;44m█▀[0;34m▀██▄[0m
                       [34m▄[0;34;44m  [0;34;40m▄▄[0m     [34;40m▐▌  ▄▄██[0;1;34;44m▄[0;34m▄▄▀   ▀▄█ ▄▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: fbeeefcd1db9f1beab76f396ca533858da378af2aaf2285abd35d32a1c574212
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ILL-ECHO.ANS by illogic (lAz.); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: echo
 # SAUCE Author: illogic
 # SAUCE Group: lAz.
@@ -32,6 +32,4 @@ Write-Host '
  [33m▐[0;1;31;43m░░ [0;33m▀▀▀[0m                     [37m▀[0m
 [37m [0;1;31m▀[0;33m▀[0m
 
-[1;30m-------------------------------------------------------------------------------[0m
-[1;30m [0m<[1millogic[0m> i HAVE to learn how to do E''s.
- <[1mwatOr[0m>   just put it ''cho =)[0m'
+[1;30m-------------------------------------------------------------------------------[0m'

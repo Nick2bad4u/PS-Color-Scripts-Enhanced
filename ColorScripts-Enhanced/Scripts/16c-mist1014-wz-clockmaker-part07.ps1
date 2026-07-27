@@ -5,7 +5,7 @@
 # Source SHA-256: f5b2ebdd29b0a37a793353f3751e128404a9160e0e192a06dc00936ecf657b81
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wz-clockmaker.ans by Whazzit (Mistigris); released in mist1014 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Clockmaker
 # SAUCE Author: Whazzit
 # SAUCE Group: Mistigris
@@ -49,16 +49,16 @@ Write-Host '
 [1;38;2;203;134;65;47m▒▓▓[0;1;38;2;203;134;65;40m██[0m              [1;30m▀▀▀[0;1;38;2;203;134;65m▄▀[0;30m▀  ▀[0;1;38;2;188;126;65m [0;30m▀[0;37m▒▓[0m [1;38;2;45;45;45m██▀▀▀▀▀▀[0m  [36mBy the time the ceremony[0;37m [0;36mof the[0m
 [1;38;2;203;134;65m▄▀▀▀[0m                [1;38;2;203;134;65m▄▀[0;1;38;2;188;126;65m [0;30m▄▄   [0;37m░▒▓[0m   [38;2;193;130;66m [0;38;2;168;120;55m▒[0;37m [0;36munveiling of the clock maker''s[0;37m [0;36mwife was[0m
 [1;38;2;203;134;65m██[0;1;38;2;188;126;65m [0m               [1;38;2;203;134;65m▄▀[0m [38;2;168;120;55m▐▓▓▓▄▄[0;1;30m▀▀▀[0m  [38;2;193;130;66m   [0;38;2;168;120;55m▒[0;37m [0;36mcomplete, the priest had heard[0;37m [0;36mmore than[0m
-[1;38;2;203;134;65m█[0m               [1;38;2;203;134;65m▄▀[0m   [38;2;193;130;66m [0;38;2;168;120;55m▀▀▀▀▀▀[0;38;2;193;130;66m [0;37m   [0;38;2;193;130;66m  [0;38;2;168;120;55m▒[0;37m [0;36menough to know that he must find a[0;37m [0;36mway to[0m
-              [1;38;2;203;134;65m▄▀[0m     [38;2;168;120;55m▐▓▓▓▓▓▓▌[0;37m   [0;38;2;193;130;66m  [0;38;2;168;120;55m▒[0;37m [0;36mput an end to the abomination that[0;37m [0;36mshe so[0m
-            [1;38;2;203;134;65m▄▀[0m        [38;2;168;120;55m▀▀▀▀▀▀[0;38;2;193;130;66m [0;37m   [0;38;2;193;130;66m  [0;38;2;168;120;55m▓[0;37m [0;36mobviously was. That it was both his[0;37m [0;36mduty and[0m
-          [1;38;2;203;134;65m▄▀[0m         [38;2;168;120;55m▐███▓▓▓▌[0;37m  [0;38;2;193;130;66m  [0;38;2;168;120;55m▓[0;37m [0;36mhis desire made the decision to[0;37m [0;36munmake the[0m
-        [1;38;2;203;134;65m▄▀[0m            [38;2;168;120;55m▀▀▀▀▀▀▀[0;37m  [0;38;2;193;130;66m  [0;38;2;168;120;55m▓[0;37m [0;36mclock maker''s work all the more[0;37m [0;36msatisfying.[0m
+[1;38;2;203;134;65m█[0m               [1;38;2;203;134;65m▄▀[0m   [38;2;193;130;66m [0;38;2;168;120;55m▀▀▀▀▀▀[0;38;2;193;130;66m [0;37m   [0;38;2;193;130;66m  [0;38;2;168;120;55m▒[0;37m [0;36m                                  [0;37m [0;36m      [0m
+              [1;38;2;203;134;65m▄▀[0m     [38;2;168;120;55m▐▓▓▓▓▓▓▌[0;37m   [0;38;2;193;130;66m  [0;38;2;168;120;55m▒[0;37m [0;36m                                  [0;37m [0;36m      [0m
+            [1;38;2;203;134;65m▄▀[0m        [38;2;168;120;55m▀▀▀▀▀▀[0;38;2;193;130;66m [0;37m   [0;38;2;193;130;66m  [0;38;2;168;120;55m▓[0;37m [0;36m                                   [0;37m [0;36m        [0m
+          [1;38;2;203;134;65m▄▀[0m         [38;2;168;120;55m▐███▓▓▓▌[0;37m  [0;38;2;193;130;66m  [0;38;2;168;120;55m▓[0;37m [0;36m                               [0;37m [0;36m          [0m
+        [1;38;2;203;134;65m▄▀[0m            [38;2;168;120;55m▀▀▀▀▀▀▀[0;37m  [0;38;2;193;130;66m  [0;38;2;168;120;55m▓[0;37m [0;36m                               [0;37m [0;36m           [0m
       [1;38;2;203;134;65m▄▀[0m              [38;2;168;120;55m█████▓▓[0;38;2;131;97;33m  [0;38;2;193;130;66m  [0;38;2;168;120;55m█[0;37m [0;36mHe would undo what had been done.[0m
 [1;30m    [0;1;38;2;203;134;65m▄▀[0;1;38;2;188;126;65m [0m               [38;2;168;120;55m▀▀▀▀▀▀▀[0;37m [0;38;2;193;130;66m  [0;38;2;168;120;55m█[0m
-[1;30m  [0;1;38;2;203;134;65m▄▀[0;1;38;2;188;126;65m   [0m               [38;2;168;120;55m██████▓ [0;38;2;193;130;66m  [0;38;2;168;120;55m█[0;37m  [0;36mBut how? He watched as the clock maker and[0m
-[1;38;2;203;134;65m▄▀[0;1;38;2;188;126;65m    [0m                [38;2;168;120;55m▀▀▀▀▀▀▀[0;38;2;193;130;66m   [0;38;2;168;120;55m█[0;37m  [0;36mhis wife descended from the stage to the[0m
-                     [38;2;193;130;66m [0;38;2;168;120;55m████▀▀▀[0;38;2;193;130;66m  [0;38;2;168;120;55m█[0;37m  [0;36maporetic arms of the townspeople, he watched[0m
-                     [38;2;168;120;55m▄▄▄▄▄████[0;38;2;193;130;66m [0;38;2;168;120;55m█[0;37m  [0;36mas the crowd hesitantly reached out to touch[0m
-                     [38;2;168;120;55m▐██▀▓▓███[0;38;2;193;130;66m [0;38;2;168;120;55m█[0;37m  [0;36mher as if she were something hallowed rather[0m
-                      [38;2;168;120;55m▀▄█[0;37m [0;38;2;168;120;55m▓▓█[0;38;2;193;130;66m [0;38;2;168;120;55m█[0;37m  [0;36m than the desecration of all that was holy, and[0m'
+[1;30m  [0;1;38;2;203;134;65m▄▀[0;1;38;2;188;126;65m   [0m               [38;2;168;120;55m██████▓ [0;38;2;193;130;66m  [0;38;2;168;120;55m█[0;37m  [0;36m                                          [0m
+[1;38;2;203;134;65m▄▀[0;1;38;2;188;126;65m    [0m                [38;2;168;120;55m▀▀▀▀▀▀▀[0;38;2;193;130;66m   [0;38;2;168;120;55m█[0;37m  [0;36m                                        [0m
+                     [38;2;193;130;66m [0;38;2;168;120;55m████▀▀▀[0;38;2;193;130;66m  [0;38;2;168;120;55m█[0;37m  [0;36m                                            [0m
+                     [38;2;168;120;55m▄▄▄▄▄████[0;38;2;193;130;66m [0;38;2;168;120;55m█[0;37m  [0;36m                                            [0m
+                     [38;2;168;120;55m▐██▀▓▓███[0;38;2;193;130;66m [0;38;2;168;120;55m█[0;37m  [0;36m                                            [0m
+                      [38;2;168;120;55m▀▄█[0;37m [0;38;2;168;120;55m▓▓█[0;38;2;193;130;66m [0;38;2;168;120;55m█[0;37m  [0;36m                                               [0m'

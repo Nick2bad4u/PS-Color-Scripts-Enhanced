@@ -5,7 +5,7 @@
 # Source SHA-256: 9175355e741eef043d5b6b027caa973905275a7f38392e0ed12428e3d0211ec2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EFFECTS.ANS by The Malevolent Trickster (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-66
 # Columns: 1-80
 
@@ -24,5 +24,5 @@ Write-Host '
 [1;35m▀▄▄▄▄▀ ▀▄▄▄▄▀  ▀▄▄▄▄▄▀    ▀▄▄▄▄▄▄▄▄▀ ▀▄▄▄▄▄▄▄▄▀    ▀▄▄▄▄▄▄▄▀    ▀▄▄▄▄▄▄▄▄▄▄▄▄▄▀[0m
 
 [1;30m┌[0m┐─                                                                         ─┌[1m┐[0m
-[1;30m▐[0m▌ [1mSide Effects   408∙942∙0818   Running L.S.D.  TDT West Coast Courier Home [0m▐[1m▌[0m
+[1;30m▐[0m▌ [1m                                                                          [0m▐[1m▌[0m
 [1;30m└[0m┘─                                                                         ─└[1m┘[0m'

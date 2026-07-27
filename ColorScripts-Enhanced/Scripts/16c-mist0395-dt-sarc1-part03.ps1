@@ -5,7 +5,7 @@
 # Source SHA-256: 96096a58b22994ea584504174bebe28d6800df46a60ece1ff7ad96a1e94d4e57
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-SARC1.ANS by Diamond Traveller (Mistigris); released in mist0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sarcastic Toastah!
 # SAUCE Author: Diamond Traveller
 # SAUCE Group: Mistigris
@@ -39,16 +39,4 @@ Write-Host '
       [1;30m▄[0m                                                       [1;30m▄[0m             [1;30m▄[0m [1;30m▀[0m
                       [1;36ms a r c a s t i c    t o a s t e r[0m
 [36m          [0;37m                     [0;36mo p s : [0;37m [0;1;36me e r i e [0m [36m [0;37m                           [0m
-[37m         [0;1;36m              4  1  8     8  4  9     0  1  2  1 [0;36m        [0;37m             [0m
-[37m       \-[0;1;36m afterdeath[0;36m chq [0;37m. [0;1;36mangst[0m [36mchq[0;37m . [0;1;36mart[0m [36mchq[0;37m . [0;1;36mblade[0m [36mchq [0;37m. [0;1;36mcop[0m [36mchq[0;37m -/        [0m
-[37m      \- [0;1;36mescape[0m [36mchq [0;37m. [0;1;36mkatharsis!ascii [0;36mchq [0;37m.[0;1;36m mistigris[0m [36mchq[0;37m . [0;1;36mquad-p [0;36mqhq[0;37m -/      [0m
-[37m     \- [0;1;36mrecoil[0m [36mchq[0;37m . [0;1;36msoma [0;36mchq[0;37m . [0;1;36mspastic[0m [36mchq[0;1;36m [0m. [1;36mundergrown[0;36m uhq[0;37m . [0;1;36mvoid[0m [36mnahq [0;37m-/    [0m
-[37m    \- [0;1;36memigre[0m . [1;36msuicide[0m .[1;36m revolt [0m. [1;36mteklordz [0m. [1;36mhail[0m .[1;36m paralysis  [0;36mdist site [0;37m-/   [0m
-[37m        \- [0;1;36mterbium[0m [36mmember board [0;37m. [0;1;36mtwisted fishies[0m [36martaholic aquarium[0;37m -/        [0m
-[37m            [0;1;36m                                     [0m   [1;36m     [0m
-       \- [36mcarrying[0;37m [0;1;36mspasticnet[0m . [1;36mkitschnet[0m . [1;36mscreamnet[0m . [1;36mtwingle(c)net [0m-/
-                 [36m    ... and many others elites affils!   [0;37m                     [0m
-[37m                                                                               [0m
-[37m                                                                               [0m
-[1;30m                 ugly-grey ansi[0m [1;30mby diamond traveller of mist[0m
-        [1;30mif u want a free ansi from me, u can reach me on tst or st[0m'
+[37m         [0;1;36m              4  1  8     8  4  9     0  1  2  1 [0;36m        [0;37m             [0m'

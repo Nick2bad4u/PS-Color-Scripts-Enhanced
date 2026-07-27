@@ -5,16 +5,16 @@
 # Source SHA-256: 2160db43bcb02723c80e1c2581d366f17cddcdd7fd60bcc86548c34c2c270832
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAINM.ANS by Amroth (am-sgore); released in am-sgore and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
                                 [31m▄[0m     [31m▀▌▒▒[0m
                                  [31m▀ [0;1;30m▄ [0;31m▄█▌ ▄▄[0m
-[31m [0;37m([0;31mA[0;1;30m)[0;1;37mNSi Gallery[0m                  [32m▄▀ [0;31m▒▒▀ ▀▀[0m                      [37m([0;31mQ[0;1;30m)[0;1;37mLeech List[0m
-[1;37m [0m([31mB[0;1;30m)[0;1;37mbs Listing[0m                   [32m▀[0;1;30;42m▒[0;1;30;40m▄▄▄▀▄[0m                        ([31mR[0;1;30m)[0;1;37mumors Menu[0m
-[1;37m [0m([31mC[0;1;30m)[0;1;37mhat w/Sysop[0m                  [32m▐▄[0;1;30m▀▀▄█▀   [0;31m▄[0m                    [37m([0;31mS[0;1;30m)[0;1;37mystem Stats[0m
+[31m [0;37m [0;31m [0;1;30m [0;1;37m           [0m                  [32m▄▀ [0;31m▒▒▀ ▀▀[0m                      [37m [0;31m [0;1;30m [0;1;37m          [0m
+[1;37m [0m [31m [0;1;30m [0;1;37m          [0m                   [32m▀[0;1;30;42m▒[0;1;30;40m▄▄▄▀▄[0m                         [31m [0;1;30m [0;1;37m          [0m
+[1;37m [0m [31m [0;1;30m [0;1;37m           [0m                  [32m▐▄[0;1;30m▀▀▄█▀   [0;31m▄[0m                    [37m [0;31m [0;1;30m [0;1;37m           [0m
 [1;37m [0m([31mD[0;1;30m)[0;1;37matabase[0m                       [32m▀▀[0;1;30m▀▀▄▒  [0;31m▀ ▐▄    ▄█ ▄[0m          [37m([0;31mT[0;1;30m)[0;1;37mransfer Menu[0m
 [1;37m [0m([31mE[0;1;30m)[0;1;37mmail Menu[0m               [31m▒▒▒    [0;1;30m▀██▀░░ [0;33m▄▄▄[0;31m▀█▄▓▓▓▌ ▀▌[0m         [37m([0;31mU[0;1;30m)[0;1;37mTime Bank[0m
 [1;37m [0m([31mF[0;1;30m)[0;1;37meedback[0m         [31m▄▀   ▄▓▓▓▓ [0;33m▄████▄ ▄▄▓▓▓▀██▄[0;31m▒▒[0;33m▄▄[0;31m▀[0m            [37m([0;31mV[0;1;30m)[0;1;37moting Booth[0m

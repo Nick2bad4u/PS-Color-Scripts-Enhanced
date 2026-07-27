@@ -5,7 +5,7 @@
 # Source SHA-256: a6d21f9840a8e9e3f973159d752ab13957b460a4890f0a8d2c0d79452d725c62
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ-DL!.ANS by fastjack (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: go!entry "dreamland"
 # SAUCE Author: fastjack
 # SAUCE Group: boil
@@ -40,4 +40,4 @@ Write-Host '
 
 
 [1;30m------------------░░---------------▓-----------(Go!entry)-----------------------[0m
-my entry phor german!only compo #4, ranked 3rd place =)          [1;30mfastjack^boil ░[0m'
+                                                                 [1;30m              ░[0m'

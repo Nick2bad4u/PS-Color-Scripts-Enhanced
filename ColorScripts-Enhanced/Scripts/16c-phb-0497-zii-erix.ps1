@@ -5,7 +5,7 @@
 # Source SHA-256: feac031713e5b8df1a1ee3340e75319a45467e22c4c4ed1fe98c9c8166ed8bb5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-ERIX.ANS by Zeus II (guest artist); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: erix makbakon
 # SAUCE Author: Zeus II
 # SAUCE Group: guest artist
@@ -35,31 +35,4 @@ Write-Host '
           [1;33m▐[0;1;37m███[0;1;33m▀▀[0m   [1;33m▄▄▄[0;1;37m██[0;1;33m██[0m    [1;33m█▀▀█[0;1;37m██[0;1;33m█▄█[0;1;37m███[0m  [1;33m▀███[0;1;37m██[0;1;33m█▌[0m     [1;33m▐[0;1;37m███[0;1;33m▌[0m
            [1;33m█[0;1;37m██[0;1;33m▌  [0m  [1;33m▐█[0;1;37m████[0;1;33m▌[0m       [1;33m▐[0;1;37m███[0m [1;33m█[0;1;37m███[0m   [1;33m▐[0;1;37m██████[0;1;33m▄[0m   [1;33m▄[0;1;37m██[0;1;33m▀▀[0m
             [1;33m▀▀█▄[0m  [1;33m▄█[0;1;37m█████[0;1;33m█[0m       [1;33m▀▀▀▀[0m [1;33m▀▀▀▀[0m   [1;33m█[0;1;37m███[0;1;33m ▀▀▀▀▀ [0m
-                 [1;33m▀▀▀▀[0m            McBACON
-
-
-
-            har faktiskt aldrig smakat den själv.. men min brossa har.
-            han sa att den var god. här följer De Ultimata Hemliga Reglerna
-            För Att Känna Igen En AnsiPojke (DoodleBoy) På McDonalds
-            (DUHRFAKIEAP(DB)PMD).
-
-            1. beställ en big mac o company med plusmeny, plus den hemliga
-            ingrediensen: Dipsås Majonnäs.
-
-            2. ta ett bord och hämta 6 pepparpåsar och två pappersgrejer
-            som du fyller halvvägs med ketchup.
-
-            3. kläm i såpass mycket majonnäs i den ena pappersgrejen att det
-            går upp till kanten. Sen letar du upp den hårdaste stripsen i
-            påsen och rör om. Ibland får man ta två eller tre strips, för de
-            går sönder så förbaskat lätt. Sen tillsätter du 3 påsar peppar
-            under omrörning.
-
-            4. Hurra! Du har gjort den hemliga kod-sörjan som vi ansipojkar
-            (doodleboys) känner igen varandra med! Denna doppar du dina strips
-            i o njuter samtidigt som du ser tuff ut på ett naturligt sätt.
-            Ifall du är osäker på om nån har rätt sörja kan du smyga fram med
-            en strip o smaka på den när han tittar bort eller nåt. Tjoflöjt!
-
-            /Zeus II! Gäst Artist![0m'
+                 [1;33m▀▀▀▀[0m            McBACON[0m'

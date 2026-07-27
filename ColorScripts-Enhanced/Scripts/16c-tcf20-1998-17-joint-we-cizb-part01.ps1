@@ -5,7 +5,7 @@
 # Source SHA-256: 7d393ab0775dd41c4bcf6a467ac0410b005a91aa2d156eaae47b8677d16da94c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 1998 - 17 - Joint - WE-CIZB.ANS by multiples (legion); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the city iz burning
 # SAUCE Author: multiples
 # SAUCE Group: legion
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[34mall original lo-rez action because we love you.  be careful, it bites.[0m
+[34m                                                                      [0m
 
 
 

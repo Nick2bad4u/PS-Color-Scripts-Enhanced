@@ -5,7 +5,7 @@
 # Source SHA-256: f71cfed965df49800ce8cca699806b18e4b4b97358c444ffad9d6494ed540116
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KJ-TENTA.ANS by kracker jack (sk1sm); released in skism-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Purple Tentacle !@
 # SAUCE Author: kracker jack
 # SAUCE Group: sk1sm
@@ -38,11 +38,4 @@ Write-Host '
              [32m█[0;1;32;42m▒▓██▓██ [0;32m▀▀▄▄▄▄▄▄▄███▀[0m        [32m [0;37m [0;32m ▀▄▀▄▌ [0;1;32;42m░[0;32m   [0;1;32;42m░[0;32m  [0;1;32;42m▒[0;32m [0;37m [0;32m  [0;1;32;42m░[0;32m  ▐▌[0;37m [0;32m ▐▌[0m
              [32m▐[0;1;32;42m ▒[0;1;32;40m█[0;1;32;42m▀[0;32m█▀▀[0m                      [32m     [0;37m [0;32m [0;37m [0;32m ▐▄▄▄[0;1;32;42m▒[0;32m [0;37m [0;32m [0;37m [0;32m   ▐▌  ▀▀▀▀▀[0m
               [32m██[0;1;32;42m▀[0;32m█[0m
-              [37m [0;32m▀▀[0m
-[1;35m---<cut me oh yeah>---[0m
-[1;35mmuch better than i ever intended...skism23liner...i got this from Day of the [0m
-[1;35mtentacle - one of the greatest games ever made..and yes [0m
-[1;35mSKISM IS TAKING OVER THE WORLD![0m
-
-
-                 [32m  [0m'
+              [37m [0;32m▀▀[0m'

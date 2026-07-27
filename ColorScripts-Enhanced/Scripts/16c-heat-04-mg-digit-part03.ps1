@@ -5,7 +5,7 @@
 # Source SHA-256: 66e7c8531aad0ddcd61305e6a2008570293a78e53c8f2d94af538866d9396d28
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MG-DIGIT.ANS by Magnus (heat-04); released in heat-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 100-145
 # Columns: 1-80
 
@@ -41,15 +41,15 @@ Write-Host '
         [1;30;44m██[0;1;30;40m▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄[0;1;30;44m▓▒[0m [1;30;44m█[0;1;30;40m█▄▄▄▄▄▄▄ [0;1;30;44m██[0m       [1;30;40m██ ██[0m          [1;30;44m██[0;1;30;40m▄▄▄▄▄▄▄▄[0m
 
 
-                               [1;37;40mDigital Escape[0m
+                               [1;37;40m              [0m
                                 216-655-5367
 
  [1;31;41m░░▒░░░▒▒▓█▓▒░░░░░▒▓▒░░░░░▒▒▓█▓▓▒░░░░[0;31m█▀█[0;1;31;41m░░░░░░[0;31m▀[0;1;31;41m░░░▒▒▒▒▒▒░░░░░▒▒▒▒▒▒▒▒░░░░▒▒[0m
 [1;31;40m [0;1;31;41m▒▒▒▒▒[0;31m▌▀[0;1;31;41m░▒▓▒[0;31m▀▀ ▀▀▐[0;1;31;41m░▒░[0;31m▀▀  ▀[0;1;31;41m░▒▒▓▒▒░[0;31m▀▀▀   ▐█[0;1;31;41m░░[0;31m▀▀  ▀▀[0;1;31;41m░░░░░░░░[0;31m█▀▀[0;1;31;41m░░░░░░░░░[0;31m▀[0;1;31;41m░░▒▒▓[0m
 [1;31;40m [0;1;31;41m▒▓▓▒[0;31m█[0m            [31m▀▀[0m        [31m▀▀▀[0m         [31m▀▀[0m          [31m▀▀▀▀[0m      [31m▀▀▀▀▀   ▐[0;1;31;41m░▒▓█[0m
-[1;31;40m [0;1;31;41m▒▒▒░[0;31m▌   [0;1;30mLethal Net Node · SkeletalNet State Headquarters · BlitzMail [0;1;31;41m░░▒▓█[0m
-[1;31;40m [0;1;31;41m▒░░░[0m            [1;30;40mCrimsonNet Node · 500 Megs of 0-7 Day Old[0m            [31m▐[0;1;31;41m░░▒▓[0m
-[1;31;40m [0;1;31;41m░░ [0;31m▌[0m       [1;30mNUP: Abstract · All Long Distance Callers: No Ratio[0m        [31m▀[0;1;31;41m░░▒[0m
+[1;31;40m [0;1;31;41m▒▒▒░[0;31m▌   [0;1;30m                                                             [0;1;31;41m░░▒▓█[0m
+[1;31;40m [0;1;31;41m▒░░░[0m            [1;30;40m                                         [0m            [31m▐[0;1;31;41m░░▒▓[0m
+[1;31;40m [0;1;31;41m░░ [0;31m▌[0m       [1;30m                                                   [0m        [31m▀[0;1;31;41m░░▒[0m
 [1;31;40m [0;31m█[0;1;31;41m░▒░[0;31m▄[0m                                                                  [31m▄[0;1;31;41m░▒[0m
 [1;31;40m [0;31m▐[0;1;31;41m▒▓▒░[0;31m▌[0m                  [1;30mANSi by Magnus [0;1;32m[[0;32mH[0;1;30mEA[0;32mT[0;1;32m][0m                         [31m▐[0;1;31;41m░[0;31m█[0;1;31;41m░[0m
 [1;31;40m  [0;31m▀[0;1;31;41m▒░[0;31m▀[0m                                                                  [31m▀▐[0;1;31;41m░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 5321bf359270d5c3d8fab208af493a1df939a4ce3517c75d899356851ab4b344
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: J33-imp2.ans by j33p33 (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Impure #2
 # SAUCE Author: j33p33
 # SAUCE Group: Revival 2002
@@ -28,6 +28,4 @@ Write-Host '
      [1;33m [0;35m▄▄[0;1;35;45m [0;1;33;40m  [0;1;35;45m▀▀▀▌░ [0;35m█▀▀█[0;1;30;45m▄[0;35m██▄█▀██[0;1;35;45m █▌[0;35m▌[0m      [35m▐[0;1;35;45m░░[0;35m███▀▀▄▄█[0;1;30;45m▄[0;35m█[0;1;35;45m░[0;35m  ██[0;1;35;45m▐    [0;35m [0m      [37mj33p33[0m
      [30;47m▓[0;1;30;40m█[0;1;33;40m [0;35m▀[0;1;33m [0;30;45m█░[0;1;35;45m▀[0;35m█[0;1;35;45m [0;35m▀▀▀[0;1;33m [0;35m █[0;30;47m▓[0;37;40m░[0;1;30;40m▀[0;35m▀[0;1;30;45m▄[0;35m██████[0;30;45m▓[0m     [30;47m██[0;1;30;40m█[0;35m██▄██[0;1;30;45m▄[0;35m▀[0;1;30m▀[0;35m  ██[0;30;45m▓▓░[0;35;40m███[0;1;35;45m [0;35m█▀▀█[0;1;33m [0;35m  [0m
      [37m░[0;1;30m█▄▄[0;35m▄[0;1;30m▄[0;35m▄█▌▀▀▀▀▀▀▀    [0;1;33m  [0;1;30m▀[0;35m▀[0;1;30;45m▄ [0;35m▌[0m        [1;30m▐█[0;1;30;45m▄[0;35m▀[0;1;30m▀[0;35m      [0;37m░[0;30;47m▓[0;1;30;40m▀▀▀▐█▄[0;35m▄[0;1;30m▄[0;35m▄▄█   [0m
-                             [30;45m██[0m
-[1;33;40m                                                 [0m
-[1m [0m      [1mwhoa, thats pretty fucked up, i swear, i did not take any drugs         [0m'
+                             [30;45m██[0m'

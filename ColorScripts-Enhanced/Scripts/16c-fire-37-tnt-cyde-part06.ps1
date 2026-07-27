@@ -5,7 +5,7 @@
 # Source SHA-256: e2d06ed22c6d9470e3ea2bfb844a43583f811ce69ea319a685d7c0ae53fa5803
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-CYDE.ANS by tainted (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the pharcyde
 # SAUCE Author: tainted
 # SAUCE Group: fire
@@ -58,7 +58,4 @@ Write-Host '
                                 [1;38;2;87;87;87;48;2;0;0;0m░[0m                 [38;2;171;171;171;48;2;0;0;0m▀███▀[0m
                                                     [38;2;171;171;171;48;2;0;0;0m▀[0m
 
-                  [1;38;2;255;255;255;48;2;0;0;0mt   h   e[0m      [1;38;2;255;255;255;48;2;0;0;0mp   h   a   r   c   y   d   e[0m
-
-                           [1;38;2;255;255;255;48;2;0;0;0mtelnet[0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;87;48;2;0;0;0m| [0;38;2;171;171;171;48;2;0;0;0mbbs.pharcyde.org[0m
-                               [1;38;2;255;255;255;48;2;0;0;0mop[0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;87;48;2;0;0;0m| [0;38;2;171;171;171;48;2;0;0;0maccess denied[0m'
+                  [1;38;2;255;255;255;48;2;0;0;0mt   h   e[0m      [1;38;2;255;255;255;48;2;0;0;0mp   h   a   r   c   y   d   e[0m'

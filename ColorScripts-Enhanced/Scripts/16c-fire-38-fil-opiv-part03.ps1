@@ -5,7 +5,7 @@
 # Source SHA-256: 67940ddeef561ae86868ecc9dabcfb2e78188f1dcced16d11937932c95592ef0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-OPIV.ANS by filth (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 924 Gilman St.
 # SAUCE Author: filth
 # SAUCE Group: FiRE
@@ -49,10 +49,8 @@ Write-Host '
 
 [35m░░░░░░░░░░░░░░░░░░░░░░░[0;37m [0;1;36m0PERATi0N iVY [0;35m///[0;1;36m S0METHiNG MENU[0m [35m░░░░░░░░░░░░░░░░░░░░░░░[0m
 
-[37m  [0;1;37ma[0m.[1;36mc[0;36mo[0;35mmmand[0m       [1;37md.[0;1;36mm[0;36my[0;35meonglyeong    [0;1;37mg.[0;1;36mp[0;36mo[0;35mlecenia[0m      [1;37mj.[0;1;36mc[0;36mo[0;35mmanda[0m      [1;37mm.[0;1;36mp[0;36ma[0;35mrancs[0m
-[37m  [0;1;37mb[0m.[1;36mk[0;36mo[0;35mmmando[0m      [1;37me.[0;1;36mp[0;36me[0;35mrintah[0m        [1;37mh.[0;1;36mk[0;36mo[0;35mmmandont[0m     [1;37mk.[0;1;36mp[0;36mr[0;35mikaz[0m       [1;37mn.[0;1;36mb[0;36me[0;35mfehl[0m
-[37m  [0;1;37mc[0m.[1;36mc[0;36mo[0;35mmmande[0m      [1;37mf.[0;1;36mk[0;36mo[0;35mmmandoen[0m      [1;37mi.[0;1;36mk[0;36mo[0;35mmuta[0m         [1;37ml.[0;1;36mk[0;36mo[0;35mmand[0m       [1;37mo.[0;1;36mm[0;36mi[0;35mngling[0m
+[37m  [0;1;37m [0m [1;36m [0;36m [0;35m     [0m       [1;37m  [0;1;36m [0;36m [0;35m              [0;1;37m  [0;1;36m [0;36m [0;35m       [0m      [1;37m  [0;1;36m [0;36m [0;35m     [0m      [1;37m  [0;1;36m [0;36m [0;35m     [0m
+[37m  [0;1;37m [0m [1;36m [0;36m [0;35m      [0m      [1;37m  [0;1;36m [0;36m [0;35m      [0m        [1;37m  [0;1;36m [0;36m [0;35m        [0m     [1;37m  [0;1;36m [0;36m [0;35m    [0m       [1;37m  [0;1;36m [0;36m [0;35m    [0m
+[37m  [0;1;37m [0m [1;36m [0;36m [0;35m      [0m      [1;37m  [0;1;36m [0;36m [0;35m        [0m      [1;37m  [0;1;36m [0;36m [0;35m    [0m         [1;37m  [0;1;36m [0;36m [0;35m    [0m       [1;37m  [0;1;36m [0;36m [0;35m      [0m
 
-[1;30m═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=[0m
-
-     [1;30moPERATI0N iVY [0;35m/[0;1;30m mENU wHATHAVEYOU''S: pART oNE[0m [35m/[0;1;30m [0;1;35mfILTHY[0;35m /[0;1;30m fIRE 2O23[0m'
+[1;30m═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=[0m'

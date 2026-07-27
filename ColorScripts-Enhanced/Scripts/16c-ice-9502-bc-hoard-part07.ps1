@@ -5,7 +5,7 @@
 # Source SHA-256: 07d198d4819510c31210993466ab292bdace13796caea2d51b40b763521a4709
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-HOARD.ICE by BodyCount (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hoard Magazine
 # SAUCE Author: BodyCount
 # SAUCE Group: iCE
@@ -55,9 +55,4 @@ Write-Host '
       ▐[1;47m▐[0;1;40m█▌[0m   ▐[1;47m▐[0;1;40m█▌[0m    █[1m██[0m [1m   [0m ▄[1m▄[0;1;47m▄[0;1;40m█[0m    ▀          █[1m██[0m     [1m [0m  █[1m█▄▄[0m   [1m [0m [1;47m [0;1;40m██[0m
        ▀[1;47m▀[0;1;40m█▄[0m ▄[1;47m▄[0;1;40m█▀[0m  ▄[1m▄▄[0;1;47m▄[0;1;40m██[0m [1;40m [0m [1;47m [0;1;40m███▀[0m   ▐[1;47m▐[0;1;40m█▌[0m       [1m▓[0m █[1m██▄▄▄[0m  [1m  [0m  ▀[1;47m▀[0;1;40m███ [0m ▄[1;47m▄[0;1;40m██[0m
          ▀[1m▀▀▓[0m        ▀[1m▀[0;1;47m▀[0;1;40m▌[0m [1;40m▓▀▀[0m  [1;40m [0m    ▀[1;47m▀[0;1;40m█▄▄[0m  [1m▄▄▀ [0m▐[1;47m▐[0;1;40m▀▀[0m     [1;40m  [0m     ▀[1m▀▓[0m  ▀[1m▀[0;1;47m▀[0;1;40m▌[0m
-                        ▀             [1m [0m▀[1m▀▀▀  [0m  ▀        [1m [0m              ▀
-
-[1;37m         [0m              A[1mNSI [0mB[1my [0mB[1modyCount <[0mi[1mCE.[0mW[1mhOREd>[0m
-[1;37m                                                                               [0m
-         [1;37m   [0m     [1;37m".. [0mA[1min''t [0mN[1muthin'' [0mB[1mut [0mA[1mn [0mi[1mCE [0mT[1mhang, [0mB[1maby!"[0m                  [1;30m  [0m
-         [1;37m  [0m'
+                        ▀             [1m [0m▀[1m▀▀▀  [0m  ▀        [1m [0m              ▀[0m'

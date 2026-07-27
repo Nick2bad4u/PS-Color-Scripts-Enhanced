@@ -5,7 +5,7 @@
 # Source SHA-256: 3b9128cd894e9c6d17278e8802fd3c9d1ff8fb3c9df964fd008c51de6b6164cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-DA1.ANS by Chromatik (Blade Productions); released in blde9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digital Abyss
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -48,8 +48,8 @@ Write-Host '
 [1;30m█▓[0m [1;30m▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▓▀▀▀▀▀▀[0m [1;30m▀▀▀▀▀▓▀▀▀▀[0m [1;30m▀▀▀▀▀▀▓▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▓▀▀▀▀▓▀▀▀▀[0m [1;30m▓▀▀▓█[0m
 [1;30m▓  [0m▄▄█▓█▄▄[1;30m     [0m            [1;30m- 1 2 0 %  o r i g i n a l . =) -       [0m [1;30m▒[0m         [1;30m▓[0m
 ▄██████████▄[34m [0;1;30m▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄[0m
-▀█[30;47mchromatik.[0;37;40m█[0;1;30;40m my most creative yet, eh? =) worth more than 10, Crisis! =)[0m     [1;30;40m▓[0m
-[36m [0;37m▓▀▀▓███████▓[0;1;30m comments or suggestions? email me on blade whq. thanks... -ck.[0m [1;30m-▀[0m
+▀█[30;47m          [0;37;40m█[0;1;30;40m                                                            [0m     [1;30;40m▓[0m
+[36m [0;37m▓▀▀▓███████▓[0;1;30m                                                               [0m [1;30m ▀[0m
 [1;30m█▀▀▀▓ ▀[0m▓▀█▓▀ [1;30m▀▀▀▀▀▀▀▀▓▀▀▀▀▀▓,▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0m
 [1;30m▓              - b l a d e   p r o d u c t i o n s   i 9 9 5 -     [0m [1;30m▒[0m         [1;30m▓[0m
 [1;37m░[0;1;30m▓[0m [1;30m▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▓▄▄▄▄▄▄[0m [1;30m▄▄▄▄▄▓▄▄▄▄[0m [1;30m▄▄▄▄▄▄▓▄▄▄▄▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄▓▄▄▄▄▓▄▄▄▄[0m [1;30m▓▄▄▄█[0m'

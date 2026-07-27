@@ -5,7 +5,7 @@
 # Source SHA-256: f12b2c9305b33fa912d0574694b5c015aafb280b638c59226be37698ff7daf57
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG!GASCH.ANS by rage (opium); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gas chamber
 # SAUCE Author: rage
 # SAUCE Group: opium
@@ -50,5 +50,5 @@ Write-Host '
 [35m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░[0;37m  [0;1;34m░▒[0m         [34m▄[0m   [35m░░▒▒░░[0m   [35m░░▒░░[0;37m [0;34m▄[0;37m [0;35m░░▒▒░░░░░ [0m      [1;34m░[0m [35m░░░░░▒▒[0m
 [35m░░░░░░░░░░░░░░░░░░░░░░[0;37m  [0;1;34m░[0m [35m░  ░ ░░   ░░░░░░░░░░░░░░░░   ░░░░░░░░░░░░░░░   ░░░░░░░[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-                   ansi by [1mrage[0m of [1mopium graphics[0;1;30m,[0m [1m1997[0m
+                           [1m    [0m    [1m              [0;1;30m [0m [1m    [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

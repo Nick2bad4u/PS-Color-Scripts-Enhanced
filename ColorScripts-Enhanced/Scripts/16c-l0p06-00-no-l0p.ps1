@@ -5,7 +5,7 @@
 # Source SHA-256: 56f5f4d48a603a7b009ac9fcc0cda9928ea03557dadb8a0e7d58b74aa5f9eb16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NO!L0P.ANS by noches (thelo0p); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lop
 # SAUCE Author: noches
 # SAUCE Group: thelo0p
@@ -36,8 +36,4 @@ Write-Host '
 [1m$$$$[0m  [1m$$$[0ml[1;31m [0m    [1ml$$[0;1;36;47m☻☻☻[0;1;36;40m☻[0;1;37;40m$[0m     [1m$$$☻[0m
 [1m?$$$b┌?$$$b[0m,.,[1md$$$?$$$$[0m..,[1m┌d$$$[0m$
  `[1m┘/S$[0m `┘[1m/S$$$S\┘[0m` [1m$$$$[0m^^^^^^^^^ [1;30mno[0m
-           ```
-[1;30mnoches (thelo0p)[0m
-
-[1;30mnoches@poczta.onet.pl [0m
-[1;30mfree request![0m'
+           ```[0m'

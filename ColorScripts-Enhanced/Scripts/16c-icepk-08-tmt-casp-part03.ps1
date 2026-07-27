@@ -5,7 +5,7 @@
 # Source SHA-256: 4f45fb9838db8503a1686aed0c47be0d2fc8975f55975e932f2fc15f5fd3df1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TMT-CASP.ICE by The Malevolent Trickster (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 101-146
 # Columns: 1-80
 
@@ -50,8 +50,8 @@ Write-Host '
            [34m▀██▀ ████▄▄[0m     [34m▀█▄ [0;37m▐███▀[0m       [34m███████[0m      [34m▀▀  [0;1;30m▀▀ [0;34m▄▄▄▄▄▄▄▄ [0;37m▀▀█[0m
             [34m▀  ▀▀   ▀▀█[0m     [34m▐██ [0;37m█▀[0m                        [34m▄███▀▀▀▀▀██████▄[0m
       [1;37mAN[0mS[1;30mi[0;1;37m:[0m                 [34m██▀[0m                                       [34m▀█▀[0m
-[34m  [0;1;37mThe Malevolent[0m           [34m▀[0m
-[34m    [0;1;37mTrickster[0m
+[34m  [0;1;37m              [0m           [34m▀[0m
+[34m    [0;1;37m         [0m
 [1;37m    [0;1;30m[[0;1;37mi[0;1;36mC[0;1;34mE[0;1;30m]([0mtm[1;30m)    [0;1;37m▀▀▀▀[0;1;37;47m▓[0m  [1;37;40m▀▀▀▀▀  ▀▀▀▀[0;1;37;47m▓[0m  [1;37;47m▀[0m  [1;37;47m▀[0m     [1;37;40m▀▀▀▀[0;1;37;47m▓[0m  [1;30;47m▓[0m   [1;37;47m▓[0m  [1;37;40m▀▀▀▀[0m
 [1;37;40m  [0;1;30;40mAd[0mve[1mrtism[0men[1;30mts  [0;1;30;47m░[0m ▄▄[1;47m▒[0m  █▄▄    [1;30;47m░[0m ▄▄[1;47m▒[0m  [1;30;47m░[0m  [1;30;47m░[0m     [1;30;47m▓[0m   [1;37;47m▒[0m  [1;30;47m▒[0m   [1;37;47m▒[0m  █▄▄▄
                  [1;30;47m▒[0m      [1;30;47m░[0m      [1;30;47m▒[0m  ▀▄  [1;30;47m▒[0m  [1;30;47m▓[0m     [1;30;47m▒[0m   [1;37;47m░[0m  [1;30;47m░[0m   [1;37;47m░[0m     [1;30;47m░[0m

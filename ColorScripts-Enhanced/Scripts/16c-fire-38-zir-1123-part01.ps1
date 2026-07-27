@@ -5,7 +5,7 @@
 # Source SHA-256: d425c79595a9a96280bb4ac43b5966b5048d713f75c77630e5718978251057f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-1123.ANS by zir (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: october 23 font collage
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -17,17 +17,17 @@
 
 Write-Host '
 [37;40m  [0;31;40m░░░░░░░░░░░[0m
-[37;40m [0;1;34;40m░[0;31m▓▐[0;30;41m▌▌▌[0;1;35;41m░[0;1;31;41m░░23[0;31m▓[0;34m░[0;37m october''s font collage, short but sweet, does not, in this case,[0m
-[37m [0;1;34m░[0;31m▄▐▄▄[0;30;41m█[0;1;35;41m▄[0;30;41m▀[0;31;40m▐[0;30;41m▀█[0;31;40m▌[0;34;40m░[0;37;40m accurately describe the human mind in the final moments of life,[0m
-[37;40m [0;1;34;40m░[0;31m▄[0;30;41m▌▄[0;37;40m [0;31;40m▓[0;30;41m█▌█▀▄▐[0;34;40m░[0;37;40m but instead, advertise two things that exist in fact, and one[0m
-[37;40m [0;1;34;40m░[0;31m▀[0;37m  [0;31m▀▀[0;37m [0;31m▀[0;37m [0;31m▓[0;30;41m█[0;31;40m■[0;34;40m░[0;37;40m which does not. or maybe i reversed that. maybe all of these[0m
-[37;40m [0;1;34;40m░[0;31m▀[0;30;41m▌[0;1;31;41mzir[0;31m▌[0;1;31;41mfire[0;31m▒[0;34m░[0;37m logos represent entities in the actual lived world. or have, but[0m
-[37m [0;1;34m░[0;31m▄▄▄█▄▄▄█▄▄■[0;34m░[0;37m do not anymore. or will. anyway who named you time-lord?[0m
+[37;40m [0;1;34;40m░[0;31m▓▐[0;30;41m▌▌▌[0;1;35;41m░[0;1;31;41m░░  [0;31m▓[0;34m░[0;37m                                                                 [0m
+[37m [0;1;34m░[0;31m▄▐▄▄[0;30;41m█[0;1;35;41m▄[0;30;41m▀[0;31;40m▐[0;30;41m▀█[0;31;40m▌[0;34;40m░[0;37;40m                                                                 [0m
+[37;40m [0;1;34;40m░[0;31m▄[0;30;41m▌▄[0;37;40m [0;31;40m▓[0;30;41m█▌█▀▄▐[0;34;40m░[0;37;40m                                                              [0m
+[37;40m [0;1;34;40m░[0;31m▀[0;37m  [0;31m▀▀[0;37m [0;31m▀[0;37m [0;31m▓[0;30;41m█[0;31;40m■[0;34;40m░[0;37;40m                                                             [0m
+[37;40m [0;1;34;40m░[0;31m▀[0;30;41m▌[0;1;31;41m   [0;31m▌[0;1;31;41m    [0;31m▒[0;34m░[0;37m                                                                 [0m
+[37m [0;1;34m░[0;31m▄▄▄█▄▄▄█▄▄■[0;34m░[0;37m                                                         [0m
 [37m [0;1;34m░[0;34m░░░░░░░░[0;37m [0;34m░░[0m
-                            [37mzir of fire graphix 2023[0m
+                            [37m                        [0m
 
 
-[37m [0;1;30m▌[0m█►[30;47m►ZIR-3V0K.ANS[0;37;40m►[0;30;47m►[0;37;40m►[0m                              [37;40mmy submission for evoke 2023.[0m
+[37m [0;1;30m▌[0m█►[30;47m►            [0;37;40m►[0;30;47m►[0;37;40m►[0m                              [37;40m                             [0m
 [37;40m [0;1;30;40m░░[0m [1;30m░░░░░░░░░[0m [1;30m░░░[0m [1;30m░[0m
 [1;30m--------------------------------------------------------------------------------[0m
  [1;30m█[0;1;37;47m▄▄█[0m▐[1;30;47m▌[0;1;37;47m▐█[0;1;30;47m▐[0m [1;30;47m▌[0;1;37;47m▄██▀[0;1;30;47m▄▄[0m▐[1;47m█▌█▌[0m ▄[1;47m▄██[0;1;30;40m░▐[0;1;37;47m▄▄█[0m▐[31m░▐[0;35;41m▄[0;31;45m▀[0;1;35;45m░░░░[0;35;41m▐[0;31;45m▀[0;31;40m▓░ [0;34;40m░[0;1;30;40m[[0m3|/0|<3[1;30m][0;34m░[0;37m  [0;31m▄[0;31;45m▀▀[0;1;35;45m░░░[0;35;41m▄[0;31;40m▓░ [0;37;40mzir[0;1;30;40m/[0mfire[1;30m![0m
@@ -55,5 +55,4 @@ Write-Host '
        [34m▀███▄[0m      [34m░▄██[0;35;44m░[0;34;40m▀[0;31;40m███████[0;35;41m▐[0;35;44m█▓░[0;34;40m█■▒[0;31;40m████[0;1;31;41m [0;31;45m▀[0;35;40m█[0;35;44m▌░░[0;34;40m▀░ ░[0;37;40m   [0;34;40m░░ [0;1;37;40m▄[0;1;37;47m▀[0;1;30;47m▄[0;1;30;40m▀▐[0;1;37;47m░[0;1;30;47m▐[0m [1;30;47m▌[0;1;37;47m▌[0;1;30;40m▌[0m▄[1;47m▀[0;1;30;47m▄[0;1;30;40m▀░░▀▀[0;1;37;47m▀[0;1;30;47m▐[0m
 [34m ░░░░░░░[0;37m [0;34m▀▀▌▌█▄▄▄███▀▀[0;30m █[0;31m▐██▀▀▀  [0;30m█[0;34m▀▀█[0;35;44m░░[0;31;45m▀▀▀  [0;35;40m██[0;35;44m▓[0;34;40m▀[0m          [1;30;47m▌[0;1;37;47m▓[0;1;30;40m▀[0m [1;30m░░[0;1;37;47m [0;1;30;47m▐[0m [1;30;47m▌[0m█[1;30;47m▌[0;1;37;47m░[0;1;30;40m▀[0m [1;30m▐[0;30;47m■■[0;37;40m█[0;1;30;40m▌[0;1;37;47m░[0;1;30;47m▐[0m
  [1mevoke[0m 2023 [1;30m[[0mAbenteuerHallenKALK Cologne[1;30m][[0m2023[1;30m.[0mevoke[1;30m.[0meu[1;30m]▐[0;1;30;47m▌[0;1;37;47m [0m█[1;30;47m▌▐[0;1;30;40m▌▀[0;1;30;47m▄▐▐[0;1;30;40m▀[0;1;30;47m▌[0;1;37;47m [0m█[1;30;47m▐▐[0;1;30;40m▐[0m██▄█[1;30;47m▐[0m
-[1;30m--------------------------------------------------------------------------------[0m
-'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 07f203a7fdfc3134b2958ff9ab77c89521ebeaf8c770708907738cab060297c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PX-SPLIT.ANS by perplexer (pharazoone); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: split second login picture
 # SAUCE Author: perplexer
 # SAUCE Group: pharazoone
@@ -46,7 +46,7 @@ Write-Host '
 [1;30m█ [0;1;32m██████[0;1;32;47m▒[0;1;32;40m▌▐█▄█▀▄█▀■  [0;1;33;40m▀   [0;1;32;40m■▀      [0;1;37;40m▌[0;34m▐█▀██ ▐▄███▓ ██▌[0;1;37m▐██ ▌[0;34m▐███   ██▀[0;1;37m▄█ ▌[0;34m▐█▄▌[0;1;37m▐  [0;34m▐█▀█[0m
 [1;30m██▄ [0;1;32m▀▀█▄[0;1;32;47m▓[0;1;32;40m████▄▀█▀█▄    ▄■        [0;1;37;40m▀[0;34m▄██▀  [0;1;37m▄[0;34m▀▓ ▀█         ███▄▀ ██▓█▄[0;1;37m▀ ▀[0;34m▄▓█▄▄ ▄█▄█▄[0m
 [1;30m██▀▀■    [0;1;32m▀ ▀ ▀■   ▀■ ░           [0;34m▀▀▀▀▀▀ [0;1;37m▀▀ ▀ [0;34m▀        ▀▀▀▀▀  ▀▀▀▀▀▀ ▀▀▀▀▀▀ ▀▀▀▀▀[0m
-[1;30m█▌ [0;1;37mStaff: Boss: Junkie<RTM> Co:Humhum... Ansi: Doctor Gormey & Perplexer<RTM>[0;30m   [0m
+[1;30m█▌ [0;1;37m                                                                          [0;30m   [0m
 [1;30m█▄▄ ▄   ▄                             [0;1;34m▄███▄▄▄[0;30m                                   [0m
 [1;34m                                     ▐███[0;1;34;44m▓▓▓[0;1;34;40m███▄[0;30m                                [0m
 [1;37m█[0;1;37;47m█▓▀▓[0;1;37;40m▀[0m███▀     [1mF[0mil[1;30ml [0;1;37mI[0m''n[1;30ms              [0;1;34m█[0;1;34;44m▓▓▒▒[0;1;34;40m▀▀ ▄▄▄         [0;1;37;40mI[0mnf[1;30mo [0;1;37mthi[0mng[1;30mies[0;30m         [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 40be0219f1568c8f175f0b57f48cc6bd8f78e1f4d58be32e1e15c2b0759e2db4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-DEMEN.ANS by Silver Dagger (lacidus5); released in lacidus5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -36,6 +36,4 @@ Write-Host '
                [33;45m▄▄[0m              [33;45m▄[0m   [33;45m▄[0m         [33;45m▄[0m   [33;45m▄[0m
                [33;45m▄▄▄▄▄▄▄[0m         [33;45m▄[0m   [33;45m▄[0m         [33;45m▄[0m   [33;45m▄[0m
 
-[1;30;40m--------------------------------snip snip---------------------------------------[0m
-
-[1;30m    [0m'
+[1;30;40m--------------------------------snip snip---------------------------------------[0m'

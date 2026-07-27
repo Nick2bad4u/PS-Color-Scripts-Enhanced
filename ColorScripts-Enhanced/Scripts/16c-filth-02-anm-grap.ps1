@@ -5,7 +5,7 @@
 # Source SHA-256: 80b7a89813cff0448bb157a8075b1bdbe39dfc234c8664435b31e0afc77c4a4d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-GRAP.ANS by anomite (scum); released in filth-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: barf-vomit-puke
 # SAUCE Author: anomite
 # SAUCE Group: scum
@@ -40,5 +40,4 @@ Write-Host '
    [36m▀▀▓▄▄▄[0m      [37m▀▀█████[0;1;30;47m░░[0m█████[1;30;47m░▄▄▄▄▄██▓▓[0;1;30;40m▀▀▀[0m   [34m▄▄▄▄▄▄▄▀▀▀▀[0;1;36m▄▄▄[0;36m▄▄▄▓▓██[0;1;36;46m▀▀▀░▀[0;36m█▌█[0;1;36;46m▀[0;36m▀[0m
      [36m░░▀[0;1;36;46m■▄▄[0;36m▄▄▄[0m   [37m    ▀▀▀[0;1;30m▀[0m▀[1;30m▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀▀[0m    [36m▄▄▄ [0;34m▀▀▀▀▀[0m    [36m▄▄▄▀▀▀▀▀▀[0;37m [0;36m░░[0m        [36m ▌[0m
          [36m▀▀[0;1;36;46m▀▀▀░[0;36m██[0m                [36m▄██[0;1;36;46m▀▀░[0;36m█▌▌[0m     [36m■ ▀▀[0m                     [36m ▀[0m
-[1;30m─────────────────────────────────────────────────────────────────────────────── [0m
-[1;30mYeah.. I know it sucks, but please don''t barf on your computer..  +o milkman[0m'
+[1;30m─────────────────────────────────────────────────────────────────────────────── [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: eb4265d14cf7712bed608951c1981e3addd4bf93401805d80346baf64fa1636e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ABS-08.ANS by Loi + Pzyko + Aoh + Mighty Mouse + Axiom + Fever + Misfit (joint03); released in joint03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -41,22 +41,11 @@ Write-Host '
                    [30;47m▄ ▀▀[0;37;40m [0;30;47m▄[0;1;37;47m░[0;30;47m ░           ▄  ▄ ▐[0;37;40m [0;30;47m▀ [0;1;37;47m░░░[0;30;47m▐█[0;37;40m [0;1;37;40m▄█████▀▀▀[0m
                     [30;47m▓░[0;1;37;47m░░[0m [30;47m▀░░▓▌ ▄ ▄▌ [0;1;37;47m░░[0;30;47m▐█▌[0;1;37;47m░[0;30;47m▐▌▄[0;37;40m [0;30;47m▀[0;1;37;47m░░[0;30;47m▄▄[0;37;40m  [0;1;37;40m▐█▀▀[0m
                       [30;47m▄▄▀[0;37;40m [0;30;47m▄▓█ [0;1;37;47m░[0;30;47m▓░▓█[0;1;37;47m░[0;30;47m ▄▀█▄▄██[0;37;40m [0;30;47m▄[0;37;40m [0;30;47m█[0m    [1;37;40m ▀[0m        [1msomeone can take[0m
-                [1m_o/[0m             [30;47m▀[0m               [1;37;40m■[0m  [1m▀ [0m         [1mout this word[0m [1mbubl[0m
+                [1m   [0m             [30;47m▀[0m               [1;37;40m■[0m  [1m▀ [0m         [1m             [0m [1m    [0m
                 [1m/< [0m        [30;47m▀[0;37;40m [0;30;47m▀  ▐▀[0;1;37;47m░[0;30;47m▀▀▀[0m     [30;47m▀[0m                   [1;37;40m.. i got bored.[0m
                            [30;47m▌  [0;1;37;47m░░▒▓▒░[0;30;47m   [0;1;30;47m░░[0;30;47m▄▄[0m
                             [30;47m▄▄  [0;1;37;47m░▒░[0;30;47m ▐▄▄[0m
                              [30;47m█[0m
 
 
-[37;40m<loi>[0m                   [30;47m█[0m    [30;47m█[0m
-[37;40mpzyko. eargh. im too fuckin slow. finish that logo. thanks. bye.[0m      [30;40mMM[0m
-[37;40maoh. welp i made a nice squre bkrnd. and added the font to it..[0m
-     [37;40mthen relized the font isnet done.. damN![0m
-[37;40mmm - cleaned it up and spiffied it up.. I''m giving birth to the next[0m
-     [37;40mgeneration of doodle boys, inquire withing (note: no hidden sigs[0m
-     [37;40minvolved (honest)).[0m
-[37;40max - h0h0.. someone draw some kind of face in there.. i have no time.. 9.30[0m
-     [37;40m=( i fixed up the backgroud.. moved abs <-- thataway![0m
-[37;40mfever - added the skull[0m
-[37;40mmisfit- shaded the skull, added the eyeball, and did the crappy word[0m
-        [37;40mbubble (somoene take that out)[0m'
+[37;40m<loi>[0m                   [30;47m█[0m    [30;47m█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 06505379d50fc0ba349dd0a5915edc16bcfdb7ec8e01a1f5587f81cf8b87a8c8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-TT.ANS by Eerie (Spastic Studios); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Termite Terrace
 # SAUCE Author: Eerie
 # SAUCE Group: Spastic Studios
@@ -55,11 +55,4 @@ Write-Host '
                 [1;31m■▀[0m             [32m▀[0;1;32;42m░[0;32m▄[0m     [1;31m■  [0;32m▄▓   [0;1;31m▀▄█▌ ▀■  ▀[0;1;31;43m▓[0m  [33m▐[0;1;31;43m▓[0;1;31;40m▄[0;1;31;43m▓[0;1;31;40m▀[0m
                                      [32m▀[0;1;37;42m░[0;32m▀   ░[0m     [1;31m▀[0;1;31;47m▓[0m      [1;31;40m░ ■▀[0;1;31;47m▓[0m
                                       [32m░[0m            [1;31m▀[0m
-                                                     [1;31m■[0m
-          [1;30mwell, all i know is that toon goon and nivenh run the board[0m
-                [1;30mi''m sure you''ll find the full stats somewhere :P[0m
-
-            [32muh.. savage dragon is copyright to someone.. dunno who..[0m
-                 [32mansi by eerie. yea, the one you like to hate.[0m
-                   [32mand also the one who runs spastic studios.[0m
-                                 [32mcuz he r00ls.[0m'
+                                                     [1;31m■[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ed9bd808746858c41c05e96f08a7b73d78880dc7c72ae84becdd0fcd008b9981
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-CNOIR.ANS by Nitron (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Le Chat Noir
 # SAUCE Author: Nitron
 # SAUCE Group: Mistigris
@@ -27,6 +27,4 @@ Write-Host '
 [33;40m▐[0;31;43m▓[0;31;40m███████▄[0;37;40m [0;1;33;40m▀▀▄▄[0m           [1;33m▄▄▀[0m [31m▄█████████████████████████████[0;31;103m█████[0;31m█████████████[0;31;43m▓░[0m
 [33;40m▐[0;31;43m▒[0;31;40m██████████▄▄[0;37;40m [0;1;33;40m▀▀▀▀▄▄▄▄▓▀▀ [0;31m▄▄██████████████████████████████████████[0;30;41m     [0;31;40m█████[0;31;43m▓▒░[0m
 [33;40m▐[0;31;43m░▓[0;31;40m███████████████▄▄▄▄▄▄▄██████████████████[0;31;43m▓▓██▓▓[0;31;40m██████████████████████████[0;33;41mn1[0;31;43m▓▒░[0m
-[31;40m [0;33;40m▀▀[0;31;43m░░▀▀▒▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓▓▓▓▓▓▓▓▓▓▓▒[0;33;40m▀▀▓▓▓▀▀▀▀▀▀▀▀▀[0;31;43m▀▀▀▀▀[0;33;40m▀▀▀[0;31;43m░░░░░▀▀▀▀▀▀▀▀▀▒▒▒[0;33;40m▀▀[0m
-
-[37;40m               [0;1;33;40mDisponible seulement sur votre ordinateur digital![0m'
+[31;40m [0;33;40m▀▀[0;31;43m░░▀▀▒▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓▓▓▓▓▓▓▓▓▓▓▒[0;33;40m▀▀▓▓▓▀▀▀▀▀▀▀▀▀[0;31;43m▀▀▀▀▀[0;33;40m▀▀▀[0;31;43m░░░░░▀▀▀▀▀▀▀▀▀▒▒▒[0;33;40m▀▀[0m'

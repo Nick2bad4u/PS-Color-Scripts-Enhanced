@@ -5,7 +5,7 @@
 # Source SHA-256: 2734da174c6452353da2573e0080b1cb3e6548adf2481c40774c3e189e514eb4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DB-BROS.ANS by Ded Bob (mgma0597); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -23,13 +23,4 @@ Write-Host '
          [31m             [0;37m  [0;1;34m [0m      [1m▀ [0;34m [0;1;37m [0m                               [1m [0;1;30m [0m
                                  [1;34m░[0;34m [0m
 
-[37m/─-─---─────-─────────-──────-──---─────-───-──-─────────-────-──-─-────-───-──/[0m
-[37mFor Py: Broken Remnants of Society phont. [0m
-
-[37mWell, here''s my first piece under the group magma. [0m
-[37mLet''s hope it''s not so short-lived.. =P[0m
-[37mAnyway, greets to di ( for inviting me ), insidious ( GaTech = hell²! ), and [0m
-[37mbest of luck to everyone from idle...[0m
-
-
-[37m  [0m'
+[37m/─-─---─────-─────────-──────-──---─────-───-──-─────────-────-──-─-────-───-──/[0m'

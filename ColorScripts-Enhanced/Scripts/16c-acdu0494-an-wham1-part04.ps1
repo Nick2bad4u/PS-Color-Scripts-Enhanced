@@ -5,7 +5,7 @@
 # Source SHA-256: 38317734d88a5a1b43c49f6d64f3fc954ffe92ad5d44a8c1f7492db91057c397
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-WHAM1.ANS by Andrew Nice (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Whammy Bar
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -49,17 +49,17 @@ Write-Host '
 [1;30mT[0m     [1;30mH[0m     [1;30mE[0m           [1;30mW[0m     [1;30mH[0m     [1;30mA[0m     [1;30mM[0m     [1;30mM[0m     [1;30mY[0m           [1;30mB[0m     [1;30mA[0m     [1;30mR[0m
      [1;30m7[0m     [1;30mo[0m     [1;30m8[0m             [1;30m9[0m     [1;30m4[0m     [1;30m1[0m             [1;30m7[0m     [1;30m5[0m     [1;30m5[0m     [1;30m1[0m
 
-                                  [1;30mSysop:  Guitar[0m
-          [1;30mQuantum Net WHQ · Quantum BRE · Surprise! Productions US WHQ[0m
-                   [1;30mSBC Illinois Hub · Gravis Illinois Support[0m
-           [1;30mKLF Dist Site, Xography Dist Site, Twilight Zone Dist Site[0m
-             [1;30m600+ megabytes online · Two 16.8k Dual Standard Nodes[0m
+                                  [1;30m              [0m
+          [1;30m                                                            [0m
+                   [1;30m                                          [0m
+           [1;30m                                                          [0m
+             [1;30m                                                     [0m
 
-            [1;30m"One of the best Music and demo orientated BBS''s in 708"[0m
+            [1;30m                                                        [0m
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-                 [1;30mPicture from Image Comics and Hero Illustrated[0m
+                 [1;30m                                              [0m
 
-                                [1;30mAN[0;36mSI [0;1;36mand Fo[0;36mnt [0;1;30mby[0m
-                               [1;30mA[0;36mn[0;1;36mdrew Ni[0;36mc[0;1;30me <[0;36mA[0;1;36mCi[0;36mD[0;1;30m>[0m
+                                [1;30m  [0;36m   [0;1;36m      [0;36m   [0;1;30m  [0m
+                               [1;30m [0;36m [0;1;36m       [0;36m [0;1;30m   [0;36m [0;1;36m  [0;36m [0;1;30m [0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

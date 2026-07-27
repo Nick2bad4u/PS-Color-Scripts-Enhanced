@@ -5,7 +5,7 @@
 # Source SHA-256: c1af25779cd911382e1e1da27ca31c5bffbf21ba6ab61c06f2114c241b94e25b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-DST.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -27,5 +27,4 @@ Write-Host '
 [1;35;45m▀█[0;1;35;47m▄[0;1;35;45m▌[0;35m▌[0;37m [0;34m▀[0;1;34;44m░░░░░░▒[0;34m▌[0;37m [0;35m█[0;1;35;45m▄[0;35m█[0;1;35;45m░░[0;35m█[0;1;30m [0;35m██[0;1;30m [0;1;35;45m▐█▀[0;35m▀[0;36m █[0;1;37m██[0;1;36;46m▒▓▒▒░  [0;36m██[0;1;30;46m   ░░▒▒▓ [0;36m▄[0;37m [0;35m▄[0;34m ▀▀▀███▄▀▀ [0;35m▄▄▄▄▄▄▄██[0;1;35;45m▄▄[0;1;35;47m▀[0;1;35;45m▌[0;36m [0m
 [35m▀▀▌▀▀▀▐[0;37m [0;34m ▀▀▀▀▀▀ [0;35m▀▀▀███▐▀▀▌▀▀[0;36m ▄[0;1;36;46m▄█[0;1;37;40m██[0;1;36;46m█▀▓▒▒▀▀[0;36m███▀▀▀▀▀▀▀[0;37m [0;36m [0;37m [0;35m▀▀▀▀[0m      [35m▀▀▀█▀▀▀▀▀▌[0;1;30m [0;35m▀▀▀▌[0m
 [37m  [0;35m▌[0m   [35m▐[0m           [1;30m░[0m      [1;30m [0;36m▄▄█[0;1;36;46m░[0;36m█▀▀▀▀▀[0m                        [34m░░[0m     [1;30m░[0m     [35m▀▀[0;37m  [0;1;30m [0m [36m [0m
-[37m  [0;35m▀▀▀▀▀[0;37m  [0;34m░░[0m              [36m [0m
-[30m   [0;37m      [0m                     [30;42m r   i   b [0;37;40m [0;32;40mdistrosite[0m'
+[37m  [0;35m▀▀▀▀▀[0;37m  [0;34m░░[0m              [36m [0m'

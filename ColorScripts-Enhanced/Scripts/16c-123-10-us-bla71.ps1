@@ -5,14 +5,14 @@
 # Source SHA-256: 760a28c1e20953b47077301391eee4f9cd183beb7d01f0a29721479610cfe080
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BLA71.ANS by Tripulogic + Jashiin (123-10); released in 123-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20020304
 # SAUCE Dimensions: 80x22
 # Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
-               [1m-[0mAscii by the magic duo (Tripulogic och Jashiin)[1m-[0m
+               [1m [0m                                               [1m [0m
 
      [32ml$$l[0m                                                       [37m*[0;1;33m┐._[0m
 [1m$$[0ml  [32m''~~''[0m                  [1;30ml$$$$$l[0m                               7$$[1;33m$I[0;1;36m╗[0;1;33m┐._[0m
@@ -28,8 +28,8 @@ l[1m$$[0m$┌▬┐yÿÜ$[1m$$$[0m$Üÿ┌_[1m     [0;1;35m  .[0;1;37m [
 [1m    [0m. `/┌▬,,,▬┐yÿ│[1m\²[0m`[1m [0m$[1m$[0m$7└²²²┘$[1m$[0;1;32m$[0;1;37m$[0ml[1m [0;1;35myy,,,[0;1;37m [0m ```''4│$ÿy┌▬,,,▬┐y$│P"""""[1m      [0ml[1m$[0;1;32m$[0;1;37m$[0m$
 [1m    [0m  ''²=*⌂[1;36m⌂[0;1;37m⌂[0;1;36m*-[0;1;37m²[0m`    [1m [0m``` [1m     [0ml$[1m$$[0ml[1m [0;1;35mÑÑ$$$[0;1;37m  [0m l$[1m [0;1;32m._[0m`''²=*⌂⌂⌂*-²`[1m             [0m`````
 [1m                               [0ml$[1m$$[0ml[1m [0;35myy***[0;1;37m  [0m_\l[1m [0;1;32ml$$l[0m
-                             [1m  [0ml$[1m$$[0m$yyyyÿÿÜ$$P [1m [0;1;32ml$$l [0m
-[1m       ..black thursday!@      [0ml$$$$ÑÑÑÑ⌂⌂*┘`  [1m [0;1;32ml$$l[0m
+                             [1m  [0m  [1m  [0m            [1m [0;1;32m     [0m
+[1m                               [0m         ⌂⌂ ┘   [1m [0;1;32m    [0m
                                                 [32m,..,[0m
                                                 [32ml$$l[0m
                                                 [32ml$$l[0m'

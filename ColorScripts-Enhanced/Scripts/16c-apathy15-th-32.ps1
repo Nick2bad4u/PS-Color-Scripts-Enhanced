@@ -5,7 +5,7 @@
 # Source SHA-256: dd4e3f46676b8f1ee3411827cba13a3c1c05e972331e681af3f2314bb908c25e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-32.ANS by Thrasher (apathy); released in apathy15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Earth 2
 # SAUCE Author: Thrasher
 # SAUCE Group: apathy
@@ -39,10 +39,7 @@ Write-Host '
 [1;34;47m▓[0;1;34;44m█████▄░░[0;34m██[0;36;44mpsych@?[0;34;40m█████[0;1;34;44m▐▄[0;34m██[0;1;34;44m▄█▓█▄▄[0;34m█[0;1;34;44m░▒▄[0;34m█████████[0;1;34;44m░▒[0;1;34;40m▌[0;34m [0;1;31m███[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m████[0;1;31;43m▓[0;1;31;40m▀[0;33m▀[0;37m [0;1;34m▄[0;1;34;44m▒[0;34m▄[0;37m    [0;1;32m████[0;1;32;42m▓▒░[0m
 [1;34;47m▒▓▓[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m▓██▄[0;34m█[0;1;34;44m▄[0;34m████████[0;1;34;44m░▄[0;34m█[0;1;34;44m▓█▀▒░[0;34m█[0;1;34;44m▀[0;34m██[0;1;34;44m▄[0;34m███[0;1;34;44m■▀[0;34m██████████[0;1;34;44m░▒[0;34m▄[0;37m [0;1;31m▀██████[0;1;31;41m▓[0;1;31;40m▀[0m [34m▄▄[0;1;34;44m░░[0;1;33;46mt[0;36;44mhr[0;34;40m▌[0;37;40m  [0;1;32;40m░▓[0;1;32;42m▒▓[0;1;32;40m█[0;1;32;42m▓▒░[0m
 
-[30;46m▓f[0;36;40muck0r it! i''m tired... that''s it dude... shading sucks.. ohwell..[0m
-[37;40m [0;36;40mit''s okay i guess ;)[0m
+[30;46m▓ [0;36;40m                                                                 [0m
+[37;40m [0;36;40m                    [0m
 
-[30;46m▓G[0;36;40mreetoz : necro, burps, teakay, flour(#09), massmurdrer, the night angel[0m
-           [36;40mlord soth, misfit, trip, napalm(no hard feelings?), jae, cold&ugly[0m
-
-[37;40m [0;36;40mthrasher!apathy.[0m'
+[30;46m▓ [0;36;40m                                                                       [0m'

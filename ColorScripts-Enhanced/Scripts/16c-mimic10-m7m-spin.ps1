@@ -5,12 +5,12 @@
 # Source SHA-256: a06d92be778445fecda911ab4b7e41410aaf828eb450ff735d7a8b28fe6a66ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M7M-SPIN.ANS by Metal Militia (mimic10); released in mimic10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
 Write-Host '
-     [1;31m                     [0m                     [33m$$$$$$[0m           [37mm7m[0;1;33mmimic[0m
+     [1;31m                     [0m                     [33m      [0m           [37m   [0;1;33m     [0m
                              [33m.┌g\QQ7/*,._ [0m     [33m$$l   $$$$:          [0m
 [33m:QQ[0;1;31mQQQQ$$$$$$[0;33m$[0;1;31m$$[0;33m$$[0m          [33mj$$$$7''````"7$$Q\* $$$b,.$:       .*Q$$$$$$$[0m
 [33m:[0;1;31m$$$$$``[0;33m``[0;1;31m        [0m         [33m:$$$$Y        l$$$$Q$$$$$$$:      l$$$7$$$$``[0m
@@ -47,5 +47,4 @@ Write-Host '
 [35mQQQ$$$$$$$[0;1;35m$$$$$$$$$$$[0;35m:[0;1;35m [0;1;31m         $$$$$$$$$$$QQQQQ$[0;33ml[0;1;31m      [0;33m__[0;1;31m$$$[0;33m:_____[0;1;31m     [0;33m$$$[0;1;31m [0m [1;30m$$[0m
 [1;35m ``[0;35m```[0m                 [1;30m$$$$$$$[0m                 [1;31m $$$$$$$$[0;33m$$$$$$$$$$$$$$| $$$[0;1;31m [0m [1;30m$$[0m
 [1;30m _________$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m   [1;31m$$$$$$[0;33m$$$$: [0;1;31m [0m [1;30m____________________$$[0m
-                                                       [1;30m [0;33m [0;1;30m\___)\_)[0m [1;30m\_)[0m       [1;30m\_)[0m
- [1;30mSpinSpinSugar. inspired by the SneakerPimps.[0m'
+                                                       [1;30m [0;33m [0;1;30m\___)\_)[0m [1;30m\_)[0m       [1;30m\_)[0m'

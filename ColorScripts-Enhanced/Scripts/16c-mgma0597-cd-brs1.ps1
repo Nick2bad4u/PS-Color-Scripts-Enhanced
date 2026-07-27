@@ -5,7 +5,7 @@
 # Source SHA-256: 1192c44d9d43aa1b7085751e380fc10e6316bccf325b62fe0a6bc8340cdd564a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!-BRS1.ANS by cardiac (magma); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: broken remnants of society ad #1
 # SAUCE Author: cardiac
 # SAUCE Group: magma
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[31m░[0;37m [0;31m░▒▓█[0;1;31;41mcardiac presents ...[0;31m▌[0m                                [1;31mmagma[0m [1;31mproductions[0m [31m`97[0m
+[31m░[0;37m [0;31m░▒▓█[0;1;31;41m                    [0;31m▌[0m                                [1;31m     [0m [1;31m           [0m [31m   [0m
        [35m                                               [0;37m [0;35m  [0m
 
        [32m                     [0m          [32m                [0;37m [0;32m [0m
@@ -30,10 +30,6 @@ Write-Host '
        [1;35m  [0;31m█[0;1;31;41m▓▓░[0;31m▄▄██▀▀▀[0;37m  [0;35m [0;37m [0;1;31;41m░▓▓▒[0m  [1;31m      [0m  [35m  [0;1;31;41mcd![0;31m▓▄▄▄▄▄█▀▀▀[0;37m [0;1;31m  [0m [31m▀▀█▄▄▄▄▄█▀▀▀[0m
      [35m   [0;1;35m [0;31m▐█▀▀▀[0m   [35m      [0;1;35m [0;31m▐▓▀▀[0m   [1;31m      [0m [35m [0;37m [0;35m [0;31m▀▀▀▀▀ [0;35m    [0;1;31mof   [0;35m  [0m
        [35m                                               [0;37m [0;35m    [0m
-                           [31mbroken[0;1;31m realms [0;31mof[0;1;31m society[0m
+                           [31m      [0;1;31m        [0;31m  [0;1;31m        [0m
 
-                             [1;31m   77o[0;31m-[0;1;31m972[0;31m-[0;1;31m4817[0m
-
-                                [1;31m [0;31mop[0;1;31m: [0;31mpyhrrus[0m
-
-                            [1;31m  [0;31mmagma[0;1;31m member[0;31m/[0;1;31mdistro[0m'
+                             [1;31m   77o[0;31m-[0;1;31m972[0;31m-[0;1;31m4817[0m'

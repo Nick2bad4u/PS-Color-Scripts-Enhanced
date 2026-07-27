@@ -5,7 +5,7 @@
 # Source SHA-256: 7b8740b36432ea27d5fffbc85105bf4a49d0dfc7a4f528500439f457b2f4ee92
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-EA1.ANS by Streaker (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Electric Acid
 # SAUCE Author: Streaker
 # SAUCE Group: READ THE INI FILE
@@ -47,6 +47,4 @@ Write-Host '
         [1;30m▄ ▀█▀▀███▀█ [0m▀[33m▄▄ [0;37m▀▀▀ [0;33m▄▀▀▄ [0;37m▀[0;33m▄▄ [0;1;30m▀▀▀▀▀▀▀ [0m▀ [33m▄ [0;1;30m▀ [0m▀[33m▄▄ [0;1;30m███ [0;33m▄▀[0;1;33;43m░[0;33m▄ [0;1;30m█▄▀█▄█ █▀ ▀▄   ▄[0m
                     [33m▐[0;1;33;43m░[0;33m▄[0;1;33;43m░[0m    [33m▐[0;1;33;43m░░[0;33m▄ ▐[0;1;33;43m░[0;33m▄[0;1;33;43m░[0m    [33m▄[0;1;33;43m░[0;33m▄ ▐[0;1;33;43m░[0;33m▄[0;1;33;43m░[0m  [33m▐[0;1;33;43m░[0;33m▀▄    ▐[0;1;33;43m░░[0;33m▄[0m
                      [1;33;43m▒▒[0;33m▄    ▄[0;1;33;43m▒[0;33m▄▌  [0;1;33;43m░▒[0;1;33;40m▄▄  [0;33m▄▀[0;1;33;43m░░[0m  [1;33;43m░▒[0;1;33;40m▄   [0;1;33;43m▓▒[0;1;33;40m▄   [0;33m▄[0;1;33;43m▒░[0;33m▄▌[0m
-                    [1;33m▀[0;1;33;43m▓[0;1;33;40m▀[0;1;33;43m▓[0;1;33;40m▄   ▄▀[0;1;33;43m▓▓[0;1;33;40m■▀▀▄▀[0;1;33;43m▓█▓[0;1;33;40m▄[0;1;33;43m▒[0;33m▀  [0;1;33m▀[0;1;33;43m▓[0;1;33;40m▀[0;1;33;43m▓[0;1;33;40m▄■▀[0;1;33;43m▓[0;1;33;40m▀[0;1;33;43m█▓▓█▒░[0;33m▀▀[0m
-
-             [1;30mAn[0ms[1mi [0;1;30mby St[0mr[1mea[0mk[1meR[0;1;30m! Cop[0my[1mri[0mg[1mht [0;1;30m([0mc[1m) [0;1;30mA[0ml[1ml [0;1;30mRi[0mgh[1mts [0;1;30mRe[0mse[1mr[0mv[1med [0;1;30m19[0m9[1m4[0;1;30m-[0m9[1m5[0;1;30m![0m'
+                    [1;33m▀[0;1;33;43m▓[0;1;33;40m▀[0;1;33;43m▓[0;1;33;40m▄   ▄▀[0;1;33;43m▓▓[0;1;33;40m■▀▀▄▀[0;1;33;43m▓█▓[0;1;33;40m▄[0;1;33;43m▒[0;33m▀  [0;1;33m▀[0;1;33;43m▓[0;1;33;40m▀[0;1;33;43m▓[0;1;33;40m▄■▀[0;1;33;43m▓[0;1;33;40m▀[0;1;33;43m█▓▓█▒░[0;33m▀▀[0m'

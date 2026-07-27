@@ -5,7 +5,7 @@
 # Source SHA-256: 658479cb52866e09a9e66271e2fe7c7b5ad3b3b875af4e34fad8b2dfc56eeba0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HELL.ANS by Manufacturer (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -46,8 +46,8 @@ Write-Host '
                  [31m▌   ·[0m         [31m▀▌[0m              [31m▐▌[0m             [31m▌ ▌[0m     [31m·[0m
                                                [1;31m▐[0m              [31m│▐▌[0m
                  [1;31m▌   ·[0m          [1;31m▌[0m                               [1;31m▌[0m
-                                                       [1;30mManufacturer [0m-[1m[i[0;1;36mC[0;36mE[0;1;37m][0m-
+                                                       [1;30m             [0m [1m  [0;1;36m [0;36m [0;1;37m [0m 
 [1;33m┌─────── ─── [0;1;31m── ─[0m           [1;31m── ──────────────[0;31m────── ──[0m       [31m─ ── ─── ───────┐[0m
-[1;33m│  80[0;1;31m0+ Megabyt[0;31mes ° [0;1;33mUS[0;1;31mR v.32bis Du[0;31mal ° [0;1;33mIN[0;1;31mC Utilities Divisi[0;31mon ° [0;1;33mCe[0;1;31mlerityN[0;31mET  │[0m
-[1;33m│[0m            [1;33mSy[0;1;31msOp, Asmode[0;31mus ° [0;1;33mCo[0;1;31mSysOp, Necromanc[0;31mer ° [0;1;33m31[0;1;31m3·349·49[0;31m33[0m           [31m│[0m
+[1;33m│    [0;1;31m          [0;31m     [0;1;33m  [0;1;31m            [0;31m     [0;1;33m  [0;1;31m                  [0;31m     [0;1;33m  [0;1;31m       [0;31m    │[0m
+[1;33m│[0m            [1;33m  [0;1;31m           [0;31m     [0;1;33m  [0;1;31m                [0;31m     [0;1;33m  [0;1;31m        [0;31m  [0m           [31m│[0m
 [1;33m└─────────────── ─── [0;1;31m── ─[0m         [1;31m─── ─────── ───[0m        [1;31m── [0;31m─── ─────────────┘[0m'

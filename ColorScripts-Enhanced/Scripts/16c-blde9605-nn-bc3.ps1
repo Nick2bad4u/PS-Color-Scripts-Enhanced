@@ -5,7 +5,7 @@
 # Source SHA-256: 4adf3221f3dcad73cfa1039f2440a48b17b6ce3f86091d09ffa5f7e86298806f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NN-BC3.ANS by neo negro (blade productions); released in blde9605 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: body count
 # SAUCE Author: neo negro
 # SAUCE Group: blade productions
@@ -29,10 +29,4 @@ Write-Host '
 [37m [0;1;30m░[0m    [1;30m░[0m  [1;30m░[0m [1;30m░░[0;1;30;41m▌░[0m     [1m▄▄[0;1;41m░░[0;31m▌[0m       [1;37m▐[0;1;37;41m░░[0;31m▌ [0m      [1;37;41m   [0m [1;30;41m  [0m      [1m▐[0;1;41m░░[0;31m▌[0;1;30;41m█▄ [0;1;37;40m [0;31m░[0;37m [0;1;37m▐[0;1;37;41m░░[0;31m▌[0m
 [30mgreets 2:[0;37m  [0;31m [0;1;30m▀[0;1;30;41m▓▄[0;1;30;40m▄ [0;31m░[0;1;30m [0;31m▄▄[0;1;30;41m░░ [0m  [31m░░[0;37m  [0;31m▄▄[0;1;30;41m░░ [0;31m▐▌ ░░[0;37m  [0;31m▄[0;1;30;41m░░[0;31m▀[0;1;30m▄[0;1;30;41m▒▒[0;1;30;40m▄[0m     [1;30;41m░░ [0m [1;30;41m▓▓▌[0;31m▄▄▄[0;1;30;41m░░[0;31m▓░░[0m
 [30mmindcrime, [0;37m  [0;31m░[0;37m [0;1;30m▀▀[0;1;30;41m▓█[0;1;30;40m▓▓▀▀░▀[0;1;30;41m▓[0;1;30;40m▄▄[0;1;30;41m██▓▓[0;1;30;40m▀▀░▀[0;1;30;41m▓[0;1;30;40m▄▄▄[0;1;30;41m██▓▓[0;1;30;40m▀░ ░░▀▀ ░▄[0;1;30;41m▓▓[0;1;30;40m▀░░▀▀ ░▄[0;1;30;41m▓▓[0;1;30;40m▀[0m
-[30mpushead, betrayer,[0;37m [0;1;30m░░[0m       [1;30m▀▀[0;31m░░[0m        [1;30m▀▀[0;31m░░[0m          [31m░░[0m        [31m░░[0m
-[30mpyro, shivan, subcon, [0;37m  [0;1;30m.,[0mx[1mX[0m [1;33mBody Count[0m [1mX[0mx[1;30m,.[0m
-[30mcheeze, eerie, arcade, [0;1;37m  [0m +o[1m Crimeboss[0m/[1;34mACiD[0m
-[30mtarot, warpus, crimeboss,[0;37m  [0;1;30m [0m([1m8OO[0m)[1mFUX[0m-[1m0FF![0m
-[30mdS!,skypager!,filth,g3, [0;1;30mhidden greets, find ''em[0m
-[30mlagomorph, prism, jestor, mSD, sq][, zork, eO!, fatal sacrilege, cannibal, [0m
-[30msir piru, gunthar, fade, halaster[0m'
+[30mpushead, betrayer,[0;37m [0;1;30m░░[0m       [1;30m▀▀[0;31m░░[0m        [1;30m▀▀[0;31m░░[0m          [31m░░[0m        [31m░░[0m'

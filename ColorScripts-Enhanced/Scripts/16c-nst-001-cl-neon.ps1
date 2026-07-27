@@ -5,7 +5,7 @@
 # Source SHA-256: 932fda915baea9165e5fda8e68506c830393f5523c6056d0caed0ae81eed164e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-NEON.ANS by .:(cLEANER):. (.:(nEON^sTRIKE):.); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .:(nEON^lOGO):.
 # SAUCE Author: .:(cLEANER):.
 # SAUCE Group: .:(nEON^sTRIKE):.
@@ -35,6 +35,4 @@ Write-Host '
           [1;33;41m░░░░░░▒[0;1;33;40m▄▄▄▄▄▄▄▄▄▄█▄▄ [0;1;36;40m▀▀▀[0;1;37;40m▀[0;1;36;40m▀▀[0;1;37;40m▀[0;1;36;40m▀ [0;1;33;40m▄▄▄[0;1;33;41m▓▓▓▒▒▒▒▒▒▒▒░░░░░░░[0m
                 [1;33;41m░░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░░[0m
                        [1;33;41m░░░░░░▒▒▒▒▒▒▒▒▒▒░░░░░░░[0m
-                             [1;33;41m░░░░░░░░░░[0m
-
-[1;30;40m-[0m-[1;30m-[0;36m[[0;37mn[0;1;30mEO[0mN[36m^[0;37ms[0;1;30mTRIK[0mE[36m^[0;37ml[0;1;30mOG[0mO[36m][0;1;30m-[0m-[1;30m-[0;36m[[0;37mm[0;1;30mY[0;36m^[0;37me[0;1;30mMAI[0mL[36m^[0;1;30mi[0mS[36m^[0;37mc[0;1;30mLEAN[0mE[1;30mR[0;36m@[0;37mc[0;1;30mHE[0mZ[36m.[0;37mC[0;1;30mO[0mM[36m][0;1;30m-[0m-[1;30m-[0;36m[[0;37m1[0;1;30m0[0;36m/[0;1;30m1[0m2[36m/[0;37m9[0;1;30m7[0;36m][0;1;30m-[0m-[1;30m-[0;36m[[0;1;30m1[0m6[36m:[0;37m4[0;1;30m6[0;36m][0;1;30m-[0m-[1;30m-[0m'
+                             [1;33;41m░░░░░░░░░░[0m'

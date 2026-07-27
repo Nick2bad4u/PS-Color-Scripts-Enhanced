@@ -5,7 +5,7 @@
 # Source SHA-256: 3b2333f00170c7a886ddf2795d178cd694c0987d1e9472f8b82549ea7aee04f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VRM!PCK.ANS by vermin (derarnewquitnhqiuwrn); released in drg0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pancake
 # SAUCE Author: vermin
 # SAUCE Group: derarnewquitnhqiuwrn
@@ -36,5 +36,4 @@ Write-Host '
                      [32m    [0;34m [0;32m▐█[0;33m▐█▓ [0;32m▄██[0;37m [0;33m▀█▓▀  █▓▌[0;32m█ [0;33m▄█▌[0;32m▄█[0m
                      [32m      ▓[0;33m ▀▀ [0;32m█▓██▄▄▄▄█▄▄▄▄█▄▄▄▄▀ [0m
                      [32m      ▀▀▀▀▀▀                   [0m
-[36m--[0m                             [32m [0m
-[36mfeer those amix collers![0;37m [0;32m [0m'
+[36m--[0m                             [32m [0m'

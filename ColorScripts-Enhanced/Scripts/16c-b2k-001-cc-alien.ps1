@@ -5,7 +5,7 @@
 # Source SHA-256: fc6d65d0783233c4457822bd96b8d68144a822537d4fc9cc5d651f9a5a4b4f1e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cc-alien.ans by Chronicc (b2k-001); released in b2k-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -44,7 +44,4 @@ Write-Host '
                           [34m█[0;1;34m [0;1;34;44m▓[0;34m█  ▄ ▀▀▄▄▄▓ ░█▄▄  ▒[0m               [1;34m▓[0m    [34m░[0m
                           [34m▐ [0;1;34;44m▒[0;34m▌ ▄▄ ▀▀▄▄██ ▀▀▄▄ ▌░[0m               [1;34m▒[0m
                            [34m█[0;1;34;44m░[0;34m  ▄  ▀▀▄▄▀▌ ▀▄▄ ▀▀[0m                [1;34m░[0m
-                           [34m██[0;37m  [0;34m▄▄[0;37m [0;34m▀▀[0;37m    [0;34m [0m   [34m▀[0;37m  (chronicc.avenge)[0m
-
-                           [37mmonster eating amsterdam[0m
-                           [37mhad 20 mins to draw this.[0m'
+                           [34m██[0;37m  [0;34m▄▄[0;37m [0;34m▀▀[0;37m    [0;34m [0m   [34m▀[0;37m  (chronicc.avenge)[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b2c198b078e40f97ddd5c894e7454b8eb2ade5473fb3820feb80536b0ce62352
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-mircart.ans by spinsane (impure); released in impure79 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mirc!art
 # SAUCE Author: spinsane
 # SAUCE Group: impure
@@ -17,10 +17,10 @@
 # Columns: 1-120
 
 Write-Host '
-<@spinsane> stevie wonder can see colors!
-<@spinsane>
-<@spinsane>                                    [1;35m.[0m  [1;35m.[0m      [1;35m.__[0m
-<@spinsane> [1;32mGiT LiTT![0m                          [1;35m:\[0m [1;35m:[0m      [1;35m|[0m [1;35m|[0m                [1;35m|[0m   [1;35m|[0m
+                                         
+           
+                                               [1;35m [0m  [1;35m [0m      [1;35m   [0m
+            [1;32m         [0m                          [1;35m  [0m [1;35m [0m      [1;35m [0m [1;35m [0m                [1;35m [0m   [1;35m [0m
 <@spinsane> [1;32m!!![0m               [1;31m*[0m                 [1;35m:::/_\\[0m  [1;35m.[0;1;32mT[0;32m|[0;37m                [0;35m:[0;37m   [0;1;35m|[0m  [1;35m|[0m        [1;35m.[0m
 <@spinsane>     [1;33;45m!![0;1;35;40m!!![0m         [1;35m|[0m             [1;35m/~[0m     [1;35m'':::[0;32m/[0;37m [0;1;35ml[0;1;35;42m$[0;1;32;40m¼[0;1;35;40m....[0m     [1;35m|\(\[0m  [1;35m<[0m╦[1;35m>[0m  [1;35m|[0m  [1;35m|[0m        [1;35m$[0;35mb[0m
 [37m<@spinsane>    [0;1;35m/[0;1;33;45m!![0;1;35;40m!:![0m      [1;35m_[0m [1;35m.|_.[0m         [1;35m/[0;1;32;45m/[0m  [1;32m.ji$y[0m  [1;35m''[0;32m/[0;35m░[0;32m░[0;1;35;42m$$[0;1;32;40m>$b[0m [1;32m:$I:[0m [1;32m:|[0;1;35m__/[0m  [1;35mq$pm-+[0m  [1;35m+->[0m  [1;35mm[0;1;35;102mq[0;1;35;42mQ[0m [1;35m$[0;1;32;45m$░>[0m
@@ -43,10 +43,10 @@ Write-Host '
 <@spinsane> [35m--->[0;37;44mX[0;1;34;40mXX[0;34mSXX|[0;37m [0;1;34m-..:||╪/`[0;35m--[0;37m [0;35m---[0;34m\\[0;37m [0;34m\://i[0;34;104ml[0;36;44m7[0;37;40m [0;35;40m-[0;34;40m*[0;36;44m#[0;34;40m$$i$/[0;37;40m    [0;34;40m`"√$S7[0;37;40m     [0;34;40m:Y$$$7[0;37;40m   [0;34;40m:"ⁿ╨[0;30;44m▼|[0;34;40m$[0;1;34;40m$[0;34m$$Ω:[0;37m   [0;34m~[0m
 [37m<@spinsane>   [0;1;34m..[0;44mX[0;1;34;40mII[0;34miS//[0;37m      [0;1;34m\/[0m   sP[1;30m![0mMp    [34m├$[0;36;44m$$[0;34;40mY[0;37;40m     [0;34;40m$$$Y[0;37;40m                            [0;35;44m~-*[0;30;44m>[0;34;40m$$$$$k>[0m
 [37;40m<@spinsane>                                 [0;34;40m~~`[0;37;40m       [0;34;40m`/[0;37;40m                                  [0;34;40m~^^^~[0m
-[37;40m<@spinsane>[0m
+[37;40m           [0m
 
 [1;33;100m---------(snip)---[0;1;30;100m                                           [0;1;30m█[0m [1;30m▀[0m [1;30m▄█▀▀█[0m  [1;30m█▄▀▀▄[0m
-[1;33mShout outs to MiRCArt. Ya''ll kept it real.[0m               [1;30m    ▓[0m [1;30m▒[0m [1;30m ░[0m  [1;30m█[0m  [1;30m▀[0m  [1;30m▄▀[0m
-[1;33mShouts to The Crew. I finally am feeling like I belong.[0m  [1;30m    ▓[0m [1;30m░[0m  [1;30m▄▄░[0m    [1;30m■▀▄[0m   [1;30mLFG.[0m
+[1;33m                                          [0m               [1;30m    ▓[0m [1;30m▒[0m [1;30m ░[0m  [1;30m█[0m  [1;30m▀[0m  [1;30m▄▀[0m
+[1;33m                                                       [0m  [1;30m    ▓[0m [1;30m░[0m  [1;30m▄▄░[0m    [1;30m■▀▄[0m   [1;30m    [0m
 [1;33m#BLESSED[0m                                                 [1;30m    ▓[0m   [1;30m█▀[0m  [1;30m█[0m  [1;30m▓[0m   [1;30m█[0m
 [1;30m                                                             ▀[0m   [1;30m▀▄▄▄▀[0m  [1;30m▀▄▄▄▀[0m'

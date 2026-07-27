@@ -5,7 +5,7 @@
 # Source SHA-256: bb6c3fb02ec0887e1d8022d353858fc9cd33b91db72a8fac09691a8a1b87ba53
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 67-acid.ans by Tcf + Filth + Catbones (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20141013
 # SAUCE Dimensions: 80x353
 # SAUCE Font: IBM VGA
@@ -14,7 +14,7 @@
 
 Write-Host '
 
-[37;40m   catbones·filth·fever·[0m       [1;37;40m·[0m   [30mcat[0;37m [0;30mfil[0;37m [0;30mtcf[0m
+[37;40m                        [0m       [1;37;40m [0m   [30m   [0;37m [0;30m   [0;37m [0;30m   [0m
 
 
 

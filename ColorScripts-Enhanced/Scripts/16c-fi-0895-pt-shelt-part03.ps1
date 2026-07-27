@@ -5,7 +5,7 @@
 # Source SHA-256: 772904676b59b50160119b7fa6971243562c8088173ba71820ea007c889d15d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-SHELT.ANS by Prime Time (fi-0895); released in fi-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 90-132
 # Columns: 1-80
 
@@ -16,7 +16,7 @@ Write-Host '
 [1;31;40m░░░░░▒░░▒▒▒▒▒░░░░░░░░░░░▒▒░░▄▄▀▀▀▄[0;1;31;43m░[0;1;31;40m▌[0m [1;31;40m▄▄[0m  [1;31;43m▒[0m  [1;31;40m▄▄ ▐[0;1;31;43m░░░[0;1;31;40m▄▄▀▀▀▄▄▀[0;1;31;43m░░░░▒▒▒▒▒▒▒░░░▒░░░░░[0m
 [1;31;40m░░░░░░░░▒▒░░░░░░░░░▒▒▒▒░▒░▒░░░░▄ ▬▄▄[0;1;31;43m░▒░░[0;1;31;40m▄ ▄[0;1;31;43m░░░░[0;1;31;40m▄▄▬[0;1;31;43m░░░░▒▒▒▒▒░░░░░▒▒▒▒▒▒░░░░░░░░░[0m
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-                                                    [1;37;40m100% oRiGiNaL aNZee BioTCH![0m
+                                                    [1;37;40m                           [0m
                [1;37;40m▄▄▄▄▄▄[0m             [1;32;40m▄▓▀▀▀▓█▄[0m      [1;32;40m▄▄[0m    [1;37;40m▄▄▄▄▄▄[0m
           [1;32;40m▄[0m [1;37;40m▬▓▀▀▀[0m   [1;37;40m▀▀▓▄[0m        [1;32;40m▄▓▀[0m     [1;32;40m▓▓▌[0m      [1;32;40m▓▓▀[0m [1;37;40m▀▀▀[0m   [1;37;40m▀▓▄[0m
           [1;32;40m▐▓▄[0m          [1;37;40m▓▌[0m       [1;32;40m▓ [0m       [1;32;40m▀[0m       [1;32;40m▐▓[0m [1;37;40m▬[0m        [1;37;40m▐▌[0m
@@ -39,17 +39,11 @@ Write-Host '
 
                               [1;37;40m [0m  [1;37;40mB  a  S  e[0m
 
-[1;37;40m [0m                        [1;37;40mSySoP: bLadE    pHaT-HbE-NF[0m
+[1;37;40m [0m                        [1;37;40m                           [0m
                                [1;37;40m+49-8i4i-34445[0m
-                            [1;37;40mFiDeLiS GeRMaN DiSTRo[0m
-                           [1;37;40m [0m        [1;37;40mHBe HQ[0m
+                            [1;37;40m                     [0m
+                           [1;37;40m [0m        [1;37;40m      [0m
 
 
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;37;40m-------------------------------------------------------------------------------[0m
-[1;37;40mpT''s shouts!:[0m
-
-[1;37;40mSir Piru:  Me and you''ve been down since day 1 biotch[0m
-[1;37;40mThe Shadow Caster:  Keep the rhymes flowin[0m
-[1;37;40mSatan Claus:  Thanks for giving me a chance bro[0m
-[1;37;40mThe whole fidelis squad: ahhh shit! heres for anoda great pak![0m'
+[1;37;40m-------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: dc9a46b217a18b385cc4da4386f5f8eb889dbbffc9b0f17218cc9400e1ade670
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KL-GLU12.ANS by Knocturnal (Awe); released in glue-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Glue
 # SAUCE Author: Knocturnal
 # SAUCE Group: Awe
@@ -37,4 +37,4 @@ Write-Host '
     [1;30m▐▀[0m  [34m░[0;30;44m▓[0;34;40m▄[0;1;30;40m ▄ [0m [1;30m▀▀[0m░░[1;30m▄▄[0m [1;30m▀[0;1;30;47m▓▓[0;1;30;40m█▄▄[0m   [34m [0;30;44m▓▓[0;34;40m [0;37;40m  [0;36;40m▀[0;1;37;46m▀[0;1;37;40m▒[0;36m▄[0;1;37m▒[0;1;37;46m▀[0;36m▀[0;37m  [0;34m▄[0;1;34;44m▄[0;34m▓[0m    [1;30m▄▄█[0;1;30;47m▓▓[0;1;30;40m▀[0m [1;30m▄▄[0m░░[1;30m▀▀[0m [1;30m ▄ [0;34m▄[0;30;44m▓[0;34;40m░[0;37;40m  [0;1;30;40m▀▌[0m
     [34m ░ [0;1;30m   ▄▀[0m▀[1;30m▀▐█▄▄ ▀[0;1;30;47m█▄▓[0;1;30;40m▄█ ▀▐█▄ [0m [1;30m▀[0m      [36m▀▐▀[0m   [34m▄ ▀[0;37m  [0;1;30m ▄█▌▀ █▄[0;1;30;47m▓▄[0;1;30;40m█▀ ▄▄█▌▀[0m▀[1;30m▀▄   [0m [34m░[0m
     [34m ▓[0;1;34;44m▄[0;34m▄ ▄░░[0m     [1;30m▀▀█▄█[0m [1;30m▀▀█▄ [0m [1;30m▀▀▄[0m  [1;30m▀▄[0m    [36m▀[0;37m  [0;1;30m░░ [0m   [1;30m▄▀▀[0m [1;30m ▄█▀▀[0m [1;30m█▄█▀▀[0m [1;30mkl[0;34m  [0;30;44m▓[0;34;40m░ ▄▄[0;1;34;44m▄[0;34m▓[0m
-                      [1;30m▀[0m    [1;30m▀[0;1;37m [0mh[1mappy first anniversar[0my [1;30m▀[0m    [1;30m▀[0m'
+                      [1;30m▀[0m    [1;30m▀[0;1;37m [0m [1m                     [0m  [1;30m▀[0m    [1;30m▀[0m'

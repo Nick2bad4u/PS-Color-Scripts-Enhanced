@@ -5,7 +5,7 @@
 # Source SHA-256: 3f759d6ea44ff7fd82c5f10e0532da24060b500c08dbb3b9061e59916848b745
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-COP.ANS by iNNER CHAOS (READ THE INI FILE); released in vain0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chapel of Pain ansee.
 # SAUCE Author: iNNER CHAOS
 # SAUCE Group: READ THE INI FILE
@@ -26,18 +26,18 @@ Write-Host '
 [1;30m [0m                 [1;37m▀[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▒[0;1;37;40m█[0;1;37;47m▓▓▓[0;1;37;40m█[0;1;37;47m█[0;1;37;40m█▀▓[0;1;30;40miç[0m [1;37;40m▀[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▒[0;1;37;40m█[0;1;37;47m▓▓▓[0;1;37;40m█[0;1;37;47m█[0;1;37;40m█▀▓[0m  [1;37;40m▐[0;1;37;47m██▓[0;1;37;40m█[0;1;37;47m▒[0;34m         [0m
 [1;30m ▀▓▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀[0m  [1;37m▀[0;1;37;47m▓[0;1;37;40m▀▀▓▀[0m  [1;30;40m█[0m [1;30;40m▀▀▓▀[0m  [1;37;40m▀[0;1;37;47m▓[0;1;37;40m▀▀▓▀[0m  [1;30;40m▀[0m [1;30;40m▓▀[0m [1;37;40m▀▓▀▀[0m [1;30m▀▀▓▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▓▀▀▀▓ [0m
  [1;30m░[0m         [1;30m░[0m                 [1;30m▓[0m  [1;30mChapel of Pain[0m           [1;30m░[0m                [1;30m░[0m
-                    [1;37m [0m        [1;30m░[0m   [1;30m2o3^FiN^DOUT[0m                                 [1;30m░[0m
- [1;30m░[0m     [1;30m:[0mSuicide ewhq[1;30m :[0m Tap ewhq[1;30m :[0m Katharsis Distro site[1;30m :[0m d.o.a distro Site[1;30m:[0m
- [1;30m▓[0m       [1;30m:[0mBass 2o3 distro [1;30m:[0m Evolution Magazine ushq[1;30m :[0m epic Distro site[1;30m:[0m       [1;30m░[0m
- [1;30m█[0m                   [1;30m:[0mfirm US application headquarters[1;30m:[0m                       [1;30m▓[0m
+                    [1;37m [0m        [1;30m░[0m   [1;30m            [0m                                 [1;30m░[0m
+ [1;30m░[0m     [1;30m [0m            [1;30m  [0m         [1;30m  [0m                      [1;30m  [0m                  [1;30m [0m
+ [1;30m▓[0m       [1;30m [0m                [1;30m [0m                        [1;30m  [0m                 [1;30m [0m       [1;30m░[0m
+ [1;30m█[0m                   [1;30m [0m                                [1;30m [0m                       [1;30m▓[0m
  [1;30m█[0m                                                                            [1;30m█[0m
  [1;30m▀▀▀▓▀▀▀▀▀▀▀█▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▄▄▓▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▓▀[0m
 [1;30m [0m           [1;30m▓[0m      [1;30m░[0m                              [1;30m░[0m                   [1;30m░[0m
 [1;30m................................................................................[0m
-     [1;30mcut on the dotted lines bitch! [0m        [1;30mhey look its[0m [1;30ma menu pattern too![0m
+     [1;30m                               [0m        [1;30m            [0m [1;30m                   [0m
 [1;30m [0m
- [1;30mif you would like to get a "FREE" ansi from me inner chaos. then you can reach [0m
-[1;30m me on the iron clad <2o3.265.7542> or CoP or the Stellar nights. but remember[0m
-[1;30mmoney does get your pic done faster and first. but that only requiers 5$ so act [0m
-[1;30m                                    quick![0m
+ [1;30m                                                                               [0m
+[1;30m                                                                              [0m
+[1;30m                                                                                [0m
+[1;30m                                          [0m
 [1;30m................................................................................[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0adbfe5999a49f66e4fbaf6452e02e1df42f28cb77133046ab2565f1917f18c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OX-PSY!.ANS by Orcx (gbg-ar3); released in gbg-ar3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -36,12 +36,4 @@ Write-Host '
                                                                  [1;30m▀▀▀▀[0m [1;30m▀[0m
 
 
-[1mCUT IER !-------------------------------------------------------------------!!--[0m
- [1;30m wELl static i hope ya like it :))) better then the last ONe For SUre !!!!! [0m
-[1;30m  This was made By orc X .. RElease under TRASH !!!  MAYDAY 052/411541 reklam [0m
-  [1;30mwelll ZYa later !! Greetz FLy :))) : amens , static , racketeer , sike , BArk[0m
-  [1;30mWondErBoy[0m [1;30m,[0m [1;30mRAveTRader , SIMON THE SORCERER (ur VEry Kwell ! , ur Ascii Is[0m
-  [1;30mbetter then MINe :))[0m [1;30m, BOdynuker , All THE NON LAMER REST off the SCene ...[0m
-  [1;30mwell .. whatz left of it :(((((((( DO SOMETHIN ABOUT It !!!!!! [0m
-  [1;30m2 static  : well this can replace ur login but i dont know Where ur info must[0m
-  [1;30mBe put in Sorry :((.. i didnt Have much time :) [0m'
+[1mCUT IER !-------------------------------------------------------------------!!--[0m'

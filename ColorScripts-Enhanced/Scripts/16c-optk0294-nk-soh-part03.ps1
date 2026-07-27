@@ -5,7 +5,7 @@
 # Source SHA-256: ca70520ed9698f0bcd2365bfc28cc04824a22cb20bf053a65332e4dec3130fe3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NK-SOH.ANS by Nuke (optk0294); released in optk0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 91-136
 # Columns: 1-80
 
@@ -54,5 +54,4 @@ OPTiK        [1;33m▐[0;1;33;43m▓▓▓▒▒░░ [0m [33m▀▄[0;35m
                     [30;47m [0;1;30;47m░▒[0m [1;31;41m▒░ [0m   [30;47m [0;1;30;47m░▒[0m [1;31;41m▒░ [0m   [30;47m [0;1;30;47m░▒[0m     [41m  [0;30;47m [0m    [1;31;41m▒░ [0m   [30;47m [0;1;30;47m░▒[0m
 [1m [0;1;33;41m [0m [1;33;41m    ░▒▓██[0m  [1;31;41m▓▒░[0m   [1;30;47m░▒▓[0m [1;31;41m▓▒░[0m   [1;30;47m░▒▓[0m [1;31;41m▓▒░[0m   [1;30;47m░▒▓[0m     [41m  [0;30;47m [0m    [1;31;41m▓▒░[0m   [1;30;47m░▒▓[0m  [1;33;41m██▓█▓▒░    [0m [1;33;41m [0m
               [1;31;41m█▓▒[0m   [1;30;47m▒▓█[0m [1;31;41m█▓▒[0m   [1;30;47m▒▓█[0m [1;31;41m█▓▒[0m   [1;30;47m▒▓█[0m     [41m ▐[0;1;30;47m░[0m    [1;31;41m█▓▒[0m   [1;30;47m▒▓█[0m
-               [1;31m▀[0;1;31;41m▓▒[0;41m▀[0;1;30;47m▒▓[0;1;30m▀   [0;1;31m▀[0;1;31;41m▓▒[0;41m▀[0;1;30;47m▒▓[0;1;30m▀   [0;1;31m▀[0;1;31;41m▓▒[0;41m▀[0;1;30;47m▒▓[0;1;30m▀[0m      [1;31;41m░[0;41m▐[0;1;30;47m▒[0m    [1;31;41m██▓[0m   [1;30;47m▓██[0m
-'
+               [1;31m▀[0;1;31;41m▓▒[0;41m▀[0;1;30;47m▒▓[0;1;30m▀   [0;1;31m▀[0;1;31;41m▓▒[0;41m▀[0;1;30;47m▒▓[0;1;30m▀   [0;1;31m▀[0;1;31;41m▓▒[0;41m▀[0;1;30;47m▒▓[0;1;30m▀[0m      [1;31;41m░[0;41m▐[0;1;30;47m▒[0m    [1;31;41m██▓[0m   [1;30;47m▓██[0m'

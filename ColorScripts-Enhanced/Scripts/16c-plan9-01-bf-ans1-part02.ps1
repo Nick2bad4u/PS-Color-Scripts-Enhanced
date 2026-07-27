@@ -5,7 +5,7 @@
 # Source SHA-256: 12c70c32c4ff52d3fdae4995db4d40f0fcb52822133f1774b08662dbdcc66544
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-ANS1.ANS by Boba Fett (READ THE INI FILE); released in plan9-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 4ns1 c0ll3
 # SAUCE Author: Boba Fett
 # SAUCE Group: READ THE INI FILE
@@ -25,12 +25,12 @@ Write-Host '
 [37m  [0;1;35m▀[0;1;35;45m█[0m▀▀[1;35m▀▀[0;35m  [0m            [1;35m▀[0;1;35;45m█[0m▀▀[1;35m▀▀[0;35m  [0m           [1;35m▀[0;1;35;45m█[0m▀▀[1;35m▀▀[0;35m  [0m           [1;35m▀[0;1;35;45m█[0m▀▀[1;35m▀▀[0;35m  [0m
 
 
-                        [35m([0;1;37m+[0;35m) [0;1;37mcold produkshuns (c) 1996.[0m [35m([0;1;37m+[0;35m)[0m
+                        [35m [0;1;37m [0;35m  [0;1;37m                          [0m [35m [0;1;37m [0;35m [0m
 
 
 
 [1;37m--<cut here>-------------------------------------------------------------------[0m
- [1mwh0rd to cold and RIP friends....                        [0m
+ [1m                                                         [0m
 [1m--<cut here>-------------------------------------------------------------------[0m
 [1;32;42m▒[0;1;32;40m▌[0m             [1;32m▄█[0m         [1;32m▄█▄■▄[0m       [32m [0;1;32;42m░[0;32m█[0m    [32m▐[0;1;32;42m░░[0;32m▄■▄[0m       [1;32m▀█[0;1;32;42m▓▓[0;1;32;40m▄[0m
 [1;32m▐[0;1;32;42m▒[0;1;32;40m▄■▀[0m         [1;32m▐[0;1;32;42m▓▓[0;1;32;40m▌[0m       [1;32m▐[0;1;32;42m▓▓[0;1;32;40m▌[0m          [32m▐[0;1;32;42m░[0;32m▌[0m    [32m█[0;1;32;42m▒[0;32m▌[0;37m [0;32m▐▌[0m        [1;32m▀███▄▄▄[0m         [1;32;42m▓[0;1;32;40m▄▄[0m
@@ -50,16 +50,5 @@ Write-Host '
               [1mt h e   f r a y e d   e n d s   o f   s a n i t y[0m
                  [1;32m   [0m
 [1m--<cut here>-------------------------------------------------------------------[0m
- [1mhere ya'' go eletrik, for the plAn9 internet HQ, dunnot RiPs0r?! [0m
-[1m--<cut here>-------------------------------------------------------------------[0m
-
-[1mHere is an ansi cluster I think I am actually proud of... ehee..[0m
-
-[1mBoba Fett[0m
-[1mboba.fett@x-net.net[0m
-
-Greets go out to:
-
-''Possum Killer, Kitiara, Star Lord, Heartbreak Kid, Dr. Freeze, Eletrik, ob1tch,
-One D, Halaster, Hornet, Samaurai, Project 301, Xypher Matryx, Prison Breaker,
-and Cyber God![0m'
+ [1m                                                                [0m
+[1m--<cut here>-------------------------------------------------------------------[0m'

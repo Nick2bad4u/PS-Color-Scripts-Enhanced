@@ -5,7 +5,7 @@
 # Source SHA-256: f2d795e7e8c5dc3960b6ae5ffeffa9a7fa51eb028a45ee02ecd0d5934a19edde
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ_AH2.ANS by booze (dOminio); released in dom006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Alien Hideout!
 # SAUCE Author: booze
 # SAUCE Group: dOminio
@@ -49,8 +49,4 @@ welcome to;    [31m▀▀▀▀█[0;1;37;41m▄[0;1;31;41m▌[0;31m▌[0m 
                                        [37m░[0;30;47m▓[0m
 
 
-[37;40m-----------------------------[iiiiiiiiiiiiiiK!@@##]----------------------------[0m
-[37;40mStrange ansi for anomite''s board [alien hideout? no way! hehe..][0m
-[37;40mMy first ansi for weeks.. bWAHA! phear![0m
-
-[37;40mbooze /dOminio[0m'
+[37;40m-----------------------------[iiiiiiiiiiiiiiK!@@##]----------------------------[0m'

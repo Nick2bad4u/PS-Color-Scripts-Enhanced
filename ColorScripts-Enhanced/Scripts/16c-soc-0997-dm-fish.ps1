@@ -5,7 +5,7 @@
 # Source SHA-256: 7d0bf39dfc19bbb595b93a61ff36a36d63ccfcdc5233b19bf711795a396a2156
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DM!FISH.ANS by dangermouse (society); released in soc-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fishes Garden
 # SAUCE Author: dangermouse
 # SAUCE Group: society
@@ -25,8 +25,8 @@ Write-Host '
                                        ▄ ▀▀
                                        ▓[1;30;47m▒[0m
 
-                                  [1md-angermouse [0m
-                                    [1mpresents[0m
+                                  [1m             [0m
+                                    [1m        [0m
 
                                                           [1;33m░░[0m
 
@@ -49,5 +49,4 @@ Write-Host '
         [30;43m▒▒▒░░░░[0m       [30;42m▓▓▓▒▒░[0;32;40m▄▄[0;1;37;40m ▀▀[0m▀ [32m▄▄▌[0;37m [0;1;32m ▓█[0;1;32;42m▌[0m  [32m▀[0m      [1;32;42m░░[0;30;42m░░[0m    [30;43m▓▓▒▒[0m   [30;43m▒▒[0m   [30;43m▓▓▓▓▓[0m
    [30;43m▓▓▒▒[0m       [30;43m▓▓▓▓▓[0m      [32;40m█[0;1;32;42m░░[0;30;42m░[0;32;40m███▓▓[0;30;42m░░░▒[0;37;40m [0;1;32;40m▀▀▓█[0;1;32;42m▌[0m [32m▄███[0;37m [0;1;32;42m░░[0;30;42m░░▓▓[0;37;40m [0;30;42m█[0;30;43m▓▓░░▓▓▓[0m     [1;30;40m░[0m
  [1;30m░[0m      [1;30m▓▓▒░░░[0m      [30;43m▓▒▒▓[0m           [30;42m▓▓[0;37;40m  [0;30;43m▓▓[0;37;40m  [0;32;40m▄▄█[0;1;32;42m░░ [0;32m█[0;30;42m░░▓▓████[0;37;40m  [0;30;43m▒▒[0m     [1;30;40m░░░░▒▒▒▒▓▓[0m
-[34m|---------------------------[0m   [34m-------------------------[0m       [34m---------------|[0m
-[37m [0;1;37mfish garden for [0ml.insanity[1m tune: xxxxx xxxxxx xxxxxx[0m [1mlogo by: dangermouse!soc[0m'
+[34m|---------------------------[0m   [34m-------------------------[0m       [34m---------------|[0m'

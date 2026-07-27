@@ -5,7 +5,7 @@
 # Source SHA-256: 9cb7f969e892d7e67cf8fd64d6a3e156234eb1105fdd76bcd3ca569284eb8d2f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ_PAGE.ANS by fastjack (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bd:: pager
 # SAUCE Author: fastjack
 # SAUCE Group: boil
@@ -41,6 +41,4 @@ Write-Host '
 
 
 [1;30m-░░---------------------------░------------------------(barbaric yawp!)------░--[0m
-page mee, my friend, page mee again... =)   4 brain damage...  [1;30m  fastjack^boil ░[0m
-
- thiz ansi is a bit older than my others. sukky outlines/shading/colors =)[0m'
+                                                               [1;30m                ░[0m'

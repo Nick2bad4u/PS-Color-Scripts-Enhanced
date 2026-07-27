@@ -5,7 +5,7 @@
 # Source SHA-256: 7ab129a53fbb5c1e783dad839b7b6904ca8bd6ef74e748ebba2d2202330df757
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-C1701.ANS by nitron (mist); released in mist0524 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Corbomite Maneuver
 # SAUCE Author: nitron
 # SAUCE Group: mist
@@ -42,4 +42,4 @@ Write-Host '
 [33m▀[0;1;30m [0;36m░[0;37m [0;1;33m▄▄▄[0;1;33;43m▓▓▓▓▒▒▒[0;33m▄▄[0;1;30m ░░░░[0m  [1;30m░[0m [1;33m▄▄[0;1;33;43m▓▓[0;1;33;40m▄▄▄▄▄[0;1;33;43m▒▒▒▒░░[0;1;32;43m░░[0;33m▄[0;1;30m░░░░░ ▀[0;1;30;47m▀[0;1;30;40m▓▀▀▀[0;1;33;40m [0;36m░[0;1;33m▄▄[0;1;33;43m▓▓▓▓▓▒▒▒▒▒░░░░░░[0;1;32;43m░░░░[0m
 [36m░░[0;1;33m▄[0;1;33;43m█▓▓▓▒▒▒▒▒▒░░░░[0;33m▄[0;37m [0;36m░░░[0;1;30m [0;1;33m▄[0;1;33;43m██▓▓▓▓▓▓▓▒▒░░░░[0;1;32;43m░░░░░[0;33m▄[0;1;30m░[0;36m░░░[0;1;30m░░░░░░[0;1;33m▄[0;1;33;43m█▓▓▓▓▒▒▒▒▒▒░▒▒▒░░░░░░[0;1;32;43m░░[0m
 
-[1m░░ THE CORBOMITE MANEUVER ░ STARDATE 1512.2 ░ USS ENTERPRISE NCC-1701 ░n1 mist░ [0m'
+[1m░░                        ░                 ░                         ░       ░ [0m'

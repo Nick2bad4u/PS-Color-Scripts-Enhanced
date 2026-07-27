@@ -5,7 +5,7 @@
 # Source SHA-256: dd12a0535d8d4d55faa3d34c084c70ed47c4ddc1e19b5cbabb7b42f82f2633da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-iks2022bday.ans by spinsane (iMPURE); released in impure83 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: happy bday iks^2022!
 # SAUCE Author: spinsane
 # SAUCE Group: iMPURE
@@ -48,9 +48,7 @@ Write-Host '
 [37m          _.,▄▌▓[0;36m░[0;37m█▀▀   j       ░░▌█▒▒█▀▀▀  [0;1;30m███[0;34m░[0m
 [37m      %<<S$$▓█▀      .$Y      ░█▀█▀▀     [0;31;44m▒░[0;1;34;44m░[0;34m▓[0;1;34;44m░[0;34m▓[0;37m Happy Birthday IKS.[0m
 [37m        Y$$$       .|$$!    ▀▀   [0;1;34m███[0m  [31;44m▓▓[0;37;40m   [0;1;34;40m▓[0;34m▓[0;1;34m▓█[0m   A True UNDERGROUND SOLDIER
- .      |$S$    .\$$$$$|         [1;34m███[0;31m░[0;37m      [0;1;34m████[0m     Artist, Poet, And Friend.
+                                 [1;34m███[0;31m░[0;37m      [0;1;34m████[0m                              
  b     $L:|S.┐$$$╫\µσ*≈:        [1;32m░▀▀[0m                              BROTHER.
  $S|$$$$7 ☺$$<└^~                                                     sP!Mp
- .┌\!╜~
-
----- not the best........but a late birthday gift is no fun! sP!Mp[0m'
+ .┌\!╜~[0m'

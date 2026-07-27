@@ -5,7 +5,7 @@
 # Source SHA-256: f03e3e700af4fb7ec61e60c6dfcb4b6f7c890ab15128ff17cf9f62c8f387e0f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TRI~FF.ANS by Trident + Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: some.french.painter
 # SAUCE Author: Trident + Free Fall
 # SAUCE Group: Hype.produktions
@@ -47,8 +47,8 @@ Write-Host '
 [1;36;46m███▄▄▀▀[0;36m███████▄▄[0;37m [0;1;37m▀[0m [36m▄[0;37m [0;1;37m▀ [0m [1m▀▄▄▄▄▄▄▄▄▄▄[0;1;47m▓▓▓[0;1;40m███[0;1;47m▓[0;1;40m▀▀[0m [36m▄█████████████████[0;37m ▄▓▌[0;36m▄█▄[0;37m ▀█ [0;36m██████[0m
 [36m                    [0;1;30mtri+ff[0;36m    [0;1;37m▀▀▀▀▀▀▀▀▀                                         [0m
 [1;30m================================================================================[0m
-        [1;30mSorry guys.. this was a quick little joint with Free Fall and I [0m
-[1;30m(trident) i don''t believe in charging for requests.. request from me on[0m
-[1;33mForce Works, Saturated Fat, Alien Encounters, Axes of Time, Realm of Darkness[0m
+        [1;30m                                                                [0m
+[1;30m                                                                       [0m
+[1;33m                                                                             [0m
 
 [1;30m================================================================================[0m'

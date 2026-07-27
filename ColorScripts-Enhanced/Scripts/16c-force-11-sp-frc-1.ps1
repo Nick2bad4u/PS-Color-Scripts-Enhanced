@@ -5,7 +5,7 @@
 # Source SHA-256: e119e92f9c29c5b2bf24aa34502f82650a60589110b3fa5db4331ccd79b2a90c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-FRC#1.ANS by Spear (fORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fORCE Promo
 # SAUCE Author: Spear
 # SAUCE Group: fORCE
@@ -34,5 +34,4 @@ Write-Host '
                       [36m▀[0;1;36m▀▀▀▀[0;1;36;46m▀[0;1;36;40m██[0;1;36;47m▓[0;1;36;40m███████[0;1;36;47m▓▓[0;1;36;40m█▀▀▀▀▀▀▀[0m
                                           [36m▄[0;1;36m▄[0;1;36;46m▄[0;1;36;40m█[0;1;36;42m▓▓[0;1;36;40m▄▄[0m
                                            [36m ▀[0;1;36m▀▀▀[0m   [36m▄[0;1;36;46m▄[0;1;36;42m▓[0;1;36;40m▄[0m
-                                                   [36m ▀[0;1;36m▀[0m
-'
+                                                   [36m ▀[0;1;36m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: fcff5d9ba712549ba84aa92991decd1f40c005bc515c77777c50fe5a6396a1ee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-SS1.ANS by Mass Murderer (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Special Sauce
 # SAUCE Author: Mass Murderer
 # SAUCE Group: AWE Lettering
@@ -39,7 +39,4 @@ Write-Host '
 [34;40m░ ░[0;30;44m▓[0;34;40m░  [0;30;44m▓[0;34;40m  [0;1;37;40m [0;35m░[0;30;45m▒[0;35;40m▓▄▄▄▄▄[0;1;35;45m ░▀[0;35m▀▀[0;1;35m▐█▄▄▄▄▄[0;1;35;45m▓░[0;35m█[0;37m [0;1;35m▀▄[0;1;37m  [0;1;35m▄▄▄▄[0;1;35;45m▓▓[0;1;35;40m█[0m [1;35m▀[0;1;35;47m▓▀[0;1;35;40m▄▄▄▄▄[0;1;35;45m▓░[0;30;45mm[0;35;40ma[0;30;45mssm[0;35;40m▄▄▄[0;1;37;40m  [0;35m░[0;30;45m▓[0;34;40m    ░░[0;30;44m▓▓[0;34;40m  ░[0m
 [34;40m sp[0;30;44m▓[0;34;40mecial [0;1;37;40m [0;35m░[0;1;37m [0;35m░[0;37m [0;35m           [0;1;30m   [0m  [35m▀▀▀[0m   [35m [0;1;35m■[0m    [1;30m  [0m    [1;35m▀ [0m                      [34ms░auce[0m
 [34m [0m
-[1;30m--------------------------------------------------------------------------------[0m
-for my man [1msamurai.  [0mi told him id draw him something a looong time ago,  sorry
-for the lack of quality, im just getting back on my feet with ansi. Expect more
-from me man.  Oh yeah, pay requests at [1mmassem@concentric.net[0m. We''ll talk $$$ :)[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

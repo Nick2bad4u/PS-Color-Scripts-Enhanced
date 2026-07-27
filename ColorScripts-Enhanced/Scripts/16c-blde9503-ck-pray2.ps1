@@ -5,7 +5,7 @@
 # Source SHA-256: 100223388f88614e031963c3510194f1137861ae356b90b9374383cda397e505
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-PRAY2.ANS by chromatik (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: prayer!
 # SAUCE Author: chromatik
 # SAUCE Group: Blade Productions
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30moriginal chromatik ansi ...[0m
-[1;30mnifty lord jazz font[0m [1;30m...[0m
+[1;30m                           [0m
+[1;30m                    [0m [1;30m   [0m
 [1;30m░▒░[0m    [1;35m░[0m
 [1;30m ░[0m  [35m▄[0m                             [35m▄[0m   [35m▀[0m
     [35m▄[0m  [1;35m░[0m                          [35m▄[0m [35m■[0m
@@ -57,6 +57,6 @@ Write-Host '
 [34;40m██[0;1;34;44m░[0;34m█████[0;1;34;44m█[0m ▀▀ [34m▄▄▄[0;1;34;44m▀▒▀ ▀[0;34m▄[0;1;34m▄ [0m▀■[30;44m▄ [0;34;40m██[0;1;34;44m▀[0;1;34;40m▄[0;34m▄▄ [0;37m▀▀▀▀ [0;30;44m░[0;1;34;44m▒▓[0m ▀▀▓[1;34;47m▓[0m▀▌[34m▄[0;1;34m▄ [0m▀▀▀▀▀ [34m▄▄[0;1;34m▄ [0m▀ [34m▓██[0;34;44m   [0;1;34;44m░▓[0;34m███[0;1;34;44m░[0;34m█[0;34;44m [0;37;40m [0m
 [34;40m████████[0;1;34;44m▀▀ ▀[0;34m█████[0;1;34;44m░[0;34m██████[0;1;34;44m▀[0;34m▄[0;30;44m■ [0;1;34;44m░[0;34m█[0;1;34;44m░▓[0;34m████████[0;30;44m░[0;1;34;44m░▀▀▀[0;1;34;40m▄[0;34m▓ [0;37m▀■[0;34m▐[0;1;34;44m▀▓▀▀[0;34m█[0;1;34;44m▀░ [0;34m██[0;1;34;44m▀▀▀[0;34m██[0;34;44m      [0;1;34;44m░[0;34m███[0;34;44m [0;34;40m██[0;37;40m [0m
 [1;37;44m [0;34m███████████████████████[0;1;37;44m  [0;34m█[0;34;44m    [0;1;34;44m▒      [0;34m███████[0;30;44m■[0;34;40m▓▀[0;1;34;44m▀[0;34m▄▄[0;30;44m■[0;1;34;44m▒[0;34m█████[0;34;44m  ██████████████████[0;34;40m█[0;37;40m [0m
-[37;44m            [0;1;37;44m prayer[0;44m... coming soon.[0;1;44m sysop[0;44m... chromatik.blade.                  [0;40m [0m
+[37;44m            [0;1;37;44m       [0;44m                [0;1;44m      [0;44m                                      [0;40m [0m
 [34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37;40m [0m
-[34;40moriginal ansi[0;1;34;40m [0;34mby[0;1;34m chromatik[0;34m.[0;1;34mblade[0;34m.[0;1;34m  [0;34m▒[0;1;34m    [0;35m░[0;1;34m        [0;34m░[0;1;34m     [0;34mfont by[0;1;34m lord jazz[0;34m.[0;1;34mbleach[0;34m.[0m'
+[34;40m             [0;1;34;40m [0;34m  [0;1;34m          [0;34m [0;1;34m     [0;34m [0;1;34m  [0;34m▒[0;1;34m    [0;35m░[0;1;34m        [0;34m░[0;1;34m     [0;34m       [0;1;34m          [0;34m [0;1;34m      [0;34m [0m'

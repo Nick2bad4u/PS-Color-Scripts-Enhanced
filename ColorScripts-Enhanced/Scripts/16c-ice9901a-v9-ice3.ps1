@@ -5,7 +5,7 @@
 # Source SHA-256: ade5b6fd5ad80e44d633c94225b23ae1e3f6c0a4f3e49b3fe58fb0220dc14d6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V9-ICE3.ICE by Vade79 (iCE); released in ice9901a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iCE promo
 # SAUCE Author: Vade79
 # SAUCE Group: iCE
@@ -49,6 +49,6 @@ Write-Host '
 [1;36;46m░▄[0;1;36;40m▒[0;1;30;40m▌▄▄▄▄▄[0m [1;30m▀[0;1;30;46m█[0;1;30;40m▄[0m      [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▀▄[0m  [1;30m▄▄ [0;36m▬[0;37m [0;36m▀[0;1;30m▀[0m [1;30m▄▄▄▄▄[0m   [36m▄[0;1;36m░ ▀[0;1;36;46m░[0;36m▄[0;37m [0;1;30m▄▄▄[0;1;30;46m█▀[0;1;36;46m▄[0;36m▓[0m
 [1;30m▀[0;1;30;46m▄▄[0;1;30;40m█[0;1;30;46m▄[0;1;30;40m█▄█▄▄▄ ▄[0m [1;30m▀▀▀█▄▄▄▄[0m [1;30m▀[0m [1;30m▀▀[0m [1;30m▄▄█▄[0;1;30;46m██▄▄█▄█▓▓[0;1;30;40m▄█▄▄▄[0m [1;30m▐▌[0m [1;30m▄█▄▄█▄[0m [1;30m▀▀▀[0m [1;30m▄[0;36m▄▄[0;1;30;46m▀[0;1;36;46m░[0;1;30;46m▄[0;36m▀▀[0;37m [0;1;30m▄▄▄▄▄[0;1;30;46m▄[0;1;30;47m█[0;1;30;46m▄▄[0;36m░[0m
 [37m [0;1;30m░░░░░░░░░░░░░░░[0m       [1;30m▀▀█▄[0m  [1;30m░░░░░░░░░░░░░░░[0m [1;30m▬[0m [1;30m▀[0m     [1;30m▄▄[0;36m▄[0;37m [0;1;30m▀▀[0;36m▀▀[0;1;30m▀▀▀[0;36m [0;37m   [0;1;30m░░░░░░░░░░░ [0m
- [1;30mvade79(_v9)∙[0;1;36mi[0;36mC[0;1;30mE[0m           [1;30m▀ [0m                    [1;30m▀▀[0m                 [1;36mi[0;36mC[0;1;30mE∙ART1999[0m
-                             [1;30m■[0m  [30mIt''s not you''re screen, its blurred on purpose![0m
+ [1;30m            [0;1;36m [0;36m [0;1;30m [0m           [1;30m▀ [0m                    [1;30m▀▀[0m                 [1;36m [0;36m [0;1;30m         [0m
+                             [1;30m■[0m  [30m                                               [0m
        [1;30m..i [0mn[1m s a [0mn[1;30m e..[0m   [1;30m..c [0mr [1me a t o[0;1;30m [0mr[1;30m s..[0m   [1;30m..e [0mn[1;30m [0;1;37mt[0;1;30m [0;1;37me r p r[0m [1mi[0m [1ms[0m e [1;30ms..[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 042a387d094a4118495fd38106ebb2857fd2a4fc7302c79721a25e78c61c23dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NME-TPL1.ANS by nme (force); released in force08a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Temple
 # SAUCE Author: nme
 # SAUCE Group: force
@@ -49,5 +49,4 @@ s $s $$²²²[1;33ms   [0;33m$s  ²$$  $[0;1;31m$$$$ [0;31m· [0;37m$$$$[0
 [35m    $[0;1;35m$[0;35m$,    $  $l  "  [0;1;30m²[0m²$$$$$$$$²²" [35ms$l   [0;1;30m"²[0m²$$$$$$$$²²   [35m$[0;1;35m$$$[0;35m$,   s$  l  $[0;1;35m$$$[0;35m$[0m
 [35m  ,$[0;1;35m$$$[0;35m$,  $[0;1;35m$[0;35m$[0m      [35m$$$$,ssssss  l$$[0;1;35m$[0;35m$l  $[0;1;35m$[0;35m$sss[0m          [35m,$$[0;1;35m$$$[0;35m$  $$[0;1;35m$[0;35m$,   "$$[0;1;35m$$[0m
 [35m.s$[0;1;35m$$$$$[0;35ml  l$[0;1;35m$[0;35m$,$  `²$[0;1;35m$$[0;35m$l$[0;1;35m$$$[0;35m$  l$[0;1;35m$$[0;35m$·s$[0;1;35m$$$$$[0;35ml[0m        [35m·s$[0;1;35m$$$$$[0;35ml  l$[0;1;35m$$[0;35m$    )$[0;1;35m$[0;35m$[0m
-[35m  `"²S$²''   "²S$$ss$$S²"  "²SS²  "²SS²''  ²²SS²[0m           [35m`"²S$²''   "²S$$Ss$$S²"[0m
-[35m    [0;37mThe Temple :  SoP : Anubis/fORCE   Dial +61.8.322.4558   Force Support[0m'
+[35m  `"²S$²''   "²S$$ss$$S²"  "²SS²  "²SS²''  ²²SS²[0m           [35m`"²S$²''   "²S$$Ss$$S²"[0m'

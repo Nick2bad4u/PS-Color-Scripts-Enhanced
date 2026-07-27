@@ -5,7 +5,7 @@
 # Source SHA-256: b63321b3267539552d612af4b9f1ad4b67a3c8bd06886a794a0dd27dece06f69
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-URBAN.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-92
 # Columns: 1-80
 
@@ -17,7 +17,7 @@ Write-Host '
 
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[1;30m  orriginal picture from conan the cimmerian cover, from virgin games, 1993[0m
+[1;30m                                                                           [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
 
 
@@ -43,13 +43,11 @@ Write-Host '
 
            [1;37m┌[0m──[1;30m──────∙∙·[0m                                 [1;30m·∙∙──────[0m──[1m┐[0m
            │                                                       │
-           [1;30m│[0m         [1;37m■[0m■[1;30m■ [0;1;31mU[0;31mrban [0;1;31mD[0;31misipline [0;1;30m@ [[0;31m516[0;1;30m][0;1;31mx[0;31mxx[0;1;30m.[0;1;31mx[0;31mxxx [0;1;30m■[0m■[1m■[0m       [1;30m│[0m
+           [1;30m│[0m         [1;37m■[0m■[1;30m■ [0;1;31m [0;31m     [0;1;31m [0;31m         [0;1;30m   [0;31m   [0;1;30m [0;1;31m [0;31m  [0;1;30m [0;1;31m [0;31m    [0;1;30m■[0m■[1m■[0m       [1;30m│[0m
            [1;30m:[0m                                                       [1;30m:[0m
-           [1;30m∙ [0;1;37m■[0m■[1;30m■ [0;1;31mU[0;31mNiON [0;1;31mM[0;31member [0;1;31mB[0;31moard [0;1;30m∙ [0;1;31mP[0;31mHUNK [0;1;31mM[0;31magazine [0;1;31mD[0;31mist [0;1;31mS[0;31mite [0;1;30m■[0m■[1m■ [0;1;30m∙[0m
-           [1;30m∙  [0;1;37m■[0m■[1;30m■ [0;1;31mR[0;31mAD [0;1;31mM[0;31magazine [0;1;31mW[0;31mHQ [0;1;30m∙ [0;1;31mS[0;31mCAM! [0;1;31mM[0;31magazine [0;1;31mD[0;31mist [0;1;31mS[0;31mite [0;1;30m■[0m■[1m■  [0;1;30m∙[0m
-           [1;30m:   [0;1;37m■[0m■[1;30m■ [0;1;31mF[0;31miDELiS [0;1;31mD[0;31mist [0;1;31mS[0;31mite [0;1;30m∙ [0;1;31mA[0;31mφD [0;1;31mD[0;31mistrobution [0;1;31mS[0;31mite [0;1;30m■[0m■[1m■   [0;1;30m:[0m
-           [1;30m│[0m     [1;37m■[0m■[1;30m■ [0;1;31mU[0;31mNi [0;1;31mN[0;31metwork [0;1;31mS[0;31mite [0;1;30m∙ [0;1;31mR[0;31mape [0;1;31mN[0;31metwork [0;1;31mS[0;31mite [0;1;30m■[0m■[1m■[0m      [1;30m│[0m
+           [1;30m  [0;1;37m■[0m■[1;30m■ [0;1;31m [0;31m     [0;1;31m [0;31m      [0;1;31m [0;31m     [0;1;30m  [0;1;31m [0;31m     [0;1;31m [0;31m        [0;1;31m [0;31m    [0;1;31m [0;31m    [0;1;30m■[0m■[1m■ [0;1;30m [0m
+           [1;30m   [0;1;37m■[0m■[1;30m■ [0;1;31m [0;31m   [0;1;31m [0;31m        [0;1;31m [0;31m   [0;1;30m  [0;1;31m [0;31m     [0;1;31m [0;31m        [0;1;31m [0;31m    [0;1;31m [0;31m    [0;1;30m■[0m■[1m■  [0;1;30m [0m
+           [1;30m    [0;1;37m■[0m■[1;30m■ [0;1;31m [0;31m       [0;1;31m [0;31m    [0;1;31m [0;31m    [0;1;30m  [0;1;31m [0;31m   [0;1;31m [0;31m            [0;1;31m [0;31m    [0;1;30m■[0m■[1m■   [0;1;30m [0m
+           [1;30m│[0m     [1;37m■[0m■[1;30m■ [0;1;31m [0;31m   [0;1;31m [0;31m       [0;1;31m [0;31m    [0;1;30m  [0;1;31m [0;31m    [0;1;31m [0;31m       [0;1;31m [0;31m    [0;1;30m■[0m■[1m■[0m      [1;30m│[0m
            │                                                       │
-           [1m└[0m──[1;30m──────∙∙·[0m                                 [1;30m·∙∙──────[0m──[1m┘[0m
-
-          [1m∙[0m∙[1;30m∙ [0;1;31mA[0;31mnother [0;1;31mB[0;31mad [0;1;31mA[0;31mss [0;1;31mC[0;31mreation [0;1;31mB[0;31my [0;1;31mN[0;31mever[0;1;31mM[0;31mind [0;1;30m[[0;31mF[0;1;31mi[0;31mDEL[0;1;31mi[0;31mS[0;1;30m] :) ∙[0m∙[1m∙[0m'
+           [1m└[0m──[1;30m──────∙∙·[0m                                 [1;30m·∙∙──────[0m──[1m┘[0m'

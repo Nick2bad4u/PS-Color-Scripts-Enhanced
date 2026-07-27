@@ -5,14 +5,14 @@
 # Source SHA-256: 4f5ae689407548e6eaa906fb1a5fcfc7b2e3d9989ce158f4afed815f6f698307
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: po-pb01.ans by Portia (equate01); released in equate01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 93-139
 # Columns: 1-80
 
 Write-Host '
 [35m  ▄▄▓▄  ▐█[0;1;35m▒▒▓[0;35m▌[0m   [35m▀█▀▀ ▄█▓▀[0;36m [0m      [36min a world of tears hate rains[0m     [35m▀▀[0;1;35m▒▒▒[0;35m▀[0m
 [35m ▀██▀    ▀█[0;1;31m▀[0;35m▀[0m          [35m▀[0m       [36mdesire an endless road ,, no end[0m   [35m▄[0m    [35m ▄██▄[0m
-[35m    ▀          [0m           [36mcolour found in black ,, [0;1;36msmall[0;36m colour[0m    [35m▀[0m   [35m▐▀█▓█▌[0m
+[35m    ▀          [0m           [36m                         [0;1;36m     [0;36m       [0m    [35m▀[0m   [35m▐▀█▓█▌[0m
 [35m  ░▄█▄[0m             [35m░░▄[0m    [36mthe shine of deadness encompass[0m                [35m▀░▀[0m
 [35m  █▀▓█▌[0m             [35m▓█▀[0m   [36mflowers of darkened crystals[0m    [36m [0m     [35m▄[0m
     [35m░░[0m        [36m░[0;1;31m▄[0;36m▄░[0;30;46m▓▒[0;36;40m░[0m     [36;40mrainbowed metal jackets pretty[0m     [35;40m▄[0;34;40m█▄[0;35;40m ▀ [0;1;33;40m▄▒[0;35m▌▄▄[0m

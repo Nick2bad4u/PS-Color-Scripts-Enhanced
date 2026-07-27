@@ -5,7 +5,7 @@
 # Source SHA-256: a873dac15ae173e642df4099eb2eb5a61df5bdc6ba6e31396639b7721dced9e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OA-CSHIP.ANS by Sandy Chidester (out-1096); released in out-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -30,7 +30,5 @@ Write-Host '
 [1;31;40m│[0m  [1;37;40mN[0;37;40met[0;1;30;40ms[0;37;40m [0;1;37;40mi[0;37;40mnclud[0;1;30;40me[0;37;40m [0;1;37;40mV[0;37;40mirtualNet[0;1;30;40m,[0;37;40m [0;31;40m█▀[0;37;40m [0;31;40m▀█▄ █▄█▀ [0;1;37;40m█[0;1;37;47m░▓[0;1;37;40m▄▀▀▄[0;1;37;47m▒░▓[0;1;37;40m█[0;1;37;47m▒░[0;37;40m█[0;1;30;47m ▒▓[0;1;30;40m█████▀[0m  [31;40m█▄▀▄█▀[0m  [31;40m▀[0m     [1;31;40m│[0m
 [1;31;40m│[0m  [1;37;40mC[0;37;40mastleNe[0;1;30;40mt[0;37;40m, [0;1;37;40mV[0;37;40mASTNe[0;1;30;40mt[0;37;40m [0;1;37;40ma[0;37;40mnd[0m  [31;40m▀█▄▀█▀▀▀▄▀▀▄ [0;1;37;40m▀██[0;1;37;47m▓▓[0;1;37;40m███[0;1;37;47m▓▒░▓[0;37;40m██[0;1;30;47m▓[0;1;30;40m████▀[0m      [31;40m▀▀█ ▄█▀[0m      [1;31;40m│[0m
 [1;31;40m│[0m  [1;37;40mF[0;37;40mireNet[0;1;30;40m.[0m                   [31;40m▀▀█▀▄[0m  [31;40m▀█[0m   [1;37;40m▀██[0;1;37;47m▓▒░[0;37;40m████[0;1;30;40m▀▀▀▀[0m   [1;30;40m▄[0m  [1;31;40mThank you, Cptn, │[0m
-[1;31;40m│[0m  [1;37;40mM[0;37;40membe[0;1;30;40mr[0;37;40m [0;1;37;40mo[0;37;40mf [0;1;37;40mP[0;37;40morta[0;1;30;40ml[0;37;40m [0;1;37;40mC[0;37;40mommunication[0;1;30;40ms[0;37;40m [0;1;37;40m([0;37;40mThe Portal[0;1;30;40m)[0m      [1;37;40m▄██[0;1;30;40m█▀▀▄[0m  [1;31;40mfor the ad space!│[0m
-[1;31;40m└────────────────────────────────────────────────── [0;1;37;40m▄▄[0;1;30;40m▄██▄▄▀▄▀ [0;1;31;40m────────────────┘[0m
-
-[37;40m [0m'
+[1;31;40m│[0m  [1;37;40m [0;37;40m    [0;1;30;40m [0;37;40m [0;1;37;40m [0;37;40m  [0;1;37;40m [0;37;40m    [0;1;30;40m [0;37;40m [0;1;37;40m [0;37;40m            [0;1;30;40m [0;37;40m [0;1;37;40m [0;37;40m          [0;1;30;40m [0m      [1;37;40m▄██[0;1;30;40m█▀▀▄[0m  [1;31;40m                 │[0m
+[1;31;40m└────────────────────────────────────────────────── [0;1;37;40m▄▄[0;1;30;40m▄██▄▄▀▄▀ [0;1;31;40m────────────────┘[0m'

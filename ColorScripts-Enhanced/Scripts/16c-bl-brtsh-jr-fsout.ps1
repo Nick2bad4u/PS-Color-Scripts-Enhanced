@@ -5,7 +5,7 @@
 # Source SHA-256: 2bf4321bb652cf88c22822d5b6429fc0a9a26e1466d4bf0b4ffe256130f8e380
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSOUT.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FS:: phonkey logout?
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
 [33m▄[0;34;43m░[0;1;31;43m▀▀▀[0;33m▀░[0;37m  [0;33m▀[0;1;31m▀▀[0;1;31;43m▄[0;1;31;47m▒▓[0;1;31;40m▄▄[0;33m▄[0m   [33m▀▀▀[0;1;33;43m▀▀▀[0;33;47m░[0;37;40m▄[0;1;30;40m▄░░[0m       [1;30m▀▀▀▀[0m▀▀▀▀▀[1;30m▀▀▀[0m    [33m▄▄[0;34;43m░[0;1;33;43m▀▀[0;33m▀▀[0;37m▀[0;1;30m░░░[0m          [1;30mjer[0m
 
 
-[1;30m----------░░-----░---------------------------------------------------(ma bell!)-[0m
-[1;30mthiz is a logout matrix 4 tha phreeside. phonkey old skool style. jerusalem~boil[0m'
+[1;30m----------░░-----░---------------------------------------------------(ma bell!)-[0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: 48d9da7079c5fbcef2146532ec4f7081513f3e6f944e9f97d4eb10fd4a03483b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: kf-roots.ans by Kid Frost (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
-[1;30m [0;1;37mf[0mo[1;30mr[0m [1mr[0mo[1;30mots [0;1;37md[0mo[1;30ms [0;1;37ma[0mk[1;30ma [0;1;37m2[0m.[1;30m.[0m [1;30m.[0m                                                [1;30mkf2[0m0[1m08![0m
+[1;30m [0;1;37m [0m [1;30m [0m [1m [0m [1;30m    [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m [0m [1;30m [0m                                                [1;30m   [0m [1m   [0m
  [1;30m┌────────────────────────────────────────────────────────────────────────────┐[0m
  [1;30m│[0;1;33m█████████[0;1;33;47m█[0;1;33;40m███[0;1;33;47m█[0;1;33;40m████████████[0;1;33;47m▀[0;1;33;40m████████[0;1;33;47m█[0m▀[1m▄▐▄[0m▀[1;33;47m█[0;1;33;40m██████[0;1;33;47m▀[0;1;33;40m█████████████[0;1;33;47m█[0;1;33;40m███[0;1;33;47m█[0;1;33;40m█████████[0;1;30;40m│[0m
  [1;30m│[0;1;33m████████████[0;1;33;47m█[0;1;33;40m███[0;1;33;47m▄[0;1;33;40m███████████████[0;1;33;47m▄[0;1;33;40m█[0;1;33;47m▀▌ [0;1;37;40m▐▓▌[0;1;33;47m ▀█▄[0;1;33;40m██████████[0;1;33;47m██▄█[0;1;33;40m██████████████████[0;1;30;40m│[0m
@@ -56,5 +56,4 @@ Write-Host '
  [1;30m│[0;1;33m█[0;1;33;47m▓[0;1;33;40m█[0;1;33;47m▄[0m█▄[33m  ▒▒██[0;1;31;43m░░░▒▒[0;33m▄[0;37m▀[0;1;37;47m▒[0m█▒ [1;47m▒[0;1;40m█▄[0m  [1;30m ░▒[0m  [33m▓▄ [0m     [33m ▄█ [0;37m [0;1;30m▒▒░░[0m [1m▄█[0;1;47m▒[0m ▒█[1;47m░[0;1;40m▀[0;33m▄[0;1;31;43m░▒▒░░[0;33m█▒▒  [0;37m▄█[0;1;33;47m▄[0;1;33;40m███[0;1;30;40m│[0m
  [1;30m│[0;1;33m█████[0;1;33;47m▄[0m█▄[33m  ▒▒███[0;1;31;43m░▒▒[0;33m▄[0;37m▀[0;33m▄[0;37m▐▒▐[0;1;37;47m▒[0;1;37;40m██▄[0m    [33m▒█[0;1;31;43m▄▌[0;33m▄▌  ▄[0;1;31;43m ░▌[0;33m▒[0;1;34m   [0m [1m▄██[0;1;47m▒[0m ▒▌[33m▄[0;37m▀[0;33m▄[0;1;31;43m░▒░░[0;33m█▒▒  [0;37m▄█[0;1;33;47m▄[0;1;33;40m█████[0;1;30;40m│[0m
  [1;30m│[0;1;33m███[0;1;33;47m████▄[0m█▄[33m  ▒▒██[0;1;31;43m░░[0;1;30;43m ░[0;33m▄[0;37m  ▄█[0;1;37;47m▒[0;1;37;40m███▄[0m [33m▒▓[0;1;31;43m▄██▄[0;1;30;43m  [0;33m▄▐[0;1;31;43m▐▄▌[0;33m▓▒[0;1;34m [0;1;37m▄███[0;1;37;47m▒[0m█▄  [33m▄[0;1;30;43m░░ [0;1;31;43m░[0;33m█▒▒  [0;37m▄█[0;1;33;47m▄[0;1;33;40m████[0;1;33;47m█[0;1;33;40m██[0;1;30;40m│[0m
- [1;30m└────────────────────────────────────────────────────────────────────────────┘[0m
-                               [1m.[0;1;30m [0m.[1;30m.[0;1;37ma[0;1;30m [0;1;37mc[0ml[1;30mean [0;1;37ms[0mh[1;30maven [0;1;37mb[0mi[1;30match, [0;1;37ma[0mn[1;30md [0ma[1;30m [0;1;37mn[0me[1;30mw [0;1;37mh[0ma[1;30mir-[0;1;37md[0mo[1;30m![0m [1;30m=)[0m'
+ [1;30m└────────────────────────────────────────────────────────────────────────────┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d6cb288d377928a216a462ae3c4afd568542a89ad54b249e8272e1d6b2edce1e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OUT-DIST.ANS by OutWorld Arts (OutWorld Arts); released in out-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Distribution Site Ad
 # SAUCE Author: OutWorld Arts
 # SAUCE Group: OutWorld Arts
@@ -36,5 +36,4 @@ Write-Host '
 [1;31m   [0;31m▀▀▀▀▀░░▒▒▒▒▓▓▓███▄▀▀[0m      [1;30m▀▀███▀▀[0m        [1;30m▀▀██▀    [0;31m░[0m     [31m░░▒  ░▒[0;1;31;41m░[0;1;31m▀[0;1;31;41m▒[0;1;31m▄[0m
 [1;31m   [0;31m▄▄ ░░░▒▓▓▓▓▓▄▀▀▀[0m     [31m▒░░   [0;1;30m░    [0;32m▒[0;1;32m▒▓▀  [0;32m▀▓▒▒   [0;1;30m░   [0;31m░░▒▓    ░▒▓▄  ░[0;1;31;41m░░▓[0m
 [32m    [0;31m▀▀▄▄████▀▀▀[0m      [31m▓▓▒▒[0m      [1;30m░▒[0;32m░░[0;1;32m▒[0m        [32m▒░[0;1;30m▒░[0m     [31m▄▄▀█▓ ░▒▓ ▓█▄  ▒[0;1;31;41m░[0;1;31m█▄[0m
-           [31m▀▀[0;1;31;41ms[0;30;41mc[0;31m▄▄▄ ▓▓▒░ ░[0m        [1;30m▀▌[0;32m▐▄[0m     [32m▄▌[0;1;30m▐▀    [0;31m░░▒▓   ▓▓[0m      [31m▀▀[0m
-[1mI w[0ma[1;30mnt [0;1mt[0mo [1ms[0ma[1;30my, "[0;1mT[0mh[1;30manks!", [0;1mt[0mo [1mt[0mh[1;30me [0;1mS[0my[1;30msop(s) [0;1mo[0mf [1mt[0mh[1;30mis [0;1mb[0mb[1;30ms [0mf[1;30mor [0;1md[0mi[1;30mstributing [0;1mm[0my [1mf[0mi[1;30mles![0m'
+           [31m▀▀[0;1;31;41ms[0;30;41mc[0;31m▄▄▄ ▓▓▒░ ░[0m        [1;30m▀▌[0;32m▐▄[0m     [32m▄▌[0;1;30m▐▀    [0;31m░░▒▓   ▓▓[0m      [31m▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e9d2a4612026c6ab51f4e158626c1b484faab4fb7ecb7414cdadafde908f7e40
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-JAZZ1.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jazz.
 # SAUCE Author: Da Drug
 # SAUCE Group: Misery Productions.
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mdadrug([0mmisery[1m)[0m
+[1m       [0m      [1m [0m
 
                            j   a        z            z
 

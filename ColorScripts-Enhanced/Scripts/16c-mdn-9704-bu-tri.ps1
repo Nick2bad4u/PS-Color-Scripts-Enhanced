@@ -5,7 +5,7 @@
 # Source SHA-256: 38ef58976728dc2edc66bf5553fea223e892cf313f2535599ad704ad30c1ca8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BU-TRI!.ANS by bUtTmAn (cSf/mAiden); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the roswell incident...
 # SAUCE Author: bUtTmAn
 # SAUCE Group: cSf/mAiden
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m>──[0;34m<[0;36mThis space was reserved to request to phlare a kewl ansi too! ...[0;34m>[0;1;30m--─-─-─-─<[0m
+[1;30m ──[0;34m [0;36m                                                                 [0;34m [0;1;30m  ─ ─ ─ ─ [0m
 
                                   [1;44mT[0m·[1;30mH[0m·[1;30mE [0m·[1;30m R[0m·[1;30mO[0m·[1;30mS[0m·[1;30mW[0m·[1;30mE[0m·[1;30mL[0m·[1;44mL[0;1;30;40m [0m·[1;30m i[0m·[1;44mN[0m·[1;30mC[0m·[1;30mi[0m·[1;30mD[0m·[1;30mE[0m·[1;30mN[0m·[1;30mT[0m
               [1;36m [0m                                                              [36m   [0m
@@ -33,7 +33,7 @@ Write-Host '
 [36m█[0;1;36;46m▄[0;1;36;40m▄▄▄[0;36m▄   ▀[0;1;36m▀▀▀▀▀▀[0;1;36;46m▀████████▓▒░[0;36m▄    ▀[0;1;36;46m░▒▓████████████▄[0;1;36;40m▄▄[0;36m▄   ▀[0;1;36m▀▀▀▀▀[0;1;36;46m▀███████████▓▒░ [0;36m▀ [0m
 [1;36m [0;1;36;46m░▒▓█▀[0;1;36;40m▀▀▀▀▀[0;36m▀           ▀[0;1;36m▀▀▀[0;36m          ▀[0;1;36m▀▀▀[0;1;36;46m▀███████▀[0;1;36;40m▀▀▀▀▀▀▀[0;36m▀         ▀[0;1;36m▀▀▀▀▀[0;36m▀      [0m
 [1;36m  [0m
-     [1;30m+[0m·[1;44mO[0;1;30;40m [0m·[1;30m P[0m·[1;30mH[0m·[1;44mL[0m·[1;30mA[0m·[1;30mR[0m·[1;30mE[0m ·[1;30m A[0m·[1;44mN[0m·[1;30mD[0m ·[1;30m D[0m·[1;30mF[0m·[1;44mU[0m·[1;30mS[0m·[1;30mE[0m           [1;30m           bu[0;34m<[0;36mmAiDEn[0;34m>[0m
+     [1;30m [0m [1;44m [0;1;30;40m [0m [1;30m  [0m [1;30m [0m [1;44m [0m [1;30m [0m [1;30m [0m [1;30m [0m  [1;30m  [0m [1;44m [0m [1;30m [0m  [1;30m  [0m [1;30m [0m [1;44m [0m [1;30m [0m [1;30m [0m           [1;30m             [0;34m [0;36m      [0;34m [0m
                                                                [1;30m          [0m
-[1;30m>─[0;34m<[0;36mif u want one send an e-mail to buttman_@hotmail.com[0;34m>[0;1;30m─---------───  [0;36m▀[0;1;30m─-─-─-─<[0m
+[1;30m ─[0;34m [0;36m                                                    [0;34m [0;1;30m─         ───  [0;36m▀[0;1;30m─ ─ ─ ─ [0m
                                                                   [36m [0;1;30m [0;36m▀[0;1;30m   [0m'

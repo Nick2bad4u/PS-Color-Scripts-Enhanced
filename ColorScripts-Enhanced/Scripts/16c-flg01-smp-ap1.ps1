@@ -5,7 +5,7 @@
 # Source SHA-256: 3bd554a6eb54f66b37b9582f710277b0aa25046ff89a3a4a7d46ad6f19d10187
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-AP1.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Aphid
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
@@ -39,8 +39,4 @@ Write-Host '
 [37m██  [0m      [31m▀[0m        [37m  ▓[0;1;37;47m░░[0m██▓[1;47m▓▓[0m█▄    [31m  ▀[0;1;31;41m▀████▀▀[0;31m█▄▄▄▄[0m      [35m▀▀▀█[0;1;35;45m▄▄[0;35m▄▄[0m    [37m  ▀▀[0;1;37;47m▀▀▓▓▓▒▒[0m▄
 [1;47m ▄[0m█▄        [31m▀[0m    [37m  ▄█[0;1;37;47m▄▓▓[0m█▓ █[1;47m▀██▄[0m▄    [31m  ▀[0;1;31m▀▀[0;31m▀[0m      [31m ▀▀[0;35m▀▄▄  [0m    [35m▀[0;1;35;45m▀▓░[0m         ▀[1;47m▒▒░░[0m█
 ▀█[1;47m▀▓░[0m█▄▄▄       ▄▄[1;47m▄▄██▀[0m█▀[34m▄█▄[0;37m▀█[0;1;37;47m▀▓▓░[0m█▄▄ [35m    [0m              [35m▀[0m    [35m▄▀▀  [0;31m+o[0;35mShrimp  [0;1;37;47m░ [0m██
-────────────────────────────────────────────────────────────────────────────────
-
-Woo. This looks good. Anyway, Aphid is my board, P L E A S E  draw for it..
-I''ll draw you something in return - I always do. :)
-                                                             -Shrimp[0m'
+────────────────────────────────────────────────────────────────────────────────[0m'

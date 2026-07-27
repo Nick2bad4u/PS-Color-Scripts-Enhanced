@@ -5,7 +5,7 @@
 # Source SHA-256: 391603bb3946ba9fe2efe1f53bc228ff60483fac10027ba2518fedbad80d94cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS_MAIN.ANS by Wargod (twat0898); released in twat0898 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -25,13 +25,12 @@ Write-Host '
           [36md a r k [0;1;30m▀▀███▄  [0;36ms o u l  [0;1;36m:   [0;36mm a i[0;1;30m▀▀███▄ [0;36mn   m e n[0;1;30m▐█▌[0;36mu[0m
 [36m  [0;37m---------------------[0;1;30m▀▀▄[0m----------------------[1;30m▀▀▀▄[0m--------[1;30;47m█[0;1;30;40m█[0;1;30;47m█[0m-------------
                                                              [1;30m▀[0m
-     [1;37m.[0mx[1;30m[[0;36ma[0;1;30m][0mx[1m. [0;36muto menu[0m        [1;37m.[0mx[1;30m[[0;36mi[0;1;30m][0mx[1m. [0;36mnfo on system    [0;1;37m.[0mx[1;30m[[0;36ms[0;1;30m][0mx[1m. [0;36mystem bulletins[0m
-     [1;37m.[0mx[1;30m[[0;36mb[0;1;30m][0mx[1m. [0;36mbs list[0m         [1;37m.[0mx[1;30m[[0;36mj[0;1;30m][0mx[1m. [0;36moin conference   [0;1;37m.[0mx[1;30m[[0;36mu[0;1;30m][0mx[1m. [0;36mser list[0m
-     [1;37m.[0mx[1;30m[[0;36mc[0;1;30m][0mx[1m. [0;36mhat w[0;1;36m/ [0;1;30mK[0mi[1mll[0ma[1;30mh   [0;1;37m.[0mx[1;30m[[0;36ml[0;1;30m][0mx[1m. [0;36mist callers[0m      [1;37m.[0mx[1;30m[[0;36mv[0;1;30m][0mx[1m. [0;36moting booth[0m
-     [1;37m.[0mx[1;30m[[0;36me[0;1;30m][0mx[1m. [0;36mmail menu[0m       [1;37m.[0mx[1;30m[[0;36mm[0;1;30m][0mx[1m. [0;36message menu[0m      [1;37m.[0mx[1;30m[[0;36mx[0;1;30m][0mx[1m. [0;36mexpert mode[0m
-     [1;37m.[0mx[1;30m[[0;36mf[0;1;30m][0mx[1m. [0;36mile menu[0m        [1;37m.[0mx[1;30m[[0;36mn[0;1;30m][0mx[1m. [0;36mote to sop''s[0m     [1;37m.[0mx[1;30m[[0;36my[0;1;30m][0mx[1m. [0;36mour info[0m
-     [1;37m.[0mx[1;30m[[0;36mg[0;1;30m][0mx[1m. [0;36moodbye[0m          [1;37m.[0mx[1;30m[[0;36mo[0;1;30m][0mx[1m. [0;36mnline menu[0m       [1;37m.[0mx[1;30m[[0;36m![0;1;30m][0mx[1m. [0;36moffline menu[0m
-     [1;37m.[0mx[1;30m[[0;36m/g[0;1;30m][0mx[1m. [0;36moodbye fast!   [0;1;37m.[0mx[1;30m[[0;36mp[0;1;30m][0mx[1m. [0;36mersonal menu[0m     [1;37m.[0mx[1;30m[[0;36m$[0;1;30m][0mx[1m. [0;36mtime bank[0m
+     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m        [0m        [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m                 [0;1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m               [0m
+     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m       [0m         [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m                 [0;1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m        [0m
+     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m     [0;1;36m  [0;1;30m [0m [1m  [0m [1;30m    [0;1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m           [0m      [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m           [0m
+     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m         [0m       [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m           [0m      [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m           [0m
+     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m        [0m        [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m            [0m     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m        [0m
+     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m      [0m          [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m          [0m       [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m            [0m
+     [1;37m [0m [1;30m [0;36m  [0;1;30m [0m [1m  [0;36m               [0;1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m            [0m     [1;37m [0m [1;30m [0;36m [0;1;30m [0m [1m  [0;36m         [0m
 
-[1;30m+-------------[[0;1;37mcUT tHIS sHEET[0;1;30m]-------------------------------------------------+[0m
-[1;30m  [0;1;37mThis is for Killah''s board Dark soul.. don''t rip or you''ll die.. -wG[0m'
+[1;30m+-------------[[0;1;37mcUT tHIS sHEET[0;1;30m]-------------------------------------------------+[0m'

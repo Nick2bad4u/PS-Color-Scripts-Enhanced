@@ -5,7 +5,7 @@
 # Source SHA-256: 2704d230432110451aa546af2aca88f60fca036f5ae97c13d131d734c12d6496
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH-PGSKL.ANS by Maddog Hoek (Splat); released in splt0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: PyroGenesis
 # SAUCE Author: Maddog Hoek
 # SAUCE Group: Splat
@@ -29,7 +29,7 @@ Write-Host '
 [1;36;40mability to oper-[0;1;33;40m▐███▌███████████[0;30;41m▓▓▓▓[0;1;33;40m██[0;30;41m░░░░░░░[0;1;33;40m██[0;30;41m▓▓▓▓[0;1;33;40m███████████▐███▌ [0;1;36;40mi   want  to[0m
 [36mate on their own[0;1;33m▐███▌█████████████[0;30;41m▓[0;1;33;40m▐█▌[0;30;41m▒▒▒▒▒▒▒[0;1;33;40m▐█▌[0;30;41m▓[0;1;33;40m█████████████▐███▌ [0;36msmash  it up[0m
 [1;34mfree will, with- [0;1;33m████ ███████████████[0;30;41m▓▓▓▓▓▓▓▓▓[0;1;33;40m███████████████ ████ [0;1;34;40mi   want   to[0m
-[34mout causing harm [0;1;33m█████▐████▀███████████████████████████▀████▌█████ [0;34mfuck  it up /[0m
+[34m                 [0;1;33m█████▐████▀███████████████████████████▀████▌█████ [0;34m             [0m
 [1;34mto each other or [0;1;33m█████ █████▄▀███████████████████████▀▄█████ █████ [0;1;34mi   want   to[0m
 [36mto   the  enjoy-  [0;1;33m████▐█████████▄█▄█▄▄▀▀███▀▀▄▄█▄█▄█████████▌████  [0;36mwatch it come[0m
 [1;36mability   of  the [0;1;33m███ ██████████████████▄▀▄██████████████████ ███ [0;1;36mdown"[0m     [1;36m.NiN[0m
@@ -45,7 +45,7 @@ Write-Host '
 [1;36myou would like to be  [0;1;33m▄▀▀████▀▀▄███████████████████▄▀▀████▀▀▄  [0;1;36mis  going smooth-[0m
 [36ma  part  of  the new- [0;1;33m▐██▌▀▄ █████████████████████████ ▄▀▐██▌ [0;36mly; do not look to[0m
 [1;34mand-improved  look and [0;1;33m██  ▐███████████████████████████▌  ██  [0;1;34mme as a regulator.[0m
-[34mfeel  of  the  system, [0;1;33m██▌  ███████████████████████████  ▐██  [0;34mDon''t  piss people[0m
+[34m                       [0;1;33m██▌  ███████████████████████████  ▐██  [0;34m                  [0m
 [1;34mthen  give  us a call [0;1;33m▐███  ▀█▐██▌███████████████▐██▌█▀  ███▌ [0;1;34moff,   and  you''ll[0m
 [36mat  the number at the [0;1;33m█████▄█▄▀██ ███▌███▌███▐███ ██ ▄█▄█████ [0;36mbe  alright.   But[0m
 [1;36mend  of this message. [0;1;33m████████▌▄▄  ▀▀ ▀██ ███ ▀▀ ▄▄▐█▐███████ [0;1;36mmost  importantly,[0m

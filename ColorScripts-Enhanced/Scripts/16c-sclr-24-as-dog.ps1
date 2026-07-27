@@ -5,12 +5,12 @@
 # Source SHA-256: 1a8d1b750b7950f3d656fc5aa2491b00aa5f2c4573aa04f7850576bc0897138b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-DOG.ANS by Asd (sclr-24); released in sclr-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
-[1;30;40myyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy[0;37;40m   [0m
+[1;30;40m                                                                             [0;37;40m   [0m
 [1;30;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37;40m   [0m
 [1;30;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37;40m   [0m
 [1;30;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37;40m   [0m
@@ -34,5 +34,4 @@ Write-Host '
 [1;30;40m$$$$7[0;37;40m ;$$$/  [0;1;30;40m/$$$$L┌,.,┐\$L[0;37;40m `7[0;1;37;40m$[0;37;40mS [0;1;30;40ml$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37;40m  [0m
 [1;30;40m$$$$$b.[0;37;40m`/$[0;1;37;40mS[0;37;40mL. [0;1;30;40m?$$$$$$$$$$$$$.,[0;37;40m`L [0;1;30;40m1$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$asd$[0;37;40m  [0m
 [37;40m [0;1;30;40m$$$$$$$S**┌┌*S$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37;40m  [0m
-[1;30;40m``````````````````````````````````````````````````````````````````````````````[0;37;40m  [0m
-[37;40m                                                                                [0m'
+[1;30;40m``````````````````````````````````````````````````````````````````````````````[0;37;40m  [0m'

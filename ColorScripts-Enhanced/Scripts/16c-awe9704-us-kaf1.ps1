@@ -5,7 +5,7 @@
 # Source SHA-256: 22ecca7ebb1581831877e7e1a09488d02ed7b661967eab2db78a970b68e373b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-KAF1.ANS by Massm + Discyple (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kafkaesk
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -51,6 +51,4 @@ Write-Host '
                                           [31m▀▀▀ [0m     [1;33m  [0m
                                        [31m▄█▄[0m
                                         [31m▀[0m
-                                          [31m▀[0m
-
-[1;30m      [0m "what kind of [1mshellfish [0mare these guys [1msmoking[0m, anyways?!@#?"[0m'
+                                          [31m▀[0m'

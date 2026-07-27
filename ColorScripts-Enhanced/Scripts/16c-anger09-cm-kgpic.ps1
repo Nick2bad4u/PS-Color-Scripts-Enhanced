@@ -5,7 +5,7 @@
 # Source SHA-256: ec7d97d1d2876116142c096fc792f31e289fcdab93fc579718b8e88f04a4ecfd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-KGPIC.ANS by cheeze monkey (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kongo -cm's first pic. :)
 # SAUCE Author: cheeze monkey
 # SAUCE Group: anger
@@ -35,6 +35,4 @@ Write-Host '
       [34m█▄▄▄██▄▄[0m        [34m█ [0;37m▀▀▀[0;1;37m▒▒▒▒▒▓▓███████▄▄▄▄▄▄▒▄▄▄▄███▌[0;34m▐███▀[0m        [34m▐▌[0m
         [34m▀▀▀███████▄▄▄▄█[0;1;35;44m░[0;34m█▓█▄▄▄▄  [0;1;37m▀▀▀▀▀▀█████████████████ [0;34m▐█▌[0m        [34m▄▓[0m
                  [34m▀▀▀▀▀▀▀▀▀███████████▓▄▄ [0;1;37m▀▀▓██████████▀ [0;34m▄██▀▓▄▄▄▓▀▀▀▀[0m
-                                   [34m▀▀▀▀▀▀▀  [0;1;37m▀▀▓█▀ ▀▀▀  [0;34m▀▀[0m
-
-[1;33mmy first pic so fuck you all :)[0m'
+                                   [34m▀▀▀▀▀▀▀  [0;1;37m▀▀▓█▀ ▀▀▀  [0;34m▀▀[0m'

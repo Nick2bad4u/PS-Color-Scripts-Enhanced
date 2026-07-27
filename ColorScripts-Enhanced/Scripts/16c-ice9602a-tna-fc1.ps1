@@ -5,7 +5,7 @@
 # Source SHA-256: 933b94989f7eaa2a1bc7442397cd3c56e4af95da7f198a1c0511fc96bbb55f31
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-FC1.ICE by TNA (iCE Advertisements); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Free Cocaine
 # SAUCE Author: TNA
 # SAUCE Group: iCE Advertisements
@@ -16,7 +16,7 @@
 
 Write-Host '
 
- [1;30m- tna(iCE)[0m
+ [1;30m          [0m
                                                          [34m▄■[0m                  [34m▄[0m
 [34m▀ ▀▓▓▓▄▄█▄▄▄[0m       [34m▀ ▀▀▀[0;30;44m░░[0;34;40m▓▄▐▄▄[0m            [34;40m░░ ▄   ▄ ▄▄[0;1;34;40m▄[0;1;34;44m▄▌[0;34m▌[0m        [34m▄ ░░▄ ▄▄▄[0;1;34;44m▄▌[0;34m▌[0m
 [34m   ░░░ ▐█  ▄▀▀▐▄▄▄   ▀■▄  ░▐█[0;1;34;44m░░[0;34m▓▓▓▄▄  ▀ ■▄▄▓▓[0;34;44m [0;1;34;44m▀[0;34m▀▀▀[0;34;44m [0;1;34;44m▄[0;1;34;47m▓▓[0;1;34;44m██▀[0;34m▀▀■▄ ▀ ▀▀[0;1;34;44m▀[0;34m▀▓▓█[0;1;34;44m▄[0;1;34;47m▓▓[0;1;34;44m██▀[0;34m▀[0m
@@ -30,10 +30,10 @@ Write-Host '
 [34;40m░░[0;30;44m░[0;34;40m▌▐██▓░[0m             [34;40m█[0;1;34;44m░[0;34m█[0;34;47m█▓[0;34;40m▓░    ▐█▌  ▀▄█[0;30;44m■[0;34;40m▀[0;1;37;44m░[0;44m░[0;34;40m█▓░   ▄█▀ ░░▄█▀▐█████    ▄█▀ ░░▄[0;34;44m [0;34;40m▀[0m
 [34;40m▄▄[0;1;34;44m▄[0;34m▄▓▓▄[0;1;34;44m▄[0;34m▄▄ ▄[0m      [34m▄ ▄▄█▄[0;30;44m░[0;34;40m▓▄[0;1;34;44m▄[0;34m▓░░   [0;1;34;44m░[0;34m█░░ ▐██▌▐[0;30;44m░[0;34;40m▄[0;1;34;44m▄[0;34m▄▄█[0;35;44m░[0;30;44m░[0;34;40m▓█▄▓▓▀ ▄[0;1;34;44m▄[0;34m█▓▓▄[0;1;34;44m▄[0;34m▄▄█▓▓▓█▄▓▓▀[0m
 [34m  ▀ ░░ ▀[0m              [34m▀ ░░ ▀[0m     [1;34m░[0;1;34;44m▒░[0m [34m▄▄▄▀▀▀▀■ ▀[0m             [34m▀ ░░ ▀   ░░░[0m
-[1;30mif you want a logo from me,[0m      [34m▐[0;1;34;44m░[0;34m▀▀[0m
-[1;30msend cash to:[0m                   [34m▄▀[0m
-[1;30mAlexandre Menard[0m
-[1;30m488c Blvd Le Bourgneuf[0m
-[1;30mLe Gardeur, QC[0m
-[1;30mCanada[0m
+[1;30m                           [0m      [34m▐[0;1;34;44m░[0;34m▀▀[0m
+[1;30m             [0m                   [34m▄▀[0m
+[1;30m                [0m
+[1;30m                      [0m
+[1;30m              [0m
+[1;30m      [0m
 [1;30mJ5Z 4S1[0m'

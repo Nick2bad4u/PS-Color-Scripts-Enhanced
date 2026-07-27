@@ -5,7 +5,7 @@
 # Source SHA-256: d76a9c99328cc912534619f6a4566765fd21b57adaea5bdd1ea741d51d76ccca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-THRL8.ANS by MoonWalkeR (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Thriller Logo 8
 # SAUCE Author: MoonWalkeR
 # SAUCE Group: NeveRLanD People
@@ -16,8 +16,8 @@
 
 Write-Host '
 
-                                                               [1;30ma[0;31mNS[0;1;30mi By[0m
-                                                              [1;30mMo[0;31mon[0;1;31mWa[0;31mlk[0;1;30meR[0m
+                                                               [1;30m [0;31m  [0;1;30m    [0m
+                                                              [1;30m  [0;31m  [0;1;31m  [0;31m  [0;1;30m  [0m
     [34m▄▄[0m
 [37m [0;34m▄▄[0;1;34;44m▒▒▒▓▓[0;1;34;40m▄▄[0m                  [34m ▄▄[0;1;34;44m░░[0;34m▄[0m    [34m▄▄▄[0m                            [34m ▄▄[0;1;34;44m░░[0;34m▄[0m
 [34m█[0;1;34;44m ░░▒▒▓▓▓██[0;1;34;40m▄[0m  [31m▐[0;1;31;41m [0;31m█▄▄ [0;37m  [0;1;31m▐▌[0m  [1;31m▐[0;34m▄▀▀ ▀[0;1;34;44m░▒[0;34m▌[0;31m [0;1;34;44m▓▓▒▒░[0;34m▀[0;31m▄▄█[0m    [31m ▄▄█[0m    [31m ▄▄[0;1;34;41m▀[0;1;34;40m▀[0;1;34;44m█▓[0;1;34;40m▄▄[0m [1;31m▐[0;34m▄▀▀ ▀[0;1;34;44m░▒[0;34m▌[0;31m [0m

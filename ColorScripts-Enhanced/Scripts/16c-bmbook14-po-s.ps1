@@ -5,7 +5,7 @@
 # Source SHA-256: 2d7cca3678b673975d65d03ffcbad2cc1ad8db61f3427df7a255645b873585a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-S.ANS by poti (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the skateshop
 # SAUCE Author: poti
 # SAUCE Group: black maiden
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-■ the skateshop (for hennifer)
+■                             
 
 
 
@@ -39,4 +39,4 @@ Write-Host '
 
 
 
-[1;30m ■ my first ansi for ages. thanks to noize.[0m'
+[1;30m ■                                         [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 85382d78f72f8625a12700f75647a5b491e1d6a098239040d8421370c9b9666e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ts-apathy13ep.ans by transient (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: apathy 13 ep (vishnu)
 # SAUCE Author: transient
 # SAUCE Group: apathy
@@ -58,5 +58,4 @@ Write-Host '
 [1;30m▒▒▒▒▒▒▒▒▒▒▒▒[0m  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [1;30m▓▓▓▓▓▓▓▓▓▓▓▓[0m                                           [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;37m[qvr001][0;1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37mts[0m
-[107m          [0;1m██[0;107mgreets: ex-apathy! blocktronics crew (4 keeping it alive!)          [0m
-[1;30;47m                  ansi by transient (www.noisyvagabond.com)                     [0m'
+[107m          [0;1m██[0;107m                                                                    [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 69d439cd0d7ec08f021e04c5845d42c17b2615efa9bf8f3cae1e164a273be51a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-ixxu.ans by spinsane (iMPURE); released in impure83 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ixxu
 # SAUCE Author: spinsane
 # SAUCE Group: iMPURE
@@ -49,7 +49,4 @@ Write-Host '
 [37;40m      //[0;31;40mfUN[0;32;40m$b|[0;37;40m$$$$$$$½Σ=" \\_||           |                                   [0;30;45m|[0m
 [37;40m         "ⁿ*|S$$$\\                       |                                   [0;30;45m|[0m
 [37;40m [0;30;45m-----------------------------------------------------------------------------|[0m
-[37;40m                                          |                                   [0;35;40m|[0m
-[37;40m   oh. <boy>                              |   all my friends know             [0;35;40m|[0m
-[37;40m    boy boy boy boy                       |                                   [0;35;40m|[0m
-[37;40m     so7nd+2x - jaZZyJeFF. you''re OK. B+  |    the low rider    [0;35;40m: [0;1;34;44msP[0;1;33;44m![0;1;37;46mMp[0m'
+[37;40m                                          |                                   [0;35;40m|[0m'

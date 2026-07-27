@@ -5,7 +5,7 @@
 # Source SHA-256: 6e8313a03272d172f8a97327e0e8b57a46aa186ca86c63fd0df4aa26a22b6517
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: shd-3dd.ans by Shadow (prj13-01); released in prj13-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -14,12 +14,12 @@ Write-Host '
 [31;40m                  [0;1;33;40m          `.   .;           [0;31;40m                                  [0m
 [31;40m                  [0;1;33;40m      ,  .:[0;1;30;40m...::...[0;1;33;40m'' .''     [0;31;40m                                  [0m
 [31;40m                  [0;1;33;40m    `:.[0;1;30;40m.::''''[0;1;33;40m     [0;1;30;40m``::[0;1;33;40m:. ..  [0;31;40m  [0;1;30;40m Molten fire...                [0;1;31;40m [0m
-[31;40m                  [0;1;33;40m .  .[0;1;30;40m.:''[0;1;33;40m             [0;1;30;40m`:[0;1;33;40m:''   [0;31;40m  [0;1;30;40m          flies thru the sky  [0;1;31;40m [0;31;40m [0m
-[31;40m                  [0;1;33;40m  `:[0;1;30;40m:''[0;1;33;40m                 [0;1;30;40m`:.[0;1;33;40m ,[0;31;40m [0;1;30;40m [0;31;40m [0;1;30;40mBurning high...               [0;1;31;40m [0m
-[31;40m      ,           [0;1;33;40m  .[0;1;30;40m:''[0;1;33;40m                   [0;1;30;40m`:[0;1;33;40m'' [0;31;40m  [0;1;30;40m          eclipse of the sun  [0;1;31;40m [0;31;40m [0m
-[31;40m   `.             [0;1;33;40m`.:[0;1;30;40m:[0;1;33;40m                     [0;1;30;40m:[0;1;33;40m. [0;31;40m [0;1;30;40m [0;31;40m [0;1;30;40mBlackened skies               [0;1;31;40m [0m
-[31;40m     ?            [0;1;33;40m  .[0;1;30;40m:.[0;1;33;40m                   [0;1;30;40m.:[0;1;33;40m:.[0;31;40m [0;1;30;40m [0;31;40m [0;1;30;40mRites of the night            [0;1;31;40m [0m
-[31;40m   ,  $.          [0;1;33;40m '' `[0;1;30;40m:.[0;1;33;40m                 [0;1;30;40m.:''[0;1;33;40m  `[0;31;40m [0;1;30;40m Three days in darkness in 2012[0;1;31;40m [0m
+[31;40m                  [0;1;33;40m     [0;1;30;40m   [0;1;33;40m             [0;1;30;40m  [0;1;33;40m     [0;31;40m  [0;1;30;40m                              [0;1;31;40m [0;31;40m [0m
+[31;40m                  [0;1;33;40m    [0;1;30;40m  [0;1;33;40m                 [0;1;30;40m   [0;1;33;40m  [0;31;40m [0;1;30;40m [0;31;40m [0;1;30;40m                              [0;1;31;40m [0m
+[31;40m                  [0;1;33;40m   [0;1;30;40m  [0;1;33;40m                   [0;1;30;40m  [0;1;33;40m  [0;31;40m  [0;1;30;40m                              [0;1;31;40m [0;31;40m [0m
+[31;40m                  [0;1;33;40m   [0;1;30;40m [0;1;33;40m                     [0;1;30;40m [0;1;33;40m  [0;31;40m [0;1;30;40m [0;31;40m [0;1;30;40m                              [0;1;31;40m [0m
+[31;40m                  [0;1;33;40m   [0;1;30;40m  [0;1;33;40m                   [0;1;30;40m  [0;1;33;40m  [0;31;40m [0;1;30;40m [0;31;40m [0;1;30;40m                              [0;1;31;40m [0m
+[31;40m                  [0;1;33;40m    [0;1;30;40m  [0;1;33;40m                 [0;1;30;40m   [0;1;33;40m   [0;31;40m [0;1;30;40m                               [0;1;31;40m [0m
 [31;40m     d$C    .s%s, [0;1;33;40m  ..:[0;1;30;40m'':.[0;1;33;40m             [0;1;30;40m.:''[0;1;33;40m`;  [0;31;40m                                  [0m
 [31;40m    ╢$F''   4Q"`"Q [0;1;33;40m  .'' `''[0;1;30;40m`:..[0;1;33;40m       [0;1;30;40m..:''[0;1;33;40m`.    [0;31;40m                        .    ,    [0m
 [31;40m    └E     ?l  .7 [0;1;33;40m       .''''[0;1;30;40m``::::''''`[0;1;33;40m;        [0;31;40m          .    ,  .   .        .  [0m
@@ -50,9 +50,7 @@ Write-Host '
 [31;40m   `''                       `?$L  .∙· `?$$S$$$jJ╜"` `└jL `   ` ($''   `$b        [0m
 [1;30;40m       [ShD]               [0;31;40m   `?. `     `^└SS┘''        └;      └$      ?$       [0m
 [1;30;40m                           [0;31;40m     `                               `       ''       [0m
-[1;30;40m  "Three Days In Darkness" [0;37;40m         [0;1;30;40mSo the meaning of life ends in prophecy[0;37;40m     [0m
-[37;40m [0;1;30;40m .    .  .  . .................    Premonitions of tragedy                [0;37;40m     [0m
-[37;40m [0;1;30;40m                              :    Still no hope for humanity             [0;37;40m     [0m
-[37;40m [0;1;30;40m                              :.............................. . .   .     . [0;37;40m   [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m'
+[1;30;40m                           [0;37;40m         [0;1;30;40m                                       [0;37;40m     [0m
+[37;40m [0;1;30;40m                                                                          [0;37;40m     [0m
+[37;40m [0;1;30;40m                                                                          [0;37;40m     [0m
+[37;40m [0;1;30;40m                              :.............................. . .   .     . [0;37;40m   [0m'

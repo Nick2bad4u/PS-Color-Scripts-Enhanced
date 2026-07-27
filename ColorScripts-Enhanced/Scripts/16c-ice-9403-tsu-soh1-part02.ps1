@@ -5,7 +5,7 @@
 # Source SHA-256: 6db89729a2787c7698697f1e7169fc9b84508bde13d065ce991343ca80103efb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSU-SOH1.ICE by Tatsu (ice-9403); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -36,7 +36,7 @@ Write-Host '
 [1;30m    ▀[0;1;30;45m▒▒░░[0;35m█[0;1;30;45m░[0;35m██[0;1;30;45m░[0;35m█[0;1;30;45m░[0;35m███[0;1;30;45m░[0;35m██[0;1;30;45m░[0;35m█[0;1;30;45m░[0;35m██[0;1;30;45m░[0;35m████[0;1;30;45m░[0;35m██[0;1;30;45m░░[0;35m██[0;1;30;45m░[0;35m████[0;1;30;45m ░░░[0;35m███[0;1;30;45m░[0;35m█[0;1;30;45m░[0;35m█[0;1;30;45m░ ░░▒▒▓[0;35m▀▀▀[0;1;30m▀(c) 1994·iCE[0m
        [1;30m▀▀[0;35m▀▀[0;1;30;45m▄▓▒▒░░[0;35m█[0;1;30;45m▄[0;35m█[0;1;30;45m▄▄▄[0;35m█[0;1;30;45m ░░[0;35m██[0;1;30;45m░[0;35m█████[0;1;30;45m░░[0;35m█[0;1;30;45m░▒▓▄[0;35m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀▀▀[0m      [1;30m░[0m
 [1;30m░[0m              [1;30m▒▒░░[0m                                            [1;30m▒░[0m
-[1;30m▒░   "Rune"·From Rune/Wrath Ashcan Edition·Barry Windsor Smith·Malibu Comics[0m
+[1;30m▒░                                                                          [0m
 [1;30m▓▒░[0m              [1;30m▓▓▒▒░░[0m                                          [1;30m▒░[0m
 [1;30m ▓▒░  [0;31m▄█▄ ▄[0m        [1;30m▓▓▒▒░░[0m                          [1mi[0mCE [1;30mTRiAL HeadQuarters[0m
 [1;30m  ▓ [0;31m▄▀ ▀█▀[0m           [1;30m▓▓▒▒░░[0m                        [1mB[0mARQ! [1;30mWorld HeadQuarters[0m
@@ -59,4 +59,4 @@ Write-Host '
 [1;30m   [0m█[1;47m░[0m [1;30m▓▒  [0m█[1;47m░[0m   [1;47m░░[0m        █[1;47m░[0m     █[1;47m░[0m [1;30m▓▒░   [0;1mO[0mPTiK [1;30mSouthern HeadQuarters[0m          [1;30m▓[0m
 [1;30m  [0m▀[1;47m▒▓[0m▀ [1;30m▓ [0m▀[1;47m▒▓[0m▀ ▀▀[1;47m▒▓[0m▄▄▄▀  ▀[1;47m▒▓[0m▀   ▀[1;47m▒▓[0m▀ [1;30m▓▒   [0;1mT[0moxin [1;30mSouthern HeadQuarters    ░[0m
 [1;30m    [0;1m▀[0m      [1m▀[0m      [1m▀▀[0m      [1m▀[0m      [1m▀   [0;1;30m▓   [0;1mT[0mURBiNE [1;30mMember Board[0m           [1;30m▒░[0m
-[1;30mGreets to : 604 iCE, SS, and 6Pak. H''lo. [0;1mA[0mNSi [1;30mBy Tatsu [[0;1mi[0mCE[1;30m] · 03/25/94 ▓▒░[0m'
+[1;30m                                         [0;1m [0m    [1;30m          [0;1m [0m  [1;30m             ▓▒░[0m'

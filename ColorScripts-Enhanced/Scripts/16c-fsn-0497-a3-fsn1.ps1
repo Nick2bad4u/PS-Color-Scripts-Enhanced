@@ -5,7 +5,7 @@
 # Source SHA-256: ee3e5e53d92d06def2bb81202675563910164e8540299e1f2453937ece1166bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: A3-FSN1.ANS by absence (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fusion
 # SAUCE Author: absence
 # SAUCE Date: 19970326
@@ -42,6 +42,6 @@ Write-Host '
 
 [1;30m··············································································░·[0m
  [36m░[0m                                               [36m░[0;30;46m▓[0;36;40m [0m                          [1;30;40m [0m
-[30;46m▓y[0;36;40mep[0;1;30;40m.[0;36m░[0;1;30m a experimential logo this time <g> ..heh,[0;30;46m▒[0;5;30;46mf[0;36muxxor![0;1;30m  i''ll get better :) . [0m
-[1;30mand[0m [30;46m▓[0;5;30;46mo[0;36mi[0;1;30m.. l8ez illogic.[0;36m ░[0;1;30m [0;36m░[0;30;46m░>[0;36;40m>[0;37;40m [0;1;30;40mi almost forgot, [0;30;46m▓y[0;36;40mo [0;1;30;40mshaft..░.3r33t3h!.. <dang![0;1;5;30;40m_[0m
+[30;46m▓ [0;36;40m  [0;1;30;40m [0;36m░[0;1;30m                                          [0;30;46m▒[0;5;30;46m [0;36m      [0;1;30m                       [0m
+[1;30m   [0m [30;46m▓[0;5;30;46m [0;36m [0;1;30m                [0;36m ░[0;1;30m [0;36m░[0;30;46m░ [0;36;40m [0;37;40m [0;1;30;40m                 [0;30;46m▓ [0;36;40m  [0;1;30;40m       ░                  [0;1;5;30;40m [0m
                                                  [36m░[0m'

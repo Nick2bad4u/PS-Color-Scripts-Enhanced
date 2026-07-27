@@ -5,7 +5,7 @@
 # Source SHA-256: 8ebcc11bae48b8c07c6599544d8dba43f4c05bda299ec7c341d96e30d0954363
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-RV2B.ANS by Necromancer + Omicron + Whodini + Hiro Protagonist (rmrs-23); released in rmrs-23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -24,10 +24,10 @@ Write-Host '
   [36m/[0;37m [0;32m\[0;36m//[0m          [36m|[0;1;37m [0m                                   [1m [0m [1m  [0m                [36m\\/[0;37m [0;36m\[0m
 [37m  [0;36m`[0;37m [0;35m::::::::::::[0;37m [0;36m|[0;1;37m [0;35m:::::::::::::::::::::::::::::::::::[0;1;37m [0;35m::::::::::::::::::::[0;37m [0;1;37m░[0m [36m|[0;1;30m:[0m
  [1;30m [0;32m.[0;1;37m [0;35m::::::::::::[0;1;37m [0;36m|[0;1;37m [0;35m:::::::::::::::::::::::::::::::::::[0;1;37m [0;35m::::::::::::::::::::[0;37m [0;1;37m░[0m [36m|[0m
-[37m [0;1;30m [0;36m:[0;37m [0;35mFILENAME.EXT[0;37m [0;36m|[0;1;37m [0;35mDescription area that is 35 spaces. Artist name in here.[0;1;37m ░[0m [36m|[0m
-[37m [0;1;30m [0;1;36m:[0m [35mFILENAME.EXT[0;37m [0;36m|[0;1;37m [0;35mDescription area that is 35 spaces. Artist name in here.[0;37m [0;1;37m▒[0m [36m|[0m
-[37m [0;1;30m [0;1;36m:[0m [1;35mFILENAME.EXT[0m [36m|[0;1;37m [0;1;35mDescription area that is 35 spaces. Artist name in here.[0m [1m▒[0m [1;36m:[0m
- [1;30m [0;36m|[0;37m [0;35mFILENAME.EXT[0;37m [0;36m|[0;1;37m [0;35mDescription area that is 35 spaces. Artist name in here.[0;37m [0;1;37m▓[0m [1;36m:[0m
+[37m [0;1;30m [0;36m [0;37m [0;35m            [0;37m [0;36m [0;1;37m [0;35m                                                        [0;1;37m ░[0m [36m [0m
+[37m [0;1;30m [0;1;36m [0m [35m            [0;37m [0;36m [0;1;37m [0;35m                                                        [0;37m [0;1;37m▒[0m [36m [0m
+[37m [0;1;30m [0;1;36m [0m [1;35m            [0m [36m [0;1;37m [0;1;35m                                                        [0m [1m▒[0m [1;36m [0m
+ [1;30m [0;36m [0;37m [0;35m            [0;37m [0;36m [0;1;37m [0;35m                                                        [0;37m [0;1;37m▓[0m [1;36m [0m
  [1;30m [0;36m|[0;37m [0;35m::::::::::::[0;37m [0;1;36m:[0;1;37m [0;35m:::::::::::::::::::::::::::::::::::[0;37m [0;35m::::::::::::::::::::[0;37m [0;1;37m▓[0m [36m:[0m
 [37m [0;1;30m [0;36m|[0;37m [0;35m:::::::::::: [0;36m:[0;1;37m [0;35m:::::::::::::::::::::::::::::::::::[0;37m [0;35m::::::::::::::::::::[0;37m [0;1;37m█[0m [36m:[0m
 [37m [0;1;30m [0;36m|[0;37m [0;35m::::::::::::[0;37m [0;36m:[0;1;37m [0;35m:::::::::::::::::::::::::::::::::::[0;37m [0;35m::::::::::::::::::::[0;37m [0;1;37m█[0m [32m.[0m

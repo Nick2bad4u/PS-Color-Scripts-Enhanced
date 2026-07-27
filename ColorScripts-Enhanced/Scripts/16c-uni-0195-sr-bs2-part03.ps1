@@ -5,7 +5,7 @@
 # Source SHA-256: 5afaa42aa40670cff10adfcc02a0ee148e62454703d01e2c5518d4f498b8c469
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-BS2.ANS by Silver Rat (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Blood Shot 2
 # SAUCE Author: Silver Rat
 # SAUCE Group: Union
@@ -43,15 +43,14 @@ Write-Host '
         [1m           [0m   [31m░[0m                                     [31m▐▒[0m [31m░[0m
                                                          [1;37m    [0;31m▒[0;1;37m      [0m
                                                              [31m░[0m
-             [31m░[0m    [1;30mb[0mlo[1modstorm/2[0m        [31m   [0;1;37m301-292-4[0m12[1;30m4[0m    [31m░[0m   [1;30mknifecrazy...[0m
-             [31m▒[0m [31m░[0m  [1;30ms[0mys[1mop: silver rat[0m   [1mnup:[0m [1mknifecr[0maz[1;30my[0m  [31m░[0m [31m▒[0m   [1;30mit''s one word, [0m
-            [31m ▒[0m [31m▒[0m  [1;30ma[0mll [1mart            [0;31m       [0m [1;37mno wa[0mre[1;30mz[0m  [31m▒[0m [31m▒ [0m  [1;30mso don''t screw[0m
-            [31m■▓■▒■[0m [1;30mu[0mni[1mon memberboard  [0;31m [0;1;37mvor memberbo[0mar[1;30md[0m  [31m▒■▓■[0m [1;37m [0;1;30mit up, fuckface![0m
+             [31m░[0m    [1;30m [0m  [1m         [0m        [31m   [0;1;37m         [0m  [1;30m [0m    [31m░[0m   [1;30m             [0m
+             [31m▒[0m [31m░[0m  [1;30m [0m  [1m              [0m   [1m    [0m [1m       [0m  [1;30m [0m  [31m░[0m [31m▒[0m   [1;30m               [0m
+            [31m ▒[0m [31m▒[0m  [1;30m [0m   [1m               [0;31m       [0m [1;37m     [0m  [1;30m [0m  [31m▒[0m [31m▒ [0m  [1;30m              [0m
+            [31m■▓■▒■[0m [1;30m [0m  [1m                [0;31m [0;1;37m            [0m  [1;30m [0m  [31m▒■▓■[0m [1;37m [0;1;30m                [0m
             [31m▄█▄▓▄[0m [1;30mv[0mpi [1mdistroo[0m        [31m   [0m [1;37mtime dist[0mro[1;30mo[0m [31m▀▓▄█▄[0m  [1;30m:)[0m
             [31m▄█▄█▄ [0m                                   [31m ██▄█▄[0m
            [31m ▀[0m [31m▀▀▀▀▀ ▀[0m [31m     [0m                       [31m▀ ▀▀▀▀▀[0m [31m■ [0m
             [31m ▓▀▀█▀[0m [31m▀[0m                               [31m▀[0m [31m▀▀█▀▓ [0m
-             [31m▒[0m  [31m▓[0m [1;30mi[0m''m[1m doing this ansi for my own bo[0mar[1;30md [0;31m▓[0m [31m▒[0m
-             [31m░[0m  [31m▒[0m [1;30mb[0mec[1mause i''m a selfish son of a bi[0mtc[1;30mh![0;31m▒[0m [31m░[0m
-                [31m░[0m [1;30mo[0mye[1mah, rip my ansi & i rip yo'' fa[0mce[1;30m![0m [31m░[0m
-                [31m [0m                                      [31m [0m'
+             [31m▒[0m  [31m▓[0m [1;30m [0m  [1m                              [0m  [1;30m  [0;31m▓[0m [31m▒[0m
+             [31m░[0m  [31m▒[0m [1;30m [0m  [1m                              [0m  [1;30m  [0;31m▒[0m [31m░[0m
+                [31m░[0m [1;30m [0m  [1m                              [0m  [1;30m [0m [31m░[0m'

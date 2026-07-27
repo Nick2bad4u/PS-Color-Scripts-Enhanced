@@ -5,7 +5,7 @@
 # Source SHA-256: 109d5d5368aa83f9de2379dc7b2f6cccfc88e7c7bcae31c85870d8be1a0540e4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-SE1.ANS by pixel_pusher (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: solid emag
 # SAUCE Author: pixel_pusher
 # SAUCE Group: anger
@@ -40,5 +40,5 @@ Write-Host '
 [35;47m▄░[0;37;40m▄▄[0;36;40m▀▀▀[0;1;36;46m░░░░▒▒▒▒▒░░░ [0;46m▀▀▓[0;40m▄▄[0;1;40m▀▀███████[0;1;47m▄▄[0m▄[1;33m▀▀█████[0;1;33;47m█▓▄[0m▄▄[31m▀▀[0;1;31;41m░░░[0;31m▓ [0;33m▓▀▀    [0;31m░░░▒[0;33m▀▀▀▓██[0;37;43m [0;33;40m█████[0;37;43m [0m
 [35;40m▀[0;1;35;45m░▒░[0;30;45mp[0;35;40mixel░p[0;30;46musher<anger>░[0;37;46m▀▀▓[0;37;40m▄▄[0;1;37;40m▀█████[0;1;37;47m▓▓▄▄[0m▄[1;33m▀▓▓████[0;1;33;47m▓▓▄░[0m▄▄[31m▀[0;1;31;41m░▒[0;31m▄▄░░[0;33m          [0;31m░░[0;33m▀▀███[0;1;31;43m░░░[0m
 <snipy>=========================================================================
-this here ansi was done for kadaver in a trade..enjoy eh...
+                                                           
 <snipy2>========================================================================[0m'

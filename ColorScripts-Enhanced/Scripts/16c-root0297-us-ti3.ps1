@@ -5,7 +5,7 @@
 # Source SHA-256: 7c02c457bd4f7095c76a9920f8de1a1da4326230767dde0fed673489f3871b34
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TI3.ANS by Fusion + Defiant (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Twisted Images
 # SAUCE Author: Fusion & Defiant
 # Lines: 1-39
@@ -50,4 +50,4 @@ Write-Host '
         [34m▄[0;1;34;44m▄[0;1;34;40m█▀    [0;34m▄▀    [0;37m▓[0;37;47m [0;1;30;47m▐[0;1;30;40m██████████▄ [0;1;31;40m▀▓█[0;1;31;44m████[0;1;31;43m███[0;1;31;40m▀[0;1;31;43m▀[0;1;31;44m██[0;1;31;43m█[0;1;31;44m█████████[0;1;31;41m███▄  [0;31m█▄   [0;1;30m▓▄[0m
      [34m▐▄[0;1;34;44m▄█[0;1;34;40m▀[0m     [34m▄[0m       [37m█[0;1;30;47m░█[0;1;30;40m█████▀█████▄ [0;1;31;40m▀███[0;1;31;44m███[0;1;31;40m▌ [0;33m▐[0;1;31;43m░[0;1;31;44m█████████[0;1;31;41m███████▄  [0;31m█▄  [0;1;30m▀█▄▓▄▌[0m
      [34m▀▀█[0;1;34;44m▀[0;34m▄[0m              [37m▀▀[0;1;30m▀▀▀    ▀▓████▄ [0;1;31m▀██[0;1;31;44m██[0;1;31;43m█[0m  [1;31;43m ▓[0;1;31;44m███████[0;1;31;41m██████████░  [0;31m▓▄  [0;1;30m▀█▀[0m
-[34mtwisted   ▀░  images[0m      [37mp[0;1;30mic by fusion, touch-ups and cheesy font by defiant[0m'
+[34m          ▀░        [0m      [37m [0;1;30m                                                  [0m'

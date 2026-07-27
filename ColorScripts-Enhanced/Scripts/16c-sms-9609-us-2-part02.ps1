@@ -5,7 +5,7 @@
 # Source SHA-256: d1b16766d5ec7b525d1d1d7b23d8fa9187be622cea226465cf8e5f7c12957af4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-&2.ANS by Elliz + Spirit Of Illusion + Circus Freak (Otterpop!@); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: & (Ampersand)
 # SAUCE Author: Elliz & SOI
 # SAUCE Group: Otterpop!@
@@ -61,6 +61,4 @@ Write-Host '
            [1;35m▌[0m      [1;35m▀▓▀ [0;1;30m███▀ [0;31m▀[0;31;41m [0;31;40m██[0;1;37;41m░[0;31m█  ▐███[0;1;37;41m▄[0;31m█ [0;1;30m▀  ██[0;1;30;47m▓[0m ─  ─ ─[34m▀[0;37m─────────────────┐[0m
            [1;35m▀[0m          [1;30m▀▀  [0;31m▀▀▀▀▀▀▓▄▄▐[0;31;41m [0;31;40m██[0;1;37;41m▓[0;31m█ ▄▓ [0;1;30m▄██ [0;1;37;41meerie''s[0;34m■[0;1;37;41mampersand![0;30;41m│[0;31;40m▌▌│ │[0;37;40m│ [0;1;35;40m░[0m
              [1;35;40m▓  ■  °  [0;1;30;40m▓██████[0;1;30;47m▓[0;1;30;40m▄    [0;31m▐[0;31;41m  [0;31;40m█[0;1;37;41m░[0;31m█ [0;1;30m▄▄▄██▓ [0m─  ─ ─[34m²[0;37m─────────────────┘ [0;1;35m▓[0m
-        [1;35m▀ ▀▀▀▀▀ ▀   ▀ [0;1;30m▀▀▀▀▀▀▀   [0;31m▀ ▀▀▀▀▀▀[0;1;31;41m░[0m [1;30;40m▀▀▀▀▀▀[0;34m·  . °[0m          [1;35m▀[0m     [1;35m▀ ▀▀▀▀[0m
-
-[32mansi by [0;1;33melliz [0;32m([0;1;32msamsara[0;32m) & [0;1;33mspirit of illusion [0;32m([0;1;32mlegend[0;32m) / font by [0;1;33mcircus freak[0;32m!@@[0m'
+        [1;35m▀ ▀▀▀▀▀ ▀   ▀ [0;1;30m▀▀▀▀▀▀▀   [0;31m▀ ▀▀▀▀▀▀[0;1;31;41m░[0m [1;30;40m▀▀▀▀▀▀[0;34m·  . °[0m          [1;35m▀[0m     [1;35m▀ ▀▀▀▀[0m'

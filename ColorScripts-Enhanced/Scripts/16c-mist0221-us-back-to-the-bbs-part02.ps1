@@ -5,7 +5,7 @@
 # Source SHA-256: 04f5b6e88a456422432e45494bdf4b7becdbe9299a9380d3c542d324e41f3b1e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BACK_TO_THE_BBS.ANS by Cthulu + Meatlotion (Legacy Krew); released in mist0221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Back to the BBS
 # SAUCE Author: MeaTLoTioN / Cthulu
 # SAUCE Group: Legacy Krew
@@ -17,11 +17,11 @@
 # Columns: 1-80
 
 Write-Host '
-        [1;30mSign right up for plain old POTS, your server''s off the rack...[0m
-                  [1;30m... Wait for echo mail hour, you insomniac![0m
+        [1;30m                                                               [0m
+                  [1;30m                                           [0m
 
-           [1;30mStop playing [0;1;35mC[0;35myberpunk[0;1;30m or wasting quarters on [0;1;35mP[0;35molybius[0;1;30m...[0m
-                  [1;30myou''ve waited long enough, and now it is ...[0m
+           [1;30m             [0;1;35m [0;35m        [0;1;30m                        [0;1;35m [0;35m       [0;1;30m   [0m
+                  [1;30m                                            [0m
 
  [1;30m≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡[0m
  [1;30m≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡[0m
@@ -44,5 +44,5 @@ Write-Host '
 [37m      [0;1;36;44m░░▌[0m     [1;36;45m█[0;1;36;46m▓[0m      [35m▐[0;1;36;46m▓[0;36m▌[0;37m [0;36m▐[0;1;36;46m███▒▒░░[0;36m█[0;1;36;46m░[0;36m▌[0;37m      [0;1;36;46m▓▓[0;1;36;40m▄▄▄[0;36m▄[0;35m▄[0;1;35m▄▄[0;1;35;46m██[0;1;35;40m [0;1;35;46m▓▓[0;1;35;40m▄▄▄[0;36m▄[0;35m▄[0;1;35m▄▄[0;1;36;46m█░[0m  [36m▀████[0;36;45m▓▓▒░░[0m
 [37;40m      [0;1;36;40m▀▀      ▀▀[0m       [35m▀[0;37m   [0;36m▀▀▀▀▀▀▀▀▀[0;37m       [0;1;36m▀▀▀▀▀▀▀[0;35m▀[0;1;35m▀▀[0m  [1;35m▀▀▀▀▀▀[0;1;36m▀[0;35m▀[0;1;35m▀▀[0m     [36m▀▀▀▀▀[0;35m▀▀[0m
 
-[37m [0;1;30m≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡[0;36m [0;1;37mA[0;36m [0;1;36md[0;36mOcUmEntArY [0;1;36mb[0;36mY [0;1;36mA[0;36mlIstAIr [0;1;36mr[0;36mOss [0;35m/[0;36m [0;1;36mh[0;36mYjInx[0;37m [0;1;30m≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡[0m
+[37m [0;1;30m                  [0;36m [0;1;37m [0;36m [0;1;36m [0;36m           [0;1;36m [0;36m  [0;1;36m [0;36m        [0;1;36m [0;36m    [0;35m [0;36m [0;1;36m [0;36m     [0;37m [0;1;30m                   [0m
  [1;30m≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡[0m [1mh[0;1;36mt[0;36mtps[0;1;35m:[0;35m//[0;1;36me[0;36mrb[0;1;37m.[0;1;36mp[0;36mw[0;35m/[0;1;36mb[0;36mttb[0;1;30m ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡[0m'

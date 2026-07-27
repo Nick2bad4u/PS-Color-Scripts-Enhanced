@@ -5,7 +5,7 @@
 # Source SHA-256: 1d2a859373b1abbbabde22553a93abdc65f4e22a255e865f05ab35ef741d1c2f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-VORT5.ANS by Boba Fett (READ THE INI FILE); released in plan9-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: vortex ansis
 # SAUCE Author: Boba Fett
 # SAUCE Group: READ THE INI FILE
@@ -44,15 +44,9 @@ Write-Host '
     ▄[1;47m▄▄████[0;1;46m▓▓[0;1;47m▄[0m█▄ [1;30m▀[0;1;30;47m▓[0m [1mOk...[0m                                                    [1;30m▓[0m
   [1;30m·[0m█[1;46m█[0;1;47m█[0;1;46m▓[0;1;47m▓███[0;1;40m█[0;1;46m██[0;1;47m█▓░[0m [1;30m▀[0m     [1mI''d really like feedback about what I am doing...  It[0;1;30;47m▓[0m
   ▐[1;47m█[0;1;40m█[0;1;47m▓▓[0;1;40m██[0;1;47m██[0;1;40m█[0;1;47m█[0;1;46m▓[0;1;40m██[0;1;47m▓░[0m  [1mis really a large step for me.  I have started drawing[0m   [1;30;47m▓[0m
-  ▀[1m▀[0;1;30m░[0;1;37m▀▀[0m░[1m▄[0;1;47m▀▀[0;1;46m▓[0;1;40m▀[0m  [1m▄▄[0;1;47m░[0m▌ [1mthis wierd shit and I wish someone would tell me what    [0;1;30m▓[0m
+  ▀[1m▀[0;1;30m░[0;1;37m▀▀[0m░[1m▄[0;1;47m▀▀[0;1;46m▓[0;1;40m▀[0m  [1m▄▄[0;1;47m░[0m▌ [1m                                                         [0;1;30m▓[0m
    █[1m▄▄██[0m▌ ▀▀[1;47m▀[0;1;40m██[0;1;47m█▓[0;1;40m▀[0m  [1mthey think of it...   Call p0D? is you want one, 864-639[0m [1;30m█[0m
    ▐[1m█[0;1;47m▓[0;1;40m█[0;1;47m▌[0m ▄■ ▐[1;47m▐▓█[0;1;40m█▌[0;1;30;40m█[0m [1m-1007, The Power of the Darkside even![0m                   [1;30;47m▓[0m
    [1;30m▄[0m▀[1;47m▀█▌[0m▄  [1;30m░░[0m█[1;47m█▀[0m▀[1;30m▄[0;1;30;47m▓[0m                                       [1m-boba fett![0m        [1;30;47m▓[0m
   [1;30m█[0;1;30;47m▓▓[0;1;30;40m▄[0m▀█▌▀■▄ ▓▀ [1;30m▀▀▓──────────────░───────────────────────────────────────────▀[0m
-  [1;30m▄▀▀[0m   ▀■▄■▀
-
-[1mthis ansi is dedicated to my one and only lover and wife, Cyber God![0m
-
-[1mgreetz: Dr. Freeze, Arnold Schwartzenaegger, My cock, Kitiara, Heartbreak Kid,[0m
-[1mJohn Holmes, Corinthian, Samurai, VD''s of all sorts, a horse of a different [0m
-[1mcolor, The Black Panthers, The Bubonic Plague, and Steve Urkel.[0m'
+  [1;30m▄▀▀[0m   ▀■▄■▀[0m'

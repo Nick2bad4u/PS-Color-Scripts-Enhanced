@@ -5,7 +5,7 @@
 # Source SHA-256: f5a5656a17f4352893d2a5caa81514554fd01d90eded0bd1d36d4ace8128eede
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-IRN.ANS by mr.byte (chaos energy groop); released in ceg-010a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 'ceg is not a limonade'
 # SAUCE Author: mr.byte
 # SAUCE Group: chaos energy groop
@@ -41,5 +41,4 @@ Write-Host '
 [36m▄▀██[0;1;36m▀▄▄[0;36m▀▀▄[0;32m▐ [0;1;30m▒[0m       [1;30m░▒[0m [1;30m▀▀▀[0m [32m▄▄▄ ▌[0;37m [0;1;30m░[0m     [32m▄▄▄▄▀▀▐ [0;37m [0;1;30m░[0m     [32m▄▄▄▀▀▄▄▄ [0;37m [0;32m▌[0;1;30mm?b[0m   [1;36m▀▄▌[0m
     [36m█▀▄[0;37m   [0;32m▀▄▄▄▄[0m     [32m▄▄▄▀▀▀▀[0;37m [0;32m [0;37m [0;32m ▐▄▄▄▀▀▀▀[0m      [32m▀▄▄▄▄▀▀▀▀[0m        [32m▀▀[0m
 [37m  [0;36m▀▄█[0m          [32m▀▀▀▀▀[0;37m [0;1;36m▄[0m      [1;36m▀[0m  [1;36m▌[0m           [36m█▀▄[0m       [36mirn-[0;1;36mCEG is n[0;30;46mo[0;1;36;40mt a lim[0;30;46mo[0;1;36;40mnade![0m
-     [36m▀▄█[0m       [36m█[0;37m   [0;1;36m▀[0m   [36m▀▄█[0;37m   [0;1;36m▀▄[0m      [36m▄▀█[0;37m  [0;1;36m▀▄[0m [1;36mC[0;30;46mE[0;1;36;40mG[0m [1;36mis[0m [1;36mreal[0m [1;36mg[0;30;46mr[0;1;36;40moup[0m [1;36mon[0m [1;36mruss[0;30;46mi[0;1;36;40ma[0m [1;36mscene![0m
-                                                      [1;30m   [ceg[0m [1;30mis not a limonade][0m'
+     [36m▀▄█[0m       [36m█[0;37m   [0;1;36m▀[0m   [36m▀▄█[0;37m   [0;1;36m▀▄[0m      [36m▄▀█[0;37m  [0;1;36m▀▄[0m [1;36mC[0;30;46mE[0;1;36;40mG[0m [1;36mis[0m [1;36mreal[0m [1;36mg[0;30;46mr[0;1;36;40moup[0m [1;36mon[0m [1;36mruss[0;30;46mi[0;1;36;40ma[0m [1;36mscene![0m'

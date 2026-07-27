@@ -5,7 +5,7 @@
 # Source SHA-256: 859a20ba3d2c1d17dbe1bc7c9e985a03477561600e0b6ade764b848dd3a5372d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KF-HOLE1.ANS by Kid Frost (moi-0197); released in moi-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
@@ -32,12 +32,12 @@ Write-Host '
 [1;30m  ██▀[0m      [1;30m▀██    [0;1;33m▄■   [0;1;37m▄███▀[0;1;37;47m▄[0;1;37;40m██████[0;1;37;47m▄[0;1;37;40m▀██▓▄[0m         [1;30;40m██▀[0m         [1;30;40m██▀ ▄█▓▄▀▄▀▀▀▀█▄[0m
 [1;30;40m  ▀[0m          [1;30;40m▀ ·[0;1;33;40m■▓▀    [0;1;37;40m██[0;1;37;47m▓[0m [1;37;40m██████████ [0;1;37;47m▓[0;1;37;40m██[0m         [1;30;40m▀[0m           [1;30;40m▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30;40mgun! :)   [0m▄▓█▄  [1;30m·[0m     [1;37m▐[0m▀[1m▄▄████████████▄▄▀▌[0m
-[1m    [0;1;30m\   [0m▄████▀        [1;47m▄[0;1;40m████████[0;1;47m▓[0;1;40m▀████████[0;1;47m▄[0m [1;40maSS[0;1;30;40mhOle! bbs ..j/k smokey![0m
-      ▄████▀          [1m██▀[0;1;31m▄▓▄[0;1;37m▀██  █████████    [0;1;30mart oriented and other shit-nutz![0m
+[1m    [0;1;30m    [0m▄████▀        [1;47m▄[0;1;40m████████[0;1;47m▓[0;1;40m▀████████[0;1;47m▄[0m [1;40m   [0;1;30;40m                       [0m
+      ▄████▀          [1m██▀[0;1;31m▄▓▄[0;1;37m▀██  █████████    [0;1;30m                                 [0m
 [1;30m   [0m▄███[1;30;47m░▒[0m▀[1;30m■▄[0m          [1;37m██[0;1;31m▐███░[0;1;37m██  ████████▓    [0;1;30mlocated in modesto, california![0m
 [1;30m   [0m▀██[1;30;47m░▒▓[0;1;30;40m▓▄[0m           [1;37;40m▓█▄[0;1;31;40m▓▀▀[0;1;37;40m▄██  ▓████████    [0;1;30;40mnumbah: (209)523-2652[0m
       [1;30;40m▀[0;1;30;47m▓[0;1;30;40m▓▓▓█■[0m         [1;37;40m█████████  ██████▄██    [0;1;30;40mmOist member board[0m
         [1;30;40m▀▓█▀[0m          [1;37;40m█▓██████▓  ███▀████▓    [0;1;30;40mop: smoke [mOist][0m
 [1;30;40m--------------------------------------------------------------------------------[0m
-this stupid lil logo was drawn somewhat originaly by kid frost. call ass-[1mHOLE[0mS!
+                                                                         [1m    [0m  
 [1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 611087a32b82805cf519223281be25ac38a54b76b4c5918a0cb0189efc486d45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!LOG01.ANS by sIMONkiNG (thelo0p); released in l0p07_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: paczka logoskow do 007/2000
 # SAUCE Author: sIMONkiNG
 # SAUCE Group: thelo0p
@@ -31,9 +31,9 @@ Write-Host '
                               [1;36ms[0;1;34mtat[0;34me[0;1;34m [0;1;36ma[0;1;34mk[0;34ma[0;1;34m [0;1;36mm[0;1;34morgu[0;34ml[0;1;34m [0m          [1;30m░░░░░░░[0;1;31m [0;32m░░[0m
 
 
-[37m  [0;1;30mhej state, czekam na ta gierke. wiem, ze zrobilem dalaya, ale teraz miales[0m
-[1;30m  przynajmniej czas na jej zrobienie =)[0m
-[1;30m  pozdrawiam![0m
+[37m  [0;1;30m                                                                          [0m
+[1;30m                                       [0m
+[1;30m             [0m
 
 [1;30m  [0m
 
@@ -55,9 +55,9 @@ Write-Host '
                                                                 [1m░ ░░[0m [1m░[0m
 
 
-      [1;35mk[0;35molejne [0;1;35ma[0;35mnsi, [0;1;35mt[0;35mym [0;1;35mr[0;35mazem [0;1;35md[0;35mla [0;1;35mw[0;35mith''a ([0;1;35mm[0;35mojego [0;1;35mn[0;35mowego [0;1;35mk[0;35montaktu). [0m
-[35m      [0;1;35mc[0;35mzy [0;1;35mn[0;35mie [0;1;35mm[0;35macie [0;1;35mo[0;35mchoty [0;1;35mn[0;35ma [0;1;35mc[0;35mos [0;1;35md[0;35muzego? [0;1;35md[0;35muze [0;1;35ma[0;35mnsi [0;1;35ml[0;35mogo, [0;1;35mk[0;35mto [0;1;35mj[0;35me [0;1;35mz[0;35mrobi?![0m
+      [1;35m [0;35m       [0;1;35m [0;35m     [0;1;35m [0;35m   [0;1;35m [0;35m     [0;1;35m [0;35m   [0;1;35m [0;35m       [0;1;35m [0;35m      [0;1;35m [0;35m      [0;1;35m [0;35m          [0m
+[35m      [0;1;35m [0;35m   [0;1;35m [0;35m   [0;1;35m [0;35m     [0;1;35m [0;35m      [0;1;35m [0;35m  [0;1;35m [0;35m   [0;1;35m [0;35m       [0;1;35m [0;35m    [0;1;35m [0;35m    [0;1;35m [0;35m     [0;1;35m [0;35m   [0;1;35m [0;35m  [0;1;35m [0;35m      [0m
 
-[35m      simonkin[0;1;30mg[0;35m/thelo0[0;1;30mp[0m
-[35m      simonking@poczta.onet.pl[0m
+[35m              [0;1;30m [0;35m       [0;1;30m [0m
+[35m                              [0m
       [1;35m────────────────────────[0m'

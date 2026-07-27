@@ -5,7 +5,7 @@
 # Source SHA-256: ea51fed9a1e70af0872fe587370b12e93e11830a223b588739b121501b547f30
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BD-JUICE.ANS by Blood (jive1096); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Juice
 # SAUCE Author: Blood
 # Lines: 1-19
@@ -25,9 +25,4 @@ Write-Host '
 [35m [0;31m▀█████[0;31;41m [0;31;40m█████████████████████████ [0;32;40m█[0;1;32;42m▀█[0;1;37;47m▓[0;1;37;42m███[0;32m█▄ [0;31m█████[0;31;41m    [0;1;31;41m▄▄▄▄[0;31m████▄ [0;35m▀[0;35;45m [0;1;35;45m▀████[0;35m██[0;35;45m [0;1;35;45m▀▀[0;35m█▀▀ [0;31m▄[0m
 [31m   [0;1;31m▀▀██[0;1;31;41m▄▄[0;31m█████▓▓████[0;1;31;41m▄▄▄[0;31m██████▓▓██▄ [0;32m█[0;1;32;42m▐█████▄[0;32m▌[0;31m▀▀█████[0;1;31;41m▄█▀[0;31m█▓▒[0;1;31;41m▀▀[0;31m███▄▄▄ [0;35m▀▀▀▀▀▀▀▀ [0;31m▄▄[0;1;31;41m██[0;31m█[0m
         [31m██████████[0;1;31;41m▄▄▄███▀▀▀▀[0;31m██████▄ [0;31;42m [0;1;32;42m▀███▀▀[0;32m██▄ [0;31m▀██████▓███[0;1;31;41m▄▄▄▄▄▄[0;31m██████████████[0;1;31;41m▀▀[0m
-                 [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0;32m▀▀██[0;1;32;42m▀▀[0;32m▀▀▀▀ [0;31m████[0;1;31;41m▀▀[0;31m▓[0;1;31;41m▀▀▀  [0;31m███▀▀▀▀▀▀[0m
-
-
-                                  [1;37m"[0;32mj[0;35mu[0;31mi[0;34mc[0;37me[0;1;32m"[0m
-                           [35mand anski compro anski[0m
-                             [35mby blood of JiVE[0m'
+                 [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0;32m▀▀██[0;1;32;42m▀▀[0;32m▀▀▀▀ [0;31m████[0;1;31;41m▀▀[0;31m▓[0;1;31;41m▀▀▀  [0;31m███▀▀▀▀▀▀[0m'

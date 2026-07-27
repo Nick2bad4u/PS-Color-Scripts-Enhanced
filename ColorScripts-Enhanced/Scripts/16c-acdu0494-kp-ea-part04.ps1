@@ -5,7 +5,7 @@
 # Source SHA-256: 233c71e607e0ecd7257351f72ead7c87c80640215990c51464b65da59664d053
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KP-EA.ANS by Kingpin (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Electric Acid
 # SAUCE Author: Kingpin
 # SAUCE Group: ACiD Productions
@@ -45,13 +45,4 @@ Write-Host '
           [34m░   ░[0m      [34m░[0m      [34m▒   [0;1;34m░[0m           [34m░[0m       [34m░[0m      [34m░    ░[0m
                             [34m░   [0;1;34m░    [0;34m░[0m      [34m░[0m
               [34m░[0m                 [34m▒[0m
-                            [34m░   ░[0m
-
-[34m  [0;1;37mElectric Acid [0;1;30m. [0m[714]/541-1977 [1;30m. [0m3-Node Ringdown [1;30m. [0mSysOp:  Blackjack [UC]
-       2.3 Gigs Online! [1;30m. [0mRunning Celerity v2.01ß (Alacrity/Custom)
-   SNES/Genesis Console Support [1;30m. [0mIBM Clone Support [1;30m. [0mArt/Music Support!
-               NUP:  Intravenous [1;30m. [0mNUV Strictly Enforced!!!
-
-          Original ANSI by [1mKingpin [0mof [1mACiD Productions [0m(c) 1994
-                        ANSI Completed On 03/04/94
-       [1;30mKP "Since 1991" - eapu294@orion.oac.uci.edu OR Channel Zero[0m'
+                            [34m░   ░[0m'

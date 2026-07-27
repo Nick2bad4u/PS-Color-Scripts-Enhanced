@@ -5,7 +5,7 @@
 # Source SHA-256: b843250aab800400bd258c7ab01cd8c7aeb757cf476d193c40b0e1716d51e8ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BADLACD2.ANS by Innate Malice (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -53,9 +53,9 @@ Write-Host '
         [1;37m▀▄▄▄▄▀▀▄▄▄▀▄▄▄▀▄▄▄▄▀▀▄▄▄▄▄▄▀▄▄▄▀▄▄▄▀▄▄▄▄▄▀▀▄▄▄▄▀▄▄▄▄▄▀  ▄▀[0;1;31m▄[0;1;31;41m▀[0;31m██▀[0;1;37m▄▀[0m
                                                                [1;37m▀▄[0;1;31m▀[0;31m▀▀[0;1;37m▄▄▀[0m
      [1;37m┌[0m──[1;30m───∙∙ ·[0m                                                  [1;37m▀▀▀[0m
-     │ The Badlands ∙ (408)268-4251 ∙ 0 to 7 Day Wares ∙ NUP: Joshimutt
-     [1;30m│    [0m400+ MBs ∙ H/P/V/A/C support ∙ 9600+ Only ∙ Sys: Soultaker    [1;30m·[0m
-     [1;30m:[0m          Co''s: Chainsaw Masacre, Sharp, Gray Ranger              [1;30m:[0m
-     [1;30m·[0m                  - Proudly affiliated with -                     [1;30m│[0m
-                UnReaL, INC, UID, INC A/D, RRiNC, CHAOS(TIA)            │
-                    Pain, ATA, NiG, NADA, Gun, NFA, TRWS       [1;30m· ∙∙───[0m──[1m┘[0m'
+     │                                                                 
+     [1;30m│    [0m                                                              [1;30m [0m
+     [1;30m [0m                                                                  [1;30m [0m
+     [1;30m [0m                                                                  [1;30m│[0m
+                                                                        │
+                                                               [1;30m    ───[0m──[1m┘[0m'

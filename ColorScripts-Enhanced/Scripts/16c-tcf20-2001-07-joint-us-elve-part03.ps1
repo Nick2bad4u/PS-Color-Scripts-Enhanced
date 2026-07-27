@@ -5,7 +5,7 @@
 # Source SHA-256: bbd4010d31d2132ba5400176129727578859f8a1bd03b534b3e2977cd3809366
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2001 - 07 - Joint - US-ELVE.ANS by fever&catch22 (glue); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: injection of lethal vengeance
 # SAUCE Author: fever&catch22
 # SAUCE Group: glue
@@ -57,5 +57,4 @@ Write-Host '
 [1;37;47m░[0;30;47m  [0;1;37;47m [0;30;47m         [0;37;40m▌▐[0;1;37;47m▒░[0m▌[30;47m█[0;1;37;47m▒▓[0m▌      [30;47m  [0;1;30;47m▓[0;1;30;40m▄[0m▀[1;47m▓██[0m [1;30;47m█▌[0;30;47m [0;1;37;47m░▓████████████▒[0;30;47m [0;1;30;47m▐[0;1;30;40m▌[0m       [1;30m▓[0;1;30;47m█▓▒▓█[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m██▓▒[0m▄[1;37;47m░[0m
 [1;37;47m▒[0;30;47m [0;1;37;47m░░[0;30;47m [0;1;37;47m░[0;30;47m        [0;37;40m [0;1;37;47m▒▒░[0m [30;47m█[0;1;37;47m▓█[0m    ░  [30;47m  [0;1;30;47m▒▀[0;1;30;40m▄[0m [1m▀▀▄[0;1;30m▀[0;1;30;47m▄ [0;1;37;47m░████████████▓░[0;30;47m [0;1;30;40m▌[0m       [1;30m▓[0;1;30;47m▓▓██[0;1;30;40m███[0;1;30;47m▓[0;1;30;40m██░[0m ▐[1;37;47m▓[0m
 [1;37;47m▓░▒▓░▒░[0;30;47m      [0;37;40m▌ ▐[0;1;37;47m▓▓[0m▌[30;47m██[0;1;37;47m█[0m▓    ▓▄ [30;47m [0;1;30;47m░[0m▓▀[1;30;47m▒[0;1;30;40m▄▄[0m   [1;30m▀[0;1;30;47m▄[0;1;37;47m▀▀▐██████████▒[0;30;47m [0;37;40m [0m       [30;47m█[0;1;30;47m▓██[0;1;30;40m████▓▀[0;30;47m█[0;37;40m ▄[0;1;37;47m░█[0m
-[1;37;47m█▒▓█▒▓▒░[0;30;47m   [0;37;40m█    [0;1;37;47m▒██[0m [30;47m██▄[0;37;40m▓    ▀[0;1;30;47m░[0m▄▀[30;47m [0;37;40m  [0;1;30;40m▀[0;1;30;47m▓[0;1;30;40m█▀[0m [1;30m▄▄▀[0;1;30;47m██▄[0;1;37;47m█████████[0m▀           [1;30m▀▄███▀[0m  ▄█[1;47m▓█[0;1;37;47m█[0m
-[1;33;40mfv[0m %[1;30mANSi[0m.[1;30mby[0m.[1;30mFever[0m.[1;30mCatch22[0m % [1;30mGlue[0m.[1;30mClan[0m.[1;30mLethal[0m.[1;30mVengeance[0m % [1;30mcall[0m.[1;30m1[0m.[1;30m666[0m.[1;30mfuck[0m.[1;30myou[0m% [1;33m22[0m'
+[1;37;47m█▒▓█▒▓▒░[0;30;47m   [0;37;40m█    [0;1;37;47m▒██[0m [30;47m██▄[0;37;40m▓    ▀[0;1;30;47m░[0m▄▀[30;47m [0;37;40m  [0;1;30;40m▀[0;1;30;47m▓[0;1;30;40m█▀[0m [1;30m▄▄▀[0;1;30;47m██▄[0;1;37;47m█████████[0m▀           [1;30m▀▄███▀[0m  ▄█[1;47m▓█[0;1;37;47m█[0m'

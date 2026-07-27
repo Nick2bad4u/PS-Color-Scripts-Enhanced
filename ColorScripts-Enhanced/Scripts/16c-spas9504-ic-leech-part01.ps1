@@ -5,7 +5,7 @@
 # Source SHA-256: 7c58cb236cefe2eca19c570138f9c846eef54300cb9b6f72928d02072b524c63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-LEECH.ANS by Impact (Spastic Studios); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: LeechWorld, Inc.
 # SAUCE Author: Impact
 # SAUCE Group: Spastic Studios
@@ -52,8 +52,8 @@ Write-Host '
        [1;33m██ [0;1;37m████[0;1;37;47m███▓▓[0m [1;37;40m███████[0;1;37;47m▓▓[0;1;37;40m▌▐██████████[0;1;37;47m▓[0m      [30;47mL W[0;37;40m█[0;30;47mi[0;37;40m█▌  [0;1;33;40m▀▀████████████▀▀[0m
        [1;33;40m█▓ [0;1;37;40m█▀▀█[0;1;37;47m██▓▓▓[0m [1;37;40m███████[0;1;37;47m▓▓[0;1;37;40m▌▐██████████[0;1;37;47m▓[0m     █[30;47me o[0;37;40m█[0;30;47ms[0;37;40m█[0;30;47m![0;37;40m▄ <--isnt that cool how[0m
        [1;33;40m▐█▌[0;1;37;40m▐█▄▄▄ ▀▀  ▀██████[0;1;37;47m▓▓[0;1;37;40m▌▐█████████[0;1;37;47m▓▓[0m    ▐█[30;47me[0;37;40m█[0;30;47mr[0;37;40m█[0;30;47me[0;37;40m█[0;30;47m![0;37;40m█    that hurts your eyes[0m
-        [1;33;40m█▌[0;1;37;40m▐████████ ▄▄▄ ▀▀▀█▀ ▀████████[0;1;37;47m▓▓[0m    ▄██[30;47mc[0;37;40m█[0;30;47ml[0;37;40m█[0;30;47ml[0;37;40m█[0;30;47m![0;37;40m█▌   n'' shit?? huh? huh?[0m
-        [1;33;40m█▓ [0;1;37;40m███████[0;1;37;47m▓[0m [1;37;40m██████▄▄▄█ ▄ ▀▀▀▀▀ ▄▄  [0m■▀ ▓█[30;47mh[0;37;40m█[0;30;47md[0;37;40m█[0;30;47me[0;37;40m█[0;30;47m![0;37;40m█    fuck i cant even[0m
+        [1;33;40m█▌[0;1;37;40m▐████████ ▄▄▄ ▀▀▀█▀ ▀████████[0;1;37;47m▓▓[0m    ▄██[30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█▌                      [0m
+        [1;33;40m█▓ [0;1;37;40m███████[0;1;37;47m▓[0m [1;37;40m██████▄▄▄█ ▄ ▀▀▀▀▀ ▄▄  [0m■▀ ▓█[30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█[0;30;47m [0;37;40m█                    [0m
         [1;33;40m▐█▌[0;1;37;40m▐██████[0;1;37;47m▓[0m [1;37;40m█████████[0;1;37;47m▓[0m [1;37;40m█████████[0m       █[30;47m![0;37;40m█[0;30;47m![0;37;40m█[0;30;47me[0;37;40m█[0;30;47m![0;37;40m▌    read it.. i like it![0m
         [1;33;40m▐▓▌[0;1;37;40m▐██████[0;1;37;47m▓[0m [1;37;40m█████████[0;1;37;47m▓[0m [1;37;40m████████[0;1;37;47m▓[0m        [30;47m![0;37;40m█[0;30;47m![0;37;40m█[0;30;47mt[0;37;40m█[0;30;47m![0m [37;40m▓   looks like an mca[0m
          [1;33;40m██ [0;1;37;40m▀█████[0;1;37;47m▓[0m [1;37;40m█████████[0;1;37;47m▓[0m [1;37;40m████████[0;1;37;47m▓[0m         ▀▀▓▀▀       font or sumthin
@@ -64,4 +64,4 @@ Write-Host '
               [1;33;40m▀▄▄▄▄■▄▄▄▄▄▄▄▄▄▄■▄▄▄▄▄▄▄▄▄██▀[0m
 
 
-          Mah 1st and LAST attempt at this kinda font ;P..       ▒[0m'
+                                                                 ▒[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e96f9786f9c949e73f4558ce106599a01814b8fdb0c1f7ed637a78718a7c18fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-TEQ.ANS by Tang + Prisoner Number One (Fire); released in fire0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Euphio Question
 # SAUCE Author: Tang
 # SAUCE Group: Fire
@@ -60,7 +60,7 @@ Write-Host '
 [36;40m▐[0;36;44m▓[0;1;35;46m░▒░[0;36m▌[0m  [36m▐[0;1;33;46m░[0;36;44m▓[0;34;40m▀[0m  [36;40m▐[0;36;44m▓▒▓█[0;36;40m▌[0m  [36;40m▐[0;36;44m█▓[0;34;40m▀[0;36;44m░[0m  [34;40m▀[0;36;44m▓▒▓▒[0;36;40m▌[0m  [36;40m▐[0;1;33;46m░[0;36;44m▓[0;34;40m▀ [0m  [36;40m▀[0;1;33;46m·[0;36;44m▓█▓[0;34;40m [0m  [34;40m▐[0;36;44m▓█[0;36;40m▀▌[0m  [36;40m▀[0;1;33;46m░[0;36;44m▓[0;1;33;46m░[0;36;44m▓[0;36;40m▌[0m [34;40m ▀[0;36;44m▒▓[0;1;33;46m·[0;36m▌[0m  [36m▐[0;1;33;46m░[0;36;44m▓[0;34;40m▀ [0;37;40m [0m
  [36;40m▀▀[0;1;35;46m░[0;1;33;46m▓░░[0m [36m▀[0m      [36m▀▀[0;36;44m██[0;36;40m█▄[0m [36;40m▀[0m   [34;40m▀[0m  [34;40m▐[0;36;44m░▓█[0;36;40m▀[0;36;44m▓[0;36;40m▄[0m [36;40m▀[0m   [34;40m [0m  [36;40m▐[0;36;44m▓[0;36;40m▀[0;1;33;46m░[0;36m▀[0;34m  [0m [34m [0;36m▀▐[0;1;33;46m░[0;36m▄[0m  [36m▐[0;1;33;46m▓■▀[0;36m▀█[0m [34m   [0;36m▀▀[0;1;33;46m░[0;36m▄[0m [36m▀[0m   [34m [0;37m [0m
 [1;30m────────────────────────────[0m [36;44m▒▓█[0;1;33;46m░[0;34m [0;1;30m─────────────────────────────────────────────[0m
-[1;30mT  H  E     E  U  P  H  I  O[0m [36;44m▓[0;1;35;46m■░[0;1;33;46m▒[0;34m [0;1;30m  Q  U  E  S  T  I  O  N[0m [1;30m [0m [1;30msysop:[0m  [1;30mT  A  N  G[0m
+[1;30m                            [0m [36;44m▓[0;1;35;46m■░[0;1;33;46m▒[0;34m [0;1;30m                        [0m [1;30m [0m [1;30m      [0m  [1;30m          [0m
 [1;30m────────────────────────────[0m [1;33;46m░[0;1;35;46m░[0;1;33;46m░▓[0m [1;30;40m─────────────────────────────────────────────[0m
-[1;30mAnsi by Tang, font royally[0m   [1;33;46m▓■[0;36m▄[0;1;33;46m░[0;36m▌[0;34m [0;1;30mscrewed by Prisoner#1, Fire Produktions 1996[0m
+[1;30m                          [0m   [1;33;46m▓■[0;36m▄[0;1;33;46m░[0;36m▌[0;34m [0;1;30m                                            [0m
                              [36m▐▀[0m  [36m▀[0m'

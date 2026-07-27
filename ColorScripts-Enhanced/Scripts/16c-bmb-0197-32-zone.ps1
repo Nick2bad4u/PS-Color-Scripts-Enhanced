@@ -5,7 +5,7 @@
 # Source SHA-256: 66fd7ea4b90fe647e5d246f881170752078d512571d3270340d38d0173aa9670
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 32-ZONE.ANS by ezy (bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neutral zone  + a litel letter!
 # SAUCE Author: ezy
 # SAUCE Group: bamboosh
@@ -33,7 +33,4 @@ Write-Host '
              [1;34m░[0m [1;34m..neutral[0m [1;34mzone..[0m [1;34;42m▒▒▒▒[0m      [1;30m▀■▄[0m [1;30m▄███▀[0m  [1;34mbamboosh swiss[0m [1;34mhq[0m
                                 [1;34;42m░░░░[0m         [1;30m▀▀▀[0m
 
-[1;30m---cut--------------------------------------------------------------------cut---[0m
-so here we are with the first bamboosh pack of the year. i rellay had nothing
-to do, to this pack.. so i just did some logos, to some bamboosh HQ''s. i just
-couldn''t sit here and do nothing, so... use them if you want. later on...[0m'
+[1;30m---cut--------------------------------------------------------------------cut---[0m'

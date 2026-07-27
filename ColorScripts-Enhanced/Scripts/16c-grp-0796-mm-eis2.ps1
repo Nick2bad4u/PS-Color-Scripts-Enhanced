@@ -5,7 +5,7 @@
 # Source SHA-256: cf7de925e51f082a8c29cb48bcc9f0e70f4c097142308794a7530fbf02e8eb68
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-EIS2.ANS by mr.manson (GRAPE); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mos eisley
 # SAUCE Author: mr.manson
 # SAUCE Group: GRAPE
@@ -38,4 +38,4 @@ Write-Host '
 [34m[[0;1;34mo[0;34m]\:-.''[0;1;34m···············][0m running a modded renegade[1;34m [····················`[0;34m.-:/[[0;1;34mo[0;34m][0m
 [34m┌-----`[0;1;34m···············][0m op''d by that deltA dude guy[1;34m [····················''[0;34m-----┐[0m
 [34m├──[0;1;34m··---[0;34m─[0;1;34m·[0;34m─[0;1;34m-[0;34m──[0;1;34m···[0;34m───[0;1;34m·[0;34m────[0;1;34m--[0;34m────[0;1;34m·[0;34m───────[0;1;34m-[0;34m───────[0;1;34m·[0;34m─────[0;1;34m---[0;34m───────────[0;1;34m-[0;34m───[0;1;34m·[0;34m──[0;1;34m···[0;34m─[0;1;34m-[0;34m┤[0m
-[34m└──[0;1;34m··---[0;1;30m pHuckEd up ascii jOb by mr. mansOn - i hate therefor i am [0;1;34m-[0;34m───[0;1;34m·[0;34m──[0;1;34m···[0;34m─[0;1;34m-[0;34m┘[0m'
+[34m└──[0;1;34m     [0;1;30m                                                           [0;1;34m [0;34m───[0;1;34m [0;34m──[0;1;34m   [0;34m─[0;1;34m [0;34m┘[0m'

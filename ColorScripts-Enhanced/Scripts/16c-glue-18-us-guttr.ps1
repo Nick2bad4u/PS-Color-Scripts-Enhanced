@@ -5,7 +5,7 @@
 # Source SHA-256: 23ebaf71edae0e06687e4b7f6929bc98aa2f8fd5fb57f9aba7a4fe3c931f5f67
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GUTTR.ANS by Internal + Shrimp (glue-18); released in glue-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -41,6 +41,4 @@ Write-Host '
    [30;42m░[0m           [32;40m▀[0;37;40m  [0;1;30;40mGutter[0m     [32m▌  [0;30;42m░[0;32;40m  █[0m                [32;40m▐[0m              [1;30;40m+o; Filth[0m
    [32m▀[0m                            [30;42m▓[0;32;40m [0;30;42m░[0;32;40m▓[0m
 [37;40m░[0m       [37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0m      [37;40m░░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0m        [30;42m░[0;32;40m▓[0m    [37;40m░[0;1;37;40m [0;30;47m▓[0;37;40m░[0;30;47m▓▓[0;37;40m░[0;30;47m▓[0m          [37;40m░░[0;30;47m▓▓[0;37;40m░[0;30;47m▓[0;37;40m░[0m    [37;40m░[0;30;47m▓[0;37;40m░[0m   [30;47m▓▓[0;37;40m░[0m
-                                   [32;40m▀[0m
-
-[37;40mInternal[0;36;40m([0;1;37;40mGlue[0;36m)[0;1;30m.........[0mCopyrights at[36m [0;1;37mGlue Productions[0;36m [0;37m1999[0;1;30m.........[0mShrimp[36m([0;1;37mGlue[0;36m)[0m'
+                                   [32;40m▀[0m'

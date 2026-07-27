@@ -5,7 +5,7 @@
 # Source SHA-256: 42b7361cdd72e3fac3367b47f9f0bebcd30337b68e619d793dfc07a004b48bd1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FV-FL.ANS by fever (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fubar
 # SAUCE Author: fever
 # SAUCE Group: revival
@@ -30,10 +30,4 @@ Write-Host '
 [34m    [0;1;36m░░[0;1;33m▀▀[0m   [34m▄[0;30;46m▀[0;1;36;40m▄[0;34m▄[0;35m▀[0;1;32;45m▒[0;35m▄[0;34m [0;35m▄[0;34m▀[0;30;46m▄[0;34;40m░ [0;35;40m▀[0;1;32;45m░[0;35m▄[0m            [35m▀[0;1;32;45m▒[0;35m▄[0m        [1;33m░░[0m     [34m░█[0;1;36;46m███▓█[0;1;36;40m▀[0;1;33;40m▀[0;34m▀[0m     [35m  [0m
 [37m  [0;34m░░░░[0m           [35m▀▒▄[0;1;32m▒[0;35m▄fv [0;37m  [0;35m▀▄[0m            [35m▀[0;1;32;45m░[0;35m▄[0m             [34m░░ [0m   [1;33m▀[0;1;36m▀[0m  [36m▄[0;34m▄[0m
                    [35m▀▄[0;37m [0;35m▀[0;37m  [0;1;32m [0m                  [35m▀▄[0m                          [1;36m▀[0;36m▀[0;34m▀[0m
-                    [37m [0;35m▀▄[0;37m [0m
-
-
-[1;32ma[0m [1;36mt[0;1;35mr[0;35mibute to my old pal fl[0;1;35ma[0;1;36mm[0;1;32me[0m
-[1;32mi[0;1;36mt[0;35m [0;1;35mw[0;35mas hard for me to break some old habits and copy this st[0;1;35my[0;1;36ml[0;1;32me[0m
-
-[1;32m- fever[0m'
+                    [37m [0;35m▀▄[0;37m [0m'

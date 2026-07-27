@@ -5,7 +5,7 @@
 # Source SHA-256: bd8ca0b5c8037957845b67f6eafd1a96f6bfa510472e0d5e71432103326abb19
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MTM(SCN).ANS by Mtm (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -18,7 +18,7 @@ Write-Host '
 [1;30m│[0m
                                   [1;30mthe 3th (03)[0m
 [1;30m│[0m
-                          [1;30maNTWeRP eLiTe SCeNe MeeTiNG[0m
+                          [1;30m                           [0m
 
 
 
@@ -45,14 +45,14 @@ Write-Host '
                 [1;30;40m▐██[0;1;37;40m■█[0;1;30;40m███[0;1;37;40m■■[0;1;30;40m█[0;1;37;40m█■■■[0;1;30;40m█[0;1;37;40m█■■■[0;1;30;40m███[0;1;37;40m■█[0;1;30;40m███[0;1;37;40m█■[0;1;30;40m█[0;1;37;40m■█[0;1;30;40m█[0;1;37;40m█■█[0;1;30;40m█[0;1;37;40m█■■■■█[0;1;30;40m██▓▄[0m
                 [1;30;40m■▓█[0;1;37;40m██[0;1;30;40m███[0;1;37;40m██[0;1;30;40m█[0;1;37;40m████[0;1;30;40m█[0;1;37;40m████[0;1;30;40m███[0;1;37;40m██[0;1;30;40m███[0;1;37;40m██[0;1;30;40m█[0;1;37;40m██[0;1;30;40m██[0;1;37;40m██[0;1;30;40m█[0;1;37;40m██████[0;1;30;40m██▓■·[0m
              [1;30;40m· ·▄██████████████████████████████████████████████▓▄·[0m
-                [1;30;40m(organised by prozac and dark side of the force)[0m
+                [1;30;40m                                                [0m
 
 
 
 
-                             [1;30;40mYOU ARE INVITED 2  ![0m
+                             [1;30;40m                    [0m
                                                                                [1;30;40m│[0m
-                             [1;30;40mSO BE SURE TO COME ![0m
+                             [1;30;40m                    [0m
                                                                                [1;30;40m│[0m
                                                                                [1;30;40m│[0m
 

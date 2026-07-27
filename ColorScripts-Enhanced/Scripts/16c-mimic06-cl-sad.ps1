@@ -5,7 +5,7 @@
 # Source SHA-256: 3f5c1de6b415a3157a8b5daa7f7acc151b471263623d8530d9ce3e1b0e2c492e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cl!-sad.ans by Cleaner (Mimic); released in mimic06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sadist
 # SAUCE Author: Cleaner
 # SAUCE Group: Mimic
@@ -37,6 +37,6 @@ Write-Host '
   [1;30m. [0;34m`[0;35m.[0;36m`[0;1;36m²*[0;1;37m²''[0;1;36m.s[0;1;37m.[0;1;36m [0;32m┌[0;1;32md[0;1;32;42m$$[0;1;32;40m$''[0;36m.┌s┐[0;1;36m.[0;36m`l[0;1;36ml[0;1;36;46m$[0;1;37;46m$[0;1;37;40m$[0;1;36;40m [0;1;32;40m▬┌[0;32mt[0;1;32m*[0;32m└[0;1;32m²[0;32m┘*\[0;35m∙[0;34m..[0;35m.∙[0;34m`[0m      [1;30m:[0m   [1;30m [0m
   [1;30m [0m  [35m:[0;36m ilS[0;1;36m│[0;1;36;46m$[0;1;37;40m$$[0;1;36;40m [0;1;32;40m:[0;32m$[0;1;32m$[0;32m│: [0;36m$S[0;1;36m$$[0;1;37m$[0;1;36m :│[0;1;37m│$''[0;1;32m.[0;1;32;42m$[0;1;32;40m''[0;36m.si│i[0;1;36ms[0;1;37m.[0;34m`[0;35m.[0m          [1;30m:[0m   [1;30m [0m
   [1;30m [0m  [34m`[0;35m.[0;36m`\[0;1;36m$[0;1;37m│$/''[0;35m.[0;1;32m`[0;32m\''[0;36m.s.`[0;1;36m²*[0;1;37m²''[0;1;32m.[0;32m┐[0;1;32m,▬[0;32m┌[0;1;32md[0;1;37;42m$[0;1;32;40m: [0;36mil[0;1;36mSl$[0;1;37;46m$[0;1;37;40m$[0m [35m:[0;37m [0;1;30m [0m  [1;30m.[0m  [1;30m.[0m [1;30m.... ....[0;32m [0;1;30m........[0m [1;30m.[0m [1;30m .[0m
-       [34m`[0;35m∙.[0;34m..[0;35m∙[0;34m`[0;1;36m [0;34m`[0;35m.[0;1;32m [0;36mil[0;1;36;46mS[0;1;36;40m│[0;1;37;40mi[0;1;36;40m%[0;1;37;40mi[0;1;32;40m [0;32mS[0;1;32mS[0;32mt[0;1;32m∟[0;32m*└[0;1;32m²[0;32m°[0;35m.[0;36m`[0;1;36m\$[0;1;37m│[0;1;36m$[0;1;37m/''[0;35m.[0;34m''[0;1;30m Ascii by[0m [1;30m:[0m [1;30mCleaner[0m([1;30mMimic[0m)
+       [34m [0;35m  [0;34m  [0;35m [0;34m [0;1;36m [0;34m [0;35m [0;1;32m [0;36m  [0;1;36;46m [0;1;36;40m│[0;1;37;40m [0;1;36;40m [0;1;37;40m [0;1;32;40m [0;32m [0;1;32m [0;32m [0;1;32m [0;32m └[0;1;32m [0;32m [0;35m [0;36m [0;1;36m  [0;1;37m│[0;1;36m [0;1;37m  [0;35m [0;34m [0;1;30m         [0m [1;30m [0m [1;30m       [0m [1;30m     [0m 
                 [34m`[0;35m.[0;36m`[0;1;36m\$[0;1;37m│[0;1;36m$[0;1;37m/''[0;35m.[0;34m''[0m        [35m`[0;34m∙[0;35m..[0;34m.[0;35m∙[0;34m`[0m            [1;30m.[0m
                   [35m`[0;34m∙[0;35m..[0;34m.[0;35m∙[0;34m`[0m'

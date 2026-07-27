@@ -5,7 +5,7 @@
 # Source SHA-256: 31a0ff905abc9647e63f601ed54d57da6677621fbd3fd0a5170c18ade98fcc64
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-H3VN.ANS by zir (FiRE); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: h34V3N
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -17,7 +17,7 @@
 # Columns: 1-80
 
 Write-Host '
- [1;30m[[0mheaven is under your hat[1m.[0;1;30m][0m
+ [1;30m [0m                        [1m [0;1;30m [0m
  [36m░░░░░ ░░░░ ░░░░░░ ░░ ░░░░░░░░ ░▒░░          ░▒░░░░ ░░░░░░░░ ░░░ ░░░░░░ ░░░░░░░[0m
 [37m [0;36m█[0;1;37;46m░░░░[0;1;33;46m░ ░░░░[0;1;32;46m ░░░░     ░░[0;1;36;46m░░░[0;36m█▓          [0;1;30m▄▄▓▓▓[0m  [36m░▓█[0;1;36;46m░░[0;36m█[0;1;37;46m░[0;36m█[0;1;37;46m░░░[0;1;33;46m░░░░ ░░░░[0;1;32;46m░░░[0;36m█[0;1;32;46m░░░░[0;36m█[0;1;32;46m░░░░[0m
  [1;33;46m░[0;1;37;46m▓███[0;1;33;46m█[0;1;32;46m█[0;1;33;46m████[0;1;32;46m███████▐[0;1;36;46m  [0;36m▓▀▀▀        [0;1;30m▄▄████████▓[0m   [36m▓[0;1;33;46m [0;1;32;46m■[0;1;33;46m░[0;1;37;46m▓[0;1;33;46m▌[0;1;37;46m▓██[0;1;33;46m████[0;1;32;46m█[0;1;33;46m████[0;1;32;46m█████▐██████[0;1;33;46m░[0m

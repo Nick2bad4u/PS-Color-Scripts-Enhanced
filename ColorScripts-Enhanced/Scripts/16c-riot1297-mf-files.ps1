@@ -5,7 +5,7 @@
 # Source SHA-256: 7938517ba61d7bcbf0f6a2391d344198dc077ce3b854d8c55bc173f50408b89d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-FILES.ANS by eEK, dA mINDfUCK!! (RioT); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 'leet filemenu?
 # SAUCE Author: eEK, dA mINDfUCK!!
 # SAUCE Group: RioT
@@ -16,12 +16,12 @@
 
 Write-Host '
 
-                              [1;33m.ssS$$Sss.[0m
-                       [1;30msSⁿⁿⁿ[0;1;33ms$$$$$$$SⁿS$$s[0;1;30mⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿSs[0m
-                      [1;30m.$.  [0;33ms[0;1;33m$$$ⁿ[0;31m∙[0;1;33mⁿ$" [0;31m■ [0;1;33m"$$s [0;1;37mm[0;1;36mIN[0;36mD[0;1;37mf[0;1;36mUC[0;36mK [0;1;37mi[0;1;36mN [0;1;30m.$.[0m
+                              [1;33m          [0m
+                       [1;30m     [0;1;33m              [0;1;30m                [0m
+                      [1;30m     [0;33m [0;1;33m    [0;31m [0;1;33m    [0;31m■ [0;1;33m     [0;1;37m [0;1;36m  [0;36m [0;1;37m [0;1;36m  [0;36m  [0;1;37m [0;1;36m  [0;1;30m   [0m
                       [1;30m`$''  [0;33mⁿ$[0;1;33m$$$$$$$$$$$$$ⁿ [0;1;37md[0;1;36mA [0;1;37mh[0;1;36mAUS![0;36m!   [0;1;30m`$''[0m
-                       [1;30mⁿSsss[0;33mⁿ$$[0;1;33m$$$[0;1;37mπππππ[0;1;33m$$ⁿ[0;1;30mssssssssssssssSⁿ[0m
-                              [33m"ⁿⁿS$$[0;1;33mSⁿⁿ"[0m
+                       [1;30m     [0;33m   [0;1;33m   [0;1;37m     [0;1;33m   [0;1;30m                [0m
+                              [33m      [0;1;33m    [0m
 
                                          [36m.sS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Ss.[0m
                                          [36m$$$$$$$$$$Sⁿ"""ⁿS$$$$$$$$$$$$$$$$$$$$$[0m
@@ -42,8 +42,4 @@ Write-Host '
 [36m    [0;1;34m:&$$$:[0;1;37m$$$$$$$$Sⁿ"`[0m      [36m([0;1;36mc[0;36m)ommand    $$$$$$$$$$$$Ss,......∙∙∙∙∙"ⁿS [0;1;30m$$$$$ [0;36m$$[0m
      [1;34ml$$$$.[0;1;37m$$$Sⁿ"`[0m          [36m([0;1;36mc[0;36m)ommand    $$$$$$$$$$$$$$$$$$$$$.[0;1;30m"[0mⁿ[1;30mS$Ss.sS$S[0mⁿ[1;30m"[0;1;37m.[0;36m$$[0m
      [1;34m:$$$$:[0;1;37mⁿ"`[0m              [36m([0;1;36mc[0;36m)ommand    $$$__[0;1;36mf[0;36m__[0;1;36mi[0;36m__[0;1;36ml[0;36m__[0;1;36me[0;36m__[0;1;36ms[0;36m__$$Ss,.......,sS$$$[0m
-                            [36m([0;1;36mc[0;36m)ommand    "ⁿS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Sⁿ"[0m
-
-
-
-[36mthe first one requested by email!!!!:)[0m'
+                            [36m([0;1;36mc[0;36m)ommand    "ⁿS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Sⁿ"[0m'

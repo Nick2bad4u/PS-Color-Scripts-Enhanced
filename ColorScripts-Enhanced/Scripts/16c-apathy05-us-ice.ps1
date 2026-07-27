@@ -5,7 +5,7 @@
 # Source SHA-256: 231e8b1dee3a493356548d81d7aace64fc131979280d9692e064c19f87bb3a63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ICE.ANS by Apox + Nootropic (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ice Promotional
 # SAUCE Author: Apox/Nootropic
 # SAUCE Group: Apathy
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                            [1;36mApox[0;36m. [0;1;36mNootropic[0;36m. [0;1;37mIce[0;36m.[0;37m  ░[0m
+                            [1;36m    [0;36m  [0;1;36m         [0;36m  [0;1;37m   [0;36m [0;37m  ░[0m
             [1;37m░[0m  ░ ▌    [1m░[0m      ▄ ■    [1m░░[0m       [1m░[0m  ▄▒         [1m░░[0m
             [1m░[0m ░▒[1;47m▄▒[0m░   [1m░[0m  ▄▒[1;47m▄▓[0m▌   ░░ [1m▒▒[0m       [1m░[0m ▄[1;47m▄▒[0;1;40m▄[0m▄░░    ░[1m▒▒░░[0m  [1m░░[0m
             [1m░[0;1;47m▄▓[0;1;40m███[0;1;47m▄[0;1;40m▄▄▄░[0;1;47m▄▒[0;1;40m█████▄▄▄▄▄▄▓▓[0m▄░     [1m▒[0;1;47m▄[0;1;46m██[0;1;47m█▓█▄[0;1;40m▄▄▄▄▄▄▓▓[0m▄░

@@ -5,7 +5,7 @@
 # Source SHA-256: 47795cedb319e9402ee77b580cf194789577fca73455c8af0f74b451a761fc21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MST!SERC.ANS by Mist (spr_06); released in spr_06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -28,9 +28,8 @@ rysuje sie ascii /  [1;30m▐[0;31m [0;1;33;43m▓[0;33m████[0;1;36
  [1;30m▀▀[0m  ░░ [1;30m▄▄[0m [1;30m▄[0m   binar    [1;30m ▀█░[0m [33m░████[0;1;33;43m░[0;33m▄▄▄▐████▀▀▀   [0;1;30m▄▄▄█[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m       [0m          [1;30m▌[0m
 necro   [1;30m▀▀[0m       [1;30m▄▄[0m          [33m  [0;1;30m▄▄ ▄▄▄[0;33m▐ [0;1;30m▄▄▄▄▄█[0;1;30;47m█▀█[0;1;30;40m██[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m█[0;1;30;40m███▄▄▄▄▄▄▄ ▄ ▄▄▄▄▄▄▄▌[0m
          grazer  [1;30m▀▀[0m [1;30m▀[0m        [31m [0m       [33m▐  [0m               [1;30m▐[0m
-wodniak      [1;30m▄▄[0m  simonking       [33m▀[0;37m [0;33m▀▀▀ [0;37m   respekt!     [0;1;30m▐ [0m ascii for ascii!
+             [1;30m▄▄[0m                  [33m▀[0;37m [0;33m▀▀▀ [0;37m                [0;1;30m▐ [0m                 
            [1;30m▀[0m [1;30m▀▀[0m  [1;30m▄[0m  [1;30m■[0m
      riven                [1;30m▀[0m   (...)
 [1;30m██[0m [1;30m▀[0m       [1;30m██[0m hitman   [1;30m██[0m            ascii is love
-      [1;30m■[0m  [1;30m▀[0m
-                                       ascii under will![0m'
+      [1;30m■[0m  [1;30m▀[0m'

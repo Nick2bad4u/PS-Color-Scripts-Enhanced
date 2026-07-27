@@ -5,7 +5,7 @@
 # Source SHA-256: 53f4f253a9533437c1966b2be7d4272c21cf2005acde483579ed7f4f08274380
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-LURE.ANS by Cleaner (lure001); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -37,6 +37,6 @@ Write-Host '
 [1m          [0m`[1m  [0;1;30m∙ .[0;1;37m       [0;1;32m  [0m:[1m           `  [0m∙[1m [0;1;30m.[0;1;37m       [0;1;30m.[0m.:[1m           `[0m  ∙[1m [0m.[1m  [0m.[1m [0;1;30m..[0m ..
 [1m.....[0m ...[1;30m......[0m...[1m...Cl![0m.:[1m   [0m                                                 :
 [1m:[0m                            [1m                                                 : [0m
-[1m:[0m     Stoned Experiments [1m-[0m The Real Ascii Game [1m-[0m Have a Nice Summer 2oo1!     [1m:[0m
+[1m [0m                        [1m [0m                     [1m [0m                              [1m [0m
 :                                                                             ∙
 [1;30m:. [0m.....[1m......[0m.[1m..[0m [1m.[0m .[1m.[0m.....[1m..[0m... .  [1;30m.[0m          [1;30m.[0m   [1;30m.[0m  ..[1m..[0m.[1m.[0m..[1mCleaner[0m([1mLure[0m)[1m.[0m..:[0m'

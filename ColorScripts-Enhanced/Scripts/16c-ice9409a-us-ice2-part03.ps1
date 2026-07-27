@@ -5,7 +5,7 @@
 # Source SHA-256: dce3540fa56e3d461d04d9882f22fbdd6290e9df736f76367ca7df9a8f1d2a7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ICE2.ICE by Spirit Of Illusion + Vanquish (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 83-131
 # Columns: 1-80
 
@@ -33,7 +33,7 @@ Write-Host '
 [31;41m [0;1;33;41m░   [0;31m▓▓[0;31;41m [0;31;40m▓▓▓▓▓▓▓▓▒▓▓▒▒▓▒▒▒▒▒▒▒▒░▒▒░░░░░ ░░   ░[0m              [31;40m░[0m
 [1;33;41m░ [0;31m▓▓▓▒▒▓▒▒▒▒▒▒▒▒░▒▒░░▒░░░░░░░░ ░░[0m                         [31m░░   [0;30mbleach[0m
 [31m▓▓▒▒▒░░▒░░░░░░░░ ░░  ░[0;1;37m░[0m
-[31m▒▒░░░  ░[0m              [1;37m▒ ▓    [0;30mthere are wayyyy to many "vq!"''s in this ansi.[0m
+[31m▒▒░░░  ░[0m              [1;37m▒ ▓    [0;30m                                              [0m
 [31m░░[0;30moi soi soi soi [0;1;36m▄   [0;1;37m▄▓[0;1;37;46m▓[0;1;37;40m█▄▒[0m
 [1;37;40m [0;30msoi soi soi so[0;1;36m■▀██▄[0;1;37;46m▒▓[0;1;36;40m█[0;1;37;46m▒[0;1;36;46m▓▓[0;1;36;41m▓[0;1;37;40m▄[0m         [1;36;40m░  [0;30meh? said the canadian[0m
 [30m soi soi soi soi [0;36m▀[0;1;36;46m▓▓[0;1;37;46m░[0;1;36;46m▓█[0;1;37;46m░[0;1;36;46m▒▒░[0;1;36;40m▌[0m         [1;36;40m▒[0m                  [1;36;40m░[0m
@@ -54,8 +54,8 @@ Write-Host '
              [36m·  [0;1;34m▒ [0;1;36m▀[0;1;36;46m▒▓░▒▓[0;1;36;40m█[0;1;36;46m░▓▓[0;1;36;40m▀■ [0;1;34;40m▓ [0;1;36;40m▀[0;1;36;46m▒▓░▒▓[0;1;36;40m█[0;1;36;46m░▓█▓[0;1;36;40m▀[0;36m▓[0;1;36m▀[0;36m·  [0;1;34m▒ [0;1;36m▀[0;1;36;46m▒▓░▒▓[0;1;36;40m▓[0;1;36;46m░▓█▓[0;1;36;40m▀[0;36m▓[0;1;36m▀·  [0;30mfor[0m
                 [1;34m░   [0;1;36m▀[0;1;36;46m░[0;1;36;40m▓[0;1;36;46m▒[0;1;36;40m█▀[0;36m▀[0;1;36m▓   [0;1;34m▒   [0;1;36m▀[0;1;36;46m░[0;1;36;40m█[0;1;36;46m▒[0;1;36;40m█▀[0;36m▀ [0;1;36m▓ [0;36m▒    [0;1;34m░   [0;1;36m▀[0;1;36;46m░[0;1;36;40m▓[0;1;36;46m▒[0;1;36;40m█▀[0;36m▀ [0;1;36m▓ [0;36m▒  [0;30mbeing a[0m
 [30mlalalalalalala[0m        [1;36m▒▀   ▒   [0;1;34m░[0m     [1;36m▓▀    ▒ [0;36m░[0m          [1;36m▒▀    ▒ [0;36m░   [0;30mfish[0m
-[30msyntax error is gay!  [0;1;36m░    ░[0m         [1;36m▒[0m     [1;36m░[0m     [30m/│\    [0;1;36m░[0m     [1;36m░  [0;30mbut it doesn''t[0m
+[30m                      [0;1;36m░    ░[0m         [1;36m▒[0m     [1;36m░[0m     [30m │     [0;1;36m░[0m     [1;36m░  [0;30m              [0m
                              [30m\  │  │ [0;1;36m░ [0;30m│  │   │   │ /[0m              [30mmake sense[0m
 [30mits my birthday tommorow -> ──\┌──────────────────┐/── <- rules!![0m
-[30m  [0;37ma joint production for ice by[0;30m│[0;37mspirit of illusion[0;30m│[0;37mand vanquish [0;1;37m[[0moct 2nd 1994[1m][0m
-[1m [0;1;30mwanna request an ansi from soi?[0;30m───[0;1;30mcall[0;30m─[0;1;30mdestructive revolution ... 604-272-3914[0m'
+[30m  [0;37m                             [0;30m│[0;37m                  [0;30m│[0;37m             [0;1;37m [0m            [1m [0m
+[1m [0;1;30m                               [0;30m───[0;1;30m    [0;30m─[0;1;30m                                       [0m'

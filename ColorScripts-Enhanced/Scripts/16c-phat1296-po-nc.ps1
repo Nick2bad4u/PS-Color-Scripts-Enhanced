@@ -5,7 +5,7 @@
 # Source SHA-256: d9dc245c923fa941d468339d9b951d1791dc9a63a14e866a545322e932667367
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-NC.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no comment.
 # SAUCE Author: poti.
 # SAUCE Group: phat.
@@ -39,8 +39,4 @@ Write-Host '
 
 
 
-[1;30m-------------------------------------------------------------------------------[0m
-[1;30mthis one was a trade with infuz who requested this ansi for his board[0m
-[1;30mcalled ''no control''. hope you like it. the ''no'' is hidden inside the coNtrOl[0m
-[1;30mbtw ;) actually it''s not one of my best ansis - so, infuz, if you don''t like it[0m
-[1;30mjust tell me and I''ll do you a better one. btw: trades are always welcome.[0m'
+[1;30m-------------------------------------------------------------------------------[0m'

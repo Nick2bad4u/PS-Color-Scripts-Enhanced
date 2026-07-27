@@ -5,7 +5,7 @@
 # Source SHA-256: b5a9a0ca5764024bd212e8642b614feb4ce97923cfc79ee09883fb2f5a43dc89
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DOINK3.ANS by The Joint (joint01); released in joint01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -49,12 +49,4 @@ Write-Host '
              [36m▐[0;1;36;46m▐[0;1;36;40m███▌   [0m    [36m▐[0;1;36;46m▐[0;1;36;40m█[0;1;37;40m███[0;1;36;40m███▌[0;36m░[0;1;36;46m [0;1;36;40m████░  [0;36m▐[0;1;36;46m▐[0;1;36;40m█████▄▄▄ [0;36m▐[0;1;36;46m▐[0;1;36;40m█▀▀[0m
               [36m▀[0;1;36;46m▀▀[0;1;36;40m██▄     [0;36m▄[0;1;36;46m▄[0;1;36;40m████████░ [0;36m▐[0;1;36;46m▐[0;1;36;40m███▌  [0;36m▐[0;1;36;46m▐[0;1;36;40m███████████▄▄▄▄[0m
                  [36m▀▀[0;1;36m▀[0;1;36;46m▀[0;1;36;40m█▄[0;1;36;46m▄▄[0;1;36;40m█▀▀▀[0;36m▐[0;1;36;46m▐[0;1;36;40m███▌  [0;36m▐[0;1;36;46m▐[0;1;36;40m███▌  [0;36m░[0;1;36;46m [0;1;36;40m█[0;1;37;40m██[0;1;36;40m█░[0;36m▀▀[0;1;36m▀[0;1;36;46m▀▀▀[0;1;36;40m████████▄[0m
-                             [1;36;46m [0;1;36;40m████░[0m   [1;36;46m [0;1;36;40m████  [0;36m░[0;1;36;46m [0;1;36;40m████░[0m     [1;36m [0;36m▀▀▀[0;1;36m▀[0;1;36;46m▀▀▀[0;1;36;40m█▓░[0m
-
-
-cz -               i know.. it sucks.. for doink, ''doi'' so far.. sue me ;)
-cy -               Phear the sideways ''k'' and inverted ankh
-balls
-
-
-add whatever, move shit, rearange it, whatever.. 10 mins ..[0m'
+                             [1;36;46m [0;1;36;40m████░[0m   [1;36;46m [0;1;36;40m████  [0;36m░[0;1;36;46m [0;1;36;40m████░[0m     [1;36m [0;36m▀▀▀[0;1;36m▀[0;1;36;46m▀▀▀[0;1;36;40m█▓░[0m'

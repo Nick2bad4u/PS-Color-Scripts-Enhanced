@@ -5,7 +5,7 @@
 # Source SHA-256: bcbb1679e0267c6dc73414c2f4ee2cdae04b6f78af3bf077985690a4fb8e18f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-PESTI.ANS by ize (fusion); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pesticide
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -29,5 +29,4 @@ Write-Host '
 [1;37;40m  [0;1;37;47m▐[0;1;37;40m▓▓███▌ [0;34m█[0;1;34;44m█[0;1;34;47m▒▓█[0;1;34;44m▌[0;1;34;40m [0;1;37;47m▐[0;1;37;40m█████▌ [0;1;34;44m▐[0;1;34;47m▒▓[0;1;34;44m██[0;34m▄[0;1;37m [0;1;37;47m▐[0;1;37;40m████ [0;1;37;47m▐[0;1;33;40m██[0;1;37;40m███▌ [0;34m█[0;1;34;44m█[0;1;34;47m▒▓[0;1;34;44m█[0;1;34;40m▒[0;1;37;40m [0;1;37;47m▐█▓▓[0;1;37;40m▌ [0;1;37;47m▐▓▓▓[0;1;37;40m▓█▌[0;34m█[0;1;34;47m█▒▓[0;1;34;44m██[0;34m█[0;1;37m ▒▓██▌[0m
 [1;37m  [0;1;37;47m▐[0;1;33;40m██[0;1;37;40m████ [0;1;34;40m▒[0;1;34;44m▀▀▀▀▌[0;1;37;40m [0;1;37;47m▐[0;1;33;40m██[0;1;37;40m████▄▄▄▄▄▄▄▄[0;1;37;47m▄[0;1;37;40m███ [0;1;37;47m▐[0;1;37;40m█[0;1;33;40m█[0;1;37;40m█████▄▄▄▄▄▄▄▄[0;1;37;47m▄[0;1;37;40m███▌ [0;1;37;47m▐[0;1;37;40m█[0;1;33;40m██[0;1;37;40m███▄▄▄▄▄▄▄▄[0;1;37;47m▄[0;1;37;40m███▌[0m
 [1;37;40m  [0;1;37;47m▐[0;1;37;40m█████▀        [0;1;37;47m▐[0;1;37;40m██████████████████ [0;1;37;47m▐[0;1;37;40m███████████████████▌ [0;1;37;47m▐[0;1;37;40m██████████████████▌[0m
-[1;37;40m---> 16lines :) [0m               [1;37;40m  [0m            [1;34;40m [0m
-[1;37;40m [0m          [1;37;40m       Pesticide   ... requested by Phonyeye[0m'
+[1;37;40m---> 16lines :) [0m               [1;37;40m  [0m            [1;34;40m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ed90a2279dc8b8c1b3ddeb7ce7a2e25074ca4893ffeac6f8c891fbffd81fa356
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Ts-ts1.ans by transient (glue); released in glue-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 23 liner
 # SAUCE Author: transient
 # SAUCE Group: glue
@@ -38,5 +38,4 @@ Write-Host '
 [1;30m▀▀▀[0;1;37m  [0;1;31m▄▄▄▄▄▄▀▀▀[0;1;37m [0;1;32m▄▄[0;1;32;42m░░[0;32m▄█▄[0;1;37m [0;33m▀█[0;1;31;43m░▒▓▓▓[0;33m█[0;1;31;43m░[0;33m▌[0;1;37m      [0;33m▄▄[0;1;30;43m░[0;1;31;43m▓▓▄▌▄[0;33m█▀[0;1;37m [0;34m [0;1;32m▄█▄[0;32m█[0;1;32;42m░[0;32m▄▄[0;1;37m [0;33m   ▄▄▄▄▄▄[0;1;37m   ([0;1;35mt[0;35ms[0;1;33m![0;1;37m)[0;1;33mglue[0m
 [33m▄[0;1;31;43m░▒▒▓[0;1;31;40m█▀[0;1;37;40m  [0;32m▄▄▄▌[0;1;32m█▀[0;1;32;42m▒░░░░[0;32m█[0;1;37m [0;1;32;42m░[0;32m▄[0;1;37m  [0;33m▀█[0;1;31;43m░▀▀[0;33m▄▄▌▄▄▄[0;1;30;43m░[0;1;31;43m░░▒▓▀[0;33m█[0;1;31;43m▀[0;33m▀▀[0;1;37m  [0;32m▄▌[0;1;37m [0;1;32;42m▓▒░░░[0;32m█▀██▄▄▄[0;1;37m  [0;33m▀[0;1;31;43m░░░[0;1;33;43m░[0;33m▄▄▄▄▄[0;1;37m    [0m
 [1;31;43m░▒▒▓[0;33m▀[0;1;37m [0;32m▄[0;1;32;42m░░░▒▒▓▓▒▒░░░[0;32m█▌▐[0;1;32;42m░░▒[0;1;32;40m▄[0;1;37;40m    [0;33m▀▀▀█[0;1;31;43m░▒░░[0;1;30;43m░[0;1;31;43m▀▀[0;33m▀▀[0;1;37m    [0;1;32m▄█[0;1;32;42m▓[0;34m [0;1;32m▐[0;32m▌[0;1;32m█[0;1;32;42m▓▒░[0;32m██[0;1;32;42m░░[0;32m█[0;1;32;42m░ [0;32m██▄[0;1;37m [0;33m▀█[0;1;31;43m░░░░[0;1;33;43m░▒░[0;33m█▄[0;1;37m [0m
-[1;31;43m░▒▓[0;32m ▄[0;1;32;42m░░▒▒▓▓▓▓▒▒░░░[0;32m██[0;1;37m [0;32m█[0;1;32;42m░▒▓▓[0;1;32;40m█▄▄[0;1;37;40m [0;1;35;40m    [0;1;37;40m            [0;1;32;40m▄█[0;1;32;42m▒▓[0;1;32;40m▌[0;1;32;42m▓[0;1;37;40m [0;1;32;40m█[0;1;32;42m▓▒░[0;32m█[0;1;32;42m░░░░░░[0;32m████▄[0;1;37m [0;33m██[0;1;31;43m░░░▒▓██[0;33m▌[0m
-[1;37m23lnr-if anyone see''s any use for this, please use it 4 something? ;)-transient![0m'
+[1;31;43m░▒▓[0;32m ▄[0;1;32;42m░░▒▒▓▓▓▓▒▒░░░[0;32m██[0;1;37m [0;32m█[0;1;32;42m░▒▓▓[0;1;32;40m█▄▄[0;1;37;40m [0;1;35;40m    [0;1;37;40m            [0;1;32;40m▄█[0;1;32;42m▒▓[0;1;32;40m▌[0;1;32;42m▓[0;1;37;40m [0;1;32;40m█[0;1;32;42m▓▒░[0;32m█[0;1;32;42m░░░░░░[0;32m████▄[0;1;37m [0;33m██[0;1;31;43m░░░▒▓██[0;33m▌[0m'

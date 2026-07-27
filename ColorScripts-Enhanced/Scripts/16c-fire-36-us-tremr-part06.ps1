@@ -5,7 +5,7 @@
 # Source SHA-256: 40a235117553aa8120f66892a3d234cd44266442bcbce6345489cf950e5a2066
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TREMR.ANS by Tetanus + Tainted (Fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tremor
 # SAUCE Author: Tetanus / Tainted
 # SAUCE Group: Fire
@@ -51,7 +51,7 @@ Write-Host '
                      [1;30;40m▀▀▄[0m                                                    [1;30m▀▀▄[0m
                           [1;30m▄[0m                       [1;30mt[0m [1;30mr[0m [1;30me[0m [1;30mm[0m O [1;30mr[0m
                               [1;30m░[0m [1;30m■[0m          [1;30m[ [0m5[1;30m 1 9 ] [0mx[1;30m x x - [0mx[1;30m x x x[0m
-                                                 [1;30msys[0mO[1;30mps: [0mt[1;30metanus & [0mt[1;30mainted[0m
+                                                 [1;30m   [0m [1;30m    [0m [1;30m         [0m [1;30m      [0m
 
 
 

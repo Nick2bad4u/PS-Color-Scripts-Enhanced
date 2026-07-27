@@ -5,7 +5,7 @@
 # Source SHA-256: 7834fa9428fa258af53a306029ebdf6de5a06ccc9ee77a631f90867e07a89d5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-K1.ANS by Avenger + Dee1 (Hieroglyphics); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Knocturnal Tribute
 # SAUCE Author: dee1 & ave
 # SAUCE Group: Hieroglyphics
@@ -39,9 +39,9 @@ Write-Host '
 [32m ▄[0;1;32;42m▓▓[0;32m▀[0;31m▓[0;37m  [0;31m   ▄████[0;37m [0;31m▀██[0;37m [0;31m▓▄█[0;37m [0;1;32m█[0;32m▄[0;31m█[0m   [37m▓▄ [0;31m▒[0m   [31m▓[0;37m ░ [0;32m [0;1;32m▓▓▀▀[0;32m▀▀[0;1;32m▓▓▓[0;1;32;42m███[0;1;36;40m█[0;1;36;46m▄[0;36m█[0;37m  ▀▀ ▄▄[0m      [32m▀[0;37m  [0;32m▄▌[0;37m [0;31m▀[0m
 [1;32;42m▄██[0;1;32;40m░[0;31m▒[0;37m [0;31m▄██▄▄[0;37m  [0;31m▀██[0m   [31m▀[0;37m  [0;31m▀[0;37;41m░░[0;37;40m [0;1;32;40m█[0;32m▄[0;31m█[0m      [31m▓[0m   [31m█[0;37m ▒  [0;31m▄█[0;33;41m▄▄[0;31;40m▄[0m   [32;40m▀[0;1;32;40m▀[0;1;37;40m▀▀█[0;1;32;40m█▄[0m  [1;32m██▄[0;32m▄[0;37m  ▀ [0;31m▀████▄▄▄[0m
 [37m [0;1;32m▀[0;1;36;46m▀[0;1;32;46m [0m   [31m▀▀▀[0;37m  [0;31m▄█▄▀▀▄▄▄▄▀▀▀▀█▄[0;1;32m▀[0;32m▀[0;31m▀▀▄▄[0m   [31m█[0;37m [0;31m▀▀█[0;37m ▓▄  [0;31m▀[0;33;41m▓[0;1;33;41m▓▓▓[0;33;41m█▄[0;31;40m▄▄▄▄▄[0;37;40m  [0;31;40m▄▄[0m   [1;32;40m▀[0;32m▀[0;31m▄▄▄[0;37m [0;32m▀▀▄[0;31m▀▀▀▓▓[0m
-[31m■[0;33m an ansi by dee1 (outlines) and ave (touchups/shading) for mr. knocky turner[0;37m [0;31m■[0m
+[31m■[0;33m                                                                            [0;37m [0;31m■[0m
 
-[1;33mhey knocky you bastard! you cant stop drawing just when your ansis made me[0m
-[1;33mdrawing more again !@:&"§&"§&"[0m
+[1;33m                                                                          [0m
+[1;33m                              [0m
 
 [1;33m:)[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 74219bef3518defaa9e625a2fe4666e272dff598f3dc6df6a7b45fda1f8455ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-GIFT.ANS by thrasher (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wired surprise ascii compo
 # SAUCE Author: thrasher
 # SAUCE Group: fuel productions
@@ -39,15 +39,4 @@ Write-Host '
 [1;30;47m▓[0;1;30;40m█▌[0m [33m▄[0;37m   [0;33m░[0;1;30;43m░▄[0;33m▄ [0;37m  [0;33m▐[0;1;30;43m▀[0;33m▌▀[0;37m   [0;33m█[0;1;30;43m▄▌[0;33m▌[0;37m     [0;33m▀▌[0;37m        [0;33m▄▄[0;37m   [0;33m█[0;1;30;43m▀[0;33m▀[0;37m   [0;33m▐▄▀[0;37m    [0;33m▄▌▀▀[0;37m        [0;33m▐[0;1;30;43m▐▀[0;33m▀[0;37m    [0;1;30m▀[0m
 [1;30m██[0m [33m▐▀[0;37m    [0;1;30;43m▐▀▌[0;33m▀[0;37m   [0;33m█[0;1;30;43m░[0;33m▌[0;37m  [0;33m▐[0;1;30;43m▀▌[0;33m▓[0;37m       [0;33m▄[0;37m   [0;33m░[0;37m  [0;33m ▐▀[0;37m  [0;33m▐▄[0;37m      [0;33m█▌[0;37m    [0;33m▐▀[0;37m            [0;33m▀[0;37m [0;33m▄[0;1;30;43m░[0m
 [1;30m█▌[0m      [33m▐█▀▌[0;37m    [0;33m▐▀[0;37m   [0;33m█▌▀▌[0;37m               [0;33m▀[0;37m   [0;33m▀[0;37m       [0;33m▐[0;37m       [0;33m▄▌[0;37m            [0;33m ▀▐▄[0m
-[1;30m█thr![0m   [33m█▀▌[0;37m     [0;33m▀ [0;37m   [0;33m▐[0;1;30;43m▒[0;33m▄[0;37m                   [0;33m▀[0;37m         [0;33m▄[0;37m       [0;33m▀[0;37m [0;33m▄[0;37m              [0;33m▀[0m
-
-
-[37mokay! this one was done at wired97 for the supprize ascii compo[0m
-[37mand i kinda colored it in (icky shading:)[0m
-[37msooo... i''ll give this one to whoever gives me the best reason for giving it[0m
-[37mto him/her.[0m
-
-[37mcatch me on irc on #fuel #ansi or reach me at thrasher[0;1;32m@[0mnetlink.be
-
-later!
-thrash.[0m'
+[1;30m█thr![0m   [33m█▀▌[0;37m     [0;33m▀ [0;37m   [0;33m▐[0;1;30;43m▒[0;33m▄[0;37m                   [0;33m▀[0;37m         [0;33m▄[0;37m       [0;33m▀[0;37m [0;33m▄[0;37m              [0;33m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3607630681cd9d87e397d0243eee7dd873de8325c4a334339105344830ac0d0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ISO-FRIC.ANS by Isotone (Shaolin's Finest); released in shao0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: phriction emag logo
 # SAUCE Author: Isotone
 # SAUCE Group: Shaolin's Finest
@@ -35,14 +35,4 @@ Write-Host '
                                        [1;34m▒[0m
                                        [1;34m░[0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30m             the basic shape of the left part of the p was based upon [0m
-             [1;30m(but certainly not ripped from) a cool shape i saw in an[0m
-             [1;30mansi of legion pack 2, which i thought would be perfect [0m
-     [1;30m [0m      [1;30mfor a p...i wrote this just in case some ''elite'' divinity[0m
-            [1;30mtakes it upon himself to write up a 50 page essay on how [0m
-           [1;30mmuch of a lamer a guy most artists dont even know exist is[0m [1;30m4[0m
-            [1;30mripping a piece of art and hence violating the (c) law that[0m
-            [1;30mreally doesnt mean anything anyway.....hmm they might even [0m
-           [1;30minclude that i ripped the idea of (c) being useless as i read[0m
-            [1;30mthis in the legion pack too...[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

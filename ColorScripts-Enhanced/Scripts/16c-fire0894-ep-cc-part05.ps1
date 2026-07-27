@@ -5,7 +5,7 @@
 # Source SHA-256: 55741370289c7a969eaf9ee8d7d230822e0c1d07d083f328689a378b8491ad38
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EP-CC.ANS by Epitaph (fire0894); released in fire0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 179-220
 # Columns: 1-80
 
@@ -46,9 +46,9 @@ Write-Host '
 
 
                             [31;40m█  ░  █  ░  ░  ▐▌  ░  █[0m
-                            [31;40m█ [0;1;37;40mThe Courts of Chaos [0;31m█[0m
+                            [31;40m█ [0;1;37;40m                    [0;31m█[0m
                             [31m█  ▓ [0;37m4o4.987.3oo6  [0;31m▓  █[0m
-                            [31m█  ▌[0;37mSysOp: [0;1;37mSkyblade[0;31m█  █[0m
+                            [31m█  ▌[0;37m       [0;1;37m        [0;31m█  █[0m
                             [31m▓  █ [0;37mRunning [0;1;37mWWIV  [0;31m█  ▓[0m
-                            [31m▒  ▌[0;37mAnsi by [0;1;37mEpitaph[0;31m█  ▒[0m
+                            [31m▒  ▌[0;37m        [0;1;37m       [0;31m█  ▒[0m
                             [31m░  █  ░  █  █  ░   █  ░[0m'

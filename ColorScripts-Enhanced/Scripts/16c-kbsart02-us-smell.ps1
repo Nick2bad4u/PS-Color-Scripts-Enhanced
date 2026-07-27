@@ -5,7 +5,7 @@
 # Source SHA-256: 2013ac0c571a5d802d4312c7f66b04264d0e39b82919effa9fe6d15f6e1880f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SMELL.ANS by Cyberphreak + Cls (kibosh); released in kbsart02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The smell of ansi
 # SAUCE Author: cyberphreak and cls
 # SAUCE Group: kibosh
@@ -60,8 +60,4 @@ Write-Host '
 [1;32m▀▀▀▀▀[0;1;32;42m░[0;32m█▄[0;37m [0;1;32m▄▄[0m [1;32m▀▀▀▀[0m  [1;32m▄▄▄[0m  [1;32m▄[0;1;32;42m█▓▓[0;32m▀[0;37m [0;1;32m▄[0;32m▄[0;1;32;42m▒░░[0;32m▀[0;37m [0;1;32m▀▀[0;32m▀▀[0;37m [0;1;32m▀[0m  [1;32m▀[0;1;32;42m▓▒░░[0;32m▄▄ ▀▀█▌[0;1;31m▐[0;1;31;43m█▓▒▒░░░░[0;33m▀▀▀▀▀▀[0;1;30m▄▄[0;36m▄▄[0;1;36;46m░[0;1;30;46m▄▄[0;36m▀▀[0m
 [1;32;42m██▓▒[0;1;32;40m▄[0;32m▄▄▄[0;37m [0;1;32;42m█▓▓▒[0;1;32;40m▄[0m [1;32m▀[0;1;32;42m▓[0;1;32;40m▄[0;32m▄[0;37m [0;1;32;42m█▒[0m [1;32m▀▀▀[0m [1;32m▄[0;1;32;42m█▓▒[0;1;32;40m▀[0;32m▀[0;37m [0;1;32m▄[0;32m▌[0;1;32m▀▄[0;1;32;42m█▓▓▒[0;32m▀[0;1;32m▐[0;32m▄[0;37m [0;1;32m▀▀▀[0;32m▀[0;1;32;42m░░[0;32m▀ ▀[0;37m  [0;36m▄▄[0;1;36m▄▄▄▄▄[0;1;36;46m▄▄▓▓▒▒░░[0;36m▀▀[0;1;30m▀[0;1;30;44m▄[0;34m▄▄[0;1;30;44m▀[0;34m█[0m
 [1;32;42m█▓▒▒░░[0;32m█▀[0;37m [0;1;32m▀[0;1;32;42m█▓▒▒░[0m [1;32;42m▓▒░[0;32m▌[0;1;32m▐[0;1;32;42m▓[0;1;32;40m▌▀▀▀▄[0m [1;32;42m█[0;1;32;40m▀[0m [1;32m▄▄[0;1;32;42m▒░[0;32m▌[0;1;32m▐[0;1;32;42m█▓▒[0;1;32;40m▀[0m [1;32m▄[0;1;32;42m▓▒[0;32m▌[0;1;32m▐[0;1;32;42m▓▒[0;1;32;40m▄[0;32m ▀[0;37m [0;1;36m█████[0;1;36;46m▀[0;1;36;40m▀▀▀▀▀[0;36m▀▀[0;1;30;44m▄[0;1;34;40m▄▄▄[0;34m▄▄[0;1;30;44m▀[0;1;34;44m░░░░░[0;34m██[0m
-[1;32;42m▓▒▒[0;1;32;40m▀▀[0;32m▀[0;37m [0;1;32m▄[0;1;32;42m▓▒[0;32m▄▄▀▀[0;37m [0;1;32m▄[0;1;32;42m█▒░[0m [1;32;42m█▒[0m [1;32;42m▓▒░[0;1;32;40m▄[0m [1;32m▄[0;1;32;42m█▓▒░░[0;32m▀[0;37m [0;1;32;42m█▓▒[0m [1;32m▄[0;1;32;42m█▓▒░[0;32m█[0;37m [0;1;32;42m▓▒░[0;32m█[0;37m [0;1;34m▄▄▄▄▄▄▄[0;1;30;44m▀[0;1;34;44m▓▓▓▓▓▒▒▒▒▒▒░░░░░ [0;34m███[0m
-
-[37m                     [0;1;30m100% [0moriginal[1m   -   [0m100% ki[1;30mbosh[0m
-                     ou[1mtlin[0mes [1;30m:[0m cyb[1merphr[0meak [1;30m[[0mki[1mbo[0msh[1;30m][0m
-co[1mlori[0mng[1;30m,[0m sh[1madi[0mng[1;30m,[0m bac[1mkgro[0mund [1;30m:[0m c[1mL[0ms         [1;30m[[0mki[1mbo[0msh[1;30m][0m'
+[1;32;42m▓▒▒[0;1;32;40m▀▀[0;32m▀[0;37m [0;1;32m▄[0;1;32;42m▓▒[0;32m▄▄▀▀[0;37m [0;1;32m▄[0;1;32;42m█▒░[0m [1;32;42m█▒[0m [1;32;42m▓▒░[0;1;32;40m▄[0m [1;32m▄[0;1;32;42m█▓▒░░[0;32m▀[0;37m [0;1;32;42m█▓▒[0m [1;32m▄[0;1;32;42m█▓▒░[0;32m█[0;37m [0;1;32;42m▓▒░[0;32m█[0;37m [0;1;34m▄▄▄▄▄▄▄[0;1;30;44m▀[0;1;34;44m▓▓▓▓▓▒▒▒▒▒▒░░░░░ [0;34m███[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 121b612511dccd2c9cb44d6b73c5d2a4b50c6c130d7f9bf8373e03dafa418183
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NX-LOBO1.ANS by Nexus (myst9504); released in myst9504 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -53,5 +53,4 @@ Write-Host '
                           [36m░▓▒▒[0m
                          [36m░▓▓▒[0m
                          [36m░▒▒[0m
-                        [36m▀ ░[0m                                           [1;37mN[0mX
-                                                                   [1;30m-M[0mY[1mS[0mT[1;30miC-[0m'
+                        [36m▀ ░[0m                                           [1;37mN[0mX[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 436170fedd9b351f303117d90a9d9769ac4d922501a8778806772b74f22b5a29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-OI3.ANS by Pyx (Bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Optical Illusion
 # SAUCE Author: Pyx
 # SAUCE Group: Bamboosh
@@ -36,7 +36,4 @@ Write-Host '
 [1;36;46m▒▓▓█▓▒▒▒░[0;36m▌[0;34m▐██[0;1;34;44m▀███████▓▄▄[0;34m█████████████████[0;1;34;44m▀▀[0;34m███▀ ▄█[0;1;34;44m ▄██[0;1;34;47m▓▓░[0;1;34;44m███[0;1;30;44m░[0;34m███ [0m     [36m▀[0;1;36;46m░░[0;36m██▄▄[0;30;46m■[0;1;36;46m░[0m
 [1;36;46m░▒▒░▒▒░[0;36m█[0;1;36;46m▄▒[0m [34m▀█████[0;1;34;44m▀▀▀▀██████▄▄▄▄▄▄▄▄▄▀▀▀[0;34m████▀▀ ▄██[0;1;34;44m▐██████▀[0;1;30;44m░[0;1;34;44m▀  [0;34m█▀[0;1;36m([0mpyx[1;36m)[0m    [36m▀▀▀▀[0;1;36;46m░[0;36m██ [0m
 [1;36m░░[0;36m▀▀▀▀▀█[0;1;36;46m░[0;36m█[0;1;36;46m░[0;36m▄[0;37m  [0;34m▀▀▀▀▀███████████[0;1;34;44m [0;34m▀▀▀▀▀▀▀▀[0m    [34m▄██████[0;1;34;44m▀▀░▀[0;34m█[0;1;34;44m▀█▀[0;34m█▀▀ [0m
-                                                [34m▀▀▀▀▀▀[0m
-           [37mbamboosh world headquarter +47 55122892 33k6 two lines[0m
-
-[37m   greetings go out to my every friend out there, i hope you know who you are[0m'
+                                                [34m▀▀▀▀▀▀[0m'

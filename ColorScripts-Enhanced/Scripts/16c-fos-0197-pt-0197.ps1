@@ -5,7 +5,7 @@
 # Source SHA-256: 677cd8ff3844dea35c0506fd364d9a118e155b8620d6f251c21e179cdc6aeb52
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-0197.ANS by Platinum (MiSTiGRiSTEEL); released in fos-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: January Logocolly
 # SAUCE Author: Platinum
 # SAUCE Group: MiSTiGRiSTEEL
@@ -38,11 +38,11 @@ Write-Host '
 [37;40m ███████ ████ █████ █████▀▀▄▄▄█   ▄██[0;30;47m [0;37;40m▄▀██▄▀▀▄████████    ▐██ ██[0;30;47m  [0;37;40m▌o        ██[0m
 [37;40m ██████▄▀▀▀▀▀▐▀▀▀▀▀▄▀▀▀▀▀▀▄▄▀▀▀▀▀▀▀▀▀ ██▄▄▀▀▀▄ ███ ▀▀██▄▄██▀▀▐█[0;30;47m/[0;37;40m ▀▀   ▄▄     ▀[0m
 [37;40m ████████████▄██████████████████████ ▄ ▀█████▌▐██▌▐[0;30;47m__[0;37;40m▄▄▄▄▄▄▄▄▄▄[0;30;47m|[0;37;40m▄▄▄  [0;30;47m___ [0;37;40m█▄▄[0m
-[37;40m █████████████████████████████████▀ ▐███▌▀███ ██[0;30;47m([0;37;40m▌▐[0;30;47mFREEZE MOTHERFUCKER!!`[0;37;40m▀▀ [0m
+[37;40m █████████████████████████████████▀ ▐███▌▀███ ██[0;30;47m [0;37;40m▌▐[0;30;47m                      [0;37;40m▀▀ [0m
 [37;40m████████████▀▀▀▀▀▀▀███▀▀▀█▀▀▀▀▀    ▀▀▀▀███▄▄▄███▀ ▀▀▀▀[0;30;47m~~~[0;37;40m▀▀▀[0;30;47m~[0;37;40m▀▀▀▀▀▀[0;30;47m~~[0;37;40m██[0;30;47m!BLAM[0;37;40m▄▄ [0m
 [37;40m████████▀▀▄▄██▀▀███▄▄ ███▄█▀▀███▄██▄██▀▀▄▄▀▀▀▀▄▄██▀▀██▄▄ ███▄█▀▀███▄▄▀██[0;30;47m!BLAM![0;37;40m [0m
 [37;40m███████▌▐██[0;30;47m [0;37;40m█[0m    [37;40m████▌▐███▌▐█ ███▐███▌▐█ ███ ██[0;30;47m [0;37;40m█[0m    [37;40m████▐███▌▐█ ████▄▀▀▄▀█[0;30;47m [0;37;40m██[0m
 [37;40m███████▀█[0;30;47m [0;37;40m██▀▀▀▀▀▀▀▀▀▀▐███▌▐█ ███▌███▌▐▀▄████[0;30;47m [0;37;40m██▌    ▐███▌███▌▐▀▄████▀▀▀▄████▀▀[0m
 [37;40m████████▄▀███▄   ▄██[0;30;47m [0;37;40m█████ ███[0;30;47m▀[0;37;40m▄ ▄███▌▀█▄▄▄▄▄▀███▄  ▄▄██[0;30;47m [0;37;40m████▌ █▄▄▄▄▄█████████[0m
 [37;40m█████[0;30;47m\_[0;37;40m█[0;30;47m__[0;37;40m▄▄▀▀▀▀▀▀▀▀▄▄▀▀▀▀▄[0;30;47m____[0;37;40m█▀▀▀▀▀▀▀▄██████▄▄▀▀▀▀▀▀▀▄▄▀▀▀▀▀ ▄▄[0m
-[37;40m ██████[0;30;47m(SHIT! Jimmy''s DEAD, the cops got him, WHAT DO YOU WANT TO DO??? )      [0m'
+[37;40m ██████[0;30;47m                                                                        [0m'

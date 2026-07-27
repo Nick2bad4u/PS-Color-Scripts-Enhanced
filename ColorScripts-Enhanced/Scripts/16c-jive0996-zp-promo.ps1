@@ -5,7 +5,7 @@
 # Source SHA-256: 537d339704deabf72a2e77b7882c725e2a0fbe04cc5f9721c90c0e31f110d59e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZP-PROMO.ANS by Zippy (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sod JiVE whq
 # SAUCE Author: Zippy
 # Lines: 1-26
@@ -26,14 +26,14 @@ Write-Host '
 [35m█[0;1;35;45m▒░[0;35m████[0;37m [0;1;31;45m▒▓▓▒░▒▓▒▒░[0m [1;31;45m░▒▓▓▒░▒[0m [1;31;45m░▒▓▓▒░▒[0m [1;31;45m▒▓▓▒░▒▓▒▒░[0m [1;31;45m░▒▓▓▒░▒[0m [1;31;45m▒▓▓▒░▒▓▒▒░[0m [1;31;45m░▒▓▓▒░▒[0m [35m████[0;1;35;45m░▒[0;35m█[0m
 [35m█[0;1;35;45m░[0;35m███[0;1;35;45m░[0;35m█[0;37m [0;1;31;45m▓█[0;1;31;43m█[0;1;31;45m▓▒▓█▓▓▒[0m [1;31;45m▒▓█[0;1;31;43m█[0;1;31;45m▓▒▓[0m [1;31;45m▒▓█[0;1;31;43m█[0;1;31;45m▓▒▓[0m [1;31;45m▓█[0;1;31;43m█[0;1;31;45m▓▒▓█▓▓▒[0m [1;31;45m▒▓█[0;1;31;43m█[0;1;31;45m▓▒▓[0m [1;31;45m▓█[0;1;31;43m█[0;1;31;45m▓▒▓█▓▓▒[0m [1;31;45m▒▓█[0;1;31;43m█[0;1;31;45m▓▒▓[0m [35m█[0;1;35;45m░[0;35m███[0;1;35;45m░[0;35m█[0m
 [35m█[0;1;35;45m▀[0;35m█[0;1;35;45m▀▀[0;35m██[0;37m [0;1;31;43m████[0;1;31;45m▓[0;1;31;43m████[0;1;31;45m▓[0;1;31;40m▄[0;1;31;45m▓[0;1;31;43m████[0;1;31;45m▓[0;1;31;43m█[0m [1;31;45m▓[0;1;31;43m████[0;1;31;45m▓[0;1;31;43m█[0;31m▒[0;1;31;43m████[0;1;31;45m▓[0;1;31;43m████[0;1;31;45m▓[0;1;31;40m▄[0;1;31;45m▓[0;1;31;43m████[0;1;31;45m▓[0;1;31;43m█[0;31m▒[0;1;31;43m████[0;1;31;45m▓[0;1;31;43m████[0;1;31;45m▓[0;1;31;40m▄[0;1;31;45m▓[0;1;31;43m████[0;1;31;45m▓[0;1;31;43m█[0m [35m█[0;1;35;45m▀▀ ▀[0;35m██[0m
-[1;31mz[0;31mP[0;1;30mjive[0m      [34m                [0m                         [31m░[0;34m                  [0m
-[37m [0;35m [0m                              [35mTHE JIVE WERLD HQ [0m
+[1;31m [0;31m [0;1;30m    [0m      [34m                [0m                         [31m░[0;34m                  [0m
+[37m [0;35m [0m                              [35m                  [0m
                                                      [31m░[0m
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 
-  [1;30malright... maybe you cant see it... but i dont care.... its JIVE wit SOD [0m
-[1;30m  behind it.   the J is part o da S... The I and V of O and the V and E for[0m
-[1;30m  da D... look real hard.. or use vga :).   vive da la rocha!![0m
-                                     [1;30mzPfoo[0m
+  [1;30m                                                                         [0m
+[1;30m                                                                           [0m
+[1;30m                                                              [0m
+                                     [1;30m     [0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

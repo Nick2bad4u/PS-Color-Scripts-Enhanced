@@ -5,7 +5,7 @@
 # Source SHA-256: 8975b7e9fb6f9c7f47cba911af6078a00c26486656a00042751e93a9c962f832
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SJ-AS1.ANS by tHE sAD jESTER (BliND STUdiosh); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: tHE sAD jESTER
 # SAUCE Group: BliND STUdiosh
 # SAUCE Date: 19960104
@@ -32,15 +32,11 @@ Write-Host '
     [33m ▀▀█▀[0;37m [0;33m▀▄▄▀▀[0m    [33m▀▄▀ [0;1;30m [0;33m▀▀[0m   [33m▀▄■▄▄█■▄▄ ▀▄█[0;37m [0;33m   [0m     [33m▀▀▀▀▀[0;37m [0;33m ▀[0;37m [0;33m▀▀[0;37m [0;33m▀▄█[0;37m  [0;33m▄▀[0;37m  ▄[0m    [1;30;41m░▒[0;1;30;40m▀[0m
  [33msmall lit[0m      [31mS[0m         [31mT[0m        [31m A[0m         [31mT[0m       [33m [0;37m [0;31mE     [0;37m [0;1;30m▄▄▄ [0;33m▀[0;1;30m [0m ▄[1;30;47m░▒[0m [1;30;41m▓[0;1;30;40m▄[0;1;30;41m▒[0;1;30;40m▀[0m
 [1;30m [0;1;30;47m░[0;1;30;40m ▄▄▄[0m [33m''The sun shall set[0m   [1;30m■▀▄▄▓▄▄▄[0;1;30;47m▓[0;1;30;40m▄▀■[0;33m''Mandkind shall burn[0m   [1;30;47m▒[0m  [1;30m▀ ▓[0m  ▀[1;30;47m▓[0;1;30;40m█▀▀[0m
-[1;30m▓[0m    [1;30;47m▒[0m [33m`The thorns shall[0;37m [0;33mgrow[0m   [1;30m▀[0m [33m [0;1;30m▓▀[0m   [33m''In the fires of his making[0;37m [0;1;30m█[0m
-[1;30m█[0m      [33m''Demon and Devil shall[0;37m [0;33mbet[0;37m  [0;1;30m█[0m    [33m''All things know shall[0;37m [0;33mdie[0;1;30m░▀[0m
- [1;30m▀░[0m    [33m`On what seed we shall[0;37m [0;33msow[0;37m  [0;1;30m█[0m   [33m ''And anarchy will rein[0;37m  [0;1;30m▄▀[0m
-   [1;30m▀▄[0m  [33m''With our Malice and hate[0m   [1;30m█[0m   [33m ''With justice for none[0;37m  [0;1;30;47m░[0m
-    [1;30;47m░[0m  [33m''We have set the date,[0m      [1;30;47m░[0;1;30;40m  [0m  [33m''When the sun sets.[0m     [1;30;47m▓[0m
-    [1;30;47m▓[0m  [33m''We have made the pact,[0m    [1;30m ▓[0m    [33m''The thorns will grow.[0;1;30m █[0m
+[1;30m▓[0m    [1;30;47m▒[0m [33m                 [0;37m [0;33m    [0m   [1;30m▀[0m [33m [0;1;30m▓▀[0m   [33m                           [0;37m [0;1;30m█[0m
+[1;30m█[0m      [33m                      [0;37m [0;33m   [0;37m  [0;1;30m█[0m    [33m                      [0;37m [0;33m   [0;1;30m░▀[0m
+ [1;30m▀░[0m    [33m                      [0;37m [0;33m   [0;37m  [0;1;30m█[0m   [33m                       [0;37m  [0;1;30m▄▀[0m
+   [1;30m▀▄[0m  [33m                         [0m   [1;30m█[0m   [33m                       [0;37m  [0;1;30;47m░[0m
+    [1;30;47m░[0m  [33m                      [0m      [1;30;47m░[0;1;30;40m  [0m  [33m                   [0m     [1;30;47m▓[0m
+    [1;30;47m▓[0m  [33m                       [0m    [1;30m ▓[0m    [33m                      [0;1;30m █[0m
      [1;30m▀▄[0m [1;30m▄▄[0m [1;30m▒[0m [1;30m▄[0m             [1;30m▓[0m [1;30m▄ ▄▄▄▄█▄[0m [1;30m▄▄▄▄▒▄[0m [1;30m░[0m  [1;30m▓▄▄▄▄▄▄▄▄[0;1;30;47m░[0;1;30;40m▄[0m  [1;30m▄▀[0m
-                                   [1;30m▒[0m                         [1;30m▒[0m
-
-
-[33m  [0m
-[33m  [0m'
+                                   [1;30m▒[0m                         [1;30m▒[0m'

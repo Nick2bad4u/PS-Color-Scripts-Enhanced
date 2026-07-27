@@ -5,7 +5,7 @@
 # Source SHA-256: 27aaa44c44f6cefe54d2a033bfa3c374ebced776ac1a0e6c7d1f4c02cab3adb9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CN-KP.ANS by CarNage (iLLUSiON); released in illu0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Khaotic Plains Logoff
 # SAUCE Author: CarNage
 # SAUCE Group: iLLUSiON
@@ -40,5 +40,4 @@ Write-Host '
           [34m█ [0m            [34m ▐▌[0m      [34m ██  [0m          [34m ▀  [0m           [34m ▀   [0m
           [34m [0m                      [34m▐██▌    [0m                      [34m     [0m
           [34m▀[0;37m  [0;1;34mK [0;34m■[0;1;34m H [0;34m■[0;1;34m A [0;34m■[0;1;34m Ö [0;34m■[0;1;34m T [0;34m■[0;1;34m I[0;34m▀▀[0;1;34m C       P [0;34m■[0;1;34m L [0;34m■[0;1;34m A [0;34m■[0;1;34m I [0;34m■[0;1;34m N[0m
-          [34m█[0m                      [34m      [0;37m [0;34m▄[0m
-                                       [34m [0m'
+          [34m█[0m                      [34m      [0;37m [0;34m▄[0m'

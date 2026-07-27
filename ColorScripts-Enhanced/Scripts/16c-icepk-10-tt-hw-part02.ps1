@@ -5,7 +5,7 @@
 # Source SHA-256: d14973bdc2f3b7d1a8f30391e477f700a070f3b91ef68716f3f37fd1f11fb52a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-HW.ICE by Tempus Thales (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-97
 # Columns: 1-80
 
@@ -51,9 +51,9 @@ Write-Host '
      [1;37m█████▀ ▀▄███▀▀    ▄███  ▄███    ██████  ▄███▄▄████▀    ███▄▄▄███▀▀[0m
                                    [1;37m▄██████▌[0m
 [1;30m┌─── H[0ma[1mrdWired [0;1;31m- [0;1;37m4o4[0;1;31m.[0;1;37m452[0;1;31m.[0;1;37m7[0m38[1;30m7    [0;1;37m▀▀▀▀▀▀▀▀▀   [0;1;30mAbstract mental image: TT ───────┐[0m
-[1;30m│    S[0my[1msOp [0;1;31m- [0;1;37mShihear Kallizad [MiR[0mAG[1;30mE][0m        [1;30mInspiration, BR, LC, DE[0m         [1;30m│[0m
+[1;30m│     [0m [1m    [0;1;31m  [0;1;37m                     [0m  [1;30m  [0m        [1;30m                       [0m         [1;30m│[0m
 [1;30m│[0m                                                                             [1;30m│[0m
-[1;30m│   M[0miR[1mAGE Member Board [0;1;31m- [0;1;37mLegacy Distribution Site [0;1;31m- [0;1;37miMAGE Distribution [0mSi[1;30mte  │[0m
-[1;30m│[0m                   [1;30mM[0me[1mmber[0;1;31m: [0;1;37mCyberCrime International Netw[0mor[1;30mk[0m                  [1;30m│[0m
+[1;30m│    [0m  [1m                 [0;1;31m  [0;1;37m                         [0;1;31m  [0;1;37m                   [0m  [1;30m    │[0m
+[1;30m│[0m                   [1;30m [0m [1m    [0;1;31m  [0;1;37m                             [0m  [1;30m [0m                  [1;30m│[0m
 [1;30m│[0m                                [1;30mv[0;1;31m.[0m3[1m2[0;1;31m/[0;1;37mv[0;1;31m.[0;1;37m42[0mbi[1;30ms[0m                                 [1;30m│[0m
 [1;30m└─────────── "H[0mun[1mdreds of quality ANSi''s[0;1;31m, [0;1;37martists ALWAYS welco[0mme[1;30md[0;1;31m.[0;1;30m" ──────────┘[0m'

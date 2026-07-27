@@ -5,7 +5,7 @@
 # Source SHA-256: 344915400cc2c1ec8073e6169be4ee4802f30dc9f9a63f72cc08fe552b862633
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 3I-LIVEM.ANS by Nitrifik (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Live Meat
 # SAUCE Author: Nitrifik
 # SAUCE Group: Hieroglyphics
@@ -18,7 +18,7 @@ Write-Host '
 
 
 
- [1;33mlive[0mmeat.
+ [1;33m    [0m     
 
 
 
@@ -38,11 +38,4 @@ Write-Host '
 [1;37;40m█████████████████████████████████████████████████████████████████[0;1;37;44m████▄▄▄▄███████[0m
 [1;37;40m████████████████████████████████████████████████████████████████████████████████[0m
 [1;37;40m████████████████████████████████████████████████████████████████████████████████[0m
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-
-[1;33m nitrifik [0;35m>> [0;37mhieroglyphics[0m
-
-[1;30m Not intended to be anything of the following; good, revolutionary, original, [0m
-[1;30m shaded, interesting, annoying, disturbing or worth of release.[0m
-
- [1;30mBut, I still drew it. [0m'
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m'

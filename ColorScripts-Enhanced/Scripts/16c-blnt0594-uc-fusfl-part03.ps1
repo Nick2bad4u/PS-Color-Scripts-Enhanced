@@ -5,7 +5,7 @@
 # Source SHA-256: aeca007de8509d406094da07c9411b72b997fa26979f1d1f14430f9f32683fda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-FUSFL.ANS by Unknown Comic (blnt0594); released in blnt0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 88-128
 # Columns: 1-80
 
@@ -42,8 +42,8 @@ Write-Host '
                 [1m│ │[0m                                     [1m│ │[0m
                 [1m└│┘[0m        [1mF U S I O N   F L U X[0m        [1m└│┘[0m
                 [1m┌│┐[0m            [1m-713.452.6520-[0m           [1m┌│┐[0m
-                [1m│ │[0m           [1miCE Member Board[0m          [1m│ │[0m
-                [1m└│┘[0m         [1mSysOp. Tyrus Sithius[0m        [1m└│┘[0m
+                [1m│ │[0m           [1m                [0m          [1m│ │[0m
+                [1m└│┘[0m         [1m                    [0m        [1m└│┘[0m
                 [1m┌│┐[0m          [1mAnsi. Unknown Comic[0m        [1m┌│┐[0m
                 [1m│ │[0m                                     [1m│ │[0m
             [1;31m▄[0;41m▓[0m  [1m└│┘[0m                                     [1m└│┘  [0;41m▓[0;1;31m▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 88ed9a47a09885bccfe49ff9a4c4e1c2c1c3a092d5645cb81ad84acf4c3b0f96
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EM-LEGO.ANS by eviL milkmAn (5thzwrtHzflx); released in 5th-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: joint marathon...uh I'm stoned
 # SAUCE Author: eviL milkmAn
 # SAUCE Group: 5thzwrtHzflx
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[32mbk-rOund needeD...aw pfuyee, fuckiD![0m
+[32m                                    [0m
 
         [1;32;40m▄▄▄[0m                                   [1;32;40m▄▄▄[0m
        [1;32;42m▒▓[0;1;32;40m█▌[0m                                  [1;32;42m▒▓█[0;1;32;40m▌[0;37;40m [0;1;30;47m░[0;37;40m▄[0m   [1;32;40m▄▄[0;32;40m▄▄[0m  [32;40m▄▄▄[0;37;40m [0;1;32;40m▄██▄[0m

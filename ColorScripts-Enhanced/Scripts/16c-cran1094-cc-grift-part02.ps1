@@ -5,7 +5,7 @@
 # Source SHA-256: eff9606ae8e014cb102912efadd677fee17862b85a8b2e1ee8f9f71a2a80f24f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-GRIFT.ANS by Clorox Cowboy (cran1094); released in cran1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-91
 # Columns: 1-80
 
@@ -55,6 +55,6 @@ Write-Host '
 
 
          [1;37;40m┌[0m────────────────────────────────────────────────────────────[1;30m┐[0m
-         [1;37m│   [0;34mif y[0;1;34mou wa[0;1;37mnt an ANSi pict done by CRANiUM PROD[0;1;34mUCTi[0;34mONS[0m     [1;30m│[0m
-         [1;37m│ [0;34mwe c[0;1;34man be [0;1;37mcontacted at our WHQ or your nearest dis[0;1;34mtro s[0;34mite [0;1;30m│[0m
+         [1;37m│   [0;34m    [0;1;34m     [0;1;37m                                    [0;1;34m    [0;34m   [0m     [1;30m│[0m
+         [1;37m│ [0;34m    [0;1;34m      [0;1;37m                                        [0;1;34m     [0;34m    [0;1;30m│[0m
          [1;37m└[0;1;30m────────────────────────────────────────────────────────────┘[0m'

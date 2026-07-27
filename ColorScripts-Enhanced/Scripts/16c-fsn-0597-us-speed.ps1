@@ -5,7 +5,7 @@
 # Source SHA-256: d482c2714df2fc7a21f93854edb10ea7bcf9b0b0d112d7812952d20955f4f593
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SPEED.ANS by Ize + Oolite (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: speedloader
 # SAUCE Author: oolite + ize
 # SAUCE Group: fusion
@@ -36,6 +36,5 @@ Write-Host '
           [35m  [0;30;44m█[0;34;40m░[0;30;44m▓[0;1;34;40m▀▀▀▀▀[0;34m▐[0;1;34m█[0;1;34;47m▓[0;1;34;45m█[0;1;34;44m▓▓░░░▓▓[0;1;34;45m█[0;1;34;44m▓▓█[0;1;34;45m██[0;34m▐[0;35m   [0;1;34;44m▐[0;1;34;40m▄[0;34m▐[0;1;34;45m▒▒▒▒▒[0;1;34;40m [0;1;34;44m▐[0;1;34;45m▓▓▓███[0;1;34;40m█▄▄[0;1;34;44m▄[0;1;34;47m▓[0;34m▐[0;1;34;45m█▓▓▒[0;35m▌[0;1;34;44m▐[0;1;34;45m▒▒▓[0;1;34;44m▓▓[0;35m [0m
              [34m [0m      [34m [0;35m [0;34m░[0;30;44m▓[0;34;40m░[0;30;44m░░░[0;34;40m▓[0;1;34;45m█[0;1;34;44m▓▓▒▒▓▓▓[0;34m▐[0;1;34;47m░▓▓[0;1;34;40m▀▀[0;1;34;44m▀[0;1;34;45m▓▓▓▓▓███[0m      [34m░[0;1;34;44m▐[0;1;34;47m▓░[0;34m▐[0;35m  [0;34m▀[0;1;34;44m▀[0;35m [0;34m▄[0;35m [0;1;34;45m▓[0;1;34;44m▓░░░[0m
              [34m  [0m      [35m        [0;34m▐[0;1;34m▀[0;34m░[0;1;34;44m░░▒▒▒[0;34m▐[0;1;34;47m▓[0;1;34;40m▀▀▀▀▀[0;35m  [0;34m▀[0;1;34;44m▀[0;35m  [0;34m▀[0;1;34m▀▀▀[0m     [34m░░[0;35m [0;34m [0;35m     [0;34m▄▄[0;35m [0;30;44m▓░[0;34;40m▓[0;30;44m░▓[0;35;40m [0;34;40m░[0m
-     [34;40m... ansi by[0;35;40m [0;34;40moolite &[0;35;40m [0;34;40mize [0;35;40m [0;34;40m░[0;30;44m░░[0;1;34;44m░░░[0;35m [0;34mspeedloader[0;35m [0;34m@phonyeye[0;35m [0;34m... [0;35m    [0m   [34m░▀▀▀[0m
-                                [30;44m▓[0;34;40m░▐▀[0;35;40m  [0m                           [35;40m          [0m
-                                                          [1;35;40m                 [0m'
+     [34;40m           [0;35;40m [0;34;40m        [0;35;40m [0;34;40m    [0;35;40m [0;34;40m░[0;30;44m░░[0;1;34;44m░░░[0;35m [0;34m           [0;35m [0;34m         [0;35m [0;34m    [0;35m    [0m   [34m░▀▀▀[0m
+                                [30;44m▓[0;34;40m░▐▀[0;35;40m  [0m                           [35;40m          [0m'

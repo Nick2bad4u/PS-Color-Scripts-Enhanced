@@ -5,7 +5,7 @@
 # Source SHA-256: 20aa36536b53e053055d2cfc3d95e4a73ab830e7b937f08a0667d49133f017ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YO-PRAY0.ANS by Young (Spastic Studios); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Prayer
 # SAUCE Author: Young
 # SAUCE Group: Spastic Studios
@@ -47,4 +47,4 @@ Write-Host '
 [33m░ ░ [0;1;30;42m░░ ▒░[0m [33m■▄▒▄▓ [0;1;30;42m░▒[0;32m█[0;1;30;42m▒[0;32m█ [0;1;30;42m░[0;32m█[0;1;30;42m▒[0;32m██ [0;1;30;42m░[0;32m█[0;1;30;42m▒[0;32m█[0;1;30;42m▒[0m [1;30;42m░[0;32m██[0;1;30;42m░[0;32m█ [0;1;30;42m░▒[0;32m█[0;1;30;42m░[0;32m█ [0;33m■▄▒▄▓ [0;1;30;42m░▒[0;32m█[0;1;30;42m▒[0;32m█ [0;1;30;42m▒[0;32m█[0;1;30;42m░[0;32m█[0;1;30;42m░[0m [1;30;42m░▒[0;32m█[0;1;30;42m▒[0;32m█ [0;1;30;42m░[0;32m█[0;1;30;42m▒[0;32m█[0;1;30;42m░[0m [33m░[0m
 [33m  ░ [0;32m▀[0;1;30;42m▒▄▓▒[0m [33m▒ ░ ▒ [0;32m▀[0;1;30;42m▓▄▓■[0m [1;30;42m▒▄▓■░[0m [32m▀[0;1;30;42m■▓▄▓[0m [1;30;42m▓▄■▒▄[0m [32m▀[0;1;30;42m▓▄▒■[0m [33m▒ ░ ▒ [0;32m▀[0;1;30;42m▓▄▓■[0m [1;30;42m▓▄▒■▒[0m [32m▀[0;1;30;42m▓▄▓■[0m [1;30;42m▓▄▓▄▒[0m [33m░[0m
 [33m  ░    [0;1;30m▓▀ [0;33m░   ░    [0;1;30m▓▀    ▓▀ [0;33m▒   [0;1;30m▀▀▓▀▀▀[0m      [32m▀ [0;33m░   ░[0m     [1;30m▀▀▓▀▀▀ [0;33m▒   [0;1;30m▓▀    ▓▀ [0;33m░[0m
-          [33m░  yOung of spastiC, of course it''s original you eediot  [0;1;30m░[0m'
+          [33m░                                                        [0;1;30m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4f21510541b3e364205019b85bc17bbcac90d3a85234fdddf489396c362097d5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-SF.ANS by sirdeath (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: second_front
 # SAUCE Author: sirdeath
 # SAUCE Group: eclipse
@@ -33,5 +33,4 @@ Write-Host '
   [35m███▌[0;1;30m▐████▌[0;35m▐██████▌[0;1;30m▐[0;1;30;47m▌[0m███▌[35m▐ [0;1;30m█████▐[0;1;30;47m▌[0m▌ [35m█▄▄▄▄[0;1;35m▄[0;35m▄[0;1;35m▄▄▄[0;1;37m▄▄▄▄[0m
 [1m [0;35m▐████ [0;1;30m▀███[0;1;30;47m█[0;1;30;40m▄ [0;35m▀██▀ [0;1;30m▄[0;1;30;47m▀[0m███▀ [35m█ [0;1;30m█████ ▀[0;1;30;47m▄[0m▄ [35m▀▀▀▀▀[0;35;47m▓▓▓▓░░░[0;1;35;40m▀ [0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▓░[0;30;45m▓[0;35;40m░░[0;30;45m▓[0;35;40m░[0m
 [35;40m ▐█████▄ [0;1;30;40m▀▀[0;1;30;47m▓▓▓[0m▄▄▄▄[1;30;47m▀ [0m█▀▀ [35m▄██ [0;1;30m██[0;1;30;47m▓▓▓[0;1;30;40m▀▀▀▀▀[0m▀▀ ▀ [30;45m░[0;35;40m██[0;35;47m█▓▓▓▓▓▓[0;35;40m▄▄▄[0;30;45m░[0;35;40m▓▓[0;30;45m░[0;35;40m▓▓░░[0;30;45m▓[0;35;40m░░[0;30;45m▓[0;37;40m  [0;30;45m▓[0;35;40m░[0m
-[35;40m ▀▀▀▀▀▀▀▀█▄▄▄ [0;1;30;40m▀[0m▀▀▀ [35m▄▄▄█████ [0;1;30m▀▀▀▀▀ [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[35m [0;1;30msirdeath[0m'
+[35;40m ▀▀▀▀▀▀▀▀█▄▄▄ [0;1;30;40m▀[0m▀▀▀ [35m▄▄▄█████ [0;1;30m▀▀▀▀▀ [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

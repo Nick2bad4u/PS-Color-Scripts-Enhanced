@@ -5,7 +5,7 @@
 # Source SHA-256: ae422680ef3adf946ac7c8b0e70b0f48f245ae1bb797f56d3c750edeefaaf50f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-99.ANS by Dizzy (sadist02); released in sadist02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 29-65
 # Columns: 1-80
 
@@ -41,9 +41,4 @@ Write-Host '
    [1;33m▀▓[0;33m▓▓[0m                                              [37m [0;1;30m▄▄▄[0m▄█[1;47m░[0;1;40m██████████[0;1;47m▓░[0m▄▄[1;30m▄[0m
     [1;33m▒[0m                                                      [1;33m░░[0m ▐[1m███[0;1;47m▀[0m▀ ▀▀▀▀███[1;30m█▄▄[0m
     [1;33m░[0m                                                         █[1m█[0;1;47m▀[0m▀[1;30m░[0m [1;30m░░[0m [1;33m▓▓░░[0m
-                                                             [1;30m▐█▀[0m       [1;33m░░[0m
-
-             [1;33mthis place is where i would like to be on new years day :)[0m
-                            [1;33m([0;33mincluding the nude babe[0;1;33m)[0m
-
-                                  [1mall this crap by Dizzy .. [0;1;30mDizzy@hehe.com[0m'
+                                                             [1;30m▐█▀[0m       [1;33m░░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b31bdb39701b6ef70b65ee788c292c2f6dc806ae4371ec9297599c8f3e40cffd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NE-UNKN.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -51,10 +51,10 @@ Write-Host '
   [1;34;40m▀[0;1;34;44m▄▄▄▄[0;1;34;40m▀ [0;1;34;44m▌[0;1;30;44m▐[0;1;30;40m▌[0m·  [1;30m▐[0;1;30;44m▌[0;1;34;44m▐[0;1;34;40m▐[0;1;34;44m [0;1;30;40m█  [0m·[1;30m▐[0;1;30;44m▌[0;1;34;44m▐[0m  [1;34;44m▌[0;1;30;44m▐[0;1;30;40m▌[0m·  [1;30m▐[0;1;30;44m▌[0;1;34;44m▐[0m  [1;34;40m▀[0;1;34;44m▄▄▄▄▄▄▄[0;1;34;40m▀[0m     [1;34;40m▀[0;1;34;44m▄▄[0;1;34;40m▀ ▀[0;1;34;44m▄▄[0;1;34;40m▀    [0;1;34;44m▌[0;1;30;44m▐[0;1;30;40m▌[0m·  [1;30m▐[0;1;30;44m▌[0;1;34;44m▐[0m
 
              [1;37;40m┌──────   [0;31mT  [0;1;31mh  e    [0;31mU  [0;1;31mn  k  n  o  w  n   [0;1;37m──────┐[0m
-             [1;37m:[0m      [34m1[0;1;34m4.4K [0;34mH[0;1;34mST/[0;34mD[0;1;34mS [0;1;30m╪ [0;34m9[0;1;34m600+ [0;34mO[0;1;34mNLY! [0;1;30m╪ [0;34mP[0;1;34maragon[0m      [1;37m:[0m
-             [1;37m·  [0;34mI[0;1;34mCENET [0;34mW[0;1;34mHQ [0;1;30m╪ [0;34mT[0;1;34mCSNet [0;34mS[0;1;34mF [0;34mH[0;1;34mub/[0;34mI[0;1;34mnfamyNet/[0;34mG[0;1;34mreyNet  [0;1;37m·[0m
-                 [34m4[0;1;34m50+ [0;34mM[0;1;34megs [0;34mO[0;1;34mnline [0;1;30m╪ [0;34mN[0;1;34mo [0;34mR[0;1;34matio [0;34mf[0;1;34mor [0;34mL[0;1;34mD [0;34mC[0;1;34mallers[0m
-              [1;34m"[0;34mT[0;1;34mhe [0;34mo[0;1;34mnly [0;34mt[0;1;34mhing [0;34my[0;1;34mou [0;34mh[0;1;34mave [0;34mt[0;1;34mo [0;34mf[0;1;34mear [0;34mi[0;1;34ms [0;34mf[0;1;34mear [0;34mi[0;1;34mtself"[0m
-             [1;37m·[0m       [34mS[0;1;34mysop: [0;34mE[0;1;34mntity [0;1;30m╪  [0;34mC[0;1;34mo-Sysop: [0;34mC[0;1;34mreator[0m       [1;37m·[0m
-             [1;37m:[0m              [34mA[0;1;34mNSi·[0;34mN[0;1;34memesis· [0;34m[[0;1;36mi[0;36mC[0;1;34mE[0;34m][0m               [1;37m:[0m
+             [1;37m [0m      [34m [0;1;34m     [0;34m [0;1;34m   [0;34m [0;1;34m  [0;1;30m╪ [0;34m [0;1;34m     [0;34m [0;1;34m     [0;1;30m╪ [0;34m [0;1;34m      [0m      [1;37m [0m
+             [1;37m   [0;34m [0;1;34m      [0;34m [0;1;34m   [0;1;30m╪ [0;34m [0;1;34m      [0;34m [0;1;34m  [0;34m [0;1;34m   [0;34m [0;1;34m         [0;34m [0;1;34m        [0;1;37m [0m
+                 [34m [0;1;34m    [0;34m [0;1;34m    [0;34m [0;1;34m      [0;1;30m╪ [0;34m [0;1;34m  [0;34m [0;1;34m     [0;34m [0;1;34m   [0;34m [0;1;34m  [0;34m [0;1;34m      [0m
+              [1;34m [0;34m [0;1;34m   [0;34m [0;1;34m    [0;34m [0;1;34m     [0;34m [0;1;34m   [0;34m [0;1;34m    [0;34m [0;1;34m  [0;34m [0;1;34m    [0;34m [0;1;34m  [0;34m [0;1;34m    [0;34m [0;1;34m      [0m
+             [1;37m [0m       [34m [0;1;34m      [0;34m [0;1;34m      [0;1;30m╪  [0;34m [0;1;34m         [0;34m [0;1;34m      [0m       [1;37m [0m
+             [1;37m [0m              [34m [0;1;34m    [0;34m [0;1;34m        [0;34m [0;1;36m [0;36m [0;1;34m [0;34m [0m               [1;37m [0m
              [1;37m└──────[0m     [1;31m[ [0;31m4 [0;1;31m1 5 ] [0;31mU [0;1;31mN - [0;31mK [0;1;31mN O W N[0m      [1;37m──────┘[0m'

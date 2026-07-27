@@ -5,7 +5,7 @@
 # Source SHA-256: 7de597eee39ac85933f580cc5ca08e517920c06d916f8821c349a3140ea1ce21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-519.ans by Tetanus + Warpus (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FIVE ONE NINE
 # SAUCE Author: tetanus & warpus
 # SAUCE Group: LAZARUS
@@ -57,10 +57,10 @@ Write-Host '
 
  [1;30m╒═══════════════════════════════╡    [0;1;37m519[0;1;30m    ╞════════════════════════════════╕[0m
  [1;30m│[0m                                                                            [1;30m│[0m
- [1;30m│    tetanus . isosceles/lithium . hennifer . tainted . catch22[0m [1;30m. agent77[0m    [1;30m│[0m
- [1;30m│    warpus . grind king . wyvern/gorechild . epoxy . magnetic rage . hachi  │[0m
- [1;30m│    offspring . omot . shadow hunter . the extremist . azrael . squirt[0m      [1;30m│[0m
- [1;30m│    neuromancer . firelord . kro-mag . hHymen . bodycount . night shift[0m     [1;30m│[0m
+ [1;30m│                                                              [0m [1;30m         [0m    [1;30m│[0m
+ [1;30m│                                                                            │[0m
+ [1;30m│                                                                      [0m      [1;30m│[0m
+ [1;30m│                                                                       [0m     [1;30m│[0m
  [1;30m│[0m                                                                            [1;30m│[0m
  [1;30m╘════════════════════════════════════════════════════════════════════════════╛[0m
 

@@ -5,7 +5,7 @@
 # Source SHA-256: c1c7c4f8eb47e0ec8ec4bcb8b449b2bba55c5a24bafb9f17feb6ff228c79c4ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-blewit.ans by spinsane (Impure); released in impure80 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blew it
 # SAUCE Author: spinsane
 # SAUCE Group: Impure
@@ -40,10 +40,6 @@ Write-Host '
 [37m           [0;1;33m(_\ Y )))[0m         [1;30m\Y/[0;31mX[0;34;43mX[0;33;41m/[0;30;43m$$$[0;31;40m$$\[0;30;101m$$[0;1;31mb┐[0m`[31m:[0;1;31m÷[0ⁿ[0;1;30m~[0;34m<$$$$$$$[0;37m|[0;1;33;41mx[0;1;31;41m////[0m|[34m$[0;31m~[0;1;31;41m|[0m [1;33m_|_[0;36;44m\\[0m
 [37;40m      [0;34;40m|[0;37;40m      [0;1;33;40m|o O )[0m           [1;30m~[0m [31mXX[0;1;30m1111[0;1;31;44m▓▓[0;31m://[0;37m [0;31mX[0;37m [0;32m:[0;37m      [0;34m`4$[0;1;33m---[0m [1;36;47m|[0;1;33;101mz[0;1;33;41mippo[0m|  [1;31;41m|[0;31m_[0;37m [0;1;33m|[0;31m`[0m
 [37m      [0;34m|[0;37m       [0;1;33m\⌐ /[0m              [31mXXXXXX[0;1;34;41mX[0;31mXXXXXX[0;37m [0;32;44m:[0;37;40m        [0;34;40m"$[0;31;40m   [0;1;36;47m|[0m____[1;34m☺[0m| [31m-~~[0m
-[1;33;44mthe ruler''s back [0;1;34;40mat least right now[0;1;30;40m.11[0;35m![0;37m       [0;34m![0;37m [0;1;34msP[0;1;31;44m![0;34mMp[0;37m     >        [0;31m:[0m
+[1;33;44m                 [0;1;34;40m                  [0;1;30;40m   [0;35m [0;37m       [0;34m [0;37m [0;1;34m  [0;1;31;44m [0;34m  [0;37m              [0;31m [0m
 [37m      [0;1;33m|[0;1;34m                          [0;1;30m.|11[0m [35m:[0;37m       [0;34m|[0;37m         >[0m
-[37m      [0;1;33m:[0m                         [1;30m($#\:[0m         [34m:[0m
-[37m                                                    [0;1;33mwack motherfuckers[0m
-       [1mr.a.p. ferreira: purple moonlight... [0;1;33metc[0m        [1;33mget no redos[0;31m.[0m
-
-[37m    [0;31mprops 2 smooth + h7[0;37m [0;31m+ zeromous + everyone else[0m'
+[37m      [0;1;33m:[0m                         [1;30m($#\:[0m         [34m:[0m'

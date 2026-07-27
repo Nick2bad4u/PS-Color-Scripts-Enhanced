@@ -5,7 +5,7 @@
 # Source SHA-256: a90ecd88a63b512468f2ec264cff7e733f59da6f64a27b87c642f54c62f52158
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TW-MT8.ANS by The Watcher (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -52,11 +52,11 @@ Write-Host '
 [1;35;40m    [0;35m▄ ▄▄  ▄▄▄▄ ▄ [0;34m▄[0;35m▄▄[0;34m▄▄▄[0;35m▄[0;34m▄[0;35m▄▄▄▄[0;34m▄▄▄[0;35m▄▄ [0;1;35;45m░[0;35m██▀  ▀[0;1;35;45m░░░░[0;35m▀ ▄[0;1;35;45m░░[0m [35m▀[0;1;35;45m░░░[0m [35m▄[0;1;35;45m░░▒▒[0;35m▄[0;1;35;45m░░[0;35m▀ ▄ ▄▄  ▄ ▄[0m
 
 
-                 [1;30mMenT[0mal ToOn[1;34mS BBS · 1[0;1;36m4.4bps [0;1;37m· 3o1.57o[0;1;36m.o179[0m
-         [1;30mMONSTER GRA[0mPHiX Di[1;34mst. Site [0;1;36m· Self-[0;1;37mMade ATOM[0;1;36miC Dist. Site[0m
-[1;36m  [0;1;30mSysOps · Al ThE M[0maN ■ O[1;34mne Eyed Vi[0;1;36mper   C[0;1;37mo.SysOps [0;1;36m· Fragonard ■ Doc Chainsaw[0m
+                 [1;30m    [0m       [1;34m         [0;1;36m       [0;1;37m         [0;1;36m     [0m
+         [1;30m           [0m       [1;34m         [0;1;36m       [0;1;37m         [0;1;36m             [0m
+[1;36m  [0;1;30m                 [0m   ■  [1;34m          [0;1;36m       [0;1;37m         [0;1;36m            ■             [0m
 
-[1;36m    [0;35mN[0;1;35mo[0;35mw [0;1;35mo[0;35mn[0;1;35me o[0;35mf f[0;1;35me[0;35mw b[0;1;35moa[0;35mrd[0;1;35ms i[0;35mn th[0;1;35me [0;35mDC[0;1;35m/[0;35mMD[0;1;35m/[0;35mV[0;1;35mA [0;35mM[0;1;35me[0;35mtr[0;1;35mo a[0;35mr[0;1;35mea o[0;35mp[0;1;35me[0;35mr[0;1;35ma[0;35mt[0;1;35mi[0;35mng [0;1;35mo[0;35mn [0;1;35mO[0;35mS[0;1;35m/[0;35m2 2[0;1;35m.[0;35m1[0m
-     [1;35m....[0;35m···[0;1;35m■[0;35mH[0;1;35mi[0;35mgh[0;1;35me[0;35mr P[0;1;35me[0;35mrf[0;1;35mo[0;35mrm[0;1;35ma[0;35mnc[0;1;35me [0;35mTh[0;1;35ma[0;35mn D[0;1;35mO[0;35mS X[0;1;35m.[0;35mXX T[0;1;35mo [0;35mB[0;1;35me[0;35mtt[0;1;35me[0;35mr S[0;1;35me[0;35mrv[0;1;35me [0;35mY[0;1;35mou■[0;35m···[0;1;35m....[0m
+[1;36m    [0;35m [0;1;35m [0;35m  [0;1;35m [0;35m [0;1;35m   [0;35m   [0;1;35m [0;35m   [0;1;35m  [0;35m  [0;1;35m   [0;35m    [0;1;35m  [0;35m  [0;1;35m [0;35m  [0;1;35m [0;35m [0;1;35m  [0;35m [0;1;35m [0;35m  [0;1;35m   [0;35m [0;1;35m    [0;35m [0;1;35m [0;35m [0;1;35m [0;35m [0;1;35m [0;35m   [0;1;35m [0;35m  [0;1;35m [0;35m [0;1;35m [0;35m   [0;1;35m [0;35m [0m
+     [1;35m    [0;35m   [0;1;35m■[0;35m [0;1;35m [0;35m  [0;1;35m [0;35m   [0;1;35m [0;35m  [0;1;35m [0;35m  [0;1;35m [0;35m  [0;1;35m  [0;35m  [0;1;35m [0;35m   [0;1;35m [0;35m   [0;1;35m [0;35m    [0;1;35m  [0;35m [0;1;35m [0;35m  [0;1;35m [0;35m   [0;1;35m [0;35m  [0;1;35m  [0;35m [0;1;35m  ■[0;35m   [0;1;35m    [0m
 [1;35m  [0;35m────────────────────────────────────────────────────────────────────────────[0m
-[35m   [0;1;37m■■■ATOMiC ''94 - Whe re is the rest of the group? Guys, lets get started!■■■[0m'
+[35m   [0;1;37m■■■                                                                     ■■■[0m'

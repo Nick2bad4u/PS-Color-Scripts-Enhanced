@@ -5,7 +5,7 @@
 # Source SHA-256: 661e53ed7855a614abf77c5f9ac5e7b9fe2e101dee2753927271630b368b8d6f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM-0.ANS by Blazemore (Jive); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Zero
 # SAUCE Author: Blazemore
 # SAUCE Group: Jive
@@ -30,9 +30,4 @@ Write-Host '
                                 [1;34;44m░▒▓[0;1;34;40m▌ [0mz e r o. [1;34m▐███[0m  [1;30mbm[0m
                                  [1;34;44m░▒▓[0;1;34;40m▄[0m        [1;34m▄███[0m
                                   [34m▀[0;1;34;44m▒▒▓[0;1;34;40m▄▄  ▄▄███▀[0m
-                                     [1;34m▀▀[0;1;34;44m▒▓[0;1;34;40m██▀▀[0m
-
-              [1;33m//[0m  [1;30m([0;1;34ms[0;36mtand out[0;1;34m.[0m  [1;34mw[0;36mho is right just what is bol[0;1;34md[0;1;30m)[0m [1;33m//[0m
-
-                   [1;30m- oppered by Blazemore of CIA/Jive/Lead[0m [1;30m-[0m
-                [1;30m- 713-362-7426 - dewnut call just to be elite -[0m'
+                                     [1;34m▀▀[0;1;34;44m▒▓[0;1;34;40m██▀▀[0m'

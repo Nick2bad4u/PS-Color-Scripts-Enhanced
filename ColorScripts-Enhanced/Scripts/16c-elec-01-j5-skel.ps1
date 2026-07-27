@@ -5,7 +5,7 @@
 # Source SHA-256: 7e46a5210a9ac81e5a29a99896c75fea7395a4537e9392c9e3bd067428e01c0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: J5!SKEL.ANS by Johnny 5 (j5!) (Electricity); released in elec-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: They Smoke In Hell
 # SAUCE Author: Johnny 5 (j5!)
 # SAUCE Group: Electricity
@@ -44,6 +44,4 @@ Write-Host '
 [33m███████████████▄ ▀▄ [0;37m▀[0;1;37;47m░[0m▀ [33m▄▀ ▄█████████████████ █[0;1;30;43m▓▒░[0;33m█████████[0;1;30;43m▓▒░[0;33m█[0m
 [33m█████████████████▄ ▀▄ ▄▀ ▄███████████████████ ██[0;1;30;43m▒░[0;33m█████████[0;1;30;43m▒░[0;33m█[0m
 [33m███████████████████▄▄ ▄▄████████████████████ ▄█[0;1;30;43m▓▒░[0;33m████████[0;1;30;43m▓▒░[0;33m█[0m
-[33m█████████████████████ ██████████████████████ █[0;1;30;43m▓▒░[0;33m████████[0;1;30;43m▓▒░[0;33m█ [0;1;30mj5[0m
-
-                          [1;30m( Ele[0mctric[1mity [0;1;30mProd[0muctio[1mns [0;1;30m)[0m'
+[33m█████████████████████ ██████████████████████ █[0;1;30;43m▓▒░[0;33m████████[0;1;30;43m▓▒░[0;33m█ [0;1;30mj5[0m'

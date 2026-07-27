@@ -5,7 +5,7 @@
 # Source SHA-256: cea7d5adfbd1ac28ec696bde02002911e67734422ad6c0f9406f6acbbd408efa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MARAUDER.ANS by The Malevolent Trickster (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 40-75
 # Columns: 1-80
 
@@ -42,7 +42,4 @@ Write-Host '
          [1;37m─[0;1;35m─[0;35m── [0;1;37m█[0;1;36m█[0;36m█[0;35m─ [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█[0;1;37m▀█[0;1;36;46m▄[0;36m▄ [0;1;37m█[0;1;36m█[0;36m█[0;35m── [0;1;37m█[0;1;36m█[0;36m█[0;35m─ [0;1;37m█[0;1;36;46m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█[0;35m─ [0;1;37m█[0;1;36m█[0;1;36;46m [0;35m─── [0;1;37m█[0;1;36m█[0;36m█[0;35m────────────[0m
       [1;37m─[0;1;35m─[0;35m───── [0;1;37m█[0;1;36m█[0;36m█[0;35m─ [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█[0;1;36m▀[0;36m▀ [0;1;37m█[0;1;36m█[0;36m█[0;35m─ [0;1;37m█[0;1;36;46m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█[0;35m─ [0;1;37m█[0;1;36m█[0;1;36;46m [0;35m─── [0;1;37m█[0;1;36m█[0;36m█[0;35m────────────[0m
 [35m   [0;1;37m─[0;1;35m─[0;35m──────── [0;1;37m█[0;1;36m█[0;36m█[0;1;36m▀[0;36m▀[0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█[0;1;37m▄█[0;1;36;46m▀[0;36m▀ [0;1;37m█[0;1;36m█[0;36m█[0;35m── [0;1;37m█[0;1;36m█[0;36m█[0;35m─ [0;1;37m█[0;1;36;46m█[0;36m█ [0;1;37m█[0;1;36m█[0;1;36;46m▄[0;36m▄[0;1;37m▄█[0;1;36m█[0;1;36;46m [0;35m─── [0;1;37m█[0;1;36m█[0;36m█[0;35m────────────[0m
-              [1;37m█[0;1;36m█[0;36m█  [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█[0;1;36;46m▀[0;36m▀   [0;1;37m█[0;1;36m█[0;36m█[0;1;36m█[0;36m█  [0;1;37m▀█[0;1;36;46m▄[0;1;37;46m▀[0;1;36;46m▀[0;36m▀   [0;1;37m▀█[0;1;36;46m█[0;1;36;40m█[0;1;36;46m▀[0;36m▀[0m     [1;37m█[0;1;36m█[0;36m█[0m
-
-     [1;37m[[0m514] [1m3[0m59 [1m∙ 7[0m133 [1m- R[0mR/INC [1mC[0manadian [1mH[0mQ [1m- 8[0m00 [1mM[0megs [1m- H[0mST [1mD[0mual [1mS[0mtandard
-               [1mS[0mysOp: [1mM[0mystic Warrior [1m- C[0moSysOp: [1mD[0muracell [1mR[0mabbit[0m'
+              [1;37m█[0;1;36m█[0;36m█  [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█ [0;1;37m█[0;1;36m█[0;36m█[0;1;36;46m▀[0;36m▀   [0;1;37m█[0;1;36m█[0;36m█[0;1;36m█[0;36m█  [0;1;37m▀█[0;1;36;46m▄[0;1;37;46m▀[0;1;36;46m▀[0;36m▀   [0;1;37m▀█[0;1;36;46m█[0;1;36;40m█[0;1;36;46m▀[0;36m▀[0m     [1;37m█[0;1;36m█[0;36m█[0m'

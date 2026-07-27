@@ -5,7 +5,7 @@
 # Source SHA-256: b667aeb1017b504617934c59e913729a275ff9aa4a2dfc1c5169dc689a16fca2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DIE-ZX.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
@@ -31,13 +31,4 @@ Write-Host '
 [33;40m░[0;30;43m░[0;33;40m█[0;1;33;43m▄▌[0;33m▀█[0;30;43m░[0;33;40m▓[0;1;33;43m▀▀▐▌▄  [0;33m▌▐▀▐[0;30;43m░░[0;33;40m███[0;30;43m░░[0;33;40m▓░ ▄▌  [0;30;41m▓░[0;31;40m█[0m   [36;40m▐[0;1;34;46m░[0;1;36;46m▐█▓░[0;30;46m░[0;36;40m▀▀░[0;30;46m▓[0;36;40m▀▀▀██[0;30;46m░[0;36;40m▌▀[0;30;46m░[0;36;40m█[0;1;36;40m▒▒[0;36m█▀   ▀▀   [0;30;44m▓░[0;34;40m▓░[0m
 [33;40m ▐[0;1;33;41m░░[0;33m█▄▌░[0;30;43m▓[0;33;40m▀▀█[0;31;43m░[0;1;33;43m▀░[0;31;43m░[0;33;41m▓[0;33;40m█▄ [0;31;40m░[0;30;41m▓[0;33;40m▀▀ ░[0;30;43m▓▓[0;33;40m   [0;31;40m░[0;30;41m▓[0;31;40m▄▐██[0m   [36;40m▐[0;34;46m▄░[0;1;36;46m▀[0;36m█[0;30;46m░[0;36;40m░    ▄▐█[0;1;36;46m▄▄▌[0;36m█▄▌▀▀▀[0;30;46m░[0;36;40m▓░[0;30;46m▓[0;36;40m    [0;34;40m░[0;30;44m▓[0;34;40m▄██[0;30;44m▓[0m
 [33;40m  [0;31;40m▀[0;1;31;40m▒[0;31m█[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓▓[0;1;31;40m░[0;31m█[0;30;41m░[0;31;40m▓█[0;33;41m░[0;1;31;41m░[0;31m█[0;30;41m░[0;31;40m▓██[0;1;31;41m░░[0;31m███[0;1;33;41m░[0;31m██[0;30;41m░[0;31;40m▓██[0;1;31;40m▒[0;31m▀▌ [0m   [34m▀█[0;1;34m▒▒[0;34m████[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m█[0;1;34;44m░░[0;34m█[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m▓[0;30;44m░░[0;34;40m▓██[0;30;44m░[0;34;40m▓██[0;1;34;40m▒[0;34m█[0;1;34;44m░░[0;34m█▌▀[0m
-     [31m░[0;30;41m▓[0m                       [31;40m░[0;30;41m▓[0m                         [30;44m▓[0;34;40m░[0;30;44m▓[0m     [34;40m░[0;30;44m▓[0m
-
-[37;40mthis re-released version of zxica features the original works of zxica in [0m
-[37;40mcombination with all the b-sides and outtakes that i have bothered to fix[0m
-[37;40mup in the intervening period of time. [0m
-
-[37;40min the interest of preserving this compilation for the years to come i have[0m
-[37;40mcanned the chatter and fixed up a few things here and there. [0m
-
-[37;40memail me your comments: dieznyik@hotmail.com[0m'
+     [31m░[0;30;41m▓[0m                       [31;40m░[0;30;41m▓[0m                         [30;44m▓[0;34;40m░[0;30;44m▓[0m     [34;40m░[0;30;44m▓[0m'

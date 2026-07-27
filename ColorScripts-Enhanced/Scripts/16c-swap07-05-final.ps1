@@ -5,7 +5,7 @@
 # Source SHA-256: 915544e50b703df3afece8cbbcd7209b8371b3b028988bf36258718d2a6316e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 05-FINAL.ANS by Black Viper + Mel Farr Suppastar + Stone The Crow + Corinthian + Nail + Illusion X + Epoxy + Pzyko (swap07); released in swap07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
@@ -43,7 +43,4 @@ Write-Host '
      [1;47m██▓▓▀[0;36m ░▓[0;1;36;46m▄▄░[0;36m█[0;1;36;46m [0;36m▄▄ █▄ [0;1;36;46m █▓░░[0;36m▄  ▀█[0;1;36;46m▌[0;36m█ ██▌▀█▌[0;1;36;46m░[0;36m█▄▄▄ ▐[0;1;36;46m░░[0;36m▀▄█[0;1;36;46m [0;36m█▌▄ [0;1;37;47m░[0;1;37;40m▀[0m▀[36m ▄[0;1;36;46m░[0;36m [0;1;37;47m▀▓████[0m
             [36m▐[0;1;36;46m▐▓▓░░  [0;36m▓[0;30;46m░[0;36;40m▓░[0;30;46m▓[0;36;40m▀[0;1;36;46m░ [0;36m██████▀▄▐[0;1;36;46m░[0;36m▀  ▐▓▐[0;1;36;46m░[0;36m████▀▀[0m   [36m▀[0;1;36;46m░▀[0;36m██▄ ▄▀[0m
            [36m▄▀▀▀▀[0m     [36m  [0m     [36m▀▀▀▀  ░▓▄[0;1;36;46m▐▄[0;36m▄▄█▌░[0m               [36m▀█▌░[0;30;46m▓[0m
-                                    [36;40m▀[0;1;36;46m▀░░[0;36m█▀[0m
-
-[1;31m   swap(tm) #07 <10-13> - bviper, mfs, corinth, stc, nail, illx, epoxy, pzyko[0m
-[1;31m                 (all shit below this was just that.. shit.)[0m'
+                                    [36;40m▀[0;1;36;46m▀░░[0;36m█▀[0m'

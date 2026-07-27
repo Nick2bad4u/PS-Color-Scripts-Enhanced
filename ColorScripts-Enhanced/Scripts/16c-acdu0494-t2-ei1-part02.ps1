@@ -5,7 +5,7 @@
 # Source SHA-256: 4199b7f5f269dd1c8097628ad0acbb6f7e79d5c233a725bb761e9f7023b8c122
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-EI1.ANS by Terminator2 (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Evil Intention
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -59,5 +59,4 @@ Write-Host '
 [33m▓▓▌▐▒░▐░▐▒░▀▀▀[0m                                            [1;30m▐[0;1;30;43m▓▓[0;1;30m▄▄▄[0;1;30;43m▓▓▒▒░░        [0;33m█[0m
 [33m▒░  ░[0m                                        [1;36m▄[0m             [1;30m▀▀▀▀[0;1;30;43m▓▒▒░░[0;33m██[0;1;30;43m [0;33m█[0;1;30;43m░░ [0;33m███[0;1;30;43m░[0m
 [33m░[0m                                                           [33m▀▀▀▄▄▄▄▄[0;1;30;43m░[0;33m█[0;1;30;43m░░▒▒░░[0;33m███[0m
-                                                                   [33m▀▀▀▀[0;1;30m▀[0;1;30;43m▓▓▒▒░░[0;33m█[0m
-'
+                                                                   [33m▀▀▀▀[0;1;30m▀[0;1;30;43m▓▓▒▒░░[0;33m█[0m'

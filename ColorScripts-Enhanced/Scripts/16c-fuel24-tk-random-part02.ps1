@@ -5,7 +5,7 @@
 # Source SHA-256: 8bb1a097d83cec6ffffd9e958d6fdaf372c6c6824620c6696f4063dc09d99c86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-random.ans by The Knight (FUEL); released in fuel24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Random
 # SAUCE Author: The Knight
 # SAUCE Group: FUEL
@@ -29,7 +29,7 @@ Write-Host '
 
 
 
-::    Demosplash [1;30m2017 logo[0m
+                 [1;30m         [0m
 _____________________________[1;30m_____[0m___   _     ___[1;30m__[0m__   _
 
                                   [33m▄▄[0;1;33m▄▄▄▄▄▄▄▄▄[0;33m▄[0m

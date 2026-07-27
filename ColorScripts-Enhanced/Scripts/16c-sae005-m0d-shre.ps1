@@ -5,7 +5,7 @@
 # Source SHA-256: 38f8158106aeb2d562dd2f352ae32f670b325e5e185d51c3c28387bfcc5b1501
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M0D-SHRE.ANS by M0dium (sae005); released in sae005 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-14
 # Columns: 1-80
 
@@ -13,9 +13,9 @@ Write-Host '
 
 
 
-      [1;33mgggggggg[0;1;37mgg[0m
+      [1;33m        [0;1;37m  [0m
       [33m$[0;1;33m$[0m               [1;33;44m  [0m  [34m_[0m      [1;34m.[0m
-      [33m$[0;1;33m$    gmmmmmmmm [0;1;37mg[0;30;44mmm[0;34;40mmm░m[0;1;34;40mmmmmm: [0;1;37;40mm0d[0m
+      [33m [0;1;33m               [0;1;37m [0;30;44m  [0;34;40m  ░ [0;1;34;40m       [0;1;37;40m   [0m
       [33m$[0;1;33m$gggg$[0;1;33;43m$$[0;1;33;40m$[0;1;33;43m$[0;1;35;43m$$[0;1;37;43m$[0;1;33;43m$[0m [34m░$[0;30;44m$[0;34;40m$[0;30;44m$$[0;1;34;44m$$$$[0;1;34;40m$&''[0;1;31;40m/gg[0;1;31;41mg[0;31mggggg▒[0;1;32mg[0;31mgg[0;1;30m,  [0;1;32m, [0;1;33ms h a r e [0;1;35m__[0;35m_____[0m
             [1;33m$[0;1;33;43m$[0;30;43m$[0;1;33;40m$[0;30;43m$[0;1;33;40m$[0;33m▓$[0;1;33;43m$[0m [30;44m$$[0;34;40m▓█[0;30;44m$[0;37;44m$[0;1;37;44m$[0;1;34;44m$[0;1;34;40m$/*[0;1;31;40m,$[0;1;31;41m$$[0;30;41m$$[0;31;40m$[0;30;41m$[0;31;40m$[0;30;41m$[0;31;40m$░░[0;1;30;40m$/ [0;1;32;40m,[0;1;32;42m$[0;1;32;40m$[0m       [1;36;46m$[0;1;36;40m$[0;30;46m$[0m [1;35;40m$[0;1;35;45m$[0;30;45m$$[0m
             [1;33;40m$[0;1;33;43m$[0;33m░░$[0;1;33;43m$[0;33m$$▓ [0;30;44m$$$$[0;34;40m▒[0;1;34;44m$[0;1;34;40m$/''[0;1;31;40m,$[0;1;31;41m$[0;1;37;41m$[0;30;41m$$[0;31;40m$$░$░░$[0;1;30;40m$'' [0;1;32;40m/$[0;1;32;42m$$[0;30;42m$  [0;35;42m░▒▒ [0m [1;36;46m$[0;1;37;46m$[0;36m▓ [0;1;35m$[0;1;35;45m$[0;35m░$---  [0;1;30m<< <[0m

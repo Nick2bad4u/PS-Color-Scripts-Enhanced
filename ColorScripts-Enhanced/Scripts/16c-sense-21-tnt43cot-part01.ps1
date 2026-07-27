@@ -5,7 +5,7 @@
 # Source SHA-256: cde442a5d5b18bf617415c0f959d8d48fd6b86d271272ab43512ff02e7017e92
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt43cot.ans by Taintedx + Aesthetic (sense.imagery); released in sense-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cotm(jungle.fevah)
 # SAUCE Author: aesthetic.tainted
 # SAUCE Group: sense.imagery
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1;33mjungle fevah, ansi by tainted x and aesthetic, released in [0;33msense imag[0;36mery pack 21[0m
-[30meYE g0t jUNGUL fEVAH, j00 g0t jU[0;1;33m    [0;30mL fEVAH, sAVAGE drAGON g0t jUNGUL feVAH@#%[0m
+[1;33m                                                           [0;33m          [0;36m           [0m
+[30m                                [0;1;33m    [0;30m                                          [0m
 [37m  [0;33m▄▄ [0;1;33m░░░░░░░░░░[0m [1;33m░░░░░░░░░░░░░░   ░░[0;33m▄░░[0;37m [0;1;30m▄  [0;1;33m░░░░░░░░░░░[0m [33m▄▄▄[0;1;30m▄[0m [33m▄▄[0;37m [0;1;33m░░░░  [0;1;30m░░░[0m [1;30m░░[0m
 [1;33m▄█▓▓▓▓▓▓▓▓▓███▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███▓▓██████▓▓▓▓▓▓▓▓▓▓▓▓▓███████▓▓▓▓[0;1;33;43m▄▄[0;1;33;40m▄[0;1;33;43m▄[0;1;33;40m▄[0;33m▄▄[0;1;30m▄[0m [33m░░░░[0m
 [1;33;43m▓ [0;1;33;40m██[0;1;33;43m▀██[0;1;33;40m██▄▄▄█▓▓▓▓▓[0;1;33;43m▌▀[0;1;33;40m█▀███[0;1;33;43m█▀▄███▒██[0;1;33;40m▓████[0;1;33;43m▄[0;1;33;40m█[0;1;33;42m▀[0;1;33;40m██[0;1;33;43m▌[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m██████[0;1;33;43m▓[0;1;33;40m██[0;1;33;43m  [0;1;33;40m█[0;1;33;43m█[0;33m█▒[0;1;33m [0;33m█▀▀▀[0;1;33;43m██▀██[0;1;33;40m▓[0;1;33;43m█▄[0;33m░[0m

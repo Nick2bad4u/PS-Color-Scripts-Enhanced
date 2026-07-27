@@ -5,7 +5,7 @@
 # Source SHA-256: e6d2268bd5c3ddeca51e59bb68fa17ce5e946923fe18c1743dab3c408ea6b639
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-BIPOA.ANS by Silver Reaper (RAiD); released in raid1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bipolar Disorder
 # SAUCE Author: Silver Reaper
 # SAUCE Group: RAiD
@@ -15,19 +15,19 @@
 # Columns: 1-80
 
 Write-Host '
-[1mw[0ma[1;30mnt an ansi? conta[0mc[1mt  [0;1;34m▄▄▄▄  [0;1;37mm[0me [1;30mon RMS [6O4]..another 19fuckin94 ANSi by sr∙ra[0mi[1md[0m
+[1m [0m [1;30m                 [0m [1m   [0;1;34m▄▄▄▄  [0;1;37m [0m  [1;30m                                              [0m [1m [0m
 [1;34;44m▀▀▀▀▀▀▀▀▀▀[0;1;34;40m▀▄[0;1;34;45m█[0;1;34;40m▄▀[0;1;34;44m▀▀▀[0;1;34;40m▀▄▄[0;1;34;45m█▓▓▒▒░░ [0;35m▄[0;1;34m▀[0;1;34;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;34;44m [0;34m███████▀[0;1;34m▄[0;1;34;45m▒▓▓██[0;1;34;40m▄[0;34m▀ [0;1;34m█[0;1;34;45m██▓▓▒▒░░  [0;31;45m░░[0m [34;40m█[0;34;44m  [0;30;44mFuck, another ANSi by that lazy assed SR..   [0m
-[34;40m██████▀[0;35;40m▄[0;1;34;45m░▒▒▒▓▓███[0;1;34;40m▄▀[0;1;34;45m█▓▓▒▒[0m [1;34;45m░  [0;31;45m░░▒[0;35;40m▌[0;34;40m▐[0;34;44m  [0;30;44mNEWayz, before we get onto the shit, here    [0m
+[1;34;44m [0;34m███████▀[0;1;34m▄[0;1;34;45m▒▓▓██[0;1;34;40m▄[0;34m▀ [0;1;34m█[0;1;34;45m██▓▓▒▒░░  [0;31;45m░░[0m [34;40m█[0;34;44m  [0;30;44m                                             [0m
+[34;40m██████▀[0;35;40m▄[0;1;34;45m░▒▒▒▓▓███[0;1;34;40m▄▀[0;1;34;45m█▓▓▒▒[0m [1;34;45m░  [0;31;45m░░▒[0;35;40m▌[0;34;40m▐[0;34;44m  [0;30;44m                                             [0m
 [34;40m████▀[0;35;40m▄[0;35;45m  [0;1;34;45m░░▒▒▒▓▓███[0;1;34;40m▀[0;1;34;45m▓▓▒▒░░  [0;31;45m░░▒[0;35;40m▀[0;34;40m▄[0;34;44m   [0;30;44mare some pointless greets to ..well, people: [0m
 [34;40m██▀[0;31;40m▄[0;31;45m▒░░  [0;1;34;45m░░▒▒▓[0;1;34;40m█▀[0;34m▄ [0;1;34;45m▓▓▒▒░░  [0;35m▀▀[0;34m▄▄██[0;34;44m   [0;1;37;44m.[0;44m···········································[0;1;44m.[0m
 [34m▀[0;31m▄[0;31;45m▓▓▒▒░░  [0;1;34;45m░░▒▒[0;1;34;40m▄▄[0;34m▀ [0;1;34;45m▓▒▒░░  [0;31;45m░░▒[0;31;40m▄▄[0;34;40m▀▀██[0;34;44m [0;1;32;44mpestilence: [0;32;44mjoining rugby again?             [0m
 [34;40m█▄[0;31;40m▀▀[0;31;45m▓▒▒░░  [0;1;34;45m░░▒▒▓▓█[0;1;34;40m▄▀[0;1;34;45m░░ [0;35m▌▀[0;31;45m░▒▒▒██[0;1;31;41m░[0;31m▄▄[0;34m▀▀█[0;1;32;44mfabz: [0;32;44mtrouble for not washing your hands?? [0m
 [34;40m████▄ [0;31;40m█▀▀[0;31;45m░  [0;1;34;45m░░▒▒▓▓█[0;1;34;40m▌[0;35m▐[0;35;45m  [0;35;40m▌[0;34;40m▐▄[0;31;40m▀[0;31;45m▒██[0;1;31;41m░░▒▒▓▓[0;1;31;40m▄▄[0;34m▀[0;34;44m [0;1;32;44mapex: [0;32;44mpir8''ing =) help me in french =)  [0m
 [34;40m███▀[0;31;40m▄[0;31;45m▓▓▒[0;31;40m▄▄[0;31;45m░  [0;1;34;45m░░▒▒▓▓[0;1;34;40m█ [0;1;34;45m [0;31;45m░░[0m [34;40m█▌[0;31;40m▐[0;31;45m█[0;1;31;41m░░▒▒▓▓[0;1;31;40m▀▀[0;34m▄█[0;1;32;44msr: [0;32;44myeah, yeah, get your modem back..BTW [0m
-[34;40m█▀[0;31;40m▄[0;31;45m███▓▓▒▒░░  [0;1;34;45m░░▒▒[0;1;34;40m▀[0;35m▄[0;35;45m [0;31;45m░░▒[0m [34;40m██ [0;1;31;41m░░▒[0;1;31;40m▀▀[0;34m▄▄█████[0;34;44m   [0;32;44mwhy the fuck am I greeting myself?   [0m
+[34;40m█▀[0;31;40m▄[0;31;45m███▓▓▒▒░░  [0;1;34;45m░░▒▒[0;1;34;40m▀[0;35m▄[0;35;45m [0;31;45m░░▒[0m [34;40m██ [0;1;31;41m░░▒[0;1;31;40m▀▀[0;34m▄▄█████[0;34;44m   [0;32;44m                                     [0m
 [1;30;40m▀▀ [0;31m▀▀[0;31;45m██▓▓▒▒░░  [0;1;34;45m░[0;35m▀[0;1;34m▄[0;1;34;45m░ [0;31;45m░[0;35;40m▀▀ [0;1;30;40m▀▀▀ [0;31m▀  [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-       [31m▀▀▀▀[0;35m▀▀▀  [0;1;34;45m▓[0;1;34;40m▀[0;35m▀[0m       [1;30mi have an excuse, this is my third pic ever! =)[0m
+       [31m▀▀▀▀[0;35m▀▀▀  [0;1;34;45m▓[0;1;34;40m▀[0;35m▀[0m       [1;30m                                               [0m
 
 
 
@@ -57,5 +57,4 @@ Write-Host '
 
 
 
-                            [1;37m░[0m
-'
+                            [1;37m░[0m'

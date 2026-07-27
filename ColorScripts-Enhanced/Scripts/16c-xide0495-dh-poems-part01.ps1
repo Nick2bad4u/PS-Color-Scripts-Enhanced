@@ -5,7 +5,7 @@
 # Source SHA-256: 5eacbc6fddf70b9362a3f2a85bef1446f5d5e94da08d774a3d2f48b4515857e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-POEMS.ANS by Dark Horizon (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -36,18 +36,18 @@ Write-Host '
 [1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m--[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;34;44m░▒░░░░▓[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;1;37m=[0;34m-[0;37m [0m
 [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;34;44m▒░▒▓▓░▒[0m [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1m█[0;47mhy all you fagit kis[0;1;47m█[0m [1;34;40m▀▀▀▀▀▀▀ [0;1;37;47m█[0;47mst kiddin....                                  [0;40m [0m
-[1;40m█[0;47mbah.blah.blah.blh.bl[0;1;47m▀▀▀▀▀▀▀▀▀▀▀[0;47mh.blah.blah.blah.blah.blah.blah.blah.          [0;40m [0m
+[1;40m█[0;47m                    [0;1;47m▀▀▀▀▀▀▀▀▀▀▀[0;47m                                               [0;40m [0m
 [1;40m█[0;47m██████████████████████████████████████████████████████████████████████████████[0;40m [0m
 [1;40m█[0;47m██████████████████████████████████████████████████████████████████████████████[0;40m [0m
-[1;40m█[0m█████[30;47mA cold night. A dark night. An unforgiving wind. Startled screams.[0;37;47m███   █[0;37;40m [0m
-[1;37;40m█[0;1;37;47m     [0;30;47mHorid Poundng. Shrieks of pain. Dull moans. Near silence. A cold [0;37;47m████████[0;37;40m [0m
-[1;37;40m█[0;1;37;47m     [0;30;47mnight. A dark night. A cold and dark night...                           [0;37;47m█[0;37;40m [0m
+[1;40m█[0m█████[30;47m                                                                  [0;37;47m███   █[0;37;40m [0m
+[1;37;40m█[0;1;37;47m     [0;30;47m                                                                 [0;37;47m████████[0;37;40m [0m
+[1;37;40m█[0;1;37;47m     [0;30;47m                                                                        [0;37;47m█[0;37;40m [0m
 [1;37;40m█[0;1;37;47m                                                                      [0;47m████████[0;40m [0m
-[1;40m█[0;1;47m     [0;30;47mDarkness... light... Or a pigment of my imagination... Closed   [0;37;47m█████████[0;37;40m [0m
-[1;37;40m█[0;1;37;47m     [0;30;47min darkness.. Suclusion... Alone...                              [0;37;47m████████[0;37;40m [0m
+[1;40m█[0;1;47m     [0;30;47m                                                                [0;37;47m█████████[0;37;40m [0m
+[1;37;40m█[0;1;37;47m     [0;30;47m                                                                 [0;37;47m████████[0;37;40m [0m
 [1;37;40m█[0;47m██████████████████████████████████████████████████████████████████████████████[0;40m [0m
 [1;40m█[0;47m██████████████████████████████████████████████████████████████████████████████[0;40m [0m
-[1;40m█[0;47m██████[0;30;47mAll these Poems are by me Dark Horizon. Unauthorized usage of           [0;37;40m [0m
+[1;40m█[0;47m██████[0;30;47m                                                                        [0;37;40m [0m
 [1;37;40m█[0;47m██████[0;30;47mmy ANSi''s is un-cool. If you do I might have to hurt you..[0;37;47m███    ██████[0;37;40m█ [0m
 [1;37;40m█[0;47m███████████[0;40m█[0;47m██████████████████████████████████████████████████████████████████[0;40m [0m
 [1;40m█[0;47m███████████[0;40m█[0;47m██████████████████████████████████████████████████████████████████[0;40m [0m

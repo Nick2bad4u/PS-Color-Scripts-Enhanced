@@ -5,7 +5,7 @@
 # Source SHA-256: 0e74de9bd0c255515161468cc94a9809641375ae69fe07dbf87862cc7fb47888
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IK-UF02.ANS by Ill Communikation (CiA Productionz); released in drl-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Unseen Fate
 # SAUCE Author: Ill Communikation
 # SAUCE Group: CiA Productionz
@@ -16,7 +16,7 @@
 
 Write-Host '
                                                                    [1;34m░[0m     [1;34m░[0;1;30melito[0m
-[30mikik[0m                          [1;30m▓[0m                                         [1;30msmudge![0m
+[30m    [0m                          [1;30m▓[0m                                         [1;30m       [0m
 [30mikik[0m                          [1;30m▓[0m                  [1;30m▓[0m       [1;30m▓[0m      [1;30m▓[0m            [1;30m:)[0m
 [30mikik[0m              [1;30m▄▓[0;35m▓[0;1;30m▀▀▄[0m   [1;30m▄▀▀▀▀▄[0m   [1;30m▄▓▀▀▀▄[0m   [1;30m▄▄▀▀▀▄[0m   [1;30m▓▄▀[0;35m▓[0;1;30m▀▄[0m   [1;30m▄▓[0;35m▓[0;1;30m▀▀▄[0m
 [30mikik[0m           [1;30m▓▀▀[0;35m▄[0;37m [0;1;35;45m░[0;35m█[0;1;35;45m░[0m [1;30m■▀▀[0;35m▓■[0;1;35;45m░[0;35m█[0;1;35;45m░[0m [1;30m■[0;35m▓[0;1;30m▀[0;35m▄■[0;1;35;45m░[0;35m█[0;1;35;45m░[0m [1;30m■▀[0;35m▓▄■[0;1;35;45m░[0;35m█[0;1;35;45m░[0;1;30;40m ■▀▀[0;35m▄■[0;1;35;45m░[0;35m█[0;1;35;45m░[0;1;30;40m ■▀▀[0;35m▄■[0;1;35;45m░[0;35m█[0;1;35;45m░[0m [1;30m█[0m
@@ -37,17 +37,8 @@ Write-Host '
                        [1;30m▓▀▄▄[0;35m▓[0;1;30m▄▀[0m   [1;30m▀▄▄▄▄▀▄▄▀▓▄▄▄▄▀▄▄▀▀▄▄▄▄▀▄[0;35m▓[0;1;30m▓[0m
          [30mik[0m            [1;30m▓[0m   [1;30m▓[0m        [1;30m▓[0m     [1;30m▓[0m      [1;30m▓[0m  [1;30m▓[0m      [1;30m▒[0m
          [30mik[0m                         [1;30m▒[0m            [1;30m▒[0m  [1;30m▒[0m      [1;30m░[0m
-         [30mik[0m        [1;30mlOokie pale eye learned how to make fOnts frOm[0m
-         [30mik[0m                        [1;30mkerplUnk tOo! :)[0m
+         [30m  [0m        [1;30m                                              [0m
+         [30m  [0m                        [1;30m                [0m
 [1;30m         [0;30mik[0;1;30m    [0m
-                       [1;30mansi by: ill communikation [drOol][0m
-[1;30m=========>8===========>8===========>8===========>8===========>8===========>8===[0m
-
-[1;30mgreetz: ky: where ya been bro?[0m                [1;30mI want everyone to know that this[0m
-        [1;30mpale: coolie pic huh?[0m                 [1;30mpic would not have been possible[0m
-        [1;30mjobu: here it iz.. all finished![0m      [1;30mwithout help from jobu! (it was[0m
-        [1;30mCaSH: fuck you.. :)[0m                   [1;30morigannily supposed to be a team-[0m
-        [1;30m#ansi: you are lame...[0m                [1;30mup)![0m
-        [1;30mik: you are god![0m                  [1;30mThis ansi goes to pale becuz i did an[0m
-        [1;30msomms: i lub joo![0m                 [1;30mansi for him a while ago.. but...[0m
-        [1;30mcarol: i love you and im sorry... :(   [0m        IT SUCKED![0m'
+                       [1;30m                                  [0m
+[1;30m=========>8===========>8===========>8===========>8===========>8===========>8===[0m'

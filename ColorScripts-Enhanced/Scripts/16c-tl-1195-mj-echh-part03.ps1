@@ -5,7 +5,7 @@
 # Source SHA-256: a74f9b0e45927f9dee0075227b4cdcf5d964909e021a42dfe06d0e244a6732d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ-ECHH.ANS by Mojo (Teklordz); released in tl-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Brand Echh!
 # SAUCE Author: Mojo
 # SAUCE Group: Teklordz
@@ -58,6 +58,5 @@ Write-Host '
                     [31m▀██▌[0m                   [31m█▀▀  ▀■ ▄  ■[0m
                       [31m▀█[0m                  [31m▀[0m
                         [31m▀[0m
-[31m    [0;37mbrand echh [0;1;33mbrand echh [0mbrand echh [1;33mbrand echh [0mbrand echh [1;33mbrand [0mbrand echh
-[1;30m▓▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  ▄ ▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄ ▄▓▄▄▄▄▄▄[0m
-              [1;30m. .. sweet obv/2 setup . ops- Cidica, Epidemic .. .[0m'
+[31m    [0;37m           [0;1;33m           [0m           [1;33m           [0m           [1;33m      [0m          
+[1;30m▓▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  ▄ ▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄ ▄▓▄▄▄▄▄▄[0m'

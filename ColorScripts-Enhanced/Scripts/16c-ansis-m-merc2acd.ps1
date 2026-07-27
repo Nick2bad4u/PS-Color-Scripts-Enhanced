@@ -5,7 +5,7 @@
 # Source SHA-256: 24b07614134eedbb3a8dd6894eefc214ef0cac1f8bdd8f6a60a2c2f34b0d3ddf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MERC2ACD.ANS by Venom (ansis-m); released in ansis-m and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -55,5 +55,4 @@ Write-Host '
                 [1;30;40m▀[0;1;37;40m▀▀  [0;1;30;40m▀[0;1;37;40m▀▀  [0;1;30;40m▀[0;1;37;40m▀▀ [0;1;30;40m▀[0;1;37;40m▀ [0;1;30;40m▀[0m▀[1;30m▀[0;1;37m▀[0;1;30m▀[0;1;37m▀▀▀[0;1;30m▀[0;1;37m▀ [0;1;30m▀[0m▀[1;30m▀[0;1;37m▀[0;1;30m▀[0;1;37m▀ [0;1;30m▀[0;1;37m▀ [0;1;30m▀[0;1;37m▀▀▀[0m
                 [1;37m▀[0m▀[1;30m▀ ▀▀█ ▄[0;1;30;47m▀[0m▀▀▀▀▀▀[1;30;47m▄[0m▄[1;30m▄[0;1;30;47m▀[0m▀[1;30;47m▄[0m▄[1;30m█[0m█ [1;30m█[0m█[1;30m█[0m█▀[1;30;47m▄[0m▄ [1;30m█▀▀ ▀[0m▀[1m▀[0m
                  [1m▀[0m▀[1;30m▀ ▀█ █[0;1;37;47m▒[0;1;30;40m▀[0;1;30;47m▄[0;1;37;47m▒[0;1;30;47m█[0;1;37;47m▒[0;1;30;40m▀[0;1;30;47m▄[0m▄[1;30;47m█[0;1;37;47m▒[0m [1;30;40m█[0;1;37;47m▒[0;1;30;40m█[0;1;37;47m▒[0m [1;30;40m█[0;1;37;47m▒[0;1;30;40m█[0;1;37;47m▒[0m▀▀  [1;30m█▀ ▀[0m▀[1m▀[0m
-                         [1;30m▀[0;1;37m▀▀▀[0;1;30m▀[0;1;37m▀ [0;1;30m▀[0m▀ [1;30m▀[0;1;37m▀▀  [0;1;30m▀[0;1;37m▀▀ [0;1;30m▀[0;1;37m▀[0m
-               [1;30m-[0m/[1;30m- [0;1;37mANS[0mi [1mBy [0;34mV[0;1;34mE[0;36mN[0;1;36mO[0;1;37mM of [0;1;30m<[0mAC[1mi[0mD[1;30m> [0;1;37mProductions [0;1;30m-[0m\[1;30m-[0m'
+                         [1;30m▀[0;1;37m▀▀▀[0;1;30m▀[0;1;37m▀ [0;1;30m▀[0m▀ [1;30m▀[0;1;37m▀▀  [0;1;30m▀[0;1;37m▀▀ [0;1;30m▀[0;1;37m▀[0m'

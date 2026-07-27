@@ -5,7 +5,7 @@
 # Source SHA-256: 373231a7796cf3996d2e687bf1d4879557e95dc72dac399f48b41b6be8c29f76
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KLU-HOT1.ANS by Klumzee (glue-19); released in glue-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
@@ -33,11 +33,4 @@ Write-Host '
 [1;30mt[0m                [1;30m▀▀▄▒▒▓ ▓▄▄  [0m▀▀██████[1;30;47m  ▀▀[0;1;30;40m▄▄▄▀▀[0;1;30;47m▄  [0m██▓▓▀▀     [1;30m▄▀▒▒▀[0m    [1;30m9command[0m
 [1;30m.[0m                   [1;30m ▀▒ ▐▓▓▓▄▄[0m   ▀▀██[1;30;47m       ▀▀ [0m██▀▀   [1;30m▄█[0m    [1;30m▓▒▄▀[0m
                          [1;30m▓[0m░[1;30m██▓▓▓▄▄  [0m▀█████████▓▀   [1;30m▄██[0m░[1;30m▌[0m    [1;30m▓▀[0m
-[1;30mneo[0m♣☼[1;30mklumzee[0m![1;30mglue[0m        [1;30m▒▓[0;1;30;47m█▓▓▓▓▓[0;1;30;40m██▄  [0m▀█▓▓▓▓█▀[1;30m  ▄█████[0m░[1;30m▌[0m
-
-[1;30m-cutherePrime.cutherePrime.cutherePrime.cutherePrime.cutherePrime.cutherePrime.-[0m
-
-[1;30mHi... this is my first ansi with this cool group they call glue... I certainly  [0m
-[1;30mhope it''s not the last. :)[0m
-
-[1;30mthis and all my other ansis to date have been 100% original.. no comic rips.. :)[0m'
+[1;30mneo[0m♣☼[1;30mklumzee[0m![1;30mglue[0m        [1;30m▒▓[0;1;30;47m█▓▓▓▓▓[0;1;30;40m██▄  [0m▀█▓▓▓▓█▀[1;30m  ▄█████[0m░[1;30m▌[0m'

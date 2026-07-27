@@ -5,7 +5,7 @@
 # Source SHA-256: f58dd878f6fac7bb0250948feab0fe2f9e36062d631ca5afbcfcc63e7c0054e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-PIN.ANS by Tetsuo (hr09-94); released in hr09-94 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 77-116
 # Columns: 1-80
 
@@ -34,7 +34,7 @@ Write-Host '
 [31m ▄    ▀▄ ▄[0m     [37m▐  [0;1;30m▌[0m                   [1;30m▌[0m                                 [31m▀   ▀[0m
             [1;35m∙[0m        [35mB[0m        [1;35m∙[0m        [35mB[0m        [1;35m∙[0m        [35mS[0m       [1;35m∙[0m
              [1;31;45m▓[0m                                                  [1;31;45m▓[0m
-             [1;31;45m▒▓[0m                 [1;35;40mThe P[0;35mi[0;1;35mN[0;35mi[0;1;35mON BBS[0m                 [1;31;45m▓▒[0m
+             [1;31;45m▒▓[0m                 [1;35;40m     [0;35m [0;1;35m [0;35m [0;1;35m      [0m                 [1;31;45m▓▒[0m
              [1;31;45m░▒[0m [1;35;40mNumber[0;35m····························[0;1;35m619/242.7194 [0;1;31;45m▒░[0m
              [1;34;45m░[0;1;31;45m░[0m [1;35;40mNet[0;35m······························[0;1;35mAKiRA Net WHQ [0;1;31;45m░[0;1;34;45m░[0m
              [1;34;45m▒░[0m [1;35;40mNet[0;35m······························[0;1;35mHR Net <Soon> [0;1;34;45m░▒[0m     [1;30;40mTHiS[0m
@@ -42,11 +42,11 @@ Write-Host '
              [1;34;44m▓[0;1;34;45m▓[0m [1;35;40mAffilz[0;35m·································[0;1;35mPCP WHQ [0;1;34;45m▓[0;1;34;44m▓[0m    [1;34;44m▓[0m [1;34;44m▓[0m [1;34;44m▓[0;34m▀▄[0m
              [1;34;44m▒▓[0m [1;35;40mAffilz[0;35m·························[0;1;35mHR Member Board [0;1;34;44m▓▒[0m    [1;34;44m▒[0;34m▀[0;1;34;44m▒[0m [1;34;44m▒[0;34m▄▀[0m
              [1;34;44m░▒[0m [1;35;40mSysOp[0;35m···································[0;1;35m┼Σ┼$ÜΘ [0;1;34;44m▒░[0m    [1;34;44m░[0m [1;34;44m░[0m [1;34;44m░[0m [34m▀▄[0m
-              [1;34;44m░[0m                                                [1;34;44m░[0m    [1;30;40mABDUKSHUN![0m
+              [1;34;44m░[0m                                                [1;34;44m░[0m    [1;30;40m          [0m
 
                                     [1m┌[0m─[1;30m────[0m─[1m┐[0m
 [1m    [0;1;47m▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m└[1;30mG[0mr[1mee[0mt[1;30ms[0m┘[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;47m▀[0m
-[1;40m    [0;1;30;40m█ [0;34mLiving Death - No, I''m not an ANSi god, just a minor diety. ;>[0m      [1;30m█[0m
-[1;30m    ▓ [0;34mLogic Bomb - Sorry ''bout fucking up your first HR appearance...[0m     [1;30m▓[0m
-[1;30m    ▒ [0;34m.\\r. .\\uff - Dude, it''s TETSUO!  TETSUO, NOT TETUSO!!!  ;)[0m        [1;30m▒[0m
-[1;30m    ░ [0;34mNiN - Pinion... get it?  Like the song... you r00l Trent![0m           [1;30m░[0m'
+[1;40m    [0;1;30;40m█ [0;34m                                                              [0m      [1;30m█[0m
+[1;30m    ▓ [0;34m                                                               [0m     [1;30m▓[0m
+[1;30m    ▒ [0;34m                                                            [0m        [1;30m▒[0m
+[1;30m    ░ [0;34m                                                         [0m           [1;30m░[0m'

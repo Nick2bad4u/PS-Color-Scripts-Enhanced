@@ -5,7 +5,7 @@
 # Source SHA-256: 0a7f1a844ce8b7a99acbb55bacdf623e0734268d746f6d11dd91fbe81719a998
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-REV1.ANS by lazthaus (ld!) (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Revival
 # SAUCE Author: lazthaus (ld!)
 # SAUCE Group: Revival
@@ -57,8 +57,4 @@ Write-Host '
     [31;40m  [0;37;40m [0;31;40m▐[0;31;46m▒▒▓▓▓░▀[0;31;40m▄▄▀▀[0;36;41m▒[0;37;40m  [0;1;30;40m░░[0m  [36m▄[0;36;41m▓▓[0;36;40m▓▐[0;36;41m▒▒[0;31;40m▌[0;37;40m  [0;31;40m▐[0;36;41m▒▒[0;31;40m▓[0;37;40m [0;36;41m░▒░[0;37;40m [0;36;41m░▒▒[0m   [36;41m░░▒[0;36;40m▄▄[0;36;41m▓▓▒▒▒[0;36;40m▌[0;31;40m▐[0;36;41m▒▒▒[0;31;40m▌[0m
      [31;40m  [0;37;40m [0;36;40m█[0;31;46m░░[0;36;40m▌[0;37;40m [0;36;40m▀[0;31;46m░░░▀▀[0;36;41m▓[0;36;40m▄▄▄[0;36;41m▓▓▓▓███▓▓[0;36;40m█[0m   [36;40m░[0;36;41m▓▓[0;1;36;46m░[0m  [36;41m▓▒▒▓▓[0m   [36;40m░[0;36;41m▒▒█[0;36;40m▀▀[0m   [36;41m▓▓[0;1;36;46m░░[0;36;41m▓▓▓[0;36;40m▄▄[0;36;41m▓▓▓▓[0m    [31;40m [0m
       [31;40m ░[0;36;40m▐[0;1;36;46m░░[0;36m█[0m    [1;36m▀▀[0;1;36;46m░░░[0;36m▀▀▀▀▀[0;31m  [0;37m [0;1;36;46m░[0;36m█▓░[0m    [36;41m█[0;1;36;46m░▓[0;36m [0;37m  [0;36;41m▓█[0;1;36;46m░░[0m   [36m▐[0;36;41m▓▓[0;36;40m▌[0;31;40m [0m       [1;36;40m▐[0;1;36;46m▓░░[0;36m█▀▀▀▀▀[0m    [31m [0m
-        [1;36m▐[0;1;36;46m▓▓░[0m                 [31m [0;1;36m▀[0;36m▀[0m           [31m [0;1;36m▀▀[0m    [36m█[0;1;36;46m░░[0;1;36;40m▌[0;31m [0m
-
-                        [31mbringing ansi back from the dead.[0;1;30m [0m
-
-                     [1;30mlazthaus.revival /[0m [1;30mlazthaus@hotmail.com [0m      [1;30m [0m'
+        [1;36m▐[0;1;36;46m▓▓░[0m                 [31m [0;1;36m▀[0;36m▀[0m           [31m [0;1;36m▀▀[0m    [36m█[0;1;36;46m░░[0;1;36;40m▌[0;31m [0m'

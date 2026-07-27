@@ -5,7 +5,7 @@
 # Source SHA-256: 46a16a11ca09aa26ee0391cd6565b7ed3a1b5c13dfc92b72384da3e8ee15b301
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TO-DW.ANS by Toadie (hn-0496); released in hn-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -32,6 +32,4 @@ Write-Host '
 [1;30;40m  [0;31m▐███[0;1;30;41m░[0;31m███[0;31;41m [0;31;40m██[0;1;30;41m▐▄[0;1;30;40m▓▌  [0;1;30;41m░[0;31m█[0;31;41m [0;1;30;41m██[0m [1;30;41m  ▐[0;1;30;40m▓▌   [0;31m▐[0;31;41m  [0;31;40m█[0;1;30;41m▄█[0m   [31m▐██[0;1;30;41m▐[0;31m▄[0;1;30;41m▄ ▄[0;1;30;40m▓▌  [0;31m██[0;31;41m [0;1;30;41m▄█[0m [1;30;41m ▄[0;1;30;40m▌  [0;31m███[0;1;30;41m░▐[0;31m▄█[0;31;41m [0;1;30;41m▐█[0;1;30;40m▓[0m
 [1;30;40m ░ [0;31m█[0;1;30;41m▓[0;31m███▀▀█[0;1;30;41m▓▄[0;1;30;40m▓[0;1;30;41m█[0;1;30;40m█░  [0;31m██[0;1;30;41m▄█[0;1;30;40m▓ [0;1;30;41m▄▓[0;1;30;40m▓[0;1;30;41m██[0m    [31m█[0;1;30;41m▓[0;1;30;40m▓[0;1;30;41m█[0;1;30;40m▓   [0;31m█▓█[0;1;30m▓[0;1;30;41m▄█▓[0;1;30;40m█▀   [0;31m██[0;1;30;41m▓[0;1;30;40m▀▓ ▓[0;1;30;41m█[0;1;30;40m▓   [0;1;30;41m▓[0;31m██[0;1;30;41m░[0;31m█[0;1;30;41m█▄█[0;1;30;40m▓▌  [0;34m░[0m
          [1;30m░ ▀▀▀▀▌  [0;34m░  [0;1;30m▓▀   ▀▀░▀▀░    ▀▀▀░    ▀  ░▀▀▌[0m         [1;30m▀▀▀░[0m      [1;30m▄░▀▀▀▄░[0m
-         [34m░[0m
-                               [1;31mS[0;31my[0;1;30msOp^Comra[0;31md[0;1;31me[0m
-                            [1;31mN[0;31mu[0;1;30mmber^(Com)ing-So[0;31mo[0;1;31mn[0m'
+         [34m░[0m'

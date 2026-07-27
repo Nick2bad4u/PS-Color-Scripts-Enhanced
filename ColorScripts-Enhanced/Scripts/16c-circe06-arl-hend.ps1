@@ -5,7 +5,7 @@
 # Source SHA-256: 438a2d0e6a92ae3f379af16a965513307f7c2accc6efe1da498a9b9da27a7753
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-HEND.ANS by Arlequin (circe06); released in circe06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -34,7 +34,4 @@ Write-Host '
           ███[1;46m▒▒[0;1;36;45m▒[0;1;34;40m▀[0m▀ [1;30m   [0;31m [0;1;37m 4☻☻☻☻☺[0m7[1m4☻☻☻☻☺☺☺[0m [1;30m,a[0m#☻☻ ☻  ''/[1;35;47m░▓█[0;1;35;40m☻;i☻▒[0;1;33;45m☺☻[0;1;33;40m☻☻[0m;
           ▀▀▀          [1m ┘*┘²''[0m  [1;36m`┘*[0;1;37m¬8[0m⌐*''
 
-      [1;31m    [0m           [1;34mA R E   Y O U   E X P E R I E N C E D  ?[0m
-
- [1;30mOutlines: Enzo[0m
- [1;30mRest    : Arlequin[0m'
+      [1;31m    [0m           [1;34mA R E   Y O U   E X P E R I E N C E D  ?[0m'

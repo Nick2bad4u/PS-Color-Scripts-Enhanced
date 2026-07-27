@@ -5,7 +5,7 @@
 # Source SHA-256: c38091a8d49bfb056be3fd9af0de5344fc863871ebb5fa112ec259b76250cf98
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BB-IFOX2.ANS by Buzzy Bunny?! (Maiden_br?); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: i_fOx rumors! :)
 # SAUCE Author: Buzzy Bunny?!
 # SAUCE Group: Maiden_br?
@@ -33,7 +33,4 @@ Write-Host '
                                  [35mL i s t   a l l[0m                           [37m [0m
     [37m [0m                        [35mS h o w   a   r u m o r[0m                       [37m [0m
     [37m [0m                           [35mD e l   r u m o r [0m                         [37m [0m
-    [37m [0m                                [35mQ u i t [0m                              [37m [0m
-    [37m [0m                                                                      [37m [0m
-
-[35miron fox rumors![0m'
+    [37m [0m                                [35mQ u i t [0m                              [37m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 890c10c9a6802d69fc5448a8de930a40bba3066159b84955af83b7fcdefe1396
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRZ-WHO.ANS by krazie (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: who..
 # SAUCE Author: krazie
 # SAUCE Group: pHOBIA@!
@@ -26,6 +26,4 @@ Write-Host '
 [37m [0;35m▀[0;1;35;45m▀[0;35m▄[0;1;37m [0m▀[1m▀[0;1;47m▀[0;1;40m██▀▀▀▀▀▀▀▀▀▀[0;1;47m▀[0;1;40m███▀▀▀▀▀▀▀▀▀▀[0;1;47m▀[0;1;40m█▄[0;1;47m▄[0;1;40m████▌[0m [35m█[0;1;35;45m▀[0m ▐[1;47m▐███[0;1;40m███▀[0m [35m▄▄▄▄▄▄▄ [0;37m▀[0;1;37m▀▀▀▀▀▀▀▀▀[0m [35m▐[0;1;35;45m▐▓[0;35m▌[0m
 [37m  [0;35m ▀▀▀[0m   [1;37m [0m▀[1m▀ [0;35m▀█[0;1;35;45m▄▓[0;35m█▀ ▄[0;1;35m▄[0m ▀[1m▀ [0;35m▀[0;30;45m [0;1;35;47m▓▓[0;1;35;45m▄▄[0;35m█▄▄[0m    [37m▀[0;1;37m▀▀▀▄ [0;1;35;45m▐[0;1;37;40m [0m▀[1m▀▀▀▀ [0;35m▄▄▄[0;1;35;45m ▄▄▐▄█▓▄▄▒▓▄▄▄[0;30;45m░[0;35;40m▌▀█[0;1;35;45m ▀█[0;1;35;47m▓[0;1;35;45m▌[0m
                 [35m [0;37m  [0;35m▀▀[0;1;35;45m ▀░[0;30;45m▓[0;35;40m▀  ·krz!▀[0;1;35;40m▀[0;35m▀▀[0;37m  [0;35m▀▀█▄▄▄[0;1;35;45m▓▄ ░[0;35m▀▀▀▀[0;1;35;45m░[0;35m▀[0;30;45m░[0;1;35;45m▀▀▀█[0;1;35;47m▓▓[0;1;35;45m██▀█▀▀░[0;30;45m░[0;35;40m▀[0m   [35;40m ▀▀▀[0m
-                                            [35;40m▀▀▀[0m           [35;40m▀▀▀█[0;1;35;45m▀[0;30;45m ░░[0;35;40m▀▀[0m
-
-         [35;40mTo Oddball from krazie... merry christmas or somethin#@@! ;)[0m'
+                                            [35;40m▀▀▀[0m           [35;40m▀▀▀█[0;1;35;45m▀[0;30;45m ░░[0;35;40m▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1939658409e1d82aab40c37e38252ee1d1c60c14bda16400b1678718e0791e57
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: qz-logo1.ans by Quazar (iCE Advertisements); released in ice-200208 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Collection
 # SAUCE Author: Quazar
 # SAUCE Group: iCE Advertisements
@@ -28,17 +28,17 @@ Write-Host '
 [34m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m
 
 
-[37m [0;1;30m As some of you may already know, I am back from the dead, so-to-speak.  I''ve [0m
-[1;30m  been there and back again, and so fourth and so on, and actually, I am quite[0m
-[1;30m   proud to humor you with my latest ansi works.  Yes, this is "qz", "quazar",[0m
-[1;30m [0m    [1;30mthat old ice guy from back in 1993, the retired tribe ansi artist, etc. [0m
-[1;30m  Just so there''s no confusion, I was outta the scene doing MUD''s and basically[0m
-[1;30m   working on my career (heh, yea, MUD and career in the same sentence, quite[0m
-    [1;30modd, no?), and basically, I''ve checked in a few times a year, just to see[0m
-[1;30m  who was still around, and how they were doing.  Now, I''m actually back, doing[0m
-     [1;30mmy thang again, and I must say, I couldn''t feel any better.  Here''s my[0m
-[1;30m compilation of logos for this month, I hope you can enjoy them more than I do.[0m
-                    [1;30mAnyway, on with the erm, art, I guess ;p[0m
+[37m [0;1;30m                                                                              [0m
+[1;30m                                                                              [0m
+[1;30m                                                                              [0m
+[1;30m [0m    [1;30m                                                                        [0m
+[1;30m                                                                               [0m
+[1;30m                                                                             [0m
+    [1;30m                                                                         [0m
+[1;30m                                                                               [0m
+     [1;30m                                                                      [0m
+[1;30m                                                                               [0m
+                    [1;30m                                        [0m
 
 
 [34m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m

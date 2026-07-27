@@ -5,7 +5,7 @@
 # Source SHA-256: e95ba4616412df6b117eb3bcf284d9f9a71bba43fce81192219d19405ed22230
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LNO1.ICE by Boa + Lord Soth (iCE Advertisements); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Like No Other
 # SAUCE Author: Boa/LS
 # SAUCE Group: iCE Advertisements
@@ -35,5 +35,5 @@ Write-Host '
 [37m ▒[0m                  [36m▐▀[0;1;36;46m▀▀░[0;36;44m▓[0;36;40m▀[0;34;40m▀   ▀▀[0;32;44m░▀▀▀▒[0;34;40m▌░▐[0;1;30;44m▒[0;30;44m▒[0;1;30;44m▀▀░[0;34m▀▀   [0;1;36m▄░▀[0m                        ▒
  ░[1;30m [0m                [36m▄▀▀▀[0m             [34m▒▀[0;32;44m░[0;37;40m [0;30;44m░▒[0;34;40m▒[0m      [1;36;40m■[0m                            ░
  [1;30m▓[0m                                  [34m░ [0;30;44m░[0;37;40m [0;30;44m░[0;37;40m [0;34;40m░[0m                                   [1;30;40m▓[0m
-[34m [0;1;30m▒[0;34m [0;1;37mThis is for Kadavers board,[0m        [34m▒ ▒[0m          [1;37mLogo by Lord Soth and Boa[0m  [1;30m▒[0m
- [1;30m░[0m      [1m"Like No Other"[0m               [34m░ ░[0m         [1;37m [0m [1m of iCE Advertisements [0m   [1;30m░[0m'
+[34m [0;1;30m▒[0;34m [0;1;37m                           [0m        [34m▒ ▒[0m          [1;37m                         [0m  [1;30m▒[0m
+ [1;30m░[0m      [1m               [0m               [34m░ ░[0m         [1;37m [0m [1m                       [0m   [1;30m░[0m'

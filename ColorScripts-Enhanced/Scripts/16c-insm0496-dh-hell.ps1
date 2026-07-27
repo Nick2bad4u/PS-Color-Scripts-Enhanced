@@ -5,7 +5,7 @@
 # Source SHA-256: e6b41464cba96ea9847abe6c6c365d1df11fa52311f0171c59ffeeef356e27d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-HELL.ANS by DarkHeart (iNSOMNiA); released in insm0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: HeLLTeCH Ent!
 # SAUCE Author: DarkHeart
 # SAUCE Group: iNSOMNiA
@@ -32,6 +32,4 @@ Write-Host '
                          [36m▓[0;1;30;46m▄▓[0;36m▀▀▀▀▀▀[0;37m [0;36m▓[0;1;30;46m▄▓[0m [1;30;46m░▄▓[0m [36m▓[0;1;36;46m░[0;1;30;46m▓[0m
                           [1;30m▀▀▀▀▀▓▀▀[0m   [36m [0;37m  [0;36m [0;37m  [0;1;30m▀▀▀[0m   [36m  [0m
 
-[37m      [0m                 [1;37mt[0m h e   [1mh[0m e l l t e c h   [1me[0m n t
-
-                            [1;30mdarkheart <insomnia>[0m'
+[37m      [0m                 [1;37mt[0m h e   [1mh[0m e l l t e c h   [1me[0m n t[0m'

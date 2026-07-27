@@ -5,7 +5,7 @@
 # Source SHA-256: ab317995def84cf7bdb0e55c08c4a8268a3d6dab8f8fdde0d2e3ebe35aac5555
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HW-SOV1.ANS by Heat Wave (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Spirits of Vengeance
 # SAUCE Author: Heat Wave
 # SAUCE Group: WBT/SHiVER
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30mheat wave[0m   [30mheat wave[0m   [30mheat wave[0m   [30mheat wave[0m   [30mheat wave[0m   [30mheat wave[0m   [30mheat wav[0m
+[30m         [0m   [30m         [0m   [30m         [0m   [30m         [0m   [30m         [0m   [30m         [0m   [30m        [0m
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
 [1;30m▓[0;30me[0;1;37m██████▀▀▀████▀▀▀██▀▀▀███▀▀▀█████[0;30m  [0;1;37mThis[0;30m [0;1;37mansi[0;30m [0;1;37mis[0;30mh[0;1;37m100%[0;30mw[0;1;37moriginal[0;30ma[0;1;37mexcept[0;30m [0;1;37mfor[0;30me[0;1;37mthe[0;30mwa[0;1;30m▓[0m
 [1;30m▒[0;30me[0;1;37m████▀[0;30mv[0;31m▄█[0;30m [0;1;37m██▀[0;30ma[0;1;31m▄[0;1;31;41m▓[0;30mw[0;1;37m▀[0;30mv[0;31m▄[0;1;31;41m░[0;30m [0;1;37m███[0;30ma[0;1;31;41m▒[0;1;31;40m▄[0;30mw[0;1;37m▀███[0;30m  [0;1;37mbeasts[0;30ma[0;1;37mwhich[0;30mh[0;1;37mI[0;30ma[0;1;37mhad[0;30ma[0;1;37mto[0;30m [0;1;37mlook[0;30ma[0;1;37mat[0;30mw[0;1;37mmy[0;30me[0;1;37mgirl[0;30meat wa[0;1;30m▒[0m
@@ -24,10 +24,10 @@ Write-Host '
 [30mhe[0;1;37m███[0;30mw[0;1;31;41m▓▒░░[0;31m▀▀▀███[0;1;31;41m░[0;30mw[0;1;37m▄[0;30mv[0;1;31;41m▓▒░[0;31m██████[0;30mw[0;1;37m████[0;30m  [0;1;37mare[0;30mt[0;1;37myou[0;30mv[0;1;37mgonna[0;30me[0;1;37mstart[0;30mv[0;1;37mdrawing[0;30mt[0;1;37mansi''s[0;30m [0;1;37magain?[0;30mwav[0m
 [30mhe[0;1;37m███[0;30mw[0;1;31;41m▓▓▒░[0;30m [0;1;37m█[0;30mh[0;31m████[0;30mw[0;1;37m█▄[0;30me[0;1;31;41m▓▒░[0;31m▀██[0;1;33;41m [0;30m [0;1;37m▄████[0;30m  [0;1;37mSurreal[0;30mv[0;1;37mLogic[0;30me[0;1;37m-[0;30mt[0;1;37myour[0;30me[0;1;37mfonts[0;30ma[0;1;37mare[0;30ma[0;1;37mrad,[0;30m [0;1;37mbut[0;30mt wav[0m
 [1;30m░[0;30me[0;1;37m███▄▄▄▄▄▄█▄▄▄▄▄▄██▄▄▄▄▄▄▄▄▄█████[0;30m  [0;1;37mwhen[0;30m [0;1;37mare[0;30me[0;1;37myou[0;30mh[0;1;37mgonna[0;30ma[0;1;37mdo[0;30m [0;1;37ma[0;30m [0;1;37mpic?[0;30m w[0;1;37mMavrik[0;30mh[0;1;37m-[0;30ma[0;1;37mCan[0;30ma[0;1;30m░[0m
-[1;30m▒[0;30me[0;1;37m█[0;30mt [0;31mH[0;30ma[0;31mE[0;30me[0;1;31mA[0;30m [0;1;31mT[0;30mhea[0;1;31mW[0;30m [0;1;31mA[0;30ma[0;1;31mV[0;30me[0;1;31mE[0;30m  [0;1;31m∙[0;30mea[0;1;31mW[0;30m [0;31mB[0;30ma[0;31mT[0;30me[0;1;37m█[0;30m  [0;1;37mI[0;30me[0;1;37mhave[0;30ma[0;1;37msome[0;30m [0;1;37mfilepoints[0;30m [0;1;37mfor[0;30ma[0;1;37mthe[0;30ma[0;1;37mWBT[0;30m [0;1;37mpack?[0;30m [0;1;37m:)[0;1;30m▒[0m
+[1;30m▒[0;30m [0;1;37m█[0;30m  [0;31m [0;30m [0;31m [0;30m [0;1;31m [0;30m [0;1;31m [0;30m   [0;1;31m [0;30m [0;1;31m [0;30m [0;1;31m [0;30m [0;1;31m [0;30m  [0;1;31m [0;30m  [0;1;31m [0;30m [0;31m [0;30m [0;31m [0;30m [0;1;37m█[0;30m  [0;1;37m [0;30m [0;1;37m    [0;30m [0;1;37m    [0;30m [0;1;37m          [0;30m [0;1;37m   [0;30m [0;1;37m   [0;30m [0;1;37m   [0;30m [0;1;37m     [0;30m [0;1;37m  [0;1;30m▒[0m
 [1;30m▓[0;30me[0;1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30m  [0;1;37mand[0;30mt[0;1;37mfinally[0;30m [0;1;37mto[0;30ma[0;1;37mthe[0;30ma[0;1;37mwhole[0;30mh[0;1;37mWBT[0;30m [0;1;37mcrew...[0;30mheat wa[0;1;30m▓[0m
 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-[30mheat wave   heat wave   heat wave   heat wave   heat wave   heat wave   heat wav[0m
+[30m                                                                                [0m
 [1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;34;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [1;34;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

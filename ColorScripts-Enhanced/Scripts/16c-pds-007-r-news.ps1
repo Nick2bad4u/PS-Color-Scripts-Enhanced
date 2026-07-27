@@ -5,7 +5,7 @@
 # Source SHA-256: 76e4dce3794a6da32717159035b8748378e8467227a41b05318aab94d7841e9f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: R@NEWS.ANS by rumble (pds); released in pds-007 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: UGLY news-ansi..
 # SAUCE Author: rumble
 # SAUCE Group: pds
@@ -30,6 +30,4 @@ Write-Host '
                            [31m░[0m                    [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀[0m
 
 
-[1;30m------------------------------------ - [0m
-[1;33mYIAAAKES! this was an ugly one.. urk.. but it was fast (15 min, and[0m
-[1;33mthat IS fast for me.. :))[0m'
+[1;30m------------------------------------ - [0m'

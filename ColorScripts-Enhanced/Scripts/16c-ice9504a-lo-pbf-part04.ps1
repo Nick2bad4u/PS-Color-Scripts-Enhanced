@@ -5,7 +5,7 @@
 # Source SHA-256: ac9e9d4b446219f739c709f5e7d2e806d1a5fd69e7112ae5384a38decb04ee35
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LO-PBF.ICE by Leonardo (iCE); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Primal Bloodfest
 # SAUCE Author: Leonardo
 # SAUCE Group: iCE
@@ -55,6 +55,6 @@ Write-Host '
 [31m   ▓[0;1;31;41m░▄▓[0;31m██▒[0m                  [31m░[0m           [31m░[0m                       [31m░[0m            [31m░[0m
 [31m    ▀▀[0;1;31;41m▀▀[0;31m█▓[0m                     [1;30m"[0mThe Fastest Filez[1;30m"[0m
 
-[1;30m [0mS[1mystem [0mO[1mperator[0m: H[1mitman    [0m( [1m3 1 4 [0m) [1m5 4 4 [0m- [1m6 7 0 7    [0mF[1mile [0mM[1manager[0m: D[1maCount[0m
+[1;30m [0m [1m      [0m [1m       [0m   [1m         [0m  [1m      [0m  [1m      [0m  [1m           [0m [1m    [0m [1m      [0m   [1m      [0m
 
 [1;30mP    [0mr    i    m    a    l            [1;30mB    [0ml    o    o    d    f    e    s    t[0m'

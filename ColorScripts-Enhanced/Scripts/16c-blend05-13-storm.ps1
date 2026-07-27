@@ -5,7 +5,7 @@
 # Source SHA-256: 59b015576d911e15f676e53d5bd4b13cf51cd1c02f411338c36beca15589dbe0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 13-STORM.ANS by V1LLE (bLEND); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fuck you!@ vitun homo
 # SAUCE Author: V1LLE
 # SAUCE Group: bLEND
@@ -37,10 +37,4 @@ Write-Host '
 [1;30m▌[0m   [30;42m░[0;32;40m█[0;1;30;40m▀[0m    [30;42m▓[0;32;40m█[0;1;30;42m▓[0;1;30;40m▀[0m [30;42m▓[0;32;40m▓[0;1;30;42m▓[0;1;30;40m▀[0m   [1;30m▐▄[0m [1;30m▀▀[0;1;30;47m▌[0m▄[1;30m▄[0m [30;47m▓[0;1;30;40m▐█▌▐[0;1;30;47m█[0;1;30;40m▀▄█▌[0m [33m  [0m           [33m         [0;30;43m███[0m
 [37;40m    [0;32;40m▐[0;1;30;42m░[0;1;30;40m█[0m    [30;42m▓[0;32;40m█[0;1;30;42m▓[0;1;30;40m█[0m  [32m█[0;1;30;42m▓[0;1;30;40m▌[0m    [1;30;42m▓[0;1;30;40m█[0m [1;30m▀[0;1;30;47m█▓[0;1;30;40m▀[0m [1;30m▐█▀[0m  [1;30m▄███[0m  [33m  [0;30;43m██[0m                 [33;40m  [0m
 [37;40m    [0;32;40m▐▀[0m   [30;42m▓▓[0;1;30;42m▓▓[0;1;30;40m▀[0m  [30;42m▓[0;1;30;42m▓[0;1;30;40m▀[0m    [30;42m▓[0;1;30;42m▒▓[0;1;30;40m█[0m [1;30m▐█▌[0m [1;30m███▌░▓▓██[0m  [33m [0m
-[37m  [0;30;42m▓▓░[0;1;30;42m▓▓[0;1;30;40m▌▄▄[0m  [1;30m▀▀▀▌▐[0;1;30;42m█[0;1;30;40m█▄[0m  [30;42m▓░[0;1;30;42m▒█[0;1;30;40m▌[0m [1;30m▀[0m [1;30m▄██▀▀▀[0m [1;30m▐██▌[0m  [33m [0m
-
-[37m  [0;32mdamn, i said that no logos or 25liners in this pack, fuck, watch it, dont[0m
-[32m  touch it. buy it for 5 usdollars, i need some $$, you know, i''m justa poor[0m
-[32m  artist.[0m
-
-[1;33m  _13@geocities.com[0m'
+[37m  [0;30;42m▓▓░[0;1;30;42m▓▓[0;1;30;40m▌▄▄[0m  [1;30m▀▀▀▌▐[0;1;30;42m█[0;1;30;40m█▄[0m  [30;42m▓░[0;1;30;42m▒█[0;1;30;40m▌[0m [1;30m▀[0m [1;30m▄██▀▀▀[0m [1;30m▐██▌[0m  [33m [0m'

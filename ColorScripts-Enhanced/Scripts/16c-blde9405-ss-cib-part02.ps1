@@ -5,7 +5,7 @@
 # Source SHA-256: 658c926b5754f28a80efa1120f8c66e7d338cb1c191a68405b78e19f1cf817ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-CIB.ANS by Soul Seeker (blde9405); released in blde9405 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -55,8 +55,4 @@ Write-Host '
                            [36m▀▀▀ ▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀[0m
 
                              [1;36mC R A C K E D  I C E[0m
-                                 [1;36m908[0;36m-[0;1;36m446[0;36m-[0;1;36m9416[0m
-[1;36m [0;36mRunning Renegade [0;1;36m· [0;36mRunning [0;1;36mZoom [0;36m38.4K Modem [0;1;36m· [0;36m212 Megs Online [0;1;36m· [0;36mCD-Rom Online![0m
-      [36mImperial Network Node! [0;1;36m· [0;36mSysOp: [0;1;36mTurgeon · [0;36mCoSys: S[0;1;36mo[0;1;37muL SeeK[0;1;36me[0;36mR [0;1;30m[[0;34mB[0;1;34mL[0;1;37mA[0;1;34mD[0;34mE[0;1;30m][0m
-
-              [36mANSI Presentation By S[0;1;36mo[0;1;37muL SeeK[0;1;36me[0;36mR, [0;34mB[0;1;34mL[0;1;37mA[0;1;34mD[0;34mE [0;36mProductions[0m'
+                                 [1;36m908[0;36m-[0;1;36m446[0;36m-[0;1;36m9416[0m'

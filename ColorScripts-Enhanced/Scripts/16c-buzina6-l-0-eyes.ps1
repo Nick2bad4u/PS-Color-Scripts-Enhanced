@@ -5,7 +5,7 @@
 # Source SHA-256: a05616365b1623454ae3747b63d94e82d58f0fe2f022ac2a210d96b88a93ae29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: l&0-eyes.ans by Lip + 0xel (buzina6); released in buzina6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20030205
 # SAUCE Dimensions: 80x31
 # Lines: 1-31
@@ -36,10 +36,4 @@ Write-Host '
 [1m              ''┘S┐,.__[0;1;30m:[0;1;37mSl  [0m i[1m.....[0mii li[1;30m:[0;1;37m.....[0m    .i[1;30m:[0m    [1;36m_$$$       $$$[0;1;37md$$?`[0m
 [1m                  ~^""^~   [0;1;30m o[0mP[1;30meN [0mY[1;30m0[0mu[1;30mR e[0mYe[1;30ms  [0m     ii[1m.....[0;1;36m$$$I   [0;1;37mQQ$$$$S?^[0m
 [1m                           [0m [1m          [0m         [1;30m      [0m   [1;36mI$$;   [0;1;37m^^```[0m
-[1m                                 [0m                  [1m     [0;1;36m$$$$$$$$$[0m
-           [1;36mliP & 0xel[0m
-
-
-
-
-                                     [1m            [0m'
+[1m                                 [0m                  [1m     [0;1;36m$$$$$$$$$[0m'

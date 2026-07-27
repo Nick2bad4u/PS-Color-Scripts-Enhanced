@@ -5,12 +5,12 @@
 # Source SHA-256: 0d41dfc92d05b53fb2c0dd8ea46ea236571c150da2a375e2803ee5c9b35bf69c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FC4.ICE by Mass Murderer + Apox (ice9611a); released in ice9611a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
- massm([1mice[0m)                                                           apox([1mice[0m)
+       [1m   [0m                                                                 [1m   [0m 
 
       [1;33m    ▄▄▄▄▄▄[0m     [1;33m       [0;1;30m [0;1;33m▄▄▄▄▄▄▄[0m [1;33m░░[0;1;30m      [0m [1m░░[0m [1m▄[0;1;33m▄▄▄▄▄▄ [0m           [1m ▄[0;1;33m▄▄▄▄▄▄▒[0m
 [1;33m░░[0m [1;33m▄▄▄██▀▀▀[0m  [1;33m▀▀████▄▄  ▄▄▄██▀▀▀[0m  [1;33m▀▀██▓▓▄▄[0m  [1m▄▄▄▓▓▀[0;1;33m▀▀[0m  [1;33m▀▀████▄▄[0m  [1m▄▄[0;1;33m▄██▀▀▀[0m  [1;33m▀▀█▓█▄▌[0m

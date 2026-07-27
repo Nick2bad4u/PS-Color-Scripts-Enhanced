@@ -5,7 +5,7 @@
 # Source SHA-256: c929615c198b2df8eae5e157fe2ffe3f2147ca1bc53346cf0247812f8a3a2c99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR_IBALL.ANS by Crucifer (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eyeball with no logo fools :)
 # SAUCE Author: Crucifer
 # SAUCE Group: Department 38
@@ -63,5 +63,4 @@ Write-Host '
 [34m░░░░░ [0m   [34m░░░░[0;37m  [0;34m░░░░[0;37m [0;34m░░░[0;37m  [0;1;31;41m░░░░▒▒▒▓▓▓▓[0;1;31;40m▓▓[0;1;31;41m▓▒░[0;31m▀[0;37m [0;34m░[0m     [34m░░░[0m   [34m░░░░[0;37m  [0;34m░[0m   [34m░░░░░░[0m       [34m░░[0m
 [34m▒░░░░░░░░░░░░░░░░░░░░░░░░░░[0;31m▀▀▀▀[0;1;31;41m▒▒▒▒▒▒[0;31m▀▀[0m    [34m░░[0m   [34m░░░░[0;37m [0;34m░░░░░[0m   [34m░░[0;37m  [0;34m░░░░░░░░░[0m    [34m░▒[0m
 [34m▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▓[0m
-[36m    [0m                                                            [34m [0;37m [0;34m<CRUCiFER■D38>[0m
-[36m    [0m'
+[36m    [0m                                                            [34m [0;37m [0;34m         ■    [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 06cb9486e8bd38736a8dd936dc6d3b37d5d9f46db281a56a5f1dc0f8f3a3d874
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-RELC.ANS by filth (F i R E); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: RELiC TRiBUTE
 # SAUCE Author: filth
 # SAUCE Group: F i R E
@@ -40,15 +40,15 @@ Write-Host '
 
 [34m███████████████████████████[0;35;44m░[0;34;45m▓▓▓[0;1;30;40m [0;1;35;40m1994  [0;1;32;40mRELiC[0m  [1;35m1995[0;1;30m [0;34;45m▓▓[0;35;44m░[0;34;45m▓[0;34;40m██████████████████████████[0m
 
-       [35;40mAbsolute[0;37;40m [0;35;40mZero,[0;37;40m  [0;35;40mAce,[0;37;40m  [0;35;40mAzrael,[0;37;40m  [0;35;40mBand[0;37;40m [0;35;40mSaw,[0;37;40m  [0;35;40mB00MER,[0;37;40m  [0;35;40mCooly,[0;37;40m  [0;35;40mDeadpool[0m
-       [32;40mDr.[0;37;40m [0;32;40mLove,[0;37;40m  [0;32;40mEerie,[0;37;40m  [0;32;40mFarralon[0;37;40m  [0;32;40mthe[0;37;40m  [0;32;40mLyrrical,[0;37;40m  [0;32;40mFLooD,[0;37;40m  [0;32;40mFreaky[0;37;40m  [0;32;40mStyley[0m
-       [35;40mFuct,[0;37;40m   [0;35;40mGamester,[0;37;40m   [0;35;40mGreater[0;37;40m  [0;35;40mEvil,[0;37;40m   [0;35;40mGWAR,[0;37;40m   [0;35;40mHalaster,[0;37;40m   [0;35;40mHephaestus[0m
-       [32;40mHexBug,[0;37;40m   [0;32;40mHunchback,[0;37;40m   [0;32;40mIll[0;37;40m  [0;32;40mTreatment,[0;37;40m   [0;32;40mIllusion[0;37;40m [0;32;40m²,[0;37;40m   [0;32;40mThe[0;37;40m [0;32;40mImmortal[0m
-       [35;40mInsidious,[0;37;40m  [0;35;40mJACKsBACK,[0;37;40m  [0;35;40mJayDee,[0;37;40m  [0;35;40mJello,[0;37;40m  [0;35;40mJournyman,[0;37;40m  [0;35;40mKtulu,[0;37;40m [0;35;40mLiquid-[0m
-       [32;40mMotion,[0;37;40m  [0;32;40mLord[0;37;40m [0;32;40mPegasus,[0;37;40m  [0;32;40mManifesto,[0;37;40m  [0;32;40mManix,[0;37;40m  [0;32;40mMessiah,[0;37;40m  [0;32;40mMidget[0;37;40m [0;32;40mFarmer[0m
-       [35;40mMr.[0;37;40m [0;35;40mCorruption,[0;37;40m   [0;35;40mNightmare,[0;37;40m    [0;35;40mNivenh,[0;37;40m   [0;35;40mPoint[0;37;40m  [0;35;40mBlank,[0;37;40m   [0;35;40mQuadZiLLA[0m
-       [32;40mScandal,[0;37;40m   [0;32;40mSchitosynth,[0;37;40m   [0;32;40mSharp[0;37;40m  [0;32;40mEdge,[0;37;40m    [0;32;40mShatter[0;37;40m  [0;32;40mProof,[0;37;40m   [0;32;40mShinobi[0m
-       [35;40mSinister[0;37;40m [0;35;40mPhantom,[0;37;40m [0;35;40mSludge,[0;37;40m [0;35;40mSpyder,[0;37;40m [0;35;40mVillboy,[0;37;40m [0;35;40mViper,[0;37;40m [0;35;40mYoung,[0;37;40m [0;35;40mZipperhead[0m
+       [35;40m        [0;37;40m [0;35;40m     [0;37;40m  [0;35;40m    [0;37;40m  [0;35;40m       [0;37;40m  [0;35;40m    [0;37;40m [0;35;40m    [0;37;40m  [0;35;40m       [0;37;40m  [0;35;40m      [0;37;40m  [0;35;40m        [0m
+       [32;40m   [0;37;40m [0;32;40m     [0;37;40m  [0;32;40m      [0;37;40m  [0;32;40m        [0;37;40m  [0;32;40m   [0;37;40m  [0;32;40m         [0;37;40m  [0;32;40m      [0;37;40m  [0;32;40m      [0;37;40m  [0;32;40m      [0m
+       [35;40m     [0;37;40m   [0;35;40m         [0;37;40m   [0;35;40m       [0;37;40m  [0;35;40m     [0;37;40m   [0;35;40m     [0;37;40m   [0;35;40m         [0;37;40m   [0;35;40m          [0m
+       [32;40m       [0;37;40m   [0;32;40m          [0;37;40m   [0;32;40m   [0;37;40m  [0;32;40m          [0;37;40m   [0;32;40m        [0;37;40m [0;32;40m  [0;37;40m   [0;32;40m   [0;37;40m [0;32;40m        [0m
+       [35;40m          [0;37;40m  [0;35;40m          [0;37;40m  [0;35;40m       [0;37;40m  [0;35;40m      [0;37;40m  [0;35;40m          [0;37;40m  [0;35;40m      [0;37;40m [0;35;40m       [0m
+       [32;40m       [0;37;40m  [0;32;40m    [0;37;40m [0;32;40m        [0;37;40m  [0;32;40m          [0;37;40m  [0;32;40m      [0;37;40m  [0;32;40m        [0;37;40m  [0;32;40m      [0;37;40m [0;32;40m      [0m
+       [35;40m   [0;37;40m [0;35;40m           [0;37;40m   [0;35;40m          [0;37;40m    [0;35;40m       [0;37;40m   [0;35;40m     [0;37;40m  [0;35;40m      [0;37;40m   [0;35;40m         [0m
+       [32;40m        [0;37;40m   [0;32;40m            [0;37;40m   [0;32;40m     [0;37;40m  [0;32;40m     [0;37;40m    [0;32;40m       [0;37;40m  [0;32;40m      [0;37;40m   [0;32;40m       [0m
+       [35;40m        [0;37;40m [0;35;40m        [0;37;40m [0;35;40m       [0;37;40m [0;35;40m       [0;37;40m [0;35;40m        [0;37;40m [0;35;40m      [0;37;40m [0;35;40m      [0;37;40m [0;35;40m          [0m
 
 [34;40m████████████████████████████████████████████████████████████████████████████████[0m
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 5e2a6d04fc9e23c0a77c343ec383b56c8826eb521bf31176617d647609e86f1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DA-ANT.ANS by Dracula (Forge Productions); released in forge_09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Forge Logo #1
 # SAUCE Author: Dracula
 # SAUCE Group: Forge Productions
@@ -59,6 +59,4 @@ Write-Host '
 [1;30;47m░░[0m██████[1;30;47m▓██████████████████▓[0m██[1;30;47m▒[0m█[1;30;47m▀▀▀█████████▀▀▀▀▀[0m███▄[33m ▀▓██████▓█ [0;37m▄██[0;1;30;47m▀▀██▀▀▀▀▀▀▀▀[0m
 [1;30;40m█████████████████████████████[0;33m                 [0;1;30m████████▄▄▄▄▄▄▄▄▄▄▄▄██████████████[0m
                                 [33m  [0m
-                               [33mF 0 R G 3 `96[0m
-                                  [33mpikbyda![0m
-                              [33mThatsdraculabitch[0m'
+                               [33mF 0 R G 3 `96[0m'

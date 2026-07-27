@@ -5,7 +5,7 @@
 # Source SHA-256: b24aeb917b0dc30ebee6e1e9bdfc8786f9d611c40885ab2b4a62d6d69d23653a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!-DH1!.ANS by cREEPiNG dEATH (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dIgitize hOrror #1
 # SAUCE Author: cREEPiNG dEATH
 # SAUCE Date: 19951027
@@ -49,7 +49,7 @@ Write-Host '
 [32m▀▀▀    ▄█▀▀ ▀▀[0m     [32m████   █████ █[0;1;32;42m▒▒[0;32m█  █████[0m        [32m█[0;1;32;42m▒▒[0;32m█  ▐█[0;1;32;42m▒▒[0;32m▌  ████[0m
                     [32m▀▀█▄■▄█▀▀ ▀▄▀▀▀█▄ █▀▀ ▀▀[0m     [32m▄█▀▀▀█▄  ▀▀██■▄█▀▀[0m
      [32m■▄▄▄[0;1;31;42m▒▒[0;32m▀[0m
-      [32m▐███▌[0m                           [1;30m.ansi.by.creeping.death.tatoo.95.[0m
+      [32m▐███▌[0m                           [1;30m                                 [0m
        [32m███[0m                  [32m▀[0;1;31;42m▒▒[0;32m█▄▄■▄▄   ▀[0;1;31;42m▒▒[0;32m█▄▄■▄▄[0m              [32m▀[0;1;31;42m▒▒[0;32m█▄▄■▄▄[0m
       [32m▐[0;1;32;42m▒▒[0;32m█■▄▄▄[0m        [32m▄▄■[0;1;31;42m▒▒[0;32m▄ ▐█[0;1;32;42m▒▒[0;32m▌  ███▄ ▐█[0;1;32;42m▒▒[0;32m▌  ███▄[0m     [32m▄▄■[0;1;31;42m▒▒[0;32m▄ ▐█[0;1;32;42m▒▒[0;32m▌  ███▄[0m
       [32m████  [0;1;31;42m▒▒[0;32m██▄  ▄███  ▐[0;1;32;42m▒▒[0;32m▌ ███  ▄██[0;1;32;42m▒▒[0;32m▌ ███  ▄██[0;1;32;42m▒▒[0;32m▌ ▄███  ▐[0;1;32;42m▒▒[0;32m▌ ███  ▄██[0;1;32;42m▒▒[0;32m▌[0m

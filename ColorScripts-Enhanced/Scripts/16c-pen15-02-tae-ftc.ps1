@@ -5,7 +5,7 @@
 # Source SHA-256: b7a8acbd78316073a4afeab3c45af08757c32e7af2dd22cafc0961cd8c5d7e3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TAE-FTC.ANS by taevore (pen15 art); released in pen15-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: taevore
 # SAUCE Group: pen15 art
 # SAUCE Date: 19980428
@@ -32,6 +32,4 @@ Write-Host '
 [37m    [0;1;37m▀[0m       [36m▄▀[0m   [36m▐▀[0;37m  [0;36m▐[0m     [36m▀▄[0;37m  [0;36m▀▌[0;37m [0;36m▄▄▀[0;37m  [0;36m▀[0;37m  [0;36m▀▀▐▌[0;37m [0;36m▀▀▌▐[0m     [36m▀▄[0;37m  [0;36m█[0;37m  [0;36m▀[0m   [36m▀▀▄▄[0m   [36m█[0;37m  [0;36m [0;37m [0;36m▐[0m
      [37m  [0m     [36m▐▌[0m          [36m▄▀▀▓▓▌[0;37m  [0;36m█▀ [0m   [36m▀▌[0m    [36m █[0m       [36m▄▀▀▓▓▌▐▌[0;37m [0;36m▀▌[0;37m [0;36m▄ [0m    [36m█[0;37m [0;36m▐▌[0m   [36m █[0m
             [36m ▀▀▄▄[0m      [36m▀▄▄[0;37m  [0;36m█[0;37m [0;36m ▐█ [0;37m [0;36m   ▐▓░[0m    [36m▓▌[0m     [36m▀▄▄[0;37m  [0;36m█[0;37m [0;36m█  ▐▓░[0;37m [0;36m▀▌▐▄▄▌[0;37m [0;36m▀[0m    [36m▐▌[0m
-                [36m▀▌[0m        [36m▀▀[0m   [36m▀▌    ▀▀▌[0m    [36m▀▀[0m   [36m [0m     [36m▀▀[0;37m [0;36m▐▌ ▀▀▌[0m   [36m▀▀[0m
-[1;30m   [0m
-  [1;30mpropaganda-ansi done by taevore, in 5mins.[0m'
+                [36m▀▌[0m        [36m▀▀[0m   [36m▀▌    ▀▀▌[0m    [36m▀▀[0m   [36m [0m     [36m▀▀[0;37m [0;36m▐▌ ▀▀▌[0m   [36m▀▀[0m'

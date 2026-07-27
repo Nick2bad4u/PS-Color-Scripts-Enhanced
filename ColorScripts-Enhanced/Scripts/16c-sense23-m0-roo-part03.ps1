@@ -5,7 +5,7 @@
 # Source SHA-256: 92cd1bb9f2a117451307ba74d86858ccd0cd25ed7c2b080ab04fdc32b029c665
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M0-ROO.ANS by M0lo (sense23); released in sense23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 79-116
 # Columns: 1-80
 
@@ -42,9 +42,9 @@ Write-Host '
                                [34m░[0m               [34m░[0m
                                [34m░[0m
 
-[37m [0;1;37mHe''s enormous.[0m
- [1mHe''s from the land down undah.[0m
- [1mHe''s got a gf, and if you look at her the wrong way, he''s going to kill you.[0m
- [1mHe''s my #1 Kangaroo. Ladys and Gentlemen, please welcome [0mAESTHETIC.[1m [0m  [1m\o/~[0m
+[37m [0;1;37m              [0m
+ [1m                              [0m
+ [1m                                                                            [0m
+ [1m                                                         [0m          [1m [0m  [1m    [0m
                                                                         [1m│[0m
                                                                        [1m/ \[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 90f33d33f7705ed0868ba4d37881cdc5c349d957e3ee671428d37798b7ecd9d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KA-VP.ANS by kargus (punc productions); released in punc1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: virtual paradox
 # SAUCE Author: kargus
 # SAUCE Group: punc productions
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
- [1;30manuthaansibykargus                                   [0m
+ [1;30m                                                     [0m
  [1;30m░▒[0m [1;30;47m▓▒▓[0;1;30;40m█[0;1;30;47m▓[0m  [1;30;47m▒▓▒▓[0;1;30;40m█[0;34m [0;1;30m▄█[0;1;30;47m▒▓[0;1;30;40m▄[0;34m [0;1;30;47m▓▓▒▓▒[0;1;30;40m▀▀[0;1;30;47m▒▓[0;1;30;40m▄[0m [1;30m▀▀[0;1;30;47m▓▓▒▓▒[0;1;30;40m▀▀[0m [1;30m▄[0;1;30;47m▓▓▒[0;1;30;40m▄[0m  [1;30m▄[0;1;30;47m▓▓▒[0;1;30;40m▄[0m [1;30m▄[0;1;30;47m▓▒▓▓[0;1;30;40m▀▀[0;1;30;47m▓▒▒▓[0;1;30;40m▄[0m [1;30m▄[0;1;30;47m▓▓▒[0;1;30;40m▄[0m  [1;30m▒▒[0m
  [1;30m▒▒[0m [1;30;47m▓▒▒▓▒[0m  [1;30;47m▓▒▒▒▓[0m [1;30;47m▒▓▒▒▓[0m [1;30;47m▒▓▒▒▓[0m  [1;30;47m▓▒▓▒[0m [34m [0;1;30;47m▒▒▓▒▒[0;34m  [0;37m [0;1;30;47m▒▓▒▒▓[0m  [1;30;47m▓▓▒▓▒[0m [1;30;47m▓▒▓▒▒[0m  [1;30;47m▒▓▒▒▒[0m [1;30;47m▓▒▒▓▓[0m  [1;30m░▒[0m
  [1;30m░▒[0m [1;30;47m▒▒▒▒▒[0m  [1;30;47m▒▒▒▒▒[0m [34m [0;37m▀▀▀[0;34m [0;37m [0;1;30;47m▒▒▒▒▒[0m [1;30m▄[0;1;30;47m▒▒[0;1;30;40m▀[0m   [1;30;47m▒▒▒▒▒[0;34m  [0;37m [0;1;30;47m▒▒▒▒▒[0m  [1;30;47m▒▒▒▒▒[0m [1;30;47m▒▒▒▒▒[0m [1;30m▄[0;1;30;47m▒▒▒▒▒[0m [1;30;47m▒▒▒▒▒[0m  [1;30m░░[0m
@@ -27,13 +27,7 @@ Write-Host '
         [35m■▀[0;37m [0;35m▄[0;34m  [0;37m  [0;1;35m▀[0;1;35;45m▓[0;1;35;40m▌[0;1;35;45m▓[0;1;35;40m▀[0m   [35m▐[0;1;35;45m░[0;35m▌ ▐[0;1;35;45m░[0;34m  [0;37m  [0;1;35m▀[0;34m [0;1;35;45m▓[0;1;35;40m▀[0m   [35m▐[0;1;35;45m░[0;35m▌ [0;1;35;45m▓[0;1;35;40m▀[0m   [35m▐[0;1;35;45m░[0;35m▌ [0;1;35m▐[0;1;35;45m▓[0;1;35;40m▌[0m   [1;35;45m░░[0m [1;35m▀[0;1;35;45m▓▒[0;35m■▀[0m       [1;30m  ░ [0m
  [1;30m░ [0m        [35m▐[0;1;35;45m▒[0;35m▄[0;1;35m▄[0;35m▄[0;1;35m■▀[0m [1;35m▀[0;1;35;45m▒[0;35m▄▄[0;1;35;45m░[0;35m▀[0;37m [0;35m▀■[0;34m [0;1;35;45m░[0;34m      [0;1;35m▀[0;1;35;45m▒[0;35m▄▄[0;1;35;45m░[0;35m▀[0;37m [0;35m▀■[0;1;35m▀[0;1;35;45m▒[0;35m▄▄[0;1;35;45m░[0;35m▀[0;37m [0;35m▀■[0;37m [0;1;35m▀[0;1;35;45m▒[0;35m▄▄[0;1;35;45m░[0;35m▀[0;34m [0;37m [0;35m▄▄[0;1;35m▀[0;1;35;45m▒[0;35m▄[0m          [1;30m░[0m
            [34m [0;1;35;45m▒[0;34m [0m                                              [34m [0;35m▄[0;1;35;45m░[0;35m▀[0m   [35m▀■[0m
-           [34m [0;1;35;45m░[0;34m [0m                   [1;37ms[0;1;33mo[0;1;30mp : karg[0;1;33mu[0;1;37ms[0m              [34m [0;35m▀[0;34m [0m
+           [34m [0;1;35;45m░[0;34m [0m                   [1;37m [0;1;33m [0;1;30m        [0;1;33m [0;1;37m [0m              [34m [0;35m▀[0;34m [0m
                                    [1;37m2[0;1;33m8[0;1;30m.8 b[0;1;33mp[0;1;37ms[0m
-                               [1mO[0;1;33mV[0;1;30mERKiLL BBS w[0;1;33mh[0;1;37mq[0m
-                                 [1m4[0;1;33mi[0;1;30m4.73i.2o[0;1;33mo[0;1;37m8[0m
-
-                                                                              [1;30m [0m
-
-
-
-           [34m [0m                 [34m [0m'
+                               [1m [0;1;33m [0;1;30m            [0;1;33m [0;1;37m [0m
+                                 [1m4[0;1;33mi[0;1;30m4.73i.2o[0;1;33mo[0;1;37m8[0m'

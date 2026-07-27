@@ -5,7 +5,7 @@
 # Source SHA-256: a4fd94a1689255e21e5454c8c9848d00d45232e0b83944d5b5051a36bf69e2b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NSP!GIVE.ANS by Nosperato (rage1096); released in rage1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -44,5 +44,5 @@ Write-Host '
 [1m          [0m▀█▓█▀[1m                                           [0m▀█[1;47m░[0m█▀
 [34m           [0;1;37m [0m▀[1m                                               [0m▀
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m                       [0m [1;30mAnsi By Nosperato Of Rage[0m
+[1;30m                       [0m [1;30m                         [0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

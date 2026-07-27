@@ -5,7 +5,7 @@
 # Source SHA-256: a8350e114eec981eadf3f285358cb9b2d6e451e5fcbe7a8cfea5b07d2a3e5bb0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPN-SEC7.ANS by Spawn (TEA); released in tea-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sector 7
 # SAUCE Author: Spawn
 # SAUCE Group: TEA
@@ -50,8 +50,8 @@ Write-Host '
 █[1;30m▄[0m▀[1;47m ░░░░░░░▒▓[0;1;40m▀[0;1;30;40m▄▄▄[0m▀[1;47m ░░░░░░░▒▓[0;1;40m▀[0;1;30;40m▄▄▄[0m▀[1;47m ░░░░░░░▒▓[0;1;40m▀[0;1;30;40m▄█[0m▐█[1;47m ░░░[0m▌▀[1;47m ░░░░░░░▒▓[0;1;40m▀[0;1;30;40m▄▄[0m▐█[1;47m ░░░[0m▌[1;30m█████[0m█
 [1m█[0m█[1;30;47m█[0;1;30;40m▄[0m▀▀▀▀▀▀▀▀[1;30m▄█████▄[0m▀▀▀▀▀▀▀▀[1;30m▄█████▄[0m▀▀▀▀▀▀▀▀[1;30m▄█[0;1;30;47m▓[0;1;30;40m▌[0m▀▀▀▀▀▀▀[1;30m▄▄[0m▀▀▀▀▀▀▀▀[1;30m▄██▄[0m▀▀▀▀▀▀▀[1;30m▐███[0;1;30;47m░[0;1;37;40m█[0m
 [1;37;40m▀▀▀▀[0m▀▀▀▀▀[1;30m▀▀[0m▀▀▀▀▀[1;30m▀[0m▀▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37m [0;1;30m▀[0;1;30;47m▓▒▒[0;1;30;40m▀[0;1;37;40m [0;1;30;40m▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀[0m▀▀▀[1m▀▀▀[0m
-[1;30m Radlooking fonts and toon by Spawn[0m [1;30mfor the re-opening Sector 7.[0m [1;30mIf you want an[0m
-[1;30m   ansi done by moi send mail to 4ntbeatm@ava.taby.se or catch me in a dream.[0m
-[1;30m Hi-Hoes goes to Dynamic (and my dear TEA of course).Also i''d like to wish the[0m
-                      [1;30mre-joined STiLE best-o-luck[0m
+[1;30m                                   [0m [1;30m                            [0m [1;30m              [0m
+[1;30m                                                                             [0m
+[1;30m                                                                              [0m
+                      [1;30m                           [0m
 [1;30m■▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄▄[1m▄▄▄[0m▄▄▄▄[1;30m▄[0m▄▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄[1m▄[0m▄▄▄▄[1;30m▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄■[0m'

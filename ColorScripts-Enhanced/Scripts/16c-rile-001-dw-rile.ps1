@@ -5,7 +5,7 @@
 # Source SHA-256: b796bc892b61f657036682dea9fca38389e7a617236601d740f323013033b87e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DW-RILE.ANS by drynwhyl (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: drynwhyl as a guest!..
 # SAUCE Author: drynwhyl
 # SAUCE Group: RILE
@@ -30,9 +30,4 @@ Write-Host '
           [36m░[0;1;30m ▐▀[0;34m  [0;1;30m▐[0m [36m▐[0;1;36;46m░░░[0;36m█▄[0;37m [0;1;30;45m▄[0;1;35;45m▒░[0;1;30;45m▀[0;1;30;40m▄[0;34m [0;1;30m▀[0;34m  [0;37m [0;36m ░[0;34m  [0;1;30m▀[0;1;30;45m▄ ░░  [0;1;35;45m░░▒░[0;1;30;45m▄[0;1;30;40m▀[0;1;36;40m [0;36m▀[0;1;36m▒[0;1;36;46m▓▄[0;36m▄[0;1;30m ▀▀[0;1;30;45m▄[0;1;35;45m░░[0;1;30;45m▄[0;1;30;40m▀▀▀[0;34m [0;36m▄▄[0m
                   [36m▐▀▀[0m     [1;30m▀[0;1;30;45m▄ ░▓[0;1;30;40m▓░░[0m  [36m ▄   [0;1;30m ▀[0;35m▀▀▀▀▀[0;1;30m▀[0;34m  [0;36m▄▄[0;1;37;46m▄█[0;1;36;46m▀[0;36m▀▀▌[0m   [36m        ▀▌ ▄▌[0m
             [36m        drynwhyl[0;37m [0;1;30m▀▀▀[0;34m [0m       [36m▀▀▀[0m   [36m▄▄▄  ▐▀[0;1;37m░░[0m    [36m▀[0m     [36m    [0m    [36m▀[0m
-                            [37m           [0m                      [36m [0;1;36m▀[0;36m▀[0m   [1;36m▄[0;36m▄▄ ▀[0m
-                                [36m"Trapped in time[0m
-                          [36mA [0;1;36mmiracle[0;36m of hope and change[0m
-                       [36mA swirling mass, no [0;1;33mmercy[0;36m from now[0m
-                       [36mIf the [0;1;33mtruth [0;36mhurts prepare for pain[0m
-                        [36m... Do you think we''re [0;1;36mforever[0;36m?"[0m'
+                            [37m           [0m                      [36m [0;1;36m▀[0;36m▀[0m   [1;36m▄[0;36m▄▄ ▀[0m'

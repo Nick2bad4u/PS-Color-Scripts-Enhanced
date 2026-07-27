@@ -5,7 +5,7 @@
 # Source SHA-256: 4eb52fbf53e1fd4ca2c4a6e24680937119ec9fa0629e2cfe80a39fd617110b9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: rl-s7.ans by rawlock (gen-02); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sectorseven
 # SAUCE Author: rawlock
 # SAUCE Date: 19990110
@@ -30,7 +30,5 @@ Write-Host '
 [35m░[0;30;45m▓[0;35;40m▀▀▀█▄▄▄██▀▀[0m         [35m▀▀▀░[0;30;45m▓[0;1;37;40m  [0m      [35m▀▀[0m       [1;37m   [0;35m▀▀▀▀░[0;30;45m▓[0;1;37;40m [0m     [35m▀▀[0m    [35m▀▀▀▀▀▀▀[0;1;37m  [0;30;45m▓[0;35;40m████[0m
 
           [31m [0;1;30m┌──────[0m #1 +46 (0)63 GETIT   [1;30m-[0m   #2 +46 (0)63 GETIT[1;30m ─────┐[0m
-     [1;37m [0m [1;30m░▒▓█│[0;31m│ [0;37m [0;1;37mIRC MAFiA [0mWorld HeadQuarters [1;30m-[0m  [1;37mGENUiNE [0mHeadQuarter[31m │[0;1;30m│█▓▒░[0m
-     [1;37m  [0m    [1;30m└─────────[0m SysOp [1;37mrAwlOck[0m [1;30m- [0mCoSysOp [1;37mdA bONEhEAD[0;1;30m ──────────┘[0m
-
-[1;37m  [0m              Ansi[1;37m [0mby[1;37m rAwlOck [0mof[1;37m GENUiNE [0;1;30m([0mtm[1;30m)[0;1;37m [0min[1;37m [0mDecember[1;37m [0m1998[0m'
+     [1;37m [0m [1;30m░▒▓█│[0;31m│ [0;37m [0;1;37m          [0m                   [1;30m [0m  [1;37m        [0m           [31m │[0;1;30m│█▓▒░[0m
+     [1;37m  [0m    [1;30m└─────────[0m SysOp [1;37mrAwlOck[0m [1;30m- [0mCoSysOp [1;37mdA bONEhEAD[0;1;30m ──────────┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4a24c1e4afa6e77d0c391588e54f60bf0506fdc430b71ac7f38b70c53847717b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GNOM.ANS by Protoplasta + Simonking (thelo0p); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gnom for radman
 # SAUCE Author: ppa! & sK!
 # SAUCE Group: thelo0p
@@ -43,7 +43,4 @@ Write-Host '
 [1;31;41m░░░░[0;31m▓▓▓▓▓▓▓▓▓█▄[0;32m  ▀█[0;1;30;42m░░░▒▒▒▒▒[0;1;30;40m░░░░[0m
 [31m▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒[0m   [32m▀▀[0;1;30;42m░░░░░[0m
 [31m▒▒▒▒░░░░░░░░░░░░░░░░ [0;32m  ░░░░[0m
-[31m░░░░[0m
-
-[1;30mpic - protoplasta/kwadrat[0m
-[1;30mlogo - simonking/thelo0p[0m'
+[31m░░░░[0m'

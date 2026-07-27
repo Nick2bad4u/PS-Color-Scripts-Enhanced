@@ -5,7 +5,7 @@
 # Source SHA-256: a7926711f327520eea96ba98f73711bf4690582f67803ec049f32775a978d981
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-TGCR.ANS by Paranormal Intensity (ViViD); released in vivid03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Great Canadian Rangers
 # SAUCE Author: Paranormal Intensity
 # SAUCE Group: ViViD
@@ -59,8 +59,4 @@ Write-Host '
 [33m██████[0;1;36m▐████▌[0;32m▓[0;1;32;42m▀[0;32m▀░[0;37m [0;32m▌▒[0;1;32;42m▀▒[0;1;36;40m▐██████████████▀[0;31m▄[0;34m▀[0;1;34;44m▀▀▀▀▀▀▀[0;34m▀[0;37m [0;34m▀[0;1;34;44m▀▀▀▀▀▀[0;34m▀[0;31m▄[0;1;36m▀██████████████████████[0m
 [33m█▀▀▀███[0;1;36m▐████▄▄██[0;32m▐[0;1;36m ▄▄▄█████████████▀[0;31m▄[0;1;31;41m▄█▄[0;31m▄▄▄▄▄▄▄[0;1;31;41m▄[0;31m▌▐▄▄▄▄▄▄[0;1;31;41m▄█▄[0;31m▄[0;1;36m▀████████████████████[0m
 [1;30m▄█▒█▌[0;33m██▄[0;37m [0;1;30m▄[0m [1;36m██▀█▌[0;32m▓[0;37m [0;1;36m▀▀█▀█▀▀▀▀▀▀▀▀▀▀[0m [31m▀[0;1;31;41m▀▀▀▀▀▀▀▀▀▀▀▀[0;31m▀▀[0;1;31;41m▀▀▀▀▀▀▀▀▀▀[0;31m▀[0;1;36m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30m▓███░▄▄▄▄█▓▄[0m [32m█▄█▓▀█▀▄█▄▓▀▄█▀▄█▓▀▄▓▄▓▄▀█▓▄▓█▄▓█▀▄█▓▄█▓▀▄█▀▄▓█▀▄█▓▀▄█▓▀▄▓█▀▄█▓▀▄█▀[0m
-    [1;30m [0m
-                               [1;30mThE GrEAT CaNaDiAN RaNGeR[0m
-           [1;30mSysop:[0;35m [0;1;37mMarauder[0m
-        [1;30mCo-Sysop:[0m'
+[1;30m▓███░▄▄▄▄█▓▄[0m [32m█▄█▓▀█▀▄█▄▓▀▄█▀▄█▓▀▄▓▄▓▄▀█▓▄▓█▄▓█▀▄█▓▄█▓▀▄█▀▄▓█▀▄█▓▀▄█▓▀▄▓█▀▄█▓▀▄█▀[0m'

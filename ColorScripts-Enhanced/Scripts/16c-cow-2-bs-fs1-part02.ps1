@@ -5,7 +5,7 @@
 # Source SHA-256: 0607c1e790f186a7684a845fdba5d716a139de82bd8a373a2ed20833cea2d6c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-FS1.ANS by burps (cow); released in cow-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: freak scene
 # SAUCE Author: burps
 # SAUCE Group: cow
@@ -47,8 +47,6 @@ Write-Host '
 [1;30;40m         [0;1;30;47m▓[0;1;30;40m▌ ░          ░     ■▀▀▀   ▀                ▀▀■           ▀▓▌          [0m
 [1;30;40m          ▀▄                [0;36mf r e a k   s c e n e              [0;1;30m░   ▄▀[0;1;30;40m           [0m
 [1;30;40m           ▐▌                                                     ▐▌            [0m
-[1;30;40m          ▄▀     [0;1;32;40m.[0;36m907[0;1;32m.[0;36mxxx[0;1;32m.[0;36mxxxx[0;1;32m.[0;36mobv/tOo[0;1;32m.[0;36millness!obv/2mods[0;1;32m.[0;36mhftb[0;1;32m!     [0;1;30m▀▄[0;1;30;40m           [0m
-[1;30;40m         ▐▌           [0;1;32;40m.[0;36mimpact[0;1;32m.[0;36mosn[0;1;32m.[0;36mdead[0;1;32m.[0;36mrad[0;1;32m.[0;36mevil[0;1;32m.[0;36minsanity[0;1;32m.           [0;1;30m▐▌[0;1;30;40m          [0m
-[1;30;40m          ▀■                                                       ■▀           [0m
-[1;30;40m                                                                                [0m
-[1;30;40m                   [0;1;32;40m.[0mansi raped by burps under the cow label[1;32m.[0;1;32;40m                    [0m'
+[1;30;40m          ▄▀     [0;1;32;40m [0;36m   [0;1;32m [0;36m   [0;1;32m [0;36m    [0;1;32m [0;36m       [0;1;32m [0;36m                 [0;1;32m [0;36m    [0;1;32m      [0;1;30m▀▄[0;1;30;40m           [0m
+[1;30;40m         ▐▌           [0;1;32;40m [0;36m      [0;1;32m [0;36m   [0;1;32m [0;36m    [0;1;32m [0;36m   [0;1;32m [0;36m    [0;1;32m [0;36m        [0;1;32m            [0;1;30m▐▌[0;1;30;40m          [0m
+[1;30;40m          ▀■                                                       ■▀           [0m'

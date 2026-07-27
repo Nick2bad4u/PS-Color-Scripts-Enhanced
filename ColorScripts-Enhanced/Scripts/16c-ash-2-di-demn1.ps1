@@ -5,7 +5,7 @@
 # Source SHA-256: b5d82b45080a7858079d5afb3c84d0f5df1825bcba32b6767e3af8ea3bbf7060
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DI-DEMN1.ANS by divine intervention (ash); released in ash-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: demonic abyss font
 # SAUCE Author: divine intervention
 # SAUCE Group: ash
@@ -31,7 +31,7 @@ Write-Host '
 [1;30;40m▓[0;1;30;46m  v▐di.ash.1[0;1;30;40m▓[0;1;30;46m996[0;1;30;40m████████████████████[0;1;30;46m▀!  [0;1;30;40m▓▄ couriers.. call about req. artwrk. ▓[0m
 [1;30;40m▒▓[0;1;30;46m ■░▀▀▀▀▀▀▀▀■▀▀▀■░▀       ▀░▀      ▀░■ [0;1;30;40m▓▒▓▄[0m           [1;30m..[0;1;37mg[0mr[1;30mee[0mt[1mz[0;1;30m..[0m             [1;30m▓▒[0m
 [1;30m░▒▓[0;1;30;46m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;40m▓▒░▒▓▄ natas, total, hd, mb, cyth, mb ▓▒░[0m
-            [1;30m░di-demn1.ans░[0m                  [1;30m▓▄ all ash memb''s, cyst, iw, bm ▓▒░[0m
+            [1;30m░            ░[0m                  [1;30m▓▄                              ▓▒░[0m
                                              [1;30m▀▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▒░[0m
 
 [30;44m▀                        ▀        [0;37;44m▀                                            [0;30;44m▀[0m
@@ -46,10 +46,6 @@ Write-Host '
 [34;44m [0;1;30;44m▀▀▀▀▀▀▀▀▀▀▀▀█[0;36;44ma[0;1;30;44m█▀▀▀▀▀▀▀█[0;36;44mb[0;1;30;44m█▀▀▀▀▀▀▀█[0;36;44my[0;1;30;44m█▀▀▀▀▀▀▀█[0;36;44ms[0;1;30;44m█▀▀▀▀▀▀▀█[0;36;44ms[0;1;30;44m█▀▀▀▀▀▀█[0;1;30;41m▄[0;1;31;41m▀▀░▒▌[0;1;30;41m▄[0;1;30;44m█▀▀▀▀▀▀▀▀[0;34m█[0m
 [34;44m     [0;37;44m▀                       [0;30;44m▄                             [0;37;44m▀   [0;1;30;44m▀█[0;1;30;41m▄▄▄[0;1;30;44m█▀    [0;30;44m▀     [0m
 [34;40m█[0;34;44m [0;37;44m▄ [0;1;37;44m▄█▄ [0;44m▄             [0;30;44m%divine%intervention%ash%1995%    [0;37;44m▄ [0;1;37;44m▄█▄ [0;44m▄              [0;34;40m█[0;34;44m  [0m
-[34;44m [0;34;40m█[0;34;44m   [0;1;37;44m▀                        [0;30;44m%s:\cyberlash%               [0;1;37;44m▀                    [0m
+[34;44m [0;34;40m█[0;34;44m   [0;1;37;44m▀                        [0;30;44m                             [0;1;37;44m▀                    [0m
 [30;44m░    [0;37;44m▀    [0;30;44m▀          ▀                          ▄          [0;37;44m▀       [0;30;44m▀            [0m
-[34;40m▀[0;34;44m                                                                              [0;34;40m▀[0m
-
-                        [34;40m..[0;36;40mdemonic[0;34;40m.[0;36;40mabyss[0;34;40m..[0;36;40m4i4[0;34;40m.[0;36;40m242[0;34;40m.[0;36;40mo727[0;34;40m..[0m
-                               [34;40m..[0;36;40ms[0;34;40m:\[0;36;40mcyberlash[0;34;40m..[0m
-                               [34;40m..[0;36;40mco[0;34;40m:\[0;36;40mcyst[0;34;40m.[0;36;40mcia[0;34;40m..[0m'
+[34;40m▀[0;34;44m                                                                              [0;34;40m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 054c57ab36f4d02a052475cbcd98a2b42fec08a5a342f98e29aa65f45e3f512a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TB-TJY.ANS by Turbine (RioT Productions); released in riot0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Turbine
 # SAUCE Group: RioT Productions
 # SAUCE Date: 19970802
@@ -39,6 +39,4 @@ Write-Host '
 [37m [0;36m▓▀█▀█▀[0;37m  [0;1;37m▀█ [0;36m▄██▄▄▄█▄[0;37m  [0;36m▄▄[0;37m [0;36m▄▄▄[0;37m [0;36m▄[0;37m [0;1;37m██▀[0m [33;47m▓[0;37;40m [0;36;40m█▄[0;33;47m▓[0;36;40m▀▄[0;37;40m [0;1;37;40m▀██[0m [36m▀[0;33;47m▓[0;36;40m▄[0;37;40m [0;1;37;40m███[0m  [33m▀[0;37m [0;33m▀▀▀[0;37m  [0;1;37;47m▓[0;1;37;40m██▀[0m [33m▄▀▄▄▀[0m
      [36m█▀▀▀▄▄▄▄[0;1;37m [0;36m█▀▄█[0;37m [0;36m▀[0;36;47m▓[0;36;40m▄[0;37;40m [0;36;40m███▄██▄▄▄▄▄▀▄▄▀▀█▄▄█▄▄[0;37;40m [0;36;40m▄[0;33;47m▓[0;36;40m▄▄[0;37;40m [0;1;37;40m██████████████▀[0m [33m▀[0m
 
-[1;30m---------------------------rip-tear-shred---------------------------------------[0m
-
-[1;30mThis is for The Junk Yard, RioT''s Finland hq. Greetz to Abnormal, the sop.[0m'
+[1;30m---------------------------rip-tear-shred---------------------------------------[0m'

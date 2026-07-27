@@ -5,7 +5,7 @@
 # Source SHA-256: 4f5aaa984fd3c17c1bf04d2c2d0ba8ea3d22ab20c28b17d7c437a5dc3dda43f3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VR-ANGR2.ANS by visual reality (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: anger font #2.
 # SAUCE Author: visual reality
 # SAUCE Group: anger
@@ -13,8 +13,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mhers another one from visual reality..[anger!.dtc.dmn.lspd.lords]..[0m
-                          [1;30m...sup wit dat g?...[0m
+[1;30m                                                                   [0m
+                          [1;30m                    [0m
 
 
        [1;30m▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄ ▄▄▄▄[0m

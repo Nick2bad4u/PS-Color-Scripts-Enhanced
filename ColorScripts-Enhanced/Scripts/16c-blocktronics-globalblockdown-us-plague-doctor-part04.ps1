@@ -5,7 +5,7 @@
 # Source SHA-256: 5cfd80e58cded59de3b576b3016b9f5293e4928847ad644ad986218ce9f760c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-plague-doctor.ans by Whazzit + Alpha King + Avenging Angel + Ober + Tainted (blocktronics); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: doctor doctor!
 # SAUCE Author: ak wz avg ob tnt
 # SAUCE Group: blocktronics
@@ -63,6 +63,5 @@ Write-Host '
        [1;30m■[0m                             [1;30m■[0m        [1;31m■[0m            [1;30m░░░░░[0m [1;31m▀■  [0;1;30m▄▄█[0m [1;31m▀▀▄▄[0;1;30m▀▀▄[0m
                                                                  [1;30m▀▀██▄ ▄▌    [0;1;31m▀[0m
                                                                     [1;30m▀██ ▄[0m
-    [1;30mBL0CKDOWN - BLOCKTRONICS[0m [1;30m2020[0m [1;30m-[0m [1;30mJOINTHAPPYTIMES[0m [1;30mWITH:[0m            [1;30m▐█[0m
-[1;30m    WHAZZUP [0mWHAZZIT[1;30m,[0m OBER [1;30mONE[0m [1;30mKANOBER,[0m ALPHAKING[1;30mAROO, [0mTAINTEDX[1;30m,      ▐▀[0m
-[1;30m    S[0mAV[1;30mA[0mG[1;30mE,[0m'
+    [1;30m                        [0m [1;30m    [0m [1;30m [0m [1;30m               [0m [1;30m     [0m            [1;30m▐█[0m
+[1;30m            [0m       [1;30m [0m      [1;30m   [0m [1;30m        [0m          [1;30m      [0m        [1;30m       ▐▀[0m'

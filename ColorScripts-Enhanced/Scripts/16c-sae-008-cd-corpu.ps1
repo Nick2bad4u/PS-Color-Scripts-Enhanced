@@ -5,7 +5,7 @@
 # Source SHA-256: 847a0dcf0df515c0ff210e96756c7e57de41315c3358577b4246379e558dec33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-CORPU.ANS by Cd_ (sae-008); released in sae-008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -29,8 +29,8 @@ Write-Host '
 [33m,[0m    [1;33m   . `  .   [0;1;30m░[0m        [1;33m,%[0;1;33;43m6&[0;1;33;40m²'' [0;33m/[0;1;33m   [0;33m*[0m
      [33m .[0m        [33m.[0m         [33m.²''[0;37m   [0;33m/[0m    [1;33;43m.[0m
                [33m.[0m        [33m,[0m    [1;33m*[0m
-            [1;33m,g[0;33m''[0m           [33mc[0;1;30mORPU[0mS [1;30m-¬[0m     [1;33m░[0m
-      [1;33m  ,g[0;1;33;43mS[0;1;33;40m²'' [0m   [1;30m░[0m     [33m.[0;37m  [0;1;33mm[0;32mO[0;1;30mTALE[0m
+            [1;33m  [0;33m [0m           [33m [0;1;30m    [0m  [1;30m  [0m     [1;33m░[0m
+      [1;33m    [0;1;33;43m [0;1;33;40m   [0m   [1;30m░[0m     [33m [0;37m  [0;1;33m [0;32m [0;1;30m    [0m
       [1;33m  ²6,[0m
           [1;33m"[0;1;33;43mg[0;1;33;40m  [0m             [1;33m.[0m
             [33m''[0;1;33m [0m             [33m|[0m      [33m  [0;1;33m  [0m  [33m.[0m
@@ -48,11 +48,11 @@ Write-Host '
 
 --------------------------------------
 
-   Whatever. some Tool inspired art.
+                                    
 
-        Tool is a great band.
-        have a listen :)
+                             
+                        
 
-        wopiljo.. and no vga :]
+                               
 
                     -cD_[0m'

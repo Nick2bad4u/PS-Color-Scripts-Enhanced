@@ -5,7 +5,7 @@
 # Source SHA-256: 095c2dc5335f7ba848fe17c11c5b0072b205f599591ca5f78422e8856471296a
 # Source License: FAL-1.3
 # Source Attribution: BLOCKTRONICS3.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 29-56
 # Columns: 1-80
 
@@ -36,5 +36,4 @@ Write-Host '
 [37;40m  [0;31m████▄[0;1;30m▀▀▀▀▀▀[0;37m [0;31m█▓▓▓▄▄[0;1;30m▀▀▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;31m█▄[0;1;30m▀▀▄▄▄▄▄▄▄▄▄▄▀▀[0;31m▄[0;37m [0;1;30m▄▄▄▄▄▄[0;37m [0;31m███████[0;37m [0;1;30m▄▄▄▄▄▄[0;37m [0;31m█[0m
 [37;40m  [0;31m███████████▓▓▒▒▒▓▓█▄▄▄▄▄▄▄▄▄▄▄▄▄███▄▄▄▄▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄▄██▓▓▓██▄▄▄▄▄▄▄▄█[0m
 [37;40m  [0;31m█████████▓▓▓▒▒░░▒▓▓▓▓██████████████▓▒░▒▓██████████████████▓▓▓▓▓▓█▓▓▓▓████[0m
-[37;40m  [0;31m██████████▓▒▒░░░░▒▒▓▓▓███████████▓▓▒░ ░▒▓▓▓█████████▓▓▓▓▓▓███████████▓▓██[0m
-[31m [0m'
+[37;40m  [0;31m██████████▓▒▒░░░░▒▒▓▓▓███████████▓▓▒░ ░▒▓▓▓█████████▓▓▓▓▓▓███████████▓▓██[0m'

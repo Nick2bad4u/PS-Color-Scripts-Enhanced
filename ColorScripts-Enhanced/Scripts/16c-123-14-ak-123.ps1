@@ -5,7 +5,7 @@
 # Source SHA-256: 68e5249d90acaa12908e1b6f2b71d8c3f0f7846b6f83f50dd204fe7a2b4485e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-123.ANS by Abstrakt (123-14); released in 123-14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -33,10 +33,4 @@ Write-Host '
  j[1mÑÑ[0m__[1;30m | [0;34m [0;37m  [0;36m$[0;1;36m$$$[0;36m.[0;1;36m_____[0;36m_l[0;1;36mlQ$[0;36ml[0;1;30m  [0mNN[1mNÑ[0mÑ [1mÑ[0mÑ Ñ  [36ml[0;1;36m$$$$[0;1;37m$[0;1;36m$[0;36m:[0;37m  [0;36ml[0;1;36m$$$$[0;36m:_[0;1;36m______[0;36m__[0;37m [0;36m``[0;1;36m''''[0;36m^`[0;37m.[0;1;37m  [0m`Y
 j[1mÑÑÑÑ[0mÑ[1;30m └ [0;1;37mÑ[0mk.[36m`*[0;1;36m$$$$$$$$$$$$$[0;36ml[0;37m  [0;1;30m-──---─-──[0m  [36ml[0;1;36m$$$[0;1;37m$$[0;1;36m$[0;36m:[0;37m  [0;36m└[0;1;36m$$$$$$$$$$$$$$$[0;36mS#[0;37m ┌#[0;1;37mÑÑ[0mb.[1;30m ┐[0m
 [1mÑÑÑ[0mÑ7`[1;30m [0m.j[1mÑÑ[0mÑ. [36m`''└[0;1;36m*⌂SQ$$$$$$[0;36ml[0;37m  Ñ[0;1;37mÑÑÑÑÑÑÑÑ[0mÑ  [36ml[0;1;36m$$$$$$[0;36m:[0;37m b [0;36m`''²[0;1;36mQ$$$$$$$$$$$$[0;36m$[0;37m lÑ[0;1;37mÑÑÑ[0mÑ [1;30m|[0m
-[1mÑ[0mÑ7`[1;30m [0m.jÑ[1mÑÑÑÑÑÑ[0mS#%s┐,.  [36m`[0;1;36m``[0;36m``[0;37m _Ñ[0;1;37mÑÑÑÑÑÑÑÑ[0mÑ_ [36m``[0;1;36m````[0;36m`[0;37m  Ñ[0;1;37mÑ[0mSs. [36m''`[0;1;36m````````[0;36m```[0;37m QQQ[0;1;37mÑÑ[0mÑ ▼
-
-
-  [1;30mlistening to mobb deep, kool keith and murs.[0m
-
-
-                                 [1;30mreqz to [0;1;37mscottl@telus.net[0m'
+[1m [0m   [1;30m [0m   [1m      [0m    ┐    [36m [0;1;36m  [0;36m  [0;37m   [0;1;37m        [0m   [36m  [0;1;36m    [0;36m [0;37m   [0;1;37m [0m    [36m  [0;1;36m        [0;36m   [0;37m    [0;1;37m  [0m  ▼[0m'

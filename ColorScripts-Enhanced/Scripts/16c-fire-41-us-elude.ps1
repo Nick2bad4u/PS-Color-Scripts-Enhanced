@@ -5,7 +5,7 @@
 # Source SHA-256: ce49a0a1e13277df82511e626a28b7f9f001b03396254091401869356330b44f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ELUDE.ANS by Savage + Cleaner (fire graphics); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: elude
 # SAUCE Author: cleaner + savage
 # SAUCE Group: fire graphics
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mavg(fire)[0m                                                               [1;30mcl(fire)[0m
+[1;30m         [0m                                                               [1;30m        [0m
 
 [1;30m ▄▄▄▄■·[0;1;37m   [0;1;30m▄▄[0;1;37m       ░ [0;1;30m▄▄▄▄■░░░[0;1;37m     ░ [0;1;30m▄▄▄▄[0;1;37m   [0;1;30m▄▄[0m▄▄[1m▄▄■▒▒     [0;1;30m▄■▄▄[0;1;37m [0;1;30m░░░[0;1;37m  [0;1;30m■ ▄▄▄[0;1;37m    [0;1;30m▄▄▄[0m
 ▓▓▓[30;47m░░[0;37;40m▓▓[0;30;47m░[0;1;37;40m▄■▀▀▀▄▒▒[0m▓[30;47m░[0;1;37;40m▓[0m·[1;47m▄▄█[0;1;40m▓▓[0m▓▓▓[30;47m░[0;1;37;40m░░░░▓[0m·[1;47m██[0;1;40m█▓[0m▓▓[1m▄▀▄▄▄▄▄▄▄[0m▄▀■▄[1m░░[0m▓▓▒[30;47m▒[0;37;40m▓▓▓▓[0;30;47m░[0;1;37;40m░░░▄■[0m▀▀[1m▀▄[0m▓▓▓[30;47m░░[0;37;40m▓[0m

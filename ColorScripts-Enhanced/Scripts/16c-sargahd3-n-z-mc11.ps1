@@ -5,7 +5,7 @@
 # Source SHA-256: 8c778a78c41ed9f86cf747d4b7f85bea3fd4cc44e9c1603cbc0df0b5869c31e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!Z-MC11.ANS by noize (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 5-minute-eye
 # SAUCE Author: noize
 # SAUCE Group: fbk.sargahd
@@ -39,5 +39,4 @@ Write-Host '
 
 
 
---------------------------------------------------------------------------------
-100% original 5 minutes eye. i never draw an eye without any help. so it rules.[0m'
+--------------------------------------------------------------------------------[0m'

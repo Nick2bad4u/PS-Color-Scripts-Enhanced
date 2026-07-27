@@ -5,7 +5,7 @@
 # Source SHA-256: 0310808fd585111fcef7b9f2eaaa924511b2efc37ded94f39dbb9efb83e37978
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%MD.ANS by big y3llow man (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: plf info generator intro
 # SAUCE Author: big y3llow man
 # SAUCE Group: pHOBIA@!
@@ -40,6 +40,4 @@ Write-Host '
 [1;30m▀█[0;1;30;47m▓▓[0m [1;31;41m [0;31m▄ ▀█[0;1;31m▒[0;31m█▄▄▄▄▄▄▄▄█▌[0;1;30m ▄████[0m  [1;30m█▌[0;31m▐[0;1;31;41m▀▀[0;31m▌[0;37m [0;31m█[0;1;31;41m▐█[0;31m█▌[0;37m [0;31m█▌[0;1;30m▐██▄[0;30;47m██[0;33;40m▀▀▀▀▀▀▀[0;1;30;40m▀[0;30;47m███████[0;1;30;40m█████[0;33m████████[0m
 [31m▄[0;1;30m █▌[0;31m▐[0;1;31;41m▐█[0;31m▌ ▐█[0;1;31;41m▐▄▄▄ ▐▄▄█▌[0;31m [0;1;30m▐██[0;1;30;47m█[0;30;47m▒▒▓[0;37;40m [0;1;30;40m▐█[0m [31m▀▀▄██[0;1;31;41m██▀[0;31m█[0;37m   [0;1;30;47m▓▓▓[0;1;30;40m███▄▄▄▄▄[0;31m    ▀▀█▄ [0;30;47m█[0;33;40m [0;1;30;40m█████[0;33m██████[0;1;30;43m░[0;30;47m█[0m
 [1;31;41m▀[0;31m▌[0;1;30m▐█[0m [31m▀▀ ▄[0;1;31;41mbym▀▀▀▀█[0;1;31;47m▓▓[0;1;31;41m▀[0;31m█▌[0;37m [0;1;30m▀▀███[0;1;30;47m▓▓[0;1;30;40m█▀[0m [31m▀▀[0;37m [0;1;31m▒[0;1;31;41m ▀[0;31m▀▀[0;37m    [0;1;30m▐[0;30;47m▒▒[0;1;30;40m█▀[0m  [1;30m▀▀▀█[0;1;30;47m▓▓[0;1;30;40m [0;31m▀██[0;1;31;41m▄█[0;31m█[0;30;47m██[0;33;40m [0;1;30;40m█████[0;33m██████ [0m
-[31m------------------------------------------------------------------------------- [0m
-[37m  for the info generator of plf music division. whatch out for music disk III[0m
-[37m  soon on out!![0m'
+[31m------------------------------------------------------------------------------- [0m'

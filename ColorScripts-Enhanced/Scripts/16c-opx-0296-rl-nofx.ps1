@@ -5,7 +5,7 @@
 # Source SHA-256: 55399e3d934136d8f1afcb9fdcd7ba91f3d782ba009e0113b6732a9f162d882b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-NOFX!.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nofx
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -27,9 +27,4 @@ Write-Host '
    [1;36;46m    [0;36m██▓▓▒░ [0;1;34;44m▒[0;1;34;40m█[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m▒[0m [1m [0;1;34;44m▒[0;1;34;40m█[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m▒[0m [1;34;44m▒█[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m▒[0;1;34;40m [0;1;30;40m [0;1;34;44m▒[0;1;34;40m█[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m▒[0m [1;34;44m▒█[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m▓[0m [1m [0;1;34;44m▒[0;1;34;40m█[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m▓[0m [1;34;44m▓[0;1;34;40m█[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m▒[0;1;34;40m [0;1;30;40m [0;1;34;44m▒[0;1;34;40m█[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m▒[0m [36m░▒▓▓██████ [0;1;30m [0m
   [1;30m ▄▄▄▄▄▄▄▄▄▄[0m [1;34;44m▒[0;1;34;40m███[0;1;34;44m▒[0m [1m [0;1;34;44m▒[0;1;34;40m███[0;1;34;44m░[0m [1;34;44m▒[0;1;34;40m███[0;1;34;44m░[0;1;34;40m [0;1;30;40m [0;1;34;44m▒[0;1;34;40m███[0;1;34;44m▒[0m [1;34;44m░[0;1;34;40m█[0;1;34;46m██[0;1;34;44m▓[0m [1m [0;1;34;44m▒[0;1;34;40m██[0;1;34;44m█▒[0m [1;34;44m▒[0;1;34;40m███[0;1;34;44m░[0;1;34;40m [0;1;30;40m [0;1;34;44m░[0;1;34;40m███[0;1;34;44m░[0m [1;30m▄▄▄▄▄▄▄▄▄▄[0m [1;30m [0m
       [1;30mrawlock[0;1;37m [0;1;34;44m░[0;1;34;40m██[0;1;34;44m█░[0m [1m [0;1;34;44m░[0;1;34;40m███[0;1;34;44m░[0;1;34;40m [0;1;34;44m░[0;1;34;40m███[0;1;34;44m░[0;1;34;40m [0;1;30;40m [0;1;34;44m░[0;1;34;40m███[0;1;34;44m░[0;1;34;40m [0;1;34;44m [0;1;34;40m███[0;1;34;44m [0;34m▄▄▄[0;1;34m▄[0;34m▄[0;1;34m▄▄ [0;1;34;44m░[0;1;34;40m███[0;1;34;44m [0;1;34;40m [0;1;30;40m [0;1;34;44m [0;1;34;40m███[0;1;34;44m [0m [1;30mopium  [0;1;37m   [0;1;30m [0m
-              [34m▀▀▓█▀ [0;1;37m [0;1;34;44m ▀▀▀ [0;1;34;40m [0;34m▀[0;1;34;44m░▀▓░[0;34m▄▄[0;1;34;44m ▀▀[0;34m▓▀[0;1;30m [0;34m▀[0;1;34;44m░▀▀░[0;34m▄[0;1;30m       [0;1;34;44m ░▀▓[0;34m█▄  [0;1;34m▒[0;34m▀▀   [0m
-             [34m                                   [0m   [34m              [0m
-                   [37mNode#1 .46.XXX.XXXXX USR 33600 V.34/V.FC[0m
-                   [37mNode#2 .46.XXX.XXXXX USR 33600 V.34/V.FC[0m
-
-[37m  [0m               [37mSysop: [0;1;37mBruchie[0m, Cosys: Jammer, Extacid, Dizy[0m'
+              [34m▀▀▓█▀ [0;1;37m [0;1;34;44m ▀▀▀ [0;1;34;40m [0;34m▀[0;1;34;44m░▀▓░[0;34m▄▄[0;1;34;44m ▀▀[0;34m▓▀[0;1;30m [0;34m▀[0;1;34;44m░▀▀░[0;34m▄[0;1;30m       [0;1;34;44m ░▀▓[0;34m█▄  [0;1;34m▒[0;34m▀▀   [0m'

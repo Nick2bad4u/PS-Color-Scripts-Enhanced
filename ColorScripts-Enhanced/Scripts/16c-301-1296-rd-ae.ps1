@@ -5,7 +5,7 @@
 # Source SHA-256: 40d11ac333a8c924073da8e451d7cd7cce831cc85118836e0d07ed11e6a469c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-AE.ANS by red death (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alien encounters
 # SAUCE Author: red death
 # SAUCE Group: project/301
@@ -40,7 +40,4 @@ Write-Host '
 [1;31;40m█[0;1;31;41m▌[0;31m████████████████████[0;1;31;41m░[0;31m▄▄[0m   [32m     [0m            [32m ▀▀▀rd[0;37m  [0;31m▄[0;1;31;41m░                        ░[0m
 [1;31;40m██[0;1;31;41m▄▄[0;31m██[0;1;31;41m▄[0;31m█████████████[0;1;31;41m░░[0;31m█[0;1;31;41m░░░[0;31m▄[0;37m [0;32m   [0;37m [0;32m░[0m                 [31m ▄[0;1;31;41m░[0;31m█████[0;1;31;41m  [0;31m██████[0;1;31;41m░[0;31m█████[0;1;31;41m░[0;31m██[0;1;31;41m░░░░░[0m
 
---------------------------------------------------------------------------------
-this is for alien encounters only.. uhmm.. greets.. tk,sammael-(ltb`96!!) :)
-uhmm.. bare bonez,redrum,cc,pc,4thds,oxy,spam,corn,narcosis,filth,xm,qX,mimes,
-trident,damonk,rake,sm,spanky.. more but mass greets suck..[0m'
+--------------------------------------------------------------------------------[0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: 35a27da52fad55d3e37d232c6ebb8b76d8c61bb497cce66edfee35b0879bd434
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: moqui-alt.ans by Moqui (titan-artpack3); released in titan-artpack3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
-[1;30mR[0;33;40mEMEMBE[0;1;30;40mR[0;33;40m [0;1;30;40mS[0;33;40mTA[0;1;30;40mR[0;33;40m [0;1;30;40mW[0;33;40mAR[0;1;30;40mS?[0;33;40m [0;1;30;40mi[0;33;40mT''[0;1;30;40mS[0;33;40m [0;1;30;40mB[0;33;40mAC[0;1;30;40mK[0;33;40m..[0;1;30;40m.[0;33;40m [0;1;30;40mi[0;33;40mN [0;1;30;40mP[0;33;40mO[0;1;30;40mG[0;33;40m [0;1;30;40mF[0;33;40mOR[0;1;30;40mM![0m [1;30;40m/[0;33;40m/[0;1;30;40m/[0m [1;30;40mA[0;33;40mLLEi[0;1;30;40mN[0;33;40m [0;1;30;40mZ[0;33;40mU [0;1;30;40mZ[0;33;40mWEi[0;1;30;40mT[0;33;40m, [0;1;30;40mN[0;33;40miEMAL[0;1;30;40mS[0;33;40m [0;1;30;40mS[0;33;40mOL[0;1;30;40mO[0;33;40m.[0m
+[1;30m [0;33;40m      [0;1;30;40m [0;33;40m [0;1;30;40m [0;33;40m  [0;1;30;40m [0;33;40m [0;1;30;40m [0;33;40m  [0;1;30;40m  [0;33;40m [0;1;30;40m [0;33;40m  [0;1;30;40m [0;33;40m [0;1;30;40m [0;33;40m  [0;1;30;40m [0;33;40m  [0;1;30;40m [0;33;40m [0;1;30;40m [0;33;40m  [0;1;30;40m [0;33;40m [0;1;30;40m [0;33;40m [0;1;30;40m [0;33;40m  [0;1;30;40m  [0m [1;30;40m [0;33;40m [0;1;30;40m [0m [1;30;40m [0;33;40m    [0;1;30;40m [0;33;40m [0;1;30;40m [0;33;40m  [0;1;30;40m [0;33;40m   [0;1;30;40m [0;33;40m  [0;1;30;40m [0;33;40m     [0;1;30;40m [0;33;40m [0;1;30;40m [0;33;40m  [0;1;30;40m [0;33;40m [0m
                         [33m▄[0m                 [31m■▄▄[0m    [33m▄[0m
                         [33m▐[0;31;43m▐[0m       [33;40m▄ ▄▄[0m       [31;43m▌▐[0m  [33;40m▐▌[0m
                      [33m▄▀[0m  [33m█[0;31;43m▐[0m  [33;40m  ▄▀▄  ██[0;31;40m▄[0;33;40m  ▄▀ ██[0;31;40m▌[0;33;40m █ [0;30;40m   █████████████████[0m

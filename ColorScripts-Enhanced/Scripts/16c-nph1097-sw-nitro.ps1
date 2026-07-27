@@ -5,7 +5,7 @@
 # Source SHA-256: a3b2093f47c9a186b2149f4945c4b781e7f4bb72aaa87e1982b40edecdd3bb08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SW-NITRO.ANS by SandWorM (NitROpHuSiON); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .% NiTROpHUSiON LogO %.
 # SAUCE Author: SandWorM
 # SAUCE Group: NitROpHuSiON
@@ -26,7 +26,7 @@ Write-Host '
 [1;30m█[0m   [36m▓[0;1;36;46m░▓[0m    [36m▐▒█[0;1;36;46m░▒▓[0m
 [1;30m█[0m    [36m▓[0;1;36;46m░▒[0;36m▄▄▄░▒▓[0;1;36;46m░▓[0;1;36;40m█[0m                          [1;30mSandWorM yar obedient servant[0m
 [1;30m█[0m     [36m▀▀[0;1;36;46m░[0;36m███▓[0;1;36;46m░▒▓[0;1;36;40m▀[0m
-[1;30m▀[0m [1;30m  NiTRO∙pHUSiON  [0m
+[1;30m▀[0m [1;30m                 [0m
 [1;30m▀[0;1;36m  [0m [1;36mSA∙N∙D∙WO∙R∙M[0m
  [1;30m▀▄▄▄▄▄▄▄▄▄▄▄ ▄▄  ▄[0m [1;30m■[0m        [1;30m■[0m [1;30m▄[0m  [1;30m▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 
@@ -50,4 +50,4 @@ Write-Host '
                              [1;30m [0m      [36m▄ [0m               [1;30m [0m  [1;30m      [0;1;37m [0;1;36;46m▓[0;1;30;40m [0m [1m [0m
                               [1;30m [0m     [36m [0;37m [0;36m ▀▄[0;37m  [0;36m  [0;1;30m [0;36m▄[0;37m  [0;36m▀[0m             [1;36;46m█[0m
                                      [36m [0;37m [0;36m  [0;37m [0;36m▄ ▀ [0m               [37m [0m
-            [1;36;46m░[0m           [36m [0;1;30mStOP CuTTiNg TrEES ∙ SMoKe''eM[0m [1;30m![0m'
+            [1;36;46m░[0m           [36m [0;1;30m                             [0m [1;30m [0m'

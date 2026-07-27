@@ -5,7 +5,7 @@
 # Source SHA-256: 48614b9981e01ac5ba6a90feaf1532933e5fbd9b2ffd7bb00fefdc511fde52f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JD-CH.ANS by John Doe (SKiSM); released in skism-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Compu-Hell
 # SAUCE Author: John Doe
 # SAUCE Group: SKiSM
@@ -38,6 +38,4 @@ jd?       [33m▄▄[0;1;33;43m  [0;1;31;43m▒▒▄[0;1;31;40m████
 [34m███▀▀▀   ▐███[0;1;34;44m░░[0;1;36;44m░░░░[0;34;46m▓▓▓[0;1;36;44m░░░[0;1;34;44m░[0;34m██▌▐█████▌[0m
          [34m██████████[0;1;36;44m░[0;1;34;44m▓[0;1;36;44m░[0;34m███████ ██████[0m
 
-[37m--------------------------------------------------------------------------------[0m
-[37mWow. This is my best ansi yet =) It took me a total of.. let''s see.. 1 and 1/2[0m
-[37mhours to create, but I like it. I hope you like it.[0m'
+[37m--------------------------------------------------------------------------------[0m'

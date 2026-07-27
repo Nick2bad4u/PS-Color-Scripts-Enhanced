@@ -5,7 +5,7 @@
 # Source SHA-256: 97a04403378fad997cccd76821179fbb7a1c100ec623c6cc183dc0fd0fc6078a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-RAGE2.ANS by Primordial Chowder (mpir0494); released in mpir0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-86
 # Columns: 1-80
 
@@ -39,17 +39,4 @@ Write-Host '
 [1;37;47m██████▓▓▓██████████████████████████████████▓█▓▓▓███████▓▓▒░▒▒▒▒▒▓▓██████████████[0m
 [1;37;47m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██[0m
 [1;37;47m▀[0;1;30;47m▄[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▄[0;1;37;47m▀[0m
-[1;30;40m▀ [0mO[1mutcast from society, the life that I prized, noone walks with me, I''ve bee[0mn [1;30m▀[0m
-o[1mstracized.  I stalk through the sewers, a torch in my hand, this is my kingdom[0m,
-   t[1mhis is my land. Under a grate, the light strikes my skin, I flee from it[0ms
-  p[1moison, I just cannot win. This game of existance, so hard do I strive, I''l[0ml
- n[1mever grow wealthy, just barely survive.  The cloak of night falls, the moon''[0ms
- b[1morn anew, my goal is now clear, I know what to do. Pull myself to the surfac[0me
- a[1mnd breathe the fresh air, you all stare right at me but I''ll never care.  Fo[0mr
-    n[1mow I am free, to roam through the night, I''ll creep through your homes[0m,
- a[1mvoiding the light.  Stand inches away, you''ll never suspect, that there''s an[0my
-  d[1manger, no need to protect. Your life from my claws, your soul from my mind[0m,
-    t[1mhose that see me rush by try to leave me behind. But I''m always here, [0ma
-   s[1mcourge on your land, I''ll always torment you, I must take my stand. Unti[0ml
-  l[1might returns, and the sun fills the sky, I return to my home and there wil[0ml
-  I [1mlie.  Wait for tomorrow, and return to my fight, rejoice in the day fools[0m.[0m'
+[1;30;40m▀ [0m [1m                                                                          [0m  [1;30m▀[0m'

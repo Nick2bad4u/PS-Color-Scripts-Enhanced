@@ -5,7 +5,7 @@
 # Source SHA-256: ea57c20ffe3d48c11f027e4033bfa957cae3d959a43186f568c3279a1ac137d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: lazarus-shoesale-collab.ans by Various + Warpus + Burps + Smooth + Pinguino + Tainted + Cthulu (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lazarus Shoe Sale collab
 # SAUCE Author: various
 # SAUCE Group: LAZARUS
@@ -33,24 +33,4 @@ Write-Host '
 [35m  [0;33m▄▄[0;31m▀█[0;1;31;41m░░[0;31m▄     [0;1;30m░░░░░ [0;35m▀[0;1;35;45m░░░[0;35m▄ ▐[0;1;35;45m░░░░░[0;35m▌▐[0;1;35;45m░[0;35m▌ ▐[0;1;35;45m░[0;35m▌▐[0;1;35;45m░░[0;35m▄▄   [0;1;30m░░ [0;35m▀[0;1;35;45m░░░[0;35m▄ ▐[0;1;35;45m░░[0;35m▀[0;1;35;45m░░[0;35m▌▐[0;1;35;45m░[0;35m▌ ▐[0;1;35;45m░[0;35m▌▐[0;1;35;45m░░[0;35m▄▄[0m
 [35m  [0;33m▐▓▌  [0;31m▀▓█▄▄█[0;1;31m▄  [0;1;30m░░ [0;35m▄▄  [0;1;35;45m░░[0;35m▌█[0;1;35;45m░[0;1;37;40m  [0;35m█[0;1;35;45m░[0;1;37;40m [0;1;35;45m░░[0;35m░ [0;1;35;45m░░[0;1;37;40m [0;1;35;45m░░[0;35m▀▀▀ [0;1;30m░░  [0;35m▄▄░ [0;1;35;45m░░[0;35m▌[0;1;35;45m░░[0;35m░ [0;1;35;45m░░[0;1;37;40m [0;1;35;45m░░[0;35m░ [0;1;35;45m░░[0;1;37;40m [0;1;35;45m░░[0;35m▀▀▀ [0;1;30m░░[0m
 [1;30m   [0;33m▓ [0;1;30m░░ [0;31m▐▓█[0;1;31;41m░▐[0;1;31;47m▓▓[0;1;31;40m▄  [0;35m▐[0;1;31;45m░[0;35m▌ ▐██[0;1;31;45m░[0;35m█▌ ▐█▌▐[0;1;31;45m░[0;35m▌ ▐█▌▐█▌ ▐█▌ [0;1;30m░ [0;35m▐[0;1;31;45m░[0;35m▌ ▐█[0;1;35;45m░[0;1;31;45m░[0;35m█▌ ▐█▌▐[0;1;31;45m░[0;35m▌ ▐█▌▐[0;1;31;45m░[0;35m▌ ▐▓▌[0;1;30m░[0m
-[1;30m   [0;33m▐▌ [0;1;30m░░ [0;31m▀▒▓▓█[0;1;31;41m▀▀▒[0;31m▄ [0;35m▀█▓▓▀░▓▓░ ▓▓  ▀▓▓▓▀ █▓▓▓▓▓     ▀█▓▓▀░▀█▓▓▓▀ █▓▓▓▓▀ █▓▓▓▓▓░[0m
-
-[35m                           * [0;1;35m10 - 19 September 2021 [0;35m*[0m
-
-
-[31m  Welcome to the Lazarus Shoe Sale![0m
-
-
-[37m  [0;1;30mThese shoes were drawn by a variety of artists who joined in the fun during[0m
-  [1;30mour shoe sale extravaganza[0m [1;30min the fall[0m
-
-  [1;30mThank you to burps, tainted, and smooth for participating and a big[0m
-  [1;30mthanks again to burps for helping with some of the logistics[0m
-
-  [1;30mThose who participated will receive a complementary virtual tote bag[0m
-  [1;30mthat incorporates the art created here.  More on that later[0m
-
-  [1;30mIf your name is missing from the list please contact warpus or pinguino[0m
-  [1;30mand blame warpus[0m
-
-'
+[1;30m   [0;33m▐▌ [0;1;30m░░ [0;31m▀▒▓▓█[0;1;31;41m▀▀▒[0;31m▄ [0;35m▀█▓▓▀░▓▓░ ▓▓  ▀▓▓▓▀ █▓▓▓▓▓     ▀█▓▓▀░▀█▓▓▓▀ █▓▓▓▓▀ █▓▓▓▓▓░[0m'

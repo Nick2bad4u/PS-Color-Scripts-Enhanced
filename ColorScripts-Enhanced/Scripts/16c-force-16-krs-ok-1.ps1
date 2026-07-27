@@ -5,7 +5,7 @@
 # Source SHA-256: fcffecf60d4a74fd9c3b8a4c6474bb0909fccf0ca32350505a6c1912c30ab6de
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRS-OK#1.ANS by Krisis (force); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Organized Kaos
 # SAUCE Author: Krisis
 # SAUCE Group: force
@@ -29,10 +29,4 @@ Write-Host '
 [1;40m [0m▀[1;47m▀▀[0;1;40m█▄▄[0;1;47m▄[0;1;40m██▀   [0m▄[1;47m▄▄[0;1;40m█[0;1;47m▄[0;1;40m█▄▄    [0m▐[1m████                [0m▀[1;47m▀▀[0;1;40m█████▀    [0m [1;45mk[0;1;40m a o s[0m [1m           [0m
 [1;30mkrs[0;1;37m [0m▀[1m▀▀▀    [0m▄[1;47m▄[0;1;40m█▀▀▀▀████▄▄▄[0;1;47m▄[0;1;40m███▌[0m                 [1m  ▀▀▀▀[0m
          [1m [0m■▀[1m▀        ▀███████▀ [0m        [1m [0m       [1m [0m
-         [1m               ▀▀▀▀  [0m
-
-   woah =) my first ansi in about 4 months or so.. this is basically an ansi
-   version of an ascii i did a few months back.. one of my better ascii''s...
-
-  Greet fly out to: kURRUPt, nOOdles, chaOtic prisOner, criminal enigma, NMe
-                    (the fellow sysops of my board, who helped out heapz)[0m'
+         [1m               ▀▀▀▀  [0m'

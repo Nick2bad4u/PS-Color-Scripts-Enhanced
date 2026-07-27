@@ -5,7 +5,7 @@
 # Source SHA-256: f933f0cd93c7df1891bfb52c26b4ca32befe44a78fdc3d1adb92c1b0fa21b572
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-PIRAT.ANS by Sn0wball (Ecolove); released in eco-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Make us stop
 # SAUCE Author: Sn0wball
 # SAUCE Group: Ecolove
@@ -39,11 +39,4 @@ Write-Host '
 [36m█▌[0;37m [0;1;33m▓[0;1;37m█[0m [36m     [0;37m [0;1;33m▐▌[0;33m ░[0;1;30;43m█▌[0;33m▄ [0;1;30m▀▄▄███[0;33m▄▄  [0;37m▀[0;1;37m▀▀▀▀▀[0m▀[33m▄▄▄[0;1;30;43m▄[0;33m▀[0;1;30;43m▀[0;33m▀[0;1;30;43m▒[0;1;30;40m▄[0;33m   [0;1;30m▀▀█[0;1;30;43m▓▓[0;1;30;40m█▀▀▀[0m  [36m▄▄██[0;1;36;46m▌▀▀[0;36m████[0;1;36;46m▄[0;36m█[0;1;36;46m▌▌[0;36m██[0;1;36;46m■[0;36m██[0m
 [1;36;46m▄[0;36m▌[0;37m [0;33m▀[0;1;33;43m▀[0;1;33;40m▄[0;36m    [0;37m [0;1;33m▄▀ [0;36m [0;33m [0;1;30;43m██▒[0;33m█▄▄[0;1;30m▀▀▄▀▀[0;33m▀▀[0;37;43m  [0;33;40m▄▄▄▄█[0;1;30;43m▄[0;1;30;40m▀▀  ▄▀█[0;1;30;43m▓[0;1;30;40m██▄▄[0;33m   [0m    [36m▄▄[0;1;36;46m▄[0;36m█[0;30;46mEc0lov3[0;36;40m█[0;30;46m#16 ...[0;36;40m█[0;30;46m [0;1;36;46m▀[0;30;46m [0;36;40m█[0m
 [1;36;46m█▄[0;36m▄ [0;37m [0;33m▀[0;1;33m▀[0;33m▄[0;1;33m▄▄▀  [0;36m [0;33m [0;1;30m▄[0;1;30;43m█▓▓▓▒░[0;33m█▄▄[0;1;30m▀[0;33m [0;1;30m▀▄▀▄▀▀[0;1;30;43m▄[0;33m██▄[0;1;30m▄██▄██▄[0;1;30;43m▓▓[0;1;30;40m██▀▀█▄▀[0;33m [0;36m▄[0;1;36;46m▄███[0;36m█[0;30;46mWho''s gonna stop us[0;36;40m█[0m
-[1;37;40m██[0;1;36;46m▄[0;36m█▄▄▄[0;37m [0;1;30m▄[0m  [1;30m▄▄[0;1;30;43m█████████▄▄[0;33m██▄▄ [0;1;30m▀▀▄▄▀▀[0;1;30;43m▄[0;1;30;40m▀▀▄▀▀█▀▀█▀▀▄▄▀▀[0m [36m █[0;1;36;46m██[0;1;37;40m██[0;1;36;46m██▄▄▄▄▌[0;36m████[0;1;36;46m█[0;1;37;40m██[0;36m██[0;1;36;46m■[0;36m█████[0m
-
-
-[31mWARNING :: THIS WAS NOT AN ATTEMPT TO DRAW SOMETHING GOOD[0m
-[31mWARNING :: THIS WAS NOT AN ATTEMPT TO DRAW SOMETHING GOOD[0m
-[31mWARNING :: THIS WAS NOT AN ATTEMPT TO DRAW SOMETHING GOOD[0m
-
-[1;30mSn out[0m'
+[1;37;40m██[0;1;36;46m▄[0;36m█▄▄▄[0;37m [0;1;30m▄[0m  [1;30m▄▄[0;1;30;43m█████████▄▄[0;33m██▄▄ [0;1;30m▀▀▄▄▀▀[0;1;30;43m▄[0;1;30;40m▀▀▄▀▀█▀▀█▀▀▄▄▀▀[0m [36m █[0;1;36;46m██[0;1;37;40m██[0;1;36;46m██▄▄▄▄▌[0;36m████[0;1;36;46m█[0;1;37;40m██[0;36m██[0;1;36;46m■[0;36m█████[0m'

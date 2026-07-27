@@ -5,7 +5,7 @@
 # Source SHA-256: 1c1680fb8b41cd1d3aabb1d7f0a3f98b594a542c70ac6f378c62c50ebd830b4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-SMOK.ANS by propane (used); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wicked minority
 # SAUCE Author: propane
 # SAUCE Group: used
@@ -54,7 +54,4 @@ Write-Host '
 [1;37m██[0m    [1;33m▒▒[0m    [1m██████████████▄[0;36m [0;37m [0;36;47m▒[0;37;40m  [0;1;37;47m▐▌[0m  [36m█[0;1;34;46m▒█[0;1;34;47m▀▀[0;1;34;46m█▒[0;36m█[0;37m  [0;1;37;47m▐▌[0m  [36;47m▒[0;37;40m [0;36;40m [0;1;37;40m▄██████████████[0m    [1;33m▒▒[0m    [1m██[0m
 [1m██[0m    [1;33m░░[0m    [1m███[0;1;33m███████[0;1;37m█████▌[0m [36;47m▓[0;37;40m  [0;1;37;47m▐▌[0m  [1;34;46m █████[0;36m█[0;1;34;46m [0m  [1;47m▐▌[0m  [36;47m▓[0;37;40m [0;1;37;40m▐█████[0;1;33;40m███████[0;1;37;40m███[0m    [1;33m░░[0m    [1m██[0m
 [1m██[0m          [1m███████████████▌[0m ░  ░░  [36m▀[0;1;34;46m▀▀▓▓▀[0;36m▀▀[0;37m  ░░  ░ [0;1;37m▐███████████████[0m          [1m██[0m
-[1m▀██████████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████████████████████████▀[0m
-
-
-a quick little ansi for smoke''s board.. maybe now he''ll stop asking me for ansi.[0m'
+[1m▀██████████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████████████████████████▀[0m'

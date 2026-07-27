@@ -5,7 +5,7 @@
 # Source SHA-256: 44930c006fdf1f318660bfa66174c44501654fb1b8ccd7bc8dc11ec4e8cac50a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CY-RAW.ANS by cryogenic (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: (guest) raw97
 # SAUCE Author: cryogenic
 # SAUCE Date: 19970326
@@ -28,4 +28,4 @@ Write-Host '
 [1;35m [0;35m▐[0;1;35;45m▐[0;1;35;40m█▌[0;36m▐[0;1;37;46m ░[0;1;36;46m░[0;1;37;46m ▒[0;1;37;40m▌[0;35m▐[0;1;35;45m▐[0;1;35;40m███▀ [0;36m▐[0;1;36;46m░░[0;1;37;46m ░ [0;35m░[0;30;45m░[0;1;35;40m▌[0;36m▐[0;1;37;46m ░  [0;36m▌[0;35m▐[0;1;35;45m▐[0;1;35;40m█▓███▌[0;36m▐[0;1;37;46m░  [0;1;36;46m░[0;1;37;40m [0;35m▐[0;1;35;45m▐[0;1;35;40m█▓░[0;36m▀[0;1;37;46m░[0;36m█[0;1;37;46m ░ [0;1;36;46m░[0;36m▄[0;1;36;46m░[0;36m█[0;1;37;46m░░[0;36m█[0;1;36;46m▓▒░[0;1;37;46m [0;1;36;46m░[0m [35m▀[0;1;35;45m▀[0;1;35;40m████▌ [0m
 [35m▄[0;1;35;45m▄[0;1;35;40m░[0;36m▄▄[0;1;36;46m▒░[0;36m▓[0;1;36;46m▒░[0;36m▀[0;35m░[0;30;45m░[0;1;35;45m▓[0;1;35;40m▀[0;1;35;45m▀[0;1;35;40m▓░[0;36m▀[0;1;36;46m▓▒▒░[0;36m▀░[0;37m [0;35m█[0;1;35;45m▓[0;1;31;40m [0;36m▀[0;1;37;46m [0;1;36;46m░░▒[0;36m▄[0;1;35m [0;1;35;45m [0;1;35;40m░[0;35m▀[0;1;35m▀[0;1;35;45m [0;1;37;40m [0;36m▀[0;1;37;46m [0;1;36;46m░░▒[0;36m▄[0;35m░[0;30;45m░[0;1;35;45m▓[0;1;35;40m██▄▄[0;1;37;40m [0;36m▀▀[0;1;36;46m░▒▓[0;1;36;40m▀▀[0;36m▀▀[0;1;36m▀▀▀▀▀[0;1;36;46m▒[0;36m▀[0;37m [0;1;35;45m ▓[0;1;35;40m▀[0;35m▐[0;1;35;45m▐▓[0;1;35;40m▄[0m
  [35m▀[0m   [36m▀░░  [0;37m  [0;1;35m [0;35m▀[0;1;35m  [0;1;35;45m [0;1;35;40m▀[0m [36m  [0m   [1;35m [0;35m▄▀[0;1;37m      [0m [35m▄[0;1;35m▄[0;35m▀[0m    [35m▀[0m   [36m░▀[0;1;37m [0;35m▀[0;1;35;45m▀[0;1;35;40m▀▀░[0m [35m▄▀[0m                   [1;35m [0m [35m▀[0;1;35m▀[0m
-           [1mreal   [0m            [1m      [0m [1mart[0m        [1m     [0;35m▀[0;1;35m [0m       [1mwork[0m'
+           [1m       [0m            [1m      [0m [1m   [0m        [1m     [0;35m▀[0;1;35m [0m       [1m    [0m'

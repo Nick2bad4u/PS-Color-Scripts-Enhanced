@@ -5,7 +5,7 @@
 # Source SHA-256: d2fc68dc43a02f927ee7b2fc26ee63d51e21824fc91dfa0bac0eb422dd9aa2e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ-NACHO.ICE by Blazer (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 38-72
 # Columns: 1-80
 
@@ -30,8 +30,8 @@ Write-Host '
            ▒▒▒[1;30;47m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m▒▒▒ [1;30mTheDraw font, i just[0m
             ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  [1;30mwhipped it up on the[0m
                            [1;30m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0m                    [1;30;40mspot. This is sorta[0m
-                           [1;30;40m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0m  [1;30;40mwhat ansi used to be like. Like check[0m
-                           [1;30;40m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0m  [1;30;40mout this shading. It''s not some crappy[0m
+                           [1;30;40m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0m  [1;30;40m                                     [0m
+                           [1;30;40m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0m  [1;30;40m                                      [0m
                            [1;30;40m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0m  [1;30;40mrandom shading like you[0m
                            [1;30;40m▒█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0m  [1;30;40msee everyone using[0m        [1;37;40m███████[0;1;37;41m▀▀[0;1;37;40m█████[0m
                           [31m▄█[0;1;30m█[0m▒[1m▒[0;1;30;47m▒[0m█[1;47m▒[0;1;40m█[0;1;44m▒[0;44m▒[0m   [1;30;40mnowadays.  It''s[0m      [1;37;40m██████[0;1;37;47m▒[0;1;37;40m███[0;33m█[0;33;41m▄ [0;33;40m█[0;1;37;40m████[0m

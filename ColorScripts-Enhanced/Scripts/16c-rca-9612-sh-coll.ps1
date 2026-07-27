@@ -5,7 +5,7 @@
 # Source SHA-256: e5b7d17ad464cb0f9019a9f608d8fa678fa8e4a04804ae5fc2a8e57854dda691
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-COLL.ANS by Shaft (rca-9612); released in rca-9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ansi Cluster
 # SAUCE Author: Shaft
 # SAUCE Date: 19961211
@@ -26,9 +26,9 @@ Write-Host '
     [1;34m███▄▄ [0;1;31m▓▓▒▓█[0;1;34m▐▌[0;1;31m▓▒▒▓█[0m [1;31m▓▓▒▓█[0;1;34m▐▌[0;1;31m▓▒▒▓█[0m [1;31m▓▓▒▓█▄▄▓▒▒█▀ ▓▓▒▓█ ▀▓▒▓█▄▄▓▒▒█▀[0m [1;34m▄▄▄▄▄[0m
     [1;34m▀████ [0;1;31m▀▀[0;1;34m▓[0;1;31m▀▀[0;1;34m▐▓[0;1;31m▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▐▌[0;1;31m▀▀▀▀▀[0m [1;31m▀▀▀▀[0;1;34m▓[0;1;31m▀▀▀▀▀[0m [1;34m▄▌[0;1;31m▀▀▀▀▀[0;1;34m▐▄[0;1;31m ▀▀▀▀▀[0;1;34m▓[0;1;31m▀▀[0m [1;34m▄█[0;1;34;45m▀[0;1;34;40m███▀[0m
       [1;34m▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m▀[0;1;31;45m▓[0;35m▀[0;1;34m▀[0m
-         [1;30mshaft.rca[0m
+         [1;30m         [0m
 
-                       [1;30mReally. Ansi Does improve orgasm.[0m
+                       [1;30m                                 [0m
 
 
 
@@ -39,18 +39,17 @@ Write-Host '
 [1;30m   [0;35m▐███▄ ▄▄░▓▐██  ██  ██▐██▌ [0;1;30mStrafe [0;35m▐██▌  ▐██   ▐██▐███▄ ▄▄░▐██   ▓██▐██   ▐██ [0m
 [1;30m    [0;35m▓▀▀▀▀▀▀▀ ▓▀▀▀ ▀▀ ▄██▓▀▀▀[0m       [35m▓▄▀█▌  ▓▀▀▀  ▓██ ▓▀▀▀▀▀▀▀▄▀▀▀  ▄██▓▀▀▀  ▄██ [0m
 
-                      [1;35m■ empyrean[0m
-                      [1;35m■ System operator: Strafe[0m
+                      [1;35m■         [0m
+                      [1;35m■                        [0m
                       [1;35m■ Number: [803] 539-5008[0m
-                      [1;35m■ Accepting: 14.4 bps + only[0m
-                      [1;35m■ Modem: SupraExpress 33.6 bps[0m
-                      [1;35m■ System software: Renegade 10-05[0m
-                      [1;35m■ Millennium Falcon piloted by:[0m
-                        [1;35mHan Solo and Chewbacca[0m
-                        [1;35m(Taken from: Gameface "Good")[0m
-                      [1;35m■ Supporting: Artpacks, music modules,[0m
-                        [1;35mgraphic demos, japan. animation, and tons[0m
-                        [1;35mof other cool things worth the support.[0m
+                      [1;35m■                           [0m
+                      [1;35m■                             [0m
+                      [1;35m■                                [0m
+                      [1;35m■                              [0m
+                        [1;35m                      [0m
+                        [1;35m                             [0m
+                      [1;35m■                                     [0m
+                        [1;35m                                         [0m
+                        [1;35m                                       [0m
 
-                      [1;35m■ This original promotion was created by:[0m
-                        [1;35mStrafe[0m'
+                      [1;35m■                                        [0m'

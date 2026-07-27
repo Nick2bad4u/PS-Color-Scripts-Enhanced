@@ -5,7 +5,7 @@
 # Source SHA-256: d635b7f0bc4a6b36a42f665770c6250fc463d96467c55b48b2a9efc17c7e23e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT-ALCHP.ANS by notorious (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alchemy
 # SAUCE Author: notorious
 # SAUCE Group: haze
@@ -63,5 +63,4 @@ Write-Host '
 [1;30m  [0;1;33mo p s ! .. d e v i l '' s   s i n ... c y b e r n i t e ... m a e s t r o ![0m
 
 
-                            [1;33ma r t !  a r t !  a r t ![0m
-                                                             [1;33mnotorious.haze![0m'
+                            [1;33ma r t !  a r t !  a r t ![0m'

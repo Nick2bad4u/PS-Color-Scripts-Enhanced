@@ -5,7 +5,7 @@
 # Source SHA-256: 4cd18f05d004f8a1626979ad1071f4ac88291728aacabc5b338c626e55f0a615
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-POD6.ANS by Boba Fett (rca16-a); released in rca16-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -36,12 +36,12 @@ Write-Host '
 [1;34;44m▀[0;1;34;40m▀▀▀[0;34m▀▄▄[0;1;34m▄▄[0;1;34;44m▄▓██▓██▀░▀███▄[0;1;34;40m▄[0;34m▄[0;37m [0;33m▀▀▀[0;37m [0;33m▄▄▄[0;1;31;43m░▒▄▄▄█▓▓█████[0;1;33;41m▓▓█[0;1;37;41m█[0;1;33;41m▓░[0m [31mbobafett! ([0;1;31mrCa[0;31m)[0m      [1;37m▓▀▀[0m
 -(cut)--------------------------------------------------------------------------
 
-[1mOH MY GOD!  ITS SIGOURNEY WEAVER![0m  [1mJust kidding...  Here I am back in rCa after[0m
-[1ma bit of flitting around...  I''d like to thank Starlord and Kitiara [0;1;33mALOT[0;1;37m for[0m
-[1mletting me come back home again and be ansi head.  [0m
+[1m                                 [0m  [1m                                            [0m
+[1m                                                                    [0;1;33m    [0;1;37m    [0m
+[1m                                                   [0m
 
-[1mbobafett![0;1;32m>>[0;1;37mN[0;30;47mONE[0;1;37;40mEDFORFAME.[0m
-[1;32mboba.fett@x-net.net[0m
+[1m         [0;1;32m  [0;1;37m [0;30;47m   [0;1;37;40m          [0m
+[1;32m                   [0m
 
-[1;33m    .,CALL THE POWER OF THE DARKSIDE TODAY!!!  864-639-1007,..  ANSiFIRE,.[0m
+[1;33m                                                                          [0m
 -(cut)--------------------------------------------------------------------------[0m'

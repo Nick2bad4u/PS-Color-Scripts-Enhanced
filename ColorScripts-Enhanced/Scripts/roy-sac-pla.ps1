@@ -5,7 +5,7 @@
 # Source SHA-256: 663040e7078b41c257e3baf36bcaf5571948dfc6517c50dd849dfa3f2d63351a
 # Source License: FAL-1.3
 # Source Attribution: ROY-PLA.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -26,5 +26,5 @@ Write-Host '
 [1m   S[0mysop: [1mS[0mleeve  ▄[1;47m▒▒▒[0m▀ [1;30m── [0;1;47m▒▒▒[0m [1;30m── [0;1m▀[0;1;47m▓▓▓[0;1m▄  [0;1;47m▓▓▓[0m [1;30m── [0m▀[1;47m▒▒▒[0m▄ ▀[1;47m░[0m [1;30m─ [0;1;47m▒▒▒[0m  [1mC[0mO''s: [1mT[0mermi &
    [1;30m──────────── [0m▄[1;47m░░░░[0m▄▄▄▄▄▄▄▄▄▄  ▄▄▄[1;47m░░░░[0m▄ ▀[1;47m▒[0m [1;30m─ [0;1m4[0mx ▀[1;47m░░░[0m▄  [1;30m─ [0;1;47m░░░[0m [1;30m──── [0;1mF[0mirebird
    [1;30m───── [0m▀  ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀ [1;47m░[0m  [1mI[0mSDN  ▀███ ▀▀▀▀▀▀▀ ▀ [1;30m──────────[0m
-[1;30m   ─── [0;1mC[0mYGNUS [1mM[0member , [1mX[0mADI [1mD[0mistsite. [1m.  [0m▀██ [1m1[0mx [1m2[0m8.8 [1;30m──── [0;1m4[0m,2 [1mG[0mig [1mH[0mD [1mS[0mpace [1;30m──[0m
+[1;30m   ─── [0;1m [0m      [1m [0m        [1m [0m    [1m [0m         [1m   [0m▀██ [1m [0m  [1m [0m    [1;30m──── [0;1m [0m   [1m [0m   [1m [0m  [1m [0m     [1;30m──[0m
       [1;30m─  ─ ──────────────────────────────────────────────────────── ─  ─[0m'

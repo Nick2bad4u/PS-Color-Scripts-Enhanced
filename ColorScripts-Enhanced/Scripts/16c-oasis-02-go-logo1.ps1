@@ -5,7 +5,7 @@
 # Source SHA-256: fd9d71823ad41c10d13b08d4a80f0508e739271b7733cfa7425c90cc86ed7939
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GO-LOGO1.ANS by Gohan (oasis-02); released in oasis-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19960511
 # SAUCE Dimensions: 80x24
 # Lines: 1-24
@@ -32,6 +32,4 @@ Write-Host '
 [1;35;45m███[0m     [1;35m███ ███ ███ ███ ███ ███ ███ ███[0m   [1;35m███[0m     [1;35m███[0m   [1;35m███[0m    [1;35m███ ███[0m    [1;35m█[0m [1;35m█ ██[0m
 [1;35;45m███[0m     [1;35m███ ███ ███ ███ ███ ███ ███ ███[0m   [1;35m███[0m     [1;35m███[0m   [1;35m███[0m    [1;35m███ ███[0m    [1;35m█[0m [1;35m█ ██[0m
 [1;35;45m███[0m     [1;35m███▄███ ███ ███ ███▄███ ███▄███[0m   [1;35m███[0m     [1;35m███[0m   [1;35m██████ ███ ███[0m    [1;35m█[0m [1;35m█▄██[0m
-[35m────────────────────────────────────────────────────────────────────────────────[0m
-[35mOops  here''s a logo  but  I think I  had better start making some pics.  We need[0m
-[35mpics  big  time.  Greetz Cain, Gokou <HAHA, and Munchie.  Dis wuz  made 4 OASIS![0m'
+[35m────────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: dd8199973c1e617ea054278228f68ecfe0ab98a68d976f82eea10d8930833475
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-LG13.ANS by Chronicc (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ansi logos pack 13
 # SAUCE Author: Chronicc
 # SAUCE Group: Fuel Productions
@@ -37,8 +37,4 @@ Write-Host '
                               [37;40m▐[0m      [31;40m ▀▀███▄▐[0;30;41m▀▀▀████▀▀[0;31;40m▐[0;30;41m▀[0;1;31;41m░░░░[0;31m▀▐  [0m
                                      [31m   [0;1;31m░░░[0;31m▀▀▐▀▀▀▀▀▀▀▀▀▀[0;1;31m░░░░[0;31m    [0m
 
-[37m█[0;1;37;47mAP[0;30;47mach[0;1;37;47me[0;30;47m sunr[0;1;37;47mis[0;30;47me ansi, f[0;1;37;47mor[0;30;47m [0;1;37;47mrb[0;30;47m_ not t[0;1;37;47moo[0;30;47m bad!@[0;37;40m███████████████████████████████[0;30;47m░[0;37;40m█[0;30;47m2[0;37;40m█[0;30;47m▒[0;37;40m█[0m
-
-        [37;40mwell..this is al i have... i also have nothing to say, so THERE![0m
-
-[37;40mPS ( Lord VADER from #204... you suck at art! )[0m'
+[37m█[0;1;37;47mAP[0;30;47mach[0;1;37;47me[0;30;47m sunr[0;1;37;47mis[0;30;47me ansi, f[0;1;37;47mor[0;30;47m [0;1;37;47mrb[0;30;47m_ not t[0;1;37;47moo[0;30;47m bad!@[0;37;40m███████████████████████████████[0;30;47m░[0;37;40m█[0;30;47m2[0;37;40m█[0;30;47m▒[0;37;40m█[0m'

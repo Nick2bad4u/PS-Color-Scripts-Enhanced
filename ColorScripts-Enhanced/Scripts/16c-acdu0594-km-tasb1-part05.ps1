@@ -5,7 +5,7 @@
 # Source SHA-256: 3ece7c3c528a87e19b3961937ef68049cef022954c2a37c660a15a1e5519b51b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KM-TASB1.ANS by King Midas (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Armageddon Support BBS
 # SAUCE Author: King Midas
 # SAUCE Group: ACiD Productions
@@ -49,18 +49,18 @@ Write-Host '
              [1;30;40m▀    ▀    ▀    [0m█[1m██▄[0;1;47m▄[0;1;40m██[0m█[1m██▄[0;1;47m▄[0;1;40m██[0m█[1m██[0;1;47m▄[0;1;40m██[0m     [1;30;40m▀    ▀    ▀[0m
                   [1;30;40m▀[0m                                       [1;30;40m▀[0m
 
-[1;30;40m   [0;1;37;40m215-469-9499 - 610-469-9499 - iCE iCN WHQ - VGANSi WHQ - CORE Member Board[0m
-[1;37;40m   GOTHiC PA Keep -  Infinity Magazine Dist Site - Iridium Magazine Dist Site[0m
-[1;37;40m   Lancelot ][ Magazine Dist Site -  Corrosion Dist Site - Xenocide Dist Site [0;36m.[0m
-[36m  [0;1;37mRitual Dist Site - Heat Dist Site - BAD Dist Site - Beerware Utils AlphaSite[0m
-[1;37m   DementiaNet HUB - HyperNet HUB - Phalcon Skism Net - Valiant Net - THOGNet [0;36m.[0m
-           [1;37mMarshal Law Contact HQ - Supporting: P/H/A, ANSiS, Demos[0m
-          [1;37mNo Lamers/Locals/WaReZ/D00DZ/Ratios - Running CRG Renegade[0m
-              [1;37mSysOps: The Lord God Xerobe [iCE], The Necromancer[0m
-                [1;37mCoSysOps: Metal Head [iCE], CybeR ChrisT [iCE][0m
-                               [1;37mKing Midas <ACiD>[0m
+[1;30;40m   [0;1;37;40m                                                                          [0m
+[1;37;40m                                                                             [0m
+[1;37;40m                                                                              [0;36m [0m
+[36m  [0;1;37m                                                                            [0m
+[1;37m                                                                              [0;36m [0m
+           [1;37m                                                        [0m
+          [1;37m                                                          [0m
+              [1;37m                                                  [0m
+                [1;37m                                              [0m
+                               [1;37m                 [0m
 
 [1;30m─[0m[ [1mANSi by King Midas of ACiD [0m][1;30m────────────────────────────────────────────────[0m
 [1;30m─────────────────────────────────────────────[0m[ [1mStats ripped from CC-TASB.iCE [0m][1;30m─[0m
-[1;30m─[0m[ [1mIf you would like an ANSi, call my VMB at 1-800-788-0567, box #342, and   [0m][1;30m─[0m
-[1;30m─[0m[ [1mdo your best Yoda imitation. Winner gets a free ANSi. C''mon try everyone! [0m][1;30m─[0m'
+[1;30m─[0m  [1m                                                                          [0m [1;30m─[0m
+[1;30m─[0m  [1m                                                                          [0m [1;30m─[0m'

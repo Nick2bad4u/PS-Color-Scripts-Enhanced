@@ -5,7 +5,7 @@
 # Source SHA-256: 0fc965570e1b1c7cb32db7977c27529e7f8832873a0248adad71239333976f0d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-#ANSI.ANS by Blind Sniper (Department 38); released in d38-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: This Pack Is Sponsored By #ansi (c)
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
@@ -33,21 +33,4 @@ Write-Host '
    [1;37;40m░░░[0m      [34m██[0;1;34;44m■[0;34m█[0;1;34;44m▄[0;34m▄▄▄[0;37m [0;1;36m- On Undernet[0m [1m [0m       [1m▄▄[0;34m▀▀▀▀▀▀██████▀▐▀▀[0;37m [0;34m▄▄[0;1;34m▄[0;1;34;44m█[0;34m█▄▄[0m       [34m▄[0m
    [34m▄[0m         [34m▄▄[0;1;34;44m▄▐██▄░░[0;34m▄▄[0m    [1;37m [0;1;36m"It''s Raaad"[0m [1m░████▒▒[0m              [34m▀▀[0;1;34;44m ■[0;34m▄▄▄▄[0;37m [0;34m ▄[0m   [1;34mbs![0m
     [34m▀█▄▄▓[0;30;44m░░[0;34;40m▐[0;1;34;44m░█ [0;34m█▀▀▀▀▀▀▀█▄[0m                  [1;37m▀▓▓░░░░   [0m               [34m▀▀▀▀▀[0;37m [0;1;36m [0;1;34m(d38)[0m
-       [34m▀▀▀▀▀[0m                                 [1;37m        [0m
-[32mAre you tired of all those other boring channels?[0m
-[32mVisit Channel ansi and you''ll be hooked!@#[0m
-
-[1;32mThe Benifits Of #Ansi:[0m
-
-[1m- Backscrolling _not_ required![0m
-[1m- Instant op access when you join![0m
-[1m- You can join and leave 1 second later _all_ you want![0m
-[1m-[0m [1mNo egotistical ops - No ops period![0m
-[1m- Joining midway of a conversation is virtually impossible![0m
-[1m- All feelings of claustrophobia is eliminated![0m
-
-[1;32mSo join #ansi today! And remember, give me op status when I come on because[0m
-[1;32mbeggers can''t be choosers![0m
-
-[32mYou have been watching a paid advertisment for #ansi (c)[0m
-[1;30m(this product is only available on undernet, modem required)[0m'
+       [34m▀▀▀▀▀[0m                                 [1;37m        [0m'

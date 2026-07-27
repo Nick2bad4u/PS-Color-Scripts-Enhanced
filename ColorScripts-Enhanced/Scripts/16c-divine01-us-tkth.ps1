@@ -5,7 +5,7 @@
 # Source SHA-256: 02a419e7e32444c56f4d6e30dc9ae12cd6302f82fd085c01568330d373607b0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TKTH.ANS by Tainted + Prosthesis (divine); released in divine01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tekithamatrix
 # SAUCE Author: prosthesis/tainted
 # SAUCE Group: divine
@@ -52,6 +52,4 @@ Write-Host '
 [1;30m▓▓▓▓▀▀▀▀▀▀█████▌▄▄▄▄████[0m                                                [1;30m▄▄███▌[0m
 [1;30m░░░░[0m   [1m░░[0m [1;30m██████▓█████▓▓░░[0m                    [1;30m░░░░[0m [1;30m░░░▓███▌[0m  [1;30m░█████[0m  [1;30m██████[0m
           [1;30m▀▀▀▀▀▓░[0m     [1;30m░░[0m                     [1;30m   [0m
-               [1;30m░[0m
-                      if someone rips this.. please inform me via e-mail:
-                                       anvil@sgic.fi[0m'
+               [1;30m░[0m'

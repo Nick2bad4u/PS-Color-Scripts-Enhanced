@@ -5,7 +5,7 @@
 # Source SHA-256: 4b21939c239207b09c475b218b2e1c6e642063159281d62237d4a3cb101bb79b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V-TDC10.ANS by VileR (Mistigris); released in mist1015 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Total DOS Collection 10
 # SAUCE Author: VileR
 # SAUCE Group: Mistigris
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[5;30;46m                              Something happened                  [0;5;36;46m ___ ╓▄╖[0;5;30;46m [0;1;5;37;41m  x  [0m
+[5;30;46m                                                                  [0;5;36;46m     ╓▄╖[0;5;30;46m [0;1;5;37;41m     [0m
 [1;5;36;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;5;34;46m████████████████████████████████████████████████████████████████████████████████[0m
 [1;5;34;46m███████████[0;5;36;44m▄▄[0;1;5;36;44m▄▄[0;1;5;37;44m▄▄▄[0;1;37;46m▄▄[0;1;5;37;46m▄▄[0;1;5;37;44m█[0;1;5;36;47m█[0;1;5;34;46m████████████████████████████████████████████████████████[0m

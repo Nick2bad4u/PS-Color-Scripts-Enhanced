@@ -5,7 +5,7 @@
 # Source SHA-256: d454ae31ae8bdde324cb6fab217694bc8f88725ce889fae89736346f53c7b91f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PY-WYUTH.ANS by Pyro (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -53,7 +53,7 @@ Write-Host '
          [1;47m [0;1;40m█[0;1;42m [0m  [1;32;40m│  [0;1;32;42m [0;1;37;40m█[0m      ▐[1;47m▐[0;1;40m█[0;1;42m▐[0;1;40m█▄ [0m▄[1;47m▄[0;1;40m█[0;1;42m▌[0;1;40m█▌ [0m▐[1;47m▐[0;1;40m█[0;1;42m▐[0;1;40m█▄ [0m▄[1;47m▄[0;1;40m█[0;1;42m▌[0;1;40m█▌  [0m█[1m█[0;1;42m▌[0;1;40m██    [0m█[1m█[0;1;42m▌[0;1;40m█▌   [0m▐[1;47m▐[0;1;40m█[0;1;42m [0;1;40m█[0m
          [1;47m [0;1;40m█[0;1;42m [0;32m▄▄▄▄▄[0;32;42m [0;1;37;40m█[0m       ▀[1;47m▀[0;1;40m█[0;1;42m▄[0;1;40m███▀██▀   [0m█[1m█▀██[0;1;42m▀[0;1;40m██▀██   [0m█[1m█▀█▌    [0m▐[1;47m▐[0;1;40m▀██   [0m█[1m██▀▌[0m
          ▀[1m▀▀▀▀▀▀▀▀▀[0m         ▀[1m▀▀▀  ▀[0m      ▀[1m▀ ▀▀▀  ▀    [0m▀[1m▀ ▀[0m      ▀[1m▀ ▀▀ [0m▀[1m▀▀ ▀[0m
-         2[1m15[0m-[1m435[0m-[1m1339 -[0m/[1m- Running Tg 2.7a -[0m/[1m- Elite Graphics Oriente[0md
-   C[1mC[0mi[1mNET -[0m/[1m- TCSNET -[0m/[1m- VaporNET Hub -[0m/[1m- RUMNET Hub -[0m/[1m- FishNET -[0m/[1m- Net9[0m6
-H[1muge VGA/ANS[0mi [1mSection -[0m/[1m- H/P/A Texts -[0m/[1m- Virii.Trojans -[0m/[1m- Mirage Member Boar[0md
+          [1m  [0m [1m   [0m [1m      [0m [1m                   [0m [1m                        [0m 
+    [1m [0m [1m     [0m [1m          [0m [1m                [0m [1m              [0m [1m           [0m [1m      [0m 
+ [1m           [0m  [1m         [0m [1m               [0m [1m                 [0m [1m                    [0m 
    [1m─[0m─[1m──[0m──[1m──[0m───[1m──[0m────    [31mA[0;1;31mN[0;1;33mS[0;1;30mi [0;31mP[0;1;31my[0;1;33mr[0;1;30mo [0;1;37m<[0;31mG[0;1;31mR[0;1;33mi[0;1;30mM[0;1;37m> .·■ [0mo[1m8/28/92 ■·.   [0m────[1m──[0m───[1m──[0m──[1m──[0m─[1m─[0m'

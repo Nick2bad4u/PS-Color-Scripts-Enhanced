@@ -5,7 +5,7 @@
 # Source SHA-256: 7b1521da013dccdea888a8f5856e3cafc1beffe31812342dbeca75638916d621
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-TPP1.ANS by Replay (mpir0494); released in mpir0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -52,7 +52,7 @@ Write-Host '
 [31m█▓▓▓▒▒▒▒▒░░░░░░░░[0m                 [1;30mpassing  my  Driver''s  License...  :)   But[0m
 [31m▓▓▒▒▒▒▒░░░░░░░[0m                    [1;30manyways, if  you want  a quality <-Ha! ansi[0m
 [31m▓▒▒▒▒░░░░░░░[0m                      [1;30mfrom  I or any  other Empire d00d, you  can[0m
-[31m▒▒▒▒░░░░░░░[0m                       [1;30mreach  us through  any major  net or board.[0m
+[31m▒▒▒▒░░░░░░░[0m                       [1;30m                                           [0m
 [31m▒▒▒▒▒░░░░░░░░[0m                     [1;30mGreets : GD (iCE iCE baby), CB, Somms, COA,[0m
 [31m▓▒▒▒▒▒▒░░░░░░░░░[0m                           [1;30mTanya  Harding ... :), the  Empire[0m
 [31m▓▓▓▒▒▒▒▒▒░░░░░░░░░░░░[0m                      [1;30mcrew, and ETERNiTY & RiOT ... uhm,[0m

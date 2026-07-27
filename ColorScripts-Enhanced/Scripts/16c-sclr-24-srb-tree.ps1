@@ -5,7 +5,7 @@
 # Source SHA-256: 9be0cb0939621c5a1a5f1a3111a0fb60164b383d47be43468eb05d758eef6a54
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SRB^TREE.ANS by sketch rimanez'01 (secular!forever); released in sclr-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: yolka! %)
 # SAUCE Author: sketch rimanez'01
 # SAUCE Group: secular!forever
@@ -55,8 +55,7 @@ Write-Host '
 
 
 [37m---[0m
-[37m Éáº, ñóá, Γα¿! ë«π½«τ¬á, ú«α¿!!![0m
+[37m                                 [0m
 
-[37m One, two, threee! Fire in the hole!!![0m
-[1;30m---[0m
- [1;30midea: psh[0m'
+[37m                                      [0m
+[1;30m---[0m'

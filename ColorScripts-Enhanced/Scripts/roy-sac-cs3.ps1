@@ -5,7 +5,7 @@
 # Source SHA-256: 41d84fac67942886710fb835535f53af51297f6c74627418c7088840bfc425b7
 # Source License: FAL-1.3
 # Source Attribution: ROY-CS3.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -34,12 +34,10 @@ Write-Host '
 
 [36m░▒▓█[0;36;42m▓▒[0;36m█▓▒░ [0;1m3 N[0mODES [1mH[0mS , [1m2 N[0mODES [1mI[0mSDN  -/\-  [1m2[0m,4 [1mG[0mIGs  -/\- [1mP[0mC-[1mB[0mOARD [36m░▒▓█[0;36;42m▓▒[0;36m█▓▒░[0m
 [36m    [0;32m▒▓[0m                                                                  [32m▓▒[0m
-[32m    ░▒[0m               [1mS[0mYSOP [1mi[0ms [1mR[0mOY  \ [1mS[0mAC * [1mD[0mYTEC * [1mT[0mDUJAM               [32m▒░[0m
-     [32m░[0m              [1mC[0mO''s [1ma[0mre [1mC[0mYZ , [1mC[0mHRISTO [1ma[0mnd [1mT[0mHE [1mO[0mUTLAWS              [32m░[0m
-     [32m▒[0m       [1mI[0mBM , [1mC[0mONSOLES , [1mC[0m64 , [1mD[0mEMOS -/\- [1ml[0marge [1mP[0mC-[1mB[0mOARD [1mA[0mREA      [32m▒[0m
+[32m    ░▒[0m               [1m [0m     [1m [0m  [1m [0m      [1m [0m     [1m [0m       [1m [0m                    [32m▒░[0m
+     [32m░[0m              [1m [0m    [1m [0m   [1m [0m     [1m [0m       [1m [0m   [1m [0m   [1m [0m                    [32m░[0m
+     [32m▒[0m       [1m [0m     [1m [0m          [1m [0m     [1m [0m          [1m [0m     [1m [0m  [1m [0m     [1m [0m         [32m▒[0m
 [32m    ░▓░[0m                                                                [32m░▓░[0m
      [32m▀[0m       [1m*[0m-[1m<>[0m---------------------------------------------[1m<>[0m-[1m*[0m      [32m▀[0m
 
-                [1mS[0m/┤C  - [1mS[0mUPERiOR [1mA[0mRT [1mC[0mREATiONS [1mW[0mORLD[1mH[0mEAD[1mQ[0mUARTER
-               [1mD[0mYTεC - [1mD[0mYNAMIC [1mT[0mECHNOLOGIES [1m   W[0mORLD [1mH[0mEAD[1mQ[0mUARTER
-               [1mL[0mSD - [1mL[0mIGHT [1mS[0mPEED [1mD[0mISTRIBUTORS [1mG[0mERMAN [1mH[0mEAD[1mQ[0mUARTER[0m'
+                [1m [0m ┤     [1m [0m        [1m [0m   [1m [0m         [1m [0m    [1m [0m   [1m [0m      [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 24c85d790e492c7e5aee65944408290540a0efae60114e47db219eeb82c1581e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GD-ELF.ANS by Eris (ali-0594); released in ali-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 62-105
 # Columns: 1-80
 
@@ -35,21 +35,21 @@ Write-Host '
 
 
                    [1;35m┌[0;35m──[0;1;30m┐  [0;1;35m┌─[0;35m──[0;1;30m────────[0;35m──[0;1;35m───[0;35m──[0;1;30m───────[0;35m──[0;1;35m─┐  [0;1;30m┌[0;35m──[0;1;35m┐[0m
-                   [35m│  │   [0;1;35mEl[0;35mec[0;1;30mtronic Le[0;35mag[0;1;35mue [0;1;30mof Free[0;35mdo[0;1;35mm   [0;35m│  │[0m
+                   [35m│  │   [0;1;35m  [0;35m  [0;1;30m         [0;35m  [0;1;35m   [0;1;30m       [0;35m  [0;1;35m    [0;35m│  │[0m
                    [1;30m└[0;35m─[0;1;35m─┼──┼─[0m                          [1;35m─┼──┼─[0;35m─[0;1;30m┘[0m
                    [1;35m┌──┼─[0m                                [1;35m─┼──┐[0m
-                   [1;35m│[0m              [1;37mW[0;1;35ma[0;35ms[0;1;30mte[0;1;37mN[0;1;35me[0;35mt W[0;1;35mH[0;1;37mQ[0m              [1;35m│[0m
-                   [1;35m│[0m          [1;37mS[0;1;35mL[0;35mi[0;1;30mVER Central US [0;1;35mH[0;1;37mQ[0m          [1;35m│[0m
-                   [1;35m│[0m           [1;37mF[0;1;35m.[0;35mU[0;1;30m.C.K Distro S[0;35mi[0;1;35mt[0;1;37me[0m          [1;35m│[0m
+                   [1;35m│[0m              [1;37m [0;1;35m [0;35m [0;1;30m  [0;1;37m [0;1;35m [0;35m   [0;1;35m [0;1;37m [0m              [1;35m│[0m
+                   [1;35m│[0m          [1;37m [0;1;35m [0;35m [0;1;30m               [0;1;35m [0;1;37m [0m          [1;35m│[0m
+                   [1;35m│[0m           [1;37m [0;1;35m [0;35m [0;1;30m             [0;35m [0;1;35m [0;1;37m [0m          [1;35m│[0m
                    [1;35m│[0m                                        [1;35m│[0m
-                   [1;35m│[0m                [1;37mN[0;1;35mo [0;1;30mWa[0;35mr[0;1;35me[0;1;37mZ[0m                [1;35m│[0m
-                   [1;35m│[0m               [1;37mN[0;1;35mo [0;1;30mBulls[0;35mh[0;1;35mi[0;1;37mt[0m              [1;35m│[0m
-                   [1;35m│[0m            [1;37mJ[0;1;35mu[0;35ms[0;1;30mt Fuckin'' [0;35mA[0;1;35mR[0;1;37mT[0m            [1;35m│[0m
+                   [1;35m│[0m                [1;37m [0;1;35m  [0;1;30m  [0;35m [0;1;35m [0;1;37m [0m                [1;35m│[0m
+                   [1;35m│[0m               [1;37m [0;1;35m  [0;1;30m     [0;35m [0;1;35m [0;1;37m [0m              [1;35m│[0m
+                   [1;35m│[0m            [1;37m [0;1;35m [0;35m [0;1;30m          [0;35m [0;1;35m [0;1;37m [0m            [1;35m│[0m
                    [1;35m└──┼─[0m          [1;37m3[0;1;35m1[0;35m4[0;1;30m.272.3[0;35m4[0;1;35m2[0;1;37m6[0m          [1;35m─┼──┘[0m
                    [1;30m┌[0;35m─[0;1;35m─┼──┼─[0m                          [1;35m─┼──┼─[0;35m─[0;1;30m┐[0m
                    [35m│  │  [0;1;35m│[0m                            [1;35m│  [0;35m│  │[0m
                    [1;35m└[0;35m──[0;1;30m┘  [0;1;35m└─[0;35m──[0;1;30m────────[0;35m──[0;1;35m───[0;35m──[0;1;30m───────[0;35m──[0;1;35m─┘  [0;1;30m└[0;35m──[0;1;35m┘[0m
 
 [1;37m──[0;1;35m──[0;35m──[0;1;30m────────────────────────────[0;35m──[0;1;35m──[0;1;37m───[0;1;35m──[0;35m──[0;1;30m─────────────────────────────[0;35m──[0;1;35m──[0;1;37m──[0m
-                    [1;30m/┤nsi by: [0mEris [1;30mFont by: [0mGideon[FeAR/CRiME]
+                    [1;30m ┤        [0m     [1;30m         [0m                  
 [1m──[0;1;35m──[0;35m──[0;1;30m────────────────────────────[0;35m──[0;1;35m──[0;1;37m───[0;1;35m──[0;35m──[0;1;30m─────────────────────────────[0;35m──[0;1;35m──[0;1;37m──[0m'

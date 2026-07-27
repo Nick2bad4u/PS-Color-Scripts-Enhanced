@@ -5,7 +5,7 @@
 # Source SHA-256: 771a7c1075b61177a1564cb942ce1a2649f7aa61289431e872a1dd6f2ba1c82b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MO-GEST.ANS by magnatOp (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gesTalt
 # SAUCE Author: magnatOp
 # SAUCE Group: Revival
@@ -31,11 +31,4 @@ Write-Host '
  [1;33m [0;34m▄▄▄[0m                [1;33m███ ▀ ███▀[0m   [1;33m▀▀▀▀▀██[0;1;33;47m▓[0;1;33;40m▀▀▀▀[0m        [34m▄▄▄[0m         [30;43m▓▓[0;1;33;43m░[0;1;31;43m░[0;1;31;41m▓[0;1;31;43m████[0;1;33;40m█[0m
  [30;44m▓[0;1;34;44m░░[0;34m█[0m                      [1;33m▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀[0m                          [1;33m▀▀▀██▀▀▀[0m
  [1;33m [0;34m▀▀▀[0m                       [34m█[0;1;34;44m░░[0;30;44m▓[0m                                       [1;33;40m   [0;34m█[0;30;44m░░▓[0m
-                            [34;40m█[0;30;44mmO[0m                                        [1;33;40m  [0m
-
--------------> snipy snipppy snipppppy .. snitptftpy ..
-gestalt .. my mirc script .. that is in development .. starting at v0.1 ...
-i am not a programmer .. or a coder, and never have been.. i''m terrible at it
-but i thought it''d be fun to try to write a mirc script .. so far, i have a
-few aliases that do things like join channels and other assorted things..
-if you''d like to join the gestalt coding team, let me know .. :P[0m'
+                            [34;40m█[0;30;44mmO[0m                                        [1;33;40m  [0m'

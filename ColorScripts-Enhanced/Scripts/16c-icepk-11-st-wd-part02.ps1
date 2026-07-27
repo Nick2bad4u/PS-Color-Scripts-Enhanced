@@ -5,7 +5,7 @@
 # Source SHA-256: 7a89efb2918d95717575e58783683dbb905a06a9b56031953deb5658cc87dc25
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-WD.ICE by Stiletto (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 39-83
 # Columns: 1-80
 
@@ -49,9 +49,9 @@ Write-Host '
        [1;30m╔════════════════════════════════════════════════════════════════╗[0m
        [1;30m║[0m        ∙ [1mT h e    W e l f a r e    D e p a r t m e n t [0m∙       [1;30m║[0m
        [1;30m║[0m                                                                [1;30m║[0m
-       [1;30m║[0m      SysOp[1;30m: [0;1;37mGun Runner [0;1;30m∙ [0mCoSys[1;30m: [0;1;37mDark Spyre[0;1;30m, [0;1;37mMarble Wrasse[0m      [1;30m║[0m
-       [1;30m║  [0mRunning on [1m486[0;1;30m-[0;1;37m4O [0mpower w[1;30m/[0;1;37m5OO [0mMB Online [1;30m& [0;1;37m16[0;1;30m.[0;1;37m8 [0mDual Standard  [1;30m║[0m
-       [1;30m║[0m       [1;37mIUD [0mDistribution Site [1;30m∙ [0;1;37mDNA [0;1;30m∙ [0;1;37mV[0mi[1mS[0mi[1mON[0;1;30m-[0;1;37mX [0;1;30m& [0;1;37mFelony[0mNET       [1;30m║[0m
-       [1;30m║[0m             The number to call is[1;30m: [[0;1;37m916[0;1;30m] [0;1;37m729[0;1;30m-[0;1;37m2112[0m              [1;30m║[0m
+       [1;30m║[0m           [1;30m  [0;1;37m           [0;1;30m  [0m     [1;30m  [0;1;37m          [0;1;30m  [0;1;37m             [0m      [1;30m║[0m
+       [1;30m║  [0m           [1m   [0;1;30m [0;1;37m   [0m       [1;30m [0;1;37m    [0m          [1;30m  [0;1;37m  [0;1;30m [0;1;37m  [0m               [1;30m║[0m
+       [1;30m║[0m       [1;37m    [0m                  [1;30m  [0;1;37m    [0;1;30m  [0;1;37m [0m [1m [0m [1m  [0;1;30m [0;1;37m  [0;1;30m  [0;1;37m      [0m          [1;30m║[0m
+       [1;30m║[0m                                  [1;30m   [0;1;37m   [0;1;30m  [0;1;37m   [0;1;30m [0;1;37m    [0m              [1;30m║[0m
        [1;30m║[0m                                                                [1;30m║[0m
-       [1;30m╚═══[ [0;1;37mANS[0mi [1mDonated by[0m: [1mStiletto [0m∙ [1miCE[0m([1mtm[0m) [1mAdvertisements 1992 [0;1;30m]══╝[0m'
+       [1;30m╚═══  [0;1;37m   [0m  [1m          [0m  [1m         [0m  [1m   [0m [1m  [0m  [1m                    [0;1;30m ══╝[0m'

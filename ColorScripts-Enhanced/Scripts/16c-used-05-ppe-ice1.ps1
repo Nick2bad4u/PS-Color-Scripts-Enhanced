@@ -5,7 +5,7 @@
 # Source SHA-256: cb602567dbdd8a53b5c79b16e85adcb9b874f7f0b57ff42f2c2ecb2f1f36d8c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-ICE1.ANS by propane (The Used Coalition); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: propane
 # SAUCE Group: The Used Coalition
 # SAUCE Date: 20000510
@@ -35,5 +35,5 @@ Write-Host '
     [34m▄[0;37m [0m   [34m▄▀[0;37m  [0;1;30m▄[0m      [1;30m▒[0m  [34m■[0m    [34m▄▀▀[0m     [1;30m▄■[0m        [34m■[0m    [34m▄▀▀[0m        [1;30m░░[0m    [1;30m▐▌[0m     [1;30m░[0m
         [34m■[0m     [1;30m▀[0m     [1;30m░[0m    [34m▄[0m                      [34m▄[0m                          [1;30m░[0m
     [1;30m▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
-    [1;30m█[0m [1;30m  [0m [1mansi ansi ansi[0;1;30m        [0m  [1;33mI[0m [1m [0m [1;33mC[0m    [1;33mE[0;1;30m [0m         [1m [0m [1mppe[0;1;30m [0;1;37mppe ppe ppe  [0;1;30m [0m [1m [0;1;30m░[0m
+    [1;30m█[0m [1;30m  [0m [1m              [0;1;30m        [0m  [1;33m [0m [1m [0m [1;33m [0m    [1;33m [0;1;30m [0m         [1m [0m [1m   [0;1;30m [0;1;37m             [0;1;30m [0m [1m [0;1;30m░[0m
     [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

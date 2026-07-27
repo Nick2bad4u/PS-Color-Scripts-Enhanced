@@ -5,7 +5,7 @@
 # Source SHA-256: 549d6b8ae865ea7b2f4a594ae7ffa7b118732eb5126ef927327bc26696d472f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-CAES3.ANS by Andrew Nice (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Caesar's Palace
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -55,5 +55,4 @@ D          [33m▀▀█████▄[0m            [33m▀▀▀[0m      
 ▀ ▀▄▀[1;30;47m░[0m [1;30;47m▒░[0m [1;30;47m▒░[0m [1;30;47m▒░[0m ▐[1;30;47m░[0;1;30m▌[0m▐[1;30;47m▒[0;1;30m▌[0m▐[1;30;47m▒▒[0;1;30m▌[0m▐[1;30;47m▒[0;1;30m▌[0m▐[1;30;47m▒[0;1;30m▌[0m▐[1;30;47m▒[0m [1;30;47m▒[0;1;30m▌[0m▐[1;30;47m▒▒[0;1;30m▌[0m▐[1;30;47m▒[0;1;30m▌[0m▐[1;30;47m▒[0;1;30m▌[0m▐[1;30;47m▒[0;1;30m▌[0m▐[1;30;47m▒[0;1;30m▌[0;1;30;47m▒▓[0m [1;30;47m▒▓[0m [1;30;47m░▓[0m [1;30;47m░[0m
       ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀[1;30;47m░[0m [1;30;47m░░[0m [1;30;47m▒░[0m [1;30;47m▒░[0m [1;30;47m▒░[0m [1;30;47m░░[0m [1;30;47m░░[0m [1;30;47m░▒[0m [1;30;47m░▒[0m [1;30;47m░▒[0m [1;30;47m░▒[0m [1;30;47m░[0;1;30m▌[0m▐[1;30;47m░[0m▀ ▀ [1;30m▄▄ ▄▄ ▄ ▄ ▄ ▄▄ █[0;1;30;47m▓[0m
 [1;30;47m█▓[0;1;30m▀▄▄ ▄▄ ▄▄ ▄▄   ▄▄ [0;1;30;47m▓[0;1;30m▄  [0m▀  ▀  ▀  ▀  ▀ ▀▀ ▀  ▀  ▀  ▀ [1;30m▄  ▄▄ ▀[0;1;30;47m▓[0;1;30m▌▐[0;1;30;47m▓[0;1;30m▌▐[0;1;30;47m▓[0m [1;30;47m▓[0;1;30m▌▐▌▐▌▐[0;1;30;47m▓[0;1;30m▌▐[0;1;30;47m▒[0m
-[1;30;40m▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄[1;30m▄[0m▄▄▄▄▄▄▄▄▄[1m▄[0m▄▄[1m▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1m▄[0m▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄[1;30m▄[0m▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄[0m
-'
+[1;30;40m▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄[1;30m▄[0m▄▄▄▄▄▄▄▄▄[1m▄[0m▄▄[1m▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1m▄[0m▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄[1;30m▄[0m▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄[0m'

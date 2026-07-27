@@ -5,7 +5,7 @@
 # Source SHA-256: a18fdbe67511764be20de2b7004589379b52ca9182eb717aaf290dee20b81a4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-PROX.ANS by Sliver Cut (corp-3); released in corp-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 36-69
 # Columns: 1-80
 
@@ -39,8 +39,7 @@ Write-Host '
      [31m░[0m          [1;33m▐▄[0;33m▄▄ [0;31m▀████[0;1;31;41m█[0m [33m▄▄[0;1;33m▄▌[0m      [1;33m▀[0;33m▀▀▀▀▀▀▀[0;1;33m▀[0m         [31m░[0m
           [31m░[0m            [31m▀[0;1;31m▀▀[0m                                         [31m░[0m
 [1;30m▀ ▀  [0;31m░    ░[0m                      [1;31mP[0;31mROJECT - [0;1;31mX[0m                       [31m░  [0;1;30m▀▀ ▀▀▀▀ ▀[0m
-          [31m▒[0m            [1;31ms[0;31mtaff :sliver cut, nyc-kid, anima[0;1;31ml[0m          [31m▒[0m
-          [31m▓[0m         [1;31mC[0;31moRP/SYNTAX ERRoR/ELiXiR/PSYCHOSiS/GU[0;1;31mM[0m         [31m▓[0m
+          [31m▒[0m            [1;31m [0;31m                                [0;1;31m [0m          [31m▒[0m
+          [31m▓[0m         [1;31m [0;31m                                    [0;1;31m [0m         [31m▓[0m
           [31m█[0m                                                        [31m█[0m
-          [31m█▄▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0;31m▄[0;1;31m▄▄ansi b[0;31my sliver cut CORP PROD[0;1;31mU[0;31mCTi[0;1;31mO[0;31mN[0;1;31mS 1994▄▄[0;31m▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0;31m█[0m
-                                [1;31ma 8[0;31m0x50 joi[0;1;31mnt[0m'
+          [31m█▄▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0;31m▄[0;1;31m▄▄ansi b[0;31my sliver cut CORP PROD[0;1;31mU[0;31mCTi[0;1;31mO[0;31mN[0;1;31mS 1994▄▄[0;31m▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0;31m█[0m'

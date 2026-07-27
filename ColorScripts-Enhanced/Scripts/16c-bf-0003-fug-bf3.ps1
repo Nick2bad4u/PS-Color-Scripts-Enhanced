@@ -5,7 +5,7 @@
 # Source SHA-256: 05abe0a9941c0fa42d9204fbf7b2f906a3365d9bb55f39c3cc62ff1b95969456
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FUG-BF3.ANS by Fugitivo (bf-0003); released in bf-0003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -33,5 +33,4 @@ Write-Host '
 [37m [0;36m▀[0;1;36;46m▀▀▀▄▄▄[0;36m▄▄▄▄[0;37m  ▀▀▀▀ [0;36m▄▌[0;37m ■▄ [0;36m▀[0;1;36;46m ▀█▓██[0;36m█▄[0;37m ▀■ [0;36m▄▄[0;1;36;46m▓[0m  ▀█ [35m▀[0;1;35;45m▀[0;35m█▄[0;37m  [0;35m▄▄▄█[0;1;35;45m▄▄▀[0;35m▀▀[0;37m ▄▄▄▄[0m   [37mfug![0m
     [36m▀▀▀▀█[0;1;36;46m▀▀▄[0;36m██[0;1;36;46m▐▄▓[0;36m█▀[0;37m ▬ ▀    [0;36m▀▀▀▀▀▌[0;37m  [0;36m▄▄█[0;1;36;46m▀█▄▄[0;36m█▄[0;37m ▀▄▄[0;35m ▀[0;37m [0;35m▀▀▀[0;37m ▄▄▄▄▄█[0;1;37;47m▄▀[0m▀
               [36m▀▀▀▀▀[0m          [36m■[0m        [36m▀▀▀▀[0m     [37m ▀▀▀▀▀▀▀▀▀▀[0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mbioforce logo... ea ea pepe[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

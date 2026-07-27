@@ -5,7 +5,7 @@
 # Source SHA-256: 79e2c402d5d36c347659913418c87b485c5cfe0fff2876e58430bea580bb4e22
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HD_CMAN.ANS by h0ND0 (Lithium); released in ltm-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Newskull 3     "Corbatin man"
 # SAUCE Author: h0ND0
 # SAUCE Group: Lithium
@@ -22,10 +22,10 @@ Write-Host '
        [1;30m! cOR[0mBA[1mTIN [0mm[1;30mAN  ![0m      [32m`$$$$$$$$$$$$$$$$$''[0m
        [1;30m`÷,÷²[0m÷,[1m÷²÷[0m,÷[1;30m²÷,÷²[0m       [32m`²$$$$²$$$²$$$$²''[0m
                                   [32m`$$s$$$s$$''   [0;1;30m,÷,÷²÷,÷²÷[0m,÷²[1m÷,÷²÷[0m,÷²[1;30m÷,÷²÷,÷²÷,[0m
-                                    [32m`$$$$$''[0m     [1;30m! cORBATIN [0mdO[1mG mAN[0mCHU[1;30mS nEGRAS ![0m
+                                    [32m       [0m     [1;30m           [0m  [1m     [0m   [1;30m          [0m
                                      [32m`°²°''[0m      [1;30m`÷²÷,÷²÷,÷[0m²÷,[1m÷²÷,÷[0m²÷,[1;30m÷²÷,÷²÷,÷²[0m
                                       [1;30m,$,[0m
-[1;30m    [0my sU aMiGO iNSEPARABLE...      ,s[1;30m#[0;1;35m$$$[0;1;30m#[0ms,
+[1;30m    [0m                                 [1;30m [0;1;35m   [0;1;30m [0m  
                                 ,s$$$[1;30m$$[0;1;35m$[0;1;30m$$[0m$$$s,            [1m$,[0m      [1m,$[0m
                               ,$$²$$$[1;30m$[0;1;35m$$$[0;1;30m$[0m$$$²$$,          [1m`$s²$$²s$''[0m
                               $$$ $$$[1;30m$[0;1;35m$$$[0;1;30m$[0m$$$ $$$           [1m$$s²²s$$[0m

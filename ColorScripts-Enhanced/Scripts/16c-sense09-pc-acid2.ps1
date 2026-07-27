@@ -5,7 +5,7 @@
 # Source SHA-256: a4c36a37e255a84ac3e5347b45caf3abcc2e90c671cb8c3d251f8f8953509840
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-ACID2.ANS by Proctologist (SeNsE); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Acid Infection menu
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNsE
@@ -29,10 +29,10 @@ Write-Host '
 [36m$$[0;1;36m$$[0;36m$[0;1;36m$[0;36m$[0;1;36m$$[0;36m$[0;1;36m$[0;36m$[0;1;36m$$S[0;36mⁿ[0;1;36m''[0;36m `[0;1;36m$$$[0;36m$[0;1;36m$[0;36m$$[0;1;36m$[0;36m$$[0;1;36m$[0;36mS*╜[0;1;36mⁿ[0;36m?[0;1;36m$P""ⁿ╜S[0;36m$$[0;1;36m$[0;36m$[0;1;36m$$[0;36m$$[0;1;36m$[0;36m$[0;1;36mP"[0;36m"[0;1;36mⁿ?[0;36m$[0;1;36m$[0;36m$[0;1;36m$$[0;36m$[0;1;36m$$$[0;36m:╖[0;1;36m╖[0;36m╖╖[0;1;36m╖P[0;36m`[0;37m    [0;1;36m`$[0m
 [1;36ml[0;36m''[0m   [1;36m`"$ⁿ"`[0m         [1;36m`ⁿ╜*[0;36mS[0;1;36m$P"[0;36m`[0m      [1;36m`.[0m      [36m`[0;1;36m"ⁿⁿ"[0;36m^[0;1;36m`[0m       [1;36m`$"`[0m     [1;36m`[0;36m^[0;1;36m"╜$''[0m  [31mp[0;1;31mC[0m   [1;36m$[0m
 [1;36m:[0m     [1;36m.''[0m                  [1;36m`[0m                               [1;36m''[0m           [1;36m`∙[0m       [1;36ml[0m
-              [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m     [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m    [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m              [1;36m:[0m
- [1;35mi[0m            [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m     [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m    [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m              [36m.[0m
-[1;35m,$b,[0m          [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m     [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m    [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m              [1;35m.[0m
-[1;35m$[0;35m$[0;1;35m$P[0;35mⁿ[0;1;35m"[0;35m~[0m       [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m     [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m    [32m<[0;1;32mS[0;32m>[0;1;30mchtuff here[0m              [1;35m:[0m
+              [32m [0;1;32m [0;32m [0;1;30m           [0m     [32m [0;1;32m [0;32m [0;1;30m           [0m    [32m [0;1;32m [0;32m [0;1;30m           [0m              [1;36m [0m
+ [1;35m [0m            [32m [0;1;32m [0;32m [0;1;30m           [0m     [32m [0;1;32m [0;32m [0;1;30m           [0m    [32m [0;1;32m [0;32m [0;1;30m           [0m              [36m [0m
+[1;35m    [0m          [32m [0;1;32m [0;32m [0;1;30m           [0m     [32m [0;1;32m [0;32m [0;1;30m           [0m    [32m [0;1;32m [0;32m [0;1;30m           [0m              [1;35m [0m
+[1;35m [0;35m [0;1;35m  [0;35m [0;1;35m [0;35m [0m       [32m [0;1;32m [0;32m [0;1;30m           [0m     [32m [0;1;32m [0;32m [0;1;30m           [0m    [32m [0;1;32m [0;32m [0;1;30m           [0m              [1;35m [0m
 [1;35m$[0;35m$[0;1;35m''[0m                                                                            [1;35ml[0m
 [1;35m$[0;35ml[0m       [37m     [0;1;35m`[0;35m,[0;37m [0m     [1;35m.[0m                [1;35m_[0;35m_[0;37m   [0m    [1;35m_[0m     [35m,[0;37m  [0;1;35m`.[0;35m_[0m            [1;35m_,∙[0m [35m_[0;1;35m.[0;35m╖[0;1;35m$[0m
 [35m$$b[0;1;35m╖[0;35m,[0;1;35m.[0;35m_[0m     [35m .[0;1;35md[0;35m$,[0m    [35m ,[0;1;35m$[0;35m, [0;1;30m:::[0;35m ,d$$b[0;1;35m,[0m   [1;35m`[0;35mYb,[0m   [35m,d[0;1;35m''[0;35m  [0;1;35m_[0;35m,d,[0m    [35m`Y#g[0;1;35m╖[0;35m,._ _,[0;1;35md[0;35m$P[0;1;35m`,d[0;35m$$$$[0m
@@ -40,8 +40,8 @@ Write-Host '
 [35m$[0;1;30m$$[0;35mP [0;1;30md$[0;35m$[0;1;30m$$[0;35m$$[0;1;30m$$[0;35mb [0;1;30m?[0;35m$[0;1;30m$[0;35m$[0;1;30m$$[0;35m$[0;1;30m$[0;35m$[0;1;30m$$[0;35m#[0;1;30m#[0;35m$[0;1;30m$$$$[0;35m$$[0;1;30m$$$[0;35m$[0;1;30mP''[0;35m,d[0;1;30m$$[0;35m'',$[0;1;30m$$[0;35m$$[0;1;30m$[0;35m$[0;1;30m$$$[0;35m$$[0;1;30m$$$[0;35m$[0;1;30m$$$[0;35m$[0;1;30m$$[0;35m$$[0;1;30m$b[0;35m,`[0;1;30m?$[0;35m$[0;1;30m$[0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mYeah, the colors are a little weird.  I wasn''t sure how to color it and wanted [0m
-[1;30mto try something a little different.  Was requested by Apix Kaw/HeXD/Project X[0m
-[1;30mor whatever the hell else he calls himself. :)[0m
+[1;30m                                                                               [0m
+[1;30m                                                                              [0m
+[1;30m                                              [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

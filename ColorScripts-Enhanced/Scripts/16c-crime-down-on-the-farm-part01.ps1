@@ -5,7 +5,7 @@
 # Source SHA-256: 81eb2d9cf8c66ccd314fed58638314f5a6f562d17efcdd47e310a9852b1b3f1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: down on the farm.ans by Filth (crime); released in crime and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20160126
 # SAUCE Dimensions: 80x132
 # SAUCE Font: IBM VGA
@@ -20,13 +20,13 @@ Write-Host '
 
 
 
-[35;40m   ♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠[0;37;40m [0;35;40mthis is a character from a web comic a friend of my put out[0m
-[35;40m   called "Graveyard Shift". i thought it''d be cool to do an ansi of something[0m
-[35;40m   created by someone i know.[0;37;40m [0;35;40mthe comic revolves around just about every single[0m
-[35;40m   monster/creature/horror whatev''s who hang out at a coffee joint and doing[0m
-[37;40m   [0;35;40msadistic and gross things to each other. very good times![0m
+[35;40m                  [0;37;40m [0;35;40m                                                           [0m
+[35;40m                                                                              [0m
+[35;40m                             [0;37;40m [0;35;40m                                                 [0m
+[35;40m                                                                            [0m
+[37;40m   [0;35;40m                                                         [0m
 
-                             [1;36;40mhttp://graveyardshift.biz/[0m
+                             [1;36;40m                          [0m
 
 
 

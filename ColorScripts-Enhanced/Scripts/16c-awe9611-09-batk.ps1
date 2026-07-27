@@ -5,7 +5,7 @@
 # Source SHA-256: 91e32abb727c5ec11d30616c3f41776196fe4bcb5a050c4cd9b3fb14aa289fa4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 09-BATK.ANS by Fluor (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Batkave Menu
 # SAUCE Author: Fluor
 # SAUCE Group: AWE Lettering
@@ -32,10 +32,10 @@ Write-Host '
 [1;31;41m█[0;1;31;40m▀[0;1;31;41m▄[0;31m▀▀▀■▄[0;1;37m [0;31m▀▌[0;1;37m  ▄■▀▀▀▀▀▀▀█[0;1;37;47m█▀▐▓[0;1;37;40m▓▌▀▀ [0;1;31;40m▄[0;31m▄▀[0;1;31;41m▀[0;1;31;47m▓[0;1;31;40m▄▄[0m [1;31m░[0;1;37m ▬■▀[0m   [31m▐[0;1;31;41m▐▓▀[0;1;31;47m▄[0;31m▀[0;1;37m [0;31m▄[0;1;31;41m▐▓[0;1;31;47m█[0;1;31;40m▌[0;1;30;40m█[0;1;30;47m▄[0;1;37;40m▀▀▀▀▀▀▀[0m▀[1m [0;1;31m░[0;1;31;41m▒▓[0;1;31;40m▌[0;1;37;40m [0;31m▌▓[0;30;41m░[0;1;31;41m░[0m
 [1;31;47m▓[0;1;31;40m▀[0;1;31;41m▓[0;31m▀▀▀▀▀▀▀▌[0;37m [0;31m▄▄▄▄[0;1;31;41m▀[0;31m▀▀▀[0;1;37m ░▌▀[0;1;30m▀█[0;30;47m▓[0;1;37;40m░[0m    [31m▀[0m    [1;31m▀[0;31m▀▐[0;1;31m▓[0;1;31;41m▓[0;31m▄▄▄[0;1;31m▄[0;31m ▄[0;1;31;41m▄[0;1;31;47m▓[0;1;31;41m▀[0;31m▄[0;1;31m▄[0;31m▄▐[0;1;31;41m▄[0;1;31;47m▓█[0;1;31;41m▀[0;31m▄▄▄▄▄▌[0;1;37m [0;31m░▓▄▄ ▐[0;1;31;41m▓[0;1;31;40m▀[0;1;37;40m   [0;30;41m▓[0;31;40m░▓[0m
 [1;31;41m▓[0;1;31;40m░[0;1;31;41m▒[0;1;31;40m░[0m               [1m   [0m   [1;30m▀░[0m  [1;30m─[0m [31mbatkave[0;1;31m,..[0m [1;31m.[0;1;37m [0m [31m▀[0;37m [0;31m ▀[0m   [31m▀[0;37m [0;31m▐▀[0;1;31m▀[0m     [31m ▀   ░[0;1;37m  [0;31m■▀[0;1;31m▐░[0m     [31m░[0m
-[1;31;41m░[0m [1;31;41m░[0m    [1;31m[[0;1;37mA[0;1;31m][0;31m command A[0m         [1;31m[[0;1;37mE[0;1;31m][0;31m command E[0m         [1;31m[[0;1;37mI[0;1;31m][0;31m command I[0;37m [0;31m [0m
-[1;31;41m [0m [1;33;41m░[0m   [31m [0;1;31m[[0;1;37mB[0;1;31m][0;31m command B[0m         [1;31m[[0;1;37mF[0;1;31m][0;31m command F[0m         [1;31m[[0;1;37mJ[0;1;31m][0;31m command J[0m              [31m [0m
-[1;33;41m░[0;1;33;40m░[0;1;33;41m▓[0;1;33;40m░[0m [31m  [0;1;31m[[0;1;37mC[0;1;31m][0;31m command C[0m         [1;31m[[0;1;37mG[0;1;31m][0;31m command G[0m         [1;31m[[0;1;37mK[0;1;31m][0;31m command K[0m             [1;37m [0;1;31m▐[0m
-[1;33;41m▓[0m [1;33m▐▌[0m   [1;31m[[0;1;37mD[0;1;31m][0;31m command D[0m         [1;31m[[0;1;37mH[0;1;31m][0;31m command H[0m         [1;31m[[0;1;37mL[0;1;31m][0;31m command L[0m        [1;37m [0;1;31m▄■ [0;31m▄[0;1;31;41m▄[0;1;31;40m▓░[0m
+[1;31;41m░[0m [1;31;41m░[0m    [1;31m [0;1;37m [0;1;31m [0;31m          [0m         [1;31m [0;1;37m [0;1;31m [0;31m          [0m         [1;31m [0;1;37m [0;1;31m [0;31m          [0;37m [0;31m [0m
+[1;31;41m [0m [1;33;41m░[0m   [31m [0;1;31m [0;1;37m [0;1;31m [0;31m          [0m         [1;31m [0;1;37m [0;1;31m [0;31m          [0m         [1;31m [0;1;37m [0;1;31m [0;31m          [0m              [31m [0m
+[1;33;41m░[0;1;33;40m░[0;1;33;41m▓[0;1;33;40m░[0m [31m  [0;1;31m [0;1;37m [0;1;31m [0;31m          [0m         [1;31m [0;1;37m [0;1;31m [0;31m          [0m         [1;31m [0;1;37m [0;1;31m [0;31m          [0m             [1;37m [0;1;31m▐[0m
+[1;33;41m▓[0m [1;33m▐▌[0m   [1;31m [0;1;37m [0;1;31m [0;31m          [0m         [1;31m [0;1;37m [0;1;31m [0;31m          [0m         [1;31m [0;1;37m [0;1;31m [0;31m          [0m        [1;37m [0;1;31m▄■ [0;31m▄[0;1;31;41m▄[0;1;31;40m▓░[0m
 [1;33;40m▐▌[0;1;37;40m [0;1;33;40m▀[0;1;31;40m▄[0m                                                                 [1m [0;1;31m▄▀[0m   [31m▐[0;1;31;41m▓░[0m
 [1;33m▐[0;1;31m▀[0;31m▄[0;1;37m  [0;31m▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31;41m▄[0;31m▄▄ [0;1;31m░▓▌─[0;1;37m  [0m [31m▐[0;1;31;41m░[0;31m▌[0m
    [31m▀▀▄▄▄▄▄▄▄▄▄▄▄▌ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▐▀   [0;1;37m [0;1;31m░[0m [1m  [0;31m▄▄█▀[0m'

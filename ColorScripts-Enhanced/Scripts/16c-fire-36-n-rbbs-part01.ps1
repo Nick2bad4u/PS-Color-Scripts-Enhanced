@@ -5,7 +5,7 @@
 # Source SHA-256: ac33d3308c7b0b3844041139999130556f25e8fa8b84ca7c977533936efba689
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-RBBS.ANS by nail (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rbbs
 # SAUCE Author: nail
 # SAUCE Group: fire
@@ -17,7 +17,7 @@
 
 Write-Host '
 [1;30;40m▌▄[0m▄
-▌▀[1;33;47m▀[0;1;33;40m▒░ ░ [0;1;37;40mRBBS - Royal Belgian Beer Squad[0m
+▌▀[1;33;47m▀[0;1;33;40m▒░ ░ [0;1;37;40m                               [0m
 [1;30;47m▄[0;1;30;40m▌▄ ■[0m
 [1;30;40m▓▀[0m
 
@@ -42,5 +42,4 @@ Write-Host '
                     [33m    ▀[0;1;33;43m▀░[0;33m████▓▄▄█[0;1;33;43m▀[0;33m███[0;1;33;43m [0;33m█[0;1;33;43m░[0;33m██▓▄▄█████▀▓▀[0m
                           [33m▀[0;1;33;43m▀[0;33m█[0;1;33;43m░░[0;33m████████▌[0;1;33;43m░░[0;33m██████▀▀█▄▀[0m
                              [33m▀▀▓▓▓▀▀▓▄▀ ▀[0;1;33;43m▀░░[0;33m█▓▓▓▀▀[0m
-                                  [33m▀▀▀ n!  ▀▀▀[0m
-'
+                                  [33m▀▀▀ n!  ▀▀▀[0m'

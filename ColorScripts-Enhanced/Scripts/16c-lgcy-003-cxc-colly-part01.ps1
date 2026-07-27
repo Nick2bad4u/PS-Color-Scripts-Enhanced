@@ -5,7 +5,7 @@
 # Source SHA-256: fb75ed53309885cb2005db0d1adefebdc60a3fdea6fa97b904482efb5cec5438
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cxc-colly.ans by Coax Cable (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BBS screens and logo colly
 # SAUCE Author: Coax Cable
 # SAUCE Group: Legacy Krew
@@ -17,7 +17,7 @@
 
 Write-Host '
 [37;40m [0;32;40m--─────────────────────────────────────────────────────────────────────────---[0m
-[37;40m [0;1;37;42m >> iNK tWO BBS matrix screen                                                 [0m
+[37;40m [0;1;37;42m                                                                              [0m
 [30m [0;32m--─────────────────────────────────────────────────────────────────────────---[0m
 
 
@@ -49,7 +49,7 @@ Write-Host '
 
 
 [30m [0;32m--─────────────────────────────────────────────────────────────────────────---[0m
-[32m [0;32;42m [0;1;37;42m>> eNIGMA 1.2 BBS Software Logo                                              [0m
+[32m [0;32;42m [0;1;37;42m                                                                             [0m
 [1m [0;32m--─────────────────────────────────────────────────────────────────────────---[0m
 
 

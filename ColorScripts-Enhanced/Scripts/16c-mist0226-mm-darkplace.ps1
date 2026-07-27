@@ -5,7 +5,7 @@
 # Source SHA-256: 2f66bc81fa3112bc8173080e83fb8fd3a8ea5f2530140df117a3f8d720f26dc7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-DARKPLACE.ANS by Mavenmob (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dark Place
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
@@ -51,8 +51,8 @@ Write-Host '
 [37m [0;30m░░░[0;37m [0;1;30m▀[0;1;33m █[0;32m█[0;1;35m██░[0;35m  [0;32m▄█[0;1;35m°  [0;35m█[0;1;30m██▄[0;30m█████░▀[0;1;30m █[0;30m  ▄█████[0;36mc[0;1;36man anyo[0;1;30mne tell[0m [1;35m░░[0m [1;35m■[0;1;33m°[0;1;35m°°≈■░░▄[0;1;33m■[0;1;35m°°[0;35m  [0;32m██▀[0m
 [30m███[0;37m  [0;35m\\[0;32m▀[0;35m▀[0;1;35m▀[0;35m█░[0;37m  [0;32m█[0;1;35m██[0;30m ▄█████▄[0;1;30m██  ▄w[0;36mh[0;1;36mat i''ve[0;36m d[0;1;36mon[0;36me? [0;1;36mi [0;36mm[0;1;36miss[0;36m      [0;1;35m░░°[0;1;33m≈[0;1;35m■░[0;1;33m░▄[0;1;35m▄░░°≈[0;35m≈≈[0;1;35m≈[0;32m▀[0m
 [30m█░[0;35m\[0;30m█[0;37m         [0;30m███▀ ██°[0;1;30m°°th[0;1;36me [0;36mli[0;1;36mfe[0;36m.[0;1;36m i miss[0;36m [0;1;37mt[0;1;36mhe colors of[0;30m▄▄  ▄[0;37m  [0;1;35m°°■■[0;1;33m■░░[0;1;35m▄■°\/ /[0;35m//[0m
-[30m░██         [0;1;30mthe [0;36mwo[0;1;36mr[0;36ml[0;1;36md.[0;1;36;46m cause now and again i[0;1;36;40m''v[0;36me[0;1;36m found[0;30m▐[0;1;30mmyse[0;36mlf[0;1;36m s[0;36mo [0;1;36mfar[0m          [30m░░▄[0m
-[30m█░░░   ▄[0;1;30m  [0;1;36mdown. [0;1;33maway from the sun [0;1;36mtha[0;36mt [0;1;36;46mshines[0;36m [0;1;36;46minto[0;36m [0;1;30mthe[0;1;36m [0;1;30mda[0;1;36mr[0;1;33mke[0;36ms[0;1;36mt [0;36mp[0;1;36mlace. [0;1;37mi''m[0;1;33m    [0;30m▄░█[0m
-[30m ░░░[0;37m  [0;1;33mso far do[0;1;36mw[0;1;37mn[0;1;36m, aw[0;1;37ma[0;1;36my [0;1;37mfr[0;1;36mom [0;1;36;46mthe[0;1;37;40m [0;1;33;40msun [0;36mt[0;1;36mhat[0;36m shin[0;1;36mes[0;36m to [0;1;36;46mlight [0;1;36;40mthe[0;1;33;40m way for [0;1;36;40mme to [0;30m▄▒█░[0m
-[30m▓▓▓▓░░░[0;1;36m [0;1;37mfind my [0;1;33mway[0;1;33;46m back[0;1;37;40m into the arms[0;1;36;40m [0;36mth[0;1;36mat care[0;1;33m abo[0;1;36mut the[0;1;37m o[0;1;36mnes lik[0;1;37me [0;1;33;46mme[0;1;36;40m.      [0;30m▓▓[0m
+[30m░██         [0;1;30m    [0;36m  [0;1;36m [0;36m [0;1;36m  [0;1;36;46m                      [0;1;36;40m  [0;36m [0;1;36m      [0;30m▐[0;1;30m    [0;36m  [0;1;36m  [0;36m  [0;1;36m   [0m          [30m░░▄[0m
+[30m█░░░   ▄[0;1;30m  [0;1;36m      [0;1;33m                  [0;1;36m   [0;36m  [0;1;36;46m      [0;36m [0;1;36;46m    [0;36m [0;1;30m   [0;1;36m [0;1;30m  [0;1;36m [0;1;33m  [0;36m [0;1;36m  [0;36m [0;1;36m      [0;1;37m   [0;1;33m    [0;30m▄░█[0m
+[30m ░░░[0;37m  [0;1;33m         [0;1;36m [0;1;37m [0;1;36m    [0;1;37m [0;1;36m  [0;1;37m  [0;1;36m   [0;1;36;46m   [0;1;37;40m [0;1;33;40m    [0;36m [0;1;36m   [0;36m     [0;1;36m  [0;36m    [0;1;36;46m      [0;1;36;40m   [0;1;33;40m         [0;1;36;40m      [0;30m▄▒█░[0m
+[30m▓▓▓▓░░░[0;1;36m [0;1;37m        [0;1;33m   [0;1;33;46m     [0;1;37;40m              [0;1;36;40m [0;36m  [0;1;36m       [0;1;33m    [0;1;36m      [0;1;37m  [0;1;36m       [0;1;37m  [0;1;33;46m  [0;1;36;40m       [0;30m▓▓[0m
 [30m▓▓▓▓░[0;1;36m                                       [0;30m████▀▀░░░░░░░░░░███ ▀████▄▄▄  ▓▓▓▓▓▓[0m'

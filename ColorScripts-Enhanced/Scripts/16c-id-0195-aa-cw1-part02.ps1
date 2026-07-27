@@ -5,7 +5,7 @@
 # Source SHA-256: ac84d7d646cfc0ce5f8fbde6de15b13a4e4a9ffd8fc6d79976188e43fde9b142
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AA-CW1.ANS by America (id-0195); released in id-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 33-59
 # Columns: 1-80
 
@@ -36,4 +36,4 @@ Write-Host '
 [34m█▌ ▀▄    ▒[0m                     [1;34mc[0;34mhemical[0;1;30m:[0;1;34mw[0;34mastland[0m                        [34m▄▀   ▄▓[0m
 [34m██▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄██▒[0m
 [34m▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀  ░[0m
-[34m░america.identity       [0m   [34m░[0m                                  [34m▒[0m'
+[34m░                       [0m   [34m░[0m                                  [34m▒[0m'

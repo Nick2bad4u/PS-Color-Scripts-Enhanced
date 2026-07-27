@@ -5,7 +5,7 @@
 # Source SHA-256: bf81a8b578070e6d8968f91b8a5f931c42b67edb7218be78c2b8b6f00ef7a83e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LF-DOPE.ANS by Lucifer (fORCE); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dope!
 # SAUCE Author: Lucifer
 # SAUCE Group: fORCE
@@ -31,9 +31,4 @@ Write-Host '
 [36m [0;1;30m▓▒▒▒▓▀[0m [1;33m█[0;32m█[0;1;33;42m░▒▒▒▓▓[0;1;33;40m██▓█ [0m   d  o  p  e   [1;30m+[0m  e  -   m  a  g  [1;33m ██[0;1;33;42m▒▓▓[0;32;42m█████[0;1;33;42m▒▒░[0;32m█[0;1;33;42m█[0m [1;30m▀▓▒▒▒▓[0m
 [36m [0;1;30m█░▒▓▀[0m [1;33m█[0;32m█[0;1;33;42m░[0;1;32;42m▓[0;1;33;40m▀▀▀[0m [1;33m▀█▀[0;32m [0;1;33m▀▀■ [0m [1;30m ▄■                      ■▄  [0m  [1;33m■▀▀ [0;1;33;42m░▒[0;32;42m█[0;32;40m▀▀  ▀▀[0;32;42m██[0;1;33;42m░░█[0m [1;30m▀▓▒▒█[0m
 [1;30m  ▀▀▀ [0;1;33m█[0;1;32;42m▓[0;1;33;40m▀▀[0;1;30;40m  ▀▀▀   ▀▀▀▀▀▀▀                          ▀▀▀▀▀▀▀   [0;32m▀[0;1;30m ▀▀▀▀   [0;32m▀▀[0;1;32;42m▓[0;1;33;42m█[0;1;30;40m ▀▀▀ [0m
-[1;30m [0;34m  [0;1;30m [0m [1;33m▀[0;34m  [0;1;30m     [0m [34m [0;1;30m  [0;34m [0;1;33m [0;1;30m                                       [0;1;33m [0;34m [0;1;30m  [0m    [1;30m     [0;34m [0;1;33m▀[0;1;30m  [0m [1;30m  [0m
-                    [1;30mthis piece of is the logo you requested for [0m
-[1;30m                      the dope emag... use it for the emag..[0m
-[1;30m                          i don''t care if you do or dont.[0m
-
-[1;30m                               ...lUCifER/fORCE[0m'
+[1;30m [0;34m  [0;1;30m [0m [1;33m▀[0;34m  [0;1;30m     [0m [34m [0;1;30m  [0;34m [0;1;33m [0;1;30m                                       [0;1;33m [0;34m [0;1;30m  [0m    [1;30m     [0;34m [0;1;33m▀[0;1;30m  [0m [1;30m  [0m'

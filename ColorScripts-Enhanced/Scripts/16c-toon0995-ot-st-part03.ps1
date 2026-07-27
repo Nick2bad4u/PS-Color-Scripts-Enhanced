@@ -5,7 +5,7 @@
 # Source SHA-256: 76514fbe61d32f5bc2bc26ef68033bb2d896602811b5d11056e19c474df924db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OT-ST.ANS by Otter + Wat0r (toon0995); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 60-101
 # Columns: 1-80
 
@@ -47,8 +47,6 @@ Write-Host '
 [36m███████████████████████▄▄[0;37m [0m                           [36m▄▄█████████████████████████[0m
 [36m████████████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████████████████████████████[0m
 [36m██▀▀[0m                                                                      [36m  ▀▀██[0m
-[36m█▌[0m  [36mOp''ravaged sOul ..[0m [36mcO''Otter ..[0m [36maffils and nets cOming![0m [36m.. (911) not-open  ▐█[0m
+[36m█▌[0m  [36m                  [0m [36m           [0m [36m                       [0m [36m                   ▐█[0m
 [36m██▄▄[0m                                                                        [36m▄▄██[0m
-[36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-[37m  [0;36m  .. ansi by otter and ascii by watOr of toon productions ninedy five[0m [36m..[0m'
+[36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

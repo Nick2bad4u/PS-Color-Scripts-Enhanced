@@ -5,7 +5,7 @@
 # Source SHA-256: 1f9b23bfdeaae6da28d7ae5e39c456bee8371bb01ec8e5407d57454470187862
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS-GOD.ICE by Lord Soth + Hell Raiser (ice-9401); released in ice-9401 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 91-129
 # Columns: 1-80
 
@@ -39,13 +39,4 @@ Write-Host '
 
 [1;30m▀  ▄ ▀▄██  [0;1;31mG  a  t  e  s[0m           [1;31mo  f[0m         [1;31mD  e  s  t  i  n  y  [0;1;30m██▄▀ ▄ ▀ ▀[0m
 
-                                [31m7[0;1;31m03[0m-9[1m38[0m-8[1;31m14[0;31m9[0m
-                          [31mSys[0;1;31mOps[0m: P[1micard [0m& S[1;31mtar[0;31mman[0m
-                              [31mRu[0;1;31mnn[0min[1mg Vi[0msi[1;31mon[0;31m/2[0m
-                                [31m0-[0;1;31m7 [0mD[1may [0mW[1;31mar[0;31mez[0m
-                               [31mNe[0;1;31mxu[0ms [1mDis[0mt [1;31mSi[0;31mte[0m
-                               [31mCh[0;1;31mao[0ms [1mDis[0mt [1;31mSi[0;31mte[0m
-                             [31mPs[0;1;31mych[0mosi[1ms D[0mist [1;31mSi[0;31mte[0m
-                          [31mNo r[0;1;31mati[0mos [1mfor L[0mD c[1;31mall[0;31mers[0m
-
-       [1;37mAnsi by Lord Soth [0;1;30m[[0;1;37mi[0mCE[1;30m][0m         [1;37mFont by Hell Raiser [0;1;30m[[0;1;37mi[0mCE[1;30m][0m'
+                                [31m7[0;1;31m03[0m-9[1m38[0m-8[1;31m14[0;31m9[0m'

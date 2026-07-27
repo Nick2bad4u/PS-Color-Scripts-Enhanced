@@ -5,7 +5,7 @@
 # Source SHA-256: 0b8a50a4c63c43071355074a72466aa13cfad8b8b9d5fb21436e508572d25e7d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-ASL!.ANS by Sonny (assault-ansi); released in assault-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 46-64
 # Columns: 1-80
 
@@ -18,13 +18,12 @@ Write-Host '
      [1;37;40m█[0;1;37;44m  [0;1;37;40m█  █[0;1;37;44m  [0;1;37;40m█ █[0;1;37;44m▀▀▀▀▀▀  [0;1;37;40m█ █[0;1;37;44m▀▀▀▀▀▀  [0;1;37;40m█ █[0;1;37;44m  [0;1;37;40m█  █[0;1;37;44m  [0;1;37;40m█ █[0;1;37;44m▀▀▀▀▀▀▀▀[0;1;37;40m█ █[0;1;37;44m▀▀▀▀▀▀▀▀[0;1;37;40m█ █[0;1;37;44m██[0;1;37;40m█[0m
      [1;37;40m█[0;1;37;44m▄▄[0;1;37;40m█  █[0;1;37;44m▄▄[0;1;37;40m█ █[0;1;37;44m▄▄▄▄▄▄▄▄[0;1;37;40m█ █[0;1;37;44m▄▄▄▄▄▄▄▄[0;1;37;40m█ █[0;1;37;44m▄▄[0;1;37;40m█  █[0;1;37;44m▄▄[0;1;37;40m█ █[0;1;37;44m▄▄▄▄▄▄▄▄[0;1;37;40m█ █[0;1;37;44m▄▄▄▄▄▄▄▄[0;1;37;40m█ █[0;1;37;44m▄▄[0;1;37;40m█[0m
 
-         [1;37;40m/┤[0mssault! The Best in Literature / Art! Coming at ya in 1993!
+         [1;37;40m ┤[0m                                                           
 
 [1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀█
-[1m█[0m           ANSi Artwork by Sonny of /┤ssault. Rendered on o9.o2.93.          █
+[1m█[0m                                     ┤                                       █
 [1m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄█
 [1m█[0m                                                                             █
-[1m█  [0;1;30mGreets go out to iCE,ACiD,MiRAGE,BAD,CHAOS,LTD,DeAD,Nemesis,M/┤x,RAM,[0m      █
-[1m▄[0m                   [1;30mFuture Crew,KLF,Rennaisance,and whoever I missed...[0m       ▄
-[1m█[0m                                                                             █
-                [1m"[0mSo I said I wasn''t going to do anymore ANSis![1m"[0m'
+[1m█  [0;1;30m                                                              ┤      [0m      █
+[1m▄[0m                   [1;30m                                                   [0m       ▄
+[1m█[0m                                                                             █[0m'

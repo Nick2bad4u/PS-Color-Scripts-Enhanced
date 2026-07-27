@@ -5,7 +5,7 @@
 # Source SHA-256: 7125b8003216dd7f17fc5126206fee28aa42947aee8c656c4d54662bef1e51e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IPH-ZAP.ANS by Interphaze (iph-005); released in iph-005 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -30,9 +30,4 @@ Write-Host '
 [1;34m  [0;1;36m$#[0;36ms,,s[0;1;30m.`ⁿ$$$ⁿ'',$$$$$$$$#s ~"ⁿⁿV$$$s.`ⁿ[0m$$,[1m`ⁿV$$$$$$$$$ⁿ''[0m,$$[1;30m$$$$$$$$$Sss,.._[0m
 [1;30m  [0;1;36m$$[0;36m$$$$$$#[0;1;36ms. [0;1;30md $$$$$$$$$$'',$$$#s.  ~"ⁿ,  [0m`ⁿ,. [1m~"ⁿⁿ"~ [0m,s$╨ⁿⁿ[1;30m"""~~,.  mmmmmsss[0m
 [1;30m  [0;1;36m`ⁿV$$Vⁿⁿ"''[0;1;30m.$$b.~"ⁿⁿⁿⁿ""  `ⁿ"~  ,#$$#s.s#$s,[0m       .~" [1;30m.s#SS$$$$$$` `$$$$$$$[0m
------------------------------------------------------------------------------
-
-Logo: Zap, to: you?, okay, this is the hot deals, you can use this for free if
-you DONT change it, or delete the iPH sigh,,....ok?
-
-Damn i really like this one... wonder what i should call it =)[0m'
+-----------------------------------------------------------------------------[0m'

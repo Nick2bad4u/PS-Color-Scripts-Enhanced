@@ -5,7 +5,7 @@
 # Source SHA-256: cb6f4ad4e4d61e7335a5d43474e321463818d049f5ac9c019e848729adc7bf0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ_LUNA!.ANS by fastjack (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: brine helene
 # SAUCE Author: fastjack
 # SAUCE Group: boil
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-    [32mi am no goddamn son of a bitch... you better think about it baby...[0m
+    [32m                                                                   [0m
 
                                       [37m [0;30;47m▓[0;37;40m░ ▄[0;1;37;40m▄▄▄▄[0m▄▄    ░░
    ▄▄▄▌                   ▄▄  ░[30;47m▓[0;37;40m [0;1;30;40m  [0m ▄[1m▄[0;1;47m▄██▀[0;1;40m▀▀▀▀█[0;1;47m█[0m▄▄▄ ▄[1;47m▄█[0m▀  ░░
@@ -31,9 +31,4 @@ Write-Host '
 [33m [0;1;34m [0;30;46m▓▓[0;36;40m▀[0;1;34;40m [0;33m ▄█[0;1;33;43m░░▄ [0;33m█▄▄▄  [0;34m [0;1;34m▀[0;36m▀[0;1;34;46m  [0;1;34;40m [0;34m   [0;33m [0;1;33;43m██[0;33m▄▄[0;1;34m [0;36;46m▌[0;1;34;46m [0;36m▌[0;1;34m [0;33m▐[0;1;33;43m██▄▄▄▄▄▄[0;1;37;47m██[0;1;33;43m█[0;33m▄▄▄▄█▄[0;1;34m [0;36m▐[0;36;46m▓▓[0;36;40m█ [0;33;40m░[0;1;34;40m ▐██[0m     [1;34m░░  [0;33m█[0;1;33;43m█[0;1;37;47m█[0m
 [1;34m     [0;33m ██[0;1;33;43m█[0;1;37;47m█████[0;1;33;43m▌░░ [0;33m█ [0;1;34m  [0;36m▀▀[0;1;34m  [0;33m█[0;1;33;43m█[0;1;37;47m███[0;1;33;43m█[0;33m█[0m     [33m▐[0;1;33;43m▀█[0;1;37;47m█████[0;1;33;43m█[0;33m▌▀▀▀▀▀▀░░[0;1;34m [0;36m ░░ [0m   [1;34m▐[0;1;34;46m▓▓[0m    [1;34m▐[0;1;34;46m▓▓[0;1;34;40m▌ [0;33m▀▀▀[0m
          [1;33m▀▀▀▀▀[0m             [1;33m ▀▀▀ [0m          [1m░░░[0;1;33m [0m                  [1;34;46m▄ [0;36m▄[0;1;34m ░░▄[0;1;34;46m▀ ▐[0;1;34;40m [0;36m fast[0m
-                                                                  [36m▀▀▀▀▀▀▀[0m
-
-[32m i have to say, that i absolutley hate this background.[0m
-
-
-                                        [32minspirational music by no fun at all[0m'
+                                                                  [36m▀▀▀▀▀▀▀[0m'

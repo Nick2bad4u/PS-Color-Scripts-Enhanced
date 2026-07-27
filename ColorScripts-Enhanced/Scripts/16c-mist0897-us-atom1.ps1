@@ -5,7 +5,7 @@
 # Source SHA-256: d46b592cd629080dc91a26901671df0b8655c68ce3f8fa35199e60be9f17eb5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ATOM1.ANS by Handiboy + Platinum + Quip + Tincat (Mistigris); released in mist0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Atomique
 # SAUCE Author: HB / PT / QP / TC
 # SAUCE Group: Mistigris
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-     [1;30m* mistigris 1997 - a joint by handiboy, platinum, quip, and tincat[0m
+     [1;30m                                                                  [0m
 
                       [1;30m▄[0m  [1;30m▄[0;1;33m▄▄▄▄▄▄[0;1;30m ░░▌[0m                        [1;30m▄[0m
       [1;30m▄▄███▄▄▌[0;32m▄[0;37m  [0;1;30m█[0;1;30;47m▀▓▓[0;1;30;40m▌[0;1;33;40m ▐▄█▌▄[0;1;37;40m██[0;1;33;40m▌[0m [1;30m ██▌▄░[0m           [1;30m▄[0m        [1;30m░░▌[0m
@@ -37,7 +37,7 @@ Write-Host '
                                                      [1;30m  [0m  [1;30m▐[0m
                                                          [1;30m▀[0m
 [1;30m--------------------------------------------------------------------------------[0m
-a big shout-out goes to Pablo v0.86 for saving this TOTALLY wrong and making
-me spend time to fix it. an even BIGGER shout out goes to Eto and Pablo v0.92
-(released only to Mist members right now) for being bug fixed.
+                                                                            
+                                                                             
+                                                              
 [1;30m--------------------------------------------------------------------------------[0m'

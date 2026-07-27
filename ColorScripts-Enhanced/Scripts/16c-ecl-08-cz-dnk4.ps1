@@ -5,7 +5,7 @@
 # Source SHA-256: 092ef358aaca569e141d179f36a5effbd448e08e230f1ff21f756d2141b7c77e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-DNK4.ANS by cheeze (elk lips); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: doink, home of green eggs.
 # SAUCE Author: cheeze
 # SAUCE Group: elk lips
@@ -39,6 +39,4 @@ Write-Host '
 ░[30;47m▓[0;37;40m▓▓▓▓▓▓▓▓▓▓▓▓▓░░[0;1;37;40m [0;1;30;40m [0m▐[1;47m░▓▓[0;1;40m█[0;1;47m█ [0m░[1m [0m        [1m   [0m     [1m   [0m ▐[1;47m░▓▓▓░[0m▌ [1m [0m [1;30m [0m  ░[1m░░░░░░▓▓▓▓▓▓▓▓▓▓[0m
   ░░░░░░░░░░░░░[1m [0mcz? [1;47m ███▓[0m▌[1m [0m++doink407-783-1522  █[1;47m███▀[0m▀[1m          [0m    ░[1m░░░░░░░░░[0m
 [33m   [0;1;37m   [0;33m           [0;1;37m    [0m▀[1m▀[0;1;47m▀[0;1;40m█[0m█░[1m [0m      [1m     [0m    [1m    [0m▄▀[1m▀[0m▀[1m              [0m
-[1;30m─────────────────────────[0m ▀ [1;30m────────────────────────────────────────────────────[0m
-this is for my doink only.. you rip, well.. you suck. =)  call it too.. it rules
-oh.. and a big ''FUCK YOU'' to thclOne. you know why you little 12year old shit.[0m'
+[1;30m─────────────────────────[0m ▀ [1;30m────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9419f0abcc6e76196f43d219c1cdb1db2c2a5345a19771b47ba463a05955149f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TL@RVL.ANS by timeless (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: revolution
 # SAUCE Author: timeless
 # SAUCE Group: rARE!ASCii
@@ -16,7 +16,7 @@
 
 Write-Host '
                                            [1;30m.[0m
-   [33mSs[0;1;33ms[0m                                     [1;30ms[0m
+   [33m  [0;1;33m [0m                                     [1;30m [0m
    [33m$[0;1;33m##[0;33msS[0;1;33m$$$S[0;33m²[0;1;33m^~~~^[0;33m²[0;1;33mS$$$S[0;33ms.[0m    [1;33m       [0m     [1;30ms.[0;1;33m [0;33m@$[0;1;33m$$$$  [0;33m$[0;1;33m$$[0;33m$$$[0m       [1;30ms''`.[0;1;33m    [0m
      [1;33;43m$[0;1;33;40m$$$$[0;33m$''[0m       [33m`[0;1;33m$$$$$$   [0;33mA$$$$$[0;1;33m [0m      [1;30m$$[0;1;33m [0;33m@[0;1;33m$$$$[0;1;33;43m$[0;1;33;40m  [0;33m$[0;1;33m$$$$[0;33m$[0;1;33m [0;1;30m [0;1;33m  [0;1;30m.$$[0m
      [1;33;43m$[0;1;33;40m$$$$[0;33m#[0;1;33m [0m        [33m$[0;1;33m$$$$[0;1;33;43m$[0;33m.[0;1;33m  [0;33m![0;1;33m$$$$[0;33m$.[0m     [1;30m.$$[0;1;33m [0;33m#[0;1;33m$$$$[0;1;33;43m![0;1;33;40m [0;33m^^[0;1;33m$$$$[0;33m$[0;1;33m [0;1;30msD.$$''[0;33m.[0;1;33m [0m
@@ -29,6 +29,6 @@ Write-Host '
 [37m [0;1;30m.sS[0;31m [0;1;31m:$[0;1;31;41m$[0;1;37;40m$[0;1;31;41m$[0;31m1 [0;1;30mSSS.$$''[0;31m  [0;1;30m`[0m      [31m.''@$[0;1;31m$[0;1;37m$$[0;31m$[0m      [1;30m`5[0;31m $[0;1;31m$$$[0;31m$$  !$[0;1;33;41m$[0;1;31;41m$[0;1;37;40m$[0;31m$ [0;1;30m.[0m      [31mss$[0;1;31m$[0;1;31;41m$$[0;31m#..[0m
 [37m [0;1;30mSS`[0;31m $$[0;1;31m$$$[0;31md.[0;1;30m`$[0;1;30;47m$[0;1;30;40m$$''[0m         [31m.  $#[0;1;31m$$$[0;31m$.[0m       [31m.$[0;1;31m$$$[0;31m$%  $$[0;1;31m$$$[0;31m$.[0m       [31m.$$[0;1;31m$$[0;31m$$[0m
 [37m [0;1;30ms[0;31m .s$$$$$$ [0;1;30m.S$$S[0m             [31m`²S%$$Ss.___.sS$$$S²`[0;1;30m .[0;31m`²S$$$Ss.___.sS$$$S²`[0m
-[37m [0;1;30m`Sss[0m [1;30m   sssSS²`S[0m [31mrevolution[0;1;30m ..[0m [1;30m   [0m               [1;30m.(tl).[0m  [1;30m.[0m
+[37m [0;1;30m    [0m [1;30m           [0m [31m          [0;1;30m   [0m [1;30m   [0m               [1;30m      [0m  [1;30m [0m
          [1;30m²[0m      [1;30ms[0m
          [1;30m.[0m'

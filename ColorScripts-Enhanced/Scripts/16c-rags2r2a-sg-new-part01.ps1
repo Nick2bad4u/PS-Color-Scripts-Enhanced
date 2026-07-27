@@ -5,7 +5,7 @@
 # Source SHA-256: fc1045b5f54b2072e26a514cdc6dda7f0d8ea33de013bda16a2b762211490a6c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SG-NEW.ANS by SG (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "Snake Grunger ... rICH b0Y!"
 # SAUCE Author: SG
 # SAUCE Group: .rAGS 2 rICHES.
@@ -14,8 +14,8 @@
 
 Write-Host '
 [1;30m─[[0;1;33m [0m31337 gR33+z [1;30m]──────────────────────────────────────────────────────────────[0m
-   -SYNTAX-, Lord Soth, Soul Assassin, TETANUS!, Lintec, Visigoth, Zarkon,
-  TNA, Fluor, Suicidal Snowman, Force Ten, Lemonade, Brown Alien, Firestone.
+                                                                          
+                                                                            
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30m  [0m ▄■[34m [0;37m  [0;33m▄[0;37m▄▄▄[0;33m▄[0m     [33m▄[0;37m▄[0;37;43m▄[0;37;40m█[0;37;43m▄[0;37;40m▄▄[0;33;40m▄[0;37;40m    [0;33;40m             ▄▄▒▀▀                               [0m
 [1;30;40m░[0;33m▄[0;37;43m▓[0;37;40m▌ [0;33;40m▄[0;37;43m▄[0;37;40m████████[0;37;43m▄[0;37;40m▄[0;33;40m▄[0;37;40m [0;33;40m▀[0;37;43m▀[0;37;40m██████[0;37;43m▄[0;33;40m▄[0;37;40m [0;33;40m▒▓▓▓▒▓▓▓▒░▄[0;1;33;43m░[0;33m▀▀  ░▒▓▓▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▓▓▓▒▓▒▒[0m
@@ -26,8 +26,8 @@ Write-Host '
 [1;30;40m [0m  [1;30m   [0m   [33m▀▀▀▀[0;37m  [0;1;30m   [0;33m ▀▀▓██████[0;37m [0;1;30m  [0;33m     ▀▀██[0;1;33;43m░[0;33m▀                                     [0m
 [1;30m─[ [0mX BBS ... [1;30m]────────[0m [33m▀▀▓█▌[0;1;30m───────────────────────────────────────────────────[0m
                            [33m▀[0m
-[37m [0m                   [37m▄[0;1;31;43m▀▒▓[0;1;31;40m▌[0;34m [0;1;30mJust a quick tribute to Thempus Thales[0m
-              [33m▀■[0;34m  [0;37m▄██[0;37;43m▌[0;1;31;43m░▒▓[0m [1;30m for this AWESOME KICKASS ICE LOGO!![0m
+[37m [0m                   [37m▄[0;1;31;43m▀▒▓[0;1;31;40m▌[0;34m [0;1;30m                                      [0m
+              [33m▀■[0;34m  [0;37m▄██[0;37;43m▌[0;1;31;43m░▒▓[0m [1;30m                                    [0m
      ▄▄▄▄▄▄▄▄▄▄▄▄█████[43m▄[0;40m▄▄▄▄▄▄▄▄▄[0;1;31;40m▄▄▄▄▄▄[0m                     [1;30m▄▄[0m
      [35m■[0;37m▀[0;35;47m░[0;37;40m▄[0;36;40m [0;37;40m▄█▄███████████[0;1;37;47m▀[0m█[1;47m▀█▀[0m█[43m▀[0;1;31;43m    ▄[0;1;31;40m▀[0;1;34;40m   [0;1;30;40m▄▄[0m▄[1;30m▄[0m▄▄[1;30;47m▓▓[0;1;30;40m▄▄ ▄   ▄▄█[0;1;30;46m█[0;1;30;47m▓▓▒░[0m▄[36m    [0;37m▄[0m
       [35m▀[0;35;47m▓[0;37;40m▀▓██████████████████[0;37;43m▀[0;1;31;43m░░░░▄[0;1;31;40m▀[0;1;30;40m▄[0;1;30;47m▓▒░[0m█[1;30;47m░[0m███[1;30;47m░░▒▒▓▓▓▓▓[0;1;30;40m▓[0;33m░[0;34m [0;1;30m▀[0;1;30;47m▓▓▒░[0m████[1;30m▄ [0m▐[1;30;47m [0m▄

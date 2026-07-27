@@ -5,15 +5,15 @@
 # Source SHA-256: 93390bf59f93a6244ee14928b680d88142758df4ae5c6feb17865e9e94deefc4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-KTJ.ANS by Shred (img-9408); released in img-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
                     [35m▄[0;1;35;45m▀[0;35m▄[0m
-                   [35m▀ █ ▀[0m               [1;30mGreets to:[0m
+                   [35m▀ █ ▀[0m               [1;30m          [0m
 [1;30m   [0;1;37;47m▀[0;1;30;47m▄█[0;1;30;40m██████████████ [0;35m█ [0;1;30m███[0;1;30;47m▄[0;1;37;47m▀[0m               [1;30;40m┌───────────────────────────────────[0m
-[1;30;40m   ██[0m                [35m█    [0;1;30m██[0m               [1;30m│ACiD: Thanx for the inspiration[0m
+[1;30;40m   ██[0m                [35m█    [0;1;30m██[0m               [1;30m│                               [0m
 [1;30m   █[0;1;30;47m▓[0m   [35m▀▀▀▀▀▀[0;1;35;45m▀[0m [35m▀▀[0;1;35m▀  [0;35m█    [0;1;30;47m▓[0;1;30;40m█[0m               [1;30;40m│Wyzard: Enjoying Hickville :)[0m
 [1;30;40m   █[0;1;30;47m▒[0m   [35m███   █ ███  █    [0;1;30;47m▒[0;1;30;40m█[0m               [1;30;40m│PoR, Goat, Rye: Keep up the music![0m
 [1;30;40m   █[0;1;30;47m░[0m   [35m███▄▄▄▄ [0;1;35;45m░[0;35m██▀▀[0;1;35;45m░[0m    [1;30;47m░[0;1;30;40m█[0m               [1;30;40m│Pyro: I want that gas money, dammit![0m
@@ -25,7 +25,7 @@ Write-Host '
 
 
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;37;47m [0;30;47m[SH] · Image  [SH] · iMAGE  [SH] · iMAGE  [SH] · iMAGE  [SH] · iMAGE  [SH] · iM[0m
+[1;37;47m [0;30;47m                                                                               [0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
 [1m████████████████████████████████████████████████████████████████████████████████[0m

@@ -5,13 +5,13 @@
 # Source SHA-256: 69c66765dffe935291cd68d33b39551b6d3a9952067e4e905e13f47ec54b3e48
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RUSH.ANS by Willie (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
 
-                           [1;36mA[0;1;31mN[0;1;33mS[0;1;37mi[0m [1;32mB[0;1;36my[0;1;30m:[0m [31mW[0;1;31mì[0;35m£[0;1;35m£[0;1;36mí[0;1;34mÉ[0m [1;33m<[0;1;37mAAA[0;1;33m>[0m
+                           [1;36m [0;1;31m [0;1;33m [0;1;37m [0m [1;32m [0;1;36m [0;1;30m [0m [31m [0;1;31m [0;35m [0;1;35m [0;1;36m [0;1;34m [0m [1;33m [0;1;37m   [0;1;33m [0m
                      ▄▄▄▄▄▄▄▄▄▄▄         ▄▄▄▄▄▄▄        ▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄
 ▀█[30;47m▄▄▄▄▄▄▄▄[0m▄[30;47m▄▄▄▄[0m▄▄▄    ▀▄[1m     [0m▄▀        ▄▀[1m   [0m▄▀  ▄▄▀▀▀▄    ▀▄[1m   [0m▀▄    ▀▄[1m   [0m▄▀
   ▀[30;47m▀[0;1;37m              [0m▀▀▄   █[1;37m    [0m█        ▄▀[1m   [0m█ ▄▀▀[1m      [0m▀▄    █[1;37m   [0m█     █[1;37m   [0m█
@@ -29,6 +29,6 @@ Write-Host '
  ▀▀[1;37m       [0m▀▀             ▀[1m    [0m█[1;37m      [0m▄▄▄▄█▄ ▀▄▄[1m      [0m▄▄▀ ▄█[1;37m   [0m▄▀    ▄█▄[1;37m     [0m▄█▄
    [1m       [0m                [1;37m    [0m [1;37m      [0m     [1;37m [0m    [1;37m      [0m     [1;37m    [0m         [1;37m     [0m
   [35mSysops-[0;1;37m [0;35mThe[0m [35mNecromancer[0m [1;37m [0;36m█▀▀▀▀█[0;1;37m [0;36m█▀▀▀▀█[0m [36m█▀▀▀▀█[0;1;37m      [0m  [32mUSR[0m [32m14.4k[0m [32mDual[0m [32mw/V.32bis[0m
-[1;37m          [0;35mThe[0m [35mUnknown[0m     [1;37m    [0m [1;37m [0;36m█[0;1;37m    [0m  [36m█[0m [36m█[0m    [36m█[0;1;37m      [0m  [32mPhone:[0;1;37m [0;32m313-348-6057[0;1;37m  [0m
+[1;37m          [0;35m   [0m [35m       [0m     [1;37m    [0m [1;37m [0;36m█[0;1;37m    [0m  [36m█[0m [36m█[0m    [36m█[0;1;37m      [0m  [32m      [0;1;37m [0;32m            [0;1;37m  [0m
    [1;37m       [0m                [1;37m    [0;36m▀▀█[0;1;37m    [0;36m▀▀█[0m [36m█[0m    [36m█[0;1;37m      [0m      [1;37m   [0m         [1;37m     [0m
    [1;37m       [0m                [1;37m [0;36m█▄▄▄▄█[0;1;37m [0;36m█▄▄▄▄█[0m [36m█▄▄▄▄█[0;1;37m [0;36mMegz[0;1;37m [0m      [1;37m   [0m         [1;37m     [0m  [30m.[0m'

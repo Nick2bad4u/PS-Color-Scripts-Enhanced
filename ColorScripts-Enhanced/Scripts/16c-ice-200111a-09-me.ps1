@@ -5,7 +5,7 @@
 # Source SHA-256: 17d710f2d371f5e8846215a397b780b4aacd5c7b8b297406bf8238d85069a0eb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 09-me.ice by Fluor (ice-200111a); released in ice-200111a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -30,11 +30,4 @@ Write-Host '
 [37m  [0;31m ▓▓[0;1;37m  [0;1;31m▀▀[0;31m▀[0;1;31m▄[0;31m▄[0;1;37m [0;36m▄[0;1;36m▄[0m [1;30m░[0m [36m▓▄ [0;31m▀▀[0;37m▀██▄▀▀ [0;36m▀▀▄[0;37m ▀[0;1;37;47m▓▓░[0m▀[1;30m█▀[0m  [1;30m▓▀[0;1;37;47m▀[0m▀[1;30m▀[0;31m▀▀[0;1;30m░[0m [36m▄[0;37m [0;1;30m░[0m [36m▄[0;37m  ▀[0;1;30m▀▀[0;31m▓▀▀[0;37m [0;36m░[0;31m   ░  ▄[0;1;31m▄[0;1;31;41m▄[0;31m▄▀[0;1;31m▀[0;31m [0m
     [1;31m [0;31m▀▀[0;1;31m▄[0;31m▄[0;37m [0;31m▀[0;1;37m [0;31m▄[0;37m [0;36m▀[0;37m [0;1;30m░[0m [36m░[0;37m [0;1;30m░▓▀[0m▀▀[36m ▄▄▓▀[0;1;36m▀[0m [36m▓[0;37m [0;1;37m▀[0m▀ [36m▄[0;1;36m▄[0m [36m▄▓[0;37m [0;1;30m▓[0m [36m ▄[0;1;36m▄[0;36m▀[0m   [36m▓[0;37m [0;1;30m░[0m [1;36m▀[0;36m▀[0;37m [0;36m▄[0;1;36m▄[0;36m  [0;1;30m09!ice[0m [1;31;41m▀[0;31m▀▓▓ ▀[0m
        [31m▀[0;37m [0;31m▓[0;1;31m▀▀▀▀[0;31m▀▀[0;37m [0;1;31;41m▀[0;31m▀[0;37m  [0;1;30m░[0;1;37m [0;31m▀▀[0m       [36m░[0m        [36m░[0;37m [0;1;30m░[0m        [36m░[0m        [36m▀░[0m         [31m░[0m
-         [31m░[0m
-
-[1;30m     Hi guys, I just wanted to say how good it feels to draw ansis again.[0m
-[1;30m [0m   [1;30m  It''s an incredible medium and honestly I couldn''t imagine all these[0m
-[1;30m    years without ansis, where I was spending all my time in aciddraw and [0m
-[1;30m [0m  [1;30m   on the bbs''s.[0m [1;30mIt was definatly the beginning of my artistic career.[0m
-
-  [1;30mPierre-Luc Grosleau[0m'
+         [31m░[0m'

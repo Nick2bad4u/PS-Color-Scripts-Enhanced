@@ -5,7 +5,7 @@
 # Source SHA-256: 644dfd37125582e92e109c76494d455862e5a94b78693e7f51a95d6948331edc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AM-MSAD.ANS by Anonymous Man + Cosmic Catalyst (ato-0294); released in ato-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 96-145
 # Columns: 1-80
 
@@ -34,7 +34,7 @@ Write-Host '
 [31m   ▀ [0;1;33m▀█[0;1;33;41m▄[0;1;31;41m▄[0;1;33;41m▀[0;31m██[0;31;41m [0;31;40m██▄▄[0m                                           [31;40m▄▄▄▄███[0;1;33;41m▀▀██[0;1;33;40m█[0m
         [1;33;40m██▀█[0;31m█[0;1;33;41m▀[0;31m▀ [0;1;31m▄ [0;31m▀ [0;37m▄ ▀█▄[0;1;30;47m▄▀ ▀█▄███[0;1;30;40m████████████[0;1;30;47m███▄█▀█▄ ▀[0m█▀█▄ ▄ [31m▀▀ ▀█[0;1;31;41m▀[0;1;33;41m█▀[0m [1;33;40m█ ▀  ▀[0m
       [1;33;40m▀    [0;31m▄[0m                                                    [1;31m▀   [0;1;33m▀ █  [0;31m▀[0m
-                            [1;30m" [0;1;37mS[0mLE[1;30mEPLESS [0;1;37mi[0mNS[1;30mANiTY "[0m                      [1;31m▀[0;1;34mC[0;34mc[0m
+                            [1;30m  [0;1;37m [0m  [1;30m       [0;1;37m [0m  [1;30m       [0m                      [1;31m▀[0;1;34m [0;34m [0m
 
 
                 [34m┌┐[0;1;34m╒──[0m                           [1;34m──╕[0;34m┌[0;1;34m┐[0m
@@ -55,7 +55,7 @@ Write-Host '
          [34m││┌────┘[0m                                  [34m└┐└┘┌┘┌─[0;1;34m─[0;34m┐[0;1;34m■[0m
          [34m└┘│┌┐[0;1;34m■[0m          [1;30mR[0me[1mmote: John Lenn[0mo[1;30mn[0m        [34m└──[0;1;34m│[0;34m─┘│ └┐[0m
          [1;34m┌[0;34m┐│└┘[0m                                         [34m└──┘  │[0m
-         [34m└┌┴┐  [0;1;30mM[0ma[1mny Onliners, Running for 2 years straight[0m![1;30m![0;34m┌┴─┐[0;1;34m·[0m
+         [34m└┌┴┐  [0;1;30m [0m [1m                                         [0m [1;30m [0;34m┌┴─┐[0;1;34m [0m
           [34m└┐│[0m                                              [1;34m┌[0;34m└┐[0;1;34m·[0;34m└┐[0m
          [1;34m┌[0;34m─┘└┐[0m                                             [34m│[0;1;34m·└[0;34m┐ │[0m
         [1;34m·[0;34m│ [0;1;34m┌[0;34m┐└┐[0m                                            [34m└┐[0m

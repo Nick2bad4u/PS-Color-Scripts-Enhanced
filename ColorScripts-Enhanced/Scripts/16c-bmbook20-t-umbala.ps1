@@ -5,7 +5,7 @@
 # Source SHA-256: 2c73518ea6fd98ee78e5db1638ac410adb7936c9b24d61c411966e5a2a1934f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T-UMBALA.ANS by toot (black maiden); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: umbala script
 # SAUCE Author: toot
 # SAUCE Group: black maiden
@@ -26,4 +26,4 @@ Write-Host '
 [31;46m▄▄[0;31;40m█▄[0;35;40m▄[0;1;35;40m▄[0;1;35;41m▄[0;1;35;45m▄░[0;35;41m▀[0;35;40m▀[0;31;40m▀ [0;35;41m░░▄[0;36;40m [0;31;40m▐[0;1;35;45m░[0;35;41m▄[0;31;40m▌[0;36;40m [0;31;40m▐██▌▐[0;35;41m▄░[0;31;40m▌▄[0;35;40m▄[0;1;35;40m▄[0;1;35;41m▄[0;1;35;45m▄░[0;35;41m▀[0;31;40m▀▀ [0;37;40m [0;34;40m░█████▄▄[0;37;40m [0;31;40m▀▀▐██[0;35;41m▄[0;1;35;45m░[0;35;41m▄▄▄[0;35;40m▄[0;31;40m▄▄▄▄[0;35;41m▄[0;1;35;45m▄██▀[0;35;41m▀[0;31;40m▌ ▀▀[0;35;40m▐[0;1;35;45m█▄[0;35m▌[0m
 [31m█[0;31;46m▄[0;31;40m▌[0;35;40m▀▀[0;31;40m▀[0m      [31;40m [0;35;41m▐[0;1;35;45m░[0;1;35;40m█[0;36m [0;31m▐[0;1;35;45m▀ [0;35m▌[0;36m [0;31m▐[0;1;31m▒▒[0;31m▌▐[0;1;35;45m▄░[0;31m▌[0;35m▀▀▀[0;31m▀  [0;37m [0;34m▄▄▄[0;1;34;44m ▀▀█[0;1;34;46m▄[0;1;34;40m▄[0;1;34;44m [0;34m▀[0;1;37;44m░░[0;34m▄[0m    [35m▐[0;1;35;45m██▀[0;35;41m▀[0;35;40m▀[0;31;40m▀▀▀▀▀[0m   [31;40m▀▀▀[0m
                        [1;31;40m░░[0m            [34m▀▀▀[0;1;34;44m░░▄[0;1;34;40m▄[0;36m▄[0;34m▀[0;1;34;44m▀█▄[0;34m▀   [0m
-[37m  [0;1;34mumbula [0;34m% the bitchx script[0;37m [0;34mby [0;1;34mvektori[0m   [1;34m▀[0;36m▀▀[0;1;34;44m▀█▄[0m'
+[37m  [0;1;34m       [0;34m                   [0;37m [0;34m   [0;1;34m       [0m   [1;34m▀[0;36m▀▀[0;1;34;44m▀█▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ffa935b8b77418ad84853a2e72da48524b3611faa19baeda36a0477e60bc90a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-REB.ANS by Sadistic Intent + Eternal (sliver); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the rebellion
 # SAUCE Author: multiple artists
 # SAUCE Group: sliver
@@ -35,5 +35,4 @@ Write-Host '
 [37;40m   [0;1;30;40m▀▌▀[0m [1;32;42m▐[0;32m▀[0;37m  [0;32m▀[0m         [37m   [0m    [37m [0m   [32m█▀[0;37m  [0;32m▀[0m      [30;42m████[0m           [1;32;42m▐[0;1;32;40m▀[0m  [32m▀[0m
 [37m    [0m   [32m▄[0;1;33m [0m                       [32m▄[0;1;33m [0m                        [32m▄[0;1;33m [0m
 
-+--chawp-----------------------------------------------------------------------+
-         outline by sadistic intent, shading by eternal (403 thugstas)[0m'
++--chawp-----------------------------------------------------------------------+[0m'

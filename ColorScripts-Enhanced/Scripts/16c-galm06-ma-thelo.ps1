@@ -5,7 +5,7 @@
 # Source SHA-256: df1be577a975eb2bbd3686b42b2c75fe7b0264027cd969de73eb5096436abe26
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Ma-thelo.ans by maffiosos (galm06); released in galm06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
@@ -42,7 +42,7 @@ Write-Host '
                      [33m▀▀▀███▓▓▓▓▓▓████████▓▓▓▓▓█████▀▀▀[0m
                            [33m▀▀█▓▓▓▓▓▓███▓▓▓▓▓██▀▀[0m
                                [33m▀█▓▓▓▓▓▓▓▓▓▓▀[0m
-              [34mGuestrelease[0;37m [0;34mfor[0m   [33m▀▓▓▓▓▓▓▓▀ [0;37m  [0;34mhope you like this fine pack from[0m
-                [34m-[0;37m [0;34mThe[0;37m [0;34mLo0p[0;37m [0;34m-[0m       [33m▓▓▓▓▓[0;37m  [0;34mThe Lo0p. if you like to contact     [0m
-                                    [33m▓▓▓[0;37m  [0;34mme... here is a mail.            [0m
-                     [34m//MaffioSoS[0m     [33m▓[0;37m  [0;34mchristopher_w@iobox.com[0m'
+              [34m            [0;37m [0;34m   [0m   [33m▀▓▓▓▓▓▓▓▀ [0;37m  [0;34m                                 [0m
+                [34m [0;37m [0;34m   [0;37m [0;34m    [0;37m [0;34m [0m       [33m▓▓▓▓▓[0;37m  [0;34m                                     [0m
+                                    [33m▓▓▓[0;37m  [0;34m                                 [0m
+                     [34m           [0m     [33m▓[0;37m  [0;34m                       [0m'

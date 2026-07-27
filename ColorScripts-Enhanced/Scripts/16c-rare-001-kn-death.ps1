@@ -5,7 +5,7 @@
 # Source SHA-256: 952b3bd130ff7515e9cd326b5392a666dd39fc4f36f25024e8b8b9846577f82a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KN!DEATH.ANS by Kenetic (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Deathzone
 # SAUCE Author: Kenetic
 # SAUCE Group: rARE!ASCii
@@ -16,7 +16,7 @@
 
 Write-Host '
 
- [1;30m┌yyyyyyyyyyyyyyy┐ [0;36m┌s[0;1;34mK[0;34mn [0;1;30msyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy┐[0m
+ [1;30m┌               ┐ [0;36m┌ [0;1;34m [0;34m  [0;1;30m                                                   ┐[0m
  [1;30m$$$$$$$$$$$$$$$$l [0;36m`l[0;1;34m$[0;34m$[0;1;34m:[0;1;30m $$$$$$$$$$$$P*╝²°`[0;1;34m__[0;1;30m`╚T$$$$$$$P╝²°^```^°²╚T$$$$$$$$[0m
  [1;30m$$$$$$$$$$$P*╩╩*Tb[0;34m [0;36m:[0;1;34m$[0;34m$l[0;1;37m [0;1;30ml$$$P*╝²°`[0;1;34m_.,▬s[0;34m%[0;1;34mS[0;34m$$$$b,[0;1;30m`$$S$P''.∙  [0m     [1;30m  ∙.`T$$$$$$[0m
  [1;30m$$$$$P╝°`[0;34m_.[0;1;34m,[0;34m▬[0;1;34m╓[0;34m╖▬,._ [0;1;34ml$[0;34m$:[0;1;30m `[0;1;34m_[0;34m,▬s%S$$$P*╝²°`,d$$P''[0;1;30m,$$$$ :[0m  Deathz[1m0[0mne[1;30m  : $$$$$$[0m
@@ -29,5 +29,4 @@ Write-Host '
  [1;30m$$$$$Ss,.[0;34m`^°²╨╨[0;1;34m²°[0;34m^[0;1;34m`[0;34m [0;36m,d[0;1;34m$[0;34m$$$$P╝²°°ⁿ╚*TS$[0;36m$[0;1;34mb[0;36m▬[0;1;34m,_[0;1;30m`°╚T$$$[0m
  [1;30m$$$$$$$$$$S@%ss%@Sb,[0;36m`"²[0;1;34mⁿ[0;36m°[0;1;34m`[0;1;30m_,s@SS@s,_[0;34m`°²╚*T$Ss▬,[0;1;30m`T$[0m             [1;30mp a s s w o r d[0m
  [1;30m$$$$$$$$$$$$$$$$$$$$$S@%S$$$$$$$$$$$$$S%s╖▬,,,▬d$$[0;1;5;37m [0m ┌
- [1;30m`""""""""""""""""""""""""""""""""""""""""""""""""`[0m
- [1;30m(c) Kenetic  //  rARE!ASCii[0m'
+ [1;30m`""""""""""""""""""""""""""""""""""""""""""""""""`[0m'

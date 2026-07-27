@@ -5,7 +5,7 @@
 # Source SHA-256: 772385820972f1a36791039f126dcd90530cb74aeef9f7cba510557766a10a6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-DSN.ANS by /nOah? (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dSN! ;--/
 # SAUCE Author: /nOah?
 # SAUCE Group: nerp
@@ -35,5 +35,5 @@ Write-Host '
                         [31m▄[0;1;31m▄[0;31m▀[0;1;31m▀[0;31m▀[0m     [37m [0;31m█[0;37m [0;1;30m▐[0m [1;30m▌[0m    [1;30m▐[0m     [1;30m  [0m  [31m▀▀[0;1;31;41m▀[0;1;31;47m▓▓[0;1;31;40m▄▄[0;31m▄▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m▄▄[0;31m▄▀[0;1;31m▀[0;31m▀▄[0;1;31m▄[0;31m▄[0m
                  [31m▄[0;1;31m▄[0m  [31m▀[0;1;31m▀[0;31m [0m             [1;30m▐[0m      [1;30m▐[0m   d[1;30md[0ms[1;30ms[0mn[1;30mn   [0m [31m▀[0;1;31m▀[0;1;31;41m▀▐▄[0;1;31;40m▄[0;31m▄[0;37m [0;31m▀[0;1;31m▀▀[0;31m█[0;1;31m▄[0;31m▄[0;37m  [0;1;31m▀[0;31m▀[0;37m [0;31m▄[0m
                                      [1;30m▀[0m           [1;30m        [0m     [31m▀[0;1;31m▀[0;1;31;41m▀▄[0;1;31;40m▄[0;31m▄[0m    [1;31m▀[0;31m▀[0;37m [0;31m▄[0m
-                         [1;30m/fight the racism[0m  [1;30m                  [0m     [31m▀[0;1;31m▀[0;31m▀[0;1;31m▄[0;31m▄[0m
+                         [1;30m                 [0m  [1;30m                  [0m     [31m▀[0;1;31m▀[0;31m▀[0;1;31m▄[0;31m▄[0m
                                                [1;30m       [0m                   [31m▀[0;37m [0m'

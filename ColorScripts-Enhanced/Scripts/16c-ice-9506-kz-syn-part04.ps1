@@ -5,7 +5,7 @@
 # Source SHA-256: 880a26a85881b1f689148a6f82123dce5778116d7d4686d6b985b1d0a0968eb4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KZ-SYN.ICE by Kamikazee (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 143-186
 # Columns: 1-80
 
@@ -41,16 +41,16 @@ Write-Host '
                  [1;34m▄[0;1;34;47m▓▓[0;1;34;40m▄[0m         [1;34m■▄[0;1;34;47m▓▓[0m [1;34m▀[0m      [1;34m■▀[0m   [34mkz[0m             [1;34;47m▓[0;1;34;40m▀[0m
                    [1;34m▀[0m   [1;34m▄[0m        [1;34m▀[0m                               [1;34m▀[0m
                                                                    [1;34m▀[0m
-                              [1m-[0m the  Syndicate [1m-[0m
-  [1;30m coming soon....[0m
+                              [1m [0m                [1m [0m
+  [1;30m                [0m
 
-             [1;30msysops[0m :[1m [0;1;30m [0mKamikazee [1m/[0m Johnny Walker [1m/ [0mCold and Ugly
+             [1;30m      [0m  [1m [0;1;30m [0m          [1m [0m               [1m  [0m             
 
-             [1;30maffils[0m :  Integrity USHQ [1m/[0m [1mi[0mCE Member Board
+             [1;30m      [0m                   [1m [0m [1m [0m               
 
 
     [1;30m▄[0m
      ■    [1;30m▄ ▀            [0m
-     ▄[1;47m▄[0m■ ▀     [1;30m   [0m   -[1;30m [0m [1;30mAnsi by Kamikazee < [0miCE[1m [0;1;30m>[0m [1;30m3[0m.[1;30m15[0m.[1;30m95[0m  -
+     ▄[1;47m▄[0m■ ▀     [1;30m   [0m    [1;30m [0m [1;30m                    [0m   [1m [0;1;30m [0m [1;30m [0m [1;30m  [0m [1;30m  [0m   
  [1;30m  [0m▄[1;30m▄■[0m▀ ▀ [1;30m    [0m
-[1;30m  [0m [1;30m▀[0m     [1;30m ▀   To purchase an ansi ad, find me on IRC or on the Syndicate.[0m'
+[1;30m  [0m [1;30m▀[0m     [1;30m ▀                                                              [0m'

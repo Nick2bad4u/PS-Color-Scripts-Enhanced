@@ -5,7 +5,7 @@
 # Source SHA-256: 9a5c45dcd5e1e68d278f8614dcd6f9c0a00a3fb4757b946a6228e135835c3f1e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-TL2.ANS by Pariah (REMORSE); released in rmrs-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Toil
 # SAUCE Author: Pariah
 # SAUCE Group: REMORSE
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mToil [0m+[1mo[0m [1mSerial2n[0;34m                                              [0;1;37m     ([0mc[1m)Pariahtype[0m
+[1m     [0m [1m [0m [1m        [0;34m                                              [0;1;37m      [0m [1m           [0m
 [1m                   [0;34m                                                       [0m
 
 [34m__[0;1;34m_____________________________________[0;34m__[0;1;37m [0m [1m [0m           [34m__[0;1;34m_____________________[0;34m__[0m
@@ -34,5 +34,4 @@ Write-Host '
 [34m``[0;1;34m````````````[0;34m``[0;1;37m [0;31m♫[0;1;31m♫♫♫♫♫[0;31m,[0;34m``[0;1;34m`````````[0;34m``[0;1;37m  [0m`''ⁿ[1m╙7♫♫♫♫♫♫♫P╙ⁿ[0m''`[1m   [0;34m`[0;1;34m``````````````````[0;34m``[0m
 [1;37m                 [0;31m~~[0;1;31m~~~~[0;31m~[0;1;37m    [0m            [1m             [0m
                 [1m                                      [0m
-[1;30m--------------------------------------------------------------------------------[0m
-         greets to Haji who I admire both as a friend and as an artist[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

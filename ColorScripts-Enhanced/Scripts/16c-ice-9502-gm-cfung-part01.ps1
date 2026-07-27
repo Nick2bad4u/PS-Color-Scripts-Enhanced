@@ -5,7 +5,7 @@
 # Source SHA-256: f8b43eef55c3b1a50bae40616931eedd6a434b8a11dba6bbf21acb89133bb493
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GM-CFUNG.ICE by Gman (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Club Fungi
 # SAUCE Author: Gman
 # SAUCE Group: iCE
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                                       g [1;30m. [0mice
+                                                                         [1;30m  [0m   
 
 [1;30m▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m
 [32m▄[0;32;42m   [0;1;32;42m▄▄[0;1;32;40m█[0;1;32;42m▄[0;1;32;40m████████████████████████████[0;1;32;42m▄[0;1;32;40m█[0;1;32;42m▄▄[0;32m███▄ ▀████[0;1;32;42m▄▄[0;1;32;40m███████████[0;1;32;42m▄▄▄▄▄▄  [0;32m▄▄ [0;1;30m▀[0;35m▀[0;1;30;45m░░░[0m

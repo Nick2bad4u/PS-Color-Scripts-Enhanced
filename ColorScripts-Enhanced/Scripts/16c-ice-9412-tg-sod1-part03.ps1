@@ -5,7 +5,7 @@
 # Source SHA-256: 0f8c69cb61cdb0eb966c4496a54c7344b070dfa85eeb4ef204c27a4ad3884293
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-SOD1.ICE by Toon Goon (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 75-110
 # Columns: 1-80
 
@@ -41,8 +41,4 @@ Write-Host '
 [1;47m [0;1m███ [0;1;47m [0;1m██   [0m▄[1;47m▄[0;1m███[0m▀[1;47m▀██[0;1m▄[0m         [1;47m [0;1m██ [0;1;47m [0;1m██  [0;1;47m [0;1m███[0;1;47m [0;1m██ [0;1;47m [0;1m███ [0;1;47m [0;1m██  [0m▄[1m▄▄▄    [0;1;47m [0;1m██ [0;1;47m [0;1m██[0m▄[1;47m▄[0;1m███▀▀[0m
 [1;47m▄[0;1m███[0m▀[1m▀▀▀▀▀▀▀▀▀▀   [0m█[1;47m███[0m        [1;47m [0;1m██[0m▄[1;47m▄[0;1m██▄[0;1;47m▄[0;1m███▀[0m▀[1;47m▀[0;1m██[0;1;47m▄[0;1m███ [0;1;47m [0;1m██ [0m▄[1;47m▄[0;1m███    [0m▀[1m▀▀ [0;1;47m [0;1m██[0;1;47m [0;1m███▄ [0m▄[1m▄[0m
                  ▀[1;47m▀██[0;1m▀[0m        ▀[1m▀▀ [0m▀[1m▀▀ [0m▀[1;47m▀[0;1m███[0m        ▀[1;47m▀[0;1m██▀▀▀▀▀[0m         [1;47m [0;1m██ [0m▀[1m▀▀▀▀▀▀[0m
-                                       ▀[1m▀▀▀[0m                          ▀[1m▀▀[0m
-                      [1mSeeds of Destruction . 413-743-9183[0m
-          [1mops: Phaser-X [rEM0RZe / iDENTITy] & Cardiac Arrest [UNiON][0m
-[1m  TwingleNet, NokNet, Remorse, Nokturnal, Identity, Union, Dos, Guilt, Broken[0m
-        [1msurfer dude ansi finished in 1 day by TooN "Jed who?" GooN <iCE>[0m'
+                                       ▀[1m▀▀▀[0m                          ▀[1m▀▀[0m'

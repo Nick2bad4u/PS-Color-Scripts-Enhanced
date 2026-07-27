@@ -5,7 +5,7 @@
 # Source SHA-256: 3e33de220983a4f62d8061628dcabf645a92351d73ea8f8a198cffd90010515b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GK-NUMB.ANS by Numb + Grind King (samsara & fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: samsara
 # SAUCE Author: numb & grind king
 # SAUCE Group: samsara & fire
@@ -37,6 +37,4 @@ Write-Host '
  [1;30;47m██[0;1;30;40m▄[0;30;42m██[0;1;30;40m▀▀▀▓▄▄[0;30;42m██[0;1;30;40m▄█████▌[0;30;42m██[0;1;30;40m█[0;30;42m██[0;1;30;40m▓▄[0;30;42m█[0;1;30;40m▀[0;30;42m█[0;1;30;40m▄[0;1;30;47m█[0;30;42m██[0;1;30;40m ▄▄▄█▀▀[0;30;42m███[0;1;30;40m▄█▓[0;30;42m██[0;1;30;40m▀▀▀[0;30;42m█[0;1;30;40m▐█  ███▀[0;30;42m█[0;1;30;40m ███▀[0;30;42m█[0;1;30;40m ▄█▓▄[0;30;42m█[0;1;30;40m █[0;1;30;47m▓▓[0m
  [1;30;47m▒[0;30;42m██[0;1;30;40m ▀▀█▄[0;30;42m█████[0;1;30;40m▀██[0;1;30;47m▓[0m▒[1;30m█▓[0;30;42m██[0;1;30;40m▌[0;30;42m█[0;1;30;40m▐███▄██[0;1;30;47m▓[0;1;30;40m▌[0;30;42m██[0;1;30;40m▀[0;30;42m██[0;1;30;40m▄▄▓▀▀▀▀█[0;30;42m██[0;1;30;40m▐███[0;30;42m██[0;1;30;40m▓░[0;30;42m█[0;1;30;40m▄▄▄[0;30;42m██[0;1;30;40m▀▓▀[0;30;42m██[0;1;30;40m▄▄▄▄▄▄▄[0;30;42m█[0;1;30;40m ▄█[0m
  [1;30;47m░▓[0;1;30;40m▄▄[0;30;42m█[0;1;32;40m [0;30;42m██[0;1;30;40m▄▄▄█▄▄ ▀▀▀▐▌ ░ [0;32m [0;1;30m█████████[0;30;42m███[0;1;30;40m▄      ▄▄[0;32m [0;30;42m██[0;1;30;40m██[0m▒[1;30;47m▓[0;1;30;40m▌[0;30;42m█[0;1;30;40m▐[0;30;42m█[0;1;30;40m ████▄   ▄█████[0;1;30;47m▓[0;1;30;40m██▓  ▓ [0m
- [1;30m░░[0m                                                [1;30m░[0m
-       [32moutline >> [0;1;32mnumb[0;32m[samsara]  -  camouflage shades >> [0;1;32mgrind king[0;32m[fire][0m
-[37m [0;30m [0m                                                                      [30msublime[0m'
+ [1;30m░░[0m                                                [1;30m░[0m'

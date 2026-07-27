@@ -5,7 +5,7 @@
 # Source SHA-256: 4734b01218402313ca0525f67a23599a8cd0c1a3abb8ca77d72c1c353c867051
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cat-EVERYROSE.ANS by Catbones + Radman + Iks (ACiD Productions); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Every Rose
 # SAUCE Author: Catbones
 # SAUCE Group: ACiD Productions
@@ -48,9 +48,4 @@ Write-Host '
 [37m                       [0;35m■[0;37m                                   [0;35m▀  ▄[0;37m        [0;35m▄ ▀[0m
 [37m         [0;35m▀▀▀   ▀  ▀  ▀[0;37m                                          [0;35m▀▀▀▀[0m
 
-[37m                                  [0;35m░[0m
-
-
-
-[34m [0;35mANSi by Catbones[0;34m<[0;35mAC[0;1;35;45mi[0;35mD[0;34m>[0;36m                                           [0;35mNovember 2013[0m
-[35m Logo by RaD Man & iks                                   blocktronics[0;34m.[0;35macid[0;34m.[0;35mtrip[0m'
+[37m                                  [0;35m░[0m'

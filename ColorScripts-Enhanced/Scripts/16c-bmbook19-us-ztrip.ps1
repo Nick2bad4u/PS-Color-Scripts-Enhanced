@@ -5,7 +5,7 @@
 # Source SHA-256: 971d02139adada47ae86458c1cd360759d022068a1e3279ebea2d968ae3d48bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-ztrip.ans by Avenger + Kingpin Octopus (blackmaiden.xxx); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: halls of illusions
 # SAUCE Author: avenger.kingpin_o
 # SAUCE Group: blackmaiden.xxx
@@ -32,11 +32,7 @@ Write-Host '
 [37m░░░[0;35m$$$$$$$$ZI;[0;31m  ''              $[0;30;41mdSSS[0;31;40mi[0;33;41m$$$$[0;31;40miZ[0;30;41m$[0;33;41m$$$$$[0;30;41m$$$$$[0;31;40mZ?''    [0;35;40m  ;IZ[0;30;45m$$$$[0;35;40m'',d[0;30;47m▓▓▓[0;35;40m''[0m
 [35;40m$$$$$$$$$$$ZI;[0;31;40m                 $SS?''?[0;30;41mI$[0;33;41m$$[0;31;40mi$[0;30;41m╬[0;33;41m╬╬$$$[0;30;41m$$[0;31;40m$$↕''      [0;35;40m ;iIZ$$$'' $$$$$$$$$[0m
 [35;40m              [0;31;40m                 `~    $$[0;30;41m$$[0;31;40m$$[0;1;33;41m$$[0;33;41m╬$[0;33;40m▓▓[0;30;41m$[0;31;40m↕''[0m
-[35;40mhallz of illusionz _[0;31;40m                 $[0;1;31;40m░░░[0;31m$[0;33m▓[0;1;33;41m$$[0;33;41m╬$[0;31;40m7`[0m
+[35;40m                    [0;31;40m                  [0;1;31;40m░░░[0;31m [0;33m▓[0;1;33;41m  [0;33;41m╬ [0;31;40m  [0m
 [31;40m                                     $[0;30;45m▓▓▓[0;30;41m&[0;1;33;41m&&&[0;31m?`[0m
 [31m                                     `?$[0;30;41m╬╬╬[0;31;40m?`[0m
-[31;40m                                       `↕╩`[0m
-
-
-
-[35;40moutlines: kingpin   shading: avenger[0m'
+[31;40m                                       `↕╩`[0m'

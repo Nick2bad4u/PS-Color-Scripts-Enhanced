@@ -5,7 +5,7 @@
 # Source SHA-256: 80a30c3234a0207c77a739d921e932888bde9faa1b66f2a19a30c2c6c93d49f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-FOOL1.ANS by Clark (fos-0596); released in fos-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -34,8 +34,8 @@ Write-Host '
 [1;34m▀[0m [1;34mck[0m     [1;34m▀▀▄▄[0m         [1;34m▄[0m       [1;30m [0m   [1;30m░[0m          [1;34m                      [0m [1;34m            [0m
                                [1;30m [0m                                          [1;34m  [0m
 [1;30m--------------------------a0=0c=23510fAsA--ACK![0m
-[1;30m   Dont rip this.. unless you run a board called Legion of Fools.. this is not[0m
-[1;30mfor you. GreTz:  CyberPunk(where the hell are you),SS,TI,BW,SPINSANE,6o2 Boys,  [0m
-[1;30mand my mom.. WOw.  You want an ansi.. thats nice.. if you want it from me send[0m
-[1;30ma line to me at stargazr@imap1.asu.edu, no promises though.. I only do the ones[0m
+[1;30m                                                                              [0m
+[1;30m                                                                                [0m
+[1;30m                                                                              [0m
+[1;30m                                                                               [0m
 [1;30mI want.. For FREE![0m               [1;30m!KCA--AsAf01532=c0=0a--------------------------[0m'

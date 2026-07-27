@@ -5,7 +5,7 @@
 # Source SHA-256: 53b4a8fe5fdab908aeed9a46811fb6cd3ba81ff9d305a83a2e7b0e3ef5e88fe8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PN-LI1.ICE by Pnakotic (iCE); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lost Innocence
 # SAUCE Author: Pnakotic
 # SAUCE Group: iCE
@@ -54,7 +54,7 @@ Write-Host '
 [35m█ ▓▄[0m                                                                       [35m▄▓ █[0;37m [0m
 [1;35;45m▒[0;1;35;40m▄[0;35m▄▄▄ ▄   ▄[0m                      [37mLost Innocence[0m                     [35m▄   ▄ ▄▄▄[0;1;35m▄[0;1;35;45m▒[0m
 [1;35m▒[0;35m▀[0m                                                                        [35m ▓▀[0;1;35m▒[0;35m▌[0;37m [0m
-[35m▌ ░[0m                [37ms: Ravage Bias [0;1;31m/ [0mBigboy [31m─[0;1;31m─[0;1;37m─[0;1;31m─[0;31m─ [0;37mcs: Swindler[0m              [35m░[0m [35m▐[0m
-[35m▌ ▒   [0;37mquality nets and affils! [0;31m─[0;1;31m─[0;1;37m─[0;1;31m─[0;31m─ [0;37mart/demo oriented [0;31m─[0;1;31m─[0;1;37m─[0;1;31m─[0;31m─ [0;37m416 267 5467[0m  [35m [0m
+[35m▌ ░[0m                [37m               [0;1;31m  [0m       [31m─[0;1;31m─[0;1;37m─[0;1;31m─[0;31m─ [0;37m            [0m              [35m░[0m [35m▐[0m
+[35m▌ ▒   [0;37m                         [0;31m─[0;1;31m─[0;1;37m─[0;1;31m─[0;31m─ [0;37m                  [0;31m─[0;1;31m─[0;1;37m─[0;1;31m─[0;31m─ [0;37m            [0m  [35m [0m
 [1;35;45m■[0;35m▄▓▄[0m                                                                       [35m■ ▐[0m
 [35m██[0;1;35m▒[0;1;35;45m▀▒▄[0;35m▄[0m               [37mfont by Pnakotic of [0;1;37mi[0;1;31mC[0;31mE [0;37mon 09 26 94[0m                   [35m▄[0;1;35;45m░[0;35m▌[0;37m [0m'

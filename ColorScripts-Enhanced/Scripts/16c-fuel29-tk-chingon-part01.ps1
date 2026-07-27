@@ -5,7 +5,7 @@
 # Source SHA-256: 0e9ed28cfbd7208b76e920657e65ba0a18fba484b6bb326af7300950c95d8b6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-chingon.ans by the knight (fuel); released in fuel29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chingon BBS
 # SAUCE Author: the knight
 # SAUCE Group: fuel
@@ -21,9 +21,9 @@ Write-Host '
 [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m    [0;31m▀▀▀▀▀▀▀▀▀▀[0;1;30m   [0;31m▀▀▀▀   ▀[0m           [1;30m▀▀▀█▄█▀ ▒[0;1;30;47m▓▓[0m
 [31m░ [0;1;30m█[0m▀▀[1;30m▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   [0m▄[47m  [0;40m▄[0;1;30;40m▀[0m▄■ [1;30m░▀█▌▀█[0m
 [31m▒ [0;1;30m█  ▒  [0;1;37mThe Knight[0m of [1mFUEL [0mpresents..[1;30m..[0m                         ▐▄[30;47m▒[0;1;37;47m░[0m▀██[1;30;47m░[0;1;30;40m  ░█▓ █[0m
-[31m▓ [0;1;30m█  ░  [0mAn ansi for [1mSmooth[0m''s BBS [1mCHINGON[0m.  [1;30mA different day,    [0m▐[47m [0;1;47m░░  [0m▀▄█▌ [1;30m▄█  █[0m
+[31m▓ [0;1;30m█  ░  [0m            [1m      [0m       [1m       [0m   [1;30m                    [0m▐[47m [0;1;47m░░  [0m▀▄█▌ [1;30m▄█  █[0m
 [31m█ [0;1;30m█[0m     [1;30ma different style. . Greetz to all atomic lovers,[0m      ▀[1;47m▒▒[0m█▀ [1;30;47m▒░[0m▀▄[1;30m▀▓▀  ▓[0m
-[31m█ [0;1;30m█  ░  and all the creatures on this earth. You''re all[0m          ▄[1;30m▄▄[0;1;30;47m▓▒[0m██▄▌    [1;30m▒[0m
+[31m█ [0;1;30m█  ░                                                 [0m          ▄[1;30m▄▄[0;1;30;47m▓▒[0m██▄▌    [1;30m▒[0m
 [31m█ [0;1;30m█  ▒  beautiful, awesome and epic ! [0m  Bring back headers[1;33m [0;1;30m![0;1;33m    [0m▐█[1;30;47m░░░[0m█[1;47m░[0m█▄▀ [1;30m▄  ░[0m
 [31m█ [0;1;30m█▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m  [0;1;30m▄▄▄▄▄[0;31m [0;1;30m▄▄▄▄▄▄▄▄▄ ▄▄▄[0m      ░▀████[1;47m░▒░[0m▄[1;30;47m░[0m▌
 [31m█▄▄▄[0;1;30m▀[0;31m▄▄▄▄▄▄▄▄▄  ▄  ▄▄▄ ▄▄▄▄▄▄▄▄ ▄▄▄ ▄▌ [0;1;30m▄▄▌[0m [31m▄▄▄▄ [0;1;30m  ▒█▌[0;30m [0;1;30m█[0;1;30;47m░░▀▀[0;1;30;40m▄▄[0;31m  [0;37m▀[0;1;30;47m░[0m▄[1m░[0m▀▀▀▀▀▀[1m░[0m▄▌

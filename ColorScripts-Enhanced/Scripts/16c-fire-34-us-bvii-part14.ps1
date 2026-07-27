@@ -5,7 +5,7 @@
 # Source SHA-256: 6064d74c3be0ddb2d7d82f2c9cd314f37304876619e247f606072737385d3f93
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BVII.ANS by Tainted + Tetanus (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Block VII
 # SAUCE Author: Tetanus / Tainted
 # SAUCE Group: Blocktronics
@@ -60,7 +60,4 @@ Write-Host '
                                               [1;36m█[0m
 
                               [1;36m░[0m
-                              [1;36m░[0m
-
-
-                                    [1;30mB7 baby.[0m'
+                              [1;36m░[0m'

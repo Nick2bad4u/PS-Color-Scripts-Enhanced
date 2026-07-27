@@ -5,7 +5,7 @@
 # Source SHA-256: b4afcdced7f512ce61c08e2eca11a2170a446ff7addba24383e8f36ce8ef5031
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!DUCZE.ANS by sIMONkING (tHElo0p); released in l0p02_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dUCZE - old sql 2
 # SAUCE Author: sIMONkING
 # SAUCE Group: tHElo0p
@@ -38,26 +38,4 @@ Write-Host '
    [37m ▌[0;1;32m▀[0;1;32;43m▓[0;1;32;42m██▓▓[0;32m [0;1;32;42m███[0;1;32;47m█[0;1;32;43m▓▓[0;32m [0;1;32m▀[0;1;32;43m▓[0;1;32;42m██▓▓[0;32m [0;1;32;42m███[0;1;32;47m█[0;1;32;43m▓▓[0;32m [0;1;32m▀[0;1;32;43m▓[0;1;32;42m██▓▓[0;32m [0;1;32;42m███[0;1;32;47m█[0;1;32;43m▓▓[0;32m [0;1;32m▀[0;1;32;43m▓[0;1;32;42m██▓▓[0;32m [0;1;32;42m███[0;1;32;47m█[0;1;32;43m▓▓[0;32m [0;1;32m▀[0;1;32;43m▓[0;1;32;42m██▓▓[0;32m [0;1;32;42m███[0;1;32;47m█[0;1;32;43m▓▓[0m
    [37m █▄▄▄[0;32m [0;1;32m▀▀▀▀▀▀▀▀▀[0;32m     [0;1;32m▀▀▀▀▀▀▀▀▀[0;32m  [0;1;32m▒▒▒▀▀▀▀▀▀▀▀▀[0;32m     [0;1;32m▀▀▀▀▀▀▀▀▀[0;32m     [0;1;32m▀▀▀▀▀▀▀▀▀[0m
    [37m ████████[0;1;30;47m░░░░▒▒[0m                [1;32m░░░[0m
-   [37m ███[0;1;30;47m░░░░░▒▒▓▓██[0m
-
-[1;30mups, kolejny oldsql''wy logosek. czyzby jakis nowy trend ;)[0m
-[1;30mmilo jest czasami powspominac dawne klimaty. mam nadzieje, ze bawicie sie rownie[0m
-[1;30mdobrze jak ja.[0m
-
-[1;30mchcesz miec nowego zwariowanego, nieprzewidywalnego logoska?! [0m
-[1;30mchcesz, aby twoi znajomi zazdroscili ci pieknej oprawy ascii/ansi?![0m
-[1;30mnapisz do sK!''ya, faceta rownie nieprzewidywalnego jak logo, ktore dla ciebie[0m
-[1;30mzrobie |)[0m
-
-[1;30mtylko powazne oferty ;)[0m
-
-[1;30msimon king/thelo0p^...[0m [1;30m(n.o.t.e.)[0m
-[1;30mszymon grabinski[0m
-[1;30m1 armii wojska polskiego 6/10[0m
-[1;30m89410 wiecbork[0m
-[1;30mpolska[0m
-
-[1;30memail: simon_k@friko.onet.pl[0m
-
-
-[1;30m(c)1999 thelo0p[0m'
+   [37m ███[0;1;30;47m░░░░░▒▒▓▓██[0m'

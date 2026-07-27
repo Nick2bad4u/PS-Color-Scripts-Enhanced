@@ -5,7 +5,7 @@
 # Source SHA-256: 95371beb8fb025e69e0fa542f77eec7f8661867c37b5d0db361bc782d419e301
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-BLUE.ANS by Bisounours (Fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: untitled.
 # SAUCE Author: Bisounours
 # SAUCE Group: Fire
@@ -40,4 +40,4 @@ Write-Host '
 [1m [0;36m░[0;1;37m [0;36m░[0;30;46m▓[0;36;40m [0;1;37;40m   [0;1;37;46m▓[0;1;37;40m▌▐██  █▄▄ ▀██████▌ █▄    [0;1;31;40m▀[0;1;31;47m▓[0;1;31;40m████[0;1;31;43m▓░[0;33m███████████▀[0;1;37m [0;33m [0;1;37m  [0;33m▄█▀▀[0;1;37m       ▄▀ ▐████░[0m
 [36m    [0;1;31m [0;1;37m   ▐█ ▐██ ▐███ ▐▄▄▀▀[0;1;37;46m▓▓[0;1;37;40m  [0;1;37;46m▓[0;1;37;40m█▌     [0;1;31;40m▀[0;1;31;43m▓[0;1;31;40m██[0;1;31;43m█▌░░[0;33m██████[0;1;30;43m░[0;33m▀[0;1;37m   [0;33m▄▀▀[0;1;37m         ▄▀[0;30;43m░[0;33;40m▓[0;1;37;40m [0;1;37;46m▓[0;1;37;40m████░[0m
 [1m        ▐▌ ██▌ ▐██▌ ▓█████   ▓█▌     [0;1;31m░░▀██[0;33m█████[0;1;30;43m░[0;33m▀▀[0;1;37m [0;33m(♥)░[0;30;43m▓[0;1;37;40m [0;33mbisounours![0;30;43mfire[0;33;40m░[0;1;37;40m▓████[0;33m░[0m
-[1;37mthis is for kyo, and only for kyo![0m     [1;31m   [0;33m▀▀▀░[0;30;43m▓[0m                 [33;40m             [0m'
+[1;37m                                  [0m     [1;31m   [0;33m▀▀▀░[0;30;43m▓[0m                 [33;40m             [0m'

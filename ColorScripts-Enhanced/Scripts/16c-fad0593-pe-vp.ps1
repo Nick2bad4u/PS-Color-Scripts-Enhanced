@@ -5,7 +5,7 @@
 # Source SHA-256: 92042fca5940aa06b310d4fe775067e1ce6def9b1f67c53e7b202be019d48fd3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PE-VP.ANS by Public Enemy (fad0593); released in fad0593 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -55,7 +55,7 @@ Write-Host '
                               [1;34;40m▀█[0m                     [1;34;40m▀[0;1;34;44m▄▄▄▄▄         [0;1;34;40m█[0m
                                                          [1;34;40m▀▀▀▀▀▀[0;1;34;44m▄▄▄▄[0;1;34;40m█[0m
 
-      [31m■ [0;1;31mVanshing Point [0;31m■ [0;1;31mDEADWEiGHT DiSTRO [0;31m■ [0;1;31mFoolsNET [0;31m■ [0;1;31mDEVo Member Board [0;31m■[0m
-       [31m■ [0;1;31mSToRM CHQ [0;31m■ [0;1;31m35o megs online! [0;31m■ [0;1;31mSysOp: Kodiak [0;31m■ [0;1;31mCoSysOp: Rooster [0;31m■[0m
-          [31m■ [0;1;31m6o4.599-5711 [0;31m■ [0;1;31m14.4 v32bis [0;31m■ [0;1;31mo-1 DAYZ warez [0;31m■ [0;1;31mCall Today! [0;31m■[0m
-                    [31m■ [0;1;31mANSi created by Public Enemy [FaD''93] [0;31m■[0m'
+      [31m■ [0;1;31m               [0;31m■ [0;1;31m                  [0;31m■ [0;1;31m         [0;31m■ [0;1;31m                  [0;31m■[0m
+       [31m■ [0;1;31m          [0;31m■ [0;1;31m                 [0;31m■ [0;1;31m              [0;31m■ [0;1;31m                 [0;31m■[0m
+          [31m■ [0;1;31m             [0;31m■ [0;1;31m            [0;31m■ [0;1;31m               [0;31m■ [0;1;31m            [0;31m■[0m
+                    [31m■ [0;1;31m                                      [0;31m■[0m'

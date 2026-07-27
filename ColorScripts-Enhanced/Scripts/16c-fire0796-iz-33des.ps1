@@ -5,7 +5,7 @@
 # Source SHA-256: 1c90371562fb35dd1cfcaaba7537b6975e54e8653a9278220738127e647ecbbb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-33DES.ANS by ize (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: eerie design & co
 # SAUCE Author: ize
 # SAUCE Group: fire
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30;41m▓[0;1;33;41m [0;1;31;41mize.fire[0;1;33;41m [0;30;41m░[0m        [32;40m [0m
+[30;41m▓[0;1;33;41m [0;1;31;41m        [0;1;33;41m [0;30;41m░[0m        [32;40m [0m
                 [32;40m  [0m       [32;40m [0m
              [32;40m [0m         [32;40m      [0m    [1;33;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄  [32m [0m
            [32m [0m        [32m [0m   [1;33m ▄▄▄████████████████████████[0;1;33;47m▄[0;1;33;40m▄▄[0m▄
@@ -34,7 +34,4 @@ Write-Host '
        [1;30m   [0m                [1;30m▐[0;1;30;47m█[0;1;30;40m▀▀[0m   [1;30m▀▀████████▀▀▀▀▀▀▀▀▀▀[0m      [1;30m▀[0;1;34m [0;1;30m▀▀▀[0m
 [1;31m                 [0;31m       [0;1;30m▄ ▀[0;1;33m [0;31m       [0;1;33m  [0;1;30m▀█[0;30;47m▓▓[0;1;30;40m▀[0;1;33;40m [0;31m [0;37m [0;30;41m▓█▓▒░[0;1;31;41m eerie design & co. [0;30;41m░[0;31;40m▐▐ ▌ ▐ [0;1;31;40m [0m
                                      [1;30m ▐█    [0;1;33m  [0m
-[1;30mdon''t missunderstand me for    [0m     [1;30m▄ ▀  [0m       [1;30mhmmh.. if you want an ansi by me[0m
-[1;30mputting eerie on a garbage pile,[0m       [1;30m              [0m [1;30mbo.alm@mailbox.kdt.se[0m  [1;30m...[0m
-[1;30mcuz i just couldn''t do grass =) [0m      [1;30m    [0m [1;30mif you offer me a trade it''ll be more[0m
-[1;30mnice big sun there huh..[0m  [32m      [0;1;30m         [0;32m      [0;37m [0;1;30mfor sure that you get ansi =) k?[0m'
+[1;30m                               [0m     [1;30m▄ ▀  [0m       [1;30m                                [0m'

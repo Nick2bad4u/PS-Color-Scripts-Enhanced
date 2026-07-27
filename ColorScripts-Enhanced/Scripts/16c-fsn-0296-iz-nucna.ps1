@@ -5,7 +5,7 @@
 # Source SHA-256: 295653d8c499b1ed069147f6ce1714b09cc0b853a51562771c31215fd24fea6f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ%NUCNA.ANS by ize (fusion); released in fsn-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nuclear nation
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -29,5 +29,4 @@ Write-Host '
           [1;31m▐[0;1;31;42m▓[0;1;31;40m█  ▐▀  █[0;1;31;42m▓[0;1;31;40m█[0m   [1;31m█[0;1;31;42m▓[0;1;31;40m █[0;1;31;42m▓[0;1;31;40m█[0m   [1;31m▄ ▐██[0m   [1;31m▄ █[0;1;31;42m▓[0;1;31;40m█ [0m   [1;31m▄ █[0;1;31;42m▓[0;1;31;40m█[0m   [1;31;42m▓▒[0;1;31;40m▌[0;1;31;42m▓[0;1;31;40m█[0;1;31;42m▓[0m
            [1;31m█▌[0m      [1;31m▐██▌ ▐█▌ ▐██▌  ▐▌ █▌  ▐█▌▐██▌[0m   [1;31m▐▌▐██▌  ▐[0;1;31;42m▓[0;1;31;40m▌▐██▌   [0m
            [1;31m ▀■   [0m   [1;31m▀██▄█▀[0m   [1;31m▀██▄■▀   ▀■▄█▀  ▀██▄▄■▀  ▀█   ■▀ ▐██    [0m
-      [32m  [0;1;31m %[0;32mansee[0;1;31m%[0;32mby[0;1;31m%[0;32mize[0;1;31m%[0;32mfusion[0;1;31m%[0;32m96[0;1;31m%[0;32mto[0;1;31m%[0;32mplastic''s[0;1;31m%[0;32mnuclear[0;1;31m%[0;32mnation[0;1;31m%▄■▀[0m
-'
+      [32m  [0;1;31m  [0;32m     [0;1;31m [0;32m  [0;1;31m [0;32m   [0;1;31m [0;32m      [0;1;31m [0;32m  [0;1;31m [0;32m  [0;1;31m [0;32m         [0;1;31m [0;32m       [0;1;31m [0;32m      [0;1;31m ▄■▀[0m'

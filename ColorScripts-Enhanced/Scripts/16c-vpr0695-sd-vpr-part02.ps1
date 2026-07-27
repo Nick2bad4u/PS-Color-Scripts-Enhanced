@@ -5,7 +5,7 @@
 # Source SHA-256: 1f1765372b5f3131fc350acc702556a43beef254ba02ffd9cd3385266c1ce9c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-VPR.ANS by sir death (vapor); released in vpr0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: vapor promotional
 # SAUCE Author: sir death
 # SAUCE Group: vapor
@@ -44,7 +44,7 @@ Write-Host '
 [1;36m███████████████[0;1;36;46m▌[0;36m▌[0;1;34m▐██████████████████████▌ ▄████[0;1;34;44m▒[0;34m████████████████████████ [0;36m███████[0m
 [1;36m███████████████[0;1;36;46m▌[0;36m▌[0;1;34m▐████████████████████████████[0;1;34;44m██▒[0;34m███████████████████████ [0;36m███████[0m
 [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;36m▀▀▀▀▀▀▀[0m
-                      [1;30m■ !sIr dEAth - a vAPOr pRODUCTIOn! ■[0m
+                      [1;30m■                                  ■[0m
 
 
                   [1;30m▄▄▓  [0;1;37m▓▄▄[0m       [1;37m▄[0m▓▄▄▄▄[1;30m▄[0m            [1;30m▄▓▄▄▄▄[0m
@@ -60,8 +60,4 @@ Write-Host '
                               [1;37m▐▌[0;1;34m▀▀▀ [0;1;37m▄▄▄▄▄▄█[0m
                               [1;37m▀▀▀▀▀▀[0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30m dat pick was taken from the comics section of my local newspaper, "the blade."[0m
-          [1;30mw00hoo!  10o lineR eH? :) ... my fiRSt 1o0 lINer fOr vAPor![0m
-            [1;30mw0w. that f0nt RUL3Z. :) .. i got sick of drawing.  so..[0m
-                    [1;30m:) thats why iT rUl35!  .. :) .. o well.[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

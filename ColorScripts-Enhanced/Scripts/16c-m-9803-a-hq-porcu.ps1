@@ -5,7 +5,7 @@
 # Source SHA-256: c63a5157f383167b6e97c3c779c745d681cb7f1c1f1fa184b2c6344eae66ed98
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-PORCU.ANS by Haquisaq (Mistigris); released in m-9803-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Porcupine Stats Screen
 # SAUCE Author: Haquisaq
 # SAUCE Group: Mistigris
@@ -37,6 +37,4 @@ Write-Host '
 [1;37m [0;1;37;42m [0;1;32;42m▒███████[0;32m█   [0;33m▀▀▀▀  ▄▄[0;1;31;43m▒[0;1;31;47m▓[0;1;31;40m▄  [0;32m░░░  [0;33m▐█[0;1;31;43m▒▓█[0;1;31;47m▓▓[0;1;31;43m▌[0m  [32m▄  [0;33m▀▀   [0;32m▄▄[0;1;32;42m▄█▓██████▀█▀▀▀▀  ▀[0;32m▄   [0;1;37minfo[0m.
  [32m█[0;1;32;42m░██████▓▓░[0;32m█▄▄▄▄[0m     [33m▀▀   [0;32m███▄▄    [0;33m▀▀▀   [0;32m███▄▄▄[0;1;32;42m▄▄██████▌▀▀▀▀ [0;32m███[0;1;32;42m▄[0;1;32;40m█[0;1;32;42m██▄ [0;32m██▄▄▄[0m
 [32m ██[0;1;32;42m███████▓▒░░[0;32m█████████████████████▄▄▄▄▄████[0;32;42m  [0;1;32;42m▀▀▀▀▀░░░   [0;32m█████[0;1;32;42m▀[0;32m███[0;1;32;42m▀▀▀[0;32m█[0;32;42m [0;30;42mhq!mist [0m
-[30;40m [0;1;30;40m----(ch0p cHoP)---------------------------------------------------------------[0m
-[1;30;40m [0;1;37;40minfo screen for whoever wants it.  good for 8 or so pieces of info.[0m
-[1;37;40m whatever you do, don''t rip it, or you''ll die of tuberculosis.[0m       - [1mhaquisaq[0m'
+[30;40m [0;1;30;40m----(ch0p cHoP)---------------------------------------------------------------[0m'

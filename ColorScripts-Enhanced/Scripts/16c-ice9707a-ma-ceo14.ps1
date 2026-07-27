@@ -5,7 +5,7 @@
 # Source SHA-256: df3b12ce317841f6d8231a4ebcfdc4ed3b0ed818d30ac000f17cc98f646bec9e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-CEO14.ICE by Mass Murderer (ice9707a); released in ice9707a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -40,5 +40,4 @@ Write-Host '
 [36m█▌[0;1;36m▄▄[0m   [1m░   ▀▀▀[0;1;33m██[0;1;37m█[0;1;33m██[0m  [36m░[0;1;37m ▀▀[0;1;37;47m██[0;1;37;40m█[0;1;37;47m▓▓▓▒▒▒░[0m▄▄[36m  [0;37m ▀▀▀[0;1;37m▐[0;1;37;47m▓[0;1;37;40m▓[0;1;37;47m██████[0;1;37;40m█████▀  ▀▐[0;1;33;40m███[0;1;37;40m█[0;1;33;40m██[0;1;37;40m█▌▀ [0;36m░[0;30;46m▓[0;36;40m▄▄▐█[0;1;36;46m░░[0m
 [1;36;46m░░▒▒▓▓[0;1;36;40m▄▄▄█▄[0m [1;33m▀██████▐▀[0m [36m▄▌▄▄▄▄[0;1;37m ▀▀▀▀▀[0m▐██[1;47m ░░▓▓[0;1;40m████▐█▀▀█▀▀▐█▀▐█▄█▄ [0;1;33;40m▀▐▌▀▀▀[0;1;37;40m [0;36m▄▄▐[0;30;46m░[0;36;40m▓██[0;1;36;46m░░▓▓[0m
 [36m█[0;1;36;46m ░░▒▒▓█[0;1;36;40m▓[0;1;36;46m▓▒░[0;36m▄ [0;1;33m▀█▀▐▀[0m [36m▄[0;1;36;46m▄    ░░▓▓█▓░[0;36m▄▄▄▄▄▄[0;1;30m [0;1;37m▀▀▀▀▀█[0m [1m [0;36m▄[0;1;37m [0m [36m▄▌[0;37m  [0;36m▄[0;37m [0;1;37m▐▀▀ [0;36m▄[0;1;36;46m▄[0;36m▄▄▄[0;30;46mmassm(ice)[0;1;36;40m▓[0;1;36;46m▓[0;1;36;40m██[0m
-[1;36;40m  [0m             [1m  [0;1;33m▐[0;1;37m  [0m [36m▀░░░░░░░░░░░░░░░░[0;30;46m▓[0;1;37;40m [0;1;36;40mT H E   N A T ''[0;36m░[0;1;36mS   S[0;36m [0;1;36mY[0;36m [0;1;36mS[0;36m [0;1;36mT[0;36m [0;1;36mE[0;36m [0;1;36mM[0;36m   [0;1;36mC E░O[0;36m [0m
-                             [1;37m        [0m'
+[1;36;40m  [0m             [1m  [0;1;33m▐[0;1;37m  [0m [36m▀░░░░░░░░░░░░░░░░[0;30;46m▓[0;1;37;40m [0;1;36;40mT H E   N A T ''[0;36m░[0;1;36mS   S[0;36m [0;1;36mY[0;36m [0;1;36mS[0;36m [0;1;36mT[0;36m [0;1;36mE[0;36m [0;1;36mM[0;36m   [0;1;36mC E░O[0;36m [0m'

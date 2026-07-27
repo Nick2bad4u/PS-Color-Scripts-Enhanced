@@ -5,7 +5,7 @@
 # Source SHA-256: 268f420879c3baa12d79f8453fe6215d6ae1c57222c0e033cc64db16981981c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FV-EXILE.ANS by fever (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: exile!
 # SAUCE Author: fever
 # SAUCE Group: RILE
@@ -38,10 +38,4 @@ Write-Host '
 [30;46m▐██[0;1;37;46m▐▌[0m [30;46m▌[0;1;37;46m█▓▀[0;30;46m▄█[0;30;47m█[0;1;31;43m▐█████[0;1;31;47m▀▐[0;1;31;43m██▀[0;30;43m ■[0;1;31;43m▄██[0;1;31;47m▌▀█[0;1;31;40m█▀[0;1;31;43m█ [0m   [1;47m▐[0;1;33;40m▌[0m [1;47m▐[0;1;33;40m██[0;1;33;43m▓[0;33m▌[0;37m [0;30;46m▌[0;1;37;46m██▄ [0;30;46m▄[0;37;40m [0;30;41m▄▄[0;1;31;41m▀▀▓▌[0m  [30;46m▀ ▀[0;37;40m [0;30;41m▌[0;1;31;41m░[0;30;41m▐▄█[0;37;40m [0;1;37;46m▐████[0;30;46m▐[0;1;37;46m▒[0m
 [30;46m▄██▌[0;1;37;46m░[0;30;46m▐[0;37;40m [0;30;46m ▄▀▐[0;37;40m [0;30;43m▌[0;1;31;40m█▀[0;30;41m▀[0;1;31;40m▀█[0;1;31;43m█[0;1;31;47m▀▓[0;1;31;43m██▌[0;30;43m▌[0;1;31;43m███[0;1;31;47m▌▀[0;1;31;43m█[0;1;31;40m█▄[0;30;41m▄[0;1;31;40m▄[0;1;31;43m█[0;30;43m▐[0;37;40m ▐[0;1;37;47m░[0m ▐[1;47m█[0;1;33;40m█[0;1;33;43m▀[0;33m▀[0;31m [0;30;46m▀[0;1;37;46m■▀▓▓[0;30;46m▐[0;37;40m  [0;30;41m▀▀[0;37;40m  [0;30;41m▄▐[0m   [30;46m▄[0;37;40m [0;30;41m▀[0;31;40m [0;30;41m▄[0;37;40m  [0;30;46m▀[0;1;37;46m▄▄▓▀▀[0;30;46m▄▄[0;1;37;46m▓[0m
 [30;46m████▄▌▀[0;37;40m [0;30;46m▌[0;1;37;46m▓▌[0m [30;47m█[0;1;31;43m▐[0;1;31;40m█▄[0;1;31;43m██[0;1;31;47m▀▓█[0;1;31;43m▀█[0;30;43m [0;37;40m [0;30;43m▄[0;1;31;43m▀██[0;1;31;47m▄▓▓[0;1;31;40m█[0;1;31;43m█▀[0;30;43m▄[0;37;40m  ▀ ▄[0;1;37;47m▄[0;1;33;43m█[0;1;33;40m▀[0m  [30;46m▄▄▀▐▄▄[0;1;37;46m▀[0;30;46m▀[0;37;40m [0;30;41m▄[0;1;31;41m▀[0;30;41m▄▄[0m     [30;41m▄▄[0;37;40m [0;30;46m▀▀  ▐▄▄▄[0m
-     [30;46m▄▄▄▀▄[0;1;37;46m▀[0;30;46m ▀[0;37;40m [0;30;43m▄▄[0;1;31;43m▀▀▀▀▀[0;30;43m▐▄▀▌▀[0;37;40m [0;30;43m▄▄[0;1;31;43m▀▀▀[0;30;43m▄▄[0m   [37;40m▄[0;1;37;40m▄[0m▀[1m▀[0m   [30;46m▄[0;37;40m  [0;30;46m▄[0;1;37;46m░░[0;30;46m▄[0m   [30;46m▄[0m      [30;46m▀▀[0;37;40m  [0;30;46m▄▄[0m
-
-[37;40m-- here''s one for the to0n man,.[0m
-[37;40m-- you guys don''t mind that i draw these chicks[0m
-[37;40m-- i recieved a couple comments about it. weird. must be[0m
-[37;40m-- the homosexual majority in #ansi[0m
-[37;40m-- oh well, email: feverrile@geocities.com[0m'
+     [30;46m▄▄▄▀▄[0;1;37;46m▀[0;30;46m ▀[0;37;40m [0;30;43m▄▄[0;1;31;43m▀▀▀▀▀[0;30;43m▐▄▀▌▀[0;37;40m [0;30;43m▄▄[0;1;31;43m▀▀▀[0;30;43m▄▄[0m   [37;40m▄[0;1;37;40m▄[0m▀[1m▀[0m   [30;46m▄[0;37;40m  [0;30;46m▄[0;1;37;46m░░[0;30;46m▄[0m   [30;46m▄[0m      [30;46m▀▀[0;37;40m  [0;30;46m▄▄[0m'

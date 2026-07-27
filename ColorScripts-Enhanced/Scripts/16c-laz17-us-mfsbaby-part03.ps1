@@ -5,7 +5,7 @@
 # Source SHA-256: b278c3dc773eb4961cb25b4e6f813f80879ac9f0790b2d7149ea28c1a69d97a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-mfsbaby.ans by Warpus + Tainted (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: MFS baby services
 # SAUCE Author: tainted & warpus
 # SAUCE Group: LAZARUS
@@ -43,9 +43,9 @@ Write-Host '
 [37m                                                         [0;30m▌[0;35m   ▐███[0;1;35;45m     [0;35m█[0m
 [37m                                                         [0;30m▌[0;35m   ░▓███[0;1;35;45m    [0;35m▀[0m
 [37m                      [0;30m▄[0;37m                                        [0;35m▀████▀[0m
-[37m                      [0;30m█[0;37m  [0;35mInsert a heartfelt message[0m
-[37m                     [0;30m██[0;37m  [0;35mabout marriage and parenthood[0m
-[37m     [0;30m▄[0;37m                   [0;35mto MFS and Cap here[0m
+[37m                      [0;30m█[0;37m  [0;35m                          [0m
+[37m                     [0;30m██[0;37m  [0;35m                             [0m
+[37m     [0;30m▄[0;37m                   [0;35m                   [0m
 [30m▄▄▄▄██[0m
 [30m███████[0;37m              [0;30m█▀██[0;37m [0;35m- [0;1;35mtainted [0;35m&[0;1;35m warpus[0m
   [30;45m█[0m'

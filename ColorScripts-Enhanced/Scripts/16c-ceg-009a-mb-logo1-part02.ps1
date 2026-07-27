@@ -5,7 +5,7 @@
 # Source SHA-256: f75dcc016fdfadc80b6cb422640513507108a35560e61a4d7574b5fc7e92fb29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-LOGO1.ANS by Mr Byte (ceg-009a); released in ceg-009a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 26-52
 # Columns: 1-80
 
@@ -31,9 +31,4 @@ Write-Host '
 [33m██████[0;1;30;43m▒░[0;33m████[0;37m [0;35m█[0;1;30;45m ▒[0;1;30;40m▄[0m       [35m██▄[0m        [1;30m▀[0;35m█[0;1;30;45m░▓[0;1;30;40m█▀[0;33m▄ [0;1;30;45m▓[0;1;30;40m▀[0;33m▄█ [0;35m■[0;37m [0;33m▄[0;37m [0;1;30m■▀[0;35m▀█████[0;1;30;45m░▓[0;1;30;40m▀[0;33m▄█[0;35;43mBBS[0;33;40m██▀▀▀▀▀[0m
 [33;40m████▀▀▀▀▀   [0;37;40m [0;35;40m▐[0;1;30;45m▒▓██[0;1;30;40m▄[0;35m  [0;37m  [0;35m███▀[0m               [33m▀▄██▀▀▀▀▀▀▀▀█▄▄▄[0;35m▀[0;1;30m▀[0;33m▄▄█▀▀▀▀[0m
               [1;30;45m▓███[0;1;30;40m▀▀[0m [35m▄█▀[0;1;30m▀[0m    [35m ST.PeTeRSBURG, RUSSiA[0m
-              [1;30;45m█[0;1;30;40m▀[0;33m  [0;37m [0;1;30m■[0;35m▀[0m
-
-[37m  [0;35mSYSoP:[0;37m [0;1;37mMR.BYTE[0m       [35mPHoNE: [0;1;37m+7 (8i2) 559-2o42[0m      [35mRUNNiNG oN:[0;37m [0;1;37mPCBoARD v15.3[0m
-  [35mCoSYSoP:[0;37m [0;1;37mMONARCH[0m     [35mWoRk TiME: [0;1;37m22-o8[0m [1meveryday![0m    [35mBASED oN:[0;37m [0;1;37mPPE/SFT/ART/CRK[0m
-
-                    [35mREAL BBS FoR[0;37m [0;35mREAL USERS! CALL NoW![0m'
+              [1;30;45m█[0;1;30;40m▀[0;33m  [0;37m [0;1;30m■[0;35m▀[0m'

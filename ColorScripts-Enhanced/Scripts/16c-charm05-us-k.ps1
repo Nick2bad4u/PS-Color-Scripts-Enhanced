@@ -5,7 +5,7 @@
 # Source SHA-256: 74819e824ece7f1b0ecbd956a36eed22bb5fae02e3a62cb72e4a9ce55128ac3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-k.ans by H7 + Horza (charm & stream); released in charm05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "k"
 # SAUCE Author: h7 & Horza
 # SAUCE Group: charm & stream
@@ -45,14 +45,10 @@ Write-Host '
                                   ░▀▀[1;47m░▄▄▄[0m▄▄              ■
           ▀░                         ░[1;47m  ▀▓█▄▄[0m▄▄      ░■     Jumalan rakkaus ei
               ▄                       ▐▓█▀▀▀▀▀[1;47m▀▒[0m▄▄  ▄    ole minua pelastanut:
-                  ▄                 ▄ ▀         ▀[1;47m▀[0m█     kuoleman läheisyys tuo
-  uskossa vale         ▀░   ■    ▀                ▐▌   pelon mieleeni. pelosta
-  toivossa petos                                   ▬   saan  Voimaa.  Voimalla
-  kuolemassa rakkaus                                   voitan pelkoni.
+                  ▄                 ▄ ▀         ▀[1;47m▀[0m█                           
+                       ▀░   ■    ▀                ▐▌                          
+                                                   ▬                          
+                                                                      
 
 
-[1;30m-------------------------------------------------------------------------------[0m
-this ansi was made one friday knight when h7 and horza were drinking some beer.
-yes. it''s pretty odd looking but hell, more nicer than the ones i make sober =)
-
-a cooperation-ansi by h7(charm) and Horza(stream)[0m'
+[1;30m-------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c5d59f8126c69d8b21af4e57921033f9080b8f3ba84f0a11470781c36ca419f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-C01.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -16,8 +16,8 @@ Write-Host '
 [1;30m│ [0;1;36;46m█▓▓▒[0m  [36m██▌[0;1;36;46m▓▒░[0;36m▀[0m     [1;30m│    ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▄ ▀ ▄ ▀ ▀ ▀ ▀   ▀▀▀ ▀ ▀ ▀ ▀ ▀▀▀[0m        [1;30m│[0m
 [1;30m│[0;36m▐[0;1;36;46m▓▓▒[0;36m▌  ▐██▐[0;1;36;46m░[0;36m▌[0m      [1;30m│    [0;1;36mA[0;36mci[0;1;30md[0;1;36mF[0;36mla[0;1;30msh [0;1;36m[B[0;36mre[0;1;30med] [0;1;36m[[0;36m0[0;1;30m4[0;1;36m/[0;36m0[0;1;30m4[0;1;36m/1[0;36m99[0;1;30m4] [0;1;36m[Ch[0;36mann[0;1;30mel [0;1;36mZ[0;36mer[0;1;30m0][0m        [1;30m│[0m
 [1;30m│[0;36m▐[0;1;36;46m▓▒░[0m [1;36;40m▀[0;36m▀▐██▐█ ▀▀    [0;1;30m│ [0;1;36mQu[0;36mic[0;1;30mk Greetz 2 : Beastie, Corwin, T2, Neurotic, Hound,  │[0m
-[1;30m│[0;36m▐[0;1;36;46m▒░[0;36m█▌  ▐██▐█   [0;1;36m[[0;36mAF[0;1;30m]│ Pyro Maniac, Dark Angel, Nailz (Reconsider?), The Judge,│[0m
-[1;30m│ [0;36m▀▀▀▀  ▐██▐█▌[0m      [1;30m│ Mass Delusion, The Night Prowler, Polarized Infusion.   │[0m
+[1;30m│[0;36m▐[0;1;36;46m▒░[0;36m█▌  ▐██▐█   [0;1;36m [0;36m  [0;1;30m │                                                         │[0m
+[1;30m│ [0;36m▀▀▀▀  ▐██▐█▌[0m      [1;30m│                                                         │[0m
 [1;30m└───────[0;36m▐█▌▀█▀[0;1;30m──────┴─────────────────────────────────────────────────────────┘[0m
         [36m▀▀[0m
 

@@ -5,7 +5,7 @@
 # Source SHA-256: a08b92daf0e69da4c7d980c3886e9c1a6a82c86814f542a4df214e8855648f05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-BATH.ANS by bubblebym (poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: my bathroom floor
 # SAUCE Author: bubblebym
 # SAUCE Group: poffelipoff
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                   [33m!!"#".[0;1;33m. a tribute to my bathroom floor[0m [31m░[0;30;41m▓[0;37;40m [0;31;40m░[0m
+                   [33m      [0;1;33m                                [0m [31m░[0;30;41m▓[0;37;40m [0;31;40m░[0m
                          [31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0m
          [37;40m█[0;1;37;47m▀▀█[0;1;37;46m▓▓[0;1;37;47m▄▄██▄▄[0m█▌██▓▓[1m▒▒[0m▓▓▓[1;47m▐████▌[0m ▐█[1;47m▄▄▄▄█████████[0m▌ [1;47m▐█▄▄ ██████▄[0m█[1;47m▄[0m
          █[1;47m██▄███[0m█[1;47m▀▀▄[0m██▌▐█[1;47m▄▄▄  ██▄█████[0m▌ █[1;47m████████▄█▄▄ [0m█ ▐[1;47m███▌███▀[0m▀▀▀▀▀
@@ -39,5 +39,4 @@ Write-Host '
          █[1;47m░░  ▐█▀█▀▀▀[0m▀▀▀▀▀ ██[1;47m██[0;1;46m▓▓▓▓[0;1;47m█[0;1;46m▓▓[0;1;47m███[0;1;40m▓[0;1;47m██[0m█ ██[1;47m▀▀▀[0m█[1;47m▀▀▌[0m▓▓▓▓▓▓▓█ ▀█[1;47m▀▀▀[0m█
            [30;43m▓▓▓▓▓[0m                                       [37;40m░░░░░░░░[0m
 
-         [33;40mPOFFELIPOFF TIP OF THE[0;37;40m [0;33;40mMONTH: ░[0;1;33;40mPrint out our packs and whatch [0m
-           [1;33mthem[0m [1;33min the[0m [1;33mbathroom for total mastrubation experience!!![0m'
+         [33;40m                      [0;37;40m [0;33;40m       ░[0;1;33;40m                               [0m'

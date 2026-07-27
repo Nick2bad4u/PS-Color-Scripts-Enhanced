@@ -5,7 +5,7 @@
 # Source SHA-256: 87cff8c1f482a39e4148f3851958be77108c4b0e55753e33b895b4a44566c3aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-WODS.ANS by Keetar + Sephiroth (Sadist); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Glade
 # SAUCE Author: Keetar&Sephiroth
 # SAUCE Group: Sadist
@@ -18,7 +18,7 @@ Write-Host '
 
 
 
-                  [34m░░[0;37m Ansi by Sephiroth & Keetar[0m
+                  [34m░░[0;37m                           [0m
 
 [34m  ▄▄  ▀▄▄▀█▄▄▄▄█▄▄████▄▄█▄▒▒▒▒▒█████▄▄▒▒▒▒▒▒▒▒▒▓█▄▄██████▀▀▀█▄▄▄▄▄▄▄████  ▀▀▄ ░[0m
 [34m▄▄▄▄▄▀▀▀▀▀▄▄▄▄▄▄▄▄██[0;1;30;44m░░[0;34m██████████████████████████████████████[0;1;30;44m░░░▄▄░[0;34m███  ▄▀▀[0;37;44m  [0;34;40m ▓▓[0m

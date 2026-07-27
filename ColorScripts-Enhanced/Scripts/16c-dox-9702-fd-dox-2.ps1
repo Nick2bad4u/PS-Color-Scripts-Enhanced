@@ -5,7 +5,7 @@
 # Source SHA-256: 5b660226fd535c79f36dcf3480ebb206725f57fa6493b38c0b45be70413959bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FD-DOX!2.ANS by flood (d0x!pRODUCTIONs); released in dox_9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: d0x! promo ][
 # SAUCE Author: flood
 # SAUCE Group: d0x!pRODUCTIONs
@@ -32,8 +32,4 @@ Write-Host '
                                             [37;40m [0;32;40m▀▀[0;30;42m▓▓▒[0;1;30;42m░[0;32m█[0;30;42m░[0;1;32;42m▄ ■[0;1;34;42m░[0;1;32;42m██▒▓▒░[0;30;42m▒[0;32;40m■▄[0;30;42m░[0;1;32;42m▓█▓▄[0;30;42m░[0;1;30;40m [0;1;32;40m  [0m [32m ▀▀[0;30;42m▒[0m
                                                  [32;40m▀▀▀▀[0;1;32;42m ▀▀▀▀░░[0;30;42m░▒▓[0;37;40m [0;32;40m▄[0;30;42m▒[0;1;32;42m▀▀▀[0;30;42m░▒▓[0;1;30;40m [0;1;32;40m  [0m  [32m   [0m
 
-                [1;30md[0m     [1;30me[0m     [1;30ms[0m     [1;30mt[0m     [1;30mr[0m     [1;30mo[0m     [1;30my[0m     [1;30me[0m     [1;30mr[0m     [1;30ms[0m       [1;30m  [0m
-                                                                     [31m [0m
-                                                                     [31m [0m
-                                                                     [32m [0m
-                                                           [31m    [0;32m     [0;37m [0;32m [0m'
+                [1;30md[0m     [1;30me[0m     [1;30ms[0m     [1;30mt[0m     [1;30mr[0m     [1;30mo[0m     [1;30my[0m     [1;30me[0m     [1;30mr[0m     [1;30ms[0m       [1;30m  [0m'

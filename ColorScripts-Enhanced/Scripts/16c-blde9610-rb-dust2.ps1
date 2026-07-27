@@ -5,7 +5,7 @@
 # Source SHA-256: 22d1328c36480896da090c044b544650179da20e153b20ffb6bef75d4b27ca05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RB-DUST2.ANS by rebal (bLADE); released in blde9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dUST
 # SAUCE Author: rebal
 # SAUCE Group: bLADE
@@ -36,5 +36,4 @@ Write-Host '
                  [1;30m▀▄[0m     [1;30m■▀[0m     [1;30m▐▌[0m                 [1;30m▐▌[0m
                     [1;30m▀■[0m          [1;30m▀▄▄[0m                [1;30m▀▄[0m
                                    [1;30m▀▀▀■▄▄[0m           [1;30m▐▌[0m
-                                  [30;47md[0;37;40must[0m             [1;30;40m■▀[0m
-                               [1;30mop:intrepid[0m'
+                                  [30;47md[0;37;40must[0m             [1;30;40m■▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2f28416343fabd108ec1db4f42ab53be41bfb4d56e49d699862c59a6d73eb669
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-FILES.ANS by dionyzos (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: still - files
 # SAUCE Author: dionyzos
 # SAUCE Group: irato
@@ -26,9 +26,9 @@ Write-Host '
       [1;30;42m▒░░[0;32m█▄▄ [0;1;32m█[0;32m·[0;1;32m█[0;32m·[0;1;32m█[0;32m ▄▄█[0;1;30;42m░░▒[0m [34m       [0;1;30m  [0m▀[1;30m           [0m▀[1;30;47m▀[0m▀▀▀░[1;30m        [0m▀[1;30m             [0;34m     [0m
 [37m [0;1;30m++-  [0m [1;30;42m▒[0;32m█[0;1;30;42m░[0;32m▀ [0;1;32m▄█[0;1;32;42m▓▓▓[0;1;32;40m█▄[0;32m ▀██[0;1;30;42m▒[0;32m [0;34m   [0;37m [0;34m [0;37m [0;1;30m▀▀█▓░▄▄▄▄▄▀█▄  ■▄▄▄▄▄▄██▓▓▄▄    ▄▄██▓█▄▄▄▄▄▀▀▀░░[0m
  [1;30me.t.   [0;32m▀█ [0;1;32m▀▀[0;1;32;42m▓▒▓▒▓[0;1;32;40m▀▀[0;32m █▀[0m         [37m [0m        [1;30m▀▀▀▀▀▀[0m          [1;30m▀▀▀▀▀▀▀[0m
- [1;30mphone [0;32m [0m   [1;32m▌[0;1;37;47m▐[0;32m [0;1;32m▀▀▀[0;1;37m [0;1;37;47m▌[0;1;32;40m▐[0;32m  - [0;1;32muh? [0m   [34m{[0;1;35mc[0;34m}[0;1;34mhanger de groupe.  [0m       [34m{[0;1;35mt[0;34m}[0;1;34mext search.     [0m
- [1;30mhome~!@# [0m [1;32m▀▄▄█[0;1;32;42m▓[0;1;32;40m█▄▄▀[0m           [34m{[0;1;35ma[0;34m}[0;1;34mchanger de section. [0m      [34m{[0;1;35ms[0;34m}[0;1;34mfilename search.[0m
-            [32m▄▄[0;1;32m▀▀▀[0;32m▄▄[0m            [34m{[0;1;35ml[0;34m}[0;1;34mister les fichiers.[0m       [34m{[0;1;35me[0;34m}[0;1;34mdit d/l queue.[0m
+ [1;30m      [0;32m [0m   [1;32m▌[0;1;37;47m▐[0;32m [0;1;32m▀▀▀[0;1;37m [0;1;37;47m▌[0;1;32;40m▐[0;32m    [0;1;32m    [0m   [34m [0;1;35m [0;34m [0;1;34m                   [0m       [34m [0;1;35m [0;34m [0;1;34m                [0m
+ [1;30m         [0m [1;32m▀▄▄█[0;1;32;42m▓[0;1;32;40m█▄▄▀[0m           [34m [0;1;35m [0;34m [0;1;34m                    [0m      [34m [0;1;35m [0;34m [0;1;34m                [0m
+            [32m▄▄[0;1;32m▀▀▀[0;32m▄▄[0m            [34m [0;1;35m [0;34m [0;1;34m                   [0m       [34m [0;1;35m [0;34m [0;1;34m              [0m
  [32m   ▄██▄▄ ▄[0;1;32;42m░[0;32m█[0;1;30;42m░▒▒░[0;32m███▄ ▄▄██▄[0m    [34m{[0;1;35mu[0;34m}[0;1;34mpload.[0m                    [34m{[0;1;35md[0;34m}[0;1;34mownload.[0m
  [32m  [0;1;30;42m░[0;32m█[0;1;32;42m░░[0;32m██[0;1;32;42m░▓▓░[0;32m████[0;1;30;42m▒[0;32m██[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m████[0;1;30;42m░[0m                                 [1;35m [0m
  [32m  ▐[0;1;30;42m▒[0;32m██▐█[0;1;33;42m [0;1;32;42m░░░[0;32m█[0;1;30;42m▒[0;32m [0;1;30;42m▒[0;32m██[0;1;32;42m░░[0;32m█[0;1;32;42m [0;32m▐█[0;1;30;42m░░[0;32m▌[0m   [34m{[0;1;35m.[0;34m}[0;1;34mopérateurs.[0;1;30m    [0m           [34m{[0;1;35m-[0;34m}[0;1;34mmain menu.[0m

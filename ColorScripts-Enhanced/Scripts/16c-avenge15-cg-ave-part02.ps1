@@ -5,7 +5,7 @@
 # Source SHA-256: 6ffb8d4b0b2e6678f971c502e5e859a4c8594445435806b60d648f6dc779448d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-AVE.ANS by cryogenic (avenge); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: avenge pix0r!@
 # SAUCE Author: cryogenic
 # SAUCE Group: avenge
@@ -40,10 +40,4 @@ Write-Host '
 [1;30m.[0m  [1;30m▀[0;1;30;42m▄[0m [1;30m▄[0;1;30;42m░[0;1;32;42m▀[0;32m▀[0;37m [0;32m██▄[0;37m [0;1;30m▀[0;32m▀[0;37m [0;32m▀[0;1;30;42m░[0;32m▄[0;37m [0;32m▓[0m     [32m▄[0;1;32;42m▀[0;32m▀[0;1;32;42m░[0;32m▄▀[0;1;32m▀[0;1;32;42m▀█▄[0;32m▄▄▄[0;35m  [0m        [32m▄▄[0;1;32m▒▒▒[0;32m█▄ ▀▀[0;1;32;42m▀░[0;32m▄[0;37m [0;32m▀[0;1;32;42m▀[0;1;32;40m▄[0;32m▄ [0m   [32m▄[0;1;32;42m▄[0;1;32;40m▓░[0m [34m░░[0m
 [1;30m│[0m [1;30m▀[0m     [1;30m▀[0;32m▀[0;37m [0;32m▓▓[0m     [1;30m▀[0;32m▀[0;37m  [0;32m░[0m   [1;30m▀[0;32m▀[0;1;30;42m▄[0;32m▄[0;37m [0;1;30m▀[0;32m▀[0;37m [0;32m▄[0;37m [0;32m▄[0;1;32;42m░[0;32m▀[0;37m [0;1;30m▀[0;32m▀▀ [0;1;30m▄[0m   [1;30m▄[0;32m [0;1;30m▀[0;32m▀ [0;1;30m▀[0;1;30;42m░[0m [32m▀[0;37m [0;32m▄[0;37m [0;1;30m▀[0;32m▀[0;37m [0;32m [0;37m [0;1;30;42m░[0;1;32;40m▒[0;32m▀▀[0;1;32;42m▀█▀[0;32m▀[0;1;32;42m░[0;32m▄ [0m   [1;30m.[0m
 [1;30m└─────────[0m [32m░░[0;37m [0;1;30m──────────────────[0m [1;30m▀[0;32m▀[0;37m [0;1;30m─────────────────[0m [32m▓[0;37m [0;1;30m──────[0m [1;30;42m░[0;32m▄[0;37m [0;1;32m░[0m [32m▀▀[0;37m  [0;32m▀▀ [0;1;30m────┘[0m
-                                                      [32m░[0m
-   [37mwell, this ansi has absolutely no point whatsoever.. being only pic-practise[0m
-[37mfor cryo.. =)  but while i was drawing i just thought "i might as well put a [0m
-[37mfont on it" .. but as im a lazy fuck, and i need sleep cause its 2am i just[0m
-[37mrecycled an old (hah, this month is old now) font and chucked it on the bottom..[0m
-[37mif its shit its cause its late.. =)[0m
-[37mcryo[0m'
+                                                      [32m░[0m'

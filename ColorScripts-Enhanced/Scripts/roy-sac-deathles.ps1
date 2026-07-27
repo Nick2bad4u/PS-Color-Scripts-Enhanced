@@ -5,7 +5,7 @@
 # Source SHA-256: f94a5fc720228785f8a2243c64d2c03428173aaca0018266055d0b078f33b9a3
 # Source License: FAL-1.3
 # Source Attribution: DEATHLES.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_EarlyANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -54,6 +54,6 @@ Write-Host '
      [1;36m·[0m          [1;36m·[0m         [1;36m·[0m                         [1;36m·[0m              [1;36m·[0m       [1;36m·[0m
                   [1;36m·[0m         [1;36m·[0m          [1;36m·[0m
 [34m─ ─── ─────────────────────────────────────────────────────────────────── ─── ─[0m
-[1;34mYOU[0;35mR SYS[0;36mOP IS[0;37m: THE BARR[0;1;36mIER ─ CO''S [0;1;37mARE: FAB & RA[0;1;36mINBOW ─ [0m650 MB S[36mTORAG[0;35mE ─ 2 N[0;1;34mODES[0m
+[1;34m   [0;35m     [0;36m     [0;37m          [0;1;36m    ─      [0;1;37m             [0;1;36m      ─ [0m        [36m     [0;35m  ─    [0;1;34m    [0m
 [34m─ ─── ─────────────────────────────────────────────────────────────────── ─── ─[0m
                            [34mA N S I   A R T   B Y   R <> Y[0m'

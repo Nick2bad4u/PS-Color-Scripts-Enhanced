@@ -5,7 +5,7 @@
 # Source SHA-256: a970a55211c7ffa31517baf6d95cecae7f4981f96a5cb163dc84b492a35c43a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: c-sK!rescuingmonkeysbetweenrealities.ans by sIMONkING (thelo0p!); released in blndr2020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: MONKEYS / RESCUING / BETWEEN REALIT
 # SAUCE Author: sIMONkING
 # SAUCE Group: thelo0p!
@@ -62,5 +62,5 @@ Write-Host '
 [37m  [0;34m▄[0;1;30m▄█[0;34m██▀▀▀█▀██▄[0;1;30;44m▄▄▀[0;1;30;40m▀▀[0m  [34m▄▀[0;37m [0;34m█▀[0;37m    [0;34m▀▀▀▀▀[0;37m    [0;34m██[0;1;30;44m▄[0;34m▀[0;37m [0;34m█[0;37m   [0;1;33m▀▀▀▀▀[0m                 [34m▄▄█▀[0;1;30m▀▀[0;34m▀[0m
 [34m▀██[0;1;30;44m▀[0;34m▀[0;37m [0;34m▄▄▀█▄███[0;1;30;44m▀[0;34m▀▀[0;37m    [0;34m▄▀▄▀▀[0;37m             [0;34m█▀█[0;1;30m█[0m  [34m█▄▄[0m
 [34m▀▀▀[0;37m [0;34m▀▀▄▄█▀▀▀▀[0;37m     [0;34m▄▄█▀▀[0;37m                [0;34m█[0;37m [0;34m█[0;37m          [0;1;30mBLENDER 2020 LONG COMPO[0m
-     [34m▀▀[0;37m        [0;34m▄▄▄▄▀[0;37m                   [0;34m█[0;37m  [0;1;30mMONKEYS / RESCUING / BETWEEN REALITIES[0m
+     [34m▀▀[0;37m        [0;34m▄▄▄▄▀[0;37m                   [0;34m█[0;37m  [0;1;30m                                      [0m
         [34m▄▄▄▄▄▀▀[0;37m                        [0;34m▀█[0;37m         [0;1;30mANSI BY sIMONkING/thelo0p![0m'

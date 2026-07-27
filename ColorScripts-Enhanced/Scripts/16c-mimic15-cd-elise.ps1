@@ -5,7 +5,7 @@
 # Source SHA-256: 1fc6afa368747433240fc928746860d2a6c43c8d85175a7c2e42cbe78c86706e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cd!-elise.ans by Cat-Dog (mimic15); released in mimic15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -53,6 +53,4 @@ Write-Host '
           7[1m$$[0m...,┌4[1m$$$$$[0m7[1m$$[0m...,┌4[1m$$$$$[0m [1m$$$$$[0m 7[1m$$[0m...,┌4[1m$$$$$[0m  7[1m$$[0m...,┌4[1m$$$$$[0m
           ``     `````````     ```````       ``     ```````  ``     ```````
 ┌──-──-─- -───────────────────────────────────────────-─────────--───────- -───┐
-│♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥│
-| this one is for elise, the one which i have hardkore monkeysex with. she is  |
-: the best.                                                                    :[0m'
+│♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥│[0m'

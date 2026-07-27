@@ -5,7 +5,7 @@
 # Source SHA-256: 221276f198bad9128cff6e274b1d15ec4f8ea828195f66259eacc95be688c985
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-HISTR.ANS by noize (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ghost in a shell
 # SAUCE Author: noize
 # SAUCE Group: black maiden
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m// my damned house is full of vomit.[0m
-   [1;30mghost in a shell shape and a colorscheme-try on eerie.[0m
-   [1;30mlive.[0m
-   [1;30mlet my colors scream ...[0m
+[1;30m                                    [0m
+   [1;30m                                                      [0m
+   [1;30m     [0m
+   [1;30m                        [0m
 
 
 
@@ -36,15 +36,4 @@ Write-Host '
               [1;34m░[0;1;36;46m░[0;1;33;46m░▀▀[0;36m█▌[0;1;36m▀[0;36m▀▓▓  [0;1;33m░[0;36m░  ░[0;33m░[0;36m  ▐[0;1;33;46m░[0;36m▀ [0m    [1;33;46m░▀[0;36m█▀▀▀▀  ▄▄█[0;1;33;46m░[0;36m▄█▄█[0;1;33;46m░░[0;1;30;46m▓[0;1;36;40m░[0m
               [36m ▀▀  ░      ░       [0;1;30m [0;1;30;46m▓[0;36m  ▓[0m    [1;36m░[0;36m    [0;1;36m░[0;36m▀▀▀▀▀▀▀▀▀▀▐[0;1;33;46m [0;1;30;46m▓[0;36m█[0m
               [36m  [0;1;30m░[0;36m                 [0;1;30m░[0;36m    [0m    [36m  ▐▀             [0;35m░[0;1;36m▓▓[0;36m [0m
-               [36m                      ░ [0m    [36m                    [0m
-              [37m                         [0m    [37m                    [0m
-               [37m                        [0m    [37m                    [0m
-               [37m     [0m
-
-
-
-
-
-
-
-'
+               [36m                      ░ [0m    [36m                    [0m'

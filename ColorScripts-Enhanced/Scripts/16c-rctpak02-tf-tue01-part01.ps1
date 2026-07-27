@@ -5,7 +5,7 @@
 # Source SHA-256: acfcb8dcc207b4bd8d1f661adf08ef20d7c2bd5cb9a3dd37e7978aa08c93b1f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TF-TUE01.ANS by The Fugutive (rctpak02); released in rctpak02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -43,7 +43,7 @@ Write-Host '
                                       [1;30;40m▀[0m
 
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;37;47m [0;30;47m-φ-              The Underworld Element - Kid Cess - 5/O7/94               -φ- [0m
+[1;37;47m [0;30;47m                                                                               [0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
                                   [1;37;40m▄▄▄▄▄ ▄▄▄▄▄[0m

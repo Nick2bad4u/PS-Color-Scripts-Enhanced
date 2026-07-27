@@ -5,7 +5,7 @@
 # Source SHA-256: 4512bdea060af280734dc752ec3715aeea7faa66258e4d679194dbd78696885c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KA-PR.ANS by Kamui (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Psychotic Reflections
 # SAUCE Author: Kamui
 # SAUCE Group: United
@@ -52,8 +52,8 @@ Write-Host '
 [34m    ▓[0m                                                                      [34m▓[0m
 [34m    ▒[0m                       [34m7 1 8 . 9 8 1 . 6 3 8 7[0m                        [34m▒[0m
 [34m    ░[0m                                                                      [34m░[0m
-                                   [34mViPer WHQ[0m
-[34m    █[0m         [34mCAFBL EHQ  /  ACE Essays 718 HQ  /  HoE Support Board[0m        [34m█[0m
-                               [34mCarrying YEAhNet[0m
+                                   [34m         [0m
+[34m    █[0m         [34m                                                     [0m        [34m█[0m
+                               [34m                [0m
 
-[34m    ▒[0m                          [34mSysOp  -  Kamui[0m                             [34m▒[0m'
+[34m    ▒[0m                          [34m               [0m                             [34m▒[0m'

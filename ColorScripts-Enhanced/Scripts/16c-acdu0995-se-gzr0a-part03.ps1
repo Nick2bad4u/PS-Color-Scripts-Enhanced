@@ -5,7 +5,7 @@
 # Source SHA-256: 186ed0c8466e2606f6ba21e8e6769939f67973f495bf839831a7ad794af93f1c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SE-GZR0A.ANS by Sharp Edge + Animal (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ground Zero
 # SAUCE Author: Sharp Edge
 # SAUCE Group: ACiD Productions
@@ -43,10 +43,10 @@ Write-Host '
 [31m▓[0;37m [0;1;34m░[0m [31m▒▓█[0;1;31;41m░[0;31m█▓▀[0;37m [0;1;34m░[0m [31m▄▌[0;1;34m■[0m [31m▀▀[0;37m [0;1;34m▄▀ [0;31m▄▓[0;1;31;41m░[0;31m█[0;1;31;41m░▒░▒░░[0;31m█▄▄▄[0;1;34m ░ [0;31m▄▄[0;1;31;41m░▒░[0;31m▓▄▄▄[0;37m [0;1;34m▀[0m [31m▓[0;37m [0;1;34m░[0m [31m▄▄[0;37m [0;1;34m▀▄▄▀[0m [1;31;41m▒░▒▒▓▒░░░[0;31m██▀▀░▓[0m
 [31m▒ [0;1;31m [0m [31m ▀ ▀▀▀▀[0m   [31m▀[0;37m   [0;1;34m▀[0m    [31m▀[0;37m [0;31m▀▀▀▀[0;1;31;41m░[0;31m▀▀▀▀▀[0;37m  [0;31m▀[0;1;34m  [0m [31m▀▀▀▀[0;37m [0;31m▀▀▀▀▀▀▀▀[0;37m   [0;31m▀▀▀[0m     [31m▀[0;37m [0;31m▀▀▀▀▀       ▒[0m
 [31m░  [0;37m [0;31m [0;37m [0m                                                 [1;34m░[0m                  [31m▀    ░[0m
-[36m [0;31m [0;36m ─[0;37m [0;1;34mGround[0;34m [0;1;34mzerO[0;36m:[0;1;34m Sharp[0;34m [0;1;34medgE[0;36m([0;1;34mAcid[0;36m/[0;1;34mMotion[0;36m),[0;34m [0;1;34mAnimal[0;36m([0;1;34miCE[0;36m)[0;1;34m and[0;34m [0;1;34mnyc[0;34m [0;1;34mkiD[0;36m ([0;1;34mrevolt[0;36m)[0;37m [0;36m─ [0;31m  [0m
-[31m■[0;37m    [0;1;34mSupporters and other staff[0;36m: [0;1;34mSliver cuT[0;36m([0;1;34miCE[0;36m)[0;37m [0;1;34mand Handy maN[0;36m([0;1;34miCE[0;36m)[0;37m [0;36m.[0m
+[36m [0;31m [0;36m ─[0;37m [0;1;34m      [0;34m [0;1;34m    [0;36m [0;1;34m      [0;34m [0;1;34m    [0;36m [0;1;34m    [0;36m [0;1;34m      [0;36m  [0;34m [0;1;34m      [0;36m [0;1;34m   [0;36m [0;1;34m    [0;34m [0;1;34m   [0;34m [0;1;34m   [0;36m  [0;1;34m      [0;36m [0;37m [0;36m─ [0;31m  [0m
+[31m■[0;37m    [0;1;34m                          [0;36m  [0;1;34m          [0;36m [0;1;34m   [0;36m [0;37m [0;1;34m             [0;36m [0;1;34m   [0;36m [0;37m [0;36m [0m
 
-[31m░ [0;36m─[0;37m  [0;1;34mGot lots of those damn affils ''n all that shit, just call +972-6441336[0m [36m─[0;37m  [0;31m░[0m
+[31m░ [0;36m─[0;37m  [0;1;34m                                                                      [0m [36m─[0;37m  [0;31m░[0m
 [31m▒[0m                                                                              [31m▒[0m
-[31m▓▄   [0m            [36m─[0;37m [0;1;34mAnsi by sharp edge[0;36m/[0;1;34maCid[0m [36m·[0;37m [0;1;34mfont by aNimal[0;36m/[0;1;34miCE [0;36m─[0;1;34m [0m            [31m▄▓[0m
+[31m▓▄   [0m            [36m─[0;37m [0;1;34m                  [0;36m [0;1;34m    [0m [36m [0;37m [0;1;34m              [0;36m [0;1;34m    [0;36m─[0;1;34m [0m            [31m▄▓[0m
 [31m ▀▀▀ ▀▀▀[0m   [31m [0;37m  [0;31m▀[0m                                            [1;34m [0m       [31m▀[0m    [31m▀▀ ▀▀▀▀[0m'

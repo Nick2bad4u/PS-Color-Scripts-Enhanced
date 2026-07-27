@@ -5,15 +5,15 @@
 # Source SHA-256: bb798c3f1fab38f29225968925c044a019cedcbda0417ebaee5e0ac0b1046e87
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2000 - 03 - tcf-love.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
 Write-Host '
-Greets, my fellow glue members .. because art is real to you guys .. ansi isn''t
-        just something you did for bbs''s but an art form and a form of artistic
-        release, i guess thats why you still do it while everyone else sits on
-        irc talking about how it was.....
+                                                                               
+                                                                               
+                                                                              
+                                         
 
 [30;44m   [0;34;40m█▓▓▓▓[0;30;44m      [0;34;40m▓▓▓[0;30;44m     [0;34;40m ▐[0;30;44m [0;34;40m▓▓ [0;30;44m     [0;34;40m  [0;30;44m  [0;34;40m▓▓[0;30;44m  [0;34;40m▌ [0;30;44m    [0;34;40m▓▓▓[0;30;44m    [0;34;40m ▄[0;30;44m      [0;34;40m   █[0;30;44m   [0;34;40m▓▓▓▓▌[0;30;47m█[0;1;36;40m█████[0m
 [30;44m       [0;34;40m▓▓▓▓[0;30;44m      [0;34;40m▓▓[0;30;44m   [0;34;40m ▐[0;30;44m   [0;34;40m▓ [0;30;44m    [0;34;40m  [0;30;44m  [0;34;40m▓▓█[0;30;44m [0;34;40m▌ [0;30;44m    [0;34;40m▓[0;30;44m     [0;34;40m ▄[0;30;44m    [0;34;40m▓[0;30;44m [0;34;40m█  ▐[0;30;44m   [0;34;40m▓▓▓▓█▌[0;30;47m█[0;1;36;40m█████[0m

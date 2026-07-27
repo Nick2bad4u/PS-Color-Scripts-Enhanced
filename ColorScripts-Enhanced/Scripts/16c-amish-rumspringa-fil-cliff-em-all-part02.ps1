@@ -5,7 +5,7 @@
 # Source SHA-256: d17fe25291851d9330bb2f45f538359a41d31aa6cd378ac35302b410a9d2835c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-cliff_em_all.ans by FiLTH (AMiSH); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: CLiFF 'EM ALL
 # SAUCE Author: FiLTH
 # SAUCE Group: AMiSH
@@ -42,6 +42,4 @@ Write-Host '
 [1;37m█▄[0;32m  [0;1;37m▄█[0;1;33m [0;32m▀ [0;1;37m█▀█[0;1;33m [0;32m▀▀[0;1;37m▄▀▀▀▄[0;32m░[0;1;37m▀▀█▀▀[0;32m [0;1;37m█▀▀▀[0;32m [0;1;37m█▀▀▀▄[0;32m [0;1;37m▄▀▀▀▄[0;32m▀[0;37m [0;32m░[0;1;37m▄▀▀▀▄[0;32m [0;1;37m█▀▀▀[0;32m █░[0;1;33m [0;1;37m█▀█[0m  [32m [0;1;37m█▄[0;1;33m  [0;1;37m█[0;1;33m [0;1;37m▄▀▀▀▄[0;1;33m [0;1;37m▀[0;32m░[0m
 [1;37m█[0;32m░[0;1;37m▀▀[0;32m░[0;1;37m█[0m  [1m█[0m  [32m [0;1;37m█[0m  [1m▀▄▄▄[0;32m  ░[0;37m [0;1;37m█[0m   [1m█▄▄▄[0m [1m█▄▄▄▀[0;32m [0;1;37m▀▄▄▄[0m    [1m█[0;32m  [0;37m [0;1;37m█[0m [1m█▄▄▄[0;32m ▓[0;1;33m [0;1;37m█ [0m [32m░[0;1;37m█[0m  [1m█▀▄[0;32m [0;1;37m█[0m [1m▀▄▄▄[0m [1;33m [0;1;37m█[0;32m░[0m
 [1;37m█[0;32m ░░ [0;1;37m█[0;32m [0;1;37m█▀▀▀▀▀█[0m [1m▀▄▄▄▀[0;32m░░[0;37m [0;1;37m█[0m   [1m█▄▄▄[0m [1m█[0m   [1m█[0;32m [0;1;37m▀▄▄▄▀  [0;32m░[0;1;37m▀▄▄▄▀[0m [1m█[0;32m░[0;1;37m [0;32m░ [0;1;33m [0;1;37m█▀▀▀▀▀█[0;32m░[0;1;37m█[0;32m░ [0;1;37m▀█[0m [1m▀▄▄▄▀[0m [1m█[0m
-    [32m▄[0;37m  [0;32m░░[0;37m  [0;32m█[0m     [32m░░▒░░[0;37m  [0;32m░[0;37m   [0;32m▄[0m       [32m░[0;37m  [0;32m▄▄▄[0;37m   [0;32m░░    ░[0;1;37m [0;32m░░[0m      [32m░░░[0;37m  [0;32m ▄▓▓[0m
-
-                              [1;33mFiLTHY [0;32m*[0;1;33m AMiSH [0;32m*[0;1;33m 2018[0m'
+    [32m▄[0;37m  [0;32m░░[0;37m  [0;32m█[0m     [32m░░▒░░[0;37m  [0;32m░[0;37m   [0;32m▄[0m       [32m░[0;37m  [0;32m▄▄▄[0;37m   [0;32m░░    ░[0;1;37m [0;32m░░[0m      [32m░░░[0;37m  [0;32m ▄▓▓[0m'

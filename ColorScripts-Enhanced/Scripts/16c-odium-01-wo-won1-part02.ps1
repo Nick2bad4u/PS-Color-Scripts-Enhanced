@@ -5,7 +5,7 @@
 # Source SHA-256: 5c7270acfd62e92b205ee2f1af252888969ad5e8254763535bb41eaa2a788317
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-WON1.ANS by watOr (Odium/plain); released in odium-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wOnderland!
 # SAUCE Author: watOr
 # SAUCE Group: Odium/plain
@@ -56,9 +56,4 @@ Write-Host '
                        [31m █▄  ▄█ [0m
                       [31m ▐[0;1;37;41m  [0;31m███ [0;1;30m [0;31m▄   [0m
                     [1;30m  [0;31m █[0;1;31;41m░▄░░[0;31m▀▀▀  [0m
-                     [1;30m [0;1;31m▄▀▀[0;31m   [0m
-                     [31m [0m
-
-     [1;30mi only take money orders! $10 an ansi, don''t like it don''t care.[0m [1;30msend[0m
-     [1;30mmoney to kareem hutchinson[0m [1;30mat L3R 4L8 address 44 providence cres.[0m
-[1;30m     markham / ontario ... ansi will be drawn upon money recieved. cash only![0m'
+                     [1;30m [0;1;31m▄▀▀[0;31m   [0m'

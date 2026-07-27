@@ -5,7 +5,7 @@
 # Source SHA-256: 1aa3f1f775871f6afba76618ee14bc7cfd1778785f4fd684cc4fb71b610c0fce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-URBAN.ANS by minotaur (mAidEN bRAZil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: urban magick logo
 # SAUCE Author: minotaur
 # SAUCE Group: mAidEN bRAZil
@@ -38,8 +38,4 @@ Write-Host '
 
 
 
-[1;30;40m--------------------------------------------------------------------------------[0m
-[36mgreetz to : [0m
-[36m [0m
-[37m  [0;1;30m-[0m [36mrorshack [0;1;30m([0;36m [0;1;30mthis logo is influencied by his style ... )[0m
-  [1;30m-[0m [36minsert [0;1;30m( thanx for the menu =)  [0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

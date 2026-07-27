@@ -5,7 +5,7 @@
 # Source SHA-256: 7c6d3ca2dc1408ed66cdc5a85bfdb11c91e192001fd4500b945102f99f12e594
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-BNW.ANS by Living Death (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, scaling, or background-space stripping; split only into contiguous source-row ranges at manually reviewed composition boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Brave New World
 # SAUCE Author: Living Death
 # SAUCE Group: iDENTiTY
@@ -46,7 +46,4 @@ Write-Host '
                      [1;37;40m▐██████████[0;1;37;47m▓▒[0m   [1;37;47m▒▓[0;1;37;40m██████████▌[0m
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [36m████████████████████████████████████████████████████████████████████████████████[0m
-[1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-
-'
+[1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

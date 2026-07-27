@@ -5,7 +5,7 @@
 # Source SHA-256: 56b02a80e9ffcd94bd73d3a4aa98205f566e2db42c32521c5a7b4d617aebaea3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-WIRED.ANS by Spitfire (rmtz-4); released in rmtz-4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -26,7 +26,4 @@ Write-Host '
 [1m  [0m▀▀[1;47m▒▀▀[0;1;40m█[0;1;47m▓[0;1;40m█████████████████████████████████▀▀ [0m [31m▀ [0;37m  [0;31m▀▀[0;1;31m▀▀[0;1;31;41m▒▄[0;31m██████████[0;1;31;41m░[0;31m██▄█▀█▀▀[0m   [31msf[0m
 [1;37m▄▓▄  ▄ [0m▀▀▀▀▀[1m▀▀▀█████████[0;1;47m▓[0;1;40m███████▀▀▀▀▀▀▀     ▀  [0m  [31m▄[0;1;31;41m▒[0;31m▄[0m                   [31m▀ [0m
 [37m [0;1;37m▀[0m                                                [31m▀[0m               [31m▄▓▄[0;37m [0;31m▀[0m
-                                                                   [31m▀[0m
-
-[37mthis shit was painted for the wired ''96 .. but i wasnt there :( ..[0m
-[37mi want 2 greet: Kyp and the whole bm crew, razor, loi, sargahd. [0m'
+                                                                   [31m▀[0m'

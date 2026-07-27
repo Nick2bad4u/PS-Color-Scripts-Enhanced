@@ -5,7 +5,7 @@
 # Source SHA-256: b61c60ae3705f0ed3b518d14ba7136fd7cc17dac02a3fa8808b2f8c725a6c164
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sK!powstaniec.ans by sIMONkING (LAZARUS^thelo0p!); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: sIMONkING
 # SAUCE Group: LAZARUS^thelo0p!
 # SAUCE Date: 20240907
@@ -52,6 +52,4 @@ Write-Host '
   ▒▒[1;30m▀[0m    ▓▓[1;30;47m░▒░[0;1;30;40m▀[0m    [1;30;47m░[0m▀ ▀[1;30;47m░░[0m ▒▒▒▒▒[1;30m▄[0m [1;30m▀[0m  [1;30m▄[0m          [1m▄████████████  ▀ [0;31m▓[0;1;33m░[0;1;37m ███████▌ ▀ ▀[0m
           [1;30m▀▀▀[0m    [1;30m▄▄[0;1;30;47m▒▒[0m [1;30;47m▒▒▒[0m  ▒▒▒▒[1;30m▀▄[0m    [1;30m█[0m     [1;30m▀▄[0m [1m██████████████  ▀ ▀   [0;1;33m░░[0;1;37m    ▌ ▀ ▀[0m
                [1;30m▄▓▓▀[0;1;30;47m▓▓▓▓▓[0;1;30;40m▀▄▀[0m░░░░[1;30m▄▀[0m     [1;30m█[0m   [1;30m▀▀▀[0m▓▓[1m▀▀▀██████████  ▀ ▀  [0;1;33m░[0;31m▓▓[0;1;37m▀ ▀ ▌[0m
-  [1;30msK!LAZ[0m    [1;30m▀▓▓▀[0m               [1;30m▀[0m      [1;30m▀[0m            [1m█████████              ▌ █[0m
-
-  [31m85th[0;1;30m anniversary of the outbreak of [0;31mWorld[0;1;30m [0;31mWar[0;1;30m [0;31mII[0m'
+  [1;30msK!LAZ[0m    [1;30m▀▓▓▀[0m               [1;30m▀[0m      [1;30m▀[0m            [1m█████████              ▌ █[0m'

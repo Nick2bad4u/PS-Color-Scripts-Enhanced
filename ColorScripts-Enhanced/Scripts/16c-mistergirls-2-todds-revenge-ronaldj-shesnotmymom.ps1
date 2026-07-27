@@ -5,7 +5,7 @@
 # Source SHA-256: 1b66b07176dbe6a9928b2564804c11ceea70e8f2537acf95e15bfe34e5634ff9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ronaldj-shesnotmymom.ans by Ronald J Peppercorn (Mistergirls); released in mistergirls-2-todds-revenge and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shes not my mom
 # SAUCE Author: Ronald J Peppercorn
 # SAUCE Group: Mistergirls
@@ -46,10 +46,4 @@ Write-Host '
 [1;36m█████████▀ ▀▄▀▄▀[0;1;31m █████████████ [0;33m██████████▄▀▄▀[0;1;31m [0;33m▄██▀▄█▀▄▀▄▀▀▄█[0;1;31m [0;33m███████[0;1;36m▄▀▄▀▄▀██████[0m
 [1;36m█████████▀▄▀▄▀▄▄ [0;1;31m ███████████ [0;33m███████████▄▀▄ ███▄█▀▄▀▄▀▄▀ ▄ ████████[0;1;36m▄▀▄▀▀▀▄▄▀▄██[0m
 [1;36m▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▀ ▄[0;1;31m▀████████ [0;33m███████████▀▄▀ █████▄▀▄▀▄▀▄▀▄ █████████[0;1;36m   ▀▄▀▄ ▄███[0m
-[1;36m▄▀▄▀▄▀▄▀▄▄▄▀▄▀▄▀▀▄▀▄ [0;1;31m▀▀▀▀▀▀[0;33m▄███████████▄▀▄ ▄▀▄▀▄▀▄▀▄▀▄▀▄▀ ██████████[0;1;36m  ▄▀▄▀▄▀▄▄██[0m
-
-[1;33meverytim that asshole todd tells me to be nice to my mother i think of the[0m
-[1;33mbestest seen in the whole wide world in movies from termentator 2 where jon[0m
-[1;33mkonna tells todd (the asshole) that she is not her mother TODD![0m
-
-[1;33mansi by ronald j[0m'
+[1;36m▄▀▄▀▄▀▄▀▄▄▄▀▄▀▄▀▀▄▀▄ [0;1;31m▀▀▀▀▀▀[0;33m▄███████████▄▀▄ ▄▀▄▀▄▀▄▀▄▀▄▀▄▀ ██████████[0;1;36m  ▄▀▄▀▄▀▄▄██[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 756f04bd864efae3df7054169155ed294feb344f1691f2ae9d8035f3136014de
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-WICH.ANS by tainted (fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the fire witch
 # SAUCE Author: tainted
 # SAUCE Group: fire
@@ -19,11 +19,11 @@ Write-Host '
                                                                      [1;30;40m▀█▀█▀▄▀█▀[0m
                                                                      [1;30m─────────[0m
 
-                                 [1;30m■▄[0m [33mRiP[0;37m [0;33mHawk[0m
+                                 [1;30m■▄[0m [33m   [0;37m [0;33m    [0m
 
-            [1;30mCheers[0m [1;30mto[0m [1;30mour brother,[0m [1;30mthe[0m [1;30mscenes[0m [1;30mmost[0m [1;30mnotorious[0m captain
+            [1;30m      [0m [1;30m  [0m [1;30m            [0m [1;30m   [0m [1;30m      [0m [1;30m    [0m [1;30m         [0m        
 
-                        [1;30mWe[0m [1;30mwill[0m [1;30mcarry[0m [1;30myour[0m [1;30mflame[0m [33mforever[0;1;30m.[0m
+                        [1;30m  [0m [1;30m    [0m [1;30m     [0m [1;30m    [0m [1;30m     [0m [33m       [0;1;30m [0m
 
 
                                                     [1;30m▄▓▓▓▓▄[0m

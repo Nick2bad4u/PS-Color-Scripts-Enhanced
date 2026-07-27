@@ -5,7 +5,7 @@
 # Source SHA-256: 681beb76226ad79e3f48d613ad2a44e59835ff3445167e352bd61f8d8af07f50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SU-#ONE.ANS by SuperUnknown (Opium); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Number 1ne
 # SAUCE Author: SuperUnknown
 # SAUCE Group: Opium
@@ -56,6 +56,4 @@ Write-Host '
 [35;40m███████████████████[0;1;35;45mi[0;35m██[0;1;35;45mx[0;35m███▄▄[0;37m▀▀▀██████████████[0;1;30;47m░▀▀▀▀▀▀▀▒▀▀▀▀▀░[0m███[30;44m█[0;34;40m ▀[0;30;44m              [0m
 [35;40m████████████[0;1;35;45mr[0;35m█[0;1;35;45ma[0;35m██[0;1;35;45mh[0;35m█████████████▄▄▄▄▄▄[0;37m▀▀▀▀▀▀▀▀▀▀▀▀███████████▀▀[0;35m▄[0;1;35m██▄[0;34m  ▀▀[0;30;44m          [0m
 [35;40m██████████[0;1;35;45mG[0;35m█████[0;1;35;45mp[0;35m████████████████████████████████▄▄▄▄▄▄▄▄▄▄▄███[0;1;35;45m ▀▀[0;1;35;40m███▄▄[0;34m  ▀▀[0;30;44m     [0m
-[35;40m██████████████████████████████████████████████████████████████████[0;1;35;45m   ▀▀[0;1;35;40m███▄[0;34m  ▀▀▀[0m
-[1;35ma[0m [1;35m 90[0;35m%[0;1;33m [0;1;35morigina[0;35ml[0;1;33m [0;1;35mb[0;35my[0;1;33m [0;1;35mSupe[0;35mr[0;1;35mUnknow[0;35mn[0;1;33m [0;1;35mo[0;35mf[0;1;33m [0;1;35m0piu[0;35mm[0;1;33m [0;1;35mgf[0;35mx[0;1;35m (th[0;35me[0;1;35m fon[0;35mt[0;1;35m isn''[0;35mt[0;1;35m ver[0;35my[0;1;35m original[0;35m,[0;1;35m bu[0;35mt[0m
-[1;35mwha[0;35mt[0;1;35m ar[0;35me[0;1;35m yo[0;35mu[0;1;35m gonn[0;35ma[0;1;35m d[0;35mo[0;1;35m abou[0;35mt[0;1;35m it?[0;35m)[0m'
+[35;40m██████████████████████████████████████████████████████████████████[0;1;35;45m   ▀▀[0;1;35;40m███▄[0;34m  ▀▀▀[0m'

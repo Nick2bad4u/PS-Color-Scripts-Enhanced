@@ -5,7 +5,7 @@
 # Source SHA-256: 510d8cb01674be70fc3e8f1621b1ab81fd914f076f19eac37dd96de66aa40f0b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: m7m-dph.ans by m7mCafe (mimic); released in mimic40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: m7mCafe
 # SAUCE Group: mimic
 # SAUCE Date: 20011009
@@ -40,7 +40,4 @@ Write-Host '
 [33m:[0;1;31m$$$[0;1;35m$$$$$$$$$$$$QQQ$$$$$$$$$$$$$$$$$$$$$$$$QQQ$$$$$$$$$$$$[0;35m:[0;1;35m [0;1;34ml$[0;34mb.[0;1;35m [0;35m`4[0;1;35m$$$$$$$$$$$$[0m
 [33m:[0;1;31mÑÑÑÑÑÑ[0;1;35mÑÑÑ$$$$$$$$$$$$$$$QQQQQQ$$$$$$$$$$$$$$$$$$$$$[0;35mQQQÑÑÑ:[0;1;35m [0;1;34ml$$[0;34m$b.[0;1;35m [0;35m`4QQQQQ[0;1;35m$$$$[0;35mÑ[0m
 [1;30m________________________________________________________________________________[0m
-[1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-
-[1;30m([0;1;33mmaadan[0mhalav[1;30m)[0;1;35m [0;1;30mhebrew expression for a sort of yummy milk-based pudding.[0m
-              [1;30mdedicated to [0;35mda[0;1;35mphn[0;35ma[0;1;30m - my gf. one year is alot :).[0m'
+[1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m'

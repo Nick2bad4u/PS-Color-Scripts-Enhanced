@@ -5,7 +5,7 @@
 # Source SHA-256: e7c55b62f35653476de25ec24ebaaf35fce4ece6e3b5df754f15c2515b5efa20
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-PIPE.ANS by Living Death (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, scaling, or background-space stripping; split only into contiguous source-row ranges at manually reviewed composition boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: PiPELiNE Logo
 # SAUCE Author: Living Death
 # SAUCE Group: iDENTiTY
@@ -34,7 +34,7 @@ Write-Host '
 
 
                                  [1;40mv.01a[0m
-                                                [1;32;40mANSi by: [0;1;30;40mLi[0;32mvin[0;1;32mg D[0;32mea[0;1;30mth [0m[[1miDENTiTY[0m]
+                                                [1;32;40m         [0;1;30;40m  [0;32m   [0;1;32m   [0;32m  [0;1;30m   [0m [1m        [0m 
 [1;30;47m░[0m█████████████[1;47m░░[0;34;47m▄[0;1;37;47m░[0m▄[34;47m▄[0;34;40m■  [0;1;34;40m■[0m                  [34m·[0;1;34m■[0;34m·[0;1;34m· [0;1;34;44m▒[0;44m■[0;1;34;44m░[0;44m▀▀▄▀▀▄[0;1;47m░░░[0m█████████████[1;30;47m░░░▒▒▒▒[0;1;30;44m█[0m
 [1;30;47m▒░[0m█████[34;47m▀[0;1;34;44m░[0;34;47m▄[0;37;40m██████[0;1;37;47m░[0;34;47m▀[0;34;40m█[0;1;34;44m░▒[0;34m■[0;1;34;44m░[0m  [1;34;40m■ · [0;34m·[0m          [1;34m·  [0;34m·[0;1;34m· [0;1;34;44m▒[0m [1;34;44m░▒░░ [0;44m▀[0;1;34;44m░ [0;44m▄[0;1;47m░[0m█[1;47m░[0m█[34;47m▄[0;1;34;44m░[0;34;47m▀[0;37;40m████████████[0;1;30;47m░░▒▒[0m
 [1;34;44m░[0;1;30;47m▒░░[0m█████████[1;47m░░░░░[0;34;47m▀[0;1;34;44m░░░[0;34m■ [0;1;34m■[0;34m·[0;1;34m·[0;34m·[0;1;34m· · [0;34m·   [0;1;34m·[0;34m·  [0;1;34m■ · ■[0;34m· [0;1;34m▄[0;1;34;44m▒░[0;44m■[0;1;34;44m░[0;44m▀▄[0;1;47m░[0;44m▀▄[0;1;47m░[0;1;34;44m▒[0;1;37;47m░░░░░[0m███████████[47m  [0;1;30;44m▀[0;1;34;44m░[0;1;30;44m▄[0m'

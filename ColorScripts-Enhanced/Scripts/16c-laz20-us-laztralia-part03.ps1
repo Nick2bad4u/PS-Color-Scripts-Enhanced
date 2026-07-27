@@ -5,7 +5,7 @@
 # Source SHA-256: 79b8a2570a431659fea5a960c91ebce2fc53f3ee9179f80bfad563ff0500a966
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-laztralia.ans by Warpus + KRL (LAZARUS); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Visit Sunny Laztralia
 # SAUCE Author: warpus & Krl
 # SAUCE Group: LAZARUS
@@ -60,7 +60,7 @@ Write-Host '
           [1;30m▀▀■■■■■■■■■▀▀▀[0m                         [1;30m▀▀▄▄[0m       [1;30m▀■[0m   [30m▐[0m          [1;30m▄■[0m
                                                                [1;30m■▄[0;30m▐[0m [1;30m───────═▀[0m
 
-      [31minvite[0;37m [0;31monly[0;37m      [0;1;31mINSANEly[0m [1;31mVIVid[0m [1;31mAUSTRALIAN[0m [1;31mNUDES[0m bbs       [31m+o[0;37m [0;31mIvan[0m
+      [31m      [0;37m [0;31m    [0;37m      [0;1;31m        [0m [1;31m     [0m [1;31m          [0m [1;31m     [0m           [31m  [0;37m [0;31m    [0m
 
-[37m [0;31m//[0;37m [0;31monly[0;37m [0;31m2[0;37m [0;31mlamers[0;37m [0;1;30mallowed[0m [1;30monline[0m [1;30mat[0m [1;30mthe[0m [1;30msame[0m [1;30mtime[0m [1;30mon[0m [1;30many[0m [1;30mof[0m [31mour[0;37m [0;31m1337[0;37m [0;31mnodes[0;37m [0;31m\\[0m
+[37m [0;31m  [0;37m [0;31m    [0;37m [0;31m [0;37m [0;31m      [0;37m [0;1;30m       [0m [1;30m      [0m [1;30m  [0m [1;30m   [0m [1;30m    [0m [1;30m    [0m [1;30m  [0m [1;30m   [0m [1;30m  [0m [31m   [0;37m [0;31m    [0;37m [0;31m     [0;37m [0;31m  [0m
 [37m                                      [0;30;44m█[0m'

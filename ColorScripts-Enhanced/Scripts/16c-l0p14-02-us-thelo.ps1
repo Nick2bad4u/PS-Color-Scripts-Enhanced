@@ -5,7 +5,7 @@
 # Source SHA-256: ca212a1bfe3aa305e1cb4d41c978d668288ae41a7f14f5ce29bdc28afa412f77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-THELO.ANS by Simonking + Maffiosos (thelo0p); released in l0p14_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: thelo0p logo
 # SAUCE Author: maffiosos^simonking
 # SAUCE Group: thelo0p
@@ -50,8 +50,8 @@ Write-Host '
          [1;30m░[0m
 
 
- outlines: maffiosos/galm
- shading^touchaps: simonking/thelo0p^impure1940
+                         
+                                               
 
- contact: [34msimonking@poczta.onet.pl[0m
+          [34m                        [0m
           [34m──────────────────────── [0m'

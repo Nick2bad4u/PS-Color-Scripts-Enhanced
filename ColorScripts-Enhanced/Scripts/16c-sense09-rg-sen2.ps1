@@ -5,7 +5,7 @@
 # Source SHA-256: 98f5b67715f45f1bb3e51828bbcb02ac977e24029f509df7f3eca349eb39a010
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-SEN2.ANS by Rage (sense); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: *sniff*
 # SAUCE Author: Rage
 # SAUCE Group: sense
@@ -32,7 +32,4 @@ Write-Host '
 
 [1;34m     [0m
 
-[1;34m---------------------------------------------------------------------------[0;34mΓÆGε[0;1;34m-[0m
-[1;34mi call this... "a waste of 5 minutes"[0m
-
-[1;34mgreetz to all da sense membas ![0m'
+[1;34m---------------------------------------------------------------------------[0;34mΓÆGε[0;1;34m-[0m'

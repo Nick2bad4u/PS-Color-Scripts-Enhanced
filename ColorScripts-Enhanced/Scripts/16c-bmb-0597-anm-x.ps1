@@ -5,7 +5,7 @@
 # Source SHA-256: 04071392200322a09513bf35c9ce7eb80b2764682d9f05904c727c827c5373c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-X.ANS by Anomite (Bamboosh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: <X>enophobia
 # SAUCE Author: Anomite
 # SAUCE Group: Bamboosh
@@ -32,7 +32,7 @@ Write-Host '
 [31;40m  [0;1;30;40m [0;34m■[0;31m    [0;37m [0;30;41m▓▒░[0;31;40m█[0;1;31;41m▀▀▀▀▀▀▀▀▀▀[0;1;31;47m▓[0;1;31;41m▀▀▀▀▀▀▀[0;31m█[0;30;41m░▓[0;37;40m  [0;30;41m▓▓▓[0;37;40m [0;30;45m▓▓[0m      [31;40mX[0;1;30;40men[0;1;30;41mo[0;1;30;40mphobia[0m
           [30;41m▓▓[0m
 [30;40m [0;1;30;40m─[0;30m  [0;1;30m────────────[0;1;31m░░[0;1;30m───[0m─────[1;30m░░[0m────[1m──────[0;1;30m░[0m─────────────[1;30m──────────────────────[0;30m  [0;1;30m─[0;30m [0;1;30m─[0m
-         [1;31m  [0m ·[1;30mOpped by: insane[0m·[1;30mScenebard[0m·[1;30mNightboard[0m·[1;30m21:30->07:00[0m·
-        [1;31m  [0m ·[1;30mFlesh memberboard[0m·[1;30mPain memberboard[0m·[1;30mClan memberboard[0m·
-          [1;31m  [0m       ·[1;30mHypothermia nhq[0m·[1;30mMsc dist[0m·[1;30mSoda dist[0m·
+         [1;31m  [0m  [1;30m                [0m [1;30m         [0m [1;30m          [0m [1;30m            [0m 
+        [1;31m  [0m  [1;30m                 [0m [1;30m                [0m [1;30m                [0m 
+          [1;31m  [0m        [1;30m               [0m [1;30m        [0m [1;30m         [0m 
 [30m [0;1;30m─[0;30m  [0;1;30m─────────────────[0m────────────[1m─────[0m──────────────[1;30m──────────────────────[0;30m  [0;1;30m───[0m'

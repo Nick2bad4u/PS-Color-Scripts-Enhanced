@@ -5,7 +5,7 @@
 # Source SHA-256: ec685a037368f864ae75494ca3af9c36f638a3559610d631ae91db4205f108f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BE-FLUSH.ANS by brain eater (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: flush header
 # SAUCE Author: brain eater
 # SAUCE Group: ftc
@@ -28,15 +28,5 @@ Write-Host '
  [1;31m▐█[0;1;31;43m [0;1;31;40m █▌[0;1;37;40m [0;1;30;47m█[0;1;37;47m  ▐▐[0;1;37;40m███▀▀ [0;1;31;40m▄█ [0;1;31;43m [0;1;31;40m██▌[0m [1;30m ▄▄[0;1;30;47m▓▓▓[0;1;30;40m███▄▄▄▄▄▄▄▄▄[0m     [1;34m▀▀▀[0;34m▀▀▀▀▀▀▀▀▀ ███ [0m   [1;34;44m▓█▓█[0m [1;30m██[0m
   [1;31m▀███▌▄▄▄▄▄▄▄▄▄▄█▀▀[0;33m▄[0;1;31;43m▄[0;1;31;40m██▀[0m [1;30m   ▀▀[0;1;30;47m▒▒▓▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m████▀▀[0m                             [1;30m▄▄█[0m
     [1;31m▀▀██[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▄[0;33m▄▄▄▄[0;1;31;43m▄▄[0;1;31;40m█▀▀[0m  [1;30m         ▀▀▀▀▀[0m
-        [1;31m▀▀▀█████▀▀▀[0m  [1;32mf[0mlush - [1;32mt[0mhat [1;32ml[0meet [1;32ma[0mss [1;32me[0mmag [1;32mw[0mritten [1;32mb[0my [1;32mk[0mronic [1;32mk[0mhaos[1;32mF[0mTC-[1;32mB[0mLADE
-[1;30m──── ─────── ─────  ────── ─────────────────  ─  ── ──────── ── ────────────────[0m
-
-
-thats for muh bud kronic khaos, its a header for his emag - flush. So read it,
-love it, werd.. well im gonna greet some people since i havent done the whole
-greet thang in awhile..
-
-greets to: rooster, kronic khaos, sorrowful deceit, creaping death, empathy,
-murad, malevolent terror, sinister x, psyberrape, cool guy, snake, reflexion
-loki, virii, phaze shift, eye'', everyone else i forgot (sorry), ftc members..
-lie members.. wreckin shit in the south..[0m'
+        [1;31m▀▀▀█████▀▀▀[0m  [1;32m [0m       [1;32m [0m    [1;32m [0m    [1;32m [0m   [1;32m [0m    [1;32m [0m       [1;32m [0m  [1;32m [0m      [1;32m [0m    [1;32m [0m   [1;32m [0m    
+[1;30m──── ─────── ─────  ────── ─────────────────  ─  ── ──────── ── ────────────────[0m'

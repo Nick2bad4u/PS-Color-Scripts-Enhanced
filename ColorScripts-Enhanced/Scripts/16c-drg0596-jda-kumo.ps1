@@ -5,7 +5,7 @@
 # Source SHA-256: 41620eec3c07d97636449ae02f21c1d28c316b5e08d98c41a308c06d1ec42e78
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JDA_KUMO.ANS by Joda (DRG^INP); released in drg0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kumo
 # SAUCE Author: Joda
 # SAUCE Group: DRG^INP
@@ -30,6 +30,4 @@ Write-Host '
         [1;30m██████ ██████ ██████ ██████ ██████ ██████ ██████ ██████ ██████[0m
         [1;30m██████ ██████ ██████ ██████ ██████ ██████ ██████ ██████ ██████[0m
         [1;30m██████ ██████ ██████ ██████ ██████ ██████ ██████ ██████ ██████[0m
-        [1;30m██████ ██████ ██████▄██████ ██████ ██████ ██████ ██████▄██████[0m
-
-[1;30m   [0m                  [1;30mKumo - There''s no resistance left[0m'
+        [1;30m██████ ██████ ██████▄██████ ██████ ██████ ██████ ██████▄██████[0m'

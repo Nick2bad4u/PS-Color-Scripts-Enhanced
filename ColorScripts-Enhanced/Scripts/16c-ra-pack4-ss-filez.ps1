@@ -5,7 +5,7 @@
 # Source SHA-256: 09e36e04e42a95e685565004932f234f0838f2b16c7938e68a7abb3d55b8566a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-FILEZ.ANS by Satanslayer666 (ra-pack4); released in ra-pack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -26,9 +26,4 @@ Write-Host '
 [1;30ml$$l. $$$l .`[0;1;31m [0;1;34m`"²S$$$''`T$$b.[0;1;30m`²╩²^[0;1;34m_.,d$$╝$$$,d$$$P`[0;1;31m  [0;1;30m`.i$$$ $$$[0;1;37m [0;34m;$$$l [0;1;30m$╝''.$$$$ :[0m
 [1;30m::l'' .l$$$ $$$$Ss,.^². ,[0;1;34m`T$$$bs#$╝"^``.b.^²$$$$'' [0;1;31m   [0;1;30m``^²T$ $$P[0;1;37m [0;34md$$$'' .d$$╝²"^ ∙[0m
 [1;30m  : ``^²T$ ``^"²╝$$$b,d$b,[0;1;34m`$$$P^[0;1;37m   [0;1;30m ` ^"²╚*.`$l ```````` '' ~~[0;34m.d$$$$$$$P` [0;1;37m [0;1;30m     [0m
-[1;30m──────── '' ───── .d╚²^`` ──[0;1;31m [0;1;34m`''[0;1;37m [0;1;30m────────────── : ───────────────[0;31m [0;34m `^╚P''[0;1;37m [0;1;30m────────[0m
-   [34m%[0;1;34ma[0;34m%[0;1;30mrea list[0m           [1;34mf[0m          [1;34mi[0m        [1;34ml[0m          [1;34me[0m         [34mz[0m
-   [34m%[0;1;34ml[0;34m%[0;1;30mist files[0m    [34m%[0;1;34mn[0;34m%[0;1;30mew files[0m         [34m%[0;1;34mz[0;34m%[0;1;30mset scan area [0m
-   [34m%[0;1;34m+[0;34m%[0;1;30mbatch flag[0m   [34m%[0;1;34ms[0;34m%[0;1;30mearch filespec[0m   [34m%[0;1;34my[0;34m%[0;1;30mour file info[0m
-   [34m%[0;1;34mu[0;34m%[0;1;30mpload[0;1;34m [0m       [34m%[0;1;34mf[0;34m%[0;1;30mind description[0m  [34m%[0;1;34mp[0;34m%[0;1;30mointer date[0m
-   [34m%[0;1;34md[0;34m%[0;1;30mownload[0m      [34m%[0;1;34mv[0;34m%[0;1;30miew archive[0m      [34m%[0;1;34me[0;34m%[0;1;30mnter batch mode[0m   [34m%[0;1;34mq[0;34m%[0;1;30muit[0m [1;30mto main[0m'
+[1;30m──────── '' ───── .d╚²^`` ──[0;1;31m [0;1;34m`''[0;1;37m [0;1;30m────────────── : ───────────────[0;31m [0;34m `^╚P''[0;1;37m [0;1;30m────────[0m'

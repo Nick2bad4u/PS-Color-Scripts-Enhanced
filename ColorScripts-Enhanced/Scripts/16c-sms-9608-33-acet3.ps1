@@ -5,7 +5,7 @@
 # Source SHA-256: 3d7b7f58709f94feae3684712b50b4ab69fa1fbe98878673e4188a8607647dcf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-ACET3.ANS by EERIE-KUN (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ACETONE
 # SAUCE Author: EERIE-KUN
 # SAUCE Group: SAMSARA
@@ -45,7 +45,7 @@ Write-Host '
 [1;30;47m▓[0;1;30;40m█▄▄ ▄▄▄▄▄▄▄▄[0m▄▄▄▄▄▄▄▄▄▄▄███████[1;33;47m░░[0m█[1;30;47m░░░▄▄▄▓[0m
 [1;30m███████[0;1;30;47m▓▓▒░[0m███████▄[1;30m▀█[0;1;30;47m▄▄▓▓▓▓▓▓▓[0;1;30;40m▀▀▀▀▀▀[0m
 
- [1mACETONE [0;1;30m% [0mWON''T YOU EVER LEAVE ME ALONE [1;30m% [0mOPERATED BY [1mMISFIT [0;1;30m% [0;1;37mAPATHY [0m& STUFF
+ [1m        [0;1;30m  [0m                              [1;30m  [0m            [1m       [0;1;30m  [0;1;37m       [0m       
  [1;30m▄───────────────────────────────────────────────────────────────────────────▄[0m
 [1;30m ▄[0;1;37m▄▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m▓[0;1;30;40m▌███▄[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m▓[0;1;30;40m▌███▄[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m▓[0;1;30;40m▌███▄[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m▓[0;1;30;40m▌███▄[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m▓[0;1;30;40m▌███▄[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m▓[0;1;30;40m▌███▄[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m▓[0;1;30;40m▌███[0m
 [1;30m [0;1;37;47m░[0;1;37;40m██▐██[0;1;37;47m▒[0;1;30;40m▌███[0;1;37;47m░[0;1;37;40m██▐██[0;1;37;47m▒[0;1;30;40m▌███[0;1;37;47m░[0;1;37;40m██▐██[0;1;37;47m▒[0;1;30;40m▌███[0;1;37;47m░[0;1;37;40m██▐██[0;1;37;47m▒[0;1;30;40m▌███[0;1;37;47m░[0;1;37;40m██▐██[0;1;37;47m▒[0;1;30;40m▌███[0;1;37;47m░[0;1;37;40m██▐██[0;1;37;47m▒[0;1;30;40m▌███[0;1;37;47m░[0;1;37;40m██▐██[0;1;37;47m▒[0;1;30;40m▌███[0m
@@ -57,5 +57,4 @@ Write-Host '
  [1;47m▒[0;1;40m█████████[0;1;30;47m░[0;1;37;47m▒[0;1;37;40m█████████[0;1;30;47m░[0;1;37;47m▒[0;1;37;40m█████████[0;1;30;47m░[0;1;37;47m░▀▀[0;1;37;40m███[0m▌[1m███[0;1;30;47m░[0;1;37;47m▒[0;1;37;40m█████████[0;1;30;47m░[0;1;37;47m▒[0;1;37;40m█████[0m▌[1m███[0;1;30;47m░[0;1;37;47m▒[0;1;37;40m█████████[0;1;30;47m░[0m
  [1;47m░[0;1;40m█████████[0;1;47m░░[0;1;40m█████████[0;1;47m░░[0;1;40m█████████[0;1;47m░[0;30;47m▓▓▓▓▓▓[0;37;40m [0;1;37;40m███[0;1;37;47m░░[0;1;37;40m█████████[0;1;37;47m░░[0;1;37;40m█████[0m▌[1m███[0;1;47m░░[0;1;40m█████████[0;1;47m░[0m
   ▀[1;47m▀▀█[0;1;40m█████[0;1;47m▓[0m ▀[1;47m▀▀█[0;1;40m█████[0;1;47m▓[0m ▀[1;47m▀▀█[0;1;40m█████[0;1;47m▓[0m [1;30m█████ [0;1;37m███[0;1;37;47m▓[0m ▀[1;47m▀▀█[0;1;40m█████[0;1;47m▓[0m ▀[1;47m▀▀█[0;1;40m█[0m▌[1m███[0;1;47m▓[0m ▀[1;47m▀▀█[0;1;40m█████[0;1;47m▓[0m
- [1;30m▀────────────────────────────────────────────────────────────────────────────[0m
-[1;30m ANSI BY [0mEERIE [1;30mOF [0mSAMSARA [1m% [0;1;30mBLACK & WHITE OLD SCHOOL [0;1;37m% [0;1;30mIT CAN''T GET MORE ELITE[0m'
+ [1;30m▀────────────────────────────────────────────────────────────────────────────[0m'

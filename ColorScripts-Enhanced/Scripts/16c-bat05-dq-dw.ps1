@@ -5,7 +5,7 @@
 # Source SHA-256: 8a651f86b8c6d2bb75390b89e661e7bfe7e4ce4a9e263f7b0fcf4af28947d866
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DQ-DW.ANS by Don Quijote (Bad Attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Darkwood Logo R.i.P
 # SAUCE Author: Don Quijote
 # SAUCE Group: Bad Attitude
@@ -32,7 +32,7 @@ Write-Host '
 [1;37md[0m [34m▄▄▄[0;1;34;44m░░░░░░░░░[0;34m▄▄▄ [0;35m▀[0;34m ▄ ▄[0;1;34;44m░░░░░░[0m    [1;34;44m░░░░░[0;34m▄[0;35m   [0;34m▄▄[0;1;34;44m░░░░░[0;35m [0;1;34;44m░░░░[0;34m▄▄[0;35m ▀  ▀ [0;34m▄▄▄[0;1;34;44m░░░[0;35m  [0;34m▀[0;1;34;44m░▒▒▒▒▒░░[0m
 [1mu[0m [1;34;44m░▒▒▒▓▓▓▓▓▓▓▒▒▒▒▒▒░[0;34m█ [0;1;34;44m░▒▓▓▓▒░[0m    [1;34;44m░▒▒▒▒░[0;34m█ [0;1;34;44m░▒▒▓▒▒▒░[0;34m  [0;1;34;44m▒▒▒▓▓▒▒░[0;34m [0;1;34;44m░░░▒▓▓▒░[0m    [34m▀[0;1;34;44m▒▒▓▓▒▒[0m
 [1mc[0m [34m▀▀[0;1;34;44m░░▒▒▒▒▒▒▒▒▒▒▒░░[0;34m▀  ▀█[0;1;34;44m▒▒▒[0;34m█▀    ▀[0;1;34;44m░▓▓▒[0;34m█▀ ▀[0;1;34;44m░▒▒▒▒░[0;34m▀   ▀[0;1;34;44m░▒▒▒▒[0;34m▀ ▀[0;1;34;44m░▒░▒▒░[0;34m▀      ▀[0;1;34;44m░▒░[0;34m▀[0m
-[1;37mt[0;34m [0;1;33m   [0;1;37m           SYSOP: Conar             ANSi: Don Quijote               [0;1;33m      [0m
+[1;37m [0;34m [0;1;33m   [0;1;37m                                                                    [0;1;33m      [0m
 [1mi[0m [35m▄██[0;1;35;45m░░░[0;35m▄     ▄[0;1;35;45m░░[0;35m██▄  ▄█[0;1;35;45m░░░[0;35m███████[0;1;35;45m░░░[0;35m▄   ▄█[0;1;35;45m░░░[0;35m███████[0;1;35;45m░░░[0;35m▄  ▄▄[0;1;35;45m░░[0;35m██[0;1;35;45m░░░[0;35m██[0;1;35;45m░░░[0;35m██[0;1;35;45m [0;35m▄ [0;37m [0;1;33m [0m
 [1;37mo[0m [1;35;45m░░░▒▒▒▒[0;35m▌[0m   [35m▐[0;1;35;45m▒▒▒░░░[0;35m [0;1;35;45m░░░▒▒▒░[0;35m█[0;1;35;45m░░░[0;35m█[0;1;35;45m░▒▒▒░[0;35m█ [0;1;35;45m░░░▒▒▒░[0;35m█[0;1;35;45m░░░[0;35m█[0;1;35;45m░▒▒▒░[0;35m█ █[0;1;35;45m▒▒░░░▒▒▒░░▒▒▒░[0;35m█[0;1;35;45m░░▒[0m [1;33m [0m
 [1;37mn[0m [1;35;45m▒▒▒▓▓▓▓▓[0m   [1;35;45m▓▓▓▓▒▒▒[0;35m [0;1;35;45m▒▒▒▓▓▓▒░▒▒▒░▒▓▓▓▒▒[0;35m [0;1;35;45m▒▒▒▓▓▓▒░▒▒▒░▒▓▓▓▒▒[0;35m █[0;1;35;45m▓▓▒▒▒▓▓▓▓▓▓▓▒▒░▒▒▓[0m [1;33m [0m

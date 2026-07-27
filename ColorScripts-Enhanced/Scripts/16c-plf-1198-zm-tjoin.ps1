@@ -5,7 +5,7 @@
 # Source SHA-256: 0c3b9a72ab889daf3510a18a531d4c44e8875cdc5735ffc0dbf09829b30f96fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZM-TJOIN.ANS by Zatchmo (Poffelipoff); released in plf-1198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Join
 # SAUCE Author: Zatchmo
 # SAUCE Group: Poffelipoff
@@ -34,5 +34,4 @@ Write-Host '
 [1;30;47m▒▒[0;30;47m▓[0m        [33;40m▀█[0;1;31;43m░▓[0;1;31;40m█▄[0m ▀[1m▓▒▌[0m▀ [1;31m▄█[0;1;31;41m▓▀[0;31m█▀[0m        [30;47m▓[0;1;30;47m░░[0m█████[30;47m [0;37;40m████[0;30;47m [0;37;40m██████████████████████[0m
 [1;30;47m▓▓▓▒[0m██       [33m▀[0;1;31;43m▓[0;1;31;40m███▄▄▄▄▄██[0;1;31;41m▀[0;31m█▀[0m       [1;30;47m░▒▒▒▒▒[0m████████████████████████████████[1;30;47m▄[0m
 [1;30;47m█▓▓▓▓▒▓▓▓▓▓[0m█   [1;31m▀▄[0;33m▀[0;1;31;43m▀▓▓[0;1;31;40m█[0;1;31;45m█[0;1;31;40m▀[0;31m█▀[0;37m   [0;1;30;47m░[0m█[1;30;47m▒▒▒▓▓▓▓▓▓▓[0m [1;30m▀[0m▀▀▀▀[30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m▀▀▀[0;1;30;40m▀[0m
-[1;30;47m███████▓▓▓▒▒▒░[0m█  [1;31m▀▓▓▓▓▓▀[0m  █[1;30;47m░▒▒▓▓█████████[0m [1;30m<[0mesc[1;30m> to [0mquit[1;30m <[0m▲[1;30m/[0m▼[1;30m> [0mup[1;30m and [0mdown
- [1;30mzatchmo(poffelipoff)[0m'
+[1;30;47m███████▓▓▓▒▒▒░[0m█  [1;31m▀▓▓▓▓▓▀[0m  █[1;30;47m░▒▒▓▓█████████[0m [1;30m<[0mesc[1;30m> to [0mquit[1;30m <[0m▲[1;30m/[0m▼[1;30m> [0mup[1;30m and [0mdown[0m'

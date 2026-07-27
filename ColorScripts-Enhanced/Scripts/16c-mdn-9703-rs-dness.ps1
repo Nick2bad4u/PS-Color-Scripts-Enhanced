@@ -5,7 +5,7 @@
 # Source SHA-256: e56d909806026091ff2abab62dbdc8e29994e1eaf8af6afc84bb872bf743a4c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-DNESS.ANS by rorshack (Maiden Brazil); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: darkness network
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -31,14 +31,8 @@ Write-Host '
 [1;30m█▄[0m [1;34m▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;37m [0;1;30m▒▀▀█[0m [1;34m▀▀▀▀▀▀[0;34m▀[0;37m [0;1;30m▓▀▀▀▀[0m [1;30m▀[0m [1;30m▓[0m [1;34m▀▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;37m [0;1;30m█▀▀▓[0m [1;34m▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;37m [0;1;30m▄█▀▀[0m [1;30m▀[0m [1;30m▀▀▀[0m
  [1;30m▀▀▀[0m [1;30m▀[0m   [1;30m▀▀[0m [1;30m▀ ▀▓▒░▀▀  ▀▀[0m [1;30m▀▀▀▀[0m  [1;30m▀[0m [1;30m▀ ▀▀▀▀[0m [1;30m▀[0m [1;30m▀[0m  [1;30m▀▀▀[0m [1;30m▀▀▀[0m [1;30m░▒▀▀▀[0m [1;30m▀▀[0m   [1;30m▀[0m [1;30m▀▀▀[0m
 
-                            [1;30m.[0m.[1m.[0;1;30m [0;1;37mDarkness Network .[0m.[1;30m.[0m
+                            [1;30m [0m [1m [0;1;30m [0;1;37m                  [0m [1;30m [0m
 
 [1;30m----->8-------[0mcomments[1;30m--------------------------------[0mcut here[1;30m------->8--------[0m
-  [36mHum. Outline is cool. I''m making my first attempts in this 3d-shading style[0m
-[37m  [0;36mthat looks like this [0;1;36m█████[0;36m█.[0m
-
-[37m  [0;36mThis is my little gift for [0;1;36mRicardo Del Debbio[0;36m and [0;1;36mFernando Dotta[0;36m. Great[0m
-[37m  [0;36mguys. Great boards. Great ''net.[0m
-
-[37m  [0;36mI remember that I first saw this style ([0;1;36mincluding[0;36m this outlined 3d sun) in a[0m
-[37m  [0;1;36msplatt[0;36m''s logo for acid.[0m'
+  [36m                                                                           [0m
+[37m  [0;36m                     [0;1;36m█████[0;36m█ [0m'

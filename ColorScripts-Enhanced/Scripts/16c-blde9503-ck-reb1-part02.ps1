@@ -5,7 +5,7 @@
 # Source SHA-256: 803821ceca65a14b40bc12c05be4e617f99d587495e62852d19fbfab267e0ad4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-REB1.ANS by chromatik (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rebel studios
 # SAUCE Author: chromatik
 # SAUCE Group: Blade Productions
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m  [0m                    [1;30m<sigh> what a deprived child. =( [0m
+[1;30m  [0m                    [1;30m                                 [0m
    [1;30m░[0m     [1;30m▒ [0m  [1;30m▒ [0m [1;30m▓[0m      [35m   [0m                                            [1;30m░[0m
  [1;30m▀▄░▓[0m [1;30m▄▓▀[0m  [35m▄▄[0;32m [0m [1;30m▀▓▀[0;35m [0;1;30m▀[0;35m ▄▄ [0m [1;30m▀░[0;35m [0;1;30m▀[0;35m [0;1;30m░[0m    [35m ▄▄[0m [35m▀[0m   [1;30m▓▀[0;35m [0;1;30m▀[0;35m ▄▄ [0m [1;30m▀░[0;35m [0;1;30m▀[0;35m [0;1;30m░[0m    [35m ▄▄[0m [35m▀[0m   [1;30m▒[0;35m    [0m
 [37m [0;1;30m▐▓▄[0;1;30;42m▓[0;1;30;40m▀[0m [35m▄▄[0;1;35;45m▄[0;35m▓[0m  [32m [0;35m▀▓▄▄[0m [35m▀▀[0;1;35;45m▓[0;45m░[0m [35;40m▀[0m [35;40m▄▄▄   ▄▄██[0;37;45m░[0;35;40m▌[0m     [35;40m ▄▄██[0;1;35;45m▓[0;45m░[0m [35;40m▀[0m [35;40m▄▄▄   ▄▄██[0;37;45m░[0;35;40m▌[0;1;30;40m░[0m    [1;30;40m▄[0;35m     [0m
@@ -45,6 +45,4 @@ Write-Host '
                               [35m░[0m
 [35m      [0m          [35m [0m [1;35m![0m [1;35m?[0m [1;30m%[0m [1;35mr[0;35m e b e l[0;1;30m %[0;35m [0;1;35ms[0;35m t u d i o s [0;1;30m%[0;35m [0;1;35m?[0;35m [0;1;35m![0;35m [0m
                    [35m [0m
-[1;35m [0;35m   [0m               [1;35m![0m [1;35m?[0m [1;30m%[0m [1;35m9[0;35m 0 5 [0;1;30m%[0;35m [0;1;35m8[0;35m 2 5 [0;1;30m%[0;35m [0;1;35m2[0;35m 6 2 3 [0;1;30m%[0m [1;35m? ![0m
-
-[1;30m       [0m          [1;30m.original.ansi.by.chromatik.blade.1995.[0m'
+[1;35m [0;35m   [0m               [1;35m![0m [1;35m?[0m [1;30m%[0m [1;35m9[0;35m 0 5 [0;1;30m%[0;35m [0;1;35m8[0;35m 2 5 [0;1;30m%[0;35m [0;1;35m2[0;35m 6 2 3 [0;1;30m%[0m [1;35m? ![0m'

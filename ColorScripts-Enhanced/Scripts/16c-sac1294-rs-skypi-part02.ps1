@@ -5,7 +5,7 @@
 # Source SHA-256: 116342ddf98e76b9ba979ffa3b4cf4643dd12df4dc40dc96a481a2dc5f9e2c8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-SKYPI.ANS by raiser; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SKYLiGHT + PIC
 # SAUCE Author: RAiSER
 # SAUCE Group: READ THE INI FILE
@@ -60,8 +60,8 @@ Write-Host '
 
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀▀[1;30m▀▀[0m▀▀▀▀▀▀▀[1m▀[0m▀[1m▀▀[0m▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀[1m▀[0m▀[1m▀▀[0m▀▀▀▀▀▀▀▀[1;30m▀[0m▀[1;30m▀▀[0m▀▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [34m░░[0m                                                                            [34m░[0m
-                    [1;30m·  ANSi B[0mY RAi[1mSER OF ·S/┤C[0m· [1mP[0mROD[1;30mUCTiON  ·[0m
+                    [1;30m         [0m     [1m          ┤ [0m  [1m [0m   [1;30m         [0m
 [34m░[0m                                                                             [34m░[0m
-[34m░ [0;1;30m·  GREETiNGS FL[0mY OUT TO: R[1mOY, HETERO, KAETHE, T[0mHE OUTLA[1;30mWS, BACCHUS, XT 7  · [0;34m░[0m
+[34m░ [0;1;30m               [0m           [1m                     [0m        [1;30m                     [0;34m░[0m
 [34m▒░[0m                                                                           [34m░▒[0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄[1;30m▄▄[0m▄▄▄▄▄▄▄▄[1m▄[0m▄[1m▄[0m▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄[1m▄▄[0m▄[1m▄▄[0m▄▄▄▄▄▄▄▄▄▄[1;30m▄▄[0m▄▄[1;30m▄▄▄▄▄▄▄▄▄▄▄[0m'

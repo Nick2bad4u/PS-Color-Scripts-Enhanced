@@ -5,7 +5,7 @@
 # Source SHA-256: 00909f337d1e5b74768f0d752cd04f6ec22efbf2d645566fe1f8734ad71c09e4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ODIUM.ANS by Burps + Alpha King (Fueltronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Odium Tribute
 # SAUCE Author: Alpha King & Burps
 # SAUCE Group: Fueltronics
@@ -47,21 +47,4 @@ Write-Host '
 [36;40m [0;31;45m▓▓[0;31;40m▌[0;35;40m▌[0;1;30;40m▀[0;35m▄▐▀[0;35;46m▓[0;35;40m▌▐[0;1;35;45m░[0;35m▄▀▌[0;1;30;45m▒░[0;1;37;40m [0;36m█[0;1;36;46m▓[0;1;37;46m▓[0;1;37;40m [0;1;36;46m▒█[0;1;37;40m [0;1;36;46m▓[0;1;36;40m▐[0;1;36;46m▓[0;1;37;46m▓[0;1;36;46m▓[0;1;36;40m▌[0;36m▐[0;1;34;46m░[0;1;37;46m░[0;36m█▄▐[0;1;34;46m░[0;36m▀ [0;1;37m▄▄▐[0;1;37;46m▓[0;1;36;46m█▀[0;36;45m▓▓[0;1;30;40m░ [0;36m█[0;36;45m▓[0;36;40m [0;36;45m▓▓[0;36;40m░ ▄[0;1;36;46m░░[0;36;45m▓▓[0;36;40m░░[0;1;30;40m░ [0;36m▄[0;1;36m▄[0;36;45m▓▓[0;36;40m░[0;1;30;40m░ [0m▄[36m [0;37m▀▒▓[0m
 [36m [0;31;45m▓▓[0;31;40m [0;35;40m▄[0;1;35;45m░[0;35m▄▀▄▐[0;35;46m▓[0;1;37;40m [0;35m▓[0;35;46m▓[0;35;40m▌█▐▓▌[0;36;40m▐[0;1;36;46m█[0;36m▌▐[0;1;36;46m▐[0;1;36;40m▀▐▌▀[0;1;36;46m▓[0;1;37;46m▌[0;1;36;40m▐ [0;36m▀▌▀█▄▓▀▄[0;1;36;46m▄▓▓▀▀[0;36;45m▓[0;1;30;46m▓[0;1;30;40m░  [0;36m▓[0;36;45m▓▓[0;1;30;46m▓[0;1;30;40m░  [0;36;45m▓[0;36;40m█[0;36;45m▓▓[0;1;30;46m▓[0;1;30;40m░  [0;36m▀[0;36;45m▓[0;1;30;46m▓[0;1;30;40m░░  [0m▄▓[1;36;47m ░[0m█▄█
 [36m [0;31m█ [0;1;35;45m░░[0;35m▓▀ ▐▀▀▌ ▀▓▌▀▌▀ [0;1;36;46m▓[0;1;36;40m▌[0;36m▐[0;1;36m▀ ▀ ▓█▀  [0;36m▀ ■▄▀  [0;1;36m▀▀▀[0;36m▀▀    ▀▀▀    ▀▀▀[0m     [36m▀▀[0m      [37m▀▀▀▀▀[0;1;36;47m░[0m█▓
-[36m [0;31m▌[0;35m▐▀ ▀ ▀ ▀    ▀   ▀▌[0m      [1;36m▀[0m                                                  ░▀
-
-[36m    [0;1;37mA tribute from Alpha King (formerly Otter of Odium) and Burps (formerly[0m
-[1;37m    Burps of Odium). Odium was a crazy little group started by Lord Jazz![0m
-[1;37m    when Bleach fell through. It gave a lot a aspiring new artists a chance[0m
-[1;37m    to hone their skills with a twice monthly releasing art group while being[0m
-[1;37m    a part of something less stressful than the mainstream ACiD/iCE/FiRE[0m
-[1;37m    group demands. Ink: Burps <Fuel> Paint: Alpha King <blocktronics>[0m
-
-[1;37m    Odium members: lordjazz! (founder), prime, unsane, anarchist, the silent[0m
-[1;37m    killer, otter, sir death, 7degrees, wator, fury, blacknight, the emperor[0m
-[1;37m    blind, shattered link, ack!, holocaust, penguin,  whitesnake, calamity,[0m
-[1;37m    captain hood, celestian, bleys, burps, moon man, ruckus, mind bender,[0m
-[1;37m    crusader, sodium, shivian bastard, kuma, cerebus, dikarpo, cidica,[0m
-[1;37m    fractal, pathogen-x, reflexion, maxx, pinhead, outkast, solitude,[0m
-[1;37m    spear, mr. sandman, thecrow[0m
-
-[1;37m    oh. and some poser named suicidalsnowman.[0m'
+[36m [0;31m▌[0;35m▐▀ ▀ ▀ ▀    ▀   ▀▌[0m      [1;36m▀[0m                                                  ░▀[0m'

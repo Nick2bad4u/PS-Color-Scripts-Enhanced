@@ -5,7 +5,7 @@
 # Source SHA-256: 025027270c2e5344f40a21cb57b3990a56ee0593123c55f51c80b77dc8ae7dc4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-SENSE.ANS by phorce phed (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sensory ? - use this if you can
 # SAUCE Author: phorce phed
 # SAUCE Group: leper society
@@ -27,11 +27,11 @@ Write-Host '
 [30ms]pp[0;37m█▄▄▄[0;30m[[0;1;33m▒[0;1;32;42m▓▓▓▒░[0;32m▀▀▀▀▀▀▀▀[0;30ml[0;32m▀▀▀▀[0;30ms[0;32m▀▀▀[0;30m]p[0;32m▀▀▀[0;30mp[0;32m▀▀▀▀▀▀▀▀▀▀[0;30m[[0;32m▀▀▀[0;30ml[0;32m▀▀▀[0;30ms]p[0;32m▀▀▀[0;30mp[0;32m▀[0;1;32;42m░▓▓▓▓[0;1;33;40m▒[0;30m[[0;37m▄▄▄█[0;30mls[p[0m
 [30mp[ls][0;37m▐██[0;30mp[0;1;33m░[0;1;32m▓[0;30mp[[0;37m▄▄▄███████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████████▄▄▄[0;30mls[0;1;32;42m▒[0;1;33;40m░[0;30m][0;37m██▌[0;30mpp[ls[0m
 [30m]pp[ls[0;37m██▄[0;30m][0;1;32m▒[0;30mp[0;37m███▀▀[0;30mp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[l[0;37m▀▀███[0;30ms[0;1;32m▒[0;30m][0;37m▄██[0;30mpp[ls][0m
-[30mpp[ls][0;37m▀██[0;30mp[0;1;32m░[0;30mp[0;37m██▌[0;30m[ls]pp[ls]p[0;1;34msensory some-thing-or-other[0;30mp[ls]pp[ls][0;37m▐██[0;30mp[0;1;32m░[0;30mp[0;37m██[0;30m[ls]pp[[0m
+[30m      [0;37m▀██[0;30m [0;1;32m░[0;30m [0;37m██▌[0;30m           [0;1;34m                           [0;30m           [0;37m▐██[0;30m [0;1;32m░[0;30m [0;37m██[0;30m       [0m
 [30mls]pp[l[0;37m▀█▄▄▄██[0;30ms]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]p[0;37m██▄▄▄█▀[0;30mp[ls]pp[0m
-[30m[ls]pp[ls]pp[0;37m▓█[0;30m[[0;1;34mno[0;30mls[0;1;34midea[0;30m][0;1;34mwhy[0;30mp[0;1;34mi[0;30mp[[0;1;34mmade[0;30ml[0;1;34mthis.[0;30ms][0;1;34mif[0;30mpp[0;1;34myou[0;30m[[0;1;34mhave[0;30ml[0;1;34ma[0;30ms][0;1;34mboard[0;30mp[0;37m█▓[0;30mp[0;1;30mpp[0;30m[ls]pp[ls[0m
-[30m]pp[ls]pp[ls[0;37m▒[0;30m]p[0;1;34mthat[0;30mp[0;1;34mhas[0;30m[[0;1;34ma[0;30ml[0;1;34mname[0;30ms][0;1;34mstarting[0;30mp[0;1;34mwith[0;30mp[0;1;34mthe[0;30m[[0;1;34mword[0;30ml[0;1;34m"sensory"[0;30ms][0;37m▒[0;1;30m[ls][0;30mpp[ls]pp[0m
-[30m[ls]pp[ls]pp[0;37m░[0;30m[l[0;1;34mthen[0;30ms[0;1;34mfeel[0;30m][0;1;34mfree[0;30mp[0;1;34mto[0;30mp[0;1;34mstick[0;30m[l[0;1;34myour[0;30ms[0;1;34mstats[0;30m][0;1;34mhere[0;30mpp[0;1;34mand[0;30m[[0;1;34muse[0;30mls[0;37m░[0;30m]pp[ls]pp]ls[0m
-[30m]pp[ls]pp[ls]pp[0;1;34mthis[0;30m[[0;1;34mansi.[0;30mls[0;1;34mplease[0;30m][0;1;34mdo[0;30mp[0;1;34mnot[0;30mp[[0;1;34madd[0;30ml[0;1;34mto[0;30ms[0;1;34mor[0;30m][0;1;34mmodify[0;30mp[0;1;34mit[0;30mp[0;1;34min[0;30m[ls]pp[ls]pp[ls[0m
-[30m]pp[ls]pp[ls]pp[0;1;34many other way though.[0;30m[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[[0m
+[30m            [0;37m▓█[0;30m [0;1;34m  [0;30m  [0;1;34m    [0;30m [0;1;34m   [0;30m [0;1;34m [0;30m  [0;1;34m    [0;30m [0;1;34m     [0;30m  [0;1;34m  [0;30m  [0;1;34m   [0;30m [0;1;34m    [0;30m [0;1;34m [0;30m  [0;1;34m     [0;30m [0;37m█▓[0;30m [0;1;30m  [0;30m         [0m
+[30m            [0;37m▒[0;30m  [0;1;34m    [0;30m [0;1;34m   [0;30m [0;1;34m [0;30m [0;1;34m    [0;30m  [0;1;34m        [0;30m [0;1;34m    [0;30m [0;1;34m   [0;30m [0;1;34m    [0;30m [0;1;34m         [0;30m  [0;37m▒[0;1;30m    [0;30m        [0m
+[30m            [0;37m░[0;30m  [0;1;34m    [0;30m [0;1;34m    [0;30m [0;1;34m    [0;30m [0;1;34m  [0;30m [0;1;34m     [0;30m  [0;1;34m    [0;30m [0;1;34m     [0;30m [0;1;34m    [0;30m  [0;1;34m   [0;30m [0;1;34m   [0;30m  [0;37m░[0;30m            [0m
+[30m               [0;1;34m    [0;30m [0;1;34m     [0;30m  [0;1;34m      [0;30m [0;1;34m  [0;30m [0;1;34m   [0;30m  [0;1;34m   [0;30m [0;1;34m  [0;30m [0;1;34m  [0;30m [0;1;34m      [0;30m [0;1;34m  [0;30m [0;1;34m  [0;30m               [0m
+[30m               [0;1;34m                     [0;30m                                           [0m
 [30mls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[l[0m'

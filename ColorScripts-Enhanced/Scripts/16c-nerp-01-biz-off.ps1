@@ -5,7 +5,7 @@
 # Source SHA-256: 2256861e8ee53885ebe7a6aeb5f8308629f433c5d0c9edcc8aefade34dfff161
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-OFF.ANS by bizzarro (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: off
 # SAUCE Author: bizzarro
 # SAUCE Group: nerp
@@ -43,10 +43,4 @@ Write-Host '
     [34m▀█[0;1;34;44m░░▒[0;34m██[0;1;34;44m░[0;34m██[0;1;34;44m░░░[0;34m████[0;1;32;44m░▒[0;1;32;46m▒[0;1;31;46m░[0;30;46m░[0;34;40m ▀▀[0;37;40m  [0;1;34;40m░░░[0m  [34m▐▀▀░░[0m
      [1;34m  [0;34m▀▀[0;1;34;44m░░[0;34m████[0;1;34;44m░[0;34m▀[0;1;34;44m░[0;34m▄█[0;36;44m░░[0;36;40m▀▀▀░░[0m        [1;34;40m  ░░[0m        [35m:: G.Hawthorne[0m
         [1;34m ░░[0;34m▀▀██▄▐█▀▀[0;37m [0;30;44m▓▓[0m
-        [1;34;40m   [0m   [34m░░[0;1;34m [0m
-
-
-
-
-[34mremixed from the first nH! pack..[0m
-[34mbizzarro@hotmail.com[0m'
+        [1;34;40m   [0m   [34m░░[0;1;34m [0m'

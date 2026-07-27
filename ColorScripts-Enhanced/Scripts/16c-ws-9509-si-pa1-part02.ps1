@@ -5,7 +5,7 @@
 # Source SHA-256: 717fc8a50c6aa1b6fbffbba829706d84ff31165c2de2464d962d5ef8d83540e6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-PA1.ANS by soul survivor (ws-9509); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: paradise addiction
 # SAUCE Author: soul survivor
 # SAUCE Date: 19950904
@@ -37,11 +37,11 @@ Write-Host '
 [1m [0m              [1mA[0m    [1mD[0m     [1mD[0m     [1mI[0m     [1mC[0m     [1mT[0m     [1mI[0m     [1mO[0m     [1mN[0m
 
                     [1m■ p a r a d i s e  a d d i c t i o n ■[0m
-             [1m■[0m [1mthree.one.nine.three.eight.one.two.six.three.five[0m [1m■[0m
-                  [1m■[0m [1moperator.soul survivor`warner founder` ■[0m
-                      [1m■[0m [1mco operator.biscuit`ice artist` ■[0m
-                     [1m■[0m [1mwarners studios world headquarters[0m [1m■[0m
-                   [1m■[0m [1mcrew forever known world headquarters[0m [1m■[0m
-                      [1m■[0m [1msmooth emag world headquarters[0m [1m■[0m
-                [1m■[0m [1mno ratios running at twenty.eight.point.eight ■[0m
-                     [1m■[0m [1msoftware creeping on obv² stockish ■[0m'
+             [1m■[0m [1m                                                 [0m [1m■[0m
+                  [1m■[0m [1m                                       ■[0m
+                      [1m■[0m [1m                                ■[0m
+                     [1m■[0m [1m                                  [0m [1m■[0m
+                   [1m■[0m [1m                                     [0m [1m■[0m
+                      [1m■[0m [1m                              [0m [1m■[0m
+                [1m■[0m [1m                                              ■[0m
+                     [1m■[0m [1m                                   ■[0m'

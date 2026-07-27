@@ -5,7 +5,7 @@
 # Source SHA-256: 3873ed713161067fe36a65126396d57968b1764bb617baad407ad36433f9d317
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-bloxxi.ans by filth (bL0CKYtRONiCS); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Spade Magazine
 # SAUCE Author: filth
 # SAUCE Group: bL0CKYtRONiCS
@@ -53,7 +53,4 @@ Write-Host '
 [35m▓███[0;1;35;45m░[0;35m█[0;1;35;45m░░░░░[0;30m█[0;31m▓[0;1;31;41m░▒░▒▒▒▒▓▓▓▓▓▓▓[0;31m▓[0;30m█[0;35m▓[0;1;35;45m░░░░░░░[0;35m██[0;1;35;45m░░[0;35m███[0;30m██[0;31m███[0;1;31;41m░[0;31m████[0;1;31;41m░[0;31m█[0;1;30m [0;33m▄[0;1;33m██[0;1;30m [0;1;31m [0;1;31;43m░ ░[0;1;31;40m█▄▄[0m        [33m▀▀▀▀[0m
 [35m██[0;1;35;45m░[0;35m█[0;1;35;45m░░░░░░[0;30m█[0;1;31;41m░░░▒▒▓▒▓▓▓██▓█▓█[0;31m [0;1;35;45m▒▒▒▓▓▒░▒░░░░░░░[0;30m█[0;1;31;41m░░░[0;31m█[0;1;31;41m░[0;31m██[0;1;31;41m░░░[0;31m█[0;1;30m [0;33m▄[0;1;33m██[0;1;30m [0;1;31m [0;1;31;43m  ▓[0;1;31;40m███████▄▄[0;33m    ░[0m
 [1;35;45m░░░░[0;35m▀▄[0;1;35;45m░░[0;35m▓ [0;1;31;41m░▒▒▒▒▒▓▓▓█▓███▓█[0;30m█[0;1;35;45m█▓▓▓▓▓▓▒▒▒▒░░░[0;30m█[0;1;31;41m▒░░░░░░░[0;31m████[0;1;30m [0;33m▄[0;1;33m██[0;1;30m [0;1;31m [0;1;31;43m  ▓▓▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m███████▄▄[0m
-[35m██[0;1;35;45m░░░░░[0;35m▓[0;31m█[0;1;31;41m░░▒▒▒▓▓█▓████▓██[0;30m█[0;1;35;45m█▓███▓█▓▓▓▓▓▒▒[0;30m█[0;1;31;41m▒▒░░░░░░░░[0;31m██[0;35m [0;33m░[0;1;33m██[0;1;30m [0;1;31m [0;1;31;43m  ▓▓▓▓▓▓▓▓▓▓▓[0;1;31;40m██[0;1;31;43m▓▓▓▓▓[0m
-
- [35m♥[0;37m [0;31m·[0;37mm[0;31m·[0;1;37mo[0;31m·[0;1;35mx[0;31m·[0;35mx[0;31m·[0;35mi[0;31m·[0;35mt[0;31m·[0;35mr[0;31m·[0;35mo[0;31m·[0;35mn[0;31m·[0;1;35mi[0;31m·[0;1;37mc[0;31m·[0;37ms[0;31m·[0;37m [0;35m♥[0;37m  [0;1;37mby[0m [1mfilth[0m [1;35mof[0m [1;35mbL0CKtRONiCS[0m [35mdespenser412@yahoo.com[0m
-        [1;30m100%[0m [1;30moriginal[0m [1;30mcopyright[0m [1;30minfringement[0;35m werdemupz go out to: [0;1;35mnail[0m'
+[35m██[0;1;35;45m░░░░░[0;35m▓[0;31m█[0;1;31;41m░░▒▒▒▓▓█▓████▓██[0;30m█[0;1;35;45m█▓███▓█▓▓▓▓▓▒▒[0;30m█[0;1;31;41m▒▒░░░░░░░░[0;31m██[0;35m [0;33m░[0;1;33m██[0;1;30m [0;1;31m [0;1;31;43m  ▓▓▓▓▓▓▓▓▓▓▓[0;1;31;40m██[0;1;31;43m▓▓▓▓▓[0m'

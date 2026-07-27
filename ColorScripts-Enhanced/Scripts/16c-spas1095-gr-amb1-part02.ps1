@@ -5,7 +5,7 @@
 # Source SHA-256: c83655b4b4d69c33a91513aac83fd613fb60193a2a28dcd1ae6dca500f780e3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-AMB1.ANS by Gradius (spastique); released in spas1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ambrosia
 # SAUCE Author: Gradius
 # SAUCE Group: spastique
@@ -28,15 +28,12 @@ Write-Host '
      [1;34m▐[0;1;34;44m▓[0;1;34;40m▌[0m  [1;34m▐[0;1;34;44m▓[0;1;34;40m▌[0m [1;34m▐[0;1;34;44m▓[0;1;34;40m█[0m  [1;34;44m▒▒[0;1;34;40m▌[0m [1;34m▐[0;1;34;44m▓[0;1;34;40m▌▐[0;1;34;44m▓[0;1;34;40m█[0m   [1;34m█[0;1;34;44m▓[0m [1;34;44m▓▓[0;1;34;40m▌[0m     [1;31m▐█[0;1;31;41m▓[0;1;34;40m▐[0m   [1;34m▄[0;1;34;44m▓[0;1;34;40m▌[0m [1;34m▐[0;1;34;44m▓[0;1;34;40m█▀[0m [1;34m▐[0;1;34;44m▓[0;1;34;40m▌▐█▌▐[0;1;34;44m▓[0;1;34;40m▌[0m  [1;34m▐[0;1;34;44m▓[0;1;34;40m▌[0m
       [1;34m▀[0;1;34;44m▓[0;1;34;40m▄▄██▌[0m  [1;34m█[0;1;34;44m▓[0;1;34;40m▌[0m [1;34m▐[0;1;34;44m▓[0;1;34;40m▌[0m [1;34m██[0m [1;34m▐█▄▄███▀[0m [1;34m▐▀█▄[0m     [1;31;41m▒[0;1;31;40m▀[0;1;34;40m▐▄▄██▀[0;1;37;40mgr![0;1;34;40m▀██▄█▀[0m [1;34m██▄[0m [1;34m▀[0;1;34;44m█[0;1;34;40m▄▄██▌[0m
             [1;34m▀[0m   [1;34m▀▀[0m [1;34m▀▀▀[0m [1;34m▀▀▀[0m
-                                   ambrosia
+                                           
                                  215-822-6388
-                                  nup=minmay
-                             sysop:pinky[spastic]
-                                spastic distro
+                                            
+                                                 
+                                              
 
-                  [1m1OO% original ansi[0m by [1mgradius [0mof [1mspastique[0m
+                  [1m                  [0m    [1m        [0m   [1m         [0m
 
-[1;30m.cut............................................................................[0m
- if ya''d like to request an ansi call zook!  215-757-5625 (spastic  whq) or you
- can contact me on ambrosia . i do  charge for ansis to keep down requests, the
- price is negotiable depending on the size of the ansi.[0m'
+[1;30m.cut............................................................................[0m'

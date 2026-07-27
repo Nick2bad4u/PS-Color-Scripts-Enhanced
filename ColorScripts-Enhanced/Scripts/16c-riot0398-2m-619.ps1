@@ -5,7 +5,7 @@
 # Source SHA-256: 00c06dc67dd16f6d33df00fe78e2e02db64e0d5ccc4251fe43a7c7347182e3eb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2M-619.ANS by 2much4u (RioT Productions); released in riot0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: 2much4u
 # SAUCE Group: RioT Productions
 # SAUCE Date: 19980315
@@ -40,6 +40,4 @@ Write-Host '
      [36;40m█[0;37;40m  [0;36;40m█[0;37;40m [0;36;40m█[0;37;40m [0;36;40m█[0;37;40m  [0;36;40m█[0;37;40m [0;36;40m█[0;35;40m█[0;36;40m█[0m   [36;40m█[0;36;45m░[0;36;40m █[0;35;46m▓[0;36;40m [0;35;46m▓[0;36;45m░[0;36;40m█[0;35;46m▓▓[0;36;40m██[0;36;45m▓[0;35;46m▓▒[0;36;40m [0;35;46m▒[0;36;40m█[0;35;46m░█[0;36;40m█[0;35;46m█[0;36;40m██[0;35;46m█[0;36;40m█[0;35;46m█[0;36;40m█[0;35;46m▓[0;37;40m  [0;36;40m██[0;37;40m  [0;36;40m██[0;37;40m [0;36;40m██[0;37;40m  [0;36;40m███[0;37;40m  [0;36;40m██[0;37;40m [0;36;40m█[0m
          [36;40m█[0m   [36;40m██[0;37;40m [0;36;40m█[0m   [36;40m█[0m    [36;40m█[0;35;46m▓[0;36;40m█[0;37;40m [0;36;40m█[0;35;46m█[0;36;40m█[0m   [36;40m██[0;35;46m▓[0;36;40m█[0;35;46m█[0;37;40m  [0;36;40m [0;35;46m█[0;36;40m█[0m    [36;40m█[0;37;40m  [0;35;46m█[0;36;40m█[0m   [36;40m█[0m   [36;40m█[0m       [36;40m██[0m
 
-[1;30;40m------------------------------------slurp!--------------------------------------[0m
-
-[1;30mThis is for the 619 erag... not that great, but why the hell not... =][0m'
+[1;30;40m------------------------------------slurp!--------------------------------------[0m'

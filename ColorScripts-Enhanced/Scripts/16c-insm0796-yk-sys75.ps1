@@ -5,7 +5,7 @@
 # Source SHA-256: c6f69a24f17444c58557adb09102e4b0fadb92d28b349de18f2ce817a5460167
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YK`SYS75.ANS by YaNKeE (insomnia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: System 75
 # SAUCE Author: YaNKeE
 # SAUCE Group: insomnia
@@ -37,5 +37,4 @@ Write-Host '
                         [35m▄█[0;1;35;45m░▒▒[0;35m▌[0;36m██[0;1;36;46m░▒▒[0;36m [0;1;35;45m░[0;1;31;45m [0;1;35;45m ░▒▓[0;35m▀[0;1;36m▄[0;36m [0;1;35;45m░[0;35m▀▀[0;36m▄▄███[0;1;36;46m░░[0;35m▐▄ [0;37m  [0;35m [0m
                         [35m▀[0;1;35;45m░▒▓▓[0;1;36;40m▐[0;1;36;46m░░▒▓[0;1;36;40m▌[0;1;35;45m▓▒ ░▒[0;35m▀[0;1;36m▄█[0;1;36;46m▓[0;1;36;40m█▄[0;1;36;46m▓▒░[0;36m█[0;1;36;46m░░[0;36m█▀[0;35m▄[0;1;35;45m▒[0;35m▌ [0m
                      [33m [0m    [36m [0;35m▀[0;1;36m▄[0;1;36;46m▓▒▒▓[0;1;36;40m▀[0;35m▄[0;1;35;45m▓▒░[0;35m█[0;1;35;45m░[0;35m▄[0;1;36m▀[0;1;36;46m▓[0;1;36;40m████[0;1;36;46m▓▒░[0;36m▀▀[0;35m▄[0;1;35;45m▓▒[0;35m▀  [0;37m  [0;35m [0m
-                     [33m [0m     [36m  [0;1;36m▀█[0;1;36;46m▓[0;1;36;40m▀[0m  [35m▀[0;1;35;45m▓[0;35m▀[0;37m  [0;35m▀▀[0;36m  [0;1;36m▀▀▀▀[0;36m  [0;35m▀[0;1;35;45m░[0;35m▀[0;37m [0;35m    [0;37m [0;1;30m░[0m [1;30myankee[0m^[1;30minsomnia ░  [0m
-                                         [36m  [0m    [36m [0m'
+                     [33m [0m     [36m  [0;1;36m▀█[0;1;36;46m▓[0;1;36;40m▀[0m  [35m▀[0;1;35;45m▓[0;35m▀[0;37m  [0;35m▀▀[0;36m  [0;1;36m▀▀▀▀[0;36m  [0;35m▀[0;1;35;45m░[0;35m▀[0;37m [0;35m    [0;37m [0;1;30m░[0m [1;30myankee[0m^[1;30minsomnia ░  [0m'

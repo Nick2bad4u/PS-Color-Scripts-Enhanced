@@ -5,7 +5,7 @@
 # Source SHA-256: 711f7bfa10c73d1f56192eff55f402d2042d317360a9bf0a771370f691438e1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-UP.ANS by anomite (bmb&drg); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: upload rulz.!@@ =)
 # SAUCE Author: anomite
 # SAUCE Group: bmb&drg
@@ -39,10 +39,4 @@ Write-Host '
            [33m▀[0;1;31;43m ░░▒░▀[0;1;31;40m▄▄▄▄▄███████▀[0m
               [33m▀▀▀▀▀▀▀[0;1;31m▀▀▀▀▀[0m
 
-[1;30m------[0m
-
-[1;30mA real toon-fuckup .. fucked up by [0manomite[1;30m.[0m
-[1;30mThis one is for [0mzenrix[1;30m... yepp... [0m
-[1;30mI like this one.. ;)[0m
-
-[1;30m-[0manOmite[0m'
+[1;30m------[0m'

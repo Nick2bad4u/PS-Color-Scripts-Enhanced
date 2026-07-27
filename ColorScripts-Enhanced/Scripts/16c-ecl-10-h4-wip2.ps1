@@ -5,7 +5,7 @@
 # Source SHA-256: 0db9fb671fccfa7f4fee1c98cdfc99f4d386118ab1557c0e350a80834af2633d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: H4-WIP2.ANS by Haji (ecl-10); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -25,12 +25,12 @@ Write-Host '
                        [1;30m.d$$SSllii::..[0m [1;30m.[0m  [1m:$[0;1;30m [0m
                       [1;30md$$$$SSlllii;;:: :[0m  [1;33;47m$[0;1;30;40m [0m
                      [1;30m;$$$$$$SSllii;;;:.. [0m [1;33ml[0;1;30m :.. .[0m
-                     [1;30ml$$$$SSSllliii;;;: :[0m [1;33m;[0;1;30m [0m [1;30m:[0m
+                     [1;30m                    [0m [1;33m [0;1;30m [0m [1;30m [0m
                [1;30m_.╓y|[0m [1;30m;$$$$$$SSll;;;::...  . .;:.[0m [1;30m.[0m               [1m      [0m
          [1;30m .╓y$$$$$$$.[0m [1;30m4$$$$$$$$SSlli;;::..:;;i[0m
          [1;30md$$$$$$$$$$$b[0m [1;30m~4$$$$$$$$SSlllliiiiil [0m
  [1m       [0;1;30m;$$$$8╜"~[0m          [1;30m~╙╨8888$SSSS888╜~[0m
- [1m       [0;1;30md$$$P[0;34m            [0;1;36mbp╖[0;1;34m,[0;1;30m yyyy╖[0;1;37m [0;34m      q.[0m
+ [1m       [0;1;30m     [0;34m            [0;1;36m  ╖[0;1;34m [0;1;30m     ╖[0;1;37m [0;34m        [0m
 [1;30myyyyyy ;$$$$ l[0mb.[34m         [0;1;36m$[0;1;37;46m$[0;1;36;44m8$[0;1;30;40m $$$$$ [0;1;34;40m_[0;34m     $[0;30;44m$[0;34;40mb.[0m
 [1;30;40m╙╨╨╨╨'' 4$$$|[0;1;37;40m [0m''4[1;47m$[0mbyy[1my[0my[1myyyy[0;1;46m▒$[0;34m  [0;1;37m [0;1;30m$$$$$ [0;1;34m$[0;1;34;44m$b[0;36mp╖_[0;30;44m$$[0;34;40m4[0;30;44m$[0;34;40mb.[0m
 [37;40m [0;32;40m,qd$$,[0;1;37;40m [0;1;30;40m╙8╜[0;1;37;40m  [0;34m  [0;37m''╙╨[0;1;37m╨[0m╨[1m╨╨╨╨╨╨╜[0;34m  [0;1;37m [0;1;30m$$$╨╜[0;1;37m [0;34m [0;1;34m~[0;36m"╙[0;36;44m8[0;30;44m$$[0;34;40m$ ''4$byyyyyyyssssssooooooo ;;;;::  :[0m

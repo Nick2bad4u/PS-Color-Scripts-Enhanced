@@ -5,7 +5,7 @@
 # Source SHA-256: 8d9c74b644b0b7d8b963a35ba0f8dfc503fca15c3b2cee424a3c1ef6e8ceb7d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RDL-LG13.ANS by Radical (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ansi logos pack 13
 # SAUCE Author: Radical
 # SAUCE Group: Fuel Productions
@@ -26,9 +26,9 @@ Write-Host '
 [1;30;40m██[0;1;30;47m▓[0;1;30;40m█ ▐██[0m [1;30m▀██[0;1;30;47m▓[0;1;30;40m██▄██[0;1;30;47m▓▓[0;1;30;40m▀ ▀██[0;1;30;47m▓[0;1;30;40m██▄██[0;1;30;47m▓▓[0;1;30;40m▀ ▀██[0;1;30;47m▓[0;1;30;40m█ ▀██[0;1;30;47m▓[0;1;30;40m██▄██[0;1;30;47m▓▓[0;1;30;40m▀ ▀██[0;1;30;47m▓[0;1;30;40m██▄██[0;1;30;47m▓▓[0;1;30;40m▀ ▀██[0;1;30;47m▓[0;1;30;40m██▄██[0;1;30;47m▓▓[0;1;30;40m▀ [0m
 [1;30;40m▄▄▄▄▄▓██▓▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▓▄▄▓▄▄▄▄▄▄▓▄█▄▄▄▄▓▄▄▄▄▄▄▄▄[0m
                 [1m [0m    [1;30m▀[0m
-        my first contribution to a fuel pack ever [1;30m..[0m
-                                remember [1;30m--[0m it[1;30m''[0ms not a feeling[1;30m,[0m it[1;30m''[0ms an ansi[1;30m.[0m
-                fadeDESIGN ain[1;30m''[0mt dead [1;30m--[0m expect a pack real soon [1;30m..[0m
+                                                  [1;30m  [0m
+                                         [1;30m  [0m   [1;30m [0m               [1;30m [0m   [1;30m [0m         [1;30m [0m
+                              [1;30m [0m       [1;30m  [0m                         [1;30m  [0m
 
         [1;30m▄▄[0;1;30;47m▓[0;1;30;40m██▓▄[0m                      [1;30m   [0m [1;30m ▄    ▄▄[0m                      [1m▄[0;1;46m█[0;1;40m▄[0;1;30;40m [0m
     [1;30m▄▄[0;1;30;47m▓[0;1;30;40m█▀▀[0m  [1;30m██▌[0m     [1;30m▄▄[0;1;30;47m▓[0;1;30;40m█▓█▄[0m [1;30m [0;1;37m▄[0;1;37;46m█[0;1;37;40m▄[0m     [1;30m  ▄▓█▌[0m     [1;30m▐█▓▄[0m                 ▄[1;47m▄[0;1;46m████[0m [1m    [0m
@@ -45,19 +45,6 @@ Write-Host '
                            [1;30m ▄▀ [0m                    [1;30m [0m      [1;30;47m▓[0;1;30;40m▀▀[0m             [1;30m▐▌[0m
      [1;30m_[r]adiCal[0m           [1;30m █[0m        [1;30m- ──% [0m t ▐[30;47mr[0;37;40m▌ a ▐[0;30;47mu[0;37;40m▌ m  a [0;1;30;40m %── -[0m         [1;30m█ [0m
          [1;30mfadeDESIGN/fuel.[0m [1;30m ▐▌░[0m                                           [1;30m░▐▌ [0m
-                          [1;30m▄ ▀▓[0m     [1;30m/[0mmode [1;30m#[0mtrauma[1;30m +[0moo[1;30m [0mthrasher burps      [1;30m▓▀ ▄[0m
+                          [1;30m▄ ▀▓[0m     [1;30m [0m     [1;30m [0m      [1;30m  [0m  [1;30m [0m                    [1;30m▓▀ ▄[0m
                           [1;30m ▀▀▀▓▄▄[0m                                     [1;30m▄▄▓▀▀▀ [0m
-                                [1;30m▀▀▀▀▓[0m  [1;30m+[0m32[1;30m-[0mxxx[1;30m-[0mxxxxxx[1;30m / [0;1;37mfuel[0m whq  [1;30m▓▀▀▀▀[0m
-
-[1;30m-cut---cut---cut---cut---cut---cut---cut---cut---cut---cut---cut---cut---cut---c[0m
-
-  [1mare dee el[0m.     [1mdisclosed[0m.         yeah right [1;30m..[0m
-    fuel prods[1;30m.[0m     groupless[1;30m.[0m    this is a joint between me and my bitch.
-fade design[1;30m.[0m
-                   so shut the fuck up[1;30m,[0m and think that i gave up a quarter of
-[1;30m      [0m                      an hour of [1;30m''[0mtalking[1;30m''[0m [1;30m(=])[0m to draw this muffin[1;30m''[0m logo
-  [1;30mradical@cryogen.com[0m                for ya[1;30m,[0m thrasher [1;30m([0mand burps[1;30m) .. =][0m
-
-[1;30m-cut---cut---cut---cut---cut---cut---cut---cut---cut---cut---cut---cut---cut---c[0m
-
-                  [1mmaybe i''ll finish this one sometimes =][0m'
+                                [1;30m▀▀▀▀▓[0m  [1;30m+[0m32[1;30m-[0mxxx[1;30m-[0mxxxxxx[1;30m / [0;1;37mfuel[0m whq  [1;30m▓▀▀▀▀[0m'

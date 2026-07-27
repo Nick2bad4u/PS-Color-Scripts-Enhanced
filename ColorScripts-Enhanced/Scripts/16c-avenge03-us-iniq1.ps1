@@ -5,7 +5,7 @@
 # Source SHA-256: 29d5b473b0b23aaac530631bcdc988d94dfe3bf2e1ed4c124ec41634947e55ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-INIQ1.ANS by Sudden Death + Ball Tongue (Avenge Cult); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Iniquity bbs (23 liner)
 # SAUCE Author: sudndeath & btongue
 # SAUCE Group: Avenge Cult
@@ -39,11 +39,4 @@ Write-Host '
 [1;33;47m░[0m▀▀▀▀[1;33m [0m▀██▄[1;31m [0;33m▀▄████[0;1;31m   [0;1;37m  [0;1;31m   [0;33m██████▀▀███▄▄[0;1;31m [0m▀▀[1;47m▒▒▒▓▓▓[0m▄▄▀▀[33m▄▄▄▄[0;31m ▄[0;1;31;41m▒▒[0;31m▀[0;37m [0;1;30m██████[0;1;30;47m▓▓▒▒▒▒▒▒▒▓[0;1;30;40m██[0m
 ▄██[1;33;47m░░[0;1;33;40m [0m▄[1;33m [0m▀[1;33;47m░[0m█▄[33m▀████[0;1;31m [0;33m▄[0;1;31m [0;1;37m  [0;1;31m    [0;33m▀█████[0;1;31m [0;33m▀███████▄▄▄[0;37m▀▀▀[0;1;37m  [0;33m▄████[0;1;31m [0;31m▄[0;1;31;41m░░[0;31m▀ [0;1;30m█████████[0;1;30;47m▓▓▓▓▓▓▓[0;1;30;40m███[0m
 
---/cut//--
-ok, this is for aoh to give to his friend who runs iniquity I guess.
-aoh, I''m gonna get around to try to get sudden death another pic outline for
-me to shade for ya, woop
-
-werd to everyone in Avenge Cult, thanks for welcomeing me into the cult..
-and greetz to everyone that I know..
-this joint is by Sudden Death"Outline" and me Ball Tongue "Shading"[0m'
+--/cut//--[0m'

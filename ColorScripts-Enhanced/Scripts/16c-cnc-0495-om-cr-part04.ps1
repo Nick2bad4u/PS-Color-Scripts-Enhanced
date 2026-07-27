@@ -5,7 +5,7 @@
 # Source SHA-256: 16c83df50e2eb664143584706c711d43b25b23ca263d72fc943306fcaabaade5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OM-CR.ANS by Omega Red (CaNCeR Productions); released in cnc-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Corrupted Reality
 # SAUCE Author: Omega Red
 # SAUCE Group: CaNCeR Productions
@@ -35,14 +35,13 @@ Write-Host '
 
        [34m░ [0m  [34m░[0m [34m░░░▒▒▒▓▓▒▒▒▒░░▄▄▓▓▓▒▒▒░░░░▒▒▓▓▓▒▒▒░▓▒▒▓▒▓▒▒▓▓▓▓▒▒░░░░░ ░  ░[0m
 
-                    [1;34mritual [0;34mm[0;1;34memb[0;31me[0;1;34mr board   dvs m[0;31me[0;1;34mmbe[0;34mr[0;1;34m board  [0m
-                   [1;34msilverne[0;34mt[0;1;34m   [0;31md[0;1;34melusionet   art[0;31m [0;1;34mand h/p only[0m
+                    [1;34m       [0;34m [0;1;34m   [0;31m [0;1;34m               [0;31m [0;1;34m   [0;34m [0;1;34m        [0m
+                   [1;34m        [0;34m [0;1;34m   [0;31m [0;1;34m               [0;31m [0;1;34m            [0m
                       [34m ░[0m                              [34m░ [0m
        [34m░[0m   [34m░[0m [34m░░░░░░▒▒▓▓▓▒░[0m [1;34m2 o 9 . 2 2 3 . 5 8 7 9[0m    [34m▓▓▓▒▒░░░░░░░░[0m [34m░  ░[0m
                       [34m▓▒[0m                              [34m▒▓[0m
-                      [34m▒░[0m   [34ms[0;1;34mys[0;31m:[0;1;34m  phatality [0;31m[[0;1;34mrit[0;31m.[0;1;34mdvs[0;34m][0m  [34m░▒[0m
+                      [34m▒░[0m   [34m [0;1;34m  [0;31m [0;1;34m            [0;31m [0;1;34m   [0;31m [0;1;34m   [0;34m [0m  [34m░▒[0m
                 [34m░[0m [34m░░░░░░░[0m  [34ms[0;1;34mub[0;31m:[0;1;34m  black knight[0m        [34m░░░░░░░[0m [34m░[0m
                        [34m░[0m                              [34m░[0m
 
-       [34m░ [0m  [34m░[0m [34m░░░▒▒▒▓▓▒▒▒▒░░▄▄▓▓▓▒▒▒░░░░▒▒▓▓▓▒▒▒░▓▒▒▓▒▓▒▒▓▓▓▓▒▒░░░░░ ░  ░[0m
-             [1;30mansi^ömega[0;31mr[0;1;30med[0m@[1;30mcancer[0m'
+       [34m░ [0m  [34m░[0m [34m░░░▒▒▒▓▓▒▒▒▒░░▄▄▓▓▓▒▒▒░░░░▒▒▓▓▓▒▒▒░▓▒▒▓▒▓▒▒▓▓▓▓▒▒░░░░░ ░  ░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 68fb5fb9ef5aea289482d762c5051259bf0b8837a5ace339169da54a9998c853
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-BMS.ANS by Tarot (Eclipse&Blend); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Blood, milk & sky
 # SAUCE Author: Tarot
 # SAUCE Group: Eclipse&Blend
@@ -38,11 +38,4 @@ Write-Host '
 [30;43m░[0;33;40m▌[0;37;40m▐[0;1;37;47m░▀[0;1;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀tr[33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;43m▀[0;33;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;30;43m──[0;33;40m███████[0;1;31;43m░░░░[0;33m [0m
 [33m█▄▄▄▄▄█[0;30;43m _▄▄▄▄─────░────[0;33;40m████[0;1;31;43m░░░[0;33m██████████████████[0;30;43m [0;31;43m ░[0;33;40m███████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [30;43m░[0;33;40m▓[0;30;43m▀▀▀▀▀░[0;33;40m███████▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37;40m  [0;31;40m▄▄▄▄▄▄▄▄[0;1;31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31;41m▄▄▄▄▓███[0;1;31;47m▓▓▓[0;1;31;40m█[0;1;31;41m▄▄▄░[0;31m██[0m
-[37m-------------------------------------------------------------------------------[0m
-[1;37mWOOO SNOW SNOW SNOW!@ It''s the time of the year i do like! Well, anyways. [0mThis
-is for Tankgirl of Blend, who, according to Mice, is Corey''s evil twin sister.
-Above there''s an authentic view out from my window OR, from up to down, sky,
-milk and blood. Yeah. It''s strange in Finland, you only get two hours of pure
-daylight or something :)...
-
-tarrot/ECLIPZ&BLEND[0m'
+[37m-------------------------------------------------------------------------------[0m'

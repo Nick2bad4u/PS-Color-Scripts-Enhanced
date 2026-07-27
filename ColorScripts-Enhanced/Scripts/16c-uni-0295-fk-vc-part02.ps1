@@ -5,7 +5,7 @@
 # Source SHA-256: f746e30478ee0f89b5b953e8e4f33c2f395d804bac4dbb7975d6ae6680af89e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FK-VC.ANS by Flick (Union); released in uni-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Violent Crimes
 # SAUCE Author: Flick
 # SAUCE Group: Union
@@ -51,15 +51,15 @@ Write-Host '
 [1;30;40m  [0;1;35;45m█▓░ E P I N I C I O N   [0;30;45mA U S T R A L I A N   H E A D   Q U A R T E R S   [0;1;30;45m▒▒[0m
 [1;30;40m  [0;1;35;45m▓▒     R E V O L T   [0;30;45mA U S T R A L I A N   H E A D   Q U A R T E R S       [0;1;30;45m▒[0m
 [1;30;40m  [0;1;35;45m▓                                                                          [0;1;30;45m▒[0m
-[1;30;40m  [0;1;35;45m▒░    [0;30;45mSpecialising in NEW public domain files, large collection of         [0;1;30;45m▓[0m
-[1;30;40m  [0;1;35;45m▒  [0;30;45mcomputer art packs, demos, bbs software, magazines, music and sound.   [0;1;30;45m░▓[0m
+[1;30;40m  [0;1;35;45m▒░    [0;30;45m                                                                     [0;1;30;45m▓[0m
+[1;30;40m  [0;1;35;45m▒  [0;30;45m                                                                       [0;1;30;45m░▓[0m
 [1;30;40m  [0;1;35;45m░                                                                         [0;1;30;45m▒▓[0m
-[1;30;40m  [0;1;35;45m░   [0;30;45mNew files daily, supporting speeds 14400-28800 only, ratios enforced [0;1;30;45m░▓▓[0m
-[1;30;40m  [0;30;45mHome of Pulse Net, Melbourne Australia +61-3-562-1737 NUP: I_AM_AN_INSOMNIAC[0m
+[1;30;40m  [0;1;35;45m░   [0;30;45m                                                                     [0;1;30;45m░▓▓[0m
+[1;30;40m  [0;30;45m                                                                            [0m
 [30;40m  [0;1;35;45m░░░ ░           [0;30;45mBulletin Board Operators:  David and Andrew      [0;1;30;45m░  ░░▒▒▓▓██[0m
 [1;30;40m ▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m
 
-It may take a name to get into acid you may get into ice, but Union are now #1!
+                                                                               
 [1;35m▄▄▄▄▄▄▄▓▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▒[0m
-[1;30m▓[0;30;45munion[0;1;35;45mf[0;30;45munion[0;1;35;45mL[0;30;45munion[0;1;35;45mi[0;30;45munion[0;1;35;45mC[0;30;45munion[0;1;35;45mk[0;30;45munion union union[0;1;35;45mU[0;30;45munion[0;1;35;45mn[0;30;45munion[0;1;35;45mi[0;30;45munion[0;1;35;45mo[0;30;45munion[0;1;35;45mn[0;30;45munion[0;1;35;40m▓[0m
+[1;30m▓[0;30;45m     [0;1;35;45m [0;30;45m     [0;1;35;45m [0;30;45m     [0;1;35;45m [0;30;45m     [0;1;35;45m [0;30;45m     [0;1;35;45m [0;30;45m                 [0;1;35;45m [0;30;45m     [0;1;35;45m [0;30;45m     [0;1;35;45m [0;30;45m     [0;1;35;45m [0;30;45m     [0;1;35;45m [0;30;45m     [0;1;35;40m▓[0m
 [1;30;40m▒▀▓▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

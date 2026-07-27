@@ -5,7 +5,7 @@
 # Source SHA-256: d47feeee42b3752cea57b4ea93ff77f5f48f1c3badcdbc5d7751175f23905f64
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MST!END.ANS by Mist (sclr-22); released in sclr-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -42,10 +42,10 @@ Write-Host '
                                [31m▀▄███▄▀[0;37m  [0;1;37m▄[0m
                                  [31m▀█▀[0;37m  ▄[0;1;36m▀[0m
                                 ░    [1;30m▀[0m
-                                ▒ [1mg[0mood[1;30mbye[0m [1;36mSECULAR[0m [1;30m![0m
-                                ▓ [1mi[0m [1mc[0man[1;30m''t[0m [1mb[0me [1mi[0mn [1ms[0mo [1mm[0man[1;30my[0m [1ma[0mr[1;30mt[0m-[1ms[0mcen[1;30me[0m [1mg[0mroup[1;30ms[0m.
-                                █ [1mi[0m [1mc[0mhoos[1;30me[0m [1;36mSPIRAL[0m.
+                                ▒ [1m [0m   [1;30m   [0m [1;36m       [0m [1;30m [0m
+                                ▓ [1m [0m [1m [0m  [1;30m  [0m [1m [0m  [1m [0m  [1m [0m  [1m [0m  [1;30m [0m [1m [0m [1;30m [0m [1m [0m   [1;30m [0m [1m [0m    [1;30m [0m 
+                                █ [1m [0m [1m [0m    [1;30m [0m [1;36m      [0m 
                                 [1;30m█[0m
-                                [1;30m▓[0m [1mm[0me[1;30maby [0;1;37mi[0mn[1;30m [0;1;37mf[0mu[1;30mture [0;1;37mi[0;1;30m [0;1;37mc[0mo[1;30mme [0;1;37mb[0ma[1;30mck [0;1;37mi[0mn[1;30m [0;1;37ml[0mi[1;30mttle [0;1;37mg[0mu[1;30mest[0m
+                                [1;30m▓[0m [1m [0m [1;30m    [0;1;37m [0m [1;30m [0;1;37m [0m [1;30m     [0;1;37m [0;1;30m [0;1;37m [0m [1;30m   [0;1;37m [0m [1;30m   [0;1;37m [0m [1;30m [0;1;37m [0m [1;30m     [0;1;37m [0m [1;30m   [0m
                                 [1;30m▒[0m
                                 [1;30m░[0m'

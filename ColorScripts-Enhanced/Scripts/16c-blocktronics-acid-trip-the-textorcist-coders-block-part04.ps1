@@ -5,7 +5,7 @@
 # Source SHA-256: 7f043dd5c0e0db8faf88fa7f8eff705f47742d1de95f438b754400fff8f63aa7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: the textorcist - Coders Block.ANS by The Textorcist (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Coders Block
 # SAUCE Author: The Textorcist
 # SAUCE Group: blocktronics
@@ -54,10 +54,4 @@ Write-Host '
 [33m██[0;1;37;43m░▒░[0;33;41m▓[0;33;40m▌[0;1;30;40m  ▐[0m▒[1;30m [0;1;30;43m▓▓▓▓▓▓▓[0;1;30;40m████▓ ███▀▒▄▀▓██ █████▄▀▀▀[0;1;30;47m▓▓[0;1;30;40m█▓▄ [0;33m▀▌[0;1;30m▐[0;1;30;47m▓▓▓[0;1;30;40m█████▀ ▀▄▄█▌▐▓████[0;1;30;47m▓▓▓[0;1;30;40m█▓[0m
 [1;33;43m░░[0;33m█[0;1;37;43m░░░[0;33m [0;37m ░▒[0;1;30m █[0;1;30;43m▓▓▓▓▓▓[0;1;30;40m███[0;1;30;42m▓▓[0;1;30;47m▓▓[0;1;30;40m ▀▄█[0;1;30;47m▓▓[0;1;30;40m█▄▀ [0;1;30;47m▓▓[0;1;30;40m███▓▓░▀▀▄█ ▀▀▓▄ ▓▓▓[0;1;30;44m▓▓▓[0;1;30;40m██▓▓░ [0m░[1;30m▀▀[0m▒[1;30m ▓▓▓█████▓▓[0m
 [33m▓▓▓▓▓  [0;1;30m ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    ▒ ▓▓▓▓▓▓▓▓▓[0m
-[33m░░░░  [0;37m [0;1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m    [1;30m ░░░░░░░░░[0m
-
-[1;30m%%%[0m [1mansi[0;1;35m [0;1;37mportrait[0;1;35m [0;1;37mof[0;1;35m [0;1;37mmy[0;1;35m [0;1;37mdear[0;1;35m [0;1;37mfriend[0;1;35m [0;1;37mjustine,[0;1;35m [0;1;37mwho[0;1;35m [0;1;37mis[0;1;35m [0;1;37mnow undoubtedly the[0;1;35m [0;1;37mmost[0;1;35m [0;1;30m%%%[0m
-[1;30m%%%[0m [1mintriguing[0;1;35m [0;1;37mperson[0;1;35m [0;1;37mi[0;1;35m [0;1;37mhave[0;1;35m [0;1;37mmet,[0;1;35m [0;1;37mand[0;1;35m [0;1;37mwho[0;1;35m [0;1;37malso[0;1;35m [0;1;37mdidn''t[0;1;35m [0;1;37mget[0;1;35m [0;1;37mweirded[0;1;35m [0;1;37mout[0;1;35m [0;1;37mwhen[0;1;35m [0;1;37ma[0;1;35m [0;1;30m%%%[0m
-[1;30m%%%[0m [1mrandom[0;1;35m [0;1;37mbearded man asked[0;1;35m [0;1;37mif[0;1;35m [0;1;37mhe[0;1;35m [0;1;37mcould[0;1;35m [0;1;37mdraw[0;1;35m [0;1;37ma[0;1;35m [0;1;37mportrait[0;1;35m [0;1;37mof[0;1;35m [0;1;37mher[0;1;35m [0;1;37musing[0;1;35m [0;1;37mblocks[0;1;35m [0;1;30m%%%[0m
-
-  [1;30mansi artwork by[0;1;37m the textmode exorcist[0;1;30m of [0mblocktronics[1;30m ansi crew[0;1;31m  0x0F102013[0m'
+[33m░░░░  [0;37m [0;1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m    [1;30m ░░░░░░░░░[0m'

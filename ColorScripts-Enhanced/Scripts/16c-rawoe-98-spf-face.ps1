@@ -5,7 +5,7 @@
 # Source SHA-256: af88ef622edbf9a3ba146b9c6e9df02fed4d54e9b44d226781fa5cbefd338e89
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPF-FACE.ANS by [sPITFIRE] (pAng/w0e); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fAce?!
 # SAUCE Author: [sPITFIRE]
 # SAUCE Group: pAng/w0e
@@ -32,7 +32,4 @@ Write-Host '
                    [1;30m<[0;1;31msP[0;33mf[0;1;30m_[0m  [33m▀[0;1;31;43m▓▓[0;1;31;40m█████[0;1;31;43m▓[0;1;31;40m█████████[0;1;31;43m▓[0;1;31;40m████[0;1;31;43m▀[0;33m▀[0m
                            [33m▄[0;1;37m [0;33m▀▀▀▀▀[0;1;31;43m░▀▀[0;1;31;40m██████[0;1;31;43m▀[0;33m▀▀▀▀▀[0m
                           [1;31m▐[0;1;31;43m▓▒░[0;33m██[0;1;31;43m░[0;33m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31;43m░░[0;33m█[0m
-                          [30;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-
-
-     [1;37;40m" Eeeeughm... i''ll find some1 to give him that piece of jOhbb..."[0m'
+                          [30;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

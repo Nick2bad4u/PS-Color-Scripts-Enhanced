@@ -5,7 +5,7 @@
 # Source SHA-256: ec20824c932801c3bc93fd76f1e1bef4a974ae01d0c38b9f842585a9df013e94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAY-FL2.ANS by maytag man (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fluph_menu!
 # SAUCE Author: maytag man
 # SAUCE Group: air
@@ -33,4 +33,4 @@ Write-Host '
        [1;31;40m  [0;1;33;40m  ▐█[0;1;37;40m███[0;1;33;40m██[0;1;33;42m▓[0;1;33;40m█▄▄▄▄[0m                    [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m        [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m
            [1;33;40m▄[0;1;37;40m▄▌[0;1;33;40m [0;1;37;40m▌[0;1;33;40m██ ▌  ▀[0m                     [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m        [1;32;40mcommand ([0;1;36;40mxx[0;1;32;40m)[0m
  [1;36mh[0m     [1;33m▀ ▀ ▀█[0;1;37m███[0;1;33m████▄▄[0m                      [1;32mcommand ([0;1;36mxx[0;1;32m)[0m        [1;32mcommand ([0;1;36mxx[0;1;32m)[0m
-             [1;37m░░░[0;1;33m  ▀▀[0m                        [1;32mcommand ([0;1;36mxa[0;1;32m)[0m        [1;32mcommand ([0;1;36mxx[0;1;32m)[0m'
+             [1;37m░░░[0;1;33m  ▀▀[0m                        [1;32m         [0;1;36m  [0;1;32m [0m        [1;32m         [0;1;36m  [0;1;32m [0m'

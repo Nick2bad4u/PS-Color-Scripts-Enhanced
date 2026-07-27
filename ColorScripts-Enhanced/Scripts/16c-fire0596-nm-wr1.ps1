@@ -5,7 +5,7 @@
 # Source SHA-256: fa8352e42df0f06b6024bbe2c80514d92996beb0974a19056dd5008afb1064b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NM-!WR1.ANS by Numb (fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Warped Reality
 # SAUCE Author: Numb
 # SAUCE Group: fire
@@ -49,5 +49,4 @@ Write-Host '
 [1m  [0;1;46m▒[0;1;36;40m▄[0;1;37;40m ▀▀  ▀[0;1;36;40m▀[0;1;37;40m  [0;1;37;46m▒[0;1;36;40m▓[0;1;37;46m▓[0;1;37;40m [0;1;31;40m▀[0;1;31;43m░[0;1;31;40m███▄▀▀▀   ▀   ▀▀▀█[0;1;31;43m▓▓[0;33m█[0;1;31;43m░▒▒▓▓▒▒░[0;33m█▀▀[0;1;31m ▄▄▄▄[0;33m▀▀▀▀▀▀▀[0;1;31m▄▄▄[0;1;31;43m▓▓▓▓▓▓▓▓▓▓[0;1;31;40m  [0;33m [0m
 [1;37m   [0;1;36m▀▀[0;1;37;46m▒[0;1;37;40m▄▄  [0;1;36;40m▀[0;1;37;40m▀      [0m [1;31m▀[0;1;31;43m░[0;1;31;40m████▄▄      ▄██[0;1;31;43m▓▓[0;33m█[0;1;31;43m▒▒▓▓▒▒░[0;33m█▀[0m   [1;31m  [0;1;31;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;31;40m▀▀▀[0m
 [1m     [0m [1m [0m             [1;31m  ▀[0;1;31;43m▓▓▓[0;1;31;40m████████[0;1;31;43m▓▓[0;1;31;40m▀▀ [0;33m▀[0;1;31;43m░░[0;33m▀▀▀[0m       [1;31m   [0;1;31;43m▓▓▓▓▓▓▓▓▓▓▓▓[0;1;31;40m▀▀▀[0m       [1m  [0m
-                       [1;31m  ▀▀[0;1;31;43m▓▓▓▓▓[0;1;31;40m▀▀     [0m   [1m   [0m         [33m [0;1;31m   ▀▀▀▀[0;33m [0m             [1;37m    [0m
-                                                fanclub: ih8numb@cyberspace.org[0m'
+                       [1;31m  ▀▀[0;1;31;43m▓▓▓▓▓[0;1;31;40m▀▀     [0m   [1m   [0m         [33m [0;1;31m   ▀▀▀▀[0;33m [0m             [1;37m    [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ca74366910ea89e63adb125a24b8616442d78c5b49dd3591adb6e7a69083dcca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-HOOD.ANS by Inwire + Kingyo (MiSTiGRiS); released in mist0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Hood colly
 # SAUCE Author: Kurama and Inwire
 # SAUCE Group: MiSTiGRiS
@@ -52,11 +52,11 @@ Write-Host '
                  [30;44m ██[0;30;43m [0;1;31;43m▌▓■▄[0;30;43m [0;30;44m█[0;30;43m▀[0;30;44m▄▄[0;1;34;44m▓▀ ▓███▓███▓[0;30;44m  [0;30;43m█▀ [0;1;31;43m [0;30;43m▄▄▄▄▄▄▄ [0;1;31;43m■[0;30;43m [0;1;31;43m▀[0;30;43m  ▄███[0m
                  [30;44m█[0;1;31;43m▒[0;30;43m▐▌ [0;1;31;43m▀░▀[0;30;43m ▐▌[0;1;31;43m▄▌[0;30;43m ▀[0;30;44m▄  [0;1;34;44m■▀ ▀▀■[0;30;44m  [0;30;43m█▄▄█████████████▄█████[0m
 
-           [1;37;40mA nice short logo, just to[0m       [1;37;40mAnd to all the Mistigris [0m
-           [1;37;40mgive me some space to do [0m        [1;37;40mmembers.  Also, I changed my[0m
-[1;30;40m░[0m          [1mthis month''s greets.[0m             [1malias from [0;1;34mKurama [0;1;37mto [0;1;33mKingyo![0m      [1;30m ░[0m
-[1;30m░[0m          [1;37mGrim Reaper: It''s ALMOST done![0m   [1;37mIf I''m on your board, help [0m
-[1;30m▒░[0m         [1mCthulu: Now, there''s one more[0m    [1mme change my login name![0m          [1;30m░▒[0m
+           [1;37;40m                          [0m       [1;37;40m                         [0m
+           [1;37;40m                         [0m        [1;37;40m                            [0m
+[1;30;40m░[0m          [1m                    [0m             [1m           [0;1;34m       [0;1;37m   [0;1;33m       [0m      [1;30m ░[0m
+[1;30m░[0m          [1;37m                              [0m   [1;37m                           [0m
+[1;30m▒░[0m         [1m                             [0m    [1m                        [0m          [1;30m░▒[0m
 [1;30m▓▒[0m                 [1mfish![0m                                                      [1;30m▒▓[0m
 [1;30m█▓[0;1;30;41m▓[0m [1;30m▒[0m                                                 [1;37m-KG![0m                 [1;30m▒[0m [1;30;41m▓[0;1;30;40m▓█[0m
 [1;30;41m▓█[0;1;30;40m▓▄▓[0m                                                                      [1;30;40m▓▄▓█[0;1;30;41m▓[0m

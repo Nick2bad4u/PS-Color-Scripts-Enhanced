@@ -5,7 +5,7 @@
 # Source SHA-256: be54e3316d6e50b5b30428dfcbd04a601abb059a6eeaf10d7bb0516881df494c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DKNY-REV.ANS by davek (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ansi Revival
 # SAUCE Author: davek
 # SAUCE Group: Revival 2002
@@ -36,6 +36,4 @@ Write-Host '
               [31m▄▓░[0;30;41m▓░[0;31;40m▓[0;30;41m░[0;31;40m▓░[0m   [37;40m  [0m      [37;40m  [0;31;40m [0m                            [1;31;40m [0m    [1;33mDK[0;1;37mny[0m  ([1;33mr[0m)
              [31m ░[0;30;41m▓[0;31;40m  ░[0;30;41m▓[0;31;40m░░[0m            [37;40m  [0m
              [31;40m   [0m    [31;40m [0m
-[31;40m--[0m            [31;40m  [0m
-[1;37;40min ansi terms, this is what you call "dropping the ball". Hurray for zoidberg![0m
-               [31m [0m'
+[31;40m--[0m            [31;40m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f3289a377923d44459f9312770b80c5f995c471a9a9b6a22ea54802dfa3df808
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-MARDU.ANS by minotaur (mAidEN bRAZil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: marduk logo
 # SAUCE Author: minotaur
 # SAUCE Group: mAidEN bRAZil
@@ -34,6 +34,6 @@ Write-Host '
                   [1;33m  [0m               [1;33;45m██▓[0;1;31;45m▒[0m                           [1;33m▐[0;1;33;45m█▓▓[0;1;33;40m▌[0m
                                 [1;33m▄▄[0;1;33;45m▀[0;1;33;40m▀[0;35m▀[0m                            [1;33m [0;1;33;45m███[0;1;33;40m█[0m
                               [1;33m▄▀[0;35m▀[0m
-                             [1;33m▐▌[0m   +o leviathan
+                             [1;33m▐▌[0m               
                               [1;33m▀[0;1;33;45m▄[0;35m▄[0m
                                  [1;33m▀[0;35m▀[0;37m  [0;1;33m▄[0;35m▄[0m     [1;33m▄[0;35m▄[0;37m [0;1;33m▀[0;35m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b4d09af070295b53f9bf0d8217cd15c1d4621779ad9aa0349d01ee333dded040
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-HELL.ANS by Sephiroth + Colloss (sadist); released in soda05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hail satan
 # SAUCE Author: sephiroth&colloss
 # SAUCE Group: sadist
@@ -37,13 +37,5 @@ Write-Host '
                         [34m      [0;37m [0;1;33m▀▀▀▀▀▀▐[0;1;33;41m▓[0;1;33;40m▀▀▀[0;1;33;41m▒[0;1;33;40m▌▀▀▀▀▀▀[0m  [34m       [0m
                         [34m             [0;1;33m [0;1;33;41m▒[0;1;33;40m▌[0m  [1;33;41m░[0m
                   [34m      [0m               [1;33;41m░[0;31m ▐▌[0;37m [0m
-                        [31mHellium [0m       [31m▐▌▓[0;37m    [0;31m [0m   [31mE-mag[0m
-                                       [31m ▐ [0;37m [0;34m [0m
-
-[31m     [0m
-[37m  [0;31m [0;37m        100% percent original, ''cause we have too much imagination.[0m
-
-                        [37mOutlines   - Sephiroth [ sadist ][0m
-                        [37mBackground - cLs    [0m   [37m[ kibosh ][0m
-     [31m  [0m
-[37m      [0m'
+                        [31m        [0m       [31m▐▌▓[0;37m    [0;31m [0m   [31m     [0m
+                                       [31m ▐ [0;37m [0;34m [0m'

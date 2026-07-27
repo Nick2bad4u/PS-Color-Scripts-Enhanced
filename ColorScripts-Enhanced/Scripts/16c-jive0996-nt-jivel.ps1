@@ -5,7 +5,7 @@
 # Source SHA-256: 826c9cc66ad10a6b55b8787145c033f5defe79d9a9b325441e45f6cbea353d55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT-JIVEL.ANS by NighTrain (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: JiVE old skool ascii
 # SAUCE Author: NighTrain
 # Lines: 1-13
@@ -21,7 +21,4 @@ Write-Host '
            [1;37m([0;1;36m__[0;36m__     [0m [36m|[0m  [36m [0;35mI[0;1;35m_[0;36m  |   [0;35mI[0;1;35m_[0;36m  |[0m [36m)[0m [36m [0;35mI[0;1;35m_[0m [36m|[0m     [36m(    [0;35mI[0;1;35m_[0;36m __>__[0m
               [36m> [0m [36m [0;35mI[0;1;35m_[0m  [36m│[0m  [1;35mº[0;35m|[0;1;35m [0;1;37m [0;36m |  [0;1;35mº[0;35m|[0;1;35m [0;1;37m  [0;36m|/[0m  [1;35mº[0;35m|[0;1;35m [0m [36m|[0m [1;37m∙[0;35mI[0;1;35m_[0m  [36m\[0m [1;37m∙[0;1;35mº[0;35m|[0;1;35m [0;36m /    \[0m [1;30m░[0m
              [36m/   [0;1;35mº[0;35m|[0;36m  [0m [36m|[0m  [36m [0;35m∙[0;1;35m [0;36m  |   [0;35m∙[0;1;35m [0;1;37m∙[0;36m |    [0;35m∙[0;1;35m [0;36m | [0;1;35mº[0;35m|[0;36m    \  [0;35m∙[0;1;35m [0;36m [0m [36m [0m [36m   \[0m
-         [1;30m    [0;36m\________________|_______|_______________/___________/[0;1;30m [0m
-   [1;30m    [0m       [1;30m  [0m                                   [1;30m      NighTrain.jive[0m
-                 [36m [0m        [36m [0m                  [36m  [0m
-[36m   " y0u kaint[0m [36mUnd3rSt4nD 1t ,[0m [36my0u kaint[0m [36msp3ak 1t,[0m [36m y0u kaint 3vEn r34d[0m [36mit[0m [36m"[0m'
+         [1;30m    [0;36m\________________|_______|_______________/___________/[0;1;30m [0m'

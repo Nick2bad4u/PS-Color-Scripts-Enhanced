@@ -5,7 +5,7 @@
 # Source SHA-256: c966843254b1d162e03d59d9b64f86036c7f551a2443ce9d335e48d440310492
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-C4Li6UL4.ans by f1L7H (Gary's Shoes); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: CALiGULA
 # SAUCE Author: f1L7H
 # SAUCE Group: Gary's Shoes
@@ -50,17 +50,17 @@ Write-Host '
 [35m█████████████████[0;37m [0;35m█[0;37m [0;35m███████████████████████████████████████████████████▀[0m
 [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 
-[37m  [0;35mCaligula[0;37m [0;1;30misn''t[0m [1;30mCaligula''s[0m [1;30mreal[0m [1;30mname.[0m [1;30mGaius[0m [1;30mJulius[0m [1;30mCaesar[0m [1;30mAugustus[0m [1;30mGermanicus,[0m
-  [1;30mis his real name. The name ''Caligula'' is actually Latin for, ''[0;35mlittle boots[0;1;30m.''[0m
-  [1;30mThe[0m [1;30mnickname[0m [1;30mspawned[0m [1;30mfrom[0m [1;30mhis[0m [1;30mcreepy[0m [1;30mmother[0m [1;30mmaking[0m [1;30mhim[0m [1;30mwear[0m [1;30ma[0m [1;30mchild''s[0m [1;30msized[0m
-  [1;30mRoman[0m [1;30mmilitary[0m [1;30moutfit[0m [1;30mwhen he traveled with[0m [1;30mhis[0m [1;30mfather[0m [1;30mon[0m [1;30mcampaigns.[0m
-  [1;30mThis[0m [1;30mincluded[0m [1;30mpint-sized[0m [1;30msoldiers[0m [1;30msandals[0m [1;30mlike[0m [1;30mthe[0m [1;30mone[0m [1;30mabove.[0m [1;30mThe[0m [1;30msoldiers[0m
-  [1;30mwould[0m [1;30mhysterically[0m [1;30mrefer[0m [1;30mto[0m [1;30mhim[0m [1;30mas[0m [1;30m''Caligula''[0m [1;30mbecause[0m [1;30mof[0m [1;30mhis[0m [1;30mmini-sandals.[0m
+[37m  [0;35m        [0;37m [0;1;30m     [0m [1;30m          [0m [1;30m    [0m [1;30m     [0m [1;30m     [0m [1;30m      [0m [1;30m      [0m [1;30m        [0m [1;30m           [0m
+  [1;30m                                                              [0;35m            [0;1;30m  [0m
+  [1;30m   [0m [1;30m        [0m [1;30m       [0m [1;30m    [0m [1;30m   [0m [1;30m      [0m [1;30m      [0m [1;30m      [0m [1;30m   [0m [1;30m    [0m [1;30m [0m [1;30m       [0m [1;30m     [0m
+  [1;30m     [0m [1;30m        [0m [1;30m      [0m [1;30m                     [0m [1;30m   [0m [1;30m      [0m [1;30m  [0m [1;30m          [0m
+  [1;30m    [0m [1;30m        [0m [1;30m          [0m [1;30m        [0m [1;30m       [0m [1;30m    [0m [1;30m   [0m [1;30m   [0m [1;30m      [0m [1;30m   [0m [1;30m        [0m
+  [1;30m     [0m [1;30m            [0m [1;30m     [0m [1;30m  [0m [1;30m   [0m [1;30m  [0m [1;30m          [0m [1;30m       [0m [1;30m  [0m [1;30m   [0m [1;30m             [0m
 
-  [1;30mThis[0m [1;30mis[0m [1;30man[0m [1;30mintact[0m [1;30mRoman[0m [1;30mmilitary[0m [1;30msandal[0m [1;30mfrom[0m [1;30mthat[0m [1;30mera[0m [1;30mfound[0m [1;30mat[0m [1;30mthe[0m [1;30mbottom[0m
-  [1;30mof[0m [1;30ma[0m [1;30mwell.[0m [1;30mWord[0m [1;30mup[0m [1;30mto[0m [1;30mMary[0m [1;30mBeard.[0m
+  [1;30m    [0m [1;30m  [0m [1;30m  [0m [1;30m      [0m [1;30m     [0m [1;30m        [0m [1;30m      [0m [1;30m    [0m [1;30m    [0m [1;30m   [0m [1;30m     [0m [1;30m  [0m [1;30m   [0m [1;30m      [0m
+  [1;30m  [0m [1;30m [0m [1;30m     [0m [1;30m    [0m [1;30m  [0m [1;30m  [0m [1;30m    [0m [1;30m      [0m
 
 
-                       [1;30mShoe Betcha![0m
-                            [1;30m- Al Bundy (AKA: Dr. Shoe)[0m
+                       [1;30m            [0m
+                            [1;30m                          [0m
                                           [1;30m555-SHOE[0m'

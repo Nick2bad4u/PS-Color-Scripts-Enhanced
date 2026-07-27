@@ -5,7 +5,7 @@
 # Source SHA-256: 1afd636eb1e5ef277a7bbc970bd93769c2759acff5030521452b9dc08ab2e625
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-DEFL2.ANS by Mangafan (dvt-a002); released in dvt-a002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -44,19 +44,19 @@ Write-Host '
       [1;33;42m▓▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m   [1;33;42m▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓[0m
        [1;33;42m▓▓▓▓▓▓▓▓[0m                                    [1;33;42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [32m================================================================================[0m
-[1;33m DEFLINE 2 is coming soon... You read the first one, and you must see it again![0m
+[1;33m                                                                               [0m
 
-  [1;33mAnd here is another quick ANSI this time for DEFLINE 2 (the disk mag that will[0m
-  [1;33mbe coming soon... I dont know when, but hopefully[0m [1;33msoon). In DEFLINE 2, you [0m
-  [1;33mwill find even more great articles (even sum more from me), and great music[0m
-  [1;33mto kiss your brain goodbye. Um, would anybody have a good PC (better than my [0m
-  [1;33m386) that they don''t want[0m [1;33mand would like to give me... propably no, hmmmmmmm.[0m
-  [1;33mWell, go ans see the rest of my great (!?!) ANSI art (damn, I wish I could[0m
-  [1;33mmake sum VGA art too...), and may we meet again another day, C U... :)[0m
+  [1;33m                                                                              [0m
+  [1;33m                                                 [0m [1;33m                         [0m
+  [1;33m                                                                           [0m
+  [1;33m                                                                             [0m
+  [1;33m                         [0m [1;33m                                                   [0m
+  [1;33m                                                                          [0m
+  [1;33m                                                                      [0m
 [32m================================================================================[0m
                                                        [37m [0;1;33m/\/\ /┤ ∩ Ç /┤ ƒ /┤ ∩[0m
-                           [1;33mFor questions, contact...[0m
+                           [1;33m                         [0m
 
-                                [1;33mBBS: Ravebase[0m
-                               [1;33mSysop: Maverick[0m
+                                [1;33m             [0m
+                               [1;33m               [0m
                            [1;33mTel: +41(0)22-348-5521[0;1;34m [0m'

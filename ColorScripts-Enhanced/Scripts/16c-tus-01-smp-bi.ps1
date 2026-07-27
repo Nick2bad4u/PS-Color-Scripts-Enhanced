@@ -5,7 +5,7 @@
 # Source SHA-256: bab3f8aa93efaca67cc7a6af2aa26fd85531779ab97f50502c0cb71cf99c2d9f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-BI.ANS by Shrimp (Foliage); released in tus-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bi
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
@@ -38,6 +38,5 @@ Write-Host '
 [36m$$[0;1;36m$$S[0;36ma._[0m    [34m`┘.[0;37m  [0;34m`?#[0;1;34m┐,.[0m   [35m`[0;1;35m?$[0;35mb[0m        [35m ?[0;1;35m$$$$$$$[0;35mP  [0;37m [0;34m.[0;1;34mP[0;34m''[0;37m [0;32m j[0;1;32m$$$[0;32mP''[0;37m  [0;34m.''[0m    [35mj[0;1;35m$[0;35mP''[0;37m  [0;34m.[0m
 [36m$$$[0;1;36m$$$$$S#a[0;36m,.  [0;34m`[0;37m [0;36m . [0;35m [0;34m`[0;1;34mⁿ$[0;34mb[0;35m [0m   [1;35m?[0;35m;[0m    [35m,┌[0;1;35m∟#$S*└ⁿ[0;35m"~ [0;37m  [0;35m [0;34m`[0;35m [0;37m  [0;32m.\$[0;1;32m$$[0;32m:[0;37m  [0;34m.[0m   [35m ,*└`[0m      [36m_.,[0m
 [36m$$$$$[0;1;36m$$$$$[0;1;33m$$[0;1;36m$$[0;36mb[0;37m  [0;36m,$[0;1;36m$[0;36m;[0;37m [0;34m ⌡''[0m   [35m.''[0;37m  [0;35m,*└[0;1;35mⁿ"[0;35m^~  [0;1;34m_.,▬┐[0;34m∟*`[0;35m [0;37m [0;32m,a#$[0;1;32m$$$$b[0;32m. [0m    [35m [0m   [36m_.,┐[0;1;36mg#$$$[0;36m$[0m
-                      [34m`[0m       [35m .[0m    [34m,*┘[0;1;34mⁿ"^[0;34m~[0m                      [36m [0;32m [0;1;37mShrimp[0;32mFoliage[0m
-                            [35m  [0m    [34m.[0m
-[1;37mBi[0m OR NOT TO BE[0m'
+                      [34m [0m       [35m  [0m    [34m  ┘[0;1;34m   [0;34m [0m                      [36m [0;32m [0;1;37m      [0;32m       [0m
+                            [35m  [0m    [34m.[0m'

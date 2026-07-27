@@ -5,12 +5,12 @@
 # Source SHA-256: 9c8fa00e4a241b9f9b128b20a53f45baca2f0173e264f25bc9d1d0db744ce650
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM-SENSE.ANS by Avenging Angel + Aesthetic (sense14j); released in sense14j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
-                                         [1m░   [0m         [1;30mthe madness has returned..[0m
+                                         [1m░   [0m         [1;30m                          [0m
 [36m█[0;1;30;46m▀▀[0;1;30;40m███[0;1;30;47m▓▓[0;1;30;40m█▓░   [0m  [1;30m░▓█[0;1;30;47m▓▓▓[0;1;30;40m███[0;1;30;46m▀▀▀▄[0;1;30;40m█▓▓███████[0m  [1m▓░ [0m [1;30m██[0m [1m░[0m [1;30m ▀[0;1;30;46m▄[0;1;36;46m▀▌[0;1;30;46m ▒[0;1;30;40m██▀█[0;1;30;46m▒[0;1;36;46m  [0;1;30;46m   [0;1;30;40m█████████[0;1;30;46m  [0;1;36;46m██[0m
 [1;30;40m█[0;1;30;46m [0;1;36;46m░ [0;1;30;46m ▀▀[0;1;30;40m███▓    [0m▄   [1;30m▀▀▀▀[0;1;30;46m▄▄▄[0;1;30;40m███[0;1;30;46m▀[0;1;30;40m█▒▒█▀▀▄[0;36m▄▄ [0;37m [0;1;37;47m▓[0;1;37;40m▓[0m  [1;30;46m ▀[0m [1m▓[0m [1;30m▒▒[0m        [1m [0;1;30m▀[0;1;30;46m▄ [0;1;36;46m▀██▄[0;1;30;46m▀[0;1;30;40m██████[0;1;30;46m  [0;1;36;46m█▀[0;1;30;46m▄[0m
 [1;30;40m█[0;1;30;46m [0;36m█[0;1;36;46m░░▓█  [0;1;30;46m██[0;1;30;40m▓░ [0;1;37;40m [0;1;30;40m▀[0m█[1;47m▄[0;1;40m▄▄▄[0m▄[1;30m▄[0;1;37m  [0;1;30m▀▀█[0;1;30;46m▄█[0;1;30;40m▀▀▄▄[0;1;30;46m▀  [0;1;36;46m▀[0;1;30;46m▄[0;36m [0;1;37m ██  [0;1;30;46m▄ [0;1;37;40m █ [0;1;30;40m▓▓[0;1;37;40m   ▓▓▓▓▓    [0;1;30;40m▀[0;36m▀▀[0;1;30;46m▄  [0;1;30;40m███[0;1;30;46m▀ [0;1;36;46m▀[0;1;30;46m▄[0;36m▀[0;1;30m▀▄[0m

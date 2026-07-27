@@ -5,7 +5,7 @@
 # Source SHA-256: b3831b7c8c52c2b3352e43bca1b4186a6908f513640fabaa37abbe41871d8bf7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HB-EGGS.ANS by Holybone (acne002); released in acne002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -32,5 +32,4 @@ Write-Host '
    [1m▐███████▄███████████▐███████████[0m [1m████████████[0;1;47m▓▒░[0;1;40m▒[0m▓███       [1;30mP[0;32ma[0;1;30mCK [0;32m#[0;1;30m2[0m [1m         [0m
    [1m█████████▀▄▀████████▌███████████▐█████████████[0;1;47m▓▒░[0;1;40m▒[0m▓██▌      [1;32m~~~~~~~[0m
    [1m███████████████████▄▀██████████████████████████[0;1;47m▓▒░[0;1;40m▒[0m▓█▌
-   [1m▐███████████████████████████████████████████████[0;1;47m▓▒░[0m██   [1;32ma([0;32mc[0;1;32m)Ne R[0;32me[0;1;32mL[0;32me[0;1;32maS[0;32me[0;1;32mZ[0m
-    [1m   [0m                                              [1m  [0m'
+   [1m▐███████████████████████████████████████████████[0;1;47m▓▒░[0m██   [1;32ma([0;32mc[0;1;32m)Ne R[0;32me[0;1;32mL[0;32me[0;1;32maS[0;32me[0;1;32mZ[0m'

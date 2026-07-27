@@ -5,7 +5,7 @@
 # Source SHA-256: 8a8446827eed3c785c2fdb7252a5c7d7236a9fa92833a97014625f0c1e43a8f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ODB-JI1.ANS by Ol' Dirty Bastard (READ THE INI FILE); released in dsco0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jello Insanity
 # SAUCE Author: Ol' Dirty Bastard
 # SAUCE Group: READ THE INI FILE
@@ -49,6 +49,6 @@ Write-Host '
 [1;30m■▄ ▄▄ ▄▄███▌▐███ ███▌▐███ ███▌▐██▄▄ ▄▄ ▄■   [0;1;37m█[0m         [1;37m▄▀▀ ▄▄▀[0m
 [1;37m [0;1;30m■  [0;35mol [0;1;30m▐███▌▐███▌███▌▐███▌███▄██▄  [0;35m▄▄▄▄ [0;1;30m■ [0;35m▄  [0;1;37m▀▄▄    ▄▀   █[0m
 [1;37m  [0;35mdirty [0;1;30m███▌▐███ ███▌▐███ ███▌▐██▌ [0;35m▌   ▀▀▀[0m      [1;37m▀▀▄▀    █[0m
-[1;37m [0;35mbastard [0;1;30m▀██▐█▀ ▄████▐█▀ ▄████▐█▀ [0;35m█[0m                    [1;37m█[0m
+[1;37m [0;35m        [0;1;30m▀██▐█▀ ▄████▐█▀ ▄████▐█▀ [0;35m█[0m                    [1;37m█[0m
 [1;37m  [0;35m▄ ▄  ▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀[0m                      [1;37m█[0m
                                                          [1;37m▀[0m'

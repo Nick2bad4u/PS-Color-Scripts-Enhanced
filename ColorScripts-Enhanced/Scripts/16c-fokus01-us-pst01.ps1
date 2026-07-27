@@ -5,7 +5,7 @@
 # Source SHA-256: e8e88b9d7184c00226e3de79a58d36e1b43550f828eb91d8b9d109d3982cbef0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PST01.ANS by Mr Wrong + Trippah (Fokus fonting); released in fokus01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Polyester
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Fokus fonting
@@ -36,6 +36,4 @@ Write-Host '
 [1;33m▀[0;1;33;43m▀[0;1;37;40m [0;34m▒[0;1;37m [0;1;33m▄[0;33m▄[0;1;37m [0;34m▀[0;33m▄[0;1;33;43m▐[0;1;37;43m███[0;1;33;43m▄[0;33m▄[0m    [33m▀[0;1;33;43m▀[0m░[1;33m [0;1;37m [0;1;33m▄[0;1;37;43m███[0;1;33;43m▄[0;1;33;40m▄[0;1;33;43m▀[0;34m ░[0;33m░[0;1;33;43m▄▄[0;1;33;40m▄[0;33m▄ [0;34m▀[0;1;36m▀[0;34m▄[0;36m▄[0;1;37m  [0;33m▄▄[0;1;33;43m▄[0;1;30;43m▄[0;1;33;40m▀▀[0;33m▀[0;1;30m▀[0;33m ▄[0;1;33m▄[0;1;33;43m▄[0;1;37;43m███[0;1;33;43m▄[0;33m▄▀[0;1;33m▀▀[0;1;33;43m▀░[0;33m▄[0;1;33m▄▄[0;1;37;43m██[0;1;33;43m▄[0;33m▄ [0;1;33m▀[0;33m▀  [0m
 [33m  [0;37m [0;34m░[0;1;30m▄[0;33m▀▀[0;1;33;43m▀███▄[0;33m▄[0;1;33;43m█▄[0;33m▄▄[0;1;30m▄[0m        [33m▀[0;1;33m▀[0;1;33;43m▀██[0;33m▌[0;1;37m    [0;33m▀[0;1;33m▀▄[0;33m▄[0;1;37m    [0;34m▀[0;1;37m [0;34m▄[0;1;37m  [0m   [33m▄[0;1;33m▄[0;33m▀[0;1;33m▀[0;33m▀[0;37m [0;33m▄[0;1;33;43m▀[0;1;33;40m▀▀▀[0;1;33;43m▄[0;1;33;40m▄[0;33m▄[0m    [33m▀[0;1;33m▀[0;33m▀▄▄    [0m
       [1;30m▄▄[0;33m▀[0;1;33m▀[0;33m▄[0;1;33m▄[0;33m▌[0m              [1;30m▀▀[0;33m [0;37m [0;33m▀[0;37m [0;1;30m▄[0m      [33m▀[0;37m [0;33m▄[0m       [33m▀[0m         [33m▀■ [0m    [33m▀▀[0;37m [0;33m▄[0m    [33m▀▀[0;37m [0;33m▄[0m
-         [1;30m▀▀[0m [33m▀[0;37m [0;33m▄[0m                  [1;37mP[0m o l y e [1ms[0m [1mt[0m e r            [33m▀[0m
-                                                   [1;30moriginal outline[0m [1;30mby Trippah[0m
-                                 [1;30mfucking ups, background[0m [1;30m& shading by[0m [1;30mMr.Wrong[0m'
+         [1;30m▀▀[0m [33m▀[0;37m [0;33m▄[0m                  [1;37mP[0m o l y e [1ms[0m [1mt[0m e r            [33m▀[0m'

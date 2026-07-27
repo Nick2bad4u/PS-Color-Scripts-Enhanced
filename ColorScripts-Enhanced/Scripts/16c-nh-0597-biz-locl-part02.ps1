@@ -5,7 +5,7 @@
 # Source SHA-256: 33ee3bf72f4eb0a2403ce6f2ff06c2e6b2031bf77dcd94c65a5d29a46836ed1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-LOCL.ANS by bizzarro (nH!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bizzarros logocolly #1
 # SAUCE Author: bizzarro
 # SAUCE Group: nH!
@@ -54,5 +54,4 @@ Write-Host '
                       [1;31m▀▀█▄[0;1;31;47m▓▓[0;1;31;40m▀[0m
                           [1;31m░░ [0m
 
-----((e)nter a message for funeral fog)-----------------------------------------[0m
-'
+----((e)nter a message for funeral fog)-----------------------------------------[0m'

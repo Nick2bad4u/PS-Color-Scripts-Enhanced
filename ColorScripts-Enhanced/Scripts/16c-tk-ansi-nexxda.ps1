@@ -5,7 +5,7 @@
 # Source SHA-256: b3f9ffca5ff40619b1d8a72bd8d69039aaf5953f5ae334c944b72c3791010a86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NEXXDA.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Final Fantasy BBS Ad
 # SAUCE Author: Tank
 # SAUCE Group: NeXX
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30;47m                               FINAL FANTASY♦WHQ                                [0m
+[30;47m                                                                                [0m
 [37;44m██[0;1;37;44m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;47m▄ [0;30;47m  (713)580-9402    [0;1;37;47m▄[0;1;37;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;44m█[0;30;47m [0m
 [37;44m█▓[0;1;37;44m▓[0;1;34;44m╬╬╬╬╬╬╬╬╬[0;1;34;40m▓[0;1;34;44m╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬▌ [0;1;37;44m▀[0;1;37;47m▌ ▄[0;1;37;44m▀▀[0;1;37;47m▌ ▄[0;1;37;44m▀[0;1;37;47m▌▄[0;1;37;44m▀[0;1;37;47m▌▄[0;1;37;44m▀[0;1;37;47m▄[0;1;37;44m▀[0;1;37;47m▄▐[0;1;34;44m █╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬[0;1;34;40m▓[0;1;34;44m╬╬╬╬╬╬╬╬[0;1;37;44m ▓[0;44m▓[0;30;47m [0m
 [37;44m▓▒[0;1;37;44m▒[0;1;34;44m╬╬╬╬╬╬╬╬[0;1;34;40m▓▒▓[0;1;34;44m╬╬╬╬╬╬╬╬╬╬╬╬╬╣[0;1;34;40m▀[0;1;34;44m▌ [0;1;37;44m▐▀[0;1;34;44m   [0;1;37;44m▐▀[0;1;34;44m  [0;1;37;44m▐[0;1;34;44m  [0;1;37;44m▀▌ [0;1;34;44m   [0;1;37;44m▌[0;1;34;44m▐╠╬╬╬╬╬╬╬╬╬╬╬╬╬╬[0;1;34;40m▓▒▓[0;1;34;44m╬╬╬╬╬╬╬[0;1;37;44m ▒[0;44m▒▓[0m

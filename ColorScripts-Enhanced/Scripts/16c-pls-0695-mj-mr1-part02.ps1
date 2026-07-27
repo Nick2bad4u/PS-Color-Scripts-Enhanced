@@ -5,7 +5,7 @@
 # Source SHA-256: 3bf5bd1bb2888f33eaa6cf8c65b4dda9f0eae639da596f5825e0273fa5a26ddc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ-MR1.ANS by Mojo (PuLSE); released in pls-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Magicians Relm
 # SAUCE Author: Mojo
 # SAUCE Group: PuLSE
@@ -61,7 +61,7 @@ Write-Host '
               [1;31m.[0;31mMagicians Relm[0;1;31m.[0m                     [1;32m█[0;1;32;42m▓▓▒▒░░[0;32m██▌[0m
                 [1;31m.[0;31m2 node 28[0;1;31m.[0;31m8[0;1;31m.[0m                      [1;32m▐[0;1;32;42m▓▓▒▒░░[0;32m██▌[0m
               [1;31m.[0;31mD[0;1;31mi[0;31mV[0;1;31mi[0;31mNE World Hq[0m                      [1;32m█[0;1;32;42m▓▒▒░░ [0;32m█▌[0m
-      [1;31m.[0;31mShockwave pro bbs 913 beta site[0;1;31m.[0m             [1;32m▐[0;1;32;42m▓▒▒░░[0;32m██[0m
+      [1;31m [0;31m                               [0;1;31m [0m             [1;32m▐[0;1;32;42m▓▒▒░░[0;32m██[0m
                [1;31m.[0;31m913[0;1;31m.[0;31m438[0;1;31m.[0;31m8733[0;1;31m.[0m                        [1;32m▀[0;1;32;42m▓▒▒░░[0;32m█[0m
                                                        [1;32m▀[0;1;32;42m▓▒░[0;32m█▌[0m
-          [31m..mojo.. [[0;1;31mPuLSE[0;31m] ..mojo..[0m                       [1;32m▀[0;32m▀▀[0m'
+          [31m          [0;1;31m     [0;31m          [0m                       [1;32m▀[0;32m▀▀[0m'

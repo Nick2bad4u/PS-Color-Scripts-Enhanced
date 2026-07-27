@@ -5,7 +5,7 @@
 # Source SHA-256: 9fb6316ab67923876302384500bee5f491938f0c32e8cc3fd25cac202d7b6984
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BR-ENDOR.ANS by beerfull (maiden); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Endor logo
 # SAUCE Author: beerfull
 # SAUCE Group: maiden
@@ -35,13 +35,13 @@ Write-Host '
 
 [1;30;40m─<beerfull@hotmail.com>-─-─-──--─-─-─-─-─-─-─--─-─-─-----─-──--─--────────-──-─-[0m
 
-[1;35m<[0;35mdopi3[0;1;35m> [0;1;30mCoeh beer, me come aeh![0m
-[1;35m<[0;35mbeerfull[0;1;35m>[0m [1;30mPo, eu nao sou chegado em comer homem [0m
-[1;35m<[0;35mdopi3[0;1;35m>[0m [1;30mcoeh po... intao deixa eu te pagar um bola gato?[0m
-[1;35m<[0;35mbeerfull[0;1;35m> [0;1;30mporra eu nao sou CHEGADO nessas boiolices!!!![0m
-[1;35m<[0;35mdopi3[0;1;35m>[0m [1;30mtu eh mo vacilao... intao faz um logo pra minha bbs...[0m
-[1;35m<[0;35mbeerfull[0;1;35m>[0;1;30m qual o nome?[0m
-[1;35m<[0;35mdopi3[0;1;35m>[0m [1;30mendor[0m
-[1;35m<[0;35mbeerfull[0;1;35m>[0;1;30m falo![0m
+[1;35m [0;35m     [0;1;35m  [0;1;30m                       [0m
+[1;35m [0;35m        [0;1;35m [0m [1;30m                                      [0m
+[1;35m [0;35m     [0;1;35m [0m [1;30m                                                [0m
+[1;35m [0;35m        [0;1;35m  [0;1;30m                                             [0m
+[1;35m [0;35m     [0;1;35m [0m [1;30m                                                      [0m
+[1;35m [0;35m        [0;1;35m [0;1;30m             [0m
+[1;35m [0;35m     [0;1;35m [0m [1;30m     [0m
+[1;35m [0;35m        [0;1;35m [0;1;30m      [0m
 
 [1;30m─-──--─-─-─-─-─-─-─--─-──-─-──--─-─-─-─-─-─-─--─-─-─----─<beerfull@hotmail.com>-[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: edd01eb4fcca7584f255e62069a3abec5de262d780158cfba85065c4117bacde
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-SILK.ANS by Eerie (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Silk
 # SAUCE Author: Eerie
 # SAUCE Group: Samsara
@@ -60,8 +60,4 @@ Write-Host '
 █[1;47m░▀[0;1;40m███████████████████[0;1;47m▀▀░▐[0;1;40m████████[0;1;47m▐[0;1;40m███████[0;1;47m▀[0;1;40m█[0;1;47m▄[0;1;40m███████[0;1;47m▀░▐[0;1;40m██████[0;1;47m▀▀[0;30;47m░[0;1;37;40m████████████[0;1;37;47m▀▀[0;30;47m░[0m
 [30;47m░[0;37;40m███████████████████████[0;30;47msilk  ops: iceage  888-y3w-w15h[0;37;40m███████████████████████[0;30;47m░[0m
 [30;47m▒[0;37;40m█████████████████████████████████████████████████████████████████████████████[0;30;47m▒[0m
-[30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-
-[30;40m  [0;36;40mansi by [0;1;36;40meerie [0;36m([0;1;36msamsara[0;36m).  100% original, from scratch, directly in thedraw.[0m
-[36m  notice how those girls have normal-sized breasts, & don''t look like whores.[0m
-                  [36mgoddammit, what the hell''s wrong with me?!@[0m'
+[30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

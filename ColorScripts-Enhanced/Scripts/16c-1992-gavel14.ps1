@@ -5,7 +5,7 @@
 # Source SHA-256: ae44366a46a540fb92df5604631b8e4684ca4d4aa876fe09f17d52dbc2dd1e3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GAVEL14.ANS by Smooth (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
@@ -45,8 +45,8 @@ Write-Host '
 [1;31;40m█▄▀▀███▄[0;1;35;40m▀█[0;35m███[0;1;35m████[0;1;35;45m [0;1;35;40m███████▐████▌██[0;1;35;45m [0;1;35;40m██[0;1;35;45m▄[0;1;35;40m██[0;1;35;45m▄[0;1;35;40m███████[0;1;35;45m▄[0;1;35;40m██████[0;1;35;45m  ▄[0;1;35;40m██[0;1;35;45m▄[0;1;35;40m██[0;1;35;45m██[0;1;35;40m██████[0;1;35;45m▀▀▄[0;1;35;40m▀▀▀▀[0m
 [1;31;40m██▀[0;1;35;40m▄▄[0;1;31;40m▀▀▀[0;1;35;40m▐███[0;35m██[0;1;35m███████████▌████ ▀▀██████▀▄█▀▀   ▀████████▀ ▀▀▀▀▀[0m     ▀▀█[1;47m▄[0m█[1;47m▄[0m███
 [1;31m▀ [0;1;35m▄[0;1;35;45m▄[0;1;35;40m███▀▀▀▀▀▀█[0;35m█[0;1;35m██▀▀[0m       [1;35m▀█▀[0m      [1;35m███[0m            [1;35m▀▀██▀▀[0m               █[1;47m▓█[0m█[1;47m█[0m█
-[45m [0;1;35;45m▄▀[0;1;35;40m███  [0;1;32;40mT[0;32mhe [0;1;32mDu[0;32mnge[0;1;32mon B[0;32mBS [0;1;32m-=- 8 o [0;32m8 4 5[0;1;35m▌[0;32m6 4 [0;1;32mo 1 1 -=- Un[0;32mDerWor[0;1;32mLd N[0;32met[0m      [1;37;47m░▒▓▐▌[0m
-[1;37;45m [0;1;35;40m██▀▀[0m      [1;32;40mRu[0;32mnni[0;1;32mng Vi[0;32mSiON[0;1;32m-X V.[0;32m9[0;1;32m7α at sp[0;32mee[0;1;32mdz of 240[0;32m0-14[0;1;32m.4k ba[0;32mud[0m          [1;37;47m░▒▓ ▌[0m
+[45m [0;1;35;45m▄▀[0;1;35;40m███  [0;1;32;40m [0;32m   [0;1;32m  [0;32m   [0;1;32m    [0;32m   [0;1;32m        [0;32m     [0;1;35m▌[0;32m    [0;1;32m            [0;32m      [0;1;32m    [0;32m  [0m      [1;37;47m░▒▓▐▌[0m
+[1;37;45m [0;1;35;40m██▀▀[0m      [1;32;40m  [0;32m   [0;1;32m     [0;32m    [0;1;32m     [0;32m [0;1;32m        [0;32m  [0;1;32m         [0;32m    [0;1;32m      [0;32m  [0m          [1;37;47m░▒▓ ▌[0m
 [1;35;45m▀[0;1;35;47m█[0;1;35;40m██▄[0m                       [1;35;40m█▌[0m                                          [1;37;47m░▒▓▐▌[0m
 [1;37;47m [0;1;35;47m▄[0;1;35;40m█████[0m                    [1;35;40m▐▀[0m                       [1;35;40m██[0m     [1;33;40mSmooth[0m       [1;37;47m░▒▓▐▌[0m
 [1;37;47m  [0;1;35;47m▄[0;1;35;40m██████[0m                  [1;35;40m■[0m                        [1;35;40m▄ [0;1;33;40m(C)1992-iCE/AAi   [0;1;37;47m░▒▓▐▌[0m

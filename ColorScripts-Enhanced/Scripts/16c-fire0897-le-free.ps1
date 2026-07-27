@@ -5,7 +5,7 @@
 # Source SHA-256: 8310064f06082e7c9294f19e19b737168339a881daec8248ba2422fc1161fcf5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LE-FREE.ANS by leo! (fire); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: free impression
 # SAUCE Author: leo!
 # SAUCE Group: fire
@@ -41,8 +41,6 @@ Write-Host '
 [1;36;40m"[0;1;35;40m ░░[0m [1;34;44m░░[0;31;44m░[0;1;36;44m▒▓▓▓[0;31;44m▓[0;1;31;44m▓▓[0m [1;33m?[0m [1;44m▓▒▒░[0m [1;44m░[0m        [1;31;44m░░░[0;1;34;44m░[0;1;34;42m▓▓░[0;1;30;40m ▀▀[0m▀▀▀▀▀[1;30m▀▀[0m   [31m░░[0;36m\\[0;37m [0;31m ▀▀[0;34m [0;30;44m▓▓[0;37;40m  [0;34;40m,,[0;1;35;40m§§!!$[0m  [30;44m▓▓[0m
 [1;36;40m!!§§[0;1;35;40m$$[0m  [1;36;44m░░[0m               [1;33;43m$$[0;1;37;43m$$[0;30;44m§§[0;30;42m§▓[0;30;41m▓▓[0m          [1;35;40m//$////[0;1;36;40m\\[0;1;34;40m\\\[0;36m\\\%%%[0;34m!!![0;1;35m$$[0;34m""[0;37m [0;32m░░[0;1;37mFree[0;1;33m   [0m
 [1;35m  [0;1;33m░░$$$$[0m    [1;35m    [0;1;37mFree[0m   [34;43m$$$[0;1;33;43m§§[0;1;35;43m$$[0m           [1;33m%%[0;1;37m$$[0;1;35m$$[0;1;37m$[0;1;36m$$[0m [1;35m\[0;1;37m [0;1;35m\\[0;1;31m\[0;34m░░▒▒▓▓░░[0m   [1;30mleo![0m      [1;35m   [0m
-   [1;36m    [0m         [1;36m [0m                      [1;33m  [0;1;35;41mFr[0;1;33;45me[0;30;41me[0m      [1;37;40m [0;1;33;40m [0m
+   [1;36m    [0m         [1;36m [0m                      [1;33m  [0;1;35;41m  [0;1;33;45m [0;30;41m [0m      [1;37;40m [0;1;33;40m [0m
   [1;36m     [0m            [1;36m11[0;1;37m001[0;1;36m01[0;1;33m01[0m  [1;33m [0m           [1;33m     [0m    [1m    [0m
-    [1;35;44mfr[0;1;35;41mee[0;1;35;40m░░░[0m                             [1;33m      [0m   [1m    [0;1;33m  [0;1;37m   [0;1;33m [0;1;37m [0m
-                                      [1;33m       [0m    [1m     [0m [1;33m    [0m
-                                  [1m [0m'
+    [1;35;44mfr[0;1;35;41mee[0;1;35;40m░░░[0m                             [1;33m      [0m   [1m    [0;1;33m  [0;1;37m   [0;1;33m [0;1;37m [0m'

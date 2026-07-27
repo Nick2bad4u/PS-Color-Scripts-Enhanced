@@ -5,7 +5,7 @@
 # Source SHA-256: bf431366857ca6f6cd79ad8b8413e3825e2ec5522706f302830067273467a71d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-BKULT.ANS by Nivenh (Union); released in uni-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bass Kult - 214
 # SAUCE Author: Nivenh
 # SAUCE Group: Union
@@ -27,7 +27,7 @@ Write-Host '
 ░ [31m█▀▀▀▀▀▀ [0;36m▄▄▄ [0;31m▀▀█▀  [0;36m▄▄▄▄▄▄▄▄ [0;1;30m▀ [0;1;37m▄▀    [0;31m▄ ▄▄▄▀ [0;1;37m▄▄  [0;36m░▒ ░▒▓█ [0;1;30m▀▀▀  [0;31m▄▄▄▀ [0;32m▄[0;1;30;42m░[0;32m██[0;1;32m▄[0;32m██▄[0;1;30m▀[0;1;30;42m▒[0;1;32;42m▓[0;32m█[0;1;30;42m░[0m
 ▒ [1;30m▄▄▓▄▄[0;1;30;46m█▄▓▒░[0;36m███▄ [0;1;30m▄[0;1;30;46m▓▒[0;36m▄[0;1;30;46m░[0;36m█▀ [0;32m▄▄ [0;36m■[0;32m▀ [0;1;37m▀█[0;1;37;47m▓[0;1;37;40m▄▄▄ [0;31m▀▀ [0;1;37m▄▄[0;1;37;47m▀█▓[0;1;37;40m▀ [0;36m░ ░ ░▒▓▄ [0;31m▀▀▀▀▀ [0;32m▄▄█▀[0;1;30;42m▒[0;32m██[0;1;32;42m▓ [0;32m███[0;1;30;42m░[0;1;32;42m▒[0;32m██[0m
 [37m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;30;42m▒░ [0;32m█ [0;37m▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;32m▄ [0;1;32m▄▄[0;32m▄[0;1;32m▄[0;32m██[0;1;32m▄[0;32m██[0;1;30;42m░[0;32m█[0;1;32;42m▒ [0;32m██[0;1;32;42m▒▄[0;32m██[0;1;32;42m▄[0;32m█[0;1;32;42m░▄▄[0m
-[1;30;40mnivenh[union][0m            [32m▀▀[0m
+[1;30;40m             [0m            [32m▀▀[0m
                            [37m▄▀ [0;32m▄▄[0m
                        [37m▄▄███ [0;1;32;42m▒░ [0;32m█[0m               [37m▄▄[0m
                          [37m▀▀█▄ [0;32m▀▀  ▄[0m            [37m▐[0;37;47m [0;1;37;47m▀[0m█
@@ -45,21 +45,15 @@ Write-Host '
                         [1;47m█▀▄[0;1;40m▌    [0;1;47m▄▀[0m░  ▐[1;47m▄[0m▌  [1;47m▀▄[0m▌ [1m▐[0;1;47m█▄[0m
                        [1m▐█[0;1;47m██[0;1;40m█    ▐[0;1;47m█[0;1;40m█ ▄[0;1;47m█[0;1;40m▀ ▄[0;1;47m█[0;1;40m▀▀▀▄ ▀▀[0;1;47m█[0;1;40m▄[0m
                           [1m▀▀▀   ▀▀[0m
-                             [1;30mbASS kULT that is.[0m
+                             [1;30m                  [0m
 
-                         twoone[1m4[0;1;30m/[0mtwo[1m4[0moh[1;30m/[0mtwenty[1m7[0mteen
-                            drug[1mz[0;1;30m/[0mmu[1mz[0mak[1;30m/[0mvi[1mo[0mlence
-                           no[1mW[0marez[1;30m/[0mno[1mA[0mrt[1;30m/[0mjuzt[1mT[0mhat
+                               [1m [0;1;30m [0m   [1m [0m  [1;30m [0m      [1m [0m    
+                                [1m [0;1;30m [0m  [1m [0m  [1;30m [0m  [1m [0m     
+                             [1m [0m    [1;30m [0m  [1m [0m  [1;30m [0m    [1m [0m   
 
-                              s[1;30m/[0mprospect[1mH[0mouse
+                               [1;30m [0m        [1m [0m    
 
-                          [1mT[0mhis [1mA[0mnsi was  d[1mo[0mne with
-                               [1mA[0mrt[1mW[0morx  v[1m6[0;1;30m.[0m5[1;30mb[0m
+                          [1m [0m    [1m [0m          [1m [0m       
+                               [1m [0m  [1m [0m      [1m [0;1;30m [0m [1;30m [0m
 
-[1;30m--------------------^----------------------------------^-----------------------[0m
-                             [1;30m^ cut duh sheeit ^[0m
-
-[1;30mgreets: nailz (you e-wheat), t_nothing (booyaka), speck (i love you!), tyme,[0m
-        [1;30mmd (moved her leg), and toony-g of ice.[0m
-
-[1;30mread the top.[0m'
+[1;30m--------------------^----------------------------------^-----------------------[0m'

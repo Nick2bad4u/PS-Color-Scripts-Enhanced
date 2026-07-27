@@ -5,13 +5,13 @@
 # Source SHA-256: a4f7ebf4dd38a3f4baaa046c316e31f4e51d85096f9dd5f3c99888ab1e5d714f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: POE.ANS by Death Knight (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
                             ▄
-                            ▐[31m████[0m                  [1;32mT[0;32mh[0;1;32me P[0;32malac[0;1;32me of E[0;32mxil[0;1;32me[0m
+                            ▐[31m████[0m                  [1;32m [0;32m [0;1;32m   [0;32m    [0;1;32m      [0;32m   [0;1;32m [0m
                             ▐[31m█[0;1;31;41mP[0;31m██[0;34m████[0m                 [31m([0;1;31m201[0;31m)[0;1;31m299[0;31m-[0;1;31m8541[0m
                             ▐[31m████[0;34m█[0;1;34;44mO[0;34m██[0;32m▄▄▄▄▄[0m        [1;34m235 M[0;34meg[0;1;34ms[0;34m/[0;1;34m14[0;34m.[0;1;34m4[0;34mk [0;1;34mHST[0;34m/[0;1;34mDS[0m
                             ▐    [34m████[0;32m█[0;1;32;42mE[0;32m█▀[0m           [1;30mC[0mC[1mI N[0me[1;30mt - S[0mE[1mE N[0me[1;30mt[0m

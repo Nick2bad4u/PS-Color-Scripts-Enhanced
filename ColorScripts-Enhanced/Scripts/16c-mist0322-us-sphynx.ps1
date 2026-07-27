@@ -5,7 +5,7 @@
 # Source SHA-256: a9b909dd57677dbafd1fee48345addd91a0a809bc7e032a6839512a6688e6314
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SPHYNX.ANS by Mr Roboto + Deadguy (Mistigris); released in mist0322 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sphynx
 # SAUCE Author: Mr Roboto & deadguy
 # SAUCE Group: Mistigris
@@ -52,10 +52,4 @@ Write-Host '
                         [1;36m█▒▒▒▒▒▒▒█████░░░░░█████▒▒▒▒▒▒▒█[0m
                          [1;36m▀██████▓▒▒░░░░░░░░░▒▒▓██████▀[0m
                             [1;36m▀██████▓▓▓▒▓▒▓▓▓██████▀[0m
-                                [1;36m▀███▓▒▓▓▓▒▓███▀[0m
-
-                                  [1;36m@deadguy is very sorry but he can''t draw ears[0m
-                                      [1;31m@mr.r0b070 neither knows how to draw ears[0m
-[1;31m                                        so he drew this identikit-like cat ears[0m
-                                        [1;31mif you see a cat with these ears around[0m
-                                                    [1;31myour neighborhood, call 911[0m'
+                                [1;36m▀███▓▒▓▓▓▒▓███▀[0m'

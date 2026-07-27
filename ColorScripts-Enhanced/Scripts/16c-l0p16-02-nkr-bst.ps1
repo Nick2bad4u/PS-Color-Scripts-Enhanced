@@ -5,7 +5,7 @@
 # Source SHA-256: 3c53045833c3ab4555ec635bd214ddf136261cc21bb4fdc572ebb42e351d3764
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NKR!BST.ANS by Nekro (l0p16_02); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -31,10 +31,4 @@ Write-Host '
 
 
 
-[36m--[0m
-[36mguest art for the_lo0p #16[0m
-
-[36mpoise.secular.deez''nuts...[0m
-[36maka nekro........nkr@wp.pl[0m
-
-[36msecular#29  -  sprawdz to![0m'
+[36m--[0m'

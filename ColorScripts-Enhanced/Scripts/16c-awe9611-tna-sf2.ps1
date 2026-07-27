@@ -5,7 +5,7 @@
 # Source SHA-256: 2a2d6eb0b0247e06f21a2aa7710e3fc8a8dff7552eb8743f9ee1a682e5c51188
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-SF2.ANS by The Night Angel (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SkullFish
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -38,4 +38,4 @@ Write-Host '
 [1;37;40m██[0;1;37;47m▓▓▄[0m▄  ▬▀        [1;30m▀▀▀[0;1;30;47m▄▄▄▄[0m▒▐▀▀[1m▀▀▀[0;1;30m▀▀▀▀[0m░ ▌ [1m▀▀ ▄▄▄▀▀▀  [0;36m░[0;30;46m▓[0;1;37;40m░░▌█████[0;1;37;41m▓▓[0;1;37;40m█████████[0;1;37;41m██[0;1;37;40m███[0;1;37;47m█[0;1;37;40m██[0m
 [1;37;41m▓▓▓[0;1;37;40m████[0;1;37;47m▄[0;1;37;40m▄▄[0m▄░[30;47m▓[0m                         [37;40m▀[0;1;37;40m▀▀▀   [0m░░[1;30m▄▄▄[0;1;37m▄▄▄▓▓[0;1;37;41m██▓█▓▓▒▒▓▓[0;1;37;40m███████[0;1;37;41m▓[0;1;37;40m████[0;1;37;47m█[0;1;37;40m██[0m
 [1;31;40m█[0;1;37;41m░▒▓▓[0;1;37;40m█[0;1;37;41m▓[0;1;37;40m████[0;1;37;47m▓▓[0;1;37;40m██▄█▄▄▄█▓  ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37;47m▄▄▄▄[0;1;37;40m███████████████[0;1;37;41m███▓░[0;1;31;40m█▓[0;1;37;40m███████[0;1;37;41m█[0;1;37;40m████[0;1;37;47m█[0;1;37;40m██[0m
-Big thanks to Magneti[1m░[0mc M for the background idea (slime). [31m░[0;30;41m▓[0;1;31;40m░░ ░[0m'
+                     [1m░[0m                                     [31m░[0;30;41m▓[0;1;31;40m░░ ░[0m'

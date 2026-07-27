@@ -5,7 +5,7 @@
 # Source SHA-256: 80befdf5d1b935e72bfe1446df6245c163cf4a178456e4bb5d847e8454fc3834
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAC-ANSI.ANS by lacaid (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ansi detected
 # SAUCE Author: lacaid
 # SAUCE Group: dope
@@ -34,6 +34,4 @@ Write-Host '
                       [1;37m░[0m    [1;30m[[0;1;37m d e t e c t e d[0m [1;30m][0m   [35m [0;37m [0;1;37m░  [0m          [1;37m▒[0m
                                                  [35m [0m              [1;37m░[0m
 
-[1;30m--[snip!]-----------------------------------------------------------------------[0m
-[1;30mheres a freebe ansi detected screen. anyone can use if you want, just keep my[0m
-[1;30mlittle sig on at the top.[0m'
+[1;30m--[snip!]-----------------------------------------------------------------------[0m'

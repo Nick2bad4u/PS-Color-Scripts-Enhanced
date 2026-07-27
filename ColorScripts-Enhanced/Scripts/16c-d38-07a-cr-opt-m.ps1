@@ -5,7 +5,7 @@
 # Source SHA-256: daa7d85fec837f872f1ec3d5034c0d6242c7a578308b4c1158922e030564c76a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR_OPT_M.ANS by CRUCiFER (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Optical Illusion Main Menu
 # SAUCE Author: CRUCiFER
 # SAUCE Group: Department 38
@@ -37,8 +37,4 @@ Write-Host '
         [1;31;41m░[0m                                                             [1;31;41m░[0m
         [1;31;41m░[0m                                                             [1;31;41m░[0m
         [31m█▄[0m                      [1;37mÖ₧ïÇä£ ¡££ü$ïöÑ[0m                      [31m▄█[0m
-        [31m▀███[0;1;31;41m░░░▒▒▒[0;1;37;41m░░░▒▒▒▓▓▓███[0;1;37;47m▓▒░[0m█▌[1mMäïÑ MëÑü[0m▐█[1;47m░▒▓[0;1;41m███▓▓▓▒▒▒░░░[0;1;31;41m▒▒▒░░░[0;31m███▀[0m
-
-
-
-[37m...Main Menu template for Genocide''s BBS Optical Illusion...[0m'
+        [31m▀███[0;1;31;41m░░░▒▒▒[0;1;37;41m░░░▒▒▒▓▓▓███[0;1;37;47m▓▒░[0m█▌[1mMäïÑ MëÑü[0m▐█[1;47m░▒▓[0;1;41m███▓▓▓▒▒▒░░░[0;1;31;41m▒▒▒░░░[0;31m███▀[0m'

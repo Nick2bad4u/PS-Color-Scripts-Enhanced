@@ -5,7 +5,7 @@
 # Source SHA-256: 99e83c9cd9f301a6b90f9cd7ef96c4c4e438beac1a26fd808f058d79625d008e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-BAUD.ANS by Duster (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Baudville
 # SAUCE Author: Duster
 # SAUCE Group: ACiD Productions
@@ -55,12 +55,12 @@ Write-Host '
 [1m▌[0;1;47m░░░      [0m▄▄▄▄▄▄▄▄[47m  [0m▄▄▄[47m    [0m▄▄▄[47m  [0m▄▄▄[47m      [0m▄[47m   [0m▄▄▄▄[47m [0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[47m [0m▄▄▄▄▄▄▄[1;47m▒▒▒▓▓▓[0;1m▐[0m
 ▐[1;47m░░░░░                                                         ░░░░░░▒▒▒▒▓▓▓▓▓[0m▌
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
- [1;31mi[0;31mC[0;1;30mE [0;1;31mE[0;31mU[0;1;30mROPEAN [0;1;31mH[0;31mE[0;1;30mADQUARTERS[0;1;36m■[0;1;31mC[0;31mY[0;1;30mBERCRIME [0;1;31mI[0;31mN[0;1;30mTERNATIONAL [0;1;31mN[0;31mE[0;1;30mTWORK[0;1;36m■[0;1;31mE[0;31mL[0;1;30mITENET[0;1;36m■[0;1;31mS[0;31mF[0;1;30m.PIRATES[0m
+ [1;31m [0;31m [0;1;30m  [0;1;31m [0;31m [0;1;30m       [0;1;31m [0;31m [0;1;30m          [0;1;36m■[0;1;31m [0;31m [0;1;30m         [0;1;31m [0;31m [0;1;30m            [0;1;31m [0;31m [0;1;30m     [0;1;36m■[0;1;31m [0;31m [0;1;30m      [0;1;36m■[0;1;31m [0;31m [0;1;30m        [0m
 [1;30m [0;1m▄▄▄▄▄▄  ▄▄▄▄ [0m▄▄  [1;30m▄    ▄[0m
 [1;30m [0;1;47m▓[0m
-[1;40m [0;1;47m▒[0m    [1;30mB[0;32mA[0;1;32mUDVILLE BBS NODE #1: +358-0-KEPUKKA   USR HST DS[0m     [1;32m[9600-1440[0;32m0[0;1;30m][0m
-[1;30m [0;1;47m░[0m    [1;30mB[0;32mA[0;1;32mUDVILLE BBS NODE #2: +358-0-VEMPULA   ZYXEL U-1496E+ [9600-1920[0;32m0[0;1;30m][0m
-      [1;30mB[0;32mA[0;1;32mUDVILLE BBS NODE #3: WILL BE UP DURING THE FIRST QUARTER OF 199[0;32m4[0;1;30m![0m     [1;47m░[0m
+[1;40m [0;1;47m▒[0m    [1;30m [0;32m [0;1;32m                                                [0m     [1;32m          [0;32m [0;1;30m [0m
+[1;30m [0;1;47m░[0m    [1;30m [0;32m [0;1;32m                                                               [0;32m [0;1;30m [0m
+      [1;30m [0;32m [0;1;32m                                                               [0;32m [0;1;30m [0m     [1;47m░[0m
                                                                               [1;47m▒[0m
-                          [1;34mA[0;36mNSi: [0;1;34mD[0;36muster / [0;1;34mA[0;36mCiD -[0;1;34mE[0;36mURo-[0m                          [1;47m▓[0m
+                          [1;34m [0;36m     [0;1;34m [0;36m        [0;1;34m [0;36m     [0;1;34m [0;36m    [0m                          [1;47m▓[0m
                                                         [1;30m▀    ▀  [0m▀▀ [1m▀▀▀▀  ▀▀▀▀▀▀[0m'

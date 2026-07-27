@@ -5,7 +5,7 @@
 # Source SHA-256: e8c9ac4b89d4654bd8b26924fef2bb595fcf2d754d69aa49a547e2d9170ecc24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: &COVER20.ANS by milkmang (poffelipoff); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blackmaiden#20
 # SAUCE Author: milkmang
 # SAUCE Group: poffelipoff
@@ -34,5 +34,5 @@ Write-Host '
 [1;30m█▓▄▀[0m     [33m▄█[0;37m [0;36m█[0;30;46m░[0;36;40m▓▀ [0;1;37;40m      [0m     [36m▄▄▄▀[0;37m [0;33m▄▄███████████████▀███[0;35m [0;30;46m▒[0;36;40m█[0;30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓█[0;37;40m [0;1;30;40m▀▄ ▀▀[0m [1;30m▄▄▄▄██[0;1;30;47m▓[0m██[1;30m█[0m
 [1;30m█▀[0m [1;30m    [0;33m ░[0;30;43m░[0;33;40m▓[0;37;40m [0;36;40m██▄▄▄▄▄▄▄▄▄▀▀▀▀▀[0;37;40m [0;35;40m  [0;37;40m [0;30;43m▒[0;33;40m████[0;30;43mmmang.plf[0;33;40m████▒  ▀[0;35;40m [0;30;46m░[0;1;30;46m▒▒▒▓▓[0;1;30;40m▄▄▄▄█████▀▀▀▀▀▀▀▀▀[0m
 [1;30m▀▀▀▀▀ ─────[0m             [1;30m───────────────────────────────[0;1;30;46m▓███[0;1;30;40m▀▀▀▀[0m
-[36m - blackmaiden#20 - blackmaiden#20 - blackmaiden#20 - b[0;35m [0;1;30m▀▄[0m           [1;30m▄▄▄▄▄▄▄▄▄▄[0m
+[36m                                                       [0;35m [0;1;30m▀▄[0m           [1;30m▄▄▄▄▄▄▄▄▄▄[0m
                                                          [1;30m ▀▄▄▄ ▀▀▀▀▀▀           [0m'

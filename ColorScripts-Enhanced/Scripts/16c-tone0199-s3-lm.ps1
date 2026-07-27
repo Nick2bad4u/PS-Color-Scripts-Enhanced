@@ -5,7 +5,7 @@
 # Source SHA-256: 72f0f5acad467a8bcbc1ce0d870d841a9376b5fe968fe677d86a973535648a0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S3-LM.ANS by seltorn (tone); released in tone0199 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logoff menu
 # SAUCE Author: seltorn
 # SAUCE Group: tone
@@ -37,5 +37,4 @@ Write-Host '
 [1;34;44m   [0;34m▌[0;37m [0;31m█[0;1;30;41m░[0m               [30;43m▓░     lagoff       ░▓[0m                  [31;40m██[0m    [1;36;40m [0m▀[1;36m▀▀[0m
 [1;34;44m  [0;34m▀[0;37m  [0;31m▓[0;30;41m░[0m                                                       [30;41m░[0;31;40m▓[0m    [31;40ms3[0;1;31;40mtone[0m
      [30;41m▓[0;31;40m░[0m                                                       [31;40m░[0;30;41m▓[0m
-[1;35;40m--[0m
-[1;35;40mthis is for prime-62K too. push some hatemail to me on s3@cd.sysda.kiev.ua[0m'
+[1;35;40m--[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e86ae79ba5743214327780d856884a0b46a2b76495e10905f055e62498dca8bc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GH-HOB1.ANS by Ghent (Lapse); released in lap-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: House of Bones
 # SAUCE Author: Ghent
 # SAUCE Group: Lapse
@@ -51,17 +51,11 @@ Write-Host '
 
                              [1;30;40m─[0m─[1m─ [0;1;30mH[0mou[1mse of Bo[0mne[1;30ms [0;1;37m─[0m─[1;30m─[0m
 
-                    [1;30m(801)pri-vate  .  sysop: zombie [exiled][0m
-                        [1;30mexiled member board  .  telephony[0m
-                        [1;30manarcy  .  phreaking  .  hacking[0m
-                   [1;30mwares/piracy support  .  art/music support[0m
-                      [1;30mcdc/cud/2600/phrack magazine library[0m
-                         [1;30mtelecommunications underground[0m
+                    [1;30m                                        [0m
+                        [1;30m                                 [0m
+                        [1;30m                                [0m
+                   [1;30m                                          [0m
+                      [1;30m                                    [0m
+                         [1;30m                              [0m
 
-                             [1;30m─[0m─[1m──────────────────[0m─[1;30m─[0m
-
-
-
-                           [1;32mA[0;32mn[0;1;30msi: (c)1994 Ghent [Laps[0;35me[0;1;35m][0m
-                 [1;30m"Take my hand, we''re off to never-never land."[0m
-             [1;30minternet:  ghent@freenet.fsu.edu, starnet@xmission.com[0m'
+                             [1;30m─[0m─[1m──────────────────[0m─[1;30m─[0m'

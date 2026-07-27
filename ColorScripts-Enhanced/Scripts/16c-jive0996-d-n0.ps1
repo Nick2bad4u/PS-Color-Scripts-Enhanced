@@ -5,7 +5,7 @@
 # Source SHA-256: 47f09e476cf87a95993cf73c90782d1b488fef19e312f5abf7665077c04a1e88
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D-N0.ANS by Deathrai (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nitrous 0xide
 # SAUCE Author: Deathrai
 # Lines: 1-26
@@ -36,5 +36,4 @@ Write-Host '
 [1;36m   [0;1;30m░░░░ ░ [0;31m▀▀██████████████████████[0;1;31;41m░[0;31m▀▀ [0;1;34mx[0;1;32mi[0;1;36md[0;1;35me[0;1;33m![0m       [32m▐▀▀▄███████▓▄▀▀▌  [0;1;30m░[0m        [1;30m░░[0m
                [31m▀▀▀▀▀██████▀▀▀▀▀▀[0m          [1;30m░ ░░░   [0;32m▄[0;1;32;42m░░[0;32m████████████▄   [0;1;30mde[0;1;34ma[0;1;36mt[0;1;34mh[0;1;30mrai[0m
 
-[1;30m--------- [0mcut here [1;30m-------------------------------------------------------------[0m
-[1;30mand no, you can''t join the  [0;1;37mSave the Sheep Foundation[0;1;30m. [0;1;33m=[0;1;31m)[0m'
+[1;30m--------- [0mcut here [1;30m-------------------------------------------------------------[0m'

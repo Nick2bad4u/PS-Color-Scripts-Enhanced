@@ -5,7 +5,7 @@
 # Source SHA-256: 1e19452da796fed16cc62a79cb1c6522ab61cacc4e4f3c4048fa5a09974054a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-sense3d.ans by Avenging Angel (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 122-161
 # Columns: 1-80
 
@@ -43,10 +43,4 @@ Write-Host '
        [34;40m▀▀[0;34;46m▄▄[0;34;40m██▒[0;37;40m  [0;33;40m▄[0;37;40m▄[0;37;43m▄[0;33;40m█[0m        [1;30;40m [0;1;32;46m██[0m  [31m▀▀▀[0m        [31m▀▀▀[0;37m  [0;1;32;42m██[0;35m [0;37m    [0;1;30m  [0m  [33m█[0;37;43m▄[0;37;40m▄[0;33;40m▄[0;37;40m  [0;34;40m▒██[0;34;46m▄▄[0;34;40m▀▀[0m
                 [33;40m▀▀▀[0;37;40m ▄[0;33;40m▄[0;37;40m    [0;36;40m▒[0;1;30;46m  [0;1;32;46m▀[0m▀[1;30m [0;35m▄[0;1;35;45m▄[0;1;37;45m░[0m          [1;45m░[0;1;35;45m▄[0;35m▄[0;37m ▀[0;1;32;46m▀ [0;36m█▒[0;1;30m [0m   [33m▄[0;37m▄ [0;33m▀▀▀[0m
                     [33m▀▀[0;37m  [0;35m▄[0m      [35m▄▄[0m              [35m▄▄[0m      [35m▄[0;37m  [0;33m▀▀[0m
-                             [35m▀[0m                    [35m▀[0m
-
-
-
-
-
-[37m  [0;1;33m  [0m  [1;33mpiece done by avenging angel of blocktronics 2009 - blocktronics.net[0m'
+                             [35m▀[0m                    [35m▀[0m'

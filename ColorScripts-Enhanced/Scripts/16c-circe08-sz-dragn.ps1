@@ -5,7 +5,7 @@
 # Source SHA-256: 054f74fe29b06017021c542b8db3859923455eb8f074ec832d561d51b654a57d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-DRAGN.ANS by slackzor (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dragon
 # SAUCE Author: slackzor
 # SAUCE Group: circe
@@ -37,12 +37,4 @@ Write-Host '
     [1;30m█▀[0m      [1;30m      [0m     [1;30m▀[0;1;30;42m█▓[0;1;30;40m▐▌[0m [1;47m░[0m▌ [32m  [0;37m▐[0;1;37;47m▀[0;1;30;40m▐▌[0m    [1;30m    [0m      [1;30m█ [0m
    [1;30m▐▌[0m          [1;30m          ▀█[0;1;30;42m▄[0;32m█▄[0;37m▀[0;32m▐[0;1;30;42m░[0;32m▄[0;37m▀[0;32m▄[0;37m [0;1;30m█[0m  [1;30m      [0m      [1;30m▐▌[0m
     [1;30m▀▄[0m          [1;30m▀▄▄    ▄▄▀[0m [32m [0;1;30m▀[0;32m▀[0;1;30;42m▄▓▒[0;32m▀▀ [0;37m [0;1;30m▐▌  [0m [1;30m [0m [1;30m▄    [0m  [1;30m▄▀[0m
-      [1;30m▀▀▄▄[0m         [1;30m▀▀▀▀[0m     [1;30m      [0m    [1;30m▀▀▄▄▄▀   ▄▄▀▀[0m
-                               [1;30m    [0m
-
-
-
-                                        [1;30mtrying to draw like zerovision only gave[0m
-                                        [1;30mme more respect for his style, props to[0m
-                                        [1;30mave for waiting on me[0m
-                                           [1;30m>>slackzor[0m'
+      [1;30m▀▀▄▄[0m         [1;30m▀▀▀▀[0m     [1;30m      [0m    [1;30m▀▀▄▄▄▀   ▄▄▀▀[0m'

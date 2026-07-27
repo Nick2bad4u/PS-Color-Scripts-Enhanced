@@ -5,7 +5,7 @@
 # Source SHA-256: 35ecc812df96dd76815a0486265e4e2b4573902d001c78510250cda4ba39ddf3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V-THRADD.ANS by VileR (Mistigris); released in mist1015 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Thraddash prank
 # SAUCE Author: VileR
 # SAUCE Group: Mistigris
@@ -19,15 +19,15 @@ Write-Host '
 [1;30;40m▒[0;1;30;47m▌[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄▄▄[0;1;5;40m▄[0;5;40m▄▄[0;5;47m▄▄ [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌[0;36m▐▀▌[0;34m─┼────┼─┼─┼[0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m                                                            [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌[0;34m│[0;37m [0;34m│[0;37m [0;34m│[0;32mCREW[0;34m│[0;37m [0;34m│[0;37m [0;34m│[0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m                                                            [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌[0;34m┼─┴─┘[0;37m [0;32m98[0;34m └─┴─┼[0;30;47m▌[0m
-[1;30;40m▒[0;1;30;47m▌[0;36;44m [0;1;37;44m•[0;36;44m [0;1;37;44mThraddash of Culture Nineteen: we sense a bit of[0;36;44m         [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌[0;34m│[0m     [37m▐▐ [0;34m    │[0;30;47m▌[0m
+[1;30;40m▒[0;1;30;47m▌[0;36;44m [0;1;37;44m [0;36;44m [0;1;37;44m                                                [0;36;44m         [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌[0;34m│[0m     [37m▐▐ [0;34m    │[0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m   [0;1;37;44m                    [0;36;44m                                     [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m   [0;1;37;44mhostility here. Why?[0;36;44m                                     [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌[0;42m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m                                                            [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌[0;34;42m [0;1;32;42mMAR 05[0;1;30;42m [0;1;32;42m■ 2156[0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m                                                            [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌[0;30;42m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;47m▌[0m
-[1;30;40m▒[0;1;30;47m▌[0;36;44m • What can you tell us of your species?                    [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌              [0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m                                                            [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌              [0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m                                                            [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌              [0;30;47m▌[0m
-[1;30;40m▒[0;1;30;47m▌[0;36;44m • Your blustering does not impress me. We have             [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌              [0;30;47m▌[0m
+[1;30;40m▒[0;1;30;47m▌[0;36;44m                                                            [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌              [0;30;47m▌[0m
+[1;30;40m▒[0;1;30;47m▌[0;36;44m                                                            [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌              [0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m                                                            [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌              [0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m   requirements which you will fullfill, NOW!               [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌[0;5;37;40m ▄▄▄▄▄▄▄▄▄▄▄▄ [0;30;47m▌[0m
 [1;30;40m▒[0;1;30;47m▌[0;36;44m                                                            [0;5;30;40m▒[0;5;37;40m▐[0;5;30;40m▌▐[0;35;44m▒▒▒▒▒▒▒▒▒▒▒▒[0;5;37;40m▌[0;30;47m▌[0m

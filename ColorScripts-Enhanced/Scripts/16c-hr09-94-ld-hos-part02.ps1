@@ -5,7 +5,7 @@
 # Source SHA-256: 48e04a6b7fbb4c7ff5d00774021fd3bd1062f011774dd9e3226bb453f8cd631a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-HOS.ANS by Living Death (hr09-94); released in hr09-94 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-97
 # Columns: 1-80
 
@@ -54,6 +54,4 @@ Write-Host '
          [1m█[0;1;30m█[0;1;37m██████ ████████▐███████████▐████████ █▄▄▄█████▐[0;1;30m█[0;1;37m██▄███▌[0m
           [1;37m█[0;1;30m██[0;1;37m████ ███████ █[0;1;30m█[0;1;37m█████████ █[0;1;30m█[0;1;37m███████▐[0;1;30m█[0;1;37m███████ █[0;1;30m█[0;1;37m██████[0m
            [1;37m██████▌██████ ███[0;1;30m██[0;1;37m█████  ███[0;1;30m██[0;1;37m████ ██[0;1;30m██[0;1;37m████ ███[0;1;30m█[0;1;37m████[0m
-             [1;37m▀▀▀▀ ▀▀▀▀[0m     [1;37m▀▀▀▀▀▀[0m      [1;37m▀▀▀▀▀    ▀▀▀▀▀    ▀▀▀▀▀[0m
-[1;37m [0m
-'
+             [1;37m▀▀▀▀ ▀▀▀▀[0m     [1;37m▀▀▀▀▀▀[0m      [1;37m▀▀▀▀▀    ▀▀▀▀▀    ▀▀▀▀▀[0m'

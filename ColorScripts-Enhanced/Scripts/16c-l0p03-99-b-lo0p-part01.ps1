@@ -5,7 +5,7 @@
 # Source SHA-256: 4cb7ef2462516f22428c22b379d6254bd087a94a67386093d566d802fe7424c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B!LO0P.ANS by bULL/iPC^sIMONkING (thELo0p); released in l0p03_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: l0p-hiphop =)
 # SAUCE Author: bULL/iPC^sIMONkING
 # SAUCE Group: thELo0p
@@ -36,5 +36,4 @@ Write-Host '
   ███████████████████████████▌███▄▄▄█████▐██▄▀██▄█████▌██▐▄██████████████████
    ███████████████████████████▐█████▀▀▀▀▀▌████▐█████▌▀█▐▄████████████████████▌
         ▀▀▀▀▀▀▀▀▀▀███████████▌▄▄▄▄▄▄██████▐██▌████████▄ ██████████████████████
-                        ▀▀▀▀▀ ▀▀▀▀▀▀████▀▄█▀▀ ▀▀▀██▀▀▀▀  ▀▀▀▀▀▀▀█████▀▀▀▀▀▀[0m
-'
+                        ▀▀▀▀▀ ▀▀▀▀▀▀████▀▄█▀▀ ▀▀▀██▀▀▀▀  ▀▀▀▀▀▀▀█████▀▀▀▀▀▀[0m'

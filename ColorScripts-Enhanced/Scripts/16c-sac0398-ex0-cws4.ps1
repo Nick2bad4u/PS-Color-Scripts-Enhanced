@@ -5,7 +5,7 @@
 # Source SHA-256: 615f145bfd33cf3a97b7489b33e78231c8626a416daad15b87b66cefc681d265
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EX0-CWS4.ANS by exo; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-15
 # Columns: 1-80
 
@@ -23,5 +23,4 @@ Write-Host '
           [36m▄[0;1;36;46m▒▓[0;1;36;40m█[0m [1;36m███[0;1;32;47m▒[0m [1;36m███[0;32m [0;1;36m ▄███▀█[0;1;32m██[0;1;36m▓[0m [1;36;46m█ [0m [1;32;47m▓[0;1;36;46m██▓[0;1;36;40m▄▐ [0;1;36;46m▓▓▓[0;1;36;40m▌[0m [1;36m▐[0;1;36;46m▓▓▒░[0m [1;36m█▓[0m [1;36;46m█[0;1;36;40m███[0m [1;36;46m▓▒[0m   [1;36m CWS[0m
            [1;36m▀█[0;1;37m█[0m [1;36m▐██▓▄[0m [1;36m▀[0m  [1;36m▓██[0;1;37;46m█[0;1;36;40m▌[0m [1;36m▐[0;1;37m█[0;1;32m█[0;1;36m█▄[0m [1;36m▀ █[0;1;36;46m███[0;1;36;40m▌▐[0m [1;36;46m▒▓[0;1;36;40m█▄[0m [1;36m █[0;1;36;46m▓▓[0;1;36;40m█▄▀ ▄[0;1;36;46m▓[0;1;36;40m██[0;1;37;40m▌[0;1;36;40m █[0;1;36;46m▓▒[0;36m▄[0m
             [1;37m▀█▄[0m [1;36m▀██▓█▄████▄██[0;1;37m▄[0;1;36m▄▀█▄▓█▄[0;1;36;46m▒▓██[0;1;37;40m█[0;1;36;46m▓[0;1;36;40m▄█[0;1;36;46m▒[0;1;37;40m█[0;1;37;46m█[0;1;36;40m█▄[0m  [1;36m▀[0;1;36;46m█[0;1;36;40m█[0;1;36;46m▓[0;1;36;40m▄▄[0;1;36;46m▓▓▒[0;1;37;40m▀[0m [1m█[0;1;36m█▀▀[0m
-              [1m ▀ [0m [1;36m [0;1;37m▀▀[0;1;36m▀[0;1;37m▀[0;1;36m▀▀▀▀▀▀ [0m     [1;36m▀▀▀[0m  [1;36m     [0m [1m▀[0;1;36m▀▀[0;1;36;46m▓[0;1;36;40m█▄ ▄[0m [1;36m▀[0;36m▀[0;1;37m▀[0;1;36m▀▀[0m  [1m▀[0m
-                                    [1;36m [0m'
+              [1m ▀ [0m [1;36m [0;1;37m▀▀[0;1;36m▀[0;1;37m▀[0;1;36m▀▀▀▀▀▀ [0m     [1;36m▀▀▀[0m  [1;36m     [0m [1m▀[0;1;36m▀▀[0;1;36;46m▓[0;1;36;40m█▄ ▄[0m [1;36m▀[0;36m▀[0;1;37m▀[0;1;36m▀▀[0m  [1m▀[0m'

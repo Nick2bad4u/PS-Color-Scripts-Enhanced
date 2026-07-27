@@ -5,7 +5,7 @@
 # Source SHA-256: 50922c0e70a6d01060fd0f9b630ad6e25630d6bf5aa529ad65e24af7e91ef8f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OT-ANTON.ANS by Omot (ftl-0295); released in ftl-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 86-113
 # Columns: 1-80
 
@@ -26,14 +26,14 @@ Write-Host '
  [1;30m█▄▄[0m [1;30m▄[0m   [1;30m▒▒░░   [0m [36m▄[0;1;37;46m░▒▓[0;36m▄[0m [1;30m▓▒░[0m  [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m   [1;30m░▒▓▓[0m  [36m▀▀[0;1;37;46m▓▓▓▒▒▒░░[0;36m▀▀[0;1;37m [0;1;30m▄▄█[0m
 
 
-                               [36m-[0m [36manton''s corner[0m [36m-[0m
-                          [36m-[0m [36ms: anton the pimp <blunt>[0m [36m-[0m
-                         [36m- c: the conquistador <blunt> -[0m
-                    [36m-[0m [36m# threeohfor.threeforsix.toninethreeto -[0m
-                    [36m- blunt whq : justice site : poison site -[0m
-                    [36m-[0m [36mpain threeohfor hq[0m [36m- hempnet whq - etc - [0m
-                           [36m- ansi - aychpee - obvtoo -[0m
+                               [36m [0m [36m              [0m [36m [0m
+                          [36m [0m [36m                         [0m [36m [0m
+                         [36m                               [0m
+                    [36m [0m [36m                                        [0m
+                    [36m                                          [0m
+                    [36m [0m [36m                  [0m [36m                      [0m
+                           [36m                           [0m
 
 [36m+-----------------------------------------------------------------------------+[0m
-[36m|  in''r-to0b : sixwunfor.sevsevsev.foratesevnine[0m [36m: omot[0m [36m: tons of affils etc[0m [36m |[0m
+[36m                                                [0m [36m      [0m [36m                    [0m [36m  [0m
 [36m+-----------------------------------------------------------------------------+[0m'

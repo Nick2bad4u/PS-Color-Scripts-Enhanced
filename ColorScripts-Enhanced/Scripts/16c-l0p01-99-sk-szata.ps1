@@ -5,7 +5,7 @@
 # Source SHA-256: b31f2893c413cc70850aece48129e16bc07625d12c065c92f12eab39a6e5184c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!SZATA.ANS by sIMON kING (tHElo0p); released in l0p01_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: szatan w cieniu
 # SAUCE Author: sIMON kING
 # SAUCE Group: tHElo0p
@@ -42,22 +42,18 @@ Write-Host '
 
 
 
-[1;30mbrrrrr... troche mrocznego ansi, spartanskiej roboty, nowe ansi do 001/99 l0p.[0m
-[1;30mna dzisiaj to juz koniec, za moment zamykam edycje nowego packa thelo0p. jutro[0m
-[1;30m(30.03.1999) zaczne rozsylac prace thelo0p laboratory swoim kontaktom.[0m
-[1;30mmam nadzieje, ze bedziecie sie swietnie bawic, ogladajac nasze wypociny.[0m
-[1;30mpozdrawiam...[0m
-                                                           [1;30msimon king/...[0m
+[1;30m                                                                              [0m
+[1;30m                                                                              [0m
+[1;30m                                                                      [0m
+[1;30m                                                                        [0m
+[1;30m             [0m
+                                                           [1;30m              [0m
 [1;30m                                                          [0m
 
-[1;30mkontakt:[0m
-[1;30mszymon grabinski[0m
-[1;30m1 armii wojska polskiego 6/10[0m
-[1;30m89410 wiecbork[0m
-[1;30mpoland[0m
+[1;30m        [0m
+[1;30m                [0m
+[1;30m                             [0m
+[1;30m              [0m
+[1;30m      [0m
 
-[1;30mtel. +48(052) 3897456, +48(061) 8219584[0m
-[1;30memail: zuegrab@by.onet.pl[0m
-
-
-[1;30m                  -+ ansi dedykowane sIR mENTOROWI/tHElo0p[0m [1;30m+-[0m'
+[1;30mtel. +48(052) 3897456, +48(061) 8219584[0m'

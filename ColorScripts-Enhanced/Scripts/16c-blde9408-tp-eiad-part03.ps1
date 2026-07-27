@@ -5,7 +5,7 @@
 # Source SHA-256: 6f7781fdc3ef28f1ed246d2af5131818f114ccf3855f51ae81caf154a0fd1c2b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-EIAD.ANS by Technophreak (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 79-114
 # Columns: 1-80
 
@@ -33,16 +33,16 @@ Write-Host '
 [36;40m    [0;1;30;40m▀[0m             [1;30;40m▄   ▄▄▄█████[0;1;30;42m▓▓▓▒[0;32m█▀▀[0;36m▀▀[0m
  [36mWo[0;1;37mr[0;36mds Fr[0;1;37mo[0;36mm [0;1;37mT[0;36mP:[0m    [1;30m▀▀▀▀▀▀▀[0m
 [36m [0;1;30;47m░▒▓[0;1;30;40m█▀▀ ▀▀ ▀■[0m
-[1;30;40m [0;1;30;47m▒[0;1;30;40m▌M[0;36mC[0;1;37m- Here is yer ad man, hope you like it.[0m
-[1;37m [0;1;30;47m▒[0m [1;30;40mSo[0;36mu[0;1;37ml Seeker- Good luck, wherever the hell yer goin![0m
-[1;37m [0;1;30;47m▓[0;1;30;40m▌Cab[0;36ml[0;1;37me- Don''t worry, I won''t steal yer girls..:)[0m
-[1;37m [0;1;30;47m▓[0m [1;30;40mRais[0;36mt[0;1;37mlin- Is Iridium still goin on?[0m
-[1;37m [0;1;30m█ Etern[0;36ma[0;1;37ml Lie- Look forward to doin stuff for Corruption![0m
-[1;37m [0;1;30m▌ Stone [0;36mA[0;1;37mngel- Blur is lookin sweet...[0m
-[1;37m [0;1;30m█ Freaky [0;36mS[0;1;37mtyley- Yer dad is always answerin da phone![0m
-[1;37m [0;1;30m█ Andrew N[0;36mi[0;1;37mce- Forgettin Somethin?[0m
-[1;37m [0;1;30m▌ Beastie- [0;36mD[0;1;37mo me an ad dammit..:)[0m
-[1;37m [0;1;30m■ Maestro- Y[0;36mo[0;1;37mu egotistical little..:)[0m
-[1;37m [0;1;30m■ ANyOnE I Fo[0;36mR[0;1;37mGoT- I''ll catcha in my next ANSi![0m
+[1;30;40m [0;1;30;47m▒[0;1;30;40m▌ [0;36m [0;1;37m                                       [0m
+[1;37m [0;1;30;47m▒[0m [1;30;40m  [0;36m [0;1;37m                                                [0m
+[1;37m [0;1;30;47m▓[0;1;30;40m▌   [0;36m [0;1;37m                                           [0m
+[1;37m [0;1;30;47m▓[0m [1;30;40m    [0;36m [0;1;37m                              [0m
+[1;37m [0;1;30m█      [0;36m [0;1;37m                                                 [0m
+[1;37m [0;1;30m▌       [0;36m [0;1;37m                             [0m
+[1;37m [0;1;30m█        [0;36m [0;1;37m                                           [0m
+[1;37m [0;1;30m█         [0;36m [0;1;37m                       [0m
+[1;37m [0;1;30m▌          [0;36m [0;1;37m                     [0m
+[1;37m [0;1;30m■           [0;36m [0;1;37m                        [0m
+[1;37m [0;1;30m■            [0;36m [0;1;37m                                 [0m
 [1;37m [0;1;30m·[0m
  [1;30m·[0m'

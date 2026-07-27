@@ -5,7 +5,7 @@
 # Source SHA-256: cb9eabf04b5f54f7c25541e1b93d6005a72cd4a0cf4f64cd298dad15736d514c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-REV1.ANS by Mr. Self Destruct (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Revival
 # SAUCE Author: Mr. Self Destruct
 # SAUCE Group: Revival
@@ -23,7 +23,7 @@ Write-Host '
              [34m┌-─- -─·  --──--[0m   [31m: [0m   [31m`7$b.  ··--─-─  -░░─ -· ─---┐ [0m
              [34m.[0m             [37m,g#$$$$#g.  [0;31m:$$b[0;37m [0m                     [31m.[0m
              [34m:[0m           [37m,$$$$$$$$$$$$. [0;31mi$$$,[0m                    [31m;[0m
-             [34m│[0m           [37m$$$$$$$[0;36m$$$$$$[0;37m$ [0;31m:$$$$gggggggggggggggggggg$ggggg [0;37m [0m
+             [34m│[0m           [37m       [0;36m      [0;37m  [0;31m                                [0;37m [0m
      [37m        [0;34m"          [0;37m $$$$$$$[0;36m$$$$$$[0;37m$ [0;31m $$$$$$$ⁿ$$$$$$$$$$$$$$$$$$$▒▒$ [0;37m [0m
 [37m  [0;34mm s d[0;1;30m [0m [31m [0;37mr e v i v [0;31ma[0;37m [0;31ml[0;37m [0;34m.[0;37m`$$$$$$[0;36m$$$²$$[0;37m'' [0;31mj$$$$$SP[0;37m  [0;31m`²S$$$÷" `$$$$$$$$▒▒$ [0;37m [0m
 [34mgggnngggggggnngggggggnng$b.[0;37m`²░░$$$$%²''[0;31m.d$$²"[0;36m ., [0;37mj$g┌,. [0;36m.,┌b [0;31m`$$$$²"```''[0;37m [0;33m [0m
@@ -56,10 +56,4 @@ Write-Host '
          $$$$$$$$$$$$$$.        `²√░░$$$$$$$$$$$$$$$$$$$$$$$$$$$$$░░²''
          :$$$$$$$$$$$$$;             ```"""²²²²²²²²²²"""""""`````
           ²$$$$$$$$$$$$$,
-             `"²²└└└└└└┘''
-
-
-      this is some serious last minute ascii.  sorry but this has been
-a busy month.  greets-  the revival krew  r[1mespect[0m    skatter for
-making some crazy shit happen.  priZm    the goverment[0m
-'
+             `"²²└└└└└└┘''[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2762be3f104320a188a38072335ed3726300370ecffed1658dcc9fd42ad00b29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pxg-eye.ans by Pixel Goth (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20150130
 # SAUCE Dimensions: 80x210
 # SAUCE Font: IBM VGA
@@ -25,7 +25,7 @@ Write-Host '
 [31m-------[0;36m..;s$$;;,↕↕↕↕↕↕.s$$$$$SSSS$$ssSSSSS$$$$$SsssS$SS$$$S$$$$Ssss$$S;;.[0;31m-------[0m
 [31m-----[0;36m,,;;Ss;s,S$$Ss;,;s;;sss$sssSSS$$$SSS$$ssSsSs;;,,,s$SS$$s;s;;ss;;SS$$s.[0;31m-----[0m
 [36m.;;,s$;;,;..,,,ss;s;sSS;,,;;;s;sSSS;..,    ,,;;;;;;;,,;;;;;ss,,.;;,.sS,.sss,,,,,[0m
-[36msSs;sSS;;s,..;s$$$sSSs;;;;;;ssssss,SSsS;;;;;;,;;;;;;SsSSsssssSSSSssss$$S$$$$ss;;[0m
+[36m                                                                                [0m
 [36mss$$$$$$$s$sSSs;;;;ss;,;s;;,;;sss;,;;,,;s,.,.,,,;,,   ..,  ,;SSS;SS;;;s;sS;s;.[0m
 [1;36m,....  [0;36m. ., .. ,,;;;, ,,,ssSss;s;,s;.,..,..,,, ,,.,;;;.....   ..sS$Sss.. .;... [0;30m↑[0m
 [30m↑↑↑↑↑↑[0;1;36m.,......[0;30m↑[0;1;36m.[0;36m..;S;.[0m     [36m.[0m     [36m... .,..;;.  .,;,;,;,;;;,  .,[0;1;36m,[0;36m,[0m     [36m,.. . ,[0m

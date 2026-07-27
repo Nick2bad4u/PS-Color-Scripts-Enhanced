@@ -5,7 +5,7 @@
 # Source SHA-256: 621a18eca28203759b17e255a43e3481a9b7c969f3f6be9fe47934a3b9342651
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: po-uglee.ans by Portia (equate01); released in equate01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 94-141
 # Columns: 1-80
 
@@ -37,16 +37,16 @@ Write-Host '
 [1;35;45m░░[0;35m███[0;1;35;45m [0;45m░░[0;1;35;45m▄▓▓[0;35m██▀    ▀▀▀█[0;1;35;45m▀[0;35m█[0;1;35;45m▄██[0;35m█[0;1;35;45m▀[0;35m█████[0;1;35;45m▀█▀▀[0;1;35;42m▄▓[0;1;35;45m█▓▀███[0;1;35;47m█▓▀[0;1;37;47m░▄[0;1;35;47m▄[0;1;35;46m▀[0;1;35;47m▐[0;1;35;45m▄[0;35m█[0;1;35;45m▀[0;35m███████████▀▀▄▄███▀▄███[0m
 [1;35m▒[0;1;35;45m▓ ▄▄[0;1;35;47m▓░░[0m▀[1;35m▀[0;35m▀ [0m   [1;34m        [0;35m  ▀▀▀▀███████████[0;1;35;45m▀▀▀[0;1;35;40m▒[0;1;35;45m██[0;1;35;40m▓[0;1;35;41m▓[0;1;35;45m█[0;1;35;47m▓▓[0;1;35;45m▓▀▀[0;35m█████████▀▀▀  ▄▀█▓▀ ▄█████[0m
 [35m▀▀▀▀[0;37m ░░[0;1;37m░[0;31m░░[0;37m  [0;1;34m                     [0;35m▀▀▀▀███████[0;1;35;45m░[0;35m█[0;1;35;45m▀▀▀▀░░[0;35m████▀▀▀▀  [0m       [35m▀ ░[0;37m [0;35m▐██████[0m
-        [31m░░[0;1;34m             [0;1;31mfone sex[0;1;34m    [0;35m▀▀▓▄▄[0;1;34m [0;35m▀▀▀▀▀▀▀▀▀▀▀[0m          [1;34m      [0m      [35m▀▀█▓▓█[0m
-        [31m░░[0m             [37m1[0;1;31mone sex[0m   [1;31m       [0;35m▀[0;1;31m                         [0m           [35m░░[0m
-        [31m▓▓[0m             [1;31mgoat sex[0m              [1;31m             [0m
+        [31m░░[0;1;34m             [0;1;31m        [0;1;34m    [0;35m▀▀▓▄▄[0;1;34m [0;35m▀▀▀▀▀▀▀▀▀▀▀[0m          [1;34m      [0m      [35m▀▀█▓▓█[0m
+        [31m░░[0m             [37m [0;1;31m       [0m   [1;31m       [0;35m▀[0;1;31m                         [0m           [35m░░[0m
+        [31m▓▓[0m             [1;31m        [0m              [1;31m             [0m
         [31m▓▓[0m             [34m2[0;37m [0;34m4[0;37m [0;34m-6 .8[0m
-        [31m▓▓[0m             [1;32mwho do we[0;1;34m [0m
-        [1;31m▒▒[0;1;34m             [0;34massasgin8[0m
-        [31m██[0;37m [0;1;33mportia_goat13@hotmail[0m               [1;35mgo brunette[0m
-        [1;35;41m░░[0m [35morginality is the key[0m               [1;36mblondes suc[0m
-        [1;35;41m░░[0m             [1;34mself destruction is the answer[0m
-        [1;35;41m▓▓[0m             [1ma life of self pleasure is the path[0m
+        [31m▓▓[0m             [1;32m         [0;1;34m [0m
+        [1;31m▒▒[0;1;34m             [0;34m         [0m
+        [31m██[0;37m [0;1;33m                     [0m               [1;35m           [0m
+        [1;35;41m░░[0m [35m                     [0m               [1;36m           [0m
+        [1;35;41m░░[0m             [1;34m                              [0m
+        [1;35;41m▓▓[0m             [1m                                   [0m
         [1;35;41m▓▓[0m
         [1;35;41m██[0m                    [1;31m░░[0m  [1;31m▄[0m       [1;31m▄[0m
         [1;35;41m██[0m                    [1;31m▄▓▓██[0m   [1m░[0m   [1;31;46m░▒▓[0;1;31;47m▓[0;1;31;40m▄[0m
@@ -55,6 +55,5 @@ Write-Host '
         [1;35mpo[0m          [1;35m [0m           [36m▀▀[0;1;31m▀[0;1;31;47m▓[0;1;31;40m▌[0;1;37;40m▐[0;1;36;40m█[0;1;37;40m▌[0;36m▐[0;1;31;46m░[0;1;31;40m█▀▀▀[0m
         [1;35mpo[0m          [1;35m ░[0m          [1;36m▄[0;1;31;46m▓[0;1;31;40m█▄▀[0m [1m█▌[0;1;31m▀█[0;1;31;46m▓[0;1;31;40m▄[0m   [1;33mpee[0;1;37me[0;1;35mpo[0;1;37mo[0;1;33mohh[0m
         [1;35mpo[0;1;32m [0m         [1;35m░ [0m          [36m▀[0;1;36;46m░[0;1;31;46m░[0;1;31;40m▀ [0m [1m▀[0m [36m▐█[0;1;31;46m▓[0;1;31;40m▓▀[0m  [1mequate[0;1;35m [0;1;37m 00[0m
-        [1;35mpo[0;1;32m  [0m                              [1;31m░░[0m   this was for janelle
-        [1;35mpo[0;1;32m   [0m
-        [1;35mpo[0;1;31mrtia_goat13@hotmail.com[0;31mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm[0m'
+        [1;35m  [0;1;32m  [0m                              [1;31m░░[0m                       
+        [1;35mpo[0;1;32m   [0m'

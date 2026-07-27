@@ -5,7 +5,7 @@
 # Source SHA-256: 91459f58e7778988f0e28257f8de2e101d1490b03a8743c705ee013cf1d29dba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRZ-DL.ANS by Big Yellow Man + Krazie (phobia); released in plf-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: err.. dl
 # SAUCE Author: krazie
 # SAUCE Group: phobia
@@ -30,8 +30,4 @@ Write-Host '
               [33m▀▀█[0m    [33m█[0;1;33m█▄██ [0;31m▐[0;1;31;41m▐▓░[0;31m▌[0;1;33m ▀ [0;31m▐█[0;1;31;41m▄▌[0;31m▌▐[0;1;31;41m▀█▄▌[0;1;33;40m  █ [0;31m▐[0;1;31;41m▐[0;1;31;47m▓[0;1;31;41m▌[0;31m▌[0;1;33m▐█[0;1;33;43m▀ [0;1;33;40m [0;33m   [0;1;33m     [0m
             [1;33m   [0m    [1;33m▄▄ [0;33m▀[0;1;33;43m▀▀[0;1;33;40m█▌ [0;31m█[0;1;31;41m▀▌[0;31m▄[0;1;33m  [0;31m▄█[0;1;31;41m▀▀[0;31m▀[0;1;33m  [0;31m▀█[0;1;31;41m▀[0;1;30;41m ░[0;31m▄▄▄█[0;1;31;41m▀ [0;31m▀[0;1;33m [0;1;33;43m▀▀[0;33m▀[0;1;33m [0;33m▄[0;1;33;43m▓[0;1;33;40m▄[0m    [1;33m  [0m
             [1;33m [0;33m▀[0;1;33m [0m   [33m█[0;1;33;43m▀▀[0;1;33;40m█   ▀▀  [0;31m▀▀▀▀▀▀▀▀[0;1;33m  █[0;1;37m█▄[0;1;33m▄    [0;31m▀▀▀▀[0;30;41m▓▓[0;1;33;40m [0m     [33m▀[0m
-                   [33m▀▀[0;1;33m [0;33m▐[0;1;33;43m>> DL [0;33m▌░░[0;1;33m [0;33m░[0m    [33m▀[0;1;33;43m  ▀[0;33m█▀[0m           [1;33m▀■[0m
-
-
-                        [33mfont[0;37m [0;33mby[0;37m [0;33mkrazie[0;37m [0;33m,[0;37m [0;33mbackgroud[0;37m [0;33mby[0;37m [0;33mbym[0m
-                        [1;30m5min[0m [1;30mof[0m [1;30mdoodeling[0m [1;30mfor[0m [1;30mcatharsis[0m'
+                   [33m▀▀[0;1;33m [0;33m▐[0;1;33;43m>> DL [0;33m▌░░[0;1;33m [0;33m░[0m    [33m▀[0;1;33;43m  ▀[0;33m█▀[0m           [1;33m▀■[0m'

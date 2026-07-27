@@ -5,7 +5,7 @@
 # Source SHA-256: f498a7e3b35f8a5133b55e5e2b17a3924be689584c31b848b9f08940b714a104
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VE-MAIN.ANS by VeNoMouS (DeViL FoRCeS); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Un Main!. kewL!
 # SAUCE Author: VeNoMouS
 # SAUCE Group: DeViL FoRCeS
@@ -29,6 +29,6 @@ Write-Host '
       [35m,·.[0m    [35m   ,''[0m    [35m|[0m      [35m,·.[0m       [35m,''[0m    [35m|[0m      [35m,·.[0m       [35m,''[0m     [35m`''`∙[0m
 [37m [0;35m_,;''`[0;37m  [0;35m `Ss,.∙°[0m       [35m`_,;''`  [0;37m [0;35m`Ss,.∙°[0m       [35m`_,;''`[0m   [35m`Ss,.·°[0m         [35m [0;37m [0;35m`∙_,;''`[0m
 [35m [0m        [35m [0m
-[1;37m    [0m                 [1mPut Yar Options In Ever Place YOU WANT![0m
+[1;37m    [0m                 [1m                                       [0m
                                         [35m [0m
     [1;37m      [0m                                                  !vN![0m'

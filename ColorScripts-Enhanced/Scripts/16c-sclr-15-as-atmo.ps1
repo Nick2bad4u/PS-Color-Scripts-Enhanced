@@ -5,7 +5,7 @@
 # Source SHA-256: c70935aa8f9c359c7fcf8ccfa0effdfdf6c15b211b8fc0719b809b4c54cac640
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-ATMO.ANS by Asd (sclr-15); released in sclr-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [37;40m                            [0;1;34;40m,╓╥╥╥╥╥╥╬╬╥╥╥╥╥╥╖,[0;37;40m                                  [0m
 [37;40m                             [0;1;34;40m``?$$$[0;1;34;44m$╬╬[0;1;34;40m$[0;1;34;44m╬╬[0;1;34;40m$7``[0;37;40m                                   [0m
 [37;40m                                [0;34;40ml[0;1;34;40m$[0;1;34;44m$$[0;1;34;40m$[0;1;34;44m╬╬╬[0;1;34;40m$l[0;37;40m                                      [0m
-[37;40m                         [0;34;40m>>m[0;1;34;40mmm[0;34;40mmy[0;1;34;40myy╪[0;1;34;44m╬[0;1;34;40m$[0;1;34;44m$╬[0;1;34;40m$yymmmm<<[0;37;40m                                [0m
+[37;40m                         [0;34;40m   [0;1;34;40m  [0;34;40m  [0;1;34;40m  ╪[0;1;34;44m╬[0;1;34;40m [0;1;34;44m ╬[0;1;34;40m         [0;37;40m                                [0m
 [37;40m           [0;1;34;40m,╓*%S$[0;1;34;44m$[0;1;34;40mS%*╖,[0;37;40m        [0;34;40m_$[0;1;34;44m╬╬[0;1;34;40m$[0;1;34;44m$$$╬╬[0;1;34;40m$_[0;37;40m         [0;1;34;40m.╓*%S[0;1;34;44m╬[0;1;34;40m$S%*╖.[0;37;40m                [0m
 [37;40m         [0;1;34;40m\$$[0;1;34;44m╬$[0;1;34;40m$[0;1;34;44m╬╬$╫╫[0;1;34;40m││$$/*╖.╖[0;34;40m\$SQ[0;1;34;40m$[0;1;34;44m╬╬[0;1;34;40m$[0;1;34;44m$╬╬[0;1;34;40mSQS[0;1;34;44m$[0;1;34;40m$/╓.╓*\$$││$[0;1;34;44m╬╫╬[0;1;34;40m$$┼[0;1;34;44m┼╬[0;1;34;40m$/[0;37;40m              [0m
 [37;40m        [0;1;34;40m;$$[0;1;34;44m╬╬[0;1;34;40m$[0;1;34;44m╬╬╬[0;1;34;40m╨²"``[0;37;40m [0;1;34;40m`$[0;1;34;44m▓[0;1;34;40m7`[0;37;40m       [0;1;34;40m````[0;37;40m        [0;1;34;40m`/$$`[0;37;40m [0;1;34;40m``"²╨[0;1;34;44m╬┼[0;1;34;40m$╬[0;1;34;44m╬[0;1;34;40m╬┼$;[0;37;40m             [0m
@@ -32,9 +32,7 @@ Write-Host '
 [37;40m        [0;34;40m|☺☻☻[0;1;34;40m☻[0;1;34;44m☻☻[0;34;40m☺☺[0;1;34;40m☻;[0;1;34;44m╬╬[0;37;40m [0;34;40m☺☻☻[0;1;34;40m☻[0;1;34;44m☻☻[0;1;34;40m*╓╓[0;34;40m.[0;1;34;40m.[0;34;40m__;[0;1;34;40m$╬[0;1;34;44m╬╬╬╬[0;1;34;40m$l[0;37;40m    [0;1;34;40ml[0;1;34;44m╬[0;1;34;40m/g╥,,╥g\[0;1;34;44m╬[0;1;34;40ml[0;37;40m                    [0m
 [37;40m        [0;34;40m╙╙╙╙╙[0;1;34;40m╙╙╙[0;34;40m╙╙[0;1;34;40ml[0;1;34;44m╬[0;1;34;40m$lo╓,.)╙[0;34;40m╙╙[0;1;34;40m`*\[0;34;40m$[0;1;34;40m$[0;1;34;44m╬╬[0;1;34;40m╬╬[0;1;34;44m╬╬╬╬[0;1;34;40m$[0;37;40m    [0;1;34;40m`''─╜*%%*╙─''`[0;37;40m                    [0m
 [37;40m                  [0;1;34;40m``^"²²─╜*%$#;:[0;1;34;44m╬╬╬╬[0;1;34;40m╬╬╬╬╬[0;1;34;44m╬[0;1;34;40m╬[0;1;34;44m╬[0;1;34;40mL╓,__[0;37;40m                               [0m
-[37;40m                               [0;1;34;40m|W[0;34;40mWWW[0;1;34;40mWWWWWWW[0;34;40mWW[0;1;34;40mWWW[0;34;40mW[0;1;34;40m|[0;37;40m                              [0m
+[37;40m                               [0;1;34;40m  [0;34;40m   [0;1;34;40m       [0;34;40m  [0;1;34;40m   [0;34;40m [0;1;34;40m [0;37;40m                              [0m
 [37;40m                                                                                [0m
 [37;40m                                                                                [0m
-[1;30;40m-----[cut here]----[0;37;40m                                                             [0m
-[1;30;40mmusic[0;37;40m [0;1;30;40m:[0;37;40m [0;1;30;40mArchatos[0;37;40m [0;1;30;40m- Strength of Unity[0;37;40m                                            [0m
-[1;30;40mgreets:[0;37;40m [0;1;30;40mMPh, Crasher, rmk, jah.[0;37;40m                                                 [0m'
+[1;30;40m-----[cut here]----[0;37;40m                                                             [0m'

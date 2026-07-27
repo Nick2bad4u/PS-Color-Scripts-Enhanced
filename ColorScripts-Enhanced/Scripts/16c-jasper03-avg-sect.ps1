@@ -5,7 +5,7 @@
 # Source SHA-256: 81136042dbd2fa7253978c14481efc1a62ff91e9acba700ecc3548f35d0a2b0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Avg-sect.ans by avenging angel (Jasper / Lure); released in jasper03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sector 7
 # SAUCE Author: avenging angel
 # SAUCE Group: Jasper / Lure
@@ -35,6 +35,4 @@ Write-Host '
 [34m█[0;36;44m▀[0;34;40m    [0;34;46m█[0;1;36;40m▒▓▓[0m   [35m▀▀▀▀▀[0;37m      [0;34m▄▄▄[0;36;44m▄[0;1;36;46m▄██████▀[0;34;46m [0;34;40m▓[0m      [37;40mCommands[0m     [1;30;40m▒[0;33m██[0;1;31;43m▀▀[0;33m██[0;1;31;43m█[0;1;37;47m [0;1;37;40m▓[0;1;30;40m▀[0m  [35m▄[0;1;35;47m  [0;1;35;45m█▓[0;35m█░[0;37m [0;33m [0;1;31;43m░[0m
 [34m██▄   [0;34;46m█[0;36;44m█[0;1;36;40m▒▒[0;34m▄▄▄▄▄▄▄▄▄▄▓▓▓▓▓█[0;34;46m█[0;36;40m▀▀▀[0;34;40m▀   [0;1;36;46m▀[0;34;46m █[0;34;40m░[0m      [37;40mCommands[0m     [1;30;40m▓[0;33m██[0;1;31;43m█▄ [0;33m█[0;1;31;43m█[0;1;31;47m [0;1;37;40m▒[0m  [1;30m [0;1;35;45m█[0;1;35;47m▄█[0;1;35;45m█░[0;35m█[0;37m  [0;1;31m░[0;1;31;43m▓[0m
 [36;44m▄▄[0;34;40m████[0;36;44m [0;34;46m█▄▄[0;34;40m██████[0;34;46m▀▀▀▀▀▀▀▀▀▀▀[0;36;40m▄▄▄[0;34;40m▄▄▄▄[0;34;46m▄█[0;34;40m█[0;1;34;40m [0m                 [33m  [0;1;30m█[0;33m██[0;1;31;43m▀█ [0;33m█[0;1;31;43m█[0;1;31;47m▄[0;1;31;43m▀[0m  [1;30m█[0;1;30;45m▄▄[0;35m▀▀▀▀[0;37m  [0;1;31m▓[0;1;31;43m█[0m
-[1;36;40m▓▓▓[0;34m██████████[0;34;46m [0;1;36;46m█████▓▓▓[0;1;36;40m▓▓▓▒▒[0;34;46m [0;36;40m█[0;36;44m▀[0;34;40m██[0;1;34;44m  [0;1;34;40m▒▒▒ [0m                   [1;30m▀▀▀▀[0m                 [33m▀[0;1;31m▀[0m
-[34m                                      [0m
-[1;30mSector 7, for grymmjack..[0m'
+[1;36;40m▓▓▓[0;34m██████████[0;34;46m [0;1;36;46m█████▓▓▓[0;1;36;40m▓▓▓▒▒[0;34;46m [0;36;40m█[0;36;44m▀[0;34;40m██[0;1;34;44m  [0;1;34;40m▒▒▒ [0m                   [1;30m▀▀▀▀[0m                 [33m▀[0;1;31m▀[0m'

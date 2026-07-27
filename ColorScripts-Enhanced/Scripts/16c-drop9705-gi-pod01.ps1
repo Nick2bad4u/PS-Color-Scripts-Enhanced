@@ -5,7 +5,7 @@
 # Source SHA-256: d74086f0b8cbcb9fc0d9853e899f8ad7baec5adb35ffeb89d85a9ca83d9fb2ff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GI-POD01.ANS by green ice (drop); released in drop9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pod logo
 # SAUCE Author: green ice
 # SAUCE Group: drop
@@ -33,6 +33,4 @@ Write-Host '
 [36m    ▀▀[0;1;36m▓[0;36m▀▀▀▒▀▀■▓[0m
       [1;36m▀[0m                [34m.[0;1;37mp a t h  o f  d e s t r u c t i o n[0;34m.[0m
 
-                                [34m[[0;1;37m810[0;34m] [0;1;37m641[0;34m-[0;1;37m5005[0m
-
-                                [1moP[0;34m: [0;1;37maerosmit[0;34mh[0m'
+                                [34m[[0;1;37m810[0;34m] [0;1;37m641[0;34m-[0;1;37m5005[0m'

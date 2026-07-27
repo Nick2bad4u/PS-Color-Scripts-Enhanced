@@ -5,7 +5,7 @@
 # Source SHA-256: 22d1c039a21e4d8622c30d7133faae1edc8672c4b2bff2419c803bbb066ee40f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (M!)HARL.ANS by m0! (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: harakiri login
 # SAUCE Author: m0!
 # SAUCE Group: phat studios '97
@@ -38,18 +38,4 @@ Write-Host '
 [1;32;42m░░▐██▌[0;32m█▌[0;34m▄[0;30;44m░[0;34;40m▀ [0;1;30;40m▄▄▄▄[0;34m ▀█ █▀ [0;1;30m▄▄▄[0;34m ▀█▄[0;32m ▐[0;1;32;42m ▄▄▄[0;1;37;42m▄▄[0;1;32;42m▄▄▄▓▓░░[0;32m█[0;1;32;42m▄▄▄▄▄▄▄[0;1;37;42m▄▄[0;1;32;42m▄▓▓░░▄[0;32m███[0;1;32;42m▄▄▄▄[0;1;37;42m▄▄[0;1;32;42m▄▄▄▄▓░░[0;32m██ [0m
 [32m ▀█[0;1;32;42m▀▀▀[0;32m█▄[0;34m [0;1;30m  ▀▀▌▀▀▀     ▀▀▀▀▀   [0;32m▄█[0;1;32;42m░▓▓▀▀▀▀░░[0;32m▀▀  ▀▀▀██[0;1;32;42m░░▀[0;1;37;42m▀▀[0;1;32;42m▀▀▀[0;32m███▀ ▀▀██[0;1;32;42m▀▀▀▀▀[0;32m███▀▀▀[0m
 
-[1;30m--(cut)--(schneid)---------- ------------- - ---(kastrier)--------------------- [0m
-[1;30mHmm.. login screen for my board - the harakiri. Ask me par los numbros[0m [1;30met[0m [1;30mlos[0m
-[1;30mtimos onlinos. =)[0m
-
-[1;30mwant your own? - email ... acid@megatec.de [0m
-
-[1;30mSum infos about *FREE* requests:[0m
-[1;30mThe major part of my ansis I do are free gifts or free reqs. ... whatever...[0m
-[1;30mRemember if you request a free ansi, don''t expect it''ll be ready in 2 or 3[0m
-[1;30mdays... no way - about 2 weeks... Yup, I''m busy. Ansi is not the only thing[0m
-[1;30mI do =) ... there are some progs/ppes/songs which also want to get finished[0m
-[1;30mthis year <g>. [0m
-[1;30mBuuuut, if you have something to offer (eg. free leech, muchos uploados, etc.)[0m
-[1;30myour ansi/logo will be ready in a few days (at the moment)... same for trades.[0m
-[1;30m... support harakiri ;))) ... draw ansis for me!!! ;)[0m'
+[1;30m--(cut)--(schneid)---------- ------------- - ---(kastrier)--------------------- [0m'

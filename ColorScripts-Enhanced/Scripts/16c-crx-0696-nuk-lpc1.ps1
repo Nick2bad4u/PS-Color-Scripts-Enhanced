@@ -5,7 +5,7 @@
 # Source SHA-256: b9b96fa3b9aee98c5887a80e6438a615f81125c93758a1dfd20d46ef738a342e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NUK-LPC1.ANS by Nuker (crx-0696); released in crx-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -32,6 +32,6 @@ Write-Host '
 [1;31;40m█[0;1;31;41m██▓▓▓▒▒▒▓[0;1;31;40m▌[0;31m▄▀▀[0m     [1;31m▀[0m        [1;31m▀▀██[0m       [1;31m▀█▄[0;1;30m▒░░░  [0;1;31m▄███▄[0;31m▀[0;1;31;41m▀▀▀▓▒░▒▓▓▓▒▓▀[0;31m▀[0;1;31m▄[0;1;31;41m█▓▒░▒▓██[0;1;31;40m███[0m
 [1;31;40m█████[0;1;31;41m█▓▓▓[0;1;31;40m█▌▄[0m                    [1;31;40m▀[0m        [1;31;40m▀▄[0;1;30;40m░  [0;1;31;40m▄▀▀[0m        [31m▀▀▀[0;1;31;41m▀▀▀▀[0;31m▀▀[0;1;31m▄███[0;1;31;41m█▓▒▓█[0;1;31;40m█████[0m
 [1;31;40m██████[0;1;31;41m██[0;1;31;40m██▀▀  [0;1;30;40m[[0;31m+41 31 9140655[0;1;30m][0;1;31m·[0;1;30m[[0;31m2 GBYTES[0;1;30m][0m                           [1;31m▀▀▀[0;1;31;41m█▓█[0;1;31;40m██████[0m
-[1;31;40m█████▀▀[0m      [1;30;40m[[0;31maRT[0;1;30m][0;1;31m·[0;1;30m[[0;31mPC wAREZ[0;1;30m][0;1;31m·[0;1;30m[[0;31muNDERGRoUND[0;1;30m][0;1;31m·[0;1;30m[[0;31mBBS sUPPoRT[0;1;30m][0m                 [1;31m▀▀████[0m
-[1;31m█▀▀[0m         [1;30m[[0;31mdEATHRoW WHQ[0;1;30m][0;1;31m·[0;1;30m[[0;31mXGJ CHHQ[0;1;30m][0;1;31m·[0;1;30m[[0;31mGOA CHHQ[0;1;30m][0;1;31m·[0;1;30m[[0;31mCOT DiST[0;1;30m][0;1;31m·[0;1;30m[[0;31mYODEL NET[0;1;30m][0m       [1;31m▀█[0m
-[1;31m▌[0m          [1;30m[[0;31mSooN [0;1;31m2 [0;31mNoDES RiNGDoWN![0;1;30m][0;1;31m·[0;1;30m[[0;31mUSR v.34[0;1;30m][0;1;31m·[0;1;30m[[0;31msYSoPS: zENGo & cALViN[0;1;30m][0m        [1;31m▐[0m'
+[1;31;40m█████▀▀[0m      [1;30;40m [0;31m   [0;1;30m [0;1;31m [0;1;30m [0;31m        [0;1;30m [0;1;31m [0;1;30m [0;31m           [0;1;30m [0;1;31m [0;1;30m [0;31m           [0;1;30m [0m                 [1;31m▀▀████[0m
+[1;31m█▀▀[0m         [1;30m [0;31m            [0;1;30m [0;1;31m [0;1;30m [0;31m        [0;1;30m [0;1;31m [0;1;30m [0;31m        [0;1;30m [0;1;31m [0;1;30m [0;31m        [0;1;30m [0;1;31m [0;1;30m [0;31m         [0;1;30m [0m       [1;31m▀█[0m
+[1;31m▌[0m          [1;30m [0;31m     [0;1;31m  [0;31m               [0;1;30m [0;1;31m [0;1;30m [0;31m        [0;1;30m [0;1;31m [0;1;30m [0;31m                      [0;1;30m [0m        [1;31m▐[0m'

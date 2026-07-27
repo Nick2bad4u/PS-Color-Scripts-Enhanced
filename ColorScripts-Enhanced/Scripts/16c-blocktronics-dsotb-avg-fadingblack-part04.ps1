@@ -5,7 +5,7 @@
 # Source SHA-256: 98cd0b39446bf742f1c1ce4df0cf011d460fe864386b2e92847099694edef2d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-fadingblack.ans by avenging angel (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fading black
 # SAUCE Author: avenging angel
 # SAUCE Group: blocktronics
@@ -62,7 +62,4 @@ Write-Host '
 ▓[47m      [0;40m▄   ▄[0;1;47m░[0m▓[1;47m░[0m████[1;47m░[0m█[1;47m░[0m▄   [1;30m▄[0;1;37;47m█[0;1;37;40m████[0;1;37;47m▀[0;1;37;40m███[0;1;37;47m█[0;1;37;40m [0;1;30;40m█[0;1;30;47m    [0m▄   [47m      [0;40m▀▀   [0;1;40m████[0;1;47m███[0;1;40m███▄   ▄[0;1;47m▄[0;1;40m████[0m▀
    ▀[47m           [0;40m▀[0;1;30;40m■ [0m▀[47m   [0;40m██▄▄[0;1;47m▄[0;1;40m███[0;1;47m▀[0m▀[1;30m▀[0;1;37m███▓  [0m▀[47m     [0;40m▄▄[0;47m  [0;40m▀[0;47m     [0;40m▄▄[0;1;40m▓▓▓▓[0;1;47m▀[0m▀ [1m▀[0;1;47m█[0;1;40m█[0;1;47m████[0;1;40m█████[0;1;47m▀[0m▀
      ▀[47m       [0;40m▀[0;1;30;40m▀[0m     ▀██[47m  [0;1;40m▓▓▓[0;1;47m▀[0m▀   [1;47m▀[0;1;40m▓▓[0;1;30;40m▀    [0m▀[47m       [0;40m  ▀████████▀     [0;1;40m▀[0;1;47m▀██████▀[0m▀
-        ▀▀▀▀[1;30m▀[0m          ▀▀▀▀▀               ▀▀▀▀▀      ▀▀▀▀▀          ▀▀▀▀▀
-
-
-                         [1;30mdrawn by avg_ of blocktronics[0m'
+        ▀▀▀▀[1;30m▀[0m          ▀▀▀▀▀               ▀▀▀▀▀      ▀▀▀▀▀          ▀▀▀▀▀[0m'

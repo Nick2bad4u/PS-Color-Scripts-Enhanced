@@ -5,7 +5,7 @@
 # Source SHA-256: 2a90c5dc624020d760cc96ca9386d66dee675ce70cf8352a488282557c94b3e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: xk-rezin.ans by xkey (secular); released in sclr-32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rezine logo [req]
 # SAUCE Author: xkey
 # SAUCE Group: secular
@@ -37,6 +37,4 @@ Write-Host '
                                 [1;30m`[0m
 
 
-[1;30m---[0m
-[1;30m''rezine'' emag logo[0m
-[1;30mreq: nightrain[0m'
+[1;30m---[0m'

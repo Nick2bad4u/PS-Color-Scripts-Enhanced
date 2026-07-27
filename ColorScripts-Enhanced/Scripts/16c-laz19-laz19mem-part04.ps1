@@ -5,7 +5,7 @@
 # Source SHA-256: 863901fa70a66b7f9ebca238bfb30a8465d069387b8443ebaa45e9cf78fc17b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAZ19MEM.ANS by warpus (LAZARUS); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: LAZARUS 19 MEMBERLIST
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -61,5 +61,5 @@ Write-Host '
 
 
 
-[37;40m              [0;30;40mS[0;1;30;40mHE WHO CONTROLS THE SPACE BAR CONTROLS THE UNIVERSE[0m
+[37;40m              [0;30;40m [0;1;30;40m                                                   [0m
                               [30;43m██[0m'

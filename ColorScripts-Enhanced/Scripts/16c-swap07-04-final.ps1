@@ -5,7 +5,7 @@
 # Source SHA-256: f792d31f90b182e2880e50ae98577ee0a0292a412162fcfc4eb54c122e51e78d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 04-FINAL.ANS by Pzyko + Black Viper + Mel Farr Suppastar + Corinthian + Stone The Crow + Nail + Illusion X + Epoxy (swap07); released in swap07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -34,6 +34,4 @@ Write-Host '
 [34m▄  ▀▀▀▀ ▀▀▀[0;37m  [0;35m▀▀ ▄▄▄▄░▀▀▄▄ ▀▀▀▀▀▀[0;37m [0;31m▄▄▄▄ ▄▄        ▄█ [0;31;45m ▄▄▄▄▄▄[0;1;35;45m▄▄[0;35m█[0;1;35;45m█▄▄[0;35m█[0;1;35;45m▄[0;35m███▀█▒█[0;1;35;45m▄▄██▌▐[0;35m█[0m
 [1;35;45m▄░[0;35m▄ ▄█ ▄[0;1;35;45m▄ ▄▄ [0;35;45m▄▄▄▄░ ▄▄▄[0;35;40m█[0;35;45m▄▄[0;35;40m██[0;35;45m▄[0;35;40m█▀██▀[0;31;45m ▀█▄▄▄█▄▄▄▄[0;31;40m████ ▀▄[0;31;45m▌[0;31;40m█[0;31;45m█[0;31;40m█[0;31;45m█▄[0;31;40m█[0;35;40m█[0;1;35;45m▄▄▄▄[0;35m████[0;1;35;45m░[0;35m█[0;31m████[0;31;45m ▓[0;31;40m█████[0m
 [35;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35;45m█▓▄█▄[0;35;40m█[0;35;45m▄ ░░[0;35;40m▄▄▄  █▄[0;31;40m█▄█[0;31;45m▄[0;31;40m█[0;31;45m▄██[0;31;40m█[0;31;45m▀[0;31;40m██ ▓▄█[0;31;45m▄▄███▀▀██[0;1;35;45m█▀█▓▓▀▀▀░▀▀▀[0;35m██[0;1;35;45m▀ ░[0;35m█[0;1;35;45m  ▀[0;35m█[0m
-[1;31m              [0m    [1;35m░░[0m                                         [1;35m░░[0m
-
-[1;31m   swap(tm) #07 <10-13> - pzyko, bviper, mfs, corinth, stc, nail, illx, epoxy[0m'
+[1;31m              [0m    [1;35m░░[0m                                         [1;35m░░[0m'

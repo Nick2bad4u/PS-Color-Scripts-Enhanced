@@ -5,7 +5,7 @@
 # Source SHA-256: f4af4cd3c86fdd5a824292e5fb25962c4aee943cb0402fc4fa5e35764c10ed65
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QS-STX.ANS by Quasar (.%. Stile .%.); released in stl-005 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spantobi industries unlimited
 # SAUCE Author: Quasar
 # SAUCE Group: .%. Stile .%.
@@ -46,9 +46,9 @@ Write-Host '
      _ /_   ___[1;30m/[0m    __ \\__ _,   [1;30m)[0m       /   //[1;30m-[0m___  _   /   /[1;30m/[0m___(__ \[1;30m\[0m__
 [1;30m.( ([0m([1;30m ________)__ //    [0m([1;30m ______/__/ ___[0m([1;30m_________/_____/_________) ______)) ).[0m
 
-     [1;30m.  .[0m [1;30m..[0m..   art . demos . graphics . emags . code . design   ..[1;30m.. .  .[0m
-      [1;30m.  . ..[0m..   ops:  [1mdoze[0m<divine/deflect>  &  [1mquasar[0m<stile>   ..[1;30m.. .  .[0m
-                 [1;30m.  . ..[0m..   2 nodes 288OO bps power   ..[1;30m.. .  .[0m
+     [1;30m    [0m [1;30m  [0m                                                        [1;30m       [0m
+      [1;30m       [0m           [1m    [0m                     [1m      [0m            [1;30m       [0m
+                 [1;30m       [0m                                 [1;30m       [0m
 
         [1;30m.  . ..[0m..   f r e e   l e e c h   o n   * . *   a r t   ..[1;30m.. .  .[0m
 
@@ -59,7 +59,7 @@ Write-Host '
 [36m ▄[0;1;37;46m░[0;30;46m░[0;36;40m [0;1;37;46m░[0;36m█▀▀  ▀▀▀▀▀▀███▄ ██[0;30;46m░[0;36;40m [0;1;37;46m░[0;36m██ ▄[0;1;37;46m░[0;36m ▄[0;1;37;46m░[0;36m█  [0;1;37;46m▒░[0;36m▀  ▄▄[0;1;37;46m░░[0;1;36;46m░[0;1;37;46m░[0;36m██████[0;30;46m░[0;36;40m█[0;30;46m░░[0;36;40m██[0;30;46m░[0;36;40m███▀██[0;30;46m░[0;36;40m▄█[0;30;46m░[0;36;40m▀[0;30;46m░[0;36;40m▄▀ ▄ ▀[0m
 [36;40m █[0;1;37;46m░[0;30;46m░[0;36;40m █[0;30;46m░[0;36;40m [0;1;37;46m▓▓▒▒░░[0;1;36;46m░[0;36m▄▄▄▄▄▄ █[0;30;46m░[0;36;40m▒ ▄█[0;30;46m░[0;36;40m ▄█ ▄[0;30;46m░[0;36;40m▀ [0;1;37;46m▒[0;36m█  [0;1;37;46m▓░[0;1;36;46m░[0;36m▀▀ ▀  ▀   ▀[0m            [36m▄[0m   [36m▄ ▄ ▄▄▄▄[0;1;37;46m▒[0m
 
-     uhhhh shit.  did this turn out ugly or what.  so whatcha going to do
-     abut it huh?  SUE ME!!  bwhahaa.
+                                                                         
+                                     
 
                   [1mqs[0m.[1;33mstl[0m ''96[0m'

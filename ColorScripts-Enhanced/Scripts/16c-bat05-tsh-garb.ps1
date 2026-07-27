@@ -5,7 +5,7 @@
 # Source SHA-256: b4fec4b1ef8b1ef5ab7b3a4d753b01e153c7b512a13873db7a9ae82eb527dd26
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSH-GARB.ANS by The Shadow (bad attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: garbage logo
 # SAUCE Author: The Shadow
 # SAUCE Group: bad attitude
@@ -37,5 +37,4 @@ Write-Host '
 
 
 
-[1;30;40m{------------------------------------------------------------------------------}[0m
-[1;30;40m [0mUhh!. Help! =)..[0m'
+[1;30;40m{------------------------------------------------------------------------------}[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: cffebef893b071ccebdcb27c1a1a46817d3bcefbc14df469d29986242dc627f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K!MEL.ANS by keetar (poffelipoff); released in plf-0899 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mellow
 # SAUCE Author: keetar
 # SAUCE Group: poffelipoff
@@ -53,7 +53,4 @@ Write-Host '
 
 
 
-[1;34;47m░▒▓▓[0;1;34;40m█[0;1;34;47m▓█[0;1;34;40m█▌██▌██▐▌▌[0m
-
-[1;37;40mKeetar[0m([1;37mPLF/Mimic[0m) to zatchmo''s board [1;37mMellow[0m .. i hope you like it.
-                  Props to pyr0 (Daniel Edin) for the topic =).[0m'
+[1;34;47m░▒▓▓[0;1;34;40m█[0;1;34;47m▓█[0;1;34;40m█▌██▌██▐▌▌[0m'

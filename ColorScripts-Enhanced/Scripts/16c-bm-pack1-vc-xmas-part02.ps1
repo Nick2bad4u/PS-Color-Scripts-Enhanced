@@ -5,7 +5,7 @@
 # Source SHA-256: 925913a1f67741ccebfeb1d7f4a10845cb8ebead93bdd5fc78b376d5e5b9d707
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC-XMAS.ANS by VOiCE (BLF\CK MF\iDEN); released in bm-pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: On merrily, merrily christmas.
 # SAUCE Author: VOiCE
 # SAUCE Group: BLF\CK MF\iDEN
@@ -53,12 +53,12 @@ Write-Host '
 [1m─[0m─[1;30m───────────────────────────────────────────────────────────────────────────[0m─[1m─[0m
                [1;30m·[0m       ·               [1;30m·[0m      ·                          ·
 [1;30m·[0m                               [1;30m·[0m                        [1;30m·[0m
-      [1;30mThere is an angel who is waiting[0m                         [1;37m·[0m    [1;30m·[0m       ·
-      [1;30m   in the warming shine of a christmas tree,[0m   ·
+      [1;30m                                [0m                         [1;37m [0m    [1;30m [0m        
+      [1;30m                                            [0m    
 ·  [1;30m·[0m                      [1;30m·[0m       ·
-      [1;30mAnd a little child, carrying childish pride[0m              [1;30m·[0m    ·
-      [1;30mIs tuftling over the floor, to reach the oaken door[0m              [1;30m·[0m
- [1;30m·[0m    [1;30mAnd in its mystiful, meaningful, curious manner[0m
-      [1;30mIs approaching the wooden door, lifting slighty the banner[0m
-      [1;30mCovering the hole, the sole entrance for the key.[0m
+      [1;30m                                           [0m              [1;30m [0m     
+      [1;30m                                                   [0m              [1;30m [0m
+ [1;30m [0m    [1;30m                                               [0m
+      [1;30m                                                          [0m
+      [1;30m                                                 [0m
                [1;37m·[0m   [1;30m·[0m             [1;30m·[0m                              [1;30m·[0m        ·[0m'

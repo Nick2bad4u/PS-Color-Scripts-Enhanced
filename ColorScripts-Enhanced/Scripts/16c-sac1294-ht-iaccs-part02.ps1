@@ -5,7 +5,7 @@
 # Source SHA-256: 789081d9ac801c895beb159c35c3207ee6679ab9fd0380a4405714554ab750c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-IACCS.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ILLEGAL ACCESS
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -61,7 +61,7 @@ HETERO   [1;30m█▒[0;36m░[0m            [1;30m▒[0m           [1;30m
       [36m▄  ▀    ▀ [0;37m█[0m               [1;30m» S[0mY[1mSOP : ZYR[0mI[1;30mX «[0m                [1;30m█[0m
               [36m▓ [0;1;30m█[0m                                                [1;30m█[0m
           [36m▄[0m     [1;30m█[0m                                                [1;30m█[0m
-              [36m▄ [0;1;30m▓[0m             [1;37m··  FATAL WORLD HQ  ··[0m             [1;30m▓[0m
-                [1;30m▒[0m         [1;36m··  LKCC DISTRIBUTION SITE  ··[0m         [1;30m▒[0m
-                [1;30m░[0m             [36m··  NEON GERMAN HQ  ··[0m             [1;30m░[0m
+              [36m▄ [0;1;30m▓[0m             [1;37m                      [0m             [1;30m▓[0m
+                [1;30m▒[0m         [1;36m                              [0m         [1;30m▒[0m
+                [1;30m░[0m             [36m                      [0m             [1;30m░[0m
                 [1;30m░[0m                                                [1;30m░[0m'

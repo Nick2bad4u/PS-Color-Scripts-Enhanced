@@ -5,7 +5,7 @@
 # Source SHA-256: 3f4642b20a03ad907570e87844fb94480bf6fec8ce2b2ac4d213b475c04c5c33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TF.ANS by Taevore + Fugitivo (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tf
 # SAUCE Author: Multiple Artists
 # SAUCE Group: circe
@@ -34,5 +34,5 @@ Write-Host '
 [31m [0m       [32m░[0;37m   [0;1;32m▓[0m   [32m ▀[0;1;32;42m▀▌[0;1;32;40m▒░[0m   [36m░[0;30;46m▓[0;36;40m░░▌▓[0;37;40m [0;1;30;40m▌░[0;31m [0;35m▓  [0;31m [0;36m░[0;1;37m [0;1;35;46m▀[0;31m   [0;1;30;45m▄[0;1;35;40m▀▀▀▀▀▓▓▄[0;31m  [0;1;34m▓░░░░░[0m  [36m▓[0;37m   [0;34m░[0m
 [37m    [0;31m   [0m     [1;32m░[0m     [32m▐▌[0;1;32m░[0m        [36m▌░[0;37m    [0;35m░[0;37m [0;35m [0;37m   [0;36m▓[0;37m   [0;1;30m▓[0m   [1;35m [0m [1;35m░▒▓  [0;1;34m░[0m       [36m░[0m
                [1;32m░░ [0;36;42m▄[0;37;40m [0;35;40m [0m        [1;30;46m▄[0m           [36m░[0;37m   [0;1;30m░[0m      [1;35m░░[0m
-         [1;30m    [0m     [36m▓[0;37m [0;35m [0m        [1;30m▓[0;36m  [0m         [36m [0m     [37mf[0;1;37mug[0m-[1m''[0mn[1m''[0mt[1mae[0m-[1m >> [0mc[1mircE[0m
+         [1;30m    [0m     [36m▓[0;37m [0;35m [0m        [1;30m▓[0;36m  [0m         [36m [0m     [37m [0;1;37m  [0m [1m [0m [1m [0m [1m  [0m [1m    [0m [1m    [0m
                   [36m░[0m          [1;30m░[0m'

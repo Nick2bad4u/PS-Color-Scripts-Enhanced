@@ -5,7 +5,7 @@
 # Source SHA-256: 25c2c8e5682e9fe1f3f3c7b369d351e2dff12ab93483b576723edc28cfbd8a5c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ETPGACD1.ANS by Blade Runner (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -58,5 +58,5 @@ Write-Host '
                                            [35m██   ▐██▐█ ██▐▌ ▄█▀▐█▌▐█▌██▄ ▄█[0m
               [1;30m-=[Sy[0msO[1mp:·N[0mom[1;30mad]=-[0m           [35m██   ▐█▌█▌ ██▐███▀▌ ▀██▀▌▀████▀[0m
 [35m    [0;1;37m-[0m=[1;30m[[0;1;37m· [0;1;30m16[0m.[1;30m8 Dual[0m/[1;30m1[0m.[1;30m2 Gigs Online[0m! [1m·[0;1;30m][0m=[1m-   [0;35m█▌    █ ▐  ▐█ ▀▀▌ ▀  ▐[0m     [35m█ ▌[0m
-[35m    [0;1;37m-[0m=[1;30m[[0;1;37m·[0;1;36mI[0;36mN[0;1;36mC[0m/[1;35mW[0;35mAREZ[0;37m/[0;1;37mD[0mi[1;30ma[0;1;37mm[0mo[1;30mn[0;1;37md [0;1;30mDist Sites[0;1;37m·[0;1;30m][0m=[1m-   [0;35m█[0m     [35m▐[0m     [35m█   ·[0m      [35m·   ▐[0m
+[35m    [0;1;37m [0m [1;30m [0;1;37m [0;1;36m [0;36m [0;1;36m [0m [1;35m [0;35m    [0;37m [0;1;37m [0m [1;30m [0;1;37m [0m [1;30m [0;1;37m  [0;1;30m          [0;1;37m [0;1;30m [0m [1m    [0;35m█[0m     [35m▐[0m     [35m█    [0m      [35m    ▐[0m
 [35m    [0;1;37m-[0m=[1;30m[[0;1;37m·[0m      <[1;30mAC[0mi[1;30mD[0m> [1;30mCourrier[0m       [1;37m·[0;1;30m][0m=[1m-   [0;35m▌[0m     [35m·  ■  ▐[0m        [35m■[0m       [35m·[0m'

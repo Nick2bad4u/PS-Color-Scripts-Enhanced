@@ -5,7 +5,7 @@
 # Source SHA-256: dbb692535aa9b775f877cd264c22e2c6311bd762fc3671ef6eeb0cc467740384
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPF-WOE2.ANS by [sPITFIRE] (wOE!); released in woe0798a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: woezine#
 # SAUCE Author: [sPITFIRE]
 # SAUCE Group: wOE!
@@ -29,6 +29,6 @@ Write-Host '
  [1;30m           [0m                  [31m▀▀[0;1;31;47m▄[0;31m▀▀▀▀▀▀▀▀▀[0m
 
 [37m  [0;1;30m-───--- -  -─[┐][0m
-[[1;30m.wasted.obfuscated.evolution.[0me[1;30mlectronic.[0mmag[1;30mazine.version.1.o1.//.Jan. 8, 1998.[0m]
+ [1;30m                             [0m [1;30m          [0m   [1;30m                                   [0m 
                 [1;30m:[0m
                [1;30m[╘]- --───-- -─::[0m chOose An option[1;30m ::--[0m [1;30m->>-[0m'

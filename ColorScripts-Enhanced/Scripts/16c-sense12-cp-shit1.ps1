@@ -5,7 +5,7 @@
 # Source SHA-256: 30c462a3c4be7ad511c624b302b9522699ad0551a9f3797575a70482dde49377
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CP-SHIT1.ANS by cyberphreak (sense); released in sense12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: everything
 # SAUCE Author: cyberphreak
 # SAUCE Group: sense
@@ -41,6 +41,4 @@ Write-Host '
     [1;30mCP![0m     [34m▐[0;37m [0;1;30m█[0;1;30;47m▓▒░[0m          [1;30m▄█[0;1;30;47m▓▓▒░[0m█████[1;47m░░░░[0m██▓▓███[1;47m░░▒▒[0m▀    [1;30m▄██▒▒▓▓█[0;1;30;46m▓[0;1;30;40m█▄███[0;1;30;47m▓[0;1;30;40m██▓▒▒▓[0m
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-uhm, first person to email can have this ansi.                cyberphreak//sense
-[30mand if you find this text ill draw an ansi for u for free =)[0;37m  phuman@icon.co.za[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

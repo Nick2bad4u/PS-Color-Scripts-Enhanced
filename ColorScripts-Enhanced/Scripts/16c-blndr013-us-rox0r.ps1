@@ -5,7 +5,7 @@
 # Source SHA-256: 747fd486b7f23f3f62464b3412d898057f558018c4029b128e3519f2920ed53b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ROX0R.ANS by henwarpnit (lacidus); released in blndr013 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blender13
 # SAUCE Author: henwarpnit
 # SAUCE Group: lacidus
@@ -48,11 +48,11 @@ Write-Host '
 [1;33;46mGBTGERREEREETXZ GOO GOUT TO :[0m     [32m◄►[0m                 [1;30m▐▓▄▄█▀▀█▄[0m [32m█████████████████[0m
                                                       [1;30m▐▌[0m   [1;30m▄▄ ▀▒[0;1;30;42m▒[0;32m███████████████[0m
 [1;33;46mMY MAN ACIDJAZZ!#$![0m                 [32m►◄[0m               [1;30m█ [0m    [1;30m █▄[0;1;30;42m██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-[1;33;46mYOU PRIPZOR WITH THE HBEST OF HTME>![0m  [32m►◄↕[0m           [1;30m █ ▄▄   ▓▓ [0m
+[1;33;46m                                    [0m  [32m►◄↕[0m           [1;30m █ ▄▄   ▓▓ [0m
                                                 [32m░░░[0;37m [0;1;30m  ▐▌ ▀▀▀ ▐▌[0;32m░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
                                            [32m►↔[0;37m [0;32m►↕↔[0m      [1;30m▀█▄▄▄▄▀ [0m
                                                 [32m↓▲[0m
 
-[32maNS1 b13::::::::// ►► [0;1;5;33;42mhNNFR/nZRU$/n1R71$[0m [5;32moF LACIDu$ #@%@!!!!!  ROX0R BAYBEE!$R[0m
-[1mL:ACIDUS IS 3L33T D00DZ[0m [1m- R0X0r ALLL THE WAY T3W tH33 B4NK!#%@Y11!!!!!!!!t6gb[0m
+[32m                   ►► [0;1;5;33;42m                  [0m [5;32m                                     [0m
+[1m                       [0m [1m                                                     [0m
 [32m▲[0m'

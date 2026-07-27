@@ -5,7 +5,7 @@
 # Source SHA-256: 9a13bc20a986c88bba25121ff6a498c4b08311714bc55e39b51601ba5d200932
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH!-DBZ.ANS by ChaoTiC! (.:[nITROPHUSION]:.); released in nph-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DiVidE By ZerO AnSi!
 # SAUCE Author: ChaoTiC!
 # SAUCE Group: .:[nITROPHUSION]:.
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mCuTe∙HeRE=CuT∙HeRe=====DaTe%14%03%1997=====TiMe%23%04%26=====CuTe∙HeRe=CuTe∙HeRe[0m
+[1;30m                                                                                [0m
 
                   [1;30m░[0m
    [1;34m▄▄▄▄▄█[0;1;34;44m▓[0;1;34;40m▄[0;34m▄[0;1;34m   [0;1;30m▓[0m      [1;34m▄▄[0;1;34;44m░[0;34m▀■[0m            [1;30m░[0m    [1;34m▄▄[0;1;34;44m░[0;34m▀■[0;1;34m ▄▄▄▄▄█[0;1;34;44m▓[0;1;34;40m▄[0;34m▄[0;1;34m    [0m    [1;30m▓[0m
@@ -28,12 +28,4 @@ Write-Host '
 [36m▄▄▄▄▀▀▀▀▀[0;1;34m░[0;36m■[0;1;34m  [0;34m▄▄[0;1;34;44m▓▓[0;1;34;40m░[0;1;34;44m▀ [0;34m▀▀▄[0;1;34;44m▓[0;1;34;40m▓[0;1;34;44m▓[0;1;34;46m▓[0;1;30;40m░[0;1;34;46m░[0;1;34;40m  ▓[0;1;34;44m▓[0;1;34;40m░[0;1;34;44m▓[0;1;34;40m░[0;1;34;44m▓[0;1;34;46m▓[0;1;30;40m░[0;1;34;46m░[0;1;34;40m [0;34m▄▀[0;1;34m▄█[0;1;34;44m▓▓[0;1;34;40m█[0;1;34;44m▓[0;1;34;46m▓▒░[0;1;34;40m▀▀[0;36m▀▀[0;1;34m░[0;36m■[0;1;34m  [0;34m▄▄[0;1;34;44m▓[0;34m░▓[0;1;34;44m▀ [0;34m▀▀▄[0;1;34;44m▓▓ ▒▓[0;1;34;40m▀▀▀ [0m
 [34m▄▄▄▄▄▄[0;1;30m▓[0;34m▄██░▓▀[0;1;34;44m▓[0;34m▀▀▀[0m   [1;34;44m▓[0;34m▀▀▀▀[0;1;34;46m▓[0;1;34;40m▀▀[0;1;30;40m▓░[0;1;34;40m ▀▀▀▀▀[0;1;34;46m▓[0;1;34;40m▀▀[0;34m▀[0;1;30m▓[0;1;34m  ░▀▀▀▀[0;1;34;46m▓[0;34m▄▄▄▄▄▄██[0;1;34m░[0;34m▀▀[0;1;34;44m▓[0;34m▀▀▀[0;1;34m  [0;34m▀▀▀[0;1;30m▓[0;34m▀▀▀▀▀▀▀[0;1;30m░[0;34m▀[0m
        [1;30m░[0m        [1;30m▓[0m     [1;30m▓[0m         [1;30m ░[0m       [1;30m▒[0;1;34m [0;34m▀▀▀▀▀▀[0m          [1;30m▓[0m          [1;30m░[0m
-             [1;30m░[0m         [1;30m░ [0;1;34m    [0;1;34;44mß[0;1;34;40m ∙ Y[0;1;30;40m░[0;1;34;40m    [0;1;34;44mZ[0;1;34;40m ∙ e ∙ [0;1;34;44mR[0;1;34;40m ∙ O[0m        [1;30m░[0m
-
-
-
-[1;30m%[0;36mWrItE[0;1;30m%[0;36mHeRe[0;1;30m%[0;36mWhaT[0;1;30m%[0;36mu[0;1;30m%[0;36mWanT[0;1;30m%[0;36mStaTz[0;1;30m%[0;36mStaFf[0;1;30m%[0;36mEtC[0;1;30m%[0;36metC[0;1;30m%[0;36mBlaHBlaH[0;1;30m%[0;36mBlaHBlaH[0;1;30m%[0;36mBlaHBlaH[0;1;30m%[0;36mBlaHB[0;1;30m%[0;36mBla[0m
-[1;30m%[0;36mWrItE[0;1;30m%[0;36mHeRe[0;1;30m%[0;36mWhaT[0;1;30m%[0;36mu[0;1;30m%[0;36mWanT[0;1;30m%[0;36mStaTz[0;1;30m%[0;36mStaFf[0;1;30m%[0;36mEtC[0;1;30m%[0;36metC[0;1;30m%[0;36mBlaHBlaH[0;1;30m%[0;36mBlaHBlaH[0;1;30m%[0;36mBlaHBlaH[0;1;30m%[0;36mBlaHB[0;1;30m%[0;36mBla[0m
-[1;30m%[0;36mWrItE[0;1;30m%[0;36mHeRe[0;1;30m%[0;36mWhaT[0;1;30m%[0;36mu[0;1;30m%[0;36mWanT[0;1;30m%[0;36mStaTz[0;1;30m%[0;36mStaFf[0;1;30m%[0;36mEtC[0;1;30m%[0;36metC[0;1;30m%[0;36mBlaHBlaH[0;1;30m%[0;36mBlaHBlaH[0;1;30m%[0;36mBlaHBlaH[0;1;30m%[0;36mBlaHB[0;1;30m%[0;36mBla[0m
-
-[1;30mCuTe∙HeRE=CuT∙HeRe=====DaTe%14%03%1997=====TiMe%23%04%26=====CuTe∙HeRe=CuTe∙HeRe[0m'
+             [1;30m░[0m         [1;30m░ [0;1;34m    [0;1;34;44mß[0;1;34;40m ∙ Y[0;1;30;40m░[0;1;34;40m    [0;1;34;44mZ[0;1;34;40m ∙ e ∙ [0;1;34;44mR[0;1;34;40m ∙ O[0m        [1;30m░[0m'

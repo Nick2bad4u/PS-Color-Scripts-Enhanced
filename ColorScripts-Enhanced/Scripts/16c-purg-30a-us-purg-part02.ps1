@@ -5,7 +5,7 @@
 # Source SHA-256: f58ccade7313f5b26e099ce8eff57e0acedc2ea24253dc9dd11ca8ce479f3d59
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PURG.ANS by Slackzor + Produkt (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 40-83
 # Columns: 1-80
 
@@ -33,24 +33,4 @@ Write-Host '
 
 
 
-[37m----------------CUUUUUUUUUUUUUUUT-----------------------CUTCUTCUTCUT-----SLUT---[0m
-
-[37m  me and slack were both bored, so uh.. i drew this gay little outline that[0m
-[37m  slightly resembles this, except 10x smaller and really stupid looking because[0m
-[37m  i spent 3 seconds on it.[0m
-
-[37m  well, i was inspired. slackzor made my penis erect when i saw this ol he made.[0m
-[37m  then i colored and shaded and touched it, then i felt even more inspired.[0m
-[37m  So, i made that font. its a font. see it? it says purg. wow.[0m
-
-[37mslackzor(badass evil looking outline)[0m
-[37mprodukt (touchups[or touchdowns =],coloring,shading,background,font,etc =)[0m
-
-[37m [0;1;37mi hate inversing slackzor''s outlines.[0m [1mi hate inversing slackzor''s outlines. !$#[0m
-
-  wasnt that a thrilling story.
-
-  yes, it was a thrilling story.
-
-  yeah. well thanks to this text, this is 80 lines long.       -produkt[0m
-'
+[37m----------------CUUUUUUUUUUUUUUUT-----------------------CUTCUTCUTCUT-----SLUT---[0m'

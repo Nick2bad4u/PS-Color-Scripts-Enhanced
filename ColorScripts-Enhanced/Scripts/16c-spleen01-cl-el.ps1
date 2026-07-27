@@ -5,7 +5,7 @@
 # Source SHA-256: 07255b24988abbaf3e2799bf37167b837774002e3cddcbe70a14d47689cf5c4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-EL.ANS by Cleaner (spleen01); released in spleen01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -39,7 +39,7 @@ Write-Host '
 [37m   [0;1;36m``[0;36m`  `   ` [0;1;36m``[0m                  [36m`.[0;34m [0;1;34;46m\.[0;34;46m∙[0;37;46m [0;34;46m─[0;34;40m┘[0;37;40m : [0;1;36;40m│[0m    [36m [0;37m                  [0;36m`  [0;37m [0;1;30m` `[0m``
                                    [36ml [0;37;46m  [0;1;30;46m ` [0;1;30;40m`[0m``[36m·┘[0m                        [1;36m``[0;36m  `[0m
                                    [1;36m│[0;36m [0;1;36;46m01010[0m [36m∙[0m
-[1;30m  Cleaner[0m([1;30mSpleen[0m)[1;30m [0m-[1;30m February 2006  [0;36ml[0;1;30m [0;1;36;46m10110[0;1;30;40m [0;36m:[0;1;30m     http[0m://[1;30mcleaner[0m.[1;30muntergrund[0m.[1;30mnet[0m
+[1;30m         [0m [1;30m      [0m [1;30m [0m [1;30m                [0;36m [0;1;30m [0;1;36;46m     [0;1;30;40m [0;36m [0;1;30m         [0m   [1;30m       [0m [1;30m          [0m [1;30m   [0m
                                   [30m■[0;36m:[0;30mA[0;1;36;46m11011[0;30mi[0;36ml[0;30mi ■[0m
                                      [1;36;46m01001[0;1;36;40m │[0m
                                      [1;36;46m11100[0;1;36;40m l[0m

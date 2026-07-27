@@ -5,7 +5,7 @@
 # Source SHA-256: 2521b2fd7f29483be9bfa489541474afdf6fbc6bc9645bf57b66bb9efbefb589
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-DOX.ANS by Flave (optk0294); released in optk0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 39-87
 # Columns: 1-80
 
@@ -32,29 +32,29 @@ Write-Host '
      [1;30m░[0m       [1;30m█  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  █[0m       [1;30m░[0m
              [1;30m▓  █[0m                                             [1;30m█  ▓[0m
      [1;30m░[0m       [1;30m▒  █[0m                    [1;37mS[0;1;36my[0;1;34ms[0;34mo[0;1;30mps[0m                   [1;30m█  ▒[0m       [1;30m░[0m
-     [1;30m▒[0m       [1;30m░  █[0m      [1;37mMike Phillips[0m        [1;37m([0;1;30mBreathless[0;1;37m)[0m      [1;30m█  ░[0m       [1;30m▒[0m
-     [1;30m▓[0m          [1;30m█[0m       [1;37mChris Tompsett[0m       [1;37m([0;1;30mX-Static[0;1;37m)[0m       [1;30m█[0m          [1;30m▓[0m
+     [1;30m▒[0m       [1;30m░  █[0m      [1;37m             [0m        [1;37m [0;1;30m          [0;1;37m [0m      [1;30m█  ░[0m       [1;30m▒[0m
+     [1;30m▓[0m          [1;30m█[0m       [1;37m              [0m       [1;37m [0;1;30m        [0;1;37m [0m       [1;30m█[0m          [1;30m▓[0m
      [1;30m██████▓▒░  ▓[0m        [1;37mCharles Gray[0m         [1;37m([0;1;30mMidiot[0;1;37m)[0m        [1;30m▓  ░▒▓██████[0m
-                [1;30m▒[0m         [1;37mMike Holloway[0m        [1;37m([0;1;30mRaVeN[0;1;37m)[0m        [1;30m▒[0m
+                [1;30m▒[0m         [1;37m             [0m        [1;37m [0;1;30m     [0;1;37m [0m        [1;30m▒[0m
                 [1;30m░[0m                                             [1;30m░[0m
-[1;30m   [0;1;37mOve[0;1;36mr 3000+ M[0;1;34mODs & 400+ o[0;34mther Forma[0;1;30mts(669,M[0;34mTM,S3M,S[0;1;34mTM,ULT,ME[0;1;36mD,FAR,A[0;1;37mMF,etc.)[0m
-       [1;37m1000+ v[0;1;36mocs over 5[0;1;34m00+ wavs al[0;34mso ha[0;1;30mve M[0;34modul[0;1;34me Sample Pac[0;1;36mks Ava[0;1;37milable[0m
+[1;30m   [0;1;37m   [0;1;36m         [0;1;34m            [0;34m          [0;1;30m        [0;34m        [0;1;34m         [0;1;36m       [0;1;37m        [0m
+       [1;37m       [0;1;36m          [0;1;34m           [0;34m     [0;1;30m    [0;34m    [0;1;34m            [0;1;36m      [0;1;37m      [0m
                 [1;30m░[0m                                             [1;30m░[0m
 [1;30m░▒▓██████████▓▒░▒░▒▒░[0mMore P.C. Demos than we can count....[1;30m░▒▒░▒░▒▓██████████▓▒░[0m
                 [1;30m░[0m                                             [1;30m░[0m
-[1;30m   [0;34mComposer''s Contest I, II, III WHQ [0;1;33m■ [0;34mParental Advisory WHQ [0;1;33m■ [0;34mSuperHouse WHQ[0m
-                [1;30m░[0m      [1;34mNakita WHQ [0;1;33m■ [0;1;34mZowie WHQ [0;1;33m■ [0;1;34mSc''en WHQ[0m     [1;30m░[0m
-[1;30m [0;1;36mWitan USA HQ [0;1;33m■ [0;1;36mThe Hot Dicks USA HQ [0;1;33m■ [0;1;36mThe ORME USA HQ [0;1;33m■ [0;1;36mKrystall/ASTEK USA HQ[0m
-                [1;30m░[0m        [1;37mSnowman USA HQ [0;1;33m■ [0;1;37mOPTiK USA HQ[0m        [1;30m░[0m
-                [1;30m▒[0m           [1;36mFuture Crew Support Site[0m          [1;30m▒[0m
+[1;30m   [0;34m                                  [0;1;33m■ [0;34m                      [0;1;33m■ [0;34m              [0m
+                [1;30m░[0m      [1;34m           [0;1;33m■ [0;1;34m          [0;1;33m■ [0;1;34m         [0m     [1;30m░[0m
+[1;30m [0;1;36m             [0;1;33m■ [0;1;36m                     [0;1;33m■ [0;1;36m                [0;1;33m■ [0;1;36m                     [0m
+                [1;30m░[0m        [1;37m               [0;1;33m■ [0;1;37m            [0m        [1;30m░[0m
+                [1;30m▒[0m           [1;36m                        [0m          [1;30m▒[0m
 [1;30m░▒▓██████████▓▒░▓░▒▓█▓▒░ [0;1;34mGravis Ultrasound Support Site [0;1;30m░▒▓▓▒░▓░▒▓██████████▓▒░[0m
-                [1;30m▒[0m       [34mDual Module Player Support Site[0m       [1;30m▒[0m
+                [1;30m▒[0m       [34m                               [0m       [1;30m▒[0m
                 [1;30m░[0m                                             [1;30m░[0m
-       [1;35mIMPHOBIA/CASC[0;35mADA Distribution [0;1;30mSite [0;1;33m■ [0;35mDigital I[0;1;35mnfinity Distro Site[0m
-     [1;35mKLF Distro S[0;35mite [0;1;33m■ [0;35mToxic Zomb[0;1;30mies Distro S[0;35mite [0;1;33m■ [0;35mBioni[0;1;35mx Labs Distro Site[0m
-[1;35m    Twilight Zo[0;35mne Distro Site [0;1;33m■ [0;1;30mGustracker Distr[0;35mo Site [0;1;33m■ [0;35mCos[0;1;35mmic Distro Site[0m
+       [1;35m             [0;35m                 [0;1;30m     [0;1;33m■ [0;35m         [0;1;35m                   [0m
+     [1;35m            [0;35m    [0;1;33m■ [0;35m          [0;1;30m            [0;35m    [0;1;33m■ [0;35m     [0;1;35m                  [0m
+[1;35m               [0;35m               [0;1;33m■ [0;1;30m                [0;35m       [0;1;33m■ [0;35m   [0;1;35m               [0m
                 [1;30m░[0m                                             [1;30m░[0m
                 [1;30m▒[0m              [1;37mSBC Net 13:100/12[0m              [1;30m▒[0m
 [1;30m░▒▓██████████▓▒░▓░▒▓██████▓▒░ [0;1;37mFido Net 1:124/9014 [0;1;30m░▒▓██████▓▒░▓░▒▓██████████▓▒░[0m
-                [1;30m█[0m               [1;37mCDN Comming Soon[0m              [1;30m█[0m
+                [1;30m█[0m               [1;37m                [0m              [1;30m█[0m
                 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

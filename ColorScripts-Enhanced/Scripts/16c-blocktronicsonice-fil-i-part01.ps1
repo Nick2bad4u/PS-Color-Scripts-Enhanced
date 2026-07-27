@@ -5,7 +5,7 @@
 # Source SHA-256: ec0fc35e4f31bfb8c032d087e2bd6af44b2df0a50a594121ade5afdf3004943f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-i.ans by filth (bL0CKtRONiCS); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iCEtR0NiCS!
 # SAUCE Author: filth
 # SAUCE Group: bL0CKtRONiCS
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [1;30mw0rd upz to alpha king![0m
+  [1;30m                       [0m
 
             [31m▄▄▄[0m
 [37m        [0;31m▄▄▓▓█▌▀▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 521d524119eb54b9f278c3d97c073558954c2e4b174cb193fbd3a12cebe1e00c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GT-FE.ANS by graphital (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fallen empires
 # SAUCE Author: graphital
 # SAUCE Group: fuel productions
@@ -53,6 +53,4 @@ Write-Host '
    [1;36m██[0;1;36;47m▓▓▓[0m▄[36m░  [0;1;36m▐[0;1;37m██[0;1;36m█[0;1;36;47m▄[0m▄   [1;36m▀▀▀▀[0;1;36;47m█▄[0m▄[1;36m [0;1;36;46m▓[0;1;36;40m█[0;1;37;40m█[0;1;36;47m█▄[0m▄[36m░[0;37m [0;1;36m▄█[0;1;37m█[0;1;36m█[0m▌[1;36m▐[0;1;36;46m▓[0;1;36;40m█[0;1;36;47m▄[0m▄  [1;36m▄[0;1;37m██[0;1;36;47m▌[0m▌[1;36m▐█[0;1;36;46m▓[0;1;36;40m▀▀▀▀▀▀[0m▀[1;36m▄█[0;1;37m█[0;1;36m▀▀▀[0m▀[1;36m  [0m [1;36m▄[0;1;36;46m▓[0;1;37;40m█[0;1;36;47m▌[0m▌
 [1;36m▄▄[0;1;36;46m▓[0;1;37;40m██[0;1;36;40m▀▀▀▀▀[0m▀ [1;36m▀▀▀[0m   [36m    [0m     [1;30m░░[0m     [1;36m▀▀▀▀▀▀[0m▀     [1;36m▀▀▀▀▀▀[0m▀   [36m░[0m          [1;30m░░[0m      [36m░[0;1;36m▀▀[0m▀
   [36m░[0m               [1;30m░░[0m                                                      [1;30m■▄[0m
-             [1;30m▄[0m [1;30m▀[0m        [1;30m..[0m  [1mE[0m  [1;36mM[0m  [36mP[0;37m  i  R  E  S  [0;1;30m..[0m
-                                                              [1;30m [0m [1;30mansi[0m&[1;30mfont by:[0m
-                                                            [1m [0m g[1mraphital[0m [[1mfuel[0m][0m'
+             [1;30m▄[0m [1;30m▀[0m        [1;30m..[0m  [1mE[0m  [1;36mM[0m  [36mP[0;37m  i  R  E  S  [0;1;30m..[0m'

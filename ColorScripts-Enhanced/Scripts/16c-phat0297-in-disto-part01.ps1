@@ -5,7 +5,7 @@
 # Source SHA-256: 014db0d70ad1f5fcac2ab492d5f59c7dafea02ec5afae5dc7d47383c8bea19bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-DISTO.ANS by insert (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: distortion addy
 # SAUCE Author: insert
 # SAUCE Group: phat studios '97
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                      [1ma   phat   production   by   insert[0m
+                      [1m                                   [0m
 
 
 

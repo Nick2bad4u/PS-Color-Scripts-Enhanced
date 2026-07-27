@@ -5,7 +5,7 @@
 # Source SHA-256: fef817e28fe1a86f0d0f75b9db1684ecb5dc9fb8cc8efe54c3e5b4b04b392230
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-DRAG.ANS by Harlequin (Apocaliptic Visions); released in avpack06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dragon
 # SAUCE Author: Harlequin
 # SAUCE Group: Apocaliptic Visions
@@ -18,9 +18,9 @@ Write-Host '
       [35m /▌[0;37m [0;35m▌[0m   [35m■ [0m                                          [33m▄[0m
 [35mH a r/l e q u/i n ''95[0m     [33m   [0m                           [33m▄█▀[0m           [33m▄█[0m
    [35m■[0m    [35m▌[0;37m [0;35m▌/[0m                                          [33m▄█[0;1;33;43m░[0;33m▀[0m          [33m▄██[0;31m [0m
-[30mOk! This is a very quick-pic, and not my[0m            [33m▄█[0;1;33;43m▒░[0m          [33m▄█[0;1;33;43m░▌[0;31m [0m
-[30mbest but if you''d like one for your BBS,[0m          [33m▄█[0;1;33;43m▒░[0;33m█[0m         [33m▄█[0;1;33;43m░░[0;33m█[0;31m [0m
-[30mdrop me a line at rmhar4@cfs03.cc.monash.edu.au[0;37m [0;33m▄█[0;1;33;43m ▒░[0;33m█[0m        [33m▄█[0;1;33;43m░▒░[0;33m█[0;31m [0m
+[30m                                        [0m            [33m▄█[0;1;33;43m▒░[0m          [33m▄█[0;1;33;43m░▌[0;31m [0m
+[30m                                        [0m          [33m▄█[0;1;33;43m▒░[0;33m█[0m         [33m▄█[0;1;33;43m░░[0;33m█[0;31m [0m
+[30m                                               [0;37m [0;33m▄█[0;1;33;43m ▒░[0;33m█[0m        [33m▄█[0;1;33;43m░▒░[0;33m█[0;31m [0m
 [30mfor requests and/or general chit-chat...[0m      [33m▄█[0;1;33;43m ░▒░[0;33m█[0m       [33m▄██[0;1;33;43m░▒░[0;33m█[0;31m  [0m
                                             [33m▄█[0;1;33;43m ░▒▒░[0;33m█[0m      [33m▄██[0;1;33;43m░░▓░[0;33m█[0;31m [0m
                                           [33m▄█[0;1;33;43m ░▒▓▒░[0;33m█[0m     [33m▄██[0;1;33;43m░░▒▓░[0;33m█[0;31m [0m

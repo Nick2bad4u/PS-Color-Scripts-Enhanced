@@ -5,7 +5,7 @@
 # Source SHA-256: e734e6e4a95f7685ff1a9d5ed4d1b40746d86a1e4cebaa7b80b1204c30ec12aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XE-SE.ANS by Xeryrus (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Savage Exile!
 # SAUCE Author: Xeryrus
 # SAUCE Group: MiSTiGRiS
@@ -41,8 +41,4 @@ Write-Host '
                        [31m▄[0m   [1;31m▀█▒█▄[0m   [1;31m▀▒▀[0m   [1;31m▀[0m  [31m▓▄[0m   [31m█▀[0m   [31m▄▓[0m [31m▄▀[0m  [31m▀▄[0m
                   [31m▀▄[0m  [31m█▓▄▄█▀[0;1;31m  ▀[0m         [31m▀▄[0m  [31m▒▀▄[0m [31m▀░▄[0m [31m█▀▄▀[0m  [31m▀█[0m  [31m█▀[0m
                    [31m█▀▄[0m  [31m▄▀▀[0m [31m▒[0m [31m▄▀▄[0m  [31m█▓▄[0m  [31m▀██▀░[0m [31m▀█▄▒▄[0m    [31m█▀[0m
-                        [31m▀[0m  [31m▓▀▄[0m   [31m▄[0m [31m▐[0m [31m█▀▄[0m    [31m▀▄[0m
-
-                                [32mS[0;1;33mAVAGE [0;32mE[0;1;33mXiLE[0m
-                     [32m.9[0;1;33mo5[0;32m.[0;1;33m891[0;32m.[0;1;33m2544[0;32m.[0;1;33mSysop[0;32m.[0;1;33mCritical[0;32m.[0;1;33mIllusion[0m
-                        [32m...a[0;1;33mnsee by Xeryrus[0;32m<creep>[0m'
+                        [31m▀[0m  [31m▓▀▄[0m   [31m▄[0m [31m▐[0m [31m█▀▄[0m    [31m▀▄[0m'

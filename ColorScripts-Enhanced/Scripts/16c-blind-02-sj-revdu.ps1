@@ -5,7 +5,7 @@
 # Source SHA-256: f93db8e64c4722e4202b124fa329a1cd4b3377e16b54c422a39bd0769c41f806
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SJ-REVDU.ANS by tHE sAD jESTER (BliND STUdiosh); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: tHE sAD jESTER
 # SAUCE Group: BliND STUdiosh
 # SAUCE Date: 19951216
@@ -14,8 +14,8 @@
 # Columns: 1-80
 
 Write-Host '
-YAy. [1;33m [0m   [1;33m▄[0m    [1;33m [0;33mth[0;1;33me[0;33m [0;1;33msa[0md[33m [0;37mjest[0;1;37mer[0m               [1mt[0m     [1m  [0m   [1mh[0m          [1me[0m
-    [1;33m  ▀[0m [1;33m ▄ [0m [1;33m▀[0m  [1;33m  [0;1;37m_B[0ml[1;33mi[0mN[1mD[0m                      [1m      revolution[0m
+     [1;33m [0m   [1;33m▄[0m    [1;33m [0;33m  [0;1;33m [0;33m [0;1;33m  [0m [33m [0;37m    [0;1;37m  [0m               [1m [0m     [1m  [0m   [1m [0m          [1m [0m
+    [1;33m  ▀[0m [1;33m ▄ [0m [1;33m▀[0m  [1;33m  [0;1;37m  [0m [1;33m [0m [1m [0m                      [1m                [0m
   [1;33m  ▄▄ ▄[0;1;33;47m▓░▀[0;1;33;40m▄ ▄▄ [0;1;30;40mLoi,[0m                        [1mr[0m          [1me[0m          [1mv[0m
     [1;33m    ▀[0;1;33;47m▓[0;1;33;40m▀ [0m    [1;30mhere''s my 100 ducks[0m      [1m▄[0;1;47m▓[0;1;40m█■██[0;1;47m▓[0;1;40m▄sj[0m [1m▄[0;1;47m▓[0;1;40m█■██[0;1;47m▓[0;1;40m▄[0m   [1m▄[0;1;47m▓[0m▄[1;33m [0m▄[1m█[0;1;47m▓[0;1;40m▄[0m
       [1;33m▀[0m  [1;33m▄[0m  [1;33m▀[0m     [1;33msj▄▄▄▀▄[0;1;33;47m▓[0;1;33;40m▄[0m  [1;30mwhere''s[0m    [1m█[0;1;47m▓▓█[0m [1;47m█▓▓▓[0;1;40m█[0m [1m█[0;1;47m▓▓█[0m [1;47m█▓▓▒[0;1;40m█[0m [1m█[0;1;47m▓▓█[0m [1;47m█▓▓▓[0;1;40m█[0m
@@ -32,5 +32,4 @@ YAy. [1;33m [0m   [1;33m▄[0m    [1;33m [0;33mth[0;1;33me[0;33m [0;1;3
              [33m▐[0;1;33;43m░[0;1;33;40m██▄[0;33m▀▓██▀▄██[0;1;37;43m░[0;1;37;40m▀[0;1;33;40m▄██[0;1;33;47m░[0m▌       [1;47m█[0;1;33;47m▒▓[0m█ [1;33;47m ▒▓▓░[0m [1;47m█[0;1;33;47m▒▓[0m█ █[1;33;47m▒▓▓[0m█ [1;47m█[0;1;33;47m▒▓[0m█ [1;33;47m ▒▓▓░[0m
               [33m▀[0;1;33;43m▒█[0;1;33;40m██▄▄[0;33m▀▀▀▀[0;1;33m▄[0;1;33;47m▓[0;1;33;40m███[0;1;33;47m▒[0m▀        [1;47m█[0;1;33;47m▒▓[0m█ [1;33;47m ▓▓▓░[0m [1;47m█[0;1;33;47m▒▓[0m█ █[1;33;47m▓▓▓░[0m [1;47m█[0;1;33;47m▒▓[0m█ [1;33;47m ▓▓▓░[0m
                 [33m▀[0;1;33;43m▓[0;1;33;40m██████████[0;1;33;47m▓[0m▀          [1;47m█[0;1;33;47m▓[0m▓[1;33;47m░[0m █[1;33;47m▓▓░░[0m [1;47m█[0;1;33;47m▓[0m▓[1;33;47m░[0m █[1;33;47m▓▓█░[0m [1;47m█[0;1;33;47m▓[0m▓[1;33;47m░[0m █[1;33;47m▓▓█░[0m
-                   [1;33;43m▓[0;1;33;40m▀███[0;1;33;47m█[0;1;33;40m▀[0;1;33;47m▓[0m▀            █[1;33;47m▀░░[0;1;33;40m [0m▀▀▀▀[1;33m [0m █[1;33;47m▀[0m█[1;33;47m░[0;1;33;40m■[0m█[1;33;47m▀▀░ [0m ▀[1;33;47m▀▀░[0m■█[1;33;47m▀▀░[0m▀
-                      [1;33m  [0m'
+                   [1;33;43m▓[0;1;33;40m▀███[0;1;33;47m█[0;1;33;40m▀[0;1;33;47m▓[0m▀            █[1;33;47m▀░░[0;1;33;40m [0m▀▀▀▀[1;33m [0m █[1;33;47m▀[0m█[1;33;47m░[0;1;33;40m■[0m█[1;33;47m▀▀░ [0m ▀[1;33;47m▀▀░[0m■█[1;33;47m▀▀░[0m▀[0m'

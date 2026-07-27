@@ -5,7 +5,7 @@
 # Source SHA-256: 02bd911d278f9d11aebb0e3cd47155d8617b565f77ca5a29b5cfb192db2f855f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-OZ#2.ANS by Shrimp (tus-01); released in tus-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20010723
 # SAUCE Dimensions: 80x34
 # Lines: 1-34
@@ -44,5 +44,4 @@ Shrimp[32mFLG[0;1;30m☺☺☺☺☺/a┐,_[0m  [1;33m ~^"ⁿ└└**∟☻�
 
                      O [36mr a c u l a r [0m       [37mZ [0;36me a l o t r y[0m
 
-[37m--------------------------------------------------------------------------------[0m
-[37mI drew this after looking at some of Discofunk''s stuff. Discofunk is good.[0m'
+[37m--------------------------------------------------------------------------------[0m'

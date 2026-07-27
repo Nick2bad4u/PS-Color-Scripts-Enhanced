@@ -5,7 +5,7 @@
 # Source SHA-256: b6d3fd75355d65e003f18ebb8691d1344512f2784c34613c69085958c76eead4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KR-RSTYX.ANS by Krypton (Union); released in uni-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The River Styx
 # SAUCE Author: Krypton
 # SAUCE Group: Union
@@ -35,9 +35,9 @@ Write-Host '
 [1;37m ░[0m                                    [1;31m▀ [0;31m▓▀▀  ░▓█▀▀▀▀▀▀[0m        [31m▄  █▒[0m           [1;37m░[0m
         [1;37mthe river styx[0m                        [31m▒▓[0m               [31m█▓▀ ▄ ▀▄[0m
                                                [31m▒[0m              [31m▒▀[0m       [31m▒[0m
-        [1;37mO[0m-1 day wares [31m∙ [0;1;37mS[0mCUM member board      [31m░[0m                        [31m░[0m
-[31m [0;1;37m░[0m      [1;37ms[0mtaff [31m∙ [0;1;37ms[0moul keeper.scum  [1mk[0mrypton.union  [1mo[0mthers.to be announced
- [1m▒[0m      [1mn[0mumbers [31m∙ [0;1;37m4[0m16 xxx xxxx  [1m4[0m16 xxx xxxx               [31m▄[0m                  [1;37m░[0m
+        [1;37m [0m             [31m  [0;1;37m [0m                      [31m░[0m                        [31m░[0m
+[31m [0;1;37m░[0m      [1;37m [0m     [31m  [0;1;37m [0m                 [1m [0m              [1m [0m                     
+ [1m▒[0m      [1m [0m       [31m  [0;1;37m [0m             [1m [0m                          [31m▄[0m                  [1;37m░[0m
 [1;37m ▓[0m                                                        [31m░[0m                   [1;37m▒[0m
 [1;37m █  [0;31m▓ ▄[0m                                                                       [1;37m▓[0m
 [1;37m █ [0;31m▀▀[0m                       [1;37m▄ ▄[0m                                            [1;37m▄  █[0m

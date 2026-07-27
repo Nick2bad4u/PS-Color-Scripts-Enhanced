@@ -5,7 +5,7 @@
 # Source SHA-256: a80c4d1722886c9966c17a02795ee8ca368d9c9ca5f9afefdafd1d825cb39397
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLZ-BLND.ANS by blaze (raw^infinite); released in blndr018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blender #18 - blaze`s stuff!
 # SAUCE Author: blaze
 # SAUCE Group: raw^infinite
@@ -41,11 +41,7 @@ Write-Host '
 
 
 
-[33m░ ░ ░▒▓[0;1;33;43m HUU[0;1;33;40mUU...WHAT A FUCK...THiS iS MY ANSi 4 THE BLENDER #18....[0m
-                [1;33mTHE WORDS WHERE COMET/CRASH/FUTURE....i HADNT ANY iDEA HOW TO[0m
-                [1;33mDRAW THE FUTURE SO i DECiDED TO DRAW THiS *TiMEHOLE* ?![0m
-                [1;33mANYWAY iM NOT EXPECTiNG ONE OF THE BEST VO[0;1;33;45mTES...:)      [0;35m▓▒░[0;37m [0;35m░[0;37m  [0;35m░[0m
-
-                [1;37mHEY BUT i DONE iT iN JUST [0m15-20[1m MiNUTES ! NOT BAD...EH !?[0m
-
-[1;30mALL DONE BY[0;35m [0;1;33mBLAZE[0;1;30m^[0;35mRAW[0;1;30m^[0;35miNFiNiTE[0m'
+[33m░ ░ ░▒▓[0;1;33;43m    [0;1;33;40m                                                        [0m
+                [1;33m                                                             [0m
+                [1;33m                                                       [0m
+                [1;33m                                          [0;1;33;45m              [0;35m▓▒░[0;37m [0;35m░[0;37m  [0;35m░[0m'

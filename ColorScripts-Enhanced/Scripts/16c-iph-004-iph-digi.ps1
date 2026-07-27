@@ -5,21 +5,21 @@
 # Source SHA-256: ce6e40144d7ad3f324151712c4614f55e493d9f65ec8ef68357fd4ee6910f5be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IPH-DIGI.ANS by Interphaze (iph-004); released in iph-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
 Write-Host '
 
        [1;30m,-------//-//-------------------------------------/(/\-----------,[0m
-      [1;30mi[0m               [33m()[0m      [1;37meat shit ''n, die[0m      [33m()[0m                   [1;30mi[0m
+      [1;30m [0m               [33m  [0m      [1;37m                [0m      [33m  [0m                   [1;30m [0m
       [1;30m|    [0;33m()[0m                                                 [33m()[0m      [37m.  [0;1;30m|[0m
-      [1;30m|[0m         ,sVⁿⁿVs, [34m.[0m           [34m,''[0;37m,sVⁿⁿVs,  :[0m      [33m()[0m            [37m:. [0;1;30m|[0m
+      [1;30m [0m                  [34m [0m           [34m  [0;37m           [0m      [33m  [0m            [37m   [0;1;30m [0m
       [1;30m|[0;32mi,,._.,  [0;37m$i    i$ [0;34m$s,[0m      [34m_,s$ [0;37m$i    i$ :i [0;35m$..[0m               [1;36m.i[0m:.
       [1;30m|[0;32m$[0;1;32m$$[0;32mⁿ"~[0;1;30m_[0;1;36m.,[0m`ⁿbssdⁿ''[34m.$$$$S#s#S╧ⁿⁿ[0;1;36m.,[0m`ⁿbssdⁿ'':i[36mi [0;35m$is,_   ..,,s''    [0;1;36m:$i[0;36m:.[0m
       [1;30m|[0;32mⁿ''[0;1;36m,s#b$$$[0;36mi[0;1;36m'',ss[0;36m# [0;34m$$[0;1;34m$$$Vⁿ"[0;1;36m.,s#$$$$[0;36mi [0;1;36m,s[0;36ms# [0;1;36m:ii[0;36m$ [0;35m$$$[0;1;35m$$$[0;35m$$$ⁿ''[0;1;36m.,s#[0;36ms, [0;1;36mi$$i[0;36m:[0m
 [36m    [0;1;36m.,#$$ⁿ" i$$[0;36m$: [0;1;36m$ll[0;36ml [0;34m$$[0;1;34mV"[0;1;36m.,#l[0;36m$ⁿ" [0;1;36mi$l[0;36m$: [0;1;36m$$[0;36m$ [0;1;36msi$$[0;36m$s[0;1;36ms [0;35m$[0;1;35m$$$[0;35m''[0;1;36m.,#$[0;36m$ⁿ"[0;1;36mi$[0;36m$; [0;1;36mlll[0;36mi[0m
-[36m [0;1;37m,[0;1;36msSl[0;36m$ⁿ[0;1;36m`[0;32m,$ [0;1;37m:[0;1;36ml$$[0;36mi [0;1;37m;[0;1;36m$l$[0;36mi [0;34mⁿ[0;1;36m,sSl[0;36mlⁿ`[0;1;34m,[0;34ms [0;1;37m:[0;1;36m$l[0;36m$i [0;1;37m;[0;1;36mll[0;36m$. [0;1;37m$[0;1;36ml[0;36mll [0;1;37m.[0;1;36msss[0;36m,[0;35m''[0;1;37m,[0;1;36m$$[0;36mⁿ`[0;35m,$ [0;1;36mll$[0;36mi [0;1;37m$[0;1;36ml[0;36ml$[0m
+[36m [0;1;37m [0;1;36m   [0;36m  [0;1;36m [0;32m   [0;1;37m [0;1;36m   [0;36m  [0;1;37m [0;1;36m   [0;36m  [0;34m [0;1;36m    [0;36m   [0;1;34m [0;34m  [0;1;37m [0;1;36m  [0;36m   [0;1;37m [0;1;36m  [0;36m   [0;1;37m [0;1;36m [0;36m   [0;1;37m [0;1;36m   [0;36m [0;35m [0;1;37m [0;1;36m  [0;36m  [0;35m   [0;1;36m   [0;36m  [0;1;37m [0;1;36m [0;36m  [0m
 [1;37mi[0;1;36m$$[0;36ml'' [0;1;30m|[0;32m$[0;1;32m$[0;32m'' [0;1;37mi[0;1;36mll$[0;36m: [0;1;37mi[0;1;36m$l[0;36ml'',[0;1;36mi$l[0;36ml''[0;34m,[0;1;34ms$[0;34mⁿⁿ [0;1;36mⁿ""[0;36m~  [0;1;37mi[0;1;36m$l[0;36m$''[0;1;37m.i[0;1;36m$[0;36ml:  [0;1;37m`[0;1;36m$$[0;36m; [0;1;37m$[0;1;36m$Ysss#$$l$[0;36mi [0;1;37mi[0;1;36ml[0;36m$: [0;1;37m.s[0;1;36ms[0;36ms,[0m
 [1;36m$ll[0;36mi, [0;1;30m|[0;32mi''  [0;1;37m:[0;1;36m$ll[0;36mi [0;1;36m:$$[0;36m$ [0;1;37mi[0;1;36m$$$[0;36mi,   [0;1;37ms[0;1;36mss#$$[0;36mi. [0;1;36m:$l[0;36m$.[0;1;36mi$$$[0;36mi,[0;1;36m.d$[0;36m$''[0;1;37m,[0;1;36m$[0;36mⁿ''[0;35m,ss [0;1;36mi$l[0;36m$: [0;1;37m$[0;1;36m$$[0;36mi,[0;1;36m.$l[0;36m$l[0m
 [1;36mⁿV$$$S#s,_,d$$$$[0;36ms._[0;1;36m`$[0;36m.[0;1;37m`ⁿ[0;1;36mV$$$S[0;36m#s,[0;1;36m_,d$$$[0;36m$s, [0;1;36mⁿ$[0;36mb`[0;1;36mⁿV$$$S[0;36m$V''[0;1;36m,[0;1;37m$[0;36m$ [0;35m$[0;1;35m$[0;35mi''[0;1;36m:$l[0;36m$i [0;1;36mi$$l$S$V[0;36m$l[0;1;36m''[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 4342372a4b499ab53cecdc46f9c1512898e2e3c63157d1253520f7f6e923a931
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-NOCT.ANS by Pariah (REMORSE); released in rmrs-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nocturne
 # SAUCE Author: Pariah
 # SAUCE Group: REMORSE
@@ -15,13 +15,13 @@
 # Columns: 1-80
 
 Write-Host '
-Greets to Necromancer, Cain, Messiah, Discofunk and theProdigy.. Slaps to Miasma
-and you silly canadians. Props to Discyple, for being the only artist I know who
-keeps his style true, no matter what the scene wants or expects..
-Trades/Pay Requests = [1mpariah@digitaldreams.ml.org[0m (Also email me if you can hook
-me up with a cheap price on a drum machine, nothing more than $250).
+                                                                                
+                                                                                
+                                                                 
+                      [1m                           [0m                               
+                                                                    
 [1;30m--------------------------------------------------------------------------------[0m
-[1;37m╘IISCNA [0m- [1;36mpariah[0;1;37m                                            [0;1;36mNOCTURNE[0;1;37m +o hx^flesh[0m
+[1;37m╘       [0m  [1;36m      [0;1;37m                                            [0;1;36m        [0;1;37m            [0m
 
                                                                  [34m55[0;1;34m$[0;1;36m$$[0;1;34m$[0;34m$[0m    [30m [0m
       [34m_[0;1;34m,gτ@58$85@τg[0;34m,_[0;37m   [0;34m_,[0;1;34mgτ@58$85@τg[0;34m,_[0;37m    `$[0;1;37m$$[0;1;33m$$[0;1;37m$[0m58   [34m_,[0;1;34mgτ@58$$$$$$$$$[0;34m$[0m    [30m  [0m
@@ -44,7 +44,7 @@ me up with a cheap price on a drum machine, nothing more than $250).
               [37m          [0m   [34m,d[0;1;34m$P[0;34m╩ⁿⁿ[0;1;34m╩7$$$$$$$$[0;34mP╩ⁿ[0;1;34mⁿ╩7$$$[0;34m''[0m
 [37m          [0m                [34m,[0;1;34mP[0;34m''[0;33m,g[0;1;31m@55@g[0;33m,_[0;34m`[0;1;34m7P[0;34m''[0;33m_,[0;1;31mg@55@[0;33mg,[0;34m`7[0m
 [37m          [0m              [37m [0;34m.''[0;33m,5[0;1;31m$$$$$$$$$[0;33mh,[0;1;31m,[0;33md[0;1;31m$$$$$8$$[0;33m$5,[0;34m`.[0;37m  [0;33m.[0m
-[37m      [0;36myy[0;1;36myy[0;36myyy[0m         [33m`[0;1;31m╕[0;33m,[0;37m [0;33md$[0;1;31m$$$$$y[0;33myy[0;1;31m$$$$$$[0m [33m,yy55[0;1;31m5$$[0;33m$h[0;37m [0;33m,[0;1;31m╒[0;33m''[0m          [36myyy[0;1;36myy[0;36myy[0m
+[37m      [0;36m  [0;1;36m  [0;36m   [0m         [33m [0;1;31m╕[0;33m [0;37m [0;33m  [0;1;31m      [0;33m  [0;1;31m      [0m [33m     [0;1;31m   [0;33m  [0;37m [0;33m [0;1;31m╒[0;33m [0m          [36m   [0;1;36m  [0;36m  [0m
 [37m      [0;36m$[0;1;36m$$$$$[0;36m$[0m        [37m  [0;1;31m$[0m [33m;$[0;1;31m$$$$$$$$$$$$$$$[0m [33m$[0;1;31m$$$$$$$$[0;33m$;[0;37m [0;1;31m$[0m           [36m$[0;1;36m$$$$$[0;36m$[0m
 [36m55$[0;1;36m$$[0m [1;36m$$[0;1;32m$$[0;1;36m$$[0;36m$[0;37m [0;36m$[0;1;36m$$$$[0;36m$h,[0;37m [0;33m''[0;37m [0;33m$[0;1;31m$$$$$$$$$$$$$$$$[0m [33m$[0;1;31m$$$$$$$$$[0;33m$[0;37m [0;33m`[0;37m [0;36m,d$[0;1;36m$$$$$[0;36m$[0;37m [0;36m$[0;1;36m$$[0;1;32m$$[0;1;36m$$[0m [1;36m$$[0;36m$55[0m
 [36m$$[0;1;36m$$$[0;36my[0;1;36m$$$$$$[0;36m$:$[0;1;36m$[0;36mP╩ⁿ"`[0;1;37m_[0m__ [33m$[0;1;31m$$$$$$$$$$[0;33m'',[0;1;31m$$$$[0;33m,`7[0;1;31m$$$$$$$$[0;33m$[0;37m __[0;1;37m_[0;36m`"ⁿ╩7[0;1;36m$$[0;36m$:[0;1;36m$$$$$$$[0;36my[0;1;36m$$$[0;36m$$[0m
@@ -56,7 +56,7 @@ me up with a cheap price on a drum machine, nothing more than $250).
 [36m$[0;1;36m$$$$$$$[0;36ml[0;37m $$[0;1;37m$$$$$$$$$$$$$$$$[0mh,[33m`7[0;1;31m$$$$$$$$$$$$$$[0;33m8P''[0;37m,d[0;1;37m$$$$$$$$$$$$$$$$[0m$$ [36ml[0;1;36m$$$$$$$$[0;36m$[0m
 [36m$[0;1;36m$$$$$$$[0;36m|[0;37m $8[0;1;37m88888$$555$$$$8888[0mh,[33m`ⁿ75[0;1;31m$$$$$$$$[0;33mPⁿ''[0;37m,d[0;1;37m88855$$888888$$$55[0m$$ [36m|[0;1;36m$$$$$$$$[0;36m$[0m
 [36m$[0;1;36m$$$$$$$[0;36ml[0;37m $88[0;1;37m888855555$$'',8888885@[0m%gyy[1myyyyyy%@58885555,`8888888885[0m55$ [36ml[0;1;36m$$$$$$$$[0;36m$[0m
-[36m$[0;1;36m$$$$$$$[0;36mI[0;37m III[0;1;37mllllIIIII||[0m [1mlllllllII||||||||||||IlllIIIII[0m [1mlllllllllI[0mII| [36ml[0;1;36m$$$$$$$$[0;36m$[0m
+[36m [0;1;36m       [0;36m [0;37m    [0;1;37m           [0m [1m                              [0m [1m          [0m    [36m [0;1;36m        [0;36m [0m
 [36m$[0;1;36m$$[0;1;36;47m▓▓▓[0;1;36;40m$$[0;36m$yy[0;37m ::::::::: ::   :::::::;;;;;;;;;;::::::;;;;; :::::::::;;;; [0;36mI[0;1;36m$$[0;1;36;47m▓▓[0;1;36;40m$$$$[0;36m$[0m
 [36m$[0;1;36m$$$$$$$$$[0;36m$[0;1;36m [0m          [1;30m::[0m          [1;30m::::::::::[0m      [1;30m:::::[0m          [1;30m::::[0m [36m$[0;1;36m$$$$$$$$[0;36m$[0m
 [36m$[0;1;36m$$$$$$$$@[0;36mg,[0;1;36m [0m                                                        [36my$[0;1;36m$$$$$$$$[0;36m$[0m'

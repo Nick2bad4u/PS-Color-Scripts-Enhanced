@@ -5,7 +5,7 @@
 # Source SHA-256: 38148373940d989d4b5ffad9b5213f7cec526ef485976b6b43573504f74d87bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM-SYNT.ICE by Lemonade (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -28,7 +28,7 @@ Write-Host '
         ▐[1m▌[0m  [1;34m▐[0;1;34;44m█[0;34m█[0;1;34;44m [0;34m▌[0;37m [0;34m█[0;1;34;44m░[0;34m█▌[0m      [32m [0m      [34m [0;1;34;44m█░[0m   [34m [0;1;34;44m█[0;34m█ [0;1;34;44m█░[0;34m [0;1;34;44m█[0;34m█    [0;1;34;44m█░[0;34m [0;1;34;44m█[0;34m█ [0;1;34;44m█░[0;34m [0;1;34;44m█[0;34m█  [0;1;31m▄[0m
         ▀   [1;34m▐[0;1;34;44m▌[0;34m██▌[0;37m [0;34m███▌[0m           [1;34m█▄[0;34m▄[0;1;34;44m▀[0;34m▀ [0;1;34m█▄[0;34m▄[0;1;34;44m▀[0;34m▀ [0;1;34;44m█░[0;34m [0;1;34;44m█[0;34m▀    [0;1;34;44m█[0;34m▀ [0;1;34;44m█[0;34m▀ [0;1;34;44m█[0;34m█▄[0;1;34;44m▀[0;34m▀ [0;1;31m▐[0;1;31;41m▌[0;31m▌[0m
             [1;34m█[0;34m█[0;1;34;44m░[0;34m█[0;37m [0;34m▐████[0m                                             [1;31m▀[0m
-           [1;34m▐[0;1;34;44m▌[0;34m███[0;37m [0;34m▐███[0;1;34m░[0m       [32mH[0;1;32mappy [0;32mB[0;1;32mirthday to my friend, Syntax Error :)[0m
-          [33m [0;1;33m▄[0;1;34m▀[0;34m▀▀[0;33m▄[0;37m [0;33m▄[0;34m▀▀▀[0;1;33m▄[0m    [1;32mI wouldn''t be in [0;32mi[0;1;32mCE if it wasn''t for you. Thanks.[0m
+           [1;34m▐[0;1;34;44m▌[0;34m███[0;37m [0;34m▐███[0;1;34m░[0m       [32m [0;1;32m     [0;32m [0;1;32m                                     [0m
+          [33m [0;1;33m▄[0;1;34m▀[0;34m▀▀[0;33m▄[0;37m [0;33m▄[0;34m▀▀▀[0;1;33m▄[0m    [1;32m                 [0;32m [0;1;32m                                [0m
      [1;33mLM![0m [1;33m▄[0;1;33;47m▓[0;1;33;43m▀▀░[0;33m█▌[0;37m [0;33m▐[0;1;33;43m░[0;33m█[0;1;33;43m▀▀[0;1;33;40m▓▄[0m                  [1;33m- Lemons[0m
          [1;33m▀[0;33m▀▀▀▀▀ [0;37m [0;33m ▀▀▀▀▀[0;1;33m▀[0m'

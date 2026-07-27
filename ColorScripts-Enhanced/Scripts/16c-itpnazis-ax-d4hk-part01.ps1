@@ -5,18 +5,18 @@
 # Source SHA-256: a50b6798a38d725783eda2375faa896f0f1cec0a331df269e773c3bebe436c01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX_D4HK.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
        [1;30m▐[0;1;37m▐▓[0;1;30m▓[0m
        [1;30m▓[0;1;37m▓█▓[0m
-      ░[1;37m▓▌[0;1;30m▓[0;1;37m█▓[0m       [1;37m [0m    here comes an ansi by the most active dark
+      ░[1;37m▓▌[0;1;30m▓[0;1;37m█▓[0m       [1;37m [0m                                              
      ░[1;37m▐▓[0m  [1;30m▐[0;1;37m▒[0m▓  [1;30m▄[0;1;37m▄■[0m [1;37m▄▌[0m▄[1;37m■[0m  member ever wahaha ::. ;, .
  ▄■▀▌[1;37m ▓ [0m   [1;30m▓[0m▄[1;37m█▀ [0m [1;37m▄▀[0;1;30m▄▀[0m
 [1;37m  ▌[0;1;30m▐[0m [1;37m▓ [0m ▄■▀[1;30m▐[0m  [1;37;47m▀[0;1;37;40m▄▀[0m▄▀ [1;30m▄▄■■[0m [1;30m▀[0m
- [1;37m ▐▄▓■▀[0m   [1;30m▄▀[0m [1;37m▄[0;1;37;47m▓[0;1;37;40m▓[0m▀[1;30m▀▀[0m        greetings :  tmowhrekf .. METAL FOREVER!%!&%½
+ [1;37m ▐▄▓■▀[0m   [1;30m▄▀[0m [1;37m▄[0;1;37;47m▓[0;1;37;40m▓[0m▀[1;30m▀▀[0m                                                     
  [1;37m  ▀[0m   [1;30m▄■▀[0m [1;37m▄▓▀[0m▄[1;37m▀[0;1;37;47m▀[0;1;37;40m▄[0m                     lord reaper . draw som more ascIIZ!
       [1;30m▀■▄[0;1;37m▒▒▀[0m ■   ▀[1;37;47m▀[0;1;37;40m▄[0m
 [1;30;40m░░░░░[0m  [1;37m▄■[0m [1;37m▀[0m  [1;30m░░░[0m  [1;37m [0m▓[1;37m▀■[0m [1;30m░░░[0m [1;30m░  ░[0m  [1;30ma l l a   x u l[0m

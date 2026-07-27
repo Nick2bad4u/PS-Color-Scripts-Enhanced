@@ -5,7 +5,7 @@
 # Source SHA-256: f4608e0aa080774a093f1a2faf2606bc9f2a8bd93bb3f86f86ce739e269a5522
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 0896FIRE.ANS by Iodine + Halaster (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: #INFO# Fire Hierarchy
 # SAUCE Author: Iodine
 # SAUCE Group: fire
@@ -39,16 +39,4 @@ Write-Host '
                      [1;36;40m      [0m  [31m▀[0;31;41m  [0;31;40m▄[0;31;41m [0;31;40m▀[0;31;41m   [0;31;40m▄▄▄▄[0m          [31;40m░░ ▄▄▄[0;31;41m [0;31;40m█▄▄██[0;1;31;41m░[0;31m▀[0m
                                 [31m▀▀[0;31;41m   [0;31;40m▄▀▀█████[0;31;41m      [0;31;40m▄▓▓▄[0;31;41m  [0;31;40m██▌▀▀▀▌[0m
                                      [31;40m▀▀▄[0m     [31;40m▀▀▀▀▀▀▀▀▀▀▀[0m       [31;40m░[0m
-                                         [31;40m■[0m
-
-[31;40m     [0m      [1;37;40m [0m  [1mhalaster [0;36m([0;1;36mpresident[0;36m,[0;1;36m ansi team leader[0;36m)[0m
-
-                 [1;37mblatz[0;36m ([0;1;36mascii team leader[0;36m)[0m
-     [1;37m      [0m    [1mfractal [0;36m([0;1;36mpublic relations[0;36m,[0;1;36m phone list[0;36m)[0m
-          [1;37m     maxwell[0;31m [0;36m([0;1;36mcoding team leader[0;36m)[0m
-               [1;37mpanacea[0;36m ([0;1;36mpyrodraw[0;36m)[0m
-            [1;37mprisoner#1 [0;36m([0;1;36mcovert operations[0;36m)[0m
-               [1;37msilicon [0;36m([0;1;36mradianCe[0;36m,[0;1;36m mailing lists[0;36m)[0m
-         [1;37msurreal logic [0;36m([0;1;36mhi-resolution team leader[0;36m,[0;1;36m all teams recruiter[0;36m,[0m
-       [36m [0m                [1;36mfireweb[0;36m)[0m
-         [1;37mthe extremist [0;36m([0;1;36mall teams recruiter[0;36m)[0m'
+                                         [31;40m■[0m'

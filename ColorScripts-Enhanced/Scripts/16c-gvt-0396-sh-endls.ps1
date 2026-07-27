@@ -5,7 +5,7 @@
 # Source SHA-256: 104ee24ce33bdf21ddf96619dd97f5127db7ee8a8183c46089cab82114cd9a3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-ENDLS.ANS by shatters (gravity); released in gvt-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: endless
 # SAUCE Author: shatters
 # SAUCE Group: gravity
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-shatters([1;34mgravity[0m)                                           [1;34m▄▄▄[0m
+         [1;34m       [0m                                            [1;34m▄▄▄[0m
               [1;31m  [0m [1;31m▄▄[0m       [1;31m▀[0m [1;31m  [0m       [1m░[0m                  [1;34m██████▓░[0m
          [1;31m░[0m [1;31m ▄▀▀[0m  [1;31m  [0m [1;31m ▀[0m [1;31m▄[0m      [1;31m▄[0m [1;31m  [0m [1;31m [0m                   [1;34m░▓███████[0m
           [1;31m █▌ [0m  [1;31m░░[0m [1;31m  [0m            [1;31m▀▀[0m [1;31m▄▄ [0m                 [1;34m░███████▌[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 8e1ee411dc1170a290250f60918f2245fd9f8c2fc1b43c28542af3ed1ac38745
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-sawena.ans by avenging angel (sauna); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sawena
 # SAUCE Author: avenging angel
 # SAUCE Group: sauna
@@ -17,7 +17,7 @@
 
 Write-Host '
 
-                     [1;30msAWEna[0m [1;30m- the no ungennants[0m [1;30msocial club[0m
+                     [1;30m      [0m [1;30m                   [0m [1;30m           [0m
 
 
 

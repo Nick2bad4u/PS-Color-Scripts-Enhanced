@@ -5,7 +5,7 @@
 # Source SHA-256: 6c953374d8ce0caf41f7aa3d412ea193858da6df0442e2c68865557d862a3e0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-GUILD.ANS by Nitron (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Guild BBS [PHAT]
 # SAUCE Author: Nitron
 # SAUCE Group: Mistigris
@@ -56,5 +56,4 @@ Write-Host '
                [1;30m [0;1;37m▄▄▄▄▄▄[0;1;30m [0;1;37m▄[0;1;30m   [0;1;37m▄[0;1;30m  [0;1;37m▄▄▄▄[0;1;30m [0;1;37m▄▄▄▄▄[0;1;30m [0;1;37m▄▄▄▄▄▄▄▄▄[0;1;30m [0;1;37m▄▄▄▄[0;1;30m  [0;1;37m▄▄▄▄▄[0m [1;30m      [0m
             [1;30m▐[0m▐[1m▐[0;1;30m [0;1;37m░[0m▄▄▄▄▀[1;30m░[0;1;37m░[0m▄▄▄[1m░[0;1;30m░[0;1;37m░[0m▄▄▄▄[1m░[0;1;30m░░[0;1;37m░[0;1;30m░░[0m▀▀▀▀▄[1;30m░░[0;1;37m░[0;1;30m░░[0;1;37m░[0m▄▄▄▄[1m░[0;1;30m░[0;1;37m░[0m▄▄▄▄▀ [1m▌[0m▌[1;30m▌            [0m
               [1;30m  ▀      ▀   ▀ ▀    ▀  ▀  ▀▀▀▀   ▀  ▀    ▀ ▀    ▀      [0m
-                   [1;30m  p   r   0   d   u   c   t   1   0   n                 [0m
-'
+                   [1;30m  p   r   0   d   u   c   t   1   0   n                 [0m'

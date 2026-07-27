@@ -5,7 +5,7 @@
 # Source SHA-256: 8bc9ed68a0ec7f85f5b42b55375b0c9e97d1f3e1eee52d0eeccb3b21cd6965fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SS.ANS by Cleaner + Avenging Angel (Force / Ecolove); released in eco-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SS Matrix
 # SAUCE Author: Cleaner / Ave_Angel
 # SAUCE Group: Force / Ecolove
@@ -38,9 +38,5 @@ Write-Host '
 [33m▄   [0;31m  [0;32m▄[0;1;32m▄[0;1;32;42m▓▓███▀[0;32m▀[0;1;36m▄████████████████████████▄▄[0;32m▀[0;1;32;42m▀██▓▓██▓▓[0;1;32;40m▄[0;32m▄[0;37m [0;1;30m▄▀[0;33m▀▀▀ ▄▄▄▄▄██[0;1;31;43m░░░░▒▒▒░░░[0;33m▓░[0m
 [1;31;43m░░[0;33m█▄[0;31m [0;32m▐[0;1;32;42m░░░▓▀[0;1;32;40m▀[0;32m▀[0;1;36m░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░[0;32m▀▀[0;1;32;42m▀[0;1;32;40m▀[0;1;32;42m▀▓░░░[0;32m▌[0;1;30m▐[0;1;30;43m▓▓▒░░[0;33m█[0;1;30;43m░[0;1;31;43m         ░░░   [0;33m▓░[0m
 [1;31;43m▓▓░░[0;33m▌[0;37m [0;32m░░░[0m     [1;36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;36mcl!+ave[0;37m [0;32m░░░[0;37m  [0;1;30m░░░░░[0;33m░░░░░░░░░░░[0;1;31m░░░[0;33m░░░░░[0m
-[1;31m░░[0mansi screen by cleaner [1;30m([0;1;37mforce[0;1;30m|[0;1;37mecolove[0;1;30m)[0m & avenging angel [1;30m([0;1;37mforce[0;1;30m)[0m [36m-[0;37m september[0;1;30m''[0m98
-─[1;30m─∙[0m [36m↓[0;37m [0;1;37mPAGE DOWN[0m [36m↓[0;37m ─[0;1;30m──[0m──[1;30m──[0m∙[1;30m───[0m─∙──[1;30m──∙[0;36m[[0;37mA[0;1;37mns[0mi R[1mequeste[0md By T[1mhin[0mk[36m][0;1;30m─∙[0m──[1;30m──[0;36m[[0;37m2[0;1;37m9[0;36m/[0;1;37mo[0m9[36m/[0;1;37m9[0m8[36m][0;1;30m∙[0m──
-
- This ansi was  supposed to be a joint between  me and Gravedancer but  finally
- I showed  the outline to Avenging Angel, he  shaded it and added  a background
- then here''s the joint. Sorry Gravedancer :( Next time :)[0m'
+[1;31m░░[0m                       [1;30m [0;1;37m     [0;1;30m [0;1;37m       [0;1;30m [0m                  [1;30m [0;1;37m     [0;1;30m [0m [36m [0;37m          [0;1;30m [0m  
+─[1;30m─∙[0m [36m↓[0;37m [0;1;37mPAGE DOWN[0m [36m↓[0;37m ─[0;1;30m──[0m──[1;30m──[0m∙[1;30m───[0m─∙──[1;30m──∙[0;36m[[0;37mA[0;1;37mns[0mi R[1mequeste[0md By T[1mhin[0mk[36m][0;1;30m─∙[0m──[1;30m──[0;36m[[0;37m2[0;1;37m9[0;36m/[0;1;37mo[0m9[36m/[0;1;37m9[0m8[36m][0;1;30m∙[0m──[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8d1fd5cefbc328b7944c9e249b6c44898cd696979b0d4fd1673b3db9dc0666f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: misfit-phil.ans by Misfit (amish-rumspringa); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20180202
 # SAUCE Dimensions: 80x124
 # SAUCE Font: IBM VGA
@@ -47,11 +47,11 @@ Write-Host '
 
 
 
-           [35mANSI MASTERS IN STRAW HATS WISH YOU A HAPPY GROUNDHOG DAY![0m
+           [35m                                                          [0m
 
-                    [35mANSI BY MISFIT [AMiSH // BLOCKTRONiCS][0m
+                    [35m                                      [0m
 
-       [35mSTARTED AND FINISHED ON GROUNDHOG DAY 2018, WHEN PUNXSUTAWNEY PHIL[0m
-       [35mPREDICTED SIX MORE WEEKS OF WINTER LIKE A TOTAL JERK. THANKS PHIL.[0m
+       [35m                                                                  [0m
+       [35m                                                                  [0m
 
            [30m.....[0m'

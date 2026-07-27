@@ -5,7 +5,7 @@
 # Source SHA-256: 306e798f3dfca509ab8e1d0befa2d11db4e05ba9efd88b9410fe117d0bd29884
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-USED6.ANS by Mr.Wrong (The Used Coalition); released in used-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Used Coalition
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: The Used Coalition
@@ -36,5 +36,4 @@ Write-Host '
 [1;30;40m███▄▀[0m   [1;30m ▀▀▄[0m  [34m▄[0;37m  [0;1;30m ▄[0;1;30;47m▄█▓▓▓[0;1;30;40m█▀▀▀[0m   [1;30m▄[0;1;30;47m█▄[0;1;30;40m▀▀█▄ ▀▀▀▀▄  ▀▀█▄▀[0m [1;30m▀▀███▀▀[0m  [1;30m▀▀[0m [34m▄[0;36m [0;1;30m▄█▄▀▀▄█▀▀ ▄██▀[0m
 [31m [0;1;30m▀▀▀█▄[0;31m      [0;1;30m [0m  [1;30m▄██▀▀▀[0m  [1;30m▄██▄▀[0;31m [0;1;30m▄▀▀[0;31m   [0;1;30m▀[0;31m    [0;1;30m▄█▄[0;31m [0;1;30m      ▀[0;31m     [0;1;30m▀▀▄▄ [0;31m [0;37m    [0;31m [0;1;30m▀[0;31m [0;1;30m▄[0;31m  [0;1;30m▄▄ ▀▀[0;31m [0;1;30m▄[0;31m [0m
 [37m [0;1;30m▄█▄[0m   [1;30m▀▀[0m   [1;30m ▄▀▀[0m       [1;30m ▀▀ [0m [1;30m▄[0m         [1;30m  [0m [1;30m▀[0m   [1;30m [0m     [1;30m▀[0m         [1;30m▀▀[0m             [1;30m ▀█▀[0m
-  [1;30m▀[0m         [1;30m▄[0m T[1m h e[0m [1m [0mU[1m s e d[0m [1m [0mC[1m o a l i t i o n[0m - after the eulogy
-                                                                        [1;30mMr.Wrong[0m'
+  [1;30m▀[0m         [1;30m▄[0m  [1m    [0m [1m [0m [1m      [0m [1m [0m [1m                [0m                   [0m'

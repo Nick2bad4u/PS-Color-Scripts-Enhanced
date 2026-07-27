@@ -5,7 +5,7 @@
 # Source SHA-256: 216e89c94649b41a4a8329e0542be894e3bd5f66e0f91d91fbda2a65ec6cd880
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZH-PCYD.ANS by Zipperhead (Manifest Innovations); released in mft-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Pharcyde
 # SAUCE Author: Zipperhead
 # SAUCE Group: Manifest Innovations
@@ -35,11 +35,11 @@ Write-Host '
 [1;34m██[0;1;34;44m▓▓▒▒░░ ░                                                            ░ ░░▒▒▓▓██[0m
 ▀[1;30m▀[0m▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀▀[0m▀[1;30m▀[0m▀
 [1m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0;1;30mthe pharcyde[0;1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0m
-[1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0;1;30meight[0m-[1;30mzero[0m-[1;30mfive[0m-[1;30meight[0m-[1;30mseven[0m-[1;30mone[0m-[1;30mzero[0m-[1;30mtwo[0m-[1;30mone[0m-[1;30mnine[0;1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0m
+[1;37m [0;1;34m [0;1;30m              [0;1;34m [0;1;37m [0;1;30m     [0m [1;30m    [0m [1;30m    [0m [1;30m     [0m [1;30m     [0m [1;30m   [0m [1;30m    [0m [1;30m   [0m [1;30m   [0m [1;30m    [0;1;37m [0;1;34m [0;1;30m         [0;1;34m [0;1;37m [0m
 [1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0;1;30ms[0m:[1;30mzen dog of hch[0m/[1;30mrad[0m/[1;30mlid[0;1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0m
 [1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0;1;30mc[0m:[1;30mquixotic of mft[0m/[1;30mlid[0;1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0m
 [1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0;1;30mc[0m:[1;30mvector[0;1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0m
-[1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0;1;30moblivion two[0m.[1;30mtwenty[0m-[1;30mfive modded up the ass[0;1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0m
+[1;37m [0;1;34m [0;1;30m                  [0;1;34m [0;1;37m [0;1;30m            [0m [1;30m      [0m [1;30m                      [0;1;37m [0;1;34m [0;1;30m            [0;1;34m [0;1;37m [0m
 [1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0;1;30mone gig zero to five day wares[0;1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0m
 [1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0;1;30mone hundred fifty[0m+ [1;30mmsgs a day[0;1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0m
 [1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0;1;30mart[0m/[1;30munix[0m/[1;30minet support[0;1;37m∙[0;1;34m∙[0;1;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;34m∙[0;1;37m∙[0m
@@ -49,11 +49,11 @@ Write-Host '
 ▄[1;30m▄[0m▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄[1;30m▄[0m▄
 [1;34m██[0;1;34;44m▓▓▒▒░░ ░                                                            ░ ░░▒▒▓▓██[0m
 ▀[1;30m▀[0m▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀▀[0m▀[1;30m▀[0m▀
-[1;30mmass delusion [0m∙ [1;30malive is neato[0m                                                 z
-[1;30mderanged evil [0m∙ [1;30mwhassup with that screen grabber![0m                              h
-[1;30mdemize [0m∙ [1;30mdo me an ansi ;)[0m                                                      m
-[1;30mblack aksion [0m∙ [1;30ma great big fym to the fuck yo momma crew![0m                      f
-[1;30msexual chocolate [0m∙ [1;30mlet my ass on your board![0m                                   t
+[1;30m              [0m  [1;30m              [0m                                                  
+[1;30m              [0m  [1;30m                                 [0m                               
+[1;30m       [0m  [1;30m                [0m                                                       
+[1;30m             [0m  [1;30m                                          [0m                       
+[1;30m                 [0m  [1;30m                         [0m                                    
 ▄[1;30m▄[0m▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄[1;30m▄[0m▄
 [1;34m██[0;1;34;44m▓▓▒▒░░ ░                                                            ░ ░░▒▒▓▓██[0m
 ▀[1;30m▀[0m▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀▀[0m▀[1;30m▀[0m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d025443ac222e6a1ac2abdecc14b898fcc3898e469ba4ba4a19dfcb373d1cf67
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: INFOFILE.ANS by Milkmang + Alla Xul (IKEA); released in ikeadeus and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Infofil p? svenska
 # SAUCE Author: Alla Xul
 # SAUCE Group: IKEA
@@ -48,18 +48,4 @@ Write-Host '
             [1;30m▀▀▀▀▀▀▀▀█████[0m▒▒▒▒░░▒[1;30m▓▓▄▄▄▄▌[0m
             :: [31minfo[0;1;30m █[0m▒▒▓▓▓▓█[1m▓██▓▓▓[0m▓▓▓[1;30m█[0m  [31mIKEA package number två![0m
             [1;30m  ■ ■■■██████[0m▒▒▓▓██▓▒[1;30m███▀[0m
-                      [1;30m  ▀▀▀▀▀▓▓░[0m        Tiden går och den 15/1 fanns det givet-
-                                        inte tillräckligt för release. En vecka
- till och alla arbetar lite hårdare? Sannerligen inte!
- Här är release två och jag saknar fortfarande aktiviteten alla pratade om i
- början. Naturligtvis ritar [1mBYM[0m, [1mZeus II[0m, [1mPike[0m och [1mAlla Xul[0m en massa men det
- visste vi innan. Roligare vore om [1mDfuse[0m, [1mSensei[0m och några andra gamla rävar
- kunde ta sej samman nån kväll varje månad..
-
- Men, nog klagat, det är roligt att ni ritar och jag vet att Sensei har saker
- som är almost, vidare har Dfuse med en IKEAloga som ser klart lovande ut!
-
- Dealen till tredje packetet är att alla ritar jävulen ur sej.
-
-
- Enjoy! /Milkmang[0m'
+                      [1;30m  ▀▀▀▀▀▓▓░[0m                                               [0m'

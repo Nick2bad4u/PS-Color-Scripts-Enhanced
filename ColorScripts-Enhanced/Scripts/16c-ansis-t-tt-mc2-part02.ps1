@@ -5,7 +5,7 @@
 # Source SHA-256: e1c38ec0b0421eed8b70cdb597f6ea70d5c70bdf8a732342007f4a5f71040cb0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-MC2.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 27-56
 # Columns: 1-80
 
@@ -33,10 +33,10 @@ Write-Host '
                          [31m▒▒ [0;1;30m▄▄▄▄▄▄▄▄▄▌[0m          [1;30m▄▄▄▄▄▄▌▄▄▄▄▌[0m             [1;30m▄▄▄▄▌[0m
                          [31m░▒▒ ▒▒▒░░[0m
 [31m───────────────────────── ░▒─░░▒▒░─────────────────────────────────────────────[0m
-                     [31m·  · ░░░ ·░▒░·Medieval Crypt·· ·  ·   ·[0m
-[31mSysOp ¬⌐ Medieval Magician  ░   ░░    Ansi by[0m          [31mToxicNet World Hub/HQ[0m
-         [31m[[0;1;37mi[0;1;36mC[0;1;34mE [0;31mDistributor]  ░   ░░ Tempus Thales[0m         [31m[[0;1;37mi[0;1;36mC[0;1;34mE[0;31m] Courier Site[0m
-[31m  HST 19.2 Dual Standard[0m         [31m░ [[0;1;37mi[0;1;36mC[0;1;34mE[0;31m]·4/2o/92[0m       [31mAPeX United States HQ[0m
-       [31m· 65o Megs ·[0m              [31m░[0m                          [31m· Vision X ·[0m
+                     [31m     ░░░  ░▒░                          [0m
+[31m       ⌐                    ░   ░░           [0m          [31m                     [0m
+         [31m [0;1;37m [0;1;36m [0;1;34m  [0;31m              ░   ░░              [0m         [31m [0;1;37m [0;1;36m [0;1;34m [0;31m              [0m
+[31m                        [0m         [31m░  [0;1;37m [0;1;36m [0;1;34m [0;31m         [0m       [31m                     [0m
+       [31m            [0m              [31m░[0m                          [31m            [0m
                       [1;31m2  1  4 [0;31m·■· [0;1;31m2  4  2 [0;31m·■· [0;1;31m2  9  5  4[0m
 [31m───────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 549ae72ac7d622f58dddd4b8e684933c93f821077e618f64f2ea439c5d4aeec0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JS-CL1.ANS by julian (blade productions); released in blade-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: clockwork orange compo
 # SAUCE Author: julian
 # SAUCE Group: blade productions
@@ -32,6 +32,6 @@ Write-Host '
              [1;31m▀▀▀▀[0;33m▌[0;1;31m▀▀▀▀[0;33m▌[0;37m  [0;1;30m   [0m                   [1;31m▀[0;33m▌▌[0;37m  [0;1;31m<[0m [36m■ login[0;37m [0;1;31m>[0m   [1;31m▀▀[0;33m▌▌[0m
    [1;30mtea.[0m                                        [33m▌▌▌[0;37m  [0;1;31m<[0m [1;33m■ apply[0m [1;31m>[0m    [33m▌[0;1;31m▀[0;33m▌[0m
               [1;30mansi/julian/blade[0m               [1;31m▀▀▄▄[0m  [1;31m<[0m [36m■ check[0;37m [0;1;31m>[0m   [1;31m▀▀[0;33m▌▌[0m
-   [1;30mttteatttime2 hr compo, i did[0m                [33m▌▌▌[0;37m  [0;1;31m<[0m [36m■ leave[0;37m [0;1;31m>[0m    [33m▌[0;1;31m▀[0;33m▌[0m
+   [1;30m                            [0m                [33m▌▌▌[0;37m  [0;1;31m [0m [36m■      [0;37m [0;1;31m [0m    [33m▌[0;1;31m▀[0;33m▌[0m
    [1;30mteatime.[0m   [1;30mit in under one.[0m          [1;31m▀▀▀▀[0;33m▌[0;1;31m▀▀▀▄▄▄▄▄▄▄▄[0m          [1;31m▄▄▀[0;33m▌[0;1;31m▀[0m
               [1;30mphear///.....[0m                             [1;31m▀▀▀▀▀▀▀▀▀▀▄[0;33m▌▌[0;1;31m▀▀▀▀[0m'

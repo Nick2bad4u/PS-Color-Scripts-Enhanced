@@ -5,7 +5,7 @@
 # Source SHA-256: bdbab234b954c6c2a890a36ab93c201f83ffc6103f9377d82cf589f2535b89de
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-UNITY.ANS by mr self destruct (icon); released in icon1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: unity 2
 # SAUCE Author: mr self destruct
 # SAUCE Group: icon
@@ -39,5 +39,4 @@ Write-Host '
 [36m [0;1;31;41m▄[0;31;41m█[0;31;40m▌    █▌    ▌       ▐     ▀▒     ▐░     ▐▐░     █    ░     [0;36;40m░[0m
 [37;40m [0;37;41m [0;31;41m█[0;31;40m░    ▐█░   ■      ▄█▄          ░█▌      ▓▒     [0;1;31;41m░[0m
 [1;31m [0;31m█▄▄▄▓▄▄▄▀[0;1;31;41m░[0;31;41m██[0;31;40m▄▄▄▒▄▄██[0;1;31;41m░[0;31;41m██[0;1;31;41m░[0;31;41m█[0;31;40m▄▄▒▄▄▄█████▄▓▄▄▄░█▓▄▄▄▄░[0;1;31;41m▒[0;1;31;40m    [0;31m▐[0m
-[31m █████[0;1;31;41m░[0;31;41m█[0;31;40m▀[0;1;31;41m░▒░[0;31;41m██████[0;1;31;41m░[0;31;41m█[0;1;31;41m░▒▄[0;31;41m█[0;1;31;41m▄▒▄[0;31;41m█[0;1;31;41m▄░[0;31;41m█[0;1;31;41m▄[0;31;41m████[0;31;40m▓████████ █[0;1;31;41m░▒[0;31m▒[0;1;31;41m▓[0;1;31;40m    [0;31m▓[0m
-[31m un[0;1;31mity/2 sys[0;31mte[0;1;31mms. iCON, s0[0;31map [0;1;31mwhq, sy[0;31mslo[0;1;31mp'' jester, (2[0;31mo[0;1;31m4)g[0;31moo-l[0;1;31mu[0;31mck.. .[0m'
+[31m █████[0;1;31;41m░[0;31;41m█[0;31;40m▀[0;1;31;41m░▒░[0;31;41m██████[0;1;31;41m░[0;31;41m█[0;1;31;41m░▒▄[0;31;41m█[0;1;31;41m▄▒▄[0;31;41m█[0;1;31;41m▄░[0;31;41m█[0;1;31;41m▄[0;31;41m████[0;31;40m▓████████ █[0;1;31;41m░▒[0;31m▒[0;1;31;41m▓[0;1;31;40m    [0;31m▓[0m'

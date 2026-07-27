@@ -5,7 +5,7 @@
 # Source SHA-256: 91ac09819d6542001f5ae5518583b7ddf292e7fced09ea0cdd3eef18eddbf418
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (A)HAC13.ANS by alecs (pHaT); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hacienda
 # SAUCE Author: alecs
 # SAUCE Group: pHaT
@@ -55,12 +55,4 @@ Write-Host '
 [1;31;40m   ▀█████████████▀▀[0;33m▄[0;1;31;43m▓[0;1;31;40m████████[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓▓▓▓▒▀[0;33m▀[0;1;31m  [0m [1m▐▌[0m  [1m░[0m   ▐[1;30;47m▌[0m█████[1;47m▓[0m██[1;30;47m▄▄▓[0;35;47m [0;37;40m██[0;31;47m [0;1;32;47m▀▀▀[0m██[31;47m [0;37;40m███[0;1;37;47m░[0m███
 [1;31m     ▀▀███[0;1;31;41m▓[0;1;31;40m███████[0;1;31;43m▄█[0;1;31;40m████████[0;1;31;43m▓▓▒▒░░[0;33m███▌[0;1;31m [0;1;37m▓[0;1;31m  [0;1;37m▓[0m      ▐[1;30;47m [0m█████[1;47m▀[0;1;30;47m▄[0;1;30;40m▀[0m   [1;30m▀[0;1;30;47m▄[0m█[31;47m ░[0;37;40m██[0;31;47m [0;1;31;47m▄█▄[0m█[1;30;47m▄[0m████
          [1;31m▀▀████████████[0;1;31;41m▓[0;1;31;43m█▓▓▒▒[0;33m▀▀▄▄▄[0;1;31;43m░  [0;33m▌[0;37m [0;1;37m▐▌[0m  [1m░[0m   ▄▄███████[1;30;47m▀[0;1;30;40m▄▄[0m   [1;30m▄[0;1;30;47m▀[0m██[31;47m▒[0;37;40m███[0;1;31;47m▀▓[0m███████
-[1;30;47m▓[0m▄▄▄          [1;31m▀▀█████▀[0;33m▀▀▀[0;1;31m▄▄▄▄[0;1;31;43m▓▓▒▒░   [0m   [1m░[0m ▄▄▄[1;30;47m░▀[0m████████████[1;30;47m▀[0m▄[1;30m▀[0m████[1;30;47mby alecs^phat[0m
-
-[1;31m [0m
-   and, with my  latest ansee in this pack, i want to let some greetz away:
- tricycle^phat^ethos9^blood / jey^blood / buster^blood / helter skelter^ehp /
- leonardo^bm /kyp^bm / assign^rr / animal^sac / noize^phat / poti^phat^xpress
- xtralarge^eh / melle^d0pe / paralyzer^art  and the others of my anarchyposse
- and, last but not least, all of my phat crew and all of my eternal hate gang
-                                                                 alecs^phat^ehp[0m'
+[1;30;47m▓[0m▄▄▄          [1;31m▀▀█████▀[0;33m▀▀▀[0;1;31m▄▄▄▄[0;1;31;43m▓▓▒▒░   [0m   [1m░[0m ▄▄▄[1;30;47m░▀[0m████████████[1;30;47m▀[0m▄[1;30m▀[0m████[1;30;47mby alecs^phat[0m'

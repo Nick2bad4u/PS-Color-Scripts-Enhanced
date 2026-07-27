@@ -5,7 +5,7 @@
 # Source SHA-256: 49120b2c90c8c8a831428a77725e10d459d7cc03ed2f2fcdb67fb731e77b6253
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MN-HYS.ANS by Menace (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hysteria
 # SAUCE Author: Menace
 # SAUCE Group: AWE Lettering
@@ -33,8 +33,4 @@ Write-Host '
 [34m ▀[0;34;44m [0;34;40m█▄▄[0m        [31;40m▐[0;1;31;41m████▓░[0;31m▌ [0;33m▓  [0;1;33;43m▐███[0m [1;33;43m██▀[0;1;33;40m▀[0m     [31m▄[0;1;31;41m▓███▌[0;31m▐[0;1;31;41m█▀[0;31m▀[0m      [31m▄[0;31;47m░[0;37;41m▓[0;1;37;47m░░▓▓█▀[0m▀ [34m▄█▌▀███▄▄▄[0m
 [34m    ▀▀[0;30;44m░░[0;34;40m▓░[0;30;44m▓[0m  [31;40m▄[0;1;31;41m▓▓[0;1;31;47m██▓[0;1;31;41m▀[0;31m▀  [0;33m▒  ▌[0;1;33m▀▀▀ [0;1;33;43m████[0m    [31m█[0;1;31;41m░░▓[0;31m▀[0;1;31;41m▀███▓▒░[0;31m▄▄▄[0;31;41m [0;1;31;41m░░[0;41m░[0;31;47m▓░[0;37;40m▀▀▀   [0;30;44m░[0;34;40m▓▀[0m     [34;40m▀▀▀[0m
        [31;40m▄▄▄▄[0;1;31;41m░░░░[0;31m▀[0;1;31m▀▀[0m     [33m░[0m        [1;33m▀▀░░    [0;31m▀▀    ▀▀▀▀▐[0;31;41m   [0;31;40m▀▀▀[0m        [34;40m▀[0m
-       [31;40m▀▀▀▀[0m
-
-[37;40mmenni([0;1;37;40mawe[0m)                 h[1my[0msteria +o icepick... I think
-
-there is a [1mY [0min there.. ...  maybe.. .[0m'
+       [31;40m▀▀▀▀[0m'

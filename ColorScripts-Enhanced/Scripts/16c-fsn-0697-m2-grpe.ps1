@@ -5,7 +5,7 @@
 # Source SHA-256: 4790bc0f2e842d0e914e3a440d77e7dceabc08fed401f9ddbf6e2596470121e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M2-GRPE.ANS by lord milk.. (fusion); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: grape login
 # SAUCE Author: lord milk..
 # SAUCE Group: fusion
@@ -36,10 +36,4 @@ Write-Host '
 [36m▄▌[0;1;30m▐▄▄▐[0m [36m▐▄[0;34m▐[0;1;34;44m▓[0;1;34;47m█▓▒▓[0;1;34;44m▀[0;1;34;40m▄▓[0;1;34;44m░[0;34m▄[0;1;34;44m▄[0;1;34;47m▒▓[0;1;34;44m▌[0;34m▓[0;37m [0;30;43m░[0;33;40m░[0;37;40m  [0;1;36;46m▐[0;36m░[0;37m [0;36m░[0;30;46m▓[0;37;40m  [0;36;40mfinest artbard in town, to suite[0;37;40m [0;36;40m░[0;30;46m▓[0m   [36;40m░[0;1;36;46m█▓[0;1;33;46m░[0m
 [1;36;46m▓[0;36m▌[0;1;30m▐▐▐▓[0;33m▐ [0;36m▌[0;37m [0;1;34;44m░▓██[0;1;34;47m▓▓[0;1;34;44m█▓[0;1;34;47m▓[0;1;34;44m█[0;1;34;47m▓▓[0;1;34;44m▀[0;30;44m░[0;34;40m▓[0;37;40m [0;33;40m [0;37;40m [0;36;40m▄[0;1;36;46m▄▓▄[0;1;36;40m▄▄[0;36m▄[0m          [36myour ass. ..[0m    [36myaee3[0m       [36m▄▐[0;1;36;46m▓▀[0;36m▀[0;1;33m░[0m
 [1;36;46m░[0;36m░[0;37m [0;1;30m█▓[0m [33m▀[0m   [34m░[0;1;34;44m░█▀▀[0;1;34;40m▀▀▀▀[0;34m▀▀▀ [0m         [36m▀[0;1;36m▀▀▀▀▀▀[0;36m▀[0m        [36m▄▄[0m                   [36m▄▄[0;30;46m░[0;36;40m▓[0;1;36;40m▀▀▀[0;36m▌[0m
-   [1;30m▀░[0m                                                     [36m▀▀▀▀▀▀[0m
-[37m / milk(fusion)[0m
-   [37mi overshaded the whole shit, damn.[0m
-   [37manyway, it''s the loginscreen for my board, halfleet anyway i think ;).[0m
-   [37mthanks to nail for some tips about the [0m
-
-   [37mbtw .. . rex and ize, you guys rocks. jupps.[0m'
+   [1;30m▀░[0m                                                     [36m▀▀▀▀▀▀[0m'

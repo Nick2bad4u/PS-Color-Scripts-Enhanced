@@ -5,7 +5,7 @@
 # Source SHA-256: ffb0760057d53eb2c6ea6541499a8d59bb8ba6d8340bf9bc8469d9cec0ff6e74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cl!-way.ans by Cleaner (ruah01f); released in ruah01f and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 70-105
 # Columns: 1-80
 
@@ -40,9 +40,4 @@ Write-Host '
 
 [1m       [0m   [36mW [0;1;37m  ┌[0m─[1;30m-[0;1;37m  [0;36m A  [0;1;37m ┌[0m─[1;30m-[0;1;37m   [0;36mY[0;1;37m   ┌[0m─[1;30m-[0;1;37m [0;36m  L[0;1;37m   ┌[0m─[1;30m-[0;1;37m   [0;36mA [0;1;37m  ┌[0m─[1;30m-[0;1;37m [0;36m  N[0;1;37m   ┌[0m─[1;30m-[0;1;37m   [0;36mD[0m
 
-[1;30m∙─[0m-[36m[[0;37m1[0;1;37m00 Line[0ms[36m][0;1;30m∙[0m─[1;30m-[0;36m[[0;37mC[0;1;37mleane[0mr[36m/[0;37mP[0;1;37mrelud[0me[36m][0;1;30m-[0m──[1;30m──∙-[0m--──[1;30m──[0m---[1;30m∙─[0m───[1;30m--[0;36m[[0;37mo[0;1;37m8[0;36m/[0;1;37mo[0m3[36m/[0;1;37m9[0m9[36m][0;1;30m──[0m∙[36m[[0;37mo[0;1;37m1[0;36m:[0;1;37m4[0m3[36m][0;37m─-[0;1;30m∙[0m
-
- This ascii is unfinished because I haven''t enough time left  in the compo. The
- finished version will be released in Prelude Artpack 04, on April 1st.
-
-                                                           Cleaner[Prelude][0m'
+[1;30m∙─[0m-[36m[[0;37m1[0;1;37m00 Line[0ms[36m][0;1;30m∙[0m─[1;30m-[0;36m[[0;37mC[0;1;37mleane[0mr[36m/[0;37mP[0;1;37mrelud[0me[36m][0;1;30m-[0m──[1;30m──∙-[0m--──[1;30m──[0m---[1;30m∙─[0m───[1;30m--[0;36m[[0;37mo[0;1;37m8[0;36m/[0;1;37mo[0m3[36m/[0;1;37m9[0m9[36m][0;1;30m──[0m∙[36m[[0;37mo[0;1;37m1[0;36m:[0;1;37m4[0m3[36m][0;37m─-[0;1;30m∙[0m'

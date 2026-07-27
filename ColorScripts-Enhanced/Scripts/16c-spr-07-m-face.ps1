@@ -5,14 +5,14 @@
 # Source SHA-256: e6831690637e7ddf014dbc9503964977a0316b8a96207fe621605221c5b03566
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M!-FACE.ANS by Mike (spr_07); released in spr_07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-  [1;30mpraca, ktora zrob[0milem w sp[1mecja[0;1;33mlnie[0m
-  [1;30mdo obrobki w  pho[0mtoshopie,[1m na [0;1;33mcele[0m                      [1;30m ▄ ▄[0m
-[1m  [0;1;30mkonkursu GRAFKOM [0m2002. pra[1mca ktora[0m             [1;30m▄[0m       [1;30m▀▄[0m▐▐[1;30m▌[0m
+  [1;30m                 [0m         [1m    [0;1;33m    [0m
+  [1;30m                 [0m         [1m    [0;1;33m    [0m                      [1;30m ▄ ▄[0m
+[1m  [0;1;30m                 [0m         [1m        [0m             [1;30m▄[0m       [1;30m▀▄[0m▐▐[1;30m▌[0m
 [1m  [0;1;30mpowstala  w  wyni[0mku  moich[1m  staran        [0;1;30m▀[0m▄▄▀▀[1;30m [0;33m  ▀[0;1;31;43m░░░[0;33m▄[0;1;31m▄▄▄[0m▀▄[1m    [0;33m▄▄▄▀[0;1;30m▀▀[0m
 [1m  [0;1;30mpowinna znajdowac[0m sie gdzi[1mes w tym      [0;1;30m▀[0m▄▀[33m [0;1;37m▄[0;1;30m▀[0m▄[1;34m▄[0;34m▄[0;1;37m▀▄▄[0;33m▐[0;1;31;43m░▒▒▓▓▓[0;1;31;40m█▌▄▀[0;33m▀ [0m
 [1;37m  [0;1;30mpacku. dedykacja [0mdla mista[1m/spiral.      [0;1;30m [0;33m [0;1;37m▄█[0;34m▐[0;1;34;44m░[0;1;34;40m▀[0;1;34;44m▓█[0;34m▌[0;1;37m▀ [0;1;31m▄[0;1;31;43m▓▓▒▒▒▒▓[0;1;31;47m▓[0m▄ ░░

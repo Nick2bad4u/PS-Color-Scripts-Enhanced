@@ -5,7 +5,7 @@
 # Source SHA-256: 378bf0cecf439ed3d5ecd1be186c83c758d1b35f7e982515c2fc1879e0d67237
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-SOD.ANS by T/4E (Lapse); released in lap-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Seeds of Destruction
 # SAUCE Author: T/4E
 # SAUCE Group: Lapse
@@ -31,16 +31,13 @@ Write-Host '
  [1;30m███▄███████████ [0;1;37;47m▓▒░░░  ░░[0;1;30;40m █▄███████████ [0;1;37;47m▓▒░░░  ░[0m▄[1;30m▀█▄███████████ [0;1;37;47m▓▒░░░  ░░[0;1;30;40m ████[0m
  [1;30m█te/lps████████ [0;1;37;47m▒░ [0m▀▀[1;30m  [0m▀▀[1;30m▄█[0;1;30;47m█[0;1;30;40m███████████ [0;1;37;47m▒░ [0m▀▀[1;30m  [0m▀▀[1;30m▄█████████████ [0;1;37;47m▒░ [0m▀▀[1;30m  [0m▀▀[1;30m▄████[0m
  [1m▄▄▄▄▄▄[0m▄▄[1m▄[0m▄▄▄[1m▄[0m▄▄[1m [0;1;47m░[0m█ [1;30m▄▄[0m▄▄[1;30m▄▄▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄[0;1;37m [0;1;37;47m░[0m█ [1;30m▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄[1;30m▄▄▄[0m▄[1;30m▄▄[0m [1;47m░[0m█ ▄▄[1m▄[0m▄▄[1m▄▄▄▄▄▄[0m
- [36mεεDS[0m [36m0F DεSTRU[0m [1;37m [0m█   [36m SεεDS[0m [36m0F DεSTRUCTi[0;1;37m [0m█  [36mSεεDS 0F DεSTRUCTi0N[0;37m █[0m [36mεεDS[0m [36m0F DεST[0;37m [0m
- [36mS[0m [36m0F[0m [36mDεSTRUCTi[0m [37m█[0m  [36mSεεDS 0F DεSTRUCTi0N[0m [37m█ [0;36mεεDS 0F DεSTRUCTi0N[0m   [37m█[0m [36mDS 0F DεSTRUC[0;37m [0m
- [36mTi0N[0m  [36mSεεDS 0F DεSTRUCTi0N[0m  [36mSεεDS 0F DεSTRUCTi0N[0m  [36mSεεDS 0F DεSTRUCTi0N[0m [36mSεεDS[0m [36m0[0;37m [0m
+ [36m    [0m [36m         [0m [1;37m [0m█   [36m      [0m [36m            [0;1;37m [0m█  [36m                    [0;37m █[0m [36m    [0m [36m       [0;37m [0m
+ [36m [0m [36m  [0m [36m         [0m [37m█[0m  [36m                    [0m [37m█ [0;36m                   [0m   [37m█[0m [36m             [0;37m [0m
+ [36m    [0m  [36m                    [0m  [36m                    [0m  [36m                    [0m [36m     [0m [36m [0;37m [0m
  [1;37m▀▀▀▀▀▀[0m▀▀[1m▀[0m▀▀▀[1m▀[0m▀▀▀▀▀▀[1;30m▀▀[0m▀▀[1;30m▀▀▀[0m▀▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀▀[0m▀▀▀▀▀▀[1m▀[0m▀▀▀[1m▀[0m▀▀[1m▀▀▀▀▀▀[0m
 
-               [35m      Ok Px, Put all da Bullshit in dis box...[0m
+               [35m                                              [0m
 
 
  [1;37m▄▄▄▄▄▄[0m▄▄[1m▄[0m▄▄▄[1m▄[0m▄▄▄▄▄▄[1;30m▄▄[0m▄▄[1;30m▄▄▄[0m▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄[1;30m▄▄▄[0m▄[1;30m▄▄[0m▄▄▄▄▄▄[1m▄[0m▄▄▄[1m▄[0m▄▄[1m▄▄▄▄▄▄[0m
- [1;30m100% All Original, Non-Ripped ANSi Produced by T/┤E of Lapse Productions[0m [1;30m1994[0m
- [1;30m  Greets Going out to: Lapse (Specifically Game, DT, RF, and TK)[0m [1;30mPx: Hope it [0m
- [1;30m    Meets Your Standards; Bass Man: You fucking rule; Olympia: Whatup!?!?;[0m [1;30m  [0m
- [1;30m              All the #ansi phreaks: Seeya there...;[0m [1;30mAll Groups[0m'
+ [1;30m                                                 ┤                      [0m [1;30m    [0m'

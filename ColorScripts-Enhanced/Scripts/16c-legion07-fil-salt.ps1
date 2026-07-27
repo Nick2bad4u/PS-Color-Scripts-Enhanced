@@ -5,7 +5,7 @@
 # Source SHA-256: a413770a148f1e18778164204708e8ff119a9dd6fdf1b6fe1d9dfcdf35e6731a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-SALT.ANS by filth (the legion); released in legion07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: salt
 # SAUCE Author: filth
 # SAUCE Group: the legion
@@ -41,11 +41,11 @@ Write-Host '
                ▐[1m▌█▀█[0;1;47m▓▓[0;1;40m████████[0;1;47m▓▓▀░[0;1;40m▀[0m▀▀ [1;31m■[0m      [1m▄[0;1;47m█▓█▓▒░░[0m███▄▄▀[1;30m▓[0m  [31m    ░░▒▓▒▓▒▓█▓▓█▓▓[0m
 [37m ▓▄  ▄■▄▄▀▀▀▄[0m     [31m▄[0;1;31m▄ [0;1;37m▀▀▀▀▀▀▀▀▀▀ [0;1;31m▄▄[0;1;31;41m▓[0;1;31;40m▀[0;1;30;40m▀[0m       [1;47m▓█▓▒▓░░ [0m▓▓▓▀█[1;30;47m▄[0;1;30;40m▌░▓[0m  [31m ░   ░▒░▒░▒▓▒▒▓▒░[0m
 [1;30m***[0m
-[1;30mya know, people always bitch about all the text at the bottom of ansi''s, and[0m
-[1;30mcomplain about greets and things like that.  well, i don''t see what the big[0m
-[1;30mdeal is, considering that me, along with many fellow artists, have drawn many[0m
-[1;30mof ansi in my, or their day.  so i think we deserve the litte space at the  [0m
-[1;30mbottom of our pics.  i happen to like this ansi, so i don''t think anyone[0m
-[1;30mshould bitch just becuase i feel like writing some text.  in other words, if[0m
-[1;30myour gonna bitch about the text, don''t fuckin read it.  :)[0m
+[1;30m                                                                            [0m
+[1;30m                                                                           [0m
+[1;30m                                                                             [0m
+[1;30m                                                                            [0m
+[1;30m                                                                        [0m
+[1;30m                                                                            [0m
+[1;30m                                                          [0m
                                                                              [1;30m**[0m'

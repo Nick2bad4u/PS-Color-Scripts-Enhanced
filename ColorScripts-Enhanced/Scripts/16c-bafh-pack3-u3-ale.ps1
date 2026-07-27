@@ -5,7 +5,7 @@
 # Source SHA-256: 75a38ee51c1df561f7bcc7e6f50c44b4dfd55c8a0fd3da747455afa0c4e7ffd5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: u3-Ale.ans by Unseen Fate (bafh-pack3); released in bafh-pack3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -31,7 +31,5 @@ Write-Host '
 [37m             [0;1;30m▄[0;31m▄▄▓█[0;30;41m░[0;31;40m▓[0;1;31;41m▀▀▀▀▀▀▀▀▀██[0;1;31;40m██████[0;1;31;41m██▓▓▓░░[0;31m█▄[0;1;30m▄[0;35m [0;1;30m▀▀[0;35m▀█[0;1;35;45m▀[0;1;30;45m▄[0m
                 [31m░[0m          [31m ▓▀▀▀▀▀▀▀▀▀▀▀▓█[0;30;41m░[0;31;40m▓[0;1;31;41m░░░[0;31m█[0;30;41m░[0;31;40m▓▄[0;1;30;40m▄[0;35m [0;1;30m▀▄[0m
                   [36m  [0;37m" ALE "          [0m         [31m▓▀▀▀▀▓[0;1;30;41m▀[0;1;30;40m▄▄▄▓[0m
-                 Originally[34m [0;37msupposed to say "Alien[0m    [30;41m░░[0;31;40m▓[0m
-                 [37;40mPub" but I killed some letters;D   [0m    [31;40m▓[0m
-
-[37;40mGreets to people who deserve it, they are few and at moment I cant think any.[0m'
+                           [34m [0;37m                      [0m    [30;41m░░[0;31;40m▓[0m
+                 [37;40m                                   [0m    [31;40m▓[0m'

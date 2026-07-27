@@ -5,18 +5,18 @@
 # Source SHA-256: e08a56e2fd9620adc92eddf817baa6398ea5e45bb15e547bb0b9bb1a7e991a3c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ox-s&.ans by 0xel (zeit_02); released in zeit_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
-ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ2lii::''''''''''''''::iil2ZZZZZZZZZZZZZZZZZZZZZZ
-ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ2li:∙''[1m  [0;35m∙  ~   ~  ∙[0;1;37m  [0m'':iil2ZZZZZZZZZZZZZZZZZZ
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ2li:''[1m [0;1;35m,y''[0;1;37m               [0;35m''[0;1;37m  [0m'':il2ZZZZZZZZZZZZZZZZ
-ZZZZZZZ2llllliiiii::::illi:''  [1;35m.\`[0;1;37m [0;1;36m      _.,._       [0;35m''[0;1;37m  [0m:iil2ZZZZZZZZZZZZZZ
+                                                                          
+                                                                          
+                                   [1m  [0;35m           [0;1;37m  [0m                        
+                               [1m [0;1;35m   [0;1;37m               [0;35m [0;1;37m  [0m                     
+                              [1;35m   [0;1;37m [0;1;36m                  [0;35m [0;1;37m  [0m                   
 ZZZZZ2il:∙''[1;35m _.,,▬▬┐┐┌┌▬▬,,._.dP[0;1;37m   [0;1;36m  ,y↕┘²"^"²┘↕y,   [0;1;37m [0;35m:[0;1;37m [0m:iil2ZZZZZZZZZZZZZZ
-ZZZ2li:∙[1;35m .d│$↕**┘┘²²²²┘┘**↕↕JP [0;1;37m   [0;1;36m.\L           ?L  [0;35m∙[0;1;37m [0m.:il2ZZZZZZZZZZZZZZZ
+        [1;35m   │ ↕  ┘┘    ┘┘  ↕↕   [0;1;37m   [0;1;36m                  [0;35m [0;1;37m [0m                    
 ZZ2li:'' [1;35mj│7 [0;31m [0;1;31m.┐┐yy%%%%ss┌┌▬. [0;1;37m     [0;1;36m`²/│#┌.        J: [0;1;37m    [0;36m..................[0m
 [37mZ2lli'' [0;1;37m [0;1;35m''/│#┐.[0;31m [0;1;31m''┘S│$$$$$$$$$:[0;1;37m     [0;1;36m    ''²/│#┌.  ,↕''  [0;1;37m    [0;36m:[0m
 [37mZ2li:  [0;31m:┐. [0;1;35m''²/│#┌.[0;1;37m [0;1;31m''┘S│$$$$$l[0;1;37m     [0;1;36m        ''²/│#┌.       [0;36m.[0;1;37m rizzpect 2 mazter[0m
@@ -32,5 +32,4 @@ Z2li:  [35m?☺☺.   [0;1;32m|| [0;32m""[0;1;32m ""_[0;32m||[0;1;32m ||_
 Z2lli. [35m:☺☺:   [0;1;32m|| [0;32m..[0;1;32m ..~[0;32m||[0;1;32m ||~[0;32m||[0;1;32m || [0;32m|| [0;1;32m||~[0;32m|\[0;1;32m || [0;32m||[0;1;32m `┘*[0;32m||[0;36m  :☺☺:[0;37m .ill2ZZZZZZZZZZ[0m
 [37mZ2lli: [0;35m ''/├,._[0;1;32m`┘*[0;32m└''[0;1;32m `┘*[0;32m└''[0;1;32m `┘ [0;32m└''[0;1;32m└"^~[0;32m^"┘[0;1;32m`┘*[0;32m└''[0;1;32m `┘ [0;32m└''[0;1;32m    [0;32m└''[0;36m.,┤\` [0;37m :ill2ZZZZZZZZZZ[0m
 [37mZZZ2li:.[0;1;37m   [0;35m~"²┘*+++++++++++++++++\_[0;36m/++++++++++++++++*└²"~[0;1;37m   [0m.:il2ZZZZZZZZZZZZ
-ZZZZ2lii::................................................::iil2ZZZZZZZZZZZZZ
-ZZZZZZZ2lliiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiill2ZZZZZZZZZZZZZZZZ[0m'
+ZZZZ2lii::................................................::iil2ZZZZZZZZZZZZZ[0m'

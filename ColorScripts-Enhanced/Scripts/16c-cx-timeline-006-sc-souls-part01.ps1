@@ -5,7 +5,7 @@
 # Source SHA-256: fc457e9cc3da4ba93f084154ad5ac2db0ddd519f269dba032fdaae4b22425acf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: [006] SC-SOULS.ans by Scythe (Visions of Reality); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Souls in Hell
 # SAUCE Author: Scythe
 # SAUCE Group: Visions of Reality
@@ -17,19 +17,19 @@
 
 Write-Host '
 [1;30;40m┌────────────────────────────[0m─────────────────────────┐ [1;30m┌───────────[0m──────────┐
-[1;30m│[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mV R[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScyth[0;37m│ [0;1;30m│[0;32mIf you[0;35m''[0;32md like an ansi[0;37m│[0m
+[1;30m│[0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m     [0;37m│ [0;1;30m│[0;32m      [0;35m [0;32m              [0;37m│[0m
 [1;30m│[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;36m▄▄[0;1;34;46m░░░░░[0;36m▄▄[0;35mOR[0;32m*[0;35mScythe[0;32m*[0;36m▄▄▄[0;1;34;46m░░░░[0;36m▄▄[0;35me[0;32m*[0;35mVOR[0;32m*[0;35mScyt[0;37m│ [0;1;30m│[0;32mby Scythe[0;35m, [0;32mI can be  [0;37m│[0m
 [1;30m│[0;35me[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;36m▄[0;1;34;46m▒▒[0;36m▀▀[0;35mcyt[0;36m▀▀[0;1;34;46m░░[0;36m▄[0;35mR[0;32m*[0;35mScy[0;36m▄[0;1;34;46m▒▒[0;36m▀▀▀[0;35mR[0;32m*[0;35mS[0;36m▀▀[0;1;34;46m░[0;36m▀[0;35me[0;32m*[0;35mVOR[0;32m*[0;35mScy[0;37m│ [0;1;30m│[0;32mreached on VOR WHQ[0;35m,  [0;37m│[0m
-[1;30m│[0;35mhe[0;32m*[0;35mVOR[0;32m*[0;35mScyth[0;1;34;46m▓▒[0;1;34;40m▀[0;35mOR[0;32m*[0;35mScythe[0;36m▀[0;35mVOR S[0;1;34;46m▒▓▒[0;35mhe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mSc[0;37m│ [0;1;30m│[0;32mSemonole Wind[0;35m, [0;32mor on [0;37m│[0m
-[1;30m│[0;35mthe[0;32m*[0;35mVOR[0;32m*[0;35mScy[0;1;34;46m▓▓▓[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;1;34;46m▓▓[0;1;34;45m█[0;35mythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mS[0;37m│ [0;1;30m│[0;32mthe Internet at[0m      [37m│[0m
-[1;30m│[0;35mythe[0;32m*[0;35mVOR[0;32m*[0;35mScy[0;1;34;46m▓█[0;1;34;40m█▄▄▄[0;35mR Scythe[0;32m*[0;35mV[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m█[0;1;34;40m▌[0;35mcythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;37m│ [0;1;30m│[0;32mPswanson[0;35m@[0;32mnetcom[0;35m.[0;32mcom  [0;37m│[0m
+[1;30m│[0;35m  [0;32m [0;35m   [0;32m [0;35m     [0;1;34;46m▓▒[0;1;34;40m▀[0;35m  [0;32m [0;35m      [0;36m▀[0;35m     [0;1;34;46m▒▓▒[0;35m  [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m  [0;37m│ [0;1;30m│[0;32m             [0;35m  [0;32m      [0;37m│[0m
+[1;30m│[0;35m   [0;32m [0;35m   [0;32m [0;35m   [0;1;34;46m▓▓▓[0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;1;34;46m▓▓[0;1;34;45m█[0;35m    [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m [0;37m│ [0;1;30m│[0;32m               [0m      [37m│[0m
+[1;30m│[0;35m    [0;32m [0;35m   [0;32m [0;35m   [0;1;34;46m▓█[0;1;34;40m█▄▄▄[0;35m        [0;32m [0;35m [0;1;34;46m▓[0;1;34;40m█[0;1;34;44m█[0;1;34;40m▌[0;35m     [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;37m│ [0;1;30m│[0;32m        [0;35m [0;32m      [0;35m [0;32m     [0;37m│[0m
 [37m│[0;35mcythe[0;32m*[0;35mVOR[0;32m*[0;35mScyt[0;1;34m▀▀▀███▄[0;35mScythe[0;1;34m▐█[0;1;34;44m█▓[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;37m│ ├─────────────────────┤[0m
-[37m│[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;1;34m▀██[0;1;34;44m▓[0;35mScyth[0;1;34;44m█▓▓[0;35mOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVO[0;1;37m│ [0m│ [1;31m▄█▌[0m      [1;31m▄█▌[0;31mThis is [0;1;37m│[0m
-│[32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mV[0;1;34;44m▓▓[0;34m▌[0;35mScy[0;1;34m▐[0;1;34;44m▓▒[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mV[0;1;37m│ [0m│ [1;31m██▌[0m      [1;31m██▌ [0;31mlike,  [0;1;37m│[0m
+[37m│[0;35m      [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;1;34m▀██[0;1;34;44m▓[0;35m     [0;1;34;44m█▓▓[0;35m  [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m  [0;1;37m│ [0m│ [1;31m▄█▌[0m      [1;31m▄█▌[0;31m        [0;1;37m│[0m
+│[32m [0;35m      [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m [0;1;34;44m▓▓[0;34m▌[0;35m   [0;1;34m▐[0;1;34;44m▓▒[0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m [0;1;37m│ [0m│ [1;31m██▌[0m      [1;31m██▌ [0;31m       [0;1;37m│[0m
 │[35mR[0;32m*[0;35mScythe[0;1;34m▄[0;1;34;44m▓[0;1;34;40m▄▄[0;32m*[0;35mScythe[0;32m*[0;35mV[0;1;34;44m▓▒[0;32m*[0;35mSc[0;1;34;44m▒▒[0;35mhe[0;32m*[0;35mVOR[0;32m*[0;35mScyt[0;34m▄[0;35me[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;1;37m│ [0m│ [1;31m██▐█▄▐█▄ ▄▄▄▄ [0;31mcool  [0;1;37m│[0m
 │[35mOR[0;32m*[0;35mScythe[0;1;34m▀[0;34m▀[0;1;34;44m▒▒[0;34m▄▄▄[0;35myt[0;34m▄▄[0;1;34;44m░▒▒[0;35mR[0;32m*[0;35mS[0;1;34;44m▒░░[0;34m▄▄[0;32m*[0;35mVO[0;34m▄▄▄▄[0;1;34;44m▒[0;34m▀▀[0;35me[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;1;37m│ [0m│ [1;31m██▌█▀▄▄▄█████▌  [0;31m&   [0;1;37m│[0m
 │[35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVO[0;34m▀[0;1;34;44m▒░░░░░[0;34m▀▀[0;35mVOR[0;32m*[0;35mS[0;34m▀▀[0;1;34;44m░░░░░░▒[0;34m▀▀[0;35mcythe[0;32m*[0;35mVOR[0;32m*[0;35mScyth[0;1;37m│ [0m│ [1;31m▐██▄▀█▀▀▀▄▄▀██ [0;31mstuf [0;1;37m│[0m
-│[32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScythe[0;32m*[0;35mVOR[0;32m*[0;35mScyt[0;1;37m│ [0m│  [1;31m▀███▄█▄████▀  [0;31m>;-P [0;1;37m│[0m
+│[32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m      [0;32m [0;35m   [0;32m [0;35m    [0;1;37m│ [0m│  [1;31m▀███▄█▄████▀  [0;31m     [0;1;37m│[0m
 └─────────────────────────────[1m────────────────────────┘ [0m└──────────[1m───────────┘[0m
 
 

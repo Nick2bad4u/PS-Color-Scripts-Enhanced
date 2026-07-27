@@ -5,7 +5,7 @@
 # Source SHA-256: 4ab97caa605b7e6dfd4894f2b62ed970971e0825d06d372fb502310b7bc5cfe6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZM-ANSiTRaPHouSE.ans by Zeromous (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ZM-ANSiTRaPHouSE
 # SAUCE Author: Zeromous
 # SAUCE Group: LAZARUS
@@ -45,21 +45,4 @@ Write-Host '
       [31m▀▀[0;1;31m▄██████▀▄█[0;1;31;45m▄▄▄[0;1;31;40m▀[0;35m████[0;37m [0;35m██[0;37m    [0;35ma [0;1;37mtemplate[0;35m for    ██[0;1;31;45m▄[0;1;31;40m▀[0;1;31;45m▄[0;35m██[0;1;31m▄▀█████▄▀████[0;1;31;41m▀[0m
        [1;31;41m▀[0;1;31;40m█████▀▄█████▀▄[0;1;31;45m▄▄▄[0;1;31;40m▀▄[0;1;31;45m▄[0;31;45m▄[0;37;40m  [0;35;40mtainted and 3 boobs[0;37;40m  [0;31;40m▀[0;31;101m▄[0;1;31m▄▀[0;31;101m▄[0;1;31m██[0;31m▄[0;1;31m▀████[0;1;31;41m▀[0;31m▄▀▀▀▀[0m
 [37m        [0;31m▀▀[0;1;31;41m▀[0;1;31;40m▀▀[0;31m▄[0;1;31m█████▀[0;31m▄[0;1;31;41m▀▀▀[0;1;31;40m▀[0;31m▄[0;1;31;41m▀[0;31m▀[0;37m     [0;35mfor the knight[0;37m               [0;31m▀▀▀[0m
-[37m               [0;31m▀▀▀[0m
-
-[37m  [0;1;36mThis ANSI is a tribute to my friends in the 16colors network. I am probably[0m
-  [1;36mthe last person in my area code who pursues this art form. The online scene[0m
-  [1;36mis incredibly supportive,  and many of you have no idea how you''ve inspired[0m
-  [1;36mmy artistic passions.  Not just digitally but in all sorts of media. Warpus[0m
-  [1;36mtainted, cthulu, theknight, savage, burps, knocturnal and many more...  You[0m
-  [1;36mhave always been my obscure art heroes, and fundamental to finding my voice[0m
-  [1;36min this world. You cannot know how profound impact it has had. I find roots[0m
-  [1;36mto be a comfort in this crazy world and it''s soothing to come back to again[0m
-  [1;36mand again. Once you are a part of the gang, and you draw-[0m [1;36myou''re in forever[0m
-
-          [1;36mThis ansi 100% references incoherent 2021 ramblings on #16c discord[0m
-          [1;36mwhile I experimented with [0;1;30mthe full gamut [0;1;36mof[0;1;30m [0;1;36mdifferent techniques:[0m
-
-[1;36m          Lighting,[0m [1;36mDithering, Shading, Comic Style, Low Detail, Depth[0m
-          [1;36mSmack-talk, Perspective,[0m [1;36mTits, Self Portrait,[0m [1;36mLogos and Fonts[0m
-'
+[37m               [0;31m▀▀▀[0m'

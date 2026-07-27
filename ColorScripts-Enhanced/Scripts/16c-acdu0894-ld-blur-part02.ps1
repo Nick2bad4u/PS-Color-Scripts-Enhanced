@@ -5,7 +5,7 @@
 # Source SHA-256: cb54931db7a14032edda5d999cf3a28ab7fe53e3aee4b837bc7c9715f756510e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-BLUR.ANS by Lord Jazz (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blur Issue #4
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -57,8 +57,4 @@ Write-Host '
 
                              [1mI  S  S  U  E    #  4[0m
 
-                             [1;30mC o m i n g   S o o n ··[0m
-
-                            [1;30mAnsi :: Lord Jazz <[0;1;36mACiD[0;1;30m>[0m
-                                 [1;30m100% Original[0m
-                 [1;30m"Hey Look, Its That Girl With No Pants Again!"[0m'
+                             [1;30mC o m i n g   S o o n ··[0m'

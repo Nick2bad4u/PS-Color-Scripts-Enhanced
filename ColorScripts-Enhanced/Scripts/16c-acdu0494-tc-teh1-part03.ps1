@@ -5,7 +5,7 @@
 # Source SHA-256: 305dc32779d08f20d8768d1e00ae5495a792545770725f6b5ef45902530c2425
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TC-TEH1.ANS by The Clone (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Eleventh Hour
 # SAUCE Author: The Clone
 # SAUCE Group: ACiD Productions
@@ -36,9 +36,9 @@ Write-Host '
                          [33;40m░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
                                     [33;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 
-              [1mA[0mN[1;30mSi and Font Created by The Clone. .   .  ANSi Snatch[0me[1md[0m
-         [1mF[0mr[1;30mom WiZARD #23 July 1993. .   .  For a Cloneing ANSi Conta[0mc[1mt[0m
-         [1mm[0me [1;30mon ValiantNET, ShadowNET and StormWatchNET. [0m.   [1m.[0m
+              [1m [0m [1;30m                                                    [0m [1m [0m
+         [1m [0m [1;30m                                                         [0m [1m [0m
+         [1m [0m  [1;30m                                            [0m    [1m [0m
 
 
 
@@ -56,12 +56,6 @@ Write-Host '
 [1;30;40m   ▀▀▀[0;1;30;47m▓▓[0;1;30;40m▄▄  ▄▀▀▀[0;1;30;47m▓▓[0;1;30;40m▄  ▄  ▀[0m      [1;30;40m▀[0m     [1;30;40m▀[0m     [1;30;40m▀▀▀[0m        [1;30;40m▀▀▀▀    ▀[0m     [1;30;40m▀[0m
         [1;30;40m▀▀▀▀[0m      [1;30;40m▀▀▀[0m
                      [1;30;40m∙ [0mT H E   E L E V E N T H   H O U R [1;30m∙[0m
-                [1;30m∙ [0m415-855-9657 [1;30m∙ [0m16.8k Dual [1;30m∙ [0mRunning Vision-X [1;30m∙[0m
-                [1;30m∙ [0mSysop: Grifter [1;30m∙ [0mCoSysop: ReDMaN and RaD Man [1;30m∙[0m
-                  [1;30m∙ [0m/┤Ci> Member Board [1;30m∙ [0mSPeCTRE Western HQ [1;30m∙[0m
-
-       [1;37m<[0mG[1;30mREETS: A Very Special Happy Birthday Greet goes to Beasti[0me[1m![0m
-       [1m<[0mR[1;30maD Man: Touch SIG and I shall destroy!! [0m:[1m)[0m
-       [1m<[0mC[1;30morwin or Amber: Ok, Ready for da'' nets[0m.[1m.[0m
-       [1m<[0mM[1;30mr. Man: Ahhhhh.. How''s this one.[0m.[1m.[0m
-       [1m<[0mP[1;30mrototype 1000: You can DRIVE[0m?[1m![0m'
+                [1;30m  [0m             [1;30m  [0m           [1;30m  [0m                 [1;30m [0m
+                [1;30m  [0m               [1;30m  [0m                            [1;30m [0m
+                  [1;30m  [0m ┤                 [1;30m  [0m                   [1;30m [0m'

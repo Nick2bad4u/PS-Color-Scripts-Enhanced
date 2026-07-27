@@ -5,7 +5,7 @@
 # Source SHA-256: be4fadbc4cf69f55f51d61f6fc07646b624660fe2bf713a4a92a056ad6abb24d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-VX1.ANS by Tae (Lapse Productions); released in lap-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Violator X
 # SAUCE Author: Tae
 # SAUCE Group: Lapse Productions
@@ -26,17 +26,17 @@ Write-Host '
 [1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m    [32m▀[0;32;42m    [0;1;32;42m░░░░░░▒▓[0;1;32;40m▀[0;30;42m▀[0;1;32;42m░░░▒▓[0m [32m▀[0;32;42m [0;1;32;42m░░░░░▒▓[0;30;42m█        [0;1;32;42m░░▒▓[0m [1;32;42m    ░░░░░▒▓[0;1;32;40m▀  [0;1;30;47m▒░    [0;1;37;47m░▒[0m
 [1;37;40m [0;1;37;47m▓▒░  [0;1;30;47m░▒▓[0m        [32m▀▀▀▀▀▀[0m      [32m▀▀[0;1;32m▀    [0;32m▀▀▀▀▀[0;1;32m▀    [0;32m▀▀▀▀▀▀▀[0;1;32m▀    [0;32m▀▀▀▀▀▀▀▀  [0;37m(c)[0;1;30;47m▓▒░  [0;1;37;47m░▒▓[0m
 [1;37;40m [0;1;37;47m▓▓▒░[0;1;30;47m░▒▓▓[0m            -[1;30m*[0m-  P R O D U C T I O N S  1 9 9 4  -[1;30m*[0m-          [1;30;47m▓▓▒░[0;1;37;47m░▒▓▓[0m
-[1;37;40m [0;1;30;47m▓▓▒░[0;1;37;47m░▒▓▓[0m  [36mMoon Knight is a registered trademark of Marvel Comics(tm)  [0;1;37;47m▓▓▒░[0;1;30;47m░▒▓▓[0m
+[1;37;40m [0;1;30;47m▓▓▒░[0;1;37;47m░▒▓▓[0m  [36m                                                            [0;1;37;47m▓▓▒░[0;1;30;47m░▒▓▓[0m
 [1;30;40m [0;1;30;47m▓▒░  [0;1;37;47m░▒▓[0m          [36mProduced by T/┤E (c)Lapse Productions 1994[0m          [1;37;47m▓▒░  [0;1;30;47m░▒▓[0m
-[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m   [36mDo us all a favor, don''t rip this ANSi and I won''t have    [0;1;37;47m▒░    [0;1;30;47m░▒[0m
-[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m                [36mto rip something of yours off![0m                [1;37;47m▒░    [0;1;30;47m░▒[0m
-[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m   [36mIf you would like an ANSi/Logo/ASCii, You can contact me   [0;1;37;47m▒░    [0;1;30;47m░▒[0m
-[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m               [36mon any of the following Boards:[0m                [1;37;47m▒░    [0;1;30;47m░▒[0m
-[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m       [36mThe Lost Temple @ (801)255-5251     Lapse WorldHQ[0m      [1;37;47m▒░    [0;1;30;47m░▒[0m
-[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m         [36mGround Zero @ (801)328-4236 Lapse MountainHQ[0m         [1;37;47m▒░    [0;1;30;47m░▒[0m
-[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m      [36mDeadly Intoxication @ (801)553-8644 Lapse Member  [0m      [1;37;47m▒░    [0;1;30;47m░▒[0m
+[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m   [36m                                                           [0;1;37;47m▒░    [0;1;30;47m░▒[0m
+[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m                [36m                              [0m                [1;37;47m▒░    [0;1;30;47m░▒[0m
+[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m   [36m                                                           [0;1;37;47m▒░    [0;1;30;47m░▒[0m
+[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m               [36m                               [0m                [1;37;47m▒░    [0;1;30;47m░▒[0m
+[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m       [36m                                                 [0m      [1;37;47m▒░    [0;1;30;47m░▒[0m
+[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m         [36m                                            [0m         [1;37;47m▒░    [0;1;30;47m░▒[0m
+[1;30;40m [0;1;30;47m▒░    [0;1;37;47m░▒[0m      [36m                                                  [0m      [1;37;47m▒░    [0;1;30;47m░▒[0m
 [1;30;40m [0;1;30;47m▓▒░  [0;1;37;47m░▒▓[0m           [36mNetwork Contacts I can be reached at are :[0m         [1;37;47m▓▒░  [0;1;30;47m░▒▓[0m
-[1;30;40m [0;1;30;47m▓▓▒░[0;1;37;47m░▒▓▓[0m    [36mInfiNet, NokNet, FlameNet, SlimeNet, DeadNet and CiDNet   [0;1;37;47m▓▓▒░[0;1;30;47m░▒▓▓[0m
+[1;30;40m [0;1;30;47m▓▓▒░[0;1;37;47m░▒▓▓[0m    [36m                                                          [0;1;37;47m▓▓▒░[0;1;30;47m░▒▓▓[0m
  [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m       [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1m ██████████████████████████████████████▀[0m     [1m▄[0;1;47m█████████████████████████▓▓▓█████[0m
 [1;40m ████████████████████████████████████[0m      [1;47m█████████████████[0;1;40m██[0;1;47m███[0;1;40m▀▄[0;1;47m█▓▓▓███▓████[0m

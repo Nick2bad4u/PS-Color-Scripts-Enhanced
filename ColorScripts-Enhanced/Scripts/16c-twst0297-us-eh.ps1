@@ -5,7 +5,7 @@
 # Source SHA-256: 000f135c6eced35e99fe7e1d64e167f3e7cf85914d409d3bdeb07798e1c82b1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-EH.ANS by Red Death + Putrid Carcass (TWISTED); released in twst0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: eH?!
 # SAUCE Author: Multiple Artists
 # SAUCE Group: TWISTED
@@ -58,5 +58,4 @@ Write-Host '
 [1;30m██▌▀▀▀▀▀[0m     [32m▄[0;37m  [0;32m▀[0m      [1;32m░[0;1;33m░░[0;1;33;42m░░ [0;32m░[0;37m  [0;36m▄[0m    [32m▐[0;1;32;42m█▓▓▓[0;1;32;40m▓[0;32m▌[0;1;32m [0m [32m▐[0;1;32;42m▓▓██▓[0;32m▌[0;37m [0;36m▐▓▓▓░░░[0m
          [36m░░░[0;37m  [0;36m▄▄█████▌▄▄[0;37m  [0;1;33m░[0;32m██[0m   [36m▐██▄[0;37m  [0;32m░░░[0m   [1;32m [0;32m▄[0;1;32;42m▄███▀[0;32m▀[0;37m [0;36m▄[0;1;34;46m░░░[0;36m█▓▓▓░░░[0m
     [36m▄[0;37m  [0;36m▄▄▓▓▓████[0;1;36;46m░░░░[0;1;37;46m░░[0;36m███▄[0;37m [0;32m▀[0;37m  [0;36m▄▄[0;1;37;46m░░░[0;36m██▄▄[0;37m  [0;32m ▀[0;1;32m▀▀▀▀[0;32m▀[0;37m  [0;36m▄▄█[0;1;34;46m░▒▒▒░░░[0;36m██▄▄▄▄[0m
-                [1;36m░░░░[0m            [1m░░░[0m
-[1;31mAnsi by putrid carcass and touchups by Red Death[0m'
+                [1;36m░░░░[0m            [1m░░░[0m'

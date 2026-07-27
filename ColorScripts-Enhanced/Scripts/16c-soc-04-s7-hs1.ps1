@@ -5,7 +5,7 @@
 # Source SHA-256: fb3fba154fc8bb4ce5e2bb4ec3af73c1e8aca4f2a34c8ed487a9b0221fe0a156
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S7!-HS1.ANS by Soul s7alker! (skl/mdn/kiss/soc/7); released in soc-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hysteria$!#@$
 # SAUCE Author: Soul s7alker!
 # SAUCE Group: skl/mdn/kiss/soc/7
@@ -36,5 +36,4 @@ Write-Host '
 [37m [0;31m▄[0;1;31m▄▄[0m [1;31;41m░▓██░[0m [34m▀[0;1;34m▀[0;1;34;44m▀[0;1;34;40m▄▄[0m [1;34m▄▄[0;1;34;47m█[0;1;34;44m▓▀[0;1;34;40m▀▀[0;34m▀[0;37m [0;34m▀▌[0m   [1;34m▀[0;34m  [0;37m [0;1;34m▄▀[0m [1;34m▄▄[0;1;34;44m▄▓[0;1;34;40m▄▄[0;1;34;44m▀[0;1;34;40m▀[0;34m▀[0;37m  [0;34m▄▄[0;37m▄[0;1;34;47m▓[0;1;34;44m▀██[0;1;34;40m▄[0;34m▄▄ [0;37m  [0;31m▐[0m      [1;31m▀▀[0;31m▀[0m
 [31m▐[0;1;31;41m▐[0;1;31;47m▓▓[0;1;31;41m███▀[0;31m▀[0;37m [0;31m▄[0;1;31;41m░[0;31m▄[0;37m [0;34m▄[0;1;34;47m▓▓[0;1;34;40m▀[0;34m▀[0m       [34m ▌ ░[0;30;44m▓[0;37;40m  [0;1;34;40m▀ [0m        [1;34m▀▀[0;1;34;44m▀[0;1;34;47m▓▓▓[0;1;34;44m████▄[0;34m▀[0;1;34;44m▀▀██▓▓[0m [31m▀[0m
 [37m [0;31m▀[0;1;31m▀▀[0;31m▄[0;1;31;41m▓▀[0;1;31;40m▀[0;1;31;41m▄[0;31m▄[0;37m [0;31m▀[0;37m  [0;1;34;44m░[0;34m▀[0m           [34m▀[0m                  [34m▀[0;1;34;44m▄█▓▀[0;1;34;40m▀[0;34m▀▀[0;37m  [0m
-   [37m  [0;31m▀[0;37m  [0;1;31m▌[0m     [34m▌[0;37m  [0m                            [37m [0;1;34m [0;34m▐[0;1;34m▀[0m
-[1m              [0;1;34m  ].[[0m [1;34mhysteria[0;1;30m [0;1;34mbrazilian art magazine[0m [1m2a[0;1;34m edicao ].[  [0m'
+   [37m  [0;31m▀[0;37m  [0;1;31m▌[0m     [34m▌[0;37m  [0m                            [37m [0;1;34m [0;34m▐[0;1;34m▀[0m'

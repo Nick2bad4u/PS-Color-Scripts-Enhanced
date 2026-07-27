@@ -5,7 +5,7 @@
 # Source SHA-256: 9a45453567eb68d92a891a8beed51181d085c04e4fbd383d986240f34233c0bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K-IB.ICE by kyp (ice + soc); released in ice9712 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: old aid
 # SAUCE Author: kyp
 # SAUCE Group: ice + soc
@@ -50,7 +50,4 @@ Write-Host '
 [31m [0;37m [0;1;35;45m░▓[0;1;35;40m▌[0;35m▄[0;1;35;45m▄[0;1;35;40m███▄▄[0;35m▐[0;1;35;45m▐███[0;1;35;40m▌[0m         [35mm[0;37m [0;35ma[0;37m [0;35ms[0;37m [0;35ms[0;37m [0;35mm[0;37m [0;35mu[0;37m [0;35mr[0;37m [0;35md[0;37m [0;35me[0;37m [0;35mr[0;37m [0;35me[0;37m [0;35mr[0;37m [0;35m.[0;37m [0;35mice[0m
 [31m [0;37m [0;35m ▀▄[0;1;35m▄[0;1;35;45m▄████[0;1;35;40m▄▄[0;1;35;45m▄[0;1;35;47m▓▓[0;1;35;45m█[0m           [35mn[0;37m [0;35ma[0;37m [0;35mi[0;37m [0;35ml[0;37m [0;35m.[0;37m [0;35mfire[0m
 [31m  [0;35m▄[0;1;35;45m▄[0;1;35;40m████████[0;1;35;47m▓▓░░▓[0;1;35;40m▌[0m           [35ms[0;37m [0;35mh[0;37m [0;35ma[0;37m [0;35md[0;37m [0;35mo[0;37m [0;35mw[0;37m [0;35m.[0;37m [0;35mice[0m
-[31m [0;37m [0;35m▀[0;1;35m▀██████▀▀▀▀▓▓▀[0m             [35mt[0;37m [0;35mo[0;37m [0;35mo[0;37m [0;35mt[0;37m [0;35m.[0;37m [0;35mbm[0m
-                               [35mt[0;37m [0;35mr[0;37m [0;35mi[0;37m [0;35mp[0;37m [0;35m.[0;37m [0;35mice[0m
-[37m [0;31m/ hope i didn''t[0;37m [0;31mforget [0m        [35mv[0;37m [0;35mo[0;37m [0;35mi[0;37m [0;35mc[0;37m [0;35me[0;37m [0;35m.[0;37m [0;35mbm[0m
-[31m [0;37m  [0;31manyone?[0m                                                  [31mwahrheit@t-online.de[0m'
+[31m [0;37m [0;35m▀[0;1;35m▀██████▀▀▀▀▓▓▀[0m             [35mt[0;37m [0;35mo[0;37m [0;35mo[0;37m [0;35mt[0;37m [0;35m.[0;37m [0;35mbm[0m'

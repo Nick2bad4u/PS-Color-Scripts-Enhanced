@@ -5,7 +5,7 @@
 # Source SHA-256: 02ec28a6f117e13fe5f2d0cc02b6d3b44df04cfe73b4c843eddb69d7eed4d28b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DM-SUB.ANS by dangermouse (force art); released in force18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Subject to Change
 # SAUCE Author: dangermouse
 # SAUCE Group: force art
@@ -52,5 +52,5 @@ Write-Host '
       [30;47m▓[0;1;30;47m░░░░░░░░[0m█  [1;30;47m▒▒▒▒░░░[0;42m▓[0;1;30;47m░[0;42m▓▓▓▓▓▓[0;1;30;47m▒░░░[0m  [1;30;47m▓▓▓[0m                      ▀▀▀▀▀▀  [1;30;47m░░░░[0m
  █[30;47m░[0;37;40m▀▀▀▀▀▀▀▀▀▀▀▀ ▐▐▀▀▀▌  ▀[0;30;47m░[0;37;40m▀▀▀ [0;30;47m░[0;37;40m▀▀▀▀▀▀▀▀▀▀[0;30;47m░[0;37;40m█[0;30;47m░[0;37;40m█[0;30;47m░░[0;37;40m  █▓█▓▓█▄▄▄▄▄▄[0;30;47m▓▓▓[0m          [37;40m▀[0m
                                                           [37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌░░░░[0m
-   [1;33;40msubject to change [0;33m//[0;1;33m +o [0;1;37mkhoon[0m [33m//[0;37m [0;1;33mlogo by dangermouse of force prod..[0m ▀▀
+   [1;33;40m                  [0;33m  [0;1;33m    [0;1;37m     [0m [33m  [0;37m [0;1;33m                                   [0m ▀▀
                                                                        [30;42m█[0m'

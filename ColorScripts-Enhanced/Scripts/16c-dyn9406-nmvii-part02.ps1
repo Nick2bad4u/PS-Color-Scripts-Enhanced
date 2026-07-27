@@ -5,7 +5,7 @@
 # Source SHA-256: 48743c3627e149654fbd1858e83c81c7ff2e4c973ab9d56cd342bdf8146e2ff3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NMVII.ANS by Phantasm (dyn9406); released in dyn9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 35-71
 # Columns: 1-80
 
@@ -40,10 +40,7 @@ Write-Host '
 [34m───────────────────────────────────────────────────────────────────────────────[0m
 
 [34m W [0;31m· [0;34mE [0;31m· [0;34mL [0;31m· [0;34mC [0;31m· [0;34mO [0;31m· [0;34mM [0;31m· [0;34mE   [0;31m·   [0;34mT [0;31m· [0;34mO   [0;31m·   [0;34mT [0;31m· [0;34mH [0;31m· [0;34mE   [0;31m·   [0;34mN [0;31m· [0;34mI [0;31m· [0;34mG [0;31m· [0;34mH [0;31m· [0;34mT[0m
-                                                              [34mOΓ¡gïñÆ└ Æñδï by[0m
-                         [34mNightmare ][ BBS (213)254-8170[0m          [1;37m[[0;34mP╫Æñ╪ÆδM[0;1;37m][0m
-                                [34mRunning WWIV 4.23[0m                 [1;37m[[0;34mD[0;1;37my[0;34mN[0;1;37maS[0;34mTy[0;1;37m][0m
-                          [34mSysOp: P╫Æñ╪ÆδM  Co: Lëgï∞ñ[0m
-                    [34m24 hrz. - Messages - Doors - Free Access[0m
-                             [34mOver 6oo Megz. Online[0m
-                          [34mNo Dorks, Losers, or Geeks![0m'
+                                                              [34m       └        [0m
+                         [34m                              [0m          [1;37m [0;34m ╫  ╪   [0;1;37m [0m
+                                [34m                 [0m                 [1;37m [0;34m [0;1;37m [0;34m [0;1;37m  [0;34m  [0;1;37m [0m
+                          [34m        ╫  ╪               [0m'

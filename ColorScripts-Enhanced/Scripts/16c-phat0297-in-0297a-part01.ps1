@@ -5,7 +5,7 @@
 # Source SHA-256: 0165a0ed52e1319bb3ca27f016e547a647a1da81411828cf5e59d800c7519958
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-0297A.ANS by insert (Phat Studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ansi clusta i
 # SAUCE Author: insert
 # SAUCE Group: Phat Studios '97
@@ -30,9 +30,4 @@ Write-Host '
           [32m▓ [0m        [1;31minsert[0;1;32m of phat[0m                              [31m▀▀▀[0;1;31m▀[0m▀[1;31m▀[0;31m▀[0m   [33m█[0;1;33;43m░ [0;33m█[0m
 [37m [0;32m██[0;1;33;42m▄[0;32m███▄▄▄▄▄[0;37m [0;32m░░[0m            [1;32mis here to anoint you[0m                         [33m▐██[0;1;33;43m [0;33m▌ [0m
 [37m [0;32m▐█[0;1;33;42m▐▌[0;32m██████▌[0;37m  [0;32m▄▄▄▄▄▄▄▄  [0;33;42m▓[0;33;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m                [33;40m▄▄▄▄███▀ [0m
-[37;40m  [0;32;40m▀▀▀[0;1;33;42m░[0;32m▀▀▀▀▀▀▀▀▀[0m                                   [33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀       [0m
-
-[1;37m this clusta waas supposed to be already in the last pack but it wasn''t :)[0m
- [1mso these are some older stuff..[0m
-
-'
+[37;40m  [0;32;40m▀▀▀[0;1;33;42m░[0;32m▀▀▀▀▀▀▀▀▀[0m                                   [33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀       [0m'

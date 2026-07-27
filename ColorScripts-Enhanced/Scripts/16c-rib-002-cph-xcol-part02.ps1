@@ -5,27 +5,27 @@
 # Source SHA-256: ed83d4c69010101772ac6957853a8c6626804ab3318d837bf50ee70ecec4a67f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-XCOL.ANS by Cyberpunch (rib-002); released in rib-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-98
 # Columns: 1-80
 
 Write-Host '
 [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^^[0m
-colored ascii logo.....better?
+                              
 [1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m---[0m
 
 
-                                         [1;30m..[0m [1;30m^[0;1;37mx - t[0mem[1mpl[0me[1;30m^..[0m
+                                         [1;30m  [0m [1;30m [0;1;37m     [0m  [1m  [0m [1;30m   [0m
                 [1;30m..:[0m                      [1;30m:.....[0m...[1m..[0m...[1;30m..:[0m
            ..[1;30m...:[0m                               [1;30m......[0m [1;30m.[0m
            :                                    [1;30m:[0m      [1;30m:[0m
            :                                ..[1;30m..:[0m      [1;30m:[0m       [1m{[0mPh''Ri[1mB[0m
            :                                :
-iⁿⁿⁿⁿⁿⁿⁿⁿ[1mⁿ[0mⁿⁿⁿⁿⁿ$          $ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ[1mⁿ[0mⁿ$  :       $ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ
-l[1m :.   . .:  . [0mⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ[1m :  ; .     : [0mⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ[1m : ;  .   .  . .   .  [0m.[1m .:[0m
+         [1m [0m                             [1m [0m                                       
+ [1m              [0m            [1m              [0m            [1m                      [0m [1m   [0m
 i[1m ;;:.:; ::[0;34m:[0;1;37m:::::...:.:.[0m:[1m.; ;;.[0m;[1m.:..:;:[0m:[1m;..:.:[0;34m.[0;1;37m.:..:: ;::.::..[0m.:.:[1m::i:;:s::::;i[0m
-i[1m ░:i;i;i;ii;i i;i;i;iii;ii ┬gigggggg[0mgg[1mg ;i;i;[0m:[1mi;i;;▓ i;i;i;[0;34mi[0;1;37mi;i;i g[0mgg[1mggggggggg[0m
-;[1m lil$li$i[0ml[1m$i[0ml[1msil[0;1;44m▒▒[0;1;40mill[0mi[1m$li$ ili$i░$$ililsillilil$$[0ml[1m$$ l$[0mll[1mlill$$i$sl$i[0;1;44m$$[0;1;40m$i[0m$[1mll$i[0m
+ [1m ░                         ┬        [0m  [1m       [0m [1m     ▓       [0;34m [0;1;37m       [0m  [1m         [0m
+ [1m         [0m [1m  [0m [1m   [0;1;44m▒▒[0;1;40m   [0m [1m          ░                [0m [1m     [0m  [1m            [0;1;44m  [0;1;40m  [0m [1m    [0m
 :,.[1m  [0m..[1m [0m..[1m.[0m.[1m [0m.[1m [0m.[1m [0m.[1m [0m........:..[1m [0m..[1m  [0m.[1m [0m.[1m  [0m.[1m [0m.[1m [0m..[1m [0m..[1m [0m.[1m  [0m:[1m [0m....[1m [0m.[1m [0m.[1m [0m,[1m [0m..[1m [0m.[1m [0m.[1m [0m.[1m [0m.[1m [0m.,
                         [1;30m:[0m   b   y   [1;30me[0m  ,  m  [1;30ma[0m  n  ![1;30m  [0m [1m:[0m
                         [1;30m:..[0m..[1;30m [0m..[1m.[0m                      :
@@ -34,7 +34,7 @@ i[1m ░:i;i;i;ii;i i;i;i;iii;ii ┬gigggggg[0mgg[1mg ;i;i;[0m:[1mi;i;;▓ 
 
 
  [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^[0m
- colored ascii `goodbye'' screen....its hard 2 read thiz ? =)
+                                                            
  [1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m--[0m
 
 
@@ -45,11 +45,11 @@ $$$$$[1;30m$[0;1;37m:[0;1;30m$[0m$$b [1;36m`$$$bd$$$$[0;36m$$$$[0;1;34m$$
 [1;30m$$$$$$$$[0;1;37m.....[0m [1;34m,$[0;36m$$$[0;1;34m$''[0m    [1;34m$$[0;34m$[0;1;36m{Ph?![0m [1;34m,$[0;36m$$$[0;1;34m$''[0m    [1;34m$$[0;34m$$$$$.[0;37m  [0;36m`"ⁿ$$$$$[0;1;34m$$$[0;34m$$$,[0;37m [0;1;37m.......[0;1;30m$[0m
 $$$$$$$[1;30m$[0;1;37m:[0;1;30m$$$''[0m [1;34m$$$[0;36m$$[0;1;34m$$b,_,d$$[0;34m$$$$''[0;37m [0;1;34m$[0;36m$$$$[0;1;34m$$b,_,d$$[0;34m$$$$''[0;1;34m$$$b.[0;36md$$$[0;1;34m$$$[0;34m$$$$''[0;37m [0;1;30m$$$$$$[0;1;37m:[0;1;30m$[0m
 $$$$$$$[1;30m$[0;1;37m:[0;1;30m$[0m$'' [1;34m$$$$ⁿ"ⁿ$$$$$$$[0;34m$$$ⁿ'',[0;1;34m$$$$ⁿ"ⁿ$$$$$$$[0;34m$$$''[0m   [1;34m`$[0;36m$$[0;1;34m$$$$$$$$[0;34m$ⁿ''[0;37m d$$$$$[0;1;30m$[0;1;37m:[0;1;30m$[0m
-[1;30mgggggggg[0mggg[1mggggggg[0mggg[1;30mgggggggg[0mggggg[1mggggg[0mggg[1;30mggggggggggggggg[0mgg[1mggggggg[0mgg[1;30mgggggggggg[0mg
+[1;30m        [0m   [1m       [0m   [1;30m        [0m     [1m     [0m   [1;30m               [0m  [1m       [0m  [1;30m          [0m 
 
 
 [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^[0m
-colored ascii bbs list screen....i dont like thiz style of shading..
+                                                                    
 [1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m--[0m
 
 

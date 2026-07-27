@@ -5,7 +5,7 @@
 # Source SHA-256: 0734e61540b97a5f134eb9931613c80649dcf0cbf5afb4f64bc26ebe473269bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZS43-RHN.ANS by Zerostar + Aesthetic (sense14j); released in sense14j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -29,12 +29,4 @@ Write-Host '
 [31m░[0m     [1;37m▄ ▀    [0;31m▒[0;1;37m   [0;1;37;47m▐[0;1;37;40m    ▀▀ ▄  [0;31m▒[0m       [1;37m█   ▀▀▬ ■▒ █ █[0m     [1;37m▓   ▐█  █  [0;30;41mrohan is[0;30;43m gay[0;30;41m░▓[0m
 [31;40m░[0;1;37;40m zs[0m         [31m░[0;1;37m    ▀[0m▄        [31m░[0m       [1;37m▓[0m        [1;37m░  ▀[0m      [1;37m▒    ▀█ █  [0;1;30m▄[0;31m▄█▀▀▀█▀▀[0;1;37m  43[0m
                                     [1m▒ [0m                 [1;37m░[0m      [1;37m▀[0m         [31m▓[0m
-                                    [37m░[0m                                   [31m▒[0m
-
-
-[37m  original outlines by zerostar[0m
-[37m  minor re shaping and shading by aesthetic[0m
-
-[37m  greets to seph, pailhead, and ace who all watched me shade this.[0m
-
-[37m  [0;1;30m..another ansi for "his" trash can. dont know why people draw them.[0m'
+                                    [37m░[0m                                   [31m▒[0m'

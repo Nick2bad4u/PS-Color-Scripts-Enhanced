@@ -5,7 +5,7 @@
 # Source SHA-256: 2a8d0083eb5d2a5fd9671477d26295608010cd10234eff8d3cf809e5df39d21c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: at-hala.ans by Aphid Twix (blocktronics-6710); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20180516
 # SAUCE Dimensions: 80x166
 # SAUCE Font: IBM VGA
@@ -42,15 +42,4 @@ Write-Host '
                                                 [1;30m  ▀██░[0m  [1;30m ░███▄▒[0m
                                                  [1;30m    ▀▀▄▄  ███▓▄▄[0m
                                                          [1;30m▓▀▄██████▓▄▄[0m
-                                                      [1;30m   ▒[0m     [1;30m▀▀▀▀▓████▄▄[0m
-
-
-
-
-
-
-
-
-
-
-                                 [32mhalasystems.com[0m'
+                                                      [1;30m   ▒[0m     [1;30m▀▀▀▀▓████▄▄[0m'

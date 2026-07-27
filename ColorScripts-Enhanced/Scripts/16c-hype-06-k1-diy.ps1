@@ -5,7 +5,7 @@
 # Source SHA-256: f694b5833fee3f979b34e97245ea4c6cebdb39fddadbf37a5897bfb813051c76
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K1-DIY.ANS by Kirin (hype-06); released in hype-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -36,11 +36,4 @@ Write-Host '
 [31m██[0;1;31;41m▄[0;31m█▌▀[0m   [1;30m▄██[0;1;30;47m▓▓[0;1;30;40m█▄[0m [1mk1?[0m        [1;30m█[0m [1;30m▀▀▀[0m   [31m▄█████[0;1;31;41m░░█[0;1;37;41m▄[0;31m▄[0;1;30m▀▀[0m [1;30m▄[0;31m▀██████████[0;1;31;41m▄▀[0m  [1m?!*@%![0m
 [1;31;41m░░[0;31m█▀[0m     [1;37m▀[0;1;30m█████▀    [0m     ▀ [1;30m▀[0m▀[1m▀[0m    [31m▄██████[0;1;31;41m [0;31m█████▀[0;1;30m▄███▄[0;31m▀[0;1;30;41m░[0;31m█████[0;1;31;41m▄[0;31m█▌▀[0m    [1;37m  [0m
 
-[1m-+-\-[0m [1m-=≡≡-[0m     [1m-[0m   [1m++[0m   [1m-[0m  [1m---[0m [1m-[0m [1m----+[0m [1m--[0m    [1m--[0m   [1m+-[0m [1m--[0m    [1m---[0m  [1m-+[0m    [1m-[0m     [1m-[0m [1m-[0m
-
-        [1multra-wierd matrix here, i guess its sorta joker-inspired .. dont[0m
-        [1mask me where i got this idea .. it was supposed to be a guy peer-[0m
-        [1ming over the "[0;1;30mdiy[0;1;37m", but it turned into one of those joker things.[0m
-        [1mthen i just added a cardy-type background .. craZy ..[0m
-
-                                                       [1m_ __kay-wOn_ _   _[0m'
+[1m-+-\-[0m [1m-=≡≡-[0m     [1m-[0m   [1m++[0m   [1m-[0m  [1m---[0m [1m-[0m [1m----+[0m [1m--[0m    [1m--[0m   [1m+-[0m [1m--[0m    [1m---[0m  [1m-+[0m    [1m-[0m     [1m-[0m [1m-[0m'

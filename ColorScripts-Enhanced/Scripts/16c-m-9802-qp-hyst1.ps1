@@ -5,7 +5,7 @@
 # Source SHA-256: c73871992b5090a0fdc17b869c891b7b82086524bbd75107566e2fda745cd69c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QP-HYST1.ANS by quip (mistigris); released in m-9802 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hysteria
 # SAUCE Author: quip
 # SAUCE Group: mistigris
@@ -35,5 +35,4 @@ Write-Host '
            [37;44m░[0;1;34;47m▀[0;1;34;44m█[0;1;34;40m▓▓[0;1;34;44m░░[0;34m█[0;1;37m [0;34m █ [0;1;37m █[0;1;37;47m▒[0m▀[34m [0;1;37m▄▄▌[0;34m [0;1;34;47m▄▓[0;1;34;44m▓▓[0;34m█▌ [0;37m▐[0;1;37m▀[0;34m  ▄[0;37m▄[0;1;37;47m▀▀[0m [34m [0;1;37m [0;34m       ▄▄█  █[0;1;34;44m▀▀[0;30;44m▄▄[0;34;40m▀           [0m
           [34;40m ▀▀▀▀▀▀▀[0;30;44m▄[0;34;40m  █▄▄▄▄▄[0;1;34;47m▄[0;1;34;44m▓▓[0m░[34m [0;1;34;44m▒▒░░░[0;34m▌   ▄█[0;1;34;44m▀▀[0;30;44m▄▄[0;34;40m   ▓▓███████[0;30;44m▄[0;34;40m                    [0m
                   [34;40m   ██[0;1;34;44m▒▒▒▓▓█[0;1;34;47m▓[0m░[34m [0;1;34;44m░░[0;34m███▌ ▐[0;30;44m▄▄[0;34;40m              [0;30;44m▄▄▄[0;34;40m  [0;1;33;40m-quip[0;34m              [0m
-                     [34m▀▀▀▀▀▀▀▀▀  ▀███▀[0m
-                              [34m     [0m'
+                     [34m▀▀▀▀▀▀▀▀▀  ▀███▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d04a7c2313907fb7898dee69698de2aa98590490579587ead01900d59c6ad6be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-NOACS.ANS by 0 _2[[[[[\2[[[[2_  1 (.%(sHADe)%.); released in shade001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dFUSE: No Access Pic
 # SAUCE Author: 0 _2[[[[[\2[[[[2_  1
 # SAUCE Group: .%(sHADe)%.
@@ -39,7 +39,4 @@ Write-Host '
 [1;30;47m██▓▄▄░[0m████[1;30;47m░[0m▀ [1;30m▀[0m   [32m▓[0;1;32;42m▄░[0;32m█[0;37m [0;32m▀[0;1;32;42m▀▓▓███████[0;32m▄░▄[0;1;32;42m▓████▀▓█▓▀[0;32m▀[0;37m  [0;1;37;47m░[0m█[1;30;47m░▓[0;1;30;40m▄▄░[0;32m [0;1;30m▄■░[0;32m  [0m    [32m  ▀▀▀▀▀░[0m
 
 
-[37m--8<----------------------------------------------------------------------------[0m
-
-[37m     This one is for Shade''s World Headquarter, da phreakin'' Higher Sense.[0m
-   [37m  - Heay jNa, yar picture rock too![0m'
+[37m--8<----------------------------------------------------------------------------[0m'

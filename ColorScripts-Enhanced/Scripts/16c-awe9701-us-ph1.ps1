@@ -5,7 +5,7 @@
 # Source SHA-256: 02e0f7d4e88078e09b1a2ae0206fb8c1ed1ee75b073ea80593afee4d9eab050b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PH1.ANS by Widowmaker + Sir Death (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Plastic Heroes
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -36,14 +36,4 @@ SD([1;36mECL[0m)         [35m▄[0;1;35m▒[0;1;35;45m░▒▓▀[0;35m�
 [37;40m [0;36;40m                        [0m         [37;40m [0;35;40m▀██████[0;30;45m▓[0m             [35;40m░[0;30;45m▓[0m
 [36;40m                           [0m       [30;45m▓░[0;35;40m█████[0;30;45m░[0;35;40m░[0m
 
-[37;40m(CLIP HERE HOE)-----------------------------------------------------------------[0m
-
-[36;40mME (SIR DEATH) AND WIDOWMAKER HAVE DECIDED TO GO INTO BUSINESS TOGETHER.  WE ARE[0m
-[36;40mDOING JOINTS.  IF YOU WOULD LIKE TO BUY ONE, TALK TO SIR DEATH OR WIDOWMAKER.  [0m
-
-[36;40mYOU CAN CATCH US ON IRC, OR EMAIL US AT:[0m
-
-[36;40mSIR DEATH - [0;1;36;40mgolatka@aol.com[0m
-[36mWIDOWMAKER - [0;1;36mwidowmaker@sylvania.sev.org[0m
-
-[36mPRICES ARE NEGOTIABLE.[0m'
+[37;40m(CLIP HERE HOE)-----------------------------------------------------------------[0m'

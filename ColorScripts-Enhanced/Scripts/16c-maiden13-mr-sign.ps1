@@ -5,7 +5,7 @@
 # Source SHA-256: 7eaa3c4b42f7434740f856f504f01419f641c3aa13bca32d84aa0674388d52ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-SIGN.ANS by Minotaur (maiden13); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -24,8 +24,4 @@ Write-Host '
                  [1m   [0m [32m▀▀[0;1;32m▒[0;1;32;42m▀[0;32m▄[0;1;32m▄[0;1;30m▐[0;32m█[0;1;33;42m░[0m   [1;31m ▄[0;31m▄[0;1;31;41m▀[0;31m█[0;37m  ░░█[0;1;37;47m░░[0m█[1;47m▀[0m   [1;30m▀▀[0m  [32m▄▄[0;1;33;42m▄▀[0;32m▀[0m
                   [1;37m█▌  [0m    [32m▀[0;1;30m▐[0;32;47m██[0;32;40m▄[0;37;40m [0;1;31;40m▀[0;31m▀▀▀[0m        [37m▀▌▓ [0;32m▐▌▄▄█[0;1;33;42m▄[0;32m▀[0;1;33m▀[0m
                   [1;47m▐[0;1;40m▌      [0m [1;30m▐[0;32;47m▌▀[0;37;40m  [0;1;30;40m▀▀[0m           ▌  [32m▀▀▀[0;1;33m▀[0m
-                  ▀[1m▀▀▀[0m      [1;30m [0m                ▀
-
-
-            [1;30mhere''s a new sign for me .. new sign , new life .. [0m
-            [1;30mhail maiden! feel free to fly , beyond the stars!  [0m'
+                  ▀[1m▀▀▀[0m      [1;30m [0m                ▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8bf40ab87db1e5d0bee614a051e5fac70969922da835657daf3888bab00de9a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-IUND.ANS by The Reaper (purg-01); released in purg-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
@@ -41,9 +41,4 @@ Write-Host '
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m
 [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
-[1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
-                                                                       [1;30mtr[PuRG][0m
-                   [1mφ [0mindiana''s ups & downs.sys.party.man [1mφ[0m
-                 [1mφ[0m runnin.renegade.1o-o5.with.fido.1:23o/91 [1mφ[0m
-                  [1mφ[0m pdanet.69:6ooo/2.messagez.filez.doorz [1mφ[0m
-                 [1mφ[0m fon.numba.2i9.322.824o.nup.not.required[1m φ[0m'
+[1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m'

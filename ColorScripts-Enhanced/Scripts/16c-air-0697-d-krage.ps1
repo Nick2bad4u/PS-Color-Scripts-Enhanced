@@ -5,7 +5,7 @@
 # Source SHA-256: 59bd10b49e337b2b259c28e65907176a46225e50a99d4fb24f8ba185d7b7946a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D-KRAGE.ANS by deepsome (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: headless_person!
 # SAUCE Author: deepsome
 # SAUCE Group: air
@@ -52,7 +52,4 @@ Write-Host '
 [31m█[0;1;31;41m ▓[0;1;31;47m▓▓[0;1;31;41m▓[0;31m▌███[0;37m [0;31m██▌▐██████[0;1;31;41m░▒▒▓[0;1;31;40m█▄[0;31m▀▀████▄[0;33m▀[0;1;33;43m▒▒▀[0;33m▀▀[0;37m [0;31m███▌█████[0;37m [0;31m█▀█[0;1;31;41m░▒▓██▓░[0;31m██ ██▌[0;37m [0m
 [31m█[0;1;31;41m ▒[0;1;31;47m▒▒[0;1;31;41m▓░[0m [31m██[0;37m [0;31m▐██▄█████████[0;1;31;41m░░▒▓▓[0;1;31;40m▄▄[0;31m▀▀██▄▄▄██▌▐███████▌▀▄██[0;1;31;41m░▓██▓░[0;31m██▌▐█▌[0;37m [0;31m [0m
 [31m██[0;1;31;41m▒[0;1;31;47m▒▒▓[0;1;31;41m▒[0;31m▌▐█▌▐███▄▀██████████[0;1;31;41m ░░░▒▒[0;31m▄▀██████[0;37m [0;31m███████[0;37m [0;31m▐██[0;1;31;41m░▓██▓▒░[0;31m██▌█▌[0;37m [0;31m▐█▄[0;37m    [0m
-[31m█[0;1;31;41m░░[0;1;31;47m░░▓[0;1;31;41m▓░[0m [31m█▌▐█████▄▄▀▀███████████████████████████▌▐██[0;1;31;41m░▒▓██▓░[0;31m████▌[0;37m [0;31m▐████[0;37m    [0m
-      [31mAhhaaahhhaaa..  I don''t know why i didn''t make the head! =>[0m
-[31m      This ansi is Crazy & Oldschool!½  =)[0m
-[31m      I made this for KRage^[0m'
+[31m█[0;1;31;41m░░[0;1;31;47m░░▓[0;1;31;41m▓░[0m [31m█▌▐█████▄▄▀▀███████████████████████████▌▐██[0;1;31;41m░▒▓██▓░[0;31m████▌[0;37m [0;31m▐████[0;37m    [0m'

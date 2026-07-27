@@ -5,7 +5,7 @@
 # Source SHA-256: abcc3ba354f2dd9e801b513309b0cb5391805e88f7d8c947892b46a46d4ecae4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPH_CAB.ANS by sephiroth (senseimagerz); released in sense-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cabinbythelake
 # SAUCE Author: sephiroth
 # SAUCE Group: senseimagerz
@@ -37,5 +37,4 @@ Write-Host '
 [33m▄▀[0;32m░[0;33m▀▀[0;37m [0;34m▄▄▓█[0;1;34;44m░░▄▄[0;34m█▄▄█[0;1;34;44m░[0;34m█[0;1;34;44m░░[0;34m█▀▀▀  ▄▄▄▄[0;1;34;44m ░▀[0;34m██▄▄▄▄▄▄▄▄██▄▄███[0;1;34;44m░▒▒[0;34m██▓▓███[0;1;34;44m▒[0;34m█[0;1;34;44m▀▀▄▄░[0;34m█▄▄▄▄[0;32m░[0;34m▄▄▄[0;1;34;44m░[0;34m▄[0m
 [34m ▄▄▄█▀▀▀▀[0;37m [0;34m▀▀████▀█▀[0;1;34;44m▀▓▄▄░▒▒[0;34m██▀▀▀▀▀▀▀██[0;1;34;44m░[0;34m▓█▀▀▀▀      ▀        ▀▀   ▀██[0;1;34;44m▒░[0;34m█▓█████▀▀[0;1;34;44m▒[0;34m▀[0m
 [34m▄▄▄████▀▀[0;1;34;44m░░[0;34m████▀▀▀█[0;37m [0;34m█[0;1;34;44m░[0;34m▀█[0;1;34;44m░░[0;34m█[0;1;34;44m▀░[0;34m██▄▄███[0;1;34;44m▀▓▄[0;34m▀▀█  Login:afklösffdasd █▓██▀▀▀░▀▀▓ ▄▄▄[0;1;34;44m░[0;34m█[0m
-[34m▄▄▄█▀▀▀[0m     [34m▄▄▀▀▀▀▀▀▀[0m    [34m▀▀▀▄▄[0;37m  [0;34m▀[0m    [34m▀▀▀▄▄[0;37m  [0;34mPassword:********* ▀░ ████▄▄▄█▓███▀█[0m
-                                [34m [0m'
+[34m▄▄▄█▀▀▀[0m     [34m▄▄▀▀▀▀▀▀▀[0m    [34m▀▀▀▄▄[0;37m  [0;34m▀[0m    [34m▀▀▀▄▄[0;37m  [0;34mPassword:********* ▀░ ████▄▄▄█▓███▀█[0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: d2554c8708042e394b538068e4421fa9a8dd9356857e5193c306f154b2ec9633
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JOS-WEST.ANS by Juice Fusion (fsn-0296); released in fsn-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
 Write-Host '
-[1;30m Yeah! Ninja-Cutting ansi by Juice (c) in tha feb 1996 for westside and fusion![0m
+[1;30m                                                                               [0m
 
 
 
@@ -55,4 +55,4 @@ Write-Host '
   [1;34;44m [0;1;30;44m░▒▓[0;1;30;40m▄[0;1;30;44m▓[0;1;30;40m▄[0;1;30;44m▓▒░ [0m [1;30;44m ░▒▓[0m [1;30;44m▓▒░ [0m [1;30;44m ░▒▓[0m [1;30;44m▓▒░ [0m [1;30;44m ░▒▓[0m [1;30;44m▓▒░ [0m [1;30;44m ░▒▓[0m [1;30;44m▓▒░ [0m [1;34;44m [0;1;30;44m░▒▓[0m [1;34;44m [0;1;30;44m░▒▓[0m [1;30;44m▓▒░[0;1;34;44m [0m [1;34;44m [0;1;30;44m░▒▓[0m [1;30;44m▓▒░[0;1;34;44m [0m
   [1;30;44m░▒▓█[0;1;30;40m▀[0;34m [0;1;30m▀[0;1;30;44m█▓▒░[0m [1;30;44m░▒▓█[0;1;30;40m▄[0;1;30;44m█▓▒░[0m [34m▀[0;1;30;44m▒▓█[0;1;30;40m▄[0;1;30;44m█▓▒[0;34m▀[0;37m [0;1;30;44m░▒▓█[0;1;30;40m▄[0;1;30;44m█▓▒[0;34m▀[0;37m [0;34m▀[0;1;30;44m▒▓█[0;1;30;40m▄[0;1;30;44m█▓▒[0;34m▀[0;37m [0;1;30;44m░▒▓█[0m [1;30;44m░▒▓█[0;1;30;40m▄[0;1;30;44m█▓▒[0;34m▀[0;37m [0;1;30;44m░▒▓█[0;1;30;40m▄[0;1;30;44m█▓▒░[0m
 
-   [1;30m■■■[0m SysOps[1;30m: [0;1;37mJuice/Virgin [0;1;30m- [0m2 nodes 28.8 USR Sportsters [1;30m- [0m0-3 days only [1;30m■■■[0;1;34m [0m'
+   [1;30m■■■[0m       [1;30m  [0;1;37m             [0;1;30m  [0m                            [1;30m  [0m              [1;30m■■■[0;1;34m [0m'

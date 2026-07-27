@@ -5,7 +5,7 @@
 # Source SHA-256: a9b26b97298319d06bd0b53e0cac345c592fc85ed095b5cd919ec6b7682c2b1c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-birth-of-mawu-liza.ans by Alpha King + H7 (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the birth of mawu-liza
 # SAUCE Author: alpha king & h7
 # SAUCE Group: blocktronics
@@ -61,5 +61,4 @@ Write-Host '
                   [1;36m█ █ █ █▀█ █▄▀▄█ █ █[0;1;30m   █▀█ █ █ █ █   [0;1;33m█  █ ▄▀  █▀█[0m
                   [1;36m▀   ▀ ▀ ▀ ▀   ▀  ▀▀[0;1;30m   ▀ ▀ ▀ ▀ ▀▀▀   [0;1;33m▀▀ ▀ ▀▀▀ ▀ ▀[0m
            [35m░░░                                                                 ░[0m
-[37m           [0;35m░░░                                                        ░░[0m
-'
+[37m           [0;35m░░░                                                        ░░[0m'

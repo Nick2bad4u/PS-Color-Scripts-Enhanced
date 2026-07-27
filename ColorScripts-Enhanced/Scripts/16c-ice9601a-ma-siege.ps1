@@ -5,7 +5,7 @@
 # Source SHA-256: 6d25c52b68532fabd1a8bb51ca2f4b263bbe9790f64791a1be3dd55e2d477159
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-SIEGE.ICE by Maestro (iCE Advertisements); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Seige
 # SAUCE Author: Maestro
 # SAUCE Group: iCE Advertisements
@@ -35,5 +35,4 @@ Write-Host '
      [36m▄▄▄ ▀▀[0;1;37;46m░[0;36m█ [0;32m░▄▄[0;1;37;42m░[0;32m░   ░▓[0;1;37;42m░[0;32m▓ [0;34;42m░[0;32;47m█[0;32;40m█ ▀[0;1;37;42m█░[0;32;47m█[0;37;40m  [0;32;40m░▓█[0;32;47m▓[0;32;40m▀░[0;1;37;42m░[0;32m██    ░█[0;1;37;42m░[0;32m▓ ▄[0;1;37;42m▓░[0;32;47m█[0;37;40m  [0;32;40m░▓[0;34;42m░[0;1;37;42m░[0;32m▀[0m
 [32m    [0;36m▀[0;1;37;46m░░[0;36m█▀[0m      [32m▀▀[0;1;37;42m▀[0;32m▓▄▄▄▓[0;32;42m [0;32;40m▀▀░▓█[0;1;37;42m░[0m [32m▄▀▀▀█▄▓▀▀▓░ ██▓░   ░[0;1;37;42m░▒▀[0;32m▀  ▀▀[0;1;37;42m▀[0;32m▄▓▀▀▓░[0m
         [36m░░▀  ■[0m             [32m░▀[0;1;37;42m░[0;32m▀▌[0m     [32m.[0m      [32m▀▀▓▄▄▄▄▄[0;1;37;42m░[0;32m▌[0m     [32m■[0m
-                                [32m▀  ■[0m                 [32m▀■ ▄ ▀[0m
-[30mUNSANE RIP PROTECTION ON[0;37m [0;32ms[0;36mS[0m     [32mi[0;36mI[0m     [32me[0;36mE[0m     [32mg[0;36mG[0m     [32me[0;36mE[0;37m [0;30mUNSANE RIP PROTECTION ON[0m'
+                                [32m▀  ■[0m                 [32m▀■ ▄ ▀[0m'

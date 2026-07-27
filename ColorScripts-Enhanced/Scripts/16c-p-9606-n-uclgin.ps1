@@ -5,7 +5,7 @@
 # Source SHA-256: 33fc861193c292f1c0a173fe22462821bedd4f476cbee1789d75cfc42e478d50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!UCLGIN.ANS by NAiL/MS/PAiN! (p-9606); released in p-9606 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: UNDERC0VER L0GiN
 # SAUCE Author: NAiL/MS/PAiN!
 # SAUCE Date: 19960513
@@ -32,8 +32,8 @@ Write-Host '
 [1;30m▓▄ [0m   [1;30m▄[0m  [1;30m▄▄▌ ▄▄■   ▐▄▀▄■▀[0;1;30;47m▓[0;1;30;40m█ ██▄■▀▀██▄ ▓ [0;31m ▀▀▀▀ [0;1;30m  ▄ ■▄ ▐▓▄▄[0;31m [0;1;30m▄[0;1;30;47m█▓[0;1;30;40m▄█▀▄▄▄▓▄[0m   [1;30m██[0;31m  [0;1;30m▄▄▀[0m
 [1;30m█▀▀■▄[0m [1;30m▐▓▌▄▀[0;1;30;47m▓[0;1;30;40m██▄▄█▄▓▄▄█[0m  [1;30m█■▄▐▌[0;1;30;47m█[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▄[0m [1;30m█[0m [1;30m█▀[0;1;30;47m▓[0;1;30;40m▀■▄▄[0m [1;30m█■▓▄▐▌▄▐▌▀▀▀[0;1;30;47m▓[0;1;30;40m▄■[0m [1;30m▐▌▀▓▀[0m [1;30m▓▀█▀▓[0m  [1;30m██▀▀▐[0;1;30;47m▓[0m
 [1;30m▓■▄■▀▀▀▀[0m  [1;30m■▀[0m   [1;30m▀■[0m  [1;30m  [0mundercover affiliations & dist sites    [1;30m▀■[0m    [1;30m▀▀▀■[0m   [1;30m▀▀■▄▓[0m
- [1;30m▐▌ #[0mRADiCAL[1;30m.[0mRHYTHMS[1;30m#[0mQTiP[1;30m#[0mD-LUSi0N[1;30m#[0mTRAXX[1;30m#[0mKFMF[1;30m#[0mCAPACALA[1;30m#[0mNFACT0R[1;30m#[0mKLF[1;30m#[0mDASKMiG[1;30m#[0m  [1;30m▄█[0m
-[1;30m■▀▄ #[0mAZURESKY[1;30m#[0miNSANE[1;30m.[0mFREQUENCiES[1;30m#[0mBLACKTR0N[1;30m#[0mM0Z[iC]ART[1;30m#[0mSAU[1;30m#[0mPEANUTS[1;30m#[0mKEiTH303[1;30m# ■▄■ [0m
+ [1;30m▐▌  [0m       [1;30m [0m       [1;30m [0m    [1;30m [0m        [1;30m [0m     [1;30m [0m    [1;30m [0m        [1;30m [0m       [1;30m [0m   [1;30m [0m       [1;30m [0m  [1;30m▄█[0m
+[1;30m■▀▄  [0m        [1;30m [0m      [1;30m [0m           [1;30m [0m         [1;30m [0m          [1;30m [0m   [1;30m [0m       [1;30m [0m        [1;30m  ■▄■ [0m
  [1;30m▓▌[0m [1;30m#######################[0mDAC[1;30m#[0mSiLiC0N[1;30m.[0mREC0RDS[1;30m#[0mE/M/S[1;30m#######################[0m [1;30m▐▌▀[0m
 [1;30m▐▌■▄■▀█▀▀█▄█▄[0m [1;30m▄█▄▀▀[0;1;30;47m▓[0;1;30;40m▀■▄█[0m [1;30m▄▀█[0;1;30;47m▓█[0m [1;30m▀[0m [1;30m▄[0m [1;30m██▀█■▀▀█▄█▀▄▄■▀▄▄█▄■▄■▀[0;1;30;47m█[0;1;30;40m▄[0;1;30;47m▓[0;1;30;40m■▄N!▐▄▄▓[0m   [1;30m█[0m [1;30m█▀▓■▄[0m
 [1;30m▀[0m [1;30m▓▀▀▀[0;1;30;47m▓[0;1;30;40m█▀▀■▄▀█▌▄█▀▀▓▀[0m [1;30m█▀▀█▀▐▀[0;1;30;47m█[0;1;30;40m██[0;1;30;47m█[0;1;30;40m▀■▄▓▐▌▀■▄▄[0;1;30;47m▓[0m [1;30m██▀▀█▀▓[0m [1;30m██▀[0m [1;30m▓▀██▐▀■▄▄■▀▀▌▀█[0;1;30;47m▓[0;1;30;40m█▀█▀▀▀[0m'

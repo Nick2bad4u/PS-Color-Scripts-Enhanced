@@ -5,7 +5,7 @@
 # Source SHA-256: cfa7cb6d2f66842495b9649bb5e2440caaa5a5b8cb684110ba65574204d15cb4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: H7-IMMAN.ANS by h7 (sodapop); released in soda05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: immanence
 # SAUCE Author: h7
 # SAUCE Group: sodapop
@@ -54,10 +54,8 @@ Write-Host '
      [1;30m▀░▀▀▀▀▓▀▌▄▄▄█▄▄ ░▌░▐▌ ░▐▌   ░▄ ▐▌ ▐▌   ░▄ ▐▌  ▓  ▐▌    [0m    [1;30;47m░▓[0;1;30;40m▓▀▀▀▀▀▀[0m
              [1;30m▀▀ ▄▓▄▓▄▄▓▄▓▄▄▓▄▓▄   ▌ ▓▄▄▄▓░   ▌ ▓▄▄▄▓▓▄ ▓▄  ▄░  ▄[0;1;30;47m▓[0;1;30;40m▓▒░  h7[0m
        [1;30m ▄▄ ▄[0m       [1;30m▀ [0m      [1;30m▀[0m         [1;30m      [0m        [1;30m  ▀▓▄▀▓▄▐▄▄▓██▀[0m
-[1m  [0m     [1;30m ▌ [0m               [1mc[0mapitis [1md[0mamnare - [1mi[0mmmanence    [1;30m▀▀▀▀▓▀▀[0m
+[1m  [0m     [1;30m ▌ [0m               [1m [0m       [1m [0m         [1m [0m            [1;30m▀▀▀▀▓▀▀[0m
 
 
 
----------------------------------8<-fiskars------------------------------------
-
-I''m not too sure if i''ve already released this one.[0m'
+---------------------------------8<-fiskars------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1839a904fedeaa77bb2f8aae7ce40910aef5b7bd86d5a08342c5f221adb18cf9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-GVIEW.ANS by Shatters (Gravity); released in gvt-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Gravity View Template
 # SAUCE Author: Shatters
 # SAUCE Group: Gravity
@@ -38,5 +38,4 @@ Write-Host '
 [37m  [0;31m [0m                                                                         [31m░[0m
 [37m  [0;31m▀[0m
                                                                          [31m [0;37m  [0;31m▀ [0m
-[37m  [0;31m█[0m                                                                         [31m▄[0m
-[1;31mshatters[0;32m (gravity)[0m'
+[37m  [0;31m█[0m                                                                         [31m▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7b1521da013dccdea888a8f5856e3cafc1beffe31812342dbeca75638916d621
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-TPP1.ANS by Replay (mpir0494); released in mpir0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 135-183
 # Columns: 1-80
 
@@ -34,28 +34,5 @@ Write-Host '
 [1;30m█[0;1;30;41m▓▒░[0;31m████████████████████████[0;1;30;41m·[0;31m█[0;1;30;41m■[0;31m█[0;30;41mThe[0;31m█[0;30;41mPhunk[0;31m█[0;30;41mPalace[0;31m█[0;1;31;41m■[0;31m█[0;1;31;41m·[0;31m██████████████████████[0;1;31;41m░▒▓█[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31m▀[0m
 
-                            [1;30m∙   [0mT[1mhe Phunk Palac[0me   [1;30m∙[0m
-                       [1;30m∙   [0m1[1m(408)-246-0281  (NO Hst[0m)   [1;30m∙[0m
-                            [1;30m∙  [0mS[1m: Hannibal Lecte[0mr   [1;30m∙[0m
-                       [1;30m∙   [0m3[1m60 Megs of Old Skoolnes[0ms   [1;30m∙[0m
-
-                               [1;30m∙   [0mA[1mCiD sit[0me   [1;30m∙[0m
-                               [1;30m∙   [0mi[1mCE sit[0me   [1;30m∙[0m
-                               [1;30m∙   [0mB[1mad sit[0me   [1;30m∙[0m
-                             [1;30m∙   [0mP[1mHRiKTiON WH[0mQ   [1;30m∙[0m
-
-                         [1;30m∙   [0mC[1morruption Western H[0mQ   [1;30m∙[0m
-                            [1;30m∙   [0mP[1msychosis Sit[0me   [1;30m∙[0m
-                 [1;30m∙   [0mY[1mOU-ESE HQ <What the gayb0b is this?[0m>   [1;30m∙[0m
-                            [1;30m∙   [0mL[1mancelot 2 sit[0me   [1;30m∙[0m
-                             [1;30m∙   [0mI[1mmphobia sit[0me   [1;30m∙[0m
-
-                              [1;30m∙   [0mA[1mlgNet WH[0mQ   [1;30m∙[0m
-                            [1;30m∙   [0mS[1mtormWatch Ne[0mt   [1;30m∙[0m
-                               [1;30m∙   [0mS[1mhaka Ne[0mt   [1;30m∙[0m
-
-                              [1;30m∙   [0m1[1m87 Distr[0mo   [1;30m∙[0m
-                            [1;30m∙   [0mS[1mpectre Distr[0mo   [1;30m∙[0m
-
-                       [1;30mOh dang, the logo kicks butt... :)[0m
-                        [1;30mGayb0b ansi by Replay of Empire[0m'
+                            [1;30m    [0m [1m              [0m    [1;30m [0m
+                       [1;30m∙   [0m1[1m(408)-246-0281  (NO Hst[0m)   [1;30m∙[0m'

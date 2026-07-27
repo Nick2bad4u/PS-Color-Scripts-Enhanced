@@ -5,7 +5,7 @@
 # Source SHA-256: fc0bf0c33b2010e139ed6b464d70dd0412ca3bd1b97afe36a51c425db98b6de9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TUM-JAP.ANS by The Upright Man (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Morph
 # SAUCE Author: The Upright Man
 # SAUCE Group: Remorse Productions
@@ -55,13 +55,6 @@ Write-Host '
    [31m::::┐[0;37m [0;33m$$[0;1;31m. [0;31m.``;,┌[0;1;31m [0;31m;[0;1;31m   l[0;31m;[0;1;31m [0;33m:`[0;37m [0;33m`└*[0;1;31m4[0;33m*┘''[0;37m  [0;1;31m`4 [0;31m; `└[0;33m )$[0;1;31m$[0;33m:[0;37m  [0;31m.┌;[0;37m  [0;1;31m$$[0;33m `└*4S[0;1;31m*┘''[0m [1;31m.;[0m  [31m::[0m
        [31m;[0;37m [0;33m`4[0;1;31m$[0m [31m;[0m          [1;31m;[0;31m;┌.,l[0;1;31m;..  ; .;[0;31m.[0m    [1;31m.┌d[0;33m7``4[0;1;31m ;[0m  [1;31m''.`4l[0m [31m`[0;1;31m; .[0m [31m┐┐;;;:::::[0m
         [1;31m`┐[0m [1;31m`[0m                              [31m` .[0;1;31m`[0;33m└4[0;1;31m$┌,`[0m     [31m`.[0;1;31m`[0m [31m.[0m
-        [31m.` [0m       [31m+o tum[0m           [31mmorph[0m     [1;31m ∙[0;31m [0;33m`└4[0;1;31m$[0m         [31m100% original[0m
+        [31m   [0m       [31m      [0m           [31m     [0m     [1;31m  [0;31m [0;33m └ [0;1;31m [0m         [31m             [0m
                                                 [1;31m`[0m
-[31m---[0m
-[37mmore proof that remorse doesn''t follow trends. we set them.[0m
-[37mit''s pretty clear that remorse dominates over both old and newschool. we don''t[0m
-[37mneed smileys to prove it. if you''re going to draw ansi, you''re in the wrong[0m
-[37mscene. [0m
-
-                                                              [37m-The Upright Man[0m
-                                                               [37m[Remorse Senior][0m'
+[31m---[0m'

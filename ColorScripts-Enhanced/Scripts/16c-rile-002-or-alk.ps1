@@ -5,7 +5,7 @@
 # Source SHA-256: 9e5c12cecdc82559867827937ba0ec00334ce76c7c6e46b9e4e22a2f8eaf62df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OR-ALK.ANS by outraider (rile); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alkohol
 # SAUCE Author: outraider
 # SAUCE Group: rile
@@ -26,13 +26,13 @@ Write-Host '
 
 [33;40m───────[0;1;35;40m>>[0m outraider[33m [0;1;35m<<[0;33m─────────────────────────[0;1;35m>>[0;33m [0;37malkohol [0;1;35m<<[0;33m────────────────────[0m
 
-[36mthere''s a country called [0;1;36mGermany[0;36m somewhere on this globe and i can tell you-[0m
-[36mit sucks. ALKOHOL will be Germany''s[0;37m [0;1;36mfirst[0;36m art-related GERMAN emag. You may[0m
-[36mcontribute art (like headers, logos "ALK", "ALKOHOL") or even [0;1;36marticles[0;36m,[0;37m [0;36mi''ll[0m
-[36mtry to translate them.[0;37m [0;36m(send em to outraider@mail.indiago.de)[0m
+[36m                         [0;1;36m       [0;36m                                            [0m
+[36m                                   [0;37m [0;1;36m     [0;36m                                 [0m
+[36m                                                              [0;1;36m        [0;36m [0;37m [0;36m    [0m
+[36m                      [0;37m [0;36m                                      [0m
 
-[36moutraider[0m
-[32mdaniel [0m
+[36m         [0m
+[32m       [0m
 
 [33m───────────────────[0;1;35m<<[0m ALKOHOL [33m-[0;37m issue 1 [0;33m-[0;37m xx.x.xx [0;1;35m>>[0;33m────────────────────────────[0m
 

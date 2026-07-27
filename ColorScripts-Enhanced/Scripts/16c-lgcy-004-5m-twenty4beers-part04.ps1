@@ -5,7 +5,7 @@
 # Source SHA-256: 532172e4ecfc71f911c0472f6839959d432f409f45006272d217e040364bc19c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5m-twenty4beers.ans by Smooth (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: $20 for Beers
 # SAUCE Author: Smooth
 # SAUCE Group: Legacy Krew
@@ -36,10 +36,10 @@ Write-Host '
 [37m [0;31m██████████▓▓█████[0;1;31;41m░[0;31m██[0;1;32;41mTons of FILES , DOORS , and CUSTOM MODS [0;31m███[0;1;31;41m░[0;31m▓█████████████[0m
 [37m [0;31m██████████[0;30;41m-------[0;1;31;41m░[0;30;41m-------------------------------------------[0;1;31;41m░[0;30;41m--------[0;31;40m████████[0m
 [37;40m [0;31;40m█[0;1;31;41m           [0;31m█[0;1;33;41m [0;1;37;41mtelnet : [0;1;33;41m20forbeers.com   [0;1;37;41mport : [0;1;33;41m1337[0;31m██████████[0;1;31;41m░[0;31m███████[0;1;31;41m         [0m
- [31m█[0;1;31;41m            [0;1;37;41m [0;31m█[0;1;37;41msysop : [0;1;33;41mpaulie420       [0;1;31;41m░[0;1;33;41m [0;1;37;41mbbs : [0;1;33;41mmystic bbs ([0;1;37;41mlatest[0;1;33;41m)[0;1;31;41m            [0m
+ [31m█[0;1;31;41m            [0;1;37;41m [0;31m█[0;1;37;41m        [0;1;33;41m                [0;1;31;41m░[0;1;33;41m [0;1;37;41m      [0;1;33;41m            [0;1;37;41m      [0;1;33;41m [0;1;31;41m            [0m
  [31m█[0;1;31;41m         [0;30;41m---------[0;1;31;41m░[0;30;41m--------------------------------------------------[0;1;31;41m        [0m
- [31m█[0;1;31;41m           [0;1;36;41mFSXnet . ARAKnet . DOVEnet . TQWnet . RETROnet . WWIVnet[0;1;31;41m       ░  [0m
- [31m█[0;1;31;41m  ░           [0;1;36;41mZEROnet . FIDOnet . WEEDnet . SP00Knet . METROnet[0;1;31;41m      ░     ░ [0m
+ [31m█[0;1;31;41m           [0;1;36;41m                                                        [0;1;31;41m       ░  [0m
+ [31m█[0;1;31;41m  ░           [0;1;36;41m                                                 [0;1;31;41m      ░     ░ [0m
  [31m█[0;1;31;41m                 ░        ░    [0;30;41m [0;1;31;41m      ░      [0;1;33;41m▒▒[0;1;31;41m                     ▒░    ░  [0m
  [31m█[0;1;31;41m   ░      [0;30;41m░[0;1;31;41m      ░     ░ ▓▓    [0;30;41m [0;1;31;41m [0;30;41m▄[0;1;31;41m    ░░     [0;1;33;41m░[0;1;31;41m▒         [0;31m [0;1;31;41m  ░        ░▒    ░░ [0m
  [31m█[0;1;31;41m  ░       [0;30;41m░▒[0;1;31;41m           ░ ██░   [0;30;41m▄▀[0;1;31;41m ░░░ ▒▒     ░▓▓       [0;31m▄▀[0;1;31;41m ░    ░   ░▓▓   ░░░ [0m
@@ -54,4 +54,4 @@ Write-Host '
 [37m [0;31m██[0;37m [0;31m▓█[0;37m             [0;31m▓▀▀[0;37m                       [0;31m▌[0;37m           [0;31m░[0m
 [37m [0;31m█[0;37m  [0;31m▓[0;37m              [0;31m▓▀[0;37m                       [0;31m▐▐[0;37m                               [0;1;30m░░[0m
   [1;30m░                [0;31m▓[0;37m                         [0;31m▒[0m
-[37m  [0;1;30m░░[0m                                         [31m░[0;37m          [0;1;33m5mooth[0;1;36m<[0;1;37mLEGACY[0;1;32mkrew[0;1;36m>[0m'
+[37m  [0;1;30m░░[0m                                         [31m░[0;37m          [0;1;33m      [0;1;36m [0;1;37m      [0;1;32m    [0;1;36m [0m'

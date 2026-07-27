@@ -5,13 +5,13 @@
 # Source SHA-256: 71899aba4f8b6592328615ce7a521e8e69a27c33ce8b984505a0dd383411b4dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LMAONHQ.ANS by Lord Magnus (aeon0196); released in aeon0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
 Write-Host '
                            [1;34m [0m     [1;34m ,yy[0;34myyy,.[0m
-                           [1;34m [0m [1;34m [0m [1;34m y$$y"$$[0;34m$$$y[0m       [1;30mxanth%is%lurking[0m
+                           [1;34m [0m [1;34m [0m [1;34m        [0;34m    [0m       [1;30m                [0m
                               [1;34my$"[0;1;31m,[0;31my[0;36m [0;1;34m$i$$[0;34m$"yy$y[0m    [1;30maround%%%%%%%%%%[0m
                              [1;34m,$ [0;1;31m$$$[0;31mi[0;1;34mi$i"[0;34my$[0;1;34m$""$i[0m
                              [1;34mi$[0;1;31mi$"$[0;31m$[0;36m [0;1;34m$[0;34m#""[0;1;31m,y[0;31m"$.[0;1;34m$[0m  [1m,  [0m

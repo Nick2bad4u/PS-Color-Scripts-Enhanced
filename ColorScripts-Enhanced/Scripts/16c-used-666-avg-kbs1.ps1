@@ -5,7 +5,7 @@
 # Source SHA-256: ecab436fc0505c978c5d51bff02b9ba30912c14573a3c07c881f4495ac9c5e5d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-KBS1.ANS by the avenging angel (youzd); released in used-666 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kibosh mr wrong style..
 # SAUCE Author: the avenging angel
 # SAUCE Group: youzd
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mavg[0mused
+[1m   [0m    
 
  [36m▄[0m                                   [37m  [0m
    [36m▄▄[0m                            [37m [0;1;30m░░[0m                               [34m       [0m
@@ -38,13 +38,4 @@ Write-Host '
 [34m      [0;37m   [0;33m▄[0;37m [0;33m▀▀[0;37m     [0m      [1;34m     [0;34m▀▀[0;36m▀[0;1;36m▒[0;1;36;46m▀[0;36m▀ [0;34m ▀▄[0;1;34m▄[0m [33m▀▀▄▄[0;34m         [0;1;34m [0;34m▄[0;1;34;44m▄[0;1;34;40m█▀[0;1;34;44m▓░[0;1;30;44m▀▀[0;34m▄[0;1;30m▄[0;1;30;43m▄▄[0;33m▀▀[0;37m   [0;34m▀[0;1;34m▀▀[0m▀[34m  [0;36m  [0m
 [34m░░░░░░  [0m     [34m░░░░░░░░░░░░░░░░░░[0;36m [0;34m  [0;36m ▀ [0;37m  [0;34m▀[0;1;34m▀[0;1;34;47m▓[0;1;34;44m▄[0;1;34;40m▄▄[0;34m▄[0;33m▀[0m   [34m ░░░   ▀[0;1;34m▀▀[0;1;34;44m▀[0;1;34;47m▄[0;1;34;40m▄▄[0;34m▄ [0m    [34m░░░░░░░░░░[0m
                [1;34m       [0;34m         [0;36m   [0;34m [0;37m   [0;34m   [0;37m   [0;34m▀[0;37m▀▀[0;1;34m▀▀[0;34m▀    [0m
-    [1;30mk  i  b  o  s  h[0m   [34m [0;1;30m                         [0m       [34m [0m
-
-                               [1;30mdrawn by the avenging angel of the used coalition[0m
-
-[1;30mthis piece is meant to be a "mr wrong" style ansi.. if you cant notice it.. then[0m
-[1;30myou have problems. Just a thanks to mr wrong for always drawing kick ass fonts[0m
-[1;30mand without his style i wouldnt have been able to draw something like this..[0m
-[1;30malso bigass greets to: [0mpropane, cryogenic, mr wrong, spearfx, dissonance, tna,
-zedfactor, avenger, knocturnal, zerovision, catch22, somberlain and anyone
-else that i forgot.. sorry![0m'
+    [1;30mk  i  b  o  s  h[0m   [34m [0;1;30m                         [0m       [34m [0m'

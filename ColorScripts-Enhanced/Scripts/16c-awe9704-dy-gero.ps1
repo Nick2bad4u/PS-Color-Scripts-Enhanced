@@ -5,7 +5,7 @@
 # Source SHA-256: 5995ce483946a6751241fbeffb72bfcf63cdd8318f075a0abab8cf4f66bf0296
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DY-GERO.ANS by Discyple (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Geronimo
 # SAUCE Author: Discyple
 # SAUCE Group: AWE Lettering
@@ -51,6 +51,4 @@ Write-Host '
                                        [1;32;40m█▌[0m
                                        [1;32;40m▐▌[0m
 
-[1;32;40m    [0;1;37;40mgeronimo [0m-- dy([1mAWE[0m) +o [1mgarroter[0m?    [1;32m░[0m
-
-[1;32m    [0;1;37mgeronimo = omi negro.  could omi be black?  perhaps.[0m'
+[1;32;40m    [0;1;37;40m         [0m      [1m   [0m     [1m        [0m     [1;32m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b8aed719a56ea68a7ba6391ebd1c111ef01bcf202daff70905282806c4662ad2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VLD-JASP.ANS by velo (jasper); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: jasper logo
 # SAUCE Author: velo
 # SAUCE Group: jasper
@@ -41,15 +41,4 @@ Write-Host '
                               [36m░░░░░░░[0m
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30mw00t!  okay,  since  this  is  my  first   appearance  in  Jasper,  i decided i[0m
-[1;30mshould  do  a  Jasper  logo.  I kinda  like  this  one myself.[0m  [1;30mI  hope  people[0m
-[1;30mkeep  inspiring  me  to  draw  in  the  future,  as  i  was  inspired  now  ...[0m
-
-[1;30mansi  brothers  unite ! =)[0m
-
-[1;30mSigning off,[0m
-[1;30mvelo (a.k.a. aesthetic''s daddy)[0m
-
-[1;30mps. no, i am not crazy... i''m just dutch =)[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

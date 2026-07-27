@@ -5,7 +5,7 @@
 # Source SHA-256: 9c692dfc977017d84bf0f41214cc87b41134ae1386e953d7fb21ef0f97ccc13e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-LI.ANS by The Image (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lethal Injection
 # SAUCE Author: The Image
 # SAUCE Group: READ THE INI FILE
@@ -47,14 +47,5 @@ Write-Host '
             [1;33;45m░[0;1;35;45m▒[0;35m█[0m [1;37;45m▓▌[0;35m█[0m [1;35;45m░[0;1;33;45m▓[0m [1;37;45m░[0;35m▒[0;1;35;45m░[0m [1;35;45m▓▌[0m [1;33;45m░[0;1;37;45m▐▓[0;1;37;40m▀[0;35m▀▀[0m [1;37;45m░[0;1;33;45m▒[0;35m▓[0m    [1;33;45m▓▄■[0m [1;37;45m▒[0;1;35;45m▒[0m [1;33;45m░[0;1;37;45m▐▓[0m [35m▓[0;1;33;45m▒[0;1;37;45m░[0m [1;35;45m▒[0;1;37;45m░[0m [1;33;45m▒▌[0;1;35;45m▒[0m [35m▒[0;1;37;45m▒[0m
             [35m█[0;1;35;45m▓[0;35m▓[0m [1;37;45m▀[0;1;33;45m░[0;35m█[0m [1;35;45m▒[0;1;33;45m▒[0m [1;37;45m▒[0;35m▓█▄[0;1;35;45m▀■[0m [1;35;45m░■[0;1;37;45m▒[0;35m▄[0;1;35;45m░[0;35m▓[0m [1;33;45m■▓[0;35m▒▄[0;1;37;45m▀[0;1;35;45m▓[0m [35m   [0m [1;37;45m▓▄[0m [1;35;45m░■[0;1;37;45m▒[0m [35m▒[0;1;33;45m▓■[0;35m▄█[0;1;37;45m▒[0m [1;33;45m▀■[0;1;35;45m░[0m [35m░[0;1;37;45m▀[0m
 
-[1;30;40m       [0m                        [1;35;40ml[0;35me[0;1;30mthal[0m [1;35mi[0;35mn[0;1;30mjection[0m
-                              [1;30m  [0m [1;35m7[0;35mo[0;1;30m2-739-8221[0m
-                       [1;30m [0m [1;35mo[0;35mp[0;1;30m:[0m [1;30mlefty[0m  [1;35mc[0;35mo[0;1;30m: stone the crow[0m
-             [1;30m     [0m     [1;35mt[0;35ms[0;1;30man, [0;1;35mp[0;35mw[0;1;30ma, [0;1;35ms[0;35mc[0;1;30mream, [0;1;35ma[0;35ml[0;1;30mliance  nets[0m
-                       [1;35mc[0;35md[0;1;30mi world hq, [0;1;35ma[0;35mc[0;1;30mid member [kinda][0m
-                       [1;35mn[0;35mo[0;1;30m newuser password,    [0;1;35mn[0;35mo[0m [1;30mratios[0m
-                        [1;35mr[0;35me[0;1;30mnegade 10-05 stc''d to the max[0m
-                                  [1;30m  [0m [1;35mc[0;35ma[0;1;30mll[0m
-
-
-''god help me, hair doesnt get much worse than this...''[0m'
+[1;30;40m       [0m                        [1;35;40m [0;35m [0;1;30m    [0m [1;35m [0;35m [0;1;30m       [0m
+                              [1;30m  [0m [1;35m7[0;35mo[0;1;30m2-739-8221[0m'

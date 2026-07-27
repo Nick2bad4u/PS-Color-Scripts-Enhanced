@@ -5,7 +5,7 @@
 # Source SHA-256: ea32cd9f65c609d17dc6772522c7459d80f67fe0b3791c2c55f46ba4d1c91968
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XT-DIS.ANS by Exocet (riot0897); released in riot0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -36,11 +36,4 @@ Write-Host '
                                                 [1;32m▀▀[0;31m▀████▓[0;1;32m▀▀[0;32m▀▀[0;1;32m [0m
                                                 [1;32m  [0m              [1;32m [0m [1;32m [0m
 
---------------[cRaCk!]--------------------------------[cRaCk!]------------------
-
-    I did this nifty request for a guy named th- for his BBS.
-
-    Greetz go out to th- and the crew at Riot Productions..
-
-    Send ansi or rip req''s to Ehksohset@hotmail.com.
-                                                            -exocet[0m'
+--------------[cRaCk!]--------------------------------[cRaCk!]------------------[0m'

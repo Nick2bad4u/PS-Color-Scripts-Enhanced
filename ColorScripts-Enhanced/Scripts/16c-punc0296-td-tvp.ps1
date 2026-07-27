@@ -5,7 +5,7 @@
 # Source SHA-256: 8e1c2219615dfd20d429f5ab4b83d7db23e7fe64dde2b658297d72b580484da1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TD-TVP.ANS by totally destroyed (PUNC Productions); released in punc0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the venom pit
 # SAUCE Author: totally destroyed
 # SAUCE Group: PUNC Productions
@@ -38,8 +38,4 @@ Write-Host '
               [31m▓[0m   [31m▄ ■█[0;37m [0;31m█[0;37m [0;1;30m▓[0m [1;36;46m▒[0;36m██[0;1;36;46m▒[0m   [36m■[0;37m  [0;1;36;46m░[0;36m██[0;1;36;46m▒[0m  [36m■ [0;1;36;46m░■[0;36m█[0;1;36;46m░[0m [1;30m▓[0;31m▐▌[0;37m [0;31m■[0m
                [31m▒[0;37m  [0;31m▀▄■▓ ▐[0;37m [0;1;30m█[0m [1;36;46m░[0;36m█[0;30;46m■[0;1;36;46m▒[0m      [1;36;46m░[0;36m█[0;1;36;46m■░[0m   [36m [0;1;36;46m▒[0;36m██[0;1;36;46m░[0;1;30;40m ▓[0m [31m█[0m
                 [31m░■ [0m    [31m▌[0;37m [0;1;30m█▄▄▄[0;36m▀[0;1;36;46m▒[0m [1;30m ▄▄▄▄▄█[0;36m▀[0;1;36;46m░[0m [1;30m▄▄▄▄▄[0;36m▀[0;1;36;46m░[0m [1;30m█[0m [31m▐▌[0m
-                       [31m▀▄[0m    [1;30m▀▄■▀[0m     [1;30m ▀▄▀[0m    [1;30m ▀█[0;31m■tD▐ [0m
-
-
-
-                                             [1;37m    [0;36m    [0m'
+                       [31m▀▄[0m    [1;30m▀▄■▀[0m     [1;30m ▀▄▀[0m    [1;30m ▀█[0;31m■tD▐ [0m'

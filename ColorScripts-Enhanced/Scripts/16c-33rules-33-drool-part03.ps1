@@ -5,7 +5,7 @@
 # Source SHA-256: 04a7b5fb2d6345c86fc07f1266eb9a683cccb2d4b14444a103446f0815469f14
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-DROOL.ANS by Integrity 07/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digital Drool
 # SAUCE Author: Integrity 07/95
 # SAUCE Group: Eerie
@@ -58,8 +58,8 @@ Write-Host '
 [1;31m▒▓[0;1;31;41m▒▒▒▒▓▓[0;1;31;40m▄█[0;1;31;41m▓▒[0;1;31;40m▀[0;1;31;41m▒▓▓▒[0m [1;31;40m▄[0;1;31;41m▒[0;1;31;40m▀█[0;1;31;41m▒▒▓[0m   [1;31;40m░[0m       [1;31;40m▒▓[0;1;31;41m▒▒▓▓[0;1;31;40m█▓[0;1;31;41m▒▒▓▓[0;1;31;40m▄[0;1;31;41m▒[0;1;31;40m▄▀  ▒▓[0;1;31;41m▓▒▓▓[0;1;31;40m▀█▄[0;1;31;41m█▓▓▓▒▒░[0;1;31;40m▌ [0;1;31;41m▓[0;1;31;40m██[0;1;31;41m▓▓▓[0;1;31;40m▌[0m
 [31m░▀▀▓[0;1;31;41m░░░░[0;31m▓▀▄[0;1;31;41m░░░░▒▒[0m [1;31;41m░░░[0;31m▓[0;1;31;41m░░[0;31m▓░   [0;1;30m33.int [0;31m░▀▀▓[0;1;31;41m░░▒░▒░░░░░[0;31m▓▀  ░▀▀▓▀▄[0;1;31;41m░░░▒░▒░░░[0;31m▀ ░▓[0;1;31;41m░▒▒▒░░[0m
 [1;31m   [0;31m░[0m                    [31m░[0m                                               [31m░[0m
-[37m                      [0;1;37mdigital drool [0;1;30m- [0mrival member board
-[1;30m            pardon me fear, i lost the rest of the stats.. oops =)[0m
+[37m                      [0;1;37m              [0;1;30m  [0m                  
+[1;30m                                                                  [0m
 
 
 [1;30;47m▒▓[0;1;30;40m▀▀▓▀ [0;1;30;47m▒▓[0;1;30;40m▀▀▓▀[0m      [1;30;40mthis ansi was done by [0;1;37;40meerie [0;1;30;40mfrom integrity    [0;1;30;47m▒▓[0;1;30;40m▀▀▓▀ [0;1;30;47m▒▓[0;1;30;40m▀▀▓▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 67940ddeef561ae86868ecc9dabcfb2e78188f1dcced16d11937932c95592ef0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-OPIV.ANS by filth (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 924 Gilman St.
 # SAUCE Author: filth
 # SAUCE Group: FiRE
@@ -44,10 +44,8 @@ Write-Host '
 [1;30m  ────────── [0;36m║   ║║   ║║ ══╝║    ║   ║║   ╗║║   ║║   ║   ║╚╗ ╔╝║   ║[0;1;36m [0;1;30m─────────[0m
              [1;30m╚═══╝║╚══╝╚═══╝╚    ╚══╝╚╚═══╝╩╚═══╝╚   ╚═  ╩ ╚═╝ ╚═══╣[0m
                                                                 [1;30m╚══╝[0m
-  [1;35ma[0;1;30m.[0;35mcommand[0m       [1;35md[0;1;30m.[0;35mmyeonglyeong[0;1;30m    [0;1;35mg[0;1;30m.[0;35mpolecenia[0m      [1;35mj[0;1;30m.[0;35mcomanda[0m      [1;35mm[0;1;30m.[0;35mparancs[0m
-[37m  [0;1;35mb[0;1;30m.[0;35mkommando[0m      [1;35me[0;1;30m.[0;35mperintah[0m        [1;35mh[0;1;30m.[0;35mkommandont[0m     [1;35mk[0;1;30m.[0;35mprikaz[0m       [1;35mn[0;1;30m.[0;35mbefehl[0m
-[1;30m  [0;1;35mc[0;1;30m.[0;35mcommande[0m      [1;35mf[0;1;30m.[0;35mkommandoen[0m      [1;35mi[0;1;30m.[0;35mkomuta[0m         [1;35ml[0;1;30m.[0;35mkomand[0m       [1;35mo[0;1;30m.[0;35mmingling[0m
+  [1;35m [0;1;30m [0;35m       [0m       [1;35m [0;1;30m [0;35m            [0;1;30m    [0;1;35m [0;1;30m [0;35m         [0m      [1;35m [0;1;30m [0;35m       [0m      [1;35m [0;1;30m [0;35m       [0m
+[37m  [0;1;35m [0;1;30m [0;35m        [0m      [1;35m [0;1;30m [0;35m        [0m        [1;35m [0;1;30m [0;35m          [0m     [1;35m [0;1;30m [0;35m      [0m       [1;35m [0;1;30m [0;35m      [0m
+[1;30m  [0;1;35m [0;1;30m [0;35m        [0m      [1;35m [0;1;30m [0;35m          [0m      [1;35m [0;1;30m [0;35m      [0m         [1;35m [0;1;30m [0;35m      [0m       [1;35m [0;1;30m [0;35m        [0m
 
-[1;30m═════════════════════[0;36m═══[0;1;36m══[0m [1;36m0PERAT10N 1VY  / 1NF0[0m [1;36m══[0;36m═══[0;1;30m══════════════════════════[0m
-
-'
+[1;30m═════════════════════[0;36m═══[0;1;36m══[0m [1;36m0PERAT10N 1VY  / 1NF0[0m [1;36m══[0;36m═══[0;1;30m══════════════════════════[0m'

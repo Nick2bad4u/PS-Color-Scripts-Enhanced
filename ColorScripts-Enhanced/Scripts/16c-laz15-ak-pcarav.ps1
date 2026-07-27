@@ -5,7 +5,7 @@
 # Source SHA-256: cacfe32199830424c4536e733b09045d3ffe77fdb6b5e2d0c8a485693c349607
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-pcarav.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: planet caravan
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
@@ -38,7 +38,7 @@ Write-Host '
 [1;31m$$[0;31m.  .┌[0;1;31md$$''[0m     [31m`└[0;1;31m*⌂SS*┘[0;31m''[0;1;31m  `4$$$*┘[0;31m''`[0;1;31m  [0;32m$[0;1;32m$$$$$[0;32mk[0;1;36m$$$$S[0;36m$b[0;1;37m [0;31mY[0;1;31m$$$$$$$$$$$[0;31mb.[0;37m     [0;31m` j[0;1;31m$$$$$[0m
 [31m~~$┌d[0;1;31m$$$P''[0m                   [1;31m`4$%┐[0;31m.   [0;32mW[0;1;32m$$$[0;32m$$''[0;1;36m$$$$$$[0;36mW [0;1;31m''└j$$$*┘''4$$$$$$S#%[0;31msd[0;1;31m$$$[0;31m$~~[0m
 [31m  ##[0;1;31mY$$$$[0;31mk[0;1;31m  [0;32mp[0;1;32mLANET[0m  [32mc[0;1;32mARAVAN[0m  [31m\[0;1;31m.`*$$b[0;31m┐[0;1;37m [0;1;32mY$$P[0;32m`[0;1;36m.d$$└4$[0;36m$P    [0;1;31m`$$:   [0;31m`4[0;1;31m$$$$$$$$$$P#[0;31m#[0m
-[37m     [0;1;31mYjj[0;31mP''[0;37m     [0;32m+[0;1;32mo[0;32m z[0;1;32mYLONE[0m      [31m`└[0;1;31m/j$$$[0;31m.[0;37m [0;32mY[0;1;32m┘[0;1;36m.d$[0;36m$`[0;1;32m$$b[0;36m`P [0;31m,┌[0;1;31ms%j$[0;31mP[0;1;31m  [0ma[1;30mbs[0;31m `*[0;1;31mj$$$$$$P[0m
+[37m     [0;1;31m   [0;31m  [0;37m     [0;32m [0;1;32m [0;32m  [0;1;32m     [0m      [31m └[0;1;31m     [0;31m [0;37m [0;32m [0;1;32m┘[0;1;36m   [0;36m  [0;1;32m   [0;36m   [0;31m ┌[0;1;31m    [0;31m [0;1;31m  [0m [1;30m  [0;31m   [0;1;31m        [0m
 ─────---[1;30m──[0m──[1;30m─[0m-[1;30m──[0m─[1;30m───────-─--─-─[0m   [31m`''└/.[0;37m [0;32m`└[0;1;32m*S$$#[0;32m*┘`[0;31m.d[0;1;31m$┘''[0;31m` [0;1;30m──-─-─[0m─[1;30m-[0m─[1;30m-[0;31m `[0;1;31m''²²[0;31m²` [0;37m-[0;1;30m─[0m───
 
 
@@ -46,7 +46,7 @@ Write-Host '
 
 
 
-  ↓↓   dairy queen coupon bonus !!
+  ↓↓                              
   ↓↓
                                                              [1;36m.,▬,.[0m
 [1;31m [0mPL[1;31mANET[0;31m .d$[0;1;31m$$$$$$$$$$$$$$$$[0;31m.d$[0;1;31m$$$$$$$[0;31mb.[0;1;31m$[0;31m$$$[0;1;31m$$b[0;1;32m [0;32m───-──- [0;37m.d[0;1;37m$$┌[0m.[1;36m`└*j[0;32m$b[0;37m.[0;31m  [0;32m─────--──[0m

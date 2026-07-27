@@ -5,7 +5,7 @@
 # Source SHA-256: f75cb219f8a33e95456ffc51031ccaf12d4aa19dd4d8cc37dfc59c00ac25d677
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K-SHD1.ANS by [ _2[[[[2\[[[[[2 2_~ (.%(sHADe)%.); released in shade001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kElthAR: Shade Pic (Monster)
 # SAUCE Author: [ _2[[[[2\[[[[[2 2_~
 # SAUCE Group: .%(sHADe)%.
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-   [31m [0m          [31m▄▓[0;37m [0;1;30mGraphics Developed By Kelthar[0m/[1;30mShade[0m/[1;30mDefiers[0m [31m▄[0m     [31m▒[0m
+   [31m [0m          [31m▄▓[0;37m [0;1;30m                             [0m [1;30m     [0m [1;30m       [0m [31m▄[0m     [31m▒[0m
 [31m ▄▄▓███████████████████████████████████████████████████████████████▓████████▓▄▄ [0m
 [31m▓████████████████████████████████▒█████████████████████████████████████████████▓[0m
 [31m██████░██████████████████████████▓████████▓▀▀▀▀▀▓███████████████░██████████████▒[0m

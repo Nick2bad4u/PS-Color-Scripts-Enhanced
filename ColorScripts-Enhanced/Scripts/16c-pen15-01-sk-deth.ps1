@@ -5,7 +5,7 @@
 # Source SHA-256: 541bdf400d4adcabd696ff5dc81a5c2c1fe6d91203091ed88fcd9e4e67b26d11
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!-DETH.ANS by sIMON kING (pEN15); released in pen15-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dEATH
 # SAUCE Author: sIMON kING
 # SAUCE Group: pEN15
@@ -29,8 +29,4 @@ Write-Host '
 [1m   [0;1;30m           ▐██[0;1;30;47m▓[0;1;30;40m▄▄ [0;1;30;47m░░[0;1;30;40m  [0;1;30;47m░░[0;1;30;40m▀▀▀▀ ▄[0;1;30;47m▒[0;1;30;40m▐█[0;1;30;47m▓[0;1;30;40m▄[0;1;30;47m▒[0;1;30;40m [0;1;30;47m░░[0;1;30;40m▌    [0;1;30;47m░░[0;1;30;40m     [0;1;30;47m░░[0;1;30;40m  ▐[0;1;30;47m▒[0;1;30;40m█▌[0m
 [1m   [0;1;30m             ▀▀███ [0;1;30;47m░[0;1;30;40m [0;1;30;47m░[0;1;30;40m [0;1;30;47m░[0;1;30;40m█▄▄█[0;1;30;47m▓[0;1;30;40m▀▀ ▀▀[0;1;30;47m█▓[0;1;30;40m▄ [0;1;30;47m░[0;1;30;40m▌[0;1;31;40msK![0;1;30;47m░[0;1;30;40m [0;1;30;47m░[0;1;30;40m    [0;1;30;47m░[0;1;30;40m [0;1;30;47m░[0;1;30;40m  ██[0;1;30;47m▓[0m
 [1m   [0;1;30m         [0;1;33m────────[0;1;30m [0;1;30;47m░[0;1;30;40m [0;1;33;40m─[0;1;30;40m [0;1;30;47m░[0;1;30;40m [0;1;33;40m────────────[0;1;30;40m [0;1;30;47m░[0;1;30;40m [0;1;33;40m────[0;1;30;40m [0;1;30;47m░[0;1;30;40m [0;1;33;40m────[0;1;30;40m [0;1;30;47m░[0;1;30;40m ▄██[0;1;30;47m▓[0;1;30;40m▄ [0;1;33;40m──[0m
-[1m   [0;1;30m                         [0;1;31mp[0;31mOLISH[0;1;31m d[0;31mISK[0;1;31m m[0;31mAGAZINE[0;1;31m  [0;1;30m       ▀▀▀[0m
-
-
-     this dark ascii logo draw and colored simon king/pen15^nominal^ipc.
-   if you wanna ansi or pc_ascii, then write to me...simon_k@friko.onet.pl[0m'
+[1m   [0;1;30m                         [0;1;31m [0;31m     [0;1;31m  [0;31m   [0;1;31m  [0;31m       [0;1;31m  [0;1;30m       ▀▀▀[0m'

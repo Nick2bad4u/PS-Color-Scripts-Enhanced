@@ -5,7 +5,7 @@
 # Source SHA-256: 0505b7ecf5d14fb9c48738634a5bc3413d819b483397c840564d31a0a7a65717
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-EASE.ANS by Illogic + Ironghost + Abnormal + Ize + Phonyeye (Different); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ease.
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Different
@@ -35,16 +35,4 @@ Write-Host '
                        [1;35m▀▀▀▀▀[0;35m▀[0;1;35m▐███████[0;1;35;45m▌[0;35m▌[0;1;35;45m█████[0;1;35;46m▌▓▓[0;1;35;45m██ [0;1;35;40m▀[0;1;35;45m██▓[0;35m▌[0;1;35m█[0;1;35;46m▀▓██[0;1;35;40m██[0;1;35;46m▓▓[0;1;35;40m███[0;1;35;46m▓█[0;1;35;40m███▄▄▄[0;35m▄[0m
 [35m  [0;30mL[0m                                    [1;35;45m▀██[0;1;35;46m▓▓▄[0;1;35;45m██▓█[0;35m█[0;1;35m▐[0;1;35;45m█▓░[0;35m▌[0;1;35;45m█[0;1;35;46m▓[0;1;35;45m█[0;1;35;46m▀▓▓[0;1;35;45m██[0;35m█[0;1;35m▐█[0;1;35;46m▓▌▀▓▓[0;1;35;40m█[0;35m█[0m
                                  [35m░ ░[0;30;45m▓░░[0;35;40m█[0;1;35;45m▐██▓▓███▓░[0m     [1;35;46m▓▀▀▐▓█[0;1;35;45m▓▓░[0m   [35m░[0;30;45m▓[0;35;40m░[0m
-                                     [35;40m░[0;30;45m▓[0m                [1;35;40m▀▀▀▀▀▀▀▀[0;35m▀[0m        [34m░░░ ░[0m
-
-
-[34m  [0;1;37mThe logo[0m:
-
-  [1m1st E''[0m: [1mIllogic[0m
-[1m  A''[0m: [1mIronghost[0m
-[1m  S''[0m: [1mAbnormalX[0m
-[1m  Last E''[0m: [1mIze[0m
-
-[1m  Background by PhonyEye[0m
-
-[1m  Fixups by Ize and PhonyEye.[0m'
+                                     [35;40m░[0;30;45m▓[0m                [1;35;40m▀▀▀▀▀▀▀▀[0;35m▀[0m        [34m░░░ ░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 75eb9c536f4c055234b1a6209e62ac063be06b99fa5189850815eb41cd8b9c64
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LRY-SW02.ANS by lArrY (PHaT); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SPiRiT WoRLD 8oLiNeS
 # SAUCE Author: lArrY
 # SAUCE Group: PHaT
@@ -41,8 +41,8 @@ Write-Host '
 [36m  [0;1;30m [0m [1;30m░[0m        ▄[1;30m■[0m■[1;30m■[0m▀·▀▄·[36m [0;1;30m.  o  O  [0m([1;30m SPiRit WORlD [0m)[1;30m  O  o . [0m·▄▀·▀[1;30m■[0m■[1;30m■[0m▄       [1;30m░[0m
 [36m  [0;1;30m [0m      ▄[1;30m■[0m▀[1;30m■[0m      ▄■   [1m [0m [1m[[0mThE BRaiN DaMaGeD WoRLD HQ[1m][0m    ■▄      [1;30m■[0m▀[1;30m■[0m▄
 [36m  [0;1;30m [0m    ▄▀        ▄▀[1;30m■[0m   [1m[[0mHaRD BeHaViouR eXCiTaTioN MeMBeR[1m][0;36m  [0;1;30m■[0m▀▄        ▀▄    [1;30m░[0m
-[36m  [0;1;30m ░[0m  ■·[36m  [0;1;30m [0m  [1;30m░[0m  ■▀·   [1m[[0mPHaT MeMBeR [1;30m/[0m LoCKeNWiCKLeR MeMBeR[1m][0m [36m [0;37m·▀■  [0;1;30m░[0m  [1;30m [0;36m  [0;37m·■[0m      [1;30m▒[0m
-[36m  [0;1;30m [0;36m  [0;37m▀■[0m     [1;30m▄[0m        [1;30m▐[0;1;37m[[0mMoTiVaTe[1;30m+[0mXTReMe DReaMS[36m [0;37mBaVaRiaN HQ[0;1;37m][0;1;30m▐[0m       [1;30m▄[0m     ■▀
+[36m  [0;1;30m ░[0m  ■ [36m  [0;1;30m [0m  [1;30m░[0m  ■▀    [1m [0m            [1;30m [0m                     [1m [0m [36m [0;37m ▀■  [0;1;30m░[0m  [1;30m [0;36m  [0;37m ■[0m      [1;30m▒[0m
+[36m  [0;1;30m [0;36m  [0;37m▀■[0m     [1;30m▄[0m        [1;30m▐[0;1;37m [0m        [1;30m [0m             [36m [0;37m           [0;1;37m [0;1;30m▐[0m       [1;30m▄[0m     ■▀
 [36m [0;1;30m░ ░[0m  ▀▄ [36m [0;1;30m▄▀[0;36m [0;1;30m▀■[0;36m  [0;37m▄·[0;36m  [0;1;30m▌[0;36m [0;1;37m[[0mPRoZaK [1;30m+[0m iNoX ReaLNeS GeRMaN HQ[1m][0m [36m [0;1;30m▌[0;36m  [0;37m·▄[0;36m  [0;1;30m■▀[0;36m [0;1;30m▀▄[0;36m [0;37m ▄▀  [0;1;30m░[0m  [1;30m░[0m
 [36m  [0;1;30m [0m [1;30m░[0m   ▀▄     ▄▀[1;30m■[0m   [1;30m▄[0m [1m[[0muNiCoRN DeSiGN [1;30m+[0m NiTRaT EuRo HQ[1m][0m [1;30m▄[0m   [1;30m■[0m▀▄  [1;30m░[0m  ▄▀    [1;30m▒[0m [1;30m░[0m
 [36m [0;1;30m▒░░[0m [1;30m░[0m [1;30m■▀[0;36m [0;37m▀▄▄■▀·  [0;1;30m░[0m [1;30m ■[0m  [1m[[0mMoZ[iC]aRT! DiSTRiBuTioN SiTe[1m] [0;36m [0;1;30m■ ░[0m   ·▀■▄▄▀[36m [0;1;30m▀■[0m  [1;30m░[0m

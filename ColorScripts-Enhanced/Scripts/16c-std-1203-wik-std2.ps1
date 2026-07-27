@@ -5,7 +5,7 @@
 # Source SHA-256: 1141ba9b251b88d20c79b8c9fa2f83cae591a3a23f51dc05da5f6bc61e1665eb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WIK-STD2.ANS by Wik (std); released in std-1203 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Spread the disease.
 # SAUCE Author: Wik
 # SAUCE Group: std
@@ -37,5 +37,5 @@ Write-Host '
 [37m [0;33m [0;37m [0;33m ▀▀▀▀▀[0m          [33m▄▄██ ▓▀░   ▐ [0;37m [0;31m ▓  █▀▓ █[0;31;43m▒[0;31;40m  [0;1;31;41m░[0;31m█ █[0;1;31;41m░[0;31m██▌▀██[0;33;41m▓[0;31;40m██▀ █████▀██▓██▀[0;37;40m  [0;1;30;40m [0;33m░[0m
                    [33m▀▀[0m         [33m▐ [0;37m [0;31m▄▄▄▄▄▄▄▄▄▄▓ ▓███▀▓█▓░██[0;33;41m▄[0;31;43m▀[0;31;40m█████ █▓▒███[0;1;35;41m▒[0;31m███[0;37m  [0;33m░[0m
                    [33m▄▄▄█▓[0m      [33m▀ [0;37m [0;31m▓[0m                                          [33m▓[0m
-                   [33m▓▓▓▓░[0;35m   [0;31mIt won''t stop[0;37m [0;33m''til my heart beat expires[0m
-                   [33m░░░░ [0;35m [0;33mAnd then I keep it going [0;31m''til the underground retires.[0m'
+                   [33m▓▓▓▓░[0;35m   [0;31m             [0;37m [0;33m                          [0m
+                   [33m░░░░ [0;35m [0;33m                         [0;31m                             [0m'

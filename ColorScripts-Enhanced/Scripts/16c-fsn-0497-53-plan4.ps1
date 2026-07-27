@@ -5,7 +5,7 @@
 # Source SHA-256: 35354841aa6ac610c9f6d5b2b1e68df55e7f5175657275cff7e16df01721d73e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 53-PLAN4.ANS by senile (ewchko-); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: planets
 # SAUCE Author: senile
 # SAUCE Group: ewchko-
@@ -39,8 +39,4 @@ Write-Host '
 
 
 
-[1;30m---------------------------------------------geschneiden[0m [1;30msie hier bitte!--------[0m
-
-[1;30mhi illogic, here''s a cute little 23liner. the eyes are kinda fucked, so fix on[0m
-[1;30mthem if you like. and before you ask, NO the aliens from zege3K don''t have ears[0m
-[1;30mand noses. <g>. latah -senile.[0m'
+[1;30m---------------------------------------------geschneiden[0m [1;30msie hier bitte!--------[0m'

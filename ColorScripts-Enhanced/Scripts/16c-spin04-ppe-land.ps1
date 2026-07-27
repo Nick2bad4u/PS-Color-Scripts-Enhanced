@@ -5,7 +5,7 @@
 # Source SHA-256: 9d1dc6766023119e4f3b5d4403d1712e1059cdac31476eca1671ccead77022a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-LAND.ANS by purplee (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: purplee
 # SAUCE Group: spin
 # SAUCE Date: 19981124
@@ -30,6 +30,4 @@ Write-Host '
                     [31mmoo[0;1;31m$sss$$ⁿ[0m [36m:$$'' [0;1;36m**[0;36m* `$$[0;1;36m:[0m [31m,[0;1;31m$$$$$$[0m
                    [31ms$^[0;1;31m""SS$[0;31m$[0;1;31m$*$ [0;36m:$b,   [0;1;36m,d$:[0;1;31m [0;31m,$[0;1;31m$$$$$[0;31m''[0;1;31m  [0;1;30m  [0m
                      [1;31m [0m           [36m:$$Sp[0;1;36mS$$:[0m   [31m~[0;1;31m`ⁿⁿ$[0;31m$,[0m   [1;30m░[0m    [1;30m░[0m
-                       [1;30m░░░[0m        [36m:S$[0;1;36m$$S:[0m        [31m`"$[0m
-
-[37m                       [0m'
+                       [1;30m░░░[0m        [36m:S$[0;1;36m$$S:[0m        [31m`"$[0m'

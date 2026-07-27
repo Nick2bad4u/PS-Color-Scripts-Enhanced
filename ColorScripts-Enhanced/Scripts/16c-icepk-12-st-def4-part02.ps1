@@ -5,7 +5,7 @@
 # Source SHA-256: c4bfbd535cc8f999354b55828c0ff803726c4c4f58f0f581edcef695aefc89c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-DEF4.ICE by Stiletto (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 46-72
 # Columns: 1-80
 
@@ -24,15 +24,15 @@ Write-Host '
 
 [1;30;40m   [0mNode [1m1[0;1;30m: [[0m2O1[1;30m] [0;1;37m863[0m-[1m79O5[0m      [1;31m▀[0;1;31;41m▓▓▓[0;1;31;40m▀ ▀[0;1;31;41m▓[0;1;31;40m▀   ▀[0;1;31;41m▓▓▓[0;1;31;40m▀    [0mNode [1m2[0;1;30m: [[0m2O1[1;30m] [0;1;37m8xx[0m-[1mxxxx[0m
                                 [1;31;41m▒▒▒[0m   [1;31;40m▐▌   ▐[0;1;31;41m▒▒[0;1;31;40m▌[0m
-      [1;30;40mI[0mN[1mC Member Boa[0mr[1;30md[0m          [1;31;41m░░░[0m    [1;31;41m░[0m   [1;31;41m░░░[0m   [1;30;40mU[0ml[1mtraTech World Courier Ho[0mm[1;30me[0m
-      [1;30mI[0mN[1mC Courier Ho[0mm[1;30me[0m          [31m███    ▐▌ ▐██▌[0m      [1;30mU[0ml[1mtraTech Member Boa[0mr[1;30md[0m
-[1;30m   N[0mD[1mN Distribution Si[0mt[1;30me[0m        [1;30;41m░░░[0m     [1;30;41m░[0m [1;30;41m░░░[0m       [1;30;40mP[0my[1mchosis Magazine Si[0mt[1;30me[0m
-         [1;30mM[0mA[1mCE Dist[0mr[1;30mo[0m            [1;30;41m▒▒▒[0m     [31m▐[0;1;30;41m▒▒▒[0;31m▌[0m          [1;30mA[0mC[1mE Member Boa[0mr[1;30md[0m
-     [1;30mE[0mL[1mite 7 World [0mH.[1;30mQ.[0m        [1;30m▄[0;1;30;41m▓▓▓[0;1;30;40m▄[0m     [1;30;40m█[0;1;30;41m▓[0;1;30;40m█[0m             [1;30;40mT[0mS[1mAN Memb[0me[1;30mr[0m
+      [1;30;40m [0m [1m            [0m [1;30m [0m          [1;31;41m░░░[0m    [1;31;41m░[0m   [1;31;41m░░░[0m   [1;30;40m [0m [1m                        [0m [1;30m [0m
+      [1;30m [0m [1m            [0m [1;30m [0m          [31m███    ▐▌ ▐██▌[0m      [1;30m [0m [1m                  [0m [1;30m [0m
+[1;30m    [0m [1m                 [0m [1;30m [0m        [1;30;41m░░░[0m     [1;30;41m░[0m [1;30;41m░░░[0m       [1;30;40m [0m [1m                  [0m [1;30m [0m
+         [1;30m [0m [1m       [0m [1;30m [0m            [1;30;41m▒▒▒[0m     [31m▐[0;1;30;41m▒▒▒[0;31m▌[0m          [1;30m [0m [1m            [0m [1;30m [0m
+     [1;30m [0m [1m            [0m  [1;30m  [0m        [1;30m▄[0;1;30;41m▓▓▓[0;1;30;40m▄[0m     [1;30;40m█[0;1;30;41m▓[0;1;30;40m█[0m             [1;30;40m [0m [1m       [0m [1;30m [0m
 
-                     [1;37mCCi[0m/[1mTCS[0m/[1mINC[0m/[1mUT[0m/[1mTSAN[0m/[1mVortex[0m/[1mInterPooL[0m
-                   Running V[1mi[0mS[1mi[0mON[1m-[0mX [1mO[0m.[1m97 [0mw/[1mFelony[0mNET/[1m4OO [0mMB
+                     [1;37m   [0m [1m   [0m [1m   [0m [1m  [0m [1m    [0m [1m      [0m [1m         [0m
+                            [1m [0m [1m [0m  [1m [0m  [1m [0m [1m   [0m  [1m      [0m    [1m    [0m  
 
 [34m───────────────────────────────────────────────────────────────────────────────[0m
-[34m    [0;1;34mStiletto [0;34m[[0;1;34miCE[0;34m] - ([0;1;34mc[0;34m) [0;1;34m1992 iCE[0;34m([0;1;34mtm[0;34m) [0;1;34mAdvertisements[0;34m.  [0;1;34mAll Rights Reserved[0;34m.[0m
+[34m    [0;1;34m         [0;34m [0;1;34m   [0;34m     [0;1;34m [0;34m  [0;1;34m        [0;34m [0;1;34m  [0;34m  [0;1;34m              [0;34m   [0;1;34m                   [0;34m [0m
 [34m───────────────────────────────────────────────────────────────────────────────[0m'

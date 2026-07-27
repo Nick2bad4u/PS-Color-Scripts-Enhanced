@@ -5,7 +5,7 @@
 # Source SHA-256: 1e0aa16325d47bd429e67208581f5cb58eb951bcd73d4ed38dd06222a7d8d60c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-CCOL.ANS by spirit of rage (Brotherhood); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: compo colly #1
 # SAUCE Author: spirit of rage
 # SAUCE Group: Brotherhood
@@ -17,9 +17,9 @@
 Write-Host '
 --- ansi artist my ass ---------------------------------------------------------
 
- - sor-zooy.ans - This one was drawn for zooyork.. the guy on the pic is the
-                  actual zoo manager =) I came 2nd and got myself an acid cap,
-                  which i dont know if i really should be happy for? =)
+                                                                            
+                                                                              
+                                                                       
 
 [1;30m▓▓▓▓▓█▓▓███████[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓▓▓[0;1;30;40m█[0;1;30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;40m█[0;1;30;47m▓▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m███[0m░[1;30m████[0m░[1;30m█[0m░░░[1;30m██[0m░░░░░░░░[1;30m░[0m░[1;30m░░░░░░[0m
 [1;30m▓▓█▓█▓███████████████████████[0;1;30;47m▓[0;1;30;40m███[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓[0;1;30;40m██[0;1;30;47m▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m███████[0m░[1;30m█[0m░░░[1;30m█[0m░░░░░░░░░[1;30m░[0m░[1;30m░░░[0m
@@ -60,8 +60,8 @@ Write-Host '
    [1;34m░▒▀[0;34m▐[0;1;34;44m░░▒▒▓▓▄█[0;34m▄▌[0m
    [34m░[0;1;34m░[0m  [34m▀▓▀[0;1;34;44m▀[0;34m▀[0;1;34;46m▓▓[0;1;34;44m▀[0;34m▀[0m
    [34m░[0m    [34m▒[0m   [36m░░░[0m
-        [34m░[0;37m [0;36m%[0;1;36mzooyork[0;36m%[0m
+        [34m░[0;37m [0;36m [0;1;36m       [0;36m [0m
 
-[1;30m1oo% orig. ansi made in 1h 15m for zooyork @ #artcompo by [0mspirit of rage[1;30m of [0mhood
+[1;30m                                                          [0m              [1;30m    [0m    
 
 --- My best compo ansi so far i think ------------------------------------------[0m'

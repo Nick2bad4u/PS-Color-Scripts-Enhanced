@@ -5,7 +5,7 @@
 # Source SHA-256: 7ec518f8080f05bf5ad00c45695189f9b6eee14e04b9d075db3ed9a8dfe0b95b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CI-MENU0.ANS by Civid (moi-0197); released in moi-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -27,9 +27,9 @@ Write-Host '
 
 
 
-                [1;30mhere ya go coug.  you didn''t ask for a menu[0m
-                [1;30mand you already have one..  so..  this can go[0m
-                [1;30manywhere :)[0m
+                [1;30m                                           [0m
+                [1;30m                                             [0m
+                [1;30m           [0m
 
 
 [1;30;42m  [0;1;32;42m░▒▓[0;1;32;40m█[0;1;32;42m▓▓[0;1;32;40m██[0;1;32;42m▓[0;1;32;40m██████[0;1;32;42m█████████[0;1;32;40m█████████████████[0;1;32;45m████▓█████[0;1;32;40m█████████████[0;1;32;42m████[0;1;32;43m▓▓[0;1;32;40m█[0;1;32;42m█[0;1;32;43m▓▓[0;1;32;42m█[0;1;32;43m▓▒░[0m

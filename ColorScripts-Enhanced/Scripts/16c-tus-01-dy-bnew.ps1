@@ -5,7 +5,7 @@
 # Source SHA-256: bf2d1da7f7879f1182a3b3f1548abaccabbc77984b73500c438e44804c26e6c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DY-BNEW.ANS by Discyple (tus-01); released in tus-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -33,7 +33,4 @@ Write-Host '
 [32m$$$$$$$$$$$$$$┌sb,.,_ .\┌$$$$$$$b,[0;37m [0;34m`[0;1;34m$$$$┌┐,._[0;35m`└b┐.[0;34m`4$"^\²"^``[0;1;34m  [0;34m [0;1;34m`[0;34m$$$$$b[0;1;34m  [0;34m;[0;1;34m$$$$$[0m
 [32m$$$$$$$$$$$$$$$$$$$$$b/$$$$$$$$$$$b, [0;34m`$[0;1;34m$$$$$$$b[0;34m [0;1;35m`┘b.[0;34m`[0;35m,[0;1;34m [0;34m$[0;1;34m  [0;34m"^`[0;1;34m$b[0;34m.[0;1;34m [0;34m`4/\g7 [0;1;34m l$$$$[0;34m$[0m
 [32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$b, [0;34m`└*⌂*\[0;1;34m$$[0;34m  b.[0;1;35m`[0;35m4$[0;34m $[0;1;34m  %#[0;1;36mS$$$[0;34m.[0;1;34m    [0;34m` [0;1;34m [0;34m,[0;1;34m$$$[0;34m$$$[0m
-[32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$s┌┐,┐.[0;37m [0;34m\[0;1;34m.,$$b[0;34m [0;35m`[0;34m [0;1;34m/  "^``$$[0;34m$[0;1;34m__/\.┌[0;34md$$$$$$$[0m
-
-[37mthere''s nothing like the promise of a [0;1;37mbrand new day [0m
-this sucks, man dy is losing his edge[0m'
+[32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$s┌┐,┐.[0;37m [0;34m\[0;1;34m.,$$b[0;34m [0;35m`[0;34m [0;1;34m/  "^``$$[0;34m$[0;1;34m__/\.┌[0;34md$$$$$$$[0m'

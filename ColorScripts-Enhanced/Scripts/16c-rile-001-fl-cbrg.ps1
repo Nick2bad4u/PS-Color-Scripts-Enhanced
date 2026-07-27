@@ -5,7 +5,7 @@
 # Source SHA-256: db7d24e49b125fc23dec9494ff8ba813f7998b5f574691c2ce2fc402209d5a48
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-CBRG.ANS by flame (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: soldout.
 # SAUCE Author: flame
 # SAUCE Group: RILE
@@ -38,13 +38,4 @@ Write-Host '
 [1;37;46m▓[0;1;37;40m█[0;1;37;47m▓[0;1;30;47m░[0;1;30;40m▄[0m                      [33m▒▓[0;1;31m▓[0;1;31;43m█[0;1;31;47m▓▀[0;1;37;40m▒[0;1;31;47m▒▓[0;1;31;43m▄[0;33m▓▓ ▀███▐[0;1;31;43m  [0;30;43m░[0;33;40m▓▓[0;30;43m▒▒[0;33;40m▒▒▒░░ [0;37;40m [0;1;35;40m▀[0;35m░[0m                  [35m░[0m
 [1;37;46m▒▓[0;1;37;47m▓▀[0;1;37;40m▒[0;1;30;40m▒[0;1;37;40m   [0m                    [33m▀[0;1;31m▀[0;1;37m░[0;1;31;47m░▄[0;1;31;43m█[0;33m▀▀▄██▌[0;1;31;43m░░[0;33m█▐█▓[0;30;43m░░[0;33;40m░[0;30;43m▓[0;33;40m░░░░ [0;30;43m██[0;37;40m [0;1;35;40m▐▄[0m                  [35m▐[0m
 [37m░▀█▒[0m                            [30mfl[0;37m  [0;33m▀ ▀▓▓▓██ ███▒▒░░[0;30;43m▓[0;33;40m░[0m   [30;43m█[0;37;40m [0;35;40m [0;1;35;45m▀[0;1;35;40m▀[0;35m▀  ▄[0;1;35m▄▄[0;35m▄[0m       [35m▄[0;1;35m▄▒[0;35;47m▓[0m
-[37;40m      [0m                                 [33;40m  ░▀▀ ░░▒  ░ [0m
-
-[37;40m [0;36;40mwhen i was an alien, cultures weren''t opinions. [0m
-
-   [36;40mgotta find a way, a better way!@  when i''m there!!!..[0m
-
-[31;40mhidey hoe, punks.  it''s flame here.  this is for rob''s emag, "soldout".  check[0m
-[31;40mout the mag. [0m
-
-[33;40mflame[0;1;33;40m/[0;33mrile[0m'
+[37;40m      [0m                                 [33;40m  ░▀▀ ░░▒  ░ [0m'

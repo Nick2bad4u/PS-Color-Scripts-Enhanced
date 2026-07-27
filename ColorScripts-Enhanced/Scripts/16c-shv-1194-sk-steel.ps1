@@ -5,7 +5,7 @@
 # Source SHA-256: 5459936b2124c4b7e00f22f931b3ee4a8c3535b92162108aa72cae600e808bef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-STEEL.ANS by Shattered Link (SHiVER); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Steel Empire
 # SAUCE Author: Shattered Link
 # SAUCE Group: SHiVER
@@ -58,6 +58,4 @@ Write-Host '
 [1;30;40m ▀ [0m▀▀▀▀█   █ █   █ █   █ █   █ █     █ █   █ █   █ █ █ █   █ █ █ █ [1;30m█ [0m█ █     [1;30m▄[0m
 [1;30m   █▄▄ [0m█   █▄█   █▄█ [1;30m█ [0m█▄█ [1;30m█ [0m█▄█ [1;30m█   [0m█▄█ [1;30m█ [0m█▄█   █▄█ █▄█   █▄█ █▄█ [1;30m█ [0m█▄█ [1;30m█[0m
 
-   [1;30m                [0mC[1;30m O M I N G  [0m S[1;30m O O N   [0mT[1;30m O   [0m6[1;30m 1 9[0m
-
-                   [1;30m.[0;32ma[0;1;30mnsi [0;32mb[0;1;30my [0;32ms[0;1;30mhattered [0;32ml[0;1;30mink [0;32mo[0;1;30mf [0;32ms[0;1;30mhiver.[0m'
+   [1;30m                [0mC[1;30m O M I N G  [0m S[1;30m O O N   [0mT[1;30m O   [0m6[1;30m 1 9[0m'

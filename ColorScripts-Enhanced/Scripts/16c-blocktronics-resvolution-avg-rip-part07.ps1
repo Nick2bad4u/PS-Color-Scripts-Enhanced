@@ -5,7 +5,7 @@
 # Source SHA-256: 6bbf95db7d0ba6ee2c4a7871c976bac7697a1744f6e51794ef698de05f32dc33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-rip.ans by Avenging Angel (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 274-319
 # Columns: 1-80
 
@@ -28,31 +28,4 @@ Write-Host '
 [1;33;43m  ▀▀██▒[0m [35m    ▀[0;1;35m▀[0;1;35;45m▀█[0;1;35;47m█▀  ▀[0;1;35;45m▄[0;34;45m▀[0;34;40m▄[0m       [34;40m▀[0;1;35;45m██▀[0;1;35;40m▀[0;35m▀▄█[0;1;35;45m▄▄[0;35m▄▀▀[0m     [35m   [0;34m▀[0;35m▀[0;1;35m▀[0;1;35;45m▀[0;1;35;47m█[0;1;35;45m█[0;1;35;47m▀  ▀[0;1;35;45m▄[0;35m▄[0;33m [0;1;30m [0;33m▀[0;1;33;43m▀██▒███▒██▄[0;33m▄[0m
 [1;33;43m   [0;33m▄[0;37m [0;33m▀▀[0;37m [0;35m   ▄█[0;1;35;45m▄▄[0;35m▄▀[0;37m▀[0;35;47m [0;1;35;47m ▄[0;1;35;45m█▒[0;35m█[0;34m▒[0m      [35m▒▀    ▀█[0;1;35;45m▀▀[0;35m▀[0m       [35m   ▄█[0;1;35;45m▄▄[0;35m▄▀[0;1;35m▀[0;45m▀[0;1;35;47m▄[0;1;35;45m██▒[0;35m█[0;37m  [0;1;30m [0;33m▀[0;1;33;43m▀ █████[0;1;36;43m███▒[0m
   [33m▀▀▒[0;37m   [0;35m   ▀█[0;1;35;45m▀▀[0;35m▀▄█[0;1;35;45m▄[0;35m▄▀▀▀▀[0m                         [35m   ▀█[0;1;35;45m▀▀[0;35m▀▄█[0;1;35;45m▄[0;35m▄▀▀▀▀[0;37m  [0;33m  [0;1;30m [0;33m▀[0;1;33;43m▀███[0;1;33;40m███[0;1;33;43m▀[0;33m▀[0m
-                 [35m▀▀ ▄[0m       [1;30mrest in peices.. sense[0m        [35m▀▀ ▄   [0;37m  [0;33m ▒█[0;1;33;43m▒██▀[0;1;33;40m▀▀[0;33m▀[0m
-
-
-
-
-
-
-             [1;33mpiece done by avenging angel of blocktronics 08 (avg)[0m
-
-
-
-
-
-
-
-[1;30mto one of the longest standing groups ever to stay on the ansi scene..[0m
-[1;30mwithout sense, the ansi scene would have been even darker than what it already[0m
-[1;30mwas.. it gave artists a home to release, and it kept some of us active..[0m
-[1;30mi throw my hat off to all the members of sense, past and present, especially[0m
-[1;30mdave.. he came a long way to leading this group.. and sadly the sense flame has[0m
-[1;30mburned out.. it was alway an honor to be part of a group that stood the test of[0m
-[1;30mtimes, groups came and went.. but it was sense that was consistent, and sense[0m
-[1;30mthat outlasted all of the groups of its time. so i salute all members of sense[0m
-[1;30mincluding: aesthetic, maytag, ansichrist, textrocist, m0l0, fusion, svg, cryo,[0m
-[1;30mportia, sephiroth, noches, zerostar, propane, luminator, untamed, ville,[0m
-[1;30mtransient, tracker1, hseven, barium and last but not least, zerovision..[0m
-
-[1;30mthanks for the great packs guys..  avenging angel..[0m'
+                 [35m▀▀ ▄[0m       [1;30mrest in peices.. sense[0m        [35m▀▀ ▄   [0;37m  [0;33m ▒█[0;1;33;43m▒██▀[0;1;33;40m▀▀[0;33m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 993958b4ea9ebcb55193abaf90cf59e6bec5e75afd05f212da061d34aa53114c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-UNION.ANS by Stone Chapel (Shiver); released in shv-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Union Farewell
 # SAUCE Author: Stone Chapel
 # SAUCE Group: Shiver
@@ -41,12 +41,11 @@ Write-Host '
  [1m▄[0m▀▀[1m▀▀[0m ▀ [1;30m    [0m▄[1;30m      [0m [31m  [0;37m▄[0;1;37m [0m▀▌    [1;30m▐▌[0m      [1;30m▓[0m  [1m▄[0m▀▀▀[1m▀▀▀[0m     ■            [1;30m■[0m    [1m▀[0m [1m■[0m
 ■ [1;30m                  [0;31m  [0;37m [0m   [37m [0;1;37m■[0m    [1;30m▀[0m [1;30m▄[0m     [1;30m▀■[0m
           [30m             [0;1;30m W e l c o m e -  [0mS H I V E R ![30m                          [0m
-[1;37mU[0;36mnion   [0;1;30m····[0;36m     u[0;1;37mN[0;36mion    [0;1;30m ····[0;36m     un[0;1;37mI[0;36mon     [0;1;30m····[0;36m     uni[0;1;37mO[0;36mn     [0;1;30m····[0;36m    unio[0;1;37mN[0;36m [0m
+[1;37m [0;36m       [0;1;30m    [0;36m      [0;1;37m [0;36m       [0;1;30m     [0;36m       [0;1;37m [0;36m       [0;1;30m    [0;36m        [0;1;37m [0;36m      [0;1;30m    [0;36m        [0;1;37m [0;36m [0m
        [1;37m▄▄[0m▄▄[1;47m▀[0m███[1;30m▄░[0;31m  [0;37m [0;31m   [0m        [31m  [0m   [31m    [0m
     [1;37m▄[0;1;37;47m▀▀[0m█[30;47mR.I.P.[0;37;40m█[0;1;30;47m■[0;1;30;40m█▒[0;31m     [0m     [37m   [0;31m  [0;37m [0;1;30m ▄ [0m              [1m▄[0;30;47m [0;37;40m▄[0;1;30;40m░▒[0m       [1;30m   ▄▄▄[0m
      [1m█[0;30;47mstormfront[0;1;30;47m▐[0;1;30;40m▌▓[0m  [31m    [0;37m    [0;1;37m▄▄[0;1;37;47m▀ ▀[0m█▄[1;30m▄░▒▓▄[0m        [1m▄[0;1;47m▀[0m█[30;47mRiP[0;1;30;40m▄▓▄[0m     [1m█[0;1;47m▀▀[0;1;40m▄▄[0m▄[1;30m▀▀▄[0m
  [31m■█▄[0;37m  [0;1;37m█[0;30;47mex:union[0;1;30;47m▄[0;1;30;40m██▐ [0m        [1m▐[0;1;47m▌[0m█[30;47mR.I.P[0;1;30;47m▄▄[0;1;30;40m█▄▄▀▒[0m    [1m▄[0;1;47m▀ [0;30;47mSub 0 [0;1;30;47m▐[0;1;30;40m▄▀▄[0m   [1m█[0;30;47mR.I.P[0;1;37;47m▀[0m█[1;30m░[0m   [33m [0;37m  [0;33m [0m
 [37m [0;31m [0;37m [0;32m▄[0;37m [0;1;32m■[0m [1m▀[0;1;47m■[0m▀[33m▄▄[0;37m▀[0;1;30m▀▀▀▀[0;33m▄▄▄[0;37m [0;33m▄[0;37m [0;33m■[0m    [1;37;47m■[0;30;47mTaG[0;1;30;47m■[0;30;47m![0;1;30;47m▀[0;1;30;40m█▀▀▀▀▀▀[0m [1;30m░[0m  [1m▀[0m▀▀██[30;47m=( [0;1;30;47m■▄█[0;1;30;40m█▀░▀[0m  [1m█[0;30;47mTerra F[0;1;30;40m▒[0m   [33m▄▄▒░[0m
 [32m■▄[0;1;32m▀▐[0;32m█[0;37m [0;33m▄▄▄█▓▓▒▓▓██▀[0;32m▄[0;33m▀█▄▄[0;37m [0;33m▄■▄▄▄▄▄▄▄▄▄▄▄▓ ░▒▓█▓████▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄██▓█▓▒[0m
-[1;30m1     0      0     %     o     r     i     g     i      n      a      l       ![0m
-[1;30mAnsi- stone chapel of shiver Productions.  Pandora is copyrighted by st!shiver [0m'
+[1;30m1     0      0     %     o     r     i     g     i      n      a      l       ![0m'

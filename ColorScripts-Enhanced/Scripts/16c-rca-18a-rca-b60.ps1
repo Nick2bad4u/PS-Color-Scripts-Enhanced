@@ -5,7 +5,7 @@
 # Source SHA-256: 017a51af53febdb8b295b432185450b06d0de01b2c3cd3e90f0410c7ae4682e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RCA-B60.ANS by Static4 + Lady Blue (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -34,23 +34,23 @@ Write-Host '
                      [35m░[0;30;45m▓[0;35;40m  [0;1;35;40m▀▀▀▀[0;35m▀[0;1;35m▐[0;1;35;45m█[0;1;35;40m▓▓[0;35m▀ ▀ [0m     [35m▐[0m                      [31m  [0;1;31;41m█▒[0;31m [0;1;31;41m█▓[0;1;31;47m▓[0;1;31;41m░[0m
 [1;31mcontributors[0m                    [1;35m░░[0m         [35m▐[0m                       [1;31m▐[0;1;31;47m▓[0;1;31;41m▒[0;31m  [0;1;31;47m▓░[0;1;31;41m▌[0;31m▌[0m
 [31mto this [0;1;31mteam[0m                               [31m [0m                        [1;31m▀[0;31m▀[0m   [1;31m▀[0;31m▀[0m
-[1;31mblender[0;31m for [0m                               [35m▐[0m                          [31m ▄[0m
+[1;31m       [0;31m     [0m                               [35m▐[0m                          [31m ▄[0m
 [31mteam [0;1;31mrca:[0m                                                          [31m [0;1;31m▄[0;1;31;41m▓[0;31m▀ [0;1;31m▀[0;1;31;41m▄[0;31m▄[0m
                                                                    [1;31m▐[0;1;31;47m▓[0;1;31;41m▒[0m   [1;31m▐[0;1;31;41m▌[0;31m▌[0m
 [1;31mstatic4[0m              [31m                        [0m                      [1;31m▐[0;1;31;41m█▒[0m   [31m [0;1;31;47m▓[0;1;31;41m░[0m
-[1;31mlady blue[0m            [1;35mAmid the blazing desert,[0m                      [1;31;47m░▓[0;1;31;41m▒[0m   [1;31m▐[0;1;31;41m▌[0;31m▌ [0m
-[35m         [0m            [35m in a bunker ''neath Iraq, [0m                    [1;31m▀[0;1;31;41m▓░[0;31m  [0;1;31m▄[0;1;31;41m▀[0;31m▀[0m
-                     [1;35mdwells a raving, crazy lunatic,[0;35m [0m                 [31m▀ [0m
-                     [35mwith an eye kept to his back.[0m                       [1;31m▄▄[0m
-                     [1;35mWith infinite wealth and resource,[0m              [1;31m▄▄[0;1;31;47m▓[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0m
-                     [35m he preys upon the meek. [0m                      [1;31;47m▓[0;1;31;41m▀[0;31m▀[0m
-                     [1;35mHe''d use his own dear children[0m                [1;31m▐[0;1;31;41m▌[0;31m▌[0;1;31m▀[0;31m▀[0m
-                     [35m to gain that which he seeks. [0m                [1;31;47m▓[0;1;31;41m▄[0;31m▄   [0;1;31m▄[0;31m▄[0m
-                     [1;35mWhat we need is a noble hero[0m                   [1;31m▀▀[0;1;31;47m▓█[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0m
-                     [35m to save our oil, our gas. [0m
+[1;31m         [0m            [1;35m                        [0m                      [1;31;47m░▓[0;1;31;41m▒[0m   [1;31m▐[0;1;31;41m▌[0;31m▌ [0m
+[35m         [0m            [35m                          [0m                    [1;31m▀[0;1;31;41m▓░[0;31m  [0;1;31m▄[0;1;31;41m▀[0;31m▀[0m
+                     [1;35m                               [0;35m [0m                 [31m▀ [0m
+                     [35m                             [0m                       [1;31m▄▄[0m
+                     [1;35m                                  [0m              [1;31m▄▄[0;1;31;47m▓[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0m
+                     [35m                         [0m                      [1;31;47m▓[0;1;31;41m▀[0;31m▀[0m
+                     [1;35m                              [0m                [1;31m▐[0;1;31;41m▌[0;31m▌[0;1;31m▀[0;31m▀[0m
+                     [35m                              [0m                [1;31;47m▓[0;1;31;41m▄[0;31m▄   [0;1;31m▄[0;31m▄[0m
+                     [1;35m                            [0m                   [1;31m▀▀[0;1;31;47m▓█[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0m
+                     [35m                           [0m
                      [1;35mA warrior, a samurai[0m                          [1;31m▐[0;1;31;41m▄[0;1;31;40m▄[0;1;31;41m█▄[0;1;31;40m▄[0;31m▄[0m
-                     [35m to kick some major ass.  [0m                     [1;31;47m▓[0;1;31;41m▒[0;31m [0;1;31m▀▀[0;1;31;41m█▄[0m
-                     [1;35mWhat we need is a Marshall Dillon,[0;35m [0m           [1;31m▐[0;1;31;41m▌[0;31m▌[0m   [1;31m▄[0;1;31;41m▓░[0m
-                     [35ma Schwartzenegger, a new Bruce Lee,[0m           [31m [0;1;31;41m▓░[0;31m [0;1;31;47m░▓[0;1;31;41m▀[0;31m▀[0m
-                     [1;35mNot a procrastinating politician.[0m             [31m [0;1;31;47m▓[0;1;31;41m▒[0;31m   [0;1;31;47m▓[0;1;31;41m▒[0;31m [0m
-                     [35m I''m sure we all agree.  [0m                     [1;31m▐[0;1;31;41m▌[0;31m▌[0m   [31m [0;1;31;47m▓[0;1;31;41m▒[0m'
+                     [35m                          [0m                     [1;31;47m▓[0;1;31;41m▒[0;31m [0;1;31m▀▀[0;1;31;41m█▄[0m
+                     [1;35m                                  [0;35m [0m           [1;31m▐[0;1;31;41m▌[0;31m▌[0m   [1;31m▄[0;1;31;41m▓░[0m
+                     [35m                                   [0m           [31m [0;1;31;41m▓░[0;31m [0;1;31;47m░▓[0;1;31;41m▀[0;31m▀[0m
+                     [1;35m                                 [0m             [31m [0;1;31;47m▓[0;1;31;41m▒[0;31m   [0;1;31;47m▓[0;1;31;41m▒[0;31m [0m
+                     [35m                         [0m                     [1;31m▐[0;1;31;41m▌[0;31m▌[0m   [31m [0;1;31;47m▓[0;1;31;41m▒[0m'

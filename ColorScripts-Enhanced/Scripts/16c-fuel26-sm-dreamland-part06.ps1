@@ -5,7 +5,7 @@
 # Source SHA-256: e8d02df94afc7236685c8e2fb4f2d8873ee0865db86e21bb1d182cb28d0ab6fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sm-dreamland.ans by Smooth + Sudden Death (FUEL); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dreamland
 # SAUCE Author: smooth
 # SAUCE Group: FUEL
@@ -30,20 +30,20 @@ Write-Host '
 [32;40m██▀[0;37;40m  ▄▄[0m                                                      [32;40m  ▀[0m        [37;40m▀▄[0m
 [32;40m█[0;37;40m  ▄[0;33;47m█[0;37;40m███▓▄[0m                                                           [37;40m▓█▄███ [0;32;40m░[0m
 [32;40m▓[0;37;40m  ▀[0;33;47m▒▒[0;1;37;47m▒▒[0m█                                                             [1m▀[0m███[1m [0m [32m▒░[0m
-[32m░[0;37m ▄   ▀   [0;36m.an ANSI joint by [0;1;35msmooth[0;36m of [0;1;36mfuel [0;36mand [0;1;35msudden death[0;36m of [0;1;36mcia[0;36m.[0m         [32m▓▒[0m
+[32m░[0;37m ▄   ▀   [0;36m                  [0;1;35m      [0;36m    [0;1;36m     [0;36m    [0;1;35m            [0;36m    [0;1;36m   [0;36m [0m         [32m▓▒[0m
 [32m░[0;37m [0;33;47m▒[0;37;40m██[0m                                                                       [32;40m█▓[0m
-[37;40m   ▀[0m      [36;40mfor the [0;1;37;40mdream master [0;36mof the bbs realm running 10 nodes of[0m         [32m██[0m
+[37;40m   ▀[0m      [36;40m        [0;1;37;40m             [0;36m                                    [0m         [32m██[0m
 [32m░░[0;37m  [0;32m▀[0;37m [0;32m▄[0m                                                               [32m▄▀[0;37m    [0;32m█▀[0m
-[37m [0;32m░░[0;37m  [0;32m▀▄▀[0;37m    [0;36m customized [0;1;36mmystic bbs software[0;36m and hq for [0;1;37mdorenet[0;36m.[0m     [32m▄█▀▄[0;37m    [0;32m▄█[0m
+[37m [0;32m░░[0;37m  [0;32m▀▄▀[0;37m    [0;36m            [0;1;36m                   [0;36m            [0;1;37m       [0;36m [0m     [32m▄█▀▄[0;37m    [0;32m▄█[0m
 [37m  [0;32m░▒[0;1;32m▄▄[0m                                                              [32m▄[0;1;32;42m▒░[0;32m▀[0;37m    [0;32m██[0m
 [37m    [0;32m▓▓████[0;1;32m▀▀[0;32m▄▄▄[0m                                                    [32m▀[0;1;32;42m▓▒[0;32m▀[0m     [1;35;42m█▒[0m
  [32m░[0;37m    [0;32m▀▀[0;37m [0;32m▄[0;37m  [0;1;32m▀▀[0;32m▀▀▀[0;1;32m██▀▀[0;32m████▄▄▄▄▄▄[0;1;32m▄▄▄[0m                                   [32m▀▄[0;37m   [0;32m▀[0;37m [0;1;35;42m█▓[0m
  [32m░░[0;37m [0;32m▀▄▀[0;37m [0;32m▀█▀[0;37m  [0;32m▄[0m             [32m▀▀▀▀▀▀▀▀▀▀▀[0;1;32m██[0;32m███▀▀▀▀███▄[0;1;32m▄▄[0;32m▄[0;1;32m▄[0;32m▄▄▄▄[0m              [32m▄█[0;37m [0;32m▓[0;1;35;42m▓[0m
  [32m▒░[0;37m [0;32m▀[0m      [32m▀[0m                          [1;32m  [0m             [32m▀▀▀▀▀▀█████▀▄▄[0m      [32m▄▀[0;37m [0;32m▓▓[0m
 [37m [0;32m▒▀[0;37m   [0;32m▄▀[0m                                                         [32m▀▀█████▄▄▄▄[0;37m [0;32m░[0m
-[37m   [0;32m█▄█▀[0m        [1;37mCHECK OUT[0;36m all of the available[0;37m [0;36mmods and [0m                [32m▀[0;37m [0;32m▀▀█▀[0m
+[37m   [0;32m█▄█▀[0m        [1;37m         [0;36m                     [0;37m [0;36m         [0m                [32m▀[0;37m [0;32m▀▀█▀[0m
 [1;35;42m░[0m [32m██▄[0;1;32;42m░[0;32m▄[0m                                                                     [32m █[0m
-[1;35;42m░[0m  [32m▀█[0;1;32;42m█▒[0;32m▄[0m         [36mdoor games such as [0;1;36mmastermind [0;36mand [0;1;36mvoodoo island[0;36m.[0m       [32m▀[0;37m [0;32m▄[0;37m [0;32m▀██[0m
+[1;35;42m░[0m  [32m▀█[0;1;32;42m█▒[0;32m▄[0m         [36m                   [0;1;36m           [0;36m    [0;1;36m             [0;36m [0m       [32m▀[0;37m [0;32m▄[0;37m [0;32m▀██[0m
 [1;35;42m░[0;32m█▄[0;37m  [0;32m▀█[0m                                                                 [32m▄▀▄[0;37m  [0;1;32m█[0;32m█[0m
 [1;35;42m▒[0;32m██[0;37m  [0;32m▀[0m          [32m▄▄▄▄▄▀▀▀▀▀▀▀▀▀▀[0;1;32m▀▀[0m                                      [32m▄ ▀▀[0;37m [0;32m██[0m
 [1;35;42m▓[0;32m██[0m       [32m▄▄[0;37m [0;32m▀▀▀▀[0m                   [1;32m▀[0;32m▀▀▄▄▄    [0m                         [32m▄▄[0;37m [0;32m▄█[0;1;32m▀[0m

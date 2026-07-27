@@ -5,7 +5,7 @@
 # Source SHA-256: e7c1933801fb6c094f593e5d75bfff71c1bc0a838e1c94952bbc756a41149dbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!SEXOL.ANS by sIMONkING (tHELo0p); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: seXolotka
 # SAUCE Author: sIMONkING
 # SAUCE Group: tHELo0p
@@ -31,6 +31,4 @@ Write-Host '
 [33m▐[0;1;33;43m▀▀▀[0;33m▀▀▄[0m    [1;30m▀▄[0;1;31m [0;33m▀[0;1;30;43m▄░[0;1;31;43m▀[0;1;31;40m██[0;1;31;43m▄▄▄▄▀[0;33m▀▀[0;1;31m [0;33m▄[0;1;31;43m▄[0;1;31;40m█[0;1;31;43m▄[0;1;31;40m▄▄▀[0;33m▀[0;37m [0;1;30m▄▀[0m                             [1;30m▀▀▄[0m [1;30m▀[0m
 [33m▀[0m          [1;30m▀▄▀▄[0;1;31m  [0;1;30m▀[0;33m▀▀[0;1;30;43m▄[0;1;31;43m▀▀ [0;1;31;40m [0;1;31;43m ▀[0;1;31;40m▄▄▄[0;1;31;43m▄█▄[0;1;31;40m▄[0;1;31;43m▀[0;33m▀[0;37m [0;1;30m▀[0m
              [1;30m▀▄[0;1;31m [0;1;30m▀[0m         [1;30m▀[0;33m▀▀▀▀▀▀[0;1;31m  [0;1;30m▄▀▄▀[0m
-                [1;30m▀[0;1;31m [0;1;30m▀[0m
-
-[1;31m        [0m  [33ma[0;1;31mnsi [0;33mb[0;1;31my [0;33ms[0;1;31mimon[0;33mk[0;1;31ming/[0;33mt[0;1;31mhe[0;33ml[0;1;31mo0p. [0;33me[0;1;31m-[0;33mm[0;1;31mail: [0;33ms[0;1;31mimon[0;33mk[0;1;31ming@[0;33mp[0;1;31moczta.[0;33mo[0;1;31mnet.[0;33mp[0;1;31ml[0m'
+                [1;30m▀[0;1;31m [0;1;30m▀[0m'

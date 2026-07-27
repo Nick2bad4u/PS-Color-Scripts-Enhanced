@@ -5,7 +5,7 @@
 # Source SHA-256: 10a98a24090f1b40e65bfed75939caad2a0c8cf06e3bc77000fbacccbc05933f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DRM-AFRO.ANS by Dorm (purg-13); released in purg-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -27,8 +27,8 @@ Write-Host '
            [36;40m▀[0;1;36;46m▀░░▀▀▀[0;36m▒[0;1;36;46m▀[0;34;46m░[0;1;36;40m░[0;1;36;46m▀▀[0;1;36;42m░░[0;1;32;42m▓░███[0;32m█[0;36;42m▐[0;1;36;46m░▓███[0;1;32;46m░[0;34;46m░[0;32;40m▀[0;1;32;42m▓█████▒░███▓████[0;35;42m░[0;32;40m▀▀[0m
    [30;40m     [0m     [1;33;40m   [0m [36m░░[0m      [32m█[0;1;32;42m██▓▓█[0;32m█[0;1;32;46m▌[0;1;36;46m▀▀█▀▀[0;1;36;40m▀[0;32m    ▀▀[0;1;32;42m▀▀▀▀▀▀▀▀▀▀[0;32m▀▀[0m
 [1;30m----══----░-----═══------▒[0;32m▀▀[0;1;32;42m▀░[0;32m▀[0;37m [0;1;30m---[0;1;36m▓[0;1;30m------══-═--═-----[0m[ [1;33meH!-eF!-aRE!-oHH? [0m][1;30m-░---[0m
-[1;36m+o[0m [36mdOrm & tGS[0m
-[1;36mnO[0;36mT^UP^YET [0m
-[1;36mcA[0;36mBL3[0;32m [0;36mm0d3m[0m
-[1;36miN[0;36miCK-w1TTY![0m
+[1;36m  [0m [36m          [0m
+[1;36m  [0;36m         [0m
+[1;36m  [0;36m   [0;32m [0;36m     [0m
+[1;36m  [0;36m          [0m
 [1;30m═════════-----------[0m[ [1;33meH!-eF!-aRE!-oHH? [0m][1;30m-░------════════════----------═══-══---[0m'

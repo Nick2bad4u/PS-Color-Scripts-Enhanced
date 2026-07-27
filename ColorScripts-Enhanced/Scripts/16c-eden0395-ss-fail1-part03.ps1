@@ -5,7 +5,7 @@
 # Source SHA-256: 0293561b73a9d48f272a399686dfe8b2c5d845d352f62f2be15c3048b52b32b1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-FAIL1.ANS by saint sinner (eden!); released in eden0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: failure
 # SAUCE Author: saint sinner
 # SAUCE Group: eden!
@@ -28,31 +28,24 @@ Write-Host '
 [31m███████████████████████████▄▄▄▄▄▓███████████████████████████████ █▀▀▀▀[0m [31m▄▄▄▄▄█▓██[0m
 [31m██[0;1;31;41myour dad always said you''d turn out like this...[0;31m██████████████▄▄▄█████████████[0m
 [31m████████████████████████████████████████████████████████████████████████████████[0m
-[1;31;41m                                    failure                                     [0m
-[1;31;41m                               1.800.invite.only                                [0m
-[1;31;41m          [0;31m▓[0;1;31;41m                 shiver........global hq              [0;31m▓[0;1;31;41m              [0m
+[1;31;41m                                                                                [0m
+[1;31;41m                                                                                [0m
+[1;31;41m          [0;31m▓[0;1;31;41m                                                      [0;31m▓[0;1;31;41m              [0m
 [1;31;41m                            eden.............member               [0;31m▓[0;1;31;41m             [0m
-[1;31;41m                            paramount........member                             [0m
-[1;31;41m                            jihad............member                             [0m
+[1;31;41m                                                                                [0m
+[1;31;41m                                                                                [0m
 [31m▓[0;1;31;41m                           tdd..............member                             [0m
-[1;31;41m                            kts!ascii..........site                             [0m
-[1;31;41m                            defiant............site                             [0m
-[1;31;41m       [0;31m▓[0;1;31;41m                    requiem............site                             [0m
-[1;31;41m                            ops.  village idiot                                 [0m
-[1;31;41m                                  invisible anarchy                             [0m
-[1;31;41m                             [0;31m▓[0;1;31;41m    special ed                        [0;31m▓[0;1;31;41m           [0m
-[1;31;41m                                  primal fear                                   [0m
-[1;31;41m                                  shroud                                        [0m
+[1;31;41m                                                                                [0m
+[1;31;41m                                                                                [0m
+[1;31;41m       [0;31m▓[0;1;31;41m                                                                        [0m
+[1;31;41m                                                                                [0m
+[1;31;41m                                                                                [0m
+[1;31;41m                             [0;31m▓[0;1;31;41m                                      [0;31m▓[0;1;31;41m           [0m
+[1;31;41m                                                                                [0m
+[1;31;41m                                                                                [0m
 [31m▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m─────────────────────────[0m [1;30m────[0m   [1;30m──[0m    [1;30m─[0m         [1;30m─[0m
-            [1;30m           . ansi by saint sinner.eden.void .[0m
+            [1;30m                                             [0m
                             [1;30m─[0m         [1;30m─[0m     [1;30m── ──── ────────────────────────────[0m
 
-[1;30m-- cut here -------------------------------------------------------- ereh tuc --[0m
-[1;30m    m33ps out to....[0m
-             [1;30mvillage idiot: its superman goddammit! :)[0m
-             [1;30mmidnight marauder: your board kicks dude...[0m
-             [1;30mchromatik: its saint *sinner*...:)[0m
-             [1;30mbibitte: thanks for the pic man...yours is coming...[0m
-             [1;30mleper messiah: you''re just so cool ;)[0m
-[1;30m.eof.[0m                              [1;30m125 lines[0m                               [1;30m.eof.[0m'
+[1;30m-- cut here -------------------------------------------------------- ereh tuc --[0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: 24c979a2f7bedb2717164284ea6be608dfaa201ec59f47c1b6d0419aa1830d71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ts-tnt00.ans by Transient (tnt-006); released in tnt-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
-[1;36;44m░░[0;1;37;44m░░[0;1;34;44m░▒▓▒░░[0;34m██▀▀[0;37m [0;1;37m▀▀▀▀▀[0;1;37;47m▓▒░[0m█▄ [34m▀██[0;1;36;44m░[0;1;34;44m░[0;34m▄[0;32m [0;1;36m▀███[0;1;36;47m▓[0;1;36;46m░░[0;36m█▄[0;37m [0;1;32m▀███[0m    [32m▀██[0m    [32m█[0;1;32;42m▓▓▓[0;32m█[0;37m [0;1;37mS[0;1;30mhit, it''s[0m [1;30mthat[0m
+[1;36;44m░░[0;1;37;44m░░[0;1;34;44m░▒▓▒░░[0;34m██▀▀[0;37m [0;1;37m▀▀▀▀▀[0;1;37;47m▓▒░[0m█▄ [34m▀██[0;1;36;44m░[0;1;34;44m░[0;34m▄[0;32m [0;1;36m▀███[0;1;36;47m▓[0;1;36;46m░░[0;36m█▄[0;37m [0;1;32m▀███[0m    [32m▀██[0m    [32m█[0;1;32;42m▓▓▓[0;32m█[0;37m [0;1;37m [0;1;30m         [0m [1;30m    [0m
 [1;44m█░░[0;1;34;44m░▒▓[0;1;34;40m▀▀[0;34m▀[0m             [1;37m▀[0;1;37;47m▓▒░[0m▄[36m [0;34m▀█[0;1;36;44m░[0;1;37;44m░[0;1;34;44m░[0;34m▌ [0;1;36m▀██[0;1;37;46m▒[0;1;36;46m░░[0;36m██▄[0;37m [0;1;32m███[0m    [32m▐██[0m   [32m▐█[0;1;32;42m▒[0;32m█▌[0;37m [0;1;37mt[0mr[1;30m([0;1;33mansi[0;1;30m)[0men[1;30mt   [0m
 [1;44m░░[0;1;34;44m░▒[0;1;34;40m▀[0m    ▄▄[1;47m░░░░░░[0m▄▄     [1;47m▓▒░[0m▌[36m [0;34m▐[0;1;37;44m░█░[0;1;34;44m░[0;34m▌[0;36m [0;1;36m▐█[0;1;37;46m▓[0;1;36;47m▓[0;1;36;46m░░[0;36m██[0;37m [0;1;32m▐███[0m   [32m ██▌ [0;37m  [0;32m█[0;1;32;42m░[0;1;37;42m░[0m  [1;30mdork [0magain[1m.[0m [1;30m   [0m
 [1;44m░[0;1;34;44m░[0;34m▀[0m    [37m██[0;1;37;47m▄▄▓▓▒░░▀▄▒▄[0m▄    [1;47m▓▒░[0;36m  [0;34m█[0;1;37;44m░[0;1;34;44m▒░[0;34m█[0;32m [0;36m [0;1;37;46m▓█▓▒░[0;1;36;46m░[0;36m▌[0;1;36m [0;1;32m▐[0;1;32;42m▓▓[0;1;32;40m█[0m   [32m▐██▌[0;37m  [0;32m▐██[0;1;37;42m░[0;32m▌[0;37m  [0;1;37mdon''t worry.[0;1;30m   [0m
@@ -52,5 +52,5 @@ Write-Host '
 [31;40m  [0;1;31;40m█[0;1;32;40m [0;31m [0;1;32m [0;1;31m█[0;31m        [0;1;32m [0;1;31;41m░▒▓[0;1;31;40m▌[0;1;32;40m [0;31m  [0;36m  [0;31m▀█[0;1;31m█▄[0;1;32m      [0m         [32m [0;1;32m   [0;1;36m    [0;31m░▒▓███[0;1;37;41m░░[0;35;41m░▒▓[0;35;40m█[0;31;40m   ██[0;1;31;41m░░[0;31m██████[0;35;41m░▒▓[0m
 [31;40m■[0;1;31;41m░[0;1;31;40m█[0;1;32;40m [0;31m     [0;1;32m [0;31m▄[0;1;31m▄▄▄▄▄[0;1;31;41m▒[0;1;31;40m▀[0;1;32;40m [0;31m      [0;1;36m [0;31m▐█[0;1;31m██▓▒░[0;1;36m               [0;31m░▒▓████████[0;35;41m░▒▓[0;35;40m██[0;31;40m   ███[0;35;41m░░[0;31;40m██████▌▄[0m
 [1;30;40m────────────────────────────────────────────────────────────────────────────────[0m
-[36mcontact[0;1;36m/[0;36mweb[0;1;36m:[0;36mtransient[0;1;37m.[0;36mtbtmo[0;1;37m.[0;1;36mcom[0;1;37m [0;1;36m/[0;1;37m [0;36mnoisyvagabond[0;1;37m.[0;1;36mtk[0;1;37m [0;1;36m/[0;1;37m [0;36mtransient420[0;1;37m.[0;36mdeviantart[0;1;37m.[0;1;36mcom[0m
+[36m       [0;1;36m [0;36m   [0;1;36m [0;36m         [0;1;37m [0;36m     [0;1;37m [0;1;36m   [0;1;37m [0;1;36m [0;1;37m [0;36m             [0;1;37m [0;1;36m  [0;1;37m [0;1;36m [0;1;37m [0;36m            [0;1;37m [0;36m          [0;1;37m [0;1;36m   [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

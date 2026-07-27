@@ -5,7 +5,7 @@
 # Source SHA-256: 1f0972032aba200fddda082a0f1d9ffa1c20e5d5e1d9bbdbe3ee62b1d167f92d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Luciano-PAIX.ans by Enzo (blocktronics_block_to_the_future); released in blocktronics_block_to_the_future and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20151120
 # SAUCE Dimensions: 80x76
 # SAUCE Font: IBM VGA
@@ -48,6 +48,4 @@ Write-Host '
 [34m █[0;1;34;44m▀▀[0;34m▀ ▄[0m        [34m    [0m                    [37m▀[0m                      [1;34m    [0;31m  [0;1;34m [0m  [31m■[0;1;34m [0;31m▄[0;1;34m [0;31m▀[0;1;31;41m▀▀[0;31m█[0m
 [37m [0;34m█[0;1;34;44m██[0;34m█[0;1;34m▄▄[0;34m█[0m                                                             [1;34m   [0;31m█[0;1;31m▄▄[0;31m█[0;1;31;41m██[0;31m█[0m
 [37m [0;34m▄[0;1;34;44m▄▄[0;34m▄[0;1;34;44m▄▄[0;34m▄▀▀▄▀ ▄[0m                                                    [31m▄[0;1;34m [0;31m▀▄▀▀▄[0;1;31;41m▄▄[0;31m█[0;1;31;41m▄▄[0;31m▄[0m
-[34m  [0;1;34;44m▀▀[0;34m▀[0;1;34;44m▀▀[0;34m▀[0;1;34;44m▀▀[0;34m▀▄▄  ▄▄ [0;31m [0;34m▀[0;31m  [0m                                    [31m [0;1;30m [0;31m ▀[0;1;34m [0;31m▄▄[0;1;34m  [0;31m▄▄▀[0;1;31;41m▀▀[0;31m▀[0;1;31;41m▀▀[0;31m▀[0;1;31;41m▀▀[0m
-
-                                                                   [1;30m_luciano 67[0m'
+[34m  [0;1;34;44m▀▀[0;34m▀[0;1;34;44m▀▀[0;34m▀[0;1;34;44m▀▀[0;34m▀▄▄  ▄▄ [0;31m [0;34m▀[0;31m  [0m                                    [31m [0;1;30m [0;31m ▀[0;1;34m [0;31m▄▄[0;1;34m  [0;31m▄▄▀[0;1;31;41m▀▀[0;31m▀[0;1;31;41m▀▀[0;31m▀[0;1;31;41m▀▀[0m'

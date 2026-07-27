@@ -5,7 +5,7 @@
 # Source SHA-256: de0c9bc18e325ea76c91459956080494d5e8fa6d3137d0d1c28e3dc557689583
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: m-EIGHTA.ans by Muton (MiSTiGRiS); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eight
 # SAUCE Author: Muton
 # SAUCE Group: MiSTiGRiS
@@ -47,5 +47,4 @@ Write-Host '
 [1;30m;;:∙··[0;34m`$$$$$$$$$$[0;1;34m$[0;34m$[0;1;34m$$[0;36m$[0;1;34m$[0;36m$$$$$$$[0;32m$$$$$$$,[0;30m [0;34m  ,$$''   [0;30m [0;37m [0;32m,ni$$$$$$$$$[0;36m$[0;32m$$$$$$ⁿ''[0;37m  [0;1;30m · ·[0m [1;30m·[0m
 [1;30m|;;:∙··[0;34m`$$$$$$$$$$$[0;1;34m$$$$$[0;36m$[0;1;34m$[0;36m$$$[0;32m$[0;36m$[0;32m$[0;36m$[0;32m$$$$$, [0;34m $''[0;30m [0;31m [0;32m ,ni$$$$$$$$$$$[0;36m$[0;32m$[0;36mⁿ''[0;1;30m···  ·· ··∙ ∙∙ ∙[0m
 [1;30m||;;:∙···[0;34m`$$$$$$$$$$[0;1;34m$[0;34m$[0;1;34m$$$[0;36m$$[0;1;34m$[0;36m$$$$[0;32m$[0;36m$[0;32m$$$$$,[0;34m ''[0;32m,ni$$$$$$$$$$[0;36m$[0;32m$[0;36m$$$''[0;37m [0;1;30m··∙∙∙∙::∙∙:::;;;;;[0m
-[1;30m|||;;:∙···[0m [34m`$$$$$$$$$$[0;1;34m$[0;34m$[0;1;34m$$$[0;36m$$$[0;1;34m$[0;36m$$[0;32m$[0;36m$[0;32m$$$$$;:$$$$$$$$$$[0;36m$$$[0;32m$[0;36m$$''[0;37m [0;1;30m··∙∙∙:::;;;|||||||||[0m
-'
+[1;30m|||;;:∙···[0m [34m`$$$$$$$$$$[0;1;34m$[0;34m$[0;1;34m$$$[0;36m$$$[0;1;34m$[0;36m$$[0;32m$[0;36m$[0;32m$$$$$;:$$$$$$$$$$[0;36m$$$[0;32m$[0;36m$$''[0;37m [0;1;30m··∙∙∙:::;;;|||||||||[0m'

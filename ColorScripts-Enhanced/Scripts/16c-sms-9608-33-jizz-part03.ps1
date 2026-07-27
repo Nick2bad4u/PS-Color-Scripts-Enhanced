@@ -5,7 +5,7 @@
 # Source SHA-256: cfc5312ee7a85fc743b8a4d3a1c301a0856230ad2c6065e05f8d950e6972e4ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-JIZZ.ANS by EERIE-KUN (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: JIZZ!!@  W00P!@#  =) =)
 # SAUCE Author: EERIE-KUN
 # SAUCE Group: SAMSARA
@@ -44,14 +44,8 @@ Write-Host '
 [33m  [0;30;41m▓[0;33;40m▐██[0;1;33;43m░[0;33m██▀▀▀  [0;30;47m▓[0m        [33;40m███▀▀▀▀    ████▀▀▀▀[0;33;45m▀▀[0;30;45m░▓▓[0m         [33;40m████▀▀▀▀▀▀[0m
                                            [30;45m▓▓[0m
 
-[1;34;40m         [0m  [1;34m         [0;1;33mjizz [0;36m -  [0;1;34moutkast''s little nifty board![0m
-[31m           help me!@  i am possessed by the evil spirit of pnakotic!@[0m
+[1;34;40m         [0m  [1;34m         [0;1;33m     [0;36m    [0;1;34m                             [0m
+[31m                                                                     [0m
                                                                        [30;41m▓[0m
 [30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░▓▓▓▓[0;37;40m [0;30;41m▓▓[0m
-                                                                       [30;41m▓[0m
-[36;40mwoot.  yet[0;37;40m [0;36;40manother ansi from eerie-kun of samsara.  this month was a pretty[0m
-[36;40mbig month for the group, even though it''s only our 2nd pack in existence.  i''d[0m
-[36;40mlike to greet all of our members, old or new (not like there''s that much of a[0m
-[36;40mdifference :) & of course you, the viewer, for diggin'' us.[0m
-[36;40mthis ansi was totally original.  freaky, huh?[0;37;40m [0;36;40m could you tell that i''ve been[0m
-[36;40mlooking at that iodine''s "id4sucks" pack lately?@![0m'
+                                                                       [30;41m▓[0m'

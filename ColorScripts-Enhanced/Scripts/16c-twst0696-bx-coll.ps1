@@ -5,7 +5,7 @@
 # Source SHA-256: 3ce55d5b4235c9585b73e3654f0cd6cccc757d4b548c282ca9061df059336c80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-COLL.ANS by Balistix (TWiSTEd); released in twst0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo & Header Collection
 # SAUCE Author: Balistix
 # SAUCE Group: TWiSTEd
@@ -15,14 +15,14 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m--[[0;1;37mI haven''t done a lot of ansi for this pak, I''ve been working on a door and on[0m
-[1;37mour webpage.  The ansi that I did do is very low quality, so please.. don''t hold[0m
+[1;30m   [0;1;37m                                                                             [0m
+[1;37m                                                                                [0m
 [1;37mit against me. :)[0;1;30m------------------------------------------------------------bx][0m
                    [31m  [0m                                  [1;37m [0m
             [31m▒[0m   [31m▄[0;37m [0;31m▀ ▓▄[0m                                 [1;37m [0m
           [31m▄▄▓▄█▀[0;1;30m  ─[0;31m [0;1;30m── ── ────[0m─────[1m────[0m─[1m─[0m───[1;30m───────── ─[0m
-        [31m▄[0;1;31;41m▒░[0;31m▀▀[0m   [37mn[0;1;37mAME[0m:                             [1;30m  CO[0;36mD[0;1;36mEGAR[0;36mD[0;1;30mEN  [0m
-        [31m▐[0;1;31;41m▓[0;31m▄[0m     [37mp[0;1;37mASSW0Rd[0m:                         [1;30m  bx^twisted              [0m
+        [31m▄[0;1;31;41m▒░[0;31m▀▀[0m   [37m [0;1;37m   [0m                              [1;30m    [0;36m [0;1;36m    [0;36m [0;1;30m    [0m
+        [31m▐[0;1;31;41m▓[0;31m▄[0m     [37m [0;1;37m       [0m                          [1;30m                          [0m
          [31m▀▓█[0;1;31;41m░[0;31m▄▌▄[0;37m [0;1;30m─ ─ ───[0m─[1;30m─[0m──[1m─────[0m───[1;30m─[0m─[1;30m──[0m─[1;30m────── ──── ────[0m [1;30m─[0m   [1;30m─[0m       [1;30m─[0m [1;30m [0m
           [31m▒[0;37m [0;31m▀▀█▀▀▀ ▀▌  ▀[0m                               [1;37m [0m
               [31m▐ [0m                                       [1;37m [0m
@@ -31,10 +31,10 @@ Write-Host '
 
             [1;30m[[0;1;31mc[0;31mG[0;33m![0;1;30m][0;1;37m┌[0m───[1;30m─[0m [1;30m──[0m─[1m─[0m─[1;30m───[0m [1;30m──[0m──[1;30m─[0m [1;30m─[0m──[1m─[0m─[1;30m───[0m─ [1m─[0m─[1;30m─[0m [1;30m─[0m─[1m─[0m─[1;30m─[0m [1;30m─[0m─[1;30m─┐[[0;1;31mc[0;31mG[0;33m![0;1;30m][0m
 [1;30m─ ─[0m─[1;30m─ ─[0m──[1m───[0m──[1;30m─[0m─[1;30m─ ──[0m─[1m──[0m─[1m──[0m─[1;30m── ─[0m─[1;30m─ ──[0m─[1m─[0m─[1;30m ─[0m──[1;30m ─[0m─[1;30m─[0m─[1m─[0m───[1;30m── ─[0m──[1;30m──[0m─[1m─[0m──[1;30m ─ ─[0m─[1m─[0m
-[1mf[0;1;30mrOm[0;1;37m: Angst                            [0mb[1;30mASE[0;1;37m   : TWiSTED  TWiSTED Members Only[0m
-t[1;30mO  [0;1;37m: Balistix                         [0mR[1;30mEfER[0;1;37m [0;1;30m#[0;1;37m: nOne[0m
-s[1;30mubJ[0;1;37m: Re: DiZ                          [0mR[1;30mEPliES[0;1;37m: nOne[0m
-S[1;30mTaT[0;1;37m: sent                             [0mo[1;30mRiGiN[0;1;37m : 27 Apr 96  20:16:30[0m
+[1m [0;1;30m   [0;1;37m                                   [0m [1;30m   [0;1;37m                                  [0m
+ [1;30m   [0;1;37m                                   [0m [1;30m    [0;1;37m [0;1;30m [0;1;37m      [0m
+ [1;30m   [0;1;37m                                   [0m [1;30m      [0;1;37m      [0m
+ [1;30m   [0;1;37m                                   [0m [1;30m     [0;1;37m                      [0m
 [1;30m──[0m─[1;30m [0m──[1;30m─[0m─[1m─[0m──[1;30m ─[0m─[1;30m──[0m─[1;30m─ ─── ───[0m─[1m─[0m─[1;30m── ────[0m─[1m───[0m─[1;30m─── ── ─[0m─[1;30m── ───[0m─[1;30m─[0m──[1m─[0m─[1;30m── ──[0m─[1m─[0m─[1;30m─ ──[0m──[1;30m [0m
 
 [1;30m--------------------------------------------------------------------------------[0m
@@ -61,6 +61,4 @@ S[1;30mTaT[0;1;37m: sent                             [0mo[1;30mRiGiN[0;1;37
        [1;30m▒[0m       [1;30m ▓      ▒ ▓   ▒  ▀▄▀         ▒  ▄   ▓         ▓  [0;1;32m [0;1;30m▄[0m  [1;30m▒[0m   [1;30m▒[0m
           [1;30m▀[0m  [32m   [0;1;30m░[0;32m   [0;1;30m         ░[0;1;37m   [0;1;30m      █                   [0;32m    [0;37m  [0;1;30m [0m  [1;30m [0m
                 [1;30m░[0m        [1;30m▒[0m   [1m             [0m  [1;30m░[0m      [1;30m▓[0m   [32m [0m     [1;30m▒[0m      [1;30m▒[0m
-                                       [1;30m▄[0m                            [1;30m [0m
-
-[1;30m-[[0;1;37mwell, that''s it.. I''ll make sure I have more for our next pak[0;1;30m]----------------[0m'
+                                       [1;30m▄[0m                            [1;30m [0m'

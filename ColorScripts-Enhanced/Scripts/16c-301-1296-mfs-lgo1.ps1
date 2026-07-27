@@ -5,7 +5,7 @@
 # Source SHA-256: 7bb071dfd71bbd30a61410212541bff3af5801efcbd016ce24a34f85d2773e2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MFS-LGO1.ANS by mel farr suppastar (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo colly #1
 # SAUCE Author: mel farr suppastar
 # SAUCE Group: project/301
@@ -30,7 +30,7 @@ Write-Host '
 [1;36m$$$$$$$$$$$$$$$$$$$$$$$4x,.-[0m      [1;36m..,,x#4x.[0m        [1;36m,.,x$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;36m$$$$$$$$$$$$$$$$$$$$$$$$$$ [0;36mdivine [0;1;36m$$$░$$$$$ [0;36mcomedy [0;1;36m$$$$$$$$$$$$$$$[0;36m▓█[0;1;36m$$$$$$$$$$$$[0m
 [1;30m____[0;1;37m_[0m_[1m_[0m____[1m__[0m_[1m_____[0m_[1m__[0m__[1m__[0m__[1m___[0m_____________________________________________[1;30m____[0m
-[1;30;47ml0g0 colly                                                 mfs % project 301    [0m
+[1;30;47m                                                                                [0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                     [1;35m$ x┌,.,,xdc,,.[0m
@@ -42,10 +42,10 @@ Write-Host '
                       [1;30;40m$[0;36;44m░[0;34;40m$[0;1;30;40m$[0;34m$[0;1;30m$[0;34m$[0;1;30m$$[0;34m$,[0;1;30m$[0;34m$[0;1;30m$[0;34m$''  ,[0;1;30m$[0;34m$$[0;36m#[0;34m$[0;1;30m|  [0;36m`[0;34m?    [0;1;35m$[0m
                       [1;30m`╘4$$$$$5"[0;34m`[0;1;30m$[0;34m?[0;1;30m%[0;34m╓,.[0;1;30m,%[0;34m$[0;1;30m$[0;34m$.$   ,[0;1;30m$   [0;1;35m$$,[0m
                                  [1;30m`3$$▓$$²[0;34m''[0;1;30m$[0;34m?%?,.,%[0;1;30m$   [0;1;35m`$#[0m
-                 [1;36mthe gateS oF oriOn[0m      [1;35m.[0m`[1;30m4$$[0;34m▓$$[0;1;30m²''    [0;1;35m$$[0m
+                 [1;36m                  [0m      [1;35m [0m [1;30m   [0;34m▓  [0;1;30m      [0;1;35m  [0m
                                         [1;35m$[0;35m$[0;1;35mx,.[0m          [1;35m`$,[0m
                                        [1;35m$x$.$,`44x[0m       [1;35m$"[0m
                   [1;36mw0wing them since ''86[0;1;35m`┘$$$$.$$$$x,.,1$`[0m
 [1;30m____[0;1;37m_[0m_[1m_[0m____[1m__[0m_[1m_____[0m_[1m__[0m__[1m__[0m__[1m___[0m_____________________________________________[1;30m____[0m
-[1;30;47ml0g0 colly                                                 mfs % project 301    [0m
+[1;30;47m                                                                                [0m
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m'

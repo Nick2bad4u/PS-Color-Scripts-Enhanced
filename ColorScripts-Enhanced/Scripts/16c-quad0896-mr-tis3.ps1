@@ -5,7 +5,7 @@
 # Source SHA-256: d5489d88d7f5f668fc25933e7a5e7de67944d0fec965d689a99ff212e37b3306
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-TIS3.ANS by mithrandir (quad-p); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the inmost sanctum
 # SAUCE Author: mithrandir
 # SAUCE Group: quad-p
@@ -29,10 +29,10 @@ Write-Host '
        [32m  [0m     [36m▄[0;1;36;46m░░[0;36m█[0;1;31;43m▄[0;1;31;40m█[0;1;31;46m▀[0;1;36;40m▄▄[0;36m [0;37m█[0;1;37;47m▒[0m      [1m▀▀▀▀▀▀▀[0;1;47m█[0;1;43m▄▄[0;1;33;43m░[0;1;37;43m▄▄▄▄[0;1;37;47m█[0m░[1;43m▄▄▄▄▄▄▄▄[0;1;47m█[0;1;40m▀▀▀▀▀▀▀[0m
                 [36m▀[0;1;36;46m░[0;36m█[0;1;36;46m░░▒▓█[0;36m▄[0;37m▀[0;1;37;47m░[0m                ▄ [1;32m░[0m ░▒░░  [1m▄[0m
                 [1;30m▌[0;36m█[0;1;36;46m░[0;36m█[0;1;36;46m░[0;36m█[0;1;36;46m░▒▓[0m ▌  lot''s of      [1;47m▄[0;1;40m▄▄▓▄▄▄▄▄▄[0;1;47m▓[0m
-               [1;30m▐[0;1;30;47m▓[0m▄[36m▀▀[0;1;36;46m░░▒[0;36m▀[0;1;30m▄[0;1;37;47m░[0m     BIG, DRIPPY space here to muck around with..
+               [1;30m▐[0;1;30;47m▓[0m▄[36m▀▀[0;1;36;46m░░▒[0;36m▀[0;1;30m▄[0;1;37;47m░[0m                                                 
                [1;30m█[0;1;30;47m▒░[0;1;37;47m░[0m▌ [1;30m▐▄[0;1;30;47m▓░[0;1;37;47m░[0m
-           [32m [0m   [1;30;47m▓░  [0;1;37;47m░[0m [1;30;47m█▓░[0;1;37;47m░[0m▌  but alas.. there TIS'' not enough time to finish
-               [1;30m▐[0;1;30;47m▓░░ [0m [1;30;47m▓░░[0;1;37;47m░[0m  it before deadline...  to see the finished product
+           [32m [0m   [1;30;47m▓░  [0;1;37;47m░[0m [1;30;47m█▓░[0;1;37;47m░[0m▌                                                 
+               [1;30m▐[0;1;30;47m▓░░ [0m [1;30;47m▓░░[0;1;37;47m░[0m                                                    
              [1;34;44m░[0;34m▄▄[0;1;30m▀[0;34m▄[0;1;34;44m░▒[0;34m ▄▄▄[0;37m▀ call tis, at 306-477-3380....  or don''t... =)[0m
            [32m  [0;37m [0;34m▀▀▀▀▀[0;37m [0;34m▄[0;1;34;44m░▒[0;34m▀[0m
              [32m  [0m    [34m▀[0;1;34;44m░[0;34m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2edfb116dfce0d248f5e5325b05a2ba50d0b114673a441f5f0e50456a6716c83
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JAG-CBC.ANS by Jaguar (purg-03); released in purg-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -43,5 +43,4 @@ Write-Host '
                                                           [36m▓[0m
                                                           [36m▒[0m
                                                           [36m░ [0m
-[36mf0 DeLuSioNS[0m                                              [36m▀[0m
-[36manséé [JaGuaR] [PuRG]             [0m'
+[36m            [0m                                              [36m▀[0m'

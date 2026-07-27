@@ -5,7 +5,7 @@
 # Source SHA-256: 0309125820536337e797513a6ccab1591be96b1ae8e3114320ebfeb897a070c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DME-CHEE.ANS by damien (sadist); released in sadist03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cheek
 # SAUCE Author: damien
 # SAUCE Group: sadist
@@ -53,9 +53,6 @@ Write-Host '
 [1;35;45m▓[0;35m█████▓ [0;1;35;45m▓[0;35m▓[0;37m           [0;1;35;45m▓[0;35m█▄[0;37m           [0;30;47m█[0;1;31;40m▀▀▀▀▀▀▀[0;33m▀▀▀▀[0;30;47m█[0;35;40m                       █████████[0m
 [35;40md[0;1;35;45mm[0;35mn░[0;1;35;45m▒[0m         [35m▓[0;37m                    [0;1;31m ░▓█▄▄▄▄▄[0;1;31;43m▒[0;33m█[0;1;30;43m░▓[0;30;47m█[0;35;40m        [0;1;35;45m▓[0;35m▓      [0;1;35;45m▓[0;35m░   ▀   ▀▀▓[0;1;35;45ms[0;35mad[0m
 
-                          [1;37m"my cheeks are killing me"[0m
+                          [1;37m                          [0m
 
-[35m<------------------------------------------------------------------------------>[0m
-[37m  [0;35m( damn what happed to that[0;37m [0;35mbackround?! )[0m
-[37m  [0;35mmade under bored compo.had to fix it up.[0;37m [0;35many one want this punk just ask me.[0m
-[37m  [0;35mor mabe i allready gave it away[0;37m [0;35mdont remember.  =)[0;37m [0m'
+[35m<------------------------------------------------------------------------------>[0m'

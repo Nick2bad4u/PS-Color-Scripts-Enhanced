@@ -5,7 +5,7 @@
 # Source SHA-256: 1c77b367d4d68d5533c02acfcad0f9fdf831ecc5ef306864ddd62aab54cd445a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-GUTTR.ANS by Legion 07/98 (#4) (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Gutter E-mag
 # SAUCE Author: Legion 07/98 (#4)
 # SAUCE Group: Eerie
@@ -42,6 +42,6 @@ Write-Host '
 [31;40m ▀[0;33;40m▀▀▀[0;33;41m▀▓▓▓▓▓▓▓[0;33;40m▀   █[0;33;41m███▓[0;33;40m█▄▄[0;33;41m▓███[0;33;40m█[0;33;41m▓▒░[0;33;40m█[0;33;41m▓▓▓▒[0;33;40m▌  ▐[0;33;41m▓▓▓▒▒[0;33;40m▌░[0;33;41m▓▓[0;33;40m▄▄▄▄█[0;33;41m███▓▓▓███▓▓[0;1;30;43m░[0m
 [33m▄▄▄▄▄▄[0;30;41m▀[0m    [33;41m█[0;33;43m [0;37;43m░░░[0;33;40m░  ▀▀▀▀▀▀[0;1;30;40m▀▀▀    [0;33;41m▓[0;33;40m█[0;37;43m░[0;33;40m██[0;33;41m▓[0;33;40m▌  ▐█[0;37;43m░░[0;33;41m▓▓[0;33;40m▌ ██[0;1;30;43m░░░░▄▄▄▄[0;33m▓[0m
 [33m█[0;37;43m░░░[0;33;40m█████[0;33;41m▄[0;33;40m▄▄██[0;33;43m  [0;33;40m▓[0m               [1;30;43m░░░░[0;33m██▌   █[0;1;30;43m░░░ [0;33m▌  [0;1;30m▀▀▀▀▀▀▀▀▀[0m░
-[43m [0;33;40m██[0;33;43m     [0;33;40m▌[0m         [1;37;40mgutter e''zine [0;1;30;40m▀[0;1;30;43m▓▓▓▓██▄[0;1;30;40m▄[0;33m▄[0;1;30;43m▄▓▓▓▓[0;1;30;40m▌ [0;31mansi by eerie (legion [0;1;31mbastard[0;31m)[0m
+[43m [0;33;40m██[0;33;43m     [0;33;40m▌[0m         [1;37;40m              [0;1;30;40m▀[0;1;30;43m▓▓▓▓██▄[0;1;30;40m▄[0;33m▄[0;1;30;43m▄▓▓▓▓[0;1;30;40m▌ [0;31m                      [0;1;31m       [0;31m [0m
 [31;43m [0;1;30;43m░░░░░░░░[0;33m▄  [0;1;30m██[0m░░[1;30m░[0m                  [1;30m▀▀▀▀▓▓██████░ [0;31mfont shaded by fever (lgn too)[0m
 [31m [0;33m▀[0;1;30m▀▀▀▀[0;1;30;43m▓▓▓████[0;1;30;40m██[0;1;30;43m█[0;1;30;40m▓[0m'

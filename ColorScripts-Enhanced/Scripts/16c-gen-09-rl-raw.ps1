@@ -5,7 +5,7 @@
 # Source SHA-256: 7475bc82a292f4ce40517ce6c11b4bbd2b54fa3961ad42cf4ecde8a90b198dac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: rl-raw.ans by Rawlock (gen-09); released in gen-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
@@ -24,5 +24,4 @@ Write-Host '
 [31;40m███[0;30;41m░[0;31;40m▄▄[0;33;40m▄[0;1;31;40m▄[0;1;37;40m▄ [0;35m▓[0;30;45m░[0;35;40m▓▓[0;1;37;40m ▄[0;1;31;40m▄[0;33m▄[0;31m▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄[0;35m ▓█[0;31m ▄▄▄▄▄▄▄▄▄[0;37m   [0;31m▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄███[0;30;41m░[0m
 [30;41m░[0;37;40m  [0;30;41m░[0;37;40m ▄[0;1;37;40m▄▄▄▄▄▄▄▄[0m▄[1;37m [0m▄[1;37m▄[0m▄[1;33m [0;30;41m░[0;31;40m▄▄[0;30;41m░[0;31;40m [0;37;40m▄[0;1;37;40m▄▄[0m▄ [31m▀▀▀▀[0;37m ▄[0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;37m [0;31m▀▀▀▀▀[0;37m ▄[0;1;37m▄▄▄▄▄▄[0m▄ [30;41m░[0;31;40m▄▄▓ [0;37;40m▄[0;1;37;40m▄[0m▄ ▄[1;37m▄▄▄[0m▄
 [31m▀▀▀▀[0;30;47m▓[0;37;40m█[0;1;37;47m▌[0m    [1;37;47m▐▓[0;1;37;40m█[0m▌[1;37m [0m▐[1;37;47m▓▄[0;1;37;40m▄▄▄▄▄▄[0;1;37;47m▄[0;1;37;46m▓[0;1;37;47m▓[0;1;37;40m██▓░▒▓█[0;1;37;47m▓▌[0m   [1;37;47m▐[0;1;37;40m  ▌▐▐▐[0;1;37;47m▐▓[0;1;37;40m█▒░ ░▒█[0;1;37;47m▓[0;1;37;40m▓  ▐ ▓[0;1;37;47m▄[0;1;37;40m▄▄▄▄▄▄[0;1;37;47m▄▓[0m▌ ▐[1;37m█[0;1;37;41m▓▓[0m█
-[1;30m▀[0m▀[1;37m▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;37m [0m▀[1;37m▀[0m▀      ▀[1;37m▀▀[0m▀      ▀[1;37m▀▀▀▀▀▀▀▀▀▀▀▀[0m▀       ▀[1;37m▀▀▀▀▀▀[0m▀      ▀[1;37m▀[0m▀ ▀[1;37m▀▀▀[0m▀
-                     ...[1;30mone of[0m [1;30mthe finest[0;1;37m [0;1;30mthere is[0m...[0m'
+[1;30m▀[0m▀[1;37m▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;37m [0m▀[1;37m▀[0m▀      ▀[1;37m▀▀[0m▀      ▀[1;37m▀▀▀▀▀▀▀▀▀▀▀▀[0m▀       ▀[1;37m▀▀▀▀▀▀[0m▀      ▀[1;37m▀[0m▀ ▀[1;37m▀▀▀[0m▀[0m'

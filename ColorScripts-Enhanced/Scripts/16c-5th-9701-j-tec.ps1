@@ -5,7 +5,7 @@
 # Source SHA-256: e56115ab22fa75069d429ada3793e1c65cad868e3250ac4b1415556a4e83bf61
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: J-TEC.ANS by Harddisk + Lightning Knight ((the 5th..)); released in 5th-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the electric cube
 # SAUCE Author: joint
 # SAUCE Group: (the 5th..)
@@ -31,5 +31,4 @@ Write-Host '
 [1;30m▀▄[0m [34m▀[0;1;30;44m░░░[0;34m▄▄▀  ▀[0;1;30;44m░░░░░░░[0;34m▀[0;37m [0;34m ▀[0;1;30;44m░░░[0;34m▄▄▀[0;37m [0;34m ▀█[0;1;30;44m░░[0;34m▄▄▀[0;37m  [0;34m ▀█[0;1;30;44m░░[0m    [34m ▀█[0;1;30;44m░░[0m   [1;30;44m░[0m   [34m▀[0;1;34;44m [0;1;30;44m░░[0m  [34m ▀█[0;1;30;44m░░[0;34m▄▄▀[0;1;30m █[0m
 [1;30m  ▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀[0m
 [1;36m   ∙ ---─────────────┤   -=[  [0;1;34mt[0;34mhe[0;1;36m [0;1;34me[0;34mlectric[0;1;36m [0;1;34mc[0;34mube[0;1;36m  ]=-    ├─────────────---- ∙[0m
-       9       7       3       7       4       o       6       1       1
-  [1;30moriginal layout by harddisk - font shading and touchups by lightning knight[0m'
+       9       7       3       7       4       o       6       1       1[0m'

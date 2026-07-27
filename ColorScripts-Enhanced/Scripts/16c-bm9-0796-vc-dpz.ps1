@@ -5,7 +5,7 @@
 # Source SHA-256: f45b156641cba26c9a32be53def48b54c5748cbad5aaaebd7561ac38aa9e49f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC!DPZ.ANS by VOiCE (BLACK MAiDEN); released in bm9-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DPZ Menu Template
 # SAUCE Author: VOiCE
 # SAUCE Group: BLACK MAiDEN
@@ -24,13 +24,13 @@ Write-Host '
 [37m  [0;1;32m│[0;32m:[0;37m [0;36m([0;1;30mp[0;36m)[0;32mut commands[0;37m  [0;32m:[0m   [32m:[0;36m|[0m   [1;30m?$¼$$  ,$[0;32mS[0;1;30m$$$[0m [1;30m$$$$$$ad$@²"  _s$$¼¼$[0;32m$[0;1;30m$$$²a$$$$$$''[0m [32m|[0m
 [37m [0;32m:[0;1;32m│[0;32m∙[0;37m [0;36m([0;1;30mh[0;36m)[0;32mere like this[0m     [36m∙[0m   [1;30m "²@$ta$$@²" [0m [1;30m$[0;32m$[0;1;30m$¼$,[0m       [1;30m`²$$¼¼$$$$$$$$$$$$$''[0m  [32m:[0m
 [37m [0;32m|│[0;37m  [0;36m([0;1;30mb[0;36m)[0;32mlah blah[0m          [32m`∙ _ ''[0;37m  [0;1;30m   [0m     [1;30m.d$$$¼$![0m       [1;30m [0m  [1;30m²$¼$²²²"""""²²²$[0m
- [32m│|[0;37m  [0;36m([0;1;30mw[0;36m)[0;32mhwatver ''u know[0m   [36m:[0m       [1;30md a[0m    [1;30m`"²?$$$¼$,[0m  [1;30mp e l i c`a[0m [1;30mn[0m  [1;30m∙ [0m [1;30mz[0m [1;30mo[0m [1;30mn[0m [1;30me[0m [32m∙[0m
+ [32m│ [0;37m  [0;36m [0;1;30m [0;36m [0;32m               [0m   [36m [0m       [1;30m   [0m    [1;30m          [0m  [1;30m           [0m [1;30m [0m  [1;30m  [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [32m [0m
 [37m [0;32m::[0;37m  [0;36m([0;1;30mk[0;36m)[0;32mookerookoo[0m        [36m│[0m   [32m∙[0m            [1;30m:[0m  [1;30m`²$$b[0m        [32m:[0m      [36m,∙[0;1;30m:[0;36m,[0m     [32m_∙²²∙[0m
 [37m [0;32m∙|[0;37m  [0;36m([0;1;30mq[0;36m)[0;32muuaaaak[0m      [32m:[0m    [32m|[0m   [32m ,[0m          [1;30m,[0m    [1;30m∙[0m [1;30m`²''[0m      [32m,[0m     [32m ''[0;37m  [0;1;30m![0;36m ∙,[0;32m,[0;36m∙[0;32m''[0m    [32m∙[0m
 [37m  [0;36m![0;37m  [0;36m([0;1;30mr[0;36m)[0;32mrakakscha[0m    [32m²[0m    [32m:[0m     [36m∙   [0m     [32m,[0m     [1;30m:[0m   [32m`∙[0;37m [0;32m_[0;37m [0;32m∙''[0m      [32m∙[0;37m [0;32m ,[0;1;30m$[0;32m, [0m        [32m:[0m
-[32m┌─│─[0;37m [0;36m([0;1;30ms[0;36m)[0;32mtrange wings[0m              [36m''∙o[0;32m&o∙''[0m      [1;30m![0m                 [32m''[0;37m [0;32m`²''[0m         [32m|[0m
+[32m┌─│─[0;37m [0;36m [0;1;30m [0;36m [0;32m            [0m              [36m   [0;32m    [0m      [1;30m [0m                 [32m [0;37m [0;32m   [0m         [32m [0m
 [1;32m└[0;32m─┘[0;37m  [0;36m([0;1;30mt[0;36m)[0;32meklordz[0m           [32m∙[0m         [32m`$''[0m       [32m,[0;1;30m$[0;32m,[0m               [32m [0m              [32m│[0m
-[37m  [0;32m:[0;37m  [0;36m([0;1;30mq[0;36m)[0;32mquit back to main[0m           [32md$b[0m       [32m`²''[0m                           [32m┌[0;1;32m─[0;32m─│[0m
+[37m  [0;32m [0;37m  [0;36m [0;1;30m [0;36m [0;32m                 [0m           [32m   [0m       [32m   [0m                           [32m┌[0;1;32m─[0;32m─│[0m
 [37m [0;32m∙└---[0;37m [0;32m-[0;37m  [0;32m--──[0;1;32m─[0;32m─[0;1;32m───[0;32m──[0;1;32m─[0;32m──--─[0;36m─[0;32m─ ∙∙[0;37m [0;32m··[0;37m [0;32m`@[0;36m[[0;1;30m....[0;32mmenu[0;1;30m.[0;32mname[0;1;30m.[0;32mhere[0;1;30m....[0;36m][0;37m [0;32m·[0;37m [0;32m·∙·[0;37m [0;32m·∙∙--──┘-─[0;36m┘[0m
 [1;30m─[0;32m───[0;1;30m──[0;32m───[0;1;30m──[0;32m─[0;1;30m────────[0;32m─[0;1;30m─[0;32m─[0;1;30m─────────────[0;32m─[0;1;30m─────────────────[0;32m─[0;1;30m──────────────[0;32m─[0;1;30m────[0;32m───[0;1;30m─[0;32m─[0;1;30m─[0m
 [32m░[0;1;30m░[0m [1;30m░░░[0m [1;30m░░[0m [1;30m░[0m [1;30m░[0m [1;30m░[0;32m░[0;1;30m░░[0m [1;30m░░[0m [1;30m░░░[0;32m░[0;1;30m░[0;32m░[0;1;30m░░[0m [1;30m░░░░░░[0m [1;30m░░░[0m [1;30m░[0m [1;30m░░░[0m [1;30m░░[0;32m░[0;1;30m░░[0m [1;30m░[0m [1;30m░░░░░[0m [1;30m░[0m [1;30m░░░[0m [1;30m░[0m  [1;30m░[0m [1;30m░░[0;32m░[0;1;30m░░[0m [1;30m░[0m

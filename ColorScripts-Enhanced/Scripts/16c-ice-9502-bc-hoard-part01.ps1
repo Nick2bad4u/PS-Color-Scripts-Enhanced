@@ -5,7 +5,7 @@
 # Source SHA-256: 07d198d4819510c31210993466ab292bdace13796caea2d51b40b763521a4709
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-HOARD.ICE by BodyCount (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hoard Magazine
 # SAUCE Author: BodyCount
 # SAUCE Group: iCE
@@ -23,7 +23,7 @@ Write-Host '
 
 
      [1;30;40m   [0m
-[1;30;40m     [0m        [1;30;40mi dont really miss god.but i sure miss santa claus[0m
+[1;30;40m     [0m        [1;30;40m                                                  [0m
                                                                       ░
                           ─▄░                ░                    ▄▄▀▀[30;47m░[0;1;37;47m▄■[0m
                            ▐▓▄            ▄▄[1;47m▄[0;30;47m░[0;37;40m▀▀▄▄[0m              [37;40m▄[0;1;37;47m▄[0m▌[1;30m░   [0;1;37;47m▓ [0m
@@ -41,12 +41,12 @@ Write-Host '
 [1;30m▀▄▄▀▀▀ ░ [0m [1;30m   [0m ░░░▒▒▓▓██▀ [36m▄[0;1;36;46m░[0;36m█▀▒[0m [37m▄▄▄██▓▓▓▒▒▒░░░░░░░░░░░░░░░░░░░░░░░ [0;1;30miCE[0m      [1;30m ▀▄▄[0m
 [1;30m▀[0m     [1;30m  [0m     [1;35m [0m          [36m▐[0;1;36;46m■▓▒[0;36m▄[0m                     [1;30m    [0m
 ░[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓ [0;36m▀[0;1;36;46m▀▓░[0;36m▌ [0;1;30m▀▀▀▀▀▀▀▀[0m░[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30m  this ansi was redone as [0;36m▐[0;1;36;46m▀[0;36m▀ [0;1;30ma favor for my  brother tyran, into an ad for a  [0m
-[1;30m  board  called  cruci[0ma[1ml[0;1;30m  [0;36m▀[0;1;30m [0m [1;30mtaunt. so don''t worry, the sysop didn''t steal it[0m
-  [1;30mor anything. however, this  piece will remain  a hoard ad for the ice pack.[0m
-  [1;30mthis ansi contains saurus''s face, pitt''s  hand and ripclaw''s head. cloudin. [0m
-  [1;30mgreets to isosceles, pnakotic, aphex  twin, [0;1;37ma[0ml[1;30mter ego, black viper, tempus, [0m
-  [1;30msyntax error, lord soth, the rest  of ice, wintermute, wyvern, warpus, etc.[0m
+[1;30m                          [0;36m▐[0;1;36;46m▀[0;36m▀ [0;1;30m                                                 [0m
+[1;30m                      [0m [1m [0;1;30m  [0;36m▀[0;1;30m [0m [1;30m                                                [0m
+  [1;30m                                                                           [0m
+  [1;30m                                                                            [0m
+  [1;30m                                            [0;1;37m [0m [1;30m                              [0m
+  [1;30m                                                                           [0m
 [1;30m▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m░[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m░[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 [1;47m▓▒█░░[0;1;35;47m░[0;1;37;47m▓[0;1;35;47m░▒ ▒[0;1;37;47m▒[0;1;35;47m▓▓░▓[0;1;37;47m█[0;1;35;47m▓[0;1;35;40m███[0;1;35;47m▒[0;1;35;40m███[0;1;35;47m▓[0;1;35;40m███[0;1;35;47m▓[0;1;35;40m████[0;1;37;47m█[0;1;35;40m██████████████[0;1;35;45m▓[0;1;35;40m█████[0;1;35;45m▓[0;1;35;40m███[0;35m▓[0;1;35m██[0;1;35;45m▓▓▓[0;35m▒[0;1;35;45m▓▓▒[0;35m░[0;1;35;45m▒░░[0;35m░[0;1;35;45m░[0;35m▓[0;1;35;45m█[0;35m▒░[0m

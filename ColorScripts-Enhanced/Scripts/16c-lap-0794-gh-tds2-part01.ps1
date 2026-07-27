@@ -5,7 +5,7 @@
 # Source SHA-256: 66f70f69c056eeeb9c044d7b29b82160bbb4e03b29c2b7d740e6d9c2f7337aec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GH-TDS2.ANS by Ghent (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Dead Sovereignty
 # SAUCE Author: Ghent
 # SAUCE Group: Lapse
@@ -20,8 +20,8 @@ Write-Host '
 [1;30m▒░[0;1;30;46m ░[0;36m▀[0;1;30m░░[0;36m▀[0;1;30m░[0;1;36;46m▒▓[0;1;30;40m░[0;36m▐[0;1;30;46m░[0;36m▌[0;1;30m░▒ ├──────────────┬────────────────────────────────────────────┤[0m
 [1;30m░░[0;1;30;46m ▒[0;36m▄[0;1;30m░[0;36m▀█▀[0;1;36;46m░▒[0;36m▀█[0;1;30;46m▒[0;36m▌[0;1;30m░░ │ [0mGH-TDS2 .ANS [1;30m│ [0mThe Dead Sovereignty #2 - Half Face        [1;30m│[0m
 [1;30m░░[0;36m▀[0;36;46m [0;1;30;46m▓ [0;36m█▀[0;1;30m░[0;1;30;46m [0;36m▌[0;1;30m░[0;36m█[0;1;30;46m▓[0;36m▌[0;1;30m░  ├──────────────┴────────────────────────────────────────────┤[0m
-[1;30m ░░░░░░░ [0;36m█[0;1;30m░gh░░░  │ All Artwork is Copyright (c)1994 Ghent [Lapse/Exiled][0m     [1;30m│[0m
-[1;30m  ░  ░ ░ [0;36m▓[0;1;30m░ ░ ░   │ Copying/Use Prohibited Without Consent of Artist.[0m         [1;30m│[0m
+[1;30m ░░░░░░░ [0;36m█[0;1;30m░  ░░░  │                                                      [0m     [1;30m│[0m
+[1;30m  ░  ░ ░ [0;36m▓[0;1;30m░ ░ ░   │                                                  [0m         [1;30m│[0m
 [1;30m    ░    [0;36m▒[0;1;30m░  ░    └───────────────────────────────────────────────────────────┘[0m
       [1;30m░  [0;36m░[0;1;30m░[0m
          [1;30m░  ░[0m
@@ -61,5 +61,4 @@ Write-Host '
             [1;30m░░░ ░[0m                                                       [1;30m░[0m
              [1;30m░░[0m           [1;30m░[0m
               [1;30m░[0m                                                        [1;30m░[0m
-                [1;30m░[0m
-'
+                [1;30m░[0m'

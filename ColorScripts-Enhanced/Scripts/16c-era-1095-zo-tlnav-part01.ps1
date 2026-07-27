@@ -5,7 +5,7 @@
 # Source SHA-256: 906592fc9c86b4b8318a89b1ebf665db7d97ed219d2d558e0f1bd451c15ac208
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZO-TLNAV.ANS by Zork (era-1095); released in era-1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -16,10 +16,10 @@ Write-Host '
 │[1;30mzorkzo▄▄▄▄█████▄[0m [1;30morkz│o&$$[0m [1;30m$$$$$$$$$&&&&&&&&&$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&o[0m│
 [1;30m│k▄▄█████████████▌zork│&$$$$$$$$$$[0m [1;30m$$$$$&&&&&&&&&$$$$$$$$$$$$$$$$$$$$$$[0m [1;30m$$[0m [1;30m$$&│[0m
 [1;32m│[0;1;30mr▀████▀▀▀▀[0m [1;30m▄▄████[0m [1;30mzor[0;1;32m│[0;1;30m$[0mAzure Blade:Keep up the good work![1;30m$$$$$$$$$$$$$$$$$$$$[0;1;32m│[0m
- [1;30mork    ▄▄▄█████▀▄██▄k[0;32m│[0;1;30m$[0mApocalypse X:How do you do[1;30m [0mthose awesome fonts?!?!?!?![32m│[0;34m [0m
+ [1;30m       ▄▄▄█████▀▄██▄ [0;32m│[0;1;30m [0m                          [1;30m [0m                           [32m│[0;34m [0m
 [32m│[0;1;30mzork ██████▀▀ ▄█▌▀██▌[0m [1;30m$[0mGrifter:The Spawn ansi rules![1;30m$$$$$$$[0m [1;30m$$$$[0m  [1;30m$$$$$$$[0m [1;30m$$$[0;32m│[0;1;30m [0m
-[1;32m│[0;1;30mkzo▐████▀[0m    [1;30m▐██▄███ [0m [1;30m$[0mKrypton:Where have you been man??[1;30m$$[0m [1;30m$$$$$$$[0m  [1;30m$$$$$[0m [1;30m$$$[0m
- [1;30mrkz███▀▄  [0m   [1;30m████▀▀▄ [0;1;32m│[0;1;30m$[0mSilver Dragon:I''d call nevermore..but it costs so much[1;32m│[0m
+[1;32m│[0;1;30m   ▐████▀[0m    [1;30m▐██▄███ [0m [1;30m [0m                                 [1;30m  [0m [1;30m       [0m  [1;30m     [0m [1;30m   [0m
+ [1;30m   ███▀▄  [0m   [1;30m████▀▀▄ [0;1;32m│[0;1;30m [0m                                                      [1;32m│[0m
 [1;30m│ork▀█▄▓▄█▄ ▄█▄▀▀▄██▀[0m [1;30m│&$$$$$$$$$$$$$$$[0m [1;30m$$$$$$&&&&&&&&&$$$$$$$$$$$$$$$$$$$$$$&│[0m
  [1;30mzork[0;1;34m [0;1;30m▀█████████▀▀zork[0;1;36m [0;1;30m\&$$$[0m [1;30m$$$$$$$$$$$$$$$$$$$$&&&&&&&&&$$$$$$$$$$$$$$$$$$&/[0m│[1;34m [0m
   ─ ─── ──  [1;30m──────────┴[0;1;32m───────────[0;32m──────────[0;1;32m───────────[0;1;30m─────────[0m   [1;30m──[0m [1;30m─[0m ───

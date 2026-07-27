@@ -5,7 +5,7 @@
 # Source SHA-256: 75747166c16ab6faaec480d47d74319c0376d667634922b6f696315c4e736e26
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JOINT-S.ANS by Putrid Carcass + Mr Plastik + Static4 (Twisted); released in twst-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Seven
 # SAUCE Author: MrPlastik/s4/pcarc
 # SAUCE Group: Twisted
@@ -40,5 +40,4 @@ Write-Host '
 [1;30;40m▓█▄▄[0m [1;30m▄[0;1;30;47m▓▓▒▒░▒░▒[0m▀ [31m▀██[0;1;31;41m▀[0;31m▀ [0;37m ▄[0;1;30;47m░[0m▓[1;30;47m▒░[0m█[1;30;47m░▒[0m▀[1;30m▄[0;1;30;47m▒[0;1;30;40m▄▄▄[0m [1;30m▀█[0m░░ [1;30m░[0m  [30;41m▒[0;31;40m█[0;1;31;41m░░[0;31m█████[0;30;41m<raekwon>[0;31;40m████▌█[0;1;31;40m█▌[0;31m▐[0;1;31;41m▐[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m█▌[0;31m▐[0;1;31;41m▐[0m
 [1;30;40m░▀██████[0;1;30;47m▓▓▒▓▒[0;1;30;40m▌▄▄▓ [0;31m  [0;37m ▄[0;1;30;47m░▒▒[0m▒[1;30;47m▓▒[0m▓[1;30;47m▒▓▓▓▓[0;1;30;40m▀▀[0m  [31m [0m    [1;30m░[0m [31m [0;30;41m▓░[0;31;40m██[0;30;41m░░[0;31;40m█[0;30;41mi''m not gay,[0;31;40m██[0;1;31;41m░[0;31m▌[0;1;31;41m [0;1;31;40m█ [0;31m█[0;1;31;41m▓[0;1;31;40m███[0;1;31;41m▓[0;1;31;40m [0;31m█[0m
 [37m  [0;1;30m░▀▀█████[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0m░░░[1;30m▄▄▄▄[0;1;30;47m▓▓▓[0m░[1;30;47m█▓[0m▒[1;30;47m▓[0;1;30;40m█▀▀ [0;31m▄   ░░ [0m   [31m▄███████[0;30;41mi''m homosexual[0;1;31;41m░▒[0;31m▌[0;1;31;41m░[0;1;31;40m█ [0;31m█[0;1;31;41m▒[0;1;31;40m███[0;1;31;41m▒[0;1;31;40m [0;31m█[0m
-    [37m  [0;1;30m░░[0m [1;30m▀▀▀▀[0m     [1;30m▀▀▀▀▀▀▀▀▀▀[0m░[1;30m▀[0m [31m  ▀▓▀        ▀[0;1;31;41m▀[0;31m███▀▄██████████████[0;1;31;41m░▒▓[0;1;31;40m▌[0;1;31;41m░[0;1;31;40m█░[0;31m█[0;1;31;41m░[0;1;31;40m███[0;1;31;41m░[0;1;31;40m░[0;31m█[0m
-[37m mrplastik!7 // pcarc!dark // static4!root[0m'
+    [37m  [0;1;30m░░[0m [1;30m▀▀▀▀[0m     [1;30m▀▀▀▀▀▀▀▀▀▀[0m░[1;30m▀[0m [31m  ▀▓▀        ▀[0;1;31;41m▀[0;31m███▀▄██████████████[0;1;31;41m░▒▓[0;1;31;40m▌[0;1;31;41m░[0;1;31;40m█░[0;31m█[0;1;31;41m░[0;1;31;40m███[0;1;31;41m░[0;1;31;40m░[0;31m█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ffc6953fced5e0d86ac7848e5b32a991452df143a43c004db9eee7297bf31174
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-SOL.ANS by stumpy (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: solace
 # SAUCE Author: stumpy
 # SAUCE Group: eclipse
@@ -31,5 +31,4 @@ Write-Host '
             [1;33m [0;1;37;43m [0;1;33;40m███[0;1;33;43m▄▄[0;1;33;40m▄▄▄▄▄▄▄▄[0;1;33;43m▄█[0;1;33;46m██[0;1;33;43m▄▄[0;1;33;40m▄▄▄▄▄▄▄[0;1;33;43m▄▄[0;1;33;40m████[0;1;33;43m▄[0;1;33;40m▄▄▄▄▄[0;33m▄[0;1;31m [0m▀▀[1m▀▀[0;1;31m [0;1;37;43m░[0;1;33;47m█[0;1;33;43m▄[0;33m▄st?[0m
             [1;33m [0;1;37;43m░[0;1;33;40m███████████[0;1;33;43m█[0;1;33;40m█[0;1;33;43m█[0;1;33;40m█████████████████████████████[0;1;33;45m██[0;1;33;40m███[0;33m█[0;1;33m [0m
    [1m░░[0m   [1m░░░░░█████[0;1;33m█[0;1;37m██[0;1;33m██████████[0;1;33;46m██[0;1;33;45m██[0;1;33;47m█[0;1;33;43m▀[0;1;33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀[0;1;33m [0m
-             [1m░░░░░[0m
-                     [1;33m+[0;1;31msoLACE[0m'
+             [1m░░░░░[0m'

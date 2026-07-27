@@ -5,7 +5,7 @@
 # Source SHA-256: 40eeb977e29d0d6cf28976b1c8cdca5f3c333d3925b3e6df336ab5e647814061
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-COLOR.ANS by gunthar (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: color shock
 # SAUCE Author: gunthar
 # SAUCE Group: fire
@@ -32,5 +32,4 @@ Write-Host '
                 [35m▄■  [0;1;35m▀▀▀[0m        [1;35m███[0m     [1;35m▀▀▀ [0;1;30mGr.[0;1;35m▀▀▀[0;35m░[0m       [1;35m███[0m
                         ░░ ░  [1;35m▀    [0m░      [35m■▄[0m        [37m░░[0m
 
-            [37m- -─[0;1;37m+[0m-  [1;33mc   o   l   o   r[0m     [1;33ms   h   o   c   k  [0m─[1m+[0m-- -
-                  +o : [1me x u l t e d    [0m+[1m1 [0m- [1mxxx [0m- [1mxxx [0m- [1mxxxx[0m'
+            [37m- -─[0;1;37m+[0m-  [1;33mc   o   l   o   r[0m     [1;33ms   h   o   c   k  [0m─[1m+[0m-- -[0m'

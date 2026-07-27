@@ -5,7 +5,7 @@
 # Source SHA-256: 769782d2dcf6164eb7913b32921358295ccadd7fa30e8fa01e5734af1582ba81
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KI-STAT.ANS by Kiwi (Forge); released in forge_09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: UV stat screen
 # SAUCE Author: Kiwi
 # SAUCE Group: Forge
@@ -31,8 +31,4 @@ Write-Host '
 [37m  [0;31m▀▀▀▀▀░ ▀▀[0m   [31m▀▀[0;37m [0;31m░▒▒░[0;37m  [0;31m▀█████▌░[0;37m [0;31m▀▀[0m
    [31m▒░░▄▄▄▄▄▄▓▓▓▓▓▓▒▒▓▓▓▄[0;37m [0;31m▀▄▓▀[0;37m [0;31m▒▓[0m   [30;41m S [0;31;40m tat:[0m           [30;41m S [0;31;40m tat:[0m
 [37;40m  [0;31;40m ░█████████████▓▓▓▓█▓▓█▄[0;37;40m  [0;31;40m▄▓▓█[0m
-   [31;40m██[0;30;41mkiwi.forge[0;31;40m█████████████████[0m   [30;41m S [0;31;40m tat:[0m           [30;41m S [0;31;40m tat:[0m
-
-                                   [30;41m S [0;31;40m tat:[0m           [30;41m S [0;31;40m tat:[0m
-
-                                   [30;41m S [0;31;40m tat:[0m           [30;41m S [0;31;40m tat:[0m'
+   [31;40m██[0;30;41mkiwi.forge[0;31;40m█████████████████[0m   [30;41m S [0;31;40m tat:[0m           [30;41m S [0;31;40m tat:[0m'

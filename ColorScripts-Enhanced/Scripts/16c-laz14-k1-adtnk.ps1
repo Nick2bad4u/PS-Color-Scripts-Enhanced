@@ -5,7 +5,7 @@
 # Source SHA-256: 707c61e9e797411fc69a48b56785edcc10287810656263e0bebdb52f73805a73
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: k1-adtnk.ans by knocturnal (lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tank girl '19
 # SAUCE Author: knocturnal
 # SAUCE Group: lazarus
@@ -40,4 +40,4 @@ Write-Host '
 [1;30m▓[0;34m [0;1;30m▐▌[0;44m [0;40m [0;1;30;47m██[0;1;30;40m▒[0m [1;34;44m▐[0;1;30;40m▐[0;36m▓[0;1;30m░[0;34m▐▓█[0;36m [0;37m [0;34m▓█▓[0;1;34m▐[0m▌▓ ▄▓█[1;30;47m▄[0;1;30;40m█▀[0;33m▄[0;37m░[0;31m▀▓▓▓████[0;1;37;41m·[0;41m▀[0;31;40m█[0;37;41m■▄[0;1;37;41m▄░[0;41m░[0;31;40m▄[0;37;40m▄[0;31;40m▄▓▓▓█████▀[0;33;40m■▄▓░[0;1;34;40m ▓[0;1;34;47m█▌[0m█████[1;30;47m  [0;43m▓[0;40m▓[0;1;30;40m▄[0m
 [1;30;40m▀▓▓▓▄▒▓[0;1;30;47m█[0;1;30;40m▌[0;34m▐[0;1;34m▌[0;1;30m▀[0;34m ▄▀▓▌[0;36m■ [0;34m▐[0;1;34m▒[0;34m█[0;1;34m▓▒[0m▄▓[1;47m·[0;1;30;47m▄[0;1;30;40m█▀[0m ▀[43m▒░[0;33;40m▄░▄▄[0;31;40m▀▀▀▀▓▓██[0;37;41m  [0;31;40m████▓▀▀▀▀▀[0;33;40m▄[0;37;40m▄▄█[0;37;43m█▓▓[0;37;40m▓ [0;1;34;40m▓▐[0;1;34;47m█░░[0m█[30;47m  [0;37;43m█▓[0;1;30;47m▒[0m▓▓
 [1;30m▓▓▓▓▓▓▓▓[0m [34m▓[0;37m [0;34m ■[0;37m [0;34m▒█[0;36m ░░ [0;34m■▀[0;37m▄[0;1;37m▒[0;1;37;47m▀[0;1;30;47m ▒[0;1;30;40m▀[0m [1;30m    [0m▀[33;47m░[0;33;40m▌▐[0;37;43m▒▒▒▓▓▓[0;33;40m▄▄▄▄▄▄▄▄[0;37;40m▄[0;33;40m▓[0;37;43m▓▓[0;37;40m█[0;37;43m▓[0;37;40m█[0;1;37;47m     [0m█▓▒ [1;34m▒[0m░[1;34m▓[0;1;34;47m░░[0;43m█[0;40m█[0;43m▀[0;40m▀▓▓▓▓[0m
-                       [31;40m░[0;30;41m▓[0;37;40m  [0;31;40mDrawn with ACiDDraw 1.25r in[0;37;40m [0;31;40m2019.[0;37;40m  [0;31;40mReleased in 2021.[0m'
+                       [31;40m░[0;30;41m▓[0;37;40m  [0;31;40m                            [0;37;40m [0;31;40m     [0;37;40m  [0;31;40m                 [0m'

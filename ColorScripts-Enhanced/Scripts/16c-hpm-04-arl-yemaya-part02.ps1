@@ -5,7 +5,7 @@
 # Source SHA-256: aa3c9f903d36f4ac1b7f8b7f6fb95fd7e4e36bb14b10c8362f4aa402f101ae5c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: arl-yemaya.ans by Arlequin (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Yemaya
 # SAUCE Author: Arlequin
 # SAUCE Group: HPM
@@ -25,11 +25,6 @@ Write-Host '
 [37m   [0;34m/██[0;1;34;44m▄=''[0;34m█====[0;37m  [0;34m▀▀▄[0;37m [0;34m███[0;1;34;44m---[0;34m██▓▓▓▓▓▓▄▄██▀▀▀▀▀▀▀▀▀▀█▓▓▄▄▀▀███████████████[0;1;34;44m~"=,.[0;34m███[0m
 [34m░▒███[0;1;34;44m▀[0;30;44m▄▀▀[0;34;40m██████████▀▀▀======[0;37;40m                                         [0;34;40m███[0;30;44m▀▀▄▄[0;34;40m▄[0m
 [37;40m  [0;34;40m░██[0;30;44m▀[0;34;40m▀[0;37;40m                                                                   [0;34;40m▀▀██[0m
-[37;40m   [0;34;40m▒██[0;37;40m    [0;1;34;40mYemayá es el espíritu del agua de la religion Yoruba.[0m             [34m▓▓[0m
-[37m   [0;34m░▓[0;37m     [0;1;34mElla es además la madre de la humanidad, una patrona de los[0m       [34m░░[0m
-[37m    [0;34m░[0;37m     [0;1;34mríos y oceanos e hija de Olokun, divinidad de los mares.[0m
-
-          [1;30mYemayá,is the major water spirit from the Yoruba religion.[0m
-          [1;30mShe is also the mother of humanity. She is an orisha, in[0m
-          [1;30mthis case patron spirit of rivers, particularly the Ogun[0m
-          [1;30mRiver in Nigeria, and oceans in Cuban and Brazilian regions.[0m'
+[37;40m   [0;34;40m▒██[0;37;40m    [0;1;34;40m                                                     [0m             [34m▓▓[0m
+[37m   [0;34m░▓[0;37m     [0;1;34m                                                           [0m       [34m░░[0m
+[37m    [0;34m░[0;37m     [0;1;34m                                                        [0m'

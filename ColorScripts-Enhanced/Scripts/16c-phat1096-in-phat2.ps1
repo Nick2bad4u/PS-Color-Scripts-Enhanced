@@ -5,7 +5,7 @@
 # Source SHA-256: ee6f4ba98dcbf58f46ed417c9bf6460fc719a4b02b1969da779bca55ef828295
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-PHAT2.ANS by insert (pHaT); released in phat1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: phat promo #2
 # SAUCE Author: insert
 # SAUCE Group: pHaT
@@ -31,5 +31,4 @@ Write-Host '
      [31m▐█[0;1;31;41m▓▀█[0;31m█▌[0;1;32m▐███[0;1;32;42m▓[0;1;32;40m█[0m [31m▄ [0;1;32m▀▀▀▀[0m [31m▄▄▄[0;1;31;41m░[0;31m█[0;37m [0;1;32m██████[0m [31m█[0;1;31;41m▄[0;31m█[0;37m [0;1;32m▐███[0m  [1;32m██[0;1;32;42m▒[0;1;32;40m▌[0m [31m▌[0;1;32m▐███[0m  [1;32m▄▄████▌[0;31m▐[0;1;31;41m█▌[0;31m█▌[0m
       [31m██[0;1;31;41m█▄[0;31m▌[0;1;32m■▀████▀[0m [31m█[0;1;31;41m▄[0;31m████[0;1;31;41m▄[0;31m█████▌[0;1;32m■▀███▀[0m [31m█[0;1;31;41m▐[0;31m█[0;37m [0;1;32m▀▀▀▓[0m [31m▄[0;37m [0;1;32m▀▀▀[0m  [1;32m███▀▀[0m [31m▄▄[0;37m [0;1;32m▀▀▀[0m [31m█[0;1;31;41m▐■[0;31m█[0m
       [31m▐██[0;1;31;41m▀▄░[0;31m▄▄▄▄▄▄█[0;1;31;41m▄▄██▓■[0;31m████[0;1;31;41m▀▄▄ [0;31m▄▄▄▄▄[0;1;31;41m   ▓▄▄[0;31m█▄▄▄██[0;1;31;41m▄▄▄[0;31m█▄▄▄▄▄[0;1;31;41m ▄▄▄░■[0;31m██[0;1;31;41m [0;1;30;41m iN[0;31m▌[0m
-       [31m▀▀█[0;1;31;41m▀▀▀▀▀▀▀▀▀▀[0;31m██████[0;1;31;41m▒[0;31m█████[0;1;31;41m▀▀■[0;31m▀▀▀▀▀███[0;1;31;41m  ░  [0;31m█▀█[0;1;31;41m ▀▀▀▀▀▀▀▀▀[0;31m██[0;1;31;41m [0;31m██[0;1;30;41m  [0;31m█▀▀[0m
-               [1;30mphat![0m'
+       [31m▀▀█[0;1;31;41m▀▀▀▀▀▀▀▀▀▀[0;31m██████[0;1;31;41m▒[0;31m█████[0;1;31;41m▀▀■[0;31m▀▀▀▀▀███[0;1;31;41m  ░  [0;31m█▀█[0;1;31;41m ▀▀▀▀▀▀▀▀▀[0;31m██[0;1;31;41m [0;31m██[0;1;30;41m  [0;31m█▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8ca50ca206eb990307ace96c1a49aa0362fe53fab8b68a784bc1ac85fef40388
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc51.ans by Black Jack (Pln_Odly [12/12/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bbs Advertisment (deadlock)
 # SAUCE Author: Black Jack
 # SAUCE Group: Pln_Odly [12/12/96]
@@ -31,10 +31,9 @@ Write-Host '
               [1;36mi[0m       [34ml$[0;37m lY[0;1;37m$$$[0m$b,_     `"ⁿ$$$$$$P''               [31m,d$$$$$$$$$$$$l[0m
    [1;37mdeadlock[0m   [1m;[0m    [34m,_,d[0;1;34m$[0m ⁿ"[1;32m,m[0;1;37m@[0;1;32mP[0;32mⁿ[0;37m,dm,[0m      [37m`Y$$P''[0m                [31m,[0;1;30md[0;31m$$[0;37m$[0;1;30m$[0;31m$P$$$[0;1;31m$[0;31m$$$i[0m
                [1;37m`[0m   [34m`ⁿ[0;1;34mY$[0;34m$[0;37m  [0;32m`Y[0;1;32mⁿ[0md[1mⁿ°$[0m$ⁿ~       `Y''                 [1;30m,d[0;31m$$$$$P''$$$$$P''.[0m
-[1;37mPlain[0m, [1mOdelay[0m Member [34m`[0;1;34mY[0;34m$[0;37m  `l$[0;1;37mmd[0mⁿ[1mY[0m$b         `                [31m [0;1;30m,d$[0;31m$$$$I,d$$$Pⁿ'' :[0m
+[1;37m     [0m  [1m      [0m        [34m [0;1;34m [0;34m [0;37m     [0;1;37m  [0m [1m [0m                            [31m [0;1;30m   [0;31m               [0m
 [37m       Board[0m          [34ml$[0;37m   `Y$''  `l [0m          [37m  [0m             [1;30m,d$[0;31m$$$$$$$$$$$l,_ l[0m
                       [34m:$[0m    [37m`i  [0m                           [31m [0;1;30m,d$$[0;31m$$$$l`Y$$$$i'' ,d[0m
-[37m More [0;1;37mart[0m than ever    [34m$[0m      [37m`[0;1;30mb,_[0m                         [1;30m,d$[0;31m$[0;1;30m$[0;31m$$$$$ $$$&b: ,d$[0m
-[37msoon to be [0;1;37mremodded[0m   [34m.$[0;37m         [0;1;30m`ⁿYb,[0m                    [1;30m,d$[0;31m$[0;1;30m$[0;31m$$$$i  l$$$Ii d$$[0m
-                  [34m ._,[0;1;34md$[0m            [1;30m`ⁿYb,    ,[0m           [1;30m,d$[0;31m$$$$$$$: ,d$$$$l `Y$[0m
-[1;30mascii/font: blk_jack[0;34m`~ⁿ[0;1;34m$[0m             [1;30m  `ⁿYb,dⁿ[0m          [1;30m,d$[0;31m$[0;1;30m$[0;31m$[0;1;30m$[0;31m$$$$i,$$$$$$$b,d$[0m'
+[37m      [0;1;37m   [0m              [34m [0m      [37m [0;1;30m   [0m                         [1;30m   [0;31m [0;1;30m [0;31m                [0m
+[37m           [0;1;37m        [0m   [34m  [0;37m         [0;1;30m     [0m                    [1;30m   [0;31m [0;1;30m [0;31m                 [0m
+                  [34m ._,[0;1;34md$[0m            [1;30m`ⁿYb,    ,[0m           [1;30m,d$[0;31m$$$$$$$: ,d$$$$l `Y$[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e79978774799ab102a70844bfe5013a8742185bad2eb33653e17a721ff5a412c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ax_rms.ans by Alla_Xul (ACiD Productions); released in rmrs-50 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Remorse
 # SAUCE Author: Alla_Xul
 # SAUCE Group: ACiD Productions
@@ -21,7 +21,7 @@ Write-Host '
 [31m   [0;37m [0;31m²≥,_[0;37m   [0;1;30m:[0m  [31m;[0;30;41m$[0;31;40mi[0;37;40m [0;31;40m+ .%²,y$$yyyy$y[0;37;40m ,≥$$²$y[0;1;37;40m≥$$[0m$  [31m$[0;1;30m  [0;31m²≥. [0;37m   [0;31mi$;[0;37m [0;1;30m:[0m    [31m_,≥²[0;37m  [0;31myyyyyyyy[0m
 [31mÿ²~`.[0;37m [0;31m ~"²**mm$[0;30;41m$[0;31;40m:[0;37;40m [0;31;40m,%²[0;37;40m [0;31;40m [0;1;30;40m,[0m [31m$$[0m    [31m$[0;34m [0;37m ↕$²y[0;1;37m$[0;1;37;47m$$[0m²$y≥  [30;41m$[0;1;30;40m ≥.[0m [31m²≥. [0;37m [0;31m:$$mm**²"~ [0m     [31m²y[0m
 [31m², [0;37m  [0;31m y²~`.[0;1;30m''[0m [31m [0;30;41m$↕[0;31;40my$$yyyyuuuuuyy $[0;37;40m   ²[0;1;37;40m$$[0m²$y$$[1;30m∟[0m   [30;41m↕[0;1;30;40m $$≥.[0m [31m²≥ [0;37m [0;31m≥≥[0;37m [0;1;30m:......[0m [31m S²²''[0;37m [0;31m²y[0;37m [0;31m²²[0m
-[37m [0;31m ,u≥$$,[0;37m [0;31m.''[0;1;30m:[0;31m ;[0;1;33;41m:≥[0;31m≥''  [0;37m [0;31m  [0;1;30m,[0m [31myy[0m    [31m$y[0;1;30m $y.[0m [1;30m`[0m''"[1;30m''[0m [31m,yy[0;37m [0;1;33;41m:[0m [31myyyyuuuuyyyyyyyyyyy..$  [0m    [31m²²²[0m
+[37m [0;31m       [0;37m [0;31m  [0;1;30m [0;31m  [0;1;33;41m  [0;31m    [0;37m [0;31m  [0;1;30m [0m [31m  [0m    [31m  [0;1;30m    [0m [1;30m [0m  [1;30m [0m [31m   [0;37m [0;1;33;41m [0m [31m                        [0m    [31m   [0m
 [31m.$$²''~''²≥∟,_,i[0;1;33;41m≥$[0;31m [0;1;30m______; [0;31mS[0;30;41m$[0m    [31;40m$[0;34;40m  [0;1;30;40m$$²`[0m         [1;33;41mi[0m      [31m**[0;37m  [0;31m yy,[0;37m  [0;31m ▒▒[0;37m   [0;31m$[0m
 [31m''$$y,y²  ²≥$$[0;1;33;41m≥$$[0;1;33;40myy[0;31my[0;1;33my[0;31myyyyyyyyyyy$yyyyyyyyy ²²²² [0;1;33;41m$[0;31m ²²²²²²²²²²²²²''[0;37m [0;31m ░:[0;37m   [0;31m$[0m        [31m.[0m
 [37m  [0;31m''²~[0;37m [0;1;30m,[0m [31m   yy≥≥≥$$$$$²~ [0;37m [0;1;30m\ [0m    [31mSmmmmmm $[0;1;33;41m$[0m [31mmmmmmS[0m      [31m$$ [0;37m [0;31myyyyyy ::[0;37m [0;31m+∙² [0m     [31m.''[0m

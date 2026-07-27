@@ -5,7 +5,7 @@
 # Source SHA-256: 48ed45c641a9a3e6e4bc88c7df10f07ff68cbf8d33d03cef133e774b9695dd3a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TF-PRESH.ANS by twisted foo (impact); released in impact07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fuzion kore preshuttle
 # SAUCE Author: twisted foo
 # SAUCE Group: impact
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                 ▄▄█▄██[1;30;47m([0;1;37;47mauthwhore[0;1;30;47m)[0;30;47m:[0;37;40m► twisted foo[0m
+                                                 ▄▄█▄██[1;30;47m [0;1;37;47m         [0;1;30;47m [0;30;47m [0;37;40m►            [0m
                                                    [37;40m▒[0m        [37;40m▀[0m
 
 

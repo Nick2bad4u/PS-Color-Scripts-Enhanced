@@ -5,7 +5,7 @@
 # Source SHA-256: 6e1fcba5efc4b688607c5800b2f0974b03a884c43f938556e314210ac19e1a71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-GRPE.ANS by ize (fusion); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: grape
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -26,10 +26,4 @@ Write-Host '
      [1;34;44m▓[0m ▄▄▄▄▄[1m  [0m▐[1;47m░▒▒▓[0;1;40m ██[0;1;47m▓▓░[0m▌[34m▄[0;1;34;44m░░[0;34m█[0;1;37m [0;1;37;47m▓▒▓▓░[0m▌[1m [0;1;47m▒▓▓▒▒[0;1;40m █[0;1;47m▓▓░░[0m▌[34m▄▄▄▄▄[0;1;37m [0;1;37;47m▓▓░░▓[0;1;37;40m [0;34m▄▄▄[0;1;37m [0m▄▄▄▄[1m [0;1;34;44m▐[0m
      [1;34;47m▓[0m [1;47m░[0;1;40m▒▒[0;1;47m [0m█▄▄▄[1;47m ░░▒[0;1;40m▌[0;1;47m█▓░░ [0m▌[34m█[0;1;34;44m▓▓[0;34m█[0;1;37m [0;1;37;47m▒░░░ [0m▌[1m  ▒[0;1;47m░░░[0m▌[1;47m▓░░[0;1;40m▒[0;1;47m [0m▌[34m█[0;1;34;44m░░░[0;34m█[0;1;37m [0;1;37;47m░░[0;1;37;40m▒[0;1;37;47m ░[0m▄▄▄▄▄██[1m▒▒ [0;1;34;44m▐[0m
      [1;34;47m▓[0;34m▄▄▄▄▄[0m               [34m█[0;1;34;44m▀▀[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄      █[0;1;34;44m▓▓▓ [0;34m▄▄▄▄▄▄▄▄▄[0m       [34m█[0m
-     [1;34;44m▀▀[0;34m█[0m    [1;33mGrape, @Milkman [0;34m   [0;33m [0;34m ██[0;1;34;44m▀▀▀▀▀▀▀▀[0;34m█[0m      [34m█[0;1;34;44m▀▀▀▀▀▀▀[0;34m█      [0m
-
-
-
-
-
-             [1;33mthis is weird :) ohwell.. more grape stuff coming =)[0m'
+     [1;34;44m▀▀[0;34m█[0m    [1;33mGrape, @Milkman [0;34m   [0;33m [0;34m ██[0;1;34;44m▀▀▀▀▀▀▀▀[0;34m█[0m      [34m█[0;1;34;44m▀▀▀▀▀▀▀[0;34m█      [0m'

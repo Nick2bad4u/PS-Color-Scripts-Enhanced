@@ -5,16 +5,16 @@
 # Source SHA-256: f7028b5929e840c8f0523d046f0c09957a6723eeea0841a5a4f11276f5718e8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ-JUVE.ICE by Beez (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
 Write-Host '
 [41m──┴──┬─[0;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37;41m───┴─[0m
 [37;41m──┴──[0;31;40m▀[0;37;40m▄███████████████████████████████████████████████████████████████████▄[0;31;40m▀[0;37;41m─┬─[0m
-[37;41m──┬─[0m [37;47m [0;30;47mBITCH, YOU SAID I TOOK YOUR BOYFRIEND? WHAT IF I DID STEAL AWAY YO    [0m [37;41m┴─[0m
-[37;41m──┴─[0m [37;47m [0;30;47mBOYFRIEND, BITCH? BITCH, I''LL KNOCK YO'' MUTHAFUCKIN'' YELLOW TEETH,    [0m [37;41m┬─[0m
-[37;41m──┬─[0m [37;47m [0;30;47mBITCH, I DON''T CARE IF YOU GOTS A GUN! C''MON BITCH! SEE WHAT I''M MADE [0m [37;41m┴─[0m
+[37;41m──┬─[0m [37;47m [0;30;47m                                                                      [0m [37;41m┴─[0m
+[37;41m──┴─[0m [37;47m [0;30;47m                                                                      [0m [37;41m┬─[0m
+[37;41m──┬─[0m [37;47m [0;30;47m                                                                      [0m [37;41m┴─[0m
 [37;41m──┴─[0m [37;40m█[0;30;47mOUT OF!                                                              [0;37;40m▀[0;31;40m▄[0;37;41m┬─[0m
 [37;41m──┬──[0;31;40m▄[0;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31;40m▄[0;37;41m──┴─[0m
 [37;41m──┴──┬──┴──┬──┴──┬──┴[0;31;40m█▀▀[0;1;30;40m▄▄▄▄▄[0;31m▀▀▀▀▒[0;37;41m─┬──┴──┬──┴[0;31;40m█ [0;37;40m██████▀ [0;31;40m▒[0;37;41m┴──┬──┴──┬──┴──┬──┴──┬─[0m

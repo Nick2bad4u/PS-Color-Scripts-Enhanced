@@ -5,7 +5,7 @@
 # Source SHA-256: 609fa26ea4033aab8d629c3680b2ab9b8591d283f038f423f1e50a25bb8a21b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TC-HOLE.ANS by The Clone (Legend); released in legend01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hole
 # SAUCE Author: The Clone
 # SAUCE Group: Legend
@@ -33,13 +33,12 @@ Write-Host '
 
                                                                ▄▄▄▄▄▄▄▄▄▄▄▄[30;46m█[0m
                                                               [37;40m█[0;1;37;47m▓[0;1;37;40m▀▀[0m▀▀[1m▀[0m▀█[1;47m▀[0m▀▀▀▐
-   [1mT[0mhere is a land were no one can escape.. there is a point  █▄  [1;30m▄[0m▄▄▐[1;47m░[0;30;46m██[0;1;30;47m▓[0;30;46m█[0;37;40m▐[0m
-[37;40mwere life shows no more scense.. there is a depth so shallow, █[0;1;37;47m▒[0m  [1;30;47m▓[0m██[30;47m■[0;37;40m▌[0;30;46m██[0;1;30;47m▒[0m▄█
-you are denied the right to breath..  and this depth.. this   █[1;47m░[0m  [1;30;47m▒[0m██[1;47m░[0m▌[30;46m█[0;37;40m [0;1;30;47m░[0m█[30;47m■[0m
-[37;40mshallow domain.. this land of damp and darkened evil.. is[0m     [37;40m█▀  [0;1;30;47m░[0m███[1;30;47m░[0;30;46m██[0;37;40m█▀▐[0m
+   [1m [0m                                                          █▄  [1;30m▄[0m▄▄▐[1;47m░[0;30;46m██[0;1;30;47m▓[0;30;46m█[0;37;40m▐[0m
+[37;40m                                                              █[0;1;37;47m▒[0m  [1;30;47m▓[0m██[30;47m■[0;37;40m▌[0;30;46m██[0;1;30;47m▒[0m▄█
+                                                              █[1;47m░[0m  [1;30;47m▒[0m██[1;47m░[0m▌[30;46m█[0;37;40m [0;1;30;47m░[0m█[30;47m■[0m
+[37;40m                                                         [0m     [37;40m█▀  [0;1;30;47m░[0m███[1;30;47m░[0;30;46m██[0;37;40m█▀▐[0m
 [37;40mnone other than what you meditate on.. [0m                       [37;40m█[0;1;37;47m░[0m▄▄▄[1;30;47m░ [0m███▄▄▄[1;30;47m░[0m
      [1;30m                                [0m                         ███[30;47mcloneing[0;37;40m█[0;1;37;47m▀[0m█
-                                    [1;30m [0m                         █[30;47mproductions![0;37;40m█[0m
+                                    [1;30m [0m                         █[30;47m            [0;37;40m█[0m
                                                               [37;40m█[0;37;47m [0;1;30;47m░[0;30;47m∙[0;37;40m█[0;30;47m1995[0;37;40m█[0;30;47m∙[0;37;40m█[0;1;37;47m▄[0m█
-                                                              ▀[1;47m▀[0m██[1;30;47m░[0m█[1;47m▀▀[0m█[1;47m▀▀▀▀[0m▀[0m
-'
+                                                              ▀[1;47m▀[0m██[1;30;47m░[0m█[1;47m▀▀[0m█[1;47m▀▀▀▀[0m▀[0m'

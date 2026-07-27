@@ -5,7 +5,7 @@
 # Source SHA-256: 7d11ee33cfce4a7586736de8380c7bfde95ee83581e16b59b074aab5161bc312
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-BD.ANS by rorshack (Maiden Brazil); released in mdn-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: brain drain
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -31,13 +31,4 @@ Write-Host '
 [1;31m▀▀▀▀▀▀▀▀   [0;32m ▄▐██▄[0m   [1;31m▀▀▀▀▀▀▀▀▀▀▀▀ [0;32m▐[0;1;31m  ▀▀▀▀[0m     [1;31m▀▀▀▀ [0;1;32m░[0;1;32;42m░█▄[0;32m█▄▄▄▄▄▄▄[0;1;31m  ▀▀▀▀  [0;32m▄▄▄▌▄▄▄[0m
 [37m  [0;32m▄▄▄▄▄▄▄▄█[0;1;32;42m▄▄▄▐█▄▄[0;32m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▐▄▄▄▄▄▄▄▄█▌▄▄▄▄▄▄▄█[0;1;32;42m█████████[0;32m█▄▄▄▄▄▄▄▄█[0;1;32;42m█▄▄▄█░[0;1;32;40m░░[0m
 [1m░░[0;1;42m░[0;1;40m██[0;1;32;42m█████████████████████▓▓░░[0;32m██[0;30;42mbrain drain[0;32;40m██[0;1;32;42m░░▓▓████████████████████████[0;1;37;40m███[0;32m█[0m
-[37m  [0;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-[37m sometimes, you''re just tired of it all, you''re full of stuff, you are pissed[0m
-[37m off because of everything; that times, you can feel your brain isn''t working[0m
-   [37mallright, you can''t think clear, so you note something smeels strange, in[0m
-            [37mthat moment you can feel your [0;1;37mbrain  d r  a    i      n[0m
-
-                                 [1mbrain drain[0m.
-                          oped by [1mminotaur[0m (maiden).
-                          soon on a cinema near you.[0m'
+[37m  [0;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

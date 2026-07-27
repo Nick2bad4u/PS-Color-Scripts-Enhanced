@@ -5,7 +5,7 @@
 # Source SHA-256: ae34de6298335fb65d7a5222d72a4c469e4f22783a328f66f1f03eba77e8c8ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-UNVEN.ANS by Mr.Wrong (irato); released in ira1197a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Uneven
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: irato
@@ -30,6 +30,4 @@ Write-Host '
       [36m  [0;1;36;46m▓[0;36m▀▀[0;37m [0;1;34m▐█[0;1;34;44m▓░[0;34m▄[0;37m ▄[0;1;30m▀[0m  [34m▄▄[0;1;34m▄▐▄[0m [1;36m▀[0;36m▀▀[0;1;36m▀[0;1;36;46m▓[0;1;36;40m▌[0;36m  [0m   [1;30m▀[0m          [36m   [0;37m [0;1;30m░[0m ▀  ▀[1;30m▐[0;1;30;46m▓[0;1;30;40m [0;1;30;47m▓░[0m▌ [36m██▀[0m
 [37m     [0;36m  [0;1;30;46m▓[0;36m▀[0;37m [0;1;34m▀ ▀▐[0;1;34;46m▓[0;1;34;40m▌[0m▄ [34m▄▄[0;1;34;44m░░▓▓[0;1;34;47m▓[0;1;34;44m▓[0;1;34;40m▌▀  ▀[0;36m   [0;1;36m▀[0m                  [1;30m░▓▄▄▄[0;1;30;46m▓█[0;1;30;40m█[0;1;30;46m▓░[0;36m▄[0;37m ▀ [0;36m▀▀█▄[0m
       [36m▀[0;1;30;46m█▓[0;36m▀▀■[0;1;34m [0;34m▄[0;36;44m░[0;34;40m▌[0;36;40m [0;37;40m [0;1;34;40m▀▌▀▀ ░▓[0m [1;34m▀■[0m [36m       [0m                [1;30m▀■▀▀[0;36m  ░ ░▒ ▀▀▓░[0;37m▀ [0;36m▀▌[0m
-       [36m▀[0m     [1;34m■[0;34m▀[0m       [1;34m▀ ░[0m       [36m-[0;37m U n e v e n [0;36m-[0m           [36m      [0;1;30m[[0;1;37mwrng[0;1;30m][0;36m▀[0m
-                               [36m-[0;37m admin[0;36m:[0;1;36mDerksar[0m [36m-[0m
-                                [36m-[0;37m [0;1;37m418[0;36m.[0;1;36mprivate[0m [36m-[0m'
+       [36m▀[0m     [1;34m■[0;34m▀[0m       [1;34m▀ ░[0m       [36m-[0;37m U n e v e n [0;36m-[0m           [36m      [0;1;30m[[0;1;37mwrng[0;1;30m][0;36m▀[0m'

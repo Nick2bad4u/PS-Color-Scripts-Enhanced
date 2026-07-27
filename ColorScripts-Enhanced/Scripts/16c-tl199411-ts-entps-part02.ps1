@@ -5,7 +5,7 @@
 # Source SHA-256: c9b76d3aef8854c6d6e3cd1a1e13f509295e39e1a5d81f5de041292da74885a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-ENTPS.ANS by Ts (tl199411); released in tl199411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -39,9 +39,9 @@ Write-Host '
 [31;45m▒▓▒░[0;35;40m█▄▄▄▄▄▄████[0;31;45m░░░▒▓▓▒░[0;35;40m█████████[0;31;45m░░▒[0;35;40m██[0;31;45m░▒█▒░[0;35;40m████[0;31;45m░[0;35;40m████[0;31;45m░░░░▒█▓██▓▒▒▒[0;35;40m█[0;31;45m░░[0;35;40m██[0;31;45m░░▒▒▓███▒▒▓[0m
 [34;40m▄[0;1;34;40m▄▄[0;34m▄▄[0;1;34m▄[0;34m▄[0;1;34m▄▄▄▄▄▄▄▄[0;34m▄▄▄▄▄[0;1;34m▄▄[0;34m▄[0;1;34m▄▄▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▄▄[0;1;34m▄▄▄▄▄▄▄▄[0;34m▄▄[0;1;34m▄[0;34m▄▄▄▄▄▄[0;1;34m▄▄▄▄▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▄[0;1;34m▄▄▄[0;34m▄▄▄▄[0;1;34m▄▄▄▄▄▄▄[0;34m▄[0;1;34m▄[0;34m▄[0;1;34m▄[0m
 
-                   [32m♦  [0;1;30m3[0mo[1;30mo[0m.t[1;30mo[0m.i[1;30m4[0m4[1;30moo[0m.b[1;30mau[0mD  [32m♦  [0;37mr[0;1;30mE[0mN[1;30meG[0maD[1;30mE[0m.o[1;30m5[0m-3[1;30mi  [0;32m♦[0m
-     [32m♦  [0;1;30mT[0mro[1;30mL[0mL-[1;30mn[0mE[1;30mt  [0;32m♦  [0;37mMe[0;1;30mss[0mag[1;30mE[0m-nE[1;30mt  [0;32m♦  [0;1;30mL[0muV[1;30m-n[0mE[1;30mt  [0;32m♦  [0;1;30mW[0meT[1;30m-[0mn[1;30mE[0mt  [32m♦  [0;37mA[0;1;30mdu[0mL[1;30mt[0m-n[1;30mE[0mt  [32m♦[0m
-              [32m♦  [0;37mbRE.Lo[0;1;30mR[0mD[1;30m.[0mP[1;30mLa[0mN[1;30mE[0mt[1;30ms  [0;32m♦  [0;37mb[0;1;30mRE[0m.L[1;30me[0mA[1;30mGu[0mE[1;30mS[0m.2[1;30mo[0mo a[1;30mnd[0m.6o[1;30mo  [0;32m♦[0m
+                   [32m   [0;1;30m [0m [1;30m [0m  [1;30m [0m  [1;30m [0m [1;30m  [0m  [1;30m  [0m   [32m   [0;37m [0;1;30m [0m [1;30m  [0m  [1;30m [0m  [1;30m [0m  [1;30m   [0;32m [0m
+     [32m   [0;1;30m [0m  [1;30m [0m  [1;30m [0m [1;30m   [0;32m   [0;37m  [0;1;30m  [0m  [1;30m [0m   [1;30m   [0;32m   [0;1;30m [0m  [1;30m  [0m [1;30m   [0;32m   [0;1;30m [0m  [1;30m [0m [1;30m [0m   [32m   [0;37m [0;1;30m  [0m [1;30m [0m  [1;30m [0m   [32m [0m
+              [32m   [0;37m      [0;1;30m [0m [1;30m [0m [1;30m  [0m [1;30m [0m [1;30m   [0;32m   [0;37m [0;1;30m  [0m  [1;30m [0m [1;30m  [0m [1;30m [0m  [1;30m [0m   [1;30m  [0m   [1;30m   [0;32m [0m
 
 [1;37m:::[0;31m:::: [0;1;37m:::[0;31m:   [0;1;37m:[0;31m: [0;1;37m::[0;31m:::: [0;1;37m:::[0;31m:::: [0;1;37m:::[0;31m::::  [0;1;37m:::[0;31m::::  [0;1;37m:::[0;31m::::  [0;1;37m:::[0;31m: [0;1;37m.::[0;31m:::. [0;1;37m:::[0;31m::::[0m
 [1;37m:[0;31m:::    [0;1;37m:[0;31m::::  [0;1;37m:[0;31m:   [0;1;37m:[0;31m::: [0;1;37m:[0;31m:::    [0;1;37m:[0;31m:::  [0;1;37m:[0;31m: [0;1;37m:[0;31m:::  [0;1;37m:[0;31m: [0;1;37m:[0;31m:::  [0;1;37m:[0;31m: [0;1;37m:[0;31m::: [0;1;37m:[0;31m::: [0;1;37m''[0m'' [1m:[0;31m:::[0m
@@ -52,11 +52,11 @@ Write-Host '
                                           [1m:[0m:::  ..∙∙. [1mB[0mB[1;30mS [0m∙..∙∙
 
           [1;30mNo. 2[0m                                                   [1;30mNo. 3[0m
-         [1;37mp[0mERSEUS                      [1;30mNo. 1[0m                       [1;37mL[0mupus
-                                    [1mD[0mosmaster
+         [1;37m [0m                            [1;30m     [0m                       [1;37m [0m    
+                                    [1m [0m        
 
                              [31m9 [0;1;30mo 2 [0;31m. [0;1;30m4 4 5 [0;31m. [0;1;30m4 7 i [0;31m5[0m
 [1;34m▄▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▄[0;1;34m▄▄▄▄[0;34m▄▄▄▄▄▄[0;1;34m▄▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▄▄[0;1;34m▄▄▄▄[0;34m▄▄▄▄▄[0;1;34m▄▄▄▄▄▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▄▄▄▄[0;1;34m▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▄▄▄[0;1;34m▄▄▄▄▄▄▄▄▄[0;34m▄▄▄[0;1;34m▄[0;34m▄[0;1;34m▄▄▄[0m
-        [1;30m.aNSI bY ts [TL] - (c)1994 TekLordZ Productions - 8o8 aNSI/dEMo.[0m
-[1;30m.for requests, call the TekLordZ VMb at 8o8.637.446o, #2o7, & leave board stats.[0m
+        [1;30m                                                                [0m
+[1;30m                                                                                [0m
 [1;34m▀▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀[0;1;34m▀▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀[0;1;34m▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▀▀▀▀▀[0;34m▀▀[0;1;34m▀[0;34m▀▀▀▀[0;1;34m▀▀▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀[0;1;34m▀▀▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀[0;1;34m▀▀▀[0m'

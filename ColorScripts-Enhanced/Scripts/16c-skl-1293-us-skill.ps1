@@ -5,7 +5,7 @@
 # Source SHA-256: 981d7e67edd53fae54b4c822a6919fc49de87674cc913bfa76bc66651fbd9c73
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SKILL.ANS by The Dark Half + Devils Spawn (skl-1293); released in skl-1293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -46,13 +46,10 @@ Write-Host '
           [1;30;40m█[0;1;33;43m░░░░[0;1;30;43m▄[0;1;30;40m▀[0m                                              [1;30;40m▀[0;1;30;43m▄[0;1;33;43m░░░░[0;1;30;40m█[0m
           [1;30;40m█[0;1;33;43m░░[0;1;30;43m▄[0;1;30;40m▀[0m                                                  [1;30;40m▀[0;1;30;43m▄[0;1;33;43m░░[0;1;30;40m█[0m
           [1;30;40m█[0;1;33;43m░[0;1;30;43m▄[0;1;30;40m█[0m                                                    [1;30;40m█[0;1;30;43m▄[0;1;33;43m░[0;1;30;40m█[0m
-          [1;30;40m██▀[0m               [1;37;40mS[0;1;35;40mK[0;35mi[0;1;30mLL "Ninty Fuckin'' Four"[0m             [1;30m▀[0;1;30;43m▄[0;1;30;40m█[0m
+          [1;30;40m██▀[0m               [1;37;40m [0;1;35;40m [0;35m [0;1;30m                       [0m             [1;30m▀[0;1;30;43m▄[0;1;30;40m█[0m
           [1;30;40m██[0m                                                        [1;30;40m██[0m
           [1;30;40m█[0m                                                          [1;30;40m█[0m
           [1;30;40m█[0m                                                          [1;30;40m█[0m
           [1;30;40m█[0m                                                          [1;30;40m█[0m
           [1;30;40m█[0m                      [30m▒▒▒▒▒▒▒[0m                             [1;30m█[0m
-          [1;30m▀[0m                                                          [1;30m▀[0m
-                        [1;30m8O by 5O Ansi· [0;1;37mD[0;1;35me[0;35mv[0;1;30mil''s Spawn [[0;1;37mi[0;1;36mC[0;1;34mE[0;1;30m][0m
-                      [1;30mShade· [0;1;37mT[0;1;35mh[0;35me [0;1;30mDark Half [SKiLL/iCE TRiAL][0m
-         [1;30m(its not really 8Ox5O, but it looks better in 8Ox5O then 8Ox25)[0m'
+          [1;30m▀[0m                                                          [1;30m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9625c3672f36c19fc5dda13e0aa6a72d445b75658a98c240e55eb559e0f37d8d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CIA.ANS by Flame + Mikedee (Decades); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cia Promotional
 # SAUCE Author: MikeDee/Flame
 # SAUCE Group: Decades
@@ -27,7 +27,4 @@ Write-Host '
   [1;31;43m [0;1;31;40m██[0;1;31;45m██▄█[0;1;31;40m█[0;1;31;43m▀[0;1;31;40m▀[0;33m▀[0;32m░░▀[0;1;32m▀▀█[0;1;32;46m▓▓[0;1;32;40m▄▄▄▄[0;1;32;42m▄[0;1;32;46m▓▒[0;36m▓▀▀░░[0;1;32m  [0;32m▄[0;36;42m▄[0;1;32;46m░[0;36m▀[0;1;32m▀[0;1;36m▀▒▒▒ [0m [32m▒▒▀[0;1;32m▀▀[0;1;32;42m▀[0;1;32;40m██▄▄▄▄[0;1;32;42m▄[0;1;32;40m█[0;1;32;46m▓[0;1;32;40m▀▀[0;1;36;40m▀▒▒▒[0m
   [33m▀[0;1;31m▀▀[0;33m▀[0m             [32m▒▒▒▀[0;1;32m▀▀▀[0m               [1;36m ░░[0m           [1;32m▀▀[0;1;36m▀[0m
 
-            [33m         [0m   [33m-───-──[0;1;33m-─[0m≡[33m [0;1;34mcia promo[0;33m [0;37m≡-─[0;1;33m───[0;33m─[0;1;33m─[0;33m─-─[0;31m─[0m
-
-   [1;30mbasic shape by[0m [1;30mid4([0;1;37mdecades[0;1;30m)[0m
-   [1;30mall shading by[0m [1;30mflame([0;1;37mdecades[0;1;30m)[0m'
+            [33m         [0m   [33m-───-──[0;1;33m-─[0m≡[33m [0;1;34mcia promo[0;33m [0;37m≡-─[0;1;33m───[0;33m─[0;1;33m─[0;33m─-─[0;31m─[0m'

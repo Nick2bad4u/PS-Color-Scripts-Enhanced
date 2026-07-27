@@ -5,7 +5,7 @@
 # Source SHA-256: df0d9ebf47b70744c87c6b4b93c52b74f26979552b508a4bca10750668704fe0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt-dope.ans by tainted (fire); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lazarus farms
 # SAUCE Author: tainted
 # SAUCE Group: fire
@@ -37,8 +37,8 @@ Write-Host '
 [37m        [0;36m███████████████████████████████████████████████████████████████[0m
 [37m        [0;36m█████████████████████████[0;1;37;46m0 day budz[0;36m█[0;1;32;46m![0;36m██████████████████████████[0m
 [37m        [0;36m███████████████████████████████████████████████████████████████[0m
-[37m        [0;36m▓██[0;30;46mHit one of these fine distros for our full product line.[0;36;40m████[0m
-[37;40m       [0;36;40m░▓[0;30;46mfrom[0;36;40m█[0;33;46mfilthy animal cookies[0;30;46m,[0;36;40m█[0;1;32;46mmisfit madness[0;30;46m,[0;36;40m█[0;30;46mto[0;36;40m█[0;1;33;46msavage citrus[0;36m█▓[0m
+[37m        [0;36m▓██[0;30;46m                                                        [0;36;40m████[0m
+[37;40m       [0;36;40m░▓[0;30;46m    [0;36;40m█[0;33;46m                     [0;30;46m [0;36;40m█[0;1;32;46m              [0;30;46m [0;36;40m█[0;30;46m  [0;36;40m█[0;1;33;46m             [0;36m█▓[0m
 [37m       [0;36m░███████[0;30;46mwe[0;36;40m█[0;30;46mhave you covered! get your smoke on madafukaz[0;36;40m███████▓░[0m
 [37;40m        [0;36;40m███████████████████████████████████████████████████████████████░[0m
 [37;40m        [0;36;40m█[0;33;46m■[0;36;40m█[0;1;33;46mFree Dope[0;36m███████████████████████████[0;30;46mtelnet.fr33d0p3.net:420[0;36;40m█[0m
@@ -62,4 +62,4 @@ Write-Host '
 [37m        [0;36m░▀▀▀███████████████[0;30;46m [0;1;37;46mleads to elite doodles.[0;30;46m                  [0;36;40m█▀[0m
 [37;40m           [0;36;40m▄[0;32;40m [0;36;40m▄▄[0;36;47m▓█[0;36;40m▓▓████████████████████▀██████████████▓▓▓▓████████▀▀■[0m
 [37;40m               [0;36;40m░░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀[0;37;40m                [0;36;40m▀▀▀▀▀░░░░[0;37;40m  [0;36;40mtnt[0m
-[37;40m                                [0;1;37;40m░░ NO LAMERZ.[0m'
+[37;40m                                [0;1;37;40m░░           [0m'

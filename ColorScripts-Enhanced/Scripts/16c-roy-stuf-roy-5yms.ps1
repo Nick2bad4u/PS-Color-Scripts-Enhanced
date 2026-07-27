@@ -5,7 +5,7 @@
 # Source SHA-256: 7bee02e3d92f4b554950c3dc93c5cc2023d3941cd69c72522a63ec3c593f0800
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ROY-5YMS.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-13
 # Columns: 1-80
 
@@ -21,4 +21,4 @@ Write-Host '
 [1;30m  ░███ [0;1;31m│[0;31m░▒▓█[0;1;31;41m░▒▓█▓▒░[0;31m█▓▒░  O  [0;1;30m■  [0;1;31mN  [0;1;30m■  [0;1mL  [0;1;30m■  [0;1mI  [0;1;30m■  [0;1;31mN  [0;1;30m■  [0;31mE  ░▒▓█[0;1;31;41m░▒▓█▓▒░[0;31m█▓▒░[0;1;31m│ [0;1;30m███░[0m
 [1;30m  ░███ [0;1;31m└──────────[0;33m─[0;1;31m─[0;33m─────────────────────────────────────────[0;1;31m─[0;33m─[0;1;31m──────────┘ [0;1;30m███░[0m
 [1;30m  └───────────────────────────────────────────────────────────────────────────┘[0m
-       [1;30m·■· Roy''s ansi for the 5th birthday of Elvin''s Master & Servant ·■·[0m'
+       [1;30m ■                                                               ■ [0m'

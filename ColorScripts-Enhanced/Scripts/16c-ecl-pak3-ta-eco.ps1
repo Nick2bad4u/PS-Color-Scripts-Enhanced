@@ -5,7 +5,7 @@
 # Source SHA-256: 0fabf7069cae67b5006272bbfea4822e420fe11b829aadb03b182aaefb318e09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TA-ECO.ANS by the avenger (ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ecolove ansi
 # SAUCE Author: the avenger
 # SAUCE Group: ecolove
@@ -36,9 +36,4 @@ Write-Host '
 
 
 
-[1;30m──--- -  -      -[0m             [1;30m-[0m   [1;30m      ·[0m
-comment :
-
-[1;30mwell, i guess we could use this for the infofile, but if someone else created[0m
-[1;30msomething better, we''ll just throw this in the trashbin. [0m
-[1;30mi actually like this one a bit though ... [0m'
+[1;30m──--- -  -      -[0m             [1;30m-[0m   [1;30m      ·[0m'

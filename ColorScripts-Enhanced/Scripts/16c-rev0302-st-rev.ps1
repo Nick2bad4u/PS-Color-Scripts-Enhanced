@@ -5,7 +5,7 @@
 # Source SHA-256: 104add76d59d77d3e5f041748de7badd62d7e993f312e3b04a6e40060fc72ec6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-REV.ANS by splatt (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Revival
 # SAUCE Author: splatt
 # SAUCE Group: Revival 2002
@@ -31,7 +31,4 @@ Write-Host '
    [34m▓[0;1;34;44m░░[0m     [34m▀[0;1;34;44m▒[0;1;34;40m▄[0;34m▄[0;37m  [0;34m▀[0;1;34;44m░[0;35;44m░[0;34;40m▄▄▄[0;1;34;40m▄▄[0;34m▄▀▀▀[0;37m  [0;34m▀[0;35;44m░▒[0;34;40m▄[0m   [34;40m▐[0;1;34;44m░░[0;34m▀[0;37m [0;36m▄██▌▀[0;1;32;42m▒[0;36;47m▓[0;36;40m▄[0m   [32;40m▄[0;1;32;42m░▒[0;32m▀[0;1;30m  [0;34m▀[0;30;44m░[0;34;40m▓▄[0;37;40m░[0m   [34;40m▄█▓[0;1;34;44m░░[0;34m▄[0;1;34;44m▒▒▓[0;34m▌[0m
         [33m  [0;37m  [0;34m▐[0;1;34;44m▒▓[0;34m▌[0;37m   [0;34m▀▀▀▄▄▄[0;37m [0;34m [0;37m [0m     [34m▀▀▓▄▄[0;37m [0;34m▀[0;37m [0;36m░[0;30;46m░[0;36;40m▓█▀█[0;37;40m [0;32;40m▒[0;36;40m▀▀▓▄▄[0;37;40m [0;1;30;40mst?[0m    [34m▀▀[0;37;44m░[0;34;40m▄▄▀▀▐[0;30;44m░[0;34;40m▓█[0;37;40m [0;1;34;44m░░[0;34m▓▌[0m
               [37m  [0m                         [30;46m▓▓[0;36;40m░[0;30;46m▓[0;36;40m▀▀[0;37;40m [0;32;40m░[0m   [37;40m    [0m        [37;40m [0m         [37;40m  [0;34;40m▀▀[0m
-     [1;37;40mREVIVAL :: 2002 [0m                           [32m░[0;37m  [0m             [37m [0m
-     [1;37mansi by splatt [ REV ][0m
-                                                [32m [0;37m        [0m
-                                                       [37m      [0m'
+     [1;37;40m                [0m                           [32m░[0;37m  [0m             [37m [0m'

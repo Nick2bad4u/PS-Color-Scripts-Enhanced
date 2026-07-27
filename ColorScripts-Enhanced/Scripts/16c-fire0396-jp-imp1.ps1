@@ -5,7 +5,7 @@
 # Source SHA-256: a2bfb67ee3d0e93b83c30975ebf10324e0478fa911098b875e21c682101e21f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JP-IMP1.ANS by Jeepee (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Impure
 # SAUCE Author: Jeepee
 # SAUCE Group: fire
@@ -36,5 +36,4 @@ Write-Host '
 [1;31;41m▒▒░░░[0;31m■▄    ▀[0;1;30m▐▌[0;1;30;47m▒[0m▀▀█▀▀       [34m░ [0;1;30m▓▐[0;1;30;47m▒[0m▀▀█▀▀ [31m▀    [0;1;30m░ ▒▀▓dd[0;1;31m▓██[0;1;31;41m▄▄▄▄[0;31m██████████████████▓  [0;1;30m▒[0m
 [1;31;41m▓▓▒▒[0;1;31;40m▀▀[0;31m▀▀[0;1;31;41m░[0;31m▄▄░ [0;1;30m■[0m▀[1;30;47m░░[0m▀[1;47m▒[0m▀ [31m▀▄[0m       [1;30m■[0m▀[1;30;47m░░[0m▀[1;47m▒[0m▀ [31m▄▄[0;1;31;41m░▒[0m   [1;30;40m▓[0;1;30;47m▓▀[0m▄  [1;31m▀▀▀▀▀▀▀▀[0;1;31;41m▓▒░[0;31m█████████████▄  [0;1;30m▓[0m
 [1;31m█▀▀[0m         [31m■ [0;1;30m▀[0;1;30;47m▓▒░[0m▀  [31m░▐[0;1;31;41m░[0;31m▄    ■ [0;1;30m▀[0;1;30;47m▓▒░[0m▀ [1;31;41m░[0;31m▀▀[0;1;31m▀    [0;1;30m▀[0;1;30;47m ▀ [0m▀█▀▀ ▀█▀▀ [1;31m▀▀[0;31m▀▀▀█[0;31;41m [0;30;41m▄   ▄ [0;31;40m███ [0;1;30;40m▓ █[0m
-[1;30;40m   [0;31m▄[0;1;31;41m░▒▒░░[0;31m▄▄[0m        [37m▓▄ [0;31m▄[0;1;31;41m░▒[0;31m▓▄[0m         [1;30mJp<GrIp!>  [0m▀▀▀▀▀▀▓▀▀▀ ▀▀[1;30m▀ [0;30;41m▓  impure!  ▓[0m [1;30;40m▀▀[0m
-[1;30m--- greet goes to deeply disturbed who did that box thing ---[0m'
+[1;30;40m   [0;31m▄[0;1;31;41m░▒▒░░[0;31m▄▄[0m        [37m▓▄ [0;31m▄[0;1;31;41m░▒[0;31m▓▄[0m         [1;30mJp<GrIp!>  [0m▀▀▀▀▀▀▓▀▀▀ ▀▀[1;30m▀ [0;30;41m▓  impure!  ▓[0m [1;30;40m▀▀[0m'

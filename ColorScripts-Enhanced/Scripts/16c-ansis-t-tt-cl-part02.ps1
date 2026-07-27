@@ -5,7 +5,7 @@
 # Source SHA-256: d85f77550fd266ea699fde50f21b05f39e14f701e274c898608bfa5f0063c563
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-CL.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 37-80
 # Columns: 1-80
 
@@ -47,10 +47,10 @@ Write-Host '
                            [1;30;40m▐[0m           [1;30;40m█[0m                               [1;30;40m█[0m
 [1;30;40m ──[0;35m──[0;1;35m──────────────────────────────────[0;1;30m▌[0;1;35m───────────────────── ─────────[0;1;30m▐[0;1;35m──── ──[0m
 
-                              [35mSysop: Sought After[0m
-[35m    °    Runing: Vision-X[0m          [35m1.2 Gigs[0m        [35mACiD Distribution Site  °[0m
-[35m   °   FelonyNET/CelerityNET[0m        [35m9600+[0m          [35mWARES Distribution Site  °[0m
-[35m    °   H/P/C Underground[0m       [35mDual Standard[0m       [35mBy invitation only.    °[0m
-                                 [35m212.Pri.Vate[0m
+                              [35m                   [0m
+[35m                         [0m          [35m        [0m        [35m                         [0m
+[35m                            [0m        [35m     [0m          [35m                          [0m
+[35m                         [0m       [35m             [0m       [35m                        [0m
+                                 [35m            [0m
 
-[35m [0;1;30m──[0;35m──[0;1;35m────────[0;1;30mThis[0;30m┬[0;1;30mChicken-Shit[0;30m┬[0;1;30mPuke[0;30m┬[0;1;30mAnsi drawn[0;30m┬[0;1;30mby[0;30m┬[0;1;30mTεMPUS[0;30m┬[0;1;30mThales[0;30m┬[0;1;30mof[0;30m┬[0;1;37mi[0;1;36mC[0;1;34mE[0;1;35m─ ──── ──[0m'
+[35m [0;1;30m──[0;35m──[0;1;35m────────[0;1;30m    [0;30m┬[0;1;30m            [0;30m┬[0;1;30m    [0;30m┬[0;1;30m          [0;30m┬[0;1;30m  [0;30m┬[0;1;30m      [0;30m┬[0;1;30m      [0;30m┬[0;1;30m  [0;30m┬[0;1;37m [0;1;36m [0;1;34m [0;1;35m─ ──── ──[0m'

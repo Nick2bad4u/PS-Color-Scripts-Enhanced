@@ -5,7 +5,7 @@
 # Source SHA-256: b538513dae6dbec23e82eada6f928bfce21bffa0c460c0e69dde9c79a5971bc6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 13-MSOON.ANS by ville (blend); released in blend03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: midnightSUPERboardcomignsOON!!!
 # SAUCE Author: ville
 # SAUCE Group: blend
@@ -43,9 +43,4 @@ Write-Host '
 [33m▄▄[0;1;31;43m░░[0;33;42m█[0;33;40m█▀▀▀▀▀[0;1;31;43m░░[0;33m█[0;37;43m░░[0;33;40m▄▄▄ ▀▀▓[0;37;43m [0;33;40m█▄▄░░[0;1;32;40m  ░[0;32m▀[0;1;32m▀[0;1;32;42m▀▓[0;1;32;40m███[0;1;32;46m████▓▓[0;1;32;40m██[0;1;32;42m▒░[0;32m▌[0;33m░[0;37m [0;1;33m [0;33mvi[0;1;33;43mlle[0;1;5;33;40m_[0m  [33m▀[0m          [36m▀▀▀[0m
 [33m▀[0m               [33m▀▀▀▀▓[0;1;31;43m [0;33m▄▄[0;37;43m  [0;33;40m▀▀▓▄▄░[0;37;40m   [0;32;40m▀[0;1;32;40m▀[0;1;32;42m▀▓▓[0;1;32;40m██████[0;1;32;42m▀░[0;32m▀[0;37m   [0m
                         [37m [0;33m▀▀▀▀[0;37m [0;33m▄[0;1;31;43m░[0;33m▀▄▄ [0;1;32m     [0;32m▀[0;1;32m▀▀▀[0;32m▀[0m   [37m  [0m
-                               [37m      [0;33m▀░░[0m
-
-[1;32mpicture for Midnight Cafe, new scenerelated internetsuper board in finland!!![0m
-[1;32msoon atleast 4 nodes, internet email, irc, www, and lots of more coming soon![0m
-
-[1;32mDON''T rip this or i''ll rip your balls of!![0m'
+                               [37m      [0;33m▀░░[0m'

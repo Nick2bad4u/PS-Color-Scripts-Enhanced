@@ -5,7 +5,7 @@
 # Source SHA-256: a5c9cc5f70c3a40148c6b9357f27c21d8de9542c05c65f4ed0020b92f5b9d0e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FF-LOGO2.ANS by Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hype.promo.logo.2
 # SAUCE Author: Free Fall
 # SAUCE Group: Hype.produktions
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-([1;30mfF[0m)([1;30mhype[0m)
+ [1;30m  [0m  [1;30m    [0m 
 
                                  [34m■[0m                            [34m■[0m
                            [1;30m░[0m [1;30m░[0m            [36m▄[0;37m  [0;1;30m░░[0m          [1;30m░░[0m       [1;30m░░[0m
@@ -32,5 +32,4 @@ Write-Host '
         [34m░░[0;1;30m    [0m    [1;30m▄▓▓▄▄[0;34m [0;1;30m▄[0m     [1;30m▄▄█▓▓▄[0m     [1;30m▄▓▄[0m      [1;30m▀▓▀[0;34m [0;1;30m▄█▓[0m   [1;30m▄█▓▀▀[0m
 [34m▒▒▒▒[0;37m [0;34m▒▒[0m    [34m▒▒▒[0;37m [0;1;30m▄█[0;1;30;47m▓[0;1;30;40m▀[0;34m ░░░[0;1;30m▓[0;34m░[0;1;30m▄▓▄[0m    [1;30m▀[0;34m▒▒▒[0;1;30m▓▄[0;1;30;47m▓[0m   [1;30m▀[0;34m▒▒[0;1;30m▄▓[0m   [34m░░ [0;1;30m▐[0;34m▒▒[0;1;30m▀▀▀▀▓[0;34m▒[0;37m  [0;34m▒▒▒▒▒▒▒[0;37m [0;34m▒▒▒▒▒▒▒[0m
                        [1;30m▀▓[0m            [1;30m▀▀▓▓▄▄▀▓[0;1;30;47m▓[0;1;30;40m▓▀▓▓▄▄[0;34m [0;1;30m▄▓▌[0m
-                                                   [1;30m▀▀▓[0;34m [0;1;30m▀[0m
-[34m                                [0m'
+                                                   [1;30m▀▀▓[0;34m [0;1;30m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f27096dbb46a7c6e17b0e14b3cb9e17e3af5d8719fdd636c7e47178c92864132
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-SIK!.ANS by Sudden Massacre (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -31,10 +31,4 @@ Write-Host '
                             [1;33m██[0m [1;30msd?[0m  [1;30mSik      [0m             [35m▄[0m
 
 
-[34m--------------------------------------------------------------------------------[0m
-[34mfirst all i would like to inform you that i changed my alias to sudden massacre[0m
-[34mand a bit of background on sik (some insane kreations) i wanted to join this [0m
-[34mgroup a long long time ago when i was shit..... still am ;) and it died on me[0m
-[34mbut now freeze and davey flop-it have revived it and i hope it stays here for [0m
-[34mfuture artists..... if locus didnt come or sik was revived earlier i would have[0m
-[34mjoined.....sorry too late so i did a guest for them[0m'
+[34m--------------------------------------------------------------------------------[0m'

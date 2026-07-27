@@ -5,7 +5,7 @@
 # Source SHA-256: 7caa9c7982dcd7e95a798b13a14945df9c76484225f371174441cbb05bc625d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-PSS2.ICE by Trip (iCE); released in ice9906a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: PS Scrabble
 # SAUCE Author: Trip
 # SAUCE Group: iCE
@@ -47,8 +47,4 @@ Write-Host '
 [31m [0;1;36;41m▐▓▓[0;31m▌[0;1;36;41m▐█[0;1;37;40m██[0;1;36;41m▀[0;31m▀[0;1;36;41m▀█[0;1;37;40m██[0;1;36;41m▄[0;1;36;40m▄[0;31m▄ [0;1;36;41m▐[0;1;37;40m██[0;1;36;41m█▀[0;31m [0;1;36;44m░[0;31m▐[0;1;36;41m█[0;1;37;40m██[0;1;36;41m▒█▀[0;31m ▐[0;1;36;41m█[0;1;37;40m██[0;1;36;41m▌[0;31m▐[0;1;37m██[0;1;36;41m▌[0;34m▀▓[0;31m▐[0;1;36;41m█[0;1;37;40m█[0;1;36;41m█▀[0;1;37;40m██[0;1;36;41m▄[0;31m [0;34m▀[0;31m▐[0;1;36;41m█[0;1;37;40m█[0;1;36;41m█▀[0;1;37;40m██[0;1;36;41m▄██[0;1;37;40m█[0;1;36;41m█▒[0;1;37;40m█[0;1;36;41m█[0;31m▄ ▄[0;1;36;41m▄▓▓▀[0;31m▀▀ [0m
 [31m ▀[0;1;36m▀[0;1;36;41m▀▄█[0;1;37;40m██[0;1;36;41m▀[0;31m [0;34m■▄[0;31m  [0;1;36;41m▀[0;1;37;40m██[0;1;36;41m▓▒█▀[0;1;36;40m▀[0;31m▀ [0;34m▀▀[0;31m [0;1;36;41m▀█[0;1;37;40m█[0;31m▀▀  ▐[0;1;36;41m█[0;1;37;40m██[0;1;36;41m▌[0;31m ▀[0;1;36;41m▀[0;1;37;40m█[0;1;36;40m▄▄[0;1;36;41m▄[0;1;37;40m██[0;1;36;41m█[0;31m▌▀[0;1;36;41m▀[0;1;37;40m█[0;1;36;40m▄▄[0;1;36;41m▄[0;1;37;40m██[0;1;36;41m█[0;31m▌▀[0;1;36m▀▀[0;31m▐[0;1;37m██[0;1;36;41m▀[0;31m ▀[0;1;36;41m▀[0;1;37;40m██[0;1;36;41m▀[0;1;36;40m▀[0;31m▀    [0m
      [31m▀[0;1;36;41m▀▀[0m    [31m   ▀▀           ▀[0;1;36;41m▀[0;31m     ▀[0;1;36m▀▀[0;31m▀     ▀[0;1;36m▀[0;1;36;41m▀▀[0;31m▀     ▀[0;1;36m▀[0;1;36;41m▀▀[0;31m▀    ▀▀[0m   [31m▄▀▀         [0m
-                              [31m▀[0m       [31m  [0m        [31m  [0m
-
-                          [37m..[0;1;37mPisces Software Presents[0m..
-
-                                   [1mPS Scrabble[0m'
+                              [31m▀[0m       [31m  [0m        [31m  [0m'

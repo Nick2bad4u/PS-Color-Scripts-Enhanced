@@ -5,7 +5,7 @@
 # Source SHA-256: b8fd6282213da0ef63a1d76f5a7ac0c1efcbbfcb30370d895258fd9777990c3c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NC-MTRX.ANS by nightcrawler (phat); released in phat0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: matrix
 # SAUCE Author: nightcrawler
 # SAUCE Group: phat
@@ -37,6 +37,4 @@ Write-Host '
 [1;30m████████████████████████████████████████████▄ [0;1;31m▀▀▀▀▀▀▀▀▀████▄ [0;1;30mn██████████████████[0m
 [1;30m█▓▓█▓▓█▓█▓▓▓▓█▓█▓▓█▓▓▓██▓▓▓███▓▓▓█▓█▓█▓█▓███▓▓█▓▓█▓▓██▄ [0;1;31m▀▀▀▀▀[0;1;30mc█▓▓▓▓▓█▓▓▓██▓▓█▓▓█[0m
 [1;30m▓▒▓▒▓▒▒▓▒▒▒▓▓▓▒▓▒▒▓▒▓▓▓▒▒▓▒▓▒▒▓▒▓▒▓▓▓▒▓▓▒▓▓▓▓▒▓▒▓▓▒▓▓▒▒▓▓▓▓▓▓▓▓▓▒▓▓▓▓▒▓▒▒▓▓▒▓▒▓▓[0m
-[1;30m▒░▒▒░░░▒▒▒░░░▒░▒░░░▒▒▒░░▒▒░░▒░▒░▒▒░▒░▒░░░▒▒▒▒░▒▒▒░▒▒░▒░░▒▒░░░░░░▒░▒░▒░▒░░▒▒▒░▒░▒[0m
-[1;37mas you can see, this aint for anyone.. i just thought it would be could for a[0m
-[1mmatrix.. use it if you like it.. (just leave my name on it?!?)[0m'
+[1;30m▒░▒▒░░░▒▒▒░░░▒░▒░░░▒▒▒░░▒▒░░▒░▒░▒▒░▒░▒░░░▒▒▒▒░▒▒▒░▒▒░▒░░▒▒░░░░░░▒░▒░▒░▒░░▒▒▒░▒░▒[0m'

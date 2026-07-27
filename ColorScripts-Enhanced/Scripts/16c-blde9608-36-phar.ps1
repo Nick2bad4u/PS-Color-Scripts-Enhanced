@@ -5,7 +5,7 @@
 # Source SHA-256: 774cac1f00cb4e1f6c8fbb9281e8ad62023f389cfab9feea7bfbe9218552cea2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 36-PHAR.ANS by metallic blood (bLADE!); released in blde9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pharcyde + note
 # SAUCE Author: metallic blood
 # SAUCE Group: bLADE!
@@ -26,14 +26,9 @@ Write-Host '
  [1;34;47m░▀▓[0;1;34;40m▄[0m [1;34m░░[0m         [1;34m▀▀▀[0m [1;34m░░[0m    ▀▀▀   [1;34m▐[0;1;34;47m▓[0;1;34;40m▌[0m    [1;34m░[0m               [1;34m▄[0;1;34;47m▓▀░[0m
            [32m    [0m                  [1;34;47m▒▒[0m
              [32m [0m                   [37m▐[0;1;34;47m░[0m▌
-             [32m [0;37m thePharcyde ..  [0m   [37m▀[0;1;34;47m░[0m▄       [34mblade midwest hq // illness member[0m
-             [32m [0m                      [34m [0;37m▀▄[0m     [34mwicked distro // confusion net[0m
-       [1;34mi''m really pressed for time[0m     ▄[34m    > more coming!![0m
-[1;34mright now.  i just REJOINED.  but,[0m     ▐▌
-[1;34mi just got a 400 dollar phone bill[0m   [1;34m [0m▄▀[34m [0m
-[1;34mso i''m grounded from my pooter for[0m  ■ [34m [0m     [1;34mgreets: mc, kiwi, sc, all blade![0m
-[1;34mabout 2 weeks to a month.  i will[0m
-[1;34mhave TONS of shit for the next pack [0m
-[1;34mthough.  so just wait.  :)              [0m     - metallic blood ([1;33m36[0m)
-                                               [1;30mblade general co-ordinator[0m
-                                               [1;30millness ansi co-ordinator[0m'
+             [32m [0;37m                 [0m   [37m▀[0;1;34;47m░[0m▄       [34m                                  [0m
+             [32m [0m                      [34m [0;37m▀▄[0m     [34m                              [0m
+       [1;34m                           [0m     ▄[34m                   [0m
+[1;34m                                  [0m     ▐▌
+[1;34m                                  [0m   [1;34m [0m▄▀[34m [0m
+[1;34m                                  [0m  ■ [34m [0m     [1;34m                                [0m'

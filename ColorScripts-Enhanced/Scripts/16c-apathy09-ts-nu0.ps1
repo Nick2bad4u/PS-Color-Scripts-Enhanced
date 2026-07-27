@@ -5,7 +5,7 @@
 # Source SHA-256: 1f339c3399172649d2eab7d974f988ccc9de865da4bc469d334f8416bca4efb9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-NU0.ANS by Transient (apathy); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: NU
 # SAUCE Author: Transient
 # SAUCE Group: apathy
@@ -36,6 +36,6 @@ Write-Host '
  [33m▀█[0;1;37;43m▀[0;1;33;43m░[0;1;37;43m▀[0;33m█[0;1;33;43m░[0;33m█▄▄[0m [33m▄-▄-▄ ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ ▄ ▄ ▄ ▄ ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄[0m [33m▄▄█[0;1;33;43m░[0;33m█[0;1;37;43m▀[0;1;33;43m░[0;1;37;43m▀[0;33m█▀[0m
    [33m▀▀▀[0m                    [33m.:(    n    ).(    u    ):.[0m     [33m  [0m               [33m▀▀▀[0m
 [1;30m──-─-─--─--─--─--─-─--─-─-─-─--─---─-─-─--─---─--─---─--─---─-─----─--─--─--─--─[0m
-[1;30mummm .. this ansi isn''t for anyone .. if someone has a board named something   [0m
-[1;30mabout NU .. or a group or anything they can use this ..lates-transient!(apathy)[0m
+[1;30m                                                                               [0m
+[1;30m                                                                               [0m
 [1;30m───-─-─--─-─--─--─-─--─--─-----─------─--─----─--─-─----─---─-─--─--─-─-─--─-─-─[0m'

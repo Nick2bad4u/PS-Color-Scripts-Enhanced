@@ -5,7 +5,7 @@
 # Source SHA-256: 01f07b3f34c2be547d4b3a64936b94e911a94a5d791748421f33228317c13672
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-SI03.ANS by flying squirrel (irato); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: m?ne menu.
 # SAUCE Author: flying squirrel
 # SAUCE Group: irato
@@ -28,9 +28,9 @@ Write-Host '
          [34m■▄▄▄█[0;1;34;44m░░[0;34m▄▄[0;35m▀▀▀▀▀▀▀▀[0;34m▄▄▄[0;35m▀██▀▐███▌ [0;1;34;44m░░░[0;34m▄▄[0;1;34;44m░[0;35m ▓▓█[0;1;35;45m [0;35m██▓▓▓▒ [0;34m▄▄▄▄▄▄▄[0;1;34;44m░░  [0;34m█▄▄▀[0m
            [34m ▀▀█▓▓█▓▓█▀▀▀▀▀▀▀[0;1;34;44m░░[0;34m▄▄[0;1;34;44m░[0;34m▄▄▄▄▄[0;1;34;44m░░[0;34m▀▀[0;1;34;44m░░░░[0;34m▄▄▄▄▄▄▄▄▄▄▀▀▀▀▀ ░▒▓██▄▄[0;37m  [0;34m [0m
            [34m▐▓█▀[0m                       [34m▀[0m                          [34m▐█▌[0m
-            [34m█▌[0;37m  [0;1;30m[[0mf[1m][0miles.              [34m░[0m     [1;30m[[0mi[1m][0mrato''s gallery.    [34m█▓[0m
-          [34m▄██[0m   [1;30m[[0m.[1m][0msysop''s office.   [34m░▒░[0m    [1;30m[[0mb[1m][0mbs stuff.         [34m▐██[0m
-           [34m█▄ [0;37m  [0;1;30m[[0mm[1m][0messages.           [34m░[0m     [1;30m[[0md[1m][0moors and games.   [1;34;44m░[0;34m█▌[0m
-           [34m▐█[0m   [1;30m[[0mc[1m][0monfiguration.            [1;30m[[0mg[1m][0moodbye.           [34m▐▓▌[0m
+            [34m█▌[0;37m  [0;1;30m [0m [1m [0m                   [34m░[0m     [1;30m [0m [1m [0m                   [34m█▓[0m
+          [34m▄██[0m   [1;30m [0m [1m [0m                  [34m░▒░[0m    [1;30m [0m [1m [0m                  [34m▐██[0m
+           [34m█▄ [0;37m  [0;1;30m [0m [1m [0m                   [34m░[0m     [1;30m [0m [1m [0m                  [1;34;44m░[0;34m█▌[0m
+           [34m▐█[0m   [1;30m [0m [1m [0m                         [1;30m [0m [1m [0m                  [34m▐▓▌[0m
            [34m █▌[0m                     [34m   ▄▄    [0m                     [34m▄█[0m
           [34m▀█▀▓█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▓█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▓▀▀▀[0m'

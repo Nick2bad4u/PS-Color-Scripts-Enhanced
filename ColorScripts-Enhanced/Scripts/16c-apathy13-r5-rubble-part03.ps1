@@ -5,7 +5,7 @@
 # Source SHA-256: 542462feae5ac4ce64cd89e1eb1196d66ace22b434c1ee2e61f2664ed26f4ac6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: r5-RUBBLE.ANS by resetsurvivor (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rubble
 # SAUCE Author: resetsurvivor
 # SAUCE Group: apathy
@@ -65,5 +65,5 @@ Write-Host '
 [33m                                      [0;1;30m▓ ▐[0m▀
                                [1;30m░ ▒ ▓        ▓ ▒ ░[0m
                                       [1;30m▓[0m   [1;30m▓[0m
-[1;30mre[0;1;30;44ms[0;1;30;40mets[0;1;30;42mu[0;1;30;40mrvivor.a[0;1;30;46mp[0;1;30;40mathy.12.1.2013[0m       [1;30m▒     ▒[0m      [1;30m3102.1.21.yhta[0;1;30;41mp[0;1;30;40ma.r[0;1;30;45mo[0;1;30;40mviv[0;1;30;43mr[0;1;30;40mus[0;1;30;47mt[0;1;30;40meser[0m
+[1;30m  [0;1;30;44m [0;1;30;40m   [0;1;30;42m [0;1;30;40m        [0;1;30;46m [0;1;30;40m              [0m       [1;30m▒     ▒[0m      [1;30m              [0;1;30;41m [0;1;30;40m   [0;1;30;45m [0;1;30;40m   [0;1;30;43m [0;1;30;40m  [0;1;30;47m [0;1;30;40m    [0m
                                     [1;30m░[0m       [1;30m░[0m'

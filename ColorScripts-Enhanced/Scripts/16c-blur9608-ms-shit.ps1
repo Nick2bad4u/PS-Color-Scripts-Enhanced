@@ -5,7 +5,7 @@
 # Source SHA-256: dd9717b8c3a0d59cfbaf9cfbd03cc573aa9223e88f66f0f94bff40c93b6c48d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MS!SHIT.ANS by mr. darkman (blur); released in blur9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shit for Stone Chapel
 # SAUCE Author: mr. darkman
 # SAUCE Group: blur
@@ -17,12 +17,12 @@
 Write-Host '
 
 
-                    This shit is for my board, don''t rip it.
-                    If you like my ansis and want one from
-                    me, then all you gotta do is look for
-                    me and ask for a trade.  (Depending on
-                    how your shit looks of course)
-                                                 -Mr.Sandman
+                                                            
+                                                          
+                                                         
+                                                          
+                                                  
+                                                            
 
 
 [1;30m─[0m[more stone chapel stuff]──[1;30m─[0m───[1;30m──[0m───[1;30m────[0m─[1;30m─[0m─────[1;30m─[0m─[1;30m─[0m───[1;30m── ─ ──[0m───[1;30m─[0m─────[1;30m─── ─[0m─[1;30m─[0m──[1;30m─[0m

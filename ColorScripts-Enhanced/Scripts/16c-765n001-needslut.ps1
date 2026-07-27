@@ -5,7 +5,7 @@
 # Source SHA-256: 0f21e52f0714ea877fa40e90c1afe625393711e83f5af959e9d20b8f18163701
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NEEDSLUT.ANS by The Girl Scouts (765); released in 765n001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ansi Sluts Needed!!
 # SAUCE Author: The Girl Scouts
 # SAUCE Group: 765
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mgenocide kitten - cia [0m
+[1m                      [0m
                                  [1;30m   [0m         [1;30m ▄████████████▄▄▄[0m      ▀ ▀[1;47m ■ [0m▄
           [1;30m▄[0;36m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;46m▀[0;36m█[0;1;30;46m░░[0;36m█████▀  [0;1;30m   [0m        [1;30m▐█████[0;1;30;47m▀▀   [0;1;37;47m  [0;1;30;47m▀▀[0;1;30;40m███▄[0m [32m▄▄▄▄[0;37m ▀[0;1;37;47m░░[0m▀[36m ▄▄[0m
 [37m [0;36m    [0;1;30m▄[0;1;30;46m▀[0;36m█[0;1;36;46m▄▄▄████████▄▄▄▄▄▄[0;36m████[0;1;36;46m░░[0;36m▌[0;37m  [0;1;30m   [0m     [1;30m▄▄▄▄█[0;1;30;47m▀▀▀    [0;1;37;47m   ░░ [0;1;30;47m  ▐[0;1;30;40m██▌[0;32m▐[0;36;42m░[0;32;40m█[0;36;42m▀█[0;36;40m▄▄▄[0;36;42m███[0;36;40m▌[0m
@@ -41,11 +41,4 @@ Write-Host '
                                      [36mgk[0m     [1;37m▀▀▀ [0;36m [0;1;36;46m   ░░ [0;36m▌[0m          [36m▐[0;1;36;46m ▐█[0;1;36;40m███▌[0m
                                                [1m [0;1;36m [0;36m▐[0;1;36;46m▀■▄▄[0;1;36;40m██▄▄    [0;36m▄[0;1;36m▄▄[0;1;36;46m▄▄[0;1;36;40m██████▀[0m
                                                  [1;36m [0;36m▀[0;1;36m▀[0;1;36;46m▀▓▓[0;1;36;40m███████████[0;1;37;40m██▀▀[0;1;36;40m▀ [0m
-[36m     attention: ansi sluts needed  ;)[0m                  [36m ▀[0;1;36m▀▀▀▀▀[0m    [1m░░[0m
-
-[36mthe girl scouts are looking for talented ansi pic artists..[0m
-[36mif you think you would like to join 765.. please fill out 765app.exe and[0m
-[36msend your application to whte7rash in #765.. be part of the biggest revolution[0m
-[36min the scene.. join the girl scouts today...[0m
-
-              [36m765 - thegirlscouts - revolutionizing prostitution[0m'
+[36m                                     [0m                  [36m ▀[0;1;36m▀▀▀▀▀[0m    [1m░░[0m'

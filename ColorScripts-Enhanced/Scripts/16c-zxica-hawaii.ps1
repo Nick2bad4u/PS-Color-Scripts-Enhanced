@@ -5,7 +5,7 @@
 # Source SHA-256: c42e9c1ca21c94b3c632d955443396367f9603349753a4a7d627f8146babe75b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HAWAII.ANS by Dieznyik (zxica); released in zxica and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -36,11 +36,5 @@ Write-Host '
       [32;40m▀▀▀█[0;1;32;44m░[0;34m▄[0m   [32m▐[0;34;42m▐[0;34;40m▌[0m           [34;40m░[0;37;40m [0;35;40m [0;34;40m▄[0;34;45m▀[0;1;35;45m░[0;34;45m▄[0;30;44m░[0;34;40m░[0m             [30;46m▓▓[0m        [34;40m▄[0;1;34;40m▄▀[0;34m▀[0m
      [30;42m▓░[0;1;33;42m▄[0;32m▄[0;34;42m▀[0;34;40m▄[0;37;40m  [0;32;40m▀[0;1;32;40m░[0;30;42m▓[0;34;40m▀[0m            [35;40m ░▓[0;34;45m▄[0;34;40m▀[0;37;40m [0;34;40m░[0;30;44m▓[0m
        [32;40m▄[0;1;33;40m▄[0;32m [0m
-         [32m▄[0;1;33m░[0m          [1;32mcrappy [0;32mabstract logoism[0;1;34m..[0;32m [0;34mbleh[0;1;34m.[0m
-             [32m▀[0;30;42m▓[0;30;44m▓[0m
-
-[36;40mthe outline for this font was done in november of 1995.. one whole fucking[0m
-[36;40myear ago.. isn''t that crazy? anyways, it was part of a 300 line beta of mister[0m
-[36;40mhendrix himself (again).. never worked out, and somewhere along the line, i [0m
-[36;40mlost the pic.. but kept the font somehow :) so here it is, REALLY CRAPPILY [0m
-[36;40mshaded!@ I HATE IT!@[0m'
+         [32m▄[0;1;33m░[0m          [1;32m       [0;32m                [0;1;34m  [0;32m [0;34m    [0;1;34m [0m
+             [32m▀[0;30;42m▓[0;30;44m▓[0m'

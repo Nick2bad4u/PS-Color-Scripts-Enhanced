@@ -5,7 +5,7 @@
 # Source SHA-256: 194fa190a099a7b45a2e05c6077051be8ceb099b3e97110f43f48bd01d51424d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CALLNOW.ANS by Paul Muaddib (ansis-c); released in ansis-c and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
@@ -44,6 +44,6 @@ Write-Host '
 [34m▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▀▀▀▀▒▒▓█▐▐ ▄▌ ░ ░░░▒▓█▌[0m                          [1;30m░░▒[0m
 [34m▒▒▒▒▒▒▒▒▒▒▒▒▒▀▀▀▀[0m          [34m▀▀  ▀█▌░▀    ░░░ ░▒▓█[0m                   [1;30m░░░░░░░▒▒▒[0m
 [34m▀▀▀▀▀ ▄ ▓▓▓▓▓▒▒▒▒▒░░░░░░░░[0m      [34m░▌    ░░░░ ░▒▓█▌    [0;1;30m░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▓▓[0m
-[1;37mSy[0msO[1;30mp: [0;1;37mSo[0mug[1;30mht [0;1;37mA[0mft[1;30mer [0;36m■ [0;1;37m713[0m-432[1;30m-0779 [0;36m■ [0;1;37mLi[0mQU[1;30miD [0;1;37mα   [0;36m■ [0;1;37mA[0mNS[1;30mI: [0;1;37mP[0mau[1;30ml [0;1;37mMua[0md''D[1;30mib [0;1;37m[i[0mCE[1;30m]▒▓[0m
-[1;37mLi[0mQU[1;30miD [0;1;37mAl[0mph[1;30ma [0;1;37mS[0mi[1;30mte [0;36m■ [0;1;37mPl[0maz[1;30mmA [0;1;37mN[0me[1;30mt [0;1;37mH[0mU[1;30mB [0;36m■ [0;1;37mMe[0mcu[1;30mry [0;1;37mMe[0mmb[1;30mer [0;1;37mS[0mi[1;30mte [0;36m■ [0;1;37mPl[0maz[1;30mmA [0;1;37mN[0me[1;30mt[0m        [1;30m░[0m
-[1;37mSupp[0mort[1;30ming [0;1;37mH/[0mP/[1;30mC [0;1;37mUnde[0mrgro[1;30mund[0;1;37m·Z[0mer[1;30mo [0;1;37mD[0ma[1;30my [0;1;37mWa[0mre[1;30ms [0;36m■ [0;1;37m9[0m60[1;30m0+ [0;1;37mO[0mnl[1;30my [0;36m■ [0;1;37m1[0m.[1;30m2 [0;1;37mG[0mig[1;30ms [0;1;37mO[0mnli[1;30mne  ░[0m'
+[1;37m  [0m  [1;30m   [0;1;37m  [0m  [1;30m   [0;1;37m [0m  [1;30m   [0;36m■ [0;1;37m   [0m    [1;30m      [0;36m■ [0;1;37m  [0m  [1;30m   [0;1;37m    [0;36m■ [0;1;37m [0m  [1;30m   [0;1;37m [0m  [1;30m  [0;1;37m   [0m   [1;30m   [0;1;37m  [0m  [1;30m ▒▓[0m
+[1;37m  [0m  [1;30m   [0;1;37m  [0m  [1;30m  [0;1;37m [0m [1;30m   [0;36m■ [0;1;37m  [0m  [1;30m   [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m  [0;36m■ [0;1;37m  [0m  [1;30m   [0;1;37m  [0m  [1;30m   [0;1;37m [0m [1;30m   [0;36m■ [0;1;37m  [0m  [1;30m   [0;1;37m [0m [1;30m [0m        [1;30m░[0m
+[1;37m    [0m   [1;30m    [0;1;37m  [0m  [1;30m  [0;1;37m    [0m    [1;30m   [0;1;37m  [0m  [1;30m  [0;1;37m [0m [1;30m  [0;1;37m  [0m  [1;30m  [0;36m■ [0;1;37m [0m  [1;30m   [0;1;37m [0m  [1;30m  [0;36m■ [0;1;37m [0m [1;30m  [0;1;37m [0m  [1;30m  [0;1;37m [0m   [1;30m    ░[0m'

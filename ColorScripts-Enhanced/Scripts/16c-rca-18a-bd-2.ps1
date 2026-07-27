@@ -5,7 +5,7 @@
 # Source SHA-256: 48b5f26ac8aaac5ac81e13e6f3cd6c73b65a1379fd4b113d58da8a52a270c229
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BD-2.ANS by Blue Devil (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -20,14 +20,5 @@ Write-Host '
    [36m    [0m    [1;33m [0;34m▀▀▀[0;1;37m  [0;34m▀▀[0m    [36m░[0m      [34m ▀▀[0m     [32m▄[0;37m▀▀▀[0;1;37;47m▀▀■[0m███[1;47m▀[0m▀▀▀   ▀▀[1;47m▀■[0m███[1;47m▀░[0m▀▀
                             [34m    [0m    [32m▄▓▄██[0m                        [32m▐▓▄▀▓▄[0m
                              [34m  [0m    [32m▀▀▀[0m                            [32m▀██▄▐▌[0m
-[37m [0;1;34mThe Divine Chaos Brings the light of Anarchy on Earth.[0m             [32m▀▓██[0m
-[1;34mPain and Sorrow rule Supreme, bring pestallence and destruction to the[0;32m▀[0;37m [0;1;34mearth.[0m
-[1;34mSome would  say its the devil''s work others would claim god has left the earth[0m
-[1;34mfor the picking but all man kind knows now is that Purgatory reigns supreme.[0m
-
-
-
-
-                                       (for klumzee of Purg )
-
-                                       [1;34mBlue Devil RCA/Avengecult[0m'
+[37m [0;1;34m                                                      [0m             [32m▀▓██[0m
+[1;34m                                                                      [0;32m▀[0;37m [0;1;34m      [0m'

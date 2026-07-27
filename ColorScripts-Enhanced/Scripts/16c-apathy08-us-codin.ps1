@@ -5,7 +5,7 @@
 # Source SHA-256: 86a0d1b12ab036282e5b2dd996146478b7497d889babcb1ac4c975589a1672b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CODIN.ANS by Spear + Mighty Mouse (apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cOdine
 # SAUCE Author: spear!mmouse joint
 # SAUCE Group: apathy
@@ -17,7 +17,7 @@
 Write-Host '
 
 
-                                                                         [1mM[0meesta
+                                                                         [1m [0m     
                                                                           / [1mS[0mun
                                         [1m           [0m           [1m▄▄[0;1;33;47m▓[0;1;33;40m▀█▀██▓▄[0;33m▄[0;37m [0m
                                                 [1;37m    [0m        [1;33m▄[0;1;33;47m▓▓[0;1;33;40m██ [0;1;33;47m█[0;1;33;40m [0;1;33;47m▓██[0;1;33;40m█[0;1;33;41m▓[0;1;33;43m░[0;33m▄[0m
@@ -30,9 +30,4 @@ Write-Host '
 [1;37;42m░▓[0;1;37;40m▌[0;35m▐[0;1;33;45m░▒░[0;35m▌[0;32m▀[0;1;33;42m▓[0;32m▀[0;35m▐[0;1;33;45m░▒░[0;35m▌[0;37m [0;35m▐[0;1;33;45m░░░[0;35m▌[0;32m▐[0;1;33;42m▓[0;1;33;40m▌[0;35m▐[0;1;33;45m░▒░[0;35m▌[0;37m [0;35m▐[0;1;33;45m░▒░[0;35m▌[0;32m▀[0;1;33;42m░[0;32m▀[0;35m▐[0;1;33;45m░▒░[0;32m▐[0;37m [0;1;33;45m░▒▒░[0m [35m▐[0;1;33;45m▒▒░[0;35m▌[0;32m▀[0;1;33;42m░[0;32m▀[0;35m▐[0;1;33;45m░░░[0;35m▌▐[0;1;33;45m░░░ [0;35m▄▄▄[0;1;33;45m░░░ [0m [1;42m▓▓▓[0;1;37;42m▓[0m
 [1;37;42m░▒▓[0m [35m▀█[0;1;33;45m░░[0;35m▄▄▄[0;1;33;45m░░░[0;35m█[0;37m   [0;35m▀[0;1;33;45m ░░[0;35m▄▄▄[0;1;33;45m░░░[0;35m█[0;37m   [0;1;33;45m ░░░[0;35m▄▄▄[0;1;33;45m░░░[0;35m█[0;37m [0;35m▐[0;1;33;45m░░░ [0;32m [0;37m [0;35m█[0;1;33;45m░░░[0m  [35m▄[0;1;33;45m░░░[0;35m█[0;37m  [0;1;33;45m ░░░[0;35m▄▄▄▄▄▄▄[0;37m [0;1;37m▀▀▀[0;1;37;42m▓[0m
 [1;37;42m░▒▒▒[0;32m▄▄▄▄▄[0;37m [0;35m▀▀▀[0;1;37;45m▒[0m▀ [1m▀[0m [1m▄▄▄▄▄[0m [35m▀▀▀[0;1;37;45m▒[0m▀ [1m▀[0m [1m▄▄▄▄▄[0m [35m▀▀▀▀[0;1;37;45m▒[0m [35m▀▀▀▀[0;1;37;45m▒[0m▀ [1m▄▄▄▄[0m [35m▀▀▀▀▀[0;1;37;45m▒[0m▀[1m ▄▄▄▄▄[0m [35m▀▀▀▀[0;1;37;45m▒[0m▀ [1m▀ [0;1;37;42m▒[0m
-[1;37;42m░░▒▓▒░░░░░░░[0m [1m▄[0m [1;42m░░▒▒▓▓▓▓▒▒░[0m [1m▄[0m [1;42m░░░▒▒▒▓▓▒▒░░[0m [1m▄[0m [1;42m▓▒░[0m [1m▄[0m [1;42m▒▓▓▓▒▒▒░░░[0m [1m▄[0m [1;42m▒▓▓▓▒▒░░░░[0m [1m▄[0m [1;42m░░▒[0;1;37;42m▒[0m
-
-awwe.. how sweet.. a nice joint ansi for the new year.. err[1;30mblahblahblahblahblahb[0m
-wait.. nevermind. well.. spear did the font, and the background, and mister[1;30mblahb[0m
-mighty mouse did the shading on the font and the sun.. so this is a 100% apathy[1;30mb[0m
-joint production.[0m'
+[1;37;42m░░▒▓▒░░░░░░░[0m [1m▄[0m [1;42m░░▒▒▓▓▓▓▒▒░[0m [1m▄[0m [1;42m░░░▒▒▒▓▓▒▒░░[0m [1m▄[0m [1;42m▓▒░[0m [1m▄[0m [1;42m▒▓▓▓▒▒▒░░░[0m [1m▄[0m [1;42m▒▓▓▓▒▒░░░░[0m [1m▄[0m [1;42m░░▒[0;1;37;42m▒[0m'

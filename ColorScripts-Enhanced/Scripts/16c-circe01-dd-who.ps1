@@ -5,7 +5,7 @@
 # Source SHA-256: 256efaa33dcb105b86e81706616ff34f04ca5ae6b357494392210e89b07a1ad8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-WHO.ANS by Diamond Darrell (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19970710
 # SAUCE Dimensions: 80x19
 # Lines: 1-19
@@ -20,14 +20,14 @@ Write-Host '
 [37m [0;1;31;47m▓▓[0;1;31;40m██[0;1;31;43m▄[0;33m▓▓▄▄▄[0;37m ▀▀▀[0;33m   [0;37m  ▀▀▀[0;1;31m [0;1;30m  [0;1;31m  ▐██[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;43m▌[0;30;43mDd![0;33;40m███▌ [0;36;40m  [0;37;40m  [0;36;40m███▀ █[0;1;36;46m░░[0;36m▀ ▐█[0;1;36;46m▀[0;36m▌ ▀██  ▀▓▓▀[0;33m [0;1;30m▄▄█[0;1;30;47m██[0;33m  [0m
 [37m █▀▓▓[0;1;31m▀▀▀▓[0;33m▀▀▀▀▀▀▀▀▀ ▀▀ ▀[0;1;30m [0;33m   [0;1;31m░░▀▀█▀[0;33m▀▀▀▀▀▀▀▓▀ [0;1;30m  [0;33m▀[0;1;30m [0m      [36m▀   ▀▀▀[0;37m [0;1;37mv1.o[0m [1;30m▀[0;36m [0;33m [0;1;30m  ▀▓▀▀▀[0;1;30;47m█[0;33m   [0m
 [37m █ [0m               [37m                                                          [0;1;30m▓[0;33m  [0m
-[36m [0;1;37;47m░[0;33m [0;1;36mNode[0;36m [0;37m [0;36m   [0;1;36m  User Handle [0m      [36m    [0;1;36m Location         Status          Login[0;36m [0;1;30m▀[0;33m  [0m
+[36m [0;1;37;47m░[0;33m [0;1;36m    [0;36m [0;37m [0;36m   [0;1;36m              [0m      [36m    [0;1;36m                                       [0;36m [0;1;30m▀[0;33m  [0m
 [33m [0;37m▓                                                                  [0;1;30m [0m       [1;30m█[0m [33m [0m
-[36m [0;37m▄[0;33m [0;36m 01     Lord Vasniak           Dgc/Tqc             Available       01:32[0;32m [0;37m▀[0;33m  [0m
-[36m [0;37m█[0;33m [0;36m 02     Black Panther          Prestige/Risc       No Available    01:43[0;32m [0;37m█[0;33m  [0m
-[36m [0;37m█[0;33m [0;36m 03     Neik Raider            Fedcon              In Chat         01:42[0;32m [0;37m█[0;33m  [0m
-[36m [0;37m▄[0;33m [0;36m 04     Diamond Darrell        Pungas/Eth          In Chatle       01:12[0;32m [0;1;37;47m░[0;1;37;40m░[0;33m [0m
-[1;30m░▓[0;33m [0;36m 05     Daemon                 Pungas              Available       02:22[0;32m [0;37m▀[0;33m  [0m
-[36m [0;1;30m▀[0;33m [0;36m 06     Hazzan                 Pungas/Ltm/Eth      Downloading     00:49[0;32m [0;37m▀[0;33m  [0m
-[36m [0;1;30m█[0;33m [0;36m 07                                                Waiting....          [0;32m [0;37m█[0;33m  [0m
+[36m [0;37m▄[0;33m [0;36m                                                                        [0;32m [0;37m▀[0;33m  [0m
+[36m [0;37m█[0;33m [0;36m                                                                        [0;32m [0;37m█[0;33m  [0m
+[36m [0;37m█[0;33m [0;36m                                                                        [0;32m [0;37m█[0;33m  [0m
+[36m [0;37m▄[0;33m [0;36m                                                                        [0;32m [0;1;37;47m░[0;1;37;40m░[0;33m [0m
+[1;30m░▓[0;33m [0;36m                                                                        [0;32m [0;37m▀[0;33m  [0m
+[36m [0;1;30m▀[0;33m [0;36m                                                                        [0;32m [0;37m▀[0;33m  [0m
+[36m [0;1;30m█[0;33m [0;36m                                                                        [0;32m [0;37m█[0;33m  [0m
 [33m [0;1;30m█▄[0m                                                                        ▄█[33m  [0m
 [37m  [0;1;30m▀▀▀▀▀▀▀▀▀ ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀[0m  [1;30m▀▀▀[0m [1;30m▀[0m▀[1;30m [0m▀▀▀▀▀▀▀▀[1;30m  [0m▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀[0m'

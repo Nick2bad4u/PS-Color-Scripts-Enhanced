@@ -5,7 +5,7 @@
 # Source SHA-256: 9a758d3e6572ae8eb20c1d5876d39c2a0d049c70170b1483d3eb39cc4dccb944
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ECO.ANS by Exocet + Timeless (ecolove); released in ecl-pak6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ecolove
 # SAUCE Author: tl & ex
 # SAUCE Group: ecolove
@@ -36,10 +36,10 @@ Write-Host '
        [1;30m               [0m   [33m▄▄▄▄▄[0;37m [0m           [1;32m\[0m      [1;32m            [0m
        [1;30m                 [0m [33m███[0;1;30;43m░░[0m
        [1;30m                 [0m [1;31;43m░░[0;33m███[0;37m [0m
-                  [33m       ▀███▀    [0m         [1;32mthe polution increases every day,[0m
+                  [33m       ▀███▀    [0m         [1;32m                                 [0m
                  [33m  ▄▄▄███████████▄▄  [0m      [1;32moh yeah.. we have got to pay...[0m
                 [33m  █[0;1;31;43m█▓[0;33m██[0;1;31;43m▄[0;33m██████[0;1;31;43m▄ [0;33m█[0;1;31;43m [0;1;30;43m░░[0;33m█ [0m     [1;32mthe bill of poluting mother-earth,[0m
-               [33m  ▐[0;1;31;43m█▌[0;33m▀██[0;1;31;43m           [0;1;30;43m [0;33m█[0;1;30;43m [0;33m▌[0m     [1;32mit''s a shame we will give the birth,[0m
+               [33m  ▐[0;1;31;43m█▌[0;33m▀██[0;1;31;43m           [0;1;30;43m [0;33m█[0;1;30;43m [0;33m▌[0m     [1;32m                                    [0m
                 [33m ▐[0;1;31;43m█[0;33m█ ▄▀▀▀████[0;1;30;43m░[0;33m▀▀▀▄[0;37m [0;33m█[0;1;30;43m [0;33m▌[0m     [1;32mto our childeren...     [0m
                 [33m  [0;1;31;43m▐[0;33m▌[0;37m [0;33m▀▀███[0;1;30;43m░[0;33m████▀▀[0;37m [0;33m ▐█ [0m
                 [33m  [0;1;31;43m [0;33m▌[0;37m [0;33m▀▀▄▄████▄▄▀▀[0;37m  [0;33m▐█ [0m     [1;32mthe legacy for our childeren [0m
@@ -52,4 +52,4 @@ Write-Host '
                       [33m▄[0;1;30;43m▀[0;33m█▄[0m   [33m██▄▄[0m
                  [33m▄███[0;1;31;43m░░[0;33m██▀[0m   [33m▀█[0;1;31;43m█▄[0;33m█▄▄[0m
                   [33m█[0;1;31;43m▓▓[0;33m██▀[0m      [33m▀█[0;1;31;43m▀▀[0;33m█[0;1;30m▌[0;33m [0;1;30mansi by: timeless & exocet [0m
-                    [33m▀[0m                [1;30mtext by: exocet[0m'
+                    [33m▀[0m                [1;30m               [0m'

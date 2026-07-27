@@ -5,7 +5,7 @@
 # Source SHA-256: eefeeee7fdf49ce872b706ef20cdc3a8b799da2ce86dd093ad508043068c3d73
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-CHONY.ANS by nitron (lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Polanda/Cutie Honey Matrix
 # SAUCE Author: nitron
 # SAUCE Group: lazarus
@@ -41,5 +41,4 @@ Write-Host '
 [37m         [0;33m▄[0;1;31;43m▓▓▓▓▓▓▓[0;1;31;40m█[0m [31m▄▄▄▄▄▄▄▓▓▓███▌[0;1;33m▐█████████[0;1;30m [0;1;33m███[0;1;33;43m▒[0;33m▄▀████████▌██████▀▄███[0;1;33;43m░▒[0;1;33;40m▀[0m
        [30m▌[0;33m▐[0;1;31;43m▓▓[0;1;31;40m███[0;1;31;47m▓[0;1;31;40m██▌[0;1;30;40m▐[0;31m▓▓█████████[0;1;30;41m░▓[0;1;30;40m▌[0;1;33;40m▐████████▄████[0;1;33;43m▓░[0;33m█▄████████▄▀▀▀▀[0;37m [0;33m▄███▀▀[0m
 [37m        [0;1;31;43m▒▓[0;1;31;40m███[0;1;31;47m▓[0;1;31;40m███[0m [31m▒▓▓▓███████[0;1;30;41m░▒▒▓[0;1;30;40m▄ [0;1;33;40m▀▀▓▓▓████████[0;1;33;43m▓░[0;33m██[0;1;33;43m [0;33m████████▓▓▓▄▄▄[0;1;30m░n1[0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mfree for any sysop to use because we all know warpus is too lazy to put up a bbs[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

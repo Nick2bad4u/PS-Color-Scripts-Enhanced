@@ -5,7 +5,7 @@
 # Source SHA-256: 4d0cab19271b1a8555e2daa2105939ca3fc8b79cabbcb299e94a98223e72dcf4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KLU-LORE.ANS by Klumzee (Reign); released in reign-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lore Promotional
 # SAUCE Author: Klumzee
 # SAUCE Group: Reign
@@ -31,5 +31,4 @@ Write-Host '
       [31m▐[0;1;35;41m▓[0m [34m▐[0;1;36;44m████▓[0;34m▀[0;1;36;44m▀████████▀[0;34m▀[0;37m [0;34m▐[0;1;36;44m▐██▓[0m [1;32m██[0;1;33;42m▓▓▓[0;1;32;40m██▄[0m [34m▀[0;1;36;44m▀████████▀[0;34m▀[0;37m  [0;31m█[0;1;35;41m█[0m
       [31m▐[0;1;35;41m▓[0m [34m▐[0;1;36;44m▀▀▀▀░[0m [1;32m▄[0;34m▀▀[0;1;36;44m▀▀▀▀[0;34m▀▀[0;37m [0;1;32m▄▀[0;34m▐[0;1;36;44m▀▀▀▓[0m [1;32m█████████▄[0m [34m▀▀[0;1;36;44m▀▀▀▀[0;34m▀▀[0;37m  [0;1;32m▀[0m [1;35;41m▐[0;32;45m█[0m
       [31m▐[0;1;35;41m█[0m [1;32m▄▄▄[0m    [1;32m▀▀[0m      [1;32m▀▀▀[0m        [1;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;32m▄▄▄▄▄[0;1;35m▀▀▀▀[0m
-      [31m▐[0;1;35m█▄▄[0;32m▄▄▄[0;1;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;32m▀▀▀▀[0m
-                                        [1;35mget your boogie on.[0m'
+      [31m▐[0;1;35m█▄▄[0;32m▄▄▄[0;1;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;32m▀▀▀▀[0m'

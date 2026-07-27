@@ -5,7 +5,7 @@
 # Source SHA-256: 107f541a62a90f4799fa526f358011d9b68d3525b2b45ade01dce3072a02a923
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2M-TCG.ANS by 2much4u (RioT Productions); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Cemetery Gates
 # SAUCE Author: 2much4u
 # SAUCE Group: RioT Productions
@@ -56,10 +56,6 @@ Write-Host '
  [1;30m░[0m [1;30m░[0m [1;30m░░░[0m  [1;30m░ ░ ░░░[0m [1;30m░[0m [1;30m░░[0m [1;30m░░[0m         [1;30m░░[0m [1;30m░░[0m [1;30m░[0m  [1;30m░░[0m [1;30m░[0m [1;30m░[0m         [1;30m░[0m [1;30m░░░[0m [1;30m░[0m [1;30m░[0m  [1;30m░[0m [1;30m░░[0m
   [1;30m░[0m [1;30m░ ░[0m [1;30m░░[0m  [1;30m░░░[0m   [1;30m░░[0m [1;30m░[0m [1;30m░[0m               [1;30m░[0m [1;30m░░[0m  [1;30m░[0m [1;30m░[0m             [1;30m░░░[0m [1;30m░[0m  [1;30m░[0m [1;30m░[0m
         [1;30m░[0m   [1;30m░[0m     [1;30m░[0m   [1;30m░[0m                           [1;30m\[0m
-                                                   [1;30mThe Cemetery Gates[0m
-                                                   [1;30m+o: Cryptiknight[0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mThis is for Cryptiknights request. I do them for free, so send em to me at:[0m
-[1;30m2much@approach.net[0m
-
-[1;30mGreets to AWE. [0m'
+                                                   [1;30m                  [0m
+                                                   [1;30m                [0m
+[1;30m--------------------------------------------------------------------------------[0m'

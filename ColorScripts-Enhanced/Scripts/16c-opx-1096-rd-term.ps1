@@ -5,7 +5,7 @@
 # Source SHA-256: aee702e20121e2c057832836823b62603ef356fdf0b3eea41f6102d4f30428c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-TERM.ANS by raider (opium graphix); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: terminat.lgo  ;)
 # SAUCE Author: raider
 # SAUCE Group: opium graphix
@@ -41,14 +41,14 @@ Write-Host '
 
 [1;31;40m--────-─-────----───-─-─----─--────-─---─---────-─-─--(chop, chop)-────-─-──----[0m
 
-                     [1;31mi have no fuckin'' idea why i drew this one.. [0m
-                  [1;31mdidn''t take too long time though.. well.. whatever..[0m
+                     [1;31m                                             [0m
+                  [1;31m                                                    [0m
 
-                       [1;31mif you want to..  if you''re using terminate of coz, [0m
-[1;31m              (well, if you don''t, you''re a lamer <g> ) you can rename this[0m
-                       [1;31mphile to  -> terminat.lgo <-  and put it in your [0m
-                          [1;31mc:\terminat\utils\ directory, and then you will [0m
-                             [1;31mhave a nice logo coming up every time you run [0m
-                      [1;31mterminate... =)[0m   [1;31m(cut away this first though <g> )[0m
+                       [1;31m                                                    [0m
+[1;31m                                                                           [0m
+                       [1;31m                                                 [0m
+                          [1;31m                                                [0m
+                             [1;31m                                              [0m
+                      [1;31m               [0m   [1;31m                                 [0m
 
 [1;31m----──-─-────---────-────---─-─-────---─---─-────--─----─-─-───----────-─-────--[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7d2239e28c2085e9e74ea1250c14d727ee4d01b9c2a346cf550e9a1a11de1aa0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ave-s$2.ans by avenger (black maiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: charset fuckups
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -29,7 +29,7 @@ Write-Host '
 [37;40m  .╬╬╬╬╬╬╬╬╬╝╝╬╬╬ ╬╬╬╝╝╬╬╬╬╬╬╬.╬╬╬╬╬╫╖╖╖╬╬╬╬╬╬╗╗╗╗╗╗.╬╬╬╬╬╬╬╬I╗╗╗╗╗╗.╬╬╬╬╬╬╬╬I[0m
 [37;40m  I╬╬╬╬╬╬╬╬╬╬╬╬╬╬ ╬╬╬╬╬╬╬╬╬╬╬╬I╚╬╬╬╬╬╬╬╬╬╬╬╬╬╬╙╚╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬[0m
      [37;40m╚╚╚╚╚╚═════╝ ╝═════╚╚╚╝"[0m    [37;40m`"╙╙╙╙╙╫╫╬╬╬╬[0m    [37;40m╙╙╙╙╙╙╝╝╝╝''    ╙╙╙╙╝╝╝╝╝╝─ [0m
-              [34;40m╬╬[0m                         [34;40m╓╖[0m     [36;40m digital abyss@[0m
+              [34;40m╬╬[0m                         [34;40m╓╖[0m     [36;40m               [0m
               [34;40m╬╬[0m                         [34;40m╬╬[0;30;44m▓▓▓[0m
               [34;40m╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╝╝[0;30;44m██[0m
 

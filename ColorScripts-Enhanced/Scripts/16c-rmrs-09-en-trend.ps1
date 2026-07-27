@@ -5,7 +5,7 @@
 # Source SHA-256: aab29c24a4fa758c3bfa444047bef66f83db91374b1b6d789861fcb62df5594c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-TREND.ANS by Endless Nameless (ACiD Productions); released in rmrs-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Trends
 # SAUCE Author: Endless Nameless
 # SAUCE Group: ACiD Productions
@@ -26,6 +26,4 @@ Write-Host '
 [35m.[0;34m  [0;1;37m                                           [0;35m       ''+._[0;1;35m_[0;35m_[0;1;35m_.+`[0m [1;30m.[0m
 [35m|[0;37m [0;1;30m [0;1;37ms½½½[0;1;33m½½½½½[0;1;32m½[0;1;33m½½[0;1;32m½½[0;1;33m½[0;1;32m½½½½½[0;1;33m½[0;1;32m½½½½½½½½[0;32m½½[0;1;32m½[0;32m½½[0;1;32m½[0;32m½½½½½½½½½½½½[0;1;30m½[0;32m½[0;1;30m½[0;32ms[0;1;30m,._ __ .+`[0m
 [35m` [0;34m [0;1;37mY$$½[0;1;33m½[0;1;37m½[0;1;33m½½½[0;1;37m½[0;1;33m½[0;1;32m½[0;1;33m½½½[0;1;32m½½[0;1;33m½[0;1;32m½½½½[0;1;33m½[0;1;32m½½½½½½½[0;32m½[0;1;32m½½½[0;32m½½[0;1;32m½[0;32m½½½[0;1;32m½[0;32m½[0;1;32m½[0;32m½i½i½½[0;1;30mi[0;32mi[0;1;30m:iii:::i :  :[0m     [1;30m:[0m
-[35m`._ ___[0;1;31m_[0;35m__ _ [0;1;31m_[0;35m __[0;1;31m___ _ _[0m   [1;31m_[0m          [1;31m_[0m            [1;31m_[0m             [1;31m_[0m
-[1;32m [0m
-[1men![0m [1mtrendz_____[0m      [1mfor horrid[0m'
+[35m`._ ___[0;1;31m_[0;35m__ _ [0;1;31m_[0;35m __[0;1;31m___ _ _[0m   [1;31m_[0m          [1;31m_[0m            [1;31m_[0m             [1;31m_[0m'

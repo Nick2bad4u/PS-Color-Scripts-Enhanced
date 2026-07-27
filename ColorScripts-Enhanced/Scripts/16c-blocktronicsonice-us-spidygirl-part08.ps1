@@ -5,7 +5,7 @@
 # Source SHA-256: 3f0b7d806664251ccb66cda5f9467a9c746847b885688a72861dd4b59f33a5c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-spidygirl.ans by Smooth + Tainted (blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ink 2 [remix]
 # SAUCE Author: tainted / smooth
 # SAUCE Group: blocktronics
@@ -27,5 +27,5 @@ Write-Host '
 [37m                                          [0;34m▀[0m
 
 [37m             [0;1;30m·[0m [1;30m░░-- ----------------------------------------- --░░[0m [1;30m·[0m
-                 [1;30mA Tainted & Smooth Joint  //  [0;1;37mBLOCKTRONICS[0;1;30m 2021[0m
+                 [1;30m                              [0;1;37m            [0;1;30m     [0m
              [1;30m·[0m [1;30m░░-- ----------------------------------------- --░░[0m [1;30m·[0m'

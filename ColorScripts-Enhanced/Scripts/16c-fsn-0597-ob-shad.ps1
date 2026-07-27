@@ -5,7 +5,7 @@
 # Source SHA-256: 7f1c352fb21cb954c87895286e155baf5b867c3c6e8b9f8e199031afc91c5b01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OB!SHAD.ANS by oddball (fewsion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: shad?!?
 # SAUCE Author: oddball
 # SAUCE Group: fewsion
@@ -32,8 +32,4 @@ Write-Host '
         [1;34m  ▀▀▀[0;1;34;44m▓[0;1;34;40m▀▀▀▀▀▀▀▀▀▀███[0;1;34;44m▒░░[0m      [1;32m▄[0m
                    [1;34m▐[0m [1;34m▐[0m [1;34m▌██[0;1;34;44m▓▒[0;34m▀[0m
 
-[37m--------------------------------------------------------------------------------[0m
-[37m urm.. that''s it for this month.. had alot to do.[0m
-[37m well, it says "shad" if you didn''t noticed. [0m
-[37m greets goes t0:[0m
-[37m danen, combo, magician, alla andra + nåra till + min katt.[0m'
+[37m--------------------------------------------------------------------------------[0m'

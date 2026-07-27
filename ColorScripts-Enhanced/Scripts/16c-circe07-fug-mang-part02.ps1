@@ -5,7 +5,7 @@
 # Source SHA-256: 9cde71a8ccde4408647750129af26cff666e7ea195f3d4b5a33a79ed69325533
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FUG-MANG.ANS by Fug*Arl*Dm (Circe Allways); released in circe07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Manga Chik
 # SAUCE Author: Fug*Arl*Dm
 # SAUCE Group: Circe Allways
@@ -50,9 +50,4 @@ Write-Host '
                                         [33m▄ [0m
 [35m                                       [0;33m▀[0;1;31;43m  [0;33m▄▄▄▄[0;35m                 [0m
 [34m [0;30;44m▓░░                                   [0;34;40m▀[0;33;40m▄▄[0;34;43mcirce[0;34;40m █[0;30;44mkapanga crew, 1999[0;34;40m██████████[0;1;34;40m░░[0m
-                                [1;31m [0m       [33m▀  ▀▀▀[0m
-    [1;30mOutlines and first colours                : Fugitivo[0m
-    [1;30mTouchups, colours, shading, and Background: Arlequin[0m
-    [1;30mFont                      [0m                [1;30m: Darkman & Arlequin[0m
-
-    [1;30mFor panoramix (aka Bandido) BBS.[0m'
+                                [1;31m [0m       [33m▀  ▀▀▀[0m'

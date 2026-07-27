@@ -5,7 +5,7 @@
 # Source SHA-256: bae5c1bb648754a1821fe34d278b107fe0f56e1788a4a9936e27a303a1db5ac0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: v-rev1.ans by Visionary (Revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Revival
 # SAUCE Author: Visionary
 # SAUCE Group: Revival
@@ -33,6 +33,4 @@ Write-Host '
            [1;36m▀██▓██▄██[0m       [1;36m▐▓▌[0m  [1;36m▀████[0;1;36;47m▓▓[0;1;36;40m███████▀▓[0m [1;36m░▀▀▀███▄██▓██[0;1;36;47m▓[0;1;36;40m█▀▀▀▒[0m
              [1;36m▐▓▌v!▀■[0m       [1;36m▄▀[0m    [1;36mrev██▌[0m [1;36m▐▓▌[0m    [1;36m▐[0m [1;36m■[0m [1;36m■▀[0m [1;36m▐▓▌[0m  [1;36m▒[0m   [1;36m▄■▓▌[0m
               [1;36m▀[0m              [1;36m [0m     [1;36m▓▓▌[0m   [1;36m▐[0m    [1;36m▐▓▌░[0m [1;36m▀[0m   [1;36m▀[0m   [1;36m░[0m  [1;36m▀[0m  [1;36m▐[0m
-              [1;36m░[0m    [1;36mansi done bye[0m   [1;36m▀▒[0m [1;36m▄[0m  [1;36m■[0m     [1;36m▀[0m       [1;36m▐[0m        [1;36m▐▓▌[0m
-                [1;36mVisionary alias ezy[0m              [1;36mare you feelin'' it?[0m
-           [1;36m(i bet you didnt expect that)[0m'
+              [1;36m░[0m    [1;36mansi done bye[0m   [1;36m▀▒[0m [1;36m▄[0m  [1;36m■[0m     [1;36m▀[0m       [1;36m▐[0m        [1;36m▐▓▌[0m'

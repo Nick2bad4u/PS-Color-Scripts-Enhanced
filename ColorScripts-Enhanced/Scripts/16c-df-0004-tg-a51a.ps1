@@ -5,7 +5,7 @@
 # Source SHA-256: 3d47d5293671085159c5b9d655feb2fdbc8d23f376de7299d525204ce5fcd2fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-A51A.ANS by The Guyver (Devil Forces); released in df-0004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: What? Area 51? no  no no nono....
 # SAUCE Author: The Guyver
 # SAUCE Group: Devil Forces
@@ -31,18 +31,18 @@ Write-Host '
    [1;30m█[0m█▄                                                                  ▄█[1;30m█[0m
    [1;30m██[0m█▄        [1;30mƒ[0;1;36mF    [0;1;30m¡[0;1;36mI[0m     [1;30mƒ[0;1;36mF    [0;1;30m┼[0;1;36mT    [0;1;30mÿ[0;1;36mY    [0;1;30m0[0;1;36mO[0m     [1;30mñ[0;1;36mN    [0;1;30mε[0;1;36mE[0m          ▄█[1;30m██[0m
    [1;30m███[0m█▄            [1m╒[0m                                    [1m╕[0m            ▄█[1;30m███[0m
-   [1;30m████[0;1;30;47m▄▄ [0m▄▄▄▄      [1;35m│[0m    [1mYou can like... put shit down[0m   [1;35m│[0m      ▄▄▄▄[1;30;47m ▄▄[0;1;30;40m████[0m
+   [1;30m████[0;1;30;47m▄▄ [0m▄▄▄▄      [1;35m│[0m    [1m                             [0m   [1;35m│[0m      ▄▄▄▄[1;30;47m ▄▄[0;1;30;40m████[0m
    [1;30m▀█████████[0;1;30;47m▄▄▄[0m█▄▄ [35m╘[0m           [1;37mhere :) - !tG?[0m           [35m╛[0;37m ▄▄█[0;1;30;47m▄▄▄[0;1;30;40m█████████▀[0m
 
 
 
 
    [1;30m /\[0m       [1;30m/\[0m       [1;30m/\[0m       [1;30m/\[0m      [1;30m /\[0m       [1;30m/\[0m       [1;30m/\[0m       [1;30m/\[0m      [1;30m /\[0m
---[1;30m/[0m--------[1;30m/[0m--------[1;30m/[0m-----([1;30m CuT HeRe, BiTcH! [0m)-[1;30m/[0m--------[1;30m/[0m--------[1;30m/[0m--------[1;30m/[0m-----
+  [1;30m [0m        [1;30m [0m        [1;30m [0m      [1;30m                  [0m  [1;30m [0m        [1;30m [0m        [1;30m [0m        [1;30m [0m     
 [1;30m/ [0m      [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m       [1;30m\/[0m
 
-Ok. i know that this took along time to get to you.. but i made it .. and i
-put the border around another day.. then the little text under area, and  left
-it for a week, because i got busy with school and my gf :)  the i changed the
-colors.. so like.. its done now :)
+                                                                           
+                                                                              
+                                                                             
+                                  
                                         - !tG? -[0m'

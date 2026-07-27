@@ -5,7 +5,7 @@
 # Source SHA-256: 6114a9909a87d04741420bec0df30a51b9af801e0a77f14e38032a3a6eaf0a34
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TUS-BS.ANS by tus (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: black sunshine
 # SAUCE Author: tus
 # SAUCE Group: READ THE INI FILE
@@ -41,24 +41,24 @@ Write-Host '
 [1;30m███████▀▀▀▀[0;36m [0;1;37m ▀ [0;1;30m▀█████▀[0;1;37m [0m [1;30m███[0m [1;30m█████[0m [1;30m███████▀▀▀▀[0;36m  [0;1;37m▀ [0;1;30m███[0m [1;30m██[0;1;30;47m▄[0;1;30;40m█[0m [1;30;40m███[0m [1;30;40m ███[0m [1;30;40m█████[0m [1;30;40m▀█████[0m
 [36m            [0m   [36m                                                                [0;37m [0m
 
-[35m  [0m               [35mblack sunshine. sop: Defective. running obv²  [0m
-[35m                 [xxx]     -       [xxx]       -      [xxxx][0m
+[35m  [0m               [35m                                              [0m
+[35m                                                            [0m
 
-    [37mld! - hey man. did you [0;1;33mbleach [0myour hair yet? <g>
-    Lord Strahd - good luck with [32mcancer [0;37mbro. hope it works as well as kgb![0m
-    [1;37mdos[0m - a ripper groop, I''m sorry I started :(
-    iCE - no matter what anyone says. yer still the kraddest of them all <g>
-    dosage - fuckin a, thanks for lettin me use your inet account. I owe you!
+    [37m                       [0;1;33m       [0m                  
+                                 [32m       [0;37m                                  [0m
+    [1;37m   [0m                                         
+                                                                            
+                                                                             
 
 ───────────────────────────────────────────────────────────────────────────────
-this has been a 99.984523 % original ansi (did the math on a pentium) by [1;30mTUS[0m of
-bleach and shiver. if you would like to get an ansi from me, find me on a mud,
-irc on #ansi, email me at dosage@netcom.com, or on my board, DOG, in 619. um..
-I wanna take a brief moment to give a shout out to an old buddy of mine, from
-619. he''s been in the scene a long mutha fuckin time, deserves some respect.
-Aventari, bro, keep yer board up and shit. it rocks, always has, always will.
-other then that, yer all free to look at the next ansi in this fuckin pack. haz
+                                                                         [1;30m   [0m   
+                                                                              
+                                                                              
+                                                                             
+                                                                            
+                                                                             
+                                                                               
 
--tus [shiver,[1;33mbleach[0m]
+             [1;33m      [0m 
 ───────────────────────────────────────────────────────────────────────────────
 [1;30mb   l   e   a   c   h         i   n          1          9          9          5[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d5163ec142ad158aab4eee785e267de6ce58bb7ff5cc941ac7db8370ed300538
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-SHA.ANS by sMOKiN' mINDfUCK! (!!!!1.1.RIOT!="(#Id!); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sewghawndalayya
 # SAUCE Author: sMOKiN' mINDfUCK!
 # SAUCE Group: !!!!1.1.RIOT!="(#Id!
@@ -38,9 +38,6 @@ Write-Host '
 
 [36m--(cut)--[0m
 
-[36mfor my board, sUGANDhALAYa.[0m
+[36m                           [0m
 
-[36mif your ∙■ART■∙group needs a dist, and doesn''t make packs that are 329847 megs,[0m
-[36msend mail to tftd@freenet.hut.fi :)[0m
-
-[34m-mINDfUCK[0m'
+[36m         ■   ■                                                                 [0m'

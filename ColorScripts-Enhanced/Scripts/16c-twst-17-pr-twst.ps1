@@ -5,7 +5,7 @@
 # Source SHA-256: f36ca26eb5bb3a85765ef8991b5f7bd9a7ab9ae34567003a028cf86246623430
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR-TWST.ANS by propane (twst-17); released in twst-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Twisted
 # SAUCE Author: propane
 # SAUCE Date: 19971005
@@ -51,9 +51,4 @@ Write-Host '
 
 
 
-░▒▓--------------------------------------------------------------------------▓▒░
-
-[1m:[0m   [1;31msorry this ansi turned out so badly.. hmm, nothing else to say, besides this[0m
-[1;37m:[0m  [1;31mis a guest appearance type thing, but i guess u figured that out for yourself[0m
-[1;37m:[0m [1;31m???   anyways i''m leaving... kiss my ass , bye[0m
-[1m:[0m                                                            [1;35m ..propane..[0m'
+░▒▓--------------------------------------------------------------------------▓▒░[0m'

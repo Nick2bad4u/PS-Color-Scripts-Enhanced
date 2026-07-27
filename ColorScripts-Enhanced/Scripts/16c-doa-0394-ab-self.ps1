@@ -5,7 +5,7 @@
 # Source SHA-256: fe3d97136353413531c2f0513d3e8de41330b8173cfd063e9d50c9a6c88fad17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-SELF.ANS by Anubis-Doa (doa-0394); released in doa-0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -14,17 +14,17 @@ Write-Host '
 
 [44m                                                                                [0m
 [44m                                                                                [0m
-[44m   [0;1;44mÅnpu, or Anubis the son   [0m [1;44m   [0;30;44m█ [0;1;37;44msepulchral chamber, and eventually presided  [0m
-[1;37;44m   of Osiris or Rä, some-   [0m  [1;37;44m   [0;30;44m█  [0;1;37;44mover the whole "funeral mountain". He       [0m
-[1;37;44m   times by Isis and some- [0m [1;37;40m▐ [0;1;37;44m  [0;30;44m▄[0m [30;44m▌ [0;1;37;44mis always regarded as the messenger   [0;1;33;43m▒▒▒[0;1;33;44m [0;1;33;43m▒▒[0m
-[1;33;44m   [0;1;37;44mtimes by Nephthys repre [0m [1;37;40m█ [0;1;37;44m  [0m  [30;44m▌ [0;1;37;44mof Osiris.                           [0;1;33;43m▒▒▒▒░▒▒[0m
-[1;33;44m   [0;1;37;44msents as a nature god   [0m [1;37;40m█ [0;1;37;44m  [0m   [1;37;44m      Another form of Anubis was the  [0;1;33;43m▒▒▒▒░▒▒[0m
-[1;33;44m   [0;1;37;44meither the darkest part[0m [1;37;40m▐█  [0;1;37;44m [0m   [1;37;44m  god Åp-uat or "opener of the ways", [0;1;33;43m▒░▒▒░▒▒[0m
-[1;33;44m   [0;1;37;44mof the twilight or the [0m [1;37;40m██  [0;1;37;44m [0m   [1;37;44m  who ws also depicted in the form   [0;1;33;43m▒▒▒░▒░▒▒[0m
-[1;33;44m   [0;1;37;44mearliest dawn.  He is  [0m [1;37;40m██  [0;1;37;44m [0m   [30;44m▌ [0;1;37;44mof a jackal; and the two gods are [0;1;33;43m▒▒▒▒▒░░▒▒[0m
-[1;33;44m   [0;1;37;44mdepicted either in     [0m [1;37;40m▐█  [0;1;37;44m [0m    [1;37;44m  are often confounded  On sepulc- [0;1;33;43m▒▒▒▒▒▒░░▒[0m
-[1;33;44m   [0;1;37;44mhuman form with a       [0m [1;37;40m█▌ [0;30;44m▌[0m     [30;44m      [0;1;37;44mhral steae and other monu-  [0;1;33;43m▒▒▒▒▒▒▒▒░[0m
-[1;33;44m   [0;1;37;44mjackal''s head, or as    [0m [1;37;40m█▌[0m            [1;37;44m  ments two jackals are fre  [0;1;33;43m▒▒▒░▒▒▒▒▒[0m
+[44m   [0;1;44m                          [0m [1;44m   [0;30;44m█ [0;1;37;44m                                             [0m
+[1;37;44m                            [0m  [1;37;44m   [0;30;44m█  [0;1;37;44m                                            [0m
+[1;37;44m                           [0m [1;37;40m▐ [0;1;37;44m  [0;30;44m▄[0m [30;44m▌ [0;1;37;44m                                      [0;1;33;43m▒▒▒[0;1;33;44m [0;1;33;43m▒▒[0m
+[1;33;44m   [0;1;37;44m                        [0m [1;37;40m█ [0;1;37;44m  [0m  [30;44m▌ [0;1;37;44m                                     [0;1;33;43m▒▒▒▒░▒▒[0m
+[1;33;44m   [0;1;37;44m                        [0m [1;37;40m█ [0;1;37;44m  [0m   [1;37;44m                                      [0;1;33;43m▒▒▒▒░▒▒[0m
+[1;33;44m   [0;1;37;44m                       [0m [1;37;40m▐█  [0;1;37;44m [0m   [1;37;44m                                      [0;1;33;43m▒░▒▒░▒▒[0m
+[1;33;44m   [0;1;37;44m                       [0m [1;37;40m██  [0;1;37;44m [0m   [1;37;44m                                     [0;1;33;43m▒▒▒░▒░▒▒[0m
+[1;33;44m   [0;1;37;44m                       [0m [1;37;40m██  [0;1;37;44m [0m   [30;44m▌ [0;1;37;44m                                  [0;1;33;43m▒▒▒▒▒░░▒▒[0m
+[1;33;44m   [0;1;37;44m                       [0m [1;37;40m▐█  [0;1;37;44m [0m    [1;37;44m                                   [0;1;33;43m▒▒▒▒▒▒░░▒[0m
+[1;33;44m   [0;1;37;44m                        [0m [1;37;40m█▌ [0;30;44m▌[0m     [30;44m      [0;1;37;44m                            [0;1;33;43m▒▒▒▒▒▒▒▒░[0m
+[1;33;44m   [0;1;37;44m                        [0m [1;37;40m█▌[0m            [1;37;44m                             [0;1;33;43m▒▒▒░▒▒▒▒▒[0m
 [1;33;44m   [0;1;37;44ma jackal.  In the    [0;32m██[0;1;32m█[0m                [1;32;44m         [0;1;37;44m-quently depicted; [0;1;33;43m▒▒▒░░▒▒▒▒[0m
 [1;33;44m   [0;1;37;44mlegend of Osirs and [0;32m███[0;1;32m█[0m           [1;37m██ █[0m          [1;37;44m  one of these rep [0;1;33;43m▒▒▒▒▒░░░░[0m
 [1;33;44m   [0;1;37;44mIsis, Anubis played[0;32m███[0;1;32m█[0m                          [30;44m█ [0;1;37;44m-resents Anubis,  [0;1;33;43m▒▒▒▒▒▒▒▒[0m

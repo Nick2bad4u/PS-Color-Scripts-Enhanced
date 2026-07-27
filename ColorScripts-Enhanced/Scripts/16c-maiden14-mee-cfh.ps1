@@ -5,7 +5,7 @@
 # Source SHA-256: c48414deb4c7478340fb0dcad52661ea5ecba9ac8aea98570e18269dd9b85d04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MEE-CFH.ANS by mEENO (mAIDEN!!); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: YEAH MUH FUCKIN BOARD!!!
 # SAUCE Author: mEENO
 # SAUCE Group: mAIDEN!!
@@ -38,9 +38,4 @@ Write-Host '
  [1;30m▐[0;1;30;46m▓[0;1;30;40m ▀█[0m▌░[1;30m▐[0m▌[33m▄[0;1;33;43m▄[0;33m▀[0m   [1;33m▄[0;33m▄[0;1;33;43m▄[0;1;33;40m▀[0m  [1;33;43m▓▄[0;1;33;40m▀[0m [33m█[0;1;33;43m░[0;33m▄[0m   [35m▀▀█[0;1;35;45m▐▓█▄▀[0;35m▄[0m      [1;35m▀[0;35m▀[0m   [37m▀[0m                      [35m▄▄█[0;1;35;45m▄█[0m
   [1;30;47m▓[0;1;30;40m▄██▌▄▀[0;33m▄[0;1;33;47m▓[0;1;33;43m▌[0m [1;33m▀[0;1;33;47m▓[0;1;33;43m▄[0;33m▀[0;37m [0;33m▄▄[0;1;33m▒▄▄[0m [33m▄[0;37m [0;33m▐[0;1;33;47m▓▓[0;1;33;43m▄[0;33m▄▄[0m   [35m█[0;1;35;45m▀████▄▄[0;35m█████[0;1;35;45m░  [0;35m██▐▌[0;1;35;45m ▄▄▄▄▄▄▄▄▄▄▄   [0;35m▀▀▀▀▌[0;1;35;45m ▐███[0m
   [1;30m▐████▀[0;1;33;43m▄[0;33m▄▀[0;37m [0;33m▄[0;1;33m▄█[0;1;33;43m▓[0m  [33m▀[0;1;33m▀[0;1;33;43m▓[0;1;33;40m█▄[0;33m▄[0;37m  [0;1;33;43m▐███▌[0;33m▌[0;37m  [0;35m██[0;1;35;45m████[0;1;35;46m▓▓[0;1;35;45m███████▄▄▄[0;35m█▐▌[0;1;35;45m ▐▀▀██▌▀▀▀▓▓███▄[0;35m░░▄▌█[0;1;35;45m▐█▓▓[0m
----------------------
-this is only for my board ...
-about the CFH thingie , i''ve asked permission to use it  .
-IF YOU USE THIS IN YOUR BOARD U''RE VIOLATING THE LAWS OF COPYRIGHT!!!
-
-[1;30m  minotaur@nitnet.com.br[0m'
+---------------------[0m'

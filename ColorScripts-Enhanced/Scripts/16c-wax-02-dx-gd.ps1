@@ -5,7 +5,7 @@
 # Source SHA-256: 0946f0fe8e6e3828e6d59151c3447e23a3bec831ef0a2af1e0756a6e5e556c54
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX-GD!.ANS by Drax (wax-02); released in wax-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -45,6 +45,4 @@ Write-Host '
 [1;30m       [0m   [1;30m::::11 77233366688888$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$8$$88$88886637[0m
                                        [33m[gdr][0m                              [1;30m [0m
 
-[1;30m -------------------------------------------------------------------------------[0m
-Yea, hi, i know it looks wak, but i AM wak, so whate fuck, enjoy!
-/drax[0m'
+[1;30m -------------------------------------------------------------------------------[0m'

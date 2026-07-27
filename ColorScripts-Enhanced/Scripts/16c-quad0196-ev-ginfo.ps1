@@ -5,7 +5,7 @@
 # Source SHA-256: b50686dd7d722b29b221e018e59e5a47254e8dd032e62877d4468be085b40822
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EV-GINFO.ANS by Evilive ([Quad-P]); released in quad0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ganja Magazine
 # SAUCE Author: Evilive
 # SAUCE Group: [Quad-P]
@@ -23,17 +23,15 @@ Write-Host '
 [32m `-------[0;1;35m/   [0;35m/[0m       [1;35m/  \[0m        [1;35m/[0m     [35m/    [0;1;35m/    /[0m     [1;35m/  \[0m         [35m/[0;32m---evl--''[0m
       [31m<> [0;1;35m\[0;35m__________/[0;1;35m\[0;35m__________/[0;1;35m\[0;35m____/____/[0;1;35m\[0;35m_________/[0;1;35m\[0;35m___________/ [0;31m<>[0m
        [32m-===========================================================-[0m
-[32m   [0;36m<--- -- ----+[0;35m> [0;37mwELCOME tO tHE gANJA wORLD hEADQUARTERS [0;35m<[0;36m+- -- -- --->[0m
+[32m   [0;36m             [0;35m  [0;37m                                        [0;35m [0;36m             [0m
                 [32m----===================================----[0m
-       [37mtHIS iS tHE oFFICIAL lIST oF tHE gANJA wORKfORCE aND mEMBERS![0m
+       [37m                                                             [0m
        [31m-[0;36m====[0;31m([0;36m/[0;31m)[0;32m==============================================[0;31m([0;36m\[0;31m)[0;36m===[0;31m-[0m
 
-           [37mEvilive[0m         [37mLawson Mundy[0m      [37mHacker[0m          [37mDevol[0m
-        [37mMescalito Ted[0m       [37mPennywise    Dragon Warrior   Kryptophonik[0m
-          [37mYooliseez[0m       [37mTarantula Man    Wolfsblood[0m         [37mdAtA[0m
-      [37mSome Mother Fucker[0m     [37mBad Omen[0m       [37mHairball[0m       [37mSpongehead[0m
-             [37mRav[0m         [37mSpastic Orangutan   Slaytar[0m        [37mControl[0m
+           [37m       [0m         [37m            [0m      [37m      [0m          [37m     [0m
+        [37m             [0m       [37m                                          [0m
+          [37m         [0m       [37m                           [0m         [37m    [0m
+      [37m                  [0m     [37m        [0m       [37m        [0m       [37m          [0m
+             [37m   [0m         [37m                           [0m        [37m       [0m
 
-       [32m-===========================================================-[0m
-         [37mWith my bad memory, I probably forgot some guyz. -evilive[0m
-          [37mif this is the case, leave me a comment, i will explain[0m'
+       [32m-===========================================================-[0m'

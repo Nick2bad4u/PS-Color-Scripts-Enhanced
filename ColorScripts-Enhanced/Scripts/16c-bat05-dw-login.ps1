@@ -5,7 +5,7 @@
 # Source SHA-256: 9df0cf5d29c4116355d4025fbe37c97deec97a75cc597d6bffa29d34dbb8db74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DW-LOGIN.ANS by darkwing (bad attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: login pic
 # SAUCE Author: darkwing
 # SAUCE Group: bad attitude
@@ -36,10 +36,4 @@ Write-Host '
     [32m█[0;37m [0;1;30m█▄▄▄▄▄▄▄▄▄▄▄▄█ █▄▄▄▄▄▄▄▄▄▄▄▄█ █▄▄▄▄▄▄▄▄▄▄▄▄█ █▄▄▄▄▄▄█ █▄▄▄▄▄▄▄▄▄▄▄▄█[0m [32m█[0m
     [32m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
             [33m [0m                              [37m   [0m
-[37m-----------------chop chop------------------------------------------------------[0m
-       [37m       [0m
-[37m   hi! this is an ansi that u can use on your board IF u mail me first at[0m
-[37m   darkwing@gim.net.... gr8 huh??  oki... well... now sum greets:[0m
-[37m   vader+allotherbatmembers, ghostface, rezaad, doom, ironeagle and mum[0m
-[37m   if i forgot u then take your life or sumthing![0m
-[37m    [0m'
+[37m-----------------chop chop------------------------------------------------------[0m'

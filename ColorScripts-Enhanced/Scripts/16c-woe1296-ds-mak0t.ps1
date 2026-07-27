@@ -5,7 +5,7 @@
 # Source SHA-256: 15787b7b057754460ed11ed2a16c65683e6fe55078e936067184c84a4ea3c304
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS!MAK0T.ANS by dressus (wOe); released in woe1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mak0t ansi
 # SAUCE Author: dressus
 # SAUCE Group: wOe
@@ -35,5 +35,4 @@ Write-Host '
  [32m            [0;1;32;42m▌[0;32m██[0;1;32;42m░[0;32m██▐█[0;1;32;42m░▒░▄[0;1;32;40m▀[0m [32m [0m
 [32m [0m         [1;32m▄▄[0;32m [0;1;32m▐[0;32m█[0;1;32;42m░▒░[0;32m█▐██[0;1;32;42m░▐[0m [1;32m▄▄[0;1;32;42m▀[0;1;32;40m▄[0m
          [1;32m▐[0;32m██[0;1;32;42m▀▀[0;32m██[0;1;32;42m░[0;32m██▌████[0;1;32;42m▀[0;32m███[0;1;32;42m [0;1;32;40m▌[0m
-          [1;32m▀[0;1;32;42m▄▄[0;32m█[0;1;32;42m▄[0;32m███▀[0;37m  [0;32m▀█[0;1;32;42m▄[0;32m█[0;1;32;42m▄▄▄[0;1;32;40m▀[0m
-            [1;32m [0m'
+          [1;32m▀[0;1;32;42m▄▄[0;32m█[0;1;32;42m▄[0;32m███▀[0;37m  [0;32m▀█[0;1;32;42m▄[0;32m█[0;1;32;42m▄▄▄[0;1;32;40m▀[0m'

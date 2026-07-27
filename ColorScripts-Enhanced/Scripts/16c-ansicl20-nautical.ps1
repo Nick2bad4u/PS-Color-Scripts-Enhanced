@@ -5,7 +5,7 @@
 # Source SHA-256: 2feba29bc63a3145f6620eaecf52eadd4cdf34792fc3c4653e66aceb03538f89
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NAUTICAL.ANS by Michael Arnett (ansicl20); released in ansicl20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -29,5 +29,4 @@ Write-Host '
 [37;40m   │[0;34;40m▓▓▓▓▓▓▓[0;34;47m▓▓[0;34;40m▓▓[0;34;47m▓[0;34;40m▓[0;34;47m▓[0;34;40m▓▓[0;34;47m▓[0;34;40m▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒░░░░░[0;33;40m█[0;34;40m░░[0;33;40m██▓▓█░█████▓████░█▒▓▓▒▓▓▒███[0;37;40m│[0m
 [37;40m   │[0;34;40m▒▒▒▒▒[0;34;47m▓[0;34;40m▒▒[0;34;47m▓[0;34;40m▒[0;34;47m▓[0;34;40m▒[0;34;47m▓▓[0;34;40m▒[0;34;47m▓[0;34;40m▒[0;34;47m▓[0;34;40m░░░[0;33;40m▄▒█[0;34;40m░░░░░░░░░[0;33;40m███▓█▓██▒▒▒▒░░█▒▒███▓▒▒█████▓▓▒░░░▒▒[0;37;40m│[0m
 [37;40m   │[0;34;40m▒▒[0;34;47m▓[0;34;40m▒[0;34;47m▓[0;34;40m▒░[0;34;47m▓▓[0;34;40m░░[0;34;47m▓[0;34;40m░░░[0;34;47m▓[0;34;40m░░[0;34;47m▓[0;33;40m▄▄█▓▒▒░█[0;34;40m░░[0;33;40m▓▓▓▓░█░▒▒█░██▒██▓▒██▓▓▓▒▒████████████▓▓▓[0;37;40m│[0m
-[37;40m   └─────────────────────────────────────────────────────────────────────┘[0m
-[37;40mMichael Arnett[0m'
+[37;40m   └─────────────────────────────────────────────────────────────────────┘[0m'

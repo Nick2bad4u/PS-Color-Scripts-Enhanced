@@ -5,7 +5,7 @@
 # Source SHA-256: 27cfd844db90e2ae917bef6fa9713e8861b0cd14e59c83bd1005576a347361cd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-PRJ.ANS by Christopher Robin (TekLordZ); released in tl-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Projekt Insanity
 # SAUCE Author: Christopher Robin
 # SAUCE Group: TekLordZ
@@ -34,7 +34,7 @@ Write-Host '
 [31;41m       [0;31;40m▄▄▄[0;1;30;40m▀▄▄▄[0m     ▐[1;47m▒[0;1;30;40m▄[0m               [1;37;40m▄[0;1;37;47m█[0;1;37;40m██[0;1;37;47m███[0m               [1;37;40m▄█[0m     [1;30;40m▄▄▄▀[0;31m▄▄▄██████[0;31;41m [0m
 [31;41m           [0;31;40m▄▄▄[0;1;30;40m▀  ▐ [0m▐[1;47m▒▓[0;1;40m▄▄▄ [0;31m▄▄▄▄▄▄▄ [0;1;37m▄██[0;1;37;47m███[0;1;37;40m██[0;1;37;47m████[0;1;37;40m▄▄▄▄▄▄▄▄▄▄▄███[0m▌ [1;30m▌  ▀[0;31m▄▄▄█████████[0;31;41m  [0m
 [31;41mMixin'' up stylez[0m [1;30;40m█  [0;1;37;47m░▒█[0;1;37;40m███▄[0;31m▀▌▐[0;1;31;41m▒░[0;1;37;40m▐████[0;1;37;47m███[0;1;37;40m█[0;1;37;47m███████[0;1;37;40m███████████[0;1;37;47m▓[0m  [1;30;40m█ [0;1;30;41m                [0m
-[31;41mand fucking shit[0;1;30;40m▐█  [0;1;37;47m░▒█[0;1;37;40m█████▄▌[0;1;31;41m░[0;31m▌[0;1;37m█████▄▀▀▀▀▀▄[0;1;37;47m██[0;1;37;40m█████████████[0;1;37;47m▓[0m  [1;30;40m█▌[0;1;30;41m                [0m
+[31;41m                [0;1;30;40m▐█  [0;1;37;47m░▒█[0;1;37;40m█████▄▌[0;1;31;41m░[0;31m▌[0;1;37m█████▄▀▀▀▀▀▄[0;1;37;47m██[0;1;37;40m█████████████[0;1;37;47m▓[0m  [1;30;40m█▌[0;1;30;41m                [0m
 [1;30;41m     [0;31;41mup :)     [0m [1;30;40m█▌ ▐[0m▐[1;47m░▒█[0;1;40m██████▄▄███[0;1;47m█[0;1;40m███████[0;1;47m██[0;1;40m██████████████[0m▌[1;30m▌ ▐█ [0;1;30;41m               [0m
 [1;31;41m░░░░░░░░░░░░░░░[0m [1;30;40m█▌ ▐ [0;1;37;47m░▒▓[0;1;37;40m██████████▀   ▀▀▀▀ [0;31m░ [0;1;37m▀████████████[0;1;37;47m▓[0m [1;30;40m▌ ▐█ [0;1;31;41m░░░░░░░░░░░░░░░[0m
 [1;31;41m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m [1;30;40m█  ▌ [0m▐[1;47m░▒▓[0;1;40m████████▌[0m     [31m░[0m      [1;37m▐██████████[0;1;37;47m▓[0m▌ [1;30m▌  █▌[0;1;31;41m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

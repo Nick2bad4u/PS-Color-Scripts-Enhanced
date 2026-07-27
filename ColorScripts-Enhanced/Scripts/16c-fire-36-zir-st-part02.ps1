@@ -5,7 +5,7 @@
 # Source SHA-256: f515bcb9b3d3c6ed36bae35e3719bfcd92fb33fd9114498f73172f18939ea6f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-ST.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: suicidal tendencies
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -59,11 +59,11 @@ Write-Host '
            [34m░░░░░░░[0m              [34m░░░░░░░░░[0m     [34m░░░░░[0m
 
 
-[37m [0;36m░░░░░[0;37m i search for personality[0;36m,[0;37m i look for things i cannot see[0;36m.[0m           [36m░░░░[0m
-[37m [0;36m░░[0;37m    love and peace flash through my mind[0;36m,[0;37m pain and hate is all i find[0;36m.[0;37m    [0;36m░░[0m
-[37m [0;36m░░[0;37m    find no hope in nothing new[0;36m,[0;37m and i never had a dream come true[0;36m.[0m       [36m░░[0m
-[37m [0;36m░░[0;37m    lies and hate and agony[0;36m,[0;37m through my eyes that[0;36m''[0;37ms all i see[0;36m.[0m            [36m░░[0m
+[37m [0;36m░░░░░[0;37m                         [0;36m [0;37m                               [0;36m [0m           [36m░░░░[0m
+[37m [0;36m░░[0;37m                                        [0;36m [0;37m                            [0;36m [0;37m    [0;36m░░[0m
+[37m [0;36m░░[0;37m                               [0;36m [0;37m                                  [0;36m [0m       [36m░░[0m
+[37m [0;36m░░[0;37m                           [0;36m [0;37m                     [0;36m [0;37m           [0;36m [0m            [36m░░[0m
 [37m [0;36m░░[0m                                                                          [36m░░[0m
-[37m [0;36m░░░   "[0;37mhow will i laugh tomorrow[0;36m,[0;37m when i can[0;36m''[0;37mt even smile today[0;36m?"[0;37m [0;36m[[0;37m-ST[0;36m][0;37m [0;36m░░░░░░[0m
+[37m [0;36m░░░    [0;37m                         [0;36m [0;37m           [0;36m [0;37m                  [0;36m  [0;37m [0;36m [0;37m   [0;36m [0;37m [0;36m░░░░░░[0m
 
 [37m [0;1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [1;30m[[0;36meof[0;1;30m][0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e7e78c242ed6fa7084cc874d446c669b664ac2f89d2b6ca60bcc14eb982c730f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SAVAG.ANS by Zeus Ii + Retribution (avenge); released in avenge01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Savage Lands
 # SAUCE Author: Multiple Artists
 # SAUCE Group: avenge
@@ -42,10 +42,4 @@ Write-Host '
 
                          [37m      [0m
               [37mT h e    S a v a g e   L a n d s[0m
-              [37m@ m e n a c e[0m
-
-              [37malmost all of the work> zii/avenge[0m
-              [37malmost none of the work> ret/avenge[0m
-
-              [1;30mand.. oh yeah. its original. no comic would have[0m
-              [1;30msuch a stupid thing :)[0m'
+              [37m@ m e n a c e[0m'

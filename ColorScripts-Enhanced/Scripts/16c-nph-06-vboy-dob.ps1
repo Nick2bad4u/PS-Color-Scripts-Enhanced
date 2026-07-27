@@ -5,7 +5,7 @@
 # Source SHA-256: e8dafa9697a4524ecc628fdbf2118a0ce014dec9c3feda1554d5581384f25ff7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VBOY-DOB.ANS by VibroBoy (nph-06); released in nph-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Doberman
 # SAUCE Author: VibroBoy
 # SAUCE Date: 19970608
@@ -56,5 +56,4 @@ Write-Host '
 [1;37;44m                       ░                              ▀▀▀▀▀▀▀▀▀▓▓▓▓▀    ░░░░░░  [0m
 [1;37;44m                       ▒                                [0;1;34;44m░░░[0;1;37;44m          [0;1;34;44m░░[0;1;37;44m         [0m
 [1;37;44m                                                                                [0m
-[1;37;44m [0;1;34;44m░░░░░[0;1;37;44m VibroBoy                                                                 [0m
-[1;34;44m       [0;1;37;44m                                                                         [0m'
+[1;37;44m [0;1;34;44m░░░░░[0;1;37;44m VibroBoy                                                                 [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 009b7d10d04a57ca1eab1c0f845068284a58fc939458fee6bc0ff51368b23880
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 47-FFOG.ANS by dflower (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: funeral fog
 # SAUCE Author: dflower
 # SAUCE Group: phobia
@@ -15,7 +15,7 @@
 
 Write-Host '
                         [31m  [0m
-[37m [0;35mi keep this part away from [0;1;35myou[0;1;30m..[0;35m [0m
+[37m [0;35m                           [0;1;35m   [0;1;30m  [0;35m [0m
 
                           [35m [0m
                  [35m   [0m
@@ -47,7 +47,4 @@ Write-Host '
 [37m [0;34m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;32m  [0;1;31m [0;33m■[0;1;31m▀▀[0;33m▌[0;1;31m [0m [1;31m [0;33m▐[0;1;31m▀▀[0;33m■[0;37m  [0;32m     [0m
                                [1;31m [0m [1;31m [0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-
- [31mmade for stridh''s funeral fog. [0m
-[37m [0;31mdedicated to emma ♥[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

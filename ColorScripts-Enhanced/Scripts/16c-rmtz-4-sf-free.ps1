@@ -5,7 +5,7 @@
 # Source SHA-256: 7e2552acea68d61e2055f017411544b32d5a5444f9b1e7b6a516f0cc7e389e97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-FREE.ANS by Spitfire (rmtz-4); released in rmtz-4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-16
 # Columns: 1-80
 
@@ -23,5 +23,4 @@ Write-Host '
     [31;45m░[0;35;40m███[0;37;40m [0;35;40m██[0;37;40m [0;31;45m░[0;35;40m███[0;37;40m [0;35;40m██[0;37;40m [0;31;45m░[0;35;40m███▀▀▀[0;37;40m [0;31;45m░[0;35;40m███[0;37;40m [0;35;40m██[0;37;40m [0;35;40m▄▄▄▄[0;37;40m [0;35;40m██ [0;31;45m░[0;35;40m███[0;37;40m [0;35;40m██[0;37;40m [0;31;45m░[0;35;40m███[0;37;40m [0;35;40m██[0;37;40m [0;31;45m░[0;35;40m███[0;37;40m [0;35;40m██[0;37;40m [0;31;45m░[0;35;40m███[0;37;40m [0;35;40m██[0m
 [37;40m  [0;35;40m ▄[0;1;35;45m░[0;35m███▄[0m   [1;35;45m░[0;35m█[0;31;45m░[0;35;40m█[0;37;40m    [0;1;35;45m░[0;35m███[0;37m [0;35m██[0;37m [0;1;35;45m░[0;35m███[0;37m [0;35m██[0;37m [0;1;35;45m░[0;31;45m░[0;35;40m██[0;37;40m [0;35;40m██[0;37;40m [0;1;35;45m░ [0;35m██[0;37m [0;35m██ [0;1;35;45m░[0;35m███[0;37m [0;35m██[0;37m [0;1;35;45m░[0;35m███[0;37m [0;35m██[0;37m [0;1;35;45m░[0;35m█[0;31;45m░[0;35;40m█[0;37;40m [0;35;40m██[0m
     [1;35;45m▒▄[0;35m██[0m    [1;35;45m▒▄[0;35m██[0m    [1;35;45m▒▄[0;31;45m░[0;35;40m█▄██[0;37;40m [0;1;35;45m▒▄[0;35m██▄██[0;1;35m [0;1;35;45m▒▄[0;35m██▄██[0;37m [0;1;35;45m▒▄[0;35m██▄██[0;37m [0;1;35;45m▒▄[0;35m██▄██[0;37m [0;1;35;45m▒▄[0;35m██▄██[0;37m [0;1;35;45m▒▄[0;35m██▄██[0;37m [0m
-[37m [0;31m  [0m              [35m░░ [0m                                                        [35m░[0m
-[35m    [0m                                                                           [1;35m [0m'
+[37m [0;31m  [0m              [35m░░ [0m                                                        [35m░[0m'

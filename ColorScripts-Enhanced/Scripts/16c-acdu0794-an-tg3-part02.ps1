@@ -5,7 +5,7 @@
 # Source SHA-256: e4e701d29704ef62fda263f04a7cae13bd1655f8e2ce72c0a5491d74f0926ed7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-TG3.ANS by Andrew Nice (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Thieve's Guild
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -55,5 +55,4 @@ Write-Host '
 [33m███████▄▄▀▓▓████▀░▒▓▓██▄░▒▄▀███░▓████[0m                [37m▀▀▀▀▀▀ ▀▀[0;35m█▀ ▄▒ ░ [0;1;36m██▌ [0;31m████[0m
 [33m███████▄▄▀▀▀▀███▄  ▀▀▒▓▓▒▓▓▓▄██▒████[0m        [35m▀▄▓▒░    ▄▄▄▄▓▓▓▓▓▓▓▓▓░   [0;1;36m▐[0;1;36;46m▓[0;1;36;40m▌ [0;31m████[0m
 [33m██████▀▄▄▓▓▓▄▄ ▀▄ ▀██▄▄▄▀██████▓███[0m            [35m▀   ■▀▀▀▀▀▀▀▀▀▀▀  ▒    [0;1;36m█[0;1;36;46m▓[0m [31m▐███▌[0;1;31m▐[0m
-[1;30m■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■[0m
-'
+[1;30m■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■[0m'

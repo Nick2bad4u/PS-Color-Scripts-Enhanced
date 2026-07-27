@@ -5,7 +5,7 @@
 # Source SHA-256: 1a112fb77295a35b09f47682229701f4ab659d0caf23435d796a35b97dcdb6b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-PLOGO.ANS by RaSCaL (BLACK MAiDEN); released in bm8-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Paradise Lost Logo
 # SAUCE Author: RaSCaL
 # SAUCE Group: BLACK MAiDEN
@@ -38,6 +38,4 @@ Write-Host '
                           [1m▀▄ [0;1;30m▀▄▀ [0;1;37m▄▀[0m
                             [1m▀▄▄▄▀[0m
 
-[1;30m---[[0mcut[1;30m]------------------------------------------------------------------------[0m
-[1;30mThis one is a little bit older, so I modded it a little bit.  Anyway it''s not my[0m
-[1;30mbest. Hey, who cares :) It''s a simple Logo.[0m [1;30m---rs°bm![0m'
+[1;30m---[[0mcut[1;30m]------------------------------------------------------------------------[0m'

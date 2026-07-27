@@ -5,7 +5,7 @@
 # Source SHA-256: e233a22140f333d82b69d8f9bca11ef5ed707285f5ea1207add6e55629a8b8d7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REP!FLS3.ANS by Reptical (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -26,7 +26,4 @@ Write-Host '
 [32m''└[0;1;32m4$$$}└4$$$$$$$$$$S%┐,[0;32m._    _.,┌%[0;1;32mS$P`[0;1;34m,[0;35m┐[0;1;32m`4$$%┐._[0;32m      _.┌[0;1;32m%$$Pⁿ4$:.,[0;32m▬┌:[0;1;32m$4$:    [0;33m`[0m
 [32m.┌*7[0;1;32m┘`   [0;32m [0;1;32m''┘²"^[0;32m~~``~^"²└`  [0;33m''[0;32m ''""[0;1;32m^`~ [0;1;34m.d$$[0;35mb.[0;32m`ⁿ╨┴ⁿ[0;1;32m`[0;32m   [0;33m''[0;32m  ~^"└²[0;1;32m`[0;32m    [0;1;32m''²°"[0;32m^~  [0;1;32m`[0;32m└\ [0;33m''[0;32m [0;1;32m [0m
 [32m`²[0;33m,[0;1;32m   [0m                             [1;32m [0;1;34m`"[0;35m²²"`[0m
-[1;32m    [0;32m/[0;33m/[0;1;32m  [0m     [1;32m [0m
-[1;32m   [0m          [1;32m [0m
-
-'
+[1;32m    [0;32m/[0;33m/[0;1;32m  [0m     [1;32m [0m'

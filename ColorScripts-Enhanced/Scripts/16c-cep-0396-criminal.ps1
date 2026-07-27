@@ -5,7 +5,7 @@
 # Source SHA-256: 5ebdbef2de201b42a6e32450a13a161af8b4cd273c75ac9e1335d9b986db541c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRIMINAL.ANS by Cephyr (cep-0396); released in cep-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -29,6 +29,6 @@ Write-Host '
 [1;37;40m [0;1;37;47m [0;1;35;45m██▓▒[0;1;35;47m█ [0;1;35;45m██▓[0m█[1;35;45m██▓▒[0;1;35;47m█ [0m [1;35;47m [0;1;35;45m██▓▒[0;1;35;47m█[0m█ [47m [0;1;35;45m██▓▒[0;1;35;47m█[0m█[1;35;45m██▓[0;1;35;47m█ [0m [1;35;47m [0;1;35;45m██▓▒[0;1;35;47m█▄[0;1;35;45m██▓▒[0;1;35;47m█ [0m [1;35;47m [0;1;35;45m██▓▒[0;1;35;47m█▄▄▄▄ [0m [1;35;47m [0;1;35;45m██▓▒[0;1;35;47m█▄[0;1;35;45m██▓▒[0;1;35;47m█ [0m
 [1;35;40m [0;1;35;47m ▀▀▀▀▀ ▀▀▀ ▀▀▀▀▀ [0m [1;35;47m ▀▀▀▀▀[0m█ [47m [0;1;35;47m▀▀▀▀▀[0m█[1;35;47m▀▀▀▀ [0m [1;35;47m ▀▀▀▀▀▀▀▀▀▀▀[0m▀ [47m [0;1;35;47m▀▀▀▀▀▀▀▀▀ [0m [1;35;47m ▀▀▀▀▀▀▀▀▀▀▀[0m▀
 
- [1m█▀[0m▀▀[1;30m▀ [0;1;35mC[0;35mR[0;37mi[0;1;30mMiNAL MiNDED BBS [0;1;37m■ [0;1;30mtONz of 0-7 DAY old PC-WaREZ [0;1;37m■ [0;1;30mX-RAtED [0;1;37m■ [0mP[35mC[0;1;35mB [0;1;30m▀ ▀[0m▀█
- [1m█[0m       [1;35mR[0;35mU[0;37mN[0;1;30mNiNG PC-bOARd 15.21 REG [0;1;37m■ [0;1;30mStAff: PUBLiC ENEMY [0;1;37m■ [0;1;30mLUMBERJ[0mA[35mC[0;1;35mK[0m        [1;37;47m▀[0m
+ [1m█▀[0m▀▀[1;30m▀ [0;1;35m [0;35m [0;37m [0;1;30m                 [0;1;37m■ [0;1;30m                             [0;1;37m■ [0;1;30m        [0;1;37m■ [0m [35m [0;1;35m  [0;1;30m▀ ▀[0m▀█
+ [1m█[0m       [1;35m [0;35m [0;37m [0;1;30m                        [0;1;37m■ [0;1;30m                    [0;1;37m■ [0;1;30m       [0m [35m [0;1;35m [0m        [1;37;47m▀[0m
 [1;37;40m [0m█▄[1;30m▄[0m▄[1;30m▄▄ ▄  [0;1;35mm[0;35mG[0;37mE [0;1;30mDiStRO-SitE [0;1;37m■ [0;1;30m3 liNES [0;1;37m■ [0;1;30m1 ANALOG V.FC [0;1;37m■ [0;1;30m2 iSDN 6[0m4[35mk[0;1;35mB [0;1;30m▄ ▄▄[0m▄[1;30m▄[0m▄▄▄[1m▄▄█[0m'

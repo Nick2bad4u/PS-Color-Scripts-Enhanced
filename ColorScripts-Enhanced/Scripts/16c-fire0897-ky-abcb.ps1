@@ -5,7 +5,7 @@
 # Source SHA-256: 33e27e127367b73143721337729d6af8839b9ca50ced23144d2f6cc1384621db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KY-ABCB.ANS by kyo (fire); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: abcb
 # SAUCE Author: kyo
 # SAUCE Group: fire
@@ -38,7 +38,4 @@ Write-Host '
  [1;30m█▀▀  ▀ ▀  [0m [1;30m▀▀▀▀█[0;1;30;46m▓░  [0;36m▓[0;1;30m▌▐[0;1;30;46m▓░▄[0;36m▀▀[0;1;30m▀▀▀▀▀▄▄[0;1;30;46m▓░ [0;1;36;46m░ ░▒░[0;1;30;46m▓[0;1;30;40m█[0m [1m      ░░  [0m                     [1m  [0m
  [1m  [0m          [1;30m   [0m [1;30m▀▀▀░▓▄▄▄▄▄ [0;1;30;46m▓░▀▀▀▀▀ ░ ▄▄▄[0;1;30;40m▓▀▀▀[0m [1m                                  [0m
                     [1;30m░[0m    [1;30m▀ ▀▀▀▀▀▀▀▀▀▀▀▀[0m
---------------------------------------------------------------------------------
-drawn by kyo, and for kyo''s board, the abcb cafe, call it, its cool, phresh and
-k-flux... oh btw, hrc1 has begun, and have a happy christmas during this fun-
-tastic year, peace, i''m outties the end.   ~kyo[0m'
+--------------------------------------------------------------------------------[0m'

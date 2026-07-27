@@ -5,7 +5,7 @@
 # Source SHA-256: e2826b9e69e2918b86d3ed655f0351af5b1a9b620829e424110b044c74ff1216
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UT-NAMI.ANS by untamed (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: namistai bbs
 # SAUCE Author: untamed
 # SAUCE Group: jasper
@@ -40,15 +40,4 @@ Write-Host '
 [1;30m  [0;1;33m  [0;33m▀▀▀▀▀▀▄▄▄▄▄[0;1;33m  [0;33m [0;1;33m [0m [33m▓[0;37m     [0;1;30m░[0m [1;30m ▓[0;1;30;47m░▓[0;1;30;40m▓█[0;1;30;47m▓[0;1;30;40m███▓[0m [1;30m░[0m [1;47m░▓[0;1;40m█████▒██████▌▐[0;1;47m▓▒░▒░░░▒▒░▓[0;1;40m█[0;1;47m▒░▒▓[0;1;40m███▓▒[0m
   [1;30m   [0m [1;30m░[0m        [33m▀▀▀▓[0;37m  [0;33m▓[0;37m      [0;1;30m ░▓▄▀██▐█▀ ░[0m   [1;47m░▓[0;1;40m████▓██████▌[0;1;47m▓▒░ ░░  ░░ ▒░░ ░▒[0;1;40m██▓▒░[0m
 [1;30m░[0m  [33m   [0;37m             [0;33m░ [0;37m [0;33m░[0;37m  [0;1;30m░[0m     [1;30m ░▓▌▀  ░[0m  [1;30m░[0;1;37m░▒▓███████████■[0;1;37;47m▓░ [0;30;47mnamistai[0;1;37;47m░[0;30;47mbbs[0;1;37;47m ░[0;1;37;40m█▓▒░░ [0m
-[1;30;40m--------------------------------------------------------------------------------[0m
-[1;30;40mi would like to take your reading time to give you a bit of information about [0m
-[1;30mmyself, because i know your probably wondering ''who the fuck is untamed?''[0m
-[1;30mwell, i used to draw back in 97/98 as cronik for a group called polyester, you[0m
-[1;30mmight remember, might not.. but anyway i left the scene till about 3 weeks ago[0m
-[1;30mand am drawing again for jasper.[0m [1;30mhopefully you like to look at my art as much[0m
-[1;30mas i enjoy creating it[0m
-
-[1;30mthis ansi is for aesthetics board namistai only. yes i know the font is shit.[0m
-[1;30mgreets to tnt,zv,jasper and to[0m [1;30mall those who have helped me along the way.[0m
-
-[1;30mrequests[0m [1;30mto[0m jetgtt18@hotmail.com[0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

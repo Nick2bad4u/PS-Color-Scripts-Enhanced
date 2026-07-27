@@ -5,7 +5,7 @@
 # Source SHA-256: 7d069cc33639291139365fc3fa44526cb10ebb691c0582c8ad613c4972f6c577
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-CIT3.ANS by Defiant (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Citadel 8
 # SAUCE Author: Defiant
 # SAUCE Group: Root
@@ -34,6 +34,6 @@ Write-Host '
 [34m█▐ [0;35m█▄▄[0;1;35;45m▄[0m    [35m▀▓  [0;1;33m░[0;33m░░░  ▄▌[0;35m▀■  [0;34m░   [0;35m▄  [0;34m▀▀▀ ▀   ░░▀ ░[0;1;34m▐   [0;34m░   ░░  [0;35m■ ▀  ▀▌   ▀[0;1;35;45m■▄[0;35m█▓  [0;34m█ ▌[0m
 [34m█▐ [0;35m▓░ ▀▌    ▐░░ ░  [0;33m▀▀▒[0m                                           [35m■   [0;1;30m░[0;35m▐▀ ▌  [0;34m▄ ▌[0m
 [34m▌▐ [0;35m▌░   ▀ ■ ▀[0m        [33m░   [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand here    [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand here    [0;35m▐   ▄▀  ▌    [0;34m▌[0m
-[34m ▐ [0;35m▌ [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand here    [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand here [0;1;30m░░ [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand here[0m     [35m▀■[0m     [35m▀  ░ [0;34m▌[0m
-[34m ▀ [0;35m▌ [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand here    [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand here    [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand here[0m         [35m░[0m     [1;35m░ [0;34m▀[0m
+[34m ▐ [0;35m▌ [0;32m [0;1;32m [0;32m  [0;1;31m [0;31m               [0;32m [0;1;32m [0;32m  [0;1;31m [0;31m            [0;1;30m░░ [0;32m [0;1;32m [0;32m  [0;1;31m [0;31m           [0m     [35m▀■[0m     [35m▀  ░ [0;34m▌[0m
+[34m ▀ [0;35m▌ [0;32m [0;1;32m [0;32m  [0;1;31m [0;31m               [0;32m [0;1;32m [0;32m  [0;1;31m [0;31m               [0;32m [0;1;32m [0;32m  [0;1;31m [0;31m           [0m         [35m░[0m     [1;35m░ [0;34m▀[0m
 [34m ░ [0;35m▀ [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand here    [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand here    [0;32m([0;1;32mx[0;32m) [0;1;31mc[0;31mommand [0;35m▄    ▄▄▄▄ ▄▄▄▓▄▄█▄[0;1;35m▄▓▄▌[0m'

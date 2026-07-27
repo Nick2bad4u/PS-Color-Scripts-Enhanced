@@ -5,7 +5,7 @@
 # Source SHA-256: a441fea68c7fcc602bb42ec3833f4194589d9cf5b6353c8eed2454243ca09b8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT-TTDD.ANS by Nootropic (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: This Mortal Coil (sorta)
 # SAUCE Author: Nootropic
 # SAUCE Group: Apathy
@@ -39,5 +39,4 @@ Write-Host '
              [1;30m▒█[0;1;30;45m▒▒[0;35m█[0;1;31;45m░[0;35m██[0;1;31;45m▒▒▐▓██▀▄[0;35m████▄░[0m          [1;30m░[0m   [1;30m░░[0;35m ▄▄█[0;1;31;45m░▄█▒▒[0;35m█▓█[0;1;30;45m▐[0;1;30;40m▓[0;1;30;45m▓[0;1;30;40m█▒[0;35m  [0;1;30m░[0;35m  [0;1;30m░░[0m
               [1;30m▐▓[0;1;30;47m█[0;1;30;45m░░[0;35m█████[0;1;31;45m▒░░[0;35m██[0;1;31;45m▒[0;35m█[0;1;31;45m░[0;35m█████▄[0;1;30m▄▄▓[0;1;30;45m▓[0;35m▄▄▄▒▒▄█[0;1;31;45m▒▓▄▄▌▐█▀░[0;35m██▓█[0;1;30;45m▒▓[0;1;30;40m██▓░░[0m
                [1;30m▒[0;1;30;47m█[0;1;30;45m▒▒[0;35m█[0;1;30;45m░[0;35m███[0;1;31;45m░[0;35m███▓████[0;1;31;45m░░[0;35m████[0;1;30;45m█▓▒░[0;35m█▓███[0;1;31;45m░[0;35m██[0;1;31;45m▒▒[0;35m█[0;1;31;45m▀[0;1;30;45m  [0;35m█[0;1;30;45m▒▒▄▓[0;1;30;40m██▓▒▒[0m
---------------------------------------------------------------------------------
-this is for trust (tt) of TDD. you wanted a matrix... :)[0m'
+--------------------------------------------------------------------------------[0m'

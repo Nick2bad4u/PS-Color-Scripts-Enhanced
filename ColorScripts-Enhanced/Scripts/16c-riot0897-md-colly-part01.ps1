@@ -5,7 +5,7 @@
 # Source SHA-256: 03cf36b23ee2c6c231f961866de2fe7bfb057bb40e04df5b4d5f4baa77a82477
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: md-colly.ans by metal defender (rap); released in riot0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ansi colly for august pack
 # SAUCE Author: metal defender
 # SAUCE Group: rap
@@ -31,16 +31,16 @@ Write-Host '
   [34;40m▐█[0;1;34;44m▒██[0;34;40m█[0;36;40m ▀███▄▄███ ▀███▄▄█[0;1;36;46m▒▒[0;36;40m▀[0m  [36;40m▀▀▀▀▀[0;1;36;46m▒▒▄▒[0m  [36;40m▀▀▀▀▀█[0;1;36;46m▒▒[0;36;40m█ ██[0;1;36;46m▒▒[0;36;40m▀▀▀▀[0;34;40m ▄[0;1;34;44m▒[0;33;44m▒[0;34;40m▄[0m
 [37;40m [0;34;40m▄[0;1;34;40m█[0;34;40m█[0;1;34;44m▒▒[0;34;40m█[0;1;34;44m▒▒[0;1;34;40m▄▄▄[0;34;40m▄[0;1;34;40m▄▄[0;34;40m▄[0;1;34;40m▄[0;34;40m▄[0;1;34;40m▄[0;1;34;44m▒▒[0;1;34;40m▄[0;34;40m▄[0;1;34;40m▄[0;34;40m▄[0;1;34;40m▄▄[0;34;40m▄[0;1;34;44m▒▄[0;34;40m█[0;1;34;44m▒[0;34;40m█▄[0;1;34;44m▄[0;34;40m▄▄[0;1;34;44m▄▄[0;1;34;40m▄[0;34;40m▄[0;1;34;40m▄█[0;34;40m██[0;1;34;40m█▄[0;34;40m▄▄▄▄▄▄▄▄▄▄█[0;1;34;44m▄▄[0;34;40m█[0;1;34;44m▒▀▒▒[0;34;40m▌[0m
 [1;34;44m▐[0;1;34;40m█[0;34;40m▌▀[0;1;34;40m█[0;1;34;44m▄▄[0;1;34;40m▀█[0;1;34;44m [0;34;40m▄[0;1;32;40mmoney talks and[0m   [1;34;40m▀[0;1;34;44m▒[0;34;40m█[0m  [34;40m▀▀▀▀█[0;1;34;44m▒[0;1;36;40m [0;34;40m█[0m  [34;40m▀▀▀[0;1;34;40m█[0;34;40m▀▀▐[0;33;44m▒[0;1;34;44m▒██▒▒▀[0;34;40m█[0m  [34;40m▀▀[0;1;34;44m▒[0;34;40m█[0;1;34;40m▀[0m
-[34;40m▀[0m  [1;34;40m▐[0;34;40m█[0;1;34;40m█[0m    [1;34;40m▀[0;34;40m█[0;1;34;40m▄[0;1;32;40mbullshit walks[0;1;34;40m▄[0;34;40m ▀▀▐▌[0m     [34;40m▐▌[0;1;36;40m [0;1;34;40m▐▌[0m   [34;40m▐▌[0m   [34;40m▀▀█[0;1;34;44m▒▒[0;1;36;40m [0;34;40m▐▌[0m    [34;40m▐[0;1;34;40m▌[0m
+[34;40m▀[0m  [1;34;40m▐[0;34;40m█[0;1;34;40m█[0m    [1;34;40m▀[0;34;40m█[0;1;34;40m▄[0;1;32;40m              [0;1;34;40m▄[0;34;40m ▀▀▐▌[0m     [34;40m▐▌[0;1;36;40m [0;1;34;40m▐▌[0m   [34;40m▐▌[0m   [34;40m▀▀█[0;1;34;44m▒▒[0;1;36;40m [0;34;40m▐▌[0m    [34;40m▐[0;1;34;40m▌[0m
 [1;34;40m▀[0m  [1;34;40m▀[0;34;40m [0;1;34;40m▌[0m  [34;40m▄ [0;1;34;40m▀[0m    [34;40m▀[0m  [1;34;40m▄[0m    [34;40m▀[0m        [34;40m▀ ▄▄ ▄▀[0m   [1;34;40m▀[0;34;40m ▄ ▀[0m           [1;34;44m█[0m    [1;34;44m▄[0m
 [34;40m ▀[0;37;40m [0;1;34;40m▄[0;37;40m [0;34;40m▌[0;1;34;40m▀[0m                                                   [1;34;40m▐[0;34;40m▌[0m  [1;34;40m▐[0;34;40m▌[0m
      [34;40m▀[0m       [35;40m▒▐[0;1;32;45ma[0;35;40m▌nsi colly[0;1;36;40m [0;35;40m▒[0m                               [34;40m▀▄[0;1;34;40m▄[0;34;40m▀[0m
 
-     [1;30;40mhmm... hi... yeah... i release that damned colly... shit... i didn''t do[0m
-[1;30;40m much this month, but even the most of big elite stuff (over 20 lines) comes[0m
-[1;30;40m to artpack of my group, radical art prodz... so not much here... and sum my[0m
-[1;30;40m works you can see in flux artpack... i''m as guest there... yeah... fuck...[0m
-[1;30;40m i said all i wanted... now view that damned colly...[0m
+     [1;30;40m                                                                       [0m
+[1;30;40m                                                                            [0m
+[1;30;40m                                                                            [0m
+[1;30;40m                                                                           [0m
+[1;30;40m                                                     [0m
 
 [1;30;40m------------------------------------------------[atomique logo]-----------------[0m
                               [1;31;40m▄▄[0m

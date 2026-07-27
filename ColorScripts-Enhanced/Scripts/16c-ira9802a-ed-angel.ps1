@@ -5,7 +5,7 @@
 # Source SHA-256: feb60ba023b8987f24706de25c78936cf8476e1da46b7038bd765b1174fe20e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ED-ANGEL.ANS by enelf daragard (irato); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: angel eyes
 # SAUCE Author: enelf daragard
 # SAUCE Group: irato
@@ -16,7 +16,7 @@
 
 Write-Host '
                        [1;30m ■[0m
-      [31m.[0m   [1;30mcystic proph▄[0;31m.[0;1;30mecy[0m   [33m▄[0m     [33m▄[0m          [31m.·[0m    [1;30m [0m [1;30m·[0m       [31m.[0m
+      [31m [0m   [1;30m            ▄[0;31m [0;1;30m   [0m   [33m▄[0m     [33m▄[0m          [31m  [0m    [1;30m [0m [1;30m [0m       [31m [0m
    [33m.[0;37m   [0;31m■[0;37m  [0;33m▀[0;37m [0;33m▄[0;37m  [0;33m▀[0;37m [0;1;30m▄▄▓▄▀[0m▄[1;30m▄[0;1;30;47m▓▒▒[0;1;37;47m▒[0m▄▄[1;30m [0m [33m▄[0;37m [0;33m▓█▀█▄[0;1;32m [0;33m▄[0;1;32m  [0;31m■[0m    [32m  [0;1;30m.[0;1;31mx[0;31mXXXXXXXXXXX[0;1;31mx[0;1;30m.[0;32m  [0m   [1;31m.[0m
  [32m [0;1;30m [0m [33m■[0;37m   [0;31m▀[0;37m [0;33m▄▓[0;37m  [0;1;30m▄█▓███▄▀█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓▒▒[0;1;37;47m░[0;1;30;47m░[0m▄ [33m▀▀██▀[0;1;32m  [0m [1;32m [0m               [1;30m.[0m
  [32m [0m    [33m▄[0;37m  [0;31m█▄[0;1;30m.[0m [1;30m▀▒█▀▀ ▄▄▄[0m▄▄▄ [1;30m▀[0;1;30;47m▓▓▒░░[0;1;37;47m▒[0m▄[1;30m  [0;33m▀[0;1;32m [0;31m▄[0;1;32m [0;31m▀[0;1;32m [0;32m   [0;31mxxxxxxxxxx[0;1;31mx[0;32m   [0;1;30m.[0;1;31m.[0;31m.[0;1;31m.[0;1;30m.[0;1;31m.[0;31m.[0;1;31m.[0;1;30m.[0;1;31m.[0;31m.[0;1;31m.[0m
@@ -37,11 +37,4 @@ Write-Host '
     [1;30m▀░▓▓[0;1;30;47m▓[0;1;30;40m█▓█[0;1;30;47m▒[0;1;30;40m██[0;1;30;47m▀█[0;1;30;40m█[0;1;30;47m▓▓▒▓[0;1;30;40m████▀[0m [31m▄[0;37m [0;1;30m▀▀▀▀[0m [1;30m▄[0m [1;31m.[0;1;32m [0;1;30m8[0m    [31m■[0;32m  [0;1;30mprompt/command:[0m [1;30mx ... ..[0m [1;30m.[0m
    [31m▀[0;1;31m▄[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m  [1;31m▄[0;31m▀▀▀▓▀▀[0;1;31m▄ [0m    [1;30m)[0m         [31m·[0;37m [0;1;30m       [0;32m  [0;37m  [0;31m.[0m            [1;30m.[0m
        [31m [0;37m [0;33m▀▀[0;37m  [0;1;30m    [0;33m▀[0;1;30m  [0;33m  [0;37m [0;33m.[0m            [37m [0m
-[37m+-------------------------------------------- --- - -     -[0m
-
-[37mMon premier ansi releasé a vie.. Plutot moche, mais j''imagine qu''il y a un[0m
-[37mdébut a tout. Il me reste a travailler pas mal sur mon shading, et j''en suis[0m
-[37mconscient :)[0m
-
-[37mgreets (et ben oui): _imodium, darkshadow, bmage et tout le monde de gray.[0m
-                    [37m                 (et irato lui meme tant qu''a y etre).[0m'
+[37m+-------------------------------------------- --- - -     -[0m'

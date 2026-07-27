@@ -5,7 +5,7 @@
 # Source SHA-256: 635c4d0f58d0f17b2c1dbfb223d5f444dbe8ff162b0cf31a087ce5f6a56a272d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZR33-TST.ANS by Zoltar + Eerie (Mistigris); released in mist1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Screaming Tomato
 # SAUCE Author: Zoltar/Eerie
 # SAUCE Group: Mistigris
@@ -35,6 +35,4 @@ Write-Host '
    [36m░[0m          [36m▓[0m                         [36m░ ▀▄■▀[0m                      [35m▒[0m
               [36m▒[0m                            [36m▓[0m                        [35m░[0m
               [36m░[0m                            [36m▒[0m
-                                           [36m░[0m
-
-         [35mpsycho joint font courtesy of zOlTiE and eErIe from mIsTiGrIs[0m'
+                                           [36m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 852f71827ca42d71915af97e14e6506b0bf7814c37ffa569dfd87e4c742fea36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ES-FOS1.ANS by estatic (cia%fos); released in fos-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fistful of steel
 # SAUCE Author: estatic
 # SAUCE Group: cia%fos
@@ -30,8 +30,6 @@ Write-Host '
 [35m▀[0;1;35;45m░░[0;35m██▓███▒██▀[0;37m [0;32m░[0;1;32;42m▀▀▓[0;1;32;46m▓█[0;1;32;42m▀▀▓▀▀[0m [35m██[0;1;35;45m░░[0;35m▌[0;32m▐█[0;1;32;42m ▀▓█▄ ▄[0;1;32;46m▓█[0;1;32;42m█[0;1;32;46m▓[0;1;32;42m█▀[0;32m█▌[0;1;32;42m▀█▓█▒▀[0;32m▒░▓█[0;1;32;42m▓[0;32m█▓░░░[0;35m▄█████▓█[0;1;35;45m░░[0;35m▒███▀[0m
 [1;30mes?!?[0;35m▒[0m   [35m░[0m     [32m▀▓█[0;1;32;42m▓[0;32m█▓[0;1;32;42m▀[0;32m█▀▓▀[0;37m      [0;32m▀▓████[0;1;32;42m▀▀▀▀▓▀[0;32m██░▀▓[0;1;32;42m ▒[0;32m█[0;1;32;42m░[0;32m▓▀▀▀▀[0;1;32;42m▒[0;32m [0m          [35m▒[0m   [35m░[0;37m     [0m
 [37m     [0;35m░[0;37m            [0;1;32;42m▒[0m                       [1;32;42m▒[0m       [1;32;42m░[0m       [1;32;42m░[0m           [35m░[0;37m         [0m
-                  [1;32;42m░[0m [1;34;44mf[0;34mistful[0;37m [0;1;34;44mo[0;34mf[0;37m [0;1;34;44ms[0;34mteel[0;37m [0;1;34m1996[0m [1;32;42m░[0m       [1;32m░[0m       [1;32m░[0m
+                  [1;32;42m░[0m [1;34;44m [0;34m      [0;37m [0;1;34;44m [0;34m [0;37m [0;1;34;44m [0;34m    [0;37m [0;1;34m    [0m [1;32;42m░[0m       [1;32m░[0m       [1;32m░[0m
                   [1;32m░[0m                       [1;32m░[0m
-[1;30m--[0m
- [1;30mugh. not my style, but it was a kind of practice font for the coming compos[0m
- [1;30mon IRC, this was done in about 20 minutes. soon i''ll rule the compos! :)[0m'
+[1;30m--[0m'

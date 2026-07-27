@@ -5,7 +5,7 @@
 # Source SHA-256: 1196a5a086f6f1408b8a692c0cd9e2a12b33925d2c5363bdfd228e8932fb9b05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPFATTR.ANS by Sparr (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 36-79
 # Columns: 1-80
 
@@ -45,12 +45,12 @@ Write-Host '
 [1;30;40m▌[0;31m▐[0;31;43m▒▒[0;31;40m▌ ▐[0;31;43m▒[0;30;41m/[0;31;43m▒[0m    [31;40m▐[0;31;43m▒▒[0m     [31;40m▐[0;31;43m▒▒[0m [31;43m▒▒[0;31;40m▌ ▀[0;31;43m▒▒[0m [31;40m▐[0;31;43m▒▒[0;31;40m▌ ▐[0;31;43m▒[0;30;41m/[0;31;43m▒[0m [31;43m▒▒[0;31;40m▌  ▄[0;31;43m▒[0;31;40m▌    ▐[0;31;43m▒▒[0m [31;43m▒▒[0m [31;43m▒▒[0;31;40m▌  [0;31;43m▒▒[0;31;40m▌[0;31;43m▒▒▒[0m [31;40m▐[0;31;43m▒▒[0;31;40m▌[0;1;30;40m▐[0m
 [1;30;40m▌ [0;31m█████▌██▌   ▐██[0m     [31m▐██ ██▌  ██▌ █████▌██▌▐██████▀    ▐██ ██ ▀██████ ██▀ ▐██▌[0;1;30m▐[0m
 [1;30m▌[0m                                                                              [1;30m▐[0m
-[1;30m▌[0m                             [1;30m(She saw Genesis)[0m                                [1;30m▐[0m
+[1;30m▌[0m                             [1;30m                 [0m                                [1;30m▐[0m
 [1;30m▌[0m                                  [1;31mNOT! [0;31m=)[0m                                     [1;30m▐[0m
 [1;30m▌[0m                                                                              [1;30m▐[0m
-[1;30m▌[0m           [1;37mFatal Attraction [0m/ [1mfoft Trading [0m/ [1mice Member [0m/ [1mpcExpress[0m           [1;30m▐[0m
-[1;30m█░[0m                   [1;37mOperator Genesis [0m/ [1mLocated in Finland[0m                     [1;30m█[0m
-[1;30m█░░[0m                           Ansi by Sparr [1;30m[[0;1;37mi[0;1;36mc[0;1;34me[0;1;30m][0m                              [1;30m█[0m
+[1;30m▌[0m           [1;37m                 [0m  [1m             [0m  [1m           [0m  [1m         [0m           [1;30m▐[0m
+[1;30m█░[0m                   [1;37m                 [0m  [1m                  [0m                     [1;30m█[0m
+[1;30m█░░[0m                                         [1;30m [0;1;37m [0;1;36m [0;1;34m [0;1;30m [0m                              [1;30m█[0m
 [1;30m█▒▒░[0m                                                                           [1;30m█[0m
 [1;30m█▓▓▓▒▒▒░░░[0m                                                                 [1;30m▄▄▄▄█[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

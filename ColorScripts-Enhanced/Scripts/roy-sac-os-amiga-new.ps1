@@ -5,7 +5,7 @@
 # Source SHA-256: 680b324dbe0ff7cae218b7bc76b5bc41102e39627f607a0e347f80459544d297
 # Source License: FAL-1.3
 # Source Attribution: Roy-OS-AmigaNew.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20140712
 # SAUCE Dimensions: 80x42
 # SAUCE Font: Amiga Topaz 2+
@@ -16,7 +16,7 @@ Write-Host '
                                         [1;30;40m:[0m                                  [1;30;40m|[0m
           [1;32;40m_/\_[0;32m___[0m                    [1;30m---+----------------------------------+-[0m
           [32m\[0;1;33m [0;1;30m_[0;1;33m  [0;32m_[0;1;33m [0;1;32m\__[0m        [1;31m_____[0;33m__[0m     [1;30m|[0;1;33m  [0;1;30m:[0m                         [1;30m<\_/[0m>[1;33m [0;1;30m|[0m
-          [32m/[0;1;30m/[0;32m/[0;1;33m [0;32m/[0;37m\[0;1;33m\ [0m [1;32m/[0m\[1;33m [0m   [1;33m  [0;1;31m/[0;1;33m [0;1;31m__[0;1;33m   [0;33m/[0;37m\[0;1;33m    [0;1;30m:[0;1;33m  [0;1;30m:[0;1;33m   [0;1;37mR[0mo[1;30my[0;1;37m i[0ms[1m g[0moin[1;30mg [0;1;37mO[0mldskoo[1;30ml[0;1;33m [0;1;30m_<[0;1;37m"[0m>[1;30m_[0;1;33m [0;1;30m|[0m
+          [32m [0;1;30m [0;32m [0;1;33m [0;32m [0;37m [0;1;33m  [0m [1;32m [0m [1;33m [0m   [1;33m  [0;1;31m [0;1;33m [0;1;31m  [0;1;33m   [0;33m [0;37m [0;1;33m    [0;1;30m [0;1;33m  [0;1;30m [0;1;33m   [0;1;37m [0m [1;30m [0;1;37m  [0m [1m  [0m   [1;30m  [0;1;37m [0m      [1;30m [0;1;33m [0;1;30m  [0;1;37m [0m [1;30m [0;1;33m [0;1;30m [0m
          [32m/[0;1;33m [0;1;30m>[0;32m\<[0;1;33m__/ [0;1;32m<_[0;32m_[0;37m\[0;1;33m   _/_[0;1;31m/[0;1;30m\[0m<[1;33m  [0;33m<__[0;37m\[0;1;33m   [0;1;30m.[0;1;33m  [0;1;30m.[0m                        [1;33m [0;1;30m\_[0m__/[1;33m [0;1;30m|[0m
         [32m/[0;1;33m [0;1;30m(_[0;32m/[0;1;33m  [0;32m__[0;1;33m  [0;1;30m_[0;1;33m [0;32m\[0;1;33m  / /[0;1;30m\[0m\[1;33m [0;1;30m\[0m\[1;33m [0;35m_[0;1;33m [0;33m/[0;37m\[0;1;30m>[0;1;34m____[0m     [1;30m:[0m     [1;30m:[0m   [1mi[0mn[1m 2[0m01[1;30m4[0;1;33m [0;1;37m.[0m.[1;30m.[0;1;33m [0;1;30m/[0;1;33m   [0m\[1;33m [0;1;30m|[0m
        [32m<[0;1;33m____[0;32m__/[0;1;33m [0;32m/[0;1;33m [0;1;30m/[0m/[1;33m [0;1;32m/[0m\[1;33m/ <_ [0;1;30m\[0m\[1;33m [0;33m/[0;35m//[0;33m/[0;1;30m\[0;1;33m [0m\[1;33m   [0;1;34m/[0m\[1;33m    [0;1;30m. [0;1;33m    [0;1;30m:[0m  [1;30m.[0m                  [1;30m|[0m

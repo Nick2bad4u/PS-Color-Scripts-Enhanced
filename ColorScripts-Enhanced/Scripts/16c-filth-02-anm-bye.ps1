@@ -5,7 +5,7 @@
 # Source SHA-256: abfd3226157bd03df4d795d17a375a1b6696e31ece0829fb5989efd854f756a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-BYE.ANS by anomite (scum); released in filth-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: goodbye.. logoff..
 # SAUCE Author: anomite
 # SAUCE Group: scum
@@ -40,8 +40,4 @@ Write-Host '
 [31m  [0;1;31;41m▀▀▀█[0;1;31;47m▄▓[0;1;31;41m█▄[0;31m███████████▀▀▀ [0;34m▄▄▀█[0;1;34;44m▀[0;1;34;40m▌[0;1;34;44m▓[0;1;34;40m█▐[0;31m [0;34m▀▀[0;1;34;44m▀[0;1;34;40m██▄[0;31m  ▀▀▀▀▀█████[0;1;31;41m▀▀▀▀[0;31m█[0;1;31;41m████████[0;1;31;47m▀▀░▓[0;1;31;41m█▌[0;31m██[0m
 [34m░[0;30;44m▓[0m   [31;40m▀▀▀[0;1;31;41m▀[0;31m███████▀▀[0m    [34m▄█[0;31m [0;34m██▌▐█▌█[0;1;34;44m░[0;34m██▀[0;31m [0;34m██▐█[0;31m [0;34m░[0;30;44m▓[0m      [31;40m░[0;30;41m▓[0;31;40m  ▀▀▀▀▀▀[0;1;31;41m▀[0;31m█[0;1;31;41m▀▀▀▀▀▀▀▀▀[0;31m█▀  [0;34manm?[0m
           [31m▀▀[0;1;31;41m▀[0;31m▀[0m
-[1;30m---[0m
-[1;30mFor my board, .. don''t use it..[0m
-
-[1;30mokay.. it looks fucked up.. so what? .[0m
-[1;30muhh, .. I actually used a lot of time making this..[0m'
+[1;30m---[0m'

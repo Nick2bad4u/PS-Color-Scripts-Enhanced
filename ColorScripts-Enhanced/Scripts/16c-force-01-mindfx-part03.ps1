@@ -5,7 +5,7 @@
 # Source SHA-256: 21ac7b540a2de8981da9cc21d4123e23285c5cc15dc6aec317a9ec4ec5132e10
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MINDFX.ANS by Anubis (force-01); released in force-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 81-118
 # Columns: 1-80
 
@@ -32,19 +32,19 @@ Write-Host '
 [1;31m████████████████████████████████████████████████████████████████████████████████[0m
 [1;31m██████▀▀▀▀▀▀▀[0m                                                        [1;31m▀▀▀▀███████[0m
 [1;31m███[0m                                                                         [1;31m████[0m
-[1;31m██[0m                         aNuBiS Do''n Coole ANSi                             [1;31m██[0m
-[1;31m█[0m                     Plague''n the scene with me own StYLE                     [1;31m█[0m
+[1;31m██[0m                                                                            [1;31m██[0m
+[1;31m█[0m                                                                              [1;31m█[0m
 [1;31m▓[0m                                                                              [1;31m█[0m
-[1;31m▒[0m                     OK SySOP Dus ISt where uno info gos                      [1;31m▓[0m
+[1;31m▒[0m                                                                              [1;31m▓[0m
 [1;31m░[0m                                                                              [1;31m▒[0m
-[1;31m░[0m                  ya caN ALL contact I''m  any where ya find!                  [1;31m░[0m
+[1;31m░[0m                                                                              [1;31m░[0m
 [31m░[0m                                                                              [1;31m░[0m
-[31m▒[0m                    [37mif ya wanna da coolest den live mail?[0m                     [31m░[0m
+[31m▒[0m                    [37m                                     [0m                     [31m░[0m
 [31m▓[0m                                                                              [31m▒[0m
-[31m█[0m                              [37mlater ppl in OZ.[0m                                [31m▓[0m
+[31m█[0m                              [37m                [0m                                [31m▓[0m
 [31m█[0m                                                                              [31m█[0m
-[31m█[0m                [37mgreetz my be going to Flick and da phyberman''y[0m                [31m█[0m
+[31m█[0m                [37m                                              [0m                [31m█[0m
 [31m██[0m                                                                            [31m▄█[0m
-[31m███[0m                  [37mI''M AUSTRALIAN AND FUNK''EN PROWD OF IT[0m                [31m▄▄███[0m
+[31m███[0m                  [37m                                      [0m                [31m▄▄███[0m
 [31m█████▄▄[0m                                                          [31m▄▄▄▄▄▄▄████████[0m
 [31m████████████▄▄▄▄▄▄▄▄[0m                                [31m▄▄▄▄▄▄██████████████████████[0m'

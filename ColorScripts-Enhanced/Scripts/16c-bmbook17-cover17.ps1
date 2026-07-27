@@ -5,7 +5,7 @@
 # Source SHA-256: 14ae2f11759c0be29cdc5de08b308fa2cb4cbbe569998644df6444dcfc468e6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: &COVER17.ANS by black maiden (black maiden); released in bmbook17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: welcome to book 17
 # SAUCE Author: black maiden
 # SAUCE Group: black maiden
@@ -38,7 +38,4 @@ Write-Host '
  [1;42m▀▀▀▀[0;32m██[0m      [32m▄█[0;1;37;42m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░[0;32m▄[0m      [1;32m▒[0;1;37;42m▀▀▀▀▀▀▀▀[0m
  [1;32;42m████▌[0m   [32m [0;1;37;42m ██[0;32m█[0;1;32;42m ██ ███████████▀█████▀██████▀▄██████▄███████[0;1;32;40m▓[0;1;32;42m░[0;32m█[0;1;37;42m██ [0m   [32m [0;1;32;42m █[0;1;32;47m▓▓▓[0;1;32;40m███[0;1;32;42m█▀▀[0m
  [1;32;42m███▌[0m   [32m █[0;1;32;42m█[0;1;37;42m▀█▄[0;32m█[0;1;32;42m ██▄▄████████ ███████ █████▄███████████████ [0;32m█[0;1;37;42m▄█▌[0m   [32m █[0;1;32;42m█▄███[0;1;32;40m█[0;1;32;42m▀▄▄██[0m
- [1;32;47m▓▓[0;1;32;42m▌[0m   [32m █[0;1;32;42m███▄[0;1;37;42m▀█▄[0;1;32;42m ▀▐████████▀   ▀▀▀  ▄█████████████[0;1;32;47m▓▓[0;1;32;42m███▀▀ [0;1;37;42m▄█▀[0;1;32;42m░[0m   [32m █[0;1;32;42m█████[0;1;32;40m█[0;1;32;42m █[0;1;32;40m██[0;1;32;42m██[0m
-
-
-                    [32mwelcome to the soccer worldchampionships![0m'
+ [1;32;47m▓▓[0;1;32;42m▌[0m   [32m █[0;1;32;42m███▄[0;1;37;42m▀█▄[0;1;32;42m ▀▐████████▀   ▀▀▀  ▄█████████████[0;1;32;47m▓▓[0;1;32;42m███▀▀ [0;1;37;42m▄█▀[0;1;32;42m░[0m   [32m █[0;1;32;42m█████[0;1;32;40m█[0;1;32;42m █[0;1;32;40m██[0;1;32;42m██[0m'

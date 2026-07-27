@@ -5,7 +5,7 @@
 # Source SHA-256: f6a9ac502beca74da08ba8999af7168064795888bb081cbb81b1b35b4209f06f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZR-CIB1.ANS by zOltaR (spastik!); released in spas9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cItyee iZ bUr/\/inG ?!???
 # SAUCE Author: zOltaR
 # SAUCE Group: spastik!
@@ -42,9 +42,8 @@ Write-Host '
 [1;30m▓▀▀  ▀▀[0m         [1;30m▀▀  ▀[0m          [1;30m▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀  ▓▀[0m
 [1;30;40m▓[0m                 ░   [1mb    u    r    n    i    n    g[0m
 
-        [1;36msysd00d   [0;1;37m:  [0;36mthe extremist (the gotcha! officiel referee)[0m
-[36m   [0;1;36melyth affils   [0;1;37m:  [0;36mmistigris membah  requiem whq  wavyice net  etc!?[0m
-[36m   [0;1;36mk-rad numbah   [0;1;37m:  [0;36m418 841 3410[0m
+        [1;36m          [0;1;37m   [0;36m                                            [0m
+[36m   [0;1;36m               [0;1;37m   [0;36m                                                 [0m
+[36m   [0;1;36m               [0;1;37m   [0;36m            [0m
 
-[1;30m--[0m
-pic taken from a sun-maid raisins (tm) b0x [1;33m& [0m11.4 min phonts by our friend zozo[0m'
+[1;30m--[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3abf0cfeaeec0f66849c6ea4bd8dc7593f2b4517ebf489f4acc9e5da973ffb32
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OK-OBV2.ANS by oUTkAST (Blur); released in blur9606 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Oblivion/2 phont
 # SAUCE Author: oUTkAST
 # SAUCE Group: Blur
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                      [35m▓▄▄▄ ░▄▄[0m      [35mANSI by da muthaphukkin oUTkAST[0m
+                      [35m▓▄▄▄ ░▄▄[0m      [35m                               [0m
                   [35m▄▄▄▀▀[0;1;35;45m░▀▀▄▀[0;35m▀▀▀▀▄▄▄[0m
                  [35m▀[0;1;37m▄▄▄▄▄▄ [0;35m▀[0;1;35;45m▓[0;35m▌[0;1;37m■▀▄▄[0m  [35m▀▀▄▄▄▄[0;1;35;45m▄▄▄▄▄[0;35m▄▄▄[0m
                 [35m▐[0;1;37m▐[0;1;37;45m▓▀▀[0;35m██▀[0;1;37m▀■[0;1;35;45m▒▒░[0;35m▄[0;37m  [0;1;37m▀■▄[0m  [35m▀[0;1;35;45m▀▓▓▓▓▓▓▀▀[0;35m▓▀▀ ▀▀▀▀▀▓▄▄ [0m
@@ -34,5 +34,4 @@ Write-Host '
                 [1;31m▒ ▀▄▄▄█▀■▄█▀[0;1;35;45m░[0;1;31;40m ▓▀▄ ░[0m  [1;31m▀▀[0m  [35m▄▄[0;1;35;45m▄▓▓░▒▓▀[0;35m▀[0;1;35;45m░▒▓▓▄[0;35m▄▄oK![0;1;31m▀▀▀[0m  [35m▀[0m
 [37m [0;35m░[0m        [35m░░[0;37m [0;35m░[0;37m  [0;1;31m▄■▀▀▓ ▄■▀[0;35m▄▄[0;1;35;45m▄▓[0;35m▌[0;1;31m▒  ▀■[0m   [35m░░░[0;37m [0;35m▀▓[0;1;35;45m▀▀[0;35m▓▀▀[0;37m [0;35m▓▓[0;37m  [0;35m░▓[0;1;35;45m▀[0;35m▀▀[0;37m  [0;35m░░[0;37m [0;35m▓[0;37m [0;35m░░░[0m   [35m░░[0m
                   [35m▀▄[0m      [35m▀▀▀[0;37m [0;1;31m░[0m  [35m▄▄▀[0m        [35m ▀[0m       [35m▄ [0m   [35m▄[0m
-                         [35mO H - B E E  V E E  T W O O [0m
-             [35moblivion phont originally drawn in ''95[0;37m [0;35mand finished ''96 =)[0m'
+                         [35mO H - B E E  V E E  T W O O [0m'

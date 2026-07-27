@@ -5,7 +5,7 @@
 # Source SHA-256: 456769aa5b57bb9841f910116656484062c31952948ebe9c42daafe7c38d41c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GI-MV.ANS by Gigantor (TekLordZ); released in tl199512 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Malvolence
 # SAUCE Author: Gigantor
 # SAUCE Group: TekLordZ
@@ -23,16 +23,16 @@ Write-Host '
                         [1;30m.[0;31m$$$$$$[0m   [1;30m∙[0;31m$$$$[0;1;30m: :[0;31m`$$$$$s$$$''[0;1;30m.[0m
                                                      [1;30m [0m
 
-[1;30m       [0m                         [1;30mm[0;31mm[0;1;31mmalevolence[0;31me[0;1;30me[0m
-                        [1;30m    [0m [1;30mi[0;31mi[0;1;31mit''s really good[0;31md[0;1;30md[0m
-                            [1;30mp[0;31mp[0;1;31mut stats like this[0;31ms[0;1;30ms[0m
+[1;30m       [0m                         [1;30m [0;31m [0;1;31m           [0;31m [0;1;30m [0m
+                        [1;30m    [0m [1;30m [0;31m [0;1;31m                [0;31m [0;1;30m [0m
+                            [1;30m [0;31m [0;1;31m                  [0;31m [0;1;30m [0m
 
 [1;30m [0m
 
 
 [1;30m--------------------------------------------------------------------------------[0m
-[1;30mwell, i think my attempt in my first ascii pic turned out pretty damn good. if[0m
-[1;30myou want one o dese, call the deli (540)-869-2695 or just about any good art [0m
-[1;30mboard. [0m
-[1;30mgreets: mg,ml!,aj!,cz,khz,mc[0m
+[1;30m                                                                              [0m
+[1;30m                                                                             [0m
+[1;30m       [0m
+[1;30m                            [0m
 [1;30m--------------------------------------------------------------------------------[0m'

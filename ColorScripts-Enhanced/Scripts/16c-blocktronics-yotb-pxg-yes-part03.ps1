@@ -5,7 +5,7 @@
 # Source SHA-256: b44cca286b00405d2a8719cf1f3d416e6cabc69eb78d96934bc63c077a697ac4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pxg-yes.ans by Pixel Goth (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20150131
 # SAUCE Dimensions: 80x116
 # SAUCE Font: IBM VGA
@@ -45,5 +45,4 @@ Write-Host '
     [30;101m♥♥♥[0;31;101m♥♥♥♥♥♥♥♥♥[0m                    [33;103m♥[0m   [33;103m♥[0m
      [30;101m♥♥♥♥[0;31;101m♥♥♥♥♥[0m
        [30;101m♥♥♥[0;31;101m♥♥[0m                                                              [35m♀[0m
-         [31;101m♥♥[0m
-                    [35m♀[0m       [1;34m♂[0m [1;31m♀[0m [31m♥[0;30m [0;1;31mwww.pixelgoth.com [0;31m♥[0;37m [0;1;31m♀[0m [1;34m♂[0m     [35m♀[0m'
+         [31;101m♥♥[0m'

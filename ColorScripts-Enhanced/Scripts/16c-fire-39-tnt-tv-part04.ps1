@@ -5,7 +5,7 @@
 # Source SHA-256: 1d8095aa76b47cb6b21059ddfb6374a052f368fa613a763d936e0374209e4ed6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-TV.ANS by tainted (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Vault BBS
 # SAUCE Author: tainted
 # SAUCE Group: Fire
@@ -48,10 +48,4 @@ Write-Host '
                   [31m▒[0;37m    [0;1;30m░[0m    [31m▀▄[0;1;31m▄[0;31m▄[0;1;31m▄▄[0;1;31;41m▄▀▀[0;31m▀▀▀[0;37m [0;31m▀█▄[0;37m   [0;1;30m░░[0m [1;30m▄[0m   [1;30m■[0m [31m▓[0m            [31m▄█▀[0;37m [0;1;30m▐▌[0m
                   [31m░[0m            [31m▀▀▀[0m         [31m▀▀▀[0m         [31m░[0m        [1;30m░[0m  [31m▀[0m     [1;30m▀[0m
                        [1;30m░[0m                         [1;30m■[0m                  [1;30m■[0m  [1;30m▀[0m
-                  [31m░[0m                                  [31m░[0;37m [0;1;37m░░[0m [1mtainted[0;1;30m[[0mfire[1;30m][0m
-
-                           [1mthevault[0mbbs[1;30m.ddns.net:2323[0m
-
-
-              [1;30mgreetz out to my fellow dark and evil ansi brethren[0m
-      [1;30mknuckles up to tetanus, nail, toon goon and my #1 fanbro, propane <3[0m'
+                  [31m░[0m                                  [31m░[0;37m [0;1;37m░░[0m [1m       [0;1;30m [0m    [1;30m [0m'

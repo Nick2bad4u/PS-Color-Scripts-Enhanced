@@ -5,12 +5,12 @@
 # Source SHA-256: c8d8c68b2f462df98bfb3b0ea66badd64d0bd5fabd5c7e32d86b133dd14e7ab2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIG_BULL.ANS by David Hartmann (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
-@CLS@@NOPAUSE@@NOSTOP@
+                      
 [1;30m█▄[0m                              [1;30m▄▄▄▄▄▄[0m            [1;30m▄▄▄▄▄[0m     [1;30m▄▄▄[0;1;30;47m▀▀            [0;1;30;40m█[0m
 [1;30;40m ▀█▄▄▄▄▄[0;1;30;47m▀▀▀▀▀▀▀▀▀░░[0;1;30;40m▄[0m        [1;30;40m▄[0;1;30;41m▀▀▀      ▀▀[0;1;30;40m▄   ▄▄[0;1;30;41m▀▀▀▀     ▀▀[0;1;30;40m▄▄[0;1;30;47m▀                [0;1;30;40m█[0m
 [1;30;40m  ▀[0;1;30;47m▄▄▄▄          ░░░▒[0;1;30;40m▄[0m     [1;30;41m▌          [0;30;41m▄▄▀[0;1;30;41m▀▀▀              [0;1;30;40m█[0;1;30;47m                [0;1;30;40m█[0m

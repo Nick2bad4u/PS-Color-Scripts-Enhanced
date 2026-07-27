@@ -5,7 +5,7 @@
 # Source SHA-256: eafb4c351ed1d867c5b7c38833e897388e9fcf1305023b6e3a3ec9a6890820c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-GATE1.ANS by ReNeGAde SPiRiT (RaGE); released in rage0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mystical Gate of Re-incarnation
 # SAUCE Author: ReNeGAde SPiRiT
 # SAUCE Group: RaGE
@@ -17,7 +17,7 @@
 Write-Host '
                                               [1;34m·[0m
                           [1;34m·[0m         [1;30mBÿ[0m
-[1;34m·[0m                    [1;30mT[0mH[1;30mïS i[0mS [1;30mÆ [0m0[1;30mÜ[0mT[36m[[0;1;36mR[0;1;35mä[0;1;36mGE[0;36m][0;1;30mô[0mUS [1;30mP[0mR[1;30möDU[0mC[1;30mT¡OÑ[0m                      [1;34m·[0m
+[1;34m [0m                    [1;30m [0m [1;30m    [0m  [1;30m  [0m [1;30m [0m [36m [0;1;36m [0;1;35m [0;1;36m  [0;36m [0;1;30m [0m   [1;30m [0m [1;30m   [0m [1;30m    [0m                      [1;34m [0m
             [1;34m.[0m                   [1;34m·[0m
                    [1;34m·[0m                                           [1;34m·[0m
                         [1;37m▄▄▄▄▄▄▄▄[0m         [1;34m.[0;1;37m▄▄▄▄▄▄[0m▄

@@ -5,7 +5,7 @@
 # Source SHA-256: 240659490357b95c795f14b9628fb8ff4bed1b5cf28dab6ec28aabcd2dd5411d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEL-SAUN.ANS by delicious (blocktronics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sauna
 # SAUCE Author: delicious
 # SAUCE Group: blocktronics
@@ -35,6 +35,4 @@ Write-Host '
   [32m▀[0;1;32;42m▀[0;1;33;40m█████▄[0;1;36;40m   [0;1;33;40m▄[0;1;33;42m▐[0;1;33;40m█▀[0;1;36;40m [0;32m▄[0;1;32;42m▄[0;1;32;40m██[0;1;33;40m██████[0;1;32;40m█[0;1;33;40m████████████▀  [0;1;32;42m▐[0;1;33;40m████████   [0;32m▄[0;1;32;42m▄[0;1;32;40m█[0;1;33;40m█[0;1;32;40m██▀[0;32m▄[0;1;32;42m▐[0;1;32;40m█[0;1;33;40m██████████[0;1;32;40m██▀[0m
     [32m▀[0;1;32m▀[0;1;33;42m▀[0;1;33;40m████▄██▀[0m                                  [32m█[0;1;32m█[0;1;33m█[0m                     [1;33mdel[0;1;32mb7[0m
  [34m▄▄[0;35m    [0;32m▀[0;1;32m▀[0;1;33;42m▀[0;1;33;40m██▀   [0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄[0;37m    [0;32m█[0;1;33m█    [0;34m▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[37m [0;1;34;44m▐█[0;34m██▄[0;37m    [0;1;33m▀[0;1;36m   [0;34m███[0;1;34m████████████████████████[0;1;34;44m▓▓[0;34m██[0;37m    [0;32m█[0m     [34m██[0;1;34;44m▓▓▓█[0;1;34;40m█████████████████[0m
-
-  [35mpu[0;1;35mrveyors of fine block fonting since 20[0;35m19[0m             [35mw[0;1;35melcome to the sau[0;35mna[0m'
+[37m [0;1;34;44m▐█[0;34m██▄[0;37m    [0;1;33m▀[0;1;36m   [0;34m███[0;1;34m████████████████████████[0;1;34;44m▓▓[0;34m██[0;37m    [0;32m█[0m     [34m██[0;1;34;44m▓▓▓█[0;1;34;40m█████████████████[0m'

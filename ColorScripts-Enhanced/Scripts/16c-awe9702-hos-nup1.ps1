@@ -5,7 +5,7 @@
 # Source SHA-256: 018af27bed02af7659f6789dad9f053f3fa7726d9b512217f9e8a3a0fb5dde2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HOS-NUP1.ANS by Hos (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nuprin
 # SAUCE Author: Hos
 # SAUCE Group: AWE Lettering
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mhos(awe)[0m
+[1m        [0m
                            [1;33m▄[0m
                             [1;33m■▄[0m
                              [1;33m▐▌[0m
@@ -37,6 +37,6 @@ Write-Host '
        [36m▐▌[0m                                              [36m▬[0;37m [0;36m▀[0m
         [36m▀■[0m
 
-[1;37mzero[0;36m:[0;1;37m [0m
-+ [1mbahh.. this ansi sucks, I''ll make you another one, this one is free[0m
+[1;37m    [0;36m [0;1;37m [0m
+  [1m                                                                   [0m
 [1;30m--[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f4f8b12666b110a5180153869f804fa7205e5fc3a7d418af54802bb77f6be6f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-CWI01.ANS by The ExtremisT (FIRE!mistigris); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chemical Warfare Incorporated
 # SAUCE Author: The ExtremisT
 # SAUCE Group: FIRE!mistigris
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-      [1mchemical warfare incorporated -- operators: brack and anarchy bob[0m
-       [1mNOW WITH 10% MORE ANARCHY THAN THE LEADING BRAND!  418-843-2809[0m
-[1m  If you want to bring down oppression, hierarchy, segregation, exploitation,[0m
-[1m racism, sexism, homophobia, and learn how to do it, this is the place to call.[0m
+      [1m                                                                 [0m
+       [1m                                                               [0m
+[1m                                                                             [0m
+[1m                                                                               [0m
 
                                                [34m░░[0m
         [34m▐[0;30;44m▓[0;34;40m▐    ▀▄[0m      [34;40m░[0m               [34;40m▀▄[0m     [34;40m░▓  [0;1;34;40m░[0m

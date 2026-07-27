@@ -5,7 +5,7 @@
 # Source SHA-256: a1fdb8e8ff3f873fac06ad0a67f92aef700a43ea45615542bca715d96e7e74f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-PAC.ANS by Spastic 04/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Packaged Rebellion
 # SAUCE Author: Spastic 04/95
 # SAUCE Group: Eerie
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[31mthis is the kind of chick you can pick up when you have a french accent like me[0m
+[31m                                                                               [0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30m███████████████████████████████████████████████████████████████████████████████[0m
 [1;30m███████████████████████████████████████████████████████████████████████████████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 9cf9ba87be3e5d87a2e64d28ad9206de75e4dd622e8509608be429824673e8fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NO-SI0.ANS by Nosferatu (EDEN); released in eden0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Spectral Illusion
 # SAUCE Author: Nosferatu
 # SAUCE Group: EDEN
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30;40msince i seem to have fucked up my sig, i guess i''ll just have to use this gor m[0m
-[1;30;40multra lame greets...[0;36m▄ [0;1;30mnos greets: mephisto (for driving me around all the time)[0m
-[1;30mand[0;36m░[0;1;30meerie, who i re[0;36m▐▌▀▀▀▄[0;1;30mally don''t know, but i want to thank him just for givi[0m
-[1;30mg m[0;36m▒[0;1;30me such good [0;36m▄  [0;1;37;46m░■[0;36m▄▄  [0;1;37;46m░[0;1;30;40mratings in his brainchild/monster, undergrown! -nos.[0m
+[1;30;40m                                                                               [0m
+[1;30;40m                    [0;36m▄ [0;1;30m                                                         [0m
+[1;30m   [0;36m░[0;1;30m               [0;36m▐▌▀▀▀▄[0;1;30m                                                      [0m
+[1;30m   [0;36m▒[0;1;30m            [0;36m▄  [0;1;37;46m░■[0;36m▄▄  [0;1;37;46m░[0;1;30;40m                                                    [0m
 ─[1;30m─ [0;36m▓ [0;1;30m─[0m─[1;30m─ [0;36m▄ [0;1;30m─[0m──[1;30m─[0;36m▐▌▀[0;1;37m▐[0;1;37;46m▒░ [0;36m▐▌[0;1;37m▐[0;1;37;46m▒░[0;36m▌[0;1;30m─[0m─────────── ───  ──   ─    ·
  [36m▄▐▌ ▄▀▀▀▐▌▄▄▄▄▀[0;1;37m■▄[0;1;37;46m▓▒░[0;36m▀▀  [0;1;37;46m▓▒[0;36m▌[0;1;37m▀[0;1;37;46m▓▒░ [0;36m▓▒░[0m                                    [36m░▒▓█[0;1;37;46m░▒▓[0m
 [36m▐▌▀ ▐▌    ▀   [0;37m▄▄[0;1;37m▀▀▀[0;36m▄   ░  [0;1;37;46m▓▒[0m [1;37;40m▐▄[0m       NO-SI0.ANS ─ nosferatu.eden ''95        [36m▄█[0m
@@ -30,7 +30,7 @@ Write-Host '
 ▓▒░   [1m▄▒▌ ▄[0;1;47m▀[0;1;40m▌  [0m▄ [1m█[0;1;46m▓[0;1;40m▐▄▄[0m     █ [1m▐[0;1;46m▓▒[0m  network, infinet.  find me in any of the  [1;46m■▀▀[0m
 █▓▒░  [1m▐▓█▄▐[0;1;47m▐[0;1;40m█▄▓[0m▌▀ [1m▀█[0m▀▀█▄▄▀▀ [1m▄▀[0;36m▀[0;1;37;46m░[0;36m▒░  [0;37msci-fi, movie/tv, or artwork bases.   [0;36m░▒█▀▀[0m
 [37m██▀▄─[0;1;30m─ [0;1;37m█▀▐▓▀  ▒ [0;1;30m─[0m────[1;30m─ [0m▀■ [1;30m─[0m───────────────────────── ───  ──   ─   ·
-[1;30meden.eden.eden[0;1;37m░[0;1;30meden.eden.eden.eden.eden.eden.eden.eden.eden.eden.eden.eden.eden[0m
+[1;30m              [0;1;37m░[0;1;30m                                                                [0m
            ·    ─   ──  ─── ───────────────────────────────────────────────────
                    [33m▀███████████████▀[0m                [33m▄▄▄███████[0;1;30;43m░░░▒▓█[0;1;30;40m▀[0m
 [1;30m▄▄[0m                   [33m█████████████[0m            [33m▄▄▄███████[0;30;43m░[0;33;40m▀▀▄▄▄▓██[0;1;30;43m░▒[0m

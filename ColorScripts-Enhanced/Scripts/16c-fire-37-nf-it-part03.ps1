@@ -5,7 +5,7 @@
 # Source SHA-256: a8c56d6876c140bbfc717c7a198a7383d97970a12cb17f310a2b10d25e1a5084
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NF-IT.ANS by necro (RBBS/FIRE); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: IT
 # SAUCE Author: necro
 # SAUCE Group: RBBS/FIRE
@@ -58,5 +58,4 @@ Write-Host '
                                        [1;38;2;87;87;87;48;2;0;0;0m▐[0m
                                        [1;38;2;87;87;87;48;2;0;0;0m▐[0m
                                        [1;38;2;87;87;87;48;2;0;0;0m▐[0m
-                                       [1;38;2;87;87;87;48;2;0;0;0m▐[0m
-'
+                                       [1;38;2;87;87;87;48;2;0;0;0m▐[0m'

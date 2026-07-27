@@ -5,7 +5,7 @@
 # Source SHA-256: f746e30478ee0f89b5b953e8e4f33c2f395d804bac4dbb7975d6ae6680af89e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FK-VC.ANS by Flick (Union); released in uni-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Violent Crimes
 # SAUCE Author: Flick
 # SAUCE Group: Union
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mfLiCk Presents a Union Production![0m      [34m▄▄▄▄░[0m        [1;30mThanx #28, you make the[0m
-[1;30mwith a little bit of a #28 prod!  [0;34m▄▄[0;34;44m [0;30;44m░[0;34;40m▀▀▀▀▀▀▀[0;1;34;44m░[0;44m░[0;1;34;44m░[0;34m▄    [0;1;30mspammiest union logos![0m
+[1;30m                                  [0m      [34m▄▄▄▄░[0m        [1;30m                       [0m
+[1;30m                                  [0;34m▄▄[0;34;44m [0;30;44m░[0;34;40m▀▀▀▀▀▀▀[0;1;34;44m░[0;44m░[0;1;34;44m░[0;34m▄    [0;1;30m                      [0m
                                 [34m▄▓▀ [0;37m▄[0;30;47m░[0;37;40m▄███[0;1;37;47m▄▓[0m▄▄[1m░ [0;34m▀[0;1;34;44m░[0;34m▌[0m
                                [34m▐█▌[0;37m▐[0;37;47m [0;1;30;47m░▒░░[0m█[47m    [0;1;47m░▒░[0m▌[34m▐█[0m       [34m▄▄▄  [0;1;34m░    [0m#28
   [34m▄▄[0;1;34;44m░[0;34m▄▄▄▄▄▄▓▄▄▄[0m      [1;34m░[0;34m▄▄▄[0;37;44m░[0;34;40m▐▀▀▀[0;37;40m▄ [0;34;40m▀█▄[0;37;40m▀▀█▀█[0;37;47m [0;37;40m██[0;1;37;47m░[0m▄▐▀▀[34m■▀ ▄▄▄▄[0;1;34;44m░░[0;34m▀▀▀▀▀█[0;1;34;44m░[0;34m▄▄▄▓   ▓▄▄▄▄█[0;1;34;44m░[0;34m▄[0m

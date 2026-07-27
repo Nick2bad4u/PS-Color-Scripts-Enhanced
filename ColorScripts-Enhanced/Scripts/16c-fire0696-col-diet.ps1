@@ -5,7 +5,7 @@
 # Source SHA-256: c207feeca2239a6cb96f8453bcf76d370437141bbc6c607c6c4d515d28a1dad0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: COL-DIET.ANS by colorblind (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: diet coke/cola
 # SAUCE Author: colorblind
 # SAUCE Group: fire
@@ -31,7 +31,4 @@ Write-Host '
                   [1;32;47m▒▒[0m      [1;32;47m▒▒[0m [1;32;47m▒▒[0m      [1;32;47m▒▒[0m [1;32;47m▒▒[0m   [1;32m   [0m [1;32;47m▒▒[0m [1;32;47m▒▒[0m      [1;32;47m▒▒[0m
                   [1;32m▐[0;1;32;47m▓[0;1;32;40m▌ [0m   [1;32m▐[0;1;32;47m▓[0;1;32;40m▌[0m [1;32m▐[0;1;32;47m▓[0;1;32;40m▌[0m    [1;32m▐[0;1;32;47m▓[0;1;32;40m▌[0m [1;32m▐[0;1;32;47m▓[0;1;32;40m▌[0m   [1;32m  ▐[0;1;32;47m▓[0;1;32;40m▌ ▐[0;1;32;47m▓[0;1;32;40m▌    ▐[0;1;32;47m▓▓[0m
                   [1;32m ▀█▄[0m  [1;32m▄█▀[0m   [1;32m▀█▄[0m  [1;32m▄█▀[0m  [1;32m ▀█▄ [0m [1;32m▄▄█▀  [0m [1;32m▀█▄[0m  [1;32m▄███[0m
-                     [1;32m ▀▀[0m         [1;32m▀▀ [0m    [1;32m   [0m [1;32m▀▀ [0m [1;32m  [0m [1;32m [0m    [1;32m▀▀[0m  [1;32m▀▀[0m
-[1;33m              [0m              [32m [0;37m [0;36m_[0;37m [0;1;32mspear''s diet cola [0;36m_[0m
-[32m [0m               [32m  [0;37m [0;36m_[0;32m [0;1;32mhal.. move over.. im takin yer style :) [0;36m_[0m
-                 [1;37m    [0m [36m_[0;1;32m ansi  logo by colorblind[0;1;37m<[0;1;32mpH[0;1;37m> [0;1;32mfire[0;32m [0;36m_[0m'
+                     [1;32m ▀▀[0m         [1;32m▀▀ [0m    [1;32m   [0m [1;32m▀▀ [0m [1;32m  [0m [1;32m [0m    [1;32m▀▀[0m  [1;32m▀▀[0m'

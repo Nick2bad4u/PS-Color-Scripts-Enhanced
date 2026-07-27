@@ -5,7 +5,7 @@
 # Source SHA-256: 8b9c66a644683dab10c204f8e5b5414e1eb8acb6067784abdaf98262103dae94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TSG.ANS by Bad Foundation + Krinkle (Apocalyptic Visions); released in avpack03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Spawning Ground
 # SAUCE Author: Joint Production
 # SAUCE Group: Apocalyptic Visions
@@ -49,14 +49,14 @@ Write-Host '
    [1;37m▄█████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;31m █[0;1;37m▐█▄[0;31m▀■[0m
   [1;37m███▀[0m                                                               [31m▀▀▓▄▄█ [0;1;37m███[0m
   [1m██[0m                                                                     [31m▀▓▒[0m [1;37m██[0m
- [1m███[0m          [31mthere you go ice finished it howzat, same day dilivary[0m       [31m▓▌[0;1;37m███[0m
- [1;37m██▀[0m          [31mi''ve got this box here like you asked if it''s not big[0m         [31m▌[0;1;37m███[0m
- [1;37m█▌[0;31m▐[0m          [31menough i''m shure a tallented guy like you can make it[0m         [31m▌[0;1;37m███[0m
+ [1m███[0m          [31m                                                      [0m       [31m▓▌[0;1;37m███[0m
+ [1;37m██▀[0m          [31m                                                     [0m         [31m▌[0;1;37m███[0m
+ [1;37m█▌[0;31m▐[0m          [31m                                                     [0m         [31m▌[0;1;37m███[0m
  [1;37m█▌[0;31m▐[0m          [31mbigger :)[0m                                                     [31m▌[0;1;37m███[0m
- [1;37m█ [0;31m█[0m          [31myou proly noticed that i put a sig in for you, i thought[0m      [31m▌[0;1;37m███[0m
- [1;37m█ [0;1;31;41m▐[0;31m▌[0m         [31mit would look best if they were matching, but if you think[0m   [31m▐▌[0;1;37m███[0m
- [1;37m█▌[0;31m▐[0;1;31;41m▌[0m         [31mother wise, hey it''s your sig you do what you want :)[0m        [31m▀▌[0;1;37m███[0m
- [1;37m██▌[0;31m▐[0;1;31;41m■[0m        [31mah well hope to work with you again soon[0m                     [31m ■[0;1;37m███[0m
+ [1;37m█ [0;31m█[0m          [31m                                                        [0m      [31m▌[0;1;37m███[0m
+ [1;37m█ [0;1;31;41m▐[0;31m▌[0m         [31m                                                          [0m   [31m▐▌[0;1;37m███[0m
+ [1;37m█▌[0;31m▐[0;1;31;41m▌[0m         [31m                                                     [0m        [31m▀▌[0;1;37m███[0m
+ [1;37m██▌[0;31m▐[0;1;31;41m■[0m        [31m                                        [0m                     [31m ■[0;1;37m███[0m
  [1;37m▀██[0m [31m▓▄[0m                                                                      [1;37m██▀[0m
  [1;37m ██▄[0m [31m▓▓▄[0m                 [31mkrinkle[0m                                           [1;37m▄██ [0m
   [1;37m▀███▄▄[0;31m▀▀▀▀█▓▀■[0m                                                         [1;37m▄▄███▀[0m

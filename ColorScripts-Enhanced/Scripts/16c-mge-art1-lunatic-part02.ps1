@@ -5,7 +5,7 @@
 # Source SHA-256: 63f3ee9ef335c6079a8a2e95f863de8ea00318a5c1d53e3957eba22b2ed3735d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LUNATIC.ANS by Cephyr (mge_art1); released in mge_art1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 43-87
 # Columns: 1-80
 
@@ -49,9 +49,9 @@ Write-Host '
 [1;33;40m ░▒▓█ [0;1;37;47m░▒▒[0;1;37;40m██▄ [0;1;37;47m▒▓▓[0;1;37;40m██ [0;1;37;47m░▒▓[0;1;37;40m█▄▄████ ▀▀▀▀[0;1;37;47m░▒[0;1;37;40m▀▀▀▀ [0;1;37;47m░▒▓[0;1;37;40m█▄▄ [0;1;37;47m░▒▓[0;1;37;40m█▄▄████ [0;1;37;47m░▒▓[0;1;37;40m█ [0;1;37;47m░▒▓[0;1;37;40m█ [0;1;37;47m░▒▓[0;1;37;40m█ [0;1;33;40m█▓▒░[0m
 
 [1;37;40m█[0m█▓▓▓▒▒ ░░ ░    ░       ░                                                      ░
-█                          [1m· Y[0mo [1mC[0ma[1;30mll [0;1;37mL[0mu[1;30mNaTiC [0;1;37mA[0ms[1;30mYlUm [0;1;37m·[0m
-▒                         [1m· 2 V[0m.[1;30mFast [0;1;37mC[0ml[1;30mass [0;1;37mN[0mo[1;30mdez [0;1;37m![0m![1;30m! [0;1;37m·[0m                         ▒
-░                           · [1mL[0ma[1;30mTeZT [0;1;37mW[0ma[1;30mReZ [0;1;37m0[0m-[1;30m7 [0;1;37mD[0maY[1;30mZ [0m·                          ▓
-               [1m· N[0mi[1;30mCe [0;1;37mL[0mi[1;30mMiT$[0m, [1m1[0m.[1;30m3 [0;1;37mG[0mB [1mX[0m-[1;30mRATED [0;1;37mS[0mT[1;30mUFF [0;1;37m& 6[0m0[1;30m0 [0;1;37mM[0mB [1mH[0mD[1;30mD [0m·              █
+█                          [1m   [0m  [1m [0m [1;30m   [0;1;37m [0m [1;30m      [0;1;37m [0m [1;30m     [0;1;37m [0m
+▒                         [1m     [0m [1;30m     [0;1;37m [0m [1;30m    [0;1;37m [0m [1;30m    [0;1;37m [0m [1;30m  [0;1;37m [0m                         ▒
+░                             [1m [0m [1;30m     [0;1;37m [0m [1;30m    [0;1;37m [0m [1;30m  [0;1;37m [0m  [1;30m  [0m                           ▓
+               [1m   [0m [1;30m   [0;1;37m [0m [1;30m    [0m  [1m [0m [1;30m  [0;1;37m [0m  [1m [0m [1;30m      [0;1;37m [0m [1;30m    [0;1;37m   [0m [1;30m  [0;1;37m [0m  [1m [0m [1;30m  [0m               █
                                                                                [1m█[0m
 ░                                                         ░    ░░ ░   ░░▒▒▓▓██[1m██[0m'

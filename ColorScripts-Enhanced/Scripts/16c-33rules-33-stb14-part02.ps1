@@ -5,7 +5,7 @@
 # Source SHA-256: 276b2981393754b85c115560fdd5c3572a13a85b6f68fac5dadc6fc34ec9cfcf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-STB14.ANS by Fire 02/96 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sarcastic Toaster
 # SAUCE Author: Fire 02/96
 # SAUCE Group: Eerie
@@ -32,11 +32,10 @@ Write-Host '
 [1;31;40m    ▀██[0;1;31;41m▄▄[0;1;31;40m███[0;1;31;41m▌[0;31m▀[0m                  [1;31m████ [0;1;31;41m▐[0;1;31;40m███▄[0m        [31m▀▀▀▀▀ ▀▀▀▀▀▀▀▀█[0;1;31;41m▀[0;1;31;40m██[0;1;31;41m▄▄[0;1;31;40m███[0;1;31;41m▌   [0;31m▀▀[0m
       [1;31m▀▀▀▀▀[0;31m▀[0m                    [1;31m▐███[0;1;31;41m▌▐[0;1;31;40m███▌[0m                       [31m██[0;1;31;41m▀▀▀▀[0;1;31;40m▀[0m
 [31m"stoned in the morning light[0m     [1;31m████████▌  [0;1;37msarcastic toaster.    [0;31m▀▀▀▀[0m       [1;37m▀[0m
-[31mi feel so cold"   -portishead[0m     [1;31m▀██████▌  [0m418 843 7078.  oped by youngie poo.
+[31m                             [0m     [1;31m▀██████▌  [0m                                   
 
-[1;30mthis has been an ansi by eerie-kun of that group they called fire.   [0m▄[1m▄▄▄▄█▓▄[0m
-[1;30mhey, i''m in a real goop trip.  i dunno, everything i do is[0m        ▄   ▄[1m█▓███▌[0m
-[1;30mgooped.  excepted for that logo of course, but that''s because[0m     ▐[1;47m▓[0;1;40m█▓ ░▀▀▓█▌[0m
+[1;30m                                                                     [0m▄[1m▄▄▄▄█▓▄[0m
+[1;30m                                                          [0m        ▄   ▄[1m█▓███▌[0m
+[1;30m                                                             [0m     ▐[1;47m▓[0;1;40m█▓ ░▀▀▓█▌[0m
 [1;30;40mit''s pretty old.[0m                                                  ▐[1;47m▐[0;1;40m████▓▄▄ ▀[0m
-[1;30;40moh well, greets to the guys who greeted me in the fire pack[0m       ▐[1;47m░[0;1;40m██▀▀▀▀▀[0m
-[1;30;40meven though i have no clue who the fuck they are.  :)[0m'
+[1;30;40m                                                           [0m       ▐[1;47m░[0;1;40m██▀▀▀▀▀[0m'

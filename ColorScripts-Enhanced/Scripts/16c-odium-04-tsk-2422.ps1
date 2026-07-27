@@ -5,7 +5,7 @@
 # Source SHA-256: 653b5dd4e3cdecf78e1b67b232a9ed8d64441655a135fca6ce9c258b0666bc90
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-2422.ANS by the silent killer (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: split 2422
 # SAUCE Author: the silent killer
 # SAUCE Group: odium
@@ -31,8 +31,7 @@ Write-Host '
         [34m▒[0;37m  [0;34m █ [0m          [34m▒[0;1;34m [0;34m▀██[0;1;34m [0;34m▓  [0m       [34m▒[0;1;34;44m ░ [0;34m▌[0;1;34;44m░▒▒[0;34m▄▄[0m     [34m░[0;37m [0;34m▀ ▀█▀▓[0m
        [37m [0;34m░ [0;37m  [0;34m▐ [0m      [37m    [0;34m░[0;37m [0;34m▀ ▀▀▀      [0m   [34m░[0;1;34m [0;34m▀▀[0;1;34m [0;1;34;44m ░░▒▒░░ [0;34m▄[0m      [34m▌ ░[0m
             [34m▀[0m    [1;34m t w[0m [1;34mo[0m - [1;34mf[0m [1;34mo[0m [1;34mr[0m [1;34mt[0m [1;34my[0;34m [0;37m-[0;34m [0;1;34mt[0m [1;34mw[0m [1;34mo[0m   [34m▀[0;1;34;44m ░░ ░[0;34m▄▓▌[0m     [34m■[0m
-           [34m [0m       [37m      [0m                      [34m▐[0;1;34;44m░  [0;34m▓▓▀[0;37m [0;1;34mthesilentkiller[0m([1mOdium[0m)
+           [34m [0m       [37m      [0m                      [34m▐[0;1;34;44m░  [0;34m▓▓▀[0;37m [0;1;34m               [0m [1m     [0m 
                                               [34m▌[0;1;34;44m  [0;34m▓▀▀[0m
                                            [34m  ▄▀▀[0m
-[34m                                    .  +[0;37m  [0;34m▀[0m
-                                    [34m [0m'
+[34m                                    .  +[0;37m  [0;34m▀[0m'

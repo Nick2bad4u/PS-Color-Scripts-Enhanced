@@ -5,7 +5,7 @@
 # Source SHA-256: b688bab8398623435cdc61c5a9bbbb8704d766623b782053ba2b34a30ccef03b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-ECL!.ANS by Blind Sniper (Department 38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eclipse Promo
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
@@ -28,9 +28,4 @@ Write-Host '
 [1;36;46m▐  [0;36m░     [0m      [36m▐███▄[0m    [31m▐█[0;1;31;41m▀▀▀▀▀▀▀[0;31m█[0;37m [0;36m   [0m      [36m▄▄▄▄▄▄▄█[0;1;36;46m     [0;36m▄▄▄▄█[0;1;36;46m▄[0;36m█[0;1;36;46m▀▀[0;36m██[0;1;30m▀[0;36m  ▐█▌[0m
 [36m█[0;1;36;46m [0;36m█████[0;1;36;46m▄▄▄▄▄[0;1;37;46m▄[0;36m█████████▌[0;37m [0;31m▀[0m          [36m ▄▄███[0;1;36;46m  ▄▄▄▄▄▄▄██▀▀▀[0;36m█████[0;1;30;46m▄[0;36m▀▀▀[0;1;30m▀[0m      [36m▀[0m
 [36m▀▀▀▀▀▀[0;1;30;46m▄▄[0;36m█[0;1;36;46m▀▀▀▀▀[0;36m█[0;1;36;46m ▀[0;36m██████▄▄▄[0;30;46m░[0;36;40m██████████████████[0;1;36;46m [0;36m██[0;1;30;46m▄▄▄[0;36m▀▀▀[0;1;30m▀▀[0m      [1;33mbs![0;31m([0;1;33;41md38[0;31m)[0m
-                    [1;30m▀▀▀[0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀▀[0m
-
-[32mI [0;1;32;41mdunno[0;32m about this aye... I haven''t done any art for 1/2 a month and as soon as[0m
-[32mI get back I do a logo for Eclipse... Yep, that''s right dose Eclipse pimps...[0m
-[32mI even stuck #15 up somewhere showing my optimism... Hmmm I''ve writen too much[0m
-[32mas usual. [0;1;32mBLAH[0;32m!@[0m'
+                    [1;30m▀▀▀[0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀▀[0m'

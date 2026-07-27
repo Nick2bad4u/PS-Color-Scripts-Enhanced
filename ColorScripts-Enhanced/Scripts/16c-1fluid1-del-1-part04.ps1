@@ -5,7 +5,7 @@
 # Source SHA-256: 65f48d812bd71afa0c5f7868de6f74271e9de7814cb4d4e6122cf60c2b991a0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEL_1.ANS by delicious (fluid); released in 1fluid1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cOlly1
 # SAUCE Author: delicious
 # SAUCE Group: fluid
@@ -51,11 +51,6 @@ Write-Host '
                    [1;31m  [0;31m█[0;1;31;41m▓▄[0;31m▄[0m         [1;31m▐[0;1;31;41m▀▀[0;1;31;40m█[0;1;31;41m [0m    [31m▀[0;37;41m▀[0;1;31;47m▓[0;31m▌[0m       [1;30;41m░[0;1;31;47m▀[0;1;31;40m█[0;1;31;41m░[0m
                       [31m▀▀[0;1;31;41m▀[0;31m█[0;1;31;41m▄[0;31m▄▄[0m       [1;31;41m░▀[0;1;31;40m▒[0;31m [0m     [31m▀[0;1;31m [0;1;30m [0;31m  [0;37m [0;1;30m [0;31m▄[0;1;31;41m▄[0;1;31;47m▓[0;1;31;40m▀[0;31m▀[0m
                           [31m▀▀▀▓[0;30;41m░[0;31;40m▓[0m               [31;40m ▀[0;1;31;41m▓[0;31m▄[0;1;30m  [0;31m▀[0;1;30m [0;31md[0;30;41mel[0;31;40m▌[0m
-                                 [31;40m░[0;30;41m▓[0;1;31;40m  [0;31margon([0;1;31mepic[0;31m)[0m
+                                 [31;40m░[0;30;41m▓[0;1;31;40m  [0;31m      [0;1;31m    [0;31m [0m
 
-[37m [0;1;30m.[0m .. .[1;37m,, [0m.. [1;30m.[0m [1;30margon _[0;1;37m [0m_[1;37m  _[0m [1;37m.  ,[0m
-
-i''m still very rusty but i''m loving this.. catch me on dalnet or email me
- RIP EPIC
-                                                               delicious[1;37m([0;1;33mfluid[0;1;37m)[0m
-                                                        delicious[1;37m@[0munbounded[1;37m.[0mcom[0m'
+[37m [0;1;30m.[0m .. .[1;37m,, [0m.. [1;30m.[0m [1;30margon _[0;1;37m [0m_[1;37m  _[0m [1;37m.  ,[0m'

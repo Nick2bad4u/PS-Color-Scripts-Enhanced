@@ -5,7 +5,7 @@
 # Source SHA-256: d1cd60188bd21f9b518ec48422feb3f1fae032fc639b4cf456866170c7f5b1ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OT-MAT1.ANS by Matrix. So There. (Odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Otter <Backwards.. heheh!>
 # SAUCE Author: Matrix. So There.
 # SAUCE Group: Odium
@@ -40,17 +40,4 @@ Write-Host '
 [1m [0;36m▐[0;1;37;46m░  [0;1;37;40m████ [0;1;37;46m ▐[0;1;37;40m████ [0;1;37;46m  ▐[0;1;37;40m██▌[0;31m▄██████████[0;31;41m  [0;31;40m███[0;1;31;41m░[0;31m▌[0m      [1;37;47m▓[0;1;37;40m██▌▐█████████▌[0m
 [36mot[0;36;46m  [0;1;37;46m▐[0;1;37;40m███▌[0;36m▐[0;1;37;46m░ ▓[0;1;37;40m██▌[0;36m▐[0;1;37;46m. [0;1;37;40m███  [0;31m▀▀▀▀▀████████▀▀▀    [0;1;37m▄█████ ██████████▌[0m
 [1m   [0;36m▀[0;1;37m▀▀▀▀[0;36m■▄[0;36;46m [0;1;37;46m▄[0;1;37;40m█▀▀  [0;36m▀[0;1;37m▀▀▀[0m                [1m▄▄▄[0;1;47m▓[0;1;40m██████[0;1;47m█[0;1;40m▀▄██████████[0;1;46m█▓[0m
-────────────────────────────────────────────────────────────────────────────────
-  Umm.. This is milk. He''s a matrix. He''s for all of you people''s who wanted a
-matrix for free. Yeah, the ones in #ANSI.. you know who you are.. the ones who
-say, ''Otter! He''s cool! Will you do me a matrix for my board?''. Then I go,
-''Welp, can you trade something for it?''.
-''No, I''m not an artist.. ''... Now, I''m not a mean guy, but I''m not gonna do
-friggin 35 ansis for people.. so, I''ll probably do one for everyone in each
-pack.. You can use this as a matrix on your board so long as the "ot" stays on
-it, ''cause If I find out otherwise, I''ll curse you. Then you''ll die by an anal
-probe. !Ha!
-    Greets:
-       Pinhead, LD!, my dog, my fish (Bog), the mold on the bread on top of
-       my refrig., Bill gates (loser), God, the pope, the guy who invented
-       yak cheese, and anyone else I forgot....[0m'
+────────────────────────────────────────────────────────────────────────────────[0m'

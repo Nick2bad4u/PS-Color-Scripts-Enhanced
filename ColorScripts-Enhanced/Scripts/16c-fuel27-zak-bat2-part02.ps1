@@ -5,7 +5,7 @@
 # Source SHA-256: 1ee3e0a55e0040c7d52bfd8000b799f2ada48821332b33b21417e47fe63ac55f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zAK-BAT2.ANS by ZAK (Fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Batman?
 # SAUCE Author: ZAK
 # SAUCE Group: Fuel
@@ -37,18 +37,4 @@ Write-Host '
 [34m█████▄██[0;1;34;44m▄▄[0;34m███████▄▄▄▄███████▌[0;37m  [0;35m [0;1;31;45m░[0;35m█▓██▓█[0;1;35;45m▓[0;35m██████▀▀█▄▄██[0;33;45m░░░░[0;35;40m█[0;1;36;45m▒[0;1;30;40m  █[0;1;30;47m  [0;1;30;40m████▌[0m  [34m████[0;1;34;44m▀▀▄▄[0;34m█[0m
 [34m████[0;1;30m▀[0;34m███████[0;1;34;44m▀▀▀[0;34m████████[0;1;34;44m░░[0;34m███[0;37m    [0;1;31;45m░[0;35m██[0;1;35;45m▄▄▄[0;35m█[0;1;35;45m▀▀▀[0;35m█████[0;33;45m░░░░▒▒▒▒▓▓█[0;1;36;45m░[0;1;36;40m▌[0;1;33;40m▄[0;1;30;40m █[0;1;30;47m▄▄▄▀▀[0;1;30;40m█[0m  [34m▐██[0;30;44m▀▀▄▄[0;34;40m█[0;1;34;44m▀[0m
 [34m████████[0;1;34;44m░░░[0;34m█████[0;1;34;44m░░░░░[0;34m██[0;30;44m░░[0;34;40m██[0;37;40m   [0;1;33;40m▄■[0;35m▐█████[0;33;45m░░░░░░░▒▒▒▒▒▓▓▓▓▓▓██[0;1;36;45m░[0;1;36;40m▌[0;1;33;40m▐[0;1;33;43m▒[0;1;30;40m █▓▓█[0;1;30;47m ▐[0;1;30;40m▌[0m  [34m██[0;1;34;44m░░[0;34m███[0;30;44m▀[0m
-[30;44m░░░[0;34;40m███[0;1;34;44m░░░░░░░░░░░░░[0;34m██████▀[0;37m   [0;1;33m▐[0;1;33;43m▓[0;1;33;40m▀[0;33m▄[0;35m▀[0;33;45m░░▒▒▒▒▒▒▓▓▓▓▓▓████[0;1;33;43m░░░░░[0;33;45m█[0;35;40m▀[0;1;33;40m▄▀█[0;33m▌[0;1;30;47m▀  ▄▄[0;1;30;40m▓▓[0m   [34m▀██[0;1;34;44m░░░[0;34m█[0m
-
-
-[37m  [0;35m"ZAK" [0;1;30mis a breakthrough phenomenon on the metaplane of the ANSI collective.[0m
-  [1;30mTranscending the postmodern era hegemony of ANSI structuralization, the[0m
-  [1;30mduo of "Z" and "AK" (Chronically misinterpreted artists Zeus II and[0m
-  [1;30mAlphaKing), rebel against formality and concepts of "scene respect" via[0m
-  [1;30mthis bold interpretation of the Batman as an unknown, carrying the "bomb" as[0m
-[1;30m  a representation of the metaphysical end of the ANSI universe, all the while[0m
-[1;30m  surrounded by the mystification of Jokerism and the annihilation and[0m
- [1;30m simultaneous questioning of Batman as a hero or metaphysical figure by[0m
- [1;30m juxtaposing a grand challenge of his traditional coloring with the removal[0m
-  [1;30mof his face entirely, surrounded by the question marks of the Joker. A final[0m
-  [1;30mdistillation of the piece leads the viewer to an essential and necessary[0m
-  [1;30mconfrontation of their true core values as an "ANSI fuckboi".[0m'
+[30;44m░░░[0;34;40m███[0;1;34;44m░░░░░░░░░░░░░[0;34m██████▀[0;37m   [0;1;33m▐[0;1;33;43m▓[0;1;33;40m▀[0;33m▄[0;35m▀[0;33;45m░░▒▒▒▒▒▒▓▓▓▓▓▓████[0;1;33;43m░░░░░[0;33;45m█[0;35;40m▀[0;1;33;40m▄▀█[0;33m▌[0;1;30;47m▀  ▄▄[0;1;30;40m▓▓[0m   [34m▀██[0;1;34;44m░░░[0;34m█[0m'

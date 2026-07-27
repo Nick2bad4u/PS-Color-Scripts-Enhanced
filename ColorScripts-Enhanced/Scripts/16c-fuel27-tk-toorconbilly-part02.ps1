@@ -5,7 +5,7 @@
 # Source SHA-256: be7f34894f910422ff54a05f6fcd87435ee687922b9918e62e263c8c8275aa0c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-toorconbilly.ans by the knight (Fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Toorcon Billy
 # SAUCE Author: the knight
 # SAUCE Group: Fuel
@@ -42,12 +42,4 @@ Write-Host '
 ░░░░░░░░░░░░░░                      [31m [0;36m ▒▓[0;31m▌ ░░░[0m     [31m░▓▓▓█▒▒█▌ ▀▀▀ ▄█▓▓▓▓██████[0;1;31;41m▒[0;1;31;40m█[0;1;37;41m▒[0;31m█ [0;37m [0;1;36m  [0;36m█ [0;1;36m █   █ █    ▀ ▐▌█[0m
 ░░░░░░░░░░░░░░░░░                     [31m ▓▌ ▒░[0m       [31m█▒▒█░░█  ▄▓▓▓███████████[0;1;31;41m░▓[0;1;31;40m█[0;1;37;41m░[0;31m▌ [0;37m [0;1;36m  [0;36m▄▀▄[0;1;36m █▄▄▀▀▄▄▄██▀▄▀ █▄[0m
 ░░░░░░░░░░░░░░                      [31m  ░ ▓ ▓[0m       [31m▄█░ █▄ ▒▓▓██████████████[0;1;31;41m░▒[0;1;31;40m█[0;1;37;41m░[0;31m█  [0;37m  [0;1;36m ▀[0;36m  [0;1;36m ▐▌[0m         [1;36m▌ ▄ ▀██[0m
-░░░  ░░░░                                 [31m▀▓  ▄▄███▀▄███▐▓▓███████████████[0;1;31;41m░░[0;31m██ [0m      [36m  ▄[0;1;36m █[0m         [1;36m  ▀[0m
-
-This ansi was used at Toorcon 20 as the print for the program guide of the event (and stickers).
-Toorcon is San Diego''s exclusive hacker conference that traditionally takes place in late September.
-It started originally by the San Diego 2600 user group, and was founded in 1999 by Ben Greenberg and
-David Hulton (h1kari). This year the theme was cyberpunk. It''s a ansi version of Billy Idol''s
-Cyberpunk: Shock to the System box cover. The tagline reads: "Outlaw Tech. Rebel Science.
-Information is the ammunition, your mind is the target." Cover art by Mark Frauenfelder. Ansified by
-The Knight of Fuel in 2018.[0m'
+░░░  ░░░░                                 [31m▀▓  ▄▄███▀▄███▐▓▓███████████████[0;1;31;41m░░[0;31m██ [0m      [36m  ▄[0;1;36m █[0m         [1;36m  ▀[0m'

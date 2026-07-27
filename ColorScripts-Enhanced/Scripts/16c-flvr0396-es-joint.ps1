@@ -5,7 +5,7 @@
 # Source SHA-256: 601531033438bf1e3c011665eeff3ba3d0dee59d0aa63339716f6dad8e9d4223
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ES-JOINT.ANS by elusive (flvr0396); released in flvr0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: da'joint
 # SAUCE Author: elusive
 # SAUCE Date: 19960201
@@ -30,8 +30,4 @@ Write-Host '
               ▐[1m██[0m▀ [1m    [0m
                [1m▐                                                            [0m
                [1m    [0m
-[1;30m---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<--[0m
- [1;30mheheh. i think this logo just rhUles. i felt very inspired today, and i just [0m
- [1;30mwent to my computer and started drawing, and this is the result. this must [0m
- [1;30mbe the happiest logo i have ever drawn =). peak & shock g, enjoy...*grin*[0m
-               [1;30m           [0m [1;30m -elusive(fte^fos^flavor)[0m'
+[1;30m---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<--[0m'

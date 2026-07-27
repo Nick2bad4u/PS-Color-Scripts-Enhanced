@@ -5,7 +5,7 @@
 # Source SHA-256: 21d08f72bf21d72eafca3570e44145df64de04d86cd846f549e3627f3a379d22
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DIS-HD1.ANS by Dislogic (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Hood
 # SAUCE Author: Dislogic
 # Lines: 1-19
@@ -27,6 +27,4 @@ Write-Host '
            [1;35;45m▓[0;35;44m██▄[0;1;35;45m░[0m [1;30;40m▀█████ [0;35;44m█ [0;34;40m██[0;35;44m▄▓ ▄[0m [1;30;40m███▓ [0;1;35;45m░[0;35;44m▄[0;1;35;45m░[0;35m░[0;1;35m▀▀▄[0;1;37m▄ [0;1;35m▄[0;1;35;45m██▓▒ ░[0m [1;30;40m█[0;1;30;47m▓[0;1;30;40m██ [0;1;35;45m░[0;35;44m▄  [0;35;45m [0m
            [1;35;45m█░░  [0;35m░ [0;1;30m█[0;1;30;47m█[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█ [0;1;35;45m░▒[0;35;44m▄[0;1;35;45m░░▒▒▓[0;35m▌ [0;1;30m██▀[0;35m▐[0;1;35;45m▒▓[0;35m▌ [0;1;30m█▄▄▄▄▄ [0;35m░[0;1;35m█[0;1;35;45m▓▄█[0m [1;30;40m▀███ [0;1;35;45m▒░[0;35;44m█[0;35;45m [0;1;35;45m▓[0m
            [1;35;40m▐[0;1;35;45m█▄▓▄[0;1;35;40m▌ [0;1;30;40m▀███▀ [0;1;35;40m▐[0;1;35;45m▄ [0;1;35;40m█▌ ▀▀█▄[0;1;37;40m▄[0m▄ [1;35m▀▀ [0;1;30m▄██[0;1;30;47m▓[0;1;30;40m████▓ [0;1;35;40m▐██[0;1;35;45m█▌[0m [1;30;40m▀█▀[0;1;35;40m▐[0;1;35;45m▓[0;1;35;40m██[0;1;35;45m█[0;1;35;40m▌[0m
-             [1;30;40m░[0;1;35;40m▀[0;1;37;40m█[0;1;37;44m█[0;1;35;40m▀ [0;1;30;40m▀▀▀ [0m▀[1m▀▀[0;1;35m▀▀ [0;1;30m▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀▀▀▀░  [0;1;35m▀[0;1;37m▀██▄[0m▄▄[1m▀▀[0;1;35m▀▀[0;35m░[0m
-
-                [1;30mthe hood .. more elite than your mom <grin>[0m'
+             [1;30;40m░[0;1;35;40m▀[0;1;37;40m█[0;1;37;44m█[0;1;35;40m▀ [0;1;30;40m▀▀▀ [0m▀[1m▀▀[0;1;35m▀▀ [0;1;30m▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀▀▀▀░  [0;1;35m▀[0;1;37m▀██▄[0m▄▄[1m▀▀[0;1;35m▀▀[0;35m░[0m'

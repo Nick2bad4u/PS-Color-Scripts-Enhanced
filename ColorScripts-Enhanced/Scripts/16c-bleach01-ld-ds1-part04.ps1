@@ -5,7 +5,7 @@
 # Source SHA-256: db06c79348cfbdb15a66edf7cd28121b77f1e5b0911253340093716ef59eb63a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-DS1.ANS by lOrdJazz! (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: death star!
 # SAUCE Author: lOrdJazz!
 # SAUCE Group: READ THE INI FILE
@@ -56,10 +56,7 @@ Write-Host '
 [33;40m▒▓▄▄ [0;37;40m▀▀▀▀ [0;33;40m██▄▄ [0;37;40m▀▀▀▀ [0;33;40m██▄▄ [0;37;40m▀▀▀▀ [0;33;40m▄ [0;37;40m▀▀ [0;33;40m▄▄▄▄ [0;37;40m▀▀▀▀ [0;1;33;43m▒[0;33m▓▄▄ [0;37m▀▀▀▀ [0;33m▄ [0;37m▀▀ [0;37;43m [0;1;33;43m░[0;33m▄▄ [0;37m▀▀▀▀[0;33m▄ [0;37m▀▀▀ [0;33m▓[0;30;43mld![0m
 [33;40m▓███████████[0;33;47m▓[0;33;40m███▓█▒▓█▓█████████[0;37;43m■▓▒[0;33;40m█[0;37;43m░[0;33;40m█████████[0;1;33;43m░[0;33m██████████[0;37;43m■·[0;33;40m█[0;37;43m░[0;33;40m████████████[0;32;43m░[0;33;40m█[0;32;43m░[0;33;40m████[0m
 [33;40m█▀▓▀▓▀▀▀▀▓▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37;43m░[0;33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▓[0;32;43m░[0m
-[33;40m█▀ :: [0;37;40mdeath star [0;33;40m: [0;37;40m2O3 894 18O5 [0;33;40m: [0;37;40msysOp! gate keeper [0;33;40m: [0;37;40mrUnning! obv[0;33;40m/[0;37;40mtwOo [0;33;40m::[0;1;30;40m░ [0;33m█[0;1;33;43m░[0m
-[33m██[0;1;30m░  [0;33m.. ansi by lord jazz of [0;36mbleach [0;33mproductions nineteen ninety five! ..[0;1;30m░ ░▒ [0;33m▀[0;1;33;43m▒[0m
+[33;40m█▀    [0;37;40m           [0;33;40m  [0;37;40m             [0;33;40m  [0;37;40m                   [0;33;40m  [0;37;40m            [0;33;40m [0;37;40m     [0;33;40m  [0;1;30;40m░ [0;33m█[0;1;33;43m░[0m
+[33m██[0;1;30m░  [0;33m                        [0;36m       [0;33m                                    [0;1;30m░ ░▒ [0;33m▀[0;1;33;43m▒[0m
 [1;33;43m░[0;33m█▄▓▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▓[0;1;33;43m░[0m
-[33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[33mgreets! .. [0;37mshogunn, ghost rider, strider, stormfront, dweizel, pope john paul,[0m
-[37mear, flood myth, sooshi ex, asylum, modeus khahn, ugh..this greet stuff is hard[0m
-[37m...undertaker, sir lancelot, low rider.[0m                      [37m-lord jazz([0;1;33mbleach[0m)[0m'
+[33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

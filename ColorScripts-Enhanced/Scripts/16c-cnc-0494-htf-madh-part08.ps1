@@ -5,7 +5,7 @@
 # Source SHA-256: af43c2273175fc231c3382d7d4d0b7c551575dd573387241b363326c64b71361
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HTF-MADH.ANS by Hanzo The Fiend (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 335-384
 # Columns: 1-80
 
@@ -57,5 +57,5 @@ Write-Host '
         [1;30;40m█[0;1;30;47m░[0;1;37;47m░[0;47m█[0;1;30;47m██[0m             [1;37;40mR[0;1;35;40me[0;35mmote: Reaper Wildwo[0;1;35mo[0;1;37md[0m            [1;30m█[0;1;30;47m░[0;1;37;47m░[0;47m█[0;1;30;47m██[0m
          [1;30;40m█[0;1;30;47m░[0;47m█[0;1;30;47m█[0m                                                  [1;30;40m█[0;1;30;47m░[0;47m█[0;1;30;47m█[0m
          [1;30;40m█[0;1;30;47m░░█[0m       [1;30;40m┌[0m──[1m──[0;1;36m──[0;36m──[0;1;34m──[0;34m──[0;1;30m──[0m──[1m──[0m──[1;30m──[0;34m──[0;1;34m──[0;36m──[0;1;36m──[0;1;37m──[0m──[1;30m┐[0m       [1;30m█[0;1;30;47m░░█[0m
-         [1;30;40m█[0;1;30;47m▒▒█[0m       [1;30;40m│[0;32mC[0;1;32mo[0;1;33mp[0;1;37myrights [0;32m1[0;1;32m9[0;1;33m9[0;1;37m4 [0;32mC[0;1;32ma[0;1;33mN[0;1;37mCeR [0;32mP[0;1;32mr[0;1;33mo[0;1;37mductions[0;1;30m│[0m       [1;30m█[0;1;30;47m▒▒█[0m
+         [1;30;40m█[0;1;30;47m▒▒█[0m       [1;30;40m│[0;32m [0;1;32m [0;1;33m [0;1;37m        [0;32m [0;1;32m [0;1;33m [0;1;37m  [0;32m [0;1;32m [0;1;33m [0;1;37m    [0;32m [0;1;32m [0;1;33m [0;1;37m        [0;1;30m│[0m       [1;30m█[0;1;30;47m▒▒█[0m
          [1;30;40m█[0;1;30;47m█▓█[0m       [1;30;40m└[0m──[1m──[0;1;36m──[0;36m──[0;1;34m──[0;34m──[0;1;30m──[0m──[1m──[0m──[1;30m──[0;34m──[0;1;34m──[0;36m──[0;1;36m──[0;1;37m──[0m──[1;30m┘[0m       [1;30m█[0;1;30;47m█▓█[0m'

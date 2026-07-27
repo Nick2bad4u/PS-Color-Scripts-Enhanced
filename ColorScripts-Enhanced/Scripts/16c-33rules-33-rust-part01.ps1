@@ -5,7 +5,7 @@
 # Source SHA-256: 9f8c3d883e8ebad6e3a814cba2aa24fa367f71e7e4434d975ef4a0d4112658ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-RUST.ANS by Samsara 07/96 (Eerie & Cthulu); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rust [j]
 # SAUCE Author: Samsara 07/96
 # SAUCE Group: Eerie & Cthulu
@@ -15,26 +15,26 @@
 # Columns: 1-80
 
 Write-Host '
-[1;33msamsara[0m
+[1;33m       [0m
 
 
-[32mthe vertical tower thrusts deep in the measureless sky,[0m
-[32merected to show mankind''s prowress and power and pride.[0m
-[32mthe monument''s girth stretches greater than caught by the eye[0m
-[32mpenetrating into the etheral realm of gods defied.[0m
+[32m                                                       [0m
+[32m                                                       [0m
+[32m                                                             [0m
+[32m                                                  [0m
 
-[32mthe base is wide - nine hundred cubits chromed[0m
-[32mand stays nine hundred towering above.[0m
-[32mthe monument rips through celestia domed;[0m
-[32mits seamless skin shows sweat and blood - not love.[0m
+[32m                                              [0m
+[32m                                      [0m
+[32m                                         [0m
+[32m                                                   [0m
 
-[32mcan something great as this last evermore?[0m
-[32mman''s pinnacle entombed in ageless steel -[0m
-[32mreaching though to heights not dreamed before.[0m
+[32m                                          [0m
+[32m                                          [0m
+[32m                                              [0m
 
-[32mforever is yet number most unreal.[0m
-[32mtime will see har metal turn to dust[0m
-[32mas all mankind''s pretenses turn to rust.[0m          [1;30m> cthulu (mistigris)[0m
+[32m                                  [0m
+[32m                                    [0m
+[32m                                        [0m          [1;30m                    [0m
 
 
 

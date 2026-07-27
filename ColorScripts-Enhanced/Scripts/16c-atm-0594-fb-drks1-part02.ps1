@@ -5,7 +5,7 @@
 # Source SHA-256: a9e83641dad0d07eadb12ed37f804be1ad5617fbd332840ea2c48dd7202376b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-DRKS1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 36-71
 # Columns: 1-80
 
@@ -43,6 +43,6 @@ Write-Host '
 
                                  [1;37m1-703-378-5729[0m
 
-                    [1;37mM[0ma[1;30mn [0;1;37mw[0mh[1;30mo [0;1;37mp[0may[1;30ms [0;1;37mt[0mh[1;30me [0;1;37mb[0mill[1;30ms [0;1;37m- V[0;1;36moi[0;36md [0;1;37mT[0;1;36mravelle[0;36mr[0m
-                            [1;30mX-Products Contact site[0m
+                    [1;37m [0m [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m  [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m   [1;30m  [0;1;37m   [0;1;36m  [0;36m  [0;1;37m [0;1;36m       [0;36m [0m
+                            [1;30m                       [0m
                            [1;30m─[0;33m───[0;1;33m──[0;1;37m> A[0;1;33mT[0;1;31mO[0;31mMi[0;1;30mC [0;31mWHQ [0;1;37m<[0;1;33m──[0;33m───[0;1;30m─[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 19aa0a3b208ec58914ff5940777af2e740d68d91095c2427b058b2cffaa99cdc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GRN-MIST.ANS by Grizznatch (mISTFUNK 1998); released in m-9804 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: MiSTiGRiS LoGo
 # SAUCE Author: Grizznatch
 # SAUCE Group: mISTFUNK 1998
@@ -35,6 +35,6 @@ Write-Host '
                                                         [35;40m|[0m
 [37;40m   [0;35;40m|\||/|[0m                                 [35;40m<-------------/[0m
 [37;40m   [0;35;40m|@__@|[0m     [35;40m.''''''''''''''''''''''''''''''''''''''''''''''''''.[0m
-[37;40m   [0;35;40m\|__|/[0;37;40m    [0;35;40m;[0;37;40m  [0;35;40mgrinch cannot draw ansi[0;37;40m [0;35;40m ;[0m
-[37;40m   [0;35;40m|[0;37;40m   [0;35;40m |[0;37;40m    [0;35;40m;[0;37;40m   [0;35;40mand he knows it yo!#$[0;37;40m   [0;35;40m;[0m
+[37;40m   [0;35;40m      [0;37;40m    [0;35;40m [0;37;40m  [0;35;40m                       [0;37;40m [0;35;40m  [0m
+[37;40m   [0;35;40m [0;37;40m   [0;35;40m  [0;37;40m    [0;35;40m [0;37;40m   [0;35;40m                     [0;37;40m   [0;35;40m [0m
 [37;40m    [0;35;40m\__/[0;37;40m [0;35;40m..,,''...........................''[0m'

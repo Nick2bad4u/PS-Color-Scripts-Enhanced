@@ -5,7 +5,7 @@
 # Source SHA-256: d32270569218693116a86eff718ca8acd3a1e181deee38f8599a3433ce84f98b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KO-RVL1.ANS by K-os (RiVAL); released in rvl-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rival logo
 # SAUCE Author: K-os
 # SAUCE Group: RiVAL
@@ -36,6 +36,4 @@ Write-Host '
 [37;40m      [0;36;40m▀▀[0;36;47m▄▄▄▄▀[0;34;47m [0;36;47m▐▓[0;37;40m███████[0;36;47m▀[0;37;40m█[0;36;47m▐[0;37;40m███[0;36;47m░[0;37;40m████[0;37;46m▄[0;37;40m█[0;36;47m▀▀▄▄▄▄▀[0;37;40m█[0;36;47m▀▄ ▓[0;37;40m███[0;36;47m▄[0;36;40m▀[0;34;40m [0;36;40m▀[0;36;47m▄[0;37;40m█▄█[0;36;47m▄▀[0;37;40m██[0;36;47m▐[0;36;40m▀▀[0;37;40m      [0;34;40m [0;37;40m [0;34;40m    [0m
 [37;40m        [0;36;47m▓░▄[0;37;40m███[0;36;47m░▀▄[0;37;40m██▄███[0;36;47m▄▄▀[0;37;40m██████[0;36;47m▄[0;36;40m▀[0;36;47m▄[0;37;40m███[0;36;47m▄[0;37;40m [0;36;47m▄[0;37;40m████[0;36;47m▄[0;36;40m▀▀▀▀▀[0;37;40m     [0;36;40m▀▀▀[0;37;40m [0;36;40m▀[0;36;47m░▄[0;36;40m▀[0;37;40m ∞[0;36;40mk[0;32;40mO[0;37;40m∞[0m
 [37;40m           [0;36;40m▀[0;36;47m▄░▄[0;36;40m▀[0;37;40m [0;36;40m▀▀[0;36;47m▄[0;37;46m▓[0;36;47m▄[0;36;40m▀▀[0;36;47m▄[0;37;40m███[0;36;47m▄▄[0;36;40m▀▀[0;37;40m   [0;36;40m▀▀[0;36;47m░[0;37;40m   [0;36;40m▀▀▀▀[0;37;40m                [0;36;47m▓[0m
-[37;40m          [0;34;40m [0;37;40m  [0;36;47m▓[0;37;40m           [0;36;40m▀▀▀[0;37;40m         [0;36;47m▓[0m
-
-[37;40m                [0;34;40m [0m'
+[37;40m          [0;34;40m [0;37;40m  [0;36;47m▓[0;37;40m           [0;36;40m▀▀▀[0;37;40m         [0;36;47m▓[0m'

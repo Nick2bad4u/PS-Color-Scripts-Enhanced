@@ -5,7 +5,7 @@
 # Source SHA-256: 1415db6ea15514d145dd534e9f7af1e96ab216c99f2cd5560dc63160653d4b15
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MOTH-BIRTHDAY_GIRL.ANS by Moth (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Birthday Girl
 # SAUCE Author: Moth
 # SAUCE Group: Mistigris
@@ -42,7 +42,4 @@ Write-Host '
                            ██            █           ▐▌ █
                             █            █            █▄▀
                             ▀                         █▀
-                                                      ▀
-
-
-                               Birthday Girl   -  moth[0m'
+                                                      ▀[0m'

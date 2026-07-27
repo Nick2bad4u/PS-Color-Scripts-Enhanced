@@ -5,7 +5,7 @@
 # Source SHA-256: e84afca8d669d936f0817dca1a6e76a2182e4aa223f00f98b0a09ab072c1b050
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 43-SMAIN.ANS by Aesthetic (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -34,7 +34,4 @@ Write-Host '
 [37;40m  [0;33;40m▄█████[0;30;43m [0;1;33;43mb[0;30;43mbs.listing [0;33;40m█████[0;1;33;43mx[0;30;43mchat multi[0;33;40m███████[0;1;33;43mv[0;30;43moting[0;33;40m██▓▓░▓▓░[0;31;40m░█[0;35;41m▓▓[0;35;40m██[0;35;41m▓[0;35;40m█[0;35;41m████[0;30;45m         [0;35;40m█[0m
 [37;40m  [0;33;40m▄▄█▄███[0;1;33;43m               [0;33m████████████████████████████░░[0;37m [0;31m░░▓▓█[0;35;41m░░▓▓░▓▓█▓██▓██████[0;1;35;45m░░[0m
   [33m  ▄▄▄█▄█████▓▓█████████▓▓████████[0;1;33;43mg[0;30;43moodbye[0;33;40m██[0;1;37;43m░░[0;33m██▓█▓▓░░[0;31m░▓▓█████[0;35;41m░░ ░░▓░▓▓░▓▓██▓██[0;35;40m▓[0m
-[37;40m [0;31;40m░░▓▓███[0;1;37;41mmain menu selection [    ][0;31m██[0;1;37;41m [0;31m████[0;1;37;41m░[0;31m████████████[0;1;31;41m░░[0;31m██████[0;1;31;41m░░[0;35;41m  [0;31;40m█[0;35;41m░[0;31;40m█[0;35;41m░░[0;31;40m█[0;35;41m░░▓▓░█[0;35;40m▓░[0m
-
-
-[37;40m drawn for darkwing''s skynet bbs.[0m'
+[37;40m [0;31;40m░░▓▓███[0;1;37;41mmain menu selection [    ][0;31m██[0;1;37;41m [0;31m████[0;1;37;41m░[0;31m████████████[0;1;31;41m░░[0;31m██████[0;1;31;41m░░[0;35;41m  [0;31;40m█[0;35;41m░[0;31;40m█[0;35;41m░░[0;31;40m█[0;35;41m░░▓▓░█[0;35;40m▓░[0m'

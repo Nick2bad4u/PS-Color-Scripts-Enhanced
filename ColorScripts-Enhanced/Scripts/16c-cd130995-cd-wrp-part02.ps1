@@ -5,7 +5,7 @@
 # Source SHA-256: 37cf97cab91a090b9448d1249ade9300298079a70968a459529ff78f11ca4ab2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!-WRP!.ANS by CREEPiNG DEATH (cd130995); released in cd130995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: WARP GROUP ANSi!
 # SAUCE Author: CREEPiNG DEATH
 # SAUCE Date: 19950910
@@ -45,5 +45,5 @@ Write-Host '
 [1m [0;1;33m███▀██▀█[0m                    [1m░[0m           [1m░[0m         [1m░[0m             [1m▒[0m
 [1;33m▐██▌  ▀▀▀[0m                                [1m░[0m                       [1m░[0m
 [1;33m▐██[0;31m▄▄▀▀▀▀▄▄▀[0;36m▌[0m
-[36m [0;1;33m▀█▄ ▄▄ R[0;33mE[0;1;30mE[0;36mP[0;1;36miNG DEATH PRODUCTiO[0;36mN[0;1;30m![0m
+[36m [0;1;33m▀█▄ ▄▄  [0;33m [0;1;30m [0;36m [0;1;36m                   [0;36m [0;1;30m [0m
 [1;30m   [0;1;33m▀▀▀[0m      [1;36m▌ THE SHuTDoWN 08-265-227[0m'

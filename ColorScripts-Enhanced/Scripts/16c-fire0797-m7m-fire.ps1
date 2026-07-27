@@ -5,7 +5,7 @@
 # Source SHA-256: 619b90738406464ca88c270c58ee28fa3764385f89a8c15e70c2cb81fd949577
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M7M-FIRE.ANS by Metal Militia (FIRE); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fire
 # SAUCE Author: Metal Militia
 # SAUCE Group: FIRE
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-     [1m [0m         [1mfire[0m :: experts in world wide domination or smth..           [1;36m  [0m
+     [1m [0m         [1m    [0m                                                         [1;36m  [0m
                                                                    [1;36m_.,┌[0;36m⌐[0;1;36mg[0;36mdS¼$[0m
    [35m ..[0m             [35m  [0m              [1;31m  [0m              [35m░[0;30;45m▓[0;37;40m [0;1;31;40m [0;1;36;40m    _.,[0;36m┌[0;1;36m⌐7[0;36m┘²[0;1;36m^``[0;36m`[0;1;36m`[0;36m`l$$$[0m
     [35m::[0m                           [37m .. [0m       [37mm7m([0;1;37mfir[0;1;37;45me[0;30;45m░[0m    [1;36;40m.d$7`    [0m       [36m:$$$:[0m
@@ -34,6 +34,4 @@ Write-Host '
 [31m┘²~` [0m          [37m  [0;1;35m  `[0;36m,[0;1;36md$[0;1;37m:[0;1;35m $$[0;1;31m$l[0;1;35m [0;33m┘²~`[0;1;31m [0m           [36m`[0;1;36m [0;1;37m ``[0;1;32m``[0;32m``[0;34m ,d$$7`    [0m      [34m::`~┘4[0m
 [31m    [0m             [37m [0;36m.d[0;1;36m$$$ [0;1;31m:[0;1;35m$[0;1;31m$$:[0m                        [34m `4$$$$$7`[0m
                   [36m``[0;1;36m`[0;36m`[0;1;36m` [0;1;31m┘[0;1;35m²[0;1;31m~`[0;1;35m [0m                           [34m`4$7`  [0m
-                                                          [34m`[0m   [34m [0m
-
-                        [37mwh33, 50min , my best font to date![0m'
+                                                          [34m`[0m   [34m [0m'

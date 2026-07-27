@@ -5,7 +5,7 @@
 # Source SHA-256: 3decf8a70bb1782c17986074b385089ef23b01eb59c6ee586d19ef843b35c68f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-FORZE.ANS by sander (focus); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the forze
 # SAUCE Author: sander
 # SAUCE Group: focus
@@ -29,15 +29,12 @@ Write-Host '
 [1;35;40m█[0;1;37;44m▄[0;1;37;45m▄[0;1;37;40m█[0;34m█[0;37m  [0;1;30m░[0m [1;30m░░░░░░[0m [1;35m█[0;1;37;44m▄▄▄▄▄▄▄▄[0;1;37;45m▄▄▄▄▄▄[0;1;37;40m█[0m [1;35m█[0;1;37;44m▄▄[0;1;37;40m█[0m [1;30m░░░░░▀▄[0;35m▀[0;1;35;45m▀[0;1;37;40m█[0;34m█[0;1;35m█[0;1;37;44m▄▄▄▄▄▄[0;1;37;45m▄▄▄▄▄▄▄[0;1;37;40m█[0m [1;35m█[0;1;37;44m▄▄▄▄▄▄▄[0;1;37;45m▄▄▄▄▄▄[0;1;35;40m█[0m
 [1;30;40m░[0m [1;30m░[0m [1;30m░[0m [1;30m░[0m [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
  [1;30m░[0;1;36mWelcome[0;30m▄▄█▀▀▀▀▀▀█[0;1;30m░[0;1;36mUploads[0;30m███████████[0;1;30m░[0;1;36mLocalMSG[0m          [1;30m░[0;1;35m[!] World of Warcraft[0;1;30m░[0m
- [1;30m░[0;1;37mSander/Focus[0;30m▄▄▄▄▄[0;1;30m░[0;1;37mFile area[0;1;35m [ / ]   [0;1;30m░[0;1;37mMail area[0;35m [0;1;35m{ / }[0m   [1;30m░[0m    [1;35m-[0m [1;35mWotLK[0m          [1;30m░[0m
+ [1;30m░[0;1;37m            [0;30m▄▄▄▄▄[0;1;30m░[0;1;37m         [0;1;35m         [0;1;30m░[0;1;37m         [0;35m [0;1;35m     [0m   [1;30m░[0m    [1;35m [0m [1;35m     [0m          [1;30m░[0m
  [1;30m░░░░░░░░░░░[0m [1;30m░[0m [1;30m░[0m   [1;30m░░░░░░░░░░░░░[0m [1;30m░[0m [1;30m░[0m  [1;30m░░░░░░░░░░[0m [1;30m░[0m [1;30m░[0m     [1;30m░░░░[0m [1;30m░[0m [1;30m░[0m              [1;30m░[0m
- [1;30m░[0;35m[[0;1;35mO[0;35m][0;1;37m [0;1;36mOneliner[0m     [1;30m░[0;35m[[0;1;35mF[0;35m][0;37m [0;36mFiles[0m         [1;30m░[0;35m[[0;1;35mM[0;35m][0;37m [0;36mMessages    [0;30m██[0;1;30m░[0;35m[[0;1;35mI [0;35m][0;37m [0;36miChat IRC[0m       [1;30m░[0m
- [1;30m░[0;35m[[0;1;35mA[0;35m][0;36m Account[0m      [1;30m░[0;35m[[0;1;35mQ[0;35m][0;1;35m [0;36mView queue[0;1;35m    [0;1;30m░[0;35m[[0;1;35mN[0;35m][0;1;35m [0;36mNew message[0;37m [0;30m██[0;1;30m░[0;35m[[0;1;35m/S[0;35m][0;1;30m [0;36msKULLz dEMO[0m
-[37m [0;1;30m░[0;35m[[0;1;35mL[0;35m][0;1;35m [0;36mLastcallz    [0;1;30m░[0;35m[[0;1;35mU[0;35m][0;1;35m [0;36mUpload file   [0;1;30m░[0;35m[[0;1;35mB[0;35m][0;37m [0;36mBulletin   [0;30m███[0;1;30m░[0;35m[[0;1;35m? [0;35m][0;1;30m [0;36mNodelist[0m        [1;30m░[0m
- [1;30m░[0;35m[[0;1;35mY[0;35m][0;1;35m [0;36mYell (page)[0;1;35m**[0;1;30m░[0;35m[[0;1;35mD[0;35m][0;37m [0;36mLeech que/file[0;1;30m░[0;35m[[0;1;35mV[0;35m][0;1;35m [0;36mView your msgs[0;1;30m░[0;35m[[0;1;35m/?[0;35m][0;1;30m [0;36mNEWFiLE ANS[0m
-[37m [0;1;30m░[0;35m[[0;1;35mG[0;35m][0;1;35m [0;36mLog out[0m      [1;30m░[0;35m[[0;1;35mS[0;35m][0;37m [0;36mSearch text   [0;1;30m░[0;35m[[0;1;35mC[0;35m][0;34m [0;36mCheck mailbox[0;37m [0;1;30m░[0;35m[[0;37m/[0;1;35mW[0;35m][0;1;30m [0;36mWho-is-on[0m
+ [1;30m░[0;35m [0;1;35m [0;35m [0;1;37m [0;1;36m        [0m     [1;30m░[0;35m [0;1;35m [0;35m [0;37m [0;36m     [0m         [1;30m░[0;35m [0;1;35m [0;35m [0;37m [0;36m            [0;30m██[0;1;30m░[0;35m [0;1;35m  [0;35m [0;37m [0;36m         [0m       [1;30m░[0m
+ [1;30m░[0;35m [0;1;35m [0;35m [0;36m        [0m      [1;30m░[0;35m [0;1;35m [0;35m [0;1;35m [0;36m          [0;1;35m    [0;1;30m░[0;35m [0;1;35m [0;35m [0;1;35m [0;36m           [0;37m [0;30m██[0;1;30m░[0;35m [0;1;35m  [0;35m [0;1;30m [0;36m           [0m
+[37m [0;1;30m░[0;35m [0;1;35m [0;35m [0;1;35m [0;36m             [0;1;30m░[0;35m [0;1;35m [0;35m [0;1;35m [0;36m              [0;1;30m░[0;35m [0;1;35m [0;35m [0;37m [0;36m           [0;30m███[0;1;30m░[0;35m [0;1;35m  [0;35m [0;1;30m [0;36m        [0m        [1;30m░[0m
+ [1;30m░[0;35m [0;1;35m [0;35m [0;1;35m [0;36m           [0;1;35m  [0;1;30m░[0;35m [0;1;35m [0;35m [0;37m [0;36m              [0;1;30m░[0;35m [0;1;35m [0;35m [0;1;35m [0;36m              [0;1;30m░[0;35m [0;1;35m  [0;35m [0;1;30m [0;36m           [0m
+[37m [0;1;30m░[0;35m [0;1;35m [0;35m [0;1;35m [0;36m       [0m      [1;30m░[0;35m [0;1;35m [0;35m [0;37m [0;36m              [0;1;30m░[0;35m [0;1;35m [0;35m [0;34m [0;36m             [0;37m [0;1;30m░[0;35m [0;37m [0;1;35m [0;35m [0;1;30m [0;36m         [0m
 [37m [0;1;30m░░░░░░░░[0m [1;30m░[0m        [1;30m░░░░░░░[0m [1;30m░[0m          [1;30m░░░░░[0m [1;30m░[0m            [1;30m░[0;35m[[0;1;35m@ [0;35m][0;36m Stats[0m
-                                                         [1;30m░░░░░░░[0m [1;30m░[0m
-  [35m**[0;1;30m sysop is paged on iphone[0m          [35m[[0;1;35m/![0;35m][0;37m [0;35mRAiNFALL[0m      [35m[[0;1;35m/N[0;35m][0;37m [0;35mNEWMSG EMAIL[0m
-
-[37m  [0;1;35mtAGLINE: [BUFFERS=7 FILES=5, 2nd Down, 4th quarter, 5 yards to go![0m'
+                                                         [1;30m░░░░░░░[0m [1;30m░[0m'

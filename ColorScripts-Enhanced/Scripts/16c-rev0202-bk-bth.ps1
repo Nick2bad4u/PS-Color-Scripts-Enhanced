@@ -5,7 +5,7 @@
 # Source SHA-256: 3d0e466731574c8c0b5415451f501b3703f29c59c3562442e7ea656afa009bb2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bk-bth.ans by Black Knight (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -26,11 +26,9 @@ Write-Host '
 [37m              [0;1;30mî┐ [0;34m` [0;31m.[0;1;30m,,[0;31m⌐[0;1;30m»áa,`[0;34m╙[0;1;34m$$[0;34m¢[0;1;34ma[0;34m┐,[0;1;34m,.[0;34m.[0;37m [0;1;33m,ó[0;1;31m╛[0;1;33m╘[0;1;31mò[0;1;33m,[0m [34m.[0;1;34m.[0;34m,,┐[0;1;30ma[0;1;34mΓ$[0;34mg[0;1;30m╙`[0;33m,[0;31maá[0;1;30m≥⌐[0;34m .,[0;1;34m*[0;34mºº"[0;1;34m^[0;1;36m^[0;36m`[0;1;36m`[0m
          [1;30m . ,╒$▓╟£ga╖╓gª╓.[0;1;31m`[0;31m╘[0;1;31mà[0;33m.[0;34m`[0;37m"[0;1;30m²╜╜[0;34m"[0;1;34m`[0;1;33m,[0;31má[0;1;31m$[0;33mà[0;1;31m,[0;1;30mg[0;1;33m$$[0;33mà[0;1;31m.[0;1;30m`[0;34m"[0;1;30m╜[0m╜²[1;30m"[0;34m`[0;33m.á[0;1;30m╘[0;1;31m"[0;1;30m`,╖g╕┌╒g,[0;1;36m       [0m
           [36m [0;1;30m  ;$$$$¢⌐¢$$g$░░a.[0;33m`[0;1;31mèa[0;33m,[0;1;30m.[0;33m,⌐[0;1;31m╜²[0;33m╛[0;1;30m⌡[0;1;31m╛[0;33m²[0;1;31m²[0;31m╘[0;1;31m⌡[0;1;30m╘[0;33m²[0;1;31m╙[0;33m¬,[0;1;31m.[0;33m,[0;1;30mé[0;1;31m"`[0;1;30m.⌐Θ£$É⌐²"°╛ó@a,.[0m [1;30m.[0m
-          [36m [0;1;30m.²"ª[0m [1;36m,⌐sexy¬, so yo go cum¬, ,e¬, boo¬. ,⌐a¬, on  yo [0;1;30mg≥;''[0;1;36m [0m
+          [36m [0;1;30m    [0m [1;36m ⌐                                  ⌐           [0;1;30m    [0;1;36m [0m
          [1;30m  ` ,å[0m [1;36m²² ▓[0;1;36;46m▓[0;1;36;40m ²² $; ²$ P";"4`$$;$í`" $P`4$ $P`4$ $l  ;$[0;1;30;40m ²"°∙ [0m
   [1;36m: ;[0m   [1;36m::[0;36m [0;1;36m:[0;1;30m  [0;1;36m; I i:; :$ ;; gi ⌡ . :²I`;"É:. $; ;i :l :░;l::g$Ii: i: :[0m   [1;36m;: [0m  [1;36m:[0m
          [1;30m  `²à$»¬g[0m [1;36m$$ $$h$$ $$gég gè≤$g .,é$;$$g$░ $$a$$ `"$$"`[0;1;30m,⌐¬∙·[0;1;36m [0m
       [36m   [0;1;30m  [0;36m [0;1;30m,l$g%.[0m [1;36m²² ²² ²² `"²"` ²² ²² `²²'' ²²²"` ²² ²²   ²²[0;36m [0;1;30má$░$'' [0;1;36m [0m
-       [1;30m`  ^ª"`²ìg [0m▐[30;47mb l a c k [0;1;37;47m∙[0;30;47m t h u r s d a y[0;37;40m▌[0m   [1;30;40m;[0m   [1;30m:: :$:$░$í²''[0m
-
-                [1mBlack Thursday BBS // telnet://blackthursday.net[0m'
+       [1;30m`  ^ª"`²ìg [0m▐[30;47mb l a c k [0;1;37;47m∙[0;30;47m t h u r s d a y[0;37;40m▌[0m   [1;30;40m;[0m   [1;30m:: :$:$░$í²''[0m'

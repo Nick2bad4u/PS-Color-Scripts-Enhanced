@@ -5,7 +5,7 @@
 # Source SHA-256: 41b36b54d92bb385a8197a4cd36a3846616337365a8235e3b54bf59451c63985
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-AGORA.ANS by Soul Blazer (ACiD Productions); released in acdu0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Agora
 # SAUCE Author: Soul Blazer
 # SAUCE Group: ACiD Productions
@@ -16,10 +16,10 @@
 
 Write-Host '
 [1;30m──────────────────────────────────────────────────────────────────────────────[0m
-[1;30mNelson : Lazy ?! What do ya mean!?[0m      [1;30m░  ACiD Huh?! huh?!  Fruit?! Fruit?![0m
-[1;30mChris : LaZy ?! Huh?  Jeff : Ma ma ma   ▓   ░[0m       [1;30m░ Fruit ! Orange▄ ! ! ![0m
+[1;30m                                  [0m      [1;30m░                                   [0m
+[1;30m                                        ▓   ░[0m       [1;30m░               ▄      [0m
 [1;30m─────────────────────────────────────── █ ─ ▒ ──▒───▓────────────▒─▄[0;1;30;47m▓[0;1;30;40m─────────[0m
-[1;30;40m([0;1;34;40mc[0;1;30;40m) [0;1;37;40mS[0moul [1mB[0mlaZer [1;30m<[0;34mAC[0;1;34mi[0;34mD[0;1;30m> - [0mJanuary [34m19[0;1;34m95   [0;1;30m█░  ▓  ▀▓ ▄[0m▄[1;30;47m▒[0m             [1;30;40m▀▀[0m
+[1;30;40m [0;1;34;40m [0;1;30;40m  [0;1;37;40m [0m    [1m [0m      [1;30m [0;34m  [0;1;34m [0;34m [0;1;30m    [0m        [34m  [0;1;34m     [0;1;30m█░  ▓  ▀▓ ▄[0m▄[1;30;47m▒[0m             [1;30;40m▀▀[0m
                 [1;37;40m▄[0m     [1;37;40m▄[0m                 [1;30;40m█▓▄▄[0;1;30;47m▒[0m   [1;30;40m█▀[0m▀▀               [36m░[0m
          [1;37m▀  ▄    ▄▄▀ ▄  ▄ ▀ ▄[0m            [1;30m▀▀[0m▀[34m░  [0;1;30m░█    [0;1;36;46m█[0;1;36;40m▄▄▄▄▄[0;36m▄▄[0;1;36;46m▀▒[0;36m█ [0;1;36;46m█▄[0;36m▒[0;1;36m▄▄▄▄[0;1;30mtm.[0;34m░[0m
 [33m▀▄   [0;1;37m▀ ▄  ▄█▄▄[0;1;37;47m▓▓[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m▄▄▄[0;1;37;47m▓[0;1;37;40m█▄▄█ █ [0;34m▄█[0;34;44m    [0;34;40m▓▄▄▄▄[0;34;44m [0m [1;30;40m▓ [0;34m░[0;34;44m [0m [1;30;40m▓[0;1;30;47m▓[0m [1;30;44m [0;34m▄ [0;1;36;46m▓▀[0;36m██[0;1;36m▀[0;36m░[0;1;36;46m▓▀[0;36m█[0;1;36;46m░[0;36m▓ [0;1;36;46m█░[0;36m█[0;1;36;46m░[0;36m░[0;1;36;46m▀▓▓[0m [34m▄▓[0;34;44m  [0;34;40m▄[0m

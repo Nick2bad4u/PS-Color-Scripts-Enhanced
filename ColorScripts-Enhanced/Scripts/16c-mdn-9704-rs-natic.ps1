@@ -5,7 +5,7 @@
 # Source SHA-256: 8cf1ccae99e07b1ee2e2df40aef717a5c2cc9d1a62b85a94618033e0ddb7afa4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-NATIC.ANS by rorshack (Maiden Brazil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lunatic asylum/2. the evolution.
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -27,13 +27,4 @@ Write-Host '
 [1;32;46m░░[0;36m▌[0;35m▐█[0;30;45m░░[0;35;40m███████▀█████▀▀▐█[0;30;45m░░[0;35;40m█▌[0;1;32;40m▐[0;1;32;46m▓▓▓▓▓[0m [35m███████[0;37m [0;1;32m▄▄[0m [35m██▀██[0;30;45m░░[0;35;40m█▌[0;1;32;40m▐[0;1;32;46m▓▓▓[0;35m █[0;30;45m░░[0;1;37;45masylum[0;35m▄▄█[0;30;45m░░[0;35;40m█▀[0;37;40m [0;1;32;40m█[0;1;32;46m▓[0m
 [1;32;46m▓▓▓[0m [35m████▀▀▀[0;37m [0;1;32m▄▄▄▄▄▄▄▄▄[0m [35m█████[0;37m [0;1;32m██████▄▄[0m [35m█████[0;37m [0;1;32m██▄▄▄[0m [35m█████[0;37m [0;1;32m████[0m [35m██████▀▀████▀▀[0;37m [0;1;32m▄██[0;1;32;47m▓[0m
 [1;32m███▄▄▄▄▄▄████████████▄▄▄▄▄▄▄████████▄▄▄▄▄▄▄█████▄▄▄▄▄▄▄████▄▄▄▄▄▄▄▄▄▄▄▄▄▄███[0;1;32;47m▓▒▒[0m
-[1m█████[0;1;32m█████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m                 [1;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████[0;1;32;47m▓▓▓▒░░[0m
-
-                                [1mLunatic Asylum²[0m
-    Crawling from the wreckage it becomes the [1mfar best art board[0m in +55-11
-                       Having one of the [1mbest crew[0m ever
-          And supporting [1mthe best of the best[0m of the [1mbrazilian[0m scene
-                Giving life to the [1msoul[0m of the brazilian scene
-
-              Do you know the meaning of [1minternational standard[0m ?
-                          Lunatic Asylum. Access now.[0m'
+[1m█████[0;1;32m█████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m                 [1;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████[0;1;32;47m▓▓▓▒░░[0m'

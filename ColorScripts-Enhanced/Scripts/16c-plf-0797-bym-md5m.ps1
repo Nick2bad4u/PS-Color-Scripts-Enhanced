@@ -5,7 +5,7 @@
 # Source SHA-256: 6a2a417282943444ed9da4982fc4314f60fb79d46ce8f3e5b112febd6c8d03fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-MD5M.ANS by big yellow man (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: music info 5
 # SAUCE Author: big yellow man
 # SAUCE Group: phobia
@@ -16,7 +16,7 @@
 
 Write-Host '
 
-       [1m [0m     [1mpoffelipoff productions  music disk no[0m:[1m5[0m - summer[1m 1997[0m
+       [1m [0m     [1m                                      [0m [1m [0m         [1m     [0m
 [1;30m──────────────────────────────[0m            [1;30m───────────── ────────  [0m░░ [1;30m──[0m [1;30m─────── [0m
               [31m▄▄▓▀▀[0;37m  [0m         [31m▄▄▓▀▀[0;37m [0;31m▀▀[0m
      [31m░[0;30;41m▓[0;37;40m  [0;1;33;40m▐[0m  [31m▄██▌[0;37m  [0m    [1;33m▌[0m   [31m▄▀  [0m        [31m░[0;30;41m▓[0;37;40m   [0m                [1;33;40m▌[0m         [31m▀▀▀▓▄▄[0;37m [0m
@@ -35,7 +35,4 @@ Write-Host '
 [37m [0;31m▀▓▄[0;37m     [0;31m░[0;30;41m▓[0;37;40m    [0;1;33;47m  info  [0m    [1;33mnews     music       app[0;1;33;41mly[0;1;31;41m ▀[0;31m▀[0;37m  [0;1;33m exit [0m        [31m▄█▀[0m
    [37m [0;31m▀▀▓▄▄[0;37m  [0;31m▄[0;37m     [0m      [37m  [0m            [37m  [0m          [37m [0;31m▐█[0;1;31;41m░▄[0;31m▌[0m             [37m░░ [0;31m▀[0m
    [37m  [0m   [37m        [0m                                 [37m  [0;31m▀█[0;1;31;41m▀▄[0;31m▄[0m   [37m░░[0m
-[1;30m───────[0m [31m░[0;30;41m▓[0;37;40m [0;1;30;40m────────── ─────────────── ───────── ────[0m  [31m▀▀▀[0;37m [0;31m▄[0;37m  [0;31m▀[0;37m  [0;1;30m─────────────── [0m
-
-[1m for the fifth plf music disk [0m
- http://www.poffelipoff.com/pub/music[0m'
+[1;30m───────[0m [31m░[0;30;41m▓[0;37;40m [0;1;30;40m────────── ─────────────── ───────── ────[0m  [31m▀▀▀[0;37m [0;31m▄[0;37m  [0;31m▀[0;37m  [0;1;30m─────────────── [0m'

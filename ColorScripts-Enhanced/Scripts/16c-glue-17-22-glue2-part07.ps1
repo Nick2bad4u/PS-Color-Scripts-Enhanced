@@ -5,7 +5,7 @@
 # Source SHA-256: d4413e867cd6de6a934a77c11dc54446a1833d61193ae4917a8ec061809ca191
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-GLUE2.ANS by catch22 (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: glue pride is alive.
 # SAUCE Author: catch22
 # SAUCE Group: glue
@@ -51,8 +51,4 @@ Write-Host '
                           [33m░░[0;31m ▐[0;1;31;41m░[0;31m [0;33m░░░[0;31m▐[0;1;31;41m░[0;31m▒  █▌ [0;1;31;41m░[0;31m█▓ ▐█ █▌[0;33m░░░[0;31m▄█▀ [0;33m░░░[0m
                              [31m▓▌[0m    [31m██▓ ▐█▓▐[0;1;31;41m░[0;31m▐▌  ▐██  ▄█▀[0m
                              [31m▀█▄▄▄█▀ █▌█▌██▌█▌[0m     [31m▄[0;1;31;41m░[0;31m▀[0m   [31m  ▄▄[0m
-                               [31m▀▀▀[0m   [31m▐[0;1;31;41m░░[0;31m  ▀ █[0m    [31m ▒▓[0;1;31;41m░[0;31m█▀▀▀▀[0m
-
-[1;30m  [0m                              [1;30mpride.  glory.  passion.[0m
-
-                     [1;30m [0m     [1;30mwords thought dead.  alive in glue.[0m'
+                               [31m▀▀▀[0m   [31m▐[0;1;31;41m░░[0;31m  ▀ █[0m    [31m ▒▓[0;1;31;41m░[0;31m█▀▀▀▀[0m'

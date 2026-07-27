@@ -5,7 +5,7 @@
 # Source SHA-256: 7b04ee97342b198c9da1c5698489c012f846dedc7b31cfae06b27df987bbc691
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: l44-gen.ans by lemoniqe (homeless); released in gen-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: genuine,kicks ass
 # SAUCE Author: lemoniqe
 # SAUCE Group: homeless
@@ -39,11 +39,4 @@ Write-Host '
                         [32m▀■  ▄ [0;37m [0;32m ▀[0m
 
 
-[1;37m░░▒▓ (( end )) ▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▓▓▓███[0m
-
-[1mthis guest ansi was made just to let the world see my style 1once again.[0m
-[1mhope you enjoy it, beacause i lost the spirit of joy about ansi :([0m
-[1mbigtime respect too the "always ECOLOVE" members.[0m
-[1mand ofcourse vader, toot, spear fx, dr.katz, iclusive, butter, aspassia[0m
-
-[1mhave a nice day.[0m'
+[1;37m░░▒▓ (( end )) ▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▓▓▓███[0m'

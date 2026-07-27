@@ -5,7 +5,7 @@
 # Source SHA-256: 7b83ca643ac83c5f8d8f056053bb4596335910c137fb09150a97627ab6c3c551
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ds-gen.ans by Dying Soul (Genuine); released in gen-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Genuine Promotion
 # SAUCE Author: Dying Soul
 # SAUCE Group: Genuine
@@ -38,8 +38,4 @@ Write-Host '
 [35m      [0;1;30m▀[0;1;30;47m▄ [0;1;30;40m▀▀▄[0;35m    [0;1;30m▐[0;1;30;47m▌[0;1;37;47m░░[0;1;30;47m▐[0;1;30;40m▌[0;35m                [0;1;30m  ▄▄▀[0;1;30;47m▄[0;1;30;40m▀[0;35m    [0;34m░██████[0;35m     [0;1;30m▄[0;1;30;47m▀▀[0;1;30;40m▄▀[0;35m   [0;1;30m        [0;35m [0m
 [35m        [0;1;30m▀[0;1;30;47m▀[0;1;30;40m▄[0;35m     [0;1;30m ▀[0;1;30;47m▄▄[0;1;30;40m▀[0;35m                 [0;1;30m ▀[0;1;30;47m▄▄[0;1;30;40m▀[0;35m       [0;34m▀███▀[0;35m   [0;1;30m ▄[0;1;30;47m▀[0;1;30;40m▄▀▀  [0;35m         [0m
 [1;34m        [0;1;30m ▐[0;1;30;47m [0;1;30;40m▌[0;1;34;40m   [0;1;30;40m▄[0;1;30;47m▀▀[0;1;30;40m▄▀[0;1;34;40m                  [0;1;30;40m▀[0;1;30;47m▄[0;1;34;40m                  [0;1;30;40m ▄▀[0;1;34;40m     [0;1;30;40m [0;1;34;40m             [0m
-[1;34;40m       [0;1;30;40m  ▀▀[0;1;34;40m   [0;1;30;40m ▄▀▀[0;1;34;40m                  [0;1;30;40m▬▀[0;1;34;40m          [0;1;30;40m   [0;1;34;40m      [0;1;30;40m  [0;1;34;40m                     [0m
-             [1;30m  [0m
-
-ansi[1;30m by [0mDyingSoul[1;30m ([0mGenuine[1;30m). Mad [0mprops[1;30m to [0mVader[1;30m for keeping[0m
-[1;30mthe [0mswedish[1;30m [0mscene[1;30m [0malive[1;30m![0m'
+[1;34;40m       [0;1;30;40m  ▀▀[0;1;34;40m   [0;1;30;40m ▄▀▀[0;1;34;40m                  [0;1;30;40m▬▀[0;1;34;40m          [0;1;30;40m   [0;1;34;40m      [0;1;30;40m  [0;1;34;40m                     [0m'

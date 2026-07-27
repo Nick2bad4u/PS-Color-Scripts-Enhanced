@@ -5,7 +5,7 @@
 # Source SHA-256: ba7d3e9b4699f454d38fd1e0c4157db7e029fabff6c70a61c3cda58f592b6fdf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OR -MC02.ANS by outraider (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hoax
 # SAUCE Author: outraider
 # SAUCE Group: fbk.sargahd
@@ -42,5 +42,4 @@ Write-Host '
               [33m░[0;30;43m▓▓[0;33;40m [0m                 [33;40m▀[0;30;43m░[0;33;40m▓░░[0;37;40m                                        [0m
                                     [33;40m░░[0m   [37;40m                                       [0m
 
-[37;40m--------------------------------------------------------------------------------[0m
-[37;40muhm..[0;1;30;40m [0mmy first socalled "real" ansi i think.[0m'
+[37;40m--------------------------------------------------------------------------------[0m'

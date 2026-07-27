@@ -5,7 +5,7 @@
 # Source SHA-256: e47cdea771da504915f1d2804defab426c2e1caff44978408c565657ea03e5db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ET-10.ANS by Etana (mist1297); released in mist1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -28,5 +28,4 @@ Write-Host '
                           [1;42m▀[0;32m░░░[0;1m█  [0;1;42m▀[0;32m░░░[0;1;42m▀[0;32m▒░▓▀▀[0;1m█[0;32m▄▓░[0;1;42m▀[0m
                        [1m▄▓ [0;32m▒░ ░█[0;1m▀▀[0;32m▄░ ░█░░█▀  █░░▓▄▄▓▄ [0;1m▓▀[0m
                           [32m▓░░▒▀░░█░░▒▀▒░▓▄▄▄▀▓░░░░░█[0m
-                          [32m▀▀▀ ▀▀▀ ▀▀  ▀▀▀▀▀  ▀▀▀▀▀▀[0m
-                     [31m· [0;1;32mD[0;32mreams [0;1;32mo[0;32mf [0;1;32mD[0;32mark [0;1;32mE[0;32mnchanted [0;1;32mL[0;32mizards [0;31m·[0m'
+                          [32m▀▀▀ ▀▀▀ ▀▀  ▀▀▀▀▀  ▀▀▀▀▀▀[0m'

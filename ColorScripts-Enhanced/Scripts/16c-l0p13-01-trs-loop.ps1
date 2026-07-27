@@ -5,7 +5,7 @@
 # Source SHA-256: 244841a19ea65e493e68f885fd969dc2ec8b3bc809fab57c2803c87491798a62
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TRS-LOOP.ANS by Tross (l0p13_01); released in l0p13_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -30,10 +30,4 @@ Write-Host '
                [34m█████▄[0m                      [1;37m    [0m [1m [0;36m▄[0;1;34;46m▒[0;36m█[0;37m [0;36m▀▀[0;1;34;46m░[0;36m▄[0m
              [34m▄█▀▀[0m   [34m▀▀▄[0m   [34mTh[0;1;34me[0;36m [0;1;34mL[0;36mo0[0;1;36mp[0;36m [0;1;36mArt[0;36mpa[0;1;34mck[0;34m 13[0m   [1;34m▀▐[0;1;34;46m▓[0;1;34;40m▌[0m  [1;34m▀[0;1;34;46m▒[0;1;34;40m▄[0m
           [34m  ▀[0m           [34m▄[0m                       [1;34m▄██▄[0m [1;34m█▄█▀[0m
-         [34m▄[0m
-
-          [1;36m// i''m just guesting with full coloring :)[0m
-             [1;36mthis is what i''ve created for the lo0p [0m
-             [1;36martpack... hope you all like it. Hi goes to[0m
-             [1;36mSimonKing, my friend from The lo0p... greetz[0m
-                                       [1;34mSigned Tross[0m [1;34mof Cro[0m [1;36m//  [0m'
+         [34m▄[0m'

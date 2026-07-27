@@ -5,7 +5,7 @@
 # Source SHA-256: ba853d06f2548aaecb5a92bd049997a95b18748d30c645b4a5bb7cd00d995fdd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-DYNAS.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
@@ -32,12 +32,4 @@ Write-Host '
 [34m$$$$$[0;37m [0;1;30m$$$$[0m [34m`s$$$$$$$$$$$$$$$$$$$,[0;37m [0;1;30m`s$.,[0m [34m "$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37m  [0;1;30m$$$$[0m [34m$$$$$[0m
 [34m$$$$$$[0;37m [0;1;30m$$[0m [34m`s$$$$$$$$$$$$$$$$$$$$$$,....[0;37m [0;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37m  [0;1;30m$$[0m [34m$$$$$$[0m
 [34m$$$$$$[0m   [34m`s$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$s[0;37m  [0;34m$$$$$$$[0m
-[34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;34mDynasty[0;34m$$[0;1;34mBBS[0;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$pm$$[0m
-
-
-
-[37mThis was supposed to be Bugs Bunny.  don''t ask.  so I did a design for[0m
-[37mDynasty BBS...[0m
-
-[1;30mFer Dynasty Sysop...Cheers![0m
-[1;30m-Precious Metal[0m'
+[34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;34mDynasty[0;34m$$[0;1;34mBBS[0;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$pm$$[0m'

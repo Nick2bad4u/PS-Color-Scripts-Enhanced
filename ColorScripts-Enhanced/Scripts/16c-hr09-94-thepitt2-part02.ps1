@@ -5,7 +5,7 @@
 # Source SHA-256: ed40872599bb3457572adede6f6cd036a5e96d74fe7db1f8c85e87b9c4929ed0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: THEPITT2.ANS by Armageddon (hr09-94); released in hr09-94 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-92
 # Columns: 1-80
 
@@ -45,10 +45,10 @@ Write-Host '
                            [1;30m░▒▒▓▓████▀▀ ■ ·[0m                 [1;30m·[0m
                            [1;30m▒▒[0m                              [1;30m■[0m
                            [1;30m▒▓  [0;1;37mRe[0mne[1;30mgade v5-31∙ 14400[0mbp[1ms∙  [0;1;30m■█[0m
-                           [1;30m▓▓    [0;1;37m25[0m0m[1;30mgs Online∙ 24[0mhr[1ms∙    [0;1;30m█▓[0m
+                           [1;30m▓▓    [0;1;37m  [0m  [1;30m             [0m  [1m      [0;1;30m█▓[0m
                            [1;30m▓█[0m       [1;37m7 D[0may[1;30mz A [0mWe[1mek[0m         [1;30m▓▓[0m
                            [1;30m█■[0m       [1;37m<6[0m19[1;30m>946.[0m49[1m07[0m         [1;30m▓▒[0m
                            [1;30m■[0m                              [1;30m▒▒[0m
                            [1;30m·[0m                 [1;30m· ■ ▄▄████▓▓▒▒░[0m
-                                                [1;37mÆ[0mΓ[1;30mMÆGΣDD[0mΘ[1m∩[0m
+                                                [1;37m [0m [1;30m      [0m [1m [0m
                                                 [1m[HR] ''[0m9[1;30m4[0m'

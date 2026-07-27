@@ -5,7 +5,7 @@
 # Source SHA-256: 6cf457f96be18e58dd4f891036a9e2bf02c160431b56baf0db8f0f96d6cec985
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-CSC2.ANS by Snow Dog (max_artpack_0393-ansi0393); released in max_artpack_0393-ansi0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 31-52
 # Columns: 1-80
 
@@ -23,11 +23,11 @@ Write-Host '
 [1;37m ████████████████▄[0m     [1;37m█████████▄[0m     [1;37m▄▄███████████████▄[0m     [1;37m█████████████████[0m
 [1;37m ███████████████████▄▄████████████▄▄██████████████████████▄▄██████████████████[0m
 [1;37m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                          [1;37mC[0mHoP [1mS[0mUeY [1mC[0mOOKeRS....   [1mNOT![0m
+                          [1;37m [0m    [1m [0m    [1m [0m             [1m    [0m
 [1m [0;1;30m·[0;32m-[0;1;32m=[0;1;37m■    C [0;1;30mO N S P I R A C Y   O F   [0;1;37mS [0;1;30mI L E N C E   [0;1;37mC [0;1;30mR E W   [0;32m1 [0;1;32m9 [0;1;36m9 [0;36m3    [0;1;37m■[0;1;32m=[0;32m-[0;1;30m·[0m
 
-[1;30m  [0;34mC[0;1;30mouriers [0;34mw[0;1;30mith [0;34ma p[0;1;30murpose... [0;34mc[0;1;30mracking [0;34mw[0;1;30mith [0;34mq[0;1;30muality...  [0;34ma[0;1;30mt [0;34mt[0;1;30mhe [0;34ms[0;1;30mpeed [0;34mo[0;1;30mf [0;34ml[0;1;30might![0m
-[1;30m  [0;1;34mC[0;1;30montact [0;1;34mT[0;1;30mhe [0;1;34mO[0;1;30mmerta [0;1;34mf[0;1;30mor [0;1;34md[0;1;30metails... [0;1;34m3[0;1;30m05-[0;1;34m2[0;1;30m85-[0;1;34m0[0;1;30m498 · [0;1;34m1[0;1;30m6.8 [0;1;34mD[0;1;30mual · [0;1;34mS[0;1;30m: [0;1;34mT[0;1;30mhe [0;1;34mU[0;1;30mntimed[0m
+[1;30m  [0;34m [0;1;30m        [0;34m [0;1;30m    [0;34m   [0;1;30m          [0;34m [0;1;30m        [0;34m [0;1;30m    [0;34m [0;1;30m           [0;34m [0;1;30m  [0;34m [0;1;30m   [0;34m [0;1;30m     [0;34m [0;1;30m  [0;34m [0;1;30m     [0m
+[1;30m  [0;1;34m [0;1;30m       [0;1;34m [0;1;30m   [0;1;34m [0;1;30m      [0;1;34m [0;1;30m   [0;1;34m [0;1;30m          [0;1;34m [0;1;30m   [0;1;34m [0;1;30m   [0;1;34m [0;1;30m      [0;1;34m [0;1;30m    [0;1;34m [0;1;30m      [0;1;34m [0;1;30m  [0;1;34m [0;1;30m   [0;1;34m [0;1;30m      [0m
                          [1;30m┌┐┌┐┌┐┬┬┬ ┬┐┌┐┌┐   ┬┬┐┌┐┬ ┬[0m
              [1;30m░▒▓█[0;1;30;47m▓▒░ [0;1;37;47m░▒▓[0;1;37;40m█└┐│││││││ │││││┬ ■ │││├┤ X ''93█[0;1;37;47m▓▒░ [0;1;30;47m░▒▓█[0;1;30;40m▓▒░[0m
                          [1;30;40m└┘┴┴└┘└┴┘ ┴┘└┘└┘   ┴┴┴┴┴┴ ┴[0m'

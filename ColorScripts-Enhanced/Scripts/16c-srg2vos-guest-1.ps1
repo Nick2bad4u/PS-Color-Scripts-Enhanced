@@ -5,7 +5,7 @@
 # Source SHA-256: 4e0aa3d338b6abda5fef20c7a583535927c882a91cad8cf674409de13a9713ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GUEST  1.ANS by trinity (shc); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: guest ansee
 # SAUCE Author: trinity
 # SAUCE Group: shc
@@ -34,7 +34,7 @@ Write-Host '
 █▄▄[1;47m▄ [0m▀▀   ▀[1;47m▀███▄[0m▌    [1;30;47m▒[0m  [1;30m▀▄██▀▀▀▄▄▄▄ ▄▀[0m     [1;31m▄▄▄[0;1;31;43m▓▓▓▒▒░  [0;33m▄  [0;35m▀▀▀▀▀▀[0m        [1;30m▄█  ▐█▓[0m
 [1;47m░[0;1;40m█[0;1;47m▓ [0m       ▐[1;47m▓▀▀[0m▀▀    [1;30;47m▓[0m  [1;30m▀▀    ▄▄▄▀▀▀▄▄▄   ▄[0m                  [1;30m▄▄▄▄   ▄▄▀▀    ▀▄▄[0m
 [1;47m░[0;1;40m█[0;1;47m▌[0m▌       ▀         [1;30;47m█[0m
-█[1m██[0;1;47m [0m        ▄▄▄▄▄[47m [0m   [1;30;40m▓   greets: js,sha,d-cool,cru,djk,and real big thnx 2 kyp[0m
-█[1;47m░[0;1;40m██[0;1;47m [0m▄     [47m [0;1;47m▄█▓▀▀[0m▌   [1;30m▒[0m        [1;30mwanna apply?...come on and dial [0;1;36m09431-42507[0;1;30m![0m
+█[1m██[0;1;47m [0m        ▄▄▄▄▄[47m [0m   [1;30;40m▓                                                        [0m
+█[1;47m░[0;1;40m██[0;1;47m [0m▄     [47m [0;1;47m▄█▓▀▀[0m▌   [1;30m▒[0m        [1;30m                                [0;1;36m           [0;1;30m [0m
 [1;30m  [0m▀▀▀[1;33;47m░[0m█▄▄██[1;47m░[0m▀▀▀      [1;30m░[0m         [1;30mhandle: shc  pw: simply hit the enter bar[0m
                      [1;30m▐[0m'

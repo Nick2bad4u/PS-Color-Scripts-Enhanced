@@ -5,7 +5,7 @@
 # Source SHA-256: 66215f0aaad362f27227ef4204666e78ed1ea9b2c78a424560d951b5836c3e56
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LRY-RZ01.ANS by lArrY (PHaT); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: RaVe ZoNe 8oLiNeS
 # SAUCE Author: lArrY
 # SAUCE Group: PHaT
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;30m■▀▀▀▄▄■▓▓▓▄▄▄▄▀▀■■▓░■░■▄▄▄░▀▀▄▄▄▄■▓▄▄▄▄▄▄▀▄▄■▀▀▀▄▄■▓▓▓▄▄▄▄▀▀■■▓░■░■▄▄▄░▀▀▄▄▄▄■▓[0m
-                          [1;30maGaiN SoMe aNsi aRT bY[0m
+                          [1;30m                      [0m
                      [1;30m ▄■▓▓▄▄▄▄▄■░▄▄▄▄▄▄▄▄▄▄▄▄▄█■▓▄▄[0m░
                      [1;30m■░[0m   [35m▄[0;37m [0;1;30m░[0m  ░[1;30m░[0m [1;30m░[0m [35m▄▄▄[0;1;35m▄▄  [0;35m▄ [0;1;30m░[0;1;35m▄▄[0m  [1;30m░■[0m
                      [1;30m█[0m [1;30m░[0m [1;35;45m░░[0;35m▌[0;37m [0;1;30m░░[0m [1;30m▒[0;35m▐▄[0;1;35;45m░░░▒▒▓▓░[0;35m▌[0;1;30m░[0;35m [0;1;35m▐[0;1;35;45m▓▓[0;1;35;40m▌[0;1;30;40m░█[0m
@@ -27,7 +27,7 @@ Write-Host '
                      [1;30m█▓[0;1;30;45m▓▒░░[0;35m██▄▄[0;1;30;45m░░▒[0;35;45m [0;1;30;45m░▒▓[0;1;30;40m▓▓▒[0;35m▄▄[0;1;30;45m░▒▓[0;35m▌[0;1;30m▓▒▓▒█[0m
                      [1;30m█▓[0;35m▀▀▀▀[0;1;30m░[0;35m▀▀▀▀▀[0;37m░[0;35m▀▀▀▀[0;1;30m░[0;35m▀▀▀▀▀▀▀[0;1;30m░[0m [1;30m▓▒▓█[0m
                      [1;30m■▄░▄[0m░[1;30m▄▄░░▄▄■▓▓▄░[0m░[1;30m▄▄■▓░░[0m░[1;30m▄▄▄▄▄■▀[0m
-                                 [1;30mlArrY`PHaT[0m
+                                 [1;30m          [0m
 [1;30m■▀▀▀▄▄■▓▓▓▄▄▄▄▀▀■■▓░■░■▄▄▄░▀▀▄▄▄▄■▓▄▄▄▄▄▄▀▄▄■▀▀▀▄▄■▓▓▓▄▄▄▄▀▀■■▓░■░■▄▄▄░▀▀▄▄▄▄■▓[0m
 
                                   [1;47m▒[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: a3b8c72927e609204d5a1ae23cb7998f516844eb6c72b8f8d7bedacd21a817fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-END0R.ANS by Sultan + Palidor + Smoke (reign/bm/legion); released in reign-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Endor Promotion
 # SAUCE Author: pali/smoke/sultan
 # SAUCE Group: reign/bm/legion
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mpalidor(reign):outlines&font&bgshading[0m      [1;30msmoke:bg [0;1;36m  [0m   [1;30msultan(legion):shading[0m
+[1;30m                                      [0m      [1;30m         [0;1;36m  [0m   [1;30m                      [0m
 ────────────────────────────────────────────────────────────────────────────────
                                 [1;30m ▄▄▄▄▄▄▄▄▄[0m
 [1;36m  [0m                      [1;30m ▄▄[0;1;30;44m▓[0;1;30;40m█▓▒░▒▓[0;1;30;43m▓▓[0;1;30;40m█████▓▓░▒▄[0;1;30;43m▓▒▓[0;1;30;40m▓▄[0m
@@ -57,5 +57,4 @@ Write-Host '
                 ▌[1;30;43m░[0;1;33;43m░[0;1;30;43m░[0m       [1;30;43m░[0;1;33;43m░[0;1;30;43m░[0m▐▐ [1;30;43m░[0;1;33;43m░[0;1;30;43m░[0m [30;41m [0;31;40m▌[0;37;40m   [0;1;30;43m░[0;1;33;43m░[0;1;30;43m░[0m [1;30;43m░[0;1;33;43m░[0;1;30;43m░[0m  [1;30;43m░[0;1;33;43m░[0;1;30;43m░[0m [1;30;43m░[0;1;33;43m░[0;1;30;43m░[0m ▌
                 ▌[1;30;43m▒▒▒[0m    [1;30;43m▓▒[0m [1;30;43m▒▒▒[0;1;30;40m▐▐[0m [1;30;43m▒▒▒[0m [30;41m░[0;37;40m    [0;1;30;43m▒▒▒[0m [1;30;43m▒▒▒[0m  [1;30;43m▒▒▒[0m [1;30;43m▒▒▒[0m [1;30m▌[0m
                 [1;30m▀▄▀[0;1;30;43m▓▓███[0;1;30;40m▀▄[0m [1;30m▀[0;1;30;43m▓[0;1;30;40m▌▐[0m [1;30m▌▐[0;1;30;43m▓[0;1;30;40m▀[0m [31m▌[0;37m  [0;1;30;43m██▓[0;1;30;40m▀[0m  [1;30m▀[0;1;30;43m▓▓██▓▓[0;1;30;40m▀[0m [1;30m▀[0;1;30;43m▓█[0;33m [0;1;30m▌[0m
-                  [1;30m▀▄▄▄▄▄▀[0m [1;30m▀▄▄▄▀[0m [1;30m▀▄▄▀▄▄▄▄▄▄▄▄▀▀▄▄▄▄▄▄▄▄▀▄▄▄▄▌[0m
-                        [1;30mendor bbs[0m         [1;30m+o dopie[0m'
+                  [1;30m▀▄▄▄▄▄▀[0m [1;30m▀▄▄▄▀[0m [1;30m▀▄▄▀▄▄▄▄▄▄▄▄▀▀▄▄▄▄▄▄▄▄▀▄▄▄▄▌[0m'

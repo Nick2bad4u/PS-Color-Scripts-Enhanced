@@ -5,7 +5,7 @@
 # Source SHA-256: b3243bcdc59465950e12134d3c0d35fa97a8bf943f580f46070a111ba28350d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-FP.ANS by Spastic 05/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Freezing Process
 # SAUCE Author: Spastic 05/95
 # SAUCE Group: Eerie
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-     ommigod, if i keep on like this i''m gonna start playing mtg and stuphs
+                                                                           
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄  ▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄[0m
 [1m█████████▀███  ███████▄████▀█████▀▄█████▀███  ██████  ██████▄▄█  ████▀▄████████[0m
 [1m███████▀░▀▀▀▀▀▀▀▀▀▀▀▀▀░ ▀▀▀▀░▀█▀▄██▀▀ ▀░▀▀▀▀▀▀▀▀▀▀▀▀  ▀░████  █  ███▄██████████[0m

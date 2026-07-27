@@ -5,7 +5,7 @@
 # Source SHA-256: d0ab456dc4866b06b1b8b3e6828fb32c1a3bb29fa78ac6723176d27acf272208
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-MD1.ANS by Fire 06/96 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mutual Dillusions
 # SAUCE Author: Fire 06/96
 # SAUCE Group: Eerie
@@ -34,9 +34,9 @@ Write-Host '
 [36m▓▓▄  ▓▓[0;1;36;46m░[0m [36m▓▓[0;1;36;46m░[0m  [36m▓▓[0;1;36;46m░[0m  [36m▓▓[0;1;36;46m░[0m [1;36;46m░[0;36m▓▓  [0;1;36;46m░[0;36m▓▓ ▓▓[0;1;36;46m░[0m  [36m▓▓[0;1;36;46m▒[0m  [36m▄▄▄  ▓▓[0;1;36;46m░[0m [36m▓▓[0;1;36;46m░[0m [36m▓▓[0;1;36;46m░[0m  [1;36;46m▒░[0;36m▓ ▓▓[0;1;36;46m░[0m [36m▐▓▓[0;1;36;46m░[0m [36m▄▄▄  ▓[0m
 [36m▀▀[0;1;36m▀▀▀[0;1;36;46m▒▒▓[0m [36m▀[0;1;36m▀▀▀ [0;1;36;46m░▓▓[0;1;36;40m▄▀▀[0;36m▀▀ [0;1;36;46m▒▓▓[0;1;36;40m▄▀▀[0;36m▀▀  ▀[0;1;36m▀▀▀▀[0;36m▀▀ [0;1;36;46m░▓▓[0;1;36;40m▌ [0;36m▐[0;1;36;46m░▓[0;1;36;40m▌ [0;36m▀▀[0;1;36m▀▀ [0;36m▀▀[0;1;36m▀▀▀[0;36m▀▀[0;1;36m▀▀[0;36m▀▀ [0;1;36;46m▓▓▒[0;36m▌[0;1;36;46m▓▓▒[0;36m▌ ▐[0;1;36;46m▒[0m
                                          [1;36;40m▀[0;1;36;46m▓[0;1;36;40m█▄█[0;1;36;46m▓▓▓[0m                  [36m▀[0;1;36;46m▓[0;1;36;40m▓[0;1;36;46m▓[0m [1;36;40m▀█[0;1;36;46m▓[0;1;36;40m▄█[0;1;36;46m▓▓[0m
-[1;37;40mmutual dillusions[0m          516-t00-l33t       [1;36m▀▀[0m                             [1;36m▀▀[0m
-hyper-board with webpage (url coming soon) & online e-mag      ops - s.a.n. man
-rigor / humid / mgm member board
+[1;37;40m                 [0m                             [1;36m▀▀[0m                             [1;36m▀▀[0m
+                                                                               
+                                
                                                                [1;35m░░░░░░░░░░░[0m
                 [1;35m░░ ░[0m
 
@@ -49,5 +49,4 @@ rigor / humid / mgm member board
                    [1;30;40m█[0;1;30;47m▒▓▓[0;1;30;40m█  [0;1;36;40m▀[0;1;36;47m▓[0;1;36;40m███▐[0;1;36;47m▓[0;1;36;40m█[0;1;36;46m▓[0;1;36;47m▓[0;1;36;40m██▄▀█░▄█[0;1;36;47m▀[0;1;36;40m█▄ ▄▓[0;1;36;46m▓[0;1;36;40m█ [0;1;30;40m▐▀▀[0;1;30;47m▓█[0;1;30;40m█[0m
                    [1;30;40m▀[0;1;30;47m▄█[0;1;30;40m█  [0m█[1;36;47m░▒▓[0;1;36;40m█[0;1;36;47m▓[0m▐[1;36;47m▒▀[0;1;36;40m█[0m▓[1;36;47m▀▓[0;1;36;40m▌  ▀▓[0;1;36;47m▓▐[0;1;36;40m▄▓▀[0;1;36;47m▀▓[0;1;36;40m█▄  [0;1;30;40m33[0m
                     [1;30;40m███▄▄▄▄ ▄  [0m▐▀▀▀░█[1;36;47m░[0m▀▀   [1;36;47m▀[0m▓█▀▀  [1;30m▄▄▄▐▄▄▓[0m
-                               ▀■       ■ ▀▀░
-                   [36mwe don''t pretend, we are.  fire in 1996.[0m'
+                               ▀■       ■ ▀▀░[0m'

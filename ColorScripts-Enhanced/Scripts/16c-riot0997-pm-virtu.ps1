@@ -5,7 +5,7 @@
 # Source SHA-256: cd3bbaa505883efd0685a700c350dc2a1789177863a18cbc30bfa1642092826d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Pm-virtu.ans by Precious Metal (riot0997); released in riot0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -25,12 +25,4 @@ Write-Host '
      [1;34m░[0m  [1;31m▐[0;1;37;41m░[0m                      [1;34m▓[0m  [1;31m▐[0m   [1mVirtual[0m                           [1;34m▒[0m
 
 
-[1;30m----------------------------------shred-----------------------------------------[0m
-
-[1;30mA request from Virtual BBS Sys0p  Hope it''s kewl for u![0m
-[1;30mSorry no background...Couldn''t think of what would go with this...But the [0m
-[1;30mblack background suits it :)[0m
-
-     [1;30m"There''s No Parole from Rock and Roll!!!!"[0m
-                  [1;30mShred''s NOT Dead!!![0m
-                                 [1;30m-Precious Metal[0m'
+[1;30m----------------------------------shred-----------------------------------------[0m'

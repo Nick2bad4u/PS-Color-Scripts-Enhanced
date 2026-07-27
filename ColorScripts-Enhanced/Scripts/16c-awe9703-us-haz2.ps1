@@ -5,7 +5,7 @@
 # Source SHA-256: 56568d036cc6fcb8605891d6986f2b20165223d393109fefda939aac0ca820a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-HAZ2.ANS by Fluor + Massm (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hazard/2
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -31,4 +31,4 @@ Write-Host '
 [1;34;44m▀[0;34m▓▀ [0;36m▄█▄▒▀[0;37m  [0;1;30m█[0;1;30;46m█▓▀[0;1;37;40m [0;1;30;40m█▀[0;36m▄[0;1;36;46m░[0;36m▀▓[0;37m  [0;1;36;46m░▓▀[0;36m█[0;37m [0;36m▀[0;1;36;46m▀▓░[0;36m▄▄[0;1;37m [0;1;30m▀[0;1;30;46m▓[0;1;30;40m█▄[0m [36m█[0;1;36;46m░▒[0;36m█[0;1;30m▄▄█▓▌▀▌▐[0;1;30;46m▓▀[0;1;30;40m▓ [0;34m▄ [0;1;30m▀▓█  [0;1;36;46m▀[0;36m▀  [0;1;30m▄▄[0;1;30;46m██▓░▄[0;1;37;40m [0;34m▄[0;1;34;44m▄[0;1;34;47m▓[0;1;34;44m▀[0m
 [34m▌░[0;36m▄▀▀[0;37m  [0;36m░[0m   [1;30m█▀[0m   [1;30m▌[0;36m▀▀[0;1;36;46m▀░[0;36m▌[0;34m░▄▄[0;36m▀▀█▄[0m   [36m▀▀▀██▓▒░[0;37m [0;36m▀[0;1;36;46m▀▓[0;1;36;40m▄[0;36m▄  [0;1;30m░   ▐▀ ░ [0;1;34;44m░▄[0m [1;30m░▐  [0;36m▌[0;1;30m░▓[0;1;30;46m█▀▓[0;1;30;40m█▄▀▀[0;1;37;40m [0;34m▄[0;1;34;44m■[0;1;34;40m▀[0;34m▀[0m
 [34m [0;36m■[0m                   [36m▀  [0;34m▀▀[0m                   [36m▀▀▄[0m          [34m▀[0m              [34m■▀[0m
-[36m░[0;37m  [0;36mfluor[0;1;36m([0;1;37maWE[0;1;36m)[0m [1;30m&[0m [36mmass[0;37m [0;36mmurderer[0;1;36m([0;1;37miCE[0;1;36m)[0m'
+[36m░[0;37m  [0;36m     [0;1;36m [0;1;37m   [0;1;36m [0m [1;30m [0m [36m    [0;37m [0;36m        [0;1;36m [0;1;37m   [0;1;36m [0m'

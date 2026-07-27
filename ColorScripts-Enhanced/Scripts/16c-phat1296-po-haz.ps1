@@ -5,7 +5,7 @@
 # Source SHA-256: a44cce7306bbfa28d284f037fe92c0256e6567635227551ae12d831829c58460
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-HAZ.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hazard.
 # SAUCE Author: poti.
 # SAUCE Group: phat.
@@ -38,9 +38,6 @@ Write-Host '
 [1;30m [0;34m ▀▀▄▄▄▄▄██[0;1;34m▒[0;34m▀▀ [0;1;30m  [0;34m ▀▀█▄▄▄████[0;30;44m▄[0;1;34;40m [0;34m    ▀▀▀▀      [0;30;44m▄[0;34;40m▀█▄▄▄▄▄▄▄██▓▀   ▀▀▀▀▀▀▀▀[0;1;34;44m         [0;34m█ [0m
 [1;30m         [0;1;34m ░░[0;1;30m       [0m   [34m▀▀▀▀▀[0;37m [0;34m [0;1;34m [0m   [34m [0m      [34m [0m   [30;44m█[0m   [34;40m ▀▀▀▀▀▀▀[0m        [1;34;40m [0m        [34m▀▀[0;1;34;44m░░ [0;34m▌[0m
 
-       [34mhazard/2[0;37m [0;1;37m''[0;1;34m... and then you fade into the light[0;1;37m''[0;1;34m [0;34mavenger[0;1;34m [0;34m&[0;1;34m [0;34mdv8 (op)[0m
+       [34m        [0;37m [0;1;37m [0;1;34m                                    [0;1;37m [0;1;34m [0;34m       [0;1;34m [0;34m [0;1;34m [0;34m        [0m
 
-[1;30m------------------------------------------------------------------------------- [0m
-[1;30mthis is one is meant as a thank you to ave and dv8 for everything they have [0m
-[1;30mdone - and will hopefully do in future - for my board. muchas thank u''s for[0m
-[1;30mthat and for being good friends in- and outside the scene. [0m'
+[1;30m------------------------------------------------------------------------------- [0m'

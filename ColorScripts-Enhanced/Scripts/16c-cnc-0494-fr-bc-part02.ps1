@@ -5,7 +5,7 @@
 # Source SHA-256: 698b192652afe8e55cd11eafc0adf4f6b463a21439b292f458ff80935e2d0b91
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FR-BC.ANS by Fracture (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -58,5 +58,5 @@ Write-Host '
 [1;37;47m███████▓▒░ [0;1;30;47m░▒▓█[0m                                                  [1;30;47m█▓▒░ [0;1;37;47m░▒▓███████[0m
 
 [1;37;40m───[0m─────[1;30m────────────────────────────────────────────────────────────────[0m─────[1m───[0m
-              [1ma[0mN[1;30mSi B[0my[1m: f[0mrac[1;30m┼[0mur[1me    ([0mc[1;30m) 1[0m99[1m4    A[0mll [1;30mRights Reser[0mve[1md[0m
+              [1m [0m [1;30m    [0m [1m   [0m   [1;30m┼[0m  [1m      [0m [1;30m   [0m  [1m      [0m   [1;30m            [0m  [1m [0m
 [1m───[0m─────[1;30m────────────────────────────────────────────────────────────────[0m─────[1m───[0m'

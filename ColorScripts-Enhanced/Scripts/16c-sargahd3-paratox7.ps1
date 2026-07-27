@@ -5,7 +5,7 @@
 # Source SHA-256: d5cbcb1f791831f919073e426e98e1bd9edc9d48375cb66d1345704379c8e0a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PARATOX7.ANS by paratoxic (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: system x with atomic dressing
 # SAUCE Author: paratoxic
 # SAUCE Group: fbk.sargahd
@@ -59,6 +59,4 @@ Write-Host '
                [32m░░▒▒▓▓█[0;1;32;42m▀░▀[0;32m▀ ▄[0;1;32m░[0;32m▀█[0;1;32;42m░[0;32m▌[0;31m░▄[0;1;31;41m▄[0;31m▓▀[0;32m░[0;37m [0;31m█[0;1;31;41m▄[0;31m▄[0;37m [0;32m▀▀▓▓[0;1;32;42m░▀▀█▄[0;32m▄[0;1;32m░[0m
                           [32m▀[0;1;32;42m░[0;32m▀[0;1;32m [0m  [31m █[0;1;31;41m█░[0;31m░[0m   [31m▐[0;1;31;41m▓▌[0;31m▌[0;37m  [0;32m░░[0;37m  [0;32m▀▀▀▀▀ [0m
                                 [31m▐[0;1;31;41m▐▓[0;31m▌[0m    [31m▀▀▀[0m                [31m         [0m
-                                [31m ▀▀▀[0m
-                    [31m        with atomic dressing[0m
-                              [31m     +o alecs[0m'
+                                [31m ▀▀▀[0m'

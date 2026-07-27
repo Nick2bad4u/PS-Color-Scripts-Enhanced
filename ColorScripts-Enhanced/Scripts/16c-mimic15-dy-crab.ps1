@@ -5,7 +5,7 @@
 # Source SHA-256: 3eb0f51cb40a7cbcf31f838c38de521d84cc2194ceb02ac77a906fa0855694da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dy-crab.ans by Discyple (mimic15); released in mimic15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -32,14 +32,4 @@ Write-Host '
 [34m [0;1;34m$$S#d[0;34m$$P*⌂b/  [0;1;31m.$$[0;33m┘`[0m                                  [34m`7s,_[0m       [1;34m.   [0;34m.[0;1;34md$$\┘[0;34m''[0m
 [34m [0;1;34m$$$$[0;34mgP`  [0;1;33m.  [0;1;31m.$P[0;33m`[0m       [34m.d''[0m                             [34m`Y$$b┐[0m      [34m.[0;1;34md$$$$/[0;34m.[0m
 [34m *┘²` [0;33m.[0;1;33m┌[0;33m7`  [0;1;31md[0;33m┘[0m        [34m,$P[0m        [34m.[0m           [34m` *┐,.,┌s#S[0;1;34m$$$$$$$[0;34mb,./[0;1;34m$$$$$$$$$b[0;34m.[0m
-      [33m`\''  \[0m        [34m.$[0;1;34m$$S#s┐[0;34m,._/[0m                [34m`S⌂*└²"^``/[0;1;34m$$$$$$$$$$$$$$$$$$$b[0m
-
-
-
-[1;34m [0mi know further exploits of crab have been a long time coming.  at last.
- just look at the expression on his face --  he''s stoic.  he''s busting out.
- he''s frothing water, blowing bubbles, shredding kelp.
- he''s tearing up his logo.
-
-
- this crab is ready to explode.[0m'
+      [33m`\''  \[0m        [34m.$[0;1;34m$$S#s┐[0;34m,._/[0m                [34m`S⌂*└²"^``/[0;1;34m$$$$$$$$$$$$$$$$$$$b[0m'

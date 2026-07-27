@@ -5,7 +5,7 @@
 # Source SHA-256: 8c3edb22cdaae9783fae88afacc9f40e213da5a903d7c572e5e064d31f21d832
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZNYK-10.ANS by dieznyik (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: _[\2 012[[___ _[\ _[[2\\\[2_  ]
 # SAUCE Author: dieznyik
 # SAUCE Date: 19960917
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-pulse.. just a random graphic,   [32m░ ▄[0;1;32;42m▄▓▓█▄[0;32m▄[0m   [37muse it if you like.. [0m
+                                 [32m░ ▄[0;1;32;42m▄▓▓█▄[0;32m▄[0m   [37m                     [0m
                                  [30;42m▓░[0;1;32;42m█[0;1;37;42m▒▒[0;1;32;42m██▓█[0;32m▌[0m
                                 [30;42m▓░[0;1;32;42m███▀▓█▓▓[0;30;42m░[0;32;40m▓[0;37;40m [0;32;40m░[0;37;40m [0;32;40m░[0m    [32;40m░[0;30;42m▓[0m
                         [32;40m░[0m   [32;40m░[0;37;40m  [0;32;40m░[0;30;42m░[0;1;32;42m█▌▀[0;32m█[0;31m░[0;1;32;42m▐█▒█[0;30;42m░[0m

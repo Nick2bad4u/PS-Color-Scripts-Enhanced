@@ -5,7 +5,7 @@
 # Source SHA-256: bc09519e29a9ebeece5a4d499c7e05697f398fe0b4b5d6e7b9e8632bc74de194
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JY_SCAN1.ANS by Joy (bgs_num1); released in bgs_num1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -31,5 +31,4 @@ Write-Host '
 [37;40m█[0;33;47m▓[0;37;40m▐█[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mDepacking archive[0;37;40m█▄ ▄███[0;1;30;47m░[0m██[30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mAdding some more adverts[0;1;30;47m▐[0m█[33;47m▓[0m
 [1;33;47m░[0;33;47m▒[0;37;40m▐█[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mEmptying the garbagecan[0;37;40m█[0;33;47m░[0;37;40m██[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mRemoving work directory[0;37;40m█[0;1;30;47m▐[0;1;33;47m░[0;33;47m▒[0m
 [1;33;47m▒[0;33;47m░[0;37;40m▐█[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mAddirg our bbs-adverts[0;37;40m██[0;1;37;47m░[0;33;47m░[0;37;40m█[0;30;47m[[0;37;40m████████[0;30;47m][0;1;33;47m [0;35;47mGrabbing FILE_ID.DIZ[0;37;40m████[0;1;30;47m▐[0;1;33;47m▒[0;33;47m░[0m
-[1;33;47m█░[0;30;47m▌[0;1;33;47m▄[0;1;37;47m▄[0;1;33;47m▒[0;1;37;47m▄▄▄▄▄▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒▄▓[0;1;37;40m▀▒[0;1;37;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33;47m▄[0;1;37;47m▓[0;1;33;47m▄▄[0;1;30;47m▐[0;1;33;47m▓[0m▓
-[1;30m-=-[0;1;37m  [0mP[1;33ml[0;1;37mease wait while your uploadz are scanned for viruses, aka useabili[0;1;33mt[0my[1m  [0;1;30m-=-[0m'
+[1;33;47m█░[0;30;47m▌[0;1;33;47m▄[0;1;37;47m▄[0;1;33;47m▒[0;1;37;47m▄▄▄▄▄▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒▄▓[0;1;37;40m▀▒[0;1;37;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33;47m▄[0;1;37;47m▓[0;1;33;47m▄▄[0;1;30;47m▐[0;1;33;47m▓[0m▓[0m'

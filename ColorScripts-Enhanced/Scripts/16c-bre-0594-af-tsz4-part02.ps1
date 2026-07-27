@@ -5,7 +5,7 @@
 # Source SHA-256: 490a88452129e556cdd7fc2707fc00ed3587ab27e21939142d73fb34a649ffeb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-TSZ4.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 41-83
 # Columns: 1-80
 
@@ -37,19 +37,19 @@ Write-Host '
               [31m▀████▀▀▐██▌ █  ▀█████▀▀[0m     [31m▄████████▄▀▄▄█▀▄▄█ ▄█▄▐██▄▄▀[0m
                      [31m▐██▌[0m                                [31m▀▀[0m
                       [31m▀▀[0m
-                              [34m∙[0;1;34m-[0;1;37m[T[0;1;34mh[0;34me Sno Zo[0;1;34mn[0;1;37me][0;1;34m─[0;34m∙[0m
+                              [34m [0;1;34m [0;1;37m  [0;1;34m [0;34m        [0;1;34m [0;1;37m  [0;1;34m─[0;34m [0m
                               [34m∙[0;1;34m-[0;1;37m[6[0;1;34mi[0;34m3∙825∙06[0;1;34m5[0;1;37m2][0;1;34m─[0;34m∙[0m
-                     [34m∙[0;1;34m-[0;1;37m[S[0;1;34my[0;34msO[0;1;34mp[0;1;37ms [0;34m: [0;1;37mH[0;1;34me[0;34mnchm[0;1;34ma[0;1;37mn [B[0;1;34mr[0;34meed Seni[0;1;34mo[0;1;37mr]][0;1;34m─[0;34m∙[0m
-                           [34m∙[0;1;34m-[0;1;37m[U[0;1;34ml[0;34mtraViol[0;1;34me[0;1;37mt [B[0;1;34mr[0;34me[0;1;34me[0;1;37md]][0;1;34m─[0;34m∙[0m
-                              [34m∙[0;1;34m-[0;1;37m[A[0;1;34mr[0;34mt [0;1;37m■ [0;34mWar[0;1;34me[0;1;37mz][0;1;34m─[0;34m∙[0m
-                             [34m∙[0;1;34m-[0;1;37m[B[0;1;34mr[0;34meed World [0;1;34mH[0;1;37mQ][0;1;34m─[0;34m∙[0m
+                     [34m [0;1;34m [0;1;37m  [0;1;34m [0;34m  [0;1;34m [0;1;37m  [0;34m  [0;1;37m [0;1;34m [0;34m    [0;1;34m [0;1;37m    [0;1;34m [0;34m        [0;1;34m [0;1;37m   [0;1;34m─[0;34m [0m
+                           [34m [0;1;34m [0;1;37m  [0;1;34m [0;34m       [0;1;34m [0;1;37m    [0;1;34m [0;34m [0;1;34m [0;1;37m   [0;1;34m─[0;34m [0m
+                              [34m [0;1;34m [0;1;37m  [0;1;34m [0;34m  [0;1;37m■ [0;34m   [0;1;34m [0;1;37m  [0;1;34m─[0;34m [0m
+                             [34m [0;1;34m [0;1;37m  [0;1;34m [0;34m          [0;1;34m [0;1;37m  [0;1;34m─[0;34m [0m
 
 [1;30m┌───────────┬──────────────────────────────────────────────────────────────────┐[0m
 [1;30m│  ▀▀▄ ▀▀▀  │ ▀▀▄ ▀▀▄ ▀▀▀ ▀▀▀ ▀▀▄  ▀▀▄ ▀▀▄ ▀▀█ ▀▀▄ ▀ █ ▀▀▀ ▀▀▀ ▀ ▀▀█ ▀▀▄ ▀▀▀   │[0m
 [1;30m│  █▀█ █▀   │ █▀▄ █▀▄ █▀  █▀  █ █  █▀▀ █▀▄ █ █ █ █ █ █ █[0m     [1;30m█ █ █ █ █ █ ▀▀█   │[0m
 [1;30m│ [0;1;36mA[0;36mci[0;1;30md[0;1;36mFl[0;36mas[0;1;30mh │ ▀▀  ▀ ▀ ▀▀▀ ▀▀▀ ▀▀   ▀   ▀ ▀ ▀▀▀ ▀▀  ▀▀▀ ▀▀▀   ▀ ▀ ▀▀▀ ▀ ▀ ▀▀▀   │[0m
-[1;30m│[0;1;36mUN[0;36miO[0;1;30mN [0;1;36mTr[0;36mia[0;1;30ml│  [0;1;36mT[0;36mhi[0;1;30ms has been a [0;1;36mBr[0;36mee[0;1;30md [0;1;36mPr[0;36moduc[0;1;30mtion.  Another FreeHand totally new │[0m
-[1;30m│  [0;1;36m─B[0;36mree[0;1;30md─  │original character by [0;1;36mA[0;36mci[0;1;30md[0;1;36mFl[0;36mas[0;1;30mh.  To request an ANSi by me, call  │[0m
-[1;30m│  ▀▀▄ ▀▀▀  │my board, [0;1;36mL[0;36min[0;1;30me [0;1;36mo[0;36mf [0;1;36mF[0;36mir[0;1;30me at [0;1;36m([0;36m81[0;1;30m9)[0;1;36m6[0;36m6[0;1;30m9-[0;1;36m1[0;36m68[0;1;30m5, or [0;1;36mPr[0;36mogr[0;1;30mammed [0;1;36mIl[0;36mlus[0;1;30mion,  │[0m
-[1;30m│  █▀█ █▀   │[0;1;36mT[0;36mh[0;1;30me [0;1;36mS[0;36mn[0;1;30mo-[0;1;36mZ[0;36mon[0;1;30me, [0;1;36mFl[0;36matl[0;1;30mined [0;1;36mRe[0;36mali[0;1;30mty or any board carrying [0;1;36mUN[0;36miN[0;1;30mET...   │[0m
+[1;30m│[0;1;36m  [0;36m  [0;1;30m  [0;1;36m  [0;36m  [0;1;30m │  [0;1;36m [0;36m  [0;1;30m             [0;1;36m  [0;36m  [0;1;30m  [0;1;36m  [0;36m    [0;1;30m                                    │[0m
+[1;30m│  [0;1;36m─ [0;36m   [0;1;30m ─  │                      [0;1;36m [0;36m  [0;1;30m [0;1;36m  [0;36m  [0;1;30m                                    │[0m
+[1;30m│  ▀▀▄ ▀▀▀  │          [0;1;36m [0;36m  [0;1;30m  [0;1;36m [0;36m  [0;1;36m [0;36m  [0;1;30m     [0;1;36m [0;36m  [0;1;30m  [0;1;36m [0;36m [0;1;30m  [0;1;36m [0;36m  [0;1;30m      [0;1;36m  [0;36m   [0;1;30m      [0;1;36m  [0;36m   [0;1;30m      │[0m
+[1;30m│  █▀█ █▀   │[0;1;36m [0;36m [0;1;30m  [0;1;36m [0;36m [0;1;30m  [0;1;36m [0;36m  [0;1;30m   [0;1;36m  [0;36m   [0;1;30m     [0;1;36m  [0;36m   [0;1;30m                         [0;1;36m  [0;36m  [0;1;30m        │[0m
 [1;30m└───────────┴──────────────────────────────────────────────────────────────────┘[0m'

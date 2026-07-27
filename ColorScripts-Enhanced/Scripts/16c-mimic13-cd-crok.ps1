@@ -5,13 +5,13 @@
 # Source SHA-256: b9669ce5504e7e2413a7ca9ed17dd8ec388f3c551515dbe80b814a8844fac573
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cd!crok.ans by Cat-Dog (mimic13); released in mimic13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
-uncolored :)
-                                 yyyy
+            
+                                     
           .┌y%%y┐. yy$$$$$$S%┐   $$$$%%%y┐.     .┌y%%y┐. $$$$
        .4$$$$$$$$$;$`````''└$$$$; $$$$┘^`$$$$ .4$$$$$$$$$;$$$$    %%y┐
       ;$$$$*┘└*$$$$$       ;$$$$ $$$$   $$$$$$$$$*┘└*$$$$$$$$    ;$$$$
@@ -31,8 +31,8 @@ uncolored :)
 
 
 
-colored :)
-                                 [31myyyy[0;37m    [0m
+          
+                                 [31m    [0;37m    [0m
       [37m [0m   [1;33m.[0;1;31m┌[0;31my%%y[0;1;31m┐[0;1;33m.[0m [31myy[0;33m$$$$$$S[0;31m%[0;1;31m┐[0m   [33m$$$$[0;31m^%%y[0;1;31m┐[0;1;33m.[0m     [1;33m.[0;1;31m┌[0;31my%%y[0;1;31m┐[0;1;33m.[0m [33m$$$$[0;37m        [0m
        [1;33m.[0;31m4[0;33m$$$$$$$$$[0;1;31m;[0;33m$[0;1;33m`````''[0;1;31m└[0;33m$$$$[0;1;31m;[0m [33m$$$$[0;1;31m┘[0;31m^[0;1;33m`[0;33m$$$$[0;37m [0;1;33m.[0;31m4[0;33m$$$$$$$$$[0;1;31m;[0;33m$$$$[0;37m    [0;31m%%y[0;1;31m┐[0m
       [1;31m;[0;33m$$$$[0;31m*[0;1;31m┘└[0;31m*[0;33m$$$$$[0m       [1;31m;[0;33m$$$$[0;37m [0;33m$$$$[0m   [33m$$$$$$$$$[0;31m*[0;1;31m┘└[0;31m*[0;33m$$$$$$$$[0m    [1;31m;[0;33m$$$$[0m
@@ -50,6 +50,4 @@ colored :)
             [33m$$$$[0m     [33m$$$$[0;1;33m`[0;33m$$$[0;1;31m\[0;31myy[0;1;31m4[0;33m$$$$[0;1;33m``[0;33m$$$$[0;31m%y[0;1;31m┐▬▬▬[0m [33m$$$$[0m     [33m$$$$[0m
             [33m$$$$[0m     [33m$$$$[0;37m  [0;1;33m`[0;1;31m└[0;31m*⌂[0;33mS[0;31m⌂*[0;1;31m┘[0;1;33m`[0m    [1;33m`[0;1;31m└[0;31m*⌂[0;33mS$$$$[0;37m [0;33m$$$$[0m     [33m$$$$[0m
 
-[37m───(cut mmkoy??)────────────────────────────────────────────────────────────────[0m
-[37m  this is a motd for a friend of bizz''s. he wasn''t sure wether it was a irc[0m
-[37mserver or just a box somewhere, so i included colored and uncolored versions.[0m'
+[37m───(cut mmkoy??)────────────────────────────────────────────────────────────────[0m'

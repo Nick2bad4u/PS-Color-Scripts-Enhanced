@@ -5,7 +5,7 @@
 # Source SHA-256: 667bfa5e5da6e0c4b4160a1768f9f420efbdd63c35cfa6d088ec84ab473b6c08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!MATRI.ANS by Simonking (l0p06_00); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-78
 # Columns: 1-80
 
@@ -29,18 +29,11 @@ Write-Host '
 
 
 
-                                 [1;34;41mzlota mysl =)[0m
+                                 [1;34;41m             [0m
 
 
 
 
 
 
-----------------------------------------------------------//notka/-----------
-
-to azki doczekalo sie wreszcie swiatla dziennego, nic ciekawego, ale mysle,
-ze sdh bedzie zadowolony. miales mi podeslac stare screeny, wiec chociaz
-teraz zglos jakies komentarze ;)
-pozdrawiam,
-
-simonking/thelo0p^mysticbytes[0m'
+----------------------------------------------------------//notka/-----------[0m'

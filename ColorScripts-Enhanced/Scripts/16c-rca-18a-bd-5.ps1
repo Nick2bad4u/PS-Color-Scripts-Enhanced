@@ -5,7 +5,7 @@
 # Source SHA-256: e9f9f991131ae3ddae3b4287be82aad59a5d01ca3f00d03886da3aae7f5a27a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BD-5.ANS by Blue Devil (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
@@ -14,20 +14,20 @@ Write-Host '
 [1m██[0;1;33m█████▀[0m   [1;33m▓   [0m
 [1m█[0;1;33m███▀[0m   [1;33m▓[0m   [1;33m░[0m [1;33m [0m
 [1;33m█▀[0m   [1;33m▓[0m   [1;33m░[0m   [1;33m░[0m
-  [1;33m▓ [0m  [1;33m░[0m   [1;33m░[0m        [1;34mBlue Devil  (change in the seasons)[0m
+  [1;33m▓ [0m  [1;33m░[0m   [1;33m░[0m        [1;34m                                   [0m
    [1;33m░ [0m  [1;33m░[0m
     [1;33m░ [0m
-                     [1m      [0m  [1;34mWell if you saw the last pack you seen [0m
-                   [1;34mthis scene before except it was in winter.  [0m
-                   [1;34mWith spring a whole bunch of new things are brought upon[0m
-                   [1;34mus. Mostly new life or rebirth, so just chill and think[0m
-                   [1;34mabout the cool winds of march and be taken into the bliss[0m
-                   [1;34mof the spring change.[0m [1;34mSo feel those new winds.[0m
+                     [1m      [0m  [1;34m                                       [0m
+                   [1;34m                                            [0m
+                   [1;34m                                                        [0m
+                   [1;34m                                                       [0m
+                   [1;34m                                                         [0m
+                   [1;34m                     [0m [1;34m                        [0m
 
 
 
 
-                                          [1;34mBlue Devil (rca and[0m [1;34mavengecult)[0m
+                                          [1;34m                   [0m [1;34m           [0m
 
 
 

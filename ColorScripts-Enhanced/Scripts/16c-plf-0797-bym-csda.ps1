@@ -5,7 +5,7 @@
 # Source SHA-256: 2e2037c9c3d79af75648ca1d04b42e41bbefc12d40e96b1d6e4437568256291d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-CSDA.ANS by big yellow man (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cream soda
 # SAUCE Author: big yellow man
 # SAUCE Group: phobia
@@ -17,7 +17,7 @@
 Write-Host '
 
 
-                                   [32mdflower''s[0;1;30m░░[0m
+                                   [32m         [0;1;30m░░[0m
                    [1;30m░░[0m                  [35m  [0;32m   [0;1;30m [0m
                       [32m ▄▄▄▄[0m   [32m▄▄▄▀▀▀▀ [0;35m▐██[0;32m ██▄ [0;35m██▄▄▄[0;32m▐███▄▄▄[0m
                    [32m▄█▀▀██▀▀██▄▐█ [0;35m▄█[0;1;33;45m░░[0;35m▀▐[0;1;33;45m░[0;35m▌[0;32m▐[0;1;31;42m░[0;32m █▌[0;35m▐[0;1;33;45m░░[0;35m█▌[0;32m██ ▐█▀██  [0;1;31m [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: b4f6b9f53c29211c20ce9ff58e60bf0eff236e22a03b5710aa64d82658b9a9df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HEN-BERM.ANS by Hennifer + Warpus (lazarus); released in laz04mar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blender #??
 # SAUCE Author: hennifer
 # SAUCE Group: lazarus
@@ -39,12 +39,4 @@ Write-Host '
      [1;34;44m░ [0;35;44m░[0;1;34;44m  ▄▄▄[0;1;37;44m▄[0;1;34;44m    ▀▀[0;1;34;40m█ [0;1;34;47m▓[0;1;34;40m█[0;1;34;44m▄[0;34m████████[0;1;34;44m▀▀█[0;1;34;40m▀▀▄█[0;1;34;44m▄▄▄▄███▄ ▀▀▀▀▀▀[0;1;34;47m▒[0;1;34;44m▄[0;1;34;40m▄[0;34m▄▄▄[0;1;34;44m▀[0;1;34;40m██[0;1;34;44m▀[0;1;34;40m▀▀[0;35m░[0;1;34m▄▄█▀ [0;34m▄▄[0m
      [1;34;44m  ▄██████[0;1;34;47m█▓[0;44m▄[0;1;34;44m ▄[0;1;34;40m█▀[0;1;34;45m▓[0;1;34;40m█[0;1;34;44m▄▄▄▒[0;34m█████[0;1;37;44m▀[0;1;34;44m ▄▄▄[0;1;34;47m▓[0;1;34;44m▀[0;1;34;40m▄█[0;1;34;44m█▀██▀[0;34m██████[0;35;44m░░[0;1;34;44m   ▄▄▄[0;1;34;40m▄▄▄[0;1;37;40m▄[0;34m▄▄[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m▀[0;34m▄▄██▀[0;37;44m▒[0;1;34;40m [0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mi have gone mad![0m [1;30m this is the bermuda triangle killing a cyborg.  yeah.  i think[0m
-[1;30mi''ve kind of gone crazy.  i''m too busy.  bUSY!@ EHAHAHAAAAHHAHR>.q2gb..[0m
-
-[1;30mthis looks less like puke when you see it in vga mode.[0m
-
-[1;30mwarpus helped with the hand![0m
-
-[1;30mhennifer[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

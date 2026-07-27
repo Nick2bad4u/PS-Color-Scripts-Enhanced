@@ -5,7 +5,7 @@
 # Source SHA-256: 148ca1a8e02e6bd69be0219e9b59aba0169a5a3426729de62cf0134ea9b5bca3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH-JOLT.ANS by chrom (air / vortex); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: jolt loggo
 # SAUCE Author: chrom
 # SAUCE Group: air / vortex
@@ -38,9 +38,4 @@ Write-Host '
 
 
 
- [1;30m────([0m klipp då förfan[1;30m )─────────────────────────────────────────────────────── [0m
-
-  this one is a request from q-bic to his soon-up board jolt.
-  My 4th loggo *ever* .. enjoy, or spit at.
-
-  want art/ppe?! chrom@usa.net[0m'
+ [1;30m────([0m klipp då förfan[1;30m )─────────────────────────────────────────────────────── [0m'

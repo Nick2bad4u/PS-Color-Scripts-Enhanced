@@ -5,7 +5,7 @@
 # Source SHA-256: 0f3ccee144b0cca0efd347f0853c2f66d81fe9f67eb097b177ce84cf90138943
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GDR-BET1.ANS by gravedancer (aspire); released in aspire02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: portrait
 # SAUCE Author: gravedancer
 # SAUCE Group: aspire
@@ -44,5 +44,5 @@ Write-Host '
                          [33m     ▀[0;1;30;43m░░[0;33m▐[0;1;30;43m░░[0;33m▀▀     [0;37m  [0;33m████[0m    [33m▀▀▀[0m
 
 [37m--------------------------------------------------------------------------------[0m
-[1;37moriginally done in greyscale, but then I decided to just color it for the hell[0m
+[1;37m                                                                              [0m
 [1mof it.[0m'

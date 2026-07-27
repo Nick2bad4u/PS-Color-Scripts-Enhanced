@@ -5,7 +5,7 @@
 # Source SHA-256: 1939658409e1d82aab40c37e38252ee1d1c60c14bda16400b1678718e0791e57
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: qz-logo1.ans by Quazar (iCE Advertisements); released in ice-200208 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Collection
 # SAUCE Author: Quazar
 # SAUCE Group: iCE Advertisements
@@ -57,4 +57,4 @@ Write-Host '
 [1m███  [0m▄[41m▓▓[0;1;30;47m░░░░░░░░░░░░▒▒░░▒▒▓[0;1;30;40m▌  [0;44m▓[0;1;30;47m░░░[0m  [1m▀▀▀▀▀▀▀▀█  [0m▄[1;30;47m░░░[0;44m▓[0;40m  [0;1;30;40m▐[0;1;30;47m▓▒▒░░▒░░░░░░░░░░░[0;41m▓▓[0;40m▄  [0;1;40m██[0m
 [1m█  [0m▄[41m▓[0;1;30;47m░[0m▀▀▀▀▀▀▀  [1m▄▄▄▄▄  [0;1;30m▀▀▀▀▀▀▄  [0m▀[44m▓[0;1;30;47m░░[0m▄▄▄▄▄▄    ▄[1;30;47m░░░[0;44m▓[0;40m▀  [0;1;30;40m▄▀▀▀▀▀  [0;1;37;40m▄▄▄▄  [0m▀▀▀▀▀▀▀[1;30;47m░[0;41m▓[0;40m▄[0m
 [40m  ▀[0m     [1;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m       ▀▀[1;30;47m░░░░[0m▀  [1;30m▄[0;1;30;47m▓▒░░[0m▀▀       [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     ▀
-t h e s p a w n [1;32mi [0mn g g r o [32mu [0;37mn d[0m     [37m▀[0;1;30mquazar[0m         t s g . z a p t o . o r g[0m'
+                [1;32m  [0m          [32m  [0;37m   [0m     [37m▀[0;1;30m      [0m                                  [0m'

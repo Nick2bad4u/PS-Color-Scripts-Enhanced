@@ -5,7 +5,7 @@
 # Source SHA-256: 81ee35eea9f0cfd4deecd71baaefe374ecb4ceb960154f3f05e423aedcb38ebe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-DROID.ANS by raider (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: elite-robot
 # SAUCE Author: raider
 # SAUCE Group: shade
@@ -33,7 +33,4 @@ Write-Host '
     [30;44m▓[0;1;34;44m▓[0;1;34;40m▌[0;30;47m█▌[0;1;37;47m▓█▄[0;1;37;40m█▓█[0;1;37;47m▀[0;1;37;40m▀[0;30;47m▄███[0;30;42m▄▓[0;30;47m▀[0;1;37;40m██[0;1;37;47m█▒[0m [34m▐[0;1;34;44m▄[0;1;34;40m▄[0;1;34;44m▓[0;1;34;40m██▄[0m
     [30;47m█[0;1;34;40m██[0;30;47m██▄[0;1;37;40m▀▀▌[0;30;47m██████▀[0;1;37;40m▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;46m█[0;1;37;47m█▓[0;1;37;40m▀[0;30;47m▄[0;34;40m▐[0;1;34;44m▓[0;1;34;47m█[0;1;34;44m█[0;1;34;40m██[0;30;47m█[0m      [1;30;40mfucking original, btw. i don''t[0m
     [30;47m█[0;1;34;40m▐█[0;1;34;44m▒[0;30;47m█[0;1;37;40m▄[0;1;37;47m▓█[0;1;36;40m█[0;1;37;47m▄[0;30;47m▀██▓[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m█[0;1;37;40m█[0;1;37;46m▓[0;1;36;47m██[0;1;37;47m▀[0;1;30;47m▄[0;1;30;40m▄[0;30;47m█[0;1;30;40m▄[0;1;34;40m█[0;1;34;46m▓▓▓[0;1;34;44m▓[0;30;44m▀[0m      [1;30;40mdo comic rips, never had, never will.[0m
-     [1;30m    [0m [30;47m▓▓▓▓[0m    [30;47m▓█▓▓▓[0;30;46m▓▓[0m     [30;44m▓▓▓▓[0m
-                                          [1;30;40m         [0m
-[31m.shade.shade.shade.shade.shade.shade.shade.shade.shade.shade.raider.shade.shade.[0m
-[1;30m(do not cross this line!)[0m                 [1;30m                      [0m'
+     [1;30m    [0m [30;47m▓▓▓▓[0m    [30;47m▓█▓▓▓[0;30;46m▓▓[0m     [30;44m▓▓▓▓[0m'

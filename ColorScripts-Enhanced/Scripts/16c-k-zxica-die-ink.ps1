@@ -5,7 +5,7 @@
 # Source SHA-256: 2e5dde8a2bc13e19769e52d74677bcf7483082d661540a39dc277fbb7235cd8d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DIE-INK.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -37,9 +37,4 @@ Write-Host '
      [30;42m▓░[0;1;33;42m▄[0;32m▄[0;34;42m▀[0;34;40m▄[0;37;40m  [0;32;40m▀[0;1;32;40m░[0;30;42m▓[0;34;40m▀[0m            [35;40m ░▓[0;34;45m▄[0;34;40m▀[0;37;40m [0;34;40m░[0;30;44m▓[0m
        [32;40m▄[0;1;33;40m▄[0;32m [0m
          [32m▄[0;1;33m░[0m
-             [32m▀[0;30;42m▓[0;30;44m▓[0m
-
-[36;40mthe outline for this font was done in november of 1995.. three whole fucking[0m
-[36;40myears ago.. isn''t that crazy? anyways, it was part of a 300 line beta of mister[0m
-[36;40mhendrix himself (again).. never worked out, and somewhere along the line, i [0m
-[36;40mlost the pic.. but kept the font somehow :) [0m'
+             [32m▀[0;30;42m▓[0;30;44m▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 664ef1d8ae018818887b6a88c57923782016914f1c10659d93769b4cdc09183d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WAR-SI.ANS by War (dox_9612); released in dox_9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
          [34;40m▀[0;1;34;44m▀[0;34m▀[0;37m  [0;34m▀[0;37m [0;34m░[0;37m [0;34m▀[0;37m [0;32;47m░▒[0;37;40m█████▓███[0;32;47m▒[0;37;40m ██▓[0;32;47m░[0;37;40m██████[0;32;47m▒▓[0;37;40m  [0;32;47m▓▒[0;37;40m█▓█▓████[0;32;47m░▒[0;37;40m [0;34;40m▒[0;37;40m [0;34;40m [0m    [34;40m▄[0;1;34;44m▄[0;34m▄[0m
             [34m▀[0m     [34m█[0;37m [0;32m▀[0;32;47m▓▄▄▒▄[0;37;40m████[0;32;47m▄▓[0;37;40m████[0;32;47m▒▄[0;37;40m█[0;32;47m▄[0;37;40m█[0;32;47m▄▄▓[0;32;40m▀[0;37;40m  [0;32;40m▀[0;32;47m▓▄▄ ▄[0;37;40m███[0;32;47m▄▒[0;32;40m▀[0;37;40m [0;34;40m▓ ▀[0m     [34;40m▀[0m
 [37;40m [0;34;40m850+ mEGS[0m    [34;40m  █▄▓▒▄▄▄▄[0;37;40m [0;34;40m▄[0m    [34;40m▒[0m      [34;40m▄[0;37;40m [0;34;40m▄▄[0;37;40m  [0;34;40m▄▄▓█▄▄▄▄▄▄▄[0;37;40m [0;34;40m▄▄[0;37;40m [0;34;40m▄▄█▄▓[0;37;40m [0;1;34;40mrEG. l.O.R.D[0m
-   [34mfOR dOWNLOAD[0m    [1;37ms[0m    [1my[0m    [1mn[0;34m░[0;37m   [0;1;37mt[0m  [34m▓[0;37m [0;1;37mh[0m    [1me[0;34m▀[0;37m   [0;1;37mt[0m    [1mi[0m [34m▒[0;37m  [0;1;37mc[0m     [1;34m [0m  [1;34m  [0m  [1;34m [0m [1;34moNLINE[0m
+   [34m            [0m    [1;37m [0m    [1m [0m    [1m [0;34m░[0;37m   [0;1;37m [0m  [34m▓[0;37m [0;1;37m [0m    [1m [0;34m▀[0;37m   [0;1;37m [0m    [1m [0m [34m▒[0;37m  [0;1;37m [0m     [1;34m [0m  [1;34m  [0m  [1;34m [0m [1;34m      [0m
           [1;30m [0m    [34m [0;37m i [0;34m░[0;37m n[0m   [37mt  [0;34m [0;37me[0m   [37ml[0m   [37ml[0m   [37mi[0m   [37mg[0m   [37me[0m   [37mn  [0;34m░[0;37mc[0m   [37me[0m
                [34m [0m                     [34m░[0m
 

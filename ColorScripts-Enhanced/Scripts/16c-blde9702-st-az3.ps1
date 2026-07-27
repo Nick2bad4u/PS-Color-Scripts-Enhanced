@@ -5,7 +5,7 @@
 # Source SHA-256: fa6699e3c1591c366c17f08b362fd7aea244353f3c34eba4db33fd70b60e9d4e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-AZ3.ANS by splatt (blade productions); released in blde9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: azaroth!
 # SAUCE Author: splatt
 # SAUCE Group: blade productions
@@ -30,6 +30,4 @@ Write-Host '
 [36;40m░[0;30;46m▓[0;1;36;46m▄████[0;36m▌[0;1;35m [0;1;32;42m▄[0;1;32;40m█[0;32m▌[0;1;32m▀[0;32m [0;34m▐▀ ▀▀░[0;30;44m▓[0;37;40m  [0;30;46m▓[0;36;40m▓[0;1;36;46m▄█▄[0m▄▄ [32m▀[0;1;32m▀[0;36m▐▀[0;34;46m [0;30;46m░[0;36;40m▓▌[0;32;40m▐[0;1;32;40m██████[0;1;37;40m██[0m█[1;30m▌[0;1;36m █▀[0;1;36;46m██[0;36m▌[0;1;37m [0;32m▐[0;1;32m███[0;32m▌[0;37m [0;1;34;44m░░░░░[0;34m [0;1;32;42m▐[0;1;32;40m██[0;32m▌[0;34m [0;36;44m [0;34;40m█▓[0;30;44m░[0;34;40m▓ [0m
 [37;40m░[0;1;30;47m▌[0;1;37;40m███[0;1;36;46m█▌[0m  [34m▄■[0;37m [0;34m▀ [0m     [34m  [0m   [36m░[0;30;46m░[0;1;36;46m▓[0;1;36;47m▓[0;1;37;40m██[0m█[1;30m▌[0m [36m▀▀▀   [0m           [1;36m [0;1;36;46m▒▓▓▓[0;36m▌  [0m     [1;34;44m  [0;34;47m▓[0;37;44m░[0;34;47m▓[0;34;40m▌st?  ▀▀▀▀▀ [0m
 [37;40m  ▀▐[0;1;37;47m▀[0;1;36;46m▀[0;36m▀▀[0;37m  [0m               [30;46m▓[0;36;40m▓[0;36;47m▓[0;1;30;47m▄[0m▀[1;30m▀[0m       [1;36mR[0m           [1;36m [0;36m▀ ▀[0;1;36;46m░[0;36m▓  [0;1;36mT[0m    [34m▀▀▀   [0m        [32m   [0m
-            [1;36mA[0m             [36m  [0m                       [36m▀ ▀[0m                    [1;36mH[0m  [32m   [0m
-       [1;36m  [0m  [1;36m [0m
-  + it says [1mAZAROTH[0m in there some where. this is for my honey[1m DC[0m![0m'
+            [1;36mA[0m             [36m  [0m                       [36m▀ ▀[0m                    [1;36mH[0m  [32m   [0m'

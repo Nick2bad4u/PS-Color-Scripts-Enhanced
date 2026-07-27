@@ -5,7 +5,7 @@
 # Source SHA-256: ca996d97292037fc625d6009ab6124021edc614643a1bddd8cc5269eb96ea655
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-sleepm.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sleep
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
@@ -22,7 +22,7 @@ Write-Host '
  [31md :$$[0;1;31m$P[0m [31m.\┘  [0;35m.d$7[0;31m7`[0;37m                        [0;31mY$7[0;35mdP[0;1;30m  [0m$$7[33m                   [0;37m4$$[0;1;30m [0m┌[1;30m\┘[0m
 [31m''` l$[0;1;31m7`[0;31m.d'' [0;35m.a$$7[0;31m$7[0;1;30m.[0;32m,[0;1;32m,[0;1;30m.[0;32m              [0;1;30m.[0;31m       d7[0;35md$[0;31m [0;1;30m:[0m 4jb.┌j$$$$$$$$$$[1;30m$[0m$$j┐.djP[1;30m `.A[0m
 [31m┌s#$[0;1;31mP[0;31m d$` [0;35m/$$$7[0;31m$ [0;32mj$[0;1;32m$[0;31m$[0;1;31m$$[0;31m\[0;32m         [0;1;30m,\''[0;1;32m        [0;31m$[0;35md$[0;31m` [0;1;30m`[0m   `''`[1;30m               `[0m''`   $[1;30m$$[0m
-[31m$$$[0;1;31mP[0;31m jP'' [0;35md$$$7[0;31mP   [0;1;32m`²[0;31m⌂Qj[0;1;32m$[0;32m)[0;37m       [0;1;30mJ[0;36m$''[0;31m        l[0;35md$[0;31m`[0;37m┌[0;1;30m l[0m          [30;41m option [0;37;40m         $[0;1;30;40mj$[0m
+[31m   [0;1;31m [0;31m     [0;35m     [0;31m    [0;1;32m  [0;31m⌂  [0;1;32m [0;32m [0;37m       [0;1;30m [0;36m  [0;31m         [0;35m  [0;31m [0;37m┌[0;1;30m  [0m          [30;41m        [0;37;40m          [0;1;30;40m  [0m
 [31m$P[0;1;31m`[0;31m,A7  [0;35md$$$7[0;31m`[0;37m                 [0;1;30m`[0;36m²''[0;37m         [0;31m$[0;35m$[0;31m`[0;37m [0;1;30m`[0m $          [1;31;41m option [0m         [1;30m` $[0m
 [31m` d$'' [0;35m/$$$7[0;31m$''                      [0;32mJ[0;1;32m$[0;31m$[0;1;31mS¬[0;1;32m┐ [0;31ml[0;35m$''[0;37m.┌[0;1;30msS$[0m          [30;45m option [0;37;40m         .[0;1;30;40m┌s[0m
 [31m j7 [0;35m,A$[0;1;31m$[0;35m$$7[0;31m''                [0;1;30m.[0;36m d[0;1;36m$[0;36m:  [0;32m''*[0;31m$j[0;1;32m$7[0;1;30m''[0;31m$[0;35m$[0;37m $[0;1;30m$$$$[0m          [1;31;45m option [0m         $$[1;30m$[0m
@@ -38,5 +38,5 @@ Write-Host '
 [36md$[0;1;30ml[0m   [1;30m`[0;36m4$[0;1;36m$$$$$$$$$[0;36m$b[0;37m   [0;1;36m┌.[0;36m     [0;1;30m$P'' [0mj7 [31m.$[0;35mP [0;1;30m,┐ [0m$[1;30mP[0m ,[1m,.[0m┌`  `/┐.[1m$$[0mb [1m$[0m\ d [1m$[0m`  [1m$[0m`  [1m$[0md7
 [1;36m$[0;1;30m$b     `[0;36m\[0;1;36mj$$$$$[0;36m$$$$[0;1;30m   [0;36ml[0;1;36m$[0;36mP[0;37m [0;36mj[0;37m [0;1;30mdP  [0m,7 [31m.$[0;35mP  [0;1;30mj* ''`[0m \[1m$$$[0m     [1mY$$$[0mP `4d$ [1m$[0m/$ $/$ [1m$[0m''[1;30m.,┐[0m
 [36m7`[0;1;30mYb.      [0;1;36m`└[0;36mQ$$└[0;1;30m*┘''[0;36m  ,$''[0;37m [0;36m┘''[0;1;30m,$P [0m┌''[31m ,$[0;35m7    [0;31m.┌⌐s%[0;37m 4$[0;1;37m$b.  ,J$$[0mP    `~   ~   ~ [1m$[0m [1;30m`*Q[0m
-[36m`[0;1;30m\ 4$Ss. [0;36m.[0;1;30md''[0;36m  [0;1;30m`└[0;36m*sq[0;1;36mqj[0;36mjP''[0;37m    [0;1;30mY$ [0m/  [31m,$[0;35mP[0;31m .┐S$. `$[0;1;31m$[0;31m%[0;37m `$[0;1;37m$$b$$[0mjP''  s[1;30mleep[0m e[1;30mffect[0m  $
+[36m [0;1;30m        [0;36m [0;1;30m  [0;36m  [0;1;30m └[0;36m   [0;1;36m  [0;36m   [0;37m    [0;1;30m   [0m   [31m  [0;35m [0;31m  ┐      [0;1;31m [0;31m [0;37m   [0;1;37m     [0m      [1;30m    [0m  [1;30m     [0m   
 [1;30m$┘`[0;36m Y[0;1;30m$[0;36m$$ $[0;1;30m7.┌\[0;36m              [0;1;30ml$[0m`  [31md$[0;35mP''[0;31m J$[0;1;31m$$[0;31m$. `[0;1;31m$$[0;31m%[0;37m  \⌂*┘`                  ~` abs[0m'

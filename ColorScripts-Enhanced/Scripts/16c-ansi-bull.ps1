@@ -5,7 +5,7 @@
 # Source SHA-256: c7de6031101418059ebe88a0226daf98f2f027ba6004c79674fc65905d8cbc15
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BULL.ANS by David Hartmann (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -48,5 +48,5 @@ Write-Host '
 [1;35m  [0;1;30m▀▄[0m     [1;30m▀▄ ▌[0m     [1;30m\[0;1;37m▐▌[0;1;30m/   ▐[0;1;34m▐██████████▄▄▄[0;1;30m▀▀▀[0;1;34m▄███████████████[0;1;30m▐ [0;1;34m▄▄▄ [0;1;30m▌[0;1;34m█████████[0;1;35m│[0m
 [1;35m  │[0;1;34m▄[0;1;30m▀▄[0m     [1;30m▀▄[0m       [1;30m/    ▐[0;1;34m▐████████████████████████████████[0;1;30m▐ [0;1;34m███ [0;1;30m▌[0;1;34m█████████[0;1;35m│[0m
 [1;35m  └───[0;1;30m▀▄[0m     [1;37m▌[0m     [1;30m/[0m     [1;30m▌[0;1;35m─────────────────────────────────────────────────┘[0m
-        [1;30m▀▄   [0;1;37m█    [0;1;30m│[0m     [1;30m▐  [0mFrom deep in swamplands of the Georgia Mtns
-          [1;30m▀▄[0;1;37m▐▌[0;33m█   [0;1;30m│■    ▌  [0mBullwinkle finds a BBS clue! What could be his[0m'
+        [1;30m▀▄   [0;1;37m█    [0;1;30m│[0m     [1;30m▐  [0m                                           
+          [1;30m▀▄[0;1;37m▐▌[0;33m█   [0;1;30m│■    ▌  [0m                                              [0m'

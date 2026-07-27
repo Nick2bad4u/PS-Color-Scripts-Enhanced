@@ -5,7 +5,7 @@
 # Source SHA-256: 5af419d25f3e2c3fe4aa330921b3b731340ac716cd44052f0bebf8edea0545fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LC-HEAVN.ANS by Lector ([Quad-P]); released in quad0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Heaven Inc. -- Lec's 1st ANSI!
 # SAUCE Author: Lector
 # SAUCE Group: [Quad-P]
@@ -38,6 +38,6 @@ Write-Host '
 [31mSys:Lector[0m      [32m█ ██  █ █▀▀[0m             [32m█[0m             [32m▄▀[0m     [32m▄▀[0m                [32m█[0m
 [32m    [0;31mTT[0m          [32m█ █ █ █ █[0m              [32m█    ▄▀█▀▄   ▄▀    ▄▄█[0m                  [32m█[0m
 [32m    [0;31mModal[0m       [32m█ █  ██ █▄▄[0m           [32m█▄▄▄▄▀[0m     [32m▀▄▀   ▄▀▀[0m                     [32m█[0m
-[31mCoSys:The Rowen[0m                                       [32m█[0m              [32mQuad-P    █[0m
+[31m               [0m                                       [32m█[0m              [32m          █[0m
 [32m████████████████████████████████████████████████████████████████████████████████[0m
 [32m████████████████████████████████████████████████████████████████████████████████[0m'

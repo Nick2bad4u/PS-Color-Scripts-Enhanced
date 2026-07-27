@@ -5,7 +5,7 @@
 # Source SHA-256: e4619aa891e4033da94b4a0dd2801fc60c04601ed19145d402da2db1160352ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAVENMOB-CIRCUITSELF.ANS by Mavenmob (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Creation of a Self Logos
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
@@ -55,6 +55,4 @@ Write-Host '
    [30;42m▓[0;32;40m█[0;1;32;42m│[0;32m███[0;30;42m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\ [0;1;32;42m│[0;30;42m [0;32;40m██[0;30;42m▀\▀\  [0;32;40m█[0;30;42m [0;32;40m██[0;30;42m▀\▀\  [0;32;40m█[0;30;42m [0;32;40m██[0;30;42m▀\▀\[0;1;32;42m┌───[0;30;42m▀\  [0;1;32;42m  [0;30;42m [0;32;40m█████████[0;1;33;42m░[0m
    [30;42m▓[0;32;40m█[0;1;32;42m└────────┐■[0;32m███████████[0;1;32;42m │[0;32m██[0;1;32;42m▄[0;32m█[0;1;32;42m▄[0;32m██[0;1;32;42m▄[0;36;42m [0;32;40m██████[0;1;32;42m┌┘[0;32m███[0;1;32;42m       │[0;32m███[0;1;32;42m.[0;32m█[0;1;32;42msn533113FF[0;32m█[0;1;32;42mF[0;32m██[0;1;33;42m░[0m
    [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;32m▀[0;1;32;42m│[0;32m███████████████[0;1;32;42m│[0;32m█[0;36;42m■■■■■■■[0;32;40m███[0;1;32;42m│[0;32m███████████████████[0;1;33;42m░[0m
-                          [30m█[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀[1;30m▀▀▀▀▀[0m▀[1;30m▀▀[0m▀▀▀▀▀
-
-[1;30mthe[0;1;32m [0;1;30mcreation of a self:a game about psychological death:http://mavenmob.com/self[0m'
+                          [30m█[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀[1;30m▀▀▀▀▀[0m▀[1;30m▀▀[0m▀▀▀▀▀[0m'

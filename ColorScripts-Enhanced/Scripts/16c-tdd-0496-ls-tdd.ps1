@@ -5,7 +5,7 @@
 # Source SHA-256: e227910f64811a3b012eca2d75d972b7fc9f297017374367feb48b9056815fc5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS!-TDD.ANS by Luke Skywalker (tdd-0496); released in tdd-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -34,5 +34,4 @@ Write-Host '
       [33m$.[0;35m`S.    [0;1;37m".[0m         [1;37m". ."[0m      [1;37m". ."[0m      [1;37m". ."[0m         [1;37m.''    [0;35m.S''[0;33ms$[0m
       [33mS''[0;35m,$''[0m      [1;37m`.[0m        [1;37m.''.[0m        [1;37m.''.[0m        [1;37m.''.[0m        [1;37m.''[0m      [35m`S,[0;33m"$[0m
       [35m,o"[0;33m.  [0;1;30mlS![0m     [1;37m²²++²²[0m     [1;37m²²++²²[0m     [1;37m²²++²²[0m     [1;37m²²++²²[0m     [1;30mlS!  [0;33m.[0;35m"o,[0m
-     [35m.S''[0;33m.$[0m                                                           [33m$,[0;35m`S.[0m
-                                  [37mLuke Skywalker[0m'
+     [35m.S''[0;33m.$[0m                                                           [33m$,[0;35m`S.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d8f8362e70c794de362f863c3d43073147ebf4951712950776083d6aba18dc9a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ISO-LDU.ICE by isosceles (ice 95); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sq2's deep umbra
 # SAUCE Author: isosceles
 # SAUCE Group: ice 95
@@ -45,11 +45,4 @@ Write-Host '
 [1m█[0;1;47m▄  ▀▒▀▄[0;1;40m▀██[0;1;47m▄[0m ▀███[1;47m■[0m ██[1;47m▀[0m██ ███   █████ █[1;47m█[0m█▀▄▄▄▄ ▀██    ▄[1;47m▓[0m██ ██[1;47m█░ [0m
   [1m▀▀▀▀[0m     [1m▀[0m     ▀▀▀▀▀ █  ▀      ▀ ▄▄█[1;47m█[0m█ ███[1;47m▄[0m█ ██    █[1;47m▀▄[0m█ ██[1;47m▀ [0m█
 [1;30m100% origional phont.. heh.. uh   [0m  ▀▀▀▀▀██[1;47m▀▀[0m█ ██        ▀▀▀▀ ▀
-[1;30mhah..yeah.. i thought you''d find that funny.[0;1;37m [0;1;30mhah[0m▀     [1;30m^--- [0mthe deep umbra
-... [1;34mt[0;1;32mh[0;1;36me[0m [1;31md[0;1;35me[0;1;33me[0;1;37mp[0m [1;34mu[0;1;32mm[0;1;36mb[0;1;31mr[0;1;35ma[0;1;37m :[0m it''s a little stripe of colour to my otherwise b&w ansi[1m [0m...
-[1m [0m la ''sop c''est [1msquidgalator[0m [1mdeux[0m, annihilannic, smash! whq, ice member board
-
-[1;30m''tszi c/o [0;1;32mi[0;32ms[0;1;30mosceles [ice] - it''s got some french cuz sq2 told me not to put any.[0m
-
-[30m[sq2] ah oui... voulez vouz fairez une ansi pour ma bbs, La Deep Umbra...[0m
-[30m[sq2] that''s The Deep Umbra actually :0[0m'
+[1;30m                                            [0;1;37m [0;1;30m   [0m▀     [1;30m     [0m              [0m'

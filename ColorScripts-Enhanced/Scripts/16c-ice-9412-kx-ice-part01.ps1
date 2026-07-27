@@ -5,17 +5,17 @@
 # Source SHA-256: 4717bce5602f7f56f281eab23d34e1b1987256cb6c449a3177321d8200cc268d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KX-ICE.ICE by Krux (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
                 [36m▄▄[0m            [36m▄[0m
-[1;30m''So he sez   [0;36m▄▄[0;36;46m [0;1;36;46m■▄▄[0;36m█▄[0m      [36m▄[0;36;46m [0;1;36;46m■ [0;36m▀  [0;1;30mto me, "Do you want to be a BAD guy?"  and I[0m
-[1;30msez, "Yea[0m       [36m▀[0;36;46m [0;1;36;46m▓▓ [0;36m▌[0m      [1;36;46m▐▌[0;36m▀  [0;1;30mBABY, I want to be BAD"  Then he sez to me,[0m
-[1;30m"If you want to  [0;36m▐[0;36;46m [0;1;36;46m▒ [0m      [36m▐[0;36;46m [0;36;40m▀  [0;1;30;40mbe REALLY BAD, you''ve got to have a gimmick."[0m
-[1;30;40mSo I sez to him,  [0;1;30;46m [0;1;36;46m░ [0m     [36m▄▀    [0;1;30m"Yea BABY, I got a Gimmick.  HIGH EXPLOSIVES![0m
-[1;30mCause'' I''m the    [0;1;30;46m   [0m  [36m▄▄▀[0m      [1;30mEVIL MIDNIGHT BOMBER, WHAT BOMBS AT MIDNIGHT!!"''[0m
+[1;30m             [0;36m▄▄[0;36;46m [0;1;36;46m■▄▄[0;36m█▄[0m      [36m▄[0;36;46m [0;1;36;46m■ [0;36m▀  [0;1;30m                                            [0m
+[1;30m         [0m       [36m▀[0;36;46m [0;1;36;46m▓▓ [0;36m▌[0m      [1;36;46m▐▌[0;36m▀  [0;1;30m                                           [0m
+[1;30m                 [0;36m▐[0;36;46m [0;1;36;46m▒ [0m      [36m▐[0;36;46m [0;36;40m▀  [0;1;30;40m                                             [0m
+[1;30;40m                  [0;1;30;46m [0;1;36;46m░ [0m     [36m▄▀    [0;1;30m                                             [0m
+[1;30m                  [0;1;30;46m   [0m  [36m▄▄▀[0m      [1;30m                                                [0m
 [1;30m▄[0m                 [36m█▓[0;37;46m░[0m    [36;40m▀▄[0m                                 [1;30;40m▄▄▄[0m               [1;30;40m▄▄[0m
 [1;30;40m█▓██▄▒▓█▓░▒ ░[0m     [46m░[0;36;40m▒[0;37;46m▒[0m     [36;40m▀[0;37;46m░[0;36;40m▄[0m      [1;30;40m░▒▓░░ ░░▒▓██▓██████████▓██▓██▓██████▒████▓▐█▓[0m
 [1;30;47m█[0;1;30;40m▒██▓█████▓░▒░   [0;36m▐[0;37;46m▒[0;36;40m░[0;37;46m▓[0m      [36;40m▐[0;37;46m▒▓[0m    [1;30;40m░ ░▒░█▓▒▓███████▓██▀███████▓█▓▄███▓██▓███████▒[0m
@@ -29,7 +29,7 @@ Write-Host '
 [1;30;40m░ ▒[0m     [1;30;40m▐ ■[0m        [1;30;40m▓▒[0m         [1;30;40m░[0m                 [1;30;40m░[0m             [1;30;40m░[0m       [1;30;40m░█▒ ░ ▐▓ ▓[0m
 [1;30;40m▒ ▓[0m     [1;30;40m▐[0m          [1;30;40m▓▓[0m         [1;30;40m░[0m                 [1;30;40m▄.[0m            [1;30;40m░[0m       [1;30;40m▌▀█▄▓■█  ▒[0m
 [1;30;40m  ▓[0m                [1;30;40m█▀[0m         [1;30;40m░[0m                 [1;30;40m▓▌[0m                    [1;30;40m█  ▀▀▓   ▒[0m
-[1;30;40m  ▒    · An iCE produc[0;36mti[0;1;36mon by K[0;36mru[0;1;30mx of iCE ·[0m     [1;30m▒[0m             [1;30m▐[0m     [1;30m. ▓  ░ ▒   ░[0m
+[1;30;40m  ▒                   [0;36m  [0;1;36m       [0;36m  [0;1;30m          [0m     [1;30m▒[0m             [1;30m▐[0m     [1;30m  ▓  ░ ▒   ░[0m
 [1;30m  ▒[0m                [1;30m█▓[0m         [1;30m░[0m                 [1;30m░ .[0m           [1;30m■[0m       [1;30m▓  ▒ ░[0m
 [1;30m  ░[0m                [1;30m▐▓[0m         [1;30m▒[0m                 [1;30m░[0m                     [1;30m▐    ░   ▒[0m
 [1;30m  ░[0m                [1;30m▐▒[0m         [1;30m▓[0m                 [1;30m▓[0m                     [1;30m▐[0m        [1;30m▒[0m

@@ -5,14 +5,14 @@
 # Source SHA-256: 434327fd0764c2a2b033ca5bfcee55746a69453f4ecd9272df6fdcdce2a78d30
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FILEM.ANS by Amroth (am-sgore); released in am-sgore and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
-([31mA[0;1;30m)[0;1;37mrea Select[0m                                                   ([31mR[0;1;30m)[0;1;37mNewScan Area[0m
-([31mB[0;1;30m)[0;1;37match Menu[0m                                                    ([31mS[0;1;30m)[0;1;37mearch Areas[0m
-([31mD[0;1;30m)[0;1;37mownload[0m                           [31m▀▄    ▀[0m                    [37m([0;31mT[0;1;30m)[0;1;37mype a File[0m
+ [31m [0;1;30m [0;1;37m          [0m                                                    [31m [0;1;30m [0;1;37m            [0m
+ [31m [0;1;30m [0;1;37m         [0m                                                     [31m [0;1;30m [0;1;37m           [0m
+ [31m [0;1;30m [0;1;37m       [0m                           [31m▀▄    ▀[0m                    [37m [0;31m [0;1;30m [0;1;37m          [0m
 ([31mE[0;1;30m)[0;1;37mdit Uploads[0m                  [31m▄▄██▀▀ ▄▄   ▒▒[0m                  [37m([0;31mU[0;1;30m)[0;1;37mpload File[0m
 ([31mG[0;1;30m)[0;1;37moodbye[0m                    [1;30m▄[0;31m▀[0;1;30m▓▓▓ [0;31m▀▄██▌▀▀▀█▄▓▓  [0;1;30m▒▒[0m             ([31mV[0;1;30m)[0;1;37miew Archive[0m
 ([31mI[0;1;30m)[0;1;37mGenerate Listing[0m         [1;30m███▀ [0;31m▄ [0;1;31;41m▒▒[0;31m▀ ▒    █▀  [0;1;30m▄▄ █[0m            ([31mX[0;1;30m)[0;1;37mRequest List[0m
@@ -33,4 +33,4 @@ Write-Host '
 [31m ▄▄[0m                                                          [31m█▌    ▀ █ █  ▄▀▀▄[0m
 [31m▓▓▀▀■[0m                                                        [31m█▌▀▀    █▌█▌▐█▄▀ ▄[0m
 [31m████▄  .■▄[0m                                                   [31m██[0m      [31m▀  ▀ ▓▀▀▀[0m
-[1;37;41mAMROTH[0;31m▄[0;1;37;41mSUPER[0;31m▄[0;1;37mG[0;1;37;41mOR[0;1;37;40mE[0;31m.[0m                                            [31m▓[0m'
+[1;37;41m      [0;31m▄[0;1;37;41m     [0;31m▄[0;1;37m [0;1;37;41m  [0;1;37;40m [0;31m [0m                                            [31m▓[0m'

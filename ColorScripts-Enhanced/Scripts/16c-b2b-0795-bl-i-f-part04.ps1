@@ -5,7 +5,7 @@
 # Source SHA-256: cdcd351738d1c3d7e44586bc8487263bf27568126874950593d55a9411c93cd9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-I!F.ANS by Blind Enemy (Back to Basix); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iNSANE!FARPOiNT
 # SAUCE Author: Blind Enemy
 # SAUCE Group: Back to Basix
@@ -24,10 +24,10 @@ Write-Host '
    [1;30m▄▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀[0m    [1;30m▀▀[0m                      [1;30m           ▀▀ ▀▀▀▀  ▀▀▀▀▀▀▀▀▄ [0m
  [1;30m█▀ [0m▄▀▀▀▀▀ ▀▀  ▀                                               ▀ ▀▀ ▀▀▀▀▀▀▄  [1;30m▀█[0m
  [1;30m▄▀[0m█ [1;32m█[0;1;32;42m▀[0;32m▀ ▀[0;37m                [0;1;30m1.7 GiGS  DEMOS AND ART ONLiNE[0m           [32m▀ ▀[0;1;32;42m▄██[0;1;32;40m▄[0m █ [1;30m█[0m
- [1;30m█[0m▐[1;30m [0;1;32;42m▌[0;32m▀[0;37m  [0m          [1;30m [0m  [1;30m [0m    [1;30m [0m [1;30mRUNNiNG ON PCBOARD 15.23     [0m                [1;32;42m▐[0m ▐ [1;30m█[0m
+ [1;30m█[0m▐[1;30m [0;1;32;42m▌[0;32m▀[0;37m  [0m          [1;30m [0m  [1;30m [0m    [1;30m [0m [1;30m                             [0m                [1;32;42m▐[0m ▐ [1;30m█[0m
  [1;30m█[0m■ [32m▌[0m             [1;30m [0m  [1;30m [0m  [1;30m [0m                               [1;30m   [0m              [32m▐[0;37m ■ [0;1;30m▐[0m
 [1;30m ▌   [0m           [1;30m   [0m    [1;30m [0m    [1;30m.·-──────SUPPORT─────-·. [0m       [1;30m     [0m            [1;30m■[0m
- [1;30m■[0m                          [1;30m`THE COEXiSTENCE·──·WHQ'' [0m
+ [1;30m■[0m                          [1;30m                 ──      [0m
 [1;30m     [0m                 [1;30m  [0m    [1;30m RR·──────·SUPPORT SiTE[0m  [1;30m   [0m   [1;30m [0m
                       [1;30m      [0m [1;30mSUPREME·─────────·DiST[0m  [1;30m          [0m
 [1;30m     [0m                       [1;30m K.L.F·───────────·DiST[0m

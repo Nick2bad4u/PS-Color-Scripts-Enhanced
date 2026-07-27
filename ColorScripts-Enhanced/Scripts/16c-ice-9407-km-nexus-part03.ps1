@@ -5,7 +5,7 @@
 # Source SHA-256: a03b6422228eac43b3569212ccdc374748b46ba959ec8f101b0cbfed5e8312bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KM-NEXUS.ICE by King Midas (ice-9407); released in ice-9407 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 75-124
 # Columns: 1-80
 
@@ -47,16 +47,15 @@ Write-Host '
 [1;37m▄ [0;1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [31m░ [0;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;31m▒ [0;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;31m░ [0;37m▄▄▄▄[0;1;30m▄ [0;1;37m▄[0m
                                                     [31m░[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-        [1;37mHey Maestro, have you ever Farted and gotten that brown stuff in[0m
-                                [1;37myour underwear?[0m
-[1;37m [0mHey Sids, all this black space is dedicated to you, and if I put hidden greets
-                   would I be cool? Is this ansi "Fucked Up?"
-[1;30mHey Tempus, you still rule, just try to be as cool as your Georgian counterpart[0m
-[1;30m   [0;1;37mHey Mister Sinister, do you think if your father Farted, that Nation would[0m
-                                [1;37mstink even more?[0m
-          Hey Metal Head, can you dedicate a Fart Boy or two, to 404?
-       [1;30mHey Psyco Child, can I borrow your skateboard? I wanna be cool too[0m
-[1;30m    [0;1;37mHey Insidious, they are dedicating the "Anal Room" on Cyberspace to you[0m
-               Hey Everyone, call this board, if you had da numa
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m
-                             [1;30mKING MIDAS IS DA SHIT![0m'
+        [1;37m                                                                [0m
+                                [1;37m               [0m
+[1;37m [0m                                                                              
+                                                             
+[1;30m                                                                               [0m
+[1;30m   [0;1;37m                                                                          [0m
+                                [1;37m                [0m
+                                                                     
+       [1;30m                                                                  [0m
+[1;30m    [0;1;37m                                                                       [0m
+                                                                
+[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

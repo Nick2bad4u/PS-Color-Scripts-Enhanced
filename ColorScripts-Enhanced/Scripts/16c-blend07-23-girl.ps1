@@ -5,7 +5,7 @@
 # Source SHA-256: 17e88b18e05fa2eaa607508962001ecf65930df08305f28a85c810340a03fa31
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 23-GIRL.ANS by Twenty-Three (Blend); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Twenty-Three
 # SAUCE Group: Blend
 # SAUCE Date: 19970314
@@ -36,11 +36,4 @@ Write-Host '
 [31m███████████████████▌[0;36m▐[0;1;36;46m░░[0;36m▌[0;1;36m [0;36m▌[0;1;36;46m     [0;36m▌▀▀▀▀[0;1;36m  [0;31m████████████████▄▄▄▌[0;37m [0;1;31m▀[0m [31m██████████████████[0m
 [31m███████████████████▌[0;36m▐[0;30;46m░░[0;36;40m▌[0;1;36;40m [0;36m▌[0;1;36m  [0;36m▄▄▄▄▄[0;1;36;46m ▄ [0;36m█[0;31m▐█████████████████████████████████████████[0m
 [30;41m░░░░░░░░░░░░░░░░░░[0;31;40m▓[0;37;40m [0;30;46m▒▒▒[0;1;36;40m  [0;36m█[0;1;36;46m ▄▄   ▐[0;1;36;40m██[0;1;36;46m█[0;36m▌[0;31m▐[0;30;41m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
-[30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m [0;30;46m▓▓▓[0;1;36;40m  [0;36m▐[0;30;46m░[0;1;36;40m██[0;30;46m░[0;36;40m▌▄[0;1;36;46m▐██▓[0;36m▌[0;30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-
-[1;33;40myep.. i won''t be doing any requests anymore, or at least i''ll be decidin, if i[0m
-[1;33mwill, myself. my new handle is 23, so this one is just to "celebrate" it or[0m
-[1;33msomething.. inspirations? tankgirl (the comic, not the cheap ansi-drawing[0m
-[1;33mduplicate ;)), nas, ismo alanko, le haine... check the last one out, it rules..[0m
-
-[1;33mtwennythree.. ex-tarot. [0m'
+[30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m [0;30;46m▓▓▓[0;1;36;40m  [0;36m▐[0;30;46m░[0;1;36;40m██[0;30;46m░[0;36;40m▌▄[0;1;36;46m▐██▓[0;36m▌[0;30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

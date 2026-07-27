@@ -5,7 +5,7 @@
 # Source SHA-256: 9482b256453da9cb4affe1dca0894ff14e73b72531bf1ed856aed756e9a69678
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-PRID.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
 # SAUCE Date: 20010703
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-        [36m  [0m    [36m.[0m                             [1;37m-WHOLEtype[0m            [1mShrimp[0;32mFoliage[0m
+        [36m  [0m    [36m [0m                             [1;37m          [0m            [1m      [0;32m       [0m
      [36m   _.,∟°[0m
     [36m ,a#│`[0m   [31m  [0m                                                      [36m .[0m
 [37m  [0;1;32m [0m [36m;§[0;1;32m§§[0;36m1[0m   [31m?│$$$$$$$$$$[0;1;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;31m$$$$$$$P`[0;37m [0;36m [0;37m [0;31m :$$[0;1;31m$$$[0;31m$[0m
@@ -37,10 +37,5 @@ Write-Host '
 [37m  [0;31m$$S##S$$$1 [0;37m  [0;36m'' [0;37m  [0;31m.d$$$$[0;1;31m$$$$$$[0;31m$$$$↨;.[0;37m  [0;36m.`[0;37m  [0;31m.b┐,._[0m   [36m `ⁿ?│§b[0m    [36m`ⁿ§[0;37m [0;31m.°[0;37m [0;36m /`[0m   [31m,$[0m
 [37m [0;31m $$$[0;1;31m$$$[0;31m$$$$.[0;37m  [0;36m`[0;37m  [0;31m.$$$$[0;1;31m$$$$[0;1;33m$$[0;1;31m$$$$$[0;31m$$$P[0m   [31m .d$$$$$$$$b┐.[0m   [36m`$l[0;37m [0;31m▬.[0;37m  [0;36m''[0;37m  [0;36m .`[0;37m  [0;31m.,d$$[0m
                        [31m     [0;37m  [0;31m   [0m                         [36m.`[0m
-[37m [0;1;32mP[0;36mride.[0m
-[37m────────[cut]───────────────────────────────────────────────────────────────────[0m
-
-[36mI really like this one, don''t ask me why :) try viewing in VGA & 50x80 modes. [0m
-[36mI can''t seem to drop[0;37m [0;36mthis curly-wavy effect on the fonts I draw :))[0m
-
-[36mShrimp@hotmail.co.il[0m'
+[37m [0;1;32m [0;36m     [0m
+[37m────────[cut]───────────────────────────────────────────────────────────────────[0m'

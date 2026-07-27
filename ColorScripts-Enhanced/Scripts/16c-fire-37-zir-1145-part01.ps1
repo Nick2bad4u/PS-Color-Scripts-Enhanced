@@ -5,7 +5,7 @@
 # Source SHA-256: d2d9983612f249e270cd5b28d84350d35c623600060dd35ab32a2272e14d8771
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-1145.ANS by zir (FiRE); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: quarter to midnight
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -17,7 +17,7 @@
 # Columns: 1-80
 
 Write-Host '
-[38;2;171;171;171;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0m░░░░ ░░ [0;38;2;0;0;0;48;2;0;171;171m►[0;38;2;0;171;171;48;2;0;0;0m►[0;38;2;171;171;171;48;2;0;0;0m zir of fire graphics international[0;38;2;171;0;0;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0mportland oregon[0;38;2;171;0;0;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0m2023[0;38;2;171;0;0;48;2;0;0;0m [0;38;2;0;0;0;48;2;0;171;171m►[0;38;2;0;171;171;48;2;0;0;0m►[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0m░░[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0m░[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0m░░░[0m
+[38;2;171;171;171;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0m░░░░ ░░ [0;38;2;0;0;0;48;2;0;171;171m►[0;38;2;0;171;171;48;2;0;0;0m►[0;38;2;171;171;171;48;2;0;0;0m                                   [0;38;2;171;0;0;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0m               [0;38;2;171;0;0;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0m    [0;38;2;171;0;0;48;2;0;0;0m [0;38;2;0;0;0;48;2;0;171;171m►[0;38;2;0;171;171;48;2;0;0;0m►[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0m░░[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0m░[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0m░░░[0m
 
 [38;2;171;171;171;48;2;0;0;0m [0;38;2;171;0;0;48;2;0;0;0m░░░░░░░ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [38;2;171;171;171;48;2;0;0;0m [0;38;2;171;0;0;48;2;0;0;0m▓▓▓▓▓▓▓[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;171;0;0;48;2;0;0;0m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

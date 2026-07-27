@@ -5,7 +5,7 @@
 # Source SHA-256: a0dff3af722f473fa9bfdcb0af13031b82a17d15b5220c0b40ebb9cba2c5f63d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: X&S-REAL.ANS by Xkeys + Sketch Rimanez (secular); released in sclr-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: real artist
 # SAUCE Author: xkeys&sketch
 # SAUCE Group: secular
@@ -41,7 +41,7 @@ Write-Host '
 
 
 
-                            [ [36mxkeys[0;37m [0;33mfeat[0;36m sketch[0;37m ][0m
+                              [36m     [0;37m [0;33m    [0;36m       [0;37m  [0m
 
 
 
@@ -55,11 +55,11 @@ Write-Host '
                                  [33m..«¡.¼«ªÑΓ.[0m
                                  [33m½¿Φ∞.temp..[0m
                                  [33m...π»áßΓ∞.ó[0m
-                                 [33mΓó«ατÑß¬¿⌐.[0m
+                                 [33m         ⌐ [0m
                                  [33m.ñáπ¡......[0m
                                  [33m.»«Γ«¼π.τΓ«[0m
                                  [33mΓ∩úá.¬.....[0m
                                  [33m..ß«º¿ñá¡¿ε[0m
-                                 [33móßÑúñá.....[0m
-                                 [33m....æêï£ìàà[0m
+                                 [33m           [0m
+                                 [33m           [0m
                                  [33m...........[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b5668640141a13536efa01ba378c67225422ad804fc8dd3d0dad8990bef07250
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRUSADE3.ANS by crusader (fbk.sargahd^vos); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: victims of society
 # SAUCE Author: crusader
 # SAUCE Group: fbk.sargahd^vos
@@ -39,22 +39,14 @@ Write-Host '
                [1;33m▐[0;1;33;41m▌[0;31m█[0;1;33;41m▀░▀[0;31m▓[0m   [31m ▐██[0;35;41m░[0;31;40m▌[0m      [1;33;40m█[0;1;33;41m█▄░[0;35;41m░[0;31;40m█[0m     [31;40m▐█▌[0m    [31;40m■[0;1;33;40m█[0;31m███[0;1;33;41m░[0;31m  ▐[0;35;41m░[0;31;40m▌[0m
                [1;33;41m██▓▄[0;31m███▄▄▄▀▀▀[0;35;41m▓[0;31;40m  [0m   [31;40m ▄▀ [0;1;33;40m [0;31m  ▀▀▀▀▀▄▄[0;35;41m▓[0;31;40m█ [0m    [1;33;40m▐[0;1;33;41m█▓[0;31m█[0;35;41m░[0;31;40m▌  █[0;35;41m░[0m
              [31;40m ▄[0;1;33;40m▀▀▀[0;31m  [0;35;41m░[0;31;40m       [0;35;41m░[0;31;40m [0m   [31;40m █[0m             [35;41m▒[0m    [31;40m▄▄[0;1;33;40m▓▀▀▀[0;31m▀▀▀[0;35;41m▓[0;31;40m▀[0m
-           [1;31;40mv[0;31mi█c[0;1;31mt[0;35mi[0;1;31mms[0m    [31m      [0m   [35mo[0;31m▐▌f [0m             [1;31ms[0;31mo█c[0;35mi[0;1;31mety[0m
+           [1;31;40m [0;31m █ [0;1;31m [0;35m [0;1;31m  [0m    [31m      [0m   [35m [0;31m▐▌  [0m             [1;31m [0;31m █ [0;35m [0;1;31m   [0m
             [31m▐▌[0m    [31m■[0m               [31m█   ▄■[0m           [31m▐▌[0m
              [31m▀▄▄▄▀[0m                 [31m▀▀▀[0m              [31m█[0m      [31m▄■[0m
                                                      [31m▀▀▄▄▀▀[0m
-                          [31mwe still need good artists![0;35m [0m
+                          [31m                           [0;35m [0m
 [1;37m           [0m
-                                  [31minterested?[0m
+                                  [31m           [0m
 [31m       [0m
-                                 [31mcontact me at:[0m
+                                 [31m              [0m
 [31m        [0m                                 [31m [0m
-                            [1;31mvelocity! +49-40-6916197[0m
-[31m         [0m                            [31m                          [0m
-                  [31mor mail me in one of the following networks:[0m
-
-                  [31m [0m     [31mgathering da scene in a network[0m
-[31m   [0m                    [31mremote access underground network[0m
-[31m   [0m                               [31mshc network[0m
-
-                       [31mor just voice me at [0;1;31m+49-40-6916197[0m'
+                            [1;31mvelocity! +49-40-6916197[0m'

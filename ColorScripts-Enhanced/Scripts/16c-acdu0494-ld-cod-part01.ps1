@@ -5,7 +5,7 @@
 # Source SHA-256: 2a7d85bd7bef30c17dc6453f13f466814570e085a69e040d7064de4bd8ff8e05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-COD.ANS by Lord Jazz (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Castle of Darkness
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -35,7 +35,7 @@ Write-Host '
 [1;33;43m░░░░▒▒▒▒▒▒▓▒▓▓[0m [1;30;40m█ [0;1;33;40m▄▄[0;1;33;43m▓[0m [1;30;40m█ [0;1;33;40m▄ [0;1;30;40m█ ▀▄▄▄▀[0;1;33;40m▄[0;1;30;40m▀▄▄▄▄▀[0;1;33;40m▄[0;1;30;40m▀▄▄▄▀ █ [0;1;33;47m▓[0m [1;30;40m█ [0;1;33;47m▓▓[0m [1;30;40m█ [0;1;33;47m▓[0;1;33;40m▄[0;1;30;40m▀▄▄▄▄▀[0;1;33;40m▄[0;1;33;47m▓▓▓▓▓▓▒▓▒▒▒▒░░[0m
 [1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30;40m█    ·[0m                                                                         [1;30;40m█[0m
-     | [1;30m/┤N ANSi For Ear Of Castle Of Darkness ■ Revised Version Of LD-COD.ANS[0m
+       [1;30m ┤                                     ■                              [0m
 [1;30m█ ·-[0m─[1m┼[0m─[1;30m--- - ·· · - -- ────────────────────────────────────────────────────────█[0m
      │                                              [33m▀[0;33;43m [0;1;33;43m░▒▒▓[0;1;33;40m█▀[0m            [1;33;40m▄[0m
 [1;30;40m▀    |[0m                          ▄▄▄▄▄[1;30;47m░     [0m▄▄▄▄        [33m▀▀[0m           [1;33m▄  [0;1;33;43m▒▓█[0m     [1;30;40m▀[0m

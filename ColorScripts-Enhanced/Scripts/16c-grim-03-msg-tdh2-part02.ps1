@@ -5,7 +5,7 @@
 # Source SHA-256: b3787e843df75fcefa07b9c0f7f6a2b904260fde79a32622a9c014fa9627369c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MSG-TDH2.ANS by Manslaughter (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -54,9 +54,8 @@ Write-Host '
 
                          [31m┌────[0;1;33m─────[0;1;37m────────────[0;1;33m────[0;31m───┐[0m
                          [31m│[0;1;33mTHE [0;31mDAR[0;1;37mK HA[0;1;33mLF   [0;1;37m5[0;31m10-[0;1;33m658[0;31m-274[0;1;37m6[0;31m│[0m
-                         [1;33m│   S[0;31mysop [0;1;37m: S[0;1;33mhad[0;1;37mow [0;31mKni[0;1;33mght    │[0m
-                         [1;37m│[0m      [31mCos[0;1;37mys : [0;1;33mJa[0;1;37meli[0;31mthe[0m      [1;37m│[0m
-                         [1;33m│   NUP [0;31m: W[0;1;37marlo[0;1;33mck [0;1;37mETa[0;31mC W[0;1;33mHQ   │[0m
-                         [31m│ [0;1;33mRunnin[0;31mg Pr[0;1;37mism [0;1;33mw/ [0;1;37mPri[0;31msmN[0;1;33mET  [0;31m│[0m
-                         [31m└────[0;1;33m─────[0;1;37m────────────[0;1;33m────[0;31m───┘[0m
-                         [1;37mANSI:MANSLAUGHTER:GRiM [Trial][0m'
+                         [1;33m│    [0;31m     [0;1;37m   [0;1;33m   [0;1;37m   [0;31m   [0;1;33m       │[0m
+                         [1;37m│[0m      [31m   [0;1;37m     [0;1;33m  [0;1;37m   [0;31m   [0m      [1;37m│[0m
+                         [1;33m│       [0;31m   [0;1;37m    [0;1;33m   [0;1;37m   [0;31m   [0;1;33m     │[0m
+                         [31m│ [0;1;33m      [0;31m    [0;1;37m    [0;1;33m   [0;1;37m   [0;31m   [0;1;33m    [0;31m│[0m
+                         [31m└────[0;1;33m─────[0;1;37m────────────[0;1;33m────[0;31m───┘[0m'

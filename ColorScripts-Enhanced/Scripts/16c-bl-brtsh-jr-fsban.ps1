@@ -5,7 +5,7 @@
 # Source SHA-256: 2c2712f98a669fb7545d85422c591ed8b0d5f14ca996303e41e89235b7cc4c3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSBAN.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FS:: smoke'em!
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,6 +40,4 @@ Write-Host '
 
 
 
-[1;30m----------------------------------------------------------------(smoke''em!)-----[0m
-[1;30mtha smokin''banana strikes back - straight from jamaica!           jerusalem~boil[0m
-[1;30m4 freeside''s fast login.[0m'
+[1;30m----------------------------------------------------------------(smoke''em!)-----[0m'

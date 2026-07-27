@@ -5,7 +5,7 @@
 # Source SHA-256: 7becb7646f8fb9b9adaaa461c6808810f01f0ad6181b8ae2700faf06f008564f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GL-LGB01.ANS by glandyth-a-krae (DEVOTiON TO DARKNESS); released in dtd04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lugburz menu letter.
 # SAUCE Author: glandyth-a-krae
 # SAUCE Group: DEVOTiON TO DARKNESS
@@ -32,8 +32,6 @@ Write-Host '
 [31m        ▐▓▄▀▀ ▄[0;1;31m▄[0;1;31;41m▄▓█▀[0;1;31;40m▀▀▀[0;31m▀░░      ▀[0;1;31;41m░▌[0m       [1;31m''z'' [0;31m- to search some spell(s)[0m
 [1;37m        [0;31m█▀ ▄[0;1;31;41m▄▀[0;1;31;40m▀▀[0;31m▀           ▄[0;1;31m▄[0;1;31;41m▄██▓▓▄[0m      [1;31m''l'' [0;31m- to locate some spell(s)[0m
 [1;37m       [0;31m [0;1;37m [0;31m▄[0;1;31;41m▒[0;31m▀              ▄▀▀    ▀[0;1;31m▀▀[0;1;31;41m░[0;31m▄[0m    [1;31m''t'' [0;31m- to choose kind of casting[0m
-[31m        [0;1;31;41m░[0;31m▀                            ▀[0m   [1;31m''sign'' [0;31m- to sign your spell(s)[0m
-[31m       ▐▀[0m                                 [1;31m''erase'' [0;31m- to erase some spell(s)[0m
-        [31m▀[0m
-
-[1;37mfor the lugburz bbs.[0m'
+[31m        [0;1;31;41m░[0;31m▀                            ▀[0m   [1;31m       [0;31m                       [0m
+[31m       ▐▀[0m                                 [1;31m        [0;31m                        [0m
+        [31m▀[0m'

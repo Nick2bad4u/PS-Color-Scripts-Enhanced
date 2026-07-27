@@ -5,7 +5,7 @@
 # Source SHA-256: 1ced76cd917779a393ac693e24f4118042443fe99ec2be6b4d160f89de617cab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-MNST.ANS by anomite (bamboosh & deranged); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mainstream bbs
 # SAUCE Author: anomite
 # SAUCE Group: bamboosh & deranged
@@ -35,10 +35,8 @@ Write-Host '
    [31;40m▀▀▀▀▀▀▀▀▀▀▀▀[0m   [31;40m [0m                               [31;40m            [0m                [31;40m [0m
                                                   [31;40m             [0m
 [1;30;40m--[0m                                                [31m             [0m
-[1;30mhrmfz.. I suck at backgrounds.. damn.. well, anyway.. this is for [0m
-[1;30ma guy named [0mMichael[1;30m. yeah =) .. sysOp at [0mMainstream[1;30m bbs..[0;31m      [0m
+[1;30m                                                                  [0m
+[1;30m            [0m       [1;30m                      [0m          [1;30m      [0;31m      [0m
                                                   [31m             [0m
-[1;30mI''m trying to find my own style, .. but.. It''s [0mhard[1;30m, have patience... =)[0m
-[1;30ml8or[0m
-
-[1;30m-anomite.[0m'
+[1;30m                                               [0m    [1;30m                     [0m
+[1;30ml8or[0m'

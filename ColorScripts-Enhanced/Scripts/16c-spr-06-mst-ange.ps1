@@ -5,13 +5,13 @@
 # Source SHA-256: f31e9cd895673b25ad79e49863ae6a3951684daf4108aa6842d7886c0196be1c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MST!ANGE.ANS by Mist (spr_06); released in spr_06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
-[1;30mn[0mame  [1;30m:[0m Angel                       [1m   [0m                         [1;30md[0medicat[1;36me[0;1;37md [0;1;30mt[0mo[1;30m :[0m
-[1;30ma[0mutor [1;30m:[0m Mist[1m [0m                       [1;36m░░[0m                          [1m   [0;1;30mV[0maqu[1;36mu[0;1;37mm[0m
+[1;30m [0m     [1;30m [0m                             [1m   [0m                         [1;30m [0m      [1;36m [0;1;37m  [0;1;30m [0m [1;30m  [0m
+[1;30m [0m     [1;30m [0m     [1m [0m                       [1;36m░░[0m                          [1m   [0;1;30m [0m   [1;36m [0;1;37m [0m
              [1m [0m                      [1;34m░░[0m
              [1m                       [0;34m░░[0;1;37m                     [0m
              [1m                   [0;34m▄▄▄██[0;1;34;44m ▄▄[0;34m▄▄▄[0;1;37m                [0m

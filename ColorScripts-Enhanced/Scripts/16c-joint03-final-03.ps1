@@ -5,7 +5,7 @@
 # Source SHA-256: fbcdbf73b6fe40689cadeffb81c184f0a44dd70e37d930b27cabc754fdce6fbd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FINAL#03.ANS by Loi + Pzyko + Aoh + Mighty Mouse + Axiom + Fever + Misfit + Flame + Defiant (joint03); released in joint03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -52,7 +52,4 @@ Write-Host '
 [1;33m██▓[0;1;33;43m▒[0;33m█[0;1;33;43m▓░[0;33m█[0;1;33;43m░░░[0;1;33;40m▀█▄█[0;1;33;43m▓▓▓▓▓▓▒▒▒░░▓[0;1;33;40m██[0;1;37;40m░[0m     [1m▐[0m                        [1m▄█[0;1;33m████[0;1;33;43m▓▓▒▒░░[0;33m█[0;1;33;43m▀▀▓▓▓[0;1;33;40m█[0m
 [1;33;43m▓░░[0;33m██[0;1;33;43m▒[0;33m███[0;1;33;43m▄ ▀▀[0;33m██[0;1;33;43m░░[0;33m███[0;1;33;43m░░░░[0;33m███[0;1;33;43m░▓[0;1;33;40m█[0;1;37;40m░░   ▐[0;1;33;40m▌   [0;1;37;40m▄███[0;1;33;40m█▄▄[0m         [1m▄[0;1;33m▄███[0;1;33;43m▓▓▒░░░░░[0;33m███████[0;1;33;43m▒▒▒[0m
 [1;33;43m▒░[0;33m███[0;1;33;43m░[0;33m█████[0;37;43m░[0;33;40m██████▀   ▀██[0;1;33;43m░░[0;33m██[0;1;33;43m▓[0;1;33;40m█ [0;1;37;40m░  [0;1;33;40m███▄████[0;1;33;43m▀▀▀▓▓▓▓[0;1;33;40m█▄▄▄█[0;1;33;43m▓▓▓▓░░░░[0;33m███[0;1;33;43m░[0;33m█[0;1;33;43m░[0;33m███████[0;1;33;43m░░░[0m
-[1;33;43m░[0;33m████████[0;37;43m░░▒░░[0;33;40m█[0;37;43m░[0;33;40m███▄▄▄███████[0;1;33;43m░▓[0;1;33;40m█▄▄██[0;1;33;43m▓▀░░░░[0;33m█[0;1;33;43m░[0;33m██[0;1;33;43m░░[0;33m▀██[0;1;33;43m░░░░░░░[0;33m█████[0;37;43m░[0;33;40m█████▀ ▀█████[0;1;33;43m░[0;33m█[0m
-
-[37m 07/30/96 ''the joint #03'' - loi, pzyko, aoh, mighty mouse, axiom, fever, misfit [0m
-[37m                       flame, defiant - 10min segments ..[0m'
+[1;33;43m░[0;33m████████[0;37;43m░░▒░░[0;33;40m█[0;37;43m░[0;33;40m███▄▄▄███████[0;1;33;43m░▓[0;1;33;40m█▄▄██[0;1;33;43m▓▀░░░░[0;33m█[0;1;33;43m░[0;33m██[0;1;33;43m░░[0;33m▀██[0;1;33;43m░░░░░░░[0;33m█████[0;37;43m░[0;33;40m█████▀ ▀█████[0;1;33;43m░[0;33m█[0m'

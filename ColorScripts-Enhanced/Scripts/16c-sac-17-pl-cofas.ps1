@@ -5,7 +5,7 @@
 # Source SHA-256: e07904c3209e31adc69cd342d95985c5194eb28a984e05b7db692fa906959ab9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-COFAS.ANS by puschel; released in sac-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
 [34m,o.[0;1;31m`$$$$$[0;31m$$$$$$O.`$$$[0;1;31m$$$$$$[0;31m$$°[0;37mpl[0;34m.o[0;33m.$[0;1;33m$$[0;33m$$[0;1;37m [0;34m$''.[0;1;31m °[0;31m$$$$$$[0;1;31m$$$$O.`$$$$$$[0;31m$$$$$$[0;1;31m'' .[0m
 [34m''$''-[0;1;31m   °°[0;31m°°°  [0;34m.[0;31m [0;34m.o.[0;31m  [0;1;31m°°°°°[0;34m o[0;1;37m [0;34m,..o$[0;33m  [0;1;33m`$$[0;33m$[0;1;37m [0;34m$$o,[0;1;31m [0;34m.p[0;31m °°°°°[0;34m.[0;31m $$[0;1;31mO. [0;34m.[0;1;31m°°°°[0;31m°° [0;34m.,o$[0m
  [33m..[0;1;31mc[0;33m.[0;37mh[0;33m.[0;37mi[0;33m.[0;37ml[0;33m.[0;37md[0;33m...[0;1;31mo[0;33m.[0;37mf[0;33m...[0;37ma[0;33m...[0;1;31ms[0;33m.[0;37mt[0;33m.[0;37mo[0;33m.[0;37mr[0;33m.[0;37mm[0;33m..[0;37m [0;1;33m `$[0;1;37m [0;34m$''[0;1;37m [0;1;31m       [0;34m`[0;31m [0;34m°''[0;31m $$[0;1;31m$$O.[0;34m`°*oo,oO$$''[0;31m.[0m
-[1;37m                                     [0;1;33m  °[0m [34m''[0;1;37m [0m [33m+[0;1;37m [0;1;31mm[0mp3spa[1;33m [0;1;31mh[0meadquarter    [34m`''$''[0m
-[1;37m                                     [0;1;33m  .[0m [34m$[0m      [33m+[0;1;37m [0;1;31ma[0mmok[1;33m [0;1;31mh[0meadquarter[33m.[0m    [34m''[0m
-[1;37m                                     [0;1;33m   [0;1;37m   [0m [1m        [0;33m+[0;1;37m [0;1;31mm[0mbd[1;33m [0;1;31mh[0meadquarter[1m    [0;1;31m.[0m
+[1;37m                                     [0;1;33m   [0m [34m [0;1;37m [0m [33m [0;1;37m [0;1;31m [0m     [1;33m [0;1;31m [0m              [34m    [0m
+[1;37m                                     [0;1;33m   [0m [34m [0m      [33m [0;1;37m [0;1;31m [0m   [1;33m [0;1;31m [0m          [33m [0m    [34m [0m
+[1;37m                                     [0;1;33m   [0;1;37m   [0m [1m        [0;33m [0;1;37m [0;1;31m [0m  [1;33m [0;1;31m [0m          [1m    [0;1;31m [0m
 [1m                                     [0;1;33m  .[0m'

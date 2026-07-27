@@ -5,13 +5,13 @@
 # Source SHA-256: e9671f0afcb8f488119952903b2df06761ff4f172c5278329ff194339f799f74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-IMAG.ANS by San Man (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
 Write-Host '
-+S.A.N. Man
-Black Guy
+           
+         
 
 
 
@@ -50,5 +50,4 @@ Black Guy
 [37m7h[0;30m░░[0;1;30m▒▓████████████[0;1;37m█[0;1;37;47m   █[0;33;47m▒▒▒▒▒[0;30;43m▓▓[0;33;47m▒▒▒▒▒▒[0;30;41m████[0;33;47m▒▒▒▒▒▒▒▒▒▒▒▒[0;1;37;40m█[0;1;37;47m   █[0;1;30;40m░[0;30m░░[0;1;30m▒█░█░▒▓███▓▒░[0;30m░░░░[0m
 [1;37m█[0;1;30m░[0;30m░░[0;1;30m▒▓████████████[0;1;37m█[0;1;37;47m   █[0;33;47m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;37;40m█[0;1;37;47m   █[0;1;30;40m░[0;30m░░[0;1;30m▒█░█░▒▓[0;1;30;47m███[0;1;30;40m▓▒░[0;30m██████[0m
 [1;37m█[0;1;30m░[0;30m░░[0;1;30m▒▓████████████[0;1;37m█[0;1;37;47m   █[0;33;47m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;37;40m█[0;1;37;47m   █[0;1;30;40m░[0;30m░░[0;1;30m▒█░[0;1;30;47m█[0;1;30;40m░▒▓[0;1;30;47m███[0;1;30;40m▓▒░[0;30m██████[0m
-[1;37m█[0;1;30m░[0;30m░░[0;1;30m▒▓████████████[0;1;37m█[0;1;37;47m   █[0;33;47m▒▒▒▒▒▒▒[0;1;37;40m▄▄▄▄[0;33;47m▒▒▒▒▒▒[0;1;37;40m▄▄▄▄[0;33;47m▒▒▒▒▒▒▒▒[0;1;37;40m█[0;1;37;47m   █[0;1;30;40m░[0;30m░░[0;1;30m▒[0;1;30;47m█[0;1;30;40m░[0;1;30;47m█[0;1;30;40m░▒▓[0;1;30;47m███[0;1;30;40m▓▒░[0;30m███[0;1;30m░[0;30m█[0m
-'
+[1;37m█[0;1;30m░[0;30m░░[0;1;30m▒▓████████████[0;1;37m█[0;1;37;47m   █[0;33;47m▒▒▒▒▒▒▒[0;1;37;40m▄▄▄▄[0;33;47m▒▒▒▒▒▒[0;1;37;40m▄▄▄▄[0;33;47m▒▒▒▒▒▒▒▒[0;1;37;40m█[0;1;37;47m   █[0;1;30;40m░[0;30m░░[0;1;30m▒[0;1;30;47m█[0;1;30;40m░[0;1;30;47m█[0;1;30;40m░▒▓[0;1;30;47m███[0;1;30;40m▓▒░[0;30m███[0;1;30m░[0;30m█[0m'

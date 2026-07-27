@@ -5,7 +5,7 @@
 # Source SHA-256: 5a90d1b092227fa54353e6794b9604e991702edfd6d8717f1c3c36f2980e5ce4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-EOE2.ANS by WatOr (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: EOE
 # SAUCE Author: WatOr
 # SAUCE Group: Toon
@@ -30,8 +30,4 @@ Write-Host '
 [1;30m▐█[0m [1;31;43m▐▄[0;1;31;40m██[0;1;31;43m███[0;1;31;40m▌▀█████▄██▀[0;1;30;40m▄▌1st![0;1;37;40m▄▄▌[0;1;30;40m maybe a local board to you!  Who nose?????[0m  [1;30m█[0m
  [1;30m██▄[0;1;31m▀[0;1;31;43m██[0;1;31;40m▄▀▐[0m [1;30m▀[0;1;31m▐█▄█▀▀[0;1;30m▄▄█▀▄▄▄▄[0m [1;47m ▓█[0;1;40m [0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
   [1;30m▀██▄▄[0;1;31m▀▀▀█[0m [1;31m▀[0;1;30m▄▄▄██▀▀[0m       ▀▀▀
-     [1;30m▀▀▀██▄[0m [1;30m▀▀▀▀[0m
-
-
-
-'
+     [1;30m▀▀▀██▄[0m [1;30m▀▀▀▀[0m'

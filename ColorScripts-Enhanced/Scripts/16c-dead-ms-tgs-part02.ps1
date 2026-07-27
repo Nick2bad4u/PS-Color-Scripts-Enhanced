@@ -5,7 +5,7 @@
 # Source SHA-256: 47d76c8c12777d0e3c93f8c745bd89114719ac380c0431fe43cd52a99297fb55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MS-TGS.ANS by Manslaughter (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 49-80
 # Columns: 1-80
 
@@ -37,7 +37,6 @@ Write-Host '
            ▄[1;47m▄▄▄▄▄[0;1;40m██[0m█  █[1;47m███[0m█      █[1;47m██[0m█  █[1;47m████[0m█       █[1;47m█████▄██▀[0m▀   ▄[1;47m▄▄▄▄▄[0;1;40m██[0m█
            █[1;47m▀▀▀▀▀▀▀[0m▀  ▀[1;47m▀▀▀[0m█      █[1;47m▀▀[0m█  ▀[1;47m▀▀▀▀[0m▀        ▀[1;47m▀▀▀▀▀[0m▀▀     █[1;47m▀▀▀▀▀▀▀[0m▀
  [1;36m───────────────────────────────────────────────────────────────────────────────[0m
-[1;36m   [0;1;37mC[0;1;36mAN/[0;1;37mA[0;1;36mM [0;1;37mN[0;1;36mET [0;1;37mC[0;1;36manadian [0;1;37mH[0;1;36mub[0m     [1;37mT[0;1;36mhe [0;1;37mG[0;1;36molden [0;1;37mS[0;1;36mpires[0m          [1;37m416[0;1;36m-[0;1;37m825[0;1;36m-[0;1;37m3835[0m
-[1;37m    1.2 [0;1;36mGig[0m            [1;37mS[0;1;36mysop: [0;1;37mM[0;1;36master [0;1;37mT[0;1;36mech   [0;1;37mC[0;1;36mosysop: [0;1;37mG[0;1;36mrimstalk   [0;1;37mD[0;1;36mual [0;1;37mS[0;1;36mtandard[0m
-[1;36m ──────────────────────────────────────────────────────────────────────────────[0m
-                           [1;37mANSI:MANSLAUGHTER:DeAD[0m'
+[1;36m   [0;1;37m [0;1;36m   [0;1;37m [0;1;36m  [0;1;37m [0;1;36m   [0;1;37m [0;1;36m        [0;1;37m [0;1;36m  [0m     [1;37m [0;1;36m   [0;1;37m [0;1;36m      [0;1;37m [0;1;36m     [0m          [1;37m   [0;1;36m [0;1;37m   [0;1;36m [0;1;37m    [0m
+[1;37m        [0;1;36m   [0m            [1;37m [0;1;36m      [0;1;37m [0;1;36m      [0;1;37m [0;1;36m      [0;1;37m [0;1;36m        [0;1;37m [0;1;36m           [0;1;37m [0;1;36m    [0;1;37m [0;1;36m       [0m
+[1;36m ──────────────────────────────────────────────────────────────────────────────[0m'

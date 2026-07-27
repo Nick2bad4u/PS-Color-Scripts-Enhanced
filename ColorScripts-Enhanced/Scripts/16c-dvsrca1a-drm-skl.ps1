@@ -5,7 +5,7 @@
 # Source SHA-256: 25a733faa5f8c7ffc1472a3fec17b26a4b5c1fd7e1474a63084f45475fa8f4ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DRM-SKL.ANS by dorm & shaman (dvs); released in dvsrca1a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ascii skull
 # SAUCE Author: dorm & shaman
 # SAUCE Group: dvs
@@ -35,13 +35,4 @@ Write-Host '
              [37;40m  ll[0;33;40m         [0m            [30;47m§l:[0m
                [37;40m:: [0;33;40m        [0m            [37;40m  [0;30;47m`[0m
 
-[37;40m── ─- ═-═ -─--═══- ─-─ ═══-< [0;1;37;40mcut!? [0m>═══ --─--─- ══-─--══ ─═ ═─-═ -─═-═─═─═─═ -─-
-Ok, well, the skull was done for my board (amnesia), and i needed a skull in
-this ascii, so i used it,. thanks shaman! :) .. the rest is all dorm ascii :)
-Greets:  smak - get yur ass back in twisted
-         esc - i like your ascii
-         shaman - thanks
-Info:  Ok.. like i said in muh pic, i dont do requests for free,. i charge
-3 - 4 bux an ansi, or ascii :),. i do dew trades, if you want to trade or do
-a joint, email me at [1mdorm_bah@hotmail.com [0m,. cya
-dorm[0m'
+[37;40m── ─- ═-═ -─--═══- ─-─ ═══-< [0;1;37;40mcut!? [0m>═══ --─--─- ══-─--══ ─═ ═─-═ -─═-═─═─═─═ -─-[0m'

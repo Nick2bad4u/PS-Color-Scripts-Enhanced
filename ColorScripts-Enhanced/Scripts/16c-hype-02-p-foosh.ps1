@@ -5,7 +5,7 @@
 # Source SHA-256: e7a040b66aa008d3f6da059565786a5f05721eaea8dac576624f0c85b64732ff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P!-FOOSH.ANS by Pleeto (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "Foosh" Logo
 # SAUCE Author: Pleeto
 # SAUCE Group: Hype
@@ -31,7 +31,5 @@ Write-Host '
              [37;40m░[0m    [37;40m░ █[0m             [37;40m▄█▓▄[0m    [37;40m ░[0m                 [37;40m░[0m
                      [37;40m▄░  ░[0m       [37;40m▄ ▓▀[0m
                        [37;40m▀[0m   [37;40m▄░  ▀[0m
-                                   [36;40mf[0;37;40moos[0;1;32;40mh[0m
-                                [36m4[0;37mi6.297.826[0;1;32mo[0m
-                        [36mo[0;37mp : Redru[0;1;32mm[0m  [36mc[0;37mo : hyper bo[0;1;32my[0m
-                                [36ma[0;37mrt relate[0;1;32md[0m'
+                                   [36;40m [0;37;40m   [0;1;32;40m [0m
+                                [36m4[0;37mi6.297.826[0;1;32mo[0m'

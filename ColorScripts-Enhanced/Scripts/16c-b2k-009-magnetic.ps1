@@ -5,7 +5,7 @@
 # Source SHA-256: 099959735866cf4676b710efc606bfde7d9d2921df0c58eaeed8bf809c8bfe71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAGNETIC.ANS by Magnetic M (b2k-009); released in b2k-009 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -31,5 +31,4 @@ Write-Host '
 [32m██████▄ [0;1;30m▄[0;1;33m████ [0;1;31;41m░[0;1;31;40m████ [0;1;36;40m████[0;36m▀   [0;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [32m████████▄[0;1;30m▀[0;1;33m▀[0;1;33;47m▀[0;1;33;40m█ [0;1;37;41m▒▒[0;1;31;40m███ [0;1;36;40m█[0;1;36;46m▀[0;1;36;40m▀    [0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [32m███████████▄▄[0;31m▀▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m▀▀▀   [0;32m▄▄█████████████████████████████████████████████████████[0m
-[32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30m#blender june 13 .... teddybear, screaming, circus...[0m'
+[32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 98fb75a3d348d90444f3f0fd4581d6e0983ebae1a92d18713b749f824f708a61
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-PREV.ANS by Trippah (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -31,9 +31,7 @@ Write-Host '
 [1;30m─── █████████ [0;1;30;47m█[0m████[1;47m▐█[0;1;40m███ [0;1;30;40m─────────────────────────────────────────────────────>[0m
 [33m██▄ [0;1;30m▐▓▓██████ [0;1;30;47m█[0m████[1;47m██[0;1;40m██▌ [0;33m▄████████▀ ▀ [0;1;37mthe boss[0;1;30m: [0musers [36m/ [0;1;37mworkers[0;1;30m: [0mrippa [1;30m& [0mcronik
 [33m█▀▀ [0;1;30m▐█████▌▀▀ ▀[0m▀▀██[1;47m██[0;1;40m▓▓▌ [0;33m▀███▀▀█   [0;1;30m────────────────────────────────────────────[0m
-[1;30m ▄▄▀▀▀ [0;1;37m613-9xXx-xXxX ▀▀▀▄▄ [0;33m▀██  ▀  [0;1;36martpacks [0;36m· [0;1;36mdemos [0;36m· [0;1;36mpolyester releases [0;36m· [0;1;36mppes[0m
-[1;30m▀   [0;1;34mpsy[0;36mc[0;1;36mh[0;36mo[0;1;34mtic rev[0;36mo[0;1;36mlu[0;36mt[0;1;34mion  [0;1;37m▀▄  [0;33m▄ ▀  [0;1;36mcoding [0;36m· [0;1;36mand lots [0;36m· [0;1;36mlots [0;36m· [0;1;36mlots [0;36m· [0;1;36mlots more![0m
+[1;30m ▄▄▀▀▀ [0;1;37m              ▀▀▀▄▄ [0;33m▀██  ▀  [0;1;36m         [0;36m  [0;1;36m      [0;36m  [0;1;36m                   [0;36m  [0;1;36m    [0m
+[1;30m▀   [0;1;34m   [0;36m [0;1;36m [0;36m [0;1;34m       [0;36m [0;1;36m  [0;36m [0;1;34m     [0;1;37m▀▄  [0;33m▄ ▀  [0;1;36m       [0;36m  [0;1;36m         [0;36m  [0;1;36m     [0;36m  [0;1;36m     [0;36m  [0;1;36m          [0m
 
-[1;30m----------[0m
-[1;30m for rippa to use for his ultimate bbs. doesn''t it look sort of like old maiden[0m
-[1;30m style?[0m'
+[1;30m----------[0m'

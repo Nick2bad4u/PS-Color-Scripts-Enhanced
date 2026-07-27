@@ -5,7 +5,7 @@
 # Source SHA-256: 18cd105d54f34b76016d162ca304391de749a2cd526c7e032bfd0ca1f11fd3c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW-STRUM.ANS by bawss <-- double 's' (apathee); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Strummer ad!@
 # SAUCE Author: bawss <-- double 's'
 # SAUCE Group: apathee
@@ -37,7 +37,4 @@ Write-Host '
 [32;40m██  [0;1;36;40m█▄▄  [0;32m▀▀█████▄  [0;1;32m▀████[0;32m██▄ ▀▀████▀███▄▄██▌ [0;1;36m████▀▀ [0;32m▀███▀ ▄  ▀████▀ ▀▀ [0;1;36m▄███ [0;30;46my[0;36;40m█[0;30;46m [0;36;40m█[0;30;46mk[0m
 [32;40m█▌ [0;1;36;40m▐█████▄▄  [0;32m▀▀▀██▄  ▀[0;1;32;42m▀[0;1;32;40m██[0;1;32;42m▄ [0;32m█▄▄   ▄███████▀ [0;1;36m▀▀   [0;32m▄▄█▄   ▄████▄▄■   [0;1;36m▀  ▀▀▀▀▀ [0;30;46mAFFIL[0m
 [32;40m█  [0;1;36;40m███████▀    [0;32m▄   ▄█▄ ▀▀█[0;1;32;42m▀[0;32m█[0;1;32;42m▀[0;32m████████▀▀    ▄▄█████▀▀▀▀   [0;1;36m▄▄▄▄▄ [0;30;46mcontrast! wicked![0m
-[37;40m [0;1;36;40m▄█████▀▀  [0;32m▄▄██████████▄▄■    ▀▀▀  ■▄  ▄▄███▀▀▀   [0;1;36m▄▄▄█████████ [0;30;46mmortal! purg! fud[0m
-                                                               [30;46morgin! nausia!@# [0m
-                                                               [30;46mNETZ!@:Chaos net,[0m
-                                                               [30;46m       Orgin net![0m'
+[37;40m [0;1;36;40m▄█████▀▀  [0;32m▄▄██████████▄▄■    ▀▀▀  ■▄  ▄▄███▀▀▀   [0;1;36m▄▄▄█████████ [0;30;46mmortal! purg! fud[0m'

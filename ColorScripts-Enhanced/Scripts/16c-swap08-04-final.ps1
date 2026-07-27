@@ -5,7 +5,7 @@
 # Source SHA-256: 0be9b8433e9757d5cf4fe6f9697279c94cf4cd4d430f2641bdbccdd750dbf7d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 04-FINAL.ANS by Black Viper + Warpus + Sirdeath + Flame + Fluor + Widowmaker (swap08); released in swap08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19961020
 # SAUCE Dimensions: 80x26
 # Lines: 1-26
@@ -35,6 +35,4 @@ Write-Host '
 [36m  ░░░░░▀[0;1;36;46m■▄▄[0;36m▄ [0m                  [35m ░▀[0;1;35;45m░▓[0;35m▌[0;37m ▀[0;1;37m▀▀[0;1;37;47m▀▓▓[0;1;37;40m░▄▄▄▄[0m [35m▀▀▀▀▀▀▀▀████▓[0m
 [36m  ▓▓▓▓▓ ▐[0;1;36;46m██▓[0;36m▌  [0m                   [35m▀[0;1;35;45m░░[0;35m▄[0;37m [0;1;37m▀[0m▄[1m▄▄▄▄▄[0m ▀[1m▀▀▀▀[0;1;47m▀[0;1;40m█[0;1;47m▓▓[0;1;40m▀[0;35m▐███▌░[0m
        [36m▄[0;1;36;46m▄█▀[0;36m▀ [0m                       [35m▀▀[0;1;35;45m  [0;35m▄▄▄[0;37m ▀[0;1;37m▀▀▀[0;1;37;47m▀[0;1;37;40m█[0;1;37;47m▓▓[0;1;37;40m▄▄▄[0;35m ▄███▀[0m
-                                         [35m▀▀▀▀██▄▄▄▄▄▄▄[0;30;45m░[0;35;40m▓▀▀  [0m
-
-[1;33;40m   swap(tm) <10/20> - bviper, warpus, sirdeath, flame, fluor, widowmaker[0m'
+                                         [35m▀▀▀▀██▄▄▄▄▄▄▄[0;30;45m░[0;35;40m▓▀▀  [0m'

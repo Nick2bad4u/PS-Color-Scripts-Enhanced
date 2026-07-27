@@ -5,7 +5,7 @@
 # Source SHA-256: 9e1acbfbd649df2d06919dcdb9ab9f8b7abc59b948c45b8415d93ff4952c86ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-MH.ANS by TechnoPhreaK (Blade Productions); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mass Hysteria
 # SAUCE Author: TechnoPhreaK
 # SAUCE Group: Blade Productions
@@ -63,5 +63,4 @@ Write-Host '
 [36m-[0;1;34mS[0;1;33myso[0;33mps:[0;1;30m·[0;33mZeus[F/┤T][0;1;30m·[0;33m&[0;1;30m·[0;33mAmerica[JUSTiCE][0;1;30m··········································[0m
 [36m-[0;1;34mA[0;1;33mrt[0;1;30m·[0;33mOrientated,[0;1;30m·[0;33mwith[0;1;30m·[0;33ma[0;1;30m·[0;33mtouch[0;1;30m·[0;33mof[0;1;30m·[0;33mH/P[0;1;30m············································[0m
 [36m-[0;1;34mK[0;1;33mick[0;33ming[0;1;30m·[0;33mwith[0;1;30m·[0;33mObv/2[0;1;30m·····························································[0m
-▄  ▄▄ ▄▄▄▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄ ▄▄  ▄
-[1;30mgreets·mc·usul·mr.f·lord jazz·temp.h·dal·ss·semp·jenn·inf.·mk·k.lao·etc... ·tp[0m'
+▄  ▄▄ ▄▄▄▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄ ▄▄  ▄[0m'

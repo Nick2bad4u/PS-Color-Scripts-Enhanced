@@ -5,7 +5,7 @@
 # Source SHA-256: 2fc6738f23d057c4651be16548b6e86592ffeafb131e382c47f408c350adce19
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-DECAY.ANS by Deathstroke (Polyester); released in pst-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: decay bbs
 # SAUCE Author: Deathstroke
 # SAUCE Group: Polyester
@@ -33,6 +33,6 @@ Write-Host '
  [31m▐█[0;1;31;41m▄██[0;1;31;40m▌[0;31m ▐████▄[0;37m [0;31m  [0;1;31m▀[0;1;37m▀▀[0;1;31m [0;31m▄▄▀  [0m          [1;31m▀▀████[0;1;37m██[0;1;31m▌▀▀███▄▄▄██████[0;1;37m▌[0m     [31m [0;1;31m▄█[0;1;31;41m▓▓[0;1;37;40m█[0;1;31;40m██▀[0m
  [31m█[0;1;31;41m█[0;1;31;40m██[0;1;31;41m█[0;31m  █[0;30;41mdecay[0;31;40m▌[0m     [31;40m▐█[0;37;40m [0;31;40m op: [0;1;31;40mTrippah [0m [31m   [0;1;31m▀[0;1;37m▀▀[0;1;31m▀[0;31m [0m       [31m [0;1;31m▀▀███[0;1;37m▀[0;31m  ░░ [0;1;31m▀[0;1;37m▀[0;1;31m▀[0;1;37m▀[0;1;31m▀▀[0;1;37m▀▀[0;31m  ░░[0m
 [37m [0;31m▐[0;1;31;41m▐[0;1;31;40m█[0;1;37;40m██[0;1;31;40m▌[0;31m ▐███[0;30;41m░░[0;31;40m▀▀▀██▀▀█▌ ph: [0;1;31;40m98169771[0m  [31m▐▌[0m     [31m░░[0m    [31m [0m   [1;31m  [0m            [1;31m▄▄[0m
-  [31m▀[0;1;31;41m▀▀██[0;1;31;40m▄[0;31m ▀█[0;30;41m░░[0;31;40m▀[0m        [31;40m▀▄▄  [0m          [31;40m▄▀  art, music and other shit[0;1;31;40m ▌▐▓▓▓▌▐[0m
+  [31m▀[0;1;31;41m▀▀██[0;1;31;40m▄[0;31m ▀█[0;30;41m░░[0;31;40m▀[0m        [31;40m▀▄▄  [0m          [31;40m▄▀                           [0;1;31;40m ▌▐▓▓▓▌▐[0m
      [31m▀▀▀▀▀▀ [0m   [31m░░[0m       [31m ▀▀▀▀▀▀▀▀▀▀▀▀[0m                               [1;31m ▀▀[0m
 [31m░░[0m                                     [31m░░░[0m                 [31m  ░░[0m'

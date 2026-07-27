@@ -5,7 +5,7 @@
 # Source SHA-256: 83c1edbfe094b6f61799b54c399a95da7f34452bef065d08f201eaf0d45c0f8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-SFIEN.ANS by ize (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: superfiend
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -31,5 +31,5 @@ Write-Host '
 [31;40m▒[0;34;40m▐[0;34;47m░░░[0;34;40m▌[0;31;40m▐[0;1;37;41m▀[0;35m▄[0;34m▐[0;34;47m░░░[0;34;40m▌▐[0;34;47m░░░[0;34;40m▌[0;30;45m░[0;31;40m▀[0;35;40m▀[0;1;31;40m▀[0;31m▐[0;1;31;45m▐[0;1;37;45m▀[0;1;31;45m▀ [0;1;31;40m▄[0;35m░[0;34m▐[0;34;47m░░░[0;34;40m▌▐[0;34;47m░░░[0;34;40m▌[0;31;40m▐[0;30;45m▓[0;31;40m▌[0;34;40m▐[0;34;47m░░░[0;34;40m▌▐[0;34;47m░░░[0;34;40m▌[0;31;40m▀▐ ▌▐[0;35;40m▌[0;1;31;40m▄[0;34m▐[0;34;47m░░░[0;34;40m▌▐[0;34;47m░░░[0;34;40m▌▄[0;34;47m▀▀░░░[0;37;44m▀[0;34;40m▀ [0;31;40m▀[0m
 [30;41m░[0;34;40m▐[0;1;37;47m▐▄[0;1;33;47m▄[0;1;33;44m▄[0;1;33;40m▄[0;1;37;40m▄[0m▄▄[34;47m▀  [0;34;40m▌▐[0;1;37;47m▐▄[0;34;47m [0;1;31;40m [0;31m▀[0;1;31m▀[0;1;31;41m▀[0;1;31;45m▀[0;31m▐[0;1;31m▄[0;31m [0;1;31m▀[0;1;31;41m▀[0;35m▌[0;34m ▐[0;1;37;47m▐▄[0;34;47m [0;34;40m▌▐[0;1;37;47m▐▄[0;1;33;47m▄[0;1;33;44m▄[0;1;33;40m▄[0;1;37;40m▄[0m▄▄[34;47m▀  [0;34;40m▌▐[0;1;37;47m▐▄[0;34;47m [0;34;40m▌[0;31;40m█▐[0;1;31;40m▄[0;31m▐▄[0;1;31m▄[0;1;31;41m▄[0;34m▐[0;1;37;47m▐[0;1;33;47m▄[0;34;47m [0;34;40m▌▐[0;1;37;47m▐[0;1;33;47m▄▄[0;1;37;44m▄[0;1;37;47m▄[0;34;47m▄[0;37;40m▀▀[0;34;40m▀ [0;31;40m▄[0;30;45m░[0;1;31;40m▌[0;35;41m▐[0m
 [31;40m▀▌▄[0m           [34;40m         [0;31;40m▄▄[0;35;40m▄▄[0;1;31;41m▄[0;34m [0;35m░ [0m                     [34m  [0;31m▄▄[0;1;31m▄[0;1;31;41m▄[0;34m         [0m       [31m ▐[0;35m▀[0;30;45m▓[0;34;40m [0;35;40m░[0m
-            [1;37;40ms[0;36muper[0;1;37mfiend[0m  [30;45m▓░▓[0m   [36;40m@neophyte & pedantik[0;1;37;40m [0;34m [0;31m░[0;30;41m▓░[0;31;40m▒[0m                   [31;40m▀[0m   [35;40m░[0m
+            [1;37;40m [0;36m    [0;1;37m     [0m  [30;45m▓░▓[0m   [36;40m                    [0;1;37;40m [0;34m [0;31m░[0;30;41m▓░[0;31;40m▒[0m                   [31;40m▀[0m   [35;40m░[0m
                          [30;45m▓[0m                            [30;41m▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ebd1a4dff5f4cdfde384d84f299ab593af504cd4efc1ff2dd03c73fda8c25e3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-GSA1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 31-69
 # Columns: 1-80
 
@@ -37,15 +37,15 @@ Write-Host '
                               ▀[1;30m▀[0;1;30;47m▓▓▓▓▓▒░░░▒▓▓▓▓▓[0;1;30;40m▀[0m▀
                                  [1;30m▀▀▀[0;1;30;47m▓▓▓[0;1;30;40m▀[0;1;30;47m▓▓▓[0;1;30;40m▀▀▀[0m
                                      [1;30;40m▀   ▀[0m
-                       [1;37;40mT[0;1;33;40mh[0;33me [0;1;30mGrinning Skull Administrat[0;33mi[0;1;33mo[0;1;37mn[0m
+                       [1;37;40m [0;1;33;40m [0;33m  [0;1;30m                          [0;33m [0;1;33m [0;1;37m [0m
 
                                  [1;37m[[0;1;33m9[0;33m0[0;1;30m5] 889-4[0;33m3[0;1;33m9[0;1;37m0[0m
-                              [1;37mD[0;1;33mu[0;33ma[0;1;30ml Standard No[0;33md[0;1;33me[0;1;37ms[0m
-                              [1;37m1[0;1;33m.[0;33m6 [0;1;30mGigabytes Onl[0;33mi[0;1;33mn[0;1;37me[0m
-                            [1;37mD[0;1;33mo[0;33mz[0;1;30mens of Messages Ba[0;33ms[0;1;33me[0;1;37ms[0m
-                            [1;37mM[0;1;33ma[0;33mn[0;1;30my Essays & Discour[0;33ms[0;1;33me[0;1;37ms[0m
-                            [1;37mG[0;1;33ma[0;33mm[0;1;30mes/Utilities/Wind[0;33mo[0;1;33mw[0;1;37ms[0m
-                                 [1;37mR[0;1;33mP[0;33mG [0;1;30mCampai[0;33mg[0;1;33mn[0;1;37ms[0m
-                                     [1;37mD[0;1;33mo[0;33mo[0;1;33mr[0;1;37ms[0m
+                              [1;37m [0;1;33m [0;33m [0;1;30m             [0;33m [0;1;33m [0;1;37m [0m
+                              [1;37m [0;1;33m [0;33m  [0;1;30m             [0;33m [0;1;33m [0;1;37m [0m
+                            [1;37m [0;1;33m [0;33m [0;1;30m                  [0;33m [0;1;33m [0;1;37m [0m
+                            [1;37m [0;1;33m [0;33m [0;1;30m                  [0;33m [0;1;33m [0;1;37m [0m
+                            [1;37m [0;1;33m [0;33m [0;1;30m                 [0;33m [0;1;33m [0;1;37m [0m
+                                 [1;37m [0;1;33m [0;33m  [0;1;30m      [0;33m [0;1;33m [0;1;37m [0m
+                                     [1;37m [0;1;33m [0;33m [0;1;33m [0;1;37m [0m
 
-[1;34mF[0;1;36mr[0;1;37mo[0;1;36ms[0;1;34mt [0;1;36mB[0;1;37my[0;1;36mt[0;1;34me[0m                                                          [1;37m/[0;1;33m┤[0;1;31mT[0;31mOMi[0;1;30mC [0;1;37m''[0m9[1;30m4[0m'
+[1;34m [0;1;36m [0;1;37m [0;1;36m [0;1;34m  [0;1;36m [0;1;37m [0;1;36m [0;1;34m [0m                                                          [1;37m [0;1;33m┤[0;1;31m [0;31m   [0;1;30m  [0;1;37m [0m [1;30m [0m'

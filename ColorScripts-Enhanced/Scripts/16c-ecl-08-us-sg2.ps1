@@ -5,7 +5,7 @@
 # Source SHA-256: 10533e1db9f6f29640a43153c807541f8af2710b97b158cfe0f71e87e6770450
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SG2.ANS by Cheeze + Defiant (eclipse/? ;)); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spinal gamma joint #02
 # SAUCE Author: cheeze/defiant
 # SAUCE Group: eclipse/? ;)
@@ -33,6 +33,4 @@ Write-Host '
      [35m▐█[0;30;45m░░░[0;35;40m█▄▄▄▄▄   ▐[0;1;35;45m░░[0;35m█▀▀ [0;1;30m░  [0;30;43m▓[0;37;40m  [0;35;40m▐[0;35;45m [0;1;35;45m▄▀▌[0;35m█▌[0;31m░[0;30;41m▓[0m      [33;40m░ ▒ ▒ [0;35;40m█[0;36;45m░[0;37;40m [0;30;43m▒[0;37;40m [0;33;40m░  ▒   [0;35;40m█[0;1;33;45m░[0m         [34m▄ [0;1;34;44m░[0m
 [1;30m░░ ░[0m      [35m▀▀▀▀▀████▀▀[0m        [30;43m▒[0m   [35;40m▀█[0;1;35;45m▄[0;35m█▄[0;1;35;45m░[0;30;41m▓[0m   [33;40m░[0;30;43m▓[0;37;40m  [0;33;40m▓ ▓▀▓    [0;30;43m░[0;37;40m [0;1;33;40m░[0;1;30;40m░░[0;1;33;40m▒[0;1;30;40m░  [0;35m▀▀  [0;33m░ [0;30;41m▓▓[0;37;40m [0;30;41m▓[0m   [34;40m█[0m
 [34;40m [0;1;33;40mcheeze[0;33m/[0;1;33mdefiant  [0;31m░[0;30;41m▓[0;37;40m  [0;33;40m│  ▌▐█▐█[0;30;43m░[0;33;40m█[0;30;43m░[0;33;40m█ [0;35;40m▄█[0;1;35;45m▀▓░[0m [33m▐██[0;30;43m░[0;1;33;43m░[0;33m██▓█[0;1;33;43m░░[0;33m▓[0;1;33;43m░░▒▒▓[0;1;33;40m▄[0;1;33;43m▓▓▓▓█████████▓░[0;33m█[0;1;33;43m░[0;33m██ [0;34m▄[0m
-                                               [33m░[0m           [30;43m▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m [0;30;43m▓[0m
-
-[1;30;40moriginal font outline: cheeze / the rest: defiant[0m'
+                                               [33m░[0m           [30;43m▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m [0;30;43m▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0041c2d42cbedeba0fddaafbdd501956a8c972cb1505faca528241f48c5b1b59
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-OP#2.ANS by Rimgale (Union); released in uni-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Obscene Phobia #2
 # SAUCE Author: Rimgale
 # SAUCE Group: Union
@@ -36,7 +36,7 @@ Write-Host '
                              [33m▀▀   [0;1;30m▄▄▄■   ▀[0;33m▄[0;1;31;43m░▓[0;1;31;40m███[0;1;31;43m▓[0;1;31;40m██[0;1;31;43m▓[0;1;31;40m█[0;33m▄[0;1;31;43m░[0;1;31;40m██[0;1;31;43m▓▀▄[0;33m▄[0;1;31;43m░▄▓[0;33m▀[0;1;31m█[0;1;31;43m▓[0m [1;30;40m▓[0m
                                     [1;31;40m▄[0;33m▄ ▄▄[0;1;31;43m▄▓▓[0;1;31;40m███[0;1;31;43m▓▓[0;1;31;40m███[0;1;31;43m▓░▒▓[0;1;31;40m███[0;1;31;43m▓▓[0;1;31;40m█[0;33m▄▀[0;1;31m▀█[0;33m▌ [0;1;30m█[0m
                                   [33m▄[0;1;31;43m▄▒▓[0;1;31;40m█[0;1;31;43m▓▓[0;1;31;40m███[0;33m▀▄[0;1;31m█[0;1;31;43m▓█[0;33m▀[0;1;31;43m██[0;1;31;40m██[0;1;31;43m▓▓[0;1;31;40m█████▄▄█[0;33m▀▄[0;1;31m█ [0;1;30m█[0m
-                                            [1;30mfrom mega-marvel #2 ▄▄▄▓▀[0m
+                                            [1;30m                    ▄▄▄▓▀[0m
 
 
 
@@ -53,8 +53,6 @@ Write-Host '
 [1;40m [0;1;30;40m▀▄ [0m▀▓▀▀    ▀▀  ▀▀▀▀        ▀▀▀▀        ▀▀▀▀        ▀▀▀▀      ▀      ▒▀    ▀▀
                              p   h   o   b   i   a
 
-          the staff[1;30m: [0mthe judge [1;30m-■- [0momnibuz [1;30m-■- [0mthe godfather [1;30m-■- [0mnixon
+                   [1;30m  [0m          [1;30m ■  [0m        [1;30m ■  [0m              [1;30m ■  [0m     
 
-       [1;30mp [0mi r a t e [1;30ms   w [0mi t [1;30mh  a [0mt t i t u d e [1;30ms   e [0mu r o p e a [1;30mn   h q[0m
-
-                            ansi by rimgale [[1munion[0m][0m'
+       [1;30mp [0mi r a t e [1;30ms   w [0mi t [1;30mh  a [0mt t i t u d e [1;30ms   e [0mu r o p e a [1;30mn   h q[0m'

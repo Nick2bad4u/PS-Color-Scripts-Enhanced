@@ -5,13 +5,13 @@
 # Source SHA-256: fdd29856fae239c8a7e73e365f63c0655286caf904c5e047dc4033658b855413
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-AD.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
 
-   [1mYou have reached[0;1;30m...[0;31m░[0;30;41m▓[0m
+   [1m                [0;1;30m   [0;31m░[0;30;41m▓[0m
                                      [1;30;40m   [0m
                     [1;30m  [0m        [31m▄▄▄▄▄▄█[0;1;31;41m░▄▄[0;1;31;40m▄▄▄▄▄▄[0;1;31;41m▒[0;31m▄[0;37m [0;31m░[0;30;41m▓[0m           [31;40m▄▄▄▄▄[0;37;40m [0;1;37;40m¡pm![0m
  [1;31m▄▄▄▌▐▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31;41m▄[0;1;31;40m██[0;1;31;41m▀[0;1;31;40m▀▀▀▀▀▀[0;1;31;41m▀[0;1;31;40m██[0;1;31;41m▓▄░[0;31m▌▀[0;1;31m▀▀▀[0;31m▀[0;37m  [0;31m▐[0;1;31;41m▒▓[0;1;31;40m███████[0;1;31;41m▀[0;1;31;40m▀▀▀▀[0;1;31;41m▓[0;1;31;40m██[0;1;31;41m▀[0;1;31;40m▀[0;1;31;41m▀▀ [0;1;31;40m█████[0;1;31;41m▀[0;1;31;40m██[0;1;37;41m░[0;1;31;40m█[0m
@@ -21,11 +21,4 @@ Write-Host '
 [1;32m [0;1;31m█[0;1;32m █[0;1;32;42m█[0;1;32;40m▌▐▄[0;32m▄▐██[0;1;32m [0;1;32;42m█▄[0;1;32;40m█▄[0;32m██[0;1;31m▐▄[0;1;32m ██▄▄[0;32m▄██[0;1;32m ███[0;32m▄▄▌█[0;1;32;42m▄[0;1;32;40m █▌[0;32m█[0;1;32m █▌▄[0;32m▄██[0;1;32m █▌▄█[0;32m██[0;1;32m [0;1;32;42m▀[0;1;32;40m█▄[0;32m███[0;1;32m [0;1;32;42m▌[0;1;32;40m█▄[0;32m▄██[0;1;32m [0;1;31m▀█[0;31m▌[0m
 [1;32m [0;1;31m▐[0;1;32m [0;31m▄[0;1;31m▄▄[0;31m▄[0;1;32m [0;32m▀███[0;1;32m  ▀▌[0;32m▀▀ [0;1;32m [0;1;31m▀▌[0;1;32m ▀[0;32m▐▀▀▀▌[0;1;31m▄[0;1;32m  ▀▀[0;32m▌▐▀[0m    [32m▌[0;1;32m  ▌[0;32m▀▀▀ [0;1;32m ▀ [0;1;32;42m▀[0;32m█▀ [0;1;32m    [0;32m▄██[0;1;32m  ▀[0;32m▀▀▀▌[0;1;32m [0;31m▄[0;1;31;41m▓[0;31m▌[0m
 [1;32m [0;31m▀[0m   [1;31m▀▀▌[0;1;32m [0;32m ▀▌[0m     [31m▀[0;1;31m▀▀[0m     [31m▀[0;1;31m▀[0;32m  [0;1;31;41m▓[0;1;31;40m▀▀[0;31m▀[0m    [31m▀[0;1;31m▀▀[0;1;32m  [0;1;31m■[0;1;32m  [0;1;31m▀█[0;1;37;41m░[0;1;31;40m█▄ [0;1;32;40m ▌▄▄▄▄██▀[0;32m▀▀ [0;31m▄[0;1;31;41m▓▓[0;1;31;40m█▄▄[0;31m▄[0;1;31m▄▀[0;31m [0m
-                                        [31m░[0;30;41m▓[0;31;40m▀[0m   [1;31;41m░[0;1;31;40m▀▀[0m   [1;32m [0m        [31m▀[0;1;31m▀▀▀▀▀[0m    [31m▀[0m
-
-
-     [1;37mOne o[0mf only two boa[1;30mrds that are worth ca[0mlling in the sou[1mth bay[0m
-
-
-        [1mCheck ou[0mt Wild Worl[1;30md (619)660-9014 when [0mya get do[1mne here.[0m
-                 [1mIt''[0ms the only ot[1;30mher good[0m board in [1mSD[0m'
+                                        [31m░[0;30;41m▓[0;31;40m▀[0m   [1;31;41m░[0;1;31;40m▀▀[0m   [1;32m [0m        [31m▀[0;1;31m▀▀▀▀▀[0m    [31m▀[0m'

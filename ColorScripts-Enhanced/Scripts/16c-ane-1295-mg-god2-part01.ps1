@@ -5,7 +5,7 @@
 # Source SHA-256: f47cabacffefb56a0df2ffb0859d5f020a0425709933da79d4758785d198cebe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MG-GOD2.ANS by Mung (.;:Anemia:;.); released in ane-1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Grounds of Despair
 # SAUCE Author: Mung
 # SAUCE Group: .;:Anemia:;.
@@ -24,7 +24,7 @@ Write-Host '
 [1;30;40m [0;1;36;46m▒░[0;36m█[0;1;36;46m░[0;36m██ [0;1;37m▀[0;1;37;47m▓[0m     ▀▄      ▄[1;30;47m░[0m [36m░ [0;1;30mFor Crypter. Glad I  [0;1;30;45m▓[0m [1;30;46m▓[0;1;30;40m▄▄▄█ ▀[0;1;30;45m▓[0;1;30;40m▄▄▄▄█▄▄▄  [0;1;30;45m▓[0m [1;30;46m▓[0;1;30;40m▄▄▄[0;1;30;45m▒[0m [1;30;45m▓[0m
  [1;36;46m▒▒[0;36m█████▌[0;1;37m▐[0;1;37;47m▓[0;1;37;40m▄ [0;36m▀  [0;37m▐[0;1;37;47m▒[0m [1;30;40m▓[0m▄▀▀     [1;30mcould finally get u  [0;1;30;45m▓[0;35m▄▄ [0;1;30m▄▄[0;1;30;45m▓[0;1;30;40m:mg:[0;1;30;46m▓[0;1;30;40m▄▄▄▄[0;1;30;45m▓[0;35m▒ ▀▀[0;1;30mane[0;1;30;45m▒[0m [35m▀▀[0;1;30m▀[0m
 [1;30m [0;1;36;46m▓[0;36m█[0;1;36;46m▒▒░░[0;36m█▄ [0;1;37;47m▓[0;1;37;40m▄▌  [0m■▀ ▀     [36m░ [0;1;30ma pic. mail me at:[0m           [1;30m▀▀  ▀▀[0m          [35m▀▀▀[0m
-[35m [0;1;36m▓[0;1;36;46m▒▓▒[0;36m█▀▀  [0;1;37m▄[0;1;37;47m▓[0;1;37;40m▀▀  [0;36m▄[0m         [1;30mmung@u.washington.edu or find me in #anemia.[0m
+[35m [0;1;36m▓[0;1;36;46m▒▓▒[0;36m█▀▀  [0;1;37m▄[0;1;37;47m▓[0;1;37;40m▀▀  [0;36m▄[0m         [1;30m                                            [0m
 [1;30m [0;1;36m▒▀[0;1;36;46m▓▓▒▒░[0;36m█▄▄▄▄▄▄▄▄▄  ▀▓▒   [0;1;30mLater.[0m                   [1;30m.. mung of the group anemia[0m
 [1;30m  ▄▄▄▄▄▒▄▓▓▓▒░__▄__▓__________________________________________________________[0m
 [1;30m   ▄▄ Jimi Hendrix[0m                                                         [1;30m▄▄[0m

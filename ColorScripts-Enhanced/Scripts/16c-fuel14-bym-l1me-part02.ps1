@@ -5,7 +5,7 @@
 # Source SHA-256: 31639d97e9b8c09706963497de59745767d18b411b7e4654a37beae7c364f857
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-L1ME.ANS by big yellow man (fuel); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lime
 # SAUCE Author: big yellow man
 # SAUCE Group: fuel
@@ -46,9 +46,5 @@ Write-Host '
 [1;30;47m██[0;1;30;40m█▄[0m  [34m▀▀▀▀▓▓  ▐▀▀▀▀▀▀▀ [0;37m [0;34m▀▓▓▓▓▓▓▓▀ ▀▀▀▀ ▀ [0;37m  [0;34m  ░░▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;30m    [0m
 [1;30m ▀[0;1;30;47m█[0;1;30;40m█▓▓█▄▄[0m                              [34m  [0m   [1;30m [0m
 [1;30m▄[0;1;30;47m█[0;1;30;40m█▀[0m  [1;30m [0m [1;30m▀[0;1;30;47m▓▓████▓[0;1;30;40m▀▀▀▀[0m [1;30m▀ ▀[0m [1;30m [0m         [1;30m▀[0m       [1;30m   [0m  [1;30m░░[0m
-[1;30m██▌[0m  [1;30m▀▓░[0m [1;30m▐█▀▀▀[0m  [1m [0m    ansi by [1mBIG YELLOW MAN[0m of[1;34m FUEL PRODUCTIONS[0m
-[1;30m ▀█▄[0m   [1;30m ▄▀[0m
-                        [35mfor compo held on #kewmpo. redid the [0m
-                        [35mfont  though  the  old one was  made[0m
-                        [35min quite a  hurry..[0;37m [0;35msoo  here you go[0;37m  [0;35m    [0m            [35m [0m
-                        [35moddball..[0m'
+[1;30m██▌[0m  [1;30m▀▓░[0m [1;30m▐█▀▀▀[0m  [1m [0m            [1m              [0m   [1;34m                 [0m
+[1;30m ▀█▄[0m   [1;30m ▄▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 86d0a5d77172d14f1dc983f28d2a675a4c913be2a52d8fce69337b2d59f5de85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc52.ans by Black Jack (Echo [01/04/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Welcome Screen (Weirds bar & grill)
 # SAUCE Author: Black Jack
 # SAUCE Group: Echo [01/04/96]
@@ -49,9 +49,4 @@ Write-Host '
    [34ml[0;1;34m$b,[0;34m_[0m         [34m [0m        [34m,[0;1;34md$[0;1;37m$[0;1;34m$Pⁿ°"~[0m           [1;33m,m@S$[0m$P'' [1;33m,:il$b, _  _,[0;1;37mmb,[0;1;33mmS$$$$$[0;1;37m$[0m
    [34miⁿ°"~~ ~[0;1;37m  [0;34m.,_ _,mm[0;1;34mmd$[0;1;37m$[0;1;34m$$$P''[0m             [1;33m,[0mm[1;33m@S$$$$[0m$$, [1;33m;il&$$$$$$$$$$$[0;1;37m$P[0;1;33m`Y$$$$[0;1;37m$$[0m
                [34m`"ⁿY$[0;1;34m$$[0;1;37m$[0;1;34mPⁿ°[0;34m"`[0m             [37m,d[0;1;33m$$$[0m$[1;33m$$$$$[0m$$b,[1;33m`ⁿY$$$$$$$[0;1;37m$Pⁿ°"[0;1;33m,d$$$[0;1;37m$$$$[0m
-[1;37m--------------------------------------------------------------------------------[0m
-
-        This one''s for 4thy.. I hadn''t gotten around to doing a background in
-   awhile, so he probally doesn''t remember.. :) .. ahwell, here it is.
-
-                                            [1mblack jack -[0m echo/odelay/cia[0m'
+[1;37m--------------------------------------------------------------------------------[0m'

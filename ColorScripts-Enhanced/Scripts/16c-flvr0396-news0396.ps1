@@ -5,7 +5,7 @@
 # Source SHA-256: db7a6484d86f2ba7a743202f53d707eb553c68f9e7fa6ad28ed9b4f8c115e419
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NEWS0396.ANS by Tarot (flavor); released in flvr0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the march newsfile
 # SAUCE Group: flavor
 # SAUCE Date: 19960314
@@ -26,33 +26,26 @@ Write-Host '
       [36m [0;1;32;46m░[0;36m▀  ▀ [0m                              [1;37m▀▀▀▀▀▀▀  [0m              [36m▐▌[0m     [36m▐▌[0m
       [36m▐▌    [0;1;32;46m░[0;36m▄▄░ ▄[0m                                      [36m░ ▄░▄▄▄▄ ▄[0;1;32;46m░[0;36m▌[0m      [1;32;46m░[0m
        [36m░▄ ▄▀[0m                                                      [36m▀[0;1;32;46m░[0;36m [0m     [36m▌[0m
-        [36m▐[0;1;32;46m░[0;36m▌[0;37mso, it''s already time for the [0;1;33msecond flavor  experience[0m.[36m▐▌[0m    [36m▐▌[0m
-         [1;32;46m░[0;36m [0;37mactually the time was  already over a month ago, but due[0;36m █▄  ▄[0;1;32;46m░[0;36m [0m
-         [36m▌ [0;37mto some  unfortunated happenings, we decided  to release[0;36m ▐[0;1;32;46m░[0;36m▀[0;1;32;46m░[0;36m▀[0m
-       [36m  ░ [0;37mnot in february,  but [0;1;33min march[0m.  still, we will not apo-[36m ▐▌ ▐▌[0m
+        [36m▐[0;1;32;46m░[0;36m▌[0;37m                              [0;1;33m                         [0m [36m▐▌[0m    [36m▐▌[0m
+         [1;32;46m░[0;36m [0;37m                                                        [0;36m █▄  ▄[0;1;32;46m░[0;36m [0m
+         [36m▌ [0;37m                                                        [0;36m ▐[0;1;32;46m░[0;36m▀[0;1;32;46m░[0;36m▀[0m
+       [36m  ░ [0;37m                      [0;1;33m        [0m                          [36m ▐▌ ▐▌[0m
            [37mlogize you.[0m                                              [36m▐[0;1;32;46m░[0;36m▄[0;1;32;46m░[0m
                                                                    [36m ▐█[0;1;32;46m░[0;36m■[0m
-        [36m   [0;37mwe will continue to release [0;1;33mone  pack per two months[0m, so[36m ▐[0;1;32;46m░[0m
-        [36m ░ [0;37mget used to it.  that is, until we  get more active mem-[0;36m ▐▌[0m
+        [36m   [0;37m                            [0;1;33m                        [0m    [36m ▐[0;1;32;46m░[0m
+        [36m ░ [0;37m                                                        [0;36m ▐▌[0m
         [36m ▌ [0;37mbers.[0m                                                    [1;32;46m░[0;36m [0m
         [36m [0;1;32;46m░[0m                                                         [36m ▐ [0m
-        [36m▐▌ [0;37mwe got only one new member, [0;1;33mdistance[0m, as an internet co-[36m ░ [0m
-        [1;32;46m░[0;36m▌ [0;37mordinator.  he''s also  cloudcity sysop.  the new swedish[0m
-      [36m■[0;1;32;46m░▒[0;36m▌ [0;37mhq is [0;1;33mthe grind[0m,  so go and check it out. we also have a
-      [1;32;46m░[0;36m▀[0;1;32;46m░[0;36m▌ [0;37mswiss hq nowadays. it''s called [0;1;33mthe neutral zone[0m.
+        [36m▐▌ [0;37m                            [0;1;33m        [0m                    [36m ░ [0m
+        [1;32;46m░[0;36m▌ [0;37m                                                        [0m
+      [36m■[0;1;32;46m░▒[0;36m▌ [0;37m      [0;1;33m         [0m                                         
+      [1;32;46m░[0;36m▀[0;1;32;46m░[0;36m▌ [0;37m                               [0;1;33m                [0m 
      [36m▐▌ ▐▌[0m
-     [36m▄[0;1;32;46m░[0;36m▄[0;1;32;46m░[0;36m▌ [0;37mtaste, the official [0;1;33mflavorview[0m, was on the way until the
-[36m    [0;1;32;46m░[0;36m▀  ▀█ [0;37mcoder  stopped programming  it,  so it''s on  hold for  a[0m
-   [36m▐▌[0m    [36m▐▌[0;37mwhile. coder is [0;1;33mmojo[0m, not a flavor member.
+     [36m▄[0;1;32;46m░[0;36m▄[0;1;32;46m░[0;36m▌ [0;37m                    [0;1;33m          [0m                          
+[36m    [0;1;32;46m░[0;36m▀  ▀█ [0;37m                                                        [0m
+   [36m▐▌[0m    [36m▐▌[0;37m                [0;1;33m    [0m                      
    [36m▐[0m     [36m [0;1;32;46m░[0;36m▄[0m
    [1;32;46m░[0m      [36m▐[0;1;32;46m░[0;36m▀ ▀▀[0;1;32;46m░[0;36m▀░▀ ░[0m               [37m    - tarot, the 14th of march[0m
    [36m▐▌[0m     [36m▐▌[0m    [36m          [0m
     [1;32;46m░[0;36m▄[0m    [1;32;46m░[0m      [36m     [0m
-     [36m▀[0;1;32;46m░[0;36m▄ ▀[0m         [36m [0m   [36m              [0m
-
-
-
-
-         [31m     [0m
-
-         [31m     [0m'
+     [36m▀[0;1;32;46m░[0;36m▄ ▀[0m         [36m [0m   [36m              [0m'

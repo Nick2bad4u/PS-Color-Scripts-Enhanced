@@ -5,7 +5,7 @@
 # Source SHA-256: 9097f744cb1330c02b0373871a7da207634e51dc5ecc4e7814ce20cea551a691
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GJ-ACID.ANS by Grimjack (cia); released in mga-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: acidopium
 # SAUCE Author: Grimjack
 # SAUCE Group: cia
@@ -16,7 +16,7 @@
 
 Write-Host '
 ───────────────────────────────────────────────────────────────────────────────
-          [1;30m  [0m  grimjack of [35mcia[0;37m presents an ansi for cytral skunk[0m
+          [1;30m  [0m              [35m   [0;37m                                  [0m
 [37m───────────────────────────────────────────────────────────────────────────────[0m
 [1;37;47m▓███▓███▓█▓████[0;1;37;40m▀[0m     [1;30m [0;1;31m▄█████████████[0;1;30m░[0;1;31m     [0m   [1;47m█████▓████████▓███▓███▓███▓████▓██[0m
 [1;47m█████▓▀▀█▀▀▀▓█[0;1;40m▌[0m    [1;30m░[0;1;31m▄███████████████▌[0;1;30m░[0;1;31m    [0;1;33m [0m  ▐[1;47m■▄▄▓▄■▀▓▀▀▀█████████████████▓████[0m
@@ -42,7 +42,7 @@ Write-Host '
 [1;30;47m█[0;1;30;40m▓[0;1;30;47m██[0;1;30;40m▓[0;1;30;47m█████[0;1;30;40m▌[0;34m████████ █████▌[0;1;31m██[0;1;31;43m█[0;1;31;40m▌▐[0;1;31;43m▓[0;1;31;40m██▌[0;34m█████████████████[0;1;30m▐███▓██████████████▓███▓███[0m
 [1;30m▓[0;1;30;47m█████[0;1;30;40m▓[0;1;30;47m██[0;1;30;40m▓▌[0;34m██[0;1;30;44mgj[0;34m███▌▐█████▌[0;1;31m████▄███▌[0;34m█████████████▓███[0;1;30m▐█▓█████▓█████▓████████████[0m
 ───────────────────────────────────────────────────────────────────────────────
- i''d let it go further, but i don''t want you frigs whackin'' it to my pics.. ;)
+                                                                              
 ───────────────────────────────────────────────────────────────────────────────
 
 
@@ -56,12 +56,12 @@ Write-Host '
      [35;40m▀█[0m   [1;34;40m▐[0;1;34;44m▓[0;1;34;40m▌[0;34m [0;31m [0;35;44m░[0;34;40m▌[0;1;34;44m░[0;35;44m░[0;34;40m▌ [0;31;40m [0;1;34;44m▓[0;1;34;40m▌[0;34m▐[0;1;34;44m▒[0;34m▌[0;1;34;44m▓▒[0;34m [0;1;34m▐[0;1;34;44m▓[0;1;34;40m▀▐[0;1;34;44m▓[0;1;34;40m▌[0;31m [0;1;34;44m▓[0;1;34;40m▌▐[0;1;34;44m▓[0;1;34;40m▌[0;34m [0;31m  [0;1;34m▐[0;1;34;44m▓[0;1;34;40m▌[0;34m▐[0;1;34;44m░[0;34m▌[0;31m [0;36;44m░[0;1;34;40m▌[0;1;34;44m▓[0;1;34;40m▌[0;31m [0;34m [0;1;34;44m▒▓[0m [1;34;44m▒[0;34m▌[0m   [35m█▀[0m
       [35m▐▌[0m   [35m [0;1;34m▀[0;31m [0;34m■▀[0;37m  [0;1;34m▀[0;1;34;44m▓[0;1;34;40m▀■▀[0m  [31m [0;1;34m▀[0m [1;34;44m▓[0;1;34;40m■▀[0m   [31m [0;1;34m▀■▀[0m  [31m [0;1;34m▀[0;31m   [0;37m [0;31m [0;1;34m▀■[0;31m [0;34m▀[0;1;34m■▀[0m  [1;34m▀■[0;31m [0;1;34m▀[0m  [1;34m▀[0m   [35m▐▌[0m
        [35m▀■▄▄■▀[0;37m [0;35m   [0;37m [0;34m''so merrily trip and all might slide''[0m     [35m▀■▄▄■▀[0m
-                         [34m     [0;37m  [0;34macidopium[0m
-                             [34ms: cytral skunk[0m
+                         [34m     [0;37m  [0;34m         [0m
+                             [34m               [0m
 
-[35m      [0m   [34mgirl wearing cape and font both 1oo% original by grimjack/[0;35mcia[0m
-[35m   [0m        [34mrandom pointless song quote from ''octopus'' by syd barrett[0m
+[35m      [0m   [34m                                                          [0;35m   [0m
+[35m   [0m        [34m                                                         [0m
 
 [37m───────────────────────────────────────────────────────────────────────────────[0m
-[37m  notice it says ''cytral skunk'' up top.  if you''re not him, this ain''t yours.[0m
+[37m                                                                             [0m
 [37m───────────────────────────────────────────────────────────────────────────────[0m'

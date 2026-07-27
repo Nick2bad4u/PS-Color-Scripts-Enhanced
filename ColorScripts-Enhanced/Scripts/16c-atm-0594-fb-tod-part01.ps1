@@ -5,7 +5,7 @@
 # Source SHA-256: 2ca7a08019946d0a143f91508654038f7dab56992fbbf69f68a6bbe88563da2c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-TOD.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -25,12 +25,8 @@ Write-Host '
        [1;34m▐[0;1;34;44m▒▓ [0;34m▌[0m        [1;34m▐[0;1;34;44m▒▓ [0;34m▌ ▐[0;34;44m [0;1;34;44m▓▒[0;1;34;40m▌[0m         [1;37;40m:[0;1;34;40mL[0;34miGHT [0;1;30m- Brilliant.. :)[0m
        [1;34m▐[0;1;34;44m▓  [0;34m█ ▄[0;1;34;44m▓[0;1;34;40m▄    ▐[0;1;34;44m▓  [0;34m▌  [0;34;44m  [0;1;34;44m▓[0m          [1;37;40m:[0;1;34;40mS[0;34mLiVER [0;1;30m- You should join up...[0m
        [1;34m▐[0;1;34;44m       ▓▒[0m   [1;34;40m▐[0;1;34;44m   [0;34m█████▀[0m          [1;37m:[0;1;34mC[0;34mhaos [0;1;34mB[0;34mreed [0;1;30m- Good luck...[0m
-       [34m▐[0;1;30;44m░  [0;34m█ ▀[0;1;30;44m░[0;34m▀    ▐[0;1;30;44m░  [0;34m▌  [0;34;44m  [0;1;30;44m░[0m          [1;37;40m:[0;1;34;40mW[0;34millard [0;1;30m- Can you reach doorknobs yet[0m
+       [34m▐[0;1;30;44m░  [0;34m█ ▀[0;1;30;44m░[0;34m▀    ▐[0;1;30;44m░  [0;34m▌  [0;34;44m  [0;1;30;44m░[0m          [1;37;40m [0;1;34;40m [0;34m       [0;1;30m                             [0m
        [34m▐[0;1;30;44m▒░ [0;34m▌ROST    ▐[0;1;30;44m▒░ [0;34m▌ ▐[0;34;44m [0;1;30;44m░▒[0;34m▌YTE[0m      [1;37m:[0;1;34mD[0;34mark [0;1;34mS[0;34mhadow [0;1;30m- Whatta think?[0m
        [34m▐[0;1;30;44m▒▒░[0;34m▌[0m        [34m▐[0;1;30;44m▒▒░[0;34m▌ ▐[0;1;30;44m░▒▒[0;34m▌[0m         [1;37m:[0;1;34mC[0;34metis [0;1;30m- I need to get in touch[0m
        [34m▀[0;1;30;44m░▒▓▄[0m        [34m▀[0;1;30;44m░▒▓▄[0;34m▄[0;1;30;44m▄[0;1;30;40m█[0;1;30;44m▓[0;1;30;40m█▀[0m
-         [1;30;40m▀██[0m          [1;30;40m▀█████▀[0m
-
-               [34mGraphical[0m
-               [34mExpression[0m
-'
+         [1;30;40m▀██[0m          [1;30;40m▀█████▀[0m'

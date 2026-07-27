@@ -5,7 +5,7 @@
 # Source SHA-256: 07885fe19b646bf4a4cc95113d5e0df118702e5bda14201241af1f3766ed05b3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MUSCLE.ANS by Marly Man (fawk1193); released in fawk1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 34-65
 # Columns: 1-80
 
@@ -18,7 +18,7 @@ Write-Host '
           [1;30;40m▐▌[0;1;33;40m▐███▌[0;1;30;40m▐▌▐▌[0;1;33;40m▐███▌▐█▄[0;1;30;40m▀▄▄▀[0;1;33;40m▄██[0;1;30;40m▐ ▀ [0;1;33;40m▀██▄▀██▄[0;1;30;40m▀▀ [0;1;33;40m███▄██▄▀█▀ [0;1;30;40m▀▄[0m
            [1;30;40m▀▄[0;1;33;40m▀██ [0;1;30;40m█  █ [0;1;33;40m██▀[0;1;30;40m▄▄[0;1;33;40m▀██▄▄██▀ ▄██████▀[0;1;30;40m▄[0;1;33;40m▀████▀[0;1;30;40m▄[0;1;33;40m▀██▀▀[0;1;30;40m▄[0;1;33;40m▀████▄[0;1;30;40m▀▄[0m
              [1;30;40m▀▄▄▀    ▀▄▄▀  ▀▄▄▄▄▄▄▀▀▄▄▄▄▄▄▄▀ ▀▄▄▄▄▀ ▀▄▄▀▀ ▀▄▄▄▄▄▀[0m
-                             [1;30;40mMarly Man `93'' F.A.W.K[0m
+                             [1;30;40m                      [0m
               [1;32;40m█▀▀▀▀▀▄   █▀▀▀▀▀▄    ▄▀▀▀▀▄    ▄▀▀▀▀▀▄   ▄▀▄ ▄▀▄[0m
               [1;32;40m█[0;1;30;40m▐▀▀▀▄ [0;1;32;40m█  █[0;1;30;40m▐▀▀▀  [0;1;32;40m█  █ [0;1;30;40m▄▀▀▄ [0;1;32;40m█  █ [0;1;30;40m▄▀▀▀[0;1;32;40m▄▀  █  █ █  █[0m
               [1;32;40m█[0;1;30;40m▐ ▄▀ [0;1;32;40m▄▀  █[0;1;30;40m▐ [0;1;32;40m▄▀▀▀   █[0;1;30;40m▐ [0;1;32;40m▄▄ [0;1;30;40m▌[0;1;32;40m█  █[0;1;30;40m▐ [0;1;32;40m█▀▀    █[0;1;30;40m▐ [0;1;32;40m█▄█ [0;1;30;40m▌[0;1;32;40m█[0m

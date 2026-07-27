@@ -5,7 +5,7 @@
 # Source SHA-256: 903a2db56a5d28d5e65f7a38906356bb5802e65717c62bb33aadb0b9566aab70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K-GRAPE2.ANS by Kl7 (blndr004); released in blndr004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-14
 # Columns: 1-80
 
@@ -20,7 +20,4 @@ Write-Host '
 [36;40m  ▓[0;1;32;46m░░░ [0;36m▀[0m   [36m█████ ████▓[0m   [36m▀████▓[0m   [36m▓███▓▀   █████ ████[0;1;32;46m [0m          [36m████▓[0m   [36m▀█[0;1;32;46m░░░[0;36m█[0m
 [36m ▐████▌[0m   [36m▄█[0;1;36;46m░░░[0;36m▓▀▓[0;1;36;46m░░░[0;36m█[0m    [36m▐[0;1;36;46m░░░ [0;36m▌ ▐█[0;1;36;46m░░░[0;36m▌[0m   [36m▄████▓▀▓[0;1;36;46m░░░[0;36m█ [0;37mkL7[0m     [36m▀█[0;1;36;46m░░░[0;36m█▄[0m   [36m▐████▌[0m
 [36m ▓[0;1;36;46m░░░[0;36m██▓▀▀▀▀▀▀ [0m   [36m ▀▀▀▀    █[0;1;36;46m▒▒▒[0;36m▓ ▓[0;1;36;46m▒▒▒[0;36m██▓▀▀▀▀▀▀ [0m   [36m ▀▀▀▀ [0m   [36m░[0;30;46m▓[0m    [36;40m ▀▀▀▀▀▀▓█[0;1;36;46m ░░░[0;36m█[0m
-[36m▀▀▀▀▀[0m                    [36m░[0;30;46m▓[0;36;40m░▀▀▀▀▀▀▀▀▀[0m                                   [36;40m ░[0;30;46m▓[0;36;40m▀▀▀▀▀[0m
-[36;40m  [0;1;33;40mgrape [0;1;31;40m-[0;36m [0;1;33mhosted by soulstorm[0;36m [0m
-                                [36m [0m
-                                [36m [0m'
+[36m▀▀▀▀▀[0m                    [36m░[0;30;46m▓[0;36;40m░▀▀▀▀▀▀▀▀▀[0m                                   [36;40m ░[0;30;46m▓[0;36;40m▀▀▀▀▀[0m'

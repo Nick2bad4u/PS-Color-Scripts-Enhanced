@@ -5,7 +5,7 @@
 # Source SHA-256: bccd8ac5567432607d6ac755ce32e3747514b473fd1ef885f3276adbc8d9d73c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-WZBLU.ANS by Schizo (allnc-01); released in allnc-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 99-148
 # Columns: 1-80
 
@@ -43,14 +43,14 @@ Write-Host '
                 [1;36m─── [0;1;30mT H E [0;1;36m── [0;1;30mS O U L [0;1;36m── [0;1;30mA S Y L U M [0;1;36m── [0;1;30mB B S [0;1;36m───[0m
 
 
-          [1;30mThe Sysop: Schizophreniac [0;36m- [0;1;30mCo-ops: Plasmatoid and Checkmate[0m
-          [1;30mHuge [0;1;37mP[0;1;33mH[0;1;31mA[0;31mC[0;33mC[0;1;30mV File and Message Section [0;36m- [0;1;30mWarez if you want ''em[0m
-          [1;30mMore of those damn ansi packs then you can shake a stick at![0m
-          [1;30mTake as many as you want [0;36m- [0;1;30mTon of [0;31mA[0;1;31mN[0;1;35mS[0;35mi[0;1;30m, [0;34mV[0;1;34mG[0;1;36mA[0;1;30m, and Coding Subs[0m
-          [1;30mSupports All Major Art Groups [0;36m- [0;1;30m675 Megs Online [0;36m- [0;1;30mWWIV v4.23[0m
-          [1;30m[[0mS[1;30mO[0mN[1;30mi[0mC[1;30m] Headquarters [0;1;36m- [0mEpi[1;30mnicion Dist. [0;1;36m- [0mCyb[1;30merCouriers Dist.[0m
-          [1;30mICEnet @6972 WWIVLink @16972 SOLARnet @6960 [0;36m- [0;1;30mSix nets total[0m
-          [1;30mHigh Speed Preferred [0;36m- [0;1;30mAsk Schizo'' for the Number and NUP...[0m
+          [1;30m                          [0;36m  [0;1;30m                                [0m
+          [1;30m     [0;1;37m [0;1;33m [0;1;31m [0;31m [0;33m [0;1;30m                           [0;36m  [0;1;30m                     [0m
+          [1;30m                                                            [0m
+          [1;30m                         [0;36m  [0;1;30m       [0;31m [0;1;31m [0;1;35m [0;35m [0;1;30m  [0;34m [0;1;34m [0;1;36m [0;1;30m                 [0m
+          [1;30m                              [0;36m  [0;1;30m                [0;36m  [0;1;30m          [0m
+          [1;30m [0m [1;30m [0m [1;30m [0m [1;30m               [0;1;36m  [0m   [1;30m             [0;1;36m  [0m   [1;30m                [0m
+          [1;30m                                            [0;36m  [0;1;30m              [0m
+          [1;30m                     [0;36m  [0;1;30m                                     [0m
 
 
 [36m────────────────────────────────────────────────────────────────────────────────[0m
@@ -58,5 +58,5 @@ Write-Host '
 
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[1;30mOriginal Graphics Design by Rob Zombie of White Zombie - Devil Music: Volume One[0m
+[1;30m                                                                                [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

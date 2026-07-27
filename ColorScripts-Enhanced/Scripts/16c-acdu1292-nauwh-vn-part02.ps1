@@ -5,7 +5,7 @@
 # Source SHA-256: 8613fccf9c92db0221d0fad19333cbec10ae61ee192626879c55b9deb20d837b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NAUWH-VN.ANS by Vindication (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -55,8 +55,8 @@ Write-Host '
 
 [1;37;40m┌──────[0m────────[1;30m── [0;1;34mT H [0;34mE [0;1;30m─ [0;1;34mN A [0;34mU S E O U S [0;1;30m─ [0;1;34mW H [0;34mI R L W I N D [0;1;30m──[0m─────────[1m─────┐[0m
 │                                                                             │
-[1;30m│[0m       [1;31mS[0;31mys[0;1;31mO[0;31mp[0;1;30m:[0;1;31mD[0;31mizzy [0;1;30m-[0m/[1;30m- [0;1;31mT[0;31mCE[0;1;30m/[0;1;31mP[0;31mRi [0;1;30m-[0m/[1;30m- [0;1;31mT[0;31mMG [0;1;30m-[0m/[1;30m- [0;1;31mC[0;31mRC [0;1;30m-[0m/[1;30m- [0;1;31mV[0;31miSiON[0;1;30m-[0;1;31mX [0;1;30m-[0m/[1;30m- [0;1;31mC[0;31mCI[0;1;31mN[0;31met[0m       [1;30m│[0m
-          [1;31m9[0;31m600[0;1;30m+ [0;1;31mO[0;31mnly [0;1;30m-[0m/[1;30m- [0;1;31m2[0;31m80 [0;1;31mM[0;31megs [0;1;30m-[0m/[1;30m- [0;1;31m0 D[0;31may [0;1;31mW[0;31mares [0;1;30m-[0m/[1;30m- [0;1;31mC[0;31monsole [0;1;31mS[0;31mupport[0m
-                    [1;31mA[0;31mNSi[0;1;30m:[0;1;31mV[0;31mindicatio[0;1;31mN[0;1;30m-[0;31m/┤C[0;1;31mi[0;31mD [0;1;31mP[0;31mroductions [0;1;31m1[0;31m992[0m
+[1;30m│[0m       [1;31m [0;31m  [0;1;31m [0;31m [0;1;30m [0;1;31m [0;31m     [0;1;30m [0m [1;30m  [0;1;31m [0;31m  [0;1;30m [0;1;31m [0;31m   [0;1;30m [0m [1;30m  [0;1;31m [0;31m   [0;1;30m [0m [1;30m  [0;1;31m [0;31m   [0;1;30m [0m [1;30m  [0;1;31m [0;31m     [0;1;30m [0;1;31m  [0;1;30m [0m [1;30m  [0;1;31m [0;31m  [0;1;31m [0;31m  [0m       [1;30m│[0m
+          [1;31m [0;31m   [0;1;30m  [0;1;31m [0;31m    [0;1;30m [0m [1;30m  [0;1;31m [0;31m   [0;1;31m [0;31m    [0;1;30m [0m [1;30m  [0;1;31m   [0;31m   [0;1;31m [0;31m     [0;1;30m [0m [1;30m  [0;1;31m [0;31m       [0;1;31m [0;31m      [0m
+                    [1;31m [0;31m   [0;1;30m [0;1;31m [0;31m         [0;1;31m [0;1;30m [0;31m ┤ [0;1;31m [0;31m  [0;1;31m [0;31m           [0;1;31m [0;31m   [0m
 [1;30m│[0m                                                                             [1;30m│[0m
 └───────────────────────[1;30m─── [0;1;34m6 1 [0;34m9 [0;1;30m─ [0;1;34m2 7 [0;34m7 [0;1;30m─ [0;1;34m7 0 [0;34m3 6 [0;1;30m───[0m───────────────────────┘[0m'

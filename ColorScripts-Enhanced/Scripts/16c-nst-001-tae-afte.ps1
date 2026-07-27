@@ -5,7 +5,7 @@
 # Source SHA-256: 2a122cd40141500a05301163c4d404a658e9db26b2d7c0f389ac0e7ec9a69b33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TAE-AFTE.ANS by taevore (neon strike); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "  aftermath "
 # SAUCE Author: taevore
 # SAUCE Group: neon strike
@@ -36,5 +36,4 @@ Write-Host '
      [36;40m▀▌[0;35;40m▄█[0;1;35;45m▓█[0;1;36;40m██[0;1;35;45m██▄ [0;35m▓[0;1;35;45m▐███▀░[0;35m▀▀▀▌▀▌[0m                                       [31m░[0;30;41m▓[0;31;40m░[0m
        [35;40m▐▀█[0;1;35;45m▀▓[0;1;35;40m█[0;1;35;45m▀▌█ ▓▀▀▌▀[0;35m▌▀▀▌[0m
         [35m▐▀ ▓[0;30;45m░[0;35;40m▓▀▀▀▌   ▀▀▌[0m       [1;30;40mermm,, i''ve forgot who request this one..[0m
-           [35m░[0;30;45m▓[0;35;40m░[0m                 [1;30;40mwell, if you know, that this is for you, [0m
-[1;30m                               then use it![0m'
+           [35m░[0;30;45m▓[0;35;40m░[0m                 [1;30;40m                                         [0m'

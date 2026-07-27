@@ -5,7 +5,7 @@
 # Source SHA-256: a3322c07a291ee79c8671a4611e00287819d59a2437538d1deed02a02e9d8bf0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: E0-KIB.ANS by Enzo (Glue); released in glue-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kibosh Memlist
 # SAUCE Author: Enzo
 # SAUCE Group: Glue
@@ -26,7 +26,7 @@ Write-Host '
            [37m  [0;32m▀▀▀▄[0;1;32m▄▄[0m [1;33;43m▓░[0m [32m▄[0;1;32m▄▄▄▄▄▄▄▄▄[0;32m▄▄[0;1;32m▄▄▄[0;32m▄▄[0;1;32m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;32m▄[0;37m [0;1;33;43m▓░[0m [32m▀▀▀[0;1;32m▄▄[0m
             [31m▄[0;1;35;41m▄[0m    [32m▀[0;37m [0;1;33;43m█▓[0m  [32m▀▀▀▀▀[0;1;32;42m▄▄▄[0;32m▄[0;37m  [0;32m▀▀▀ █[0;1;32;42m▄▄[0;32m▄ ▀▀▀▀▀▀▀[0;37m [0;1;32m▄▄[0m [1;33;47m█[0;1;33;43m▓[0m [32m▀[0;1;32m▀[0m   [31m▄[0;1;35;41m▄[0m [1;30me0[0m
          [31m▀[0;1;35;41m▀[0m [1;33m▄▄[0m [1;35;41m▀[0;31m▀[0;37m  [0;1;33m▀[0;1;33;47m▀[0;1;37;40m█[0m   [1;32m▀▀▀[0m            [32m▀[0m     [32m▀[0;1;32m▀▀▀[0m     [1m█[0;1;33;43m▀[0;33m▀[0;37m [0;32m [0;31m▀[0;1;35;41m▀[0m [1;33m▄▄[0m [1;35;41m▀[0;31m▀[0m
-            [1;35;43m▄[0;31m▄[0;37m [0;1;30m [0;32m [0m    [37m▀ [0m   [37m//  [0;1;37mkibosh memberlist [0m //    [33m▀[0m    [32m   [0;1;35;43m▄[0;31m▄[0m
+            [1;35;43m▄[0;31m▄[0;37m [0;1;30m [0;32m [0m    [37m▀ [0m   [37m    [0;1;37m                  [0m       [33m▀[0m    [32m   [0;1;35;43m▄[0;31m▄[0m
        [1;30m -[0;1;32m [0;1;30m-[0m [31m▀[0;35m [0;37m [0;1;30m------------------------------------------- ---[0m [31m▀[0;35m [0;37m [0;1;30m-[0;1;32m [0m [1;32m [0m
          [32m [0m                                                           [1;32m [0m
          [32m [0m

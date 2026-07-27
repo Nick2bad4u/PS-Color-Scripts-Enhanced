@@ -5,14 +5,14 @@
 # Source SHA-256: 8c2e5b92df43d9bf1c1dd5945e34535f482fad379a07cda38970d31a329fab20
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REP-GRD.ANS by Reptical (karma-06); released in karma-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
                                                    [1;34m        [0;35m   [0;1;34m [0m
 [1;34m                     [0m                                [35m      [0;1;34m [0m
-[1;34m               [0;35m   `    [0m    [35m∙[0m                              [35m [0m            [35mreptical[0m
+[1;34m               [0;35m        [0m    [35m [0m                              [35m [0m            [35m        [0m
 [1;31mb[0;33m.[0;1;34m  [0;35m__.,┌[0;1;34m⌂@SS@⌂┐[0;35m,._ [0;1;34m               [0;35m''[0;1;34m   [0;35m_.,[0;1;34m┌*@Sb[0;35m┐,._[0;1;34m        _[0;35m___  [0;1;34m      _[0;35m____[0;1;34m   [0m
 [33mP`[0;35m.[0;1;34md$[0;35mP┘²"^~~[0;1;34m~~^"²└4$  [0m   [1;32m [0;32ml[0;1;32mS@g[0;32m┐. [0;1;32m   [0m  [1;34m [0;35m~└[0;1;34m4$$$$$$$$$$b%gg%d$$$$[0;35ml[0;1;34m       [0;35ml[0;1;34m$$P[0;35m┘`[0;1;34m [0;33m.[0;1;31md[0m
 [35m.[0;1;34md$[0;35m┘[0;1;34m   [0;1;32m    [0;32m_[0;1;32m    [0m  [1;34m l:   [0m [1;32m [0;32m:[0;1;32m$$$$$$k[0;32m,[0;1;32m [0m  [1;34m    [0;35m`[0;1;34m$$$$$$$P┘"[0;35m^~~     ~`  [0;1;34m     $$[0;35m`[0;1;34m  [0;33m,[0;1;31md$$[0m
@@ -28,14 +28,4 @@ Write-Host '
 [1;34m$$$l        [0;35m:[0;1;34m$$$[0;35m:[0;1;34m     [0;35m:[0;1;34m$$$$$$$$$$P┘[0;35m²└*[0;1;34m4$ [0;31mggg[0;1;31mgg[0;1;34m $$P[0;35m`"²└*[0;1;34m4$$$$$$$$$$$$P[0;35m`[0;1;34m4$[0;35ml[0;1;34m  [0;33m;[0;1;31m$$$[0m
 [35m''└[0;1;34m┘`         [0;35m`²²`[0;1;34m     [0;35m `[0;1;34m4$$7*┘[0;35m"~[0;1;34m       [0;35m`[0;1;34m [0;31m$[0;1;31m$$$$[0;1;34m [0;35m``[0;1;34m         [0;35m~"²[0;1;34m└**[0;35m┘"~[0;1;34m    [0;35m`[0;1;34m`   [0;33m`└[0;1;31m*[0m
    [35m ,[0m        [35m [0m       [35m∙[0m   [35m`[0m               [31m**[0;1;31m***[0m          [1;34m                     [0m [1;31m [0m
-             [35m, [0m                          [31m..[0;1;31m...[0;1;34m [0m                       [1;34m         [0m
-                                         [1;31m     [0;1;34m [0m
-
-
-
->>> [1;32mgradius[0m --- [1;32mfor konami[0m ----[1;32m  [0m---[1;32m   [0m  [1;32m [0m-·[1;32m                                    [0m
-
-hi, this ascii was made for konami''s Gradius , it was a trade , he made me
-something for Dust , and i this. hope you like it.. thanks, bye.
-** i might try and re-do some of the parts in the ascii, maybe.
--- reptical.[0m'
+             [35m, [0m                          [31m..[0;1;31m...[0;1;34m [0m                       [1;34m         [0m'

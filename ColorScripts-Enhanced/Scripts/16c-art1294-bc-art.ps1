@@ -5,12 +5,12 @@
 # Source SHA-256: 960c0a2a4150451a854d72efbd9f687da90efe8b98feef1da567bd2c84fb00b1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-ART.ANS by Beyond Cool (art1294); released in art1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-[31m░[0m               [31m░   [0;1;37mTHiZ BoARD iS AN OFFiCiAL ART DiSTSiTE[0m        [31m░░[0m       [34m▄▄▄[0;31m [0m
+[31m░[0m               [31m░   [0;1;37m                                      [0m        [31m░░[0m       [34m▄▄▄[0;31m [0m
 [31m  ░[0m            [31m░[0m      [31m░  ▒   ░[0m      [34m▄▄▄▄▄▄▄▄▄▄▄[0;31m  [0;34m▄▄▄▄ [0;31m     ▒[0m         [34m▄▄▄▄▄████[0;31m [0m
 [31m░   ░  ░░   ░   ░[0m     [34m▄▄[0;31m  ░  ░ [0;34m▄▄▒▒▓▓▓▒▒▓▓▓▓▒█▓▒▄▄[0;31m [0;34m▀▒▓▓▓▄▄▄▄▄▄▄▄▄▓▓██▓▓▓█▓█▓█▀[0m
 [31m░ ░ ░ ▒ ▒ ░ ░ ░   [0;34m▄▄▓██▓▓▄[0;31m   [0;34m▄▓▓▓█▓███▓▓▓██▓▓██▓▓█[0;34;44m [0;31;40m [0;34;40m▓▓██▓█▓▓▓█▓█▓███▓▓██▓▓███[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 2c5388d7c84b93e9c5afaf9ca43af3a632b99d41575043a88694bc97f9025edd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fr-wraith.ans by FreshRich (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wraith - Dark Carnival
 # SAUCE Author: FreshRich
 # SAUCE Group: Legacy Krew
@@ -52,7 +52,4 @@ Write-Host '
            [1m▀██▀▀[0m   ▄[1;30;47m▀[0m▄[1;30m▄▄[0m  [1;30m▀▀[0;1;30;47m▀[0m▄▄[1;30m▄[0m      [1;30m▄▓▓▄▓▓▄[0m    [1;30m▄▄▄▄▄▄▄▄▀▀[0;30m█[0;1;30m▄[0m▄ [1m▀▀▀[0m [1m▀▀▀▀[0m
                       ▀▀▀▀[1;30;47m▀[0m▄[1;30m▄[0m ▀▀▀▀▀[1;30m▀[0m  [1;30m▒▓█▓█▓▒[0m [30m█[0;30;47m▀▀[0;37;40m▄▄▄  [0;1;30;40m▄▄▄[0;30;47m▀[0;1;30;47m▀[0;30;47m▄[0;37;40m▀[0;30;40m█[0m
 [37;40m                            ▀[0;1;30;40m▀▀▀▀▄▄[0m    [1;30m▀▓█▓▀[0m [30m█[0;1;30m▄▀[0m [1;30m▀▀▀▀▀[0m ▀▀
-                                         [1;30m▀[0m  [30m███▀█▀▄█▄▄█▄█▄█▄[0m
-[37m                          telnet[0;1;30m:[0;33m [0;1;35mbbs[0;1;30m.[0;1;35mdarkcarnival[0;1;30m.[0;1;35mxyz[0;1;30m:[0m23
-                              [1;30m+[0mo[1;30m:[0;33m [0;1;30mFreshRich[0;33m <[0;1;33mLegacy[0;33m>[0m
-[37m                            [0;1;30m//[0;33m<[0;31mArakNet Member Board[0;33m>[0;1;30m\\[0m'
+                                         [1;30m▀[0m  [30m███▀█▀▄█▄▄█▄█▄█▄[0m'

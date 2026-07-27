@@ -5,7 +5,7 @@
 # Source SHA-256: 432e4516cf7f3f250854313745492aa372951eb2e8c606e08f9f3e0524d6962c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SQ-BLEND.ANS by Sharque (blndr031); released in blndr031 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -31,5 +31,5 @@ Write-Host '
              [33m▐[0;1;33;43m▐[0;1;37;40m▓[0;1;33;43m▓░[0;33m▌  [0;31m█▓░░   ▀▓▓▄[0;33m▐[0;1;33;43m░▄[0;33m▌   [0;1;30m░░▀░░[0m
              [33m▄[0;1;33;43m▄▓░[0;33m▀[0;31m█▄▐█▌[0m       [31m▀▀ [0;33m▀▓▄[0m
             [1;33;43m░▓[0;1;37;40m█[0;1;33;43m█▌[0;33m▌ [0;31m▀█▀[0m          [33m▐[0;1;33;43m▄░[0;33m▌[0m
-           [33m▐[0;1;33;43m▐█▄▓░[0m                [33m▀▀    [0;1;37ma scientist running in a one way street.[0m
-            [33m▀[0;1;33;43m▀▀[0;33m▀[0m                     [1;37merr... original huh.. .[0m'
+           [33m▐[0;1;33;43m▐█▄▓░[0m                [33m▀▀    [0;1;37m                                        [0m
+            [33m▀[0;1;33;43m▀▀[0;33m▀[0m                     [1;37m                       [0m'

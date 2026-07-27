@@ -5,7 +5,7 @@
 # Source SHA-256: 06756acdcce5a7d9ac3f0771a213635831a19ce413cf8ac54843dc6c49f33d00
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IG-DAGG1.ANS by Iguana (irapack4); released in irapack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -30,11 +30,11 @@ Write-Host '
                  [33m▀░░░▒▒▒▒▓▓▓▄[0m     [1;30;41m▓[0m           into the floor. Which is no longer
                 [33m ▒▒▒▒░░░▒▒▒▒▒[0m     [1;30;41m▒[0m           there. Orcs dance, holding bows
                 [33m▒▒▓▓▒[0m  [33m▀░░░▒▀[0m     [1;30;41m░[0m    [1;30;41m▓[0m      and blades. The party falls,
-              [33m ▒▒▓█▓[0m                   [1;30;41m▒[0m      clashing into combat...."
+              [33m ▒▒▓█▓[0m                   [1;30;41m▒[0m                               
               [33m▒▒▓██[0m                    [1;30;41m░[0m
             [1;33;40m▒▓[0;33m▒▒▓▓[0;1;33m▓[0m
-           [1;33m░▒▒▓▓▓▓  [0m [34mS[0;1;34my[0;1;37ms[0;1;34mO[0;34mp[0;1;37m:[0;36mM[0;1;36mi[0md[1mnight[0;36m [0;1;37mRol[0ml[1;36me[0;36mr[0m    [1;37mCall the Dagger Inn BBS now![0m
-          [1;33m  ░▒▒▓▓   [0m        [31mH[0;1;31mo[0;1;37mm[0;1;31me[0;32m [0;31mO[0;1;31mf [0;31mA[0;1;31ml[0;1;37ml [0m      [1;37mAll AD&D games will be hosted![0m
-          [1;33m      [0m        [1;37m       [0;31mR[0;1;31mP[0mG[1m''S      [0m    [1m709-747-1870 is the number you[0m
-          [1;33m    [0m            [32mR[0;1;32mu[0mn[1mn[0mi[1;32mn[0;32mg P[0;1;32mr[0mo[1mbo[0ma[1;32mr[0;32md[0;1;30m![0m   [1;37mmust call.. NOW!![0m
-[1;37m-[0m=[1;30m≡i[0mG[1mUaNa[0;35m [0;1;37m├\[0mN[1;30mS[0mi[1m:[0;1;30m)[0;35mi[0;1;35mR[0;1;37ma[0;1;30m≡[0m=[1m-[0m [1;30maka The Dwarf[0m'
+           [1;33m░▒▒▓▓▓▓  [0m [34m [0;1;34m [0;1;37m [0;1;34m [0;34m [0;1;37m [0;36m [0;1;36m [0m [1m     [0;36m [0;1;37m   [0m [1;36m [0;36m [0m    [1;37m                            [0m
+          [1;33m  ░▒▒▓▓   [0m        [31m [0;1;31m [0;1;37m [0;1;31m [0;32m [0;31m [0;1;31m  [0;31m [0;1;31m [0;1;37m  [0m      [1;37m                              [0m
+          [1;33m      [0m        [1;37m       [0;31m [0;1;31m [0m [1m        [0m    [1m                              [0m
+          [1;33m    [0m            [32m [0;1;32m [0m [1m [0m [1;32m [0;32m   [0;1;32m [0m [1m  [0m [1;32m [0;32m [0;1;30m [0m   [1;37m                 [0m
+[1;37m [0m [1;30m  [0m [1m    [0;35m [0;1;37m├ [0m [1;30m [0m [1m [0;1;30m [0;35m [0;1;35m [0;1;37m [0;1;30m [0m [1m [0m [1;30m             [0m'

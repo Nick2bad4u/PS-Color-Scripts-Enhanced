@@ -5,14 +5,14 @@
 # Source SHA-256: 70a4d93007bc34b8021c7cc5407c77fd8d072cb567523c30ca843825381ba0f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DOORSM.ANS by Amroth (am-sgore); released in am-sgore and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
-([31mL[0;1;30m)[0;1;37mist Doors[0m
-([31mI[0;1;30m)[0;1;37mnfo on Doors[0m
-([31mO[0;1;30m)[0;1;37mpen Doors[0m                       [1;30;47m▓[0m
+ [31m [0;1;30m [0;1;37m         [0m
+ [31m [0;1;30m [0;1;37m            [0m
+ [31m [0;1;30m [0;1;37m         [0m                       [1;30;47m▓[0m
 ([31mQ[0;1;30m)[0;1;37muit to Main[0m              [1;30m▀▄[0m     [1;30;47m▒[0;1;30;40m▄▄▄▄ [0m▄▀      ▄
                                         ▀  [1;30m▀    [0m▀  ▄▀
                       [1;30m▄▄[0m          [1;30m▄█▀   ░░░  ▀▄ ▒▒[0m▀  ▄

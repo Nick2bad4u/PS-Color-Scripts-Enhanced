@@ -5,7 +5,7 @@
 # Source SHA-256: 35a27da52fad55d3e37d232c6ebb8b76d8c61bb497cce66edfee35b0879bd434
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: moqui-alt.ans by Moqui (titan-artpack3); released in titan-artpack3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 34-69
 # Columns: 1-80
 
@@ -39,10 +39,4 @@ Write-Host '
         [31m▀[0;31;43m█▄[0;31;40m▄[0m [33;40m▀▄▀[0m [1;30;40m▀▀[0;1;30;43m▄▄[0;1;30;40m▄[0m [33;40m█[0;1;30;40m▌[0;33;40m  [0;31;40m▀[0;31;43m▄[0;33;40m [0;1;30;43m▄[0;33;40m█▄▀█▄▀██ █[0;1;30;43m▄[0;33;40m ██[0;1;30;43m▄[0;31;40m▀[0;31;43m▄[0;33;40m█▌▐██ [0;31;40m▀▄[0;33;40m▀ [0;1;30;40m▄[0;1;30;41m▀▄[0;33;40m     [0m     [1;30;40m ▄[0m    [1;30;40m▄[0m
            [31m▀▀[0m [33m ▀▄     [0;1;30m▄▀[0;33;40m     [0;31;40m▀[0;33;40m [0;1;30;40m▀▀[0;1;30;43m▄[0;1;30;40m▄[0;33;40m▀▀ ▄█[0;1;30;43m▄[0;33;40m █[0;1;30;43m▄[0;1;30;40m▀[0;33;40m   [0;31;40m▀[0;31;43m▄[0;33;40m▄▀██▄ [0;1;30;40m▄▀[0;31;40m▀[0;33;40m       [0m
                      [1;30m▀[0m  [33;40m  [0m         [1;30;40m▀▄[0;1;30;43m▄[0;1;30;40m▀▀[0;33;40m [0;1;30;40m▀▀[0;33;40m       [0;31;40m▀▀▄[0;1;30;40m▄[0m [1;30;40m▀[0m
-                                  [1;30m■▀[0;33;40m [0m
-
-[1;30m>>[0m [1;30mB[0;33;40mEWAR[0;1;30;40mE[0;33;40m [0;1;30;40m>>[0;33;40m [0;1;30;40mU[0;33;40mGL[0;1;30;40mY[0;33;40m [0;1;30;40mB[0;33;40mONU[0;1;30;40mS[0;33;40m [0;1;30;40mF[0;33;40mON[0;1;30;40mT[0;33;40m [0;1;30;40mi[0;33;40mNCOMiN[0;1;30;40mG[0;33;40m [0;1;30;40m>>[0;33;40m [0m [1;30;40mY[0;33;40mO[0;1;30;40mU[0;33;40m [0;1;30;40mH[0;33;40mAV[0;1;30;40mE[0;33;40m [0;1;30;40mB[0;33;40mEE[0;1;30;40mN[0;33;40m [0;1;30;40mW[0;33;40mARNE[0;1;30;40mD[0;33;40m [0;1;30;40m>>[0;33;40m [0;1;30;40mD[0;33;40mO [0;1;30;40mN[0;33;40mO[0;1;30;40mT[0;33;40m [0;1;30;40mF[0;33;40mEE[0;1;30;40mD[0;33;40m [0;1;30;40m>>[0m
-
-
-[1;30mR[0;33;40mESE[0;1;30;40mT[0;1;33;40m [0;1;30;40m>>[0;1;33;40m [0;1;30;40mS[0;33;40mYNTA[0;1;30;40mX[0;1;33;40m [0;1;30;40m>>[0;1;33;40m [0;1;30;40mE[0;33;40mDiSO[0;1;30;40mN[0;1;33;40m [0;1;30;40m>>[0;1;33;40m [0;1;30;40mS[0;33;40mOMMERHAC[0;1;30;40mK[0;1;33;40m [0m [1;30;40m>>[0;1;33;40m [0;1;30;40mD[0;33;40miHAL[0;1;30;40mT[0;1;33;40m [0;1;30;40m>>[0;1;33;40m [0;1;30;40mS[0;33;40mOLSKOGE[0;1;30;40mN[0;1;33;40m [0;1;30;40m>>[0;1;33;40m [0;1;30;40m3[0;33;40mB[0;1;30;40mM[0;1;33;40m [0;1;30;40m>>[0;1;33;40m [0;1;30;40mE[0;33;40mUSKA[0;1;30;40mL[0m
-'
+                                  [1;30m■▀[0;33;40m [0m'

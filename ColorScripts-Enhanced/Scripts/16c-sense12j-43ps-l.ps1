@@ -5,7 +5,7 @@
 # Source SHA-256: bf157208a214b69c22cbe0a0db8f1fde51024e0e04094f1d59c6ee0a44fa5044
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 43PS-L.ANS by aesthetic+podsi (sense imagery); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "leech"
 # SAUCE Author: aesthetic+podsi
 # SAUCE Group: sense imagery
@@ -42,10 +42,7 @@ Write-Host '
 [1;30m43[0m  [32m ▀[0m          [32m■[0m            [32m▀[0;1;30m▀[0m        [32m(leech)[0m                 [1;30m ▄█▀[0;1;30;47m▄▓[0;1;30;40m▀█▀▀▀[0m   [32m▀[0;1;32;42m▀[0m
 [1;30mps[0m                        [1;30m [0;32m▀[0m                                   [1;30m█▄[0;1;30;47m▓[0;1;30;40m▄█[0;1;30;47m▓[0;1;30;40m██▀[0m      [32m▓[0m
                                                                [1;30m ▀▀ ██▀[0m        [32m▒[0m
-      [1;32m>>[0;32mleech file[0;1;32m<<[0;32m  edit batch    return to bbs[0m              [1;30m [0;31m [0;1;31m▐[0;1;30m▀▀[0m          [32m░[0m
+      [1;32m  [0;32m          [0;1;32m  [0;32m                             [0m              [1;30m [0;31m [0;1;31m▐[0;1;30m▀▀[0m          [32m░[0m
                                                                  [31m▀[0m
 
-[1;30m-------------------------------------------------------------------------------[0m
-
-joint between aesthetic and podsi. use this if boards even exist, for use of
-anyone who runs a board that needs a downloaders list.[0m'
+[1;30m-------------------------------------------------------------------------------[0m'

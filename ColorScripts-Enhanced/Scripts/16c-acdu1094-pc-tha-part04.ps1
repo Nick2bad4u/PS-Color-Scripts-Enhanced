@@ -5,7 +5,7 @@
 # Source SHA-256: 2438d2c1f4b38c20c6c9e840b1a5456a146b8ec05ccf8bad7856710e0598c302
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-THA.ANS by P-Chan (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Heretic Asylum
 # SAUCE Author: P-Chan
 # SAUCE Group: ACiD Productions
@@ -49,13 +49,8 @@ Write-Host '
 [30;47m ▀▀[0;1;31;40m  [0;30;47m▄[0;1;30;47m▓[0;1;31;40m   [0;30;47m▄  [0;1;30;47m▒[0;1;31;40m  [0;30;47m▄[0;1;31;40m  [0;30;47m▀ [0;1;30;47m▒[0;30;47m▐[0;1;31;40m [0;1;30;47m░[0;30;47m [0;1;31;40m [0m [1;30;47m▓░[0;30;47m [0;1;30;47m░[0;1;31;40m  [0;30;47m▄[0;1;30;47m░[0;30;47m  ▄[0;1;30;47m▒[0;1;31;40m [0;30;47m█▀▀[0;1;31;40m  [0;1;30;47m▓[0;30;47m█[0;1;31;40m [0;30;47m▀[0;1;31;40m    [0;30;47m [0;1;30;47m▓[0;30;47m [0;1;30;47m░[0;30;47m▄▄▀[0;1;31;40m   [0;30;47m [0;1;30;47m▒[0;30;47m [0;1;31;40m  [0;30;47m [0;1;31;40m [0;30;47m▌  ▐[0;1;31;40m [0;30;47m [0;1;30;47m░░[0m
 [30;47m▐[0;1;31;40m [0;30;47m▄▄[0;1;31;40m  [0;1;30;47m▒[0;1;31;40m [0;30;47m▌▄▄█[0;1;31;40m [0;1;30;47m▒[0;1;31;40m [0;30;47m▌ [0;1;30;47m▒░[0;30;47m  [0;1;30;47m▓[0;30;47m▐[0;1;31;40m [0;30;47m▌ [0;1;31;40m [0m [1;30;47m▓▒[0;30;47m [0;1;30;47m░[0;30;47m▀[0;1;31;40m     [0;30;47m▀[0;1;30;47m▒[0;1;31;40m  [0;30;47m [0;1;30;47m░[0;1;31;40m  [0;1;30;47m▓[0;1;31;40m  [0;1;30;47m░▒[0;30;47m▀[0;1;31;40m  [0;30;47m [0;1;30;47m▓[0;30;47m [0;1;30;47m░[0;30;47m▀[0;1;31;40m    [0;30;47m▀ [0;1;30;47m▒[0;30;47m [0;1;31;40m  [0;30;47m ▀[0;1;31;40m    [0;30;47m▀ [0;1;30;47m▒░[0m
 [1;30;47m░[0;30;47m▀▀▀▀ [0;1;30;47m▓[0;30;47m▀▀▀▀▀▀[0;1;30;47m▒[0;30;47m▀▀ [0;1;30;47m░░[0;30;47m  [0;1;30;47m▓[0;30;47m ▀[0;1;30;47m░[0;30;47m [0;1;31;40m [0m [1;30;47m▓▒[0;30;47m [0;1;30;47m░[0;30;47m   [0;1;30;47m░[0;30;47m   [0;1;30;47m▒[0;30;47m [0;1;30;47m░[0;30;47m [0;1;30;47m░[0;30;47m  [0;1;30;47m▓[0;30;47m  [0;1;30;47m░▒[0;30;47m    [0;1;30;47m▓[0;30;47m [0;1;30;47m░[0;30;47m   ▀[0;1;30;47m░[0;30;47m  [0;1;30;47m▒▒[0;30;47m       [0;1;30;47m░[0;30;47m  [0;1;30;47m▓░[0;30;47m█[0m
-                                                          [1;30mActual price may vary[0m
+                                                          [1;30m                     [0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ A  C  i  D  ■  1  9  9  4 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
                             [1;30m1 0 0 %   O R i G i N A L[0m
-                                [1;30mP  -  c  h  a  n[0m
-
-                     [1;30mGreetz n'' shit: MO,DY,TK,AY,TUS,AV,LA.[0m
-[1;30mBeastie: What can I say, fix my font! =)[0m         [1;30mGuile: GET A NEW MODEM PLEASE![0m
-[1;30mSomms: Man, you''re too cool...NiCE OBV/2[0m      [1;30mLord Jazz: Like living down here?[0m
-                    [1;30mRaD Man: Hope ya get your shit back! =)[0m'
+                                [1;30mP  -  c  h  a  n[0m'

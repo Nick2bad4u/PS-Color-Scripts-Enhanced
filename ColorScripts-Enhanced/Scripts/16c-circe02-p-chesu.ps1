@@ -5,7 +5,7 @@
 # Source SHA-256: 6df78c6bcdf3d44d43819b0fac5c1291ef46c3019a4bbeb7ee9a04918544719f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P-CHESU.ANS by pesho (circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: chesung
 # SAUCE Author: pesho
 # SAUCE Group: circe
@@ -20,7 +20,7 @@ Write-Host '
 
 
             [32m.[0m
-[32m   [0;31m_╓[0;1;32m-[0;32m--[0;31m-[0;32m-[0;31m---\  [0;1;37m54[0;1;36m(02[0;36m4)[0;1;34m-322-4930 [0;1;37mH[0;1;36mU[0;36mG[0;1;34mE text base. [0;1;37mA[0;1;36mG[0;36mI[0;1;34mTE NET Member. [0;1;37mF[0;1;36mr[0;36me[0;1;34me ratio[0m
+[32m   [0;31m ╓[0;1;32m [0;32m  [0;31m [0;32m [0;31m      [0;1;37m  [0;1;36m   [0;36m  [0;1;34m          [0;1;37m [0;1;36m [0;36m [0;1;34m             [0;1;37m [0;1;36m [0;36m [0;1;34m               [0;1;37m [0;1;36m [0;36m [0;1;34m       [0m
 [32m<<<[0m           [31m\[0m       [1;32m. [0;31m__ _╓--------/   ╓----\[0m                 [32m,[0;1;34m4 everyb[0;36mo[0;1;36md[0;1;37my.[0m
               [31m/ _╓---/[0m       [31m____   /___(  ___/__[0m          [31m_╓----\[0m
 [31m [0;36m]]]   [0;31m\_____/[0;32m_[0;31m|[0m     [31m][0;36m][0;1;32m]][0;36m]]] [0;31m\_____/___[0m          [31m|[0;36m]][0;1;32m] ][0;31m____\__    \_╓-------/[0;36m]][0m

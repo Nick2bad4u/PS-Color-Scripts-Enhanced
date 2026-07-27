@@ -5,12 +5,12 @@
 # Source SHA-256: 1f881ab6fdb350b1289577f79deeb788e82dc116e1e860fb867a540c611502bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GN-PRMNS.ANS by Genick (pang03); released in pang03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-15
 # Columns: 1-80
 
 Write-Host '
-                       [34mp[0;1;34mrim3[0;36m-[0;34mt[0;1;34m1me[0m  [36m  [0m        [36m:[0m
+                       [34m [0;1;34m    [0;36m [0;34m [0;1;34m   [0m  [36m  [0m        [36m [0m
               [34m.[0;1;34m.,[0;34m,[0;1;34m,.[0;34m.[0m               [1;36m,┌⌐╔[0;36mg[0;1;36ml[0m   [1;36ml[0;36m:[0m       [1;34m_[0;34m_[0m    [1;34m.[0;34m.[0;1;34m..[0;34m.[0;1;34m,,[0;34m.[0;1;34m..[0;34m.[0m
 [34m              [0;1;34m: [0m    [34m:[0;37m   [0;36m.[0;1;36m┌[0;36my#[0;1;36m$L#╗[0;36m┐[0;1;36m.[0;36m  l[0;1;36m$$$$[0;36m:[0m   [1;36m$l[0;36m [0;37m  [0;34m:[0;1;34m::l$$&&[0;34ms[0;1;34m.[0;34m:[0;1;34m..[0;34m:[0m    [1;34m:.[0;34m:[0;1;34m..[0m
         [37mgn[0;1;37;47mk[0m![34m d[0;1;34m$$&&s[0;34m.[0;1;34m:.[0;34m: [0;36ml[0;1;36m$$$[0;36m$[0;1;36m4[0;36m┘[0;1;36m└7$$[0;36mb.[0;1;36m$$$[0;36m$   [0;1;36m:$$[0;36m [0;37m     [0;1;34m:$$$$$$$$$$$$$[0;34mb  [0;1;34m:,[0;34m:[0m

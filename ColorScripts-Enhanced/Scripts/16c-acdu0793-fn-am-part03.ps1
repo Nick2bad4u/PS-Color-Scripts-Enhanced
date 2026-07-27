@@ -5,7 +5,7 @@
 # Source SHA-256: f7077d380eb98b708ed73ddf29616ccbe5845b3b39fd098e990109156970d147
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FN-AM.ANS by Fusion (acdu0793); released in acdu0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 81-107
 # Columns: 1-80
 
@@ -33,6 +33,4 @@ Write-Host '
 [33;40m     [0;1;30;43m▓[0;1;33;40m    [0;1;30;43m▓[0;1;33;40m     [0;33m▀[0;1;31;43m▓█[0;1;31;41m▓▒░[0;31m▀[0;1;31;43m█[0;1;31;41m▓▒░[0;31m▀  [0;33m▀[0;1;31;43m░[0;33m▄▄[0;1;30;43m░[0;33m▀▀[0;1;30;43m██[0;1;30;40m▄[0;33m▀[0;1;30;43m░[0;33m▀▀▀▄[0;1;31;43m   [0;1;30;43m░[0;33m▀▀▀[0;1;31;43m▓▒░[0;33m█[0;1;30;43m░▒▓[0;1;30;40m▀   [0;33m▀[0;1;31;43m░[0;33m▄▄[0;1;30;43m░[0;33m▀▀[0;1;30;43m██[0;1;30;40m▄[0;33m▌[0;33;40m     [0m
 [33;40m   [0;1;30;40m■▀   ■▀        [0;1;31;40m▀▀   ▀▀              [0;1;30;40m▀     [0;33m▀▀▀      [0;1;31m▀[0;33m▀▀               [0;1;30m▄▄[0;1;30;40m      [0m
 [1;30;40m                         [0;1;31;40mA[0;1;30;40m∙[0;31mt[0;1;30m∙[0;33mo[0;1;30m∙[0;33mm[0;1;30m∙[0;33mi[0;1;30m∙[0;33mc [0;1;30m∙ [0;1;31mM[0;1;30m∙[0;31me[0;1;30m∙[0;33ma[0;1;30m∙[0;33mt[0;1;30m∙[0;33ml[0;1;30m∙[0;33mo[0;1;30m∙[0;33ma[0;1;30m∙[0;33mf                 [0;1;30m▐[0;1;30;43m▓[0;1;30;40m▀      [0m
-[1;30;40m                                  [0;33m805-496-8090                        [0;1;30m■▀[0;1;30;40m        [0m
-[1;30;40m     [0;1;31;40m[[0;31m∙[0;33m] 30[0;1;30m0 [0;33mMeg[0;1;30ms [0;33mOnlin[0;1;30me [0;1;31m[[0;31m∙[0;33m] Excretio[0;1;30mn [0;33mDis[0;1;30mt [0;33mSit[0;1;30me [0;1;31m[[0;31m∙[0;33m] Runnin[0;1;30mg [0;33mOblivio[0;1;30mn[0;33m/[0;1;30m2 [0;1;31m[[0;31m∙[0;33m][0;33;40m     [0m
-[33;40m                        [0;1;31;40m[[0;31m∙[0;33m] N[0;1;30mo [0;33mRatio[0;1;30ms [0;33mfo[0;1;30mr [0;33mL[0;1;30mD [0;33mcaller[0;1;30ms [0;1;31m[[0;31m∙[0;33m][0;33;40m                        [0m'
+[1;30;40m                                  [0;33m805-496-8090                        [0;1;30m■▀[0;1;30;40m        [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b70bca4ab5f9bf4ef5831edde7623f3143250b7218b3a82fb6bfe6cf3972b560
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-WALL.ICE by Lord Soth + Demon Death + Demon Meister (ice-9411); released in ice-9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 49-96
 # Columns: 1-80
 
@@ -29,11 +29,11 @@ Write-Host '
 [30;40miNKY now"[0m  [1;31;40m▀▀▀ [0;32m▄█████████████████████████▄▄▄█████[0;32;42m                              [0m
 [30;40mansi would [0;32;40m▐███[0;32;42m                                                                [0m
 [30;40mbe really[0m   [32;40m███[0;32;42m                                                                [0m
-[30;40mironic.Where[0;32;40m█[0;32;42m                                                                  [0m
-[30;40mthe hell DID[0;32;40m▐[0;32;42m                                                                  [0m
-[30;40miNKY go. He [0;32;40m▐[0;32;42m                                                                  [0m
+[30;40m            [0;32;40m█[0;32;42m                                                                  [0m
+[30;40m            [0;32;40m▐[0;32;42m                                                                  [0m
+[30;40m            [0;32;40m▐[0;32;42m                                                                  [0m
 [30;40mhasn''t even [0;1;35;40m [0;32m████[0;32;42m                                                              [0m
-[30;40mreturned my[0m  [32;40m█[0;32;42m                                                                 [0m
+[30;40m           [0m  [32;40m█[0;32;42m                                                                 [0m
 [30;40mcalls... and[0m [32;40m▐█████████████████████████████████████████████████████████████████[0m
 [30;40mI''m MARRIED[0m  [32;40m▐██████████████████████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀     [0m
 [30;40mto the gal...[0m [32;40m█████████████▀▀[0;32;44m▀[0;32;40m▀▀▀▀▀[0;32;44m▀[0;32;40m▀▀[0;32;44m▀▀[0;32;40m▀▀[0m
@@ -52,9 +52,9 @@ Write-Host '
         [34m▐░▒▒▓██[0;34;44m [0;34;40m██▒▒▓█▌ ▐█▒▒█▒░█[0;1;34;44m░[0;34m█   █████▒░▒█▌ ▐█▒▓███▐█▒█▀▒▒███ ▒██▐███▒░▒▓██[0m
        [34m▄▀ ░▀█[0;1;34;44m░[0;34m███░▄ ░░▀▄█▀ ░░▀█[0;34;44m  [0;34;40m█   ███▓█░▀░▀▀▄█▀░░▒▀▄███░█░ ░▀█ █▀▄[0;1;34;44m░[0;34m██▒█░ ░▀█[0m
       [34m▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                               [1;33m14 million gigs.[0m
+                               [1;33m                [0m
                               [1;33m947 28.8k nodes.[0m
-                 [1;33m   [0m          [1;33m-14[0m [1;33mDay WaReZ.[0m
-                                [1;31m0[0m [1;33mNew Users.[0m
+                 [1;33m   [0m          [1;33m   [0m [1;33m          [0m
+                                [1;31m [0m [1;33m          [0m
 
-[1;37m───────[0m [1;37mAnsi by Lord Soth and Demon Death.  Font by the Demon-meister.─────────[0m'
+[1;37m───────[0m [1;37m                                                              ─────────[0m'

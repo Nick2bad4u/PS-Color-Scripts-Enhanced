@@ -5,7 +5,7 @@
 # Source SHA-256: 1dc996cad0825e2b2f8959dd19ef2dbc78fcb251210a9a710a8a49103136bbe2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-X1.ANS by Mighty Mouse (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: X
 # SAUCE Author: Mighty Mouse
 # SAUCE Group: eclipse
@@ -25,7 +25,7 @@ Write-Host '
                                   [30;44m▀[0;37;40m [0;1;34;40m▀▀██[0;1;34;44m▓[0;1;34;40m▄[0m [30;44m▄[0;1;34;40m       [0;30;47m██████[0m
 [31;40m             [0m                  [1;34;40m▄[0m [1;34m▀[0;30;44m▄▄[0;37;40m [0m   [1;34;40m▀▀[0;1;34;44m▓[0;1;34;40m▄[0m              [31m                      [0m
                            [1;34m▄[0m                [1;34m▀▄[0;30;41m█[0m
-   [37;40mAxiom[0;1;37;40m''[0ms                                    [1;34m▀[0m
+   [37;40m     [0;1;37;40m [0m                                     [1;34m▀[0m
                                                  [1;34m▄[0m                 [1;31m   ▄▄▄▄[0m [1;31mMM[0m
          [1;31m▄▄▄▄█▀▀███▄[0m   [1;31m░ ░░▄▄▄▄█▀▀███▄[0m       [1;31m▄▄[0m              [1;31m▄▄▄▄█▀███▀█▀▀[0m
       [1;31m▄████[0;1;31;41m▓▓[0;1;31;40m▌[0m  [1;31m██▀█[0;1;31;41m▓[0m   [1;31m▄████[0;1;31;41m▓▓[0;1;31;40m▌[0m  [1;31m████[0;1;31;41m▓[0m  [1;31m▄▄███[0;1;31;41m▓[0;1;31;40m▌[0m          [1;31m▄[0;1;31;41m▓▓[0;1;31;40m████▌[0m [1;31m▐███[0;1;31;41m▓▓[0;1;31;40m▌[0m

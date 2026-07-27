@@ -5,7 +5,7 @@
 # Source SHA-256: 04888f7007b5bc18947dc62295ecf952e3e1ff525586337ea9e9eef2ef8495c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ATLANTIS.ANS by Rad Man (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -29,6 +29,4 @@ Write-Host '
  [34m░░▒▒▒▒[0;34;40m▒▓▓▓▓▓▓▓█████████████[0;36;44m ▀[0;34;46m_[0;36m▄▄▄▄▄[0m      [36m▐[0;1;36m_)[0;36m▐[0;1;36;40m_)[0m [1;36;40m_)[0m            [1;37;44m [0;1;30;44m┌[0;1;44m  [0;44m [0;1;37;44m           [0m
 [1;30m▒[0;1;30;40m▒███[0;1;30;47m▒▒▒▒[0;47m█[0m███[1;47m▒▒▒[0;1;40m█[0;1;47m███[0;1;40m██[0;1;47m▒▒▒[0;40m█[0;47m███[0;1;30;47m▒▒▒▒[0;1;30;40m███▒▒[0m                         [30;44m [0;1;30;44m│[0;37;44m [0;30;44m [0;1;37;44mC[0;1;33;44mo[0;1;35;44mS[0;1;31;44mysO[0;31;44mp[0;1;34;44m:[0;30;44m  [0;1;37;44m│[0;30;44m [0m
 [1;30m▒[0;1;30;40m▒███[0;1;30;47m▒▒▒▒[0;47m█[0m███[1;47m▒▒▒[0;1;40m██████[0;1;47m▒▒▒[0;40m██[0;47m██[0;1;30;47m▒▒▒▒[0;1;30m███▒▒[0m [1;32mK[0;32m-[0;1;36mANS[0;36mi [0;1;36mBy[0m [36m·[0m [1;37mR[0;1;33ma[0;1;35mD[0m [1mM[0ma[1;30;40mn[0m     [1;30;44m │[0;30;44m [0;44m [0;1;31;44m [0;1;37;44mS[0;1;33;44mh[0;1;35;44ma[0;1;31;44mk[0;31;44me[0;1;34;44mr[0;30;44m   [0;1;37;44m│[0;30;44m [0m
-[1;30m▒[0;1;30;40m▒███[0;1;30;47m▒▒▒▒[0;47m█[0m███[1;47m▒▒▒[0;1;40m██████[0;1;47m▒▒▒[0;40m███[0;47m█[0;1;30;47m▒▒▒▒[0;1;30m███▒▒[0m           [36m·[0m [35m<[0;1;34mA[0;34m·[0;1;33mA[0;34m·[0;1;31;40mA[0;35;40m>[0m     [30;44m  [0;37;44m    [0;30;44m       [0;1;37;44m ┘[0;30;44m [0m
-
-Downloaded From P-80 International Information Systems 304-744-2253[0m'
+[1;30m▒[0;1;30;40m▒███[0;1;30;47m▒▒▒▒[0;47m█[0m███[1;47m▒▒▒[0;1;40m██████[0;1;47m▒▒▒[0;40m███[0;47m█[0;1;30;47m▒▒▒▒[0;1;30m███▒▒[0m           [36m·[0m [35m<[0;1;34mA[0;34m·[0;1;33mA[0;34m·[0;1;31;40mA[0;35;40m>[0m     [30;44m  [0;37;44m    [0;30;44m       [0;1;37;44m ┘[0;30;44m [0m'

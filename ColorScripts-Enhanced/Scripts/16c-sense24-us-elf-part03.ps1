@@ -5,7 +5,7 @@
 # Source SHA-256: 31cd0e3c8f98f3c65b6c2954577d328ef6a057b884f0060f28fc626923ab256d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-elf.ans by Enzo + Avenging Angel (sense24); released in sense24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 77-113
 # Columns: 1-80
 
@@ -44,6 +44,5 @@ Write-Host '
               [1;30m▄█▒[0m                [1;30m▀[0m [1;30m▄[0m       ▄  [1;30m▀█[0m  [1;30m▀▄[0m    [1;30m▄█▀[0m
             [1;30m▄[0;1;30;46m▒[0;1;30;40m▀[0m                    [1;30m▀[0m            [1;30m█[0m      [1;30m█[0m       elf ucker
             [1;30m▀[0;1;30;46m▄[0m                                   [1;30m▌[0m    [1;30m▌[0m
-              [1;30m▀ [0m   outlines by [1;33mqs[0m [33mthe 27" director of artistic wizardry[0m
-                 [37mpic shading & font outlines by [0;1;33mzO[0m  [1;30m▌[0m
-                           font shading by [1;33mavg[0m (if he shows up) i showed..[0m'
+              [1;30m▀ [0m               [1;33m  [0m [33m                                     [0m
+                 [37m                               [0;1;33m  [0m  [1;30m▌[0m'

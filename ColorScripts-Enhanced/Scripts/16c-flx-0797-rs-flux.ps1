@@ -5,7 +5,7 @@
 # Source SHA-256: fe1d4c77fdf464651b1caa006389c667b0f48084f6dad94ea0fcba403d34905e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-FLUX.ANS by rorshack (Maiden Brazil); released in flx-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: flux
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -36,5 +36,4 @@ Write-Host '
 [1;32;42m█████[0;1;32;40m▄[0;32m▄ [0;37m [0;1;33m▀███▄[0m ▀ [1;33m▄███▀[0m  [1;32m▄[0;1;32;42m██▓▓░░[0;32m███████████[0;30;42m░░░[0;32;40m░░[0;30;42m▓[0;32;40m░░[0m     [1;32;42m████▓░░[0;32m█████▄[0;33m    [0;37m [0;1;32m▄█████[0m
 [1m███[0;1;32m██[0;1;32;42m▓▓░[0;32m▄[0;37m  [0;1;33m▀███▄███▀[0m  [1m▄██[0;1;32;42m███▓▓░░[0;32m█[0;30;42mrs[0;1;30;42m([0;30;42mmaiden[0;1;30;42m)[0;32m███[0;1;32;42m░░▓████[0;1;37;40m███[0;1;32;42m████▓░░[0;32m██████[0;1;32;42m░░▓▓███[0;1;37;40m███[0m
              [1;33m▀[0;1;33;47m▓[0;1;37;40m██[0;1;33;40m▀[0m
-              [1m▀▀▀[0m
-                "Dogs are colorblind, so they don''t like ansis"[0m'
+              [1m▀▀▀[0m'

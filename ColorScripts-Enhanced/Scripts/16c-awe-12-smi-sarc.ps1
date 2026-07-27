@@ -5,7 +5,7 @@
 # Source SHA-256: c415eefaa2d10a8f0979c2d0e5f014b163320a076740a7f982279391f07a9298
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMI-SARC.ANS by Samurai (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sarcasm
 # SAUCE Author: Samurai
 # SAUCE Group: AWE Lettering
@@ -32,5 +32,4 @@ Write-Host '
 [1m░░░░░[0m░[1m [0m  [34m░[0;30;44m▓[0;34;40m▌[0;37;40m░[0;30;47m▓[0;34;40m ▌[0m      [1;36;40m▌[0;34m [0;30;47m▓[0;37;40m░[0;34;40m ▓▌[0;37;40m ░░[0;1;37;40m░░░░[0m     ░░[1m░░░░░░░ [0m                 [1m░░░░░░░░░░░░[0m
      [1m [0m     [34m    █▄▄[0;36m▄[0;1;36m▒▒[0;1;36;44m▄[0;34m█▄[0m   [34m░[0m
                 [34m▄[0;1;36;44m░▒█▀[0;34m▀[0m
-[1;30m--------------------------------------------------------------------------------[0m
-sarcasm font for alecs.  want one like this?  bk001g@uhura.cc.rochester.edu[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 35d0cd660a87c17600c5208c9c36e3e496c5b4b4d31004c59e1cb9c5b2bf7f82
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-EYECE.ICE by Misfit (iCE Productions); released in ice9705a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iCE Promo
 # SAUCE Author: Misfit
 # SAUCE Group: iCE Productions
@@ -51,7 +51,4 @@ Write-Host '
 [37m  [0;31m███████▓[0;37m [0;31m████[0;1;33;41m░░░[0;31m█[0;1;33;41m░[0;31m█████▌[0;33m▐█████[0;1;30;43m░[0;33m█[0;1;30;43m░░░▒▒▓▓[0;1;30;40m▌[0m     [31m▄█████[0;1;33;41m░░[0;31m██[0;1;33;41m░░░░[0;31m████████▀▄▄▀██████[0;1;33;41m░[0m
  [31m▄▄██[0;1;37;41m [0;31m███[0;37m [0;31m▀█▀███[0;1;33;41m░[0;31m███▄▀███▄[0;37m [0;33m▀██[0;1;30;43m░░░░░▒▒▓▓[0;1;30;40m█▓[0m  [31m▄▄████████[0;1;33;41m░[0;31m█████▀▀▄██████████████████[0m
 [31m▐███████[0;37m [0;31m████████▀▄▓██[0;37m [0;31m█████▄▄[0;33m▀▀[0;1;30;43m░▒▒▒▓▓[0;1;30;40m█▀[0m [31m▄██████▓▓▓▀▀▀▀▀▄[0;37m [0;31m▄████[0;1;33;41m░░[0;31m████▓▀▀▀▄██████[0m
-[1;30m-──────────────────────────────-  [0;33m▀[0;1;30m▀[0m   [1;30m   -────────────────────────────────────-[0m
-[1;37miCE Productions 1997[0;1;30m -- [0;36mwe''ve got our eye on your sorry ass.[0m        [1;30m [0;1;37mMisfit[0m[[1miCE[0m]
-
-                 [1;30m i got bored with comic rips.[0m [1;30m100% original.[0;33m [0m'
+[1;30m-──────────────────────────────-  [0;33m▀[0;1;30m▀[0m   [1;30m   -────────────────────────────────────-[0m'

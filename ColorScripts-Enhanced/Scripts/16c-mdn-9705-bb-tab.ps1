@@ -5,7 +5,7 @@
 # Source SHA-256: 49a1ad4daa85e573c1910ecb35bc9e91254a684f40a9868a2089af3fe9c26291
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BB-TAB.ANS by Bugs Bunny (Maiden Brasil); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Avatar Board
 # SAUCE Author: Bugs Bunny
 # SAUCE Group: Maiden Brasil
@@ -27,6 +27,6 @@ Write-Host '
 [1;35;45m             [0m [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;35m▄▄[0;1;35;45m ░ [0;35m▄▄[0;37m [0;34m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;34m▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;35m▄▄[0;1;35;45m░     [0;30;45m░ [0;1;35;45m      [0;35m▌[0m
 [35m▄▄[0;1;35;45m [0;35m▄[0;1;35;45m    [0;30;45m░[0;1;35;45m [0;30;45m...The[0;1;35;45m [0;30;45mAvatar[0;1;35;45m [0;30;45mBoard?![0;35;40m▄[0;1;35;45m                  [0;30;45m░░░[0;1;35;45m   [0;30;45m[Bb?!/Mdn][0;1;35;45m        [0;35m█████[0m
 
-[37m [0;1;37mOp. MinO_ [0m
- [1mBoard. Tab_[0m
+[37m [0;1;37m          [0m
+ [1m           [0m
  [1m+55-21[0m'

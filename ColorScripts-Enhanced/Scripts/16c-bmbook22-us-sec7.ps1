@@ -5,7 +5,7 @@
 # Source SHA-256: 742819af03f2e5c4761a16af07df136142ef7c82ebbadc4335ad15b4bd3470a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SEC7.ANS by Avenger + Zippy (bmbook22); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sector 7
 # SAUCE Author: zippy & ave
 # SAUCE Date: 20010301
@@ -30,7 +30,4 @@ Write-Host '
 [31;40m██   [0;37;40m  [0;31;40m▄▄██▄▄▄▄▄▄▄▄▄  [0;37;40m [0;31;40m ▀▀▀▀▀     ▄  [0;33;41m▓▓▓▓[0;31;40m ▄[0;37;40m [0;31;40m▀▀[0;33;41m▒▒▒▒▒▒[0;31;40m▀▀ ▄[0;33;41m▓▓▓[0;31;40m▀▀[0;33;41m▓▓▓▓▓[0;31;40m▄▄ ▒[0;33;41m▒▒▒[0;31;40m█[0m   [31;40m▒██[0m
 [31;40m██  ▄▄▄ ▀███████████▌  ███▀   ▄▄[0;1;34;41m░[0;31m██ [0m      [31m██▄▄[0m      [31m▄█ ▀▀▀▀[0m    [31m▀▀[0;33;41m▒▒▒▒░░[0;1;33;41m░[0;31m█▒[0m   [31m███[0m
 [31m██ ▐██[0;1;31;41m░░[0;31m█▄██▀▀███████  █▀ ▄▄▓▓▓███████████████ ▐██[0;1;34;41m [0;1;35;41m░░[0;31m██████▓▓▓▄▄[0m   [31m▀▀[0;33;41m░░░░[0;31;40m [0;37;40m  [0;31;40m████[0m
-[31;40m██ █████████▓▄  ▀▀███▄▄▄████████████████[0;1;30;41m░░░░░[0;31m█ ███████████████████▄▄[0m   [35m   [0;37m  [0;31m██[0;1;35;41m▄[0;31m█[0m
-
-[1;33mrulazippy und elitechefave did diz great anzi![0m
-[32mand are from da black maiden bunch![0m'
+[31;40m██ █████████▓▄  ▀▀███▄▄▄████████████████[0;1;30;41m░░░░░[0;31m█ ███████████████████▄▄[0m   [35m   [0;37m  [0;31m██[0;1;35;41m▄[0;31m█[0m'

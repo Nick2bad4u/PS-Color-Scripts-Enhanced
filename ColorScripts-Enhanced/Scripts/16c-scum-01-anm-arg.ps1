@@ -5,7 +5,7 @@
 # Source SHA-256: cfff8e8e9dd8dbdd97be0225f54c6f7c7fc67dc443df6f402d6bb0b83a88a7d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-ARG.ANS by anomite (scum (tm)); released in scum-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .. yeah..
 # SAUCE Author: anomite
 # SAUCE Group: scum (tm)
@@ -51,13 +51,4 @@ Write-Host '
 [34m ▐[0;1;34;44m░░▀▀▀█▓█▄[0;34m███▄[0m                                     [34m▄▄▄████[0;1;34;44m▄██▓▀▀[0;34m██[0;1;34;44m░░[0;34m█[0;1;34;44m  ▀▀▀[0;34m█▌ [0m
 [34m░[0;30;44m▓[0;34;40m▀▀▀▀█[0;1;34;44m░░▀▀▀▀■[0;34m██████████████████████████████████████[0;1;34;44m░░[0;34m██[0;1;34;44m■▀▀▀[0;34m█[0;1;34;44m░[0;34m██████[0;30;44m░[0;34;40m▓▀▀▀▀▀▀   [0m
                                                                     [34;40m░[0;30;44m▓[0m
-[1;30;40m----[0;1;36;40m  [0m
-  [1;36m   [0m
-
-[1;30mI was thinking about writing some bbs''s name down here,, but I didn''t have[0m
-[1;30ma bbs name to write her.. ;)[0m
-[1;30mSo.. I _[0mneed[1;30m_ requests from you guys. send ''em over at [0minsane@fix.no
-[1;30mAnd.. if you want this pic for your bbs, then send me [0m50[1;30mnok [0m
-[1;30m.. hehe.. I''m like.. [0mbroke[1;30m.. [0m
-
-anomite[1;30m...[0m'
+[1;30;40m----[0;1;36;40m  [0m'

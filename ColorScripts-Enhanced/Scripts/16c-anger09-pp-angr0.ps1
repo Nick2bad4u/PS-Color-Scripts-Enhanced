@@ -5,7 +5,7 @@
 # Source SHA-256: 2fc5a61d919691f951b720ccf32e529fa3fe9a63771d884d811ed1199bfac086
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-ANGR0.ANS by pixel_pusher (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: anger promo
 # SAUCE Author: pixel_pusher
 # SAUCE Group: anger
@@ -48,5 +48,4 @@ Write-Host '
 [1;32m░[0m [1;32m░▒▓[0;1;32;46m▌    ▐▓[0m  [1;32m░[0;1;32;46m█▀ ░▒▓▓[0m [1;32;46m▄▀   ░▓[0;1;32;40m▌[0m  [1;32;46m▓▌░░[0;36m█[0;1;32;46m░▓[0;1;32;40m░[0;1;32;46m▓[0;36m██[0;1;32;46m■▀[0;36m█[0;1;32;46m▐[0;36m░[0;37m [0;36m  [0;1;32m▐[0;1;32;46m▌[0;36m██[0;1;32;46m░[0;1;32;40m▓[0m [1;32;46m▄▀[0;36m███[0;1;32;46m░▓[0;1;32;40m▌[0m [36m░[0;1;32;46m▓▌░░[0;36m█[0;1;32;46m░▓[0;1;32;40m░[0;36m░▒ [0m
 [37m  [0;1;32m  ░█[0;1;32;46m░░ ░░▓[0;1;32;40m░[0m  [1;32;46m█▌   ▐[0;1;32;40m▌[0;36m░[0;1;32;46m▐░░   ░▓[0m [1;32m░[0;1;32;46m▓[0;36m███[0;1;32;46m [0;36m█[0;1;32;46m▓[0;1;32;40m░▐[0;1;32;46m▓[0;36m██[0;1;32;46m░░█[0;36m░[0;37m [0;36m░░[0;1;32;46m▓░[0;36m█[0;1;32;46m░▓[0;1;32;40m▌[0;36m░[0;1;32;46m▐▌░░[0;36m██[0;1;32;46m░▓[0m [1;32m░[0;1;32;46m▓[0;36m███[0;1;32;46m [0;36m█[0;1;32;46m▓[0;1;32;40m░[0;36m ░ [0m
 [36m░░[0;37m  [0;1;32m [0m [1;32m▀▀[0;1;32;46m▓▄▓█[0;1;32;40m▄▄▄[0;1;32;46m▓▓▄▄[0;1;32;40m▓▀▀▄[0;1;32;46m▓▄▄▄▄▄▓[0;1;32;40m░[0;36m [0;1;32m▄[0;1;32;46m█▄▄▓[0;1;32;40m▀▀  [0;36m [0;1;32m▀▀[0;1;32;46m▓▄▄▓[0;1;32;40m▄▄▄[0;1;32;46m▓▓▄▄▓[0;1;32;40m▀[0;36m [0;1;32m▄[0;1;32;46m▓▄▄▄▄▄▓[0;1;32;40m░[0;36m [0;1;32m▄[0;1;32;46m█▄▄▓[0;1;32;40m▀▀[0;36mp[0;1;36mp$[0m
-[1;36m  [0m        [1;36m a n g e r  p r o d u c t i o n s  1 9 9 6  . .  e a t  u  s[0m
-[1;36m       [0m            [1;36m  this thang; pixel pusher <anger>[0m'
+[1;36m  [0m        [1;36m a n g e r  p r o d u c t i o n s  1 9 9 6  . .  e a t  u  s[0m'

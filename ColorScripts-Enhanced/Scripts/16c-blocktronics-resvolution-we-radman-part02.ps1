@@ -5,29 +5,29 @@
 # Source SHA-256: 3adca4da873feb018487722aa8e645c633fa4209f5d5027c3c3d9337c78c6985
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-radman.ans by Avenging Angel + Rad Man (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 31-80
 # Columns: 1-80
 
 Write-Host '
-he''s been there since the start!, and he''s drawn brilliant ansis such as the
-ansi below!, and he also formed one of the most elite ansi groups out there
-ACID!.. i felt compelled to re-create radman''s masterpiece into what you see
-right now.. it only took me 30 mins to redo.. but radman, you are, and always
-will be that bacteria that started it all.. we all wanted to be like you
-and be able to draw like you.. we even wanted our own legal team to write out
-a we-will-sue.doc.. you were truly an an innovator, and only a genius mind like
-yourself would have been able to create we-will-sue.. because once.. i saw a
-radman ansi.. and i was so blown away by it i fell off my chair.. and i was
-going to sue acid/radman.. but.. i read we-will-sue.doc. and knew my chances of
-compensation were now zero.. but it was all thanks to you radman.. you saved
-all of us from being sued by kids.. it was you who made it possible, and had
-given us all a safe environment to safely draw ansi art for the masses.
-without we-will-sure.doc i wouldnt have considered drawing. i wouldnt have
-taken my artistic talents to a higher level either.. i would still be a
-professional farmer with cows.. and little chazzlings.
+                                                                            
+                                                                           
+                                                                            
+                                                                             
+                                                                        
+                                                                             
+                                                                               
+                                                                            
+                                                                           
+                                                                               
+                                                                            
+                                                                            
+                                                                       
+                                                                          
+                                                                       
+                                                      
 
-so once again.. THANK YOU RADMAN!, THANKS FOR EVERYTHING!, YOU COMPLETE ME..
+                                                                            
 
 
 

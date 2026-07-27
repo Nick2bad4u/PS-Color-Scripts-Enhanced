@@ -5,7 +5,7 @@
 # Source SHA-256: 445b394188770761ce8b140aa205802e4c5902182f012081e593ad24f7961264
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LEG.ANS by Knocturnal + Blue Devil (Divine Legacy); released in divine00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Divine Legacy - Literature + Ansi
 # SAUCE Author: BlueDevil/Knocturnal
 # SAUCE Group: Divine Legacy
@@ -37,20 +37,4 @@ Write-Host '
 [31m▄[0;1;31;41m▄[0;31m▄[0;37m [0;34m [0;31m▀[0;37m [0;31m▄[0;1;31;41m▄░[0;31m▄[0;37m [0;30;41m▓▓[0m      [1;30;40m▄[0;36m▄[0;1;30;46m▀▀[0;1;36;46m▄▄▌▀[0;1;36;40m▀[0;36m▀██▄[0;37m [0;36m▀[0;37m [0;31m▄[0;1;31;41m▄░[0;31m▄▓[0;37m [0;32m▐[0;37m [0;32m▐[0;36m [0;32m▀▀[0;1;37m▀[0;1;37;42m▀[0;1;32;42m▀▐▄[0;1;32;40m▄[0;32m▄▄[0;1;30m▀▀[0m [36m▐[0;1;37;46m██[0;1;36;46m▀[0;36m▀[0;1;30m▄▄ [0;36m▄[0;1;36;46m▄[0;36m▄[0;31m░[0;30;41m▓[0;31;40m ▄ ▀ [0;30;41m▓[0;31;40m░▀[0m
 [31;40m▌▀[0;37;40m [0;31;40m▄░[0;30;41m▓[0;31;40m  ▀▀[0;37;40m  [0;31;40m▀[0;1;30;40m ▄[0;36m▄▄[0;1;30m ▀[0;36m▀[0;1;36m▀▀▀[0;36m▀[0;37m [0;31m▄▓▄[0;37m [0;1;36;46m ▄██ [0;31m▄[0;1;31;41m▄[0;31m▄▀▀▄[0;1;31;41m▄[0;31m▄[0;1;30m▐[0m [32m▐[0;31m ▄[0;1;31;41m▄[0;31m▄[0;32m▌[0;37m [0;1;30m [0;32m▀▀▓▓▓▓[0;37m [0;36m▐[0;1;36;46m▄[0;36m█▄[0;1;37;46m▄[0;1;36;46m▄[0;36m█[0;1;30m▄[0m [36m▀[0;1;30m [0;36m▄[0;31m    ▄[0;1;31;41m▄▄[0;31m▄[0m
 [1;31;41m▒▄[0;31m▄[0;37m [0;31m ▀  ▄[0;1;31;41m▄[0;31m▄[0;1;30m▀[0;36m▀[0;37m  [0;31m ▄[0;1;31;41m▄[0;31m▄ [0;37m  [0;31m▄[0;1;31;41m▄[0;31m▄[0;37m [0;31m▀[0;36m▄[0;1;36;46m▄[0;36m▄▀▀▀[0;31m▄[0;37m [0;31m▀[0;37m    [0;31m▀▌[0;1;30m░[0m [32m▐[0;37m  [0;31m▀[0;37m [0;32m█[0;37m [0;31m▄[0;1;31;41m▄▒[0;31m▄[0;37m [0;31m▄[0;37m  [0;36m▐[0;37m  [0;1;30m▀[0;36m▀▀▄▓▄[0;37m  [0;1;30m ▀[0;31m▄[0;1;31;41m▄[0;31m▄▀[0;37;41m▀[0;1;31;40m▓[0;31m▀[0m
-[31m▀▀[0;37m [0;31m▀ ▄[0;37m [0;31m [0;37m [0;31m▀[0;37m   [0;31m [0;37m   [0;31m▀ [0;37m [0;31m▀[0;37m [0;1;30m [0;31m▀[0;1;30m▄[0;36m▀[0;1;30m  [0;36m▀[0m            [31m▌[0;37m  [0;32m▄[0m       [31m▀▀[0;37m [0;31m▀[0;1;31;41m▀[0;31m▀[0;37m [0;36m▐[0;37m [0;31m▄ [0;37m   [0;36m▀[0;1;30m [0;1;30;46m▀[0m [31m▀[0;37m  [0;31m▀ [0;37m  [0;31m [0m
-
-
-[1;34mIn the heavens, where the gods of ansi dwelled, they noticed, their powers     [0m
-[1;34mfading and the belief in ansi to be almost non existant. The gods of ansi had[0m
-[1;34mno ideas what to do. Some said lets just fade away in our age, others said let''s[0m
-[1;34mevolve into the higher arts.[0m [1;34mThen one of the gods cracked his voice, " Some men[0m
-[1;34mstill believe in ansi thus we should reward their homage and faith with one last[0m
-[1;34mlegacy, A Divine Legacy to continue on the ansi spirit and may it never die."[0m
-[1;34mThe Gods''s  nodded in agreement, an with that it was written and so it shall be[0m
-[1;34mDone. Bring forth the Divine Legacy and all it''s glory.[0m
-
-
-
-                        [1;34mBlue Devil[0m  [1;34mRCA/Avengecult/Divine Legacy[0m
-
-                               [1;34mKeeping It Alive[0m'
+[31m▀▀[0;37m [0;31m▀ ▄[0;37m [0;31m [0;37m [0;31m▀[0;37m   [0;31m [0;37m   [0;31m▀ [0;37m [0;31m▀[0;37m [0;1;30m [0;31m▀[0;1;30m▄[0;36m▀[0;1;30m  [0;36m▀[0m            [31m▌[0;37m  [0;32m▄[0m       [31m▀▀[0;37m [0;31m▀[0;1;31;41m▀[0;31m▀[0;37m [0;36m▐[0;37m [0;31m▄ [0;37m   [0;36m▀[0;1;30m [0;1;30;46m▀[0m [31m▀[0;37m  [0;31m▀ [0;37m  [0;31m [0m'

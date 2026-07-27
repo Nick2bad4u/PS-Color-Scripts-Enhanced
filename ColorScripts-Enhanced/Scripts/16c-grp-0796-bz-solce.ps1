@@ -5,7 +5,7 @@
 # Source SHA-256: 67156671de3749cf442b7b302d9078f5520b4a97ed098686e1e4f780e4ebd656
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ-SOLCE.ANS by bizzach (pX); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sOlAcE
 # SAUCE Author: bizzach
 # SAUCE Group: pX
@@ -16,7 +16,7 @@
 
 Write-Host '
 \[1;30m------------------------------------------------------------------------------[0;1;33m [0m
-[1;30m  [0m            [1;36m  [0m                            [1;35m,$$$[0m    [1;32m.gggggggggggggggg.[0;1;33m`$$$$$$$$b[0m
+[1;30m  [0m            [1;36m  [0m                            [1;35m    [0m    [1;32m                  [0;1;33m          [0m
 /[1;30m_________[0m  [1;36md$$,[0m   [1;31md$$$$$$$$$$$$$$$$$b[0;1;30m __[0m [1;35m,$$[0;35m$[0;1;35m$$[0m [1;30m__[0m [1;32m$$[0;32m$$$$[0;1;32m$$[0m [1;32m$$[0;32m$$[0;1;32;42m$[0;32m$$[0;1;32m$$[0m [1;33m$$$ $$$$$[0m
 $²$$$$$$"''[1;36md$[0;36m$$$[0;1;36m$$,[0m [1;31m$$[0;31m$$$$[0;1;31m$$[0m [31m [0;1;31m$$[0;31m$$$$$[0;1;31m$$[0m "[1;35m,$$[0;35m$$$[0;1;35m$$[0m $$ [1;32m$$[0;32m$$$$[0;1;32m$$[0m [1;32m$$[0;32m$$$$[0;1;32;42m$[0;1;32;40m$$[0m [1;33m$$$[0m [1;33m$$$$$[0m
 $s$$$"''[1;36ma"$$[0;36m$$$[0;1;36;46m$[0;36m$$[0;1;36m$$,[0;1;31m`$$[0;31m$$[0;1;31m$$[0m  [1;31m$$[0;31m$[0;1;31;41m$[0;31m$$$[0;1;31m$$[0m [1;35m$$[0;35m$$$[0;1;35;45m$[0;35m$[0;1;35m$$[0m "$ [1;32m$$[0;32m$[0;1;32;42m$[0;32m$$[0;1;32m$$[0m [1;32m$$[0;32m$$$$$[0;1;32m$$[0m [1;33m$$$[0m [1;33m$$$$$[0m
@@ -37,5 +37,5 @@ $²$$ [1;35m$$[0;35m$$$$[0;1;35;45m$[0;35m$$[0;1;35m$$[0;35m [0;37m  [0;
 $s$$$b[1;35m`$$[0;35m$$[0;1;35m$$$''[0m  [1;35m,$baaaaaa[0m ggggggggggg$$$$$$s$$$b[1;34m`$P''[0;1;32mss$$[0;32m$[0;1;32m$$[0m [1;32m$$[0;32m$$$[0;1;32;42m$[0;32m$[0;1;32m$$[0m [1;33m$$$[0m  [1;33m$$$$[0m
 $$$$$$$b[1;35m`$P''[0m   [1;35m,$$[0;35m$$$$[0;1;35m$$''[0ma$$$$$$$$$$$$$$$$$$$$$$$$s[1;33m [0;1;32m$$[0;32m$$[0;1;32;42m$[0;32m$[0;1;32m$$[0m [1;32m$$[0;32m$$$$$[0;1;32m$$[0m [1;33m$$$[0m  [1;33m$$$$[0m
 \[1;30m---------[0m [1;35m"a,$$[0;35m$$$$[0;1;35m$$''[0;1;30m-----------------------------[0;1;32m`$$$$$$$$$$$$$$$$''[0;1;33m.d$$,.$$$$[0m
- sOlAcE[1;30m¡[0mbBS  [1;35m$$[0;35m$[0;1;35;45m$[0;35m$[0;1;35m$$''[0m 33o[1;30m¡[0m638[1;30m¡[0mo117  aRT[1;30m¡[0mdEMOS[1;30m¡[0mmUSIC                [1;33maad$$$$$$$$$''[0m
+       [1;30m [0m     [1;35m  [0;35m [0;1;35;45m [0;35m [0;1;35m   [0m    [1;30m [0m   [1;30m [0m         [1;30m [0m     [1;30m [0m                     [1;33m             [0m
 /[1;30m_____________[0;1;35m`$$P''[0;1;30m_____________________________________________bZ[gRP]________[0m\[0m'

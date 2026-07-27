@@ -5,7 +5,7 @@
 # Source SHA-256: cfb6a6d41270be63aa38683cda0c84fbd1872d306ff04eefd551c2eb0cc46885
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw-birdprey.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 200-249
 # Columns: 1-80
 
@@ -59,4 +59,4 @@ Write-Host '
 [1;30m█[0m [1;31m▓█ [0;1;30m▄[0;1;30;47m▒▒[0m▄[1m▄[0m [1;31m▀[0;1;30m▄[0;1;30;47m▒▒[0m▌[1;31m▐[0m [1;30m▓[0m
 [1;30m█[0m [1;31m█▌[0;1;30m▐[0;1;30;47m▓▓[0;1;30;40m▌[0;1;31;40m▄[0;1;37;47m▐[0;1;37;40m█[0m [1;30m▐[0;1;30;47m▓▓[0;1;30;40m [0;1;31;40m▓[0m [1;30m▒[0m          [1m*[0ms[1;30mpecial [0mg[1;30mreetings [0mf[1;30mlying [0mo[1;30mut [0mt[1;30mo [0;1;37m*[0m
 [1;30m▓[0m [1;31m▀▀[0m [1;30m▀▀▀[0m▀[1m▀[0m [1;30m ▀▀▀[0m [1;31m▀[0m [1;30m░[0m
-[1;30m░[0m [36m* [0;1;36mM[0;36may [0;1;36m6[0;36mth [0;1;36m2[0;36m011![0;37m [0;1;30m▄[0m  U[1;30mnseenFate - [0mH[1;30mX! - [0mZ[1;30mlorfik - [0mR[1;30maDman - [0mZ[1;30mv - [0mE[1;30mnz0 - [0mA[1;30mvg[0m'
+[1;30m░[0m [36m  [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;36m [0;36m    [0;37m [0;1;30m▄[0m   [1;30m            [0m [1;30m     [0m [1;30m         [0m [1;30m        [0m [1;30m    [0m [1;30m      [0m [1;30m  [0m'

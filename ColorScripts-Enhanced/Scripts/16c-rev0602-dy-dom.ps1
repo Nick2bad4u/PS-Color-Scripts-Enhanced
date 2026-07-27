@@ -5,7 +5,7 @@
 # Source SHA-256: 54448b3de355b614b34013d4a438ed93c0efac9568a36d69202927ec7e1c77b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Dy-dom.ans by discyple (Revival); released in rev0602 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Dominion
 # SAUCE Author: discyple
 # SAUCE Group: Revival
@@ -38,5 +38,4 @@ Write-Host '
      [1m   [0m  `  `4l[1m ;$$$$$$$ [0m` [31m$[0;1;31m$$$$$$$.[0;31m`[0;1;31m$[0;31m.[0;1;31m [0;1;37m  [0ml[1m$ [0m           [31m/[0;37m [0;30m┘[0;37m [0;1;37m [0;1;31mYb[0;31m.[0;1;37m  [0;31m.[0;1;31md$[0;31m''[0;1;37m [0;1;33m.$$[0m
      [1m [0;1;30mb.[0;1;37m    [0;1;30mb.[0;1;37m [0m;[1m  [0m.d[1m$$$$l  [0m [1;31m `''/j$$$$┌$$[0;31m.[0;1;37m  [0ml;[1m [0m               [1m [0;31m`[0;1;31m  ,. `[0;31m''[0;1;31m [0;31m.$[0;1;33m$$[0m
      [1m [0;1;30m\$b[0;1;37m      [0;1;30m.[0;1;37m  [0m/[1m$$$$$;[0;31m.[0;1;37m [0m .[1m    [0;31m`[0;1;31m [0;31m/[0;1;31m$$$$[0;31m;[0;1;37m  '' [0;1;30m.[0m    [1;30m   [0m      [1m  [0;31m.[0;1;37m [0;1;31m 4$$b   [0;31m `4$[0m
-     [1;37m [0;1;30m  [0;1;37m    [0;1;30mdy[0;1;37m   [0;1;30m`[0;1;37m [0m`/$$;[31m 4b[0;37m [0;1;37m4┘[0m.[1m ,[0m.[1m _ [0;31m`[0;1;31m└┘[0;31m''[0;1;37mb[0;1;36m [0m [1m [0;1;30m`[0m    [1;30m    [0m [1;33m/[0m   [31m.d[0;1;31m$b  [0;31mY7''[0;1;31m [0;31m.$[0;1;31mb[0;31m.[0;1;31m [0;31m`[0m
-                                                           [1;37m                [0m'
+     [1;37m [0;1;30m  [0;1;37m    [0;1;30mdy[0;1;37m   [0;1;30m`[0;1;37m [0m`/$$;[31m 4b[0;37m [0;1;37m4┘[0m.[1m ,[0m.[1m _ [0;31m`[0;1;31m└┘[0;31m''[0;1;37mb[0;1;36m [0m [1m [0;1;30m`[0m    [1;30m    [0m [1;33m/[0m   [31m.d[0;1;31m$b  [0;31mY7''[0;1;31m [0;31m.$[0;1;31mb[0;31m.[0;1;31m [0;31m`[0m'

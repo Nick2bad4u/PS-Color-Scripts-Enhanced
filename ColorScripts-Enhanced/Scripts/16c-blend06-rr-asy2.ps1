@@ -5,7 +5,7 @@
 # Source SHA-256: 19b944dc4969bea83f486bb37ff046f1b0fadb2f755a9bfd2c466d189600591d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-ASY2.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the asylum
 # SAUCE Author: riddler
 # SAUCE Group: blend productions
@@ -26,6 +26,4 @@ Write-Host '
    [1;30m▐██▀▀▓████▄▄▄[0m [31m▐▀▀▀▀█▄[0;37m [0;30;41m██[0;1;30;40m▄██[0;1;30;43m▓[0m [30;41m▓░[0;31;40m█[0;30;41m▐[0;37;40m  [0;31;40m▄▄[0;30;41m▀░[0;31;40m██[0;1;31;40m▀[0;31m▀▀▌[0;1;30m ░▓[0;1;30;43m▓▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m▄▄▄ [0;31m▐▀▀▀█▄[0;37m [0;30;41m▓[0;1;31;41m▒[0;31m▌[0;37m [0;31m▀[0;1;30m░▓█▓░[0m
    [1;30m▀[0m   [1;30m  ░░[0m   [1;30m     ░▓▄▄[0m  [31m▀[0;37m [0;1;30m  [0m    [31m▐█▄█▀▀▀[0;30;41m▓[0;37;40m [0;1;30;40m        [0;35m  [0m   [35m   [0;1;30m    [0m     [31m▐[0;1;31;41m░[0;1;30;40m [0m   [1;30m [0m
         [1;30m [0m    [1;30m                 [0m  [31m▄▀▀▌[0;37m [0;1;30m     [0;1;37m t h e[0m  [1ma s y l u m[0m      [31m▄█▀[0m
-             [1;30m          [0;1;37m     [0m                [35m [0m    [35m [0m         [37m [0m     [37m [0;31m▀[0m
-
-                 [1;30m [0m'
+             [1;30m          [0;1;37m     [0m                [35m [0m    [35m [0m         [37m [0m     [37m [0;31m▀[0m'

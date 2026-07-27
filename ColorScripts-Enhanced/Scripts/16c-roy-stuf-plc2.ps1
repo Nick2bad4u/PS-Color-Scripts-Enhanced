@@ -5,7 +5,7 @@
 # Source SHA-256: 0f03052f60c222223dc9714c925447706442d831db66725a9d437f577c6b6bf4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PLC2.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -25,8 +25,4 @@ Write-Host '
          [1;30m▓░  [0;31m▓ ░    [0;1;30m▒[0;31m░   [0;1;30m▒  [0;31m▒   [0;1;30m▒[0m     [1;30m▓   [0;31m░ [0;1;30m▒[0m       [1;30m▒    ▓  [0;31m░ ▒  [0;1;30m▒   [0;31m▒  [0;1;30m▓ [0;31m░[0;1;30m▒[0m
          [1;30m▒[0;31m░  ▒[0m      [1;30m░    ░  [0;31m░   [0;1;30m░[0m     [1;30m▒[0m     [1;30m░[0m     [31m░ [0;1;30m░    ▒    [0;31m░  [0;1;30m░   [0;31m░  [0;1;30m▒  ░[0m
          [1;30m░   [0;31m░[0m      [1;30m░[0m           [31m░[0m     [1;30m░[0m             [31m░    [0;1;30m░[0m              [1;30m░[0m
-         [31m░[0m          [31m░[0m
-
-
-                         [33miNTRO CODiNG : [0;1;30mZ[0;32m80 & [0;1;30mT[0;32mSA[0m
-                           [33mGRAFiX[0m     [33m: [0;1;30mS[0;32mTEEL [0;1;30mR[0;32mAT [0;1;30mi[0;32mCE[0m'
+         [31m░[0m          [31m░[0m'

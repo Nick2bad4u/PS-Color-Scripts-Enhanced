@@ -5,7 +5,7 @@
 # Source SHA-256: d74c9048859fc6035775ac0ef8a82c54c3edbba46b0bea615f42faff47730ec4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-SMP.ANS by Shrimp (lure001); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -32,26 +32,23 @@ Write-Host '
   [34m▀▀▀▀▀[0;37m [0;34m▀ [0;1;34;44m█[0;34m ▀[0m         [1;30m▄▓░[0m    [1;30m█[0m        [1;30m█[0m     [1;30m█[0m [1;30m█▀[0m           [1;30m▀▀▀██▄▄▄[0m [1;30m▄[0m   [1;30m░░[0m [1;30m▄▄█[0m
   [1;30m░▄▄▄▄▄[0m  [34m▓[0;37m  [0;1;30m▄▄[0m  [1;34;44m░░[0m  [1;30m░░░░[0m  [1;30m▀▀▀▀▀░░░░[0m  [1;30m█[0m   [1;30m░█▀▀▀▀▀▀[0m      [1;30m▀▀[0m [1;30m░[0m          [1;30m░░░░[0m [1;30m░[0m
   [1;30m░[0m       [34m░[0m   [1;30m█▄▄[0m [1;30m▄[0m          [1;30m░[0m        [1;30m▀▀▀▀▀▀[0m
-              [1;30m▄[0m        holy shit, this sucks                [1mLoOK! I''M SHRIMP![0m
-                                                       [1m [0m   [1m-[0msargon[[1mHOMO[0m], 1998
+              [1;30m▄[0m                                             [1m                 [0m
+                                                       [1m [0m   [1m [0m       [1m    [0m       
 
-[34mBonjour mes amis. Je sais peu Francais maintnant, apres j''ai apris Francais[0m
-[34mpendant deux ans á mon lycee. C''est un langue terible et je ne l''aime pas, mais[0m
-[34md''apres moi, c''est un bon chose savoir quelques langues. Uh. Vous pensez que [0m
-[34mje suis un arriere - c''est vrai, mais je ne donne un fuck pas. Si tu es francais[0m
-[34mparle avec moi! Ce sera genial! Oh oui oui! [0m
+[34m                                                                           [0m
+[34m                                                                               [0m
+[34m                                                                             [0m
+[34m                                                                                [0m
+[34m                                            [0m
 
 
-[1;37mVIVA LA FRANCE![0;34m [0m    [1;37m,[0m
-[1mCET ANSI EST DEDICATE AUX TOUS LES FRENCHIES OUT THERE![0;34m [0m
+[1;37m               [0;34m [0m    [1;37m [0m
+[1m                                                       [0;34m [0m
 
-[34mExcuse my French, s''il vous plait.[0m
+[34m                                  [0m
 
 
                              [34m▀██[0;1;37;44m▀[0;1;37;40m██[0;1;37;41m▄ [0;31m█▄[0m
                              [31m [0;34m▐██[0;1;37;44m▐[0;1;37;40m██[0;1;37;41m▌[0;31m██▌[0m
     [1;37mgwitz: tna[0m               [34m▄██[0;1;37;44m▄█[0;1;37;40m█[0;1;37;41m▀  [0;31m▀[0m
-                            [34m▀▀▀[0;1;37m▀▀▀[0;31m▀▀▀[0m
-
-[31m"...Judas, one of the twelve, came, and with him a great multitude with swords[0m
-[31mand staves, from the chief priests and elders of the people of Israel..."[0m'
+                            [34m▀▀▀[0;1;37m▀▀▀[0;31m▀▀▀[0m'

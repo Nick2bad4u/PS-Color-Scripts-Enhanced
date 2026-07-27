@@ -5,7 +5,7 @@
 # Source SHA-256: 4e5d80bb27bd83594a7af6410b43304fe32b057c7649b2a2bc18051c100c2fa7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DN-ENT01.ICE by dreadnought (iCE); released in ice9706a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: entropy matrix
 # SAUCE Author: dreadnought
 # SAUCE Group: iCE
@@ -40,9 +40,4 @@ Write-Host '
 [33;40m█████[0;1;31;43m  ▐[0;1;31;40m█[0;1;31;43m▀[0;1;31;40m█████[0;1;31;43m▄[0;33m▄░[0;1;31m  [0;31m [0;1;31m ▐████████[0;1;31;47m▓▓▀[0;1;31;40m▀▀[0m         [32m     [0;31m▐▀[0;1;31m▀▀▀[0m       [30;41m▓▓[0m
 [33;40m▀▀▐████[0;1;31;43m░▀▐[0;1;31;40m████████[0;1;31;43m▄[0;1;31;40m▄▄▄▓███▌▀▀▀▀[0m      [30;43m▓▓▓[0;37;40m [0;30;43m██[0;32;40m  [0;1;30;40m(C) Copyright 1997 dreadnought/iCE[0m
        [33m▀▀▀[0;1;31m▀▀▀▀▀▀▀▀▀▀[0m
-<CUT>---------------------------------------------------------------------<CUT>
-
-[1;36mNotes[0m   [1;30m:[0m       Matrix screen for elastic''s Entropy.  Give my page a visit at:
-                http://www.ice.org/~dn.
-
-[1;36mStatus  [0;1;30m:       [0mI do not do requests.  Do not ask.[0m'
+<CUT>---------------------------------------------------------------------<CUT>[0m'

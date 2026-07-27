@@ -5,7 +5,7 @@
 # Source SHA-256: 64fe40e25689fed4165c5197adfefbfd27a57254ca3f9e1b17caf4ee359634ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-HEAD.ANS by bizzarro (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: headers
 # SAUCE Author: bizzarro
 # SAUCE Group: nerp
@@ -31,13 +31,4 @@ Write-Host '
     [1;33;40m░[0;1;33;46m░░░░░[0m
      [1;33m░░░░░[0m
 
-──+#+───  ─-─  ─── ── ─   ─    ───--  +- +─────   ── ─ ─ ──#─ ──── ─ ─-+─ ─ ─+──
-
-header number one:
-a oneliner header for my board, icebreaker
-header number two:
-a header for lunchbox
-header number three:
-a joint header between me and milkman for his board, lunchbox
-header number four:
-a header for my board[0m'
+──+#+───  ─-─  ─── ── ─   ─    ───--  +- +─────   ── ─ ─ ──#─ ──── ─ ─-+─ ─ ─+──[0m'

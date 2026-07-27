@@ -5,7 +5,7 @@
 # Source SHA-256: 1b7e14092272c02c3d42141a6a499fff604d72e462bd33a23b28f801246403a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-DIRT.ANS by Shrimp (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dirt 1983
 # SAUCE Author: Shrimp
 # SAUCE Group: AWE Lettering
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-shrimp[1mawe[0m             [35m [0;37m [0m                   [1;37m░[0m
+      [1m   [0m             [35m [0;37m [0m                   [1;37m░[0m
 [35m [0m       [1;30m [0m  [30;44m▓[0;35;40m▄[0m         [35;40m▄[0m                                [1;30;40m▄▄[0m   [1;30m▀▀[0m
   [35m▄[0;37m [0m      [35m░[0;34;45m░[0;1;35;45m▒[0;35m▌░[0m     [35m▄[0;1;35;45m▓[0;35m▀[0m    [35m▄[0;1;35m▄[0m [1;35m▀[0m [35m▄[0;1;35m▄[0m [35m▀[0;1;35m▀[0m         [1;30m▄▄▄▄▀▀▀[0m  [1m▄[0m                [1;30m▀[0m [1;30m▄[0m
    [35m▄[0;37m [0;35m░░[0m    [35m ▀[0;1;35;45m░[0;30;45m░[0;35;40m▓▄▄▀[0;1;35;45m░▒[0;35m▀[0;37m [0;35m▄▄[0;1;35;45m▓[0;1;35;40m▀[0;35m▄[0;1;35m▄[0;35m▀[0;1;35m▀[0m          [1;30m▄▄[0;1;30;47m▓▓▓[0;1;30;40m▀▀[0m   ▄[1m▀[0m                 [1;30m [0m    [1;30m [0m

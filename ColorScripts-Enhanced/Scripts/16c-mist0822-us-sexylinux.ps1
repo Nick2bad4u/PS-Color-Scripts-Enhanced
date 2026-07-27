@@ -5,7 +5,7 @@
 # Source SHA-256: ab6527301d1e5ad720243ae030af2093c8285bcc4a1a9c61edfe502cdd2bff14
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SEXYLINUX.ANS by LDA + Oddfirefox + Meatlotion (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Linux Is Sexy
 # SAUCE Author: ML, Odd, LDA
 # SAUCE Group: Mistigris
@@ -18,7 +18,7 @@
 
 Write-Host '
 [1;32mf[0m      [1;32mß[0m   [32mß7[0;37m     [0;32m#[0;37m   [0;1;32mσ[0m [32m-»[0;37m     [0;32mR[0;37m     [0;32ma   Γ[0;37m  [0;32mæ[0;37m [0;32mr[0;37m  [0;32mσΓ[0;37m [0;32mr[0;37m    [0;32m1[0;37m [0;32m2[0;1;32mh[0m   [32mφ[0;37m [0;32mΦ[0;37m    [0;32m3[0;37m [0;32ms5[0m
-[1;32mF[0m  [32ms       lda[0;37m [0;32m"[0;37m  [0;32mt[0;1;32mK[0m    [32mC[0;1;32mT[0m     [32mT7[0;37m    [0;32mV  [0;1;32mα[0m   [32mG[0;37m    [0;1;32m3  [0;32mN[0;37m    [0;1;32m$[0;32mr[0;37m    [0;32mad[0;37m   [0;32mh[0;37m  [0;32m5[0;37m [0;1;32mY[0;32mÆ[0;37m  [0;32mM[0m
+[1;32m [0m  [32m           [0;37m [0;32m [0;37m  [0;32m [0;1;32m [0m    [32m [0;1;32m [0m     [32m  [0;37m    [0;32m   [0;1;32m [0m   [32m [0;37m    [0;1;32m   [0;32m [0;37m    [0;1;32m [0;32m [0;37m    [0;32m  [0;37m   [0;32m [0;37m  [0;32m [0;37m [0;1;32m [0;32m [0;37m  [0;32m [0m
 [37m   [0;32mV![0;37m  [0;32mi[0;37m    [0;32mH[0;37m  [0;32mt[0;37m     [0;1;36m█[0m  [32mt[0;37m  [0;1;36m▀[0m  [36m▄[0;1;36m▄▄[0m  [1;36m▄[0m [32mg[0;37m [0;1;36m▄[0m [1;36m▄[0m     [1;36m▄[0m [32mY[0;37m       [0;32mt[0;37m     [0;1;32m7[0m [32mt[0;37m  [0;32mß[0;37m  [0;32my[0;37m  [0;32mH[0;37m  [0;32mi[0m
 [37m   [0;32mg;[0;37m  [0;32mΓ[0;37m    [0;1;32mt[0m  [32mG[0;37m [0;36m▄▌[0;37m  [0;1;36;46m▓[0m  [32mX[0;37m  [0;1;36;46m█[0m [1;36;46m▓[0m  [1;36;46m▀▄[0m [1;36;46m▀[0m [1;32m)[0m [1;36;46m▀[0m  [1;36m▀▄[0m [1;36m▄▀[0m    [1m■[0m  [1m▄▄▄[0m■  [36m▐▄[0;37m [0;1;32m%[0m    [32m$[0;37m    [0;32m8[0;37m   [0;1;32m5[0m
    [1;32md[0;32mk[0;37m  [0;1;32mL[0;32m       [0;1;32m¶[0m [36m▀▄[0;37m  [0;1;36;46m▒[0m  [1;32m<[0m  [1;36;46m▒[0m [1;36;46m░[0m   [1;36;46m▄[0m [1;36;46m▀[0m   [1;36;46m■[0m   [1;36m▄▀▄[0m     [1m█[0m ▀[1m■▄▄[0m   [36m▄▀[0;37m   [0;32m1[0;37m    [0;1;30m▄[0m  [1;32m&[0m   [1;32m7[0m
@@ -38,6 +38,6 @@ Write-Host '
    [32mb[0;37m     [0;1;30m■▄[0;32m    [0;1;30m▄[0m  [1;30m▄█▀[0m  [32m½Ω[0;37m [0;1;30m▀[0m   [1;30m▀█▀[0m   [1;30m▄■[0m [32mg[0;37m  [0;32m₧[0;37m   [0;1;30m▌[0;1;30;47m▌[0;1;37;40m██[0;1;37;47m▒[0;1;30;47m▐[0;1;30;40m▐▌ ▒▒[0m [35m▌[0;1;35;45m░[0;35m▀[0;37m     [0;1;30m▄[0m  [1;30mlda[0m    [32mσ[0m
 [37m [0;32mε[0;37m [0;32mcH[0;37m   [0;32ma[0;37m [0;1;30m▀[0m     [1;30m▀█▀[0m [32mπ[0;37m  [0;32m≤[0;1;32ml[0m    [32md[0;37m         [0;32mY[0;37m      [0;33m▄[0;1;33m▄[0;1;30m▀[0;33m▄[0;1;33m▄[0;1;30m│▀[0m      [35m▓[0;37m  [0;32mΓ[0;37m    [0;32mτ[0;37m      [0;32mY[0;37m [0;1;32mß[0m
 [1;32m5[0m  [32mg[0;1;32mJ[0m  [32md§[0;37m   [0;32mF[0;37m       [0;32mD[0;37m  [0;1;32m²[0m     [32mτ[0;37m         [0;1;32m^[0m      [33m~~[0;37m [0;33m~~[0;37m   [0;32mµ[0;37m         [0;32mu[0;37m  [0;1;32m7[0m     [32m¥[0;1;32mt[0m
-  [32mm[0;37m    [0;32mW[0;1;32m%[0m   [32mip[0;37m   [0;36m$ who | grep -i blonde | date; cd ~; unzip; \  [0;32m7 d[0;37m [0;32m#[0;37m    [0;32mch[0;37m [0;32mb[0m
-[37m  [0;1;32mj[0m    [32m![0;37m    [0;1;32m5[0;32mm[0;37m   [0;36m> touch; strip; finger; mount; gasp; \         [0;32mµ[0;37m [0;1;32mpd[0;32mx[0;37m    [0;32mX[0;37m  [0;1;32mφ[0m
-       [1;32m↕[0;36m     [0;1;32mt[0;36m   > yes; uptime; umount; sleep                     [0;32mδ[0;37m      [0;1;32mc[0m'
+  [32m [0;37m    [0;32m [0;1;32m [0m   [32m  [0;37m   [0;36m                                               [0;32m   [0;37m [0;32m [0;37m    [0;32m  [0;37m [0;32m [0m
+[37m  [0;1;32m [0m    [32m [0;37m    [0;1;32m [0;32m [0;37m   [0;36m                                               [0;32m [0;37m [0;1;32m  [0;32m [0;37m    [0;32m [0;37m  [0;1;32m [0m
+       [1;32m↕[0;36m     [0;1;32m [0;36m                                                    [0;32m [0;37m      [0;1;32m [0m'

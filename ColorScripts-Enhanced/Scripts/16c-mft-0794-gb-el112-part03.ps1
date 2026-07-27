@@ -5,7 +5,7 @@
 # Source SHA-256: 42de1b8e77ff9fdf09ecbeedceb6324fabd61e00ca7b2423da36f0d585413e90
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GB-EL112.ANS by Gambit (mft-0794); released in mft-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 84-122
 # Columns: 1-80
 
@@ -43,9 +43,4 @@ Write-Host '
            [1m▀[0m           [1m▀▀▀█▄ ▀[0m           [1m▀▀▀█▄[0m                     [1m▀▀ ▄[0m
                              [1m▀[0m                 [1m▀[0m
 
-                       [1mE L E M E N T[0m         [1m1 1 2[0m
-                       SYSOP:    ZENITH BLITZKRIEG
-                       [1;30mIN  THE 8O3 AREA - FIND  IT[0m
-
-[1;37mINNOVATED [0mBY:
-[1;30mGAMBIT [MANIFEST INNOVATIONS][0m'
+                       [1mE L E M E N T[0m         [1m1 1 2[0m'

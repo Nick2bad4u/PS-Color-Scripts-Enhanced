@@ -5,7 +5,7 @@
 # Source SHA-256: 0719e79d04d5e527f3027b49b08cee6a376e20baf55525f2828b0509cc5e5cef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-SKULL.ANS by Sarcasm (ViBE); released in vibe0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Skull
 # SAUCE Author: Sarcasm
 # SAUCE Group: ViBE
@@ -21,15 +21,15 @@ Write-Host '
 [1;30m▓ [0m    [1;36m   [0m  [1;30m▄▄▄■▄[0m           [1;30m ▓[0m               [1;30m░[0m                    [1;30m▒[0m
 [1;30m▒ [0m      [1;30m▄░▀▀░[0m  [1;30m▀▀[0;1;36m    [0m    [1;36m  [0;1;30m ▓[0m  [1;30mSarcasm[0m²[1;30m:[0m                         [1;30m░[0m
 [1;30m░ [0m    [1;30m ▓█■[0m      [1;30m▄░▀▀▀█▄░[0m ²  [1;30m█[0m  [1;30mI drew skull because Im a crazy psycho[0m...
-[1;30m  [0m  [1;36m [0m [1;30m▐██▌[0m    [1;30m [0;1;30;47m▓[0;1;30;40m█▌[0;1;36;40m [0m   [1;30m▀▀■[0m   [1;30m█[0m  [1;30mI plan on killing your dog[0m,[1;30m then Your Parents[0m...
+[1;30m  [0m  [1;36m [0m [1;30m▐██▌[0m    [1;30m [0;1;30;47m▓[0;1;30;40m█▌[0;1;36;40m [0m   [1;30m▀▀■[0m   [1;30m█[0m  [1;30m                          [0m [1;30m                  [0m   
 [1;30m  [0m [1;30m░░░▓▓▓▓▓░░░▓▓▓▓░░░░[0m      [1;30m█[0m  [1;30mThen Your Friends[0m...[1;30m Then Your Work Buddies[0m...
-[1;30m  [0m      [1;30m▀█[0;1;30;47m▓[0;1;30;40m█▄▄[0m [1;30m▀█[0;1;36m  [0m         [1;30m▓[0m  [1;30mThen The People Who Owe You Money... Then Th[0m---
+[1;30m  [0m      [1;30m▀█[0;1;30;47m▓[0;1;30;40m█▄▄[0m [1;30m▀█[0;1;36m  [0m         [1;30m▓[0m  [1;30m                                            [0m   
 [1;30m  [0m         [1;30m░▀▀▀■▄   [0;1;36m [0;1;30m▄▄■▀[0m   [1;30m▓[0m
 [1;30m  [0m             [1;30m▀██■▀▀▀[0m [1;30m░[0m    [1;30m▓[0m  [1;30mCryptical:[0m
-[1;30m  [0m       [1;30m      ▐█[0;1;30;47m▓[0;1;30;40m▌  [0m       [1;30m█[0m   ---[1;30mDave[0m...[1;30m Dave[0m! [1;30mDave[0m!![1;30m The ANSi[0m!
+[1;30m  [0m       [1;30m      ▐█[0;1;30;47m▓[0;1;30;40m▌  [0m       [1;30m█[0m      [1;30m    [0m   [1;30m     [0m  [1;30m    [0m  [1;30m         [0m 
 [1;30m  [0m    [1;30m■▄[0;1;36m [0m     [1;30m░▐▓█ [0m         [1;30m█[0m
 [1;30m  [0m     [1;30m░▀█▄▄▄▄█▀ [0m          [1;30m░▌ [0m [1;30mSarcasm: [0m
-[1;30m [0m   [1;30m░[0m                     [1;30m█▀[0m   [1;30mOh yeah[0m..[1;30m The ANSi[0m..[1;30m here it is[0m...
+[1;30m [0m   [1;30m░[0m                     [1;30m█▀[0m   [1;30m       [0m  [1;30m         [0m  [1;30m           [0m   
 [1;30m ▓[0m                 [1;30m▄▄▄▄▄▀▀▓[0m  [1;30m░[0m
 [1;30m █▄▄▄▄▄▄▄▄▄▄▄▓▄▄▀▀▀[0m
   [1;30m [0m   [1;30m▀[0m   [1;30m [0m                 [1;36m▄▄▄■████████[0;1;30m▓[0;1;36;47m██[0;1;36;40m▄▄▄[0;1;30;40m░[0m
@@ -56,6 +56,6 @@ Write-Host '
 
 
 
-  [1mPoor Jonny... Shouldnt of eaten that squirl-sandwitch from the corner store...[0m
-  [1mLook''s Like A Little of That nuculer Shit has worn off on the corner store''s[0m
+  [1m                                                                              [0m
+  [1m                                                                            [0m
   [1mfood...[0m'

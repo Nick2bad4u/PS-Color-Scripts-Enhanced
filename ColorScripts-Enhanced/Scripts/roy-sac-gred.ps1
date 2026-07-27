@@ -5,7 +5,7 @@
 # Source SHA-256: b4297940f4b725103815ef987de1aa20f78b742ef5373bdf1561b14aab2d3ea8
 # Source License: FAL-1.3
 # Source Attribution: ROY-GRED.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -26,4 +26,4 @@ Write-Host '
 [1;30m  [0;1m┌────────[0;1;34m─[0;1m─[0;1;34m──[0;1m─[0;1;34m─────────────────────────────────────────────[0;34m─[0;1;34m──[0;34m─[0;1;34m─[0;34m─────────┐[0m
 [34m  [0;1m│ A [0;1;30m░ [0;1mS [0;1;34mU P E R I O R [0;1;30m░ [0;1mA [0;1;34mR T [0;1;30m░ [0;1mC [0;1;34mR E A T I O N S [0;1;30m░ [0;1mP [0;1;34mR O D U C T I O N! [0;34m│[0m
 [34m  [0;1m└────────[0;1;34m─[0;1m─[0;1;34m──[0;1m─[0;1;34m─────────────────────────────────────────────[0;34m─[0;1;34m──[0;34m─[0;1;34m─[0;34m─────────┘[0m
-[34m  [0;1;30m░▒▓▒░ THE ULTIMA[0;32mTE PC-BOARD O[0;1;33mNLINE GAME  [0;32m(c)1996 CYZ/SAC-P[0;1;30mPE SECTION ░▒▓▒░[0m'
+[34m  [0;1;30m░▒▓▒░           [0;32m             [0;1;33m            [0;32m                 [0;1;30m           ░▒▓▒░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ce0c016e1a693821d5ba51125feb2597941dc0e2b8f068089e65031b6d7c4b9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-CYBER.ANS by Proctologist (SeNSE); released in sense13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cyber Phreak's inits
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNSE
@@ -35,8 +35,8 @@ Write-Host '
                       ,d*╜ⁿ"^`    `4$$$$$$$$P`    `^"ⁿ╜b,
                      `              `"ⁿ╨╨ⁿ"`             `
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mCyber Phreak> I hope that''s small enough.  I have trouble doing really small[0m
-[1;30mstuff cuz then I can''t add so much detail.  I like having more to work with.[0m
-[1;30mThis one almost looks like some sort of police badge or something. :)[0m
+[1;30m                                                                            [0m
+[1;30m                                                                            [0m
+[1;30m                                                                     [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

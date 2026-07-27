@@ -5,7 +5,7 @@
 # Source SHA-256: 9b2011f8bcdff0c7ccf31b23d7551627f463feb2e8e6e88d25695481933c93a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRS-SHD1.ANS by Crasher + Shadow (galza); released in buzina7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: locust_star
 # SAUCE Author: shadow [buzined crs]
 # SAUCE Group: galza
@@ -56,11 +56,4 @@ Write-Host '
 
 
 
-                     [1;30m│││[0;1;37m [0m[[1m [0m [1ml o c u s t [0;32m│[0;1;37m s t a r[0m  ] [1;30m│││[0m
-
-
-
-
-
-                                                               [1;30moriginal[0m [1;30mby shd.[0m
-                                                            [1;30mcolored[0m [1;30mby[0m [1;30mcrasher![0m'
+                     [1;30m│││[0;1;37m [0m[[1m [0m [1ml o c u s t [0;32m│[0;1;37m s t a r[0m  ] [1;30m│││[0m'

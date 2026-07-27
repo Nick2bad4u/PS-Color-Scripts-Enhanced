@@ -5,7 +5,7 @@
 # Source SHA-256: 6a79282927f20eb09789205b8d88b54a5fbe7d03cc3116caf1889a093b33b6dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-TFDG.ANS by Donut Hole (Fire); released in fire1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Flying Donuts
 # SAUCE Author: Donut Hole
 # SAUCE Group: Fire
@@ -29,6 +29,4 @@ Write-Host '
 [32;40m▐█████[0;30;42m░  [0;32;40m█[0;30;42m░[0;32;40m███▌ [0;33;40m██[0;1;33;43m░[0;33m██[0;33;43m [0;1;30;43m░░[0;33m█ [0;32m░███[0;30;42m░[0;32;40m██▌ [0;33;40m▓[0;1;33;43m▒▓[0;33m████[0;1;30;43m░░[0m [30;42m▌░▒     [0m [33;40m▐[0;1;33;43m▓▒░[0;33m█[0;1;33;43m░ [0;33m██[0;1;30;43m░░░[0;33m█▀ [0;32m▄███████[0;32;42m [0;30;42m░[0m
 [30;40m [0;32;40m▀█[0;30;42m░[0;32;40m█▀▐█▀█░██▀▒  [0;33;40m▀[0;33;43m [0;33;40m██▓█▀ [0;32;40m▄█▓█▌ ▀██▄ [0;33;40m▀[0;33;43m  [0;33;40m██[0;1;30;43m░░[0;33m▀ [0;33;42m  [0;30;42m▓ ▄ ░ [0;32;40m▄ [0;33;40m▀[0;33;43m   [0;33;40m███[0;1;30;43m░░[0;33m█▀ [0;32m▄▀██▓██[0;30;42m░[0;32;40m▌▀█▀[0m
 [32;40m   [0;30;42m▓[0m          [32;40m░[0m            [32;40m░  ▀[0m                                      [1;30;40mdh[0;32m░[0;1;30mfire[0m
-[1;30m-─────────────────────────────────────────────────────────────────────────────-[0m
-
-[33mThe Flying Donuts[0;1;33m.[0;33mSys:Donut Hole[Fire][0;1;33m.[0;33mCoSys:Ktulu[Relic][0;1;33m.[0;33m(404)578-8558[0;1;33m.[0;33mFireWHQ[0m'
+[1;30m-─────────────────────────────────────────────────────────────────────────────-[0m'

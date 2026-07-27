@@ -5,7 +5,7 @@
 # Source SHA-256: 987a3fefb845e15c4988dac2cc2506db94b8ef4fd4783b4fcb120beac051825d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DP!PSATC.ANS by Dead Piranha (arsin-03); released in arsin-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -39,7 +39,7 @@ Write-Host '
 [1;30;40m [0;1;30;41m▓▒░░░ [0;33;41m░▒░ [0;1;30;41m░■▀▀▀▀▀▒░░ [0;33;41m░░▒▓░  [0;1;30;41m▀▀▀▀▀▒▄▄▄░░░░▄▄▄▒▀▀▀▀▓▒░ ░░░░  ░░▒▀▀▀▀■ [0;33;41m░    [0;1;30;41m░░░▒▓[0m
 [1;30;40m [0;1;30;41m░░  [0;33;41m░░ [0;1;30;41m░░   [0;33;41m░░ ░        ░   ░░▒░░  ░ [0;1;30;41m▀  ▀     [0;33;41m░░▒░      ░░░▒▓░▒░░░░  ░▒ [0;1;30;41m░   ░░[0m
 [1;30;40m [0;1;30;41m░ [0;33;41m░▒▓░    ░░  ░ [0;1;33;41mP[0;1;37;41mi[0;1;33;41mM[0;1;37;41mE[0;1;33;41mNT[0;1;37;41mO[0;1;33;41mR[0;1;37;41m, [0;1;33;41mG[0;1;37;41mo[0;1;33;41md [0;1;37;41mo[0;1;33;41mf [0;1;37;41mA[0;1;33;41mll Th[0;1;37;41ma[0;1;33;41mt Wh[0;1;37;41mi[0;1;33;41mch D[0;1;37;41moe[0;1;33;41ms N[0;1;37;41mo[0;1;33;41mt S[0;1;37;41mu[0;1;33;41mck[0;1;37;41m,    [0;33;41m░░░      [0;1;30;41m░ ░[0m
-[1;30;40m [0;1;30;41m [0;33;41m░ ░   [0;1;31;41m░ [0;1;33;41mb[0;1;37;41me[0;1;33;41mst[0;1;37;41mo[0;1;33;41mws th[0;1;37;41mi[0;1;33;41ms h[0;1;37;41mo[0;1;33;41mn[0;1;37;41mo[0;1;33;41mr r[0;1;37;41ma[0;1;33;41mr[0;1;37;41me[0;1;33;41mly[0;1;37;41m, a[0;1;33;41mnd [0;1;37;41mo[0;1;33;41mnl[0;1;37;41my u[0;1;33;41mnt[0;1;37;41mo [0;1;33;41mth[0;1;37;41mo[0;1;33;41ms[0;1;37;41me [0;1;33;41mm[0;1;37;41mo[0;1;33;41mst w[0;1;37;41mo[0;1;33;41mrthy[0;1;37;41m!    [0;1;31;41m░░    [0m
+[1;30;40m [0;1;30;41m [0;33;41m░ ░   [0;1;31;41m░ [0;1;33;41m [0;1;37;41m [0;1;33;41m  [0;1;37;41m [0;1;33;41m     [0;1;37;41m [0;1;33;41m   [0;1;37;41m [0;1;33;41m [0;1;37;41m [0;1;33;41m   [0;1;37;41m [0;1;33;41m [0;1;37;41m [0;1;33;41m  [0;1;37;41m   [0;1;33;41m   [0;1;37;41m [0;1;33;41m  [0;1;37;41m   [0;1;33;41m  [0;1;37;41m  [0;1;33;41m  [0;1;37;41m [0;1;33;41m [0;1;37;41m  [0;1;33;41m [0;1;37;41m [0;1;33;41m    [0;1;37;41m [0;1;33;41m    [0;1;37;41m     [0;1;31;41m░░    [0m
 [1;31;40m [0;1;31;41m  [0;33;41m░ [0;1;31;41m░░    ░   ░░░       [0;1;33;41mF[0;1;37;41mea[0;1;33;41mr P[0;1;37;41mi[0;1;33;41mM[0;1;37;41mE[0;1;33;41mNT[0;1;37;41mO[0;1;33;41mR [0;1;37;41ma[0;1;33;41mnd H[0;1;37;41mi[0;1;33;41ms w[0;1;37;41mi[0;1;33;41mzd[0;1;37;41mu[0;1;33;41mm[0;1;37;41m!   [0;1;31;41m░ ░░    ░   ░░░       [0m
 [1;31;40m [0;31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [31m ▒▒[0;1;37m╔═[0m══[1;30m════════════════════════════════════════════╗[0;31m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
@@ -49,9 +49,6 @@ Write-Host '
 [31m   [0;1;30m║    [0;31m▀[0;31;47m▓  [0;1;37;47m░~ ░[0;36;47mφ[0;37;40m▌[0m         [1;31;40m▀[0;1;31;41m▒▄▄[0;1;31;40m▀[0m              ▀▄[1;47m░[0m  [1;30;40m║  [0;1;36;40m([0;36m209) [0;1;36m5[0;36m49-[0;1;36m7[0;36m980[0m
 [36m   [0;1;30m║[0m     [31m▌▀[0;31;47m▒[0;37;40m▀▀▀▀▀[0m          [34;40m▐▓▒▓▌[0m                   [1;30;40m║  [0;1;31;40mS[0;31mysOp: [0;1;31mT[0;31mhe [0;1;31mK[0;31marate [0;1;31mK[0;31mid[0m
 [31m   [0;1;30m║[0m      [31m■[0m                [34m░▒▓▒░[0m                   [1;30m║  xXxXxXxXxXxXxXxXxXxXxXx[0m
-[1;30m   ║ [0;35mFive out of four[0m       [34m░▒░░ [0;1;37mThe Connection [0;1;35mis [0;1;30m║  [0;1;31mU[0;31msin'' [0;1;31mR[0;31menegade [0;1;31m5[0;31m-11 [0;1;31mE[0;31mxp[0m
-[31m   [0;1;30m║ [0;35mshovel slayers agree: [0;34m░ ░   [0;1;35mthe place to be!  [0m║  [1;30mxXxXxXxXxXxXxXxXxXxXxXx[0m
-[1;30m   ╚════════════════════════════════════════════[0m══[1m═╝  [0;1;31mC[0;31mall [0;1;31mI[0;31mMMEDIATELY[0m
-
-              [1;30mansibytheillustriousdeadpiranhaoftheworldfamousARSiN[0m
-              [1;30mdennispaidmetwohundredbucksforthispieceashithahahaha[0m'
+[1;30m   ║ [0;35m                [0m       [34m░▒░░ [0;1;37m               [0;1;35m   [0;1;30m║  [0;1;31m [0;31m     [0;1;31m [0;31m        [0;1;31m [0;31m    [0;1;31m [0;31m  [0m
+[31m   [0;1;30m║ [0;35m                      [0;34m░ ░   [0;1;35m                  [0m║  [1;30m                       [0m
+[1;30m   ╚════════════════════════════════════════════[0m══[1m═╝  [0;1;31mC[0;31mall [0;1;31mI[0;31mMMEDIATELY[0m'

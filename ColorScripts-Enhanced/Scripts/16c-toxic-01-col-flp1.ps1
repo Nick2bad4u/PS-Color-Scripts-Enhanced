@@ -5,7 +5,7 @@
 # Source SHA-256: ace2181ac36c69232ae00d53202185147bf10fe8f9c031f278fd58c6d1df7111
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: COL-FLP1.ANS by colorblind (TOXiC); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: flop
 # SAUCE Author: colorblind
 # SAUCE Group: TOXiC
@@ -51,8 +51,4 @@ Write-Host '
 █[1m░     █    [0m█[1;47m▀█[0;1;40m    [0;1;47m ▀█[0;1;40m░   [0m▄[1m▄▄▄▄[0m▄▄▌ [1m▌[0m▐▄[1m   ▄▌[0;32m▐[0;37m ▐[0;1;37;47m▐[0;1;37;40m████████████████████████████████[0;1;37;47m▌[0m
 █[1m░   [0m█[1;47m█[0;1;40m█                 ░[0;1;47m [0;1;40m█████[0m█ [1m▐[0;1;32m█▄[0m▀█[1;47m▀▀[0;1;40m▀[0;32m▄█▌[0;37m █[0;1;37;47m▀[0;1;37;40m███████████████████████████████[0m█
 ▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    [0m▀▀[1m▀[0m▀[1m▀[0m▀  [1m█[0;1;32;42m█▌ [0;32m▄▄▄████[0;37m  ▀▀▀[0;1;37m▀[0m▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀
-[33;44m▓▓░░[0;34;40m█[0;33;44m░[0;34;40m█████████████████████████[0;1;34;44m▀[0;1;34;40m▄▄[0;32m [0;1;37m▀[0;1;32m▀[0;1;32;42m▄▄▄ [0;32m█▀▀[0;37m [0;1;34m▄▄[0;1;34;44m▌[0;34m██████████████████████████[0;33;44m░[0;34;40m█[0;33;44m░░▒▓[0m
-
-[1;33;40m            [0m         [1;33mYES!@ i yam chromatik.. PHEAR ME! <g>[0m
-
-        [1;33m [0m                  ansi by colorblind([1;33mTOXiC[0m)[0m'
+[33;44m▓▓░░[0;34;40m█[0;33;44m░[0;34;40m█████████████████████████[0;1;34;44m▀[0;1;34;40m▄▄[0;32m [0;1;37m▀[0;1;32m▀[0;1;32;42m▄▄▄ [0;32m█▀▀[0;37m [0;1;34m▄▄[0;1;34;44m▌[0;34m██████████████████████████[0;33;44m░[0;34;40m█[0;33;44m░░▒▓[0m'

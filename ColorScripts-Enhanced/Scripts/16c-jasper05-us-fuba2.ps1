@@ -5,7 +5,7 @@
 # Source SHA-256: c128a3401694bf1935866eeb5709d36d3a258f193690eb842b8fb4a7936808c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FUBA2.ANS by Catch 22 + Avg + Untamed (jasper05); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -27,10 +27,4 @@ Write-Host '
 [35m▄[0;1;35;45m█████▄[0;35m▄[0;1;35;45m▓█[0;1;35;47m▓[0;1;35;45m██[0;1;35;40m▄[0;35m   [0;1;30m▀█▄▄[0;1;35m▀[0;1;35;45m▀█[0;1;35;47m█[0;1;35;45m████████████[0;1;35;47m▀▓[0;1;35;40m▓[0;1;35;45m▀[0;35m▀▄ ▀[0;1;35m▀█▄███[0;1;35;47m▓[0;1;35;40m█[0;1;35;45m▓[0;35m [0;1;35;45m██▓██▓▓[0;35m    [0;1;35m▓[0;1;35;47m▒▀▀█[0;1;35;40m▀▀[0;1;30;45m▄[0m▄[1;30;47m▀[0;1;30;40m█▀▀[0m
 [35m [0;1;30m▀█[0m▄[45m▄[0;1;35;47m▀[0;1;35;40m▀[0;1;35;47m█[0;1;35;45m██[0;1;35;47m▒▀[0;1;35;45m█[0;1;35;40m▄[0;35m▄     [0;1;30m▀▀█[0;1;30;47m▀[0m▄▄[1;30m▄[0;35m▀[0;1;35;45m▀███[0;35m ▀[0;1;35m▀▀▀▀[0;35m▀▄[0;1;35m▒[0;35m▀  [0;1;30m▀▀▄[0;1;30;45m▄[0;1;35;40m▀▀▀[0;1;35;47m▒[0;1;35;40m▓▓▓▓▓▀[0;1;35;45m▀███▄[0;35m▄  [0;1;35m▀▀[0;35m▀ [0;1;30m▄▄[0;1;30;47m▀[0m▀▀ [1;30m _22[0m
     [1;30m▀[0m▀[1;30;47m▄ [0m▄[1;30m▄[0;35m▀[0;1;35m▀▀[0;1;35;45m▀██▄[0;35m▄[0m       [37m▀▀[0;1;30m▀▀[0;1;30;47m▄   ▀[0;1;30;40m▄▄[0m▄[45m▄▄[0;40m▄[0;1;30;40m▄[0m      [1;30m▀▀[0;1;30;47m▄  [0m▄[1;30m▄▄[0;35m  [0;1;30m▄██▄[0;35m▀▀▀  [0;1;30m  ▀▀ [0m    [1;30m  _ut[0m
-    [35m   [0;1;30m  ▀[0m▀[1;30m▀▄▄[0;35m  ▀▀    [0m             [35m  [0;1;30m▀[0m▀▀▀▀▀▀▀[1;30m▀▀▀▀▀▀▀[0;35m          [0m    [35m  [0m        [1;30m avg[0m
-                       [1;30mFucked Up Beyond All Recognition[0m
-
-
-
-
-'
+    [35m   [0;1;30m  ▀[0m▀[1;30m▀▄▄[0;35m  ▀▀    [0m             [35m  [0;1;30m▀[0m▀▀▀▀▀▀▀[1;30m▀▀▀▀▀▀▀[0;35m          [0m    [35m  [0m        [1;30m avg[0m'

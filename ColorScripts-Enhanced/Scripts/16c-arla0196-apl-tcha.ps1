@@ -5,7 +5,7 @@
 # Source SHA-256: 2a0caca981490c04fc8fda83ed1f721bc4b6a7f50c507115f7f04b3b10f585f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: APL-TCHA.ANS by apollo (arlaah); released in arla0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: total chaos ?di.
 # SAUCE Author: apollo
 # SAUCE Group: arlaah
@@ -57,6 +57,6 @@ Write-Host '
       [36m▐█████ █████ ▐█████ █████ ▐█████ █████ ▐█████ █████ ▐█████ █████   [0m
        [36m▀▀▀▀▀▀▀▀▀▀[0m   [36m▀▀▀▀   ▀▀▀[0m   [36m▀▀▀▀▀▀▀▀▀▀[0m   [36m▀▀▀▀▀▀▀▀▀▀[0m   [36m▀▀▀▀▀▀▀▀▀▀[0m
 
-                   [1;30m[ [0;32moperated by raiser, cyko,joku, ''hummpa [0;1;30m][0m
-                       [1;30m[ [0;32mmagic number is : 358-0-havefun [0;1;30m][0m
+                   [1;30m  [0;32m                                       [0;1;30m [0m
+                       [1;30m  [0;32m                                [0;1;30m [0m
                                 [32metc..[0m'

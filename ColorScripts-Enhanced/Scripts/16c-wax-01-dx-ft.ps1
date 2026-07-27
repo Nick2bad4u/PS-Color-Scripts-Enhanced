@@ -5,7 +5,7 @@
 # Source SHA-256: 247dcef8b58cf3910b052080066d09c522f82341b2787bf26b0f76b4b1a7d9b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX-FT.ANS by Drax (wax-01); released in wax-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -29,6 +29,6 @@ Write-Host '
 [1;37m.[0m [35m≥≥≥≥≥≥≥≥≥≥≥≥:::$≥¼½$½≥¼$$$$,  [0;1;35m,½[0;35m≤≤½½$½½½≤≥≤≤≤≤¼½$½½½$$½½¼½½½½½[0;1;35m¼[0;35m½½$[0;1;35m$[0;1;31;45m½[0;1;35;40m≥≥≥≥≥[0;35m≥:≥ [0m
 [37m  [0;35mill½iiill½ii:::ll¼≥$½≥¼≥$$$$$$$$½¼½$¼½$½≥¼≥¼½≥¼½$½$½≥¼½½¼½$½½$½$[0;1;35m¼[0;35m≥¼½i[0;1;35m¼[0;35ml½i[0;1;35m¼[0;35m:i[0m
 [37m:   [0;1;37m─[0m   [1;37m──────[0m─┐[35m ill¼iill½ll$┴┴┴┴              ┴┴┴┴≥≥≥≥≥≥≥≥≥¼≥≥l[0;37m ┌─[0;1;37m──────  ─[0m
-               [1m│[0;35m l½lll½ll½:l     [0;1;35mFLASH TRAFFICK[0;35m    Kllllllllll½i[0;37m [0;1;37ml[0m
+               [1m│[0;35m                 [0;1;35m              [0;35m                 [0;37m [0;1;37m [0m
 .              [1m:[0;35m ½::::::::≥::┬┬┬┬              ┬┬┬┬lll:::::ll½ll[0;37m :   [0m
                [37m.[0;35m :  l½::l½l½::::l½::::l½:::l½::::¼:::::::::::ll½[0;37m .   [0m'

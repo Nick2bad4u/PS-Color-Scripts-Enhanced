@@ -5,7 +5,7 @@
 # Source SHA-256: b85d63e3c4dbc1f0d21f4ae5291f493e11b46c20d7d760095270efe730c0908f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-FHDR.ANS by Precious Metal (riot0698); released in riot0698 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-14
 # Columns: 1-80
 
@@ -18,9 +18,4 @@ Write-Host '
    [32m▀[0;37m  [0;1;30m▐███[0m [32m▐[0;1;30;42m▒░[0;32m▓▌[0;31m█[0;31;47m░[0;37;41m▀ [0;31;40m▌ [0;35;40m▀[0;37;45m▀[0;1;31;45m▓▄[0;35m▄ [0;33m▄[0;1;33;43m▓▓[0;33;47m▓[0;31;40m▐▀[0;1;37;40m [0m [1;35m▄[0;1;35;41m▓░[0;1;35;40m▌[0;1;37;40m [0;32m▀[0;31;42m░░[0;32;40m███████▄  [0;1;37;40mFile Areas[0;32m        ░██▀  [0m
       [37m [0;1;30m▀▀[0;1;37m [0;1;30;42m▓[0m [32m▀▓▓[0;37m [0;31m▐▀▀[0;31;42m▓[0;31;40m▀[0;37;40m [0;37;42m▓[0;37;40m [0;35;42m▓[0;1;31;45m▒▀░[0;33;45m▓▓[0;33;40m▀[0;31;40m▄▀█[0;1;35;41m░[0;31m▄[0;1;35;41m▒▓▀[0m [1;35;42m░▒[0;32m▄▄▄█████▓▒▌                   ▀▀[0m
             [32m▀▀▓▓▄▄[0;31;42m░░▒[0;35;42m░[0;32;40m▀▀[0;35;42m░▒[0;32;40m▄▄[0;33;42m░░[0;32;40m■[0;31;42m▒[0;1;32;41m░[0m [31m▀▓▓▀[0;37m [0;32m▐▀▀▀▀[0m    [32m▀▀▀▀[0m
-               [32m▓[0m             [1;33;42m▒[0;31;42m░░[0m
-
-[37;40m Another freebee.  Iniquity file area header, if yer not runnin Iniquity[0m
-    [37;40myou should be.  Leave the inits in this if u use it please.[0m
-
-      [37;40mCall Metal Edge(619)423-4970[0m'
+               [32m▓[0m             [1;33;42m▒[0;31;42m░░[0m'

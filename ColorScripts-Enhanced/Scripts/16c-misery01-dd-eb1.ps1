@@ -5,7 +5,7 @@
 # Source SHA-256: ed34f39497c88599737e3b136e0ba2a9e1b7444e24fa4879eb1af6136131af3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-EB1.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Earthbound.
 # SAUCE Author: Da Drug
 # SAUCE Group: Misery Productions.
@@ -29,5 +29,4 @@ Write-Host '
         [1;37;40m·    [0;1;32;40m▀ [0;1;30;40m▄█[0m        [1;30;47m▓▓[0;1;30;40m███[0m        [1;30;40m██▀██[0m       [1;30;40m█[0;1;30;47m█[0;1;30;40m▀██[0m          [1;30;40m██▀██[0m       [1;30;40m██[0m
                [1;30;40m██[0m        [1;30;40m██ ██[0m        [1;30;40m██ ██[0m       [1;30;40m██▄██[0m          [1;30;40m█[0;1;30;47m▓▓[0;1;30;40m██[0m       [1;30;40m██[0m
         ·      [1;30m██[0m        [1;30m██▄██[0m        [1;30m███[0;1;30;47m▓▓[0m       [1;30;40m██ ██[0m          [1;30;40m██ ██[0m       [1;30;40m██[0m
-[1;30;40m   ·[0m         [30;47m▓▓[0;1;30;47m▓[0;1;30;40m█▄▄▄▄▄▄▄▄██ ██▄▄▄▄▄▄▄▄██ ██▄▄▄▄▄▄▄██▄██[0m          [1;30;40m██ ██▄▄▄▄▄▄▄██[0m
-               nd earthbound earthbound earthbound earthbound earthbound eartbou[0m'
+[1;30;40m   ·[0m         [30;47m▓▓[0;1;30;47m▓[0;1;30;40m█▄▄▄▄▄▄▄▄██ ██▄▄▄▄▄▄▄▄██ ██▄▄▄▄▄▄▄██▄██[0m          [1;30;40m██ ██▄▄▄▄▄▄▄██[0m'

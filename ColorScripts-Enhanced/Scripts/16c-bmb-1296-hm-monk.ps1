@@ -5,7 +5,7 @@
 # Source SHA-256: adc5bd61439b81db0dbe3da8011731cd8e1a862f86d562f95bcc96c45a5b3d4b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HM-MONK.ANS by head mOnk (bamboosh); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mOnk! the artboard!
 # SAUCE Author: head mOnk
 # SAUCE Group: bamboosh
@@ -60,6 +60,6 @@ Write-Host '
                  [35;40m█[0;36;45m▓▓[0;35;40m█[0;37;40m [0;35;40m█[0;36;45m▓▓[0;35;40m█[0;37;40m [0;35;40m█[0;36;45m▓▓ [0;37;40m [0;35;40m█[0;36;45m▓▓[0;35;40m█[0;37;40m  [0;35;40m█[0;36;45m▓▓[0;35;40m█[0;37;40m [0;35;40m█[0;36;45m▓▓[0;35;40m█[0;37;40m  [0;35;40m█[0;36;45m▓▓[0;35;40m█[0;37;40m [0;35;40m█[0;36;45m▓▓[0;35;40m█[0;37;40m  [0;35;40m█[0;36;45m▓▓[0;35;40m█[0m
                  [35;40m▀███ ▀██▀[0;37;40m [0;35;40m███▀[0;37;40m [0;35;40m▀███▄▄███▀[0;37;40m [0;35;40m▀███  ███▀[0;37;40m [0;35;40m▀███[0;37;40m  [0;35;40m███▀[0m
 
-[37;40m [0m                [37;40m [0m           [37;40mthe[0;1;30;40m░[0msysop[1;30m░[0mis[1;30m░[0mhead[1;30m░[0mmOnk
-                       all[1;30m░[0mthe[1;30m░[0martwork[1;30m░[0mis[1;30m░[0mdone[1;30m░[0mby[1;30m░[0mhead[1;30m░[0mmOnk
-                              [1;30m░[0mhead.mon@la.multi.se[0m'
+[37;40m [0m                [37;40m [0m           [37;40m   [0;1;30;40m░[0m     [1;30m░[0m  [1;30m░[0m    [1;30m░[0m    
+                          [1;30m░[0m   [1;30m░[0m       [1;30m░[0m  [1;30m░[0m    [1;30m░[0m  [1;30m░[0m    [1;30m░[0m    
+                              [1;30m░[0m                    [0m'

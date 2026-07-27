@@ -5,7 +5,7 @@
 # Source SHA-256: 6fdad6f2e886ef3d3f68fb55b90cded6e3d36aca087e0595f5cbe1390e7bdf9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-ST2.ANS by Sinister X (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sadistic Temptations
 # SAUCE Author: Sinister X
 # SAUCE Group: ACiD Productions
@@ -35,7 +35,7 @@ Write-Host '
 [1;30;40m▀█▓[0m [33m▐████▓▄[0;1;30m ▀█[0;1;30;47m█[0;1;30;40m██▄ [0;33m███[0;1;33;43m░[0;33m████[0;1;33;43m░▒░[0;33m████▌[0;37m [0;1;32m▄█▌[0m [33m▄▓███▓▀▀▀[0;37m [0;1;32m▄[0m  [1;32m■[0;33m▐███▌[0;1;30m ██[0;1;30;47m▓▓[0;1;30;40m█▌[0m [33m██▓▄▄[0;37m [0;1;30m▀ ▓▓▌▐▓[0m
 [1;30m▓ [0;33m▄▄▓▓██[0;1;33;43m░[0;33m██▓▄▄▄▄▄▄▄▓████████[0;1;33;43m░[0;33m█████[0;37m [0;1;32m▐█▓[0m [33m▐███▓▀[0;37m [0;1;32m▄▓▀[0m [33m▄▄▓▄███▓[0;37m [0;1;30m▐████▓[0m [33m▐[0;1;33;43m▄[0;33m██[0;1;33;43m■[0;33m█▓▓▄▄[0;37m [0;1;30m▀■▐[0m
 [33m  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;1;32m▀▀▀[0m [33m▀▀▀▀ [0;37m [0;1;32m▀▀▀[0m [33m▀▀▀▀▀▀▀▀▀ [0;1;30m [0m      [33m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;1;30m [0m
-[1;30mwhoneedsdividersanywayImeangeez!Somepeople!IfIhaditmywaythere''sbenodividers!HAH.[0m
+[1;30m                                                                                [0m
 [34m▄▄▄[0;37m  [0;34m▄▄▄▄▄▄▄[0m   [34m▄[0m     [34m▄▄▄▄▄▄[0m   [34m▄▄▄[0;37m  [0;34m▄▄[0m    [34m▄▄[0;37m  [0;34m▄[0m   [34m■[0m   [34m▄▄▄▄[0;37m  [0;34m▄▄▄▄▄[0m   [34m▄▄▄▄[0m   [34m▄▄▄▄▄▄[0m
 [1;34;44m▀[0;34m█[0;37m ░ [0;34m█▓▀▀▀▀[0;37m ▄▀▄ [0;1;30m■ [0m▄▀▄ [34m▀▀[0;1;34;44m▀■[0;34m▓[0;37m ░ [0;1;34;44m░[0;34m█[0;37m ■ [0;34m▀[0;37m ▄▀▄■ [0;34m▓▄▄[0;37m  ░ [0;34m■[0;37m▄▀▄ [0;34m▀▓[0;37m ■▀▄[0;34m▀[0;1;34;44m▀[0;34m▓[0;37m ▄▀▄ [0;34m▓▀▀[0;37m ░ [0;1;34;44m■[0;34m▓▓▀▀▀[0m
 [34m▀[0;1;30m·   [0;34m▓[0;1;30m [0;1;31m░ ▀[0m▄▀[1;31m▄[0;1;31;41m▓[0;31m▄[0;37m▀▄▐▌[0;1;31m░[0m▐▌▀▄ ▄▄[31m■[0;37m▒■ [0;31m·[0;34m▀■[0;31m [0;37m▄▀[0;31m▄[0;1;31;41m▒[0;31m▄[0;37m▀· [0;1;31m■ ░ [0m▒▄▀[1;31m▄[0;1;31;41m▒[0;31m▄[0;37m▀▄ [0;31m▄ [0;1;31m░[0;31m■[0;37m▌ ▄▀[0;31m▄[0;1;31;41m▒[0;31m▄[0;37m▀▄ ░   [0;1;37m·  [0;1;31m░ [0m░
@@ -51,13 +51,4 @@ Write-Host '
 ░   ▓ ▀▀▀▀   [34m■[0;37m  ░ ▀▀▄▄▓▀▀   ▀▀▀   ░ ▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀  ▒  ░  ▀▀▀▀ ▀▀▀▀▀▓    ▀▀▀▓ ░[0m
 [37m ■▀ ▒  ░[0m   [34m▀[0;37m  [0;1;37mT    [0mE  ▒ [1;30mM [0;34m▓▄[0;1;30m P[0;34m▄[0;1;30m ░ T [0;34m▄[0;1;30m  A  [0m░ [1;30mT    I [0;34m▄[0;1;30m [0m░[1;30mO [0;34m▄[0;1;30m  [0mN [34m▄[0;37m  [0;1;37mS [0;34m▓▄[0;1;37m [0m▒ ░ [34m▓▄▄[0;37m ▒[0m
 [34m▄[0;37m   ░  [0;34m▄▄▓█[0;37m [0;1;30m░░[0m  [34m▀▀▓▄▄[0;37m ░  [0;34m▀▀█[0;1;34;44m▄█▄[0;34m▓▄▄▓█[0;1;34;44m░▄ [0;34m▓▓▄▄▓[0;37m ░░ [0;1;34;44m■[0;34m▄▓▓▄▄▄[0;1;34;44m▄▓[0;34m▓▓▄▄[0;37m  [0;34m■[0;37m  [0;34m▀▀[0;37m ░ [0;34m▄▄█[0;1;34;44m░[0;34m█[0;37m ░ [0;34m▓[0m
-[34m▓▀▀[0m   [34m▀▀▀▀▀▀[0m    [37m* [0;34m▀▀▀■[0m   [1;30m░[0m [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m   [34m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m ,cc$$$$$ccc, [0;34m▀▀▓▄[0;37m [0;34m▄█[0m
-         [37m ,c º[0m         [1;30mSySoP: SiNiSTER X m0rbid.sui.korp[0m  º$$$$$$$$$$$$$$$c
-       ,$$º             [1;30mCo''s: Deviated, Oderous Urungus[0m    J$$ºº''     ''º$$$F
-      J$$L  c * cc$$º  [1;30mRemotes: Kingsaver, Silent Mobius[0m   º  c$$       J$º
-      ºººº      J$$F [1;30m   Werd Net.oBV/2.Real Ansimations    [0m   $$$     * º
-               c$$º    [1;30m(8i7)485-2575 art.msgs.otherstuff[0m      $$$
-          * º ºº                                              ººº''
-[1;30mRealgreetsto:Chet.Mindy.Potter.Jen.Alan.Chad!.Lori.alldahomeysatpipeline.Bryce.![0m
-[1;30mSc3n3gr33tzto:ou.ks.pg.np.pr.hacker.sd.zw.shadow.sh.sl.darkhosis.cb.Loki.Snake.![0m
-[1;30mFuckyou''sto:tm.ministry.grimreaper.!thatisalldorkwadgetouttaherenowgoshdarnit!.![0m'
+[34m▓▀▀[0m   [34m▀▀▀▀▀▀[0m    [37m* [0;34m▀▀▀■[0m   [1;30m░[0m [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m   [34m▀▀▀▀▀▀▀▀▀▀▀▀[0;37m ,cc$$$$$ccc, [0;34m▀▀▓▄[0;37m [0;34m▄█[0m'

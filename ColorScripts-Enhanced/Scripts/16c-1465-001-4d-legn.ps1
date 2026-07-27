@@ -5,7 +5,7 @@
 # Source SHA-256: 5a59349b748c854a1aaccea1a53d6716c1fb24733f2a9f12446b5aaac12f64fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 4d-legn.ans by Access Denied (1465-001); released in 1465-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -34,5 +34,5 @@ Write-Host '
 [1;30m▀   _4d    ▀[0m                   [1;30m▀[0m▀[1;30m▀▄[0m▓[1;30m▄█▀▀[0m     L E G I O N .
                                    █[1;30m [0m▒
                                    ▀▀
-     [1;30m   " so what if it doesn''t exist anymore " - compo entry may 2006[0m
+     [1;30m                                                                 [0m
                 [1;30m [0m [1;30ml o g o  b y :[0m   [1;30ma c c e s s  d e n i e d[0m'

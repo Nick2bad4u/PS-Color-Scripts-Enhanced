@@ -5,7 +5,7 @@
 # Source SHA-256: b8720da26d381c4987a50ac0b247a961cd2ff88dfa16ac0703f1fcfd446162af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: emk-acid.ans by emok (mimic); released in mimic21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: i lost my skillz
 # SAUCE Author: emok
 # SAUCE Group: mimic
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30memok(mimic!)[0m                                                                   [1;30m [0m
+[1;30m            [0m                                                                   [1;30m [0m
 
                                 [32m           .┌*#SS#*┐. [0;1;30m_[0m
                               [32m          .d$$7┘''``''└7$$b.[0;1;30m [0m

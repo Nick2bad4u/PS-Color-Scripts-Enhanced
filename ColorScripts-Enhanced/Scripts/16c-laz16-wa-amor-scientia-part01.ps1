@@ -5,7 +5,7 @@
 # Source SHA-256: b7b30d9b5b0d437c57cb5b90fcbbf21db35e6596c8eb1ac7d1df1d035eb7bb82
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-AMOR-SCIENTIA.ans by warpus (LAZARUS); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Amor Scientia
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -17,7 +17,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [1mXENIUM 2022[0m [1;30m/[0m Katowice[1;30m / [0mPolska  [41m▀▀▀[0;40m               [0;1;30;40mansi by warpus[0m [1;30mof[0m [1;30mLAZARUS[0m
+  [1m           [0m [1;30m [0m         [1;30m   [0m        [41m▀▀▀[0;40m               [0;1;30;40m              [0m [1;30m  [0m [1;30m       [0m
 
 
 [33m                      [0;1;30m▄█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 5ea74347decb2696f3571171e712536d0b96279d351aff72b692d192a1588da3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-AWE.ANS by Avenger (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: AWE Promotional
 # SAUCE Author: Avenger
 # SAUCE Group: AWE Lettering
@@ -40,7 +40,4 @@ Write-Host '
                                 [34m▐[0;36;44m▌[0;34;40m▀[0;36;44m [0;34;40m▀[0;37;40m  [0;34;40m▀▌ [0m   [34;40m▄[0;37;40m  [0;34;40m▀▌[0m
                                  [34;40m▀[0m
 [36;40m↓↓[0m
-[35;40m................................................................................[0m
-[36;40mguest [0;1;33;40mappearance by avenger/bm^fire^ms. greets to tna, fluor, 4o and massm![0m
-[36mcredits [0;1;33mjamiroquai - inspiration, pariah[0m [1;33m- yellow-blue transitions[0m
-[1;33mcontact[0;1;37m [0;36mavengerbm@aol.com[0m'
+[35;40m................................................................................[0m'

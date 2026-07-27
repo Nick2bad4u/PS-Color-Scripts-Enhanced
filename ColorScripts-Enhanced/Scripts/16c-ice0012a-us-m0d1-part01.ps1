@@ -5,7 +5,7 @@
 # Source SHA-256: 7c9d8125be2708fde7f7c7e424a85a031cc8cd7409dfb83026e23623d4330f5c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-M0D1.ICE by discyple/Prizm (iCE); released in ice0012a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: scribbl3s
 # SAUCE Author: discyple/Prizm
 # SAUCE Group: iCE
@@ -21,7 +21,7 @@ Write-Host '
 
 
 
-[1;30;40m+ joint manifestation from the inactive art drawerz of 90s d00dl3b0yz ...[0m
+[1;30;40m                                                                         [0m
 
 
 
@@ -48,5 +48,4 @@ Write-Host '
      ▀▄▄█████████████▄     [1;30m▐██ ▄▄▄▄▄ ▀▀▀███▄▄█ ███▄ [0m ▀▀▐██████▌   ▀▀▀
    █▄░▐█ ▐█▌███▌ █▓▀▀▀▀ ▀ [1;30m ▐████████████▄█████████████[0m   ▀▀▀▀   ▄█▄
  ▀    ▀  █▀ ▐█▀           [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████[0m           ▄  ▀
-       ▀    ▀                                 [1;30m▀▀[0m
-'
+       ▀    ▀                                 [1;30m▀▀[0m'

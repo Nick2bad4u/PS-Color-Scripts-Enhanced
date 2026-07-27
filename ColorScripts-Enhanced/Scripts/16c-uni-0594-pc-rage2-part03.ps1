@@ -5,7 +5,7 @@
 # Source SHA-256: 60bba2dca7802673d16893ce3b846431f6456fadfa4859be80124544d92798f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-RAGE2.ANS by Primordial Chowder (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rage Phosphorus
 # SAUCE Author: Primordial Chowder
 # SAUCE Group: UNiON
@@ -15,14 +15,14 @@
 # Columns: 1-80
 
 Write-Host '
-    n[1mow I am free, to roam through the night, I''ll creep through your homes[0m,
- a[1mvoiding the light.  Stand inches away, you''ll never suspect, that there''s an[0my
-  d[1manger, no need to protect. Your life from my claws, your soul from my mind[0m,
-    t[1mhose that see me rush by try to leave me behind. But I''m always here, [0ma
-   s[1mcourge on your land, I''ll always torment you, I must take my stand. Unti[0ml
-  l[1might returns, and the sun fills the sky, I return to my home and there wil[0ml
-  I [1mlie.  Wait for tomorrow, and return to my fight, rejoice in the day fools[0m.
-[1;30m▄[0m                             f[1mor I own the night[0m. - [1mRonin [0m[[1miCE[0m]               [1;30m▄[0m
+     [1m                                                                      [0m 
+  [1m                                                                            [0m 
+   [1m                                                                          [0m 
+     [1m                                                                      [0m 
+    [1m                                                                        [0m 
+   [1m                                                                          [0m 
+    [1m                                                                         [0m 
+[1;30m▄[0m                              [1m                  [0m    [1m      [0m [1m   [0m                [1;30m▄[0m
 [1;37;47m▄[0;1;30;47m▀[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▀[0;1;37;47m▄[0m
 [1;37;47m██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██[0m
 [1;37;47m████████████████████████████████████████████████████████████████████████████████[0m

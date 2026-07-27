@@ -5,7 +5,7 @@
 # Source SHA-256: 4ffbc6636010f2f5c30a44bdad86372d7e3617cf871ac9efe16766f79271e90b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VDR-REV.ANS by Vader (opx-19); released in opx-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: revival
 # SAUCE Author: Vader
 # SAUCE Date: 19971207
@@ -38,6 +38,4 @@ Write-Host '
 
 
 
-[37;40m-[0m
-[37;40mthis ansi is for gasol, here you are dude.[0m
-[37;40mrespects: ezy, rawlock and nibc.[0m'
+[37;40m-[0m'

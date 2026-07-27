@@ -5,7 +5,7 @@
 # Source SHA-256: 3e056d24c2176054169723a32727589eee0bdf9044244f527bef9d05eaffa2fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!ALINA.ANS by Madcap (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Alien Nation
 # SAUCE Author: Madcap
 # SAUCE Group: Department 38
@@ -47,9 +47,6 @@ Write-Host '
 [1;36;46m███▄▄▄▄████████[0;1;36;40m▌ [0;30;44m░░░░░[0;34;40m▄▄      [0;1;30;40m▀▀▀[0;34m▐▌     ███████▌ [0;33mis cos I''m living in an[0;30m••••••••[0m
 [1;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;34m▀▀▀▀▀▀▀▀▀        ▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30m••••••••••••••••••••••••••••••••[0m
 [1;35m-[0;35m--[0;1;31m<[0;1;35mBloo[0;35m0[0;1;35moop![0;35m>[0;1;37m-[0;1;35m---[0;35m-[0;30m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••[0m
-[1;35mMC> ok.. the lit aint that great.. but yeah.. I was stuck for something to go[0;30m•••[0m
-[1;35mthere... *:o)[0;35m... [0;1;35mAnd yeah.. Nike sportswear!.. remember if ya wanna use this,[0;30m•••[0m
-[1;35mremember where to send the royalties![0;30m•••••••••••••••••••••••••••••••••••••••••••[0m
-
-[1;32mO[0;32mkays, I cut out teh font at the bottom that said Alien Nation.. Mainly because[0m
-[32mwell, Madcap you know why :)[0m'
+[1;35m                                                                             [0;30m   [0m
+[1;35m             [0;35m    [0;1;35m                                                            [0;30m   [0m
+[1;35mremember where to send the royalties![0;30m•••••••••••••••••••••••••••••••••••••••••••[0m'

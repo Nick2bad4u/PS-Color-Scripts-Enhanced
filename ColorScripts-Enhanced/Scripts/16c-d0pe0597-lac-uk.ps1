@@ -5,7 +5,7 @@
 # Source SHA-256: 270d86a0697325108be007a26384c710bb2aef838ee17b217697b5847af0aaa5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAC-UK.ANS by lacaid (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: uk?! logo
 # SAUCE Author: lacaid
 # SAUCE Group: dope
@@ -34,16 +34,16 @@ Write-Host '
               [34m▒[0;35m [0;34m▀[0;1;34;44m▀[0;34m█[0;37m [0;1;30mlac([0;35mdope[0;1;30m)[0;35m ▀[0;37m [0;35m▄[0;37m  [0;35m▄[0;37m [0;35m■[0;37m [0;35m░[0;37m [0;34m▓▀[0m    [35m▀[0;1;35;45m░[0;35m▄[0m   [35m▀▓▀[0;37m [0;34m▀▐[0;1;34;44m▄█[0;34m█▀[0m
               [34m░ ▄▀[0m             [35m [0m                 [35m▐▌[0m   [35m▒[0;37m  [0;34m  ▓▀[0m
                [34m▐[0;37m    [0;1;30m[[0m [1;34m7 i 7 . 7 4 i . i i 9 5[0m [1;30m][0;35m ▄▀[0m    [35m░[0m    [34m▒[0m
-                [34m▀[0m      [35mdope[0;37m [0;1;30mnqw?! [0m [1;30m+o [0;35mlacaid[0m    [35m▓[0m          [34m░[0m
+                [34m▀[0m      [35m    [0;37m [0;1;30m      [0m [1;30m   [0;35m      [0m    [35m▓[0m          [34m░[0m
                                                 [35m░ [0m
 
 [1;30m---[snip-o-matic]---------------------------------------------------------------[0m
-[1;30mif you think you''d like me to draw something for you, you can just usually write[0m
-[1;30mme email, or sometimes i''m on irc (i gotta get a better inet account..). anyways[0m
-[1;30mif you''re nice i might draw for something for free, but donations are always [0m
-[1;30mwelcomed =)[0m
-[1;30myou can reach me at: lacaid@juno.com [0m
-[1;30mdonations, whatever:[0m [1;30mben graver[0m
-                     [1;30m2711 heather drive[0m
-                     [1;30myork, pa 17402[0m
+[1;30m                                                                                [0m
+[1;30m                                                                                [0m
+[1;30m                                                                             [0m
+[1;30m           [0m
+[1;30m                                     [0m
+[1;30m                    [0m [1;30m          [0m
+                     [1;30m                  [0m
+                     [1;30m              [0m
                      [1;30musa[0m'

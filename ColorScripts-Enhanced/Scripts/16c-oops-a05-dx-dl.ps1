@@ -5,7 +5,7 @@
 # Source SHA-256: 1f2f4976152459df4d4e6519acaff6ea202274e46f80338e99d0390b3b9a7d61
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX!-DL.ANS by drax (oOps); released in oops_a05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: download
 # SAUCE Author: drax
 # SAUCE Group: oOps
@@ -37,9 +37,4 @@ Write-Host '
     [1;31m  [0;1;37mj$?∩[0;1;31m        [0;1;37m l [0;1;31m           [0;1;37m∩?$j[0;1;31m [0m   =)   [1;31m [0;1;37mj$?∩[0;1;31m            [0;1;37m l [0m   [1m`?$[0;1;31;41m$[0;1;37;41m$[0;1;31;40ml [0m
     [1m.∩   [0m          [1m °[0m            [1m   ∩.[0m      [1m.∩   [0m             [1m° [0m      [31m [0;1;37m`ⁿ?. [0m
     [1ml    [0m                        [1m    l[0m      [1ml    [0m                         [1ml[0m
-     [1m°  .[0m                        [1m.  °[0m        [1m°  .[0m                        [1m°[0m
-
-
-
-
-'
+     [1m°  .[0m                        [1m.  °[0m        [1m°  .[0m                        [1m°[0m'

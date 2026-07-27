@@ -5,7 +5,7 @@
 # Source SHA-256: ae836226ddfdcf0b6329a77c8dd3f5e7f19047deda621a7656380f5483b26661
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WDB.ans by Zaal (zaal01); released in zaal01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20210919
 # SAUCE Dimensions: 80x30
 # SAUCE Font: IBM VGA
@@ -36,6 +36,4 @@ Write-Host '
            [1;33m [0;1;33;41m▒▓▓[0;1;33;40m▀  ▀▀▓███[0;1;33;41m▓[0;1;33;40m▌ [0;1;33;41m▒▓█[0;1;33;40m█▓[0;30;103m▄▄▄█[0;1;33m▀███   ▀▀██▓█▒▀  [0;30;103m▓░[0;1;33m [0;1;33;41m▒▓[0;1;33;40m█▀▀[0;30;103mZaal[0;1;33;41m█▓[0m
            [1;33m  [0m   [1;33m [0m   [1;33m░[0m       [1;33m░[0m [1;33m ▒[0m       [1;33m░[0m       [1;33m▓[0m [1;33m░[0m                [31m░[0m
             [31m░[0;1;31m   [0;31m░[0m           [1;33m [0;1;31m  [0;1;33m░[0m                 [1;33m░[0m        [1;33m░[0m
-         [1;31m [0m            [1;35m  [0m    [1;33m [0;1;31m  [0;1;33m░[0m
-            [1m<< Werde[0m,[1m [0mder[1m [0mdu bist >>[1;30m    [0m     [1m [0;1;35m  (c)[0;1;37m Dic[0;1;35mhte[0;35mrs[0;1;37m Pi[0;1;35mnd[0;35mar[0m
-            [1;37mor << Gén[0moi'' oíos[1m [0messí m[1;30mathón >>[0m [1m [0;1;35m  [0;1;37mFr[0;1;35miedr[0;35mich[0;1;35m [0;1;37mNi[0;1;35metzsc[0;35mhe[0m'
+         [1;31m [0m            [1;35m  [0m    [1;33m [0;1;31m  [0;1;33m░[0m'

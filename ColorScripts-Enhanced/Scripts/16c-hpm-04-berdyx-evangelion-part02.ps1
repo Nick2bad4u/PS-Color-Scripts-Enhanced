@@ -5,7 +5,7 @@
 # Source SHA-256: bf27250276fe056fbdae40052e04dfb7cab48d1b95bb1fa94071e08104343205
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: berdyx-evangelion.ans by berdyx (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: evangelion CGA
 # SAUCE Author: berdyx
 # SAUCE Group: HPM
@@ -31,15 +31,8 @@ Write-Host '
 [1;36m████████████████████████[0;30;106m▐███▌    [0;1;36m▌[0;30;106m███    [0;1;36m███████████████████[0m
 [1;36m██████████████████████[0;30;106m▌███▀█▌    [0;1;36m▌[0;30;106m█▀███▐[0;1;36m████████████████████[0m
 
- [1;36mZankoku na tenshi no you ni[0m
+ [1;36m                           [0m
 
-                             [1;36mShounen yo, shinwa ni nare...[0m
+                             [1;36m                             [0m
 
-[1m────────────────────────────────────────────────────────────[0m
-
- [1mNEON[0m
- [1mGENESIS[0m
- [1mEVANGELION[0m
-
- [1mEPISODE:2025[0m
-                [1m30th Anniversary at Destello (by berdyx)[0m'
+[1m────────────────────────────────────────────────────────────[0m'

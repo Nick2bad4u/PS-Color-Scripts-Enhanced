@@ -5,7 +5,7 @@
 # Source SHA-256: e4bd984a30a217cbddc359ac314ad44d6e7889eed1a5f5357f37567e256ae7f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-GZ1.ANS by Delirium Tremens (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ground Zero
 # SAUCE Author: Delirium Tremens
 # SAUCE Group: Lapse
@@ -45,19 +45,11 @@ Write-Host '
                     [1;31;41m█▓▒░ [0m         [1;37;40mG[0mr[1;30mound Ze[0mr[1mo[0m         [1;41m [0;1;31;41m░▒▓█[0m
        [31m▀[0m            [1;31;41m▓▒░ [0m                               [1;31;41m ░▒▓[0m
       [31m▄[0m             [1;31;41m▒░ [0m  [1;37;40m1 [0m([1;30m801[0m) [1;30mTOO[0m─[1;30mBUFF[0m/[1;30mUSR 21.6k DS  [0;1;30;41m [0;1;31;41m░▒[0m           [31m▀[0m
-                    [1;31;41m░ [0m   [1;37;40m2 [0m([1;30m801[0m) [1;30mTOO[0m─[1;30mGOOD[0m/[1;30mUSR 21.6k DS   [0;1;30;41m [0;1;31;41m░[0m
+                    [1;31;41m░ [0m   [1;37;40m  [0m [1;30m   [0m  [1;30m   [0m─[1;30m    [0m [1;30m               [0;1;30;41m [0;1;31;41m░[0m
      [31m▄[0m                                                                  [31m▀▄[0m
-[31m    ▐▌  [0;1;37m─ [0;1;30m2.0+ Gigs Online [0m─[1m/[0m─ [1;30m0-7 Day Warez [0m─[1m/[0m─ [1;30mHuge Offline Library [0;1;37m─  [0;31m▐▌[0m
-[31m    █   [0;1;37m─ [0;35mLapse [0;1;30mMountain HQ [0;1;37m─ [0;35m/>P9 [0;1;30mWestern HQ [0;1;37m─ [0;35mNBC[0;1;30m/[0;35mSPeCTRE [0;1;30mDist Site [0;1;37m─   [0;31m█[0m
-[31m    ▌   [0;1;37m─ [0;1;30mCCi Western HUB [0;1;37m─ [0;1;30mShadow Net Mountain HUB [0;1;37m─ [0;1;30mImpact Net Node [0;1;37m─   [0;31m▐[0m
-[31m    ▐   [0;1;37m─ [0;1;30mOblivion/2 ßeta Development Site [0;1;37m─ [0;1;30mAdult/Shareware CD-Rom''s [0;1;37m─   [0;31m▌[0m
+[31m    ▐▌  [0;1;37m─ [0;1;30m                 [0m─[1m [0m─ [1;30m              [0m─[1m [0m─ [1;30m                     [0;1;37m─  [0;31m▐▌[0m
+[31m    █   [0;1;37m─ [0;35m      [0;1;30m            [0;1;37m─ [0;35m     [0;1;30m           [0;1;37m─ [0;35m   [0;1;30m [0;35m        [0;1;30m          [0;1;37m─   [0;31m█[0m
+[31m    ▌   [0;1;37m─ [0;1;30m                [0;1;37m─ [0;1;30m                        [0;1;37m─ [0;1;30m                [0;1;37m─   [0;31m▐[0m
+[31m    ▐   [0;1;37m─ [0;1;30m                                 [0;1;37m─ [0;1;30m                         [0;1;37m─   [0;31m▌[0m
      [31m▀▄▄[0m                                                                [31m▄▀[0m
-          [31m▀▀  ▀[0m        [31m▀  ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀  ▀[0m        [31m▀   ▀▀[0m
-
-[31m   [0;1;30mGreets go out to Nitro, Time Killer, Weasel, and all other Lapse members.[0m
-              [1;30mThis has been a [0;31mD[0;1;31me[0;1;37mlirium [0;31mT[0;1;31mr[0;1;37memens [[0;31mLapse[0;1;37m] [0;1;30mProduction[0m
-
-[1;30m  Lapse is looking for quality ANSI artists, VGA artists, coders, & Musicians[0m
-[1;30m  and you are welcome to apply by using our application generator and sending[0m
-[1;30m  it to Deadly Intoxication @ (801) 576-9019 [NUP: LAPSE94], or by contacting[0m
-[1;30m  Delirium Tremens, Time Killer, or Weasel.[0m'
+          [31m▀▀  ▀[0m        [31m▀  ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀  ▀[0m        [31m▀   ▀▀[0m'

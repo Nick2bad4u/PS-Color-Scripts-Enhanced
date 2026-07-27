@@ -5,7 +5,7 @@
 # Source SHA-256: 88ac55efd914e283fc8bc333fdb22cb8008a5d9b5f5104c576699880bf9aa778
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dev-nfal.ans by dev (flange); released in flange01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: getting.shot.guy
 # SAUCE Author: dev
 # SAUCE Group: flange
@@ -57,6 +57,4 @@ Write-Host '
                   [34m█▄▄▒[0;37m  [0;1;30mart.music[0m            [34m [0m        [34m▓▄▄▄▄▄▄▄▓[0m
 
 
-[1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m
-[1;30mThis picture, done in single shading was for the artview menu at THE^DRAIN.[0m
-[1;30mThe logo is pretty weird though. =][0m  [1;30mA guy getting shot. =][0m'
+[1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m [1;30m-[0m'

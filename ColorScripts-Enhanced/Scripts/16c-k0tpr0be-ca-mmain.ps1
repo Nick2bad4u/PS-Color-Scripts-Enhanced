@@ -5,7 +5,7 @@
 # Source SHA-256: ba769613c931a8684f23f8c53f329c55e4442670ad54638672a571eb284950ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-MMAIN.ANS by caynan (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: massive attack! main menu
 # SAUCE Author: caynan
 # SAUCE Group: fbk
@@ -26,17 +26,16 @@ Write-Host '
 [34m  [0;1;34m▀▀[0;1;34;44m▓▄░[0;34m█████▄▄▄▄▄▄██[0;1;30;44m░[0;34m▄▄▄▄▄▄▄▄▄▄██[0;1;30;44m░[0;34m▄▄▄▄▄▄▓[0;1;30m▀[0m     [1;34m▄▄[0;1;34;44m▓▀[0;34m██▄  ▀▀▓████[0;1;30;44m░[0;1;30;40m▀   [0;1;34;40m▄▄[0;1;34;44m▓[0;34m█████▓[0m
 [34m▄■    [0;1;34m▀▀▀▀[0;1;34;44m▓▄[0;34m████████████▓▀▀▀▀▀███▀▀▀░[0m        [1;34m▄[0;1;34;44m▀[0;34m████[0;1;30;44m░[0;34m▓▀▀■[0m          [34m■[0;1;34m▀[0;1;34;44m▓▄[0;34m████████[0m
 [34m   [0;1;34m▄[0;34m▄[0m                       [34m■▓▀▀[0m         [34m▀■   [0;1;34m▀[0;1;34;44m▓[0;34m██▓▀[0m                   [34m▀▀[0;1;30;44m░[0;34m████▌[0m
-[34m  [0;1;34;44m▓[0;34m█[0;36;44m▀[0;34;40m▓   [0;1;37;40mJ [0mJOiN CONFERENCE    [1mN [0mNEW FiLE SCAN   [1;34;44m░[0;34m█   [0;1;37mW [0mCHANGE YOUR iNFO  [34m░▀▓█▓▀[0m
-[34m [0;1;34m▐[0;1;34;44m▌[0;34m██[0;1;30m▌   [0;1;37mF [0mFiLE LiSTiNG       [1mCB [0mCHANGE BOARD    [34m▓▌  [0;1;37mUSERS [0mViEW USERLiST
-  [1;34m█[0;34m█▓    [0;1;37mD [0mDOWNLOAD A FiLE    [1mE [0mENTER A MESSAGE   [34m▀■ [0;1;37mPOiSON [0mNETWORK APPLY
-   [1;34;44m░[0;34m█▌   [0;1;37mU [0mUPLOAD A FiLE      [1mR [0mREAD MESSAGE         [1mCHAT [0mMULTiLiNE CHAT  [34m▄[0m
-[34m   ░▀▓■  [0;1;37mZ [0mZiPPY SEARCH  [34m▄■   [0;1;37mC [0mCOMMENT TO SYSOP     [1mWHO [0miS ONLiNE?     [1;34m▄[0;1;34;44m░[0;34m██▓[0m
-         [1;37mL [0mLOCATE A FiLE [34m▄▓   [0;1;37mV [0mViEW STATiSTiCS  [34m▄■  [0;1;37mO [0mOPERATOR PAGE  [1;34m▄[0;1;34;44m▓[0;34m███[0;1;30;44m░[0;34m▌[0m
+[34m  [0;1;34;44m▓[0;34m█[0;36;44m▀[0;34;40m▓   [0;1;37;40m  [0m                   [1m  [0m                [1;34;44m░[0;34m█   [0;1;37m  [0m                  [34m░▀▓█▓▀[0m
+[34m [0;1;34m▐[0;1;34;44m▌[0;34m██[0;1;30m▌   [0;1;37m  [0m                   [1m   [0m                [34m▓▌  [0;1;37m      [0m             
+  [1;34m█[0;34m█▓    [0;1;37m  [0m                   [1m  [0m                  [34m▀■ [0;1;37m       [0m             
+   [1;34;44m░[0;34m█▌   [0;1;37m  [0m                   [1m  [0m                     [1m     [0m                [34m▄[0m
+[34m   ░▀▓■  [0;1;37m  [0m              [34m▄■   [0;1;37m  [0m                     [1m    [0m               [1;34m▄[0;1;34;44m░[0;34m██▓[0m
+         [1;37m  [0m              [34m▄▓   [0;1;37m  [0m                 [34m▄■  [0;1;37m  [0m               [1;34m▄[0;1;34;44m▓[0;34m███[0;1;30;44m░[0;34m▌[0m
 [1;34m▄[0;1;34;44m▓▀░▄ [0;34m▄▄[0m              [1;34m▄[0;1;34;44m▓▀░[0;34m█▌  [0;1;37mEDiT [0mBATCH             [1mG [0mGOODBYE       [1;34m▀[0;1;34;44m▓[0;34m█[0;1;34;44m░[0;34m█▓▀[0m
 [1;34m▀[0;1;34;46m▀[0;34m███████████▓▄▄▄    [0;1;34m▀[0;1;34;44m░[0;34m████▓[0m           [1;34m▄▄▄[0;34m▄▄▄[0;1;30;44m░[0;34m█████▓▄▄▄▄▄▄▄▄▄▄■[0m         [34m▀▀[0m
 [34m  [0;1;34m▀▀[0;1;34;44m▓▄░[0;34m████████████▓▀■ ▀▓▀[0;1;30m▀  [0;1;34m▄[0;1;34;44m▓▀▀▀▀▀▀▀▀░[0;34m█[0;30;44mm [0;1;30;44ma [0;30;44ms s i v e[0;34;40m██[0;1;30;44m░[0;34m█████████▓▄[0;1;30m▄■[0m
       [1;34m▀▀[0;1;34;44m▓[0;1;34;40m▀[0;34m▀▀▀▀▀▀▀▓[0;1;30m▀[0m         [1;34;44m▓[0;34m███[0;37;44m▄[0;34;40m███[0;1;34;44m░[0;34m███████[0;1;30;44ma[0;34m█[0;30;44mt[0;1;30;44m░[0;30;44mt [0;1;30;44ma [0;30;44mc k[0;34;40m██████▓▀▀▀▀▀[0;1;30;40m▀ca[0m
                             [34m░[0;1;34m▀▀▀[0;1;34;44m▓▄▄░[0;34m██████▓▀▀▀▀▀▀▀▀▀▀■[0m
-[1;37m╙-[0m[ [36mENTER COMMAND[0;37m:[0m                                                           [37m][0;1;37m─╜[0m
-╓+----------------------------------------------------------------------------+╖
-  main menu for massive attack...    [30mspuster is doof ;)[0m'
+[1;37m╙ [0m  [36m             [0;37m [0m                                                           [37m [0;1;37m─╜[0m
+╓+----------------------------------------------------------------------------+╖[0m'

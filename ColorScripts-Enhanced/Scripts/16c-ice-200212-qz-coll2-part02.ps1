@@ -5,7 +5,7 @@
 # Source SHA-256: ad269ce0eb8fee8fb1bfcad2cd3198bf65870618cb5f3d6b46c7d618d8b324ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: qz-coll2.ice by Quazar (iCE Advertisements); released in ice-200212 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ANSI colly 2
 # SAUCE Author: Quazar
 # SAUCE Group: iCE Advertisements
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[37mbbs list header for cap_hood[0m
+[37m                            [0m
 
 [1;36m▄▄▄▄▄[0m   [34m▄▄▄▄▄▄[0m     [32m▄▄▄▄[0;37m  [0;34m▄▄[0;37m    [0;32m▄▄▄▄[0;37m  [0;34m▄▄[0;37m    [0;32m▄▄▄▄▄▄[0;37m [0;34m [0;37m [0;1;32m▄▄[0m [34m▄ [0;37m   [0;32m▄▄▄▄▄▄[0;37m  [0;34m▄▄▄[0;37m  [0;1;36m▄▄▄▄[0m [1m▄[0m
 [1;36;46m▓[0;1;36;40m▀▄▀[0m ▄▌ [34m▀[0;34;47m▓[0;1;30;44m ░[0;34m▀[0;37m [0;32m▄▄██████▀▀[0;37m  [0;32m▄▄██████▀▀[0;37m  [0;32m▄▄██▀█[0;1;36;42m░[0;32m█▀[0;37m [0;34m▄▄[0;37m [0;1;32m▐[0;1;32;42m▓[0m  [32m▄▄[0;1;36;42m░[0;32m█▀█[0;1;36;42m░[0;32m█▀[0;37m [0;34m▄▄[0;1;30;44m░ [0;34;47m▓▒[0;37;40m ▄ [0;1;36;40m▀[0;1;36;46m▓[0;1;36;40m▄[0;1;36;46m▓[0m
@@ -28,7 +28,7 @@ Write-Host '
 [1;37m▀▀[0m   [1;36m▀▀[0m [34m▀▀▀▀[0;1;36m  ▀▀ [0;36m▀▀▀▀▀▀  [0;1;36m ▀▀▀ [0;36m▀▀▀▀▀▀▀  [0;1;36m [0;36m▀▀▀▀▀▀▀▀▀[0;37m [0;36m▀[0;37m  [0;36m▀▀[0;37m [0;36m▀▀▀▀▀▀▀▀ ▀▀▀[0;37m  [0;34m▀[0;37m ▀▀  [0;36m▀▀[0m
 
 [37m-------------------------------------------------------------------------------[0m
-[37mMystic BBS Software logo[0m
+[37m                        [0m
 
 
 

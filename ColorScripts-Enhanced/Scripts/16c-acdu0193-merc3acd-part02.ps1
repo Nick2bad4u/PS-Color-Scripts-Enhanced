@@ -5,7 +5,7 @@
 # Source SHA-256: dead6616e07dad3526e944db21e5852baea1587fe7606f24399bbe37fbeb46aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MERC3ACD.ANS by Spectral Illusion (acdu0193); released in acdu0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 38-74
 # Columns: 1-80
 
@@ -43,7 +43,7 @@ Write-Host '
 [40m  ████ [0;47m    [0m [40m████ ████▐████ ████  ████ ████▐████  ▀█████▀  ████  ████   ▐███▌[0m
 
 [40m  █[0;30;47m┌────────────────────────────────────────────────────────────────────────[0;1;37;47m┐ [0m
-[1;37;40m  [0;1;37;47m [0;30;47m│                       [0;1;33;47mMεRCURY COURiERiNG SYSTEMS                       [0;1;37;47m│ [0m
-[1;37;40m  [0;1;37;47m [0;30;47m│                [0;34;47mTransfers Faster than The Modern Pegasus                [0;1;37;47m│ [0m
-[1;37;40m  [0;1;37;47m [0;30;47m│                      ANS[0;1;30;47mi·[0;30;47mSp[0;1;30;47mec[0;1;37;47mtral Illu[0;1;30;47msi[0;30;47mon <[0;1;30;47mAC[0;1;37;47mi[0;1;30;47mD[0;30;47m>                     [0;1;37;47m│ [0m
+[1;37;40m  [0;1;37;47m [0;30;47m│                       [0;1;33;47m                                                 [0;1;37;47m│ [0m
+[1;37;40m  [0;1;37;47m [0;30;47m│                [0;34;47m                                                        [0;1;37;47m│ [0m
+[1;37;40m  [0;1;37;47m [0;30;47m│                         [0;1;30;47m  [0;30;47m  [0;1;30;47m  [0;1;37;47m         [0;1;30;47m  [0;30;47m    [0;1;30;47m  [0;1;37;47m [0;1;30;47m [0;30;47m                      [0;1;37;47m│ [0m
 [1;37;40m  [0;1;37;47m [0;30;47m└[0;1;37;47m────────────────────────────────────────────────────────────────────────┘ [0m'

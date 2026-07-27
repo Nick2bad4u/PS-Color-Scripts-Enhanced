@@ -5,7 +5,7 @@
 # Source SHA-256: 5b104dafeef97dd5d384fd27360eb59b3ac9d4ae1cfb7c53fdc2df06f8e97b2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MO-FIRE.ANS by mrO (crisis1996unreleased); released in crisis1996unreleased and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fire logo
 # SAUCE Author: mrO
 # SAUCE Date: 19960331
@@ -28,6 +28,4 @@ Write-Host '
         [1;30;40m█ [0;36m█▓[0;1;34;46m▓▄■[0;36m██▓ [0;1;30m█    ░█ [0;1;36;46m▓[0;36m████[0;36;46m  [0;1;36;46m░[0m [36m█[0;1;37;46m▄[0;36m█[0;1;37;46m▄[0;1;34;46m■▓[0;1;37;46m▄█[0m [1;30;40m█[0m     [1;30;40m█ [0;46m▓[0;36;40m█████[0;1;37;46m░[0;36m█■[0;36;46m [0;36;40m██[0;1;30;46m■▄[0;34;46m░[0m [1;30;40m█[0m
         [1;30;40m█▄▄▄▄▄■▄▄▄▄█[0m     [1;30;40m█ [0;1;36;40m▓[0;36m▀▀■▀▀[0;1;36m▀▀ [0;1;30m▄▄▄▄▄▄ [0;1;37m▓ [0;1;30m▓[0m     [1;30m█ [0m▀▀[36m▀[0;37m▀[0;36m▀▀▀▓ ▀▀▀▀▀[0;37m▀ [0;1;30m█[0m
                          [1;30m▀ [0;1;36m░ [0;1;30m▀▀▀▀▀▀▓▀[0m      [1;37m▒[0m       [1;30m▀▓▀▀▀▀▀■ [0;36m▒ [0;1;30m▀▀▀▀▀▀▀▓[0m
-                                           [1;37m░[0m                [36m░[0m
-
-                        [36mmrO[0;1;36mcrisis[0;36m96 [0;1;36m''[0;36mmy style sucks![0;1;36m''[0m'
+                                           [1;37m░[0m                [36m░[0m'

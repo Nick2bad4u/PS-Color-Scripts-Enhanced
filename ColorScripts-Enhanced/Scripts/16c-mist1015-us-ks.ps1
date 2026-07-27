@@ -5,7 +5,7 @@
 # Source SHA-256: 115b40c1a714ac1128fad8693b7c6072118a14951ca5fc0e3cc4c7fc90dd1b50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-KS.ANS by Nail + Somberlain (mist1015); released in mist1015 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kindred spirit
 # SAUCE Author: somberlain and nail
 # SAUCE Date: 20151023
@@ -40,4 +40,4 @@ Write-Host '
                          [1;30m▌▀▀▀ [0;34m▄▄▐   [0;1;34m▀█[0;1;34;47m▓▓[0;1;34;40m▐[0;1;34;47m▓▓[0;1;34;40m█▀[0;34m██[0;1;34;44m░▓▓░[0;34m█[0;1;34;44m░░[0;34m▀   ▄[0m
                          [1;30m▀▀   [0;34m▀▀[0m      [1;34m▀▀▐█▀ [0;34m▄[0;1;34m▒[0;34m▀▐[0;1;34m▒▒[0;34m█▀▀    ▀[0m
                                         [1;34m▐▄[0;34m▄▀▀[0m     [34m▐▄▄ n![0m
-[34m   [0;1;30mfont by somberlain, all messed up    [0;1;34m▐[0m      [34m▄  ▀▀[0m     [1;30mand stained by nail.[0m'
+[34m   [0;1;30m                                     [0;1;34m▐[0m      [34m▄  ▀▀[0m     [1;30m                    [0m'

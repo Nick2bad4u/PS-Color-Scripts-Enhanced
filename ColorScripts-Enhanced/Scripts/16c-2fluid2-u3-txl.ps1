@@ -5,7 +5,7 @@
 # Source SHA-256: f4d41f5b27655c5cda13114200c2dd4809347b53f23af476336b37a1f13bcfee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: U3-TXL.ANS by Unseen Fate (2fluid2); released in 2fluid2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -48,11 +48,11 @@ Write-Host '
      [35m▀[0;1;30m▀[0m                         [1;30m▀[0;32m▀█▄[0;1;32m▄▄▄▄▄[0;1;32;42m▄▄███▀[0;32m▀[0;1;30m▀[0m  [34m▀[0;1;34;44m░░░[0;34m▓[0;37m [0;1;30m▄[0m [1;30m▀[0m [1;32;42m▐█████[0;1;36;40m██[0;1;32;42m███[0;32m▓[0;1;30m▓[0m
   [1;30m█[0;35m▀[0m                        [37m  [0;31m▓█[0;1;31;41m▄[0;31m▄[0;37m [0;1;30m▀[0;32m▀▓[0;1;32;42m▀█[0;1;32;47m  [0;1;32;42m▀[0;32m▓▀[0;1;30m▀[0m [31m▄[0;1;31;41m▄[0;31m█▓[0;37m [0;1;30m▐[0;1;34;44m░[0;34m██[0;30;44m░[0;37;40m [0;1;30;40m▀[0;32m▀▓█[0;1;32;42m▀▀███████▀[0;1;30;40m█[0m
 [1;30m▀[0m                              [31m▀▀[0;1;31;41m▓▓▄[0;31m▄▄[0;37m [0;1;30m▀▀▀[0m [31m▄▄[0;1;31;41m▄▄▓[0;31m▀[0;37m  __________ [0;1;30m▀[0;32m▀▀▓[0;1;32;42m▀▀▀[0;1;30;42m▄[0;32m▀[0;1;30m▀[0m
-   running under latest mystic/x   [31m▀▀[0;1;31;41m▀▄[0;31m█▄▄[0;1;31;41m▄▓▀[0;31m▀[0m   [37m[ Terminal X ][0m
+                                   [31m▀▀[0;1;31;41m▀▄[0;31m█▄▄[0;1;31;41m▄▓▀[0;31m▀[0m   [37m              [0m
                                       [31m▄[0;1;31;41m▄▓[0;31m█▀[0m       [37m+o acy/bAFH[0m
       [37mfully modded ansiconfig[0m      [31m▄▄[0;1;31;41m▄▀[0;31m▀▀█[0;1;31;41m▀▄[0;31m▄[0m
                                  [31m▄[0;1;31;41m▄▀▀[0;31m▀[0m     [31m▀[0;1;31;41m▀▓▄[0;31m▄[0m
    [37mxxhdd  xxx whq  xxx dist[0m    [31m▄[0;1;31;41m▄▓[0;31m█▀[0m         [31m▀█[0;1;31;41m▀[0;31m█▄[0m
                               [31m▓[0;1;31;41m▓▀[0;31m▀[0m              [31m▀[0m
-     [37mand so on... blablablab.  [0;31m▀[0m                 [31m▄[0;1;31;41m▄[0;31m▓▄[0m
+     [37m                          [0;31m▀[0m                 [31m▄[0;1;31;41m▄[0;31m▓▄[0m
                                                    [31m▀[0;37m  [0;1;31m▄[0m'

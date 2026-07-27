@@ -5,7 +5,7 @@
 # Source SHA-256: 07a170acc12dbfff4ae7675ae8bd18d5d75259a79822db82e2b37efc71f71be4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (M1)KAAS.ANS by m01 (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kaaskunst
 # SAUCE Author: m01
 # SAUCE Group: Phat Studios '97
@@ -31,10 +31,4 @@ Write-Host '
     [34;40m ▀[0;1;34;44m▒▓[0;1;34;47m▓▓[0;1;34;40m▌[0;1;30;40m ░░▐[0;1;30;47m▌░[0;1;37;47m░▐[0;1;37;40m▌[0m ░░[30;47m▓[0;37;40m [0;36;40m░[0;30;46m▓[0;36;40m   ▀[0;1;36;40m▀[0;1;36;46m▓[0m [36m [0;33m ▀[0;1;33;43m░▓▓[0;1;33;40m█[0;1;33;43m▄[0;1;33;40m▄[0;1;37;40m▄▄[0m  [1;30m▀[0m▀[1;30;47m▒░░[0;1;37;47m░░[0;1;30;47m▀[0m▄[1;30m▄[0;34m [0m   [36m▄[0;1;36;46m▓[0;1;36;40m▀[0;36m▀[0;1;36m [0m [34m  ▀▀ [0m
    [34m░[0;30;44m▓[0;37;40m [0;34;40m ▀[0;1;34;40m▀▀▀[0;34m [0m   [1;30m▀[0m▀▀[1m▀[0m         [36m''[0m     [33m░[0;30;43m▓[0;33;40m [0;37;40m [0;33;40m ▀[0;1;33;40m▀▀[0;1;37;40m▀▀▀[0;1;33;40m▀[0;33m▀[0m    [1;30m▀[0m▀▀[1m▀▀▀[0m▀▀[1;30m▀[0m      [36m░[0;30;46m▓[0m
              [34;40m     [0;37;40m  [0;1;30;40m  [0m            [30;43m██[0m
-[1;30;40m─(vomit),────── ─ ───────────-- - ─────────── ───────── ---────────── - ────────[0m
-
- [1;30mWuaah, to be honest[0m [1;30m- I hate this ansi, one of my first newskool tries[0m
-[1;30m ever. No comment =)[0m [1;30m.........[0m
- [1;30maber hallo and super duper to 40 ;)[0m [1;30m- I think I''ll draw soon a new one hehe[0m
-
- [1;31m* [0;1;30msorry 4o, this ansi got the "sucking stamp" <g>[0m'
+[1;30;40m─(vomit),────── ─ ───────────-- - ─────────── ───────── ---────────── - ────────[0m'

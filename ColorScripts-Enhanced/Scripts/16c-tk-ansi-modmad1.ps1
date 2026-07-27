@@ -5,7 +5,7 @@
 # Source SHA-256: 1a3e706b65d875aee0ac23075c6f1e8308f6b961f373e0a7868b283e60ee293e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MODMAD1.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Modular Madness BBS Ad
 # SAUCE Author: Tank
 # SAUCE Group: NeXX
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                               [1;35mS[0;35mys[0;1;35mO[0;35mp[0;1;35m:[0;1;36mF[0;36matal [0;1;36mE[0;36mrror[0m
+                                               [1;35m [0;35m  [0;1;35m [0;35m [0;1;35m [0;1;36m [0;36m     [0;1;36m [0;36m    [0m
      [35m▄▄[0;1;34;45m▄▄▄▄[0;35m▄▄▄[0;1;34;45m▄▄▄▄[0;35m▄▄▄▄[0;1;34;45m▄▄▄▄▄▄▄▄▄[0;35m██[0;1;34;45m▄▄▄▄▄▄▄▄▄▄▄[0;35m▄▄ [0;1;35mC[0;35mo[0;1;35m:[0;1;36mA[0;36mlexis [0;1;36mM[0;36machine [0;1;34mH[0;34mST0w/[0;1;34m3[0;34m.[0;1;34m2[0;34mbis[0m
 [34m   [0;35m▄[0;1;34;45m▄[0;1;34;40m█████[0;1;34;45m██████████▄▀███████████▄▀███████████▄[0;35m▄ [0;1;30m([0;1;5;31m512[0;1;30m)[0;1;5;31m219[0;1;30m-[0;1;5;31m8045    [0;1;31mUSA S[0;31mite[0m
 [31m  [0;35m▐[0;1;34;47m▐[0;1;34;40m████[0;1;34;47m▀[0;1;34;45m▀[0;1;34;47m▀[0;1;34;45m███[0;1;34;47m▀[0;1;34;45m▀[0;1;34;47m▀[0;1;34;45m████[0;1;34;47m▌[0;1;34;45m▐█[0;1;34;47m▀[0;1;34;45m▀▀▀▀[0;1;34;47m▀[0;1;34;45m████[0;1;34;47m▌[0;1;34;45m▐[0;1;34;47m▀[0;1;34;45m▀▀▀▀▀[0;1;34;47m▀[0;1;34;45m████[0;1;34;47m▌[0;35m▌[0;1;33mC[0melerity [1;33m1[0m.37 [1;32mI[0;32mlluminatus [0;1;32mS[0;32mite[0m

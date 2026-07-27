@@ -5,7 +5,7 @@
 # Source SHA-256: abfb0ac284b0d3415c58feb9760e1faed559bea9aafd0b1a52c5577ab5b80e8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BB-TSD6.ANS by Blue Beetle (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -29,7 +29,7 @@ Write-Host '
 [1;30;40m ░ [0;1;30;43m▓▓▒░[0;1;30;40m─┘[0;1;30;47m▓▒░  [0;1;37;47m░[0m           [1;30;40m▀▄    [0;1;37;40m▐[0;1;37;47m░ [0;1;30;40m▓▌░░  [0;1;33;40m▄[0;1;33;43m▓▒[0;33;46m▄▄▄[0;33;40m▌[0;1;34;44m▓▒░[0;34m█[0;1;30;44m░░░▒▒▒▓▓▓[0;1;30;40m█[0;1;30;44m█[0;1;30;40m██ ░░░░ ░░ ░[0m
 [1;30;40m ░░▀▀[0;33m▀▀ [0;1;30m▀[0;30;47m▄▄▄▄▄▄[0;1;37;40m▀[0;30;47m█[0m               [1;37;40m▀[0m▀▀[1;30m▀▀    [0;1;37m▀[0m▀▀[1;30m▀▀▀  [0;1;33m▀[0;33m▀▀[0;1;30m▀[0m      [1;33m▀[0;33m▀▀[0;1;30m▀[0m      [1;30m░░░   ░[0m
 
-        [1;37;47m░    [0m  [1;37;47m█▓▒░ [0m [1;37;47m█▓▒[0m             "[1;30mAN[0mS[1mi [0mand [1mV[0mg[1;30ma [0mGrap[1;30mhex for the Masses...[0m"
+        [1;37;47m░    [0m  [1;37;47m█▓▒░ [0m [1;37;47m█▓▒[0m              [1;30m  [0m [1m  [0m    [1m [0m [1;30m  [0m    [1;30m                     [0m 
 [31m─────────[0;1;37;47m▒░ [0;31m───[0;1;37;47m▓▒░[0;31m───[0;1;37;47m▓▒░[0;31m────────────────────────────────────────────────────────[0m
 [31m─────────[0;1;37;47m▓▒░[0;31m───[0;1;37;47m▒░ [0;31m─[0;31;47m [0;1;37;47m░▒░ [0;31m────────────────────────────[0;1;30mAN[0mS[1mi[0;31m─[0;1;30mB[0my[31m:─[0;34mBl[0;1;34mUe[0;31m─[0;32m[[0;1;37mT[0;1;32mS[0;32md][0;31m─[0;34mB[0;1;34meE[0;34mtl[0;1;34me[0;31m──[0m
          [1;37;47m█▓▒[0m [1;37;47m  ░  [0m [1;37;47m  ░  [0m'

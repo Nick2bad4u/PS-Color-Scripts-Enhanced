@@ -5,7 +5,7 @@
 # Source SHA-256: 8185f6a65ad68c523687769c10dbbfb77f24dd998d4046807c5037d0e22d953a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKR-GRAP.ANS by skrubly (seed); released in seed0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mr. grape head
 # SAUCE Author: skrubly
 # SAUCE Group: seed
@@ -17,7 +17,7 @@
 Write-Host '
 
 
-                                      [1;36mHi kids! Mr. Grapehead sez:[0m
+                                      [1;36m                           [0m
             [35m▄▄▄▄▄▄▄▄▄▄[0;1;35m▄[0m
         [35m▄▄█▀▀▀▀▀▀██▀▀▀▀[0;1;35m▀[0;1;35;45m▓[0;1;35;40m█▄▄[0m            [1;37;40m"Join SEED and life is a[0m
        [35m██▀ [0;1;37m▄▄██▄ [0;35m▀▄ [0;1;37m▄██▄ [0;35m▀[0;1;35;45m▓[0;1;35;40m██[0m            [1;37;40m24 hour party! Really,[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 4e8506961371261268bffa02038118aeda8a134e642947d1e87c8a812dc3ea80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LC-TMR1.ANS by Luc (<AiM>); released in aim-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Magicians Realm
 # SAUCE Author: Luc
 # SAUCE Group: <AiM>
@@ -35,8 +35,8 @@ Write-Host '
            [1;35m███[0;35m███ ███[0;1;35m███▀▀▀▀███████████[0;1;35;45m▄▄▄▄▄▄[0;1;35;40m██[0;35m████ ███[0;1;35m███[0m               [1;35m▀███[0;35m███[0m
 [1;30mLC[0m        [1;35m███[0;35m███ ███[0;1;35m███[0m          [1;35m▀▀▀▀▀▀█████████[0;35m███ ███[0;1;35m███[0m         [35mlc.aim  [0;1;35m███[0;35m██[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-        [1;30m[ Lord Luc of AiM Pressents an Ansi for Mr.BonGs Friend WiZaRd! ][0m
-                           [1;30m[[0m@[1;30m] [0;1;37mThe Magicians Relm [0;1;30m[[0m@[1;30m][0m
+        [1;30m                                                                 [0m
+                           [1;30m [0m [1;30m  [0;1;37m                   [0;1;30m [0m [1;30m [0m
              [32m▄▓▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄ ▄▄▄▄▄▄▄[0m     [32m▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄[0m
           [32m▒  [0;32;42m   [0;1;32;42m▀■▀█ [0m [32m█[0;32;42m  [0;1;32;42m▀▀■█ [0m [1;32;42m  ▀ ▀█■ [0;32m▄ ▄▓[0;32;42m [0;1;32;42m▄▀▀█▄ [0m [1;32;42m  ▀■█ [0m [1;32;42m   ▀■▀█[0;1;33;42m░[0m
        [32m▀▀▒▓▀ [0;1;33;42m░▀  ░ [0;1;32;42m▐[0;1;33;42m░[0m [32m▓[0;32;42m     [0;1;32;42m▐[0;1;33;42m░[0m [1;33;42m ░   [0;1;32;42m▐          ■▐[0;32m▓ [0;32;42m [0;32;40m▓[0;32;42m  [0;1;32;42m▐ [0;32ml[0;32;42m [0;1;33;42m▌   ░[0;1;32;42m▐[0;1;33;42m▒[0m     [32m▀▀▀▀▓▒▀▀[0m
@@ -45,9 +45,9 @@ Write-Host '
              [1;33;42m▒[0;1;33;40m▀▀▀▀▀▀▀ [0;32m▒█  [0;1;33;42m▓▄■    ░▓░▒▒░[0m   [1;33;42m▓▌ ░▓▒░ [0m [1;33;42m▐■  ░▒[0m   [1;33;42m▓▄    ░[0;1;32;42m■▐[0;1;33;42m▒[0m
              [1;33;42m░[0m        [32m░▀■ [0;1;33;42m▒[0;1;33;40m███[0;1;33;42m▄▀ ▒▓▒▓▓[0;32m▀   [0;1;33;42m▒[0;1;33;40m██[0;1;33;42m■[0;1;33;40m█[0;1;33;42m▓[0;1;33;40m█▀ [0;1;33;42m▒[0;1;33;40m█[0;1;33;42m▄[0;1;33;40m█[0;1;33;42m▒▓[0m   [1;33;42m▒[0;1;33;40m██[0;1;33;42m■▄  ▄▒▓[0m
                           [1;33;42m░[0m               [1;33;42m░[0m        [1;33;42m░[0m        [1;33;42m░[0m
-          [1;30m·[0m                2 28.8 nodes both USR, ringdown             [1;30m·[0m
-          [1;30m·[0m             [1mSysop : Wizard [0;1;30m/ [0;1;37mCo-Sysop : BlAcKliTE[0m          [1;30m·[0m
-          [1;30m·  [0;1;37mRunning Shockwave pro beta [0;1;30m/ [0;1;37m913 shockwave pro beta site  [0;1;30m·[0m
-          [1;30m·[0m                [1m913 cirrus distro [0;1;30m/ [0;1;37mDiViNE WHQ[0m              [1;30m·[0m
+          [1;30m [0m                                                            [1;30m [0m
+          [1;30m [0m             [1m               [0;1;30m  [0;1;37m                    [0m          [1;30m [0m
+          [1;30m   [0;1;37m                           [0;1;30m  [0;1;37m                             [0;1;30m [0m
+          [1;30m [0m                [1m                  [0;1;30m  [0;1;37m          [0m              [1;30m [0m
           [1;30m·[0m                       [1m1-913-438-8733[0m                       [1;30m·[0m
-                               ┌ [30mNup : eliteware [0;37m┐[0m'
+                               ┌ [30m                [0;37m┐[0m'

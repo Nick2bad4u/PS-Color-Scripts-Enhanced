@@ -5,7 +5,7 @@
 # Source SHA-256: de57b5f539ac6ed925f8262ae96d89a45ce19f03748861f672296269b70ce349
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-SECTZ.ANS by Unknown Comic (blnt0994); released in blnt0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
                          [30;41m▄▄▄▄▄[0m     [30;41m▄[0m  [30;41m▄               ▐[0m
                                          [30;41m▄▄▄      ▄▄[0;30;42m█[0;30;41m▄ ▀[0m
                                                         [30;41m▄[0m
-                                 [1;37;40mOf[0m [1;37;40mBLuNT[0m
+                                 [1;37;40m  [0m [1;37;40m     [0m
                               [1;37;40mP[0m [1;37;40mR[0m [1;37;40mE[0m [1;37;40mS[0m [1;37;40mE[0m [1;37;40mN[0m [1;37;40mT[0m [1;37;40mS[0m
 
 

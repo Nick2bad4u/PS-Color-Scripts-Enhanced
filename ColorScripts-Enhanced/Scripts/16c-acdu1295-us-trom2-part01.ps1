@@ -5,7 +5,7 @@
 # Source SHA-256: 789d345b41ca12f4a45f60b62b2476d570cf906f4511153ae2da8d6c4fffcf72
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TROM2.ANS by Multiple Artists (ACiD Productions); released in acdu1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Realm of Magic
 # SAUCE Author: Multiple Artists
 # SAUCE Group: ACiD Productions
@@ -46,7 +46,7 @@ Write-Host '
  [1;30m [0;1;37m▄▓▄▀[0m▀▀▀▀[1;30m▀▀▀▄[0m [1;30m▀▀[0;1;30;47m▒▒▓▒▓[0;1;30;40m▄█[0;1;30;47m▓[0;1;30;40m█ ░▄▄▀[0m [1;30m░░▀▀▄[0m [1;30m▀[0m  [1;30m▄▓[0m [1;30m░[0m [1;30m▀█▄[0m [1;30m█ [0m▀[1;47m░░[0m▀ [1;30m▓[0m           [1;30m▄[0m  [1;30m▀▄[0;1;37m [0;1;37;47m▓█[0;1;37;40m▄[0;1;30;40m░[0;1;30;47m▓[0m
  [1;30m▄[0m [1m█[0;1;30m [0;1;37m▄[0;1;37;47m▓▓[0;1;37;40m▀▀[0;1;37;47m▓▒[0m▄[1;30m ▀░[0m        [1;30m█▓[0m [1;30m▄■▀░■▀▀■[0m  [1;30m▀▀▒▀[0m  [1;30m░[0m [1;30m▐█[0;1;30;47m▒▓[0;1;30;40m▄[0m [1;30m▀▄▄▄▄▀[0m [1;30m██[0;1;30;47m▓▓▒[0;1;30;40m██[0;1;30;47m▒▓▓[0;1;30;40m▀[0;1;30;47m▓[0;1;30;40m█▀ ▀▄▄▄▄▄▀[0m
 [1;30;40m▄▄[0m [1;47m▒[0;1;31;40m [0;1;37;47m▓▓▒[0;1;30;40m ▀▒[0m▀[1;47m▒░[0;1;30;40m ▓[0m [1;30m░░░░░░▀▀▓[0m  [1;30mlast week, my buddy SA[0m                    [1;30m▀[0m
-  ▄[1;47m░[0m▄[1;30m [0;1;37;47m▒▒▒[0m▄▄[1;31m [0m▀[1;30m ▄▀[0m        [1;30m▓▒[0m  [1;30mcalls me up and says:  "Hey man, I just remebered[0m
+  ▄[1;47m░[0m▄[1;30m [0;1;37;47m▒▒▒[0m▄▄[1;31m [0m▀[1;30m ▄▀[0m        [1;30m▓▒[0m  [1;30m                                                 [0m
  ▓[1;30m [0;1;37m▄[0;1;30m ▄[0;1;31m [0m▀▀▀[1;47m░░░[0m▄[1;30m ▀▀▀▀▀▀▀▒▄[0m [1;30m [0m  [1;30mwe started an ansi  2 months  ago,  ya  know  the[0m
 [1;30m▐[0m░[1m▐[0;1;47m▓[0;1;40m▌[0;1;30;40m▀▓▒░  [0;1;31;40m [0m▀[1;47m░[0;1;30;40m▄[0;1;37;40m▄[0;1;37;47m▓▓[0;1;37;40m▀▀[0;1;37;47m▓▒[0m▄[1;30m ▀▄[0m  [1;30mbabe?  (it''s  the first  we ever  drew)  think we[0m
  [1;30m▓[0;1;31m [0;1;37m▀[0;1;37;47m▓[0;1;37;40m▄▄[0;1;30;40m  ░ [0m▄[1;47m [0m▓[1;30m▄[0;1;37;47m▓▓▒[0;1;30;40m ▀▒[0m▀[1;47m▒▒[0;1;30;40m ▓[0m  [1;30mshould  release  it?  ''cuz  it''s been awhile that[0m

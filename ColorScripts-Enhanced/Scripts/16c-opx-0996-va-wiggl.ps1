@@ -5,7 +5,7 @@
 # Source SHA-256: aa72441fdc74e5913cc6bb398ac2cdcb15fae2efc6a66e211e55e8d1532fb112
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VA-WIGGL.ANS by Vain (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wiggle, Wiggle
 # SAUCE Author: Vain
 # SAUCE Group: Opium
@@ -37,16 +37,4 @@ Write-Host '
 █[30;47mkiller toy [0;1;35;40m [0;1;32;40m▀[0;1;32;42m▒[0;32m▀[0;37m [0;1;32m▀▀[0;1;32;42m▓[0;1;32;40m██▀▀▀▀[0m ▄ [32m▄[0;1;32m [0m████████████[30;47mg[0;37;40m█▄▄ [0;35;40m▀▀[0;1;35;45m▒▒▓[0;1;35;40m█████████[0;1;35;45m▓[0;35m▄[0;37m [0;1;34;44m▓▒[0;1;34;40m [0;1;35;45m▒▓[0;1;35;40m██[0;1;35;45m▓▒[0;35m▀[0;1;34m ▀[0;34m▀[0;1;34;44m░[0;34m▌[0m
 [37m██[0;30;47mansi by[0;37;40m████▄▄ ▒ [0;32;40m▀[0m   [1;32;40m▄[0;1;32;42m▒[0;32m▄[0;37m ██▄▄▄███████████████[0;30;47mg[0;37;40m█[0;30;47ml[0;37;40m▄▄▄ [0;1;35;40m▀▀▀▀▀[0;1;35;45m▒▓[0;1;35;40m█[0;1;35;45m▓▒░[0;35m▄▄▄▄[0;1;35;45m▓[0;1;35;40m▀▀▀[0m ▄▄██▄[1;34m [0;34m▀[0m
 [37m███[0;30;47mvain![0;37;40m███████▄▄▄█ ░  [0;32;40m▀[0;37;40m ▄█████████████████████████[0;30;47me[0;37;40m██[0;30;47mw[0;37;40m█[0;30;47mi[0;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;30;47ml[0;37;40m█[0;30;47me[0;37;40m█[0;30;47m![0;37;40m████[0m
-[37;40m███████████████████▄▄▄███████████████████████████████████████[0;30;47mg[0;37;40m███[0;30;47mg[0;37;40m██████████████[0m
-
-        [37;40mhmmmmm... a bit short of time, coz i''ve just started studying[0m
-        [37;40mat the first swedish virtual reality center, so i hop this is[0m
-        [37;40moki... anyway. this ansi is for my own board "pets"... [0m
-
-        [37;40mif you wanna call it, call +46-278-611311... or send me a nice [0m
-        [37;40mmail @ vains_world@geocities.com    .... that was about it...[0m
-
-        [37;40myeah... some greets too... hi to: lord spatter, silence, melkor[0m
-        [37;40mhoodoo, baltazar, fear, fade... and all the other i know!...[0m
-
-        [37;40mlater![0m'
+[37;40m███████████████████▄▄▄███████████████████████████████████████[0;30;47mg[0;37;40m███[0;30;47mg[0;37;40m██████████████[0m'

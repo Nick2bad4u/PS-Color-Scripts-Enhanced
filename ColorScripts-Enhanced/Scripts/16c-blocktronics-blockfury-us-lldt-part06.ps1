@@ -5,7 +5,7 @@
 # Source SHA-256: 207ea408944b74cb93472aeb3ee50ecccc16364bd1f44b1007be83ebcdbb7b0c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LLDT.ANS by Null Fruit + Resetsurvivor (b7 + rsz); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: A WINNER IS YOU.
 # SAUCE Author: nllfrt x r5
 # SAUCE Group: b7 + rsz
@@ -64,4 +64,4 @@ Write-Host '
 [37m░░░░[0;36m▌▀▀[0m        [36m▐[0;37m░[0;36m▄[0m       [1;33m [0;1;30m    [0;36m▄[0;1;33m██████████████████[0;36m▌▀▀[0;1;30m [0;1;36m [0;1;34m [0;1;33m [0;1;30m    [0;36m▐[0;37m░[0;36m▄ [0m       [1;30m    [0;36m▄[0;37m░░░░[0m
 [37m░░░[0;32m▌[0;1;30m   [0;32m▄▄▄▄▄[0;37m░░░░░░░[0;32m▄▄[0;1;30m   [0m [1;33m [0;1;30m [0;32m▄▄[0;1;33m███████████████████[0;32m▌[0;1;30m   [0;32m▄▄▄▄▄[0;37m░░░░░░░[0;32m▄▄[0;1;30m   [0m [1;30m  [0;32m▄▄[0;37m░░░░░░[0m
 [37m░░░░░░░░░░░░░░░░░░░░░░░░[0;1;33m█████████████████████████████████[0m░░░░░░░░░░░░░░░░░░░░░░░
-[34m█[0;1;34;44m[[0;1;37;44mANSI[0;1;34;44m] [0;36;44mart[0;1;34;44m[[0;1;33;44m?[0;1;34;44m] [0;44mby [0;1;35;44mnull[0;1;37;44mFRUIT [0;44m& [0;1;35;44mreset[0;1;37;44mSURVIVOR[0;34m█[0;1;36;44ms16c[0;34m█[0;1;34;44m[[0;1;37;44mllama[0;34m█[0;37;44m+ [0;1;35;44mdonut making[0;34m█[0;37;44m+ [0;1;31;44mtokyo[0;1;34;44m][0;34m█[0m'
+[34m█[0;1;34;44m [0;1;37;44m    [0;1;34;44m  [0;36;44m   [0;1;34;44m [0;1;33;44m [0;1;34;44m  [0;44m   [0;1;35;44m    [0;1;37;44m      [0;44m  [0;1;35;44m     [0;1;37;44m        [0;34m█[0;1;36;44m    [0;34m█[0;1;34;44m [0;1;37;44m     [0;34m█[0;37;44m  [0;1;35;44m            [0;34m█[0;37;44m  [0;1;31;44m     [0;1;34;44m [0;34m█[0m'

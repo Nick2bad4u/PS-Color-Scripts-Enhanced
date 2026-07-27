@@ -5,7 +5,7 @@
 # Source SHA-256: aca1a3cfb7eaa1f1e29ea8ac5d96dedd6e2f32dd0e677d3c6a12a355ccbb5f62
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: $H-PAIN3.ANS by Shinigami (.%.AXss.%. -97); released in axss-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pain Title Ansi #3
 # SAUCE Author: Shinigami
 # SAUCE Group: .%.AXss.%. -97
@@ -42,13 +42,11 @@ Write-Host '
 [1;30;40m:[0;1;34;44mI[0;1;34;40mntrigues[0;1;30;40m:[0;1;34;44mM[0;1;34;40monthly[0;1;30;40m::[0;34m▄[0;1;34;44m░░▒▒▓[0;1;34;40m▄██▄▄▄▄▄[0;1;34;44m▓█[0;1;34;40m█████[0;1;34;44m▓[0;1;34;40m▄▄[0;33m▀▀▀[0;1;31;43m ░░[0;33m▀▀▀[0;1;34m▄▄▄[0;1;34;44m▓[0;1;34;40m█████[0;1;34;44m▓[0;1;34;40m█[0;1;30;40m▐▓▀▀▀▓░░░░▒░░▌[0;1;34;44m▒░[0m
 
 [1;30m─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─[0m
-  [30;44mN[0;1;30;40mame[0;34m: [0;30;44mP[0;1;30;40main Title Ansi #3[0m              [30;44mB[0;1;30;40my[0;34m: [0;30;44mS[0;1;30;40mhinigami//AXss[0m              [30;44m1[0;1;30;40m997[0;1;5;30;40m_[0m
+  [30;44m [0;1;30;40m   [0;34m  [0;30;44m [0;1;30;40m                 [0m              [30;44m [0;1;30;40m [0;34m  [0;30;44m [0;1;30;40m              [0m              [30;44m [0;1;30;40m   [0;1;5;30;40m [0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─[0m
 
-  [34mA[0;1;30mnd [0;34mh[0;1;30mere [0;34mi[0;1;30ms [0;34mt[0;1;30mhe [0;34ml[0;1;30mast [0;34mP[0;1;30mAiN [0;34mt[0;1;30mitle [0;34ma[0;1;30mnsi [0;34mI[0;1;30m [0;34mm[0;1;30made [0;34mf[0;1;30mor [0;34mn[0;1;30mow [0;34m;[0;1;30m) [0;34m([0;1;30mmore [0;34mt[0;1;30mo [0;34mc[0;1;30mome [0;34mI[0;1;30m [0;34mg[0;1;30muess)[0m
-  [34ma[0;1;30mnd [0;34mI[0;1;30m [0;34ml[0;1;30mike [0;34mt[0;1;30mhis [0;34mo[0;1;30mne [0;34mc[0;1;30mause [0;34mi[0;1;30mt [0;34ms[0;1;30mhows [0;34mt[0;1;30mhe [0;34mf[0;1;30mace [0;34mo[0;1;30mf [0;34ma[0;1;30m [0;34mc[0;1;30mute [0;34ml[0;1;30mil'' [0;34mm[0;1;30manga [0;34mc[0;1;30mhick [0;34m:[0;1;30m)[0m
-  [34mA[0;1;30maaahhhhhh, [0;34mI[0;37m [0;34ml[0;1;30muv [0;34mm[0;1;30manga [0;34ms[0;1;30moooo [0;34mm[0;1;30much [0;34m:[0;1;30m-), [0;34mw[0;1;30mell, [0;34mg[0;1;30motta [0;34mg[0;1;30mo [0;34mn[0;1;30mow, [0;34mc[0;1;30m [0;34mu[0;1;30m [0;34ml[0;1;30m8erz [0;34m![0m
+  [34m [0;1;30m   [0;34m [0;1;30m    [0;34m [0;1;30m  [0;34m [0;1;30m   [0;34m [0;1;30m    [0;34m [0;1;30m    [0;34m [0;1;30m     [0;34m [0;1;30m    [0;34m [0;1;30m [0;34m [0;1;30m    [0;34m [0;1;30m   [0;34m [0;1;30m   [0;34m [0;1;30m  [0;34m [0;1;30m     [0;34m [0;1;30m  [0;34m [0;1;30m    [0;34m [0;1;30m [0;34m [0;1;30m     [0m
+  [34m [0;1;30m   [0;34m [0;1;30m [0;34m [0;1;30m    [0;34m [0;1;30m    [0;34m [0;1;30m   [0;34m [0;1;30m     [0;34m [0;1;30m  [0;34m [0;1;30m     [0;34m [0;1;30m   [0;34m [0;1;30m    [0;34m [0;1;30m  [0;34m [0;1;30m [0;34m [0;1;30m    [0;34m [0;1;30m    [0;34m [0;1;30m     [0;34m [0;1;30m     [0;34m [0;1;30m [0m
+  [34m [0;1;30m           [0;34m [0;37m [0;34m [0;1;30m   [0;34m [0;1;30m     [0;34m [0;1;30m     [0;34m [0;1;30m    [0;34m [0;1;30m    [0;34m [0;1;30m     [0;34m [0;1;30m     [0;34m [0;1;30m  [0;34m [0;1;30m    [0;34m [0;1;30m [0;34m [0;1;30m [0;34m [0;1;30m     [0;34m [0m
 
-                                                      [37m    [0;1;30m  [0;34m$[0;37m [0;1;30mh[0m [1;30mí[0m [1;30m∩[0m [1;30mí[0m [1;30mÇ[0m [1;30m/┤[0m [1;30mm[0m [1;30mì[0m
-
-                             [1;30mI[0m [1;30mcommand[0m [1;30mthe[0m [1;30mDevil...[0m'
+                                                      [37m    [0;1;30m  [0;34m$[0;37m [0;1;30mh[0m [1;30mí[0m [1;30m∩[0m [1;30mí[0m [1;30mÇ[0m [1;30m/┤[0m [1;30mm[0m [1;30mì[0m'

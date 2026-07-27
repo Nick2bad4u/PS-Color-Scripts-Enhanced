@@ -5,7 +5,7 @@
 # Source SHA-256: a4a73b9cc65191a835910eeb615278549456777652a4ad19b686cef267890619
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M7M-FIR2.ANS by Metal Militia (FIRE); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fire
 # SAUCE Author: Metal Militia
 # SAUCE Group: FIRE
@@ -17,7 +17,7 @@
 Write-Host '
 
            [30;45m█[0m            [34;40m░[0;30;44m▓[0;37;40m  [0;31;40m┌[0;1;31;40mgg[0;31m%:[0m
-                 [37mm7m([0;1;37mfir[0;1;33;44me[0;30;44m░[0;37;40m  [0;1;31;40ml$$$l[0m                             [32m.[0;1;31m  [0;32m  [0m
+                 [37m    [0;1;37m   [0;1;33;44m [0;30;44m░[0;37;40m  [0;1;31;40m     [0m                             [32m [0;1;31m  [0;32m  [0m
                          [34m   [0;31m:[0;1;31m$7[0;31m*┘[0m                  [32m _[0;1;32m__[0;32m_.[0;1;32m [0;32m`[0;1;32m [0m   [32m [0m   [32m  '' *._[0;1;32m____[0;32m__[0m
       [1;31m     [0;31m.[0;1;31m,┌⌐s##[0;31m##[0;1;31ms[0;31m⌐[0;1;31m┐[0;31m,.[0;34m   [0;1;34m [0;31m┌[0;1;31mgg[0;31m%%[0;1;31m   [0;31m .[0;1;31m,┌⌐s##[0;31m##[0;1;31ms[0;31m⌐[0;1;31m┐[0;31m,.[0;32m`[0;1;32m└4$[0;32m$[0;1;32m  [0;31m.[0;1;31m,┌⌐s##[0;31m##[0;1;31ms[0;31m⌐[0;1;31m┐[0;31m,.[0;32m`└[0;1;32m4$$$[0;32m$[0m
           [31m:[0;1;31m$$$$┘²~~~²l$$$[0;31mär.[0;1;34m [0;31m:[0;1;31m$$$$[0;31m:[0;1;31m  [0;31m:[0;1;31m$$$$┘²~~~²l$$$[0;31mär.[0;32m`4[0;1;32m [0;31m:[0;1;31m$$$$┘²~~~²l$$$[0;31mär.[0;32m`[0;1;32m4$$[0m
@@ -30,5 +30,4 @@ Write-Host '
 [34m:╜[0m   [34m:╜ :[0;1;34m╜╜[0;34m╜╜╜[0;1;31m [0;31m|[0;1;31m$[0m             [31m:[0;1;31m$$$l [0;1;34m:[0;34m:[0;1;31m gg[0;31mg|[0;1;31m$[0m         [1;34m      [0;1;31m  [0;31m╜[0;1;31m [0;31mi[0;1;31m$$$[0;31m$[0;1;31m$$[0;31m$b.[0;1;31m [0;34m.[0;1;34m [0m
               [1;31m [0;31m::[0m             [1;31ml$$$[0;31m:[0;1;31m [0;34m``[0;1;31m `[0;31m``::[0m            [1;31m [0m   [1;31m   [0;31m:~[0;1;31m~~[0;31m~²┘7`[0;34m.[0;1;34md$[0;34mb.[0m
                               [31m┘[0;1;31m²[0;31m~`[0m                       [1;31m [0m           [1;31m [0;31m`[0;1;34m [0;34m`[0;1;34m4$[0;34m7`[0m
-                                  [1;31m [0m                                       [34m`[0m
-                 [1;31mfir[0;31me[0;1;31m ba[0;31m([0;1;31mn[0;31m)[0;1;31mkin[0;31mg[0;1;31m 9[0;31m7[0;1;31m :[0;31m:[0;1;31m wel[0;31ml [0;1;31mdon[0;31me[0;37m [0;1;31mroaste[0;31md [0;1;31martwork[0;31ms[0m'
+                                  [1;31m [0m                                       [34m`[0m'

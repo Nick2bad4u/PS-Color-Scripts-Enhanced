@@ -5,7 +5,7 @@
 # Source SHA-256: aea0ba151b96e7b67dff2740aa9480f4086bf493e467ba3d58299265da2326a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M5-ATHMA.ANS by umkilla (sliver); released in sliver05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the aftermath
 # SAUCE Author: umkilla
 # SAUCE Group: sliver
@@ -15,13 +15,13 @@
 # Columns: 1-80
 
 Write-Host '
-[1m  [0;1;32m─[0;1;33m│─  [0;1;30m.[0m                              [1;31mAAFFTAPHUKKKKIN MATH@#?$[0m
+[1m  [0;1;32m─[0;1;33m│─  [0;1;30m [0m                              [1;31m                        [0m
 [1;31m   [0;1;30m│   │[0m                               [1;31m"[0m
-[1;31m   [0;1;30m`-,-''[0m                             [1;31m" ZZZZZZZZZ ZZZZZZZZZ ZZZZZZZZZ ZZZZZZz[0m
-     [1;30ml[0m                              [1;31m"  ZZZZ ZZZZ ZZZZ ZZZZ ZZZZ ZZZZ ZZZZ ZZZZ[0m
-     [1;30m│[0m       [1;30m│[0m                      [1;31m"  ZZZZ ZZZZ ZZZZ ZZZZ ZZZZ ZZZZ ZZZZ ZZZZ[0m
-     ░       ░                       [1;31m6 ZZZZ[0m      [1;31mZZZZ[0m      [1;31mZZZZZZZZZ ZZZZ ZZZZ[0m
-     ░       ▒                         [1;33;45m░░░[0;1;31;40mZZZZZZ ZZZZ[0m      [1;31mZZZZ ZZZZ ZZZZ ZZZZ[0m
+[1;31m   [0;1;30m     [0m                             [1;31m                                       [0m
+     [1;30m [0m                              [1;31m                                          [0m
+     [1;30m│[0m       [1;30m│[0m                      [1;31m                                          [0m
+     ░       ░                       [1;31m      [0m      [1;31m    [0m      [1;31m                   [0m
+     ░       ▒                         [1;33;45m░░░[0;1;31;40m           [0m      [1;31m                   [0m
      ░       █▄█[36;47m▄▄▄[0;37;40m██▄▄▄[0m               [1;33;45m▒▒▒[0m  [1;33m████ ████ ████ ████ ████ ████ ████[0m
      ▒       █[1;36;47m▄[0;36m▀ [0;1;37m▄ [0;36m▀[0;36;47m▄[0;1;32;47m▄[0;32m▀▀[0;32;47m▄[0;37;40m██▓▓▒░[0;1;30;40m▌[0;1;33;45m░▒▒▒▓▓▓[0;1;33;40m██[0;1;33;45m█▓▒[0;1;33;40m██[0;1;33;42m▓▒[0;1;32;40mf[0;1;33;42m░▒▓[0;1;33;40m█ ██[0;1;33;42m▓▒[0;1;32;40mi[0;1;33;42m░▒[0;1;33;40m█[0;1;33;42m▓[0;1;32;40ml[0;1;33;42m▒▓[0;1;33;40m█[0;1;33;42m▓[0;1;32;40me[0;1;33;42m▒▓█▓[0;1;32;40ms[0;1;33;42m▓▒[0;1;33;40m█[0;1;33;42m▓[0;1;32;40m?[0m
      ▒      ▀█[1;36;46m▀[0m [1m▀█[0;1;46m█[0m [1;32;46m▐[0;1;32;40m▌[0;1;37;40m▐▄ [0;32m█[0;37m▌[0m           [1;33m"[0;1;33;45m▓▓▓[0;1;33;40m▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀[0m

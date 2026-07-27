@@ -5,7 +5,7 @@
 # Source SHA-256: 0875ad7b75c7f3352b9f5f18b2ea7d504f386f3c6fb12e67386bb4fa007b743f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FRC.ANS by Criminal Enigma + Kleptomaniac (force-16); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fOrce
 # SAUCE Author: Multiple Artists
 # SAUCE Date: 19970322
@@ -31,7 +31,4 @@ Write-Host '
     [37;40m ▐[0;1;37;47m▌[0m  [31m░[0;30;41m▓[0;30;47m█[0;37;40m▄[0;1;37;47m ▀[0m▀▀[30;47m██[0;37;40m [0;31;40m▄[0;1;31;41m▄███[0;1;31;47m▓▓▒▒▓▓[0;1;31;41m█▄[0;31m▄▄▄[0;1;30m [0;1;37m [0;36m▀[0;1;37;46m░░[0;36m▄[0m   [31m▀[0;1;31m▀▀▀[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;1;37;40m [0;1;30;40mc3[0;30;41m▓[0;31;40m░[0;30;41m▓[0;1;37;40m  [0m
       ▀ ■  ▀▀░[30;47m▓[0;37;40m    [0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓▄[0;31;40m▀▀▀[0;1;31;47m▓▓[0;31m▀▀▀[0;30;41m▄[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0m   [36;40m▌▀▀[0;31;40m [0;36;40m■[0;31;40m [0;36;40m▄[0;31;40m [0;1;37;40m [0;31m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;1;30;40m   [0m
                            ░[30;47m▓[0m   [1;37;40m  [0m      [36m▀[0;31m [0m
-                                             [1;37m  [0m. ..[1mfOrce[0m.. .
-
-criminal enigma [[1mraw[0m] - shade/bground
-kleptomaniac [[1mforce[0m] - shape[0m'
+                                             [1;37m  [0m. ..[1mfOrce[0m.. .[0m'

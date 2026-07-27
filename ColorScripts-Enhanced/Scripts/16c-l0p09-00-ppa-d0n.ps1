@@ -5,7 +5,7 @@
 # Source SHA-256: ed76da882a2f4d5a0b2e9b48c2a3d60cd5d5d6c03903becc34c74011192faa85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPA!D0N.ANS by protoplasta (kwadrat); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: d0n w stylu anomite
 # SAUCE Author: protoplasta
 # SAUCE Group: kwadrat
@@ -44,11 +44,4 @@ Write-Host '
 [35m▀▀▀[0;1;35;45m▀▀█████████▀███[0;35m█[0;33m▐[0;1;31;43m▐[0;1;31;40m██[0;1;31;43m▀[0;33m▀[0;35m▄[0;1;35;45m▄████[0;35m▀[0;1;35;45m███▀▄████▀[0;35m▀▀      [0;37m [0;35m        [0m
 [35m      ▀▀[0;1;35;45m███████▄███[0;35m▄[0;33m▀▀[0;37m [0;35m▄[0;1;35;45m▄████▀[0;35m▀[0;1;35;45m [0;35m█▀[0;1;35;45m▄████▀[0;35m▀    [0;37m  [0;35m [0m
 [35m         [0;37m [0;35m▀[0;1;35;45m█[0;1;33;40m███[0;1;35;45m████[0;1;35;40m█[0;35m█[0;37m [0;35m▄[0;1;35;45m▄████ [0;35m▄▀ ▄[0;1;35;45m▄████ [0;35m    [0m
-[35m            [0m     [35m░░░░░░░░░░░░░[0m
-
-
-
-[37mheh, simon, wiem ze lubisz takie krzywe mordki, wiem, ze lubisz tez styl[0m
-[37manomite/ex.dominio. teraz juz wiesz skad pomysl na to ansi. pozdrawiam![0m
-
-[37mprotoplasta/kwadrat[0m'
+[35m            [0m     [35m░░░░░░░░░░░░░[0m'

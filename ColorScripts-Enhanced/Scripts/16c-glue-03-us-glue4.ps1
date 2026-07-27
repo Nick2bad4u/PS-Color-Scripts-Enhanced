@@ -5,13 +5,13 @@
 # Source SHA-256: 19ce2c3944a9349f5aef5aceb10e7a0ffb41e77a5cfb5f546198d8399966c31a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GLUE4.ANS by Spear + The Ruiner (glue-03); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
 
-                   [31mm[0;1;31mU[0;31mLTI-p[0;1;31mU[0;31mRPOSE-g[0;1;31mL[0;31mUE.iN-p[0;1;31mR[0;31mOFESSIONAL-s[0;1;31mT[0;31mRENGTH[0m
+                   [31m [0;1;31m [0;31m     [0;1;31m [0;31m       [0;1;31m [0;31m       [0;1;31m [0;31m            [0;1;31m [0;31m      [0m
                                          [37m     [0m
    [37m▄[0;1;37;47m▄[0;1;37;40m██▀[0m [35m▀[0;37m [0;35m▀[0;37m [0;35m▀ ▀▀██[0;35;46m▄ [0;37;40m [0;34;40m░  ░[0m         [32;40m▐[0;1;32;42m [0m     [1;33m█[0;1;37m█[0;1;33m█[0;1;32;42m▀[0m     [31m░[0;37m [0;31m░[0;30;41m▒░[0;31;40m█▄█[0;37;40m [0;1;36;47m ▄[0;1;36;40m██[0;1;37;40m▀▀[0m [1;36m▀[0m [36m▀▀▀▀▀███▄[0m
    [37m▐[0;1;37;47m▐██[0;1;37;40m▌[0m         [35m███[0;35;46m▓[0;37;40m [0;30;44m▒[0;34;40m░[0;30;44m▓▒[0m         [1;32;40m▐[0;1;32;42m█[0;32m▄▄[0;37m   [0;1;32m▀▀[0;32m▀▀[0;37m  [0m       [31m████[0;37m [0;1;36;47m▓▓[0;1;36;40m██[0m         [36m▐[0;37;46m   [0;36;40m▌[0m
@@ -26,6 +26,4 @@ Write-Host '
        [36m █[0;1;36m██[0;1;36;46m▄[0;1;36;40m▄▄▄[0;36m▄[0m      [37m     [0;36m▄[0;1;36m▄▄▄[0;36m▄[0m   [32m [0;1;32;42m▀[0;32m▀[0;1;32;42m█[0m [32m██[0m              [32m▀▀[0;1;32m▀[0;32m [0;37m  [0;32m▄▄▄[0;1;32;42m▄▄█[0;1;32;40m▄▄[0;1;34;40m▄[0m
          [36m   ▀[0;1;36m▀▀▀[0;1;36;46m▀[0;1;36;40m██[0;1;36;47m▓▓[0;1;36;40m█[0;1;36;47m▓[0;1;36;46m▌[0m [36m█[0;1;36;46m██▌[0m       [32m▀[0;37m [0;1;32;42m▀[0m [32m▀▀[0;37m [0;36m▄▄[0;1;36;46m▄[0;1;36;40m██▀[0;36m▀[0;37m [0;36m▀[0;1;36m▀[0;1;36;46m▀[0;1;36;40m█[0;36m▄▄[0;37m [0;36m▄[0m        [32m▀[0;1;32m▀[0;1;34m▀▀[0m
                            [1;36;46m █[0;1;36;40m▄▄[0;36m▄ [0m     [32m▀[0m      [36m▀[0;1;36;46m▀[0;1;36;40m▀[0;1;36;46m▀█[0m [36m█[0;1;36;46m█[0;1;36;40m▀▀[0m
-spear-all of logo/cyan bg  [36m█[0;1;36;46m█[0;1;36;40m▀▀[0;36m▀[0m       [1;37m▀[0;1;36m▀[0m [36m▀[0;1;36m▀▀▀▀▀[0;1;36;46m▀█[0;36m▀[0;1;36;46m▀█[0;1;36;40m▀[0;36m▀[0;37m [0;36m▀[0m
-[37mruiner-greenbackground[0m
-[37mboth: "stuck on glue"[0m'
+spear-all of logo/cyan bg  [36m█[0;1;36;46m█[0;1;36;40m▀▀[0;36m▀[0m       [1;37m▀[0;1;36m▀[0m [36m▀[0;1;36m▀▀▀▀▀[0;1;36;46m▀█[0;36m▀[0;1;36;46m▀█[0;1;36;40m▀[0;36m▀[0;37m [0;36m▀[0m'

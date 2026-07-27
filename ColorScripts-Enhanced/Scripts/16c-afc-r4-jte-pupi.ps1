@@ -5,7 +5,7 @@
 # Source SHA-256: a43886e2755fdc343d4b0bf5fc48fcbe4516dbb588eaaf4d0e20bcaf6f936c97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JTE-PUPI.ANS by Jate (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -51,7 +51,5 @@ Write-Host '
       [31m░[0m      [31m░  [0;34m░[0m     [34m░░▒    [0;31m▀▀▀▀▀▀    [0;34m░░▒░[0m                [34m░ [0;31m▒▓ [0;34m▒▓▒ [0;31m▓█ [0;34m█▓▒░[0m
                                                              [31m░▒ [0;34m░▒░ [0;31m▒▓[0;34m▒▓█▓▒[0m
                                                               [31m░  [0;34m░  [0;31m░▒ [0;34m░▒▒[0m
-                             [1;37m<[0;1;35m─ [0;35mu[0;1;35mN[0;1;37mDE[0;1;35mR[0;35mg[0;1;35mR[0;1;37mOUN[0;1;35mD [0;35mp[0;1;35mU[0;1;37mB ->[0m                   [31m░[0m
-                            [1;37m<[0;1;35m- [0;35m+[0;1;35m3[0;1;37m5[0;1;35m8 [0;35m- [0;1;35m46 [0;35m- [0;1;35m7[0;1;37m5425 ->[0m
-                          [1;37m<[0;1;35m- [0;35mS[0;1;35mys[0;35mO[0;1;35mp [0;1;37m: [0;35mK[0;1;35mi[0;1;37mnk[0;1;35my [0;35mO [0;1;35mN[0;1;37mepal ->[0m      [32mJ[0;1;32mA[0;1;33mT[0;1;37mE-[0;34md[0;1;34mU[0;36mU[0;1;36md[0;1;37m-[0;1;30mM[0mÄ[1mN[0m
-                       [1m<[0;1;35m- [0;35mF[0;1;35mu[0;1;37mture Ne[0;1;35mt   A[0;1;37mFC C0U[0;1;35mR[0;35mi[0;1;35mE[0;1;37mR HQ ->[0m      [1;37mEIEFSII[0m'
+                             [1;37m [0;1;35m─ [0;35m [0;1;35m [0;1;37m  [0;1;35m [0;35m [0;1;35m [0;1;37m   [0;1;35m  [0;35m [0;1;35m [0;1;37m    [0m                   [31m░[0m
+                            [1;37m<[0;1;35m- [0;35m+[0;1;35m3[0;1;37m5[0;1;35m8 [0;35m- [0;1;35m46 [0;35m- [0;1;35m7[0;1;37m5425 ->[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ca3e22c9edc865ed57d412abb50e2261d14494ba044e4ac810a5122e87649aee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: g-gel.ans by Griskokare (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gel
 # SAUCE Author: Griskokare
 # SAUCE Group: Legacy Krew
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-                        [1;37;40m   [0m      [44m [0;30;44mnOvOqUe[0;37;44m [0;30;44m2O2O[0;37;44m [0m       [1;33;40m,┌\[0;1;37;40m\L7[0;1;30;40m░[0m            [33m.[0m
+                        [1;37;40m   [0m      [44m [0;30;44m       [0;37;44m [0;30;44m    [0;37;44m [0m       [1;33;40m ┌ [0;1;37;40m   [0;1;30;40m░[0m            [33m [0m
                         [37m░░[0;1;30m [0m                           [1ml$$$$[0;1;36m$[0;1;30m░►►►[0m   [33m,[0m     [33m_[0;37m   [0;33m.[0m
 [37m   [0;1;37;46m g E L [0;36m►[0;37m [0;1;30m::[0m [1;30m:[0m        ▒▒[1;30m [0m   [1m [0;1;33m,[0;1;37m┌\\[0;1;33m4$[0;1;37m│││L7y,[0m          [1m│$[0m▓▓[1;36m$$[0;1;30m▓[0m       [33m\\[0;37m   [0;33m°[0;37m   [0;33m_[0m
                         [37m▓▓    [0;1;37m.l$$$$$$$$$[0;1;36m$$[0;36m$;.[0;37m   [0;33m,[0;37m    [0;1;37m│$[0;1;36m$$$$[0;1;30m▓[0m  [1;33mG[0;1;37m.[0m     [33m_,'' [0;37m [0;33m.[0m
@@ -36,6 +36,5 @@ Write-Host '
 [37m   [0;33m\░░[0;37m  [0;36m1[0;1;36m$$/,_[0m       [36m_.[0;1;36m4\\$[0;36m$l[0;1;30m:''[0;1;36m77$$$$$$$$$$[0;36m$[0;1;36m$[0;36m$░/[0;1;30m/. [0m  Rest in  [1;36m│[0m  [36m°[0;37m [0;36m│[0m
 [37m    [0;33m''│[0;37m  [0;1;36m◄$$$$$$│iii│$$$$$[0;36m$$$7[0;37m [0;33m°[0;37m   °[0;1;36mⁿ/LI[0;36m$$[0;1;36m$7[0;36m\ⁿ''[0;37m [0;36m│[0m        [37mHell  [0;1;36m°[0m    [1;36m│[0m
      [33m│[0;37m  ;[0;1;36m$$$$$$$$$$$$$$[0;36m$[0;1;36m$[0;36m$$7[0;1;30m/[0m          [36m°[0m       [36m°[0m                   [1;36m°[0m
-     [33m°[0;37m  [0;36m│[0;1;36m77$$$$$$$[0;36m$[0;1;36m$[0;36m$[0;1;36m$[0;36m$$$//[0;1;30m.[0m  [33mFounded in 1997[0;1;30m,[0;33m it was the precursor to[0;37m iMPURE[0;1;30m.[0m
-        [36m│[0;37m   °[0;1;36mⁿ/LI$[0;36m$[0;1;36m$[0;36m7[0;1;36m\[0;36m\ⁿ''[0;1;30m►►[0m [1;30m►[0m [33mThis was intentionally made in a suitably shitty[0m
-        [1;36m°[0m        [36m°[0m            [33mstyle[0;1;30m.[0m [33mWord up to[0;37m [0;31mMario[0;1;31m [0;33m&[0;1;31m [0;32mLuigi[0;1;30m.[0m'
+     [33m [0;37m  [0;36m│[0;1;36m         [0;36m [0;1;36m [0;36m [0;1;36m [0;36m     [0;1;30m [0m  [33m               [0;1;30m [0;33m                        [0;37m       [0;1;30m [0m
+        [36m│[0;37m    [0;1;36m     [0;36m [0;1;36m [0;36m [0;1;36m [0;36m   [0;1;30m►►[0m [1;30m►[0m [33m                                                [0m'

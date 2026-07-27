@@ -5,7 +5,7 @@
 # Source SHA-256: b437f5843963f1f3e9efa7303fa2e9ca57a9fe439b2716c4d8f9ff6a1e4c06f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-HIPO.ANS by Calamity (toon0895); released in toon0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 17-62
 # Columns: 1-80
 
@@ -53,6 +53,4 @@ Write-Host '
 [37m▀██[0;1;37m█ [0;35m██████[0;1;35;45m▐[0;1;35;40m██████████████▌[0;35m███[0;1;35m██████████████████▄[0;35m▀███[0;1;35;45m▀▀▄[0;1;35;40m█[0;1;35;45m▀[0;1;35;40m██████████[0;1;37;40m [0m▄▄▄[1;47m▄[0;1;40m█▄[0;1;30;40m▀[0;1;30;45m█▌[0;35m█▀[0m
 [35m█▄▄[0;1;37m▀ [0;35m████████[0;1;35m█████████████[0m [35m████[0;1;35m███████████████████▄[0;35m▀▀████[0;1;35;45m▀▀[0;1;35;40m████████▌[0m███[1;47m▄▀[0;1;40m██ [0;1;30;40m▀[0;35m▀[0;1;30m▄█[0m
 [1;30;45m█▄▀[0;35m██▄▀▀██████[0;1;35;45m▀▀▄[0;1;35;40m████████▌[0;35m█████[0;1;35;45m▀▄[0;1;35;40m████████████████████▄▄▄[0;35m▀▀▀▀▀██[0;1;35;45m▀▄[0;1;35;40m█▌[0m▄██[1;47m▄[0;1;40m▀▀[0;1;30;40m▄▄███[0;1;30;45m▀[0;35m█[0m
-[1;30;45m█████▄▀[0;35m█▄▄▀▀▀▀█████[0;1;35;45m▀[0;1;35;40m██▀▀[0;35m▄█████████[0;1;35;45m▀▀[0;1;35;40m█████████████████████████▄▄▄▄▄▄[0m [1;30m▄▄▄█████[0;1;30;45m▀▄[0;35m██[0m
-            [1;30m∞[0m [1;30moNEhUNDrEDaNDfITTYpERCENToRIGINAL[0m [1;30m∞[0m
-                                                        [1;30maNSIbY:cALAMITYoFtOON!![0m'
+[1;30;45m█████▄▀[0;35m█▄▄▀▀▀▀█████[0;1;35;45m▀[0;1;35;40m██▀▀[0;35m▄█████████[0;1;35;45m▀▀[0;1;35;40m█████████████████████████▄▄▄▄▄▄[0m [1;30m▄▄▄█████[0;1;30;45m▀▄[0;35m██[0m'

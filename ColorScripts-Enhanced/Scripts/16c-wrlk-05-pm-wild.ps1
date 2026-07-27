@@ -5,7 +5,7 @@
 # Source SHA-256: 998c22ea87d95d1d1cfb4671f1b9d03821a3d43bc6d52429c80fce86ab6d0247
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-WILD.ANS by Precious Metal (warlock 619); released in wrlk-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wild World
 # SAUCE Author: Precious Metal
 # SAUCE Group: warlock 619
@@ -37,15 +37,5 @@ Write-Host '
 [1;36m ther[0;1;33me...[0mC[1mall [0;1;34mit.[0m          [31m  ▄▄[0;1;31;41m▄▄▄▄▓▒[0;31m██▀[0;36m▄[0;1;36;46m▄▄▒▄[0;1;36;40m██████[0;1;36;46m▀░░ ▄▄▓▓▄[0;31;46m░▒[0;1;36;46m▄▄▄▄▓▓▀▀▀▀▒▓[0m
    [32m66[0;1;32m0-90[0;1;34m14[0m               [31m▓▀▀███[0;1;31;41m▒▀▀▀▀[0;31m▀[0;36m▐[0;1;36;46m▀▀▒▒▀▀░░[0;36m▌[0;1;36;46m▀[0;36m█▀▀▀▀[0;1;36;46m▒[0;36m▀[0;1;36m▀[0;1;36;46m▀▀▀░░▀▀▀[0;1;36;40m▀[0m   [1;36;46m░░░▒[0m
                               [31m▓▓[0m          [36m▀▀▀▀▀▌▀[0m         [36m▀▀▀▀▀▌[0m
-                                       [1;33mw[0;36mI[0;35ml[0;1;31md[0m [1;34mw[0;1;32mO[0;1;37mr[0;1;30ml[0;1;35md[0m
-[1m----------------------------------------shred----------------------------------[0m
-[1mRequests to: letostak@ix.netcom.com [0m [1mICQ# 2707135[0m  [1mmetal edge 619-423-4970[0m
-[1monly 619 boards, RioT members and MetalNet Nodes[0m
-   [1m  [0m
-[1mGreetz to RioT and all the 619 Boardz, Kokopelli, Cyrus, 2much, Tyrio,[0m
-[1m Destr0yer, IDT [0m
-
-[1mGreetz Groupz: TRIC, W0e, XPS, everyone that does iniquity modz[0m
-[1m Maiden, Warlock and everyone on[0m [1malt.bbs.iniquity[0m
-
-[1mA big "FUCK YOU" to all who think the BBS scene is dead..Its not,[0m [1myou are[0m'
+                                       [1;33m [0;36m [0;35m [0;1;31m [0m [1;34m [0;1;32m [0;1;37m [0;1;30m [0;1;35m [0m
+[1m----------------------------------------shred----------------------------------[0m'

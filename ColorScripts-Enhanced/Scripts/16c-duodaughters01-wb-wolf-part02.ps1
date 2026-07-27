@@ -5,7 +5,7 @@
 # Source SHA-256: 2181c14b37af4b882543af8521e3666d56ab4676a16755e5b2af4cc999e6871c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WB-WOLF.ANS by Wolf Biker (duodaughters01); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20151207
 # SAUCE Dimensions: 80x79
 # SAUCE Font: IBM VGA
@@ -44,12 +44,4 @@ Write-Host '
 [37m   [0;34m██[0;37m   [0;34m████[0;37m   [0;34m█[0;37m  [0;34m██[0m      [34m█[0;37m [0;34m█[0m       [34m█[0m           [34m███[0;37m    [0;34m█[0m     [34m█[0;37m [0;34m█████[0;37m   [0;34m█[0;37m  [0;34m██[0;37m  [0;34m█[0m
 [37m    [0;34m██[0;37m [0;34m██[0;37m  [0;34m██[0;37m  [0;34m█[0;37m  [0;34m██[0m     [34m██[0;37m [0;34m██[0m      [34m██[0m            [34m█[0;37m    [0;34m█[0m     [34m█[0;37m [0;34m█[0m       [34m█[0;37m   [0;34m██[0;37m [0;34m█[0m
      [34m███[0;37m    [0;34m████[0;37m   [0;34m██[0;37m    [0;34m█[0;37m   [0;34m█[0m       [34m█[0;37m   [0;34m  █[0m     [34m██[0;37m    [0;34m███████[0;37m [0;34m█[0m       [34m█[0;37m    [0;34m███[0m
-      [34m█[0m      [34m██[0m     [34m██████[0;37m   [0;34m██████[0;37m  [0;34m█[0m     [34m █████  [0;37m    [0;34m██[0m      [34m█████[0;37m   [0;34m█[0m     [34m█[0m
-
-
-                              [1;37mThe Wolf''s Den[0m
-                                  [1mSysOp: Wolf Biker[0m
-                                  [1mCo-SysOp: White Fang[0m
-
-              [1;34m [0m             [1;34m  ANSi By Wolf Biker[0m
-[1;34m  [0m              [1;34mGreets to all my Wolf Brothers in DuoDaughters[0m'
+      [34m█[0m      [34m██[0m     [34m██████[0;37m   [0;34m██████[0;37m  [0;34m█[0m     [34m █████  [0;37m    [0;34m██[0m      [34m█████[0;37m   [0;34m█[0m     [34m█[0m'

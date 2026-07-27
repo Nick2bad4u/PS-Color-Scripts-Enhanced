@@ -5,7 +5,7 @@
 # Source SHA-256: e44a52ab22164c2843c3dac4aeee22a68a1194a9d97748a2d94eee5d62ab8154
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-APA1.ANS by Morbid Fixation (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Apathy promo
 # SAUCE Author: Morbid Fixation
 # SAUCE Date: 19951025
@@ -54,11 +54,8 @@ Write-Host '
 [1;30;40m ▀[0;1;30;45m▒▒░░  [0;1;35;45m░▒[0m [1;32m▀[0;1;32;42m█▓▓▒░ [0;1;30;42m░▒[0;1;30;40m▀▀▀▀ [0;1;32;40m▀▄▄[0;1;32;42m██▓▒░ [0;32m▄ [0;1;35;45m░[0;35m▄▄▄ [0;1;32m▀[0;1;32;42m██[0;32m▀▀▀▀ ▄▄▄[0;1;32;42m░▒▓[0;32m▌  [0;1;32;42m▓[0m [1;32m▀▄▄▄[0;1;32;42m▓▒▒[0;32m▄▄    ▄▄[0;1;30;42m▒▓█[0;1;30;40m▀[0m
 [1;30m    [0;35m▀▀▀▀▀[0;1;35;45m░▒[0;1;35;40m▄▄ [0;32m▀▀▀▀ [0;1;35m▄▄[0;1;35;45m▓▒▒░[0;35m▄▄ [0;1;32m▀▀[0;1;32;42m█▓[0;32m▀▀ [0;35m▄▀▀▀▀▀▄▄▄▄[0;1;35;45m░▒▓[0;1;35;40m▄ [0;32m▀▀[0;1;32;42m░▒▒[0;32m▀ [0;1;32m▀[0;1;32;42m▓█[0;1;32;40m▄ ▀▀▀[0;1;32;42m▓▒▒░░  [0;1;30;42m░░▒[0;32m▀▀[0m
              [1;35m▀▀▀▀▀▀▀▀▀[0;35m▀▀▀▀▀▀▀   [0;1;32m·A [0;32mP [0;1;30mA T [0;32mH [0;1;32mY· [0;1;35m▀▀▀▀[0m          [1;32m▀▀▀[0m     [32m▀▀▀▀[0m
-         [1;30mGreets: Saint sinner. Evil Ernie. Leper Messiah. Kaine. Smooth.[0m
-         [1;30mAnd ss.. if we merge i will shove this ansi so far up yer ass[0m
-         [1;30mthat you shit will smile at ya and say ''apathy'' in green! =)[0m
+         [1;30m                                                               [0m
+         [1;30m                                                             [0m
+         [1;30m                                                            [0m
 
-[1;30m------[0m
-[1;30mnote: this is one of the few works done for apathy when it was originally formed[0m
-[1;30m      around march.. the merge mf referred to is the merge we did with emerge, [0m
-[1;30m      which killed the group. ahwell.. guess i should''ve listened to him :)[0m'
+[1;30m------[0m'

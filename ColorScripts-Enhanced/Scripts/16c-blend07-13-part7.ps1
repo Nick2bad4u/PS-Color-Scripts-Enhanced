@@ -5,7 +5,7 @@
 # Source SHA-256: 4db962be8a343b3caafaeadb85da645f6deec9c4852c6131e75106b8e75b2089
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 13-PART7.ANS by ville (blend&fire); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 7th dimension, party!
 # SAUCE Author: ville
 # SAUCE Group: blend&fire
@@ -25,10 +25,6 @@ Write-Host '
 [32m [0;35m"" [0m   [32m:::   [0m           [32m²▒[0;1;32m$[0;32m$:[0m         [35m░[0m          [32m_,d▒$$''[0m   [1;33m$░[0;33m$[0;1;30m$  $[0;33m$[0;1;30m$░  ²▒  $SS [0m
                           [35m:::[0;32m:[0m              [32m::░$$$$$?²''[0m   [33m""²?░[0;1;30m$²[0;33m░$$[0;1;30mb,___  $[0m░[1;30m$ [0m
                                               [32m:::[0m     [33mville[0m     [1;30m [0;33m▒[0;1;33m$$$[0;33m$$░[0;1;30m$ss$[0m$░[1;30ms[0m
- [1;35m party demo scene party scene[0m                                   [33m````"""""²[0;1;30m²²²²[0m
+ [1;35m                             [0m                                   [33m          [0;1;30m    [0m
 
-[31m═══════─═──-──────-──═───────-─--─────-─────── ──[0m   [31m-     [0m
-[1;34mwOuh! ansciifont from me!@ dyalikeit?[0m [1;34mno you dont! it sucks!!! but hey, [0m
-[1;34mi don''t care! still if you wanna have one like that!@ don''t mail me.[0m
-
-[1;34mville@fan.net - www.geocities.com/soho/7980/[0m'
+[31m═══════─═──-──────-──═───────-─--─────-─────── ──[0m   [31m-     [0m'

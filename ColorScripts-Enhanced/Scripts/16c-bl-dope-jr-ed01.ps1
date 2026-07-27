@@ -5,7 +5,7 @@
 # Source SHA-256: 8f8a5815d3e2c0a556b73e8cb3acdb23377c058fbd2576bf1a30cd273b730742
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_ED01.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: abwasch
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -29,7 +29,7 @@ Write-Host '
      [1;30m  [0;31mevil[0m    [1;30m▀▀▀▀ ▀▀▀▀██▓▀[0m
                       [1;30m ▀▀▀ [0m
                       [1;30m    [0m
-                [1;30mda bleibt der abwasch schon mal liegen...[0m
+                [1;30m                                         [0m
 
 
 
@@ -39,5 +39,4 @@ Write-Host '
 
 
 
-[1;30m--------░---------░░------------------------------------------------▒▒----------[0m
-[1;30mevil dead. +o hellrazor. [0m'
+[1;30m--------░---------░░------------------------------------------------▒▒----------[0m'

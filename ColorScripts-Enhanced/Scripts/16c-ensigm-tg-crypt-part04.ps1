@@ -5,7 +5,7 @@
 # Source SHA-256: efe60ee958f90609ae80498c42e498078d0ffbefc1e566f27f130ba7519fe262
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-CRYPT.ANS by The Guardian (ensigm); released in ensigm and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 125-166
 # Columns: 1-80
 
@@ -43,7 +43,7 @@ Write-Host '
 [1;30;40m█[0;1;30;41m [0;1;31;41m█[0;1;37;40m█  [0;1;30;40m■[0m■[1m■ [0;1;30mSysOp:Bane ■[0m■[1m■ [0;31m45[0;1;31mO+ Meg[0;1;37mz Online [0;1;30m■[0m■[1m■ 2[0;1;31m4OO/96[0;31mOO/144[0;1;30mOO Accepted [0;1;37m■[0m■[1;30m■  [0;1;37m█[0;1;31m█[0;31m█[0;1;30m█[0m
 [1;30m█[0;1;30;41m [0;1;31;41m█[0;1;37;40m█   [0;1;30;40m■[0m■[1m■ [0;1;30mNUV Strict[0;31mly Enf[0;1;31morced [0;1;30m■[0m■[1m■ No NUP [0;1;30m■[0m■[1m■ [0;1;31mRunni[0;31mng Ins[0;1;30manity v3.O [0;1;37m■[0m■[1;30m■   [0;1;37m█[0;1;31m█[0;31m█[0;1;30m█[0m
 [1;30m█[0;31m█[0;1;31m█[0;1;37m█    [0;1;30m■[0m■[1m■ [0;1;30mInsanity [0;31mDistri[0;1;31mbution [0;1;37mSite [0;1;30m■[0m■[1m■ Exil[0;1;31med Dis[0;31mtribut[0;1;30mion Site [0;1;37m■[0m■[1;30m■[0m     [1;37m█[0;1;31m█[0;31m█[0;1;30m█[0m
-[1;30m█[0;1;30;41m [0;1;31;41m█[0;1;37;40m█[0m     [1;30;40m■[0m■[1m■ [0;1;30mOne Of T[0;31mhe Lar[0;1;31mgest H[0;1;37m/P Boards In T[0;1;31mhe [31[0;31m4] Are[0;1;30ma Code [0;1;37m■[0m■[1;30m■[0m       [1;37m█[0;1;31m█[0;31m█[0;1;30m█[0m
+[1;30m█[0;1;30;41m [0;1;31;41m█[0;1;37;40m█[0m     [1;30;40m■[0m■[1m■ [0;1;30m        [0;31m      [0;1;31m      [0;1;37m              [0;1;31m      [0;31m      [0;1;30m       [0;1;37m■[0m■[1;30m■[0m       [1;37m█[0;1;31m█[0;31m█[0;1;30m█[0m
 [1;30m█[0;31m█[0;1;31m█[0;1;37m█[0m        [1;30m■[0m■[1m■ [0;1;30mThous[0;31mands O[0;1;31mf P/H/[0;1;37mA/C/V Files Fo[0;1;31mr Your [0;31mEnjoy[0;1;30mment [0;1;37m■[0m■[1;30m■[0m         [1;37m█[0;1;31m█[0;31m█[0;1;30m█[0m
 [1;30m█[0;1;30;41m [0;1;31;40m█[0;1;37;40m█[0m         [1;30;40m■[0m■[1m■ [0;1;30m[314[0;31m]·878·[0;1;31m79O9 [0;1;30m■[0m■[1m■ H/P Users N[0;1;31meed On[0;31mly App[0;1;30mly [0;1;37m■[0m■[1;30m■[0m           [1;37m█[0;1;31m█[0;31m█[0;1;30m█[0m
 [1;30m█[0;1;30;41m [0;1;31;41m█[0;1;37;40m█ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ █[0;1;31;41m█ [0;1;30;40m█[0m

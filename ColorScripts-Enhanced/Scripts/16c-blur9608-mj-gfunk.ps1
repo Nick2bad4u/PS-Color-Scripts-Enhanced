@@ -5,7 +5,7 @@
 # Source SHA-256: f16837f13c81995a2bcb9e62ee724860417b802cf56b2f9c62afb9086f3a01c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ-GFUNK.ANS by majick (blur); released in blur9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gfunk
 # SAUCE Author: majick
 # SAUCE Group: blur
@@ -30,4 +30,4 @@ Write-Host '
                      [1;32m│[0m [1;32m▀[0;1;32;42m▓[0;1;32;46m█[0m      [1;32m▀[0;1;32;42m▓█[0;1;32;44m▄[0;1;32;42m▓█[0;1;32;40m▀[0;34m   [0;1;32m▀[0;1;32;42m▓█[0;1;34;44m░▒▓[0;1;32;40m▀▀[0;34m [0;36m [0;1;32m▀[0;1;32;42m▓[0;36m [0;1;32m▀▀[0m [36m┌[0;1;32m┘[0m
                      [1;36m└[0;1;34m┐[0m           [1;34;44m▒░[0;34m▄[0m    [34m  ▄[0;1;34;44m▒▓[0;1;34;40m▀[0;34m [0;1;34mm[0;36mJ[0;1;32m:[0;1;34mb[0;36mL[0;1;32mu[0;1;36mR[0m   [1;34m|[0m
                       [36m└[0;1;32m-[0;1;36m-[0;1;34mG[0;1;36mF[0;1;32mu[0;36mn[0;1;34mk[0;1;36m-[0;1;32m┐[0m   [34m▀▀▀▀▀▀▀▀▀▀[0m   [1;36m└[0;1;32m-[0;36m-[0;1;34m-[0;1;36m-[0;1;32m-[0;36m┐[0;1;34m-[0;1;36m-[0;1;32m-[0;36m┘[0m
-                               [36m└[0;1;34m-[0;1;36mo[0;1;32mp[0;36m:[0;1;36m-[0;36mp[0;1;32mh[0;1;36m0[0;1;32mb[0;36mi[0;1;34ma[0;1;36m-[0;1;32m-[0;36m-[0;1;34ml[0;36mo[0;1;32mg[0;1;36mo[0;1;34m:[0;36m-[0;1;32m-[0;1;36m-[0;1;34m┘[0m'
+                               [36m└[0;1;34m [0;1;36m [0;1;32m [0;36m [0;1;36m [0;36m [0;1;32m [0;1;36m [0;1;32m [0;36m [0;1;34m [0;1;36m [0;1;32m [0;36m [0;1;34m [0;36m [0;1;32m [0;1;36m [0;1;34m [0;36m [0;1;32m [0;1;36m [0;1;34m┘[0m'

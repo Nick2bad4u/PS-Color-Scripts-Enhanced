@@ -5,7 +5,7 @@
 # Source SHA-256: 98f66fd5be0892d596e6f66de2b3fad8140e193a70c5e01ae7d7dda0c77bd5e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HF-ANYA.ANS by Happyfish (Mistigris); released in mist-lc-artdisk-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Anya
 # SAUCE Author: Happyfish
 # SAUCE Group: Mistigris
@@ -41,10 +41,4 @@ Write-Host '
                                [1;36m▀▀███▄▄▄▄▄▄▄▄▄▄▄▄████▀ [0m
                                    [1;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0m
 
-           [1;35m"[0m
-
-            [1;35m [0;1;37;42mit''s like fingerprints in your jello...[0m
-
-                        [1;33m                         forever![0;1;35m   "[0m
-
-                                           [1;35mbrad yung[0m'
+           [1;35m"[0m'

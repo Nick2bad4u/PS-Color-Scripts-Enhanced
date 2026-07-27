@@ -5,7 +5,7 @@
 # Source SHA-256: a346251f4af599a0548847fd57b603b9be4cd0577609d90a070b7c14f0eb1417
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-flowerdress.ans by the knight & TQ (FUEL); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flower dress
 # SAUCE Author: the knight & TQ
 # SAUCE Group: FUEL
@@ -25,7 +25,7 @@ Write-Host '
                                                 ▐[1;47m▒[0m▓  ▐[1;47m▒[0m▌ [1m▄[0m▐█▌  &  ▐[47m [0;1;47m░░  [0m▀▄█▌ [1;30m▄█[0m
                                                 ▐[1;47m░[0m▓   [1m▀[0;1;47m░[0m▄▄[1;47m▀[0m▓  [30m███[0;31m [0;37m▀[0;1;37;47m▒▒[0m█▀ [1;30;47m▒░[0m▀▄[1;30m▀▓▀[0m
                                                             [1m▀[0m [30m███[0;31m   [0;37m▄[0;1;30m▄▄[0;1;30;47m▓▒[0m██▄▌
-                   [1;30mansi by [0;36mTQ[0;1;30m and [0;36mthe knight[0;1;30m of [0;36mfuel[0;37m [0;1;30mfor [0;36mrev18[0;37m    [0;31m [0;37m▐█[0;1;30;47m░░░[0m█[1;47m░[0m█▄▀ [1;30m▄[0m
+                   [1;30m        [0;36m  [0;1;30m     [0;36m          [0;1;30m    [0;36m    [0;37m [0;1;30m    [0;36m     [0;37m    [0;31m [0;37m▐█[0;1;30;47m░░░[0m█[1;47m░[0m█▄▀ [1;30m▄[0m
                   [1;30m  [0m                                             [31m [0;37m░▀████[0;1;37;47m░▒░[0m▄[1;30;47m░[0m▌
 [33m██[0m           [33m▐█▀▀    [0;37;43m░░[0m                   [33;40m▄▄[0;37;43m▄▄[0m     [33;40m░░░[0m      [33;40m░░   [0;37;40m ▀[0;1;30;47m░[0m▄[1m░[0m▀▀▀▀▀▀[1m░[0m▄▌
 [33m █[0m       [33m█[0;37;43m░[0;33;40m█[0m        [33;40m█[0;37;43m▒[0;33;40m▌   ▄[0;37;43m░[0;33;40m█▀▄    █▀[0m         [33;40m▀▀  ░░░░  ░░   ░   [0;37;40m [0;33;40m▄[0;31;40m [0;1;30;40m▀▀▀█[0;1;30;47m▓▒░░[0m▀

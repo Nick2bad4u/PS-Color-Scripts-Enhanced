@@ -5,7 +5,7 @@
 # Source SHA-256: cb6baa444708159bc3242607c1a86e80faaf1d650a4afcd39351daa9419ccac0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HB-ASKCO.ANS by HaTeBReeD (eSp); released in esp0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ascii Colly
 # SAUCE Author: HaTeBReeD
 # SAUCE Group: eSp
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;34mc[0;34mOLLY[0;35m [0;1;34mb[0;34mY[0;35m [0;1;34mh[0;34mATEBREED[0;1;34m...[0m
+[1;34m [0;34m    [0;35m [0;1;34m [0;34m [0;35m [0;1;34m [0;34m        [0;1;34m   [0m
 [1;34ms[0;34mPLIT[0;35m [0;1;34m242[0m                               [1m   [0m___
                                ___________/   \_______
                                \__________  |  ______/
@@ -38,7 +38,7 @@ Write-Host '
  [1;34m$$ [0m$$ [1;34m$$[0m $$²[1;34m ²[0m a  $$$a[1;34m²²[0ma  $$$a[1;34m²[0m $$ $$ $$ [1;34m$$[0m $$² [1;34m²[0m $$ [1;34m²[0ma  $$  $$ $$ $$ $$ $$ [1;34m$$[0m
  [1;34m$$ [0m$$ [1;34m$$[0m $$ $$ $$   $$a $$   $$a $$ $$ $$ [1;34m$$[0m $$ $$ $$ $$  $$  $$ $$ $$ $$ $$ [1;34m$$[0m
  [1;34m$$ [0m$$ [1;34m$$[0m $$$²[1;34maa[0m²$$$$$$² ²$$$$$$² ²$$$² $$ [1;34m$$[0m ²$$²[1;34maa[0m²$$²[1;34maa[0m $$  $$ ²$$²  ²$ $² [1;34m$$[0m
- [1;34m$$aaa$$$$aaa$$$$aaaaaa$$$aaaaaa$$$aaa$$aa$$$$$aa$$$$aa$$$$aa$$aa$aaa$$$$a$a$$$$[0m
+ [1;34m                                                                               [0m
  [1;34m²$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$²[0m
  [1;34mr[0;34mESSURECTION[0;1;34m...$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 ------------SNiP-HERE-----------------------------------------------------------

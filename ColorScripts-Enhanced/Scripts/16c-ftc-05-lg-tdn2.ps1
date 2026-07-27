@@ -5,7 +5,7 @@
 # Source SHA-256: deb5d69107435562a6141228b03d0aa0d69f9e7816bac15a1c74cc199c87bbb8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LG-TDN2.ANS by lawn genie (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the dimenSional neXus
 # SAUCE Author: lawn genie
 # SAUCE Group: ftc
@@ -34,7 +34,7 @@ Write-Host '
      [34m ▄▄[0;37m [0;34m▀▀▀█[0;1;34;44m░░[0;34m▀▀▀[0;37m  [0;1;34;44m░░[0;34m█▓[0;37m [0;34m██▓[0;37m  [0;32;46m▓[0;37;40m  [0;1;30;40mafter a salon shampoo or sumthin fuckin rad[0m  [32;46m▓[0m
      [34;40m▐████▀[0;1;30;40mlg[0m     [34m▄▄▄▄█▄█▀▀▄[0;1;37m [0m [32;46m▒[0;37;40m  [0;1;30;40mlike that.  [0m    [1;30mlawngenie out.  [0m       [1;30m1996.[0;1;36m [0;32;46m▒[0m
 [37;40m  [0;34;40m ▄▄▄▄▓█▌ ▄▄▄[0;1;34;44m░░░░ ░[0;34m▀▀▀█▄▄█▓▌[0;37m [0;32;46m░[0m                                               [32;46m░[0m
-[1;34;44m░░░░[0;34m██▀▀████▀▀▀ [0m      [34m    ▀▀[0;37m  [0;1;36;46m [0m    [1;30mdemos u can put whateva the FUCK u want[0m    [36m█[0m
+[1;34;44m░░░░[0;34m██▀▀████▀▀▀ [0m      [34m    ▀▀[0;37m  [0;1;36;46m [0m    [1;30m                                       [0m    [36m█[0m
 [34m▀▀▀ [0;37m  [0;34m▄▓██▓▄▄[0;1;37m [0;34m   [0m      [34m   [0;37m    [0;1;36;46m░[0m    [1;30min this dumb empty space i hope ya have[0m    [1;36;46m░[0m
-     [34m ▐████[0;1;34;44m░░░[0;1;37;40m [0;34m   [0m         [37m   [0;1;36;46m▒[0m    [1;30msumthin cuz otherwise im fucking stupid[0m    [1;36;46m▒[0m
+     [34m ▐████[0;1;34;44m░░░[0;1;37;40m [0;34m   [0m         [37m   [0;1;36;46m▒[0m    [1;30m                                       [0m    [1;36;46m▒[0m
        [34m████▀[0;1;34;44m░░[0;34m▌    [0m           [1;36;46m▓[0;1;36;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;36;46m▓[0m'

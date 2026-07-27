@@ -5,7 +5,7 @@
 # Source SHA-256: f10f0d682df33395c0a24c84a1e8308823e1d2332ea71e19cc798891708b4875
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANHMSC-P.ANS by Animal + Handyman (fsh-0194); released in fsh-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -45,11 +45,11 @@ Write-Host '
 
                [1;30m····■■ T·H·E  P·R·O·M·I·S·E·D  L·A·N·D ■■····[0m
 
-     [1;30mSySoP :[0m                       [1;30mBBS TyPe :[0m
-     [1;30mMeSSaGe :[0m                     [1;30mSuPPoRT FoR :[0m
-     [1;30mSPeeD : 14.4k , 2400 +[0m        [1;30mMoNThLy SuPPoRT FoR :[0m
+     [1;30m       [0m                       [1;30m          [0m
+     [1;30m         [0m                     [1;30m             [0m
+     [1;30m                      [0m        [1;30m                     [0m
 
-                          [1;30m+972-iTs-PRi∞VaTe[0m
+                          [1;30m                 [0m
 
 [1;30m [0;1;37m▀[0m▀[35m▀[0;1;30m▀▀[0m▀▀[1;30m▀▀[0;35m▀[0;1;37m▀[0;1;30m▀[0m▀[35m▀▀[0;1;30m▀[0m▀▀[1m▀[0;1;30m▀[0;35m▀▀[0;1;30m▀[0m▀[35m▀[0;1;30m▀▀[0;35m▀▀[0;1;30m▀[0;1;37m▀[0;35m▀[0;1;30m▀[0;1;37m▀▀[0;1;30m▀▀[0m▀[1m▀[0;1;30m▀▀▀[0;35m▀[0;1;30m▀▀[0;1;37m▀▀[0;1;30m▀▀[0m▀[1;30m▀[0m▀[35m▀[0;37m▀[0;1;37m▀[0;1;30m▀[0;35m▀▀[0;1;30m▀[0m▀▀[35m▀[0;1;30m▀[0m▀▀[1;30m▀[0;35m▀[0;1;30m▀[0m▀[1;30m▀[0;1;37m▀[0;1;30m▀[0m▀[1;30m▀[0;35m▀[0;37m▀[0;1;30m▀[0;35m▀[0m
                                     [32m▄ ▄▄[0m
@@ -59,4 +59,4 @@ Write-Host '
 [32;40m [0;35;40m▄▄[0;32;40m▄[0;35;40m▄[0;32;40m▄[0;35;40m▄▄[0;1;30;40m▄[0;35m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄[0m▐[42m▓[0;40m▌  ▐[0;42m▒[0;40m▌[0;42m▓[0;40m▌ [0;42m▓▓[0;40m▌▐[0;42m▓▓[0m [42m▓[0;40m▌   ▐[0;42m▓[0m [42m▒▒[0m   [42m▓[0;32;40m▌[0;37;42m▒▒[0;37;40m▌    [0;1;30;40m▄▄▄▄▄▄▄[0;32m▄▄[0;1;30m▄▄[0;35m▄▄[0;1;30m▄[0;35m▄[0;1;30m▄[0m
                        ▀▄   [42m▓[0m [40m▀▄  ▀  ▀   ▀   ▄▀  [0;42m▓[0;40m▌  ▀ ▀[0;42m▓▓[0;40m█▄▀[0m
 
-[40m  [0;1;30;40mP[0mi[1;30mCT[0mu[1;30mR[0me [1;30m: B[0my [1;30m/┤N[0mi[1;30mMAL   ·   F[0mo[1;30mNT : H[0ma[1;30mND[0my[1;30mM[0ma[1;30mN   · B[0mo[1;30mTH [0mo[1;30mF [0;35mF[0;1;30m·[0;35mL[0;1;30m·[0;35mA[0;1;30m·[0;32mS[0;1;30m·[0;35mH [0;1;30mPR[0mo[1;30mD[0mu[1;30mCT[0mio[1;30mNS[0m'
+[40m  [0;1;30;40m [0m [1;30m  [0m [1;30m [0m  [1;30m   [0m  [1;30m ┤ [0m [1;30m           [0m [1;30m      [0m [1;30m  [0m [1;30m [0m [1;30m       [0m [1;30m   [0m [1;30m  [0;35m [0;1;30m [0;35m [0;1;30m [0;35m [0;1;30m [0;32m [0;1;30m [0;35m  [0;1;30m  [0m [1;30m [0m [1;30m  [0m  [1;30m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 14d93b5222b1cec9381da295db244095081b23b069288fae9a32ce875c7c6bfb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (A)HAZ2.ANS by al3cs (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: haz! 2
 # SAUCE Author: al3cs
 # SAUCE Group: phat studios '97
@@ -40,7 +40,4 @@ Write-Host '
 
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-for [1mave''s hazard 2[0m..
-touchups by himself! woo..
-the two cyan blocks at 15,5 are from poti! yeah![0m'
+[1;30m--------------------------------------------------------------------------------[0m'

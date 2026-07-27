@@ -5,7 +5,7 @@
 # Source SHA-256: f5f6935f8a7dc20330eb688e54ca29ae69be7b20d8fb83e15e6c5f0ef628a3e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZA-BDA2.ANS by The Rza (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Happy Birthday ROC!
 # SAUCE Author: The Rza
 # SAUCE Group: ROC
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mkiller bunnies on the swarm :)[0m
+[1m                              [0m
          [1m·[0m                     [1m·[0m            ·               [34m·[0m             [1;30m·[0m
 ·                       [33m [0m          [1;33m [0m                               [1;37m·[0m
                ·      [1m▄▒[0m░        [33m░[0m [1;33;43m▀[0;33m▀[0;1;33m░▄[0m      [34m·[0;1;37m·[0m     [1;37m▄[0m▓▄

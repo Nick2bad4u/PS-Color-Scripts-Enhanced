@@ -5,7 +5,7 @@
 # Source SHA-256: 5639822b2ca42274c9c976b9f9fc206e917a06c75369994607194d441bc653e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sm-dungeon.ans by Smooth + Asphixia (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dungeon BBS (remix)
 # SAUCE Author: Smooth
 # SAUCE Group: Fuel
@@ -17,9 +17,9 @@
 # Columns: 1-80
 
 Write-Host '
-        [31;40mThis ANSI was originally drawn[0;37;40m [0;31;40mfor my old board [0;1;33;40mDUNGEON 2 BBS[0;31m by[0m
-[31m  [0m      [1;33mAsphixia[0;31m of [0;1;31mACiD Productions[0;31m (tm).  This is my remix version of it[0m
-[31m  [0m      [31mfor my reborn [0;1;33mDUNGEON BBS[0;31m system in 2018. Hope you guys like it[0;1;31m![0m
+        [31;40m                              [0;37;40m [0;31;40m                 [0;1;33;40m             [0;31m   [0m
+[31m  [0m      [1;33m        [0;31m    [0;1;31m                [0;31m                                      [0m
+[31m  [0m      [31m              [0;1;33m           [0;31m                                      [0;1;31m [0m
 
 [31m▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄▄[0;37m   [0;31m▄[0m
 [1;31;41m▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄▄[0;31m█▀█[0;1;31;41m▄[0m

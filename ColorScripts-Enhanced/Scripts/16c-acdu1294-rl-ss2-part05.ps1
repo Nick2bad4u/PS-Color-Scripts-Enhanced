@@ -5,7 +5,7 @@
 # Source SHA-256: 03d4c6871153b677ccae6548f649994a786450a247c7a281f545d2c8e92d69f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-SS2.ANS by Red Leader (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Suicidal Shrimp
 # SAUCE Author: Red Leader
 # SAUCE Group: ACiD Productions
@@ -55,11 +55,11 @@ Write-Host '
 [34m▓[0m               [37m [0m  [37m▀[0m  [37m [0;34m▒[0m               [37m  [0m [37m▒[0m          [37m▀[0m                   [37m  [0m  [34m▐█[0m
 [34m▓[0m  [37m S   u   i   c   i  [0;34m░[0;37md   a   l      S  ░h   r   i   m   p[0m   [37m(   t   m   )[0m [34m █[0m
 [34m▓[0m                                                                            [34m █[0m
-[34m▒[0m   [34m   [0;37mNode One : 514.768.3383 14.4 k [0;34m■[0;37m Node Two : 514.Comming.Soon 14.4k[0m     [34m▓[0m
-[34m▒[0m   [37m   Acid Northern Agora [0;34m■[0;37m Corruption Electronic Mag World HeadQuarters[0m     [34m▓[0m
-[34m▒[0m      [37mIce Distribution Site [0;34m■[0;37m Dark Distibution[0m [37mSite [0;34m■[0;37m And Many, Many More[0m    [34m▓[0m
-[34m░[0m      [37mSpam Net World HeadQuarters[0m [34m■[0m [37mFree Fall[0m [37mInternationnal [0;34m■[0;37m Agora Net[0m     [34m▒[0m
-[34m░[0m      [37mStaff: Red Leader [Acid] [0;34m■[0;37m and [0;34m■[0;37m Deeply Disturbed [Acid.Corruption]   [0m [34m▒[0m
-       [37mAll Around Cool Guy: White Noise [0;34m■[0m [37mFunky Font By Deeply Disturbed![0m     [34m░[0m
+[34m▒[0m   [34m   [0;37m                               [0;34m■[0;37m                                  [0m     [34m▓[0m
+[34m▒[0m   [37m                       [0;34m■[0;37m                                             [0m     [34m▓[0m
+[34m▒[0m      [37m                      [0;34m■[0;37m                 [0m [37m     [0;34m■[0;37m                    [0m    [34m▓[0m
+[34m░[0m      [37m                           [0m [34m■[0m [37m         [0m [37m               [0;34m■[0;37m          [0m     [34m▒[0m
+[34m░[0m      [37m                         [0;34m■[0;37m     [0;34m■[0;37m                                      [0m [34m▒[0m
+       [37m                                 [0;34m■[0m [37m                               [0m     [34m░[0m
       [37m                     [0m                                                   [34m░[0m
-[31m█[0;31;47m♣[0;31;40m█[0m [37;40mOfficial Red Leader / ACiD Canadian Production[0m [37;40m/ November 27th 1994[0m       [34;40m░[0m'
+[31m█[0;31;47m [0;31;40m█[0m [37;40m                                              [0m [37;40m                    [0m       [34;40m░[0m'

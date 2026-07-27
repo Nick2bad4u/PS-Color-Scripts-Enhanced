@@ -5,7 +5,7 @@
 # Source SHA-256: be73f53376ec88bf8559559ef779fdd59f07524091a935bc183d66908af68300
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tpk-HBA1.ANS by Teepak (cro0401); released in cro0401 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -31,5 +31,4 @@ Write-Host '
 [1;37mE[0;1;30m [0m      [36m████[0;34m [0;1;31m▀▓▄ ▀▄██████████████████████████████████████ [0;36m███████               [0m
 [1;37mT[0;1;30m [0m     [36m████▀[0;34m █▄[0;1;31m▀▓███████████████████████████████████████ [0;36m▐███████               [0m
 [1;37mA[0;1;30m    [0m [36m█████[0;37m [0;1;34m▀[0;34m [0;37m    [0;1;31m▀▀▀▀▀█████████████▀▀███████████████▀▀[0;36m ▄███████[0;37m     [0;1;30mteepak[0m
-                  [36m      [0;37m  [0;1;31m▀▀▀▀▀▀▀█████▄▄▄▄▄███▀▀▀▀▀  [0m   [36m [0m
-[37m                 [0;36m    [0m                    [1;31m [0m'
+                  [36m      [0;37m  [0;1;31m▀▀▀▀▀▀▀█████▄▄▄▄▄███▀▀▀▀▀  [0m   [36m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9471356aee0b7638cf6d862a4cfac95c44c252a7c9abfce18fefba0577440e2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SG-MD1.ANS by Sonofagun (TEA!); released in tea-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mortal Desire
 # SAUCE Author: Sonofagun
 # SAUCE Group: TEA!
@@ -37,7 +37,7 @@ Write-Host '
     [1;30m▓[0m [1;30;42m█▓█████▓[0;1;30;40m▀▀[0m [1;30m▄▄[0m [1;30m▀▀[0;1;30;42m▓██▓[0;1;30;40m▀▀[0m [1;30m▄▄▄[0m [1;30m▀▀[0;1;30;42m▓██▓[0;1;30;40m▀▀[0m [31m [0;1;30;42m█▓███[0m [1;30;42m███▓█[0m [1;30m█[0m     [1;30m▀▄[0m [1;30m▀▀[0;1;30;42m▓██▓[0;1;30;40m▀▀[0m [1;30m▄▀[0m
     [1;30m█▄▄▄▄▄▄▄▄▄■▀▀[0m  [1;30m▀▓▄▄▄▄▄▄▓▀[0m   [1;30m▀▀▄▄▄▄▄▄▓▀▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m       [1;30m▀▓▄▄▄▄▄■▀▀[0m
     [31m▓▄ [0m                          [31m [0m                                      [31m ▄▒[0m
-     [31m▐▌[0m    [1;30m [0m [1;30mthisansibeaonehundredpercentsonofagun/teaproduction95 [0m      [31m▐▌[0m
+     [31m▐▌[0m    [1;30m [0m [1;30m                                                      [0m      [31m▐▌[0m
      [31m█[0;1;31;41m░[0;31m▄[0m                         [31m [0m                                   [37m  [0;31m▄[0;1;31;41m░[0;31m█[0m
      [31m▐[0;1;31;41m░░▒▒▓[0;1;31;40m▄▄▄▄■ [0m  [1;31mM[0;1;30mORTAL [0;1;31mD[0;1;30mESIRE [0m [1;31m4[0;1;30m.0 [0;1;31mG[0;1;30mB [0;1;31mO[0;1;30mNLINE[0m  [1;31m2[0;1;30mX [0;1;31m2[0;1;30m8k8 [0;1;31mV[0;1;30m34[0m  [1;31m ▄▄▄▀▄[0;1;31;41m▒▒░░[0;31m▌ [0m
       [31m▀[0;1;31;41m░░▒▒▓█▓██[0;1;31;40m▌[0m  [1;31m1[0;1;30m: +[0;1;31m4[0;1;30m6-[0;1;31m8[0;1;30m-[0;1;31mX[0;1;30mXXXXXXX  [0;1;31mN[0;1;30mODE [0;1;31m2[0;1;30m: +[0;1;31m4[0;1;30m6-[0;1;31m8[0;1;30m-[0;1;31mX[0;1;30mXXXXXXX[0m  [1;31m▐█[0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▓▒▒▒░░[0;31m▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: cb96127e5087e0e161c5a5a624b8e07c414c055d3286c4ae6ec9de3dbe430b03
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-AWG2.ANS by Defiant + Idrosynth (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Awg
 # SAUCE Author: Idrosynth/Defiant
 # Lines: 1-15
@@ -25,5 +25,4 @@ Write-Host '
       [36m▀▀▀██▄▀▀▀  ▀▀▒███▌[0m      [36m▀███▀▀[0m      [36m▀▀▀[0m         [36m▀▀▀████▀▀  ▀▀▀███▌[0m
           [36m▐█▌[0m      [36m░   ▀ [0;35m▀[0;1;35m▀█  [0;35m▄[0;1;35m▄▄▄[0;35m▄  ▄[0;1;35m▄[0;35m▄[0;1;35m■[0;35m▀▀[0m                            [36m▀[0m
         [36m▄ ▀[0m        [35m▄[0;1;35m▄▀▀   [0;1;35;45m█[0;1;35;40m▄[0;1;35;45m▀[0;1;35;40m▀▀ [0;1;35;45m▄[0;1;35;40m██[0;1;35;45m▀[0;1;35;40m▀[0;35m▀    ▄▄ ▀  ▄▀  ░░   [0;1;30moutline by idrosynth[0m
-                 [35m■[0m       [1;35;45m▀[0;35m▀    █[0;1;35m▀ [0;35m▀    ▄[0;1;35m▀[0;35m▀[0m     [35m▀[0m       [1;30mfixed up and shaded by[0m
-                                                       [1;30mdefiant .. (root)[0m'
+                 [35m■[0m       [1;35;45m▀[0;35m▀    █[0;1;35m▀ [0;35m▀    ▄[0;1;35m▀[0;35m▀[0m     [35m▀[0m       [1;30mfixed up and shaded by[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0809d31d5533d364c3fe4bd073c4d00878d889489c32b906cb9a8b1f27c41146
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IX-REGE.ANS by Illusion X (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Regency
 # SAUCE Author: Illusion X
 # SAUCE Date: 19951025
@@ -59,7 +59,4 @@ Write-Host '
 [1;31m███████▄▄[0;31m▀▀████████████▄[0;1;31;41m  [0;31m██▀[0;1;31;41m░[0;31m███[0;1;31;41m▒░[0;31m███▓█▄[0;1;37m|[0;34m█████████[0;34;44m░[0;34;40m███████████████[0;1;37;40m [0;32m█[0;1;37m [0;34m████[0;1;37m [0;32m█[0;1;37m [0;34m███[0m
 [1;31m███████████▄▄[0;31m▀▀▓▓███[0;1;31;41m░▒░[0;31m██[0;1;31;41mix[0;31m██▄▄▀▀████████[0;1;37m|[0;34;44m░[0;34;40m█[0;1;34;44m░░[0;34;44m  ░[0;34;40m█[0;1;34;44m░  [0;34m█[0;34;44m░[0;1;34;44m ░[0;34m█[0;34;44m [0;34;40m█[0;34;44m░[0;1;34;44m░[0;34m████[0;1;34;44m░[0;1;37;40m [0;1;32;42m░[0;1;37;40m [0;1;34;44m░[0;34m███[0;1;37m [0;1;32;42m░[0;1;37;40m [0;34m██[0;1;34;44m░[0m
 [1;37;40m------------------------------------------[0;34;44m▒[0;1;34;44m░▒▓▒░[0;34;44m▓[0;1;34;44m░▒░[0;34m█[0;34;44m░[0;1;34;44m░▒▓▒░[0;34;44m░▒ ░[0;1;34;44m ░▒▓[0;1;37;40m [0;1;32;42m░[0;32m▄▄▄▄▄▄[0;1;32;42m▒[0;1;37;40m [0;34m█[0;1;34;44m░▒[0m
-[1;30;40m--------------------------------------------------------------------------------[0m
-[1;30;40mgreets to all my buddies on irc. You know I love you. :) And hal.. that font [0m
-[1;30msucks shit so you can do whatever you want with it.. i don''t give a damn. [0m
-[1;30moh yeah.. and this is my first ok looking pic.. so be proud of me. :) bye[0m [1;30m-ix[0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

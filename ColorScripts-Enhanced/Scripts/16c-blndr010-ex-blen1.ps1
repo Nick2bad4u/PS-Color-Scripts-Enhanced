@@ -5,7 +5,7 @@
 # Source SHA-256: 418d2f99f2aa497d6a4e04f2b3d5b6f0c298c11b2c89e0f73ec434b114660168
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EX-BLEN1.ANS by EXULTED (BLENDER10 COMPO); released in blndr010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: PHEAR @!#
 # SAUCE Author: EXULTED
 # SAUCE Group: BLENDER10 COMPO
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-        [1m▄▀  [0m   [32m▄███████████████[0m    [1;37m█[0m     [1;42mhomework : FUCK GIRLS[0;32m█████████[0m
+        [1m▄▀  [0m   [32m▄███████████████[0m    [1;37m█[0m     [1;42m                     [0;32m█████████[0m
       [1;37m▄▀[0m     [32m▄███[0;1;37;42m [0;32m███[0;1;37;42ml[0;32m████████▀[0m    [1;37m█[0m     [32m██████████████████████████████[0m
      [1;37m█[0m     [32m▄███[0;1;37;42mk[0;32m███[0;1;37;42mo[0;32m████████▀[0m      [1;37m█[0m     [32m████████████[0;1;37;42m                  [0m
      [1m█[0m   [32m▄███[0;1;37;42mc[0;32m███[0;1;37;42mo[0;32m████████▀[0m        [1;37m█[0m
@@ -36,5 +36,4 @@ Write-Host '
      [1m█  ▄▀[0m                                                               [1m░░[0m   [1m▄▀[0m
      [1m█▄▀ [0m                                                         [1m░░░░░░░░░░▄▀ [0m
      [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   [0m
---------------------------------------------------------------------------------
-I REALLY LIKE THIS ANSI,I THINK ITS MY BEST .BIG UP''S TO [31mFLAME[0;37m WHO DIGGS THIS 2 [0m'
+--------------------------------------------------------------------------------[0m'

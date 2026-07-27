@@ -5,7 +5,7 @@
 # Source SHA-256: 8f1c7976371bda6cd05f4ea66e8be1cd294796013a8c4ef3e179b40f1d4c6e72
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QT-CYBR6.ANS by Q Tak (lght9404); released in lght9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 32-80
 # Columns: 1-80
 
@@ -44,17 +44,16 @@ Write-Host '
         [1;30m▐[0;31m▓▓▒▒░░    [0;1;30m▐    ▌[0;31m▒░░[0m      [1;30m▄▀ [0;31m▀▓▒▒░░    [0;1;30m▄▀ ▐[0;31m▓▒▒░░  [0;1;30m▌    ▐ ▄▀[0m
         [1;30m▐[0;31m▓▒▒░░[0m      [1;30m▐   ▌ [0;31m░ [0;1;30m▄▄ ▀▀[0m      [31m▀ ░ [0;1;30m▄ ▀[0m      [31m▀░░  [0;1;30m▌[0m      [1;30m▀[0m
          [31m▀▒░░[0m       [1;30m▐ ▄▀[0m                               [1;30m▀[0m
-                     [1;30m▀[0m     [1;30mC[0;31my[0;1;31mb[0;1;33me[0;1;37mr Rock / L[0;1;33mi[0;1;37mGHT [0;1;31mW[0;31mH[0;1;30mQ[0m
+                     [1;30m▀[0m     [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m          [0;1;33m [0;1;37m    [0;1;31m [0;31m [0;1;30m [0m
 
-                         [1;30mS[0;31my[0;1;31ms[0;1;33mO[0;1;37mp  -+ Fractal Illu[0;1;33ms[0;1;31mi[0;31mo[0;1;30mn[0m
-                        [1;30mC[0;31mo[0;1;31mS[0;1;33my[0;1;37msOps  -+ Stussy -+ Q [0;1;31mT[0;31ma[0;1;30mK[0m
+                         [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                  [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
+                        [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                     [0;1;31m [0;31m [0;1;30m [0m
 
-                          [1;30mO[0;31mf[0;1;31mf[0;1;33mi[0;1;37mcial F.U.C.K. Di[0;1;33ms[0;1;31mt[0;31mr[0;1;30mo[0m
+                          [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
 
-                          [1;30mL[0;31ma[0;1;31mr[0;1;33mg[0;1;37me Encryption Sec[0;1;33mt[0;1;31mi[0;31mo[0;1;30mn[0m
-                          [1;30mL[0;31ma[0;1;31mr[0;1;33mg[0;1;37me ANSi--VGA Sect[0;1;33mi[0;1;31mo[0;31mn[0;1;30ms[0m
-                           [1;30mL[0;31ma[0;1;31mr[0;1;33mg[0;1;37me T-Phile Sect[0;1;33mi[0;1;31mo[0;31mn[0;1;30ms[0m
-                          [1;30mL[0;31ma[0;1;31mr[0;1;33mg[0;1;37me HP-T-File Sect[0;1;33mi[0;1;31mo[0;31mn[0;1;30ms[0m
+                          [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
+                          [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
+                           [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m              [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
+                          [1;30m [0;31m [0;1;31m [0;1;33m [0;1;37m                [0;1;33m [0;1;31m [0;31m [0;1;30m [0m
 
-                                [1;30m3[0;31mo[0;1;31m3[0;1;33m.[0;1;37m779.[0;1;33m5[0;1;31m8[0;31m0[0;1;30m7[0m
-                               [1;30mH[0;31m/[0;1;31mP [0;1;37mUsers [0;1;33mO[0;1;31mN[0;31mL[0;1;30mY[0m'
+                                [1;30m3[0;31mo[0;1;31m3[0;1;33m.[0;1;37m779.[0;1;33m5[0;1;31m8[0;31m0[0;1;30m7[0m'

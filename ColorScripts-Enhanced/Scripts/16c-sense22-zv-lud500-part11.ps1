@@ -5,7 +5,7 @@
 # Source SHA-256: 96dad6b1f00740b69ffb43659923cc900d67a7ae3752e01ecff9e04d1365ad9a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zv-lud500.ans by Zerovision (sense22); released in sense22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 490-537
 # Columns: 1-80
 
@@ -31,13 +31,13 @@ Write-Host '
 [1;31;47m░[0;1;31;41m▒▀[0;31m▀▀[0;37m [0;1;32m▄[0;32m▄▄  ████▄[0;1;32m▄▄[0;1;32;42m▓▓[0;1;32;40m▀[0;32m    ▀███▀▀[0;37m    [0;1;30m·[0m·[1;36mL[0m·[1;36mU[0m·[1;36mD[0m·[1;30m·[0m
 [31m▀ [0;32m [0;1;32m▄[0;1;32;42m▀[0;32m▀▀    ▐█[0;1;32;42m■▀▀▒▒[0;1;32;40m▀[0m
   [32m▀[0m         [32m██[0;1;32;42m░░[0;32m▀[0m              [37mSysGOD[0;1;30m·[0;1;37mzeroVision[0m
-  [32m    [0;37m    [0;32m  █▀[0m                 [37mCoSysGOD[0;1;30m·[0;1;37mgrymmjack[0m
+  [32m    [0;37m    [0;32m  █▀[0m                 [37m        [0;1;30m [0;1;37m         [0m
 
-  [1mMystic [0;1;30m-[0;1;37m 3 nodes [0;1;30m-[0;1;37m Testament Member BBS [0;1;30m/[0;1;37m Distro [0;1;30m([0;1;37mR[0m.[1mI[0m.[1mP[0m.[1;30m)[0;1;37m [0;1;30m-[0;1;37m Sense Member BBS[0m
+  [1m       [0;1;30m [0;1;37m         [0;1;30m [0;1;37m                      [0;1;30m [0;1;37m        [0;1;30m [0;1;37m [0m [1m [0m [1m [0m [1;30m [0;1;37m [0;1;30m [0;1;37m                 [0m
 
-[33m░[0m                        [37mTelnet:  [0;1;37mLudBBS.ath.cx[0m port[1m 23[0m
+[33m░[0m                        [37m         [0;1;37m             [0m     [1m   [0m
 [33m▓[0m                                                                             [33m▄[0m
-[33m█[0m                      [37mTaking it back to the old school.[0m                     [33m▐█[0m
+[33m█[0m                      [37m                                 [0m                     [33m▐█[0m
 [1;33;43m░[0;33m▌[0m                                                                           [33m▐[0;1;33;43m▒[0m
 [1;33;43m▒▒[0;33m▄[0m                      [33m░[0m                         [33m▄[0m                         [33m▐[0;1;33;43m▒[0m
 [33m█[0;1;33;43m▀▓▄[0;33m▄▄▄[0;1;33;43m▄░▄▄▄[0;33m▄▄[0m           [33m▓[0m                        [33m▐[0;1;33;43m░[0m                 [33m█[0m        [1;33;43m░[0m
@@ -45,16 +45,6 @@ Write-Host '
                [1;33;43m▓▓▀▀[0;33m▄[0;1;33m▄▄[0;33m  [0;1;33;43m▒[0;33m█▌[0m           [33m▄▄[0;1;33;43m▄▄▀▀▀ [0;33m█[0;1;33;43m  ▀▓▓▄[0;1;33;40m▄▄[0;33m▄▄[0m             [33m█[0;1;33;43m▒[0;33m▄▄▄[0;1;33;43m▄█▀░[0m
               [33m▐[0;1;33;43m▒[0;33m▀  ▀██[0;1;33;43m▀▀[0;33m██[0;1;33;43m▀▀[0;1;33;40m▄▄▄▄▄[0;33m▄▄[0;1;33;43m▀[0;33m██[0;1;33;43m▀▀[0;33m█▀[0m        [33m▀▀▀▀████[0;1;33;43m▀▀▀▀▀[0;1;33;40m▄▄▄▄▄▄▄▄[0;1;33;43m▓▓▀▀ ▄█[0;33m█[0m
               [1;33;43m░[0m         [33m▀▀▀▀▀▀▀▀▀▀▀▀   ▀█▌[0m                 [33m▀▀[0;1;33;43m▄[0;33m██████████▀▀▀[0;1;33;43m▀▓[0;33m▀[0m
-[1;30mDark Dsurion and Gilthoniel[0m              [1;33;43m░[0m                   [1;33m▐[0;1;33;43m▓[0;33m█[0m           [33m▐[0;1;33;43m░[0m
-[1;30m(c) Ciruelo Cabral[0m                        [1;33;43m░[0m                   [1;33;43m░[0;33m▌[0m            [33m█[0m
-                                                              [33m▐[0m
-
-
-
-
-[1;30mGreetz: Avenging Angel, Tainted X, Aesthetic, Spear, Enzo, Skypager!,[0m [1;30mpimpDopie[0m
-[1;30m Wikkypoo<3, Bhaal, m0lo, Fusion, Catch22 wherever you may be,[0m [1;30mand Seph![0m
-
- [1;30mLet this be a testament to the greatness of ansi.[0m
- [1;30mI won''t leave without a trace, I won''t be erased.[0m
- [1;30m5 days, 500+ lines, i am an ansi monster.[0m'
+[1;30m                           [0m              [1;33;43m░[0m                   [1;33m▐[0;1;33;43m▓[0;33m█[0m           [33m▐[0;1;33;43m░[0m
+[1;30m                  [0m                        [1;33;43m░[0m                   [1;33;43m░[0;33m▌[0m            [33m█[0m
+                                                              [33m▐[0m'

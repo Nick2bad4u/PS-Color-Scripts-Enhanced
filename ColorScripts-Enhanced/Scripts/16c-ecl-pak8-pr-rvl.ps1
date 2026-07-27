@@ -5,7 +5,7 @@
 # Source SHA-256: e41bde0caee506a6205e021419e53f03ce4fb132dcbd8d03d96a85587811774f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR_RVL.ANS by president (ecolove); released in ecl-pak8 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: revolution - end of the nfo
 # SAUCE Author: president
 # SAUCE Group: ecolove
@@ -38,7 +38,4 @@ Write-Host '
                                                       [37m▀▀▀▀  [0;1;37;47m▓[0m█[1;30;47m▄[0m▀[1;30m▀[0m
 
 
-[1;30m-----[0m
-[1;30mthis is an ansi for the infofile of my other group called revolution ...[0m
-[1;30mthe layout for this thingie standed almost a year , so this was the right time[0m
-[1;30mto do something about it ...[0m'
+[1;30m-----[0m'

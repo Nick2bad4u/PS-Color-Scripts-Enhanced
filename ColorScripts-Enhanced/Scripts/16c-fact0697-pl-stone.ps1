@@ -5,7 +5,7 @@
 # Source SHA-256: b257aba4ab8493b03899d2faaa927328bd25b8d5cf34477d1bb36aeb2d1d19a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-STONE.ANS by Pussylover (fACt!); released in fact0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Stonehenge logo!
 # SAUCE Author: Pussylover
 # SAUCE Group: fACt!
@@ -40,7 +40,7 @@ Write-Host '
 [1;36m▀▀▀▀▓ [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓  [0;36m███████████[0m
 
 [36m -----+cut+---=---------------------------=----------------------------=------[0m
-[36m Well, this one is for aqa - a spontanious artwork for his board, stonehenge ![0m
-[36m So check this one out![0m
-[36m for requests or critics, email [0;1;37mfxaes208@rz.uni-frankfurt.de[0m
+[36m                                                                              [0m
+[36m                       [0m
+[36m                                [0;1;37m                            [0m
 [1m [0;36m---------=----------------=------------------------------=-----------------=-[0m'

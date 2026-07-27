@@ -5,7 +5,7 @@
 # Source SHA-256: 5a205cdbbfbc3146a95aec534502ee4a91c043c4d0af59319c56d25ab4ebddc4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EG-HWX.ANS by Evil Genius (Trauma); released in trma1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Highway X
 # SAUCE Author: Evil Genius
 # SAUCE Group: Trauma
@@ -20,8 +20,8 @@ Write-Host '
             [1;34m$$$$$$[0m  [1;34m$$[0m [1;34m$$$$$[0m  [1;34m$[0m [1;34m$$$$$[0m  [1;34m$[0m [1;34m$$$$[0m   [1;34m$$[0m [1;34m$$$$[0m [1;34m$$[0m [1;34m$$[0m [1;34m$$$$$[0m  [1;34m$[0m
             [1;34m$$$$$$[0m  [1;34m$$[0m [1;34m$$$$$a|$[0m [1;34m$$$$$a|$[0m [1;34m$$$$[0m   [1;34m$$[0m [1;34m$$$$[0m [1;34m$$[0m [1;34m$$[0m [1;34m$$$$$a|$[0m
         eG!)[1;34md$$$$$[0m %%% [1;34m$$$$$[0m  [1;34m$($$$$$[0m  [1;34m$[0m [1;34m$$$$aaa$b[0m [1;34m|$$$[0m [1;34m$$[0m [1;34m$b[0m [1;34m$$$$$[0m  [1;34m$[0meG!)
-         [1;30mEG.. presents an ansi for you.. sorry i only had this pic in the[0m
-         [1;30mpack.. things are slow.. exams.[0m         [1;30mmore next moth. Ho,Ho,Ho[0m
+         [1;30m                                                                [0m
+         [1;30m                               [0m         [1;30m                        [0m
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[1;31m [0m▄[1m█████[0m▄ %%%%%%%%%%%%%%%%%%%%%%%%%
                        [1;30m       [0m ▄▄▄▄▄[1m [0;1;30m  [0m █[1m████████[0m▄[1;30m  [0m
 [1;34m       [0m                [1;30m     [0;1;31m [0;1;37m▄███████[0m█[1m [0m█[1m██████████[0m█

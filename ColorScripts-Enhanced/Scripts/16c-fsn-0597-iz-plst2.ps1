@@ -5,7 +5,7 @@
 # Source SHA-256: c58a4ff13352d99d69ea48cb252d7d5782ef24c1dbfef1eafe07981840c5e0d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-PLST2.ANS by ize (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: plastic emag interface
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -31,6 +31,5 @@ Write-Host '
 [37;40m  [0;34;40m░[0m   [34;40m   ░[0;30;44m▓[0;34;40m [0m                    [32;40m░░  [0m       [32;40m [0;34;40m░▀▀▀▐▄▄▄▄▄▄▄[0;36;40m▄▄[0;34;46m▀ ░[0;36;44m░[0;34;40m███████████████[0;36;44m░[0;34;46m▓[0;36;44m▓[0m
                                                     [34;40m▀[0;36;40m▀▀[0;36;44m▀▀▀▀▀▀[0;34;46m░▓[0;34;40m█████[0;34;46m███[0;34;40m████[0;36;44m░[0;34;46m▓░ [0;36;40m▌[0m
                                                          [34;40m  ░░▀▀▀▀▀▀▀[0;30;44m░░[0;34;40m██████[0;34;46m█▓░[0m
-    [1;37;40merrr do what ever you like down here .. [0m        [34m [0m    [34m  [0;37m   [0;34m      ░░        ░[0m
-    [1;37m:) like the other issue ''this month on'' blah blah[0m    [34m [0;1;30m  [0m                [1;30m  [0;34m░[0m
-    [1;37metc .. etc yea :)[0m                                                         [34m [0m'
+    [1;37;40m                                        [0m        [34m [0m    [34m  [0;37m   [0;34m      ░░        ░[0m
+    [1;37m                                                 [0m    [34m [0;1;30m  [0m                [1;30m  [0;34m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 27ff0b4f39fe076b98f7ea0accc83ccdcd42c61e21893e8ce0cdd4cc0c34d19c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SSAP-PR1.ANS by Saint Sinner + Acid Phix (eden!); released in eden0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: psychotic rebellion
 # SAUCE Author: ss! ap!
 # SAUCE Group: eden!
@@ -57,9 +57,6 @@ Write-Host '
 [30micle can..what''d he li[0;33m■▄▐[0;1;33;43m ░█[0;1;33;40m████████[0;1;33;43m░[0m   [33m░[0m [1;33;43m░[0;1;33;40m█████████[0;1;33;43m░[0;33m█▌▄■[0;30mke?..it''s not important[0m
 [30mparticle man..is he a d[0;33m░▀[0;1;33;43m░░▐█[0;1;33;40m██████[0;1;33;43m▓░[0;33m▌[0m   [33m▐[0;1;33;43m░▓[0;1;33;40m███████[0;1;33;43m▌░░[0;33m▀[0;30mot, or is he a speck?..wh[0m
 [30men he''s underwater..does he[0m [1;33m■▀[0;30mg[0;1;33m▀██[0;1;33;43m▓▒░[0;33m█[0m   [1;33;43m ░▒▓[0;1;33;40m██▀[0;1;33;43m▓[0;1;33;40m▀[0;30met[0m [33m░[0;30mwet?..or does the water ge[0m
-[30mt him instead?..nobody knows..p[0;33m░[0;30mrti[0;33m▀▀▀▀■▀▀▀▀[0;30mcle man..triangle man, triangle man.[0m
-[30m.triangle man hates particle[0m [33m.psychotic rebellion.[0;30mman..they have a fight..triang[0m
-[30mle wins..triangle man..hi eerie[0;33m.1 800 blah░blah.[0;30m-they might be giants rule!!!!!1[0m
-[30many fool out there who doe[0;33m.lots of really keen stats.[0;30msn''t like tmbg should get s[0m
-[30mlapped around a little[0;33m.ops midnight marauder & haph blok.[0;30m..flood! flood! flood!![0m
-[30m.eof.[0m                                                                      [30m.eof.[0m'
+[30m                               [0;33m░[0;30m   [0;33m▀▀▀▀■▀▀▀▀[0;30m                                    [0m
+[30m                            [0m [33m                     [0;30m                              [0m
+[30m                               [0;33m           ░     [0;30m                                [0m'

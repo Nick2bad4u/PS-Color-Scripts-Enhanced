@@ -5,7 +5,7 @@
 # Source SHA-256: b5dbb3115a8b496a37c1e05fdadc345565022c2af0e4325066326f7554151081
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-DP01.ANS by Mr.Wrong (The Used Coalition); released in used-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dark and Plain
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: The Used Coalition
@@ -16,8 +16,8 @@
 
 Write-Host '
   [1;30mD a r k  a n d  P l a i n[0m [1;30m [0m
-[1;30m [0m [1;30mA composition by Mr.Wrong of The Used Coalition[0m
-[1;30m  Draw what thou wilt shall be the whole of the law               [0m
+[1;30m [0m [1;30m                                               [0m
+[1;30m                                                                  [0m
 
  ▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄      ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄      ▄▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄
  █▀▀▄[1m▒▒▒[0m███▀██████████▄█▀▀▀    ▄▄▄██████▓▓▓▓▓▓██▀▀   ▄▄▄█[1;47m░░░░[0m██▀▀▀█████[1m▒▒▒▒[0m▄▀▀█

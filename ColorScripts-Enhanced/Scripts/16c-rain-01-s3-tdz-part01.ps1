@@ -5,21 +5,21 @@
 # Source SHA-256: dce8a1a3b28ccabcca2e8c737bc7f6aef230f392ad88d4b3cbaea9970e8e6d58
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S3-TDZ.ANS by Saturn 32 (rain-01); released in rain-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
                         [1m▄▄▄▄[0m                 [31m░    ░[0m     [31m░   ░ ░[0m     [31m░    ░[0m     [31m█[0m
-[31m   [0;1;30mGREETS:[0m           [1;37m▄██▀▀[0m                   [31m░  [0;37mYet Another ansi by me[0m       [31m▓ █[0m
+[31m   [0;1;30m       [0m           [1;37m▄██▀▀[0m                   [31m░  [0;37m                      [0m       [31m▓ █[0m
                    [1;37m▄[0;1;37;45m▓▓[0;1;37;40m▀[0m                      [31m▒  [0;37mSaturn-32 of RAiN.. If[0m      [31m░▒▓█[0m
-[31m  [0;1;30mStalker: I love[0;1;37m▄[0;1;37;45m▓▓[0;1;37;40m▀ [0;1;30;40mthe music man :)[0m       [31m▒  [0;37myou[0;31m░[0;37mwould like a ansi[0m      [31m░░ ▒█[0m
-[31m  [0;1;30mStone The Crow[0;1;37m▐[0;1;37;45m▓[0;1;37;40m▀  [0;1;30;40mYour work is great.[0m     [31m▒  [0;37mby me you can contact[0m        [31m▒ █[0m
-[31m  [0;1;30mBuM: Thanks fo[0;1;37;45m▒[0;1;37;40m▌[0;1;30;40mr the chance in RAiN[0m       [31m▓  [0;37mme[0;31m░[0;37mat S-32@primenet.com  [0;31m░  ░▓ █[0m
-[31m  [0;1;30mOmi: Thanx for[0;1;35m▀[0;1;37;45m▒[0;1;35;40m▄▄ [0;1;30;40mYour help:Co-sysop[0m      [31m▓  [0;37m#ansi,#rain..[0;31m░[0;37mI like to[0m        [31m█[0m
-[31m  [0;1;30mLynx: Keep codein[0;1;35m▀[0;1;37;45m▒▒[0;1;35;40m▄▄ [0;1;30;40mg you rock[0m          [31m▓  [0;37mdraw therefore I don''t[0m      [31m▓ ░█[0m
-[31m  [0;1;30mGroup Greets: Rain,L[0;1;35m▀[0;1;37;45m░░[0;1;35;40m▄[0;1;30;40mapse,ACiD,iCE,[0m     [31m▓  [0;37mCharge,[0;31m░[0;37mBut it[0;31m░[0;37mwould   [0;31m░  ░  ▓▒█[0m
-[31m  [0;1;30mOTM,[0;35;47m░░[0;37;40m▄[0;1;30;40mAnd anyone I ha[0;1;35;40m▀[0;1;37;45m░░[0;1;30;40mve missed.[0m        [31m█  [0;37mhelp[0;31m▒[0;37mget it done faster  [0;31m░ ▒ ▓ █[0m
+[31m  [0;1;30m               [0;1;37m▄[0;1;37;45m▓▓[0;1;37;40m▀ [0;1;30;40m                [0m       [31m▒  [0;37m   [0;31m░[0;37m                 [0m      [31m░░ ▒█[0m
+[31m  [0;1;30m              [0;1;37m▐[0;1;37;45m▓[0;1;37;40m▀  [0;1;30;40m                   [0m     [31m▒  [0;37m                     [0m        [31m▒ █[0m
+[31m  [0;1;30m              [0;1;37;45m▒[0;1;37;40m▌[0;1;30;40m                    [0m       [31m▓  [0;37m  [0;31m░[0;37m                      [0;31m░  ░▓ █[0m
+[31m  [0;1;30m              [0;1;35m▀[0;1;37;45m▒[0;1;35;40m▄▄ [0;1;30;40m                  [0m      [31m▓  [0;37m             [0;31m░[0;37m         [0m        [31m█[0m
+[31m  [0;1;30m                 [0;1;35m▀[0;1;37;45m▒▒[0;1;35;40m▄▄ [0;1;30;40m          [0m          [31m▓  [0;37m                      [0m      [31m▓ ░█[0m
+[31m  [0;1;30m                    [0;1;35m▀[0;1;37;45m░░[0;1;35;40m▄[0;1;30;40m              [0m     [31m▓  [0;37m       [0;31m░[0;37m      [0;31m░[0;37m        [0;31m░  ░  ▓▒█[0m
+[31m  [0;1;30m    [0;35;47m░░[0;37;40m▄[0;1;30;40m               [0;1;35;40m▀[0;1;37;45m░░[0;1;30;40m          [0m        [31m█  [0;37m    [0;31m▒[0;37m                    [0;31m░ ▒ ▓ █[0m
        [37m▀[0;35;47m▒▒▒[0;35;40m▄▄[0m           [35;40m▄▓▀ [0;1;37;40m▀▀▀[0;1;35;40m▄[0m             [31m█  [0;37mOr[0;31m▓[0;37mansi[0;31m▒[0;37mtrades.... [0;31m░   ░   ▓░ ▓█[0m
           [35m▀▀▀[0;35;47m▓▓▓[0;35;40m▄  ▄▄▄▓▓▀  [0;37;40m▀ [0;1;35;40m▀▀▄ [0;35m[RA[0;1;35mi[0;35mN][0m      [31m█[0m                   [31m▒░[0m     [31m▒ ▓▒▓░ █[0m
                 [35m▀▀▀▀▀▀[0m      [35m▀▀▀[0m              [31m█[0m                  [31m▓   ▓▒ ▒ ▒▓▒▓░▓█[0m
@@ -52,5 +52,4 @@ Write-Host '
 [31mFeed on your   [0;37m▐▒▓▓[0;1;37;47m▒▓▓[0m░▒▒▓▓[1m▌[0m░▒▓█[1m██ [0m░▒▓█[1m█▌▐█[0m█▓▒░[1m▐[0;1;47m▓░[0m▓▓▒░[1m█[0;1;47m▓▒░[0m▓▒[1m▐█[0;1;47m▓▒░[0m▓▒    [RAiN]
  [31mFEAR.. Yesss.. [0;37m▀▓[0;1;37;47m▒▓▓██[0m▒▓[47m [0;1;47m▐[0;1;40m▌[0m░▒▓█[1m██▌[0m░▒▓█[1m█▌██[0m█▓▒░[1m▐[0;1;47m▓░[0m▓▓▒░[1m█[0;1;47m▓▒▒░[0m▓[1m███[0;1;47m▓▒░[0;1;40m▌[0m
                   [1;40m▀[0;1;47m▓██[0;1;40m▌▐[0;1;47m▄██[0;1;40m▌[0m▀▒▓█[1m██ [0m░▒▓█[1m█▌██[0m█▓▒░ [1m▀[0;1;47m▓░[0m▓▒░[1m██[0;1;47m▓▒▒[0m▀ [1m▀██[0;1;47m▓[0;1;40m▀[0m
-                    [1;40m▀▀  ▀█▀   [0m▀[1m▀▀  [0m▀▒▓█[1m▀ ▀█[0m█▓▒▀        [1m▀█[0m▀[0m
-'
+                    [1;40m▀▀  ▀█▀   [0m▀[1m▀▀  [0m▀▒▓█[1m▀ ▀█[0m█▓▒▀        [1m▀█[0m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 98a86e283ecf9cc6963a7b8bfd581db7ed67a63c5406057342462386348d1370
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GK-HDRS1.ANS by grind king (lazarus); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: headers and small bits
 # SAUCE Author: grind king
 # SAUCE Group: lazarus
@@ -16,11 +16,11 @@
 
 Write-Host '
 
- [1;30mwell, i drew some headers this month.  [0m
+ [1;30m                                       [0m
 
-[1;30m unfortunately, that''s about all i drew.  i realise that i still owe many[0m
-[1;30m promised logos and what-not, so if your name is sike, nail, ize, rusted,[0m
-[1;30m or PHOBIA, don''t worry ''cause i haven''t forgotten about you.[0m
+[1;30m                                                                         [0m
+[1;30m                                                                         [0m
+[1;30m                                                             [0m
 
 
 

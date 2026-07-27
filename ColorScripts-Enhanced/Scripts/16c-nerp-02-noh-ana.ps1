@@ -5,7 +5,7 @@
 # Source SHA-256: 1b88f266124381ed2a06c80269f9923bc0d6a6d6e01cd9e019e7dd49abd87ab9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-ANA.ANS by nOah? (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: anaplast?
 # SAUCE Author: nOah?
 # SAUCE Group: nerp
@@ -35,6 +35,4 @@ Write-Host '
                 ▄[1;47m▄[0m █[1;47m██▄[0m▄        ▀▀[1;47m▀▀██▀[0m▀       █[1;47m██░░[0;1;44m██[0;1;47m███▀[0;1;40m▀[0m▀
                ▐[1;47m██[0m█[1;47m ▒███[0m█           ▀▀          ▀▀[1;47m▓▓▌[0m▌▀▀
                 ▀[1;47m▀▄[0;1;40m▄[0m▄▀▀▀
-                   ▀[1m▀▀[0m▀   ANAPLAST#@!
-
-[1;30m// this isn''t really ready ..i think! ..[0m'
+                   ▀[1m▀▀[0m▀   ANAPLAST#@![0m'

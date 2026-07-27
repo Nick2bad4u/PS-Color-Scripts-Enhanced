@@ -5,7 +5,7 @@
 # Source SHA-256: e30bab07e1a42b3a848b96c7229c159b7238ac43255f2f9fe6b8ead2be824d93
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RI-AG.ANS by rai (blade); released in blde9512 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: atomik garden
 # SAUCE Author: rai
 # SAUCE Group: blade
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-    [1;34m▄■ ▀ █▄   ▄[0;1;34;47m▓[0;1;34;40m██▄   [0m_rai greetz _st, gr, lm, pt, cs, tg, rc, cz_
-   [1;34m█▌   ▐[0;1;34;47m▓▓[0;1;34;40m▌   ▀▀▀    [0m100% original pic by rai for [1matomik garden[0m
-[1m  [0;1;34m▐▓    ▀▀▀▀   ▄█▀▀   [0mthis is for [1mlagomorph, [0mplease don''t use
+    [1;34m▄■ ▀ █▄   ▄[0;1;34;47m▓[0;1;34;40m██▄   [0m                                            
+   [1;34m█▌   ▐[0;1;34;47m▓▓[0;1;34;40m▌   ▀▀▀    [0m                             [1m             [0m
+[1m  [0;1;34m▐▓    ▀▀▀▀   ▄█▀▀   [0m            [1m           [0m                
  [1;30m░[0;1;34m▐[0;1;34;47m▓[0m [1;30m░░ ░░░ ░░░[0;1;34m▐[0;1;34;47m▓[0;1;30;40m░░ ░ [0mit anywhere else. ( like you would :) )
    [1;34m█▌[0m           [1;34m█▌[0m
 [1;34m    ▀■[0m           [1;34m▀■[0m
@@ -63,5 +63,4 @@ Write-Host '
           ░  ░░ ░░░ ░░░░░░[1;35;47m▓▓▓▓▓▓[0;1;35;40m▀▀[0;1;35;47m▓▓▓▓▓▓[0m░░░░[1;35;47m▓▓▓▓▓▓[0m░[35m▄▄[0;1;35m▄▄▄▄[0;35m▄▄[0;37m░░░░░░ ░░░ ░░ ░[0m
                           [35m▐[0;1;35;45m▐[0;1;35;40m██[0;1;35;45m█[0;1;35;40m█[0;35m▌ ▐[0;1;35;45m▐[0;1;35;40m██[0;1;35;45m█▌[0;35m▌   ▐[0;1;35;45m▐[0;1;35;40m██[0;1;35;45m█[0;1;35;40m█[0;35m▌  [0;1;35;45m▐[0;1;35;40m████[0;1;35;45m▌[0;35m▌[0m
                            [35m█[0;1;35m██[0;1;35;45m█▓ [0m  [35m█[0;1;35m██[0;1;35;45m█░[0;35m█    █[0;1;35m██[0;1;35;45m█▓ [0m [35m▐[0;35;45m [0;1;35;45m▀[0;1;35;40m███[0;1;35;45m▓[0;35m█[0m
-                          [35m▀▀▀▀▀▀  ▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                  [37matomik, garden . op, lagomorph, cia member board.[0m'
+                          [35m▀▀▀▀▀▀  ▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

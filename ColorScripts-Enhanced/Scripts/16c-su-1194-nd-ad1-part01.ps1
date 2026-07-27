@@ -5,7 +5,7 @@
 # Source SHA-256: 26337a41de271c43270101828228fd3583a05c371de2bfaed0a8d172d215b949
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ND-AD1.ANS by Nuclear Dreamer (su-1194); released in su-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ad For Atomic Delusion
 # SAUCE Author: Nuclear Dreamer
 # SAUCE Date: 19941022
@@ -14,9 +14,9 @@
 # Columns: 1-80
 
 Write-Host '
-  [31m·  ■ █▓▒[0;1;31;41m░▒▓[0m [1;37;40mA [0m1oo% OrigionaL ANSi By Nuclear Dreamer [suicide[1m] [0;1;31;41m▓▒░[0;31m▒▓█ ■  ·[0m
+  [31m   ■ █▓▒[0;1;31;41m░▒▓[0m [1;37;40m  [0m                                               [1m  [0;1;31;41m▓▒░[0;31m▒▓█ ■   [0m
 
-                      [1;37m"[0mI [1mN[0me[1mv[0me[1mr Und[0me[1mrst[0moo[1md Th[0me [1mFr[0me[1mq[0mue[1mncy..[0m.[1m"[0m
+                      [1;37m [0m  [1m [0m [1m [0m [1m     [0m [1m   [0m  [1m    [0m  [1m  [0m [1m [0m  [1m     [0m [1m [0m
 <───────────────────────────────────────────────────────────────────────────────
 [30;47m███▀[0;1;30;47m░▒▓▒░                                   ░   ░     [0;47m████           [0;1;30;47m░▒▓▒▒░░[0m▄nd
 [30;47m██[0;1;30;47m░░▒▓▒░                                ░ ░▒▓▒░                       ░▒▓▒▒░░░[0m

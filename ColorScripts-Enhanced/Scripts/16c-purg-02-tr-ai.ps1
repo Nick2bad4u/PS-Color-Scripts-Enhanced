@@ -5,7 +5,7 @@
 # Source SHA-256: 728de80fec8d8bcd0863379b03d2048e354f2cdc9df639cdec54288cbd98e85f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-AI.ANS by The Reaper (purg-02); released in purg-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -27,8 +27,4 @@ Write-Host '
  [1m██[0m [1;30;46m▓▒░[0;36m█[0;37m [0;1;30;46m▓▒░[0;36m█[0;37m  [0;36m██[0;37m [0;1;30;46m▓▒░[0;36m█[0;37m  [0;36m██[0;37m [0;1;30;46m▓▒░[0;36m█[0;37m  [0;36m██[0;31m [0;1;30m▄[0;36m▄▄▄[0;37m  [0;36m██[0;37m [0;1;30;46m▓▒░[0m [1;30;46m▓▒░[0;36m█[0;37m  [0;36m██[0;37m [0;1;30;46m▓▒░[0;36m█[0;37m  [0;36m██[0;37m [0;1;30m▄[0;36m▄▄▄[0;37m  [0;36m██[0;37m [0;1;37m██[0m
  [1m██[0m [1;30;46m█▓▒░[0m [1;30;46m█▓▒░[0m [36m▄██[0;37m [0;1;30;46m█▓▒░[0m [36m▄██[0;37m [0;1;30;46m█▓▒░[0m [36m▄██[0;37m [0;1;30;46m█▓▒░[0m [36m▄██[0;37m [0;1;30;46m█▓▒[0m [1;30;46m█▓▒░[0m [36m▄██[0;37m [0;1;30;46m█▓▒░[0;1;30;40mtr[0;36m██[0;37m [0;1;30;46m█▓▒░[0m [36m▄██[0;37m [0;1;37m██[0m
  [1m██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██[0m
- [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-                               [1m  [0;36mso[0;1;36mp[0;1;37m·[0;1;36mc[0;1;37mre[0;1;36mat[0;36mor[0m
-                             [36mfu[0;1;36mnk[0;1;37madelic pho[0;1;36mnt[0;1;37m [0;36mby[0;1;37m [0m
-                                  [1;30mtr[PuRG][0m'
+ [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

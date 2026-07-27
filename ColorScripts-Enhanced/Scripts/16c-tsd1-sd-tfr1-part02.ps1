@@ -5,7 +5,7 @@
 # Source SHA-256: 153111b640e3217ad9c9a8aa57b1d8aa3b8ef26a5181daa167b29696ff42cee7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-TFR1.ANS by Soup Dragon (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 27-51
 # Columns: 1-80
 
@@ -33,5 +33,4 @@ Write-Host '
 [1;30;47m██▓▓▓▒▒░░░    [0;1;37;47m░░░▒▒[0;1;30;40m█[0;5;30m∙∙∙∙∙∙∙∙[0m1[1;34m2[0;34m0[0;37mM[0;1;34mB[0;5;30m∙[0mT[1;34ma[0;34mpe[0;5;30m∙[0mD[1;34mr[0;34mive[0;5;30m∙[0mO[1;34mn[0;34mline[0;5;30m∙∙∙∙∙∙∙∙[0;1;30;47m░   [0;1;37;47m░░░▒▒▒▓▓▓▓████ ░░[0m
 [1;30;47m██▓▓▓▒▒░░░    [0;1;37;47m░░░░▒[0;1;30;40m█[0;5;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;30;47m▒    [0;1;37;47m░░▒▒▒▓▓▓▓▓████░▒[0m
 [1;30;47m██▓▓▓▓▒▒░░░    [0;1;37;47m░░░░[0;1;30;40m█[0;5;30m∙∙∙∙∙∙∙∙∙∙∙[0;1;30mSoup[0;5;30m∙[0;1;30mDragon[0;5;30m∙[0;1;30m[[0mT[1mS[0mD[1;30m][0;5;30m∙∙∙∙∙∙∙∙∙∙∙[0;1;30;47m▓     [0;1;37;47m░░▒▒▒▓▓▓▓▓████▒[0m
-[1;30;47m███▓▓▓▓▒▒░░░    [0;1;37;47m░░░[0;1;30;40m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;30;47m     [0;1;37;47m░░░▒▒▒▓▓▓▓▓███▓[0m
-[40m                                                                                [0m'
+[1;30;47m███▓▓▓▓▒▒░░░    [0;1;37;47m░░░[0;1;30;40m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;30;47m     [0;1;37;47m░░░▒▒▒▓▓▓▓▓███▓[0m'

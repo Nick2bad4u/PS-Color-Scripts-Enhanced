@@ -5,7 +5,7 @@
 # Source SHA-256: d6eebdabd368895d24ca4ebe96fa00c098484483264806b0c4ef690f9ba3ba24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-MLD2.ANS by raider (mOp productions); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mortal dreams menuset
 # SAUCE Author: raider
 # SAUCE Group: mOp productions
@@ -39,12 +39,4 @@ Write-Host '
 [34m▐[0;30;44m        [0;1;34;44m▀[0;36;44m▒[0;1;34;44m▄[0;30;44m       ▀▀[0;1;31;40m▀▀▀[0;33m▀████▀▀[0;30;44m▀▀   [0;1;34;44m             [0;36;44m  menuset[0;1;34;44m [0;36;44mby[0;1;34;44m [0;36;44mraider of OPX[0;34;40m███[0;1;34;44m░[0;34m [0m
 [34m ▀▀[0;30;44m   [0;34;40m▀[0;30;44m   [0;34;40m▀[0;30;44m  [0;1;34;44m▀▀[0;30;44m    [0;34;40m▀░▀[0;30;44m   ▀▀[0;34;40m [0;30;44m▀   [0;34;40m▀[0;30;44m    [0;1;34;44m░░[0;30;44m     [0;34;40m▀▀░[0;30;44m     [0;34;40m▀[0;30;44m   [0;34;40m███[0;30;44m     [0;34;40m▀▀[0;30;44m [0;1;34;44m░[0;30;44m [0;34;40m▀[0;30;44m [0;34;40m██[0;30;44m [0;34;40m▀[0;30;44m [0;34;40m▀▀  [0m
 
-[1;34;40m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[ cut ]∙∙∙∙∙∙∙∙∙∙∙[0m
-
-      [1;34mi guess it''ll look cool with the lightbars, right? [0m
-       [1;34mbtw, i''m totally out of requests now, well my modem isn''t working [0m
-     [1;34mso i haven''t got many lately =) but when it''s been fixed and i''m back[0m
-      [1;34mon irc, just ask me ..[0m [1;34m=)  but please gimme something in return,[0m
-       [1;34mnot necessarly (i spelled that wrong, didn''t i? ) money though, but[0m
-      [1;34mhey, money works fine too... =)     see ya..   [0m
-         [1;34mps. i did this one in a hurry..[0m'
+[1;34;40m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[ cut ]∙∙∙∙∙∙∙∙∙∙∙[0m'

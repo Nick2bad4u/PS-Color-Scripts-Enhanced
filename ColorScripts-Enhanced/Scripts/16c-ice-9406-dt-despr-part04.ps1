@@ -5,7 +5,7 @@
 # Source SHA-256: 72df80b008908c398c161d451910a617005796c9f8cf3b25b6b1525d2adea434
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-DESPR.ICE by Tung Lo (ice-9406); released in ice-9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 117-160
 # Columns: 1-80
 
@@ -47,10 +47,9 @@ Write-Host '
       [32mtung [0;1;32m/ [0;32mice[0m                                [32m▒[0m     [32m▄▀▀  ▀▀▓[0m         [32m░[0m      [32m▀[0m
 [32m    [0;1;32m▄[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▀[0;1;32;42m░[0;32m▄▄█▄▄[0m     [32m▒ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [32m   [0;1;32;42m▒[0;32m▀[0m                                              [1;32;42m░[0;32m██[0m       [32m░[0m              [32m▀█[0m
-[32m   █   numb/vi ansi world hq - mist demo world hq   ▓[0m       [32msysops:[0m          [32m█[0m
-[32m   ▓[0m      [32mrelic / rem / blade / reality distro[0m      [32m▒[0m                        [32m█[0m
-[32m   ▒[0m      [32menigma / dust / maniac e-mag distro[0m       [32m░    Usul - numb/die[0m     [32m█[0m
-[32m   ░[0m         [32mfavorite condiment: relish[0m               [32mLeviathan - numb/mist  ▓[0m
-             [32mdual module player support[0m                [32mPeak Velocity - numb  ▒[0m
-             [32masylum / DiE member board[0m                                       [32m░[0m
-        [32mDGi/GSN Hub - PRiME/Quantum/SBC Nets              708-301-2948[0m'
+[32m   █                                                ▓[0m       [32m       [0m          [32m█[0m
+[32m   ▓[0m      [32m                                    [0m      [32m▒[0m                        [32m█[0m
+[32m   ▒[0m      [32m                                   [0m       [32m░                   [0m     [32m█[0m
+[32m   ░[0m         [32m                          [0m               [32m                       ▓[0m
+             [32m                          [0m                [32m                      ▒[0m
+             [32m                         [0m                                       [32m░[0m'

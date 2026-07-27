@@ -5,7 +5,7 @@
 # Source SHA-256: a65a7228bfe323696951a15811953a01a308e632bf33d6d8e3308d469ddb2fcc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-GHOST.ANS by The Ghost (ansis3); released in ansis3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -31,4 +31,4 @@ Write-Host '
 [35m█[0;1;35m██[0;41m│[0;5;34;41m■■■■[0;41m│[0;1;35m█[0;32;45m█[0;1;32;42m▀[0;32;45m█[0;1;35m██[0;1;32;42m ▀[0;32;45m█[0;1;35m█[0;41m│[0;5;34;41m■■■[0;41m│[0;1;35m█[0;1;36;46m██ [0;1;35m██[0;41m│[0;5;34;41m■[0;41m│[0;1;35m█[0;1;35;45m▄[0;35m█▄ [0;1;32m█▄ [0;1m▀▀█████▒[0;30;47m [0m [1;32m█ [0;1m▀███████▒ [0;1;32m▄ [0;1m▀▀████▒▀ [0;1;32m▄▀[0m
 [35m█[0;1;35m████████████████████████[0;1;36;46m██ [0;1;35m████████[0;35m█▄▄ [0;1;32m█▄▄  [0;30;47m▄▄▄▄[0m [1;32m▄▀▄ [0;1m▀█████▒[0;30;47m▓[0m [1;32m█▀▄▄ [0m▀▀▀▀ [1;32m▄▀[0m
 [35m▀█[0;1;35;45m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35;46m▀[0;1;36;46m▀▀▀▀▀▀▀▀▀ [0;1;35;45m▀▀▀▀▀▀▀▀▀▀ [0;35m▄▄▄ [0;1;32m▀▀▀▀▀▀▀   ▀▄ [0;30;47m▄▄▄▄▄[0m [1;32m▄▀   ▀▀▀▀▀▀[0m
-[1;33m* [0;1;32mThe [0;35mGhost [0;1;36m- [0;1;34mSysOp [0;1;33mde [0;1m-=[[0;1;33mA[0;35me[0;1;32mr[0;1;36mo[0;1;34mS[0;1;31mp[0;1ma[0;1;32mc[0me [1;32mBB[0;1;33ms[0;1m]=- [0;1;36m209[0m-[1m1394 [0;1;33m*  [0;1;32m▀▀▀▀▀▀▀  [0;1;5;31mANSI-MIDI maker[0m'
+[1;33m  [0;1;32m    [0;35m      [0;1;36m  [0;1;34m      [0;1;33m   [0;1m   [0;1;33m [0;35m [0;1;32m [0;1;36m [0;1;34m [0;1;31m [0;1m [0;1;32m [0m  [1;32m  [0;1;33m [0;1m    [0;1;36m   [0m [1m     [0;1;33m   [0;1;32m▀▀▀▀▀▀▀  [0;1;5;31m               [0m'

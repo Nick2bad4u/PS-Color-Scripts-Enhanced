@@ -5,7 +5,7 @@
 # Source SHA-256: c18c541ccf01c2201371aac866ee413d5ce722d288d9e7849e060286772a6234
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JE-ADG2.ANS by [JOINT EFFORT] (d38 + Fusion again:)); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ASDFG emag promo
 # SAUCE Author: [JOINT EFFORT]
 # SAUCE Group: d38 + Fusion again:)
@@ -35,5 +35,5 @@ Write-Host '
    [32m▀[0m       [1;35;45m▌[0;35m▌  ▐[0;1;35;45m▐███[0;35m▓[0m            [35m▀[0;1;35m▀▀▀▀▀▀▀▀[0m▀▀[1;35m▀[0;1;35;45m▀[0;1;35;40m█████[0;1;35;45m█████▄▄▄▄▄▄[0;35m▄▄▄▄[0m       [35m▐[0;1;35;45m▒▒[0m
                 [35m▀[0;1;35m▀[0;1;35;45m▀█▌[0;35m▌ ■  it says ASDFG e-mag[0m     [35m▐[0;1;35;45m▐[0;1;35;40m████[0;1;35;47m▀▀[0;1;35;40m█[0;1;35;45m███████▄▄▄[0;35m▄▄▄▄▐[0;1;35;45m▓▓[0;35m [0m
          [30;45m░[0;35;40m▓[0m    [35;40m▄[0;1;35;40m▄[0;35m█[0;1;35m▀▀[0;35m▀[0m                                      [35m▀[0;1;35m▀▀▀[0m▀▀[1;35m▀[0;1;35;45m▀[0;1;35;40m███[0;1;35;47m▀▀[0;1;35;45m████[0m
-                          [1;30mBlind Sniper (d38)[0m                             [1;35;45m █▌[0;35m▌[0m
-                                [1;30m [0m [1;30mnOah[0m [1;30m(Fusion)[0m                            [1;35m▀[0;35m▀[0m'
+                          [1;30m                  [0m                             [1;35;45m █▌[0;35m▌[0m
+                                [1;30m [0m [1;30m    [0m [1;30m        [0m                            [1;35m▀[0;35m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c35bbe33516ff82b81fcf2dea6fa771062020eac3ab335ded9a001b234215619
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-VOW1.ANS by Splatt + 3 Stigmata (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: udsada'
 # SAUCE Author: 3stigANDst
 # SAUCE Group: eclipse
@@ -33,4 +33,4 @@ Write-Host '
 
 
 
-[30;45m▓▓▓▓▓▓ [0;1;31;45m3 stigmata and splatt [0;1;35;45m- [0;1;33;45msm did the OUTLINE [0;1;35;45mand [0;1;33;45mst shaded it.. [0;1;37;45mword.[0;30;45m▓▓▓▓▓▓[0m'
+[30;45m▓▓▓▓▓▓ [0;1;31;45m                      [0;1;35;45m  [0;1;33;45m                   [0;1;35;45m    [0;1;33;45m               [0;1;37;45m     [0;30;45m▓▓▓▓▓▓[0m'

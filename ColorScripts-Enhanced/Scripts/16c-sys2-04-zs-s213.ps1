@@ -5,13 +5,13 @@
 # Source SHA-256: 8bbe14b408ccf6c75f97afea1113992a797bb8c5b12c017b2a29b811f73ceda9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZS-S213.ANS by Zerostar (sys2_04); released in sys2_04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
 [1;31mÑÑ[0;33mÑÑÑ[0;31mÑ*┘²''^\[0;33mÑÑ[0;31m*┘²''\[0;33mÑ*[0;31m┘²''^\[0;33mÑÑ[0;1;31mÑÑÑÑ[0;33mÑÑÑ[0;31mP`[0;32m .┐q%@[0;1;32mSS@%[0;32mp┌▬.[0;31m`''²┘[0;33m****└[0;31m²''^``^''²└*[0;33mÑÑÑ[0;1;31mÑÑÑÑ[0;33mÑ[0;31mll[0m
-[1;31mÑÑ[0;33mÑ[0;31mb[0;37m [0;36msystemii ascii design[0;37m [0;31m;[0;33mÑÑä[0;31m*┘7`[0;32m.d[0;1;32m§§§§§§§§§§§§§§§[0;32mb┐▬,.,▬┌p%@[0;1;32mSS@[0;32m%q┐.[0;37m [0;31m`\[0;33mÑÑÑÑÑ[0;31mZZ[0m
+[1;31m  [0;33m [0;31m [0;37m [0;36m                     [0;37m [0;31m [0;33m   [0;31m ┘  [0;32m  [0;1;32m               [0;32m ┐▬   ▬┌   [0;1;32m   [0;32m  ┐ [0;37m [0;31m  [0;33m     [0;31m  [0m
 [33m┘²[0;31m''`[0;1;30m_ ._[0;36m   [0;1;30m [0;36m [0;1;30m*[0m       [36m,▬┐q@SZZ   [0;1;30m:[0;36m [0;32m;[0;1;32m§§§§§§[0;1;33m§§§§§§§§[0;1;32m§§§§§§§§§§§§§§§§§§§§§§[0;32md.[0;31m`7[0;33mÑÑÑ[0;31mZZ[0m
 [36m  [0;1;30md[0m§[1;37m§[0mä*[1;30m┘''[0;36m _ .▬┐q@S[0;1;36m§§§§§§§§§§§[0;36m   [0;1;30ml[0;36m [0;32m`''²└*/[0;1;32m§§[0;1;33m§§§§§§§§§§§§§§§§§§§§§§§§[0;1;32m§§§§§§[0;32m§;[0;37m [0;31ml[0;33mÑÑÑÑ[0m
 [36m  [0;1;30m`[0;36m_.▬┐q2[0;1;36m§§§§§§[0;1;37m§§[0;1;36m§§§[0;36mä*┘[0;1;36m§[0;1;37m§[0;1;36m§[0;36m7`  [0;1;30m.d[0m§[36m [0;32m.q@S[0;1;32m§§§§§§§§§§§§§§§§§§§[0;1;33m§§§§§§§[0;1;32m§§§[0;32m§²┘*ä§§[0;37m [0;31m:[0;33mÑ[0;1;31mÑÑ[0;33mÑ[0m
@@ -31,8 +31,8 @@ Write-Host '
 [31m@p┌▬.[0;37m [0;1;30m`''²[0m└[36m*//[0;1;36m§§§§§§§§§§§§Q§\[0;36m*┘²''^``  [0;32m .┌q@S[0;1;32m§§§§§[0;32mä*┘²''^§[0;1;32m§§§[0;32m§^''²┘*ä§[0;1;32m§§§S[0;32m@p.[0;37m [0;33mÑÑ[0;1;31mÑÑÑÑ[0m
 [33mÑÑÑÑ[0;31mÑ[0;37m   [0;31m;S@p┌▬.[0;36m``^^''^^``[0m             [32m`^''²└*/[0;1;32m§S[0;32m@p┌▬.   §ää**   .▬┌[0;1;32mq[0;32m@[0;1;32mS§§[0;32m²''`[0;31m.[0;33mÑÑÑÑÑÑ[0m
 [33mÑÑ[0;31mS@p┌▬,l[0;33mÑÑÑÑÑ[0;31mÑ▬┐q@[0;33mSÑÑS[0;31m@p.[0m                  [32m`''\[0;1;32m§§§§§[0;32mb.[0m     [32m.d[0;1;32m§§[0;1;33m§§[0;1;32m§§7[0;32m`[0;31m.q@S[0;33mÑÑ[0;31m*┘²''Z[0m
-[33mÑÑÑÑÑÑÑÑÑÑ[0;1;31mÑÑÑ[0;33mÑÑÑÑÑÑÑÑÑÑÑÑÑ[0;31mL[0m                    [32m`7[0;1;32m§[0;32m/`[0m        [32m`\[0;1;32m§§§§[0;32ml[0;37m [0;31m;[0;33mÑÑÑÑÑ[0;31mS@p.[0;37m [0;31ml[0m
+[33m          [0;1;31m   [0;33m             [0;31m [0m                    [32m  [0;1;32m [0;32m  [0m        [32m  [0;1;32m    [0;32m [0;37m [0;31m [0;33m     [0;31m    [0;37m [0;31m [0m
 [31mÑ*┘²''^''\Z[0;33mÑ[0;1;31mÑÑÑ[0;33mÑÑ[0;31m`^''²└*/`^''²└*//[0m                                [32m`\§§;[0;37m [0;33mÑ[0;31m*┘²''^`^''l[0;37m [0;31m;[0m
-        [31ml[0;33mÑ[0;1;31;43mÑÑÑ[0;33mÑÑ[0;31m:[0m                                                 [1;30m`[0m     [31m [0m     [31m;[0m
+        [31m [0;33m [0;1;31;43m   [0;33m  [0;31m [0m                                                 [1;30m [0m     [31m [0m     [31m [0m
           [30;43m░░░[0m
           [30;43m▓▓▓[0m'

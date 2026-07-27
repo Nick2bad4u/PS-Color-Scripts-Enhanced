@@ -5,7 +5,7 @@
 # Source SHA-256: e63cc2c9632727d701fe2c1c4709dbed643a91d971abb69a729f842ec25e6bed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_IRRER.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FS:: wookie
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
                                                        [34m▀▀▀[0;1;34m▀▀▀▀[0;1;34;44m▀▀▀[0;1;34;42m▒▒[0;1;34;44m▄▄▄[0;1;34;40m▄▄▄▄[0;34m▄▄[0m
 
 
-[1;30m----------------------------------------------------(sanatoriumsopfer)----------[0m
-[1;30mdas da oben . for the freeside . DNR![0m [1;30m. grill deinen wook![0m        [1;30mjerusalem~boil[0m'
+[1;30m----------------------------------------------------(sanatoriumsopfer)----------[0m'

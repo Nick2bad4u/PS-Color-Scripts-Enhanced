@@ -5,7 +5,7 @@
 # Source SHA-256: 2192ccdb445381a898f38451efa2c4dce8a64427193c5f02df751a6fe97a6e24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TB-BM#1.ANS by tribal (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: black maiden promo
 # SAUCE Author: tribal
 # SAUCE Group: gas
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-            [1;30mtribal presents.. another lame ansi[0m
+            [1;30m                                   [0m
 
      [35m    [0m                      [35m   ▄▄▄  [0m                         [35m [0m         [35m▄[0m
    [35m    ▄▄  [0m                    [35m▄[0;1;35;45m▄▄▀▀▀▄[0;35m▄[0m            [35m▄▄▄▄▄[0m      [35m▄[0;1;35;45m▄[0;35m█ [0m       [35m▐[0;1;35;45m█▌[0m
@@ -42,15 +42,4 @@ Write-Host '
                              [1;35;45m▀[0;35m▀[0m
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30mhere''s just one of the many ansi''s i owe you voice! =] hope you like it, i did[0m
-[1;30mit in under 20 minutes.. but i''ll do you a pic or something next time.. anyway[0m
-[1;30mgreets to all gas members and some personal greets to the following people.. to[0m
-[1;30mjuice for all his help with gas, to all the gas internet team on effnet #gas =][0m
-[1;30mto all the elite people in #ansi and to all the other groups around the world,[0m
-[1;30mand to the australian art groups, force and acolyptic visions.. good luck to you[0m
-[1;30mguys! thats it from me, if you want one of my lame ansi''s email gas@ion.com.au[0m
-[1;30mand i am sure i can do something for you.. okay.. later![0m
-
-                                                         [1;30m-tribal`gas founder[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

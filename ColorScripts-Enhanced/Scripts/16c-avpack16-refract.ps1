@@ -5,7 +5,7 @@
 # Source SHA-256: 51f4b75353e1bfc8723625ed84e18613b36eebc578a1e6088e2da0f6be2e7a5d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REFRACT.ANS by rorshack (Maiden Brazil); released in avpack16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: refraction bbs melbourne
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -26,14 +26,4 @@ Write-Host '
 [37m ░[0;36m ▀▀▀ [0;37m░[0;1;37;47m░░[0m▄          [36m█[0;1;37;46m▀[0;36m█ [0;37m▄▄   [0;1;37;47m░░[0;30;47m░[0;37;40m░[0;36;40m ▀▀▀▀▀▀▀▀  [0;37;40m▀█[0;1;37;47m░[0m▄▄▄[36m  ▀▀▀▀[0m   [36m▀▀▀▀▀▀▀     [0;37m▄▌[0;36m   [0;37m░▓[0m
 [37m [0;30;47m░░[0;37;40m██▄▄[0;30;47m░[0;1;37;47m░█▄▄▄▄    ░[0m█   ▄▄▐█[1;47m▄▄▄▄▓[0m█▄▄▄▄▄▄▄▄▄▄█[1;47m░[0m▌█[1;47m▐██▄[0m█▄▄▄▄▄▄██[1;47m▄▄▄[0m█▌▄▄▄▄██[1;47m▄▄▄▄[0m██[30;47m░░[0m
 [37;40m ███[0;1;37;47m░░▓▓██████████▓▄▄▄▄▄▄▄▄▄█████████▄▄▄▄███▓▄▄████████▄▄▄▄███▌▄▄▄████████▓▒░[0m██
- ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-
-                               [1;30m                                [0m  [1mrefraction bbs[0m
-[1;30m                    [0m                   [36m+61-(0)359-714723[0m     [36mmelbourneaustralia[0m
-           [1;30m              [0m  [36msysop[0;1;37mnutbutter[0;1;30m/[0;36mapocalypticvisions cosysop[0;1;37mstote[0;1;30m/[0;36mnoise[0m
-[37m        [0m
-[37m         [0;1;30m           [0m [1mav[0;36mmember[0;1;30m/[0;1;37mnoise[0;36mmember[0;1;30m/[0;1;37mmono[0;36maushq[0;1;30m/[0;1;37mmaidenbrazil[0;36maushq[0;1;30m/[0;1;37mdisc[0;36maushq[0m
-[37m        [0m   [1;30m             [0m [1mtoxickrystal[0;36mdist[0;1;30m/[0;1;37mphat[0;36mdist[0;1;30m/[0;1;37mexplizit[0;36mdist[0;1;30m/[0;1;37mblackmaiden[0;36mdist[0m
-        [36m  [0;37m  [0;1;30m                 [0m    [1mpsychicrelease[0;36mdist[0;1;30m/[0;1;37msynthetic[0;36mdist[0;1;30m/[0;1;37mpolyester[0;36mdist[0m
-[37m        [0m
-        [37m              [0;1;30m                              [0m    [36m art[0;1;30m/[0;36mtracking[0;1;30m/[0;36memulators[0m'
+ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 232ca21a71c58c4697d36abe8f17794b95f39ffdde8ef47eedcd5156d3ef8d65
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US!ICE.ANS by Pyx + Dystro (bmb + aif + twilight); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dystro + pyx - j0int!
 # SAUCE Author: pyx + dystro
 # SAUCE Group: bmb + aif + twilight
@@ -33,7 +33,4 @@ Write-Host '
 [34m   [0;36m▐[0;1;36;46m▓▄█▀[0;36m██████[0;1;36;46m▓░░[0;36m██[0;1;36;46m░[0;1;32;46m▄█▓▀[0;36m▌[0;1;30;46m▓▒░░[0;36m█[0;1;30;46m░[0;36m██[0;36;46m [0;1;36;46m▀[0;36m██[0;1;32;46m▄[0;36m██[0;1;32;46m▄██▀[0;36m▌▐██[0;1;32;46m▄[0;36m██████[0;1;36;46m▀▀█[0;36m█[0;1;36;46m░░[0;36m██[0;1;32;46m▀▓[0;36m██ [0;1;34;44m█[0;1;34;47m▓[0;1;34;44m██▓░[0m
 [1;34m    [0;36m█[0;1;36;46m▀█▄[0;1;36;40m▓[0;36m████[0;1;32;46m▄ ▄▄▓█▀▀[0;36m██▀ [0;36;46m [0;36;40m▓██[0;1;32;46m▄▄[0;36m█[0;1;32;46m▄██▓████▓▀[0;36m█▀ █[0;1;32;46m░░[0;36m█████[0;1;32;46m░░[0;36m████[0;1;32;46m▄▄▓███[0;36m█▌ [0;1;34;44m█[0;1;34;47m▓[0;1;34;44m██▌[0;34m▌[0m
      [36m▀▀█[0;1;36;46m▀▀▀[0;36m██▓██▀▀▀▀▀[0m     [36m▀▀▀▀████[0;1;32;46m▀▀[0;36m█▀▀▀▀   ▀████[0;1;32;46m▀██▄▓▄▄█▓█████▀[0;36m█▀ [0;1;34;44m▀▀▀██░[0m
-                                                [36m▀▀▀▀█[0;1;32;46m▀▀▀▀[0;36m███▀▀▀[0m       [34m▀▀▀[0m
-               [1;30m%% [0;1;32ma t[0;36mribute [0;1;32mt[0;36mo [0;1;32mi[0;36mce .. . [0;1;30m%%[0m
-
-     l[1;30mogo [0;32m+ [0;37mb[0;1;30mackground [0mb[1;30my [0mp[1;30myx[0m/b[1;30mmb [0m- s[1;30mhading [0;32m+ [0;37mc[0;1;30molour [0mb[1;30my [0md[1;30mystro[0m[a[1;30mif[0m/t[1;30mwilight[0m][0m'
+                                                [36m▀▀▀▀█[0;1;32;46m▀▀▀▀[0;36m███▀▀▀[0m       [34m▀▀▀[0m'

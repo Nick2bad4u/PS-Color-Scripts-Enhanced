@@ -5,7 +5,7 @@
 # Source SHA-256: 5909798489e7d8d0178b5dff9b1f087d3c9c3bd85c788f6ce1cffa493b635a2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-FLAT1.ANS by scrye (sense); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: flat scan promo
 # SAUCE Author: scrye
 # SAUCE Group: sense
@@ -56,6 +56,4 @@ Write-Host '
  [35m▐[0;37m [0;32m▐▄[0;37m [0;32m▄▀▀▀[0;35m▄[0;1;35;45m▄████▄[0;35m▄▄▄▄▄[0;1;35;45m▄▄[0;35m▄[0;37m [0;32m▀▀▀[0;35m▄▄■▀█[0;1;35;45m▄███▀▀[0;35m▀[0;37m ▐████[0;1;30;47m▀█[0;1;30;40m▄[0;33m▀[0;37m [0;1;30m▄[0m ▄▄▄████[1;30;47m▐█[0;1;30;40m▌[0m  [1;30min this area)[0m
    [35m [0;32m▄[0;35m  [0m     [35m▀[0;1;35m▀[0;1;35;45m▀▀████▓▓▀▀[0;1;35;40m▀[0;35m▀▀[0m       [35m▀▀▀▀[0m    [37m██████[0;1;30;47m▐██[0m░░ [31;47m░[0;37;41m▓[0;37;40m█[0;31;47m░[0;37;40m████[0;1;30;47m██[0m
   [35m [0m              [35m▀[0;1;35m▀▀[0;35m▀[0m        [32mS C [0;35ma[0;32m N[0m      [1;30m▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄▄[0m
-[1;30m-- Cut Here .. --------------------------------------------[Scrye@Hotmail.Com]--[0m
- [1;30mHere''s a 41-liner[0m [1;30mI whipped together for Acolyte. You may notice .. cough[0m [1;30m..[0m
-[1;30mthat I .. cough .. recycled[0m [1;30man old font .. cough .. :) Hope you like it, Acolyte[0m'
+[1;30m-- Cut Here .. --------------------------------------------[Scrye@Hotmail.Com]--[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 6c8f0e4a53d8f842ee9508b8ca9998c5bf6b84355de7d1ff5ec6d4a3ee3ca134
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: URG2.ANS by Urg (eg0); released in eg0 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -26,8 +26,8 @@ Write-Host '
                                   [32m▀█▄   [0;1;33m▀▀▀▀▀▀▀▀  [0;32m▄█▀[0m        [1;30m█▄▄▄█ █   █ █▄▄▄█[0m
              [1;30m_[0m                      [32m█▄   [0;1;33m▀▀▀▀▀▀  [0;32m▄█[0m
 [1;30m─ /<-R/\[> sY|E/\/\S-[0m                [32m▀█   [0;1;33m▀▀▀▀ [0;1;30mU [0;32m█[0m
-[32m [0;1;30m-k00l sysdude: Fliny[0m                 [32m█▄   [0;1;33m▀▀  [0;1;30mR[0;32m█▀    [0;1;30mS[0;5;31mpes[0;1;30mh[0;5;31muliz[0;1;30min''[0m
-[1;30m -trustee SiDEkiCk: Gourd Misty[0;32m▄▄▄▄    █▄   [0;1;33m▀  [0;1;30mG[0;32m█[0m             [1;30min[0m
+[32m [0;1;30m                    [0m                 [32m█▄   [0;1;33m▀▀  [0;1;30m [0;32m█▀    [0;1;30m [0;5;31m   [0;1;30m [0;5;31m    [0;1;30m   [0m
+[1;30m                               [0;32m▄▄▄▄    █▄   [0;1;33m▀  [0;1;30m [0;32m█[0m             [1;30m  [0m
            [1;30mU[0m           [32m▄▄█████████████▄ █[0;32;42m [0m    [32;42m [0;32;40m█▀[0m
             [1;30;40mR[0m        [32m█[0;32;42m     [0;32;40m▀▀▀▀▀███████ █[0;32;42m      [0;32;40m█ ▀█▄[0m
              [1;30;40mG[0m       [32m█[0;32;42m        [0;32;40m█▄▄▄▄  ▀▀ █[0;32;42m      [0;32;40m█  █▀[0m      [1;30;40m36[0;5;31m5[0;1;30m-[0;5;31m730 dAz[0;1;30mE [0;5;31m0l[0;1;30mD W[0;5;31mA[0;1;30mreZ[0m
@@ -37,10 +37,4 @@ Write-Host '
                   [32m▀████▄▄▄▄▄ ▀▀▀▀▀██████████████ ▄▄██▀    [0;1;30mSup[0;5;31mp0[0;1;30mrt[0;5;31mz 0Ver 10[0m
                      [32m▀▀██████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███[0m      [1;30mBiL[0;5;31mLi[0;1;30m0[0;5;31mN [0;1;30mANSi [0;5;31mGr0[0;1;30mu[0;5;31mpz[0m
 [5;31m [0;1;30mRuNniN''[0m                 [32m▀▀██████████████████████▀[0m
-[32m    [0;1;30mRadTeRM v.24,210[0m           [32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m            [1;30mK[0;5;31mΣW[0;1;30mL N0rTHE[0;5;31mrN Ce[0;1;30mn[0;5;31mt[0;1;30mRal[0m
-                                                          [1;30mA[0;5;31mppAL[0;1;30maCHi[0;5;31mN Mt[0;1;30m. [0;5;31mS0u[0;1;30mth[0m
-     [1;30mOver .00163 GiGs OffLiNE[0m                             [1;30moF [0;5;31mI-90 N0[0;1;30mrt[0;5;31mH [0;1;30mA[0;5;31mme[0;1;30mRicAN[0m
-                                                          [1;30mCon[0;5;31mTi[0;1;30mN[0;5;31men[0;1;30mTal U[0;5;31mSA HQ[0m
-     [1;30mRunnInG OfF ThE CarBurAtoR of a 1986 BuICk SkYlaRK[0m
-     [1;30mWiTH AlL Da TrImmINGS(IncludinG oNE JuMbO CleAR ScOtCH TaPe BacKuP)[0m
-'
+[32m    [0;1;30mRadTeRM v.24,210[0m           [32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m            [1;30mK[0;5;31mΣW[0;1;30mL N0rTHE[0;5;31mrN Ce[0;1;30mn[0;5;31mt[0;1;30mRal[0m'

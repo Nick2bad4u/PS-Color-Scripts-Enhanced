@@ -5,7 +5,7 @@
 # Source SHA-256: 13308475afb93c5225cd4ab5e243c065dfbd0e33b08c98061ffa2073c1241a86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-LP.ANS by Shrimp (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lost Paradize
 # SAUCE Author: Shrimp
 # SAUCE Group: AWE Lettering
@@ -36,8 +36,6 @@ shrimp[1mawe[0m                           [35m [0m                         
       [36m░[0m   [35m▀▓[0m   [36m▌[0;37m [0;1;36;46m▓[0m  [36m▐[0;37m [0;35m█[0;1;35;45m▄▀[0;35m▄[0;37m [0;35m [0;37m [0;35m▄[0;33m [0;37m [0;36m░[0m    [36m▀[0;1;36m▌[0m  [35m▄[0;37m [0;35m▀[0;37m  [0;35m░[0;37m [0;35m▀[0;1;35;45m░[0;35m▓░[0m    [35m▌▀▓[0;1;35;45m▒[0;35m▄[0m
                 [35m [0;1;36m▐[0;35m [0m   [35m▀[0m    [35m▄[0;1;35;45m▄▓░[0m       [36m▌[0m           [35m░[0m     [35m▌[0;37m [0;35m░[0;37m [0;35m▀▀▌[0m
                   [35m [0m     [35m▄▄▓▀▀▀[0m
-                       [35m [0m          [36mLost Paradize[0;37m [0;1;36m+o[0;36mDying Soul[0m
+                       [35m [0m          [36m             [0;37m [0;1;36m  [0;36m          [0m
 
-[1;30m---snip---[0m
-
-This is for Dying Soul, and I can''t say I don''t like it.[0m'
+[1;30m---snip---[0m'

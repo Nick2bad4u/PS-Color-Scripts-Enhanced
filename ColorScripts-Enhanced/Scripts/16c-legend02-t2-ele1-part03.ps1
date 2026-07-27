@@ -5,7 +5,7 @@
 # Source SHA-256: dad5d0f69ce1b1f977f97c2c7d748bc7b4fc0100da759d6450440d7adbd4ec84
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-ELE1.ANS by Terminator2 (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eleuthoria
 # SAUCE Author: Terminator2
 # SAUCE Group: Legend
@@ -32,7 +32,7 @@ Write-Host '
 [32m▌[0;36m▐▄ [0;32m▄▄[0;1;32;42m░[0;32m▀▄ [0;36m▄▄▄▄ [0;32m▄▀[0;1;32;42m░[0;32m▄▄  ▀▀▓▄▀ [0;33m███[0;1;31;43m ▓█[0;1;31;40m██████████[0;1;31;47m█[0;1;31;40m [0;1;31;43m██▓[0;1;31;40m▀███████[0;1;31;43m▓[0;1;31;40m [0;1;36;40m█▓[0;1;36;46m▓▄▄▄▀▓▄▄▓[0;36m████[0;1;36;46m▄▄▄█[0;1;36;40m█[0m
 [32m▀ [0;36m▀▄ [0;32m▀▀ [0;1;30m▄ [0;36m▀▀▓▀   [0;32m▀▀  [0;36m▀▀[0m      [33m█▀▀[0;1;31m [0;1;30m▄ [0;1;31m▀▀▀▀▀▀▀█▀▀ ▀▀▀▀ [0;1;30m▄ [0;1;31m▀▀▀▀▌ [0;1;36m▀▀▀▀[0;36m [0;1;36m▀▀▀▀▀▀▀▀▀▀▀[0;36m [0;1;30m▄[0;1;36m ▀[0m
 [1;30m▓▀   ▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀[0m
-[1;30m▄ [0;1;37mfairchild [0mAND the [1mfrog [0mare [1mtrademarks [0mof [1mwildstorm [0mand [1mimage [0mcomics (c) ''95
+[1;30m▄ [0;1;37m          [0m        [1m     [0m    [1m           [0m   [1m          [0m    [1m      [0m              
 [1;30m▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▓[0m
 [1;30m█ [0m   [1;30m▀[0m  [1;30m░[0m [1;30m   ▓▀[0m [36m▄▄▄[0m                  [1;30m▀[0m   [1;30m▀▀█[0m [1;30m▄[0m [1;30m▀[0m    [36m▄▄▄▄▄▄[0;37m [0;1;30m ▀▀▀▀▓[0;1;30;47m▓▓[0;1;30;40m▄  ▀█▄[0m  [1;30m  █▀[0m
 [1;30m▀ [0m   [1;30m▄[0m  [1;30m░[0m  [1;30m■▀[0m  [36m▀[0;1;36;46m▒[0;36m▀ ▀■[0m      [36m▄■ ▀▀ ▀▀▀▀▄▄▄[0m   [1;30m▓▀[0m  [36m▄▄▀▀▀▀[0m     [36m▀▀▀▄▄[0;37m  [0;1;30m░▀▀█▓▄█[0m    [1;30m █[0m
@@ -54,8 +54,8 @@ Write-Host '
 [1;30m █▄▀[0m          [36m▐▌ [0;1;36;46m░[0;36m  ▒ ▄[0;1;36;46m▒[0;36m ▀[0;1;36;46m▀▀[0;1;36;47m▓[0;1;36;46m▓█▓▒░░[0;36m▀ ▄ ▓ ▀[0;30;46mt2![0;36;40m▄▀▀▓ ▄[0m      [1;36;46m░[0;36m▄▀[0m           [1;30m▀■[0m    [1;30m█[0m
 [1;30m █▌[0m     [36m▄■[0m     [36m▀▄[0;1;36;46m░[0;36m  ░  ▀▀   ▀▀▀▀▀▓   [0;1;36;46m░[0;36m ▓▄▀▀[0m            [36m■▀[0;1;36;46m▒[0m                  [1;30m▄█[0m
 [1;30m▀█▀▀▀▀▀   ▀▀▀▀▀  [0;1;36;46m░[0;36m▀■░ [0;1;30m▀▀▀▀▀▀▀▀▀▀   ▀ [0;36m▄ ▒  [0;1;30m▀▀▀▀▀▀▀▀▀ [0;36m▄■ [0;1;30m▀ [0;1;36;46m▓[0;36m▌ [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀[0m
-[1;30m █  [0meleuthoria . [1;36;46m░[0;36m  ░  ▄ [0;37mlocated som [0;36m▀ ░ [0;37me where within [0;36m▐[0;1;36;46m▓▌[0;36m [0;37mthe [616] area!  [0;1;30m█[0m
-[1;30m █ [0msysop: soul r [1;36;46m░[0;36m [0;37mebel . bunch of a [0;36m▄ ░ [0;37mffils & lots of [0;36m▀ [0;37msingle hamsters:) [0;1;30m█▌[0m
+[1;30m █  [0m             [1;36;46m░[0;36m  ░  ▄ [0;37m            [0;36m▀ ░ [0;37m               [0;36m▐[0;1;36;46m▓▌[0;36m [0;37m                 [0;1;30m█[0m
+[1;30m █ [0m              [1;36;46m░[0;36m [0;37m                  [0;36m▄ ░ [0;37m                [0;36m▀ [0;37m                  [0;1;30m█▌[0m
 [1;30m▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓ [0;1;36;46m▒[0;36m [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;36m░ [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▀▀[0m
 [1;30m ▀[0m               [1;36;46m▒[0m                                                        [1;30m▀▓[0m
                 [36m▐[0;1;36;46m▓[0;36m▌[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: ce83c9014aaff8b166700c38b8d49829c352a2b90731acc93127e73c70e81167
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-TSD03.ANS by Drakula (tsd-2); released in tsd-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -56,5 +56,4 @@ Write-Host '
      [1;31m▄▄▄▄▄▄[0;31m▄▄▄▄▄▄▄[0;1;31;41m▄▄▄          ▐           ▄▀▀▀         ▄▄     ▄▄▄    [0;31m▄▄▄▄▄▄[0m
 [1;31m▄▄[0;1;31;41m               ▀■░         ··■■··     ▄                 ▀▀▄     ▀▀■   ▀■·    [0;1;31;40m▄[0m
 [1;31;40m ▀▀▀▀▀[0;1;31;41m         ░   ▄▄▄                   ▀▀▄▄▄▄▄▄       ·■·■··       ·· · [0;1;31;40m█▀▀▀▀[0m
-                                     [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31m▀▀▀▀▀[0m
-'
+                                     [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31m▀▀▀▀▀[0m'

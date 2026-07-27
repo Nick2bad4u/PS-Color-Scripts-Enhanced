@@ -5,7 +5,7 @@
 # Source SHA-256: e6e6c3d27a3e6d1fa9a8d3e17cba792842aa91124fbbd85bc6d239acce7af0f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-SHSYS.ANS by raiser; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SHADOW SYSTEM 1ST.
 # SAUCE Author: RAiSER
 # SAUCE Group: SAC
@@ -49,16 +49,16 @@ Write-Host '
 [1;30;40m▓▒░░░░░ ░░░░  ░░[0;1;37;40m [0;1;30;40m  ░[0;1;37;40m [0;1;30;40m░[0m                           [1;30;40m░░[0m      [1;30;40m░░ ░ ░░░░░░ ░░░░▒▒▓▓▓█[0m
 [1;30;40m▓▒░░░░  ░[0m   [1;37;40m                                                      [0m    [1;30;40m░░░░░▒▒▓▓[0m
 [1;30;40m▒░░[0m   [1;30;40m  [0m    [1;37;40m            [0m     [1;30;40m·[0m [1;34;40mS[0;34mYS[0;1;30mOP:[0;34m [0;1;30mMR.MiXX[0;1;37m [0;1;30m·[0m [34m [0m             [1;37m  [0m        [1;30m░░░░░▒▓[0m
-[1;30m░░[0m [1;30m [0m [1;30m   [0m     [1;37m              [0;1;30m·[0m [1;34mC[0;34mOS[0;1;30mYSOP:[0;34m [0;1;30m FiREBiRD[0m [1;30m·[0m [1;37m               [0m          [1;30m░░░▒[0m
+[1;30m░░[0m [1;30m [0m [1;30m   [0m     [1;37m              [0;1;30m [0m [1;34m [0;34m  [0;1;30m     [0;34m [0;1;30m         [0m [1;30m [0m [1;37m               [0m          [1;30m░░░▒[0m
 [1;30m░[0;1;37m                   [0;1;30m   [0;1;37m [0m                                       [1;37m [0m             [1;30m░░[0m
-[1;30m  [0m [1;30m [0m   [1;30m [0m  [1;30m    [0m [1;37m [0;1;34m5[0;1;30m [0;34mN[0;1;30mODES ·[0;1;37m [0;1;30m1½ GIG HD[0;1;37m [0;1;30m· 0 DAY FUCKED UP WAREZ[0;1;37m [0;1;30m·[0;1;37m                 [0m
+[1;30m  [0m [1;30m [0m   [1;30m [0m  [1;30m    [0m [1;37m [0;1;34m [0;1;30m [0;34m [0;1;30m      [0;1;37m [0;1;30m         [0;1;37m [0;1;30m                       [0;1;37m [0;1;30m [0;1;37m                 [0m
 [1;30m░[0m    [1;30m  [0m  [1;30m [0m [1;30m [0m [1;37m       [0m                                   [1;37m           [0m            [1;30m░[0m
-                         [1;30m·[0m [1;34mI[0;34mNV[0;1;30mITED ONLY · NO NUP![0m [1;30m·[0m
+                         [1;30m [0m [1;34m [0;34m  [0;1;30m                   [0m [1;30m [0m
 
-[1;30m      [0m   [1;30m·[0m [1;34mC[0;34mYB[0;1;30mRIX EUROPEAN HEADQUARTER[0m [1;30m· STORM EUROPEAN HEADQUARTER[0m [1;30m·[0m
-[1;30m  · [0;1;34mL[0;34mKC[0;1;30mC[0m [1;30mEUROPEAN HEADQUARTER ·[0m [1;30mPOLICE[0m [1;30mGERMAN HEADQUARTER ·[0m [1;30mTOaO DIST SIDE ·   [0m
+[1;30m      [0m   [1;30m [0m [1;34m [0;34m  [0;1;30m                        [0m [1;30m                            [0m [1;30m [0m
+[1;30m    [0;1;34m [0;34m  [0;1;30m [0m [1;30m                      [0m [1;30m      [0m [1;30m                    [0m [1;30m                   [0m
 
 
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀[1;30m▀[0m▀▀▀▀▀▀▀▀▀▀▀[1m▀▀[0m▀[1m▀▀▀▀▀▀▀ ▀▀[0m [1m▀[0m          [1m [0m              [1;30m [0m
-[1;30m ·[0m [1;30mANSi BY RAiSER OF [0m·[1mSA[0mC·[1;30m PRODUCTiON   GREETS: ROY, HETERO, KAETHE, MR.MiXX[0m [1;30m·[0m
+[1;30m  [0m [1;30m                  [0m [1m  [0m  [1;30m                                                  [0m [1;30m [0m
                           [1m▄[0m [1m▄▄[0m [1m▄▄▄▄▄▄▄[0m▄[1m▄▄[0m▄▄▄▄▄▄▄▄▄▄▄[1;30m▄[0m▄▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

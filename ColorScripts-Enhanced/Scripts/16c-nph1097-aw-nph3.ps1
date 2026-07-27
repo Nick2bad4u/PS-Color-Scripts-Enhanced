@@ -5,7 +5,7 @@
 # Source SHA-256: 67bed2b5db486df16130228e62acfcab640cbb773d669f1728893e8ce34535ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AW-NPH3.ANS by araWn (nitrophusion); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nph logo 3 i think
 # SAUCE Author: araWn
 # SAUCE Group: nitrophusion
@@ -31,7 +31,7 @@ Write-Host '
 [34m              [0;1;30m█████[0;34m [0;1;33;44m▐[0;1;33;43m▓█[0;34m▌[0;1;30m [0;34m▐[0;1;33;43m█░[0;1;33;44m▌[0m [1;33;44m▐[0;1;33;43m█▓[0;33m▌[0;37m [0;34m▐[0;1;33;43m██[0;1;33;44m▌[0m [1;33;43m▐▓█[0;34m▌[0;37m [0;34m▐[0;1;33;43m▒█▌[0m [1;30m█████[0m
 [1;30mso da colors[0;34m  [0;1;30m█████[0;34m [0;1;33;44m▐[0;1;33;43m██[0;33m▌[0;1;30m [0;34m▐[0;1;33;43m▓█[0;1;33;44m▌[0m [1;33;44m▐[0;1;33;43m░█[0;1;33;41m▓[0;1;33;40m▄█[0;1;33;43m█▒[0;33m▀[0;37m [0;1;33;43m▐▒█[0;34m▌[0;1;33m▄[0;34m▐[0;1;33;43m█▓▌[0m [1;30m█████[0m
 [1;30mdont match wo[0;34m [0;1;30m█████[0;34m [0;1;33;44m▐[0;1;33;43m▓█[0;33m▌[0;1;30m [0;33m▐[0;1;33;43m██[0;1;33;44m▌[0m [1;33;44m▐[0;1;33;43m██[0;33m▌[0;37m  [0;1;33m  [0;1;30m▄[0m [1;33;43m▐██[0;33m▌[0;37m [0;34m▐[0;1;33;43m██▌[0m [1;30m█████[0m
-[1;30mrth a fuck...[0;34m [0;1;30m█████[0;34m [0;1;33;44m▐[0;1;33;43m██[0;33m▌[0;1;30m [0;33m▐[0;1;33;43m██[0;1;33;44m▌[0m [1;33;44m▐[0;1;33;43m██[0;33m▌[0;37m [0;1;30m████[0m [1;33;43m▐█░[0;33m▌[0;37m [0;34m▐[0;1;33;43m██▌[0m [1;30m█████[0m
+[1;30m             [0;34m [0;1;30m█████[0;34m [0;1;33;44m▐[0;1;33;43m██[0;33m▌[0;1;30m [0;33m▐[0;1;33;43m██[0;1;33;44m▌[0m [1;33;44m▐[0;1;33;43m██[0;33m▌[0;37m [0;1;30m████[0m [1;33;43m▐█░[0;33m▌[0;37m [0;34m▐[0;1;33;43m██▌[0m [1;30m█████[0m
 [1;30msue meφtis re[0;34m [0;1;30m█████[0;34m [0;1;33;43m▐▓[0;1;33;47m▒[0;33m▌[0;1;30m [0;33m▐[0;1;33;43m█▓[0;1;33;44m▌[0m [1;33;44m▐[0;1;33;43m▒▓[0;33m▌[0;37m [0;1;30m████[0m [1;33;43m▐█▓[0;33m▌[0;37m [0;33m▐[0;1;33;43m▓█▌[0m [1;30m█████[0m
 [1;30madable but if[0;34m [0;1;30m█████[0;34m [0;1;33;43m▐▓▓[0;33m▌[0;1;30m [0;33m▐[0;1;33;43m██[0;1;33;44m▌[0m [1;33;43m▐▓▒[0;33m▌[0;37m [0;1;30m████[0m [1;33;43m▐▓▓[0;33m▌[0;37m [0;33m▐[0;1;33;43m▓▓▌[0m [1;30m█████[0m
 [1;30mucntφsays nph[0;34m [0;1;30m█████[0;34m [0;1;33;43m▐▓▓[0;33m▌[0;1;30m [0;33m▐[0;1;33;43m█▓▌[0m [1;33;43m▐▓▓[0;33m▌[0;1;30m ████[0m [1;33;43m▐▓▒[0;33m▌[0;37m [0;33m▐[0;1;33;43m▒▓▌[0m [1;30m█████[0m

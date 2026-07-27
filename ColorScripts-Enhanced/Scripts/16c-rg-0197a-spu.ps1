@@ -5,7 +5,7 @@
 # Source SHA-256: fb38baf7910964773ca8ca0325104e3d15580eb9f0cd17423b64f12eef8fe304
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPU.ANS by Trasher1 (rg-0197a); released in rg-0197a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -30,5 +30,5 @@ Write-Host '
     [35m▐[0;1;35;45m█[0;35m▌[0;32m▄[0;1;32;42m▄█▓▒▒▓█▀[0;32m▀▀▀[0;37m [0;1;35;45m ▄▄[0;35m▄ [0;32m▀▀[0;1;32;42m▀█▄▄▄███▀[0;32m▀[0;35m■[0;32m▄[0;1;32;42m▄█▀[0;32m▀[0;35m▐[0;1;35;45m▄█████[0;35m▌[0;32m▄[0;1;32;42m▄[0;1;32;46m▓[0;32m▀[0;1;35m▐▀[0;32m▄[0;1;32;42m▐▓▒▀[0;32m▀[0;1;35;45m▐███▄[0;35m▄ [0;32m▀[0;1;32;42m▀█▄[0;32m▄[0;35m▐[0;1;35;45m█▌[0;35m [0m
      [1;35;45m▐[0;35m▄[0;37m [0;1;32m▓[0;1;32;42m▓▒▒▓▀[0;32m▀▀[0;35m▐▄[0;1;35;45m▄█████[0;1;35;40m░[0;1;35;45m█▄▄[0;35m▄[0;32m▀▀▀▀▀[0;35m▄▄▌[0;1;32;42m▒▓[0;1;32;40m▀[0;32m▀[0;37m [0;35m▄[0;1;35;45m▄███▀[0;35m▀ [0;32m▄[0;1;32;42m▄█[0;1;32;40m▀[0;35m▐[0;1;35;45m█[0;35m▌[0;1;32m▓[0;1;32;42m▓▒▓[0;32m▀[0;35m▐[0;1;35;45m▄█████▄[0;35m▄[0;37m [0;32m▀[0;1;32;42m▀█[0;32m▄[0;1;35;45m▀[0;35m█ [0m
       [35m▄[0;37m [0;35m▄[0;37m [0;35ma[0;1;35mn[0;1;37ms[0;35mI[0;1;35m [0;35mb[0;1;37my[0;35m  ▄ ▄ ▀[0;1;35;45m▀[0;35m▀[0;37m [0;1;35;45m▀▀▀[0;35m▀▀▀ ▄[0;37m [0;35m▄[0m      [35m▄[0;37m [0;35m▀ ▄[0m      [35m▄[0;37m [0;35m▄[0;37m [0;32m [0m     [35m▄ [0;1;35;45m▀[0;35m ▄ [0m     [35m▄ ▄[0m
-     [35m  [0;1;35m [0m [[35mt[0;1;37mr[0;35mA[0;1;35msh[0;35mE[0;1;35mr[0;1;37m1[0m][35m               [0m
+     [35m  [0;1;35m [0m  [35m [0;1;37m [0;35m [0;1;35m  [0;35m [0;1;35m [0;1;37m [0m [35m               [0m
               [1;37m [0m          [1;35m      [0m   [1;35m,,,,<> Crize[0m [1;35m<>,,,,[0m'

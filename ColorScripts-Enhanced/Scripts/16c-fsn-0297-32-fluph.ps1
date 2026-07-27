@@ -5,7 +5,7 @@
 # Source SHA-256: 5589f4ec4b4a6f384d00e79b5db30491217408eba26c21028e95d59594fa0f83
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 32-FLUPH.ANS by ezy (fusion\fluid); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: . .fluph. .
 # SAUCE Author: ezy
 # SAUCE Group: fusion\fluid
@@ -32,8 +32,4 @@ Write-Host '
          [36m▄[0;1;36m▄▄█[0m [1;32m████[0m [32m▄[0;1;32m▄[0;1;32;42m▄[0;1;32;40m██[0;1;36;40m█[0;1;32;40m████[0;1;32;42m▀[0;1;32;40m▀[0;32m▀[0;37m [0;36m▄[0;1;36;46m▄[0;1;36;40m████[0;1;32;46m████[0;1;36;40m██[0;1;32;46m█[0;1;36;40m████[0m [1;42m▓▓██[0m  ▄[1m▄▄[0;1;47m▄[0;1;42m███[0;1;47m▀[0m▀ [36m▄[0;1;36;46m▄[0;1;36;40m██[0;1;37;40m█[0;1;36;40m████[0m
          [1;36;46m [0;1;36;40m███[0m [1;32;42m█▓▓██[0;1;32;40m█████[0;1;32;42m▀[0;1;32;40m▀[0;32m▀[0;37m [0;36m▄[0;1;36m▄▄[0;1;36;46m▄[0;1;36;40m████[0;1;36;46m▓[0;1;36;40m███████████[0;1;37;40m█[0;1;36;40m█[0m [1;42m▓█████████[0;1;47m▀[0;1;40m▀[0m▀ [36m▄[0;1;36;46m▄[0;1;36;40m████[0;1;37;40m██[0;1;36;40m██[0;1;36;46m▓[0m
               [1;32;42m███▀[0;1;32;40m▀▀▀[0;32m▀[0;37m             [0m                [1;37;42m█[0;1;37;40m█[0;1;36;40m█[0;1;37;42m█[0;1;37;40m▀▀▀▀[0m▀   [1;36m32[0m     [1;36m  [0m
-                            [1;36m.[0m [1;36m.f [0;1;32ml[0;1;36m u p h.[0m [1;36m.[0m        [1m▀▀▀▀[0m
-
-damn me!, ize you should really kill me or like what!?@#%
-i''m trying to work on my own style, but it always turning up like, lookalike
-ize style. wella what can i say? .. kill me ize :).[0m'
+                            [1;36m.[0m [1;36m.f [0;1;32ml[0;1;36m u p h.[0m [1;36m.[0m        [1m▀▀▀▀[0m'

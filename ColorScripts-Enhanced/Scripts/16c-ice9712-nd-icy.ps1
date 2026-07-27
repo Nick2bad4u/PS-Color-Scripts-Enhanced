@@ -5,7 +5,7 @@
 # Source SHA-256: 51101f26102ee8c981bd510f9ab8897b43fa6064ce6061b4d2444b70c2d0de44
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ND-ICY.ICE by noOdles (iCe); released in ice9712 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ICE
 # SAUCE Author: noOdles
 # SAUCE Group: iCe
@@ -38,13 +38,4 @@ Write-Host '
                          [1m▀[0m [1;36m▄[0;36m  [0;1;37m▄▄▄[0;1;36m▄▄[0;36m▄▄▄▄▄▄[0;37m  [0;1;37m▀▀[0;1;36m▀▀[0;36m▀[0m
 
                                            [1;30m [0m
-[1;30m--------------------------------<cut>-------------------------------------------[0m
-
-[1;30mhey everybody.. i''m back.. well sort of.. this is my first ansi for a very long [0m
-[1;30mtime.. i think my last release was back in late 96/early 97, almost a year ago  [0m
-[1;30manyway i''d just like to wish everyone in the scene the best in the new year and [0m
-[1;30mhopefully there''ll be more great work produced by ice for people out there to [0m
-[1;30msee.. well that''s about it.. you can contact me at mr_wolfe79@hotmail.com or[0m
-[1;30msojuman@geocities.com.. greetz: to anyone who knows me or remembers me.. :)     [0m
-[1;30mi''m out 4 now..   [0m
-                                                              [1;30m- noOdles 98[0m'
+[1;30m--------------------------------<cut>-------------------------------------------[0m'

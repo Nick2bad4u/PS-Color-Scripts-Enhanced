@@ -5,7 +5,7 @@
 # Source SHA-256: 63ee92948be381a1e5c6bc747e08b179f2ceb504c068fd66e1e70929558edc71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-ELIX1.ANS by chromatik (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: elixir!
 # SAUCE Author: chromatik
 # SAUCE Group: Blade Productions
@@ -36,6 +36,4 @@ Write-Host '
              [35m▄▀▀[0;32;45m▒[0;35;40m▄[0m    [37;40me l i x i [0;1;37;40mr [0;33m.[0;1;35m [0;33m.[0;1;35m [0;33m.[0;1;35m [0m? !         [35m▀▀[0m [35m■[0m
            [35m■[0m      [35m▀[0m [37m  [0;33m.[0;37m [0;33m.[0;37m [0;33m.[0;37m [0;1;35ms[0m [35mo[0;37m [0;35mc[0;37m [0;35mi[0;37m [0;35mo[0;37m [0;35mp[0;37m [0;35ma[0;37m [0;35mt[0;37m [0;35mh[0;37m [0;33m+ [0;1;35mm[0m [35ma[0;37m [0;35me[0;37m [0;35ms[0;37m [0;35mt[0;37m [0;35mr[0;37m [0;35mo[0;37m [0;33m![0;37m [0m
                       [33m. . . [0;1;35ma [0;35mr t [0;33m! [0;1;35mh [0;35m/ p [0;33m! [0;1;35mm[0;35m e s s a g e s [0;33m![0m
-                      [37m1 [0;1;37m^[0m 4 1 [1m3[0m [1m^[0m 7 8 [1m2[0m [1m^[0m 1 8 5 [1m1[0m [33m. . .[0;37m ? ! [0m
-
-                   [1;30m.original.ansi.by.chromatik.blade.1995.[0m'
+                      [37m1 [0;1;37m^[0m 4 1 [1m3[0m [1m^[0m 7 8 [1m2[0m [1m^[0m 1 8 5 [1m1[0m [33m. . .[0;37m ? ! [0m'

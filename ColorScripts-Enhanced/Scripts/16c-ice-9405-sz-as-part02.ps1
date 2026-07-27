@@ -5,7 +5,7 @@
 # Source SHA-256: f7618ac5f79622bda28ac768f89a68bd9c78c4ed5c3b7e4fa6ab5b267a2df8d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-AS.ICE by Soul Blazer (iCE); released in ice-9405 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: TT is gay
 # SAUCE Author: Soul Blazer
 # SAUCE Group: iCE
@@ -49,14 +49,14 @@ Write-Host '
 [1;30m  █[0m                 [1;30;47m░[0;1;30;40m▓   [0;1;37;40m▀[0m                    [1;30;47m░[0;1;30;40m▓   [0;1;37;40m▀[0m                         [1;30;40m█[0m
 [1;30;40m  █[0m                 [1;37;47m▄[0;1;37;40m▀[0m                        [1;37;47m▄[0;1;37;40m▀[0m                             [1;30;40m█[0m
 [1;30;40m  █[0m                                                                          [1;30;40m█[0m
-[1;30;40m  █  [0m∙ i[1mCN [0;1;34mWorld Headquarters [0m∙ [1mCORE [0;1;34mMember Board [0m∙ [1mCORROS[0mi[1mON [0;1;34mDistro Site [0m∙  [1;30m▀[0m
-             ∙ [1mVGANS[0mi [1;34mWorld Headquarters [0m∙ X[1menoc[0mi[1mde [0;1;34mDistro Site [0m∙            [1;30m▄[0m
-[1;30m  ▄[0m      ∙ [1mCORP [0;1;34mDistro Site [0m∙ [1mR[0mi[1mtual [0;1;34mDist Site [0m∙ i[1mR[0mi[1mD[0mi[1mUM [0;1;34mDistro Site [0m∙       [1;30m▀[0m
-          ∙ [1mHEAT [0;1;34mDistro  Site [0m∙ i[1mNF[0mi[1mN[0mi[1mTY [0;1;34mMag Site [0m∙ [1mBAD [0;1;34mDistro Site [0m∙
-          ∙ [1mLANCELOT [0m][ [1;34mMag Distro Site [0m∙ [1mBEERWARE [0;1;34mUtils Alpha Site [0m∙        [1;30m▀[0m
-               ∙ [1;34mSpecializing in Art ''n H/P/A [0m∙ [1mDEMENT[0mi[1mA[0mnet [1;34mHub [0m∙
-               ∙ [1mHYPER[0mnet [1;34mHub [0m∙ [1mPHALCON [0;1;34mSkism Net [0m∙ [1mVAL[0mi[1mANT [0;1;34mNet [0m∙            [1;30m▀[0m
-                           ∙ [1mMarshal Law [0;1;34mContact HQ [0m∙                        [1;30m█[0m
+[1;30;40m  █  [0m   [1m   [0;1;34m                   [0m  [1m     [0;1;34m             [0m  [1m      [0m [1m   [0;1;34m            [0m   [1;30m▀[0m
+               [1m     [0m  [1;34m                   [0m   [1m    [0m [1m   [0;1;34m            [0m             [1;30m▄[0m
+[1;30m  ▄[0m        [1m     [0;1;34m            [0m  [1m [0m [1m     [0;1;34m          [0m   [1m [0m [1m [0m [1m   [0;1;34m            [0m        [1;30m▀[0m
+            [1m     [0;1;34m             [0m   [1m  [0m [1m [0m [1m   [0;1;34m         [0m  [1m    [0;1;34m            [0m 
+            [1m         [0m   [1;34m                [0m  [1m         [0;1;34m                 [0m         [1;30m▀[0m
+                 [1;34m                             [0m  [1m      [0m [1m [0m    [1;34m    [0m 
+                 [1m     [0m    [1;34m    [0m  [1m        [0;1;34m          [0m  [1m   [0m [1m    [0;1;34m    [0m             [1;30m▀[0m
+                             [1m            [0;1;34m           [0m                         [1;30m█[0m
       [1;34m▀▄[0;34m▄ [0;1;34m▄[0;34m▄[0;1;34m▀  ▄[0;34m▄[0;1;34m▀[0m                                                          [1;30m██[0m
 [1;34m▀▄[0;34m▄  [0;1;34m▄[0;34m▄▄██▀███▀█▄ [0;1;34m▄[0;34m▄[0;1;34m▀   ▄▀[0m                               [1;30m▄[0m                [1;30m▄▀▀██[0m
 [34m░▄[0;1;34m▀[0;1;34;44m▄[0;34m█▄███ [0;1;31;41m▓[0;31m▄[0;34m▀[0;1;31m▄[0;1;31;41m▀[0m [34m████▄▄[0;1;34;44m▀[0;34m▀  ░[0m                             [1;30m▄▄▀▀▄▄▄  ▄▄[0m        [1;30m▀█▄▄▀[0m

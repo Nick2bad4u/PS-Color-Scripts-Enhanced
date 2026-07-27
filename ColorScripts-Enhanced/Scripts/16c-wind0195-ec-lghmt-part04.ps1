@@ -5,7 +5,7 @@
 # Source SHA-256: fbac6c8eebd646f4937279a02fecc28a0a5c1f314ff9c81a0923fbd74612be50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EC-LGHMT.ANS by Eternal Chaos (WiND `95); released in wind0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Laughter Meditation
 # SAUCE Author: Eternal Chaos
 # SAUCE Group: WiND `95
@@ -36,27 +36,27 @@ Write-Host '
 [1;30m▒[0m [1;30m▒[0m                      [1;30m  [0m [1;30m [0m                                                [1;30m▒[0m
 [1;30m▓[0m [1;30m▓ ▄▄▄[0m [1;30m▄▄[0m [1;30m▄[0m [1;30m▄[0m                                                     [1;30m▄[0m [1;30m▄[0m [1;30m▄▄[0m [1;30m▄▄▄▓[0m
 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-[1;33;43m▒   [0;30;43m    okay... here''s laughter''s phat stats and all the affils and dat[0;1;33;43m       [0;30;43m [0;1;33;43m▒[0m
+[1;33;43m▒   [0;30;43m                                                                   [0;1;33;43m       [0;30;43m [0;1;33;43m▒[0m
 [1;33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
 
   [1;30;40m [0m                            [1;33;40m#[0;33m:[0;1;30m [0m1[1;30m-[0;1;37m803[0;1;30m-[0;1;37m539[0;1;30m-[0;1;37m500[0m8
-  [1;30m [0m                     [33mR[0;1;33mu[0mn[1mning Latest Renegade at 1[0m4[1;33m.[0;33m4 [0m
+  [1;30m [0m                     [33m [0;1;33m [0m [1m                         [0m [1;33m [0;33m  [0m
   [1;30m [0m
-  [1;30m [0m    [33mS[0;1;33my[0ms[1mOp: Liquid Motion[0;1;30m [0;1;37m[Rel[0mi[1;33mc[0;33m][0m   [1;30m.·■·.[0m [1;30m  [0m [33mF[0;1;33me[0ma[1mturing megs and meg[0ms[1m [0;1;33mo[0;33mf[0m
-  [1;30m [0m  [33mC[0;1;33mo[0mS[1mysOp:[0;1;30m [0;1;37mNivenh[0;1;30m [0;1;37m[Shiv[0me[1;33mr[0;33m][0m        [1;30m ·.■·.    [0m  [33ma[0;1;33mr[0mt[1m, demos, and m[0ma[1;33mg[0;33ms[0m
+  [1;30m [0m    [33m [0;1;33m [0m [1m                 [0;1;30m [0;1;37m    [0m [1;33m [0;33m [0m   [1;30m  ■  [0m [1;30m  [0m [33m [0;1;33m [0m [1m                   [0m [1m [0;1;33m [0;33m [0m
+  [1;30m [0m  [33m [0;1;33m [0m [1m     [0;1;30m [0;1;37m      [0;1;30m [0;1;37m     [0m [1;33m [0;33m [0m        [1;30m   ■      [0m  [33m [0;1;33m [0m [1m              [0m [1;33m [0;33m [0m
   [1;30m [0m                            [1;30m   [0m
-  [1;30m [0m             [33mR[0;1;33me[0ml[1mic Member Bo[0ma[1;33mr[0;33md[0m    [1;30m.·■.·[0m  [1;30m [0m  [33mN[0;1;33mo[0;1;30m "[0;1;37mWaReZ[0;1;30m" [0;1;37mor K/RÆ[0mD[1;33mS[0;33m![0m
-  [1;30m [0m           [33mS[0;1;33mh[0mi[1mver Member Boa[0mr[1;33md[0;33m![0m    [1;30m∙.■.∙[0m   [1;30m [0m [33mN[0;1;33mo[0;1;37m [0mN[1mUP, or NUV Vot[0mi[1;33mn[0;33mg[0m
-  [1;30m [0m       [33mC[0;1;33mo[0mr[1mruption Member Boa[0mr[1;33md[0;33m![0m    [1;30m.·■.·[0m   [33mA[0;1;33mr[0mt[1mists Strongly Welco[0mm[1;33me[0;33md[0m
+  [1;30m [0m             [33m [0;1;33m [0m [1m            [0m [1;33m [0;33m [0m    [1;30m  ■  [0m  [1;30m [0m  [33m [0;1;33m [0;1;30m  [0;1;37m     [0;1;30m  [0;1;37m       [0m [1;33m [0;33m [0m
+  [1;30m [0m           [33m [0;1;33m [0m [1m              [0m [1;33m [0;33m [0m    [1;30m  ■  [0m   [1;30m [0m [33m [0;1;33m [0;1;37m [0m [1m              [0m [1;33m [0;33m [0m
+  [1;30m [0m       [33m [0;1;33m [0m [1m                  [0m [1;33m [0;33m [0m    [1;30m  ■  [0m   [33m [0;1;33m [0m [1m                   [0m [1;33m [0;33m [0m
 [1;30m░[0m [1;30m [0m
 [1;30m▒[0m [1;30m░[0m [1;30m [0m                                             [1;30m        [0m                 [1;30m [0m [1;30m░[0m
 [1;30m▓[0m [1;30m▒[0m                                                [1;30m [0m [1;30m  [0m                      [1;30m▒[0m
 [1;30m█[0m [1;30m▓▄▄▄[0m [1;30m▄▄[0m [1;30m▄[0m [1;30m▄[0m                                                      [1;30m▄[0m [1;30m▄[0m [1;30m▄▄[0m [1;30m▄▄▄▓[0m
 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-[1;33;43m░[0;33m█[0;30;43m-[0;33;40m██[0;30;43mansi by eternal chaos [cia!] ■ grifter is a copywrong of wildc.a.t.s..[0;33;40m██[0;30;43m-[0;33;40m█[0;1;33;43m░[0m
+[1;33;43m░[0;33m█[0;30;43m [0;33;40m██[0;30;43m                             ■                                        [0;33;40m██[0;30;43m [0;33;40m█[0;1;33;43m░[0m
 [1;33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
 [1;30m-  - ──────────────────────────────────────────────────────────────────── ─ --[0m
-                          [1;30mW[0;31mi[0;1;30mND [0;31m`[0;1;30m95 ANS[0;31mi [0;1;30mby Eternal Chaos[0m
+                          [1;30m [0;31m [0;1;30m   [0;31m [0;1;30m      [0;31m  [0;1;30m                [0m
 [1;30m─ ─ ──────────────────────────────────────────────────────────────────── -── -─[0m'

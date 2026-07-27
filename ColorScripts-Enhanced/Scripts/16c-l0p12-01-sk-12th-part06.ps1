@@ -5,7 +5,7 @@
 # Source SHA-256: d47a1f1f3376408cf74e04510141c11adc191db1569b78ed76e1d9d192c1878a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!12TH!.ANS by Simonking (l0p12_01); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 236-274
 # Columns: 1-80
 
@@ -22,7 +22,7 @@ Write-Host '
 [1;32;42m▓░[0;33m░[0;1;33;43m ░░░░[0;33m▀▀[0;1;33m░░▀▀[0;1;33;43m▓▓▒▒[0;33m▀[0;32m░[0;1;33m░[0;33m▀[0;1;33;43m▒▓▒▒▒[0;33m▀▀[0;32m░▄[0;1;33m▀▀[0;1;33;43m▓▒▒▒▒▒[0;33m▀[0;1;33m░▀[0;1;33;43m▓▓▓▓▓[0;1;33;40m▀▀[0;32m░▌[0;37m [0;1;33;43m░▒▒▓▓[0m [32m░[0;1;32;42m▐[0;32m▌▄[0;1;32;42m▄[0m [33m░[0;1;33;43m  ░░▒▒░[0;33m [0;37m [0;32m▄▌▌ ░[0m
 [1;37m█[0;1;32;42m▄[0;32m▄▄▄▄[0;1;30m▄[0;32m▄▄[0;1;37;42m▄[0;1;32;42m▄▄[0;32m▄▄▄▄[0;1;30m▄▄[0;32m▄[0;1;32;42m▄▄[0;32m▄▄▄▄▄[0;1;30m▄[0;32m▄█[0;1;37;42m▄[0;1;32;42m█▄[0;32m▄▄▄▄▄▄▄[0;1;32;42m▄▄[0;32m▄▄▄▄▄[0;1;30m▄▄[0;32m▄[0;1;32;42m▐▄[0;32m▄▄▄▄▄▄▐▄[0;1;32;42m▐[0;1;37;42m▄[0;1;32;42m█▌[0;32m▄▄▄[0;1;30m▄[0;32m▄▄▄▄▄▄[0;1;32;42m▄[0;1;37;42m█[0;1;32;42m▄[0;1;32;40m█[0;1;32;42m▄[0;32m█░[0m
 [37m [0;32m░░░░░░░░░░░[0m                               [33mi drew "sector7" ansi in 10 minuts,[0m
-[33m       [0m                                            [33mrequested by grymmjack/glue[0m
+[33m       [0m                                            [33m                           [0m
 
 
 
@@ -42,9 +42,4 @@ Write-Host '
 [1;30;46m░░▒▒▓▓[0;1;30;40m▄▄ [0m   [1;30m▄█[0;1;30;46m▓▓▓▓[0;1;30;40m▄[0m  [32m▀▀▀[0;31;42m░░▒▒▒▒[0;37;40m [0;32;40m▀[0;31;42m▒▒▒[0;32;40m▀▀▀[0;37;40m  [0;36;40m▄[0m   [36;40m▄[0;1;30;46m▒▒▒▒▒▒[0;1;30;40m▄▄▄▄▄▄▄[0m [36m▄[0;1;30m█[0;36m▄▄▄[0;37m  [0;31;42m▒▒░░▒[0m   [31;40m▀[0m   [1;30;40m▄▄[0m
 [36m▀[0;37m [0;1;36;46m░[0;36m▀▀▀[0;1;30m▐[0;1;30;46m▓▓▓▓[0m [1;30;46m▓▓▒▒[0m  [1;30;46m▒[0;1;30;40m▀█▄▄▄▄▄▄[0m [1;30m▄▄ ▄[0m    [36m ▌▄[0;1;30;46m░░░░░░░░░░░[0m  [1;30;46m▒▒[0;1;30;40m▀[0;1;30;46m▓[0m [1;30m▄▄▄[0;36m▐▀[0;1;30;46m░░[0m  [31;42m▓▓▒▒▓[0;37;40m  [0;1;30;46m▓▓[0;1;30;40m▄█[0;1;30;46m▓[0;1;30;40m▀█[0m
  [1;30msK![0m  [36m▐[0;1;30;46m▒▒[0;1;30;40m▀█▀▀[0m [1;30;46m░░[0m      [1;30m▀▀[0m [1;30m▄▄▄[0;1;30;46m▓▓[0;1;30;40m█[0;1;30;46m▓[0;36m ▄▄█▄[0;1;36;46m▒░░░[0m  [36m▐▀▀[0;1;36;46m░░░░[0m  [1;30m [0m    [1;30;41m▓▓▓[0m  [36m▐█▄▄▄▄▄[0;1;30m  [0;36m▄▄[0;1;30;46m▒▒[0;1;30;40m ▀▀ ▌[0m
-[1;30;40m--------------------------------------------------------------------------------[0m
-[1;37;40m    [0m        i[1;30mf [0my[1;30mou [0mw[1;30mont [0md[1;30mo [0ma[1;30mnsi, [0mi[1;30m [0md[1;30mo [0ms[1;30momething [0mf[1;30mor [0my[1;30mou... [0me[1;30mnjoy![0m
-                   [1;30mgreetings for you - [0;1;34mvader[0;1;30m, thx for all![0m
-
-[1mreq.send to:[0m
-[1;30msimonking@poczta.onet.pl[0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

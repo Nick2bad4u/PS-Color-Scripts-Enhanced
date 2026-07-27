@@ -5,7 +5,7 @@
 # Source SHA-256: e010bf7aa07db2954dd4e2c7513978162d3236efea2d3adfe0c4d88761c9f922
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-M&S.ANS by Paranormal Intensity (ViViD); released in vivid03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mind And Sould Ansi
 # SAUCE Author: Paranormal Intensity
 # SAUCE Group: ViViD
@@ -22,19 +22,17 @@ Write-Host '
 [33m ▐█[0;1;31;43m█░▄▄▒[0;33m█[0;1;31;43m░[0;33m█▒█[0;1;31;43m█[0;33m██▒█[0;1;31;43m░[0;33m█▌▐[0;1;31;43m▒▄▄▒▄░▄▄▓▄▄[0;33m▓[0;33;43m [0;1;31;43m▓[0;33m▌[0m      [1;30m[[0;1;37ml[0;1;30m][0;1;37mist files[0m
 [33m▒[0;1;31;43m░[0;33m█[0;1;31;43m▒▀█▒▓▓██▄[0;33m█▓█[0;1;31;43m░[0;33m█[0;1;31;43m.p1[0m  [33m▀▓▀[0;1;31;43m▀▀▀▒.█▓ ▒ [0;33m▒[0m       [1;30m[[0;1;37mf[0;1;30m][0;1;37mind text[0m
 [1m [0;33m▀░▀▀[0;1;31;43m░▀▀▀▀▀[0;33m█░▓▀▀▓▀ ▀▄▀▄▄▄▄ ▒ ▀▀▀░▀[0m         [1;30m[[0;1;37ms[0;1;30m][0;1;37mearch text[0m
-                          [33m▀[0m                [1;30m[[0;1;37mv[0;1;30m][0;1;37miew archive[0m
+                          [33m▀[0m                [1;30m [0;1;37m [0;1;30m [0;1;37m           [0m
      [1;30m▄[0;1;30;47m▀▀[0;1;30;40m▓[0;1;30;47m▀▓▒[0;1;30;40m▄▄░ [0;33m▀▀▀▀  [0;1;30m▓▄[0;1;30;47m▓▀▀▀▀[0;1;30;40m▓[0;1;30;47m▀▀[0;1;30;40m░[0m          [1;30m[[0;1;37mq[0;1;30m][0;1;37muit to main[0m
 [1m   [0;1;30m▄▒[0;1;30;47m ░▒▓███░▓██[0;1;30;40m▄   ▄[0;1;30;47m▓██▒██▄  ▄▓█▒[0;1;30;40m▄[0m        [1;30m[[0;1;37mu[0;1;30m][0;1;37mpload[0m
 [1m    [0;1;30m▀░[0;1;30;47m▄▄[0;1;30;40m▀▀▓ ▀▀▒▀[0m     [1;30m▀▀▒▀[0;1;30;47m▒[0m  [1;30m▓▀[0;1;30;47m▓█[0;1;30;40m▀▒[0m         [1;30m[[0;1;37md[0;1;30m][0;1;37mownload[0m
      [1m▒▄▄▄░ [0;1;30m▄  [0;1;37m▄▄▒[0m     [1m▒▄  [0;1;30m▄ [0;1;37m▄▄▄▓[0m           [1;30m[[0;1;37ma[0;1;30m][0;1;37mrea change[0m
 [1m    ▀▀[0;1;47m▓▓[0;1;40m█▌[0;1;30;40m▐  ▄ [0;1;37;47m░░[0;1;37;40m▄  ▄[0;1;37;47m░░[0m [1;30m▄  ▌[0;1;37m▐[0;1;37;47m▒▒▓[0;1;37;40m▀▀[0m         [1;30m[[0;1;37mc[0;1;30m][0;1;37mhat with sop[0m
        [1m▓▀▀ [0;1;30m▀▀  [0;1;37m▓[0m      [1m▓  [0;1;30m▀▀ [0;1;37m▀▀▒[0m            [1;30m[[0;1;37mm[0;1;30m][0;1;37message menu[0m
-                                           [1;30m[[0;1;37mg[0;1;30m][0;1;37moodbye[0m
+                                           [1;30m [0;1;37m [0;1;30m [0;1;37m      [0m
                  [33m▓[0m       [33m▒[0m       [33m▒[0m
 [33m  ▒▄[0;1;31;43m▒▄[0;33m█▓▄█[0;1;31;43m▒[0;33m█▄ ░▄▒█▄▒ ▓[0;1;31;43m░▄▀[0;33m▓█[0;1;31;43m▓[0m  [33m▄█[0;1;31;43m▒▄▄[0;33m▓[0m
 [33m ▐[0;1;31;43m▄█▀[0;33m▒█[0;1;31;43m▒[0;33m▓ █[0;1;31;43m▓[0;33m█▓ [0;1;31;43m░▒█▌[0m  [33m▓[0;1;31;43m▄█[0;33m▌░█[0;1;31;43m▒[0;33m▒ █[0;1;31;43m▄█▀▓[0;33m█[0;1;31;43m░[0m
 [1;31m [0;33m▐[0;1;31;43m░▓ [0m [33m▐[0;1;31;43m▓[0;33m▌░[0;33;43m  [0;1;31;43m▒[0;33m▌ █▓[0;1;31;43m▒▓[0m  [1;31;43m▒▓[0;33m█  [0;1;31;43m░[0;33m█  █[0;1;31;43m▓▀[0m [33m▒█▌[0m
 [33m ▀[0;33;43m [0;1;31;43m▓[0;33m▀ ▀[0;33;43m [0;33;40m▀ ▀[0;33;43m  [0;33;40m▀ ▒[0;1;31;43m▒[0;33m█▀▒ █▀▓  ▓▌  ▀[0;1;31;43m▒[0;33m█[0;1;31;43m▓[0;33m█░[0m
-[33m  ▓[0m         [33m▒    ▓   ▒[0m         [33m▒[0m
-
-                [33m& Soul[0m'
+[33m  ▓[0m         [33m▒    ▓   ▒[0m         [33m▒[0m'

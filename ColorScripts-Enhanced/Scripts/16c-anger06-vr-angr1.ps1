@@ -5,7 +5,7 @@
 # Source SHA-256: 611ab9988495195bdc92e51d7210cee801ab8f6e23599803d036709f75827f89
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VR-ANGR1.ANS by visual reality (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: anger font #1
 # SAUCE Author: visual reality
 # SAUCE Group: anger
@@ -13,9 +13,9 @@
 # Columns: 1-80
 
 Write-Host '
-       [1;30mansi developed by visual reality +[0;1;34m-[0;1;30manger[0;1;34m-[0;1;30mlspd[0;1;34m-[0;1;30mdtc[0;1;34m-[0;1;30mdmn[0;1;34m-[0;1;30msot[0;1;34m-[0;1;30mlords[0;1;34m-[0;1;30m+[0m
-         [1;30m≡+≡ just felt techo-y 2day so i whipp''d dis one up for ya ≡+≡[0m
-      [1;30myo bro! call sea of tranquility and check out some kickin'' artwork![0m
+       [1;30m                                  [0;1;34m [0;1;30m     [0;1;34m [0;1;30m    [0;1;34m [0;1;30m   [0;1;34m [0;1;30m   [0;1;34m [0;1;30m   [0;1;34m [0;1;30m     [0;1;34m [0;1;30m [0m
+         [1;30m                                                             [0m
+      [1;30m                                                                   [0m
 
 
 

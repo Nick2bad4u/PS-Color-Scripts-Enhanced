@@ -5,7 +5,7 @@
 # Source SHA-256: dabecdb4d52c0ca5ce2371d4e69cde05b9500e80dfe6287ceb309e21b54344ee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: H7-noora.ans by H7 (Blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: noora
 # SAUCE Author: H7
 # SAUCE Group: Blocktronics
@@ -36,12 +36,4 @@ Write-Host '
 [37;40m        [0;30;46m   [0;36;40m  [0;35;40m`:[0;36;40mXX[0;30;103m   [0m      [30;107m   [0m        [36;43m   [0;37;40m      [0;30;41m   [0;37;40m     [0;30;43m   [0;36;40m  [0;35;40m`┼[0;1;37;40m┼[0;36;43m''  [0;35;40m      [0;1;36;40m`[0;35;46m┼k.[0;35;40m  [0;36;40m`X[0m
 [37;40m        [0;30;46m   [0;36;40m    '':[0;30;103m   [0m      [30;107m   [0m        [36;43m   [0;37;40m      [0;30;41m   [0;37;40m     [0;30;43m   [0;36;40m   [0;35;40m┼[0;1;37;40m┼[0;36;43m   [0;35;40m       [0;35;46m`┼┼[0;35;40mk[0;36;40m. l:[0m
 [37;40m    [0;36;40m_[0;35;40m_╬┼[0;30;46m : [0;37;40m      [0;30;103m   [0m      [30;107m   [0m        [36;43m   [0;37;40m      [0;30;41m   [0;37;40m     [0;30;43m   [0;36;40m   ┼ [0;36;43m   [0;37;40m       [0;35;46m ┼┼[0;35;40mX[0;36;40mX[0m
-[37;40m     [0;36;40m╬╬[0;35;40m┼[0;30;46m┼XX[0;37;40m      [0;30;103m   [0m      [30;107m   [0m        [36;43m   [0;37;40m      [0;30;41m   [0;37;40m     [0;30;43m   [0;36;40m   : [0;36;43m   [0;36;40m       [0;35;46m `X[0;35;40mX[0;36;40mX[0m
-[37;40m     [0;36;40mXXXX[0;35;40mXX[0;36;40mx, :                                                          [0;35;40mXXX[0;36;40mX[0m
-
-[37;40m                                                                 [0;1;37;40mAnttik[0m [1m2021[0m
-
-
-
-
- My friend Noora[0m'
+[37;40m     [0;36;40m╬╬[0;35;40m┼[0;30;46m┼XX[0;37;40m      [0;30;103m   [0m      [30;107m   [0m        [36;43m   [0;37;40m      [0;30;41m   [0;37;40m     [0;30;43m   [0;36;40m   : [0;36;43m   [0;36;40m       [0;35;46m `X[0;35;40mX[0;36;40mX[0m'

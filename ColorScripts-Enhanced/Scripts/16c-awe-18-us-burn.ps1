@@ -5,7 +5,7 @@
 # Source SHA-256: c42a72aae081118b8e678bf0ad418dbf5d197c4cab991dea30d790d25c549ac6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BURN.ANS by Mr Wrong + Cleaner (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Burn Promotional
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -36,6 +36,4 @@ Write-Host '
 [1;34;44m░[0;34m▌[0m      [1;33m [0m   [34m ▄░ [0;37m [0;34m▀[0;37;44m▓░[0;34;40m▌[0m     [31;40m▀[0;1;33;40m   [0m      [34m▀▄[0m        [34m▀[0;37m [0;34m [0m    [34m [0;37m  [0;34m▄░ [0m       [31m▀[0m       [34m▐▓▀[0m
 [37m [0;34m▀[0;37m [0;34m▄[0m              [34m░░▀[0;37m [0;34m▄[0m                [34m▀[0m                                [34m▄[0;37m [0;34m▀░[0m
                             [34m [0;37m [0;31m([0;33mb   u   r   n[0;31m)[0;37m [0;34m [0m
-                        [1;30mf r o m  t h e  i n s i d e[0m
-
-                                               [34mMr[0;36m.[0;34mWrong[0;37m [0;36m([0;34mGlue[0;36m)[0;37m [0;34m& Cleaner[0;37m [0;36m([0;34mAwe[0;36m)[0m'
+                        [1;30mf r o m  t h e  i n s i d e[0m'

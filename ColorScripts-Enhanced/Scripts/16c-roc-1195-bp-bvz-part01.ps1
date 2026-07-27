@@ -5,7 +5,7 @@
 # Source SHA-256: efa83a4dbd68685cce7588488db246506c0c953606f5f331df876c233fa35f81
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BP-BVZ.ANS by Blood Priest (ROC); released in roc-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bottled Violence Zine
 # SAUCE Author: Blood Priest
 # SAUCE Group: ROC
@@ -50,13 +50,12 @@ Write-Host '
                                                   [1;30m░[0m   [1m▄█▀▀[0;1;31m▄▄[0m
                                                  [1;30m [0m   [1m██[0m [1;31m▄███[0;1;30m▄[0;31m  [0m
                                                     [1;37m▐█[0m [1;30m▄[0;1;31m▀[0;31m [0;1;31;41m▓▌[0;1;30;41m░[0;1;30;40m█[0m
-  [1;30mI have just cranked out my most offensive ansi[0m     [1;30m▄▀[0m [31m▄▓█[0;1;31;41m▓[0;1;30;40m▀[0;31m  [0m
-[37m  [0;1;30mever... it must mean that there is a new     [0m     [1;30m■▀▌[0;31m█[0;1;30;41m▄▄[0;1;30;40m▀[0;31m violence[0m
-[37m  [0;1;33mB[0;1;31mot[0;31mtled [0;1;33mV[0;1;31mio[0;31mlence[0;37m [0;1;33mZ[0;1;31min[0;31me[0;1;30m in town.  Watch for it,[0m    [1;30m [0;1;30;41m▒▄[0;1;30;40m▀▀ [0m   [31m  [0m
-[37m  [0;1;30mor better yet contribute to it.[0m                  [31m▐▓▌[0m      [31m [0m
+  [1;30m                                              [0m     [1;30m▄▀[0m [31m▄▓█[0;1;31;41m▓[0;1;30;40m▀[0;31m  [0m
+[37m  [0;1;30m                                             [0m     [1;30m■▀▌[0;31m█[0;1;30;41m▄▄[0;1;30;40m▀[0;31m         [0m
+[37m  [0;1;33m [0;1;31m  [0;31m     [0;1;33m [0;1;31m  [0;31m     [0;37m [0;1;33m [0;1;31m  [0;31m [0;1;30m                        [0m    [1;30m [0;1;30;41m▒▄[0;1;30;40m▀▀ [0m   [31m  [0m
+[37m  [0;1;30m                               [0m                  [31m▐▓▌[0m      [31m [0m
                                                    [31m▐[0;1;31;41m░[0;31m▌[0m
                             [1;37m [0m                      [31m▐[0;1;31;41m ■[0m
                            [1m   [0m                      [1;31;41m░[0;31m▀▌[0m
                            [1;37m   [0m                      [1;31;41m▐▄[0m
-                                                     [31m▀[0m
-'
+                                                     [31m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 43634e74661b674463e1957e579f7dff336e2072ff1427bfdbdfa0b1a445d9c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ODB-MAYO.ANS by Ol' Dirty Bastard (READ THE INI FILE); released in dsco0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mayo
 # SAUCE Author: Ol' Dirty Bastard
 # SAUCE Group: READ THE INI FILE
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[34mSignature of Head of Household/Payee[0m       [34mFirma del Jefe de Familia/beneficiaro[0m
+[34m                                    [0m       [34m                                     [0m
                       [1;30m▄[0m
                      [1;30m█ ▌   █[0m      [1;30m▄▄▄▄[0m
                     [1;30m▐ ▐  ▄▀   ▄▀▀▀    ▀▀▄[0m                [1;30m▄▀▄[0m
@@ -25,7 +25,7 @@ Write-Host '
              [1;30m▀▄ ▀■█▀ ▐[0m         [1;30m▀ ▀▄[0m      [1;30m█   █    █ ▀▀▄   █▐  ▀▄[0m
                [1;30m▀▀▀    ▌[0m         [1;30m▀▄▄▄▄▄▄▀▀ ▄▄▀ ▀▄▄▀    ▐▄▄▀ ■▀▄  █  ▄▄▀[0m
                                                                  [1;30m█▀[0m
-             [1;30mb[0m       [1;30ma[0m       [1;30ms[0m       [1;30mt[0m       [1;30ma[0m       [1;30mr[0m       [1;30md ▄▀ ▌[0m
+             [1;30m [0m       [1;30m [0m       [1;30m [0m       [1;30m [0m       [1;30m [0m       [1;30m [0m       [1;30m  ▄▀ ▌[0m
                                                                [1;30m▌ ▐[0m
                                                                [1;30m▀▄▀[0m
 

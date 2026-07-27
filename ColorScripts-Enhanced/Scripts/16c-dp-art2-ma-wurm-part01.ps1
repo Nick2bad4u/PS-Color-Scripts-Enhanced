@@ -5,13 +5,13 @@
 # Source SHA-256: 05341b8e70381a41ea4cc16ae91db949caa1ed4aa7e2ee2613fc43abf0749933
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-WURM.ANS by Malcolm (dp-art2); released in dp-art2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
   [1;37;40m▄▄▄▄▄[0m [1;37;40m▄▄▄▄▄[0m [1;37;40m▄▄▄[0m
-  [1;37;47m▓▓▓[0m [1;37;47m▓[0m [1;37;47m▓▓▓[0m [1;37;47m▓[0m [1;37;47m▓▓▓[0m [1;37;40mA[0mNS[1mi[0m 1[1moo[0m% [1m0[0mR[1mi[0mG[1mi[0mN[1mA[0mL BY M[1mA[0mLC[1m0[0mLM [1m0[0mF D[1mEE[0mP - B[1mE[0mST [1m0[0mf TH[1mi[0mS P[1mA[0mK!
+  [1;37;47m▓▓▓[0m [1;37;47m▓[0m [1;37;47m▓▓▓[0m [1;37;47m▓[0m [1;37;47m▓▓▓[0m [1;37;40m [0m  [1m [0m  [1m  [0m  [1m [0m [1m [0m [1m [0m [1m [0m      [1m [0m  [1m [0m   [1m [0m   [1m  [0m     [1m [0m   [1m [0m    [1m [0m   [1m [0m  
   [1;47m▒▒▒[0m [1;47m▒[0m [1;47m▒▒▒[0m [1;47m▒[0m [1;47m▒▒▒[0m [1;40m────────────[0m──────────────────────────────────[1m─────────────[0m
   [1;47m░░░[0m [1;47m░[0m [1;47m░░░[0m▄[1;47m░[0m ▄▄▄
 [1;30m  [0m▀▀▀▀▀[1;30m [0m▀▀▀[1m  [0;1;30m [0m▀▀▀[1;30m        [0m     [1;30m  [0m  [1;30m█[0;1;30;47m▓[0;1;30;40m█▄   ▄▄▄  ▄█▄▄▄[0m        [1;30;40m█[0;1;30;47m▓[0;1;30;40m█▄   ▄▄▄  ▄█▄▄▄[0m

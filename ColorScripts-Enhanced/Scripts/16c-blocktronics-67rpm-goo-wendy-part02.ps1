@@ -5,7 +5,7 @@
 # Source SHA-256: ceb4a1cd6a8325fced24371614f7da11f13268717ed1e72c7ba8652969d42160
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: goo-wendy.ans by GOO (blocktronics); released in blocktronics-67rpm and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wendy Carlos
 # SAUCE Author: GOO
 # SAUCE Group: blocktronics
@@ -44,7 +44,7 @@ Write-Host '
              [1;35m▀▄█[0m  [1;35m█[0m    [1;35m▀▀▀▀█[0m    [1;35m█[0m [1;35m▄█[0m     [1;35m▀▄[0m       [1;30m░[0m   [1;35m▄[0m▀ [1;35m▐[0m▌  ■▄▄▀  [1;30m░[0m    [1;35;47m▒[0m   [1;30m░[0m
        [1;36m▀ ▀▀▀▀[0m  [1;35m█[0m    [1;36m▀▀▀▀▀▀ [0m [1;35m█[0m [1;36m▀[0m  [1;35m█[0m [1;35m█▀▀▀▄▄▄▄█▄▄[0m [1;36m▀▀▀[0m [1;35m▄▄▀[0m  [1;36m▀[0m [1;35m▀▄[0;1;31m  [0m   [1;36m▀▀▀▀[0m [1;35m▄▀[0m  [1;36m▀[0m
        ANSi bY                       [1;32m [0m       [1;35m▀▀▀▀▀▀[0m         [1;35m▀▀▄▄▄▄▄▄▀▀[0m  GOO^67
-                      [1;32m  [0;1;37m PIONEER IN SYNTHESIZED MUSIC [0m [1;35m▄▄[0;35m▄[0;1;35m▀▀▀▀▀[0m [1;30m▄▀[0m      MMXiX
+                      [1;32m  [0;1;37m                              [0m [1;35m▄▄[0;35m▄[0;1;35m▀▀▀▀▀[0m [1;30m▄▀[0m           
                                                    [35m▄[0;1;35m▄[0;35m▀▀[0m        [1;30m▐▌[0m
                                                  [35m▄▀[0m             [1;30m▀[0m
                                                 [35m▐▌[0m

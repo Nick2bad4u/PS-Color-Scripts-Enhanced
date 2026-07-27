@@ -5,7 +5,7 @@
 # Source SHA-256: 021d3284d8b395198d16856aad34b8b4ca596fab40c255bf2750e51114c7f54c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-NYX.ANS by creator (used); released in used-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nyx
 # SAUCE Author: creator
 # SAUCE Group: used
@@ -48,6 +48,4 @@ Write-Host '
        ▒▓▓▓▒             ░▓▓▓░░                   [1m▒▓▓▓▓▓▓[0m▌       ░▓▓▓▓▓▓░
        ░▒▒▒░              ░░░                     [1m░▒▒▒▒▒▒▓[0m        ░░░░░░
         ░░░                                        [1m░░░░░░░[0m
-                                                      [1m░[0m  [1m [0m
-
-     This has been a uSed ansi of the silver surfer..... COMIC RIP RIP RIP![0m'
+                                                      [1m░[0m  [1m [0m'

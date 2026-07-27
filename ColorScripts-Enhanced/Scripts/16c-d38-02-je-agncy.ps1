@@ -5,7 +5,7 @@
 # Source SHA-256: 836d1c78b9f8dc47eab2deec6a0ee7972f1675b993966a80f6c539327a46ac96
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JE-AGNCY.ANS by Madcap + Blind Sniper (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The AGENCY
 # SAUCE Author: [Joint Effort]
 # SAUCE Group: Department 38
@@ -40,10 +40,6 @@ Write-Host '
                 [1;30m▀[0m [1;30m██░[0m    [1;30m▀▀▀ [0m       [1;30m██░ [0m    [1;30m▀[0m      [1;30m▀[0m [1;30m██░[0m  [1;30mD38 WHQ[0m
      [1;30m ▄   ▄▄▄▄  ▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄█░[0m  [1;30m6-49-410-6940[0m
                                           [1;30m░[0m          [1;30m  [0m
-[30;41mPicture By [0;1;31;41mM[0;30;41madcap And Font By [0;1;31;41mB[0;30;41mlind [0;1;31;41mS[0;30;41mniper Of The [0;1;31;41mD[0;30;41mepartment [0;1;31;41mT[0;30;41mre-[0;1;31;41mE[0;30;41might░░░▒▓▓██▓▓[0m
+[30;41m           [0;1;31;41m [0;30;41m                  [0;1;31;41m [0;30;41m     [0;1;31;41m [0;30;41m             [0;1;31;41m [0;30;41m          [0;1;31;41m [0;30;41m   [0;1;31;41m [0;30;41m    ░░░▒▓▓██▓▓[0m
 
-[37;40m>Cut It Up Son<-----------------------------------------------------------------[0m
-
-[1;30;40m[[0;1;32;40mBlind Sniper[0;1;30;40m] [0;32mNot bad for a quicky font is it?[0m
-               [32mRip this font and I''ll rip slugs through your chest because this[0m
-               [32mansi is obviously for my bbs called tHE AGENCY[0m'
+[37;40m>Cut It Up Son<-----------------------------------------------------------------[0m'

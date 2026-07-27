@@ -5,7 +5,7 @@
 # Source SHA-256: 0c86102eaadd09f15e2b672e2182fb1c80b1b912620ce4d9eaff15270b069cd1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL!-NOFX.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nofx
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -35,4 +35,4 @@ Write-Host '
   [1;35;47m▓[0;35m█[0;35;47m▓▒▓███[0;35;40m██████[0;1;35;45m▄▄▄▄▄[0;1;35;40m▄▄[0;35m▄█[0;1;35;45m▄[0;35m█[0;1;35;45m▄[0;35m▀▀[0;33m▀[0;35m▀▀▀ [0;33m██▀█▀ [0;35m▀▀▀[0;1;35m▀[0;35m▀[0;1;35m▀[0;35m▀[0;1;35m▀▀▀▀[0;1;35;45m█▄▄▄▄▄▄  [0;35m▀▀ [0;1;36m▄▄[0;1;36;46m░[0;36m▀▀▀ [0;35m▄▄▄████[0;1;35m█[0m
   [1;35;47m█[0;1;35;45m▄▄▄▄▄█[0;1;35;40m▀▀▀▀▀▀▀▀[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄[0m [33m█ ██[0;1;31;43m░[0;33m [0;1;31;43m [0;33m [0;1;31;43m░[0;33m█ █ ██[0;37m [0;1;30m█[0m         [36m  [0m   [1;36m▄▀▀[0m [35m▄▄▄█[0;1;35;45m▄▄▄▄▄[0;35m████[0;1;35m█[0m
           [1;30mopium power![0m      [1;30m█[0m [33m█▀ ▄█▀█  ▄ ▀ █▀[0;37m [0;1;30m█[0m             [1;36m■[0m            [1;35m▀▀▀▀▀▀[0m
-  [1mbr[0muchies [1mn[0mofx...░         [1;30m▓▄ [0m            [33m▀ [0;1;30m▓▀ [0m         [1m [0m  ░...[1mma[0mde [1mb[0my rawlock[0m'
+  [1m  [0m       [1m [0m      ░         [1;30m▓▄ [0m            [33m▀ [0;1;30m▓▀ [0m         [1m [0m  ░   [1m  [0m   [1m [0m         [0m'

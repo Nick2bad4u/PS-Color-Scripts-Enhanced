@@ -5,7 +5,7 @@
 # Source SHA-256: 692b37d1844328f7d59bacca99282e2cd09b0c458be80ff5560a29fc0d8489fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-ODM3.ANS by the silent killer (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: odium promotional
 # SAUCE Author: the silent killer
 # SAUCE Group: odium
@@ -29,5 +29,5 @@ Write-Host '
 [1;30m▌[0m [1;32m▀[0;35m█[0;1;32;45m░▒▓[0;1;32;43m▓[0;1;32;40m▄▄[0;1;32;43m▓▓▓▓▓[0;1;32;40m▀[0m [1;30m▄[0m [1;32m▀▀[0;1;32;43m████[0;1;32;40m▄▄[0;1;32;43m████[0;1;32;45m▓░[0;1;32;40m▌[0m  [1;32m▀▀[0;1;32;43m█████[0m  [1;32m▀▀[0;1;32;45m░▒▓[0;1;32;43m▓[0;1;32;40m▄▄[0;1;32;43m▓▓▓▓▓[0;1;32;40m▀[0m  [1;32m▀[0;1;32;43m▓▓▓▓▓[0m    [1;32m▐[0;1;32;43m▓▓[0;1;32;45m▓▒[0;1;32;40m▌[0;1;30;40m▐▌[0m
 [1;30m▀▀▓[0;35m▐  [0;1;32m▀▀▀▀▀▀[0m [1;30m▄▄▄▓[0;1;35m.▄■[0;1;30m▄▄[0m [1;32m▀▀▀▀▀▀[0m [1;32m▀▀[0;1;32;45m▒[0;1;32;40m▀[0m [1;30m▓▀▄▄▄[0m [1;32m▀▀[0m [1;30m▓▀▄[0;35m▓▌[0;1;32m▀▀▀▀▀▀[0m [1;30m▄▄[0m [1;35m▄[0;1;30m▀[0m  [1;32m▀▀▀[0m [1;30m▄▀▓[0m [1;32m▀▀▀▀[0m [1;30m▄▓[0m
  [35m ░.·[0;1;30m▀▀▀▓▀▀▀▀▀[0m   [1;35m░[0m   [1;30m▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀[0m   [1;30m▀▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▓▀▀▀▀[0m    [1;35m▀[0m [1;35m■·▀[0m   [1;30m▀▀▀▀▀▀▀▀[0m
-          [1;30m.■▀[0m                                              [1;30m■·[0m        [1;30mtsk-odium[0m
+          [1;30m ■▀[0m                                              [1;30m■ [0m        [1;30m         [0m
     [35m  [0m   [1;30m [0m         [32m    [0m    [32mo[0;37m  [0;35m·[0;37m  [0;32md[0;37m  [0;35m·[0;37m  [0;32mi[0;37m  [0;35m·[0;37m  [0;32mu[0;37m  [0;35m·[0;37m  [0;32mm[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 62cd48532c21d7967761ebdcadc0a33049727a7012d2d61268aa18edff17519e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FR.ICE by Lord Soth + Deeply Disturbed + Shaggy (ice-9408); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 310-353
 # Columns: 1-80
 
@@ -43,14 +43,13 @@ Write-Host '
  [32m ▀▄▄▄▄▄   ▄▄▄  ▄                                            [0;37m    [0;32m▄[0;37m  [0;32m▄▄[0;37m  [0;32m▄▄▄▄▀ [0m
  [32m▄▀[0m                                                                      [32m  [0m [32m▀▄[0m
 [32m▐▌[0m                                                                        [37m [0m  [32m▐▌[0;37m [0m
-[32m█[0m    [37m  [0m  [37mUNiON    W  o  r  l  d    H  e  a  d  q  u  a  r  t  e  r  s[0m   [37m     [0m [32m█[0;37m [0m
-[32m█[0m    [37mFibre    C  a  n  a  d  i  a  n    H  e  a  d  q  u  a  r  t  e  r  s[0m    [32m█[0;37m [0m
-[32m█[0m           [37mNation    D  i  s  t  r  o  b  u  t  i  o  n    S  i  t  e[0m        [32m█[0;37m [0m
-[32m█[0m            [37mBlur    D  i  s  t  r  o  b  u  t  i  o  n    S  i  t  e[0m         [32m█[0;37m [0m
-[32m█[0m          [37mPursuit    D  i  s  t  r  o  b  u  t  i  o  n    S  i  t  e[0m        [32m█[0;37m [0m
-[32m█[0m          [32m       [0m [37mSysop:  Optical Illusion, Nailz,  Neurotic[0m                 [32m█[0;37m [0m
+[32m█[0m    [37m  [0m  [37m                                                            [0m   [37m     [0m [32m█[0;37m [0m
+[32m█[0m    [37m                                                                     [0m    [32m█[0;37m [0m
+[32m█[0m           [37m                                                          [0m        [32m█[0;37m [0m
+[32m█[0m            [37m                                                        [0m         [32m█[0;37m [0m
+[32m█[0m          [37m                                                           [0m        [32m█[0;37m [0m
+[32m█[0m          [32m       [0m [37m                                          [0m                 [32m█[0;37m [0m
 [32m█[0m                                   [37m613-224-8279[0m     [32m [0m                    [32m [0m   [32m█[0;37m [0m
 [32m▐▌[0m                                                                      [32m [0m    [32m▐▌[0;37m [0m
  [32m▀▄[0m                                                                     [32m [0m   [32m▄▀[0m
-   [32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    [0m
-[37m ANSI: Deeply Disturbed [[0;1;37mi[0mCE] & Lord Soth [[1mi[0mCE], minor touchups by Shaggy [[1mi[0mCE][0m'
+   [32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    [0m'

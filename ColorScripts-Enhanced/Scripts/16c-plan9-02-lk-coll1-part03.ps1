@@ -5,7 +5,7 @@
 # Source SHA-256: 88de888556ff4bef07d7f50de915128720ffaa448d79a236bcdc69d8e3007813
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LK-COLL1.ANS by L0wK3y (plAn 9); released in plan9-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: colly #1
 # SAUCE Author: L0wK3y
 # SAUCE Group: plAn 9
@@ -55,13 +55,13 @@ Write-Host '
               [1;32m            [0m        [32m [0m    [32m [0m
              [1;32m           [0m          [32m [0m    [32m [0m
 [37m------------------------------------------------------------------------------  [0m
-[1;30mWell, like I said...this is just some stuff I drew while practicing different[0m
-[1;30mtechniques. Don''t take it seriously...I don''t. [0m
+[1;30m                                                                             [0m
+[1;30m                                               [0m
                                     [32m   [0m   [32m [0m
-[1;30mThanx go out to: You (for checking out plAn 9''s work), Cyber God (for the [0m
-[1;30madvice on phontz), Boba Fett[0m [1;30m(for the advice and just bein'' k001), Lord Jazz-[0m
-[1;30mDeeply D - and all you big time elite fuckers (for being so fuckin'' good)![0m
+[1;30m                                                                          [0m
+[1;30m                            [0m [1;30m                                                [0m
+[1;30m                                                                          [0m
 
-[1;30mHere''s the part where I''m supposed to act like I''m a killa'' ''leet artist, [0m
-[1;30mbut I''m a lamer...so I''ll just say see ya'' next time. ;P[0m
+[1;30m                                                                          [0m
+[1;30m                                                        [0m
 [1;30m-LK[0m'

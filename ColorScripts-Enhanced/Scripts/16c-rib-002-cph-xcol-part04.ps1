@@ -5,7 +5,7 @@
 # Source SHA-256: ed83d4c69010101772ac6957853a8c6626804ab3318d837bf50ee70ecec4a67f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-XCOL.ANS by Cyberpunch (rib-002); released in rib-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 149-194
 # Columns: 1-80
 
@@ -30,28 +30,27 @@ $[1m$[0m$[1;30m$$``ⁿ$$$$$[0m$$$$$[1;30m$ⁿ"^[0;1;37m   [0mⁿ$[1m$[0
 [1m   _     [0;1;30m.$p[0;1;37m                                                      [0;1;30mp$.[0;1;37m      _[0m
 [1m  (_)   [0;1;30m.$$$.[0;1;37m                                                    [0;1;30m.$$$[0;1;37m     (_)[0m
 [1m       [0;1;30m $$$$[0;1;37m                                                      [0;1;30m$$$$[0m
-[1m        [0;1;30m`┴$$bppooooo[0;1;37m [0;1;34mup[0;1;37m [0;1;34mdown[0;1;37m [0;1;34mpgup[0;1;37m [0;1;34mpgdn[0;1;37m [0;1;34mhome[0;1;37m [0;1;34mend[0;1;37m [0;1;34menter[0;1;37m [0;1;34mesc[0;1;37m [0;1;34mq[0;1;37m [0;1;30moooppd$$┴''[0m
+[1m        [0;1;30m ┴          [0;1;37m [0;1;34m  [0;1;37m [0;1;34m    [0;1;37m [0;1;34m    [0;1;37m [0;1;34m    [0;1;37m [0;1;34m    [0;1;37m [0;1;34m   [0;1;37m [0;1;34m     [0;1;37m [0;1;34m   [0;1;37m [0;1;34m [0;1;37m [0;1;30m        ┴ [0m
 
 
 [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^[0m
-colored ascii `files'' screen..
+                              
 [1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m--[0m
 
 
 $$$♫$$$$$SS$$$$$$$$$$$[1;30mi[0m$$$#%p,._[1m  [0m_.,p%##S$$$$$$$$$$$$$$$$$☼$$$♫$$$p_[1m {Ph?! [0m_g$
-ⁿⁿⁿⁿⁿⁿⁿ$[1;30mi[0m$ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ$[1;30mii[0m$ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ$$ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ$[1;30miii[0m$ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ
+        [1;30m [0m            [1;30m  [0m                             [1;30m   [0m                        
 [1mdS$$Sb [0m$[1;30mi[0m$[1m dS$░$$ⁿ'' [0mⁿⁿ$$[1m dS$$$$$$$▓░$$ [0m$$[1m dS$$Sb╜'' [0mⁿⁿ$[1;30mi[0m≡[1m dS$$S$$$$$$dS$$Sb$$┤$▓[0m
 [1m$$$ll▌ [0m$[1;30mi[0m$[1m $lll;$ dSSp._ $$$l$$ dSSp._ [0mⁿ$[1m $ll░$$ dSSp._[0mⁿ[1m $$$l░$ⁿ""  ░li$⌠$ⁿ""[0m
-[1miiilil [0m$[1;30mi[0m$[1m ililll ililllillilil $ilillib. llilii lililil.ili;lilil;i├ililli;i;[0m
-[1miii;;i [0m$[1;30mi[0m$[1m i;i;i;  `;;ii;i;iiil  `$ii;i;$ i;ii;i  `i;i;iii;;;iiⁿ""  ii;i;iⁿ"[0m_.,
+[1m       [0m [1;30m [0m [1m                                                          ├         [0m
+[1m       [0m [1;30m [0m [1m                                                                  [0m   
 [1m;;;i;; [0mⁿ''[1m.di;;;;;b.,d;;;;;; i;;b.,d;;i;;'' │;i;;;b.,d;;i;i;;;;;i [0m$ⁿ$[1m i;.;;;[0m $ⁿ"[1m [0m
 [1m ; ; ;.;;.;;.; .;.; ;;.;;; ;;.;; ;.;;;;''[0ms[1m ;;.;; ;;.;..;;'';. ;.; [0m$[1m [0m$[1m ;.; .;[0m $ [1;30m$"[0m
 [1m   .       .     .     ''[0m_[1m`ⁿ.   .  ..ⁿ^ [0ms$s[1m`ⁿ  .  .   ⁿ^, ;    . [0m$[1m [0m$[1m .   ..[0m ░ [1;30m$ [0m
-isss[1;30msss[0mssss▒sssssssssss"""$ssssssssss$ⁿ"[1m [0m"ⁿ$sssssssss$ⁿ"ⁿ$sssss≡$ $≡sssssss$ [1;30m$ [0m
-[1;30misssssssssssssssssssssss"ssssssssssssss"""sssssssssssss"ss[0ms[1;30mssssssisssssssssss$ [0m
+    [1;30m   [0m    ▒                            [1m [0m                                    [1;30m  [0m
+[1;30m                                                          [0m [1;30m                    [0m
 
 
 [1m^^[0m^^^^[1;30m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m^^^^[1m^[0m
-colored ascii `logoff'' screen..
-[1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m--[0m
-'
+                               
+[1m-[0m--[1;30m-----------------------------------------------------------------------[0m--[1m--[0m'

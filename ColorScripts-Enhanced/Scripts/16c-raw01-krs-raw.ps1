@@ -5,7 +5,7 @@
 # Source SHA-256: c062e9ba889a394bd1505a2f4067badb5e8e321c06090286a6b2ddf8b974f4a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRS-RAW.ANS by krisis (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: (guest) raw97
 # SAUCE Author: krisis
 # SAUCE Date: 19970328
@@ -36,14 +36,4 @@ Write-Host '
      [34m▄▄[0;1;34;44m   [0;34m██[0;1;33m░ [0;1;37m▀[0;1;33m█[0m [34m ▀█▀[0;1;34;44m░▀[0;34m██▀[0;1;37m■[0;34m▐█████[0;1;34;44m▄ ▄[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░░▓[0;1;34;40m▌[0m  [30;45mR[0;1;35;40m [0;35mA[0;37m [0;35mW[0;37m [0;34m░ ▓[0;1;34;44m░ [0;34m████[0;1;34;44m▀[0;34m█[0;1;34;44m▀▀▀▄▄▐[0;1;34;40m▄[0;34m           [0m
     [34m▐[0;1;34;44m ░░▄▄  [0;34m██▌[0;1;37m▀[0m [34m███████████[0;1;34;44m▄[0;34m████████████[0;1;34;44m▐█[0;1;34;40m▄[0m        [34m▄███[0;1;34;44m▀ [0;34m█[0;1;34;44m    ▐[0;1;34;40m▄[0;34m           [0m
     [34m█[0;1;34;44m      ▀ [0;34m█████▀▀▀[0;37m  [0;34m▀[0;1;34;44m   ▀▀░ [0;34m▀[0;37m  [0;34m▀▀[0;1;34;44m [0;34m▀[0;1;34;44m  [0;34m███[0;1;34;44m▀▀▀[0;34m▄▄▄▄██[0;1;34;44m▄ ▀[0;34m█[0;1;34;44m    ▀▄░  ▀▀[0;1;34;40m▄▄[0;34m▄ [0;1;34m▄[0;34m  [0m
-     [34m▀▀  ▀[0;1;34;44m   ▀  [0;34m▀[0m        [34m▀▀[0;1;34;44m      [0;34m▄[0m     [34m▀██████████▀▀▀▀▀████▀▀▀[0;1;34m▀▀[0m
-
-
-[1;44mw[0;1;40mOOp! a 23liner.. my first ansi in like 6 months! i switched to ascii, and now[0m
-[1mback again.. anyhow.. i hope ya like it.. i was inspired by recent Fuel packs[0m
-[1mmainly.. Alot of nice stuff from those guyz.. keep it up.. also, i thought id[0m
-[1msupport my fellow co-sysop with his new art grewp RAW (Real Art Work)..[0m
-
-[1;44mG[0;1;40mrEEtz fLy[0m [1mOut[0m [1mtOO: kURRUPt, Criminal Enigma, nOOdles, chaOtic prisOner, [0m
-                [1m    Z-force, Cryogenic (keep it up!), and the rest of the ppl[0m
-                [1m    that call my board and support KAS![0m'
+     [34m▀▀  ▀[0;1;34;44m   ▀  [0;34m▀[0m        [34m▀▀[0;1;34;44m      [0;34m▄[0m     [34m▀██████████▀▀▀▀▀████▀▀▀[0;1;34m▀▀[0m'

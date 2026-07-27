@@ -5,7 +5,7 @@
 # Source SHA-256: 8a73f7f3d32b883aac633fc2b7c9eb003305fd1de39fb413aec91961f7482da6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OM-TPC10.ANS by omega red (rune); released in rune0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the playaz club
 # SAUCE Author: omega red
 # SAUCE Group: rune
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30min the Gansta''s Paradise ... tell me why are we so blind to see that the ones   [0m
+[1;30m                                                                                [0m
 [1;37m▄▄▄▄  [0;1;30m we hurt[0;1;37m  [0m■   ▀   ▀[1m▀ ▄▄▄▄ ▀▀██████▄▄▄▄▄▄▄▄▄  ▀[0m▀  ▀    ■  [1;30mare you and me  [0m
 [1m████████████▄▄▄▄▄▄▄▄▄▄▄██████████▄▄ ▀▀█████████████████▄▄▄  [0;31mansi[0;37m^[0;1;37mo[0;1;31mm[0;31mega[0;37m_[0;31mred[0;37m![0;1;37m▄▄▄▄▄[0m
 [1;37m███████████████████████████████[0;1;37;47m█[0;1;37;40m████▌ ▐██▀█████[0;1;37;47m▓▓[0;1;37;40m███[0;1;37;47m▓[0;1;37;40m███[0;1;37;47m▓▓▓▓[0;1;37;40m██▄▄▄▄▄█████████████[0m

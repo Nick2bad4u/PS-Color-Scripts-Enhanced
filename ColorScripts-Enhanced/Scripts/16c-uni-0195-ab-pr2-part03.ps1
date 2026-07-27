@@ -5,7 +5,7 @@
 # Source SHA-256: 042dcc949c95b80e65c46eddf6ac90c284559cb81f92952ea3ef886e0a8df329
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-PR2.ANS by Abomination (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Packaged Rebellion
 # SAUCE Author: Abomination
 # SAUCE Group: Union
@@ -54,14 +54,13 @@ Write-Host '
 [33m▒ ab▄▄██▄▄▀▀██[0;1;33;43m░░[0;33m█▄[0m      [34m█  ▒ [0;36m██████[0;36;46m [0;1;36;46m░[0;36m█ █ ██████[0;36;46m [0;1;36;46m░[0;36m█ █ [0;34m▒  [0;1;34;44m░[0m [34m▄   [0;33m▄██▓██[0;1;33;43m░[0;33m▀▄▄█▓▄▄   ▒[0m
 [33m▓▄██[0;1;33;43m░[0;33m███▓███▄▀█▓███▄  [0;34m▀ ▄ █▓ [0;36m███[0;36;46m [0;1;36;46m░[0;36m████▀▀ ███[0;36;46m [0;1;36;46m░[0;36m████▀▄ [0;34m▓█ ▄   [0;33m▄█▓█[0;1;33;43m░[0;33m█▀▄██▓██████[0;1;33;43m░[0;33m▄▓[0m
 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;34;44m░[0;34m███ [0;34;46m         [0m   [34;46m         [0m [36;40m█ [0;34;40m█[0;1;34;44m░[0;34m███▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;37mpackaged rebellion. a really neeto board. i''m sure you''ll know the number by now[0m
-[1;37mso there isn''t use in me wasting your time. but ahh well, i''ll do it anyways. =][0m
-[1;37mi''m not getting a christmas present cuz my parents think i''m a stoner that talks[0m
-[1;37mshit to everyone, and my counselor forces me to see him everyday becuz he thinks[0m
-[1;37mi have problems. so i guess you could say life sucks for me. all i have is music[0m
-[1;37mansis, terbium, and friends :). i hope you enjoy this ansi, leave me alone. i''ll[0m
-[1;37mbe sleeping for quite some time now. maybe not :) [0;1;31mbrought to you by abomination[0m
+[1;37m                                                                                [0m
+[1;37m                                                                                [0m
+[1;37m                                                                                [0m
+[1;37m                                                                                [0m
+[1;37m                                                                                [0m
+[1;37m                                                                                [0m
+[1;37m                                                  [0;1;31m                             [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
 [1;32mu[0m                  [1;32mn[0m                   [1;32mi[0m                   [1;32mo[0m                   [1;32mn[0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
-                           ( hi brian and jason :)[0m'
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5235ae5b3cc554d0651d87b10a5c28c16a9e1bd01bb63cc19a5ccec160c9f4ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: INT-RS2.ANS by Intrepid (the girl scouts); released in 765n001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rust
 # SAUCE Author: Intrepid
 # SAUCE Group: the girl scouts
@@ -36,15 +36,15 @@ Write-Host '
 [37m  [0m                                                                     [37m▀▄ ▒[0m
 [1;36m  [0m                                                                       ▀█
 [+cuthere]---------------------------------------------------------------------
-well not a too        ansi. oh well. my first 765 release. hope you like it.
-if you want an ansi, an ascii, or a loader send email to: intrepid@pangea.ca
-▒ i do not charge. i doubt i ever will. because, you have to be _good_ to ch-
-░ arge. :), so have fun. check my work in the following packs.               █
+                                                                            
+                                                                            
+▒                                                                            
+░                                                                            █
                                                                              █
-▀ greets: phatcap, phazeone, msd, mort, bigd, mzen, rman, halaster
-▄ ▄       maxwell, fractal, silicon, cybernary, mrbigot, blade, rm,          █
-█   ▄ ▀ ▄ cthulu, _4thds, grnhornet, surreal logic, zardoz, misfit,
-  █ ▄▄▄▄  sk, basette, mrb, whtetrash, s5, rebal, jester, and sugar.      ▀▀▀▀
+▀                                                                 
+▄ ▄                                                                          █
+█   ▄ ▀ ▄                                                          
+  █ ▄▄▄▄                                                                  ▀▀▀▀
 █ ▀▀█  ▀
 █   █  ▀ ▀ ▀▀▀  ▀▀▀▀▀▀▀▀▀   [30m-[0;37m- intrepid (fire/765)[0m
-[37m▀▀▀▀▀  ▄[0m   [37mp.s: if i forgot you, let me know. [0m'
+[37m▀▀▀▀▀  ▄[0m   [37m                                   [0m'

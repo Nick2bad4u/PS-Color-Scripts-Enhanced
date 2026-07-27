@@ -5,7 +5,7 @@
 # Source SHA-256: 53f604296eb4ce5a016c7bcbe0d71934355f603151e0cbc636c491b6b41d2b2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LRY-SSSS.ANS by larry (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "s"
 # SAUCE Author: larry
 # SAUCE Group: ega
@@ -35,6 +35,5 @@ Write-Host '
        [30;45m [0;35;40m███►[0;37;40m [0;34;40m▀▀▀[0m   [35;40m"²%$[0;1;30;40m$[0mS2[1;30m²²²²²²2$[0m$$[1;30m$[0;35m$P"[0m     [1;37mo █[0;1;34m█▓[0;1;37m█[0m [1m█[0;1;34m█▓[0;1;37m█[0m [1mO[0m
   [34m██[0m   [35m█████[0m                                  [33m▄[0;1;31m▄▄▄▄▄▄▄▄▄▄[0m
        [35m█████[0m       [1;30m±±  49 89 3²9²864O[0m         [33m▀█[0;1;31;43m▒▒[0;1;31;40m█████▓▀[0m
-       [35m████[0;1;34;45m█[0;34m█[0;37m [0;1;30misdn.v34.2nodes.3gigs.sbr.sega.[0m  [33m▀[0;1;31m▀▀▀███▀▀[0m    [1;30mop''d.by.larry.and[0m
-       [35m█████[0;37m  [0;1;30mart.skyjump.hbe.ega.++30grewps![0m               [1;30mchrispee.of.sega![0m
-      [35m        [0m'
+       [35m████[0;1;34;45m█[0;34m█[0;37m [0;1;30m                               [0m  [33m▀[0;1;31m▀▀▀███▀▀[0m    [1;30m                 [0m
+       [35m█████[0;37m  [0;1;30m                               [0m               [1;30m                 [0m'

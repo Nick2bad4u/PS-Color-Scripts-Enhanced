@@ -5,7 +5,7 @@
 # Source SHA-256: de7ce7727603f9629c76939e2f222a9fbd8309ab0c47f304abb995b97365bea9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VG-MIST2.ANS by vertigo (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mist 2
 # SAUCE Author: vertigo
 # SAUCE Group: haze
@@ -51,17 +51,17 @@ Write-Host '
                             [1;30m     [0m
                            [1mm[0;36mi[0;1;34ms[0;1;30mt[0;34m.[0;1;37m619[0;34m.[0;36m727[0;34m.[0;1;34mSTI[0;1;30mF([0;1;37m7[0;36m8[0;1;34m4[0;1;30m3)[0m
                            [1mo[0;36mb[0;1;34mv[0;1;30m²[0m [34m.[0;1;37m1[0;36m4[0;1;34m.[0;1;30m4[0;34m.[0m
-                           [1;37ms[0;36my[0;1;34ms[0;34m.[0;1;37mve[0;36mrt[0;1;34mig[0;1;30mo([0;1;37mb[0;36mle[0;1;34mac[0;1;30mh[0;34m.[0;1;37mh[0;36ma[0;1;34mz[0;1;30me[0;34m.[0;1;37mv[0;36mir[0;1;34mtu[0;1;30me)[0m
-                   [1;30m [0m       [1mc[0;36mo[0;1;34ms[0;34m.[0;1;37mps[0;36mion[0;1;34mid[0;1;30me([0;1;37mh[0;36maz[0;1;34me[0m [1;34mS[0;1;30mS)[0m
-                               [1mf[0;36maa[0;1;34mz[0;1;30my([0;1;37mv[0;36mir[0;1;34mtu[0;1;30me)[0m
-                           [1mb[0;36mle[0;1;34mac[0;1;30mh([0;1;37mm[0;36mem[0;1;34mbe[0;1;30mr)[0m
-                           [1mh[0;36ma[0;1;34mz[0;1;30me([0;1;37mm[0;36mem[0;1;34mbe[0;1;30mr)[0m
-                           [1mv[0;36mir[0;1;34mtu[0;1;30me([0;1;37mm[0;36mem[0;1;34mbe[0;1;30mr)[0m
+                           [1;37m [0;36m [0;1;34m [0;34m [0;1;37m  [0;36m  [0;1;34m  [0;1;30m  [0;1;37m [0;36m  [0;1;34m  [0;1;30m [0;34m [0;1;37m [0;36m [0;1;34m [0;1;30m [0;34m [0;1;37m [0;36m  [0;1;34m  [0;1;30m  [0m
+                   [1;30m [0m       [1m [0;36m [0;1;34m [0;34m [0;1;37m  [0;36m   [0;1;34m  [0;1;30m  [0;1;37m [0;36m  [0;1;34m [0m [1;34m [0;1;30m  [0m
+                               [1m [0;36m  [0;1;34m [0;1;30m  [0;1;37m [0;36m  [0;1;34m  [0;1;30m  [0m
+                           [1m [0;36m  [0;1;34m  [0;1;30m  [0;1;37m [0;36m  [0;1;34m  [0;1;30m  [0m
+                           [1m [0;36m [0;1;34m [0;1;30m  [0;1;37m [0;36m  [0;1;34m  [0;1;30m  [0m
+                           [1m [0;36m  [0;1;34m  [0;1;30m  [0;1;37m [0;36m  [0;1;34m  [0;1;30m  [0m
 
 
 [1;30m▄▀▀▀▀ [0;1;36;46m▒[0m [1;36;46m▒[0m [1;34;44m▓[0;1;34;40m▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0m
-[1;30m█[0m     [1;36;46m░[0m [1;36;46m░[0m [1;34;44m▒[0m     [1;30mgreets[0;34m.[0;1;30mpsionide.asylum.faazy.suicyco.lordjazz.dweizel.[0m  [1;30m  [0m   [1;30m█ [0m
-[1;30m█     [0;36m▀▄▀[0;37m [0;1;34;44m░[0;34m▄[0;1;34;44m░[0m         [1;30mdeep(spiderman). and everone in Haze & Bleach      [0m    [1;30m█ [0m
+[1;30m█[0m     [1;36;46m░[0m [1;36;46m░[0m [1;34;44m▒[0m     [1;30m      [0;34m [0;1;30m                                               [0m  [1;30m  [0m   [1;30m█ [0m
+[1;30m█     [0;36m▀▄▀[0;37m [0;1;34;44m░[0;34m▄[0;1;34;44m░[0m         [1;30m                                                   [0m    [1;30m█ [0m
 [1;30m▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀[0m
 
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ one hundred lines, exactly ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

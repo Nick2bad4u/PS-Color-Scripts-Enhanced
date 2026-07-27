@@ -5,7 +5,7 @@
 # Source SHA-256: c9ba71de2bb256112d94c926fdbc381c1537bc4a9b6e3b495d37cccb770d4934
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BBALL.ANS by Hennifer + Warpus (lazarus); released in blndr006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blender #06
 # SAUCE Author: hennifer & warpus
 # SAUCE Group: lazarus
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [1;30mthe moon--->[0m [1;30m▄[0m                     [1;30mthe[0m           [32m     [0m
+  [1;30m            [0m [1;30m▄[0m                     [1;30m   [0m           [32m     [0m
                                    [1;30mblender![0m    [32m [0;1;37m▄▄[0;1;32m███[0;1;32;42m▒▒[0;32m▄▄ [0m
                           [32m▄[0;1;32m▄[0;1;37m▄[0m            [1;30m\[0m    [1;32m▄█▀[0;32m [0;1;30m▄[0;1;37m▄▄▄[0m▄[32m ▀█▄[0m
         [1;32m▄[0;32m▄ [0m              [1;30;42m▒[0;32m██[0;1;32;42m▒[0;1;32;40m▌[0m               [32m▒[0;1;32;42m▒[0;32m [0;37m▄[0;1;37;47m▄[0;1;37;40m██▀▀▀[0;1;37;47m▒[0m▄[32m [0;1;30;42m▒▓[0m [32m  ▄▄[0;1;32m▄████▌[0;32m [0m
@@ -37,12 +37,4 @@ Write-Host '
 [1;30mit was kind of the "space jam"[0m          [32m▀[0;1;32m▀[0;1;32;42m▒▒ [0;1;30;40m▀[0;32m█[0;1;32;42m▄[0;32m██▄[0;1;30m▄[0;1;32m ▀▀[0;1;32;42m▀█████[0;1;32;40m▀[0;1;36;40m▀▀[0m [1;30m▄▒[0m
 [1;30mblender =)[0m                                     [1;32m▀[0;1;32;42m▓[0;32m█████[0;1;30;42m▀[0;32m▄▄[0;1;30m▄▄▄▄▄███▀[0m
                                                  [1;32m▀[0;32m▀[0;1;32;42m▄[0;1;30;42m░[0;32m█[0;1;30;42m ▒▒▓▓▓[0;1;30;40m██▀▀[0m
-[1;30mansi by hennifer/warpus.[0m                              [1;30m▀▀▀▀▀▀[0m
-
-[1;30mbtw, we also did a song, so GET[0m
-[1;30mTHE LATEST BLENDER[0m [1;30mAND CHECK IT OUT![0m
-
-
-[1mLAZARUS:[0;1;33m WE''LL [0;1;37mRIP OUT YOUR GUTS[0;1;33m AND [0;1;37mCHEW THEM[0;1;33m AND THEN [0;1;37mHANG THEM[0;1;33m FROM YOUR [0m
-         [1;33mEARS LIKE THOSE THINGS THAT HOLD GLASSES AROUND YOUR HEAD WHEN YOU''RE[0m
-         [1mPLAYING SPORTS!![0;1;33m  [0m'
+[1;30m                        [0m                              [1;30m▀▀▀▀▀▀[0m'

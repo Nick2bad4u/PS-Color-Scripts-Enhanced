@@ -5,7 +5,7 @@
 # Source SHA-256: af69a5f375e72770f066b531385beef7401e90ebc2f5c5e25fbc854e5221c806
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-SLRD.ANS by Pyx (bmb-0496); released in bmb-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -47,11 +47,4 @@ Write-Host '
 [1;30m               [0;30;47m   [0;37;40m█████████[0;1;30;40m█ [0m█[1;30;47m░[0m██████[1;30;47m [0m███[1;30m▀ [0;1;30;47m            [0;1;30;40m▀[0m
 [1;30m               [0;30;47m    [0;1;30;47m█[0m███████[1;30m█ [0m██████[1;30m█           [0;1;30;47m    [0;1;30;40m█[0m
 [1;30m               [0m█[1;30;47m   █[0m███████[1;30m█ [0m██████[1;30m█           [0;1;30;47m    [0;1;30;40m█[0m
-[1;30m               [0m███[1;47m [0;1;30;47m█[0m███████[1;30m▀ [0m██████[1;30m▀           [0;1;30;47m    [0;1;30;40m▀ [0;31mWL[0;37m                        [0m
-[37m                                                                               [0m
-[37m                                                                               [0m
-[37m                                                                               [0m
-[31m           [0;1;35m.[0;35mthis[0;1;35m.[0;35mis[0;1;35m.[0;35mmy[0;1;35m.[0;35mfirst[0;1;35m.[0;35mwork[0;1;35m.[0;35mfor[0;1;35m.[0;35mnft[0;1;35m.[0;35mand[0;1;35m.[0;35malso[0;1;35m.[0;35mmy[0;1;35m.[0;35mfirst[0;1;35m.[0m
-[1;35m          .[0;35mansi[0;1;35m.[0;35malso[0;1;35m.[0;35mnot[0;1;35m.[0;35mbeeing[0;1;35m.[0;35mjust[0;1;35m.[0;35ma[0;1;35m.[0;35mfont[0;1;35m.[0;35mso[0;1;35m.[0;35mdont[0;1;35m.[0;35mlaugh[0;1;35m.[0;35m;)[0;1;35m.[0m
-[1;35m              .[0;35mhmm[0;1;35m.[0;35mim[0;1;35m.[0;35mnot[0;1;35m.[0;35mdissappointed[0;1;35m.[0;35mabout[0;1;35m.[0;35mit[0;1;35m.[0;35manyway[0;1;35m.[0m
-[1;35m                   .[0;35mwolf[0;1;35m.[0;35mtaking[0;1;35m.[0;35ma[0;1;35m.[0;35mnap[0;1;35m. .[0;35mnft[0;1;35m.[0;35min[0;1;35m.[0;35m95![0;1;35m.[0m'
+[1;30m               [0m███[1;47m [0;1;30;47m█[0m███████[1;30m▀ [0m██████[1;30m▀           [0;1;30;47m    [0;1;30;40m▀ [0;31mWL[0;37m                        [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4ff0f8a0dc664a214d5dda9342470ccd3e8f83083f1d17575d34dd840682b7a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HAJI-01.ANS by haji (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: _[22[\\\         0 _ _  ~_0^[[\
 # SAUCE Author: haji
 # SAUCE Date: 19960917
@@ -16,7 +16,7 @@
 Write-Host '
                   [1m [0m
          [1;32m [0m      ▄[1m▄ [0m
-           ▄[1m▄[0;1;47m▄[0;1;40m██▀[0m   [1;32mconstant flatulance- where the cheese on the moon[0m
+           ▄[1m▄[0;1;47m▄[0;1;40m██▀[0m   [1;32m                                                 [0m
          ▄[1;47m▄[0;1;40m███▀ [0m  [1;32m/[0m  [1;32mis motzarella.. .               [0m
         ▐[1;47m▐█[0;1;40m▐▐▌[0m                    [1m    [0m
         █[1m██▐▐[0m             ▄[1m▄▄[0;1;47m▄▄[0;1;40m▀▀[0;1;47m▀▀[0;1;40m█▄▄▄▄[0m                        [31m░░░[0m
@@ -31,5 +31,4 @@ Write-Host '
                    [34m░▓▓▓▒▒▒▓▓▓▓▓▓▓▓▓▓▓░░▒▒▓█[0;37m ▀[0;1;37m▀▀▀▀[0m [34m▒▓▓▓▓▓▒▒▒▒▒▒▒▒▓▓▓▓▓▒░░[0m
                     [34m▒▒▒░░░░░░▒▒▒▒▒▒▒▒▒▒▒░▒▒▓▓▓▓▓▓▓▓▒▒▒▒░░░░░░░░░▒▒▒▒▓░░[0m
                     [34m░░░[0m        [34m░░░░░░[0m        [34m▒▒▒▒░[0;37m  [0;34m░░░[0m         [34m░░░░▒░[0m
-                          [1;34mconstant flatulence[0m [34m░░░[0;37m [0;1;34m(nE0)wO1-k1BE[0m     [34m░[0m
-                          [30msteven straka''s big balls 961-5123[0;1;34m   [0m'
+                          [1;34m                   [0m [34m░░░[0;37m [0;1;34m             [0m     [34m░[0m'

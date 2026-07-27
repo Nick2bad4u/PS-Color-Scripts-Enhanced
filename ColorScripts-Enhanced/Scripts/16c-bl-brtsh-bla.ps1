@@ -5,7 +5,7 @@
 # Source SHA-256: 43fb24fb9d5275092ce24bb62a9def6569b8b8f775e22982ae1186d9a9f1d7b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLA.ANS by nemo (awe); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: boil.no.4.guest.appear
 # SAUCE Author: nemo
 # SAUCE Group: awe
@@ -26,7 +26,7 @@ Write-Host '
 
 
 
-                                 [30;42mb[0;32;40mladers suck =)[0m
+                                 [30;42m [0;32;40m              [0m
 
 
 
@@ -62,5 +62,4 @@ Write-Host '
 [34;41m$[0;31;44m$[0;35;40m;[0m        [36;40m [0;34;40m`[0;31;40m"`[0;36;40m [0m      [31;40m;[0;34;40m [0m     [34;40m`''[0m     [34;40m; [0;36;40m [0m      [34;40m:l [0;36;40m [0m      [34;40m;$[0;35;44m$[0;37;40m  [0;34;40m  [0;32;40m      _      [0;35;40m [0m   [31;44m$[0m
 [30;45m$[0;34;45m$[0;34;40ml[0m                  [31;40m,[0;31;44m$[0;34;40m, [0m         [34;40m ,l [0m        [34;40m:  [0m      [34;40ml$[0;30;44m$[0m   [34;40m              [0m    [30;44m$[0m
 [35;40m$[0;30;45m$[0;34;45m$[0;35;44my[0;34;40my[0;35;44my[0;34;40my@@@[0;30;44m$@[0;34;40m@yy╓╓y@S$[0;30;44m$$[0;34;40m$[0;30;44m$[0;34;40ms╓╓,,╖╖s@$$$yyy@@@SS[0;30;44m$$[0;34;40myyyyy@[0;30;44m@[0;34;40m@[0;30;44m$$[0;34;40m$[0;30;44m╖╓[0;34;40m╖╓╖╖╖╓yyyyyyy@@@[0;30;44m@@[0;34;40m@$[0m
-[35;40m""""[0;34;40m""""""""""""""""^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^```````````````````````[0m
-[37;40m                                                                       [0;34;40mnemo(awe)[0m'
+[35;40m""""[0;34;40m""""""""""""""""^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^```````````````````````[0m'

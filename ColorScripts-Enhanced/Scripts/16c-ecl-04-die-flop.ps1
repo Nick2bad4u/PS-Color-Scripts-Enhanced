@@ -5,7 +5,7 @@
 # Source SHA-256: 58bb04f894922a5dcd1d8d5d3fd0250570bf1867810a9e0dab7ddbabe7bb6ee9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DIE-FLOP.ANS by dieznyik (eclipse); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fringe's FLOP!@#
 # SAUCE Author: dieznyik
 # SAUCE Group: eclipse
@@ -30,6 +30,4 @@ Write-Host '
 [31m"''""[0;1;31m"[0m [1m$[0;1;35m$[0;1;37m$[0;1;35m$s[0;35ms$[0;1;35;45m$[0;35m$[0;30;45m$[0;35;40mbs,`[0;1;34;40m░[0;35m$²[0;1;35m░$$[0;35m$[0;1;35;45m$[0;1;35;40m$[0;35m$s, `Y$[0;1;35m░$$[0;35m^s.[0;1;33m [0;35m`$$[0;1;35;45m$[0;1;35;40m$[0;1;37;40m$[0;1;35;40m$$$[0;35mS[0;1;35;45m$[0;35m$Ss.[0;1;33m [0;35m`²$$$[0;1;35m$²$[0;1;37m$[0;1;35m░$&$[0;1;37m$$[0m [31m"[0;1;31m"[0;1;33m""[0;1;37m"[0m
 [31m""''""[0;37m [0;1;37m$$[0;1;35m$$[0;35m$&[0;1;35m$[0;35m$²²$$[0;1;35m░[0;35m$s²s$[0;1;35m$[0;1;37m░[0;1;35m$$[0;1;37m$[0;1;35m$[0;35m²$$Ss.²$[0;1;35m$[0;1;37m$[0;1;35m$[0;1;35;45m$[0;35m$Ss`²$[0;1;35m$[0;1;37m░$$[0;1;35m$$$[0;35m$[0;1;35m$[0;35m$$Ses`²½s[0;1;35m%$$$[0;1;37m$$[0;1;35m$[0;1;37m$[0m [31m"''[0;1;31m"[0;1;33m''[0;1;37m"[0m
 
-[31m§ [0;30;41m►[0;1;37;41m░▒▓█[0;1;37;40m► [0;30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [1m§[0m
-
-Er, it DOES say something, and that something = fLOP. this is for fringe... diez[0m'
+[31m§ [0;30;41m►[0;1;37;41m░▒▓█[0;1;37;40m► [0;30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [30;41m►[0;1;37;41m░▒▓█[0;1;37;40m►[0m [1m§[0m'

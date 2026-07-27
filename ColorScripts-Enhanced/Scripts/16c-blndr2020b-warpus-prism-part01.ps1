@@ -5,7 +5,7 @@
 # Source SHA-256: 13d0c75ede787c0a284874615f061f092716457206030db644343bea3ec35ad0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: warpus-prism.ans by warpus (LAZARUS); released in blndr2020b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Scott's Prism Thang
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -21,11 +21,11 @@ Write-Host '
 [1;32m█████████████████████████████████████████████████████████████████████████████████████████████████████████[0m
 [1;32m█████████████████████████████████████████████████████████████████████████████████████████████████████████[0m
 [1;32m█████████████████████████████████████████████████████████████████████████████████████████████████████████[0m
-[1;32m████[0;30;102mWithout any further ado, say hello to our next contestant, Scott Peterson!                       [0;1;32m████[0m
+[1;32m████[0;30;102m                                                                                                 [0;1;32m████[0m
 [1;32m██[0;30;102m                                                      [0;1;32m█████████████████████████████████████████████████[0m
-[1;32m████[0;30;102mHailing all the way from Portland, a small village in central Nepal, Scott has been practicing  [0;1;32m█[0;30;102m    [0m
-[1;32m████[0;30;102mthe art of refractive kung fu dancing since the 1960s.  Today Scott will be performing a diffuse     [0m
-[1;32m████[0;30;102mreaction for us, hoping to achieve degrees of refraction never before seen on television.[0;1;32m██████[0;30;102m  [0;1;32m████[0m
+[1;32m████[0;30;102m                                                                                                [0;1;32m█[0;30;102m    [0m
+[1;32m████[0;30;102m                                                                                                     [0m
+[1;32m████[0;30;102m                                                                                         [0;1;32m██████[0;30;102m  [0;1;32m████[0m
 [1;32m█████████████████████████████████████████████████████████████████████████████████████████████████████████[0m
 [1;32m█████████████████████████████████████████████████████████████████████████████████████████████████████████[0m
 [1;32m█████████████████████████████████████████████████████████████████████████████████████████████████████████[0m

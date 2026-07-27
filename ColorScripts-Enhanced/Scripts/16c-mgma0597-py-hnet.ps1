@@ -5,7 +5,7 @@
 # Source SHA-256: 6ca39857013bfdaffb9ae94121a026bb581d64eaede4f29dc3629b977a6c1a4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PY-HNET.ANS by Pyhrrus (mgma0597); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -30,9 +30,9 @@ Write-Host '
 [37m  [0;1;30m▐█▀[0m        [1;30m [0;1;30;42m▓[0;1;30;46m██[0;1;30;40m▀[0;31m   [0;30;46m█[0;36;40m    [0;1;30;40m█▀[0m        [1;30m [0;1;30;42m▓[0;1;30;46m██[0;1;30;40m▀[0;31m   [0;30;46m█[0;1;30;42m▓[0;1;30;46m██[0;1;30;40m▀▄█[0;1;30;42m▓[0;1;30;40m██[0;1;30;42m▒▓[0;1;30;40m██▀[0;36m   [0;31m [0;1;30;42m▓[0;1;30;46m██[0;1;30;40m▀[0;32m           [0;36m  [0m
 [37m  [0;1;30m▀[0;30;46m█[0m          [1;30;40m█▀[0m     [30;46m█[0;36;40m   [0;37;40m [0;30;46m█[0m          [1;30;40m█▀[0m     [30;46m█[0;1;30;40m█▀▄█████[0;1;30;42m▓[0;1;30;40m█▀[0m       [1;30m█▀[0;32m          [0m
                                                 [32m [0m                [32m [0m
-                     [32m       Hangar-net[0m
-[32m([0;1;32mP[0;1;30my)[0m              [32mCreated by Chainsaw s:Hangar18[0m
+                     [32m                 [0m
+[32m [0;1;32m [0;1;30m  [0m              [32m                              [0m
 [1;30m---------[cut]--------[cut]------------[cut]-----------[cut]-----------[cut]----[0m
-[1;32mH[0;32me[0;1;30mre ya go Chainsaw.. Hope ya like it.. uhm.. GREETZ!:JInx(who did touchups) db[0m
-[1;30mGremlin, ab, [0muhhh di and cd.. and uhmm uh thats it and stuff
+[1;32m [0;32m [0;1;30m                                                                             [0m
+[1;30m             [0m                                               
              [32m               [0m    [1;30m    [0;31m [0;36m       [0;30;46m█[0m'

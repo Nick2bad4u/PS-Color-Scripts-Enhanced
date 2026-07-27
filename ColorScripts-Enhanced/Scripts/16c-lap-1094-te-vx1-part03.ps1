@@ -5,7 +5,7 @@
 # Source SHA-256: be4fadbc4cf69f55f51d61f6fc07646b624660fe2bf713a4a92a056ad6abb24d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-VX1.ANS by Tae (Lapse Productions); released in lap-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Violator X
 # SAUCE Author: Tae
 # SAUCE Group: Lapse Productions
@@ -51,13 +51,12 @@ Write-Host '
 [1;30;40m [0;1;30;47m▓▓▒░[0;1;37;47m░▒▓▓[0m                    [31m▀[0;31;41m [0;31;40m▀[0m                 [31;40m▀[0;31;41m [0;31;40m▀[0m                   [1;37;47m▓▓▒░[0;1;30;47m░▒▓▓[0m
  [1;47m▓▓▒░[0;1;30;47m░▒▓▓[0m  [36m-    Vi0LÆT0R-X ∙ Vi0LÆT0R-X ∙ Vi0LÆT0R-X ∙ Vi0LÆT0R-X    - [0;1;30;47m▓▓▒░[0;1;37;47m░▒▓▓[0m
 [1;37;40m [0;1;37;47m▓▒░  [0;1;30;47m░▒▓[0m  [36m-[0m                                                         [36m- [0;1;30;47m▓▒░  [0;1;37;47m░▒▓[0m
-[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m-   Yo! Stats here, Change to any color config. Change    - [0;1;30;47m▒░    [0;1;37;47m░▒[0m
-[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m-    anything within these 2 walls, Leave all other[0m       [36m- [0;1;30;47m▒░    [0;1;37;47m░▒[0m
-[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m-    objects as-is. Saved in 70 Line mode. If you[0m         [36m- [0;1;30;47m▒░    [0;1;37;47m░▒[0m
-[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m-   need me to add your stats, leave me mail on my BBS    - [0;1;30;47m▒░    [0;1;37;47m░▒[0m
-[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m-   with what you want in them, and what color scheme.    - [0;1;30;47m▒░    [0;1;37;47m░▒[0m
-[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m-  <-- Delete these ugly hyphens! StatsStatsStatsSta -->  - [0;1;30;47m▒░    [0;1;37;47m░▒[0m
-[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m-  <-- Delete these ugly hyphens! StatsStatsStatsSta -->  - [0;1;30;47m▒░    [0;1;37;47m░▒[0m
-[1;37;40m [0;1;37;47m▓▒░  [0;1;30;47m░▒▓[0m  [36m-  <-- Delete these ugly hyphens! StatsStatsStatsSta -->  - [0;1;30;47m▓▒░  [0;1;37;47m░▒▓[0m
-[1;37;40m [0;1;37;47m▓▓▒░[0;1;30;47m░▒▓▓[0m  [36m-  <-- Delete these ugly hyphens! StatsStatsStatsSta -->  - [0;1;30;47m▓▓▒░[0;1;37;47m░▒▓▓[0m
-                                                                       [1;30;40mTE/Lapse[0m'
+[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m                                                            [0;1;30;47m▒░    [0;1;37;47m░▒[0m
+[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m                                                   [0m       [36m  [0;1;30;47m▒░    [0;1;37;47m░▒[0m
+[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m                                                 [0m         [36m  [0;1;30;47m▒░    [0;1;37;47m░▒[0m
+[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m                                                            [0;1;30;47m▒░    [0;1;37;47m░▒[0m
+[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m                                                            [0;1;30;47m▒░    [0;1;37;47m░▒[0m
+[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m                                                            [0;1;30;47m▒░    [0;1;37;47m░▒[0m
+[1;37;40m [0;1;37;47m▒░    [0;1;30;47m░▒[0m  [36m                                                            [0;1;30;47m▒░    [0;1;37;47m░▒[0m
+[1;37;40m [0;1;37;47m▓▒░  [0;1;30;47m░▒▓[0m  [36m                                                            [0;1;30;47m▓▒░  [0;1;37;47m░▒▓[0m
+[1;37;40m [0;1;37;47m▓▓▒░[0;1;30;47m░▒▓▓[0m  [36m                                                            [0;1;30;47m▓▓▒░[0;1;37;47m░▒▓▓[0m'

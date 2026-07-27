@@ -5,7 +5,7 @@
 # Source SHA-256: 0cfc6ef3784787593e02d43951a253280943281dc8ce5899547ebb3ca5062055
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-RPR01.ANS by The Reaper (Purg Productions); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: The Reaper
 # SAUCE Group: Purg Productions
 # SAUCE Date: 19990901
@@ -17,7 +17,7 @@ Write-Host '
   [1;30m▄▄[0;1;30;47m▀▀[0;1;30;40m▌[0m [1;30;47m░[0m [1;30m▐[0;1;30;47m▀▀▀[0;1;30;40m▄[0m   [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30;47m▓▀ [0;1;37;47m░[0;30;47m░[0;1;30;40m▀[0;31m [0;37m▀[0;1;30;47m▓[0m▀ [1;30m▀[0;1;30;47m▓▒[0;1;37;47m▓[0;1;30;47m▀▓[0m [1;30;47m▓▒▒░░[0;30;47m   tee_are and purg productions presents Aliens.    [0;1;37;47m░░▒▒▓[0m
 [1;30;40m▐[0;1;30;47m▄[0;1;30;40m▀[0m▄[1;30;47m░▒▓█[0;1;30;41m▓[0;1;30;47m▓▒░[0;1;37;47m [0m▄[1;30m▀[0;1;30;47m▄[0;1;30;40m▌[0m ▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30m▌[0m▄▀▀ [1;30m▄[0m [1;30;47m▓█[0;1;30;41m▒[0m [1;30m▄[0m ▀▀▄[1;30m▐[0m he reaper(purg) brings Rapier.  After fondling this pic for a
+[1;30m▌[0m▄▀▀ [1;30m▄[0m [1;30;47m▓█[0;1;30;41m▒[0m [1;30m▄[0m ▀▀▄[1;30m▐[0m                                                              
 ▐▌[1;30m▄[0;1;30;47m▀▀▐[0;31m [0;1;30;47m▒▓█[0;31m▌[0;1;30;47m▌▀▀[0;1;30;40m▄[0m▐▌[1;30m▌[0m solid month, I''ve decided to alter it alot and release it.
 [1;30m▐[0;1;30;47m ░[0;1;37;47m▐▌[0;1;30;47m▐[0;31m▌[0;1;30;47m░▒▓[0;31m▌[0;1;30;47m▌ [0;1;37;47m░[0;30;47m░[0;1;30;47m [0;1;30;40m▌[0m This is the second in my ''alien compilation''.
 [31m [0;1;30m▀[0;1;30;47m▄[0;1;37;47m▀[0;30;47m░[0;1;30;47m▐[0;31m▌[0;1;37;47m░[0;30;47m░[0;1;30;47m▒[0m [1;30;47m▌[0;1;37;47m░[0;1;30;47m░▄[0;1;30;40m▀[0;31m [0;37m [0m                                                   [37m-//tee_are[0m
@@ -45,7 +45,7 @@ Write-Host '
                                        [1;36m▄[0m
                                        [36m█[0m
                    [37m    [0m                [1;34m▄[0m
-                     2000 coming..     [1;34m█[0m
+                                       [1;34m█[0m
                                  [33m▄[0m     [34m█[0m     [33m▄▄[0m
                       [33m░[0;30;43m▓[0;37;40m [0;30;43m▓▒▒░░[0;1;30;43m [0;33m▀▀[0;37m [0;34m [0;33m▄[0;37m  [0;1;34;44m █▄[0;34m▄[0m   [37m [0;33m ▀▀[0;1;30;43m [0;30;43m░░▒▒▓[0;37;40m [0;33;40m░[0;30;43m▓[0m
                            [34;40m [0;37;40m [0;33;40m▀[0;1;30;43m░▒[0;33m▄[0;34m [0;33m▀[0;37m [0;34m▄[0;1;34;44m▄████▄[0;34m▄[0;37m [0;33m▀▄▄[0;37m  [0;34m [0;33m▀▀▀[0m
@@ -60,5 +60,4 @@ Write-Host '
                  [37m [0m   [37mwho will[0m     [34m▄[0;1;34;44m▄█[0;1;34;46m▓▓▓▒▒[0;1;34;44m██▀▀[0;34m▀[0;36m [0;37m [0;33m [0;1;30m▄[0m   survive...
                                  [34m▀[0;1;34;44m▀█[0;1;34;46m▓▓▒▒[0;1;34;44m██▀[0;34m▀[0;37m     [0m
                                  [37m [0;34m ▀▀[0;1;34;44m▀▀█▀[0;34m▀[0;37m   [0m
-                                 [37m      [0;34m▀[0;37m            [0m
-'
+                                 [37m      [0;34m▀[0;37m            [0m'

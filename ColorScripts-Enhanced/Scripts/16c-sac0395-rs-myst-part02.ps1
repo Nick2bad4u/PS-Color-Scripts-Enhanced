@@ -5,7 +5,7 @@
 # Source SHA-256: 721d7bd82d843da490505b796f1a6a7005a417d4bcc3f3089a41c0ed75dc74dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-MYST.ANS by raiser; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: MYSTERY 1ST.
 # SAUCE Author: RAiSER
 # SAUCE Group: SAC
@@ -59,5 +59,4 @@ Write-Host '
 [1;30m█▓▓▓▒▒░░░▒░░░[0m   [1;30m░ ░[0m    [33m▀[0;1;31;43m░▒[0;1;31;40m▌[0m   [1;31;43m░▒▓▓[0;1;31;40m███████████████▀▀▀[0m   [34m░[0;37m [0;34m░░░[0;37m [0;34m░░[0;37m [0;34m░░[0;37m [0;1;30m▐[0;1;30;42m▓[0;1;30;40m▀▀▀[0m [34m░[0;37m [0;34m░[0;37m [0;34m░[0;37m [0m
 [1;30m██▓▓▓▒▒▒░▒░░[0m [1;30m░[0m [1;30m░░[0m  [1;30m░[0m     [33m▀▓[0;37m   [0;1;31;43m░▒▓[0;1;31;40m█████████▀▀▀▀[0m       [34m░░[0m  [34m░░░░░[0m [34m░░[0m [34m░[0m [34m░░░░░[0m [34m░[0m [34m░[0m
 [1;30m████▓▓▓░▒░▒▒░░[0m [1;30m░[0m [1;30m░[0m                                [34m░░[0m [34m░[0m [34m░[0m [34m░[0m [34m░[0m  [34m░░░░[0m [34m░[0m   [34m░[0m [34m░[0m [34m░░░[0;37m [0m
-[1;33m▄[0;1;30m [0;1;33m▄▄▄▄▄▄[0;32m▄[0;1;33m▄[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄[0;32m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;32m▄[0;1;30m▄[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33m▄[0;32m▄[0;1;33m▄▄▄▄▄▄[0;1;30m [0;1;33m▄[0m
-'
+[1;33m▄[0;1;30m [0;1;33m▄▄▄▄▄▄[0;32m▄[0;1;33m▄[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄[0;32m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;32m▄[0;1;30m▄[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33m▄[0;32m▄[0;1;33m▄▄▄▄▄▄[0;1;30m [0;1;33m▄[0m'

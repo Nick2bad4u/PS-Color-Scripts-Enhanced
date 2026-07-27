@@ -5,7 +5,7 @@
 # Source SHA-256: 4445a9072dd3889857abab6c4bade3e57c8827b969a588e78bacccacc05fe1d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-ninjapenguin13.ans by Smooth + The Knight + Warpus + Zeus Ii (Fuel & Blocktronics); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Vampire Alien Coffee
 # SAUCE Author: Several
 # SAUCE Group: Fuel & Blocktronics
@@ -56,8 +56,4 @@ Write-Host '
                                 [36m▓█[0;1;35;46m██▄▄[0;36m██▓[0;1;35;46m▄▄[0;36m█[0;1;35;46m▀[0;36m█[0;1;37;46m■[0;36m██▀▀[0m
                                  [36m▀▀█▓[0;1;35;46m▀▀▀[0;36m████▀▀▀[0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30m Joint ansi drawn live during NinjaPenguin #13 on pablodraw server and was[0m
-[1;30m live streamed on Twitch (https://www.twitch.tv/videos/433294596)[0m
-[1;30m Involved drawers: Misfit - Smooth - Warpus - The Knight - Zeus[0m [1;30mII.[0m
-[1;30m Thanks a lot to Zeus II for being the most motivational ''drill sergeant'' ;)[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

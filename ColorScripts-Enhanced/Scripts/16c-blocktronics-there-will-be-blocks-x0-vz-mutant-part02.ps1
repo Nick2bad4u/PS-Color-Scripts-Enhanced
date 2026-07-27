@@ -5,7 +5,7 @@
 # Source SHA-256: 5ac016ddae14a3f964ce7453c28358bdd2090f1b12a7c1a940a543ee910f8927
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: x0-vz-mutant.ans by Xer0 (blocktronics_there_will_be_blocks); released in blocktronics_there_will_be_blocks and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20170216
 # SAUCE Dimensions: 80x91
 # SAUCE Font: IBM VGA
@@ -56,5 +56,5 @@ Write-Host '
  [1;30m █▀ [0;1;31m▄[0;1;31;41m▀[0;31m▀█[0;1;31;41m▓[0;1;31;40m▄[0;1;31;41m▀░[0;31m▀    [0;1;30m▀▀▀    [0m  release this with the  hopes  it will     [1;31m [0;33;101m░[0;1;31m [0m [1;31m ░[0m
  [1;30m  [0;1;31m▄[0;1;31;41m▀[0;31m▀[0;1;30m  [0;31m█[0;1;31;41m▀░[0;31;45m▓▓[0;31;41m [0;1;31;41m▀▀▀▀▀[0;31m▌[0;1;31;41m▀[0;1;31;40m [0;1;31;41m▀[0m    inspire him  to  return  to  the fold      [33;101m░[0m
  [31m [0;1;30m▄▄▄▄▄░[0;31m▐[0;31;45m█[0;31;40m▀ [0;1;30;40m▄▄▄▄▄▄▄▄▄[0m      and  start  drawing amazing art again      [33;101m░[0m
- [1;30m [0mx[1;30mero[0mV[1;30mision[0m/[1mz[0mV[1;30m+[0;1;37mx[0m0[1;30m=[0m67                               [1;30m-[0m [1mx0[0;1;30m^[0m67[1;30m^[0mimp[1;30m![0m
+ [1;30m [0m [1;30m   [0m [1;30m     [0m [1m [0m [1;30m [0;1;37m [0m [1;30m [0m                                 [1;30m [0m [1m  [0;1;30m [0m  [1;30m [0m   [1;30m [0m
                                                                              [30mx0[0m'

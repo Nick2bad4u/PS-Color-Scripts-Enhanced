@@ -5,7 +5,7 @@
 # Source SHA-256: 126e84473d9e46538dd8dbd6c78bc316637bb4c703854aa70133ebc03028a882
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DE-CHRM.ANS by Dragons Eye (dyn9406); released in dyn9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -51,11 +51,11 @@ Write-Host '
                                                              ▀
 
                        [32m▄[0;1;33;42m▓▓██[0;1;32;42m▓▓▓███[0m [1;32;40m▀▄▀▄[0;1;37;40m▄▀ ▄[0m            [1;37;40m▀[0m          [31m/┤nsi:[0m
-                      [1;33;42m▓▓[0m                                [1;37;40m▄[0m      [31mDra[0;1;37mgon''s [0;31mEye[0m
-                      [1;33;42m██[0m      [1;32;40mT[0;1;37;40mh[0;1;32;40me C[0;1;37;40mhthon[0;1;32;40mic R[0;1;37;40mealm[0;1;32;40ms[0m      [1;32;40m▀[0m        [31m[D[0;1;31my[0;31mN[0;1;31ma[0;31mS[0;1;31mT[0;31my][0m
-                      [1;32;42m▓▓[0m     [1;32;40mS[0;1;37;40myso[0;1;32;40mp:  L[0;1;37;40mor[0;1;32;40md S[0;1;37;40mandwi[0;1;32;40mch[0m     [1;32;40m▄▀[0m
-                      [1;32;42m▓▓[0m [1;32;40mC[0;1;37;40mo-[0;1;32;40mS[0;1;37;40mysop[0;1;32;40ms:  N[0;1;37;40meco/X\anc[0;1;32;40mer[0m      [1;32;42m██[0m
-                      [1;32;42m██[0m             [1;32;40mC[0;1;37;40mrysta[0;1;32;40ml S[0;1;37;40mpyri[0;1;32;40mt    [0;1;32;42m██[0m
+                      [1;33;42m▓▓[0m                                [1;37;40m▄[0m      [31m   [0;1;37m      [0;31m   [0m
+                      [1;33;42m██[0m      [1;32;40m [0;1;37;40m [0;1;32;40m   [0;1;37;40m     [0;1;32;40m    [0;1;37;40m    [0;1;32;40m [0m      [1;32;40m▀[0m        [31m  [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m  [0m
+                      [1;32;42m▓▓[0m     [1;32;40m [0;1;37;40m   [0;1;32;40m     [0;1;37;40m  [0;1;32;40m   [0;1;37;40m     [0;1;32;40m  [0m     [1;32;40m▄▀[0m
+                      [1;32;42m▓▓[0m [1;32;40m [0;1;37;40m  [0;1;32;40m [0;1;37;40m    [0;1;32;40m     [0;1;37;40m         [0;1;32;40m  [0m      [1;32;42m██[0m
+                      [1;32;42m██[0m             [1;32;40m [0;1;37;40m     [0;1;32;40m   [0;1;37;40m    [0;1;32;40m     [0;1;32;42m██[0m
                       [1;37;40m▀▄[0m                               [1;32;42m▓▓[0m
                       [1;37;40m▀[0m          [1;32;40m([0;1;37;40m818[0;1;32;40m) 2[0;1;37;40m82[0;1;32;40m-[0;1;37;40m592[0;1;32;40m5[0m        [1;33;42m▓▓[0m
                        [1;37;40m▀[0m                               [1;33;42m██[0m

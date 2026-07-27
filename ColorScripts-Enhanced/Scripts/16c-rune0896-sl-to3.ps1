@@ -5,7 +5,7 @@
 # Source SHA-256: 889200a5d48e2a4ed3676fd223a1f8387570e4ba28b16af2348a6ac2a9071751
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-TO3.ANS by sinfful! (rune!); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: total! login froggy!
 # SAUCE Author: sinfful!
 # SAUCE Group: rune!
@@ -38,6 +38,4 @@ Write-Host '
    [36;40m└-[0;30;46m░░[0;36;40m-[0;30;46m░░[0;36;40m-[0;30;46m░░[0;37;40m [0;30;46m░░[0;36;40m [0;30;46m░░[0;36;40m-[0;30;46m░░[0;37;40m [0;30;46m░░[0;37;40m [0;30;46m░░[0;37;40m [0;30;46m░░[0;37;40m [0;36;40m│[0;37;40m [0;36;40mEnter passwrd: [0m                            [36;40m┤[0m
      [36;40m ▀▀▀[0m   [30;46m▄▄▄[0;37;40m  [0;36;40m ▀▀▀│[0;37;40m  [0;30;46m▄▄▄▄[0;37;40m [0;30;46m▄▄[0;37;40m [0;36;40m│-─ - ---- ─────-─-─- -─-──- ─-─-─-─-+─-─- ─-┘[0m
        [30;40m  [0m            [36;40m└-─[0;37;40m [0;36;40m-─-─- ─┘[0m
-[1;37;40m--------[kut-mee!]------------------------------------------------------------- [0m
-[1;37;40mthis is for my board... tOtal! ... it''s a login ansi.. this is original <to my[0m
-[1mknowledge> uhm, the frog with a fro sure is... =) uhm.. well laytah! -sl![0m<rune>[0m'
+[1;37;40m--------[kut-mee!]------------------------------------------------------------- [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 99b51ca327fcef126d4ea2f517fb43e79da484ea7c8e919a85c9f97d3fae4b05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-NODE.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-14
 # Columns: 1-80
 
@@ -19,8 +19,4 @@ Write-Host '
   [1m├┤[0;34m l$[0;1;34m$$$[0;34m$[0;1;30m+[0;34m [0;1;37m│''[0;34m $[0;1;34m$$$[0;1;30m$[0;34m [0;37m┼[0;34m l[0;1;34m$$$$$[0;1;30ma[0;34m  [0;1;34ma$$$[0;1;34;44m$$[0;1;34;40ml[0;34m l[0;1;34m$$$$[0;1;34;44m$[0;1;34;40ma[0;1;30;40m+[0m└[1m┼[0;34m`$[0;1;34m$$[0;1;34;44m$[0;1;34;40m7[0m┼┼[34m:[0;1;34m$$$[0;1;34;44m$[0;1;34;40m$[0;1;30;40mT[0;1;37;40m┼[0;34m T$[0;1;34m$[0;1;34;44m$[0;1;34;40m$$[0;1;30;40m:[0m
   [1m├┤[0;34m b$[0;1;34m$[0;34m@~`[0;37m+┼[0;1;37m┼[0m;[34m ;$[0;1;34m$$[0;1;30m$.[0m└┐[34m`~^[0;1;34m²``[0;1;30m `~''`[0;1;34m~`²''[0;34m  d[0;1;34m$$@$$[0;1;34;44m$[0;1;34;40m$[0;34ms.,s[0;1;34m$$$''[0m┼[34m [0;1;34ml$$$$$[0;1;30ma[0m┼┼[34ma$[0;1;34m$$$$[0;1;30ml[0m
   [1m├[0;1;47m┤[0;34m ''$` [0;37m,°┼[0;1;37m┼[0m┘°,[34m`~°²$[0;1;30m;[0;34m [0;1;37m┼[0m┼┬┬┼┼[1m┼┼┬┬[0m┼┼┼┼─┼┐[34m `~''"[0;1;34m""''[0m┌[1m┬[0m┬┬┐   [1m┼[0m┼┼[1;34m`~^²``[0m┼[34m`~''`~[0;1;34m`[0;1;30m²''[0m
-  [1m└┼┼''[0;34m [0;37m`┼┼[0;1;37m┼[0m┼┘         [1m┼┼┼─┼┴┼┼┼[0m┼┼┴┴┴┼[1m┼┼─┼─┼┼[0m┼┼┴┴┼[1m┼┼┼┼┼┼[0mΣΣ[1m┼[0m┼┼┴[1m┴┴┴+° [0;1;32mnode[0m
-                  [1;36m [0m                                                  [1;32mlisting[0m
-
-
-done for Wild World originally, use it if you''d like..leave the pm in there[0m'
+  [1m└┼┼''[0;34m [0;37m`┼┼[0;1;37m┼[0m┼┘         [1m┼┼┼─┼┴┼┼┼[0m┼┼┴┴┴┼[1m┼┼─┼─┼┼[0m┼┼┴┴┼[1m┼┼┼┼┼┼[0mΣΣ[1m┼[0m┼┼┴[1m┴┴┴+° [0;1;32mnode[0m'

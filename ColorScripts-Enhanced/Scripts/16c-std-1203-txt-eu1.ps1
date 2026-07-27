@@ -5,7 +5,7 @@
 # Source SHA-256: e11e927741100ce5df6b31433973f4b179d8676a6bedd30ff7772cecb2592855
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TXT-EU1.ANS by The Textorcist (57dd75); released in std-1203 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 7X70NDRU65
 # SAUCE Author: The Textorcist
 # SAUCE Group: 57dd75
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mpay him no mind[0m [1;30mpay him no mind[0m [1;30mpay him no mind[0m [1;30mpay him no mind[0m [1;30mpay him no mind[0m
-[1;30mpay him no mind[0m [1;30mpay him no mind[0m [1;30mpay him no mind[0m [1;30mpay him no mind[0m [1;30mpay him no mind[0m
-[1;30mpay him no mi[0;1;32m▒░[0m [1;30mpay him no mind[0m [1;30mpay him no mind[0m [1;30mpay him no mind[0m [1;30mpay him no mind[0m
+[1;30m               [0m [1;30m               [0m [1;30m               [0m [1;30m               [0m [1;30m               [0m
+[1;30m               [0m [1;30m               [0m [1;30m               [0m [1;30m               [0m [1;30m               [0m
+[1;30m             [0;1;32m▒░[0m [1;30m               [0m [1;30m               [0m [1;30m               [0m [1;30m               [0m
 [1;30mpay [0;1;33m▒[0;1;32m▒[0;1;30mm no [0;1;32m▒▒▒▒▒[0;1;30mpay h[0;1;32m▒[0;1;33m▒[0;1;30m no mind[0m [1;30mpay him no m[0;1;37m▒▒[0;1;30md[0m [1;30mpay [0;1;33m░░[0;1;30mm no mi[0;1;33m░░[0m [1;30mpay h[0;1;37m▒▒[0;1;30m no mind[0m
 [1;30mpay h[0;1;32m░░[0;1;30m no[0;1;32m░░░░░░░[0;1;30may [0;1;32m░░[0;1;30mm no [0;1;33m░░[0;1;30mnd[0m [1;30mpay[0;1;37m░░[0;1;30mim no [0;1;37m░░[0;1;30mnd[0m░░[1;30may [0m▒▒[1;30mm[0;1;33m░░[0;1;30mo[0;1;33m░░[0;1;30mi[0m▒▒ [1;30mpa[0m░░[1;30mhi[0;1;37m░░[0;1;30mno min[0;1;37m░░[0m
 [1;33m▄[0;1;30ma[0;1;33m▄▄░[0;1;30mi[0;1;32m▄▄██▓▓░░▒▓▓██▄▄[0;1;30mi[0;1;33m░▄▄[0;1;30mo[0;1;33m▄▓▓▄[0;1;30md[0;1;37m▄▒[0;1;30may[0;1;37m▒▒[0;1;30mim[0;1;37m▄▓▒[0;1;30m mi[0;1;37m▄[0m▓▓[1;30mpa[0m▓▓[1;30mhi[0m░[1;33m░░[0;1;30mo[0;1;33m░░[0m░[1;30mnd[0m▓▓[1;30may[0m▓▓[1m▄[0;1;30mm n[0;1;37m▒▓▄[0;1;30min[0;1;37m▒▒[0m
@@ -51,9 +51,4 @@ Write-Host '
 ▓▓██▓▓▀[1;33m▀▒▒░ ░░░ ░▒▒▀[0m▀▓▓██▓▓▄▀[1m██▒▓▄▀████▒▄▄█▄▓[0;1;33m▓▄▀▒▒░█▄[0;1;32m▄██▓▓▒░█▒[0;1;33m▄█░▒▒▀▄▓[0;1;37m▓▄█▄▄▒████[0m
   ▓▓  ░[1;33m░░  ░   ░  ░░[0m░  ▓▓  ▓▓[1m▄   ▒▓▄  ▒▒  ▒▄ [0;1;33m▄▓▓▄[0;1;32m [0;1;33m▄▄░[0;1;32m░▄▄██▓▓▒░░[0;1;33m▄▄ ▄▓▓▄[0;1;37m ▄▒  ▒▒  ▄[0m
 ░   ▒▒ [1;33m   ░░   ░░   [0m ▒▒   ░░ [1m ░░[0m      [1m░░[0m     [1;33m ░░[0;1;32m    ░░░░░ ░░░░░[0;1;33m    ░░ [0m     [1m░░[0m
-[1;33m    ░░[0m               [1;33m░░[0m      [1m▒▒[0m              [1;33m  [0m     [1;33m▒[0;1;32m▒▒▒   ▒▒▒░[0m
-
-
-          [1;36meuphoria - pay no attention to the man behind the curtain.[0m
-            [34mansi "artwork" by: the textorcist ([0;1;34mspread the disease[0;34m)[0m
-[37m [0;34m [0;1;33m  [0m  [1;33mthis one is dedicated to wik, who wanted to see something[0m [1;33mdifferent.[0m'
+[1;33m    ░░[0m               [1;33m░░[0m      [1m▒▒[0m              [1;33m  [0m     [1;33m▒[0;1;32m▒▒▒   ▒▒▒░[0m'

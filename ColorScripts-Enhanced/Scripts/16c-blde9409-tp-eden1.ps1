@@ -5,7 +5,7 @@
 # Source SHA-256: d21328f0081ad359025c4fd3d357fac6e8cecb45f1eca8357c3735df1515487d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-EDEN1.ANS by TechoPhreaK (Blade Productions); released in blde9409 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eden Logo/Ad
 # SAUCE Author: TechoPhreaK
 # SAUCE Group: Blade Productions
@@ -36,5 +36,4 @@ Write-Host '
 [36;40m ▐[0;36;42m▓▓▒▓▓▒▒░▒▒▒▒▒▓▒▓[0m    [36;40m▀[0;36;42m▓▓░▓▒▒▒░░▒▒░▒▓▒▒▒▓▒[0;32;40m▌[0;36;40m▄▀▀[0;36;42m▓▒▓▒▒▓▒▒░▒▒▓▒[0m [36;42m▒▓▓[0;36;40m▌[0m     [36;40m▀▐[0;36;42m▒▒▒░▒▒[0;32;40m▌[0m
 [36;40m▄▀▀ ▀▀▀[0;36;42m▓▓▒▓▓▓▓▓▒[0;36;40m▀ ▀   ▄▀▀ ▀▀[0;36;42m▓▓▒▒▓▓▓[0;36;40m▀▀▐[0;36;42m▓▒▓▓▓[0;36;40m▄   ▀ ▀▀▀[0;36;42m▓▓▒▓[0;36;40m▀▀▄▀▀▀[0;36;42m▓▓▓[0m      [36;42m▓▓▓▒▒▒▓[0m
       [36;40m▀    ▀▀▀▀▀[0;36;42m▓[0;36;40m▄[0m                  [36;40m▄[0;36;42m▓▓▓[0;36;40m▀▀ ▀▀▄■    ▀   ▀▄■[0m      [36;40m▀▀▄   ▐█▀▀[0;36;42m▓▓▓▓[0;36;40m▌[0m
-                  [36;40m▀■[0m              [36;40m■▀[0m                                 [36;40m■▀[0m      [36;40m▀▀▄[0m
-                  [1;30;40mE[0;36mde[0;32mn is lookin for new members w/ talent.[0m'
+                  [36;40m▀■[0m              [36;40m■▀[0m                                 [36;40m■▀[0m      [36;40m▀▀▄[0m'

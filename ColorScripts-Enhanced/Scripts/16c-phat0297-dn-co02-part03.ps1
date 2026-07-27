@@ -5,7 +5,7 @@
 # Source SHA-256: 1da1149fed649589bc6a3a17891d6290f67e68060c5e7f544cd113fa15b2cc27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DN!-CO02.ANS by dreadnought (pHaT studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Colly II - 2/97 -
 # SAUCE Author: dreadnought
 # SAUCE Group: pHaT studios '97
@@ -32,7 +32,7 @@ Write-Host '
      [1m▀[0m                                                                        [1;30m▄[0m
 
 [1;30m-[0;36m┬[0;1;36m»[0;1;37mwoe[0;1;36m«[0;36m─[0;1;30m─▀▀──────────────────────────────────────────────────────────────────-[0m-
- [1;36m└[0;1;37m»for[0m : w[36mOe[0;37m [0;1;30m-[0;36m [0;37mr[0;36mequested? yes[0;37m/[0;1;36m[[0;36mNO[0;1;36m][0m
+ [1;36m└[0;1;37m    [0m    [36m  [0;37m [0;1;30m [0;36m [0;37m [0;36m             [0;37m [0;1;36m [0;36m  [0;1;36m [0m
                                                                            [1;30m░░░░[0m
 [1;30m░░░ [0m      [32m▀[0m      [32m [0m    [32m  [0;37m  [0;1;32m [0;32m▀[0;1;32m■[0m [1;32m■[0m              [32m▀[0m         [1;32m▄[0m                 [1;30m  ░░░░[0m
 [1;32m░░[0;1;30m  [0m    [32m▐[0;1;32;42mw[0;32m▌[0;1;30masted[0m   [32m■▀ [0m        [32m▄[0m    [32m▐[0;1;32;42mo[0;32m▌[0;1;30mbfuscated[0m     [1;32m▄▄[0m           [1;30m░░░░░░░░░░░░░░[0m
@@ -49,11 +49,11 @@ Write-Host '
                                                             [1;30m▀▀████▀▀▀██▀▀      [0m
 -[1;30m────────────────────────────────────────────────────────────────────────────-[0m-
 
-[1m%[0mda, da, da, dat''s all folks. if you want to trade, or request an ansee, contak
-me via email: [1mdreadnought1@geocities.com[0m or look for [1mdrednaugt[0m via [1mirc[0m on any
-efnet servers.
+[1m [0m                                                                              
+              [1m                          [0m             [1m         [0m     [1m   [0m       
+              
 
-I do not tend to do bbs ads, so please try not to ask.  BBS ads takes time and
-time is what i lack.
+                                                                              
+                    
 
 [1m%eof[0m-[1mdn!-co02.ans[0m -[1;30m──────────────────────────────────────────────────────────-[0m-[0m'

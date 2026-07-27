@@ -5,7 +5,7 @@
 # Source SHA-256: 117bf964a7ba3d34f07cab48087a444f144328dc80ca87764570eec488f97274
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DNEST.ANS by Nemesulku (n__pack2); released in n__pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -45,15 +45,15 @@ Write-Host '
         [1;30m▐[0;1;30;42m░[0;32m████[0;1;30;42m░[0;1;30;40m▌▐[0;1;30;42m▒▒░▒▓█[0;1;30;40m▌▐[0;1;30;42m▒░░░  ▀▀[0;32m██[0;1;32;42m░[0;1;30;42m░▒▓[0;1;30;40m▌▐[0;1;30;42m░░[0;1;32;42m░[0;1;30;42m░░ ▀▀[0;32m█[0;1;30;42m░▒▒▓█[0;1;30;40m▌▐[0;1;30;42m▒░░░[0;32m██[0;1;30;42m▀▀[0;32m█[0;1;32;42m░▒[0;1;30;42m░▒▓[0;1;30;40m▌[0m
         [1;30m ▀▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
                [46m[[0;1;36;46mn(^ar[0;46m][0m
-              [36;40m ███████[0;37;40m  [0;1;36;40m  [0;1;30;40m[[0;1;37;40m [0;1;36;40mMono [0;36m/[0;1;36m tG! [0;36m/[0;1;36m rbd [0;36m/[0;1;36m bbm [0;36m/[0;1;36m aGL [0;36m/[0;1;36m APC [0;36m/[0;1;36m RP! [0;36m/[0;1;36m pWp [0;1;30m][0;1;37m [0m
+              [36;40m ███████[0;37;40m  [0;1;36;40m  [0;1;30;40m [0;1;37;40m [0;1;36;40m     [0;36m [0;1;36m     [0;36m [0;1;36m     [0;36m [0;1;36m     [0;36m [0;1;36m     [0;36m [0;1;36m     [0;36m [0;1;36m     [0;36m [0;1;36m     [0;1;30m [0;1;37m [0m
                [36m███████[0;1;37m  [0m
-               [36m███████[0;37m  [0;1;30m[[0;1;37m [0;1;36mscallop[0;36m,[0;1;36m technogirl[0;36m,[0;1;36m daeron [0;36m&[0;1;36m haze featuring irmeli [0;1;30m][0m
+               [36m███████[0;37m  [0;1;30m [0;1;37m [0;1;36m       [0;36m [0;1;36m           [0;36m [0;1;36m        [0;36m [0;1;36m                       [0;1;30m [0m
                [36m▄▄▄▄▄▄▄[0m
-               [36m███████[0m                [1;30m[[0m [1;36mdigital hallucinations [0;1;30m] [0m
+               [36m███████[0m                [1;30m [0m [1;36m                       [0;1;30m  [0m
                [36m▄▄▄▄▄▄▄[0m
                [36m▀▀▀▀▀▀▀[0m                         [1;30m[[0;1;36m art [0;1;30m][0m
                [36m▀▀▀▀▀▀▀[0m
-               [36m▄▄▄▄▄▄▄ [0m               [1;30m[[0;1;36m scene related material [0;1;30m] [0m
+               [36m▄▄▄▄▄▄▄ [0m               [1;30m [0;1;36m                        [0;1;30m  [0m
 
                [36m▄▄▄▄▄▄▄[0m                     [1;30m[[0;1;36m programming[0;1;30m ][0;1;36m [0m
 

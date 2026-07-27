@@ -5,7 +5,7 @@
 # Source SHA-256: 3f7986d127aaec8313fa06cfa7bb05027863999db6b8d4c158ca2dd25bcc71aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!ASTUR.ANS by sIMONkING (tHElo0p); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: aSTURN - pHREAK gROUP
 # SAUCE Author: sIMONkING
 # SAUCE Group: tHElo0p
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30martworx: simonking/thelo0p[0m
+[1;30m                          [0m
 
 
             ▄                 [1;30m░▀[0m▄[1m [0m                ▄      [1;30m░[0m▄          [1m▄███[0;1;47m▄[0m▄▄[1;30m░[0m
@@ -32,5 +32,4 @@ Write-Host '
 [1;30m▀░[0m [34m▄[0;1;34;47m▓▒▓[0m    [1;30m▀[0;1;34;47m▒░░▒▓[0;1;34;44m▓▒░▒▓▓▓[0;44m░▒[0;34;40m▀[0;37;40m  [0;34;40m▀[0;1;37;44m░░░ [0;36;44m░░[0;34;40m▄[0;37;40m [0;36;44m▓▓▓[0;1;36;46m░░[0m  ▄█[1;36;47m░░░░[0m▌[1;30;47m▌[0m  [1;30m▀▀▄[0m [1;30m▐[0;1;31;43m▒▒▓▓▓▓▓▄[0;33m▄▄[0;1;31m▀[0;1;31;47m▒▒▒▓▓[0;1;31;40m▌[0m
 [1;30m▄[0;34m▄[0;1;34;44m░▒▓[0;1;34;47m▓[0;1;34;44m▓▒▒░░[0;1;30;44m░[0;1;30;40m▄[0;34m▀[0;1;34;47m▒▓[0;1;34;44m▓▒░[0;1;30;44m░[0;1;34;44m░▒▒▒▒[0;34m▌[0;37m  [0;1;30m▀▄ [0;34m▀[0;36;44m░░▒▒▓▓[0;1;36;46m░░░▒▒▓▓[0;1;36;47m▓▓▒▒▒[0m█ [1;30;47m▌[0m    [1;30m▐▌[0m [1;31;43m▓▓[0;1;31;40m███▀[0;1;31;43m▀[0;1;31;40m████[0;1;31;47m▓▓▓[0;1;31;40m██[0m
 [1;30;44m▓▒░[0;1;34;44m░▒▓▒[0m    [1;34m───[0m [34m▀▀[0;1;34;44m░[0;1;30;44m▒▒▒[0;1;34;44m░▒▒▓[0m [1;34m───[0m [1;30m▀▄[0m [34m▀[0;36;44m▓▓[0;1;36;46m░░▒▒▒▓▓[0;1;36;47m▓▓▒▒░░[0m▀ ▐█ [1;34m─────[0m [1;31;43m▀[0;1;31;40m██[0m██  [33m▀[0;1;31m▀███████[0m [1;34m─[0m
-      [1;30m▄█[0m                        [1;30m▀[0m                                 [1;30m▀▄[0m
-                                                                [1m   [0m a[1msturn!!![0m'
+      [1;30m▄█[0m                        [1;30m▀[0m                                 [1;30m▀▄[0m'

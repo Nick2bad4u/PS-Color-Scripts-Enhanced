@@ -5,7 +5,7 @@
 # Source SHA-256: 21272ed800c17382b04faeaa8d403570f64763711f1767f78b1f442036ab76db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B!-SCAN.ANS by bleach (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dr?! file scan
 # SAUCE Author: bleach
 # SAUCE Group: dope
@@ -33,6 +33,4 @@ Write-Host '
                                         [33m██▄ ▀[0m      [33m▄   ▒█▄[0m       [33m▄   ▄██▓[0m
                                          [33m▀░▀▀▀▀▀▀▀▀█▀ ▀▀▀▀▀▀▓▀▀░▀▀▀▀▀▀▀░[0m
                                               [33m▓[0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mnutha one for digital riot.. if anyone has a board that has dr in it, feel free[0m
-[1;30mto take it, its not that great[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

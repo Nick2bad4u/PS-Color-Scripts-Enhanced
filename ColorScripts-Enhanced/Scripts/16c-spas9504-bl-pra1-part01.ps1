@@ -5,7 +5,7 @@
 # Source SHA-256: b67b61fbd75f172a6d8ab3fcd49e46a344fb76829a199ebb2e3dc833ef31ab1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-PRA1.ANS by Black Lightning + Chromatik (Spastic); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Prayer
 # SAUCE Author: Black Lightning
 # SAUCE Group: Spastic
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                  Black Lightning presents a Spastic production.
+                                                                
                   [36m▄▄▄▄▄ ▄▄▄▄▄▄   ▄▄▄▄  ▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [36m▄▄▄[0m
 [1;30mJohn Prophet   [0;36m▄███▓███▓███▀▓██▄▀████████████▄▀█████████  ▄▄██████▄ [0;1;30mSpastic logo[0m
 [1;30mis tm & (c) to[0;36m▐████▀▀██████ ▐███▌█▌██████▀▀▀██▌▐███▀▓██▌▄████▀▀▀███▌ [0;1;30mmay be free[0m
@@ -25,7 +25,7 @@ Write-Host '
 [1;30mProphet.[0m     [36m▄███▄   ▐█████  ▐██▌ ▄█▒███  ▀████▌▓██  ██▀███▄[0m     [36m▄▓   [0;1;30mlogo.[0m
             [36m▀ ▀█████▄██████  ███ ▀███▓██ ▄████▀▄███  ███▀█████▄▄██▌[0m
 [1;30mMetallica! Led   [0;36m▀▀███▀▀▄██ ▐██▌   ▀▀██████▀▀  ████ ▄███▄ ▀▀████▓▀▀ [0;1;30mZepplin![0m
-                                                                 [1;30mlive it.[0m
+                                                                 [1;30m        [0m
 [1;30m────────────────────── [0;1;37m▄■▀  ▄■▀▀■▄ ▄■▀▄ ▄■▀■ ▄■▄■▄ ▄■ ▄■▄ [0;1;30m──────────────────────[0m
 ────────────────────── [1m▀■▀■▄  ▄■▀▀▐▌▄■▐▌▀■▀■▄  ▐▌  ▐▌▐▌  ▀■ [0m────────────────────
 [1m───────────────────── ■▀■▄■▀ ▀▀▀  ▀▀ ■▀■▀■▄■▀ ■▀   ▀■ ▀■▀■ ─────────────────────[0m

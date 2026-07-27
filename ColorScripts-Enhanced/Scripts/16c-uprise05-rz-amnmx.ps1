@@ -5,7 +5,7 @@
 # Source SHA-256: 10002b7ffd65a8343c54361fd69351dbbbc5584a3cc247fae9a375d2fac0939e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZ-AMNMX.ANS by _rz (avenge cult); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: amnesia
 # SAUCE Author: _rz
 # SAUCE Group: avenge cult
@@ -40,13 +40,4 @@ Write-Host '
 [34m▐[0m                                          [34m░[0;30;44m▓[0;34;40m░▓[0;30;44m░[0;34;40m▓▓[0;30;44m░░░[0;34;40m▓▓[0;30;44m░[0;34;40m▓▓[0;30;44m░[0;34;40m▓▓▌[0m           [34;40m░[0;30;44m▓[0;34;40m▓[0;30;44m░[0;34;40m▓[0;30;44m░░[0m
 [34;40m▐[0;37;40m  [0;34;40m   [0;1;30;40m_rz (avenge)                       [0m [34m ░[0;30;44m▓▓[0;34;40m░[0;30;44m▓[0;34;40m░░[0;30;44m▓[0;34;40m░░[0;30;44m▓▓[0;34;40m░[0;30;44m▓[0;34;40m░░[0;30;44m▓[0;34;40m░[0m            [34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓▓[0;34;40m░[0;30;44m▓[0m
 
-[1;30;40m--------------------------------------------------------------------------------[0m
-[1;30;40m<_image^> do u draw ansi? [0m
-
-[1;30mHere''s my guest ansi for UPRISE #5. Good luck guys![0m
-[1;30mThis is a login matrix for image''s board Amnesia. Telnet: amnesia.detour.net[0m
-[1;30m_rz, a.k.a doOdleboy (avenge cult)[0m
-[1;30memail: notorious@hotmail.com[0m
-
-[1;30mGreets:[0m [1;30mAvenge, Glue, Function, Mistigris, Force, Distant, Uprise, Polyester,[0m
-        [1;30mShaolin''s Finest and ALL THE AUSTRALIAN SCENE!!![0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

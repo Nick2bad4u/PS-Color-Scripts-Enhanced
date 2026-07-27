@@ -5,7 +5,7 @@
 # Source SHA-256: 1b56fd1a3dcb4db6adaff786de91745581e299045ccd2802627a554dea29d4e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-TGC.ANS by megadose (gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the gas chamber
 # SAUCE Author: megadose
 # SAUCE Group: gravity
@@ -13,7 +13,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                          [1;31m   [0;33m megadose[0;1;31m<[0mgravity[1;31m>[0m
+                                                          [1;31m   [0;33m         [0;1;31m [0m       [1;31m [0m
   [30;47m.. the ..░░[0m
 [1;30;40m [0m     [1;30m    [0m   [1;30m▄[0m
 [1;30m  ▄▀▄     [0m [1;30m▄▀[0m [1;30m▀▄[0m    [1;30m(the silent killer''s)[0m

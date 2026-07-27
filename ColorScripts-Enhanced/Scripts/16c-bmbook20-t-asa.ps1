@@ -5,7 +5,7 @@
 # Source SHA-256: 5a15b79c8a8ce7a65d4f28525a530d8b9c49a2aa9d615465fe5d50e0ad4350e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T-ASA.ANS by toot (black maiden); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: a(with a halo)sa
 # SAUCE Author: toot
 # SAUCE Group: black maiden
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-                                                        [36mi[0;37m [0;36mdidn''t have time to[0m
-                                                             [36mfinish it :([0m
+                                                        [36m [0;37m [0;36m                   [0m
+                                                             [36m            [0m
        [36måsa[0m
                 [34m▄[0;36;44m░░[0;34;40m█[0;36;44m [0;34;40m█▄[0m       [36;40m▄▄[0m               [36;40mtoot[0;1;36;40mbm[0m
               [34m▄[0;36;44m▄█[0;34;40m▀░░ ▐[0;36;44m [0;34;40m▌[0m     [36;40m██▀[0m                                           [36;40m [0m

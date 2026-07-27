@@ -5,7 +5,7 @@
 # Source SHA-256: c3586ef7a4021c8eefdb872576e8a17ededdd66dface61ef5889485f7c479657
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-UIS1.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -19,11 +19,11 @@ Write-Host '
 [1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█████[0;1;37m▐[0;1;37;44m▌[0;34m█[0;1;37;44m▄▀ [0;34m▌ [0;1;30m│ [0;1;36mPy[0;36mro M[0;1;30maniac : Man, you were right, I AM good <grin>[0m       [1;30m│[0m
 [1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█▌███▌██[0;34;44m [0;34;40m█▀  [0;1;30;40m│ [0;1;36;40mHo[0;36mund [0;1;30m: Hey, I really AM following you EVERYWHERE :)[0m      [1;30m│[0m
 [1;30m│ [0;34m▐[0;1;37;44m▐▌[0;34m█▌▐███▐██▌   [0;1;30m│ [0;1;36mTh[0;36me Ni[0;1;30mght Prowler : I was invited, who could refuse ;)    │[0m
-[1;30m│  [0;34m█[0;1;37;44m▄[0;34m█▌ ███▌██    [0;1;30m│ [0;1;36mDa[0;36mrk[0;1;30mWolf : Never talked to ya, but I love your work...    │[0m
-[1;30m│   [0;34m▀    ▀▀ ▀[0m     [1;30m│ [0;1;36mNe[0;36muro[0;1;30mtic : Your New User Feedback made me all hyper ;)    │[0m
-[1;30m│·[0;36m∙[0;1;36m-Ac[0;36midF[0;1;30mlash[0m     [1;30m│ [0;1;36mNa[0;36milz [0;1;30m: Was that Line of Fire ANSi *REALLY* THAT good? ;) │[0m
-[1;30m│·[0;36m∙[0;1;36m-[B[0;36mree[0;1;30md Trial] │ [0;1;36mSt[0;36mone [0;1;30mAngel : Hey, just like the good ol NoRAD days <grin>│[0m
-[1;30m│·[0;36m∙[0;1;36m-[U[0;36mNiO[0;1;30mN Trial] │ [0;1;36mPo[0;36mlar[0;1;30mized Infusion : Who needs to apply when you''re me :) │[0m
+[1;30m│  [0;34m█[0;1;37;44m▄[0;34m█▌ ███▌██    [0;1;30m│ [0;1;36m  [0;36m  [0;1;30m                                                      │[0m
+[1;30m│   [0;34m▀    ▀▀ ▀[0m     [1;30m│ [0;1;36m  [0;36m   [0;1;30m                                                     │[0m
+[1;30m│ [0;36m [0;1;36m   [0;36m   [0;1;30m    [0m     [1;30m│ [0;1;36m  [0;36m    [0;1;30m                                                    │[0m
+[1;30m│ [0;36m [0;1;36m   [0;36m   [0;1;30m         │ [0;1;36m  [0;36m    [0;1;30m                                                    │[0m
+[1;30m│ [0;36m [0;1;36m   [0;36m   [0;1;30m         │ [0;1;36m  [0;36m   [0;1;30m                                                     │[0m
 [1;30m└─────────────────┴───────────────────────────────────────────────────────────┘[0m
 
 

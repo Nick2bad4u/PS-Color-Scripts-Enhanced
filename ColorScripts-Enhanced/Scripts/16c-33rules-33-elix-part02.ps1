@@ -5,7 +5,7 @@
 # Source SHA-256: 393a2c1c0d416f7b8bc5d7ca81e21c91acba0d499609f845cd4f6fcb7fc35d77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-ELIX.ANS by Spastic 03/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Elixir
 # SAUCE Author: Spastic 03/95
 # SAUCE Group: Eerie
@@ -59,9 +59,4 @@ Write-Host '
              [1;30;40m░[0;1;30;47m░[0m [33m▀[0;33;47m▓▓[0;37;40m▓[0;33;47m▄▓▒▄▓[0;33;40m▒[0;33;47m█▓█▓[0;33;40m▀▀░[0;33;47m▓[0;1;37;43m░[0;33m▀▀ ▓[0;33;47m▓[0;33;40m▀[0;33;47m█[0;1;37;43m░[0;33;47m▓▒▄▓[0;33;40m▀▀▀▀ [0;37;40m▄ [0;33;40m▀[0;33;47m█▓[0;1;37;43m░[0;33m▌ [0;37m▄▄▓▀[0;1;30m░[0m_33
               [1;30m░[0;1;30;47m░[0m▄  [33m▀▀[0;37m▀[0;33;47m▓█[0;1;37;43m░[0;33m░ [0;37m▄▄▄▓▄▄▄  [0;33m■▀ [0;37m▄▓ [0;1;37;43m░[0;33;47m▓█[0;33;40m▀  [0;37;40m▓▀▀▀▓▀■[0;1;30;40m░[0m▄▄▄▓[1;30m░ [0m▒
                  [1;30m░[0m▀[1;30;47m░[0m▄▓▄ ▄▄▄▓[1;30m░ [0m▒▀  ▓▀▀ ▀[1;30m░[0m▒▄ [33m▀ [0;37m▄▓▀[0;1;30m░[0m             ░
-                     ▒        ░         ░▓▀ ▀
-                [1;30melixir - 413 782 1851 - ops = sociopath/maestro[0m
-     [1;30mno affils but so much goodies that it will make you crap in your pants[0m
-
-[1;30mspastic!spastic!spastic!spastic!spastic!spastic!spastic!spastic!spastic!spastic[0m
-                  [1;37mquickie by eerie of spastic studios.. w00p![0m'
+                     ▒        ░         ░▓▀ ▀[0m'

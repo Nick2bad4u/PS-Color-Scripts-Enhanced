@@ -5,7 +5,7 @@
 # Source SHA-256: d0cf3c74b6014b90034d6226ed384e9eaae0b484c43fe6aad85e701529e947f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Frx-hp02.ans by Ferrex (sac-19); released in sac-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -31,4 +31,4 @@ Write-Host '
    [34m░[0;37m [0;34m░▒░[0;37m [0;34m▓▄▄[0;37m  [0;1;34m▀■ ▄▓▓▀[0;34m▒[0;37m [0;34m░▒▓▄▄▄▄▄░▄[0;37m  [0;34m░░▄▄[0;37m [0;34m░░[0;37m [0;34m▄▄▄▄[0;37m [0;34m░░[0;37m [0;1;34m█▓▓[0;34m▒[0;1;34m [0;34m█▄▄▄▄▄▄▄▄[0;37m [0;34m▄▄▄[0;37m [0;34m▄▄▄[0;37m [0;34m▄▄[0;37m  [0;34m▄[0m
                     [34m░[0;37m [0;1;34;44m [0m                 [34m░[0m          [1;34m█▓▓[0;34m░[0;37m [0;34m  [0;1;34mFerrex<SAC!CRO>[0;34m       [0m
                                                       [34m░░[0m
-         [34m-x-[0;37m [0;34mAGAiNST THE COMERCiALiSATiON OF THE COMPUTER░[0;37m [0;34mSCENE -x-[0m'
+         [34m   [0;37m [0;34m                                            ░[0;37m [0;34m         [0m'

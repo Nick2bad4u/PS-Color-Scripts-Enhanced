@@ -5,7 +5,7 @@
 # Source SHA-256: 0dbfebb147ecc5b85395e8b6a46351346a8f81016007e816c9e639c860170577
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tcf-neural-joint-01.ans by Tcf (blocktronics_block_n_roll); released in blocktronics_block_n_roll and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20160409
 # SAUCE Dimensions: 160x81
 # SAUCE Font: IBM VGA
@@ -43,5 +43,4 @@ Write-Host '
                          [37m▀  ▒█▒██░▀▓[0m               [37m░[0m           [1;36m·    .  ■■   [0;35m░[0;33m▄ [0;1;35m.[0m
                                 [37m░[0m                           [1;36;45m░░[0;1;36;40m [0mOF THE HALL  [35m░   [0m
                                                                      [1;36m··[0m     [1;31m▄▄[0;35m░ [0m
-                           [37m▓▄[0m     [37m▓▄[0m                           [37mAH [0;1;36m■■[0mT[1;36m■■[0mO[35m▒▒ [0;1;31m▐[0;35m░ [0;1;31m▌ [0m
-'
+                           [37m▓▄[0m     [37m▓▄[0m                           [37mAH [0;1;36m■■[0mT[1;36m■■[0mO[35m▒▒ [0;1;31m▐[0;35m░ [0;1;31m▌ [0m'

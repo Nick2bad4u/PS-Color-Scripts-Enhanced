@@ -5,7 +5,7 @@
 # Source SHA-256: 3e86a7b60a58d6c3a331230a3a5c441e50df6bc3fc01ac7e54799ec693dd3736
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LN-MTRX.ANS by liithn (mop); released in mop-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: matrix screens
 # SAUCE Author: liithn
 # SAUCE Group: mop
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
- [33m''[0;1;37mSyrup . abnormal related thing . [0;33m''[0;37m [0;33m-[0;37m [0;33m''[0;1;37mmatrix by liithn of mOp''96[0;33m''[0m
+ [33m [0;1;37m                                 [0;33m [0;37m [0;33m [0;37m [0;33m [0;1;37m                          [0;33m [0m
 
 [37m [0;1;33m█████████████████████████████[0;1;33;43m▓▓▓[0;1;33;40m███████████████████████████████[0;33m█[0;37m [0;1;33m [0m   [33m█[0;1;33m████[0;1;33;43m▓▓▀[0m
 [1;33m░███████████████████[0;1;33;43m██▀[0;1;33;40m▀▀▀[0;33m▀[0m        [1;33m  [0;33m▀[0;1;33m▀▀[0;1;33;43m▀[0;1;33;40m████████████████████████████[0;1;33;43m▀[0;1;33;40m▀▀▀[0;33m▀[0m
@@ -63,4 +63,4 @@ Write-Host '
 [1;34;44m▐█████▓▄[0;34m▌[0;37m [0;34m▄█[0;1;34;44m▄▄▓▓██████[0;1;34;40m███████[0;1;34;44m███████▄████████[0;1;34;47m▓▓▓[0;1;34;44m██████████[0;1;37;40m░[0m  [1;34m [0m [1;34mmembership app.[0m
 [1;34m [0;1;34;44m▐[0;1;34;40m████[0;1;34;44m█▄[0;34m▄[0;1;34;44m▄█████████████[0;1;34;40m██████[0;1;34;44m█████████████████[0;1;34;47m▓▓▓[0;1;34;44m█████████[0;1;37;40m░[0m  [1;34;44m check  validation [0m
 [1;34;47m▓▓[0;1;34;40m▀▀[0;1;34;44m▀[0;1;34;40m███████████████████[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀[0;1;34m     [0;34m▀[0;1;34m▀▀[0;1;34;44m▀[0;1;34;40m██████████[0;1;34;47m▓▓▓[0;1;34;40m████████[0;1;34;44m░[0m    [1;34m  system page[0m
-[1;34m░[0;1;37m liithn_mOp ; freely drawn from spawn#1 ; for fear!/what [0;1;34m░[0m       [1;34m goodbye[0m'
+[1;34m░[0;1;37m                                                         [0;1;34m░[0m       [1;34m        [0m'

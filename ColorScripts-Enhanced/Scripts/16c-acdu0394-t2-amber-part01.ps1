@@ -5,7 +5,7 @@
 # Source SHA-256: 460b45f5a59e5e9e21084fa8979ecce682eb64cc8487f49845780993eee56716
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-AMBER.ANS by Terminator2 (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Amber
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -18,7 +18,7 @@ Write-Host '
 
 [1;42m [0;1;30;42m░░▒▒▓▓▓[0;1;30m███████████████████████████████████████████████████████████████[0;1;30;42m▓▓▓▒▒░░ [0m
 [1;30;42m░▒[0m                              [1;30m▄[0m                                            [1;30;42m▒░[0m
-[1;30;42m▒▓[0m     [1;30m▄▄▄[0m              [1;30m▄[0m           [1;30mIf You Would Like An ANSi From Myself..  ▀[0;1;30;42m▒[0m
+[1;30;42m▒▓[0m     [1;30m▄▄▄[0m              [1;30m▄[0m           [1;30m                                         ▀[0;1;30;42m▒[0m
 [1;30;40m▄▀   ▀▀▀▓▓▒░▄ [0;1m▄▄█▀██▀[0;1;30m▄▓▓▀▒▄[0m     [1;30m▄▀   Request So By : 1) Posting On A Storm   [0;1;30;42m▓[0;1;30m▄[0m
 [1;30m▀[0;1;30;42m▓[0m          [1m▄█▀[0;1;30m▄▄▓▄[0;1m▀█▄▄▄█▄[0m      [1;30m▄[0;1;30;42m▓[0m  [1;30mWatch Net Base Nearest You,  2) Call Up  ▄▀[0m
 [1;30m▀▄    ▄ [0;1;32m▄  [0;1m▐▀▀▀▄[0;1;30m▀▀ [0;1m▀▀▀[0;32m▄[0;1m▀[0;1;30m▄[0;1m▀▌[0m     [1;30m▀▄  My Board : SkyNet [Find The Number!] 3)   ▀[0m

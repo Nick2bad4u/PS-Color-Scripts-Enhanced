@@ -5,7 +5,7 @@
 # Source SHA-256: c1174bc34e9cfa396786d4fa73c147a9b846bafe24101688ad44a81addc39206
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TXT-NEXT.ANS by The Textorcist (Spread the Disease); released in std-1003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Acid Productions
 # SAUCE Author: The Textorcist
 # SAUCE Group: Spread the Disease
@@ -45,8 +45,4 @@ Write-Host '
 [1;30m▒▒▓▓▓▓▄▄▄▄▄██▄▄▄▄░[0m      [1;30m▒▒▓▓██▀▀[0m [1;30m░[0m   [1;30m   [0m               [1;30m░░░[0m
 [1;30m░░░░░▀▀▀▀▓▓▓██[0;1;30;46m▓▓[0;1;30;40m█[0m       [1;30m▀▀▀▀[0m                           [1;30m░░░░░░[0m                  [1;30m░[0m
      [1;30m▀▄▄▄[0m         [1;30m░░░[0m    [1;30mdon''t mess with it.[0m   [1;30m ░░[0m         [1;30m░░░░░░[0m
-        [1;30m▀▀▀▀[0;1;30;46m▓[0;1;30;40m███[0m  [1;30m░░[0m     [1;30m▄▄▄[0m   [1;30m▀▀[0m              [1;30m░░░[0m   [35mlogo by: [0;1;31mthe textorcist[0;1;30mstd[0m
-
-
-
-[1;30m   dedicated to nOk, avg, and abstrakt for their inspiration and innovation.[0m'
+        [1;30m▀▀▀▀[0;1;30;46m▓[0;1;30;40m███[0m  [1;30m░░[0m     [1;30m▄▄▄[0m   [1;30m▀▀[0m              [1;30m░░░[0m   [35mlogo by: [0;1;31mthe textorcist[0;1;30mstd[0m'

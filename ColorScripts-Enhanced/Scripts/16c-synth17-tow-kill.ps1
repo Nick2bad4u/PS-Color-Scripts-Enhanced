@@ -5,7 +5,7 @@
 # Source SHA-256: e3c284313d73b36adf9b64c19d67fcca2a9680758dcd3c105c7b6d03f4815fa0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TOW-KILL.ANS by Towser (Synthetic Org!); released in synth17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Killer BBS
 # SAUCE Author: Towser
 # SAUCE Group: Synthetic Org!
@@ -32,12 +32,12 @@ Write-Host '
 
 ─────────[1;30m[[0;1;32mC[0;36mut[0;1;32m![0;1;30m][0m─────────────────────────────────────────────────────────────────
 
-[36mSmall Aski, thought i''d put it here anyway.. [0m
-[36mDid it for [0;1;36mBoogie Man[0;36m.. Yes!!!!!! thats the[0m                [1;30m!Sⁿ[0m[[1;32mT[0;1;30mha[0;1;32mh[0;1;36m^[0;1;32mS[0;1;30mea[0;1;32ml[0;1;36m^[0;1;32mO[0;1;30mf[0m][1;30mⁿS![0m
-[36msecond request this month! let the good times[0m              [1;30m$[0m [36mrip [0;37m [0;36mit[0;37m [0;36mand[0;37m [0;36m ill [0;1;30m$[0m
-[36mroll!..<cough> >=) mail me on [0;1;36mdk[0;36m/[0;1;36milsn[0;36m with [0m                [1;30m$[0m [36mrip[0;37m [0;36myo [0;37m [0;36mnads off[0;37m [0;1;30m$[0m
-[36mrequests, uh i guess thats it![0m                             [1;30m$[0;36m and feed them to [0;1;30m$[0m
-                                                           [1;30m$[0m [36mbruteish![0;37m [[0;1;30mT[0mo[1mws[0m] [1;30m$[0m
-[36m.......[0m                                  [36m[ [0;1;30mT[0mo[1mws[0me[1;30mr[0;36m ][0m        [1;30m¡Ss[0m[[1;32mO[0;1;30mriginalit[0;1;32my[0;1;36m![0m][1;30msS¡[0m
+[36m                                             [0m
+[36m           [0;1;36m          [0;36m                      [0m                [1;30m   [0m [1;32m [0;1;30m  [0;1;32m [0;1;36m [0;1;32m [0;1;30m  [0;1;32m [0;1;36m [0;1;32m [0;1;30m [0m [1;30m   [0m
+[36m                                             [0m              [1;30m [0m [36m    [0;37m [0;36m  [0;37m [0;36m   [0;37m [0;36m     [0;1;30m [0m
+[36m                              [0;1;36m  [0;36m [0;1;36m    [0;36m      [0m                [1;30m [0m [36m   [0;37m [0;36m   [0;37m [0;36m        [0;37m [0;1;30m [0m
+[36m                              [0m                             [1;30m [0;36m                  [0;1;30m [0m
+                                                           [1;30m [0m [36m         [0;37m  [0;1;30m [0m [1m  [0m  [1;30m [0m
+[36m       [0m                                  [36m  [0;1;30m [0m [1m  [0m [1;30m [0;36m  [0m        [1;30m   [0m [1;32m [0;1;30m         [0;1;32m [0;1;36m [0m [1;30m   [0m
 
 ─────────[1;30m[[0;1;32mE[0;36mO[0;1;32mF[0;36m.. 27 [0;1;32mL[0;36miNE[0;1;32mS[0;1;30m][0m───────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ed184e9ec2917ba6ceb62233017412f3e3899154f52065570c2d50617349796a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ABS.ANS by Noches + Luminator (Sense Imagery); released in danone003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: b44 p700
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Sense Imagery
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-    [1;30mNoches + Luminator[0m
+    [1;30m                  [0m
 
 
     [1;33;42m▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░[0m

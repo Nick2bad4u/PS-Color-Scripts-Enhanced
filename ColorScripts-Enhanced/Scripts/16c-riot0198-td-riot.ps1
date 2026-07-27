@@ -5,7 +5,7 @@
 # Source SHA-256: 7d48062834eefd80a51d0a68291f7e9c91ec5f62c7a559ad2a01ac4e7d0fa38f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TD-RIOT!.ANS by thE diRECtOR (RioT/EMi/510/Boink); released in riot0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: RioT!!!
 # SAUCE Author: thE diRECtOR
 # SAUCE Group: RioT/EMi/510/Boink
@@ -41,10 +41,10 @@ Write-Host '
 
 [37m┌[my ANSi sucks!]──────────────────────────────────────────────────────────────┐[0m
 [37m│[0m                                                                              [37m│[0m
-[37m|[0m      [37mi was just messing around, and this is what came of it.. sorta sucks[0m    [37m|[0m
-[37m:[0m      [37mbut what the heck, i drew it, so i might as well release it, as riot[0m    [37m:[0m
-[37m∙[0m      [37mdoesn''t have "quality control". i could have been more creative, but [0m   [37m·[0m
-[37m·[0m      [37mi just wasn''t. so what! i will (probably) get better, with practice.[0m
+[37m [0m      [37m                                                                    [0m    [37m [0m
+[37m [0m      [37m                                                                    [0m    [37m [0m
+[37m [0m      [37m                                                                     [0m   [37m [0m
+[37m [0m      [37m                                                                    [0m
 
-       [37mgreetz: everyone who knows me. and even all you who don''t. l8r![0m
+       [37m                                                               [0m
        [37mtd.[0m'

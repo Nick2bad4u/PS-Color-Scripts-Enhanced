@@ -5,7 +5,7 @@
 # Source SHA-256: d748a6d6b90dd9211afe2ff69fac9164a6d2eaf28c759d40a3e1b04058f20148
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DWRLD.ANS by Relentless (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -23,9 +23,4 @@ Write-Host '
      [33m▐[0;1;33;41m▓▓[0m                           [1;33;40m▀▀▀[0m                              [33m▄[0;1;33;41m▓▓[0;33m▀[0m
 [34m─── [0;1;33m▄█▀ [0;34m─────────── [0;1;37;47m▓░[0m [1;37;47m▓[0m [1;37;47m▓░[0m [1;37;47m▓░[0m▀[1;47m░[0m [1;47m▓▒[0m▀▀[1;47m░[0m▐[1;47m▓[0m▌[34m─[0;37m▐[0;1;37;47m▓▓░[0m▄ [34m──────────── [0;1;33m■▄▄▄████▀ [0;34m───────[0m
 [1;33m■▄▀▀ [0;31m────────────── [0;37m▐█▌█▐█▌ ██ █ ██▀█▀▐█▌[0;31m─[0;37m▐█▌▐█ [0;31m──────────────────────────────[0m
-[33m──────────────────── [0;1;30m▀███▀  ██▄█ ██ ▐▌▐███▐███▀ [0;33m──────────────────────────────[0m
-
-                        [37mS[0;1;37mysop[0;36m·[0;1;37mD[0mragon [1mM[0master               [1;31mÆ[0;1;33mn[0;31ms[0;1;37mi[0;1;35m·[0;1;33mRelentless[0m
-                  [31mC[0;1;31mo''s[0;36m·[0;31mB[0;1;31mig [0;31mB[0;1;31men [0;31m& V[0;1;31mlad [0;31mt[0;1;31mhe [0;31mI[0;1;31mmpaler[0m           [1;37m-[0m=[1;30m≡[0;36m[[0;1;36mi[0;1;37mCE[0;36m][0;1;30m≡[0m=[1m-[0m
-                   [35mR[0;1;35mun[0;1;37mni[0;1;35mng [0;1;37mV[0;31mi[0;1;37mS[0;31mi[0;1;31mO[0;1;37mN .[0;1;35m8[0;35m3  [0;36mH[0;1;34mST [0;36mO[0;1;34mnly![0m             [1;37m-[0;32mo[0;1;32m8[0;1;37m/[0;1;32m13[0;1;37m/[0;1;32m91[0m
-                 4[1m1o [0mM[1mega[0mb[1mytes [0mO[1mn[0mL[1mine[0m·[1;30m·[0;1;37m615[0;1;30m/[0;1;37mPrI[0;1;30m.[0;1;37mVaTe[0m'
+[33m──────────────────── [0;1;30m▀███▀  ██▄█ ██ ▐▌▐███▐███▀ [0;33m──────────────────────────────[0m'

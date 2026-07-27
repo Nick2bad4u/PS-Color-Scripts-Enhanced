@@ -5,7 +5,7 @@
 # Source SHA-256: 8c0376be18dcc2e33eba6bd3c8706b257c87565bc7d17379429a1f0cf7d8eed6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QR-HRVST.ANS by Quasar (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -22,14 +22,14 @@ Write-Host '
        [1m■[0m■■[1;30m■[0m                    ▀▀▀▀▀ ▀▀▀  [1;30m▀▀▀▀   [0m▀▀▀▀▀               [1;30m■[0m■■[1m■[0m
        [1m▀[0m▀▀[1;30m▀[0m            ·    [1m1   [0m·   [1m9   [0m·   [1m9  [0m·    [1m4    [0m·           [1;30m▀[0m▀▀[1m▀[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-        [1;30m▄  ▀ ▄█ [0mQuasar and [1m/┤[0;1;33mC[0;1;32mi[0;32mD [0mPresent a [1mL[0;1;33mi[0;1;31mvi[0;31mng [0;1mD[0;1;33me[0;1;31ma[0;31md [0;1mPro[0;1;33mdu[0;1;31mct[0;31mion [0;1;30m█▄ ▀  ▄[0m
+        [1;30m▄  ▀ ▄█ [0m           [1m ┤[0;1;33m [0;1;32m [0;32m  [0m          [1m [0;1;33m [0;1;31m  [0;31m   [0;1m [0;1;33m [0;1;31m [0;31m  [0;1m   [0;1;33m  [0;1;31m  [0;31m    [0;1;30m█▄ ▀  ▄[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-                      QR-HRVST.ANS Produced on 01/01/1994
+                                                         
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-If you would like to purchase or would like to request information on an ACiD
- ansi or other form of electronic artwork from myself or another ACiD Artist
-  feel free to contact us via ACiD''s very own ToXiC Net, or any of the other
-                          finer networks of the scene
+                                                                             
+                                                                            
+                                                                            
+                                                     
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30;45m▒▒▒░░░░░░░░░▒▒▒░░▒▒▒▓▓▒▒▒░░░[0;30;45m▄▄▄▄▄▀[0;1;31;45m░▒▒░░[0;1;30;45m░░░▒▒▒▓▓▓███▓▓▓[0;30;45m▀▄▄▄▄[0;1;30;45m░▒▓▓▓▒▒░░░░░░░░░░[0;1;31;45m░░░[0m
 [1;30;45m▓▓▓▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓[0;1;30m▀▀▀[0;30;45m▀▀▀▀▀[0;1;31;45m░░░▒[0;1;31m▀▀[0;1;31;45m▒▓▓▒▒░░[0;1;30;45m░░▒▒▒▓▓▓████▓▓▓▓▒▒[0;30;45m▀▀[0;1;30m▀▀▀[0;1;30;45m▓▓▒▒▒▒▒▒▒▒▒▒░░░[0m

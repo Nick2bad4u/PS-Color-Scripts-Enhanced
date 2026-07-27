@@ -5,7 +5,7 @@
 # Source SHA-256: 4118839fd2a090694d812c932e9d16c444223388660405592d7ecd60cf85373f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-EOL.ANS by tainted (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: end of line (absinthe bbs)
 # SAUCE Author: tainted
 # SAUCE Group: fire
@@ -54,8 +54,4 @@ Write-Host '
 [37m▓[0;37;47m▓▓▀[0;37;40m ▄▄█[0;37;47m█▌[0;37;40m▐[0;37;47m▒▒[0m      [37;40m███[0m         [1;37;40m██ ██[0;1;37;47m▀[0m [1;47m▄▀[0m█  ▀[1;30;47m██[0;32;47m ░▄[0;37;40m   [0;32;40m█[0;36;40m▄[0;32;40m▀   ▐[0;36;42m▄▄[0;32;40m▌    [0;1;32;42m▓▓[0;32m▀ [0;1;32;42m██[0;32m▌[0m
 [37;47m▒▒▒[0;37;40m ▀▀▀▀█[0;37;47m▀[0;37;40m█[0;37;47m░░░░[0;37;40m█████▀▄[0;1;37;47m░▒▒▓[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m████▀[0m ██[1;47m▀[0m [1;47m [0m█▀    ▀[32m███░[0;37m  [0;32m███   ▐▓▓▌■▀ ▀[0;1;32;42m░░[0;32m▌ ▀[0;1;32;42m▀▀[0;32m▀[0;1;32;42m▀[0;32m▓▓▒░░[0m
                                                                     [32m▄[0m
-[1;30m▀[0m░░[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m░░░[0;1;30m▄[0;1;37m▄▄▄▄[0;1;30m▄[0;1;37m▄[0;1;30m▄▄[0m▄▄▄▄▄▄▄ ▄▄▄▄  ▄   [32m▄▄▄▄▄▄[0;37m   [0;32m▄▄░░[0;37m   [0;32m▄░[0;37m [0;32m▀░░[0;37m [0;32m░░░[0;37m [0;32m░[0m
-
-                                                                  [37mtainted[0;32m[[0;1;32mfire[0;1;30m][0m
-
-                              [1;30mabsinthebbs.net:1940[0m'
+[1;30m▀[0m░░[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m░░░[0;1;30m▄[0;1;37m▄▄▄▄[0;1;30m▄[0;1;37m▄[0;1;30m▄▄[0m▄▄▄▄▄▄▄ ▄▄▄▄  ▄   [32m▄▄▄▄▄▄[0;37m   [0;32m▄▄░░[0;37m   [0;32m▄░[0;37m [0;32m▀░░[0;37m [0;32m░░░[0;37m [0;32m░[0m'

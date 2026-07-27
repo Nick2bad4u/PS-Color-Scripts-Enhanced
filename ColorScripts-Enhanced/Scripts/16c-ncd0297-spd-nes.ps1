@@ -5,7 +5,7 @@
 # Source SHA-256: a8997d8ac50fa33c774114ecc685c78ad253f623fc206976f34bb7d43c5fdf7c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPD!NES.ANS by spud (ncd0297); released in ncd0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: @neslogo
 # SAUCE Author: spud
 # SAUCE Date: 19970131
@@ -25,17 +25,13 @@ Write-Host '
 [35m        [0;37m [0;35m▐[0;1;35;45m▌[0m [34m█[0;34;42m▓░▒[0;34;40m▌[0;37;40m [0;35;40m▀ [0m        [34;40m▐[0;32;44m▒▓▌[0;37;40m  [0;34;40m▐[0;32;44m▀░[0;34;40m▌[0;37;40m [0;35;40m    [0;37;40m  [0;34;40m▀[0;37;40m  [0;34;40m▐█[0;32;44m▓[0;32;40m▌[0;32;44m▒[0;37;40m  [0;34;40m▐[0;32;44m▄▓[0;32;40m▐[0;34;40m▌[0m   [32;44m▐█[0;32;40m▐[0;32;44m▓░[0;34;40m▄▌[0;35;40m █[0;1;35;45m░[0;35m█[0m
 [35m█▄▄██[0;1;35;45m░[0;35m█[0;1;35;45m░▒▓▀[0m [34m█▀▌[0;34;42m▓[0;34;40m█ [0;35;40m [0;37;40m  [0;34;40m  ■▄▄▌ █[0;32;44m░▀[0;34;40m█[0;37;40m  [0;34;40m█[0;32;44m░[0;34;40m█ [0m         [34;40m ▀▐[0;32;44m▀░[0;34;40m█[0;37;40m  [0;34;40m▐[0;32;44m▒▓[0;32;40m▄[0;32;44m▌[0;34;40m [0;37;40m  [0;34;40m▐[0;32;44m▓[0;32;40m▄[0;32;44m▒▌[0;34;40m▌[0;37;40m  [0;35;40m█[0;1;35;45m░[0;35m▌ [0m
      [1;35;45m▐[0;35m▀[0;37m  [0;32m [0;37m  [0;34m▐▀▀▀▀▀▀▌[0m     [34m▀▀▀▀▀▀[0m   [34m▐▀▀▀▀▀▀■▄▌▀▀▀▀▀▀▀▀[0;37m  [0;34m▐▀▀[0;32;44m░▀▒░[0;34;40m▄▄▄[0;32;44m▒░▀[0;34;40m▀ [0;37;40m [0;35;40m▄█[0;1;35;45m▒[0;35m▌ [0m
-     [35m▌[0m    [1;30m    [0;1;35;44mn[0;1;34;40mo[0;34m.[0;1;35;44mc[0;1;34;40mo[0;34mde[0;1;34m [0;1;35;44mw[0;1;34;40mo[0;34mrld[0;1;34m [0;1;35;44mh[0;1;34;40mq[0;34m![0;1;34m [0m  [34m▀[0m                              [1;30mspúd[0m [35m▐█[0;1;35;45m▓[0;35m█ [0m
+     [35m▌[0m    [1;30m    [0;1;35;44m [0;1;34;40m [0;34m [0;1;35;44m [0;1;34;40m [0;34m  [0;1;34m [0;1;35;44m [0;1;34;40m [0;34m   [0;1;34m [0;1;35;44m [0;1;34;40m [0;34m [0;1;34m [0m  [34m▀[0m                              [1;30m    [0m [35m▐█[0;1;35;45m▓[0;35m█ [0m
      [35m▀■[0m                                             [1;35m▐▀[0;35m▀[0;1;35m▀[0;35m▀▀▀▀▀[0;1;35;45m▀▀▌▓▒░[0;35m██[0;1;35;45m▒[0;35m█[0;1;35;45m░▄■[0;35m█[0m
               [1;30m                      [0;1;34m    [0m                       [35m▄█[0;1;35;45m+o░[0;35m██[0;1;35;45m▀▀▌[0;35m██[0m
-                                                               [35m▐[0;1;35;45mjellyfish░[0;35m▌[0m
+                                                               [35m▐[0;1;35;45m         ░[0;35m▌[0m
                                                                 [35m▀[0;1;35;45m▄▄▓▒▌░▒░[0;35m█▀[0m
                                                                       [35m▀[0;1;35;45m▓▒[0;35m▌[0m
                                                                        [35m▐[0;1;35m▀[0m
                                                                       [35m ▀[0m
 
-[1;30m---░----(.partcut.)-----------░----  [0m
-     [1;30mansi by spúd for jellyfish[0m
-     [1;30mdunno if i like da colors, [0m
-     [1;30mbut anyway, its a logo.[0m
-     [1;30muse it if ye need it..:>[0m'
+[1;30m---░----(.partcut.)-----------░----  [0m'

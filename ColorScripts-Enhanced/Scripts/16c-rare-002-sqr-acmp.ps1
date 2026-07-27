@@ -5,7 +5,7 @@
 # Source SHA-256: 4b6dc4a3986691f453d3c3b017ed5f1b3d89ad3041ec8700e7bbb4bef3ffb784
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SQR!ACMP.ANS by square (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: allura ascii compo
 # SAUCE Author: square
 # SAUCE Group: rare!ascii
@@ -15,18 +15,18 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m [0m   [1;30m...[0m [1;30m. [0m [1;30mnote: made for the allura ascii-compo  ...  ..  .  . ..   ...[0m [1;30m.... ..[0m
+[1;30m [0m   [1;30m   [0m [1;30m  [0m [1;30m                                                             [0m [1;30m       [0m
  [1;30m...:[0m   [1;30m_.,▬┬┬┬┬┬┬┬[0m┬[1;30m┬[0m┬┬┬┬┬┬┬[1m┬┬┬[0m┬┬[1;30m┬┬┬┬┬┬┬┬┬┬┬┬┬[0;1;37m┬┬┬[0m┬┬┬┬┬┬┬[1;30m┬[0m┬[1;30m┬┬┬┬┬┬┬┬┬[0m▬[1;30m,[0m._  [1;30m..:.[0m
-[1;30m  :   [0m [1;30m|ll[0m     [1;30m`┘7$llll|ii|[0m|il&li||[1;30m|&li|il&|[0m|l&i||[1;30ml[0m|[1;30m||ii|lll$$7`[0m     [1;30mlll[0m   [1;30m [0m [1;30m..[0m
-  [1;30m.[0m     |[1;30ml,[0m       [1;30m`°²└7llll|ii[0m||lllll[1;30m&lil&[0ml|||||[1;30m||ii||ll7└ⁿ°`[0m       [1;30m,ll[0m       [1;30m:[0m
-   [1;30m [0m [1;30m.  [0m `l[1;30m,[0m           [1;30m `┘7ll||iiii[0mll[1;30ml&l&[0mll[1;30ml[0ml[1;30mll|iill7┘`[0m            [1;30m,7`[0m  [1;30m  .[0m [1;30m [0m
+[1;30m      [0m [1;30m   [0m     [1;30m ┘          [0m        [1;30m         [0m      [1;30m [0m [1;30m            [0m     [1;30m   [0m   [1;30m [0m [1;30m  [0m
+  [1;30m [0m      [1;30m  [0m       [1;30m   └        [0m       [1;30m     [0m      [1;30m         └   [0m       [1;30m   [0m       [1;30m [0m
+   [1;30m [0m [1;30m   [0m   [1;30m [0m           [1;30m  ┘         [0m  [1;30m    [0m  [1;30m [0m [1;30m        ┘ [0m            [1;30m   [0m  [1;30m   [0m [1;30m [0m
  [1;30m    :..  [0m └[1;30mb,[0m  [1;30m [0m          [1;30m`7ll|||ll|[0mll[1;30m&[0mll[1;30mlll|i|ll7`[0m             [1;30m,d[0m┘   [1;30m ..:    [0m
  [1;30m. ..:[0m  [1;30m.[0m   [1;30m`lb,  [0;31m`*,_[0m       [1;30m7lllii|||l[0mi[1;30mllii||lll7[0m       [31m_,*`[0;1;30m  ,d[0ml''    [1;30m.[0m  [1;30m:.. .[0m
      [1;30m:  :..[0m  [1;30m`$$b   [0;31m`7[0;1;31mSg[0;31m▬._[0m   [1;30m`┘7lllli|li|||ll7└`[0m   [31m_.▬[0;1;31mgS[0;31m7`[0;1;30m   d$[0ml''   [1;30m..:  :[0m
 [1;30m. ...:. .. . [0m [1;30ml$[0m|l,   [1;31m`┘7l[0;31m7└''     [0;1;30m`°²┘*|*┘²°`  [0;31m   `└7[0;1;31ml7┘`[0m   ,l[1;30m|ll[0m [1m [0m [1;30m     ....:  [0m
      [1;30m ..:[0m    [1;30m,$l[0m|l$b,_     _,[1;30m▬┬g%*+-[0m  [1;30m- -[0m  [1;30m-+*%g┬▬,_[0m     _,d$l[1;30m|ll,[0m  [1;30m.[0m [1;30m...:.[0m
    [1;30m...:[0m    [1;30m,d$|[0mli|i[1m|[0ml$[1m$S[0mS[1mS[0m$||[1;30m7└°` _,▬┬ygy┬▬,_ `°└7|[0m|i[1mS[0mS[1mS$[0m$l[1m|[0m||li[1;30m|lb,[0m     [1;30m:.. ..[0m
-       _[1;30m,g$l||l|[0mli|i|[1mll[0m|||7[1;30m°`  ,sSl|lll[0ml[1;30ml|||lSs,  `°7l|[0ml$[1mll$l|[0m$l[1;30m|lll$g,_[0m      [1;30m:[0m
+        [1;30m        [0m     [1m  [0m    [1;30m            [0m [1;30m               [0m  [1m     [0m  [1;30m        [0m      [1;30m [0m
     [1;30m,[0mg[1;30m7┴ⁿ²²ⁿ┴*7lll[0ml|l|[1mll[0m7'' [1;30m ,g7|ll||l|[0ml[1m|[0m|[1;30ml|||lll$g,  `7[0;1;37mll[0m|||$lll[1;30mll||||ll$b,[0m_
  [1;30m [0m └[1;30m'',[0;36msQRS[0;1;36m@[0;36ms[0;1;36m▬._[0;1;30m`°77┘²²┘`[0m  [1;30m,┘''[0;1;37m_[0;1;36m,[0;36m_[0;1;30m`7l[0mil[1m||7┴[0m┴7[1;30m7└²°^[0m^°²''[1;30m [0m  [1;30m`[0m└7[1;30mll|l||l$7*┴ⁿ²[0m²[1;30mⁿ[0m┴*[1;30m7[0mb[1;30m,[0m
 [1;30m   [0m [1;30m,[0;36m§§§°[0;1;30m``[0;36m°└§§§b_,┬[0;1;36mgg┬[0;1;37m,[0;36m   [0;1;37m,[0;1;36md§[0;36m§§b,[0;37m`[0;1;30m└[0m²[1;30m`_[0;36m,┬g[0;1;30m,[0;1;36m_▬s§[0;36m@[0;1;36mS[0;36m§S@%g┬▬[0;1;30m._`7$7┘°`[0;36m_.,▬[0;1;36m┬[0;36mg[0;1;36mg┬▬.[0;1;37m_[0m`┘[1;30m [0m

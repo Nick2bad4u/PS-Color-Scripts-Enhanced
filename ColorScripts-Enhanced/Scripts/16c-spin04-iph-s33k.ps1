@@ -5,7 +5,7 @@
 # Source SHA-256: e90c0324d8083ad54f582484c2d46831aace934d543db4de152895e865df29b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IPH-S33K.ANS by iph (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: iph
 # SAUCE Group: spin
 # SAUCE Date: 19981129
@@ -18,7 +18,7 @@ Write-Host '
 [1m   [0;1;32m.ss[0;32ms[0;1;30ms, [0;1;32m.$$[0;32m$$$[0;1;36m.s[0;36mss[0;1;30ms, [0;1;36m.$$[0;36m$[0;1;30m$$[0;1;31m.s[0;31mss[0;1;30ms, [0;31m.[0;1;31m$$[0;31m$[0;1;30m$$[0;34m.[0;1;34ms[0;34msss,.[0;1;34m$$[0;34m$$[0;1;30m$$ [0;1;35mss[0;35ms[0;1;30ms   [0;1;35mi$[0;35m$$[0;1;30m$$[0;1;37m.$$[0m$[1;30m$,[0m
 [1;30m  [0;1;32m:$$[0;32m$$iⁿⁿ$$$[0;1;30m$I[0;36m:[0;1;36m$$[0;36m$$iⁿⁿ$$$[0;1;30m$I[0;1;31m:$$[0;31m$$iⁿⁿ$$$[0;1;30m$I[0;34m:[0;1;34m$$[0;34m$$iⁿ[0;1;34m$$[0;34m$$$[0;1;30mI: [0;1;35m$$[0;35m$iⁿⁿ$$$[0;1;30m$I:[0;1;37m:$$[0m$[1;30m$i[0m
 [1;30m [0;1;32m.i$$[0;1;30m$$ [0;1;32m.i$[0;32m$[0;1;30m$i[0;36m.[0;1;36mi$[0;36m$$[0;1;30m$ [0;1;36m.i$[0;36m$[0;1;30m$i[0;31m.[0;1;31mi$[0;31m$[0;1;30m$$ [0;1;31m.i$[0;31m$[0;1;30m$$[0;34m.[0;1;34mi$[0;34m$$[0;1;30m$ [0;1;34mi$[0;34m$$[0;1;30m$i. [0;1;35m$$[0;35m$[0;1;30m$ [0;1;35m.i$[0;35m$[0;1;30m$i.[0;1;37m.i$[0m$[1;30m$$[0m
-[1;30m [0;1;32ml$$[0;1;30m$$: [0;1;32mⁿⁿ[0;32mⁿ[0;1;30mⁿⁿ [0;1;36ml$[0;36m$$$Ym[0;1;30mm,[0m     [1;31m`ⁿ[0;31mⁿ[0;1;30mⁿⁿ  [0;1;31m$[0;31m$$[0;1;30m$$[0;1;34ml$[0;34m$$[0;1;30m$[0m        [1;35md$$[0;35m$[0;1;30m$[0m         [1ml$[0m$$$Ymmsss[1;30ms.[0m
+[1;30m [0;1;32m   [0;1;30m    [0;1;32m  [0;32m [0;1;30m   [0;1;36m  [0;36m     [0;1;30m  [0m     [1;31m  [0;31m [0;1;30m    [0;1;31m [0;31m  [0;1;30m  [0;1;34m  [0;34m  [0;1;30m [0m        [1;35m   [0;35m [0;1;30m [0m         [1m  [0m         [1;30m  [0m
 [1;30m [0;1;32m`ⁿⁿ[0;32mⁿⁿⁿ$$$[0;1;30m$$  [0;1;36m$$[0;36m$$[0;1;30m$"[0;1;36m,s[0;36mss[0;1;30mss[0;31m,[0;1;31m$$[0;31m$$$ⁿ$$$$[0;1;30m$$ [0;1;34m$$[0;34m$[0;1;30m$"[0m       [1;35m,$$[0;35m$[0;1;30m$  [0;1;35m.s[0;35mss[0;1;30ms   [0;1;37m$$[0m$[1;30m$$''[0;1;37m,$[0m$$[1;30m$$''[0m
 [1;32m$$[0;32m$[0;1;30m$i [0;1;32m.$$[0;32m$[0;1;30m$i [0;1;36ml$$[0;36m$[0;1;30mi''[0;1;36m.$[0;36m$$[0;1;30m$i [0;1;31mi$[0;31m$[0;1;30m$i [0;1;31m.$$[0;31m$$[0;1;30m$[0;1;34m:i$[0;34m$$[0;1;30mi[0m        [1;35m$$[0;35m$[0;1;30m$i [0;1;35m.$$[0;35m$[0;1;30m$i  [0;1;37ml$[0m$$[1;30mi''[0m.[1m$$[0m$[1;30m$i''[0m
 [1;32m$$[0;32m$$[0;1;30m: [0;1;32m:$$[0;32m$[0;1;30m$[0;32m:[0;1;36m:$$[0;36m$[0;1;30m$: [0;1;36mi$[0;36m$$[0;1;30m$:[0;1;31m:$$[0;31m$[0;1;30m$: [0;1;31m:$$[0;31m$[0;1;30m$:[0;1;34m:$[0;34m$$[0;1;30m$:[0m       [1;35m:$$[0;35m$[0;1;30m$: [0;1;35m:$[0;35m$$[0;1;30m$: [0;1;37m:$$[0m$[1;30m$: [0;1;37mi$[0m$[1;30m$$:[0m
@@ -26,11 +26,5 @@ Write-Host '
 [1;32m$[0;32m$[0;1;30m$l  """" [0;1;36mi$[0;36m$[0;1;30m$$l  [0;1;36m"[0;36m""[0;1;30m" [0;1;31mi$[0;31m$$[0;1;30m$l  [0;1;31m""[0;31m"[0;1;30m" [0;1;34mi$[0;34m$$[0;1;30m$l[0m       [1;35mi$[0;35m$$[0;1;30m$l  [0;1;35m""[0;1;30m""  [0;1;37mi$[0m$[1;30m$$  [0;1;37m`"[0m"[1;30m""[0m
 [1;30m [0;32m~"[0;1;30mⁿ[0m         [36m~[0;1;30m"ⁿ[0m          [31m~[0;1;30m"ⁿ[0m          [34m~"[0;1;30mⁿ[0m          [35m~"[0;1;30mⁿ[0m           ~[1;30m"ⁿ[0m
 [1;30m==============================================================================[0m
-SEARCH: [                                                 ]
-[1;30m==============================================================================[0m
-
-
-[1;30mcan''t remember i released this before, if you run a lamer board use this![0m
-[1;30mif you care for it, dump this![0m
-
-[1;30m/iph of spin (releasing old ascii''s from my hidden archives)[0m'
+                                                           
+[1;30m==============================================================================[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: cd0318a29b1bf87dfd0012a0675764ac8527e845281d680c27e1a100287c9a39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: h4-mom.ans by Haji (mimic48); released in mimic48 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -33,5 +33,4 @@ Write-Host '
 [37m  [0;31m    [0;1;34m╠╬╬╬╬╬╬╬╬╬╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗[0m [31m [0m          [34m║║[0;37m [0;34mmaybe expect some[0m
 [37m  [0;31m││││[0;1;34m╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝[0m [31m││││││││[0m   [34m║║[0;37m [0;34mwritings soon. or[0m
 [37m  [0;31m│││││││││││││││││││││││││││││││││││││││││││││││││││││││[0m   [34m║║[0;37m [0;34mwhatever.   peace[0m
-                                                            [34m╚╝[0;37m [0;34m☺♥☻  ♦HA♦JI♦ [0;37m [0;34m☻♥☺[0m
-    [1;34mit''s funny; i love you yet i hope to god you burn in hell[0m [1;34mfor everything[0m'
+                                                            [34m╚╝[0;37m [0;34m☺♥☻  ♦HA♦JI♦ [0;37m [0;34m☻♥☺[0m'

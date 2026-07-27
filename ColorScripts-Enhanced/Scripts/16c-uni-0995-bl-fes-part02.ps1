@@ -5,7 +5,7 @@
 # Source SHA-256: 342937402ed7943b39c44a746565ea871c3279a7fd7da5eb0b88a35cd028da8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-FES.ANS by Black Lightning (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flat Earth Society
 # SAUCE Author: Black Lightning
 # SAUCE Group: Union
@@ -29,7 +29,7 @@ Write-Host '
 [1;33;40m  [0;1;30;40m██ ░   ░███▄██   ▀ ▀▀   [0;33m▀▀▀█[0;1;31;43m░  ▀▀[0;1;31;40m███[0;1;31;43m▀▀[0;1;31;40m▀▀[0;33m▀  [0;1;30m▄[0;1;30;45m▀[0m   [1;35;40m▀ [0;35m██▌ [0;37m▐[0;1;33;47m▐[0;1;33;40m█[0;1;33;47m▄▄▄▄[0m▄▄  [1;33m▀█████[0;1;33;47m▀[0;1;33;40m█[0;1;33;47m▄[0;1;33;40m███[0;1;33;43m▌[0m
   [1;30;40m▐█▌   ░▓██[0;1;30;47m░▄▓[0;1;30;40m████▀ ▀[0m           [33m▀▀▀▀▀  [0;1;30m▄▄▄▄[0;1;30;45m▀[0;35m██[0;1;35;45m▀[0;35m▄ ▄█[0;1;35;45m▄[0;1;35;40m▀[0;1;35;45m▄[0m  [1;33;40m█[0;1;33;43m▀[0;1;33;40m███[0;1;33;43m▀[0;1;33;47m█▄ [0m  [1;33;40m██████████[0;1;33;43m▀ [0m
    [1;30;40m█▓▄  ▓█▀▀▀▓ ▀ ▄▀█▓▄▄   ▄[0m        [1;30;40m▄▄▓[0;1;30;45m▀▀[0;35m█▓█[0;1;35;45m▄[0;1;35;40m▀▀[0;35m▐[0;35;45m [0;1;35;45m▄▄[0;1;35;40m▀▀ ▐[0;1;35;45m▒[0;35m█  [0;35;43m [0;1;33;43m░▓[0;1;33;40m███[0;1;33;47m▀▀ [0m  [1;33;40m███[0;1;33;43m▓▀▀▀   ░[0m
-[1;30;40m-[0;30mnotitsnotitsnotitsnotitsnotitsnotitsnotitsnotitsnotitsnotits. it says no tits.[0;1;30m-[0m
+[1;30;40m [0;30m                                                                              [0;1;30m [0m
 [1;30m  [0;33m▄[0;1;33;43m▄░[0;33m██[0;1;33;43m░░▒▓[0;33m▌ [0;1;33;43m░[0;33m█▀▀█▄[0m        [33m▄[0;1;33;43m░▒▄[0;33m▓█▄   █[0;1;33;43m▄▒░[0;33m▀▀█[0;1;33;43m░░▒▓▄[0;33m▌ [0;36m█[0;1;36;46m▄▄▄[0;36m█[0;1;36;46m▄[0;36m█████████████████[0;1;36;46m▄[0;36m█[0;1;36;46m▄▄▄[0;36m█[0m
 [36m [0;33m▓█▀▓  ▀▀▀[0;1;33;43m▀[0;33m▌ [0;1;33;43m░[0;33m▌  ▐▀▀[0m      [33m█[0;1;33;43m░[0;33m▀[0;1;33;43m▀[0;33m█  ▀█  █▀[0m        [33m▀[0;1;33;43m▀[0;33m▓ [0;36m█[0;1;36;46m█▓ [0;46mhard to read facts ::[0;1;36;46m░▓█ [0m
  [33m▌  ░ ▄▄▄▄   █   ▀[0m       [33m█[0;1;33;43m░[0;33m▌ ▀  ▓ ▐▌ ▌[0m      [33m▀█   █ [0;36m█[0;1;36;46m▀ [0;46mpicture taken from X-Men[0;1;36;46m▀[0;36m█[0m
@@ -38,7 +38,7 @@ Write-Host '
  [33;40m█   █  ▄    ▌   █▓▄▄▄   [0;1;33;43m░[0;33m▌[0m        [33m▄    [0;1;33;43m░[0m    [33m▓[0m     [36m██[0;37;46m4th, a Friday. My first  [0;1;36;46m▀[0;36m█[0m
 [36m [0;33m█▓ ▐[0;1;33;43m░[0;33m▌[0m      [1;33;43m░[0;33m▄  ▀▀   █▓ [0;1;33;43m▓▄[0m  [33m▓▀ ▀█▄▓   ▐[0;1;33;43m▓▄[0;33m▄  ▀[0m     [36m██[0;37;46mtoon shading in a year.[0;36;40m██[0;1;36;46m░[0;36m█[0m
 [36m [0;33m▀▀▀▀▀▀▀[0m     [33m▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▒  ▀▀▀▀   ▀▀▀▀▀▀[0m      [36m█[0;1;36;46m▓░[0;36m█████[0;1;37;46mBlack Lightning[0;36m███[0;1;36;46m▓█[0;36m█[0m
-[30mflat chest society[0;36m..  eeee---aa---rrr--tt-tt---hhh  ---.. ░▒▓█[0;1;37;46munion 95[0;36m███[0;1;36;46m▀▀[0;36m█[0;1;36;46m▀▀▀[0;36m█[0m
+[30m                  [0;36m                                        ░▒▓█[0;1;37;46m        [0;36m███[0;1;36;46m▀▀[0;36m█[0;1;36;46m▀▀▀[0;36m█[0m
 [36m [0;1;36mt[0;1;34mhe [0;1;36mf[0;1;34mlat [0;1;36me[0;1;34marth   [0m▄▄▄▄▄▄▄▄     ▄▄▄▄▄▄    ▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄ ▄▄▄ ▄▄
  [1;36ms[0;1;34mociety [0;1;36m![0;1;34m![0;1;36m![0;1;34m![0;1;36m![0;1;34m!  [0m▄   ▀▀█▀░  ▄██▀▀▀ ▀██▓ ▓▀▀   ▀█▌    ▀▓   ▀▀▀█▌ ▐█▀▀  ▀▓ ▓▀▓ █
  [1;36ms[0;1;34mop: [0;1;36mS[0;1;34med[0m        ▓▌          ▓       ▄     ▄▓   ▓ ▓▀  ░▀ ░    ▀     ▄▓   ░ ▒ ▓

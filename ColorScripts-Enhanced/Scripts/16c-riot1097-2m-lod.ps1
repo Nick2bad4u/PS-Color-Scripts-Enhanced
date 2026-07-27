@@ -5,7 +5,7 @@
 # Source SHA-256: 55c799934124094c312b03fbcfb9ae004f3ee968fc6cd6698d4b9b68dfbdaa45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2M-LOD.ANS by 2much4u (RioT Productions); released in riot1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Land of Deceit
 # SAUCE Author: 2much4u
 # SAUCE Group: RioT Productions
@@ -17,7 +17,7 @@
 Write-Host '
                                                     [35m▄[0;1;31;45m░[0;1;30;40m▄▀▄▀▀[0m▄ ■   ·
                                                    [35m▀[0;37m [0;1;30m▄[0m ▄█▀ [35m [0;37m  [0;35m [0m
-[37m  ·[0m          [1;30mYou have entered the[0m                 [35m▀[0;1;30m▄▀[0m █▀ [35m [0m
+[37m   [0m          [1;30m                    [0m                 [35m▀[0;1;30m▄▀[0m █▀ [35m [0m
      [37m■[0m                                           [1;31;45m░[0m [1;30m▄[0m [1;30;47m░[0m▀ [35m [0m
    [35m▄[0;1;30m▐[0m  ▄                                        [35m■[0;37m [0;1;30m▓[0m ██
     [35m■[0;1;30m█ [0m ▀█▄                                    [35m▐[0;37m [0;1;30m█[0m [1;30;47m░[0m█▌ [35m [0;37m  [0;1;30mSoP: Prop Rod[0m
@@ -35,6 +35,4 @@ Write-Host '
       [35m▄[0;37m [0;1;30m▄[0m ■ ▀▀ [1;30m▄[0m  [1;30m▄[0m  [1;30m▀[0;35m■[0;1;30m▀▀▀[0m [35m▄[0;37m [0;1;30m▀▀▀▀ ▀ ▄▄[0m █▄
        [1;31;45m░[0m [1;30m▀▀[0;35m▄[0;1;30m ▀▀[0m [35m▄[0m   [35m▄▄▄▀▀ ▀▀▀▀▄█▀▀▀▄▄▄[0;37m [0;1;30m▄▄[0m ■ [1;30m▄[0m  [1;30mLand of Deceit[0m
         [35m▀▀▀[0;37m [0;35m▀[0;37m  [0;35m▀[0m                         [35m■[0;1;30m▀[0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mWell it aint along the lines of yer color scheme, but oh well... it''s free.. ;)[0m
-[1;30mHope ya like it... greetz to thuh LoD![0m'
+[1;30m--------------------------------------------------------------------------------[0m'

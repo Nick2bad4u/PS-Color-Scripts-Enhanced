@@ -5,7 +5,7 @@
 # Source SHA-256: 5ac058cdda4b689d561c1d7c91536e08f921d3135026dd3ede2ffc46602313fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HYPSK-04.ANS by hypocrite sickness (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: _____[[[\       ^_    [_[]0
 # SAUCE Author: hypocrite sickness
 # SAUCE Date: 19960917
@@ -59,7 +59,4 @@ Write-Host '
                                         ░░
 
                                          ░
-[1m--------------------------------------------------------------------------------[0m
-     [1mdamnit, i fucked up another logo..wonder why i''m not in ice..hahahahaha[0m
-
-                   -well, thats pretty much it fer logos =)[0m'
+[1m--------------------------------------------------------------------------------[0m'

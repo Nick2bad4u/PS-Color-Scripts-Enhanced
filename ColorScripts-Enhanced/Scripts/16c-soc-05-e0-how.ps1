@@ -5,7 +5,7 @@
 # Source SHA-256: b682adee09e1cd65cffbec8894d3c747ae524bd5b53d486de6e187bef02efb40
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: E0-HOW.ANS by Enzo (Maiden Brazil 1998); released in soc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hell-O-Wingo Gaytricks
 # SAUCE Author: Enzo
 # SAUCE Group: Maiden Brazil 1998
@@ -32,20 +32,11 @@ Write-Host '
 [1;36;40m▄▄[0;36m  ▀[0;1;36m▀▀[0m   [33m [0;30;43m▓ [0;1;31;43m▐[0;1;31;47m██[0;1;31;43m▄[0;1;31;40m▄[0;33m▄[0;37m▀[0;1;37m▀▀▀[0m [33m▄[0;1;31;43m▄[0;1;31;40m█[0;1;31;47m▀[0;1;31;40m▄[0m ▀[1m▀▀[0;33m▄[0;1;31m▄[0;1;31;43m█[0;1;31;40m█[0;1;31;47m█▄▐[0;1;31;40m▌[0;34m  [0;35m▀[0;37m  [0;1;36m [0;1;33m page sys op[0;35m [0;1;30m  [0;35m▄[0;1;35;45m [0;34m [0;32m▀[0;1;32;42m▀[0;1;32;40m▄[0;1;32;42m▄[0;1;32;40m▄[0;1;32;42m█[0;1;32;40m▄▀[0;1;32;42m▀[0;1;32;40m▄[0;32m▀[0;1;32m▀[0m [34m▄[0;1;37;44m░[0m
 [36m▌[0;1;36m▀[0;1;36;46m▀█[0;1;36;40m▄[0m       [33m▀[0;1;31;43m ▀[0;1;31;40m████████[0;1;31;43m▄[0;33m▄▀[0;1;31m▀▀[0;33m▄[0;1;31;43m▄[0;1;31;40m████████[0;1;31;43m▀[0;1;31;40m▀[0m [34m   [0m    [1;33mkill sys op[0;1;36m [0m [1;30m [0;35m▌▐[0;37m [0;32m [0;37m [0;1;32m▀▌[0;1;32;42m▀[0;32m▀ [0;1;32m▀[0;32m [0;1;32m▀[0;32m [0;34m▄█[0;1;37;44m  [0m
 [36m▌[0m              [33m [0;1;31;43m▐[0;1;31;40m█[0;33m ▀[0;1;31m▀[0;1;31;43m▀[0;1;31;40m████[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;47m██[0;1;31;40m▀▀[0;33m [0;1;31;43m▐[0;1;31;47m█[0m [33m [0m     [34m [0m    [1;33mwash sys op[0;1;36m [0;36m [0;37m [0;35m▀█[0;37m [0;32m▀ [0;1;32;42m▄[0;1;32;40m█▄[0m [1;30;43m▄[0;33m▀[0m   [34m▀ [0;1;37;44m [0;34m▀[0m
-[36m▌[0;1;30m      [0m         [30;43m░[0;1;31;40m█[0m [1;47m [0;1;40m▀▄▄▄▄▄▄▄▄▄▄[0;1;47m▄█[0;33m [0;1;31;43m▐[0;1;31;47m▓[0m       [34m [0m    [1;33mfuck sys op[0;1;36m [0;1;33m [0;35m [0;37m [0;35m▄[0;37m [0;32m ▐[0;1;32m▄[0;32m▀[0m    [1;30;43m▄[0;33m▀[0m   [34m▀█[0m
+[36m▌[0;1;30m      [0m         [30;43m░[0;1;31;40m█[0m [1;47m [0;1;40m▀▄▄▄▄▄▄▄▄▄▄[0;1;47m▄█[0;33m [0;1;31;43m▐[0;1;31;47m▓[0m       [34m [0m    [1;33m           [0;1;36m [0;1;33m [0;35m [0;37m [0;35m▄[0;37m [0;32m ▐[0;1;32m▄[0;32m▀[0m    [1;30;43m▄[0;33m▀[0m   [34m▀█[0m
 [36m▀[0;1;30m   [0m     [1;30m▄▄▄[0m    [30;43m░[0;1;31;40m█[0;33m [0;37m▀[0;1;37;47m▀██[0;1;37;40m▄▄█[0;1;37;47m█[0;1;37;40m▄████▀[0m [1;31;43m▐[0;1;31;47m▓[0m    ▄[1m▄▄[0m     [1;33mtake sys op[0;1;36m  [0;1;33m  [0;34m [0;37m  [0;32m▀[0m        [1;30;43m▄[0;33m▄ [0m
 [1;30m  [0m    [1;30m▄[0;1;30;47m█▀▀ [0m██[1;30;47m▀[0m▄[1;30m▄[0m [33m▀[0;1;31;43m▀[0;1;31;40m█▄▄▄[0m▀[1m▀▀▀▀▀[0;33m▄[0;1;31m▄▄[0;1;31;43m▄[0;1;31;47m█[0;1;31;40m▀[0m ▄[1m▄[0;1;47m▄[0;1;40m█████[0;1;47m█[0m▄ [1;35m            [0;1;36m    [0;34m [0m         [1;30m▄[0;33m▄▄▄[0;1;33m▄▄▐[0m
 [1;30m  [0;34m [0;1;33m [0;36m [0;1;30m▐[0;1;30;47m▌▀[0m███[1;47m ▄██[0;1;40m█[0;1;47m▄[0;1;40m▄[0m▄ [33m▀[0;1;31m▀▀[0;1;31;43m▀[0;1;31;40m██[0;1;31;47m███[0;1;31;40m▀▀▀[0m ▄[1m▄[0;1;47m▄[0;1;40m██████████[0m▌                     [1;30m▄[0;33m▄[0;1;30;43m▀[0;33m███[0;1;33;43m [0;1;37;43m▀[0;1;33;43m▀█▀█[0m
 [1;34;47m▀[0;1;34;44m▄[0;34m▄[0;1;33m [0m [1;30;47m█▌[0m███[1;47m ▐████[0;1;40m█████[0;1;47m▄[0;1;40m▄▄▄▄▄▄▄▄[0;1;47m▄[0;1;40m██████[0;1;33;40m██[0;1;37;40m███████[0;1;37;47m▌[0m        [34m▀[0;1;34;44m▀[0m▀[1;34;44m▀[0;1;34;47m█████[0;1;34;44m▀[0;34m▀[0;1;30m▄[0;1;30;43m▀[0;33m████[0;1;33;43m [0;1;37;43m  [0;33m█[0;1;33;43m ░ ▀[0m
 [1;34;40m█[0;1;34;44m▀[0;34m▄[0;37m  [0;1;30;47m█▄ [0;1;37;47m    ▀[0;1;37;40m███[0;1;37;47m▀[0;1;37;40m▀▀▀▀[0;1;37;47m▀[0;1;37;40m█▀▀▀▀▀[0;1;37;47m▀[0;1;37;40m█▀▀▀▀▀██[0;1;37;47m█[0;1;37;40m██[0;1;37;47m█▌[0;1;37;40m████[0;1;37;47m█[0m          [34m  ▄[0;1;34;44m▄[0;1;34;40m███[0;1;34;44m▄[0;1;34;40m▄▄▄▄▄▄▄▄▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▄[0m
 [34m▀  [0;37m  [0;1;30;47m██▀[0;1;37;47m   [0m [1;47m▀[0;1;40m█[0;1;47m▀[0m▀[33m▄[0;1;33;43m▄[0;1;33;40m█▀█▄[0m [33m█[0;1;33;43m▄[0;1;33;40m█▀▀ [0;33m▄[0;1;33;43m▄[0;1;33;40m█▀██▄[0m▀[1;47m▀[0;1;40m█[0;1;47m█[0m [1;47m [0;1;40m███[0;1;47m██[0m [1;36menzo[0;36m?!   [0;34m  ▀[0;1;34;44m▀[0;1;34;40m█[0;1;34;47m▄[0;1;34;40m█▀[0;34m ▀[0;1;34m▀[0;1;34;44m▀[0;1;34;40m█[0;1;34;47m▄[0;1;34;40m█[0;1;34;47m▄▄[0;1;34;40m███[0;1;34;44m▀[0;1;34;40m▀█[0m
-[1;30;40m--- -- -[0m
-[1;30m@!#$Matrix vinda diretamente do sertao pra um caba da peste chamado [0;1;37mMinobitz[0;1;30m@#!&[0m
-[1;30m Eu dedico essa ansi a mim mesmo, me homenageio atraves dela por ter passado no[0m
-[1;30mvestibular sem ter estudado nada, so passei devido as aulas dos seguintes profe [0m
-[1;30mssores;[0m [1mPenha Cotozinha, Alcides Cearense, Roberto Percevejo, Paulo Hellraiser, [0m
-        [1mRogerio Tiradentes, Theobaldo Super-Mula,[0m [1mJoao Cotonete,[0m [1mJoao Calombo, [0m
-        [1mGilberto Nariz-de-Foguete, Eduardo Chambaril, "des" Graca, Marilson Cu- [0m
-        [1mde-Fogo, Venusa Bafo-de-Onca e Andre Cana-Brava.[0m
-                                                         valeu bando de mane''!
-                                                        [1mLuciano Ayres aka enzo[0m'
+[1;30;40m--- -- -[0m'

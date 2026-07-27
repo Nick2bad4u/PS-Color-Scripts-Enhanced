@@ -5,7 +5,7 @@
 # Source SHA-256: ce93f7d0d12bd81a1e5202d3e07141a81f2e6a077d4f8da5a46f8e17b48447a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-FIRE.ANS by Dr Suess (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -21,14 +21,14 @@ Write-Host '
     [36m▓▓▓█[0m      [36m▓▓▓█[0m      [36m▓▓██  ▓▓▓█  ██  ▓▓██  ██[0m     [36m▓▓██[0m      [1;37mD[0mr. [1mS[0muess
     [36m░▓▓▓[0m      [36m░▓▓▓████  ░▓▓█  ░▓▓▓▓███  ░▓▓█  ▓█[0m     [36m░▓▓█[0m
 [36m    ░░▓▓[0m      [36m░░░▓▓▓▓▓  ░░▓▓  ░░░▓▓▓▓█  ░░▓▓  ░▓[0m     [36m░░▓▓[0m      [1;37mB[0murning [1mR[0mage
-                                                               [1mH[0motfoot
+                                                               [1m [0m      
                        [1mB[0m          [1mB[0m          [1mS[0m
 
                                                                           [31m█[0m
-     [1;30m[[0mT[1mS[0mD[1;30m] [0;1;37mW[0mHQ    [1;30m[[0mA[1mTE[0mC[1;30m] [0;1;37mD[0mist. [1mS[0mite     [1;30m0[0m-[1;30m7 [0;1;37mD[0may [1mW[0mares
+     [1;30m [0m [1m [0m [1;30m  [0;1;37m [0m      [1;30m [0m [1m  [0m [1;30m  [0;1;37m [0m     [1m [0m        [1;30m [0m [1;30m  [0;1;37m [0m   [1m [0m    
                                                                             [31m█[0m
                                                                           [31m██[0m
-[31m  █[0m                  [31mR[0;1;31moasting [0;31mT[0;1;31mhe [0;31mC[0;1;31mompetition [0;31mI[0;1;31mn [0;31m[[0;1;31m4o3[0;31m][0;1;31m![0m                  [31m█▒█[0m
+[31m  █[0m                  [31m [0;1;31m        [0;31m [0;1;31m   [0;31m [0;1;31m           [0;31m [0;1;31m  [0;31m [0;1;31m   [0;31m [0;1;31m [0m                  [31m█▒█[0m
      [31m█[0m                                                                [31m█ █▒█  █[0m
 [31m   █[0m                    [31m█[0m                                   [31m█[0m           [31m█▒█[0m
 [31m  █[0m             [31m█[0m                                     [31m█[0m                 [31m█▒█[0m

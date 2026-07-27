@@ -5,7 +5,7 @@
 # Source SHA-256: cdaf62e4ba35861511ad15f3142983dab4371cd96370b83152cee3ba5795f770
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-WM1.ANS by Smoke (moi-1296); released in moi-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [1;37;47m█▀[0m████████▀▀▀▀▀▀  ▀ ▀▀████▀▀▀▀ [1m▄▄[0m▄[1;30mi[0;1;37;47m█[0m█[1;47m▓[0m▄[1;47m▓▀[0m█▄[1;47m▓[0m▄▄ ▀██████████▀ [1;33m▄▄████[0;1;33;43m░▀[0;33m██▀[0;35m▄▄█[0;1;35;45m▀▀█[0;1;35;40m███[0m
 [1;37;47m▌[0m█                     ███ [1;47m▌[0m█[1;47m▓[0;1;30;40mw[0;1;37;47m█[0m██ [1;47m▌[0m██ [1;47m▌[0m██[1;30mk[0;1;37;47m▌[0m██▀▄[1m▄▄[0m ██████[1;33m ▄████[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▀[0;33m█▀[0;35m ▄████[0;1;35;45m ▀[0;35m█[0;1;35;45m [0;1;35;40m██[0m
 █                      ███ [1;47m█[0m█[1;47m░[0m [1;47m▌[0m██ [1;47m█[0m██[1;30mc[0;1;37;47m█[0m██ [1;47m█[0m██[1;30me[0;1;37;47m▌[0m█[1;47m▓[0m █████▌ [1;33m██[0;1;33;43m█[0;1;33;40m█[0;1;33;43m▀[0;33m▀▀[0;1;37m▄▄██[0m▄[35m▀██████[0;1;35;45m [0;35m█[0;1;35m█[0m
-█     [1;30mit''s a shit ansi[0m  █▀ [1;47m█▌[0m█ [1;47m█▄▀[0m▀[1;47m▓█▄[0m [1;47m██▄[0m [1;47m█▌[0m█ [1;47m█[0m██ █████[1;33m ▐▌[0;1;37m▄▄▄▄██[0;1;37;47m▄▀▀[0m█▀[35m▄████████[0;1;35m█[0m
+█     [1;30m                [0m  █▀ [1;47m█▌[0m█ [1;47m█▄▀[0m▀[1;47m▓█▄[0m [1;47m██▄[0m [1;47m█▌[0m█ [1;47m█[0m██ █████[1;33m ▐▌[0;1;37m▄▄▄▄██[0;1;37;47m▄▀▀[0m█▀[35m▄████████[0;1;35m█[0m
 ▌  [1;30mbut i just decided t[0;1;37m   ▀██[0;1;37;47m▄[0m▀[34m [0;37m▄▄▄▄▄▄▄▄▄▄ [0;1;37m▀▀▀[0m [1;47m██▄[0m ████▌[35m [0;1;33m█[0;35m ▄[0;37m▀[0;1;37;47m▀▀▀▀[0m▀▀[35m▄▄████[0;1;35;45m▄▓[0;35m████[0;1;35;45m▐[0m
   [1;30mto draw max :)[0m [1;30mi [0m    ███▄▄▄▄▄███████████████▄▄▄▄▄████[1;33m ▐██[0;35m █▄▄▄▄██████████████[0m
     [1;30mdidn''t look at any[0m █████[30;47m   m i n o r i t y[0;37;40m████████▌[0;35;40m [0;1;33;40m███▀▀[0;35m [0;1;37m▄[0;35m▀▀▀[0;1;37m▄▄▄[0m▄▄▄▄[35m▀▀██[0;1;30;45m░░░[0m

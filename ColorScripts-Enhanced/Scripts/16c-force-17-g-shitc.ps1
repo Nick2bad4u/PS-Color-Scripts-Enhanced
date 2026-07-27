@@ -5,7 +5,7 @@
 # Source SHA-256: e5e2a7c217acd5d3d36d060b600814f12bdfdab99cb6a867e0a858d5f2257889
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: G-SHITC.ANS by geigalow 10+3. (f o r c e); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: maerlowgowcolliey
 # SAUCE Author: geigalow 10+3.
 # SAUCE Group: f o r c e
@@ -17,10 +17,10 @@
 Write-Host '
 [1;34;44mdum greets[0;34m▐▌▐░[0;30;44m▓[0m
 
-[1;30;47mg[0;1;30;40mreets to, portia, krisis, anubis, pezclown, grump, asianboy, nOodles (sellout)[0m
-[1;30maWe, ice, fire, and the other ansi klans around the world, werd.  [0m
+[1;30;47m [0;1;30;40m                                                                              [0m
+[1;30m                                                                  [0m
 
-[1;34;44mshit colly[0;34m▐▌▐░[0;30;44m▓[0m
+[1;34;44m          [0;34m▐▌▐░[0;30;44m▓[0m
               [1;30;40m [0m
                       [30;44m▓[0;34;40m▓▓▄▄[0;37;40m [0;1;34;40m▄[0;34m▄▄░[0;30;44m▓[0m        [34;40m   [0;37;40m [0;31;40m▄[0;1;31;40m▄▄[0m [34m░[0;30;44m▓[0;34;40m▄▌[0;37;40m [0;1;34;40m▄[0;34m▄▄▄▓░[0;37m [0;1;31m [0m [33m▓▓▄▄▄▄██▓▒░ ░░[0m
             [34m▄▄▒░[0m    [37m [0;34m▄▄▀▀[0;37m [0;1;31m [0;31m▄[0;1;31m▄▄▄▄▄▄▄▄██████[0;1;31;47m▓▓[0;1;31;40m███▀[0m [34m▄▓▀▀▀▀[0;1;30m [0;33m▄▄▄▄▓▓▀█████████    [0m
@@ -58,6 +58,4 @@ Write-Host '
         [1;34m..[0m [34mn[0m    [1;37m▀▀[0;1;37;47m▓▓▓[0;1;37;40m▀▀[0m                 [34m░[0;30;44m▓[0;1;34;44m░░[0;34m▄[0;37m ▀[0;1;37;47m▀██[0;1;37;40m██████▀▀    [0;34m▀ ░░[0m   [1;37mz[0m [1;34m..[0m
                                            [34m▀[0m   [1;37m [0m ▀[1m▀▀▀▀  [0;1;30m   [0m
 [34m█[0;1;34;44mfOrce!@#$[0;34m▐▌▐░[0;30;44m▓[0m                                     [37;40mw[0m
-[34;40meof.[0m
-
-[34;40mc:\myansisucks\[0;5;34;40m_[0m'
+[34;40meof.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d72ea7a082e928b4993e940b206fbce5ec940bdd415ba2a18b4d28823edadcd7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-SHOP1.ANS by thext (Glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The SkateShop
 # SAUCE Author: thext
 # SAUCE Group: Glue
@@ -45,11 +45,11 @@ Write-Host '
 [1;30m█▀▀[0m [1;30m█[0m [1;30m█▀▀ █▀▀[0m [1;30m█[0m [1;30m█▀▀▀█▀[0m  the skateshop  [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄█[0m [1;30m▄[0m [1;30m▄▄█▀▀[0m [1;30m▄[0m [1;30m▄▄[0m   [1;30m▀█[0m
 [1;30m▀▀▀▀▀[0m [1;30m█[0m [1;30m▀▀▀[0m [1;30m█▀▀[0m [1;30m█[0m [1;30m█[0m                                     [1;30m█▄▄[0m [1;30m▄▄█[0m [1;30m▄▄█[0m [1;30m█▀▀[0m [1;30m▄▄▄█▀ █[0m
 [1;30m█ ▀▀▀▀▀[0m [1;30m█▀█[0m [1;30m▀▀▀[0m [1;30m█[0m [1;30m█[0m     grand aztec priest: stereo3x    [1;30m▄[0m [1;30m▄▄[0m [1;30m█[0m [1;30m▄▄▄[0m [1;30m▄▄▄█[0m [1;30m▄▄▄▄[0m [1;30m█▀[0m
-[1;30m▀█ ▀▀▀▀▀▀[0m [1;30m█[0m [1;30m▀▀▀▀▀[0m [1;30m█[0m     sex slave: catch twenty two    [1;30m▄█▄▄█[0m [1;30m█[0m [1;30m█[0m [1;30m▄▄█▄ ▄▄█▄[0m [1;30m▄▄▄▄[0m
+[1;30m▀█ ▀▀▀▀▀▀[0m [1;30m█[0m [1;30m▀▀▀▀▀[0m [1;30m█[0m                                    [1;30m▄█▄▄█[0m [1;30m█[0m [1;30m█[0m [1;30m▄▄█▄ ▄▄█▄[0m [1;30m▄▄▄▄[0m
 [1;30m▀▀[0m [1;30m█▀▀▀[0m [1;30m▀▀▀[0m [1;30m▀▀▀█ ▀▀▀[0m        [1;30m▄[0m                           [1;30m▄ ▄[0m [1;30m▄▄▄█[0m [1;30m█▄▄▄▄[0m [1;30m█▄▄▄▄ ▄█[0m
 [1;30m▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀█[0m [1;30m▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ ▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀ [0m [1;30m▀[0m   [1;30m▀▀[0m    [1;30m▀▀[0m   [1;30m▄[0m
- [1;30moriginal outline extracted from two totem poles drawn by jeff laubenstein for[0m
- [1;30mthe shadowrun rpg sourcebook.  modifications and the rest of the pic by thext.[0m
+ [1;30m                                                                             [0m
+ [1;30m                                                                              [0m
 [1;30m█[0m [1;30m▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄▄▄▄▄[0m [1;30m▄▄[0m [1;30m▄▄▄▄▄▄▄▄ ▄▄█[0m [1;30m▄ ▄▄▄▄▄▄▄[0m [1;30m▄[0m [1;30m█▄▄▄[0m [1;30m▄▄▄▄▄▄[0m [1;30m▄▄▄[0m [1;30m▄[0m  [1;30m▄[0m [1;30m▄[0m [1;30m▄▄▄[0m [1;30m▄▄▄[0m [1;30m▄▄▄[0m
 [1;30m█▄▄ ▄ ▀ █[0m [1;30m▄ ▄ █[0m [1;30m▄█[0m [1;30m▄[0m [1;30m█[0m [1;30m▄▄▄[0m [1;30m█[0m [1;30m▀[0m [1;30m█[0m [1;30m█▄▄[0m [1;30m▄▄▄[0m [1;30m█[0m [1;30m▀[0m [1;30m█ ▄█[0m [1;30m█[0m [1;30m ▄▄█[0m [1;30m█[0m [1;30m▄[0m [1;30m█[0m  [1;30m█[0m [1;30m█[0m [1;30m█▄[0m  [1;30m█▄█[0m [1;30m█▄█[0m
 [1;30m▀ ▀▀▀ ▀▀▀[0m [1;30m▀▀█[0m [1;30m▀[0m [1;30m ▀[0m [1;30m▀▀▀[0m [1;30m█[0m [1;30m▀[0m [1;30m▀▀▀[0m [1;30m▀[0m [1;30m▀[0m  [1;30m▄▄[0m [1;30m▀[0m [1;30m▀▀▀[0m [1;30m▀[0m    [1;30m▀▀ █▄[0m  [1;30m▀▀▀[0m [1;30m▀▀[0m [1;30m▀▀▀[0m [1;30m█▄▄[0m   [1;30m█[0m [1;30m█▄█[0m'

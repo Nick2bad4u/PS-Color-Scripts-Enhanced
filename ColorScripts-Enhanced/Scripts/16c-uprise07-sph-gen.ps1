@@ -5,7 +5,7 @@
 # Source SHA-256: 2b194749850ce90ded4d9674b8c000748ea29deff63c4a152c54e4576f39bbe0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPH_GEN.ANS by seph (genuineeeee); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: seph
 # SAUCE Group: genuineeeee
 # SAUCE Date: 19980813
@@ -30,5 +30,4 @@ Write-Host '
    [1;33m▀▀█[0;1;33;47m▓▓▓▓[0;1;33;40m█[0;1;33;47m▓▓▓▓[0;1;33;40m▀[0m   [1;33;40m▀[0;1;33;47m█▓▓[0;1;33;40m█▄▄[0;1;33;47m▓▓▓[0;1;33;40m▀   [0;1;33;47m▓█▓[0;1;33;40m▄      █[0;1;33;47m▓▓[0;1;33;40m ▀[0;1;33;47m▓▓▓[0;1;33;40m████[0;1;33;47m▓▓▓▓[0;1;33;40m▐[0;1;33;47m▓▓▓[0;1;33;40m▐[0;1;33;47m▓[0;1;33;40m▄[0m    [1;33;40m▄▄[0;1;33;47m▓▓▓▓▓[0;1;33;40m█[0m
         [1;33;40m▀██[0;1;33;47m█[0;1;37;47m▓[0;1;33;40m▀[0m       [1;33;40m ▀▀▓▓█▀[0m      [1;33;40m▀▀▀▀     ▐██[0;1;37;47m▓[0;1;33;40m▄  ▀▀▀▀▀▀▀ ░▓███ █[0;1;33;47m█[0;1;33;40m█████▓▀▀[0m
          [1;33;40m░▓▓▌[0m            [1;33;40m░[0m                  [1;33;40m ▀▀▀▀▀[0m         [1;33;40m██[0;1;37;47m▓▓[0;1;33;40m  ███▀  ░[0m
-          [1;33;40m░ [0m                                                     [1;33;40m▀[0m
-              genuie ? wtf....... missed an N ... shit happens[0m'
+          [1;33;40m░ [0m                                                     [1;33;40m▀[0m'

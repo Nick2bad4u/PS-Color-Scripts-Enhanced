@@ -5,7 +5,7 @@
 # Source SHA-256: f2bdcdec0021cc7e97498018c86f8677c78ee0af6c02368936de80d1758dac9f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-TRA.ANS by FusionX (CRiSiS); released in cri-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Realms Above
 # SAUCE Author: FusionX
 # SAUCE Group: CRiSiS
@@ -39,11 +39,11 @@ Write-Host '
 [1;30m▄ [0;34m▀▀[0;1;30m▄[0m       [34m▄▀▀ [0;1;30m▄ ▄[0;34m▄[0;1;34;44m░▒▓█[0;1;34;40m▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▀[0m      [1;34m▀[0;1;34;44m▒░[0;1;30;40m▀▀[0m         [1;30;40m▀[0;1;30;44m▄[0;1;30;40m▀    ▐[0;34m░▒▓▀▀[0;1;34m▀[0;34m▀[0;1;34m▀▀[0;34m▀▀[0;1;30m▄▌ ▄  ▄[0m
                                                           [1;30m▀[0m
 
-                            [1;30mthe realms above[0m
-                        [1;30msysgod ─ FUSiON X / RAiD[0m
-                            [1;30mrunning  impulse[0m
-                            [1;30mwith  a  gig  of[0m
-                            [1;30mart  and  shit..[0m
-                            [1;30mRAiD  Mem. Board[0m
+                            [1;30m                [0m
+                        [1;30m       ─                [0m
+                            [1;30m                [0m
+                            [1;30m                [0m
+                            [1;30m                [0m
+                            [1;30m                [0m
 
-      [34m■[0;1;34m≡[0m [1;37m1[0m0[1;30m0% [0;1;37mo[0mr[1;30miginal [0;1;37mf[0mo[1;30mnt [0;1;37mb[0my[1;30m [0;1;37mF[0mU[1;30mSiON X [0;1;37mo[0mf [1mC[0mR[1;30miSiS[0m [1;37mP[0mr[1;30moductions [0;1;37m1[0m9[1;30m95[0m [1;34m≡[0;34m■[0m'
+      [34m■[0;1;34m [0m [1;37m [0m [1;30m   [0;1;37m [0m [1;30m       [0;1;37m [0m [1;30m   [0;1;37m [0m [1;30m [0;1;37m [0m [1;30m       [0;1;37m [0m  [1m [0m [1;30m    [0m [1;37m [0m [1;30m          [0;1;37m [0m [1;30m  [0m [1;34m [0;34m■[0m'

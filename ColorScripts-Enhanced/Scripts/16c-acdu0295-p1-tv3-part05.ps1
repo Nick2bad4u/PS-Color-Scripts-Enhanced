@@ -5,7 +5,7 @@
 # Source SHA-256: 537bfd67d80c7d5c16197cedc1170ee4a680761a4136a433b0f33db850e839e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-TV3.ANS by prisonernumberone (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Terminal Velocity
 # SAUCE Author: prisonernumberone
 # SAUCE Group: ACiD Productions
@@ -25,7 +25,7 @@ Write-Host '
                                  [31;40m▐▐█▌ ▌[0m      [31;40m▌   [0;33;40m▀▀███████[0;37;43m░[0;33;43m█[0;37;43m░░░▒▒▒▒░▒░[0;33;43m██[0;37;43m░▒░▒[0;37;40m [0;31;40m██[0m
                                  [31;40m▐▐█▌ ▌[0m      [31;40m▌[0m       [33;40m▀▀▀▀█████[0;37;43m░[0;33;43m█[0;37;43m░░░░[0;33;43m█████ ██[0;33;40m▌[0;31;40m▐█[0m
                                  [31;40m▐▐█▌ ▌[0m     [31;40m░▌[0m               [33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀   [0;31;40m▐█[0m
-           [1;30;40mMy gawd, its fugging ''uge!  hehe  [0;31m▌[0m                               [31m▐█[0m
+           [1;30;40m                                  [0;31m▌[0m                               [31m▐█[0m
                                  [31m▐▐█▌ ▌[0m      [31m▌[0m                               [31m▐▌[0m
                                  [31m▐▐█  ▌[0m      [31m▌[0m                               [31m▐▌[0m
                                 [31m■▐▐█ ■▌ ■ ■▀ ▌ ▀[0m                             [31m▐▌[0m
@@ -38,20 +38,19 @@ Write-Host '
      [1;36m█ [0;1;31;45m▓█[0;1;31;40m [0;1;31;45m▓█[0;1;31;40m▄ [0;1;31;45m▓█[0;1;31;40m  [0;1;31;45m▓█[0;1;31;40m [0;1;31;45m▓█[0;1;31;40m [0;35m██ [0;1;31;45m▓█[0;1;31;40m [0;1;31;45m▓█[0;31m▓[0;1;31;45m▓█[0;1;31;40m [0;35m██▄▄ [0;1;31;45m▓█[0;1;31;40m  [0;1;31;45m▓█[0;1;31;40m▄ [0;1;31;45m▓█[0;1;31;40m▄▄[0;1;31;45m▓█[0;1;31;40m▄[0;1;31;45m▓█[0;1;31;40m [0;1;31;45m▓█[0;1;31;40m  [0;1;31;45m▓█[0;1;31;40m   ▄[0;1;31;45m▓█[0;1;31;40m [0;1;36;40m█    [0;31m▐▌[0m
      [1;36m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m▓[0;1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█    [0;31m▐▌[0m
                                 [31m█[0m                                            [31m▐[0;37m [0m
-                   [1;37mEven a vampire weeps for his first kill.[0m                  [31m▐[0;37m [0m
+                   [1;37m                                        [0m                  [31m▐[0;37m [0m
                                 [31m█[0m                                            [31m▐[0;37m [0m
                                 [31m▐[0m                                            [31m▐[0;37m [0m
-                               [1;30mTerminal Velocity[0m
+                               [1;30m                 [0m
                             [31m■ ▄ ▐[0m
-                           [31m▄ [0;1;30mSysop: [0;31m■[0;1;30mNecrophilicon[0m                           [31m▌[0;37m [0m
+                           [31m▄ [0;1;30m       [0;31m■[0;1;30m             [0m                           [31m▌[0;37m [0m
                           [31m■  ▀▄■█▄■   ▀[0m
                           [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
-                          [1;30m█   Stats have nothing    █[0m                        [31m■[0;37m [0m
-                          [1;30m█ to do with an ansi, its █[0m
-                          [1;30m█ only for show since the █[0m
-                          [1;30m█ groups don''t up da shit █[0m
-                          [1;30m█ to there own distrosite █[0m                        [31m■[0;37m [0m
-                          [1;30m█ anyfuckingway, l8rmoney █[0m
+                          [1;30m█                         █[0m                        [31m■[0;37m [0m
+                          [1;30m█                         █[0m
+                          [1;30m█                         █[0m
+                          [1;30m█                         █[0m
+                          [1;30m█                         █[0m                        [31m■[0;37m [0m
+                          [1;30m█                         █[0m
                      [1;30m=)P R I S O N E R [0mN U M B E R [1;30mO N E(=[0m
-                      [31m1 0 0 p e r c e n t o r i g i n a l[0m
-                     [1;30m[Okay, so I forgot the stats, sue me][0m'
+                      [31m1 0 0 p e r c e n t o r i g i n a l[0m'

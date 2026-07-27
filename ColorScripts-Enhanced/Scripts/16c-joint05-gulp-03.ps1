@@ -5,7 +5,7 @@
 # Source SHA-256: a5fb434c8cd3dedf393795438f87e5e9bd333451e8913a87327dd6f5f872a404
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GULP-03.ANS by The Joint (joint05); released in joint05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -51,10 +51,4 @@ Write-Host '
                       [36m▄████▀[0m    [36m▀▀▀▀▀[0m      [36m▀▀▀▀[0m     [36m▀████▄[0m
                     [36m▄██▀▀[0m                              [36m▀▀██▄[0m
                    [36m▐█▀[0m                                    [36m▀█▌[0m
-                   [36m▀[0m                                        [36m▀[0m
-
-
-[37mnail: this says gulp?@... as toon really isn''t my style i''ll leave it like that[0m
-[37mblazemore: uhm... i tried to draw a hand holding a drink, but uhm.. you see.[0m
-[37mliithn: i shaded the poor gulp guy, and added an ugly background (which i hope[0m
-        [37mturn out to be uglier in the ending pice). [0m'
+                   [36m▀[0m                                        [36m▀[0m'

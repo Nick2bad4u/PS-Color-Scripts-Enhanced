@@ -5,7 +5,7 @@
 # Source SHA-256: cc4863373dc3a226eaa80e5d97b586f1e6a1a5e2470e137350b2c2f665543e6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GT-EXPLO.ANS by graphital (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: explode                (ansimation)
 # SAUCE Author: graphital
 # SAUCE Group: fuel productions
@@ -32,10 +32,10 @@ Write-Host '
                        [31m▄[0m   [36m░░[0m [1;36m▀[0;36m▀■[0m   e[1mxplosion..[0m    [1;31m▀▄[0m      [1;31m▀▀[0m [31m▄[0m
                               [1;31m▄[0m  +[1m972[0m.[1m9.[0m9[1m56750[0m3       [31m▄[0m  [31m░░[0m      [31m■[0m
 
- T[1mhis[0m M[1movie[0m I[1ms[0m A [1m*[0mT[1mEST*[0m F[1mor[0m A[1mnsimation[0m B[1my[0m G[1mraphital[0m [[1mfuel][0m W[1mith[0m H[1melp[0m F[1mrom[0m N[1mO1.[0m
- B[1mut..[0m i g[1mreet[0m a[1mnyone,[0m s[1mpcially[0m f[1muel[0m m[1members,[0m s[1mpecially[0m T[1mK,[0m t[1mnx[0m f[1mor..[0m h[1mmmm..[0m
- p[1mushing[0m m[1me[0m a[1mlittle[0m i[1mnto[0m t[1mhis[0m a[1mnsi[0m a[1mnimation[0m t[1mhingy..[0m i[1mt''s[0m p[1mretty[0m p[1mhun.[0m [1m;)[0m
+  [1m   [0m  [1m    [0m  [1m [0m   [1m [0m [1m    [0m  [1m  [0m  [1m         [0m  [1m [0m  [1m        [0m  [1m     [0m  [1m   [0m  [1m   [0m  [1m   [0m  [1m   [0m
+  [1m    [0m    [1m    [0m  [1m      [0m  [1m       [0m  [1m   [0m  [1m       [0m  [1m        [0m  [1m  [0m  [1m  [0m  [1m    [0m  [1m     [0m
+  [1m      [0m  [1m [0m  [1m      [0m  [1m   [0m  [1m   [0m  [1m   [0m  [1m        [0m  [1m       [0m  [1m   [0m  [1m     [0m  [1m    [0m [1m  [0m
 
-                  [1;30m░░[0m                                        L[1mATER[0m a[1mll.[0m
+                  [1;30m░░[0m                                         [1m    [0m  [1m   [0m
 
 [31m▀[0m'

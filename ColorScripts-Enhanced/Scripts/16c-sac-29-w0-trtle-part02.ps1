@@ -5,7 +5,7 @@
 # Source SHA-256: f8561f47ab916202dca23635c4be5004aeea738a25dce132739e387e93ff8d1e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: W0-TRTLE.ANS by Webpige0 (sac-29); released in sac-29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -56,7 +56,7 @@ Write-Host '
 [37m [0;35m ▀▀███▀▀████[0;1;35;45m░[0;35m██▀▀▀▀▀███████████▀▀▀████[0;1;35;45m▒[0;35m████▀▀▀████████[0;1;35;45m▒[0;35m███████[0;1;35;45m░[0;35m█████▀▀█[0;1;35;45m░[0;35m█▀▀█▀ [0m
              [1;35m▀[0m           [35m▀▀▀▀▀▀[0m       [1;35m▀[0m         [35m▀▀▀[0m      [35m▀▀▀[0m     [35m▀▀webpige0[0;37m  [0;35m [0m
           [1;35m■[0m                               [1;35m▀[0m            [1;35m▄[0m        [1;35;45m░[0m       [35mSAC[0m
-               [1;35m▀[0m   [1;35m▀[0m    [1;30mHehhe. The picture started as an portrait of Donatello.[0m
-            [1;35m▄[0m         [1;30mEnded like this.[0;1;35m▄[0m [1;30m*<:D[0m          [1;35m▀[0m
-                  [1;35m▄[0m   [1;30mThe name of the piece shall be ''A turtle over the purple[0m
-           [1;35m▀[0m          [1;30mansi hills with a tower twisting on it"... [0m'
+               [1;35m▀[0m   [1;35m▀[0m    [1;30m                                                       [0m
+            [1;35m▄[0m         [1;30m                [0;1;35m▄[0m [1;30m    [0m          [1;35m▀[0m
+                  [1;35m▄[0m   [1;30m                                                        [0m
+           [1;35m▀[0m          [1;30m                                           [0m'

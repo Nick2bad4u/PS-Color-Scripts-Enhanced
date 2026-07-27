@@ -5,7 +5,7 @@
 # Source SHA-256: ab2ccc01a2573b7adf1509d9fab47670990b35afafcfdf0c84130c208fff0aa4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: misfit-valentine.ans by Misfit (blocktronics-420); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20180213
 # SAUCE Dimensions: 80x253
 # SAUCE Font: IBM VGA
@@ -13,7 +13,7 @@
 # Columns: 1-80
 
 Write-Host '
-[37;40m  [0m                       [31;40ma little something for m''lady...[0m
+[37;40m  [0m                       [31;40m                                [0m
 
 
 

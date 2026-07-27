@@ -5,7 +5,7 @@
 # Source SHA-256: 72ad55d85df8ce8266c8b5adbc0760b70e1890169732e43ec96ad37e5ab8292f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-RedComet.ans by Deadguy + Checs (PVM / HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: red comet
 # SAUCE Author: deadguy and checs
 # SAUCE Group: PVM / HPM
@@ -28,9 +28,9 @@ Write-Host '
 [1;33m$$$$$$$$S&&bso,.[0m                          [1;33mo;''[0m
 [1;33m$$$$$$$$$$$$S&&bso,.[0m                   [1;33m.oSS''[0m
 [1;33m$$S''`"°SS$$$$$$S&&bso,.[0m              [1;33m.osSS[0m
-[1;33m$$S [0m      [1;33m`"°SS$$$S&&bso,.[0m         [1;33m.osdSS''[0m
+[1;33m    [0m      [1;33m                [0m         [1;33m       [0m
 [1;33m$$$,[0m          [1;33m`"°SS$$S&&bso,.[0m    [1;33m.osdSS° [0m
-[1;33m$$$s[0m             [1;33m`":SS$S&&bso,..osdS$S°[0m
+[1;33m    [0m             [1;33m                      [0m
 [1;33m$$$s.[0m               [1;33m`":SS$$$$$$$$$$$S°[0m
 [1;33m$$$s,[0m                 [1;33m`:$$$$$$$$$$$S°[0m
 [1;33m$$$Ss[0m                  [1;33m.:$$$$$$$$$$Ss[0m

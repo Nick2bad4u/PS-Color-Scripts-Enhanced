@@ -5,7 +5,7 @@
 # Source SHA-256: b5e1f786e942865bdb44cb52c9ac738260e7f37252326d642d2c2ed5ba498312
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 43-VIL.ANS by aesthetic (sense imagery); released in sense10j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "Vilena"
 # SAUCE Author: aesthetic
 # SAUCE Group: sense imagery
@@ -34,6 +34,4 @@ Write-Host '
 [37m░[0m     [35m▀[0;1;30;45m▀[0;35m▀[0m    [1;30m▀▓▀[0m         [1;30m▀▓[0m                        [1;35m▀[0;35m▀[0m                      [1;35m██[0;35m [0;1;30m▀[0m
    [1;37mV[0m          [1;30m░[0;35m  [0;1;37mi       [0;35m [0;1;30m▒[0;35m  [0;1;37ml [0m            [1;37me[0m              [1;37mn[0m           [1;37ma[0;35m  [0;1;35m█[0;35m [0;1;35;45m▀█[0;1;35;40m▓▒░[0m
               [1;30m [0m           [1;30m░[0m                                              [1;35;45m▀[0;1;35;40m▄▄[0m
-                                                                      [1;35;45m▀[0;1;35;40m▄[0m
-   [1;30mto my girlfriend who i love more than life itself.[0m
-   [1;30mdrawn right in front of her :).[0m'
+                                                                      [1;35;45m▀[0;1;35;40m▄[0m'

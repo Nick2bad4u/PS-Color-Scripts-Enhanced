@@ -5,7 +5,7 @@
 # Source SHA-256: 98dc52f507e89c796de65a8dbca2660d74258ba77fb4f637b68da066e5266303
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LN-TOON.ANS by liithn (MOP); released in mop-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: toon town
 # SAUCE Author: liithn
 # SAUCE Group: MOP
@@ -37,9 +37,4 @@ Write-Host '
   [31m▐█████[0;31;45m██[0;31;40m██████████████████████████ [0;37;40m  [0;1;31;40m█████▀▀▀[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m███████████[0;1;31;40m██████████████████[0m
 [31m▄▄[0;31;45m▓▓[0;31;40m████[0;31;45m██[0;31;40m███████████████████████▓▓▀▀[0;37;40m  [0;1;31;40m████▄[0;33m▄▄[0;1;31;43m░[0;1;31;40m██[0;1;31;43m███████[0;1;31;40m██████████████████████[0m
                                     [31m [0m
-[1;30m--------------------------------------------------------------------------------[0m
-
- [1;30mThis is for #graffiti ansi compo. wator ; you can do whatever you want with it,[0m
- [1;30mjust keep the Liithn thing somewere.[0m
- [1;30mI saw Akira (anime film) at my friend some days ago so i figured it could be[0m
- [1;30mfun to draw a manga picture. oh well, i still have time to draw tomorrow <g>.[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

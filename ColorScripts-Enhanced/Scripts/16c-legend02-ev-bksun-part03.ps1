@@ -5,7 +5,7 @@
 # Source SHA-256: b9b40fb50cdcf255bbddc7abd757ee87c3973cd691148331784d4ef76b7493f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EV-BKSUN.ANS by EverLast (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Sunshine
 # SAUCE Author: EverLast
 # SAUCE Group: Legend
@@ -46,6 +46,6 @@ Write-Host '
  [1;30m░[0m [1;30m░▒░[0m      sYsop: Defective Mind[1;30m░[0m     [1m▐[0m       [1;30m▀▄[0m [1;30m░[0m [1;30m░[0m  [1;30m░▒▒▒▓▓▓▒▓▓█░█▒▒░▓▓▓▒░▒░[0m
     [1;30m░[0m                                               [1;30m░[0m   [1;30m░░[0m [1;30m▒░▒░▒▒▓▒█░░[0m [1;30m▒▒▒░[0m [1;30m░[0m
 ----------- 100 % Original ansi by everlast of legend 1995 [1;30m░[0m-[1;30m▒[0m-[1;30m░░▒▓▓▒[0m--[1;30m░▒░[0m-----
-[1;30mIf you want an ansi from me, I can be contacted on irc, in #legend▒▒░or[0m [1;30m░you[0m
-[1;30mcan email me at bpenner@direct.ca, or just leave me a message on [0m [1;30m░░[0m [1;30mmy voice[0m
+[1;30m                                                                  ▒▒░  [0m [1;30m░   [0m
+[1;30m                                                                 [0m [1;30m░░[0m [1;30m        [0m
 [1;30mmailbox:  1-800-666-2741, press 2, box#: 1863.  [0m'

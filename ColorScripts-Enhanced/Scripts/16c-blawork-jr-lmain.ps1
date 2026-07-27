@@ -5,7 +5,7 @@
 # Source SHA-256: 4d241b8faec3a66bc01ae09422f88331f4af7ca949e0d007fc41cc3e19c2dc3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_LMAIN.ANS by jerusalem (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: L:: totenkaffee
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -39,5 +39,4 @@ Write-Host '
 
 
 [36;40m::[0m
-[36;40m↓↓[0m
-[1;33;40mthis mainmenu is for late riser of the lunatic.                   jerusalem^boil[0m'
+[36;40m↓↓[0m'

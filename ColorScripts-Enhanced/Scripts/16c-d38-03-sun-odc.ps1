@@ -5,7 +5,7 @@
 # Source SHA-256: 4a7fbdef86532a7eb9cbbd586b9e2b6c0670c71f797f1f95ae65e7db2011af4b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUN^ODC.ANS by Sunder (Department 38); released in d38-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 'Ol Dirty Couriers (c)
 # SAUCE Author: Sunder
 # SAUCE Group: Department 38
@@ -32,9 +32,9 @@ Write-Host '
                           ▀[1;30m▀ [0m               [1;30m(c)[0m  [1;30m ▀[0;1;30;47m▓▓[0m▀
 
 
-[36m Ol'' DIRTY COURIERS!(c) ol'' dirty is from ol'' dirty bastard - wu-tang clan..[0m
+[36m                                                                            [0m
 
-[36m if you wanna start a couriering group.. and need a name.. contact me and ill[0m
-[36m come to an agreement.. and NO you can not just take it beeyatch![0m
-[32m ([0;1;32mR[0;32mip it, and we''ll cold fuck you up - Blind Sniper)[0m
+[36m                                                                             [0m
+[36m                                                                 [0m
+[32m  [0;1;32m [0;32m                                                 [0m
 [37m [0;36mtouched up a litte by ----------------^^^^^^^^^^^^[0m'

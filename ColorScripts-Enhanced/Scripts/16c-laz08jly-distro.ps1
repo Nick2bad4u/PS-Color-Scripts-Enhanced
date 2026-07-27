@@ -5,7 +5,7 @@
 # Source SHA-256: c4145ca4b594b595c51f0b74fef3dd03a8c330e7e4e7ec0ff98e50363a2dff7d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DISTRO.ANS by impulse (lazarus); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: distro board ansi
 # SAUCE Author: impulse
 # SAUCE Group: lazarus
@@ -38,8 +38,4 @@ Write-Host '
 
          [1;30m░[0m
 
-----
-ALL YOU DISTRO BOARDS OUT THERE - YOU MAY USE THIS LUBLY LAZARUS FONT BY
-IMPULSE FOR YOUR BOARD.  YOU''RE WELCOME.
-
-hennifer[0m'
+----[0m'

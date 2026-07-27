@@ -5,7 +5,7 @@
 # Source SHA-256: f2a81a5cf7360acb45d1591ce493ef5298e70c2a887412ee5e8e3288955e8394
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASCII-44.ANS by Konami (ttdmisyk); released in ttdmisyk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -19,7 +19,7 @@ Write-Host '
 [1;35m [0;35m.[0;1;35m   [0;1;30m│[0m     [35m,d☻┼☻\[0;33m`[0;35m [0;1;30m [0;35m,d[0;1;35m  [0;35m☻[0;1;35m☻☻☻☻☻☻☻☻☻☻☻☻☻☺☺☺☺☺☺☺☻☻☻☻☺☺☺☻☻☻☻☻☻☻☻[0;1;33m☻☻☻☻☻☻[0;1;37m☻☻☻☻☻☻[0;1;33m☻☻☻☻☻☻[0;1;35m☻☻[0m
      [1;30m│[0;1;35m  [0;35m -²²"`[0;1;35m [0;1;30m───┐[0m [1;30m`[0;1;35m [0;1;30m┌[0;1;35m [0;33ml[0;35m☻7`[0;1;35m,\[0;1;33;45m☺☺☺☺[0;1;35;40m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☺ [0;35m7[0;1;35m☺☻☻☻☻☻☻☻☻[0;1;33m☻☻☻☻☻☻[0;1;37m☻☻☻☻☻☻[0;1;33m☻☻☻☻☻☻[0;1;35m☻☻[0m
 [1;35m ┌[0;35m─[0;1;30m──┴───────┐[0m    [1;30m│[0m [1;35m  [0;1;30m│[0;1;35m  [0;33m7[0;1;35m ;☻[0;1;33m☻☻☻☻☻☻[0;1;35m☻☻☻☻☻☻☻☻☻☻☻☻☻☻l [0;35m`7[0;1;35m☻☻☻☻☻☻☻☻[0;1;33m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻[0;1;35m☻☻☻[0m
-[1;35m [0;35m│[0;1;35m [0;1;33m C[0m [1;33mU N T [0;1;35m [0;35m│[0;1;35m   [0;1;30m∙┘[0;1;35m   [0;35m└[0;1;30m───[0;1;35m l☻☻[0;1;33m☻☻☻☻[0;1;35m☻☻☺[0;35m☺☻[0;1;35m☻☻☻[0;1;35;45m☻☻[0;1;35;40m☺☺☺☻☻☻b  [0;35m`[0;1;35m²/☻┼☻☻☻☻☻[0;1;33m☻☻☻☻☻☻☻☻☻☻☻☻[0;1;35m☻☻☻☻☻[0m
+[1;35m [0;35m│[0;1;35m [0;1;33m  [0m [1;33m      [0;1;35m [0;35m│[0;1;35m   [0;1;30m ┘[0;1;35m   [0;35m└[0;1;30m───[0;1;35m    [0;1;33m    [0;1;35m   [0;35m  [0;1;35m   [0;1;35;45m  [0;1;35;40m         [0;35m [0;1;35m   ┼     [0;1;33m            [0;1;35m     [0m
 [1;35m [0;35m:[0;1;35m   [0m     [1;35m   [0;35m:[0m         [1;35m__   [0;35m7[0;1;35m☻☻☻☻☻☻☺[0;35m☻[0;1;35m, [0;35m`²⌐[0;1;35m☻☻☻[0m☻☻☻[1;35m☻☻☻b,[0m     [1;35m`"²⌐//☻☻[0;1;33m☺☺☺☺☺☺[0;1;35m☻☻☻☻☻☻\\[0m
         [1;30m|[0m    [1;30m:.......[0;1;35m (☻☻l,  [0;35m`²[0;1;35m☺☺☺[0;35m²`d☻↑⌐,_[0;1;35m [0;35m`"[0;1;35m/[0;1;37m☻☻☻☻[0m☻☻[1;35m☻┼↑▲⌐,[0;1;30m`7☺,.[0;1;35m  [0;1;30m/[0;35m```▀▀▀▀``│[0;1;35m  [0;1;30m--[0m
 [35m,-[0;1;30m-----`[0m           [1;30m.[0m  [1;35m ``  [0m   [1;37m__[0;1;35m   [0;35ml[0;1;35m☺☻☻☻[0;35m`[0;1;30m7"`[0;1;37m   [0m`[1;37m"²☻┼☻☻☻☻☻☻┼☻↑[0;1;31m▲⌐,, [0m         [35m└──[0;1;30m──[0m

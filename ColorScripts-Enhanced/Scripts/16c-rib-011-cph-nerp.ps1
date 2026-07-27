@@ -5,7 +5,7 @@
 # Source SHA-256: 2754901db3afeb2e5cea0140c3545bcfcabc538ebdee5beae5eae356f1a215d5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-NERP.ANS by {YBERPUNCh (RiB); released in rib-011 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nerp logo
 # SAUCE Author: {YBERPUNCh
 # SAUCE Group: RiB
@@ -29,6 +29,4 @@ Write-Host '
 [37;40m [0;33;40m▀▀▀▀[0m     [1;30;40m░░░[0;33m ▌[0m      [33m▀▀▀▀▌ [0;1;30m▄▄[0;33m  [0;1;30m▄[0;33m ▀▀▀ ▀▀ [0m    [33m  ░░ [0;1;30m█[0;1;30;47m▓▓[0;1;30;40m▄[0;33m ▀[0;32;43m▀▄[0;33;40m█[0;1;31;43m░░[0;33m▄  ▀▀▀▀[0m       [33m    [0m
               [33m▌[0m      [1;30m██[0;1;30;43m▓[0;33m ▌[0;1;30m▐██[0;33m ▌[0;1;30m▐███[0;1;30;47m▓▓[0m         [33m    [0;1;30m▀▀█[0;1;30;43m▓[0;1;30;40m▄[0;33m ▀█[0;32;43m▄[0;33;40m█▓▓░░░ ░[0m
               [33;40m▓░[0m     [1;30;47m▓[0;1;30;40m██[0;33m ▌ [0;1;30m█▌[0;33m▐▌[0;1;30;43m▒▓[0;1;30;40m███[0;1;30;47m▓[0;1;30;40m░[0;33m  N E R P ?!   [0;1;30m▀▓▓ [0;33m ▀▀▀▀[0m
-              [33m  [0m         [33m▀  ▄▀[0m                        [1;30m░░ [0m
-                                                    [1;30m    [0m
-                                                  [1;30m     [0m'
+              [33m  [0m         [33m▀  ▄▀[0m                        [1;30m░░ [0m'

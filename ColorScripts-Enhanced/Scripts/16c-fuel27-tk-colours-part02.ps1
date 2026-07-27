@@ -5,7 +5,7 @@
 # Source SHA-256: 2bff40b3a6ccd2e9d84718a26d03fc570b32d2d918e9ddde219c8f40431685e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-colours.ans by The Knight (Fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: She comes in colours
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel
@@ -42,6 +42,6 @@ Write-Host '
                     [1;30m [0m [30m██[0;1;30m [0;30m█████[0;1;30m▀▀▀▓▓▓█████████████▓▓▒░ [0;30m██[0m
                     [1;30m [0m        [30m█[0;37m   [0;30m█[0;37m   [0;1;30m [0m     [30m██████████[0m         [30m█[0m
                                  [30m█[0m      [30m█████[0m
-[1;30m  She comes in colours everywhere - she combs her hair - she''s like a rainbow[0m
-                                         [1;30m''out of comfortzone''[0m [31mansi by[0;1;30m [0;31mtk.fuel[0m
+[1;30m                                                                             [0m
+                                         [1;30m                    [0m [31m       [0;1;30m [0;31m       [0m
                                                                               [30m--[0m'

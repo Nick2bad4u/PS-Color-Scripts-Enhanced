@@ -5,7 +5,7 @@
 # Source SHA-256: d12c61604b9b8a71ef242c0a5484c246241e9194ecc00a573184f3216b76c709
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-VANSI.ANS by rorshack (Maiden Brazil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: vansi.
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -31,7 +31,4 @@ Write-Host '
    █[1;47m▀▀▀▀▀▀[0m███▄▄▄[30;47m░░[0;37;40m▄▄▄▄▄▄▄██[0;1;37;47m▀▀[0m██▄▄▄▄▄▄▄███████████████[1;47m▀▀▀▀▀▓░[0m█▄▄▄▄▄▄▄█████[1;47m▀▀▀[0m█
 
 
-[1;34m--<-- cut here and broke your monitor -------------------------------------->--[0m
-
-           [1;36mvANSI[0;36m is a brand new ansi editor that is beeing released. [0m
-   [36mGreat features, great look -- done [0;1;36mby[0;36m ansi artists and [0;1;36mfor[0;36m ansi artists.[0m'
+[1;34m--<-- cut here and broke your monitor -------------------------------------->--[0m'

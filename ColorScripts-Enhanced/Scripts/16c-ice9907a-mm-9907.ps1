@@ -5,7 +5,7 @@
 # Source SHA-256: 8cdaf0eddc121ec68a38a1dad0a15072662420f09e755fb9b5cbf03f0a5f3a16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-9907.ICE by Magnetic M (ice9907a); released in ice9907a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -52,5 +52,4 @@ Write-Host '
 [1;30m  [0;33m▀[0;1;31m▀▀[0;1;31;43m▀[0;1;31;40m██[0;1;31;43m▒[0;33m░[0;1;31;43m░[0;1;31;40m█████████████████[0;1;31;43m▄[0;1;31;40m███████[0;1;31;43m▓[0;1;31;40m░[0m
         [33m▀[0;1;31m▀ ▀[0;1;31;43m▀[0;1;31;40m██████████████[0;1;31;43m▀[0;1;31;40m███████[0;1;31;43m▀[0;1;31;40m▀▀[0;33m▀[0m
                 [33m▀[0;1;31m▀▀▀▀▀▀▀▀[0;33m▀▀ ▀[0;1;31m▀▀▀▀▀▀▀[0;33m▀ [0;1;30m▄[0m
-                                     [1;30m▀▀[0m
-[1;30m [0;34m<[0;1;34mMM [0;34mo  [0;33m(c)opyright 1999 Magnetic M -- all rights reserved.[0m'
+                                     [1;30m▀▀[0m'

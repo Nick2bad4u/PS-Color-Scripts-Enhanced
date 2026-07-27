@@ -5,7 +5,7 @@
 # Source SHA-256: 3f83ebbc89a1cd41a16e167388d07d4cce7a750f690b8a900231a1c0703d6188
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TRS12.ANS by Sylvao + Cleaner (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: TRSAC 2012
 # SAUCE Author: Cleaner & Sylvao
 # SAUCE Group: Fire Dream
@@ -58,6 +58,6 @@ Write-Host '
 [1;30m  ▄[0m         [1;30m▀ ▄[0m         [1;30m▀  ▀▄[0m                [1;30m▄  ▀    ▀ ▄[0m            [1;30m▄[0;1;30;47m▀[0;1;30;40m▄[0m
 [1;30m  ▀▀  ▀ ▀  ▀▀ ▀▀ ▀ ▀▀▀▀ ▀[0m      [1;30m▀ ▀▀ ▀  ▀▀ ▀▀[0m               [1;30m▀  ▀▀ ▀   ▀    ▀   ▀[0m
 
-[1m   [0m  [1mANSi by Cleaner and Sylvao[0m                            [1mfiRE DREAM 2012![0m
-[1m   [0m  For TRSAC 2012 Ansi Compo!                            fiRE DREAM 2012!
+[1m   [0m  [1m                          [0m                            [1m                [0m
+[1m   [0m                                                                        
      [30mF ■ O ■ R ■ E ■ V ■ E ■ R[0m                [30mD ■ R ■ E ■ A ■ M ■ I ■ N ■ G[0m'

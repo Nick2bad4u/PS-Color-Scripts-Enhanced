@@ -5,7 +5,7 @@
 # Source SHA-256: 992dc14fa806c9b9eca722823df8ff7e1d950909fba4a1b738f554dd26026efd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-BR1.ANS by Avenging Angel (buttz03); released in buttz03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -32,10 +32,4 @@ Write-Host '
           [34m ░░░░░░░░░░░░[0;37m b[0;1;37muttraiderz[0;34m [0;1;36m▓[0;1;36;46m▓[0m [33m▀[0;1;31;43m▀█[0;1;31;47m█[0;1;31;40m▀[0m avg[1;30m([0;1;37mhg[0;1;30m)[0;33m [0;34m░░░░░░[0;37m [0;34m░░░░░░░ [0m
                                    [33m [0;1;36m▒▓[0m   [34m▄▄[0m          [34m  [0;37m [0;34m [0;33m [0m
                                     [1;36m░▒[0;36m▄[0;37m [0;34m▄██[0m
-                                     [34m▀[0;36;44m▀▓░[0;34;40m▀[0m
-
-                         [1;30;40mfucked up backgrounds own.. [0m
-[1;30m  [0m                       [1;30mand fuck all these so called[0m
-[1;34m  [0m                       [1;30m"critics" of ansi. Accept [0m
-                         [1;30mthis ansi on how i like it,[0m
-                         [1;30mnot on how you would like it[0m'
+                                     [34m▀[0;36;44m▀▓░[0;34;40m▀[0m'

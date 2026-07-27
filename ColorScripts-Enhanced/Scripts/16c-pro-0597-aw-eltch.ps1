@@ -5,7 +5,7 @@
 # Source SHA-256: aebf4e17c6dbf99c6fd82ddf407a6d5e77ca79c4564b9f93a8b1080f6387af99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AW-ELTCH.ANS by Necrophidius (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -53,6 +53,4 @@ Write-Host '
                                                   [35m▒[0;35;45m [0;1;35;45m░░░░▓▒▓▒░▓▒▓█▒▒▒▒[0;35m▓[0;1;35;45m░▒▒  [0;35m▒[0m
                                                    [35m▒[0;1;35;45m░▒░▒▒▓▒▓▒▒▓█▓▒░░▒░▒░ [0;35m▓▒▒░[0m
                                                    [35m▓[0;1;35;45m▒░▒▓▓▒▓▓▒▒▓▓█[0;35m▓▓▓▓▓▓▓▓[0m
-                                                  [35m░▒▒▓▓▓▓▓▓▓▓▓▓▓▓[0m
-
-                                                   [31m[[0;1;31mN[0;1;37me[0;1;31mCR[0;1;37mo[0;1;31mPH[0;1;37mi[0;1;31mD[0;1;37miu[0;1;31mS[0;31m][0m'
+                                                  [35m░▒▒▓▓▓▓▓▓▓▓▓▓▓▓[0m'

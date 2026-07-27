@@ -5,7 +5,7 @@
 # Source SHA-256: b10b2a5620dd651e6ed2fc6952eba99e4d3f539338798c873ae7a0d7df18f8b4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-AIR.ANS by warpus (lazarus); released in laz04mar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: thin air
 # SAUCE Author: warpus
 # SAUCE Group: lazarus
@@ -45,15 +45,4 @@ Write-Host '
                                                [1;34m▐[0;1;34;47m▒▒[0;1;34;40m█▀▀▀[0m
 
 
-[1;30m-- [ apply cyber scissors here ] ----------------------------------------------[0m
-
-   [1;30mnot too much from me this month, eh?  i''ve kind of been busy slacking off...[0m
-   [1;30mi''ll have more next month, really, i''ll just have to start going to sleep[0m
-   [1;30mearly.  not 8am, and definiately not 1pm.  maybe i''ll even stop smoking[0m
-   [1;30mcrack.  but then again, maybe not.[0m
-
-   [1;30mi''d greet lots of people here, but i''m too lazy.  i''m kind of making a list[0m
-   [1;30mof email addresses of people that are cool.  well, i''m not kind of making[0m
-   [1;30mit, i *am* making it.  so, if you are cool, please email me.  thank you.[0m
-
-   [1;30mwarpus@skateshop.xg.com[0m'
+[1;30m-- [ apply cyber scissors here ] ----------------------------------------------[0m'

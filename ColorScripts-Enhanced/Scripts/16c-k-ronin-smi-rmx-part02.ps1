@@ -5,7 +5,7 @@
 # Source SHA-256: 21ceecadf1f77222c6048333c2da06152465f0b9078e7a6e018bb652d19fb912
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMI-RMX.ANS by samurai (klexikal); released in k-ronin and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ruh ruh ruh reeeemix!
 # SAUCE Author: samurai
 # SAUCE Group: klexikal
@@ -35,12 +35,12 @@ Write-Host '
           [1;30m [0m              [31m▀▄[0;1;30m▄[0;31m░░[0;37m [0;31m▀░░[0m      [1;30m▀▀▀▀  [0m                     [36m [0;1;30m [0m
           [1;30m [0m               [1;30m▀▀[0m                              [36m [0m        [36m [0;1;30m [0m
 [1;30m=={ [0m3:26:1998[1;30m }===================================================={ [0mnotes ↓[1;30m }==[0m
-[1;30mthis is a remix of the first ansi i released with dark ... almost exactly 3[0m
-[1;30myears ago.  it''s been a while ... phew.  so anyways, check the before and after[0m
-[1;30mand see how whack i''ve become.[0m
+[1;30m                                                                           [0m
+[1;30m                                                                               [0m
+[1;30m                              [0m
 [1;30m================================================================================[0m
 
- [1;33mback in the day ...[0m           ▄■              ■▄    [36m▄[0m
+ [1;33m                   [0m           ▄■              ■▄    [36m▄[0m
                               [37m▐▌[0m              [37m▄▄█▀[0;36m▄■▀▓▀■[0;37m [0;1;30m  [0m               [34m▄■[0m
     [34m▄▓▀▀▀[0;37m [0;1;30m▄▄▄▄▓▄▄▄▄[0m [34m▀▀▀▀▀▀▀▀[0;37m ▄[0;1;30m■[0;1;37;47m░[0m■▄[1m▄▓▄[0m [34m▀▀[0;37m [0;1;37m▄█[0;1;37;47m▓[0;1;37;40m▄[0m▀▓▀ [36m▀▀▀[0;37m  [0;34m▀▀▀▀▀▀[0;37m [0;1;37m▄▄▄▄▄▄[0m [34m▀▀▀▀▀▀▓▄[0m
     [34m█ [0m   [1;30;47m▓[0;1;30;40m████[0m [1;30m█[0;1;30;47m▀▒▀[0;1;30;40m█[0m  [1;30m ▄█▀██[0;1;30;47m▄░[0m▀  [1m▐[0;1;47m▓[0;1;40m▀[0;1;47m▓[0;1;40m▌[0m  [1m▐ [0;1;47m▓▒[0;1;40m█▌[0;36m■[0;1;30m▀▓██[0m▀[1;30;47m▒▀[0;1;30;40m█▄[0m [1;30m [0;1;37m▄[0;1;37;47m▓[0;1;37;40m▀[0;34m▄[0;37m [0;34m■▄[0;1;37m▀[0;1;37;47m▓▓▒[0;1;37;40m▄▄[0m    [34m█[0m

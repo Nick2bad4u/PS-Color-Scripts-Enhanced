@@ -5,7 +5,7 @@
 # Source SHA-256: e4a12ecd6b6da2bb8a22b63f333c08a41aa14707382f408288dd818f0c8a40f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-SW.ANS by TH/LP (AiM); released in aim-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shadow World BBS ANSi
 # SAUCE Author: TH/LP
 # SAUCE Group: AiM
@@ -54,6 +54,4 @@ Write-Host '
 [1;34;44m▒[0;1;34;40m███████[0;1;34;44m▓[0;34m▓[0;1;34;44m░░▒▒░[0;34m▓[0;1;34;44m▓▓▓[0;1;34;40m████[0m                                  [1;34;40m ████████[0;1;34;44m▒▒▒▒▓▓░░▒▒▓▓▓[0;1;34;40m█[0m
 [1;34;40m████████[0;1;34;44m▓░▒▒▒░[0;34m▓▓[0;1;34;44m▓▓▓[0;1;34;40m█████[0m                                [1;34;40m ███████████████████████[0m
 [1;34;40m████████[0;1;34;44m▓▒▒▓▓░[0;34m▓▓[0;1;34;44m▓▓▓[0;1;34;40m████████▄▄                [0;34m▄▄▄█▄[0;1;34m    ▄█████████████████████████[0m
-[1;34m█████████[0;1;34;44m▓▓▓░[0;34m▓▓▓[0;1;34;44m▓▓[0;1;34;40m█████████[0;1;34;44m▀                          ▀▀[0;1;34;40m████████████████████████[0m
-
-'
+[1;34m█████████[0;1;34;44m▓▓▓░[0;34m▓▓▓[0;1;34;44m▓▓[0;1;34;40m█████████[0;1;34;44m▀                          ▀▀[0;1;34;40m████████████████████████[0m'

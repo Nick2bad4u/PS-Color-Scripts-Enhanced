@@ -5,7 +5,7 @@
 # Source SHA-256: 1d73fa615f5cb82543900e57e6966f55fb0183bbaf4432754f03cdb4a920245f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-TEH3.ANS by Terminator2 (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Eleventh Hour
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -18,7 +18,7 @@ Write-Host '
 
 [1;30;46m ░░▒▒▓▓▓[0;1;30m█[0;1;30;46m▓[0;1;30m██[0;1;30;46m▓[0;1;30m███████████████████████████████████████████████████[0;1;30;46m▓[0;1;30m███[0;1;30;46m▓▓[0;1;30m█[0;1;30;46m▓▓▓▒▒░░ [0m
 [1;30;46m░▒[0m                              [1;30m▄[0m                                            [1;30;46m▒░[0m
-[1;30;46m▒▓[0m     [1;30m▄▄▄[0m              [1;30m▄[0m           [1;30mIf You Would Like An ANSi From Myself..  ▀[0;1;30;46m▓[0m
+[1;30;46m▒▓[0m     [1;30m▄▄▄[0m              [1;30m▄[0m           [1;30m                                         ▀[0;1;30;46m▓[0m
 [1;30;40m▄▀   ▀▀▀▓▓▒░▄ [0;1m▄▄█▀██▀[0;1;30m▄▓▓▀▒▄[0m     [1;30m▄▀  1) Call A BBS That I An A Member Of And  [0;1;30;46m▓[0;1;30m▄[0m
 [1;30m▀[0;1;30;46m▓[0m          [1m▄█▀[0;1;30m▄▄▓▄[0;1m▀█▄▄▄█▄[0m      [1;30m▄[0;1;30;46m▓[0m     [1;30mLeave Me A Message Or Something...    ▄▀[0m
 [1;30m▀▄    ▄ [0;1;36m▄  [0;1m▐▀▀▀▄[0;1;30m▀▀ [0;1m▀▀▀[0;36m▄[0;1m▀[0;1;30m▄[0;1m▀▌[0m     [1;30m▀▄  2) Talk To RaDMan, Corwin, Or My Agents   ▀[0m

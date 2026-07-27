@@ -5,7 +5,7 @@
 # Source SHA-256: 7df019133c7cbe88bd628ae49a94c354d1bd89fa50c1e76493a94289c9a68f3e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 4O-K.ANS by Mr4tune (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kafkaesk
 # SAUCE Author: Mr4tune
 # SAUCE Group: AWE Lettering
@@ -36,10 +36,4 @@ Write-Host '
 [34m▀▄[0;1;36;44m░░[0;34m▄[0m    [31m▄[0;31;43m▀ ▄[0;31;40m▀▀█▄[0;1;31;41m▄[0;31m█▀[0;37m ░ [0;34m▄[0;1;36;44m [0;34m▀▄[0;1;34;44m▀[0;34m▌[0;37m [0;1;30m█[0m [1;30m▐[0;36;41m█▓[0;36;40m▓[0;1;36;46m░░[0;36;41m▓[0;36;40m▓[0;1;36;46m░░[0;36;41m▓[0;36;40m▓░[0;31;40m [0;1;30;40m▀▄[0;1;30;46m▀[0;1;30;40m▄▀[0m  [35m▀[0;37m [0;35m▀[0m     [1;30m▄[0m    [34m▄[0;37m [0;34m▄ ▀[0;1;30m ░▄▄▓[0;1;30;47m▀▓▓[0;1;30;40m▀[0m
 [34m▄[0;37m [0;34m▀▀[0;37m [0;1;30m █▄[0m   [31m▄▄[0;1;31;41m▄░[0;1;33;41m░[0;31m▀[0;1;31;41m■[0;31m▄░[0;37m   [0;34m▀[0;1;36;44m░░ ░[0;34m▀▄[0;37m [0;1;30m░[0;31m [0;1;30;46m▄░[0;1;36;46m░▓▓░░▓[0;36m▀[0;1;36;46m░[0;36m▄[0;1;36;46m▄[0;36m▄[0;1;30m▄ ▀[0m [1;30m░[0m [1;30m░▓█ ▄ [0;34m▀[0;37m [0;1;30m▀█▀[0m  [34m▀[0;1;36;44m░[0;34m▀[0;37m  [0;1;30m▄[0;1;30;47m▀ ░▓[0;1;30;40m▀█▄[0;1;30;47m▀[0;1;30;40m▄[0m
    [1;30m▄█▄[0m▒▒ [34m▄[0m   [31m▄[0;1;31;41m▄░[0;31m▀▀[0;37m  [0;34m▀[0;1;30m █▄[0m [34m█▄[0;1;36;44m▒▒░[0;34m▌▄ [0;1;30m▐[0;36m▒[0;1;30;46m [0;36m▒▀[0;1;36;46m▀[0;1;36;40m▄[0;1;36;46m▄█▓░[0;36m▀█[0;1;36m▄[0;1;30;46m▀[0;1;30;40m▀▄[0m [1;30m▄ [0m  [1;30m▀[0;1;30;46m▄[0;1;30;40m▀▄[0;1;30;46m▀▓[0;1;30;40m█▌ ░  [0m [1;30m▄▀[0;1;30;47m▄ ▄[0;1;30;40m▀█[0;1;30;47m▀▓[0;1;30;40m▀█ [0m
-[34m░█ ▄[0;37m  [0;1;30m█▄[0m [1;34;44m▀[0;34m▀[0;1;30m ▄ [0m [31m▄▄▀[0;37m [0;1;30m▀▀[0;1;30;47m▓▄[0;1;30;40m▀░[0m [34m▀[0;1;36;44m░░[0;34m▀▀█▀[0;1;30m▄ ▀[0;33m [0;1;30;46m█▄[0;1;36;46m▀[0;1;36;40m▀[0;36m▀▄[0;1;36;46m▄▀[0;1;36;40m▀[0;36m█[0;1;36m▄[0;1;36;46m░[0;36m▀▒[0;1;30m▀▄▀[0m [1;30;46m▀ ▓[0;1;30;40m▄▀▀[0;1;30;46m▓▓[0;1;30;40m▌▓▄▐[0;1;30;47m▓▓[0;1;30;40m█[0m [1;30m▄[0;1;30;47m▀ ▄[0;1;30;40m▀█[0;1;30;47m▀▄[0;1;30;40m▀[0m
-
-
-additional note ''''
-[1;30mI DO know that some people might use this ansi without paying $4 , I guess I [0m
-[1;30mcan''t help it . but be sure to keep in mind that evry ansi takes a hell lotta[0m
-[1;30mtime and work[0m [1;30m,,,,[0m                                                  [1;30m- [0m4o[0m'
+[34m░█ ▄[0;37m  [0;1;30m█▄[0m [1;34;44m▀[0;34m▀[0;1;30m ▄ [0m [31m▄▄▀[0;37m [0;1;30m▀▀[0;1;30;47m▓▄[0;1;30;40m▀░[0m [34m▀[0;1;36;44m░░[0;34m▀▀█▀[0;1;30m▄ ▀[0;33m [0;1;30;46m█▄[0;1;36;46m▀[0;1;36;40m▀[0;36m▀▄[0;1;36;46m▄▀[0;1;36;40m▀[0;36m█[0;1;36m▄[0;1;36;46m░[0;36m▀▒[0;1;30m▀▄▀[0m [1;30;46m▀ ▓[0;1;30;40m▄▀▀[0;1;30;46m▓▓[0;1;30;40m▌▓▄▐[0;1;30;47m▓▓[0;1;30;40m█[0m [1;30m▄[0;1;30;47m▀ ▄[0;1;30;40m▀█[0;1;30;47m▀▄[0;1;30;40m▀[0m'

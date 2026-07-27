@@ -5,7 +5,7 @@
 # Source SHA-256: e695200cb6203c6debbdda773d136ad9844d82d6cb0c30b9558598ce1301956a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ko-scent.ans by konami (black maiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: scent
 # SAUCE Author: konami
 # SAUCE Group: black maiden
@@ -46,6 +46,6 @@ Write-Host '
                                       [35m▄[0;36m▄▄▀[0;32m▀[0;1;30m▀[0m               [32m [0;36m▀▀[0;32m▄▄  [0;1;32m░▓[0;1;32;42m▒██[0;1;32;40m▀[0;32m▀ [0m    [36m▀[0;1;30m▄[0m
                                       [1;36m  [0m                      [32m  ░[0;30;42m▓[0;32;40m█[0;1;32;42m▓█▌[0;32m  [0m       [1;30m▀[0m
                                                                   [32m▀[0;1;30;42m▄[0;1;32;42m▀█▄[0;32m▄▄[0m
-[37m  [0;34mrequests by email only please:[0;37m [0;1;34mkonamikun@hotmail.com[0m                 [1;32m▀▀[0;32m▀[0;1;30;42m [0;32m▄[0m
+[37m  [0;34m                              [0;37m [0;1;34m                     [0m                 [1;32m▀▀[0;32m▀[0;1;30;42m [0;32m▄[0m
                                                                             [32m▀[0;1;32m░[0m
                                                                           [1;30m▄[0;32m▄▀[0m'

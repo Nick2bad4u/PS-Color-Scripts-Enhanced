@@ -5,7 +5,7 @@
 # Source SHA-256: 83618aa71bad6d7b57e7c49aaa771205cd97ba50c976e1e0710f21e1abe2879f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: rz-s3x.ans by _rzicus (Avenge Cult); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: s3x
 # SAUCE Author: _rzicus
 # SAUCE Group: Avenge Cult
@@ -17,7 +17,7 @@ Write-Host '
 
 
                    [32;40m▀[0;1;32;40m  [0;37;40m                                                          [0m
-[37;40m [0;1;30;40m_rzicus[0;1;34;40mavenge ;[0;37;40m     [0;32;40m▐[0;1;32;40m▒▒[0;32;40m▄[0;37;40m                                                       [0m
+[37;40m [0;1;30;40m       [0;1;34;40m        [0;37;40m     [0;32;40m▐[0;1;32;40m▒▒[0;32;40m▄[0;37;40m                                                       [0m
 [37;40m                    [0;32;40m▄[0;1;32;42m▄[0;1;32;40m▓▓▒░[0;37;40m [0;31;40m ░░░░[0;37;40m            [0;32;40m▄[0;1;32;40m▄▄[0;1;32;42m▄▓▓▓[0;1;32;40m███[0;1;32;42m▄[0;1;32;40m▄[0;32;40m▄[0;37;40m       [0;32;40m▄ [0;37;40m [0;32;40m▀[0;37;40m  [0;31;40m [0;37;40m         [0m
 [37;40m        [0;31;40m░░░░[0;37;40m  [0;32;40m▄[0;1;32;40m▄▄[0;1;32;42m▄▓▓▓▀[0;1;32;40m▀[0;32;40m▀[0;31;40m▄▄▄▓▓▓▓▓[0;37;40m [0;32;40m▄█▀▄[0;37;40m    [0;32;40m▄[0;1;32;42m▄▓[0;1;32;40m▓▓▓█[0;1;32;42m▀[0;1;32;40m▀[0;31;42m▄[0;1;31;40m▄▄[0;31;40m▄[0;32;40m▀[0;1;32;40m▀[0;1;32;42m▓▓▄[0;32;40m▄[0;37;40m [0;32;40m▄█▀[0;31;40m▄[0;1;31;41m▄█[0;1;31;40m▓[0;31;40m  [0;37;40m          [0m
 [37;40m    [0;1;30;40m [0;37;40m   [0;31;40m▓▓▒[0;32;40m▄[0;1;32;42m▄███▓█▀[0;32;40m▀[0;31;40m▄[0;1;31;40m▒▒▓▓▓▓▓▓▓▓[0;31;40m▌[0;32;40m▐[0;1;32;40m█[0;32;40m▌[0;31;40m▐▄▄[0;1;31;40m░░[0;32;40m▐[0;1;32;42m▓[0;1;32;40m▓▓▒▒[0;32;40m▀[0;31;40m▄[0;1;31;41m▄██▓▓[0;1;31;40m▓▓░[0;37;40m [0;1;32;40m▓▓▒▒[0;32;40m█▌[0;31;40m▐[0;1;31;41m██▓[0;1;31;40m▒[0;31;40m [0;37;40m           [0m
@@ -31,14 +31,4 @@ Write-Host '
 [37;40m              [0;36;40m▐[0;1;36;46m█▓▓[0;1;36;40m▓▓▓[0;36;40m▀[0;31;40m▄[0;1;31;40m▒▒▒▓[0;1;31;41m▓▓▀[0;1;31;40m▀▀[0;31;40m▀[0;37;40m                                               [0m
 [37;40m                [0;36;40m▀[0;1;36;46m▀▓▓[0;36;40m▌[0;1;31;41m ░░░ [0;31;40m▀[0;37;40m                                                     [0m
 [37;40m                 [0;36;40m▐[0;1;36;46m██▄[0;36;40m▄[0;31;40m▀██▌[0;37;40m                                                      [0m
-[37;40m               [0;36;40m▄[0;37;40m [0;36;40m▀[0;37;40m     [0;36;40m▀[0;37;40m   [0;31;40m .[0;37;40m   [0;31;40m [0;37;40m    [0;31;40m [0;37;40m                                          [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m'
+[37;40m               [0;36;40m▄[0;37;40m [0;36;40m▀[0;37;40m     [0;36;40m▀[0;37;40m   [0;31;40m .[0;37;40m   [0;31;40m [0;37;40m    [0;31;40m [0;37;40m                                          [0m'

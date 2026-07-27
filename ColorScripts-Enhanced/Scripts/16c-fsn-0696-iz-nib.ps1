@@ -5,7 +5,7 @@
 # Source SHA-256: cc452c59574d5ef89a997ccc690a46213f904aa8623e2b812a10bdb37d1fd675
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-NIB.ANS by ize (fusion); released in fsn-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nativity in black
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -37,6 +37,4 @@ Write-Host '
            [1;30m  [0m   [1;33m █[0;1;37m████[0;1;33m█[0m      [1;33;42m█[0;1;37;40m████[0;1;33;40m█[0m [1;33;42m█[0;1;37;40m████[0;1;33;40m█[0m [1;33m ▀[0;1;37m▀███[0;1;33m██▄▄██[0;1;37m███▀[0;1;33m▀ [0m [1;30m▄ ▀[0m
              [1;30m▀[0;32m  [0;1;33m ▀[0;1;37m▀▀▀▀[0;1;33m▀[0;32m  [0;1;30m▀▀▄▄[0;1;33m▀[0;1;37m▀▀▀▀[0;1;33m▀[0m [1;33m▀[0;1;37m▀▀▀▀[0;1;33m▀[0m [1;33m    [0;1;37m ▀▀▀▀▀▀▀▀[0;1;33m  [0;1;30m [0;1;33m [0;1;30m [0;1;33m [0;1;30m▄[0m
               [1;30m▀▄[0m     [1;30m▄[0m       [1;30m▀[0m [1;30m▄[0m     [1;30m▀[0m [1;30m▄▄▀▀[0;1;30;47m▓[0;1;30;40m▄▄▄[0m         [1;30m ▄    ▐[0;1;30;47m▓[0;1;30;40m [0m
-                  [1;30m▀[0;1;37m   [0m            [1;30m▀[0m            [1;30m▀[0m  [1;30m▄[0m       [1;30m▀[0m [1;30m▄[0m [1;30m▀[0m
-    [1;30m [0m [1;30m... nativity in black[0m [1;30m... op amphoris ... in israel ...[0m [1;30msomewhere[0m [1;30m...[0m
-                 [1m        [0m'
+                  [1;30m▀[0;1;37m   [0m            [1;30m▀[0m            [1;30m▀[0m  [1;30m▄[0m       [1;30m▀[0m [1;30m▄[0m [1;30m▀[0m'

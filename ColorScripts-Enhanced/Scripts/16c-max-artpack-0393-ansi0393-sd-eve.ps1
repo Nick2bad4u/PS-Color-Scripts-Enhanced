@@ -5,7 +5,7 @@
 # Source SHA-256: cb3adf877404131ccbe0a0fb0218ced6c2576ff710f7260bf822a18ce917aca8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-EVE.ANS by Snow Dog (max_artpack_0393-ansi0393); released in max_artpack_0393-ansi0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -53,10 +53,8 @@ Write-Host '
           [31m░  [0;1;31;41m▒▒▒▒[0;1;31;40m▀▀  [0;1;31;41m▒▒[0m      [1;31;41m▒▒[0m   [1;31;41m▒▒[0m [1;31;41m▒▒[0m       [1;31;41m▒▒[0m    [1;31;41m▒▒[0;1;31;40m▌    ▀[0;1;31;41m▒▒▒[0;1;31;40m▀  [0;31m░[0m
              [1;31;41m░░[0m   [31m▀[0;1;31;41m░[0;31m▄▀[0;1;31;41m░░░░░[0;31m▀ [0;1;31;41m░░[0m   [1;31;41m░[0;31m▀ [0;1;31;41m░░░░░░[0;31m▀ ▐[0;1;31;41m░[0;31m▀    ▐▀[0m      [31m▐[0;1;31;41m░[0m
              [31m▀[0m               [31m▀[0m                               [31m▀[0m
-                         [32m──[0;1;32m<[0;32m─[0;1;32m([0;31m@ [0;1;37mEVE OF REALITY [0;31m@[0;1;32m)[0;32m─[0;1;32m>[0;32m──[0m
+                         [32m──[0;1;32m [0;32m─[0;1;32m [0;31m  [0;1;37m               [0;31m [0;1;32m [0;32m─[0;1;32m [0;32m──[0m
              [32m──[0;1;32m<[0;32m─[0;1;32m([0;31m@ 3[0;1;31m0[0m5[1m.[0;31m9[0;1;31m8[0m1[1m.[0;31m9[0;1;31m5[0m5[1m5 - [0;31m1[0;1;31m6[0m.[1m8[0mk [31mH[0;1;31mS[0mT [31mD[0;1;31mu[0ma[1ml [0;31mS[0;1;31mt[0ma[1mnd[0ma[1;31mr[0;31md @[0;1;32m)[0;32m─[0;1;32m>[0;32m──[0m
-                      [32m──[0;1;32m<[0;32m─[0;1;32m([0;31m@ S[0;1;31my[0ms[1mo[0mp[1m: [0;31mE[0;1;31mv[0me[1mrl[0ma[1;31ms[0;31mt [0;1;37m{[0;1;33mC[0;1;32mS[0;32mC[0;1;37m} [0;31m@[0;1;32m)[0;32m─[0;1;32m>[0;32m──[0m
-               [32m──[0;1;32m<[0;32m─[0;1;32m([0;31m@ S[0;1;31mi[0ml[1me[0mn[1;31mt[0;1;37m*[0;31mN[0;1;31me[0mt [31mH[0;1;31mo[0mm[1me - [0;1;34mC[0;36mS[0;1;36mC [0;31mM[0;1;31me[0mm[1mb[0me[1;31mr [0;31mB[0;1;31mo[0ma[1mr[0md [31m@[0;1;32m)[0;32m─[0;1;32m>[0;32m──[0m
-       [32m──[0;1;32m<[0;32m─[0;1;32m([0;31m@ [0;32m"Climbing the Mountain that Killed a Thousand Men!" [0;31m@[0;1;32m)[0;32m─[0;1;32m>[0;32m──[0m
-
-      [1;30mArtwork by [0;36mSnow Dog [0;1;30mof [0;1;37m-[0mMax[1m- [0;1;30mImages & Words [0m1993 [1;30m- for CSC 03/11/93[0m'
+                      [32m──[0;1;32m [0;32m─[0;1;32m [0;31m   [0;1;31m [0m [1m [0m [1m  [0;31m [0;1;31m [0m [1m  [0m [1;31m [0;31m  [0;1;37m [0;1;33m [0;1;32m [0;32m [0;1;37m  [0;31m [0;1;32m [0;32m─[0;1;32m [0;32m──[0m
+               [32m──[0;1;32m [0;32m─[0;1;32m [0;31m   [0;1;31m [0m [1m [0m [1;31m [0;1;37m [0;31m [0;1;31m [0m  [31m [0;1;31m [0m [1m    [0;1;34m [0;36m [0;1;36m  [0;31m [0;1;31m [0m [1m [0m [1;31m  [0;31m [0;1;31m [0m [1m [0m  [31m [0;1;32m [0;32m─[0;1;32m [0;32m──[0m
+       [32m──[0;1;32m [0;32m─[0;1;32m [0;31m  [0;32m                                                    [0;31m [0;1;32m [0;32m─[0;1;32m [0;32m──[0m'

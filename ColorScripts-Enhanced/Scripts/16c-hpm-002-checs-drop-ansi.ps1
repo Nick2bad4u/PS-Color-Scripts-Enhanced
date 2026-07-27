@@ -5,7 +5,7 @@
 # Source SHA-256: f7ff833ad624760da8ec844a4942f8b46208f3cf79499ba19ccc14628ff9f16b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Checs-Drop_Ansi.ans by Checs (HPM); released in hpm-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dropansi
 # SAUCE Author: Checs
 # SAUCE Group: HPM
@@ -31,11 +31,11 @@ Write-Host '
     [1;34m∞≈∙[0m    [1;34m∞≈∙[0m [1;34m∞≈∙[0m    [1;34m∞≈≈≈≈≈∙[0m [1;34m∞≈∙[0m [1;34m∞≈∙[0m [1;30m/''[0;1;34m∙∞≈∙                    [0;30;47m┴┴[0;37;40m     [0;1;36;40m┘└[0m
     [34m∞≈∙ ∞≈≈≈≈∙ ∞≈≈≈≈∙ ∞≈∙ ∞≈∙ ∞≈∙ ∞[0;1;30m/''[0;34m ∞≈≈≈∙                     [0;30;47m┬┬[0;37;40m  [0;1;31;40mcritical[0m
                                 [1;30m/''[0m                              [30;47m┴┴[0;37;40m    [0;1;31;40m999[0m
-    [1;34mTextArt Tribute Pack[0m     [1;30m/''[0m                                 [30;47m┬┬[0m
-[37;40m    [0;1;34;40mChecs / HPM[0m           [1;30m/''[0m                                    [30;47m┴┴[0m
+    [1;34m                    [0m     [1;30m  [0m                                 [30;47m┬┬[0m
+[37;40m    [0;1;34;40m           [0m           [1;30m  [0m                                    [30;47m┴┴[0m
 [37;40m                       [0;1;30;40m/''[0m                                       [30;47m┬┬[0m
-[37;40m                    [0;1;30;40m/''[0m                        [1;31mçÇ[0;33m  [0;1;33m-[0m [1;33mdrop[0m        [30;47m┴┴[0m
-[37;40m                 [0;1;30;40m/''[0m                          [31mƒ[0;34;47m■ñ[0;31;40mƒ[0;37;40m     [0;1;33;40mANSI[0m      [30;47m┬┬[0m
+[37;40m                    [0;1;30;40m  [0m                        [1;31m  [0;33m  [0;1;33m [0m [1;33m    [0m        [30;47m┴┴[0m
+[37;40m                 [0;1;30;40m  [0m                          [31m [0;34;47m■ [0;31;40m [0;37;40m     [0;1;33;40m    [0m      [30;47m┬┬[0m
 [37;40m              [0;1;30;40m/''[0m                            [31mƒƒ[0;35m▓▌[0;33mÿ[0;1;30mⁿº◄[0m      [33m▲▲▲[0;1;30m/[0m  [30;47m┴┴[0m
 [37;40m        __ [0;1;30;40m/''[0m                           [33mé₧[0;1;37m│[0m/≡≡[1;30mΩΩ[0m≡≡≡≡≡≡≡≡≡[33m{«[0;1;37m☼[0;33m»}[0;1;30mí[0m≡[30;47m┬┬[0;37;40m≡≡≡≡\[0m
 [37;40m         ═╘───_                  /≡≡≡≡≡[0;33;40m√[0;1;32;47m∙■[0;1;37;40m│[0m [1;30m- [0;33m╧º[0;1;37m  [0;1;30m◄[0m█  [1;30m-  ¥°[0;1;31;42mòó[0;1;30;40mⁿæ\[0;30;47m┴┴[0;37;40m  [0;1;30;40m-[0m  `\

@@ -5,7 +5,7 @@
 # Source SHA-256: b9b6cd71d97f873b556d24b3264766284b2b7d9793854d94e526a32728c53371
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 13-ORGY1.ANS by ville (blend&fire); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: orgyemag
 # SAUCE Author: ville
 # SAUCE Group: blend&fire
@@ -28,6 +28,4 @@ Write-Host '
 [33m▓██[0;1;33m░░[0;31m██▌░[0;37m [0;31m░[0;37m [0;31m░[0;37m  [0;31m░▒▓[0;37m [0;31m▓▌   ▐[0;1;31;41m░[0;31m▐[0;33m▓▄▄▄▄▄[0;31m▄▄▄▄▄░ ▀█[0;31;43m▓░[0;33;40m█[0;33;42m▓▀[0;33;40m█▀░▄[0;32;40m▓░[0;37;40m  [0;32;40m▄[0;1;32;40m▒▒▒[0;32m▌[0;37m [0;1;32m▒▒[0;32m▓[0;37m ▓▓[0;1;37m░[0m  [1;30m▓▄ ░░▒▓▓[0m
 [33m░░▓▓[0;37m [0;31m▀▀[0m          [31m░[0;37m [0;31m░[0m       [31m░[0;1;30m▀▀[0;33m▀▀▀▀▀▀▀█▌[0;37m  [0;31m▄[0;1;33m░[0;33;42m▓[0;33;40m▓▓▀▒░▓[0;33;42m▓[0;32;40m▓[0;37;40m [0;32;40m░▓[0;1;33;40m▒[0;1;32;40m▒▒[0;32m▓▓▄[0;37m [0;32m▀[0;1;32m▒[0;32m▓[0;37m [0;1;37;47m░[0m▄  [1;30m░▓░[0m  [1;30m▒░[0m
 [31m  orgy emag #1 ░[0m             [31m [0;1;30m░[0;33m▀▀▀▀▀▀▀[0;31m▀[0m    [33m░░[0m    [33m░[0;32m░░[0m    [32m░░▒▒░[0m     [1;37m░[0m    [1;30m░[0m    [1;30m░░[0m
-[1;34m───────────────────────────────────────────────────────────────────────────────[0m
-[1morgy! mice''s emags! check it out!@ wo. that really looks like something!@big![0;1;36m!![0m
-[1m>> ville@fan.net -/- www.geocities.com/soho/7980/ gimme shorter address!!1@ <<<[0m'
+[1;34m───────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7e367d83c05de0e3309b98121c38570ebf73c8470fc411ca5c1f6f7c6a340c5d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-MALOL.ANS by mr.byte (chaos energy group); released in ceg-010a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 'maloletka'
 # SAUCE Author: mr.byte
 # SAUCE Group: chaos energy group
@@ -63,4 +63,4 @@ Write-Host '
   ░░▒░░░░░░    [1;34m▀[0m    [1;35m▀[0m          [1m▄[0m   [1m▄[0m [35m ▐█[0;1;35;45m▒[0;35m [0;37m [0;1;35m▀▀[0;1;35;45m▐[0m [1;35;45m░[0;35m▄▄▄[0;1;35;45m▄▄█[0m    [1;34m▀▀[0m
     ░                       [1m▀▀▀[0m       [35m ▀[0;37m [0;1;37m▄▄[0m   [35m█[0;1;35;45m▒░[0;35m▀[0;1;35m▀[0m              [1;34m░[0m
     ░                                      [1m▀[0m               [1;34m░░░░░░▒░░░[0m
-                                                                 [1;34m░[0m   [1;30m[maloletka][0m'
+                                                                 [1;34m░[0m   [1;30m           [0m'

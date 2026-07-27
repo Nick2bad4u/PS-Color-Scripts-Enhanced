@@ -5,7 +5,7 @@
 # Source SHA-256: 5ec85f66774d507ac06240a7495e988d96b2ae903fe4fdea0c5aa2786b563eb4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JE-ZMENU.ANS by Blind Sniper + Sunder (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Zenith Zine Menu #2
 # SAUCE Author: [Joint Effort]
 # SAUCE Group: Department 38
@@ -31,12 +31,12 @@ Write-Host '
 ╥[1;30m              [0m  [34m■▀▀▀▀▀▀▀▀▀▀[0m      [34m▀▄[0;1;34m [0;35m▀▀▀▀▀▀▀[0;37m [0;34m▄▄▄▄▄▄▄▄█▀▌[0;1;37m▐▌[0;34m▐▌[0;1;34m [0;1;30m    sUNDER^aND   [0m ║
 ║[1;30m zENITH^zINE^iSSUE^??[0m             [34m▀▀▀▀▀▀▀▀▀▀▀[0m        [1;34m [0;34m■▄▄█[0;1;34m  [0;1;30m bLIND^sNIPER/d38 [0m║
 ║                                      ║                [1;34m  [0m                     ║
-║ [1;32mI suppose you guys can use this[0;1;30m [0m     ║ [1;32mUse this for help, or use it as a [0m    ║
-║ [1;32mfor any small issues you have[0m        ║ [1;32mSecond page for selecting stuff...[0m    ║
-║ [1;32mor have it as a second menu[0m          ║ [1;32mThere you go,you can use it for all[0m   ║
-║ [1;32maltogether...[0m                        ║ [1;32mthe menus!! :)[0m                        ║
-║ [1;32mAnyhows, stick all ya crap in here[0m   ║                                       ║
-║                                      ║ [1;32m... plugging.[0m                         ║
-║ [1;32mHmm, Still more room for shameful...[0m ║               [1;32mJoin Department ∙38![0m    ║
+║ [1;32m                               [0;1;30m [0m     ║ [1;32m                                  [0m    ║
+║ [1;32m                             [0m        ║ [1;32m                                  [0m    ║
+║ [1;32m                           [0m          ║ [1;32m                                   [0m   ║
+║ [1;32m             [0m                        ║ [1;32m              [0m                        ║
+║ [1;32m                                  [0m   ║                                       ║
+║                                      ║ [1;32m             [0m                         ║
+║ [1;32m                                    [0m ║               [1;32m                    [0m    ║
 ║                                      ╨                                       ║
 ╙───────────────────────────--∙[1;30m Menu In Here!!! [0m∙-─────────────────────────────╜[0m'

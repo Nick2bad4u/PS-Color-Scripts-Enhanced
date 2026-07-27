@@ -5,7 +5,7 @@
 # Source SHA-256: 351f91aec6138c265adfef6f0eb31c7790db49e8954c123b0044aff9df14b5e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Cg-glue2.ans by cryogenic (glue guest (jasper)); released in glue-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: glue
 # SAUCE Author: cryogenic
 # SAUCE Group: glue guest (jasper)
@@ -47,8 +47,4 @@ Write-Host '
 [34m░[0m     [1;34;44m▀██▓░[0;34m██[0;37m  [0;34m▄[0;1;34;44m▄[0;1;34;47m▓[0;1;34;40m▒[0;34m▄▀[0;1;34;44m▀██░[0;34m█▀[0m    [1;37m   [0m      [34m▄▄[0;37m [0;30;44m▄[0;34;40m▀▄[0;1;34;44m▄[0;1;34;40m▒[0;34m██▄▀[0;1;34;44m▀▀░[0;34m▀▀[0m     [36m▀▀█▀[0;1;30m▄[0;36m▄████████████[0m
 [37m  [0;30;44m▓[0;34;40m░[0;30;44m▓[0;37;40m  [0;34;40m  ▀▀▀[0m   [34;40m▀[0;1;34;40m▀[0;1;34;44m▀░[0;34m▀[0m        [1;37mglue: owning me[0m  [1;34;44m▓[0;1;34;47m▓[0;1;34;44m░[0;34m█[0;30;44m░[0;34;40m▓[0m                [1;30;40m▀[0;36m▀[0;1;30;46m▄[0;36m███▓[0;30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓██[0m
                     [34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0m        [1;37;40mowning you[0m  [34m▀▀  [0m    [37mcryogenic([0;1;37mjasper[0m) [1;30m▀[0;36m▀▀▀[0;1;30;46m▄[0;36m███[0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
-ok.. this was originally going to be a 100 liner saying glue.. but as im a lazy
-fuck, its just going to be 30 lines..
-props to avg, spear, aes, c22, tna... you guys own..
-cryo[0m'
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m'

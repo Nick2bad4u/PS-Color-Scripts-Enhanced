@@ -5,7 +5,7 @@
 # Source SHA-256: be6b0a3706fe6d5fd80c96dcd4256bb6a2c9557f909d14622da1f99f29947c1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: may-ntsz.ans by Maytag (Blocktronics); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nietzsche
 # SAUCE Author: Maytag
 # SAUCE Group: Blocktronics
@@ -19,15 +19,15 @@ Write-Host '
 [30;40m   [0;1;37;40m▓▓[0;1;37;47m░░[0;1;37;40m▒▒[0m██[1;30;47m░░[0m▓▓   [1;34m▄   [0;1;34;46m▓[0;1;34;40m▀ █▀▄ ▄▀█ █▄  [0;1;34;46m▓[0;1;34;40m▀▀ ▄▀ ▀▀[0;1;34;46m▒[0;1;34;40m █  ▀ ▄▀█  ▄    [0;1;34;46m▒[0;1;34;40m▄ ▄▀█ [0;1;34;46m▒[0;1;34;40m▀▀ [0;1;34;46m▒[0;1;34;40m▄[0m
 [1;34;40m   [0;1;37;40m▓[0;1;37;47m░░[0;1;37;40m▒▒[0m██[1;30;47m░░[0m▓▓▒ [1;34m▄[0;1;34;46m▓[0;1;34;40m▄▄▄ █▀ [0;1;34;46m▓[0;1;34;40m▄█ [0;1;34;46m▒[0;1;34;40m █ [0;1;34;46m▓[0;1;34;40m▄  ▄▄[0;1;34;46m▓[0;1;34;40m [0;1;34;46m▒[0;1;34;40m▄ █▄▀ [0;1;34;46m▒[0;1;34;40m▄ █ [0;1;34;46m▒[0;1;34;40m [0;1;34;46m▓[0;1;34;40m [0;1;34;46m▓[0;1;34;40m▄[0;1;34;46m▓[0;1;34;40m   [0;1;34;46m▓[0;1;34;40m▄ [0;1;34;46m▓[0;1;34;40m▄▄ ▄▄█ [0;1;34;46m▓[0;1;34;40m▄[0m
 [1;34;40m   [0;1;37;47m░░[0;1;37;40m▒▒[0m██[1;30;47m░░[0m▓▓▒▒  [1;34m▀▄[0m                                      [1;34m▄▄▀[0m
-[1;34m   [0;1;37;47m░[0;1;37;40m▒▒[0m██[1;30;47m░░[0m▓▓▒▒[1m░[0m       [1mHere is just a quick doodle of a N. portrait I drew quite[0m
-[1;34m   [0;1;37m▒▒[0m██[1;30;47m░░[0m▓▓▒▒[1m░░[0m       [1ma while ago but never got around to releasing. Quick[0m
-                      [1mattempt at going for some small scale photo-realism.[0m
-                      [1mThe change of how ▒▒ is handled in windows has really[0m
-                      [1mscrewed with my style... example of how the box on the[0m
-                      [1mleft looks totally different in different resolutions.[0m
-                      [1mI know there is no simple way to fix this, but I guess[0m
-                      [1mit''s onwards and upwards, and DOS is dead... long live[0m
-                      [1mPablodraw... RIP f2▒▒[0m
+[1;34m   [0;1;37;47m░[0;1;37;40m▒▒[0m██[1;30;47m░░[0m▓▓▒▒[1m░[0m       [1m                                                         [0m
+[1;34m   [0;1;37m▒▒[0m██[1;30;47m░░[0m▓▓▒▒[1m░░[0m       [1m                                                    [0m
+                      [1m                                                    [0m
+                      [1m                  ▒▒                                 [0m
+                      [1m                                                      [0m
+                      [1m                                                      [0m
+                      [1m                                                      [0m
+                      [1m                                                      [0m
+                      [1m                   ▒▒[0m
 [1m--------------------------------------------------------------------------------[0m
 
 

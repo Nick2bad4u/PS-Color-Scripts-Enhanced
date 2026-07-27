@@ -5,7 +5,7 @@
 # Source SHA-256: 869b72ec002605742c565f32758cc3a06469fa15453f362b860e082412842a70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-VAPOR.ANS by psYchoholic (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Vapor Promo Ansi
 # SAUCE Author: psYchoholic
 # SAUCE Group: Vapor
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-    [1;30m▄ [0;1;33m▄[0m                             [1;33m▄[0;1;30m ▄[0m      [1;33mthis is only the second ansi that[0m
+    [1;30m▄ [0;1;33m▄[0m                             [1;33m▄[0;1;30m ▄[0m      [1;33m                                 [0m
  [1;30m ▄▓▒░ [0;1;33m███▄▄[0m                   [1;33m▄▄███[0;1;30m ░▒▓▄ [0m   [1;33mi have ever made.  i don''t even[0m
  [1;30m▀▓▒░░░[0;1;33m▐██[0;1;33;43m▓▓▓▓[0;1;33;40m█▄▄▄▄▄[0m   [1;33m▄▄▄▄▄█[0;1;33;43m▓▓▓▓[0;1;33;40m██▌[0;1;30;40m░░░▒▓▀[0m   [1;33mknow what the hell it is, looks[0m
  [1;30m  ▓▒░░ [0;1;33m█[0;1;33;43m▓▓▓▓▒▒▒[0;1;33;40m█[0;1;33;43m▓▓[0;1;33;40m██[0;1;30;40mp[0;1;33;40m██[0;1;33;43m▓▓[0;1;33;40m█[0;1;33;43m▒▒▒▓▓▓▓[0;1;33;40m█[0;1;30;40m ░░▒▓  [0m   [1;33mkinda like a pissed off dog i [0m

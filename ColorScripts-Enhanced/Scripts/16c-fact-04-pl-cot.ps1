@@ -5,7 +5,7 @@
 # Source SHA-256: 1f58e6e657fd1b789e01935d9fc4bda3af9bb2a3247585a569aef3cf67baa5f3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-COT.ANS by pUSSYlOVEr (fACt!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cEMETERy of tWiliGht
 # SAUCE Author: pUSSYlOVEr
 # SAUCE Group: fACt!
@@ -36,19 +36,19 @@ Write-Host '
 [32m▄▄ ▀ ▄[0;1;32;42m░▓[0;32m█▀[0m                                         [32m▀[0;1;33;42m▄[0;32m■▄[0;32;43m▓[0;1;33;42m▀[0m
 [32m█[0;1;32;42m░[0;32m▀[0;1;32m▓■▄[0;32m▀█▌  ▄■[0m       [1;33mc [0;32me [0;1;33mm [0;32me [0;1;33mt [0;32me [0;1;33mr [0;32my   [0;1;33mo [0;32mf   [0;1;33mt [0;32mw [0;1;33mi [0;32ml [0;1;33mi [0;32mg [0;1;33mh [0;32mt[0m
 [32m ▀▀[0;1;32m▀ [0;32m▄[0;33m▒ [0;32m▄███▀[0m
-[32m   ▄█▌[0;33m▀▓ [0;32m▀[0m        [31mo[0;33mP''ed [0;31mb[0;33mY [0;31mc[0;33mMOs [0;31maN[0;33md [0;31mrU[0;33mnniN'' [0;31mP[0;33mC''s [0;31mbE[0;33mSt [pCb][0m
-[33m  [0;32m▀▀▀  [0;33m▀[0m      [31mdA[0;33mY [0;31mo[0;33mR [0;31mni[0;33mGht [0;31mwi[0;33mLL [0;31mrU[0;33mSh [0;31mth[0;33mA [0;31mli[0;33mGht - [0;31mwE[0;33mEd [0;31msM[0;33mOkAS [0;31mwE[0;33mlCOMe :)[0m
+[32m   ▄█▌[0;33m▀▓ [0;32m▀[0m        [31m [0;33m     [0;31m [0;33m  [0;31m [0;33m    [0;31m  [0;33m  [0;31m  [0;33m      [0;31m [0;33m    [0;31m  [0;33m        [0m
+[33m  [0;32m▀▀▀  [0;33m▀[0m      [31m  [0;33m  [0;31m [0;33m  [0;31m  [0;33m    [0;31m  [0;33m   [0;31m  [0;33m   [0;31m  [0;33m  [0;31m  [0;33m      [0;31m  [0;33m   [0;31m  [0;33m     [0;31m  [0;33m        [0m
 
 [37m+[0;1;30m---[0m+[1;30m-----------------[0m+[1;30m--------------[0m+[1;30m-------[0m[ [1;30mC[0mU[1;30mT [0mH[1;30mE[0mR[1;30mE [0m][1;30m--------[0m+++++[1;30m---------[0m+
 
-[1;30m'' oooorriigiiinnaalll [0mpussylover [1;30mproduction... now it''s [0mjungle [1;30mstyle :) .. well[0m
-[1;30m  this [0mpeace [1;30mrulez, ''cause it''Z >[0mDOWNBEAT IN THE JUNGLE 2[1;30m< inspiration .. rulez![0m
-[1;30m  well dewdz..stay kewl and cry.. cya! and alwayZ think about this : jeesas is[0m
-[1;30m  with yah :) ![0m
+[1;30m                      [0m           [1;30m                       [0m       [1;30m                [0m
+[1;30m       [0m      [1;30m                    [0m                        [1;30m                       [0m
+[1;30m                                                                              [0m
+[1;30m               [0m
 
-[1;30mthis one goes out 2 [0mcmos [1;30m(is ur name & board allright ?? ... hahah ) and sum[0m
-[1;30motha guYz greeted.. :)[0m
+[1;30m                    [0m     [1;30m                                                   [0m
+[1;30m                      [0m
 
-[1;30mbk [0mφ [1;30mtrate (hah) [0mφ [1;30mkrash [0mφ [1;30muxp (nice dope style .. huh?) [0mφ [1;30mraiden (was machen[0m
-[1;30mdie decks?) [0mφ [1;30mthe trill [0mφ [1;30mbreaker (chonig auf den ohren?) [0mφ [1;30mphat (tja..das wars)[0m
+[1;30m   [0m  [1;30m            [0m  [1;30m      [0m  [1;30m                              [0m  [1;30m                  [0m
+[1;30m            [0m  [1;30m          [0m  [1;30m                                [0m  [1;30m                    [0m
 +[1;30m---[0m+[1;30m-----------------[0m+[1;30m--------------[0m+[1;30m-------[0m[ [1;30mC[0mU[1;30mT [0mH[1;30mE[0mR[1;30mE [0m][1;30m--------[0m+++++[1;30m---------[0m+[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c16485808fe10e72f2443ea100d5b4b67c2a471d6f69b609def6a0be574bff0d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DES3#RAG.ANS by Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 41-79
 # Columns: 1-80
 
@@ -44,8 +44,8 @@ Write-Host '
 [30m███[0;1;30m▀▀▀▀   ▀▀▀▀▀  ▀▀▀▀▀    ▀    ▀▀ ▀▀  ▀▀▀▀▀  ▀▀▀▀▀    ▀    ▀▀  ▀▀▀▀▀  ▀▀   ▀▀ [0;30m██[0m
 [30m████████████████████████████████████████████████████████████████████████████████[0m
 [30m████████████████████████████████████████████████████████████████████████████████[0m
-[30m███[0;32m· Destructi[0;1;32mo[0;1;37mn [0;32m· +3[0;1;32m5[0;1;37m8[0;32m-9[0;1;32m8[0;1;37m9[0;32m-85112[0;1;32m4[0;1;37m7 [0;32m· S[0;1;32my[0;1;37ms[0;32mO[0;1;32mp[0;1;37ms: [0;32mJart[0;1;32mz[0;1;37ma [0;32m& Hamilt[0;1;32mo[0;1;37mn [0;32m· N[0;1;32mo [0;32mRati[0;1;32mo[0;1;37ms! [0;32m· [0;30m█[0m
+[30m███[0;32m           [0;1;32m [0;1;37m  [0;32m    [0;1;32m [0;1;37m [0;32m  [0;1;32m [0;1;37m [0;32m      [0;1;32m [0;1;37m  [0;32m   [0;1;32m [0;1;37m [0;32m [0;1;32m [0;1;37m   [0;32m    [0;1;32m [0;1;37m  [0;32m        [0;1;32m [0;1;37m  [0;32m   [0;1;32m  [0;32m    [0;1;32m [0;1;37m   [0;32m  [0;30m█[0m
 [30m████████████████████████████████████████████████████████████████████████████████[0m
-[30m███    [0;32m· L[0;1;32mo[0;1;37mt [0;32mo[0;1;32mf [0;32mmus[0;1;32mi[0;1;37mc [0;32mfil[0;1;32me[0;1;37ms [0;32m· Ti[0;1;32mn[0;1;37my[0;32mN[0;1;32me[0;1;37mt [0;32m(9:86[0;1;32m6/[0;1;37m8) [0;32m· Op[0;1;32me[0;1;37mn [0;32m21.[0;1;32m3[0;1;37m0 [0;32m- 0[0;1;32m6[0;32m.0[0;1;32m0 [0;32m·[0m        [30m██[0m
+[30m███    [0;32m   [0;1;32m [0;1;37m  [0;32m [0;1;32m  [0;32m   [0;1;32m [0;1;37m  [0;32m   [0;1;32m [0;1;37m  [0;32m    [0;1;32m [0;1;37m [0;32m [0;1;32m [0;1;37m  [0;32m     [0;1;32m  [0;1;37m   [0;32m    [0;1;32m [0;1;37m  [0;32m   [0;1;32m [0;1;37m  [0;32m   [0;1;32m [0;32m  [0;1;32m  [0;32m [0m        [30m██[0m
 [30m████████████████████████████████████████████████████████████████████████████████[0m
-[30m███[0m         [32m· Spee[0;1;32md[0;1;37ms [0;32m2[0;1;32m.[0;1;37m4 [0;32m- 14[0;1;32m.4[0;1;37mk [0;32m· Softwa[0;1;32mr[0;1;37me: [0;32mRemo[0;1;32mt[0;1;37me[0;32mAcce[0;1;32ms[0;1;37ms [0;32m2.0[0;1;32m2[0;1;37m+ [0;32m·[0m             [30m██[0m'
+[30m███[0m         [32m      [0;1;32m [0;1;37m  [0;32m [0;1;32m [0;1;37m  [0;32m    [0;1;32m  [0;1;37m  [0;32m        [0;1;32m [0;1;37m   [0;32m    [0;1;32m [0;1;37m [0;32m    [0;1;32m [0;1;37m  [0;32m   [0;1;32m [0;1;37m  [0;32m [0m             [30m██[0m'

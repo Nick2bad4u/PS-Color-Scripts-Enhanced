@@ -5,7 +5,7 @@
 # Source SHA-256: 35be9869f733cacc80864b0513fba1cadf8d600d9940a21e6a7dcee0e47723d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MEE-LINE.ANS by minotaur (maiden); released in maiden15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: liner
 # SAUCE Author: minotaur
 # SAUCE Group: maiden
@@ -26,27 +26,27 @@ Write-Host '
 ░░  ▄[1m▄[0;1;47m▄█[0;1;40m█[0;1;47m▀▀▀[0m  [32m▀▀[0;37m  [0;1;37m▄▄[0;1;37;47m▓[0m▌▄▄▄[1m▄[0;1;47m█[0;1;33;40m▄[0m [32m▀[0;1;33;42m▌[0;32m  [0;1;37m▄▄[0;1;37;47m█[0;32m ▐[0;1;32;42m█[0;1;32;47m▓[0;32m▓▓  ░  [0;35m▐[0;35;47m▓[0;35;40m▌[0;32;40m [0;1;37;47m▓▌[0;32m ░░ ▐[0;1;36;42m▓[0;1;36;46m█▌[0;1;36;40m▄▄[0;1;36;42m▓[0;1;36;40m█[0;1;36;42m▀[0;32m▀ [0;37m▄[0;1;37;47m▄[0;1;37;40m█[0;1;33;40m██[0;1;37;40m███[0m▄▄[1;30m▄[0m
  ▄[1;47m▄[0;1;40m▌[0;1;47m█▀[0m██▀▀▀▀▀    [1m▀▀▀[0m▀▀▀[1m▒▒[0m▀▀[1m▀[0;1;33m▀[0m [1m░░▀▀[0m▀▀▀   [32m░░  [0;1;37m▀[0m▀[32m [0;35;47m▓▄[0;35;40m█ [0;1;37;40m▀[0m▀▀   [32m▓[0;1;37m██[0;1;36;42m█[0;1;36;40m▀▀[0;32m▀[0m   [37m▀[0;1;37m▀▀▀▀▀▀▀[0m██[1;30;47m█[0;1;30;40m█[0;1;30;47m▓[0m
 ▐[1;47m█▓[0m▄█▀ ---[35m WRITTEN BY.. [0;37m--------------[0;35m WHAT tHE[0;1;35;45mY[0;1;35;40m▒[0;1;35;45ms[0;35mAY?! [0;37m---------------------- [0;1;30m▀█[0m
-[1;37;47m▓▓░░[0m▌ [35m    [0;36mzezinho-boy [0;37m [0;35m>>[0;37m [0;1;36mcall now muh board , it''s called lamotron!   [0m
-[1;47m░░[0m▀██▄    [36mbumba-meuboi[0;37m [0;35m>>[0;37m [0;1;36mhey , no fucking bbs advertisements here lamo!!![0m
-░▀▌[33;47m░░[0;37;40m██▄  [0;36;40mminotaur [0m    [35;40m>>[0;37;40m [0;1;36;40mdo you all know me ?? i r00le d00d3    [0m  [1;36m [0;36m [0m
-[33m▄[0;37m  ▀[0;33;47m▓▓░░[0;37;40m▌ [0;36;40mjoao alfredo[0;37;40m [0;35;40m>>[0;37;40m [0;1;36;40mmENGAO cAMPEAO bRASILEIRO dE 98!! vascainos cuzao.[0m
-[1;33;43m▀▄[0;33m▄[0;37m [0;33m▐█[0;33;47m▓▓[0;37;40m  [0;36;40mtointoin[0m     [35;40m>>[0;37;40m [0;1;36;40mpor favor alguem manda o jogo GrandTheftAuto[0m [1;36m  [0;36m [0m
-[37m [0;33m▀[0;1;33;43m█▄ [0;33m▀▀[0m   [36mcuzoide[0m      [35m>>[0;37m [0;1;36mtointoin vc eh gay .. esse jogo eh ruim[0m       [1;36m [0;36m [0m
-[1;33;43m▐[0;1;33;40m▀▀[0;33m▀[0;1;33;43m▀▄[0;33m▄[0m   [36mbundelho[0m     [35m>>[0;37m [0;1;36mVoces Nao Falam Nada de Bom no linerz[0m       [1;36m [0;36m [0m
-[37m  ░░ [0;33m▀[0;1;33;43m▀▄[0;33m▄[0;37m [0;36mbungotron[0m    [35m>>[0;37m [0;1;36mOi gente .. Algum homosexual na bbs pra bater papo?[0m
-[1;47m▄[0;1;40m▄[0m▄    [33m▀[0;1;33;43m░[0m [36mzagalotron[0m   [35m>>[0;1;36m Ronaldinho sux .. ataque pra 98: romario & bebeto[0m
- [1m▀▀[0;1;47m█▄[0m▄    [36mcandel_      [0;35m>>[0;36m [0;1;36mDUH! EU SOU BOBAO! LA LA LA !                      [0m
+[1;37;47m▓▓░░[0m▌ [35m    [0;36m            [0;37m [0;35m  [0;37m [0;1;36m                                             [0m
+[1;47m░░[0m▀██▄    [36m            [0;37m [0;35m  [0;37m [0;1;36m                                                [0m
+░▀▌[33;47m░░[0;37;40m██▄  [0;36;40m         [0m    [35;40m  [0;37;40m [0;1;36;40m                                       [0m  [1;36m [0;36m [0m
+[33m▄[0;37m  ▀[0;33;47m▓▓░░[0;37;40m▌ [0;36;40m            [0;37;40m [0;35;40m  [0;37;40m [0;1;36;40m                                                  [0m
+[1;33;43m▀▄[0;33m▄[0;37m [0;33m▐█[0;33;47m▓▓[0;37;40m  [0;36;40m        [0m     [35;40m  [0;37;40m [0;1;36;40m                                            [0m [1;36m  [0;36m [0m
+[37m [0;33m▀[0;1;33;43m█▄ [0;33m▀▀[0m   [36m       [0m      [35m  [0;37m [0;1;36m                                       [0m       [1;36m [0;36m [0m
+[1;33;43m▐[0;1;33;40m▀▀[0;33m▀[0;1;33;43m▀▄[0;33m▄[0m   [36m        [0m     [35m  [0;37m [0;1;36m                                     [0m       [1;36m [0;36m [0m
+[37m  ░░ [0;33m▀[0;1;33;43m▀▄[0;33m▄[0;37m [0;36m         [0m    [35m  [0;37m [0;1;36m                                                   [0m
+[1;47m▄[0;1;40m▄[0m▄    [33m▀[0;1;33;43m░[0m [36m          [0m   [35m  [0;1;36m                                                  [0m
+ [1m▀▀[0;1;47m█▄[0m▄    [36m             [0;35m  [0;36m [0;1;36m                                                   [0m
 [1;33m░[0m░ ▐[1;47m█▓[0m▌ -----------------------------------------------------------------------
-   ▓[1m▀[0m▀                    [1;36;44mwrite a line ...  [0;1;36;40m [0;36m   get out ...[0m
+   ▓[1m▀[0m▀                    [1;36;44m                  [0;1;36;40m [0;36m              [0m
 
 
 
-[37mhere ya goes bung .. not blue like you asked me to do[0m
-[37mblue is so gay .. [0m
+[37m                                                     [0m
+[37m                  [0m
 
-[37m    gREETz : [0;1;31menzoboy, rorshack , gravediggah , insert , i3 & romario[0m
+[37m             [0;1;31m                                                       [0m
 
-          [1;31md00kie/m0sh/s0sbra : aula de baixo com o tio mino , email :[0m
-                               [1;31mminotaur@nitnet.com.br[0m
+          [1;31m                                                           [0m
+                               [1;31m                      [0m
 
                            [1;31mh0h0h0h0h0h0h0h0h0h0*rz[0m'

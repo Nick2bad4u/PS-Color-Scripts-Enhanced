@@ -5,7 +5,7 @@
 # Source SHA-256: a6b6748e8f2f5bd272f3b2226d78cf15fa1f48fd48f859c47c3cb0883b6b6d77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-CB4.ANS by Griffin (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, scaling, or background-space stripping; split only into contiguous source-row ranges at manually reviewed composition boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: CELL BLOCK 4
 # SAUCE Author: Griffin
 # SAUCE Group: iDENTiTY
@@ -47,15 +47,15 @@ Write-Host '
                                    [1;37;40m■[0m
                                 [1;37;40m■ALE U■[0m
            [1;37;40m───────────────── ■S HQ · BLAD■ ─────────────────[0m
-                          [1;37;40m■E DISTRO · CiA DI■[0m
+                          [1;37;40m■                 ■[0m
            [1;35;40m─────────── [0;1;37;40m■[0;1;35;40mSTR[0;1;37;40mO · CRiME iN PROGR[0;1;35;40mES[0;1;37;40m■ [0;1;35;40m───────────[0m
-                    [1;37;40m■S CENT[0;1;35;40mRAL [0;1;37;40mUS HUB · G[0;1;35;40maNjA [0;1;37;40mCENT■[0m
+                    [1;37;40m■      [0;1;35;40m    [0;1;37;40m          [0;1;35;40m     [0;1;37;40m    ■[0m
            [35m───── [0;1;37m■[0;35mRAL US HQ · [0;1;37mG[0;1;35mTCM [0;1;37mNet [0;1;35m· [0;35mHASH CENTRAL[0;1;37m■ [0;35m─────[0m
-           [1;30m── [0;1;37m■ [0;1;30mUS HQ · HAVOK [0;35mMEMB[0;1;35mER B[0;35mOAR[0;1;30mD · HR DISTRO ·[0;1;37m■ [0;1;30m──[0m
+           [1;30m── [0;1;37m■ [0;1;30m              [0;35m    [0;1;35m    [0;35m   [0;1;30m               [0;1;37m■ [0;1;30m──[0m
            [35m───── [0;1;37m■[0;35miMPACT Net [0;1;37m· [0;1;35mPFA[0;1;37mNet [0;1;35m· P[0;35mHAiT DISTRO [0;1;37m■ [0;35m─────[0m
-                    [1;37m■· PHC [0;1;35mCENT[0;1;37mRAL US HQ [0;1;35m· RE[0;1;37mACTOR■[0m
+                    [1;37m■      [0;1;35m    [0;1;37m          [0;1;35m    [0;1;37m     ■[0m
            [1;35m─────────── [0;1;37m■ [0;1;35mDI[0;1;37mSTRO · $YNDiCATE D[0;1;35mIS[0;1;37m■ [0;1;35m───────────[0m
-                          [1;37m■TRO · TALON DISTR■[0m
+                          [1;37m■                 ■[0m
            [1;37m───────────────── ■O · TiTAN D■ ─────────────────[0m
                                 [1;37m■ISTRO■[0m
                                    [1;37m■[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: ca2c7793bfdbb45e9729a311da58366df9cc107c427546b86819bad9dcfe5787
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-OBSCE.ANS by Rimgale (Union); released in uni-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Obscene phobia #1
 # SAUCE Author: Rimgale
 # SAUCE Group: Union
@@ -38,7 +38,4 @@ Write-Host '
          [33m▄▄[0;1;31;43m▄▀▓▄[0;33m▀▀   ▀[0;1;31;43m▀█▓▄[0;33m█ [0;1;31;43m░▄[0;33m▄▀[0;1;31;43m▄▓▓▀▄[0;33m█ [0;1;31;43m░▌[0m [33m▄[0;1;31;43m▄▓█▀▓▒[0m [1;31;43m░[0;33m▀▀ █[0;1;31;43m█▓▄[0;33m▄▄ ▄▄▄[0;1;31;43m▄▓▀[0;33m█ [0;1;31;43m▐█[0;33m▄[0m
         [33m▀[0;1;31;43m▀▓[0;33m█ [0;1;31;43m░▌[0m   [33m▀▀[0;1;31;43m▀▀[0;33m▀[0;1;31;43m▀▄[0;33m▄ ▀[0;1;31;43m▓[0m  [33m▀[0;1;31;43m▀[0;33m▀ [0;1;31;43m▐▀▄▀[0;33m▀  ▀[0;1;31;43m▀▌[0m [1;31;43m▀[0;33m▀[0;1;31;43m▓▀[0;33m▀ ▀[0;1;31;43m▀[0;33m▀[0;1;31;43m▀░[0m [1;31;43m░[0;33m▀ ▀[0;1;31;43m░▀[0;33m▀ [0;1;31;43m▒[0;33m█[0;1;31;43m▀[0;33m▀[0m
            [33m▀ █[0m          [33m█   ▓[0m      [33m█ ▀[0m      [1;31;43m░[0m   [33m█[0m       [33m█[0m         [33m▓[0m
-        [1;37mpi[0mrat[33m▓[0;37ms [0;1;37mwi[0mth a[1mtti[0mtudes [1meh[0mq - [1msco[0mtch [1meh[0mq [33m▓ [0;1;37msti[0mle [1msca[0mndinavian [1mh[0mq
-             [1mth[0me [1msta[0mff: [1mth[0me [1mjud[0mge, [1mnix[0mon, [1momni[0mbuz [1man[0md [1mth[0me [1mgodfa[0mther
-
-                            an[1;30msi [0mb[1;30my [0mrim[1;30mgale [0m[u[1;30mnion][0m'
+        [1;37m  [0m   [33m▓[0;37m  [0;1;37m  [0m    [1m   [0m      [1m  [0m    [1m   [0m    [1m  [0m  [33m▓ [0;1;37m   [0m   [1m   [0m          [1m [0m [0m'

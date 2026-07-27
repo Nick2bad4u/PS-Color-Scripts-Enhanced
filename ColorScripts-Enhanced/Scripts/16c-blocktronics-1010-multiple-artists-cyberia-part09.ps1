@@ -5,7 +5,7 @@
 # Source SHA-256: dabce9a645516b0c3375d3273fb3d8b3bfc2782314a8ded89d366a9e7c59f9d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: multiple artists -cyberia.ans by Enzo + Mattmatthew + Tcf (blocktronics_1010); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20140830
 # SAUCE Dimensions: 80x448
 # SAUCE Font: IBM VGA
@@ -60,6 +60,4 @@ Write-Host '
 
 [1;32;40m██████████████████████████████████████████████████████▀▄▀▄▀▄▀▄▀▄   [0;32m▒ ▒▒▒ ▒ ▒▒▒[0m
                                                                    [32m▒ ▒ ▒ ▒ ▒ ▒[0m
-[1;32m██████████████████████▀▄▀▄▀▄▀▄▀▄▀  tcf .;.-[0;32m| e[0;1;32mnz[0;32mO (*[ mat[0;1;32mt[0;32mmatt[0;1;32mh[0;32mew  ▒ ▒▒▒ ▒ ▒▒▒[0m
-
-[32m  [0;1;32moriginal callig[0;32mrap[0;1;32mhy b[0;32my Ozm[0;36man O[0;32mzcay ww[0;36mw.ozcay.com [0;1;34m% [0;32mSPACE [0;36mBLOCK [0;32mMOTHE[0;36mFU[0;32mCKE[0;36mR[0;32mS[0m'
+[1;32m██████████████████████▀▄▀▄▀▄▀▄▀▄▀  tcf .;.-[0;32m| e[0;1;32mnz[0;32mO (*[ mat[0;1;32mt[0;32mmatt[0;1;32mh[0;32mew  ▒ ▒▒▒ ▒ ▒▒▒[0m'

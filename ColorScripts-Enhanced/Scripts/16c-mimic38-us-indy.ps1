@@ -5,14 +5,14 @@
 # Source SHA-256: 8ddac221504aa46c68ab083a158d1e2d32004a22f9a64bd3542d62a7f27d1e29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-indy.ans by Metal Militia (mimic38); released in mimic38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-                          [1;30m_____[0m                [1;30m"information wants to be free"[0m
-                 [1;30m$$$$$[0m [31mb.[0;37m [0;1;30m7$$$$[0m                    [1;30mindependant media centers[0m
-           [1;30m;;;;[0m  [1;30m$$$└└[0m [31m$[0;1;31m$[0;31mb.[0;1;30m''7$$[0m                  [1;30manti-capitalist information.[0m
+                          [1;30m     [0m                [1;30m                              [0m
+                 [1;30m     [0m [31m  [0;37m [0;1;30m     [0m                    [1;30m                         [0m
+           [1;30m    [0m  [1;30m   └└[0m [31m [0;1;31m [0;31m  [0;1;30m    [0m                  [1;30m                            [0m
            [1;30ml;;;[0m   [31m___$[0;1;31m$$$$$[0;31mb.[0;1;30m''└[0;31m  [0m             [31m┌-,,__[0m
            [1;30mll[0m     [31m$[0;1;31m$$$$$$$[0;31m$$$$$$ [0m             [31m|[0m    [31m$$$l*┌,_[0m
 [31m,,,[0;1;31m,[0m       [1;30mll,,,┌\[0;1;31m ,d│\└''''[0m         [34m,[0;1;34m*8[0;34m88*.[0m    [31m [0m    [31m$$$$$$$│$b,[0m
@@ -30,7 +30,7 @@ Write-Host '
             [31m/. `┘[0;1;31m*$$$$$$$$$$$$[0;1;30m$$ [0m    [34mj$[0;1;34m$$$$$[0;34m$:[0;37m [0;1;30m___,,--[0m      [1;31mi$$$l[0m [1;30m$$$[0m
                       [1;31m''''/│$$b,[0m  [1;30ml[0m [34m┌┌d$$[0;1;34m$$$$$[0;34m╠:[0m        [1;30m;[0m     [1;31ml$$$[0;31mL [0;1;30m└│$[0m
                           [1;31m''7$$b,[0;1;30ml[0m [34m$$Q$$[0;1;34m$$$[0;34m$$$$$│[0m            [1;31ml$$$[0;31m$/ [0;37m [0;1;30m7[0m
-[34m www.[0;1;34mindymedia[0;34m.org   [0m       [1;31m77`[0m   [34m││││$$$$$$$ÑÑÑ[0m            [1;31ml$$$[0;31m$$:[0m
-[37m [0;1;34mmontreal[0;34m.[0;1;34mindymedia[0;34m.org[0m                               [31m│[0;1;31m$QQQ$[0;31m│[0;1;31m$$[0;31m$$#[0m
-[37m [0;1;34mquebec[0;34m.[0;1;34mindymedia[0;34m.org[0m                           [1;31mÑÑÑÑÑÑ$$$$$$$[0;31m$$$Y[0;37m [0;1;30m  m7maet[0m
+[34m     [0;1;34m         [0;34m       [0m       [1;31m   [0m   [34m││││          [0m            [1;31m    [0;31m   [0m
+[37m [0;1;34m        [0;34m [0;1;34m         [0;34m    [0m                               [31m│[0;1;31m     [0;31m│[0;1;31m  [0;31m   [0m
+[37m [0;1;34m      [0;34m [0;1;34m         [0;34m    [0m                           [1;31m             [0;31m    [0;37m [0;1;30m        [0m
                                                 [1;31mÑÑÑÑÑÑ[0;31m²[0;1;31m╩╩╩[0;31m╩╩╩╩²''[0m'

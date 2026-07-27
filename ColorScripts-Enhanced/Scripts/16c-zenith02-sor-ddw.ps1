@@ -5,7 +5,7 @@
 # Source SHA-256: ac75f818816be8bb2212576e9845ae967ea027112651a011dc49f6da559d02c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-DDW.ANS by spirit of rage (zenith); released in zenith02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: doddle draw front screen
 # SAUCE Author: spirit of rage
 # SAUCE Group: zenith
@@ -38,5 +38,4 @@ Write-Host '
 [1;34;44m▐[0m [31m▐[0;1;31;41m█▌[0;31m▌[0;37m  [0;31m▀▄[0;1;31m▄[0;1;31;41m▄▀▀[0;31m▀[0;37m ▀[0;1;37;47m▀▓[0;1;37;40m█▄   ▄▄▄[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▀▀[0m▀▀[1;47m▀▀[0;1;40m██▄▄  ▄▄[0;1;47m▀░[0m▀[1;31;41m▐▓▌[0;31m░ ▄  [0;1;31m▄[0;1;31;41m▄▀▀[0;31m▀▐[0;1;31;41m▐▓▄[0;31m▄ ▀ ▄▄[0;1;31;41m▄▄▀[0;31m▀ [0;1;31m▄[0;33m▄[0;1;30;43m░▒[0;33m [0;34m▓[0m
 [34m▀▄[0;37m [0;1;31;41m▐[0;1;31;47m▓[0;1;31;41m▄[0;1;30;40m [0;34m▐[0;1;34m▄[0;1;30m [0;31m▀▀[0;1;30m [0;1;34m▄▄[0;1;34;44m▀[0;34m▄[0;1;37m [0m▀▀[1;47m▀▀▀▀▀░[0m▀▀▀[1m [0;1;34m▄▄▄▄[0;1;37m [0m▀▀▀[1;47m▀▀▀[0m▀▀▀[1m [0m [31m▐[0;1;31;41m█[0;1;31;47m▓[0;1;31;40m▌[0;31m  ▀▀▀▀ [0;1;34m▄[0;34m▄[0;31m ▀[0;1;31;41m▀█[0;1;31;47m▓[0;1;31;41m▄[0;1;31;40m▄[0;1;31;41m▄▀[0;1;31;40m▀[0;31m▀ [0;1;31m▄[0;31m [0;1;31m▀[0;33m▀▀[0;31m [0;1;31m▄[0;34m [0;1;34;44m▌[0m
   [34m░░[0;31m▀[0;1;31m▀▒[0m [34m▀[0;1;34;44m▀▀▀▀[0;34m▀▀[0;37m  [0;34m░░ [0m       [1;34m▀[0;1;34;44m▀▀░[0;34m▀▀▀▀▀▀[0;1;30m  [0;34m░░[0;37m [0;34m▀▀[0;1;34;44m▀[0;1;34;40m▄[0;1;30;40m [0;31m▀[0;1;31m▀▒[0;31m [0;1;34m░▓[0;1;34;44m█▀▀░[0;34m▀▀▀[0;31m  ▀▀▀▀ [0;1;34m▄[0;31m ▀[0;1;31;41m▀▀▓▄[0;1;31;40m▄▄[0;1;31;41m▀░[0;31m▌[0;34m▐[0m
-         [34m░░░░[0;37m  [0;1;36m...[0;1;32mdoodle draw[0m [32mversion [0;1;32m1.o[0;1;36m...[0;32m [0;34m▀▀ [0;1;36m   [0;1;34m▀[0;34m▀▀▀░░[0m    [34m░░[0;31m [0;34m ▀▀[0;1;34;44m░▀[0;34m▄▄[0;31m ▀▀▀▀▀ [0;34m░▒[0m
-[37m [0;1;36m...[0;36mcode by[0;1;30m [0;1;37mtung lo[0;1;30m, [0;36mart by[0;1;30m [0;1;37mspirit of rage[0;1;36m [0;1;34mcopyright [0;36m([0;1;36mC[0;36m)[0;1;34m all rights reserved[0;1;36m...[0;1;30m [0m'
+         [34m░░░░[0;37m  [0;1;36m...[0;1;32mdoodle draw[0m [32mversion [0;1;32m1.o[0;1;36m...[0;32m [0;34m▀▀ [0;1;36m   [0;1;34m▀[0;34m▀▀▀░░[0m    [34m░░[0;31m [0;34m ▀▀[0;1;34;44m░▀[0;34m▄▄[0;31m ▀▀▀▀▀ [0;34m░▒[0m'

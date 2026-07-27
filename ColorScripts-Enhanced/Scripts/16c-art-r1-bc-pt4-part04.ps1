@@ -5,7 +5,7 @@
 # Source SHA-256: eb5f48d68fe8443ef06a3547367ad73b089cc4099361e83839dea2fe06af8daf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-PT4.ANS by BEYoND C00l (aRT); released in art-r1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: X-ViLLE PUB
 # SAUCE Author: BEYoND C00l
 # SAUCE Group: aRT
@@ -15,13 +15,13 @@
 # Columns: 1-80
 
 Write-Host '
- [1;30mBeyond wishes to say Hi to the following great specimen of human beings :[0m
+ [1;30m                                                                         [0m
 
-  [1;30mT. : Damn. If I could get a penny for every second I thought about you, I''d[0m
-       [1;30mbe a rich man now. On the other hand, maybe if I WERE a rich man ...:)[0m
+  [1;30m                                                                           [0m
+       [1;30m                                                                      [0m
 
-  [1;30mAll aRT members : Keep it up dudez, we''ll get there ... Wherever that is :)[0m
-[1;30m  Too many damn greetz to put ''em all here ... Kick ass dudez ![0m
+  [1;30m                                                                           [0m
+[1;30m                                                               [0m
 
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [34m▐██▀▀▀▀▀▀▀▀▀█▀▀▀██████▀▀▀▀▀▀▀▀▀█████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██▀▀▀▀▀▀▀▀██▀▀▀▀▀▀▀▀▀▀▀▀▀█▌[0;37m [0m
@@ -33,7 +33,7 @@ Write-Host '
 [34m▐████▄▄▄████▄▄▄▄▄██████████████▄▄▄▄▄██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▌[0;37m [0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 
-[31m                [0m  [31mHuh ? What ? Not so fast, I can''t read it ...[0m
+[31m                [0m  [31m                                             [0m
 
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0m

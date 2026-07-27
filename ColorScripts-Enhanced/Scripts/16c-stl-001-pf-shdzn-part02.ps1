@@ -5,7 +5,7 @@
 # Source SHA-256: 0b82fefcc2cc8e2940a3f2127f7c70e96131657f23c65154e14e81cbad51482e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PF-SHDZN.ANS by Pfezzyo (Stile); released in stl-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shadow Zone
 # SAUCE Author: Pfezzyo
 # SAUCE Group: Stile
@@ -45,14 +45,14 @@ Write-Host '
 
              [1;30m·  · ─ ─ ───[0m──[1m■ [0;1;32mS H A D O W   Z O N E [0;1;37m■──[0;1;30m─── ─ ─ ·  ·[0m
 
-              ≡ [1;32mRUNNiNG ON LATEST AMiEXPRESS [0m≡ [1;32mSYSOP iS [0;1;30mß[0mO[1mOZE[0;1;30mΓ[0;32m! [0;37m≡[0m
-              [37m≡ [0;1;32mo-1 DAYZ PC + CONSOLE WAREZ! [0m≡ [1;32m1.o GIG''Z SPACE! [0m≡
+                [1;32m                             [0m  [1;32m         [0;1;30m [0m [1m   [0;1;30m [0;32m  [0;37m [0m
+              [37m  [0;1;32m                             [0m  [1;32m                 [0m 
 
                           | [1;32mNODE #1  [0;1;30m+4[0m6-[1m8-76514[0;1;30m55 [0m|
-                          | [1;32mNODE #2  [0;1;30m+4[0m6-[1m8-PRiVA[0;1;30mTE [0m|
-                          | [1;32mNODE #3  [0;1;30m+4[0m6-[1m8-COMiN[0;1;30mG! [0m|
+                            [1;32m         [0;1;30m  [0m  [1m       [0;1;30m   [0m 
+                            [1;32m         [0;1;30m  [0m  [1m       [0;1;30m   [0m 
 
-             [[1;32m/╡N[0;1;30mSi [0;1;32mAN[0;1;30mD [0;1;32mFO[0;1;30mNTS [0;1;32mB[0;1;30mY [0;1;32mPF[0;1;30mEZZ[0;32mY[0;1;32mO [0m\ [1;32mST[0;1;30mi[0;32mL[0;1;32mE PR[0;1;30mODUCTIO[0;32mN[0;1;32mS 19[0;1;30m94[0m]
+              [1;32m ╡ [0;1;30m   [0;1;32m  [0;1;30m  [0;1;32m  [0;1;30m    [0;1;32m [0;1;30m  [0;1;32m  [0;1;30m   [0;32m [0;1;32m  [0m  [1;32m  [0;1;30m [0;32m [0;1;32m    [0;1;30m       [0;32m [0;1;32m    [0;1;30m  [0m 
 
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 ████████████████████████████████████████████████████████████████████████████████

@@ -5,7 +5,7 @@
 # Source SHA-256: 10515dac037a2a2795da39c9afa29403d622cbfdec5e37c291848b3b7e842503
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dman-sancho.ans by dman (pcb'n'b7); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sancho
 # SAUCE Author: dman
 # SAUCE Group: pcb'n'b7
@@ -52,8 +52,4 @@ Write-Host '
        [1;32m  █ █[0m               [1;32m▄▀█[0m       [1;32m▀█▀ █[0m         [1;32m█▀▄ █[0m           [1;32m█[0m
        [1;32m  █ █ █▀▄ ▀▀▄ █▄▀   █ █ ▄▀▀    █  █▄  █▀▄   █▄▀ █   ▄▀█ ▄▀▀ █ █[0m
        [1;32m   █  █▀  █▀█ █[0m     [1;32m█ █ █▀[0m     [1;32m█  █ █ █▀    █ █ █ ▄ █ █ █   █▀▄[0m
-       [1;32m   ▀   ▀▀ ▀▀  ▀[0m     [1;32m▀▀  ▀[0m      [1;32m▀  ▀ ▀  ▀▀   ▀▀▀  ▀  ▀▀  ▀▀▀ ▀ ▀[0m
-
-                      [34mansi by dman^placebo^blocktronics[0m
-
-                             [34mkovrov.russia.2015[0m'
+       [1;32m   ▀   ▀▀ ▀▀  ▀[0m     [1;32m▀▀  ▀[0m      [1;32m▀  ▀ ▀  ▀▀   ▀▀▀  ▀  ▀▀  ▀▀▀ ▀ ▀[0m'

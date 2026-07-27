@@ -5,7 +5,7 @@
 # Source SHA-256: 5eacbc6fddf70b9362a3f2a85bef1446f5d5e94da08d774a3d2f48b4515857e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-POEMS.ANS by Dark Horizon (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -45,17 +45,17 @@ Write-Host '
 [1m█[0m██████████████████████████████████████████████████████████████████████████████
 [1m█[0m██[1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37m█[0m██
 [1m█[0m██[1;30m█[0m                                                                        [1;37m█[0m██
-[1m█[0m██[1;30m█[0m                [34mVEN[0;1;34mOM = [0;1;37mANOTHER ONE-HU[0;1;34mNDERE[0;34mD LINER[0m                      [1;37m█[0m██
+[1m█[0m██[1;30m█[0m                [34m   [0;1;34m     [0;1;37m              [0;1;34m     [0;34m       [0m                      [1;37m█[0m██
 [1m█[0m██[1;30m█[0m                [34mPHA[0;1;34mNTOM [0;1;37m= HI[0m                                            [1;37m█[0m██
 [1m█[0m██[1;30m█[0m                [34mLAD[0;1;34mY PHA[0;1;37mNTOM = HI[0m                                       [1;37m█[0m██
 [1m█[0m██[1;30m█[0m                [34mKID [0;1;34mPHAN[0;1;37mTOM = GOO !8^)[0m                                  [1;37m█[0m██
-[1m█[0m██[1;30m█[0m                [34mDRI[0;1;34mZZT = [0;1;37mSO YOU GONNA [0;1;34mMOVE [0;34mIN OR WHAT[0m                   [1;37m█[0m██
-[1m█[0m██[1;30m█[0m                [34mEVE[0;1;34mRBODY [0;1;37mYES YOU = HOP[0;1;34mE YOU [0;34mENJOY MY ANSI[0m               [1;37m█[0m██
+[1m█[0m██[1;30m█[0m                [34m   [0;1;34m      [0;1;37m             [0;1;34m     [0;34m          [0m                   [1;37m█[0m██
+[1m█[0m██[1;30m█[0m                [34m   [0;1;34m      [0;1;37m             [0;1;34m      [0;34m             [0m               [1;37m█[0m██
 [1m█[0m██[1;30m█[0m                                                                        [1;37m█[0m██
-[1m█[0m██[1;30m█[0m       [34mIF [0;1;34mYOU WOU[0;1;37mLD LIKE ME TO MAKE YOU AN ANSI FOR [0;1;34mYOUR [0;34mBBS[0m            [1;37m█[0m██
-[1m█[0m██[1;30m█[0m       [34mCON[0;1;34mTACT ME [0;1;37mTHROUGH THE [0mNETHERWORLDS[1m AND I W[0;1;34mILL TH[0;34mINK[0m             [1;37m█[0m██
-[1m█[0m██[1;30m█[0m       [34mABOU[0;1;34mT IT JUS[0;1;37mT LEAVE YOUR BBS NAME AND NUMB[0;1;34mER AND [0;34mVOICE[0m           [1;37m█[0m██
-[1m█[0m██[1;30m█[0m       [34mNUMBE[0;1;34mR AND IL[0;1;37mL CONTACT YOU IF I WILL MAKE [0;1;34mAN ANS[0;34mI FOR YOU..[0m      [1;37m█[0m██
+[1m█[0m██[1;30m█[0m       [34m   [0;1;34m       [0;1;37m                                   [0;1;34m     [0;34m   [0m            [1;37m█[0m██
+[1m█[0m██[1;30m█[0m       [34m   [0;1;34m        [0;1;37m            [0m            [1m        [0;1;34m      [0;34m   [0m             [1;37m█[0m██
+[1m█[0m██[1;30m█[0m       [34m    [0;1;34m        [0;1;37m                              [0;1;34m       [0;34m     [0m           [1;37m█[0m██
+[1m█[0m██[1;30m█[0m       [34m     [0;1;34m        [0;1;37m                             [0;1;34m      [0;34m           [0m      [1;37m█[0m██
 [1m█[0m██[1;30m█[0m                               [34mDA[0;1;34mRK [0;1;37mHOR[0;1;34miZ[0;34mON[0m                             [1;37m█[0m██
 [1m█[0m██[1;30m█[0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m██
 [1m█[0m██████████████████████████████████████████████████████████████████████████████

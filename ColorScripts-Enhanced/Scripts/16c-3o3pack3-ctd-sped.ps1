@@ -5,7 +5,7 @@
 # Source SHA-256: 4e57dfc17a2b1b24e0001320436a811f3779f4b1963ab9f95aa1bfa5172aa814
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CTD-SPED.ANS by crash test dummy (3o3pack3); released in 3o3pack3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: speed haste
 # SAUCE Author: crash test dummy
 # SAUCE Date: 19970519
@@ -16,7 +16,7 @@
 Write-Host '
 
 
-      [35m  [0;37m [0;33m Crash▐[0;1;33;43mTest[0;33m▌Dummy [3o3][0m
+      [35m  [0;37m [0;33m      ▐[0;1;33;43m    [0;33m▌           [0m
       [35m [0m       [1;33m▄▄▄▄▄▄[0;33m▄[0;1;33m▄▄[0m  [1m ▄▄[0m▄    [33m       [0m
      [35m▓▀▀ [0;37m [0;33m▄[0;1;33;43m▓[0;33m▀[0;1;33m▀[0;33m▀▀▀▀▀▀▀▀▀[0;1;33;43m░▀▀[0m [1m█[0;1;47m▌[0m▌  [35m▀▀█▌[0;37m [0;33m  [0m    [33mr[0;1;33;43meq[0;33muester ░ Protector[0m
      [1;37m▄▄▄▄█▀▀█[0;1;37;47m▌[0m▌  [1m█[0;1;47m▌[0m▌ [33m░░[0m    [1;37m▐█[0m█ [1;33;43m▀[0;1;33;40m▄[0m [35m░█[0;37m  [0;33m [0m    [33m [0m

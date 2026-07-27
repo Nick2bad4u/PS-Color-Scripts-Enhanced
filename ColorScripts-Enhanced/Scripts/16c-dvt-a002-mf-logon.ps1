@@ -5,7 +5,7 @@
 # Source SHA-256: 9ce08b0764c16838453553211d1a979c38640165831884fbbad5c772c886e570
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-LOGON.ANS by Mangafan (dvt-a002); released in dvt-a002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -33,13 +33,13 @@ Write-Host '
 [1;31m▓[0;1;31;44m▌[0;1;34;40m▓▒[0;1;37;40m█▓▓▓▓▓▓[0;1;37;41m▄▄[0;1;31;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;31;41m▀▀[0;31;44m▌[0;1;34;40m▓▒[0;1;31;40m▓▓▓▓▓[0;1;34;40m▒▓▓▓▓▓▒▒▒▓▓▓▓▓▒▒[0;34mLogo[0;37m [0;34mby[0;1;34m░░▒▒▓▓▒▒░░▒▒▓▓▓▓▒▒[0m
 [1;31m▓[0;1;34m▒▓▒[0;1;31m▓[0;1;37;41m▀[0;1;37;40m█▓▓▓▓▓▓▓▓[0;1;37;41m▄▄▄[0;1;31;40m▓▓▓▓▓▓▓[0;1;31;41m▀▀[0;1;31;40m▒▓▓[0;1;34;40m▒▓[0;1;31;44m▐[0;1;31;40m▓▓▓▓▓▓[0;1;31;44m▄[0;1;34;40m▒▓▓▓▓▓▒▒▒▓▓▓▓▒[0;34mMANGAfan[0;1;34m░░▒▒▓▓▒▒░░▒▒▓▓▓▓▓[0m
 
-  [1;36mH[0;1;34mere [0;1;36mi[0;1;34ms [0;1;36ma[0m [1;36mP[0;1;34mCBOARD [0;1;36mM[0;1;34main [0;1;36mL[0;1;34mogon [0;1;36mM[0;1;34matrix[0m [1;36mt[0;1;34mhat [0;1;36mI[0;1;34m [0;1;36md[0;1;34mid [0;1;36mf[0;1;34mor [0;1;36mM[0;1;34mAVERICK [0;1;36ma[0;1;34ms [0;1;36ma[0;1;34m [0;1;36mp[0;1;34mresent.[0m
-  [1;36mB[0;1;34mecause [0;1;36mo[0;1;34mf [0;1;36mt[0;1;34mhis, [0;1;36my[0;1;34mou [0;1;36mm[0;1;34may [0;1;36mN[0;1;34mOT [0;1;36mu[0;1;34mse [0;1;36mt[0;1;34mhis [0;1;36mp[0;1;34micture [0;1;36mu[0;1;34mnless [0;1;36my[0;1;34mou [0;1;36ma[0;1;34msk [0;1;36mp[0;1;34mermission [0;1;36mf[0;1;34mrom[0m
-  [1;36mh[0;1;34mim [0;1;36mp[0;1;34mersonally, [0;1;36ma[0;1;34mnd [0;1;36mu[0;1;34mnless [0;1;36mh[0;1;34me [0;1;36ms[0;1;34mays [0;1;36my[0;1;34mes, [0;1;36my[0;1;34mou [0;1;36mm[0;1;34may [0;1;36mN[0;1;34mOT [0;1;36mu[0;1;34mse [0;1;36mi[0;1;34mt.[0m [1;36mI[0;1;34mf [0;1;36my[0;1;34mou [0;1;36mu[0;1;34mse [0;1;36mi[0;1;34mt[0m
-  [1;36mw[0;1;34mithout [0;1;36mp[0;1;34mermission, [0;1;36mI[0;1;34m [0;1;36mW[0;1;34mILL [0;1;36mg[0;1;34met [0;1;36mh[0;1;34mold [0;1;36mo[0;1;34mf [0;1;36my[0;1;34mour [0;1;36mh[0;1;34mouse [0;1;36ma[0;1;34mdress, [0;1;36ma[0;1;34mnd [0;1;36mI[0;1;34m [0;1;36mW[0;1;34mILL [0;1;36mK[0;1;34mILL [0;1;36mY[0;1;34mOU.[0m
+  [1;36m [0;1;34m    [0;1;36m [0;1;34m  [0;1;36m [0m [1;36m [0;1;34m       [0;1;36m [0;1;34m    [0;1;36m [0;1;34m     [0;1;36m [0;1;34m     [0m [1;36m [0;1;34m    [0;1;36m [0;1;34m [0;1;36m [0;1;34m   [0;1;36m [0;1;34m   [0;1;36m [0;1;34m        [0;1;36m [0;1;34m  [0;1;36m [0;1;34m [0;1;36m [0;1;34m       [0m
+  [1;36m [0;1;34m       [0;1;36m [0;1;34m  [0;1;36m [0;1;34m     [0;1;36m [0;1;34m   [0;1;36m [0;1;34m   [0;1;36m [0;1;34m   [0;1;36m [0;1;34m   [0;1;36m [0;1;34m    [0;1;36m [0;1;34m       [0;1;36m [0;1;34m      [0;1;36m [0;1;34m   [0;1;36m [0;1;34m   [0;1;36m [0;1;34m          [0;1;36m [0;1;34m   [0m
+  [1;36m [0;1;34m   [0;1;36m [0;1;34m           [0;1;36m [0;1;34m   [0;1;36m [0;1;34m      [0;1;36m [0;1;34m  [0;1;36m [0;1;34m    [0;1;36m [0;1;34m    [0;1;36m [0;1;34m   [0;1;36m [0;1;34m   [0;1;36m [0;1;34m   [0;1;36m [0;1;34m   [0;1;36m [0;1;34m  [0m [1;36m [0;1;34m  [0;1;36m [0;1;34m   [0;1;36m [0;1;34m   [0;1;36m [0;1;34m [0m
+  [1;36m [0;1;34m       [0;1;36m [0;1;34m           [0;1;36m [0;1;34m [0;1;36m [0;1;34m    [0;1;36m [0;1;34m   [0;1;36m [0;1;34m    [0;1;36m [0;1;34m  [0;1;36m [0;1;34m    [0;1;36m [0;1;34m     [0;1;36m [0;1;34m       [0;1;36m [0;1;34m   [0;1;36m [0;1;34m [0;1;36m [0;1;34m    [0;1;36m [0;1;34m    [0;1;36m [0;1;34m   [0m
 
                                                         [1;36m/[0;1;34m\/\ /┤ ∩ Ç /┤ ƒ /┤ ∩[0m
-                           [1;36mF[0;1;34mor[0m [1;36mq[0;1;34muestions,[0;34m [0;1;36mc[0;1;34montact...[0m
-                                [1;36mB[0;1;34mBS:[0m [1;36mR[0;1;34mavebase[0m
-                               [1;36mS[0;1;34mysop:[0;1;30m [0;1;36mM[0;1;34maverick[0m
+                           [1;36m [0;1;34m  [0m [1;36m [0;1;34m         [0;34m [0;1;36m [0;1;34m         [0m
+                                [1;36m [0;1;34m   [0m [1;36m [0;1;34m       [0m
+                               [1;36m [0;1;34m     [0;1;30m [0;1;36m [0;1;34m       [0m
                            [1;36mT[0;1;34mel:[0m [1;36m+[0;1;34m41(0)22-348-5521 [0m'

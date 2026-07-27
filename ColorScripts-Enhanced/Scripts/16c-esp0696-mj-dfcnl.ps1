@@ -5,7 +5,7 @@
 # Source SHA-256: b63ec92303d46ecf79389c7085483bea6c5763c6fb03b2b6906b288a133d792b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ-DFCNL.ANS by majiCk (ins^frg^sphere^void); released in esp0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: defcon 1 logoff
 # SAUCE Author: majiCk
 # SAUCE Group: ins^frg^sphere^void
@@ -29,12 +29,11 @@ Write-Host '
 [37m [0;31m▐■▀[0m      [31m ▀[0;37m  [0;31m▐▀[0m        [31m▀[0;37m  [0;31m▓■[0m   [31m▀[0m       [31m▐■▀[0m          [31m▓■▀▀[0m         [31m▓■▀[0m       [31m▀[0m
 
 [37m [0m    [37m   [0;1;31m▄█[0m          [1m┌─[0;1;33m──[0;1;31m──[0;31m──[0m
-[37m [0m    [37m [0;1;31m▄█[0;1;31;41m██[0m          [1;33m│[0m             [1m...[0m [1mg[0;1;33me[0;1;31mwdbye[0;1;37m [0;1;31mph0r[0;1;37m [0;1;31mn[0;31mo[0;1;30mw[0;1;37m [0;1;30m...[0m
-    [1;31m▄█[0;1;31;41m▓▓▓▒[0m          [1;31m│[0m          [1mk[0;1;33ma[0;1;31mwl[0;1;37m [0;1;31mbaq[0;1;37m [0;1;31mwif[0;1;37m [0;1;31mm0re[0;1;37m [0;1;31meleet[0;1;37m [0;1;31mware[0;31mz[0;1;30m![0m
-   [1;31m▀▀[0;1;31;41m▓▓▒▒░[0m          [31m│[0;37m [0m        [1;37mD[0;1;33me[0;1;31mfcon[0m [1;31m1[0m [1;31m-[0;1;37m [0;1;31mWarloc/Flying[0;1;37m [0;1;31mDutchm[0;31ma[0;1;30mn[0m
+[37m [0m    [37m [0;1;31m▄█[0;1;31;41m██[0m          [1;33m│[0m             [1m   [0m [1m [0;1;33m [0;1;31m     [0;1;37m [0;1;31m    [0;1;37m [0;1;31m [0;31m [0;1;30m [0;1;37m [0;1;30m   [0m
+    [1;31m▄█[0;1;31;41m▓▓▓▒[0m          [1;31m│[0m          [1m [0;1;33m [0;1;31m  [0;1;37m [0;1;31m   [0;1;37m [0;1;31m   [0;1;37m [0;1;31m    [0;1;37m [0;1;31m     [0;1;37m [0;1;31m    [0;31m [0;1;30m [0m
+   [1;31m▀▀[0;1;31;41m▓▓▒▒░[0m          [31m│[0;37m [0m        [1;37m [0;1;33m [0;1;31m    [0m [1;31m [0m [1;31m [0;1;37m [0;1;31m             [0;1;37m [0;1;31m      [0;31m [0;1;30m [0m
      [1;31;41m▒▒░░[0;31m▓[0m     [31m [0;37m [0m       [1;33m   [0m            [1m([0;1;33m2[0;1;31m16)[0;1;37m [0;1;31m338-98[0;31m2[0;1;30m7[0m                   [1m│[0m
      [31m▀▀[0;1;33m▄▄▄[0m     [31m [0m                                                        [1;33m│[0m
-     [1;33;41m██▓▓▓[0m                       [1;31m [0m [31mmajick[0;1;31m [[0;31minsomnia[0;1;31m^[0;31mforge[0;1;31m][0m              [1;31m│[0m
+     [1;33;41m██▓▓▓[0m                       [1;31m [0m [31m      [0;1;31m  [0;31m        [0;1;31m [0;31m     [0;1;31m [0m              [1;31m│[0m
      [1;33;41m▓▓▓▒▒[0m                                                       [1m──[0;1;33m──[0;1;31m──[0;31m─┘[0m
-[37m  [0;1;33m▄[0;1;33;41m▒▒▒░░░[0;31m██▓▄[0m
-[31m [0m   [37m [0m'
+[37m  [0;1;33m▄[0;1;33;41m▒▒▒░░░[0;31m██▓▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: dbe22c162bd15aa12214fb153509e4675862d080c60d9e4976dd3f7dde2faac1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MI-TFO!.ANS by MONGi (paradise); released in pds-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the final outpost!
 # SAUCE Author: MONGi
 # SAUCE Group: paradise
@@ -34,5 +34,4 @@ Write-Host '
 [37m  [0;35m▄▀▀▒▓[0;1;35;45m▓[0;35m▄[0;37m [0;1;34;44m▓▒░[0;34m████[0;37m [0;35m▄[0;34m [0;1;34;44m▓▒[0;34m█▄▄▄▄▄[0;1;34;44m▒░[0;34m▄[0;37m [0;35m▀[0;1;35;45m▓▒[0;35m▄[0;37m [0;1;34;44m▓▒[0m   [34m [0;1;34;44m▓▒░[0;34m█[0;37m [0;35m▄[0;37m [0;1;34m▀[0;1;34;44m▓▒░[0;34m█▀[0;37m [0;1;34m▄[0;1;34;44m▓▒[0;34m▄[0;37m [0;1;34m▄[0;1;34;44m▒░[0;34m▓[0m   [1;34;44m▓▒[0m [1;35;45m▓[0;35m█▀▄█▀▄[0m
    [35m▀[0;37m  [0;35m▒▓[0;1;35;45m█[0;35m▄[0;37m [0;1;34m▀▀▀▀[0m [35m▄▄█▄[0;37m [0;1;34m▀▀▀▀▀▀[0m  [1;34m▀▀[0;34m▀[0;37m [0;35m█[0;1;35;45m█▓[0;35m▄[0;37m [0;1;34m▀▀[0m [35m█▄[0;37m [0;1;34m▀▀[0;35m ▄██▄[0;37m [0;1;34m▀▀[0m [35m▄▄[0;1;34m ▀▀▀▀▀▀▀[0m [35m▄█[0;37m [0;1;34m▀▀[0m [1;35;45m█[0;35m▓▒[0m   [35m▄[0m
 [37m [0;35m▀[0m      [35m▒▓▀▀▀▀▀▀▓▀[0;37m [0;35m▀▀▒▓▀▀▀▀▀▓▀▀▓▀▀[0;37m  [0;35m▓▀▀▀▓[0;37m  [0;35m▀▀▒▓▀▀[0;37m [0;35m▀▀▀▀▀▓▀▀▀▀▀▀▓▒▓▀▀▀▀▀▀▀▓▒[0m
-[37m-----------------------------------cut here!------------------------------------[0m
-           [37m                     request by Zero                [0m'
+[37m-----------------------------------cut here!------------------------------------[0m'

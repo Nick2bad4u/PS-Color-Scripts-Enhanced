@@ -5,7 +5,7 @@
 # Source SHA-256: 3d45ba0ef6faa86e526149cf8b21b3d8c78adb856a4b2e54e8c3efec266d351b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUI-BORG.ANS by SuiCyco (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: aqua-bord
 # SAUCE Author: SuiCyco
 # SAUCE Group: haze
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;34ms[0;34muicyco[0;1;34mo[0;34mf[0;1;34mh[0;34maze[0;1;34ms[0;34mays[0;1;34md[0;34mis[0;1;34ma[0;34mnsi[0;1;34mf[0;34mer[0;1;34md[0;34ma[0;1;34mp[0;34mhatest[0;1;34mb[0;34moard[0;1;34ma[0;34mround[0;1;34ma[0;34mqua[0;1;34mi[0;34mts[0;1;34mk[0;34mewl[0;1;34mc[0;34mall[0;1;34mi[0;34mt[0;1;34m2[0;34mda?![0;1;34m6[0;34m19[0;1;34m6[0;34m30[0;1;34m8[0;34m950[0m
+[1;34m [0;34m      [0;1;34m [0;34m [0;1;34m [0;34m   [0;1;34m [0;34m   [0;1;34m [0;34m  [0;1;34m [0;34m   [0;1;34m [0;34m  [0;1;34m [0;34m [0;1;34m [0;34m      [0;1;34m [0;34m    [0;1;34m [0;34m     [0;1;34m [0;34m   [0;1;34m [0;34m  [0;1;34m [0;34m   [0;1;34m [0;34m   [0;1;34m [0;34m [0;1;34m [0;34m    [0;1;34m [0;34m  [0;1;34m [0;34m  [0;1;34m [0;34m   [0m
 [1;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [34m███▓█████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████████████[0;1;34m▀[0m [36m▄▄▄▄▄▄[0;37m  [0;34m▄[0;37m [0;36m▄▄▄▄▄▄▄[0;37m [0;1;34m▀[0;34m█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 45b2cae1bd958fa744a5f5c4854ecfe4c2762ded4504dae1fc3a9c8625b9ed4d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HF_AB.ANS by hellfire (polyester/jive); released in poly9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: auggies basement logo..
 # SAUCE Author: hellfire
 # SAUCE Group: polyester/jive
@@ -30,10 +30,4 @@ Write-Host '
       [32;40m  [0;32;44m▓▓▓▓▓▓[0;32;40m██              ▐███[0;1;32;42m░░[0;32m██    ███████▌              [0;32;44m▓▓[0;32;40m███[0;1;32;42m [0;32m█▓░[0m
       [32m  ▐█▄█████            ▄█████▀▀▀      ▀▀▀[0;1;32;42m░░[0;32m██▄▄            ████[0;1;32;42m░░[0;32m█▌[0m
       [32m░ ░▓██[0;1;32;42m░░[0;32m██▌      ▄▄▄█▀▀           [0m      [32m     ▀▀[0;1;32;42m░[0;32m▄▄▄      ▐███[0;1;32;42m   [0;32m█[0m
-      [32m    ▀▀▀████▄▄▄█▀▀▀▀                [0m    [32m          ▀▀▀▀█▄▄▄[0;1;32;42m░[0;32m███▀▀▀[0m
-[32m                                                                                [0m
-[37m-------(snip this here)----[0m
-[37mwhOA.. this actualyl looks decent! amazing.[0m
-[37mumm hmm.. and its for my own board.. what a shame a hafta use this nice lOGO! ;>[0m
-[37mwOOp.. hmm.. ok.. i think ill shut up and save this now, im tired of type point-[0m
-[37mless garbage about this logo that i drew.. dammit im still doing it.. fuck fuck[0m'
+      [32m    ▀▀▀████▄▄▄█▀▀▀▀                [0m    [32m          ▀▀▀▀█▄▄▄[0;1;32;42m░[0;32m███▀▀▀[0m'

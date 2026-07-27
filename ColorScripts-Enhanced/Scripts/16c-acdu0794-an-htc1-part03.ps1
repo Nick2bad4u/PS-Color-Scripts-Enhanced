@@ -5,7 +5,7 @@
 # Source SHA-256: e2920d9c28d8a5b88647d675481529c5da1bc6f29fc8d347e398c1b49396a801
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-HTC1.ANS by Andrew Nice (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Haunting The Chapel
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -55,13 +55,7 @@ Write-Host '
    [1;30m▄[0;1;30;47m▄[0m▄[1;30;47m▒ [0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀█▄▄▄[1;30;47m░ [0m▄▄▄▄▄▄▀▄▄▄▄▄▄▄▄[47m [0;1;30;47m░[0m▄▄█▀▀█▄▄▄▄▄▄▄▀[1;30m▄[0;1;30;47m▒ [0m▄▄▄▄▄▄▄▄▀▄▄▄[1;30;47m▄[0;1;30;40m▄[0m
       [1;30;40m▀[0;1;30;47m░[0m                    [1;30;47m░[0m               [1;30;47m░[0m                 [1;30;47m░[0m          [1;30;40m▀[0m
 
-                             [1;30;40m.haunting the chapel.[0m
-                     [1;30;40m.it''s back and it''s better than ever.[0m
+                             [1;30;40m                     [0m
+                     [1;30;40m                                     [0m
 
-                                [1;30;40m.7o8.966.5746.[0m
-
-                            [1;30;40m.sysop.angel of death.[0m
-                        [1;30;40m.16800bps.plenty of megs online.[0m
-                    [1;30;40m.bar menu setup like you''ve never seen.[0m
-
-       [1;30;40m.picture from Marvel Comics (tm). .Ansi by A[0;33mn[0;1;33mdrew Ni[0;33mc[0;1;30me <[0;33ma[0;1;33mcI[0;33md[0;1;30m>.[0m'
+                                [1;30;40m.7o8.966.5746.[0m'

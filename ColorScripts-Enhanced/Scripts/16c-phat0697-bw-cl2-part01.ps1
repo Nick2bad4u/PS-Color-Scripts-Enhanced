@@ -5,7 +5,7 @@
 # Source SHA-256: 7a6d070e0a52219cc31ab6b3d5e9dbaffd622513a87dfa2e75ab07d06fbc2f22
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW_CL2.ANS by black weasel (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cluster#2
 # SAUCE Author: black weasel
 # SAUCE Group: Phat Studios '97
@@ -15,12 +15,12 @@
 # Columns: 1-80
 
 Write-Host '
-[1;33mblack[0m [33mweasel[0;37m [0m                [32mlogocluster #2[0m
+[1;33m     [0m [33m      [0;37m [0m                [32m              [0m
 
-[37mokay, second one...[0m
+[37m                   [0m
 
-[36m([0;1;36mfor:[0;36m poti//kaoz) ([0;1;36mtitle:[0;36m thx po)[0m
-[36m([0;1;36mcomment:[0;36m thank you poti for all you''ve done for me and beeing a good friend)[0m
+[36m [0;1;36m    [0;36m              [0;1;36m      [0;36m        [0m
+[36m [0;1;36m        [0;36m                                                                    [0m
 
 [1;30m..ansi by black weasel[0m                 [1m▄▄▄▄▄▄▄▄▄▄▄▌▄▄▄▄▌  [0m
            [1m [0m           [1;33m▄[0m [1m▄▄▄▄▄▄██▌███▌███ [0;1;31m▀[0;1;37m▐██▓██[0;1;37;43m▓[0;1;37;40m▌██░░▌  [0m
@@ -45,8 +45,4 @@ Write-Host '
            [1m████▐██[0;1;43m▓[0;1;40m██▄▄▄█ █████[0;1;43m▄[0;1;40m███ ████ [0;1;31;41m ░░[0;31m▀[0;37m [0;1;37m▄▌█████ ██▓█[0m
            [1m▐░░█▄▐████████▌███▀▀▀▀▀▀▐▀▀▀▀▌[0;31m▐▀[0;1;37m ▄▀▀▄▀▀[0;33mb!w[0;1;37m      [0m
            [1m▐███▀▐▀▀▀▀▀▀                                      [0m
-          [1m ▀[0m
-
-[36m([0;1;36mfor:[0;36m myself//sv) ([0;1;36mtitle:[0;36m logoff)[0m
-[36m([0;1;36mcomment:[0;36m this one''s for my own board, which is offline yet.[0;37m [0;36mi think that[0m
-          [36mthe "L" looks too much like ave''s one in bmpaq12.)      [0m'
+          [1m ▀[0m'

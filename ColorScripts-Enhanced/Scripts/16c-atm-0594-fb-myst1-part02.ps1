@@ -5,7 +5,7 @@
 # Source SHA-256: fd5956ab0dc77c2a93c09bd5c74cc5a018b78a19fbc09e6361745ea42736578b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-MYST1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 25-67
 # Columns: 1-80
 
@@ -36,7 +36,7 @@ Write-Host '
 [1;36m   [0;36m▐███████████▌[0;1;36m│ [0;36m│ [0;1;36m│ [0;36m│[0;1;36m│ [0;36m│ [0;1;36m│ [0;36m│[0;1;36m│ [0;36m└──[0;1;36m─[0;1;37m┐  [0;1;36m│ [0;36m│  [0;1;36m│ [0;36m└─┘ │[0;1;36m│ [0;36m│ [0;1;36m│ [0;36m│[0;1;36m│ [0;36m│[0;1;36m│ [0;36m│   [0;1;36m│ [0;36m│[0m
 [36m  ▄███▀▀  ▀[0;1;36;46m░ ░[0;36m█ [0;1;37m└[0;1;36m─[0;36m┘ [0;1;37m└[0;1;36m─[0;36m┘[0;1;37m└[0;1;36m─[0;36m┘ [0;1;37m└[0;1;36m─[0;36m┘[0;1;37m└[0;1;36m─[0;36m────[0;1;36m┘  [0;1;37m└[0;1;36m─[0;36m┘  [0;1;37m└[0;1;36m─[0;36m────┘[0;1;37m└[0;1;36m─[0;36m┘ [0;1;37m└[0;1;36m─[0;36m┘[0;1;37m└[0;1;36m─[0;36m┘[0;1;37m└[0;1;36m─[0;36m┘   [0;1;37m└[0;1;36m─[0;36m┘[0m
 [36m   ▀▀[0m     [36m▐[0;1;36;46m▒░▒[0;36m▌[0m                  [1;37m1[0;1;33m-[0;1;35m4[0;35m10-795-4[0;1;35m9[0;1;33m8[0;1;37m7[0m
-         [1;36m▄█[0;1;36;46m▓▒▓[0m                 [1;37;40mS[0;1;33;40my[0;1;35;40ms[0;35mOp - Dandel[0;1;35mi[0;1;33mo[0;1;37mn[0m
+         [1;36m▄█[0;1;36;46m▓▒▓[0m                 [1;37;40m [0;1;33;40m [0;1;35;40m [0;35m           [0;1;35m [0;1;33m [0;1;37m [0m
 [1;37m  [0;1;36m▄▄█████████▀[0m                   [1;37mB[0;1;33mR[0;1;35mE [0;35mLeague [0;1;35m8[0;1;33m1[0;1;37m9[0m
 [1;37m [0;1;36m▐██████▀▀▀▀[0m                       [1;37mP[0;1;33ms[0;1;35me[0;35mudo[0;1;35mN[0;1;33me[0;1;37mt[0m
 [1;36m▄███▀[0m                             [1;37mR[0;1;33mu[0;1;35mn[0;35mning T[0;1;35mA[0;1;33mG[0;1;37m![0m

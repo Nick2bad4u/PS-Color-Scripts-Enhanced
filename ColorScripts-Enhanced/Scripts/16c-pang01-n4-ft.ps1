@@ -5,12 +5,12 @@
 # Source SHA-256: 7b921c7f31fb1eb17572cbf2677e537a0fb5ad3024f6b8dd8f61ceffe4cf3c86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N4-FT.ANS by Natureboy (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
 Write-Host '
-                                                   [1;34m  .,▬┬▬[0;34m,.[0m      n4tureboy
+                                                   [1;34m    ▬┬▬[0;34m  [0m               
                                                    [1;34md$$$$$$$[0;34m$$b[0m
 [37m [0;32m____[0;1;32m..,[0;32m▬[0;1;32m [0m    [1;32m__[0;32m__[0m   [1;32m [0;32m__.[0;1;32m.,,[0;32m▬▬[0;1;32m [0;32m__[0;1;32m  [0;32m__[0;1;32m            [0;1;36m [0;1;34m$$[0;36m$$[0;1;34m$$$$$$[0;34m$$$[0;1;36m [0;1;32m       [0m
  [1;32m$$$^^^$$[0;32mY[0;1;32m  [0;32m:[0;1;32m$"``"$[0;32m:[0;1;32m  $$$``$$[0;32ml[0;1;32m:$$  $$[0;32m:[0m       [32m__[0m    [32m____[0;1;32m__[0;1;33m__[0;1;32m___[0;32m_..,▬[0;1;32m   [0;32m____.[0;1;32m.,▬[0m

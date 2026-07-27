@@ -5,7 +5,7 @@
 # Source SHA-256: f247ffb2506bdf99ac662b26e75b1590b2b594f8d6afafb7f56de6c11f4ba3b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-edison2023.ans by warpus (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: EDISON UNDER THE SEA
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -18,7 +18,7 @@
 
 Write-Host '
 [36m▓▓[0;1;36m░░░░░░░░░░░[0;36m▓▓▓▓[0;1;36m░░░░░░░░░░░░░[0;36m▓▓▓▓[0;1;36m░░░░░░░░░░[0;36m▓▓▓▓[0;1;36m░░░░░░░░░░░[0;36m▓▓[0;1;36m░░░░░░░░░[0;36m▓▓[0;1;36m░░░░░░[0;36m▓▓[0m
-[36m██[0;1;37;46mEDISON 2023[0;36m████[0;1;36;46mUNDER THE SEA[0;36m████[0;30;46mJuly 7 - 9[0;36;40m███[0;30;46m Eggeby Gård, Stockholm, Sweden[0;36;40m██[0m
+[36m██[0;1;37;46m           [0;36m████[0;1;36;46m             [0;36m████[0;30;46m          [0;36;40m███[0;30;46m                               [0;36;40m██[0m
 [36;40m████████████████████████████████████████████████████████████████████████████████[0m
 [36;40m████████████████████████████████████████████[0;30;46m [0;36;40m███████████████████████████████████[0m
 [36;40m█████████████▀▀▀▄▄▄▄▄▄▄▀▀▀███████████████████████████████▀▀▀▀▀██████████████████[0m

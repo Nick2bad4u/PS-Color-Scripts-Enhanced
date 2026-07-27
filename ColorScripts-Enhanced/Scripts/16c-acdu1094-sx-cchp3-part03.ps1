@@ -5,7 +5,7 @@
 # Source SHA-256: 8e5ca99e9720bcf27536a880fad8b39865ee64d7e76f6ee0642322c7f8163503
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SX-CCHP3.ANS by Sushi X (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chewy Cheesy House of Phlegm 3
 # SAUCE Author: Sushi X
 # SAUCE Group: ACiD Productions
@@ -53,8 +53,8 @@ Write-Host '
 [1;30m▀▀▀   [0;1;33m▀[0;1;33;47m▓█████[0;1;33;40m▄█  ▀[0;1;33;47m▓█████[0;1;33;40m▄█ [0;1;33;47m▓██[0;1;33;40m▄▄▄▄███ [0;1;33;47m▓██[0;1;33;40m▄ [0;1;30;40m▀ [0;1;33;40m███ [0;1;33;47m▓██[0;1;33;40m▀▄▄▄██▀ [0;1;30;40m▀[0m▄[1;33;47m░[0m██████▄██[1;33;47m░[0m▄ [1;30m▀▀▀▀[0m
 [1;30m▄█▀█▀▀▀▀ [0;1;33m▀▀▀▀▀ [0;1;30m▀▀▀▀ [0;1;33m▀▀▀▀▀ [0;1;30m▀[0;1;33m▀▀▀ [0;1;30m▄▄ [0;1;33m▀▀▀[0;1;30m▀ [0;1;33m▀▀▀▀▀▀▀▀ [0;1;30m▀[0;1;33m▀▀▀[0;1;30m▀ ▄▄▄ ▀▀▀▀[0m▀▀▀ ▀▀▀ ▀▀▀[1;30m▀▀▀▀▀▄[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀ ▀  [0;1;37ms[0mx[1;30m.[0m
-[1;30m2 gigs [0m. [1;30m2 nodes [0m. [1;30m2 28.8 vEverythings [0;1;37m∙ [0;1;30mFaT westHQ [0m. [1;30mOBV/2 ßeta [0;1;37m∙ [0;1;30m619-EAT-snoT[0m
-[1;30mimpact Net [0m. [1;30mcoitus gratis Net [0m. [1;30mshadownet [0;1;37m∙ [0;1;30m619''s BEST humor/warez/toe-jam BBS[0m
-[1;30mS: Grand Wizard of Phlegm <FaT> [0;1;37m∙ [0;1;30mCo''s: Death Pony <FaT> [0m. [1;30mWonder Monkey <acid>[0m
+[1;30m       [0m  [1;30m        [0m  [1;30m                    [0;1;37m  [0;1;30m           [0m  [1;30m           [0;1;37m  [0;1;30m            [0m
+[1;30m           [0m  [1;30m                  [0m  [1;30m          [0;1;37m  [0;1;30m                                  [0m
+[1;30m                                [0;1;37m  [0;1;30m                       [0m  [1;30m                    [0m
 [1;30m▄                                      ▄               ▄    ▄▄  ▄▄▄ ▄▄▄▄▄▄▄[0m▄[1;30m [0;1;37m▄[0m▄[1;30m [0m
 [1;30m                                                                           ▀▀[0m▀[0m'

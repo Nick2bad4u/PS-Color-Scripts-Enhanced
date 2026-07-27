@@ -5,7 +5,7 @@
 # Source SHA-256: 00bc912bd4d11c11ae6fd6607a456189355c13c4f46004991d0a954d6e586cfc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IPH-THEW.ANS by Interphaze (iph-004); released in iph-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -34,6 +34,4 @@ Write-Host '
 
 
 
-[37m-----------------[0m
-
-[37myupyissh... a req. from a crew-member, Rancor....[0m'
+[37m-----------------[0m'

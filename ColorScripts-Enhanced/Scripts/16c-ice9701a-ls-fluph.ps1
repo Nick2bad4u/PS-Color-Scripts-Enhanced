@@ -5,21 +5,21 @@
 # Source SHA-256: cfd04cb3c307f0a4f6aafd7c85845721b1ea7c2925fe800ec74ed72f35de27e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS-FLUPH.ICE by Lord Soth (ice9701a); released in ice9701a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
 Write-Host '
- [1;30m [0m▄   [1;30m [0m▄▄[1;30m▄▄▄[0m     ▄▄[1;30m▄▄▄[0m    [1mH[0;1;30mey there, this is da sloth of the rainforest canopy[0m
- [1;47m▀[0;1;30;40m ▓[0m ▄[1m▀[0m     [1;30m▀▄[0m ▄[1m▀[0m     [1;30m▀▄[0m  [1;30mgetting[0m [1;30mback to grassroots this month... even though[0m
- [1;30;47m▒[0m [1;30m▒[0m [1;30;47m░[0m [1;30m ░[0m    [1;30m▓[0m [1;30;47m░[0m [1;30m ▒[0m▄   [1;30m▓[0m  [1;30mI''ve been far surpassed in drawing skill, I just had[0m
- [1;30m▀ ░[0m [1;30;47m▓[0m [1;30m ▓[0m    [1;30m▒[0m [1;30;47m▓[0m [1;30m░[0;1;30;47m▒[0;1;30;40m░[0m   [1;30m▒[0m  [1;30mto whip out the old ansi editor to try again at this[0m
- [1;30m [0m▄[1;30m [0m [1;30m█ ░[0;1;30;47m█[0m    [1;30m░[0m [1;30;47m█[0m [1;30m░[0m     [1;30m░[0m  [1;30mwhole ansi thing again :).  You all might be getting[0m
- [1;30;47m▒[0m [1;30m▓[0m [1;30m█[0m [1;30m▒[0;1;30;47m▓[0m    [1;30m [0m [1;30m█[0m [1;30m▒[0m     [1;30m [0m  [1;30msome full-lengths from the only guy in the scene who[0m
- [1;30;47m▓[0m [1;30m▒ █ ▓[0m▀[1;30m▀▀   [0m [1;30m█[0m [1;30m▓▀▀▀   [0m  [1;30mtypes paragraphs that auto-justify as they[0m [1;30mare typed[0m
+ [1;30m [0m▄   [1;30m [0m▄▄[1;30m▄▄▄[0m     ▄▄[1;30m▄▄▄[0m    [1m [0;1;30m                                                   [0m
+ [1;47m▀[0;1;30;40m ▓[0m ▄[1m▀[0m     [1;30m▀▄[0m ▄[1m▀[0m     [1;30m▀▄[0m  [1;30m       [0m [1;30m                                            [0m
+ [1;30;47m▒[0m [1;30m▒[0m [1;30;47m░[0m [1;30m ░[0m    [1;30m▓[0m [1;30;47m░[0m [1;30m ▒[0m▄   [1;30m▓[0m  [1;30m                                                    [0m
+ [1;30m▀ ░[0m [1;30;47m▓[0m [1;30m ▓[0m    [1;30m▒[0m [1;30;47m▓[0m [1;30m░[0;1;30;47m▒[0;1;30;40m░[0m   [1;30m▒[0m  [1;30m                                                    [0m
+ [1;30m [0m▄[1;30m [0m [1;30m█ ░[0;1;30;47m█[0m    [1;30m░[0m [1;30;47m█[0m [1;30m░[0m     [1;30m░[0m  [1;30m                                                    [0m
+ [1;30;47m▒[0m [1;30m▓[0m [1;30m█[0m [1;30m▒[0;1;30;47m▓[0m    [1;30m [0m [1;30m█[0m [1;30m▒[0m     [1;30m [0m  [1;30m                                                    [0m
+ [1;30;47m▓[0m [1;30m▒ █ ▓[0m▀[1;30m▀▀   [0m [1;30m█[0m [1;30m▓▀▀▀   [0m  [1;30m                                          [0m [1;30m         [0m
  [1;30m█[0m [1;30m░[0m [1;30m▓ █[0;1;30;47m░[0m▀▀[1;30m▀▀▓[0m [1;30m▓[0m [1;30m█[0;1;30;47m▓[0m▀[1;30m▀▀▀▓[0m
- [1;30m▓  [0m [1;30m▒[0m [1;30m▓[0;1;30;47m▓[0m    [1;30m▒[0m [1;30m▒[0m [1;30m▒█[0m    [1;30m▒[0m  [1;30mcheck out http://www.2rad.net/~slothy and[0m
- [1;30m░  [0m  [1;30m ▄▄▄  ░[0m   [1;30m  ▄▄  ░[0m             [1;30mhttp://www.2rad.net/~slothy/pfunk[0m
+ [1;30m▓  [0m [1;30m▒[0m [1;30m▓[0;1;30;47m▓[0m    [1;30m▒[0m [1;30m▒[0m [1;30m▒█[0m    [1;30m▒[0m  [1;30m                                         [0m
+ [1;30m░  [0m  [1;30m ▄▄▄  ░[0m   [1;30m  ▄▄  ░[0m             [1;30m                                 [0m
 
 ▀[1;30m▀[0m [1;30m▀[0m▀[1;30m▀[0m ▀  ▀[1;30m▀[0m [1;30m▀[0m▀ [1;30m▀[0m ▀  [1;30m▀[0m  ▀[1;30m▀[0m [1;30m▀[0m [1;30m▀[0m ▀[1;30m▀[0m ▀[1;30m▀[0m▀ [1;30m▀▀[0m▀[1;30m▀[0m [1;30m▀[0m▀ ▀[1;30m▀▀[0m [1;30m▀[0m▀[1;30m▀▀[0m ▀ [1;30m▀[0m▀[1;30m▀[0m▀ [1;30m▀[0m ▀ [1;30m▀▀▀[0m ▀ [1;30m▀[0m▀[1;30m▀▀[0;1;37m [0;1;30m▀[0m▀
 [1;30m ▄▄▄▄▄████████████████████████████████▀▀▀▀███████████████████████████████[0;1;30;47m▄▄▄▄▄[0;1;37;47m▀[0m
@@ -46,4 +46,4 @@ Write-Host '
 [1;30;47m░[0;1;30;40m█████████████▄ [0;31m▀▀▀[0;37m [0;1;30m▄▒[0m [31m▀[0;1;31;41m░[0;31m██▀▀[0;37m [0;1;30m▄██▄▄[0m    [1;30m▄████▄▄[0m   [1;30m▄▄▄████████▄▄▄███████████████░ [0m
 [1;30;47m [0;1;30;40m████████████████▄▄███▓▄░[0m [1;30m ▄▄█████████████████████████████████████████████████  [0m
 [1;37;47m▄[0;1;30;47m▀▀▀▀[0;1;30;40m████████████████████████████████████████████████████████████████████▀▀▀▀▀  [0m
-[1;30;40mfluph[0m             [30mHuggeldy buggeldy boo!  I love you![0m          [1;30mLS (hH┼O7S) [0;31mi[0;1;37mC[0;1;34mE[0m'
+[1;30;40m     [0m             [30m                                   [0m          [1;30m      ┼     [0;31m [0;1;37m [0;1;34m [0m'

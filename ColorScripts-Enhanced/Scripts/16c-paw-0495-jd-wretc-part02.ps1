@@ -5,7 +5,7 @@
 # Source SHA-256: 66fe8e9a705d0883141b6ab46c34e65b25d96b169cbdd14811cbd15c7566a5c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JD-WRETC.ANS by Jedi (Paw); released in paw-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wretch
 # SAUCE Author: Jedi
 # SAUCE Group: Paw
@@ -58,10 +58,4 @@ Write-Host '
 [34;40m█[0;36;44m░[0;34;40m█[0m             [34;40m█[0;36;44m░[0;34;40m█[0m         [34;40m█[0;36;44m░[0;34;40m█[0m               [34;40m█[0;36;44m░[0;34;40m█[0m                  [34;40m█[0;36;44m░[0;34;40m█[0m
 [34m██[0m              [34m██[0m          [34m██[0m                 [34m██    [0;1;30mJEDi·<PAW>·   [0;34m██[0m
 [34m█[0m               [34m█[0m           [34m█[0m                   [34m█[0m                  [34m█[0m
-                              [1;37m· [0m·[1;30m·w[0;31m·[0;1;30mr[0;31m·[0;1;30me[0;31m·[0;1;30mt[0;31m·[0;1;30mc[0;31m·[0;1;30mh[0;31m·[0;37m· [0;1;37m·[0m
-                                [1;31mO[0;31mp : imag[0;1;31me[0m
-                                  [1;31ma[0;31mffils[0;1;31m:[0m
-                                [1;31mpa[0;31mw dist[0;1;31mro[0m
-                              [1;31m[7O[0;31m2]·XXX·[0;1;31mX[0;31mX[0;1;31mXX[0m
-
-[1;37m [0m'
+                              [1;37m· [0m·[1;30m·w[0;31m·[0;1;30mr[0;31m·[0;1;30me[0;31m·[0;1;30mt[0;31m·[0;1;30mc[0;31m·[0;1;30mh[0;31m·[0;37m· [0;1;37m·[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3e703155f0fb46f4a924e833c69c0c858586d3d39ff6521a8431420cb657780f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: gdr-firs.ans by Gravedancer (mimic65); released in mimic65 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -46,6 +46,4 @@ Write-Host '
 [36m''''``   [0;1;35m.,a[0;35m&8F''[0;1;35m ,d888[0;35m8[0;1;35m8[0;35m88&&a,[0;1;31m`''7Q8[0;33m8888$$$$$&&88888i[0;35m~7$88&&&[0;1;35maa&&88[0;35m8888888[0;1;35m8[0;35m8[0;1;35m8[0;35m888[0;1;35m88_[0m
 [36m     [0;1;35m,d8[0;35m888;[0;33m  [0;1;35m;888888[0;35m8888888&a,.[0;1;31m`''7Q8[0;33m8888$$$$$$$$;[0;35m ;$$$888[0;1;35m8888[0;35m8888$$$$888888888[0;1;35m8[0m
 [1;37m     [0;35m;;[0;1;37m   [0;35m~~~~[0;1;37m [0;35m````[0;1;37m   [0;35m`````[0;1;37m    [0;35m;;[0;33m     ```''''''```   [0;1;37m     [0;35m  ```     `````[0m
-[37m---[0m
-[37mwheee... I''m drawing again.                     [0m
-                 [37m [0m'
+[37m---[0m'

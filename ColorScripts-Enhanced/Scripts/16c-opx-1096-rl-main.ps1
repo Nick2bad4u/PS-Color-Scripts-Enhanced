@@ -5,7 +5,7 @@
 # Source SHA-256: aad695f1789976d8a541a25eec103c77d1ce0a3eca5bd80c60a3366fb01b9a6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL!-MAIN.ANS by rawlock (rl!) (opx); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lethal Minds Main Menu
 # SAUCE Author: rawlock (rl!)
 # SAUCE Group: opx
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[32m [0;1;31mle[0;31mthal minds[0;1;30m [0m- [1;30m4 nodes of░bo[0;1;30;47mo[0;1;30;40msting[0m░[1;30mpower [0m-[1;30m operated by ░g-child, running pcb.![0m
+[32m [0;1;31m  [0;31m          [0;1;30m [0m  [1;30m          ░  [0;1;30;47m [0;1;30;40m     [0m░[1;30m      [0m [1;30m             ░                      [0m
  [1m▄▄ [0m▄[1m▄▄▄▄[0;1;30mrl![0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m ▄[1m▄▄▄▄▄▄[0m ▄[1m▄[0m▄▄▄▄▄▄▄▄▄[1m▄▄▄▄▄[0m ▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m ▄[1m▄▄▄▄▄[0m▄[1m    [0m
  ▀▀▀▀▀▀▓[1;47m▓[0;1;40m█[0m▄[1;47m▄░▀▀[0m▓▀▀▀▀▀▀▀▀[1;47m░[0m▓▀▀▀▀▀▀▀▓[1;47m▀▓▀░[0m▓ [34m▄[0;1;34m▄▄▄▄[0m ▀▀▀▀▓[1;47m▀█▓ [0m▀▀▀▀▀▀▀▀▓▓▀▀▀▀▀▀▀█[1;47m░█▓[0;1;40m█[0;1;47m▄[0m▄
  [34m█[0;1;34m██[0;1;34;44m██[0m ▀▀▀▀▓▀▀ [34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;40m█▀▀[0;1;34;44m▀[0;1;34;40m█▄▄[0m  [1;34;44m ▓[0;1;34;40m███▄▄▄▄▄[0;34m▄ [0;37m [0;34m█[0;1;34;46m█[0;1;34;44m▓▀▓[0;1;34;40m▀▀[0;1;34;44m▀[0;1;34;40m█▄[0;34m▄[0;37m ▀▓▀[0;1;30m [0;1;34m▀▀▀▀[0;1;34;44m▀▓[0;1;34;40m▄▄[0m  [1;34;44m [0;1;34;40m████[0m ▀▀▀▀▓[1;47m▀░[0m
@@ -26,13 +26,13 @@ Write-Host '
 [1;30m [0;34m▀▀▀▀▀▀▀▀▀[0;1;31m [0;1;30m▄▄[0;1;34m [0;34m▀▀▀▀▀▀▀▀[0;1;30m ▓[0;1;30;47m▓▀[0;1;30;40m▓▄▄[0;1;31;40m [0;34m▀▀▀▀▀▀[0;1;36m [0;1;30m▄▄[0;1;34m [0;34m▀▀▀▀▀  ▀▀▀▀▀[0;37m [0;1;30m▄▄[0;36m [0;34m▀▀▀▀▀▀[0;1;31m [0;34m▀▀[0;1;34m [0;1;30m▄▄[0;1;31m [0;34m▀▀▀▀▀▀[0;1;31m [0;1;30m▄▄▓[0m
  [1;30m█[0;1;30;47m▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0;1;30;40m▀[0;1;30;47m▄▓▀▀▀▀▓▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▓█[0m
 [1;30m █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓ [0;1;34m  [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ [0m
- [1;30m▓[0m  [31m([0;36mU[0;31m)[0;1;30m...[0mUpload file''s     [31m([0;36mS[0;31m)[0;1;30m...[0mUser Status   [1;30m░[0m      [31m([0;36mUSER[0;31m)[0;1;30m...[0mList Users    [1;30m▓[0m
- [1;30m▒[0m  [31m([0;36mD[0;31m)[0;1;30m...[0mDownload file''s   [31m([0;36mV[0;31m)[0;1;30m...[0mView a File          [31m([0;36mULBY[0;31m)[0;1;30m...[0mEdit Sentby   [1;30m▒[0m
- [1;30m░[0m  [31m([0;36mO[0;31m)[0;1;30m...[0mOperate sysop     [31m([0;36mG[0;31m)[0;1;30m.░.[0mGoodbye! (Logoff)    [31m([0;36mSIGN[0;31m)[0;1;30m...[0mAuto░Sign.    [1;30m░[0m
-    [31m([0;36mC[0;31m)[0;1;30m.░.[0mComment to sysop  [31m([0;36mR[0;31m)[0;1;30m...[0mRead Message(s)   [1;30m░[0m  [31m([0;36mOPEN[0;31m)[0;1;30m...[0mAll Doors
-[1;30m ░ [0m [31m([0;36mF[0;31m)[0;1;30m...[0mFilescan        [1;30m░[0m [31m([0;36mX[0;31m)[0;1;30m...[0mExpert Mode Toggle   [31m([0;36mWALL[0;31m)[0;1;30m...[0mOneliner [1;30m░[0m    [1;30m░[0m
-[1;30m ▒ [0m [31m([0;36mJ[0;31m)[0;1;30m...[0mJoin░conference   [31m([0;36mW[0;31m)[0;1;30m...[0mChange░User Settings [31m([0;36mHATE[0;31m)[0;1;30m.░.[0mHate Users    [1;30m▒[0m
-[1;30m ▓ [0m [31m([0;36mZ[0;31m)[0;1;30m...[0mZippy search      [31m([0;36m?[0;31m)[0;1;30m...[0mThis Lamer Menu      [31m([0;36mFR[0;31m)[0;1;30m.....[0mFile Reverse[1;30m  ▓[0m
+ [1;30m▓[0m  [31m [0;36m [0;31m [0;1;30m   [0m                  [31m [0;36m [0;31m [0;1;30m   [0m              [1;30m░[0m      [31m [0;36m    [0;31m [0;1;30m   [0m              [1;30m▓[0m
+ [1;30m▒[0m  [31m [0;36m [0;31m [0;1;30m   [0m                  [31m [0;36m [0;31m [0;1;30m   [0m                     [31m [0;36m    [0;31m [0;1;30m   [0m              [1;30m▒[0m
+ [1;30m░[0m  [31m [0;36m [0;31m [0;1;30m   [0m                  [31m [0;36m [0;31m [0;1;30m ░ [0m                     [31m [0;36m    [0;31m [0;1;30m   [0m    ░         [1;30m░[0m
+    [31m [0;36m [0;31m [0;1;30m ░ [0m                  [31m [0;36m [0;31m [0;1;30m   [0m                  [1;30m░[0m  [31m [0;36m    [0;31m [0;1;30m   [0m         
+[1;30m ░ [0m [31m [0;36m [0;31m [0;1;30m   [0m                [1;30m░[0m [31m [0;36m [0;31m [0;1;30m   [0m                     [31m [0;36m    [0;31m [0;1;30m   [0m         [1;30m░[0m    [1;30m░[0m
+[1;30m ▒ [0m [31m [0;36m [0;31m [0;1;30m   [0m    ░             [31m [0;36m [0;31m [0;1;30m   [0m      ░              [31m [0;36m    [0;31m [0;1;30m ░ [0m              [1;30m▒[0m
+[1;30m ▓ [0m [31m [0;36m [0;31m [0;1;30m   [0m                  [31m [0;36m [0;31m [0;1;30m   [0m                     [31m [0;36m  [0;31m [0;1;30m     [0m            [1;30m  ▓[0m
 [1;30m █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-[1;30m [0;1;30;47m█[0m▓[1;30;47m [0;30;47mlethal[0;1;33;47m^[0;30;47mminds [0;37;40m▓[0;1;30;40m█[0m▓█[34;47mOpium member bOard[0;1;34;47m [0m▓[1;30m█[0;1;34;47m [0;30;47mansi[0;1;37;47m [0;30;47mby: [0;34;47mrawlock[0;1;37;47m [0;30;47m/[0;1;37;47m [0;34;47mopx[0;1;37;47m [0;30;47m1996[0;37;40m██[0;30;47m([0;1;33;47mC[0;30;47m)[0;31;47m![0;37;40m██[0;1;30;40m█[0m
+[1;30m [0;1;30;47m█[0m▓[1;30;47m [0;30;47m      [0;1;33;47m [0;30;47m      [0;37;40m▓[0;1;30;40m█[0m▓█[34;47m                  [0;1;34;47m [0m▓[1;30m█[0;1;34;47m [0;30;47m    [0;1;37;47m [0;30;47m    [0;34;47m       [0;1;37;47m [0;30;47m [0;1;37;47m [0;34;47m   [0;1;37;47m [0;30;47m    [0;37;40m██[0;30;47m [0;1;33;47m [0;30;47m [0;31;47m [0;37;40m██[0;1;30;40m█[0m
  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

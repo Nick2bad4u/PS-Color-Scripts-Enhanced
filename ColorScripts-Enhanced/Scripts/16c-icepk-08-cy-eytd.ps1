@@ -5,7 +5,7 @@
 # Source SHA-256: eb5ae8cbe4f7346ec82e5abb84132e899e85ce3dcadb64d045e1756ae3a1c629
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CY-EYTD.ICE by Cyclonus (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -49,5 +49,5 @@ Write-Host '
       [1;34m▄[0;1;34;44m▀[0;1;34;40m▄[0;1;34;44m▀[0;34m███████ [0;32m██[0;1;32;42m░▒[0m██[1m▀▄▀▄▀█[0m█▄ [34m██[0;34;44m   [0;34;40m█████▄▀██████ [0;34;44m     [0;34;40m▀ ███[0;1;34;40m▄[0;1;34;44m▀[0;34m████   [0;1;30mCYCLONUS[0m
      [1;34m▀[0;34m████████████▄[0;32m▀█[0;1;32m▀[0;1;32;42m▓[0m████████  [1;34m▀[0;1;34;44m▄  [0;34m▀ ▀██▀ ██▀[0;1;34;44m▄[0;34m██▌▐[0;34;44m   [0;34;40m▀  ██[0;1;34;44m▄▀[0;34m█████    [0;1;30m[[0;1;37mi[0;1;36mC[0;1;34mE[0;1;30m][0;35mC[0;1;35mi[0;35mA[0m
 [34m┌─────────────────────────────────────── [0;1;34m▄[0;1;34;44m▀[0;1;34;40m▄▄▄[0;1;34;44m▀[0;34m███▌──────── [0;1;34m▀[0;1;34;44m▄[0;34m███▀ ────────────┐[0m
-[34m│ [0;37mE[0;1;37myes [0mO[1mf [0mT[1mhe [0mD[1mragon · [0mR[1mat [0mP[1mack [0mN[1morthern[0;1;34m▀[0;34m████████▀[0;37mH[0;1;37mQ · [0m1 G[1mig [0mO[1mnline · [0m1[1m4.4k [0mD[1mS [0;34m│[0m
-[34m  [0;37m9[0;1;37m600+ [0mO[1mnly · [0m([1m207)[0m2[1m84-[0m0[1m932 · [0mN[1mUP: [0mE[1magle ·[0;34m▀▀▀▀▀[0;37mS[0;1;37mys: [0mC[1mrusher-[0mF[1mLT [0mM[1member/[0mC[1moord.[0m'
+[34m│ [0;37m [0;1;37m    [0m [1m  [0m [1m   [0m [1m        [0m [1m   [0m [1m    [0m [1m       [0;1;34m▀[0;34m████████▀[0;37m [0;1;37m    [0m   [1m   [0m [1m        [0m [1m     [0m [1m  [0;34m│[0m
+[34m  [0;37m [0;1;37m     [0m [1m      [0m [1m    [0m [1m   [0m [1m      [0m [1m    [0m [1m      [0;34m▀▀▀▀▀[0;37m [0;1;37m    [0m [1m       [0m [1m   [0m [1m      [0m [1m     [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4e7710740b39d139e51c5055b990928542067ae13992b34f6ff0e5090d53a90f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-FUTUR.ANS by Rimgale (LUCiD); released in lcd-a001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FutureReality
 # SAUCE Author: Rimgale
 # SAUCE Group: LUCiD
@@ -52,5 +52,4 @@ Write-Host '
                   [1;35;40m▄▄▄[0;1;35;45m▓▓▒▒░░[0;35m█▄▀[0m         [1;35;45m▒░[0;35m█[0;1;35;45m░[0;35m█████▀▀  [0;1;35m▄ [0;1;31;43m░▒▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m████████▄▄▄███████[0;1;31;43m▓░[0m
                [1;35;40m▄[0;1;35;45m▓▓▒▓▒▒▒░▒░[0;35m██[0;1;35;45m░[0;35m█▄  ▄▌  ▄[0;1;35;45m░░[0;35m█▀▀▀    ▄▄█[0;1;35;45m░▒▓[0;1;35;40m▄[0;1;31;40m▀████████████████████[0;1;31;43m▓▒░[0m
               [1;35;40m▐[0;1;35;45m▓▓▒▓▒▒░▒░░[0;35m█[0;1;35;45m░░[0;35m██[0;1;35;45m░[0;35m█████▄▄▄▄▄▄▄▄████[0;1;35;45m░[0;35m█[0;1;35;45m░[0;35m█[0;1;35;45m░▒▓[0;1;35;40m▌[0;1;31;40m▐[0;1;31;43m▓[0;1;31;40m██████████████████[0;1;31;43m▓▒░[0m
-[1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30;40m[rimgale][0m'
+[1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

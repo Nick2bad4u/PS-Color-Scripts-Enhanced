@@ -5,7 +5,7 @@
 # Source SHA-256: 8454f9b661f39a917462608bc48554a31f6dc20646ab91a0de8560ef32eff34c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-UC6.ANS by soul trader (dox); released in dox_07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: urban chaos! its a kaos!
 # SAUCE Author: soul trader
 # SAUCE Group: dox
@@ -16,11 +16,11 @@
 
 Write-Host '
 
-    [1;33murban chaos logo!.[0;1;36m [0mi guess i could have done more with this..
-  added a background or fixed up a few nasty spots.. but i like it
-  like this.. .. it keeps people thinking.. ''you know, dox could have
-  been such a nice group if they got more skill and such.. and they finished
-  their logos.. etc.. .. '' well, nothing personal.. but fuck you!
+    [1;33m                  [0;1;36m [0m                                          
+                                                                  
+                                                                     
+                                                                            
+                                                                 
 
 
 
@@ -57,5 +57,4 @@ Write-Host '
                         [36m░[0;30;46m▓[0;36;40m█[0;1;36;46m   ███▄▄[0;36m▄[0;1;34m [0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;33m [0;36m▄[0;37m [0;30;46m░[0;36;40m▓███████[0;30;46m░[0;36;40m▓[0m
                           [36;40m░░░[0;30;46m▓[0;36;40m██[0;1;36;46m▀▀▀▀[0;36m█[0;1;36;46m▀[0;36m████[0;1;36;46m████████▄▄▄▌ ▄▄▄[0;36m███████[0m
                               [36m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m██████████████[0;30;46m░[0;36;40m▓░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m
-[37;40m [0;1;33;40murban chaos  [0;1;36;40m+1(703)256-7893[0m           [36m░[0;30;46m▓[0;36;40m░░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m    [1;33;40m+o soul trader.[0m
-                             [1;32m  [0m'
+[37;40m [0;1;33;40murban chaos  [0;1;36;40m+1(703)256-7893[0m           [36m░[0;30;46m▓[0;36;40m░░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m    [1;33;40m+o soul trader.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: abb1019e03c6d1bb59d68dd4bdd9d7bd83fd820d5ec8e626f1812c472185eeb1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FED-BETA.ANS by Firehead (Hieroglyphics); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Beta Max
 # SAUCE Author: Firehead
 # SAUCE Group: Hieroglyphics
@@ -17,7 +17,7 @@
 Write-Host '
 
 
-                        [1;30mYour rebellion... is well confined![0m
+                        [1;30m                                   [0m
 
 
 [34m█████[0;37m   [0;31m▄▄▄▄▄[0;37m   [0;34m██[0;1;34;44m▄[0;44m▄▄[0;1;34;44m▄[0;34m██▀[0;37m  [0;31m [0;1;30m▄ [0;41m▀[0;1;30;41m▀[0;31m▄███[0;1;31;41m▄▄▄[0;31m█[0;37m   ▀[0;1;34m▀[0;34m▀▀▀▀[0;37m  [0;31m░░░░[0;37m [0;31m▀▀▀▀███▄▄▄[0m    [34m▀█████████[0m
@@ -42,6 +42,4 @@ Write-Host '
 [33m█[0;1;33;43m█▌[0;33m▌▐[0;1;33;43m▐██ [0;33m░░░░[0;1;33;43m █▓[0;33m█ █████[0;37m [0;1;37m▐▌[0m [33m▀██▀[0m    [33m██[0m    [33m█[0;37m   [0;33m▄▄███[0m    [33m▄█▀   ▀█▄[0m    [33m▄▄[0;1;33;43m▄▄█████▓▒░[0;33m█[0m
 [33m▐[0;1;33;43m▐█▄[0;33m▄▀[0;1;33m▀[0;1;33;43m█ [0;33m▒▒▒[0;30;43m▒[0;1;33;43m ▀▀ [0;33m █████▄[0;37m [0;1;37m▀▄[0m       [33m▄[0;1;33;43m▄ [0m    [33m█[0;37m [0;33m▄█████▌[0;37m   [0;33m▐█▌[0m      [33m█▌[0;37m [0;33m▄[0;1;33;43m▄██████████▓▌[0;33m▌[0m
 [37m [0;33m▀[0;1;33;43m▀[0;1;33;47m▄[0;1;33;43m█▄▄▄      [0;33m▄▄▄▄███████▄▄[0;37m [0;1;37m  [0m [33m▄▄[0;1;37;43m▄[0;1;33;43m▀[0;33m▀[0m     [33m█▐██████[0;30;43m▒▒▒▒[0;33;40m▄██▄[0m     [33;40m█▌▐[0;1;33;43m▐███[0;1;37;43m████[0;1;33;43m███[0;1;33;40m█[0;1;33;43m▀[0;33m▀[0m
-    [33m▀[0;1;33m▀▀[0;1;33;43m▀  ░▓██  [0;33m███████████[0;1;33;43m▄▄  ▀[0;33m▀▀[0m       [1;33;43m [0;33m████████████████▄▄  ▀█▄▀[0;1;33;43m▀████[0;1;33;40m█[0;1;33;43m▀[0;1;33;40m▀▀[0;33m▀[0m
-
-               [37mFirehead[0m         [1;32mB E T A  M A X [0m         Hiero[0m'
+    [33m▀[0;1;33m▀▀[0;1;33;43m▀  ░▓██  [0;33m███████████[0;1;33;43m▄▄  ▀[0;33m▀▀[0m       [1;33;43m [0;33m████████████████▄▄  ▀█▄▀[0;1;33;43m▀████[0;1;33;40m█[0;1;33;43m▀[0;1;33;40m▀▀[0;33m▀[0m'

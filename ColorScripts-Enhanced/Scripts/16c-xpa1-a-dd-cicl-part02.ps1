@@ -5,7 +5,7 @@
 # Source SHA-256: 5374a4074a57bfe7cff06b6a1b31d8db118eb4978fe1413ec30e3d3db5679ec5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD!-CICL.ANS by DiAMOND dARRELL (iNNUENDO); released in xpa1-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: DiAMOND dARRELL
 # SAUCE Group: iNNUENDO
 # SAUCE Date: 19950926
@@ -36,7 +36,4 @@ Write-Host '
 [31m█████[0;37m▐███▐███▐███[0;31m▐[0;37m▐████▐██[0;1;30;47m [0;31m [0;37m▀█████▄[0;31m▐[0;37m▐████▐███[0;31m▐[0;37m▐███[0;31m▐████[0;37m▐███[0;31m▀[0;37m▄▄█▀[0;31m▐█[0;37m▐███▄[0;1;30m▄█[0;31m▐██████[0m
 [31m█████[0;37m▐██[0;1;30;47m░[0m▐██[1;30;47m░[0m▐██[1;30;47m░[0;31m▐[0;37m▐██[0;1;30;47m░[0;31m▐[0;37m▐█[0;1;30;47m ░[0;31m▐▀▄▄▌[0;37m██[0;1;30;47m░[0m▌▐██[1;30;47m░[0;31m▐[0;37m▐██[0;1;30;47m░[0;31m▐[0;37m▐██[0;1;30;47m░[0;31m▐████[0;37m▐██[0;1;30;47m░[0;31m▐[0;37m▐██[0;1;30;47m░[0;31m▐█[0;37m▐██[0;1;30;47m░[0;31m ▄▄███████[0m
 [31m█████▌[0;37m█[0;1;30;47m░▒[0m █[1;30;47m░▒[0m █[1;30;47m░▒[0;31m▐▌[0;37m█[0;1;30;47m░▒[0;31m▐▌[0;37m█[0;1;30;47m░▒[0;31m [0;37m█[0;31m▀▀▀[0;37m▐[0;1;30;47m░▒[0;1;30;40m▌[0;31m▌[0;37m█[0;1;30;47m░▒[0;31m▐▌[0;37m█[0;1;30;47m░▒[0;31m▐▌[0;37m█[0;1;30;47m░▒[0;31m▐███▀▌[0;37m█[0;1;30;47m░▒[0;31m▐▌[0;37m█[0;1;30;47m░▒[0;31m▐█▌[0;37m█[0;1;30;47m░▒[0;31m▐███▀█████[0m
-     [37m ▐[0;1;30;47m▒▓[0m ▐[1;30;47m▒▓[0m ▐[1;30;47m▒▓[0;31m  [0;37m▐[0;1;30;47m▒▓[0m  ▐[1;30;47m▒▓[0m ▐██[1;30;47m ░▒▓[0m  ▐[1;30;47m▒▓[0m  ▐[1;30;47m▒▓[0;31m [0;37m ▐[0;1;30;47m▒▓▓[0;1;30;40m▄▄▄▀[0m ▐[1;30;47m▒▓[0m  ▐[1;30;47m▒▓[0m▌  ▐[1;30;47m▒▓▓[0;1;30;40m▄▄▄▀[0m
-
- [1;30m%[0m [1;30mRevenge whq[0m [1;30m% Innuendo member board and distro site %[0m [1;30mKortatu member[0m [1;30mboard %[0m
-      [1;30m% Pirata Group Argentina member board % Psyco Magazine distro site %[0m'
+     [37m ▐[0;1;30;47m▒▓[0m ▐[1;30;47m▒▓[0m ▐[1;30;47m▒▓[0;31m  [0;37m▐[0;1;30;47m▒▓[0m  ▐[1;30;47m▒▓[0m ▐██[1;30;47m ░▒▓[0m  ▐[1;30;47m▒▓[0m  ▐[1;30;47m▒▓[0;31m [0;37m ▐[0;1;30;47m▒▓▓[0;1;30;40m▄▄▄▀[0m ▐[1;30;47m▒▓[0m  ▐[1;30;47m▒▓[0m▌  ▐[1;30;47m▒▓▓[0;1;30;40m▄▄▄▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: eed2399d9f976bbd1fb1df50b1cfd185205e920f2a2c504c1a25f0dad2cd18bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-1NS04.ANS by Misfit (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 1NS0MN1A - in-game screens
 # SAUCE Author: Misfit
 # SAUCE Group: Blocktronics
@@ -61,6 +61,4 @@ Write-Host '
 [37;40m   [0;1;37;40m °  ·   [0;1;30;40m▄ [0;1;31;41m░▒[0;1;30;40m▒[0;1;33;43m▒[0;1;33;40m█[0;32m░[0;34m▐[0;1;34;44m░[0;34m▓[0;1;35;45m▄[0;35m▓▐[0;1;35m█[0;1;35;45m▓[0;1;35;40m [0;1;30;40m▓▄[0m       [1m.[0m   [36m▄▄▄▌ █▐│▐▄▄▄▄▄▄▄▌ ▄▄▄▄▐ ▄▄ ▐▄▄▄▄▄▄▌[0m
         [1;30m▄██▓ [0;1;31;41m▓▓[0;1;30;40m░[0;1;33;43m░[0;1;33;40m█[0;1;30;40m■ [0;34m▓▒[0;1;35;45m▌[0;35m▓▐[0;1;35;45m▓▒[0;1;35;40m  [0;1;30;40m▀▄▀█▄[0m                   [36m▀▀▀▀▀ ▌▀▀▀▐ ▀▀  ▀[0m     [36m▌[0m
 [37m   [0;1;30m   ▄[0;1;30;42m▀[0;1;30;40m▄▓▒░ [0;1;31;40m▀  [0;33m▀[0;1;30m▄▓▄[0;34m░░[0;35m▀▒ [0;1;35;45m▒░[0;1;35;40m [0;1;30;40m▀■█[0;1;30;42m▄░▀[0;1;30;40m█▄▀▌[0m
-   [1;30m ▄[0;1;30;42m▓▒[0;1;30;40m▓▓▓░ ▄[0;1;30;42m▓▓[0;1;30;40m▄▀█▄▀[0;1;30;42m▓▓▒[0;1;30;40m▄ [0;1;30;45m  [0;1;30;40m ▓▄ ▄█[0;1;30;42m▄[0;1;30;40m▄[0;1;30;42m▒▒[0;1;30;40m▄[0m                                     .[0m
-
-'
+   [1;30m ▄[0;1;30;42m▓▒[0;1;30;40m▓▓▓░ ▄[0;1;30;42m▓▓[0;1;30;40m▄▀█▄▀[0;1;30;42m▓▓▒[0;1;30;40m▄ [0;1;30;45m  [0;1;30;40m ▓▄ ▄█[0;1;30;42m▄[0;1;30;40m▄[0;1;30;42m▒▒[0;1;30;40m▄[0m                                     .[0m'

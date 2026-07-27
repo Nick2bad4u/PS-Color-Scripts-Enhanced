@@ -5,7 +5,7 @@
 # Source SHA-256: e967a4c7b0dc426d176e7096eda2514e8b5062cc456256d4d4bae21b888e9bb8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PI-JABY1.ANS by Pinhead (Moist); released in moi-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jaby Da Gopher
 # SAUCE Author: Pinhead
 # SAUCE Group: Moist
@@ -43,7 +43,7 @@ Write-Host '
 [36;40m       [0;37;40m■[0;36;47m█████[0;36;46m [0;37;46m▀[0;37;47m  [0;37;46m█[0;37;47m [0;1;30;47m░  ░ [0;36;47m▄[0;36;46m        [0;37;46m■ [0;36;47m█▄ [0;1;30;47m░   ░░  [0;36;47m▄███[0;36;46m                            [0m
 [36;40m                     [0;1;30;47m░[0;1;30;46m [0;46m■                [0;36;47m█[0;36;46m        [0;37;46m■                            [0m
 [37;40m              ■                           ■                                   [0m
-[37;40m                                                                        jesus [0m
+[37;40m                                                                              [0m
 [37;40m                         [0;36;40m▀ [0;33;40m▄▄▄▄▄▄▄ [0;36;40m▀[0;36;46m                        [0;36;40m▀ [0;33;40m▄▄▄▄▄▄▄ [0;36;40m▀[0;36;46m  [0;37;46mloves[0m
 [37;40m                       [0;36;40m▀ [0;33;40m▄█▒▓▓▓▓▓▓█▄ [0;36;40m▀[0;36;46m                    [0;36;40m▀ [0;33;40m▄█▒▓▓▓▓▓▓█▄ [0;36;40m▀[0;36;46m  [0;37;46myou[0m
 [37;40m                      [0m [33;40m▄█▒▓▓▓▓▓▓▓▓▓▓█▄ [0;33;46m                  [0m [33;40m▄█▒▓▓▓▓▓▓▓▓▓▓█▄ [0;33;46m    [0m

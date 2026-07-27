@@ -5,7 +5,7 @@
 # Source SHA-256: 4a18ca11e8e4191f3835cb27a15586773ea92c3385287074411688c5695d7a85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-FORB1.ANS by DarkHeart (iNSOMNiA); released in insm0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Forbidden Illusions
 # SAUCE Author: DarkHeart
 # SAUCE Group: iNSOMNiA
@@ -31,7 +31,4 @@ Write-Host '
 [1;30m█[0;32m▀▀▀▀[0;37m [0;32m▀[0;1;32;42m▒▀▓[0;32m█[0;1;32;42m░▀▒[0;32m▀[0;37m [0;32m▀[0;1;32;42m▒▀▓[0;32m█[0;1;32;42m░▀▒[0;32m▀[0;37m ▀▀▀▀ [0;1;30m▄▄▄▄[0m [32m▀▀▀▀[0;1;30m ▄▄▄▄[0m [32m▀▀▀▀[0;37m [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [32m▀▀▀▀[0;37m [0;32m▀▀▀▀[0;37m [0;1;30m▄▄▄▄█[0m
 [1;30m▀▀▀▀▀▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒▀▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▀▀▀[0m           [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
-[1m    [0m               [1mf o r b i d d e n   i l l u s i o n s[0m
-
-[1;30m    [0m                  [1;30m" insomnia u.s. headquarters "[0m
-                   [1;30m" syzo : blackwish  art : darkheart "[0m'
+[1m    [0m               [1mf o r b i d d e n   i l l u s i o n s[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b13e96d86421bded268dd41336d1d3743b1fcec2e83bd39e3095f7f10efa80db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PNK-LQDM.ANS by phanatik (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: liquid
 # SAUCE Author: phanatik
 # SAUCE Group: lazarus
@@ -24,7 +24,7 @@ Write-Host '
   [31m▀[0;1;30;41m▄▌[0;31m▀▀ [0;37m [0;30;41m▓▓[0;37;40m [0;31;40m [0;33;40m░[0;30;43m▓[0;37;40m [0;31;40m ▀[0;30;41m░[0;31;40m▌ [0;1;33;46m▓▀[0;1;33;40m▄[0;36m▄[0;37m [0;30;41m░░[0;31;40m▀▀▀▐[0;1;37;41m░░[0;31m  [0;30;45m▓[0;35;40m▀[0;1;31;40m [0m   [31m▀▀[0;30;41m░[0;31;40m▄▀▀[0;1;30;40m [0;35m [0;37m [0;31m▀▀[0;1;37;41m░░[0;31m▌[0;37m [0;1;33m▄[0;31m ▀▀[0;1;31;41m░░[0;31m▄▄▄  [0;37m [0;31m▐[0;1;33;41m ░[0;31m▌[0m
 [1;37m [0;1;30m     [0;32m▄[0m              [1;33;46m░[0;36m▌▀[0;30;46m▓[0m   [31;40m   ▀█▌   [0m    [33;40m░[0;30;43m▓[0m     [35;40m  [0m   [37;40m░[0;30;47m▓[0;31;40m [0;1;33;46m░▓▀▓[0m [30;41m▓▓[0;31;40m  ▀▀▀▀ [0;1;33;41m░▒[0;31m▀[0m
 [1;37m [0;1;30m [0;32m▄▄[0;1;33;42m░░[0;32m▌[0;1;30m   [0;1;37m [0m  [1m [0;1;30m  ▄[0m [1;30m     [0m [1ml[0;1;30m  [0m  i   [1mq[0m    u    i    [1md[0m       [36m▀▀▐[0;30;46m░[0;36;40m▄[0;37;40m  [0;1;37;40m    [0m
-[1m [0;1;30m [0;32m▐[0;1;32;42m▄▓▄[0;32m▀[0;1;30m  ▀ [0m [1;30m([0;1;37mx[0;1;30m) [0;35mxxxxxxxxxx[0;37m  [0;1;30m([0;1;37mx[0;1;30m) [0;35mxxxxxxxxx[0;37m  [0;1;30m([0;1;37mx[0;1;30m) [0;35mxxxxxxxxxxx[0;37m [0;30;46m▓[0;37;40m  [0m     [37;40m▄[0;1;37;40m▄[0m░[30;47m▓[0;1;30;40m [0m      [36m [0m
+[1m [0;1;30m [0;32m▐[0;1;32;42m▄▓▄[0;32m▀[0;1;30m  ▀ [0m [1;30m [0;1;37m [0;1;30m  [0;35m          [0;37m  [0;1;30m [0;1;37m [0;1;30m  [0;35m         [0;37m  [0;1;30m [0;1;37m [0;1;30m  [0;35m           [0;37m [0;30;46m▓[0;37;40m  [0m     [37;40m▄[0;1;37;40m▄[0m░[30;47m▓[0;1;30;40m [0m      [36m [0m
 [1;37m [0;1;30m [0;32m [0;1;32;42m▐[0;1;32;40m▀[0;32m▄█▌[0m    [1;30m([0;1;37mx[0;1;30m) [0;35mxxxxxxxxxx[0;37m  [0;1;30m([0;1;37mx[0;1;30m) [0;35mxxxxxxxxx[0;37m  [0;1;30m([0;1;37mx[0;1;30m) [0;35mxxxxxxxxxxx[0m    [37m▄[0;1;37;47m▄▓[0;1;37;40m▌[0m▐[1;47m▐[0;1;40m▀▀█▄[0m
 [1m [0;1;30m  [0;32m▌▐[0;30;42m░░[0;32;40m▌[0m    [1;30;40m([0;1;37;40mx[0;1;30;40m) [0;35mxxxxxxxxxx[0;37m  [0;1;30m([0;1;37mx[0;1;30m) [0;35mxxxxxxxxx[0;37m  [0;1;30m([0;1;37mx[0;1;30m) [0;35mxxxxxxxxxxx[0m    [1;37m▀█▄▀[0m [1m▓▄▄█▀[0m [32m [0;31m   [0;1;30m [0;36m▄[0m
 [1;37m [0;1;30m  [0;32m▐▄▀[0;30;42m░░[0;1;30;40m  [0;1;37;40m [0m [1m   [0;1;30m░[0m            [1;30m([0;1;37mx[0;1;30m) [0;35mxxxxxxxxx[0;37m  [0;1;30m([0;1;37mx[0;1;30m) [0;35mxxxxxxxxxxx[0m    [32m█▄▄[0;1;37;42m░░[0;32m▄▄▄█▌[0;1;31m▄[0;1;31;41m▓[0;31m ▀[0m
@@ -34,11 +34,7 @@ Write-Host '
 [30;43m▓[0;1;30;40m  [0;30;43m▓▓[0;1;33;42m░░[0;32m█▄[0m       [37mfile conference[0m   [37m░[0;30;47m▓[0m        [1;30;40m▀[0;1;30;47m▓[0;1;30;40m░[0m           [32m▀[0;30;42m░░[0;32;40m▄[0;37;40m  [0;32;40m▐▄█▀▀[0m    [32;40m▐█▌[0m
 [1;37;40m [0;1;30;40m  ▄ [0;32m▐[0;30;42m   [0m                 [37;40m    [0m               [1;30;40m░[0m             [30;42m▓▓[0;32;40m▀█[0m       [32;40m ▄▄█▀[0m
 [1;37;40m [0;1;30;40m▄▌  [0;32m▀▀[0;1;37;42m░░[0;32m▌[0m             [1;30m░░[0m [1;30m<<[0m phear the [1mdrooling gatwh0re[0m! [1;30m>> [0m        [32m  ▀ [0m
-[1;30m▀[0;1;30;47m▓[0;1;30;40m▄[0m                                                             [1mphanatik[0m([1mlaz[0m)
+[1;30m▀[0;1;30;47m▓[0;1;30;40m▄[0m                                                             [1m        [0m [1m   [0m 
 [1m [0;30;47m▓[0m
     [1;37;40m [0m
-[1;30m ░░[0m -<[1mim[0m∙[1ma[0m∙[1mseperatwh0re[0m!>-- [1;30m░░[0m
-hmmmmmm, another menu requested by [1moatbran[0m for his board, [1mliquid[0m. if you think
-the [1malagatwh0re[0m suck, blame him, he asked for one. =) i''ll like to grit [1mphlare[0m
-for some phat ansi tutoring, [1mdfuse[0m for being the great artist he is, and every
-one from: [1mexotik[0m![1mdesigns[0m/[1mbasic[0m![1masskey[0m/[1msync[0m/[1mlazarus[0m and [1mmqh[0m. you all rock. [1mpnk[0m![0m'
+[1;30m ░░[0m   [1m  [0m [1m [0m [1m            [0m     [1;30m░░[0m'

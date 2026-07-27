@@ -5,7 +5,7 @@
 # Source SHA-256: fd9b612e81c0f5dfc9e90c1510d1b470ea858091b20472df0397f952175f9264
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-BOM.ANS by Threshold (<AiM>); released in aim-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BurnOut Mode BBS Ansi
 # SAUCE Author: Threshold
 # SAUCE Group: <AiM>
@@ -56,4 +56,4 @@ Write-Host '
                   [31m██[0m       [31m ██[0;37m  [0;31m▀██████▀[0;37m  [0;31m ▀████████[0;37m  [0;31m▀██████▀[0m
             [1;31m                       [0m
 
-[1;30m{This Ansi is a Re-Release} [0m                         [1;30m/┤NSí By [0;31mT[0;1;31mh[0;1;37mre[0ms[1mho[0;1;31ml[0;31md[0;37m [0;1;30m[[0;34mA[0;1;34mi[0;34mM[0;1;30m][0m'
+[1;30m                            [0m                         [1;30m ┤       [0;31m [0;1;31m [0;1;37m  [0m [1m  [0;1;31m [0;31m [0;37m [0;1;30m [0;34m [0;1;34m [0;34m [0;1;30m [0m'

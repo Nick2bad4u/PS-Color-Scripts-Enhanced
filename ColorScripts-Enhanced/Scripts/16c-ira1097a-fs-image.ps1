@@ -5,7 +5,7 @@
 # Source SHA-256: 5b6b3499b455e6e10abf41c5d153fbb73b239e35e0dbba22458dd0e77b93e871
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-IMAGE.ANS by Flying Squirrel (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Images...
 # SAUCE Author: Flying Squirrel
 # SAUCE Group: Irato
@@ -31,9 +31,8 @@ Write-Host '
 [1;30m  ▄▄▒▓█■▀▀███▄███■░▒▓▒▄░▄■▀▀▀▀▀██▒░▄▄▄▄▄▄▄▄░▒▄▄■██░░░▀▀▀▀▀▀▀▀▀■▄░░▄▄■▀▓▒▓██▄▄  [0m
 [1;30m ██▒▀[0m     [1;30m [0m           [1;30m [0m                [1;30m [0m                           [1;30m    [0m   [1;30m▓▒██ [0m
 [1;30m▐█▓ [0m   [36m      [0m                                                              [1;30m▐▓█▌[0m
-[1;30m██▌[0m        [1m-[0m enter your system informations and affils in this box. [1m-[0m       [1;30m▒▓█[0m
-[1;30m█▓▌[0m                  [1;36m-[0m [36mthese are suggested text colors.[0;37m [0;1;36m-[0m                   [1;30m▐█▓[0m
+[1;30m██▌[0m        [1m [0m                                                        [1m [0m       [1;30m▒▓█[0m
+[1;30m█▓▌[0m                  [1;36m [0m [36m                                [0;37m [0;1;36m [0m                   [1;30m▐█▓[0m
 [1;30m▐██[0m                                    [1;30m [0m                                    [1;30m▓█▌[0m
 [1;30m ██▓▄[0m   [32m      [0;1;30m                                                       [0m     [1;30m▄▓██ [0m
-[1;30m  ▀▀█▓▓▒░■▄▄▄▄■░░▒▓█▀▀■▄■▀████▓▓█▄░░░░▄▄▄▄▓▒▒▒░▒▓▄▄■▀▀▀■▄████■▄▄▄▄▄▄▄▄░▒▓▓█▀▀  [0m
-               [1;30m [0m                    [1;30m  [0m        [1;30m                  [0m'
+[1;30m  ▀▀█▓▓▒░■▄▄▄▄■░░▒▓█▀▀■▄■▀████▓▓█▄░░░░▄▄▄▄▓▒▒▒░▒▓▄▄■▀▀▀■▄████■▄▄▄▄▄▄▄▄░▒▓▓█▀▀  [0m'

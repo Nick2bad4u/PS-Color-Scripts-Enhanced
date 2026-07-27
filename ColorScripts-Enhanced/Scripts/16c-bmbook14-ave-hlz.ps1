@@ -5,7 +5,7 @@
 # Source SHA-256: f83a0e3f70a3135781b24bf28706ec0c8ed573a86046e07bfa45020561f890c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-HLZ.ANS by avenger (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nessie in the dusk
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                     [33m  [0m        [33m"nessie in the dusk"[0m
+                     [33m  [0m        [33m                    [0m
 
 [34m▐▀[0;37m  [0;34m▐▄▄▄████▓░[0;37m  [0;1;37mhazard/2[0m      confs    [34m▄▐██▀[0m                            [34m▀▀██▌▄[0;1;34m░[0m
  [34m▄▐███▀▀█▄▄██████▓░ ▄▄▄▄▄███▌▄▄▄▄▄ [0m   [34m▐███▌[0m          [33mansi/ascii[0m            [34m▀▓██[0m
@@ -31,5 +31,4 @@ Write-Host '
 [37;40m [0;34;40m░▓▀[0;37;40m  [0;33;40m▀[0m              [32;40m░[0m            [1;37;40m▀ [0m          [1;34m▀[0;34m▀[0;36m░[0m   [34m▀▓█▌[0m      [34m▐██   [0m
       [34m      [0;37m  [0;34m▀▌[0m       [34m [0m                             [34m░▀[0m      [34m░▓▓▌[0m
                                [34m▄[0m             [34m▀▄[0m               [34m░░[0m
-                                [34m▀ ▄[0m             [34m▀[0m   [34m▄[0m
-                                                     [34m [0m'
+                                [34m▀ ▄[0m             [34m▀[0m   [34m▄[0m'

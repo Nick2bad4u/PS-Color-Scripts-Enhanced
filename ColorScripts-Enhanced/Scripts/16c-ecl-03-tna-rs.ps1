@@ -5,7 +5,7 @@
 # Source SHA-256: f85cc780f6992ca96bddd61a44accc76cc67c195c4acf506440cace3ab65d29e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-RS.ANS by TNA (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rare soma
 # SAUCE Author: TNA
 # SAUCE Group: eclipse
@@ -17,7 +17,7 @@
 Write-Host '
 
 
- [1;30m- tna(eclipse!)[0m
+ [1;30m               [0m
                      ▄[1;32m▄▄▄▄▄▄▄▄▄   [0mFlame''s [1mRare Soma[0m.. .               [1;32m▄■▀[0m
       [1;30m▄█[0;33m▄[0;1;33m▄▄▄▄[0;33m▄  [0;37m▄[0;1;32m▄[0;1;32;47m▄[0;1;32;40m████▀▀▀ [0;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  [0;37m▄[0;1;32m▄[0;1;32;47m▄[0;1;32;40m██▌   [0;30;43m▒[0;1;33;43m▐[0;1;37;40m█[0;1;33;43m██[0m
    [33m▄[0;1;33m▄[0;1;33;43m▄████▀[0;33m▀  [0;37m▄[0;1;32;47m▄[0;1;32;40m████▀  [0;33m▄[0;33;43m [0;1;33;43m▄ ▄▄▄▄██[0;1;37;40m███[0;1;33;43m█████████████▀▀▀▀▀▀[0;33m█▀▀▀▀▀  [0;37m▄[0;1;32;47m▄[0;1;32;40m██████▄[0;1;30;40m▄  [0;33m▀[0;1;33;43m▀██[0m

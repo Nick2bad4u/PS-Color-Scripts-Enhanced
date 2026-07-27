@@ -5,7 +5,7 @@
 # Source SHA-256: 9904cba6110e696af935d474bc12c8a5882d5b2ebf66b51f9467010c3f8fbf62
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DW-BAT.ANS by darkwing (bad attitude); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ugly bat logo
 # SAUCE Author: darkwing
 # SAUCE Group: bad attitude
@@ -35,20 +35,4 @@ Write-Host '
 [1;37;47m [0m [1;32;47m▒▒░░░▒▒▒░░░░▒▒▒░░▒[0m ▄[1;47m▒▒▒░░[0m█▄ [1;32;47m░░░░▒░░░[0;1;32;40m [0;1;32;47m░░░░▒░░░[0m ▄[1;47m░▒▒▒▒▒▒[0m█ [1;32;47m░░░░░░░░░░[0m ▄[1;47m▒▒▒▒▒▒▒▒▒[0;1;37;47m▒[0m
 [1;37;47m [0m▄ [1;32;47m░░░▒░░░▒▒░░░▒▒▒░[0m ▄[1;47m▒▒▒▒░░░[0m█▄ [1;32;47m░░░░░░░[0;1;32;40m [0;1;32;47m░░░░░░░[0m ▄[1;47m░░▒▒▒▒▒▒[0m█ [1;32;47m░░░░░░░░░░[0m [1;47m▒▒▒▒▒▒▒▒▒▒[0;1;37;47m▒[0m
 [1;37;47m▒ [0m [1;32;47m░░░░░░░░░░░░░░░[0m ▄[1;47m▒▒▒▒░░░░░[0m█▄ [1;32;47m░░░░░░[0m [1;32;47m░░░░░░[0m ▄[1;47m░░░░▒▒▒▒▒[0m█▄ [1;32;47m░░░░░░░[0m ▄▄[1;47m▒▒▒▒▒▒▒▒▒▒[0;1;37;47m▒[0m
-[1;37;47m▒ [0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;47m▒▒▒▒▒▒░░░░░░[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;47m░░░░░░▒▒▒▒▒▒[0m█▄▄▄▄▄▄▄▄▄[1;47m▒▒▒▒▒▒▒▒▒▒[0;30;47mdrw[0m
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[37;40m [0m'
+[1;37;47m▒ [0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;47m▒▒▒▒▒▒░░░░░░[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;47m░░░░░░▒▒▒▒▒▒[0m█▄▄▄▄▄▄▄▄▄[1;47m▒▒▒▒▒▒▒▒▒▒[0;30;47mdrw[0m'

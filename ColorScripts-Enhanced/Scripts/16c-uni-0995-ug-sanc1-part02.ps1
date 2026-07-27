@@ -5,7 +5,7 @@
 # Source SHA-256: c5589e2ca5b8a453fe41126ed8440d600307921f78c59d9b74e2cd634e0a33d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UG-SANC1.ANS by Abomination + Prism (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sanction!
 # SAUCE Author: Union Group Prod.
 # SAUCE Group: Union
@@ -47,6 +47,4 @@ Write-Host '
 [37m  [0;33m░░░▒▒▓▒▒[0;37m [0;1;34m▀█[0;1;34;46m▓[0;1;34;40m▀▀  [0;1;34;46m▓[0;1;34;40m█[0;1;34;46m▓▓[0;1;34;40m▀▀  [0;1;34;46m▓[0;1;34;40m██[0;1;34;46m▓[0;1;34;40m    [0;1;34;46m▓[0;1;34;40m██[0;1;34;46m▓[0;1;34;40m    [0;1;34;46m▓[0;1;34;40m█[0;1;34;46m▓[0m  [36m [0;37m [0;1;34;46m▒░[0;1;34;40m█[0;1;34;46m▓[0;1;34;40m    [0;1;34;46m▓[0;1;34;40m██[0;1;34;46m▓[0;1;34;40m    [0;1;34;46m▓[0;1;34;40m█[0;36m [0;33m░▒▒▓▒▒▒░░░ [0m
 [37m [0;33m░░░▒▒▒▓▓▒▒[0;37m [0;1;34m▐█▌  ▐█▌▐█▌  ▐█▌▐[0;1;34;47m▓[0;1;34;40m▌  ▐█▌▐[0;1;34;47m▓[0;1;34;40m▌  ▐█▌[0;1;34;47m▓[0;1;34;40m▌ [0;36m [0;1;34m [0;1;34;46m▓▒[0;1;34;40m▐[0;1;34;47m▓[0;1;34;40m▌  ▐█▌▐[0;1;34;47m▓[0;1;34;40m▌  ▐█▌[0;36m [0;33m▒▒▒▓▓▒▒▒░░░[0m
 [33m░░▒▒▒▓▓▓▓▓▒▒ [0;1;34;47m▓[0;1;34;40m█▄▄[0;1;34;47m▓[0;1;34;40m▀ [0m [1;34;47m▓[0;1;34;40m█ ▄[0;1;34;47m▓[0;1;34;40m▀  [0;1;34;47m▒▓[0;1;32;40m [0;1;34;40m▄▀▀ [0m [1;34;47m▒▓[0;1;34;40m▄▄▀▀ [0;1;34;47m▒▓[0;1;34;40m▄ ▐[0;1;34;46m▓[0;1;34;40m▌ [0;1;34;47m▒▓[0;1;34;40m▄▄▀▀  [0;1;34;47m▒▓[0;1;32;40m [0;1;34;40m▄▀▀[0;33m ▒▒▓▓▓▓▓▒▒▒▒░░[0m
-                    [33m                      [0m      [1;34m▀▀ [0m
-[32m [0m     [1;32m [0;32ma[0;1;32mnsi by [0;32mp[0;1;32mrism of [0;32mu[0;1;32mnion - [0;32ms[0;1;32mhading/[0;32mf[0;1;32mont by [0;32ma[0;1;32mbomination of [0;32mu[0;1;32mnion[0m
-   [32m         [0m     [32mprism, I fucked up your ansi :) sorry..[0m'
+                    [33m                      [0m      [1;34m▀▀ [0m'

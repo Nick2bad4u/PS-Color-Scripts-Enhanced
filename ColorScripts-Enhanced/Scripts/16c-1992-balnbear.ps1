@@ -5,12 +5,12 @@
 # Source SHA-256: d458b1ef5ca4299c8de365aadef0b1e2a4ed78122c5b5247348605023faef819
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BALNBEAR.ANS by George Ramos (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
-From: GEORGE RAMOS              Subj: BALLOONING BEAR
+                                                     
 
 [44m                                                                              [0m
 [44m                                                                              [0m
@@ -31,7 +31,4 @@ From: GEORGE RAMOS              Subj: BALLOONING BEAR
 [1;5;33;44m                   │           [0;1;33;45m▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄[0;1;33;44m            [0;1;5;33;44m└┐                 [0m
 [1;5;33;44m                   └┐           [0;1;33;45m██████████████[0;1;33;44m              [0;1;5;33;44m│                 [0m
 [1;5;33;44m                    │           [0;1;33;44m▀████████████▀                                [0m
-[1;33;44m                    [0;1;5;33;44m│                                                         [0m
-[1;5;33;44m                                                                              [0m
-[1;5;33;44m            [0;1;44m"Ballooning Bear" by George Ramos  (C) Copyright 1992             [0m
-[1;44m                                                                              [0m'
+[1;33;44m                    [0;1;5;33;44m│                                                         [0m'

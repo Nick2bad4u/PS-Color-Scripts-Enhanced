@@ -5,12 +5,12 @@
 # Source SHA-256: 713b9ea6ab251950ecc91bd4a128d0e501626c91c889c07d1d853f80d8e88d16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-PRPHZ.ANS by Rare Delusion (blind-02); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-           [1;30mrare.delusion.blind.studios.1996.the.year.of.the.freak![0m
+           [1;30m                                                       [0m
 
                              [1;34;44m░[0m      [1;34;44m▒[0m          [1;34;44m▒[0m                            [35m▄[0m
               [35;44m [0;1;34;44m▄▓[0;34m█ ▀█[0;1;34;44m▒[0;34m▄ ▄█[0;1;34;44m▄[0;34m▓ [0;1;34;44m▐▄▄▓[0m [1;34;44m▓ ▓▄[0m [34m▀[0;1;34;44m▄▄[0;34m▄ █[0;1;34;44m░▄▓[0m [34m▀█[0;1;34;44m▒[0;34m▄ [0;1;34;44m▓ ▓▄[0m [34m▄▓[0;1;34;44m░▄[0;34m▀[0;1;34;44m▄[0;34m█▄[0m       [35m▀[0m
@@ -25,12 +25,7 @@ Write-Host '
 [35m    [0;32m█[0;1;32;42m█▓[0;1;32;47m▓[0;1;32;42m█▒▄▄[0;32m▄ [0;35m▀▓[0;35;45m [0;1;35;45m▀▓[0;35m▌ [0;1;34;44m▐██[0;34m█ █[0;1;34;44m▄▒[0;34m█ [0;1;34;44m▐█[0;1;34;47m▓[0;1;34;44m▌[0m [34m█[0;1;34;44m██[0;34m█   ▀[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m▒[0m [34m█[0;1;34;44m██▓[0m  [34m▄▄ [0;35m▀▀▓█[0;1;35;47m█[0;35m█▄██[0;1;35;45m▀▀ [0;35m█[0;1;35;45m▒[0;35m█[0m
 [35m    [0;35;42m [0;32;40m█[0;1;32;42m▒▀▀▓▀▀[0;32m▓█▄▄▄[0;35m▀[0;1;35;45m▒[0;35m█ [0;34m▓[0;1;34;44m▓▀▓[0m [1;34;47m█▓[0;1;34;44m▓▀[0m [34m▀█[0;1;34;44m▀▄[0;34m▄[0;1;34;44m▄▓█░[0m [34m█[0;1;34;44m▄▒▀▀[0;34m█ ▀█[0;1;34;44m▓ [0;34m▄[0;1;34;44m▄█▀[0m          [35m█   [0;1;35;45m░[0m
       [1;32;42m░[0m   [1;30;40m\[0m       [1;35;45m░[0m   [1;34;44m▒[0m              [1;34;44m▒[0m     [1;34;44m░[0m      [1;34;44m▒[0m               [35m▌[0m
-           [1;30mits imitation haze, 9outof10 mutants can''t tell the dif[0;35m▌[0;1;30mference.[0m
+           [1;30m                                                       [0;35m▌[0;1;30m        [0m
                                                                   [35m█[0m
-                              [1;34mp[0;1;34;44murple[0m [1;34;40mh[0;1;34;44maze[0m                        [35m▐[0;1;35;45m▒[0;35m▌[0m
-[1;30m-----------------------------[cut and paste here]-----------------[0;35m▀[0;1;30m-------------[0m
-             [1;30m[This is for whoever i made it for i didn''t reply to  yer e-mail][0m
-[1;37mG[0mreetz - [1;30mgoin out to everyone in blind!, and [loi - yeah he''s my bud from way[0m
-         [1;30mback]  [kirin - your unfinished pics rule ;)]  [tsd - i don''t know you][0m
-         [1;30m[dark evil - i don''t know you either :)]  [I need to get onto irc][0m
-         [1;30m[and talk  to all the buds in blind!] [i don''t know nobody ;)][0m'
+                              [1;34m [0;1;34;44m     [0m [1;34;40m [0;1;34;44m   [0m                        [35m▐[0;1;35;45m▒[0;35m▌[0m
+[1;30m-----------------------------[cut and paste here]-----------------[0;35m▀[0;1;30m-------------[0m'

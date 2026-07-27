@@ -5,7 +5,7 @@
 # Source SHA-256: d1ab1b55d9bc6541b3e342e8868dad9ede777128fcd244af4b4683a71642bdc8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SVX-FIC1.ANS by Salvationx + Catch 22 (AVENGE!!!); released in avenge13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fiction (featuring Catch22)
 # SAUCE Author: SalvationX
 # SAUCE Group: AVENGE!!!
@@ -52,9 +52,4 @@ Write-Host '
 [31m [0;1;30;47m▓[0;31m [0;1;31;41m█▒[0;31m▌ [0;35m▐██[0;1;36;46m░▒[0;36m  ▐[0;1;36;46m▒[0;34m▌▐█ [0;1;34;44m░[0;34m▌  [0;1;34;44m░▓[0;34m  [0;1;34;47m▓▀[0;31m [0;32m▐[0;1;32;42m░[0;32m▌ ▐[0;1;32;42m [0;31m█[0;1;31;41m░[0;31m▌[0;1;30m▒▒░[0;31m [0;1;31;41m▒░[0;31m█ [0;35m [0;1;35;45m▓██[0;1;35;47m▓▓▓[0;1;35;45m██▀[0;35m [0;1;30m▒[0;36m▐[0;1;36;46m█[0;1;36;40m▌[0;36m  [0;1;36m▐[0;1;36;46m█[0;36m [0;1;30m░░░[0;1;34m▐[0;1;34;47m▓▓[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀ [0m
    [31m░[0;30;41m▓[0;31;40m░[0m    [36;40m░[0;30;46m▓[0;31;40m  [0;36;40m  [0;31;40m  [0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0m      [34;40m░░[0;31;40m [0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m  ░[0;31;40m░░░[0m   [31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m  [0;35;40m░░░[0;30;45m▓[0;35;40m  ░[0;30;45m▓[0;35;40m░[0m       [36;40m░░[0m     [34;40m░░[0;30;44m▓[0;34;40m [0m
 
-[1;34;40m   [0m   [31mf[0m         [36mi[0m          [34mc[0m    [34m    [0;37m  [0;32mt[0m    [1;34m  [0m  [1;34m  [0;31mi[0;37m  [0;31m [0m       [35mo[0m          [1;34mn[0m
-
-[1;30m  ansi picture: salvationx (AVENGE founder) / ansi logo: catch22 (GLUE founder)[0m
-                [1;30mwhen we get together, it''s all peaches and cream.[0m
-
-[1;33mreturning to [0;1;37mreality[0m..[1;30m.[0m   [1;30m.[0m       [1;30m.[0m'
+[1;34;40m   [0m   [31mf[0m         [36mi[0m          [34mc[0m    [34m    [0;37m  [0;32mt[0m    [1;34m  [0m  [1;34m  [0;31mi[0;37m  [0;31m [0m       [35mo[0m          [1;34mn[0m'

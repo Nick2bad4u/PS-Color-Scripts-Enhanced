@@ -5,7 +5,7 @@
 # Source SHA-256: 5d7a4627b3283646596b36d2146a28e56bfbbd30a7eb7ee5b3e9bcd70a8e4809
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-TREG3.ANS by Eerie (Spastic Studios); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Regency
 # SAUCE Author: Eerie
 # SAUCE Group: Spastic Studios
@@ -34,7 +34,7 @@ Write-Host '
 [1;30m▓▒░▒░▒▒▒░░░░░░░░ ░[0m     [1;30m▀▒░ ▀[0m                   [1;30m░░[0m            [1;30m▄ ▄▄▄▓  ▀ ▀▀▀▀[0m
 [1;30m▒░ ░░ ░░ ░  ░[0m
        [1;30m▄[0m       [1;30m▓[0m
-[1;30m    ▄▓▄[0;1;30;47m▓[0;1;30;40m■▀▓ █ ■▀▀▓▀   [0;1;37;40mthe return of the eerie-styled messed-up font part II!!![0m
+[1;30m    ▄▓▄[0;1;30;47m▓[0;1;30;40m■▀▓ █ ■▀▀▓▀   [0;1;37;40m                                                        [0m
      [1;30;40m░ ▓ ▄▄▄[0;1;30;47m▓[0;1;30;40m▄▀▓■[0m
       [1;30;40m■▀ ▓  ▀░ [0;1;30;47m▓[0m [1;30;40m█[0m
 [1;30;40m    █▄[0;1;30;43m▓[0;1;30;40m■▀▀█[0;1;30;43m▓[0;1;30;40m▄▄ [0;1;30;43m▓[0;1;30;40m▄▓ 33 [0;1;30;43m▓[0m [1;30;40mspastic[0m         [1;30;40m▐[0;1;30;47m▓[0m
@@ -54,9 +54,9 @@ Write-Host '
                  [1;30mu n d e r g r o w n   m e m b e r [0m░ [1;30mb o a r d[0m
         [1;30me e r i e - w a n n a b e s   r g   m o d   c l u b   w h q   =)[0m
 
-       [31manother incredible ansi by eerie, the nig running spastic studios[0m
-        [31m"sickness" (the chick) is (c)1995, eerie. SHE IS MINE, DUMBASS.[0m
-                       [31m(doesnt she has lovable boobs? =)[0m
-                [31mgreets: yo,kr,ha,nc,zr,jd,tw,and the spas studs[0m
+       [31m                                                                 [0m
+        [31m                                                               [0m
+                       [31m                                 [0m
+                [31m                                               [0m
 
                                       [1;37m-20-[0m'

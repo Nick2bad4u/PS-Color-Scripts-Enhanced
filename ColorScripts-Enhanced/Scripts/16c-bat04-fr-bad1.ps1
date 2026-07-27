@@ -5,13 +5,13 @@
 # Source SHA-256: 13f46077b7c44bf04ac10c3d28a421551e537354d5817911c7c8a0523ea31e1d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FR-BAD1.ANS by Freezer (bat04); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
 
-         [32msssssss[0m                                            [32mssssss[0m
+         [32m       [0m                                            [32m      [0m
          [32m$$$$$$$$[0m                                          [32m$$$$$$$[0m
          [32m$$$$$$$$[0m                                          [32m$$$$$$$[0m
          [32m$$$$$$$$[0m                                          [32m$$[0;1;32m$$[0;32m$$$[0m
@@ -21,7 +21,7 @@ Write-Host '
          [1;32m²$$$$[0;31m$$$    $$$$$$$ [0;1;32m²$$[0;31m$$$$$²²$$$$$$$ $$$$$$$$    $$$[0;1;32m$$$$[0m
           [1;32m²$[0;31m$$$$$$   $$$$$$²  ²$$$$$$$ $$$$$$$ ²$$$$$$$   $$$$$$$²[0m
            [31m²$$$$$$$s$$$$$²²    ²$$$$$$$$$$$$$$  ²²$$$$$$s$$$$$$$²[0m
-             [31msssss[0m                                          [31msssss[0m
+             [31m     [0m                                          [31m     [0m
               [31m$$$$[0m       [31m][0;1;30m·[0;32mA[0;1;30m··[0;32mT[0;1;30m··[0;32mT[0;1;30m··[0;32mi[0;1;30m··[0;32mT[0;1;30m··[0;32mU[0;1;30m··[0;32mD[0;1;30m··[0;32mE [0;31m[[0m        [31m²$$$$²[0m
               [31m²$$²[0m                                          [31m²$$[0m
                                                               [31m$[0m
@@ -29,6 +29,4 @@ Write-Host '
 
                [31m$[0m                                              [1;31m$[0m
 
-               [1;31m²  ,[0m                                           [1;31m²[0m
-        [1;31mo    '' s.[0m         [1;31mo[0m                         [1;31mo[0m          [1;30m[freezer][0m
-      [1;31mOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO[0m'
+               [1;31m²  ,[0m                                           [1;31m²[0m'

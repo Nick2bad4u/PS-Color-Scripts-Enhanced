@@ -5,15 +5,15 @@
 # Source SHA-256: 9c6d00e47d478dbd9c2b06cb560cd9e2423eb6febd7395769ca8be24f33926a6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ELYSACD2.ANS by Alter Ego (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
-        [1;30mElysium.   A final resting place..[0m     [1;30ma bridge to the afterlife.[0m
-                         [1;30mFor some.    A Limbo for others.[0m
-            [1;30mThese mortals will never again feel hatred, fear, pain...[0m
-                         [1;30m...or life.[0m     [1;30mThis is Elysium.[0m     [34m·[0m     [1;34m░[0;34m·[0m
+        [1;30m                                  [0m     [1;30m                          [0m
+                         [1;30m                                [0m
+            [1;30m                                                         [0m
+                         [1;30m           [0m     [1;30m                [0m     [34m [0m     [1;34m░[0;34m [0m
 [34m    ·[0m     [34m·[0m     [1;34m░[0m                                             [1;34m░  [0;34m░   [0;1;34m░  [0;34m░  ·[0m
 [34m    [0;1;34m░    ░  [0;34m░  [0;1;34m░[0;34m·    ░  ·[0m                                 [34m· ░  [0;1;34m░  [0;34m░  [0;1;34m░░[0;34m░   [0;1;34m░[0m
 [34m░    [0;1;34m░    ░  [0;34m░░ [0;1;34m░░  [0;34m░   [0;1;34m░[0m                      [34m░[0m          [1;34m░  [0;34m░ [0;1;34m░  [0;34m░░[0;1;34m░░░[0;34m░  [0;1;34m░   [0;34m░[0m

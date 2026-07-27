@@ -5,7 +5,7 @@
 # Source SHA-256: 4f5ae689407548e6eaa906fb1a5fcfc7b2e3d9989ce158f4afed815f6f698307
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: po-pb01.ans by Portia (equate01); released in equate01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 46-92
 # Columns: 1-80
 
@@ -51,8 +51,8 @@ Write-Host '
      [35m░▀[0;1;31m░[0;1;31;45m▓▓[0;1;31;40m▀[0m               [1;33m░░[0;1;35m [0;35m▓▀[0;1;31;45m░[0;35m▀[0m                     [1;31m░[0m              [35m▐█[0;1;33;45m░[0;35m█[0;1;33;45m░▄[0;35m▌[0;37m [0;35m▄[0m
       [35m [0m   [35m▄▄█▄[0m       [35m░[0m       [35m░ [0m                                      [1;33m░[0;35m▀[0;1;33m▒[0;1;37m█[0;1;33;45m▓█[0;35m▀[0m
         [35m▐█[0;1;35m▒▒[0;35m██▌[0m   [35m░[0m                                                     [1;33m░░[0m
-         [35m▀▓▓▀[0m   [35m▄▓▀[0m            [36min a society dirty with bliss[0m               [35m░[0m
-[35m  ▄ ░░ [0m    [35m░░[0m   [35m▀[0m              [36mdrying steel ,, burning suns[0m
+         [35m▀▓▓▀[0m   [35m▄▓▀[0m            [36m                             [0m               [35m░[0m
+[35m  ▄ ░░ [0m    [35m░░[0m   [35m▀[0m              [36m                            [0m
 [35m ▀▄█[0;1;35m▒[0;1;31m▒[0;35m▄▄[0m        [35m░[0m   [35m░  ░▀[0m      [36mthe memory of an entry wound [0m          [35m░░[0m
 [1;35m░░▒[0;1;35;45m▓▄[0;1;35;40m▒[0;35m▀▐▐[0m        [35m ░▓▄█  [0;1;34m [0;36m   [0m   [36mburns the eyes of the new born[0m      [35m [0;37m [0;35m░▓▓[0m
 [35m  [0;1;35m░[0;35m ▀▀ [0m         [35m░▐[0;1;35m▒▒[0;35m█▄▀[0m        [36mreligion stained dreams tear the[0m    [35m░ ▓██▓▄░[0m

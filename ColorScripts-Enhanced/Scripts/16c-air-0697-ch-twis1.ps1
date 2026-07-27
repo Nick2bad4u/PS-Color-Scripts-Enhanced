@@ -5,7 +5,7 @@
 # Source SHA-256: cc0d415dc412b088a220c6cd831e2c4ff06392370e62c10b7869f6ea4ad1b855
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH-TWIS1.ANS by chrom (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: twisted society
 # SAUCE Author: chrom
 # SAUCE Group: air
@@ -36,9 +36,4 @@ Write-Host '
     [32m .·''[0m        [36m  [0m                       [36m  `°ⁿ$s,[0;1;36m$[0;36mⁿ''[0m   [36ms[0;1;36m$[0;36m²[0m               [32m.·''[0m
      [32m`·.[0m                                       [36m`²$s,_ [0;1;36m$[0;36m$[0m                 [32m`·.[0m
    [36m [0;37m [0;32m.·''[0m                                          [36m`²"ⁿ''[0m                  [32m.·''[0m
-[32m [0;37m─────────[0;1;30m<[0;1;36ms[0;1;34mnipp[0;1;30m,[0;1;34m [0;1;36ms[0;1;34mnapp[0;1;30m,[0;1;34m [0;1;36ms[0;1;34mnut[0;1;30m,[0;1;34m så var sagan slut[0;1;30m>[0m──────────────────────────────
-
- [32mthis one''s on request by .. ehm .. spin i think ... for twisted society[0m
-[32m and you can''t say this ascii isn''t twisted =) .. hehe .. well well .. [0m
-[32m enjoy or spit at .. [0m
-                              [32mart/ppe request goes to chrom@usa.net[0m'
+[32m [0;37m─────────[0;1;30m<[0;1;36ms[0;1;34mnipp[0;1;30m,[0;1;34m [0;1;36ms[0;1;34mnapp[0;1;30m,[0;1;34m [0;1;36ms[0;1;34mnut[0;1;30m,[0;1;34m så var sagan slut[0;1;30m>[0m──────────────────────────────[0m'

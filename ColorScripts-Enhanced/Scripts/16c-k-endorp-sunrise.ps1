@@ -5,7 +5,7 @@
 # Source SHA-256: f65277014b0ff3603ca2cbe8f9865b4526ccbaf3719e3a20718f557e075d895d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: @SUNRISE.ANS by Flame (k-endorp); released in k-endorp and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -39,4 +39,4 @@ Write-Host '
        [36m▓[0;1;32m█[0;1;32;46m█[0;1;36;46m█▄░▀▀▄  ░▄██[0;36m░ ▄[0;1;36;46m░[0;36m▀[0;37m [0;32m  [0;31m▄█[0m    [31;47m▓[0;1;33;47m▓██▄░[0;1;37;47m [0m▓[31m▀[0m    [31m▀▀[0m    [31m▀[0;1;31;47m▓[0;1;33;47m█[0;1;31;47m▀[0;1;31;41m▄[0;31m▄▀[0;37m [0;31m▐█▓░[0m    [36mit''s [0m
 [36m│[0m      [36m░█[0;1;32;46m██[0;1;32;47m▄[0;1;36;46m█▓▄▄▄▓█▀▀░[0;36m▄[0;1;36;46m▄[0;36m▀[0m    [31m▒▀[0m      [37m▀[0;1;33;47m███[0;1;33;40m▀[0m▀             [30;41m▓[0;31;40m▀[0;1;31;41m▀[0;1;31;47m▓[0;1;31;41m▓[0;31m▀▄[0;37m [0;31m▀░[0;37m [0;31m▀[0;37m  [0;36minsane.   [0m
 [36m├───────[0;37m [0;36m▀[0;1;32m▀[0;1;32;46m▀▀[0;1;36;46m█████▄▄█▀[0;36m▀[0;37m [0;36m───[0;31m░[0;37m  [0;36m──────────────────────────[0m   [31m▀[0;1;31;41m▀▒[0;31m▌▄[0m    [36m───────────┤[0m
-    [32mhe''s laughing.. hehe.  laugh for me[0;1;32m;[0;32m laugh for free.[0;1;32m [0m    [30;45m▓▓[0;31;40m▀▒[0m'
+    [32m                                   [0;1;32m [0;32m                [0;1;32m [0m    [30;45m▓▓[0;31;40m▀▒[0m'

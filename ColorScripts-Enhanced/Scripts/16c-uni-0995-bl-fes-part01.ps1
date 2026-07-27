@@ -5,7 +5,7 @@
 # Source SHA-256: 342937402ed7943b39c44a746565ea871c3279a7fd7da5eb0b88a35cd028da8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-FES.ANS by Black Lightning (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flat Earth Society
 # SAUCE Author: Black Lightning
 # SAUCE Group: Union
@@ -15,14 +15,14 @@
 # Columns: 1-80
 
 Write-Host '
-                                     [30mthat''s right, milk alternative dry![0m
+                                     [30m                                   [0m
 [30m   [0;1;30m▄▄▄▄▄[0m
-[1;30m▄▀▀▀▀█[0;1;30;47m▄ ▀[0;1;30;40m▄ [0;30mThis ansi is Scroto-Licious! fuck fuck fuck fuck. fuck your mom. fuck[0m
-[1;30m▌[0m     [1;30m▐█[0;1;30;47m▄▐[0;1;30;40m▌  ... life planned out before my birth, nothing could i say ... [0;30myour[0m
-[1;30m▓  ░  ██[0;1;30;47m░[0;1;30;40m█    ... had no chance to see myself, moulded day by day ...   [0;30mself.[0m
-[30m   [0;1;30m░ ▐[0;1;30;47m█▌▐[0;1;30;40m▌[0m       [1;30;40m... looking back i realize, nothing have i done ...[0m
-[1;30;40m  ░  [0;1;30;47m██░[0;1;30;40m█[0m            [1;30;40m... left to die with only friend ...[0m
-[1;30;40m  ░ ▐[0;1;30;47m█▒▓[0;1;30;40m▌  [0;30mfuck the posers hard.    [0;1;30m... alone i clench my gun ...[0m
+[1;30m▄▀▀▀▀█[0;1;30;47m▄ ▀[0;1;30;40m▄ [0;30m                                                                     [0m
+[1;30m▌[0m     [1;30m▐█[0;1;30;47m▄▐[0;1;30;40m▌                                                                [0;30m    [0m
+[1;30m▓  ░  ██[0;1;30;47m░[0;1;30;40m█                                                              [0;30m     [0m
+[30m   [0;1;30m░ ▐[0;1;30;47m█▌▐[0;1;30;40m▌[0m       [1;30;40m                                                   [0m
+[1;30;40m  ░  [0;1;30;47m██░[0;1;30;40m█[0m            [1;30;40m                                    [0m
+[1;30;40m  ░ ▐[0;1;30;47m█▒▓[0;1;30;40m▌  [0;30m                         [0;1;30m                             [0m
 [1;30m    █[0;1;30;47m█▓[0;1;30;40m█[0m            [36m▄■[0m
 [36m   [0;1;30m▐█[0;1;30;47m▓█[0;1;30;40m▌[0m         [36m▄▀[0m      [36m■[0m      [36m▄▀[0m      [36m▄■[0m         [36m▄[0m       [1;30m- Disposable Heroes[0m
 [1;30m  ▄█[0;1;30;47m▓█[0;1;30;40m█  [0;36m▄▄▓█▀■ █▌    ▄▄    ▄▄█▀ ▄▄▄ ■▄   ▄▄▄████████▀[0m         [1;30mMetallica ...[0m

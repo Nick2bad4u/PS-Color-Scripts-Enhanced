@@ -5,7 +5,7 @@
 # Source SHA-256: c25e2dc2d414a75993ac60c13636f49d0a493f90c69530c510756d420da68442
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-PUKE.ANS by Pyx (Bamoosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Puke!
 # SAUCE Author: Pyx
 # SAUCE Group: Bamoosh
@@ -17,18 +17,18 @@
 Write-Host '
 
 
-    Not in the mood for Christmas?
-    Not thinking about a great party?
-    Not looking forward to a nice weekend with your friends?
-    Just think of vomit and all distress and unappiness
-    will go away as fast as it came! Imagine the green and
-    brown gobs of semi-digested food you can puke in a
-    can. Wouldn''t that feel just great, cleaning up inside,
-    getting rid of all your stress
-    and anger. Throw up               [1;33m▄[0m
+                                  
+                                     
+                                                            
+                                                       
+                                                          
+                                                      
+                                                           
+                                  
+                                      [1;33m▄[0m
     all the bad feelings     [1;33m▄[0m  [1;33m▄▀▄▓▀▀▄▄▀▀▄▄▄[0m
     in one big blurt        [1;33m▐▌▐▐▌▄▀▄▄▀[0m [1;33m▄▀▀[0m
-    and straighten up.      [1;33m▓[0m [1;33m▀[0m [1;33m▀[0m [1;33m▀[0m   [1;33m▀[0m
+                            [1;33m▓[0m [1;33m▀[0m [1;33m▀[0m [1;33m▀[0m   [1;33m▀[0m
     You get empty in      [1;33m▄[0m [1;33m▐▌[0m  [1m▄███▄[0m [1m██▄[0m
     your stomack, so      [1;33m▐▌[0m [1;31m▄[0m [1m██████▌▐██▌[0m     [1;47mFree[0;1;40m [0;1;47myour[0;1;40m [0;1;47mmind[0m [1;47m-[0;1;40m [0;1;47mPuke[0;1;40m [0;1;47mnow![0m
     you''ll eat two         [1;33m▀[0;1;31m▐▌[0;1;37m▐█████▀█[0m [1m█▀█[0m

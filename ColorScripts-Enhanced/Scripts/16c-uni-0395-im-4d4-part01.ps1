@@ -5,16 +5,16 @@
 # Source SHA-256: 0da22c1f864af928606733d515a486797f5502b9ce0642dd653e2c397de4ebf9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-4D4.ANS by Imodium + Number 28 (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
                                                                               [30m▀[0m
-         [37mbe sure that you don''t miss out on one of the best boards[0m
-         [37myou  will  ever  call.  this pHUNK-e picto her is  by  me[0m            [1;30m▄[0m
-         [1;37mimodium  [0mof  [1mUnion  [0mand  the  rIppIn  pHont  is  done  by
-         [1m#28  [0mof  [1munion [0mhope joo all likes it.                                [1;30m▀[0m
+         [37m                                                         [0m
+         [37m                                                         [0m            [1;30m▄[0m
+         [1;37m         [0m    [1m       [0m                                     
+         [1m     [0m    [1m      [0m                                                      [1;30m▀[0m
                                                                               [1;30m█[0m
 [1;30m▄   ▄  ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
 

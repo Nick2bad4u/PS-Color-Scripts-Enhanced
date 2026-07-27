@@ -5,7 +5,7 @@
 # Source SHA-256: 43d8475e3bfe1cfb90aac903a4b9272e4ff067158b54b345d2b119ff7914958a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CHRISDWIL-C.ANS by Chris D. Wil (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: C
 # SAUCE Author: Chris D. Wil
 # SAUCE Group: Mistigris
@@ -34,10 +34,9 @@ Write-Host '
 [31m╜7$?▼"`   ;                $[0;1;36mb  [0;31m▼▼▼[0;1;36m  [0;31m|[0;1;36mS↓▲._  _[0;31m_,▲S[0;1;36m7┘            - - --===≡≡≡≡≡≡│[0m
 [31m'' [0;1;37m [0;1;36m     [0;1;37m;  ;   .           [0;31m↑$[0;1;36m|  [0;31m▼▼`[0;1;36m [0;31m:7[0;1;36mƒS`"  [0;31m^"[0;1;36m↓↑`   |   |   [0;31m.f»[0;1;36m   [0;31md|[0m
 [1;36m    [0;1;37m; .;  ▌ ;.  ;          [0;31m↓7[0;1;36m$b[0;31m.`    ^[0;1;36m              .   .   ƒ;`  [0;31mƒ|  [0;1;36m``    `/[0m
-[1m   . ▌;  ██▌ ; ▌ :         [0;31m``[0;1;36m       inVERSION eVOL1  ^''`   [0;31m:ƒ[0;1;36m   [0;31mƒ|   [0;1;36m¡BANG![0m
+[1m     ▌   ██▌   ▌           [0;31m  [0;1;36m                              [0;31m  [0;1;36m   [0;31m     [0;1;36m      [0m
 [1m  ; ██▄▄████▄▄██  |    - --===≡≡≡≡≡≡≡≡≡≡===-- -  [0;31m_[0;1;36m.¬ƒ     [0;31mdƒ[0;1;36m   [0;31mSƒ  [0;1;36m/       \ \[0m
 [1m  ; ████████████▌ :          ||      ||    \      [0;31m"[0;1;36m²ƒƒ.  [0;31m²7[0;1;36m    [0;31m`   [0;1;36m//`     ` ``[0m
 [1m  ;▐█████████████  ;         ||      ||     \\      [0;31m`[0;1;36mƒƒb    [0;31mf[0;1;36m|      [0;31m_sS$$[0;1;36m.[0m
 [1m ; ██████████████▌  |      ⌐ || ¬  ⌐ || ¬    /     .[0;31m  7[0;1;36mƒƒ_[0;31m.d[0;1;36mƒƒb[0;31m. .»fS[0;1;36mS7²"^[0m
-[1m. ▐███████████████  ;;      \||/    \||/     \\  .     [0;31m7[0;1;36mƒƒ[0;31mƒ[0;1;36m² ²[0;31mƒƒƒ7[0;1;36m7²` find the[0m
-[31m chris d. wil [0;1;37m`""''''''²        `''      `''    \.  \  ./   [0;31m||[0;1;36mƒ    [0;31m?[0;1;36mƒ`   easter eggs[0m'
+[1m. ▐███████████████  ;;      \||/    \||/     \\  .     [0;31m7[0;1;36mƒƒ[0;31mƒ[0;1;36m² ²[0;31mƒƒƒ7[0;1;36m7²` find the[0m'

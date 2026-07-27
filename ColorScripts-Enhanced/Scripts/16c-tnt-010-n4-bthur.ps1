@@ -5,7 +5,7 @@
 # Source SHA-256: 8937d92de7593e4728bb15db229096f6cdb870aebb97eabe0c937be1241ccd56
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: n4-bthur.ans by Sodium (tnt-010); released in tnt-010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -47,8 +47,4 @@ Write-Host '
                 [1;31m  [0m [31m [0;1;31m  [0;1;34m░░    [0m [1;30m▐█▌ ▐█▓▓ [0m [1;30m▐███▌[0m [1;30m▐███▌[0m [1;30m▐█▌[0;35m▀■▄▄[0;1;30m [0;35m▐[0;1;35;45m▒[0;35m▌[0;1;30m [0;1;35m▐[0;1;33;45m░[0;35m▌[0;33m▄[0;1;33;43m▒[0;1;33;40m▀[0;1;33;43m▓▓[0;1;33;47m▓▓[0m▌ [1m▐[0;1;47m▓[0m▌
               [1;31m   [0m   [31m  [0;37m   [0;31m  [0;37m   [0;1;30m▀█▄█▀▐█▌[0m [1;30m██[0m [1;30m▀■▄█▀▓▓░░  [0m [35m▄▄[0;1;30m [0;1;35;45m░░[0;35m▀[0;1;35m▀[0;1;35;45m▓[0;1;35;40m▄[0;1;35;47m▓[0;1;35;43m▓▒░[0;33m▌[0;1;30m [0;1;33;43m░▒[0;1;30;40m [0;33m▀[0;37;43m▒[0;37;40m▄■[0;1;37;47m▒▒[0m
                          [31m  [0m     [1;30m [0m   [1;30m▀▀[0m [1;30m  [0m      [1;30m▀▀  [0m   [1;31m▀[0;33m▀[0;35m▀▀[0;1;30m [0m   [1;35m▀[0;35m▀[0;37m  [0;33m▀▀▀▀[0;37m  [0;1;30m    [0m▐[1;47m░[0m▌
-                         [31m [0m                            [31m  [0m                   [1;30m [0m▀▀
-                                                                 ...sodiumN4:
-[1;30m [0m                                                             [1;30m   [0m   [1;30mim back ;)[0m
-SAUCE00Black Thursday                     Sodium              tnt
-          =>              Empathy by Skaboy[0m'
+                         [31m [0m                            [31m  [0m                   [1;30m [0m▀▀[0m'

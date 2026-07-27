@@ -5,7 +5,7 @@
 # Source SHA-256: 3d6512bdd702d8aeb351f3d0452d17312e1acc1c39052476b79973579962f006
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HP-TRKUB.ANS by Hiro Protagonist ([Quad-P]); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Trank ULBY Ansi Menu
 # SAUCE Author: Hiro Protagonist
 # SAUCE Group: [Quad-P]
@@ -32,4 +32,4 @@ Write-Host '
             [34m░ [0;1;34m▀▓[0m         [1;34m▒[0m          [34m▄[0;1;34;44m▓[0;1;34m▄[0m                [1;34m▒  [0;34m░[0;1;34m▐▀[0m      [34m░ [0;1;34m▓[0m
 [1;32mC[0;36mredits[0m        [1;34m▒  [0;34m░[0m      [1;34m░ [0;34m░    [0;1;34m■▀ [0;34m░ [0;1;34m▀ [0;34m▄[0;1;34m▌[0m       [34m░[0;1;34m■[0m     [1;34m░  ▄[0;1;34;44m▓[0;1;34m▄[0m        [1;34m▒   [0;34m░[0m
            [34m░   [0;1;34m░[0m     [34m░[0m                [34m░   ▄  ░ ▀  [0;34;47m▓[0m     [1;34m■▄[0;34m░[0;1;34m▀[0m         [1;34m░[0m
-[1;32mQ[0;36muit[0m           [1;34m░[0m       [32mTrank ULBY Tag Editor v1.O[0m'
+[1;32m [0;36m   [0m           [1;34m░[0m       [32m                          [0m'

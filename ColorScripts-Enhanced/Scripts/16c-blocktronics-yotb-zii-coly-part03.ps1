@@ -5,7 +5,7 @@
 # Source SHA-256: a8c039c2c835461dc3b9b2ffe47efbc33371483a6b08483513b6f6afb1719319
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-COLY.ans by Zeus Ii (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 87-134
 # Columns: 1-80
 
@@ -23,7 +23,7 @@ Write-Host '
 [1;34;43m█[0;1;34;47m▀▀▒[0;1;34;43m█▀▀[0;1;30;43m░[0;1;34;43m▄▄▄[0;1;33;43m▀▀[0;1;34;43m▄▄█[0;1;34;47m▀[0;1;34;43m▄▄[0;1;35;43m▀[0;33m█[0;1;34;43m▄[0;33m█▄▄▄▄[0m                  [37m▀▀▀[0;1;31m▀[0m▀[1;31m▀▀▀▀▀▀▀▀▀▀[0;1;31;47m▀▀▀▀[0;1;31;40m█[0;1;31;43m▓▒▒▒▓[0;1;31;47m▀[0;1;31;45m▓▓▓▓▒▒░  [0m
 
 
----8<----------Especially If You Can Tell What The Above Thing Depicts----------
+                                                                                
 
 
 
@@ -49,12 +49,4 @@ Write-Host '
                     [33m▒[0;1;33;43m▓█[0;33m▓[0;1;33m▒[0;1;33;43m▒[0;1;33;40m [0;33m▒[0;1;33;43m▓█[0;33m▓░[0;1;33m███▄  [0;33m▀[0;1;33;43m▄██▄[0;33m▀  ▀[0;1;33m▄[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓[0;33m▓▒[0;1;33;43m▓[0;1;37;40m█[0;1;33;40m█[0;33m█ ▓[0;1;33;43m▒[0;33m▐[0;1;33;43m▒▒[0;1;33;40m [0;33m█[0m
                     [33m▓[0;1;33;43m▒▓▒▒[0;33m▌ ░▓[0;1;33;43m▓▒[0;33m▓[0;1;33;43m▓▓[0;1;33;40m█████[0;1;37;40m████[0;1;33;40m█[0;1;37;40m█[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓▓▒▒[0;33m▓[0;1;33;43m▒▓▓[0;33m▌ ▒[0;1;33;43m░[0;1;33;40m [0;1;33;43m░░[0;33m▓[0m
                     [1;33;43m░░▒[0;33m▌[0;1;33;43m░[0;33m▌  ▒[0;1;33;43m▒░░[0;33m█[0;1;33;43m▒▓▓[0;33m▀[0;1;33;43m▓[0;1;33;40m██[0;1;37;40m██[0;1;33;40m██[0;1;37;40m▓[0;1;33;43m▓▓▓▒▒[0;33m█▀[0;1;33;43m▒░▒[0;33m▌  ░█▌ [0;1;33;43m░[0;33m█▓[0m
-                    [33m█[0;1;33;43m░░[0;1;33;40m [0;33m█    ▀█[0;1;33;43m░[0;33m▓ [0;1;33;43m▒▒░[0;1;33;40m [0;33m▀[0;1;33;43m▓▓▓▒[0;33m▀[0;1;33;43m░▒▒░░░[0;33m▓ ▀█[0;1;33;43m░[0;1;33;40m [0;33m░  █▓ [0;30;43mZII[0m
-
-
-
-                                      The end!
-
-
-      [30m Fun Fact: Zuell II is what Filth called me in my first scene[0m
-      [30m appearance in the CiA 40 pack. I was "Zuel II" in the memberlist.[0m'
+                    [33m█[0;1;33;43m░░[0;1;33;40m [0;33m█    ▀█[0;1;33;43m░[0;33m▓ [0;1;33;43m▒▒░[0;1;33;40m [0;33m▀[0;1;33;43m▓▓▓▒[0;33m▀[0;1;33;43m░▒▒░░░[0;33m▓ ▀█[0;1;33;43m░[0;1;33;40m [0;33m░  █▓ [0;30;43mZII[0m'

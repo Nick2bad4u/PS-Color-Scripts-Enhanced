@@ -5,7 +5,7 @@
 # Source SHA-256: 70f25b8f8a165faeecf20e2bbf77d0b80c390a99abe9069017eba25b7abd8ff7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-satantronics.ans by Avenging Angel + Enzo + Grindstoned (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 223-267
 # Columns: 1-80
 
@@ -49,9 +49,7 @@ Write-Host '
                  [31m█[0;37m   [0;31m █[0m      [31m░░[0m     [35m [0;31m +hell: tombin [0;35m [0;37m    [0m     [32m███▀   [0;1;30m█[0;33m██▀█[0;1;30;43m▄[0;33m▀[0;1;30m▀[0m
                   [31m▀[0;37m [0;31m▄█[0m                                               [33m  █ [0;1;30m▀[0m
                                                                      [33m  █ [0;1;30m▒[0m
-                                  [31mansi artwork by[0m                    [33m  [0;1;30m▀▄▄[0m
-                       [31m  grindStoned, avenging angel and enzO[0m
+                                  [31m               [0m                    [33m  [0;1;30m▀▄▄[0m
+                       [31m                                      [0m
 
-                             [35m [0;1;35m B L O C K T R O N I C S[0m
-
-                   [35m  [0;37m    [0;35mCreating jaw dropping ansis in 2008[0m'
+                             [35m [0;1;35m B L O C K T R O N I C S[0m'

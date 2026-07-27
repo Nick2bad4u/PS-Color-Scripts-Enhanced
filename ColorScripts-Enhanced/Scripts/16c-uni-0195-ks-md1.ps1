@@ -5,7 +5,7 @@
 # Source SHA-256: 0d05670b7378033c081b6154f79110a736cccb52400bff538ead24da23fb4f9a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KS-MD1.ANS by K-Spiff (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Meltdown
 # SAUCE Author: K-Spiff
 # SAUCE Group: Union
@@ -62,6 +62,4 @@ Write-Host '
 [1;37m▀[0;1;37;43m▓[0;1;37;40m█▀ [0;1;31;41m▒ [0;31m▀█▄[0;1;31;41m▒[0;31m▄█[0;1;31;41m░[0;31m▀█▄▄ [0;1;37m▀▀▀▀ [0;31m▄▄[0;1;31;41m▒[0;31m▄▄ [0;1;37m▀▀▀▀ [0;31m▄▄[0;1;31;41m░[0;31m▄ ▄██▄▌▄  [0;1;37m▀▀▀▀  [0;1;31;41m░[0;31m▄▌  [0;1;37m▀▀  [0;31m▄[0;1;31;41m▒[0;31m▄ ▄[0;1;31;41m░[0;31m▀█▄ ▄[0;1;31;41m░[0;31m▄  ▐▄[0m
 [31m▄▌ ▄█[0;1;31;41m░[0;31m▌  ▀▐▀   ▐▀▀[0;1;31;41m░[0;31m▄█▄██▀▀▌▀▀█▄█▄[0;1;31;41m░▒[0;31m▀▀ ▀[0;1;31;41m▒[0;31m▀▌ ▀▀[0;1;31;41m░[0;31m█▄▄▌▄▄▄[0;1;31;41m░▒[0;31m▀██▄▌▄▄█▀▐▀█▀  ▐▀█▀ ▀[0;1;31;41m▒[0;31m▄█▀[0m
 [31m▀█[0;1;31;41m░[0;31m▀▌[0m               [31m▀▌[0m         [31m▐▀[0m            [31m▀▌▀▀█▀▐▀[0m     [31m▀[0;1;31;41m░[0;31m▀▀▌[0m         [31m▌   ▐▀▌[0m
-[31m ▐[0m
-[31m   [0;1;37m. mELTDOWN . uNION mEMBER . rEMORSE wHQ . s: bASTARDIZER . cO: nECR0NITE .[0m
-k-pHuNK uLTRa gReWVY piC bY tHe aNSi-piMP suPReMe : tHe oNe, tHe oNLY, k-sPiFF ![0m'
+[31m ▐[0m'

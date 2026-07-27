@@ -5,7 +5,7 @@
 # Source SHA-256: 25a8cb7a6879065dfd7ea189d5444362be4f51b985b3a6224bd8e2fe80720a71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZB!EIGRL.ANS by Zubfatal (purg-31); released in purg-31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 46-94
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
                    [1;30m`l'' [0m:$$$$$$[1;30m$[0m²²²²²²²²²²²²²[1;30m''[0;33m.s[0;1;31mssssss[0;33ms  [0;1;30m:l$$;[0m
                     [1;30m''  [0m`²[1;30m''[0;33m.s[0;1;31mssss[0;33mS[0;1;31m$$$[0;33mS[0;1;31ms. [0;33m$[0;1;31m$$$$$$$$$$$$$   [0;1;30m`l''[0m
                                                           [1;30m''[0m
-               " [1mmess with the best[0m, [1mget shagged like the rest [0m"
+                 [1m                  [0m  [1m                          [0m 
 
                   [1;30m.,┌sd$┘²²²²²²²²²²└$$$$$$$$$$''[0;1;37m_.,┌s5b.[0;1;30m`Sbs┐,.[0m
                  [1;30md7''[0;1;37m_.┌si²"~~"²$$$Ss┐._[0;1;30m`└$$$$$.[0;1;37m`²└$$$7''[0;1;30m.$$$$$$b[0m
@@ -40,19 +40,19 @@ Write-Host '
                                                              [1;30m`-->>[0m
 [1;30m :[0m:[1m: notes :[0m:[1;30m:[0m
 [1;30m ∙~~~~~~~~~~~∙[0m
-[1;30m [0;1;37muNf![0m, [1mwell as you might have guessed [0m.. [1mthe woman was originally an ansi[0m
-[1m piece made by riddler[0m^[1mblend[0m, [1mand i''ve converted her to asKii [0m.. [1myeh [0m;)
+[1;30m [0;1;37m    [0m  [1m                               [0m   [1m                                [0m
+[1m                      [0m [1m     [0m  [1m                                [0m   [1m    [0m  
 
- [1;30m:[0m:[1m: greetinx :[0m:[1;30m:[0m
+ [1;30m [0m [1m            [0m [1;30m [0m
 [1;30m ∙~~~~~~~~~~~~~~∙[0m
-[1;30m [0;1;37macid brain[0m, [1malkanine[0m, [1mtee are[0m, [1minjektilo[0m, [1mphos[0m, [1mxzip[0m, [1mprodukt[0m, [1memok[0m, [1miph[0m,
- [1mdalton[0m, [1mdyingsoul[0m, [1mantibody[0m, [1mjandor[0m, [1mslackzor[0m, [1mpogue[0m, [1marlequin[0m, [1mmapherick[0m,
- [1mabnormal[0m, [1mspi7fire[0m, [1msmurf[0m, [1mzylone[0m, [1mdidjital[0m, [1mmr. d[0m, [1marc[0m, [1mcirce[0m, [1mdf2[0m, [1mimpure[0m,
- and [1mpurg [0mof coz .. ;)
+[1;30m [0;1;37m          [0m  [1m        [0m  [1m       [0m  [1m         [0m  [1m    [0m  [1m    [0m  [1m       [0m  [1m    [0m  [1m   [0m 
+ [1m      [0m  [1m         [0m  [1m        [0m  [1m      [0m  [1m        [0m  [1m     [0m  [1m        [0m  [1m         [0m 
+ [1m        [0m  [1m        [0m  [1m     [0m  [1m      [0m  [1m        [0m  [1m     [0m  [1m   [0m  [1m     [0m  [1m   [0m  [1m      [0m 
+     [1m     [0m            
 
- [1;30m:[0m:[1m: apologies :[0m:[1;30m:[0m
+ [1;30m [0m [1m             [0m [1;30m [0m
 [1;30m ∙~~~~~~~~~~~~~~~∙[0m
-[1;30m [0;1;37mriddler[0m^[1mblend [0m..
+[1;30m [0;1;37m       [0m [1m      [0m  
 
    [1m___/\___ [0;1;30m.----------------------------------------.   .----------------.[0m
 [1;30m.--[0;1;37m>_ Oo _<[0;1;30m-|  [0;1;37mcut this fucker right here![0m      [1;30m.----┴---┴----------------┴---.[0m

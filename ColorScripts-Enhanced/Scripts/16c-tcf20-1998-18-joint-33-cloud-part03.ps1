@@ -5,7 +5,7 @@
 # Source SHA-256: ada879ca224d0cd7d2fa2fd886960c227ee4065fe4640ff134b47316abbfa885
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 1998 - 18 - Joint - 33-cloud.ans by Eerie + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 69-101
 # Columns: 1-80
 
@@ -35,11 +35,11 @@ Write-Host '
 [33m█▄  [0;31m▀[0;1;31m▀[0;1;31;41m▀█[0;1;31;47m▒▓▓[0;1;31;41m█▀[0;31m█  [0;1;31;43m██████████████████████████[0;1;31;40m███████▄  [0;31m▀[0;1;31m▀[0;1;31;41m▀█[0;1;31;47m▀░▒▓[0;1;31;41m▀[0;31m█   ▐[0;1;31;41m█[0;1;31;47m░▒▓▓█[0;1;31;41m█▌[0;31m▌[0;1;31;41m▓[0;1;31;47m▓[0;1;31;41m█▀[0m
                                                                  [31m▐[0;1;31;41m▓[0;1;31;47m▒▓[0;1;31;41m████[0;1;31;47m▓▓[0;1;31;41m██▀[0;31m▀[0m
 [36m▓ ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀░░  [0;1;31;41m░[0;1;31;47m▓▓[0;1;31;41m████▀[0;1;31;40m▀[0;31m▀[0m
-[1;37;46m▒[0m  [36moriginal drawing : [0;1;37mfever [0;36m; ansi rendition : [0;1;37meerie  [0;1;37;46m░[0m  [36ma [0;1;37mlegion [0;36mteam thing  ░[0m
+[1;37;46m▒[0m  [36m                   [0;1;37m      [0;36m                   [0;1;37m       [0;1;37;46m░[0m  [36m  [0;1;37m       [0;36m            ░[0m
 [1;37;46m█[0;1;37;40m▄▄▄▄[0;36m▄▄▄[0;1;37m▄[0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37;46m▓[0;1;37;40m▄▄[0;36m▄[0;1;37m▄[0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m
 [1;37;46m▓[0;36m░[0m                                                                            [36m█[0m
-[1;37;46m▒[0;36m░[0m                        [1;30minsert cloudcity stats here[0m                         [1;46m░[0m
+[1;37;46m▒[0;36m░[0m                        [1;30m                           [0m                         [1;46m░[0m
 [1;46m░[0m                                                                             [1;46m░[0m
 [1;46m░[0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0m
-[36m▓[0m          [1;30mfor proof that this picture wasn''t intended to suck, visit[0m         [36m░[0m
-[36m░[0m               [1;30mfever''s gallery at [0mhttp://cyber.wmis.net/~fever[0m'
+[36m▓[0m          [1;30m                                                          [0m         [36m░[0m
+[36m░[0m               [1;30m                   [0m                            [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b2e383c1b473eed754199f81516370af7d3af2d0ebd3b7df5f2a0083289c25a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-XMAS.ANS by Discyple + Prizm (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -37,9 +37,8 @@ Write-Host '
 [33m$$$$) [0;37m)[0;1;37m xmas wish list[0m )             [33m.d$$$$$$$[0m      [37m [0;31m$TUS4$$$[0;35m [0;37m`[0;1;30m.d$b┐d$b.[0m
 [33m___  [0;37m/ -------------- /[0m            [37m [0;33m  ____________$ [0;37m [0;35m$$$[0;31m4$[0;35m$$$[0;1;30m.d7'' $$$[0m [1;30m`²╛/[0m
 [33m\$$ [0;37m| [0;1;37m-[0m ops in #ansi |      [33m  .,┌d$$$$$$$$$$$$$$$$$[0m
-    [37m| [0;1;37m-[0m new sweatpantz\
-     \ [1m-[0m FIDOnet       \
+    [37m  [0;1;37m [0m                
+       [1m [0m                
        -----------------
 
-pz/dy[0m
-'
+pz/dy[0m'

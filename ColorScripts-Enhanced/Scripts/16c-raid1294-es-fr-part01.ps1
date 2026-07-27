@@ -5,7 +5,7 @@
 # Source SHA-256: 689e71da9dd1576535077c1d68ca8b5252a956899d290b30c10b2fb881f75ae3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ES-FR.ANS by Emerald Skelter (RAiD); released in raid1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Forged Reality
 # SAUCE Author: Emerald Skelter
 # SAUCE Group: RAiD
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;37;40mΣm[0meral [1;30msKelter[0m [1;30mR[0mAiD [1m94[0m
+[1;37;40m  [0m     [1;30m       [0m [1;30m [0m    [1m  [0m
                                      [1;30m▄▄▄[0m       [1;30m▄▄▀▀▀▀▀▄▄[0m
 [1;30mGD - Kooky eh?[0m              [1;30m▄▄▄▄▀▀▀▀▀[0;33m▄▄[0m [1;30m▓[0m    [1;30m▄▀[0;33m▄▄█████▄▄[0;1;30m▀▄[0m  [1;30mPes - No more text![0m
 [1;30mSr - Only original[0m [1;30m▄▄▄▀▀▀▀▀▀[0;33m▄▄▄▄████████[0m [1;30m▒[0m  [1;30m▓[0m [33m██████▀▀███[0m [1;30m▒[0m  [1;30m   [0m

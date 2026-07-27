@@ -5,7 +5,7 @@
 # Source SHA-256: 16feba8f08b60f781ab479fe1ec0efe9a17e72f95a4671a09109c2928925c0d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CY-CITY.ICE by Cyclonus (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-80
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
                             [34m▀[0m     [34m▀[0m     [34m▀[0m                       [34m▀[0m       [34m▀[0m
 
 [1;30m┌╒═══════════════════════════════════════════════════════════════════════════╕┐[0m
-[1;37mT[0;1;36mhe [0;1;34mCi[0;34mty [0;1;30m· [0;1;34m(8[0;1;36m13[0;1;37m)377-[0;1;36m68[0;1;37m95 [0;1;30m· [0;1;37mSys[0;1;36mOp[0;1;34m: Th[0;34me Ba[0;1;34mins[0;1;36mter [0;1;30m· [0;1;37m1.[0;1;36m2 G[0;1;37migs Onli[0;1;36mne [0;1;30m· [0;1;34mUS[0;34mR 1[0;1;34m6.8[0;1;36mk D[0;1;37mS[0m
-[1;36mFa[0;1;37mirlig[0;1;36mht  [0;1;34mS[0;34mit[0;1;34me [0;1;30m· [0;1;34mNU[0;1;36mAA  [0;1;37mSite [0;1;30m· [0;1;37mACE [0;1;36mSi[0;1;37mte [0;1;30m·  [0;1;37mMAL[0;1;36mi[0;1;34mC[0;34mE [0;1;34mS[0;1;36mi[0;1;37mte [0;1;30m· [0;1;37mCRC  S[0;1;36mit[0;1;37me [0;1;30m· [0;1;37mTRB[0;1;36mZ  [0;1;34mS[0;34mi[0;1;34mt[0;1;36me[0m
-[1;37mTH[0;1;36mH  Co[0;1;37murie[0;1;36mr  [0;1;34mHQ [0;1;30m· [0;34mVi[0;1;34mSi[0;1;36mON[0;1;37m-X  .97[0;1;36mA [0;1;30m· [0;1;37mFel[0;1;36mony[0;1;37mNET / [0;1;36mPh[0;1;34mel[0;34mon[0;1;34myN[0;1;36mET [0;1;30m·  [0;1;37m96[0;1;36m00  [0;1;37m&  up  O[0;1;36mNLY[0m
+[1;37m [0;1;36m   [0;1;34m  [0;34m   [0;1;30m  [0;1;34m  [0;1;36m  [0;1;37m     [0;1;36m  [0;1;37m   [0;1;30m  [0;1;37m   [0;1;36m  [0;1;34m    [0;34m    [0;1;34m   [0;1;36m    [0;1;30m  [0;1;37m  [0;1;36m   [0;1;37m        [0;1;36m   [0;1;30m  [0;1;34m  [0;34m   [0;1;34m   [0;1;36m   [0;1;37m [0m
+[1;36m  [0;1;37m     [0;1;36m    [0;1;34m [0;34m  [0;1;34m  [0;1;30m  [0;1;34m  [0;1;36m    [0;1;37m     [0;1;30m  [0;1;37m    [0;1;36m  [0;1;37m   [0;1;30m   [0;1;37m   [0;1;36m [0;1;34m [0;34m  [0;1;34m [0;1;36m [0;1;37m   [0;1;30m  [0;1;37m      [0;1;36m  [0;1;37m  [0;1;30m  [0;1;37m   [0;1;36m   [0;1;34m [0;34m [0;1;34m [0;1;36m [0m
+[1;37m  [0;1;36m     [0;1;37m    [0;1;36m   [0;1;34m   [0;1;30m  [0;34m  [0;1;34m  [0;1;36m  [0;1;37m       [0;1;36m  [0;1;30m  [0;1;37m   [0;1;36m   [0;1;37m      [0;1;36m  [0;1;34m  [0;34m  [0;1;34m  [0;1;36m   [0;1;30m   [0;1;37m  [0;1;36m    [0;1;37m        [0;1;36m   [0m
 [1;30m└╘═══════════════════════════════════════════════════════════════════════════╛┘[0m'

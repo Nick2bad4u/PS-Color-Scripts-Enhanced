@@ -5,7 +5,7 @@
 # Source SHA-256: 70a0a0e7fa2a18ea79930df20a64eff82896b508bd54531539eaec3abe58d955
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: R&4-RUN.ANS by Rebal + Aesthetic (jasper); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: run away
 # SAUCE Author: rebal/aesthetic
 # SAUCE Group: jasper
@@ -16,7 +16,7 @@
 
 Write-Host '
                [31m....[0m          [31me[0m       [31mce[0m        [31mev[0m       [31me[0m
-                          [31mt  se  p ie s  c    n  er  m     m   w hol[0m
+                          [31m                                          [0m
                            [31mh[0m              [31man[0m          [31mak[0m   [31me[0m       [31me[0;37m [0;31m .....[0m
               [31m [0m         [1;30m [0m                                                 [31m.[0m
           [37m  [0;1;30m  [0m          [1;30m▄   [0m                   [1;30m▀[0m         [1;30m▀[0m     [1;30m░░[0m   [31m▄[0m     [31m.[0m
@@ -38,6 +38,4 @@ Write-Host '
         [1;30m  [0m              [31m [0;1;30m▓▄▀[0m [1;30m▌[0m ░            [1;30m▌[0m [1;30m▌░[0m [1;30m▀▌[0m [31m▀█[0;1;30m▌[0m     [31m▄[0;1;30m  [0m  [1;30m▀█[0m [1;30m▄▄█▀[0;31m [0m   [1;30mrb[0m
 [1;30m          [0m         [1;30m▐▄[0m  [1;30m▀▀[0m               [1;30m▀[0m   [1;30m▀[0m        [31m▀[0;1;30m▀[0m [1;30m▀[0m     [1;30m  ▀▄[0m [1;30m▄[0m [1;30m▄▓▀▀▄▄[0m [1;30m43[0m
            [1;30m▐▀[0m                [1;30ma[0m                       [1;30ma[0m         [1;30m░ [0m [1;30m▀[0m   [1;30m░[0m    [1;30m▀▀[0m
-                                        [1;30mw[0m            [31m [0m          [1;30my▀▄[0m
-                                                                 [1;30m [0m
-                                                                 [1;30m [0m'
+                                        [1;30mw[0m            [31m [0m          [1;30my▀▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0ffc5c8b6a6199836193ba6e97dc84bc0c83eb3e6f9119d04003f13fac42766e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TLO0P.ANS by Simonking + Potzkoten (bm^l0p); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: thelo0p
 # SAUCE Author: potzkoten^simonking
 # SAUCE Group: bm^l0p
@@ -28,10 +28,4 @@ Write-Host '
 [37m [0;36m█[0;1;36;46m▀[0;1;37;46m██[0;1;36;46m▀▀[0;36m████[0;35m ▀▀▀▀ [0;36m▌[0;35m█[0;1;35;45m░░░[0;35m  ▀▀▀ [0;36m▀[0m          [35m▀▀[0;1;35;45m▒▒▒░░░░[0;35m ▀▀▀▀▀▀  █[0;1;35;45m▒▒[0;35m█ [0;36m▄[0;35m █[0;1;35;45m▒▒[0;35m█ [0;1;35;45m░▒▒░[0;35m [0;36m█[0;35m    [0m
                  [36m▌[0m                                   [36m   [0;35m █[0;1;35;45m░░[0;35m█▄  █[0;1;35;45m░░[0;35m█ [0;1;35;45m ░░ [0;35m [0;1;36;46m▌[0m
 [37m [0;1;33mpzk, sK!   [0m     [36m█[0;1;36;46m▀▀[0;36m██████████▓▓▓▓▒▒▒░░░[0m              [36m   [0;35m▀███[0;1;35;45m░░░░[0;35m██▀[0m    [36m▄▄[0;1;36;46m▌[0m
-[37m [0;1;33m          [0m                                              [35m   ▀▀▀▀▀▀  [0m
-
-
-
-[37m outline: potzkoten/black maiden[0m
-[37m color.shade.outline: simonking/thelo0p[0m
-[37m (c) thelo0p 009[0m'
+[37m [0;1;33m          [0m                                              [35m   ▀▀▀▀▀▀  [0m'

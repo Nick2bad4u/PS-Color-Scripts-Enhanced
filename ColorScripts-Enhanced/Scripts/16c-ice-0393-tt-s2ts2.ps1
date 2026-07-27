@@ -5,7 +5,7 @@
 # Source SHA-256: 3c6200a0f8b34bae78235b584213b93a780284aa0d8cc168b31872e17358e316
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-S2TS2.ICE by Tempus Thales (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -56,7 +56,7 @@ Write-Host '
                                     [31m▀▀  [0;32m▄[0;1;32;42m▄[0;1;32;40m██▀   [0;32m▄[0;1;32m▄[0m
                                         [32m▀[0;1;32;42m▀[0;1;32;40m████████▀[0m
 
-       [1;37;40mSanctuary(tm)·Part II, The Sequel [0;1;30;40m-[0m/[1;30m- [0;1;37mTHG Affiliate [0;1;30m-[0m/[1;30m- [0;1;37mTHG F/X WHQ[0m
-     [1;37mCSC Distribution Site [0;1;30m-[0m/[1;30m- [0;1;37mMercury Distribution Site [0;1;30m-[0m/[1;30m- [0;1;37mo-1 Day Utensils[0m
-          [1;37mSysop''s: Tempus Thales & Mack Daddy [0;1;30m-[0m/[1;30m- [0;1;37m4oo+ Megz [0;1;30m-[0m/[1;30m- [0;1;37m2 Nodes[0m
+       [1;37;40m                                  [0;1;30;40m [0m [1;30m  [0;1;37m              [0;1;30m [0m [1;30m  [0;1;37m           [0m
+     [1;37m                      [0;1;30m [0m [1;30m  [0;1;37m                          [0;1;30m [0m [1;30m  [0;1;37m                [0m
+          [1;37m                                    [0;1;30m [0m [1;30m  [0;1;37m          [0;1;30m [0m [1;30m  [0;1;37m       [0m
         [1;37mUSR DS 14.4 [0;1;30m-[0m/[1;30m- [0;1;37m3o5.755.9o68 [0;1;30m-[0m/[1;30m- [0;1;37m3o5.755.93o8 [0;1;30m-[0m/[1;30m- [0;1;37mANS[0mi[1;30m·[0;1;33mTEMPUS[0;1;30m[[0mi[1mCE[0;1;30m][0m'

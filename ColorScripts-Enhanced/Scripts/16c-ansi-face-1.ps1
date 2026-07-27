@@ -5,7 +5,7 @@
 # Source SHA-256: b10d57b6c0f2c925955f421ec54fd743da901e364376d404dc77eb30b7363304
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FACE_1.ANS by Michael Arnett (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -31,5 +31,4 @@ Write-Host '
 [1;33;47m▒░[0;1;37;40m██[0;1;33;47m▓▓▓▒░[0;1;37;40m██[0;1;33;47m▓▓▓▒▒░[0;1;37;40m█▓▒ █▓ ▌[0;1;37;47m [0;30;47m▀░  ░▒▓[0m [30;47m▓▓[0;37;41m▓▓[0;30;47m▓▓[0m [30;47m▓▒░  ░▀ [0;1;37;40m▐ ▓█ ▒▓█[0;1;33;47m░▒▒▓▓▓[0;1;37;40m██[0;1;33;47m░▒▓▓▓[0;1;37;40m██[0;1;33;47m░▒▓[0;1;37;40m██[0;1;33;47m░[0m
 [1;33;47m▓▒░[0;1;37;40m██[0;1;33;47m▓▒░[0;1;37;40m██[0;1;33;47m▓▓▓▓▓▒▒░[0;1;37;40m█▓▒ █▓ ▄ [0;30;47m▄[0;37;41m░[0;30;47m░ ░▒▓[0;30;41m█[0;30;47m▓▓▓▓[0;30;41m█[0;30;47m▓▒░ ░[0;37;41m░[0;30;47m▄[0m [1;37;40m▄ ▓█ ▒▓█[0;1;33;47m░▒▒▓▓▓▓▓[0;1;37;40m██[0;1;33;47m░▒▓[0;1;37;40m██[0;1;33;47m░▒▓▓[0;1;37;40m██[0;1;33;47m░[0m
 [1;33;47m▓▓▒░[0;1;37;40m██[0;1;33;47m▓▒░[0;1;37;40m██[0;1;33;47m▓▓▓▓▓▒▒░[0;1;37;40m█▓▒ █▓ █▄▄ [0;41m░[0;47m [0;30;47m░▒▓[0;30;41m█[0;30;47m▒▒[0;30;41m█[0;30;47m▓▒░ [0;37;41m░[0m [1;37;40m▄▄█ ▓█ ▒▓█[0;1;33;47m░▒▒▓▓▓▓▓[0;1;37;40m██[0;1;33;47m░▒▓[0;1;37;40m██[0;1;33;47m░▒▓▓[0;1;37;40m██[0;1;33;47m░▒[0m
-[1;33;47m▒▓▓▒░[0;1;37;40m██[0;1;33;47m▓▓▒░[0;1;37;40m██[0;1;33;47m▓▓▓▓▒▒░[0;1;37;40m█▓▒ █▓ ██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██ ▓█ ▒▓█[0;1;33;47m░▒▒▓▓▓▓[0;1;37;40m██[0;1;33;47m░▒▓▓[0;1;37;40m██[0;1;33;47m░▒▓▓[0;1;37;40m██[0;1;33;47m░▒▓[0;1m  [0m
-[1m [0m'
+[1;33;47m▒▓▓▒░[0;1;37;40m██[0;1;33;47m▓▓▒░[0;1;37;40m██[0;1;33;47m▓▓▓▓▒▒░[0;1;37;40m█▓▒ █▓ ██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██ ▓█ ▒▓█[0;1;33;47m░▒▒▓▓▓▓[0;1;37;40m██[0;1;33;47m░▒▓▓[0;1;37;40m██[0;1;33;47m░▒▓▓[0;1;37;40m██[0;1;33;47m░▒▓[0;1m  [0m'

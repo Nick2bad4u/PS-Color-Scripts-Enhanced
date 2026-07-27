@@ -5,7 +5,7 @@
 # Source SHA-256: a1aa0878c5f6b46bef9047d7082cf6e7dfe7305da78fb555d51aa8e285149f63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HW-LOST.ANS by Heat Wave (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Lost Realms
 # SAUCE Author: Heat Wave
 # SAUCE Group: WBT/SHiVER
@@ -23,10 +23,10 @@ Write-Host '
 [30mheat [0;1;37m███[0;30me[0;1;31;41m▓▒░░[0;31m▀▀▀███[0;1;31;41m░[0;30me[0;1;37m▄[0;30m [0;1;31;41m▓▒░[0;31m██████[0;30me[0;1;37m████[0;30meat [0;1;37mmy[0;30mv[0;1;37mspecial[0;30mt[0;1;37mgreetz[0;30m [0;1;37mgoes[0;30mt[0;1;37mout[0;30mv[0;1;37mto[0;30m  heat wav[0m
 [30mheat [0;1;37m███[0;30me[0;1;31;41m▓▓▒░[0;30me[0;1;37m█[0;30mt[0;31m████[0;30me[0;1;37m█▄[0;30m [0;1;31;41m▓▒░[0;31m▀██[0;1;33;41m [0;30mv[0;1;37m▄████[0;30meat [0;1;37mElysius,[0;30me[0;1;37mDarkforce,[0;30mh[0;1;37mSoi,[0;30mw[0;1;37mGrateful[0;30mat wav[0m
 [1;30m░[0;30meat [0;1;37m███▄▄▄▄▄▄█▄▄▄▄▄▄██▄▄▄▄▄▄▄▄▄█████[0;30meat [0;1;37mDead,[0;30m [0;1;37mMavrik[0;30mw[0;1;37mand[0;30m [0;1;37mthe[0;30me[0;1;37mawesome[0;30m [0;1;37mnew[0;30meat wa[0;1;30m░[0m
-[1;30m▒[0;30meat [0;1;37m█[0;30mav[0;31mH[0;30m [0;31mE[0;30m [0;1;31mA[0;30me[0;1;31mT[0;30mt w[0;1;31mW[0;30mv[0;1;31mA[0;30m [0;1;31mV[0;30m [0;1;31mE[0;30mea[0;1;31m∙[0;30m w[0;1;31mW[0;30mv[0;31mB[0;30m [0;31mT[0;30m [0;1;37m█[0;30meat [0;1;37mgroup[0;30m [0;1;37mIntegrity...[0;30m [0;1;37mYou[0;30mt[0;1;37mguys[0;30me[0;1;37mwill[0;30me[0;1;37mdo[0;30m wa[0;1;30m▒[0m
+[1;30m▒[0;30m    [0;1;37m█[0;30m  [0;31m [0;30m [0;31m [0;30m [0;1;31m [0;30m [0;1;31m [0;30m   [0;1;31m [0;30m [0;1;31m [0;30m [0;1;31m [0;30m [0;1;31m [0;30m  [0;1;31m [0;30m  [0;1;31m [0;30m [0;31m [0;30m [0;31m [0;30m [0;1;37m█[0;30m    [0;1;37m     [0;30m [0;1;37m            [0;30m [0;1;37m   [0;30m [0;1;37m    [0;30m [0;1;37m    [0;30m [0;1;37m  [0;30m   [0;1;30m▒[0m
 [1;30m▓[0;30meat [0;1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30meat [0;1;37msome[0;30m [0;1;37mserious[0;30mw[0;1;37mass[0;30m [0;1;37mkicking![0;30mave   heat wa[0;1;30m▓[0m
 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-[30mprince of evil   prince of evil   prince of ev[0;1;30m▄▄▄▄▄▄▄[0;30mince of evil   princ[0;1;30m▄▄▄▄▄▄▄[0m
+[30m                                              [0;1;30m▄▄▄▄▄▄▄[0;30m                    [0;1;30m▄▄▄▄▄▄▄[0m
 [34m████████████████▓▒░[0;30minc[0;37m▄▄[0;1;30;47m▓[0;1;30;40m▄▄▄[0;1;30;47m▓▓▓▓[0;1;30;40m███████████████████████[0;30mce[0;37m▄▄[0;1;30;47m▓[0;1;30;40m▄▄▄[0;1;30;47m▓▓▓▓[0;1;30;40m█████████████[0m
 [34m████████████████▓▒░[0;30min[0;37m█[0;1;30;47m░▒████[0;1;30;40m█[0;1;30;47m▓▓██[0;1;30;40m██████████████████████▌[0m█[1;30;47m░▒████[0;1;30;40m█[0;1;30;47m▓▓██[0;1;30;40m████████████[0m
 [34m███████████████▓▒░[0;30mri[0;37m▐[0;1;30;47m░▒█[0;1;30;40m████████[0;1;30;47m█[0;1;30;40m███[0;1;30;47m███▒▒[0;1;30;40m██████████████[0m▐[1;30;47m░▒█[0;1;30;40m████████[0;1;30;47m█[0;1;30;40m███[0;1;30;47m███▒▒[0;1;30;40m████[0m

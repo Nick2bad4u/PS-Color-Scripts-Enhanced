@@ -5,7 +5,7 @@
 # Source SHA-256: 2587676b644a5c0f6fd8638ba24e9a9b8748fbe876121ca09804df97f0075b2e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: hrv_ansiology.ans by harvest (Lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Church of Ansiology
 # SAUCE Author: harvest
 # SAUCE Group: Lazarus
@@ -49,19 +49,19 @@ Write-Host '
                  [33m░▒▓▒░░░░░▒▓[0m
 
 
-[37m            [0;1;30mThe man, the legend.. his holiness of the EGA palette[0m
-            [1;30mthe minister of 9px, high priest of the CP437 realm.[0m
+[37m            [0;1;30m                                                     [0m
+            [1;30m                                                    [0m
 
 
-            [1;30mA tribute to the ANSI artist known simply as [0;33mnail[0m
-[37m            [0;1;30macknowledging his skills in the art of the holy textmode[0m
-            [1;30mA pivotal figure in the ANSI Art scene where he plays[0m
-            [1;30man important role as the master of ceremonies of the[0m
-            [1;30mSaturday Mass in what became known as the Church of Ansilogy.[0m
+            [1;30m                                             [0;33m    [0m
+[37m            [0;1;30m                                                        [0m
+            [1;30m                                                     [0m
+            [1;30m                                                    [0m
+            [1;30m                                                             [0m
 
 
-                      shout out to all active releasing groups
+                                                              
 
-            [1;30mblocktronics [0;1;34m♥[0;1;30m fire [0;32m♥[0;1;30m hpm [0;1;33m♥[0;1;30m impure [0;1;31m♥[0;1;30m legacy∙krew [0;1;35m♥[0;1;30m mistigris[0m
+            [1;30m             [0;1;34m [0;1;30m      [0;32m [0;1;30m     [0;1;33m [0;1;30m        [0;1;31m [0;1;30m             [0;1;35m [0;1;30m          [0m
 
                                         [30;41m█[0m'

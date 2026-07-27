@@ -5,7 +5,7 @@
 # Source SHA-256: 6e772cdef60ffc94d0bcb77b9be05be91dde8fc719970a3c46a57809391a78f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOUL-2.ANS by SoulScream (none); released in tone0199 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: I'm back... 2000
 # SAUCE Author: SoulScream
 # SAUCE Group: none
@@ -37,12 +37,4 @@ Write-Host '
 [1;31;41m░[0;31;40m▄▄  ▄▄ ▀█[0;1;31;41m░[0;31;40m█▌[0;37;40m   [0;1;30;40m▐██ ██▀▄[0;37;40m  [0;1;30;40m   [0;37;40m  [0;33;40m▄[0;1;31;43m░[0;33;40m▄[0;37;40m     [0;33;40m▀[0;1;31;43m░░▒▒▒▒▒░░[0;33;40m▄▄[0;31;40m ░[0;33;40m▄▄█▓▌[0;1;31;40m  [0;1;30;40m▄█▄ [0;37;40m                [0m
 [1;31;41m▒░░░░░[0;31;40m██▄ ▀▓[0;37;40m    [0;1;30;40m▀█████▀[0;37;40m   [0;1;30;40m   [0;37;40m  [0;1;31;43m░░▒░[0;33;40m▄[0;37;40m     [0;33;40m▀▀[0;1;31;43m░░░░[0;33;40m████████▓▀[0;37;40m   [0;1;30;40m▐█▀▀▄[0;37;40m               [0m
 [1;31;41m▓▒▒▒▒▒░░░[0;31;40m█▄[0;37;40m    [0;1;30;40m██▄██▀[0;37;40m  [0;1;30;40m      [0;1;31;40m [0;33;40m▐[0;1;31;43m░▒▓▒▒▒[0;33;40m▄▄[0;37;40m     [0;33;40m▀▀██████▓▓▀[0;37;40m      [0;1;30;40m▀█▀▀█▄[0;37;40m             [0m
-[1;31;40m█[0;1;31;41m▓▓▓▓▓▒▒▒░░[0;31;40m▌[0;37;40m  [0;1;30;40m▐██▄ [0;37;40m    [0;1;30;40m    [0;1;31;40m   [0;1;31;43m░▒▓[0;1;31;40m█[0;1;31;43m▓▓▓▒▒░░░[0;33;40m▄▄▄[0;1;31;40m   [0;33;40m▀▀▀▀▀[0;37;40m          [0;1;30;40m ▀▀▄▄▀▄▄▄[0;37;40m        [0m
-[37;40m                                                                                [0m
-[31;40mgive it to me baby, uh huh, uh huh, ok second reversion of soul-1.ans, [0;37;40m         [0m
-[31;40monce i get this to where everyone likes it (yeah right) i will like apply to[0;37;40m    [0m
-[31;40ma group, most likely i''ll be going home, or joining tone, i dunno yet thou..[0;37;40m    [0m
-[31;40m(if u don''t know what i mean by home, well umm my first pic group i''ve ever[0;37;40m     [0m
-[31;40mwas in..) bu bye...[0;37;40m                                                             [0m
-[31;40msoulscream@satanville.com[0;37;40m                                                       [0m
-[37;40m                                                                                [0m'
+[1;31;40m█[0;1;31;41m▓▓▓▓▓▒▒▒░░[0;31;40m▌[0;37;40m  [0;1;30;40m▐██▄ [0;37;40m    [0;1;30;40m    [0;1;31;40m   [0;1;31;43m░▒▓[0;1;31;40m█[0;1;31;43m▓▓▓▒▒░░░[0;33;40m▄▄▄[0;1;31;40m   [0;33;40m▀▀▀▀▀[0;37;40m          [0;1;30;40m ▀▀▄▄▀▄▄▄[0;37;40m        [0m'

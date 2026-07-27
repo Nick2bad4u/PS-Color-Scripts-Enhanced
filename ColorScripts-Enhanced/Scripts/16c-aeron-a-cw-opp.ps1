@@ -5,7 +5,7 @@
 # Source SHA-256: d0b5d8590f0dfa096ed706eb5898477e1cf398a0d1c363f84cb627684f51edec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Cw-opp.ans by Ceelow (aeron-a); released in aeron-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -32,9 +32,4 @@ Write-Host '
 
 
   [1;33m-──┐[0;1;37mc e e l o w[0;1;30m. . . . .[0m
-     [1;33m└──[0;1;30m([0;1;37mopposed nothing to your own faith...[0;1;30m)[0m
-
-                                                  [1;30m    [0m
-       [1;30m..the above ansi kinda sucks.. its for my script[opp][0m
-       [1;30mthe shading ain''t my best work..[0m
-                               [1;30m [0m          [1;30m..ceelow[aeron(dm)][0m'
+     [1;33m└──[0;1;30m [0;1;37m                                    [0;1;30m [0m'

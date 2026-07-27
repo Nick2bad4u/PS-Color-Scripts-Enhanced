@@ -5,7 +5,7 @@
 # Source SHA-256: 9f4c3b4e8d6ff644f203cbea019cac67ca9aea01903c452b671a78dbcf24baee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-sc.ans by meatpod (serial); released in serial05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: freebie face
 # SAUCE Author: meatpod
 # SAUCE Group: serial
@@ -23,7 +23,7 @@ Write-Host '
                                   [1;34m$$$$$$$[0;34m,`[0;1;34m?P[0;1;35m [0;35m. [0;34m,[0;1;34m$P[0;34m''[0m     [1;35m [0;35m,[0;1;35m$$$b[0;35m.[0m          [35m.[0;1;35m [0;1;30m ` [0;35m.[0m
                                   [34m`[0;1;34m$$$$$$$''[0;34m,`[0;35m,i[0;37m [0;34m"`[0m      [1;35m [0;35m,╜"`"╙[0;1;35m$b[0;35m.[0;1;35m [0m       [1;35m [0;35mh,,`[0m
                                     [34m`[0;1;34m"╨"`[0;34m.[0;1;34m [0;35m,[0;1;35md$$b[0;35m,._[0;1;35m  [0;35m.,gP`[0m     [35m`[0;1;35m?$b[0;35m,[0m      [35m,$╜[0;1;35m [0;1;30m  [0m
-         mAYBE yOU wANT tO          [1;34m  [0;34m   [0;1;34m [0;35m;[0;1;35m$$$$$$$$$$$$$[0;35ml[0;1;35m [0m      [35m;[0;1;35m$$$$b[0;35mggd$P`[0;1;30m    [0m
+                                    [1;34m  [0;34m   [0;1;34m [0;35m [0;1;35m             [0;35m [0;1;35m [0m      [35m [0;1;35m     [0;35m      [0;1;30m    [0m
        uSE tHIS fOR yOUR bOARD?!?!    [34m  [0;37m  [0;35m`[0;1;35m?$$$$$$$$$$$$$P[0;35m╜""╙[0;1;35m?b$$$$$$$$$[0;35m''[0;1;30m    [0;1;35m [0;1;30m [0m
                                             [35m``"╙[0;1;35m?$$$$$$P[0;35m`[0m       [35m`[0;1;35m?$$$$$$[0;35m''[0;1;30m  [0;1;35m [0;1;30m    [0m
                                              [35m`[0;1;35m   [0;35m`[0;1;35m$$$$[0;35m''[0m        [1;35m   ?$$$$[0;35mP[0;1;35m [0;1;30m   [0;1;35m  [0;1;30m  [0m
@@ -37,12 +37,10 @@ Write-Host '
                                                   [1;35m  [0m    [1;35m  [0;35m`╙[0;1;35m$$$$$$$$P[0;35m''[0;1;35m  [0m
                                                   [1;35m           [0;35m`╙[0;1;35m?$$P[0;35m''[0;1;35m  [0m
 [cutty cutty]-------------------------------------------------------------------
-hey, I did this a while ago, and the op I did it for didn''t really want it, so
-it''s up for grabs essentially. this pic is only say... 25% original. if you can
-find out where I got it from (not a comic! hint!), I will send you $75. I know
-I told somebody, but that somebody doesn''t count, so forget them. anyway,
-use it if it
-grabs
-you
--meatpod
-[30maNTI pEOPLE nOW yOU''VE gONE tOO fAR... hERE''S yOUR aNTICHRIST aSCIIARTIST[0m'
+                                                                              
+                                                                               
+                                                                              
+                                                                         
+            
+     
+you[0m'

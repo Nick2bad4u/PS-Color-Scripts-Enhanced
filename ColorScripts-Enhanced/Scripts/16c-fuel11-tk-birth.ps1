@@ -5,7 +5,7 @@
 # Source SHA-256: 53806ed08526a98150aae51014238dc7232fa465bfcbb31e00e8e58348578b64
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-BIRTH.ANS by The Knight (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Monitor giving birth
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel
@@ -38,10 +38,4 @@ Write-Host '
     [1;30m▀█▄[0m▀▓▓█[1;47m▀▀▀[0m█▄  [32m▀▀▓█▄▄▄▄[0;37m  ▀ [0;1;30m▀[0m▀ [1;30;47m▒[0;1;37;47m▓[0m█ [1;47m▓▓[0m [1;30;47m▓[0;32m▄[0;1;32;42m░[0;32m▄▀[0;1;32m▀[0m  ▄▄██████[1;47m░░░░[0;30;47mtk(fuel)[0;37;40m▓▓▀▀ [0m
     [37;40m  [0;1;30;40m▀█▄▄[0m▀▀▀▀▀▀▀▀▀     [32m▀▀▀▓██▄▄[0;37m  [0;1;30m  [0m▀[1m▀[0m▀[1;32m▄[0;32m▄[0;1;32;42m▒[0;32m▓▀[0;37m  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   ░░   [0m
     [37m     [0;1;30myour new fuel proof[0m [32m▀▀▓██▄█[0;1;32;42m░▒▓[0;32m▓[0;1;32;42m▒[0;32m▀[0;37m [0;1;30mmonitor just gave birth..[0m
-                                 [32m▀▀[0;1;32m▀[0;32m▀▀▀[0;37m [0;32m▀[0m     [37m [0m
-                                   [1;30m [0m
-: another [1mthe knight[0m of [1mfuel[0m original ansi. if you want to use this as for
-: instance a matrix on your board, write me an email and i''ll personalize it
-: for you (if i have time, and you have a proposal for either trade or pay)
-: no site or ansi beggars please. mail to [1msiemen.ghysens[0;1;36m@[0;1;37mping.be[0m or find me
-: on irc in [1m#fuel[0m, #ansi as [1mTheKnight[0m or [1mTeakay[0m...[0m'
+                                 [32m▀▀[0;1;32m▀[0;32m▀▀▀[0;37m [0;32m▀[0m     [37m [0m'

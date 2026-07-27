@@ -5,7 +5,7 @@
 # Source SHA-256: 7a6d070e0a52219cc31ab6b3d5e9dbaffd622513a87dfa2e75ab07d06fbc2f22
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW_CL2.ANS by black weasel (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cluster#2
 # SAUCE Author: black weasel
 # SAUCE Group: Phat Studios '97
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[36m([0;1;36mfor:[0;36m go#04//atlantis) ([0;1;36mtitle:[0;36m go#04 entry)[0m
-[36m([0;1;36mcomment:[0;36m for nail''s go#04.. got the 7th place...) [0m
+[36m [0;1;36m    [0;36m                   [0;1;36m      [0;36m             [0m
+[36m [0;1;36m        [0;36m                                          [0m
 
 [1;31;47m░▄[0;1;31;41m██▀   [0;31m███[0;1;31;41m▄▄▐███▓▓███[0;1;31;47m▀▀▐[0;1;31;41m▌▄▌[0;31m█[0;1;31;41m▄▓▄  ░░[0;1;31;40m▀[0;33m▄[0;31m [0m             [33m▀[0;1;33;43m▀[0;1;33;40m██[0;1;33;43m▓▓█[0;1;33;40m██[0;1;37;40m███[0;1;33;40m█[0m
 [1;31;47m▐[0;1;31;41m█▀[0;31m█[0;1;31;41m  ▄▄██[0;1;31;47m█▀▀▀▐[0;1;31;41m███[0;1;31;47m▀▀ ░░▄[0;1;31;41m▓▓█[0;31m██[0;1;31;41m▐▀[0;31m█[0;1;31;41m▄[0;31m▀[0;1;31m▀[0;33m▄▄▌[0;31m   [0m             [33m▀▀[0;1;33;43m▀[0;1;33;40m██[0;1;33;43m██[0;1;37;40m██[0;1;33;43m▓▓[0m
@@ -42,9 +42,9 @@ Write-Host '
        [35m▐▀▀[0m                            [35m▐▀[0;37m  [0;1;34m▄[0;34m▄▄[0;1;34;44m░▄▄▄▄██[0;1;34;47m▀▀▀▀[0;34;47m░░[0;1;34;47m▄▄[0;1;34;44m███▀▀[0;34m██▌[0m
 [33ma[0;1;33mtlantis[0;1;37mbbs soft[0m                      [35m▀[0;1;34m▄[0;1;34;44m░░ ▀▀▀▀▀▀▀▀[0;44m▐▀[0;1;34;44m▀▀▀▀▀▀[0;34m█[0;1;34;44m░░[0;34m█[0;1;34;44mb!w[0;34m▀  [0m
 
-[36m([0;1;36mfor:[0;36m friend//hag) ([0;1;36mtitle:[0;36m h.a.g. files menu)[0;37m [0;36m([0;1;37mrequest[0;36m)[0m
-[36m([0;1;36mcomment:[0;36m for a real good friend outta scene for his bbs.. i think it''s[0m
-          [36mmy best one!?)[0m
+[36m [0;1;36m    [0;36m               [0;1;36m      [0;36m                   [0;37m [0;36m [0;1;37m       [0;36m [0m
+[36m [0;1;36m        [0;36m                                                              [0m
+          [36m              [0m
 
 [36m▓▓░░[0;37m [0;34m▄▌     ▄▌[0m    [34m▄[0m    [34m▄  ▐▄  ▄[0m    [34m▄[0m    [34m▐ ▄    ▐▄[0m    [33m▐[0;1;33m██[0;1;33;47m█[0;1;33;43m▀files▄█▓▓  [0;1;33;40m [0m
 [36m░░[0;34m▄▄▐[0;1;34;44m   [0;34m▄  ▐[0;1;34;44m [0;34m█▄ [0;37m▄[0;1;37m▄▄▄▄▐█▌▄█▀[0;1;36;44m [0;34m▄ ▐▌[0m   [34m▐▄▌ [0;37m▐[0;1;37m▄▄▄[0m▄[34m ▄▌[0;1;34;44m▐▄[0;34m▌▄▄  [0;33m▀[0;1;33;43m▀▌▄██████[0;1;33;40m█[0;1;33;43m██▓▓[0;1;33;40m [0m

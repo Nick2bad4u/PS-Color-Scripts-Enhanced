@@ -5,7 +5,7 @@
 # Source SHA-256: a80d7d5a52be87155bc7bd84d150d9105a94f45e51e2a9107796d023a2a8b47a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: xt-endor.ans by Exocet (riot1197); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -34,7 +34,4 @@ Write-Host '
                            [37;40m▀▀▀▀▀▀[0;37;45m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37;40m▀▀▀▀▀▀[0m
 
               [35;40m           [0m
-[1;30;40m--------------------------------------[whack]-----------------------------------[0m
-       Done for a dude named Dopie a *really* long time ago. Unfortunately,
-       I''ve been plagued with much work, but hell, i got it done. Send your
-       requests for ansi, ascii, or ripscript to Ehksohset@hotmail.com[0m'
+[1;30;40m--------------------------------------[whack]-----------------------------------[0m'

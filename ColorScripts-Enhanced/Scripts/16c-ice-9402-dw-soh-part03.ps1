@@ -5,7 +5,7 @@
 # Source SHA-256: fdba19e9dc6c20a940eb1289b95a3b3bd71b12eb9505a6a8f9cf7dad7aee7c39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DW-SOH.ICE by Darkwolf (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 79-115
 # Columns: 1-80
 
@@ -46,4 +46,4 @@ Write-Host '
 [1;34m   [0;1;30m▄[0;1;30;47m██▓▓▒▒░░[0m██████████▀     ▀▀▀▀▀▀▀▀▀▀ ▄█████     [1;30;47m▓▓▒▒▒▒▓[0;1;30m██ [0;1;34mLord Soth [iCE][0m
 [1;34m [0;1;30m▄██[0;1;30;47m███▓▓▒▒░░[0m█████▀▀                  ▀▀▀███▌    [1;30m▐█[0;1;30;47m▓▓▓▓▓[0;1;30m███▌[0;1;34mMetal Head [iCE][0m
 [1;30m▀▀▀▀▀    ▀▀▀▀▀▀▀[0m                                   [1;30m▀▀▀▀▀████ [0;1;34mInquisitor [iCE][0m
-     · S   O   U   T   H      O   F      H   E   L   L · [1;30m▀▀▀▌ [0;1;34mAsriel [TRiBE][0m'
+                                                         [1;30m▀▀▀▌ [0;1;34m              [0m'

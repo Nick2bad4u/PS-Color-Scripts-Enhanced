@@ -5,7 +5,7 @@
 # Source SHA-256: d425c79595a9a96280bb4ac43b5966b5048d713f75c77630e5718978251057f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-1123.ANS by zir (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: october 23 font collage
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
- what''s in a number. how''s in a name. numbername.           [30;47m►[0;37;40m►[0;30;47m►ZIR-NMNM.ANS[0;37;40m►[0;30;47m►[0;37;40m▓[0;1;30;40m▐[0m
+                                                            [30;47m►[0;37;40m►[0;30;47m►            [0;37;40m►[0;30;47m►[0;37;40m▓[0;1;30;40m▐[0m
                                                             [1;30m░[0m [1;30m░░░░░░░░░[0m [1;30m░░░[0m [1;30m░░░[0m
 [1;30m--------------------------------------------------------------------------------[0m
 [36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
@@ -53,7 +53,7 @@ Write-Host '
 [34m░[0;1;30m░░░░░[0;34m░[0;1;30m░░░░[0m [1;30m░[0m [36m░░░░░░[0;37m  [0;36m▀▄▄▒■ [0;1;30m░░[0m [36m░[0;1;30m ░░░░░[0m [1;30m░░░░[0m [1;30m░░░░░░░ ░ ░░░░[0m             [1;30m░░ ░░░░░[0m
 [1;30m-----------------------[0;36m░░[0;1;30m-------------------------------------------------------[0m
 
- [1;30m▌[0m█►[30;47m►ZIR-PNDA.ANS[0;37;40m►[0;30;47m►[0;37;40m►[0m                  [37;40mlong live ponaldadania. long live warpus.[0m
+ [1;30m▌[0m█►[30;47m►            [0;37;40m►[0;30;47m►[0;37;40m►[0m                  [37;40m                                         [0m
 [37;40m [0;1;30;40m░░[0m [1;30m░░░░░░░░░[0m [1;30m░░░[0m [1;30m░[0m
 [1;30m--------------------------------------------------- ▄▄[0;1;30;45m▓▀▀▀▀▀▓▓▓[0;1;30;40m▄▄ --------------[0m
  [34m░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;30m▓[0;1;33;47m░░░░[0;1;30;40m▓░░[0;34m░░░░░░░░░░░[0;1;30m ▄▄[0;1;30;45m█▀█▄▄▄▄[0;1;31;45m▀░[0;1;30;45m▄▄[0;1;30;40m▀█[0;1;30;45m▄▄[0;1;30;40m█[0;1;30;45m▀▀[0;1;30;40m█▄▄  [0;34m░░░░░░░[0m

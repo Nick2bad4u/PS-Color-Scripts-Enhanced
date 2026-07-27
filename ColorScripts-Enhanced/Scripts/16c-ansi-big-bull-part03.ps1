@@ -5,7 +5,7 @@
 # Source SHA-256: c8d8c68b2f462df98bfb3b0ea66badd64d0bd5fabd5c7e32d86b133dd14e7ab2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIG_BULL.ANS by David Hartmann (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 72-102
 # Columns: 1-80
 
@@ -37,7 +37,6 @@ Write-Host '
 [30;41m▒    ▓▀           █▄▒[0;1;30;40m▀▀▀[0m                [32m██[0m         [32m██    ██  ██   ██[0m
 [32;41m    [0;30;41m▓           ▄▀  [0;1;30;41m▀[0;1;30;40m▄[0m                  [32m▐█▄  ▄█▌   ▐█▄  ▄█▌  ██   ██[0m
 [32;41m   [0;30;41m▓           ▓      [0;1;30;41m▀[0;1;30;40m▄   ▄▄[0m            [32m▀████▀[0m     [32m▀████▀   ██   █████[0m
-[32;41m  [0;30;41m▓           ▓       ▐▌[0;1;30;41m▀▀▀  ▀[0;1;30;40m▄   [0;1;37;40mSy[0;1;32;40msOp[0;32m: Sambacious & Wanda Woman - Home [0;1;32mo[0;1;37mf the[0m
-[1;37;41m             [0;30;41m▓        ▓       [0;1;30;41m▐[0;1;30;40m▌   [0;1;37;40mMa[0;1;32;40mgne[0;32mtic Core! Running WILDCAT! 3.5[0;1;32m0 Op[0;1;37men[0m
-[1;37;41m            [0;30;41m▓        ▓       ░[0;1;30;40m█[0m     [1;37;40mTo [0;1;32;40mall [0;32mCallers 24hrs ∙ Welcome & [0;1;32mEn[0;1;37mjoy![0m
-By the way, what was your[0m'
+[32;41m  [0;30;41m▓           ▓       ▐▌[0;1;30;41m▀▀▀  ▀[0;1;30;40m▄   [0;1;37;40m  [0;1;32;40m   [0;32m                                  [0;1;32m [0;1;37m     [0m
+[1;37;41m             [0;30;41m▓        ▓       [0;1;30;41m▐[0;1;30;40m▌   [0;1;37;40m  [0;1;32;40m   [0;32m                              [0;1;32m    [0;1;37m  [0m
+[1;37;41m            [0;30;41m▓        ▓       ░[0;1;30;40m█[0m     [1;37;40m   [0;1;32;40m    [0;32m                          [0;1;32m  [0;1;37m    [0m'

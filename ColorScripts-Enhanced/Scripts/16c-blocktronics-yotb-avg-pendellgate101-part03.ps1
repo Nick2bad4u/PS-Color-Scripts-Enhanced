@@ -5,7 +5,7 @@
 # Source SHA-256: 6ced33d4635dda585eecfa413db82366e5f5ea9a44335e37c27b78eebbe3ae77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-pendellgate101.ans by Avenging Angel (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 83-123
 # Columns: 1-80
 
@@ -49,5 +49,4 @@ Write-Host '
 [1;35m [0m                        [33;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;35m [0m                        [31;43m████▄[0;33;40m██[0;31;43m██▄[0;33;40m█[0;31;43m▄[0;33;40m██████████████████[0m
 [35;40m [0m                        [31;40m░░░░░[0;35;40m  [0;31;40m░░░[0;35;40m [0;31;40m░▓░▓░▓░▓░▓░▓░▓░▓░▓░[0m
-[35;40m [0m                                    [31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m  [0;1;35;40mavg_[0m
-'
+[35;40m [0m                                    [31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m [0;31;40m░[0;35;40m  [0;1;35;40mavg_[0m'

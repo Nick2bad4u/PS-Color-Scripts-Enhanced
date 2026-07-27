@@ -5,30 +5,30 @@
 # Source SHA-256: 34213223e929a96aa90398ac8bdfba8eb6038bb3108342e8a33f2e0cacd442a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX_DRAW.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
 
- [1;30mhere is a whole lot of ansis to a[0m [1;30mdrawer called itpdraw[0m
- [1;30mthe drawer is not called itpdraw anymore ...and it is not[0m
- [1;30m"itp''s official drawer" (who cares anyway) ...originaly[0m
- [1;30mtmowhrekf (former orphic) should have coded the drawer[0m
- [1;30mfor Legion but since he discoverd that itp was a much[0m
- [1;30mbetter group than all other groups that existed in the[0m
- [1;30mwhole world (i dont only mean this planet;))  he decided[0m
- [1;30mto make itp-draw instead ....now he have discoverd that[0m
- [1;30mthere is few people that know of itp(draw)s existance[0m
- [1;30m.and since former itpdraw was the best drawer in the whole[0m
- [1;30mworld(as with everything that have been in contact with[0m
- [1;30mitp), he wanted more people to use it ..soo now he is[0m
- [1;30mrecoding everything and adding millions features ....[0m
-[1;30m there is going to be diffrent layout-sets to the drawer,[0m
- [1;30mthe ability to make your own ansi screens for it, file[0m
- [1;30mmanagement functions and lots other stuff[0m
+ [1;30m                                 [0m [1;30m                     [0m
+ [1;30m                                                         [0m
+ [1;30m                                                       [0m
+ [1;30m                                                      [0m
+ [1;30m                                                     [0m
+ [1;30m                                                      [0m
+ [1;30m                                                        [0m
+ [1;30m                                                       [0m
+ [1;30m                                                     [0m
+ [1;30m                                                          [0m
+ [1;30m                                                       [0m
+ [1;30m                                                     [0m
+ [1;30m                                                     [0m
+[1;30m                                                         [0m
+ [1;30m                                                      [0m
+ [1;30m                                         [0m
 
- [1;30m//alla xul[0m
+ [1;30m          [0m
 
 
 ▒[1;30m▓▓■■■■■■■[0m  [1;30m■■■[0m        [1;30m▒▓▓[0m      [1;30m■■[0m   [1;30m■[0m     [1;30m ░░[0m         [1;30m■■[0m [1;30m■[0m  [1;30m■[0m      [1;30m■■■■■■■■■■██[0m
@@ -55,5 +55,4 @@ Write-Host '
 [1;30m▄▐[0m [1;30m▌[0m      [31m▀▓[0;1;31;41m▀▄▐[0;1;31;40m▌▀[0;31m  [0m       [1;31m▀[0;1;31;41m■[0;1;31;40m▄[0;1;30;40m [0;1;31;41m▒[0;31m▓[0;1;30m░[0m   [31m▀■■■■▀[0;1;31m■■[0;31m■[0;1;31m▓▄▄[0;31m▄ [0;1;30m▀▀■■■▓▄  ▌[0;1;31m▒[0;31m▓■▀[0;1;31m▓[0;1;30m░▀ [0;31m▄■■▀▀[0m    [1;30m▄ ▓[0m
 [1;30m▐▐[0m [1;30m▌[0m        [31m▀▄[0;1;30m [0;1;31m▀[0m             [31m▀[0;1;31;41m▐[0;31m▌[0m                 [31m▀[0;1;31m▀▀▀[0;31m■[0;1;31m■▄[0;31m▄[0;1;30m▀  [0;31m▐▌[0;1;30m [0;1;31m▐[0;1;31;41m▄■[0;31m▀▀[0m         [1;30m▐▌▓[0m
 [1;30m▐█▄▄▄▄[0m [1;30m▄[0m      [31m▀[0m                [31m▀[0m                         [31m▀[0;1;31m▀■[0;31m▄▓[0;1;37m [0;1;31m▀[0m      [1;30m▄[0m  [1;30m▄▄▄▄▓▓▓[0m
-[1;30m▓▓■■■■[0m [1;30m■■[0m [1;30m■■[0m      [1;30m■[0m [1;30m■■[0m                          [1;30m■■[0m               [1;30m■[0m [1;30m■[0m [1;30m░░■■■■■■■▓█[0m
-'
+[1;30m▓▓■■■■[0m [1;30m■■[0m [1;30m■■[0m      [1;30m■[0m [1;30m■■[0m                          [1;30m■■[0m               [1;30m■[0m [1;30m■[0m [1;30m░░■■■■■■■▓█[0m'

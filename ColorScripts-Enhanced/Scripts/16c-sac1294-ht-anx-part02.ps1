@@ -5,7 +5,7 @@
 # Source SHA-256: 0a02303acd1d9d8b77d66702c5f299fa94568b5556e72fffc7fa0dd6f27a6d2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-ANX.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ANXIETY
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -24,7 +24,7 @@ Write-Host '
 [36m░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [36m░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;31m▄ [0;1;30m▄▄▄▄▄▄▄ [0;31m▀ [0;1;30m▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30m·ANXIETY·ANXIETY·ANXIETY·ANXIETY·ANXIETY· NX [0;1;31m▄   [0;1;30mA [0;31m▒ [0;1;30mET ·A [0;31m▀ [0;1;30mETY·ANXIETY·ANXIET[0m
+[1;30m                                             [0;1;31m▄   [0;1;30m  [0;31m▒ [0;1;30m      [0;31m▀ [0;1;30m                  [0m
 [1;30mANXIETY·ANXIETY·A [0;31m▄ [0;1;30mETY·ANX [0;1;31;41m░[0;31m░  ▄ [0;1;30mXIETY·   IE [0;31m▀[0;1;31;41m▓▓[0;1;31;40m▄[0;1;31;41m▒░░[0;31m▄▄▀ [0;1;30mNXIET  [0;1;37m▄▄▄▄▄ [0;1;30mY·ANXIETY[0m
 [1;30m [0;1;37m▄▄  [0;1;30mY·ANXIETY·ANXI [0;31m▀ ░█▄  [0;1;31;41m░[0;31m░ [0;1;30m·A   [0;31m▄   [0;1;37m▄ [0;31m▀    ░[0;1;31m▄█[0;1;31;41m▓▓▒[0;31m▀[0;1;31;41m░[0;31m▄ ▄▄ [0;1;30mE [0;1;37m▄[0;1;37;47m▒▓▓▓▓[0;1;37;40m▀ [0;31m▄ [0;1;30mANXIETY·[0m
 [1;30m [0;1;37m▀[0;1;37;47m▓▓▓[0;1;37;40m▄▄  [0;1;30;40mI [0;1;37;40m▄▀[0;1;37;47m▓▓[0;1;37;40m▄ [0;1;30;40mI[0m      [31m▀  [0;1;31m▄[0;1;31;41m▒[0;1;31;40m▄  [0;31m▓▀ ░ ▄  [0;1;37;47m▓[0m  [31m▄▒[0;1;31;41m░▒▓▓▓▓▒░[0;31m▀  [0;37m▄▄▄▄▄ [0;1;37m▀▀▀▀ [0;1;30m░░  NXIETY·A[0m
@@ -46,9 +46,9 @@ Write-Host '
 [1;30;40m [0;1;31;41m░[0;1;31;40m▀[0;31m▄[0;1;31;41m░░[0;31m░ [0;1;30mNXIETY·  [0;1;30;47m▓▓▓[0m [1;30;40mY·ANX [0;1;30;47m▓▓[0;1;30;40m▀ ANXIETY· [0;31m▀▀ ▀▄█[0;1;31;41m░▒░[0;1;31;40m▀ [0;1;30;40m▄[0;1;30;47m▓▓[0;1;30;40m▄[0;1;30;47m▓▓▓▓▓▓[0;1;30;40m▀▀▀▀▀▀▀[0;1;30;47m▓▓▓[0;1;30;40m▄  ▀[0;1;30;47m▓▓[0;1;30;40m▀[0m
 [31m░[0;1;31m▀[0;31m░  ▀[0;1;31;41m░[0;31m▄█ ▀ [0;1;30mY·ANXIETY·ANXIETY·ANXIETY·A [0;31m▄ ░▄[0;1;31;41m░[0;31m▒ ▀[0;1;31;41m░[0m [1;30;47m▓▓[0;1;30;40m▀▀▀ XIETY [0;31m▄▄░▒[0;1;31;41m░[0m [1;31;40m▄▄ [0;1;30;40m▀▀[0;1;30;47m▓▓▓[0;1;30;40m▀ [0;31m▒[0m
 [31m [0;1;31;41m░[0;31m█  █▄ [0;1;30mI [0;31m▄ [0;1;30m·ANXIETY·ANXIETY·ANXIETY· [0;31m▀ [0;1;30mI [0;31m▄▀ ░  ░  [0;1;30mY·A ░ E [0;31m░ [0;1;30mANXI [0;1;31m▄  [0;1;31;41m░▒▓[0;31m░ [0;1;30mET [0;31m▄[0m
-[31m  ▄ [0;1;30mN [0;31m▄ [0;1;30mETY·ANXIETY·ANXIETY·ANXIETY·ANXIETY·AN [0;31m▄ [0;1;30mTY·ANX ETY [0;31m▀ ▄▄█▀ ▀   [0;1;31;41m░[0m [31m▀▄ ▀[0m
+[31m  ▄ [0;1;30m  [0;31m▄ [0;1;30m                                       [0;31m▄ [0;1;30m           [0;31m▀ ▄▄█▀ ▀   [0;1;31;41m░[0m [31m▀▄ ▀[0m
 [31m  [0;1;30m▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀[0m       [1;30m▀▀▀▀[0m      [1;30m▀▀▀[0m
-       [1;37mA[0mNS[1;30mI BY _\|[0;31m▀[0;1;30m_ HETERO OF LKCC _\|/_ ■■ GREETS TO ROY, RAISER & BACC[0mHU[1mS[0m
+       [1;37m [0m  [1;30m        [0;31m▀[0;1;30m                       ■■                             [0m  [1m [0m
 [1m [0;1;30m───────[0m──[1m─ [0;1;31m▄ [0;1;37m─[0m─[1m─ [0;31m▒ [0;1;37m─[0m───[1m─ [0;31m▀ [0;1;37m─[0m──[1;30m────────────────────────────────────────────────[0m
 [1;30m [0;36m░░░░░[0m       [31m▀[0;1;31;41m▓▓[0;1;31;40m▄[0;1;31;41m▒░░[0;31m▄▄▀  [0;36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [36m ░░░    [0;31m▀    ░[0;1;31m▄█[0;1;31;41m▓▓▒[0;31m▀[0;1;31;41m░[0;31m▄ ▄▄ [0;1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    [0;36m░░░░░░░░[0m
@@ -59,8 +59,8 @@ Write-Host '
 [36m  ░   ░[0m       [1;31;41m▒[0m    [1;30;40m· ─ ─[0m───[1m─────────────────────────[0m───[1;30m─ ─ ·[0m     [1;31;41m▒[0m [1;30;40m░░  [0;36m░  ░[0m
 [36m  ░[0m           [1;31;41m▒[0m                                                  [1;31;41m▒[0m [1;30;40m░░  [0;36m░[0m      [36m░[0m
 [36m  ░[0m     [36m░[0m     [1;31;41m░[0m              ·· T[36mMD E[0;1;36mUROP[0;36mEAN H[0;37mQ ··[0m               [1;31;41m░[0m [1;30;40m░░  [0;36m░  ░[0m
-              [1;31;41m░[0m          ·· LK[36mCC  DI[0;1;36mSTRIBU[0;36mTION SI[0;37mTE ··[0m          [31m▀[0;1;31;41m░░[0m [1;30;40m░[0m     [36m░[0m
-[36m  ░[0m           [1;31;41m░[0m          ·· FATA[36mL DIS[0;1;36mTRIB[0;36mUTION [0;37mSITE ··[0m           [31m█  [0;1;30m░  [0;36m░[0m
+              [1;31;41m░[0m               [36m      [0;1;36m      [0;36m       [0;37m     [0m          [31m▀[0;1;31;41m░░[0m [1;30;40m░[0m     [36m░[0m
+[36m  ░[0m           [1;31;41m░[0m                 [36m     [0;1;36m    [0;36m      [0;37m       [0m           [31m█  [0;1;30m░  [0;36m░[0m
              [31m█[0;1;31;41m░[0;31m▄[0m                                                 [31m▄  [0;1;30m░[0m
               [31m▀[0m           [31m· ─ { S[0;1;31mYSO[0;1;37mP : BAC[0;1;31mCHU[0;31mS } ─ ·[0m           [1;31;41m░░[0;31m▀[0m
               [1;31;41m░[0m                                                  [31m▀[0m'

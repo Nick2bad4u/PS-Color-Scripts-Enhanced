@@ -5,7 +5,7 @@
 # Source SHA-256: 0a12917f973f57d35232f483f1af52e1f6891bab4d85b11309529c7c893bca04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM-XBBS3.ICE by Lemonade (ice9610a); released in ice9610a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -48,10 +48,4 @@ Write-Host '
              [34;40m░[0m               [1;31;40m░[0m    [1m           [0m [1;31m [0m    [1m           [0m  [31m░ [0m           [31m  [0m
 [37m [0;1;31m▀▀▀▀[0;1;31;41m▄▄[0;31m█▄▄▄  [0;37m [0;31m▄▄▄██[0;1;31;41m ░░[0;31m▀▀▀▀[0;37m [0;1;31m░░▓[0;31m█▀▀▀▀▀▀▀▀▀▀[0;1;31m▀█▄[0;1;37m [0;1;31m▀▓[0;31m█▀▀▀[0;1;31m▀[0;31m▀▀[0;1;31m▀▀[0;31m▀[0;1;31m▀▀█▄[0;1;37m [0;31m░░[0;1;31;47m▓[0;1;31;41m░[0;31m▀▀▀▀▀▀▀▀▀▀[0;1;31;41m▄▄[0;1;31;40m▀[0m
        [1;31m▀▀▀[0;1;31;41m▄▄▄[0;31m██[0;1;31;41m░[0;31m▀▀▀ [0;36m [0m       [1;31m [0;1;31;41m█ [0;31m▄▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;1;31;47m▓[0;1;31;40m░ [0;1;31;41m█ [0;31m▄▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;1;31;47m█[0;31m [0;37m  [0;36m [0;1;31m▀[0;31m▀[0;1;31;41m▄[0;31m▄▄▄▄▄▄▄▄[0;1;31m▄▄▄[0m
-[31m [0;1;31m▄▄[0;31m▄▄▄[0;1;31;41m▀▀▀▀[0;31m█▀▀▀[0;1;31;41m░▒░░░[0;31m██▄▄▄▄▄[0;37m  [0;1;31m▄[0;1;31;41m█░[0;31m▄▄▄▄▄▄▄▄▄▄[0;1;31m▄█▀[0;36m [0;1;31m▄[0;1;31;41m█░[0;31m▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;1;31;47m▓[0;1;31;40m▀[0;36m [0;37m [0;1;31m▄[0;1;31;41m▓▀[0;31m▄▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;1;31;47m▓[0;1;31;40m▀[0m
- [36m                                    [0m        [36m         [0m
-   [36m [0;34mS[0;31m:[0;34m  Jack Deth [0;31m·[0;34m REMOTES[0;31m:[0;34m  Cyber Taco, Jay [0;31m·[0;34m SYSGODDESS[0;31m:[0;34m  Vampire Raper[0m
-   [37m [0m    [34m      WAREZ[0;31m:[0;34m  White Noise, Sauron[0;37m [0;31m·[0;37m [0;34mGRIM BROZ HEAD QUARTERS[0m
-          [34m [0m
-             [33mA[0;1;33mnsi by [0;33mL[0;1;33memon [0;33m-[0;1;33m no[0;33m,[0;1;33m I''m not dead [0;33m...[0;1;33m YET[0;33m.[0;1;33m [0;33m-[0;1;33m ade of [0;1;37mi[0;1;33mC[0;33mE[0m
-[37m [0;31m    [0m   [31mGreets to Apox (who is suffering without IRC), and Mass Delusion.  [0m'
+[31m [0;1;31m▄▄[0;31m▄▄▄[0;1;31;41m▀▀▀▀[0;31m█▀▀▀[0;1;31;41m░▒░░░[0;31m██▄▄▄▄▄[0;37m  [0;1;31m▄[0;1;31;41m█░[0;31m▄▄▄▄▄▄▄▄▄▄[0;1;31m▄█▀[0;36m [0;1;31m▄[0;1;31;41m█░[0;31m▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;1;31;47m▓[0;1;31;40m▀[0;36m [0;37m [0;1;31m▄[0;1;31;41m▓▀[0;31m▄▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;1;31;47m▓[0;1;31;40m▀[0m'

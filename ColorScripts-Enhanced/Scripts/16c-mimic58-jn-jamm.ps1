@@ -5,7 +5,7 @@
 # Source SHA-256: 0788abc471bc5f65daa6df82b3764fc20ab1d55e9a1746f1d5968cf910354c50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: jn-jamm.ans by Jashiin (Mimic Productions); released in mimic58 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: JAMM!
 # SAUCE Author: Jashiin
 # SAUCE Group: Mimic Productions
@@ -37,7 +37,4 @@ Write-Host '
 [32m_____________$$$$\  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;32m$$[0;32m$$$$$$$$$$$$$$$$[0;1;32m$$[0;32m$$[0;1;32m$[0m
 [32m$$$$$$$$$$$$$$$$$$$\$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-[32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-
-
-[36mJAMM.[0;37m [0;36mA finnish demogroup from long ago :)[0m'
+[32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 127da18a5ed64b4890f64e3fafb6bae44fe00cd71aad01252d72bee1964d9355
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-NN.ANS by Technophreak (blde9405); released in blde9405 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-86
 # Columns: 1-80
 
@@ -51,5 +51,4 @@ Write-Host '
           [31m▄██[0;35;41m░░[0;31;40m▌[0;35;40m▐█[0;31;45m░░[0;35;40m▌[0m               [31;40mt[0;1;30;40mo become a [0;31mBL/.DE [0;1;30maffiliate, D/L the[0m
          [31m█████[0;35;41m░[0m [35;40m███[0;31;45m░░[0m               [31;40ma[0;1;30;40mpp on the [0;31mBL/.DE [0;1;30mBBS nearest you.[0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄ ▄▄  ▄  ▄[0m
-[31m/┤[0;1;30mNSi by TechnoPhreaK - (C)[0;31mBL/.DE [0;1;30m94 - Only he can alter or reproduce this ANSi[0;31m.[0m
-'
+[31m ┤[0;1;30m                         [0;31m       [0;1;30m                                             [0;31m [0m'

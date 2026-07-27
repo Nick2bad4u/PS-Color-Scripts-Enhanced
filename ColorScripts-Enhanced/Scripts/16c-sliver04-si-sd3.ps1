@@ -5,7 +5,7 @@
 # Source SHA-256: 906231e51cd2de846843196b625d8e01f41319514f0ed34bb0a53560d0b1a884
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI!SD3.ANS by Sadistic Intent (sliver04); released in sliver04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -30,7 +30,4 @@ Write-Host '
             [30;46m▄▄▄▄▄▄[0m       [30;42m▌▐[0m    [30;42m▄[0m
                           [30;42m▄[0;30;47m█[0;30;42m▀▄[0m
                          [30;47m██████[0m
-[36;40m+----------░---------------------------------------░▒-----------░------------▒-+[0m
-          [1;36;40mthis ansi belongs to red thunder and his bbs subsonic dream.[0m
-           [1;36mplease do not rip it.  if you would like one of your own,[0m
-                  [1;36mdrop me a line at ditan@telusplanet.net.                [0m'
+[36;40m+----------░---------------------------------------░▒-----------░------------▒-+[0m'

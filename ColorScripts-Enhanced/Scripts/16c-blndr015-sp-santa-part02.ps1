@@ -5,7 +5,7 @@
 # Source SHA-256: 95bf63399d1e0e434f44fe416260248984d92175c48c3df9dc983b720d14b706
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-SANTA.ANS by Seraphim (blndr015); released in blndr015 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 25-51
 # Columns: 1-80
 
@@ -28,12 +28,12 @@ Write-Host '
 [32m███ [0;37;47m███[0;37;40m ▄▄▄ [0;37;47m█[0;1;37;47m▀[0m █[1;47m██[0m [47m█[0;1;47m▄[0m [32m▀▀▀[0;1;32;42m▄ [0m [47m█[0;1;47m▀[0m [47m█[0;1;47m▀[0m▀▀▀ ▄▄ [47m█[0;1;47m▀[0m ▀▀ [47m█[0;1;47m▀[0m [1;32;42m▐▌[0m [47m█[0;1;47m▀[0m █[1;47m██[0m ▀▀▀▀[47m██[0;40m ▄[0;1;40m▄[0m [47m█[0;1;47m█[0m [47m█[0;1;47m▄[0m ▀▀ [47m█[0;1;37;47m▀[0m
 [32m███[0;37m ▄▄▄ ▀▀▀ ▄▄ ▄▄▄ ▀▀ █[0;1;37;47m▀[0m [1;32;42m▐▌[0m ▄▄ ▄▄ █[1;47m▀[0m ▀▀ ▄▄ █[1;47m▀[0m ▄▄ [1;32;42m░░[0m ▄▄ ▄▄[1m▄[0m █[1;47m▀▀[0m ▄▄ ▀▀ ▄▄ ▄[1m▄[0m █[1;47m▀[0m ▄[1m▄[0m
 [32m-<< [0;1;37msANTA[0;32m [0;1;37msEWER[0;32m [0;1;37msKATEBOARD [0;32m>>---------------------------------------------------[0m
-[1;32mtheres a story to be told here[0;32m..[0m
-[1;33msANTA[0;1;32m''s sleigh crashed and 8 of his reindear died so he found himself stuck[0m
-[1;32min tha [0;1;33msEWER[0;1;32m with rudolf[0;32m,[0;1;32m well he met rapheal and he lent santa his [0;1;33msKATEBOARD[0;32m,[0m
-[1;32mnow [0;1;33msANTA[0;1;32m is gonna fly outta the [0;1;33msEWER[0;1;32m in a fucken [0;1;33msKATEBOARD[0m
-[1;32mMAD HUH[0;32m???..[0;1;32m thought so[0;32m!![0m
+[1;32m                              [0;32m  [0m
+[1;33m     [0;1;32m                                                                      [0m
+[1;32m       [0;1;33m     [0;1;32m            [0;32m [0;1;32m                                           [0;1;33m          [0;32m [0m
+[1;32m    [0;1;33m     [0;1;32m                        [0;1;33m     [0;1;32m             [0;1;33m          [0m
+[1;32m       [0;32m     [0;1;32m           [0;32m  [0m
 
-[1;32mit twas fun to draw.. [0m
-[1;32m  [0;32m-[0;1;32m sERAPHIM [0;32m<<[0;1;32m dARK [0;32m>>[0m
+[1;32m                      [0m
+[1;32m  [0;32m [0;1;32m          [0;32m  [0;1;32m      [0;32m  [0m
 [32m--------------------------------------------------------------------------------[0m'

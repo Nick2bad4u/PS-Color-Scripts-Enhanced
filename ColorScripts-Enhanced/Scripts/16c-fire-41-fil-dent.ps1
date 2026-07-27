@@ -5,7 +5,7 @@
 # Source SHA-256: 97f52c71446cd08face7931c650e6cb9c2673d9501d23832aed33d3b0893cc75
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-DENT.ANS by filth (FiRE); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ASCIIDENT
 # SAUCE Author: filth
 # SAUCE Group: FiRE
@@ -39,5 +39,5 @@ Write-Host '
            [1m▀▀▀▀▀[0m          [1m▀▀▀▀▀[0m     [1m█     █          [0;1;35m▌[0m [1;35;45m░[0m   [31mÆ[0;1;35m [0;1;33m$[0;1;35m [0;32m¢[0;1;35m [0;31m¡[0;1;35m [0;1;33m1[0;1;35m [0;1;36m►[0;1;35m [0;35mΣ[0;1;35m [0;1;34mⁿ[0;1;35m [0mt
                                     [1m▀▀▀▀▀▀▀[0m          [35m▌[0;37m [0;35m▓[0m
 [37m                                                     [0;35m▀■[0m
-[37m                         [0;1;37m►Σ▼ε└0pêD[0m [1mß¥[0;31m:[0;37m [0;1;37m╙Æß[0m [1mpû≥≥╘ε[0m [1mLαß[0m
-                        [1mpÜß╘i$Hεd[0m [1mß¥[0;31m:[0;37m [0;1;37mmåG1Ç[0m [1mmαp╘Σ[0m [1mgÆmÉ≤[0m'
+[37m                         [0;1;37m► ▼ └    [0m [1m  [0;31m [0;37m [0;1;37m╙  [0m [1m    ╘ [0m [1m   [0m
+                        [1m   ╘     [0m [1m  [0;31m [0;37m [0;1;37m     [0m [1m   ╘ [0m [1m     [0m'

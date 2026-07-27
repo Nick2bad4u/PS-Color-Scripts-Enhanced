@@ -5,7 +5,7 @@
 # Source SHA-256: 2feee551de06d908ed986c5f805b9b57ce4300131a1590f5519d2cbc6889825e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-namistai.ans by warpus (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: NAMISTAI BBS
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -18,7 +18,7 @@
 Write-Host '
 [34m╔██████████████████████████████████████████████████████████████████████████████╗[0m
 [34m████████████████████████████████████████████████████████████████████████████████[0m
-[30;44m            [0;34;40m██████[0;30;44m "We don''t have slogans, we have standards"                   [0m
+[30;44m            [0;34;40m██████[0;30;44m                                                              [0m
 [34;40m████████████████████████████████████████████████████████████████████████████████[0m
 [34;40m████████████████████████████████████████████████████████████████████████████████[0m
 [34;40m█████▀  ▄▀  ▄▀ ▄▀        ▄▀ ▄▀[0;37;40m  [0;34;40m▄▀ ▄▀   ▄▀        ▄▀        ▄▀        ▄▀   ▄╣███[0m
@@ -29,5 +29,5 @@ Write-Host '
 [37m  [0;34m║[0;1;35;102m├[0;1;35;45m██[0;1;35;44m▌[0;34m ▀[0;34;105m▄ [0;1;35;44m██[0;34;44m█[0;1;35;102m▐[0;1;35;44m█[0;35;105m└[0;1;35;44m▀▀▀███[0;34;44m█[0;1;35;102m▐[0;1;35;44m█▌[0m   [1;35;44m▐██[0;34;44m█[0;1;32;105m►[0;1;35;44m███[0;34;44m█[0;1;35;102m▐[0;1;35m▓▓[0;1;35;44m▄▄▄[0;30;105m┘[0;1;35m█[0;30;105m [0;34m▌   [0;1;32;44m▐[0;1;35;44m██▌[0m  [34;44m█[0;1;35;102m▐[0;1;35;44m█[0;35;105m└[0;1;35;44m▀▀▀███[0;34;44m█[0;1;32;105m►[0;1;35;44m███[0;34m║▀[0m
 [37m  [0;34m▀▀▀▀▀[0;37m   [0;34m▀▀▀▀▀▀▀[0;37m   [0;34m▀▀▀[0;37m [0;34m▀▀▀[0;37m   [0;34m▀▀▀[0;37m [0;34m▀▀▀▀▀▀▀▀[0;37m   [0;34m▀▀▀[0;37m    [0;34m▀▀▀▀[0;37m  [0;34m▀▀▀▀[0;37m   [0;34m▀▀▀[0;37m [0;34m▀▀▀▀[0m
 
-[37m  [0;1;35m%[0;35mnamistai[0;37m [0;35mbbs[0;37m    [0;34m+o [0;1;34maesthetic[0m    [34m1337 petabytes of hardcore australian porn[0m
+[37m  [0;1;35m [0;35m        [0;37m [0;35m   [0;37m    [0;34m   [0;1;34m         [0m    [34m                                          [0m
 [37m       [0;30;44m█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: cf2bd638ac130dc7d9ec55e7fe6527d3f0a313720976e237633a7e8555251eb5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DN!-HDR1.ANS by dreadnought (pHaT studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dreadnoughtic header
 # SAUCE Author: dreadnought
 # SAUCE Group: pHaT studios '97
@@ -45,19 +45,19 @@ Write-Host '
          [1;30m█▌[0m [1;30m▀■[0m           [36m [0;37m [0;36m▄[0m      [36m▀[0m    [1;30m▐▌[0m    [1;30m▄[0m             [1;30m      [0m
           [1;30m▀■[0m        [36m  [0;37m [0;36m▄▀  [0m             [1;30m▀■▄■▀[0m               [1;30m     [0m
                    [36m ▄██▌  [0m                                   [1;30m   [0m
-                  [36m   ██ [0;37m [0;36mThis is a header for myself which[0m   [1;30m   [0m
-[36m                     ██  reads "dreadnought", which is my[0m   [1;30m   [0m
-[36m                     █▓  new nick.  I was formerly known[0m   [1;30m [0m [1;30m [0m
-[36m                     ▓▒  as emberman.  Why I changed my nick?[0m
-[36m                     ▒░  Emberman sounds too dull and boring.[0m
-[36m                     ░   Actually, this ansi is not quite done.[0m
-[36m                         I was in a hurry.[0m
+                  [36m   ██ [0;37m [0;36m                                 [0m   [1;30m   [0m
+[36m                     ██                                  [0m   [1;30m   [0m
+[36m                     █▓                                 [0m   [1;30m [0m [1;30m [0m
+[36m                     ▓▒                                      [0m
+[36m                     ▒░                                      [0m
+[36m                     ░                                         [0m
+[36m                                          [0m
 [36m                      ░  [0m
-                     [36m░▒[0;37m  [0;36mShout[0;1;36mS[0;36m:                               [0m   [36m         [0m
+                     [36m░▒[0;37m  [0;36m     [0;1;36m [0;36m                                [0m   [36m         [0m
 [36m                     ▒▓ [0;37m [0;36m        [0m                                         [36m   [0m
-[36m                     ▓█ [0;37m [0;36mDemon & Misty : keep up the good job with wOe guys.  [0m
-                     [36m██[0;37m  Darkseed : y3r s0 /<-rad 3l33t mAn!!!  s0 k00l d00d![0;36m   [0m
-                    [36m▀██▌[0m            [37mI WaNNA RiP StUFF CuZ i CAn''T DrAW mAN!![0;36m    [0m
+[36m                     ▓█ [0;37m [0;36m                                                     [0m
+                     [36m██[0;37m                                                      [0;36m   [0m
+                    [36m▀██▌[0m            [37m                                        [0;36m    [0m
                       [36m▀█[0m                                                    [36m   [0m
                         [36m▀■[0;37m [0;36m▄[0m                                       [36m           [0m
                                 [36m▀[0m'

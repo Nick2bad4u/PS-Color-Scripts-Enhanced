@@ -5,7 +5,7 @@
 # Source SHA-256: 806872f79183808e905b58ffe93f1983aabaf2dc6c8966b2925532bbd08b318c
 # Source License: FAL-1.3
 # Source Attribution: ROY-OSDM.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -53,5 +53,4 @@ Write-Host '
 [30;40m░▓░▓░▒░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░[0;37;40m [0;1;30;40m░ ░▒░▓░▓░▒░▓[0m
 [30;40m▓░█░█░█░█░▓░▓░▒░▒░▒░▓░▓░▓░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▓░▓░▓░▒░▒░▓░▒░▒░▓░▒░▒░▒░▓░▒░▒░▒░[0m
 [30;40m░▒░█░█░▓░▓░▒░▒░▓░▓░▓░█░█░█░█░▓░▓░▒░▒░▒░▒░▓░▓░▓░█░█░▓░▓░▒░▒░▒░▒░▓░▓░▒░▒░▒░▓░▒░▒[0m
-[30;40m■ ■ ■ ■ ■ ■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40mA N S I ■ B Y ■ R O Y / S A C ■ I N ■ 2 0 1 4[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0m
-[1;30;40m [0m'
+[30;40m■ ■ ■ ■ ■ ■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40mA N S I ■ B Y ■ R O Y / S A C ■ I N ■ 2 0 1 4[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0;37;40m [0;1;30;40m■[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 168474db6d8adde12155242c516a2639518e97f30603f6affeb84f44abe464fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-fadingblack.ans by Warpus + Smooth + The Knight (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fading Black
 # SAUCE Author: wa, 5m, 7k
 # SAUCE Group: Legacy Krew
@@ -53,6 +53,6 @@ Write-Host '
 [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m     [1;30m░░░░░░[0m
                                                                          [1;30mwa5m7k[0m
 
-          fadingblack[1;30m.[0mnet [1;30m+[0mo [1;30mwestie[0m        [30;43m█[0m
+                     [1;30m [0m    [1;30m [0m  [1;30m      [0m        [30;43m█[0m
 [30;40m█[0;37;40m  [0;30;40m█████[0m
 [30;40m█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2ea3bcb6a40c52a344ee86bf101027261eda47de7e0f27231069adad4f0b9f99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS!-KINK.ANS by deeESS (Glue); released in glue-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kinky dS! Logo
 # SAUCE Author: deeESS
 # SAUCE Group: Glue
@@ -34,6 +34,4 @@ Write-Host '
     [36m░░[0;1;36;46m░░▀▀▀ [0m     [36m░░ ▀▀▀▀▀▀▀ █[0;1;36;46m▄[0;36m▄█  ▀▀▀▀▀▀[0m    [36m ░░░ ▄▄▄█[0;1;36;46m▀░░[0m       [1;36;46m ████░░░[0;36m░░[0m
       [36m░░        [0m         [36m█[0;1;36;46m▄▄▄██[0;36m█[0m           [36m         [0m         [36m ▀▀▀▀▀▀▀▀▀ [0m
                       [36m░░░[0;1;36;46m░░░▀▀▀[0;36m█[0m
-                         [36m░░░[0m            [37mHmm... I am bored. I drew for [0m
-                                        [37msomeone.  Catch 22? Bahh..[0m
-                                        [37mYou''re welcome, to whomever.[0m'
+                         [36m░░░[0m            [37m                              [0m'

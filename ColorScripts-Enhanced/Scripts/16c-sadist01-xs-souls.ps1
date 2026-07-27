@@ -5,7 +5,7 @@
 # Source SHA-256: e27729127f6a91f0ea535c12182c0d2f65dac246dba54f986a813ad3b9ab0cde
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XS-SOULS.ANS by xsys (souls); released in sadist01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: souls #3 info file
 # SAUCE Author: xsys
 # SAUCE Group: souls
@@ -36,6 +36,6 @@ Write-Host '
                        [1;30m  ▀█ ▓▌[0m                        [1;30m▐[0m    [1;30m▀▀██▄████ [0m     [1;30m   ▐ [0m
                        [1;30m   ▐  ▌[0m                                [1;30m▀▀████ [0m        [1;30m  [0m
                                                                  [1;30m███[0m
-   ansi outline, shading, background, all by xzyz.               [1;30m▐█▓[0m
+                                                                 [1;30m▐█▓[0m
                                                                   [1;30m▀▓[0m
                                                                    [1;30m▐[0m'

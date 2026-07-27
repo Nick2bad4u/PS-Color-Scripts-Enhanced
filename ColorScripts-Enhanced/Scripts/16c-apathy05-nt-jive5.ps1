@@ -5,7 +5,7 @@
 # Source SHA-256: 442e963705993f68fb8a1ec94c11dbf8b94c84dfd561216bbae1ef4acd12346a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT-JIVE5.ANS by Nootropic (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jive Soda #5 (905-569-9492)
 # SAUCE Author: Nootropic
 # SAUCE Group: Apathy
@@ -32,6 +32,5 @@ Write-Host '
              [1;31m█[0;1;31;47m▒[0;1;31;40m██[0;30;41m▓[0m   [1;31;41m▓███[0;31m [0;1;31;41m█▓▓█[0;30;41m▓[0m   [1;31;41m█▓▓█[0;31m [0;1;31;41m█▓▓█[0;30;41m▓[0;37;40m  [0;31;40m [0;1;31;41m█▓▓█[0;1;31;40m░[0;1;31;41m█▓▓█[0m    [1;31;41m█▓▓█[0;30;41m▓[0;37;40m [0m
            [37;40m  [0;1;31;40m▐[0;1;31;47m▌▀▓[0;1;31;40m▌  ▐[0;1;31;41m█[0;1;31;47m▀[0;1;31;41m█[0;1;31;40m▌[0;31m [0;1;31m▐███▌  ▐███▌ █[0;1;31;47m▓[0;1;31;40m██   ▐[0;1;31;47m▓[0;1;31;40m██▌ ▐█[0;1;31;47m█▓[0;1;31;40m▌   ███[0;1;31;47m▓[0;30;41m▓[0;37;40m [0m
               [1;31;40m▀█[0;1;31;47m▒[0;1;31;40m█▄▄█[0;1;31;47m▓▒[0;1;31;40m▀[0m   [1;31m▀[0;1;31;47m▓▄[0;1;31;40m█▄▄█[0;1;31;47m▒▓[0;1;31;40m▀  [0;1;31;47m▓▒▓[0;1;31;40m█▄▄▄█[0;1;31;47m█▓[0;1;31;40m▀[0m   [1;31m▀█[0;1;31;47m▓[0;1;31;40m█▄▄▄█[0;1;31;47m▓▀[0;1;31;40m█[0m
-           [31m jive soda [0;33m%[0;31m 905-569-9492 [0;33m%[0;31m op''d by nootropic...[0;37m [0;1;31m█[0;1;31;47m▄▒[0;1;31;40m█[0m
-[35m--------------------------------------------------------------------------------[0m
-[33mthis is fuck you part 2 :) fuck you''s go out to parasite, who just don''t get it.[0m'
+           [31m           [0;33m [0;31m              [0;33m [0;31m                     [0;37m [0;1;31m█[0;1;31;47m▄▒[0;1;31;40m█[0m
+[35m--------------------------------------------------------------------------------[0m'

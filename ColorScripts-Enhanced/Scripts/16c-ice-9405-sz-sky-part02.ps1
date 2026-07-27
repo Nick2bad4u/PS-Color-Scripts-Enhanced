@@ -5,7 +5,7 @@
 # Source SHA-256: 1f944c399f22c9855ec4ed3ecca34fc1625a2cfff1eeb4d989b27498a83a2488
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-SKY.ICE by Soul Blazer (iCE); released in ice-9405 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: but ACiD is the gayest
 # SAUCE Author: Soul Blazer
 # SAUCE Group: iCE
@@ -46,10 +46,10 @@ Write-Host '
       [1;30m██▀[0m                                                            [1;30m▀██[0m
       [1;30m██[0m                  [1;30m∙  [0;1;37mS  K  Y  N  E  T  [0;1;30m∙[0m                      [1;30m██[0m
       [1;30m██[0m                                                              [1;30m██[0m
-      [1;30m██[0m          [1;30mδ [0mLatest version of [1;31mV[0;31mi[0;1;31mS[0;31mi[0;1;31mON[0;1;30m/[0;1;31m2 [0m. [1;31m7[0;31moo [0;37mMegz  [0;1;30mδ[0m          [1;30m██[0m
-      [1;30m██[0m        [1;30mδ [0;1;31mUSR[0;31mobotics [0;1;31m16[0;1;30m.[0;1;31m8  [0mDual [1;30m. [0;1;31mTNCS [0mMember Board [1;30mδ[0m         [1;30m██[0m
-      [1;30m██    δ [0;1;31mPHYCHOS[0;31mi[0;1;31mS [0mE-Mag  Distro Site [1;30m. [0;1;31mAC[0;31mi[0;1;31mD [0mMember Board [1;30mδ[0m      [1;30m██[0m
-      [1;30m██  δ [0;1;31mADD[0;31mi[0;1;31mCT  [0mDistro [1;30m. [0;1;31mOX [0mDistro Site [1;30m. [0;1;31mREFLECT[0;31mi[0;1;31mONS [0mDistro [1;30mδ  [0;1;37m█ [0;1;30m██[0m
+      [1;30m██[0m          [1;30m  [0m                  [1;31m [0;31m [0;1;31m [0;31m [0;1;31m  [0;1;30m [0;1;31m  [0m  [1;31m [0;31m   [0;37m      [0;1;30m [0m          [1;30m██[0m
+      [1;30m██[0m        [1;30m  [0;1;31m   [0;31m        [0;1;31m  [0;1;30m [0;1;31m   [0m     [1;30m  [0;1;31m     [0m             [1;30m [0m         [1;30m██[0m
+      [1;30m██      [0;1;31m       [0;31m [0;1;31m  [0m                   [1;30m  [0;1;31m  [0;31m [0;1;31m  [0m             [1;30m [0m      [1;30m██[0m
+      [1;30m██    [0;1;31m   [0;31m [0;1;31m    [0m       [1;30m  [0;1;31m   [0m            [1;30m  [0;1;31m       [0;31m [0;1;31m    [0m       [1;30m   [0;1;37m█ [0;1;30m██[0m
       [1;30m██[0m                                                           [1;31m▐[0;1;33m█  [0;1;30m▀[0m
       [1;30m██[0m       [1;37m▄[0;1;37;47m▀▒░[0;1;30;40m▄  [0;1;31;40mSysOps[0;31m: [0;37mTerminator ][ [0;1;37m<[0mAC[1;30mi[0mD[1m>[0m            [31m▄   [0;1;31m▄▄[0;1;31;41m▓▒[0;31m▄[0m
       [1;37m▄▄[0m▄▄▄[1;30m▄  [0;1;30;47m [0;1;37;47m▓▒░▀[0;1;30;47m▓▒[0m ▄[1;30m▄[0m      Corwin of Amber [1m<[0mAC[1;30mi[0mD[1m>[0m     [1m▀[0;1;33m▄   [0;1;37m▄▄▄█▄[0;1;31m▀[0;31m▀▀[0;37m▄▄  [0;31m▄[0;1;31m▄▀[0m

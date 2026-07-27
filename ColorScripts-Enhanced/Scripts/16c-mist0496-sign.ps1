@@ -5,7 +5,7 @@
 # Source SHA-256: d2d2a400ecb25847a932352b43275024cd5e87754a57c8f04d9bd2a5bac25ba0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SIGN.ANS by mAGE (MiSTiGRiS); released in mist0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: eVIL lOOKING SiGN
 # SAUCE Author: mAGE
 # SAUCE Group: MiSTiGRiS
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mMage[0;32m·[0;1;30mMiST[0m
+[1;30m    [0;32m [0;1;30m    [0m
 
 
               [1;37m▀▄▄▄▄▄▄▄[0m                                  [1;37m▄▄▄▄▄▄▄▀[0m

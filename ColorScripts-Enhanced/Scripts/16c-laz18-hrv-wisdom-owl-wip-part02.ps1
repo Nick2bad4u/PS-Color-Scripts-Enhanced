@@ -5,7 +5,7 @@
 # Source SHA-256: a1df1bb4d8bdc6ed5855edcb5e62140c0338ecc0896b4d7b7d7ff9f605ec8f13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HRV_Wisdom_Owl_WiP.ans by harvest (Lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: OWL
 # SAUCE Author: harvest
 # SAUCE Group: Lazarus
@@ -64,5 +64,4 @@ Write-Host '
 [1;30m████▓ ▒▒▓███▓  ░▒█▒█▒▓░  ░▓▒███[0m   [1;30m█[0m [1;30m░░░[0m [1;30m░░░▒▒▄▄▄▄███████████████████████████████[0m
 [1;30m▒░▓█▒▓███▓█▓░▒▓▓▓▓▓▓▓███▒ ░▓██░█[0m [1;30m▄█[0m  [1;30m░░▒░░░▄████████████████████████████████████[0m
 [1;30m░░▒░██▒▒░░░░░░░░░▒▒▒▒▒▒▒▒░░  ▒▒▀█▀░░░░░░[0m   [1;30m█████████████████████████████████████[0m
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-'
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

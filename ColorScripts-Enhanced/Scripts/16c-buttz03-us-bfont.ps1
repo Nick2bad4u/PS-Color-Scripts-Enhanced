@@ -5,7 +5,7 @@
 # Source SHA-256: 2c6e12455f1bbb6aef3741b8e1a4f0cf834346dee43220f8f72ac8725d3a4dec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BFONT.ANS by Zeus Ii + Somberlain (Buttraiderz); released in buttz03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Buttraiderz Fontage
 # SAUCE Author: Somberlain & Zeus II
 # SAUCE Group: Buttraiderz
@@ -47,6 +47,5 @@ Write-Host '
    [31;40m▀[0m   [31;40m▄▀██[0;31;44m▓[0;31;40m▀[0m   [31;40m▀███▄▄▄[0m   [1;30;40m▀▀[0m          [34m▀[0;1;34m▀▀▀▀▀[0m   [1;30mzII ▄[0m  [31m█▀[0;31;44m█[0m    [33;40m▀[0m   [31;40m▄▄█[0;1;31;41m░[0;31m▀▀[0m     [31m░[0m
       [31m▐███▌[0m       [31m█[0;1;31;41m▀[0;31m▀█▀[0;37m [0;31m▀[0m   [31m▀▀[0m                       [31m▀[0;37m [0;31m▄[0;1;31;41m▄[0;31m█[0;31;44m▓[0;31;40m▄▄[0m      [31;40m░░[0m
 [1;30;40m☺☺☺☺☺☺☺☺[0;31m██[0;1;30m☺☺☺☺☺☺☺☺☺[0;31m▐[0;31;44m▓[0;31;40m▓[0;1;30;40m☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺[0;31m▀█▓[0;1;30m☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺[0m
-         [31m▓[0m           [31m▒[0m    [1;30mBUTTRAIDERZ! WE EAT KIDS![0m       [31m▒[0m
-         [31m░[0m           [31m░[0m                                    [31m░[0m
-[1;30mANSi by Somberlain of Buttraiderz[0m [1;30mand Zeus II of D0g F00d L0vers[0m'
+         [31m▓[0m           [31m▒[0m    [1;30m                         [0m       [31m▒[0m
+         [31m░[0m           [31m░[0m                                    [31m░[0m'

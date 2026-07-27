@@ -5,7 +5,7 @@
 # Source SHA-256: 295441a23c05cd9fb9c7ce256287a3c4ebd0e7cbd0b301d55ce6f872c874d7c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-SWE01.ANS by Mr. Wrong (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Swemag
 # SAUCE Author: Mr. Wrong
 # SAUCE Group: AWE Lettering
@@ -37,6 +37,4 @@ Write-Host '
     [34;40m▌[0m      [34;40m▀[0;1;34;40m░[0;34m░▀[0;37m [0;34m▄[0m   [1;30;41m▓[0m [34m▀[0;37;44m░░[0;1;37;44m░[0;1;34;40m▄[0;34m▄ ▄[0m     [34m░[0m       [34m [0;37m  [0;34m▐[0m   [34m▄ ▄[0;1;34m▄[0;1;37;44m░[0;44m░░[0;34;40m▀[0;37;40m [0;34;40m   [0;37;40m [0;34;40m▐[0;1;34;40m▄[0;1;34;44m▓░[0;34m▀▀[0;37m [0;1;34m░[0;34m░░  [0;37m [0;34m▌░[0m
     [34m▀[0;37m [0;34m▀[0m             [1;35m [0m  [34m▐[0;1;34;44m░[0;34m▄▌ [0;1;36ms[0;35m  [0;1;36mw[0;35m  [0;1;36me[0m  [35mm a g a z[0;34m▀[0;35mi n e[0;1;30m [0;34m▐▄[0;1;34;44m░[0;34m▌[0;37m [0;1;36m [0m  [34m  ▀[0;37m [0;1;34m░[0;34m░[0m      [34m▄[0;37m [0;34m▄▌[0m
                [34m▀[0;37m  [0;34m▄[0;37m  [0;34m▄ ▀[0;37m░ [0;34m▌[0m   [1;30m[[0;34m i s s u e  # ? ![0;1;30m ][0m   [34m▐[0;37m ░[0;34m▀ ▄[0m          [1;30mMr[0;35m.[0;1;30mWrong[0m
-                          [34m▀[0;37m [0;34m▄[0m                      [34m▀[0;37m [0;34m▀▀[0;37m [0;34m [0;37m [0;34m [0m             [35m([0;1;30mawe[0;35m)[0m
-
-[1;30mfor[0m [1;30mbizzarro[0m [1;30mswedish[0m [1;30mmagazine.[0m                               [1;30mRogne@hotmail.com[0m'
+                          [34m▀[0;37m [0;34m▄[0m                      [34m▀[0;37m [0;34m▀▀[0;37m [0;34m [0;37m [0;34m [0m             [35m([0;1;30mawe[0;35m)[0m'

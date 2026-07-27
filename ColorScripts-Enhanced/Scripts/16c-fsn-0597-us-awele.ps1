@@ -5,7 +5,7 @@
 # Source SHA-256: 6c647f6c740422437e01d7e0150f7dab8fa6ee3504c379d8b5cdf0f71ec6969d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-AWELE.ANS by Ize + The Night Angel (Awe & Fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Awe lettering
 # SAUCE Author: Tna + ize
 # SAUCE Group: Awe & Fusion
@@ -16,7 +16,7 @@
 
 Write-Host '
 [35m    [0;1;35m [0;35m░[0m
-[35m    [0;1;35m [0;35m▄[0;1;35m              tn[0;35ma(awe) [0;1;35m+ iz[0;35me(fusion)[0m           [1;31m░[0m
+[35m    [0;1;35m [0;35m▄[0;1;35m                [0;35m       [0;1;35m    [0;35m         [0m           [1;31m░[0m
 [35m  ░▒[0;30;45m░[0;1;35;45m▐[0;1;35;40m█▀ [0;35m▄[0;1;35m▄[0;1;35;45m▄[0;1;35;40m█▓░  [0;35m░▄[0;1;35m▄▄▄[0;35m [0;31m▀[0;1;31m▀[0m                          [1;31m░[0;1;31;41m▐[0;1;31;47m▓[0;1;31;40m▄[0;1;35;40m  [0;35m▀[0;1;35;45m▀[0;1;35;40m▄[0;1;35;45m▄[0;1;35;40m [0;35m▄[0;1;35;45m▄[0;1;35;40m████▄▄[0;1;35;45m▄[0;1;35;40m██▀▀[0m
 [35m   ▄[0;1;35;45m▄[0;1;35;47m▓▓[0;1;35;40m██▀▀  [0;35m▄[0;1;35m▄[0;1;35;45m▄[0;1;35;47m██▓█[0;1;35;40m█▌[0;35m  [0;31m░[0;1;31;41m▐[0;1;31;40m▌[0;1;35;40m [0;35m▄[0;1;35m▄[0;1;35;45m▄[0;1;35;47m▓[0;1;35;40m███░[0;35m [0;31m▄[0;35m [0;31m▀[0;1;37m [0;35m   [0;31m░▒▓[0;1;31;41m▐[0;1;31;47m█▓░[0m▀[31m▓[0;1;31m▀[0;35m ▄[0;1;35m▄[0;1;35;45m▄[0;1;35;40m█████▀▀▀▀[0;1;35;45m▀[0;1;35;40m▀▀▄ [0;35m▀[0;1;35m▀░ [0;35m [0;31m ░ [0m
 [1;31;41m▐[0;1;31;40m▀[0;35m ▐[0;1;35;45m█[0;1;35;47m ░▓▓[0;1;35;40m██▄[0;1;35;45m▄[0;1;35;40m██[0;1;35;47m█▓▓░▓[0;1;35;40m█▄[0;35m  [0;31m▓[0;1;31;41m▐[0;35m ▀[0;1;35;45m▐[0;1;35;47m█▓░[0;1;35;40m▀▀▐░[0;1;31;41m▐[0;1;31;40m▌[0;35m ░▒[0;30;45m░[0;1;35;45m▐[0;1;35;40m▄▄[0;35m   [0;31m▀[0;35m   [0;31m░[0;35m ▀[0;1;35;45m▀[0;1;35;47m░▓█[0;1;35;40m█▀  [0;35m▄[0;1;35m▄[0;1;35;45m▄█[0;1;35;47m▓[0;1;35;40m██▌   [0;1;31;40m   [0;31m▄▓░[0m
@@ -34,8 +34,4 @@ Write-Host '
 [1;31;41m▐[0;1;31;40m▌[0;35m  [0;1;35m        [0;35m▄[0;1;35m [0;35m▀[0;1;35m    [0;31m░▒▓[0;1;31;41m▐[0;1;31;47m░▓[0;1;31;40m█▀[0m     [35m░[0;30;45m▓[0m      [35;40m  [0m          [35;40m  [0;31;40m▀[0;1;31;41m▀[0;1;31;40m█▌[0;35m ▌  ▄ ▀  [0;31m▄[0;1;31m▄[0;1;31;41m▄[0;1;31;40m█[0;1;31;47m▓▓░▀[0;1;31;40m▄▄[0;1;31;41m▄[0;1;31;40m█[0m
 [1;31;41m▐[0;1;31;40m░[0;35m  [0;1;35m       [0;35m█▌[0;1;35m      [0;35m  [0;1;31m ░[0;31m▀[0;35m    [0m     [35m  [0;31m▄[0;1;31m▄▄▄▄[0;1;31;41m▄[0;1;31;47m▀░▓[0;1;31;40m██▓▒░[0m   [31m░▄[0;1;31;41m▄[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m▀[0;35m ░ █▌ [0;31m░▓[0;1;31;41m▐[0;1;31;40m██▀▀[0;35m [0;31m▄[0;1;31;41m▄[0;1;31;47m▓[0;1;31;40m█▄[0;1;31;41m▄[0;1;31;47m▓[0;1;31;40m░[0m
 [31m░[0;35m   [0;1;35m        [0;35m▀[0;1;35m  [0;35mAWE lettering 1997[0;37m [0;31m▀▓[0;1;31;41m▐[0;31m░[0m              [1;31m ░[0;35m        ▀  [0;1;31m [0;35m [0;31m▀[0;35m     [0;31m▀[0;1;31m▀[0;35m  [0;31m▀[0;1;31m▀[0m
-                                   [31m░[0m
-                  [35m           [0m
-[37m [0;1;30m* I found this outline in awe0497, in the file_id so I thought it could be a[0m
-   [1;30mnifty font if someone put the letters side-by-side :) so I did! =) [0m
-   [1;30mprops to tna and stuff :)[0m'
+                                   [31m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b254515081752d3cfa371c05bff6d13b0e4b0ea8750faf91ae7c798bfb519e7f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pxg-chicken2.ans by Pixel Goth (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20150127
 # SAUCE Dimensions: 80x63
 # SAUCE Font: IBM VGA
@@ -36,9 +36,9 @@ Write-Host '
 [34m [0;1;33m  [0;1;31;103m▌▌[0;1;31m   [0;31m666[0;30;41m66[0;31;40m666[0;30;41m66[0;31;40m666  [0;1;33;40m▌[0;1;31;103m▌▌[0;1;31m [0m      [1;30mS.[0m           [1;30m   ..[0m░      █                   [1;30m.;[0m
 [34m [0;1;31m [0;34m▌▌▌[0m      [31m66[0;30;41m666[0;31;40m66[0m      [34;40m▌▌▌[0m      [1;30;40mS[0m             [1;30m   .[0;1;30;47m.[0m      █                   [1;30m.;[0m
 [34m   ▌[0m                     [34m▌▌[0m      [1;30ms.[0m            [1;30m .,.[0m░      ▓                   [1;30m.s[0m
-[1;36m [0;34m  ▌   [0;31mWhen your world   [0;34m▌ [0m     [1;30m,s.[0m            [1;30m   [0m ▒      ▒                    [1;30m;[0m
-[1;36m [0;34m  ▌ [0;1;31mlooks kind of weird [0;34m▌ [0m     [1;30m...[0m            [1;30m  [0m  ▒      ▓[1;30m  .[0m
-[1;36m [0;34m  ▌  [0;1;33mand you wish that  [0;34m▌ [0m       [1;30m.[0m            [1;30m   [0m ▒      ░[1;30m  .    [0m            [1;30m.,[0m
-[1;36m [0;34m  ▌  [0;1;37myou weren''t there  [0;34m▌ [0m                    [1;30m   [0m ▒      ░[1;30m   .   [0m             [1;30m.[0m
+[1;36m [0;34m  ▌   [0;31m                  [0;34m▌ [0m     [1;30m   [0m            [1;30m   [0m ▒      ▒                    [1;30m [0m
+[1;36m [0;34m  ▌ [0;1;31m                    [0;34m▌ [0m     [1;30m   [0m            [1;30m  [0m  ▒      ▓[1;30m   [0m
+[1;36m [0;34m  ▌  [0;1;33m                   [0;34m▌ [0m       [1;30m [0m            [1;30m   [0m ▒      ░[1;30m       [0m            [1;30m  [0m
+[1;36m [0;34m  ▌  [0;1;37m                   [0;34m▌ [0m                    [1;30m   [0m ▒      ░[1;30m       [0m             [1;30m [0m
 [1;36m [0;34m  ▌[0m                     [34m▌ [0m                    [1;30m    [0m░      ░[1;30m  .;[0m
-[1;36m [0;34m  ▌  [0;1;30mwww.pixelgoth.com  [0;34m▌ [0m                    [1;30m  [0m [1;30m [0m▒      ░[0m'
+[1;36m [0;34m  ▌  [0;1;30m                   [0;34m▌ [0m                    [1;30m  [0m [1;30m [0m▒      ░[0m'

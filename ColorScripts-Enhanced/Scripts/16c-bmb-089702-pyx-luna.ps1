@@ -5,7 +5,7 @@
 # Source SHA-256: cfcd3a294514b091ca5f3a50d97f079fd8845cd837d4c79860fb5032fefb47a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-LUNA.ANS by pyx (bamboosh & society); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: luuuunatic#!"#@/@?!
 # SAUCE Author: pyx
 # SAUCE Group: bamboosh & society
@@ -49,6 +49,4 @@ Write-Host '
 [36m ███[0;1;36;46m░[0;36m█  █[0;1;36;46m░▒░░[0;36m ████[0;1;36;46m░[0;36m  ████[0;1;36;46m░[0;36m ██[0;1;36;46m░[0;36m█▌ ▐█[0;1;36;46m ░[0;36m█[0;1;36;46m░[0;36m ████▌[0;35m▄[0;1;33m▌[0;36m▐██[0;1;36;46m░[0;36m█▌▐████ ██[0;1;36;46m░[0;36m██ █[0;1;36;46m░[0;36m███  █[0;1;36;46m░▒▒░[0m
 [1;33m [0;36m▀[0;36;46mpyx[0;36;40m█▄▄██[0;1;36;46m░[0;36m█▀ ▀████▄▄████▀ ▀███ ▄▄█████▄▄ ██▀ [0;35m▀[0;36m ████ ▀███▀ ▀███▀ ▀█[0;36;46mpyx[0;36;40m▄▄██[0;1;36;46m░[0;36m█▀[0m
                                  [36m▀█[0;36;46mpyx [0;36;40m▀[0;35;40m░░[0m
-                          [37;40m [0m        [36;40m▀█▀[0m
-
-[1;36;40m     [0m       [1mLunatic[0m - Bamboosh''s new German Headquarter - @late riser[0m'
+                          [37;40m [0m        [36;40m▀█▀[0m'

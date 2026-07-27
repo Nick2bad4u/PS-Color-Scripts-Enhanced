@@ -5,7 +5,7 @@
 # Source SHA-256: 74d68faf4b6de6b82b02f4f688fe9a7619e7462e9d9b67f71235e8fcbe492b60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GUILD.ANS by Night Hunter (RAGE Arts); released in rg-0197a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Guild
 # SAUCE Author: Night Hunter
 # SAUCE Group: RAGE Arts
@@ -34,8 +34,4 @@ Write-Host '
   [31m▄[0;37m [0;1;30m▀█[0;1;30;47m▓▓▓█[0;1;30;40m▄[0m       ▄[1;47m▒▒▒▓▓▓▓[0;1;40m▀[0m [1;30m▄[0;1;30;46m▓▓▓▓▓[0;1;30;40m▀[0m [1;30m▐████▀▀▀▐█[0;1;30;46m██[0;1;30;40m█▀▀▀[0m [1;30m▀██[0;1;30;47m▓▓█[0;1;30;40m▄[0m     [1m▄█[0;1;47m▓███[0;1;40m▀▀▀▄ [0m
  [31m███▄▄ [0;1;30m▀▀▀[0;1;30;47m▓[0;1;30;40m█▄[0m▄ ▄▄[1;47m░[0m▀[1;47m░░[0m▀▀▀ [1;30m▄▄██▀▀▀[0m   [1;30m▄▀▀[0m     [1;30m▄▀▀[0m [31m▄ ▄██▀▄▄ [0;1;30m▀▀▀[0;1;30;47m▓█[0;1;30;40m▄[0m [1m▄██▀▀[0m  [31m▄▄▓▄[0;1;37m  ▄[0m
  [31m▀▄▓█▀▀ ▀[0m     [37m    ▓     [0m                  [37m [0m      [31m▓▀▀▀▓[0m               [31m▀▓▀███▄▄[0m
-[37m [0;31m▀▒[0m                  [37mG[0;1;30mreetz:[0m [1;30mTiny[0m, [1;30mThrasher1[0m,                             [1;30m  [0m  [31m  [0m
-        [1;30mTs[0m, [1;30mBlackbull[0m, [1;30mWildMike[0m, [1;30mLithium[0m,[1;30m {MeG}[0m,[1;30m Gambit[0m,[1;30m and[0m [1;30mGorbag[0m.          [31m  [0m
-               [37m                                                               [0;31m  [0m
-              [37m [0m                                                   [37m  [0;31m            [0m
-[37m  [0;1;30mnhunter@geocities.com[0m'
+[37m [0;31m▀▒[0m                  [37m [0;1;30m      [0m [1;30m    [0m  [1;30m         [0m                              [1;30m  [0m  [31m  [0m'

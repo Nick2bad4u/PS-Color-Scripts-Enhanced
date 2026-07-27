@@ -5,7 +5,7 @@
 # Source SHA-256: 69b6ac80a06cfa53a2adfdee6f274c15921c8fb29c28801311b2c083e4ebd916
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-TF.ANS by Soul Blazer (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Terra Firma
 # SAUCE Author: Soul Blazer
 # SAUCE Group: ACiD Productions
@@ -15,14 +15,14 @@
 # Columns: 1-80
 
 Write-Host '
-[30mSoul BlaZer ''94 Soul BlaZer ''94 Soul BlaZer ''94 Soul BlaZer ''94 Soul BlaZer ''94[0;37m [0m
+[30m                                                                               [0;37m [0m
 
 
 
 
 
 
-           [1;30m∙ [0mACiD [1;30mPresents a [0mSoul BlaZer [1;30m<[0mACiD[1;30m> Production ∙ [0m1 9 9 4 [1;30m∙[0m
+           [1;30m  [0m     [1;30m           [0m            [1;30m [0m    [1;30m               [0m        [1;30m [0m
 
 
 

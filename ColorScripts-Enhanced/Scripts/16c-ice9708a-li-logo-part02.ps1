@@ -5,7 +5,7 @@
 # Source SHA-256: 1b9d587fd2852fceecc4abd48d9977e54cf196ae8a8691ee68e99534b98943d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LI-LOGO.ICE by Liquid Image (ice9708a); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 46-94
 # Columns: 1-80
 
@@ -46,16 +46,14 @@ Write-Host '
           [1;47m  ░    [0m   [1;47m░    ░░[0m        [1;47m▒ ░[0m [1;30m█[0m      [1;47m░    ░░[0m   [1;47m       [0m
 
 
-                       [1mGeez, it''s been such a long time...  it kinda[0m
-[1m     feels all warm and fuzzy inside again :)  [0m
+                       [1m                                             [0m
+[1m                                               [0m
 
-        [1mGreetz to : Tempus Thales, Force Ten, and everyone who knows me[0m
-                [1m [0m       [1mfrom the past.  For those who don''t, stay tuned.[0m
+        [1m                                                               [0m
+                [1m [0m       [1m                                                [0m
 
-                          [1mLiQUiD iMAGE [i[0;1;36mC[0;36mE[0;1;37m alumni][0m
+                          [1m               [0;1;36m [0;36m [0;1;37m        [0m
 
-       [1m                This has been an i[0;1;36mC[0;36mE[0;1;37m Production [0m
-                       [1m       [0m [1mCopyRight 1997[0m
-                               [1m^^^^^^^^^ [0m
-                               [1m- for those new at this, it means don''t[0m
-                                [1m rip it off.[0m'
+       [1m                                  [0;1;36m [0;36m [0;1;37m            [0m
+                       [1m       [0m [1m              [0m
+                               [1m^^^^^^^^^ [0m'

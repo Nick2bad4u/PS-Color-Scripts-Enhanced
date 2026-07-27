@@ -5,7 +5,7 @@
 # Source SHA-256: 4b64308df1df1418d72bd405bed2e826315aeeb928d2b77e9c664ad8d4fcd4c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: THMAN-03.ANS by The Man (Twisted); released in twst0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Majick Mushrooms
 # SAUCE Author: The Man
 # SAUCE Group: Twisted
@@ -41,11 +41,6 @@ Write-Host '
 [32m/______\[0;33m [0;32m  [0;33m [0;32m/_________|________\___/___/_   /____|____/_____/______\  |________\[0m
 [33m-----/[0;32m/_______|[0;33m.------------------------\[0;32m\______|[0;33m.----------------\[0;32m\_______|[0;33m.---[0m
     [33m `---------''[0m                         [33m`-------''[0m                 [33m`--------''[0m
-[1;32m   [0m                          [32mM[0;1;32majick Mushrooms[0m
-[1;32m  [0m                        [32mP[0;1;32mut some info here bm![0m
-[1;30m---[ [0mpHEAR tHE lITTLE gREEN gUY [1;30m]--------------------------------------------[0m
-This was a 23 liner trade between me and bM! and his board isn''t up yet but
-from what i hear it''s gonna r0x0r 905 so build up pHEAR for it''s opening!@*#
-Greetz fly to everybody in TWiSTED, 905''s warez monkies, #416/905, Zeke
-Tough Guy, Angst <whereever you are>, and that''s it....
-<sorry no scene comparison.. Next time i swear!>[0m'
+[1;32m   [0m                          [32m [0;1;32m               [0m
+[1;32m  [0m                        [32m [0;1;32m                     [0m
+[1;30m---[ [0mpHEAR tHE lITTLE gREEN gUY [1;30m]--------------------------------------------[0m'

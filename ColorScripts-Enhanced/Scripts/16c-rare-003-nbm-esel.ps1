@@ -5,13 +5,13 @@
 # Source SHA-256: 03f3d4a576c638ad7dc9a254fe566abe1b0e0dfb21e7bcf1f071ae1af0281902
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NBM-ESEL.ANS by Niobium (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
                                                [1;30m_,[0;1;34m  [0;34m,[0;1;34m  [0;1;30m,.[0;32m_[0m
-         [34m,,[0;37m  [0;1;30me[0m  v  [1;30mi[0m  d  [1;30me[0m  n  [1;30mc[0m  e       [1;30m_,[0;32m┌s$$[0;1;30m''[0;1;34m [0;34m,$,[0;1;34m [0;1;30m`[0;32m$$$#s┐,[0;1;30m._[0;1;32m  [0m_niobium([1mrare[0m)
+         [34m  [0;37m  [0;1;30m [0m     [1;30m [0m     [1;30m [0m     [1;30m [0m          [1;30m  [0;32m┌   [0;1;30m [0;1;34m [0;34m   [0;1;34m [0;1;30m [0;32m     ┐ [0;1;30m  [0;1;32m  [0m         [1m    [0m 
         [34m,$$,[0m                         [1;30m_,┌s[0;32m$$[0;1;32m$$$[0;32m$[0;1;30m''[0;1;34m [0;34m,$[0;1;34m$[0;34m$,[0;1;32m [0;1;30m`[0;32m$[0;1;32m$$$[0;32m$$$$$#s[0;1;30m,._[0m
        [34m,$[0;1;34m$$[0;34m$,[0m      [37m1  [0;1;30m9[0m  9  [1;30m8[0m  [1;34m [0;1;30m_,┌[0;32ms$$[0;1;32m$$[0;1;33m$[0;1;32m$$[0;30;42m$[0;1;32;40m$[0;32m$''[0;1;34m [0;34m,$[0;1;34m$$$[0;34m$,[0;1;34m [0;32m`$[0;1;32m$$$$$$$$$$[0;32m$$$#s[0;1;30m┐,._[0m
 [32m      [0;34m,$[0;1;34m$$$$[0;34m$,[0m              [1;30m,[0;32m┌s$$[0;1;32m$$$$$$$$$$$[0;32m$[0;1;30m''[0;1;34m [0;34m,$[0;1;34m$$[0;34m$[0;1;34m$$[0;34m$,[0;1;32m [0;1;30m`[0;32m$[0;1;32m$$$$[0;1;33m$[0;1;32m$$[0;30;42m$$[0;1;32;40m$$$$$$$[0;32m$$$#s[0m

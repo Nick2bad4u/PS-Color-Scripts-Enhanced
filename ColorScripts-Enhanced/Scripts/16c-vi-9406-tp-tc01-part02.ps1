@@ -5,7 +5,7 @@
 # Source SHA-256: f8c41dd0abc22c477c0b2665808f7af2c459d8f5bd31b04d1ba346fa38f9922a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-TC01.ANS by Terminal Psychosis (vi-9406); released in vi-9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 43-88
 # Columns: 1-80
 
@@ -47,12 +47,12 @@ Write-Host '
                [31m▀▀▀▀▀▀▀▀[0;1;31;41m▒▒▒▓▓▓▓██[0;1;31m▌[0m
                              [1;31m▀▀▀▀[0m
 [1m─[0;1;31m─[0;31m─[0;1;30m────────────────────────────────────────────────────────────────────────[0;31m─[0;1;31m─[0;1m─[0m
-[1mT[0;1;31mh[0;31me [0;1;30mCult ∙ Sysop:Psycho Child[iCE] Remote: Bloody Sabbath [iCE] ∙ 314.394.1[0;31m9[0;1;31m8[0;1m2[0m
-[1mR[0;1;31mu[0;31mn[0;1;30mning ViSiON/2 Version o.84 beta Registered BBS  ∙ iCE Missouri Member Bo[0;31ma[0;1;31mr[0;1md[0m
-[1mT[0;1;31mU[0;31mR[0;1;30mBiNE Central Head Quartars ∙ GRiP Distrobution Site ∙ PAiN Ditribution S[0;31mi[0;1;31mt[0;1me[0m
-[1mL[0;1;31mi[0;31mT[0;1;30mHiUM Mag Distribution Site ∙ MAGiC Distribution Site ∙ CiA Ditribution S[0;31mi[0;1;31mt[0;1me[0m
-[1mV[0;1;31mi[0;31mS[0;1;30mUAL iNSANiTY Distribution Site ∙ Supporting Art Packages ∙ Electro Magaz[0;31mi[0;1;31mn[0;1me[0m
-[1m3[0;1;31m3[0;31m0 [0;1;30mMegage ■ 14.4 V.32bis ■ The Cult is a Strictly Only Art Releted BBS Sys[0;31mt[0;1;31me[0;1mm[0m
+[1m [0;1;31m [0;31m  [0;1;30m                                                                       [0;31m [0;1;31m [0;1m [0m
+[1m [0;1;31m [0;31m [0;1;30m                                                                        [0;31m [0;1;31m [0;1m [0m
+[1m [0;1;31m [0;31m [0;1;30m                                                                        [0;31m [0;1;31m [0;1m [0m
+[1m [0;1;31m [0;31m [0;1;30m                                                                        [0;31m [0;1;31m [0;1m [0m
+[1m [0;1;31m [0;31m [0;1;30m                                                                        [0;31m [0;1;31m [0;1m [0m
+[1m [0;1;31m [0;31m  [0;1;30m       ■              ■                                                [0;31m [0;1;31m [0;1m [0m
 [1m─[0;1;31m─[0;31m─[0;1;30m────────────────────────────────────────────────────────────────────────[0;31m─[0;1;31m─[0;1m─[0m
            [1;30mA N S i  B y :  T e r m i n a l  P s y c h o s i s [ V i ][0m
 [1m─[0;1;31m─[0;31m─[0;1;30m────────────────────────────────────────────────────────────────────────[0;31m─[0;1;31m─[0;1m─[0m'

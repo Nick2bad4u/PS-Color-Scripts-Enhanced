@@ -5,7 +5,7 @@
 # Source SHA-256: de0c9bc18e325ea76c91459956080494d5e8fa6d3137d0d1c28e3dc557689583
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: m-EIGHTA.ans by Muton (MiSTiGRiS); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eight
 # SAUCE Author: Muton
 # SAUCE Group: MiSTiGRiS
@@ -15,7 +15,7 @@
 
 Write-Host '
                     [34m,[0m
-       [34m .,aaa,.[0;1;37m    [0;34m,$$ia,[0m                     [34m,aaΩΩ$$$ΩΩaa,[0m        [34m,aΩ$$$$Ωa,[0m
+       [34m        [0;1;37m    [0;34m      [0m                     [34m             [0m        [34m          [0m
      [34m,i$ⁿ"``"ⁿ$$a,,$''[0;1;37m,[0;34m`ⁿ$$a,[0m                [34m,$ⁿ"""`````"""ⁿ$,[0;1;37m   [0;34m ,$$ⁿ""""""ⁿ$$,[0m
 [1;37m  [0;34m,a$ⁿ''[0;1;37m,ai$$ia,[0;34m`ⁿ$$''[0;1;37m,$$a,[0;34m`ⁿ$$a,[0m           [34m ;$''[0;1;37m,$$$$$$$$$$$,[0;34m`$;[0;36m  [0;34m;$''[0;1;37m,a$$$$$$a,[0;34m`$;[0m
 [34m,$╙''[0;1;37m,a$$ⁿ"```"ⁿ$,[0;34m`''[0;1;37m,$''`ⁿ$$a,[0;34m`ⁿ$i,[0m          [34m$$[0;36m [0;1;37m|$;[0m       [1;37m;$| [0;34m$$[0;1;37m  [0;34m$$[0;1;37m $$''    `$$ [0;34m$$[0m
@@ -37,7 +37,7 @@ Write-Host '
 [34mi,[0;1;37m`ⁿ$$$iπaaaπi$$$ⁿ''[0;34m,,[0;1;37m`$$,aπi$$$$$$ia,.   .,a$    $$$$$$$$$ [0;34m$$[0;1;37m   [0;34m`ⁿ$a,[0;1;37m`ⁿ$$ia$''[0;34m,$$[0m
 [34mⁿ$$a,[0;1;37m`"ⁿ╨╨╨╨╨ⁿ"`[0;34m.a$$$,[0;1;37m`$$╙ⁿ"`[0;34m,,,,[0;1;37m`"ⁿ╜$$$$$╙$$    $$ [0;34m...,,,,$$[0m      [34m`ⁿ$a,[0;1;37m`ⁿ$''[0;34m,$$''[0m
 [1;37m  [0;34m`"ⁿ$iaaaaaai╙ⁿ""ⁿ╜$$i,,aiΩ$$$$$$ia,,,,,,[0;1;37m $$    $$ [0;34m$$ⁿⁿⁿⁿⁿⁿⁿ[0m         [34m`ⁿ$a,i$$''[0m
-      [34m,a$$ⁿ''[0;1;37m.,aπiiπa,.[0;34m`"ⁿ$$a,[0m           [34m$$[0;1;37m $$    $$ [0;34m$$[0;1;37m [0;34mMUTON[0;1;34mMist[0m         [34m`ⁿ$''[0m
+      [34m      [0;1;37m          [0;34m       [0m           [34m  [0;1;37m          [0;34m  [0;1;37m [0;34m     [0;1;34m    [0m         [34m    [0m
 [1;37m    [0;34m,$$ⁿ`[0;1;37m,a$$$╙ⁿ""ⁿ╜$$$ia,[0;34m`ⁿ$a, [0m       [34m,$$[0;1;37m $$    $$[0;34m $$[0m
 [1;37m  [0;34m,$$ⁿ`[0;1;37m,$$ⁿ`[0m          [1;37m`ⁿ$$$,[0;34m`ⁿ$i, [0;1;37m    [0;34m,$$''[0;1;37m,$$    $$ [0;34m$$[0m
 [1;37m [0;34m,$$''[0;1;37m,$$ⁿ`   .,aπiπa.    `ⁿ$$,[0;34m`ⁿ$$iaai$$''[0;1;37m,$$''   ,$$ [0;34m$$[0m

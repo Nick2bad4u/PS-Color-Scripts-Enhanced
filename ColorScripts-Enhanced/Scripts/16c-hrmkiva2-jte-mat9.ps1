@@ -5,7 +5,7 @@
 # Source SHA-256: bc9ff8e1363e9150ca087ec1d9c3341a3efca6c6cb555ad8032cf745757c21c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JTE-MAT9.ANS by Jate (HiRMU); released in hrmkiva2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dA Vulva Matrix screen
 # SAUCE Author: Jate
 # SAUCE Group: HiRMU
@@ -38,4 +38,4 @@ Write-Host '
 [1;37;40m█[0;1;37;47m█████████▌[0;1;37;40m [0;1;31;43m▓▓[0;33m▌[0;1;31;43m▐░[0;30;43m▌[0;1;31;43m██[0;30;43m▒[0;1;31;43m█[0;1;31;40m▐[0;30;43m▌[0;1;31;43m▄[0;1;31;40m▄[0;31m▄                      [0;33m░[0;30;43m█[0;33;40m▒[0;30;43m▐ [0;33;40m▐[0;1;31;43m▓[0;33m▓[0;1;31;43m▒[0;30;43m▓[0;1;31;43m▒[0;30;43m▌[0m
 [1;37;47m██████████[0;1;37;40m▌[0;33m▐[0;1;31;43m▒[0;30;43m▐[0;1;31;43m▐▓░[0;30;43m▌[0;1;31;43m▓▓[0;30;43m▓[0;1;31;43m▓[0;1;31;40m▐ █████[0;1;31;41m░[0;1;31;40m███[0;1;31;41m▄▄[0;1;31;40m▄▄[0;31m▄         [0;30;43m█[0;33;40m░[0;30;43m▒▐░▐[0;1;31;43m░[0;33m▐[0;1;31;43m█ ▒[0;30;43m█[0;1;31;43m▓[0;30;43m▌[0m
 [1;37;47m▀▀[0;1;37;40m█[0;1;37;47m▀[0;1;37;40m██████▌[0;33m▐[0;30;43m▐[0;33;40m█[0;1;31;43m▀▒░[0;30;43m█[0;1;31;43m▒▒[0;30;43m█[0;1;31;43m▒[0;1;31;40m▐[0;30;43m▐[0;1;31;43m▐[0;1;31;40m████[0;1;31;41m▒[0;1;31;40m█████████[0;1;31;41m▒▄[0;31m▄▄    [0;33m░[0;30;43m▒▒▐ [0;1;31;40m▌[0;1;31;43m▒[0;33m▐[0;1;31;43m▒ ░[0;30;43m█[0;1;31;43m█[0;30;43m▌[0m
-[1;37;40m  [0;1;31;40m■ [0;1;37;40ml[0mogon [1m- a[0mpply [1mn[0mewuser [1m- v[0merify [1ma[0mccess [1m- l[0meave [1mm[0message [1m- c[0mhat [1m- f[0muck [1mo[0mff [1;31m■[0m'
+[1;37;40m  [0;1;31;40m■ [0;1;37;40m [0m     [1m   [0m     [1m [0m       [1m   [0m      [1m [0m      [1m   [0m     [1m [0m       [1m   [0m    [1m   [0m    [1m [0m   [1;31m■[0m'

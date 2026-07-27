@@ -5,7 +5,7 @@
 # Source SHA-256: a2fdc14113850faa9bf04531b197a2b19168b9e87fa8779fd297919bb4a2ae8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: INSANACD.ANS by Black Spyrit (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -51,7 +51,7 @@ Write-Host '
 [34m  ▒▒▒▒  ▒▒▒▒  ▒▒▒▒  ▒▒▒▒▒▒▒▒▒▒  ▒▒▒▒  ▒▒▒▒  ▒▒▒▒  ▒▒▒▒  ▒▒▒▒  ▒▒▒▒  ▒▒▒▒▒▒▒▒▒▒▒[0m
 
 [34m [0;1;37m┌─[0m──[1;30m─[0m─[1;30m──────────────────────────────────────────────────────────────────[0m─[1;30m─[0m──[1m─┐[0m
-[1m [0m│                     Board Stats (Centered) - Line One                      │
- │                     Board Stats (Centered) - Line Two                      │
- │              [35m3/9/92 [0;31m<[0;1;31mACiD[0;31m> [0;35mProductions - Ansi by [0;1;35mBlack Spyrit[0m              │
+[1m [0m│                                                                            │
+ │                                                                            │
+ │              [35m       [0;31m [0;1;31m    [0;31m  [0;35m                      [0;1;35m            [0m              │
  [1m└─[0m──[1;30m─[0m─[1;30m──────────────────────────────────────────────────────────────────[0m─[1;30m─[0m──[1m─┘[0m'

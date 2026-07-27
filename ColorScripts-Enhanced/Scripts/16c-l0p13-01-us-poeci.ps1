@@ -5,7 +5,7 @@
 # Source SHA-256: 72d8c8fc401fcd8895c2eef3e1cfaf0245e28e63f17c71e91c1d1cdef2c1c9a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-POECI.ANS by Simonking + Slackzor (l0p13_01); released in l0p13_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: 34
 # SAUCE Date: 20011030
 # SAUCE Dimensions: 80x34
@@ -39,11 +39,4 @@ Write-Host '
                    [31m [0;1;31;41m▀▄[0;31m▄▀█[0;1;31m▀▄[0;31m▄  [0;33m          [0;31m ■▄[0;1;31m▄[0;31m▐▀[0;1;31;41m▀▄[0;1;31;40m▄[0;31m      [0;37m        [0;31m         ▀▀▐[0;1;31;41m▀██▀[0;31m█[0m
                      [31m▀[0;1;31;41m▀▄[0;1;31;47m▀[0;31m▌[0;1;31m▄[0;1;31;41m▀▄▄[0;31m▄▄[0m          [31m ▀[0;1;31;41m▀[0;31m▌[0;1;31;41m▄[0;31m▄▀[0;1;31;41m▀▄[0;1;31;40m▄[0;31m   [0;37m        [0;31m             ▀▀[0;1;31;41m▀[0;31m▄[0m
 [37m                   [0;31m    [0;1;31;41m▀▀▀▄[0;31m▄ [0;1;31;41m▀▀[0;1;31;40m▄▄[0;31m              [0;1;31;41m▀[0;1;31;40m▄[0;31m▄     [0;37m        [0;31m                 [0m
-                        [31m  ▀[0;1;31m▀[0;31m▄[0m   [31m▀▀[0m               [31m▀▀[0m
-
-[37m  [0;1;37mmoja wspolpraca ze slackzorem. strasznie dziwna, niedorobiona, takie dostalem[0m
-[1m  outlines''y, nanioslem tylko drobne zmiany, zadnych dodatkowych zarysow. niech[0m
-[1m  juz tak pozostanie. peace![0m
-
-[1m  simonking.thelo0p^fluid^bafh[0m [1m- shading[0m
-[1m  slackzor.whosknow?           - outline[0m'
+                        [31m  ▀[0;1;31m▀[0;31m▄[0m   [31m▀▀[0m               [31m▀▀[0m'

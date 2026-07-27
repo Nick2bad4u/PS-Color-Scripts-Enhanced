@@ -5,7 +5,7 @@
 # Source SHA-256: 05f6937f5b4ec3dbb57fbc48a3e2493cbaa7ba88011e29bf48711ce3c0cb8abd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VN-DKNSW.ANS by Venom (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 49-94
 # Columns: 1-80
 
@@ -54,5 +54,4 @@ Write-Host '
 [1;30m  [0m▀▀██[1;30;47m░▒▓[0;1;30;40m█▄▄▄████▄    ▀[0m       [1;37;40mC[0;1;31;40mo[0;31m: [0;1;37mC[0;1;31mo[0;31mmmander [0;1;37mD[0;31mave[0m         [1;30m▀    ▄████▄▄▄██████▀▀[0m
        ▀▀[1;30m▀▀█[0;1;30;47m▓[0;1;30;40m██████▄▄▄▄▄[0m        [1;37;40mD[0;1;31;40ma[0;31mrk[0;1;37mN[0;1;31me[0;31mss [0;1;37mN[0;1;31me[0;31mt [0;1;37mH[0;1;31mQ[0m         [1;30m▄▄▄▄▄████████▀▀▀▀[0m
                [1;30m▀▀▀▀▀████████[0m      [1;37mR[0;1;31ma[0;31mpture [0;1;31mNe[0;31mt[0m      [1;30m█████████▀▀▀▀▀[0m
-                                  [1;37m2[0;1;31m4[0;31moo-[0;1;37m1[0;1;31m4[0;31m4oo[0m
-                                [1;37m2 B[0;1;31ml[0;31mazin'' [0;1;37mN[0;1;31mo[0;31mdes[0m'
+                                  [1;37m2[0;1;31m4[0;31moo-[0;1;37m1[0;1;31m4[0;31m4oo[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 28a1665ad1888ad39b5c51d399c370bb83f251aa0a0369f6699730684e66d71a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-arakboards.ans by The Knight + Nail (Fuel + blocktronics); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ArakNet
 # SAUCE Author: The Knight + nail
 # SAUCE Group: Fuel + blocktronics
@@ -43,15 +43,15 @@ Write-Host '
     [1;30m ░░░▓▓░ [0m         [1;30m▀[0m [1;30m▄ ░░ ▀ ░  ░░░░[0m [1;30m░░░[0m  [1;30m░▄▄ [0m        [1;30m░░░░░░[0m    [1;30m▒[0m   [1;30m░░░░[0m
   [1;30m▄██[0;1;30;47m▓▓▄▄▄█[0;1;30;40m█▄▄▀▄▓▓▓▄██▀▀[0;1;30;47m▀[0;1;30;40m▓▓▄▄▄▓▒░[0m     [1;30m▓▓▓██[0;1;30;47m▄[0;1;30;40m▄▄▄▄▄▄▓▄██[0;1;30;47m▄▓▓▒▒▓▓█[0;1;30;40m▄▄▄▀▓▄▄▄▄▄▄▄[0;1;30;47m▓▓[0;1;30;40m▄▄[0m
  [1;30m██[0m                    [1;30m▀[0m     [1;30m▀▀▀▀▀▀▀▀▀▀[0m                                      [1;30;47m▓▓[0m
- [1;30m█[0m  [1miNK tWO BBS[0;35m ··················[0;37m [0;1;31mtelnet[0;31m:[0;37m [0;35m······· [0;37mbbs.inktwo.com / port 23   [0;1;30;47m▓[0m
-[1;30m▐█[0m  [1mBlack Flag BBS[0;35m················[0;37m [0;1;31mtelnet[0;31m:[0;37m [0;35m··· [0;37mblackflag.acid.org / port 23   [0;1;30;47m░[0;1;30;40m▌[0m
-[1;30;40m▐[0;1;30;47m▒[0m  [1mACiD Underworld[0;35m···············[0;37m [0;1;31mtelnet[0;31m:[0;37m blackflag.acid.org /  port 31337   [0;1;30;47m░[0;1;30;40m▌[0m
-[1;30;40m▐[0;1;30;47m▒[0m  [1mHaciend el Bananas[0;35m············[0;37m [0;1;31mtelnet[0;31m:[0;37m [0;35m······· [0;37mhaciend.bbs.fi / port 23   [0;1;30;47m▒[0;1;30;40m▌[0m
-[1;30;40m▐[0;1;30;47m▒[0m  [1mAlcoholiday BBS[0;35m···············[0;37m [0;1;31mtelnet[0;31m:[0;37m [0;35m·········· [0;37malco.bbs.io / port 23 [0;1;30m░[0m [1;30;47m▓[0;1;30;40m▌[0m
-[1;30;40m▐[0;1;30;47m▒[0m [1m Necronomicon·BBS[0;35m··············[0;37m [0;1;31mtelnet[0;31m:[0;37m necrobbs.strangled.net / port 23 [0;1;30m▒[0m [1;30;47m▓[0;1;30;40m▌[0m
-[1;30;40m▐[0;1;30;47m▓[0m [1m Twinkle BBS[0m [35m··················[0;37m [0;1;31mtelnet[0;31m:[0;37m [0;35m······· [0;37mtwinklebbs.net / port 23 [0;1;30m▒[0m [1;30;47m▓[0;1;30;40m▌[0m
+ [1;30m█[0m  [1m           [0;35m                   [0;37m [0;1;31m      [0;31m [0;37m [0;35m        [0;37m                           [0;1;30;47m▓[0m
+[1;30m▐█[0m  [1m              [0;35m                [0;37m [0;1;31m      [0;31m [0;37m [0;35m    [0;37m                               [0;1;30;47m░[0;1;30;40m▌[0m
+[1;30;40m▐[0;1;30;47m▒[0m  [1m               [0;35m               [0;37m [0;1;31m      [0;31m [0;37m                                    [0;1;30;47m░[0;1;30;40m▌[0m
+[1;30;40m▐[0;1;30;47m▒[0m  [1m                  [0;35m            [0;37m [0;1;31m      [0;31m [0;37m [0;35m        [0;37m                           [0;1;30;47m▒[0;1;30;40m▌[0m
+[1;30;40m▐[0;1;30;47m▒[0m  [1m               [0;35m               [0;37m [0;1;31m      [0;31m [0;37m [0;35m           [0;37m                      [0;1;30m░[0m [1;30;47m▓[0;1;30;40m▌[0m
+[1;30;40m▐[0;1;30;47m▒[0m [1m                 [0;35m              [0;37m [0;1;31m      [0;31m [0;37m                                  [0;1;30m▒[0m [1;30;47m▓[0;1;30;40m▌[0m
+[1;30;40m▐[0;1;30;47m▓[0m [1m            [0m [35m                  [0;37m [0;1;31m      [0;31m [0;37m [0;35m        [0;37m                         [0;1;30m▒[0m [1;30;47m▓[0;1;30;40m▌[0m
 [1;30;40m▐[0;1;30;47m▓[0m  [1mCybereason[0m  [35m··················[0;37m [0;1;31mtelnet[0;31m:[0;37m [0;35m············ [0;37m-private-[0;35m ·········[0;37m [0;1;30m▓[0m [1;30m█▌[0m
-[1;30m██[0m  [1mXibalba BBS[0m [35m··················[0;37m [0;1;31mtelnet[0;31m:[0;37m  xibalba.l33t.codes / port 44510 [0;1;30m█[0m [1;30m█[0m
+[1;30m██[0m  [1m           [0m [35m                  [0;37m [0;1;31m      [0;31m [0;37m                                  [0;1;30m█[0m [1;30m█[0m
  [1;30m▄[0;1;30;47m▓[0;1;30;40m▄▄▄[0m       [1;30m▄▄▄▄▄▄[0m           [1;30m ▄ ▄▄▄▄ [0m                                     [1;30m█[0m [1;30m█▌[0m
   [1;30m▀▓▓▓▀▀██[0;1;30;47m▀[0;1;30;40m███▄▄ ▀▀█[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀▀[0;1;30;47m▀[0;1;30;40m████▄[0;1;30;47m▓[0;1;30;40m▄▄[0m        [1;30m▄▄▄▄ ▄▄  [0m [1;30m ▄▄▄▄▄▄███▄█▀[0m
   [1;30m   ░░░░░░░  ▀▀█[0;1;30;47m▀[0;1;30;40m█▄▄▀░░░░░░░[0m         [1;30m░░░░[0m  [1;30m▀▀▀▀▀▀▀▀▀▀▄▄▄▄▄▄▄▄▓▓░▓▓▓▓▓[0m [1;30m▀▀▀░░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: f40293ac2cb4b5e6ac5f02789406a287a5fe9ea73daaadff41734dbf84525067
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-NC1.ANS by warpus (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neon crayon
 # SAUCE Author: warpus
 # SAUCE Group: lazarus
@@ -42,17 +42,4 @@ Write-Host '
 
 
 
-[1;30m[ ---[0m
-[1;30m  here you go mafesto.  thanks for supplying me with "an essay of human[0m
-[1;30m  understanding" book two, chapter twenty seven.  i can''t believe how[0m
-[1;30m  much my essay rules, it is the best thing i have ever writeen in my entire[0m
-[1;30m  life.[0m
-
-  [1;30mif any of you are wondering why this font is for neon crayon when the c[0m
-  [1;30mis nowhere to be found, please note that this does not really concern me.[0m
-[1;30m  the only thing i said that i was going to be doing was drawing ansi, and[0m
-  [1;30mthat is precisely what i have done today.  i never said i knew[0m
-  [1;30mthe alphabet.  i don''t understand that thing at all.  it''s so long and [0m
-  [1;30mcomplicated, and that alphabet song really pisses me off.  [0m
-
-  [1;30mwarpus ( tbroniew@uwaterloo.ca )[0m'
+[1;30m[ ---[0m'

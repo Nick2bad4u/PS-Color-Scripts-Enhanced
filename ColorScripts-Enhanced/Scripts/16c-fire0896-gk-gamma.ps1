@@ -5,7 +5,7 @@
 # Source SHA-256: ecf953e7ecf284ec5e1285af6c81cc37c39bc08e85b52bbc1f230df05a0ff263
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GK-GAMMA.ANS by grind king (fire(96)); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spinal gamma
 # SAUCE Author: grind king
 # SAUCE Group: fire(96)
@@ -32,7 +32,4 @@ Write-Host '
                      [1;30m▀░[0m   [1m▀▀ ░▒[0;1;47m▄[0;1;30;47m░[0m▄   [36m [0;1;36;46m▓[0;36m    ▀ [0;1;36;46m▒[0m    [36m▐▌[0;1;36;46m▓[0;1;36;40m▀▀[0;1;36;46m░[0;36m  ▐▌[0;1;36;46m▓[0;1;36;40m▀▀[0;1;36;46m░[0;36m  ▐▌[0;1;36;46m▓[0m    [36m▐▌[0;1;36m░[0m
                                  [1m▀[0m▌  [36m▐▌ ▀▀▀▓ [0;1;36;46m░[0;36m░▀▀▀[0;1;36;46m░[0;36m [0;1;36m▒[0;36m  █  [0;1;36;46m░[0;36m ▓  █  [0;1;36;46m░[0;1;36;40m [0;1;36;46m▒[0;36m▀▀▀▀[0;1;36;46m░[0;1;36;40m [0m
                                   ▄  [36m░▀▀▀▀▀█▀▀[0m   [36m▐▌ ░[0m    [36m▐▌ ░[0m    [36m▐▌ ▀░  ▐▌[0m
-                                                 [36m ▀    [0m   [36m▀  [0m     [36m▀[0m     [36m ▀[0m
-
-
-[1;30m [0m [1;30mi realize spines don''t curve like that.. but this is defiant''s, spinal [0mgamma[1;30m! [0m'
+                                                 [36m ▀    [0m   [36m▀  [0m     [36m▀[0m     [36m ▀[0m'

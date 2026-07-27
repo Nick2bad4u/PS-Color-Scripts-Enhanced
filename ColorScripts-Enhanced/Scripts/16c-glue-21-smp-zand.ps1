@@ -5,7 +5,7 @@
 # Source SHA-256: 47f33224125200a5cee8df248dd6575772da1e37bb06e71f647a3b959bc6b33a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-ZAND.ANS by Shrimp (glue-21); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -34,13 +34,4 @@ Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄ █[0;1;30;47m▓░▀[0;1;30;40m▄▄▄[0m       [31m▀▀▀▀ [0;1;31;41m▀▀▓██▄▀▀▀[0;31m▀▀▀▀▀[0m
 [30;47mShrimp[0;1;30;47m░▒▓[0;1;30;40m [0;1;30;47m▓▓▒░░▀▀▀▀▀[0m▄[1;33m▄[0m▄[1;30m▄[0m                             [33mZandura, [0;1;33m+o[0;1;37m:[0m [33msQuinty[0m
 
-[1;30m--8<------8<-----8<---------8<---------8<--------8<-------8<-------8<-----8<----[0m
-
-[1;30mHey, I think this is one of the best art works I have ever made in the past 4[0m
-[1;30myears, if not the best.[0m [1;30mCatch me up on IRC. Love you,[0m
-[1;30mShrimp.[0m
-
-[1;30m*** Fever7 sets mode: +v Shrimp[0m
-[1;30m(Shrimp) WORD UP, I''M ELITE NOW!@[0m
-[1;30m(Fever) only jews and offer-bots get +v.[0m
-[1;30m(Shrimp) HAHAHAHAHAHHAHAHAHHA[0m'
+[1;30m--8<------8<-----8<---------8<---------8<--------8<-------8<-------8<-----8<----[0m'

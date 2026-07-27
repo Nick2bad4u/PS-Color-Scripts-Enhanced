@@ -5,7 +5,7 @@
 # Source SHA-256: 8579e1488c6cdc86ce8d49affadce9184ab68166792128b068662e74128f5851
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-ELP#1.ANS by .o!Skyknight-o. (AXF.ANL.ELP); released in elp-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Elysium Power - Logo
 # SAUCE Author: .o!Skyknight-o.
 # SAUCE Group: AXF.ANL.ELP
@@ -26,7 +26,4 @@ Write-Host '
     [1m [0m                      [1;36m▐▌ [0;1;36;46m▓[0m     [1;36m [0;1;31;43m▒░[0m [1;30;43m░▒▓[0;1;30;46m█[0m [1;31;43m▒░[0m [1;30;43m░▒▓[0;1;30;46m█[0m [1;31;43m▒░[0m [1;30;43m░[0m [1;30;43m▓[0;1;30;46m▓▒░[0m [1;31;43m▒░[0m [33m▄[0;1;30m▄▄▄[0m [1;31;43m▒░[0m [1;30;43m░▒▓[0;1;30;46m█[0m
                            [1;36m [0;1;36;46m▓[0;1;36;40m▐▌[0m     [1;36m [0;1;31;43m░ [0;33m▄[0;1;30;43m▒▓[0;1;30;46m█▓[0m [1;31;43m░ [0m [1;30;43m▒▓[0;1;30;46m█▓[0m [1;31;43m░ [0m [1;30;43m▒[0m [1;30;46m▓▒░ [0m [1;31;43m░ [0m [1;30;43m▒▓█[0;1;30;46m▓[0m [1;31;43m░ [0;33m▄[0;1;30;43m▒▓[0;1;30;46m█[0;1;30;40m▀[0m
                             [1;36m▐[0;1;36;46m▓[0m      [1;36m [0;1;31;43m [0;1;30;43m░[0m      [1;31;43m [0;1;30;43m░[0;1;30;40m▄[0;1;30;43m▓█[0;1;30;46m▓▒[0m [1;31;43m [0;1;30;43m░[0;33m▄[0;1;30;43m▓[0;1;30;40m▄[0;1;30;46m▒░ [0;1;36;46m░[0m [1;31;43m [0;1;30;43m░[0;1;30;40m▄[0;1;30;43m▓█[0;1;30;46m▓▒[0m [1;31;43m [0;1;30;43m░[0m [1;30;43m▓█[0;1;30;46m▓▒[0m
-[1;30m--------------------------[ cut[0m [1;30mhere ]-----------------------------------------[0m
-  [1;30m.[0m [1;30m.∙[0m This ansi is inspired by EH [1;30m∙.[0m [1;30m.[0m
-[1;30m.∙[0m Greetz goez 2 EH,Red Rebel,Werdix,Gaze,Dopedood,Miasma,Tomahawk,Iron Eagle,
- Jazz and all members of Axial Force,Analyze and Elysium Power [1;30m∙.[0m ![36mSkyknight[0;37m¡[0m'
+[1;30m--------------------------[ cut[0m [1;30mhere ]-----------------------------------------[0m'

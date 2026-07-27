@@ -5,7 +5,7 @@
 # Source SHA-256: 3075ae7d785f0e1b8f3ae444d2077d30813fe79a339d10aa1c8004c7b6f0727b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TOM.ANS by Cthulu (MiSTiGRiS); released in mist0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: old sk3wl!
 # SAUCE Group: MiSTiGRiS
 # SAUCE Date: 19950522
@@ -30,10 +30,10 @@ Write-Host '
 [34m    │[0m            [34;41m [0;31m█[0m     [31m██[0m          [34m│[0;31;43m▒▓▒▒▒▒▒▒▓▓▓[0;31m█[0;31;43m█[0;35;41m▒▒▒▒▓[0;35;44m▓▓▒▒▒░[0;34;45m▓▓▓[0;34;41m▓[0;34;45m▓[0;34;41m▓▓[0;30;45m▒▒▒▒▒▒[0;34m│[0m
 [34m    │[0m            [30;41m▄  [0;31m▄▄▄[0;31;41m  [0;30;41m▄[0m          [34m│[0;31;41m████████████[0;1;31;41m░[0;31;45m▓▓▓[0;34;41m░░[0;30;45m▒▒▒▒▒[0;34;45m▓[0;34;41m▓[0;34;45m▓▓▓▓▓[0;34;41m▓[0;30;45m▒[0;34;41m▓[0;34;45m▓▓▓▓[0;34m│[0m
 [34m    └───────────────────────────────┴─────────────────────────────────────┘[0m
-                             [1;33mANY QUESTIONS?[0m
+                             [1;33m              [0m
 
-                   [34mTh[0;1;34mis has been a paid advertisement [0;34mby[0m
-                   [34mPa[0;1;34mrtnership for a Tomato-free Ameri[0;34mca[0m
-                      [34mTh[0;1;34me Canadian Tomato Counsel a[0;34mnd[0m
-                           [34mTh[0;1;34me Screaming Toma[0;34mto[0m
+                   [34m  [0;1;34m                                 [0;34m  [0m
+                   [34m  [0;1;34m                                 [0;34m  [0m
+                      [34m  [0;1;34m                           [0;34m  [0m
+                           [34m  [0;1;34m                [0;34m  [0m
                                [34m(6[0;1;34m04)430-880[0;34m5.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c3437c151fe5509d93ec81b7884616189695c5b9cfb8a0f12652d5ee8d9bae67
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PANDC.ANS by Cain + Spinsane (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -37,10 +37,8 @@ Write-Host '
 [1m           [0;1;31ml[0;1;32;41m$[0;1;31;40m$l$D [0;1;37;40m         [0;35mY$$$$$[0;1;37m [0;35m$$$$$$$$[0;1;35m$[0;1;37m         [0;1;34m$$$:[0;1;37m    [0;1;34m`4$$b.d$$> [0m [1;35m$$$$$[0;1;37m [0;1;35mgg[0m
 [1;37m            [0;1;31m`╜/''[0;1;37m     [0;1;31mb.[0;1;37m     [0;35mY$$$$[0;1;37m [0;35m$$$$$$$$[0;1;35m$[0;1;37m         [0;1;34m:$$┼.[0;1;37m     [0;1;34m:4$$b$` [0m  [1;35;45m█▓░▓[0;1;35;40m$[0;1;37;40m [0;1;35;40m$$[0m
 [1;33;40m:[0;1;37;40m                    [0;1;31;40m$/.[0;1;37;40m     [0;35mY$$$$$$$$$$$$[0;1;35m$[0;1;37m          [0;1;34m`*$┼$!@!$┼\╛4$$b,[0m    [1;35mgggg$$[0m
-[1;33ml[0;1;37m                    [0;1;31m$$$[0;1;37m      [0;35mT$$$$ggggggggggggg[0;1;35mgggg[0;1;37m    [0;1;34m `"""`[0;1;37m    [0;1;34m`4$>`[0m   [1;35m$$$$$$[0m
+[1;33m [0;1;37m                    [0;1;31m   [0;1;37m      [0;35m                  [0;1;35m    [0;1;37m    [0;1;34m      [0;1;37m    [0;1;34m     [0m   [1;35m      [0m
 [1;33m$:[0;1;37m                   [0;1;31m$$$[0;1;37m      [0;35m`''ⁿ**SSS$$$$$$$$$$$$$[0;1;35m$[0m                      [35mSSSSSS[0m
-[1;33m$$[0;1;37m                  [0;1;31m:$$$[0;1;37m [0;1;31mb[0;1;37m               [0;1;32mggggggggggggggggg[0;1;37m [0;1;31mggggggggggggggggggggg[0m
+[1;33m  [0;1;37m                  [0;1;31m    [0;1;37m [0;1;31m [0;1;37m               [0;1;32m                 [0;1;37m [0;1;31m                     [0m
 [1;33m$$[0;1;37m                  [0;1;31ml$$$[0;1;37m [0;1;31m$$b,..,,,,,,,,,[0;1;37m [0;1;32m$$$$$$$$$$$$$$$$$[0;1;37m [0;1;31m$$$$$$$$$$$$$$$$$$$$$[0m
-[1;33m$$:[0;1;37m                 [0;1;31m$$$$[0;1;37m [0;1;31m$$$$$$$$$$$$$$$[0;1;37m [0;1;32m$$$$$$$$$$$$$$$$$[0;1;37m [0;1;31m$$$$$$$$$$$$$$$$$$$$$[0m
-[1;33m$[0;1;32;41m$$[0;1;37;40m                [0;1;31;40m:$$$$[0;1;37;40m [0;1;31;40m$$$$$$$$$$$$$$Smmmmmmmmmmmmmmmmmm[0;1;37;40m [0;1;32;40mmmmmmmmmmmmmmmmmmmmmm[0m
-[1;36;40msp+cain [tus][0m'
+[1;33m$$:[0;1;37m                 [0;1;31m$$$$[0;1;37m [0;1;31m$$$$$$$$$$$$$$$[0;1;37m [0;1;32m$$$$$$$$$$$$$$$$$[0;1;37m [0;1;31m$$$$$$$$$$$$$$$$$$$$$[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 471ec431c9609a2af16d61d3b72d83e95faec4d22ffc49bcca41413bc0ff53e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-WM1.ANS by avenging angel (sense); released in sense10j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wm
 # SAUCE Author: avenging angel
 # SAUCE Group: sense
@@ -33,6 +33,4 @@ Write-Host '
 [31;40m▀█[0;31;43m█▄▄▄▄▒[0;31;40m██▀[0m   [34;40m▄[0;1;36;46m  ▄▄[0;36;44m▄[0;34;46m  ▄[0;34;40m▀[0m   [34;40m▓▓█▄[0;34;46m▒ ▄[0;34;40m▀[0;37;40m [0;1;36;40m▒[0;1;36;46m██▄[0;36;44m▄[0;34;40m▄██[0;1;34;44m▒████▀[0m  [1;36;46m [0;1;36;40m▒[0;1;36;46m███[0m [34m▄[0;1;36;46m▄[0;1;36;40m▒[0;34m██▀█[0;34;46m█[0;1;34;44m▒█[0;1;34;47m█████[0;1;34;44m▀[0m [35;41m▄█[0;31;43m   [0m
 [1;31;41m▒▄[0;31m▄█▀▀██▒[0;37m   [0;34m▒[0;34;46m▒[0;1;36;46m  ▒[0;1;36;44m▀[0;1;36;40m▀[0;36m▀[0;34m▀[0m    [37m  [0;34m▀▀▀▀▀[0;37m    [0;34m▀[0;36;44m▀[0;1;36;46m▀██▒[0;36;44m▒[0;34;40m▀▀▀[0;37;40m [0m     [34;40m▀[0;36;40m▀[0;1;36;40m▀▀▀[0m [1;36;46m▄[0;1;36;40m▓[0;34;46m█[0;34;40m▓▓▓▓▀▀▀▀▀[0;37;40m     [0;35;41m██[0;31;43m▄▄[0;31;40m▀[0m
         [37;40m            [0;1;30;40mwicked minority[0m         [1;30m░░░░░░░░░░ [0m  [34;46m█▄[0;34;40m▀▀▀[0;37;40m    [0;1;30;40m░░░░░░░[0m
-                                                        [34m▀ [0m
-             [37m        [0m
-              [37m       [0m'
+                                                        [34m▀ [0m'

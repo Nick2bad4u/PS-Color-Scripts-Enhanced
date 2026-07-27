@@ -5,7 +5,7 @@
 # Source SHA-256: b53f3540c7959499e6f12cfae33627bf4291f7a9dd46f0a03215ebee8d8ff640
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-ausbund.ans by FiLTH (AMiSH); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: AUSBUND
 # SAUCE Author: FiLTH
 # SAUCE Group: AMiSH
@@ -47,20 +47,20 @@ Write-Host '
 
 [31m ═══════════════════════════════════════════════════ [0;1;37m A U S B U N D[0;31m ═══════════[0m
 
-[1;37m  The Amish do not play musical instruments because it is viewed as a means of[0m
-[1;37m  self-expression, which would garner feelings of pride and superiority.[0m
-[1;37m  Amish church songs derive from the Ausbund, the High German songbook, which[0m
-[1;37m  has no musical notes. Tunes are passed on from generation to generation.[0m
+[1;37m                                                                              [0m
+[1;37m                                                                        [0m
+[1;37m                                                                             [0m
+[1;37m                                                                          [0m
 
-[1;37m  The Ausbund, first published in German in 1564, is among the most seminal[0m
-[1;37m  books to the Amish. It is regarded to be the oldest Protestant hymnal[0m
-[1;37m  in continuous use.[0m
+[1;37m                                                                           [0m
+[1;37m                                                                       [0m
+[1;37m                    [0m
 
-[1;37m  Ausbund songs invoke the martyrdom of their Anabaptist past, as many hymnals[0m
-[1;37m  are said to have been written by men awaiting the death sentence during[0m
-[1;37m  intense persecution. Author Paul M. Yoder notes: "the dominant tone found in[0m
-[1;37m  most of them is one of great sorrow, deep loneliness, or protest against the[0m
-[1;37m  world of wickedness which was putting forth every effort to crush the[0m
-[1;37m  righteous."[0m
+[1;37m                                                                              [0m
+[1;37m                                                                         [0m
+[1;37m                                                                              [0m
+[1;37m                                                                              [0m
+[1;37m                                                                       [0m
+[1;37m             [0m
 
 [31m ══════════[0;37m [0;1;37mF [0;1;37;41mi[0;1;37;40m L T H Y [0;31m*[0;1;37m A M [0;1;37;41mi[0;1;37;40m S H[0;31m ═══════════════════════════════════════════[0m'

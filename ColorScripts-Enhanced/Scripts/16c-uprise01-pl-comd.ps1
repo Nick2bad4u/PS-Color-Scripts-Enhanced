@@ -5,7 +5,7 @@
 # Source SHA-256: f16136c109314869dba7d4c34e6432fb6b6f4e05f76867a976d36a96e5f38e47
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-COMD.ANS by Playdoe (uprise01); released in uprise01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -32,7 +32,4 @@ Write-Host '
                                                                 [1;30m▌[0m
 
                                                                 [1;30m·[0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mcome down ??  some guy wanted it.. ohwell come and get it.. I think someone from[0m
-[1;30mmelbourne?? cya[0m
-[1;30m- playdoe! -[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

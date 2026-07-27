@@ -5,7 +5,7 @@
 # Source SHA-256: 97d99df2cf8032257b9edee70a4340f4ce6b814aeb21029bf67dae0608c359cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aleperez-no_game_over_esp.ans by @AljandroPrez (HPM); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no game over
 # SAUCE Author: @AljandroPrez
 # SAUCE Group: HPM
@@ -33,9 +33,9 @@ Write-Host '
 
 [1;37;40m───────────────────────────────────────────────────────────────────────────────-[0m
   [1;32m╓──────╖[0m
-  [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m  [1;32mLA OPERACION HA SIDO TODO UN EXITO. AHORA SOLO RESTA REPOSO...[0m
+  [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m  [1;32m                                                              [0m
   [1;32m≡[0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m≡[0m
-  [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m  [1;32mLA OPERACION HA SIDO TODO UN EXITO. AHORA SOLO RESTA REPOSO...[0m
+  [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m  [1;32m                                                              [0m
   [1;32m╚──────╜[0m
 [32m█████████████████████[0;33m█[0;32m████████████████████████████[0;33m█[0;1;33;43m▓▓▓[0;1;34;40m██████████████████████████[0m
 [32m███████[0;30;42m,[0;32;40m██[0;30;42m,[0;32;40m█[0;30;42m#[0;32;40m████████[0;33;40m█[0;32;40m████████████▀██████████████[0;32;43m▀[0;1;33;43m░▓▓▓[0;1;34;40m██████████████████████████[0m
@@ -55,10 +55,4 @@ Write-Host '
 ██▀▄██[1;30;47m▄▀[0m██▀▄█████ █▀[33m▄███[0;1;33;43m▓░░▓▓▓[0;1;34;40m█████████████████[0m [1;36m█[0;36m████[0;1;37;46m▄[0;1;37;40m▀[0;35m▄[0;1;35;45m▀▀▀▄▄[0;1;35;40m█[0;1;35;45m▄[0;1;30;40m█[0;1;30;47m▄▄[0;1;30;40m██[0;1;34;47m▄▄▄[0;1;34;40m█████████[0m
 █▄██[1;30;47m▄▀[0m██▀▄██▀███▀ [33m▄█[0;1;33;43m░░▓▓▓▓▓▓[0;1;34;40m███████████████████▄[0;1;36;40m▀[0;36m██[0;1;37;46m▄[0;1;37;40m▀[0;1;35;40m▄██████[0;1;35;45m▀▀▀▀[0;35m█▀[0;37m [0;1;34m▄████████████[0m
 ██[1;30;47m▄▀[0m██▀▄██▀▄███▀[33m▄█[0;1;33;43m░░▓[0;1;34;40m█████████████████████████▀▀▀▄[0m  [1;30m▄[0m [1;35m██▀[0;1;34m▄[0;1;34;45m▄[0;35m▀▀▀▀[0;1;34m▄▄███████████████[0m
-[1;37m───────────────────────────────────────────────────────────────────────────────-[0m
-   [1;32mLA OPERACION FUE UN EXITO. LA PACIENTE HA SALVADO SU VIDA GRACIAS A UNA[0m
-[1;32m   DONANTE, LA CAPITANA NO PUDO EVITAR SU ACCIDENTE PERO VALIENTEMENTE[0m
-[1;32m   SALVO A NUESTRA PROTAGONISTA.[0m
-        [1;32m** DONAR ORGANOS ES[0m [1;32mDONAR VIDA, SALVAR MUNDOS, SER HEROES **[0m
-
-                                                       [1;32m@AljandroPrez[0m [1;32m& HPM. 2023[0m'
+[1;37m───────────────────────────────────────────────────────────────────────────────-[0m'

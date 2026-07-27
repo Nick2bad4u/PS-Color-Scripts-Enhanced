@@ -5,7 +5,7 @@
 # Source SHA-256: 7ebfe196558fc5aac5e89646c3724157f603bb186d7e8392eb8f86e4d6d93509
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TAE!BYE.ANS by taevore (nph^neonstr..); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bye; bon voyage
 # SAUCE Author: taevore
 # SAUCE Group: nph^neonstr..
@@ -32,8 +32,4 @@ Write-Host '
 [1;31;41m░██[0;31m▌[0;34m█ [0;33m▐[0;1;31;43m▒▓▓▒▓▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m██▄██[0;1;31;41m▓[0;1;37;40m██[0;1;31;40m██ [0;34m██[0;34;44m  [0m
 [31;40m█[0;1;31;41m▓░[0;31m▌[0;34m█▄ [0;1;31m▀█▀█[0;1;31;43m▓[0;1;31;41m▓▀▀[0;1;31;40m▓██[0;1;31;41m▀▀ [0;1;31;40m█▀▀ [0;34m▄██[0;34;44m  [0m
 [31;40m█[0;1;31;41m▒ [0;31m▄▄ [0;34m▀[0;30;44m▀▀[0;34;40m▄▄▄▄▄▄▄[0;1;31;40m▓[0;34m▄▄▄▄▄▄█████[0;34;44m  [0m
-[31;40m█[0;1;31;41m░[0;31m████▄▄▄▄▄▄▄▄▄▄ [0;31;44m  [0;1;37;44mbon voyage [0m
-
-
-
-this on is for myself..[0m'
+[31;40m█[0;1;31;41m░[0;31m████▄▄▄▄▄▄▄▄▄▄ [0;31;44m  [0;1;37;44mbon voyage [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: da6306a584a6bea2ce371d71aee7c8e65f982e5f7dcfad5e0a1ce1d55d9c2762
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-II.ANS by Bane + Black Lightning (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Incredible Invention
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Union
@@ -51,9 +51,7 @@ Write-Host '
                        ▐▓▌   [1;34m▐[0;1;34;44m▄█[0;1;34;40m█████▀▓███████████▌▄██[0;1;34;44m▓[0;1;34;40m▓   [0m▐▓▌
                          ▀■▄                             ▄■▀
                               ▀ ▄                    ▄ ▀
-                               ▒▀   The Incredible   ▀▒
+                               ▒▀                    ▀▒
                               ▐▓▌      Invention     ▐▓▌
                                ▀▀▄    ▄        ▄    ▄▀▀
-                                   ▀              ▀
-
- [1;30mPicture by Black Lightning <Union>. Font by Bane <MAD>. Completed on 06/25/95.[0m'
+                                   ▀              ▀[0m'

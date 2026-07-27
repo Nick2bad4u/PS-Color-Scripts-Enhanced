@@ -5,7 +5,7 @@
 # Source SHA-256: 38d399a9d31186a043163368513757e087104324399b3f9d121c16f51a08ea44
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-DR.ICE by Tempus Thales (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 36-59
 # Columns: 1-80
 
@@ -19,7 +19,7 @@ Write-Host '
                             [1;37m▀▄▄██▄[0m        [1;30m▀▀▀▀▀▀ [0;1;37m▄███▄[0m
                               ▀[1m▀▀   [0;1;30m▄██▄ [0;1;37m▄█▄[0;1;37;41m▄[0;1;37;40m▄[0;1;37;41m▄▄[0;1;37;40m▐█████▌[0m
                                           [1;37;40m▀▀▀▀▀▀▀▀▀▀▀[0m▀
-              "He''s SOOOoooo... Cute!"
+                                      
    ▄[1;47m▄[0;1;40m▀▀[0;1;47m▀[0;1;40m███▄▄[0m                                                   ▀[1m▀▀[0;1;47m▀[0;1;40m███▄▄[0m
          ▀[1;47m▀[0;1;40m███▄[0m█[1m██▄[0m     █[1m█████▄  [0m█[1m██[0m▄[1;47m▄[0;1;40m█▄  [0m▄[1;47m▄[0;1;40m███▄ [0m█[1m██▄ [0m█[1m██  [0m▄[1;47m▄[0;1;40m███▄    [0m▀[1;47m▀[0;1;40m███▄[0m
 [1;40m    [0m█[1m███   [0m█[1m███[0m█[1m██[0;1;47m█[0;1;40m█▄   [0m█[1m██[0m▄[1;47m▄[0;1;40m██  [0m█[1m████▀  [0m█[1m██▀[0m█[1m█▀ [0m█[1m████[0;1;47m▄[0;1;40m██ [0m█[1m██▀[0m█[1m█▀▄██   [0m█[1m████[0m
@@ -29,8 +29,4 @@ Write-Host '
 [1m    [0m█[1m███    [0m█[1m██[0;1;47m█▀[0;1;40m▄[0;1;47m▄▀[0;1;40m██▄   [0m▄[1;47m▄[0;1;40m███▄ [0m█[1m██▄[0m     █[1m██   [0m█[1m██ [0m█[1m████[0m▀[1;47m▀[0;1;40m██▄[0;1;47m [0;1;40m██ ██    [0m█[1m████[0m
 [1m    [0m█[1m███    [0m█[1m███[0m█[1m██[0m▄[1;47m▄[0;1;40m██  [0m█[1m██▀[0m█[1m█▀ [0m█[1m████▄   [0m█[1m██   [0m█[1m██  [0m█[1m██   [0m▀[1;47m▀[0;1;40m█[0;1;47m█[0;1;40m██ ██    [0m█[1m████[0m
 [1m    [0m█[1m███    [0m█[1m███[0m█[1m██[0;1;47m▀[0;1;40m██▄  [0m█[1m██[0;1;47m▄[0;1;40m▀   [0m█[1m██[0;1;47m▄▀[0;1;40m██▄ [0m█[1m██   [0m█[1m██  [0m█[1m██[0m     ▀[1;47m▀[0;1;40m██ ██    [0m█[1m███▌[0m
-[1m    [0m█[1m███▄▄▄▄[0;1;47m▄[0;1;40m██▀[0m█[1m██ [0m▀[1;47m▀[0;1;40m█▀ [0m▀[1;47m▀[0;1;40m█████ [0m█[1m██  [0m▀[1m▀  [0m█[1m████ [0m█[1m██  [0m█[1m██[0m      █[1m██ ██▄▄▄▄[0;1;47m▄[0;1;40m██▀[0m
-
-       [1;40mDARKENED REALITY [0;1;30;40m-[0m/[1;30m- [0;1;37mMERCURY[0m/[1mITU Member Board[0m! [1;30m-[0m/[1;30m- [0;1;37mo[0m-[1m1 Day Wares[0m!
-    [1mNo Ratios[0m! [1;30m-[0m/[1;30m- [0;1;37mSys[0m: [1mVapor[0m·[1mCo[0m: [1mDigital Fuhrer[0m/[1mQuazar [0;1;30m-[0m/[1;30m- [0;1;37mRunning Renegade[0m
-[1;37m    5o[0m+ [1mMegs of Mags Mods and Misc[0m. [1;30m-[0m/[1;30m- [0;1;37m4o4[0m.[1m443[0m.[1m668o [0;1;30m-[0m/[1;30m- [0;1;37m16[0m.[1m8 [0;1;30m-[0m/[1;30m- [0;1;33mTEMPUS[0;1;30m[[0;1;37mi[0mCE[1;30m][0m'
+[1m    [0m█[1m███▄▄▄▄[0;1;47m▄[0;1;40m██▀[0m█[1m██ [0m▀[1;47m▀[0;1;40m█▀ [0m▀[1;47m▀[0;1;40m█████ [0m█[1m██  [0m▀[1m▀  [0m█[1m████ [0m█[1m██  [0m█[1m██[0m      █[1m██ ██▄▄▄▄[0;1;47m▄[0;1;40m██▀[0m'

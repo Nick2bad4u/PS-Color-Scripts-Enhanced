@@ -5,7 +5,7 @@
 # Source SHA-256: 513ff7eef0a84bd08549980c0c20749cecac624d0f70952b1ca3d7c9759bedc0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BD-7.ANS by Blue Devil + Zeus Ii (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -28,12 +28,4 @@ Write-Host '
 [1;31;41m█[0;1;31;40m▀[0;31m▌[0;1;31;41m▄[0;31m▄▄[0m    [33m▄[0;1;33m▄[0;33m▌ [0;31m▀[0;1;31;41m▀[0;1;31;40m▄[0;33m [0;31m░[0;33m [0;31m▄[0;1;31m▀[0;31m▀[0;1;31m▄[0;31m▄ [0m      [30;42m▓[0m          [1;31;40m▄[0m                  [31m░[0;1;31m▐[0;31m▒[0;33m [0;31m▌[0;33m ▌▀ [0m     [31m▓[0;33m  [0;31m▌[0m
 [31m▀ ▌[0;33m  [0;31m▀▀▄[0m    [33m▀[0m   [31m▀[0;1;31m▀[0;31m▄[0m   [31m▀ [0;1;31m▄[0m                                      [31m▐░[0;33m   ▀[0m      [31m▐▒[0m
 [33m  [0;31m▌[0m              [31m  [0;33m [0;31m▄[0m                                          [1;31m▐[0;33m   ▀[0m        [31m░[0;33m  [0;31m [0m
-[33m  [0;31m▀[0m   [1;34mAlrighty, its that time again for me to thank ppl this month for stuff.[0m  [31m▌[0m
-[1;34mI''d like to thank kitiara for giving me the most art this month. Then rest my   [0m
-[1;34mgreets goto the #rca and #f8 channels. Oh yeah and thanks to f7 and lady blue [0m
-               [1;34mfor being so supportative and the rest of my art friends.[0m
-                          [1;34mOn the   final notes creator &  the rest avenge crew[0m
-                          [1;34mWerd. oh yeah and i cant ferget rw =)[0m
-
-                                    [31mBlue Devil (High Priest Of Avengecult lit[0m
-                                                 [31mand rca litwhore)[0m'
+[33m  [0;31m▀[0m   [1;34m                                                                       [0m  [31m▌[0m'

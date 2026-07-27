@@ -5,7 +5,7 @@
 # Source SHA-256: ad416105de2116465d7b50829bf4a1d9a062bfa014d6c930660a6b8a1762439f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NG-LOA1.ANS by Nosegos (Fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Library Of Alexandria
 # SAUCE Author: Nosegos
 # SAUCE Group: Fire
@@ -36,7 +36,7 @@ Write-Host '
 [1;33;43m▐[0;1;33;40m▄▄▄[0m▄[1;35m ▄▀▀▀ [0m▄[1;33m▄█████[0m▄ [35m▀[0;1;35m▀▀██▄▄▄[0;1;30m [0;1;33;47m█[0;1;33;40m██[0;1;33;47m▄[0;1;33;40m▄▄▄▄[0m▄[1;35m ▀▀[0;1;33m▄█████████████████████████████████████[0;1;33;43m [0m
 [1;33;43m ▀▀[0;1;33;40m█[0;1;33;43m▀[0m▄[1;33m▄▄█[0;1;33;43m▀▀[0;1;33;40m██████████[0;1;33;47m▄[0;1;33;40m▄▄▄▄▄▄████████████████▄[0;1;33;43m▄[0;1;33;40m████████████[0;1;33;43m▀[0;1;33;40m██[0;1;33;43m▀[0;1;33;40m██████[0;1;33;43m▀▀[0;1;33;40m███[0;1;33;43m▀▀▀▀▀  [0m
 [1;30;40m--------------------------------------------------------------------------------[0m
-[1;30;40mOk, here it is, sorry that it took so long. I just hope you like it. :) Anyways,[0m
-[1;30;40mit''s (C) to JP Tooley, and nosegos of fire transformed it into ansi.[0m
-[1;30mWell, here it is.. Finished 30/4 -96..[0m
+[1;30;40m                                                                                [0m
+[1;30;40m                                                                    [0m
+[1;30m                                      [0m
 [1;30m--------------------------------------------------------------------------------[0m'

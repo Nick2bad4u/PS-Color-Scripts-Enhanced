@@ -5,7 +5,7 @@
 # Source SHA-256: 1de39dfb0499915fa38c227539359dcfe73497bef48f07a5dd4b373bb4e387e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-PURG.ANS by Smooth (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: PurGaTorY
 # SAUCE Author: Smooth
 # SAUCE Group: TekLordZ
@@ -32,9 +32,9 @@ Write-Host '
 ▀                                                                            [1;30m█[0m
 [1;30m█▄▄▄▄▄▄▄[0m [1;30m▄[0m      [1;30m▄[0m                                                            [1;30m▓[0m
                                                             [36m░[0m
- [1;33m [0m    [1;33mSys[0;33m:[0;1;33m Immortal [0;33m[[0;1;33mTL[0;33m][0;1;33m           CoSys[0;33m:[0;1;33m Allonon [0;33m[[0;1;33mTL[0;33m][0;1;33m, Smooth [0;33m[[0;1;33mACiD.TL[0;33m][0m
-[1;33mModerator[0;33m:[0;1;33m Katalina [0;33m[[0;1;33mTL[0;33m][0m  [1;33m    [0m [1;33mRunning the latest and highly modded Renegade[0m
-   [1;33mData #[0;33m:[0m [1;33m8o8.454.0309      [0m     [1;33m        A TekLordZ Member Board[0m         [36m░[0m
+ [1;33m [0m    [1;33m   [0;33m [0;1;33m          [0;33m [0;1;33m  [0;33m [0;1;33m                [0;33m [0;1;33m         [0;33m [0;1;33m  [0;33m [0;1;33m         [0;33m [0;1;33m       [0;33m [0m
+[1;33m         [0;33m [0;1;33m          [0;33m [0;1;33m  [0;33m [0m  [1;33m    [0m [1;33m                                             [0m
+   [1;33m      [0;33m [0m [1;33m                  [0m     [1;33m                               [0m         [36m░[0m
    [36m░[0m                        [36m░[0m              [1;36m░[0m     [1;36m▄▄[0m  [36m░[0m     [36m ▓ [0m            [36m▒[0m
  [36m▀▀▓[0m  [1;32m [0m        [36m▓[0m        [36m■[0m   [36m▒ [0m [36m■[0m        [1;36m░[0m  [1;36m▓[0m [1;37m▄[0;1;36m▄▀[0m  [1;36m▀█[0m [36m▓[0m      [36m▒[0m     [1;36m▄▀[0m [1;36m▒[0m   [36m▄[0;1;32;46m▓[0m
  [1;36m░[0m  [36m▄[0;1;36m▄▓▀[0;1;37m▀[0;1;36m▀▄[0m    [36m▒[0m [1;32m▀[0m       [36m▀▄▄▓▐▀[0m    [1;30m▐▄[0m  [1;36m▄▒[0;1;37m▀▀█[0;1;36m█▀[0m  [1;30m▄▌[0m [1;36m█▌[0;36m▀█[0m     [36m░ [0m   [1;36m██▄▄▓  [0;36m▀▀[0;1;32;46m▒[0m
@@ -51,8 +51,8 @@ Write-Host '
 [34m█[0;1;34;44m░░[0;34m██████[0;1;34;44m░░▒▒░[0;34m████▄▄▄▄▄[0m      [33m░▓▀▒[0m  [33m░▄▄[0m     [33m█[0m [33m▓▀▀▀▀[0m   [33m▀[0m        [34m▄▄▄███████[0;1;34;44m░ [0;34m██[0m
 [1;34;44m█▓▒░░      ░▒▓█▄ ▀░  ░░░░▒[0m          [33m▓▀[0m  [33m▒▀█▓▄▄▓[0m   [34m▓▄▄▄▄███[0;1;34;44m░▒▓█▄▄▄▄█▓▒░░░░░[0;34m██[0m
 [1;30m ─────────────────────────────────────────────────────────────────────────── [0m
- [37mANSi by Smooth of TekLordZ Productions.  [0;1;37m  [0mIf you would like to gain a kewl
-[37m logo or multiline welcome screen for your board.  Contact me on my board at[0m
-[37m 8o8.674.1673 - nup.phunkified or leave me email with your stats and request[0m
-[37m info at smooth@pixi.com on the Internet.        [0;1;37m     [0m     [1;30m---[0;1;37mSmooth^ACiD^TL[0m
+ [37m                                         [0;1;37m  [0m                                
+[37m                                                                            [0m
+[37m                                                                            [0m
+[37m                                                 [0;1;37m     [0m     [1;30m   [0;1;37m              [0m
  [1;30m──────────────────────────────────────────────────────────────────────────── [0m'

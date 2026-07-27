@@ -5,7 +5,7 @@
 # Source SHA-256: 832b66ded41e77519e2a14b6a301980ddc111b7596c2c18a6ad41454b36cb96e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DE-TSN.ANS by Deception (rem-0794); released in rem-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-90
 # Columns: 1-80
 
@@ -55,5 +55,4 @@ Write-Host '
                                      [1;30m▄[0;1;30;47m▒▒[0m
                                     [1;30;47m▓▓[0m [1;30m▄[0;1;30;47m▓[0m
                                     [1;30;47m███[0;1;30m█[0m
-                                     [1;30m▀▀[0m
-'
+                                     [1;30m▀▀[0m'

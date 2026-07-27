@@ -5,7 +5,7 @@
 # Source SHA-256: 1fadf8c6820067d50384f4857d941478a511820807b80c3a00b62674ce261e3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TDO-TPO1.ANS by teardrOp (Creed); released in crd-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Palace Of Omniscience
 # SAUCE Author: teardrOp
 # SAUCE Group: Creed
@@ -61,7 +61,4 @@ Write-Host '
 [1m███████████████████▀▀[0m▀▀▀  [1m ▄█████████▄▄ [0m  ▀▀▀▀██[1m█████████▄▄▄▄▄▄▄▄▄▄▄▄▄████▀[0m  [1m███[0m
 [1m█████████▀▀▀▀▀▀[0m      [1m▄▄▄▄██████████████████▄▄[0m       [1m▀▀▀▀███████████████▀▀[0m  [1m▄████[0m
           [1m▄▄▄▄▄▄██████████████████████████████████▄▄▄▄▄[0m                  [1m▄██████[0m
-[1m████████████████████████████████████████████████████████████████████████████████[0m
-
-                            [1;30mT[0mh[1me[0m [1;30mP[0malac[1me[0m of [1;30mO[0mmniscienc[1me[0m
-                            [1;30ms[0my[1ms[0m: [1;30mG[0mren[1me[0m  0 day [1;30mg[0moodie[1ms[0m'
+[1m████████████████████████████████████████████████████████████████████████████████[0m'

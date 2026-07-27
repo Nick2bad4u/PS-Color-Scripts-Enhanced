@@ -5,7 +5,7 @@
 # Source SHA-256: 025e01cda90a1b90757ce60deb403e6ec369ec04217bbffeb440ebd6e54ddfd4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-FLG.ANS by TNA / 4thds / Eerie (awe lettering); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 9610 Newsletter
 # SAUCE Author: TNA / 4thds / Eerie
 # SAUCE Group: awe lettering
@@ -42,8 +42,4 @@ Write-Host '
 [35m$$[0;1;35m$$$$[0;35m$$$S#a┐▬.[0;37m [0;36m ~^"ⁿ┘*⌂⌂*┘ⁿ"^~[0m   [35m_.,▬,._[0;37m  [0;36m`ⁿ└*/Sjj│││j$S*┘ⁿ"^~~"ⁿ┘*∟⌂∟┘`[0;37m  [0;35m j$$$[0m
 [35m$$[0;1;35m$$$$$$[0;35m$$$$$$$$S#%a┐▬,..,▬┌g#S$││$$$$$$$S#a┐▬,._[0m      [35m_.,▬┌g#SS#a┐▬,.,▬┌g#│$[0;1;35m$$[0;35m$[0m
 [35m$$[0;1;35m$$$[0;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$││$$││$$$$$$$$$$$$$$[0;1;35m$$[0;35m$$[0;1;35m$$$$$$[0;35m$[0m
-[35m$$$$$$$$$$$$$$$$$$[0;37m  [0;32m░[0;30;42m░ F [0;32;40m   O    L    I    A    G    E [0m   [35;40m $$$$$$$$$$([0;1;37;40mShrimp[0;32mFLG[0;35m)[0m
-
-[37mI hate this! Jesus! This logo made me so depressed I decided not to touch ASCII[0m
-[37min the near future. I invite everyone to completely fuck this shit up, maybe you[0m
-[37mcan come up with something better.[0m'
+[35m$$$$$$$$$$$$$$$$$$[0;37m  [0;32m░[0;30;42m░ F [0;32;40m   O    L    I    A    G    E [0m   [35;40m $$$$$$$$$$([0;1;37;40mShrimp[0;32mFLG[0;35m)[0m'

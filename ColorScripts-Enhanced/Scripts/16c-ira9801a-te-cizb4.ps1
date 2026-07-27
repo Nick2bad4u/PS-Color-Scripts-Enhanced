@@ -5,7 +5,7 @@
 # Source SHA-256: c69ed222c76f662f4273b2c84ffb852d29dbf0d35d5aac6df1cf0e010a34e9f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-CIZB4.ANS by The ExtremisT (FIRE!/Mistigris); released in ira9801a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: City iz Burning Matrix
 # SAUCE Author: The ExtremisT
 # SAUCE Group: FIRE!/Mistigris
@@ -38,5 +38,4 @@ Write-Host '
 [31m▒▓▓▓▓▓▓ [0;33m▐[0;1;31;43m░░▒[0;1;31;40m▒▒▓▓▓▓▓▓▓▓▓[0;1;31;43m▄[0;1;31;40m▄▄▐██[0;1;37;40m▄ [0;1;31;47m▓▓[0;1;31;40m▌▒[0m                 [31mD[0;1;31mo[0mw[1mnload [0mQ[1;31mW[0;31mk[0m
 [31m▓█████▌ [0;33m▐[0;1;31;43m░░░ [0;33m▄▓[0;1;31m▒▒▓▓▓▓▓▓▓▌▐[0;1;31;43m██[0m [1;37;40m▀[0;1;37;47m▓[0;1;37;40m▄[0;1;31;40m▀[0m                    [31mU[0;1;31mp[0ml[1moad [0mQ[1;31mW[0;31mk[0m
 [31m██▀▀ [0;1;30m▄  [0;33m█[0;1;31;43m░▒▒░░  [0;33m▄▄▓▓▓[0;1;31m▒▒ ▐[0;1;31;43m▓▓[0;1;31;40m▌▐[0;1;31;43m▒[0;1;31;40m▄[0;1;37;40m▀[0;1;37;47m▒[0m▄ [1;30m▀▄▄[0m            [31mR[0;1;31me[0mc[1mcommandati[0mo[1;31mn[0;31ms[0m
-[1;30m▄▄▄██▄ [0;33m▄[0;1;31;43m░▒▓▓▒▒░░░     [0m [1;31;40m▐[0;1;31;47m▓[0;1;31;40m█▌▐[0;1;31;43m▓▒[0m [1;30;40m▄ [0m▀[1;33;41m░[0m  [1;30;40m▄██▄▄[0m       [31mQ[0;1;31mu[0mi[1mt to main str[0me[1;31me[0;31mt[0m
-[31m  [0;1;31mthis matrix was drawn by the extremist for city i[0;1;33mz [0;1;31mburning -- don''t ever rip.[0m'
+[1;30m▄▄▄██▄ [0;33m▄[0;1;31;43m░▒▓▓▒▒░░░     [0m [1;31;40m▐[0;1;31;47m▓[0;1;31;40m█▌▐[0;1;31;43m▓▒[0m [1;30;40m▄ [0m▀[1;33;41m░[0m  [1;30;40m▄██▄▄[0m       [31mQ[0;1;31mu[0mi[1mt to main str[0me[1;31me[0;31mt[0m'

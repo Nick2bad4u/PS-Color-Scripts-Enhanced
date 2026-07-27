@@ -5,7 +5,7 @@
 # Source SHA-256: 2de2667abdf0e17f5d714208cefb26849836128dc48309e29bb3af8c911df481
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-MIST2021.09.ANS by spinsane (Mistigris); released in mist1121 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: MiSTiGRiS 2021.09
 # SAUCE Author: spinsane
 # SAUCE Group: Mistigris
@@ -33,6 +33,4 @@ Write-Host '
 [34m☺[0;37m   ▓▀[0;1;32;42m░░[0;1;30;42m  [0m  [31;44m░░░[0;35;44m![0;37;40m [0;31;44m▓▓▓[0;31;40m▌░[0;37;40m  [0;35;40m\[0;36;40m|[0;31;40m░░░[0;36;40m|/[0;37;40m \\       \      // [0;1;31;40m.[0;1;30;40m:[0;1;33;40m\_______[0m___\[1;30m:[0m       [31m|[0m
 [37m   [0;1;36m__[0m [1;32m░▒▒▒[0m    [34mXX[0;31m:░▓[0;1;37;41m░[0;31m█▄[0;37m   [0;35m\[0;34m\[0;1;33;41mΩ[0;36;44m/[0;36;40m/[0;37;40m [0;1;31;40m:.[0m`(-,..___.,,-"~[1;31m,┐!|_[0m [1;30m::::::::::::[0m       [31m|[0m
 [34m☺[0;37m  [0;1;36m<░[0m [1;32m▓█[0;1;34;102m░░[0;1;36m░[0m    [35m▀[0;37m   [0;1;31m▀▀▀[0;1;30;41m■[0;31m)[0;37m  [0;34m~[0;37m [0;31m☻[0;34m☺[0;37m  [0;1;31m`?:,.[0m        [1;31m.┌i::\\/[0m                    [31m|[0m
-[34m☺☺[0;37m          [0;1;30;44m☺[0;1;30;40m☺[0m            [31m☺[0;34m☻[0;31m░[0;37m         [0;1;36m([0;1;30m-_-[0;1;34m)[0m             [1;32mdo i really need [0;31m|[0m
-[37m   [0;34m☺☺☻☻☻☻☻☺[0;37m  [0;1;30m☺[0m                                          [1;32mto finish this??[0m [31m|[0m
-[34m☻☻☻☻☻☻☻☻☻☻☺[0;37m [0;1;35mmistigris promo #1 / [0;1;34mart:[0;1;34;44msP[0;30;103m![0;1;34;44mMp[0m [35m/ tunes:[0;30;41m ASCii[0;31;40mGOD :::::::::::::[0m'
+[34m  [0;37m          [0;1;30;44m [0;1;30;40m [0m            [31m [0;34m [0;31m░[0;37m         [0;1;36m [0;1;30m   [0;1;34m [0m             [1;32m                 [0;31m [0m'

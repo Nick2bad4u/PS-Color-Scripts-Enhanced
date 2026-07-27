@@ -5,7 +5,7 @@
 # Source SHA-256: 81c8f69aab637caac8e8426590bded34f420728f58e3713f537a614564fec5d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SY!SUCCO.ANS by shoony (apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: succo-fuckin-tash
 # SAUCE Author: shoony
 # SAUCE Group: apathy
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-succotash
+         
 
 [1;33m▄▄[0m ▄▄██▀▀▀▀██▄▄  ████ [1;33m▄▄▄▄[0m ████  ▄▄██▀▀▀▀██▄▄ [1;33m▄[0m ▄▄██▀▀▀▀██▄▄ [1;33m▄[0m ▄▄██▀▀▀▀██▄▄
 [1;33m█[0m ▐[1;30;47m░░[0m█▌[1;32m▐██▌[0m▐[1;30;47m░░░[0m▌ [1;30;47m░░░[0m█ [1;32m▄▄▄▄[0m █[1;30;47m░░░[0m ▐[1;30;47m░░[0m█▌[1;32m▐██▌[0m▐█[1;30;47m░░[0m▌[32m [0;37m▐[0;1;30;47m░░[0m█▌[1;32m▐██▌[0m▐█[1;30;47m░░[0m▌ ▐[1;30;47m░░[0m█▌[1;32m▐██▌[0m▐█[1;30;47m░░[0m▌
@@ -33,14 +33,4 @@ succotash
 [1;33m▀▀[0m ▀▀██▄▄▄▄██▀▀  ████ [1;33m▀▀▀▀[0m ████  ▀▀██▄▄▄▄██▀▀  ████ [1;33m▀▀▀▀[0m ████ [1;33m▀▀▀▀[0m
 
 
---------------------------------------------------------------------------------
-
-well, thats all for this month..  been busy.. i just wanna release my first ansi
-with some greets on it..  *grin*  ..greets go out to trip, misfit (kissing up to
-the bosses)  f3, chromedego  (dunno if i spelled it right?!)  radman, nootropic,
-epidemic,  spear, khz  (the up-and-coming best ansi artist)  lord jazz  (just so
-people think i''m cool)  asphix, nG, kadaver, lemonade, kal, fractal, point blank
-(whatever your new name is) and all the peeps i forgot..                   lates
-
-
-wurl@earthlink.net                                                        shoony[0m'
+--------------------------------------------------------------------------------[0m'

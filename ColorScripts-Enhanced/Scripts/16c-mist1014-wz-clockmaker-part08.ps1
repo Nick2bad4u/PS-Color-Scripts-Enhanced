@@ -5,7 +5,7 @@
 # Source SHA-256: f5b2ebdd29b0a37a793353f3751e128404a9160e0e192a06dc00936ecf657b81
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wz-clockmaker.ans by Whazzit (Mistigris); released in mist1014 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Clockmaker
 # SAUCE Author: Whazzit
 # SAUCE Group: Mistigris
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-                     [38;2;168;120;55m▄▀[0;38;2;193;130;66m [0;38;2;168;120;55m▀▌▐▓█[0;38;2;193;130;66m [0;38;2;168;120;55m█[0;37m  [0;36m he watched as she was accepted by the people[0m
+                     [38;2;168;120;55m▄▀[0;38;2;193;130;66m [0;38;2;168;120;55m▀▌▐▓█[0;38;2;193;130;66m [0;38;2;168;120;55m█[0;37m  [0;36m                                             [0m
                    [38;2;168;120;55m▄███▄█▀▄██[0;38;2;193;130;66m [0;38;2;168;120;55m█[0;38;2;193;130;66m [0;38;2;168;120;55m▄[0;36m [0;37m [0;36mnot for what she was but for their memories[0m
                [1;30m▄▀[0;38;2;193;130;66m▄[0;38;2;168;120;55;48;2;192;135;56m▓▓[0;38;2;168;120;55;40m█▀▀[0;1;30;40m▄▄[0m   [38;2;193;130;66m [0;38;2;168;120;55m█[0;1;30m░░[0m [38;2;168;120;55m▓▄[0;37m  [0;36m of who she used to be, and he suddenly[0m
      [38;2;193;130;66m [0m         [38;2;193;130;66m▄[0;38;2;168;120;55;48;2;192;135;56m▒▒[0;38;2;193;130;66;40m▀[0;1;30;40m▄▄███[0m [1;30m▄▓▓[0;38;2;193;130;66m [0;38;2;168;120;55m█[0;1;30m ░[0m [38;2;168;120;55m▓▓▓▓▄[0;36m [0;37m [0;36mknew the path he must take to unmask the[0m

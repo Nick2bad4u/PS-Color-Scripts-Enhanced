@@ -5,7 +5,7 @@
 # Source SHA-256: 24dd6276266c7d085d71a1457340beb3f5fe24288b235ada1565e881fe70be3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WW-TLCX.ANS by Wicked Wolf (spl9607); released in spl9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 70-103
 # Columns: 1-80
 
@@ -39,8 +39,4 @@ Write-Host '
          [31m [0m           [31m░[0m             [31m▒[0m    [31m░[0m       [31m░[0;37m [0;31m  [0m
                      [31m░[0m             [31m▒[0m            [31m░[0m   [31m [0m
                                    [31m░[0m
-                                   [31m░[0m
-                                                    [31m [0m
-                                                   [31m   [0m
-                                                  [31m  [0m
-                                          [31m          [0m'
+                                   [31m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 30aed21797b64c766185f0073b23af06d9228135591d262ff9f142adcad117ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-SAMS.ANS by Colourless (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Samsara Promo.
 # SAUCE Author: Colourless
 # SAUCE Group: awe lettering
@@ -34,4 +34,4 @@ Write-Host '
         [30;43m░[0;1;33;43m▒▓█[0;1;33;40m██████[0;1;33;42m▓[0;1;33;40m▄▄    ▄▄▀[0m        [1;33m▄▄▌▀▀ [0;33m▄▄▄[0;1;33;43m▄▄[0;1;33;42m▓[0m ▄[31;47m░[0;37;40m▄▄▄▄▄    ▄▄[0;37;47m [0;37;40m ▄ [0;33;40m▀░▄  ▐▀▀▀▀[0m
        [33;40m▐[0;1;33;43m░▄[0;1;33;40m█▌▀▀▀▀[0;1;33;47m▓[0;1;33;40m▄▄▄▄ ▀▀▀ ▄▄▄▄▄[0;1;33;43m▓[0;1;33;40m▀▀▀▀ [0m▄ [33m▄[0;1;33;43m▄▄▓[0;1;33;40m████▌[0m▐[47m   [0;30;47msams[0;37;40m▌a[0;30;47m▓ra  [0;37;40m▌▐[0;1;33;47m░▓[0;1;33;40m▄▄[0;33m▀▀▀▀▀▀[0m
        [33m▀▀ [0;37m▄▄[0;30;47m░ [0;37;40m▌░   ▄▄▄[0;37;47m [0;30;47m░[0;1;37;47m░[0m▄▄  ▄▄▄▄▄[47m [0;31;47m░░▒[0;37;40m▌[0;33;40m▐[0;1;33;43m▐[0;1;33;40m██[0;1;33;47m▓▒░[0m▄▄▄ ▀▀[47m    [0;30;47m░[0;37;40m▄▄[0;37;47m   [0;1;37;40m░ [0m▀[1;33m▀▀▀▀▀▀▀▀▀[0m
-                                     [31m░  [0;33m▀▀[0;1;33m▀▀ [0mcolourless([1mawe[0m)[0m'
+                                     [31m░  [0;33m▀▀[0;1;33m▀▀ [0m           [1m   [0m [0m'

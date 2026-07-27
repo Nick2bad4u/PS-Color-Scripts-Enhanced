@@ -5,7 +5,7 @@
 # Source SHA-256: 55989b4da979df468d54e08028968e52da264ed1cc9042775d7d2c6962248b96
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REP-MID.ANS by Reptical (karma-06); released in karma-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -33,7 +33,4 @@ Write-Host '
  y[1;36mour [0mp[1;36mass[0m:                    [1;34m [0;35m''[0;1;34m [0;35m~"└[0;1;34m*S$$$$$$$$P┘"[0;35m^~~^[0;1;34m"└4$$$$[0;35m;[0;1;34m$P┘²"[0;35m^~`[0;1;34m $$$$$$$$[0m
  y[1;36mour [0mi[1;36mnfo[0m:                        [1;34m      [0;35m~[0;1;34m"²"[0;35m`[0;37m [0;31m.[0;1;31m┌*@$$@*┐[0;31m.[0;37m [0;35m~[0;1;34m└4[0m      [31m_.,[0;37m [0;1;34m$P*[0;35m┘"^~`[0m
                                   [1;30m        [0;1;31m [0;31m_.[0;1;31m┌d$P*┴²²┴*4$b[0;31m┐.[0;1;31m_[0;31m.,┌[0;1;31m@S$$$[0;31m{[0;1;31m [0;35m`[0;31m_.┌[0;1;31m*@S$ [0m
---
-I ain''t like it too much, but the ''mid'' owns, it''s ok.
-hmmmmm, seeya all later.
-- ([1;36mrep[0m)tical of [1;36mkarma[0m ascii.[0m'
+--[0m'

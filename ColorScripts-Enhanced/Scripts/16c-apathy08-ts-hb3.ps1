@@ -5,7 +5,7 @@
 # Source SHA-256: a13a9bf73d1b07b253dc52894d72a829d39193ea4b662e829c4473651a72dc54
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-HB3.ANS by transient (apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hellbound
 # SAUCE Author: transient
 # SAUCE Group: apathy
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mts[0m/[1;30mapathy  [0m         [1;32m▒[0m                 [1;37m▀[0m      [1;32m▒[0m
+[1;30m  [0m [1;30m        [0m         [1;32m▒[0m                 [1;37m▀[0m      [1;32m▒[0m
             [1;30m▄▄[0m  [32m▀█▀▀[0;1;32m▓[0;32m▀▀[0;1;33;42m▒[0;1;37;42m░[0;32m▀▀▀[0m         [1;30m▄▄▄[0m [32m▀█▀▀[0;1;32m▓[0;32m▀▀[0;1;33;42m▒[0;1;37;42m░[0;32m▀▀[0;1;32m▀▀[0;32m▀▀▄▄[0m [1;30m▀▀[0m  [1;30m▄▄ [0m
           [1;30m█▀[0m  [1;30m▀▀[0m [1;33;42m░[0;32m█▀[0;1;32m▄[0;32m▐[0;1;33;42m░[0;1;32;42m▒[0;32m▌[0m  [32m░[0m [1;30m▄[0m    [1;30m▄▀▀[0m     [1;33;42m░[0;32m█ [0;1;32m▄[0;32m [0;1;33;42m░[0;1;32;42m▒[0;32m▌[0;1;32m▄[0m [32m█[0m     [32m▀▀▄[0m    [1;30m ▀[0m
          [1;30m█ [0m      [32m█▀[0m [1;32m▀[0m [32m█[0;1;37;42m░[0;32m▄▄[0m [32m▒▌[0m  [1;30m▀[0m      [1;37m▀[0m   [32m█▀▄[0;1;32m▀[0;32m▄█[0;1;37;42m░[0;32m▄▄[0m [32m▒[0m [32m▄[0m    [32m▄▀[0m     [1;30m▄▌[0m

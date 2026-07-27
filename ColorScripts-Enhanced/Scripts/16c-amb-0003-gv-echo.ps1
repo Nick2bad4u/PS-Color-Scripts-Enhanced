@@ -5,7 +5,7 @@
 # Source SHA-256: d1373a3e8c27cda19e492ce1ba4b0f536c3f08bdc048607ee27c25f9ceec0374
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GV-ECHO.ANS by groove (amb-0003); released in amb-0003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: echo
 # SAUCE Author: groove
 # SAUCE Date: 19970608
@@ -20,9 +20,9 @@ Write-Host '
 [34m  .,╖s@S$"^"$S@s╖,.   .,╖s@S$"^"$$S@s╖[0;1;34m,. d$$[0;34m$$[0;1;30;44m$[0;34m$$ [0;37m  [0;31m  `^"²╙$[0;1;31m$''[0;34m.,╖s@S$"^"$S[0;1;34m@s╖,.[0m
 [34m,d$$$░ggg [0;1;30m;[0;34m $░$[0;1;34m$[0;1;36;44m$[0;1;34;40m$$[0;34mb,d$[0;1;30;44m$[0;34m$$ⁿⁿ$ [0;1;30m;[0;34m $[0;1;30;44m$[0;34m$[0;1;30;44m$[0;34m$$[0;1;34m$[0;1;36;44m$[0;1;34;40m$$[0;1;36;44m$[0;1;34;44m$[0;1;34;40m$[0;34m$[0;1;30;44m$[0;34m$$"^"$S@s╖,.  d$$$$░ggg[0;1;30m;[0;34m $$$$[0;1;34m$[0;1;36;44m$[0;1;34;40m$b[0m
 [34m$g$[0;36m$[0;34m$$[0;1;30;44m$[0;34m$$ggg$[0;1;34m$[0;1;34;44m$[0;1;34;40m$$[0;1;34;44m$[0;1;34;40m$[0;34m$$$ⁿⁿ$gggg [0;1;30m░[0;34m """"""[0;1;34m"""$[0;1;34;44m$$[0;1;36;44m$[0;1;34;40m$[0;34m$$$ [0;1;30m░[0;34m $░$$$[0;36m$[0;1;36;46m$[0;36mb,[0;34m$$$[0;1;30;44m$[0;34m$$$$ [0;1;30m;[0;34m $ⁿ[0;1;34mⁿⁿ[0;1;34;44m$$[0;1;34;40m$[0;1;36;44m$[0m
-[36m$$$$[0;34m$ⁿⁿⁿ[0;1;30;44m$[0;34m [0;1;30m [0;34m gg[0;1;34mggggg[0;34mgg$gggg[0;1;30;44m$[0;34m$$ [0;1;30m;[0;34m gggggg[0;1;34mggg[0;1;34;44m$[0;1;34;40m$$[0;34m$$gggg[0;1;30m;[0;34m $[0;1;30;44m$[0;34m$$[0;36m$$[0;1;30;46m$$[0;36m$$[0;34m$$$$[0;1;30;44m$[0;34m$$ [0;1;30m░[0;34m g[0;37mgV[0;34mg░[0;1;34;44m$[0;34m$$[0m
+[36m    [0;34m    [0;1;30;44m [0;34m [0;1;30m [0;34m   [0;1;34m     [0;34m       [0;1;30;44m [0;34m   [0;1;30m [0;34m       [0;1;34m   [0;1;34;44m [0;1;34;40m  [0;34m      [0;1;30m [0;34m  [0;1;30;44m [0;34m  [0;36m  [0;1;30;46m  [0;36m  [0;34m    [0;1;30;44m [0;34m   [0;1;30m░[0;34m  [0;37m  [0;34m ░[0;1;34;44m [0;34m  [0m
 [34m$[0;36m$[0;1;36;46m$$[0;36m$[0;34mggg$ [0;1;30m;[0;34m [0;1;30;44m$[0;34m$[0;1;34m$[0;1;34;44m$[0;1;34;40m$[0;34m$[0;1;36;44m$[0;1;34;40m$[0;34m$$$[0;1;30;44m$[0;34m$[0;1;30;44m$[0;34m$░$ [0;1;30m; [0;34m$[0;1;30;44m$[0;34m$░$░$[0;1;34m$$[0;1;36;44m$[0;1;34;40m$[0;34m$$$$[0;1;30;44m$[0;34m$ [0;1;30m;[0;34m $$[0;1;30;44m$[0;34m$y[0;36myyyy[0;1;36;46m$[0;36m$[0;34m░$░$[0;1;30;44m$[0;34m$ [0;1;30m;[0;34m $$░$$$░$[0m
 [36m`²╜$[0;1;30;46m$$[0;34m$[0;1;30;44m$[0;34m$g░g$░$ⁿ[0;1;34mⁿⁿ[0;1;36;44m$[0;1;34;40m$[0;34m$²╜$$$$$$ggg$$[0;1;30;44m$[0;34m$[0;1;30;44m$[0;34m$ⁿⁿ$²╜$$[0;1;30;44m$[0;34m$$$ [0;1;30m░[0;34m $$░$░$[0;36m$[0;1;36;46m$[0;36m$`[0;34m²╜$$$$$ggg$$$$$╜²''[0m
 [1;30m;;;; ; ;░  [0;34m $[0;1;30;44m$[0;34m$gg[0;1;34mg$[0;34m$$  [0;1;30m;;░░;; ; [0;34m░$$$$[0;1;30;44m$[0;34m$g$ [0;1;30m;;░;░;; ;  ;     ;;;░░░;; ;░ ;  ;░;; ;[0m
-[1;30m ;░;░;[0m        [1;30m░[0m      [1;30m;;;;;░[0m     [1;30m; ;[0m    [1;30m;[0m   [1;30m░;;gv[0m^[1;30mambush[0m/[1;30mserial[0m/[1;30mseiken[0m/[1;30mtly  ;;;;[0m
+[1;30m  ░ ░ [0m        [1;30m░[0m      [1;30m     ░[0m     [1;30m   [0m    [1;30m [0m   [1;30m░    [0m [1;30m      [0m [1;30m      [0m [1;30m      [0m [1;30m         [0m
    [1;30m░  ; ;[0m   [1;30m░[0m   [1;30m;;;;;  ░[0m   [1;30m;  ;;;;;;░ ;[0m         [1;30m░[0m      [1;30m;  ;[0m    [1;30m░[0m       [1;30m░ ;  ;  ;[0m'

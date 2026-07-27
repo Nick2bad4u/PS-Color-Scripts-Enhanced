@@ -5,7 +5,7 @@
 # Source SHA-256: 3871cc0adcf6d9e703bba63a121184ab11aae1f71c7b29c7ea1012e07f319b48
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FD-CRYPT.ANS by Final Descendant (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 36-67
 # Columns: 1-80
 
@@ -35,10 +35,10 @@ Write-Host '
               [1;30m░[0m       [1;30m▒░░   ░[0m          [1;30m░[0m          [1;30m░[0m
               [1;30m░[0m        [1;30m░    ░[0m                                     [1;30m░[0m
               [1;30m░[0m        [1;30m░[0m                                     [1;37m┌[0;1;35m──[0;35m─────────────[0;1;35m──[0;1;37m┐[0m
-              [1;30m░[0m        [1;30m░[0m                                     [1;35m│ [0;1;34mF[0;34minal [0;1;34mD[0;34mescendant[0;1;35m│[0m
+              [1;30m░[0m        [1;30m░[0m                                     [1;35m│ [0;1;34m [0;34m     [0;1;34m [0;34m         [0;1;35m│[0m
 [1;37m┌[0;1;35m──[0;35m────────────────────────────────[0;1;35m───[0;1;37m────[0;1;35m───[0;35m──────────────[0;1;35m──[0;1;37m┴[0;1;35m──[0;35m─────────────[0;1;35m──[0;1;37m┤[0m
 [1;35m│[0m                           [1;32m─ [0;1;34mT [0;34mH E   [0;1;34mC [0;34mR Y P T [0;1;32m─[0m                              [1;35m│[0m
 [1;37m├[0;1;35m─[0;35m─────────────────────────────────[0;1;35m───[0;1;37m────[0;1;35m───[0;35m────────────────────────────────[0;1;35m──[0;1;37m┤[0m
-[1;35m│[0;1;34m3[0;34mO5[0;1;32m.[0;1;34m7[0;34m48[0;1;32m.[0;1;34mO[0;34m596 [0;1;32m─ [0;1;34mR[0;34munning [0;1;34mO[0;34mblivion[0;1;32m/[0;34m2 [0;1;34mv[0;34m1[0;1;32m.[0;34m1O [0;1;32m─ [0;1;34mS[0;34mysOp [0;1;32m: [0;1;34mD[0;34milemma [0;1;32m─ [0;1;34mC[0;34mo [0;1;32m: [0;1;34mT[0;34mhe [0;1;34mE[0;34mqualizer[0;1;35m│[0m
-[1;35m│[0m         [1;34mC[0;34mo [0;1;32m: [0;1;34mE[0;34mpidemiC [0;1;32m─ [0;1;34mC[0;34mPANet [0;1;32m─ [0;1;34mT[0;34miANet [0;1;32m─ [0;1;34mN[0;34mitroNet [0;1;32m─ [0;1;34mT[0;34miA [0;1;34mD[0;34miST [0;1;34mS[0;34miTE[0m           [1;35m│[0m
+[1;35m│[0;1;34m [0;34m  [0;1;32m [0;1;34m [0;34m  [0;1;32m [0;1;34m [0;34m    [0;1;32m─ [0;1;34m [0;34m       [0;1;34m [0;34m       [0;1;32m [0;34m  [0;1;34m [0;34m [0;1;32m [0;34m   [0;1;32m─ [0;1;34m [0;34m     [0;1;32m  [0;1;34m [0;34m       [0;1;32m─ [0;1;34m [0;34m  [0;1;32m  [0;1;34m [0;34m   [0;1;34m [0;34m        [0;1;35m│[0m
+[1;35m│[0m         [1;34m [0;34m  [0;1;32m  [0;1;34m [0;34m        [0;1;32m─ [0;1;34m [0;34m      [0;1;32m─ [0;1;34m [0;34m      [0;1;32m─ [0;1;34m [0;34m        [0;1;32m─ [0;1;34m [0;34m   [0;1;34m [0;34m    [0;1;34m [0;34m   [0m           [1;35m│[0m
 [1;37m└[0;1;35m──[0;35m────────────────────────────────[0;1;35m───[0;1;37m────[0;1;35m───[0;35m────────────────────────────────[0;1;35m──[0;1;37m┘[0m'

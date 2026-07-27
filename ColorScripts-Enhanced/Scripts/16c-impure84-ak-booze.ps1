@@ -5,7 +5,7 @@
 # Source SHA-256: 60b0b1de2a4c90e191753ca89c91306a8affb59672c049fd0d8d6b79d42978b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-booze.ans by abstrakt (fire); released in impure84 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: booze
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -17,11 +17,11 @@
 
 Write-Host '
 [36mdb.                                        `┘[0;37m     [0;36m.┌[0;1;36m┘[0;36m''`[0;37m            [0;32md[0;1;32m$$$$Sa[0;32m.  [0;1;30mabs[0m
-[1;36m$[0;36ml   [0;1;30mthe cause of,                         [0;36m''      ''[0;37m            [0;32m┌.[0;1;32m jP┘$[0;32mP[0;1;32m┘4$$[0;32mb.[0;1;32m,┐[0m
+[1;36m [0;36m    [0;1;30m                                      [0;36m        [0;37m            [0;32m┌ [0;1;32m   ┘ [0;32m [0;1;32m┘   [0;32m  [0;1;32m ┐[0m
 [36m ''[0;37m                                               [0;36m.[0;37m     [0;1;33m_[0;33m       [0;32m`[0;1;32m'' $[0;1;37m [0;1;32m.d.[0;1;37m [0;1;32m,$$d[0;32m$[0;1;32m┘''[0m
            [1;30mand solution to,                           [0;1;33m`[0;33m┘''[0;1;33m/[0;33ms┐.[0;1;33m     [0;1;32m4$[0;32m┘[0;1;32m''$$$$$┘[0;32m`[0;37m  [0;36m,[0m
 [37m                                                    [0;1;33m,[0;33m.[0;1;33m    └/[0;33m$$s.[0;1;33m  [0;1;32m`4[0;32m┐[0;1;32md$$$[0;32m7[0;1;32m4[0;32mb  [0;36m;$[0m
-[37m                   [0;1;30mall of life''s problems.[0m          [33m`~[0;1;33m .┌$[0;33m$$.┌s$$a.[0;37m  [0;1;32m`''[0;32m┘''[0;37m [0;1;32m$$[0;32m;[0;37m  [0;1;36mY[0m
+[37m                   [0;1;30m                       [0m          [33m  [0;1;33m  ┌ [0;33m   ┌     [0;37m  [0;1;32m  [0;32m┘ [0;37m [0;1;32m  [0;32m [0;37m  [0;1;36m [0m
  [36m,[0;37m                                                    [0;1;33mj[0;33m└`  [0;1;33md[0;33mP┘`└*j$b.[0;37m [0;33m.[0;37m  [0;32mj[0;1;32m$$l[0m
  [1;36md[0;36mb[0;37m                                                   [0;33m`  [0;1;33mj[0;33m$`[0;1;33m  [0;32m┌.  [0;33m`└$/ ''[0;32m,$[0;1;32m$$[0;32m$ [0;36m,[0m
 [37m [0;36m`''[0;1;31m   [0;33m.┌\$[0;1;31m$$$$[0;33mSa.                          .[0;1;31m┌s%#SS#%┐.   [0;33m`''[0;1;31m  [0;1;32m:$$[0;32m$┐,.[0;1;32m_[0;32m_.┌$[0;1;32m$$[0;32m$'' [0;1;36m└[0;36m''[0m

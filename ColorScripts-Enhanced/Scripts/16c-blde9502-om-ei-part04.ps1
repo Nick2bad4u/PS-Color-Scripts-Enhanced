@@ -5,7 +5,7 @@
 # Source SHA-256: ce8ef910d446ab8d00cb2365793ec842ab87b72aadbcb1c9b9ca1b32cdcf0e88
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OM-EI.ANS by omega red (Blade Productions); released in blde9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: eternal insanity!
 # SAUCE Author: omega red
 # SAUCE Group: Blade Productions
@@ -36,22 +36,4 @@ Write-Host '
 [33m █▓▓▓▓ ▀██▓[0m [33m██▓█▓█[0m [33m██▓██▄ ██▓█[0m [33m█▓███ █▓▓██[0m [33m█▓▓█[0m [33m████▓█[0m [33m ███▓▓[0m  [33m████[0m         [33m█▓▓[0m
 [33m▀▀ ▀▓▀▀[0m [33m▀▀▀ [0m [33m▀▀▀▀▀ [0m [33m▀▀▀▓▀▀▀▓▀[0m  [33m ▀▀▀▀▀ ▀▀▀▀[0m [33m▀▀▀▀[0m  [33m▀▓▀▀▀[0m [33m▀▀ ▀▓▀▀[0m [33m▀▀▓▀[0m         [33m▀▒▀[0m
 
-   [31me    t    e    r    n    a    l       i    n    s    a    n    i    t    y[0m
-
-                                [1;30mblade! whq[0m
-                               [1;30mstats here mc[0m
-
-[1;30m  [0m
-        [1;30mansi^omega red.[0;31mb[0;1;30mlade! productions[0m
-        [1;30mif you would [0;31ml[0;1;30mike an ansi by me email me wherever you find me.  [0m
-        [1;30monly paid req[0;31mu[0;1;30mests will be answered.[0m
-
-        [1;30mgreets:   mc - finally one for blade, eh?[0m
-                  [1;30mgr - void in top 10 in undergrown emag![0m
-                 [1;30mear - mojo potatoes[0m
-                  [1;30mch - keep it up[0m
-                  [1;30msl - nice cancer work[0m
-                 [1;30mld! - i want an autograph[0m
-
-                 [1;30mand all blade members, cancer, void, acid, shiver,            [0m
-[1;30m                 and any other art group i didn''t mention yet.[0m'
+   [31me    t    e    r    n    a    l       i    n    s    a    n    i    t    y[0m'

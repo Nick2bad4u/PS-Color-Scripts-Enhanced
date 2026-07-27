@@ -5,7 +5,7 @@
 # Source SHA-256: c8cc2e018d3d145e2a48c66d63e61e333b3aebce626eb729e2ad3e8eebe3c4ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLOVE-01.ANS by blove (blade nation 05/97); released in blade-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: echo
 # SAUCE Author: blove
 # SAUCE Group: blade nation 05/97
@@ -39,15 +39,4 @@ Write-Host '
 [37;40m [0;1;34;40m░[0m [34m▐[0;1;34m██[0;1;34;44m▓▓[0;34m▌      [0;1;34;44m▒▒░  [0;34m██[0;37m [0;34m▀[0;1;34m▀▀▀[0m  [1;34m▒▒░[0m        ▀▀▀▀[1;30m▀██▄███▄[0;33m  [0;37m  [0;33m▀▀▀    ██[0;30;43m░▒[0;33;40m▒░[0m     [33;40m▀[0m
 [37;40m [0;1;34;40m░[0m  [34m█[0;1;34m███[0;34m█▄▄ ▄▄[0;1;34m███[0;1;34;44m░░[0;34m▀▀[0m                         [1;30m░▓▓███▌[0;1;31m▀█▓▓[0;33m▄  [0;1;31;43m░[0;33m█[0;30;43m░░[0;33;40m▓[0;30;43m▒[0;33;40m▒░ ░[0m
      [34;40m  [0;1;34;40m▀▀▀[0;34m▀▀▀▀ ▀▀▀▀▀▀▀[0m
-[37m───[0m
-[37mwhassup people. =)  anyhow, this is my first "actual" release with the[0m
-[37mblade nation since I joined them several months ago.  i''d like to thank[0m
-[1;33mmindcrime[0m for not kicking me out yet. aheh. =)  i promise to work on more
-stuff for blade.
-
-greets:  gravedancer, fluid, puff, axb, and the old unit crue.
-         plus, a big shout out to all of 410 ac.. keep the art alive folks!
-
-i specialize in 25 line pics/logos (free).  anything bigger needs some $$$
-cause i owe [1;33malien[0m of acid for this kickass vga he did for my board.  aheh.
-             [1m   [0m [1mall art reqs can be sent to unit@juno.com[0m'
+[37m───[0m'

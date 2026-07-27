@@ -5,7 +5,7 @@
 # Source SHA-256: 0088407c1ed15b09cd4a2f2a52908cc8572aa490bf9fb199ddc961c2f2066365
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-APA.ANS by sPEAR (rile); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: apathy promotional
 # SAUCE Author: sPEAR
 # SAUCE Group: rile
@@ -28,6 +28,4 @@ Write-Host '
             [1;47m▒░[0m▌[1;33m▐[0;1;33;43m▓▓▒▒░[0;33m▌[0;1;37;47m▒[0;1;37;40m▌[0;1;33;43m▒▓▒▒░▒[0m [1;33;43m▒▒▒▒▓▒[0;1;33;40m▄▄[0;1;33;43m▓▒░▒▓[0;1;33;40m▀[0m [1;33m▐[0;1;33;43m▓▓▒▒░[0;33m▌[0;1;37;47m▒[0;1;37;40m▌[0;1;33;43m▒▓▒▒░▒[0m [1;47m▓▓▓[0m
             [1;47m▒▒▓[0;1;40m [0;1;33;40m▀[0;1;33;43m▓▒░░░[0;33m▄[0;1;33m▄[0;1;33;43m▓▓▓▒▒▒[0m [1;33;43m░░▒▓▓▓[0m [1m▄▄[0m▄▄▄▄▄▄ [1;33m▀[0;1;33;43m▓▒░░░[0;33m▄[0;1;33m▄[0;1;33;43m▓▓▓▒▒▒[0m [1;47m▓▓▓[0m
            [1m [0;1;47m▒▓▓▓[0;1;40m▄▄[0m▄▄▄▄▄ [1;33m▀▀▀▀[0;33m▀▀[0;37m [0;33m▀▀▀▀[0;1;33m▀▀[0m [1;47m▓▒▒░░▒▒░░[0;1;40m▄▄▄▄▄▄▄[0m [1;33m▀▀▀▀[0;33m▀▀[0;37m [0;1;37;47m▒▒▓[0m
-            [1;47m▓▓▓▓▓▓▒▒░░░▒▒▒▒▓▓▓▓▓▓▓▓▓▒▒▒▒░░▒▒▓▒░▓▓▓▓▓▒▒░░░▒▒▒▒▒▒▓▓[0;1;40m▓▓▓[0m
-
-                     [1mwew. an apathy font by spear. huh. [0m'
+            [1;47m▓▓▓▓▓▓▒▒░░░▒▒▒▒▓▓▓▓▓▓▓▓▓▒▒▒▒░░▒▒▓▒░▓▓▓▓▓▒▒░░░▒▒▒▒▒▒▓▓[0;1;40m▓▓▓[0m'

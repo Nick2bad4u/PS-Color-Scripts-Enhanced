@@ -5,7 +5,7 @@
 # Source SHA-256: e09895c5ea9966bcf38e2beb5c0f5e9bd20e157394144ba38a9678bfd70b155e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-LOKI.ANS by Somms (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Loki's Error
 # SAUCE Author: Somms
 # SAUCE Group: ACiD Productions
@@ -63,5 +63,4 @@ Write-Host '
                                 [1m [0m   [1m [0m
            [1;33m▀[0m               [1;33m░[0m       [1;37m [0m        [1;37m ▀[0m        [1;33m▀[0m           [1;33m▀[0m
 [1;30m        [0m         [1;33m [0m                      [1;37m░[0m                    [1;33m░[0m
-                    [1;33m■[0m          [ansi by somms]                  [1;33m [0m
-                           [acid productions 1994][0m'
+                    [1;33m■[0m                                           [1;33m [0m'

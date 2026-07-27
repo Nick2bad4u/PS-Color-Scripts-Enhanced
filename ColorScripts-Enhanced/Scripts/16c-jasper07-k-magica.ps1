@@ -5,14 +5,14 @@
 # Source SHA-256: 25d14b8d8b477b46aac709fa13c3ddc1210bffae08251c1cac6c21ff2ca964dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K!MAGICA.ANS by Keetar (jasper07); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
 [36m▐[0;1;36;46m                                                                               [0m
 [36m▐[0;1;36;46m                                                                               [0m
-[36m▐[0;1;36;46m                    I wake up every night just to use Speed                    [0m
+[36m▐[0;1;36;46m                                                                               [0m
 [36m [0;1;36;46m                                                                               [0m
  [1;36;46m     [0;36m██████████████████████████████████████████████████████████████████████████[0m
 [37m [0;1;36;46m     [0;36m██████████████████████████████████████████████████████████████████████████[0m
@@ -52,8 +52,8 @@ Write-Host '
                                                          ░▒▓▓██[1;34;47m░░[0m█ ▀▀███[1;34;47m░░[0m█▌
                                                          ░▒▒▒▓▓▓██      ▀▀█▓
                                                           ░░░░░▓▓█░        ▐▄▄
-    [1;36mSorry [0;1;37mSmoke[0;1;36m for not remember your boards name[0m              ░░░░        ▐█▓▒
-    [1;36mbut this one is for you. If you cant see what[0m            [1;36m [0m             ▐▓▒▒░
-    [1;36mit is ..[0m [1;36mLook twice, a boy with a Chess-Cloak[0m                          ▒▒▒░░
+    [1;36m      [0;1;37m     [0;1;36m                                  [0m              ░░░░        ▐█▓▒
+    [1;36m                                             [0m            [1;36m [0m             ▐▓▒▒░
+    [1;36m        [0m [1;36m                                    [0m                          ▒▒▒░░
                                                                            ░░░
-    [1;36m░░[0m [1;37mkeetar[0;1;34m [0;1;36mof[0;1;34m [0;1;37mjasper[0;1;34m [0;1;36mansi 2002[0m'
+    [1;36m░░[0m [1;37m      [0;1;34m [0;1;36m  [0;1;34m [0;1;37m      [0;1;34m [0;1;36m         [0m'

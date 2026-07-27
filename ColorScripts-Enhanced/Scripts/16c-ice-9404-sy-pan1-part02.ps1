@@ -5,7 +5,7 @@
 # Source SHA-256: f9189a9084f732ab4ce586193f275581b28099a1ab31a7c6ac49176f9bd47e25
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SY-PAN1.ICE by Shaggy (ice-9404); released in ice-9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 32-72
 # Columns: 1-80
 
@@ -46,8 +46,4 @@ Write-Host '
 [1;37m    [0;1;32m██████▄██ ██████▄██ ▄▄▄▄▄▄▄▄[0;1;37m▄ [0;1;32m██ ▄▄▄███▄██ ██████▄   ██████ ██ ██████ ██[0m
 [1;32m    ██████    ██████ ██ ██████ ██ ██ ██████ ██ ██████    ██████ ██ ██████ ██[0m
 [1;32m    ██████    ██████ ██ ██████ ██ ██ ██████ ██ ██████▄██ ██████▄██ ██████ ██[0m
-[1;32m    [0;32m▄▄[0;1;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██ [0;32m▄▄[0;1;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m▄[0m
-
-                              Sysop: [1mShaggy [0m[[1mi[0mCE]
-
-        [1mShaggy [0m[[1mi[0mCE] - Quickie ANSI Completed [1mMay 1[0m, [1m1994 [0m- [1mShaggy [0m[[1mi[0mCE][0m'
+[1;32m    [0;32m▄▄[0;1;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██ [0;32m▄▄[0;1;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8dc5aa169c9c379301c45c92a199fad60b4d45894cc961eef2f94141b2cf36fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-TGSM1.ANS by Mighty Mouse (CiA); released in blndr008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: TGuardian Smoking in China.
 # SAUCE Author: Mighty Mouse
 # SAUCE Group: CiA
@@ -39,13 +39,4 @@ Write-Host '
 [1;32;42m▒░░[0;30;42m     [0;1;30;42m▀[0;30;42m         [0;1;30;42m▌[0;30;42m     [0;1;32;42m░░[0;30;42m               ▐[0;1;36;40m▐[0;1;36;47m▓░[0;30;47m    [0;1;36;47m▄[0;1;36;40m▀[0;30;47m█[0;1;30;40m▀[0;30;47m▄▄▄▄█[0;30;42m▌       [0;1;32;42m░░[0;30;42m           [0;1;30;42m░[0m
 [1;32;42m░[0;30;42m          [0;1;32;42m░░[0;30;42m                           [0;1;32;42m░[0;30;47m██[0;1;36;40m▄[0;30;47m▀[0;1;36;47m░[0;1;36;40m▄[0;30;47m█[0;1;30;40m▄[0;30;47m▀▀[0;1;36;47m▀[0;30;47m   [0;1;30;47m░▒[0;1;30;40m▌[0;30;47m█[0;30;42m   [0;1;30;42m▀[0;30;42m                 [0m
 [30;42m     [0;1;30;42m░░[0;30;42m             [0;1;30;42m░░[0;30;42m          [0;1;32;42m░░[0;30;42m   [0;1;30;42m▀[0;30;42m  [0;1;32;42m░[0;30;47m█[0;1;36;47m▓░[0;30;47m  [0;1;36;47m▓[0;30;47m█[0;1;30;40m▐[0;1;30;47m▒[0;30;47m      [0;1;30;47m░░[0;30;47m█[0;1;30;42m░[0;30;42m         [0;1;30;42m░░[0;30;42m    [0;1;32;42m▀[0;30;42m    [0m
-[30;42m             [0;1;32;42m▀[0;30;42m               [0;1;32;42m▌[0;30;42m          ▐[0;30;47m█[0;1;36;40m▀[0;30;47m▄▄▄▄[0;1;36;40m▀[0;30;47m██▀[0;1;36;47m▄[0;30;47m▀▀▀▀[0;1;30;47m▀[0;30;47m ▀█[0;1;30;42m░[0;30;42m  [0;1;32;42m░░[0;30;42m               [0m
-
-[37;40m+-- ok, here''s the explanation: TGuardian''s familt went to China for a trip.[0m
-                                [37;40mTGuardian decides to sneak off.  After a[0m
-                                [37;40mhard mastubation session in the bathroom,[0m
-                                [37;40mTGuardian decides to releave some strees and[0m
-                                [37;40mhave a smoke.  He doesn''t want his mommy[0m
-                               [37;40m catchin'' in smoking (he''s been caught wackin''[0m
-                               [37;40m already [several time]) so he hides behind the[0m
-       [37;40m [0m                        [37;40mstall.  That''s it. :)[0m'
+[30;42m             [0;1;32;42m▀[0;30;42m               [0;1;32;42m▌[0;30;42m          ▐[0;30;47m█[0;1;36;40m▀[0;30;47m▄▄▄▄[0;1;36;40m▀[0;30;47m██▀[0;1;36;47m▄[0;30;47m▀▀▀▀[0;1;30;47m▀[0;30;47m ▀█[0;1;30;42m░[0;30;42m  [0;1;32;42m░░[0;30;42m               [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: bc16b268360732c55edba716748004c4af1a0dbae3a8990c09f6119b858356cd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-LU-AE.ANS by Nitron (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: New Terra: Hellriders
 # SAUCE Author: Nitron
 # SAUCE Group: Lazarus
@@ -56,10 +56,4 @@ Write-Host '
         ▀▀█████[1;30;47m▄▄[0m▀[1;30m▀[0m       ▀▀▀▀▀▀▀▀[1;30m▀[0m ▀[1;30m▀[0m
 
 
-[1;30m---------------------------------------------------------------[0m[[1mFIN[0m][1;30m------------[0m
-
-greetz2
-
-- C''thulu and the MiSTiES, I warned you I would do it!
-- My 20 year RPG gang; this is a New Terra ANSI
-- The sysops and callers keeping it at ground level[0m'
+[1;30m---------------------------------------------------------------[0m[[1mFIN[0m][1;30m------------[0m'

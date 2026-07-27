@@ -5,7 +5,7 @@
 # Source SHA-256: 35900d70bf15ed665c414492acf89b63e31bc38ed85cb4e9fa6306c7ead9beb3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-DOW!.ANS by minotaur (MAiDEN bRAZiL); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: buttman's dow logo
 # SAUCE Author: minotaur
 # SAUCE Group: MAiDEN bRAZiL
@@ -31,7 +31,4 @@ Write-Host '
        [1;31m▀█[0;1;35;45m▓[0;1;35;40m█[0;1;35;45m▄[0;35m▄[0m              [1;33m▀▀▀[0;1;33;47m▀[0;1;33;40m███[0;1;37;40m███[0;1;33;43m▀[0;33m▀[0;37m  ▐[0;1;33;47m▐[0;1;33;40m█[0;1;33;43m [0m   ▐[1;33;47m▐[0;1;33;40m█[0;1;33;43m [0m  ▐[1;33;47m▐[0;1;37;40m█[0;1;33;40m█[0;1;33;43m [0m  [32m▐[0;1;32;42m▐[0;1;32;40m██[0;1;36;40m▌[0m
            [1;31m▀[0;1;35m▀▀▀▀[0;35m▀[0;37m  [0;1;35m▀[0;35m▀[0m   [1;35m▄[0;35m▄[0m           [1;33m▀▀▀[0m▀▀▀[1;33m▀▀▀[0;1;33;47m▀[0;1;33;43m▄[0;1;33;40m▄[0;1;33;47m▄[0;1;33;43m▄[0;1;33;40m▄▄[0m █[1;33m█[0;1;33;43m▀[0;33m▀ [0;37m [0;32m▄[0;1;32;42m▄[0;1;32;47m▓▓[0;1;36;40m█▌[0m
                         [35m  [0m                         [1;33m▀▀▀[0;33m▀[0;37m  [0;32m▄[0;1;32m▄[0;1;32;42m▄[0;1;32;40m█▀[0;1;36;40m▀[0m  [1;36m▌[0m
-                                                [32m▀[0;1;32m▀[0m [1;32m▀[0;32m▄[0;1;32m▄▄[0;1;32;42m▄[0;1;32;40m██[0;1;36;40m▀[0m
-[1;33m  [0m                   [1;33mDARKSiDE OF WiZARDS![0m
-
-                        [1;33m+O BUTTMAN[0m'
+                                                [32m▀[0;1;32m▀[0m [1;32m▀[0;32m▄[0;1;32m▄▄[0;1;32;42m▄[0;1;32;40m██[0;1;36;40m▀[0m'

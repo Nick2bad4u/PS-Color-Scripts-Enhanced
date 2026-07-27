@@ -5,7 +5,7 @@
 # Source SHA-256: 00bf7ece99d137324cd8a517ba0e08e63a76398b6c5d93379207bf50ba02ac32
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MO-KB01.ANS by monarch (haze); released in haze_004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the killer bbs
 # SAUCE Author: monarch
 # SAUCE Group: haze
@@ -26,18 +26,18 @@ Write-Host '
                     [1;30;40m░[0m                [1;30;40m▐[0;1;30;47m▓[0;1;30;41m▓[0m  [1;30;40m▀[0m       [1;30;40m▀[0;1;30;47m▓▓[0;1;30;41m▒[0;1;30;40m▄▄▄▄   ▀ ▄▄[0;1;30;47m▓▓[0;1;30;40m█  [0;1;31;40m█▀[0m     [1;30;40m░[0m
                     [1;30;40m▒[0m                 [1;30;40m▀[0;1;30;47m▒▓▓[0;1;30;40m▄▄▄    [0;1;30;47m▓[0;1;30;40m▄ ▀▀[0;1;30;47m▒▓▓[0;1;30;40m████[0;1;30;47m▓▓[0;1;30;41m▓▓[0;1;30;40m▀▀[0m          [1;30;40m░[0m
                     [1;30;40m▓[0m                     [1;30;40m▀▀▀▀  ▀▀[0m        [1;30;40m▀▀▀▀[0m               [1;30;40m▒[0m
-[1;30;40m    A young hero steps into the light of truth.  "I see the glow of the[0m      [1;30;40m▓[0m
-[1;30;40m  Shadow Demon''s eyes," he remarks.  "But that is all that I see."[0m
+[1;30;40m                                                                       [0m      [1;30;40m▓[0m
+[1;30;40m                                                                  [0m
                           [1;30;40m░[0m                                              [1;30;40m░[0m
-[1;30;40m    "Your paths will soon meet."  The master fragily tells his pupil.    ░[0m
+[1;30;40m                                                                         ░[0m
                           [1;30;40m░[0m                        [1;30;40m░[0m                     [1;30;40m▒[0m
-[1;30;40m    "Do you know where?"  The pupil questions his old master.    ░[0m       [1;30;40m▒[0m
+[1;30;40m                                                                 ░[0m       [1;30;40m▒[0m
                           [1;30;40m▓[0m                        [1;30;40m▒[0m             [1;30;40m▒[0m       [1;30;40m▓[0m
 [1;30;40m    "No."[0m          [1;30;40m░[0m                               [1;30;40m▓[0m             [1;30;40m▒[0m
                    [1;30;40m▒[0m                                             [1;30;40m▓[0m
-[1;30;40m    10,000 nights go unslept while the demon punishes humankind.  It''s rage[0m
-[1;30;40m  is met by none.  Terror struck into mortal''s minds with such force and[0m
-[1;30;40m  efficency.  No one is safe, no one is ever safe. . .[0m
+[1;30;40m                                                                           [0m
+[1;30;40m                                                                        [0m
+[1;30;40m                                                      [0m
 
 [1;37;40m--------------------------------[[0mEnd of Part I[1m]--------------------------------[0m
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 9dd0c2b350f7f1a7e231bf3d7efb874c647e23514716c1cdb174bb257b3f2758
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MI-LILGO.ANS by Mongi (Opium Graphix); released in opx-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lithium
 # SAUCE Author: Mongi
 # SAUCE Group: Opium Graphix
@@ -23,13 +23,4 @@ Write-Host '
 [37;40m [0;34;40m [0;37;40m [0;33;45m▓▓[0;33;40m█[0;33;45m▓[0;33;40m▌[0;37;40m [0;33;40m█[0;33;45m▓▓[0;33;40m█[0;37;40m  [0;33;40m█[0;33;45m▓[0;33;40m█[0;33;45m▓[0;37;40m  [0;35;43m░░[0;33;40m█[0;35;43m░[0;37;40m [0;33;40m▐[0;35;43m░░[0;33;40m█[0;35;43m░[0;35;40m▐[0;33;45m▒▓▒[0;33;40m  [0;35;40m▀▀▀▀[0;37;40m  [0;35;40m▀▀[0;37;40m  [0;35;40m▀▀[0;37;40m [0;33;40m [0;35;40m▄[0;33;45m▓▒[0;35;40m▀▀[0m                      [34;40m  [0m
 [37;40m [0;34;40m [0;35;40m▐[0;33;45m▒▓▒▒[0;37;40m  [0;33;45m▒▓▒▒[0;35;40m▄▄[0;33;45m▒▓▒▒▓▒[0;35;43m▒▒░▒[0;35;40m▀▀▀▀▀[0;37;40m [0;34;40m           [0;37;40m [0;35;40m▄[0;34;40m  [0;37;40m [0;35;40m▀[0;33;40m [0;35;40m▀▀▀[0;33;40m  [0m                        [34;40m [0m
 [37;40m  [0;33;45m░░▒▒░░▒▓▓░▒[0;35;40m▀▀▀▀▀▀[0m                                                           [34;40m [0m
-[37;40m   [0;35;40m▀▀▀▀[0m
-
-         [37;40mhere''s your header. you can make the rest yourself. [0m
-         [37;40msince I don''t know what system you''re using, I don''t[0m
-         [37;40mknow what commands you want.[0m
-
-
-
-
-                                                [37;40m [0m'
+[37;40m   [0;35;40m▀▀▀▀[0m'

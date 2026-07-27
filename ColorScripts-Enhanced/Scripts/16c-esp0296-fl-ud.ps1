@@ -5,7 +5,7 @@
 # Source SHA-256: fedf78d681e1abe64f9ca2142c57167c76bd32654d40e34abe99e7ee03c060e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-UD.ANS by Flea (esp0296); released in esp0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19960125
 # SAUCE Dimensions: 80x24
 # Lines: 1-24
@@ -31,8 +31,7 @@ Write-Host '
                            [32m·[0;37m  [0;32m·[0;37m  [0;32m█[0m   [32m·[0m      [37m    [0;32m▐[0;37m [0;32m [0;32;47m█[0;32;40m▌[0;37;40m [0;32;40m▐▌▐[0;37;40m  [0;32;40m▐[0;37;40m [0;32;40m▐▌ ▌▐ ▐ [0;37;40m     [0m
                  [32;40m         [0m       [32;40m▌ [0m          [37;40m   [0;32;40m▐[0;37;40m [0;32;40m▐[0;32;47m█[0;32;40m▌[0;37;40m [0;32;40m▐[0;37;40m [0;32;40m▐▌[0;37;40m [0;32;40m▐[0;37;40m [0;32;40m▐  ▌  ▐ [0;37;40m    [0m
                 [32;40m               ·           [0;37;40m    [0;32;40m▐▀▀▀▀■[0;37;40m [0;32;40m■▀▀■[0;37;40m [0;32;40m■▀▀■ ■[0;37;40m  [0;32;40m▌[0;37;40m      [0m
-[1;30;40mφSYS[0mo[1;30mPφ[0m    [32m:[0;37m [0;1;30mM[0ma[1;30mRK SK[0mu[1;30mLSK[0mi  [32m   [0m   [32m▌[0;37m [0;32m          [0m
-[1;30mφC[0mo-[1;30mSYS[0mo[1;30mPφ[0m [32m:[0;37m [0;1;30mBR[0mia[1;30mN S[0ma[1;30mB[0mo[32m [0m         [32m▌[0m        [1;37m   ─[0m─[1m─[0m]u[1mLT[0mi[1mM[0ma[1mT[0me[1m D[0moo[1mM B[0mB[1mS[0m[[1m──[0m─
+[1;30;40m    [0m [1;30m  [0m    [32m [0;37m [0;1;30m [0m [1;30m     [0m [1;30m   [0m   [32m   [0m   [32m▌[0;37m [0;32m          [0m
+[1;30m  [0m  [1;30m   [0m [1;30m  [0m [32m [0;37m [0;1;30m  [0m  [1;30m   [0m [1;30m [0m [32m [0m         [32m▌[0m        [1;37m   ─[0m─[1m─[0m  [1m  [0m [1m [0m [1m [0m [1m  [0m  [1m   [0m [1m [0m [1m──[0m─
                  [32m      [0m         [32m█[0;1;37;42m■[0;32m█[0m
-                                [32m █[0m
-[1;30m          [0m'
+                                [32m █[0m'

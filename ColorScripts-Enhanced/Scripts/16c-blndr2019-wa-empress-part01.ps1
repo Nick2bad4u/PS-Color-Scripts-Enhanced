@@ -5,7 +5,7 @@
 # Source SHA-256: 457722be6c626a54ecd259870c624d6840940766fb737f7e6382d2d5f2ab52ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-empress.ans by warpus (Fuel); released in blndr2019 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Empress Francene
 # SAUCE Author: warpus
 # SAUCE Group: Fuel
@@ -24,7 +24,7 @@ Write-Host '
 
 
 
-         [1;30;40mThey call her the defender of restaurants[0m
+         [1;30;40m                                         [0m
 
 
 

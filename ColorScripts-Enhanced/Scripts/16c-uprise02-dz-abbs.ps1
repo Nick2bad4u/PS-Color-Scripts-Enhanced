@@ -5,7 +5,7 @@
 # Source SHA-256: 7a9a21b8703976b1c4eff74ae8978c4a7d9a29d6971c36e934cfc4cec0f508bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-ABBS.ANS by D-Zine (uprise02); released in uprise02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-15
 # Columns: 1-80
 
@@ -21,6 +21,4 @@ Write-Host '
 [1;34;40m  [0;1;34;46m▒░[0;36m██  █[0;1;34;46m░▒▓[0m [1;34;46m▓▒░[0;36m█ [0;1;30m░    [0;36m█[0;1;34;46m░▒▓[0m [1;34;46m▓▒░[0;36m█  █[0;1;34;46m░▒▓[0m [1;34;46m▓▒░[0;36m█  █[0;1;34;46m░░[0;36m█ ██[0;1;34;46m░[0m   [1;34;46m▒▓▒░[0m [1;34;46m█▓▒░[0m [1;34;46m▓▒░[0;36m█  ██[0;1;34;46m░▒[0m  [1;30;40m░[0m
 [1;30;40m  [0;1;34;46m░[0;36m███  ██[0;1;34;46m░▒[0m [1;34;46m▒░[0;36m██[0m      [36m██[0;1;34;46m░▒[0m [1;34;46m▒░[0;36m██  ██[0;1;34;46m░▒[0m [1;34;46m▒░[0;36m██▄████▀ ███▄▄[0;1;34;46m░▓█[0;1;34;40m▀  [0;1;34;46m▓▒░[0;36m█ [0;1;34;46m▒░[0;36m██  ███[0;1;34;46m░[0m [1;30;40m-dz[0m
 [1;30;40m▀▄[0m      [36m███[0;1;34;46m░[0m [1;34;46m░[0;36m███  [0;1;30m▌[0m     [1;30m▄▄[0m      [1;30m▌[0;36m███[0;1;34;46m░[0m  [1;30;40m▄■[0m                [1;30;40m▄  [0;1;34;46m▒░[0;36m██ [0;1;34;46m░[0;36m███ [0;1;30m▌  ▄■[0m
-[1;30m  ▀▀■  ░[0m         [1;30m▄▓[0m        [1;30m▀■   ▓[0m     [1;30m▄▓   ░  [0;1;34mB  B  S  [0;1;30m░   ▓▄■[0m        [1;30m▄▓[0m
-
-             [1;37mdiz onez fo` u iMAGE uze it fo` wateva ya won`t =)[0m'
+[1;30m  ▀▀■  ░[0m         [1;30m▄▓[0m        [1;30m▀■   ▓[0m     [1;30m▄▓   ░  [0;1;34mB  B  S  [0;1;30m░   ▓▄■[0m        [1;30m▄▓[0m'

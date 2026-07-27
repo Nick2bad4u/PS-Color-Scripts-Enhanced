@@ -5,7 +5,7 @@
 # Source SHA-256: caff365c03f1bd1b1cfb09033be95bba4f35f5d783859b0b207164cc1f615399
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-bandit.ans by The Knight (Fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Smokey and Bandit
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel
@@ -43,8 +43,4 @@ Write-Host '
 [1;30m░░░░░░[0m                                                          [1;30mthe knight.fuel[0m
 [1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m     [1;30m▒▒  ▒▒▒  [0m                 [1;30m▄▄███████████████████[0m
 [1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-[1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-
-
-[1;30m [0mR.I.P Burt Reynolds. We''ll always remember you.
-        Burton Leon Reynolds Jr. (February 11, 1936 - September 6, 2018)[0m'
+[1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

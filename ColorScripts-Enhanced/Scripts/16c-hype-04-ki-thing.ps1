@@ -5,7 +5,7 @@
 # Source SHA-256: 2134f74aa3b6d88075e533d9aae91289cf655fe0efd49d2d8658e7dcf5dae2ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KI-THING.ANS by Kirin (Hype Inc.); released in hype-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: " Thing of Marvel Pic "
 # SAUCE Author: Kirin
 # SAUCE Group: Hype Inc.
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                         t[1;30mhing[0m ([1;30mc)[0m m[1;30marvel [0me[1;30mntertainment[0m g[1;30mroup[0m
+                                          [1;30m    [0m  [1;30m  [0m  [1;30m      [0m [1;30m            [0m  [1;30m    [0m
 ▓▓▓███████████▓▄      ▄████████████████████████████████████████████████████████
 ▀▀▓▓▓▓▓████▓▓▓▀▀▀     ▓███████████████████████████████████████████████▀▀▀▀▀████
       ▀▀▀▀           ▓███████████████████████████████████████▀▀▀   ▄▄▄     ▐███

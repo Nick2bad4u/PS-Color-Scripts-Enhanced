@@ -5,7 +5,7 @@
 # Source SHA-256: 7c0fcdbf008d2413cd06ac1f84e730c24600e1cb9b7f94513e0fd261122c89e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WB-ON.ANS by Warblade (cnc-0694); released in cnc-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -46,17 +46,17 @@ Write-Host '
                 [30;44m▌[0;1;34;44m░[0;30;44m▐▄ [0;1;34;44m░░[0m
                  [1;34;44m░░[0;30;44m▀[0;1;34;44m░░[0m
                   [30;44m▄▄▄[0m
-                                [1;31;40moBSES[0;31mSiVE NiGHT[0;1;31mMAREs[0m
+                                [1;31;40m     [0;31m          [0;1;31m     [0m
                 [30;41m▀▀▀▀▀[0m                                       [30;41m▀▀▀▀▀[0m
                 [1;31;41m▒[0m [1;31;41m▒▒[0m             [31mS[0;1;31m: [0;1;37mREPTiLE [FA┼[0;1;31mE[0;31m][0m           [1;31;41m▒▒[0m [1;31;41m▒[0m
                [30;41m▀▀▀[0;1;31;41m▒▒[0;30;41m▀[0m     [31;40mE[0;1;31;40m. [0;1;37;40mNORMUS JOHNSON [CaNCeR\FA┼[0;1;31;40mE[0;31m]   [0;30;41m▀[0;1;31;41m▒▒[0;30;41m▀▀▀[0m
-                            [31;40mC[0;1;31;40mO[0;1;37;40mUNT DRACULA [CaNCeR\FA┼[0;1;31;40mE[0;31m][0m
-                              [31mW[0;1;31mA[0;1;37mRBLADE [CaNCeR TRiA[0;1;31mL[0;31m][0m
-                                 [31mC[0;1;31ma[0;1;37mNCeR DiST Si[0;1;31mT[0;31mE[0m
-                                  [31mF[0;1;31mA[0;1;37m┼E DiST Si[0;1;31mT[0;31mE[0m
-                                    [31mL[0;1;31mE[0;1;37mTHAL N[0;1;31mE[0;31mT[0m
-                                  [31mI[0;1;31me[0;1;37mC DiST Si[0;1;31mT[0;31mE[0m
-                                    [31mP[0;1;31mR[0;1;37mISM N[0;1;31mE[0;31mT[0m
+                            [31;40m [0;1;31;40m [0;1;37;40m                      ┼[0;1;31;40m [0;31m [0m
+                              [31m [0;1;31m [0;1;37m                   [0;1;31m [0;31m [0m
+                                 [31m [0;1;31m [0;1;37m            [0;1;31m [0;31m [0m
+                                  [31m [0;1;31m [0;1;37m┼         [0;1;31m [0;31m [0m
+                                    [31m [0;1;31m [0;1;37m      [0;1;31m [0;31m [0m
+                                  [31m [0;1;31m [0;1;37m         [0;1;31m [0;31m [0m
+                                    [31m [0;1;31m [0;1;37m     [0;1;31m [0;31m [0m
                [30;41m▄▄▄[0;1;31;41m▒▒[0;30;41m▄[0m          [31;40mQ[0;1;31;40mU[0;1;37;40mALITY MEMBERS ON[0;1;31;40mL[0;31mY[0m         [30;41m▄[0;1;31;41m▒▒[0;30;41m▄▄▄[0m
                 [1;31;41m▒[0m [1;31;41m▒▒[0m              [31m0[0;1;31m-[0;1;37m7 DAY WAR[0;1;31mE[0;31mZ[0m              [1;31;41m▒▒[0m [1;31;41m▒[0m
                 [30;41m▄▄▄▄▄[0m                                       [30;41m▄▄▄▄▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0c1af3b5800fe056130f661726483757bf0ca3618fad79b35e74cae1b15d3b21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-OA.ANS by Ts (tl199411); released in tl199411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-81
 # Columns: 1-80
 
@@ -37,14 +37,14 @@ Write-Host '
 [1m   [0m▀▄                                                                   [34m▄ [0;37m▄▀[0m
                                                                         [34m█[0m
       [34m░[0m                                                                 [34m█[0m
-      [34m░   [0;1;37m3[0;1;32m4[0;32mo meg[0;37ms [0;1;30mΦ [0m2 cD RoMs onLiNe [1;30mΦ [0m3 nOdEs [1;30mΦ [0muSR 14.4 v[32m.42 H[0;1;32mS[0;1;37mt[0m
-      [34m░[0m                [1;37mT[0;1;32mi[0;32mME-[0;37mneT [0;1;30mΦ [0mlATe-nEt [1;30mΦ [0mFiD[32mo-N[0;1;32me[0;1;37mT[0m
+      [34m░   [0;1;37m [0;1;32m [0;32m     [0;37m  [0;1;30m  [0m                 [1;30m  [0m        [1;30m  [0m          [32m     [0;1;32m [0;1;37m [0m
+      [34m░[0m                [1;37m [0;1;32m [0;32m   [0;37m    [0;1;30m  [0m         [1;30m  [0m   [32m   [0;1;32m [0;1;37m [0m
       [34m░[0m
-[34m    [0;1;37mM[0;1;32ma[0;32msta D[0;37mirt [0;1;30mΦ [0mhe be dA man [1;30mΦ [0mFreakchild & Wild Man [1;30mΦ [0mthey be hi[32ms goo[0;1;32mn[0;1;37mS[0m
+[34m    [0;1;37m [0;1;32m [0;32m     [0;37m    [0;1;30m  [0m             [1;30m  [0m                      [1;30m  [0m          [32m     [0;1;32m [0;1;37m [0m
       [34m▒[0m
 [34m  ▀   ▓  ▄  ▀[0m             [1;37m2 [0;1;31mo [0;31m6 . 6 8 7 . o 5 [0;1;31m2 [0;1;37m7[0m
 [1;37m    [0;34m▀ █▄▀[0m      [34m▄[0m
 [1;34m▄▄▄▄▄[0;34m▄▄[0;1;34m▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▄[0;1;34m▄▄▄▄▄▄▄[0;34m▄▄[0;1;34m▄▄▄▄[0;34m▄[0;1;34m▄▄▄▄[0;34m▄▄▄▄▄▄▄[0;1;34m▄▄▄▄▄▄▄▄[0;34m▄▄[0;1;34m▄[0;34m▄▄▄[0;1;34m▄▄▄▄▄[0;34m▄▄[0;1;34m▄[0;34m▄▄▄▄[0;1;34m▄▄▄▄▄▄▄▄▄[0;34m▄▄[0;1;34m▄[0;34m▄[0;1;34m▄▄[0m
-aNSI bY ts [TL], (c)1994 TekLordZ Productions.  for  requests, call the TekLordZ
-    vMß at (8o8)637-446o, #207, or e-mail ts at myee@uhunix.uhcc.hawaii.edu.
+                                                                                
+                                                                            
 [34m▀▀[0;1;34m▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀[0;1;34m▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀▀▀[0;1;34m▀▀▀▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀[0;1;34m▀▀▀▀[0;34m▀▀▀[0;1;34m▀[0;34m▀▀▀▀▀▀▀[0;1;34m▀▀▀▀▀▀[0;34m▀▀[0;1;34m▀▀▀▀[0;34m▀[0;1;34m▀▀▀▀▀▀▀▀[0;34m▀▀[0;1;34m▀[0;34m▀▀▀[0;1;34m▀▀[0m'

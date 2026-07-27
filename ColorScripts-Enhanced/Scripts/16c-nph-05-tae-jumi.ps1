@@ -5,7 +5,7 @@
 # Source SHA-256: 100d038b17384ab96c6dcf3588b10cda486e7a7e61443633c2b322ba3101f11b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TAE!JUMI.ANS by taevore (nph^neonflx..); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: jumi(suomalaiset tajuu nolouden)
 # SAUCE Author: taevore
 # SAUCE Group: nph^neonflx..
@@ -33,8 +33,4 @@ Write-Host '
      [35m█[0;1;35;45m▐▓▀▌[0;35m▌█[0;1;35;45m▀█▀▌[0;35m▌  [0;31m▐▀▀ [0;35m▄▀ ▀[0;1;35;45m░▄▀[0;35m█   ▐[0;1;35;45m▀█▓▒░[0;35m░ ▀█[0;1;35;45m░[0;35m█▀▐[0;1;35;45m░██▓▐[0;35m█▌[0;32m▄▀[0;35m▐[0;1;35;45m░▀▓█▄[0;35m█▌[0;32m▄█[0;1;32;42m░░▒▒░░[0;32m███████[0m
      [35m▐█[0;1;35;45m░[0;35m████[0;1;35;45m▀░▀[0;35m██   ▄██[0;1;35;45m▒[0;35m▄[0;35;45m [0;1;35;45m░▐[0;35m█▀░  ░▄[0;1;35;45m▒░▀░[0;35m█[0;31m^tAe97[0;35m░█[0;1;35;45m▐▀░▀▀[0;35m█░ [0;32m█ [0;35m█[0;1;35;45m▀▌░ [0;35m▀ [0;32m████[0;1;32;42m░░[0;32m████████░[0m
      [35m░▀▀▀   ░▀▀[0m      [35m░▀▀▀▀░▀[0m     [35m▀▀▀▀▀░[0m      [32m▓▄ [0;35m▀▀▀ ▀ [0;32m▄██▄ [0;35m▀▀▀ [0;32m▄███████████▀▀[0m
-                                              [32m▀▀▀▀▀▀██▓▀▀▀██████▓▀▀▀▀▀▀▀[0m
-                           [31my[0;1;31mA [0;31ma[0;1;31mRE [0;31ma j[0;1;31mUMI [0;31m!![0m
-
-
-[37mfor nobody, just for fun..=)[0m'
+                                              [32m▀▀▀▀▀▀██▓▀▀▀██████▓▀▀▀▀▀▀▀[0m'

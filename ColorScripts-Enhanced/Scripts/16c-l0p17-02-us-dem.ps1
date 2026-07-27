@@ -5,7 +5,7 @@
 # Source SHA-256: 3f7266642161aff3bcf5fe6b7dd134b78860a82bdfbd99767532a26e468c1c00
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DEM.ANS by Argon + Ceelow + Simonking (thelo0p); released in l0p17_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dimintri
 # SAUCE Author: arg,ceelow,sk!
 # SAUCE Group: thelo0p
@@ -33,9 +33,4 @@ Write-Host '
     [1;30m█[0;1;30;47m▐[0;1;30;40m    █ [0;1;30;47m▓ ▄[0;1;30;40m▀   [0;1;35;40m▐[0m [1;30m▀▀[0m          [35m▌[0m    [1;35m▌[0m                    [1;35;47m░░░░[0;30m▄[0;37m   [0;35m▀[0;1;35;45m▀█[0;1;35;47m▄[0;1;35;45m█[0;1;35;40m▀[0;35m   [0m
     [1;30m█[0;1;30;47m▄[0;1;30;40m█▄▄█[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m█▄[0;1;30;40m▌   [0m [1;35m▀[0;35m [0m        [34m d e m i n t r i[0m               [1;30m▀[0m▀▌       [1;35m▌[0m
                                       [35m▌[0m                       [37m▀[0m       [35m▌[0m
-                                      [35m▀[0m                               [35m▀[0m
-
-
-            [37mOutline: Argon[EPiC][0m
-    [37mEverything Else: Ceelow[Demintri/thelo0p/Revival][0m
-                     [37msIMONkING/thelo0p[0m'
+                                      [35m▀[0m                               [35m▀[0m'

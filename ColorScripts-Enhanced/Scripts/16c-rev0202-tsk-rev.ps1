@@ -5,7 +5,7 @@
 # Source SHA-256: 29b27b775bbe3e5e02a7337cd1c619420c9828bed3d86531c3078f3d4fa9c6fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-REV.ANS by The Silent Killer (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -23,7 +23,4 @@ Write-Host '
         [1m [0;1;41m▓▓[0;1;40m█▀██▄▄   ▀[0;1;41m▓[0;1;40m██▄▄ ▄ ▀██[0;1;41m▓[0;1;40m▄█[0;1;41m█▓[0;1;40m ▄██[0;1;41m▓[0;1;40m ▄██[0;1;41m▓[0;1;40m▄█[0;1;41m▓[0;1;40m█   [0;1;33;40m▀[0;1;37;41m▓[0;1;37;40m██▄▄[0;1;37;41m▓▓[0;1;37;40m█▄█[0;1;37;41m▓▓[0;1;37;40m      [0m
         [1m▄███   ▀██[0;1;33m▄[0m     [1;33m▀[0;1;37m▀ ▀   ▀█▄██    ▀█▄  ▀█▄██ [0m       [1m▀▀ ▀▀  [0;1;33m▀[0;1;37m▀█▄███ [0m
           [1m▀▀[0;1;33m▀[0m   [1m▐██[0;1;33m▌[0;1;37m [0m         [1m  ▐█[0;1;33m▀[0m      [1m  [0m   [1;33m▐[0;1;37m█▀[0m                 [1m   ▀▀  [0m
-               [1m ▀▀▀█ [0m         [1m▄ [0;1;33m▀[0m           [1m▄■[0;1;33m▀[0m                       [1m [0m
-                 [1m              [0m                                       [1m [0m
-
-           [36m    [0m    [1;36ml[0;36mogo[0;1;36mb[0;36my[0;1;36mt[0;36mhe[0;1;36ms[0;36milent[0;1;36mk[0;36miller[0;1;36mo[0;36mf[0;1;36mr[0;36mevival[0;1;36mp[0;36mroductions        [0m'
+               [1m ▀▀▀█ [0m         [1m▄ [0;1;33m▀[0m           [1m▄■[0;1;33m▀[0m                       [1m [0m'

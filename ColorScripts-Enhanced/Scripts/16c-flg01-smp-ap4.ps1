@@ -5,7 +5,7 @@
 # Source SHA-256: dd7b2ecf55b3add8752b343cd981286e191068f9fa75cfca9017caedf267ced8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-AP4.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
 # SAUCE Date: 20010706
@@ -14,8 +14,8 @@
 # Columns: 1-80
 
 Write-Host '
-[34mÑ[0;1;34mÑÑÑÑÑÑÑ[0;34mÑÑÑÑÑÑÑ│jÑ\┘`[0m     [32m `  [0;34mb.[0;32m ` ._  [0;34m  `ⁿ└*∟aSÑÑÑ[0;1;34mÑ[0;34mÑÑ[0;1;34mÑÑÑ[0;34mS/a.[0;32m [0;1;37m [0mShrimp [1m([0;32mFoliage[0;1;37m)[0m
-[34mÑ[0;1;34mÑÑÑÑÑ[0;34mÑÑÑ$$│S*ⁿ`[0;32m     _.,p`[0m   [34mdÑÑ) [0;32m  `$S#g┐,._   [0;34m ~"ⁿ└*/ÑÑÑÑ[0;1;34mÑÑ[0;34m│/.[0m   [1;37m-WHOLEtype[0m
+[34m [0;1;34m       [0;34m       │   ┘ [0m     [32m    [0;34m  [0;32m       [0;34m    └       [0;1;34m [0;34m  [0;1;34m   [0;34m    [0;32m [0;1;37m [0m       [1m [0;32m       [0;1;37m [0m
+[34m [0;1;34m     [0;34m     │    [0;32m          [0m   [34m     [0;32m       ┐      [0;34m    └      [0;1;34m  [0;34m│  [0m   [1;37m          [0m
 [34mÑ[0;1;34mÑÑ[0;34mÑÑ\*┘ⁿ"~[0;32m   _.,┌∟⌂[0;1;33m#$$[0;32mP  [0;34ma''[0;32m. [0;34m`~[0;32m _.,d$$[0;1;32m$$$[0;32m$$$$S/#g┐.[0m    [34m`└/ÑÑ[0;1;34mÑÑÑ[0;34mÑ/a┐._[0m
 [34mÑÑP'' [0;32m  _.,┌[0;1;33mg[0;32m#$│$[0;1;33m$$$$$$$[0;32mb┐▬,._`?││$$$$│\*┘ⁿ""ⁿ└*/$[0;1;32m$$[0;32m$!. .[0m   [34m`/│ÑÑ[0;1;34mÑÑÑÑÑ[0;34mÑ│/a┐▬,.__ [0m
 [34m1''[0;32m   .\$$[0;1;33m$$[0;32m│$\┘ⁿ"^~~^"└/$[0;1;33m$$$[0;1;33;42m$$[0;32mb$$$\┘`[0m   [1;35m.┌[0;35m*p,[0;32m   1$[0;1;32m$$[0;1;32;42m$[0;32m$l.?┐.  [0;34m `ⁿ*/ÑÑ[0;1;34mÑÑÑÑÑÑÑÑÑ[0;34mÑÑÑ[0m
@@ -35,11 +35,7 @@ Write-Host '
 [32m` .[0m   [34m `ⁿ└/│$Ñ[0;1;34mÑÑ[0;34mÑÑ│b┐,._[0m     [32m~"ⁿ[0;1;33m└*/$[0;32m$$[0m   [34m1ÑÑÑÑ│\*┘''[0m   [32m ,d$[0;1;32m$$[0;32m$$│\''  ,$P`[0m    [34m,dÑÑÑ[0m
 [34m.[0m    [32m`[0m     [34m└ⁿ"^~^"ⁿ└*/│ÑÑÑS/a┐ [0m    [32m P''  [0;34m,1ÑÑP`[0m   [32m _,┌\$$[0;1;32m$j[0;32m$\*'' [0m   [32m P''[0m    [34m,dÑÑ[0;1;34mÑÑ[0;34mÑ[0m
 [34mÑa┐,._[0m                [34m ?ÑÑÑÑP'' [0;32m  . ''   [0;34m,\Ñ\''[0m   [32m.\$$$\*[0;1;32m┘[0;32m"~[0m    [34m _┌,[0;32m  `└ .  [0;34m?ÑÑ[0;1;34mÑÑÑ[0;34mÑ[0m
-[34mÑ[0;1;34mÑÑÑÑ[0;34mÑ[0m    [36m·∙[0;1;36mAphi[0;36md∙·  [0;32m [0;34m,dÑÑ\'' [0m       [34m.┌1ÑÑÑl[0m   [32ml$$'' [0m   [34m_.,┌g#SÑ[0;1;34mÑÑ[0;34mÑb,. [0m    [34m:Ñ[0;1;34mÑÑÑÑ[0;34mÑ[0m
-[34mÑ[0;1;34mÑÑÑÑ[0;34mÑb┐._[0m          [34m,dÑ\┘''  __.,┌a#$│Ñ[0;1;34mÑÑÑÑ[0;34mÑb.[0;32m  `└*,  [0;34m └/│ÑÑÑ[0;1;34mÑÑÑÑÑÑ[0;34mÑÑÑ!#a┌1Ñ[0;1;34mÑÑÑÑ[0;34mÑ[0m
-[34mÑÑÑÑÑÑÑÑÑÑÑb.     .dÑÑÑÑÑÑSSÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑSa.[0m   [32m` .[0;34m [0;32m  [0;34m`ⁿ└*/SÑÑ[0;1;34mÑÑÑÑÑÑÑÑÑÑÑÑÑÑ[0;34mÑ[0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
-It abstractly says "[1;33mA[0;1;32mPH[0;1;36mI[0m". The coloring is gay, and so is the rest of this font.
-Then again, it''s an ASCII, it''s not SUPPOSED to look nice. Fuck it, ANSI looks
-so much better than ASCII. It is much more fun to draw, too.
-                                                               -Shrimp.[0m'
+[34m [0;1;34m    [0;34m [0m    [36m  [0;1;36m    [0;36m     [0;32m [0;34m       [0m       [34m ┌     [0m   [32m     [0m   [34m   ┌    [0;1;34m  [0;34m     [0m    [34m  [0;1;34m    [0;34m [0m
+[34m [0;1;34m    [0;34m  ┐  [0m          [34m    ┘       ┌   │ [0;1;34m    [0;34m   [0;32m   └    [0;34m └ │   [0;1;34m      [0;34m      ┌  [0;1;34m    [0;34m [0m
+[34m                                                [0m   [32m   [0;34m [0;32m  [0;34m  └     [0;1;34m              [0;34m [0m
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 54b187a27fa8b35d6cf45b017c08d44f7b1bfca20b8ea967659413a970a9fbdf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-CAT1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 41-76
 # Columns: 1-80
 
@@ -32,17 +32,17 @@ Write-Host '
               [1m├[0m─[1;30m──[0;1;37m┘  [0;1;30m─ ─\[0m/\[1m>   The Cattle Kingdom  <[0m/\[1;30m/─ ─   [0;1;37m└[0m─[1;30m─[0m─[1m┤[0m
               [1;30m│[0m      [1;30m─ ─\[0m/\[1m>[0m       [1m414DREAMON[0m      [1m<[0m/\[1;30m/─ ─[0m       [1;30m│[0m
               [1;30m│[0m      [1;30m─ ─\[0m/\[1m> Staff    -   WIZ[0m      [1m<[0m/\[1;30m/─ ─[0m       [1;30m│[0m
-              [1;30m│[0m      [1;30m─ ─\[0m/\[1m> Running  -   Renegade <[0m/\[1;30m/─ ─[0m       [1;30m│[0m
+              [1;30m│[0m      [1;30m─ ─ [0m  [1m                         [0m  [1;30m ─ ─[0m       [1;30m│[0m
               [1;30m│[0m      [1;30m─ ─\[0m/\[1m> Within   -   550 Megs <[0m/\[1;30m/─ ─[0m       [1;30m│[0m
               [1;30m│[0m                                                  [1;30m│[0m
-              [1;30m│[0m       [1;36mH[0;1;34mA[0;34mV[0;1;30mE[0m            [1;36mW[0;1;34mA[0;34mN[0;1;30mT[0m         [1;36mD[0;1;34mO[0;34mN''[0;1;30mT [0;1;36mW[0;1;34mA[0;34mN[0;1;30mT    │[0m
+              [1;30m│[0m       [1;36m [0;1;34m [0;34m [0;1;30m [0m            [1;36m [0;1;34m [0;34m [0;1;30m [0m         [1;36m [0;1;34m [0;34m  [0;1;30m  [0;1;36m [0;1;34m [0;34m [0;1;30m     │[0m
               [1;30m│[0m       [1;37m■[0m■■[1;30m■[0m            [1;37m■[0m■■[1;30m■[0m         [1;37m■[0m■■■■■■■■[1;30m■    │[0m
-              [1;30m│[0m       [1;37mA[0mN[1;30mSi[0m          [1;37mQ[0mu[1;30mality[0m        [1;37mL[0ma[1;30mme Users    │[0m
-              [1;30m│[0m       [1;37mV[0mG[1;30mAs[0m          [1;37mQ[0mu[1;30mantity[0m         [1;37mM[0mo[1;30mrons[0m      [1;30m│[0m
-              [1;30m│[0m       [1;37mD[0mE[1;30mMOs[0m         [1;37mA [0mC[1;30mookie[0m         [1;37mL[0mo[1;30mcals[0m      [1;30m│[0m
-              [1;30m│[0m       [1;37mM[0mO[1;30mDS[0m                            [1;37mN[0mU[1;30mP''s[0m      [1;30m│[0m
+              [1;30m│[0m       [1;37m [0m [1;30m  [0m          [1;37m [0m [1;30m     [0m        [1;37m [0m [1;30m            │[0m
+              [1;30m│[0m       [1;37m [0m [1;30m  [0m          [1;37m [0m [1;30m      [0m         [1;37m [0m [1;30m    [0m      [1;30m│[0m
+              [1;30m│[0m       [1;37m [0m [1;30m   [0m         [1;37m  [0m [1;30m     [0m         [1;37m [0m [1;30m    [0m      [1;30m│[0m
+              [1;30m│[0m       [1;37m [0m [1;30m  [0m                            [1;37m [0m [1;30m   [0m      [1;30m│[0m
               [1;37m├[0m─[1;30m─[0m─[1m┐ H[0m/[1;30mP/A/V/C[0m                        [1;37mR[0mA[1;30mTIOS  [0;1;37m┌[0m─[1;30m─[0m─[1m┤[0m
               └[1;30m─[0m┤ │                                          │ ├[1;30m─[0m┘
                 [1m└[0m─[1;30m┴─── ────── ──── ──  ·  ── ──── ────── ────┴[0m─[1m┘[0m
 
-[1;34mF[0;1;36mr[0;1;37mo[0;1;36ms[0;1;34mt [0;1;36mB[0;1;37my[0;1;36mt[0;1;34me[0m                                                           [1;37m/[0;1;33m┤[0;1;31mT[0;31mOMi[0;1;30mC 94[0m'
+[1;34m [0;1;36m [0;1;37m [0;1;36m [0;1;34m  [0;1;36m [0;1;37m [0;1;36m [0;1;34m [0m                                                           [1;37m [0;1;33m┤[0;1;31m [0;31m   [0;1;30m    [0m'

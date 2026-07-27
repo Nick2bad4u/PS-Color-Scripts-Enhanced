@@ -5,7 +5,7 @@
 # Source SHA-256: e0fb411bb6daecc87588e582117455d454919f1886d57271f62eb8b3df2f9a9d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-ECSTZ.ANS by Trippah (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ecstazia BBS
 # SAUCE Author: Trippah
 # SAUCE Group: uprise
@@ -41,7 +41,4 @@ Write-Host '
                  [1;30m           [0;1;30;46m▓▓▓[0;1;30;40m▌▀▀▀▀[0;1;30;46m▒▓▓▓[0;1;30;40m█▄▐█[0;1;30;46m▓▓▓[0;1;30;40m█▌▄ ▄[0;1;30;46m▓▓▓███▓▓[0;1;30;40m ▀▀▀     █[0;1;30;46m▓▓▓[0;1;30;40m█▄  [0m
                 [1;30m           ▀▀   [0m      [1;30m▀▀▀▀█████▀ █ ███▌▀▀▀▀▀        ▀▀▀▀ [0m
 
-[1;30m-----[0m
-[1;30mpretty neat i like to think . . .[0m
-[1;30mshout outs to wackey, berzerk, image, rippa, wolverine, rz and the rest of the[0m
-[1;30mozzie gangs.[0m'
+[1;30m-----[0m'

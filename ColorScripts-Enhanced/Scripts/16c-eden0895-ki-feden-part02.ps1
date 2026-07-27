@@ -5,7 +5,7 @@
 # Source SHA-256: e1777ac1cd0dfb2472b402d1a162cb29c80f3acb8eb76ab52cbb670289988ea9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KI-FEDEN.ANS by Kiwi (eden); released in eden0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eden
 # SAUCE Author: Kiwi
 # SAUCE Group: eden
@@ -48,7 +48,7 @@ Write-Host '
 [1;34m███████████████▀▀[0;1;37m [0m                                     [1;34m ▀▀▓[0;1;34;42m███████[0;1;34;40m▀▀▀[0;1;34;42m███████[0m
 [1;34m████▀▄  ▀███▀     [0;1;37mNow available on The Fantastic Planet.[0;1;34m    ▀██▓▀   ▀▄█████▓[0m
 [1;34m██▓▀▀     ▀▀█▄▄░[0m                                          [1;34m▄▄█▀▀       ▀▀▓▓95[0m
-[1;34m░100% original non-comic/non-toon/not old or new style ansi by kiwi of Eden.[0m
-[1;34m▒[0;32m [0;1;34m  You[0m [1;34mcan reach kiwi at kiwi3@rushnet.com, or on The Fantastic Planet.   ▒[0m
+[1;34m░                                                                           [0m
+[1;34m▒[0;32m [0;1;34m     [0m [1;34m                                                                   ▒[0m
 [1;34m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m
 [1;34m███[0;1;34;42m▄██▄▄█▄▄▄▄▄▄▄▄▄▄[0;34m [0;1;34mGreets: All my new friends in Eden[0m [1;34;42m▄▄▄▄▄▄▄▄▄▄▄▄█▄▄██▄███[0m'

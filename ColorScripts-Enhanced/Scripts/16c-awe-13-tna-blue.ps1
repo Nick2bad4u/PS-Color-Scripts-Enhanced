@@ -5,7 +5,7 @@
 # Source SHA-256: 21014041dad2633ef0989c0bf5a548b1fffd6833ea05333956dcf565dab94224
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-BLUE.ANS by The Night Angel (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Blue
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -16,7 +16,7 @@
 
 Write-Host '
 
-                                                                        tna([1mawe[0m)
+                                                                            [1m   [0m 
 [1md i s c y p l e [0m'' s
 
       [1;30m▄[0m▄▄

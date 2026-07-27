@@ -5,7 +5,7 @@
 # Source SHA-256: 89d7d80a058f5454ff38dff34f7869b11e46036a39b4716ad7f12422f4a6e2e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-TNB.ICE by Tempus Thales (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 41-80
 # Columns: 1-80
 
@@ -46,7 +46,7 @@ Write-Host '
                [1;30m▀▀▀▀▀▀▀▀▀▀▀[0m          [1;30m▀▀▀▀[0;32m▀  [0;1;30m▀▀▀▀▀▀▀▀    ▀▀▀▀▀▀▀▀▀[0;32m▀[0m
 
 [32m [0;35m┌[0;1;35m─[0;35m───[0;1;35m─[0;35m─[0;1;35m──[0;35m──[0;1;35m───[0;35m─[0;1;35m───T  H  E    N  E  C  T  A  R    B  A  S  E───[0;35m─[0;1;35m───[0;35m──[0;1;35m──[0;35m─[0;1;35m─[0;35m───[0;1;35m─[0;35m┐[0m
-[35m │[0m     [1;32mINC S[0;32mupport [0;1;32mB[0;32mase ·  [0;1;37mi[0;1;32mC[0;32mE [0;1;32mM[0;32member/[0;1;32mS[0;32mupport [0;1;32mS[0;32mite · [0;1;32mV[0;32mision-[0;1;32mX ß[0;32meta [0;1;32mS[0;32mite[0m      [35m│[0m
-[35m │[0m        [1;32mF[0;32melony[0;1;32mNET [0;32m· [0;1;32mWARES D[0;32mistribution [0;1;32mS[0;32mite · [0;1;32mETA S[0;32mite · 1.7 [0;1;32mG[0;32migs[0m          [35m│[0m
-[35m │[0m                         [1;32mS[0;32mys[0;1;32mO[0;32mp: [0;1;32mT[0;32mhe [0;1;32mG[0;32mh[0;1;32m0[0;32mdess [[0;1;37mi[0;1;32mC[0;32mE·T][0m                        [35m│[0m
+[35m │[0m     [1;32m     [0;32m       [0;1;32m [0;32m       [0;1;37m [0;1;32m [0;32m  [0;1;32m [0;32m      [0;1;32m [0;32m       [0;1;32m [0;32m      [0;1;32m [0;32m      [0;1;32m   [0;32m    [0;1;32m [0;32m   [0m      [35m│[0m
+[35m │[0m        [1;32m [0;32m     [0;1;32m    [0;32m  [0;1;32m       [0;32m            [0;1;32m [0;32m      [0;1;32m     [0;32m          [0;1;32m [0;32m   [0m          [35m│[0m
+[35m │[0m                         [1;32m [0;32m  [0;1;32m [0;32m   [0;1;32m [0;32m   [0;1;32m [0;32m [0;1;32m [0;32m      [0;1;37m [0;1;32m [0;32m    [0m                        [35m│[0m
 [35m └───[0;1;35m─[0;35m────[0;1;35m─[0;35m─[0;1;35m──[0;35m──[0;1;35m───[0;35m─[0;1;35m───2  o  6[0m     [1;35m8  6  1[0m     [1;35m2  1  1  4───[0;35m─[0;1;35m───[0;35m──[0;1;35m──[0;35m─[0;1;35m─[0;35m────[0;1;35m─[0;35m──┘[0m'

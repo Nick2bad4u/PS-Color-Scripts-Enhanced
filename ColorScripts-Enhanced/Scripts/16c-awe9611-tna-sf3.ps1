@@ -5,7 +5,7 @@
 # Source SHA-256: 4308ae93fafb4592b15f18b2fd0a4059fc326f32e2a828475a377b1b94b1ffb5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-SF3.ANS by The Night Angel (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SkullFish
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30mhey Greg, sorry [0;31m░ [0;30mfor not buy[0;31m▄[0;30ming your ansi  :( [0;1;31m░[0m          [1;31m▄░ [0;31m▄[0;1;31;41m▄[0m       [31m░  [0;1;31m▀▄▄[0m
+[30m                [0;31m░ [0;30m           [0;31m▄[0;30m                  [0;1;31m░[0m          [1;31m▄░ [0;31m▄[0;1;31;41m▄[0m       [31m░  [0;1;31m▀▄▄[0m
      ░▄▄▄▀▀▀▀ ▀ [31m▒ [0;1;31m▄ ▄▄▄[0;1;31;41m▓▀▀[0m [1;30;40m█  [0;31m▄[0;1;31;41m▄[0;31m▄▄    [0;37m░▄▄ [0;31m░ [0;37m▀▀▀ [0;1;31m▒  ▄ ▄▄▄[0;1;31;41m▓▀▀[0;1;31;40m▌    ▄▄[0;1;31;41m▀[0;1;31;40m▀ [0;1;31;41m▓▀[0;31m░█▄[0;1;31m░ [0;31m▀[0;1;31;41m▀▀▀[0m
    ▄▀▀    [1;31m▄▄▄[0;1;31;41m█▀▀[0;31m▓[0;1;31;41m▀▀[0;31m▀[0;1;37m▄[0;1;31m▄[0;31m▀[0;1;31;41m░[0;31m█▓ [0;1;30m▓ [0;31m█▄█▀   [0;37m▄▀▀   [0;31m▒▄[0;1;31m▄▄▄[0;1;31;41m█[0;1;31;40m▓[0;1;31;41m▀▀▀[0;31m██▀[0;1;33m▄ [0;31m▀█ ░ [0;1;31m▀[0;1;31;41m▀▓[0;31m██ ░[0;1;31;41m▒[0;31m█▒██[0;1;31m▒[0;31m█▀█▄▄[0m
 [1;31m▄[0;31m▄  [0;1;31m▄▄ ▀▀[0;1;31;41m▀▓░[0;31m█▀█████▄▀ ▄[0;31;41m [0;31;40m▌█ [0;1;30;40m░ [0;31m▐▓▀[0;1;31;41m▀[0;31m▀ [0;37m■ [0;31m░▄[0;1;31;41m▄[0;31m█▄▓████▀███████▄▄▌█    ▀[0;1;31;41m░[0;31m█  █[0;1;31;41m░[0;31m█▓██[0;1;31m▓[0;31m▄ ▄ ▀[0m
@@ -37,4 +37,4 @@ Write-Host '
   [1;31;40m▀[0;1;31;41m█▄[0m [1;31;41m░[0m [1;31;41m░ [0;31m█████▄█▄▄▄▄▓██████▓ [0;1;30m▓ ░ [0;1;31;41m▓[0;31m██▒[0;1;37;41m░[0;31m███ [0;1;30m█  [0;31m▄[0m                            [31m▄  ▓[0m
 [31m    [0;1;31m▀ [0;31m▓ [0;1;31;41m█▓▄▄ ▄ [0;31m██████▒█▓██▀ ▀ [0;1;30m█   [0;1;31;41m█▄░[0;31m▓███[0;1;31;41m░[0m [1;30;40m█[0m░ [31m▓▒░░  ░[0m             [31mtna(awe) ░  ▒[0m
       [31m░  [0;1;31m▀▀▀▀▀▀▀▀▀[0;31m▀[0;1;31m▀[0;31m▀░▀▒▀▀▀   [0;1;30m▀    [0;1;31m▀▀▀▀▀[0;31m▀[0;1;31m▀ [0;1;30m▀▀[0m                                 [31m░[0m
-         [37mFont inspired [0;31m░ [0;37mby the greatest ansi artist ever:  [0;1;37mAphex Twin[0m.[0m'
+         [37m              [0;31m░ [0;37m                                   [0;1;37m          [0m [0m'

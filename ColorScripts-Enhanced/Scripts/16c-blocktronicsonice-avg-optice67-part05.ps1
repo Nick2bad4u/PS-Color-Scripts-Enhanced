@@ -5,7 +5,7 @@
 # Source SHA-256: 5f1b346024e511ff05445a6c2f22fc65fcc7d26fdc776f24600e0c1f89d92b13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-optice67.ans by avg savage (blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blockformers
 # SAUCE Author: avg savage
 # SAUCE Group: blocktronics
@@ -48,7 +48,4 @@ Write-Host '
 [37m                  [0;31m▀▀[0;37m [0;31m▄[0;1;31;41m░[0;31m▀[0;1;31;41m [0;31m▄[0;1;30m▀▀[0m           [31m▄█▀[0;37m              [0;31m▄█▀▀▄[0;37m [0;31m▀▀[0m
 [37m                      [0;31m▀▓[0;37m [0;31m▀▒[0;37m           [0;31m▒▀[0;37m               [0;31m▒▀[0;37m [0;31m▄[0m
 [37m                        [0;31m▒[0;37m                               [0;31m░░[0m
-[37m                         [0;31m░[0;37m  [0;1;30miNSANE cREATORS eNTERPRI5E[0m
-
-
-                          [1;34mansi by s[0;36mAV[0;1;34ma[0;36mG[0;1;34me of Blocktronics[0m'
+[37m                         [0;31m░[0;37m  [0;1;30m                          [0m'

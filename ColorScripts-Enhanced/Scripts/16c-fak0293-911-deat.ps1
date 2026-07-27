@@ -5,7 +5,7 @@
 # Source SHA-256: df3109a4e97ecfe8e3fd198ff7559831175778c25b114b42228029431f3635cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 911-DEAT.ANS by Mr. Ski (fak0293); released in fak0293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -48,11 +48,11 @@ Write-Host '
 [1;30m [0m.[1;30m<[0;1;31mSK[0;1;35mi[0;1;30m>[0m.
  [1;34m┌─────[0;1;30m─[0;1;34m─[0;1;30m──[0;1;34m─[0;1;30m── ─ ─[0m              [1;30m─  ─[0;1;34m─[0;1;30m─[0;1;34m────[0;1;30m─[0;1;34m─[0;1;30m─  ─[0m              [1;30m─ ─ ──[0;1;34m─[0;1;30m──[0;1;34m─[0;1;30m─[0;1;34m─────┐[0m
 [1;34m │[0m                                                                            [1;34m│[0m
-[1;34m │[0m                           [1;34m≡ [0mT[1mhe [0mD[1meaTH [0mG[1maTE [0mB[1mBs [0;1;34m≡[0m                           [1;34m│[0m
-[1;34m [0;1;30m│[0m                            [1;34m≡ [0m1[1m.4 [0mG[1miGs [0mO[1mnLiNE! [0;1;34m≡[0m                            [1;30m│[0m
-[1;30m [0;1;34m│[0m     [1;34m≡ [0mM[1meSSaGeS [0;1;34m≡[0m               [1;34m≡ [0mC[1mD-RoM [0;1;34m≡[0m             [1;34m≡ [0mO[1mnLiNE [0mG[1maMeS [0;1;34m≡[0m     [1;34m│[0m
+[1;34m │[0m                           [1;34m  [0m [1m   [0m [1m     [0m [1m    [0m [1m   [0;1;34m [0m                           [1;34m│[0m
+[1;34m [0;1;30m│[0m                            [1;34m  [0m [1m   [0m [1m    [0m [1m       [0;1;34m [0m                            [1;30m│[0m
+[1;30m [0;1;34m│[0m     [1;34m  [0m [1m        [0;1;34m [0m               [1;34m  [0m [1m      [0;1;34m [0m             [1;34m  [0m [1m      [0m [1m     [0;1;34m [0m     [1;34m│[0m
 [1;34m [0;1;30m│[0m                             [1;34m≡ [0m4[1mo3.[0m2[1m78.[0m8[1m613 [0;1;34m≡[0m                               [1;30m│[0m
-[1;30m [0;1;34m│[0m                         [1;34m≡ [0mS[1mySoP -[0m/[1m- [0mD[1meReK [0mS[1mWeeT! [0;1;34m≡[0m                         [1;34m│[0m
+[1;30m [0;1;34m│[0m                         [1;34m  [0m [1m      [0m [1m  [0m [1m     [0m [1m      [0;1;34m [0m                         [1;34m│[0m
 [1;34m │[0m                                                                            [1;34m│[0m
 [1;34m └─────[0;1;30m─[0;1;34m─[0;1;30m──[0;1;34m─[0;1;30m── ─ ─[0m              [1;30m─  ─[0;1;34m─[0;1;30m─[0;1;34m────[0;1;30m─[0;1;34m─[0;1;30m─  ─[0m              [1;30m─ ─ ──[0;1;34m─[0;1;30m──[0;1;34m─[0;1;30m─[0;1;34m─────┘[0m
                                                                         .[1;30m<[0;1;31mSK[0;1;35mi[0;1;30m>[0m.[0m'

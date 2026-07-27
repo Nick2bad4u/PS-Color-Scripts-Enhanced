@@ -5,7 +5,7 @@
 # Source SHA-256: 21dd137f24f454adf3f2dededd96a7317cdaf2b30d7c97c5c53b66ae93a2110f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-SOUR.ANS by the knight (fuel); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sour matrix
 # SAUCE Author: the knight
 # SAUCE Group: fuel
@@ -37,8 +37,4 @@ Write-Host '
 [1;47m░[0;1;30;47m░░▓▓[0;1;30;40m██▀ ▄[0;1;30;47m▀░▄[0;1;30;40m▀    ▄ [0;1;30;47m▒[0;1;30;40m█  [0;33m ░▓▓[0;1;31;43m░[0;33m▀ ▄[0;1;31;43m░▀▀█[0;1;31;47m▓[0;1;31;43m▓▓▒▒▒ [0;30;43m█[0;1;31;40m    [0;35m  ▄   [0;37m  [0;1;30m▀▓█▄[0m█[30;47m ▄[0;37;40m▄[0;1;37;47m +o dadrug[0m█[1;30;47m   [0m█▒
 [1;47m [0;1;30;47m▓▓[0;1;30;40m██▀ [0;1;37;40m▄[0;1;37;47m▒░ [0;1;30;47m▄[0;1;30;40m▄     ▀ [0;1;30;47m▓[0;1;30;40m  [0m [33m   ░[0;1;31m  [0;33m░▓▀[0;1;31;43m▒▓[0;1;31;47m█[0;1;31;43m▄▒█▓▓░[0;30;43m░▓[0;1;31;40m    [0;35m ░▀ [0;37m    [0;1;30m■▄▄[0m▓▀[1;47m fuel memberboard░[0m▓
 [1;30;47m▓[0;1;30;40m███  [0;1;37;40m▀▀▀▀▀[0m▀▀▀[1;30m▀▀  █ █    [0m      [1;31m [0;33m▀[0;1;31;43m░▒▓[0;1;31;47m█[0;1;31;43m▒▓▓▓░[0;33m▄[0;1;31m     [0m [1;30m     [0m  [1;30m ▀▓[0;1;30;47m▄[0m▓███████████████[1;47m░░░[0m▓
-[1;30m█▌█▌█ [0m [1;30m█[0m [1;30m█ ██ █████ █▄[0;1;30;47m▀▀[0;1;30;40m▄▄ ▄  [0m   [1;31m [0;33m▀▓[0;1;31m▀█[0;1;31;43m▒▓▓▒░░ [0;33m▄▄[0;1;31m [0;33m [0;37m  [0;1;30m▄█ ▄■░▓▀▀▄[0;1;30;47m█[0;1;30;40m▀[0m▀[1;30;47m▄▄▌[0;1;30;40m▓▓[0;1;30;47m▄▄[0;1;30;40m▄[0;1;30;47m▄[0;1;30;40m▄▄[0;1;30;47m▓[0;1;30;40m▀▀  [0m
-                                   [33m [0m
-
-[1;30mi promised dadrug i''d doodle for his board, so like here it is mate.. keep[0m [1;30mcool[0;35m.[0m
-        [1;30m [0m                                                     [1;30mthe knight[0;35m.[0;1;30mfuel[0;35m''[0;1;30m97[0m'
+[1;30m█▌█▌█ [0m [1;30m█[0m [1;30m█ ██ █████ █▄[0;1;30;47m▀▀[0;1;30;40m▄▄ ▄  [0m   [1;31m [0;33m▀▓[0;1;31m▀█[0;1;31;43m▒▓▓▒░░ [0;33m▄▄[0;1;31m [0;33m [0;37m  [0;1;30m▄█ ▄■░▓▀▀▄[0;1;30;47m█[0;1;30;40m▀[0m▀[1;30;47m▄▄▌[0;1;30;40m▓▓[0;1;30;47m▄▄[0;1;30;40m▄[0;1;30;47m▄[0;1;30;40m▄▄[0;1;30;47m▓[0;1;30;40m▀▀  [0m'

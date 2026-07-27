@@ -5,7 +5,7 @@
 # Source SHA-256: 945a8082a50928c15f0eb3f5614261ee9cf4c11b47e6017d1e732a953f64e332
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: misfit-billy penn.ans by Misfit (amish-rumspringa); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20180130
 # SAUCE Dimensions: 80x93
 # SAUCE Font: IBM VGA
@@ -42,7 +42,7 @@ Write-Host '
          [33;40m▄█▓▓▓▓▒▒░[0;37;40m [0;33;40m▀█[0;37;40m  [0;33;40m▐[0;37;43m [0;33;40m▓▓[0;37;43m [0;30;43m [0;33;40m█████████▓▓▒▒▓▓▓█▓▓████[0;30;43m· °.[0;37;43m [0;33;40m▌[0;37;40m  [0;33;40m█▀[0;37;40m [0;33;40m░░░▒▓▓▓█▄[0m
        [33;40m▄█▀▀▀▀▀▓▓▒▒░[0;37;40m [0;33;40m▐▌[0;37;40m  [0;33;40m██[0;1;33;43m [0;30;43mFrom the right angle, and at[0;33;40m██[0;37;40m  [0;33;40m▐▌[0;37;40m [0;33;40m░▒▒▓▓▀▀▀▀▀█[0m
       [33;40m▀[0m         [33;40m▀▓▄■▀[0;37;40m   [0;33;40m▐███[0;30;43mthe right time of day, it [0;33;40m██▌[0;37;40m   [0;33;40m▀■▄▓▀[0m      [33;40m ▐[0m
-                        [33;40m▐██[0;30;43malso looks like he''s got his[0;33;40m█▌[0m              [33;40m▀[0m
+                        [33;40m▐██[0;30;43m                            [0;33;40m█▌[0m              [33;40m▀[0m
                   [33;40m▀▄▄▄[0;37;40m   [0;33;40m████[0;30;43mcock out. Philly''s got a   [0;37;40m  [0;33;40m▄▄▄▄▀[0m
                     [33;40m█▓▓[0;37;40m [0;33;40m▐█[0;30;43m.°[0;33;40m█████[0;30;43m sense of humor.[0;33;40m███████▌░▓▓█[0m
                     [33;40m▐█▓░▐██▀▀▀▀▀[0;1;33;43m [0;30;43m  [0;33;40m███[0;30;43m ···[0;33;40m████▓▓▒▀▀▀▀▀██▌▒▓█▌[0m

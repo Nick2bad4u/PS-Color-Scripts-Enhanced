@@ -5,7 +5,7 @@
 # Source SHA-256: 9697c8653d9588a6c4da23aa14af73afba743cdac430b1fddbd730a16de5219a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 32-SPEED.ANS by ezy (fusion\fluid); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: speed loader
 # SAUCE Author: ezy
 # SAUCE Group: fusion\fluid
@@ -30,5 +30,4 @@ Write-Host '
             [30;42m [0;1;32;40m▄▄[0m [36m▀[0;1;36m▀[0;1;36;46m▀[0;1;36;40m█████████[0;1;36;46m▄[0;1;36;40m▄[0;36m▄ [0;32m▀[0;1;32m▀[0m [36m▄[0;1;36;46m▄░[0;1;37;46m░[0;1;36;46m▓[0;1;36;40m█[0;1;36;46m▓[0;1;36;40m▀▐[0;1;37;46m█▓[0;1;36;46m░[0;1;37;46m▒░[0;1;36;46m░[0;1;37;40m [0;1;32;42m▐[0;1;32;40m████▀▀[0;36m ▄[0;1;36;46m▄[0;1;36;40m███[0;1;32;40m█[0;1;36;40m███████[0;1;36;46m▀[0;36m▀[0m
             [30;42m [0;1;32;40m████▄▄▄[0m [36m▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m███████[0;1;36;46m▄[0;1;36;40m▄[0;1;36;46m▄[0;1;36;40m█[0;1;36;46m▓[0;1;36;40m███[0;1;36;46m▀[0;1;36;40m▌[0m [1;36m▐[0;1;36;46m▒[0;1;37;46m▒░[0;1;36;46m▒░▓[0;1;36;40m▌[0;1;32;42m▄[0;1;32;40m▀▀[0m [36m▄[0;1;36m▄[0;1;36;46m▄[0;1;36;40m███████████[0;1;36;46m▀[0;1;36;40m▀[0;36m▀[0;37m [0;1;32m32[0m
             [30;42m [0;1;32;40m█[0;1;36;40m██[0;1;32;40m██[0;1;32;42m▓[0;1;32;40m████▄▄▄[0;1;37;40m [0;36m▀[0;1;36m▀[0;1;32m▀[0;1;36m▀[0;1;32m▀[0;1;36m▀▀▀▀▀[0;36m▀[0;37m [0;30;42m▀[0;1;32;40m▄▄█[0m [1;36;46m▓██▓██[0;1;36;40m▌[0;36m▄[0;1;36m▄[0;1;36;46m▄[0;1;36;40m███████████[0;1;36;46m▀[0;1;36;40m▀[0;36m▀[0;37m [0;32m▄[0;1;32m▄██[0m
-                                            [1;36m▀[0;1;36;46m█████████[0;1;32;40m█[0;1;36;46m████▀[0;1;36;40m▀▀[0;36m▀[0m
-                     [1;32m>[0m [1;32msp[0;1;36me[0;1;32med[0m [1;36ml[0;1;32moader.[0m [1;32m.[0m'
+                                            [1;36m▀[0;1;36;46m█████████[0;1;32;40m█[0;1;36;46m████▀[0;1;36;40m▀▀[0;36m▀[0m'

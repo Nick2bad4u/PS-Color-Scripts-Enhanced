@@ -5,7 +5,7 @@
 # Source SHA-256: 0b073d7e83daafdfe5761043292ce4325a1f2711612b8780bcfd08a187ea83d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PENTGON.ANS by Living Death (hrp-4); released in hrp-4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -52,11 +52,4 @@ Write-Host '
         [1;34;42m░[0m     [1;34;42m▒[0;1;34;40m▀[0m      [1;34;40m▐[0;1;34;42m▒[0m [1;34;40m▐[0;1;34;42m▒[0m [1;34;42m░[0;1;34;40m▌   ▐[0;1;34;42m▒[0;1;34;40m▌  [0;1;34;42m▒[0;1;34;40m▌  [0;1;34;42m░[0m [1;34;40m▐[0;1;34;42m▒[0m   [1;34;40m▐[0;1;34;42m░[0m [1;34;42m░[0m     [1;34;42m▒[0;1;34;40m▌▐[0;1;34;42m▒[0m   [1;34;42m▒[0;1;34;40m▌ ▐[0;1;34;42m▒[0m
               [1;34;42m▒[0;1;34;40m▄[0;1;34;42m▒▒[0m    [1;34;42m▒[0;1;34;40m▌  [0;1;34;42m▒[0m [1;34;42m░[0m    [1;34;42m░[0;1;34;40m▌  ▐[0;1;34;42m░[0m   [1;34;40m▐[0;1;34;42m░[0m [1;34;42m▒[0;1;34;40m▄   ▐[0;1;34;42m░[0m [1;34;42m░[0m    [1;34;42m░[0m [1;34;42m░[0;1;34;40m▌   [0;1;34;42m▒[0m  [1;34;42m░[0;1;34;40m▌[0m
               [1;34;40m▀[0;1;34;42m░[0m  [1;34;42m░[0m   [1;34;42m░[0m    [1;34;42m░[0m    [1;34;42m░[0m    [1;34;42m░[0;1;34;40m▌    [0;1;34;42m░[0m [1;34;40m▀[0;1;34;42m▒░░[0;1;34;40m▄[0;1;34;42m░[0;1;34;40m▌  [0;1;34;42m░[0m  [1;34;42m░[0m  [1;34;42m░[0m    [1;34;40m▐[0;1;34;42m░[0;1;34;40m▌[0;1;34;42m░[0m
-                   [1;34;42m░[0m [1;34;42m░[0m                           [1;34;42m░[0;1;34;40m▀    [0;1;34;42m░░[0m  [1;34;42m░[0m      [1;34;40m▐[0;1;34;42m░[0;1;34;40m▌[0m
-
-
-                            [1;34;40m510.XXX.XXXX[0m         [1;34;40mSyZOP: OverLord[0m
-
-                              [1;34;40mHR WHQ[0m
-
-                                                        [31mA[0;1;31mN[0;1;33mZ[0;1;37mi [0;31mb[0;1;31my[0;1;33m: [0;31mLiV[0;1;31miN[0;1;33mG D[0;1;31mEÆ[0;31mTH[0m'
+                   [1;34;42m░[0m [1;34;42m░[0m                           [1;34;42m░[0;1;34;40m▀    [0;1;34;42m░░[0m  [1;34;42m░[0m      [1;34;40m▐[0;1;34;42m░[0;1;34;40m▌[0m'

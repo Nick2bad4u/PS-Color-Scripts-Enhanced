@@ -5,7 +5,7 @@
 # Source SHA-256: 7daf5da3b1456a59d7db6983e121ad0468f0070218e94b61cf37d36a0a1cace3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-IO.ANS by Maeve-Wolf (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: inside out
 # SAUCE Author: Maeve-Wolf
 # SAUCE Group: iCON
@@ -62,6 +62,6 @@ Write-Host '
 
 [1;30m───────────────────────────── ∙ [0mi [1;31mS [0;31mS U E   [0;1;31m# [0m2 [1;30m∙ ──────────────────────────────[0m
 
-[1;30m■ 100% ORiGiNAL ■ GREETS TO: -iGOR ■ -iNViSiBLE STALKER ■ -HANDY ■ -SQUiDGE ][ ■[0m
-                         [1;30m  ■ -ROBiNHOOD ■ -CAPTAiN ■[0m
+[1;30m■               ■                  ■                    ■        ■             ■[0m
+                         [1;30m  ■            ■          ■[0m
 [1;30m ∙ A ∙ N ∙ S ∙ i ∙  ∙ B ∙ Y ∙  ∙ - ∙ M ∙ A ∙ E ∙ V ∙ E ∙  ∙ W ∙ O ∙ L ∙ F ∙ - ∙[0m'

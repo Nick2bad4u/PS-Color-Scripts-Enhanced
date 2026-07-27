@@ -5,7 +5,7 @@
 # Source SHA-256: 2fa3df7935e0b11040ddfecea2e4b4301cd782bca73ad2209eaa142d3e3bcabc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PN-GENOC.ANS by penn (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: genocide
 # SAUCE Author: penn
 # SAUCE Group: rune
@@ -38,8 +38,8 @@ Write-Host '
    [34;40m▀ ▄  ▄[0;34;44m [0;1;34;44m▀[0;1;34;40m▀ [0mpN!rune                                          [36m░░[0m       [36m░[0m
        [34m▀▀[0m
 [1;30m---( c u t h e r e )------------------------------------------------------------[0m
-[1;30mthis logo is 100% by penn of rune.. do not rip anything on this ansi... this is[0m
-[1;30mstrictly for genocide.[0m
-[1;30mif ya''d like a logo.. find me and email me.. we can werk out a trade or a price[0m
-                                                      [1;30mpenn[rUne/tTp/iLLn][0m
+[1;30m                                                                               [0m
+[1;30m                      [0m
+[1;30m                                                                               [0m
+                                                      [1;30m                   [0m
 [1;30m------------------------------------------------------------( c u t h e r e )---[0m'

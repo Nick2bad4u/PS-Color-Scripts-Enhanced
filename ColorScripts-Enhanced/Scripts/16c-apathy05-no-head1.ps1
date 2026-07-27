@@ -5,7 +5,7 @@
 # Source SHA-256: 52f0a66eb9b533773c9d367ea47a6a7f77ef79af824e8a08abe7d652f6763ae3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NO-HEAD1.ANS by Nosferatu (apathy!); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .h. .e. .a. .d. .?.
 # SAUCE Author: Nosferatu
 # SAUCE Group: apathy!
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1m    [0m` you can flick me off as much as you want Hauser, but we''re different.
-             you see, I have what''s called an apposable thumb... ''
+[1m    [0m                                                                       
+                                                                  
 
            ┌▄[1m▄▄▄▄_▄    ▄─   ─[0m                  [1m─[0m      [1m─▄   _▄ ▄▄▄▄[0m▄┐
             [1;47m░[0m█[1;47m▀[0m▄                   ▄▓▄           ▄▓▄           ▄[1;47m▀▓▀[0m
@@ -31,6 +31,4 @@ Write-Host '
 [1;34;44m  ░[0m [1;35;45m▀▀[0;1;35;40m███████▄ [0;1;31;40m▀▀▌█▓▀▀ [0;1;35;40m▄███▄ [0;1;31;40m▀▀▓██▀▀ [0;1;35;40m▄███▄ [0;1;31;40m▀▀██▓▀▀ [0;1;35;40m▄███▄ [0;1;31;40m▀▀▓██▀▀ [0;1;35;40m▄███████[0;1;35;45m▀▀[0m [1;34;44m░   [0m
 [30;44m░  [0m [30;45m    [0;1;35;45m░▀▀▀▀[0;1;35;40m█[0;1;35;45m▀[0;1;35;40m█▄[0;35m▄[0;1;35m▄▄▄█████████▄▄▄▄▄█████████▄▄▄▄▄█████████▄▄▄[0;35m▄[0;1;35m▄█[0;1;35;45m▀[0;1;35;40m█[0;1;35;45m▀▀▀▀  ░  [0m [1;35;44m   [0;30;44m░[0m
 
-                       [35;40m.h.[0m       [35;40m.e.[0m       [35;40m.a.[0m       [35;40m.d.[0m
-
-              [1;30;40mlogo by ` what we need is a pipebomb... '' [0mnos[1;30mferatu[0m'
+                       [35;40m.h.[0m       [35;40m.e.[0m       [35;40m.a.[0m       [35;40m.d.[0m'

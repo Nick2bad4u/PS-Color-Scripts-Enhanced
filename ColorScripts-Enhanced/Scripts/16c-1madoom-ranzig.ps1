@@ -5,7 +5,7 @@
 # Source SHA-256: 777b1ecff294f12403fcdb37fc5b1f89c5179ed8d40e4bc6af7ea6d48fef0266
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RANZIG.ANS by Doomsday (ShadowByte); released in 1madoom and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Danzig is Ranzig!
 # SAUCE Author: Doomsday
 # SAUCE Group: ShadowByte
@@ -36,5 +36,4 @@ Write-Host '
                          [1;37m▐█  ▐█  ▌   ▐▌ ▀ ▌ ██  [0;32m██▐██▐█▐█▌▐██▌ █▌  ███ ██ ██▀[0m
                           [1;37m█▌  ▀[0m            [1m▐█   [0;32m██▄▀ ▐█▄█▌ █ █ █  ▐██  █▌ █▌ ██[0m
                            [1;37m▀[0m               [1m▀    [0;32m█  █▌▐█ ██ █ ▐██ ▐█▀   █  ▀█▄▄█[0m
-                                                                 [32m▀▀▀▀▀[0m
-[1;37mDoomsday[0m'
+                                                                 [32m▀▀▀▀▀[0m'

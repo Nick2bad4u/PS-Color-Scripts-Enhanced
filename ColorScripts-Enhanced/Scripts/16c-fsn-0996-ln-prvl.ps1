@@ -5,7 +5,7 @@
 # Source SHA-256: 42fc1a89c8e218098a9bdd52660fca433f54539a27f031cb8a96bfe3c8d01da0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LN-PRVL.ANS by Liithn (guest in Fusion); released in fsn-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Prevail
 # SAUCE Author: Liithn
 # SAUCE Group: guest in Fusion
@@ -37,5 +37,4 @@ Write-Host '
           [31m▀[0;1;31m▀[0;1;31;41m▀██████[0m                          [1;31m▐████████████[0;1;31;41m▀▀  [0;31m▀▀[0;1;31m [0m
               [31m▀[0;1;31m▀▀[0;1;31;41m▀█[0m                          [1;31m▐██████[0;1;31;41m█[0;1;31;40m█[0;1;31;41m▀▀ [0;31m▀▀▀[0;1;31m [0m
 
-[31m [0m                   [1;31mP[0m    [1;31mr[0m    [1;31me[0m     [1;31mv[0m    [31m▐[0;1;31;41ma[0;31m▌[0m   [1;31mi[0m    [31ml[0m
-             [31mA[0;1;31mnsi by L[0;1;31;47mi[0;1;31;40mithn a[0;31ms[0;1;31m a guest app[0;35mea[0;1;31mrance in Fu[0;31msi[0;1;31mon[0m'
+[31m [0m                   [1;31mP[0m    [1;31mr[0m    [1;31me[0m     [1;31mv[0m    [31m▐[0;1;31;41ma[0;31m▌[0m   [1;31mi[0m    [31ml[0m'

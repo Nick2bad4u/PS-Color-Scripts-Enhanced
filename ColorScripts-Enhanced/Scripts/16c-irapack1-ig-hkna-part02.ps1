@@ -5,7 +5,7 @@
 # Source SHA-256: 457228bbb4061d25607cf926ad249e5f8205caf8fbe85c5c1265d88b17872e39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IG-HKNA.ANS by Iguana (irapack1); released in irapack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 48-77
 # Columns: 1-80
 
@@ -36,6 +36,4 @@ Write-Host '
            [34mJ[0;1;34ma[0;1;37md[0;1;34me[0m       [35mA[0;1;35ml[0;1;37mex The Gre[0;1;35ma[0;35mt[0m   [1;30m░░▒░░▒▓█░▒▓█▒▓█░▒▓█▒░▓█░▒▓█░▒▓░▒[0m
                                           [1;30m▒░▒░▓▒▓░▓▓░▓█░▒▓▒▓░▒▓░▓░▒▓░▒[0m
      [34mH[0;1;34mo[0;1;37mme Of The i[0;1;34mR[0;34mA:[0;32mF[0;1;32ma[0;1;37mde,Alex The Great,[0m    [1;30m░░▓░▓░▓░▓░▓░▓░▓░▓░▓░▒▒▓[0m
-                     [1;37miGUaNa, Delta,    [0m           [1;30m░▒░▒░░░░░░░░░▒[0m
-                         [1;37mJ.C Wal[0;1;32ms[0;32mh[0m
-[1;37m-[0m=[1;30m≡[0;31mi[0;1;31mG[0;1;37mUa[0;1;31mN[0;31ma, [0;36mi[0;1;36mR[0;1;37mA :)[0;1;30m≡[0m=[1m-[0m'
+                     [1;37miGUaNa, Delta,    [0m           [1;30m░▒░▒░░░░░░░░░▒[0m'

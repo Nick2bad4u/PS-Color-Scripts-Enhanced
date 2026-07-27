@@ -5,7 +5,7 @@
 # Source SHA-256: ec5909c9bf61be94cfebe242dad06ffd563494acf4e99013a95bc5756baaf70a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ED-CN.ICE by Eternal Darkness (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 85-124
 # Columns: 1-80
 
@@ -42,10 +42,4 @@ Write-Host '
       [1;34;44m▀▄[0m     [1;30;47m░▒[0;1;30;40m░▒▓[0;1;37;47m▒▓▒[0m▌ [1;47m▒▒░[0;1;30;40m▀   ▓[0;1;30;47m▌[0;1;37;47m░ [0m [1;30;47m▓[0;1;30;40m▄▀▀[0m▀▀[1;30m▄▄[0m     [1;30;47m▒░░[0m   [1;30;40m▐[0;1;37;47m░[0m█[1;30m█[0;1;30;47m▓░ ▒▓[0m [1;30;47m [0;1;37;47m░[0;1;30;40m▌[0m     [1;34;44m▀▄[0m
       [1;34;44m▀▄▀[0;34m█▓▒░[0;1;37;47m▓░[0;1;30;40m▒▓  [0m▀[1;47m░[0;1;30;47m░[0m ▐[1;47m░ [0;1;30;47m░[0m▄[1;30m▄▓▒░[0;1;30;47m▒[0m▌ [1;47m░[0;1;30;47m░[0m [34m░▒░[0;1;30m▐[0;1;30;47m▒[0;1;37;47m░[0m [34m░░ [0;1;30;47m░[0;1;37;47m░▒[0m [34m░░ [0;34;47m [0;1;30;47m░[0;1;30;40m▌▓▒ ▒░[0m▐[1;47m░▒[0m [34m░▒▓██[0;1;34;44m▀▄[0m
              [1;37;47m░▓[0;1;30;40m▓▀   ▐[0;1;30;47m▒[0m  ▀[1;30;47m░▒▒▓▓▀▓[0;1;30;40m▀  [0;1;37;47m▓▒[0m    ▀[1;47m░▓[0m    [1;47m▒▓░[0m    [1;30;40m▐[0;1;30;47m▒▓[0;1;30;40m▄░ ░[0m▄[1;47m▒▓[0m▌
-              [1;30m▀[0m      [1;30m▀[0m     [1;30m▀▀▀[0m      [1;37m▀[0m      ▀    ▀▀      [1;30m▀▀[0m     ▀▀
-
-           ([1m519[0m)[1m888[0m-[1m6375  [0;1;30mφ  [0;1;37m9600[0m+ [1mHST Only[0m!  [1;30mφ  [0;1;37m0[0m-[1m7 Day IBM Softs[0m
-        [1mCyberCrime International Network  [0;1;30mφ  [0;1;37mOOF[0m-[1mNet  [0;1;30mφ [0;1;37mUltra[0m-[1mTech NET[0m
-                      [1mStaff[0m: [1mFolksinger[0m, [1mBlackFL [0m& [1mSkyLite[0m
-
-         [1;30mA[0mN[1mSi by: EternaL Darkne[0ms[1;30ms φ [0;1;37mi[0mCE[1;30m([0mtm[1;30m) [0mAdvertisement[1;30ms φ [0m11[1;30m/[0m28[1;30m/[0m92[0m'
+              [1;30m▀[0m      [1;30m▀[0m     [1;30m▀▀▀[0m      [1;37m▀[0m      ▀    ▀▀      [1;30m▀▀[0m     ▀▀[0m'

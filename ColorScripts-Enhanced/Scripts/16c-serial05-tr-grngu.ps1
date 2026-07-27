@@ -5,7 +5,7 @@
 # Source SHA-256: 21b2bc1a81a0b5c7a29a26c55ec99329052e967e8d54f5a77e4d86bc4a516f5d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tr-grngu.ans by Terrato (serial05); released in serial05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -47,7 +47,7 @@ Write-Host '
 [35m`²$$$g,[0m         [35m`"²S$$$$$,[0;32m        `""²²²²²²²²""''  [0m     [35m,g$$²²"` [0m
 [35m$,[0;37m  [0;35m`²$$$g,[0m          [35m`"²$$$,[0m                         [35m,$$²'' [0m               [35m,gggQQ[0m
 [35m$$g,[0m    [35m`²$$$$g,.[0m        [35m`²$$,[0m                     [35m,²"''[0m          [35m,ggQTQT$T$T$P²"[0m
-[35m`$$$g,[0m      [35m`²$$$$g,[0m        [35m`²$,[0m                 [35m,[0m        [35m,gQQ$i$iTiTiTiTiTiT   [0m
+[35m      [0m      [35m        [0m        [35m    [0m                 [35m [0m        [35m                      [0m
 [37m  [0;35m`$$$$g,[0m      [35m`²S$$$$Qg,[0m      [35m`[0;37m  [0;1;30m  [0m.tERRAto.[1;30m  [0m              [35m`²:i:i:i:i:i:i:ib,.[0m
     [35m`"²S$$g,[0m      [35m`"²TiTiTi:.[0m     [35m [ [0;1;30msERiAL[0;35m ][0;1;37m   [0m                [35m ` :∙:∙:∙:∙:∙:∙:[0m
                      [35m "i:i:. .[0;37m [0;35m.  [0m                                 [35m [0;37m [0;35m  ∙[0;37m [0;35m∙[0;37m [0;35m∙[0;37m [0;35m∙[0m

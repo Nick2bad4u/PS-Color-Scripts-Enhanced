@@ -5,7 +5,7 @@
 # Source SHA-256: e0dc0dbdd03a58cbf73c5e67b48c29350e6597dd24a5a03c88a960fe9fc4cd49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-SCFI.ANS by flipside (fORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: scifi connections
 # SAUCE Author: flipside
 # SAUCE Group: fORCE
@@ -33,5 +33,4 @@ Write-Host '
 [36m █[0;1;36;46m██████[0;36m█▄[0;1;36m [0m▀▀█[1;47m▀▀▀[0m█▀▀[1m [0m▄█[1;47m▓▓███▄[0m█[1m [0;1;33m▀████████████▄[0;1;36m [0m▀▀█[1;47m▀[0m█▀▀[1;36m [0m█[1;47m▀███▀[0m█[1m [0;1;47m░░███▀[0m█[1;36m [0;36m▄█[0;1;36;46m██████[0;36m█[0m
 [36m █[0;1;36;46m███████▄▄[0;36m█▄▄▄▄▄▄[0;37m ▀[0;1;37;47m░░█▀▀▀▀[0m█▀▀▀ [1;33m██▄▄▄▄▄▄▄▄▄▄█[0;1;37m██ [0;36m▄▄▄▄█▄ [0;37m▀▀▀▀▀[0;1;36m [0;36m▄[0;1;36m [0m▀█[1;47m▀[0m█▀[1;36m [0;36m▄█[0;1;36;46m███████[0;36m██[0m
 [36m██[0;1;36;46m▀▀▀[0;1;36;47m▓▓▓▓[0;1;36;46m██[0;1;36;47m▓[0;1;36;46m█████▄[0;36m█▄▄▄▄▄▄▄▄▄▄[0;37m [0;1;33m▀▀▀[0;1;33;43m▓▓[0;1;33;40m████████▀▀▀[0m [36m▄█[0;1;36;46m████▄▄▄▄▄▄▄▄▄[0;36m█▄▄▄▄▄██[0;1;36;46m▀▀▀▀▀▀▀▀▀[0;36m█[0m
-[36m    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   [0;37m [0;1;33m▀▀▀▀▀[0m [36m  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▌[0;37m  [0;36m [0m
-               [37msop[0;1;30m.[0mcore   cosop[1;30m([0ms[1;30m).[0mflipside[1;30m-[0mmerk[1;30m-[0mdan[1;30m_[0mabnormal[0m'
+[36m    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   [0;37m [0;1;33m▀▀▀▀▀[0m [36m  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▌[0;37m  [0;36m [0m'

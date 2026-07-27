@@ -5,7 +5,7 @@
 # Source SHA-256: 060319010c7279b4e989e2f7700a8bd87e4dc61d23aba454405aeeebd6f13c90
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US#00001.ANS by Artistic Implosion + Lord Of Illusions (plain / omen); released in omen-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: omen promo
 # SAUCE Author: loi / ai
 # SAUCE Group: plain / omen
@@ -32,6 +32,5 @@ Write-Host '
                           [34m▀▀ ▄    ▀[0m     [30;44m▓▓[0m        [30;44m▓▓[0m               [34;40m▀▀▓[0m
         [30;44m▓[0;34;40m░[0;30;44m▓[0m                           [30;44m▓▓░[0;1;32;44mo[0;1;32;40mmen[0;30;44m█[0;1;32;40mprod[0;1;32;44muc[0;1;32;40mtions! 1996[0;30;44m▓▓[0;37;40m [0;30;44m▓[0m    [34;40m▀[0m
        [30;44m▓[0;32;44m░[0;30;44m▒▒▓▓[0;37;40m  [0;1;32;40m  [0m   [30;44m██[0m                            [30;44m▓▓▓[0m
-[37;40m [0;30;44m█[0;34;40m░[0;30;44m██▓[0;34;40m░[0;30;44m▓[0;1;32;44mjoi[0;1;32;40mnt logo by lord of illusions and artist[0;1;32;44mic[0;30;44m▒[0;1;32;40mimplosion[0m
-        [34m░[0;30;44m▓▓[0m                                       [30;44m▓[0;34;40m░░[0;30;44m▓[0m
-                  [1;32;40m  [0m'
+[37;40m [0;30;44m█[0;34;40m░[0;30;44m██▓[0;34;40m░[0;30;44m▓[0;1;32;44m   [0;1;32;40m                                       [0;1;32;44m  [0;30;44m▒[0;1;32;40m         [0m
+        [34m░[0;30;44m▓▓[0m                                       [30;44m▓[0;34;40m░░[0;30;44m▓[0m'

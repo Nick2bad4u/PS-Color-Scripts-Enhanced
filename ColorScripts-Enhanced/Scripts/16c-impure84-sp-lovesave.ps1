@@ -5,7 +5,7 @@
 # Source SHA-256: c3d9c17cb9c99e180dff047b29cb7b8baac801425ee4e23add31a85e76e3ada1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-lovesave.ans by spinsane (ALL OF EM); released in impure84 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: LOVE WILL SAVE THE DAY
 # SAUCE Author: spinsane
 # SAUCE Group: ALL OF EM
@@ -39,5 +39,4 @@ Write-Host '
 [37m                           [0;36m"$$$$$$$$$$$$$$$$[0;37m9[0;34;41m⌐[0;37;40m²[0m
 [37;40m                              "|$$$$$$$$$>`[0m
 [37;40m                                  ''4$$7~[0m
-[37;40m                                    ''7[0;1;36;40m.[0m
- [1;36mLOVE WILL SAVE THE DAY ([0;33mresearch[0;1;36m))[0m'
+[37;40m                                    ''7[0;1;36;40m.[0m'

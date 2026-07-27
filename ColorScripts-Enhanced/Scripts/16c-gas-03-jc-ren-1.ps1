@@ -5,7 +5,7 @@
 # Source SHA-256: 6a6441348724a3d5141e6e4713aa19aec489a5fff34ad6f504356d17cc0b5a3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JC-REN#1.ANS by juice (gas); released in gas-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: renegade mainmenu
 # SAUCE Author: juice
 # SAUCE Group: gas
@@ -25,16 +25,14 @@ Write-Host '
 [36m░[0m                    [36m░▒░    ░  ▄■ ▀    ░[0m      [36m░[0m             [36m░[0m         [36m▄■  ▀  ░▄[0m
 [36m  ░ [0;1;30m[[0;1;36mf[0;1;30m]  [0mfiles menu   [36m░[0m       [36m▐▌[0m      [36m░▒░[0m       [1;30m[[0;1;36mb[0;1;30m]  [0mblah       [36m░    ▐▌[0m       [36m▐▌[0m
 [36m    [0;1;30m[[0;1;36mm[0;1;30m]  [0mmail menu        [36m░    ▀ ▄[0m     [36m░    ░   [0;1;30m[[0;1;36mw[0;1;30m]  [0mwhatever         [36m▀░ ▄   ■▀[0m
-[36m ░  [0;1;30m[[0;1;36mo[0;1;30m]  [0monline games    [36m░▒░[0m       [36m░ ▓   ░▄[0m     [1;30m[[0;1;36mf[0;1;30m]  [0mfill me in!!          [36m░[0m
+[36m ░  [0;1;30m [0;1;36m [0;1;30m   [0m                [36m░▒░[0m       [36m░ ▓   ░▄[0m     [1;30m [0;1;36m [0;1;30m   [0m                      [36m░[0m
 [36m░▒░[0m                       [36m░   ░[0m      [36m░    ▐▌  ░[0m                           [36m░▒░[0m
-[36m ░  [0;1;30m[[0;1;36ms[0;1;30m]  [0mstatistics               [36m░    ▄  ▀[0m     [1;30m[[0;1;36ma[0;1;30m]  [0mand an option here    [36m░[0m
-[36m    [0;1;30m[[0;1;36mt[0;1;30m]  [0mtodays callers       [36m▄░  ▀[0m     [36m░   ░   [0;1;30m[[0;1;36mp[0;1;30m]  [0mplus another here
-  [36m░ [0;1;30m[[0;1;36my[0;1;30m]  [0myesterdays callers  [36m▐▌[0m        [36m░▒░[0m      [1;30m[[0;1;36mo[0;1;30m]  [0mor just leave it blank   [36m░[0m
-[36m    [0;1;30m[[0;1;36mu[0;1;30m]  [0muser list          [36m░ ▀  ░  ▄   ░[0m       [1;30m[[0;1;36mw[0;1;30m]  [0mwho cares?          [36m░[0m
+[36m ░  [0;1;30m [0;1;36m [0;1;30m   [0m                         [36m░    ▄  ▀[0m     [1;30m [0;1;36m [0;1;30m   [0m                      [36m░[0m
+[36m    [0;1;30m [0;1;36m [0;1;30m   [0m                     [36m▄░  ▀[0m     [36m░   ░   [0;1;30m [0;1;36m [0;1;30m   [0m                 
+  [36m░ [0;1;30m [0;1;36m [0;1;30m   [0m                    [36m▐▌[0m        [36m░▒░[0m      [1;30m [0;1;36m [0;1;30m   [0m                         [36m░[0m
+[36m    [0;1;30m [0;1;36m [0;1;30m   [0m                   [36m░ ▀  ░  ▄   ░[0m       [1;30m [0;1;36m [0;1;30m   [0m                    [36m░[0m
 [36m░  ░[0m                           [36m░[0m         [36m░▄  ░[0m                   [36m░[0m      [36m░▒░[0m
-[36m    [0;1;30m[[0;1;36mv[0;1;30m]  [0mversion information  [36m░▒░[0m     [36m░   ▐▌    [0;1;30m[[0;1;36mi[0;1;30m]  [0mi''ll shut up now.   [36m░   ░[0m
-[36m    [0;1;30m[[0;1;36mg[0;1;30m]  [0musage graph    [36m░[0m      [36m░[0m      [36m▄  ■▀[0m     [1;30m[[0;1;36mr[0;1;30m]  [0mreally!
+[36m    [0;1;30m [0;1;36m [0;1;30m   [0m                     [36m░▒░[0m     [36m░   ▐▌    [0;1;30m [0;1;36m [0;1;30m   [0m                    [36m░   ░[0m
+[36m    [0;1;30m [0;1;36m [0;1;30m   [0m               [36m░[0m      [36m░[0m      [36m▄  ■▀[0m     [1;30m [0;1;36m [0;1;30m   [0m       
   [36m░    ░[0m            [36m░  ░▒░ ░   ▀   ░[0m       [36m░  ░[0m                     [36m░   ░[0m     [36m░[0m
-[36m ░▒░[0m        [36m░[0m           [36m░[0m     [36m░[0m           [36m░▒░[0m          [36m░[0m       [36m░[0m       [36m░▒░[0m
-
-[36;47m      [0;30;47m[p] page sysop       [l] logoff        [$] timebank       [0m  [37;40m♂O mins left[0m'
+[36m ░▒░[0m        [36m░[0m           [36m░[0m     [36m░[0m           [36m░▒░[0m          [36m░[0m       [36m░[0m       [36m░▒░[0m'

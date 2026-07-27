@@ -5,7 +5,7 @@
 # Source SHA-256: d437fdfbbd7cbae5bfdfaf58d9e0c0bf134ef39c3feec43cc9875eb160b925ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Sob-gl2k.ans by Somberlain (Glue); released in glue-29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Glue2k
 # SAUCE Author: Somberlain
 # SAUCE Group: Glue
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-[30mImmortal[0;1;30m [0;30mhe[0;1;30m [0;30mwas,[0;1;30m [0;30mand[0;1;30m [0;30mdemonized[0;1;30m [0;30mhe[0;1;30m [0;30mbecame:[0;37m                                       [0m
-[30mThe Prince of Darkness was born.          [0;37m        [0;36m▄[0;37m    [0;1;30m▄▄▄[0m
-[30mThe agitator for the forth coming humans  [0;37m        [0;1;36m▒▒[0;36m▄[0;37m  [0;1;30;47m████[0;1;30;40m▄[0m     [1;30m░░░[0m
+[30m        [0;1;30m [0;30m  [0;1;30m [0;30m    [0;1;30m [0;30m   [0;1;30m [0;30m         [0;1;30m [0;30m  [0;1;30m [0;30m       [0;37m                                       [0m
+[30m                                          [0;37m        [0;36m▄[0;37m    [0;1;30m▄▄▄[0m
+[30m                                          [0;37m        [0;1;36m▒▒[0;36m▄[0;37m  [0;1;30;47m████[0;1;30;40m▄[0m     [1;30m░░░[0m
 [30mon earth. [0;37m                                        [0;36m▐█▓[0;37m  [0;1;30m▐[0;1;30;47m▓▓█▓▓[0;1;30;40m▄[0m    [1;30m▓▓▓[0m
                                                   [36m▐▓▒▓[0;37m [0;1;30m▐[0;1;30;47m▒▒[0;1;30;40m▀[0;1;30;47m▒▒░░[0m▄  [1;30m▐[0;1;30;47m▓▓[0;1;30;40m▄[0m
                    [1;36m░▒▓[0;1;36;46m██▄[0;1;36;40m▄[0;36m▄[0;37m                        [0;36m▒░░░[0;37m [0;1;30;47m░░[0m█ ▀[1;30;47m░[0m███▄ ▀[1;30;47m░░[0m█
@@ -53,5 +53,4 @@ Write-Host '
       [32m▄[0;1;32m▓░░[0m      [1;36m░░[0m     [1;30m▄[0;1;30;42m▀ [0;32m▀[0;37m      [0;1;30m-[0m [1;30mSomberlain[0m
      [32m▄[0;1;32;42m▄[0;1;32;40m█▓▓[0;1;32;42m▄[0;1;32;40m▄▄▄[0m  [1;36m▓▓░░[0m  [1;30m▐[0;1;30;42m▌ [0;32m▌[0;37m                                                      [0m
 [37m     [0;32m▀[0;1;32m▀▀▀▀▀▀▀▀[0m   [1;36m▀▓▓[0m   [1;30m▀[0;1;30;42m▄ [0;32m▄[0;37m                                                     [0m
-[37m   [0;1;37m [0m                     [1;30m▀[0;32m▀[0;37m                                                     [0m
-[37m                                                                                [0m'
+[37m   [0;1;37m [0m                     [1;30m▀[0;32m▀[0;37m                                                     [0m'

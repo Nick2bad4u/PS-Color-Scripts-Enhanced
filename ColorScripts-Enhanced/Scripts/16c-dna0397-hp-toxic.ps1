@@ -5,7 +5,7 @@
 # Source SHA-256: 7bcace44cb35f868a583a77e484a093510fccb3435db097e40c1db5a29b67502
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HP-TOXIC.ANS by Hypno (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -28,5 +28,4 @@ Write-Host '
 [32m [0;1;37mxX[0mxX[1;30mx    [0;36m░ ░ ░░ [0;1;30m░ [0;36m▒   ▓ ▒[0m        [36m█▓▓████[0;1;30;46m▓[0;36m▓▓██▓▓▒  ▄▄▄[0;1;30m░ [0;36m▄▄[0;1;30m░ [0;36m░ ░ [0;1;37mxX[0mx[1;30mXxX[0;1;32m█[0;1;32;42m▓▓▓[0;1;32;40m▌[0;36m░[0m
 [1;37mxX[0mxX[1;30mxXxX[0m      [1;30m░  ░ [0;36m░  ░ ░░▒ ▒▒ ▒▓▒▒▒ ▒▓▓█▒▒▒▒▓▒▒█▓░▓█ ▒▒ ▒ [0;1;37mxX[0mxXx[1;30mX[0mxX[1;30mxXx░[0;1;32m▀▀▀[0;1;30m░  [0;36m░░[0;1;30m░[0m
 [1;30m [0;1;37mxX[0mxX[1;30mxX[0m         [1;30m░[0m      [1;30m░   [0;36m░░ [0;1;30m░ [0;36m▓ ░▒ ▒░█░██░░░█ ░[0;1;30m░░ [0;36m░ ▒░░ ▒░ ░ ▒  ░[0;1;37mxX[0mx[1;30mXxX ░[0;36m░ [0;1;30m░ [0;36m░[0m
-                    [36m░[0;1;30m░   ░ [0;36m░  [0;1;30m░  ░[0;36m░[0;1;30m░to[0;1;37mX[0;1;30mic[0;36m░░[0;1;30m░bb[0mS[1;30m░[0;36m░░   [0;1;30m░ [0;36m▒[0;1;30m░[0;36m░  [0;1;30m░[0;36m░░ [0;1;30m░[0;36m░ [0;1;37mxX[0mxX[1;30mxXx[0;1;37mXx[0mXx[1;30mXx[0m
-      [1m.[0;1;31m:[0;31m[[0;1;30mxXx[0mX[1;30mxXxX[0mxX[1;30mxX[0mx[1;30mXxXxXx[0mX[1;30mxXxXxX[0mx[1;30mXxXxXx[0mXx[1;30mXx[0mX[1;30mxXxXxXxX[0mx[1;30mXxXxXx[0mX[1;30mxXxX[0mx[1;30mX[0;31m][0;1;31m:[0;1;37m.[0m'
+                    [36m░[0;1;30m░   ░ [0;36m░  [0;1;30m░  ░[0;36m░[0;1;30m░to[0;1;37mX[0;1;30mic[0;36m░░[0;1;30m░bb[0mS[1;30m░[0;36m░░   [0;1;30m░ [0;36m▒[0;1;30m░[0;36m░  [0;1;30m░[0;36m░░ [0;1;30m░[0;36m░ [0;1;37mxX[0mxX[1;30mxXx[0;1;37mXx[0mXx[1;30mXx[0m'

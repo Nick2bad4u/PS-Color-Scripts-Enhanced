@@ -5,7 +5,7 @@
 # Source SHA-256: 1b595c600a1546a3483b7a0ec7df769f7956e06d08c0341929fc93cdaad3bffc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-TOM1.ANS by Transient (apathy); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tower of Mana
 # SAUCE Author: Transient
 # SAUCE Group: apathy
@@ -36,5 +36,5 @@ Write-Host '
 [1;30;40m░▒▓████████████████████████████████[0m [1;34;44m░[0m [1;30;40m   [0;1;34;40m [0;1;34;44m▓[0m [1;34;44m░[0m [34m  [0;1;34;44m▓[0m [1;34;44m░[0m  [1;34;40m [0;1;34;44m▓[0m [1;34;44m░[0m [34m  [0;1;34;44m▓[0m [1;30;40m███████████████▓▒░[0m
 [1;30;40m░▒▓████████████████████████████████ [0m [1;30;40m▄▄ ▄[0m     [1;30;40m▄▄[0m     [1;30;40m▄[0m    [1;30;40m▄▄[0m  [1;30;40m███████████████▓▒░[0m
 [1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m░[0m
-[1;30;47m▓[0;1;30;40m t[0;34mo[0;1;34mw[0;34me[0;1;30mr o[0;34mf[0;1;30m m[0;34man[0;1;30ma : o[0;34mp[0;1;30ms : i[0;34mm[0;1;34mm[0mor[1;34mt[0;34ma[0;1;30ml e[0;34mn[0;1;34mig[0;34mm[0;1;30ma :: r[0;34mu[0;1;34mn[0mn[1;34mi[0;34mn[0;1;30mg : 0[0;34mb[0;1;34mv[0m/2[1;34m.[0;34m3[0;1;30m0 :: t[0;34mr[0;1;34ma[0mn[1msient[0m![1;34ma[0;34mp[0;1;30ma [0;1;30;47m░[0m
+[1;30;47m▓[0;1;30;40m  [0;34m [0;1;34m [0;34m [0;1;30m   [0;34m [0;1;30m  [0;34m  [0;1;30m     [0;34m [0;1;30m     [0;34m [0;1;34m [0m  [1;34m [0;34m [0;1;30m   [0;34m [0;1;34m  [0;34m [0;1;30m      [0;34m [0;1;34m [0m [1;34m [0;34m [0;1;30m     [0;34m [0;1;34m [0m  [1;34m [0;34m [0;1;30m      [0;34m [0;1;34m [0m [1m     [0m [1;34m [0;34m [0;1;30m  [0;1;30;47m░[0m
 [1;30;47m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m░[0m'

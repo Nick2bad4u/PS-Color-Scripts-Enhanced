@@ -5,7 +5,7 @@
 # Source SHA-256: 01307f74997b9b5d21ffc2f5a3207c098d5a64ff3248e4451cb270492731f264
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: emk-01!r.ans by emok (mimic); released in mimic31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: remorse promotion
 # SAUCE Author: emok
 # SAUCE Group: mimic
@@ -34,6 +34,4 @@ Write-Host '
               i; [1;30m::[0m       [1;30m        [0m  . [1;30m:[0m        i;           [1;30m''::..::`[0m
            . └ [1;30m.::[0m                    .     . └               [1;30m''::`[0m
             [1;30m.::`[0m                         `
-        [1;30m.[0m [1;30m`[0m                                           [1;30m(([0m        [1;30m(( emok )    [0m
-                                                                 [1;30m( mimic4life ))[0m
-'
+        [1;30m.[0m [1;30m`[0m                                           [1;30m(([0m        [1;30m(( emok )    [0m'

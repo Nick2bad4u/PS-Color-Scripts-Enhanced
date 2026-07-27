@@ -5,7 +5,7 @@
 # Source SHA-256: 19af0a444e75f51eba9f5e049f5e8d12783aae6ca2d5833505d774461ab2e172
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-DARK7.ANS by Mother Fungus (DoS); released in dos-v195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Darker Image Revision
 # SAUCE Author: Mother Fungus
 # SAUCE Group: DoS
@@ -33,7 +33,7 @@ Write-Host '
                       [1;30m▄▀[0;1;34m▄████▌ ▐████[0;30mMF [0;1;34m▄████▌▐███▌[0;1;30m█[0m      [30mOphelia ■ LOTU[0m
                     [1;30m▄▀[0;1;34m▄█████▀[0;1;30m▄▀▄[0;1;34m▀█▀[0;1;30m▄ [0;1;34m▄█████▀▄█████[0;1;30m▀▄[0m
                      [1;30m▀▀▄▄▄▄▄▀   ▀▄▀ ▀▄▄▄▄▄▄▀▄▄▄▄▄▄▄▀[0m
-                                [1;30mM[0mo[1mther Fung[0mu[1;30ms[0m
+                                [1;30m [0m [1m         [0m [1;30m [0m
 
                                [1;30mP [0mR[1;30m [0;1;37mE[0;1;30m [0;1;37mS[0;1;30m [0;1;37mE[0;1;30m [0;1;37mN[0;1;30m [0mT[1;30m S[0m
 
@@ -58,5 +58,4 @@ Write-Host '
 
    [1;30m▓[0m                            [1;30m▓[0m                                 [1;30m▓[0m
    [1;30m▒[0m                            [1;30m▒[0m                                 [1;30m▒[0m
-   [1;30m░[0m                            [1;30m░[0m                                 [1;30m░[0m
-'
+   [1;30m░[0m                            [1;30m░[0m                                 [1;30m░[0m'

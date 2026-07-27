@@ -5,7 +5,7 @@
 # Source SHA-256: cb1c0cc62b76326521b2a08bff9743547bd5567c2cdc6d1fbdd49a68a492c01c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-SCNT1.ANS by Boba Fett (glue-09); released in glue-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -33,14 +33,14 @@ t[1;30mox[0mi[1;30mx[0m''s [1;30m,[0m.  .[1;30m,[0m [1;30mS[0mC[1;30m
 [31m█[0;1;33;41m░░░[0;1;31;41m█████[0;1;31;47m▓▓▓[0;1;31;41m███▄[0;31m▄[0;37m ▄▄[0;1;31m▄▄▄[0;1;31;47m▄▄███████[0m      [1;30m▀▀[0m   [1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0m     ░[30;47m▓[0;37;40m       ▀[0;1;30;40m▐[0;1;30;47m▌[0;1;31;47m░░░░[0m▀ [30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0m
 [1;33;41m░░░[0;1;31;41m█████████████▌[0;31m▌[0;37m▐[0;1;31;47m░░▓███████[0;1;33;41m░░░[0m [31m█[0;1;31;41m▄[0m [1m▄▄[0;1;47m▄▄▄[0;1;40m██▄▄▄[0m▄  ▄ [1;33mBF/gLEW![0m  [1;30m▀[0m▀▀▀   [31m░░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0m
 [37;40m-(cut)--------------------------------------------------------------------------[0m
-[37;40mThis is for Toxix''s bbs SCENT of coz, don''t rip, like you would.  I guess I''m[0m
-[37;40min GLUE now, but this is a guest appearance for DIVINE, Toxix''s group.  Enjoy[0m
-[37;40mthis man, its got a little experimenting in it...[0m
+[37;40m                                                                             [0m
+[37;40m                                                                             [0m
+[37;40m                                                 [0m
 
-[37;40mFor an ansi similar to this, you may reach me on pOD @ 864.639.1007, I will[0m
-[37;40mdefinitely do you a free ansi if you call my bbs, otherwise, e-mail me at[0m
+[37;40m                                                                           [0m
+[37;40m                                                                         [0m
 
-[1;37;40mboba.fett@x-net.net [0mor catch me on irc, but through the internet, chances are
-I''ll say yes and forget...=)  Call pOD to be sure.
+[1;37;40m                    [0m                                                         
+                                                  
 
-[34m░[0;30;44m▓[0;37;40m [0;1;37;40mbobafett[0;34m![0;37m [0;34m░[0;30;44m▓[0;37;40m [0;1;37;40mboba[0;34m.[0;1;37mfett[0;34m@[0;1;37mx[0;34m-[0;1;37mnet[0;34m.[0;1;37mnet[0;34m:[0;1;37m864[0;34m.[0;1;37m639[0;34m.[0;1;37m1007 [0;34m░[0;30;44m▓[0m'
+[34m░[0;30;44m▓[0;37;40m [0;1;37;40m        [0;34m [0;37m [0;34m░[0;30;44m▓[0;37;40m [0;1;37;40m    [0;34m [0;1;37m    [0;34m [0;1;37m [0;34m [0;1;37m   [0;34m [0;1;37m   [0;34m [0;1;37m   [0;34m [0;1;37m   [0;34m [0;1;37m     [0;34m░[0;30;44m▓[0m'

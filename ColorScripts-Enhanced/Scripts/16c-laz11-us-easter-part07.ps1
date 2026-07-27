@@ -5,7 +5,7 @@
 # Source SHA-256: 267e1e7322e431f9f43490c1d3e86625a1feb6f98937e35f115c9b73108b9ec8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-easter.ans by Misfit + Warpus (Lazarus); released in laz11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: COVID EASTER 2020
 # SAUCE Author: Warpus & Misfit
 # SAUCE Group: Lazarus
@@ -56,7 +56,7 @@ Write-Host '
                                                           [30;40m██████[0m
                          [30;40m██████████████████████████████[0;37;40m   [0;30;40m██████[0m
                          [30;40m██████████████████████████[0m
-            [30;40m████[0;32;40m [0;30;40m██[0;37;40m [0;32;40min quarantine no one can hear you scream[0m
+            [30;40m████[0;32;40m [0;30;40m██[0;37;40m [0;32;40m                                        [0m
            [30;40m███████[0;37;40m [0;30;40m████████████████████████████████[0m                      [30;40m██████[0m
          [30;40m█████████[0;37;40m [0;30;40m████████████████████████████████[0m                    [30;40m████████[0m
 [37;40m  [0;30;40m███████████████████[0m                                               [30;40m███████████[0m'

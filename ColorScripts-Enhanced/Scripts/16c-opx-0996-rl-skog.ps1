@@ -5,7 +5,7 @@
 # Source SHA-256: df51e3fa9666a4fe004531aadd27dfec33221c6d0ac53c9a4b116180c62772e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL!-SKOG.ANS by rawlock (rl!) (opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: darkwood
 # SAUCE Author: rawlock (rl!)
 # SAUCE Group: opium
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30manshi by[0;1;37m ([0mrawlock[1m)[0;1;30m of[0m [1m([0mopium[1m)[0m [1;30mproductions 1996 as original as it can be. . . .[0m
+[1;30m        [0;1;37m  [0m       [1m [0;1;30m   [0m [1m [0m     [1m [0m [1;30m                                                [0m
 [1;30;47m█[0;1;30;40m███[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m▀▀▓▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀▀▀▓▀▀ ▓▀▀ ▓▀  ▀ ▀[0;1;31;40m [0;33m▄[0;1;31;43m░[0;1;31;40m███[0;1;31;43m▓[0;1;31;40m██[0;1;31;43m▓▄[0;1;31;40m▄[0;33m▄[0;1;31m [0;33m▀[0;1;31;43m▀▓[0;1;31;40m███████[0;1;31;43m▓▀[0;33m▀[0;1;31m [0;33m▄▄▄[0;1;31;43m░▄▓[0;1;31;40m███▀░░ ▀█[0;1;31;43m▓[0m
 [1;30;47m█▓[0m▓▀  [1;30m [0m  [1;30m░[0m     [1;30m       [0m  [1;30m    [0m     [34m░ [0;1;31m [0;1;31;43m░▒▓[0;1;31;40m█████████[0;1;31;43m▓▄[0;33m▄[0;1;31;43m▄[0;1;31;40m██[0;1;31;43m▓[0;1;31;40m████[0;1;31;43m▄[0;33m▄[0;1;31;43m▄▄▓[0;1;31;40m█████████▄▄▄██[0;1;31;43m▓[0m
 [1;30m▒[0m▓ [1;30m   ░[0;32;43m░ d a r[0;33;40m▓[0;32;43mk w O o d ░[0;1;30;40m░ [0m    [34m░[0;37m  [0;33m▄[0;1;31m▄[0;33m▀▀[0;1;31;43m▀▓[0;1;31;40m███████████████████████████[0;1;31;43m██▓▀[0;1;31;40m▀▀▀▀▀▀▀[0m

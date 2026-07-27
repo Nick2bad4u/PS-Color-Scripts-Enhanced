@@ -5,7 +5,7 @@
 # Source SHA-256: b9905fbe816ea12fd8c0bcdd611dd1fcf6ba8e6d1607163afebe6a87c1f52ca7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cranksy-epic_loon.ans by cranksy (LAZARUS); released in laz12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Epic Loon
 # SAUCE Author: cranksy
 # SAUCE Group: LAZARUS
@@ -47,6 +47,4 @@ Write-Host '
  [34m▀[0;1;37;47m▀[0;1;37;40m████████▄[0;44m▐[0;1;47m▐[0;1;40m█[0;1;47m▀▌[0;1;30;40m▌[0m       [1m▄▄▄██████[0;1;30m▓▒▌[0;1;37m▐▓███[0;1;37;44m▀▀▀[0;34m▀▀[0;1;30m░░░▒▓▓▌[0m     [1;30man ansi dedicated to[0m
 [34m█[0;1;37;44m▄[0;1;37;40m▄███████▀▀[0m▀[1;30m▌[0m    [1m▄▄▄▄████████▀▀▀▀▀▀[0m [1;30m▐[0;1;37m▀▀[0m [34m▀▀[0;1;30m░░▒▓[0m       [1;30ma[0m [1;30mSoundtrack by Pryapisme[0m
 [34m█[0;1;37;47m▐▀[0;1;37;40m▀▀▀[0m  [1;30m▐▓▒░[0;1;37m▄▄▄█▀▀▀[0;1;30m░░░▒▒▓▓▓▌[0m
-[1;30m▌[0m   [1;30m░▒▓▓▓▌[0m
-           [1;30m<[0mw[36ma[0;1;36mrp[0;36mu[0;37ms[0;1;30m> [0;36mit is as the[0;37m [0;36mancient[0;37m [0;36mtexts[0;37m [0;36mforetold.[0;37m [0;1;36m"He[0m [1;36mshall[0m [1;36mride[0m [1;36min[0m [1;36mon[0m [1;36ma[0m
-                    [1;36mbicycle[0m [1;36mand[0m [1;36mtalk[0m [1;36mabout[0m [1;36mcats"[0m'
+[1;30m▌[0m   [1;30m░▒▓▓▓▌[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2c8d38a44516b2dd8f7030fa498f7043ecc398961aa306726ab6c0a1491f8af7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MISFIT-MISTIGRIS_SCIENCE_THEATER_3000.ANS by Misfit (Blocktronics); released in mist1119 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mistigris Science Theater 3000
 # SAUCE Author: Misfit
 # SAUCE Group: Blocktronics
@@ -54,13 +54,8 @@ Write-Host '
 [1;30;40m▓▀[0m [36m▄▄▄▄▄▄▄▄▄████████▄▄▓▓████▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████▓▓▓▄██▄▄▄██▄▄▄▄▄▄[0;37m [0;1;30m▀▓[0m
 [1;30m█[0m [36m█▀ ▄▓▓▄▄█▄███████████[0;1;30;46m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;36m████████████[0;1;30;46m░░[0;36m█▄█▄▄░ ▀█[0;37m [0;1;30m█[0m
 [1;30m█[0m [36m█▐████████████████████████████████████████████████████████████████████████▌█[0;37m [0;1;30m█[0m
-[1;30m█[0m [36m█▐███[0;1;32;46mANSI by Misfit for [0;1;33;46mMISTIGRIS[0;1;32;46m // greets to Rowan & his motley crew  [0;36m██▌█[0;37m [0;1;30m█[0m
+[1;30m█[0m [36m█▐███[0;1;32;46m                   [0;1;33;46m         [0;1;32;46m                                       [0;36m██▌█[0;37m [0;1;30m█[0m
 [1;30m█[0m [36m█▐████████████████████████████████████████████████████████████████████████▌█[0;37m [0;1;30m█[0m
 [1;30m█[0m [36m█▄ ░▀▀█▀█[0;1;30;46m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;36m█▀█[0;1;30;46m░[0;36m█▀█▀▀▓▓▀ ▄█[0;37m [0;1;30m█[0m
 [1;30m█▄[0m [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;1;30m▄▓[0m
-[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
- [1;30mThis ansi is so old it''s got whiskers.[0m
-
- [1;30mTom Servo here was adapted from an illustration by whoever draws the amazing[0m
- [1;30mposters for MST3K. I wish I knew who you were, mystery illustrator. Your work[0m
-[1;30m is top notch. - James[0m'
+[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

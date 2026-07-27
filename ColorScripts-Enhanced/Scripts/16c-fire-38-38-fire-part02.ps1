@@ -5,7 +5,7 @@
 # Source SHA-256: 6cbe71fbc9752750037097d322aea863c3783e1aebda9313b37bc7aa4be14841
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: #38_FIRE.ANS by abstrakt (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fire #38 members
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -16,8 +16,8 @@
 # Columns: 1-80
 
 Write-Host '
-           [32m┌[0;1;32md$[0;32mbq[0;1;32m$bq[0;32mQ[0;1;32m$$b[0;32mq$[0;1;32ms┐q$[0;32m$[0m
-         [37m[=[0;32m$y[0;1;32my[0;32my[0;37mX[0;32my[0;1;32my[0;32my[0;37mX[0;32my[0;1;32my[0;32my[0;37mX[0;32my[0;1;32my[0;32my[0;37mX[0;32my[0;1;32m$[0m=]                   [33m,._[0m          [33m__.,[0;1;30m,[0m
+           [32m┌[0;1;32m  [0;32m  [0;1;32m   [0;32m [0;1;32m   [0;32m  [0;1;32m ┐  [0;32m [0m
+         [37m  [0;32m  [0;1;32m [0;32m [0;37m [0;32m [0;1;32m [0;32m [0;37m [0;32m [0;1;32m [0;32m [0;37m [0;32m [0;1;32m [0;32m [0;37m [0;32m [0;1;32m [0m                     [33m   [0m          [33m    [0;1;30m [0m
          [32m,┌[0;1;32m$$~`^"''²²db²²''"^`$[0;32m$┐,[0m                  [33m`$$$$$##SSS$$$$$$[0;1;30m$''[0m
          [32m$[0;1;32m$$$   [0;1;31mo[0;32m  j[0;1;32ml[0;32m$   [0;1;31mo[0;32m  [0;1;32m$$[0;32m$;[0m                   [33ml$$$$$$$$$$$$$$$[0;1;30m''[0m
          [32m`└$[0;1;32m$$[0;32m┐,.┌[0;1;32md''l$[0;32m: [0;1;32m┐.[0;32m┌[0;1;32m$$$[0;32m`[0m                    [33m:$└$$$$$$$$j7┘$l[0m
@@ -47,7 +47,7 @@ Write-Host '
        l~`[1;30m~   _.,┌7  [0m''└[1;30m/┐,._~`''`$:[0m             [1;30m$$$$$$│j$$$7  [0m└\[1;30mj$$$$$$7[0m
        `[1;30m└↕↕*┘²²''~[0m         [1;30m~`''²²''`[0m              [1;30m`''''''''`[0m           [1;30m`^"''''~[0m
                                         [1;30m,[0m [1;30m,[0m
-                                 [1;30m.┌#Sb. dsb .dS#┐,[0m
+                                 [1;30m ┌             ┐ [0m
 [1;30m ,[0mqSQ[1;30m\[0m       [1;37m$\-[0;1;33m─[0;1;37m─[0;1;33m───-─-[0;33m-[0;1;33m-[0;33m-[0;1;33m/[0;33m$[0;37m    [0;1;30m`''┘''4$j$$$b$7`└''`[0m    [1m$\─-[0;1;33m──-─-[0;33m-[0;1;33m/[0;33m$[0m        [1;30m/[0mQSp.
 [1;30mj[0m$$[1;30mP [0;1;33m; [0;33my%#[0;1;30mS[0m  [1;33m$[0;33m;[0;1;37m  H[0mALASTER[1m  [0;1;30m;[0;33m$[0;37m [0;1;33m/[0;33m$S#y┐[0;1;30m └''`Y$P''`┘[0m [33m┌g#S$[0;1;33m\[0m [1;33m$[0;33m;[0;1;37m  N[0mAIL  [1;30m;[0;33m$[0;37m  [0;1;30m$[0;33mS#%y[0;1;33m :[0;1;30m Y[0m$$[1;30mb[0m
 [1;30m└[0m$$[1;30mL [0;1;33m└[0;1;31m [0;33m²''^`[0;37m  [0;1;33m$[0;33m/──-─-─[0;1;30m-[0;33m──[0;1;30m───\$[0m           [1;30m/²\[0m           [1;33m$[0;33m/-─-─[0;1;30m─[0;33m─[0;1;30m─-\$[0m  [33m``^''²[0;1;31m [0;1;33m┘[0;1;30m j[0m$$[1;30m┘[0m

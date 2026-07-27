@@ -5,7 +5,7 @@
 # Source SHA-256: ac1b0fa1e487d54bc165ebcad0e633e33a81e5fa66f0e5e6e022d3e9766ed5b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-theportaltotheuniverse.ans by Avenging Angel (blocktronics_1010); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 130-171
 # Columns: 1-80
 
@@ -43,12 +43,4 @@ Write-Host '
 [1;37m [0;34m▀█[0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m█▀[0;37m [0;34m [0m              [33m░[0;1;37m [0;36m▓[0;33m ▓▀[0;36m█[0;1;31m    [0m     [1m    [0;36m░[0;1;37m [0;36m   ▀  ▄[0m
 [37m   [0;34m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m                    [1;37m [0;36m░[0;1;37m [0;33m░[0;1;37m [0;36m▓ [0;33m █[0;36m▄▀[0m                    [36m■[0m
                                          [1;37m [0m    [36m░[0;1;37m [0;36m   ▀  ▄[0m
-                                                         [36m■[0m
-
-
-
-
-
-
-
-[1;35m  [0m          [1;36mthe interior[0;1;32m of our s[0;1;35mkulls con[0;1;32mtains a portal to infinity[0m'
+                                                         [36m■[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: dec940756db0bf8b83bd028108486ffe1107214dcf550eb88a572a923bb30411
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STI-UP.ANS by Stimpy (Shaolin's Finest); released in shao0798 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Uprise
 # SAUCE Author: Stimpy
 # SAUCE Group: Shaolin's Finest
@@ -32,23 +32,4 @@ Write-Host '
 [1;31;40m██[0;1;31;41m▓▒░[0;31m█▄ [0;1;30m▀▀███▀ [0;31m▄▄▄▄▄▄▄[0;1;31;41m▒▓▓▓▒░[0m [1;30;40m▄███▓▓█▄ [0;31m▄▄▄▄█▄[0;1;31;41m░[0;31m▄▄▄▄ [0;1;30m▀▀▓▀▀██▀▀ [0;31m▄ [0;1;30m░▀▀▀▀▀██▀░░ [0;1;31;41m░▒▓[0;1;31;40m██[0m
 [1;31;40m ▀█[0;1;31;41m▓▒░[0;31m██[0;1;31;41m░[0;31m▄▄▄▄▄██████[0;1;31;41m░▒▓███▓▒░[0;31m▄▄▄ [0;1;30m░░ [0;31m▄▄█████[0;1;31;41m░▒░[0;31m█████▄▄▄▄▄▄▄▄██▄▄▄██[0;1;31;41m░[0;31m▄▄▄▄▄▄[0;1;31;41m░▒▓[0;1;31;40m█▀[0m
 
-                                 [1;30;40m░[0m
-[1;30;40m::: [0;1;36;40mc[0;36mut [0;1;36mh[0;36mere[0;1;30m![0m
-
-this is for a sydney-based group, uprise... i met a member on irc, but wasn''t
-the nicest way to meet them... sorry to all who i went-off at, and thanks to
-those who helped stop it :) i have now made friends with the group and spent
-some time idleing in their channel and have done this for them to use :)
-
-i also regard this as a proof of what i can do, i still believe that the
-calibreX one is better, but this one still looks pretty cool :) i hope that
-image likes it, and decides to let me in uprise... :)
-
-[1;36mg[0;36mreets [0;1;36mt[0;36mo [0;1;30m- [0mwooga, idc, trippah, image, berzerk (glad you liked my ascii :),
-            utopian, kaotic, trippah (thanks for the help on #sf98 :), and
-            to all on #ansi who looked at my ansi and gave an opinion :)
-
-                                                           [1;30m- [0;1;36ms[0;36mTiMPy [0;1;30m[[0;1;37mi[0mnf[1;30m%[0;1;37ms[0mhao[1;30m][0m
-
-[1;30m  [0m"my life is mine, its mine and i want it back, my life is mine, its mine...
-                AND I WANT IT BACK!!!" - Coal Chamber - Bradley[0m'
+                                 [1;30;40m░[0m'

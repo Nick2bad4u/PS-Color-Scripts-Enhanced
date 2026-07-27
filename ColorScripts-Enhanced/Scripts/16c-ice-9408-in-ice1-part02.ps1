@@ -5,7 +5,7 @@
 # Source SHA-256: 25e52b44f9f80c98087223e8dbc3b7923bf740c7bc106b0c5bd64f49916bb343
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-ICE1.ICE by Incubus (ice-9408); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 37-63
 # Columns: 1-80
 
@@ -34,6 +34,5 @@ Write-Host '
                    [35m▒[0m                     [35m░[0m      [35m░[0m                          [35m▓[0m
         [35m░[0m          [35m░[0m                                                       [35m▒[0m
                                                                            [35m░[0m
-                   Ansi By: Incubus.iCE - The iCE Age Is Here
-                    Who''s penis is in Stoner Chick''s mouth?                [35m░[0m
-                     [30mAnd why doesn''t he hve hairy balls?[0m'
+                                                             
+                                                                           [35m░[0m'

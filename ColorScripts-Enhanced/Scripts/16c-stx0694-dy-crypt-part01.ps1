@@ -5,7 +5,7 @@
 # Source SHA-256: b6c4e2bac614b2a94979458997efea8eaef8fbf631e02b9310c18faf9b600ee5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DY-CRYPT.ANS by Dynosaw (STX Production); released in stx0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ANSi For The Crypt
 # SAUCE Author: Dynosaw
 # SAUCE Group: STX Production
@@ -21,7 +21,7 @@ Write-Host '
                                           [1;30m║ █ [0;36m▀█[0;1;36m▄ [0;36m▀█  [0;1;30m│again :) needs requests [0;36m║[0m
                                           [1;30m║ [0;36m█▄[0;1;30m▄▄[0;36m▀█ [0;1;30m█  │cuz i''m bored !!!!!!!!! [0;1;36m║[0m
                                           [1;30m╙──────────────────────[0;36m─[0;1;30m───[0;36m─[0;1;30m──[0;36m────[0;1;36m───╜[0m
-                        [36m│[0m                 [1;30martist note: this looks SWEET in 80x50[0m
+                        [36m│[0m                 [1;30m                                      [0m
                         [1;36m│[0m
                         [36m│[0m
                         [1;36m│[0m
@@ -38,7 +38,4 @@ Write-Host '
 [1;30;47m▒▒▓▓██[0;1;30;40m▓▀[0m                                                                [1;30;40m▀▓██[0;1;30;47m▓▓▒▒[0m
 [1;30;47m██[0;1;30;40m▓▓▒▀[0m                                                                    [1;30;40m▀▒▓▓██[0m
 [1;30;40m▒▒░▀[0m                                                                        [1;30;40m▀░▒▒[0m
-[1;30;40m▄▀[0m                                                                            [1;30;40m▀▄[0m
-
-
-'
+[1;30;40m▄▀[0m                                                                            [1;30;40m▀▄[0m'

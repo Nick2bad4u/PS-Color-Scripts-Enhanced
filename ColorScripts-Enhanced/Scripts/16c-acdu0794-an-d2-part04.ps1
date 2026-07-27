@@ -5,7 +5,7 @@
 # Source SHA-256: d05e2b14caa8bb6506ec4c194ed6c960ab9c299695855631e793c155a8ba0f68
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-D2.ANS by Andrew Nice (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Despair II
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -43,24 +43,24 @@ Write-Host '
        [1;30m▀[0m                  [1;30m█[0m                          [1;47m▐[0m            ▄   ▀
        [1;30m█ [0m▄[1;30m▀[0m               [1;30m█  [0;1m7o8  ──  301  ──  2948  [0;1;47m [0m             ▀▄ █
   [1;30m▀ ▀▀▀[0;1;30;47m▀[0m▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀▀[0m                   [1;30m▀[0m▀[1;30m▀[0m▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;47m▄[0m▀▀  [1;30m▀[0m
-     [1;30m▄▀[0m█ [1;30m.[0;1mintel 80486dx2-66 mhz[0;1;30m. .[0;1mus robotics sportster 14400 modem[0;1;30m. [0;1m█[0m▀▄
-   [1;30m▄   [0m█ [1;30m.[0;1mmountain td-250 tape drive[0;1;30m.   .[0;1m1.2 gig hard drive storage[0;1;30m. [0;1m█   [0;1;30m▄[0m
-       [1;30;47m▀[0m [1;30m.[0;1mintermail 2.27 front-end mailer[0;1;30m. .[0;1mrenegade 01-02 ßeta bbs[0;1;30m. [0;1m█[0m
+     [1;30m▄▀[0m█ [1;30m [0;1m                     [0;1;30m   [0;1m                                 [0;1;30m  [0;1m█[0m▀▄
+   [1;30m▄   [0m█ [1;30m [0;1m                          [0;1;30m     [0;1m                          [0;1;30m  [0;1m█   [0;1;30m▄[0m
+       [1;30;47m▀[0m [1;30m [0;1m                               [0;1;30m   [0;1m                       [0;1;30m  [0;1m█[0m
        [1;30m█▀[0m                                                           [1;30m▀[0;1;47m▄[0m
-       [1;30m█ .[0;1mvI/numb world headquarters[0;1;30m. .[0;1mmist demo world headquarters[0;1;30m. [0;1m█[0m
-       [1;30m█ .[0;1mdIe    member    board[0;1;30m.  .[0;1masylum   lit    member    board[0;1;30m. [0;1m█[0m
-       [1;30m█ .[0;1mdual module player  support site[0;1;30m.   .[0;1mdust demo  dist site[0;1;30m. [0;1m█[0m
-       [1;30m█ .[0;1mpsychic monks  demo  dist site[0;1;30m. .[0;1menigma  demo  dist  site[0;1;30m. [0;1m█[0m
-       [1;30m█ .[0;1mrelic   ansi   dist   site[0;1;30m. .[0;1mrem   ansi/sound  dist  site[0;1;30m. [0;1m█[0m
-       [1;30m█ .[0;1mblade  ansi  dist  site[0;1;30m.  .[0;1mterbium  ansi  mag  dist  site[0;1;30m. [0;1m█[0m
-       [1;30m█ .[0;1mmaniac productions demo magazine dist site[0;1;30m. .[0;1mquantum node[0;1;30m. [0;1m█[0m
-       [1;30m█ .[0;1mprime us central hub[0;1;30m..[0;1msound board connection network node[0;1;30m. [0;1m█[0m
-       [1;30m█ .[0;1mdgi   international   demo    net    midwest    us    hub[0;1;30m. [0;1;47m▀[0m
-       [1;30m█ .[0;1mgsn   international   demo    net    midwest    us    hub[0;1;30m. [0m█
+       [1;30m█  [0;1m                          [0;1;30m   [0;1m                            [0;1;30m  [0;1m█[0m
+       [1;30m█  [0;1m                      [0;1;30m    [0;1m                               [0;1;30m  [0;1m█[0m
+       [1;30m█  [0;1m                                [0;1;30m     [0;1m                    [0;1;30m  [0;1m█[0m
+       [1;30m█  [0;1m                              [0;1;30m   [0;1m                        [0;1;30m  [0;1m█[0m
+       [1;30m█  [0;1m                          [0;1;30m   [0;1m                            [0;1;30m  [0;1m█[0m
+       [1;30m█  [0;1m                       [0;1;30m    [0;1m                              [0;1;30m  [0;1m█[0m
+       [1;30m█  [0;1m                                          [0;1;30m   [0;1m            [0;1;30m  [0;1m█[0m
+       [1;30m█  [0;1m                    [0;1;30m  [0;1m                                   [0;1;30m  [0;1m█[0m
+       [1;30m█  [0;1m                                                         [0;1;30m  [0;1;47m▀[0m
+       [1;30m█  [0;1m                                                         [0;1;30m  [0m█
 [1;30m▀    ▀ █▄[0m                                                           [1;30m▄[0m█    [1;30m▄[0m
-[1;30m█ ▄▀   █ .[0;1msysop[0;1;30m.[0;1mUsul[0;1;30m.[0m         [1;30m.[0;1msound[0;1;30m.[0;1mLeviathan[0;1;30m.[0m        [1;30m.[0;1mart[0;1;30m.[0;1mKarnaaj[0;1;30m. [0m█     [1;30m▀[0m▄ [1;30m█[0m
+[1;30m█ ▄▀   █  [0;1m     [0;1;30m [0;1m    [0;1;30m [0m         [1;30m [0;1m     [0;1;30m [0;1m         [0;1;30m [0m        [1;30m [0;1m   [0;1;30m [0;1m       [0;1;30m  [0m█     [1;30m▀[0m▄ [1;30m█[0m
 [1;30;47m▀[0m▀[1;30m▀[0m▀[1;30m▀▀▀▀▀[0m                                                           [1;30m▀[0m▀[1m▀▀▀▀▀[0m▀[1m▀[0m▀[1;30;47m▀[0m
-[1;30;47m▀[0;1;30m.[0mpicture from palladium books & rifts[1;30m.[0m      [1;30m.[0mansi & font by [35mandrew nice[0;1;30m.[0;35mac[0;1;33mi[0;35md[0;1;30m.[0m█
+[1;30;47m▀[0;1;30m [0m                                    [1;30m [0m      [1;30m [0m               [35m           [0;1;30m [0;35m  [0;1;33m [0;35m [0;1;30m [0m█
 [1;30m▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0;1;30;47m▄[0m
 [1;30;40m█ ▀▄[0m                                                                        [1;30;40m▄▀█[0m
      [1;30;40m▄[0m                                                                    [1;30;40m▄[0m

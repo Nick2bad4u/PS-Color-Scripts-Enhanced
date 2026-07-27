@@ -5,7 +5,7 @@
 # Source SHA-256: 32c93551708159808163314363fc845dbad7c193436a86cbc70db6ab454e980b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-PROMO.ANS by T/4E (Lapse); released in lap-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lapse Promotional 11/94
 # SAUCE Author: T/4E
 # SAUCE Group: Lapse
@@ -49,16 +49,11 @@ Write-Host '
                      [31;40m [0;30;41m▒▓[0;31;40m [0m        [37;40m [0m   [37;40m   [0m [37;40m [0m    [37;40m [0m        [30;41m█▒▓█[0m
 
 [37;40m   [0m [1;30;40m┌──────────────────────────────────────────────────────────────────────┐[0m
-    [1;30;40m│[0m        Lapse Productions 1994 - I bet it caught your eye, too...     [1;30m│[0m
-    [1;30m│[0m November 1994 Artwork - Be sure to listen to the sound files as well [1;30m│[0m
+    [1;30;40m│[0m                                                                      [1;30m│[0m
+    [1;30m│[0m                                                                      [1;30m│[0m
     [1;30m├──────────────────┐[0m ANSi: T/┤E [te/lapse] Lapse Productions 1994      [1;30m│[0m
     [1;30m│[0m Personal Greetz: [1;30m├───────────────────────────────────────────────────┤[0m
     [1;30m├──────────────────┘[0m                                                   [1;30m│[0m
-    [1;30m│[0m          All Lapse Members, Bass Man, All the dudez in #ansi...      [1;30m│[0m
+    [1;30m│[0m                                                                      [1;30m│[0m
     [1;30m│                                                                      │[0m
-    [1;30m└──────────────────────────────────────────────────────────────────────┘[0m
-
-    iF YoU WouLD LiKE aN aNSi bY mE cONTaCT mE aT:
-
-             Deadly Intoxication [Lapse World HQ] @ 8oi.553.8644
-                My Internet E-Mail Address : tae@xmission.com[0m'
+    [1;30m└──────────────────────────────────────────────────────────────────────┘[0m'

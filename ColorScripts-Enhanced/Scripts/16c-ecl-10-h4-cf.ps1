@@ -5,21 +5,21 @@
 # Source SHA-256: 4d7c7c8c6c067477db7d108f44e223155c25c892e7fa070dbbe76da9a6ca87f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: H4-CF.ANS by Haji (ecl-10); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
 Write-Host '
 [1m                                 _             _[0m
 [1m                             ,dP"''"4b.     .dP"''"4$b.[0m
-[1m     yyyyyssssssssssssssyyyyy$$     $$yssss$$     $$$yyyyyyys*[0m
+[1m                                                              [0m
 [1m     ''4$$$b.            8888888b╖,╓d$$$    ''4b╖,╓d$P''$$$$$8  chronic farts...[0m
 [1m       l$$$$|                     $$$$$              888888b.[0m
 [1m     ╓d$$$P''              ,╓qyyyyy$$$$$[0m
 [1m     ²~,~╙              ,d$$$$$$P╜$$$$$[0m
 [1m-─ ,╓d$$b╖_ - -──-─- - ;$$$$$$$|  $$$$$ -──-──--─-- [0;1;30m:.[0;1;37m [0;1;30m.[0;1;37m - -──-─--─---───-─-──►[0m
 [1m    [0m''$[1m$$$[0m$''[1m            8$$$$$$$   $$$$[0m$[1m             [0;1;30m::[0;1;37m [0;1;30m.[0m
-[36my[0;1;34m*[0;1;36m [0m,dP''[1m~''[0m4[1mb[0m.[1m [0;1;34my[0;1;36myy [0;1;37m y[0;1;32myy[0;32my[0;1;37m ;$$$$$$$|  [0m$[1m$$$[0m$y[1myy[0my[1myssss[0m;[1m;[0m;[1;30m;[0m;[1;30m::.:.[0;1;37m q[0;1;32myy[0;32mp.[0;1;37m [0;34mqy[0;1;34my[0;34m;[0;1;37m qy[0;1;32myyy[0;32my[0;1;37m [0;34m;y[0;1;34my[0m
+[36m [0;1;34m [0;1;36m [0m    [1m  [0m [1m [0m [1m [0;1;34m [0;1;36m   [0;1;37m  [0;1;32m  [0;32m [0;1;37m            [0m [1m   [0m  [1m  [0m [1m     [0m [1m [0m [1;30m [0m [1;30m     [0;1;37m  [0;1;32m  [0;32m  [0;1;37m [0;34m  [0;1;34m [0;34m [0;1;37m   [0;1;32m   [0;32m [0;1;37m [0;34m  [0;1;34m [0m
 [36ml[0;1;36m  [0m$[1;30m$[0;1;37m [0;34m:8:[0;1;37m [0m$$[1m [0;1;34ml[0;1;36m$$[0;1;34mb[0;1;37m [0;1;32m''4$[0;32mP[0;1;37m  [0m$[1m$$$$$$$b╖[0m$$[1m$$[0;1;30m$$[0m$$[1m8[0m8[1m8S[0mSSSl[1;30ml[0miii[1;30m;:∙''[0;34m.[0;1;32m''4$$[0;32mP[0;1;37m [0;34m;$[0;1;34m$[0;34ml[0;1;37m ''[0;1;32m4$$[0;32mP''[0;1;37m [0;34ml[0;1;34m$[0;36m$[0m
 [1;34m$,[0;1;36m [0m''[1;30m4b╖,╓dP[0m''[34m.[0;1;34m$[0;36m$[0;1;36m$[0;36m$$b[0;1;34m╖,╓d[0;1;37m [0m$[1m$$$$$$[0m$~[1m~[0;1;30m$[0m$$$[1;30m$[0;1;37m [0;1;34m,,[0;36m,,,[0;1;34m,[0;36m,[0;1;34m,,[0;34m,,[0;1;37m [0mi;:[1;30m''[0;34m,d[0;1;34m$[0;34mb,_[0;32m~[0;34m_,d[0;1;34m$$[0;1;36m$[0;34mb╖,_[0;1;36m [0;34m_,q[0;1;34m$[0;36m$[0;1;36m$[0m
 [36m$$[0;1;34mb,[0;1;36m [0;1;30m$$$$$[0;1;37m [0;34md$[0;1;34m$[0;36m$$$[0;1;34m$$$$$[0;34m$[0;1;37m [0m$$[1m$$$[0m$$[1;30m$yy$$[0m$[1;30m$$[0;1;37m [0;1;34m$[0;36m$$$$$$[0;1;34m$[0;36m$[0;1;34m$[0;34m$[0;1;37m [0;1;30m;''[0;34m,d[0;1;34m$[0;36m$[0;1;34m$$[0;34mP"''"4$[0;1;34m$$[0;36m$[0;1;34m$[0;36m$$[0;1;34m$$[0;34m$[0;1;34m$$[0;36m$[0;1;34m$[0;36m$[0m

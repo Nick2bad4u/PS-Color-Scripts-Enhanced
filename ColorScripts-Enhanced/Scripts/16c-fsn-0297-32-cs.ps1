@@ -5,7 +5,7 @@
 # Source SHA-256: c9c72a0752f469bcca700dc670a6f3cab1bca7e95281b893b081d5a4be9e0b2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 32-CS.ANS by ezy (fusion\fluid); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cream soda
 # SAUCE Author: ezy
 # SAUCE Group: fusion\fluid
@@ -29,5 +29,4 @@ Write-Host '
          [1;31;43m [0;1;31;40m████▄[0m ▀[1;47m▀[0;1;40m█████[0;1;47m▄[0;1;40m▄[0m▄ [33m▀[0;1;31m▀[0;1;31;43m▀[0;1;31;40m████▀[0m [1;47m [0;1;40m█████▌[0;1;31;40m▄[0m▐[1;47m▐[0;1;40m██[0;1;47m█[0m▄[1m [0;33m▀[0;1;31m▀[0m ▄[1m▄[0;1;47m▄[0;1;40m███[0;1;45m███[0;1;47m▀[0;1;40m▀[0;1;30;40m [0;33m▄[0;1;31;43m▄[0;1;31;40m████[0m
          [1;31;43m [0;1;31;40m██[0;1;31;43m█[0;1;31;40m███▄[0;1;37;40m [0m▀[1;47m▀[0;1;40m███████[0;1;47m▄[0;1;40m▄[0m▄ [1;31m▀[0m ▄[1m▄[0;1;47m▄[0;1;40m█████[0;1;47m▀[0m [1;31;43m▀[0;1;31;40m▄[0m [1;47m [0;1;40m████[0;1;47m▄[0;1;40m▄[0;1;47m▄[0;1;40m███[0;1;47m█[0;1;40m█[0;1;47m▀[0;1;40m▀[0m▀ [33m▄[0;1;31m▄[0;1;31;43m▄[0;1;31;40m██████[0m
          [33m▀[0;1;31m▀▀▀▀▀▀▀▀ [0m ▀[1m▀[0;1;47m▀[0;1;40m███████████████[0;1;47m▀[0;1;40m▀[0m▀ [1;31m [0;33m▀[0;1;31m▀ [0m ▀[1;47m▀[0;1;40m██████[0;1;47m█▀[0m▀   [33m▀[0;1;31m▀▀▀▀▀▀▀▀▀▀[0m
-                        ▀[1m▀▀▀▀▀▀▀▀▀▀▀[0m▀            ▀[1m▀▀▀▀[0m▀
-                        [1m.[0m [1m..cr[0;1;47mea[0;1;40mm[0;1;31;40m [0;1;37;47ms[0;1;37;40mo[0md[1ma.[0m  [1m.[0m'
+                        ▀[1m▀▀▀▀▀▀▀▀▀▀▀[0m▀            ▀[1m▀▀▀▀[0m▀[0m'

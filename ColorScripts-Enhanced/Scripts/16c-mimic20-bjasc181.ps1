@@ -5,12 +5,12 @@
 # Source SHA-256: 08aaddc8307781c371191e10c3c7df633babdb509c629619faca79fb35a1ab51
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bjasc181.ans by Black Jack (mimic20); released in mimic20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
 Write-Host '
-       The [1mMIMICS        [0m                              Hey Ho, Let''s Go!
+           [1m              [0m                                               
           [1m         [0m   [1m                    [0m
                      [1m   E       T    E    R    N  [0m
                  [1mA            [0m     [1m [0m    [1m  [0m      [1m    A    [0m     [1m [0m
@@ -36,6 +36,4 @@ Write-Host '
          [1m [0m  [1m      [0m    [1;30m`[0;35m└$[0;1;30m,[0m     [35m   [0;1;35m┘''[0;35m [0;1;35m┘[0;35m [0;1;35m''┘[0m         [1;30m''²[0;35m┘/  [0;37m      [0;1;33m/|\[0m
          [1mC[0m  [1m      [0m                                   [1m      [0m [1mA[0m
             [1mK [0m  [1;33m\|/[0m  [1mD              [0m              [1m      M  [0m
-                [1;33m/|\[0m      [1mR  .   S    H    I    Z    U[0m
-
-                one two three four![0m'
+                [1;33m/|\[0m      [1mR  .   S    H    I    Z    U[0m'

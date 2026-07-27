@@ -5,7 +5,7 @@
 # Source SHA-256: 1e0a1de2b470757d04acc0aa8aa3b3ee9b6e467808792f8d45adcd067b0c33d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-TDS.ANS by abstrakt (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tds
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -54,7 +54,4 @@ Write-Host '
 [1;30m$[0m [1;30m.;[0m [33m`4┐[0;37m  [0;1;37m`4b [0m\[1m   [0;33m`4┐.[0;37m [0;33m`4┐`4[0;1;31m$[0;33m$┐. `└Yj┐.  ~`''`  `4[0;1;31m$[0;33m$;[0;37m   4┘''  [0;33m.┌$[0;1;31m$[0;33m`[0;1;30m d$$ `$ $b┘''[0m  [33m,[0m
 [1;30m$[0m [1;30m$l   [0;33m`└ .[0;37m [0;1;37m`└┐[0m `    [33m`''[0;37m   [0;33m` `└*↕┘`    ~"[0m         [33m7''    _. d$$[0;1;31m$$[0;33m$[0;37m  [0;1;30m4$$bd$ $$b.[0m [33m4[0;1;31m$[0m
   [1;30m"''[0m           [1m`[0m                                          [33m`''''`4$.[0;37m  [0;1;30m4jP$$ $`4$b.[0;33m`[0m
-[37m  [0;1;37mthe[0;36m [0;1;32md[0;32mown[0;37mward [0;1;30mspiral[0m -[36m [0;1;37m709[0m.[32m834[0;37m.[0;1;30m6082[0m - sysop:[1mR[0;1;32mA[0;32mi[0;1;30mN[0m - [1m500[0mmb [1;30mplus[0m [33m`└/.[0;37m   [0;1;30m$$ $  `4$7[0m
-
-
-[30min 95 i downloaded xxx pics from this board and sold printouts of them at school[0m'
+[37m  [0;1;37m   [0;36m [0;1;32m [0;32m   [0;37m     [0;1;30m      [0m  [36m [0;1;37m   [0m [32m   [0;37m [0;1;30m    [0m         [1m [0;1;32m [0;32m [0;1;30m [0m   [1m   [0m   [1;30m    [0m [33m └  [0;37m   [0;1;30m          [0m'

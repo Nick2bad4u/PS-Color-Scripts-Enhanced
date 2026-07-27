@@ -5,7 +5,7 @@
 # Source SHA-256: b53c027bebeba07d67e756859ddaa2f518c33b9c43f86ad726c5c0cb7ead76e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-loc.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: locus
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
@@ -34,7 +34,7 @@ Write-Host '
  locus[1;30m/[0mlure[1;30m/[0msynth[1;30m/[0mpoly[1;30m/[0mshaolin  [35m$:[0;37m [0;33ml$[0;37m$[0;33m$[0;37m$$$[0;33m$[0;37m$[0;33m$$.[0;1;30mY 7 7,[0;33m└$$$$$:[0;37m [0;35m7[0;31m┘[0;37m [0;33md$$[0;1;31m$[0;33m$[0;1;31m$[0;33m$[0;1;31m$$[0;33m$$$[0;1;30mP[0m
                                 [35m''[0;1;30m`[0m [33m;$$[0;37m$[0;33m$[0;37m$[0;33m$[0;37m$[0;33m$$$$. \ \. `$$$$   ,$$[0;1;31m$$[0;33m$[0;1;31m$[0;33m$[0;1;31m$[0;33m$$$P[0;1;30m`[0m
   [1;30mgreets [0mavg, aes, cryo, portia   [33m/''$$$$$$P''.d$$$$$$$$$$$$''[0;1;30m┌[0;33ms$$[0;1;31m$[0;33m$$[0;1;31m$$[0;33m$$$$P[0;1;30m`[0m
-  [1;30mshout out [0mall straya artists    [33mY┐[0;1;30m`4[0;33m$$$$ :$$$$$$$$$$$$$P[0;1;30md[0;33m$$[0;1;31m$$[0;33m$[0;1;31m$[0;33m$$$$j[0;1;30m*`[0m
+  [1;30m          [0m                      [33m ┐[0;1;30m  [0;33m                    [0;1;30m [0;33m  [0;1;31m  [0;33m [0;1;31m [0;33m     [0;1;30m  [0m
                                    [33m''└[0;1;30m `[0;33m└4$\ W$$$$$$$$$$$$/$$$$$j$7*[0;1;30m²`[0m  [1;30m_abs[0mLAZ
 [32m                     ,[0;37m    [0;32m.┌b┘`[0;37m [0;1;30m.┌j$$b┐. [0;33m`''[0;1;30m,[0;33m`4$$$$$$$$j[0;1;30mP``^''[0;33m''`[0;1;30m~[0m           [32m┌,.[0m
 [37m  [0;1;32m$[0;32mb[0;35m  [0;32m.\[0;37m  [0;32mjb[0;1;32m┐\[0;32m7┘ /S[0;1;32ms[0;32md$  j$[0;1;32m$$[0;32m7`  [0;1;30m`  /┘`   ,d$b┐[0;33m`''└***┘[0;1;30m''[0m  [32m.db  .┐,b.[0;37m [0;32m`└b.\` 4[0;1;32m*[0;32m┘''[0m

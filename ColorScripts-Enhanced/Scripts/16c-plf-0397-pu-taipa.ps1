@@ -5,7 +5,7 @@
 # Source SHA-256: 7e16d29db7ed3a021811e4a8fb0401d502190d38bdc63fc8fae149beea91f16b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PU-TAIPA.ANS by puppiluppan (Gummiboll ansi); released in plf-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tai pak
 # SAUCE Author: puppiluppan
 # SAUCE Group: Gummiboll ansi
@@ -30,15 +30,9 @@ Write-Host '
        [31m    [0;35m▀▀▀▀[0m          [35m▀▀▀▀▀[0m       [31m [0;35m▀[0;1;33m▀[0;35m▀[0;37m  [0;31m  [0;35m▀▀▀███▄[0;31m [0;1;33m▀█▄▄[0m  [31m      [0m
                                            [1;33m▀▀██▄▄▄[0m [35m▀▀[0;1;33m ░[0m  [1;33m▀▀▄[0;31m [0m
                 [31mt a i  -  p a k[0m   [31m        [0;37m [0;1;33m▄▀▀[0m      [31m     [0m   [1;33m▀▄[0m
-                                          [1;33m█[0m [1mgod mat och dryck [0;1;33m█[0m
-                                         [1;33m▐▌[0;1;37m   gör människan  [0;31m [0;1;33m▐▌[0m
-       [1;30möppet: månd-tors  11.00-23.00[0m     [31m [0;1;33m█[0m  [1mglad och lycklig[0;31m [0;1;33m█[0m
+                                          [1;33m█[0m [1m                  [0;1;33m█[0m
+                                         [1;33m▐▌[0;1;37m                  [0;31m [0;1;33m▐▌[0m
+       [1;30m                             [0m     [31m [0;1;33m█[0m  [1m                [0;31m [0;1;33m█[0m
               [1;30mfred.      11.00-24.00[0m       [1;33m▀[0m▄[1m [0m  [1mLi Tai Pak[0m  ▄[1;33m▀[0m
               [1;30mLörd.      12.00-24.00[0m         [1;33m▀▀[0m▄[1;33m▄[0m▄[31m     [0;1;33m▄▄[0m▄[1;33m▀▀[0m
-              [1;30msönd.      12.00-22.00[0m              ▀[1m▀▀▀[0m▀[31m [0m
-
-           [31m [0m
-
-      [37mrestaurant Tai Pak - arkivgatan 4 - beställning 031-201662(61)[0m
-
-               [1;37m(fan va dålig jag blitt på ansi :) hahaha)[0m'
+              [1;30msönd.      12.00-22.00[0m              ▀[1m▀▀▀[0m▀[31m [0m'

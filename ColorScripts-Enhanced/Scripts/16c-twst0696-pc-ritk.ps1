@@ -5,7 +5,7 @@
 # Source SHA-256: a07b43434c5e691bbc75f47bc6cc4600dbb62e8be6a0fc9031a3ed8c15656080
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-RITK.ANS by putrid carcass (twisted); released in twst0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ritual shit
 # SAUCE Author: putrid carcass
 # SAUCE Group: twisted
@@ -16,11 +16,11 @@
 
 Write-Host '
 [1;30m∙  ▄█▓▄ ▄[0;1;30;47m▓[0;1;30;40m ▄[0;1;30;47m█▓[0;1;30;40m▄ ▄[0m
-[1;30;40m: ██ █[0m░[1;30m ▄▄  ██ ▄[0m   [1;30mritual collection of stuff i did, like only 2 things in[0m
+[1;30;40m  ██ █[0m░[1;30m ▄▄  ██ ▄[0m   [1;30m                                                       [0m
 |[1;30m [0;1;30;47m▓[0;1;30;40m█    ██  ▀█▄[0m░[1;30m▀  here, dont cry angst=][0m   %pc!
 [1;37m░[0m-[1;30m---+-──-+--────%--───---─────$--∙ ∙  ∙[0m       [1;30m∙[0m
 
-1> just a menu template, kinda weird, but i like that style=]
+                                                             
 
     [32m▄[0;1;33;42m░░[0;32m▄▄▄▄[0;1;32;42m░▒[0;1;32;40m█▄[0;32m▄  ▄[0;1;37m█[0;1;32m█[0;32m▄ [0;37m [0;1;30m░░[0m [32m▄▄ [0;37m [0;1;30m░░[0m   [32m  ▄[0;1;32m▄[0;32m▄[0;37m [0;32m  [0;37m [0;1;32m▄▄[0;32m▄  ▄▄[0;1;32m▄▄▄▄▄▄[0;32m▄  [0m   [32m▄[0;1;32m▄▄[0m
    [1;33;42m░░[0;32m▌▄[0;1;32m▄▄[0;32m [0;1;32m▀▀[0;1;32;42m▓▓[0;1;32;46m░▀[0;1;32;42m▄[0;32m▄ [0;1;32m▐[0;1;32;42m▀[0;1;32;46m░[0;32m█[0m   [32m▐[0;1;32;42m▓▓[0;32m█  [0;37m [0;32m░[0m   [32m▐[0;1;32;42m▒▓▓[0;32m▌  ▐[0;1;32;42m░▓▓[0;32m▌▐[0;1;32;42m░▒▓[0;1;32;46m▄█[0;1;32;40m▀█[0;1;32;42m▓▓▒[0;32m▌  ▐[0;1;32;42m▒▓█[0;32m▌[0m
@@ -35,7 +35,7 @@ Write-Host '
 [1;30m▒▒░▀[0m░[1;30m░ [0;36mmain[0;37m\[0;36mmenu[0;37m [0;1;30m ▀[0m  [1;32mb[0m           [1;32mi[0m             [1;32mp[0m            [1;32mw[0m              [1;30m░░░▒▒[0m
 [1;30m░░[0m  [1;30m▀░▄[0m        [1;30m ░▀[0m   [1;32mc[0;36mommands[0m    [1;32mj[0m             [1;32mq[0m            [1;32mx[0m                [1;30m ░░[0m
 [1;30m░[0m       [1;30m▀▀▀ ▀░▀▀[0m     [1;32md[0m           [1;32mk[0m             [1;32mr[0m            [1;32my[0m                  [1;30m░[0m
-[1;30m  ░[0m      [1;30m   [0m         [1;32me[0m           [1;32ml[0;36mike [0m         [1;32ms[0m            [1;32mz[0m                [1;30m░[0m
+[1;30m  ░[0m      [1;30m   [0m         [1;32m [0m           [1;32m [0;36m    [0m         [1;32m [0m            [1;32m [0m                [1;30m░[0m
 [1;30m ░▒[0m                  [1;32mf[0m           [1;32mm[0m             [1;32mt[0;36mhis[0m         [1;32m![0m             [1;30m░[0m [1;30m░▒░ [0m
 [1;30m░▒▓██▄▄▄[0m             [1;32mg[0m           [1;32mn[0m             [1;32mu[0m           [1;32m/![0m          [1;30m▄▄▄███▓▒░[0m
 [1;30m▒▓█[0m░░░░[1;30m█████▓██████████████████[0m░░[1;30m███████████████████████████████████████████▓▓▓▒[0m
@@ -43,7 +43,7 @@ Write-Host '
 [1;30m  ▀▓▓▀ [0m     [1;30m░ [0m                                                           [1;30m  [0m  [1;30m░[0m
 
 [36m-----[cut here]-----------------------------------------------------------------[0m
-[37m2> just a font, kinda cheesy, did it along time ago, oh well, use it=][0m
+[37m                                                                      [0m
 
 
                               [37m  ▄▄▄[0;30;47m░░[0;37;40m▄▄▄▄▄▄▄[0;1;33;40m▄▄[0m▄[1;33m▄[0m
@@ -59,5 +59,4 @@ Write-Host '
 [32m [0;37m [0;32m░[0;30;42m▓▓[0;32;40m░[0;1;30;40m░░[0;32m       [0;37m [0;30;42m▓▓▓▓[0;37;40m [0;1;33;40m   [0m  [30;42m▓▓▓▓[0;1;30;40m░░[0;1;35;40m [0;30;42m▒▒▒▒[0;1;35;40m [0m  [30;42m▓▓▓▓[0;37;40m  [0;30;42m▒▒▒▒▒▒[0;37;40m  [0;30;42m▓▓▓▓[0;37;40m  [0;30;42m▒▒▒▒▒▒[0;37;40m  [0;30;42m▓▓▓▓[0;37;40m  [0m
 [37;40m [0;30;42m▒▒▒▒▒▒[0m     [32;40m   [0;30;42m▒▒▒▒▒▒[0;32;40m [0;1;33;40m  [0;32m [0;30;42m▒▒▒▒▒▒[0;37;40m [0;30;42m░░░░░[0;32;40m▓[0;30;40m [0;30;42m▒▒▒▒▒▒[0;37;40m [0;30;42m░░░░░[0;32;40m▓[0;30;40m [0;30;42m▒▒▒▒▒▒[0;32;40m [0;30;42m░░░░░[0;32;40m▓[0;30;40m [0;30;42m▒▒▒▒▒▒[0;37;40m [0m
 [37;40m [0;30;42m░░░░░[0;32;40m▓[0m     [32;40m   [0;30;42m░░░░░[0;32;40m▓[0;37;40m [0;1;33;40m  [0m [30;42m░░░░░[0;32;40m▓[0;37;40m [0;32;40m█████▀[0;37;40m [0;30;42m░░░░░[0;32;40m▓[0;37;40m [0;32;40m█████▀[0;37;40m [0;30;42m░░░░░[0;32;40m▓[0;37;40m [0;32;40m█████▀[0;37;40m [0;30;42m░░░░░[0;32;40m▓[0;37;40m [0;32;40m▄████[0m
-[37;40m [0;32;40m▀██[0;32;47m░░[0;1;32;40m▀[0m        [32m▀████▀[0;37m [0;1;33m  [0m [32m▀████▀▀▀▀▀[0;37m [0;1;33m  [0m [32m▀████[0;1;32m▀[0;32m▀▀▀▀[0;37m    [0;1;32m▀[0;32m███[0;32;47m░[0;32;40m▀▀▀▀▀[0;1;30;40m░░[0m  [1;32m▀[0;32m████▀▀▀▀▀ [0m
-                                                                        [1;33m([0;1;32mpew[0mcar[1;33m)[0m'
+[37;40m [0;32;40m▀██[0;32;47m░░[0;1;32;40m▀[0m        [32m▀████▀[0;37m [0;1;33m  [0m [32m▀████▀▀▀▀▀[0;37m [0;1;33m  [0m [32m▀████[0;1;32m▀[0;32m▀▀▀▀[0;37m    [0;1;32m▀[0;32m███[0;32;47m░[0;32;40m▀▀▀▀▀[0;1;30;40m░░[0m  [1;32m▀[0;32m████▀▀▀▀▀ [0m'

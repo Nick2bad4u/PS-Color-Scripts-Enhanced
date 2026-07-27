@@ -5,12 +5,12 @@
 # Source SHA-256: dc97691f73ce72e58e621fbc4a089842234b249de2739c25f6c220bdd2417853
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PHO-IS01.ANS by Phobia (glue-02); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
-phobia([1mglue[0m]  [32m [0m                                                 [32m░░[0m
+       [1m    [0m   [32m [0m                                                 [32m░░[0m
       [32m░░[0m      [32m ░[0;37m [0;32m▄▄▄█▌[0;1;33m▄▄[0m        [1;33m▄▄[0;32m▐█▄▄▄[0;37m [0;32m░[0m    [32m░░▄▄▄█▌[0;1;33m▄▄[0m        [32m▄▄▓▓█▌[0;1;33m▄▄[0m
      [32m░[0;1;32m░[0;32m▓▌[0;1;33m▄▄[0m   [32m▄▓[0;1;32m░[0;32m███▀▌[0;1;33;42m▀▌[0;32m██▄[0;37m  [0;32m▄██[0;1;33;42m▐▀[0;32m▐▀███[0;1;32m░[0;32m▓▄[0;37m  [0;32m▄▓▓███▀▌[0;1;33;42m▀▌[0;32m██▄[0;37m  [0;32m▄█████▀█▌[0;1;33;42m▓▀[0;32m█▌[0;37m [0m
       [1;32;42m  [0;32m▌[0;1;33;42m▀▌[0;32m█[0;37m [0;32m▐██▓███[0;37m [0;32m▐█████▌▐██████[0;37m [0;32m▐██▓██▌▐█████░[0;37m [0;32m██████▌▐██████[0;37m [0;32m███▀█▄[0;37m [0m
@@ -28,5 +28,4 @@ phobia([1mglue[0m]  [32m [0m                                                
                                                        [33m|[0;37m █▄▄ █▄█ █ █ █   █▄█ [0m
                                                        [33m:[0;37m ▄▄█ █   █▀█ █▄█ █▄▄[0m
                                                        [33m;[0m
-                                                       [33m.[0m
-                                                       [33m [0m'
+                                                       [33m.[0m'

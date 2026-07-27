@@ -5,7 +5,7 @@
 # Source SHA-256: e7dc44d66055ac8e3e8d550ba4c38b385ee953ad8c3d9e6a8b4290713ddea19f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AL-FLATL.ANS by Animal (ACiD Productions); released in acdu1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flatlined Reality
 # SAUCE Author: Animal
 # SAUCE Group: ACiD Productions
@@ -45,13 +45,13 @@ Write-Host '
              [36;40m░[0m                                         [36;40m░[0m
                            ─[1m─[0m─ [1mFlatLined Reality [0m─[1m─[0m─
 
-               ─[1m─[0m─ S[1mysops [0;36m: [0;37mN[0;1;37mailz [Union] and [0mN[1meurotic [Union] [0m─[1m─[0m─
+               ─[1m─[0m─  [1m      [0;36m  [0;37m [0;1;37m                 [0m [1m                [0m─[1m─[0m─
 
- U[1mnion World Head Quarters [0;36m/ [0;37mD[0;1;37mark Distrobution [0;36m/ [0;37mP[0;1;37mursuit [0mD[1mistrobution [0;36m/ [0;37mB[0;1;37mlur H[0mQ
- N[1mation Distrobution [0;36m/ [0;37mU[0;1;37mnionNet main Hub [0;36m/ [0;37mP[0;1;37mrimeNet node [0;36m/ [0;37mN[0;1;37mokturnal CanadianH[0mQ
- F[1mreefall Internation Node [0;36m/ [0;37mF[0;1;37mibre Emag Canadian Spoon [0;36m/ [0;37mC[0;1;37murroption Emag Membe[0mr
- C[1martharsis Emag Nothern HQ [0;36m/ [0;37mD[0;1;37meadly Force Emag Member [0;36m/ [0;37mT[0;1;37merbium Emag Member :)[0m
+  [1m                         [0;36m  [0;37m [0;1;37m                 [0;36m  [0;37m [0;1;37m       [0m [1m            [0;36m  [0;37m [0;1;37m     [0m 
+  [1m                   [0;36m  [0;37m [0;1;37m                 [0;36m  [0;37m [0;1;37m             [0;36m  [0;37m [0;1;37m                  [0m 
+  [1m                         [0;36m  [0;37m [0;1;37m                         [0;36m  [0;37m [0;1;37m                    [0m 
+  [1m                          [0;36m  [0;37m [0;1;37m                        [0;36m  [0;37m [0;1;37m                     [0m
 
                        ─[1m─[0m─ [1mNew Number [0;36m: [0;1;37m613[0;36m-[0;1;37m824[0;36m-[0;1;37m7375 [0m─[1m─[0m─
 
- ─[1m─[0m─ A[1mnsi by Animal of AC[0mi[1mD [0;36m/ [0;1;37mUhhh[0m, [1mdont u think Pnakotic rules and shit :) [0m─[1m─[0m─[0m'
+ ─[1m─[0m─  [1m                   [0m [1m  [0;36m  [0;1;37m    [0m  [1m                                        [0m─[1m─[0m─[0m'

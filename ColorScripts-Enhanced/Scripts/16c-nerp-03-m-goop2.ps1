@@ -5,7 +5,7 @@
 # Source SHA-256: 94acc840f852d144e27cacb2624601750807a1243ce487072253ee1e926b14a6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M-GOOP2.ANS by milkmang (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Goop deux
 # SAUCE Author: milkmang
 # SAUCE Group: nerp
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1mmilkmang[0m([1mNerp[0m)
-[1mfor goOp²[0m
+[1m        [0m [1m    [0m 
+[1m         [0m
                                  [31m ▓▓█▄ ███▓░[0m   [31m░▓██████▓░[0m
                                   [31m ▐██▌███▌[0m     [31m▐██████▌[0m
                                   [31m ▐██████▌[0m     [31m▐██████[0m
@@ -35,6 +35,4 @@ Write-Host '
 [1;47m▓▓[0;1;40m████████[0;1;47m▄[0;1;40m▄[0m▄▄▄[32m [0;1;37m [0m▄▄▄[1m▄▄[0;1;47m▄▄[0;1;40m██[0;1;47m▓▓░ [0;1;34;47m░▓[0m [31m▓█[0;1;31;41m     [0m   [31m   ██████▌ [0;37m▄▄▄▄▄[0;1;37m▄[0;1;37;47m▄[0;1;37;40m████████████████[0;1;37;47m▓▓[0m
 [1;47m▐[0;1;40m███████████[0;1;47m█▓░[0m▌▐[1;47m░▓▓[0;1;40m████████[0;1;47m▓[0m▌▀[1;32m [0m [31m█[0;1;31;41m     [0;31m█[0m     [31m░████▌▓▌ [0;37m▀▐[0;1;37;47m░░▓▓[0;1;37;40m██████████████████[0;1;37;47m▌[0m
 ▀▀▀                            [31m░▐█[0;1;31;41m  [0;31m███▓░[0;37m  [0;31m ▓▓███▀▐█▓░[0m                      [37m▀▀▀[0m
-                                   [1;31m [0;31m░░░░░[0m         [31m░░░░[0m
-
-                   [37mWelcome to goOp deux, Stockholms own oas[0m'
+                                   [1;31m [0;31m░░░░░[0m         [31m░░░░[0m'

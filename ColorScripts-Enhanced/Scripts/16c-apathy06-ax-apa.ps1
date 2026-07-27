@@ -5,7 +5,7 @@
 # Source SHA-256: 4a2ee91f0718b49387494133c8575628e65da48c1e0fb376ad092e2891a1dcc7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX-APA.ANS by Apox (Apathy); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Apathy
 # SAUCE Author: Apox
 # SAUCE Group: Apathy
@@ -30,7 +30,4 @@ Write-Host '
  [1;30m▀▓░[0;32m▐[0;1;32m█[0;1;32;42m█[0;1;32;47m▓▒▓[0;1;32;42m██▌[0m    [1;32m▒[0;1;32;42m███[0;1;32;46m▓[0;36m▓[0;1;32;46m▓[0;1;32;42m▀[0;32m▀░▀[0;1;32;42m▀█████[0;1;32;40m▓▒░[0m [1;30m███████[0m [1;30m▓▀ ▄[0;32m▐[0;1;32;42m██[0;1;32;47m▓▓▓[0;1;32;42m██▌[0m   [32m▐[0;1;32m▓[0;1;32;42m███[0;1;32;46m▓▒▓[0;1;32;42m▀[0;32m▀[0;37m [0;1;30m▐▓▒▀[0m
   [1;30m░[0m   [32m▀▀[0;1;32m▀▓▀▀[0;32m▀▀[0;37m [0;1;32m■[0m [1;32m░▀▀[0;32m▀[0;34m [0;36m░[0;37m  [0;1;30m▐▄▄▄[0m [1;30m▄▄[0m [1;30m▄[0;32m [0;1;32m░[0;32m  [0;1;30m▐█[0m░░[1;30m██▌░▒▒▓█▄[0m [32m▀[0;1;32m▀▀▓▀▀[0;32m▀▀■[0;37m [0;32m▀[0;1;32m▒[0;1;32;42m▀[0;1;32;40m▀[0;32m▀[0;37m [0;1;30m▄▄▄▄[0m [1;30m▄▒[0m
                  [1;32m░[0m                 [32m  [0m   [1;30m▀▀▀▀[0m                  [1;32m░▒░[0m         [1;30m░[0m
-     [1mapathy. southern cooking done the way it should be.[0m       [1;32m░[0m   [33max[0;32m<[0;1;30mapathy[0;32m>[0m
-          [1;37m                                                                 [0m
-                                  [1m                                  [0m
-[30mi must say, this is a fine looking logo.. should be in the ice pack.. h0h0h0 =)[0m'
+     [1m                                                   [0m       [1;32m░[0m   [33m  [0;32m [0;1;30m      [0;32m [0m'

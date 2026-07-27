@@ -5,7 +5,7 @@
 # Source SHA-256: abf5559b9a0df86cc8f93ae9628c6cd10f567dd7fe561e7fc43808fb472054e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GT-STAFF.ANS by Glasnost (Wolfpack); released in wolf0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Binary Realm Ad
 # SAUCE Author: Glasnost
 # SAUCE Group: Wolfpack
@@ -53,15 +53,12 @@ Write-Host '
                             [33m░[0m
                     [1;37mB [0;1;30m■ [0;1;35mI [0;1;30m■ [0;35mN [0;1;30m■ [0;35mA [0;1;30m■ [0;35mR [0;1;30m■ [0;35mY [0;1;30m■ [0;35mR [0;1;30m■ [0;35mE [0;1;30m■ [0;35mA [0;1;30m■ [0;1;35mL [0;1;30m■ [0;1;37mM[0m
 
-                      [1;37mO[0;1;35mp [0;1;30m■ [0;35mG[0;1;30mLaSNoST ■ CoSysOp ■ SouND MaS[0;35mT[0;1;35me[0;1;37mR[0m
+                      [1;37m [0;1;35m  [0;1;30m■ [0;35m [0;1;30m        ■         ■          [0;35m [0;1;35m [0;1;37m [0m
 
-                       [1;37mo[0;1;35m-[0;35m7 [0;1;30mDaY WaReZ ■ H/P/A/C/C/V ■ Do[0;35mo[0;1;35mR[0;1;37mS[0m
+                       [1;37m [0;1;35m [0;35m  [0;1;30m          ■             ■   [0;35m [0;1;35m [0;1;37m [0m
 
-                         [1;37ma [0;1;35mG[0;35mi[0;1;30mG oF HD FiLeS + NiGHT oW[0;35mL [0;1;35m1[0;1;37m3[0m
+                         [1;37m  [0;1;35m [0;35m [0;1;30m                        [0;35m  [0;1;35m [0;1;37m [0m
 
-                      [1;37mN[0;1;35mo [0;35ma[0;1;30mNNoYiNG NuP ■ 14oooBPS ■ 28.8 S[0;35mo[0;1;35mo[0;1;37mN[0m
+                      [1;37m [0;1;35m  [0;35m [0;1;30m            ■          ■       [0;35m [0;1;35m [0;1;37m [0m
 
-                      [1;37m7 [0;1;30m■ [0;1;35mo [0;1;30m■ [0;35m3 [0;1;30m■ 3 ■ 6 ■ o ■ 1 ■ [0;35m5 [0;1;30m■ [0;1;35m7 [0;1;30m■ [0;1;37m4[0m
-
-                              [1;37mT[0;1;35mH[0;35mi[0;1;30mS ANSi By GLaSN[0;35mo[0;1;35mS[0;1;37mT[0m
-                             [1mW[0;1;35mo[0;35ml[0;1;30mfpack production[0;35ms[0;37m ([0;1;35mC[0;1;37m)[0m'
+                      [1;37m7 [0;1;30m■ [0;1;35mo [0;1;30m■ [0;35m3 [0;1;30m■ 3 ■ 6 ■ o ■ 1 ■ [0;35m5 [0;1;30m■ [0;1;35m7 [0;1;30m■ [0;1;37m4[0m'

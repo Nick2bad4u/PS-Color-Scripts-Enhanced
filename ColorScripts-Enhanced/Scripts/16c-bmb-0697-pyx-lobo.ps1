@@ -5,7 +5,7 @@
 # Source SHA-256: e67b0c8f1af61fb2cf8bd0e162db431bbc84129c409855fefa709f1dae40ec84
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-LOBO.ANS by pyx! (bamboosh!); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lobo comicrip
 # SAUCE Author: pyx!
 # SAUCE Group: bamboosh!
@@ -58,8 +58,4 @@ Write-Host '
              [1;30;40m▄[0m   [36m▐[0;1;36;46m▐████[0;36m█  █[0;1;36;46m███▌[0;36m▌▐ ▐[0;1;36;46m▐██▌[0;36m▌ [0;36;46mx[0;36;40m  █[0;1;36;46m▓███▌[0;36m▌▐▌[0;30my[0;36m █[0;1;36;46m████[0;36;46my[0m    [1;30;40m▀[0m
                   [36m█[0;1;36;46m██▓▀[0;36m█▄▄█[0;1;36;46m▀▀▀[0;36m█ █ █[0;1;36;46m▐██▌[0;36m▌▐[0;1;36;46m▄[0;36m▄[0;1;36;46m▄███▓▀[0;36m█ ▐▌[0;30mx[0;36m █[0;1;36;46m▀█▓▀[0;36;46mx[0m    [37;40m▐▌[0m
              [37;40m▐▌[0;30;40mpyx[0;36;40m▀▀▀▀▀▀▀[0;1;36;40m░[0;36m ▄▄▄▄▄█▄[0;1;36;46m ▀██▀[0;36m▌▀█[0;1;36;46m▀[0;36m█▀▀▀▀[0;1;36m░[0;36m ▄[0;1;36;46m█▄[0;36m▄▄[0;1;36;46m░░[0;36m█▀▀▀▀[0m    [1;37m█[0m
-              [1m▄▄ ▄▄[0m  ▀▀[1;30m▀[0m      [1;36m░░[0m [36m▀▀▀▀▀▀▀[0m   [37m     [0;36m▀▀▀▀▀[0m     [37m▄▄[0;1;37m▄[0m [1m▀▀[0;36m [0;37m [0;1;37m▀[0m
-
- Have you seen the comic "Lobo"? If not, this is the guy who rips your
- guts out, sets your house on fire and likes to get blown up. The comic
- is pretty cool, so go out and read it today! [1;34mpyx[0m did this ansi ofcourse[0m'
+              [1m▄▄ ▄▄[0m  ▀▀[1;30m▀[0m      [1;36m░░[0m [36m▀▀▀▀▀▀▀[0m   [37m     [0;36m▀▀▀▀▀[0m     [37m▄▄[0;1;37m▄[0m [1m▀▀[0;36m [0;37m [0;1;37m▀[0m'

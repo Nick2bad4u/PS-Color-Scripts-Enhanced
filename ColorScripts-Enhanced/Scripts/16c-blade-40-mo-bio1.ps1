@@ -5,7 +5,7 @@
 # Source SHA-256: 08e5f33da50bd1de079bca034dbbf1f4b36b9a4a2f6348f32285c1736a4190fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MO-BIO1.ANS by magnatOp (blade productions 97); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bio
 # SAUCE Author: magnatOp
 # SAUCE Group: blade productions 97
@@ -31,7 +31,7 @@ Write-Host '
 [33m░[0m                 [30;46m▓[0;1;36;46m▀▀[0m       [30;43m▓▓[0m             [1;30;40m▀▀▀▀▀[0m [1;30m▀▀▀▀▀▓▓▀▀▀▀▀▀▀▀▀▀▀▀[0m  [33m▀▀▀[0;37;43m░░[0;33;40m▀▀[0m
                                                       [1;30;40m░░[0m                 [30;43m▓▓[0m
 [37;40m------( clipXXXor ) -----[0m
-[37;40muhm.. greetz guys.  I guess this is elite that I finally did empty his logo..[0m
-[37;40malthough I still have like 4 more to go or something.. dunno.. biohazard is fun[0m
-[37;40mto fontize anyway.. uhm.. go rile! :) greetz fv, and fl.. :)[0m
+[37;40m                                                                             [0m
+[37;40m                                                                               [0m
+[37;40m                                                            [0m
 [37;40m---_+___+_+_+[0m'

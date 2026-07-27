@@ -5,7 +5,7 @@
 # Source SHA-256: 47808c5c49cbe9de266881a19094bfb5b2ef5c6f0aacfcc5cd276c74a41a15ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!AVG.ANS by sIMONkING (thelo0p^lure); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: aVG ansi logo
 # SAUCE Author: sIMONkING
 # SAUCE Group: thelo0p^lure
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                            [33mansi wont die, skurwysyny![0m
+                            [33m                          [0m
            [1;30m░░░░░░░░░░[0m                                           [32m░░░░░[0m
           [1;30m░[0;33;42m░    ░░░░░░░░░                ░░░░░░    ░░░░░░░░░░░░     ░[0m
           [1;30;40m░[0;33;42m▒░░░░▒▒[0;32;40m▀▀[0m    [32;40m▀[0;33;42m░░░░░░░░░░░░░░░░░▒▒▒▒░░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░░░░▒[0;32;40m░[0m
@@ -36,11 +36,9 @@ Write-Host '
                      [1;30m▀[0m  [1;30m▀[0m                                         [1;30m▀[0m
 
 [1;30m<<-------------------------------------------------------------------<cuthere>--[0m
-[1;30m    [0m [1;30myeah, next ansi logo... this time i drew ''avg'', for avg/lure. enjoy![0m
-     [1;30mif you want a ansi logo/block ascii or os, if you want draw with me[0m
-[1;30m     an joint, write to me: simonking@poczta.onet.pl[0m
+[1;30m    [0m [1;30m                                                                    [0m
+     [1;30m                                                                   [0m
+[1;30m                                                    [0m
 
-     [1;30mgreetings for ppl from: thelo0p ■ lure ■ revival ■ jasper ■ tus ■ mimic ■[0m
-     [1;30mimpure1940 ■ secular ■ remorse ■ bafh and rest...[0m
-
-     [1;30moff.simonking.[0m'
+     [1;30m                                ■      ■         ■        ■     ■       ■[0m
+     [1;30m           ■         ■         ■                 [0m'

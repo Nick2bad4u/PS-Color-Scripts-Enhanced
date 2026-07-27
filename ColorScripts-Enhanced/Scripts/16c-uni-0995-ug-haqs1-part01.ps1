@@ -5,7 +5,7 @@
 # Source SHA-256: 4b912dcebb09b046516f00d4019444dbaa37f4531926552db2be0f57b244aa0b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UG-HAQS1.ANS by Misfit + Number 28 (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tha hACk shACk!
 # SAUCE Author: Union Group Prod.
 # SAUCE Group: Union
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-[30mansi by da artist formerly known as sain[0;34m▄▄▄▄[0;1;34m░[0;30mm33ps from mT to: mephitopeles (ice[0m
-[30mt sinner (miSfit), with shading by[0;34m▄▄[0;34;44m [0;34;40m▀▀▀▀▀▀▀▓[0;1;34;44m░[0;44m░[0;1;34;44m░[0;34m▄░░[0;30mposer.. ;) ewheatio, bedlam,[0;37m [0m
+[30m                                        [0;34m▄▄▄▄[0;1;34m░[0;30m                                   [0m
+[30m                                  [0;34m▄▄[0;34;44m [0;34;40m▀▀▀▀▀▀▀▓[0;1;34;44m░[0;44m░[0;1;34;44m░[0;34m▄░░[0;30m                            [0;37m [0m
 [30mmephitopeles (ice) and #28.. the[0;34m▄▓▀[0;37m▄▄█▓██████▄▄ [0;34m▀[0;1;34;44m░[0;34m▄[0;30mbob da janitor, tweedle-dee,[0m
-[30mfont was done by numbatwennyate[0;34m▐█▌[0;37m▐█[0;1;30;47m░░░░[0m█[47m    [0;1;47m░▒░[0m▌[34m▐█▌[0;30mand tommy lee!![0;37m #28[0;30m<-him too[0m
+[30m                               [0;34m▐█▌[0;37m▐█[0;1;30;47m░░░░[0m█[47m    [0;1;47m░▒░[0m▌[34m▐█▌[0;30m               [0;37m    [0;30m         [0m
 [34m▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄[0;1;34m░[0;34m▄▄▄[0;37;44m░[0;34;40m▓▀▀ [0;37;40m▄[0;34;40m ▀█▄[0;37;40m▀▀[0;1;30;47m  [0m█[47m [0;40m██[0;1;47m░[0m▄▐▀▀[34m■▀▓▄▄▄▄[0;1;34;44m░░[0;34m▀▀▀▀▀█[0;1;34;44m░[0;34m▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄[0m
 [1;34;44m░[0;34m▀▀▀▀ [0;37m▄▄▄▄ [0;34m▀▀▀█████[0;1;34;44m░░[0;36;44m░[0;1;34;44m░[0;34m▀ [0;37m▒▄▄██[0;1;37;47m▄ [0m▄▄[34m▀▀■▄[0;37m ▀▀▀▀▀  ▄ [0;34m▀[0;1;34;44m░[0;34m▀▀ [0;37m▄▄▄▄▄███▄▄▄ [0;34m▀[0;36;44m░░[0;34;40m██[0;37;44m░[0;34;40m█▀▀ [0;37;40m▄ [0;34;40m▀[0;1;34;44m░░[0m
  ▄▄[47m  [0;40m████████▄▄ [0;30;44m░[0;34;40m▓▀▀▀▀ [0;37;40m▄█▓[0;1;37;47m  ░▐█▌[0m█ ▄▄▄▄▄██[1;47m   ▄[0m██▀ ▄▄█[1;30;47m▄▄▓▒░░░[0m█[1;47m▄▓▀■[0m█▄ [1;34;44m░[0;34m▀ [0;37m▒▄▄██[0;1;37;47m▄ [0m▄▄

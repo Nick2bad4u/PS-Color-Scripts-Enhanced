@@ -5,7 +5,7 @@
 # Source SHA-256: 9d0595099cf65730f222f17b532e62f213be66e490a733bfb26ae5d0037c1847
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-MGA.ANS by cD (mGA!! ;)); released in mga-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mga productionz!!
 # SAUCE Author: cD
 # SAUCE Group: mGA!! ;)
@@ -51,6 +51,4 @@ Write-Host '
 [37m    [0;34m░░▒▓██▓▒▒░▀▀▀▀████[0;1;34;44m          [0;34m███▓▓▒▒▒░[0;37m [0;34m░░▒▒▓▓▒▒░░ ░  ░░ ░░░[0;37m               [0m
 [37m    [0;34m ░░▒▓███▓▓▒▒░░▄▄▄▄ ▀▀▀▀▀▀▀███████▓▓▒▒░  ░░▒▒▒░░ ░  ░░▒▒[0;37m  [0;34m [0;37m               [0m
 [37m      [0;34m ░░▒▓████████▓▓▒▒░░░  [0;37m  [0;34m     ▀▀▀▓▓▒▒░░[0;37m      [0;34m ░░ ▓▓▒▒▒░░ [0;37m               [0m
-[37m        [0;34m ░░▒▓███████▓▓▓▒▒▒░░░           ▀▒▒▒░░░▒▒░░[0;37m [0;34m▄▄▓▓▒▒▒░░░ [0;37m              [0m
-
-[1;30m(c) copywrite 1996[0m [1;30mcD - mGA productionz[0m'
+[37m        [0;34m ░░▒▓███████▓▓▓▒▒▒░░░           ▀▒▒▒░░░▒▒░░[0;37m [0;34m▄▄▓▓▒▒▒░░░ [0;37m              [0m'

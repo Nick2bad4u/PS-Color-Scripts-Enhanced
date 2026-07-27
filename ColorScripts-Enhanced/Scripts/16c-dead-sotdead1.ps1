@@ -5,7 +5,7 @@
 # Source SHA-256: acd1cc40f4b2c102cfbd3c97bdf978d2ed3fb268dee2e960c87e89dc0af91c5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOTDEAD1.ANS by Eternal Darkness (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -56,6 +56,5 @@ Write-Host '
 [34m░▒▓████[0;1;34;44m░[0;34m██████[0;1;34;44m░[0;34m███[0;1;34;44m░▒░▒▒▓▓██▓███████▓▓▒▓▒▒░░[0;34m█████[0;1;34;44m░[0;34m████[0;1;34;44m░[0;34m████████[0;1;34;44m░[0;34m███▓████████▓▒░[0m
 
                                  [1;30m([0;1;37m416[0m/[1m391[0m.[1m1312[0;1;30m)[0m
-[1;30m [0;31m┌ SysOp∙[0;1;37mQuic[0mk Silve[1;30mr [0;1;37m[[0;1;33mA[0;1;31mC[0;31mi[0;1;31mD[0m/[1mR[0mazo[1;30mr [0;1;37m1[0m91[1;30m1] [0;31m/ [0;1;33m6oo [0;1;31mM[0;31megs [0;1;31mO[0;31mnline / [0;1;31mR[0;31munning [0;1;37mC[0melerity [31m┐[0m
-[31m [0;1;31m└[0;31m─[0;1;31m─[0;31m─ ─ [0;1;37mR[0mazo[1;30mr [0;1;37m1[0m91[1;30m1 [0;1;31mA[0;31mffiliate / [0;1;37mU[0mnRea[1;30mL [0;1;31mD[0;31mist / [0;1;37mD[0miAMON[1;30mD [0;1;31mD[0;31mist / [0;1;33m2 [0;1;31mN[0;31modes [0;1;31mHST [0;31m─ ─[0;1;31m─[0;31m─[0;1;31m┘[0m
-                      [1;31mA[0;31mNSi[0;37m∙[0;1;37mE[0mt[1;30mernal [0;1;37mD[0ma[1;30mrkness[0m∙[1;33mDeAD [0;31m- [0;1;31mO5[0;31m/[0;1;31m28[0;31m\[0;1;31m92[0m'
+[1;30m [0;31m┌       [0;1;37m    [0m       [1;30m  [0;1;37m [0;1;33m [0;1;31m [0;31m [0;1;31m [0m [1m [0m   [1;30m  [0;1;37m [0m  [1;30m   [0;31m  [0;1;33m    [0;1;31m [0;31m    [0;1;31m [0;31m        [0;1;31m [0;31m       [0;1;37m [0m        [31m┐[0m
+[31m [0;1;31m└[0;31m─[0;1;31m─[0;31m─ ─ [0;1;37m [0m   [1;30m  [0;1;37m [0m  [1;30m  [0;1;31m [0;31m           [0;1;37m [0m    [1;30m  [0;1;31m [0;31m      [0;1;37m [0m     [1;30m  [0;1;31m [0;31m      [0;1;33m  [0;1;31m [0;31m     [0;1;31m    [0;31m─ ─[0;1;31m─[0;31m─[0;1;31m┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ec00d9a76783a16fcb431a2442d52c369966f7f54c42a9b432e5bbf1a5fc2413
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: [031] We-Will-Be-Old.ans by Cyonx + Luciano (cx-timeline); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20151121
 # SAUCE Dimensions: 80x262
 # SAUCE Font: IBM VGA
@@ -52,7 +52,4 @@ Write-Host '
   [1;30m▀▄▀    ▄▀▀▀▄▀▄[0m                                                [1;30m▄▀▄▀▀▀▄    ▀▄▀[0m
   [1;30m█[0m [1;30m█[0;32m    [0;1;30m▀▄[0;32m  [0;1;30m▀█[0;32m [0;1;30m▀▄▄▄▀▄▀[0;32m    [0;1;30mBlocktronics Retro[0m [1;30mFashion[0m [32m [0;30mir[0;1;30m▀▄▀▄▄▄▀[0;30ms[0;1;30m█▀[0;32m  [0;1;30m▄▀[0;30m.19.[0;1;30m█[0;30m0[0;1;30m█[0;30m5[0m
 [37m  [0;1;30m▀▄ ▀▄▄▄▄[0;32m [0;1;30m█[0;32m   [0;1;30m▀▄▄▄[0;32m [0;1;30m▀[0m               [1;30msince 1889[0;32m [0;37m [0m           [1;30m▀▄▄▄▄▀[0;32m   [0;1;30m█[0;32m [0;1;30m▄▄▄▄▀[0;32m [0;1;30m▄▀[0m
-    [1;30m▀▄▄▄▄▄▀[0m                                           [32m [0;1;30m  [0m            [1;30m▀▄▄▄▄▄▀[0m
-    [1;30m [0m                  [37m   [0;32m [0;1;30mANSi by cyonx and luciano[0m
-
-                     [1;30mLyrics by Asafi Avidan (One day song)[0m'
+    [1;30m▀▄▄▄▄▄▀[0m                                           [32m [0;1;30m  [0m            [1;30m▀▄▄▄▄▄▀[0m'

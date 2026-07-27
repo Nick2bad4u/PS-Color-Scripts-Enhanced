@@ -5,7 +5,7 @@
 # Source SHA-256: e07410b29bf3cf4a83c54d1597c7834207da0045fdb6f4894bcf752cec55deda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JDA_HTWE.ANS by joda (deranged^eden); released in drg0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: heatwave
 # SAUCE Author: joda
 # SAUCE Group: deranged^eden
@@ -35,7 +35,4 @@ Write-Host '
              [1;30m░▀▀▀▀▀▓█▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▓▀▀▀▀░[0m
                [1;30mopped by wave░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░[0m
   [1;30m     [0m
- [1;30m============================ cut here ======================================== [0m
-
-  [1;30msorry wave, i seem to have lost your affils. if you wanna use this, add them[0m
-  [1;30myourself. that''s it, i guess. have a nice day.[0m'
+ [1;30m============================ cut here ======================================== [0m'

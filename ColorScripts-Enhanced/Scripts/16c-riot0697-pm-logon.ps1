@@ -5,7 +5,7 @@
 # Source SHA-256: 2c7ed394fccf202a563b4360c14cda540bd5fa8ade47179230b76031d14397f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-LOGON.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -34,9 +34,8 @@ $$$$$$$$$$$$$$$$[1;30m$...$$[0m$$$$$$$$$$$$$$$$[1;30m$$$......$$$[0m$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[1;30m$[0m$$$$[1;30m$$$$$$$[0m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
-[1;30mOne logon screen for [0;31mMetal Edge[0;1;30m board[0m [1;30mOr anyone who wants to use it. leave the[0m
-[1;30minits pm in it tho.[0m
-[1;30mgreets to all new MetalNet sysops, welcome aboard dudes![0m
-[1;30mlemme know if you want a pic [0m
-[1;30m282:100/100[0m
-[1;30mMetal fucking [0;1;33mRULES[0;1;35m!![0;35m!![0m'
+[1;30m                     [0;31m          [0;1;30m      [0m [1;30m                                        [0m
+[1;30m                   [0m
+[1;30m                                                        [0m
+[1;30m                             [0m
+[1;30m282:100/100[0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: 0a6963c3908c5974b4483383807098db3ab68cf45ce709c4f861622c629ad287
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cxc_mysticbbs-banners_colly_final.ans by Coaxcable (cph.artpack28); released in cph.artpack28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
-[1;41m Mystic BBS Banners Colly                                                      [0m
+[1;41m                                                                               [0m
 
 
 

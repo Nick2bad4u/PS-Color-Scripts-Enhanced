@@ -5,7 +5,7 @@
 # Source SHA-256: b145220c5479397a4e2bb637edd071962e20cdf2384fae5da677f3369089face
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WHZ-NARF.ANS by Whozie (fORCE); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Narf
 # SAUCE Author: Whozie
 # SAUCE Group: fORCE
@@ -28,7 +28,7 @@ Write-Host '
 [1;32;45m  [0;1;35;45m [0;30;45m▀▓▀[0;1;35;45m [0;1;32;45m  [0;30;45m░▓█[0;37;40m  [0;1;32;40m▀█▄▐[0;1;32;46m█[0;1;32;40m▌▄█▀[0m [1;32m [0m     [30;45m▀     ░ [0;37;40m [0;30;45m   ▄█▄ [0m                [30;45m▀   ▀       ▄█▄  [0;37;40m [0m
 [30;45m░[0;1;32;45m   [0;30;45m [0;1;35;45m [0;1;32;45m [0;30;45m▀[0;1;32;45m  [0m   [1;32;40m▀▀▀▀[0;1;32;46m██[0;1;32;40m█▀▀▀▀[0m [30;45m▀▀▀  ░ ▀     [0;37;40m  [0;30;45m   ▀   ▀[0m         [30;45m▀▀▀   ░      ▀    ▀   [0;37;40m [0m
 [30;45m▓[0m    [30;41m▓[0m         [1;32;40m▄▀[0;30;45m▓[0;1;32;40m▀[0m [1;32m▀▄ [0m       [30;45m▓[0m                                [30;45m▓[0m    [30;45m█[0m
-[37;40m [0;30;41m▌█[0;37;40m  [0;30;41m▒[0m   [1;30;40mHmmm, They say the grass is[0m [1;30mgreener on the other side,[0;30;45m▓[0;37;40m [0;1;30;40mA Force logo[0m
+[37;40m [0;30;41m▌█[0;37;40m  [0;30;41m▒[0m   [1;30;40m                           [0m [1;30m                          [0;30;45m▓[0;37;40m [0;1;30;40m            [0m
   [30;41m ▀▀░▀▀▀▀▀▀▀▀[0m                                                   [1;30;40mthats an[0m [1;30midea? [0m
   [30;41m▄░  Acheron  ▀[0m
      [30;41m▄▄▄░▄▄▄▄▄ ░[0m
@@ -42,6 +42,4 @@ Write-Host '
 [31;40m [0;37;40m [0;30;41m  [0;1;31;41m▒[0;30;41m [0;33;41m▒[0;37;40m [0;30;41m  [0;1;31;41m▒[0;30;41m [0;33;41m▒[0;37;40m [0m      [31;40m░[0;37;40m [0;31;40m▄█[0;30;41m  [0;1;31;41m▒[0;30;41m [0;33;41m▒[0;37;40m [0;30;41m  [0;1;31;41m▒[0;30;41m [0;33;41m▒[0;37;40m [0;31;40m░[0m        [31;40m [0;30;41m  [0;1;31;41m▒[0;30;41m [0;33;41m▒[0;37;40m [0;30;41m  [0;1;31;41m▒[0;30;41m [0;33;41m▒[0;37;40m [0;31;40m░[0m      [31;40m▄█[0;30;41m  [0;1;31;41m▒[0;30;41m [0;33;41m▒[0;37;40m [0;30;41m  [0;1;31;41m▒[0;30;41m [0;33;41m▒[0m
 [37;40m  [0;30;41m  [0;1;31;41m░[0;30;41m [0;33;41m▓[0;30;47m█[0;30;41m  [0;1;31;41m░[0;30;41m [0;33;41m▓[0m      [31;40m▄▄███[0;30;41m  [0;1;31;41m░[0;30;41m [0;33;41m▓[0;30;47m█[0;30;41m  [0;1;31;41m░[0;30;41m [0;33;41m▓[0m        [31;40m▄▄█[0;30;41m  [0;1;31;41m░[0;30;41m [0;33;41m▓[0;30;47m█[0;30;41m  [0;1;31;41m░[0;30;41m [0;33;41m▓[0m     [31;40m▄▄███[0;30;41m  [0;1;31;41m░[0;30;41m [0;33;41m▓[0;30;47m█[0;30;41m  [0;1;31;41m░[0;30;41m [0;33;41m▓[0m
                          [31;40m ▒[0m                                         [31;40m▒[0m
-[1;30;40mThis is for ma favorite BB[0;31m░[0;1;30mS Acheron and trippy ops Terd and weepie,[0m
-[1;30mAhh this font just thought i''d use it bit before everyone else does.[0m
-[1;30mGreets to all(there dont think i missed anyone =),.[0m'
+[1;30;40m                          [0;31m░[0;1;30m                                         [0m'

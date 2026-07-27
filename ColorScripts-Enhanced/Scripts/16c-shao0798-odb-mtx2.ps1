@@ -5,7 +5,7 @@
 # Source SHA-256: b0c48552d1ffe711555dafcfc38c405b2aa8c18a7e722eeacbf485725aba97b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ODB-MTX2.ANS by Ol' Dirty Bastard (Shaolin's Finest); released in shao0798 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digital Utopia Matrix
 # SAUCE Author: Ol' Dirty Bastard
 # SAUCE Group: Shaolin's Finest
@@ -35,12 +35,10 @@ Write-Host '
 [1;34m██[0;1;34;47m▓▒▒▓▓[0;1;34;40m████████████[0;1;34;44m█▌[0;34m▌[0;1;30m [0;1;31m         [0;33m▀▀█[0;1;31;43m░▒▓[0;1;31;40m███████████████[0;1;31;47m▓[0;1;31;40m█████[0;1;31;43m▓[0;1;31;40m████████[0;1;31;47m█[0;1;31;40m██████████[0m
 [1;34m███[0;1;34;47m▓▓[0;1;34;40m███████████████[0;1;34;44m█[0;34m█[0;1;30m [0;1;31m            [0;33m▀[0;1;31;43m░▓▓[0;1;31;40m█████████████████████[0;1;31;43m▓▓▓[0;1;31;40m████[0;1;31;47m▓[0;1;31;40m█[0;1;31;47m██[0;1;31;40m████████[0m
 [1;34m▀███████████████████[0;1;34;44m▓░[0;34m▌[0;1;30m [0;1;31m  [0;33m▄[0;30;43m░[0;33;40m▄[0;1;31;40m       [0;33m▐[0;1;31;43m░░▒▒▓▓[0;1;31;40m█████████████████[0;1;31;43m▓▒▒▓▓[0;1;31;40m████[0;1;31;47m███[0;1;31;40m████[0;1;31;43m▓▓▒[0m
-                  [1;30mD[0;1;37mD[0;1;30mDI[0;1;37mI[0;1;30mIG[0;1;37mG[0;1;30mGI[0;1;37mI[0;1;30mIT[0;1;37mT[0;1;30mTA[0;1;37mA[0;1;30mAL[0;1;37mL[0;1;30mL[0;1;37m    [0;1;30mU[0;1;37mU[0;1;30mUT[0;1;37mT[0;1;30mTO[0;1;37mO[0;1;30mOP[0;1;37mP[0;1;30mPI[0;1;37mI[0;1;30mIA[0;1;37mA[0;1;30mA[0m
-         [1;30m-[0;1;32m [0;32mS[0;1;32mhaolin[0;32m''[0;1;32ms[0;32mF[0;1;32minest[0;32mW[0;1;32mHQ[0;1;30m/[0;32mD[0;1;32mome[0;32mW[0;1;32mHQ[0;1;30m/[0;32mb[0;1;32mlah[0;32mD[0;1;32mistro[0;1;30m/[0;32mb[0;1;32mlah[0;32mD[0;1;32mistro[0;1;30m/[0;32mb[0;1;32mlah[0;32mD[0;1;32mistro [0;1;30m-[0m
-                       [1;30m-[0;1;32m [0;32mA[0;1;32mrt [0;1;30m-[0;1;32m [0;32mM[0;1;32music [0;1;30m-[0;1;32m [0;32mT[0;1;32mracking [0;32mS[0;1;32mupport [0;1;30m-[0m
-             [1;30m-[0;1;32m [0;32mS[0;1;32mysop: [0;32mI[0;1;32msotone    [0;1;30m-[0m     [32mC[0;1;32mo[0;32mS[0;1;32mysop: [0;32mO[0;1;32ml[0;32m''[0;1;32m [0;32mD[0;1;32mirty [0;32mB[0;1;32mastard [0;1;30m-[0m
+                  [1;30m [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m [0;1;37m    [0;1;30m [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m [0m
+         [1;30m [0;1;32m [0;32m [0;1;32m      [0;32m [0;1;32m [0;32m [0;1;32m     [0;32m [0;1;32m  [0;1;30m [0;32m [0;1;32m   [0;32m [0;1;32m  [0;1;30m [0;32m [0;1;32m   [0;32m [0;1;32m     [0;1;30m [0;32m [0;1;32m   [0;32m [0;1;32m     [0;1;30m [0;32m [0;1;32m   [0;32m [0;1;32m      [0;1;30m [0m
+                       [1;30m [0;1;32m [0;32m [0;1;32m   [0;1;30m [0;1;32m [0;32m [0;1;32m     [0;1;30m [0;1;32m [0;32m [0;1;32m        [0;32m [0;1;32m       [0;1;30m [0m
+             [1;30m [0;1;32m [0;32m [0;1;32m      [0;32m [0;1;32m          [0;1;30m [0m     [32m [0;1;32m [0;32m [0;1;32m      [0;32m [0;1;32m [0;32m [0;1;32m [0;32m [0;1;32m     [0;32m [0;1;32m       [0;1;30m [0m
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mDigital Utopia advertisement for Isotone.[0m
-[1;30m>> Ol''DirtyBastard[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

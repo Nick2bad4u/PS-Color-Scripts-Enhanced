@@ -5,7 +5,7 @@
 # Source SHA-256: 741c8497ec3c4bd3e1bc95dffe8c015898fd9ae38e594698e0575d852af922fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: C-TDH2.ANS by Captin (iMAGE Productions); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Dark Half #2
 # SAUCE Author: Captin
 # SAUCE Group: iMAGE Productions
@@ -22,8 +22,8 @@ Write-Host '
           [37m▀[0;1;37;47m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m▀             [34m▄▄█▀▀▀[0m
             [37m▀▀[0;1;37;47m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m▀▀              [34m▄▀▀[0m
                 [1;37m▀▀[0;1;37;47m▓▓▓▓▓▓▓▓▓[0;1;37;40m▀▀▀▀▀▀▀[0m                    [1;30;40mdeesz iz a iMAGE productzn[0m
-[1;34;40m▄[0m                                                     [1;30;40mbie Captin, greetz go tu..[0m
-[1;34;44m███[0;1;34;40m▄▄▄[0m                                                [1;30;40mhawkeye,pyro,srdwvr,perk,[0m
+[1;34;40m▄[0m                                                     [1;30;40m                          [0m
+[1;34;44m███[0;1;34;40m▄▄▄[0m                                                [1;30;40m                         [0m
 [1;34;44m██████████████████[0;1;34;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m                 [1;30;40msauron,creature,ministry,[0m
 [1;30;40m [0;1;34;40m▀▀▀[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;34;40m▄[0m              [1;30;40mphiber,psyber,an,azriel,bd[0m
        [1;34;40m▀▀▀▀[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;34;40m▄[0m            [1;30;40mwolf,pv,su,ab,cd,ef,gh:)[0m

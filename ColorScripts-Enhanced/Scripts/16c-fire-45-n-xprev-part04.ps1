@@ -5,7 +5,7 @@
 # Source SHA-256: 111790df2c1950e5a201c86504a575268bfabdb519026d35b50a2fad491e843b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-XPREV.ANS by nail (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: xpress revisited
 # SAUCE Author: nail
 # SAUCE Group: fire
@@ -50,7 +50,7 @@ Write-Host '
 
 
 
-[1;30m    [0m [1;30mMy first take on Lynn Michaels, as drawn by Gary Kwapisz for Marvel''s[0m
-[1;30m    [0m [1;30mPunisher War Journal #62 from 1994, is one of my oldest ANSIs in the[0m
-[1;30m    [0m [1;30mSixteen Colors Archive. Felt right to revisit it after 30 years.[0m
+[1;30m    [0m [1;30m                                                                     [0m
+[1;30m    [0m [1;30m                                                                    [0m
+[1;30m    [0m [1;30m                                                                [0m
 [30m░[0m'

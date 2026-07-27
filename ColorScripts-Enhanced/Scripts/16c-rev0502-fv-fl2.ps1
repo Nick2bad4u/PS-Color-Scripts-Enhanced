@@ -5,7 +5,7 @@
 # Source SHA-256: 9f0885808202f344bcc01be271be925ac31723e386fc17beb6fdd1ea5fc33dd4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FV-FL2.ANS by fever (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fubar
 # SAUCE Author: fever
 # SAUCE Group: revival
@@ -38,7 +38,4 @@ Write-Host '
                                                                  [34m▄▄[0;30;47m▀▀[0;34;40m▒[0;1;35;40m░[0;35m▀▀[0;34m▄▄▀[0;1;31;44m▀[0;1;31;47m▄[0;1;31;44m▓[0m
                                                                [1;32m░[0m▒[34;47m▄▄[0;37;40m▀[0;34;40m▀[0;1;31;44m▒[0;34m▄[0;1;31;44m▄[0;1;31;47m▓[0;34m▌▀[0;1;31m▒[0;34m▄[0m
                                                                    [34m▄[0;1;31;44m▄[0;1;31;40m▓ █[0;1;31;47m [0;1;31;44m [0m [1;31;44m▀[0;1;32;40m▒[0;1;31;44m▄[0;34m░[0m
-                                                                  [34m░▀▀▀[0;37m [0;34m▀[0;1;31;44m▀ [0m [1;31m [0;34m▀▀[0m
-
-[37mA lot of people thought this style was ugly i know.[0m
-[37mflame was a great friend of mine.[0m'
+                                                                  [34m░▀▀▀[0;37m [0;34m▀[0;1;31;44m▀ [0m [1;31m [0;34m▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 78387321340fbe73c6eb1b74b4fec03c24aa0edc9e45b9158ed429d27ba176c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sq2-awe0.ans by Sq2 (blocktronics_ansi_love); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20081206
 # SAUCE Dimensions: 80x105
 # SAUCE Font: IBM VGA
@@ -42,9 +42,7 @@ Write-Host '
  [35m▒▒▒▒▒▒░░░░░░░░░░░░░░[0;37m   [0;35m░[0;37m    [0;31m░░░░░░▒▒▓▓██[0;1;31;41m░░ ░░▒▒▓▓▓▓▓▓▓▓▓█████████████████████[0m
 
  [1;30m-----------------------------------------------------------------------------[0m
- [1;35mawe[0;35m logo by[0;1;35m sq2[0;35m [[0;1;37mi[0;1;36mc[0;36me[0;35m] - my display had no thin vertical chrs visible, so none[0m
-[35m of them in this logo. and the dark brown was dark yellow...[0;37m [0;35mgreets to maestro[0m
-[37m [0;35m33, neurotic, magneticm, ld!, iodine, tna, and all other ansi kids of the 90s[0m
-[1;30m -----------------------------------------------------------------------------[0m
- [1;30mfunkyvector.com[0m
- [30mand som3 l33t t3xt faw da r3al h0meez. all that wa5ted t1m[0m'
+ [1;35m   [0;35m        [0;1;35m    [0;35m  [0;1;37m [0;1;36m [0;36m [0;35m                                                         [0m
+[35m                                                            [0;37m [0;35m                 [0m
+[37m [0;35m                                                                             [0m
+[1;30m -----------------------------------------------------------------------------[0m'

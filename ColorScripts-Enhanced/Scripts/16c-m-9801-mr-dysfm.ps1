@@ -5,7 +5,7 @@
 # Source SHA-256: 58ab4ad793d1860c136728e0b20ebdd063191ab56715d8fc8bdccdc1b482fa89
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-DYSFM.ANS by Mr.Wrong (Mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dystopia menu
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Mistigris
@@ -33,5 +33,5 @@ Write-Host '
  [1;30m ▄▄██[0;1;30;46m█▀[0;1;30;40m███▄▄▄█████▄██[0;1;30;46m▄▓[0;1;30;40m███▀[0m  [34m▀[0;1;34;44m░▓▄[0;34m█▀[0;37m [0;1;30m▄▄█[0;1;30;46m▄[0;1;30;40m██▀▄█[0;1;30;46m▓░▓[0;1;30;40m▌[0m [1;30m▀███[0;1;30;46m▓▄[0;1;30;40m██▄█████▄▄▄██[0;1;30;47m█[0;1;30;40m█[0;1;30;46m█[0;1;30;40m██▄▄[0m
   [1;30m▀█▀█[0;1;30;46m▓▓▄[0;1;30;40m██▀▓░▀▀[0m [1;30m▀█████▀████▄█░[0;34m▐[0;1;34;44m▀[0;34m▌[0;37m [0;1;30m▄█████▀  ▀██[0;1;30;46m▓[0;1;30;40m██▄████▀▓▓███▀ ▀▀█████[0;1;30;46m▄▓▓[0;1;30;40m█▀█▀[0m
  [1;30m|---[0m [1;30m▀▀ ---------------[0m [1;30m▀▓[0m  [34m▄[0;37m [0;34m▀[0;37m [0;1;30m---[0m [1;30m▀▀▄[0m [1;30m-----[0m [1;30m▀▀ [0m [1;30m▀█▀[0m [1;30m---------------[0m [1;30m▀▀[0m [1;30m---|[0m
- [1;30m|[0m  [1mYOU[0m [1mARE ON DYSTOPIA[0m  [1;30m▀[0m  [1m& IT''S TIME TO ENTER YOUR COMMAND RIGHT NOW[0m: [5m_[0m   [1;30m|[0m
+ [1;30m [0m  [1m   [0m [1m               [0m  [1;30m▀[0m  [1m                                           [0m  [5m [0m   [1;30m [0m
  [1;30m|---------------------------------------------------------------------------|[0m'

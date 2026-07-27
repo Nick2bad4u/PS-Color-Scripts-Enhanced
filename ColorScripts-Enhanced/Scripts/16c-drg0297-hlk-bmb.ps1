@@ -5,7 +5,7 @@
 # Source SHA-256: f78b27cda60af61f850c694ffc331418eba1ae64c6cc45c0742f92e111df9073
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HLK_BMB.ANS by hULLK (0297 guest) (wIMP-bOOSH?); released in drg0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bAMBOOSH pURSENAPPERS
 # SAUCE Author: hULLK (0297 guest)
 # SAUCE Group: wIMP-bOOSH?
@@ -31,9 +31,8 @@ Write-Host '
 [31;40m│▓▓▓▓▓▓▓▓▓▓▓▓▓▓││▓▓▓▓▓▓▓▓▓▓▓▓▓▓││▓▓▓▓▓▓▓▓▓▓▓▓▓▓││▓▓▓▓▓▓▓▓▓▓▓▓▓▓││▓▓▓▓▓▓▓▓▓▓▓▓▓▓│[0m
 [31;40m└──────────────┘└──────────────┘└──────────────┘└──────────────┘└──────────────┘[0m
 [36;40m─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─[0m
-[31;40mthis superb ansi is dedicated to bAMB00ZH, our fellow artnerds here in norway.[0m
-[31;40mto me, it looks like theyre taking it all over, and thats one hella shame. bah.[0m
+[31;40m                                                                              [0m
+[31;40m                                                                               [0m
 [36;40m─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─[0m
-[31;40mgo join fucking bamboosh.[0m
-[36;40m─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─[0m
-[30;40mwANGOOSFHDSFWERT»!)&U)"»%U!"@@@@@@ PORN[0m'
+[31;40m                         [0m
+[36;40m─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─[0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: f9d69e05842d55bdcded0454a692a81b81bbe4bfe43d76b4c8a1301f1501ea74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-0897.ICE by Trip (ice9708a); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
-(ti-zk3.ice)
+            
 
 [1;30m██████  [0;1;31m▄▄▄▄     ▄▄▄▄▄▄▄  ▄▄▄ [0m [1;30m███████[0m░░[1;30m████▀▀▀▀▀▀████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m██████▌ [0;1;31m▐[0;1;31;47m▓▓[0;1;31;40m█▌ ▄██[0;1;31;47m▓▓▓▒▒▒[0;1;31;40m█  [0;1;31;47m▓▓[0;1;31;40m█   [0;1;30;40m▀▀▀█████████  [0;1;31;40m▄▄▄ [0m      [1;31m███  ▐██  ███▌[0m
@@ -23,12 +23,12 @@ Write-Host '
 [35m ██████████▄  [0;1;30m▄▄████████[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0m
 [35m▐██████████  [0;1;30m▄███[0m░░[1;30m█████[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0m
 [35m▐█████████▌  [0;1;30m███████████[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0m
-[35m▐█████████▌[0m               [37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0m
+[35m▐█████████▌[0m               [37m          [0;35m  [0;37m          [0;35m  [0;37m          [0;35m  [0;37m          [0m
 [35m▐███████████████████████  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0m
 [35m▐████████████▀██████████  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0m
-              [37;45m░░░░░░░░░░[0;35;40m  [0;37;40m(C)ommands[0;35;40m  [0;37;40m(C)ommands[0;35;40m  [0;37;40m(C)ommands[0;35;40m  [0;37;40m(C)ommands[0m
-[37;40mz h e n t i l[0;35;40m [0;37;45m▒▒▒▒▒▒▒▒▒▒[0;35;40m  [0;37;40m(C)ommands[0;35;40m  [0;37;40m(C)ommands[0;35;40m  [0;37;40m(C)ommands[0;35;40m  [0;37;40m(C)ommands[0m
-[1;30;40m▄▄▄▄  [0mk e e p[35m [0;37;45m▓▓▓▓▓▓▓▓▓▓[0;35;40m  [0;37;40m(C)ommands[0;35;40m  [0;37;40m(C)ommands[0;35;40m  [0;37;40m(C)ommands[0;35;40m  [0;37;40m(C)ommands[0m
+              [37;45m░░░░░░░░░░[0;35;40m  [0;37;40m          [0;35;40m  [0;37;40m          [0;35;40m  [0;37;40m          [0;35;40m  [0;37;40m          [0m
+[37;40m             [0;35;40m [0;37;45m▒▒▒▒▒▒▒▒▒▒[0;35;40m  [0;37;40m          [0;35;40m  [0;37;40m          [0;35;40m  [0;37;40m          [0;35;40m  [0;37;40m          [0m
+[1;30;40m▄▄▄▄  [0m       [35m [0;37;45m▓▓▓▓▓▓▓▓▓▓[0;35;40m  [0;37;40m          [0;35;40m  [0;37;40m          [0;35;40m  [0;37;40m          [0;35;40m  [0;37;40m          [0m
 [1;30;40m████▄▄▄▄▄▄▄▄[0m [35m [0;37m██████████[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0;35m  [0;37m(C)ommands[0m
 [1;30m█████[0m░░[1;30m█████[0m
 [1;30m████████████[0m  [1;31;45m█[0;1;31;47m▓▒▓▓[0;35m [0;1;31;47m▓▓[0;1;31;45m█[0;35m█  [0;1;30m█▌[0;35m  [0;1;31;47m▓▒▓[0;1;31;45m▌[0;35m▀[0;1;31;45m▀[0;1;31;47m▓[0;1;31;45m▄[0;1;31;40m▄[0;35m▄[0;37m [0;35m  [0;1;31;47m▓▒▓[0;1;31;45m▌[0;35m▀[0;1;31;45m▀[0;1;31;47m▓[0;1;31;45m▄[0;1;31;40m▄[0;35m▄ [0;37m [0;35m [0;1;31;45m█[0;1;31;47m▓▒▓[0;1;31;45m█[0;35m▀[0;1;31;45m▀[0;1;31;47m▓[0;1;31;45m▄[0;1;31;40m▄[0;35m▄ [0;37m [0;1;30m███[0m
@@ -37,7 +37,7 @@ x x x x x x x [35m█[0;1;31;45m▀▓█[0;35m█[0;37m░[0;35m █[0;1;
 [1;30m▄▄▄▄[0m  m e n u [1;31;45m  ░░[0;35m█[0;37m [0;35m █[0;1;31;45m░░░[0;35m█[0;37m   [0;35m▀▀[0;1;31;45m░░░[0;35m▄[0;37m  [0;35m [0;1;30m▄▄[0m  [35m▀▀[0;1;31;45m░░░[0;35m▄   [0;1;30m▄▄▄[0m  [35m█[0;1;31;45m ░░[0;35m█[0;37m [0;1;30mtrip * iCE[0m
 
 
-(ti-loves-force-ten.ice)
+                        
 
 
            [1;33m  ┌┌┤│▒▒││┌┐  [0m         [1;33m  ┌┬┬┬││││││[0m         [1;33m  ┌┬┬┬││││││[0m
@@ -50,6 +50,4 @@ x x x x x x x [35m█[0;1;31;45m▀▓█[0;35m█[0;37m░[0;35m █[0;1;
            [1;33m││║╫╫╫╫╫╫╫╫║╪││║[0;1;37m║║║║[0;1;33m││[0m             [1;33m│║[0;1;37m║║║║[0;1;33m││[0m
            [1;33m││║╫[0;1;37m╫╫╫╫╫╫[0;1;33m╫║╪│││║║║║││[0m             [1;33m││║║║║││[0m
            [1;33m││║╬[0;1;37m╬╬▓▓╬╬[0;1;33m╬║││ ││╪║║╪││││[0m          [1;33m ││╪║║╪││││[0m
-           [1;33m││║╬[0;1;37m╬╬██╬╫[0;1;33m│║││  └│││╪║║││[0m            [1;33m└│││╪║║││[0m
-
-uhm.. i saw someone draw like this. it was elite. it wasn''t my idea.[0m'
+           [1;33m││║╬[0;1;37m╬╬██╬╫[0;1;33m│║││  └│││╪║║││[0m            [1;33m└│││╪║║││[0m'

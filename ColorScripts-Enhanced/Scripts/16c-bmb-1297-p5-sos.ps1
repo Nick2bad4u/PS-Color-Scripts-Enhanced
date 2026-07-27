@@ -5,7 +5,7 @@
 # Source SHA-256: 27d66cf8913e983d3799ee62a5e596a914018e926c398bc59a6370715e2b2e8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P5-SOS.ANS by prosthesis (bamboosh); released in bmb-1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sysop pager
 # SAUCE Author: prosthesis
 # SAUCE Group: bamboosh
@@ -34,7 +34,7 @@ Write-Host '
       [35m▀▀▀▀██████▀▀▀ [0m     [32m▄[0;1;32;42m  █[0;1;33;42m▓[0;1;37;42m█[0;1;32;42m████▀▀▀[0;32m██▀▀▀▀▀▀▀▀▀▀[0m
                            [32m▀[0;1;32;42m █▌[0;32m█▀▀▀▀[0m
             [37m51[0;32m  [0;37m░[0;30;47m▓[0;37;40m░[0;32;40m  [0m       [32;40m▐[0;1;32;42m█[0;32m█[0m
-                            [32m█[0;1;32;42m▌[0;32m▌[0;37m  reason to disturb chieftain: [0m
+                            [32m█[0;1;32;42m▌[0;32m▌[0;37m                               [0m
                            [32m▐[0;1;32;42m▐█[0;32m█[0m
                             [32m▀▀[0;1;32;42m  [0;32m█▄▄▄▄▄[0m
                                   [32m▀▀▀▀▀[0m'

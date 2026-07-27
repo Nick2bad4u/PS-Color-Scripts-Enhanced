@@ -5,7 +5,7 @@
 # Source SHA-256: 3dd3212e6e2ea71cf619d7f073d63d580cae6b8dbb367d9b231a8cab44154576
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST!FUCT1.ANS by sterac (aif); released in aif-9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fuct menu
 # SAUCE Author: sterac
 # SAUCE Group: aif
@@ -28,11 +28,11 @@ Write-Host '
       [1;30m███████▄▄▄▄▄ ▄   ███████  ███████ ███████  ██▄▀▄██ ███████  ███████[0m
  [1;30m▓[0m    [1;30m███████          ▀▀▀▀▀▀▀▀▀███████ ▀▀▀▀▀▀▀▀▀███████ ▀▀▀▀▀▀▀▀▀███████[0m     [1;30m▓[0m
  [1;30m▒[0m                                                                       [1;32m [0m    [1;30m▒[0m
- [1;30m░[0m      [1;30m([0;1;37mJ[0;1;30m)[0m Join conferance   [1;30m([0;1;37mC[0;1;30m)[0m Comment to sysop   [1;30m([0;1;37mG[0;1;30m)[0;1;37m [0mPhree philes         [1;30m░[0m
-[34m [0;1;30m·[0m      [1;30m([0;1;37mA[0;1;30m)[0m Area change       [1;30m([0;1;37mE[0;1;30m)[0;1;37m [0mEnter a message    [1;30m([0;1;37m#[0;1;30m)[0;1;37m [0mChange settings      [1;30m·[0m
-[34m [0;1;30m░ [0m     [1;30m([0;1;37mU[0;1;30m)[0m Upload philes     [1;30m([0;1;37mR[0;1;30m)[0;1;37m [0mRead messages      [1;30m([0;1;37m=[0;1;30m)[0;1;37m [0mUser status          [1;30m░[0m
-[34m [0;1;30m▒ [0m     [1;30m([0;1;37mD[0;1;30m)[0m Download philes   [1;30m([0;1;37mT[0;1;30m)[0;1;37m [0mTagged philes      [1;30m([0;1;37mY[0;1;30m)[0m Yell for sysop       [1;30m▒[0m
-[34m [0;1;30m▓ [0m     [1;30m([0;1;37mN[0;1;30m)[0m New phile scan    [1;30m([0;1;37mS[0;1;30m)[0m Search 4 philes    [1;30m([0;1;37mB[0;1;30m)[0m Bulletins           [1;30m ▓[0m
+ [1;30m░[0m      [1;30m [0;1;37m [0;1;30m [0m                   [1;30m [0;1;37m [0;1;30m [0m                    [1;30m [0;1;37m [0;1;30m [0;1;37m [0m                     [1;30m░[0m
+[34m [0;1;30m [0m      [1;30m [0;1;37m [0;1;30m [0m                   [1;30m [0;1;37m [0;1;30m [0;1;37m [0m                   [1;30m [0;1;37m [0;1;30m [0;1;37m [0m                     [1;30m [0m
+[34m [0;1;30m░ [0m     [1;30m [0;1;37m [0;1;30m [0m                   [1;30m [0;1;37m [0;1;30m [0;1;37m [0m                   [1;30m [0;1;37m [0;1;30m [0;1;37m [0m                     [1;30m░[0m
+[34m [0;1;30m▒ [0m     [1;30m [0;1;37m [0;1;30m [0m                   [1;30m [0;1;37m [0;1;30m [0;1;37m [0m                   [1;30m [0;1;37m [0;1;30m [0m                      [1;30m▒[0m
+[34m [0;1;30m▓ [0m     [1;30m [0;1;37m [0;1;30m [0m                   [1;30m [0;1;37m [0;1;30m [0m                    [1;30m [0;1;37m [0;1;30m [0m                     [1;30m ▓[0m
 [34m [0;1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
- [1;30;47m█[0;33;47m░[0;1;30;47m [0;30;47m P h u c t  [0;33;47m░[0;1;30;40m█[0;33;47m░[0;30;47m [0;37;40m█[0;31;47mShade[0;34;47m [0;31;47mmember[0;34;47m [0;31;47mb0ard[0;1;34;47m [0;34;47m [0;33;47m░[0;1;30;40m█[0;33;47m░[0;34;47m  Mainstream w0rld headQuarters[0;37;40m█[0;34;47m [0;33;47m░[0;1;30;40m█[0m
+ [1;30;47m█[0;33;47m░[0;1;30;47m [0;30;47m            [0;33;47m░[0;1;30;40m█[0;33;47m░[0;30;47m [0;37;40m█[0;31;47m     [0;34;47m [0;31;47m      [0;34;47m [0;31;47m     [0;1;34;47m [0;34;47m [0;33;47m░[0;1;30;40m█[0;33;47m░[0;34;47m                               [0;37;40m█[0;34;47m [0;33;47m░[0;1;30;40m█[0m
  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

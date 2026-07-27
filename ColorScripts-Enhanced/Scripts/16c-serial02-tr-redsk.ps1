@@ -5,7 +5,7 @@
 # Source SHA-256: 490310a007504d02928a7edeba48911f86b1a2057a4fbd505f0ac8b744124bdd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-REDSK.ANS by Terrato (serial02); released in serial02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
@@ -34,7 +34,7 @@ Write-Host '
          [36m    `$,[0;31m`4$P²''"²P²4$$$$$$P$$g$$$$$g$$$$$$$$$$P''[0;36m,gg,[0;31m`"²²''[0;36m,$''   [0m
          [36m     [0;1;34m`[0;36m$Q[0;1;34mg[0;36mgQ[0;1;34m$[0;36m$$[0;1;34mQg[0;36m$[0;1;34mg,[0;31m`²$$$$$$$$$P²""''"''²4$P''[0;1;34m,gQ$$[0;36m²[0;1;34m²²[0;36m²[0;1;34m4Q[0;36m$[0;1;34m$[0;36mP[0;1;34m''        [0m
          [1;34m                  `$g[0;31m`$P²"''"4$''[0;1;34m,Q½½½Q,[0;31m`$ [0;1;34m$²"''                [0m
-         [1;34m                    $[0;31m T [0;1;34md½½b[0;31m $ [0;1;34m$''   `$[0;31m T [0;1;34m$  [0;32m  [0;35m   [0;1;37m.tERRAto.[0;1;34m    [0m
+         [1;34m                     [0;31m   [0;1;34m    [0;31m   [0;1;34m       [0;31m   [0;1;34m   [0;32m  [0;35m   [0;1;37m         [0;1;34m    [0m
         [1;34m                     $[0m [31mi[0;37m [0;34m$[0;1;34m  $[0m [31mT [0;1;34m$     $[0m [31mi[0;37m [0;34m$[0;1;34m [0;35m     [0;1;30m [0m             [1;34m   [0m
                              [34m$[0;37m [0;31m:[0;37m [0;1;34m$[0m  [34m$[0;37m [0;31mi[0;37m [0;34m$[0m     [34m$[0;37m [0;31m:[0;37m [0;34m$[0m   [35m            [0m
                              [34m$[0;37m [0;31m.[0;37m [0;34m$[0;37m  [0;1;34m$[0m [31m:[0;37m [0;34m$[0m     [34m$[0;37m [0;31m∙[0;37m [0;34m$[0m

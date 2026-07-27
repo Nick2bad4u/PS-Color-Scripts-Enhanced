@@ -5,7 +5,7 @@
 # Source SHA-256: 4cf171b4fd0188d3a166c907a3e4231070dce210d5d2776d4adc028ad530ac6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TPK-CNA1.ANS by teepak; released in sac-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -22,25 +22,4 @@ Write-Host '
 █[31m▐████[0;1;31m▌[0m▀[1;31m [0m [31m▄▄▄▄[0;1;31m▀[0;1;30m [0m█▌[31m███[0;1;31m█[0m [31m███[0;1;31m█[0m▐▄[31m▐███▐████[0;1;31m▌[0m█▌[1;31m▐[0;31m███[0;1;31m▐[0;31m████▌[0;37m▄▀▀████▌[0;31m████[0;1;30m [0;1;31m▐[0;31m████[0;1;31m▌[0m▓█▀[31m▄▄[0;1;31m▄▄[0m ▀▓
 ▓[31m▐████[0;1;31m▌[0m [31m▀▐█████[0;37m▐█▌[0;31m███[0;1;31m█[0m [31m███[0;1;31m█[0m▐█[31m▐██[0;1;31m█[0;1;30m [0;1;31m█[0;31m████[0;37m▐█[0;1;31m▐[0;31m███[0;1;31m▐[0;31m████▌[0;37m█▌[0;1;31m▀[0;31m▄▄▄[0;37m▀[0;1;30m [0;31m████[0;1;31m▌▐[0;31m████▌[0;37m▐ [0;31m▐████[0;1;31m█[0m▐█
 [1m─[0;1;31m ▀█[0;31m███▄[0;1;37m [0;31m▄████▀[0;1;37m─[0;31m▄▄██[0;1;31m█▀[0m [31m▀██[0;1;31m█[0;1;30m [0;31m▄██[0;1;31m█▀[0;1;37m──[0;1;31m█[0;31m███▌[0;37m▀[0;1;31m▐[0;31m███[0;37m [0;31m▀▀███▄[0;37m [0;31m████▀▐████[0;1;31m█[0;1;37m─[0;31m▀████▄[0;37m [0;31m▄████[0;1;31m▀[0;1;37m──[0m
-[1;31m    [0m [1;31m▀[0;31m▀▀▀▀▀▀[0;1;31m  [0;31m▀▀▀▀▀[0;1;30m [0;1;31m    [0m [31m▀▀▀▀▀[0;1;31m▀[0m [1;31m   [0m [1;31m▀[0;31m▀▀▀[0;1;30m [0;31m▀▀▀▀▀[0;1;31m   [0m [1;31m▀[0;31m▀▀▀▀[0;37m [0;1;31m  ▀[0;31m▀▀▀▀▀▀[0;1;31m   ▀[0;31m▀▀▀▀▀▀[0;1;31m     [0m
- [1;31m                                                                 [0;1;36ma[0;36mnsi[0;37m [0;1;36mb[0;36my[0;1;31m [0;1;36mt[0;36meepak[0m
-[37m [0m                                                      [37m  [0m
-[37m [0m
-[37m [0m
-[37m [0m
-
-
-
-
-[37m [0;1;30m                [0m
-[1;30m                   [0m
-[1;30m                 [0m
-[1;30m          [0m
-[1;30m                                                                [0m
-
-[1;30m                                                                  [0m
-
- [1;30m                                                                [0m
-
- [1;30m                                                             [0m
-                                                [1;30m  [0m'
+[1;31m    [0m [1;31m▀[0;31m▀▀▀▀▀▀[0;1;31m  [0;31m▀▀▀▀▀[0;1;30m [0;1;31m    [0m [31m▀▀▀▀▀[0;1;31m▀[0m [1;31m   [0m [1;31m▀[0;31m▀▀▀[0;1;30m [0;31m▀▀▀▀▀[0;1;31m   [0m [1;31m▀[0;31m▀▀▀▀[0;37m [0;1;31m  ▀[0;31m▀▀▀▀▀▀[0;1;31m   ▀[0;31m▀▀▀▀▀▀[0;1;31m     [0m'

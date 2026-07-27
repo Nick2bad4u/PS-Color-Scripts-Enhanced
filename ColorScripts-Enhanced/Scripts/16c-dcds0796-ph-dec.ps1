@@ -5,7 +5,7 @@
 # Source SHA-256: 7ef3c187f4f94deab5ee648f52dabf18169920e89f90b1e20c9baca25c74ab1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-DEC.ANS by Phlare (Decades); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Decades Promotional
 # SAUCE Author: Phlare
 # SAUCE Group: Decades
@@ -29,9 +29,5 @@ Write-Host '
        [35m▌░▀▀██[0;30;45m░░[0;35;40m██[0;1;35;45m░░[0;35m███[0;1;35;45m▄[0;35m███▀▀▀▀▀▀▌[0;1;35m [0;35m▀[0;1;35m▀▀[0;35m▀[0;37m  [0;35m     [0;1;35m──--──▀─[0;35m▀▀▀▀▀▀▀▀▀▀[0;1;35;45m░░ [0;30;45m░░[0;1;35;45m [0;35m█[0;1;35;45m ░[0;35m█▄[0;37m [0;35m    [0m
       [35m [0;1;35m▀───╖[0;35m ▀▀[0;1;35;45m░░▒▒░░[0;35m▀▀░[0;1;35m╓╜[0;35mPhlare<decades>           [0;37m  [0;35m [0;37m [0;35m  [0;37m [0;35m    [0;37m  [0;35m ░░▀▀▀▀▀██[0;1;35;45m▄[0;35m▄[0m
          [35m  [0;1;35m╙─+──[0;35m▀[0;1;35;45m░░[0;35m▀[0;1;35m─-──╜[0m                [35m [0m   [35m         [0m                     [35m▀[0m
-                [35m ▐▌[0;37m [0;35m Greets of the month : [0m     [30mBlah! Blah![0m
-                [35m [0;37m [0;35m▀■▄────────-───-─────────   [0m
-
-[35mBviper :[0;37m [0;35mThank''s for the elito Board.. ;) [0;30m(Prrout!)[0m
-[35mFluor  : Okay bye ! No Seriously Thank''s...[0m
-[35mTna    : D2 ou C4 ? duh?[0m'
+                [35m ▐▌[0;37m [0;35m                       [0m     [30m           [0m
+                [35m [0;37m [0;35m▀■▄────────-───-─────────   [0m'

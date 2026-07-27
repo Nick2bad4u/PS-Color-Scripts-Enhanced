@@ -5,7 +5,7 @@
 # Source SHA-256: c73a80de754bf91481b99478106bb5ce7ce9d2aa19a6783de3a7ca5a6ccf1b8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RI-CCI.ICE by Riothamus (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-98
 # Columns: 1-80
 
@@ -42,19 +42,19 @@ Write-Host '
         [1;30m▄    ▄    ▄    ▄    ▄    ▄    ▄    ▄    ▄    ▄    ▄    ▄    ▄    ▄[0m
       [1;30m▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀[0m
      [1;30m▀   ▄▀   ▄[0;1;37mLike a void of voices, ringing out loud[0;1;30m▄▀   ▄▀   ▄▀   ▄▀   ▄▀[0m
-       [1;30m▄▀   ▄▀   [0;1;37mDecisions and choices, pleasing the crowd[0;1;30m▀   ▄▀   ▄▀   ▄▀[0m
-     [1;30m▄▀   ▄▀   [0;1;37mAn infinite knowledge, of little known facts [0;1;30m▄▀   ▄▀   ▄▀   ▄[0m
+       [1;30m▄▀   ▄▀   [0;1;37m                                         [0;1;30m▀   ▄▀   ▄▀   ▄▀[0m
+     [1;30m▄▀   ▄▀   [0;1;37m                                             [0;1;30m▄▀   ▄▀   ▄▀   ▄[0m
         [1;30m▄▀   ▄▀  [0;1;37mA proverbial college, nothing, it lacks  [0;1;30m▄▀   ▄▀   ▄▀   ▄▀[0m
       [1;30m▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀[0m
-     [1;30m▀   ▄▀   ▄[0;1;37mInternationally known, like words from a tale[0;1;30m▀   ▄▀   ▄▀   ▄▀[0m
+     [1;30m▀   ▄▀   ▄[0;1;37m                                             [0;1;30m▀   ▄▀   ▄▀   ▄▀[0m
        [1;30m▄▀   ▄▀   [0;1;37mDevilish tones, the mind becomes stale  [0;1;30m▄▀   ▄▀   ▄▀   ▄▀[0m
-     [1;30m▄▀   ▄▀   [0;1;37mAn illuminating hole, will fill your whole mind   [0;1;30m▄▀   ▄▀   ▄[0m
-        [1;30m▄▀   ▄▀  [0;1;37mFirst open your soul, to the world of CyberCrime   [0;1;30m▄▀   ▄▀[0m
+     [1;30m▄▀   ▄▀   [0;1;37m                                                  [0;1;30m▄▀   ▄▀   ▄[0m
+        [1;30m▄▀   ▄▀  [0;1;37m                                                   [0;1;30m▄▀   ▄▀[0m
       [1;30m▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀   ▄▀[0m
      [1;30m▀    ▀    ▀    ▀    ▀    ▀    ▀    ▀    ▀    ▀    ▀    ▀    ▀    ▀    ▀[0m
               [1;35mW  [0;35mO  R  L  D[0m     [1;35mH  [0;35mE  A  D  [0;1;35mQ  [0;35mU  A  R  T  E  R  S[0m
                [1;35mI  [0;35mN  F  I  N  I  T  E[0m     [1;35mD  [0;35mA  R  K  N  E  S  S[0m
                      [35m( [0;1;35m3  0  5 [0;35m) -  [0;1;35m5  2  5  [0;35m-  [0;1;35m4  7  2  2[0m
 
-              ANSI [1;30m■ [0;1;37mRiothamus [0;1;30m([0;1;37mi[0mC[1;30mE)   [0mPoetry [1;30m■ [0;1;37mResonant [0;1;30m([0;1;37mi[0mC[1;30mE [0;1;37mT[0mM[1;30m)[0m
+                   [1;30m■ [0;1;37m          [0;1;30m [0;1;37m [0m [1;30m     [0m       [1;30m■ [0;1;37m         [0;1;30m [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m [0m
               ─────────────── [1mi[0mC[1;30mE [0mAdvertisements ────────────────[0m'

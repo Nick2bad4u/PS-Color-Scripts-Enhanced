@@ -5,7 +5,7 @@
 # Source SHA-256: f3a2ac1b53938ebf01783088c1ef60547e2d4de912324d08c57322a9b1d9c9a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-SOPIC.ANS by Inner Chaos (Bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Solar
 # SAUCE Author: Inner Chaos
 # SAUCE Group: Bleach
@@ -49,5 +49,5 @@ Write-Host '
 [34m [0m       [31m▓ [0m   [31m▓▄[0m    [31m▒▄▓▀[0m   [31m▀[0;37m  [0;31m▀■[0m       [31mSOLAR[0m            [31m▄▓▄[0;37m [0;31m▄▓[0m       [31m▀■▒[0m
 [34m [0m       [31m▓[0m    [31m ■▀▄[0;37m [0;31m▄■[0m            [31mSysOp: Onslaught[0m     [31m■▀[0m   [31m▒▀[0;37m  [0;31m▒▄[0m   [31m░[0;37m  [0;31m▒[0m
 [34m [0m       [31m█[0;37m  [0;31m  [0;37m [0;31m▄▓[0m    [31m▀[0m   [31m:[0;37m [0;31m(2o3)PRi-VAtE  (800)fUk-jEAh[0;37m [0;31m:[0;37m [0;31m [0m     [31m▀▓▄[0;37m [0;31m▄▀▓▓[0m
-[34m [0m       [31m█[0;37m [0;31m░[0;37m  [0;31m▒[0m       [31m:[0;37m [0;31m100% Original Ansi by Inner Chaos![0;37m [0;31m:[0m     [31m▄▀[0;37m [0;31m░[0;37m  [0;31m▓[0m
+[34m [0m       [31m█[0;37m [0;31m░[0;37m  [0;31m▒[0m       [31m [0;37m [0;31m                                  [0;37m [0;31m [0m     [31m▄▀[0;37m [0;31m░[0;37m  [0;31m▓[0m
 [34m [0m       [31m▓▄▓▄▄▄[0;37m [0;31m▄[0;37m  [0;31m▄▄▓[0m   [31m▄[0m            [31m▄[0m          [31m▄[0m        [31m▓▄[0m   [31m▄▄[0;37m [0;31m▄▄▓▄▄█[0m'

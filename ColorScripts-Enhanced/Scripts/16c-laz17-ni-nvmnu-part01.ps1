@@ -5,7 +5,7 @@
 # Source SHA-256: 782e79b32a7bf9cbb3aa2b49040c2932c2d078fd2ca294801e818d7f76315b22
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-NVMNU.ANS by nitron (Lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Noverdu BBS Screen Pack
 # SAUCE Author: nitron
 # SAUCE Group: Lazarus
@@ -55,14 +55,14 @@ Write-Host '
  [1;30m▒[0m                     [1;30m█[0m       [31m───────────────────[0;37m      [0;1;30m█[0m                     [1;30m▒[0m
  [1;30m▒[0m                     [1;30m▓[0m                                [1;30m▓                     ▒[0m
  [1;30m▒[0m [1;30m▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄[0m [1;30m▓[0m [1;33;41m [0;1;37;41ma[0;1;33;41m.option [0;1;37;40m b[0;1;33;40m.option  [0;1;37;40mc[0;1;33;40m.option[0m  [1;30m▓[0m [1;30m▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄[0m [1;30m▒[0m
- [1;30m▒[0m [1;30m█[0m  [1;33mSYSTEM STATUS[0m  [1;30m█[0m [1;30m▓[0m  [1ma[0;1;33m.option  [0;1;37mb[0;1;33m.option  [0;1;37mc[0;1;33m.option[0m  [1;30m▓[0m [1;30m█[0m  [1;33mTARGET STATUS  [0;1;30m█[0m [1;30m▒[0m
+ [1;30m▒[0m [1;30m█[0m  [1;33m             [0m  [1;30m█[0m [1;30m▓[0m  [1m [0;1;33m         [0;1;37m [0;1;33m         [0;1;37m [0;1;33m       [0m  [1;30m▓[0m [1;30m█[0m  [1;33m               [0;1;30m█[0m [1;30m▒[0m
  [1;30m░ █[0m  [33m─────────────[0;37m  [0;1;30m█[0m [1;30m▒[0m  [1ma[0;1;33m.option  [0;1;37mb[0;1;33m.option  [0;1;37mc[0;1;33m.option[0m  [1;30m▒[0m [1;30m█[0m  [33m─────────────[0;37m  [0;1;30m█ ▒[0m
-[1;30m ░ ▓[0m [1;33mWEATHR CTRL:[0m [1;32mON[0m [1;30m▓[0m [1;30m▒[0m  [1ma[0;1;33m.option  [0;1;37mb[0;1;33m.option  [0;1;37mc[0;1;33m.option[0m  [1;30m▒[0m [1;30m▓[0m [1;33mGADGET:[0m  [1;32mACTIVE[0m [1;30m▓ ░[0m
- [1;30m░[0m [1;30m▓[0m [1;33mMEGA LAZER:[0m  [1;32mON[0m [1;30m▓[0m [1;30m▒[0m  [1ma[0;1;33m.option  [0;1;37mb[0;1;33m.option  [0;1;37mc[0;1;33m.option[0m  [1;30m▒[0m [1;30m▓[0m [1;33mPENNY:[0m   [1;32mACTIVE[0m [1;30m▓[0m [1;30m░[0m
- [1;30m░ ▒[0m [1;33mKAIJU PRTL:  [0;1;32mON[0m [1;30m▒[0m [1;30m░[0m  [1ma[0;1;33m.option  [0;1;37mb[0;1;33m.option  [0;1;37mc[0;1;33m.option[0m  [1;30m░[0m [1;30m▒[0m [1;33mBRAIN:   [0;1;32mACTIVE[0m [1;30m▒ ░[0m
- [1;30m░[0m [1;30m▒[0m [1;33mTSUNAMI GEN:[0m [1;32mON[0m [1;30m▒[0m [1;30m░[0m  [1ma[0;1;33m.option  [0;1;37mb[0;1;33m.option  [0;1;37mc[0;1;33m.option[0m  [1;30m░[0m [1;30m▒[0m [1;33mQUINBY:[0m  [1;32mACTIVE[0m [1;30m▒[0m [1;30m░[0m
-   [1;30m░[0m [1;33mVOLCANO CTRL:[0;1;32mON[0m [1;30m░[0m [1;30m░[0m  [1ma[0;1;33m.option  [0;1;37mb[0;1;33m.option  [0;1;37mc[0;1;33m.option[0;1;30m  ░[0m [1;30m░[0m [1;33mTALON:   [0;1;31mKIA    [0;1;30m░[0m [1;30m░[0m
- [1;30m░[0m [1;30m░[0m [1;33mMETEOR CTRL:[0m [1;32mON[0m [1;30m░[0m    [1ma[0;1;33m.option  [0;1;37mb[0;1;33m.option  [0;1;37mc[0;1;33m.option[0m    [1;30m░[0m [1;33mCAPEMAN: [0;1;32mACTIVE[0m [1;30m░[0m
-     [1;33mEMP STRIKE:[0;1;32m  ON[0m   [1;30m░[0m  [1ma[0;1;33m.option  [0;1;37mb[0;1;33m.option  [0;1;37mc[0;1;33m.option[0m  [1;30m░[0m   [1;33mWILSON:  [0;1;31mKIA      [0;1;30m░[0m
+[1;30m ░ ▓[0m [1;33m            [0m [1;32m  [0m [1;30m▓[0m [1;30m▒[0m  [1m [0;1;33m         [0;1;37m [0;1;33m         [0;1;37m [0;1;33m       [0m  [1;30m▒[0m [1;30m▓[0m [1;33m       [0m  [1;32m      [0m [1;30m▓ ░[0m
+ [1;30m░[0m [1;30m▓[0m [1;33m           [0m  [1;32m  [0m [1;30m▓[0m [1;30m▒[0m  [1m [0;1;33m         [0;1;37m [0;1;33m         [0;1;37m [0;1;33m       [0m  [1;30m▒[0m [1;30m▓[0m [1;33m      [0m   [1;32m      [0m [1;30m▓[0m [1;30m░[0m
+ [1;30m░ ▒[0m [1;33m             [0;1;32m  [0m [1;30m▒[0m [1;30m░[0m  [1m [0;1;33m         [0;1;37m [0;1;33m         [0;1;37m [0;1;33m       [0m  [1;30m░[0m [1;30m▒[0m [1;33m         [0;1;32m      [0m [1;30m▒ ░[0m
+ [1;30m░[0m [1;30m▒[0m [1;33m            [0m [1;32m  [0m [1;30m▒[0m [1;30m░[0m  [1m [0;1;33m         [0;1;37m [0;1;33m         [0;1;37m [0;1;33m       [0m  [1;30m░[0m [1;30m▒[0m [1;33m       [0m  [1;32m      [0m [1;30m▒[0m [1;30m░[0m
+   [1;30m░[0m [1;33m             [0;1;32m  [0m [1;30m░[0m [1;30m░[0m  [1m [0;1;33m         [0;1;37m [0;1;33m         [0;1;37m [0;1;33m       [0;1;30m  ░[0m [1;30m░[0m [1;33m         [0;1;31m       [0;1;30m░[0m [1;30m░[0m
+ [1;30m░[0m [1;30m░[0m [1;33m            [0m [1;32m  [0m [1;30m░[0m    [1m [0;1;33m         [0;1;37m [0;1;33m         [0;1;37m [0;1;33m       [0m    [1;30m░[0m [1;33m         [0;1;32m      [0m [1;30m░[0m
+     [1;33m           [0;1;32m    [0m   [1;30m░[0m  [1m [0;1;33m         [0;1;37m [0;1;33m         [0;1;37m [0;1;33m       [0m  [1;30m░[0m   [1;33m         [0;1;31m         [0;1;30m░[0m
    [1;30m░[0m                 [1;30m░[0m                                    [1;30m░[0m               [1;30mn1░[0m
 [1m-----------------------------------------------------------------[[0;1;33mMENU[0;1;37m]--------[0m'

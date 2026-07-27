@@ -5,7 +5,7 @@
 # Source SHA-256: 1f780f4b783482501ea572fc7579ea0be2791ca1dc46b20ca11ff7a914a04790
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-JSODA.ANS by flame (rIle); released in rile0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: jive^soda
 # SAUCE Author: flame
 # SAUCE Group: rIle
@@ -42,7 +42,5 @@ Write-Host '
         [1;30m░░░░  [0;1;36;46m▄███[0;1;36;40m▌▄[0;1;36;46m███[0m  [36m▐[0;36;46m [0;1;36;46m█▄▄[0m   [1;36;46m██[0m  [1;36;46m▄█ [0m  [36m▐█[0;1;36;46m█[0;36m█ ██[0;36;46m [0;36;40m█ ▐█[0;1;36;46m█[0;36m███▌▄[0m
                [1;36m▀▀▀▀[0m       [1;36;46m▄███[0;1;36;40m▌ ▐[0;1;36;46m█[0m   [1;36;46m███[0;1;36;40m▌▐[0;1;36;46m▄██▄[0m [1;36;46m▄[0;36m█[0;1;36;46m█[0;36m█ [0;1;36m▐[0;36m█[0;1;36;46m██[0;36m█[0;1;36;46m▄[0;1;36;40m▌[0m
                            [1;36m▀▀▀▀▀▀[0m     [1;36m▀▀▀▀[0;1;36;46m██[0m   [1;36;46m████[0;1;36;40m▌▐[0;1;36;46m████[0;1;36;40m▀▀[0m
-                  [36mnootropic''s [0;1;37mjive[0;1;36m^soda[0m         [1;36m▀▀▀▀▀[0m
-[1;36m   [0;36m---------------------------------------------------------------------------[0m
-[36m  love is suicide, don''t mind me, it''s 11:00am and i''ve been up all night......[0m
-[36m  and i''m hryyonhg.. er.. getting ready to pass oUT .. !  <slap> ok .. better.[0m'
+                  [36m            [0;1;37m    [0;1;36m     [0m         [1;36m▀▀▀▀▀[0m
+[1;36m   [0;36m---------------------------------------------------------------------------[0m'

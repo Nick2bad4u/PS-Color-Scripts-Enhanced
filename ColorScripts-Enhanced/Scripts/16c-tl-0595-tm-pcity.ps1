@@ -5,7 +5,7 @@
 # Source SHA-256: 8d9cee49cebf28c66c6e7e7b6fc28a13e5f431f10710a97791e62d8db0cb465a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TM-PCITY.ANS by Tyme (TekLordZ); released in tl-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Psycho City
 # SAUCE Author: Tyme
 # SAUCE Group: TekLordZ
@@ -56,8 +56,4 @@ Write-Host '
 [34m  [0;33m█ ▀█▓▓████  [0;34m▀▀▀█▀▀▀ [0;33m▄ [0;34m▐[0;1;34;44m▀[0;34m▄[0;1;34;44m░[0;34m███▀  [0;33m███    [0;36m▓█ ▀▀▓    [0;33m█▓▄▄▄[0;34m▀▀▀▀▀  ▀█▀▀[0;33m▄░[0;34m▀[0;1;34;44m░[0;34m▀ ▒▀▀[0;1;34;44m░[0;34m▀▀[0;33m░[0m
 [33m ▀[0m         [33m▀▀▀▓█▄▄▄███▓▄ [0;34m▀▀▀▀  [0;33m▄███▓▀▀▀  [0;36m█[0m     [36m░    [0;33m▀█▓▓█████▄▄▄▄▄▄▓█▄ ▄ [0;34m▓[0;33m▐▓▄▄▓▄[0m
          [1;34mC    [0;33m▀   █▓█▀ ▓▀▀▀▀▀▀▀▀ ▓  [0;1;34mi[0m       [36m░[0m       [1;34mT  [0;33m▀[0m     [33m▀  ▓▀▀ [0;1;34mY[0;33m▀█▓   █▓▀▀[0m
-                                                                       [33m░▀[0m
-                               [37mxxx [0;1;37mPsycho City [0mxxx
-
-                                 [1mStaff: Veks[0m
-                                 [1mPrisoner #1[0m'
+                                                                       [33m░▀[0m'

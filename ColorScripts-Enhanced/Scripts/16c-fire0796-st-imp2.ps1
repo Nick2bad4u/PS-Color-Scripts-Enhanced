@@ -5,7 +5,7 @@
 # Source SHA-256: 392f0ab02f156a7a3911d8a194b28f3e7ec4ba23a15a655be270ee8e1a968fc0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-IMP2.ANS by Silverthorn (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: impure ( final )
 # SAUCE Author: Silverthorn
 # SAUCE Group: fire
@@ -32,19 +32,5 @@ Write-Host '
 [1;30m [0;35m▀[0;35;47m▓▓[0;35;40m▓░[0;1;30;40m▄▌ [0;35m░█[0;37;45m░[0;1;36;45m░[0;45m▓▒[0;35;40m▄[0;37;40m░░[0;1;35;40m░[0;35m [0;1;35m▄░░▒░[0;35m [0;1;35m▄▄[0;1;37;45m░[0;1;35;47m▓▓[0;1;35;40m██[0;35m▀[0;30;45m▒[0;35;40m  [0;1;31;40m░[0;35m [0;1;37m ░[0;30;45m▓[0;1;37;40m▒░ [0mit sai[1;35m░[0m:[35m [0;1;37mimpure[0;35m. [0;1;35m ░ [0;35m [0;1;35m▀[0;1;35;45m███████▓▓▓▓▓[0m
 [1;30m■▄[0;35m ▓░[0;1;30m▄▓░[0;35m [0;1;30m░[0;35m ▀█[0;37;45m▒░░[0;35;40m▓▄ [0m   [1;35;40m▀▀[0;34m▒[0;1;35m▀▀▓██▀▀[0;35m  [0;30;45m▓[0;1;31;40m░[0;35m [0;36m░[0;35m [0;1;37m   ░ ▀[0mit''s jeepee board[35m.[0;37m [0;35m░[0;1;35m░░[0;35m  [0;1;35m▀▀▀[0;1;35;45m███████[0m
 [1;30m░▒▀[0;35m▒[0;1;30m▀st.f[0;35mi[0;1;30mre[0m░░[1;36m [0;35m▀▀▀[0;30;45m▒[0;35;40m▀[0m   [1;35;40m░[0;35m [0;1;37m▀[0m░[1;35m░[0;35m  [0;1;31m░[0;1;37m░[0;35m [0;37m [0;35m [0;37m░ [0;1;37m░░ ▄[0m    et c''est full élite[35m.[0;1;35m  [0;35m░[0;1;35m░░░[0m░[35m [0;37m [0m   [1;30m [0;1;35m▀[0m
-   [35m░[0m         [37m░[0m              [1;37m▀ [0;35m [0;1;36m ■[0;35m [0;37m▀ ▀[0m     [1;37m░[0;35m  [0;30mdamn. i''m insane.. draw like this[0m
-[1;30;47m-[0;1;30;40m▓▒░--cut-genre-----------░▒░----weird@uh?------------[0m░[1;30m--[0m░[1;30m-[0m░░[1;30;47ms[0milverthorn[1;30m-[0mnotes[1;30m-[0m
-[1;30moh. et vive le français. personne nous comprend. et vu que c''est pour le 514,[0m
-[1;30malors j''en profite. z''avez vu la patte du R? c''est ben la seule avec un shading[0m
-[1;30m*normal*. wow. reste que ca ressemble pu ben ben à ce qui a passé dans la[0m [1;30mcompo[0m
-[1;30mde jeepee. ah pis j''m''en calisse pas mal. ca fait un bon petit logo pareil.[0m
-
-[1;30malors pas de greets. ou non, je greets sybaris et balrog d''ultrabeat. excelent[0m
-[1;30mmusic disk. 100%.[0m [1;30met extremist itoo, pour pas avoir oublier de me caller à [0m
-[1;30m3h du matin. merci.[0m
-
-[1;30met j''emmerde l''esti de GRC trou de cul qui est venu tout décrisser la scène [0m
-[1;30mwarez du 418. j''vous embroche dans l''efourcheuse de young, mode 128. tin[0m
-[1;30mtabarnak.[0m
-
-[1;30malors bonjours à tous, et au mois prochain, où je vais avoir 2 belles chicks.[0m'
+   [35m░[0m         [37m░[0m              [1;37m▀ [0;35m [0;1;36m ■[0;35m [0;37m▀ ▀[0m     [1;37m░[0;35m  [0;30m                                 [0m
+[1;30;47m-[0;1;30;40m▓▒░--cut-genre-----------░▒░----weird@uh?------------[0m░[1;30m--[0m░[1;30m-[0m░░[1;30;47ms[0milverthorn[1;30m-[0mnotes[1;30m-[0m'

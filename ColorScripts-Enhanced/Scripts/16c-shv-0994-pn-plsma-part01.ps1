@@ -5,7 +5,7 @@
 # Source SHA-256: 1ab74f87ea1d687c3cb7045672448b4860c8f3594f1f26537cecdeaa68c1df1a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PN-PLSMA.ANS by Piston (Shiver); released in shv-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Plasma
 # SAUCE Author: Piston
 # SAUCE Group: Shiver
@@ -38,7 +38,7 @@ Write-Host '
         [1;34m▀[0m
 
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30mPLASMA ANSi for SPLiNT  █[0m  [1;30m131 Lines █ Completed - 07/09/94 █ Shiver Artworks 94[0m
+[1;30m                        █[0m  [1;30m          █                      █                   [0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 
 [1;30;41mScreen No. 3 - Piston.                                 ░▒▓[0;1;37;40m ▄▄▄▄▄▄▄[0;1;33;40m▄[0;1;37;40m▄[0;1;33;40m▄▄▄[0m [1;30;41m▓▒░     [0m

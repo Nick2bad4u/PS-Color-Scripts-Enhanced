@@ -5,7 +5,7 @@
 # Source SHA-256: 3c20bc51fe741e2215fb59daedae1d52a6ed65b1182ed0c38b6acfe21f13bdbd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ax-blnd.ans by Alla Xul (b2k-001); released in b2k-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 27-51
 # Columns: 1-80
 
@@ -33,5 +33,5 @@ Write-Host '
                      [33m ▄▓▓▓▀[0;37m   [0;32m░░[0;37m [0;32m [0m           [33m░░░[0m              [31mby [0;1;34malla xul[0;31m for[0m
                   [33m  ▄▓▓▐▀[0m                               [31m   [0m      [31m the blender[0m
      [33m▀■■[0;37m  [0;33m▄▄▄■■■▓▓▀▀[0;37m  [0;33m ▌[0m                                       [31mconcept words :[0m
-         [33m▄▄■■[0;37m [0;33m▀▀[0m      [33m▐[0m                             [31mmonster, eating, amsterdam[0m
+         [33m▄▄■■[0;37m [0;33m▀▀[0m      [33m▐[0m                             [31m                          [0m
 [37m [0;33m▄■■ ▀▀▀[0m'

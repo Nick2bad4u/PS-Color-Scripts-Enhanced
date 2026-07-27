@@ -5,7 +5,7 @@
 # Source SHA-256: f2d224f99af91a39c1cf2191cebc69c44844919d1b9c42755ee1d8b822bf1819
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-C9E.ANS by Sliver Cut (fsh-0194); released in fsh-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -22,7 +22,7 @@ Write-Host '
                      [37;40m▄    [0;1;31;47m▓[0;1;31;40m▄ [0m▀▀██[35;47m░▒[0m    [35;47m ░▒[0m [37;40m█[0;35;47m░▒[0m       [37;40m▀[0m
                           [1;31;40m▀[0;1;31;47m▓▓▒░[0;35;47m░▒▒▓[0;35;40m█   [0;37;40m▐[0;35;40m▀ [0;37;40m█[0;35;47m░░▒▓[0;35;40m▄▄    [0;1;30;40m▄[0m                [31m▄▄███▄▄[0m
                      [1;30m▀[0m     [1;31m▀[0;1;31;47m▒░[0;35;47m░▒▒▓[0;35;40m▀[0m     [37;40m▄[0;37;47m [0;35;47m░░▒▓[0;35;40m▀▀▀▀▀[0m                 [31;40m▄█████████▄[0m
-       [37;40mFLASH(tm) PRODUCTION   ansi by:▄▀▀▀[0m     [37;40mSL[0;35;40mi[0;37;40mVER CuT PRESENTS [0;31;40m▐█[0;1;31;41msc-c9e.ans[0m
+       [37;40m                               ▄▀▀▀[0m     [37;40m  [0;35;40m [0;37;40m                 [0;31;40m▐█[0;1;31;41m          [0m
                      [1;30;40m∙ [0mp [1;30m∙ [0mr [1;30m∙ [0me [1;30m∙ [0ms [1;30m∙ [0me [1;30m∙ [0mn [1;30m∙ [0mt [1;30m∙ [0ms [1;30m∙[0m             [31m▐███████████[0m
                                                                    [31m▐█[0;1;31;41m▐█▌[0;31m███████[0m
                           [35m▄▄▄▄████▄▄▄▄[0m                             [31m██[0;1;31;41m██[0;31m████████[0m

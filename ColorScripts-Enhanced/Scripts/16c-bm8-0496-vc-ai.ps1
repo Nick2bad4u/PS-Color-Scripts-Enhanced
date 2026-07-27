@@ -5,7 +5,7 @@
 # Source SHA-256: fdc299fff47f24046e6a379caa131943c8e3e57bee11420f4343795ccaa25cab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC!AI.ANS by VOiCE (BLACK MAiDEN); released in bm8-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Abstract Illusions
 # SAUCE Author: VOiCE
 # SAUCE Group: BLACK MAiDEN
@@ -41,10 +41,10 @@ Write-Host '
  [1;30m░[0m           [1;30m░░░[0;1;31m░░░░░▒░░▒░[0;1;30m░[0;1;31m░▒▒▒░░[0;1;30m░[0;1;31m░[0;1;30m░░[0;33m░░[0;1;30m░░[0m [1;30m░ ░[0;33m░░[0;1;30m░[0;33m░[0;1;30m░[0;1;31m░[0;1;30m░[0;1;31m░░▒░▒▒▒▓▒▒░[0;1;30m░░[0m  [1;30m░[0;30m  Once upon[0m
            [1;30m░[0m    [1;30m░░░[0;1;31m░░[0;1;30m░░[0;1;31m░[0;1;30m░░[0m [1;30m░░[0;1;31m░░[0;1;30m░░[0m [1;30m░[0m  [1;30m░░[0m      [1;30m░░[0m [1;30m░[0m [1;30m░[0m [1;30m░░[0;1;31m░[0;1;30m░[0;1;31m░░░░░[0;1;30m░░[0m  [30ma time, in an[0m
                    [1;30m░░[0m  [1;30m░[0m     [1;30m░░[0m           [1;30m░[0m           [1;30m░[0m [1;30m░░░░░[0m   [1;30m░[0;30m ordinary [0m
-                                                         [30mforest/Down along a[0m
-     [30mSpecial greetings go[0m    [1;30m`$$$$$$[0m$[1;30m$&a, [0m        [1;30m.,.[0m  [30mriver, still farther to[0m
-[30mto BACKYARD, the greatest[0m     [1;30m`$$$$$$$[0m$$[1;30;47m$[0;1;30;40m$,[0m  [1;30m.,s&[0m$[1;30m$²°[0m  [30mthe west/There roamed an[0m
-[30mLuxembourg Metal Band![0m              [1;30m°²$[0m$$$[1;30m$[0m    [1;30m`$$''[0m      [30melderly wolf...[0m
+                                                         [30m                   [0m
+     [30m                    [0m    [1;30m       [0m [1;30m     [0m        [1;30m   [0m  [30m                       [0m
+[30m                         [0m     [1;30m        [0m  [1;30;47m [0;1;30;40m  [0m  [1;30m    [0m [1;30m   [0m  [30m                        [0m
+[30m                      [0m              [1;30m   [0m   [1;30m [0m    [1;30m    [0m      [30m               [0m
                          [1;30m.a&$$$$$&a,.[0m [1;30m$$[0m$[1;30;47m$[0;1;30;40m$[0m      [1;30m` [0m   [1;30mi[0m [1;30ml[0m [1;30ml[0m [1;30mu[0m [1;30ms[0m [1;30mi[0m [1;30mo[0m [1;30mn[0m [1;30ms[0m
    [1;30m-[0m [1;30m--[0m [1;30m---------------[0m [1;30m,$[0;1;30;47m$[0m$[1;30m$$$$$$²²²"$$$[0m$[1;30m$[0m [1;30m.,a&$[0m$$[1;30m$b. -------------------[0m [1;30m-[0m
      [1;30m░[0m [1;30m░░░[0m [1;30m░░░░[0m [1;30m░░░░░░[0m  [1;30m$[0m$$[1;30m$$$$''░[0m [1;30m░░[0m  [1;30m$$$[0m$[1;30m$[0m [1;30m░`²$[0m$$$[1;30;47m$[0;1;30;40m$''[0m [1;30m░░░[0m [1;30m░░░░░░[0m [1;30m░░░░[0m [1;30m░ ░[0m

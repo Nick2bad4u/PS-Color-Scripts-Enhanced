@@ -5,7 +5,7 @@
 # Source SHA-256: c6794be76662aa2e048adbf22afac5e2b0389dc0d1be52a266c5b847a8844606
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: gDm-SLackPack.ans by GngrDr3dM4n (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SlackPack 001
 # SAUCE Author: GngrDr3dM4n
 # SAUCE Group: Slackers
@@ -44,23 +44,23 @@ Write-Host '
 [34;40m██████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀███████[0m
 [34;40m███▀[0;37;40m                                                                      [0;34;40m▀████[0m
 [34;40m█▀[0;37;40m                                                                          [0;34;40m▀██[0m
-[37;40m       [0;1;36;40mD[0;36mamn [0;1;32mS[0;32mlackers[0;36m.[0;37m [0;1;36mT[0;36mhey''re [0;1;36mA[0;36mll [0;1;36ma[0;36mlike.[0;37m                                      [0;34m█[0m
-[37m                                       [0;1;36mA[0;36m [0;1;36mr[0;36mefuge [0;1;36mf[0;36mrom [0;1;36mt[0;36mhe [0;1;36md[0;36may-[0;1;36mt[0;36mo-[0;1;36md[0;36may...[0m
-[37m       [0;36m"[0;1;36mT[0;36mhis [0;1;36mi[0;36ms [0;1;36mi[0;36mt... [0;1;36mt[0;36mhis [0;1;36mi[0;36ms [0;1;36mw[0;36mhere [0;1;36mI[0;36m [0;1;36mb[0;36melong..."[0m
+[37;40m       [0;1;36;40m [0;36m    [0;1;32m [0;32m       [0;36m [0;37m [0;1;36m [0;36m       [0;1;36m [0;36m   [0;1;36m [0;36m     [0;37m                                      [0;34m█[0m
+[37m                                       [0;1;36m [0;36m [0;1;36m [0;36m      [0;1;36m [0;36m    [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;36m [0;36m  [0;1;36m [0;36m     [0m
+[37m       [0;36m [0;1;36m [0;36m    [0;1;36m [0;36m  [0;1;36m [0;36m     [0;1;36m [0;36m    [0;1;36m [0;36m  [0;1;36m [0;36m     [0;1;36m [0;36m [0;1;36m [0;36m         [0m
 
 
-[37m   [0;1;32mW[0;32mell [0;1;32mh[0;32mere [0;1;32mi[0;32mt [0;1;32mi[0;32ms [0;1;32mt[0;32mhe [0;1;32mf[0;32mirst [0;1;32mS[0;32mlack [0;1;32mP[0;32mack [0;1;32m001[0;32m. [0;1;32mF[0;32mirst [0;1;32ma[0;32m [0;1;32mB[0;32mIG [0;1;32mFUCK[0;32m [0;1;32mYOU[0;32m [0;1;32mt[0;32mo [0;1;32ma[0;32mll[0m
-[37m  [0;1;32mt[0;32mhe [0;1;32mL[0;32mamers[0;1;32m![0;32m [0;1;32mY[0;32mou [0;1;32mk[0;32mnow [0;1;32mw[0;32mho [0;1;32my[0;32mou [0;1;32ma[0;32mre.[0;1;32m.[0;32m. [0;1;32mY[0;32mou [0;1;32md[0;32midn''t [0;1;32mt[0;32mhink [0;1;32mw[0;32me [0;1;32mw[0;32mould [0;1;32ml[0;32mast[0m
-[37m  [0;1;32md[0;32mid [0;1;32my[0;32mou? [0;1;32mW[0;32mell [0;1;32mh[0;32mere [0;1;32mw[0;32me [0;1;32ma[0;32mre [0;1;32mw[0;32mith [0;1;32mo[0;32mur [0;1;32mf[0;32mirst [0;1;32mANSi[0;32m [0;1;32mp[0;32mack.[0;37m  [0;1;32mW[0;32me [0;1;32ma[0;32mre [0;1;32mn[0;32mot [0;1;32mt[0;32mwo [0;1;32mf[0;32maced[0m
-[37m  [0;1;32ms[0;32mtuffed [0;1;32ms[0;32mhirts. [0;1;32mW[0;32me [0;1;32ma[0;32mre [0;1;32mn[0;32mot [0;1;32ml[0;32mooking [0;1;32mf[0;32mor [0;1;32my[0;32mour [0;1;32ma[0;32mpproval.[0;37m [0;1;32mW[0;32me [0;1;32ma[0;32mre [0;1;32mT[0;32mIMELESS[0;1;32m.[0m
-   [1;32mW[0;32me [0;1;32mM[0;32make [0;1;32mo[0;32mur [0;1;32mo[0;32mwn [0;1;32ms[0;32mcene.[0;37m [0;1;32mW[0;32me [0;1;32ma[0;32mre [0;1;32mSLACKERS.[0m
-                                           [36mWe''re all alike.[0;1;32m.[0;32m.[0m
-[37m                                                               [0;1;30m<[0;1;32mG[0;32mngr[0;1;32mD[0;32mr3d[0;1;32mM[0;32m4n[0;1;30m>[0m
+[37m   [0;1;32m [0;32m    [0;1;32m [0;32m    [0;1;32m [0;32m  [0;1;32m [0;32m  [0;1;32m [0;32m   [0;1;32m [0;32m     [0;1;32m [0;32m     [0;1;32m [0;32m    [0;1;32m   [0;32m  [0;1;32m [0;32m     [0;1;32m [0;32m [0;1;32m [0;32m   [0;1;32m    [0;32m [0;1;32m   [0;32m [0;1;32m [0;32m  [0;1;32m [0;32m  [0m
+[37m  [0;1;32m [0;32m   [0;1;32m [0;32m     [0;1;32m [0;32m [0;1;32m [0;32m   [0;1;32m [0;32m    [0;1;32m [0;32m   [0;1;32m [0;32m   [0;1;32m [0;32m   [0;1;32m [0;32m  [0;1;32m [0;32m   [0;1;32m [0;32m      [0;1;32m [0;32m     [0;1;32m [0;32m  [0;1;32m [0;32m     [0;1;32m [0;32m   [0m
+[37m  [0;1;32m [0;32m   [0;1;32m [0;32m    [0;1;32m [0;32m    [0;1;32m [0;32m    [0;1;32m [0;32m  [0;1;32m [0;32m   [0;1;32m [0;32m    [0;1;32m [0;32m   [0;1;32m [0;32m     [0;1;32m    [0;32m [0;1;32m [0;32m    [0;37m  [0;1;32m [0;32m  [0;1;32m [0;32m   [0;1;32m [0;32m   [0;1;32m [0;32m   [0;1;32m [0;32m    [0m
+[37m  [0;1;32m [0;32m       [0;1;32m [0;32m       [0;1;32m [0;32m  [0;1;32m [0;32m   [0;1;32m [0;32m   [0;1;32m [0;32m       [0;1;32m [0;32m   [0;1;32m [0;32m    [0;1;32m [0;32m        [0;37m [0;1;32m [0;32m  [0;1;32m [0;32m   [0;1;32m [0;32m       [0;1;32m [0m
+   [1;32m [0;32m  [0;1;32m [0;32m    [0;1;32m [0;32m   [0;1;32m [0;32m   [0;1;32m [0;32m     [0;37m [0;1;32m [0;32m  [0;1;32m [0;32m   [0;1;32m         [0m
+                                           [36m                [0;1;32m [0;32m [0m
+[37m                                                               [0;1;30m [0;1;32m [0;32m   [0;1;32m [0;32m   [0;1;32m [0;32m  [0;1;30m [0m
 
-                           ;; Greets fly out to ;;
-[34m█[0;37m          [0;1;30m0zZ-U Shitty Zylone MaxMouse 2stoned phigan beardy opicron[0m         [34m█[0m
-[34m█▄[0;37m           [0;1;30mtilash[0m [1;30mLeQuack Cyber_Love paulie420[0m [1;30mdjatropine Cr1mson[0m          [34m▄█[0m
-[34m███▄[0;37m             [0;1;30mWestie[0m [1;30mEpimundo[0m [1;30mXqtr[0m [1;30mCyBER_ALiAS Roman[0m [1;30mCalcmanda[0m          [34m▄███[0m
+                                                  
+[34m█[0;37m          [0;1;30m                                                          [0m         [34m█[0m
+[34m█▄[0;37m           [0;1;30m      [0m [1;30m                            [0m [1;30m                  [0m          [34m▄█[0m
+[34m███▄[0;37m             [0;1;30m      [0m [1;30m        [0m [1;30m    [0m [1;30m                 [0m [1;30m         [0m          [34m▄███[0m
 [34m█████▄▄[0;37m                                                                 [0;34m▄▄█████[0m
 [34m███████████████████████████████████████████████████████████████████████████████[0m
 [37m [0;34m▀███████████████████████████████████████████████████████████████████████████▀[0m

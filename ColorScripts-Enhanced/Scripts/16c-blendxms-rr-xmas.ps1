@@ -5,7 +5,7 @@
 # Source SHA-256: 3e187d351fe34eadb8d094c953cd007ab58b21c9422abc97a983fd04757ff6f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-XMAS.ANS by riddler (blend productions); released in blendxms and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: X-MASH!!#@
 # SAUCE Author: riddler
 # SAUCE Group: blend productions
@@ -34,8 +34,4 @@ Write-Host '
               [31;40m   [0;1;37;40m▐[0;30;41m▓[0;31;40m    ▀   ▐▀    [0;37;40m▀[0;31;40m  [0;37;40m▀[0;1;37;47m░ [0m▀ [31m          [0;1;37m▐[0;31m  ▀   ▀ [0m
             [31m     [0;1;37m▀[0;31m         ▀        [0;1;30m░▓▌[0m            [1m▀[0m
               [31m                       [0;37m [0;1;30m▌[0;31m                       [0m
-           [31m                           [0;1;30m▀[0;31m [0m
-               [1;37mthis is my contribution to blend x-mas ''96 pack[0m.
-              [1;30m([0;1;37m [0mi[1m [0mknow[1m [0mit[1;30m''[0ms[1m [0mshitty[1;30m,[0;1;37m [0mbut[1m [0mi drew it in 12 minutes [1;30m)[0m
-
-[1m        [0m            [1mMERRY CHRISTMAS AND HAPPY NEW YEAR [0m![0m'
+           [31m                           [0;1;30m▀[0;31m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 84e7f8c12cd96a714bbfdf1c84416351bdaeef3b3cd56c67791c7ee2f5f7455f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRS-BANA.ANS by Crasher (zeit_04); released in zeit_04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bananahs shell
 # SAUCE Author: Crasher
 # SAUCE Date: 20030217
@@ -44,6 +44,6 @@ Write-Host '
 
 
                                                           [1m│││[0m
-                                         [1m    [0m crasher [1m [0m [1;33mbananahs[0m [1;33mshell[0;1;37m     [0m
-                                                 2003   [1;33mon the frost[0m
+                                         [1m    [0m         [1m [0m [1;33m        [0m [1;33m     [0;1;37m     [0m
+                                                        [1;33m            [0m
                                                           [1m│││[0m'

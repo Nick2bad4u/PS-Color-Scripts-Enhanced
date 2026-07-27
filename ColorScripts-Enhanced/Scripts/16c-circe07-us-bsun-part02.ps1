@@ -5,7 +5,7 @@
 # Source SHA-256: 562847ab1de01d2f32add1b142b88f10e46569d7281c9b782b9ad1cdb9725d2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BSUN.ANS by Arlequin + Darkman-Circe (Circe Ra Ra Ra); released in circe07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Sun
 # SAUCE Author: Darkman&Arlequin
 # SAUCE Group: Circe Ra Ra Ra
@@ -43,7 +43,4 @@ Write-Host '
     [1;37;47m▒[0;1;36;40m▓▓[0m   [1;47m▓██[0m [1;30m▀[0;1;30;47m▄[0;1;37;47m  [0;1;30;47m▄[0;1;30;40m▀█[0m ▀▀  [1;30m▄▄▄[0;1;36m [0;36m▀[0;1;36;46m▀██[0;36m [0;32m [0;36m░░[0;37m  [0;1;30m  [0m
     [1;47m▓██[0;1;30;40m▄[0m  [1;47m███[0;1;30;40m▄[0m  [1;30m▄█▄[0;1;30;47m▀[0;1;37;47m▄[0;1;30;40m▄[0m  [1;30m█▀[0;1;30;47m▀  ▀[0;1;30;40m▄▄▄▄[0m
       [1;30m▀▀[0m    [1;30m▀▀[0m   [1;30m▀[0m [1;30m▀▀[0m    [1;30m▄█[0;1;30;47m▄▄[0;1;30;40m▄[0m
-                         [1;30m▀███▀[0m
-
-Original Outlines           : Darkman  / CIRCE
-Coluoring, touchups and font: Arlequin / CIRCE[0m'
+                         [1;30m▀███▀[0m'

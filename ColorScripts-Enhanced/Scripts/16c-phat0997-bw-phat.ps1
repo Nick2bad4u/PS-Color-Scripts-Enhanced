@@ -5,7 +5,7 @@
 # Source SHA-256: 635d891bec611f99f55384cd18680a1c953cf2e035ba870c926f5d6a9e04b454
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW_PHAT.ANS by black weasel (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: panic goodbye
 # SAUCE Author: black weasel
 # SAUCE Group: Phat Studios '97
@@ -39,8 +39,4 @@ Write-Host '
     [1;30m▀▄[0m     [32m [0;35m▄[0;1;35m▄▄[0;1;35;45m▄[0;1;35;47m▓[0;1;35;45m█[0;1;35;47m█▀▐[0;1;35;45m█▌▀▀[0;35m▀[0;37m       [0;1;35m░[0;34m▄[0;1;34;44m▄▄▄[0;34m▄[0m      [33m▐[0;1;33;43m▄[0;1;37;43m▄[0;1;33;43m░[0;33;47m▄▄[0;37;40m▌[0;33;40m█[0;1;33;43m▐▀▀[0;33;41m█▓░[0;31;40m▌█▀[0;1;31;40m▀▀[0;31m▀▌[0;37m [0;36m([0;35mboil[0;36m/[0;35mphat[0;36m)[0m
          [35m▐[0;1;35;45m▄███[0;1;35;47m▀░░▓[0;1;35;45m█▀    [0;35m▌[0m     [37m   [0;34m▐[0;1;34;44m▐[0;1;34;47m▀▓[0;1;34;44m▀▀[0;34m▌[0m      [33m▀[0;1;33;43m▀▓▓░[0;33m██[0;1;33;43m▐[0;33m█▀▀▀▀[0;31m▀▀[0m
          [35m [0m
-[1;30m------------------------------------------------------------(fischkacke)--------[0m
-[1;30malso, ich nehme eine cola, eine bruenette und ein bisschen fischkacke. ja, ich [0m
-[1;30mbezahle bar.[0m
-
-[1;30m//signed black weasel (boil.phat) - bw_@gmx.net[0m'
+[1;30m------------------------------------------------------------(fischkacke)--------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5efb08b34ce8bc393d49329ed82aa0bc7200a5b9c5b468b845ccb0ec2aec100f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZK-SKL1.ANS by Zulu King (skl-0194); released in skl-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -57,6 +57,6 @@ Write-Host '
                [34m▓█    [0;1;37m·    [0;34m▓[0m         [1;30m·[0m      [1;37m·[0m
 [1;37m  [0;1;30m·    [0;1;37m·[0m       [34m█ · [0;1;30m*    [0;34m· █[0m         [37m*[0m                              [1;37m·[0m           [1;37m·[0m
      ·       [34m■ ·  ·   [0;1;30m·   [0;34m■[0m                                        [37m·[0m
-     [37m*[0m                           [1;37m·[0m                   [1;37mZ[0;1;35mU[0;35mL[0;1;30mU K[0;32mi[0;1;32mN[0;1;37mG[0m
-                                       [1;37m"Wofür ist das denn, verdammte scheiß"[0m
+     [37m [0m                           [1;37m [0m                   [1;37m [0;1;35m [0;35m [0;1;30m   [0;32m [0;1;32m [0;1;37m [0m
+                                       [1;37m                                      [0m
 [1;37m   ·[0m               [1;37m· *   [0m·        [1;30m·[0m                [1;30m·[0m             [1;30m·[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b16615b2dee47d49859ff916db6dc980c4c9033d8db590a4442d681b8399a322
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-FNTZ.ANS by zir (FiRE); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo collection, summer '23.
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -17,16 +17,16 @@
 # Columns: 1-80
 
 Write-Host '
-[38;2;171;171;171;48;2;0;0;0m andy tends bar[0;38;2;0;171;171;48;2;0;0;0m,[0;38;2;171;171;171;48;2;0;0;0m because he doesn[0;38;2;0;171;171;48;2;0;0;0m''[0;38;2;171;171;171;48;2;0;0;0mt judge anyone and has done everything and[0m
-[38;2;171;171;171;48;2;0;0;0m been everywhere and can talk your ear off for hours if you have nothing to say[0m
-[38;2;171;171;171;48;2;0;0;0m but is an excellent listener too[0;38;2;0;171;171;48;2;0;0;0m.[0;38;2;171;171;171;48;2;0;0;0m real relatable guy[0;38;2;0;171;171;48;2;0;0;0m.[0;38;2;171;171;171;48;2;0;0;0m not built for this world[0m
-[38;2;171;171;171;48;2;0;0;0m but an ace dream hotel bartender[0;38;2;0;171;171;48;2;0;0;0m.[0m
+[38;2;171;171;171;48;2;0;0;0m               [0;38;2;0;171;171;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0m                 [0;38;2;0;171;171;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0m                                          [0m
+[38;2;171;171;171;48;2;0;0;0m                                                                               [0m
+[38;2;171;171;171;48;2;0;0;0m                                 [0;38;2;0;171;171;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0m                   [0;38;2;0;171;171;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0m                         [0m
+[38;2;171;171;171;48;2;0;0;0m                                 [0;38;2;0;171;171;48;2;0;0;0m [0m
 
-[38;2;171;171;171;48;2;0;0;0m the other day i found these weird living jewels in an elevator shaft[0;38;2;0;171;171;48;2;0;0;0m,[0;38;2;171;171;171;48;2;0;0;0m and i[0m
-[38;2;171;171;171;48;2;0;0;0m realized that they must be food for the glowing underground lakefish[0;38;2;0;171;171;48;2;0;0;0m.[0m
+[38;2;171;171;171;48;2;0;0;0m                                                                     [0;38;2;0;171;171;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0m      [0m
+[38;2;171;171;171;48;2;0;0;0m                                                                     [0;38;2;0;171;171;48;2;0;0;0m [0m
 
 [38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;255;48;2;0;0;0m------------------------------------------------------------------------------[0m
-[38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;255;255;48;2;0;0;0m░[0;1;38;2;255;255;255;48;2;0;171;171mZIR-DWCV.ANS[0;1;38;2;87;87;87;48;2;0;0;0m░[0m
+[38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;255;255;48;2;0;0;0m░[0;1;38;2;255;255;255;48;2;0;171;171m            [0;1;38;2;87;87;87;48;2;0;0;0m░[0m
 [38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;255;48;2;0;0;0m------------------------------------------------------------------------------[0m
 
                                                         [1;38;2;255;255;255;48;2;0;0;0m░░[0;1;38;2;255;255;87;48;2;0;0;0m░░░░░░[0m

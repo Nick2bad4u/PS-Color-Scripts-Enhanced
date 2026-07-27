@@ -5,7 +5,7 @@
 # Source SHA-256: 1a4f67c54f0597d1e9ac5ee3866b3aa7bb75329a5def83d8c9c35266187eb228
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wz-smallscale-8px.ans by Whazzit (Blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Smallscale 8px
 # SAUCE Author: Whazzit
 # SAUCE Group: Blocktronics
@@ -16,8 +16,8 @@
 # Columns: 1-80
 
 Write-Host '
-[31mI''ve Got my Eyes on You[0m
-[31m(She''s got a Secret)[0m
+[31m                       [0m
+[31m                    [0m
 [1;30mw    [0;1;37m▐ [0;1;37;41m▐[0;1;37;40m▌ ▐▌▌[0;1;31;40m▐██[0;1;31;43m▒[0;1;31;40m [0;1;37;40m▄▄▀▄[0;33m░[0;1;31;43m▒[0;1;31;40m▀▄[0;1;31;43m▓[0;1;31;42m▀[0;30;42m▄[0;30;40m [0;30;45m▀[0;1;31;45m▄[0;1;31;40m████[0;1;31;43m█▓▓▓▓▓▒▒░[0;30;43m▀[0;30;40m   [0;1;31;40m▀████████████████[0;1;35;46m▓[0;1;31;40m█[0;1;31;43m█    [0;33m▐ [0;1;37m█▌▐[0;1;37;44m▌[0m
 [1;30mz   [0;1;37m▐ [0;1;37;41m▌[0;1;37;40m█  [0;1;37;42m█[0;1;37;40m▐▌ [0;1;31;40m▀[0;1;31;43m▓[0;1;31;40m [0;1;37;40m█[0;1;37;45m█[0;1;37;40m █[0;33m░[0;1;31;43m▒[0;1;31;40m▀▄[0;1;31;43m▓[0;30;42m▄[0;1;31;40m▄[0;1;31;45m▀▄[0;1;31;40m█[0;1;31;43m█[0;1;31;40m█[0;1;31;46m█[0;1;31;40m██████[0;1;31;43m▓▓▓▒▒░░░[0;30;43m▀[0;30;40m  [0;1;31;40m▀██████████████[0;1;35;46m▓[0;1;31;40m█[0;1;31;43m█   [0;30;43m▐[0;33;40m▐ [0;1;37;40m█[0;1;37;45m▌[0;1;37;40m▐[0;1;37;44m▌[0m
 [1;30m/   [0;1;37m▌▐[0;1;37;41m [0;1;37;40m▌ ▐▌▐ ▄▌ █[0;1;37;45m█[0;1;37;40m █[0;33m░[0;30;43m▀[0;1;31;40m▀▄[0;1;31;43m▓[0;30;42m▐[0;1;31;40m█[0;30;45m▐[0;1;31;40m█[0;1;31;43m██[0;1;31;46m█[0;1;31;40m██[0;1;31;46m██[0;1;31;40m████▀ [0;33m▄▄▄▄[0;30;43m▄▄  ▀[0;30;40m  [0;1;31;40m▀███████████[0;1;35;46m▓▓[0;1;31;40m█[0;1;31;43m    [0;30;43m▐ [0;30;40m [0;1;37;40m▐[0;1;37;45m▌[0;1;37;40m  ▐[0m

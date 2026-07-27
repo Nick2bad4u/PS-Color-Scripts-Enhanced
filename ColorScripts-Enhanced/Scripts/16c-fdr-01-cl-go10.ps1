@@ -5,7 +5,7 @@
 # Source SHA-256: 82ab8a496500fa64b0095ed0032ccb47a8f1d1e3f77f94591891b6ef37e782e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-GO10.ANS by Cleaner (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Goto10
 # SAUCE Author: Cleaner
 # SAUCE Group: Fire Dream
@@ -31,7 +31,7 @@ Write-Host '
  [1;30m▄[0m [1;30m▄▄[0m [1;30m▄▄▄ ▄■▀[0m   [1;30m▀[0m [1;30m▄[0m [1;30m▄[0m [1;30m ▄ [0m   [1;30m▄[0m [1;30m▄▄ ▄▄▄ ▄[0m [1;34m   [0;1;30m▀[0;1;34m [0;1;30m▄[0;1;34m [0;1;30m▄[0;1;34m [0;1;30m▄[0m [1;30m▄▄[0m [1;30m█[0m [1;30m  ▄ ▄ [0;1;33m  [0m [1;30m█▄[0m [1;30m▄▄▄[0m [1;30m▄[0m [1;30m▄ ▄■[0m
 
 
-  Goto[1m10 ■[0m■[1m■ ([0mFrench[1m) [0mBBS and Minitel Archives [1m■[0m■[1m■ [0mSite [1m: [0mhttp[1m://[0mwww[1m.[0mgoto10[1m.[0mfr
+      [1m   ■[0m■[1m■  [0m      [1m  [0m                         [1m■[0m■[1m■ [0m     [1m  [0m    [1m   [0m   [1m [0m      [1m [0m  
 
-  Ansi by [1mCleaner,[0m December 2012
+          [1m        [0m              
 [30m■ANSi■[0m'

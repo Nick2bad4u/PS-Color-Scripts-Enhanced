@@ -5,7 +5,7 @@
 # Source SHA-256: a8c039c2c835461dc3b9b2ffe47efbc33371483a6b08483513b6f6afb1719319
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-COLY.ans by Zeus Ii (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -37,11 +37,4 @@ Write-Host '
 [33m▄▀████[0;1;33;43mFacebook if you[0;33m████[0;30m█ [0;33m▓▓██ ▐▄▄▄▄[0m       [1;30m░[0m     [33m░[0m      [36m▄  █ █▄▀███[0;36;46m [0;1;36;46m░[0;36m█▌[0;1;30m▐█[0;1;30;47m▓[0;1;30;40m██ [0;1;31;41m██[0m
 [1;31;40m [0;33m▀▀▀▄▀█[0;1;33;43mwant to use it.[0;33m██▓[0;30m█ [0;33m▓▒▒██[0;1;30;43m▀▄[0;33m█[0;1;30;43m░░▓██[0;1;30;40m▄  ▄[0m       [36m▄ █ ████▐██▄████████ [0;1;30m█▀▀██ [0;36m▄▄[0m
 [33m▄▄[0;1;30m▄ [0;33m▀▀▄▀▀█[0;1;33;43mHugz! /ZII[0;33m████▒[0;30m█ [0;33m█▓▓▓██▄[0;1;30;43m░░▓█[0;1;30;44m▀▄[0;1;30;40m▀  [0;1;30;44m▒[0;1;30;40m▄▌  [0;33m░ [0;36m██▐█▌███▄█ [0;1;30m▄▄▄[0;36m▀▀▀▀▀██▄▄██▄▄█[0;1;36;46m░[0;36m█[0m
-[33m▄▄[0m     [33m▀▀ ▄▄▀▀▀██▀▀█████░[0;30m█  [0;33m▀▀[0;1;30;43m▀▄░░▒▓▓█[0;1;30;40m▀   ▀ [0;1;30;44m▓[0;1;30;40m▌  [0;36m▓█▄█▄██[0;1;36;46m░[0;36m████ [0;1;30m████████▄[0;36m▀███▀▀▀▀▀▀[0m
-
-
-
-
-[37m-----8<---A set featuring Arseface, America, What Is That and Viking------------[0m
-
-'
+[33m▄▄[0m     [33m▀▀ ▄▄▀▀▀██▀▀█████░[0;30m█  [0;33m▀▀[0;1;30;43m▀▄░░▒▓▓█[0;1;30;40m▀   ▀ [0;1;30;44m▓[0;1;30;40m▌  [0;36m▓█▄█▄██[0;1;36;46m░[0;36m████ [0;1;30m████████▄[0;36m▀███▀▀▀▀▀▀[0m'

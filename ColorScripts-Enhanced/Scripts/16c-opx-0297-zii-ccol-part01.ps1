@@ -5,7 +5,7 @@
 # Source SHA-256: 28542289701204665c52f7415828bf111e258e07447935aa400f1aed57cc17c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-CCOL.ANS by Zeus II (opium); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Colly jan/feb '96
 # SAUCE Author: Zeus II
 # SAUCE Group: opium
@@ -17,8 +17,8 @@
 Write-Host '
                 [1;30m▄▄■[0m  [32m█▄█[0m
             [1;30m▄██▀ [0m   [30;42m░[0;1;32;42m■[0;32m [0;1;32;42m▄[0;32m█[0m
-           [1;30m▐▓[0;1;30;47m▓[0;1;30;40m▌[0m      [32m▄■▀[0m    [1;32mA minor logo-colly filled with random shit.[0m
-            [1;30m▀[0;1;30;47m▓▓[0;1;30;40m█▄▄ [0m [1;32;42m ░[0m [1;32;42m▓▌[0m   [1;32mFor more of such, catch CIA''s aquisitions.[0;1;30m■[0m
+           [1;30m▐▓[0;1;30;47m▓[0;1;30;40m▌[0m      [32m▄■▀[0m    [1;32m                                           [0m
+            [1;30m▀[0;1;30;47m▓▓[0;1;30;40m█▄▄ [0m [1;32;42m ░[0m [1;32;42m▓▌[0m   [1;32m                                          [0;1;30m■[0m
                [1;30m▀▀▀▀▀[0m [1;32;42m▒[0;1;32;40m▀[0;1;32;42m▀[0;32m [0;1;30m▄▄▄[0m  [1;32mI[0m [1;32mHope spring gets here soon..//Zeus II[0m [1;30m▄[0m
                            [1;30m▀▀▓█▄[0m                                 [1;30m▀[0m [1;30m▀▀█▓▀[0m
                              [1;30m▐[0;1;30;47m▓▓[0;1;30;40m▌[0m                                    [1;30m▐[0m
@@ -39,5 +39,4 @@ Write-Host '
                      [1;31;40m▄[0m   [36m▀▀▀▀▀▀[0m            [36m▀▀▀▀▀▀[0m    [31m▄[0m          [36m▀▀▀▀ [0;31m▄▄▌[0m
            [1;31m■[0m     [1;31m▄[0m   [1;31m [0m    +o shaman    +46-46-123890     [31m▄[0m      [31m [0;36m  [0;1;31m [0;31m▀▀[0;1;31m▒[0m
                                                              [31m■[0m   [31m▀[0m
-[37m--------.x< Diabolic Rites >x.--------------------------------------------------[0m
-[37m [0m'
+[37m--------.x< Diabolic Rites >x.--------------------------------------------------[0m'

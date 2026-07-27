@@ -5,7 +5,7 @@
 # Source SHA-256: efbf69d5dda22b1567800a4aa9f8b358d4067eaa952128f18a21fba795cecc75
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-NY01.ANS by Legion 07/98 (#4) (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 'Nymph 1'
 # SAUCE Author: Legion 07/98 (#4)
 # SAUCE Group: Eerie
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-no cheap meaning, no comic book heroes.  [1;34;46mi don''t know what i''m doing.[0m
+                                         [1;34;46m                            [0m
 
 
 

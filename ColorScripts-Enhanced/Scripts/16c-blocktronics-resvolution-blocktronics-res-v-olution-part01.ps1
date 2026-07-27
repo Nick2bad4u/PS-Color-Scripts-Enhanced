@@ -5,7 +5,7 @@
 # Source SHA-256: e60e7e5f22989d906c7b8afe36ba18900047a60bd7589862e0a50aadd092653c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _blocktronics_res[v]olution.ans by Avenging Angel + Enzo (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -22,8 +22,8 @@ Write-Host '
 
            [35m▄▄ ▄▄▄[0m
            [35m▀[0;1;35;45m▀[0;35m▀▀▀▀[0m
-            [35m██[0;37m [0;32m_[0;37m [0;1;32minnovation is not just about creating new things[0;32m,[0m
-            [35m▒▒[0m     [1;32mbut also to prevent the end of something good[0m [35m ▒▒[0m
+            [35m██[0;37m [0;32m [0;37m [0;1;32m                                                [0;32m [0m
+            [35m▒▒[0m     [1;32m                                             [0m [35m ▒▒[0m
                                                              [35m▄▄▄▄▄[0;1;35;45m▄[0;35m█[0m
                                                              [35m▀▀▀[0;37m [0;35m▀▀▄[0m
 

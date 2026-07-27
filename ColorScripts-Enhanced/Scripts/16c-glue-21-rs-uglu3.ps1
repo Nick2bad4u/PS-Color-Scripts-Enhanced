@@ -5,7 +5,7 @@
 # Source SHA-256: 5709f45185930eee4d15085eafbfbdb1b86667b2e355fdb230da344eaa73b741
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-UGLU3.ANS by rorshack (glue + maiden brazil); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: g l u e g l u e g l u e g l u e g l
 # SAUCE Author: rorshack
 # SAUCE Group: glue + maiden brazil
@@ -43,12 +43,11 @@ Write-Host '
 [1;34m░[0;1;34;44m▓█[0;1;34;40m▀[0;1;37;40m█[0;34m█▐[0;1;34;44m▀▀[0;1;37;44m▀▀[0;1;34;44m▀[0;34m▌█ █   [0;37m [0;1;37m▀▀▀▀▀[0m ░[1;44m░[0;1;40m███[0;1;34;44m█████▌▓░[0;34m█ [0;37m [0;34m  █▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37;44m▐[0;1;37;47m▄[0;1;37;40m██  [0;1;37;44m▌[0;1;34;44m█ [0;30;44m█[0;1;34;44m▐█▐██▓▒░░[0;34m█[0;1;34m░[0m
  [1;34;44m██[0;1;37;40m▄[0;1;37;44m█▄[0;1;34;40m▄▄▄▄▄▄▄[0;1;34;44m▄▄▄▄▄ ▄▄  ▄[0;34m█▀▀▀▀▀▀▀▀▀█▀▀▀▀▀ [0;37m [0;34m ░░[0;30;44m▓▒░[0;34;40m▓[0;30;44m░░░[0;34;40m█[0;1;37;44m │▌█▐[0;1;37;40m███▄▄[0;1;37;44m▌[0;1;34;44m█ [0;30;44m▀[0;1;34;44m▐█▐████[0;34m███[0m
 [37m [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▐[0;1;37m██[0;1;34m█[0;1;37m█[0;1;34;44m▐▌░[0;34m▌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▀[0m
-  [1;30m: ..it''s been quite some time (one year?) since I have done my last ansi. ∙[0m
-  [1;30m:[0m [1;30myou know something.. [0mansi[1;30m rules. >> [0m>[1;30m >[0m>>[1;30m> I don''t have enough words on[0m [1;30m∙[0m
-  [1;30m|[0m [1;30mmy vocabulary to greet everyone that should be greeted, but I must say[0m  [1;30m∙[0m
-  [1;30m│[0m [1;30mthat I love you all. Thanks for everything, the [0mscene[1;30m gave me much more[0m [1;30m:[0m
-  [1;30m│[0m [1;30mI could explain here on this color eight text... >>[0m>[1;30m >>  > >> [0m>[1;30m> >[0m>>[1;30m> >[0m [1;30m:[0m
+  [1;30m                                                                           [0m
+  [1;30m [0m [1;30m                     [0m    [1;30m           [0m [1;30m  [0m  [1;30m                              [0m [1;30m [0m
+  [1;30m [0m [1;30m                                                                      [0m  [1;30m [0m
+  [1;30m│[0m [1;30m                                                [0m     [1;30m                  [0m [1;30m [0m
+  [1;30m│[0m [1;30m                                                   [0m [1;30m          [0m [1;30m   [0m  [1;30m   [0m [1;30m [0m
   [1;30m└─────-─---─--∙---∙ ∙   ∙   -─∙─-──---────┐[0m [1;30m- [0;1;37mrorshack[0;1;30m @fatorcaos.com.br[0m  [1;30m|[0m
-    [1;30mI just got home some time ago and      [0m [1;30m│[0m   [1;33mmaiden brazil[0;1;37m [0m+[1m [0;1;33mglue[0;1;37m [0m+[1m [0;1;33mecho[0m [1;30m|[0m
-    [1;30mstarted to draw this. Nonstop. Finished[0m [1;30m└──────-─---─---∙-∙- ∙ - ∙ ∙-∙-─┘[0m
-    [1;30mnow. 10:11pm. I think it got me two hours or something....[0m'
+    [1;30m                                       [0m [1;30m│[0m   [1;33m             [0;1;37m [0m [1m [0;1;33m    [0;1;37m [0m [1m [0;1;33m    [0m [1;30m [0m
+    [1;30m                                       [0m [1;30m└────── ─   ─                  ─┘[0m'

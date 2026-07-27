@@ -5,7 +5,7 @@
 # Source SHA-256: f1b8f197a00961a874ca603736ddd45719724aa36b13b547a28ffadfb82353b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-ST.ANS by Prisoner#1 (Fire); released in fire1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sarcastic Toaster
 # SAUCE Author: Prisoner#1
 # SAUCE Group: Fire
@@ -21,7 +21,7 @@ Write-Host '
 [1;31m█████████[0;1;31;45m▓██▓▒▓███████████████[0;1;31;40m▀[0m▄▀▀▄ ▀[1;31m▄▄▄███████▌[0;1;31;42m  ▄  ▀█[0;1;31;40m [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0m
 [1;31m█████████████[0;1;31;45m▓▓▒▓██████████[0;1;31;40m▀▀[0m▄▀▄▀[1;31m▄▄████████████▌[0;1;31;42m▒▓█[0;1;31;40m▌[0;1;31;42m▓ █[0;1;31;40m [0;1;31;41m [0;1;32;41mGreets to Eerie, who I[0m
 [1;31m█████████████[0;1;31;45m▓▒░▒▓███████[0;1;31;40m▀[0m▄▀▀▄▀[1;31m▄███████████████▌[0;1;31;42m░▓▀  ▄█[0;1;31;40m [0;1;31;41m [0;1;32;41mmade the ansi for...  [0m
-[1;31m██████████████[0;1;31;45m▓▒░▒▓█████[0;1;31;40m▌[0m▐▀▄▀[1;31m▄█████████████████▌[0;1;31;42m▒▓▐████[0;1;31;40m [0;1;31;41m [0;1;32;41mEveryone else can fuck[0m
+[1;31m██████████████[0;1;31;45m▓▒░▒▓█████[0;1;31;40m▌[0m▐▀▄▀[1;31m▄█████████████████▌[0;1;31;42m▒▓▐████[0;1;31;40m [0;1;31;41m [0;1;32;41m                      [0m
 [1;31m█████████████[0;1;31;45m▓▒░▒▓█████[0;1;31;40m▌[0m▐▌▌▌[1;31m▐██████████████████▌[0;1;31;42m  ▐████[0;1;31;40m [0;1;31;41m [0;1;32;41moff.  Pardon my words.[0m
 [1;31m█[0;1;31;45m▓▓▓█████████▓▒░▒▓██▓▓▓[0;1;31;40m [0m█▐▐ [1;31m███████████████████████████ [0;1;31;41m [0;1;32;41mThis my first Fire pic[0m
 [1;31m██[0;1;31;45m▓▒▒▓████████▓▒░░░▓░▒[0;1;31;40m▌[0m▐▌▌▌[1;31m▐[0;1;31;45m░▒▓░▒██████████████████████[0;1;31;40m [0;1;31;41m [0;1;32;41mso I guess I thank dem[0m

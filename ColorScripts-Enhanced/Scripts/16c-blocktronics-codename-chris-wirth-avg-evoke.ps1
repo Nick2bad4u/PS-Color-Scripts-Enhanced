@@ -5,7 +5,7 @@
 # Source SHA-256: aab9bbde9e91537248e3b9ac3146da39051aafc26ed8319efe24d43ce74f7108
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-evoke.ans by Avenging Angel (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -40,14 +40,14 @@ Write-Host '
      [1;30;40m▀▀[0;36m [0;37m [0;34m▀▀[0;37m [0;31m▄██▀[0;37m   [0;34m▄█[0m                       [34m ▄█[0;34;45m▄[0;35;40m▀▀[0;34;40m▀ [0;37;40m  [0;31;40m▀▀[0;34;40m▀▀[0m     [34;40m▀[0;37;40m   [0;34;40m ▀[0;35;40m▀▀▀[0;31;40m▀█[0;34;40m▀▀[0;37;40m [0;36;40m▀██[0m
                                              [34;40m▀▀[0m                           [31;40m▒[0m
 
-                 [1;33;40mevoke - the most biased ansi comp in history![0m
+                 [1;33;40m                                             [0m
 
 
-[1;37;40mjust[0;1;36;40m a qu[0;1;37;40mick [0;1;31;40mwei[0;1;37;40mrd font t[0;1;33;40mo show [0;1;34;40mmy u[0;1;33;40mpmost gratit[0;1;36;40mude to [0;1;37;40mthe pe[0;1;31;40mop[0;1;36;40mle [0;1;37;40mwho voted[0m
-[1;37;40min e[0;1;34;40mvoke 0[0;1;36;40m9 a[0;1;34;40mnsi [0;1;35;40mcomp, you [0;1;34;40mgu[0;1;35;40mys ar[0;1;33;40me an[0;1;31;40m in[0;1;33;40mspi[0;1;32;40mration to ke[0;1;31;40mep d[0;1;32;40mrawing cra[0;1;37;40mp ansi''s[0m
-[1;37;40mbec[0;1;36;40mause [0;1;34;40mthe bette[0;1;35;40mr they are[0;1;34;40m, [0;1;35;40mthe m[0;1;33;40most least [0;1;31;40mch[0;1;33;40man[0;1;36;40mce you [0;1;37;40mh[0;1;34;40mave o[0;1;37;40mf winn[0;1;31;40min[0;1;37;40mg![0m
+[1;37;40m    [0;1;36;40m     [0;1;37;40m    [0;1;31;40m   [0;1;37;40m         [0;1;33;40m       [0;1;34;40m    [0;1;33;40m            [0;1;36;40m       [0;1;37;40m      [0;1;31;40m  [0;1;36;40m   [0;1;37;40m         [0m
+[1;37;40m    [0;1;34;40m      [0;1;36;40m   [0;1;34;40m    [0;1;35;40m          [0;1;34;40m  [0;1;35;40m     [0;1;33;40m    [0;1;31;40m   [0;1;33;40m   [0;1;32;40m            [0;1;31;40m    [0;1;32;40m          [0;1;37;40m        [0m
+[1;37;40m   [0;1;36;40m     [0;1;34;40m         [0;1;35;40m          [0;1;34;40m  [0;1;35;40m     [0;1;33;40m          [0;1;31;40m  [0;1;33;40m  [0;1;36;40m       [0;1;37;40m [0;1;34;40m     [0;1;37;40m      [0;1;31;40m  [0;1;37;40m  [0m
 
-[1;37;40manyhoo.. ps evoke.. fuck [0;1;33;40myou all![0m
+[1;37;40m                         [0;1;33;40m        [0m
                                   [1;31mlove avg [0;31m▄[0;1;31;41m▄▄▄[0;31m▄[0;1;31;41m▄▄▄[0;31m▄[0m
                                           [31m▒[0;1;31;41m▒[0;1;31;47m███[0;1;31;41m██[0;1;31;47m ▀[0;1;31;41m▒[0;1;31;40m▒[0m
                                            [31m▀[0;1;31;41m█[0;1;31;40m██[0;1;31;47m█▒ ▄[0;31m▀[0m

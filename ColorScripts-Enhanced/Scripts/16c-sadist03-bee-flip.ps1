@@ -5,7 +5,7 @@
 # Source SHA-256: 4d19ec52a00164f4659b485923f23096d0f84d673e0cda76477dcacfafeca5c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BEE-FLIP.ANS by BEEBU (Sadist); released in sadist03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Felipe
 # SAUCE Author: BEEBU
 # SAUCE Group: Sadist
@@ -48,7 +48,7 @@ Write-Host '
 [1;35;40m██[0;1;35;45m█[0;1;35;40m█████████[0;1;35;45m██[0;1;35;40m██████████▀[0;30;47m█[0;1;33;40m▄[0;33m▄[0;30;47m█[0;33;40m▀[0;30;47m█[0;1;33;40m▄[0;33m▄▄[0;30;47m█[0;33;40m▀[0;30;47m█[0;1;33;40m▄▄▄[0;33m▄[0;30;47m█[0;1;33;40m▀[0;33m█[0;1;33;43m▒▄▄▄[0;33m▄▄▄▄[0;1;33;43m▓▓[0;30;47m█[0;1;35;40m▐████████████████████████[0m
 [35m███████████████████████▄[0;30;47m█[0;1;33;40m▀[0;1;33;43m▀[0;33m█▀[0;30;47m█[0;1;33;40m▀[0;1;33;43m▀▀[0;33m█▀[0;30;47m█[0;1;33;40m▀[0;1;33;43m▓▀▀[0;33m█▀[0;30;47m██[0;33;40m▀▀▀▀[0;1;33;43m▀▀▀▀[0;33m▀[0;30;47m█[0;35;40m▄█████████████████████████[0m
 [35;40m█████████████████████████▄[0;30;47m██[0;35;40m▄█▄[0;30;47m███[0;35;40m▄█▄[0;30;47m████[0;35;40m▄▄▄▄   [0;30;47m████[0;35;40m▄███████████████████████████[0m
-[35;40mmah man pippi out to rock the shit outta u!                             ...BEEBU[0m
+[35;40m                                                                                [0m
 
 [30;40m███████[0;37;40m                                    [0m
 [30;40m███████████████████████████[0m

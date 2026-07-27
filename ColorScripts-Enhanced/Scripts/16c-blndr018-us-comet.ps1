@@ -5,7 +5,7 @@
 # Source SHA-256: ac3e518a7fec435e3a6d513fd277c81de79a43da2132c18e4caabd3ffcb4e80d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-COMET.ANS by Hennifer + Warpus (lAZ0RUS); released in blndr018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bLEND0R eIGHTEEN0R
 # SAUCE Author: hENNIF0R aND wARP0R
 # SAUCE Group: lAZ0RUS
@@ -37,11 +37,4 @@ Write-Host '
 [1;34;44m▒[0;1;34;47m▒[0;1;34;44m██░[0;34m█[0;1;34;44m░[0;34m██[0;35;44m░[0;1;34;45m▒▓▓[0;1;34;44m██▓█░[0;34m▄▄[0;1;34;44m▄[0;34m█▀[0;1;34;45m▒[0;1;34;44m▓██▓[0;34m▄▄ ▄[0m     [31m▀[0;1;37m  [0;31m▄▄[0;1;37m      [0;31m▐[0;30;41m▒[0m
 [1;34;44m▒[0;1;34;47m▓[0;1;34;44m██▒[0;34m█[0;1;34;44m░[0;34m██[0;1;34;44m░[0;1;34;45m▒[0;1;34;44m███▒[0;1;34;40m▒[0;34m [0;1;34;44m▒███▄▒[0;1;34;45m▓[0;1;34;44m███▒[0;34m▌▐▄[0;1;34m░[0;34m █░[0;1;37m  [0;31m▒[0;1;37m     [0;31m▀[0m   [1;37m [0;31m▀[0;30;41m▓[0;1;37;40m [0m
 [1;34;44m▓███▓[0;34m█[0;1;34;44m▒▓ ▒[0;1;34;45m▓[0;1;34;44m██▓ [0;34m█[0;1;34;44m▒████▓████▓░[0;34m [0;1;34;44m▐[0;1;34;47m▓[0;1;30;44m▌[0;34m▓  [0;1;37m         [0m
-[44m░[0;1;34;47m▓[0;1;34;44m██[0;1;34;45m▓[0;1;34;44m▒▓█░[0;34;45m▒[0;1;34;45m▓█[0;1;34;44m▓░[0;34m█[0;1;34;44m▓█████████[0;1;34;41m▓[0;1;34;44m▒[0;34m█[0;1;34;44m▒█▌[0;34m▓░  [0;37m         [0m
-
-
-[1;30mthis is a comet, crashing into the earth, 5 minutes into the future.  so quick,[0m
-[1;30mexit your ansi viewer, turn off your computer, and RUUUUUNN!!!!!@[0m
-
-[1;30m  warpus and i are going to add a font to this, and it will be for superfiend.[0m
-[1;30m        "we had time not enough blender during the for a font-creating."[0m'
+[44m░[0;1;34;47m▓[0;1;34;44m██[0;1;34;45m▓[0;1;34;44m▒▓█░[0;34;45m▒[0;1;34;45m▓█[0;1;34;44m▓░[0;34m█[0;1;34;44m▓█████████[0;1;34;41m▓[0;1;34;44m▒[0;34m█[0;1;34;44m▒█▌[0;34m▓░  [0;37m         [0m'

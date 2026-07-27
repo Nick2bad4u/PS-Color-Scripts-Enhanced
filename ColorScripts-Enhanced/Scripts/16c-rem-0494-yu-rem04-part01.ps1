@@ -5,7 +5,7 @@
 # Source SHA-256: fbb7b9a6cf512b19124318eeeca477e334cc59e7b4822d4335e1447bd86accc1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YU-REM04.ANS by Yuehwougdade (rem-0494); released in rem-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [1;30mone of his amazing ORIGINAL masterpieces. Of[0m       ██[1;47m▓[0m    █[1;47m▓[0m ██[1;47m█[0m      ██[1;47m█[0m █[1;47m█[0m ▄[1;47m▀[0m▄
 [1;30mcourse, shouts go out to Musashi and Night Breed,  ░[0m█[1;47m▒[0m ▄▄▄█[1;47m▒[0m [1;30;40m░[0m█[1;47m▓[0m▀▀▀▀  [1;30m░[0m█[1;47m▓[0m [1;30;40m░[0;1;37;47m▓[0m [1;30;40m░[0m█[1;47m█[0m
 [1;30;40mThanks guys,for helping me get on the right track. ▒[0m█[1;47m░[0m  ▄▄▄  [1;30m▒[0m█[1;47m▒[0m      [1;30;40m▒[0m█[1;47m▒[0m [1;30;40m▒[0;1;37;47m▒[0m [1;30;40m▒[0m█[1;47m▓[0m
-[1;30;40mAnd a big warm "FUCK YOU" to the mother fuckers    ▓[0m██  [1;30m▓[0m█[1;47m█[0m  [1;30;40m▓[0m█[1;47m░[0m.TM.  [1;30m▓[0m█[1;47m░[0m [1;30;40m▓[0;1;37;47m░[0m [1;30;40m▓[0m█[1;47m▒[0m
+[1;30;40m                                                   ▓[0m██  [1;30m▓[0m█[1;47m█[0m  [1;30;40m▓[0m█[1;47m░[0m      [1;30m▓[0m█[1;47m░[0m [1;30;40m▓[0;1;37;47m░[0m [1;30;40m▓[0m█[1;47m▒[0m
 [1;30;40mwho kicked me off their boards. Fucking idiots. (c)█[0;1;30;47m [0m█  [1;30m█[0m█[1;47m▒[0m  [1;30;40m█[0m██▄▄▄▄▄ [1;30m█[0;1;30;47m [0m█ [1;30m█[0m█ [1;30m█[0m█[1;47m░[0m
 [1;40m─────[0;1;34;40m──────────[0;34m─────────── [0;1;30m∙ · YU - REM04.ANS  · · [0;34m──────────────[0;1;34m───────────[0;1;37m────[0m
 

@@ -5,7 +5,7 @@
 # Source SHA-256: deafefbe7defddc3274134f1d21e490ff25ab07d196da98926f3d22fdb83b4fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!FRE-B.ANS by Madcap (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FR3381333!!@#!@
 # SAUCE Author: Madcap
 # SAUCE Group: D38
@@ -37,29 +37,4 @@ Write-Host '
                                    [34m▀███▌ [0m▄▄ ▄─ ▌▐▄▓▄▄      ▀▀▀▀     [34m■▀▀▀▒▓█████[0m
 [34m  [0;1;37mBut ARISE.. cos I like their[0m       [34m▀█▓ [0m▐▌▐[30;47m║[0;1;33;40m   [0m▄████▌█▓■          [1;30m▄▒▒▒▓▄_[0;34m▀▓███[0m
                                       [34m▓█▒ [0m▀ ▌    ▀▀           [34m▄  [0;1;30m▄▓▌   ▀▀▀▀─[0;34m▀██[0m
-[34m [0;1;37marticles!.. especially Flood''s![0m      [34m▐██▓▄[0m                [34m_▄▓█▌ [0;1;30m▀▀▓▄▀█▄ [0;34m░    ▀[0m
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                           [32moh.. and.. ur.. join D38![0m'
+[34m [0;1;37marticles!.. especially Flood''s![0m      [34m▐██▓▄[0m                [34m_▄▓█▌ [0;1;30m▀▀▓▄▀█▄ [0;34m░    ▀[0m'

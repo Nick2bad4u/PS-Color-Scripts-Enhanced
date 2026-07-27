@@ -5,7 +5,7 @@
 # Source SHA-256: 5b529842d8583052de853cd42a676011167805e75f8f0d24573d377d0dfd0a73
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-YINFO.ANS by putrid carcass (twisted); released in twst0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rg stats.
 # SAUCE Author: putrid carcass
 # SAUCE Group: twisted
@@ -27,16 +27,4 @@ Write-Host '
 ░[1;30m▌[0m░[1;30m▌[0;1;31m██[0;1;31;47m▓▓▓▓█[0;1;31;40m▄▄▄ [0m▀■[1;31m [0;31m▀[0;1;37m [0m■▀▀▀[1m [0;33m▄[0;30;43m░[0;1;31;43m▓▓▓▒▒░[0;33m█■▀▐[0;1;31;43m░▒▓▓▒░[0;33m▌  ▄[0;1;31;43m░▒▒▒▒░[0;33m▄[0;1;37m [0m▀▀▀■[1m [0;31m▀[0;1;31m [0m■▀[1;31m ▄▄▄[0;1;31;43m▓[0;1;31;47m█▓▓▓[0;1;31;40m███[0;1;30;40m▐[0m░[1;30m▐[0m░
 [1;30m█▌█░[0;1;31m▀██[0;1;31;47m██▓▓▓▓█[0;1;31;40m█[0;1;31;47m██[0;1;31;40m███████[0;1;31;43m▓▄▓▓▓▒▒▒ [0;33m▀■▄[0;1;31;43m▒▓▓██▓▓▒[0;33m▄■▀[0;1;31;43m▒▒▒▓▓▓▄░█[0;1;31;40m████[0;1;31;47m█[0;1;31;40m██████[0;1;31;47m▓▓▓▓█[0;1;31;40m██▀[0;1;30;40m■██▐█[0m
 [1;30;40m▀▌█[0m░[1;30m█▄■[0m [1;31m▀██[0;1;31;47m█████[0;1;31;40m████[0;1;31;43m██[0;1;31;40m███[0;1;31;43m█▓▓▓▒ [0;33m▀░[0;1;31m [0;1;30m  [0;1;31m▀▀████▀▀[0;1;30m  [0;33m [0;1;31m ▀[0;1;31;43m▒▓▓▓▓[0;1;31;40m███████[0;1;31;47m███[0;1;31;40m██████▓▀[0m [1;30m■▄█[0m░[1;30;47m█[0;1;30;40m▐█[0m
-[1;30;40m-----------------------------[0m<[1mrenegade[0;1;30m^[0;1;37mstatistics[0m>[1;30m------------------------------[0m
-[1;30m([0;1;31mhandle/number[0;1;30m)[0;33m:[0;1;30m [0m%UN / %UU                                                [1;30m [0m
-[1;30m([0;1;31marea code/affilz[0;1;30m)[0;33m:[0;37m %LO[0m
-[1;30m([0;1;31mfone numba[0;1;30m)[0;33m:[0;37m %PN[0m
-[1;30m([0;1;31mtotal calls[0;1;30m)[0;33m:[0;37m %TC[0m
-[1;30m([0;1;31muploads[0;1;30m)[0;33m:[0;37m %UL / %UK[0m
-[1;30m([0;1;31mdownloads[0;1;30m)[0;33m:[0;37m %DL / %DK[0m
-[1;30m([0;1;31msecurity[0;1;30m)[0;33m:[0;37m %SL / %DS[0m
-[1;30m([0;1;31mpost/call ratio[0;1;30m)[0;33m:[0;37m %PC[0m
-[1;30m([0;1;31mupload/download ratio[0;1;30m)[0;33m:[0;37m %NR[0m
-[1;30m([0;1;31maccount balance[0;1;30m)[0;33m:[0;37m %AB[0m
-[1;30m([0;1;31mnew messages[0;1;30m)[0;33m: [0;37m%MR[0m
-[1;30m([0;1;31mansi by[0;1;30m)[0;33m:[0;1;30m [0;1;37mputrid carcass of twisted!?[0m   %PA%CL[0m'
+[1;30;40m-----------------------------[0m<[1mrenegade[0;1;30m^[0;1;37mstatistics[0m>[1;30m------------------------------[0m'

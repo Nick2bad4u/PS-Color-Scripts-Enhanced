@@ -5,7 +5,7 @@
 # Source SHA-256: 76b6ac70850a75ee4cb808e729c532130dd55a7b3ee720f2ff1d0e5728f534b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVK-FREE.ANS by AlvaK (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: freebase
 # SAUCE Author: AlvaK
 # SAUCE Group: rARE!ASCii
@@ -16,7 +16,7 @@
 
 Write-Host '
 [34m─[0;1;34m───────────[0;34m─[0;1;34m─[0;34m──────────[0;1;34m─[0;34m─[0;1;34m───────────────[0;34m─[0;1;34m─[0;34m─────────[0;1;34m─[0;34m─[0;1;34m───────────────[0;34m─[0;1;34m─[0;34m─────────[0m
-[1;34mygpygys*+=+*syygypygyys*+=══ygygs*+=═══=+*sgypygyys*+=+*sgygypyys*+=══gpys*+=══g[0m
+[1;34m                          ══        ═══                             ══       ══ [0m
 [1;34mÑ$Ñ²`[0;1;36m,╖[0;36mg% %g╖,[0;1;34m`T$Ñ$P''[0;1;36m_,╖[0;36mg%@ [0;1;34mÑ²''[0;1;36m_,╖[0;36mg%@ [0;1;36m@@%[0;36mg╖,[0;1;34m`²$²''[0;1;36m_,╖[0;36mg%g╖,_[0;1;34m`²$²''[0;1;36m,╖g[0;36m%@@ [0;1;34mP`[0;1;36m_,╖[0;36mg%@ [0;1;34mÑ[0m
 [1;34m$P[0;1;36m,d$[0;36m$Ñ$$ [0;1;36m$[0;36m$Ñ$$b [0;1;34mY[0;36m [0;1;36m,d[0;36m$Ñ₧$Ñ$ [0;1;34m''[0;1;36m,d[0;36m$Ñ$$Ñ$ [0;1;36m$[0;36mÑ$$$Ñ$b [0;1;36m,d$[0;36mÑ$$$Ñ$$$b [0;1;34m [0;1;36m,$$[0;36mÑ$Ñ$₧ [0;1;36m,d[0;36m$Ñ$₧$Ñ [0;1;34m$[0m
 [1;34m''[0;1;36mj$[0;36m$₧$╜^`[0;1;34m,[0;1;36m`[0;36m^╙$₧$$,[0;1;36m`$[0;36m$₧$¢²`` [0;1;36md$[0;36m$₧Ñ¢²``[0;1;34m [0;1;36m`[0;36m``^²$₧$b [0;1;36m$[0;36m₧$²^`^²$₧$$,[0;1;36m`₧[0;36m$²^```[0;1;36md[0;36mÑ$₧$¢²`` [0;1;34m$[0m
@@ -26,10 +26,5 @@ Write-Host '
 [37m [0;1;36m$[0;36m$$Ñ$'''''' [0;1;36m¢$[0;36m$$b,[0;1;34m²,[0;1;36mT$[0;36mÑ₧$b[0;1;36m╖,,[0;36m [0;1;36mT$[0;36mÑ$$b╖[0;1;36m,,[0;1;34m [0;1;36m,,,,,d[0;36mÑ$$l [0;1;36m$[0;36m$''` [0;1;36m`''$[0;36m$Ñ$$ [0;1;36m,,,,d[0;36m$₧$l [0;1;36m$[0;36m₧b[0;1;36m╖..[0;36m [0;1;34md[0m
  [1;36m$[0;36mÑ$$$ [0;1;34mÑ$$,[0;1;36m`¢[0;36m₧Ñ$b, [0;1;36m`T[0;36m₧$Ñ$$Ñ [0;1;34m,[0;1;36m`T[0;36m$$Ñ$$Ñ [0;1;36m$[0;36mÑ₧$Ñ$₧$$''[0;1;36m,$[0;36mÑ [0;1;34m@Ñ@[0;36m [0;1;36m$[0;36mÑ$$₧ [0;1;36m$[0;36mÑ$₧$$Ñ$''[0;1;36m,$[0;36m$Ñ₧$Ñ [0;1;34m₧[0m
  [1;36m¢[0;36m¢¢¢¢ [0;1;34m$$Ñ$$,[0;1;36m`¢[0;36m¢¢¢¢* [0;1;36m`''[0;36m╜*¢¢ [0;1;34mÑ$,[0;1;36m`''[0;36m╜*¢¢ [0;1;36m¢[0;36m¢¢¢¢*╜'' [0;1;36m¢¢[0;36m¢¢ [0;1;34mÑ$$[0;36m [0;1;36m¢[0;36m¢¢¢¢ [0;1;36m¢[0;36m¢¢¢*╜''[0;1;34m,$,[0;1;36m`''[0;36m╜*¢¢ [0;1;34m$[0m
-[1;34mSomxvsn₧MÑSMÑSnxnomvnÑÑSÑM₧₧MSMÑS@%nswnonmx%@Snnmnon₧MÑnnwxnnsnmnn%@SM₧SMS%@wmxÑ[0m
-[1;34m───[0;34m─[0;1;34m─[0;34m──────[0;1;34m─[0;34m─[0;1;34m──═[[[0;1;36m[[0;1;37m[[0m [1;36mf[0;36mf[0;1;30mf[0m [1;36mr[0;36mr[0;1;30mr[0m   [1;36me[0;36me[0;1;30me[0m [1;36me[0;36me[0;1;30me[0m  [1;36mb[0;36mb[0;1;30mb[0m  [1;36ma[0;36ma[0;1;30ma[0m    [1;36ms[0;36ms[0;1;30ms[0m  [1;36me[0;36me[0;1;30me[0m [1m][0;1;36m][0;1;34m]]═─────[0;34m─[0;1;34m─[0;34m─[avk]─[0m
-
-
-[37m   [0m        [37mAscii for Ernie^RVL who changed his handle into "freebase"[0m
-[37m   [0m                  [37mIt''s now part of his reader about it[0m
-                             [1;30mAlvaK - rARE!ASCii[0m'
+[1;34m                                                                                [0m
+[1;34m───[0;34m─[0;1;34m─[0;34m──────[0;1;34m─[0;34m─[0;1;34m──═[[[0;1;36m[[0;1;37m[[0m [1;36mf[0;36mf[0;1;30mf[0m [1;36mr[0;36mr[0;1;30mr[0m   [1;36me[0;36me[0;1;30me[0m [1;36me[0;36me[0;1;30me[0m  [1;36mb[0;36mb[0;1;30mb[0m  [1;36ma[0;36ma[0;1;30ma[0m    [1;36ms[0;36ms[0;1;30ms[0m  [1;36me[0;36me[0;1;30me[0m [1m][0;1;36m][0;1;34m]]═─────[0;34m─[0;1;34m─[0;34m─[avk]─[0m'

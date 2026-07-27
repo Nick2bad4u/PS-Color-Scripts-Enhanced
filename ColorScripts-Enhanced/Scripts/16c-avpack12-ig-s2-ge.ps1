@@ -5,7 +5,7 @@
 # Source SHA-256: 78ccde474caa710dc198478b3b5c2945b1b912194d26da3856f20c72dcd92ceb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IG&S2-GE.ANS by Insurge + Sq2 (sq2(ice) ig(---)); released in avpack12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gehenna (ooze compo)
 # SAUCE Author: Insurge + Sq2
 # SAUCE Group: sq2(ice) ig(---)
@@ -51,6 +51,4 @@ Write-Host '
 [1;30m██▄▄▄▄▄▄▄█████[0;36m   █▄ ▄▄█▀▀[0m     [1;30m▄█████████████████████████████▄▄[0;36m  [0m       [1;30m▄████████[0m
 [1;30m███████████████ [0;36m  █▀▀[0m     [1;30m▄▄█████████████████████████████████████▄▄▄▄███████████[0m
 [1;30m████████████████[0m      [1;30m▄▄████████████████████████████████████████████████████████[0m
-[1;30m█████████████████▄▄█████████████████████████████████████████████████████████████[0m
-
-gehenna, you have been warned. ansi for ooze compo, started sq2, finished insure[0m'
+[1;30m█████████████████▄▄█████████████████████████████████████████████████████████████[0m'

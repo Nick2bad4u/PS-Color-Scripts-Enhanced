@@ -5,7 +5,7 @@
 # Source SHA-256: 570e3261981f3281fc6da702cc94d5543fc7573be735da48131407c40938fab7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-GOD.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -54,9 +54,9 @@ Write-Host '
               [1;30;47m█[0m█[1;47m▐[0m [1;30;40m▀▀▐█▀[0;31mR[0;1;31memot[0;31me : S[0;1;31minba[0;31md«»C[0;1;31moSy[0;31ms  : M[0;1;31morbu[0;31ms[0;1;30m▀▐█▀ [0;1;30;47m█[0m█[1;47m▐[0m
               [1;30;47m█[0m█[1;47m▐[0m   [1;30;40m▐█ ▐█[0;34m0-7 d[0;1;34ma[0;34my W[0;1;34mare[0;34mz «» [0;1;34mp[0;34m/[0;1;34mh [0;34ms[0;1;34mectio[0;34mn[0;1;30m▐█ ▐█  [0;1;30;47m█[0m█[1;47m▐[0m
               [1;30;47m▌[0m█[1;47m▐[0m [1;30;40m▀▀▐█▀▐█▀▐█▀▐▌[0;31mR[0;1;31munnin[0;31mg V[0;1;31misio[0;31mn/2[0;1;30m▐█▀▐█▀▐█▀▐█  [0;1;30;47m▌[0m█[1;47m▐[0m
-              [1;30;47m▌[0m█[1;47m▐[0m    [34mR[0;1;34mazo[0;34mr 1911 O[0;1;34mutpu[0;34mt ∙ S[0;1;34mhar[0;34mp C[0;1;34mourie[0;34mr [0;1;34mHQ[0;1;30m▐  [0;1;30;47m▌[0m█[1;47m▐[0m
+              [1;30;47m▌[0m█[1;47m▐[0m    [34m [0;1;34m   [0;34m        [0;1;34m    [0;34m     [0;1;34m   [0;34m   [0;1;34m     [0;34m  [0;1;34m  [0;1;30m▐  [0;1;30;47m▌[0m█[1;47m▐[0m
               [1;30;47m▌[0m█[1;47m█[0m [1;30;40m▀▀▐█▀▐█▀▐█[0;31mP[0;1;31msychosi[0;31ms M[0;1;31ma[0;31mg D[0;1;31mistr[0;31mo[0;1;30m▐▀▐█▀▐█▀▐█  [0;1;30;47m▌[0m█[1;47m█[0m
-              [1;30;47m▌[0m█[1;47m█[0m   [34mC[0;1;34mCiNe[0;34mt ■ P[0;1;34mhelon[0;34myN[0;1;34me[0;34mt ■ [0;1;34mNo [0;34mR[0;1;34matios for LD  [0;1;30;47m▌[0m█[1;47m█[0m
+              [1;30;47m▌[0m█[1;47m█[0m   [34m [0;1;34m    [0;34m  ■  [0;1;34m     [0;34m  [0;1;34m [0;34m  ■ [0;1;34m   [0;34m [0;1;34m              [0;1;30;47m▌[0m█[1;47m█[0m
               [1;30;47m▌[0m█[1;47m█[0;33m─────────────────A[0;1;33mTOMiC''93!───────────[0;1;37m─────[0;1;30;47m▌[0m█[1;47m█[0m
               [1;30;47m▌[0m█[1;47m█[0m           [1;33;40mLook, Ma!  We can Fly![0m          [1;30;47m▌[0m█[1;47m█[0m
             [1;30;40m▄[0m█[1;30;47m■■■[0;1;37;47m▀[0;1;37;40m▄[0;1;30;40m──────[0;33m─────────ATOMiC''93![0;1;33m──────────────[0;1;30m▄[0m█[1;30;47m■■■[0;1;37;47m▀[0;1;37;40m▄  [0;34mB[0;1;34mj[0;36mo[0;1;34mr[0;34mn[0;1;33m∙[0;34mA[0;1;34mT[0;36mO[0;1;36mM[0;1;33mi[0;1;36mC[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a3073ad2fc61a8cddce8ba0a485a9ac838d34701986e979b96bab9fb566ff124
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-TAC3.ANS by Thor (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Apocalyptic City #2
 # SAUCE Author: Thor
 # SAUCE Group: Shiver
@@ -46,11 +46,9 @@ Write-Host '
 
 [1;37m█[0;1;37;47m▓[0;1;37;46m▓[0;1;36;46m██▓▓▒▓▒▒░▒░░ ░  [0;1;30;46m░ ░░▒░▒▒▓▒▓▓█▓██[0;1;30;40m▓▄▀ ▄  ▀ ▓▒░▀   ░[0m                [1;30;40m░▒▓[0;1;30;46m█▓▓▒▒░ ░[0m
 [1;37;47m▓[0;1;37;46m▒[0m                                                                           [1;37;46m [0;1;36;46m░[0m
-[1;36;47m█▓[0m   [1;30;40mthe apocalyptic city · 5i7.699.2241 · sysop: thor · nup: paladinhood    [0;1;36;46m░▒[0m
-[1;36;46m▓▓[0m  [1;30;40memnity, tia, vor dists · gat nhq · sludge whq · legion affiliate board   [0;1;36;46m▒▓[0m
-[1;36;46m▒▓[0m    [1;30;40malchemy hub · infinet node · legion net node · federation net node[0m     [1;36;46m▓█[0m
-[1;36;46m░▒[0m [1;30;40m5oOO+ ansi''s online · 42o megs online · 75oO+ total textfiles · no wares  [0;1;36;46m██[0m
+[1;36;47m█▓[0m   [1;30;40m                                                                        [0;1;36;46m░▒[0m
+[1;36;46m▓▓[0m  [1;30;40m                                                                         [0;1;36;46m▒▓[0m
+[1;36;46m▒▓[0m    [1;30;40m                                                                  [0m     [1;36;46m▓█[0m
+[1;36;46m░▒[0m [1;30;40m                                                                          [0;1;36;46m██[0m
 [1;36;46m ░[0m                                                                           [1;37;47m▓[0;1;37;46m▓[0m
-[1;37;46m  [0;1;30;46m░ ░░▒▒▓▓██[0;1;30;40m▓▒░[0m        [1;30;40m░▒  ■  ░░  ▄▓ ▀▄▓█▓██[0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▓▓▒▓▒▒░▒░░ ░  [0;1;36;46m░ ░░▒░▒▒▓▒▓▓█▓█[0;1;37;46m▓[0;1;37;47m▓[0;1;37;40m██[0m
-
-[1;30;40m(c)1994 th "no i don''t worship t2!" type shit[0m'
+[1;37;46m  [0;1;30;46m░ ░░▒▒▓▓██[0;1;30;40m▓▒░[0m        [1;30;40m░▒  ■  ░░  ▄▓ ▀▄▓█▓██[0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▓▓▒▓▒▒░▒░░ ░  [0;1;36;46m░ ░░▒░▒▒▓▒▓▓█▓█[0;1;37;46m▓[0;1;37;47m▓[0;1;37;40m██[0m'

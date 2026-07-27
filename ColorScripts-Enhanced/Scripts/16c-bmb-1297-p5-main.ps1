@@ -5,7 +5,7 @@
 # Source SHA-256: 5bac1fac1e5aa0cae1ea18f6d7e38998043860c61f36c27cc9290b4bad4ea429
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P5-MAIN.ANS by prosthesis (society); released in bmb-1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: main menu for j-dredd (lucid)
 # SAUCE Author: prosthesis
 # SAUCE Group: society
@@ -30,7 +30,4 @@ Write-Host '
      [31m░ [0m     [1;30m▄▄██▀[0;1;30;46m▓[0m   [1;30m▐[0;1;30;46m▓[0;1;30;40m███[0;1;30;46m░▒[0;1;30;40m█▓▓▓▓░░[0m    [1;32m▀▀▀▀▀▀█[0;1;36m██[0;1;32m█████▀▀[0;32m▀▀[0m
                     [1;30m▄█[0;1;30;46m▒[0;1;30;40m█▀[0;35m [0;1;30m▐[0;1;30;46m▓▓[0;1;30;40m██▌[0m               [1;36m▐▀[0m
                    [1;30m▀▀▀[0m    [1;30m▀▀▀[0;1;30;46m█[0;1;30;40m██▄[0m
-                              [1;30m▀▀▀▌[0m
-
-            [32me [0;1;30m>[0;32mnter mail area[0;1;32m [0;1;30m;[0;1;32m [0;32mk [0;1;30m>[0;32mill messages  [0;1;30m;[0m [32mc[0;37m [0;1;30m>[0;32mhange stats[0m
-            [32mj [0;1;30m>[0;32moin conferece[0;37m  [0;1;30m;[0m [32mg[0;37m [0;1;30m>[0;32mood bye[0m       [1;30m;[0m [32mv[0;37m [0;1;30m>[0;32miew settings[0m'
+                              [1;30m▀▀▀▌[0m'

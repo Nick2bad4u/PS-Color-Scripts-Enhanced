@@ -5,7 +5,7 @@
 # Source SHA-256: 6e43c89f47cbf4febad953b753c17a738090ac0ca77711cf2aebc3186bec053d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dr-iori.ans by Dr Shizuma (mimic30); released in mimic30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -33,5 +33,4 @@ Write-Host '
  [31m`7[0;1;31m1[0;31m$b[0;1;31m,[0m   `[1;31m²/[0;31m┼s,[0;37m [0;1;31m`$l[0;31m$$$[0;1;30m;[0m   [1;30m.[0;1;37m     _[0m [1m.[0m  [33m.[0;1;31m,¬[0;31m┼[0;37m$[0;1;37m$$$$$$$$$$$$$$$[0;1;33m7[0;33m`[0;1;30m.`[0;1;31m , [0ml[1m$[0;31m;[0;1;37m$[0m$$[1m$$7[0m`[34m,\[0;1;34mll[0;34m$[0m
 [31m [0;1;30m\[0m [31m`[0;1;31m7$[0;31m$[0;1;31m,[0m [1;30m`,[0m  [31m ²$;[0;37m  [0;1;31m`7[0;31m$$$[0;1;30ml[0m   [1m [0m"[1;33m"[0;1;37m"[0m  [1;30m.[0;33m.[0;31m⌐[0;1;31ms$$[0m$[1m$$$$$$$$$$$$$$$[0;1;33m7[0;33m`[0;1;30m./[0;1;31m ,4[0;33m;[0;1;30m;[0;1;37m$$$[0ml$$[1m$7 [0;34m,d$$$$[0m
 [31m [0;37m [0;1;30m\[0m  [1;31m`7$[0;1;30m;[0m [31ml[0;1;30ml, [0m [1;30m`[0;31m²b[0m   [1;31m`[0;31m7$$;[0;1;37m [0;31m`[0;1;31m²/1$$$$┼\²"[0;1;37ml$$$$$$$$$$$$$$7[0;1;31m`[0m [1;30m\[0;1;31m ,4$[0;33ml[0;1;30m.[0ml[1m$$[0;1;30m$[0m$$$l[1;30m`[0;34m S$$$$$[0m
-[1;34m    [0m   [1;31m`l[0m  [31ml[0;1;30ml,[0m   [1;30m`[0;31m/[0;1;30m,  [0m [1;31m`[0;31m²/[0;1;30m,[0;1;31m [0;1;30m \ ```[0m [33m,[0;1;37m,;l$$$$$$$$$$$$[0;1;31m$7`[0;1;30m\[0m `[1;31m,4$S[0;33ml [0;37m;[0;1;37m$$[0m$[1;30m$[0m$$$[1;30ml[0;1;37m [0;34m;$$$$ll[0m
-[1;30mDoctor Shizuma - Mimic Productions ... Don''t hate me, hate your weakness! - ior[0m'
+[1;34m    [0m   [1;31m`l[0m  [31ml[0;1;30ml,[0m   [1;30m`[0;31m/[0;1;30m,  [0m [1;31m`[0;31m²/[0;1;30m,[0;1;31m [0;1;30m \ ```[0m [33m,[0;1;37m,;l$$$$$$$$$$$$[0;1;31m$7`[0;1;30m\[0m `[1;31m,4$S[0;33ml [0;37m;[0;1;37m$$[0m$[1;30m$[0m$$$[1;30ml[0;1;37m [0;34m;$$$$ll[0m'

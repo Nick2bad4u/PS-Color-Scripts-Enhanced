@@ -5,7 +5,7 @@
 # Source SHA-256: 7492dabbc2b1bba254905d6388949f8fb9be5dcd54006ee86262b91329e73332
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HAL-FIRE.ANS by Halaster (FireSS); released in fire1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fire Promotion 1
 # SAUCE Author: Halaster
 # SAUCE Group: FireSS
@@ -42,21 +42,13 @@ Write-Host '
          [31m▌[0m                             [31m▓[0m                                   [31m▌[0m
          [31m▄[0m                             [31m▀[0m
              [31m▄▀▀▀▀▀▀▀▀    ▀[0m
-             [31m█ [0;37mThis has been my first and last full fire promo.[0m
-             [31m▓  [0;37mIf you are interested in applying to join fire  [0;31m░[0m
-             [31m▒  [0;37mor wish to request art (shya!) from one of our  [0;31m▒[0m
-[1;30m░[0m            [31m░  [0;37mmembers, please call either Harvest Moon [216]  [0;31m▓[0m
-                      [37mor The Flying Donuts [404]578-8558.[0m       [31m█[0m
+             [31m█ [0;37m                                                [0m
+             [31m▓  [0;37m                                                [0;31m░[0m
+             [31m▒  [0;37m                                                [0;31m▒[0m
+[1;30m░[0m            [31m░  [0;37m                                                [0;31m▓[0m
+                      [37m                                   [0m       [31m█[0m
 [1;30m░[0m                                                  [31m▄    ▄▄▄▄▄▄▄▄▀[0m
 [1;30m▒[0m
-[1;30m▓[0m                       Ansi and Font by Halaster[Fire]
+[1;30m▓[0m                                                      
 [1;30m█[0m
-[1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-
-[1;30m    Greets to:  FK - Hey.[0m
-                [1;30mDH - Yeah, whatever, Boltar.[0m
-                [1;30mTA - Too bad about the National Merit shit.. Margo.[0m
-                [1;30mAL - Where the hell are you?[0m
-                [1;30mPH - Sorry ''bout Entropy.[0m
-
-[1;30m    Extra special super spifty k-rad greetz to all the other guys in Fire.[0m'
+[1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

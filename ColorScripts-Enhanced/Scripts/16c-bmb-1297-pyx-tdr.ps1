@@ -5,7 +5,7 @@
 # Source SHA-256: ce30c13a6c4c63bf013664cc3ac8a11468257b02d42d1c3e3e5112a0de507c17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-TDR.ANS by pyx (bamboosh); released in bmb-1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the digital regime
 # SAUCE Author: pyx
 # SAUCE Group: bamboosh
@@ -33,12 +33,7 @@ Write-Host '
 [1;32m▄▄▄[0;1;32;42m█[0;1;33;42m▄[0;1;32;40m▄[0;32m▄[0;1;37m  [0;36m ▐[0;1;36;46m██████[0;36m▌[0;1;30m▀[0;36m [0;1;36;46m▀█████[0;36m▌   [0;1;36;46m▓▓████[0;1;36;40m▄[0;1;36;46m▄█████▀[0;1;36;40m▀▀▀▀▀▀▀[0;36m▀         [0;32m      ▄[0;1;32m▄[0;1;33;42m▐[0;1;32;42m█[0;1;32;44m▓▓[0;1;32;40m▀[0;32m▀[0m
 [1;32;44m░[0;32m▀[0;1;32m▀[0;1;32;44m▓[0;1;32;40m▀[0;1;33;42m▀[0;1;32;40m▄▄[0;32m▄[0;36m ▐[0;1;36;46m█████▄[0;1;36;40m▄▄[0;1;36;46m▄█████▀[0;36m▀   ▀[0;1;36m▀▀▀[0;36m▀       [0;1;30m▄▄▄[0;36m   [0;1;30m▀▀▀▀[0;36m         [0;32m      [0;1;32;44m▓▓[0;32m▀▀[0;1;32;44m░░[0m
 [1m         [0;36m ▀[0;1;36m▀▀▀▀▀▀▀[0;36m▀                                          [0;32m      [0;1;32;44m░░[0m
-[1;35m  [0;35m░░░░░[0;1;37m [0;1;35mthe digital regime [0;35m░░░[0;1;35m piece of shit ansi-version of an add [0;35m░░░░░      [0m
+[1;35m  [0;35m░░░░░[0;1;37m [0;1;35m                   [0;35m░░░[0;1;35m                                      [0;35m░░░░░      [0m
 
 
-[37m----[0m
-
-[37mshit i cant believe how ugly this crap is. it is an ansi version of[0m
-[37msome add i made for a friend, and it totally stinks :-> i probably[0m
-[37mshouldnt release it, but what the heck. i promise to do better[0m
-[37mnext month. [0m'
+[37m----[0m'

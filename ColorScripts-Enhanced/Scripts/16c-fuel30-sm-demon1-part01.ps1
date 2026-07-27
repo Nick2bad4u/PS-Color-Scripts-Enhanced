@@ -5,7 +5,7 @@
 # Source SHA-256: b63e0856ed6777e26835bdc7e6a83868c8584a113bc09332ecf1802b66cbb36f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sm-demon1.ans by Smooth (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Demon Logo
 # SAUCE Author: Smooth
 # SAUCE Group: Fuel
@@ -17,7 +17,7 @@
 
 Write-Host '
 [1;30;40m ══════════════════════════════════════════════════════════════════════════════[0m
-[1;30;40m [0;1;37;41mTo all my brothers and sisters of the [0;1;33;41mtextmode arts [0;1;37;41mwho keep the scene alive. [0m
+[1;30;40m [0;1;37;41m                                      [0;1;33;41m              [0;1;37;41m                          [0m
 [1;30m ══════════════════════════════════════════════════════════════════════════════[0m
 
 

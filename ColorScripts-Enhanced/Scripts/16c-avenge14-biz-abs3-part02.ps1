@@ -5,7 +5,7 @@
 # Source SHA-256: 5e77ba84d8028e7e670f18eb4e5589a366237e1bbbed2e01bf8377adc2e63e97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-ABS3.ANS by Bizzarro (The AvengeCult); released in avenge14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ABS3
 # SAUCE Author: Bizzarro
 # SAUCE Group: The AvengeCult
@@ -55,7 +55,4 @@ Write-Host '
                                         [32m░ ▀[0m     [32m▀▄[0m             [1;32m▒▒[0;31m [0m    [32m▀▀▄[0m
                                       [32m░[0;37m [0;32m▀[0m          [32m░[0m           [1;32m░░[0m  biz  [1;32m▒[0;32m▌[0m
                                       [32m▀[0m            [32m▀[0;37m  [0;1;32m░[0m         [31m [0m    [32m ▄[0;37m [0;32m▀[0m
-                                                      [32m▀[0m            [32m░[0m           [37m [0m
-
-
-[37m------------- [ abstrakkt art part tres. i''m going slightly mad. ] -------------[0m'
+                                                      [32m▀[0m            [32m░[0m           [37m [0m'

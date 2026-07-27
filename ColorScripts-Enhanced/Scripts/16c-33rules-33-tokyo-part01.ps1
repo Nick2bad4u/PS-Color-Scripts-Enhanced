@@ -5,7 +5,7 @@
 # Source SHA-256: fa9c98b06a6d0ec83835f018e02be4cc59e87e0816c0e1faf88abe05abda6e30
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-TOKYO.ANS by Spastic 05/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tokyo Underground
 # SAUCE Author: Spastic 05/95
 # SAUCE Group: Eerie
@@ -27,7 +27,7 @@ Write-Host '
             [1;31;47m▒[0;1;31;41m▓[0;1;31;40m██[0;1;31;47m▓[0m [1;31;41m▓[0;1;31;40m▌ [0;1;31;47m▒[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m▓▄[0;1;31;47m▓[0;1;31;40m▀  [0;1;31;47m▓▒[0;1;31;40m██▀ [0;1;31;47m▓[0;1;31;40m█▌[0;1;31;47m▒[0;1;31;40m█[0;1;31;47m▀▒▓[0m [1;31;41m▓[0;1;31;40m▌▐[0;1;31;47m▓[0;1;31;41m▓[0m [1;31;47m▒[0;1;31;40m███[0;1;31;47m▓[0;1;31;40m█▌[0;1;31;47m▓▀[0m [1;31;41m▓[0;1;31;47m▓[0;1;31;41m▒▓[0;1;31;47m▓[0;1;31;40m█[0m
             [1;31;47m░[0m█[1;31;47m■▀▒[0m█▌  [1;31;47m░▀▒■[0m▄   [1;31;47m▒░▀■[0m [1;30;40m33[0;1;31;47m▒▀[0m▌[1;31;47m░■[0m█[1;31;47m░▒[0m█▌ ▐[1;31;47m▒▀[0m  [1;31;47m░▀■▒▓[0m▀[1;31;47m▒■[0m▄[1;31;47m█▒▀■▒[0m▀
             ▀[1;47m▓▄■[0;1;31;47m░[0m▌  ▄[1;47m▄░[0;1;31;47m░[0;1;37;47m▄▓[0m■ [1;47m▓▄▄[0;1;31;47m░[0m▄▄▄▄[1;31;47m░[0;1;37;47m▄▓[0m▀[1;47m▄░[0m▓[1;31;47m░[0m▌  ▀[1;31;47m░[0;1;37;47m▒[0m▄▄▄[1;47m▄▓[0;1;31;47m░▀[0m [1;31;47m░[0;1;37;47m▄▒[0;1;31;47m▀░[0;1;37;47m▓[0m▀
-               ░       [1mshamefully presents an eerie ansi[0m       ░
+               ░       [1m                                 [0m       ░
 [1;30;47m▓▒▄■░ [0;1;37;47m░░▄■▒▒▀▓▓[0;1;37;40m██████████▄▄ [0;31m▀▄▀▄■▄▀▄ ▄■▄ ▄ [0;1;37m▀███████████████████████████████████[0m
 [1;30;47m░[0;1;37;47m░▄▄▄[0;1;37;40m█[0;1;37;47m▄[0;1;37;40m███[0;1;37;47m▄[0;1;37;40m█████████████████▄ [0;31m█ [0;1;31;41m░[0m [31m█ ▓▀█ ▓■▄▀ [0;1;37m██████████████████████████████████[0m
 [1;37;47m▒▓[0;1;37;40m████████████████████████████ [0;31m▓ █ █ █ [0;31;47m▓[0m [31;40m▓ █  [0;1;37;40m▓████████████████████████████████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 4b586de178e34d39eb7414fe4b706c00a78df508277e9d9a5aee67d3f895fb29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-RZMNU.ANS by RaSCaL (BLACK MAiDEN); released in bm8-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Razor's Edge Main Menu
 # SAUCE Author: RaSCaL
 # SAUCE Group: BLACK MAiDEN
@@ -24,20 +24,19 @@ Write-Host '
 [1;30m░[0m [1;30m ▄▄[0;1;30;47m▓[0;1;30;40m▓▄▄▄█▄▄▄▄▓▄█▒▄▄▄▄▄▄▄▄▄[0;1;30;47m▓[0;1;30;40m▓█▄▄█▓▀██▄▄▄▄██▀▓███▄▄▄▄▄▄▓[0;1;30;47m▓[0;1;30;40m█▄▄▄[0;35m [0;36m▄[0;1;36m▄[0m [1;30m▄[0;35m [0;1;36;46m▓▒░[0m [1;30m▄▄▄▄▀[0m  [1;30m■[0m
 [1;30m▄[0m [1;30;46m▓[0m   [1;30m░[0m        [1;30m░[0m            [1;30m░[0m                [31m  [0m        [1;30m░[0m     [36m▐▓[0;1;36;46m▓[0;1;36;40m▌[0m [1;36m▐[0;1;36;46m▓░[0;36m▌[0;1;30mrs°bm ▄[0m [1;30m▄[0m
 [1;30m■[0m [1;30;46m▒[0m   [1;30m...[0mF[1miLE[0mS[1;30m...[0m   [1;30m▄▓▄[0m  [1;30m...[0mC[1mONFERENC[0mE[1;30m...[0m    [31m [0;1;30m...[0mM[1mESSAGE[0mS[1;30m...[0m [34m [0;36m▀[0;1;36;46m▒▓[0;1;36;40m▄█[0;1;36;46m░[0;36m▓[0m   [1;30m▄▓▄[0m [1;30;46m▓[0m [1;30m█[0m
-  [1;30m▓[0m [1;30m%[0;1;36mF[0;1;30m%[0;36miLE DiRECTORY[0;37m [0;1;30m▀[0m  [1;30m%[0;1;36mJ[0;1;30m%[0;36mOiN CONFERENCE[0;34m [0m   [31m [0;1;30m%[0;1;36mE[0;1;30m%[0;36mNTER MESSAGE[0;34m  [0m          [1;30m▀[0m  [1;30;46m▒[0m [1;30m▓[0m
-[1;30m▒[0m [1;30m▒[0m [1;30m%[0;1;36mN[0;1;30m%[0;36mEWFiLES CHECK[0m   [1;30m%[0;1;36mA[0;1;30m%[0;36mBANDON CONFERENCE[0m   [1;30m%[0;1;36mR[0;1;30m%[0;36mEAD MESSAGES[0;34m  [0;37m [0;1;30m■░■[0m     [1;30m░[0m   [1;30m▓[0m
-  [1;30m░[0m [1;30m%[0;1;36mU[0;1;30m%[0;36mPLOAD FiLE(s) [0;37m  [0;1;30m%[0;1;36mSELECT[0;1;30m%[0;36mCONFS 2 SCAN[0m   [1;30m%[0;1;36mTS[0;1;30m%[0;36m TEXTSEARCH[0m        [1;37m▄[0m█[1;30m▄ [0m   [1;30m▒[0m [1;30m░[0m
-    [1;30m%[0;1;36mD[0;1;30m%[0;36mOWNLOAD FiLE  [0m                       [1;30m░[0m [1;30m%[0;1;36mQWK[0;1;30m%[0;36mOFFLiNE MAiL[0m   [1;37m▄[0;1;37;47m▀▀[0m ▀█[1;30;47m▀[0;1;30;40m▄  ░[0m
+  [1;30m▓[0m [1;30m [0;1;36m [0;1;30m [0;36m             [0;37m [0;1;30m▀[0m  [1;30m [0;1;36m [0;1;30m [0;36m              [0;34m [0m   [31m [0;1;30m [0;1;36m [0;1;30m [0;36m            [0;34m  [0m          [1;30m▀[0m  [1;30;46m▒[0m [1;30m▓[0m
+[1;30m▒[0m [1;30m▒[0m [1;30m [0;1;36m [0;1;30m [0;36m             [0m   [1;30m [0;1;36m [0;1;30m [0;36m                 [0m   [1;30m [0;1;36m [0;1;30m [0;36m            [0;34m  [0;37m [0;1;30m■░■[0m     [1;30m░[0m   [1;30m▓[0m
+  [1;30m░[0m [1;30m [0;1;36m [0;1;30m [0;36m              [0;37m  [0;1;30m [0;1;36m      [0;1;30m [0;36m            [0m   [1;30m [0;1;36m  [0;1;30m [0;36m           [0m        [1;37m▄[0m█[1;30m▄ [0m   [1;30m▒[0m [1;30m░[0m
+    [1;30m [0;1;36m [0;1;30m [0;36m              [0m                       [1;30m░[0m [1;30m [0;1;36m   [0;1;30m [0;36m            [0m   [1;37m▄[0;1;37;47m▀▀[0m ▀█[1;30;47m▀[0;1;30;40m▄  ░[0m
 [1;30m░[0m [1;30m▒[0m [1;30m%[0;1;36mZ[0;1;30m%[0;36miPPY FiLESCAN [0;37m  [0;1;30m■▓■ [0m      [1;30m■▒▀[0m       [1;30m▒[0m                [1;30m■▓▄[0m    [1m▀[0;1;47m▄[0m█▄ ▀█[1;30;47m▀[0;1;30;40m▄[0m  [1;30m▓[0m
   [1;30m▓[0m [1;30m%[0;1;36mL[0;1;30m%[0;36mOCATE FiLENAME[0m                                [1;30m░[0m       [1;30m▀[0m       [1m▀[0;1;31;41m▓[0;1;31;47m▄[0m▄[1;30;47m▄[0;1;30;40m▀ ░[0m [1;30m■[0m
 [1;30m▒[0m [1;30m█[0m                         [1;30m....[0mM[1miSCELLANEOU[0mS[1;30m....[0m       [1;30m■░■[0m            [1;31;41m▒[0;1;30;47m▄[0;1;30;40m▀ [0m [1;30m▒[0m [1;30m▓[0m
-[1;30m▀[0m [1;30m▓[0m [1;30m%[0;1;36mB[0;1;30m%[0;36mULLETiNS[0m   [34m [0;37m  [0;1;30m%[0;1;36mVOTE[0;1;30m% [0;36mUSER VOTiNG[0;37m  [0;1;30m%[0;1;36mULBY[0;1;30m% [0;36mU/L SiGN.[0;37m [0;1;30m%[0;1;36mWHO[0;1;30m%[0;36m iS ONLi[0;1;31m■[0;36mNE[0;37m  [0;1;30m▓[0m [1;30m▀[0m
-[1;30m█[0m [1;30m█[0m [1;30m%[0;1;36mO[0;1;30m%[0;36mPERATOR PAGE[0;37m  [0;1;30m%[0;1;36mCHAT[0;1;30m% [0;36mMULTi  CHAT[0;37m  [0;1;30m%[0;1;36mOPEN[0;1;30m% [0;36mDOOR(S)  [0;1;30m%[0;1;36mW[0;1;30m%[0;36mRiTE YOUR[0;37m [0;36miNFO [0;37m [0;1;30m█[0m [1;30m▓[0m
-[1;30m█[0m [1;30;46m▓[0m [1;30m%[0;1;36mM[0;1;30m%[0;36m ANSi ON[0;1;30m/[0;36mOFF[0m                                     [1;30m%[0;1;36mT[0;1;30m%[0;36mRANSFER PROTOCOL[0;37m [0;1;30;46m▓[0m [1;30m█[0m
+[1;30m▀[0m [1;30m▓[0m [1;30m [0;1;36m [0;1;30m [0;36m        [0m   [34m [0;37m  [0;1;30m [0;1;36m    [0;1;30m  [0;36m           [0;37m  [0;1;30m [0;1;36m    [0;1;30m  [0;36m         [0;37m [0;1;30m [0;1;36m   [0;1;30m [0;36m        [0;1;31m■[0;36m  [0;37m  [0;1;30m▓[0m [1;30m▀[0m
+[1;30m█[0m [1;30m█[0m [1;30m [0;1;36m [0;1;30m [0;36m            [0;37m  [0;1;30m [0;1;36m    [0;1;30m  [0;36m           [0;37m  [0;1;30m [0;1;36m    [0;1;30m  [0;36m         [0;1;30m [0;1;36m [0;1;30m [0;36m         [0;37m [0;36m     [0;37m [0;1;30m█[0m [1;30m▓[0m
+[1;30m█[0m [1;30;46m▓[0m [1;30m [0;1;36m [0;1;30m [0;36m        [0;1;30m [0;36m   [0m                                     [1;30m [0;1;36m [0;1;30m [0;36m                [0;37m [0;1;30;46m▓[0m [1;30m█[0m
  [1;30m▓▄▀▄▄▄▄▄▄[0m [1;30m▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄░[0m [1;30m%[0;1;36mG[0;1;30m%[0;36mOODBYE, LOGOFF![0;1;30m ▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▀▄▓░[0m
   [1;30m▀▓▄▄[0m [1;30m▄▄▄▄[0m [1;30m▄[0m    [1;30m░[0m                      [1;30m■[0m                           [1;30m▄[0m [1;30m▄▄[0m [1;30m▄▄▓▀[0m
 
 
 
-[1;30m---[[0mcut[1;30m]------------------------------------------------------------------------[0m
-[1;30mAgain one for Codey. Nothin'' changed ;) So he ain''t got to do something.[0m [1;30m-rs°bm![0m'
+[1;30m---[[0mcut[1;30m]------------------------------------------------------------------------[0m'

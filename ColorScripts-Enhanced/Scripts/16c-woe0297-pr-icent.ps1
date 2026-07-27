@@ -5,7 +5,7 @@
 # Source SHA-256: 33458f5aed7ed0d3b1e41ae9ecf281e266e75b7a414f284379a521cbc3dad7a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR-ICENT.ANS by Promtheus (WOE); released in woe0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ICENET #1
 # SAUCE Author: Promtheus
 # SAUCE Group: WOE
@@ -31,5 +31,4 @@ Write-Host '
                 [1;30m·.db$''√√√√√√√[0;34mΣ[0;1;30m√√°[0;34m°[0;1;30mⁿⁿ  [0m   [1;34m°[0;36mⁿ[0;1;36mΣ√[0;36m$b[0;1;36mn[0m  [1;30m.a$$$$$[0;34m$[0;1;30m$$[0;34m$[0;1;30m$$[0;34m$$$[0;1;34m$$$[0;36m$$√[0;1;36m╙ⁿ°[0;1;37m`[0m
                 [1;30mf/ⁿ°[0m                          [1;36m°¥$[0m   [1;30m.a$$$$[0;34m$[0;1;30m$√[0;34m╙[0;1;30mⁿ°[0;34m`[0m            [1;37m.a±[0m
                 [1;30m([0m             [1m⌠\⌡[0m▐≡[1m T  [0m         [1m)[0m     [1;30mc[0;34md[0;1;30m$.$[0;34m$[0;1;30m$$[0;34m$NΩbna[0;1;34m. .a[0;36md$$$[0;1;36m$[0;1;37m$$√[0m
-                                               [1m°[0m        [1;30m`[0;34m°ⁿ[0;1;30m╙√[0;34md[0;1;30m$[0;34m$$$[0;1;34m$$$$[0;36m$$$$[0;1;36md√╙ⁿ°[0m
-                            [1m  [0m'
+                                               [1m°[0m        [1;30m`[0;34m°ⁿ[0;1;30m╙√[0;34md[0;1;30m$[0;34m$$$[0;1;34m$$$$[0;36m$$$$[0;1;36md√╙ⁿ°[0m'

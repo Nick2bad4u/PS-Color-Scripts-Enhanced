@@ -5,7 +5,7 @@
 # Source SHA-256: 3795e1f8c66d2c4ae52a87c3cc8009dfe9f6908ca17e8afd5794b5608b83ec6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-C#9B.ANS by Zeus II (buttraiderz); released in buttz01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cloud#9
 # SAUCE Author: Zeus II
 # SAUCE Group: buttraiderz
@@ -33,5 +33,4 @@ Write-Host '
             [31m████████▀ [0;32m▄[0;31m  [0;32m▀[0;1;33m▀[0;1;33;42m░[0;31m  [0;1;30m█[0;31m  [0;1;30m▓[0;31m  ▄ ▀[0;1;31m▀[0m      [32m▀[0;1;33m▄[0;32m▄▀[0;33m [0;1;37m██[0;1;33;43m▓█▄[0;33m▄  [0;1;33;42m▀[0;32m▀[0;1;33;42m▄[0;32m▄[0;37m [0;31m██[0m
             [30;41mzII_BRZ  [0;31;40m  [0;34;40m▄[0;1;34;47m▀[0;1;34;44m▓[0;34m▀[0;31m  [0;32m▄[0m   [1;30m░[0;31m █████▓▓█▄[0;32m ▀[0;1;33;42m░██[0;32m▀[0;33m [0;1;37m▓[0;1;33;43m▀[0;1;33;40m▀[0;33m▀   [0;32m▀[0m   [31m▄▄██[0m
                          [34m▀[0;31m [0;34m▀[0;31m [0;1;33m▀[0;32m▀▄[0;31m  [0;37mcloud#9[0m      [32m▄▀[0;33m ▀ [0m
-                             [32m▀[0m
-                 [37m  buttraiderz - good for you, good for me.[0m'
+                             [32m▀[0m'

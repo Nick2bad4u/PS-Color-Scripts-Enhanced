@@ -5,7 +5,7 @@
 # Source SHA-256: 72a403bf5c16a4950d6aad4ea72444d925dff1583b740f15ad2b31d19079d558
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VA-BEAR!.ANS by vain (opium.graphics); released in opx-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fluke the puke bear!
 # SAUCE Author: vain
 # SAUCE Group: opium.graphics
@@ -39,10 +39,8 @@ Write-Host '
 [31;40m ▄▒▓███▓▒▀ ▄▄▒▓██████▓▒▌ ▒▓[0;37;40m [0;33;40m▀█[0;1;33;43m░▒▓▓[0;1;33;40m██████[0;1;33;43m▓▒░[0;33m█[0;31m ▄▓[0;30;41mit gives me loadsa phun &[0;31;40m▓▒▄▄▄▄ [0;33;40m▀[0m
 [31;40m▒▓████▓▒  ▒▓████████▓▒▀   ▒▓[0;1;33;40m [0;33m▀██[0;1;33;43m░ ▀░▀▀▀ ░[0;33m██▌[0;31m▐▓[0;30;41maction for tha honey!"[0;31;40m██████[0;30;41mvain[0;31;40m▓▒[0m
 
-        [37;40mwell ... this aint too good, but it`s still a picture i like[0m
-        [37;40ma bit... now i think u should go call pets... it`s one of[0m
-        [37;40mswedens best boards... (nah!) but it`s still one of the coolest![0m
+        [37;40m                                                            [0m
+        [37;40m                                                         [0m
+        [37;40m                                                                [0m
 
-        [37;40mthe number is : +46-278-611311...[0m
-
-        [37;40m-later![0m'
+        [37;40mthe number is : +46-278-611311...[0m'

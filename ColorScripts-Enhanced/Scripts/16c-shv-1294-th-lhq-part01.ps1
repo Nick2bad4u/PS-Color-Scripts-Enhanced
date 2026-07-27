@@ -5,7 +5,7 @@
 # Source SHA-256: 10421eaaa605a8bb530cd35b1592d1d2a021acb2a19c17bad92f131c51961bd7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-LHQ.ANS by Thor (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Legion Headquarters
 # SAUCE Author: Thor
 # SAUCE Group: Shiver
@@ -51,5 +51,4 @@ Write-Host '
         [33m░▒▌[0m              [1;37m▄ [0;1;37;47m▓▓[0;1;37;40m▄[0;1;37;47m▓[0;1;37;40m█████████▄█▄▄▄▄ ▄ [0;33m▀▀▀[0;1;31;43m░░[0;33m▄[0m
         [33m░░[0m           [37m▄▄[0;1;37;47m▒▒▓[0;1;37;40m▌[0;1;37;47m▓▓[0;1;37;40m████████████████[0;1;37;47m▓▓[0m [1;37;40m█[0m▀▄ ▄
         [33m░[0m        [37m▄▄▀[0;1;37;47m░[0m▌[1;47m▒▒▒▒▓▓▓▓[0;1;40m███████████▀███[0;1;47m▓▓[0;1;40m▐[0;1;47m▒[0m▐[1;47m░[0m▐▄▀
-                ▀ ▀ ▀▀ ▀▀[1m▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀[0m▀  ▀▀[0m
-'
+                ▀ ▀ ▀▀ ▀▀[1m▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀[0m▀  ▀▀[0m'

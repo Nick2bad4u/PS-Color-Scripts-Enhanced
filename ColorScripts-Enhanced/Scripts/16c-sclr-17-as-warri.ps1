@@ -5,7 +5,7 @@
 # Source SHA-256: 4332f0a13ec1eea12b45f7815fa72be7bbacd2d66fc3842d8468ad24ddf52f1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-WARRI.ANS by Asd (sclr-17); released in sclr-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -43,11 +43,4 @@ Write-Host '
 [37;40m [0;36;40m$[0;1;36;40m$$$[0;36;40m$[0;1;30;40m  [0;36;40ml[0;1;36;40m$$[0;36;40m$;$[0;1;36;40m$$[0;36;40m$y[0;1;30;40m [0;36;40ml$$[0;1;36;40m$$$$[0;36;40m$yyyyy┌,.l[0;1;36;40m$$$[0;36;40m$yyyyy┌,.;$[0;1;36;40m$$[0;36;40m$l[0;1;36;40m$$[0;36;40m$\└┘/$[0;1;36;40m$$$$$$$[0;36;40m$$yyyyy┌, [0;37;40m [0m
 [37;40m [0;36;40ml[0;1;36;40m$$$[0;36;40m$;\$[0;1;36;40m$$$[0;36;40m\$[0;1;36;40m$[0;36;40m│$l[0;1;30;40m [0;36;40m;$[0;1;36;40m$[0;36;40m║[0;1;36;40m$$$[0;36;40m│l[0;37;40m  [0;36;40ml$[0;1;36;40m$$$[0;36;40m$[0;1;36;40m$$[0;36;40m$│l[0;37;40m  [0;36;40ml$$[0;1;36;40m$$$$$$$$[0;36;40m│[0;1;36;40m$[0;36;40m$;[0;37;40m  [0;36;40m;$$│[0;1;36;40m$$$$[0;36;40m│l[0;37;40m  [0;36;40ml$[0;1;36;40m$$$[0;36;40m$;[0;37;40m [0m
 [37;40m [0;36;40m;$[0;1;36;40m$$[0;36;40m││[0;1;36;40m$│$$[0;36;40m$[0;1;36;40m$[0;36;40m$S*┘`[0;1;30;40m [0;37;40m [0;36;40m$S*┘$$$$[0;37;40m  [0;36;40m;$[0;1;36;40m$[0;36;40m││[0;1;36;40m$$$$$[0;36;40m$[0;37;40m  [0;36;40m;$$│[0;1;36;40m$$$$[0;36;40m│$$/$│/┌┐\│$\l[0;1;36;40m$[0;36;40m│[0;1;36;40m$$[0;36;40m$[0;37;40m  [0;36;40m;$[0;1;36;40m$[0;36;40m│[0;1;36;40m$[0;36;40m$l[0;37;40m [0m
-[33;40m  [0;36;40m$$S*─┘²"^``[0;37;40m +o asd           [0;36;40m$S*─┘²"^``[0;37;40m   [0;36;40m$S*┘"lS*┘`[0;37;40m  [0;36;40m`''''''''`[0;37;40m  [0;36;40m;S*┘²`[0;37;40m   [0;36;40m$S*┘²`[0;37;40m [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m'
+[33;40m  [0;36;40m$$S*─┘²"^``[0;37;40m +o asd           [0;36;40m$S*─┘²"^``[0;37;40m   [0;36;40m$S*┘"lS*┘`[0;37;40m  [0;36;40m`''''''''`[0;37;40m  [0;36;40m;S*┘²`[0;37;40m   [0;36;40m$S*┘²`[0;37;40m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c3ec901038e6f91008adae66c0a33ec2deff6c9ccbf797a631e41c9984bbbe86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UT-RNCK1.ANS by untamed (jasper); released in lure002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rough neck matrix
 # SAUCE Author: untamed
 # SAUCE Group: jasper
@@ -40,7 +40,4 @@ Write-Host '
                 [35m██▌[0;37m [0;1;33m [0;33m▄▄██[0;1;33;43m░▒▓[0;1;33;40m██[0m                                           [1;33m [0;1;33;43m░▒▓█[0;1;33;40m█ [0m
                 [1;33m [0;33m▄▄██████[0;1;33;43m░▒▓[0;1;33;40m██▌[0m                                          [1;30m [0;1;33m [0;33m█[0;1;33;43m░▒▓[0;1;33;40m [0m
             [33m▄▄██████████[0;1;33;43m░░▒▓[0;1;33;40m███[0;32m [0m                                        [37m    [0;33m██[0;1;33;43m░[0;1;33;40m [0m
-[1;30;40m--------------------------------------------------------------------------------[0m
-[1;30;40mjust a quick guest ansi for [0mlure[1;30m. this is for [0mtracker1[1;30m and his bbs [0mrough neck.
-[1;30mhope you like it dude :)[0m [1;30mrequests to [0mjetgtt18@hotmail.com
-[1;30mgreets; tainted, zerov, aesthetic, lord scarlet (thanks for the advice), portia[0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

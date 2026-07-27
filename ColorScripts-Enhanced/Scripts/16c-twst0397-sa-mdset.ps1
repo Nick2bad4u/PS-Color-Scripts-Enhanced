@@ -5,7 +5,7 @@
 # Source SHA-256: 0e75df93be5e3957dcfa142811d59446bd2a6aa06981eccbb2f6cf801240e355
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-MDSET.ANS by silica (er not sure); released in twst0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: its mindless
 # SAUCE Author: silica
 # SAUCE Group: er not sure
@@ -39,9 +39,4 @@ Write-Host '
    ░ [1;30m▀[0m [1;30m▓ [0;1;31;41m▒sA[0;31m██[0;1;31;41m░[0;31m█[0m   [1;30m░[0m   [31m▐█[0;1;31;41m░[0;31m█[0;1;31;41m░[0;31m███[0;37m [0;1;32m▐[0;1;32;42m░[0m
      [1;30m░[0m [1;30m░[0m   [31m▀[0;1;31;41m░[0;31m▀▀▀[0;1;31m▀[0;31m█▄▄▄[0;1;31;41m▀[0;1;31;40m▀[0;31m▀▀▀▀▀▀[0;1;30m [0m [1;32m▄[0;1;32;42m▓[0;32m░[0m
 
-[37m~SP[0;1;30;44m([0;44meof[0;1;30;44m][0m
-
-[1;42mthere you go destiny, altered.. i modified it a tad and fuxored it a bit more[0m
-[1;42mgreats go to tHERUIN3r he is elite. and dEE^LOts wherever you aRE![0m
-
- [1mcall inso²@905 690 0394[0m  [1mjELLO whEADqUART[0m'
+[37m~SP[0;1;30;44m([0;44meof[0;1;30;44m][0m'

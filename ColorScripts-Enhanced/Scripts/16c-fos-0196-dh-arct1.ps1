@@ -5,7 +5,7 @@
 # Source SHA-256: 3b64445037fef35236f7a7fa356cbaa1bc6bee0cec7d6f1218ef2504b40c0a6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-ARCT1.ANS by Dark Horizon (fos-0196); released in fos-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -29,9 +29,9 @@ Write-Host '
 [1;34;40m [0m▀▀███████████████████████████▓██████████████████████████████[47m  [0;1;34;47m▄▄▄[0m██[1;34;47m▄▄▄ ▄▄█[0;1;34;40m█▓▀▀[0m
            [31m▄▄[0m
 [1;30m---------- [0;31m▀░[0;37m■▓▀▀ [0;1;30m------------< cut here >--------------------------------------[0m
-           [31m█▀  [0;37m▀ [0;1;30m-scizzers[0m
-[1;30mthis is my first ansi for FoS. umm I want to be in more groups.[0m
-[1;30m want an ansi email me at darkhorizon@usinternet.com snd ill get back to you.[0m
-[1;30m  ansi is  [0;31m▄▄ [0;1;30mfree or something i guess maybe ill charge who knows:)[0m
+           [31m█▀  [0;37m▀ [0;1;30m         [0m
+[1;30m                                                               [0m
+[1;30m                                                                             [0m
+[1;30m           [0;31m▄▄ [0;1;30m                                                      [0m
 [1;30m---------- [0;31m▀░[0;37m■▓▀▀ [0;1;30m------------< cut here >--------------------------------------[0m
            [31m█▀  [0;37m▀[0m'

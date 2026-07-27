@@ -5,7 +5,7 @@
 # Source SHA-256: ebdf9d5ab80361975984448f40c48796aa6f89bbca36883de3e8ab3ad48563e4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XSLEIGH.ANS by Jean Ludwig (ansis-x); released in ansis-x and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
    [34;41m█[0;34;46m  [0;1;37;46m.         ·        .        °                      [0;1;33;46m/              [0;34;41m█[0m
    [34;41m█[0;34;46m    [0;1;36;46mGreetings from                   [0;1;37;46m°     ·    [0;1;33;46m▀▀██▄     [0;1;37;46m°    ·    [0;34;41m█[0m
    [34;41m█[0;34;46m         [0;1;37;46m°          ·   [0;1;30;46mv   v   [0;1;37;46m·              ·   [0;1;33;46m███ __           [0;34;41m█[0m
-   [34;41m█[0;34;46m  [0;1;36;46mThe Beta Connection    [0;1;30;46mv v            [0;46m·[0;1;46m°         [0;1;33;46m███              [0;34;41m█[0m
+   [34;41m█[0;34;46m  [0;1;36;46m                       [0;1;30;46m               [0;46m [0;1;46m          [0;1;33;46m███              [0;34;41m█[0m
    [34;41m█[0;34;46m                         [0;1;30;46mvv        [0;1;37;46m°            [0;1;33;46m▄▄██▀   [0;1;37;46m°      °    [0;34;41m█[0m
    [34;41m█[0;34;46m                   [0;1;37;46m·    [0;1;30;46m▄██   [0;1;37;46m.                      [0;1;33;46m\        [0;1;31;46m▄▄    [0;34;41m█[0m
    [34;41m█[0;34;46m   [0;1;37;46m.     °    °        [0;1;30;46m▀▀[0;1;30;41m▀▀[0;1;30;46m             [0;1;37;46m·    °               [0;1;37;41m▄▄▄[0;1;31;46m█▄  [0;34;41m█[0m
@@ -27,6 +27,6 @@ Write-Host '
    [34;41m█[0;34;46m   [0;1;30;46m█      [0;1;37;46m°      [0;46m.             [0;1;46m.              .   [0;33;46m▀▀▀▄▄▄  █  [0;1;37;46m°  ·   [0;34;41m█[0m
    [34;41m█[0;34;46m             [0;1;37;46m.       .                   .        °     [0;33;46m▀▀▀▄▄▄      [0;34;41m█[0m
    [34;41m█[0;34;46m  [0;1;37;46m°      .            .          , °                  ·       [0;33;46m▀▀▀   [0;34;41m█[0m
-   [34;41m█[0;34;46m              [0;1;37;46m°          °                     °      Screen by     [0;34;41m█[0m
-   [34;41m█[0;34;46m  [0;1;36;46m''Twas the night before Christmas.....               [0;1;37;46mJean Ludwig''90[0;34;41m█[0m
+   [34;41m█[0;34;46m              [0;1;37;46m                                                      [0;34;41m█[0m
+   [34;41m█[0;34;46m  [0;1;36;46m                                                    [0;1;37;46m              [0;34;41m█[0m
 [34;40m   [0;34;41m▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄[0m'

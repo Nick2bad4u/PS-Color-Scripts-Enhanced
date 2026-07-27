@@ -5,7 +5,7 @@
 # Source SHA-256: f41c2b1d4f23ce5ec356141e898ac993a2b5d476d835002701fb8f07ac195805
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NM-MD.ANS by Netman (tdd-0295); released in tdd-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Manifest Destiny
 # SAUCE Author: Netman
 # SAUCE Date: 19950215
@@ -47,12 +47,11 @@ Write-Host '
 [35;44m [0m [1;35;40m▀▀▀[0;35m▀▀▀▀▀▀ [0;30;44m▀ [0m [1;35;40m▀▀▀▀▀▀▀▀▀ ▀▀[0;35m▀▀▀ [0;1;35m▀▀ [0;30;44m▀    [0m [1;35;40m▀▀[0;35m▀▀  [0;1;35m▀▀[0;35m▀▀  [0;1;35m▀▀[0;35m▀▀ [0;30;44m▌▐[0;1;35;40m▀▀[0;35m▀▀  [0;35;44m [0m [1;35;40m▀▀▀[0;35m▀▀ [0;30;44m▀     [0;37;40m [0m
 [30;44m                                                                               [0;37;40m [0m
 [30;44m [0m [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄ [44m [0;40m [0m
-[44m [0m [1;40m█[0;1;47m  [0;30;47m■ M/┤NiFΣST DΣSTiNY [0;1;30;47m▐[0;1;37;47m▌ [0;30;47m■ 7i8·URON·iT!  28.8 [0;1;30;47m▐[0;1;37;47m▌[0;30;47mSTAFF:TORN/┤DO [TRM/TDD] [0;1;30;40m█ [0;1;30;44m [0m
+[44m [0m [1;40m█[0;1;47m  [0;30;47m■   ┤               [0;1;30;47m▐[0;1;37;47m▌ [0;30;47m■                    [0;1;30;47m▐[0;1;37;47m▌[0;30;47m           ┤             [0;1;30;40m█ [0;1;30;44m [0m
 [1;30;44m [0m [1;37;40m█[0;1;37;47m  [0;30;47m■ o-5 Day Wares     [0;1;30;47m▐[0;1;37;47m▌ [0;30;47m■ 7i8·FiND·OUT  14.4 [0;1;30;47m▐[0;1;37;47m▌      [0;30;47m─────────          [0;1;30;40m█ [0;1;30;44m [0m
 [1;30;44m [0m [1;37;40m█[0;1;37;47m  [0;30;47m■ RUNNiNG PCB 15.2  [0;1;30;47m▐[0;1;37;47m▌ [0;30;47m■ SECOND NODE 28.8   [0;1;30;47m▐[0;1;37;47m▌      [0;30;47m─────────          [0;1;30;40m█ [0;1;30;44m [0m
 [1;30;44m [0m [1;37;40m█[0;1;37;47m  [0;30;47m■ 2 FaST NODeS      [0;1;30;47m▐[0;1;37;47m▌    [0;30;47mSOON              [0;1;30;47m▐[0;1;37;47m▌      [0;30;47m─────────          [0;1;30;40m█ [0;1;30;44m [0m
 [1;30;44m [0m [1;37;40m█[0;1;37;47m  [0;30;47m■ 2+ GiGS ONLiNE    [0;1;30;47m▐[0;1;37;47m▌[0;30;47m──────────────────────[0;1;30;47m▐[0;1;37;47m▌      [0;30;47m─────────          [0;1;30;40m█ [0;1;30;44m [0m
 [1;30;44m [0m [1;37;40m█[0;1;37;47m  [0;30;47m■ UNLiMiTED OFFLiNE [0;1;30;47m▐[0;1;37;47m▌ [0;30;47mANSi by NΣTMÆN [TDD] [0;1;30;47m▐[0;1;37;47m▌      [0;30;47m─────────          [0;1;30;40m█ [0;1;30;44m [0m
 [1;30;44m [0m [1;37;40m█[0;1;37;47m     [0;30;47mSTORAGE          [0;1;30;47m▐[0;1;37;47m▌ [0;30;47mDONE ON JAN 09, 1995 [0;1;30;47m▐[0;1;37;47m▌      [0;30;47m─────────          [0;1;30;40m█ [0;1;30;44m [0m
-[1;30;44m [0m ▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;30;44m [0m
-[1;30;44m                                                                               [0m'
+[1;30;44m [0m ▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;30;44m [0m'

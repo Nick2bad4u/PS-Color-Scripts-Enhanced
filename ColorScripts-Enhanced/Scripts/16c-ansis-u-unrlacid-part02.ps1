@@ -5,7 +5,7 @@
 # Source SHA-256: 755427591e17cdda3768c4a8cb29e038178ca7fe85b9527b191ec3103e24724c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UNRLACID.ANS by Slam Dunk (ansis-u); released in ansis-u and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 30-54
 # Columns: 1-80
 
@@ -34,4 +34,4 @@ Write-Host '
                  [37;40mP  [0;1;37;40mi  [0mR  A  T  E      M  A  G  A  Z  [1mi  [0mN  E      [35m▀▀[0;36;45m▀▀[0;35;40m▀▀▀▀[0m
                  [35;40m▄[0;36;40m▄[0;1;34;40m▄[0;34m▄▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34m▄▄[0;1;34m▄[0;36m▄[0;35m▄[0m
 
-                          [1;30mAN[0mS[1mi [0;1;30mB[0my [35m■ [0;1;30mSl[0ma[1mm D[0mu[1;30mnk [0;35m<[0;1;31mAC[0;31mi[0;1;31mD[0;35m>[0m'
+                          [1;30m  [0m [1m  [0;1;30m [0m  [35m■ [0;1;30m  [0m [1m   [0m [1;30m   [0;35m [0;1;31m  [0;31m [0;1;31m [0;35m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b1c2adf78b1bd76b227a2fcca1b77ab3cdf2be47c4b43c16a0c93631f2ff1674
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-PREBL.ANS by Son of Sam (Shiver); released in shv-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Packaged Rebellion
 # SAUCE Author: Son of Sam
 # SAUCE Group: Shiver
@@ -62,6 +62,5 @@ Write-Host '
 [1;30;40m█[0;30;41m▒▓[0m [37;40m▐[0;1;37;47m▒▓█[0;1;37;40m▄[0;1;37;47m██[0;1;37;40m▄[0;1;37;47m█▓▒[0m▌  [30;41m▓▒[0;1;30;40m▐ [0;1;37;40mT[0;1;31;40mi[0;31mta[0;1;30mn,  No Fear  USHQ,  insom[0;31mni[0;1;31ma[0;1;37m,[0;1;30m▐[0;30;41m▒▓[0m  [37;40m▐[0;1;37;47m▒▓█[0;1;37;40m▄[0;1;37;47m██[0;1;37;40m▄[0;1;37;47m█▓▒[0m▌ [30;41m▓▒[0;1;30;40m█[0m
 [1;30;40m█[0;30;41m░▒▓[0;37;40m▐[0;1;37;47m▒▓▓████▓▓▒[0m▌ [30;41m▓▒░[0;1;30;40m▐ [0;1;37;40mo[0;1;31;40ms[0;31mmi[0;1;30mum, menace ii  society, s[0;31mca[0;1;31mr[0;1;37m,[0;1;30m▐[0;30;41m░▒▓[0m [37;40m▐[0;1;37;47m▒▓▓████▓▓▒[0m▌[30;41m▓▒░[0;1;30;40m█[0m
 [1;30;40m█[0;30;41m░▒▓[0m [37;40m▀[0;1;37;47m▒▓▓▓▓▓▓▒[0m▀ [30;41m▓▒░░[0;1;30;40m▐ [0;1;37;40mh[0;1;31;40mo[0;31mst[0;1;30mile, scar, FYi, REM, illu[0;31msi[0;1;31mo[0;1;37mn[0;1;30m▐[0;30;41m░░▒▓[0m [37;40m▀[0;1;37;47m▒▓▓▓▓▓▓▒[0m▀ [30;41m▓▒░[0;1;30;40m█[0m
-[1;30;40m█[0;1;30;41m [0;30;41m░▒▓[0m  [1;37;40m▀▀▀▀▀▀  [0;30;41m▓▒░░ [0;1;30;40m▐ [0;1;37;40mT[0;1;31;40mo[0;31mns [0;1;30mmore  shit and nets to n[0;31mam[0;1;31me[0;1;37m.[0;1;30m▐[0;1;30;41m [0;30;41m░░▒▓[0m  [1;37;40m▀▀▀▀▀▀  [0;30;41m▓▒░ [0;1;30;40m█[0m
-[1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30;40mAnsi, font, lit and shit all done by Son of Sam.  That skull looks shitty...[0m'
+[1;30;40m█[0;1;30;41m [0;30;41m░▒▓[0m  [1;37;40m▀▀▀▀▀▀  [0;30;41m▓▒░░ [0;1;30;40m▐ [0;1;37;40m [0;1;31;40m [0;31m   [0;1;30m                        [0;31m  [0;1;31m [0;1;37m [0;1;30m▐[0;1;30;41m [0;30;41m░░▒▓[0m  [1;37;40m▀▀▀▀▀▀  [0;30;41m▓▒░ [0;1;30;40m█[0m
+[1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

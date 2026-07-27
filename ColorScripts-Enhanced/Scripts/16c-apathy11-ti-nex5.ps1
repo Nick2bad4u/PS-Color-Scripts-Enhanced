@@ -5,7 +5,7 @@
 # Source SHA-256: 652bff3d297f0d9a58198d4e27decaae54727189584f51ec0971fefdc9b39035
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-NEX5.ANS by Trip (Apathy); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nexus login matrix
 # SAUCE Author: Trip
 # SAUCE Group: Apathy
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-w0WZ3RZ. i finally did a respectable 100% original ansi!@ phear dat!@ uhm. this
-is my idea of nootropic [i will n07 call him dieznyik]. he''z an 4l13n in a tie
-and workshirt. ya know, all corporate like. heh heh heh, aren''t i clever!#
+                                                                               
+                                                                              
+                                                                          
 
 [1;30m-------[0m
                     [1;30m      ▄▄▄▀▀▀[0;32m▄▄▄▐█▓▓███████[0;1;32;42m░░[0;32m▄▄▄▄[0;1;30m▀▀▀█▄▄▄    [0m

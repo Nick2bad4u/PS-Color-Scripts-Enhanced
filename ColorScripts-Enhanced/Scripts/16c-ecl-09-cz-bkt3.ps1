@@ -5,7 +5,7 @@
 # Source SHA-256: 9da1032c4013e10298a49e3608ea0953763cc438db937f3c9d5ead11248c9277
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-BKT3.ANS by Cheeze (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -25,5 +25,4 @@ Write-Host '
 [1;47m▒▒▒▒░░░[0m▌[34m▐[0;1;34;44m░░▒[0;34m▌[0;37m [0;34m▄▄▄▄[0;36;44m░░▒[0;34;46m▒░[0;36;40m▀▀▀▀[0;1;36;46m▀▓█▄[0;1;36;40m▄▄[0;36m▄[0;1;37m [0;1;36;46m ██[0;46m▒[0;40m ▓ [0;46m▒[0;1;36;46m██ [0;1;37;40m [0m▀[1;47m  [0m▌[36m▐[0;1;36;46m▐█▓▓▒▒░[0;36m░▐[0;34;46m ░░[0;34;40m▌▄▄▄[0;1;34;44m░░░ [0m [1;47m░░▒▒▒▒[0m
 [1;47m░░░░  [0m█[1m [0;1;34;44m   ░░░ [0;34m▀▀▀▀[0;37m ▄▄▄▄[0;1;33;47m░░[0m▄▄▄ [36m▀[0;1;36m▀▀[0;1;36;46m▀███▌[0;36m▌[0;37m ▀ [0;36m▐[0;1;36m▀▀▀[0;36m▀[0;37m [0;1;33;47m░[0;1;37;47m [0m [36m▀[0;1;36m▀▀[0;1;36;46m▀▓▒▒░[0;36m░[0;37m [0;34;46m░▒[0;36;44m▒░░[0;34;40m▀▀▀[0;1;34;44m  [0;34m▌[0;37m▐[0;1;37;47m  ░░░░[0;1;37;40m [0m
        [1m [0;1;34;44m  [0;34m▀▀[0m    [34mcz?[0m                [36m▀[0;1;36;46m▀▀[0;1;36;40m▀[0;36m▀[0m          [37m      [0;36m▀[0;1;36;46m▒[0;36m▌▄▄▀▀[0;37m [0m       [34m▀[0;37m [0m
-                                                         [36m▐▀[0m             [37m  [0m
-[37m [0m        [37mbucket: ([0;1;37mbu''kit[0m) - a silly lil'' board run by mongoloid([1mklex[0m)[0m'
+                                                         [36m▐▀[0m             [37m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c4dee388d376947d97f80abd8ec81cb6f6f62916163764157a8ed70bf5a3587c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-CONFU.ANS by Mr.Wrong (irat-0 productions.); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Confusion.
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: irat-0 productions.
@@ -34,7 +34,4 @@ Write-Host '
  [1;34;46m▒▓[0;1;34;40m█▄[0m [1;30m▀▀[0;1;30;47m▓▒[0;1;30;40m▀▀[0;1;34;40m [0m [1;34;46m▓▓▒[0;30;46m▀▀[0;1;34;40m▀▀█[0;1;34;46m▒[0;30;46m▄[0;37;40m [0;30;46m▄[0;1;34;40m▄[0m  [1;30m■▄[0m  [1;30m▄██▀[0m [1;34;46m▓[0;1;34;40m▀[0;30;46m▀[0;37;40m ▀▀▀ [0;1;34;40m▄▌[0m [1;30m▄█████▌[0;1;34;46m▒[0;30;46m▄[0;37;40m ▄▀  ████[0;1;34;40m ▌[0m █[1;30;47m░▓[0;1;30;40m▄[0m  [1;30m▄█[0m
 [1;34;46m░[0;30;46m▄[0;37;40m  [0;1;34;40m▀▀▄▄▄[0;30;46m▀▄[0;1;34;40m▀▀[0;30;46m▄[0;37;40m [0;30;46m▄[0;1;34;46m░[0;30;46m▐[0m   [1;34;46m░[0m   [1;34m▐▄▄▄[0m [1;30m▀██▀[0m [30;46m▀▄[0;37;40m   [0;1;34;40m▀[0;30;46m▄[0;1;34;46m▒░[0;30;46m▄[0;1;34;40m▌[0m [1;30m███████[0m [1;34;46m░▒[0;30;46m▐[0;37;40m▀▄▄████▀[0;1;34;40m▐[0;1;34;46m▓[0;1;34;40m▄[0m [1;30m▀[0;1;30;47m░▒▒▓[0;1;30;40m▀[0m
  [30;46m▄▀[0m            [1;34;40m  [0;30;46m▄[0;37;40m  [0;30;46m▄[0m    [30;46m▄[0m   [30;46m▄[0;1;34;40m    [0;30;46m▄[0m   [37;40m    [0;30;46m▀▄[0;37;40m [0;1;34;40m  [0m [1;30m▀███▀[0m [30;46m▀▄[0;37;40m [0;30;46m▄▀[0;37;40m ▀▀▀▀ [0;30;46m▀▄[0;1;34;46m▒[0;30;46m▄[0;1;34;40m▀▄[0m [1;30m▀▀[0;1;34m [0;30;46m▀▐[0;1;34;40m-[0m
-      ([1;30m418[0m)[1m SIL[0;1;30m-[0;1;37mENCE[0m   [1;30mC o n f [0;1;37mU[0;1;30m s i o n[0m  running under [1;30mTelegard[0m [1;34m-[0m     [1;34m▀▀▀[0;30;46m▄[0m
-          [1;34;40m-[0m [1;30msystem operator: [0;1;37mMr.Wrong [0;1;30mc0[0;1;37m-[0;1;30msystem operator[0m:[1m Fist[0m [1;34m-[0m         [1;30mm.wg[0m
-   [1;34m-[0m  Food Not Bombs [1mquebec [0mheadquarter [1;34m-[0m [1mDumb[0m emag [1;30mdistribution site [0;1;34m-[0m
-[1;34m [0m        [1;34m-[0m Corruption addicts  [1;30mdistribution site [0m& [1;30mmember board[0m [1;34m-[0m'
+       [1;30m   [0m [1m    [0;1;30m [0;1;37m    [0m   [1;30m        [0;1;37m [0;1;30m        [0m                [1;30m        [0m [1;34m [0m     [1;34m▀▀▀[0;30;46m▄[0m'

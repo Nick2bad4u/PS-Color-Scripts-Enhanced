@@ -5,7 +5,7 @@
 # Source SHA-256: c275e606c62a12b1c7c2efaf7a441aff945fa29cc09440b2fcb664e8e8dfc1e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-ACD.ANS by Palmore (Remorse); released in rmrs-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Palmore
 # SAUCE Group: Remorse
 # SAUCE Date: 20020907
@@ -36,10 +36,5 @@ Write-Host '
                       [1;30m`""` [0m     [1;30m`,[0m`[1;30m,[0m    [1;30m`.,'' .[0m    [1;30m,..`""`[0;1;34m░▒[0;1;30m [0;1;34m░[0;1;30m [0;34m░▒[0m
                                 [1;30m`[0m.,[1;30m''[0m          [1;30m`.,''[0m   [1;30m`. [0;34m░▒[0;1;34m░[0m    [34m░[0m
                                                          [34m░[0;1;34m░[0;1;30m [0;34m░[0m
-                                                      [1;34m░[0m   [34m▒[0m    [37mpalmore.rmrs.81[0m
-                                                          [34m░[0m
-
-
-
-
-      [37mI was bored...I tried a font....it didn''t happen.. here''s the result[0m'
+                                                      [1;34m░[0m   [34m▒[0m    [37m               [0m
+                                                          [34m░[0m'

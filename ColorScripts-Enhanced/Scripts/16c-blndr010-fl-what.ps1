@@ -5,12 +5,12 @@
 # Source SHA-256: 5f6c0fff546bb8da6af2be45c67b2ea991f6a4db47ba6f21bc2192a5a53be2d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-WHAT.ANS by Flame (blndr010); released in blndr010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
-[32mwhat the hell?  i''m a dumbass.  - flame [0m
+[32m                                        [0m
 
 
                                      [33m ░███▄▄▄  [0m
@@ -49,7 +49,4 @@ Write-Host '
           [33;40m    █████[0m                                   [33;40m█████   [0m
            [33;40m   ▐███▌[0m                                   [33;40m████[0;34;40m░[0;33;40m [0m
            [33;40m   [0;37;40m [0;33;40m▓██▌[0m                                   [33;40m███▌ [0m
-                                                      [33;40m███[0m
-
-
-[32;40mthis has nothing to do with the topic.  so, it''s unfinished.[0m'
+                                                      [33;40m███[0m'

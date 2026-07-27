@@ -5,7 +5,7 @@
 # Source SHA-256: 77edd75d38d3fbb5052b3a1c0d29ffffb7da42fb23597b0a94d89aa88be4cdda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-PL.ANS by Coeffey (BdP); released in bdp-1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Promised Lands
 # SAUCE Author: Coeffey
 # SAUCE Group: BdP
@@ -30,8 +30,8 @@ Write-Host '
 [1;34;44m    ▓▒       ░    ░  [0;30;44m ▐[0;1;30;40m█[0;30;44m▌[0;1;34;44m  ░[0;30;44m ▀▀[0m [1;34;44m▒[0;30;44m▐[0m [30;47m▄██[0;1;37;47m░▒▓[0m  [30;47m▌[0;1;37;47m░▒▓[0;30;47m ▄▄[0;1;37;47m░▒▓[0;30;47m▐[0;1;30;40m█[0;30;44m▌[0;1;34;44m░░[0;30;44m [0;1;34;44m  ░    ░             [0m
 [1;34;44m    ▒▒            ░  [0;30;44m ▐[0;1;30;40m█[0m [1;34;44m░[0;30;44m▄▄▄▄▄▄▄▄[0m     [30;47m▄[0m   [30;47m▄▄▄▄[0m [1;37;40m▀▀[0m  [30;47m▄[0m [1;30;40m█[0;30;44m▌ [0;1;34;44m░[0;30;44m [0;1;34;44m                     [0m
 [1;34;44m    ░░               [0;30;44m ▐[0;1;30;40m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;30;44m▌   [0;1;34;44m                     [0m
-[30;44m    [0;1;34;44m░[0;30;44m                 ▐[0;1;30;40m█ I''ll try to grab him ! or go █[0;30;44m▌   [0;1;34;44m                     [0m
-[30;44m                      ▐[0;1;30;40m█[0m [1;30;40mafter him to the Promised[0m    [1;30;40m█[0;30;44m▌                        [0m
+[30;44m    [0;1;34;44m░[0;30;44m                 ▐[0;1;30;40m█                              █[0;30;44m▌   [0;1;34;44m                     [0m
+[30;44m                      ▐[0;1;30;40m█[0m [1;30;40m                         [0m    [1;30;40m█[0;30;44m▌                        [0m
 [30;44m                      ▐[0;1;30;40m█[0m [1;30;40mLands ![0m                      [1;30;40m█[0;30;44m▌                        [0m
 [30;44m                      ▐[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;44m▌                        [0m
 [30;44m                                                                                [0m
@@ -54,5 +54,5 @@ Write-Host '
 [1;30;40m█[0m                  [1;37;47m░░░░░[0;30;47m▀[0m [1;37;47m░░░[0;30;47m██[0;1;37;47m░░░[0m [1;37;47m░░░[0;30;47m██[0;1;37;47m░░░[0m [1;37;47m░░░[0;30;47m▄▀[0;1;37;47m░[0;30;47m▄█[0m   [30;47m▀[0;1;37;47m░░░░░░[0m                [1;30;40m █[0m
 [1;30;40m██▄                          Coeffey <[0;32mBdP[0;1;30m>                                   ▄██[0m
  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m
-[1;30m     [0m   [1;30mYou got there ! And there is no return ! The Promised Lands[0m [1;30m![0m
+[1;30m     [0m   [1;30m                                                           [0m [1;30m [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

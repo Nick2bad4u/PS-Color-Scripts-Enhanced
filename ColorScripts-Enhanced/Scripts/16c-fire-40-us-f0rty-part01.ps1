@@ -5,7 +5,7 @@
 # Source SHA-256: 47d6b5bac82c8310106b578c6b071b6fc507900e196225893e7dc655b29203df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-F0RTY.ANS by Savage + ZIR (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: godzilla, skyscraper, playing chess
 # SAUCE Author: savage + zir
 # SAUCE Group: FiRE
@@ -21,7 +21,7 @@ Write-Host '
  [1;34m█[0m    [1m█[0m   [1m█[0m █   █ █  ▀█   [1;34m▄▀[0m     ▄▀   [1m█[0m  █   █   [1;34m▄▀   [0m█     [1m█[0m  █   █ █▄[1m▄▄█[0m    [1;34;47m▓[0m
  [1;34m▓▄▄[0m  █[1m▀▀▀█[0m  ▀▄▄█  ▀▄▄█  [1;34m▀[0m     ▄█▄▄▄ [1m▄█▄[0m █▀▀▀▄  [1;34m▀[0m     █▀▀▀ [1m▄█▄[0m █▀▀▀▄ ▀[1m▄▄▄[0m   [1;34m▄▄█[0m
 
-     [1;33msavage[0;1;32m [0mand [1;33mzir[0;1;32m [0mon behalf of [1;31mfire graphics[0m [1;31minternational[0m [1;31m#40[0m june 2024
+     [1;33m      [0;1;32m [0m    [1;33m   [0;1;32m [0m             [1;31m             [0m [1;31m             [0m [1;31m   [0m          
 
  [34m░░░░░░░░ ░░░░[0;37m [0;34m░░░░░░░░░░░[0;37m [0;34m░░░░░░░░░░░░░░░░░░░░░[0;37m [0;34m░░░░[0;37m [0;34m░░░░░░░░░░░░░░░░░[0;37m [0;34m░░░░░░░[0m
 [37m [0;34m█████████ [0;1;34;44m░▓▓[0;1;34;40m▄[0;34m▓▀███████████████████████████████████████[0;1;34;44m░▄▄▄[0;44m    [0;1;34;44m▄▄▄[0;44m   [0;1;34;44m░░▄[0;44m    [0;1;34;44m▄[0;5;34;44m█[0m

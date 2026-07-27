@@ -5,7 +5,7 @@
 # Source SHA-256: 8464ea0c412e7b037d4d0ff4144e2d1c26a5a8b07ef9033048760fcc722492a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-TT.ANS by Colourless (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Termite Terrace
 # SAUCE Author: Colourless
 # SAUCE Group: AWE Lettering
@@ -32,6 +32,4 @@ Write-Host '
                          [37m░[0;30;47m░  [0;37;40m▌▐[0;37;47m    [0;1;37;47m░[0m▌[1m▐[0;1;47m█▓[0m▌     ▐[1;46m▓[0;1;47m▌[0m▌▀▀ ▀
                          ▐[47m  [0;1;47m▄▌[0m▄[47m [0;1;47m░  [0;30;47m░[0;37;40m▄[0;1;37;47m▀▀[0m▀      ▀░ ▀  ░▄▄▄
                          ▐[1;47m░ ▐[0;1;46m▓[0;1;47m▌[0m▌▐[47m [0;40m▀[0;47m   [0;1;47m▄█▄[0;30;47m░[0;37;40m▌▀▀▀▀▀▀[0m
-                         [37;40m▀▀▀[0;1;37;40m░▀[0m▀ ▀      [1m▀ [0m░
-
-          colourless([1mawe[0m) - used by black viper([1miCE[0m) in one of his pics[0m'
+                         [37;40m▀▀▀[0;1;37;40m░▀[0m▀ ▀      [1m▀ [0m░[0m'

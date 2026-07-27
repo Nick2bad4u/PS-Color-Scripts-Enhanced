@@ -5,7 +5,7 @@
 # Source SHA-256: 13650bab17c3deccce69388a11c59617c710a58194a6703fa523b3eb3f84ea06
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-COPS.ANS by Trident (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cops pic
 # SAUCE Author: Trident
 # SAUCE Group: Hype
@@ -44,10 +44,10 @@ Write-Host '
 [1;36;46m██▄[0;36m███████[0;1;36;46m▀[0;36m█████████████████[0;1;36;46m░[0;36m███████▄▄[0;37m [0;1;31m▀▀ ▀[0;33m▀▀[0;37m [0;36m▄███████████████████████[0;1;36;46m▄[0;36m██████[0;1;36;46m▄██[0m
 [1;36;46m███████▄ ▄[0;36m█[0;1;36;46m▀[0;36m██████████████████████████████████████████████[0;1;36;46m░[0;36m████████████[0;1;36;46m▀ ▄██████[0m
 [1;30;40m================================================================================[0m
-[1;33;40m " This is for all those guys in Blue that crashed parties I was at last year..[0m
-[1;33mthis for you.. fak off.. =) Go to Tim Hortons and have a blast... "[0m
+[1;33;40m                                                                               [0m
+[1;33m                                                                   [0m
 
-[1;30mI think I should use a new background to do my art =) welp I''ll try comic rip [0m
-[1;30mnext month.. I''m too lazy now.. =) hehe greetz: 55, sr, wO, 4thds, ff, sf, tcg![0m
-[1;30mand all the otha muthafucka''s on IRC.. greetz..[0m
+[1;30m                                                                              [0m
+[1;30m                                                                               [0m
+[1;30m                                               [0m
 [1;30m================================================================================[0m'

@@ -5,17 +5,17 @@
 # Source SHA-256: 3f7ed4afa3daa548444b98ad77b3b758117a6d869a6040cb204270f7f1acf385
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-DANRMX.ANS by Abstrakt (123-15); released in 123-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-noches remix, frito-lay power[1;30m.[0m
+                             [1;30m [0m
 
 
                                       .╔[1;37m#[0m/[1;30m.[0m
                                     .[35mj[0;1;35m$$[0;1;37m$$$[0;1;30m:[0m
-[1;30myyyyyyyyyyyyy[0myyy ┬ ┬┬▬,._     [1;30m┌,[0;1;37m  [0m.[1;37mj$$$$$$$l  [0;34my[0;1;34myyyyyyyyyy[0;34myyy[0;37m  [0;34m_[0;1;34m_[0;34m_[0m     [34myyy[0;37m [0;34my[0;1;34myyy[0;34my[0m
+[1;30m             [0m    ┬ ┬┬▬        [1;30m┌ [0;1;37m  [0m [1;37m           [0;34m [0;1;34m          [0;34m   [0;37m  [0;34m [0;1;34m [0;34m [0m     [34m   [0;37m [0;34m [0;1;34m   [0;34m [0m
 [1;30m$``$$$$$$$$[0m│jS⌂* ┴ ┴┴*Q[1;37m$$$[0mk[1;37m   [0;1;30m`[0;1;37m [0m.[1;37mj$$$$$$$$$[0mW[1;37m  [0;34m$[0;1;34m$$$$$$$[0;34mjS⌂*┴┴[0;37m  [0;34m```[0m     [34m$$$[0;37m [0;34m$[0;1;34m$$$[0;34m$[0m
 [1;30m$[0m  [1;30m``$$$$┘`[0m            `$[1;37m$$[0mb[1;37m  [0m.j[1;37m$$$$$$$$$$$[0mA.[1;37m [0;34m`4[0;1;34m$$$[0;34m$┘`[0;1;37m [0m.┌⌐[1;37mS$$$$$[0m$$$$  $$  $[1;36m$$[0;36m$$[0m
 [1;30m$[0m   j$$''[1;30m  [0m    .┌⌐[1;37ms%#SQQQ$$$[0m`.j[1;37m$$$$j/ [0m`[1;37m$$$$$$$b[0;1;30m.[0m [34m`4[0;1;34m$[0;34ml[0;37m .$[0;1;37m$$$$$jj$$[0mQQQQ  QQ  Q[1;36m$$$[0;36m$[0m
@@ -28,8 +28,4 @@ noches remix, frito-lay power[1;30m.[0m
   [36m.[0;37m  [0;34m.┌*:[0;37m :[0;1;36m$$$$$[0ml    `[1;37m4$$$[0m.[1;37m [0m`[1;37m''ⁿ*[0m⌂//[1;30m/[0;1;37m   [0m4[1;37m│$$$7[0m`[1;37m  [0m`4b.[1;37m  [0m`''²[1;37m┴[0;1;36m┴┴[0m²[1;30m''[0m     [36m.[0m      [1;30m.Y$$$[0m
  [36m`[0;37m [0;34mj$[0;1;34m$$$[0;34ml[0;37m [0;1;37m [0m4[1;36m$$$$[0;1;37ml┬┐[0m,.[1;37m  [0m`└[1;37m$$[0mb.            ''ⁿ[1;37m┘[0m*⌂[1;30m\[0m  ;$$Ss┐,. _ .,⌐#$$S⌂.[1;30m┌s#S$$$`$$[0m
 [36m`[0;37m [0;34m:$[0;1;34m$$$$[0;34m$.[0;1;37m  [0m`[1;36m└┘''[0;1;37m``[0m`''[1;37m┘/j$$$$$$[0m$/[1;30m┐.[0m     [35m,[0;37m$S#%s¬┬┬y@$$$$$$$$$$$$$``[0;34m_[0;37m $$$[0;1;30m$$$$$``[0m [1;30m$$[0m
-  [34ml$[0;1;34m$$$$$$[0;34m$S%¬⌐%##%s┐,.[0;37m/  [0;34m__[0;1;34m____[0;34m__[0;1;34m$S[0;34m#[0;1;34m____[0;34m__[0;1;34m_[0;34m____[0;37m  \$$$$$$$[0;1;30m$$$Q[0m [1;34m$[0;34m$[0;37m [0;1;30m$$$$$$$$$$$$$[0m
-
-
-
-          [1;30mrocco is my idol[0m'
+  [34ml$[0;1;34m$$$$$$[0;34m$S%¬⌐%##%s┐,.[0;37m/  [0;34m__[0;1;34m____[0;34m__[0;1;34m$S[0;34m#[0;1;34m____[0;34m__[0;1;34m_[0;34m____[0;37m  \$$$$$$$[0;1;30m$$$Q[0m [1;34m$[0;34m$[0;37m [0;1;30m$$$$$$$$$$$$$[0m'

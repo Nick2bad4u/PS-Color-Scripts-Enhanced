@@ -5,7 +5,7 @@
 # Source SHA-256: ee47d8cb0af55fe4ab2dcf897b18b8229e9bdbff21bee346aa4ca78f059f991b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-A213.ANS by metallic blood (blade productions); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: apartment 213
 # SAUCE Author: metallic blood
 # SAUCE Group: blade productions
@@ -28,7 +28,4 @@ Write-Host '
        [1;34ma[0;1;30m [0m [1;34;44m▓█▒[0m  [1;34;44m▒▓█[0m [1;34;44m▓▒░[0m  [1;34;44m▒▓█[0m [1;34;44m█▓░[0;1;34;40m [0m▐[1;34;47m░░░░[0m▌ [1;34m░[0;1;36m [0m [1;34;47m░░░░[0m▌  [1;34;47m░░░▒[0m▄ [1;34;47m░░[0m▌ [34m░[0;1;30m [0m ▐[1;34;47m░░░[0m▀ [1;30m [0;34m░░[0m
         [1;30m  [0;34m [0;1;34m▀▀▀▀▀▀▀[0m [1;34;44m█▓▒[0;1;34;40m▀▀▀▀[0m  [1;34m▀▀▓[0;34m  [0;37m▀▀▀▀▀▓▄▄▓▀▀▀▀  ▀▀ [0;1;30m░▄ ░[0;1;34m [0m▀▀▓▄▄▓▀▀[1;34m  [0;1;30m_3[0m![1;30m [0m
          [1;30m  ▀  ▀ ▀[0m▀ [1;34m▀▀▀▀[0m [1;30m▀▀[0m▀[1;30m▀▀░  ▀▀[0m▀[1;30m▀▀      ▀▀[0m▀▀[1;30m▀▀[0m▀[1;30m▀▀▀▀▀▀▀      ░▀ ▀   [0m
-               [1;30m           [0;34m [0;1;30m            [0;1;34m░[0;1;30m  [0;1;34ma[0;34mpartment 213...[0;1;30m      [0m
-                                       [1m [0m
-[1;30m [0m         [1;30m [0m [1;30mo[0;34mp[0;1;34mp[0;36me[0;1;36md[0m [1mby dr. kevorkian ([0;1;31mblade[0;1;37m|[0;1;31mash ss[0;1;37m) -- 414.NOT[0;1;36m.[0;36mU[0;1;34mP[0;34mx[0;1;30mx[0m
-                                       [1m [0m'
+               [1;30m           [0;34m [0;1;30m            [0;1;34m░[0;1;30m  [0;1;34m [0;34m               [0;1;30m      [0m'

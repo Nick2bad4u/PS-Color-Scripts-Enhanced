@@ -5,7 +5,7 @@
 # Source SHA-256: 1a0380a71fdfb6b535358a47a68d53535489b6a68e80dcdc55bae292d542fbbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-0697.ANS by insert (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: small cluster
 # SAUCE Author: insert
 # SAUCE Group: Phat Studios '97
@@ -17,9 +17,9 @@
 Write-Host '
 
 
-[35;40m↓ this one is for everybody.. yea, that''s right. if you need logo that says [0m
-[35;40m  "utopia", feel free to use this..  i just liked the word so i made it just[0m
-[35;40m  for fun, just for you![0m
+[35;40m↓                                                                           [0m
+[35;40m                                                                            [0m
+[35;40m                        [0m
                                                     [31;40m▄▄[0m
       [31;40m▄▄█▄[0m                          [31;40m▄[0m        [31;40m ▄▄▄▄███▄[0;37;40m [0;31;40m▄▄█▀▀▀▀█▄████▄[0m
    [31;40m██████[0m     [31;40m ▄▄█▀▀▀█▄[0m        [31;40m ▄▄██████▄▄▄▄███████████▀[0;37;40m [0;35;40m▄▄██▄▄[0;37;40m [0;31;40m███▄[0m   [31;40m▄▄██▄[0m
@@ -37,7 +37,7 @@ Write-Host '
 
 
 
-[35;40m↓ this one''s for flux crew[0m
+[35;40m↓                         [0m
 
                   [34;40m▄▄▄▄[0m
 [37;40m [0;32;40m▄▄▄██▀▀▀[0;37;40m  [0;34;40m▄▄▄▄[0;1;34;44m▄▄▄▒▀██▄[0;34m▄▄[0;1;34;44m▄▄▌[0m                        [34m▐[0;37m  [0;34m▄▄▄[0;37m  [0;34m▄▄▄[0;37m   [0;32m▀▀██▄▄▄▄▄▄[0m

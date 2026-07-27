@@ -5,7 +5,7 @@
 # Source SHA-256: f51758e444856d5e7e72d02089889d647a1eadc73d7186bec0bf675cf69c1153
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PB14.ANS by Cleaner + Sylvao (fdr-02); released in fdr-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 84-127
 # Columns: 1-80
 
@@ -51,6 +51,6 @@ Write-Host '
 [32m▓▓▓█████████▓▓▓▓▓▒▒▒▒░░░░▒▒▒░░▒▒▒▓▓▓▓▓▓▓▒▒▒▒▒▓▓▒▒▒▓▓▓████████▓▓▓████▓▓▓▒▒░░░░▒▒█[0m
 [32m▒▒▓▓██████▓▓▓▓▓▓▒▒▒░░░▒▒▒▒░░░░░▒▒▒▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓█▓▓▓▓████▓▓▓▓▓▒▒▒▒░░▒▒[0m
 
-[37m  ANSi by [0;1;37mSylvao[0m and [1mCleaner[0m of[1m Fire Dream[0m ■ For [1mPayback[0m 2014 ANSi Competition
-[30m [0;1;30m ANSi by[0m Sylvao[1;30m and[0m Cleaner[1;30m of [0mFire[1;30m [0mDream[1;30m ■ For [0mPayback[1;30m 2014 ANSi Competition[0m
+[37m          [0;1;37m      [0m     [1m       [0m   [1m           [0m ■     [1m       [0m                      
+[30m [0;1;30m        [0m       [1;30m    [0m        [1;30m    [0m    [1;30m [0m     [1;30m ■     [0m       [1;30m                      [0m
 [30m■ANSi■[0m'

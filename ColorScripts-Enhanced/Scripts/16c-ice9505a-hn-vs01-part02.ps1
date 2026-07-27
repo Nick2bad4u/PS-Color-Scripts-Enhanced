@@ -5,7 +5,7 @@
 # Source SHA-256: ff6e6d3cabe01d131b8bf612ec6b9e68e4129a5f9d7c6996d5a7384af035bf4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HN-VS01.ICE by Highness (iCE); released in ice9505a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Vampyre's Society
 # SAUCE Author: Highness
 # SAUCE Group: iCE
@@ -38,5 +38,4 @@ Write-Host '
 [1m [0m [1;36m█[0;31m░[0;37m▀▄[0m [1;31m▀▀[0;1;31;41m▓▓░░░[0;31m████[0;30;41m'' .. highness? i''m so high i cannot walk ..[0;31;40m█[0;30;41m''[0;31;40m███████▀▀[0m [1;30;40m▄[0m▀[31m░[0;1;30;47m▓[0m
    [1;36;40m▀▄[0;31m░[0;1;37m▀[0m▀[1m▄▄[0m▄[1;30m [0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▄[0m▄▄[1;30m▀[0m▀[31m░[0;1;30m▄▀ [0m
  [1;30m [0;31m [0m  [1;36m▀▀[0;36m▄[0;1;36m▄▄[0;31m░[0;37m▀▀[0;1;37m▀[0m▀[1m▀▀[0m▀[1m▀▀▀▀[0m▀[1m▀▀▀▀▀▀▀▀▀▀▀[0m▀[1m▀▀▀▀[0m▀[1m▀▀[0m▀▀[1m▀[0m▀▀▀▀▀[1m▀[0m▀▀▀▀▀▀▀▀[1;30m▀[0m▀▀▀[1;30m▀[0m▀[1;30m▀▀[0m▀[31m░[0;1;30m▄[0;36m▄[0;1;30m▄▀▀ [0m
- [31m    [0;1;30m  [0;31m [0m  [36m▀[0;1;36m▀▀[0;36m▀[0;1;36m▀[0;36m▀▀[0;1;36m▀[0;36m▀▀▀[0;1;36m▀[0;36m▀▀▀▀▀▀▀[0;1;36m▀[0;36m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;36m▀▀▀▀[0;1;30m▀[0;36m▀▀[0;1;30m▀▀[0;36m▀[0;1;30m▀▀▀[0;36m▀[0;1;30m▀▀▀▀▀[0;36m▀[0;1;30m▀▀▀▀▀▀ [0m
-    [31m [0m [31m [0m             [37mansi; highness (ice) aka bodycount (ice)[0m'
+ [31m    [0;1;30m  [0;31m [0m  [36m▀[0;1;36m▀▀[0;36m▀[0;1;36m▀[0;36m▀▀[0;1;36m▀[0;36m▀▀▀[0;1;36m▀[0;36m▀▀▀▀▀▀▀[0;1;36m▀[0;36m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;36m▀▀▀▀[0;1;30m▀[0;36m▀▀[0;1;30m▀▀[0;36m▀[0;1;30m▀▀▀[0;36m▀[0;1;30m▀▀▀▀▀[0;36m▀[0;1;30m▀▀▀▀▀▀ [0m'

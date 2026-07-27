@@ -5,7 +5,7 @@
 # Source SHA-256: 733ceb9f8953e96d3c5feca1b47aae6915153d689c36df91627960000b278d95
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZS-WORM.ANS by zerostar (SystemII); released in sys2_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: zerostar
 # SAUCE Group: SystemII
 # SAUCE Date: 20000501
@@ -38,8 +38,4 @@ Write-Host '
 [32mJ[0;1;32m$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;32m2@p┐▬.[0;33m`^''''''''''^`[0;37m  [0;33m`[0;32m.┐q@[0;1;32mS$S[0;32m@p┌▬▬▬┐q%@S[0;1;32m$$$$$$$$$$$$$$[0;32m$L[0m
 [1;32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;32mS@%%%@S$[0;1;32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;32m$[0m
 [32m$$[0;1;32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ZEROS[0;32mTAR[0m
-[32m````````````````````````````` ``````````````````````````````````````````````` ``[0m
-[37mbackground: original[0m
-[37mpic: comic rip (i gotta start somewhere)[0m
-
-[37mgo pirate worms2, it''s a good game.[0m'
+[32m````````````````````````````` ``````````````````````````````````````````````` ``[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d683c74eff57a4cef49740371bff0befaab4dd9cea4a25a7c0bad09f0b7caa87
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-BLUE.ANS by nail (f1R3); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blue
 # SAUCE Author: nail
 # SAUCE Group: f1R3
@@ -37,4 +37,4 @@ Write-Host '
 [36;44m█[0;1;33;40m▐▀[0;1;36;40m▌[0;33m ▐▀[0;34m [0;33m▄[0;34m [0;33m▀▄▌▐[0;1;33;43m░[0;33m██[0;1;31;43m▐█[0;33m▄[0;34m [0;33m ▄[0;1;31m▄[0;1;31;43m▄[0;33m▌▐[0;1;31;43m███████[0m  [1;30m▌[0m▒[1;30m▒[0m
 [36m▓[0;1;33m▐[0m [1;36m▀[0m [34m [0;33m▄▀[0;34m [0;33m░[0;30;43m░[0;1;31;43m▀[0;33m▌[0;34m [0;33m▀▐█[0;1;31;43m▀[0;33m▀ ▄[0;1;31;43m░▓▀[0;33m▀ █[0;1;31;43m▀▐█[0;1;31;47m▓▓[0;1;31;43m▀[0;33m▀[0;37m [0;1;30m▄[0m▒▓[1;30m▓ ▌[0m
 [36m▒[0;1;36m▐[0m   [33m▐▌[0;34m  [0;33m▄▐█[0;1;31;43m▌[0;34m [0;33m▀[0;1;31;43m░[0;33m▄  ▐[0;1;31;43m░[0;33m▀▀░▄▐[0;1;31;43m░░▓███[0;33m▌[0;1;30m ▄[0m [1;30m▌▀█▀▌[0;1;30;47m▓[0;1;30;40m▀▀[0m
-[36m░[0m   [37m [0;33m█░[0;34m [0;33m▐[0;1;33;43m░[0;33m▄[0;1;31;43m▄▓[0;33m▌[0;34m [0;33m▀  ▄█▄▌▀▀ ▐[0;1;31;43m▐▄███▌[0m [1;30m▐[0;1;30;47m▓▀[0;1;30;40m▌▄[0m▒[1;30m▄▌█▌▄▌▄▄▄▌[0m  [1;30m▄[0m  [1;30moriginal shit by[0m nail[1;30mfire[0m'
+[36m░[0m   [37m [0;33m█░[0;34m [0;33m▐[0;1;33;43m░[0;33m▄[0;1;31;43m▄▓[0;33m▌[0;34m [0;33m▀  ▄█▄▌▀▀ ▐[0;1;31;43m▐▄███▌[0m [1;30m▐[0;1;30;47m▓▀[0;1;30;40m▌▄[0m▒[1;30m▄▌█▌▄▌▄▄▄▌[0m  [1;30m▄[0m  [1;30m                [0m     [1;30m    [0m'

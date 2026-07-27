@@ -5,7 +5,7 @@
 # Source SHA-256: c19dd3c16cdc9b170dec64ce2214c22dd5663c82f5c57018b248062528251a41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RGD#LITH.ANS by Renegade (3o3); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lithium (alien-skin)
 # SAUCE Author: Renegade
 # SAUCE Group: 3o3
@@ -38,13 +38,4 @@ Write-Host '
       [34m▐██▌   ▄▄▄▐███[0;1;34;44m░[0;34m▌[0;37m [0;34m▐███▄[0;37m  [0;34m ▄██▌██[0;1;34;44m░[0;34m▌ ▐██▌▐███[0;1;34;44m░[0;34m▌[0;37m [0;34m███[0m    [34m▐██[0;1;34;44m░[0;34m▐██▌[0m      [34m███▌[0m   [1;30m [0m
        [34m▀██▄▄[0;1;34;44m  ▀ [0;34m▀▐███▄[0;37m [0;34m ▀▀███▄███▀▐███▌ ████▀▐███▄[0;37m [0;34m▐███▄[0;37m [0;34m▄███▌███ [0m     [34m▐███ [0m   [34m [0m
                  [34m▀▀  [0m           [34m  ▀███▀[0;37m  [0;34m▀▀[0;37m  [0;34m▀▀  [0m   [34m▀███████▀▄████▄[0m   [34m ███▌ [0m   [34m [0m
-                                     [34mopped by Fireside![0m              [34m▀▀▀[0m
-
-
-[31m [0;37m---[0;1;30m>[0m>[1;30m>[0m>  Okey,, this ansi is made by[1m Renegade [0mfor the board [1mlithium[0m ,,
-          this month i havn''t been so active in [1mansi[0m, bcs of the [1;30mscool[0m.. :(
-          the [1;30mscool[0m realy sux... i hate it... whak...now back to the
-          pic - the font sux bigtime and the fading on the "alien" sux even
-          more.... but i dessided to let this pic in the pack....  [5m<end>[0m
-
-                                                                   [5m           [0m'
+                                     [34m                  [0m              [34m▀▀▀[0m'

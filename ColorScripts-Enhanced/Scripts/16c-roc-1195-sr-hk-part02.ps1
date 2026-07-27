@@ -5,7 +5,7 @@
 # Source SHA-256: 36bfd63cd330908376cae51b5c8bd79375bae5648820b858b59950b1be203372
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-HK.ANS by Silver Rat 1994 (VOR); released in roc-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hell's Kitchen
 # SAUCE Author: Silver Rat 1994
 # SAUCE Group: VOR
@@ -41,9 +41,4 @@ Write-Host '
                      [31m [0m       [1;30m▀ ▀ ▀▀▀ ▀▀▀ ▀▀▀  ▀▀ [0m
                      [31m█  ▄▀ █ ▀▀█▀▀ ▄▀▀▀▀ █   █ █▀▀▀▀ █▄  █ [0m
                      [31m█▀▀▄  █   █   █     █▀▀▀█ █▀▀▀▀ █ ▀▄█ [0m
-                     [31m▀   ▀ ▀   ▀    ▀▀▀▀ ▀   ▀ ▀▀▀▀▀ ▀   ▀ [0m
-
-                         This is a [1mSilver Rat[0m Classic!
-
-                [1;30m( Originally intended to be released in[0m [1;30mVOR-0894 [0m
-                         [1;30mbut didn''t make the[0m [1;30mcut.[0;1;33m [0;36mha![0;1;30m )[0m'
+                     [31m▀   ▀ ▀   ▀    ▀▀▀▀ ▀   ▀ ▀▀▀▀▀ ▀   ▀ [0m'

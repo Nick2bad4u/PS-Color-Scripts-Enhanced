@@ -5,7 +5,7 @@
 # Source SHA-256: b380ce1a5d4a7bb10589f5e94a8211b2de56114f73b6d6a77639782407e8cc9e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D-VEGAN.ANS by Deepsome (blndr035); released in blndr035 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -30,9 +30,4 @@ Write-Host '
                           [1;37m▄[0;1;32m▀▄[0;32m▀▄[0;1;32m▌[0;1;31;43m▄[0;33m▄[0;1;31;43m▄[0;33m▄ [0;1;30mmeat[0m       [1;31;43m▐█[0;33m▌▐[0;1;31;43m▀[0;33m▀[0m
 [1;30mDeepsome/echo [0m             [1;32m▐[0;32m▌[0;1;32m▐[0;32m▌▌[0;1;31;43m▒▓▓▄[0;33m▌ [0;31m [0m       [33m   ▀[0m
                            [1;37m▀[0;32m [0;1;32m█[0m [32m■[0;37m [0;33m▀▀[0;31m    [0m     [37m      [0m
-                                [31m ░░ ▀[0m
-                                 [31m  [0m
-
-           [37mi''m too tired to make a better one :)[0m
-                                   [1;30mSUbjects VEGAN,SACRIFISE,LEGOLAND [0m
-[1;30m [0m'
+                                [31m ░░ ▀[0m'

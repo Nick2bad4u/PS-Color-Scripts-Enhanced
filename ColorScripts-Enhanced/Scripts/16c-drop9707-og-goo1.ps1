@@ -5,7 +5,7 @@
 # Source SHA-256: 8d7927a02af4e2452b216f2454b94f905a59256f89522a0dfa1443a496a4f12d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OG-GOO1.ANS by organ grinder (drop); released in drop9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gates of orion logo!
 # SAUCE Author: organ grinder
 # SAUCE Group: drop
@@ -17,7 +17,7 @@
 Write-Host '
 
                                                         [1;31m [0m
-    ,ⁿSⁿ°ⁿS$Sⁿ°ⁿSⁿ°°ⁿ$$$Sⁿ°ⁿS$Sⁿ°ⁿS$Sⁿ°ⁿS$Sⁿ°ⁿS$Sⁿ°ⁿS$Sⁿ°ⁿSⁿ°°ⁿSⁿ°ⁿS$Sⁿ°ⁿSy,
+                                                                            
     $ [35m,y@[0;1;31my,[0m [35m,y@[0;1;31my,[0m [35m$[0;1;31m$[0;35m [0;37m$$ [0;35m,y@[0;1;31my,[0m [35m,y@[0;1;31my,[0m [35m,y@[0;1;31my,[0m [35m,y@[0;1;31my,[0m [35m,y@[0;1;31my,[0m [35m,y@[0;1;31my,[0m [35my[0;1;31my[0m [35m,y@[0;1;31my,[0m [35m,y@[0;1;31my,[0m $
     $ [35m$$[0;37m [0;35m$[0;1;31m$[0m [35m$$[0;37m [0;35m$[0;1;31m$[0m [35m$[0;1;31m$[0;35myy[0;37m  [0;35m$$[0;37m [0;35m$[0;1;31m$[0;35m $$[0;37m [0;35m$[0;1;31m$[0m [35m$$[0;37m [0;35m$[0;1;31m$[0m [35m$$[0;37m [0;35m$[0;1;31m$[0m [35m$$[0;37m [0;35m$[0;1;31m$[0m [35m$$[0;37m [0;35m$[0;1;31m$[0m [35m$[0;1;31m$[0m [35m$$[0;37m [0;35m$[0;1;31m$[0m [35m$$[0;37m [0;35m$[0;1;31m$[0m $
     $ [35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0m    [35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m  [0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m [0;35m$$[0;37m $[0m
@@ -27,6 +27,6 @@ Write-Host '
     [1;30m$[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m    [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;35m$I[0m [1;30m$[0m
     [1;30m$[0m [1;35m$$s$$[0m [1;35m,yⁿ$$[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$y$$[0m [1;35m`ⁿSy,[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$yy[0m  [1;35m$$[0m [1;35m$$[0m [1;35m$$Sⁿ''[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;30m$[0m
     [1;30m$[0m [1;35myy[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;35myy[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$  [0m  [1;35m$$[0m [1;35m$$[0m [1;35m$$Sy, $$[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;35m$$[0m [1;30m$[0m
-    [1;30m$[0m [1;35m`ⁿSⁿ''[0m [1;35m`ⁿS$$[0m [1;35m`ⁿSⁿ''[0m [1;35m`ⁿSⁿ''[0m [1;35m`ⁿSⁿ''[0m [1;35m`ⁿSⁿ''[0m [1;35m$$[0m [1;30morg[0;1;35m`ⁿSⁿ''[0m [1;35m$$[0m [1;35m$$ $$[0m [1;35m`ⁿSⁿ''[0m [1;35m$$[0m [1;35m$$[0m [1;30m$[0m
-    [1;30m$$Sy,yS$Sy,,,ySy,yS$Sy,yS$Sy,yS$Sy,ySy,,y$$$Sy,ySy,,y,,y,,ySy,ySy,,y,,y$[0m
+    [1;30m [0m [1;35m     [0m [1;35m     [0m [1;35m     [0m [1;35m     [0m [1;35m     [0m [1;35m     [0m [1;35m  [0m [1;30m   [0;1;35m     [0m [1;35m  [0m [1;35m     [0m [1;35m     [0m [1;35m  [0m [1;35m  [0m [1;30m [0m
+    [1;30m                                                                        [0m
                   [1;35m     [0m [35m·[0;1;35mG[0;35m·[0;1;35ma[0;35m·[0;1;35mt[0;35m·[0;1;35me[0;35m·[0;1;35ms[0;35m··[0;1;35mo[0;35m·[0;1;35mf[0;35m··[0;1;35mO[0;35m·[0;1;35mr[0;35m·[0;1;35mi[0;35m·[0;1;35mo[0;35m·[0;1;35mn[0;35m·[0m'

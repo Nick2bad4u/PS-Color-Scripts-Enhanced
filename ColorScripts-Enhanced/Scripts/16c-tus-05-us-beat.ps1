@@ -5,7 +5,7 @@
 # Source SHA-256: 1b8085805e354c77707376b0a8ad5655e38aa764e064df5b6981c6dca524afac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BEAT.ANS by Discyple + Spinsane (tus-05); released in tus-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
@@ -35,9 +35,4 @@ $$$$!@%p┌,[1m   /$$$$.  [0m    .┐.,,┌d$$$$$$b.  [1m `└$$$$$$:   [0m 
 \*└''```''  [1m   `''└*/   [0m   d$$d$$$$$$$$$$$$$!.[1m   `$$$$l.  [0m [1m$$$[0ml[1m    $$$$$$$$$$└  [0m.d$
 [1m                     [0m  .$$$$$$$$$$$$$$$:I$$>.  [1m $$$$$,.[0m_[1m$$$$   .$$$$$$$/`[0m .d$$$$
 [1m                     [0m  .q$$$$$$$$$$$$gg I$$$$b.[1m   `''┘┘*[0m/[1m$$$$[0m:[1m   $$$$$/[0m .<$$$$$$$
-[1m                     [0m  $$$$$$$$$$$$$$$$ S$$$$$$/.[1m      [0m $[1m$$$$$$$$$$P [0m.Q$$$$$$$$4
-
-
-for beatlab 3.0
-i don''t know what it is, but it has something to do with nightrain
-spinsane/discyple[0m'
+[1m                     [0m  $$$$$$$$$$$$$$$$ S$$$$$$/.[1m      [0m $[1m$$$$$$$$$$P [0m.Q$$$$$$$$4[0m'

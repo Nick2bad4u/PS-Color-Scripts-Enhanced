@@ -5,7 +5,7 @@
 # Source SHA-256: 5d5c397a874070da46b1109920ac148260db8fc03a2f5009d25d202e73ba8640
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-OI3.ANS by Pyx (Bamboosh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Optical Illusion login
 # SAUCE Author: Pyx
 # SAUCE Group: Bamboosh
@@ -39,11 +39,4 @@ Write-Host '
 [32m▄[0;1;32;42m░░[0;32m██▓[0;37m [0;32m▒[0m   [32m░▒▓▒[0;37m [0;32m▄▄▄▄▄▄███▓▓████[0;1;32;42m░░[0;32m███[0;1;32;42m░░▒▒▒▓▒▓▓[0;1;32;40m▌[0;1;30;40m░ [0;34m▀[0;1;34;44m░█▓▄▄▄[0;1;34;47m▓▓[0;1;34;44m█[0;34m█[0;37m [0;1;30m░[0m [34m█[0;1;34;44m▓██▌[0;34m▌[0;1;30m▐█████▌▐███[0m
 [32m░█▒▀▀  ▓[0;37m  [0;32m░▓██▀▓[0;37m  [0;32m▀▀▀▓█[0;1;32;42m░░[0;32m▀▓▓██[0;1;32;42m░░[0;32m▓▓█▀██[0;1;32;42m░▒▒▒▓▓[0;1;32;40m▀[0;32m [0;1;30m▄▓▄[0m [34m▀[0;1;34;44m▀▀▀▀▀▒[0;34m▀[0;37m [0;1;30m▄▒[0m [1;34;44m░▀▀▀▀░[0;34m▄[0;37m [0;1;30m██████pyx[0m
 
--------------------------------------------------------------------------------
-
-Wosh.. Yiha! Another ansi finished, and it turned out ... well, you
-judge. Anyway, I am very satisfied with myself. It''s not often I do this
-kind of style, but expect more of this in the near future! It was a
-tough piece of art, and it took me alot of sweat. I would like to greet
-SpellBinder, former ACiD member, for inspiration. You are one of my
-favourite artists! Thanks.[0m'
+-------------------------------------------------------------------------------[0m'

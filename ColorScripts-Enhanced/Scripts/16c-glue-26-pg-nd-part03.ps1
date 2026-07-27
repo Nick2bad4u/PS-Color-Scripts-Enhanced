@@ -5,7 +5,7 @@
 # Source SHA-256: eade0450ea50cb252dcfcd5941580d0c5966c4cc9c0b8a8120883078e0370176
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PG-ND.ANS by polygon (glue); released in glue-26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: night daemon
 # SAUCE Author: polygon
 # SAUCE Group: glue
@@ -44,12 +44,12 @@ Write-Host '
            [30;44m  [0;34;40m████████████[0;1;34;44m░[0;34m██████[0;1;34;44m░░░[0;34m█████[0;1;34;44m░[0;34m███[0;1;34;44m░[0;34m███[0;1;34;44m░[0;34m███████████[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░ [0m
           [34m [0;30;44m  [0;34;40m█████████████████████████████████████████████████████[0m
            [30;44m  [0;34;40m█████████████████████████████████████████████████████ [0m
-           [30;44m  [0;34;40m███[0;30;44mthis is sad when the boy becomes a bird and [0;34;40m██████[0m
+           [30;44m  [0;34;40m███[0;30;44m                                            [0;34;40m██████[0m
            [30;44m  [0;34;40m███[0;30;44mbegins to fly ..                               [0;34;40m███[0m
-           [34;40m███[0;35;44m░[0;34;40m█[0;30;44mthis is sad when boy stopped breatheing and [0;34;40m██████[0m
+           [34;40m███[0;35;44m░[0;34;40m█[0;30;44m                                            [0;34;40m██████[0m
            [34;40m███[0;35;44m░[0;30;44m begins to die ..                         [0;34;40m█████████[0m
            [34;40m█████[0;30;44mwe did know it hurts you so much, sorry [0;34;40m██████████[0m
           [34;40m █████[0;30;44mits bad that he was sent to a psychologist[0;34;40m████████[0m
-           [34;40m███[0;35;44m░[0;34;40m█[0;30;44mwhen he just wanted an hug, its obvious when[0;34;40m██████[0m
-           [34;40m█[0;35;44m░[0;34;40m█[0;35;44m░[0;34;40m█[0;30;44myou''ll be home i wont miss you, we didnt know[0;34;40m███[0;35;44m░[0;34;40m█[0m
-           [34;40m█[0;35;44m░[0;34;40m█[0;35;44m░ [0;30;44mit hurts you so much, sorry, come here we''ll[0;34;40m████[0;35;44m░[0;34;40m█[0m'
+           [34;40m███[0;35;44m░[0;34;40m█[0;30;44m                                            [0;34;40m██████[0m
+           [34;40m█[0;35;44m░[0;34;40m█[0;35;44m░[0;34;40m█[0;30;44m                                             [0;34;40m███[0;35;44m░[0;34;40m█[0m
+           [34;40m█[0;35;44m░[0;34;40m█[0;35;44m░ [0;30;44m                                            [0;34;40m████[0;35;44m░[0;34;40m█[0m'

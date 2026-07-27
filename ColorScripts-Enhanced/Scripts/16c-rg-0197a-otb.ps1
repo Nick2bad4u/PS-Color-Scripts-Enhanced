@@ -5,7 +5,7 @@
 # Source SHA-256: a3e75f582ff1c311f029bfbb601b34a2185f2481d8da19d09560fed133047a33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OTB.ANS by vIGod (RAGE ARTS 96'); released in rg-0197a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: vIGod
 # SAUCE Group: RAGE ARTS 96'
 # SAUCE Date: 19961028
@@ -52,7 +52,4 @@ Write-Host '
 [37m─ ─-─-─[0;1;37m─░── [0;34m█[0;1;34;44m▀░[0;34m▄  ▄[0;1;34;44m░▒[0;34m█ [0;37m [0;34m█[0;1;34;44m▀░[0;34m▄  ▄█[0;1;34;44m▀[0;34m█[0m   [34m█[0;1;34;44m▀░[0;34m▄  ▄█[0;1;34;44m▀[0;34m█[0m   [34m█[0;1;34;44m▀░[0;34m▄  ▄█[0;1;34;44m▀[0;34m█[0;37m [0;1;37m───[0m─░──[1m─[0m─-─-─ ─
              [34m▀▀▀▀▀▀▀▀  [0;37m   [0;34m▀▀▀▀▀▀[0m      [37m [0;34m▀▀▀▀▀▀[0m      [37m [0;34m▀▀▀▀▀▀[0m
                         [37m [0m
-[1;34m [0m [1;34m- ──-───[0;34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff
-     [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff
-     [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff
-       [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff [34m[[0;1;34mX[0;34m][0;37m [0;1;37md[0me [1ma[0mffils [1mn[0m [1ms[0mtuff[0m'
+[1;34m [0m [1;34m  ── ───[0;34m [0;1;34m [0;34m [0;37m [0;1;37m [0m  [1m [0m      [1m [0m [1m [0m     [34m [0;1;34m [0;34m [0;37m [0;1;37m [0m  [1m [0m      [1m [0m [1m [0m     [34m [0;1;34m [0;34m [0;37m [0;1;37m [0m  [1m [0m      [1m [0m [1m [0m    [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4de6b2d20573afb3ae6815bb05a426f4819311a3ef7d5904cd359abdd8c1f5e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-EC.ANS by Stone The Crow (ACiD Productions); released in acdu0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Earth Crisis
 # SAUCE Author: Stone The Crow
 # SAUCE Group: ACiD Productions
@@ -37,21 +37,21 @@ Write-Host '
 [1m┌┬───[0m─[1;32m [0;1;37m─[0m──[1;32m [0m─[1;30m─[0;1;32m  [0;1;30m─[0;1;32m               [0;31m▀[0;1;30;41m [0;31m██[0;1;31;41m░[0;31m█[0;1;31;41m▄▀▄▓▄[0;1;31;40m▀[0;1;30;40m▄[0;1;30;42m▒[0;32m▄▄▄▐▄▄[0;1;32m▄ [0m █[1m█[0m  [1m [0m█[1m█[0;1;47m▄[0;1;40m▀ [0m▀[1m▀[0m ▀[1;47m▀[0;1;40m▄▄[0m ▀[1m▀[0m ▀[1;47m▀[0;1;40m▄▄[0m
 [1m│[0m└[1;32m [0;31m▄[0;1;31m▄▄▄▄[0;31m▄[0;1;31m▄▄[0;31m▄[0;1;32m [0;1;31m▄[0;31m▄▄▄[0;1;32m  [0;31m▄▄[0;1;32m   [0;31m▄[0;1;32m        [0;31m▀▀[0;1;31;41m▒▄▄█[0;1;31;40m▀▀[0;1;30;40m▄[0;1;30;42m█▓░[0;32m▀[0;37m [0;32m▀▌▀ ▀[0;1;32m▀ [0m█[1m██▄ [0m█[1m█[0m█[1m█ [0m█[1m█[0m ▄[1m▄[0;1;47m▄[0;1;40m█[0m █[1m█[0m ▄[1m▄[0;1;47m▄[0;1;40m█[0m
 [1m│[0;1;31;41m▓▓[0;1;31;40m▀▀[0m
-[1m│[0;1;31;41m▒[0m [1;30m[[0mec [1m][0m [1mE[0;1;31mar[0;31mth Crisis[0m                       [1;30m[[0mcod[1m][0m [1mC[0;1;31mod[0;31menet WHQ[0m
+[1m│[0;1;31;41m▒[0m [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m         [0m                       [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m        [0m
 [1;37m│[0;1;31;41m▒[0m [1;30m[[0m###[1m][0m [1m2[0;1;31m03[0;31m.568.1502[0m                       [1;30m[[0mtwi[1m][0m [1mT[0;1;31mwi[0;31mngle net[0m
-[1;37m│[0;1;31;41m░[0m [1;30m[[0mrel[1m][0m [1mR[0;1;31mel[0;31mic distribution site[0m            [1;30m[[0muni[1m][0m [1mU[0;1;31mni[0;31mon net[0m
-[1;37m│[0;31m█[0;37m [0;1;30m[[0miri[1m][0m [1mI[0;1;31mri[0;31mdium distribution site[0m          [1;30m[[0mimp[1m] I[0;1;31mmp[0;31mact net[0m
-[1;37m│[0;31m█[0;37m [0;1;30m[[0muns[1m][0m [1mU[0;1;31mNs[0;31mung distribution site[0m           [1;30m[[0mosn[1m][0m [1mO[0;1;31mbl[0;31mivion/2 support net [0m
-[1;37m│[0;31m█[0;37m [0;1;30m[[0minf[1m][0m [1mI[0;1;31mnf[0;31minity diskmag distribution site[0m
-[1;37m│[0;31m█[0;37m [0;1;30m[[0mklf[1m][0m [1mK[0;1;31mLF[0m [31mdistribution site[0m              [1;30m[[0mgig[1m][0m [1mO[0;1;31mve[0;31mr 1 gig online[0m
-[1;37m│[0;31m█[0;37m [0;1;30m[[0memi[1m][0m [1mE[0;1;31mmi[0;31mgre e-mag[0;37m [0;31mdistribution site[0m     [1;30m[[0madm[1m][0m [1mA[0;1;31mrt[0;31m/demos/music/programming[0;37m [0m
-[1;37m│[0;31m█[0;37m [0;1;30m[[0mine[1m][0m [1mI[0;1;31mne[0;31mrtia play[0;37m [0;31mdistribution site[0m     [1;30m[[0mlot[1m][0m [1mO[0;1;31mve[0;31mr 2000 files and growing[0;37m [0m
-[37m│[0;31m█[0;37m [0;1;30m[[0mkat[1m][0m [1mK[0;1;31mat[0;31mharasis[0;37m [0;31mdistribution site[0m
-[37m│[0;31m█[0;37m [0;1;30m[[0m7th[1m][0m [1m7[0;1;31mth[0m [31mperspective WHQ[0m                [1;30m[[0msys[1m][0m [1mS[0;1;31mys[0;31mops:[0m
-[37m│[0;31m█[0;37m [0;1;30m[[0mKok[1m][0m [1mE[0;1;31mHQ[0m
-│[31m▓[0;37m [0;1;30m[[0moxy[1m][0m [1mO[0;1;31mxy[0;31mgen[0;37m [0;31mdistribution site[0m           [1;30m[[0mgs[1m][0m [1mg[0;1;31mod[0;31m speed [0;1;30m[[0mshiver[1m][0m
-[1;30m│[0;31m▒[0;37m [0;1;30m[[0mAmu[1m][0m [1mA[0;1;31mmu[0;31mlet eastern HQ[0m                  [1;30m[[0mtq[1m][0m [1mt[0;1;31mra[0;31mnquility[0;37m [0m
-[1;30m:[0;31m░[0;37m [0;1;30m[[0mobv[1m][0m [1mO[0;1;31mBV[0;31m/2 beta site[0m                    [1;30m[[0mnz[1m][0m [1mn[0;1;31mai[0;31mlz[0;1;30m [[0munion[1m][0m
+[1;37m│[0;1;31;41m░[0m [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                    [0m            [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m      [0m
+[1;37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                      [0m          [1;30m [0m   [1m   [0;1;31m  [0;31m       [0m
+[1;37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                     [0m           [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                    [0m
+[1;37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                               [0m
+[1;37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0m [31m                 [0m              [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m              [0m
+[1;37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m         [0;37m [0;31m                 [0m     [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                        [0;37m [0m
+[1;37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m         [0;37m [0;31m                 [0m     [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m                        [0;37m [0m
+[37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m       [0;37m [0;31m                 [0m
+[37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0m [31m               [0m                [1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m    [0m
+[37m│[0;31m█[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0m
+│[31m▓[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m   [0;37m [0;31m                 [0m           [1;30m [0m  [1m [0m [1m [0;1;31m  [0;31m       [0;1;30m [0m      [1m [0m
+[1;30m│[0;31m▒[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m              [0m                  [1;30m [0m  [1m [0m [1m [0;1;31m  [0;31m        [0;37m [0m
+[1;30m [0;31m░[0;37m [0;1;30m [0m   [1m [0m [1m [0;1;31m  [0;31m            [0m                    [1;30m [0m  [1m [0m [1m [0;1;31m  [0;31m  [0;1;30m  [0m     [1m [0m
 [1m [0;31m▄▄▄▄[0;1;37m  [0m ▄▄▄▄▄▄[31m [0;1;37m           [0m ▄▄▄▄▄▄[31m [0;1;37m    [0m  [1m     [0;31m [0;37m▄▄▄▄▄▄ [0;1;37m           [0;31m [0;37m▄▄▄▄▄▄ [0;1;37m  [0;31m▄▄▄▄ [0;1;37m [0m
 [31m█▀[0;1;30m▄■[0;1;37m ▄▓▓[0;1;37;47m▒░[0m████▓▒▄[31m  [0;1;37m     ▄▓▓[0;1;37;47m▒░[0m████▓▒▄[31m  [0;37m  [0;31m   [0;37m▄▒▓████[0;1;37;47m░▒[0;1;37;40m▓▓▄     [0;31m  [0;37m▄▒▓████[0;1;37;47m░▒[0;1;37;40m▓▓▄ [0;1;30;40m■▄[0;31m▀█[0;37m [0m
 [37m [0;1;30m▀[0;1;37m▄[0m▄[1m  ▀▀[0m▀[1m▀[0;1;47m░[0m█████▓▒   [1m▄[0m▄[1m  ▀▀[0m▀[1m▀[0;1;47m░[0m█████▓▒ ▄ ▄ ▒▓█████[1;47m░[0;1;40m▀[0m▀[1m▀▀  [0m▄[1m▄[0m   ▒▓█████[1;47m░[0;1;40m▀[0m▀[1m▀▀  [0m▄[1m▄[0;1;30m▀[0m

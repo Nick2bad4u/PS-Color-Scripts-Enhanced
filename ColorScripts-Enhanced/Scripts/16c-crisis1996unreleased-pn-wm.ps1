@@ -5,7 +5,7 @@
 # Source SHA-256: 8197faca45229fa8d847f7a633f3030c4cc8caea990d5e2c8b4fa1bee04cd3fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PN-WM.ANS by penn (crisis); released in crisis1996unreleased and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wicked minority
 # SAUCE Author: penn
 # SAUCE Group: crisis
@@ -31,4 +31,4 @@ Write-Host '
                                    [1;30m▐▓ [0;1;30;47m░░░░ ░░░[0m▄▄   ▄  [1;30m▀[0m
 [1;30m . [0;1;37mw i c k e d   m i n o r i t y [0;1;30m.  █▄▓▄▄▄▄▄  ▄   ▄  ▄▓    ▄▓▄[0m
                                                   [1;30m▄[0m         [1;30m▀[0m
-        [1;30mstats go here man![0m                         [1;30m▄  ▄   ▀[0m'
+        [1;30m                  [0m                         [1;30m▄  ▄   ▀[0m'

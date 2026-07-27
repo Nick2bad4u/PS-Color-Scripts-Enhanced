@@ -5,7 +5,7 @@
 # Source SHA-256: 71775e8202dd1e731edd711aa6b01c51e94fb7a5ac7fb9fb2c6152613cfd9f55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH!PGW09.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -26,5 +26,4 @@ Write-Host '
 [34m ▓░▒▓░█▓[0;1;34m▓[0;34m▒░▄▄▄[0;1;34m▄[0;34m▓░[0;1;34m▓[0;34m▓█[0;1;34m▄▄[0;31m░▀[0;30;41m░[0;31;40m▒▒▓▄▒▄▄▓▒▒▓▀ [0;34;40m▄▄[0;1;34;40m▄▄[0;34m▄▒[0;1;34m▒[0;34m▄[0;1;34m▄[0;34m▄▄▒[0;1;34m▒[0;34m▄[0;1;34m▄▄[0;34m▄[0;1;34m█[0;34m█▄▄[0;1;34m▄[0;34m▄▄[0;1;34m▄[0;34m▄▓░▄▄▄[0;1;34m▄▄[0;34m▄▄▒▓░█[0;1;34m▒▓[0m
 [1;34m [0;34m▒[0;1;34m▒▓░█[0;34m█▓█░▓▒██▓▒[0;1;34m██[0;34m▓░▒▓█[0;1;34m▄ [0;31m▀▀▓▒░▒░[0;30;41m░[0;31;40m▀▀░[0;1;34;40m▄[0;34m█▒░▒▓░█▓█▓█▒░░█[0;1;34m▒▓█[0;34m▒░█░▓[0;1;34m▒▒▓[0;34m▓█▓█▒░[0;1;34m▒▓█[0;34m▓█▒▓░▒▓[0m
 [34m ▒▓░[0;1;34m░[0;34m░[0;1;34m▒█[0;34m▓▒[0;1;34m▒▓█[0;34m░▓█[0;1;34m░[0;34m▓░█[0;1;34m▓▒▓[0;34m█▒▓▄[0;1;34m▄▄[0;34m▄▄▄[0;1;34m▄[0;34m▄▒░▓▒[0;1;34m▓█▒█▒[0;34m▓░[0;1;34m▒[0;34m░[0;1;34m░▒[0;34m█▒▓░█▓▒[0;1;34m█▒[0;34m█▒░▒▓░▓▒█▒░▒▒▓▒░░[0;1;34m▒▓▒[0;34m░[0m
-[34m ▒▓█░▒▓[0;1;34m▒▓░[0;34m█▓░▒█[0;1;34m░▒▓[0;34m▒░▓█░░[0;1;34m▓▒[0;34m█░▒▓[0;1;34m▓▒[0;34m░▓[0;1;34m░[0;34m▒█░▒▓▒▓░█░█░▒▓[0;1;34m▓█▓[0;34m░▒▓▒▓░█░▒░▓▓▒░[0;1;34m█[0;34m░█▒▓▒▓░██▓▒░[0m
-[34m [0;1;37mpyr[0;1;36mo[0;1;37mg[0;1;36me[0;1;37mn[0;1;36me[0;1;37ms[0;1;36mi[0;1;37ms[0mbbs[1mw[0;1;36mo[0;1;37mrsh[0;1;36mi[0;1;37mp[0;36mi[0;37mrr[0;36me[0;37mv[0;36me[0;37mr[0;36me[0;37mnc[0;36me[0;1;37mm[0;1;36me[0;1;37mss[0;1;36ma[0;1;37mg[0;1;36me[0;1;37ms[0mf[36mi[0;37ml[0;36me[0;37ms[0;1;37mg[0;1;36ma[0;1;37mm[0;1;36me[0;1;37ms[0m81[36m8[0;37m36[0;36m9[0;37m363[0;36m3[0;1;37m9pm[0;1;36m-[0;1;37m5[0;1;36ma[0;1;37mm[0;36ma[0;37mns[0;36mi[0;1;37mby[0mmh[1mRSN[0m'
+[34m ▒▓█░▒▓[0;1;34m▒▓░[0;34m█▓░▒█[0;1;34m░▒▓[0;34m▒░▓█░░[0;1;34m▓▒[0;34m█░▒▓[0;1;34m▓▒[0;34m░▓[0;1;34m░[0;34m▒█░▒▓▒▓░█░█░▒▓[0;1;34m▓█▓[0;34m░▒▓▒▓░█░▒░▓▓▒░[0;1;34m█[0;34m░█▒▓▒▓░██▓▒░[0m'

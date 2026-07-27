@@ -5,7 +5,7 @@
 # Source SHA-256: 58a461352cbb4ef632023c01744e59968ebedff52b60d95ffbb3d0ca84332631
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VT-DSS.ANS by Void Traveller (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 27-57
 # Columns: 1-80
 
@@ -36,8 +36,7 @@ Write-Host '
 [31m    ░░ ░░░░░[0m     [31m░░[0m     [31m░░░░░  ░░    ░░[0m     [31m░░  ░░░░░ ▒▒[0m       [31m░  ░░░ ░  ░[0m
           [31m░[0m       [31m░[0m       [31m░░ ░ ░[0m      [31m░[0m      [31m░░ ░ ░░   ▒[0m       [31m░    ░░░ ░░[0m
 
-[31m   [0;1;37mDark S[0mun Sys[1;30mtems    [0;1;37mSysop[0ms Void Travele[1;30mr & Dolmangar    [0;1;37mSupp/D[0mist  AT[1;30mOMiC[0m
+[31m   [0;1;37m      [0m      [1;30m        [0;1;37m     [0m              [1;30m                 [0;1;37m      [0m       [1;30m    [0m
 [1;34m───────────────────────────────────────────────────────────────────────────────[0m
-[1;34m   [0;1;37mATOMiC ''93[0m     [1;37mA FLASH OF LIGHT AND YOUR EYES DECIEVE YOU[0m      [1;37mATOMiC ''93[0m
-[1;34m───────────────────────────────────────────────────────────────────────────────[0m
-                                                                  [1;37mVoid Traveler[0m'
+[1;34m   [0;1;37m          [0m     [1;37m                                          [0m      [1;37m          [0m
+[1;34m───────────────────────────────────────────────────────────────────────────────[0m'

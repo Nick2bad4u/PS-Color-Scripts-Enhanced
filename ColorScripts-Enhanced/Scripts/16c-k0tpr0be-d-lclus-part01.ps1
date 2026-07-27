@@ -5,7 +5,7 @@
 # Source SHA-256: e7cafe024b4cc3b6b6fad8f33177b213bbd2e1b2562c35c2607e501ab2fff24c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D!-LCLUS.ANS by desert (dezign); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo cluster
 # SAUCE Author: desert
 # SAUCE Group: dezign
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;30m+------------------------------------------------------------------------------+[0m
-[1;37m had no other logos from desert .. so this is the shortest ansi colly in this[0m
+[1;37m                                                                             [0m
 [1m paq ;) ...[0m
 [1;30m+------------------------------------------------------------------------------+[0m
 
@@ -42,5 +42,4 @@ D i S C o .     [34m▀[0;1;34;44m▒▓██▓[0;34m▀▀▀▀[0m      
                      [32m░[0;32;44m▒░[0;34;40m▒░[0;32;40m░▓▒[0;32;44m░[0;34;40m░ ▒[0;32;44m░[0;32;40m█[0;32;46m██[0;1;32;42m▀▀[0;1;32;46m███[0;1;32;40m█[0;1;36;40m██[0;1;32;40m█[0;1;36;40m███[0;1;36;46m▓▓[0;1;36;44m▀[0;34;46m█[0;34;40m▀[0m                  [35;40m░▓▒░▒▓░[0m
                  [34;40m░[0;32;40m░[0;34;40m░[0m      [34;40m░▓[0;32;44m░[0;32;40m▓▒[0;34;40m▓[0;32;44m░[0;32;40m▒▓█[0;32;46m██[0;32;44m▓▒░[0;1;36;44m▀▀▀[0;1;36;40m████[0;1;36;44m▀▀[0;34m███[0m                      [35m░[0m
                  [32;44m░[0;34;40m░[0m          [34;40m▓[0;32;44m░[0;32;40m▒▒▓[0;32;44m░░[0;34;40m░[0;1;30;40m▀[0;32m▀[0;32;44m▒░[0;1;34;44m░▒▓██▓▒░░[0;34m█▀[0m
-        [34m░[0;32m░[0;34m░    ░[0m               [32;44m░░[0;34;40m▓░[0m      [34;40m▀▀[0;1;34;40m▀[0;1;34;44m██▓▒[0;34m▀▀[0m
-'
+        [34m░[0;32m░[0;34m░    ░[0m               [32;44m░░[0;34;40m▓░[0m      [34;40m▀▀[0;1;34;40m▀[0;1;34;44m██▓▒[0;34m▀▀[0m'

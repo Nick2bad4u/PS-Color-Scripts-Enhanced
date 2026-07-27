@@ -5,7 +5,7 @@
 # Source SHA-256: ecf490af651ee071fbfc6a5c2635b8031f68ccb70906e75e4fa34052441a92fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: H3-BLEND.ANS by h3ck (blend); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blend
 # SAUCE Author: h3ck
 # SAUCE Group: blend
@@ -26,11 +26,4 @@ Write-Host '
 [37;40m [0;33;40m  [0;37;40m  ▐[0;1;37;47m▒▒▒[0m▌[36m     [0m   [32m░[0;30;42m▓░[0;32;40m▓[0;1;37;42m░[0;1;32;42m ░░░░[0;32m█[0;1;37;42m  [0;30;42m░░▓[0;37;40m [0;30;47m▓░░░[0;37;40m▀▀▐[0;1;37;47m▓█[0;1;33;40m▌[0;1;37;40m [0;1;33;40m▀[0;1;33;43m░[0;30;43m░▒▓[0;32;40m [0;37;40m [0;32;40m  [0;1;32;42m▄▓▓▓▄[0;32m▌[0m         [37m▐[0;1;37;47m▄▓▓[0m▄  [33m░[0;30;43m▓[0m
 [37;40m      [0;1;37;47m░░░[0m▌       [32m▄▄[0;1;32;42m░░[0;32m██[0;1;37;42m ░░░[0;32m█[0;1;32;42m [0;1;37;42m  [0;32m▄ [0m      [37m  ▐[0;1;37;47m▒▓▓[0;1;37;40m▄[0m  [30;43m▒▓[0;32;40m  [0;37;40m  [0;32;40m [0;1;32;42m██████[0;1;32;40m▄▄[0m       [1m▐[0;1;47m███[0;1;40m▌[0m
       [1;47m░░▓▓██[0;1;33;40m▌[0;1;32;40m▐[0;1;32;42m█▓▓[0;1;32;40m▓[0;1;32;42m░[0;32m▀▀ ▐[0;1;32m▒[0;30;42m░[0;32;40m▓▌▀▀▀[0;1;32;42m░░[0;32m██[0;30;42m░[0;32;40m▓░[0;30;42m▓[0;37;40m   ▐[0;1;37;47m░▒▒[0m        [32m [0;1;37m [0;1;32m█[0;1;37m██[0;1;32m▌▀▀███▓▓▒[0m [1m░███[0;1;33m██[0m
-    [30;44m█[0;37;40m  ░░[0;30;47m▓▓[0;37;40m  [0m       [34;40m [0;37;40m  [0;30;42m▓[0;32;40m░[0;30;42m▓[0;37;40m [0m           [32;40m        [0m          [32;40m  [0m   [32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0m      [1;33;40m ░░[0m
-[34m   [0m                            [36m'' [0;1;32mThat men''s magazine.[0;36m ''[0m
-
-
-
-
-[36mif you want pic or logo then mail me [0;1;33mHeck@Stargate.nullnet.fi[0m
-[36manyone want to do trade with me? please...[0m'
+    [30;44m█[0;37;40m  ░░[0;30;47m▓▓[0;37;40m  [0m       [34;40m [0;37;40m  [0;30;42m▓[0;32;40m░[0;30;42m▓[0;37;40m [0m           [32;40m        [0m          [32;40m  [0m   [32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0m      [1;33;40m ░░[0m'

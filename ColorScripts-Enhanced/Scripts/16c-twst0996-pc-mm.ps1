@@ -5,7 +5,7 @@
 # Source SHA-256: e564159ec782f4123d8488fd158205aa6b10ddd955d82044a76d263a1c11cab0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-MM.ANS by pcarcass` (twisted); released in twst0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: magic mushrooms
 # SAUCE Author: pcarcass`
 # SAUCE Group: twisted
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[[1mhere is one of my first pics :)[0m]
+ [1m                               [0m 
 [1;30m--───────────────────────────────────────────────────────────────────────────---[0m
 [1;33;42m ▄██▀▀▀▌▀[0;32m█[0;1;33;42m▄ [0;32m███████[0;30;42m [0;32;40m▀▀ [0;1;33;40m   ▄▄▄████████████▀█████████▄▄[0;1;37;40m▄[0;1;33;40m  [0;32m▀▀[0;30;42m░░[0;32;40m▓▓██████[0;1;33;42m░░[0;32m██[0;1;33;42m░ ░░▒▓[0;1;33;40m█[0;1;37;40m█[0m
 [1;33;42m▐██▌ ░░[0;32m████[0;1;33;42m■[0;32m████▀▀ [0;35m [0;1;33m▄▄▄[0;1;33;43m▓▓▓[0;1;33;40m████▀██[0;1;37;40m██[0;1;33;40m█▄[0;1;37;40m▄[0;1;33;40m▀▀▀██▄▄[0;1;37;40m▀[0;1;33;40m▀██[0;1;37;40m██[0;1;33;40m██████▄[0;1;37;40m▄[0;32m  ▀▀[0;30;42m░[0;32;40m▓█[0;1;33;42m░░[0;1;33;40m░░[0;32m▄  [0;30;42m░[0;32;40m░[0;30;42m▓[0;32;40m▄ [0;1;33;40m░█[0m
@@ -51,7 +51,7 @@ Write-Host '
 [45m░░[0;35;47m▓█[0;35;40m██████████████████[0;1;31;45m [0;1;35;45m▀▀▓[0;1;35;40m█▄▄████████▄▄▄▄▌██[0;1;35;47m▓▓▒▓█▓[0;1;35;40m█▄▄▄▄█[0;1;35;45m▀▀░[0;35m██████████████████[0;1;31;45m   [0m
 [35m--------------------------------------------------------------------------------[0m
                               [1;36m  [0m
-                                       [1;34;44mb[0;1;34;40mad [0;1;34;44mm[0;1;34;40mojo''s[0m
+                                       [1;34;44m [0;1;34;40m   [0;1;34;44m [0;1;34;40m     [0m
                   [1;30m░░[0m   [36m  [0;1;37m▄[0;1;36m▄[0;1;37m▄[0;1;37;46m▓▓▓[0;1;36;40m███▄▄▄░░[0m   [1;30m [0m    [36m  [0;1;37m▄[0;1;36m▄[0;1;37m▄[0;1;37;46m▓▓▓[0;1;36;40m███▄▄▄░░[0m [1;34m  [0m
                       [1m▄[0;1;36;46m████[0;1;36;40m▌▀████▀▐██[0;1;36;47m▓▓[0;1;36;40m▄─-─[0;1;37;40m+[0;1;36;40m─[0;1;37;40m─▄[0;1;36;46m████[0;1;36;40m▌▀████▀▐██[0;1;36;47m▓▓[0;1;36;40m▄[0m [1;34m  [0m
                 [34m░[0;30;44m▓[0m   [1;37;40m▐[0;1;36;46m▓▓▓▓▓[0m [36m▐[0;1;36;46m▓▓▓▓[0;36m▌[0;37m [0;1;36;46m▓▓▓▓▓[0;36m▌[0;1;34m▀[0;1;30m [0m  [1m▐[0;1;36;46m▓▓▓▓▓[0m [36m▐[0;1;36;46m▓▓▓▓[0;36m▌[0;37m [0;1;36;46m▓▓▓▓▓[0;36m▌[0;1;34m [0;30;44m▓[0m   [1;34;40m [0m

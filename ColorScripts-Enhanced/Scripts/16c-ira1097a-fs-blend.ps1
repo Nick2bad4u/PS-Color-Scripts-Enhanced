@@ -5,7 +5,7 @@
 # Source SHA-256: 03c90d66807eca0e8b16ef4238ddba408b434ac36e1367e04a50dedd1d779ecc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-BLEND.ANS by Flying Squirrel (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Virtual Blender.
 # SAUCE Author: Flying Squirrel
 # SAUCE Group: Irato
@@ -34,7 +34,7 @@ Write-Host '
 [1;30m [0;1;37m▀[0;1;30m   [0m▀[1;30m  ▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m [1;30m [0m▀ [1;30m  [0;1;37m▀▀▀[0;1;30m  [0m ▀[1;30m  ▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀  [0m▀[1;30m   [0;1;37m▀[0;1;30m [0m
  ▄ [1;30m░▒[0m    [1;30m ---+|---[0m [1;30m·[0m · [1m·[0;1;30m v i r t u a l [0;1;37m·[0;1;30m b l e n d e r[0m [1m·[0m · [1;30m·[0m [1;30m|----+[0m  [1;30m [0m  [1;30m▄░▄[0m   ▄
          [1;30m  [0m                                                           [1;30m [0m  [1;30m▀[0m   [1;30m [0m
-[1;30m █[0;1;37m [0m           [1;30mirato mb [0m-[1;30m kerev(a) member board [0m-[1;30m dumb distr0 site[0m  [1;30m          [0m [1;30m█[0m
-[1;30m [0m      [1;30mdIE laboratories mb [0m-[1;30m fido net [0m-[1;30m kitsch[0m [1;30mnet [0m-[1;30m frugnet [0m-[1;30m flinch net[0m
- ▀ [1;30m [0m          [1;30mfax/modem 14.4k [0m-[1;30m hd 1 gig[0m - [1;30mburnout [0m-[1;30m voarkonzzar[0m              ▀
+[1;30m █[0;1;37m [0m           [1;30m         [0m [1;30m                       [0m [1;30m                 [0m  [1;30m          [0m [1;30m█[0m
+[1;30m [0m      [1;30m                    [0m [1;30m          [0m [1;30m       [0m [1;30m    [0m [1;30m         [0m [1;30m           [0m
+ ▀ [1;30m [0m          [1;30m                [0m [1;30m         [0m   [1;30m        [0m [1;30m            [0m              ▀
 [1;30m [0;1;37m▄[0;1;30m ! [0m▄ [1;30m ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄  [0m▄ [1;30m  [0;1;37m▄▄▄[0;1;30m  [0m ▄[1;30m  ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄[0m  ▄   [1m▄[0m'

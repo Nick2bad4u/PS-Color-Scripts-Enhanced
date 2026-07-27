@@ -5,7 +5,7 @@
 # Source SHA-256: 221aa37fc99435b8e1b70fcd9b86fdb409ee9148eb799bc2d34b66089bc241b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RH-TLED1.ans by rash (mistigris); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the living end
 # SAUCE Author: rash
 # SAUCE Group: mistigris
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;30m--------------------------------------------------------------------------------[0m
-     ansi made by [1mrash?!@[0m [1;33m [0;1;33;43mMIST[0;1;33;40mIGRIS FUNK 1998[0m  (c) COPYRIGHT 1998 uh huh..
+                  [1m       [0m [1;33m [0;1;33;43m    [0;1;33;40m               [0m                             
 [1;30m--------------------------------------------------------------------------------[0m
 [31m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m  [0;32m▐█[0;1;32;42m  ░░[0;32m▌[0;1;37mOINK!# OINK!@# PORKY DANCE[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m  [0;31m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0m
 [1;31;41m███▓▓▒▒░░░[0;31m███[0;37m  [0;32m▐█[0;1;32;42m████[0;32m▌▄▄▄▄▐████▌▐█[0;1;32;42m▀▀▌[0;32m █[0;1;32;42m▄[0;32m█[0;1;33;42m ░░[0;32m██████▌██[0;1;32;42m▐████▌[0;32m▄█[0;1;32;42m  [0;32m██ [0;37m [0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓█[0m

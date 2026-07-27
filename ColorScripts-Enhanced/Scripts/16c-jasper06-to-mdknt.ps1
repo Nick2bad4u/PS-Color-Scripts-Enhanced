@@ -5,7 +5,7 @@
 # Source SHA-256: 133fe95ff8afc07f8187590078d530a192785391485df8cb6621c40af32549ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: to-mdknt.ans by Two11two (jasper06); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -35,13 +35,4 @@ Write-Host '
 [1;30m▄   [0;1;33m  [0;33m▀▀▀[0;1;33;43m ▀▀▀[0;1;33;40m██▄▄▄▄[0;33m▄[0;1;33m [0m [31m▀▀▀[0;1;31m▀▀▀▀▀▀[0;31m█▀▀▀[0;37m   [0;34m▄    ▄███████████████████████▄  ▄▄█▀[0;1;32m   [0;33m█[0;33;42m█[0;33;40m▄[0m
 [1;30;40m████▄▄[0m      [33m▀▀▀▀█[0;1;33;43m▀▀[0;1;33;40m███[0;1;33;43m▀▀▀▀▀█[0;1;33;40m▄▄▄▄▄[0;33m▄▄[0;37m  [0;34m▀▀█████████▀▀▀[0m      [34m▀▀▀▀▀▀[0;37m    [0;34m  ▀▀[0m      [33m▄[0;33;42m▀█[0m
 [1;30;40m██▀▀▀ [0m            [33m▀▀▀▀▀██▄▄▄▄█▀▀▀▀████▄▄▄▄▄[0m       [1;33m [0;1;32m▀▀▀▀▀█▄[0;32m▄[0;1;32m▄▄▄▄▄█▀▀[0;32m▀[0;1;32m▀█▄[0;32m▄[0;1;32m▄[0;32m▄[0;33m▄[0;1;32m▄[0;32m█[0;33;42m▀▄▀[0m
-[37;40m-------------------------------------------------------stinkitibitchfuckism-----[0m
-[37;40mand what do have to  say for myself?  shit if i know,  but this turned  out as i[0m
-[37;40mexpected it to.  all rough around the edges, toonish coloring.. which in turn is[0m
-[37;40ma cop out since i can''t shade to save my life...  well maybe i could, lets say i[0m
-[37;40mcouldn''t shade to save your life. see much better.  and the more i type it makes[0m
-[37;40mthe piece look all prolific and shit.  most people won''t bother reading up until[0m
-[37;40mthis point. so i''m going to say .rip is way fucking easier that any textmode art[0m
-[37;40mso maybe, just maybe i''ll stick with that.[0m
-
-                                      [37;40mso um.. teekay this knights for you[0m'
+[37;40m-------------------------------------------------------stinkitibitchfuckism-----[0m'

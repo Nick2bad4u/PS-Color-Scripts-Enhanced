@@ -5,7 +5,7 @@
 # Source SHA-256: 7d2b40e5ff641605364feb970fdf2dc2b0a9c3ecceaee0f1e07b5a5e6393b777
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XO-T2MM.ANS by Xose (MASAKRE PRODUCTiONS); released in mskp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: T.O.C. 2 BBS - Main Menu
 # SAUCE Author: Xose
 # SAUCE Group: MASAKRE PRODUCTiONS
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;30;47m▒[0;1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
-[1;30;47m▓ [0;1;34;47mT R A I N   O F   C O N S E Q U E N C E S   2        [0;1;32;47mB[0;32;47mu[0;1;30;47ml[0;30;47mletin [0;1;32;47mB[0;32;47mo[0;1;30;47ma[0;30;47mrd [0;1;32;47mS[0;32;47my[0;1;30;47ms[0;30;47mtem  [0;1;47m▓[0m
+[1;30;47m▓ [0;1;34;47m                                                     [0;1;32;47m [0;32;47m [0;1;30;47m [0;30;47m      [0;1;32;47m [0;32;47m [0;1;30;47m [0;30;47m   [0;1;32;47m [0;32;47m [0;1;30;47m [0;30;47m     [0;1;47m▓[0m
 [1;30m█[0;1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;47m▒[0m
 [1;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;40m█[0m███████████████████████████████████████████████████[1m█ █[0;1;47m                     [0;47m██[0;1m█[0m

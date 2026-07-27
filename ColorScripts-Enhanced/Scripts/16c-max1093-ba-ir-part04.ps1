@@ -5,7 +5,7 @@
 # Source SHA-256: d21dc82bacc070285b23a9e1afce62a1cb208043a8e6c3103506d4e3f29e1ddd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BA-IR.ANS by Black Aksion (max1093); released in max1093 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 127-175
 # Columns: 1-80
 
@@ -51,11 +51,11 @@ Write-Host '
         [31m·[0m     [31m·[0m           [31m·[0m
 [31m  ·  ·[0m     [31m·   ·[0m                     [1;30m/├]--─── [0;1;35mINFINITE RAGNAROK [0;1;30m───---[┤\[0m
 [31m·  ··  ·[0m                             [1;30m│[0m                                  [1;30m│[0m
-[31m·[0m                                    [1;30m│[0m          [35m9i6-TOO-FAST[0m            [1;30m│[0m
-[1;30m [0;31m· ·[0m                                 [1;30m|[0m       [35mSysop : Jormungand[0m         [1;30m│[0m
+[31m [0m                                    [1;30m│[0m          [35m            [0m            [1;30m│[0m
+[1;30m [0;31m   [0m                                 [1;30m [0m       [35m                  [0m         [1;30m│[0m
                                      [1;30m│[0m                                  [1;30m│[0m
-                                     [1;30m│[0m     [35mMany Nets, Many Groups[0m       [1;30m│[0m
-                                     [1;30m│  [0;35mContact finer 916 elite sites   [0;1;30m|[0m
-                                     [1;30m│   [0;35mfor application information    [0;1;30m│[0m
+                                     [1;30m│[0m     [35m                      [0m       [1;30m│[0m
+                                     [1;30m│  [0;35m                                [0;1;30m [0m
+                                     [1;30m│   [0;35m                               [0;1;30m│[0m
                                      [1;30m│[0m                                  [1;30m│[0m
                                      [1;30m\├]--─────────────────────────---[┤/[0m'

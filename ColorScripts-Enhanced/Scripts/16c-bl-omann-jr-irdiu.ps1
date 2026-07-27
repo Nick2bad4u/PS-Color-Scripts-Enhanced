@@ -5,7 +5,7 @@
 # Source SHA-256: 1667366802b7f8f26de7febe62c322a16bd14d6f7f1cf32655eaa3f13097ea74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_IRDIU.ANS by jerusalem (boil); released in bl_omann and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: erde in meinem kopf
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,4 +40,4 @@ Write-Host '
 [1;30m [0m
 
 
-[1;5;33m▐▐▌[0m [36miridium mainmenu. requested by rik. coloring sucks a bit.[0m'
+[1;5;33m▐▐▌[0m [36m                                                         [0m'

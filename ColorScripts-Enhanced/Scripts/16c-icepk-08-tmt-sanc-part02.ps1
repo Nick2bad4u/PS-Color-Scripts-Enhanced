@@ -5,7 +5,7 @@
 # Source SHA-256: 12e16e65bf64af1004123f5f81d2bc0f1069faffa4b983c6c2f78864d150362c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TMT-SANC.ICE by The Malevolent Trickster (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-87
 # Columns: 1-80
 
@@ -48,9 +48,9 @@ Write-Host '
 ▐[1;47m░░[0;1;30;47m▀[0m▄      [1;30m▄[0;1;30;47m [0;1;37;47m░░[0m█▀ [1;47m░[0m▌  [1;47m░▒▓[0m▌▐▌  [1;30m▀[0m█[1;47m░░[0m  ▀[1;47m░░[0m▄ [1;30m▄[0m▄▀ [1;35;45m░[0;1;31;41m░[0;35;41m░▒▓░[0m  [1;37;47m░▒░[0m  [1;30;47m▀[0;1;37;47m░[0m [1;37;47m░[0m▌  [1;47m░░▒[0m▌[1;47m░[0m ▀[1;47m▒▓[0m▐█[1;47m░▒[0m▌
 █[1;47m░░░[0m██[1;30;47m▀[0m▄▄[1;30;47m▀[0m█[1;47m░░░[0m▀  ▀▀▀ ▀▀▀▀▀ ▀    ▀▀    ▀▀▀▀   [1;35;45m░[0;35;41m░▒▒▒[0;31;40m▌   [0;37;40m▀▀▀▀▀ ▀▀▀ ▀▀▀▀▀▀▀  ▀▀[0;1;30;40m▀[0m▀▀▀
  ▀▀[1;30;47m▄ [0;1;37;47m░░░[0m███[1;30;47m▄[0m▀  [1;34m════─════─[0;1;35m════─════─[0;35m════─════[0;31m▐[0;35;41m░▓▒░░[0;35;40m─════─════[0;1;35;40m─════─════[0;1;34;40m─════─═══[0m
-                [1;36mi[0;36mCE [0;1;36mU[0;36m.S. [0;1;36mH[0;36meadquarters - [0;1;36mL[0;36mTD  [0;35;41m▓▓░░[0m [1;36;40mS[0;36mouthern [0;1;36mH[0;36mQ - [0;1;36mP[0;36mrognosis [0;1;36mS[0;36mite[0m
-[36m   [0;1;36m[[0;36mT[0;1;34mM[0;1;30mT[0m]        [1;36mR[0;36mAZOR [0;1;36mS[0;36mupport [0;1;36mS[0;36mite - [0;1;36mS[0;36mysOp: [0;31m▐[0;35;41m▓░▓[0m  [1;36;40mT[0;36mempus - [0;1;36mC[0;36mo: [0;1;36mL[0;36mady [0;1;36mi[0;36mn [0;1;36mB[0;36mlack -[0m
-[36m   [0;1;37m[[0;1;36mi[0;36mC[0;1;34mE[0;1;30m][0m        [1;36mA[0;36mNSI [0;1;36mG[0;36mroups [0;1;36ms[0;36mupported: [0;1;36mi[0;36mCE, [0;31m▓█[0;35m▀  [0;1;36mA[0;36mCiD, [0;1;36mM[0;36miRAGE, [0;1;36mL[0;36mTD, [0;1;36mD[0;36meAD, [0;1;36mH[0;36myPE[0m
-[36m   [0;37m[[0;1;37m''[0;1;36m9[0;36m2[0;1;34m][0m        [1;36mH[0;36miPE, [0;1;36mT[0;36miA, [0;1;36mF[0;36mPG, [0;1;36mG[0;36mRiM -[0;1;36m/\[0;36m-  [0;31m▓[0;35m▒  [0;1;36mT[0;36mhe [0;1;36mN[0;36mumber [0;1;36mi[0;36ms - [0;1;36m3[0;36m05.[0;1;36m7[0;36m92.[0;1;36m8[0;36m771 [0;1;36m/[0;36m-[0m
+                [1;36m [0;36m   [0;1;36m [0;36m    [0;1;36m [0;36m              [0;1;36m [0;36m    [0;35;41m▓▓░░[0m [1;36;40m [0;36m        [0;1;36m [0;36m    [0;1;36m [0;36m         [0;1;36m [0;36m   [0m
+[36m   [0;1;36m [0;36m [0;1;34m [0;1;30m [0m         [1;36m [0;36m     [0;1;36m [0;36m       [0;1;36m [0;36m      [0;1;36m [0;36m      [0;31m▐[0;35;41m▓░▓[0m  [1;36;40m [0;36m        [0;1;36m [0;36m   [0;1;36m [0;36m    [0;1;36m [0;36m  [0;1;36m [0;36m      [0m
+[36m   [0;1;37m [0;1;36m [0;36m [0;1;34m [0;1;30m [0m        [1;36m [0;36m    [0;1;36m [0;36m      [0;1;36m [0;36m          [0;1;36m [0;36m    [0;31m▓█[0;35m▀  [0;1;36m [0;36m     [0;1;36m [0;36m       [0;1;36m [0;36m    [0;1;36m [0;36m     [0;1;36m [0;36m   [0m
+[36m   [0;37m [0;1;37m [0;1;36m [0;36m [0;1;34m [0m        [1;36m [0;36m     [0;1;36m [0;36m    [0;1;36m [0;36m    [0;1;36m [0;36m     [0;1;36m  [0;36m   [0;31m▓[0;35m▒  [0;1;36m [0;36m   [0;1;36m [0;36m      [0;1;36m [0;36m    [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;36m [0;36m    [0;1;36m [0;36m [0m
                [1;34m════─════─[0;1;35m════─════─[0;35m════─═[0;31m▄░[0;35m░═─════─════─════[0;1;35m─════─════[0;1;34m─════─═══[0m
                                        [1;30m▀▀[0m'

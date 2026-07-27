@@ -5,7 +5,7 @@
 # Source SHA-256: ac46a23da6ad61f366e026da28055f246739a418cb489f3e24b752c5259249b8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NK-DHZ.ANS by Nuke (optk0294); released in optk0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 40-86
 # Columns: 1-80
 
@@ -54,6 +54,6 @@ Write-Host '
 [1;32m  █▄▄▄▄▄█  █▄▄▄▄▄█ █▄▄▄▄▄▀  ▐▄▄▄█ ▀█▄▄▄▄▄▄▄▄▄▄█▀  █▄▄▄▄▄▄▄▄▄▄▄▄█ █▄▄▄▄▄▄▄▄▄▄█[0m
 
 [1;32m [0;36m┌────[0;1;30m──[0;36m─[0;1;30m─ [0;36m─[0;1;30m─   ─[0m            [1mT·D[0m·T   B[1;30m·E·N·[0mE·L·[1mU·X[0m           [1;30m─   ─[0;36m─ [0;1;30m─[0;36m──[0;1;30m─[0;36m──────┐[0m
-[36m │[0m                      [1mARi[0mSE Eur[1;30mo HQ / Euro C[0moordin[1mator[0m                      [36m│[0m
-[36m │[0m                    [1mSC00[0mPEX E[1;30mURO PC HQ / BENEL[0mUX SN[1mES HQ[0m                    [36m│[0m
+[36m │[0m                      [1m   [0m      [1;30m             [0m      [1m    [0m                      [36m│[0m
+[36m │[0m                    [1m    [0m     [1;30m                 [0m     [1m     [0m                    [36m│[0m
 [36m └──[0;1;30m──[0;36m─[0;1;30m─ [0;36m─[0;1;30m─  ─[0m                     [1mAL[0mPH[1;30mA [0mSi[1mTE[0m                 [1;30m─    ──[0;36m─ [0;1;30m─[0;36m──[0;1;30m──[0;36m──┘[0m'

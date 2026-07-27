@@ -5,7 +5,7 @@
 # Source SHA-256: f33474f537b57022f18a039d4fc59f5a6fd77e3e304f1c577f4844e3bf0344b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-GOLDN.ANS by SKY (Xgy^Ld); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Golden Image Logon
 # SAUCE Author: SKY
 # SAUCE Group: Xgy^Ld
@@ -45,6 +45,6 @@ Write-Host '
  [1;30mN[0mode[1;34m [0m#[1m1[0;1;30m:[0;1;34m [0;1;30m±[0m49[1;30m-[0;1;37m6039[0;1;30m-[0;1;37m46124[0;1;30m  [0;1;37m19[0mk[1m2[0;1;30m [0m  [34m░░[0;37m  [0;34m░[0m             [34m ▀▀[0;37m  [0;34m░[0;37m [0;34m [0;36mD[0;1;36mEMO[0;36mS[0;37m  [0;34m░[0m    [34m░[0;37m [0;1;37mi[0;1;36mNTRO[0;36mS[0;37m [0m
 [37m [0;1;30mN[0mode[1;34m [0m#[1m2[0;1;30m:[0;1;34m [0;1;30m±[0m49[1;30m-[0;1;37m6039[0;1;30m-[0;1;37m45756[0;1;30m [0;1;37m 28[0mk[1m8[0;1;30m [0m [34m░▄░[0m                        [36mA[0;1;36mNS[0;1;37mi[0;36mS[0m         [36mM[0;1;36mUZZA[0;36mK[0;37m [0m
 [1;34m──[0;34m─[0;1;34m─[0;34m────    ─ ─────[0;37m [0;34m───  [0;37m [0;34m [0;1;30m [0;34m─[0;37m  [0;34m░▓[0;1;34;44m▀[0;34m▓░[0;37m [0;34m────────── ─[0;37m [0;34m░[0m    [34m─[0;37m [0;34m───────────[0;37m [0;34m───────[0;1;34m─[0;34m─[0;1;34m──[0m
-[36m P[0;1;36mHU[0;36mN[0;37m  [0;1;36m  [0;34m░[0;1;36m    [0;36mC[0;1;36mHAT[0;36mS[0m      [34m░[0;37m  [0;1;30m [0m   [34m░▓▒[0m                   [1;30m [0m [1;30m    S[0mys[1mop[0;1;30m: [0mB[1mRiAN[0;1;30m    [0m/L[1;30mD[0m
-[36m B[0;1;36mOOZ[0;36mE  [0;1;36m     [0;34m░[0;1;36m [0;36mH[0;1;36mpA[0;36mV[0m                  [34m░[0m           [1;30m      [0m     [1;30mC[0mos[1mys[0;1;30m: [0mP[1mit[0;1;30m [0mB[1mull[0;1;30m [0m/L[1;30mD[0m
+[36m  [0;1;36m  [0;36m [0;37m  [0;1;36m  [0;34m░[0;1;36m    [0;36m [0;1;36m   [0;36m [0m      [34m░[0;37m  [0;1;30m [0m   [34m░▓▒[0m                   [1;30m [0m [1;30m     [0m  [1m  [0;1;30m  [0m [1m    [0;1;30m    [0m  [1;30m [0m
+[36m  [0;1;36m   [0;36m   [0;1;36m     [0;34m░[0;1;36m [0;36m [0;1;36m  [0;36m [0m                  [34m░[0m           [1;30m      [0m     [1;30m [0m  [1m  [0;1;30m  [0m [1m  [0;1;30m [0m [1m   [0;1;30m [0m  [1;30m [0m
 [1;34m───[0;34m─[0;1;34m─[0;1;30m<[0mA[1mNS[0mi[1;30m>[0;34m─[0;37mby[0;34m──[0;1;30m[[0;1;37mSKY[0;1;30m][0m/[1mX[0mGY[34m──[0;1;37m<<[0;34m───────────────────────────────[0;1;34m03[0;34m/[0;1;34mNov[0;34m/[0;1;34m94[0;34m──[0;1;34m─[0;34m───[0;1;34m─[0;34m─[0;1;34m───[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4a7d621e17b398e5034e1872e3875f2b8902a12c646872584770858114b8d750
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RA-IMSIN.ANS by Raistlin (mgc-0194); released in mgc-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -50,13 +50,13 @@ Write-Host '
                             [31m─[0;1;31m─[0;1m─ i[0mM[1;31mM[0;31mOR[0;1;31mT[0mA[1mL S[0miN[1mS ─[0;1;31m─[0;31m─[0m
 
                            [31m─[0;1;31m─[0;1m─ S[0my[1;31ms[0mO[1mp  S[0mu[1;31mp[0;31mer[0;1;31mm[0ma[1mn ─[0;1;31m─[0;31m─[0m
-                     [31m─[0;1;31m─[0;1m─ C[0mo[1;31mS[0;31mys[0;1;31mO[0mp[1ms i[0mC[1;31mΣM[0mA[1mN  & H[0mA[1;31mi[0;31mRY[0;1;31mM[0mA[1mN ─[0;1;31m─[0;31m─[0m
+                     [31m─[0;1;31m─[0;1m─  [0m [1;31m [0;31m  [0;1;31m [0m [1m   [0m [1;31m  [0m [1m      [0m [1;31m [0;31m  [0;1;31m [0m [1m  ─[0;1;31m─[0;31m─[0m
                            [31m─[0;1;31m─[0;1m─ R[0mu[1;31mn[0;31mn[0;1;31mi[0mn[1mg  F[0mU[1;31mSi[0mO[1mN ─[0;1;31m─[0;31m─[0m
                              [31m─[0;1;31m─[0;1m─ 9[0m6[1;31mO[0mO[1m+  O[0mnl[1my ─[0;1;31m─[0;31m─[0m
 
-               [31mA M[0;1;31mA[0mG[1miCAL [0;31mA[0;1;31mN[0mS[1mi [0;31mP[0;1;31mr[0mo[1mduced [0;31mB[0;1;31my [0;31mR[0;1;31mA[0mi[1mSTLiN [0;31m─[0;1;31m─[0;1m─ [0;31mM[0;1;31mA[0mG[1miC ─[0;1;31m─[0;31m─[0m
+               [31m   [0;1;31m [0m [1m     [0;31m [0;1;31m [0m [1m  [0;31m [0;1;31m [0m [1m      [0;31m [0;1;31m  [0;31m [0;1;31m [0m [1m      [0;31m─[0;1;31m─[0;1m─ [0;31m [0;1;31m [0m [1m   ─[0;1;31m─[0;31m─[0m
 [31m───[0;1;31m─[0;31m──[0;1;31m─[0;31m─[0;1;31m───[0m─[1;31m──[0m─[1;31m─[0m───[1m─[0m──[1m─[0m─[1m─────────────────────────────────[0m─[1m─[0m──[1m─[0m───[1;31m─[0m─[1;31m──[0m─[1;31m───[0;31m─[0;1;31m──[0;31m──[0;1;31m─[0;31m─[0m
-                        [31mK[0;1;31mil[0;1ml a man... You''re a murder[0mer
-                      [31mK[0;1;31mil[0;1ml many... And you''re a conquer[0mer
-                       [31mK[0;1;31mil[0;1ml ''em all...  And you''re a g[0mod
+                        [31m [0;1;31m  [0;1m                          [0m  
+                      [31m [0;1;31m  [0;1m                              [0m  
+                       [31m [0;1;31m  [0;1m                            [0m  
 [31m───[0;1;31m─[0;31m──[0;1;31m─[0;31m─[0;1;31m───[0m─[1;31m──[0m─[1;31m─[0m───[1m─[0m──[1m─[0m─[1m─────────────────────────────────[0m─[1m─[0m──[1m─[0m───[1;31m─[0m─[1;31m──[0m─[1;31m───[0;31m─[0;1;31m──[0;31m──[0;1;31m─[0;31m─[0m'

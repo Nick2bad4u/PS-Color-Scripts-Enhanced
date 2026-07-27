@@ -5,7 +5,7 @@
 # Source SHA-256: c44e52d7c10419d35cf2cca235f7d3cd10e1ba0e40ee78c115869998a3d72306
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-CAES4.ANS by Andrew Nice (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Caesar's Palace
 # SAUCE Author: Andrew Nice
 # SAUCE Group: ACiD Productions
@@ -38,8 +38,4 @@ Write-Host '
        [1;30;40m▐▌[0;31m▐[0;31;43m▓▒▓[0;31;40m▌[0;1;30;40m▄▄▄▄▀  ▀█▄▄▄▄▄▀▄▄▄▄▄▄▄▄▄▄▄▀ ▀█▄▄▄▄▄▀▄▄▄▀▄▄▄▄▄▄▄▀ ▀[0m▄[1;30m▄[0m▄▄▄▄▄▀
       [1;30m▄▀[0;31m▄▓[0;31;43m█▓█[0;31;40m▓▄[0;1;30;40m▀▄[0m
       [1;30;40m▀▄▄▄▄▄[0m▄[1;30m▄[0m▄▄▀               [1;30mCaesar''s Palace[0m
-                                 [1;30m(708)665-2710[0m
-                   [1;30msysop.Centurion[0m   [1;30mco''s.andrew nice.q-ball [0m
-                         [1;30mLocal/Quantum/Passion for Art[0m
-                         [1;30mOver a gig of harddrive space[0m
-           [1;30m.[0mpicture from marvel comics[1;30m..[0mansi by andrew nice of ac[1;30mi[0md[1;30m.[0m'
+                                 [1;30m(708)665-2710[0m'

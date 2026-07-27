@@ -5,7 +5,7 @@
 # Source SHA-256: 454e9f477f717328f693b30f3a24140271369474ad2809c18be60d9b2d4e96a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!JIM_M.ANS by sIMONkING^nAHAL (tHElo0p); released in l0p03_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: jIM mORRISON
 # SAUCE Author: sIMONkING^nAHAL
 # SAUCE Group: tHElo0p
@@ -31,20 +31,4 @@ Write-Host '
               [1;30m▀▀[0;1;30;47m▄▄▄░▓[0;1;30;40m█[0;1;30;47m▀▄▄[0;1;30;40m▀▀[0m   [1;30;47m▄▄▄[0;1;30;40m█[0m  [1;30m░[0;1;30;47m▄▄▄[0;1;30;40m█[0m           [1;30m░[0;1;30;47m▄▄▄▐[0m
                  [1;30m░░░░[0m         [1;30m░░ [0m    [1;30m░░░[0m             [1;30m░░░[0m
 
-               [1;30m  [0;1;37mm[0;1;30m    [0;1;37mo[0;1;30m    [0mr[1;30m    [0mr[1;30m    [0mi[1;30m    s     o     n[0m
-
-
-
-bach, maly joint w wykonaniu nahal''a i simon''a king''a. dawno nie narysowalem
-zadnego wiekszego obrazka, postanowilem zrobic sobie przerwe w nauce do
-egzaminu z mikroekonomii i odpalilem aciddraw''a. tak oto powstal na bazie
-ascii nahal''a ansi-podobizna jim''a morrisona.
-pozdrowienia dla calej ascii^ansi sceny (#ascii,#ansi). fuck greetz flying to
-zero/ipc.
-
-
-kredyty:
-[1mnah[0mal (asc[1;30mii)[0m
-[1;37mjim[0m morris[1;30mon (photo)[0m
-[1msim[0monking [1;30m(ansi)[0m
-[1;37m(c)[0m1999 th[1;30melo0p[0m'
+               [1;30m  [0;1;37mm[0;1;30m    [0;1;37mo[0;1;30m    [0mr[1;30m    [0mr[1;30m    [0mi[1;30m    s     o     n[0m'

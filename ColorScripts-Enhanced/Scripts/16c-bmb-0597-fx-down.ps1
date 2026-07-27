@@ -5,7 +5,7 @@
 # Source SHA-256: 6c7720f83cc945637609f7e3bfbcc7e864df35b0362afb0d77a8594178734515
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-DOWN.ANS by flux (bombon); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: down
 # SAUCE Author: flux
 # SAUCE Group: bombon
@@ -22,5 +22,4 @@ Write-Host '
        [34;40m▀▀▀▀█[0;36;44m▀[0;34;40m█▄▄▄█[0;1;34;44m█▓▓▀[0;30;44m░[0;34;40m ▀▀▀▀▀[0;30;44m░░[0;34;40m▄▄█[0;1;34;44m▀▀▀ [0;34m▌▐█[0;1;34;44m▀▀█▄[0;34m█▄[0;36;44m ▀▀▀[0;34;40m█▄█[0;1;34;44m▀▀[0;34m█▀▀▀▐█[0;1;34;44m▀▀[0;1;34;47m▓[0;1;34;44m▌[0;34m ▐[0;30;44m░[0;36;44m▀[0;34;40m█▀▀▀[0m
        [34;40m          ▀▀▀▀▀▀[0m                [34;40m   ▀▀▀▀▀▀▀[0m            [34;40m  ▀▀▀[0m      [34;40mfx[0m
 
-[37;40m--[0m
-[37;40mthis is for zenrix ... requested it.. ok.. not the worst i''ve made? argh..[0m'
+[37;40m--[0m'

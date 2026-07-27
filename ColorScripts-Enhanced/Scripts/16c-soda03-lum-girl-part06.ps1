@@ -5,7 +5,7 @@
 # Source SHA-256: c89d3beaad124fecc7e8a876bef01a9e7c87338b61be503a8a7304414ada962f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LUM-GIRL.ANS by Luminator + Funk-E (sodapop); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blender2k #2
 # SAUCE Author: funk-e/lum
 # SAUCE Group: sodapop
@@ -47,19 +47,4 @@ Write-Host '
 █[1;47m░░░[0m██▄▄▄▄    [31m▀▀▀▀█████████████████████████████████████████████▀▀▀▀▀▀[0m   [37m▄[0;1;30m▄▄[0;1;30;47m███[0;1;30;40m█▀[0m
  ▀▀█[1;47m▒▒▒▒▒▒▒▒▒[0m█▄▄▄▄▄▄                                           ▄▄▄▄▄[1;30;47m░░▒▒▓▓█[0;1;30;40m▀▀[0m [31m  [0m
 [31m   [0m     [37m▀▀▀▀▀[0;1;37;47m▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓[0;1;37;40m███████████████████[0;1;37;47m▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░[0m█▀[1;30m▀▀[0m    [31m     [0m
-[31m                    [0;37m [0;1;30m▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀▀[0m      [31m            [0m
-
-
-[37m-cruel.. I''knew that I''m fast, but that I''m so fast!  Y''know that normaly I[0m
-[37m whouldn''t prass with this kind of things. I still remember those times when[0m
-[37m we were so lousy that after 24h of doodling we wrote "I did this in 3mins"[0m
-[37m and shit like that :) but I have to say... it took only 2 days from me to make[0m
-[37m this, jeah thats like 8-12h of drawing, and I''m not saying this cose i think[0m
-[37m this suck and i have to get some fake reason to relase this. I think this is [0m
-[37m one of my best ansis and im bit supprised that i did so big ansi in so litle [0m
-[37m time... those faces over that girl don''t fit there well, but i started from em[0m
-[37m so i didn''t whanted to erase em or make another ansi from em, so I let em be[0m
-
-[37m -luminator of sodapop family [0;1;30m(100% orginalé)[0m
-  lum@saunalahti.fi[0m
-'
+[31m                    [0;37m [0;1;30m▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀▀[0m      [31m            [0m'

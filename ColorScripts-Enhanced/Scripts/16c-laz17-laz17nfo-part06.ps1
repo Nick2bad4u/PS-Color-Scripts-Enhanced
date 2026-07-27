@@ -5,7 +5,7 @@
 # Source SHA-256: c4597a58796d2902f6d3857c78a656c4bdb97149c1b70f13e9603c2bf22c2154
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAZ17NFO.ans by Warpus + Mel Farr Suppastar + Pinguino (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: LAZARUS 17 NFO
 # SAUCE Author: warpus,mfs,pinguino
 # SAUCE Group: LAZARUS
@@ -49,10 +49,4 @@ Write-Host '
                         [1;30m░░░░░░░[0m                  [1;30m░░░░░░░[0m
                         [1;30m░░░░░░░[0m                  [1;30m░░░░░░░[0m
                         [1;30m░░░░░░░[0m                  [1;30m░░░░░░░[0m
-                        [1;30m░░░░░░░[0m                  [1;30m░░░░░░░[0m
-
-
-
-
-
-[1;30m   "Neon Love"[0m [1;30mColour Scheme Copyright 2023 Lazarus[0m       [1;30mAll Rights Reserved[0m'
+                        [1;30m░░░░░░░[0m                  [1;30m░░░░░░░[0m'

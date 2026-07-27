@@ -5,7 +5,7 @@
 # Source SHA-256: 63cc8d0c120e41df82a9fdb2bb9ba84200cf254e261d0234bc3cbbaf7df136e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-code.ans by Enzo + Spear (27inch07); released in 27inch07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 101-150
 # Columns: 1-80
 
@@ -57,6 +57,4 @@ Write-Host '
                     [34m▀■ ▄▄▄  ▀▀[0m       [1;30m_[0m [1;30msomewhere in Finland ::[0m   [34m█ [0;1;34;44m▓[0m   ░░  [34m█[0m
                                                                  [1;34;44m▒[0;34m [0;1;34;44m█[0m
                                                                  [1;34;44m█[0;34m [0;1;34;44m█[0m
-[1;30m■■■■/■:[0m [1;30mANSi created by[0;36m enzo[0;1;30m and[0;36m spear[0;1;30m of the[0;36m 27 inch[0;1;30m crew.[0m      [34m▀[0;1;34;44m▀[0;34m▀[0m
-
-        [1;30m_[0m [1;30mWhile you were here, we were probably doing your girlfriends.[0m'
+[1;30m■■■■ ■ [0m [1;30m               [0;36m     [0;1;30m    [0;36m      [0;1;30m       [0;36m        [0;1;30m      [0m      [34m▀[0;1;34;44m▀[0;34m▀[0m'

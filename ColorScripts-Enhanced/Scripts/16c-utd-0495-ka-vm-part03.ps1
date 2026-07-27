@@ -5,7 +5,7 @@
 # Source SHA-256: 03be971297d3eee135fb5d1398f82534b87fb504c500303e1d07a898f5b22cec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KA-VM.ANS by Kamui (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Victory Mansions
 # SAUCE Author: Kamui
 # SAUCE Group: United
@@ -42,13 +42,13 @@ Write-Host '
 
 [1;37;40m    [0;1;30;40m▄    ▄▄  ▄▄▄▄   ▄▄[0m▄[1;30m▄[0m▄▄▄▄▄▄[1m▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1m▄[0m▄▄▄▄▄▄[1;30m▄[0m▄[1;30m▄▄   ▄▄▄▄  ▄▄    ▄[0m
 
-                              [1;37mV[0mic[1;30mtory Mansions [0mBB[1mS[0m
+                              [1;37m [0m  [1;30m              [0m  [1m [0m
 
-             [1;30mSysops - Sir Leechalot  /  Emmanuel Goldstein  /  Dave  [0m
+             [1;30m                                                        [0m
 
-                         [1;30mExtremely Modded Renegade Setup[0m
+                         [1;30m                               [0m
 
-                   [1;30mTRiC WHQ  /  RaW 203 HQ  /  RaPE Distro[0m
+                   [1;30m                                       [0m
 
                             [1;30m2 0 3 . 4 8 8 . 4 0 5 9[0m
 

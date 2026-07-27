@@ -5,7 +5,7 @@
 # Source SHA-256: 7cd730e9f77532f70d67deb173eb6b26434b1e88322e56c3524120e29e24f5e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-RA8.ANS by rage (rebelart); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rebelart #8
 # SAUCE Author: rage
 # SAUCE Group: rebelart
@@ -35,5 +35,4 @@ Write-Host '
     [37msS$$$$$$$ $$$$$Ss[0;1;30m [0m                       [31m·[0m
     [37m$$$$ $$''s$$$ $$$$[0m                        [31m·[0m
     [37m$$$$$$$ $$$$$$$$$[0m                        [31m.[0m
-    [37m$$$$$$$$ ⁿ$$$$$$$[0m
-    [37m`ⁿ$$ $$$$ $$ $$ⁿ''[0m   [37m5i4 mek mi see if u livin n style ![0m'
+    [37m$$$$$$$$ ⁿ$$$$$$$[0m'

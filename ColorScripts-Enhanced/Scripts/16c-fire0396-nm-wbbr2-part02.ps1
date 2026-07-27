@@ -5,7 +5,7 @@
 # Source SHA-256: 46acc08cbf10beb7d3747283cf74e7a4c53c9beaaac153f9a86869a76651b372
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NM-WBBR2.ANS by Numb (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Rain
 # SAUCE Author: Numb
 # SAUCE Group: fire
@@ -35,8 +35,8 @@ Write-Host '
                                               [31;40m [0m    [31;40m▀█████▀▀▀▀▀▀[0m
 
 [1;30;40m-D-i-s-c-l-a-i-m-e-r---------------------------------------------------------- [0m
-[1;30m i didn''t really have a chance to say a word in the last pack but who cares?[0m
-[1;30m i didn''t really have a chance to make this ansy as long as i had originally[0m
-[1;30m intended to but who cares?  dewa.  hollars go out to p1, veks, and all the [0m
-[1;30m peeps that keep the culture crops bumpin''.  whatever that supposed to mean.[0m
+[1;30m                                                                            [0m
+[1;30m                                                                            [0m
+[1;30m                                                                            [0m
+[1;30m                                                                            [0m
 [1;30m-------------------------------------------------------------------------numb-[0m'

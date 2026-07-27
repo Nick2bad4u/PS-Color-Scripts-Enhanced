@@ -5,7 +5,7 @@
 # Source SHA-256: 8bf26dd0f6335514e70e865bb88488570e614152e2a1364763f20d7397e4dbac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-SG.ANS by The Extremist 519 (eph0595); released in eph0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 83-132
 # Columns: 1-80
 
@@ -42,18 +42,18 @@ Write-Host '
                          [1;30m▀██[0;1;30;41m▓██[0;1;30;40m██▀        ▄█████[0;1;30;41m▓[0;1;30;40m▀     [0m
                          [1;30;40m  ▀▀▀▀[0m    [1;30;40m   [0m      [1;30;40m▀▀▀[0m    [1;30;40m                [0m
 
-                             [1;31;40m[[0;31mT[0;1;30mhe Seventh Gat[0;36me[0;1;36m][0m
+                             [1;31;40m [0;31m [0;1;30m              [0;36m [0;1;36m [0m
 
               [1;30m  [0m       [1;31m[[0;31mN[0;1;30mode1[0;1;36m][0;1;30m [0m [1;31m[[0;31m5[0;1;30m19·XXX·XXXX[0;1;36m][0m  [1;31m[[0;31m1[0;1;30m4.[0;36m4[0;1;36m][0m
            [1;30m     [0m       [1;31m[[0;31mN[0;1;30mode2[0;1;36m][0;1;30m  [0;1;31m[[0;31m5[0;1;30m19·XXX·XXXX[0;1;36m][0m  [1;31m[[0;31m2[0;1;30m8.[0;36m8[0;1;36m][0m
         [1;30m     [0m          [1;31m[[0;31mN[0;1;30mode3[0;1;36m][0;1;30m  [0;1;31m[[0;31m5[0;1;30m19·XXX·XXXX[0;1;36m][0m  [1;31m[[0;31m2[0;1;30m8.[0;36m8[0;1;36m][0m
 
-                          [1;31m[[0;31mS[0;1;30mysOp:  The Mad Docto[0;36mr[0;1;36m][0m
-                         [1;30m [0m [1;31m[[0;31mR[0;1;30memote-SysOp: Matri[0;36mx[0;1;36m][0m
-                         [1;31m[[0;31mF[0;1;30mile-Co: Cybernetic Sou[0;36ml[0;1;36m][0m
+                          [1;31m [0;31m [0;1;30m                    [0;36m [0;1;36m [0m
+                         [1;30m [0m [1;31m [0;31m [0;1;30m                  [0;36m [0;1;36m [0m
+                         [1;31m [0;31m [0;1;30m                      [0;36m [0;1;36m [0m
 
-                        [1;30m  [0m [1;31m[[0;31m0[0;1;30m-7 Warez · P/H/A/[0;36mC[0;1;36m][0m
-                            [1;31m[[0;31mF[0;1;30mEAR Member Boar[0;36md[0;1;36m][0m
+                        [1;30m  [0m [1;31m [0;31m [0;1;30m                 [0;36m [0;1;36m [0m
+                            [1;31m [0;31m [0;1;30m               [0;36m [0;1;36m [0m
    [1;30m███████████ [0m
 [1;30m      ██ ▄▄ ▄▄ ▄▄▄▄▄                                                            [0m
 [1;31m█[0;1;30;41m▀▀▀▀[0;1;30;40m ██ ██ ██ ██▀▀▀[0;31m [0;1;30;41m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

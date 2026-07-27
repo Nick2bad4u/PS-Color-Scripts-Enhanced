@@ -5,17 +5,17 @@
 # Source SHA-256: ccb348dc538b28435cb7b93d6eede0ac950b24a6df3729177bd9babc866442f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEMON.ANS by Smooth (aai); released in aai and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
 ===========================================================================
- BBS: NACCP Certification & Hot Line
+                                    
 Date: 11-01-92 (12:17)             Number: 107
-From: LAWRENCE MANUEL              Refer#: NONE
-  To: ALL                           Recvd: NO
-Subj: Pandemonium BBS                Conf: (16) NACADRAW
+                                               
+                                             
+                                                        
 ---------------------------------------------------------------------------
   [32m▄▄▀▀▄▄    [0;34m▀█▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓█▀    [0;32m▄▄▀▀▄▄[0m
 [1;32m▄▀[0m      [1;32m▀▄    [0;34m▀▀▀████████▀▀▀▀▀███████████████▀▀▀▀▀████████▀▀▀[0m  [34m  [0;1;32m▄▀[0m      [1;32m▀▄[0m
@@ -36,13 +36,13 @@ Subj: Pandemonium BBS                Conf: (16) NACADRAW
 [34m   │[0;37m■[0m             [34m▐▀▀▀▀▀▀▀▀▀▀   [0;1;30m▀█▄ [0;32m▐▓▌ [0;1;30m▄█▀[0m   [34m▀▀▀▀▀▀▀▀▀▀▌[0m            [37m■[0;1;34m│[0m
 [1;34m   │[0m                              [1;30m▀█▄[0;32m▀[0;1;30m▄█▀[0m                             [1;34m│[0m
 [1;34m   │[0m                 [31mP  [0;1;31mA  N  D  E  M[0;1;30m▀ [0;1;31mO  N  I  U  [0;31mM[0m                  [1;34m│[0m
-[1;34m   │[0m                  [1;36mS[0;36mysops [0;1;36m: R[0;36mandy [0;1;36m& L[0;36misa [0;1;36mH[0;36margis[0m                    [34m│[0m
-[34m   │[0m      [1;36mR[0;36munning [0;1;36mG[0;36mT [0;1;36mV[0;36m17.06ß [0;1;36m∙ S[0;36mupports [0;1;36m1[0;36m4.4Kb [0;1;36m∙ S[0;36mettings [0;1;36m8[0;36m,N,1[0m       [1;34m│[0m
-[1;34m   [0;34m│[0;37m■[0m      [1;36mÆ[0;36mÆi [0;1;36mÆ[0;36mNSi [0;1;36mD[0;36mistribution [0;1;36mS[0;36mite [0;1;36m∙ Æ[0;36mNSi [0;1;36mb[0;36my [0;1;36mS[0;36mmooth ([0;1;36mC[0;36m)1992[0m       [37m■[0;34m│[0m
+[1;34m   │[0m                  [1;36m [0;36m      [0;1;36m   [0;36m     [0;1;36m   [0;36m    [0;1;36m [0;36m     [0m                    [34m│[0m
+[34m   │[0m      [1;36m [0;36m       [0;1;36m [0;36m  [0;1;36m [0;36m       [0;1;36m   [0;36m        [0;1;36m [0;36m      [0;1;36m   [0;36m        [0;1;36m [0;36m    [0m       [1;34m│[0m
+[1;34m   [0;34m│[0;37m■[0m      [1;36m [0;36m   [0;1;36m [0;36m    [0;1;36m [0;36m            [0;1;36m [0;36m    [0;1;36m   [0;36m    [0;1;36m [0;36m  [0;1;36m [0;36m       [0;1;36m [0;36m     [0m       [37m■[0;34m│[0m
 [34m   [0;1;34m└────[0;34m─[0;1;34m───[0;34m─[0;1;34m─[0;34m────────[0;1;34m─── [0;1;37m8[0m [1;36mo 8   6 2 4   2 8 1 [0;1;37m7 [0;1;34m──[0;34m─[0;1;34m─[0;34m─[0;1;34m─────[0;34m─────[0;1;34m───[0;34m─[0;1;34m─[0;34m┘[0m
 
 
 ---
- ■ OLX 2.1 ■ Backup not found: (A)bort (R)etry (P)anic
- ■ ANET: The Black Hole ][ BBS * Honolulu, HI * (808) 834-1879
+ ■         ■                                          
+ ■                                                            
 ♀[0m'

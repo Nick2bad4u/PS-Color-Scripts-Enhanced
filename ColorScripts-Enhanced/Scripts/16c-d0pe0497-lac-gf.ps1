@@ -5,7 +5,7 @@
 # Source SHA-256: e2e1967873744493ad07a7a4d305d1d83633c6c02e7f625a8874e7c00e015b1c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAC-GF.ANS by lacaid (dope); released in d0pe0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gastric fluids?!
 # SAUCE Author: lacaid
 # SAUCE Group: dope
@@ -33,5 +33,4 @@ Write-Host '
          [1;30m▀[0;1;34m▄■[0;1;30m▐██[0;34m █[0;37;44m░[0;34;40m█ [0;1;30;40m███████▄▄███████████▄[0;34m ▀[0;1;34m▀▀[0;34m [0;1;30m▄▄▄[0;1;30;47m▀░[0;1;30;40m▌ [0;34m [0;37mf l u i d s ? !   [0m
         [34m▄[0;1;34;44m▓[0;1;34;40m▌[0;34m [0;1;30m▀▀[0;34m ▐██▌[0;1;30m▐███████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    [[0m7i7[1;30m.[0m428[1;30m.[0m3254[1;30m][0m
         [34m▀[0;1;34;44m▓▒[0;34m▄[0;1;34;44m░░[0;34m▄[0;1;34;44m░[0;34m█▀[0;1;30m           [0;32m [0;1;30m                     [0m
-            [34m▀▀▀▀[0m
-                          [1;30;47m [0m'
+            [34m▀▀▀▀[0m'

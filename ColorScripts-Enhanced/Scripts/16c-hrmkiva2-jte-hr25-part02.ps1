@@ -5,7 +5,7 @@
 # Source SHA-256: 2b4b13bf57e0b19fb6e2d7cd290c2e48d1b1e890a3f8e7fd8c0b758bc57eda30
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JTE-HR25.ANS by Jate (hrmkiva2); released in hrmkiva2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 37-71
 # Columns: 1-80
 
@@ -40,8 +40,8 @@ Write-Host '
      [36m █[0;33m [0;30;43m▒░░[0;31;43m▒▒░░[0;30;43m▒[0;33;40m▀▀▀[0;30;43m▒[0;33;40m▀▀[0m                             [1;30;40m▀[0;1;30;46m▒[0;1;36;46m [0;36m▄▄[0;37m [0;36m▀[0;1;30;46m░[0;1;36;46m■▄[0;36m▄[0;33m ▀[0;31;43m░[0;30;43m░[0;1;30;40m▌[0m [1;36;46m ■▄[0;36m▄[0m
 [37m    [0;33m [0;36m▐[0;1;36;46m░[0;36m▌[0;1;30m▐[0;30;43m▒░[0;31;40m▀[0;33;40m [0;1;30;40m▄[0;36m▄▄[0;1;30;46m▀[0;36m▀[0;37m  [0;34m  [0;37m  [0;1;37mL[0ma[1;30mskutaidottomille[0;34m [0;1;37mt[0mi[1;30medoksi[0m  [1;30;46m░[0;1;36;46m ■▄[0;36m▌▀[0;1;36;46m▀▀[0;36m▒[0;37m [0;33m▐[0;30;43m▒[0;1;30;40m▀[0m  [36m▐█[0;1;36;46m▓▌[0;36m▌[0m
 [37m  [0;33m  [0;36m [0;1;36;46m▐▒[0;36m█[0;33m [0;1;30m▀▌[0;36m▄[0;1;36;46m▄▄■[0;36m▀[0m      [37m  [0;33m [0;1;36m2[0;36m018-[0;1;36m1[0;36m993 [0;1;36mt[0;36mekee [0;1;36m2[0;36m5 vuotta    ▀▒▀[0m     [1;30m■▀[0m     [36m▀▀▀[0m
-     [36m▀[0;1;36;46m▀[0;36m▀[0;37m   [0;36m▀[0;1;36;46m▀[0;36m█▀[0m            [1;36mm[0;36maailmanvalloitusta!1[0m     [1;30m [0m [1;30m [80x25] jte/hrmu[0m
+     [36m▀[0;1;36;46m▀[0;36m▀[0;37m   [0;36m▀[0;1;36;46m▀[0;36m█▀[0m            [1;36m [0;36m                    [0m     [1;30m [0m [1;30m                 [0m
 
                         [1;30m─ ────[0m─[1;30m─[0m───[1;36m─[0m─[1;36m───[0m─[1;36m─[0m───[1;30m─[0m─[1;30m──── ─[0m
-               [1;30m   [0m  [1;30mThe HiRMU monster is very terrifying![0m
+               [1;30m   [0m  [1;30m                                     [0m
                         [1;30m─ ────[0m─[1;30m─[0m───[1;36m─[0m─[1;36m───[0m─[1;36m─[0m───[1;30m─[0m─[1;30m──── ─[0m'

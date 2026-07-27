@@ -5,7 +5,7 @@
 # Source SHA-256: ee8fced6de3a2a07920d5867fcf0d82c2b3293a811ae0392fca7e07896e60298
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-MIXT.ANS by Spirit of Rage (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mixture compo ansi
 # SAUCE Author: Spirit of Rage
 # SAUCE Group: Fuel Productions
@@ -23,7 +23,7 @@ Write-Host '
    [1;30m░▄█████[0;1;30;47m▓[0;1;30;40m▄▄[0m                                [1;30m  [0m [1;30m [0;1;31m▀[0;1;31;41m▒[0;31m▄[0;37m [0;1;30m▀[0;36m▀▀[0;1;30;46m░░[0;36m█████[0;1;36;46m▄█▓[0;1;36;40m▄▄▄[0;1;36;46m█▓[0;1;36;40m▀[0;36m▀[0;37m [0;1;31m▄[0;1;31;41m▓[0;1;31;40m▌[0;31m [0;37m [0;1;30m [0m
   [1;30m░▓█▀[0;1;37m  [0;1;30m▀▌[0;1;37m [0;1;30m▀█▌[0m                                 [1;30m    [0;31m▀▀▀█▄▄▄▄▄▄▄▄[0;37m [0;1;36m▀▀▀▀[0;36m▀[0;37m [0;31m▄▄[0;1;31;41m▒[0;1;31;40m▀▀[0;31m [0m   [37m [0m
 [37m  [0;1;30m▐█░[0m▐[1m [0;1;36m [0;1;37m ▌[0;1;36m [0;1;37m▐[0;1;30m▐▓░[0m                               [1;30m                [0;31m▀▀▀▀▀▀▀▀▀[0;37m [0;1;30m        [0m
-[1;37m [0;1;30m ▓█▌[0m▌ [1;36m■[0;1;37m▄▌[0;1;36m■[0m░[1m▌[0;1;30m█░[0m   [1;30m<--- pregnant penguin.. her water just broke =)[0m
+[1;37m [0;1;30m ▓█▌[0m▌ [1;36m■[0;1;37m▄▌[0;1;36m■[0m░[1m▌[0;1;30m█░[0m   [1;30m                                               [0m
  [1;30m▐██[0m▐[1;47m▄▓[0;1;40m███▄[0;1;47m▓[0;1;30;40m▐▌ [0;34m [0m
 [37m [0;1;30m░▓█▌[0m▀[1;30m░[0;33m▄▄[0;1;33m▄▌[0;1;37m▀[0;1;30m▀[0;1;30;47m▓[0;1;30;40m▄[0;34m [0m
 [37m  [0;1;30m▐█▄[0;33m▀▀▀▀[0;1;33;43m░▀▀▓[0;1;33;40m▄▄[0;1;30;40m [0m                               [31m▄░[0;37m  [0;31m▌[0;37m  [0;31m▄[0;37m  [0;31m▌[0m
@@ -51,5 +51,5 @@ Write-Host '
                                            [33m░[0;1;30;43m░[0;1;31;40m▌[0;1;31;43m▐[0;33m░▐[0;1;31;43m▐[0;33m░[0;37m  [0;34m░▀▀[0;1;35m▄[0;35m▌[0;1;30m▓██[0;1;30;47m▓[0;1;30;40m▐█▀▀▌[0m    [1;30mwoha![0m
      [1;30mand maybe a nerdy font here.. but[0m      [33m▐[0;1;31m▌[0;33m▐[0;1;31m▌[0;33m▀[0m      [1;35m▐[0;1;35;45m░[0;1;30;40m▐██▀▀▌▄██[0;1;30;47m▓[0m   [1;30m38 lines![0m
      [1;30mim to bored to do it.. i actually[0m       [1;31m▀[0;33m░[0m        [35m░▌[0;1;30m▐▄▄██[0;1;30;47m▓[0;1;30;40m▐█[0;1;30;47m▓[0;1;30;40m▀[0m
-     [1;30mwas driving my car getting a blow job[0m              [35m░[0;1;30m▀▓██[0;1;30;47m▓[0;1;30;40m▀░▀[0m
-     [1;30mwhile i did it.. thats why it looks so nerdy! =)[0m     [1;30m░▀▀ [0m'
+     [1;30m                                     [0m              [35m░[0;1;30m▀▓██[0;1;30;47m▓[0;1;30;40m▀░▀[0m
+     [1;30m                                                [0m     [1;30m░▀▀ [0m'

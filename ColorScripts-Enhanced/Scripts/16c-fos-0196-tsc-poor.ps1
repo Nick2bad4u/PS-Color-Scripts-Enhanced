@@ -5,12 +5,12 @@
 # Source SHA-256: ecb81a8eb202cbd88a1a0c100d4142f0274e0c1ab1880ab171797882538c6bd2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSC-POOR.ANS by The Shadow Caster (fos-0196); released in fos-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
 Write-Host '
- [1;30mmust smoke b4 calling[0m            [1;30m█   ░░   ░ █  everybody must get stoned[0m
+ [1;30m                     [0m            [1;30m█   ░░   ░ █                           [0m
                                    [1;30m▀▀▄▄▄░  ▄▀[0m
        [1;30mgreenweed ▄▀▀▀▄    smoke weed    ▀▀▀▄▄[0m
 [1;30m ▄▄▄▄[0m           [1;30m▓  [0;32m█ [0;1;30m▀▄[0m                [1;30m▄▀    █[0m             [1;30mweeds good for you[0m
@@ -18,7 +18,7 @@ Write-Host '
 [1;30m▀▄ [0;32m██▄▄ [0;1;30m▀▄[0m      [1;30m▓[0;32m▐█[0;32;46m▓[0;32;40m█▌[0;1;30;40m▓[0m            [1;30m▄▄▀  ░  ░ ▀▄▄[0m
 [1;30m ▓▄ [0;32m▀██[0;32;46m▓[0;32;40m▄ [0;1;30;40m▀▄    ▓ [0;32m█[0;32;46m▓▓[0;32;40m█ [0;1;30;40m▓    ▄▀▀▀▀ [0;1;30;47m▓[0m   [1;30m░░    ░   [0;1;30;47m▓[0m   [1;30m" you smell sumfin?[0m
 [1;30m   ▀▄ [0;32m▀█[0;32;46m▓[0;32;40m█▄ [0;1;30;40m▀▀▄▄▐ [0;32m██[0;32;46m▓[0;32;40m█▌ [0;1;30;40m▓▄▄▀ [0;32m▄██ [0;1;30;47m▓[0m   [1;30m░  [0;31m▄▄▄▄  [0;1;30m░  [0;1;30;47m▓[0m    [1;30mmust be this board cause[0m
-     [1;30m▓ [0;32m▀██[0;32;46m▓▓[0;32;40m█▄▄ [0;1;30;40m▓ [0;32m▐█[0;32;46m▓▓[0;32;40m█ [0;1;30;40m▀ [0;32m▄▄█[0;32;46m▓▓[0;32;40m█  [0;1;30;47m▓[0m   [1;30m■[0;31m▀▀▓▓▓█▄   [0;1;30;47m▓[0m    [1;30mit''s the shit!... "[0m
+     [1;30m▓ [0;32m▀██[0;32;46m▓▓[0;32;40m█▄▄ [0;1;30;40m▓ [0;32m▐█[0;32;46m▓▓[0;32;40m█ [0;1;30;40m▀ [0;32m▄▄█[0;32;46m▓▓[0;32;40m█  [0;1;30;47m▓[0m   [1;30m■[0;31m▀▀▓▓▓█▄   [0;1;30;47m▓[0m    [1;30m                   [0m
       [1;30m▀▄ [0;32m▀██[0;32;46m▓▓[0;32;40m██   ▀▀[0;32;46m▓[0;32;40m█ ▄█[0;32;46m▓▓[0;32;40m█▀▀    [0;1;30;47m▒[0m  [1;30;47m▓[0;1;30;40m█▄▄ ▄▄▄■ [0;1;30;47m▒[0m
 [1;30m    ▄▄▄▄█▄  [0;32m▀█▀ [0;1;30m▄▓▄▓▄▄▄  [0;32m▀▀[0m         [1;30m▄[0;1;30;47m▓[0;1;30;40m▀▀▀▀▀▀[0m     [1;30m▄▄▄▄▄▄▄▄▄▄   must smoke weed[0m
 [1;30m▀▀▀▀ [0;32m▄▄▄▄▄▄▄  [0;1;30m▄▀ [0;1;34m▄▄▄▄▄ [0;1;30m▀▄ ▄▄▀▀▀▀▀▀▀▄ ▄▄▀▀▀▀▀▀▀▄▀▀ [0;1;34m▄▄▄▄▄▄▄▄ [0;1;30m▀▄[0m
@@ -33,6 +33,6 @@ Write-Host '
 [1;30mD █ [0;36m▄▄█[0;1;30;46m░[0;36m▄▄ █[0;1;30;46m░[0m   [36m██   [0;1;36m█[0;1;36;46m▓[0m   [1;36;46m▓[0;1;36;40m█▄▄▄ █[0;1;36;46m▓[0m   [1;36;46m▓[0;1;36;40m█   [0;1;36;46m▓[0;1;36;40m█   ▄▄[0;1;36;46m▓[0;1;36;40m█▄▄ ▀[0;1;36;46m▓[0;1;36;40m▄▄█▀ [0;1;30;46m░[0;36m█   [0;1;30;46m░[0;36m█ ▄▄▄▄[0;1;30;46m░[0m [1;30m█[0m
 [1;30m  █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
                         [1;30m▄▄▄▄▄▄▄  s[0mO[1;30mp: [0mC[1;30mynica[0ml                 [1;30mtSc[fOs]░ ▒[0m
-[1;30m must call board[0m      [1;30m▄[0;1;30;47m██[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m█▀  - phat ass blunt.. " [0;36mL[0;1;30mook for hidden Message[0;36ms [0;1;30m"[0m
+[1;30m                [0m      [1;30m▄[0;1;30;47m██[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m█▀                       [0;36m [0;1;30m                      [0;36m  [0;1;30m [0m
                      [1;30m▀███[0;1;30;47m▓[0;1;30;40m█▀[0m
                        [1;30m▀▀[0m'

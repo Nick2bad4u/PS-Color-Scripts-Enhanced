@@ -5,7 +5,7 @@
 # Source SHA-256: 6abcfd081a6493a031f3cd435e0cc6c0715f74a73248e6c7f34ed8f0c022f2f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-POO2.ANS by Eerie-Kun (Samsara); released in sms-9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Poo
 # SAUCE Author: Eerie-Kun
 # SAUCE Group: Samsara
@@ -44,10 +44,6 @@ Write-Host '
                 [1;30m▌[0m                             [35m░[0;30;45m▓[0;35;40m░▓[0;30;45m░░[0;35;40m▓███████▄ ▄██[0;1;31;45m░░▒░[0;35m█▓█[0;30;45m░░[0;35;40m▓▓░[0;30;45m▓[0m
 [32;40moped by trip.   [0;1;30;40m▀   [0;32mco-oped by misfit.[0m             [35m▀▀▀▀██████▓▓[0;30;45m░░[0;35;40m▓[0;30;45m░[0;35;40m▓█▀▀▀▀ [0;30;41m▓▓[0m
                                                              [35;40m░[0;30;45m▓[0;35;40m░░[0;30;45m▓▓[0;35;40m░[0m
-[32;40mhome of many wacky things such as [0;1;32;40mapathy [0;32m& [0;1;33mcow parts[0;32m.  call it.[0m
+[32;40m                                  [0;1;32;40m       [0;32m  [0;1;33m         [0;32m           [0m
 
-[30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-
-[37;40mansi by [0;35;40meerie-kun [0;37;40mof [0;1;35;40msamsara[0m.  any complaints should be addressed to
-screw@your.mom.  [1;30m"thorn" is (c)jeff smith, who really looks like a geek.[0m  [32mparts[0m
-[32mof the shadings are by defiant!!@  find ''em & you win a cookie.[0m'
+[30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5ae1a198ea8039c9f4d6363027fa2c26d7dbb96ee14bde58931e97855f870fb9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GLUE.ANS by Ministar + Dyingsoul (kbsart02); released in kbsart02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19990508
 # SAUCE Dimensions: 80x47
 # Lines: 1-47
@@ -49,13 +49,4 @@ Write-Host '
           ▀[1m▀[0;1;47m▀[0m██[1;30;47m░[0m▀   [1;30m▐█[0;1;30;46m▓▓[0;1;30;40m▀▄█[0;1;30;41m█[0;1;30;40m█▀█████▀██ ▀████ █[0;1;30;46m▓▓[0;1;30;40m███▀▄███▌[0m   ▄█[1;30;47m░[0m█[1;47m▄[0;1;40m▄[0m▄
               ▀▀[1;30m [0m    [1;30m▀████▀[0m                   [1;30m▀▀▀▀ ▐███▀▄▄█[0;1;30;47m▓▓░[0m█[1;47m▓▀[0m▀
                      [1;30m     [0m    [1;30mG L U E [0;1;30;47m 1 9 9 9 [0;1;30;40m [0;1;30;47m [0;1;30;40m  █[0;1;30;46m▓▓[0;1;30;40m█████▀▀ [0m█▀
-                     [1;30m    [0m                           [1;30m▀▀▀▀▀[0m
-
-      Right not you might be asking yourself, why this isn''t colored!!!!
-      Well that easily answered, I HAVEN''T GOTTEN ALL MY ANSI SKILLZ BAX
-      AND I AM RUSTY AS HELL! FUX IT STILL OWNS YOUR CANDY-ASS! RESPECT!
-
-                               ANSCII BY MINISTAAA
-
-[1mMinistar[0;1;30m:[0m [1mOutlines[0m [1;30m([0;1;37mGLUE[0;1;30m) [0m
-[1mDyingsoul[0;1;30m:[0m [1mShading[0m [1;30m([0;1;37mKIBOSH[0;1;30m)[0m'
+                     [1;30m    [0m                           [1;30m▀▀▀▀▀[0m'

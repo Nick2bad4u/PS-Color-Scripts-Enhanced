@@ -5,14 +5,14 @@
 # Source SHA-256: 58f8bfc8d604cc3baf4e3cf79a15e167ae7ae5e25264a976d478194cd5284477
 # Source License: FAL-1.3
 # Source Attribution: ROY-MF.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
 Write-Host '
 
-KRYN KRYN [1;30mKRYN KRYN KRYN KRYN KRYN KRYN KRYN▄▀▀▀[0m▄ [1;30mKRYN KRY[0mN KRYN KRYN KRY[1mN KRYN[0m
-[1m [0mKRYN [1;30mKRYN KRYN KRYN KRYN KRYN▄▄▄YN KRYN▄▀▀▀  [0;1;35m█  [0;1;30m▀[0m▄[1;30mKRYN KRYN KRY[0mN KRYN KRYN [1mKRY[0m
+          [1;30m                                  ▄▀▀▀[0m▄ [1;30m        [0m               [1m      [0m
+[1m [0m     [1;30m                        ▄▄▄       ▄▀▀▀  [0;1;35m█  [0;1;30m▀[0m▄[1;30m             [0m            [1m   [0m
 KRYN [1;30mKRYN KRYN KRYN K[0m▄▄[1;30m▄▄KRY▄▀ [0;1;35m▄ [0;1;30m█ KR▄▄▀ [0;1;35m▄█  ██ █▄ [0m▀▄▄ [1;30mKRYN KRYN KRYN [0mKRYN KRY[1mN[0m
 [1m [0mK[1;30mRYN KRYN KRYN KR[0;1m▄[0m▀▀ [1;35m▄▄ [0;1;30m▀▀▀ [0;1m▄[0;1;35m██ [0;1;30m█▄▀▀ [0;1;35m▄▄███ █▀█ ███▄▄ [0m▀▀▄[1;30mRYN KRYN KRYN KR[0mYN KRY
 [1;30mKRYN KRYN KRYN K[0m▄[1m▀ ▄[0;1;35m█████▄ [0;1m▀▄[0;1;35m███ [0;1;30m▀ [0;1m▄[0;1;35m███████ ▀▀▀ ███████[0;1m▄ [0;1;30m▀[0m▄ [1;30mKRYN KRYN KRYN K[0mRYN

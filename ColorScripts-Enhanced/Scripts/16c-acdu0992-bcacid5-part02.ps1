@@ -5,7 +5,7 @@
 # Source SHA-256: ac6b495eebe8887557d455a39c6f602717e8ea871712cabf6b31038ff3feae14
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BCACID5.ANS by Slum Dweller (acdu0992); released in acdu0992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 49-74
 # Columns: 1-80
 
@@ -29,9 +29,8 @@ Write-Host '
 
 [1;30;40m ▄  ▄ ▄▄ ▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄ ▄▄ ▄  ▄ ▄[0m
 
-     [1;30;40mæ [0;31mACiD Eastern Agora [0;1;30mæ [0;31mFLT Member Board [0;1;30mæ [0;31mUnReal Eastern Courier HQ [0;1;30mæ[0m
-         [1;30mæ [0;31mAPT Distro [0;1;30mæ [0;31mNOT! Distro [0;1;30mæ [0;31mRunnin'' ViSiON-X [0;1;30mæ [0;31mFelonyNET [0;1;30mæ[0m
-     [1;30mæ [0;31m800+ Megs [0;1;30mæ [0;31m14.4 Dual Standard [0;1;30mæ [0;31mTrue 0 Day Wares [0;1;30mæ [0;31mSysOp: VenoM [0;1;30mæ[0m
+     [1;30;40m  [0;31m                   [0;1;30m  [0;31m                 [0;1;30m  [0;31m                          [0;1;30m [0m
+         [1;30m  [0;31m           [0;1;30m  [0;31m            [0;1;30m  [0;31m                 [0;1;30m  [0;31m          [0;1;30m [0m
+     [1;30m  [0;31m          [0;1;30m  [0;31m                   [0;1;30m  [0;31m                 [0;1;30m  [0;31m             [0;1;30m [0m
 
-[1;30m ▀  ▀ ▀▀ ▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀ ▀▀ ▀  ▀ ▀[0m
-               ANSi by Slum-Dweller [1;30m<[0;1;36mAC[0;36miD[0;1;30m> [0mProductions o8/11/92[0m'
+[1;30m ▀  ▀ ▀▀ ▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀ ▀▀ ▀  ▀ ▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a6722f370771166d43e16abdf7366e9dcb81f1770e652a66c1f3fd697bab5efd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-GOD.ANS by Clorox Cowboy (anemia productions); released in ane-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Grounds of Despair Pic #1
 # SAUCE Author: Clorox Cowboy
 # SAUCE Group: anemia productions
@@ -40,6 +40,6 @@ Write-Host '
     [31m░[0;37m [0;31m  █ ▀▀▄[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▄▀▄ █ █  [0;37m [0;31m▒[0;37m  [0;31m▄ [0;37m [0;31m█[0;37m [0;31m▄▀▀▄[0;37m [0;31m▄▀▀▄[0;37m [0;31m█▀▀▄[0;37m [0;31m█[0;37m  [0;31m█[0;37m [0;31m▄▀▀▄[0;37m [0;31m▀█▀[0;37m [0;31m▀[0;37m [0;31m▄▀▀▄[0;37m [0;31m▀▀▄[0m
 [31m   [0;37m [0;31m▓[0;37m [0;31m▀[0;37m [0;31m█[0;37m [0;31m▒[0;37m [0;31m█[0;37m [0;31m▀▀▀[0;37m [0;31m▒[0;37m [0;31m█[0;37m [0;31m█ █ █[0;37m [0;31m▀[0;37m [0;31m▓[0;37m  [0;31m█[0;37m [0;31m▀ [0;37m [0;31m▓[0m    [31m▀▄▄▀[0;37m [0;31m█ ▄▀[0;37m [0;31m▀▄ █[0;37m [0;31m▀▄▄▄▄▄█ [0;37m [0;31m█[0;37m [0;31m▀▄▄▀[0;37m [0;31m▒[0;37m [0;31m█[0;37m [0;31m [0m
 [31m   [0;37m [0;31m▓[0m   [31m▀[0;37m [0;31m▓[0;37m [0;31m▀[0;37m [0;31m▀▀▀[0;37m [0;31m▓[0m   [31m  [0;37m [0;31m [0m    [31m▓[0;37m  [0;31m▓[0m    [31m░[0m         [31m   [0;37m   [0;31m   [0;37m [0;31m    [0;37m  [0;31m  [0;37m [0;31m [0m      [31m▓[0;37m [0;31m▀[0;37m [0;31m [0m
-[31m▀ ▄▓▀      ▀ [0m        [31m.!ansibycloroxcowboyofanemiaproductionz!.[0m      [31m     ▒ ▀▓▄ ▀[0m
+[31m▀ ▄▓▀      ▀ [0m        [31m                                         [0m      [31m     ▒ ▀▓▄ ▀[0m
 [31m▄  ▒         [0m                                                       [31m     ░  ▒  ▄[0m
 [31m   ░       ▄ [0m                                                      [31m         ░█  [0m'

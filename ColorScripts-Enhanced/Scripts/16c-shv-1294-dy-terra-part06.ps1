@@ -5,7 +5,7 @@
 # Source SHA-256: eed12229b167c7af3c19e4ea890e20839e2e176a622e78e2fd9755abbd36b215
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DY-TERRA.ANS by Dynosaw (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Terra Firma
 # SAUCE Author: Dynosaw
 # SAUCE Group: Shiver
@@ -47,14 +47,9 @@ Write-Host '
            [1;30m▒[0m               [1;30m▒[0m          [1;30m▒[0m               [1;30m▒[0m                 [1;30m▒[0m
            [1;30m░[0m               [1;30m░[0m          [1;30m░[0m               [1;30m░[0m                 [1;30m░[0m
 
-[1;30m  [0;1;32mT[0;1;37me[0;1;32mr[0;32mr[0;1;30ma Firma  [0;1;32m7[0;1;37m1[0;1;32m4[0;32m-[0;1;30m963-4851  [0;1;32mS[0;1;37my[0;1;32ms[0;32m: [0;1;30mSomms[ACiD]  [0;1;32mA[0;1;37mC[0;1;32mi[0;32mD [0;1;30mWst Agora  [0;1;32mF[0;1;37m([0;1;32m┤[0;32mT [0;1;30mCa Outpost[0m
-                   [1;30m<and a bunch mo''affils.. c4ll! it r0cks!>[0m
+[1;30m  [0;1;32m [0;1;37m [0;1;32m [0;32m [0;1;30m         [0;1;32m [0;1;37m [0;1;32m [0;32m [0;1;30m          [0;1;32m [0;1;37m [0;1;32m [0;32m  [0;1;30m             [0;1;32m [0;1;37m [0;1;32m [0;32m  [0;1;30m           [0;1;32m [0;1;37m [0;1;32m┤[0;32m  [0;1;30m          [0m
+                   [1;30m                                         [0m
 
-       [1;30mAnsi thanks to: [0mdyn[1m0 [0;1;30mand memory of F[0mAT[1;30m who this was orig. for :P[0m
+       [1;30m                [0m   [1m  [0;1;30m               [0m  [1;30m                          [0m
 
-[1;30m--X----X----X----X----X----X----<Cut Here>----X----X----X----X----X----X----X--[0m
-[1;30mpretty long, almost decent ansi done by Dynosaw of F4T for what-ever pack this[0m
-[1;30mis in time for :P. This is a gift to Somms for being such a co0l guy and runnin[0m
-[1;30ma great board. if he were to look at this and show a bunch of acid people and[0m
-[1;30mremember my handle, and perhaps notice that handle on an acid.app down the line[0m
-[1;30mi''d think every second this ansi took as being worthwhile :):):):):):) heh....[0m'
+[1;30m--X----X----X----X----X----X----<Cut Here>----X----X----X----X----X----X----X--[0m'

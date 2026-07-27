@@ -5,7 +5,7 @@
 # Source SHA-256: 5629ebb286695fe5dcbb94bbefeaf7141aad1c07298128bbada2cce65fa43c85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FF-LOGO1.ANS by Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hype.promo.logo.1
 # SAUCE Author: Free Fall
 # SAUCE Group: Hype.produktions
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;34m([0;34mfreeFall[0;1;34m)([0;34mHype[0;1;34m)[0m
+[1;34m [0;34m        [0;1;34m  [0;34m    [0;1;34m [0m
                                 [36m░░[0;37m  [0;36m░░[0;37m  [0;36m░░[0m
                             [36m░[0m                [36m░░[0m
                                [36m▄▄[0;1;36;46m░[0;1;36;42m▓[0;1;36;46m░[0;36m█[0;1;36;42m▓▓[0;36m█[0;1;30;46m░[0;36m█[0;1;36;42m▓[0;36m▄▄[0m    [36m░[0m
@@ -29,7 +29,4 @@ Write-Host '
 [34m  [0m       [1;30;44m▒[0m   [31m [0m                        [1;30;44m▒[0m              [31m░[0;37m [0;31m░[0m   [1;30;44m▒[0m         [1;30;44m▒[0m [1;30;44m▒[0m
 [34m    [0;37m [0;31m░░[0;37m  [0;34m▄[0;37m  [0;1;30m  [0;31m░░[0m   [31m░[0m           [31m░░[0m        [31m░░[0m                  [31m░░[0m   [31m░[0m    [34m■[0;37m  [0;31m░[0;37m [0;31m▀[0m
 [34m        [0m
-[34m        [0;37m [0;31m░[0m    [31m■[0;37m [0;34m        [0;1;34mh[0;34m         y         p         e[0m         [31m■[0m
-[34m          [0m
-
-                             [1;34m...([0;34mmemberboard[0;1;34m)...[0m'
+[34m        [0;37m [0;31m░[0m    [31m■[0;37m [0;34m        [0;1;34mh[0;34m         y         p         e[0m         [31m■[0m'

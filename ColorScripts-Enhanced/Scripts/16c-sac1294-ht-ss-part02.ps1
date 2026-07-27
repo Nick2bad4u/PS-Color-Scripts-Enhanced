@@ -5,7 +5,7 @@
 # Source SHA-256: 7cd2f2a5e41445f92fd85394aa7a1a6c78364c199196b22773d991208989497e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-SS.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SHADOW SYSTEM
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -52,7 +52,7 @@ Write-Host '
    [31m▄[0m      [1;32;42m▒▒▓[0m █      [1;32m▄▀[0m                                        ██ [1;30m░░[0m
 [1;31m▄[0m       [31m▀ ▄ [0;1;32m▀ [0;41m▓[0m         [1;36;40m·· S·H·A·D·O·W · S·Y·S·T·E·M ··[0m        [41m▓[0;40m█  [0;1;30;40m░░[0m      [31m▄ █▄[0m
 [31m [0;1;31m▄    [0;31m▄▄[0m      [37;41m▓[0m                                                 [37;41m▓▓[0m [1;30;40m░░[0m     [31m▄ ▀[0m
-[31m   ▄▄▄▄[0m       [37;41m▒[0m     [36;40mSYSOP : MR.[0;1;36;40mMI[0;1;37;40mXX  **  COSYS[0;1;36;40mOP [0;36m: FIREBIRD[0m     [37;41m▓[0m  [1;30;40m░░   [0;31m▄  ▄[0m
+[31m   ▄▄▄▄[0m       [37;41m▒[0m     [36;40m           [0;1;36;40m  [0;1;37;40m             [0;1;36;40m   [0;36m          [0m     [37;41m▓[0m  [1;30;40m░░   [0;31m▄  ▄[0m
 [31m [0;1;31;41m▓▒░░[0;31m█[0m       [37;41m░░░[0m                                               [37;41m▒▒▒[0m  [1;30;40m░  [0;31m▄  █[0m
      [31m▀▀█▄    █[0;37;41m░░[0m                                                [37;41m▒[0m   [31;40m▄   ▀[0m
 [1;31;40m▀   [0;1;31;41m░[0m         [31m██[0m        [32m·· LK[0;1;32mCC EUROPEAN HEADQUARTE[0;32mRS ··[0m        [37;41m░░[0m      [31;40m▄  [0;1;31;40m▄▀ █[0m

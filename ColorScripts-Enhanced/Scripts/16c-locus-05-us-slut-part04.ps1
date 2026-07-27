@@ -5,7 +5,7 @@
 # Source SHA-256: b7f42ce70bd936dbfc3f12bd3e97cad9a7cb055cc479c8790c13a200eb3635b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SLUT.ANS by Avenging Angel + Immortality (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 111-153
 # Columns: 1-80
 
@@ -46,10 +46,5 @@ Write-Host '
 [1;31;43m▓▓▓▒▒▒░░[0;33m██▌ [0;37m [0;33m▐[0;1;33;43m▐█[0;1;33;40m██▌ [0;1;35;40m▓▓▓[0m  [33m█[0;1;31;43m░░░░░▓▓▓▓▄[0;33m▄[0;37m [0;1;35m▒▒▒[0m [33m▄ [0;37m [0;33m▄▄[0;1;31;43m░░░▓▓▓▓█▄[0;33m▄[0;37m [0;1;33m░░░░░[0m [33m ██▄▐██  [0m    [1;31;43m▐█[0m
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-Slut emag! Slut emag! Slut emag! Slut emag! Slut emag! Slut emag! Slut emag! Slu
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
-
-logo''s by avenging angel
-original pic by immortality
-touchups by avenging angel[0m
-'
+                                                                                
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m'

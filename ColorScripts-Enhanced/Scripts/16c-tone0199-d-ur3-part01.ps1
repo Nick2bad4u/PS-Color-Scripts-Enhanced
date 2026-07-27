@@ -5,7 +5,7 @@
 # Source SHA-256: 779e19af741bcee80b59c4b36ee210409789e402cece4573f5764d94493f6a1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D-UR3.ANS by deathrai (tone); released in tone0199 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: urinal 3
 # SAUCE Author: deathrai
 # SAUCE Group: tone
@@ -19,9 +19,9 @@ Write-Host '
 [1;30;40m████████████████▀▀▀▀▀▀▀▀▀[0;32;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;40m▀▀▀▀▀▀▀▀▀████████████████[0m
 [1;30;40m███████▀▀[0;32;40m▄▄▄▄▄▄▄█████████████ ▓ █ ▄ █ █ ▄ █ ▄ █ █████▓▓█████████▄▄▄▄▄▄▄[0;1;30;40m▀▀███████[0m
 [1;30;40m█████▀[0;32;40m▄▓▓██████████████████▄█ ▀ █ ▄▀█ █ █ █ ▄ █ ▀▀█▄███████[0;1;33;42m░░[0;32;40m█[0;1;33;42m░[0;32;40m██████████▄[0;1;30;40m▀█████[0m
-[1;30;40m████▌[0;32;40m▐███[0;1;33;42mdear government and politicians- porno is good.[0;32;40m█[0;1;33;42mit keeps would[0;32;40m███▌[0;1;30;40m▐████[0m
-[1;30;40m▓▓██ [0;32;40m██[0;1;33;42mbe child[0;32;40m█[0;1;33;42mmolesters away from kids, [0;32;40m█[0;1;33;42mand keeps them molesting thier[0;32;40m▓▓ [0;1;30;40m████[0m
-[1;30;40m████ [0;32;40m███[0;1;33;42mown penis. what am i[0;32;40m█[0;1;33;42mgonna do when i''m an old school horny fogey[0;32;40m███ [0;1;30;40m████[0m
+[1;30;40m████▌[0;32;40m▐███[0;1;33;42m                                               [0;32;40m█[0;1;33;42m              [0;32;40m███▌[0;1;30;40m▐████[0m
+[1;30;40m▓▓██ [0;32;40m██[0;1;33;42m        [0;32;40m█[0;1;33;42m                          [0;32;40m█[0;1;33;42m                              [0;32;40m▓▓ [0;1;30;40m████[0m
+[1;30;40m████ [0;32;40m███[0;1;33;42m                    [0;32;40m█[0;1;33;42m                                           [0;32;40m███ [0;1;30;40m████[0m
 [1;30;40m████▌[0;32;40m▐▓▓██[0;1;33;42mscenester and i cant get any?[0;32;40m██[0;1;33;42mthis is how i''d like to be:[0;32;40m██████▌[0;1;30;40m▐████[0m
 [1;30;40m█████▄[0;32;40m▀█████████▓▓█▓█████████▄ ▄█ █ ▓ ▄ █   █   █████████████████████████▀[0;1;30;40m▄█████[0m
 [1;30;40m███████▄▄[0;32;40m▀▀▀▀▀▀▀███████████▄██ ██ ▄ █ ▄▀█ ▀▀▓ ▀▀█▄████▓▓█████████▀▀▀▀▀▀[0;1;30;40m▄▄███████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 20a47f9c59536c77335acba5d79707796541454be6d5926fa9da98a5d059b754
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%PLF.ANS by big yellow man (gummiboll.art); released in plf_0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sun and water
 # SAUCE Author: big yellow man
 # SAUCE Group: gummiboll.art
@@ -46,15 +46,15 @@ Write-Host '
       [30;44m▓▓▓▓▓[0m                     [1;34;40m [0m
 
 
-              [1;34m  [0m    [1;34mpoffelipoff! new spirit in an old scene =) [0m
-               [1;34mjoin us and be happy! take a beer, relax, and[0m
-  [30;43m█[0m            [1;34;40menjoy what the world gives you, what life gives[0m
-               [1;34myou, what we give you! amazing 1oo% pure happy[0m
-              [1;34m gummiart! don''t hesitate to join us and make[0m
-              [1;34m the world a favor, make the scene a favor, make[0m
-              [1;34m favor for you and favor for me, a favor ...         [0m
+              [1;34m  [0m    [1;34m                                           [0m
+               [1;34m                                             [0m
+  [30;43m█[0m            [1;34;40m                                               [0m
+               [1;34m                                              [0m
+              [1;34m                                             [0m
+              [1;34m                                                [0m
+              [1;34m                                                     [0m
 
-               [1;34mor just send me an e-mail (haddock-@geocities.com)[0m
-              [1;34m and make me even happier. i like mails..  [0m
+               [1;34m                                                  [0m
+              [1;34m                                           [0m
 
                                              [1m   [0m     [1m(bymm1s''97)[0m'

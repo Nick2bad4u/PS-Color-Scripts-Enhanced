@@ -5,7 +5,7 @@
 # Source SHA-256: b65d395216b4b09c8c4b900554d0271107050b1fa69e6dea209f2c9042e8d203
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ECLIPSE1.ANS by Tank (RPM); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Total Ecipse BBS Ad
 # SAUCE Author: Tank
 # SAUCE Group: RPM
@@ -26,8 +26,8 @@ Write-Host '
 [46m    [0;1;32;46m█[0;46m [0;1;32;46m█[0;46m  [0;1;32;46m█[0;46m  [0;1;32;46m█[0;46m  [0;1;32;46m█▄▄█[0;46m [0;1;32;46m█[0;46m    [0;1;32;46m█[0;46m       [0;37;46m  [0;36;44m▄[0;32;44m   ▐██▌   [0;36;44m▄[0;37;46m  [0;46m  [0;1;31;46m█[0;46m    [0;1;31;46m█[0;46m    [0;1;31;46m█[0;46m   [0;1;31;46m█[0;46m   [0;1;31;46m█▄▄█▄▄[0;46m  [0;1;31;46m█▄[0;46m [0m
 [46m    [0;1;32;46m█▄█▄▄█[0;46m  [0;1;32;46m█[0;46m  [0;1;32;46m█[0;46m  [0;1;32;46m█[0;46m [0;1;32;46m█▄▄▄▄█[0;46m       [0;37;46m    [0;36;44m▄▄[0;1;37;44m▄[0;1;37;42m▄[0;32;44m█[0;1;37;44m▄[0;36;44m▄▄[0;37;46m    [0;46m  [0;1;31;46m█▄▄▄▄█▄▄▄[0;46m [0;1;31;46m█▄▄▄█▄▄▄█[0;46m  [0;1;31;46m▄▄▄▀[0;46m [0;1;31;46m█▄▄[0m
 [46m                               [0;1;5;31;46m▲[0;30;46m512-837-4325[0;1;5;31;46m▲[0;46m                                   [0m
-[46m   [0;30;46mUSR DS:38400[0;46m                                             [0;30;46mSysOp:[0;46m              [0m
-[46m   [0;30;46m486/33 130Mg[0;46m                        [0;1;46m▄▄▄▄[0;46m              [0;1;46mKnight[0;34;46m [0;1;46mShade[0;46m           [0m
+[46m   [0;30;46m            [0;46m                                             [0;30;46m      [0;46m              [0m
+[46m   [0;30;46m            [0;46m                        [0;1;46m▄▄▄▄[0;46m              [0;1;46m      [0;34;46m [0;1;46m     [0;46m           [0m
 [46m   [0;1;30;46m▀[0;1;30;40m███[0;1;30;47m▄  ▄[0;1;30;40m███[0;1;30;46m▀[0;46m                    [0;1;46m▄▄███████▄▄▄█▓[0;1;36;47m▒[0;1;37;46m▄[0;1;36;46m▄[0;46m     [0;1;30;46m▀[0;1;30;40m███[0;1;30;47m▄  ▄[0;1;30;40m███[0;1;30;46m▀[0;46m           [0m
 [46m   [0;1;30;46m  [0;1;30;47m█▓▒░░▒▓█[0;1;30;46m  [0;46m   [0;1;46m▄███▄[0;46m   [0;1;46m▄▄▄███▄▄███▓▓████████▓▓[0;1;36;47m▒[0;1;36;46m▌[0;46m        [0;1;30;47m█▓▒░░▒▓█[0;46m  [0;1;33;46m█[0;1;33;41m▓▓▒[0;1;33;46m▀▀[0;46m     [0m
 [46m   [0;1;30;46m  [0;1;30;47m█▓▒░░▒▓█[0;1;30;46m  [0;46m  [0;1;36;46m▐[0;1;37;46m▓████▓▓▓███▓██████▓▓[0;1;36;47m▒▒[0;1;37;46m▓████▓▓▓[0;1;36;47m▒[0;1;36;46m▌[0;46m         [0;1;30;47m█▓▒░░▒▓█[0;46m            [0;1;46m▄[0m

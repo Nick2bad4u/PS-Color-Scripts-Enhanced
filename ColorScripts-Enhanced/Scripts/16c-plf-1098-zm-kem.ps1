@@ -5,7 +5,7 @@
 # Source SHA-256: 714b4ac1b41f22f24e808e0d278a9da784fcd128fe66a6e9a7a38cc7cff43e1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZM-KEM.ANS by Zatchmo (Poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kem
 # SAUCE Author: Zatchmo
 # SAUCE Group: Poffelipoff
@@ -15,7 +15,7 @@
 
 Write-Host '
                [30;41m▓▓▓[0;37;40m  ░░ ░[0m
-              [31;40m█[0;1;31;41m▓▓▌[0m              [1mKem productions[0m
+              [31;40m█[0;1;31;41m▓▓▌[0m              [1m               [0m
              [31m█[0;1;31;41m██[0;1;31;47m▓[0;1;31;41m█[0;31m▄▄▄▄▄▄▄▄[0m
         [37m ░░[0m   [31m█[0;1;31;47m▓▓▓[0;1;31;41m██[0;1;31;40m▓▓▓[0;1;37;41m▓▓[0;1;31;41m▀░[0;33m [0;1;31;41m░▀[0;33m [0;31m▀[0m     [37m░░  [0m           [31m [0;33m  [0;30;41m▓▓▓▓[0m       [1;37;40m  [0m
         ░░   [31m █[0;1;31;41m▓[0;1;37;41m░[0;1;31;41m▓[0;31m▀▀[0m   [30;43m▓▓▓[0m     [1;37;40m░░[0m      ░░[33m [0;30;43m▓▓▓▓▓▓[0m    [31;40m▐[0;1;30;41m░░[0;30;41m░░░░[0m    [30;43m▓▓[0;1;37;40m ░░[0m

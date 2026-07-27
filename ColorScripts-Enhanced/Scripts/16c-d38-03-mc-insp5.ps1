@@ -5,7 +5,7 @@
 # Source SHA-256: 455be9ca30a6eb09098008ed1130a249e773e89219db9f96dcfe0ba0cb76a3b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!INSP5.ANS by Madcap (Department 38); released in d38-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Insipid Dreams matrix
 # SAUCE Author: Madcap
 # SAUCE Group: Department 38
@@ -38,7 +38,4 @@ Write-Host '
 [31m  ░     ░░     ░    ░░░░▒▒▒░░░ ░  ░░░░░░░░░▒░░░░░░░░░▒▒▒▒▒▒░▒░ |[0m              [31m║[0m
 [32m░░[0;31m░   ░░░░░▒   ░░  ░░▒░▒▒▒▒▒░░░░░░░░░▒░░▒▒░░░░░░░░░░▒▒▒▒▒▒▒▒░░░  [0;1;36m■[0;1;36;45mLogoff,etc[0;1;36;40m■ [0;31m║[0m
 [35m░░[0;31m░ ░░░░░░░░ ░ ░    ░▒▒▒▒▒▒▒▒▒▒░░░░░░░░▒▒▒▒▒░▒░░░░▒▒▒▒▒▒▒▒▒▒▒░░[0m         [31m─-════╝[0m
-[35m-[0;1;35m-[0;1;37m<hehe>--[0;1;35m----[0;35m---------[0m
-
-[1;35mMC> That just looks plain strange.. oh well.. its me first .. urm.. my first[0m
-[1;35mactually ok looking Matrix[0m'
+[35m-[0;1;35m-[0;1;37m<hehe>--[0;1;35m----[0;35m---------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 38a484c2fbf9799bd88c2faa5c12697fdeb00d4c821cea7b698e94bb36df4fa8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-H2MMX.ANS by thrasher (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hazard/2 matrix
 # SAUCE Author: thrasher
 # SAUCE Group: Fuel
@@ -37,12 +37,4 @@ Write-Host '
 [1;30m██ ▐██▌[0;34m▐█▌[0;1;30m▐[0;1;30;47m▓[0;1;30;40m█▌[0;1;32;42m [0;1;37;42mblack!fuel[0;1;32;42m [0m [1;30m▌[0;34m▐[0;1;34;44m▒░[0;34m  █▌ ▀[0;1;34;44m▀▌[0;34m░[0;1;30m▐▄ [0;33m░▀[0;1;31;43m▀▓[0;1;31;40m██████[0;1;31;43m▄▒▓[0;1;31;40m██████████████[0;1;31;43m▓[0;33m▀░▐█[0;1;31;43m▄[0;1;31;40m███[0m
 [1;30m█▌░░▐██░[0;34m▀▌[0;1;30m▐██▀ [0;1;32m  unSafe[0;1;33m [0;1;30m   █[0;34m █▌  ▐▌[0;1;30m░░[0;34m▀[0;1;34;44m░░[0;34m [0;1;30m██▄▄[0;1;31m  [0;33m▀[0;1;31m▀▀[0;1;31;43m▀▓[0;1;31;40m█████████████████▀[0m [33m ▄[0;1;31;43m▄▓▓[0;1;31;40m███[0m
 [1;30m▐█▌▄████ [0;34m▀[0;1;30m ██░ [0;1;32mstigmatIzed[0;1;30m █▌[0;34m▐▌[0;1;30m▐▓░[0;34m▀ [0;1;30m▄[0;34m ▀█▄ [0;1;30m██▀▐██▄▄▄[0;1;31m  [0;33m▀▀[0;1;31m▀▀[0;1;31;43m▀▓[0;1;31;40m███████[0;1;31;43m▓[0;1;31;40m▀[0m [33m ▄[0;1;31;43m▄▐[0;1;31;40m██████[0m
-[1;30m ▀[0m▒▒[1;30;47m▓[0;1;30;40m█▄▐██▄▐██▄▓▓▄██▀▌░░▄▄█[0;1;30;47m▓▓[0m [34m▌[0;1;30m▐███▄▐█▄░[0;34m▀▌[0;1;30m▐[0;1;30;47m▓▓[0;1;30;40m▄▒▄░░▀█▀▀▓▓▄▄░[0;33m ▀▀[0;1;31m▀▀▀[0;33m▀ ▄▒[0;1;31;43m▄[0;1;31;40m███████[0;1;32;41m░░[0m
-                  [1;30m [0m
-hazard/2 matrix
-if your board isn''t called hazard/2 and you''re not avenger; don''t use it.
-
-here you go ave...  :)
-
-later!
-thrasher[1;32m@[0mnetlink.be[0m'
+[1;30m ▀[0m▒▒[1;30;47m▓[0;1;30;40m█▄▐██▄▐██▄▓▓▄██▀▌░░▄▄█[0;1;30;47m▓▓[0m [34m▌[0;1;30m▐███▄▐█▄░[0;34m▀▌[0;1;30m▐[0;1;30;47m▓▓[0;1;30;40m▄▒▄░░▀█▀▀▓▓▄▄░[0;33m ▀▀[0;1;31m▀▀▀[0;33m▀ ▄▒[0;1;31;43m▄[0;1;31;40m███████[0;1;32;41m░░[0m'

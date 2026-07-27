@@ -5,7 +5,7 @@
 # Source SHA-256: 081623829449db612c865c49c0af7b679605b7c0ca9b0a75486fb1d3754f1057
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-ID.ANS by Snow Dog (max_artpack_0793); released in max_artpack_0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 88-136
 # Columns: 1-80
 
@@ -44,12 +44,12 @@ Write-Host '
 [31m███████████████▄▄▄█▄▀[0;1;30;41m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31m▄▄[0;1;30;41m▀▀▀▀▀▀[0;31m█████████████████████████████████[0m
 [31m███████████████████████████████████████████████████████████████████████████████[0m
 [31;41m                                                                               [0m
-[31;41m       [0;1;37;41mT[0;41mh[0;1;30;41me [0;1;37;41mb[0;41ma[0;1;30;41mt[0;30;41mtle [0;1;37;41mo[0;41mv[0;1;30;41me[0;30;41mr [0;1;37;41ma[0;41mn[0;1;30;41md [0;1;37;41mt[0;41mh[0;1;30;41me [0;1;37;41md[0;41mu[0;1;30;41ms[0;30;41mt [0;1;37;41mi[0;41ms [0;1;41mc[0;41ml[0;1;30;41me[0;30;41maring...                             [0m
-[30;41m       [0;1;37;41mD[0;41mi[0;1;30;41ms[0;30;41mciples [0;1;37;41mo[0;41mf [0;1;41mt[0;41mh[0;1;30;41me [0;1;37;41ms[0;41mn[0;1;30;41mo[0;30;41mw [0;1;37;41md[0;41mo[0;1;30;41mg [0;1;37;41ms[0;41mo[0;1;30;41mu[0;30;41mnd [0;1;37;41mt[0;41mh[0;1;30;41me [0;1;37;41mk[0;41mn[0;1;30;41me[0;30;41mll                               [0m
-[30;41m       [0;1;37;41mR[0;41me[0;1;30;41mj[0;30;41moicing [0;1;37;41me[0;41mc[0;1;30;41mh[0;30;41moes [0;1;37;41ma[0;41ms [0;1;41mt[0;41mh[0;1;30;41me [0;1;37;41md[0;41ma[0;1;30;41mw[0;30;41mn [0;1;37;41mi[0;41ms [0;1;41mn[0;41me[0;1;30;41ma[0;30;41mring...                              [0m
-[30;41m       [0;1;37;41mP[0;41mr[0;1;30;41mi[0;30;41mnce [0;1;37;41mB[0;41my[0;1;30;41m-[0;30;41mTor [0;1;37;41mi[0;41mn [0;1;41md[0;41me[0;1;30;41mf[0;30;41meat [0;1;37;41mr[0;41me[0;1;30;41mt[0;30;41mreats [0;1;37;41mt[0;41mo [0;1;41mh[0;41me[0;1;30;41ml[0;30;41ml!                               [0m
-[30;41m                                                       - RUSH: [0;1;30;41m"By-Tor and     [0m
-[1;30;41m                                                                the Snow Dog"  [0m
+[31;41m       [0;1;37;41m [0;41m [0;1;30;41m  [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m    [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m  [0;1;37;41m [0;41m [0;1;30;41m  [0;1;37;41m [0;41m [0;1;30;41m  [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m  [0;1;37;41m [0;41m  [0;1;41m [0;41m [0;1;30;41m [0;30;41m                                     [0m
+[30;41m       [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m       [0;1;37;41m [0;41m  [0;1;41m [0;41m [0;1;30;41m  [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m  [0;1;37;41m [0;41m [0;1;30;41m  [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m   [0;1;37;41m [0;41m [0;1;30;41m  [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m                                 [0m
+[30;41m       [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m       [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m    [0;1;37;41m [0;41m  [0;1;41m [0;41m [0;1;30;41m  [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m  [0;1;37;41m [0;41m  [0;1;41m [0;41m [0;1;30;41m [0;30;41m                                     [0m
+[30;41m       [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m    [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m    [0;1;37;41m [0;41m  [0;1;41m [0;41m [0;1;30;41m [0;30;41m    [0;1;37;41m [0;41m [0;1;30;41m [0;30;41m      [0;1;37;41m [0;41m  [0;1;41m [0;41m [0;1;30;41m [0;30;41m                                 [0m
+[30;41m                                                               [0;1;30;41m                [0m
+[1;30;41m                                                                               [0m
 [1;30;41m                                                                               [0m
 [1;30;41m  [0;30;41m▄▄▄▄        ▄                                                ▐               [0m
 [30;41m▄█▀▀██████▄▄▄█▀           ▄▄▄      ▄                     ▄     █               [0m

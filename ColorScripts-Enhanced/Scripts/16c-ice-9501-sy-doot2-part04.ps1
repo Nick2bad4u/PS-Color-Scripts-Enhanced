@@ -5,7 +5,7 @@
 # Source SHA-256: 30e77d19371403bb20600b4eddfe45a9d1efe7ec62cf5e8edd42fd7cfe8639ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SY-DOOT2.ICE by Shaggy (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 139-188
 # Columns: 1-80
 
@@ -54,9 +54,8 @@ Write-Host '
 [35m░▓▌[0;1;30m▓▌[0m                          [1;30m           [0m                                    [35m [0m
  [35m░▀■[0;1;30m▀■[0m D  r  a  g  g  e  d    o  u  t    o  f    t  h  e    M  o  u  r  g  u  e
 [1;35m▄[0;35m▄▄[0;1;30m▄[0;35m▄[0;1;30m▄▄▄[0m  [1;30m▄[0m     [1;30m▄[0m                 Sys: Dragon                 [1;30m▄[0m     [1;30m▄[0m  [1;30m▄▄▄[0;35m▄[0;1;30m▄[0;35m▄▄[0;1;35m▄[0m
-[35m▓[0;37m [0;35m [0;37m     [0;1;30m-[0;1;37mHR[0;1;30m-[0m Member Board [1;30m-[0m [1mReactor[0m Distro [1;30m-[0m [1mDamn[0m Distro [1;30m-[0m [1mLapse[0m distro       [35m▓[0m
-[35m▒[0m [37m        [0;1;37m414 Couriers[0m Member Board [1;30m-[0m Running [1mVision/2 [0;1;30m-[0m [1m414[0;1;30m-[0;1;37m964[0;1;30m-[0;1;37m1366[0m         [35m▒[0m
-[35m░           [0m         [37mNo NUP[0m [1;30m-[0m Locals by invite only [1;30m-[0m NUV                    [35m ░[0m
+[35m▓[0;37m [0;35m [0;37m     [0;1;30m [0;1;37m  [0;1;30m [0m              [1;30m [0m [1m       [0m        [1;30m [0m [1m    [0m        [1;30m [0m [1m     [0m              [35m▓[0m
+[35m▒[0m [37m        [0;1;37m            [0m              [1;30m [0m         [1m         [0;1;30m [0m [1m   [0;1;30m [0;1;37m   [0;1;30m [0;1;37m    [0m         [35m▒[0m
+[35m░           [0m         [37m      [0m [1;30m [0m                       [1;30m [0m                        [35m ░[0m
 [35m [0m                                                                             [35m [0m
-[35m░[0;37m ANSi completed [0;1;37m1[0;1;30m/[0;1;37m26[0;1;30m/[0;1;37m95[0m by that ever lovable little doodle boy [1mShaggy[0m of [1mi[0mCE [35m░[0m
-[37m  [0m'
+[35m░[0;37m                [0;1;37m [0;1;30m [0;1;37m  [0;1;30m [0;1;37m  [0m                                        [1m      [0m    [1m [0m   [35m░[0m'

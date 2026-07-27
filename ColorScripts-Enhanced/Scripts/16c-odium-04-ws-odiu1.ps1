@@ -5,7 +5,7 @@
 # Source SHA-256: 4c9b1300cf2996e9a3eef3036594d36b694efaff407952590232b6af9599cb26
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WS-ODIU1.ANS by whitesnake (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: odium promo
 # SAUCE Author: whitesnake
 # SAUCE Group: odium
@@ -34,6 +34,4 @@ Write-Host '
                    █[1;30;47m▓[0;1;30m█▓▄▄▄ [0m▄[1;30;47m▓[0;1;30m▄▄▄▄▄▓ [0m▄▄[1;30m▄ ▄▄▄▄▄ [0m▄   ▄[1;30m▄▄▄█▌ ░[0m
                     ▀░[1;30m▀▀▀ ░ [0m▀[1;30;47m▓▀[0;1;30m█▓▀ [0m▓[1;30;47m▓[0;1;30m█████▓█ [0m▄[1;30;47m▓▄[0;1;30m█[0mws▀[1;30m▓▀[0m
                        [1;30;47m▓[0m             [1;30m░▀▀█▀▀   [0m▀[1;30m▀  [0;1;30;47m▓[0m
-                         o    [1;30m░[0md     i     u[1;30m░    [0mm
-
-     Done for Odium my favortie group! Gonne concentrate me fully on Odium![0m'
+                         o    [1;30m░[0md     i     u[1;30m░    [0mm[0m'

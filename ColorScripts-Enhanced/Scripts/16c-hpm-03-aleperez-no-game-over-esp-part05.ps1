@@ -5,7 +5,7 @@
 # Source SHA-256: 97d99df2cf8032257b9edee70a4340f4ce6b814aeb21029bf67dae0608c359cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aleperez-no_game_over_esp.ans by @AljandroPrez (HPM); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no game over
 # SAUCE Author: @AljandroPrez
 # SAUCE Group: HPM
@@ -25,10 +25,10 @@ Write-Host '
 [37m████████████████████████████████[0;1;37m█[0m [32m█[0;37m [0;33m█[0;1;33;43m░░░░░▄[0m [1;33;43m▀[0;1;33;40m████████▀[0m [1;35m███████[0;1;35;45m▀▀▀▀▀[0;35m█████████████[0m
 [1;37m────────────────────────────────────────────────────────────────────────────────[0m
 [30m██[0;1;32m╓──────╖[0m [1;32mE1-WINBEE[0m                                             [30m████[0m
-[30m██[0;1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32mBIENVENIDA CAPITANA, NO TENEMOS MUCHO TIEMPO, TENEMOS QUE ELIMINAR[0m
-[30m██[0;1;32m≡[0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m≡[0m   [1;32mLA CRIATURA ENORME QUE TENEMOS ENFRENTE ANTES DE QUE ALCANCE LA[0m
-[30m██[0;1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32mBASE... CASI NO TENGO MUNICION PERO PUEDO AMPLIFICAR ENERGIA SI ES[0m
-[30m██[0;1;32m╚──────╜[0m   [1;32mQUE TIENE ESE TIPO DE ARMAS... TOME POSICION MAS CERCA DE MI NAVE[0m
+[30m██[0;1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32m                                                                  [0m
+[30m██[0;1;32m [0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m [0m   [1;32m                                                               [0m
+[30m██[0;1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32m                                                                  [0m
+[30m██[0;1;32m╚──────╜[0m   [1;32m                                                                 [0m
 [32m█████[0;1;37;42m│[0;32m██████████████████[0;1;37;42m▄[0;32m██[0;1;37;42m▄[0;32m██████[0;1;37;42m▄[0;32m███████[0;1;33;42m▄▄[0;32m████████[0;1;36;42m▄[0;32m██[0;1;36;42m▄[0;32m███[0;1;37;42m▀[0;32m████████████████████[0m
 [32m█████[0;1;37;42m│[0;32m████████████████████[0;1;36;42m▄[0;32m████[0;1;37;42m▀[0;32m█[0;1;37;42m▄▄[0;1;36;42m▄▄[0;1;36;40m█[0;1;36;42m▀▀[0;1;33;40m██████[0;1;36;42m▀▀[0;1;36;40m█[0;1;36;42m▄▄[0;1;37;42m▄▄[0;32m█████[0;1;37;42m▄[0;32m█████████████████████[0m
 [32m█████[0;1;37;42m│[0;32m█████▀▀▀▀▀▀▀▀▀▀▀▀▀████[0;1;37;42m▄▄[0;1;37;40m█[0;1;37;42m▀[0;1;36;42m▄[0;1;36;40m█[0;1;36;42m▀▀[0;32m███[0;1;33m███[0;1;37m██[0;1;33m███[0;32m███[0;1;36;42m▀▀[0;1;36;40m█[0;1;36;42m▄[0;1;37;42m▀[0;1;37;40m█[0;1;37;42m▄▄[0;32m██████████████████████[0m

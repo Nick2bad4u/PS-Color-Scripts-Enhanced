@@ -5,7 +5,7 @@
 # Source SHA-256: d7bdf47314a476a2b87be6d38865080a759c62afa7d110b39435c987a1fab1bc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CP-MENU1.ANS by cyberphreak (sense); released in sense12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: menu for anyone
 # SAUCE Author: cyberphreak
 # SAUCE Group: sense
@@ -40,6 +40,4 @@ Write-Host '
 ░░  [1;30;47m▌[0;1;37;47m░░[0m         [1;30m▐[0m                        [1;30m▌[0m    CP! █[1;36;47m░░[0m  [1;36;47m███▓▓▓░░░░░[0m█████████[1;36;47m░░███[0m
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-still, i have not found a style that i like.                  cyberphreak//sense
-use this if you want...                                       phuman@icon.co.za[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

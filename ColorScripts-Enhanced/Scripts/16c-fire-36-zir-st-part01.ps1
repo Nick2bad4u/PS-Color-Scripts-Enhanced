@@ -5,7 +5,7 @@
 # Source SHA-256: f515bcb9b3d3c6ed36bae35e3719bfcd92fb33fd9114498f73172f18939ea6f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-ST.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: suicidal tendencies
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -18,15 +18,15 @@
 
 Write-Host '
 [37;40m [0;1;30;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [1;30m[[0;36mzir[0;1;30m/[0;36mfire[0;1;30m/[0;36m2023[0;1;30m][0m
- [36m▄▐[0;30;46mhere i sit and watch my world come crumbling down i cry for help no one''s[0;36;40m▌[0;30;46m░▀[0m
- [30;46maround silently screaming as i bang my head against the wall seems like no one[0m
- [30;46mcares at all always an emotion but[0;36;40m▀▀▀▀[0m           [36;40m▀▀▀▓[0;30;46mhow could i explain kinda[0m
+ [36m▄▐[0;30;46m                                                                         [0;36;40m▌[0;30;46m░▀[0m
+ [30;46m                                                                              [0m
+ [30;46m                                  [0;36;40m▀▀▀▀[0m           [36;40m▀▀▀▓[0;30;46m                         [0m
  [30;46mlike the scent of a rose but ░[0;36;40m▀[0;37;40m [0;1;30;40m▄░[0;36m [0;37m██[0;1;37;47m▄▄▄▄▄▄▄  [0m█[1;47m■[0m██[36m  ░[0;30;46myou can''t explain the sam[0m
  [30;46me with my pain caught up in[0;36;40m█▀ [0;1;30;40m▄▐██ [0m▓█[1;47m▓▓▓▒▒▒░░░[0m███▌[36m ▓[0;30;46memotion goes over my head[0;36;40m█[0m
 [37;40m [0;30;46msometimes i got to think to[0;36;40m [0;1;30;40m▄█▀ ▀█ [0m▒▒[1;47m░░░░[0m▓▓▓▓▀▓▓▓▌[36m [0;30;46mmyself is this life or deat[0m
  [30;46mh is this living or am i d[0;36;40m▌[0m      [1;30;40m█[0;36m [0;37m░░▒▒▒▒▒▒▒▒[0;36m [0;37m░░░  [0;30;46mead the clock keeps ticking[0m
  [30;46mbut nothing else seems to [0;36;40m▌[0m      [1;30;40m░[0;36m   [0;37m░░░░░░░░[0m     [36m░▀▀▀▀▀▀▀▀[0;30;46mchange problems nev[0m
- [30;46mer solved just rearranged[0;36;40m█▌[0m                                [30;46mand then i think ab[0m
+ [30;46m                         [0;36;40m█▌[0m                                [30;46m                   [0m
  [30;46mout all the times that i''v[0;36;40m░[0m        [34;40m░░░   [0;31;40m░░▄▄▄▐[0;1;31;41m▀▀▀▒░[0;31m▌█[0;1;31;41m░[0;1;31;40m░[0m   [36m▓[0;30;46mhad some were good[0m
  [30;46mmost were bad i search f[0;36;40m▀    [0;34;40m▄▄▄███▓▓▓▐▀[0;31;40m   ▄▄▄[0;1;31;40m░[0;31m▄▄▄▀▀[0;36m [0;31m▀▀   [0;36m▐[0;30;46mor personality and[0;36;40m█[0m
 [37;40m [0;30;46mi look for things i ca[0;36;40m▀[0;37;40m [0;1;30;40m▄░[0;36m [0;34m▄█[0;1;34;44m░▄▄[0;1;34;47m▓▓[0;1;34;44m█░ [0;34m██[0;1;34;44m  [0;34m▄▄▄[0;31m ▀ ▀▀▀ [0;1;31m▀[0;1;31;41m▒[0;31m▄▒[0;34m   [0;36m▐[0;30;46mnnot see love and p[0m

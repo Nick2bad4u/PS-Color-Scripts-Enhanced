@@ -5,7 +5,7 @@
 # Source SHA-256: 00c22b58b1c51071cb714eb8d54e4c461f734ba3a9db1f64c69f62224550b670
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UM-LOG!.ANS by uNDER mAN (dVL_fRc); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lOGON/oLDSCHooL
 # SAUCE Author: uNDER mAN
 # SAUCE Group: dVL_fRc
@@ -26,7 +26,7 @@ Write-Host '
        [1;32m|[0m            [36m|[0;1;30m_[0;36m____[0;1;30m___[0;36m___[0;1;30m__[0;36m___[0;1;30m_[0;36m___[0;1;30m__[0;36m____[0;1;30m_[0;36m____[0;1;30m_|[0m                 [1;32m|[0m
        [1;32m|[0m                                                               [1;32m|[0m
        [1;32m|[0m                                                               [1;32m|[0m
-       [1;32m|[0m       [1;42mh[0;32mANDLE: ...............[0;1;32m![0m        [1;30mbERGARa lEUMAN[0m          [1;32m|[0m
+       [1;32m [0m       [1;42m [0;32m                      [0;1;32m [0m        [1;30m              [0m          [1;32m [0m
        [1;32m|[0m         [1;42mp[0;32mASg: ...............[0;1;32m![0m        [1;30m` fANS cLù ∩[0m            [1;32m|[0m
        [1;32m|[0m       [1;42mz[0;32mECTa: ................[0;1;32m![0m                                [1;32m|[0m
        [1;32m|[0m                                                               [1;32m|[0m
@@ -36,5 +36,4 @@ Write-Host '
         [1;30m:[0m               [1;30m.    :[0m                      [1;30m.[0m             [1;30m.[0m
         [1;30m·[0m                    [1;30m.[0m
 
----------------------------------------------------------------[cut]--------
-tHiS kEWL oLDSCHOOL ASkEE iS fOR lOGON! / uNDER mAN / dEViL foRCe 97`[0m'
+---------------------------------------------------------------[cut]--------[0m'

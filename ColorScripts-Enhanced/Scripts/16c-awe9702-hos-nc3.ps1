@@ -5,7 +5,7 @@
 # Source SHA-256: 99d0100abe947413b38c7019fe925dc995d0d957775896274584f910dc3e2813
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HOS-NC3.ANS by Hos (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: No Control
 # SAUCE Author: Hos
 # SAUCE Group: AWE Lettering
@@ -32,6 +32,4 @@ Write-Host '
             ▀[1m▐░[0m ▀[1m▀[0m          ■▄[1;36;47m▄[0;1;37;47m▄▓[0m█[1;47m▓[0m▌▀▀ ▀      ▐[1;47m█[0m▌     ▒ ▐▄▀
              [1m▐░[0m              ▐[1;47m█▀[0m▀ [1m░[0m          ■▀      ░▓▄▀
                              ▀[1;47m▌[0m             ▬         ▐▌
-[1mno control [0mby infusium..      ▌                        ▀ ▬
-
-ansi by hos[1m:[0;1;36mawe[0m'
+[1m           [0m                   ▌                        ▀ ▬[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 40ef51ff2cce96e6dbaac50966110ee95e098255af38c4d80c3c5fd81ece85f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-IFX.ANS by Soul Stalker + Bugs Bunny (maiden_brazilis); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iRon fox matrix?!#!@
 # SAUCE Author: Multiple Artists
 # SAUCE Group: maiden_brazilis
@@ -38,8 +38,4 @@ Write-Host '
 [1;34;44m░░▒▒▒▒▓▓[0;1;34;40m█▄[0;33m▀[0;1;31;43m░░[0;33m▄▀[0;1;31;43m ░▒▓▓█[0;1;31;40m▄[0;33m [0;31m▀▀[0;1;31m ▄▄█[0;1;31;43m█[0;1;31;40m█▀[0m [34m ▄▄[0;1;34;44m░░▓[0;1;34;40m▄[0m  [1;33m   [0m    [34m   [0m      [34m▄█▀ [0;37m  [0;31m▐[0;1;31;41m▐█▄[0;31m▄[0;37m [0;1;31m▐[0m [30;43m░[0;1;33;43m▀▓[0;1;33;40m▌[0;31m▐[0m
 [1;34;44m░░░░▒▒▒▓▓▓[0;1;34;40m█▄[0;33m▀[0;1;31;43m░░[0;33m▄▀[0;1;31;43m░░▒▒▓▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;43m▓▓[0;1;31;40m▀[0m [34m▄[0;1;34;44m░░[0;34m▀▀▀[0;1;34m▀[0;1;34;44m▓▓[0;1;34;40m▌[0m        [34m   [0m   [34m▄▄[0;1;34;44m░[0;34m▀ [0m   [1;31m▄[0;1;31;41m▄[0;1;31;47m▓▓[0;1;31;41m▓[0;31m▌[0;37m [0;1;31m█ [0;30;43m▓░[0;1;33;43m▐[0;33m [0;31m█[0m
 [1;34;44m░░░░░▒▒▒[0;1;34;40m▀▀▀▀▌[0;33m▀[0;1;31;43m▒░░[0;33m▄[0;1;31m [0;33m▀▀[0;1;31;43m░░▒▓[0;1;31;40m▀▀[0m   [34m█▀  [0;37m    [0;1;34m▐[0;1;34;47m▓[0;1;34;40m█[0m    [34m▄[0;37m [0;34m ▄▀▄▄[0;1;34;44m░[0;34m▀▀▀ [0;37m  [0;1;37m [0m    [1;31m▐[0;1;31;41m███[0;31m▌[0;37m [0;1;31m▌[0;33m░[0;30;43m▓░[0;33;40m▓[0;37;40m [0;1;31;40m▌[0m
-[34m█[0;1;34;44m░░[0;34m▀▀[0;37m          [0;33m▀[0;1;31;43m▒░░[0m         [34m ▐▌[0;37m [0;34m░[0;30;44m▓[0;37;40m     [0;1;34;40m▀[0;1;34;44m▓░[0;34m▄[0;37m [0m     [37m [0;34m    [0m     [34m [0m    [1;31m▐███[0;1;31;41m▌[0;1;31;40m▐▌▄[0m  [1;31m■[0m [1;31m▀ [0m
-
->>> > > something to iRon fox board!
-
-        Girl Face by Bugs Bunny... tha "iron" font by Soul Stalker[0m'
+[34m█[0;1;34;44m░░[0;34m▀▀[0;37m          [0;33m▀[0;1;31;43m▒░░[0m         [34m ▐▌[0;37m [0;34m░[0;30;44m▓[0;37;40m     [0;1;34;40m▀[0;1;34;44m▓░[0;34m▄[0;37m [0m     [37m [0;34m    [0m     [34m [0m    [1;31m▐███[0;1;31;41m▌[0;1;31;40m▐▌▄[0m  [1;31m■[0m [1;31m▀ [0m'

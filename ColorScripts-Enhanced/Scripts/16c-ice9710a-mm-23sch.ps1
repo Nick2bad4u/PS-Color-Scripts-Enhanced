@@ -5,12 +5,12 @@
 # Source SHA-256: d32fa610083e38f4147140798f94734cafa8d502d835243c4bd8df1877342c4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-23SCH.ICE by Magnetic M (ice9710a); released in ice9710a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
-JEREZ 1997: a tribute to Micheal Schumacher [1;30m(by magneticm.ice)   [0;31m▄▄█▄[0;37m▄▄[0;1;30mhi^Shad^[0m
+                                            [1;30m                     [0;31m▄▄█▄[0;37m▄▄[0;1;30m        [0m
 [1;30m [0;1;37min my heart... you will always be our champion![0m           [32m▄▄ [0;31m▄▀▀▀[0;1;31;41m░░░░[0;1;31;40m█[0;1;31;47m▄[0m█▄[1;30m:)[0;36m▄▄[0m
 [1;32;42m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒▒[0;32m▀[0;31m▄  ░░[0;1;31;41m▒▒░░[0;1;31;47m▓▒▒[0;1;37;47m▄[0;1;37;40m█▄[0;36m▀[0;1;32;46m▓▓[0m
 [1;32;40m██████████████████████████████████████████████████████████[0;1;32;42m▓▓[0m [31m█   ▄▄█[0;1;31;41m▀[0;1;31;40m█[0;1;31;47m▀[0;1;37;47m▄[0;1;37;40m█████▄[0;36m▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: efd7acbaf94cf4a69c4d4233cc48479e2a45b305baa2ddaac2e10666cf5649ee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sm-colly.ans by Smooth (iCE Advertisements); released in ice-200210 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hallowed Colly
 # SAUCE Author: Smooth
 # SAUCE Group: iCE Advertisements
@@ -17,9 +17,9 @@
 Write-Host '
    [35m▄[0m            [35m▄[0m
 [35m█▄▄[0;37m [0;35m▀▀[0;1;35;45m░[0;35m▄[0m      [35m▄[0;1;35;45m▄▓[0m       [1;36m██[0;1;37m▀$[0m$.
-[1;35;45m█▓░░[0m [35m░▀[0m     [35m▄[0;1;35;45m▒▀░▒[0m       [1;36m██[0m  [36mHere''z my hallowed colly for October two.0.0.two.[0m
+[1;35;45m█▓░░[0m [35m░▀[0m     [35m▄[0;1;35;45m▒▀░▒[0m       [1;36m██[0m  [36m                                                 [0m
 [35m▀▀▀▀▀▀▀▀▀▀█[0;1;35;45m▒▓[0;35m▀[0;37m [0;1;35;45m░█[0m  [1;36m▄[0m [1;36m▄▄▄██[0m  [36mspecial.b00.gweetinz.t00 : dreammaster, capn_hood,[0m
-[35m▄[0;1;35;45m░[0;35m██ [0m   [35m▄[0;1;35;45m▄▀[0;35m█[0;1;35;45m▒[0m  [1;35;45m ▓[0m       [1;36m██[0m  [36mmartigan, vertigo, enzo-nator, trip, mercyfal,[0m
+[35m▄[0;1;35;45m░[0;35m██ [0m   [35m▄[0;1;35;45m▄▀[0;35m█[0;1;35;45m▒[0m  [1;35;45m ▓[0m       [1;36m██[0m  [36m                                              [0m
 [1;35;45m█▒[0;35m▌▓░░[0;37m [0;35m██▀[0;37m [0;35m█[0;1;35;45m░[0;35m░[0;37m [0;35m▀█[0;37m [0;35m░░▓▄[0;37m  [0;1;36m██[0m  [36mnyz, cardiac, r00t, velo, aesthetic, and sin-x.[0m
 [35m▀[0;1;35;45m▓▒[0;35m▄[0;37m  [0;35m▄▄▄[0;37m  [0;1;35;45m░[0;35m▓[0;37m  [0;35m█▄▄[0;37m  [0;35m▀█[0;1;35;45m░[0m [1;36m██[0;1;37m▄$[0m$`
    [35m▀▀█▄██[0;37m  [0;35m▓▒[0m   [35m▀█▀[0;37m  [0;1;35;45m▒[0;35m▀[0m
@@ -45,8 +45,6 @@ Write-Host '
 [1;30m█████▄▄[0m [31m▀▓[0m    [31m▄█▀[0;37m  [0;31m▀▀█[0;1;31;41m▀▒[0;31m▀[0;37m [0;31m▄█▄[0;37m [0;1;30m▄[0m [34m▀▓[0;37m [0;31m▀▀███▀▀▓▄▄▄▄▄█▀▄▄[0;37m  [0;34m▀▀▀[0;37m [0;31m▄[0;1;31;41m░[0;31m▄▄▄[0;37m [0;34m▀▀▀█▀[0;37m [0;1;30m▄▄[0m  [34m▄▀[0;37m [0;1;30m▄█[0m
 [1;30m████████▄▄▄[0m [31m▀[0;37m [0;1;30m▄▄▄███▄▄▄▄▄▄ [0;31m▀[0;37m [0;1;30m▄██▄▄▄█▄▄▄▄[0m [31m▀▀[0;1;31;41m▒▓█[0;31m▀▀[0;37m [0;31m▀[0;1;31;41m▀░[0;31m▀▄▓▄[0;1;31;41m░[0;31m▀[0;37m [0;1;30m▄[0;31m▀▀[0;1;31;41m▀░[0;31m▀▀[0;37m [0;1;30m▄▄██[0m [34m■[0;37m  [0;1;30m▄███[0m
                                                     [31m▀█▀[0m
-           [1;37m [0m               [1mc o m i n g . s o o n ![0m                  [1;30msM.ICE[0m
+           [1;37m [0m               [1m                       [0m                  [1;30m      [0m
 
----------------------+∙/     [1mDoREnet.promo.ansi     [0m/∙+------------------------[0m
-
-'
+---------------------+∙/     [1mDoREnet.promo.ansi     [0m/∙+------------------------[0m'

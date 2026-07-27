@@ -5,7 +5,7 @@
 # Source SHA-256: 1d085688831242af3318978181764e30fb6141e17449ec6de5a8fbc0010907e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MSG-BAL1.ANS by Manslaughter (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 31-65
 # Columns: 1-80
 
@@ -39,9 +39,8 @@ Write-Host '
 [1m    ·   ·[0m     [1m·[0m     [1m··    ··[0m       [1m·[0m     [1m·[0m         [1m·[0m        [1m··[0m
 [1m ·[0m       [1m·[0m     [1m·   ·   ·[0m     [1m·[0m                                   [1m·    ·  ·[0m
      [1m·[0m          [1m┌──[0;35m──────────   B [0;1;37mA [0;35mL [0;1;37mI [0;35mS [0;1;37mT [0;35mI [0;1;37mC  [0;35m─────[0;1;37m──────┐  ·[0m       [1;37m·[0m
-[1;37m · ··    ·  ·   [0;35m│ [0;1;37mBalistic  Sysop : Lunatic  612.374.5110   │[0m             [1;37m· ·[0m
-     [1;37m·  ·[0m       [35m│ [0;1;37m16.8 Dual/HST    2400/9600 by invitation  │[0m      [1;37m·  ··[0m
-[1;37m   ·  · ·[0m       [35m│[0m        [1;37mRunning Prism    PrismNET[0m          [35m│[0m           [1;37m·  ·[0m
-[1;37m    · ·   · ·   │[0m           [1;37mRAZOR 1911 Affiliate[0m            [35m│   [0;1;37m·[0m         [1;37m·[0m
-[1;37m · · ·   ·[0m      [1;37m└───────[0;35m───────────────────────────────[0;1;37m─────┘    ·· ·[0m
-             [1;37m··    · · ·   [0;1;35mANSI:MÆNSLÆUGHTεR:GRiM   [0;1;37m·  ·    ·    ·[0m'
+[1;37m                [0;35m│ [0;1;37m                                          │[0m             [1;37m   [0m
+     [1;37m    [0m       [35m│ [0;1;37m                                          │[0m      [1;37m     [0m
+[1;37m         [0m       [35m│[0m        [1;37m                         [0m          [35m│[0m           [1;37m    [0m
+[1;37m                │[0m           [1;37m                    [0m            [35m│   [0;1;37m [0m         [1;37m [0m
+[1;37m · · ·   ·[0m      [1;37m└───────[0;35m───────────────────────────────[0;1;37m─────┘    ·· ·[0m'

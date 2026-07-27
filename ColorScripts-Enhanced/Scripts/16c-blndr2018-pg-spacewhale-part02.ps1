@@ -5,7 +5,7 @@
 # Source SHA-256: a3fc4dc9af75929b4de5f60ade83d06b8c209594e90dbbf487bf052f014ff6e6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pg_spacewhale.ans by Pinguino (Fuel); released in blndr2018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Spacewhale Science
 # SAUCE Author: Pinguino
 # SAUCE Group: Fuel
@@ -43,11 +43,11 @@ Write-Host '
                   [1;30m▀[0m           ░                    [1;30m▒▒▒▒▒[0m
     ▄                              ░░
                                                                             ▒
-      [1;36mDid you know that [0;31mChina [0;1;36mhad a [0;1;33mlunar telescope?![0m
-      [1;36mIt does. Spacewhale took over the Lunar-Based Ultraviolet Telescope[0m
-      [1;36mAnd now its out there doing science in the [0;36mMare[0;1;36m [0;36mImbrium[0m
-      [36mSpacewhale[0;1;36m science stuff.[0m
+      [1;36m                  [0;31m      [0;1;36m      [0;1;33m                 [0m
+      [1;36m                                                                   [0m
+      [1;36m                                           [0;36m    [0;1;36m [0;36m       [0m
+      [36m          [0;1;36m               [0m
                                                                          ▄
-      [35m-Pinguino[0;36m [Fuel & Mist][0m
+      [35m         [0;36m              [0m
 
 [37m  [0;1;30m██[0m            ░[0m'

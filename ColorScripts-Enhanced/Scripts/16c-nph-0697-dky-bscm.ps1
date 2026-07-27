@@ -5,7 +5,7 @@
 # Source SHA-256: c2b27f2db747f31ff48a81be7351b06e094d7cc2e675046ba6a81253cffc79e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DKY-BSCM.ANS by .:(darky'):. (.:(nitrophusion):.); released in nph-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .:(brainscan logo):.
 # SAUCE Author: .:(darky'):.
 # SAUCE Group: .:(nitrophusion):.
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m-──[cUT^hERE]─-- -  --─[bRAIN^sCAN^lOGO^rEQUESTED^bY^tITON]─── ─ ── ---──--·  ·[0m
+[1;30m ──          ─        ─                                    ─── ─ ──    ──      [0m
 
                [31m▓▄[0m         [31m▓▄[0m        [31m▄ ▀[0m            [31m▒[0m        [31m▄▀ ■[0m
               [31m▄█[0;1;31;41m▄ ▄[0;31m███▄  ▄█[0;1;31;41m▄ ▄[0;31m███▄▀█[0;1;31;41m▄▄ ▄[0;31m█▄▄    ▄[0;1;31;41m▄[0;31m██▓▄▀█[0;1;31;41m▄▄[0;31m▄ █▓▄[0m
@@ -34,6 +34,4 @@ Write-Host '
                                   [1;30m░[0m         [1;30m▓[0m     [1;30m░[0m
 
 [1;30m-──[cUT^hERE]─-- -─[cONTACT^mE^oN^mY^bOARD^+33-(0)3-80780508]── ---─────---∙·[0m
-[1;30m2 titon..[0m
-[1;30mvoili un logo brainscan.. désolé mais je n''ai pas le temps d''en faire plus..[0m
-[1;30mfais en un menu si tu veux.. no prob.. ;) za+[0m                  [1;30m-- darky''/nph[0m'
+[1;30m2 titon..[0m'

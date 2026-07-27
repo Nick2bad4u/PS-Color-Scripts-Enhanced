@@ -5,7 +5,7 @@
 # Source SHA-256: 9132be99a2b134403c4661dc9011986b1f3b22670ec42a1ca52fb3413adefeff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _NFO9706.ANS by Sophisto + Shaft (Everglo); released in eglo01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: sophisto, shaft
 # SAUCE Group: Everglo
 # SAUCE Date: 19970209
@@ -51,16 +51,4 @@ Write-Host '
    [1m▀▌[0m                     [1m▀[0m                                             [1m [0m
 
     [1m▌[0m
-   [1m ▀[0m
-
-       [35mhello and welcome to the [0;1;35mworld premiere[0;35m of  [0;1;37mEverglo[0;35m  art combustion.[0m
-       [35mit first  started  out with[0;37m  [0;35mme[0;37m  [0;1;37msophisto[0m [35mand [0;1;37m shaft[0;35m,  who  got  the[0m
-       [35midea of  starting  an artgrop. this is something we had been wanting[0m
-       [35mto do for a long time,  but due to  lack of time, and  a good moment[0m
-       [35mit hasn''t been possible to do  this until now.  i think that we have [0m
-       [35ma quite [0;1;35mcompetative[0;35m artpack, but we still need more members. we will[0m
-       [35mbe releasing [0;1;35mirregulary[0;35m, so if you want  to see our art again you''ll[0m
-       [35mhave to keep your eyes open. Thats all, see you next time! [0m
-
-
-                                        [1;37m   [0m [35m/[0;1;37m Sophisto[0;35m and the [0;1;37mseniors[0;35m [0m'
+   [1m ▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d1c970258b7d2c2136ef12b8c7782e94196402f96ebb90a0bd8213999d9d1084
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-SUBSD.ANS by cool guy (fuel); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: subsonic dream
 # SAUCE Author: cool guy
 # SAUCE Group: fuel
@@ -30,10 +30,4 @@ Write-Host '
    [33;40m▒▓██████[0;33;47m▓[0;37;40m [0;33;40m▒▓[0;1;33;43m   [0;33m▀[0;33;47m▓[0;33;40m▄[0;37;40m [0;33;40m▒▓█████[0;33;47m▓▒[0;33;40m ▒▓[0;1;33;43m   [0;33;47m▓▒[0;1;30;40m [0m      [33;47m▓[0;33;40m█[0m     [33;40mCreator, The Mask. [0;37;40m  [0;33;40m█[0;33;47m▓[0m
 [37;40m  [0;33;40m ▀▀▀▄███[0;33;47m▓▒[0;33;40m▄▓[0;1;33;43m [0;33m▀▀▀▀[0;37m  [0;33m▀▀▀▀▄███▓[0;33;47m▓[0;33;40m▄▓[0;1;33;43m    [0;33m█[0;33;47m▓[0m     [33;40m▄▄[0;33;47m▒▓[0;33;40m█▄▄[0;33;47m▓[0;33;40m  [0m       [33;40m [0m       [33;40m [0;33;47m▓[0;33;40m▄▄█[0;33;47m▓▒[0;33;40m▄▄[0m
      [33;40mC o o l  [0;1;30;40m░░[0;33m         G u y[0;37m  [0;33m▓▀▀▀[0m          [33;47m▓[0;33;40m▀▀██▀▀▀▀▀[0;33;47m▓[0;33;40m▄■    ■▄[0;33;47m▓[0;33;40m▀▀▀▀▀██▀▀[0;33;47m▓[0m
-                                                          [1;30;40m░░[0m
-[33m                                                                                [0m
-
-
-
-
-'
+                                                          [1;30;40m░░[0m'

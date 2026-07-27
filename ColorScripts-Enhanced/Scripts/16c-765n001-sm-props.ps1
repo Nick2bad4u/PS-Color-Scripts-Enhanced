@@ -5,7 +5,7 @@
 # Source SHA-256: aa1a086120dc301e951e62a2fef052222a3275ff2f6dd7070c0ea652099536fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-PROPS.ANS by sodium (the girl scouts); released in 765n001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: props e'zine
 # SAUCE Author: sodium
 # SAUCE Group: the girl scouts
@@ -22,8 +22,4 @@ Write-Host '
 [34m▄[0;1;34;44m▄▄██▄░[0m  [34m▄▄[0;1;34;44m▄▄▒[0;34m▄  ▄▄[0;1;34;44m▄▄░[0;34m▄░  ▄▄[0;1;34;44m▄▓[0;34m▄[0;1;34;44m░▄[0;1;34;47m▓[0;1;34;44m███░[0;34m░   ▄[0;1;34;44m▄▄▄[0;34m▄ [0;31m▀ [0;34m▄▄  [0;31m▀[0;34m░  ▄▄[0;1;34;44m▄░[0;34m▄░ ▀[0;1;34;44m▒▀▀▀░[0;34m█▓[0;1;34;44m▄▄▄▄░[0;34m▄░[0m
 [1;34;44m▒[0;1;34;47m▓[0;1;34;44m████▒[0;34m▄▓[0;1;34;44m▀▀▀▀▓[0;34m▀░█[0;1;34;44m░[0;1;34;47m▓[0;1;34;44m██░░[0;34m░▀▀▀▀▀▀▀▐[0;1;34;44m▒████▒[0;34m▌ ▐[0;1;34;44m▒████▒[0;34m▌▄[0;1;34;44m░[0;1;34;47m▓[0;1;34;44m█▄░[0;34m▄░ [0;1;34;44m▒[0;1;34;47m▓[0;1;34;44m██▒ [0;34m▌▄▄▄▄▄▄  ▐[0;1;34;44m▐[0;1;34;47m▓[0;1;34;44m██▒ [0;34m▌[0m
 [1;34;44m▓[0;1;34;40m▓[0;1;34;44m████▓[0m [1;34mp[0m       [34m█[0;1;34;44m▒███▒░[0m [1;34mr[0m       [34m▀[0;1;34;44m▓[0;1;34;40m▓██[0;1;34;44m▓[0;34m▓▄█[0;1;34;44m▓[0;1;34;40m███[0;1;34;44m▓[0;34m▀ [0;34;44m [0;1;34;44m▒[0;1;34;47m██[0;1;34;44m█▒[0;34m█▄▓[0;1;34;44m▓[0;1;34;40m███[0;1;34;44m▓[0;34m▀  ▀[0;1;34;44m▀▀██▄[0;34m▄[0;1;34;44m░████▓[0;34m▀[0m
-[34ms&M[0m             [34m█[0;1;34;44m▓[0;1;34;40m███[0;1;34;44m▓░[0m                   [1;34mo[0m     [1;34;44m ▓[0;1;34;40m███[0;1;34;44m▓[0;34m█ [0;1;34mP[0m                 [1;34ms[0m
-
-                   [1;34mp[0;34mrops!.. [0;1;34mt[0;34mhe [0;1;34mk[0;34mickass [0;1;34mm[0;34mag [0;1;34mb[0;34my [0;1;34me[0;34mverlast<[0;1;34mc[0;34mia>[0m
-                       [1;30mfont by sodium<acid/765^ss/7ynivf>[0m
-                         [1;31m· · [0;1;30memail: sodium@acid.org [0;1;31m· ·[0m'
+[34ms&M[0m             [34m█[0;1;34;44m▓[0;1;34;40m███[0;1;34;44m▓░[0m                   [1;34mo[0m     [1;34;44m ▓[0;1;34;40m███[0;1;34;44m▓[0;34m█ [0;1;34mP[0m                 [1;34ms[0m'

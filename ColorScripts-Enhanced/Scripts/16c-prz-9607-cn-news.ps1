@@ -5,7 +5,7 @@
 # Source SHA-256: 0e1b686b63bba2fe90060960ad06420494d9fdd3e66ff5a8a86e955564634627
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CN-NEWS.ANS by cybernide (pharazoone); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: news font
 # SAUCE Author: cybernide
 # SAUCE Group: pharazoone
@@ -29,11 +29,4 @@ Write-Host '
 [1;30m ▐▌[0;1;35m▐[0;1;35;45m█▒▄▄█[0;1;35;40m▌[0;1;30;40m▐█▌[0;1;35;40m▐[0;1;35;45m█▄▄▓██[0;1;35;40m▐[0;1;35;45m██▄▄▄▓[0;35m▄▄▄▄█[0;1;35;45m▄██[0;35m▀█[0;1;35;45m▐▓█▄[0;35m█[0;1;35m▀▀ [0;1;30m▌[0;1;35m▐[0;1;35;45m▄▄▄███[0;1;35;40m▀ [0;1;30;40m█ [0;1;35;40m▐[0;1;35;45m███▄▄░     ▄▓██[0;1;35;40m▌ [0;1;30;40m▓[0m
 [1;30m  ▒ [0;1;35m▀███▀ [0;1;30m▓▌█ [0;1;35m▀████▀ ▀▀██████████▀▀[0;1;30m▐▄[0;1;35m▀███▀ [0;1;30m█▀█ [0;1;35m▀████▀ [0;1;30m█▀▒ [0;1;35m▀▀▓█████████▀▀ [0;1;30m▄█▀[0m
 [1;30m  ▀█▄▓▄▄▄█▀ ▀█▄▄▄▄▄▄▓█▄▄▄▄▄▄▄▄▄▄▄▄█▀▓▄▄▄▄▄█▀ ▀█▄▄▄▄▄▄█▀ ▀▀█▄▄▄▄▄▄▄▄▄▄▄▄█▀▀[0m
-[1;30m     ▐[0m              [1;30m░[0m                                     [1;30m▌[0m
-[1;30m 17/05/96:[0m      [1;30mYep ... were going to order the new line today, but wasn''t[0m
-                [1;30msuccessful since the whole telia-computer-network had broken[0m
-                [1;30mdown and they couldn''t serve me .. hehe .. that''s how it goes[0m
-                [1;30mwhen you don''t are nice to your customers .. but, they said[0m
-                [1;30mthat it would probably(and hopefully) be up until Tuesday ..[0m
-                [1;30mAnd after that it won''t take long before the board is up ..[0m
-                               [30msdfsdfsdfsdf[0m'
+[1;30m     ▐[0m              [1;30m░[0m                                     [1;30m▌[0m'

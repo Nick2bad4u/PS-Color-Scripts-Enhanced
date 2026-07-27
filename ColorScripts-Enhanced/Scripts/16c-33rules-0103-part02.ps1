@@ -5,7 +5,7 @@
 # Source SHA-256: 7ebbb9850a55da51f44b7b1ce50e8e91dad9f47a12f2fae099d24eb7c5bc8dfa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: !!!-0103.ANS by Numb + Eerie (Numb/Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Samsara Promotional [j]
 # SAUCE Author: Samsara 09/96
 # SAUCE Group: Numb/Eerie
@@ -39,8 +39,5 @@ Write-Host '
 [1m  [0m▀[1;47m▀[0;1;40m██▄▄▄[0m▀[1m▀▀██▀    [0m▐[1;47m▐[0;1;40m██[0m█[1m██[0m▀[1;47m▀[0;1;40m█[0;1;47m▄[0;1;40m█▀[0m█[1m███▀▀▀[0m▄[1m▄[0;1;47m▄[0;1;40m███▀ [0m█[1m██▄[0;1;47m▄▐[0;1;40m█▌[0m█[1m██  [0m▄[1;47m▄[0;1;40m██  [0m▄[1;47m▄[0;1;40m██▀ [0m▀[1;47m▀█[0;1;40m█[0m
 ▐[1;47m▐[0;1;40m███▄▄[0m▀[1;47m▀[0;1;40m█████▄    [0m▐[1;47m▐[0;1;40m██[0;1;47m▐[0;1;40m█▌  [0m▀[1m▀  [0m▐[1;47m▐[0;1;40m██[0;1;47m▄[0;1;40m██▀▀[0m▄[1m▄▄▄▄[0m█[1m██▌  [0m█[1m██[0m█[1m██▀▀[0;1;47m▀[0;1;40m██▄[0m▄[1;47m▄[0;1;40m██▀▀▀▀▀▀[0;1;47m▀██[0;1;40m▀[0m
 [1m  [0m▀[1m▀[0;1;47m▀[0;1;40m████▀▀▀[0m▀[1m▀[0;1;47m▀[0;1;40m█▄▄▄[0;1;47m▀▐[0;1;40m████[0m        █[1m███[0;1;47m▀[0;1;40m██████▀[0;1;47m▀[0;1;40m███   [0m█[1m██[0;1;47m▌[0;1;40m██   [0m▀[1;47m▀[0;1;40m███▀[0m        █[1;47m██[0m
-[1m [0;36mvolume i, no. 3[0m                                                [36mseptember i996[0m
-[36m [0;1;30m─────────────────────────────────────────────────────────────────────────────[0m
-
-[1;30m [0;32mansi by numb with mess-ups & lame poem by eerie[0m
-[32m is it just me or is this something david mazzuchelli could have drawn?[0m'
+[1m [0;36m               [0m                                                [36m              [0m
+[36m [0;1;30m─────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e9385afd8336c328eeabc3dc82bdfd6ba70260753a5d42e08846cda6697f5804
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XE-TST.ANS by Xeryrus (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Screaming Tomato
 # SAUCE Author: Xeryrus
 # SAUCE Group: MiSTiGRiS
@@ -43,24 +43,8 @@ Write-Host '
 [33;40m▀▓[0;31;40m█░█▓█▓[0;33;40m▓[0;31;40m▒▀░█[0;33;40m▓[0;31;40m█▒[0;33;40m▓[0;31;40m▀[0m [31;40m▓░▒[0m [31;40m▒[0;1;33;40mB[0;32migge Tomato[0;31m.[0;1;33mN[0;32mitnatsnoc[0m [31m▓█▒▓[0;33m▒[0;31m███▓█[0m [31m▀█▄░██▄▓▄[0;33m░[0;31m█▒▀██▓█[0m [31m██ [0m
  [33m▒[0m [31m▒[0m [31m▒[0m [31m▒[0;33m▒[0;31m▓[0m   [33m▒[0;31m▓░[0;33m▒[0;31m▒[0m [31m▓[0m [31m░[0m [31m▓[0m     [1;33mT[0;32momato[0;31m.[0;1;33mC[0;32mthulu[0m      [31m▒▄▓▒[0;33m░[0m [31m▀[0m [31m▓[0m [31m█[0m [31m▓[0m [31m▒▓█░▒█[0;33m▒[0;31m▓░█[0;33;41m░[0;31;40m██▄[0m
  [33;40m░[0m   [31;40m░[0m [31;40m░[0;33;40m░[0m  [31;40m░[0m [33;40m░[0;31;40m▒[0m [33;40m░[0;31;40m░[0m [31;40m▒[0m [31;40m░[0m                   [32;40m [0m      [31;40m░[0m  [31;40m░[0m    [31;40m▒[0m  [31;40m▄▒[0m [31;40m▓[0m [31;40m▄▒░[0m [33;40m▓[0;31;40m▒[0m  [33;41m▒[0m
-        [33;40m░[0m    [33;40m░[0m     [31;40m░..[0;1;33;40ma[0;32mnsee[0;31m.[0;32mby[0;31m.[0;1;33mx[0;32meryrus[0;31m.[0;1;33mm[0;32mist[0;31m.[0;1;33mc[0;32mreep[0m       [31m░[0m   [31m░[0m    [31m▓ [0m  [31m░[0m  [33;41m▓[0m
+        [33;40m░[0m    [33;40m░[0m     [31;40m░  [0;1;33;40m [0;32m    [0;31m [0;32m  [0;31m [0;1;33m [0;32m      [0;31m [0;1;33m [0;32m   [0;31m [0;1;33m [0;32m    [0m       [31m░[0m   [31m░[0m    [31m▓ [0m  [31m░[0m  [33;41m▓[0m
                                                     [31;40m░[0m    [1;37;40m    [0m     [31m [0m  [31m░[0m
                                                         [31m░[0m
                    [31m [0m
-[1;30m<─- - ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ [0m
-
-                              [1;30mNow hear dis![0m
-                         [1;30m [0m [1;30mwe''re back in da room[0m
-                     [1;30mready to rock da world with da boom![0m
-                    [1;30mSo i hope you can stand the vibration[0m
-                  [1;30mCause we''re bout ta rock da entire nation![0m           [31m [0m
-
-                           [1;30mGreets to da Homies.[0m
-                 [1;30m<in alpha-order for your home enjoyment>[0m
-
-                            [1;30mCoolio:Where''d you go?[0m
-           [1;30mCritical Illusion: can i have those files now, please?[0m [1;30m=)[0m
-                         [1;30mDeadpool: ahhh... whatzup?[0m
-                      [1;30mShamanize:I''m back, i''m Back dammit![0m
-                [1;30mShattered Image:when is da damn pak coming out? [0m
-                   [1;30mTribe:mistigris requisitus-extrodianus[0m'
+[1;30m<─- - ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ [0m'

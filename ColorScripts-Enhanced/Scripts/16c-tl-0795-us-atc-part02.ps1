@@ -5,7 +5,7 @@
 # Source SHA-256: b6fa79547ac5be4690d7c2a25d12a95bde93de2b6190955587bc92b28346a892
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ATC.ANS by Ts + Amp (TeklordZ); released in tl-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: A Touch of Class
 # SAUCE Author: Amp and Ts
 # SAUCE Group: TeklordZ
@@ -42,9 +42,4 @@ Write-Host '
 [30;47m░[0;37;40m       ▐[0;1;37;47m▀▀[0;1;37;40m███[0;1;37;47m▀▀[0;1;37;40m [0m    ▐[1;47m▐[0;1;40m████▄[0m           ▐[1;47m▐[0;1;40m████▄  [0m       [1m [0m▀[1;47m▀[0;1;40m████████[0;1;47m▀[0m▀           █
 [1;47m░[0m▄      [1m [0m ▀▀▀▀▀       ▀█[1;47m▀▀▀▀[0;1;40m▀[0m           █[1;47m▀[0;1;40m█████▌[0m       [1m   [0m▀█[1;47m▀▀▀▀[0m█▀           ▄██
 [1;47m▒▄■[0m▄                                  [30;47m▀[0;1;37;40m  [0m▀█[1;47m▀▀[0m█▀  ■                         ▄█[1;47m▒[0;30;47m░[0;1;37;47m■[0m
-[1;37;40m▀[0;1;37;47m▀▀[0;1;37;40m██▄▄▄▄[0m▄[1m▄[0m▄▄▄▄▄▄▄▄[1m▄[0m▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄[1m▄[0m▄▄▄▄[30;47m░[0m        [1;37;47m░[0m▄[1m▄[0m▄▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄[1m▄[0m▄[1m▄▄▄▄▄▄[0;1;47m▓▒▀▀▀[0m▀
-xxxxxxxxxxx[1mx[0mxx xxx xx x [1mx[0m a touch of class ^ 8o8-423-2198 [1mx[0mx xxxx x[1mx[0mxxxxxxxxxxxx
-xxxxx xx [1mx[0m the general drawn by: amp and ts   x[1mx[0mx   font by: amp xxx [1mx[0mxxxxxxxxxx
-
-
-                       [1mx[0;1;30mx[0m TekLordZ Productions 1995 [1;30mx[0;1;37mx[0m'
+[1;37;40m▀[0;1;37;47m▀▀[0;1;37;40m██▄▄▄▄[0m▄[1m▄[0m▄▄▄▄▄▄▄▄[1m▄[0m▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄[1m▄[0m▄▄▄▄[30;47m░[0m        [1;37;47m░[0m▄[1m▄[0m▄▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄[1m▄[0m▄[1m▄▄▄▄▄▄[0;1;47m▓▒▀▀▀[0m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 59c43a6601ba9fb5461a00233e5fc008408d04c06531746a07575cb159a5a465
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zs-mmcx1.ans by Zerostar (mimic41); released in mimic41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -29,6 +29,4 @@ Write-Host '
 [34m☻☻S@p┐.[0;36m``[0;34mj☻☻☻☻☻&@%p┐▬..A☻☻☻☻b.[0;36m`²┘*@$$: [0;34m☻☻☻L[0;36m`''²└*$$[0;34m.[0;36m''`[0;34m.▬┐q%@☻☻☻☻☻b. [0;36m`''²┘┘²''`[0;34m.j☻☻☻[0m
 [34m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻S@p┐,[0;36m``[0;34mj☻☻☻☻☻S@p┐▬.:┌A☻☻☻☻☻☻☻☻☻☻☻☻☻☻&p┐┐┐┐qA☻☻☻☻☻[0m
 [34m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻[0m
-[34m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻[0m
-
-                 [37mLEARN TO FUCKING SWIM. ZEROSTAR OF MiMiC ASCII.[0m'
+[34m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻[0m'

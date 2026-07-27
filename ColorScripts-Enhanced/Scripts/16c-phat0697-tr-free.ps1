@@ -5,7 +5,7 @@
 # Source SHA-256: bb1a79c3f0ce504eadb0994bbde8fcd6e131f836ebde07550e679f3f1737b2f1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR!FREE.ANS by trinity (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: use it.
 # SAUCE Author: trinity
 # SAUCE Group: Phat Studios '97
@@ -39,5 +39,4 @@ Write-Host '
 
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mit''s a free ansi. use it if u like.[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

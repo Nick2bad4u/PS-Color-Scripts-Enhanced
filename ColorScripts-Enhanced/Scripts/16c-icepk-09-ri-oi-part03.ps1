@@ -5,7 +5,7 @@
 # Source SHA-256: 982bf3e5233a09797468dcac9efd4935540298ecc4f45b3b194b505416b22b3c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RI-OI.ICE by Riothamus (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 70-103
 # Columns: 1-80
 
@@ -36,10 +36,5 @@ Write-Host '
        █[1;47m███[0m█ █[1;47m███[0m█                                       █[1;47m███[0m█   █[1;47m███[0m█
        [1;30;47m▄[0;1;37;47m▀▀▀[0;1;30;47m▄[0m [1;30;47m▄[0;1;37;47m▀▀▀[0;1;30;47m▄[0m                                       █[1;47m▀▀▀[0m█   █[1;47m▀▀▀[0m█
 
-                            · [1mOptical Illusions [0m·
-                               · [1m206[0;1;30m-[0;1;37m630[0;1;30m-[0;1;37m6962 [0m·
-
-  · [1m2400[0;1;30m+ [0;1;37mBaud Rates [0m· · [1mH[0;1;30m/[0;1;37mP[0;1;30m/[0;1;37mV[0;1;30m/[0;1;37mC[0;1;30m/[0;1;37mT [0m· · [1m300[0;1;30m+ [0;1;37mvirii and trojans [0m· · [1mWHSA site [0m·
-    · [1mTCS CCi nets [0m· · [1mNUP[0;1;30m: [0;1;37mTONELOC [0m· · [1mSysop[0;1;30m: [0;1;37mNapalm [0m· · [1mCo[0;1;30m: [0;1;37mSandalwood [0m·
-
-                         [1mRiothamus [0m[[1mi[0mC[1;30mE[0m] [1;30m· [0;1;37m09[0m/[1m27[0m/[1m92[0m'
+                              [1m                  [0m 
+                               · [1m206[0;1;30m-[0;1;37m630[0;1;30m-[0;1;37m6962 [0m·[0m'

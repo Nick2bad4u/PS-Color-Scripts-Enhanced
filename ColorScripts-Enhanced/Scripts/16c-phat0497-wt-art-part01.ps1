@@ -5,7 +5,7 @@
 # Source SHA-256: 10a749268e71fd4fd1856cc1a77b0351a64300154ca03b1f3d2aeb408aba3649
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WT-ART.ANS by wiktor (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ansi cluster 3/97
 # SAUCE Author: wiktor
 # SAUCE Group: phat studios '97
@@ -33,7 +33,7 @@ Write-Host '
 
 
 
-   [31;40m- delight main menu -[0m
+   [31;40m                     [0m
 
                                   [1;37;40m█[0;1;34;40m████[0;1;34;44m▓▓▓░░[0;34m████████[0;30;44m░░[0;34;40m▀▀▀▀▀▀▓[0m       [34;40m█▓░[0;30;44m▓[0m
              [1;34;40md [0;34me l i g h t[0m        [1;34m█████[0;1;34;44m█▓░[0;34m▀▀▀▀▀▀▀[0m             [34m▀[0m
@@ -55,5 +55,4 @@ Write-Host '
 [37;40m   [0;33;40m▀[0;1;31;43m▀[0;1;31;40m█▀█[0;31m█   [0;33m▄▄▄[0;1;31;43m▄[0;1;31;40m██[0;1;31;41m▓░[0m   [34m▀▀▀▀[0;1;34m▀▀▀▀[0;34m▀▀▀▀    [0;34;43m [0;1;31;43m░▓[0;1;31;40m█[0;31m█ [0;30;44m▌[0;37;44ms[0;30;44m▐[0;37;40m statistics   [0;34;40m░[0;30;44m▌[0;37;44m0[0;30;44m▐[0;37;40m system rules[0m
         [33;40m▄[0;1;31;40m▄▄▄▄▄▄▄▄▄[0;31m▄[0m      [33m▐█[0;1;31;43m░▓▓[0;1;31;40m████████████[0;1;31;41m▓░[0m [30;44m▌[0;37;44mg[0;30;44m▐[0;37;40m online games [0;34;40m░[0;30;44m▌[0;37;44mq[0;30;44m▐[0;37;40m co/sysop axs[0m
 [37;40m   [0;33;40m▀[0;1;31;40m▀▀▀▀▀▀▀▀[0;31m▀[0m          [33m▀▀▀[0;1;31m▀▀▀▀▀██████[0;1;31;41m▀[0;1;31;40m▀▀▀▀[0;31m▀ [0;34m░[0;30;44m▌[0;37;44mu[0;30;44m▐[0;37;40m list users   [0;34;40m░[0;30;44m▌[0;37;44mc[0;30;44m▐[0;37;40m multiline[0m
-                    [33;40m▀[0;1;31;40m▀▀[0;1;31;43m░▓[0;1;31;40m██[0;1;31;41m▓[0;31m▄[0m               [34m░[0;30;44m▌[0;37;44m?[0;30;44m▐[0;37;40m who is online[0m
-'
+                    [33;40m▀[0;1;31;40m▀▀[0;1;31;43m░▓[0;1;31;40m██[0;1;31;41m▓[0;31m▄[0m               [34m░[0;30;44m▌[0;37;44m?[0;30;44m▐[0;37;40m who is online[0m'

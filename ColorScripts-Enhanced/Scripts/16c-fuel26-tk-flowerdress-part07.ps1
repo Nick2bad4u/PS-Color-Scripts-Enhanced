@@ -5,7 +5,7 @@
 # Source SHA-256: a346251f4af599a0548847fd57b603b9be4cd0577609d90a070b7c14f0eb1417
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-flowerdress.ans by the knight & TQ (FUEL); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flower dress
 # SAUCE Author: the knight & TQ
 # SAUCE Group: FUEL
@@ -64,5 +64,4 @@ Write-Host '
             [32m█  ▐██▌  █[0;1;32;42m▓[0m
             [32m█  ▐██▌  █[0;37m█[0m
 
-[37m    [0;1;34m▀▀▀▀▀[0;1;34;44m▀▀▀▀▀▀▀[0;1;34;40m██████[0;1;34;44m▄▄▄▄▄[0;1;34;40m▄▄▄▄▄[0m
-'
+[37m    [0;1;34m▀▀▀▀▀[0;1;34;44m▀▀▀▀▀▀▀[0;1;34;40m██████[0;1;34;44m▄▄▄▄▄[0;1;34;40m▄▄▄▄▄[0m'

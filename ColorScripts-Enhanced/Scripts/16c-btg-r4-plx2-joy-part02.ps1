@@ -5,7 +5,7 @@
 # Source SHA-256: 962d7cd97b93df7d63072d8fa00d687b900adc098aa7862dd01d114fa4ac8fc1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PLX2#JOY.ANS by Joykiller (btg-r4); released in btg-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 35-74
 # Columns: 1-80
 
@@ -43,10 +43,4 @@ Write-Host '
 [34m▄[0m      [1;30m             [0m      [34m▄[0m              [37m [0m       [34m▄[0m    [34m▀[0m       [34m█[0m         [34m█[0m    [34m▀▀▄[0m
               [34m▀[0m                  [1;30m ■[0m [1mP[0mollux [1;30m■ [0m                  [34m [0;37m [0;34m▀[0m
                         [1;30m  [0m
- [1;30m ∩[0m [1m+358-45-512 685[0m [1;30m∩ ∩[0m [1mv[0m34 [1;30m∩ ∩[0m 24[1mh[0m [1;30m∩ ∩[0m GS[1mN[0m(864[1m:[0m358[1m/[0m15)[1m [0;1;30m∩ ∩[0;1;37m [0mDG[1mI[0m(68[1m:[0m100[1m/[0m811)[1;30m ∩ [0m
-
-[1;30m      π [0;1;37mM[0mAD WHQ [1;30mπ[0m [1mV[0melocity WHQ [1;30mπ[0m [1mD[0misease WHQ [1;30mπ[0m [1mM[0mik[1mM[0mod FHQ [1;30mπ[0m [1mO[0mrchide FHQ [1;30mπ[0m
-
-    [1;30m¶[0m [1mB[0myte[1mG[0marden [1mD[0mistro [1;30m¶[0m [1mV[0malhalla [1mD[0mistro [1;30m¶[0m [1mM[0midas [1mD[0mistro [1;30m¶[0m [1mD[0maskmig [1mD[0mistro [1;30m¶[0m
-
-             [1;30m¶[0m [1mF[0mlexion [1mD[0mistro [1;30m¶[0m [1mS[0mysOp: [1mS[0mpider [1;30m¶[0m [1;30mA[0mns[1mi:[0m [1;30mJ[0moykille[1mr[0;1;30m/B[0mt[1mg[0m [1;30m¶[0m'
+ [1;30m ∩[0m [1m+358-45-512 685[0m [1;30m∩ ∩[0m [1mv[0m34 [1;30m∩ ∩[0m 24[1mh[0m [1;30m∩ ∩[0m GS[1mN[0m(864[1m:[0m358[1m/[0m15)[1m [0;1;30m∩ ∩[0;1;37m [0mDG[1mI[0m(68[1m:[0m100[1m/[0m811)[1;30m ∩ [0m'

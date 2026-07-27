@@ -5,7 +5,7 @@
 # Source SHA-256: a26f5705750a3b853d9a0367ef0708f0d74d4f86769e4f7adf2b23d624ca5709
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: w0-aiu.ans by Webpige0 (sac-33); released in sac-33 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 118-155
 # Columns: 1-80
 
@@ -41,10 +41,9 @@ Write-Host '
     [1;30m░[0m          [1;30m▒▒[0m               [1;30m▀█▄[0m  [1;30m█[0m                                    [1;30m░[0m
     [1;30m▒[0m          [1;30m░░[0m                 [1;30m▀▀█▀[0m                                    [1;30m▒[0m
     [1;30m▒[0m                                                                     [1;30m▒[0m
-    [1;30m▓[0m                           aNSi iS [31muNDEAD![0m                           [1;30m▓[0m
-    [1;30m█[0m The whole thing is a bit rushed, coz I wanted to get it done now.   [1;30m█[0m
-    [1;30m█[0m It''s 4 am here in Finland and I''m [31mdead[0;37m tired, and prolly too lazy   [0;1;30m█[0m
-    [1;30m█[0m to fix it later on. :p  Greets to friends!                          [1;30m█[0m
+    [1;30m▓[0m                                   [31m       [0m                           [1;30m▓[0m
+    [1;30m█[0m                                                                     [1;30m█[0m
+    [1;30m█[0m                                   [31m    [0;37m                              [0;1;30m█[0m
+    [1;30m█[0m                                                                     [1;30m█[0m
     [1;30m█[0m                                                   stardate 06042005 [1;30m█[0m
-    ▀[1;30m▀▀[0m▀▀[1;30m▀[0m▀[1;30m▀[0m▀▀[1m▀[0m▀▀▀[1m▀[0m▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀[1m▀▀[0m▀▀▀[1m▀[0m▀▀▀[1;30m▀[0m▀[1;30m▀▀▀[0m▀▀[1;30m▀[0m▀
-                                 [1;30mwebpige0/sac![0m'
+    ▀[1;30m▀▀[0m▀▀[1;30m▀[0m▀[1;30m▀[0m▀▀[1m▀[0m▀▀▀[1m▀[0m▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀[1m▀▀[0m▀▀▀[1m▀[0m▀▀▀[1;30m▀[0m▀[1;30m▀▀▀[0m▀▀[1;30m▀[0m▀[0m'

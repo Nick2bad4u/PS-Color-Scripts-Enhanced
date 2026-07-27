@@ -5,7 +5,7 @@
 # Source SHA-256: 70352c3d47a52beb1ce005dff9993ac1cbbc6855d2814a3aca64f5434a2ad05e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FF-SLDER.ANS by Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: some.cheap.soldier
 # SAUCE Author: Free Fall
 # SAUCE Group: Hype.produktions
@@ -39,9 +39,9 @@ Write-Host '
 [1;31;41m▒▓▒▓▒▓▒▓▒▒[0;31m█[0;1;31;41m▒▒░░░[0;31m███▄[0;1;37m  [0;31m▀▀▀▀ ▄▄▄ ▀▀[0;1;37m  [0;31m▀█▓▓█████[0;1;31;41m░[0;31m█[0;1;31;41m░▒░[0;31m█[0;1;31;41m░▒░▒░[0;31m████████████▄[0m
 [1;31;41m▓[0;31m█[0;1;31;41m▓[0;31m█[0;1;31;41m░[0;31m█[0;1;31;41m▓[0;31m█▓▓█████[0;1;31;41m░░░[0;31m▓▓▓██▓▓▓▓███▓▓▓▓████[0;1;31;41m░[0;31m▓▓[0;1;31;41m▒▒[0;31m▓▓▓█[0;1;31;41m░[0;31m███[0;1;31;41m░[0;31m█[0;1;31;41m░[0;31m▓▓[0;1;31;41m░░[0;31m███[0;1;31;41m░░░[0;31m▓▓██▌░[0m       [34m░[0m
 [37m8<_____________________________________________________________________________ [0m
-[37mwell, this is for anyone making a board i hope you people use it.  This must[0m
-[37mbe useful for something.  Gawd dammit Jim, use it. :) Welp, I was too lazy to[0m
-[37mmake this big so here.  Just keep the fF at the top.[0m
-[37mgroup greetz go to trident for his exporteese and devotion to tha ghroup.[0m
-[37mhere here!!! sorry had to make something.. this is nasty eh? ;>[0m
+[37m                                                                            [0m
+[37m                                                                             [0m
+[37m                                                    [0m
+[37m                                                                         [0m
+[37m                                                               [0m
 [37m8<_____________________________________________________________________________ [0m'

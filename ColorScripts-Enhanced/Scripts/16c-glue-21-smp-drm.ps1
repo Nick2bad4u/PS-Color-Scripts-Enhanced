@@ -5,7 +5,7 @@
 # Source SHA-256: 4f32587c58c459b37b58a4fafaaa2bf708f8354dda65ebebfa79ef10a1d00209
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-DRM.ANS by Shrimp (glue-21); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -37,11 +37,5 @@ Write-Host '
        [33m░░░░░░░░░░░░[0m       [1;36;46m▓[0;1;36;40m▀[0m               [33m░░░[0m      [36m▀[0;1;36m█▀[0m  [36m▓[0m
                           [1;36;46m▒[0m                         [36m [0;1;36m▓[0m   [36m░[0m
                           [1;36;46m░[0m                          [1;36m░[0m
-[1;30mit says D,[0m                [36m▓[0m
-[1;30mbelieve it or not.[0m        [36m░[0m
-[1;30msorry it turned out so [0m
-[1;30mweird, nah well =)[0m
-
-
-[1;30m(fever7) If you''re jewish and you know it clap your[0m [1;30mhands[0m
-[1;30m(Shrimp)[0m [1;30m*clap clap clap* :([0m'
+[1;30m          [0m                [36m▓[0m
+[1;30m                  [0m        [36m░[0m'

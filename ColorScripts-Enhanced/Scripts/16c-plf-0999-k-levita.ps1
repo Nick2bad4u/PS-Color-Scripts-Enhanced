@@ -5,7 +5,7 @@
 # Source SHA-256: 4686ef082ef31fab859b95b7d5e40bf501d4f0af5679cac5100054cd58ba2c17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K!LEVITA.ANS by keetar (poffelipoff); released in plf-0999 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Levitating
 # SAUCE Author: keetar
 # SAUCE Group: poffelipoff
@@ -55,6 +55,4 @@ Write-Host '
 [1;32;40m▓▓██████████████[0;1;32;42m▀[0;1;32;40m▀[0;32m▀[0;34m▄▄[0;1;34m▄▄▌[0;32m▓[0;1;32;42m▒▓[0;1;32;40m████████[0;1;32;47m████[0;1;32;40m█[0m [33m▄[0;1;31m▀[0;1;37m ░[0;1;37;47m▓[0;1;37;40m██ [0;33m  [0;1;37m █[0;1;37;47m▓▒[0m█▓▄[33m▀▄▄[0;31m▀[0;33;41m░▒▒▓▓[0;33;40m█[0;1;30;40m▌█▓░[0m░[32m▄[0;37m [0;32m▄▀[0;1;32;42m░[0;1;32;40m▄[0;1;32;42m░[0m
 [1;32;40m▒▓▓▓█████████[0;1;32;42m▓▓░[0;1;34;42m▀[0;1;34;40m▀[0;1;34;44m▒░[0;34m▄▄▄▄[0;1;34m [0;32m▀▀[0;1;32;42m░▒▓[0;1;32;40m▓██████[0;1;32;47m█[0;1;32;40m█▄[0;33m ▐[0;1;37m ▀[0;1;37;47m▓[0;1;37;40m██▌ [0;33m░ [0;1;37m  ███[0m▀[1;37;47m▒[0m▓▄ [33m▀█▀[0;37;43m░▒[0;33;40m▀▀▀▀[0;1;30;40m▀▀▄[0;32m ▀▄▄ [0;1;32;42m░▓[0m
 [1;32;40m░▒▒▒▓▓▓██[0;1;32;42m▓▓▒▒░░[0;1;32;40m▒[0;32m▀▀■·[0;34m▀[0;1;34m▀[0;1;34;44m▀▀█▄▄ [0;34m▄▄[0;32m▀[0;1;32m▓[0;1;32;42m▀▀[0;1;32;40m▀[0;1;32;42m▓[0;1;32;40m▄▀▀▄█▄▐▓▄ [0;1;37;40m█ [0;33m▒░[0;1;37m [0;33m [0;1;37m ▐▀[0;1;32m ▄[0;1;37m▐[0;1;37;47m▓▒░[0m [33m▓[0;37m▐[0;1;37;47m░▒[0m▀[1;32m▄[0m▀[1;37;47m▒[0m▀[1;32m ▄▀[0;1;32;42m▒[0;32m▀█[0;1;32;42m░░▒[0m
- [1;32m░░░▒▒▓▓▀▀[0;34m▄▄▄▄[0;1;34;44m░▀▀▀▀▀ [0;34m█[0;1;34;44m▄▄▄▄▓▓▒░░[0;34m▀[0;32m▄▄[0;1;32m▒▒[0;1;32;42m▒▓[0;1;32;40m█▄▄████▄[0;1;37;40m▐ [0;33m▒░░░[0;1;32m [0;1;37m▐[0;1;32m █▄▄[0;1;37m▀[0m▀[1;32m▄ [0;33m▐[0;37m [0;1;32m▄█[0;1;32;42m▓[0;1;32;40m▄▀▓▄[0;32m ▀█▄█[0;1;32;42m░░[0;32m▓▒[0m
-
-[1;37mkeetar([0;1;33mplf[0;1;37m/[0;1;33mmmc[0;1;37m![0;1;33ma[0;1;37m) - levitating. Help the trolls and fairies[0m [1;37mto survive.[0m'
+ [1;32m░░░▒▒▓▓▀▀[0;34m▄▄▄▄[0;1;34;44m░▀▀▀▀▀ [0;34m█[0;1;34;44m▄▄▄▄▓▓▒░░[0;34m▀[0;32m▄▄[0;1;32m▒▒[0;1;32;42m▒▓[0;1;32;40m█▄▄████▄[0;1;37;40m▐ [0;33m▒░░░[0;1;32m [0;1;37m▐[0;1;32m █▄▄[0;1;37m▀[0m▀[1;32m▄ [0;33m▐[0;37m [0;1;32m▄█[0;1;32;42m▓[0;1;32;40m▄▀▓▄[0;32m ▀█▄█[0;1;32;42m░░[0;32m▓▒[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ca5d818299a1f540de99ce2ba4d99764ca28337222aef532254a04bbe7fa64cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt-pir8.ans by tainted (blocktronics); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hold fast bbs
 # SAUCE Author: tainted
 # SAUCE Group: blocktronics
@@ -45,9 +45,9 @@ Write-Host '
 
 [1;30m░░░░░░[0m [1;30m░[0m
 
-                            [1;30mtelnet[0m.holdfastbbs[1;30m.ca:2323[0m
-                                    [1;30m+o nitron[0m
-                                      [1;30mmystic[0m
+                            [1;30m      [0m            [1;30m        [0m
+                                    [1;30m         [0m
+                                      [1;30m      [0m
 
 
                                                                                [1;30m░[0m'

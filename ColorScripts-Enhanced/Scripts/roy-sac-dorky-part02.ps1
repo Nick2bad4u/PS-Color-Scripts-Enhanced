@@ -5,7 +5,7 @@
 # Source SHA-256: fb94c2243c3797f84bec0f8db47cabe4e61d62bcec9c8e357fff2020ebe0d715
 # Source License: FAL-1.3
 # Source Attribution: ROY-DORKY.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20150122
 # SAUCE Dimensions: 160x202
 # SAUCE Font: IBM VGA
@@ -44,5 +44,4 @@ Write-Host '
 [1;30m █░ [0m                    [1;31;43m░[0;33m██[0;31m▌ ▐[0;33m██[0;1;31;43m░[0m     [1;31;43m░[0;33m██[0;31m▌ [0m      [33;41m▐[0;33;40m██[0;1;31;43m░[0;1;31;40m  [0m           [1;30m▄▀▀▀▀▄▄▄░▓  ▒[0m
 [1;30m ▓░ [0m                    [1;31;43m▒[0;33m██[0;31m▌ ▐[0;33m██[0;1;31;43m▒[0m     [1;31;43m▒[0;33m██[0;31m▌ [0m                               [1;30m░▓░░░[0m
 [1;30m ▒░ [0m                    [1;31;43m░[0;33m██[0;31m▌ ▐[0;33m██[0;1;31;43m░[0m     [1;31;43m░[0;33m██[0;31m▌ [0m                               [1;30m░▒  ░[0m
-[1;30m ░░ [0m                                                                      [1;30m░░  ░[0m
-'
+[1;30m ░░ [0m                                                                      [1;30m░░  ░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 46c789f7a0fbc1b3372b10c4a42b330760569a4c5ed5771e83c01ddf1dc2c7dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NVZ-TDI.ANS by N0ViCE (rmtz); released in rmtz-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tlp distsite ansi (bc-bokz)
 # SAUCE Author: N0ViCE
 # SAUCE Group: rmtz
@@ -37,6 +37,4 @@ Write-Host '
 [33m▒▓▓▓▓▒▓██▓▓██░░[0;35m░░░[0;33m▒[0;37m  █▀▀▀▄ ▀ ▄▀▀[0;35m░[0;37m▀▀█▀▀[0;35m░[0;37m▄▀▀[0;35m░[0;37m ▀[0;35m░[0;37m▀▀█▀▀[0;35m░[0;37m█▀▀▀[0;35m▒░▒▒▒▒[0;1;34m▓[0;33m▐▒▓▓█▓▒▓██▓██▓▒▓[0m
 [33m▒▒▒▒▒▒▒▓▓▒▒▓▓▒▒░░[0;35m░[0;33m▒[0;37m █[0;33m░░░[0;37m█ █[0;35m░[0;37m▀▄[0;35m░░░░[0;37m█ [0;35m░░[0;37m▀▄[0;35m░░[0;37m █[0;35m░░[0;37m █ [0;35m░░[0;37m█▀▀▀[0;35m░░[0;33m░[0;35m░▒░░[0;1;34m▒[0;33m░░▒▒▓▒░▒▓▓▒▓▓▒░▒[0m
 [33m░░▒░▒░░▒▒░░▒▒▒░▒▒░░[0;37m█▄▄▄▀ █ ▄▄▄▀[0;33m░[0;37m █[0;33m░░[0;37m ▄▄▄▀[0;33m░[0;37m█ [0;33m░░[0;37m█ [0;33m░░[0;37m█▄▄▄[0;33m░░░[0;35m░[0;33m░[0;35m░░[0;1;34m░░[0;33m░[0;37m [0;33m░░▒░[0;37m [0;33m░▒▒░▒▒░[0;37m [0;33m░[0m
-[33m [0;37m [0;33m░[0;37m [0;33m░░[0;37m [0;33m░░[0;37m  [0;33m░░░[0;37m [0;33m░░[0;37m         [0;33m░[0;37m [0;33m░░░[0;37m [0;33m░[0;37m  [0;33m░[0;37m [0;33m░[0m     [33m░░[0;37m  [0;33m ░░░░[0;37m [0;33m░░[0;37m  [0;33m░░░░[0;1;34m░[0;33m░[0m    [33m░[0m   [33m░░[0;37m [0;33m░░[0m
-                                    [33m [0m           [33m         [0m
-                          [37m  [0m'
+[33m [0;37m [0;33m░[0;37m [0;33m░░[0;37m [0;33m░░[0;37m  [0;33m░░░[0;37m [0;33m░░[0;37m         [0;33m░[0;37m [0;33m░░░[0;37m [0;33m░[0;37m  [0;33m░[0;37m [0;33m░[0m     [33m░░[0;37m  [0;33m ░░░░[0;37m [0;33m░░[0;37m  [0;33m░░░░[0;1;34m░[0;33m░[0m    [33m░[0m   [33m░░[0;37m [0;33m░░[0m'

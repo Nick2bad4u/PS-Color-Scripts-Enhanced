@@ -5,7 +5,7 @@
 # Source SHA-256: 1fea062cddc36055ab7a91175ca4a6d891dd4737b05f07e5a3bffbd8313d494d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EDRMACD1.ANS by Marshal Law (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -56,7 +56,7 @@ Write-Host '
 [1;30m   [0m▀▀██[1;30;47m▀[0;1;30;40m▄[0m                           ▀▀██[1;30;47m▀[0;1;30;40m▄  [0m▀▀▀[1;30m▀ [0m▀▀[1;30m▀   [0m▀▀[1;30m▀  [0m▀█[1;30;47m▀[0;1;30;40m▄  [0m▀[1;30;47m▀[0m▄[1;30m▄ [0m▀▀▀[1;30m▀[0m
 [1;37m┌──[0;1;31m───────────────────────────────────────────────────────[0;1;37mM[0;1;31marshal [0;1;37mL[0;1;31maw <[0;1;37mAC[0;1;31mi[0;1;37mD[0;1;31m>──┐[0m
 [1;37m|[0m                        [1;33mE L E C T R I C   D R E A M S[0m                        [1;31m|[0m
-[1;31m:[0m                            [1;37mINC D[0mistribution [1mS[0mite                            [1;31m:[0m
-[31m.[0m                              [1;37mS[0mys[1mO[0mp: [1mB[0mar [1mM[0manager                             [1;31m.[0m
+[1;31m [0m                            [1;37m     [0m            [1m [0m                               [1;31m [0m
+[31m [0m                              [1;37m [0m  [1m [0m   [1m [0m   [1m [0m                                   [1;31m [0m
             [1;33m6    1    2    -    4    4    7    -    3    1    3    6[0m
 [31m·[0m                                                                             [1;31m·[0m'

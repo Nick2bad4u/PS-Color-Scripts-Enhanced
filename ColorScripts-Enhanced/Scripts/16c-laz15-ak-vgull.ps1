@@ -5,7 +5,7 @@
 # Source SHA-256: 435a656f608f34a78f037798c377c12bca079f27dfbe321196d87daf7726936b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-vgull.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: east van
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
@@ -18,9 +18,9 @@
 Write-Host '
                                                  [1;34m.,┌s#S$$$$jSs┐,.[0;34m ,[0m
 [37m                                                [0;1;34md$$$$$$[0;34mP`.[0;1;34m,┌$$$$$$[0;34mj[0m
-[37m       the most popular man     [0;1;33mE[0m               [1;34m`└$$$[0;34mP`[0;1;34m.d$jP┘''` [0m.,`b.
+[37m                                [0;1;33m [0m               [1;34m └   [0;34m  [0;1;34m     ┘   [0m     
                                [1;33mVAN[0m              [1;34md$$[0;34mP`[0;1;34m.d$P` [0m.┌[1m#S$$$$$$[0mb
-    in all of east van          [1;33mS[0m               [1;34mY7 [0;34m,[0;1;34md$P`[0m.d[1m$$$b[0m [1m`P^''\ dl[0m
+                                [1;33m [0m               [1;34m   [0;34m [0;1;34m    [0m  [1m    [0m [1m        [0m
                                 [1;33mT[0m             [34m.[0;1;34md$bd$P`[0m.d[1m$$$$$$P`[0m [1;33m,┐.[0;1;37m`²[0m$
                                                [34m4[0;1;34m$[0;34m$P[0;1;34m`[0m.d[1m$$$$$$$`[0;33m,[0;1;33md$$$$$#ss%[0;33ma.[0m
 [37m                                                [0;34m`4[0;37md$$[0;1;37m$$$$$$$[0ml[1m [0;1;33m`$$$$$$$$$j$S[0;33mb[0m
@@ -41,12 +41,12 @@ Write-Host '
                            `4[1mj$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$jP[0m''
                               `└[1m4j[0m$[1m$$$$$$$$$$$$$$$$$$$$$j$P┘`[0m
                                   `''└*S[1;30m$$$[0m$$[1m$$$[0m$[1;30m$$$[0m7[1m"^^`[0m
-   [1mTOQUE[0m                                [33ml$[0;37m       [0;33m:$[0m
-[37m   tôôk/ or "two-k"                     [0;33m:[0;1;31m$[0;33m:[0;37m      [0;1;31ml[0;33m$[0m
-[37m   noun                                  [0;1;31m$[0;33ml[0;37m      [0;1;31m:$l[0m
-   CANADIAN                              [1;31m$l[0m       [1;31m$$┐.[0m
+   [1m     [0m                                [33m  [0;37m       [0;33m  [0m
+[37m                                        [0;33m [0;1;31m [0;33m [0;37m      [0;1;31m [0;33m [0m
+[37m                                         [0;1;31m [0;33m [0;37m      [0;1;31m   [0m
+                                         [1;31m  [0m       [1;31m  ┐ [0m
                                          [1;31m$$[0;33m.[0;37m      [0;1;31mY$$$$Sa.[0m
-   a close-fitting knitted hat.         [1;31md$$$b.[0m     [33m4[0;1;31m$$$$$┘[0;33m4\[0m
+                                        [1;31m      [0m     [33m [0;1;31m     ┘[0;33m  [0m
 [37m                                       [0;33ml[0;1;31m$$$$$$.[0m     [33m4[0;1;31m$$┘b,[0m
                                        [33mW[0;1;31m$$$$$$Q.[0m     [33m\`  [0;1;31m`[0m
                                        [33mY┘"[0;1;31m└47`[0m [1;31m`[0m

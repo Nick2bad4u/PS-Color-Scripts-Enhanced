@@ -5,7 +5,7 @@
 # Source SHA-256: 2071cef04223ad0e48316e149e38a29d7c3864eacd600be51255c25b315ffc7c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAC-SS.ANS by lacaid (dope); released in d0pe0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sick society
 # SAUCE Author: lacaid
 # SAUCE Group: dope
@@ -30,12 +30,4 @@ Write-Host '
 [37m  [0;1;30m [0m     [1;36m▄[0;36m▀[0;1;30m  [0;36m▀▄[0;1;30m [0m▐[1;47m▒▓█[0;1;40m████████████▀[0;1;30;40m  [0;1;30;46m░[0;1;30;40m [0;1;30;46m░[0m  [1;47m▒▓▓█[0;1;40m███████████▀[0;1;30;40m ▀[0;36m▄▀[0;1;30m  [0;36m▀[0;1;36m▄[0;1;30m   [0;36m▄[0m   [1;36m■[0m
             [1;36m▀[0;36m [0;1;30m [0m ▀[1;47m▓█[0;1;40m███████████ [0;1;30;40m  [0;1;36;40m▀[0;1;30;40m  [0;1;36;40m■ [0m ▀[1;47m▓█[0;1;40m█████████[0;1;47m▓▓[0;1;40m [0;1;30;40m    [0;1;36;40m▀[0;1;30;40m [0m      [1;30;40m [0;1;36;40m▀[0m
     [1;30;40mlac([0;36mdope[0;1;30m)[0m    [1;30m [0m▀[1;47m█[0;1;40m██████[0;1;47m▓▓[0;1;40m▀[0;1;30;40m  [0;36ms [0;1;30mi c k[0;36m [0;37m [0;1;30m [0m▀[1;47m█[0;1;40m██████[0;1;47m██[0;1;40m▀[0;1;30;40m   [0;36ms[0;1;30m o c i e t y[0m
-                    [1m▀▀▀▀▀▀▀[0m                [1m▀▀▀▀▀▀▀[0m
-                   [1;30m [0m         [1;30mop: [0;1;32mb[0;32mleach[0m
-                      [1;30mco''ops: illusion, don king[0m
-
-                [1;30m [0m
-[1;30m---[cut dis bitch here]---------------------------------------------------------[0m
-[1;30mwell, i drew this thing a while ago. and here it is the day before the pack be  [0m
-[1;30mcoming out n'' i find it. anyways, sick society is changing their board name, so[0m
-[1;30mthis is kinda late. but fuck it. here it is..enjoy :)[0m'
+                    [1m▀▀▀▀▀▀▀[0m                [1m▀▀▀▀▀▀▀[0m'

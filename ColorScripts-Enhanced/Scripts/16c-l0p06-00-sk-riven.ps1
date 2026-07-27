@@ -5,7 +5,7 @@
 # Source SHA-256: 061cdbcbbb721d7d0a42bc01ed07860160afd9daf91f3c15b5941210e08b3450
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!RIVEN.ANS by sIMONkING (tHelo0p); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rIVEN fANTASTIC ;)
 # SAUCE Author: sIMONkING
 # SAUCE Group: tHelo0p
@@ -40,14 +40,4 @@ Write-Host '
 ██[1;31;43m███▓▓██[0m [1;31;41m ▀[0;1;31;40m█[0;1;31;47m▀[0;1;31;41m█▄▄[0;31m▄▄[0;1;31;41m▐███▄[0;31m▄▄[0;1;31;41m▄█[0;31m▌[0;33m▐▄▄▄▄▄█[0;37m [0;1;30;47m████[0m [1;31;43m▒▒▓[0;1;31;47m▀[0;1;31;43m█▓▓▒▒[0;33m█▄▄[0m   [1;30m▀▀[0m▀▀[1m▀[0m▀▀[1;30m▀[0m   [33m▄▄[0;1;31;43m▄▄█▓▓█[0m██
             [31m▀[0;1;31m▀▀[0;1;31;41m▀▀█[0;1;31;47m▀[0;1;31;41m█[0;31m▀▀[0;1;31;41m▀▀▀▀[0;31m▀▀[0;37m   [0m
 
-[37m-------------------------------------------------------/notka//---------------[0m
-[37mten obrazek powstal pod wplywem kolekcji black maiden. dziekuje i przepraszam.[0m
-[37mansi dedykowane rivenowi/thelo0p. [0m
-
-[37mpozdrowienia dla rema, aktina, jasona, exodusa (hi! bartek, niedlugo odpisze ;))[0m
-[37mi dla kobiety, ktorej chcialbym pokazac swoje prace... moze kiedys ci je pokaze.[0m
-[37mspecjalny greetz part dla agnieszki (hi riven, jesli czujesz to co piszesz, to[0m
-[37mzrob wszystko co w twojej mocy, naprawde warto!)[0m
-
-[37msimonking/thelo0p^mysticbytes[0m
-[37msimonking@poczta.onet.pl[0m'
+[37m-------------------------------------------------------/notka//---------------[0m'

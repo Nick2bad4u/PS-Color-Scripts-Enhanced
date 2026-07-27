@@ -5,7 +5,7 @@
 # Source SHA-256: 77aff52289926c0b22f224b009eca1f603ae02453b90534a98ade7bfa064be36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-FB.ANS by Soul Seeker (blde9404); released in blde9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 122-151
 # Columns: 1-80
 
@@ -31,11 +31,11 @@ Write-Host '
 
                       [33;40mF [0;37;40m· R · E · E  ■  [0;1;33;40mB [0m· E · E · R
                                [33m4[0;37m04∙[0;1;33m3[0m51∙[1m4[0m529
-                               [33mN[0;37mUV [0;1;33mE[0mnforced
-     [33mT[0;37mRiBE [0;1;33mM[0member [1mB[0moard                          [33mS[0;37mysop ─  [0;1;33mK[0millean [[1mT[0mRiBE]
-     [33mB[0;37meerWares [0;1;33mW[0morld [1mH[0meadQuarters                [33mR[0;37menegade [0;1;33mM[0modded [1mT[0mo Hell
-     [33mC[0;37myberCrime [0;1;33mI[0mnternational [1mN[0met                [33m3[0;37m40+ [0;1;33mM[0megs /  [1m1[0m4.4 V.32
+                               [33m [0;37m   [0;1;33m [0m       
+     [33m [0;37m     [0;1;33m [0m      [1m [0m                              [33m [0;37m     ─  [0;1;33m [0m        [1m [0m     
+     [33m [0;37m         [0;1;33m [0m     [1m [0m                           [33m [0;37m        [0;1;33m [0m      [1m [0m      
+     [33m [0;37m          [0;1;33m [0m             [1m [0m                  [33m [0;37m    [0;1;33m [0m       [1m [0m        
 
  [1;30m──────────────────────────────────────────────────────────────────────────────[0m
-               ANSI By SouL SeeKeR of BLADE Productions, 03-94
+                                                              
  [1;30m──────────────────────────────────────────────────────────────────────────────[0m'

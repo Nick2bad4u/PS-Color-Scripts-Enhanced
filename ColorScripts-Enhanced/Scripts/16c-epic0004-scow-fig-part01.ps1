@@ -5,7 +5,7 @@
 # Source SHA-256: 7e1b6a5af1938b12ad92e7c8b7de6376cfa7fb45ffa69981977a16031a53ff2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SCOW-FIG.ANS by SavageCOW (EPiC); released in epic0004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Savage Cowfiger
 # SAUCE Author: SavageCOW
 # SAUCE Group: EPiC
@@ -20,15 +20,15 @@ Write-Host '
 
   [34m  [0m
 
-           [1;30m... it''s that time again.  [0mWinter[1;30m.[0m
-   [34m░░[0m      [1;30mAnd what''s the question EVERYBODY         [0m
-         [1;30m┌[0m [1;30mis asking?  [0m
+           [1;30m                           [0m      [1;30m [0m
+   [34m░░[0m      [1;30m                                          [0m
+         [1;30m┌[0m [1;30m            [0m
          [1;30m│[0m
          [1;30m│[0m
          [1;30m└────────────────┐[0m
                           [1;30m│[0m
                           [1;30m│[0m                           [1;30m┌──── -------[0m   [1;30m─┐[0m
-                          [1;30m└─[0m [1;30m"[0;1;37mLIKE[0m..[1m WHAT[0m''[1mS [0m"[1mIN[0m"[1m THIS YEAR[0m...[1m DUDE[0m?[1;30m"[0m   [1;30m│[0m
+                          [1;30m└─[0m [1;30m [0;1;37m    [0m  [1m     [0m [1m  [0m [1m  [0m [1m          [0m   [1m     [0m [1;30m [0m   [1;30m│[0m
                                                       [1;30m│[0m            [1m░░░[0m [1;30m│[0m
                                                       [1;30m│[0m [31m   [0m            [1;30m│[0m
                                [1;30m [0m                      [1;30m│[0m [31m░░░[0m            [1;30m│[0m

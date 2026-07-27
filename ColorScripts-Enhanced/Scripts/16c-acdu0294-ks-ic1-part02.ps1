@@ -5,7 +5,7 @@
 # Source SHA-256: 79c6fac45853d0f7643b45fc391ebb52039ed0ca7a2b77ff78dccbc0fad32cbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KS-IC1.ANS by Kronos (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Insane Creation
 # SAUCE Author: Kronos
 # SAUCE Group: ACiD Productions
@@ -54,5 +54,4 @@ Write-Host '
 [1;33;42m                                   [0;32m▀[0;1;33m▄██████[0;1;33;43m▓▒▒░░[0;33m▀[0;32m▄████▄[0;33m▀[0;1;33;43m▓▒[0;33m▀[0;1;35m▄[0;1;35;45m▒▒▒▒░░░[0;35m▄[0;33m▀▄[0;1;30m▀[0;1;30;47m▓▓[0;1;30;40m███▄[0;33m▀[0;1;33;43m░[0m
 [32m██[0;32;42m                              [0;32;40m█▀[0;1;33;40m▄███▀▀[0;1;33;43m▓▓▒▒░░[0;33m▀[0;32m▄████████ [0;1;35m▄█[0;1;35;45m▓▓▓▓▒▒▒░░░[0;35m▄[0;33m▀▄[0;1;30m▀█████▄[0m
 [32m███████████████████████████████▀[0;1;33m▄███▀[0;31m▄[0;1;31;41m░[0;31m▀[0;33m▄[0;1;33;43m▒░░[0;33m▀[0;32m▄████████▀[0;1;35m▄████[0;1;35;45m█▓▓▓▓▒▒▒▒░░[0;35m▄[0;33m▀▄[0;1;30m▀████[0m
-▄▄[1m▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄[0m▄[1m▄[0m▄▄[1m▄▄[0m▄[1m▄▄[0m▄▄[1m▄▄[0m▄[1m▄▄[0m▄[1m▄[0m▄[1m▄▄[0m▄▄▄[1m▄▄[0m▄[1m▄▄[0m▄▄[1m▄▄[0m▄▄[1m▄[0m▄[1m▄▄[0m▄[1m▄▄▄[0m▄▄[1m▄[0m▄[1m▄▄[0m▄▄[1m▄▄▄[0m▄▄[1m▄▄▄[0m▄[1m▄[0m▄[1m▄[0m▄[1m▄[0m▄▄[1m▄[0m
-'
+▄▄[1m▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄[0m▄[1m▄[0m▄▄[1m▄▄[0m▄[1m▄▄[0m▄▄[1m▄▄[0m▄[1m▄▄[0m▄[1m▄[0m▄[1m▄▄[0m▄▄▄[1m▄▄[0m▄[1m▄▄[0m▄▄[1m▄▄[0m▄▄[1m▄[0m▄[1m▄▄[0m▄[1m▄▄▄[0m▄▄[1m▄[0m▄[1m▄▄[0m▄▄[1m▄▄▄[0m▄▄[1m▄▄▄[0m▄[1m▄[0m▄[1m▄[0m▄[1m▄[0m▄▄[1m▄[0m'

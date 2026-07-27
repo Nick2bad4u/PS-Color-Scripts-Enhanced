@@ -5,7 +5,7 @@
 # Source SHA-256: f8c6cef3ff3ed32911eb4afa7551f7618ee3c0cbd053c1fbeda69698e0f1b6f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-SANC.ICE by Stiletto (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-66
 # Columns: 1-80
 
@@ -23,10 +23,10 @@ Write-Host '
 [1;30m    ───────────────────────────────────────────────────────────────────────[0m
                           [1;30mT[0;31m∙[0;37mH[0;31m∙[0;1;37mE   S[0;31m∙[0;1;37mA[0;31m∙[0;1;37mN[0;31m∙[0;1;37mC[0;31m∙[0;1;37mT[0;31m∙[0;1;37mU[0;31m∙[0;1;37mA[0;31m∙[0;37mR[0;31m∙[0;1;30mY[0;31m([0;1;31mtm[0;31m)[0m
 [31m    [0;1;30m───────────────────────────────────────────────────────────────────────[0m
-[1;30m    [0;1;37mS[0mys[1mO[0mp[31m: [0;1;31mTempus Thales [0;31m∙ [0;1;37mM[0moderator[31m/[0;1;37mC[0mo[31m-[0;1;37mS[0mys[1mO[0mp[31m: [0;1;31mLady In Black [0;31m∙ [0;1;37m305[0;31m/[0;1;37m792[0;31m.[0;1;37m8771[0m
-[1;37m    [0;31m<[0;1;30mi[0mC[1mE[0;31m> [0;1;37mA[0mmerican [1mH[0mead[1mQ[0muarters[31m/[0;1;37mM[0member [1mB[0moard [31m∙ [0;1;37mP[0mrognosis [1mW[0morld [1mH[0mead[1mQ[0muarters
-        [1;30mM[0mi[1mRA[0mG[1;30mE [0;1;37mE[0mastern [1mH[0mead[1mQ[0muarters [31m∙ [0;1;31mRazor 1911 [0;1;37mA[0mffiliate[31m/[0;1;37mM[0member [1mB[0moard
-        [1;30mM[0me[1mrcu[0mr[1;30my [0;1;37mS[0mite [31m∙ [0;1;37mUSR[0mobotics [1mD[0mual [1mS[0mtandard [31m∙ [0;1;37m200 M[0megabyte [1mC[0mapacity
+[1;30m    [0;1;37m [0m  [1m [0m [31m  [0;1;31m              [0;31m  [0;1;37m [0m        [31m [0;1;37m [0m [31m [0;1;37m [0m  [1m [0m [31m  [0;1;31m              [0;31m  [0;1;37m   [0;31m [0;1;37m   [0;31m [0;1;37m    [0m
+[1;37m    [0;31m [0;1;30m [0m [1m [0;31m  [0;1;37m [0m        [1m [0m   [1m [0m       [31m [0;1;37m [0m      [1m [0m     [31m  [0;1;37m [0m         [1m [0m     [1m [0m   [1m [0m       
+        [1;30m [0m [1m  [0m [1;30m  [0;1;37m [0m       [1m [0m   [1m [0m        [31m  [0;1;31m           [0;1;37m [0m        [31m [0;1;37m [0m      [1m [0m    
+        [1;30m [0m [1m   [0m [1;30m  [0;1;37m [0m    [31m  [0;1;37m   [0m        [1m [0m    [1m [0m        [31m  [0;1;37m     [0m        [1m [0m       
     [1;30m───────────────────────────────────────────────────────────────────────[0m
 [1;30m    i [0mC [1mE   P R O D U C T i O [0mN [1;30mS  [0;31m-  [0;1;30mS [0mT [1mi L E T [0mT [1;30mO  [0;31m< [0;1;30mi [0mC [1mE  T R I [0mA [1;30mL [0;31m>[0m
 [31m    [0;1;30m───────────────────────────────────────────────────────────────────────[0m'

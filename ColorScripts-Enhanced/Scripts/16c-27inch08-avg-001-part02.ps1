@@ -5,7 +5,7 @@
 # Source SHA-256: f88b195ca26679f5d7a9e14f57716b4cca76a51dc0c73a66e2b3725a0d37ce6c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-001.ans by Avenging Angel (27inch08); released in 27inch08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 28-53
 # Columns: 1-80
 
@@ -33,6 +33,6 @@ Write-Host '
 [1;30m [0;1;30;47m▒▒[0;1;37;47m▒██▀[0;1;30;47m▄[0m▀▀[1;30m▀ █[0;1;30;47m▄▄[0;1;30;40m▀▀   ▓▓[0m  [1;33m▀▀[0m [1;33m▄▄[0m              [1;30m░░░▀▀▀[0m        [1;30m▒▀▀[0m [1;33m  [0m  [1;30m▓▓[0m  [1;33m [0m   [1;33m  [0m  [1m▒▒[0m
                 [1;30m▀    ▒▒[0m       [1;33m▀▄[0m [1;30m    [0m                  [1;30m  [0m       [1;30m▒▒[0m   [1;33m [0m   [1;33m  [0m  [1m░░[0m
          [1;30m▄[0;1;30;46m▀█[0;1;30;40m▒[0m         [1;30m░░[0m         [1;33m [0m                                           [1m ░[0m
-     [1;30m [0m [1;30m █[0;1;30;46m█[0;1;30;40m▀ [0m            [1;30m░[0m                [1mawe lettering [0m-[1m love drawing these..[0m [1m░[0m
+     [1;30m [0m [1;30m █[0;1;30;46m█[0;1;30;40m▀ [0m            [1;30m░[0m                [1m              [0m [1m                     [0m [1m░[0m
 
-      [1;30m    [0m                [1;30m░[0m              [1mfont by avenging angel of 27inch[0m'
+      [1;30m    [0m                [1;30m░[0m              [1m                                [0m'

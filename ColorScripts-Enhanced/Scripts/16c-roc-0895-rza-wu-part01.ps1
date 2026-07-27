@@ -5,7 +5,7 @@
 # Source SHA-256: 7c9f518945c6b31da6741bd5ab091e0559ef2977a2b9513f544f1f034503f363
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZA-WU.ANS by The RZA (Rulers Of Chaos); released in roc-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wu Tang
 # SAUCE Author: The RZA
 # SAUCE Group: Rulers Of Chaos
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m╔╗╔╗╔╗[0m                         [1;30m    [0m [1;30m [0m        [1;34mdont see my ones dont[0m [1;34msee[0m [1;34mmy[0m [1;34mguns..[0m
+[1;30m╔╗╔╗╔╗[0m                         [1;30m    [0m [1;30m [0m        [1;34m                     [0m [1;34m   [0m [1;34m  [0m [1;34m      [0m
 [1;30m║  ╚╝╣[0m                       [1;30m    [0;1;37m [0;1;30m  [0m [1;30m [0m
                          [1;30m■▀▀▀▀▀ [0;1;37m ·[0;1;30m [0m·[1;30m  ▀▀▀▀▀■[0m [1;30m▄■ ▀[0m [1;30m▀▀▀▒▀▀▀ ▀▀ ▄[0m
                [1;30m▄▄▄[0m    [1;30m   █  [0;31m▓░[0;1;30m       [0m    [31m░[0m [1;30m▒[0m [1;30m▓[0m [31m░[0m   [31m [0m     [31m░[0;1;30m  [0;31m▄[0;1;30m █[0m
@@ -34,6 +34,5 @@ Write-Host '
           [1;30m▄[0;36m ▀[0;1;36m▀[0m [1;30m▄▄▄▀▀▀▀[0m         [1;30m▒[0m [1;30m  [0m [1;30m▀ ▀ ▒   [0m [1;30m [0m
           [1;30m░▄█■▀[0m [1;30m    rza[0;31mRoC[0m     [1;30m [0m     [1;30m ■ ░   [0m                         [31mi[0m   [31mc[0m
               [1;30m    [0m  [1;30m   [0m        [1;30m [0m   [1;30m [0m [1;30m      [0m                          [31m [0m
-[1;34m100 point pahcent riginaw[0m      [1;30m▒[0m   [1;30m  [0m [1;30m  ░[0m                           [31md[0m     [31mo [0m
-                [1;30m [0m             [1;30m ░ [0m  [1;30m▐    ░[0m
-'
+[1;34m                         [0m      [1;30m▒[0m   [1;30m  [0m [1;30m  ░[0m                           [31m [0m     [31m  [0m
+                [1;30m [0m             [1;30m ░ [0m  [1;30m▐    ░[0m'

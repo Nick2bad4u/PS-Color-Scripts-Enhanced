@@ -5,7 +5,7 @@
 # Source SHA-256: c118c9c9b6f6752f8db83cb52c3c4912c9d38a65baeef648c4abbc5e256dbc72
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!PLUG!.ANS by Madcap (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: I YAM WOLVERINE!!
 # SAUCE Author: Madcap
 # SAUCE Group: D38
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-[1;35mmADCAP''S 18 simple steps to being a superhero.. urm..[0m
-[34m<Madcap is ONE whord! donut forget it!>[0m
+[1;35m                                                     [0m
+[34m                                       [0m
 [34m [0;1;35mwell.. steps 1 & 2 & urm.. 4 & 5 & 6, 7,8,9,10,11,12,13,14,15,16,17 AND 18[0m
-[1;37m._.[0;35m┌ [0;1;30m- ∙·   [0;35m· ─[0;31m─ [0;36m─[0;1;34m─┐ [0;1;35mare pretty boring.. but step 3''s interesting..[0m
+[1;37m   [0;35m┌ [0;1;30m       [0;35m  ─[0;31m─ [0;36m─[0;1;34m─┐ [0;1;35m                                              [0m
 [1;37m|3|[0;35m|   [0m=[1m=   [0;1;34m░░    ▄[0;1;35m│ [0;34m▐▄░░░░░[0m
 [1;37m`~''[0;1;35m│  [0;31m██▄░  [0;1;34m░░  ▄██[0;1;35m| [0;34m▐█████████████████████▓▌║▐▒░[0m                   [34m░    ▒▒▒▒[0m
 [34m   [0m| [31m▐[0;30;41mJOL[0;31mT    [0;1;34m▄[0;1;34;44m▄[0;1;34;40m███[0;1;35;40m│ [0;34m█████████████▀ [0;1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▄     [0m▄[1m▄███▄   [0;34m░░░▒▒▒██▒[0m
@@ -39,4 +39,4 @@ Write-Host '
 [1;30m░▓▓▓█▀ [0;1;37m▀▀   ▐ [0;1;30m│ ■░█[0m░░[1;30m▓▓░[0m       [1;30m▒▓█▒▒░▒░▓██▄ [0;1;37m▀ [0;1;30m▄▌▄▓▓████▒░[0m
 [1;30m   ░▓██▀▀─  [0;1;37m▀ [0;1;30m└█▄█▓▓▓░  ▒[0m        [1;30m░▓▓██▒ ▒▓████████░░░░░[0m
 [1;30m    ░░▓░   ░░▓▓▓░░░[0m               [1;30m░▓█▒    ▒░░░░▒▒▒     ░[0m
-[1;30m [0;5;30;42mmESSie. Joi[0;30;42mn [0;5;30;42mD∙38!!! sUbliMinAL mESSie. Join [0;30;42mD[0;5;30;42m∙38!!![0;5;32m▐ ║ │ [0;5;30m░[0;32m░     ■▌[0;5;30;42msUbliMinAL.[0m'
+[1;30m [0;5;30;42m           [0;30;42m  [0;5;30;42m                                [0;30;42m [0;5;30;42m      [0;5;32m▐ ║ │ [0;5;30m░[0;32m░     ■▌[0;5;30;42m           [0m'

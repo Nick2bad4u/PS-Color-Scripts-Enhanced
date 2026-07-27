@@ -5,7 +5,7 @@
 # Source SHA-256: 3273fcb54288966a454acaada512108cf438ea4fd8ac949a2bf84699f83c8e7a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASCII-14.ANS by Konami (ttdmisyk); released in ttdmisyk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -52,5 +52,4 @@ Write-Host '
                   [35m` [0m        [1;35m d☺☺☺☺☺☺☺7`  [0;35m☻☻☻☻☻[0;1;35m ¶☺☺☺, ☺☺☺☺[0;35m☻☻☻☻☻nn☻☻☻☻7[0m
                    [35m` [0m      [1;35m ◄☺☺☺☺☺☺☺7    [0;35m☻☻☻☻☻[0;1;35m  ¶☺☺☺,☺☺☺☺[0;35m☻☻☻☻☻☻☻☻☻ⁿ` [0m
                              [1;35m`²☺☺☺☺☺☺b,  [0;35m☻☻☻☻☻[0;1;35m   ¶☺☺☺☺☺☺☺[0;35m`7☻☻☻b,[0m
-                             [35m [0;37m [0;1;35m `²☺☺☺☺☺☺b,[0m        [1;35m¶☺☺☺☺☺☺[0;35m  `7☻☻☻b,    [0;37m [0m
-                                          [35m  ----[0;1;37mjIVE SODA[0m    [35m`7☻☻☻b,[0m'
+                             [35m [0;37m [0;1;35m `²☺☺☺☺☺☺b,[0m        [1;35m¶☺☺☺☺☺☺[0;35m  `7☻☻☻b,    [0;37m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a08ced545a2b26f58640cfda6e622cb095eaaa5aed930c743d697b79f92fc159
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XBE-HOI.ANS by Xerobe (Bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: House of Information
 # SAUCE Author: Xerobe
 # SAUCE Group: Bamboosh
@@ -42,11 +42,9 @@ Write-Host '
 [36m [0;1;34m█[0;36m█ [0;1;34m█[0;36m█  [0;1;34m█[0;36m█[0m      [1;34m▐[0;1;34;46m▌[0;36m▌  [0;1;34m█[0;36m█▄▄▄▄▄█   [0;1;34m█[0;36m█  [0;1;34m▐[0;1;34;46m▌[0;36m▌    [0;1;34m█[0;36m█    [0;1;34m▐[0;1;34;46m▌[0;36m▌ [0;1;34m█[0;36m█  [0;1;34m█[0;36m█  [0;1;34m█[0;36m█ [0;1;34m█[0;36m█▄▄▄[0;1;34;46m▀[0;36m▀[0;1;34m█[0;36m█  [0;1;34m█[0;36m█[0m
 
 
-[1;30m---XX [0;1;34mC[0;34mU[0;1;30mT [0;1;34mT[0;34mH[0;1;30miS [0;1;34mC[0;34mR[0;1;30mAP XX---+---XX [0;1;34mC[0;34mU[0;1;30mT [0;1;34mT[0;34mH[0;1;30miS [0;1;34mC[0;34mR[0;1;30mAP XX---+---XX [0;1;34mC[0;34mU[0;1;30mT [0;1;34mT[0;34mH[0;1;30miS [0;1;34mC[0;34mR[0;1;30mAP XX---+--[0m
+[1;30m      [0;1;34m [0;34m [0;1;30m  [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;34m [0;1;30m               [0;1;34m [0;34m [0;1;30m  [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;34m [0;1;30m               [0;1;34m [0;34m [0;1;30m  [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;34m [0;1;30m           [0m
 
 
-      [1;30m▒ [0;34m■ [0;1;34mR[0;34me[0;1;30mquested [0;1;34mb[0;34my · [0;1;30mRoboDoc =)[0m                                   [1;30m▒[0m
-      [1;30m░ [0;34m■ [0;1;34mC[0;34mo[0;1;30mmment[0m      [34m· [0;1;30mhope u like this one.. i do..[0m                [1;30m░[0m
-      [1;30m░[0m                [34m·[0m                                              [1;30m░[0m
-
-[1;30m---XX [0;1;34mC[0;34mU[0;1;30mT [0;1;34mT[0;34mH[0;1;30miS [0;1;34mC[0;34mR[0;1;30mAP XX---+---XX [0;1;34mC[0;34mU[0;1;30mT [0;1;34mT[0;34mH[0;1;30miS [0;1;34mC[0;34mR[0;1;30mAP XX---+---XX [0;1;34mC[0;34mU[0;1;30mT [0;1;34mT[0;34mH[0;1;30miS [0;1;34mC[0;34mR[0;1;30mAP XX---+--[0m'
+      [1;30m▒ [0;34m■ [0;1;34m [0;34m [0;1;30m        [0;1;34m [0;34m    [0;1;30m          [0m                                   [1;30m▒[0m
+      [1;30m░ [0;34m■ [0;1;34m [0;34m [0;1;30m     [0m      [34m  [0;1;30m                             [0m                [1;30m░[0m
+      [1;30m░[0m                [34m·[0m                                              [1;30m░[0m'

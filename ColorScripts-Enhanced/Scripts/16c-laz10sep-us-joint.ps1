@@ -5,7 +5,7 @@
 # Source SHA-256: ad609db184b4210cccea7fc6f157c9f54e75d03dff9b4e4541792c61590bd9d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-JOINT.ANS by Fluor + Quip + The Riddler + Impulse + Icepick + Phoman (many); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the joint!?
 # SAUCE Author: multiple artists
 # SAUCE Group: many
@@ -48,17 +48,7 @@ Write-Host '
                                 [35m░[0m                     [35m▄[0;1;31;45m▒[0;35m▄[0;37m  [0;1;35m░[0m
 [1;30m%-──+─-([0m the joint[1;30m )-─────+──├─-───-[0m [35m░░[0;37m [0;1;30m──--───────-+[0m [35m ▀ [0;37m [0;1;30m─────░--───────-+───-%[0m
 
- [1;30mparticipats...[0m
- fluor[1;30m([0mawe[1;30m)[0m quip[1;30m([0mmist[1;30m)[0m the riddler[1;30m([0mlaz[1;30m)[0m impulse[1;30m([0mlaz[1;30m)[0m icepick[1;30m([0mfuel[1;30m)[0m phoman[1;30m([0mecho[1;30m)[0m
+ [1;30m              [0m
+      [1;30m [0m   [1;30m [0m     [1;30m [0m    [1;30m [0m            [1;30m [0m   [1;30m [0m        [1;30m [0m   [1;30m [0m        [1;30m [0m    [1;30m [0m       [1;30m [0m    [1;30m [0m
 [1;30m [0m
-+-- -  -
-
- [1;30mThis joint was rad.  All that anybody did was just sit there and bitch about[0m
- [1;30mhow everyone was taking too long to finish.  Yes, you can imagine how cranky[0m
- [1;30mwe get at 3-6 AM in the morning once we look out the window and realize that[0m
- [1;30mthe sun is comming back up again.  But that just goes to show that we can be[0m
- [1;30mhalf-asleep and still kick some ass.  Btw, if you can''t read it, too bad--we[0m
- [1;30mcan read it just fine...[0m
-
- [1;30mNote:  donut, spear and catch22 we''re going to participate.  spear and donut[0m
- [1;30mdropped out, and c22 needed sleep.  next time!  [0m'
++-- -  -[0m'

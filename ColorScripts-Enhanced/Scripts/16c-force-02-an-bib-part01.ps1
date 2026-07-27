@@ -5,7 +5,7 @@
 # Source SHA-256: e52d69c2c5503e09c2b0204f29171abb7d92f4a0db3e55f75becbcf5918dcde5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-BIB.ANS by ANuBiS (FORCe); released in force-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BaPTiSeD iN BLooD
 # SAUCE Author: ANuBiS
 # SAUCE Group: FORCe
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-WeLCuM To aNoTHeR [35mFORCe[0;37m PRoDuCTioN[0m [37miF You WouLD LiK aN ANSi DoNe BY[0;31m [0;37mMe[0m [37m CoNTaKT [0m
-[37mMe oN eiTHeR MiNDFLuX RooM[0m [37m101[0m [37maND[0m [37moR[0m [37mTHiS[0m [37mCuRReNT aDDReSS mrains.cleese.com.au [0m
+                  [35m     [0;37m           [0m [37m                                [0;31m [0;37m  [0m [37m         [0m
+[37m                          [0m [37m   [0m [37m   [0m [37m  [0m [37m    [0m [37m                                     [0m
                                              [1;30m [0;33m       ▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄       [0m
 [1;30m┌───────────────────────────────────────────┐[0m  [33m     ██████████████ ████████▓▓▒▒░[0m
 [1;30m│[0mGReeTZ To LoNe SeCToR, RiPMaX, BRaiN CHiLD [1;30m│[0;33m      ██████▀████████ ██████▀███▓▓▒[0m

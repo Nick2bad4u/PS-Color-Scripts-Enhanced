@@ -5,7 +5,7 @@
 # Source SHA-256: 2d0148a76ab7a7941aff4e98ac398fa73336774b574beac186da0fa653e20d07
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GK-GATES.ANS by Gatekeeper (dcr0194); released in dcr0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -52,11 +52,11 @@ Write-Host '
      [1;30m:[0m      [31m▀▀[0;1;31;41m░░[0;31m▀[0m        [1m/   [0;31m▀███▄▄ ▄█▀ [0;33m▐███[0;33;41m▄[0;31m█[0;33;41m▀[0;33m██[0;33;41m▀[0;1;31;41m░[0;33;41m▄█▀[0;31m▄▄▄▄█▀ █▌[0m        [31m▄▀[0m
      [1;30m│[0m                 [1m/ [0m/      [31m▀▀▀▀▀    [0;33m█▓███[0;33;41m▄▄▄▄[0;33m██▓[0m         [31m▀▀[0;31;41m [0;1;31;41m░▒▒[0;31m█▀▀[0m
      [1;30m│[0m     [1m/ [0m/       [1m/ [0m/                  [33m▀▀▀██████▀[0m                   [1;30m│[0m
-     │   [1m/ [0m/         /        [1m∙ ƒå[0m£[1;30m£ëN·GåtèS·[0mß[1mßs ∙[0m                     [1;30m│[0m
-     [1m│ / [0m/                       [1;30mNuP: LASTRI[0mG[1mHT[0m                        │
-     [1m│ [0m/      [1m[[0m          [1mH/[0mP[1;30m/A/V/W/etc. - P[0mφ[1mS D[0mi[1;30mst. Site[0m       [1m][0m       [1m│[0m
-     [1m║[0m        [        [1mS[0myS[1;30mOP: GÄTÉKÉÉPÉR [0m- [1m5o[0mo [1;30mMegZ Online[0m     ]       [1m│[0m
-     [1m║[0m        [           [1;30mRemoteAccess [0m2[1m.oo[0m.[1;30mg1/ViSiON/2[0m        ]       [1m│[0m
-     [1m║[0m        [1m[[0m                   [1m9[0mo1\[1mP[0mRi.[1mV[0mAtE                 [1m][0m       │
+     │   [1m  [0m                   [1m    [0m [1;30m          [0m [1m    [0m                     [1;30m│[0m
+     [1m│   [0m                        [1;30m           [0m [1m  [0m                        │
+     [1m│ [0m       [1m [0m          [1m  [0m [1;30m               [0m [1m   [0m [1;30m        [0m       [1m [0m       [1m│[0m
+     [1m║[0m                 [1m [0m  [1;30m               [0m  [1m  [0m  [1;30m           [0m             [1m│[0m
+     [1m║[0m                    [1;30m             [0m [1m   [0m [1;30m           [0m                [1m│[0m
+     [1m║[0m        [1m [0m                   [1m [0m   [1m [0m   [1m [0m                    [1m [0m       │
      [1m║[0m                                                                 [1;30m│[0m
      [1m╚══════════════════───────────[0m─[1m─[0m────────────[1;30m──────────────[0m[[1;30m─[0;1mD[0mç[1mR[0;1;30m─[0m][1;30m─┘[0m'

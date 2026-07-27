@@ -5,7 +5,7 @@
 # Source SHA-256: eac1debe780a134d6d6b2cfa85e86ed002391d21c6ed1ea15a89c266c11c0652
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-FSNDI.ANS by ize (fusion); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fusion dizzes
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -26,9 +26,4 @@ Write-Host '
  [36m░[0;1;37;46m▒▒▒▒░[0;36m█▀▀▀[0;37m [0;36m░[0;1;37;46m▓▓▓[0;33m ▀[0;1;33m▀[0m▐[1;46m▒▒[0;36m▌[0;33m▐[0;1;33m▌[0m ▐[1;46m▓▓▒▒▒[0;33m░[0;1;33;43m▐[0;1;37;40m▌[0m      ░██████▀▀▀ ░███ ▀▀▐██▌▐▌ ▐█████░█▌
 [1m [0;36m░[0;1;37;46m▓▓▓[0;1;37;40m [0;33m▄[0;1;33m▄▄[0;1;33;43m▄[0;1;33;47m█[0;1;33;40m▄▄[0m▀[1m▀▀[0;1;47m▀[0;1;40m██[0;1;46m▓▓[0;1;40m█ [0;1;33;43m▐[0;1;33;40m█[0;36m ░[0;1;37;47m▐[0;1;37;40m█[0;1;37;46m▓▓[0;1;37;40m▌[0;33m▐[0;1;33m█[0;1;37m [0m      ░███ ▄▄▄██▄ ▀▀▀██████ ██ ░████▌▐█
 [1m [0m▐[1m██▌  [0;33m▀[0;1;33m▀▀▀▀▀▀▀[0;33m▄[0;1;33m▄[0;1;37m  [0m▀[1m▀▀──---    [0;1;33m [0;33m▐[0;1;33m█[0;1;37m [0m      ▐██▌  ▀▀▀▀▀▀▀▀▄▄  ▀▀▀──---     ▐█
-[1m [0m▐[1m██▌ [0;1;33mFusion [0;1;37m#14,[0;1;33m  February [0;1;37m1997   [0m      ▐██▌ Fusion #14,  February 1997
-[1m  [0m
-
-                        Colorrred ------> uncolored
-                          (hehe just to make sure)
-                Props to MENDATOR for the Idea :) (in Blend04)[0m'
+[1m [0m▐[1m██▌ [0;1;33m       [0;1;37m    [0;1;33m           [0;1;37m       [0m      ▐██▌                           [0m'

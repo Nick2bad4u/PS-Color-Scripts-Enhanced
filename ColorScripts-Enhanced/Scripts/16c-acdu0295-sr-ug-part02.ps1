@@ -5,7 +5,7 @@
 # Source SHA-256: d2ca554a5db2558095a9077847ad81c2b8939380ba46372ba97e2f3eda8a297d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-UG.ANS by Silver Rat (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Undergrown Magazine
 # SAUCE Author: Silver Rat
 # SAUCE Group: ACiD Productions
@@ -51,9 +51,9 @@ Write-Host '
 [1;30m ▒  [0;1;30;47m▀[0m [34m■[0;35m░[0;34m■  ■▀■ [0;1;30m░ [0;34m■[0;1;30m░ [0;34m▀▀ [0;35m▒ [0;34m▀ [0;35m░  [0;1;30m░ [0;34m■ [0;1;30m▒ [0;34m▀▀▀■  [0;35m▒[0;1;30m▄▒█[0;1;30;47m▓█[0m [1;30;40m▒ [0;34m▀■▀▀▀▀   ▀ [0;1;30m▒ [0;34m■[0;1;30m▒[0;34m▀ [0;35m░  [0;34m■  [0;1;30;47m▀[0m [1;30;40m░[0;34m░[0m
 [34m [0;1;30m░▀[0;1;37;47m░▌[0;1;30;40m▀▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░▀▀▀▀▀ ▀█[0;1;30;47m▓[0;1;30;40m▄[0;1;30;47m▓[0;1;30;40m▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀░▀▀░▀▀▀▀▀▌▀[0;1;37;47m░■[0;1;30;40m▀[0;34m▄▒[0m
 [34m█▄ [0;37m▐[0;1;30m▌   ■ [0;1;37mu[0mndergrown [1;30m■ [0;1;37mi[0msh [1mn[0mumbah [1ms[0meven [1;30m■  ▒▀  ■ [0;1;37me[0merie''s [1mc[0moolass [1mm[0mag [1;30m■   [0m▐[1;30m▌[0;34m▐█▓[0m
-[1;34;44m░░[0;34m▌[0;1;30m▐▌ ■ [0;1;37mt[0mhe [1mo[0mnly [1ma[0mrt [1mm[0mag [1mt[0mo [1mb[0me [1mr[0meleased [1mr[0megularly [1me[0mach [1mm[0month [1ms[0mince..[1m? [0;1;30m■  ▐▌[0;34m▐[0;1;34;44m░[0;34m█[0m
-[1;34;44m░▒[0;34m▌[0;1;30m▐▌  ■ [0;1;37mi[0mntavoowz, [1mr[0mevoowz, [1me[0mtc [1;30m■ [0;1;37md[0ma [1mm[0mag [1mf[0mor [1mt[0mhe [1ml[0mil'' [1mp[0menised [1mg[0mroup [1;30m:)  ▐▌[0;34m▐[0;1;34;44m▒░[0m
-[1;34;44m░░[0m [1;30;40m▐[0m▌              [1;30m<-- check out these funky q-tipz! -->[0m                 [1;30m▐[0m▌ [34m▀[0;1;34;44m░[0m
+[1;34;44m░░[0;34m▌[0;1;30m▐▌ ■ [0;1;37m [0m   [1m [0m    [1m [0m   [1m [0m   [1m [0m  [1m [0m  [1m [0m        [1m [0m         [1m [0m    [1m [0m     [1m [0m      [1m  [0;1;30m■  ▐▌[0;34m▐[0;1;34;44m░[0;34m█[0m
+[1;34;44m░▒[0;34m▌[0;1;30m▐▌  ■ [0;1;37m [0m          [1m [0m        [1m [0m   [1;30m■ [0;1;37m [0m  [1m [0m   [1m [0m   [1m [0m   [1m [0m    [1m [0m       [1m [0m     [1;30m    ▐▌[0;34m▐[0;1;34;44m▒░[0m
+[1;34;44m░░[0m [1;30;40m▐[0m▌              [1;30m                                     [0m                 [1;30m▐[0m▌ [34m▀[0;1;34;44m░[0m
 [34m▀ [0;1;30m■[0;1;37;47m▄[0;1;30;47m░[0;1;30;40m▀▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌■[0;1;37;47m▄[0;1;30;47m▒[0;1;30;40m▀ [0;34m▄[0m
 [34m█▄ [0;1;30;47m▄[0;1;30;40m▀ [0;34m▄▄█[0;34;44m                                                           [0;34;40m██▄▄ [0;1;30;47m▄[0;1;30;40m▀ [0;34m▓█[0m
 [34m█▓ [0;1;30m▒ [0;34m▓█▓[0;34;44m         [0;1;34;44mcoo''! he dun gone and joined a''nudda group!        [0;34m▓[0;34;44m [0;34;40m▓▓ [0;1;30;40m▒ [0;34m▓█▓[0m

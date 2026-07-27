@@ -5,7 +5,7 @@
 # Source SHA-256: e3d6b78f537e3713fb5233266324393f596e4e32b6a85787e3c2d2629960af95
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EL-NEXT.ANS by Elysius (DIVINE); released in div-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Next BBS
 # SAUCE Author: Elysius
 # SAUCE Group: DIVINE
@@ -63,4 +63,4 @@ Write-Host '
 [30m███████████████████████████████████████████████████████████████████████████████[0m
 [30m███████████████████████████████████████████████████████████████████████████████[0m
 [30m███████████████████████████████████████████████████████████████████████████████[0m
-[1;30mOriginal[0;30m█[0;1;30martwork[0;30m█[0;1;30mby[0;30m█[0;1;30mElysius[0;30m█[0;1;30mof[0;30m█[0;1;30mDivine[0;30m█[0;1;30m1995[0;30m█[0;1;30m&[0;30m█[0;1;30ma[0;30m█[0;1;30mugly[0;30m█[0;1;30mlooking[0;30m█[0;1;30mfont[0;30m█[0;1;30mby[0;30m█[0;1;30mHeat[0;30m█[0;1;30mWave![0m'
+[1;30m        [0;30m█[0;1;30m       [0;30m█[0;1;30m  [0;30m█[0;1;30m       [0;30m█[0;1;30m  [0;30m█[0;1;30m      [0;30m█[0;1;30m    [0;30m█[0;1;30m [0;30m█[0;1;30m [0;30m█[0;1;30m    [0;30m█[0;1;30m       [0;30m█[0;1;30m    [0;30m█[0;1;30m  [0;30m█[0;1;30m    [0;30m█[0;1;30m     [0m'

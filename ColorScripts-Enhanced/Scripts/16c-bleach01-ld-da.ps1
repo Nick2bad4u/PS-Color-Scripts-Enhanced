@@ -5,7 +5,7 @@
 # Source SHA-256: ffd1ce7b3fe7c12ff9feeac57e78669da7d1af1a2d46c513fb9dd54cd058af83
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-DA.ANS by lOrdJazz! (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: digital armegeddon
 # SAUCE Author: lOrdJazz!
 # SAUCE Group: READ THE INI FILE
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[32mgreetstwoo:ghostrider!strider?spiderman.shogunn%undertaker!ear?stormfront.eerie[0m
+[32m                                                                               [0m
 [36m▄▄[0;1;33m▓[0;36m▄[0;1;33m▓[0;36m▄▄▓▄▓▄ [0;1;32m▄▄▄▄[0;32m▄[0;1;32m▄▄[0;32m▄[0;1;32m▄[0;32m▄▄▄ [0;36m▄▄▄[0;1;33m▓[0;36m▄[0;1;33m▓[0;36m▄▄▓▄▓▄ [0;1;32m▄▄▄▄▄▄[0;32m▓[0;1;32m▄▄▄[0;32m▄[0;1;32m▄[0;32m▄[0;1;32m▄[0;32m▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄[0;1;32m▄[0;32m▄▄[0;1;32m▄▄[0;32m▄[0;1;32m▄▄▄[0m
 [36m▓[0;1;33;46m▓█[0;1;33;42m▒[0;1;33;46m█▓▓▒░[0;36m██ [0;1;32m▀[0;32m▀▀▓▀▓▀▀▀█▄[0;33;42m░[0;32;40m▄ [0;36;40m▓[0;1;33;46m▓█[0;1;33;42m▒[0;1;33;46m█▓▓▒░[0;36m██ [0;1;32m█[0;32m▀▀▀▓▀▓░▀▀▀▀▀▓▀▀▀▀▀▀▀▓▄▓███[0;33;42m░[0;32;40m███[0;32;42m        [0;32;40m█[0;1;32;42m▓[0m
 [36m▓[0;1;33;46m▓▓█▓▓▒▒▒░[0;36m█▀▀▓[0;1;33;46m▄[0;1;33;40m▓[0;1;33;46m▄[0;1;33;40m▓[0;1;33;46m▄▄[0;36m▄▄▄ [0;32m▀ [0;36m▓[0;1;33;46m▓▓█▓▓▒▒▒░[0;36m█ ▄█[0;1;33;46m▄▄[0;1;33;40m▓[0;1;33;46m▄[0;1;33;40m▓[0;1;33;46m▄▄ [0;36m█▀▀▓[0;1;33;46m▄[0;1;33;40m▓[0;1;33;46m▄▄▄ [0;36m▄▄▄ [0;32m▀█[0;33;42m░▓░[0;30;42m^bLEACH!   [0;1;32;42m▒[0m
@@ -53,7 +53,7 @@ Write-Host '
 [1;32;42m█[0;32m█[0;31;42m░[0;32;40m█[0;32;42m [0;32;40m█[0;31;42m░[0;32;40m███[0;31;42m░[0;32;40m██▄ [0;36;40m▀▀▀[0;1;37;46m░[0;36m█[0;1;33;46m░[0;36m█[0;1;37;46m▀▀[0;36m█▄▓██[0;1;37;46m▀[0;1;33;46m░[0;1;37;46m▀▀[0;36m▓▀▀▀[0;32m▓▄ [0;36m▀▀▀▓[0;1;37;46m▀[0;1;33;46m░[0;1;37;46m▀[0;1;33;46m░[0;1;37;46m▀[0;36m█▄▓█[0;1;37;46m▀[0;1;33;46m░░░░[0;36m█▀▓█▓[0;32m▒██[0;31;42m░▒░[0;32;40m██████[0;31;42m░[0;32;40m██[0;1;32;42m█[0m
 [1;32;42m▓[0;32m████[0;31;42m░▒░[0;32;40m█████████▄▄▄▓▄▓▄▄▄▄▄▄▄▓▄▄▄▄▀██[0;31;42m▒░[0;32;40m██▄▄▄▓▄▓▄▄▄ [0;36;40m▀▀▀▀▀▀[0;1;37;40m▀[0;36m▀[0;1;37m▀▀▀[0;32m▓▄██[0;31;42m░[0;32;40m███[0;31;42m░[0;32;40m█[0;31;42m░░▓░[0;32;40m█[0;1;32;42m▓[0m
 [1;32;42m▒[0;32m████[0;32;42m [0;31;42m░[0;32;40m███████████████████████████████[0;31;42m░[0;32;40m████[0;31;42m░[0;32;40m██████████████████████████████[0;31;42m░▒[0;32;40m██[0;1;32;42m▒[0m
-[1;32;42m░[0;32m████[0;30;42mdigital armageddon![0;32;40m█[0;1;33;42m619[0;30;42m%[0;1;33;42m788[0;30;42m%[0;1;33;42m2686[0;30;42m! sysop%spiderman(bleach)![0;32;40m█[0;30;42mobv%two![0;32;40m███[0;31;42m░[0;32;40m██[0;1;32;42m░[0m
+[1;32;42m░[0;32m████[0;30;42m                   [0;32;40m█[0;1;33;42m   [0;30;42m [0;1;33;42m   [0;30;42m [0;1;33;42m    [0;30;42m                          [0;32;40m█[0;30;42m        [0;32;40m███[0;31;42m░[0;32;40m██[0;1;32;42m░[0m
 [32m▀▓▀▓▀▀▀▀▀▀▀▀▀▀▓▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▓▀▀▀▀▀▀▀▓▀▀▓▄▓[0m
-[32m▓▌   [0;36m%%% ansi by lord jazz of [0;1;33mbleach [0;36mproductions nineteen ninety five %%%    [0;32m▐█[0m
+[32m▓▌   [0;36m                         [0;1;33m       [0;36m                                        [0;32m▐█[0m
 [32m▀█▄▓▄▓▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▓▄▓█[0m'

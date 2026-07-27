@@ -5,7 +5,7 @@
 # Source SHA-256: 9ac3e9a91e5c63174642d8f446181e3630a722c7b8d942190212edbc143361c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-AE.ANS by Asd (sclr-27); released in sclr-27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -16,11 +16,11 @@ Write-Host '
 [37;40m            j$$$7'';;                                                            [0m
 [37;40m    lQ@%g╓─▬?$$│$╓,._                                                           [0m
 [37;40m    ``"²┘ `)$║$;²╙*/$/╓                                                         [0m
-[37;40m ,\$║$QS@%╥\$$$l....`$$$$/... greats to: mephisto, jah, sketch rimanez,         [0m
-[37;40m;$║$(    ;;)Q$$$    .7║$$7  :          slash, shadow lord, xzip, grymmjack,     [0m
-[37;40m `/$║$QS↕↕⌂*l$│$;*\S║$\╙`   :          rumik, discyple and all my freands !     [0m
-[37;40m            ;%*╙─²`...      : e-mail: serovsky@newmail.ru                       [0m
-[37;40m              :..: >> asd^sclr^smr^wrlck                                        [0m
+[37;40m    ║     ╥                                                                     [0m
+[37;40m  ║                   ║                                                         [0m
+[37;40m    ║   ↕↕⌂   │     ║  ╙                                                        [0m
+[37;40m               ╙─                                                               [0m
+[37;40m                                                                                [0m
 [37;40m                                                                                [0m
 [37;40m                                                                                [0m
 [36;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37;40m$$[0;1;37;40m$$[0;1;36;40m$[0;37;40m  [0;32;40myyyyyyyy[0;37;40m   [0;32;40myyyyyyyyy[0;37;40m [0m
@@ -47,5 +47,4 @@ Write-Host '
 [37;40m [0;36;40m8[0;1;37;40m$$[0;37;40m$[0;36;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$1[0;37;40m       [0;32;40ml$$$$$$$$$$$8[0;37;40m  [0;32;40mi$$$$$$$$$[0;37;40m  [0;32;40myyyy$$$yy[0;37;40m [0m
 [37;40m [0;36;40mS[0;37;40m$[0;1;37;40m$$[0;36;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$l[0;37;40m       [0;32;40m1$$$$$$$$$$$S[0;37;40m  [0;32;40mi$$$$$$$$$[0;37;40m  [0;32;40m$$$$$$$$$[0;37;40m [0m
 [37;40m [0;36;40mS[0;37;40m$$[0;1;37;40m$[0;36;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$;[0;37;40m      [0;32;40m S$$$$$$$$$$$S[0;37;40m  [0;32;40m;$$$$$$$$$[0;37;40m  [0;32;40m$$$$$$$$$[0;37;40m [0m
-[37;40m [0;36;40m``````````````````````````````````[0;37;40m        [0;32;40m`````````````[0;37;40m  [0;32;40m `````````[0;37;40m  [0;32;40m`````````[0;37;40m [0m
-[37;40m                                                                                [0m'
+[37;40m [0;36;40m``````````````````````````````````[0;37;40m        [0;32;40m`````````````[0;37;40m  [0;32;40m `````````[0;37;40m  [0;32;40m`````````[0;37;40m [0m'

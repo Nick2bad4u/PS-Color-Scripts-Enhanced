@@ -5,7 +5,7 @@
 # Source SHA-256: 576662a2b7aea208dd94389b161b260ede57ee9d49c12fbe07c071dcbe743201
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-AREA67.ANS by Avenging Angel + Whazzit (Blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: area 67
 # SAUCE Author: wz avg
 # SAUCE Group: Blocktronics
@@ -59,5 +59,4 @@ Write-Host '
                                           [35m█▀[0;1;33m  [0;34m  [0;1;34m▀██[0;1;34;44m▄▄▄[0;1;34;46m▀ [0;36m▄▄[0;1;34;46m  ▄[0;1;34;40m▀[0;1;33;40m   [0;35m▄██▀[0m
                                             [35m██▄[0;1;33m   [0;1;34m▀▀██[0;1;34;46m██▓▓[0;36m▀[0;1;34m▀[0;1;33m   [0;35m▄██▀[0m
 [37m   [0;1;34m [0;1;33m [0;1;34mWhazzit and[0;1;33m [0;1;34mavg_[0;1;33m   [0m                   [1;33m  [0;35m▀[0;33;45m▀██[0;35;40m▄▄[0m        [35m▄▄███▀[0m
-[37m   [0;1;34m [0m        [1;33m   [0m                                 [35m▀▀▀[0;33;45m▀███░░░[0;35;40m█▀▀▀[0m
-[1;34;40m    [0m [1;34mthe[0m [1;34mguy[0m [1;34mbeing[0m [1;34mabducted is jamie martin[0m'
+[37m   [0;1;34m [0m        [1;33m   [0m                                 [35m▀▀▀[0;33;45m▀███░░░[0;35;40m█▀▀▀[0m'

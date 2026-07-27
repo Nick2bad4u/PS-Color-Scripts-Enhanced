@@ -5,7 +5,7 @@
 # Source SHA-256: 5c553b66290e9d1ea39cd198b2a640b577a9a086256c17bc1c44f0a2f37a9b9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PN-TWOS1.ICE by Pnakotic (ice-9404); released in ice-9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 226-268
 # Columns: 1-80
 
@@ -38,18 +38,18 @@ Write-Host '
 
 [1;34;44m▒[0;1;34;40m▀▀[0;34m▀▀▀ ▀[0m                    [1;37m─[0m─ [1;36mT[0;36mhe [0;1;36mW[0;36mell [0;1;36mo[0;36mf [0;1;36mS[0;36mouls [0;1;37m─[0m─                    [34m▀ ▀▀▀[0;1;34m▀▀[0;1;34;44m▒[0m
 [34m█ [0;1;34;44m▀[0;34m▀[0m                                                                       [34m▀[0;1;34;44m▀[0m [34m█[0m
-[34m▓[0m          [1;36mS[0;36m: [0;1;36mR[0;36metribution [0;1;37m/ [0;1;36mC[0;36mhaos9 [0;1;37m─[0m─ [1;36mC[0;36mS: [0;1;36mD[0;36mestiny [0;1;36mD[0;36mistorter [0;1;37m/ [0;1;36mS[0;36mciFi[0m           [34m▓[0m
-[34m░[0m      [1;36mU[0;36mSRobotics [0;1;36m1[0;36m4400 [0;1;37m─[0m─ [1;36mO[0;36mver [0;1;36m2 G[0;36migabytes [0;1;36mO[0;36mnline [0;1;37m/ [0;1;36m5 [0;36mGigabytes [0;1;36mO[0;36mffline[0m      [34m░[0m
-                  [1;36mN[0;36mo [0;1;36mR[0;36matios[0;1;37m/[0;1;36mP[0;36mCR [0;1;36mf[0;36mor [0;1;36mL[0;36mD [0;1;36mU[0;36msers [0;1;37m─[0m─ [1;36mN[0;36mUP: [0;1;36mV[0;36mengence[0m
+[34m▓[0m          [1;36m [0;36m  [0;1;36m [0;36m           [0;1;37m  [0;1;36m [0;36m      [0;1;37m─[0m─ [1;36m [0;36m   [0;1;36m [0;36m       [0;1;36m [0;36m         [0;1;37m  [0;1;36m [0;36m    [0m           [34m▓[0m
+[34m░[0m      [1;36m [0;36m          [0;1;36m [0;36m     [0;1;37m─[0m─ [1;36m [0;36m    [0;1;36m   [0;36m         [0;1;36m [0;36m      [0;1;37m  [0;1;36m  [0;36m          [0;1;36m [0;36m      [0m      [34m░[0m
+                  [1;36m [0;36m  [0;1;36m [0;36m     [0;1;37m [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;36m [0;36m  [0;1;36m [0;36m     [0;1;37m─[0m─ [1;36m [0;36m    [0;1;36m [0;36m       [0m
 
-          [1;36mT[0;36mhe [0;1;36mP[0;36mhuse [0;1;36mB[0;36mox [0;1;36mM[0;36mag [0;1;36mW[0;36mHQ [0;1;37m─[0m─ [1;36mD[0;36m.R.M.R. [0;1;36mW[0;36mHQ [0;1;37m─[0m─ [1;36mP[0;36mRiMAL [0;1;36mM[0;36member [0;1;36mB[0;36moard[0m
-     [1;36mG[0;36mRiP[0;1;37m/[0;1;36mA[0;36mD [0;1;36mS[0;36mite [0;1;37m─[0m─ [1;36mT[0;36mhe [0;1;36mG[0;36muide [0;1;36mS[0;36mite [0;1;37m─[0m─ [1;36mC[0;36miPHER [0;1;36mS[0;36mite [0;1;37m─[0m─ [1;36mT[0;36mhe [0;1;36mV[0;36misionaries [0;1;36mS[0;36mite[0m
+          [1;36m [0;36m   [0;1;36m [0;36m     [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;37m─[0m─ [1;36m [0;36m        [0;1;36m [0;36m   [0;1;37m─[0m─ [1;36m [0;36m      [0;1;36m [0;36m      [0;1;36m [0;36m    [0m
+     [1;36m [0;36m   [0;1;37m [0;1;36m [0;36m  [0;1;36m [0;36m    [0;1;37m─[0m─ [1;36m [0;36m   [0;1;36m [0;36m     [0;1;36m [0;36m    [0;1;37m─[0m─ [1;36m [0;36m      [0;1;36m [0;36m    [0;1;37m─[0m─ [1;36m [0;36m   [0;1;36m [0;36m           [0;1;36m [0;36m   [0m
 
-[36m    [0;1;36mA[0;36mfter [0;1;36mF[0;36mX [0;1;36mW[0;36mHQ [0;1;37m─[0m─ [1;36mN[0;36met [0;1;36mF[0;36mX [0;1;36mC[0;36manHQ [0;1;37m─[0m─ [1;36mV[0;36maliant [0;1;36mN[0;36met [0;1;36mC[0;36manHQ [0;1;37m─[0m─ [1;36mS[0;36mkeletal [0;1;36mN[0;36met [0;1;36mC[0;36manHQ[0m
-[36m [0;1;36mP[0;36mRiMAL [0;1;36mN[0;36met [0;1;36m4[0;36m03 [0;1;36mH[0;36mub [0;1;37m─[0m─ [1;36mB[0;36mlitznet [0;1;36m4[0;36m03 [0;1;36mH[0;36mub [0;1;37m─[0m─ [1;36mH[0;36molocaust [0;1;36mN[0;36met [0;1;37m─[0m─ [1;36mG[0;36mRiPNet [0;1;37m─[0m─ [1;36mε[0;36mDjεNeT[0m
+[36m    [0;1;36m [0;36m     [0;1;36m [0;36m  [0;1;36m [0;36m   [0;1;37m─[0m─ [1;36m [0;36m   [0;1;36m [0;36m  [0;1;36m [0;36m     [0;1;37m─[0m─ [1;36m [0;36m       [0;1;36m [0;36m   [0;1;36m [0;36m     [0;1;37m─[0m─ [1;36m [0;36m        [0;1;36m [0;36m   [0;1;36m [0;36m    [0m
+[36m [0;1;36m [0;36m      [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;37m─[0m─ [1;36m [0;36m        [0;1;36m [0;36m   [0;1;36m [0;36m   [0;1;37m─[0m─ [1;36m [0;36m         [0;1;36m [0;36m   [0;1;37m─[0m─ [1;36m [0;36m       [0;1;37m─[0m─ [1;36m [0;36m      [0m
 
                              [1;36mN[0;36mode [0;1;36m1 [0;1;37m─[0m─ [1;36m4[0;36m03 [0;1;36m2[0;36m53 [0;1;36m8[0;36m314[0m
 [34m░[0m                            [1;36mN[0;36mode [0;1;36m2 [0;1;37m─[0m─ [1;36m4[0;36m03 [0;1;36m2[0;36m25 [0;1;36m1[0;36m365[0m                           [34m░[0m
 [34m▓[0m                                                                             [34m▓[0m
-[34m█ [0;1;34;44m▄[0;34m▄[0m                        [1;36mA[0;36mNSI [0;1;36mb[0;36my [0;1;36mP[0;36mnakotic [0;1;36mo[0;36mf [0;1;37mi[0;1;36mC[0;36mE[0m                        [34m▄[0;1;34;44m▄[0m [34m█[0m
+[34m█ [0;1;34;44m▄[0;34m▄[0m                        [1;36m [0;36m    [0;1;36m [0;36m  [0;1;36m [0;36m        [0;1;36m [0;36m  [0;1;37m [0;1;36m [0;36m [0m                        [34m▄[0;1;34;44m▄[0m [34m█[0m
 [1;34;44m▒[0;1;34;40m▄▄[0;34m▄▄▄ ▄[0m      [1;37m─[0m─ [1mi[0;1;36mC[0;36mE [0;1;36mr[0;36mules, [0;1;36mb[0;36mut [0;1;36mo[0;36mnly [0;1;36mb[0;36mecause [0;1;36mG[0;36mothic [0;1;36md[0;36mied.. [0;1;36m:[0;36m) [0;1;37m─[0m─       [34m▄ ▄▄▄[0;1;34m▄▄[0;1;34;44m▒[0m'

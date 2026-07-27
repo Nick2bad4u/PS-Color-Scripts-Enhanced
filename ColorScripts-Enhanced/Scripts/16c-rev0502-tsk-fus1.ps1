@@ -5,7 +5,7 @@
 # Source SHA-256: 87d62f1a402a1a6b47b179399c3b65d8ec8297022f29203feed162c21865613f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-FUS1.ANS by The Silent Killer (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cold Fusion
 # SAUCE Author: The Silent Killer
 # SAUCE Group: revival
@@ -31,6 +31,4 @@ Write-Host '
                            [36m.▀[0m       [36m ▐[0;37m  [0;36m▀▀[0;37m  [0;36m▀[0;1;36;46m░ ▀[0;36m▀[0;37m [0;36m.[0m
                                     [36m █ [0m         [36m▄■[0m
                                     [36m▐[0;1;36;46m█[0;36m▌[0m
-                                     [36m▀[0m
-
-[1;30m  [0m                          [1;30m  revival productions[0m'
+                                     [36m▀[0m'

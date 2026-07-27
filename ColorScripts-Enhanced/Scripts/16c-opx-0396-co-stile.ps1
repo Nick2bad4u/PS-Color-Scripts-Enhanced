@@ -5,7 +5,7 @@
 # Source SHA-256: 854a634f2c6fc8cf1187a6c27cff560eb989437d75cacca68fb8a952ffb071f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-STILE.ANS by cocox (opx/stl); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: stile productions '96
 # SAUCE Author: cocox
 # SAUCE Group: opx/stl
@@ -32,5 +32,4 @@ Write-Host '
 [1;37m     [0;1;37;47m▓[0;1;33;40m [0m█[1;47m░[0m███[1;30;47m▒[0m▄▄▄▄▄▄▄▄▄▄▄[1;30;47m▓[0m▄▄▄▄▄▄▄▄▄[1;30;47m▓[0m▄▄▄▄▄▄▄▄[1;30;47m▒[0m▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▓█████ [1;47m▒[0;30m••••••[0m
 [1;33m     [0;1;37m█ [0m▀████[1;47m░[0m█████████[36;47m░[0;37;40m███▓███[0;1;30;47m░[0m███[1;30;47m░[0m███[1;47m░[0m███████████[1;30;47m░[0m███████[1;47m░[0m████[1;30;47m░[0m███████▀ [1m█[0;30m••••••[0m
 [1;37m     ▀[0;1;37;47m▒[0;1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37;47m▒[0;1;37;40m▀[0;30m••••••[0m
-[30m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••[0m
-[1;37m     [0;1;32mstile productions ''96 [0;1;30m- [0;1;31m<[0;1;33m#[0;1;31m> [0;1;30mlogo.by.cocox.of.opium.stile.elements [0;1;31m<[0;1;33m#[0;1;31m>[0;30m••••••[0m'
+[30m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••[0m'

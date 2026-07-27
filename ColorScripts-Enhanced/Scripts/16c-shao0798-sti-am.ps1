@@ -5,7 +5,7 @@
 # Source SHA-256: a1daaee5d407cfb8921014c66d400e502827b7f7fb6007aad15382691ab6a0eb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STI-AM.ANS by Stimpy (Shaolin's Finest); released in shao0798 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: AM
 # SAUCE Author: Stimpy
 # SAUCE Group: Shaolin's Finest
@@ -34,23 +34,4 @@ Write-Host '
            [34m░[0;30;44m▓[0;34;40m▒░[0m         [1;30;40m░░░[0m     [30;44m░░▒[0;34;40m░[0;30;44m▓[0m [30;44m▓[0m      [34;40m░▒▒▒░[0m      [34;40m░▒▒░   ░[0;30;44m▓[0m
              [34;40m░[0m       [34;40m░[0m       [30;44m▓[0m [34;40m░▒[0;30;44m▒[0;34;40m░[0m           [34;40m░[0;30;44m▓[0;34;40m░    ░   ░[0;30;44m▓[0m
 [1;30;40m.[0m                        [1;30;40m░[0m      [30;44m▓[0;34;40m░[0m
-                                               [30;44m▓[0m                [34;40m░[0m
-
-[1;30;40m::: [0;1;36;40mc[0;36mut [0;1;36mh[0;36mere[0;1;30m![0m
-
-AM Demo Group, a small demo group, who originated on Comms Barrier, were gonna
-be iNFLiCTeD''s coding section... but, coz we will be no more soon, i am gonna
-help AM push there way in to the scene, and do them some art :) here is a logo
-i did for them when i had nothing to do...
-
-i hope they use this and decide to continue on with their coding... and get
-their group known on the scene...
-
-greetz go to - wooga, RubiXcom & Nor (i hope ya use this), odb, trippah,
-               image, kaotic, towser, ataxia, vejita (thanks for the pic for
-               inf #4), and to anyone that likes pantera/korn/metallica/coal
-               chamber/nin/marilyn manson, coz them bands simply kick ass :)
-
-groupz go to - iNF (of course), shao, synth, dome, uprise, force, poly, av
-               and to any other vic crew i forgot (cept flange, coz their
-               packs are too big :)[0m'
+                                               [30;44m▓[0m                [34;40m░[0m'

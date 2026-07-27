@@ -5,7 +5,7 @@
 # Source SHA-256: 1f32e00fc2def9484d587538f720c28df2690e6db69cd8f423f8646c19444700
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CEO3.ANS by Nail + Mass Murderer + Sammael (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ceo
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -41,5 +41,5 @@ Write-Host '
 [1;36;40m▓▒[0;36m▄ [0;32m▀▀▀▀[0;1;30m▀▀[0m [36m ▄▄▄  ■ ▀▀▀▀▓▓ [0;32m   ▀▀▀[0;1;32m░░░[0m   [36m▄▄▌ ▀       ▌[0;37m [0;32m░▀▀▀[0;1;30m▀▀[0m        [1m     [0;36m [0m      [36m▐█[0m
 [1;36m▒▒[0;1;36;46m▀██[0;1;36;40m▄▄▄[0;36m▄▄[0;1;33;46m░[0;36m▀▀[0m     [36m [0m    [36m░░[0m             [36m  [0m          [36m▌[0m       [1;36mmassm[0;36m / [0;1;36msam[0;36m / [0;1;36mnail[0;36m  ▀▐[0m
 [1;36m░░[0;36m▀▌▀▀▀▀▐▀[0;37m  [0;1;37mgimme a C![0m   [1mopzorated by The Natural[0m [36m▀[0m                            [36m▐[0m
-[1;36m  [0;36m ▌▄ ■ ▀[0;37m  [0;1;37mgimme an E![0m   [36mwill massm[0;37m [0;36mever get tired of drawing these letters?[0m   [36m▀[0m
-[1;36m  [0;36m ▀[0m       [1;37mgimme an O![0m   [36mdon''t miss the next pack or you''ll never find out...[0m'
+[1;36m  [0;36m ▌▄ ■ ▀[0;37m  [0;1;37m           [0m   [36m          [0;37m [0;36m                                        [0m   [36m▀[0m
+[1;36m  [0;36m ▀[0m       [1;37m           [0m   [36m                                                    [0m'

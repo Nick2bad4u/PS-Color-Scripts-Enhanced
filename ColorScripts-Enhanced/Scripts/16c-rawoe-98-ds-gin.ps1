@@ -5,7 +5,7 @@
 # Source SHA-256: 15430ce3d4ba0e69f85136c41a7caa2e360419e66ba016c2f0745d130de1ee50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-GIN.ANS by drseuss(woe) (woe); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gin
 # SAUCE Author: drseuss(woe)
 # SAUCE Group: woe
@@ -37,4 +37,4 @@ Write-Host '
 [37m           ▐[0;1;37;47m██████▀[0m▀               ▄[1;47m▄██[0m                       [34m▐[0;1;34;44m█████[0;34m▌[0;1;37m▐███[0;1;34;44m█▄[0;34m▌[0;37m    [0m
 [37m░░░░░░░░░░ ▐[0;1;37;47m▀▀▀▀▀▀[0m▌ ░░░░░░░░░░░░░ ▐[1;47m████▄[0m▌ ░░░░░░░░░░░░░░░░░░░ [34m ▀[0;1;34;44m▀█▀[0;34m▀ [0;1;37m████[0;1;34;44m▀[0;34m▀ [0;37m ░░░[0m
                                                                 [37m▄▄▄[0m    [37m ▄▄▄[0m   [37m  [0m
-[37m= sippin on ginnn and juiiiccceeee ======== GIN 1.00 ======= █[0;1;37;47m░░[0;31;47m▀[0;1;30;47m█[0m░ = ░[1;30;47m█[0;31;47m▀[0;1;37;47m░░[0m█ ==[0m'
+[37m                                                             █[0;1;37;47m░░[0;31;47m▀[0;1;30;47m█[0m░   ░[1;30;47m█[0;31;47m▀[0;1;37;47m░░[0m█   [0m'

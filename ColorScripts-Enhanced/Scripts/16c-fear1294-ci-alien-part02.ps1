@@ -5,7 +5,7 @@
 # Source SHA-256: cf44bc39c3338c3d819740738758f0998c26017cd0a6d32019d88aeb4c878cd6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CI-ALIEN.ANS by Criminally Insane (fear1294); released in fear1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 49-96
 # Columns: 1-80
 
@@ -53,8 +53,8 @@ Write-Host '
                                      [31m░░[0m      [31m▒▓▓▓░  ░▒▓▓▓▓░  ░▒▒▒▒▒░   ░▒▒▒▒▒[0m
                                                [31m▒▓░[0m     [31m▒▒▓░[0m     [31m░▒▒▒    ░▒▒▒▒░[0m
                                                           [31m░[0m        [31m░[0m        [31m░▒[0m
-                  [31mThere Is Nothing To [0;1;31mF[0;31mEAR But [0;1;31mF[0;31mEAR Itself...[0m
+                  [31m                    [0;1;31m [0;31m        [0;1;31m [0;31m             [0m
 
                                      [1;30m┌───────────────────┬────────────────────┐[0m
-                                     [1;30m│ [0;1;31mC[0;31mrim[0;1;30minally In[0;31msan[0;1;31mE [0;1;30m│ [0;31mF[0;1;31mEA[0;31mR[0;1;31m·[0;31mS[0;1;31mtaf[0;31mf A[0;1;31mdviso[0;31mr [0;1;30m│[0m
+                                     [1;30m│ [0;1;31m [0;31m   [0;1;30m         [0;31m   [0;1;31m  [0;1;30m│ [0;31m [0;1;31m  [0;31m [0;1;31m [0;31m [0;1;31m   [0;31m   [0;1;31m     [0;31m  [0;1;30m│[0m
                                      [1;30m└───────────────────┴────────────────────┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3f5e3dec42de2dabc42d011a21a0bb4821cae0578d4c9a8edc287884324c5928
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OK-EVIL1.ANS by oUTkAST (READ THE INI FILE); released in odium-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Evil Intentions
 # SAUCE Author: oUTkAST
 # SAUCE Group: READ THE INI FILE
@@ -45,7 +45,6 @@ Write-Host '
 [33m█[0;1;30;43m░[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;33;43m▄[0;1;30;43m░[0;33m█[0;37;43m▓[0;1;33;47m▄[0;1;33;43m▄[0;1;33;47m▓[0;1;30;43m░[0;1;33;43m▄[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;30;43m░[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;33;43m▄[0;1;30;43m░░[0;1;33;43m▄[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;30;43m░[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;33m█[0;1;33;47m▄[0;1;30;43m░░[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;30;43m░[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;33;43m▄[0;1;30;43m░[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;30;43m░[0;1;33;47m▄[0;1;30;43m░░[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;30;43m░[0;1;33;43m▄[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;30;43m░[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;33;43m▄[0;1;33;47m▄[0;1;30;43m░[0;1;33;47m▄[0;43m▓[0;1;33;47m▓[0;1;30;43m░[0;1;33;47m▄[0;1;30;43m░[0;1;33;47m▄[0;43m▓▒[0;1;33;43m▄[0;1;33;47m▓[0;43mo[0;37;43mK[0m
 [33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-          [1;30m·ffour·ooh·eeight-ttwo·ffive·oone-ssix·ttwo·ttwo·ooh·[0m
-                        [1;30msyspimp: Betrayer [FiRE][0m
-                           [1;30m4o8-251-622o[0m
-                        [1;30mansi by: oUTkAST [od1um][0m'
+          [1;30m                                                     [0m
+                        [1;30m                        [0m
+                           [1;30m4o8-251-622o[0m'

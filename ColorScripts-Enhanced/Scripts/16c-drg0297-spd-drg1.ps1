@@ -5,7 +5,7 @@
 # Source SHA-256: 8d098d5ec5e696add46843c3e96c1ccc26af7117d7828da081812bc1a25ecf30
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPD!DRG1.ANS by spud (drg0297); released in drg0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: map...heup!
 # SAUCE Author: spud
 # SAUCE Date: 19970210
@@ -38,13 +38,4 @@ Write-Host '
     [33m''[0m                                                 [33m:[0m               [32m:[0m
                                                       [33m.[0m               [32m.[0m
 
-        [1;30m-|----------------//----------------\\---------------|-[0m
-            [1;30mh[0;34me[0;37mps folks! didn''t make the last pac[0;1;30mk,[0m
-            [1;30mb[0;34mu[0;37mt i got with some screens in this...w[0;1;30mhee...[0m
-            [1;30mn[0;34mo[0;37mt so much ansi this time, mostly ascii...dunn[0;1;30mo..[0m
-            [1;30mj[0;34mu[0;37mst turned out that way...[0;1;30myop.[0m
-            [1;30mw[0;34me[0;37mll...wont bother ya with more crap no[0;1;30mw,[0m
-            [1;30mc[0;34ma[0;37mtch ya later, respect the scottish people[0;1;30m,[0m
-            [1;30mr[0;34me[0;37mspect the wale[0;31mkillers[0;1;30m [=)] , [0muntil next t[1;30mime,[0m
-            [1;30mt[0;34ma[0;37mta[0m
-                         [1;34ms[0;34mp[0;1;30múd     /(as in spúd)\[0m'
+        [1;30m-|----------------//----------------\\---------------|-[0m'

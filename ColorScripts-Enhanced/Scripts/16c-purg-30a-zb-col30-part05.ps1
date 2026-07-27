@@ -5,7 +5,7 @@
 # Source SHA-256: b12cf6707b5e875997582dd2f2c67c34178327fd7ea482ad0de833a46a5990c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZB!COL30.ANS by Zubfatal (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 179-226
 # Columns: 1-80
 
@@ -27,30 +27,30 @@ Write-Host '
                              ''
             [1mp  [0mu  [1mr  g    [0m%    n [1mi [0mn e t e e n  n [1mi [0mn e t y  n [1mi [0mn e
 
-             " [1mit''s when you take a P, and put URG next to it [0m.. "
+               [1m                                               [0m    
 
 
-     ┌ [1malkanine asked if i did ANY original work .. coz my last colly[0m
-     └┐ [1mwere nuffin but ansi 2 askii convertions .. so i guess this one is[0m
-      └┐ [1mdedicated to alkanine .. yeh bitch yooh![0m
-       └ [1moh yeah .. i drew the main logo when i was drunk .. heh[0m
+     ┌ [1m                                                              [0m
+     └┐ [1m                                                                  [0m
+      └┐ [1m                                        [0m
+       └ [1m                                                       [0m
 
 
-[1;30m :[0m:[1m: greetinx :[0m:[1;30m:[0m
+[1;30m  [0m [1m            [0m [1;30m [0m
 [1;30m ∙~~~~~~~~~~~~~~∙[0m
- [1mdyingsoul[0m,[1m tee are[0m,[1m injektilo[0m,[1m alkanine[0m,[1m smurf[0m,[1m pogue[0m,[1m xzip[0m,[1m iph[0m,[1m emok[0m,
-[1m disobay[0m,[1m dalton[0m,[1m acid brain[0m,[1m arlequin[0m,[1m jandor[0m,[1m mr. d[0m,[1m mapherick[0m,[1m antibody[0m,
-[1m spi7fire[0m,[1m sordid[0m,[1m produkt[0m,[1m arc[0m,[1m purg[0m,[1m circe[0m,[1m impure [0m..
+ [1m         [0m [1m        [0m [1m          [0m [1m         [0m [1m      [0m [1m      [0m [1m     [0m [1m    [0m [1m     [0m 
+[1m        [0m [1m       [0m [1m           [0m [1m         [0m [1m       [0m [1m      [0m [1m          [0m [1m         [0m 
+[1m         [0m [1m       [0m [1m        [0m [1m    [0m [1m     [0m [1m      [0m [1m        [0m  
 
-[1m [0m..[1m and those who know me [0m..[1m w00! [0m;)
+[1m [0m  [1m                       [0m  [1m      [0m  
 
-[1;30m :[0m:[1m: apologies :[0m:[1;30m:[0m
+[1;30m  [0m [1m             [0m [1;30m [0m
 [1;30m ∙~~~~~~~~~~~~~~~∙[0m
- [1mmagnatop[0m^[1meclipse[0m,[1m riddler[0m^[1mblend[0m,[1m zhixel[0m^[1mecho[0m ..
+ [1m        [0m [1m       [0m [1m        [0m [1m     [0m [1m       [0m [1m    [0m   
 
 [1;30m :[0m:[1m: notes :[0m:[1;30m:[0m
 [1;30m ∙~~~~~~~~~~~∙[0m
- [1mfor the next pack [0m..[1m MAIL ME SOME FUCKING REQUESTS!!!![0m,[1m [0m..[1m please? [0m;)
+ [1m                  [0m  [1m                                  [0m [1m [0m  [1m         [0m  
 
    [1m___/\___ [0;1;30m.----------------------------------------.   .----------------.[0m
 [1;30m.--[0;1;37m>_ Oo _<[0;1;30m-|  [0;1;37mcut this fucker right here![0m      [1;30m.----┴---┴----------------┴---.[0m

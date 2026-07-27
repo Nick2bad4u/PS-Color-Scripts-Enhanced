@@ -5,7 +5,7 @@
 # Source SHA-256: d65b5470438a99905b9344b8fff6162b0901802155a757ed224203db1839c021
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-BOOYA.ICE by Misfit (iCE iCE baby..); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jive Soda
 # SAUCE Author: Misfit
 # SAUCE Group: iCE iCE baby..
@@ -15,17 +15,17 @@
 # Columns: 1-80
 
 Write-Host '
-       [30mya hoo. ice, ice, baby.. yeah. well, this one''s goin out to[0m
-       [30mmah bud nootropic (hi scott), for all the art he''s done for[0m
-       [30mme (you''re my hero man). hope ya like it. anyway, greets ta[0m
-       [30mthe green hornet (who i stole this header from, hope ya don''t[0m
-       [30mmind man... you''re my idol :), lemonade (thanks for the font),[0m
-       [30mmazzdelusion (mah pimp), trip (w0rd), ewheat (persian rug? :),[0m
-       [30mcarpet monkey (keep the mohawk, and join ice :), nosferatu (you[0m
-       [30mrule, join apathy man), lord jazz (that ansi fucking rocks),[0m
-       [30mhooch (gimme poo! ;), halo (you too), loopy (come see me :),[0;34m       [0m
-       [30millusion x (you rule), and carnifex (don''t know you, but you[0m
-                               [1;36m▄ ▓▄[0;36m [0;37m  [0;30mrule too.. love your work).[0m             [34m [0;37m [0m
+       [30m                                                           [0m
+       [30m                                                           [0m
+       [30m                                                           [0m
+       [30m                                                             [0m
+       [30m                                                              [0m
+       [30m                                                              [0m
+       [30m                                                               [0m
+       [30m                                                            [0m
+       [30m                                                            [0;34m       [0m
+       [30m                                                            [0m
+                               [1;36m▄ ▓▄[0;36m [0;37m  [0;30m                           [0m             [34m [0;37m [0m
                           [1;36m▄[0m  [1;36m ▀▀[0;1;36;46m▓▓[0;1;36;40m█▀[0;1;30;40m▄[0m  [30mand to anyone i missed..[0m        [34m  [0;1;30m░[0;34m [0m
                           [36m [0;1;36m██▄▄[0;1;30m▀[0;36m [0;1;30m▄▄█▀[0m    [30mI LOVE YOU ALL!! :). -mt[0;37m  [0;1;36m▄▄██[0m [1;30m▄░ [0m
          [30mhi slothy :)[0m     [37m [0;1;36m▐[0;1;36;46m▓█▓█▓[0;1;36;40m▄[0;1;30;40m▀[0m      [36m  [0;1;36m▄▄ ▄▄[0;36m [0m      [36m [0;1;30mtgh[0m   [1;36m▄▄[0;1;36;46m▓█▓▓[0;1;36;40m▀[0;1;36;46m▓▒[0;36m▌[0;1;30m▐▓░[0m [1;30m░[0m [1;30m [0m

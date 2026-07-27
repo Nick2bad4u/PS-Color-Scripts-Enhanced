@@ -5,7 +5,7 @@
 # Source SHA-256: de93a94404e37266721cd6016c11b9f24d9bdd34f8d3cca7bc7657f5ad9a2aab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VRM!DM1.ANS by Vermin (Deranged^Inpulse Inc); released in drg0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: diGitAL mOtiOn EliTE aSKeE!!
 # SAUCE Author: Vermin
 # SAUCE Group: Deranged^Inpulse Inc
@@ -38,6 +38,4 @@ Write-Host '
     [1;30m         [0m''[1;30m                     [0m'' [1;30m         [0m''[1;30m          [0m''[1;30m                      [0m
 
 
-                    d  i  g  i  t  a  l    m  o  t  i  o  n
-
-                                affiliated as hell[0m'
+                    d  i  g  i  t  a  l    m  o  t  i  o  n[0m'

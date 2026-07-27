@@ -5,7 +5,7 @@
 # Source SHA-256: 154bf829ee24c3eceb9f0e989807dec8768cf8b3d6d2844799e29820e29df339
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NC-SD1.ANS by Neurotic (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sDelic Emag
 # SAUCE Author: Neurotic
 # SAUCE Group: Legend
@@ -46,10 +46,9 @@ Write-Host '
 [1;37;40m  [0;36m▐[0;1;37;46m▀[0;1;37;40m███████[0;1;37;46m▓[0m      [36m▐[0;1;37;46m▀[0;1;37;40m███████[0;1;37;46m▓[0m      [36m▐[0;1;37;46m▀[0;1;37;40m███████[0;1;37;46m▓[0m      [36m▐[0;1;37;46m▀[0;1;37;40m███████[0;1;37;46m▓[0m      [36m▐[0;1;37;46m▀[0;1;37;40m███████[0;1;37;46m▓[0m
 [31m▄▄ [0;36m▀[0;36;46m  [0;1;37;46m▀▀▀▀▀░[0m [31m▄▄▄▄▄ [0;36m▀[0;36;46m  [0;1;37;46m▀▀▀▀▀░[0m [31m▄▄▄▄▄ [0;36m▀[0;36;46m  [0;1;37;46m▀▀▀▀▀░[0m [31m▄▄▄▄▄ [0;36m▀[0;36;46m  [0;1;37;46m▀▀▀▀▀░[0m [31m▄▄▄▄▄ [0;36m▀[0;36;46m  [0;1;37;46m▀▀▀▀▀░[0m [31m▄▄[0;37m [0m
 [31m▓[0m     [36m▀▀▀▀▀▀[0m          [36m▀▀▀▀▀▀[0m          [36m▀▀▀▀▀▀[0m          [36m▀▀▀▀▀▀[0m          [36m▀▀▀▀▀▀  [0;31m▓[0;37m [0m
-[31m░   [0;37m"[0;1;37mPeople always make the mistake of thinking art is created for them. But  [0;31m░[0;37m [0m
-[31m [0;1;37mreally, art is a private language for sphisticates to congratulate themselves[0m
-[1;37m    on their superiority to the rest of the world. As my artist''s statement[0m
-[1;37m  explains, my work is utterly incomprehensible and is therefore full of deep[0m
-[31m░[0m      [1;37msignificance.[0m"               - [1;36mCalvin and Hobbes, July 15th, 1995[0m      [31m░[0;37m [0m
-[30;41m░[0;31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0;37;40m [0m
-[1;31;40m [0m   [1;31;40msdelic emag [0;1;30;40m- [0;1;31;40mansi by neurotic/legend [0;1;30;40m- [0;1;31;40mfont by hannibalector/something[0m'
+[31m░   [0;37m [0;1;37m                                                                         [0;31m░[0;37m [0m
+[31m [0;1;37m                                                                             [0m
+[1;37m                                                                           [0m
+[1;37m                                                                             [0m
+[31m░[0m      [1;37m             [0m                  [1;36m                                  [0m      [31m░[0;37m [0m
+[30;41m░[0;31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0;37;40m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8367b07d45eb0b808d29f33df647dd99526a256f53ffe2ed4f5e45c6adb1e92f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-LGOFF.ANS by baxter (anal force?! =)); released in axf-037a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logoff-picie
 # SAUCE Author: baxter
 # SAUCE Group: anal force?! =)
@@ -33,19 +33,4 @@ Write-Host '
        ▀▀▀▀▀▀[32m▄█[0;1;32;42m░ ▒[0;1;32;40m▄[0m                                              ▐██▀
         [1;32;42mbX[0;1;33;42m░[0;32m█[0;1;32;42m░[0;32m█[0;1;33;42m [0;32m█[0;1;32;42m░  ▓[0;1;32;40m▄[0m
          [32m▀▀▀▀▀▀▀▀▀▀[0;1;32m▀▀▀[0m
---------------------------------------------------------------------------------
-''nother request by radicator
-
-same style as the other one (bx-news.ans)
-if you don''t like that purple hair style stuff, you can remove it ;)
-
-requests ? hmm, I don''t do a lot of requests, but you could ask, maybe you''ll
-have to wait for 4 months like radicator did ;) (sorry for that)
-If you want them within the week you''ll have to do something in return (pay,
-write something for bsr, pump some files on my board, ...)
-contact me : peter.backx@rug.ac.be or @ footprint (+32-9-3727463)
-
-greets to - all green guys, especially kurt
-          - the ripper, cyclops, ...
-
-Inspiration this time by Funky green dogs: "you''ve got me fired up"[0m'
+--------------------------------------------------------------------------------[0m'

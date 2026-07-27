@@ -5,7 +5,7 @@
 # Source SHA-256: 621008ade1b5b4c0cfc8f67e44d4e462e80a4f1f24f0a660b2c26c9e16933e0c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ^SUNSET.ANS by Flame (k-endorp); released in k-endorp and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -51,8 +51,4 @@ Write-Host '
               [36m▓█[0;1;37;46m▐[0;1;36;40m▒[0;36m▌░[0;1;36;46m█▀[0;36m▌[0m     [36m▀[0;1;36;46m░▀[0;36m░[0m   [36m▐[0;37m  [0;36m [0;1;36;46m█[0;1;37;46m█[0;36m▓[0m     [36mand the music keeps playing,[0m
               [36m░██[0;1;36;46m▄[0;36m▓[0;37m [0;36m▐[0;1;36;46m▄[0;36m▌[0m    [36m  ▀▓[0m    [36m▐[0;1;36;46m▄[0;1;36;40m▄[0;36m▄▄ [0m       [36mlike a neverending battlecry.[0;34m.[0m
                [36m▒[0;1;36;46m██▌[0m  [1;46m█[0;1;36;46m▒[0m      [36m   [0m
-                     [1;37;46m█▌[0;36m▒[0m     [36m   [0m
-                             [36m   [0m
-
-[33mthis has been a klexikal release.     [0m
-[33mall art/poetry/words by flame.[0m'
+                     [1;37;46m█▌[0;36m▒[0m     [36m   [0m'

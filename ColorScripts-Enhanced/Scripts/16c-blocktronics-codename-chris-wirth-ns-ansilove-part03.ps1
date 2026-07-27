@@ -5,7 +5,7 @@
 # Source SHA-256: 24ebc08e922ab148a5d97ae791e0e50f4e08a6084f638342a87a8385e6db160a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ns-ansilove.ans by Ansichrist (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 79-116
 # Columns: 1-80
 
@@ -41,10 +41,10 @@ Write-Host '
 [1;30;40m [0m      [32m░▌▀█▐[0;37m [0;32m▀[0m                                                         [1;30m▀ ▐    ░[0m
 [1;30m [0m       [32m▌[0;37m  [0;32m▐[0;37m   [0;1;30m┌───────────────[[0m [1mANSILOVE V1.05[0m [1;30m]─[0m [32m░░[0;37m [0;1;30m-─────────┐[0m
 [1;30m [0m              [1;30m│░│--------------------------------------------│░│[0m       [1;30m ▐[0m
-[1;30m [0m          [32m▐[0;37m   [0;1;30m│▒│[0m [31m♥[0;1;30m [0mAnsilove/PHP by Cleaner                  [1;30m│▒│[0m
-               [1;30m│▓│[0m [31m♥[0;37m Ansi by Ansichrist / Blocktronics[0m        [1;30m│▓│[0m
-               [1;30m│█│[0m [31m♥[0;37m For Breakpoint 2009 textmode compo[0m       [1;30m│█│[0m
-               [1;30m│▓│[0m [31m♥[0;1;30m [0mGreets fly out to Astu, HSeven, Enzo,    [1;30m│▓│[0m
-               [1;30m│▒│[0m [31m [0;37m Avenging Angel, Aesthetic & Cleaner![0m     [1;30m│▒│[0m
-               [1;30m│░│[0m [31m♥[0;1;30m [0mAnd Sir Garbagetruck for the compo!!!! ! [1;30m│░│[0m
+[1;30m [0m          [32m▐[0;37m   [0;1;30m│▒│[0m [31m [0;1;30m [0m                                         [1;30m│▒│[0m
+               [1;30m│▓│[0m [31m [0;37m                                  [0m        [1;30m│▓│[0m
+               [1;30m│█│[0m [31m [0;37m                                   [0m       [1;30m│█│[0m
+               [1;30m│▓│[0m [31m [0;1;30m [0m                                         [1;30m│▓│[0m
+               [1;30m│▒│[0m [31m [0;37m                                     [0m     [1;30m│▒│[0m
+               [1;30m│░│[0m [31m [0;1;30m [0m                                         [1;30m│░│[0m
                [1;30m└────────────────────────────────────────────────┘[0m'

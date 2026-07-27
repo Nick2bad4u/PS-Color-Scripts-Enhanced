@@ -5,7 +5,7 @@
 # Source SHA-256: ee4837cf5b6093925042d84d8f898682378d3e351416ed15d7c22a345a3afead
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AOH-PREV.ANS by angel of hell (Fuel); released in fuel10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: prevail matrix
 # SAUCE Author: angel of hell
 # SAUCE Group: Fuel
@@ -36,7 +36,4 @@ Write-Host '
 [1;30m▐███▀▀    ▀▀███▀▀▀▀[0m     [1;30mof acid[0m      [1;30m▀▀▀▀▀▀███▄█▄███████▄████▀▀▀▀▀▀▀▀█▄[0m
 [1;30m▀▄[0m           [1;30m▄▀[0m                          [1;30m▄▀[0m                  [1;30m▀▄▄[0m     [1;30m▐▌[0m
 [1;30m ▐▌[0m         [1;30m▐▌   ▄[0m                    [1;30m▄ ▐▌[0m                     [1;30m▐▌[0m     [1;30m▀■[0m
-[1;30m·▀[0m           [1;30m▀ ■[0m                       [1;30m■▀[0m                    [1;30m■ ▀[0m
-
--cut-here-
-old school 23 line logo fer previal by angel of hell <acid>[0m'
+[1;30m·▀[0m           [1;30m▀ ■[0m                       [1;30m■▀[0m                    [1;30m■ ▀[0m'

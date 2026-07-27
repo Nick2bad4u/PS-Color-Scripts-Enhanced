@@ -5,7 +5,7 @@
 # Source SHA-256: d6a6b1eac825d64f05498054c1e407ee982f9790faa44b2f33806983dfcd2ec0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TXT-MOM01.ANS by The Textmode Exorcist (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20141023
 # SAUCE Dimensions: 80x127
 # SAUCE Font: IBM VGA
@@ -50,8 +50,4 @@ Write-Host '
 [1;31;45m▒▒▒▒▒▒▒▒▒▒▒▒[0m [1;31;45m▒▒▒▒▒▒▒▒[0m [1;31;45m▒▒▒▒[0;35m▄[0;1;31;45m▒▒▒▒▒▒▒▒[0;35m▓[0;1;31;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m  [1;30;47m▓▓▓▓▓▓▓▓[0;1;30;40m▌[0m  [1;30;47m▓▓▓[0;1;30;40m▄▄▄▄▄[0m  [1;30;47m▓▓▓▓[0m
 [1;31;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;35m░[0;1;31;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m  [1;30;47m▓▓▓▓▓▓[0;1;30;40m▌[0;1;30;47m▓[0m [1;30;47m▓▓▓▓▓▓▓▓▓[0m [1;30;47m▓▓▓▓[0m
 [1;31;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;35m▓[0;1;31;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m  [1;30;47m▓▓▓▓[0;1;30;40m▌[0;1;30;47m▓▓▓▓▓▓▓▓▓▓▓[0m [1;30;47m▓▓▓▓[0m
-[1;31;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;35m▓[0;1;31;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m  [1;30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-
-[1;30mansi artwork by the textmode exorcist of blocktronics 2015. logo dreamt up on a[0m
-[1;30mgutter trip with filth. greetings to the creep fever and misfit. keep doing it.[0m
-[1;30mportrait of the mother of my child, the love of my life.. until i can''t hit F4.[0m'
+[1;31;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;35m▓[0;1;31;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m  [1;30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

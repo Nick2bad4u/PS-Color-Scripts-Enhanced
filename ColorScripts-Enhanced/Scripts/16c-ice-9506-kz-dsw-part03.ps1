@@ -5,7 +5,7 @@
 # Source SHA-256: c74cd46a5238c752a83ebf81b318bcb401e2da16ab59318d1b99eb90168dd7d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KZ-DSW.ICE by Kamikazee (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 97-140
 # Columns: 1-80
 
@@ -48,9 +48,4 @@ Write-Host '
                                                                        [33m ▀[0;37m  [0;33m▀[0m
 
                 [1;33m-[0m  [33mA  D R E A M  B O R N  I N  T Y R A N N Y[0;37m  [0;1;33m-[0m        [33m░░[0m
-                   [1;30m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
-
-     [1;30mA millenium of sorrow.  This world of the Sun is one of fear.  A world[0m
-[1;30m which reduces its..  ..unfavored citizens to slavery.  Live in our magnificent[0m
-         [1;30msociety.  Rejoice in our perfection.  You belong to the Sun.[0m    [33m   [0m
-'
+                   [1;30m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m'

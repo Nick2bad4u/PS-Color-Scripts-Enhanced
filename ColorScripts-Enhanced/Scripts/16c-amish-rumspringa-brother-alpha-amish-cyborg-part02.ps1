@@ -5,7 +5,7 @@
 # Source SHA-256: 2707bbc40f095c978cdd8ef06c549060753e3631c0c65cbe5cb3ba2e59fe0d20
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: brother-alpha-amish-cyborg.ans by Brother Alpha (AMiSH); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shut Up, Amish Cyborg!
 # SAUCE Author: Brother Alpha
 # SAUCE Group: AMiSH
@@ -44,5 +44,4 @@ Write-Host '
      [1;30m░[0;1;37m██████████████████▄[0;1;30m ▐█████[0;1;30;43m▓▓[0;1;30;40m▌▐██[0;1;30;43m▓▓▓[0;1;30;40m█[0;1;30;43m▓▓▓▓[0;1;30;40m██[0;1;30;43m▓▓[0;1;30;40m██▀▀▀▓▓█[0;1;30;43m▓▓[0;1;30;40m██[0;1;30;43m▓▓[0;1;30;40m▀ [0;1;37;40m▄▌ [0;1;30;40m [0m [1;30m▄▓▓▓▄▄▄▄▄[0m
      [1;30m░[0;1;37m███████████████████▄▄[0;1;30m  ▀▀▀▀    ▀▀████████▀▀▀  [0;1;37m▄▄▄▄[0;1;30m  ▀▀▀▀  [0;1;37m▄██▌ [0m [1;36m░[0;1;30m▓▓▓███▓▓▓[0m
 [1;37m▌    [0;1;30m░[0;1;37m████████████████████████▄▄▄████▄▄▄[0m     [1m▄▄▄▄█████████▄[0m    [1m ▐███ [0m [1;36m░[0;1;30m▓███▀▀▀▀▀[0m
-[1;37m▌[0m     [1;37m████████████████████████████████▓▓█░ ▐█▓▓██████████▓▓▓ ░   ███▌[0;1;30m  [0;1;36m░[0;1;30m█▄▄▄████[0m
-[1;36m [0;1;37mBrother Alpha[0;1;36m [0;1;32m<AMiSH[0;1;36m>[0m'
+[1;37m▌[0m     [1;37m████████████████████████████████▓▓█░ ▐█▓▓██████████▓▓▓ ░   ███▌[0;1;30m  [0;1;36m░[0;1;30m█▄▄▄████[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d0ca5062104200514c3f524e5a4399881b8d264da54b6fb66c41bc708309a957
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HTF-UGLY.ANS by Hanzo The Fiend (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 149-198
 # Columns: 1-80
 
@@ -59,4 +59,4 @@ Write-Host '
 [30;40m       [0;32;42m█[0;30;40m█[0;32;42m█[0;30;40m█ [0;32;42m█[0;30;40m█      [0;32;40m▀▀[0;30;40m   [0;32;40m▀[0;30;40m         [0;32;42m█[0;30;40m█   [0;32;40m▀[0;30;42m▀[0;30;40m█   [0;32;40m▀[0;30;40m                                [0m
 [30;40m       [0;32;42m█[0;30;40m█[0;32;40m▀[0;30;42m▀[0;30;40m█[0;32;42m█[0;30;40m█                    [0;30;42m▀[0;32;42m█[0;30;40m█    [0;32;40m▀[0;30;40m    [0;32;42m█[0;30;40m█                               [0m
 [30;40m                                               [0;32;40m▀[0;30;40m                               [0m
-[1;37;40mT[0mh[1;30mis [0;1;37mA[0mn[1;30msi [0;1;37mI[0ms [1mP[0mr[1;30moduced [0;1;37mB[0my [1mM[0;1;36mA[0;36mD[0;1;37mA[0;1;36mN[0;36mS[0;1;34mI [0;1;37mB[0my [1;35m╠[0;35m╣[0;31mÆ[0;1;31mÑ[0;1;33mZ[0;1;37mô T[0;1;32mh[0;32me [0;1;37mF[0;1;32mi[0;32mend [0;1;31m([0;1;37m1[0;1;32m9[0;32m94 [0;1;37mC[0;1;32ma[0;32mNCeR [0;1;37mP[0;1;32mr[0;32moductions[0;1;31m)[0m'
+[1;37;40m [0m [1;30m   [0;1;37m [0m [1;30m   [0;1;37m [0m  [1m [0m [1;30m       [0;1;37m [0m  [1m [0;1;36m [0;36m [0;1;37m [0;1;36m [0;36m [0;1;34m  [0;1;37m [0m  [1;35m╠[0;35m╣[0;31m [0;1;31m [0;1;33m [0;1;37m   [0;1;32m [0;32m  [0;1;37m [0;1;32m [0;32m    [0;1;31m [0;1;37m [0;1;32m [0;32m   [0;1;37m [0;1;32m [0;32m     [0;1;37m [0;1;32m [0;32m         [0;1;31m [0m'

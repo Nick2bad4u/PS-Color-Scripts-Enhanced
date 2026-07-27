@@ -5,7 +5,7 @@
 # Source SHA-256: 0fb51d13248425e80e24830765ed2086b1b3fa46c5ede2b2b703b2e96a60b8fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TF-TC.ANS by The Fool (.;:Anemia:;.); released in ane-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Total Chaos
 # SAUCE Author: The Fool
 # SAUCE Group: .;:Anemia:;.
@@ -19,7 +19,7 @@ Write-Host '
 [1;30m  [0;1;37m▄[0;1;37;47m██[0;1;30;40m [0;1;37;40m▄[0;1;37;47m█[0;1;37;40m█[0;1;30;40m    [0;1;37;40m     [0m
 [1;30m▄▄[0;1;37m [0;1;37;47m▒▄[0;1;30;40m [0;1;37;47m▀▒[0;1;30;40m ▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30m█ [0m▄[1;47m· [0;1;40m [0;1;47m■[0m█▄[1;30m  [0;1;37m       [0m                    [1;30m▀[0m                         [1;30m▀█[0m
-[1;30m█ [0m▀▀[1;30m  [0m▀▀   the fool says, "if its not weed, its just not kool."  [1;30m█[0m
+[1;30m█ [0m▀▀[1;30m  [0m▀▀                                                         [1;30m█[0m
 [1;30m█                  [0m       [1;30m▄   [0m              [32m [0m                    [1;30m█[0m
 [1;30m█▄ [0m   [1;30m [0m [1;30mstylin'' ->[0m  [1;30m▄▓■▀[0m  [1;30m▓  ▀▓▀▄[0m        [1;32m■▄▄[0;32m▄▓█▄█▄▄[0;1;32m■[0m [32m▀[0m           [1;30m▀[0m
 [1;30m ▀▀▀▓▀▀  phrough[0m  [1;30m▄ [0m         [1;30m·[0m   [1;30m█[0m [1;30m▀▀▀[0m [1;32;42m▀▒[0;1;32;40m▀[0;32m▀[0;1;35m [0;33m▄▄▄▄[0;37m [0;32m▀[0;37m [0;32m█[0;37m [0;1;30m▀▀[0m [1;30m<- the magical donut[0m
@@ -56,5 +56,4 @@ Write-Host '
 
    [1mi|\|53r+ 5+4+5 |-|3r3[0m
 
-[1;30m------------------------------------------------------------------------------- [0m
-[1;30m  ''nigpig'' by the fool.anemia (c)1995 ravensky studios[0m'
+[1;30m------------------------------------------------------------------------------- [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: bc1d6d64428798629d164348c4400015fd914cb20470084aaf548732a4f710ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TACO.ANS by Savage + Luciano (fire graphics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: taco pronto
 # SAUCE Author: savage + luciano
 # SAUCE Group: fire graphics
@@ -58,12 +58,4 @@ Write-Host '
      [1;30m▀[0;33m▀[0;1;30;43m▄[0;1;33;43m ▄▄░░░     [0;1;30;43m▄▄[0;1;33;43m       [0;1;30;43m ▄▄▄▄[0;1;33;43m·▄▄░░░░               [0;33m▓[0;1;30m▀[0;33m▀[0;1;30;43m▄[0;1;33;43m   [0;33m▓▓▓▓▓▓▓▓[0;1;30;43m▄▄[0;1;33;40m▀[0;33m▀[0m
          [1;30m▀[0;33m▀▀[0;1;30;43m▄[0;1;33;43m▀▀■  [0;33m██[0;1;30;43m▀█[0;1;30;40m▀[0;33m▀▀▀[0;1;30;43m▄[0;33m▓▓▓[0;1;30;43m▀[0;1;30;40m▄[0;1;33;40m   [0;1;30;40m▀[0;33m▀▀[0;1;30;43m▄[0;33m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30m▀[0m     [1;30m▀▀▀▀▀▀▀▀[0m
                [1;30m▀[0;33m▀▀▀[0;1;30;43m▄[0;33m▓▓[0;1;30;43m▀[0;1;30;40m▄▄[0m   [1;30m▀▀▀▀▀[0;1;33m  [0;1;30m░░░▄[0;33m [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                       [1;30m▀▀▀[0m            [1;30m·[0m [1;30m■[0m
-
-
-
-                   [1;30mdigale a su esposa que los dos taqueros[0m
-                       [1;30mextranan profundamente su taco.[0m
-
-
-                          [1;30mansi by Savage and Luciano.[0m'
+                       [1;30m▀▀▀[0m            [1;30m·[0m [1;30m■[0m'

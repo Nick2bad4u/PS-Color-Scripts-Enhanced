@@ -5,7 +5,7 @@
 # Source SHA-256: 9fee82148d5fa63e1a28118472c6b807cf595756cc8963fecd29d5736549b1e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WT-AOS01.ANS by White Trash (The Girl Scouts); released in 765n000 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Alter Of Sacrifice
 # SAUCE Author: White Trash
 # SAUCE Group: The Girl Scouts
@@ -39,9 +39,4 @@ Write-Host '
 [1;31;43m▓▓[0;1;31;40m█[0;1;31;43m▓▓▓▒▒▒▒░░░░[0;33m▄▄[0;37m  [0;1;31m▀▀████████[0;1;31;47m▓▓▓▓▓▓[0;1;31;40m██████████[0;1;31;43m▓▒[0;33m▌[0m   [34m▐[0;1;34;44m▒░░[0m [1;34;44m▒░▒░[0m [34m▐[0;1;34;44m▒░░[0m [1;34;44m░░▒[0;34m▌[0;37m [0;34m▐[0;1;34;44m░▒░[0m [1;34;44m░░▒[0;34m▌[0m
 [1;31;43m▓[0;1;31;40m█████[0;1;31;43m▓▓▓▓▒▒▒▒░░░░[0;33m▄▄[0;37m  [0;1;31m▀▀█████████[0;1;31;47m▓▓▓[0;1;31;40m██████[0;1;31;43m▓▒▒░[0m     [34m▀[0;1;34;44m▒▒[0;1;34;40m▄[0;1;34;44m▓▒▓▒[0m  [34m▀[0;1;34;44m▒▒[0;1;34;40m▄[0;1;34;44m▒▒[0;34m▀[0;37m   [0;1;34;44m▒▓▒[0;1;34;40m▄[0;1;34;44m▒▒[0;1;34;40m▀[0m
 [1;31m▀▀▀[0;1;31;43m▓[0;1;31;40m██████[0;1;31;43m▓▓▓▓▒▒▒▒░░░░[0;33m▄▄▄[0;37m [0;1;31m▀▀█████████████[0;1;31;43m▒░░[0;33m▀[0m
-[1;30m-[cut here]---------------------------------------------------------------------[0m
-
-[1;30mthe girl scouts are the only whores you need.  i want to feel you in me.. i want[0m
-[1;30myour stiff member in my hot box. please fuck me.. r  a   p     e      me?[0m
-
-          [1;30mwhite trash - the girl scouts (dont you wish you could join?)[0m'
+[1;30m-[cut here]---------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 032146622937f4862222462f8de0f3cdcda6dfea114624575fb251205534227e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SE-UNION.ANS by Sharp Edge (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Union
 # SAUCE Author: Sharp Edge
 # SAUCE Group: READ THE INI FILE
@@ -20,17 +20,17 @@ Write-Host '
 
 
 [1m▄▄▄▄  ▄▄▄▄[0m               [36m▀ [0;1;37msmooth & cardiac: sup bros.?[0m
-[1;37m▌▀▀▀  ▌▀▀▀[0m                 [1;37mFlood: damn man i cant catch ya on the net, mail me[0m
+[1;37m▌▀▀▀  ▌▀▀▀[0m                 [1;37m                                                   [0m
 [1;37m ▀▀█  ▄▀▀[0m                [36m▄[0m        [1;37mda'' menu or somethin''[0m
-[1;37m██▄█  █▄██ presents[0m      [36m▀ [0;1;37mMagnetic M: sorry man, i didnt manage to catch ya on[0m
-[1;37ma UNION production.[0m                    [1;37mthe net :(.. mayb next time :)[0m
-                         [36m█ [0;1;37mNailz: like this one?[0m
-[1;37msharp (ma'') edge of union[0;1;36m█ [0;1;37mHandy: you still sux :) .. and lame :) ..[0m
-[1;37m(havin'' phun) tm.[0m        [1;36m█ [0;1;37mslothy: 3 ??! only 3!?! geeshh .. that harsh!?! :)..[0m
-                         [36m█ [0;1;37mcooly: passed on the first test :) - BODY COUNT :)[0m
-[1;37mi can b reached through  [0;1;36m█ [0;1;37manimal: return to the scene .. acid needs ya :)[0m
-[1;37mi-net or just call G-ZERO[0;1;36m█ [0;1;37mpredator: yeah yeah.. u got your great! LAMER![0m
-     [1;37m+972-644-1336[0m       [1;37m█ nyc kid: ehh.. just a great i guess .. :)[0m
+[1;37m██▄█  █▄██         [0m      [36m▀ [0;1;37m                                                    [0m
+[1;37m                   [0m                    [1;37m                              [0m
+                         [36m█ [0;1;37m                     [0m
+[1;37m                         [0;1;36m█ [0;1;37m                                         [0m
+[1;37m                 [0m        [1;36m█ [0;1;37m                                                    [0m
+                         [36m█ [0;1;37m                                                  [0m
+[1;37m                         [0;1;36m█ [0;1;37m                                               [0m
+[1;37m                         [0;1;36m█ [0;1;37m                                              [0m
+     [1;37m             [0m       [1;37m█                                          [0m
 [36m▀▀▀[0;1;36m▀[0;36m▀▀▀▀[0;1;36m▀▀[0;36m▀▀▀▀▀[0;1;36m▀▀▀▀▀▀▀▀[0;1;37m▀▀▀▀▀[0;1;36m▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▀▀▀▀[0;1;36m▀▀▀▀▀[0;36m▀▀▀▀[0;1;36m▀▀[0;36m▀▀▀▀▀▀▀▀[0;1;36m▀[0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
 

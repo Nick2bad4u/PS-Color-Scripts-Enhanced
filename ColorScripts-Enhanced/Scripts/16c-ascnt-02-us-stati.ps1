@@ -5,7 +5,7 @@
 # Source SHA-256: aaf92d502110757dd440d22a435819dbf8f93908413da68eacee820670ddd951
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-STATI.ANS by Phlud + Paradox (Ascent); released in ascnt-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Phlud/Paradawx Joint Ans33
 # SAUCE Author: Phlud/Paradawx
 # SAUCE Group: Ascent
@@ -36,5 +36,4 @@ Write-Host '
  [1;30mArt.Lit[0m     [1;30m▐████  ████▌▐████  ████▌▐████  ████▌ ████  ████▓ ████[0;34m [0;1;30m████[0;1;37m  [0;1;30m████[0m
 [1;30m Zines.PGP[0m   [1;30m▐████  ████▌▐████  ████▓▐████  ████▓ ████  ████▓▐████[0;34m [0;1;30m████  ████[0m
  [1;30mGovern.ment[0m [1;30m▓████  ████▌▐████  ████▓▓████  ████▓ ████  ████▓▐████▌████  ████▌[0m
- [1;30mNo.Ratios[0m  [1;30m▐█████▄▄████▓▓████▄▄██████████▄▄█████▄████▄▄██████████▓████▄▄█████ [0m
-           [1;30m [0m                                                       [1;30mfd[0;1;37mpd[0m'
+ [1;30mNo.Ratios[0m  [1;30m▐█████▄▄████▓▓████▄▄██████████▄▄█████▄████▄▄██████████▓████▄▄█████ [0m'

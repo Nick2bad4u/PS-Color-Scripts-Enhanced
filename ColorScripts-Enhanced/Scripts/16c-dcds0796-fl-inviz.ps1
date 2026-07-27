@@ -5,7 +5,7 @@
 # Source SHA-256: 14f83e4e6d79be6bc80d219da91f42bf064fff0b849d89b63b267ff5fb346506
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-INVIZ.ANS by Flame (1010); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neek.
 # SAUCE Author: Flame
 # SAUCE Group: 1010
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m* [0mdecades`flame [1;30m*[0m "invisible" [1;30m*[0m     [36m  [0m                      [36m ▄         [0m
+[1;30m  [0m              [1;30m [0m             [1;30m [0m     [36m  [0m                      [36m ▄         [0m
 [37m [0m                                   [36m░▒▒▒▒  [0m               [36m░▄▀[0m
 [1;30m█[0;1;30;46m▓▓█▓[0;1;30;40m█[0;1;30;46m█[0m░[30;47m▓[0;1;30;40m▓▓[0m░[1;30m▀▀ ▀▀▀[0;31m  [0;1;30m ▀  ░░░[0;31m  [0;1;30m░░[0m  [1;30m▀█[0m   [36m▄[0;30;46m░[0;36;40m▓[0;37;40m [0;1;33;40m▌▄[0m [32m▄[0;1;32;42m▄▄[0;1;32;47m▀░[0;1;32;42m███[0;1;32;46m▓[0;1;32;42m▄[0;32m▄[0;37m [0;36m▄[0;36;43m▀[0;30;46m░[0;36;40m░[0;37;40m [0;31;40m ▄[0;1;31;40m▄▓[0;1;31;43m▓[0;1;31;47m▓▓[0;1;31;41m▄▄[0;1;31;40m▄[0;31m▄  [0;1;37m▀[0;31m [0;1;37m██▓[0m
 ░[30;47m▓[0;1;30;40m▓[0m░[1;30m▓[0;30;47m▓[0;1;30;40m▓░░░░[0m   [1m▄█[0;1;41m█▓▓[0;1;40m▒░[0;31m▄         [0;37m [0;1;30m▀▌[0m    [36m▐▄▄▄[0;37m [0;1;33m▀[0;1;32m▐[0;1;32;42m█████[0;1;32;47m▀▐[0;1;32;46m█[0;1;32;42m██[0;1;32;40m▓░[0;30;46m░[0;36;43m▓[0;36;40m▒[0;37;40m [0;1;31;40m░▓[0;1;31;41m▓█[0;1;31;46m▓▓[0;1;31;47m▒▒▓[0;1;31;45m▓[0;1;31;41m█[0;1;31;47m▓[0;1;31;40m▓▒[0;30;41m▒[0;31;40m▒[0;1;37;40m▐██[0m
@@ -40,12 +40,6 @@ Write-Host '
           [31m▒[0;30;41m▒▒[0;31;40m▒[0;33;40m▀▀▀▀[0;31;43m [0;33;40m█▀▀[0;31;40m▀[0;35;40m  [0;31;40m▄▄▄▄[0m       [31;40m▀▀▀[0;1;31;40m▀[0;1;32;40m▀[0;32m▀[0;30;42m▒[0;32;40m▒ sis-op─┐[0;35;40m  [0;32;40m▀[0;1;36;40m▀[0;36m▀[0m    [1;37m██▌[0;35m [0;1;37m▐[0;1;37;47m▓▒▓[0;1;37;40m▄▄░░░   [0m
                            [35m    [0;31m▀▀▀▒[0;30;41m▒[0;31;40m▒[0;35;40m  [0m             [32;40m└ o2[0;1;36;40ms[0;36min[0;35m  [0;1;37m▐██[0;35m  [0;37m ▀▀[0;1;37m▀▀▀▀▀▀▀▀░░[0m
                                 [35m [0m     [35m  [0m
-[37m  .'' in case you''re wondering what these frames have to do with each other,[0m
-[37m     keep wondering.  if you ever find out, i''d like to know too. thanks..! `.  [0m
-         [30;41m [0;1;37;41m*s[0;1;33;41mi[0;33;41mg[0;37;40mh[0;30;41m*..░▒[0;31;40m░░[0m
-
-     [1;30;40moh, and don''t request ansi''s from me.  i have no time for requests now..[0m
-[1;30m  sorry... but that''s the way things go.  besides, why would you want an ansi[0m
-[1;30m   from someone who sucks..?   hi''s to; diez, spear, decades crew, rai, cidica,[0m
-[1;30m  and all the others i''ve come to know..[0m [1;30msorry i couldn''t greet you all, pack[0m
-[1;30m   time is coming.. you know who you are.  cya..[0m'
+[37m                                                                           [0m
+[37m                                                                                [0m
+         [30;41m [0;1;37;41m*s[0;1;33;41mi[0;33;41mg[0;37;40mh[0;30;41m*..░▒[0;31;40m░░[0m'

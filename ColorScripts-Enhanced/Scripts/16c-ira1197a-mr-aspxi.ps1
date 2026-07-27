@@ -5,7 +5,7 @@
 # Source SHA-256: 985b06159c27dc483ef7fedcedc89dc0275a5b2204b81516833b520e667c6917
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-ASPXI.ANS by Mr.Wrong (irato); released in ira1197a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Asphyxiie
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: irato
@@ -32,7 +32,4 @@ Write-Host '
    [1m▐█▀■ [0;31m ▄[0m     [1;31m▀[0;33m▀[0;31m▌[0;33m▀[0;31m■▄[0m   [1;31m▄[0;1;31;47m▓[0;1;31;40m▀░[0;31m░[0;37m  [0;33m░[0;31m▀■[0;37m  [0;1;37m▐▀[0m    [31m [0;1;31m▐[0;1;31;47m▓[0;1;31;41m▓[0;31m▌[0m   [31m    ▄[0;1;31;43m░▓[0;1;31;40m▀[0;1;37;40m ▄[0m [31m▀[0;33m░[0m      [31m ▀▌[0;37m [0;1;37m▄▀  [0m
   [1m■▀[0m [1m   [0m        [31m▀[0;37m   [0;31m▌[0;1;31m▀▀▀▀[0;1;37m ▄■[0m       [1m▀[0m    [31m [0;37m [0;31m░[0;1;31m░▀▀▀▄[0m   [31m  ▐[0;1;31;43m░[0;33m▀[0;1;37m ▄█▌[0m   [1;30m[[0;1;37mwrng[0;1;30m][0m [31m▀  [0;37m [0;1;37m■▄ [0m
      [1m  [0m            [31m▄▀[0;37m [0;1;37m▀ ▀█▌[0m                [31m░          [0;33m▀[0;31m▀[0;33m▄[0;31m [0;1;37m▀▀■[0m
-                          [1m▀[0m [1;31m-[0m  [1ma s p h y x [0;1;41mi[0;1;40m i[0m  [1;31m-[0m
-                             [1madmin[0;1;31m : [0;1;37mSilverthorn[0m
-                            fire[31m / [0;37mkereva [0;31m/ [0;37metc...[0m
-                                [1;37m418[0m.[1mtoo[0m.[1mbusy[0m'
+                          [1m▀[0m [1;31m-[0m  [1ma s p h y x [0;1;41mi[0;1;40m i[0m  [1;31m-[0m'

@@ -5,13 +5,13 @@
 # Source SHA-256: a7fe6cf150ab906beb53fdc6832113fb4cbda7ddeb27cf2ad02b70dab8654e79
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RT-PHIRE.ICE by Riptide (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
 Write-Host '
-[1;30m* Auto-Ripoff Detection *[0m          [30mYou rip, you DIE[0m
-[30m  [0;1;30mRip at your own Peril....[0m
+[1;30m                         [0m          [30m                [0m
+[30m  [0;1;30m                         [0m
                                                              [1;30m▄▄▄▄▄▄[0;1;30;47m▓▓▒▒░[0m▄[1;30m▀██[0;1;30;47m▓▓▓[0m
 [30mMoo-kalokatiki. Know you wanna lay me. Pass the[0m      [37m▄▄▄[0;1;30m▀███████[0;1;30;47m▓▓▓▒▒░░░░[0m█▄[1;30m▀█[0;1;30;47m▓▓[0m
 [30mpoi mohollo. Gungachuka Gungachucka..[0m         [1;30m▄▄▄[0;1;30;47m▓▓▒▒░░░[0m▄[1;30m▀███████[0;1;30;47m▓▓▓▒▒░░░[0m█▌[1;30m▐█[0;1;30;47m▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 905c0a6a7af5ecbebfc903d6f9e6fc71b1d3d01e8456288580920549fc190519
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-PS1.ANS by lordjazz (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: photosynthetic shit
 # SAUCE Author: lordjazz
 # SAUCE Group: odium
@@ -33,5 +33,5 @@ Write-Host '
                    [35;40m▐[0;1;35;45m▒▓▓[0;35m▌ ▄▄ [0;35;45m [0;1;35;45m░░░▒[0m [1;35;45m▓▒▒▒▓[0m  [35m▐[0;35;45m  [0;1;35;45m░░[0;35m▌  ▐[0;1;35;45m░░▒▒[0;35m▌   [0;1;35m▄▄▄[0m
                     [1;35;45m░▒▒[0;35m▄[0;1;35;45m▒▒░[0;35m▀▀[0;35;45m [0;1;35;45m░[0;35m▀  ▐[0;1;35;45m░░░▒[0;35m▌ ▀▀▀[0;35;45m  [0;35;40m▓▀▀▀▀▀▓[0;1;35;45m░ [0m  [1;35;45m▓▓▓▓[0;1;35;47m▓[0m
                     [35m▐[0;1;35;45m░[0;35m▄[0;1;35;45m░░░[0;35m▀▀[0m     [35m▀▀▀▀[0;35;45m  [0;1;35;45m░[0m       [35m▀[0m      [35m▀▀ ▐[0;1;35;45m▒▒▒▓[0;35m▌[0m
-                   [35m▄▀▀▀▓[0;35;45m [0;35;40m▌[0m             [35;40m▀▀   [0;1;37;40ms h i t[0m     [35m▀▀▀▀▓[0;1;35;45m░▒[0m
+                   [35m▄▀▀▀▓[0;35;45m [0;35;40m▌[0m             [35;40m▀▀   [0;1;37;40m       [0m     [35m▀▀▀▀▓[0;1;35;45m░▒[0m
                          [35m▀[0m                                    [35m▀▀[0m'

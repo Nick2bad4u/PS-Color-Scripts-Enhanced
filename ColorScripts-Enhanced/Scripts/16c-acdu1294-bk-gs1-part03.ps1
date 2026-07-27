@@ -5,7 +5,7 @@
 # Source SHA-256: 16e40ea4514cd66599e2f568225cd38e0e7f091e92d3c0dbcf2676cd5c6b5ecd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-GS1.ANS by Bad Karma (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Games Station
 # SAUCE Author: Bad Karma
 # SAUCE Group: ACiD Productions
@@ -57,5 +57,5 @@ Write-Host '
 
 
 [1;30m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
-                         [1;30mANSI by [0m:  [1mB[0ma[1;30md [0;1;37mK[0ma[1;30mrma  [AC[0mi[1;30mD][0m
+                         [1;30m        [0m   [1m [0m [1;30m  [0;1;37m [0m [1;30m        [0m [1;30m  [0m
                [1;30m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m'

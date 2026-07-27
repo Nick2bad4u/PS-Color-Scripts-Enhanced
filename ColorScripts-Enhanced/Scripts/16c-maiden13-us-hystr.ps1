@@ -5,7 +5,7 @@
 # Source SHA-256: c738304d4e407c688db938121dfab44f0b03d7d9d7f474791f7173ab6e51b4c8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-HYSTR.ANS by Slayer Dreams + Bugs Bunny (MAIDEN BRAZIL rulzzz); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hysteria 1st menu!
 # SAUCE Author: slayer/bunny
 # SAUCE Group: MAIDEN BRAZIL rulzzz
@@ -36,6 +36,4 @@ Write-Host '
 [1;31m▓▄▄▄[0m [1;30mMaiden[0m [1;31m▀████████[0;1;31;43m▓▒▒░[0;33m███▀[0m        [1;31m▄▄[0;33m▄[0;1;31m▄▄ [0;34m  [0;37m [0;34m▐██▌ [0;1;30m▐[0;1;30;44m▓▓[0;1;30;40m█[0;1;30;41m█[0;1;30;40m▌[0;34m  ██[0;30;44m░[0;34;40m▓▌  ▐[0;1;34;44m░[0;34m█[0;1;34;44m░░▒[0;34m  ▐█  █[0m
 [1;31;43m█▓█▓▓▒░[0;33m▄  █▓   [0;1;31m▀[0;1;31;43m██▓▓▒▒░ [0;33m▀▀   ░░  ▄[0;1;31;43m▒░▓▓█[0;1;31;40m█████▄ [0;34m█▄[0;30;44m░▓[0;34;40m  [0;1;30;40m▐▓▀▀[0;34m▄[0m   [1;30;44m░[0;34m▀▀▀▀█▄[0;30;44m░[0;34;40m▓[0;1;34;44m [0;34m█[0;1;34;44m░[0;34m▄▄ ███▌[0m
 [1;31;43m████▓▓▒░░[0;33m▌█▓▒[0m     [1;31m▀[0;33m▀▀▀[0m      [33m░▒▓▐[0;1;31;43m░░▓▒▓██▓▓[0;1;31;40m█▀▄█▓▄[0;34m▀▀  [0;37m [0;1;30m░░[0m [34m ▐▄▄▀  ░[0;30;44m▓[0;34;40m    ▀▀█  ▀▀▀██ [0m
-[1;31;40m█▄[0;1;31;43m███▓▓▒▒░[0;33m██░▒░[0;37m [0;30;43m▓[0;33;40m [0m    [1;30;40m░░  [0;33m░░▒█▌[0;1;31;43m░▒▒▓▓███[0;1;31;40m▀▀[0;1;31;43m▓[0;1;31;40m█████▓▓▒░[0m                  [1;34mmag[0;34mazine   [0m
-
-[1;37mhysteria brazilian arts magazine[0m [1mhysteria brazilian arts magazine[0m [1mhysteria brazi[0m'
+[1;31;40m█▄[0;1;31;43m███▓▓▒▒░[0;33m██░▒░[0;37m [0;30;43m▓[0;33;40m [0m    [1;30;40m░░  [0;33m░░▒█▌[0;1;31;43m░▒▒▓▓███[0;1;31;40m▀▀[0;1;31;43m▓[0;1;31;40m█████▓▓▒░[0m                  [1;34mmag[0;34mazine   [0m'

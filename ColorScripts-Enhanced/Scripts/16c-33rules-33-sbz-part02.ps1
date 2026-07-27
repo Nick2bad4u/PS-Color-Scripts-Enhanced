@@ -5,7 +5,7 @@
 # Source SHA-256: 821e7118d7274258bd21aa7c1adb230ecf69af3677ff935cbe7f26cc408842d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-SBZ.ANS by Mistigris 10/94 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sushi Bar Z
 # SAUCE Author: Mistigris 10/94
 # SAUCE Group: Eerie
@@ -53,6 +53,4 @@ Write-Host '
         [1;30;40m▓▄▓▌ E p i n i c i o n   D i s t r i b u t i o n   S i t e ▐▓▌[0m
          [1;30;40m▀▀█▄[0m          [1;30;40m▄[0m            [1;30;40m▄ ▄[0m     [1;30;40m▄▄ ▄▄[0m             [1;30;40m▄▄  ▄▓▀[0m
             [1;30;40m█▓▓▄ ▀ ▄▄██▓█ █▄    ▄▄▓▓▓▀▓▄█▓▀▀▓▀▓▓▀▀[0m        [1;30;40m■▀ ▓▄▀▀░▀▓[0m
-           [1;30;40m▀ ▀▀[0m     [1;30;40m▓▀[0m            [1;30;40m▀▀▒[0m                        [1;30;40m▒[0m
-
-                         Cool ansi by Eerie [Mistigris][0m'
+           [1;30;40m▀ ▀▀[0m     [1;30;40m▓▀[0m            [1;30;40m▀▀▒[0m                        [1;30;40m▒[0m'

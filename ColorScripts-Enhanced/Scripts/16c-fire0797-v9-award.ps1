@@ -5,7 +5,7 @@
 # Source SHA-256: dcd08152902a34decc8cdcc5f89121281bb0da80776356e6ca0481062c1b8e2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V9-AWARD.ANS by Vade79 (f1RE); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Awards97
 # SAUCE Author: Vade79
 # SAUCE Group: f1RE
@@ -45,5 +45,4 @@ Write-Host '
 [31m  [0;37m  [0;31m▀  ▀▀  ▄▀▌ ▌░[0;37m [0;1;30m░[0m    [31m▌ ▐▀▀▀  [0;37m [0;31m▌[0;37m  [0;31m  ▀█▀ [0;37m [0;1;30m?[0m [1;30mA[0m [1;30mW[0;35m [0;1;30mA[0m [1;30mR[0m [1;30mD[0m [1;30mS[0;31m [0;1;30m9 7[0;31m [0;1;30m?[0;31m ▐▀▀  ▐▀▀▌  ▀▀  ▐ ▐[0m
 [1;30m───-─[0;31m ▀ [0;1;30m─[0;31m █[0;1;31;41m▀[0;31m▀▌▄▌ [0;1;30m─-───[0;31m ▌ ▐[0;37m [0;1;30m────[0m [31m▌[0;37m [0;1;30m───[0;31m ▌[0;37m [0;1;30m--─────────────────-─[0;31m ▐ [0;1;30m-- [0;31m▐  ▌▀█ ▄[0;1;31;41m▄[0;31m▄▐▄▐[0m
           [31m░░ ▀▀[0m        [31m▌▄[0;31;47m▓[0m      [31;40m▬[0m     [31;40m▌[0m                            [31;40m▐▄ ▌[0m    [31;40m▀▀█▀░[0m
-                       [31;40m▀[0;1;31;41m▀[0;31m▀[0m            [31m░[0m                             [31m▀▀ [0;1;30m[v9.f1RE][0m
-                       [31m [0m'
+                       [31;40m▀[0;1;31;41m▀[0;31m▀[0m            [31m░[0m                             [31m▀▀ [0;1;30m[v9.f1RE][0m'

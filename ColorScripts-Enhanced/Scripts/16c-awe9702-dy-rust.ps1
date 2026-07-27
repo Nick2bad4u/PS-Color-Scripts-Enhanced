@@ -5,7 +5,7 @@
 # Source SHA-256: acca663378a3aa54d7ed708e7de6d053f3acbf2e6db8c5978c40e6aa2c8b0e09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DY-RUST.ANS by Discyple (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rust
 # SAUCE Author: Discyple
 # SAUCE Group: AWE Lettering
@@ -35,4 +35,4 @@ Write-Host '
 [1;32;40m  [0;34m▀██▀  [0;35m▐█[0;1;35;45m▐[0;1;35;40m▀▀   [0;1;34;40m▄  [0;35m▐▌ [0;34m▄[0;1;34;44m▒[0;34m▄  [0;1;35m▀▀▄▄  [0;1;34m▀▀▀[0;34m▀▀▀[0;1;34m▀ [0;35m▐▌▀[0m        [35m▀▀ ▄[0;35;45m [0;1;35;45m▄██[0;1;35;40m▀▀▀    ▀   [0;34m▀▀▀[0;1;34;44m▒[0;34m▀  [0;1;32m▀[0m
 [1;32m  [0;34m▀[0;34;47m▓[0;34;40m▀ [0;35;40m▄ ▀[0m           [35;40m▀  [0;34;40m▀  [0;37;40m░[0m      [1;35;40m▀▀▀  ▀   [0;35m▀ ▄[0m           [1;35m▀▀[0m      [1;33m░[0m          [34m▄[0m
 
-[34m    ▀[0m     [1;33mrust [0;1;32;46m::[0m [1;36;40mdy[0;1;37;40mawe[0m'
+[34m    ▀[0m     [1;33m     [0;1;32;46m  [0m [1;36;40m  [0;1;37;40m   [0m'

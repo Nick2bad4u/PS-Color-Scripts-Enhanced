@@ -5,7 +5,7 @@
 # Source SHA-256: ed1503cbb440e5568cf2ce7fd578e61a2484d018edd4c4c5b0bc2bd92430a0b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LZ!-ASTR.ANS by Lizard (act-0496); released in act-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -55,8 +55,8 @@ Write-Host '
      [1;30m▓▓▒▒[0m
      [1;30m░░[0m
   [1;30m▄■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▄ [0m
- [1;30m█            you''ve just watched[0m [1;30man original [0maction[1;30m ansi by [0mlizard[1;30m           █[0m
+ [1;30m█                               [0m [1;30m            [0m      [1;30m         [0m      [1;30m           █[0m
  [1;30m█────────────────────────────────────────────────────────────────────────────█[0m
- [1;30m█[0m [1;30m [0m              [1;30munlike the other artists i do [0mfree[1;30m requests..            [0m [1;30m [0m [1;30m█[0m
- [1;30m█[0m [1;30m     [0m     [1;30mso contact me on my board or mail [0mg.wijnalda@net.hcc.nl     [1;30m    [0m [1;30m█[0m
+ [1;30m█[0m [1;30m [0m              [1;30m                              [0m    [1;30m                       [0m [1;30m [0m [1;30m█[0m
+ [1;30m█[0m [1;30m     [0m     [1;30m                                  [0m                          [1;30m    [0m [1;30m█[0m
   [1;30m▀■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■▀[0m'

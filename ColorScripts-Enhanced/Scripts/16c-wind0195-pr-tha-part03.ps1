@@ -5,7 +5,7 @@
 # Source SHA-256: c47b23cee36ff2dfedbddcf7bbe4ef4754936cceff8a5f33cdf1bb0162402630
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR-THA.ANS by Pr0phet (WiND `95); released in wind0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Heretic Asylum
 # SAUCE Author: Pr0phet
 # SAUCE Group: WiND `95
@@ -42,17 +42,17 @@ Write-Host '
                     [1;30m░[0m              [1;30m░[0m                 [1;30m▒[0m
                                                      [1;30m░[0m
 
-                          Sy[1;30msMold · [0mJe[1;30mllo [0m[R[1;30mELiC PRe[0mZ]
+                            [1;30m        [0m  [1;30m    [0m  [1;30m        [0m  
                                40[1;30m4 · [0m94[1;30m7 · [0m25[1;30m00[0m
-                            Ru[1;30mnning [0mOB[1;30mV[0m/2  @ 14[1;30m.4k[0m
+                              [1;30m      [0m  [1;30m [0m        [1;30m   [0m
 
-                   RE[1;30mLiC [0mWH[1;30mQ · [0mDi[1;30mstorted [0mDi[1;30mstro · [0mCR[1;30miSiS [0mSH[1;30mQ[0m
+                     [1;30m    [0m  [1;30m    [0m  [1;30m        [0m  [1;30m       [0m  [1;30m     [0m  [1;30m [0m
 
 
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-φ [1;30mwhy oh why do we go on... [0mφ [1;30mhowdee to Jello and Flood and rest of RELiC [0mφ [1;30mthen[0m
-[1;30ma hardee greeting to SleepWalker, Mighty Mighty Xerobe, and SynSnaX [0mφ [1;30ma whooping[0m
-[1;30mhigh-five to the RiFTMuD crew [0mφ [1;30mpitt (c) dk and image comics [0mφ [1;30mi''m getting rusty[0m
-[1;30minstead of improving [0mφ [1;30msepulfuckingtura/fudge tunnel/fear factory [0mφ [1;30mAiDS sucks [0mφ
+  [1;30m                          [0m  [1;30m                                            [0m  [1;30m    [0m
+[1;30m                                                                    [0m  [1;30m          [0m
+[1;30m                              [0m  [1;30m                             [0m  [1;30m                 [0m
+[1;30m                     [0m  [1;30m                                           [0m  [1;30m           [0m 
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌[0m■[31m<┐W/┤R[0;37m■[0;1;30m▐▀▀[0m
 P R I N C E  O[1m [0mF  W i N D  [1mP [0mr o d u c t i o n s   [1m1 [0m9 9 5   [1mφ[0m      [1;30m▌05[0;31m│[0;1;30m20[0;31m│[0;1;30m94▐[0m'

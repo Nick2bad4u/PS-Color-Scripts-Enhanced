@@ -5,25 +5,25 @@
 # Source SHA-256: d2fc68dc43a02f927ee7b2fc26ee63d51e21824fc91dfa0bac0eb422dd9aa2e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ-NACHO.ICE by Blazer (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
 [1;30m--------------------One Day Last May at pointblank.com--------------------------[0m
-[35mYou''re in [0;1;35mEllis Dee''s [0;35mprivate channel.[0m
-[35mChannel Topic: "[0;1;35mWhat should i call the board?[0;35m"[0m
-[1;37mEllis Dee [0;35mand [0;1;37mBerns [0;35mare here with you.[0m
-[1;35mJust enter "?" if you need any assistance.[0m
-[36m> Berns: [0;1;36mask neo achos to tell you the leather story[0m
-[1;36m>berns who? neo nachos?[0m
-[36m>> [0;1;36mDirected to Berns [0;36m<<[0m
-[36m> [0;1;32mBerns [0;36m([0;1;33mto you[0;36m): [0;1;32mno blazer you fool, neo chaos[0m
-[36m> [0;1;32mEllis Dee [0;36m([0;1;33mto you[0;36m): [0;1;32mneo nachos bahaha[0m
-[1;32m>ell hey, that would would be an awesome name for the board, it ranks right up[0m
-[1;32mthere with polyester[0m
-[36m>> [0;1;36mDirected to Ellis Dee [0;36m<<[0m
-[36m> Ellis Dee: [0;1;36mNeo Nachos! thats great![0m
+[35m          [0;1;35m            [0;35m                [0m
+[35m                [0;1;35m                             [0;35m [0m
+[1;37m          [0;35m    [0;1;37m      [0;35m                  [0m
+[1;35m                                          [0m
+[36m         [0;1;36m                                           [0m
+[1;36m                       [0m
+[36m   [0;1;36m                  [0;36m  [0m
+[36m  [0;1;32m      [0;36m [0;1;33m      [0;36m   [0;1;32m                             [0m
+[36m  [0;1;32m          [0;36m [0;1;33m      [0;36m   [0;1;32m                 [0m
+[1;32m                                                                              [0m
+[1;32m                    [0m
+[36m   [0;1;36m                      [0;36m  [0m
+[36m             [0;1;36m                        [0m
 [1;30m-----------------------------And so it was--------------------------------------[0m
               [1m▒░▒░[0m▓▓█[1m█▓█▓█▓█▓█▓▒░▒[0m
              [1m▀ ░▓█▓█▓▒[0m▓██▓█▓[1m█▓█▓▒░▒[0m     [1;30mIt has been established that my ansi[0m

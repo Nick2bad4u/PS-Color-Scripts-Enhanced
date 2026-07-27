@@ -5,7 +5,7 @@
 # Source SHA-256: 5aa2a45921ba96410774ed12f5b7692064cbd51e37c379fbdb72bf443b2f0216
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVK-MAIL.ANS by AlvaK (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mail on Final Refuge
 # SAUCE Author: AlvaK
 # SAUCE Group: rARE!ASCii
@@ -27,13 +27,7 @@ Write-Host '
 [1;30mÑ$ [0;1;34m$$[0;34m$:[0;1;33ml[0;1;32mÑ$[0;32m$$Ñ[0;1;30m; [0;1;33mj[0;1;32m$$[0;32mÑ$$[0;1;30ml[0;34m:$[0;1;34m''[0;1;33mj[0;1;32m$$[0;32mÑ$$[0;1;30ml [0;1;32m`[0;32m╜[0;1;30m²[0;1;34m,[0;1;33m;[0;1;32mÑ$[0;32m$Ñ$[0;1;30m; [0;1;34m''[0;1;33mj[0;1;32mÑ[0;32m$Ñ$[0;1;30m$;[0;34m:Ñ$$[0;1;34m$ [0;1;33ml[0;1;32m$$[0;32m$Ñ$[0;1;33m.,[0;1;32m╖gg@@S[0;32mÑ$[0;1;30m²[0;34m,Ñ$[0;1;34m''[0m
 [1;30m₧''[0;1;34mj$[0;34mÑ''[0;1;33m,[0;1;32m$$[0;32m₧$Ñ$[0;1;30m$ [0;1;32m$Ñ$[0;32m$Ñ$$[0;1;30m,[0;1;34m` [0;1;33m$[0;1;32mÑ$[0;32m$$Ñ$[0;1;30m,[0;34m`$$[0;1;34m:[0;1;33ml[0;1;32m$Ñ[0;32mÑ$$[0;1;30m$  [0;1;33m$[0;1;32m$[0;32mÑ$$Ñ[0;1;30ml [0;34m$₧[0;1;34m$''[0;1;33m,[0;1;32m$Ñ[0;32mÑ$$$Ñ$$$$$Ñ$[0;1;30m$²[0;34m,$$''[0;1;30m,[0m
 [1;30m''[0;1;34m,$[0;34m₧''[0;1;33m,₧[0;1;32mÑ[0;32mÑ$₧$[0;1;30m₧F [0;1;32mT$[0;32mÑ₧$₧[0;1;30m$₧, [0;1;33mT[0;1;32m$[0;32m$Ñ₧$[0;1;30m₧$,[0;34m²[0;1;34m²[0;1;33m,[0;1;32m₧$[0;32mÑ$₧Ñ[0;1;30ml  [0;1;33ml[0;1;32m₧Ñ[0;32mÑ$₧[0;1;30m$, [0;1;34m$''[0;1;33m,¢[0;1;32m╜²"[0;32m''^``^^''²[0;1;30m╜¢P''[0;34m,$Ñ''[0;1;30m,¼[0m
-[1;34m,$[0;34m$bygyygyyy[0;1;34my[0;34myygyyyyyyy[0;1;34my[0;34mgyyygyyyy[0;1;34my[0;34myyygyyyygy[0;1;34mu[0;34myygyyyygy[0;1;34my[0;34m$gyy%@SS[0;1;34m₧[0;34m$₧SS@%ygyS₧$''[0;1;30m,ÆÑ[0m
+[1;34m  [0;34m          [0;1;34m [0;34m          [0;1;34m [0;34m         [0;1;34m [0;34m          [0;1;34m [0;34m         [0;1;34m [0;34m        [0;1;34m [0;34m             [0;1;30m   [0m
 [1;34m²[0;34m²²ⁿ²ª²²ⁿ²²²²[0;1;34m¢[0;34m²²ªⁿ²²ªⁿ²²[0;1;34m¢[0;34m²²ⁿª²²²[0;1;34m¢[0;34m²²²ⁿ²ª²ⁿ²²ª²[0;1;34m¢[0;34m²²²ⁿ²ª²[0;1;34m¢[0;34m²²ⁿ²²ª²""^[0;1;34m¢[0;34m^""²²²²²²²''[0;1;30m,Ñ₧$[0m
 [34m              [0;1;34m`∙.[0m [34m       [0;1;34m`·  [0;34m.[0;1;34m·''[0;34m              [0;1;34m`·[0;34m.  [0;1;34m·''[0;34m            [0;1;34m`∙.[0;34m_[0;37m [0;34m          [0m
-                  [34m`[0m        [34m`[0m
-
-   [37mI used it for my board... So leave it alone![0m
-                             [1;30m(your users would think your board is lame too!=)[0m
-                 This would be my first release for rARE!Ascii,
-               after quiting infernal 413... it''s dead now! whaha.. ;)
-                             [1;30mAlvaK - rARE!ASCii[0m'
+                  [34m`[0m        [34m`[0m'

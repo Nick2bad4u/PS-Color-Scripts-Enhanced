@@ -5,7 +5,7 @@
 # Source SHA-256: 098449bf68722ffe965deac7dc5acb745cbffe2b5ba51885694a834103834be8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-PD.ANS by simon king (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pixadelic dreams
 # SAUCE Author: simon king
 # SAUCE Group: lure
@@ -36,7 +36,4 @@ Write-Host '
 [1;37m██[0m  [1m██[0m  [1m██[0m  [1m▒▒[0m                ░░░      ░░░        ░░░  ░░░         ░░
  [1m ██[0m  [1m██[0m  [1m▓▓[0m  [1m░░[0m             ░██▀█[1;47m▀[0m █[1;47m▀[0m ▀▀▄▀[1m▀[0m ██[1;47m ▀[0m ██▀[1m▄[0m░███[1;47m▀[0m █[1;47m▀[0m ░█[1;47m▀[0m ██[1m▀[0m
 [1m██[0m  [1m██[0m  [1m██[0m  [1m▒▒[0m                [1;30;47m▄[0m█▀▀ ░[1;30m▄[0m▄ [1;30;47m▄[0m█ ██░[1;30;47m▄[0m█▄▄ [1;30;47m▄[0m█▄▀ [1;30;47m▄[0m█▄▄░[1;30;47m▄[0m█▄ [1;30m▄[0m▄ [1;30;47m▄[0m██░
- [1m ██[0m  [1m██[0m  [1m▓▓[0m  [1m░░[0m               p    i   x    e ░░ d    e    l░░ i   c
-
-[1;30m         ansi done by simonking/thelo0p^impure [simonking@poczta.onet.pl][0m
-                     [1;30mrequested by pix/impure1940[0m [1;30m(greetz!)[0m'
+ [1m ██[0m  [1m██[0m  [1m▓▓[0m  [1m░░[0m               p    i   x    e ░░ d    e    l░░ i   c[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 107da4419fbd8dc3e6388b673d61d7f17db406a8ce9257ecf6e5e81982149065
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D1_AWE3.ANS by Dissonance (Glue); released in glue-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: AWE Lettering Tribute
 # SAUCE Author: Dissonance
 # SAUCE Group: Glue
@@ -44,17 +44,4 @@ Write-Host '
    [1;33mAWE [0;1;37mLettering - I won''t [0m     [1;34m▄[0m [30;47m███[0;1;33;40m▄[0;30;44m█▄▄▄[0;34;47m▓[0;37;44m [0;1;34;47m▀[0;1;36;44m░░[0;44m░[0;34;47m▓[0;30;44m  [0;1;36;40m░░▓[0;36;44m▄[0;30;44m [0;36;44m [0;1;36;44m▒[0;36m▓▓▓[0;36;44m▀[0;30;44m ░[0m     [1;37;40m▀[0m [1m▄[0;1;33m▄[0m [1;33m▀[0m
 [1m [0m  [1mforget.  1996 to 1999.[0m         [1;34m▀[0;1;37m▀[0;30;47m█[0m   [35;40m  ░░[0;30;45m▓[0;34;40m▀[0;30;44m▄▄▄[0;36;44m░[0;34;46m▓[0;1;36;40m▓▓[0;36;44m▀▀[0;37;40m [0;30;44m▄[0;1;37;44m▓[0;1;36;44m▓▓▓[0;1;34;44m▄[0;30;44m ▓[0m   [30;47m▀[0m
 [1;30;40m                       [0m                                  [30;44m▄[0;1;37;44m▓▓▓[0;1;34;47m▓[0;30;44m▄[0m
-[1;30;40m                                   [0m                        [1m ▀[0m
-
-[1mThis piece marks the end of a[0m [1mphase of my art scene career (hah).  I''m glad[0m
-[1mto be back in [0;1;33mGlue[0;1;37m and it''s quite nice to have the weight of a group off my     [0m
-[1;37mback.  I''m looking forward to kicking back and doodling a lot more[0m [1min months to[0m
-[1mcome.                    [0m
-
-[1mThe following persons had an influence on the way this ansi turned out:         [0m
-[1mAvenger, The Night Angel, Grindstoned, Beth Gibbons, [0;1;33mJason Becker[0;1;37m (this man is [0m
-[1mmy biggest inspiration as of late), Robert Smith, all the girls who broke my[0m
-[1mheart.[0m
-
-[1mI''ve nothing to draw, so interact with me at [0;1;33mdee_one@usa.net[0;1;37m and I''ll arrange[0m
-[1msome blocks in your name.  Take care all.[0m'
+[1;30;40m                                   [0m                        [1m ▀[0m'

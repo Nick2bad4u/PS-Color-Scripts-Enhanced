@@ -5,7 +5,7 @@
 # Source SHA-256: 752c925d2874322e68df1abb16642d95b28c428b2056289d243cb28e24afd50a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GS-VOS1.ANS by Ghengis (ACiD Productions); released in acdu1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Visions of Sacrifice
 # SAUCE Author: Ghengis
 # SAUCE Group: ACiD Productions
@@ -55,5 +55,5 @@ Write-Host '
    [1;30m ▒▓[0m      [1;30m▒░[0m       [1;30m▒▓▀▀[0m [1;30m▓▒[0m     [1;30m░▓▀[0m        [1;30m ▀ ▀▓░ ▀▀ [0m [1;30m         [0m [1;30m    ▄■█▒[0m [1;30m ▄▒ ░▒[0m
 [1;30m▀[0m   [1;30m▀[0;34m [0;1;30m╓[0;1;34m v[0m [1;30m▀[0m [1;34mi[0m [1;34m [0m [1;34ms[0m   [1;34mi[0m [1;30m▒[0m [1;34mo[0m   [1;34mn  [0m [1;34ms[0m [1;30m░[0;1;34m [0m  [1;34mo[0m  [1;34mf[0m  [1;30m■ [0m  [1;34ms[0m  [1;34ma [0m [1;34mc[0m  [1;34mr [0m [1;34ma[0m [1;30m░[0;1;34mf[0m [1;34m i  c  e[0;1;30m ╖[0m    [1;30m▓[0m
   [1;30m▒▓ [0;34m [0;1;30m╙─────────────────────────────────────────────────────────────[0m [1;30m▒[0m [1;30m───╜[0m  [1;30m▀[0m
-[1;30m▓▄[0m [1;30m [0m [34m  [0m   [1;30m▀[0m      [34m [0;1;30m╓ [0;34mrun by that coolio foolio: heatwave[0;37m [0;1;30m╖[0m    [1;30m▀[0m    [1;30m■[0m      [1;30m▄[0m  [1;30m▀  [0m
+[1;30m▓▄[0m [1;30m [0m [34m  [0m   [1;30m▀[0m      [34m [0;1;30m╓ [0;34m                                   [0;37m [0;1;30m╖[0m    [1;30m▀[0m    [1;30m■[0m      [1;30m▄[0m  [1;30m▀  [0m
 [1;30m▀[0m    [1;30m■[0;34m [0;37m [0;1;30m [0m   [1;30m■[0m    [34m [0;1;30m╙─────────────────────────────────────╜[0m               [1;30m▀▀[0m'

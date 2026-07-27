@@ -5,7 +5,7 @@
 # Source SHA-256: 814d0faaba101da4b8d963be9ddcc52200a6db24e65091d104004b3c1232aa36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PRM-COMB.ANS by Prism (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Colly
 # SAUCE Author: Prism
 # SAUCE Group: Union
@@ -37,10 +37,4 @@ Write-Host '
 [36m███[0;36;46m    [0;36;40m▓[0;30;46m▄▄[0;36;40m▀▀ [0;1;33;40m▄▄▄ [0;1;33;43m▓▓█▓▓▒░░  [0;33m█▓▒  ░ ▐▓▀  [0;1;33m▄▄[0;1;33;43m▓▓[0;1;33;40m▌▐[0;1;33;43m█▓▓▒▒░░░░  [0;33m█[0;1;33;43m░[0;33m█[0;1;33;43m░▒[0m [1;33;43m▓▓▒▒▒░[0;33m▀▀▀▀[0;1;33;43m░[0;33m▀▀▀  ░[0m
 [36m█[0;36;46m   [0;36;40m▀[0;30;46m▄[0m [1;33;40m▄░[0;1;33;43m▓[0;1;33;40m▄[0;1;33;43m█▓▓▒▓▓[0;33m▄[0;1;33m▀[0;1;33;43m▒▓▒░   [0;33m▓[0;33;43m [0;33;40m▓▓▒░   [0;1;33;40m▄▀[0;1;33;43m▓▒▒░[0;33m█▓ [0;1;33;43m▓▒▒░░░   [0;33m█[0;1;33;43m░[0;33m▀▀▀█[0;33;43m [0;1;33;43m░[0m  [1;33;43m▒[0;1;33;40m▀[0m      [33m▄▄▄▄████[0m
 [33;46m [0;30;46m░▄[0m [1;33;40m▄[0;1;33;43m▓▓▒▒[0m [1;33;43m▓▒▒░▒▒▒▒▓[0m [1;33;43m▓▒░ ░   [0;33m█▓▓▒░[0;1;33m▄[0;1;33;43m█▓░[0;1;33;40m▄▄[0;1;33;43m░[0;33m█▓░[0;1;33m▐[0;1;33;43m▒▒░   ░[0;33m▀▀[0m       [1;33m░   [0;33m▄▄▄██████▓▓▓▓[0;33;43m  [0m
-[36;40m▀ [0;1;33;40m▄ [0;1;33;43m▓▒▒▒░░[0;33m▄[0;1;33;43m░░[0;33m█[0;1;33;43m░ ░░▒▒[0m [1;33;40m▀▀[0;33m▀▀[0;1;33;43m░░░[0;33m██▀▄ [0;1;33m▀[0;1;33;43m██▓▒░[0;33m█▒░ [0;1;33;43m▓▒░ [0;33m▀▀prm°union▄▄▄█▓ ▓████▓▓▓[0;33;43m [0;33;40m▀▀▀▀▀[0m
-
-[33;40m   [0;1;31;40mWell, this is my first release with Union.. and I''d like to thank everyone[0m
-[1;31;40m in union for being cool to me and for helping me out.  Sorry to abom about[0m
-[1;31;40m that joint ansi:L, and thanks to psybrrape and blendz for doodling those fonts[0m
-[1;31;40m for me.. peace to ky, scandalous, devious, icon, mistigris..   ..laidwhores[0m
-'
+[36;40m▀ [0;1;33;40m▄ [0;1;33;43m▓▒▒▒░░[0;33m▄[0;1;33;43m░░[0;33m█[0;1;33;43m░ ░░▒▒[0m [1;33;40m▀▀[0;33m▀▀[0;1;33;43m░░░[0;33m██▀▄ [0;1;33m▀[0;1;33;43m██▓▒░[0;33m█▒░ [0;1;33;43m▓▒░ [0;33m▀▀prm°union▄▄▄█▓ ▓████▓▓▓[0;33;43m [0;33;40m▀▀▀▀▀[0m'

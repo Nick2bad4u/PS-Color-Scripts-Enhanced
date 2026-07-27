@@ -5,7 +5,7 @@
 # Source SHA-256: 374e050b2cead2e7547450a6acb856d8c84afb06ea2e3c9e344e7869a1957404
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (A)L2^97.ANS by Tricycle + Alecs (PHAT STUDIOS '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo cluster 2^97
 # SAUCE Author: al3cs
 # SAUCE Group: PHAT STUDIOS '97
@@ -16,9 +16,9 @@
 
 Write-Host '
                                 /_/\
-b  na kollegas...schockt das!?  .sS$
-ⁿb.   painten oder putzen!  .sS$$ⁿ$$
-.ⁿ$$S%baaaaaaaaaapaaaaagaaad$$$$$s$$
+                                    
+                                    
+                                    
  °   .:°ⁿ°.   S  .     :   .  °ⁿ$$$ⁿ
   ,   .       :    ∙ ''       .
 
@@ -52,15 +52,15 @@ b  na kollegas...schockt das!?  .sS$
 ░    ▀  [1;30m░░[0m      [1;30m▀[0m     [1;30m░░[0m   [1;30m▀[0m   [1;30m▄[0m          [1;30m▀[0m     [1;30m▄[0m                 [1;30m▀[0m           [1;30m▄[0m
         ▀[1;47m▄▄▄▄[0;1;40m▄[0m         [1;30m▄[0m          [1m▄▄▄[0m   [1m▄ ▄▄ ▄▄▄▄[0m   [1;30m▀[0m     [1m▄▄▄▄▄▄▄▄▄▄[0m    [1;30m▄[0m    [1;30m▀[0m
 [1;46m▓[0;1;33;40m▀[0;1;37;40m▒▀▀[0;1;37;46m▄▓[0;1;37;40m▀[0;1;33;40m▀[0m   [1;36m▄[0;1;37m ▄[0;1;33m▀▀[0;1;37m▀▀[0;1;33m▓[0;1;37m▀▀▀▄▄[0m▀▀▀[1;33m▀[0m░[1m ▀▀ ▀[0;1;33m▀▀▀[0;1;37m▀▀[0;1;37;46m▄[0;1;37;40m▀▀[0;1;37;46m▓▒[0;1;37;40m [0;1;33;40m▀[0;1;37;40m▀▀ ▀ [0;1;33;40m▀[0;1;37;40m ▀[0;1;33;40m▀[0;1;37;40m▓░▄▀[0;1;33;40m▀▀[0;1;37;40m▀▀▄▒░ [0;1;33;40m▀[0;1;37;40m▀▀▓[0;1;36;46m░▓[0;1;36;40m▀[0;1;33;40m▄▄[0;1;37;40m▓▀[0m
-[1m█[0m                           [1;36msome greetz fly out to...[0m                        [1m▐[0;1;36m▓[0m
-[1;33;46m▓[0;1;33;40m▌[0;1;36;40m      animal   assign   avenger   blade   buster   cruz   dv8   eric[0m       [36m▀[0;1;33m▓[0m
-[1;36;46m▌[0;1;33;40m [0;1;36;40m   faxe   helter skelter   jey   kraut   kyp   larry   leonardo   lure [0m
-[1;36mmasterbeat   noize  outraider   paralyzer   poti   schtroumpf [0m  [1;36mshivat  starfox[0m
-[1;33;46m▓[0;33m▄[0;1;33m  ░               [0;1;36m    [0m    [1;36m tricycle and xtralarge[0m                         [1;33m ▄[0;1;33;43m▓[0m
-[1;33;46m▄[0;1;33;43m▓[0;1;33;40m░      ▄▄     [0m [1;33m    [0;1;36m(BIG greet-sections r about to roole :)) [0m           [1;33m▄▓[0;1;36m▄[0;1;33m▓[0;1;33;46m▓[0;1;33;43m░[0m
+[1m█[0m                           [1;36m                         [0m                        [1m▐[0;1;36m▓[0m
+[1;33;46m▓[0;1;33;40m▌[0;1;36;40m                                                                    [0m       [36m▀[0;1;33m▓[0m
+[1;36;46m▌[0;1;33;40m [0;1;36;40m                                                                       [0m
+[1;36m                                                              [0m  [1;36m               [0m
+[1;33;46m▓[0;33m▄[0;1;33m  ░               [0;1;36m    [0m    [1;36m                       [0m                         [1;33m ▄[0;1;33;43m▓[0m
+[1;33;46m▄[0;1;33;43m▓[0;1;33;40m░      ▄▄     [0m [1;33m    [0;1;36m                                         [0m           [1;33m▄▓[0;1;36m▄[0;1;33m▓[0;1;33;46m▓[0;1;33;43m░[0m
 [1;33;43m▄[0;1;33;40m▀▀▄▀[0;1;36;40m▀[0;1;33;40m▀▀[0;1;33;43m▓▄[0;1;33;40m░▀ ▄▄[0;33m▀▀▀▓▀[0;1;33m ░▒[0m▓█[33m▀▀[0;1;33m▀ ▄ ▀▀ ▀  ▓▄[0;33m▀[0;1;33m▀[0m▄▄[1;33m░▒[0;33m▓[0;1;33m▀▀▀▄[0;33m▄[0;1;33m▀▄[0;33m▀▀[0;1;33m▀▄▄ [0m▀▀[1;33;43m▀[0;1;33;40m░░▀▀[0;1;36;40m▀▀[0;1;33;40m▓ ▄▄█▄[0;33m▄[0;1;33;43m░▒[0;1;33;40m▓▌[0m
-[1;33;43m▓[0;33m▌[0;1;36mrequests, comments or critics!? alecs1@aol.com...[0;33m▓[0;1;33m▌[0;1;36myou may use these ansees,[0;33m▓[0m
-[33m▀[0;1;33;43m▄[0;33m▄[0;1;36m           or catch me on IRC![0m [1;36m(alecs)[0m          [33m▐[0;1;33m▄[0;1;36m but leave my signature! [0m▐
+[1;33;43m▓[0;33m▌[0;1;36m                                                 [0;33m▓[0;1;33m▌[0;1;36m                         [0;33m▓[0m
+[33m▀[0;1;33;43m▄[0;33m▄[0;1;36m                              [0m [1;36m       [0m          [33m▐[0;1;33m▄[0;1;36m                         [0m▐
 [1;43m▓░[0;33m▀[0;1;33;43m▄░[0;33m▄[0;37m▀[0;33m▄[0m   [33m▄ ▄ ▓▄▄  ░[0;1;37;43m░▄[0;33m▄▄▄▄ ▄[0m   [33m▀▄[0;37m▄[0;33m▄▄[0;1;33;43m░[0;33m░ ▄▄ ▄▄▄ ▄ [0;37;43m░[0;33;47m▓[0;1;33;43m▓[0;1;37;43m░▒[0;33m▄  ▄ ▀[0;1;37;43m▄[0;33m▄▄  ▄▄▄[0;1;37;43m▓[0;33m░  ▄[0;1;37;43m▒▒░[0;33m ▄[0;1;33;43m▓[0m
 [33m▀[0;1;36m▄█▄▄▄[0;1;36;46m▒[0;1;36;40m▄[0;33m▀▀▀[0;1;36m▄▄[0m▀[1m▄[0;1;36m▄▄▄[0;1;36;46m▓[0;1;36;40m█▄▄[0;33m▀[0;1;37m▄[0;1;36m▄▄▄[0;33m▀▀▀[0;1;36m▄[0;33m▀[0;1;36m▄[0;33m▀[0;1;36m▄[0;33m▀[0;1;36m▄▄▄[0;1;36;46m▓▓[0;1;36;40m▄█▄[0;1;37;40m▄▄[0;1;36;40m▓▄[0;1;36;46m▓▓[0;1;36;40m▄▄▄[0m  [1;36m▄[0;33m▀[0;1;36m▄[0;1;37m▄[0;33m▀▀▀[0;1;36m▄▄[0;33m▀▀[0;37m [0;1;36;46m▓[0;1;36;40m▄▄[0;1;37;43m▀[0;33m▀▀▀[0;1;36m▄▄[0;1;36;46m▓[0;1;37;40m▄▄[0m
 [1;36m██[0;1;36;46m▓▓[0;1;37;40m██[0;1;36;40m██████[0;1;36;46m▓[0;1;36;40m██████████[0;1;37;40m█[0;1;36;40m██████████████[0;1;37;40m██[0;1;36;40m███[0;1;36;46m▓▓▓[0;1;36;40m█████[0;1;37;40m█[0;1;36;40m█[0;1;36;46m▓[0;1;36;40m█████████[0;1;36;46m▓[0;1;37;40m██[0;1;36;40m██[0;1;36;46m█▒▒[0;1;36;40m██████[0;1;36;46m▓▓[0m'

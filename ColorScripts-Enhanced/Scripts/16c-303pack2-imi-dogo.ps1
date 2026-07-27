@@ -5,7 +5,7 @@
 # Source SHA-256: 1d20a4a27836897d7de43a4090ede09923cf4670b55908d2fd6c5a814552f9fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IMI-DOGO.ANS by imani (swat, 3o3, twisted); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dogobert
 # SAUCE Author: imani
 # SAUCE Group: swat, 3o3, twisted
@@ -50,17 +50,11 @@ Write-Host '
           [1;34m,$$. ,..[0m    [1;34m,..[0m   [1;34m ²²²[0;1;37m   [0m                      [1;34m$$$[0m
           [1;34m$[0;1;37m$$[0;1;34m$╧ⁿ²"²$$$²"╧$$$4$$$i$▓$╧²ⁿ""ⁿ²╤.[0m [1;34m,n$╧ⁿ²""²ⁿ╧$$$[0m
           [1;34m$[0;1;37m$$[0;1;34m''[0m     [1;34m$$$   `$$i$$$m$$[0m        [1;34m%²$$$$[0m        [1;34m$$$[0m
-        [1;30m  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm       [0m
+        [1;30m                                                           [0m
           [1;34m$[0;34m▓[0;1;34m$[0m       [1;34m`$[0m    [34m$$[0;1;34mi$$$$$$[0m        [1;34m$$[0;34m$[0;1;34m`²$#%n..n%#$²''[0m
           [1m   [0m             [1m  [0;1;34m               [0;1;30m  [0;1;34m              r a p e [0m
-          [1m   [0m             [1m  [0m         [1;30m+o _logic_[0m
+          [1m   [0m             [1m  [0m         [1;30m          [0m
 
 
 
-[1;30m-------------------- Oh, damn those grey lines! -------------------------------[0m
-
- [1;30mIt''s Dogobert!![0m
- [1;30mDilberts dog..If you don''t know who Dogobert is then [0m
-[1;30m visit www.dilbert.com and you''ll find out.[0m
-[1;30m The font REALLY sucked...I suck at fonts.[0m
-[1;30m greets...Scott Adams?..[0m'
+[1;30m-------------------- Oh, damn those grey lines! -------------------------------[0m'

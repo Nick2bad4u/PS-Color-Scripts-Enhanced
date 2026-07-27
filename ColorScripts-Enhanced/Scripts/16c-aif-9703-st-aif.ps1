@@ -5,7 +5,7 @@
 # Source SHA-256: 5da5722f0a3457597fd57ad7441d507c733b07a352629af023fc7cba3a8c8478
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-AIF.ANS by splat ([guest artist]); released in aif-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: aif logo
 # SAUCE Author: splat
 # SAUCE Group: [guest artist]
@@ -29,6 +29,6 @@ Write-Host '
                  [36m▀[0;30;46m░[0;36;40m▓▄▄[0m     [36;40m ▀[0;1;32;40m [0;32m▄▄▄▄▄▓[0;30;42m▓[0;1;32;40m [0;36m▄[0;1;36m█[0;32m [0;1;36;46m▐[0;1;36;40m█[0;1;36;46m▀[0;36m▀▌[0m
                    [36m▀[0;1;36;46m░░░▓▓[0;36m▄▄▌ [0;32m▓[0;1;32;42m▓▓░░[0;32m▓[0;30;42m▓[0;1;32;40m  [0;1;36;46m▀[0;36m▀[0m
                     [36m▐[0;1;36;46m▓▓████▄[0;36m▄[0;1;32m [0;32m▀[0;1;32m▀[0;1;32;42m▓▓[0;30;42m▓[0m
-                   [36;40m▄[0;1;36;46m▄████████[0;36m▓▀[0;1;32m [0;32m   [0;30;42m█[0;1;32;40m  [0;1;37;40mAIF [0m+ [1mArt[0m [1min Fuck[0m
+                   [36;40m▄[0;1;36;46m▄████████[0;36m▓▀[0;1;32m [0;32m   [0;30;42m█[0;1;32;40m  [0;1;37;40m    [0m  [1m   [0m [1m       [0m
                   [36m▐[0;1;36;46m▄████[0;1;37;40m██[0;1;37;47m▀▀[0;1;30;47m▄[0;1;30;40m▀ [0m
                    [36m▀[0;1;36;46m▀▀▀▀[0m▀▀    [1;36m [0m'

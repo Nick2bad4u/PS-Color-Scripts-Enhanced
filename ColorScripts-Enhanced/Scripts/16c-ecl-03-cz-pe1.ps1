@@ -5,7 +5,7 @@
 # Source SHA-256: 8548e8cac98e3d7ca8b678569d0b0a1f2c0a75a1d23681c907c03f2d8b8b39c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-PE1.ANS by SWISS (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pile of crap
 # SAUCE Author: SWISS
 # SAUCE Group: eclipse
@@ -49,7 +49,4 @@ Write-Host '
 [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;30;41m [0;31;40m██[0;30;41m ▐█▌[0;31;40m██[0m
 [30;41m p[0;1;31;41m░░[0;30;41mr [0;31;40m█[0;30;41me  m [0;31;40m█[0;30;41ma [0;31;40m█[0;30;41mt [0;31;40m█[0;30;41mu [0;31;40m█[0;30;41mr [0;31;40m█[0;30;41me[0;31;40m█[0;30;41m   e  j[0;33;41m░░[0;30;41ma [0;31;40m█[0;30;41mc [0;31;40m█[0;30;41mu [0;31;40m█[0;30;41ml [0;31;40m█[0;30;41ma [0;31;40m█[0;30;41mt [0;31;40m█[0;30;41mi [0;31;40m█[0;30;41mo [0;31;40m█[0;30;41mn [0;31;40m█[0;30;41m. [0;31;40m█[0;30;41m.[0;31;40m█[0;30;41missue#  ██░░[0m
 [1;31;41m░░▒▒▒░░░░░[0;31m█████████████████[0;33;41m ░[0;31;40m█[0;33;41m░░░░▒▒[0;31;40m▀ ▀▀█▀██████████████████████[0;1;37;41m▄▄[0m▄[31m ▀[0;30;41m░░ ░▀ ▀▀▀▀▀[0m
-[37;40m  [0;1;31;40m░░░[0m                             [33m░░[0;37m                            ▀▀          [0m
-
-[37mwarpus: i owed you a 23liner, so heres a 35liner.. go figure <g> ..[0m
-[37mothers: dont rip this (i dont see why youd want to anyways..)[0m'
+[37;40m  [0;1;31;40m░░░[0m                             [33m░░[0;37m                            ▀▀          [0m'

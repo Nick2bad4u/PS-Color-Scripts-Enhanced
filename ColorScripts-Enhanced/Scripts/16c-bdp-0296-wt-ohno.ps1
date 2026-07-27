@@ -5,7 +5,7 @@
 # Source SHA-256: 659e8fecdb53b6de26dcf1cd7aa572e884cb1c0fbb379320b25c34aa74af0bce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WT-OHNO.ANS by Wild Thing (.boogiE%Woogie.); released in bdp-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Oh No! I'm the only bdpwoman!
 # SAUCE Author: Wild Thing
 # SAUCE Group: .boogiE%Woogie.
@@ -34,5 +34,5 @@ Write-Host '
                             [34;40m▐[0;34;44m  [0;34;40m▌ [0;30;44m▄▄▄▄▄▀▀▀        [0;31;40m▀▀▀▀▀▀▀▀▀[0m
                              [31;41m  [0;34;40m▐[0;34;44m             [0;30;44m▄▄▄[0m
                              [30;41m  [0;34;40m▐[0;34;44m            [0;30;44m▐[0m
-                             [30;41m  [0;34;40m▐[0;34;44m            [0m    [1;34;40m∞ [0;31mW[0;1;31mi[0;31mLD TH[0;1;31mi[0;31mNG [0;1;34m∞[0m
+                             [30;41m  [0;34;40m▐[0;34;44m            [0m    [1;34;40m  [0;31m [0;1;31m [0;31m     [0;1;31m [0;31m   [0;1;34m [0m
                              [1;34;41m  [0;34m▐[0;34;44m            [0;30;44m▐[0m'

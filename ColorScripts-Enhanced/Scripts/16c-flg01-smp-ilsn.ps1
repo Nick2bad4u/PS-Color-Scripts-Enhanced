@@ -5,7 +5,7 @@
 # Source SHA-256: 3f68f5afa52161021dc5309d4aa8405df6cd7e4d4d54e39a003c94013c52904e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-ILSN.ANS by Shrimp (flg01); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20010712
 # SAUCE Dimensions: 80x37
 # Lines: 1-37
@@ -37,15 +37,5 @@ Write-Host '
 [33m▀[0;1;33;43m▀▓▓▄[0;33m▄[0m                        [33m▀█[0;1;33;43m▐██▄[0;33m█▄[0m                 [33m▀▀█[0;1;33;43m▀[0;1;37;43m▀[0;33m█▀[0m       [33m▀▀[0m
 [33m  ▀▀[0;1;33;43m▀▀[0;33m█▄▄ ▄[0m                    [33m▐█[0;1;37;43m██[0;1;33;43m█▓░[0;33m▌[0m                    [33m▀[0m     [37mShrimp[0;1;37m([0;32mFoliage[0;1;37m)[0m
                               [33m▄[0;1;33;43m▄█▀▀[0;33m▀▀[0m
-[37mThis is my very humble[0m   [33m▄▄▄█▀▀▀[0m    [37mtribute to the late Israeli underground art[0m
-[37mscene, which was in[0;33m ▄  ▀▀[0m     [37mits glory around 1996/7. It''s dead now, pretty [0m
-[37mmuch like everything else. I just remembered how fun it was, even though I, [0m
-[37mpersonally, was considered to be the Israeli ''The Guardian'', so they didn''t like[0m
-[37mme much. The Israeli scene consisted of (random order): The late Night Daemon, [0m
-[37mCaviar, Metal Militia, The Martyr (Martz), Oatbran, Phanatik, Squish, Graphital,[0m
-[37mPhonyEye, Sticky Baboon, Firestorm, Volatile, Jizm, Bludgeon, Blutz, Psychohol-[0m
-[37mic Slag, Kaz, Stalker AKA Psylock AKA Polygon AKA Scyph AKA Cyogenic (fuck him),[0m
-[37mMyself (Shrimp), Toxid Rage, Biogenesis, Helicon, Desperado, Purify, Jekyll, [0m
-[37mHolograph, Borzom, Riff Raff, Fizz, Retal, Mental Trip.. This is all I remember.[0m
-[37mOh, and of course, our legendery channel, #972, which is now courtesy of a bunch[0m
-[37mof ignorant Israeli hacking thugs. *SIGH*. Everything dies. [0m'
+[37m                      [0m   [33m▄▄▄█▀▀▀[0m    [37m                                           [0m
+[37m                   [0;33m ▄  ▀▀[0m     [37m                                               [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f3f06f7a399789ef028f9def35c1045ac9faa50700cf941bc60c918f5608e1ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5B-PCM1.ANS by 5b (axf); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pc-main
 # SAUCE Author: 5b
 # SAUCE Group: axf
@@ -25,13 +25,13 @@ p s y c h i c              [1;30m     5b![0;36m▄▄▄▄[0;1;32m [0;1;33m
                         [1;30m    [0;1;33m▀[0;1;33;43m▓[0;1;33;40m▄▄▄▄▄▄█████▄▄▄▄▄▄▄▄▄█[0;1;33;43m▓[0;1;33;40m▀[0;33m    [0m
                                 [1;33m▀▀▀▀▀▀[0;1;33;43m▓[0;1;33;40m██████[0;1;33;43m▓[0;1;33;40m▀▀▀▀[0m
 
-     ([1mj[0m)[35m [0;37mjoin[0;35m [0;37mConference[0;35m [0;37m    [0;35m [0;37m([0;1;37mr[0m)[35m [0;37mread[0;35m [0;37myour[0;35m [0;37mMail[0;35m [0;37m    [0;35m [0;37m([0;1;37mv[0m)[1;30m [0mview[1;30m [0mstatistics[1;30m [0m
-     ([1ma[0m)[35m [0;37mjump[0;35m [0;37mto[0;35m [0;37mMain[0;35m [0;37mConf[0;35m [0;37m  [0;35m [0;37m([0;1;37me[0m)[35m [0;37menter[0;35m [0;37mMessage[0;35m [0;37m     [0;35m [0;37m([0;1;37mw[0m)[1;30m [0mwrite[1;30m [0muser[1;30m [0minfos[1;30m [0m
-     ([1mn[0m)[35m [0;37mnew[0;35m [0;37mfile[0;35m [0;37mScan[0;35m [0;37m      [0;35m [0;37m([0;1;37mq[0m)[35m [0;37mquick[0;35m [0;37mMail[0;35m [0;37mScan[0;35m [0;37m [0;1;30m [0m [35m [0;37m([0;1;37mbbs[0m)[35m [0;37mbbs[0;1;30m [0mlist[1;30m [0m
-     ([1mf[0m)[35m [0;37mfiles[0;35m [0;37mlist[0;35m [0;37m         [0;35m [0;37m([0;1;37mk[0m)[35m [0;37mkill[0;35m [0;37mMessage[0;35m [0;37m      [0;35m [0;37m([0;1;37mone[0m)[35m [0;37moneliner[0;1;30m [0m
-     ([1mz[0m)[35m [0;37mzippy[0;35m [0;37mdir[0;35m [0;37mscan[0;35m [0;37m     [0;35m [0;37m([0;1;37mc[0m)[35m [0;37mcomment[0;35m [0;37mto[0;35m [0;37mSysop[0;35m [0;37m  [0;35m [0;37m([0;1;37mwho[0m)[1;30m [0mwho''s[1;30m [0monline[1;30m [0m
-     ([1ml[0m)[35m [0;37msearch[0;35m [0;37mfilenames[0;35m [0;37m   [0;35m [0;37m([0;1;37mo[0m)[35m [0;37mpage[0;35m [0;37mthe[0;35m [0;37mSysop[0;35m [0;37m    [0;35m [0;37m([0;1;37muser[0m)[35m [0;37muser[0;1;30m [0mlist[1;30m [0m
-     ([1mu[0m)[35m [0;37mupload[0;35m [0;37mfiles[0;35m [0;37m       [0;35m [0;37m([0;1;37mb[0m)[35m [0;37mlist[0;35m [0;37mBulletins[0;35m [0;37m    [0;35m [0;37m([0;1;37mauto[0m)[1;30m [0mmail[1;30m [0msignature[1;30m [0m
-     ([1md[0m)[35m [0;37mdownload[0;35m [0;37mfiles[0;35m [0;37m     [0;35m [0;37m([0;1;37mg[0m)[35m [0;37mgoodbye[0;1;30m/[0mLogoff[35m [0;37m    [0;35m [0;37m([0;1;37mlord[0m)[35m [0;37mplay[0;1;30m [0monline[1;30m [0mLord
+      [1m [0m [35m [0;37m    [0;35m [0;37m          [0;35m [0;37m    [0;35m [0;37m [0;1;37m [0m [35m [0;37m    [0;35m [0;37m    [0;35m [0;37m    [0;35m [0;37m    [0;35m [0;37m [0;1;37m [0m [1;30m [0m    [1;30m [0m          [1;30m [0m
+      [1m [0m [35m [0;37m    [0;35m [0;37m  [0;35m [0;37m    [0;35m [0;37m    [0;35m [0;37m  [0;35m [0;37m [0;1;37m [0m [35m [0;37m     [0;35m [0;37m       [0;35m [0;37m     [0;35m [0;37m [0;1;37m [0m [1;30m [0m     [1;30m [0m    [1;30m [0m     [1;30m [0m
+      [1m [0m [35m [0;37m   [0;35m [0;37m    [0;35m [0;37m    [0;35m [0;37m      [0;35m [0;37m [0;1;37m [0m [35m [0;37m     [0;35m [0;37m    [0;35m [0;37m    [0;35m [0;37m [0;1;30m [0m [35m [0;37m [0;1;37m   [0m [35m [0;37m   [0;1;30m [0m    [1;30m [0m
+      [1m [0m [35m [0;37m     [0;35m [0;37m    [0;35m [0;37m         [0;35m [0;37m [0;1;37m [0m [35m [0;37m    [0;35m [0;37m       [0;35m [0;37m      [0;35m [0;37m [0;1;37m   [0m [35m [0;37m        [0;1;30m [0m
+      [1m [0m [35m [0;37m     [0;35m [0;37m   [0;35m [0;37m    [0;35m [0;37m     [0;35m [0;37m [0;1;37m [0m [35m [0;37m       [0;35m [0;37m  [0;35m [0;37m     [0;35m [0;37m  [0;35m [0;37m [0;1;37m   [0m [1;30m [0m     [1;30m [0m      [1;30m [0m
+      [1m [0m [35m [0;37m      [0;35m [0;37m         [0;35m [0;37m   [0;35m [0;37m [0;1;37m [0m [35m [0;37m    [0;35m [0;37m   [0;35m [0;37m     [0;35m [0;37m    [0;35m [0;37m [0;1;37m    [0m [35m [0;37m    [0;1;30m [0m    [1;30m [0m
+      [1m [0m [35m [0;37m      [0;35m [0;37m     [0;35m [0;37m       [0;35m [0;37m [0;1;37m [0m [35m [0;37m    [0;35m [0;37m         [0;35m [0;37m    [0;35m [0;37m [0;1;37m    [0m [1;30m [0m    [1;30m [0m         [1;30m [0m
+      [1m [0m [35m [0;37m        [0;35m [0;37m     [0;35m [0;37m     [0;35m [0;37m [0;1;37m [0m [35m [0;37m       [0;1;30m [0m      [35m [0;37m    [0;35m [0;37m [0;1;37m    [0m [35m [0;37m    [0;1;30m [0m      [1;30m [0m    
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5db25f711325047e0278235451f97f14fcc822c8ed9a67b18c5d4488d00637e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TPE-LOA.ANS by the platinum eagle (leper society); released in ls-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: library of alexandria
 # SAUCE Author: the platinum eagle
 # SAUCE Group: leper society
@@ -30,5 +30,4 @@ Write-Host '
           [1;37m$$[0;32m$$$$±,$$[0;1;37m$$[0;1;32m$$SGsxsS$[0;32mSsS$[0;37m [0;32m$$$$[0;1;32m╜[0m [1m$[0;32m$$[0;1;32m$$[0m     [1;32m$[0;32m$$$[0m [31m÷²''[0m
           [1;37m$$$[0;32m$$$$$$[0;1;32m$$$$S$S°°²[0;32m²²²²''[0;37m [0;1;31;41m$[0m     [1m$$[0;32m$$[0;1;32m$[0;1;32;42m░[0;1;32;40m$[0m   [1;32m$$[0;32m$[0;1;37m$[0;32m$[0;1;32m$[0m
           [1;37m`╙$[0;32m$[0;1;32;42m$[0;32m$$''`°°ⁿ[0;1;32m''[0m          [31m,$[0m      [37m [0;1;37m$[0;32m$$$[0;1;32m$$[0m  [1;32m$[0;32m$$$[0;1;37m$$[0;32m$[0m
-            [37m [0m                 [31m.∙²[0m          [1;37m`°[0;32m°ⁿ[0;37m [0m  [1;32m$$[0;32m$[0;1;37m$[0;32m$$[0m
-                    [36mLiBRARY[0;31m o[0;36mF[0;31m [0;36mALEXÅNDRiA[0m          [1;32m$°[0;32m°ⁿ[0m [32m¡tPé![0m [32m[lS][0m'
+            [37m [0m                 [31m.∙²[0m          [1;37m`°[0;32m°ⁿ[0;37m [0m  [1;32m$$[0;32m$[0;1;37m$[0;32m$$[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0b0796c4665767d0a1b95c1d549098d20ad287408c9ecc11db3d4ee3ed9b5a9d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RI-S7.ICE by rai (ice); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: saturn 7
 # SAUCE Author: rai
 # SAUCE Group: ice
@@ -37,8 +37,4 @@ Write-Host '
 ▄ [33m▀[0;1;31m▀▀[0;1;31;43m▀██[0;1;31;40m███████████████████████████████[0;1;31;43m▓[0;1;35;40m░[0;1;35;47m▓▓█[0;1;35;45m█[0m [1;35m▀▀▀▀[0m [1;35;47m▓▓[0;1;35;45m██[0;1;35;40m ███[0;1;35;45m▓[0;1;37;40m░[0;1;37;47m▓[0m                 [1;37;47m▓[0m
 [1;37;47m█[0;1;37;40m█[0;1;37;47m▓▄[0;1;37;40m▄▄[0m▄[1m [0;33m▀[0;1;31m▀▀[0;1;31;43m▀[0;1;31;40m████████████████████████████[0m [1;35m▀▀▀▀▀████  [0;1;31m▄▄[0;1;35m ▐██[0;1;35;45m▓[0;35m▌[0;1;37m░[0;1;37;47m█[0m                 [1;37;47m▓[0m
 [1;37;47m██[0;1;37;40m██████[0;1;37;47m▓▄[0;1;37;40m▄▄▄[0m▄ [33m▀[0;1;31m▀▀▀[0;1;31;43m▀[0;1;31;40m███████████████████[0;1;31;43m█[0;35m [0;1;35m███[0;1;35;45m▓[0;1;35;40m ███[0;1;35;45m▓[0;35m▌[0;1;35m [0;1;31;43m██[0;1;35;40m ▐██[0;1;35;45m▓[0;35m▌[0;1;37m░[0;1;37;47m▀[0m                 [1;37;47m▀[0m
-[1;37;47m██[0;1;37;40m█████████████[0;1;37;47m█▓▄[0;1;37;40m▄▄▄[0m▄[1m [0;33m▀[0;1;31m▀▀▀[0;1;31;43m▀██[0;1;31;40m█████████[0;1;31;43m▓[0;35m [0;1;35m████▄▄██[0;1;35;45m▓[0;35m▌[0;1;31m [0;33m▀▀[0;1;35m ▐██[0;1;35;45m▓[0;35m▌[0;1;37m░[0m█▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄█
-
-this is for [1msaturn seven[0m, opd by [1mext- of teklords[0m, and only for him, that box
-may not work for a matrix, but mess with the thing, or just get rid of the box
-or whatever .. but dont touch the pic.. :) 100% elite, by [1mrai[0m ..[0m'
+[1;37;47m██[0;1;37;40m█████████████[0;1;37;47m█▓▄[0;1;37;40m▄▄▄[0m▄[1m [0;33m▀[0;1;31m▀▀▀[0;1;31;43m▀██[0;1;31;40m█████████[0;1;31;43m▓[0;35m [0;1;35m████▄▄██[0;1;35;45m▓[0;35m▌[0;1;31m [0;33m▀▀[0;1;35m ▐██[0;1;35;45m▓[0;35m▌[0;1;37m░[0m█▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄█[0m'

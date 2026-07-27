@@ -5,7 +5,7 @@
 # Source SHA-256: cd7634f32049a228ae5665244925d22388b57216bb962dd80da2fd81f1d0a5da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AY-GSHFT.ANS by Asylum (Shiver); released in shv-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Graveyard Shift
 # SAUCE Author: Asylum
 # SAUCE Group: Shiver
@@ -48,7 +48,4 @@ Write-Host '
                                     [31m▒[0m   [31m█[0m                 [31m░[0m
                                     [31m▓[0m   [31m█[0m                 [31m▒[0m
                                     [31m▀[0m                     [31m▓[0m
-                                        [31m█[0m                 [31m▀[0m
-
-
-'
+                                        [31m█[0m                 [31m▀[0m'

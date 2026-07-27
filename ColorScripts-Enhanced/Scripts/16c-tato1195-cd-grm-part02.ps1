@@ -5,7 +5,7 @@
 # Source SHA-256: df8fa8dc69dade8fbf242cb4f8916f3804c0c3c7acd16f861fb5251d4987dfeb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!-GRM!.ANS by cREEPiNG dEATH (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fREE aNSi!
 # SAUCE Author: cREEPiNG dEATH
 # SAUCE Date: 19951027
@@ -39,9 +39,9 @@ Write-Host '
 [1;30;40m████▓████▄▀████████▄▓[0m    [1;30m░[0m               [31m▐[0m           [1;30m▀▀▀▀▀▀▀▀▀▀▄▓▄██████▓███▀▄██[0m
 [1;30m███████████▄▄▀▓▀███████▄[0m              [1;30m░[0m        [1;30m Cd!▄█████████████████████▀▀▄████[0m
 [1;30m───────------∙---───---------[START CUTING HERE]-──--------∙∙-----─------∙-─────[0m
-[1;30myet another free ansi... put yar bbs logo down here... and pliz.... if u using[0m
-[1;30mthiz ansi.. at least dont take all my shity stuff exept thiz paragraph.....[0m
-[1;30mif u want yar own ansi... contact me in dIgitize hOrror.+972.8.265.227.zya.....[0m
-[1;30mmegaquickygreetz: /sharpy|zaphod|youtanisia|hi-tech|stickyb|handym|morphium|[0m
-                  [1;30m |moonquake|alltatoomemberz|dark moon|jawz|everyone|zya\[0m
+[1;30m                                                                              [0m
+[1;30m                                                                           [0m
+[1;30m                                                                               [0m
+[1;30m                                                                            [0m
+                  [1;30m                                                        [0m
 [1;30m───────------∙---───---------[STOP CUTING HERE!]-──--------∙∙-----─------∙-────-[0m'

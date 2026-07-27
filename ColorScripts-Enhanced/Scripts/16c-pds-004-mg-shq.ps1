@@ -5,7 +5,7 @@
 # Source SHA-256: 90604ed2ffd57e3b20aca5b02f0c88cf12819fed2132708d910725d39527cf37
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MG-SHQ.ANS by magician (paradise); released in pds-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: moose city - pds shq
 # SAUCE Author: magician
 # SAUCE Group: paradise
@@ -41,6 +41,4 @@ Write-Host '
 [34m▒▓████████████████████████████▄[0;1;34m ▀█[0;1;33m█[0;1;33;44m█[0;1;34;40m█████▀▀ [0;34m███▄▄▄▄▄▄▄▄▄█████████████████████▓▓▒[0m
 [34m░▒▓█████████████████████████████▄▄[0;37m [0;1;33m▀[0;1;34m▀▀▀ [0;34m▄▄██████████████████████████████████▓▒▒░[0m
 [34m ░▒▓███████████████████████████████████████████████████████████████████████▓▒░░ [0m
-[34m   ░▒▓████████████████████████████████████████████████████████[0;30;44m [0;34;40m█[0;30;44mmg^pds-96░▒▓█[0m
-
-                [37;40m     [0m     [37;40mMOOSE CITY - PARADISE SHQ -96[0m'
+[34m   ░▒▓████████████████████████████████████████████████████████[0;30;44m [0;34;40m█[0;30;44mmg^pds-96░▒▓█[0m'

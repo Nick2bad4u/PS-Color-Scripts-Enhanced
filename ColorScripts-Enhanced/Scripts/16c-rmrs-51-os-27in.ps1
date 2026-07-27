@@ -5,7 +5,7 @@
 # Source SHA-256: 6020c9ff4b43b5bf8e7ea84e9529767674c621a951b51c90a265d37d3edbdb01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Os-27in.ans by Offset (rmrs-51); released in rmrs-51 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -35,20 +35,7 @@ Write-Host '
 [1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m▒░▒░▒░▒░▒░▒░▒░▒░▒░░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m▒░▒░▒[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0m
 [34m██████████████[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█████████[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m██████████████████████████████████[0m
 [34m███████████████████████████████████████████████████████████████████████████████[0m
-[34m████████[0;1;37;44mREMORSE MIGHT NOT BE AS GAY AS 27", BUT DAMN IT, WE''RE TRYING!!![0;30;44m [0;34;40m██[0;30;44m    [0m
+[34m████████[0;1;37;44m                                                                [0;30;44m [0;34;40m██[0;30;44m    [0m
 [34;40m███████████████████████████████[0;30;44m                                  [0;34;40m██████████████[0m
 
-[1;30;40m------------------------(usEless infOrmation below)---------------------------- [0m
-
-[1;30mWatashi no namewa [0mOffset [1;30mdesu, hiroshiku o-ne-gashimasu... This is the first of[0m
-[1;30mmany, soon to [0;1;37mCUM[0;1;30m ([0mNokturnalE[1;30m) 27" insult [0;1;31mA[0;1;34mN[0;1;32mS[0;1;33mI[0;1;30m. Watch the [0;1;33mSIGNS[0;1;30m ([0;33mGREAT MOVIE!![0;1;30m)[0m
-                              [1;30m                      [0m
-
-
-
-
-                      [1;30m   [0m
-[1;30m [0m                    [1;30m  [0m
-                     [1;30m  [0m
-                    [1;30m  [0m
-                    [1;30m  [0m'
+[1;30;40m------------------------(usEless infOrmation below)---------------------------- [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8918884aaf8786b4293e5e94c03c2b284d880e3e38a8da733d2d75a14eaecc4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-AP2.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Aphid Main Menu
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
@@ -34,15 +34,9 @@ Write-Host '
 [1;47m▄█[0m█▓░   [34m▐█▀[0m       [34m▄[0m   [34mAph[0;35mi[0;34md[0m   [34m ▀▌[0m   [37m▒▒[0m    [34m▀[0m        [36m  [0;34m█▀[0m      [36mMenu[0m   [37m▐█[0;1;37;47m███▀▓░░[0m▌
 [1;47m▀[0m▀[1m [0m   [34m▄ ▀[0m    [37m▄▄[0m                     [37m░░[0m       [37m▄▄▄[0m    [34m▀[0m     [37m▄▄▄▄▄▄▄ ▄  ▀▀[0;1;37;47m▀▀▌[0m██[1;47m▄[0m█▄
 ▌ [1m [0m                                                                        ▀▀▀██
-[1m  [0;1;36mA[0;36mlter User Data[0;34m/[0;1;36mB[0;36mulletins[0;34m/[0;1;36mC[0;36momment Shrimp[0;34m/[0;1;36mD[0;36mownload[0;34m/[0;1;36mE[0;36mnter MSG[0;35m [0;34m/[0;35m [0;1;36mF[0;36mile Listing[0;34m/[0;37m  █[0m
-[37m  [0;1;36mG[0;36moodbye[0;34m/[0;1;36mL[0;36mocal Time[0;34m/[0;1;36mN[0;36mew File Scan[0;34m/[0;1;36mP[0;36mage Shrimp[0;34m/[0;1;36mR[0;36mead MSG''s[0;34m/[0;1;36mU[0;36mpload[0;34m/[0;36mE[0;1;36mX[0;36mpert mode[0;34m/[0;37m  ▐[0m
-[37m  [0;1;36mZ[0;36mippy Search[0;34m/[0;35m [0;1;36mL[0;36mast [0;1;36mC[0;36mallers[0;34m/[0;35m [0;1;36mWHO[0;36m''s online[0;34m/[0;35m [0;1;36mONE[0;36mliners[0;34m/[0;35m [0;1;36mUSER[0;35m [0;36mlist[0;34m/[0;35m [0;1;36mMORE[0;35m [0;36mshits[0;34m/[0;37m  [0;1;37;47m░[0m
+[1m  [0;1;36m [0;36m              [0;34m [0;1;36m [0;36m        [0;34m [0;1;36m [0;36m             [0;34m [0;1;36m [0;36m       [0;34m [0;1;36m [0;36m        [0;35m [0;34m [0;35m [0;1;36m [0;36m           [0;34m [0;37m  █[0m
+[37m  [0;1;36m [0;36m      [0;34m [0;1;36m [0;36m         [0;34m [0;1;36m [0;36m            [0;34m [0;1;36m [0;36m          [0;34m [0;1;36m [0;36m         [0;34m [0;1;36m [0;36m     [0;34m [0;36m [0;1;36m [0;36m         [0;34m [0;37m  ▐[0m
+[37m  [0;1;36m [0;36m           [0;34m [0;35m [0;1;36m [0;36m    [0;1;36m [0;36m      [0;34m [0;35m [0;1;36m   [0;36m         [0;34m [0;35m [0;1;36m   [0;36m      [0;34m [0;35m [0;1;36m    [0;35m [0;36m    [0;34m [0;35m [0;1;36m    [0;35m [0;36m     [0;34m [0;37m  [0;1;37;47m░[0m
 [1;37;47m░[0m▄▄▄▄▄   ▄▄[1m▄▄▄▄▄[0m▄▄▄ [35m  [0;37m▄▄[0;35m   [0;37m [0;35mEnter[0;37m [0;35mcommand? [0;1;35m<[0;5m    [0;1;35m>[0m ▄[1m▄▄[0m▄▄  ▄[1m▄▄▄[0m▄[1m▄▄▄▄▄▄▄▄▄[0m▄▄▄▄ ▄▄[1;47m▄[0;1;37;47m▓[0m
 
-────────────────────────────────────────────────────────────────────────────────
-[35mIt says APHiD. YES. ALL FIVE LETTERS ARE PRESENT. all you need is a little [0m
-[35mimagination. Now - I really need art for my board. PLEASE[0;37m [0;35mdraw for it. It is [0m
-[35mvery important. Thank you.[0m
-[35mBy the way, I think vertical menus look better than horizional ones. I should [0m
-[35mhave one created for me. Thanks in advance. [0m
-                                                     [35m-[0;1;35mShrimp.[0m'
+────────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7c15e7fa37e5d2798d8e0d0a1d7eea2a5b49c1db589e52199b49b133dd164bec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMI-SS1.ANS by samurai (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: special sauce matrix
 # SAUCE Author: samurai
 # SAUCE Group: project/301
@@ -39,6 +39,4 @@ Write-Host '
 [35m                          [0;37m [0;33m▀▀[0;1;30;43m░[0;1;33;43m░░[0;30;43m░[0;33;40m▓[0;30;43m░[0;33;40m▓[0;1;30;43m▒[0;33m▌▀[0;1;30m▀▀▀[0m [1;31m▀[0;1;31;43m▓[0;1;31;40m████████████[0;1;31;43m▓▓▒▒░[0;33m█[0;1;31;43m░[0;33m███▀[0m   [1;30;43m▒▒▒▒░░░░░[0m
                             [33m▀▀▀▀▀ [0;1;30m▀▀▀▀[0m       [1;31m▀▀▀[0;1;31;47m▓▓[0;1;31;43m▓[0;1;31;40m████[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m▀░░░[0;33m▀▀▀▀  [0;1;30m▄▄[0;1;30;43m▓▓▓▓▓▓▒▒▒▒▒[0m
                                                                 [1;30m▀▀▀▀▀▀▀▀▀▀▐█████[0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mhey.  yeah you!  want one like this?  email me at noodles@erols.com and maybe[0m
-[1;30mwe can work out a deal :)[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

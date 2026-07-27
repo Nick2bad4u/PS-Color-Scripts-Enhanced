@@ -5,7 +5,7 @@
 # Source SHA-256: eed93acb25ec378a45ab931889946fbec5d270185ff05e6e3c8681e774284c6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-AD.ANS by Surreal Logic (WBT); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Abyssimal Dissimulation
 # SAUCE Author: Surreal Logic
 # SAUCE Group: WBT
@@ -21,10 +21,10 @@ Write-Host '
  [1m█[0m   [34m▀▀█▓[0;1;37;44m░ [0;34m▄▀▓▌[0m       [1;37;44m▓[0m                     [1;30m█▀[0m [1;30m▀█[0m [1;30m█▄▄▀[0m  [1;30m█[0m
  [1m▄[0m      [34m▀[0;1;37;44m░▒░[0;34m▌▐[0;1;37;44m░[0m  [1m▄▄[0;1;44m▓[0m  [1m▄[0m
  [1;44m▓[0;1;40m█[0m [1m▄▄[0m [1m▄[0;1;44m▓▒░[0;1;40m▀▄[0;1;44m▓▒░▒▓▒[0;1;40m▌▄[0;1;44m▒░[0m [1;30mGreetz[0m [1;30m..[0m [1;30mall[0m [1;30mWBT[0m [1;30mdudes,[0m [1;30mand[0m [1;30mpsychoskylark[0m [1;30m..[0m [1;30myou[0m [1;30mdidn''t[0m
-     [1m▀▀▀▀▀[0m [1m▀▀▀▀[0m         [1;30mexpect a pic, did you? =) Lucky you .. <g>[0m
-  [1;34mS[0;34murreal[0m [1;34mL[0;34mogic[0m [1;34m[[0;34mWBT[0;1;34m][0m
-                        [1;30mWell,[0m [1;30mI[0m [1;30mdon''t[0m [1;30mcharge[0m [1;30mfor[0m [1;30mansis[0m [1;30mright[0m [1;30mnow[0m [1;30m..[0m [1;30mif[0m [1;30myou[0m [1;30mwant[0m
-                        [1;30mone,[0m [1;30mcontact[0m [1;30mme[0m [1;30mon[0m [1;30mThe[0m [1;30mCave[0m [1;30m@[0m [1;30m[6o4][0m [1;30m54o-2256[0m [1;30m[WBT[0m [1;30mWHQ]..[0m
+     [1m▀▀▀▀▀[0m [1m▀▀▀▀[0m         [1;30m                                          [0m
+  [1;34m [0;34m      [0m [1;34m [0;34m    [0m [1;34m [0;34m   [0;1;34m [0m
+                        [1;30m     [0m [1;30m [0m [1;30m     [0m [1;30m      [0m [1;30m   [0m [1;30m     [0m [1;30m     [0m [1;30m   [0m [1;30m  [0m [1;30m  [0m [1;30m   [0m [1;30m    [0m
+                        [1;30m    [0m [1;30m       [0m [1;30m  [0m [1;30m  [0m [1;30m   [0m [1;30m    [0m [1;30m [0m [1;30m     [0m [1;30m        [0m [1;30m    [0m [1;30m      [0m
 [1;37m▄▄[0m [1m▄▄[0m [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
   ░ ░▒▒ ▒▓▓███████[1;34;47m          [0m████████████████████████████████████████████[1;30;47m░░▒[0m [1;30;47m▒▒▓[0m
            [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀[0m [1;30m▀[0m

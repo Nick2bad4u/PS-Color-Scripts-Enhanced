@@ -5,7 +5,7 @@
 # Source SHA-256: e6554ad832b50bd0fccc5c999391d2d201fecd28194dd27bf448540518759036
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-PH.ANS by Code (raid-09); released in raid-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 31-57
 # Columns: 1-80
 
@@ -33,7 +33,7 @@ Write-Host '
 [1;30m█[0;1;30;45m░[0;1;30;40m▀[0m [1;30m▄▀▄▄▄▀▀▄[0m [1;30m▓█[0;1;30;45m██[0;1;30;40m▄[0m  [1;30;45m░▒▒▒▓▓▓▓█████[0;1;30;40m█▓██[0m  [1;30;45m▒▒▒▒▒▓▓▓████[0;1;30;40m▓[0;1;30;45m███[0m  [1;30m ▀▀▀▀[0m [1;30m▄▄▄▄▄▄[0m [1;30m▀▀▄[0m [1;30m█[0m
 [1;30m█▄▄▀[0m       [1;30m▀▄▄▄▄▄▄▄▄[0m [1;30m▀▀▀▀[0m [1;30m▄▄▄    [0m [1;30m▀▀[0m    [1;30m▀▀▀▀[0m  [1;30m ▄▄▄▄[0m [1;30m▀▀▄[0m [1;30m▄▀▀▀▀▀▀[0m      [1;30m▀▀▄▄▄▀[0m
                     [1;30m▀▀▀▀▀▀[0m [1;30m▄▀[0m   [1;30mPurple Hell[0m   [1;30m▀▄▄[0m  [1;30m▀▀▄▄▄▀[0m
-                          [1;30m█sysadmin: Acid Warlock█[0m
+                          [1;30m█                      █[0m
                            [1;30m█[0m [1;30mtele: 806+791+0747[0m [1;30m▄▀[0m
                             [1;30m▀▄[0m   [1;30mh·p·v·c·a[0m [1;30m▄▄▄▄▀[0m
                               [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

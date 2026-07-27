@@ -5,7 +5,7 @@
 # Source SHA-256: 2f62501c9bdc4da6f60f8f988749e55decb5642525f70ce7c3572ba7ab248da6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ON-TMZ.ANS by Orion (fos-0595); released in fos-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 40-66
 # Columns: 1-80
 
@@ -29,11 +29,4 @@ Write-Host '
      [34m█[0;1;34;44m▒[0;34m  [0;37m [0;34m█[0;1;34;44m▒[0;34m █ █[0;1;34;44m▒[0;34m █[0;1;34;44m▒[0;34m ▓[0;1;34m [0m [34m█[0;1;34;44m▒[0;34m   █[0;1;34;44m▒[0m  [34m █[0;1;34;44m▒[0;34m ▓[0m    [34m█[0;1;34;44m▒[0;34m ▓[0;37m [0;1;34;44m▒[0m [34m█[0;1;34;44m▒[0;34m ▓ █[0;1;34;44m▒[0;34m ▄[0;37m [0;34m█[0;1;34;44m▒[0;34m █[0;37m [0;34m█[0;1;34;44m▒[0;34m [0m   [34m   ▓[0m
      [34m█[0;1;34;44m░[0;34m  [0;37m [0;34m█[0;1;34;44m░[0;34m ▓ █[0;1;34;44m░[0;34m █[0;1;34;44m░[0;34m ▒[0;1;34m [0m [34m█[0;1;34;44m░[0;34m   █[0;1;34;44m░[0;34m▄▄ █[0;1;34;44m░[0;34m▄▀[0m    [34m█[0;1;34;44m░[0;34m ▒[0;37m [0;1;34;44m░[0m [34m█[0;1;34;44m░[0;34m▄▓ █[0;1;34;44m░[0;34m ▓[0;37m [0;34m█[0;1;34;44m░[0;34m ▓[0;37m [0;34m█[0;1;34;44m░[0;34m▄▄▄[0;37m [0;34m█[0;1;34;44m░[0;34m▄▓[0m
 
-                             [1;34m6[0;1;30m [0;34m1[0;1;30m 2 . 8 9 4 . 7 2 [0;34m7[0;1;30m [0;1;34m9[0m
-
-                             [1;34mS[0;34m:[0;1;30m Corrupting Influen[0;34mc[0;1;34me[0m
-                           [1;34mC[0;34mo[0;1;30mZ: Point Blank & Overlo[0;34mr[0;1;34md[0m
-                       [1;30m  [0m   [1;34mr[0;34mu[0;1;30mnning Renegade at 28.[0;34m8[0;1;34mk[0m
-
-                               [1mA[0mN[1;30mSi by ORiON [Fo[0mS[1m][0m
-                      [1m([0mc[1;30m) [0;1;37m1[0m9[1;30m95 Fistful of Steel Productio[0mn[1ms[0m'
+                             [1;34m6[0;1;30m [0;34m1[0;1;30m 2 . 8 9 4 . 7 2 [0;34m7[0;1;30m [0;1;34m9[0m'

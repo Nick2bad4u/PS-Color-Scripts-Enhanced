@@ -5,7 +5,7 @@
 # Source SHA-256: 63bba6e195e5663e79720058bef7860b43af3475b71ce29362f998c2120b8be7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MP-RA.ANS by Mystic Plague (Fear); released in eph0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Restricted Area
 # SAUCE Author: Mystic Plague
 # SAUCE Group: Fear
@@ -42,13 +42,12 @@ Write-Host '
 
  [31m.[0m  [1;30m░[0m    [1;30m.[0m                                                            [1;30m.[0m    [1;30m░[0m  [31m.[0;37m [0m
   [31m▒▄[0;1;30m▓░[0;31m▄■''[0m                   [1;30m·[0;31m-[0;1;31m=[0m [33mR[0;31mestricted[0;1;30m [0;33mA[0;31mrea[0m [1;31m=[0;31m-[0;1;30m·[0m               [1;30m [0m    [31m`■▄[0;1;30m░▓[0;31m▄▒[0m
- [31m░▄░[0;1;31;41m░[0;1;30;41m▀[0;1;30;40m▒[0;31m_[0m      [33m■[0m [1;30mRunning at 28.8k GVC[0;33m·[0;1;30mCustomized[0m [1;30mRenegade[0m [1;30m10-05[0m [33m■ [0m       [31m_[0;1;30m▒[0;1;30;41m▀[0;1;31;41m░[0;31m░▄░[0;37m [0m
+ [31m░▄░[0;1;31;41m░[0;1;30;41m▀[0;1;30;40m▒[0;31m [0m      [33m■[0m [1;30m                    [0;33m [0;1;30m          [0m [1;30m        [0m [1;30m     [0m [33m■ [0m       [31m [0;1;30m▒[0;1;30;41m▀[0;1;31;41m░[0;31m░▄░[0;37m [0m
  [31m.■[0;1;30m▀[0m [1;30m▓▀[0;31m▓[0m          [33m■[0m [1;30mSysop: [0mR[1;30mazor[0;33m·[0;1;30m0-7 Warez[0;33m·[0;37m<[0;1;30m519[0m> [1;30mTINK[0m-[1;30mNOT[0m! [33m■[0;31m [0m           [31m▓[0;1;30m▀▓ ▀[0;31m■.[0;37m [0m
 [1;30m''[0m    [1;30m▒[0m  [31m`[0m                                      [37m [0m                       [31m''[0m  [1;30m▒[0m
      [1;30m░[0m                                                                    [1;30m░[0m
 
-░▒▓[30;47m.A.Mystic.Plague.&.Euphoria.Production..........gmay@fhci.Kitchener.on.ca.[0;37;40m▓▒░[0m
-[1;30;40m............Wyvern:  Why''d you quit??  You didn''t have to you know..............[0m
-[1;30;40m.................Paranoid Android: geez man!  Get that HS Modem!................[0m
-[1;30;40m....................Razor:  It''s my alias now, so byte me! :)...................[0m
-[1;30;40m.................ACiD:  tanx fer ACiDDraw guys!  It''s da best...................[0m'
+░▒▓[30;47m                                                                          [0;37;40m▓▒░[0m
+[1;30;40m                                                                                [0m
+[1;30;40m                                                                                [0m
+[1;30;40m....................Razor:  It''s my alias now, so byte me! :)...................[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 6ae875ba45b0c254d5e0533ea9d72f8ee94457f8e46df29638353f1ddf5ddc9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-ALIEN.ANS by P-Chan (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Alien Workshop
 # SAUCE Author: P-Chan
 # SAUCE Group: ACiD Productions
@@ -41,12 +41,12 @@ Write-Host '
                                                                         [1;30;40m▐▄[0m
                                                                         [1;30;47m▓▓[0m
                   [30;47m▀ [0m [1;37;47m░▒▓█[0;1;37;40m▀▀[0;30;47m▄▄▄[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;47m▄▄▄[0;1;37;40m▀▀[0;1;37;47m█▓▒░[0m [1;37;47m [0;30;47m▀[0m
-                  [1;30;47m░░[0m               [1;37;40mA[0ml[1;30mien Worksh[0mo[1mp[0m              [1;30;47m░░[0m
+                  [1;30;47m░░[0m               [1;37;40m [0m [1;30m          [0m [1m [0m              [1;30;47m░░[0m
                   [1;30;47m▒▒[0m        [1;37;40m9[0m0[1;30m9.686.7917 ⌂ SysOp: Cha[0mo[1ms[0m        [1;30;47m▒▒[0m
-                  [1;30;47m▓▓[0m       [1;37;40mR[0mu[1;30mnning Oblivion2 ⌂ 14k↑ on[0ml[1my[0m       [1;30;47m▓▓[0m
-                  [1;30;47m██[0m        [1;37;40mN[0mu[1;30mP: Find it ⌂ NuV Enforc[0me[1md[0m        [1;30;47m██[0m
-                  [1;30;47m█[0m           [1;37;40mC[0ma[1;30mNCER SiTE ⌂ FLC Si[0mT[1mE[0m            [1;30;47m█[0m
-                                  [1;37;40m0[0m-[1;30m3 Days war[0me[1mz[0m
+                  [1;30;47m▓▓[0m       [1;37;40m [0m [1;30m                ⌂    ↑   [0m [1m [0m       [1;30;47m▓▓[0m
+                  [1;30;47m██[0m        [1;37;40m [0m [1;30m           ⌂           [0m [1m [0m        [1;30;47m██[0m
+                  [1;30;47m█[0m           [1;37;40m [0m [1;30m          ⌂       [0m [1m [0m            [1;30;47m█[0m
+                                  [1;37;40m [0m [1;30m          [0m [1m [0m
 
 
 
@@ -54,9 +54,4 @@ Write-Host '
 
 [1m──[0m──[1;30m────────────────────────────────────────────────────────────────────────[0m──[1m──[0m
           [1mA    [0mC   [1;30mi   D[0m       [1;30mP   R   O   D   U   C   T   I  O   [0mN   [1mS[0m
-[1m──[0m──[1;30m────────────────────────────────────────────────────────────────────────[0m──[1m──[0m
-
-                        [1m1[0mO[1;30mO% ORiGiNAL ANSi by P-chan<ACi[0mD[1m>[0m
-
-                        [1mGreets: RM,BE,SO,MO,TK,DY, and all[0m
-                                [1mthe ansi artists out there.[0m'
+[1m──[0m──[1;30m────────────────────────────────────────────────────────────────────────[0m──[1m──[0m'

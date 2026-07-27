@@ -5,7 +5,7 @@
 # Source SHA-256: fdefc75a7a7e73a0134e06c8176545078255c57f8376918e81abbb98c38179aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZO-ALD1.ANS by zork (blade productions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alderAAn!
 # SAUCE Author: zork
 # SAUCE Group: blade productions
@@ -17,7 +17,7 @@
 Write-Host '
 
                [1;33m░▌[0m
-              [1;33m░▄▓░[0m    [1;30mM[0m         [1;30m"Sorry sir,We are out of nachos"[0m
+              [1;33m░▄▓░[0m    [1;30m [0m         [1;30m                                [0m
             [1;33m░▄█▀█░[0m   [1;33m▄[0m       [1;30mi[0m
            [1;33m▄[0;1;33;47m▓[0;1;33;40m▀[0m  [1;33m▐░[0m                   [1;30mn[0m
   ■▄      [1;33;47m▒▒[0m    [1;33m▐[0m      [1;33m░▄▄▄[0m     [1;33m▄▓▄[0m         [1;30md[0m
@@ -44,7 +44,5 @@ Write-Host '
                                                         [1;30m▀[0m          [1;30m▓▀[0m   [1;30m▀[0m
                                                                       [1;30m░[0m
 [1;30m------------------------------------------------------------------------------- [0m
-[1;30m         [0m [1;30mOp''d by the founder of blade,mindcrime...[0m [1;30mAnsi By Zork...[0m
-[1;30m-------------------------------------------------------------------------------[0m
-
- [1;30mWant a Zork ansi? Ill trade with ya..just call tL! at 805.486.2797[0m [1;30mfor details [0m'
+[1;30m         [0m [1;30m                                         [0m [1;30m               [0m
+[1;30m-------------------------------------------------------------------------------[0m'

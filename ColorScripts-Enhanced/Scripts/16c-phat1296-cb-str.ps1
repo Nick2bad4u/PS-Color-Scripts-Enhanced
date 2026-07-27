@@ -5,7 +5,7 @@
 # Source SHA-256: 5c8cf150a2db86604e182750724402fa6dcafc6f6ae716cd1b1d486aa417510d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CB-STR.ANS by christbane (phat); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: str remake
 # SAUCE Author: christbane
 # SAUCE Group: phat
@@ -39,5 +39,4 @@ Write-Host '
 [1;37;47m░▒▓[0;1;37;40m▄[0;36m▀[0;1;34;46m░░▒[0;1;34;40m▄[0;1;30;40m▀██[0;34m [0;37m█[0;1;30;47m░[0m▌[1;33m▀▐[0;1;33;47m▓[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m [0;1;33;47m██[0;1;33;43m▓▒░[0;33m▀[0;31m [0;33m▐▓▄▄[0;31m [0;1;30m  ▄█[0;1;30;47m▓▓█[0;1;30;40m░[0m [1;47m░░▒▒░░░[0m█▀[1;30m▄[0;1;30;47m▓▓█[0;1;30;43m█[0;1;30;40m▄[0m  [1;31m▀██████[0;1;31;47m▒[0;1;31;40m▀[0;31m [0;1;30m▄▄█[0;1;30;47m▓▒░[0m█▄[1;34m █[0m
 ▀[1;47m▒▓[0;1;40m██▄[0;1;34;40m▀▀[0;1;34;46m▓[0;1;34;40m▀[0;1;30;40m▐▓▌[0m▐[1;30;47m░[0m█ [1;33;47m▓█[0;1;33;40m█▌▐[0;1;33;47m▓[0;1;33;43m█▓[0;1;33;40m▀[0m  [1;30m  [0;33m▀▀[0;1;33;43m░▒▓▓[0;1;33;40m▄▄[0m▀[1;30;47m░▒▓[0;1;30;40m░[0m▀[1;47m▒▓▓▒▒▒░[0m▄[1;30m▀█[0;1;30;43m█[0;1;30;47m▓▓▓█[0;1;30;40m██▄▄▄▄▓[0m▄[1;30;47m░▓█[0;1;30;40m████[0;1;30;47m▓▒░[0m█▌[1;34m▐[0m
 [1;30m░▄[0m▀[1;47m▓[0;1;40m██[0;1;47m▓▒[0m▄▄[1;30m▀▀[0m▄[1;30;47m░░[0m▌[1;33m ▐[0;1;33;47m▓[0;1;33;40m██ █[0;1;33;47m▓[0;1;33;40m▌ [0;1;30;40mcB▄▓[0;1;30;47m▓▓[0m▄▄▄[1;33m▀▀[0;1;33;43m▓█[0;1;33;40m▄[0m▀[1;30m [0;1;31m   [0;1;37m▀▀▀[0m▀ [1;31m  [0m  [1;30m ▀▀[0;1;30;47m█▓▓▓▓███▓▒ ▒▓███▓▒░  [0m▌[1;34m▐[0m
-[1;30;47m▓[0;1;30;40m█▀[0m▄░[1m▀▀[0;1;47m░░░░[0m██▀▀[1;33m ▀[0;30m [0;1;33m▀███▄▀  [0;1;30m▄▓███[0;1;30;47m▓▒░[0m██▀[1;30m [0;31m [0;1;33m▀[0;33m▄[0;1;31m▄█▄  [0;33m▄[0;1;31m▄▄███▄▄[0m [1;31m  [0m  [1;30m▀▀[0;1;30;43m█[0;1;30;47m████▓▒▓█[0;1;30;43m██[0;1;30;47m▓▒░[0m██▀[1;34m▄▓[0m
-                                                                              [1;34m [0m'
+[1;30;47m▓[0;1;30;40m█▀[0m▄░[1m▀▀[0;1;47m░░░░[0m██▀▀[1;33m ▀[0;30m [0;1;33m▀███▄▀  [0;1;30m▄▓███[0;1;30;47m▓▒░[0m██▀[1;30m [0;31m [0;1;33m▀[0;33m▄[0;1;31m▄█▄  [0;33m▄[0;1;31m▄▄███▄▄[0m [1;31m  [0m  [1;30m▀▀[0;1;30;43m█[0;1;30;47m████▓▒▓█[0;1;30;43m██[0;1;30;47m▓▒░[0m██▀[1;34m▄▓[0m'

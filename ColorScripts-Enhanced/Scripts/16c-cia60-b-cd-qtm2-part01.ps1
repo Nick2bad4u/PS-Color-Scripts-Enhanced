@@ -5,7 +5,7 @@
 # Source SHA-256: a7fb32fe8b22429c39656cffa072de536beb943f19c4cb94d9128062ad99b747
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!QTM2.ANS by cat-dog (hazmat!a); released in cia60-b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: quantum #2
 # SAUCE Author: cat-dog
 # SAUCE Group: hazmat!a
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
- ruh.. colored version!
+                       
 
 [1m$$$$$$$$$$$$$$$[0m┘`\┘`                                   `└[1m$$[0m`┘[1m$$$$$$$$$$$$$$$$$$$[0m
 [1m$$$$$$$$$[0m┘`\[1m$$[0m` .`                                       `^  ;[1m$$[0m/`┘[1m$$$$$$$$$$$$$[0m
@@ -53,6 +53,4 @@ Write-Host '
    [1;33ml[0;31m$$$[0;1;33m;[0m [1;33m`└[0;33m*[0;31mS[0;33m├├[0;1;33m┤[0;31m$$$[0;1;33m`└[0;31m*S$[0;33m│[0;31m$S[0;1;33m*┘`[0m [1;33m`[0;33m└[0;31m*S$S[0;1;33m*[0;33m┘`[0;37m [0;1;33m`└*[0;31mS[0;1;33m├├[0;33m┤[0;31m$$$$$$[0;37m  [0;31m`[0;33m└┘[0;1;33m`[0m [31m$$$[0;37m [0;1;37m$$[0;36m$[0;1;36m_[0;1;33m.;[0;36m$$$[0;1;36m;[0m  [30mcd![0m
 [37mcd! [0;33m````[0m                                           [31m$$$[0m   [37m    [0;33m^^[0;1;33m^[0m [36m$$$$$$$$$[0;1;36my┐,.__[0m
                                                    [1;33m^^^[0m           [36m$$[0;1;33m`[0;1;36m``[0;1;33m``[0;1;36m`[0;1;33m```````[0m
-                                                                 [1;33m^^[0m
- ruh ruh... uncolored versionatonage![0m
-'
+                                                                 [1;33m^^[0m'

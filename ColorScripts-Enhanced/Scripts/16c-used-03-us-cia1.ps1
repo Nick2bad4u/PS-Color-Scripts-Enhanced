@@ -5,7 +5,7 @@
 # Source SHA-256: 25a2e601cef92b6d607482d3349678ef647270e355f25e7a2300500e2f4ec59f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CIA1.ANS by Spear + Propane (used-03); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cia?!
 # SAUCE Author: spear\propane
 # SAUCE Date: 20000202
@@ -37,7 +37,4 @@ Write-Host '
 [33;40m■[0;32;40m [0;37;40m  [0;33;40m [0;32;40m   ▀ ▄[0;33;40m   [0;37;40m  [0;1;30;40m▄[0;34m▀▀[0;36;44m▀[0;1;36;44m▀[0;36;44m▄▄▄[0;1;33;46m░[0;36;44m▀[0;34;40m▀▀[0;37;40m   [0;33;40m▀[0;37;40m [0;33;40m▀[0;37;40m [0;32;40m▄[0m    [1;30;40m▄[0;34m▀▀[0;36;44m▀[0;1;33;46m░[0;36;44m▄▄[0;1;36;44m▄[0;36;44m▀▀[0;34;40m▀▀[0m     [32;40m▄[0m      [34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓▓[0;37;40m   [0m     [33;40m▄[0m
 [33;40m  [0;32;40m [0;33;40m  [0m      [32;40m▀▄[0;1;32;40m▄[0;33m   [0;37m [0;1;30m▀[0m▀ [34m▀▀▀[0m      [32m▄[0;1;32m▄[0;32m▀ [0;37m  [0;32m▀▄[0m    [1;30m▀[0m▀ [34m▀▀▀[0m      [32m▄[0;1;32m▄[0;32m▀[0;37m  [0;32m▀▄  [0;37m [0;1;32m [0;32m  [0;37m [0;32m [0;37m  [0;32m [0;37m [0;32m   [0;33m▄[0m
 [33m ▄[0;37m   [0;32m [0;37m  [0m      [32m▀[0;1;32m▀[0;32m▄[0;1;32m▄[0m▄     [37m [0;32m▄[0;1;32m▄[0m▄[32m▀[0;1;32m▀[0;32m   [0m     [32m▀[0;1;32m▀[0;32m▄[0;1;32m▄[0m▄      [32m▄[0;1;32m▄[0m▄[32m▀[0;1;32m▀[0;32m [0m      [32m▀[0;1;32m▀[0;32m▄[0;1;32m▄[0m      [32m▄[0;1;32m▄[0;32m ▀[0m
-    [33m▀[0;37m  [0m            [32m▀▀▀[0;1;32m▀▀▀[0m                 [32m ▀▀▀[0;1;32m▀▀▀[0;32m [0m           [32m [0;33m [0;37m   [0;32m ▀[0;1;32m▀[0m
-
-           [32m  [0m                       [1;30mpro-spear[0m
-                                    [1;30mspearpane[0m'
+    [33m▀[0;37m  [0m            [32m▀▀▀[0;1;32m▀▀▀[0m                 [32m ▀▀▀[0;1;32m▀▀▀[0;32m [0m           [32m [0;33m [0;37m   [0;32m ▀[0;1;32m▀[0m'

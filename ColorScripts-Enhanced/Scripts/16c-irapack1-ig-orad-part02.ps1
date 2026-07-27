@@ -5,7 +5,7 @@
 # Source SHA-256: 4c9c89308e253db10cf164bf4c2873c75a4573355eeea6fb0aa19a4cd1b1f087
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IG-ORAD.ANS by Iguana (irapack1); released in irapack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 41-81
 # Columns: 1-80
 
@@ -44,10 +44,4 @@ Write-Host '
                  [1;34;40m▄[0;1;34;44m█▓[0;1;34;40m▌[0;34m▄[0;1;34;44m▒░ [0;34m▌[0;1;34m▐[0;1;34;44m█▓[0m [1;34;44m▒░[0;34m▌[0m [1;34m▐[0;1;34;44m█▓▒░[0m [1;34;40m▄[0;1;34;44m█▓[0;1;34;40m▌[0;34m▄[0;1;34;44m▒░ [0;34m▌[0;1;34m▐[0;1;34;44m█▓[0m  [34m▀[0;1;34;44m▒▒[0m [1;34;44m░ [0;34m▌[0m
                 [34m [0;1;34;44m█▓[0;1;34;40m▌[0;1;34;44m░░░ [0;34m▀[0m [1;34;44m█▓[0;1;34;40m▌[0m [34m▐[0;1;34;44m▒░[0m [1;34;44m█▓▒░[0;34m▌ [0;1;34;44m█▓[0;1;34;40m▌[0;1;34;44m░░░ [0;34m▀[0m [1;34;44m█▓[0;1;34;40m▌[0m   [34m▀[0;1;34;44m▒[0;34m▌[0;1;34;44m░ [0m
       [1;37;40m [0m
-      [1;37;40m              [0m           [1;37;40m [0;34m B   [0;1;34mB   [0;1;37m S[0m
-   [1;37m      [0m
-             [1;37m              [0;34mS[0;1;34my[0;1;37mS[0;1;34mo[0;34mP[0;1;37m:[0;34m¡-[0;1;34mG-[0;1;37mU[0;1;36m-[0;1;37má[0;1;34m-∩[0;34m-α[0;1;30m∙[[0;31mi[0;1;31mR[0;1;37ma[0;1;30m][0m
-              [1;37m   [0m [34m       R[0;1;34mu[0;1;37mNNi[0;1;34mN[0;34mG o[0;1;34mB[0;1;37mL[0;1;34mi[0;34mV[0;1;34mI[0;1;37mo[0;1;34mN[0;34m/[0;1;34m2 [0;34mV[0;1;34me[0;1;37mR[0;1;34m [0;34m2[0;1;34m.[0;1;37m2[0;1;34m5[0m
-                        [34m2[0;1;34m8[0;1;37m8[0;1;34m0[0;34m0 b[0;1;34mp[0;1;37ms[0m [1;30m∙[0m [1;30m[[0;31mi[0;1;31mR[0;1;37ma[0;1;30m] [0;34mA[0;1;34mN[0;1;37mSi OuTL[0;1;34me[0;34mT[0m
-            [34m              F[0;1;34mi[0;1;37mLeS ∙ DoORS ∙ MeSSaG[0;1;34me[0;34mS[0m
-[31m [0m                          [34m    ([0;1;34mN[0;1;37mo[0;1;34mT[0;34m)[0;1;34mY[0;1;37me[0;1;34mT[0;34m-[0;1;34mo[0;1;37mP[0;1;34me[0;34mN[0m'
+      [1;37;40m              [0m           [1;37;40m [0;34m B   [0;1;34mB   [0;1;37m S[0m'

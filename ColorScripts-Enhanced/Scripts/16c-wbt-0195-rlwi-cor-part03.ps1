@@ -5,7 +5,7 @@
 # Source SHA-256: 78b5d7faaa7412a71c1b8c9e1533bdf787c0783a48d86264848d5a2fbe5934d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RLWI-COR.ANS by Red Lightning + White Insanity (WBT); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Corrosion
 # SAUCE Author: Wi & RL
 # SAUCE Group: WBT
@@ -58,10 +58,8 @@ Write-Host '
               [1;37;40m [0m
 [1;30;40m [0m [1;37;40m [0m   [1;30;40m  [0m        [1;30;40m▓[0m T[1mhe Corrosio[0mn [1;30m▀[0m  [1;30m▀[0m  [1;30m▀[0m  [1;30m▀▓▀▀▀▀▒▀▀▀▀▓▀▀▀▀▀█[0m
  [1;30m [0m   [1;30m [0m  [1;30m [0m       [1;30m█[0m 6[1m04-465-8677 Opens Jan 25t[0mh[1m [0m [1;30m░[0m    [1;30m▒[0m     [1;30m█[0m
-[1;37m [0m [1;30m [0m [1;30m [0m  [1;37m [0m [1;30m [0m      [1;30m█[0m S[1mysOp-Red Lightning [WBT[0m]         [1;30m░[0m     [1;30m█[0m
-[1;37m   [0;1;30m  [0;1;37m [0m    [1;30m [0m   [1;37m [0m [1;30m█[0;1;37m [0mC[1mo·Sysop-White Insanity[0m [1m[WBT/MiST[0m]      [1;30m█[0m
-  [1;30m [0m  [1;30m [0m     [1;30m [0m    [1;30m█[0m W[1mBT Memeber Board, After Death E-Mag Distr[0mo
- [1;30m [0m    [1;30m [0m     [1;30m [0m   [1;30m█[0m R[1munning Customized R[0mg                   [1;30m█[0m
-[1;30m [0m      [1;30m [0m     [1;30m [0m  [1;30m▀▀▀▀▀[0m  [1;30m▀[0m  [1;30m▀[0m  [1;30m▀[0m                     [1;30m▀[0m  [1;30m▀[0m  [1;30m▀▀[0m
-
-[1;30m              By White Insanity and Red Lightning of WBT ''95[0m'
+[1;37m [0m [1;30m [0m [1;30m [0m  [1;37m [0m [1;30m [0m      [1;30m█[0m  [1m                       [0m          [1;30m░[0m     [1;30m█[0m
+[1;37m   [0;1;30m  [0;1;37m [0m    [1;30m [0m   [1;37m [0m [1;30m█[0;1;37m [0m [1m                      [0m [1m         [0m       [1;30m█[0m
+  [1;30m [0m  [1;30m [0m     [1;30m [0m    [1;30m█[0m  [1m                                         [0m 
+ [1;30m [0m    [1;30m [0m     [1;30m [0m   [1;30m█[0m  [1m                   [0m                    [1;30m█[0m
+[1;30m [0m      [1;30m [0m     [1;30m [0m  [1;30m▀▀▀▀▀[0m  [1;30m▀[0m  [1;30m▀[0m  [1;30m▀[0m                     [1;30m▀[0m  [1;30m▀[0m  [1;30m▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7bc294082129267f828a5bbdf79b0df69665965bcd9d8c25fc3f1048e5c41ae1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FIRE1.ANS by Cheeze + Ellisdee (ecklipse); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hot prom0.
 # SAUCE Author: ellis - cheezE
 # SAUCE Group: ecklipse
@@ -31,10 +31,7 @@ Write-Host '
 [34m▄ [0;35m ▀[0;1;35m▀[0;1;35;45m▀[0;1;35;40m███[0;1;35;45m▌[0;35m▌[0;34m  ██[0;1;34;44m▄▓▓██▀▀[0;34m█▄▀[0;1;34;44m  [0;34m▀█▄▌▀[0;30;44m░░░░[0;34;40m▓[0;30;44m░░░[0;1;34;44m░░[0;34m▌  [0;37m [0;35m▀[0;1;35m▀[0;1;35;45m▀[0;1;35;40m█[0;1;35;45m▄[0m [34m [0;37m [0;35m▀[0;1;35m▀[0;1;35;45m▀[0;1;35;40m███[0;1;35;45m▌[0;35m▌  [0;35;45m [0;1;35;40m█[0;1;35;47m▓[0;35m█[0;37m [0;34m ▀▓░ [0;35m▐[0;1;35;45m▐[0;1;35;47m▓[0;35m█[0;37m [0;34m [0m
 [1;34;44m░░[0;34m█▄ [0m   [35m▀[0;1;35m▀[0;35m▀[0;37m [0;34m▐█[0;1;34;44m▀▀[0;1;33;44m░░▒▒░[0;34m▀▀▀▀       ░░░░░░░░[0;30;44m░░░░[0;34;40m▓▄▄  [0;37;40m [0;35;40m▀[0;1;35;40m▀[0m [34m▄▄   [0;37m [0;35m▀[0;1;35m▀[0;35m▀ ▀[0;1;35m▀▀[0;1;35;45m▀[0;1;35;40m█[0;1;35;45m▄[0;1;35;40m▄[0;35m▄[0;34m  [0;35m▄[0;1;35;45m▄[0;1;35;40m▀[0;35m▀[0;37m [0;34m ▄[0m
 [37m [0;34m▀▀[0;1;34;44m░░[0;34m██▄▄▄  ▄▀▀▀[0;37m  [0;1;33m░░[0m lemme dance into   [34m░░░░[0;30;44m▓[0;34;40m░░[0m         [34;40m░░░[0;37;40m [0;34;40m░    [0m    [35;40m▀[0;1;35;40m▀▀▀[0m   [34m  ▀▀[0m
-[34m      ▀▀[0;1;37;47m▀▀[0m▀            your fire..              %[1;33mellis[0;33mcheeze[0;1;33mdee[0m.. [1mphear[0m
+[34m      ▀▀[0;1;37;47m▀▀[0m▀                                      [1;33m     [0;33m      [0;1;33m   [0m   [1m     [0m
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mellis did the font, i did the bg.. he wanted to change the bg completely, we got[0m
-[1;30minto an bit of an argument and he just flat took the bg out and added one of[0m [1;30mhis[0m
-[1;30mown i guess.. i told him id release this in ecl. he lubed the idea; go fig. ;)[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

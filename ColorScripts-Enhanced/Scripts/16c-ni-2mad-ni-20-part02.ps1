@@ -5,7 +5,7 @@
 # Source SHA-256: ee191fa2e5907e726b3c580d28a118da07fd7a5e525937787fbd93e45facc998
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: !NI-20.ANS by nitron (ni-2mad); released in ni-2mad and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 20 For Beers
 # SAUCE Author: nitron
 # SAUCE Date: 20221226
@@ -40,8 +40,6 @@ Write-Host '
 [1;30ml§b§§:l4b §§§§.`7b`7b.X''§§§b[0;33m`²§bf§⌐~[0;1;30m ,§'',P,d§§§[0;1;37m [0;1;30mR[0;36m$$:[0;37m [0;36m___[0;1;36m__[0m   [1;36m:[0m [1;36m·∙[0m [1m$[0;34m░¡[0;37m [0;1;34m░[0m [1;33m1[0;1;31m6[0;31mc[0;36m░░░[0m
 [1;30m└²²~~ P²² ~~~[0;32m  [0;1;30m~[0;1;34m      [0;1;30m~ ~~~~   [0;33m~~[0;1;34m    [0;1;30m~²[0;32m  [0;1;30m~~²4§§[0;1;37m [0;1;30m└[0;36m$$Xo`~¡$[0;37m        [0;1;36m┌P[0;34m░:[0;37m  [0;36mi[0;1;36mCE[0;1;37mless[0m
 [1;30m ~ ~ ~~~°°°°°°²²²²²²²²[0;32m²²²²[0;37m²²²²[0;1;32m²²²[0m²²²[1;32m²[0;1;37m²²²²²b[0;1;30m  ²''[0;32m  [0;1;30m$[0;36m$[0;37m    [0;1;36m░[[0;1;37mG[0;1;36maMMA][0m  [36m$''[0;34m░[0;37m   [0;36m░░[0;35mcp[0;1;35m437[0m
-     [1;32m2[0;1;37m0[0;1;32mFor[0;1;37mB[0;1;32meers[0;32m.[0;1;37mc[0;1;32mom[0;32m:[0;1;37m1337[0;1;32m   [0;1;37m+o [0;1;32mpaulie[0;1;37m420   ░[0m      [1;30mn[0m     [1;36m░[0m [1m`[0;1;36m93[0m [1;36m░░[0m  [36m$[0;37m [0;34m░░[0m
+     [1;32m [0;1;37m [0;1;32m   [0;1;37m [0;1;32m    [0;32m [0;1;37m [0;1;32m  [0;32m [0;1;37m    [0;1;32m   [0;1;37m   [0;1;32m      [0;1;37m      ░[0m      [1;30m [0m     [1;36m░[0m [1m [0;1;36m  [0m [1;36m░░[0m  [36m [0;37m [0;34m░░[0m
 [37m          [0;1;37mw[0;1;32meb[0;32m:[0;1;37m1339             [0;32mm[0;1;32my[0;1;37mst[0;1;32mi[0;32mc     [0;1;37m░[0m      [1;30m7[0m [1;36m∙[0m    [1;36mpr[0;1;37m00[0;1;36mf[0m [1;36m░[0m  [36mI[0;37m [0;34m░[0;1;34m░[0m   [36m░░░[0m
-[1;37m      [0;1;30m«««««zzzzzzzzzzzzz[0;32mzz[0;37mzz[0;32mzm[0;37mm[0;32mm[0;1;32mmmmmmmdf&&²      [0;1;30m:[0m              [1;36m∙[0;36m:[0;37m [0;34m░[0;36m░[0;1;36m░[0m  [36m▬▬▬[0;1;36m■■[0m [1;36m░[0m
-
-[1;37m                                             [0;32m$[0;1;32m$[0;1;37m$[0m [1mIt''s 20 for the beers, Sweetie[0m'
+[1;37m      [0;1;30m                  [0;32m  [0;37m  [0;32m  [0;37m [0;32m [0;1;32m                 [0;1;30m [0m              [1;36m [0;36m [0;37m [0;34m░[0;36m░[0;1;36m░[0m  [36m▬▬▬[0;1;36m■■[0m [1;36m░[0m'

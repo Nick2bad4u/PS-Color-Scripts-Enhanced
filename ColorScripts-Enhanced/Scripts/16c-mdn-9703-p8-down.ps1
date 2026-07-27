@@ -5,7 +5,7 @@
 # Source SHA-256: eb83dc77acac7291214803eb9e904f38e4f303b6c215c5f250b07848180dff32
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P8-DOWN.ANS by <sOulphuree> (Maiden Brazil); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dOwn lo-goo to .. nobody!
 # SAUCE Author: <sOulphuree>
 # SAUCE Group: Maiden Brazil
@@ -34,6 +34,4 @@ Write-Host '
      [1;37m_.,[0;1;31m_[0m       _s[1;30ms_[0m                                       [1;36mⁿ$$[0;36m$°[0m
       [1;31m~ⁿ$$b_ _s[0;1;30m$ⁿ__ⁿ[0m                                        [1;36mY$[0m
 -[1;30m------- [0;1;31m~;[0m%[1;31m$[0;1;30m- -------------------------------------------- [0;1;36m$ [0;1;30m-----------------[0m
-       [1;31m_s$$[0;31mⁿ ~ⁿ[0;1;30m$s°°s[0m                                        `s[36m''[0m
-      [31m~ⁿ°''[0m      [1;30m~ss''   [0mthis is to nobody..
-                       fell free to use this ascii![0m'
+       [1;31m_s$$[0;31mⁿ ~ⁿ[0;1;30m$s°°s[0m                                        `s[36m''[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 31c941513d86a656822c6dcbed37c60bc8909a26c4161cadda36f1a94b6cdde0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-ACID.ANS by Arlequin (Lithium); released in ltm-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Acid           "Acido Argentino"
 # SAUCE Author: Arlequin
 # SAUCE Group: Lithium
@@ -23,7 +23,7 @@ Write-Host '
        [1;30m╣$[0;1;30;46m$[0;1;30;40mF[0;36m''[0;35m,y%@$╚╚╚**$$bg▬"Y [0;36m╠$ [0;1;33;45m╣[0;35m╣$ l[0;1;35;45m$$[0;1;33;45m$[0;35mY,j$[0;1;35;45m$$[0;35m; [0;36m╔[0;35m ╚$[0;1;35;45m$[0;35mlⁿ$$$l [0;1;36m$$$$[0;1;36;46m$[0;1;36;40m;[0;35m:[0;1;35;45m$$[0;35m║╠l[0m
        [1;30;46m$[0;1;30;40m░l[0;36m [0;35mj$[0;1;33;45m$$[0;35mY''[0;36m╔[0;1;30;46m$[0;36m$╔[0;35m j[0;1;33;45m$[0;35m╠[0;1;35;45m$$[0;35mb; [0;36m╠$[0;35m ╣$$ $[0;1;35;45m$[0;35m$$''d$[0;1;35;45m╣[0;35m$[0;1;33;45m$[0;35ml [0;36m$[0;1;36mb.[0;35m`$[0;1;33;45m$[0;35mb`$[0;1;33;45m$[0;35m:[0;1;36m;$$[0;1;36;46m$$$[0;35m l$[0;1;33m╠[0;1;33;45m╣[0;1;33;40m║;[0m
        [1;30;40m$░:[0;1;33;40m ⁿ[0;35mⁿⁿ[0;1;33;45m$[0;1;33;40m; [0;36m$╠╠$[0;35m $[0;1;33;45m$[0;1;33;40m╣[0;1;33;45m╠[0;1;35;45m$[0;35m$∙ [0;36m$[0;35m :$ⁿ"~ⁿⁿⁿY $[0;1;33;45m$╠╠[0;35m╠$L[0;36m`$[0;1;36;46m$[0;1;36;40m╗[0;1;33;40m╘[0;1;33;45m$$[0;1;33;40ml`[0;1;33;45m$[0;35mL,[0;1;36m╚╚╚╚''[0;35m,[0;1;33mJ$[0;1;33;45m$[0;1;33;40mF''[0;1;36;40m,[0m
-[1;33;40m  v  v vvvvggg$L,[0;36mⁿⁿⁿ╚''[0;1;33ml[0;1;33;45m$$[0;1;33;40m$F''j [0;36m╠[0;35m l[0;1;33;45m$g[0;35mgvgg[0;1;33mgd[0;1;33;45m$[0;1;33;40m`Y[0;1;33;45m$[0;1;33;40m╠[0;1;33;45m╠[0;35m╠╠;[0;36m`$[0;1;36m$b[0;1;33m`$[0;1;33;45m$[0;1;33;40m;`╙YmmmmdF╜ⁿ°''[0;1;36;40mj$[0m
+[1;33;40m                 [0;36m   ╚ [0;1;33m [0;1;33;45m  [0;1;33;40m     [0;36m╠[0;35m  [0;1;33;45m  [0;35m    [0;1;33m  [0;1;33;45m [0;1;33;40m  [0;1;33;45m [0;1;33;40m╠[0;1;33;45m╠[0;35m╠╠ [0;36m  [0;1;36m  [0;1;33m  [0;1;33;45m [0;1;33;40m  ╙       ╜   [0;1;36;40m  [0m
        [1;30;40m╔╔gg[0;36m [0;1;33m`°ⁿ╙YmmmmdF╜ⁿ°''$$ [0;36m"[0;1;33m j[0;1;33;45m$[0;1;33;40m$$ [0;35m$[0;1;33m$$[0;1;33;45m$$[0;1;33;40mg`╚$$[0;1;33;45m$╠$[0;35mb[0;1;33m [0;1;36m╚$[0;1;33m J$L± [0;36mgg[0;1;36mggggg#@[0;1;36;46m$$$[0;1;36;40m$[0m
        [1;30m╠╠[0;1;30;46m$$[0;36m$$$@%╔╔╔╔╔gg╔▬[0;1;33m`"ⁿYbmmdY╜''[0;36m▬[0;1;33m`"ⁿⁿⁿⁿ"[0;36m▬╔[0;1;33m`°ⁿ╚╚╚***▓Yⁿ''[0;36mj[0;1;36m╠╠╠[0;1;36;46m$$[0;1;36;40m$[0;1;36;46m$$[0;1;36;40m$ⁿⁿⁿⁿ[0;36m  [0m
 

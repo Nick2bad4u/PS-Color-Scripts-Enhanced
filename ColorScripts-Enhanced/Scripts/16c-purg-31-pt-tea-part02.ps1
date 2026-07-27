@@ -5,7 +5,7 @@
 # Source SHA-256: fb7ad100521467ae1ca8c293058f523ab9e953adbfbc019cfac90875a3624a81
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-TEA.ANS by Produkt (purg-31); released in purg-31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 33-54
 # Columns: 1-80
 
@@ -25,10 +25,10 @@ Write-Host '
                                  [34m░[0m             [1;30m▒▒▒▒▒[0m
 
 ==============================-====Ç|_|7========================================
-        my goal in this version was to draw something drasticly fucked up.
+                                                                          
 
-        there are two perspectives to this ansi. the sideways(what you
-        probably see when you first look) and the shadowed(he''s looking
-        straight at you, but you can only see one half).
+                                                                      
+                                                                       
+                                                        
 
                        H(0H)Oh0O0h0ho)HO0HO)ho)ho)HO0ho)Oh[0m'

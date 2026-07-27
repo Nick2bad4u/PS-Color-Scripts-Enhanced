@@ -5,7 +5,7 @@
 # Source SHA-256: abc70f73030f17eed4b75c671eeadcbec6113d24ac3422bd357da1f7d61ad38c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DE-TFC.ICE by Dreamevil (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 89-130
 # Columns: 1-80
 
@@ -48,7 +48,7 @@ Write-Host '
         [1;32m▀▀▀[0;1;32;42m▓▒░[0;32m█▀▀▀[0m      [1;32m▀▀[0;1;32;42m▄[0;32m█[0m        [1;37m▀█[0m             [1;32m▀[0;32m▀[0m       [1;37m▄[0m     [1;32m▀▀[0;32m▀▀[0m
                                   [1;37m▄▄▀[0m                   [1;37m▄[0m       [1;37m▄[0m
                                 [1;37m▄▀[0m                                  [1;37m▄[0m
-                               [1;37m▐[0m      ansI by [36mdreamevil [0;37mon 12.15.92 of [0;1;36m[iCE][0m
+                               [1;37m▐[0m              [36m          [0;37m               [0;1;36m     [0m
                                 [1;37m▀[0m                  [1;37m▄[0m                   [1;37m▀[0m
                                       [1;37m▄[0m                              [1;37m▄[0m
                                               [1;37m▀[0m'

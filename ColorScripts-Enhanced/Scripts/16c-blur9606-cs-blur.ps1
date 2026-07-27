@@ -5,7 +5,7 @@
 # Source SHA-256: b01bb5b6513f1bf81df4d20739774e2512971ec217b25823946c840cb4f431aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CS-BLUR.ANS by cerebus (blur); released in blur9606 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blur promo
 # SAUCE Author: cerebus
 # SAUCE Group: blur
@@ -27,10 +27,4 @@ Write-Host '
    [37m   [0m    [1;36m▄[0m [1;36m▀▀▀[0m       [35m▄[0;1;36m▀▀██▄[0m    [1;36m▄▄▓▄[0m [1;36m▀[0m   [1;36m▀[0;1;36;45m▀[0;1;36;40m██▄[0m       [1;36m▄█▀▌[0m   [1;36;45m▐[0;1;36;40m▓▀[0m
                           [35m▀[0;1;36m▀▀[0m [1;36m▀▀▀[0m           [35m▀[0;1;36m▀▀▀[0;35m▄[0;1;36m▄▓▄▀▀[0m   [35m▄[0;37m [0;35m▀[0;1;36m▀[0m
 
- :  : :::: :   :  : :::: :   ::   : :::: :  :   :  : :::: :   :: :  : :::: :   :
-whoa, me doing ansi!?! that''s weird, i guess the fat lady sang. shucks, bite me!
-if you want an ascii from me DONT ASK. i am not taking ANY requests at all, i do
-what i like cuz ive done and have gotten to many requests for asciis. the people
-who requested one from me earlier will EVENTUALLY get them. as for the rest of
-you dont even bother, i am tired of doing FREE art. I only do them for trade, i
-may occasionally do a free ascii with no questions ask, but that will be the day[0m'
+ :  : :::: :   :  : :::: :   ::   : :::: :  :   :  : :::: :   :: :  : :::: :   :[0m'

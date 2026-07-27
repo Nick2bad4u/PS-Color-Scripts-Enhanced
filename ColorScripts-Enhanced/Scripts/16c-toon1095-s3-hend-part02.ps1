@@ -5,7 +5,7 @@
 # Source SHA-256: 404ce75e5ad40fcb93e3a439cb1813cb13e9e8dc6f70a7ae7c3f497ee96294b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S3-HEND.ANS by shamanize (tOOn); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: henderix ad.
 # SAUCE Author: shamanize
 # SAUCE Group: tOOn
@@ -54,14 +54,14 @@ Write-Host '
  ▐[1;47m▄▀▀■░[0m█▀▀   █[1;47m░▀[0;1;40m█[0;1;47m■░[0m▌ ▄  ▄▄███▀ ▄   ▀[1;47m░░[0;1;40m█[0;1;47m░[0m█  █[1;47m■[0m▄▄  ▄▀ █  ▐[1m█[0;1;47m■[0m█▀■ [1;47m▓[0m▌     ▄▀   ▓▄
  ▐██▀▀         ▀▀█[1;47m░[0m▌  ▀▀███▀  ▀      ▀█[1;47m■[0m█▄  ▀▀██▀  ▐█▄ ██▀   ▀█[1;47m▓[0m   ■▀       ▀■
  █▀   [1;34m▀[0;34m▀▀▀▀▓▀▀[0;1;34m▀    [0m▀        [1;30m░ [0;1;34m▀[0;34m▀▓▀▀[0;1;34m▀    [0m▀▀▄        ▀  ▄▀       █  [1;34m▀[0;34m▀▀▀▀▓▀▀▀▀▓▀▀[0;1;34m▀[0m
-           [34mhEndriX..[0m                  [34m░[0m                    [34m░[0m
+           [34m         [0m                  [34m░[0m                    [34m░[0m
         [34m▄▀■[0m                                                       [34m■▀▄[0m
-       [34m█   [0;1;30m$ da master[0;34m░[0;1;30m: dr. stone  $ his slaves:Reefer Man, Q-57.   [0;34m█[0m
-       [34;46m▓[0m   [37;40m$ [0;1;30;40mnew warez only. 540hd to cover da space.[0m                [34;46m▓[0m
-       [34;40m▐▌  [0;1;30;40m$ 2 tapes full of warez..[0m                                 [34m▐▌[0m
-        [34;46m▓[0;37;40m  $ [0;1;30;40m3lit3 style board kick''n it all in da 416/905 area. [0;34m░   [0;34;46m▓[0m
+       [34m█   [0;1;30m           [0;34m░[0;1;30m                                              [0;34m█[0m
+       [34;46m▓[0m   [37;40m  [0;1;30;40m                                        [0m                [34;46m▓[0m
+       [34;40m▐▌  [0;1;30;40m                         [0m                                 [34m▐▌[0m
+        [34;46m▓[0;37;40m    [0;1;30;40m                                                    [0;34m░   [0;34;46m▓[0m
         [34;46m▓[0m                           [1;30;40m░[0m                                [34;46m▓[0m
-       [34;40m▐▌    [0;1;30;40mda number is (  )   -[0m      [1;30;40mcall it now boyz..[0m          [34m▐▌[0m
+       [34;40m▐▌    [0;1;30;40m                     [0m      [1;30;40m                  [0m          [34m▐▌[0m
        [34;46m▓[0m                                                             [34;46m▓[0m
         [34;40m▀▄[0m                  [34;40m░[0m                          [1;30;40m░[0m           [34m▄▀[0m
-[37m [0m        [34m▐▌ [0;1;30ma toon production of 1995 (c) by shamanize aka skippy.[0;34m▐▌[0m'
+[37m [0m        [34m▐▌ [0;1;30m                                                      [0;34m▐▌[0m'

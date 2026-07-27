@@ -5,7 +5,7 @@
 # Source SHA-256: 7f37ec08b2528173665f52dd1ad341c0629c4210189935d37339efbafb34092c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-KINK9.ANS by catch22 (glue tribe); released in glue-28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kink bbs thingy
 # SAUCE Author: catch22
 # SAUCE Group: glue tribe
@@ -38,11 +38,4 @@ Write-Host '
 [1;31;41m▒▒[0;31m▌░[0;1;31;41m▒▒[0;31m░[0;36m▐[0;1;36;46m██▓▓▒[0;36m██ [0;1;30;46m░[0;1;30;40m▌[0;36m [0;1;36;46m░[0;36m▀[0;1;37m [0;1;37;47m▄[0;1;37;40m█▌[0;36m ▀▀[0;1;36;46m▓▓█▓▓██▄▄[0;36m▀[0;1;30m▀▀[0;36m [0;37m █[0;1;37;47m▓[0;1;37;40m█[0;36m [0;1;36;46m░▒▒▓[0;31m░[0;1;30m▐[0;1;30;46m▓▓[0;36m ▐[0;1;36;46m▓██▓░[0;36m▓ [0;31m░▓[0;1;31;41m░░[0;31m░ ▓█[0;30;41mapply[0;31;40m███[0;1;31;41m░[0m
 [1;31;41m▓▓▒▒[0;31m [0;1;31;41m▒[0;31m▓[0;36m ▐[0;1;36;46m▓██▒[0;36m██[0;1;30;46m░▒[0;1;30;40m▌[0;36m  ▄[0;1;36m▄▄[0;1;36;46m▄███▄[0;1;36;40m▄▄▄▄▄▄▄▄▄▄▄[0;1;36;46m▄▄▄ [0;36m█▄▄[0;1;30m▄[0;36m▀[0;1;36;46m░▒[0;1;30;46m░░▒▒▒[0;36m [0;1;36;46m░█▒[0;36m█▓[0;31m  ▓[0;1;31;41m▒▒▒▓[0;31m▓░█[0;30;41mleave[0;31;40m███[0;1;31;41m▒[0m
 [1;31;41m██▓▓█▓▓[0;31m░[0;37m [0;1;36;46m▓▓▓░[0;36m██[0;31m░[0;1;30;46m▓[0;1;30;40m▌[0;36m ▐[0;1;36m█[0;1;36;46m█████████████████████▌ [0;36m█[0;1;30;46m ▐[0;1;30;40m▌[0;36m▐[0;1;36;46m░[0;36m▌▐[0;1;30;46m░░░░[0;1;36;46m▒█░[0;36m▓ [0;31m [0;1;31;41m▄▓▓▓██▌[0;31m██████████[0;1;31;41m▓[0m
-[1;31;47m▓▓▓▓[0;1;31;41m███[0;31m▓[0;37m [0;36m [0;1;36;46m░▒[0;36m█▀▌[0;31m▒[0;1;30m▓█▄[0;36m ▀[0;1;36m▀[0;1;37;46m▀[0;1;36;46m██[0;1;37;46m█████[0;1;36;46m███████████▀ [0;1;30;46m▄▄[0;36m▀[0;1;30m▀[0;36m▄██ ▐██[0;1;30;46m░░[0;1;36;46m▓▓[0;36m▓  [0;1;31;41m▐███[0;1;31;47m▓▓▓▓[0;1;31;41m▄▄[0;31m██████[0;1;31;41m▄▄[0;1;31;47m▓[0m
-
-[1;30mtotally original.[0m
-[1;30mansi by catch22 for kink.[0m
-
-[1;30mI''ll do one of those big killer comic rips next month.  do one too,. i''ll need[0m
-[1;30mthe competition.  Props to zerovision, you are simply amazing.  without you,[0m
-[1;30mi don''t know where i''d be.  thanks for helping me stay on track.[0m'
+[1;31;47m▓▓▓▓[0;1;31;41m███[0;31m▓[0;37m [0;36m [0;1;36;46m░▒[0;36m█▀▌[0;31m▒[0;1;30m▓█▄[0;36m ▀[0;1;36m▀[0;1;37;46m▀[0;1;36;46m██[0;1;37;46m█████[0;1;36;46m███████████▀ [0;1;30;46m▄▄[0;36m▀[0;1;30m▀[0;36m▄██ ▐██[0;1;30;46m░░[0;1;36;46m▓▓[0;36m▓  [0;1;31;41m▐███[0;1;31;47m▓▓▓▓[0;1;31;41m▄▄[0;31m██████[0;1;31;41m▄▄[0;1;31;47m▓[0m'

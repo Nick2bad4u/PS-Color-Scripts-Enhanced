@@ -5,7 +5,7 @@
 # Source SHA-256: c9dabbd7266caa4526d67350e46650b73b1bb22a43397be48b65edd14db7c43a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: L5-MCLOG.ANS by Lord 5patter (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Moose City
 # SAUCE Author: Lord 5patter
 # SAUCE Group: Opium
@@ -51,5 +51,5 @@ Write-Host '
 [33m-------------------------------------------------------------------- [0;1;36m▀[0;36m▀▀ [0;33m------[0m
 [33m     [0;37mm[0m      [37mO [0m           [37mO  s   e[0m           [37mc i[0m          [37my[0m               [37my[0m
 
-[1;33moperated by catonica and miss astarot with some assistance by reptile & pfezzyo[0m
+[1;33m                                                                               [0m
 [33m-------------------------------------------------------------------------------[0m'

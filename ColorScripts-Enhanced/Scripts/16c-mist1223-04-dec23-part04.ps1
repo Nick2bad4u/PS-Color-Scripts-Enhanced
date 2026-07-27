@@ -5,7 +5,7 @@
 # Source SHA-256: 2bcd618c2645a491a89f12752e8517dd7804125fe6d86993499596419fbe9683
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 04_DEC23.ANS by nitron (mistigris); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Supply Stop - WIP Reel
 # SAUCE Author: nitron
 # SAUCE Group: mistigris
@@ -49,5 +49,4 @@ Write-Host '
 [1;36;46m▒▒░░░░░░░░░░░░░░  ░░░ ░  [0;36m█[0;1;36;46m▄▄[0;1;33;46m▒▒▒▒▒[0;46m▄▄▄[0;1;46m▄▄▄▄[0;1;40m▓▓▓▓[0;46m▄[0;1;36;46m░░░[0;46m▄▄▄[0;36;40m█[0;1;36;46m▄▄▄[0;36m█[0;1;36;46m▄[0;36m██▓▒██▒▓▒▒▒▒▒▓█[0;30;46m░[0;36;40m█[0;1;36;46m░░░░░▒[0m
 [1;36;46m▒▒▒▒▒░▒░░░░░░░░░░░░░░░░ ░[0;36;47m█[0;37;46m▄[0;1;36;46m░░[0;46m▄[0;36;40m█[0;37;46m▄▄▄[0;1;37;46m▄▄▄[0;46m▄[0;1;46m▄[0;46m▄▄▄[0;1;46m▄[0;46m▄▄▄▄[0;1;47m░░[0;46m▄▄▄[0;36;47m█[0;37;46m▄[0;36;40m█████▓▒█▓▒▓[0;1;30;46m▀[0;36m▓▓▒▒▓[0;36;41m██[0;1;36;46m░░▒░▒▒▒[0m
 
-[1m    [0m                           ░[1;30mnitron [0;1;37m|[0m mistigris[0m
-'
+[1m    [0m                           ░[1;30m       [0;1;37m [0m          [0m'

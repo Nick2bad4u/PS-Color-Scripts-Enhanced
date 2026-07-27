@@ -5,7 +5,7 @@
 # Source SHA-256: 0b2b2206d48f11ee20708e2ce7d5a68dd657af748cfca80dfaddaa2c149f67a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZP-CHAT.ANS by Zippy (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sod chat screen
 # SAUCE Author: Zippy
 # Lines: 1-25
@@ -33,7 +33,4 @@ Write-Host '
 [1;30m█[0m [31m▄▄[0;1;33;43m▒▓[0;1;33;40m▌[0m▀▀[1m▀▀▀[0;1;33m▄▄▄▄██████[0;31m █▄[0;1;36m▀████████[0;1;36;46m▄[0;1;36;40m█[0m [1;30;46m▓[0m                                      [1;30;46m▓[0m
 [1;30m█[0;31m▐[0;1;31;41m▒[0;31m▌[0;33m▀[0;1;33m▀████████████▀▀▀[0;31m▄█[0;1;31;41m▄▒[0;31m▌[0;1;36m███[0;1;36;46m▀[0;1;36;40m██[0;1;36;46m▀▀ [0;1;36;40m█[0m [1;30m█[0m                                      [1;30;46m▓[0m
 [1;30m█[0;31m ▀▀▀▀[0m            [31m▀▀▀▀▀▀▀[0;37m [0;1;36m▀▀▀▀▀▀▀▀▀▀[0m [1;30;42m█[0m                                      [1;30;46m▒[0m
-[1;30m▀▀▀▀▀▀▀█ [0;31m..[0;1;33mRobot[0;31mMan[0;1;33mX[0;1;30m [0;1;33mChat[0;31m..[0;1;30m █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m   [36mfer names [0;1;30m  █▀▀▀▀▀▀▀▀▀▀▀[0m
-
- [1;30mThis is for Shadows of darkness.  If you want to use it to bad.  Talk to [0m
-[1;30m someone for a request... woohoo..         zPfewl.[0m'
+[1;30m▀▀▀▀▀▀▀█ [0;31m..[0;1;33mRobot[0;31mMan[0;1;33mX[0;1;30m [0;1;33mChat[0;31m..[0;1;30m █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m   [36mfer names [0;1;30m  █▀▀▀▀▀▀▀▀▀▀▀[0m'

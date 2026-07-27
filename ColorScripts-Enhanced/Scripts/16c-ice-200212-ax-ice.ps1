@@ -5,7 +5,7 @@
 # Source SHA-256: fa17d90022139acc70d6b22e3948ea514975d077a41b87ca9f233d4149bd3f7c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ax-ice.ice by Alla Xul (iCE Advertisements); released in ice-200212 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ice ice baby
 # SAUCE Author: Alla Xul
 # SAUCE Group: iCE Advertisements
@@ -53,6 +53,4 @@ Write-Host '
     ▄▓█▄   ▀██ ▓▓▀▀   [1;30m▄[0m ▀▓▓▌ ▀██▓▓ ▒[1;30m▄[0m  ▀▀  [1;30m▄[0m ▀█▓ [1;30m▐[0m▓▄  ▓███▀  [1;30m▄[0m  ▀█▀  ▄▓██▄
     ▐█▓▓▓▄   ▀     ▀▄▓▓▀  ▀    ▀▀   █▀█▄▄▒[1;30m▀[0m  ▄         [1;30m ▀[0m ▄▄█     ▄[1;30;47m░░[0m██▄██
       ▀▀      ▀      ▀       ▀▄     ▐███▀     ▀█▌       ▐▓▓█       ▀▓▓▓▓▀
-                                     ▀▀                  ▀▀         ▀
-
-                        [1;37mwrong kind of ice, mr bear.[0m'
+                                     ▀▀                  ▀▀         ▀[0m'

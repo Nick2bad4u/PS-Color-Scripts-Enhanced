@@ -5,7 +5,7 @@
 # Source SHA-256: 164e486f0ba7a008ba5cdf7f6328a02cf6f19eb04067c87030c6d3e1cd897284
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-UNI2.ANS by Endless Nameless (s0ap); released in s0ap0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: y3w-ni77y-t3w
 # SAUCE Author: Endless Nameless
 # SAUCE Group: s0ap
@@ -58,6 +58,6 @@ Write-Host '
          [35m-[0;1;35m--[0;35m-[0m   [1;36m$[0m  [35m-[0;37m  [0;1;36m`[0m  [35m-[0m   [1;36m,[0m  [35m-[0;37m [0;35m-[0;37m [0;35m-[0m     [1;36m$     $ ² `  [0m    [35m-[0;1;35m-[0;35m-[0m    [1;35m-[0m   [1;35m-[0m [1;35m-[0m [35m-[0;1;35m-[0m
        [1;30m __ .,s$,.,s²[0m  [1;36m² $[0m                     [1;36m²[0m       [1;36m$  ²  [0m
      [1;30m,s²"````''²÷$▒$[0m                             [1;36m$[0m
-     [1;30m`[0m          [1;30m`░`[0m      [1mfil in ya shits [0m
+     [1;30m [0m          [1;30m ░ [0m      [1m                [0m
           [1;30m [0m      [1;30m$[0m              [1m--[0m   [1mhere . .  [0m
                 [1;30m,`[0m'

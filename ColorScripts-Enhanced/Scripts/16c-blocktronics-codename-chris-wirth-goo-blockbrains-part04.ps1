@@ -5,7 +5,7 @@
 # Source SHA-256: b46b81af71ef153454fd672907af4e7b05be5bce1a13f391743cd9ac4870d44b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GOO-blockbrains.ans by Mypalgoo (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 142-187
 # Columns: 1-80
 
@@ -50,9 +50,9 @@ Write-Host '
                                               [1;30m░[0m                            [36m:[0m
                                                                            [36m·[0m
        [35m░[0;34m▄▄▄▄[0m     [34m▄▄[0;37m [0;34m [0;37m   [0;34m▄[0m                                              [35m░[0m
-      [34m░▓[0;35;44m▒[0;37;40m [0;1;35;40mA[0;35mNSi [0;1;35md[0;35mone  [0;1;35mb[0;35my  [0;1;35mm[0;35mypalGOO  [0;1;35mo[0;35mf  [0;1;35m6[0;35mL0CK[0;1;35m7[0;35mR0NiCS[0;37m  [0;1;35mi[0;35mn[0;37m [0;35m [0;1;35ma[0;35mUGUST  [0;1;35mM[0;35mMiX[0m
+      [34m░▓[0;35;44m▒[0;37;40m [0;1;35;40m [0;35m    [0;1;35m [0;35m     [0;1;35m [0;35m   [0;1;35m [0;35m         [0;1;35m [0;35m   [0;1;35m [0;35m    [0;1;35m [0;35m      [0;37m  [0;1;35m [0;35m [0;37m [0;35m [0;1;35m [0;35m       [0;1;35m [0;35m   [0m
 [37m    [0;35m░ ░▒[0;35;44m░[0m                                                              [35;40m░[0m
-       [35;40m░[0;34;40m▄[0;37;40m [0;1;35;40mshoots to:  [0;31m<3[0;1;35m [0;35mmoqui for helping me with this![0m            [1;35m [0m [34m▄[0;35m░[0m
-       [35m░[0m              [31m<3[0;37m [0;35mto the blocktronics posse!! you guys rule.[0;37m   [0;35;44m░[0;35;40m▒░ ░[0m
-                      [31;40m<3[0;37;40m [0;35;40mHS/ANSiMETRY/DFS/CRO/SAC/Titan[0m             [1;35;40m [0m [35;44m▒[0;34;40m▓░[0m
+       [35;40m░[0;34;40m▄[0;37;40m [0;1;35;40m            [0;31m  [0;1;35m [0;35m                               [0m            [1;35m [0m [34m▄[0;35m░[0m
+       [35m░[0m              [31m  [0;37m [0;35m                                          [0;37m   [0;35;44m░[0;35;40m▒░ ░[0m
+                      [31;40m  [0;37;40m [0;35;40m                              [0m             [1;35;40m [0m [35;44m▒[0;34;40m▓░[0m
        [35;40m░[0m                                            [34;40m▀[0m      [34;40m▀▀[0m     [34;40m▀▀▀▀▀[0;35;40m░[0m'

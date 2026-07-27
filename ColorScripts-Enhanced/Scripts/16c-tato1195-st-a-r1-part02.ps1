@@ -5,7 +5,7 @@
 # Source SHA-256: 06bd7df72f66d4574a5468dc743983db2606a2b6be4c2b54e77b227cc34423b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST!A&R1!.ANS by The STiNGeR (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Age Of Rage
 # SAUCE Author: The STiNGeR
 # SAUCE Date: 19951124
@@ -51,7 +51,7 @@ Write-Host '
 [36m [0m            [37m   [0m   [37m     [0m     [37m [0m         [33m▐[0;1;33;43m▒▒▒[0;33m▄[0;1;33;43m▒▒▒▒▒[0m
 [1;30m░[0m                                       [33m▀▀[0;1;33;43m░░░░[0;33m▀▀[0m                               [1;30m░[0m
 [1;30m░[0m                                                                              [1;30m░[0m
-[1;30m▒[0m                                        [1;30m  [0m        [1;30mst.tatoo.95[0m                 [1;30m▒[0m
+[1;30m▒[0m                                        [1;30m  [0m        [1;30m           [0m                 [1;30m▒[0m
 [1;30m▒[0m                                                                              [1;30m▒[0m
 [1;30m▓[0m                                                                              [1;30m▓[0m
 [1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m'

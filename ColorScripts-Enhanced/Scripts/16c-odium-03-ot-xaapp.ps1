@@ -5,7 +5,7 @@
 # Source SHA-256: f82b9286b1b478c3e7c0370327e34f28e61ad0752c31b597ef627a2c81f2e294
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OT-XAAPP.ANS by Otter (Odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Xaxis Ansi for Obv/2 gen.
 # SAUCE Author: Otter
 # SAUCE Group: Odium
@@ -40,6 +40,4 @@ Write-Host '
                                    [1;37m▐██▄▀█▄████▄██▄█▄▌[0m           [32m▐███▌ ▄██▄▄▄   ▄[0m
                                    [1;37m▀█▀██▀ ▀▀▀▀[0;1;37;47m▓[0;1;37;40m▀██[0;1;37;47m▓[0;1;37;40m▀[0m     [1;32m▄█[0;1;32;42m▄[0;32m▄  ▄███▀ ▐[0;1;32;42m░[0;32m█████████[0m
                                    [1;32m▄ [0;1;37m▀ [0;1;32m▄▄[0;1;32;42m████▀[0;32m▄[0;1;32m▄[0;1;37m■▀   [0;1;32m▄▄[0;1;32;42m█▓▀▀[0;32m▀ ▄[0;1;32;42m░[0;32m██▀ot ██████[0;1;32;42m▄▄▄█▓[0m
-────────────────────────────────────────────────────────────────────────────────
-  Ok. Nothing special, just an ansi for my friend Mindbender, this is for his
-obv/2 on-line xaxis application system thiggie or something.. Hope you like![0m'
+────────────────────────────────────────────────────────────────────────────────[0m'

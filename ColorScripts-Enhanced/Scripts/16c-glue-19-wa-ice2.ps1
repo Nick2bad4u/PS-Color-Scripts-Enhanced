@@ -5,7 +5,7 @@
 # Source SHA-256: 1d85f27a9e7a5941f7ca89a9589254e5ec8d0eb3738e6852a6d81ae540a09392
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-ICE2.ANS by Warpus (glue-19); released in glue-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19981213
 # SAUCE Dimensions: 80x30
 # Lines: 1-30
@@ -34,11 +34,4 @@ Write-Host '
     [35m █[0;1;35;45m▓▓▓ ██[0;35m [0;37m [0;1;30m   ▀[0;1;33;47m██[0;30;46m░[0;36;40m▓[0;37;46m▀▀[0;1;36;46m▄█[0;1;36;44m▀[0;34m██[0;1;34;44m▄[0;1;34;40m█[0;44m▓[0;1;30;40m█[0;34m▀[0;1;34;44m░░▓▓[0;1;34;40m▄▄[0;34m  [0;1;30m [0;34m  [0;1;30m [0;1;34m▀[0;1;34;44m███[0;1;34;40m▄[0;34m    [0;1;34;44m  [0;34m█ [0m   [34m [0;1;34m▄[0;1;34;44m██▌[0;34m [0m
     [35m █[0;1;35;45m█[0;1;35;47m▓▓[0;1;35;45m ▀▀ [0;35m▓[0;30;45m░[0;35;40m▓░[0;37;40m ▐[0;1;33;47m██[0;1;33;46m▌[0;36;44m█[0;1;36;46m▐█[0;1;36;44m▌[0;30;44m░[0;34;40m▓[0;1;34;44m▐[0;1;34;40m█[0m██[1;30m   [0;34m▀▀[0;1;34;44m██[0;1;34;47m█  [0;1;34;44m███[0;1;34;47m▓▓███████[0;1;34;44m█[0;1;33;40m█[0;1;32;40m█[0;1;34;47m█ ░▓█▓▓[0;1;34;44m█▀[0;34m▀[0m
     [35m ░[0;30;45m▓[0;35;40m      ░[0;30;45m▓[0;35;40m░[0;1;30;40m   [0m▀[1;33;47m██[0;1;33;46m▄[0;36;44m█[0;1;36;46m ▀[0;34;46m▀[0;34;40m██[0;1;34;44m▀[0;1;34;40m▀[0;1;30;40m▀[0m  [1;30m [0m  [34m   [0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0;34m  [0m
-                [1;35m [0m    [1;30m▀[0;1;33m▀▀▀[0;36m▀▀[0;1;36m▀[0;1;30m▀[0;34m  [0;37m [0;34m    t h e y ''r e   s t i l l   c o o l     [0m
-
-
-
-
-
-                   [34m     [0m
-                   [34m     [0m'
+                [1;35m [0m    [1;30m▀[0;1;33m▀▀▀[0;36m▀▀[0;1;36m▀[0;1;30m▀[0;34m  [0;37m [0;34m    t h e y ''r e   s t i l l   c o o l     [0m'

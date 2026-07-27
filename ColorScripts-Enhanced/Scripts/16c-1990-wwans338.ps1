@@ -5,14 +5,14 @@
 # Source SHA-256: 4d26da212d512fa0319dabd39b07280f2706244fe5d8c5309756cf0154bf6c07
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WWANS338.ANS by Slyce (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-[1mSlyce: Stormy Knight Returns! #40 @2602[0m
+[1m                                       [0m
 [1mFri Oct 12 23:01:27 1990[0m
-[31mThe Eye Of The Storm [0;1;30m∙  [0;34m░░░░▒▒▒▓▓▓   [0;1;30m∙  ∙ ∙  ∙  [0;34m│ [0;1;30m∙[0;1;37m·  [0;1;30m∙ Slyce ''90''[0m
+[31m                     [0;1;30m   [0;34m░░░░▒▒▒▓▓▓   [0;1;30m           [0;34m│ [0;1;30m [0;1;37m   [0;1;30m            [0m
 [31mhas taken over Surf    [0;34m░░░░▒▒▒▓▓▓▓▓█   [0;1;37m┼  [0m∙ [1m·  [0;1;30m∙[0;1;34m│  [0;1;30m∙    ∙  [0;1;37m·    [0;1;30m∙   [0;33m░▒▓█    [0;1;37m·[0m
 [31mNeptune!  [0;35m931-8355  [0;1;30m∙ [0;34m░░░░▒▒▒▓▓▓▓▓████   [0;1;30m∙  ∙   [0;36m│    [0;1;37m·[0;1;30m∙    ∙  [0;1;37m·[0;1;30m∙   [0;35m▄[0;1;5;37;45m┼[0;35m███▄  [0;1;30m∙[0m
 [35m24 hrs 7 days/week[0;1;30m∙ [0;34m░░░░▒▒▒[0;1;30m░░░░░▒▒▒[0;34m████    [0;1;30m∙[0m∙ [1;30m∙ [0;1;36m│[0;1;37m· [0;1;30m∙[0m     [1;30m∙   [0m∙[1;30m∙    [0;35m█[0;35;45m [0;35;40m██[0;1;5;37;45m┼[0;35m█ [0;37m∙  [0;1;30m∙[0m

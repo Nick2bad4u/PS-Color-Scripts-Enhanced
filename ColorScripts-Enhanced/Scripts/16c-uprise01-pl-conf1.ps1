@@ -5,7 +5,7 @@
 # Source SHA-256: 50c14c616444aec526ab0607ab9fc3adcf31ad471795f80d495022c56f0f6bc8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-CONF1.ANS by Playdoe (uprise01); released in uprise01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -30,8 +30,8 @@ Write-Host '
                 [1;32m▌[0m [1;30m [0;1;30;47m█[0;1;30;40m█[0;1;37;40m [0m                          [1;30m          [0m  [1;30;47m▓[0m
                   [1;32m▄[0;1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0m [1;30m▌[0m   [1;30m                                 █[0m
                     [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀[0m
-                       [32m▀ [0;37m [0;1;32m▄ [0;32m▀[0;37m [0;36mfile conference[0;37m [0;1;30m(   )[0m
+                       [32m▀ [0;37m [0;1;32m▄ [0;32m▀[0;37m [0;36m               [0;37m [0;1;30m     [0m
 [1;30m--------------------------------------------------------------------------------[0m
-[1;30mconference changer for my board [0m
-[1;30mDO NOT RIP I"M USING IT[0m
+[1;30m                                [0m
+[1;30m                       [0m
 [1;30m-------------------------- ( playdoe ) -----------------------------------------[0m'

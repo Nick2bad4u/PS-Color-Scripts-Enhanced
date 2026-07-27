@@ -5,7 +5,7 @@
 # Source SHA-256: e20e8b1a41d25b99fcbf88756d7d770be74496d1e0f2fc78eaa3621532ba3c7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-CH01.ANS by P-Chan + Lord Jazz (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Channel Zer0
 # SAUCE Author: P-Chan
 # SAUCE Group: ACiD Productions
@@ -38,23 +38,20 @@ Write-Host '
                    ▀▀▀▀▀▀▀     [1;30m▀▀▀▀▀▀▀  ▀▀▀▀▀[0m          ▀▀▀▀[1;30m▀[0m▀[1;30m▀[0m
 
 
-                                  [1;30mCHANNEL ZERO[0m
+                                  [1;30m            [0m
 
 
-                 [1mSy[0msOp: B[1;30meastie (ACiD/COR/IRI/SPC/PSY/PRE/INET)[0m
-                            [1mRem[0mote: B[1;30mad Karma (ACiD)[0m
-                          T[1;30merminator 2 (ACiD/OX/TNCS)[0m
-                             [1mCo-Sy[0msOp: A[1;30mgis (INET)[0m
-                            [1mFil[0meOp: P[1;30mhax (HomeLess)[0m
+                 [1m  [0m      [1;30m                                      [0m
+                            [1m   [0m      [1;30m               [0m
+                           [1;30m                          [0m
+                             [1m     [0m      [1;30m          [0m
+                            [1m   [0m      [1;30m              [0m
 
-                  [1m80[0m0 MEGS [1;30moF ANSi.DEMO.VGA.EMAGS.SOURCE.AUDiO[0m
-                          [1;30mAFFiLiATIONS: TOO DAMN MANY[0m
+                  [1m  [0m       [1;30m                                   [0m
+                          [1;30m                           [0m
 
 
-                 [1mG[0mREETS: [1;30mBeastie, RaD MaN, and all ACiD members[0m
-                      [1;30mJigen, Monarch, Killer, STX members.[0m
+                 [1m [0m       [1;30m                                      [0m
+                      [1;30m                                    [0m
 
-                                  [1;30m-PC 06.20.94[0m
-
-                            [1;30mFont :: Lord Jazz <[0;31mACiD[0;1;30m>[0m
-                             [1;30mAnsi :: P-Chan <[0;31mACiD[0;1;30m>[0m'
+                                  [1;30m-PC 06.20.94[0m'

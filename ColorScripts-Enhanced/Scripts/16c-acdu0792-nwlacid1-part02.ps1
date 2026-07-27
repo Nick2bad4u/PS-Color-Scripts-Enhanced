@@ -5,7 +5,7 @@
 # Source SHA-256: de4c97b867327c9699c1cc5766c4d2f8416532871cf6977a0bdaf6246e0a5dcb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NWLACID1.ANS by Darkman (acdu0792); released in acdu0792 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 32-61
 # Columns: 1-80
 
@@ -37,6 +37,4 @@ Write-Host '
          [32m█[0;1;32;42m▓▌[0;32m▄▄▄▄ █[0;1;32;42m▓▌[0m [32m█[0;1;32;42m▓▌[0m [32m█[0;1;32;42m▓▌[0m [32m▐█[0;1;32;42m▓▌[0m [32m█[0;1;32;42m▓▌[0;32m▄█[0;1;32;42m▓▌[0m [32m██▄▄▄▄▄  [0;1;37mD[0;1;31ma[0;31mr[0;1;30mk[0;31mm[0;1;31ma[0;1;37mn[0m     [1;30m▌░░[0m      [1;30m░   ▌[0m
          [1;32;42m██▌[0;32m████ [0;1;32;42m██▌[0m [1;32;42m██▌[0m [1;32;42m██▌[0m  [1;32;42m██▌[0m [1;32;42m███▄▄█[0;1;32;40m▀ [0;1;32;42m█▄▄▄▄█▌[0m  [1;37;40mACiD ''92   [0;1;30;40m▐    ░[0m       [1;30;40m▀▌[0m
 [1;30;40m───────────────────────────────────────────────────────────────────────────────[0m
-      [1;36;40mN   U   C   [0;36mL   E   A   [0;1;30mR[0m       [1;30mW   A   [0mS   T   E   L   [1mA   N   D   Z[0m
-      [1mS[0;1;36mys[0;36mop [0;1;37m: N[0;1;36mig[0;36mht [0;1;37mR[0;1;36man[0;36mger  [0;1;37m·  1[0;1;36m4.[0;36m4k [0;1;37mH[0;1;36ms[0;36mt  ·  [0;1;37m([0;1;36m+4[0;36m4) [0;1;37m8[0;1;36m1[0;1;37m-3[0;1;36m1[0;36m7[0;1;37m-1[0;1;36m31[0;36m2  [0;1;37m·  2[0;1;36m1[0;36m0 [0;1;37mM[0;1;36meg[0;36mz[0m
-     [1;37mI[0;1;36mN[0;36mC [0;1;37mE[0;1;36muro[0;36mpea[0;1;30mn [0;1;37mH[0;1;36mQ  [0;1;37m·  T[0;1;36mD[0;36mI [0;1;37mE[0;1;36mur[0;36mo [0;1;37mH[0;1;36mQ  [0;1;37m·  A[0;1;36mCi[0;36mD [0;1;37mE[0;1;36muro[0;36mpea[0;1;30mn [0;1;37mA[0;1;36mgo[0;36mra  [0;1;37m·  C[0;1;36meler[0;36mity[0;1;30mNet[0m'
+      [1;36;40mN   U   C   [0;36mL   E   A   [0;1;30mR[0m       [1;30mW   A   [0mS   T   E   L   [1mA   N   D   Z[0m'

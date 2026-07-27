@@ -5,7 +5,7 @@
 # Source SHA-256: 775e22f3b90b019995ce7e4e6993be0b2aa96fba12b32e695147f0a2781559a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-FLAG.ANS by Savage (Fire Graphics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Flag BBS
 # SAUCE Author: Savage
 # SAUCE Group: Fire Graphics
@@ -62,8 +62,4 @@ Write-Host '
 [37m  [0;34m▄[0;1;34;44m▄[0;1;34;47m█ ■[0;34;47m▄[0;34;40m▀  [0;1;30;40m▄[0;30;47m▓[0;37;40m░░[0;1;30;40m▄[0;34m  [0;1;34;44m ▀[0;1;34;47m ■[0;34;47m▄[0;34;40m▀  [0;1;30;40m▄[0;1;30;47m ▀[0;1;30;40m▀[0m░░░▀[1;47m■[0m█▄[34m  ▀[0;34;47m▄[0;1;34;47m■ ▓▓[0;34m █[0;1;34;47m█■ [0;34;47m▄[0;34;40m▀  [0;37;40m▄▓▓[0;30;47m░░[0;37;40m▓[0;30;47m░[0;37;40m▓▓[0;1;30;47m▀[0;1;30;40m▄[0;34m  ▀[0;34;47m▄[0;1;34;47m■  ▓▓█[0;1;34;44m▀[0;34m▀[0m
 [37m  [0;1;34;44m  ▀▀[0;34m▀   [0;1;30m██▀▀██[0;34m  ▀▀▀   [0;1;30m▄[0;1;30;47m ▀[0;1;30;40m▀[0m       ▀▓▓▄▄[34m  ▀▀▀ ▀▀▀   [0;37m▄[0;1;37;47m ■[0;1;30;47m▄▄▄[0m▀▀▀▀▀██[1;30;47m▀[0;1;30;40m▄▄[0;34m  ▀[0;1;34m▀▀▀[0;34m▀  [0;1;30m▄▄[0m
         [1;30m█▄[0m    [1;30m███▄▄▄▄█[0;1;30;47m▀▀█[0;1;30;40m▀[0m           ▀▀███▄▄▄▄▄▄▄▄▓▓▓▀           [1;30m▀[0;30;47m▓[0;37;40m░░░[0;1;30;40m▄▄▄▄▄███▀[0m
-               [1;30m▀[0m░[30;47m▓[0;37;40m░[0;30;47m▓▓[0;1;30;40m▀▀[0m                  ▀▀[1;30;47m▄▄▄▄▄▄[0m▀▀                 [1;30m▀▀█████▀▀[0m
-
-
-
-                       [1;30mBLACK FLAG BBS - HAWK HUBBARD - RIP[0m'
+               [1;30m▀[0m░[30;47m▓[0;37;40m░[0;30;47m▓▓[0;1;30;40m▀▀[0m                  ▀▀[1;30;47m▄▄▄▄▄▄[0m▀▀                 [1;30m▀▀█████▀▀[0m'

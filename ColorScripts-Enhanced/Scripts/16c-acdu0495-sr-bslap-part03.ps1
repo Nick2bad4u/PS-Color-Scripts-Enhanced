@@ -5,7 +5,7 @@
 # Source SHA-256: a814e9a2f2c2ef95df75878a4f8719109390fa8257424a651e69e652b47bdf80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-BSLAP.ANS by Silver Rat (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bitchslap Magazine
 # SAUCE Author: Silver Rat
 # SAUCE Group: ACiD Productions
@@ -46,11 +46,4 @@ Write-Host '
              [31m  [0;1;30m▀[0;1;30;47m▒[0m▀[1;30m ▄[0m▄[1;30m  ░[0m▄[1;30;47m▒[0;1;37;40m■[0;1;30;40m [0m▄ [1;30m▄[0m▄ [1;30m [0m▄[31m  [0;37m [0;31m  [0;37m▄[0;31m░  [0;1;37m▄[0m  [1;30m [0;31m▀ [0;1;37m▄[0m▄[1;30;47m▓[0;1;30;40m■[0;1;30;47m▒[0;1;30;40m▄▓▀░[0m [1;30;46m▒[0;1;30;40m▀[0m
              [1;30m ▀[0m    [1;30m░▀[0m [1;30m▀[0;1;30;46m▓[0;1;30;40m ▀[0m [1;30m▀[0;1;30;47m▓[0;1;30;40m▀[0m [1;30m▀░[0m▀[1;30;47m▓[0;1;30;40m▀■▀▓▀[0;1;30;47m▓[0;1;30;40m▀[0m [1;30m▄[0;1;30;47m▒[0;1;30;40m▀[0;1;30;46m▓[0;1;30;40m▄[0;1;30;47m▓[0;1;30;40m▄[0m ▀[1;30m░[0m  [1;30;46m▄[0;1;30;40m [0m [1;30m ■ [0m
                  [1;30m▀[0m   [1;30m▒ [0m  [1;30m ■[0m   [1;30m▀[0m [1;30m▀[0;1;30;46m▒[0;1;30;40m  ▀ ░■ [0m   [1;30m░[0m [1;30m ▀[0m       [1;30m░[0m
-                    [1;30m   [0m          [1;30m [0m                 [1;30m▀[0m   [1;30m [0m
-                  [1;30m [0m                            bitchslap #4
-
-
-                      [1;30mlookit! i can be like ld! too:)  [0m
-                         ansi+font=Silver.Rat[1;31m([0maC[1mi[0md[1;31m)[0m
-
-[1;30m [0m        [1;30m  [0m       [1;30mgreetz^2:spam,ay_acid,gal,stc,blkguard...[0m'
+                    [1;30m   [0m          [1;30m [0m                 [1;30m▀[0m   [1;30m [0m'

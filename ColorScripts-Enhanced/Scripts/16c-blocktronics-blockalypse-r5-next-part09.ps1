@@ -5,7 +5,7 @@
 # Source SHA-256: e9d7772d7ba0a24234490f5a602267448e2d017b9f5d8d67d4b4e09dfba2f51f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: r5-next.ans by resetsurvivor (block7ronics); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: future g4ngs of the blockalypse
 # SAUCE Author: resetsurvivor
 # SAUCE Group: block7ronics
@@ -60,5 +60,5 @@ Write-Host '
 
 [1;30m--------------------------------------------------------------------------[0m[[1m#[0m][1;30m---[0m
 
-  ([1mn[0m)[1;30mame : [0mf[1;36;46mu[0mture g4ngs of t[1;45mh[0me blockalypse                      [1;30m... rip [0;1;36;45m3[0;1;30;40mric [0;1;37;46mt[0m
+   [1m [0m [1;30m      [0m [1;36;46m [0m               [1;45m [0m                                   [1;30m        [0;1;36;45m [0;1;30;40m    [0;1;37;46m [0m
 [36m_[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f4a3fd34330b087199570373a295126f7b8671240298456ee08fbd2e04dda7a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TSP.ANS by Rgt + Weeping Killer (fORCE); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Shroom Palace
 # SAUCE Author: rGt and wk!
 # SAUCE Group: fORCE
@@ -29,11 +29,7 @@ Write-Host '
           `SSS$[1mg$$$$$$l[0m  `~~~~~~ $+²^"²+. .+²"^²+$ $ .+²"^²+$ .+²"^²+. .+²"^²+.
    [1;30mwk![0m     lS$[1mⁿYSSP'',SS;[0m [33m,#g.[0;37m    $[0m      [37m$ $[0m      [37m$ $ $[0m      [37m$ $[0m        [37m$------''[0m
      [33m.#$''[0;37m.,SSSS#g[0;1;37mg#$SPⁿ''[0;33m,$SS$.[0m   [37m$+,__,+'' `+,__,+$ $ `+,__,+$ `+,___,+ `+,___,+[0m
-    [33mlSSSg,[0;37m`ⁿⁿ╚YP╝ⁿ''[0;33m,g#S$SS$S$l[0m   [37m$[0m               [37m`[0m          [37m`[0m
-    [33m`$SSS$ⁿSSSga∙ⁿⁿ$S$ⁿ$$SS$ⁿ[0m    [37m$[0m     [37m.d$[0m                             [37m$b.[0m
-      [33m`ⁿ╚$$$╝ⁿ'' ::  `ⁿⁿⁿⁿⁿ''[0m      [37m$[0m     [37m$$$[0m    [37mo the shroom palace o [0m   [37m$$$[0m
-                                 [37mⁿ[0m     [37m`Y$[0m                             [37m$P`[0m
-
-
-[37m∙ original[0;1;37m [0;1;33mansi[0m mushie by [1;33mwk![0m
-∙ conversion and logo by [1;33mrGt[0m'
+    [33m      [0;37m   ╚  ╝  [0;33m           [0m   [37m [0m               [37m [0m          [37m [0m
+    [33m                         [0m    [37m [0m     [37m   [0m                             [37m   [0m
+      [33m  ╚   ╝              [0m      [37m [0m     [37m   [0m    [37m                      [0m   [37m   [0m
+                                 [37mⁿ[0m     [37m`Y$[0m                             [37m$P`[0m'

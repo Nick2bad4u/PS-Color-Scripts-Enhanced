@@ -5,7 +5,7 @@
 # Source SHA-256: 94b0070f385627e6ec324c5b55573c4ea41e59adc452f366409135cdf3d45982
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ME-STACK.ANS by Malformed Earthborn (Root/Twisted); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo colly
 # SAUCE Author: Malformed Earthborn
 # SAUCE Group: Root/Twisted
@@ -34,10 +34,4 @@ Write-Host '
                   [1;30m█[0m [1;32m░[0m [1;30m▓  [0m                 [1;30m▀▓[0m [1;32m [0m [31m▐▌[0;1;32m▀█▄▄[0m [31m▀▀▀▀▓▀▀▀[0;37m [0;1;32m▄▄▓[0;1;32;42m▀[0;1;32;40m▀[0;32m▀[0;37m  [0;31m▌[0m
                   [1;30m▓[0m   [1;30m▒[0m                    [1;30m▒[0m [1;32m [0m [31m█[0;37;41m░[0;37;40m  [0;32;40m▀[0;1;32;40m▀▀▀▀▀▀▀▀▀▀▀▀[0;32m▀[0;37m [0;1;30m▄▄▓[0m [31m▐▌[0m
                   [1;30m▒[0m   [1;30m░[0m                    [1;30m░[0;31m    ▀ [0;1;30m [0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m  [31m█[0;37;41m▒[0;31;40m [0m
-                  [1;30;40m░[0m                            [31m [0m                      [31m ▀ [0m
-
-
-
-
-[1;33mgreets:[0;1;30m defiant, dislogic, flight, moleql, dark spawn, necrolyte, fusion, etc..[0m
-[1;30m        and putrid carcass, the ruiner, toth, and dee^lots from twisted..[0m'
+                  [1;30;40m░[0m                            [31m [0m                      [31m ▀ [0m'

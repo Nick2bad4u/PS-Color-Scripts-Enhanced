@@ -5,7 +5,7 @@
 # Source SHA-256: 77f0b9ad7b7930915e3ae176d716d38878d83c71dd9aea2c884b410848ef929a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VE-FILE.ANS by VeNoMouS (DeViL FoRCeS); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Un FiLeS MeNu....
 # SAUCE Author: VeNoMouS
 # SAUCE Group: DeViL FoRCeS
@@ -17,7 +17,7 @@
 Write-Host '
                    [36m,s[0;1;36mS[0;36ms,[0m
                    [36m½[0;1;36m½½½[0;36m¼[0m
-[36m ,sS½½¼¼½¼½½Ss,    `²[0;1;36mS[0;36m²'' [0;1;37mD[0mo[1;30mned [0;1;37mB[0my [1;30mV[0meN[1moM[0mou[1;30mS[0m
+[36m                     [0;1;36m [0;36m   [0;1;37m [0m [1;30m    [0;1;37m [0m  [1;30m [0m  [1m  [0m  [1;30m [0m
 [36md[0;1;36m¼[0;1;37m¼½¼½¼¼½¼½½½¼½[0;1;36mS[0;36ms [0;1;36m,[0;36ms[0;1;36m@[0;1;37mS[0;1;36m@[0;36ms[0;1;36m,    [0;36m,[0;1;36ms[0;1;37m@[0;1;36ms[0;36m,[0m      [36m,s[0;1;36mS[0;1;37m$[0;1;36m$[0;1;37m$[0;1;36m$[0;1;37m$[0;1;36m$[0;1;37m$[0;1;36mS[0;36ms,[0m                 [36m.,sd@½[0m
 [36m½[0;1;36m¼[0;1;37m½¼½½[0;1;36m½S²^²S½[0;1;37m½½½½[0;1;36mb`S[0;1;37m½[0;1;36m½¼[0;36m½[0;1;36mSs,  [0;36m½[0;1;36m½[0;1;37m½¼[0;1;36m½[0;36mb[0m     [36m¼[0;1;36m½[0;1;37m½½[0;36m½²[0;1;36m"[0;1;37m^[0;1;36m"[0;36m²½½[0;1;36m¼[0m              [36m,d@[0;1;36mS[0;1;37m½¼½¼[0;1;36m½[0;36m''[0m
 [36m ²[0;1;36m½[0;1;37m½¼½[0;1;36m¼[0;36m''[0m     [36m`²[0;1;36m½[0;1;37m½[0;1;36mb  [0;36m`²[0;1;37m½[0;36m½[0;1;36m½[0;36m½[0;1;36ms  [0;36m`½[0;1;36m¼[0;1;37m½¼[0;1;36mS[0;36ms,   `[0;1;36m½[0;1;37m¼½[0;36mb   ,sS¼[0;1;36m½[0m           [36m,s@[0;1;36m½[0;1;37m¼½¼½[0;1;36m¼[0;36m½''''[0m
@@ -29,11 +29,11 @@ Write-Host '
 [36m `²S$S²''[0m            [36m`[0;1;36m²[0;1;37mS[0;1;36m²[0;36m''  `²S$$$$$$$$²''    `²$$$$S²''[0m         [36m`²S$$$$$$$S²''[0m
                         [37m,s@S$$$$$$$$$$$$$$$$$$$$$S@s,[0m
 [1;37mBueno,, Podes Borrar[0m,s@S¼½¼¼½¼½¼½¼½¼½¼½¼½¼½¼½¼½¼½¼½¼¼S@s,
-[1mEste Texto Despue''[0m,s¼½¼½'' [1mPUT YAR OPTIONS HERE MAN !![0m`½½¼½s,
-[1mDe Leerlo.[0m       d½¼½¼½''  [1mPUT YAR OPTIONS HERE MAN !! [0m''½¼½½¼
-[1mPodes hacer tu   [0md½½½½½   [1mPUT YAR OPTIONS HERE MAN !!  [0m½½½½¼  [1;5;31mNO MODIFICAR EL[0m
-[1mPropio Recuadro  [0md½½½½½   [1mPUT YAR OPTIONS HERE MAN !!  [0m½¼½½¼     [1;5;31mASKEE!!!![0m
-[1mPero [0;1;5;31mNO MODIFIKES[0md½¼¼½¼s  [1mPUT YAR OPTIONS HERE MAN !! [0ms¼½½½¼   [1;5;31mSOLO PODES EL[0m
-[1;5;31mEL ANSKEE NI LE   [0m`²¼½½½, [1mPUT YAR OPTIONS HERE MAN !![0m,½¼½¼²''    [1;5;31mRECUADRO!!![0m
+[1m                  [0m        [1m                           [0m       
+[1m          [0m                [1m                            [0m      
+[1m                 [0m         [1m                             [0m       [1;5;31m               [0m
+[1m                 [0m         [1m                             [0m          [1;5;31m         [0m
+[1m     [0;1;5;31m            [0m         [1m                            [0m         [1;5;31m             [0m
+[1;5;31m                  [0m        [1m                           [0m           [1;5;31m           [0m
 [1;5;31mSAKES / AGREGES[0m     `²S$½¼½¼½¼½¼½¼½½¼¼½½¼½¼½¼½¼¼½¼½¼½¼½¼½''
 [1;5;31mEL NOMBRE DEL AUTOR!!   [0m`²S$$$$$$$$$$$$$$$$$$$$$$$S²''[0m'

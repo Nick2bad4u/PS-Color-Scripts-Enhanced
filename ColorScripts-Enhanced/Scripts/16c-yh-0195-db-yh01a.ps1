@@ -5,7 +5,7 @@
 # Source SHA-256: 1678413a4196b2e00b826fab9481a10601b38ee6b97064e6eb0f2ace8a184459
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DB-YH01A.ANS by Deathblow (yh-0195); released in yh-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -54,7 +54,4 @@ Write-Host '
                               [33m▀[0;1;31;43m▀▀▀█████████████▀▀▀[0;33m▀[0m
                                   [33m▀▀[0;1;31;43m▀▀█████▀▀[0;33m▀▀[0m
                                       [33m▀▀▀▀▀[0m
-        [1;37m┌─────────────────────────────────────────────────────────────┐[0m
-          Welp this is my first attempt at drawing cartoons.  It came
-                         out better than I expected :).
-             Anyways, this is brought to ya by Deathblow [YEAh SS][0m'
+        [1;37m┌─────────────────────────────────────────────────────────────┐[0m'

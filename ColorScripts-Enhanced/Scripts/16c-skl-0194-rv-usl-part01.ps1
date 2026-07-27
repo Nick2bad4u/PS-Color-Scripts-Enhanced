@@ -5,12 +5,12 @@
 # Source SHA-256: bbe64dab85cbf8a3f1d4175ba6037188298d05e015115501c9f28a72b770b002
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RV-USL.ANS by Rawvibes (skl-0194); released in skl-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
- [1mRawViBES [Skill] 93''[0m            [34m▄▄▄▄▄▄[0m
+ [1m                    [0m            [34m▄▄▄▄▄▄[0m
                               [34m▄██████▀██▄[0m
         [34m▄▄▄[0m                 [34m▄████[0;1;34;44m▄[0;34m█▀   [0;1;33m▄█▄[0m
 [1;33m   [0;34m▄███████[0;1;34;44m▄▄▄▄[0;34m█▄[0m          [34m█████[0;1;34;44m▄▀[0;34m█[0m     [1;33m▀[0m
@@ -56,6 +56,4 @@ Write-Host '
 [34m█████[0;34;44m            [0;34;40m███[0;1;34;44m▀[0;1;37;44m▀▀[0;1;34;44m▄[0;34m██[0m                                  [34m▀▀▀██[0;34;44m        [0;1;34;44m▀█[0;34m██[0m
 [34m███[0;34;44m   [0;34;40m██████████████████[0;1;34;44m▀[0;34m▀[0m                                      [34m▀▀██████[0;34;44m  [0;34;40m████[0m
 [34;40m  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m                                           [34;40m▀▀▀████████[0m
-                                                                         [34;40m▀▀▀[0m
-
-'
+                                                                         [34;40m▀▀▀[0m'

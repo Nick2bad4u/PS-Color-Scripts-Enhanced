@@ -5,7 +5,7 @@
 # Source SHA-256: 43277a1827fe05b2eefe99a1ee7e7f2927b54ff7fd14e0a6d61ba791c733cb54
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-ANSI.ANS by Arlequin (Circe Argentina); released in circe03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "Ansi Cluster"
 # SAUCE Author: Arlequin
 # SAUCE Group: Circe Argentina
@@ -39,7 +39,7 @@ Write-Host '
       [34m  [0;37m   █▄▄█▌▀▀▀▀▀▀▀[0m    [34m▄▄[0;1;34m░[0m      [34m▄▀▓[0m            [34m█[0;1;34;44m█▄[0;34m▄▄[0m         [1;34;44m░██[0m     [1;32;42m▄▄█[0;32m▌[0m
 [37m  [0;1;35m▄[0;1;35;45m▓▀[0;35m▄[0;37m [0;1;35m▄[0;35m▄▄[0;37m ▀  [0;35m▄▄[0;1;35m▄▄▄▄[0;35m▄▄▄▄▄[0;37m  [0;34m▀▀▀[0;37m [0;35m ▄▄▄[0;37m [0;34m▀▀ [0;37m [0;35m▄▄▄▄[0;1;35m▄▄▄[0;35m▄▄▄▄[0;37m [0;34m▀▀▐[0;1;34;44m███▄[0;34m▄▀[0;1;34;44m▀███▀[0;34m▀▄[0m    [32m▀▀▀[0m
    [35m▀▀[0m                     [35m   [0m
-          [37mArt Gallery v1.0, (c) PVM 1998, Coded By Unabomber[0m
+          [37m                                                  [0m
 
 
 
@@ -50,7 +50,4 @@ Write-Host '
 [1;31m ▓[0;32m  [0;33m█[0;32m [0;32;43m░▒▒[0;32;40m▄[0;32;43m▓▓[0;1;32;42m▓▓███[0;1;33;40m███▄▄[0m   [35m▄▀[0;1;35;45m ▀  [0;32m  [0;37m [0;32m [0;37m▀▀ [0;32m [0;37mName:[0;32m  [0;37mFiles      [0m
 [32m  [0;33m▀▀[0;32m [0;33m▄█[0;32;43m░░[0;32;40m▌▀▀▀█[0;1;32;42m▀▀[0;32m▀▀▀  [0;1;33;45m▓▓░░[0;35m██[0;32m [0;1;30m▄▄[0m▄[1m▄[0m      [32m  [0;37mFor:[0;32m  [0;37mBandido/Panoramix[0m
    [33m▄[0;32m [0;1;30m▄▄▄▄▄██▄▄▄▄▄█[0;1;30;47m▀▄[0;1;30;40m▄▄▄▄[0;35m ▀[0;32m [0;1;30m▄[0;1;30;47m█▓▓[0m▀
-[32m  [0;1;30m              [0;32m [0;1;30m▀▀▀[0m        [1;30m     [0m
-
-
-'
+[32m  [0;1;30m              [0;32m [0;1;30m▀▀▀[0m        [1;30m     [0m'

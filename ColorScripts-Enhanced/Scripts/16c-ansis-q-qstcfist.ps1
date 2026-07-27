@@ -5,7 +5,7 @@
 # Source SHA-256: 42e108b5ef95fb5cf8a8b8b677c4441d9bd2002ace59ea4516c7877c0b630b09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QSTCFIST.ANS by Quick Silver (ansis-q); released in ansis-q and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -33,5 +33,4 @@ Write-Host '
 [31m█  ▄▄▄▀[0;1;30;41m▄▄[0;31;47m▀▀[0;1;30;47m▀[0;1;30;40m▄[0m      [31m▀▀[0;1;30m▄ ▀███[0;1;30;47m▄▄[0;1;30;40m▀[0m             [34m▀[0;1;34;44m▀[0;1;37;46m▀▄▄[0;1;34;46m▀[0;1;34;44m▄▄[0;34m▄▄▄▄▄▄[0;1;34;44m▄▄[0;1;34;46m▀[0;1;34;44m▄[0;1;34;46m▀[0;1;34;44m▄▄▄[0;34m▄▄▄▄[0;1;34;44m▄▄▄▄[0;1;34;46m▀▀▀▀[0;1;37;46m▄▀[0;1;34;44m█[0m
  [31m▀▀ [0;1;30m▀▄ ▀█[0;1;30;47m▄ ▄[0;1;30;40m▀[0m         [1;30;40m▀▀▀▀▀[0m                  [1;34;44m▀▀▀[0;1;37;46m▀▄▄[0;1;34;46m▀▀▀▀▀▀[0;1;37;46m▄▄▀▄▀▄▄▄[0;1;34;46m▀▀▀▀[0;1;37;46m▄▄▄▄▀▀▀▀[0;1;34;40m█[0;34m█[0m
       [1;30m▀▀▀▀▀[0m                                     [1;34;44m▀▀▀[0;1;37;46m▀▀▀▀▀▀[0;1;34;46m▄▄[0;1;34;44m▀[0;1;34;46m▄[0;1;34;44m▀[0;1;34;46m▄▄▄[0;1;37;46m▀▀▀▀[0;1;34;46m▄▄▄▄[0;1;34;44m▀▀▀▀[0;34m▀[0m
-[1;37mQ[0mU[1;30miCk [0;1;37mS[0mi[1;30mLVεR[0m                                       [1;34;44m▀▀▀▀▀▀[0;34m▀▀ ▀ ▀▀▀[0;1;34;44m▀▀▀▀[0;34m▀▀▀▀[0m
-[1;37mA[0;1;36mC[0;36mi[0;1;30mD Productions - [0;1;37mo[0m6[1;30m/[0;1;37mo[0m1[1;30m/[0;1;37m9[0m2[0m'
+[1;37mQ[0mU[1;30miCk [0;1;37mS[0mi[1;30mLVεR[0m                                       [1;34;44m▀▀▀▀▀▀[0;34m▀▀ ▀ ▀▀▀[0;1;34;44m▀▀▀▀[0;34m▀▀▀▀[0m'

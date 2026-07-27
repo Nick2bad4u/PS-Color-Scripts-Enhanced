@@ -5,7 +5,7 @@
 # Source SHA-256: 634157a4a29922834e82998de13856a8d1d31e79e9863a3262ca2d9d14d7c164
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-SILK.ANS by Colourless (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Silk Menu
 # SAUCE Author: Colourless
 # SAUCE Group: AWE Lettering
@@ -36,25 +36,4 @@ Write-Host '
 [33m  [0;32m▄▄▌▀ [0;33m▀▀[0;30;43m░ [0;33;40m▀  [0;32;40m▀[0;33;40m▐[0;33;43m  [0;33;40m▀ ▀  ▐[0;33;43m   [0;1;31;43m░ [0;30;43m░[0m [32;40m▀   ▄[0;1;32;42m░[0;32m▌ [0;33m▄[0m       [32m▄[0m             [32m▐▓[0m     [32m▐▄    [0;33m▄[0;30;43m░[0;33;40m▌▄▌[0m
 [37;40m░[0;37;42m░[0;32;47m▓[0;32;42m [0;30;42m░[0;32;40m░ ▄[0;1;32;42m▄[0;32m▄ ░▄▌[0;1;31m░[0;1;31;43m░   [0;33m▄▌ [0;32m▄[0;33m▀▀▀[0;33;43m   [0;33;40m▌  [0;32;40m░▄▌ ▀░ [0;33;40m▐[0;1;31;43m░[0;33m▀  [0;32m░▄[0m            [32m▄  ▀[0;1;32;42m░[0m     [36;42m░[0;36;40m░ [0;33;40m░[0;30;43m▓[0m [33;40m▐██[0;30;43m░[0;33;40m▓[0m
 [32;40m▐[0;32;42m   [0;1;32;42m░▓[0;1;32;40m▄ [0;32m▀ ▄▐[0;1;32;42m░[0m  [33m▄▄[0;33;43m  [0;30;43m░[0;33;40m▀ [0;32;40m▐▄▄    ▄▄[0;32;42m [0;1;32;42m░  [0;30;42m░[0;32;40m░    ▄▐[0;1;32;42m░▄[0;32m▌ ░  [0;1;33m▄[0;33m▄░    [0;32m▄▐▄░ ▐▌   ▐▀    [0;33m▄[0;33;43m [0;1;31;43m░[0;33m▀ ▀▌[0m
-[32m░▀▐[0;1;32;42m░▓█[0;1;32;47m▓[0;1;32;40m▌[0;32m▄▐[0;30;42m░[0;1;32;42m░[0;1;32;40m▌[0;32m▄  ▄ ▄▄ ░[0;30;42m░[0;1;32;42m▀[0;32m▌ ▄[0;1;32;42m▄[0;32m▄▐[0;1;32;42m░▓█░[0;32m▓▄   ░[0;30;42m░[0;1;32;42m░▓[0;1;32;47m▓[0;1;32;40m▌ [0;32m▐▓ [0;1;33m▐[0;1;33;47m▓[0;1;33;43m▓░[0;30;43m░[0;33;40m░ [0;32;40m▐[0;1;32;42m░▄ [0;30;42m░[0;32;40m░ ▀ ▄▄░ [0;33;40m▄[0;1;31;43m▄[0;33m▄▐[0;1;31;43m░▓█[0;1;31;47m▓[0;1;31;40m▄░[0m
-
-[1;31;40m [0;1;37;40mmenuset for iceage''s silk, by colourless of awe.  finished march 6th at 12:15a[0m
-
-[1;37;40m [0miceage - here''s your menuset, just in time for the pack (i''m sure they delayed
-          it just for me :)  hope you like it.
- tna    - thanks, for delaying the pack ;)
- fluor  - well, dunno, had to put your name here...
-
- others - well, anyone who''s sometimes on #awe should be greeted, but i just do
-          not want this list to be too big, sorry.
-
- [1mif you want to buy me a logo or something, send me a mail and we''ll talk about[0m
-[1m all the details involved...[0m
-
-[1m [0mcless@total.net             mathieu bergeron
-                             3430 ovila hamel
-                             saint-hubert, qc
-                             j3y 8p4, canada
-
- [1mprices will vary, but will always be, for now on, over 0 bucks...  sorry, i''ve[0m
-[1m drawn freebies for the past 9 months, and i''m sick of doing so. :([0m'
+[32m░▀▐[0;1;32;42m░▓█[0;1;32;47m▓[0;1;32;40m▌[0;32m▄▐[0;30;42m░[0;1;32;42m░[0;1;32;40m▌[0;32m▄  ▄ ▄▄ ░[0;30;42m░[0;1;32;42m▀[0;32m▌ ▄[0;1;32;42m▄[0;32m▄▐[0;1;32;42m░▓█░[0;32m▓▄   ░[0;30;42m░[0;1;32;42m░▓[0;1;32;47m▓[0;1;32;40m▌ [0;32m▐▓ [0;1;33m▐[0;1;33;47m▓[0;1;33;43m▓░[0;30;43m░[0;33;40m░ [0;32;40m▐[0;1;32;42m░▄ [0;30;42m░[0;32;40m░ ▀ ▄▄░ [0;33;40m▄[0;1;31;43m▄[0;33m▄▐[0;1;31;43m░▓█[0;1;31;47m▓[0;1;31;40m▄░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a7d314d3bdbb6ec336f58dcc054607a83fbf4975385d59999c4d013b406f20c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-DIGIT.ANS by Bad Karma (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digitalia
 # SAUCE Author: Bad Karma
 # SAUCE Group: ACiD Productions
@@ -52,13 +52,13 @@ Write-Host '
                             9 1 4 · 4 8 5 · 7 9 2 1
 
                                    [1m7[0m0[1;30m0+ Me[0mg[1ms[0m
-                                 [1m0[0m-[1;30m7 Day War[0me[1mz[0m
-                                 [1mD[0mW[1;30mi  World [0mH[1mQ[0m
-                             [1mA[0mr[1;30mt/Demo/Mag Orient[0me[1md[0m
-                             [1mH[0mu[1;30mge H/P/A Collecti[0mo[1mn[0m
-                          [1mS[0my[1;30msops :  WiRE TAP & Zant[0ma[1mr[0m
-                                [1mR[0me[1;30mmote :  ViP[0mE[1mR[0m
+                                 [1m [0m [1;30m         [0m [1m [0m
+                                 [1m [0m [1;30m         [0m [1m [0m
+                             [1m [0m [1;30m                 [0m [1m [0m
+                             [1m [0m [1;30m                 [0m [1m [0m
+                          [1m [0m [1;30m                       [0m [1m [0m
+                                [1m [0m [1;30m           [0m [1m [0m
 
 [1;30m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
-                         [1;30mANSI by [0m:  [1mB[0ma[1;30md [0;1;37mK[0ma[1;30mrma  <AC[0mi[1;30mD>[0m
+                         [1;30m        [0m   [1m [0m [1;30m  [0;1;37m [0m [1;30m        [0m [1;30m  [0m
                [1;30m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m'

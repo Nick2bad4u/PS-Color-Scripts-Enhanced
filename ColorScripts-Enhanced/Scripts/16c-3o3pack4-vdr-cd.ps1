@@ -5,7 +5,7 @@
 # Source SHA-256: d2a03af1578aae72f0baf351b204b3efca8e3085fe0ee8c042d807dda330ffbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VDR-CD.ANS by Vader (3o3pack4); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: claustrophobic dimension
 # SAUCE Author: Vader
 # SAUCE Date: 19970517
@@ -54,12 +54,4 @@ Write-Host '
  [1;30m█[0;1;30;47m█   ░▒[0;1;30;40m█████▓▀▀[0m      [1;30m▀▀▓█████████████▀▀[0m   [1;30m▀[0;1;30;47m▓[0;1;30;40m█████▀▀[0m  [1;30m▀█████████████████████████[0m
   [1;30m▀▀█[0;1;30;47m░ ░▒[0;1;30;40m██▀▀[0m [1;30m+o nibc^3o3[0m [1;30m▀▀▀[0;1;30;47m▓█[0;1;30;40m███▀▀[0m         [1;30m▀▀▀▀[0m        [1;30m▀▀▀▓██████████████████▌[0m
       ▀▀[1;30m▀[0m                     [1;30m▀▀[0m   c [1;30ml[0m [1;30ma[0m [1;30mu[0m [1;30ms[0m [1;30mt[0m [1;30mr[0m [1;30mo[0m [1;30mp[0m [1;30mh[0m [1;30mo[0m [1;30mb[0m [1;30mi[0m [1;30mc[0m [1;30m▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m██████▀▀▀▀[0m
-                                      [1;30m     [0md [1;30mi[0m [1;30mm[0m [1;30me[0m [1;30mn[0m [1;30ms[0m [1;30mi[0m [1;30mo[0m [1;30mn[0m
-
-
-
-oh shit.. you don''t see me do pics very often.. but here is one... and it suxx..
-comic rips is kinda cool.. the pic is from x-force 5 dec. and the small
-background and logo is 100% original.. here ya go nibc.. use or die!@# =).,.
-
-vader signing off..[0m'
+                                      [1;30m     [0md [1;30mi[0m [1;30mm[0m [1;30me[0m [1;30mn[0m [1;30ms[0m [1;30mi[0m [1;30mo[0m [1;30mn[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: cd54e531bde39d185ed6b2e7aec47f21a2968c0ec13e09e6b9b5492132396044
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S3-RMNU0.ANS by Suicide Solution (Maiden Brazil =)); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tha RuSH menu ...
 # SAUCE Author: Suicide Solution
 # SAUCE Group: Maiden Brazil =)
@@ -24,7 +24,7 @@ Write-Host '
 [32;40m [0;1;30;40m [0;32m      [0m    [33m■▓▀▓█[0;32;43m░[0;33;40m███[0;37;40m [0;31;40m▄▄[0;32;43m░[0;37;40m [0;33;40m█[0;32;43m░▒░[0;33;40m█ ██[0;1;33;43m░[0;32;43m░▒░[0;31;40m███[0;1;31;41m░[0;31m██[0;37m [0;33m█▀[0;1;31;41m░[0;31m▄[0;32;43m░[0;37;40m [0;32;43m░[0;33;40m██[0;32;43m░▒[0;31;40m [0;32;43m░[0;1;33;43m░[0;33m█[0;32;43m░▒░[0m
 [32;40m [0;1;30;40m [0;32m      [0;37m [0;33m▄ ▀ [0;32m▄[0;37m [0;31m▄▄▄▄▄▄[0;37m [0;31m█[0;1;31;41m░ [0m [33m▀█[0;32;43m░[0;33;40m██▄███▀[0;32;43m░[0;37;40m [0;31;40m▀█▓███▄▄[0;1;31;41m░▒░[0m [32;43m░▒░[0;33;40m██[0;32;43m░[0;33;40m▀██[0;1;33;43m [0;33m█[0;32;43m░[0;37;40m [0;32;40m▄[0m
         [32;40m    [0;1;30;40m             [0m                [1;30m  [0m    [1;31;41m░[0m   [32;43m░[0m
-[33;40m.[0;32;40mx[0;33;40m.[0;37;40m [0;1;31;40mt[0;31mh[0;1;30ma option!,,,![0m            [33m.[0;32mx[0;33m.[0;1;30m [0;1;31mt[0;31mh[0;1;30ma option!,,,![0m          [33m.[0;32mx[0;33m.[0;1;30m [0;1;31mt[0;31mh[0;1;30ma option,,,![0m
+[33;40m [0;32;40m [0;33;40m [0;37;40m [0;1;31;40m [0;31m [0;1;30m             [0m            [33m [0;32m [0;33m [0;1;30m [0;1;31m [0;31m [0;1;30m             [0m          [33m [0;32m [0;33m [0;1;30m [0;1;31m [0;31m [0;1;30m            [0m
         [1;30m"[0m                              [1;30m"[0m                            [1;30m "[0m
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 2282c4faa195c6ced1e090426d0af2a7c18644f41d3c6707003e93acf6459e3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PB-RAVNT.ANS by Point Blank (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ravaged Nightmare
 # SAUCE Author: Point Blank
 # SAUCE Group: READ THE INI FILE
@@ -57,7 +57,7 @@ Write-Host '
 [1m───────────────[0m───────────────[1;30m─────────────────────[0m─────────────[1m───────────────[0m
 [1;30m██▀[0m        [1;30m [0m
 [1;30m▓[0m [1;30m▀[0m                                                                          [1;30m░[0m
-[1;30m▒[0m          [1;30m·.pic & font by point blank of union productions 1 9 9 5.[0m         [1;30m▒[0m
-[1;30m░[0m                 [1;30m.if you want an ansi by me, find me on irc.·[0m      [1;30m·[0m      [1;30m▀[0m [1;30m▓[0m
+[1;30m▒[0m          [1;30m                                                         [0m         [1;30m▒[0m
+[1;30m░[0m                 [1;30m                                            [0m      [1;30m [0m      [1;30m▀[0m [1;30m▓[0m
                  [1;30m·[0m                                                         [1;30m▀██[0m
 [1m───────────────[0m───────────────[1;30m─────────────────────[0m─────────────[1m───────────────[0m'

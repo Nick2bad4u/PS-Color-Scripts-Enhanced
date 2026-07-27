@@ -5,7 +5,7 @@
 # Source SHA-256: dddfc1c4e98e1c8a6fe33659f43575f46ee1375f2481b1b07fb59e9881857843
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-TT.ANS by Tetanus + Wat0r (toon/union); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: toons town
 # SAUCE Author: Tetanus
 # SAUCE Group: toon/union
@@ -49,10 +49,4 @@ Write-Host '
 [1;31;40m▀▀▀▀▀███▀▀▀▀▀▀▀▀[0;1;30;40m [0;1;31;40m▀▀▀▀[0;1;31;43m▓[0;1;31;40m▀▀▀▀▀▀[0;1;31;43m▓[0;1;31;40m█▀▀▀▀▀▀▀▀▀ ▀[0;1;33;40m ▀▄[0;1;31;40m▀▀▀▀▀▀▀██▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀███▀▀▀▀[0m
 [1;35;40m   [0;1;31;40m▀[0;1;35;40m      [0;1;31;40m▀[0;1;35;40m          [0;1;31;40m▐[0;1;35;40m  [0m  [1;30;40m [0m [1;31;40m▐ [0m                      [1;31;40m▌<-- wO style[0m [1;31;40m=)[0m  [1;31;40m▀[0m       [1;31;40m▀[0m
 [1;31;41m▓[0;1;31;40m▄[0;1;35;40m  [0;1;31;40m<-- ck[0;1;35;40m [0;1;31;40m ▀[0;1;35;40m        [0;1;31;40m ■[0;1;35;40m [0m  [1;31;40m [0;1;30;40m [0;1;31;40m▄ <-- ld style[0m    [1;33;40m▄[0m                     [1;31;40m▄[0m
-[1;31;40m▀[0;1;35;40m   [0;1;31;40m    style       [0;1;35;40m   [0;1;31;40m▀ ▄▄▀[0m  [35m       [0m         [1;33m  [0m    [1;31m■[0m
-[1;35m                        [0m  [1;30m [0m   [35m       [0m          [1;33m   [0m
-
-[1;35m       [0m  [1;30m  [0;1;31m.. nine o five - four sevan five - two nine eight seven ..[0m
-[1;35m                       [0m [1;30m  [0m   [35m       [0m
-
-        [1;30mansee by tetanus of toon/union and font by watOr of toon ninedy five[0m'
+[1;31;40m▀[0;1;35;40m   [0;1;31;40m    style       [0;1;35;40m   [0;1;31;40m▀ ▄▄▀[0m  [35m       [0m         [1;33m  [0m    [1;31m■[0m'

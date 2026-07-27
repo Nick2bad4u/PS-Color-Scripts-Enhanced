@@ -5,7 +5,7 @@
 # Source SHA-256: 2cd5e1a60e3ddb6228254393f283387f60324755644f4f01f8c722a80eb59fd2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EV-MF21.ANS by EverLast (Legend 1995); released in legend04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Monkey Factory II
 # SAUCE Author: EverLast
 # SAUCE Group: Legend 1995
@@ -44,6 +44,4 @@ Write-Host '
  [1;30m [0m [1;30m▒[0m                                                                       [1;30m▐▌▐▌ [0m
  [1;30m [0m [1;30m░[0m                                                                    [1;30m ▄▄▀ ▐▌[0m
  [1;30m [0m [1;30m [0m                                         [1;30m▀[0m     [1;30m▀[0m [1;30m▀[0m [1;30m▀▀▀[0m [1;30m▀▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀  ▄▄▀[0m
-   [1;30m [0m                                                [1;30m▀[0m  [1;30m▀[0m  [1;30m▀[0m [1;30m▀▀[0m [1;30m▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀  [0m
-[1;30m    [0m   [1;30m [0m              [1;30m+[0m [1;30mAnsi By: EverLast of Legend[0m [1;30m1995[0m [1;30m+[0m
-   [1;30m [0m'
+   [1;30m [0m                                                [1;30m▀[0m  [1;30m▀[0m  [1;30m▀[0m [1;30m▀▀[0m [1;30m▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀  [0m'

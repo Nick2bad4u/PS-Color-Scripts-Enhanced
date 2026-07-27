@@ -5,7 +5,7 @@
 # Source SHA-256: 631ddecf6c9ab6c388c67d4a30bc04c8ecc1226311d42e2b99c98201d0a9bf71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKY-CAL.ANS by Skylord (fld9703); released in fld9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -30,11 +30,8 @@ Write-Host '
 [37m  [0;34m▐█[0;34;44m  [0;34;40m█[0;1;34;40m██▓██▓█████▓▓████████▓▄████▄▓█████▌▓████████████▀[0m            [34m░[0m    [34m▐▓░[0m
    [34m▀████[0;1;34;44m▀[0;34m▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▀ ▄ ▀ [0m
    [1;30m  [0;34m▀▀▀▓▀▀░▀▀▀▀▀░▀▀▀▀▀░▀[0m    [34m░[0m     [34m░[0m     [34m░[0m      [34m░[0m      [34m░[0m      [34m░[0m     [34m░[0m
-         [1;34mhated  [0;1;34;44mn[0;1;34;40mew  norm[0;1;34;44ma[0;1;34;40ml cewl  xtra  s[0;1;34;44mu[0;1;34;40mper pal3s[0;1;34;44my[0;1;34;40ms [0;1;34;44melite[0;1;34;40m  3o3  sysop[0m
+         [1;34m       [0;1;34;44m [0;1;34;40m        [0;1;34;44m [0;1;34;40m               [0;1;34;44m [0;1;34;40m         [0;1;34;44m [0;1;34;40m  [0;1;34;44m     [0;1;34;40m            [0m
              [34m [0m
 
 
-[37m---------[ chop ]---------------------------------------------------------------[0m
-
-   [37mthis one is an security ansi for claustrophobic dimension...[0m
-   [37mkindacool  =)[0m'
+[37m---------[ chop ]---------------------------------------------------------------[0m'

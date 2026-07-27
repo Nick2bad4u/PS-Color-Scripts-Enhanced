@@ -5,7 +5,7 @@
 # Source SHA-256: dc9f79ff67669a29014f1c7fcaa9f0e6259f780c2f7fa041500373988823f29c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!-SPAM.ANS by seeker (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spam shack
 # SAUCE Author: seeker
 # SAUCE Group: anger
@@ -33,6 +33,4 @@ Write-Host '
 [1;30m   ░░░░░░░[0;36m $$$$$[0;1;30m░[0;36m$$$$$[0;1;30m░[0;36m$$$$$ [0;1;30m░░[0;36m.[0;1;30m░░ [0;36m$$$$$[0;1;30m░[0;36m$%%$$[0;1;30m░[0;36m$$$$$[0;1;30m░[0;36m$$$$$[0;1;30m░[0;36m$%$$$[0;1;30m ░░░░░░░░[0m
    [36manger96[0m [36m$$$$$ $$$$$ $$$$$[0m  [36m.÷.[0m [36m $$$$$ $$$$$ $$$$$ $$$$$ $$$$$[0m
            [36m$$$$$ $$$$$[0m [36m$$$$$  (¡) [0m [36m$$$$$ $$$$$[0m [36m$$$$$[0m [36m$$$$$[0m [36m$$$$$[0m
-           [36m`$$$$$$$$$''[0m [36m`$$$''  `s'' [0m [36m`$$$$ $$$$''[0m [36m`$$$''[0m [36m`$$$''[0m [36m`$$$''[0m
-
-                    [1;30mspam shack:... 0+ lumbah^jack [0m'
+           [36m`$$$$$$$$$''[0m [36m`$$$''  `s'' [0m [36m`$$$$ $$$$''[0m [36m`$$$''[0m [36m`$$$''[0m [36m`$$$''[0m'

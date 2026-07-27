@@ -5,7 +5,7 @@
 # Source SHA-256: 9237362c5755c159db6bc659160540aedae05f9b80e21807a32d7c0a50b98de4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-EUPH2.ANS by Dark Delusion (eph0695); released in eph0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 23-72
 # Columns: 1-80
 
@@ -55,7 +55,7 @@ Write-Host '
 
                      [1;37mD[0;1;30m [0;1;36mi[0;1;30m [0;36mG[0;1;30m i T A L      [0;1;37mD[0;1;30m [0;1;36mi[0;1;30m [0;36mS[0;1;30m T O R T i O N[0m
 
-                          [1;30m  [0m    [1m[[0;1;36mW[0;36mA[0;1;30mY] TOO-C[0;36mO[0;1;36mO[0;1;37mL[0m
-                [1;30m.sys. [0;1;37mT[0;1;36mH[0;36mE[0;1;30m CRiMSON GU[0;36mA[0;1;36mR[0;1;37mD[0;1;30m  .co.  [0;1;37mD[0;1;36mi[0;36mG[0;1;30miTAL ASSA[0;36mS[0;1;36mi[0;1;37mN[0m
-[1;30m   [0m                [1m0[0;1;36m-3[0;1;30m [0;36md[0;1;30may ware ∙[0m [1;30m450+ megz online ∙ 14.4[0;36mb[0;1;36mp[0;1;37ms[0m
+                          [1;30m  [0m    [1m [0;1;36m [0;36m [0;1;30m        [0;36m [0;1;36m [0;1;37m [0m
+                [1;30m      [0;1;37m [0;1;36m [0;36m [0;1;30m           [0;36m [0;1;36m [0;1;37m [0;1;30m        [0;1;37m [0;1;36m [0;36m [0;1;30m         [0;36m [0;1;36m [0;1;37m [0m
+[1;30m   [0m                [1m [0;1;36m  [0;1;30m [0;36m [0;1;30m         [0m [1;30m                       [0;36m [0;1;36m [0;1;37m [0m
                        [1;30m [0m          [1m9[0;1;36m6[0;36m0[0;1;30m0+ o[0;36mn[0;1;36ml[0;1;37my[0m'

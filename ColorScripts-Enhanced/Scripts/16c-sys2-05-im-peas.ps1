@@ -5,7 +5,7 @@
 # Source SHA-256: d5ca0c149b3e3065fe3c75ae594bfa9919de2c8c5176b3a6f98da73a1a2338e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: im-peas.ans by Icedmouse (sys2_05); released in sys2_05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -27,7 +27,4 @@ Write-Host '
 [32m*S▒$$$$$l$$$$$$[0m     [37m`$$F "$$$F?$$ [0;32m?$$$$¿._[0;33m`"[0;37m [0;32m$$$ ┌┌┐[0;37m  [0;1;30m..[0m [32m`?$¿ [0;1;30m☺☺☺[0m  [32m __.,▬┌%#S$$[0m
    [32m`"└*S▒$$$$$$[0m      [37m`"[0m   [37m?▒F  `┘├_[0;32m`┘S$j││$$$$$$ $$$[0;37m [0;1;30m ☺☺[0m  [32mj$$┌g%#S$$$▒j$$$$$$$$[0m
         [32m `"└*S$[0m                   [37m`"[0;32m   [0m   [32m``^^^" $$$¿.__,/$$$$$$▒▒┼┼jj$$SS***┘┘[0m
-                                                 [32m└└└ⁿⁿⁿⁿ"""^^``` [0m
-
-   [37m-/ peas.  perhaps I could do an on-going vegetable series.  :)  -icedmouse[0m
-      [37m                       [0m'
+                                                 [32m└└└ⁿⁿⁿⁿ"""^^``` [0m'

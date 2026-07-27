@@ -5,7 +5,7 @@
 # Source SHA-256: 6627f748f137ab2a24510f0c42ec666eeae91635c2c83826d0b09194dce6c497
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-PIN.ANS by Integrity 06/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pinion
 # SAUCE Author: Integrity 06/95
 # SAUCE Group: Eerie
@@ -29,11 +29,4 @@ Write-Host '
      [31m▀▓▄[0;34m [0;37m▀▀▓█▄ [0;31m▀■[0m            [31m▐▓▄[0;34m [0;37m▓█[0;1;37;47m■[0m█[1;47m░▀[0m [31m▄■[0;34m  [0;31m▀▀[0m         [31m░[0m      [31m▓▄[0;34m [0;37m▓█[0;1;37;47m■[0m█[1;47m░▀[0m [31m▄[0m
          [31m▀░[0;34m [0;31m▄[0;34m [0;37m▀■ [0;31m█▄[0;34m [0;31m■[0m         [31m▀▓▄[0;34m  [0;37m▀██▌[0;31m▐▓[0m                       [31m▀▄[0;34m [0;37m▀[0;37;47m [0;37;40m█▌[0;31;40m▐▌[0m
             [31;40m▀▀■[0;34;40m [0;31;40m▓▀[0m               [31;40m▀■▄[0;34;40m [0;37;40m█ [0;31;40m▓░[0m                       [31;40m░▓▀[0;34;40m  [0;1;37;47m░[0m [31m▓░[0m
-                                 [31m░▀[0m                                [31m▀[0m   [31m░[0m
-               [1;37mpinion - up somewhere in georgia - awps: obscurity[0m
-        [1;30mget this for now.. i''ll work on the obv stuff soon, i promise =)[0m
-
-
-          [1;37mthis pic is 100% original from that man Eerie from Integrity[0m
-                   for your own e-wheat eerie pic send $20 to
-       david turgeon / po box 66 / lac-beauport (quebec) / canada g0a2c0[0m'
+                                 [31m░▀[0m                                [31m▀[0m   [31m░[0m'

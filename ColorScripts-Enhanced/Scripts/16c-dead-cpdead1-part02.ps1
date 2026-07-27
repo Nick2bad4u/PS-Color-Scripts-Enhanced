@@ -5,7 +5,7 @@
 # Source SHA-256: 911bb745e5323990d7c780b0c48ca3245c738c6878cc5525c1df8a78a42dd927
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPDEAD1.ANS by Eternal Darkness (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 38-68
 # Columns: 1-80
 
@@ -25,7 +25,7 @@ Write-Host '
         [1;30m▀▄[0;32m░░  [0;1;30m▄▌ [0m▐  [1;30m▐   [0m▌  [1;30m▌ █[0m       [1;30m▌  [0m▐    [1;30m▌    [0m▌        [1;30m▐ ▄▀[0m        [1;30m▐[0m
           [1;30m▀▀▀▀   [0m▀[1;30m▀▀▀   [0m▀[1;30m▀▀▀  ▀▄▄▄▄▄▀   [0m▀[1;30m▀▀▀▀    [0m▀[1;30m▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀[0m
                                      [1;31m▄[0m
-[1;31m  [0;31mSys∙[0;1;31mSpectral Mercenary[0m           [1;31m▄[0;1;31;41m██[0;1;31;40m▌[0m                [31mCo∙[0;1;31mThe Mavolent Trickster[0m
+[1;31m  [0;31m    [0;1;31m                  [0m           [1;31m▄[0;1;31;41m██[0;1;31;40m▌[0m                [31m   [0;1;31m                      [0m
             [1;31m▄▄▄▄▄[0m                  [1;31m▐[0;1;31;41m███[0m      [1;31;40m▄▄▄▄[0m
           [1;31;40m▄[0;1;31;41m███████[0;1;31;40m▄[0m                 [1;31;40m▄▄▀▌   ▄[0;1;31;41m▓█████[0;1;31;40m▄[0m          [1;31;40m▄▄▄▄[0m
            [1;31;41m██[0;1;31;40m▀  ▀[0;1;31;41m██[0;1;31;40m█[0m               [1;31;40m▐[0;1;31;41m██[0;1;31;40m▌[0;1;31;41m▓[0m  [1;31;40m▐[0;1;31;41m▒▓▓▓▓▓▓▓[0;1;31;40m▌▄  ▄[0;1;31;41m██[0;1;31;40m▌▄██████▄[0m
@@ -35,9 +35,4 @@ Write-Host '
              [31;41m [0;1;31;41m░░[0;31m▌ ▐[0;1;31;41m▒▓▓▓[0;1;31;40m▀ [0;31m▄[0;1;31;41m▒[0;31m▄ [0;31;41m [0;1;31;41m░░[0m   [1;31;41m ░░[0;31m▐[0;31;41m     [0;31;40m▀▀▀    ▐[0;31;41m [0;1;31;41m░ ░░░░░[0m [31m▀[0;31;41m [0;1;31;41m▒▒▒[0;31m▌[0m
              [31m▐[0;31;41m  [0;31;40m▀  [0;1;31;41m▒░░[0;31m▄[0;1;31;41m░░ ░ [0m [31m▀[0;31;41m  [0m   [31;41m  [0;31;40m▀ ▀▀▀[0m          [31;40m▀[0;31;41m      [0;31;40m▀▐[0;1;31;41m░░░░░[0;31m█[0m
              [31m█▀   ▐[0;31;41m      [0;31;40m▀▀▀   █[0m                         [31;40m▄▄█[0;31;41m    [0;31;40m█▀[0m
-                 [31;40m▀▀▀▀▀[0m         [31;40m▐[0m
-
-[31;40m  ∙[0;1;31;40m∙[0;1;33;40m∙ C[0;1;31;40mastl[0;31me [0;1;33mP[0;1;31merilou[0;31ms [0;1;31m∙[0;1;33m∙ 416[0;31m/[0;1;31m691[0;31m.[0;1;31m2882 [0;1;33m∙∙ 2oo+ [0;1;31mMeg[0;31ms [0;1;33m∙[0;1;31m∙ Runnin[0;31mg [0;1;33mCeleri[0;1;31mt[0;31my [0;1;33m∙[0;1;31m∙[0;31m∙[0m
-           [31m∙[0;1;31m∙[0;1;33m∙ INC [0;1;31mD[0;31mistribution [0;1;31mS[0;31mite [0;1;33m∙∙ ACiD [0;1;31mO[0;31mntario [0;1;31mO[0;31mutpost [0;1;33m∙[0;1;31m∙[0;31m∙[0m
-
-                   [1;31mANS[0;31mi∙[0;1;33mE[0;1;31mterna[0;31ml [0;1;33mD[0;1;31marknes[0;31ms∙[0;1;33mDeAD [0;31m- [0;1;31mo5[0;31m/[0;1;31m3o[0;31m/[0;1;31m92[0m'
+                 [31;40m▀▀▀▀▀[0m         [31;40m▐[0m'

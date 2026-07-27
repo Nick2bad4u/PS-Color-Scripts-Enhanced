@@ -5,7 +5,7 @@
 # Source SHA-256: 3a4a618e398a24de6f6496d402715f9c612cedd5ab4d89e90d9db143740312fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-YURI.ANS by Shiro (Remorse Ascii); released in rmrs-26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Yuri
 # SAUCE Author: Shiro
 # SAUCE Group: Remorse Ascii
@@ -41,7 +41,4 @@ Write-Host '
 [1;37m☻h. [0;1;31m↑☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻J☻☻☻☻☻☻☻☻☻[0m☻☻☻☻[1;31m☻☻☻\[0;31m┘,[0m                 [1;31m☻[0;31m: [0;1;31m☻☻☻☻[0m
 [1m☻☻☻.[0;1;31m ☻☻☻☻☻☻☻☻[0;33m☻☻[0;1;31m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻J☻☻☻☻☻☻☻☻☻☻☻☻☻☻Q┘,[0;31m▲F[0m                 [1;31m┘↕☻.:☻☻☻[0m
 [1;33m☻☻[0;1;37m☻☻[0;1;31m :☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻T☻☻☻☻☻☻☻☻☻☻☻☻☻☻┘ j☻[0;31m☻[0m                     [1;31m`''┘*└[0m
-[1;33m☻☻[0;1;37m☻:[0;1;31m ☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻T☻☻☻☻☻☻☻☻☻☻☻☻☻`.\☻☻[0;31m:[0m    [1;37mdrawn by shiro[0m     [1;31m [0m
-
-[1mYuri of "Dirty Pair" copyright Adam Warren[0m
-[1mFirst try! [0m'
+[1;33m☻☻[0;1;37m☻:[0;1;31m ☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻T☻☻☻☻☻☻☻☻☻☻☻☻☻`.\☻☻[0;31m:[0m    [1;37mdrawn by shiro[0m     [1;31m [0m'

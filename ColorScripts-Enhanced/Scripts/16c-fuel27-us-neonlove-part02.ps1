@@ -5,7 +5,7 @@
 # Source SHA-256: a19ce686a61b37fcd4ff67981e6c00a7d2cc1f326ebd75ba1ea2e7d70890a19e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-neonlove.ans by The Knight + Nail (Fuel & Blocktronics); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Neon Love
 # SAUCE Author: tk & nail
 # SAUCE Group: Fuel & Blocktronics
@@ -53,5 +53,5 @@ Write-Host '
 [1;30;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;30;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [1;30;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
-[1;34;40m - [0moriginal car drawing by[1;34m ◄[0;44mIlesj/TRIAD on c64[0;1;34;40m► -[0m redrawn in ansi by[1;34m◄[0;44mthe knight[0;1;34;40m►[0m
+[1;34;40m   [0m                       [1;34m ◄[0;44m                  [0;1;34;40m►  [0m                   [1;34m◄[0;44m          [0;1;34;40m►[0m
 [34m██████████████████[0;1;34m [0;34m████ █ ▐█► ► [0;1;34m-[0m fuel logo by[1;34m◄[0;44mthe knight[0;1;34;40m►[0mand[1;34m◄[0;44mnail/blocktronics[0;1;34;40m►[0m'

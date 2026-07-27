@@ -5,7 +5,7 @@
 # Source SHA-256: 1f727a1e50fb503aafbc6fc002474b6c78aadb31e9d4cd7ef01885a5a9f42a10
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: COL-LOL1.ANS by colorblind (tOxic); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Land'o'Lettuce
 # SAUCE Author: colorblind
 # SAUCE Group: tOxic
@@ -38,6 +38,4 @@ Write-Host '
 [1;33;43m▓▀ [0;33m█[0;1;30;43m░░░[0;33m█[0;1;30;43m░[0;33m█[0;30;43m░░[0;33;40m█[0;30;43m░[0;33;40m█[0;1;30;43m░░░[0;33m█[0;1;30;43m░[0;33m████[0;30;43m░░[0;1;30;43m░░░░░[0;33m█[0;1;30;43m░░░[0;33m▀[0;1;32m [0;32m▄[0;1;32m [0;32m▐[0;1;32;42m▒[0;1;32;40m█▄[0m [33m▀█▄[0;37m [0;32m▀█[0;1;32m█ [0;32m▄[0;1;32m [0;33m▀[0;30;43m░[0;33;40m▄▄▄▄█[0;30;43m░░░[0;1;30;43m░░░[0;33m█[0;30;43m░░[0;33;40m█[0;1;30;43m░░[0;30;43m░[0;33;40m█[0;1;30;43m░[0;30;43m░░[0;1;30;43m░░[0m
 [1;33;43m▌[0;33m▄▄█▄▄▄▄██▄█▄▄▄▄████████▄▄▄▄██▄▄▄█▄█▄[0;1;32m [0m [32m▄[0;1;32m [0;32m▀[0;1;32m▀[0m [33m▄█▀[0;37m [0;32m▄[0;37m  [0;1;32m  [0;33m▄█████▄▄▄▄██▄▄██▄██▄▄▄▄██▄▄[0m
 [1;33;43m█▄[0;33m██████[0;30;43m  [0;33;40m████[0;30;43mLand''o''Lettuce[0;33;40m██████████▄▄▄[0;37;40m [0;32;40m▀[0;37;40m [0;33;40m▄██▄▄▄[0;37;40m [0;32;40m▀[0;37;40m [0;33;40m▄█████████████████████████[0;1;33;43m█[0m
-[1;37;43m██[0;1;33;43m██▄▄▄▄▄[0;33m█[0;1;33;43m▄[0;33m██[0;30;43m░[0;1;30;43m░░░[0;30;43m░░[0;33;40m██[0;1;30;43m░░░[0;30;43m░[0;1;30;43m░░[0;30;43m░░░[0;33;40m██[0;30;43m░░░[0;33;40m██[0;1;30;43m░░░░[0;30;43m░[0;1;30;43m░░[0;33m█[0;30;43m░░[0;33;40m██[0;1;30;43m░░░░░░░[0;33m█[0;1;30;43m░[0;33m█[0;30;43m░░░[0;1;30;43m░[0;33m█[0;1;30;43m░░░░░[0;30;43m░[0;1;30;43m░[0;30;43m░░[0;1;33;43m▄[0;33m█[0;1;33;43m▄▄▄█[0;1;37;43m▓[0m
-
-[33m              [0;1;37ml[0;1;33ma[0;33mn[0;31md''o''lett[0;33mu[0;1;33mc[0;1;37me[0;33m [0;1;30m..[0;33m [0;1;37mo[0;1;33mp[0;33me[0;31md[0;33m [0;31mby[0;33m [0;31mcOl(tOx[0;33mi[0;1;33mc[0;1;37m)[0m [1;30m..[0;33m [0;1;37m8[0;1;33m1[0;33m3[0;31m-372-7[0;33m0[0;1;33m9[0;1;37m6[0m'
+[1;37;43m██[0;1;33;43m██▄▄▄▄▄[0;33m█[0;1;33;43m▄[0;33m██[0;30;43m░[0;1;30;43m░░░[0;30;43m░░[0;33;40m██[0;1;30;43m░░░[0;30;43m░[0;1;30;43m░░[0;30;43m░░░[0;33;40m██[0;30;43m░░░[0;33;40m██[0;1;30;43m░░░░[0;30;43m░[0;1;30;43m░░[0;33m█[0;30;43m░░[0;33;40m██[0;1;30;43m░░░░░░░[0;33m█[0;1;30;43m░[0;33m█[0;30;43m░░░[0;1;30;43m░[0;33m█[0;1;30;43m░░░░░[0;30;43m░[0;1;30;43m░[0;30;43m░░[0;1;33;43m▄[0;33m█[0;1;33;43m▄▄▄█[0;1;37;43m▓[0m'

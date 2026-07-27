@@ -5,7 +5,7 @@
 # Source SHA-256: 2f92a5d9e57f2c0ad7b4a6dd5ad1a7172052d52907a391bad3e9fcc39e0f3b1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-PST2.ANS by Trippah (polyester); released in pst-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: guest ansi #2
 # SAUCE Author: Trippah
 # SAUCE Group: polyester
@@ -29,11 +29,8 @@ Write-Host '
 [1;35;45m▓▀[0;35m█▌[0;1;36m [0;36m▐[0;1;36;46m░░ [0;36m▌[0;1;36;46m▐[0;1;36;40m▌ [0;1;35;40m▐[0;1;35;45m▀▀[0;35m██▄▄ [0;1;36m  [0;36m▀[0;1;36;46m▀[0;1;36;40m████▄▄ [0;35m▀[0;1;36m [0;36m▄[0;1;36m▄[0;1;36;46m▄[0;1;36;40m████▀ [0;35m▄[0;36m▐[0;1;36;46m▒▓▓[0;1;36;40m████[0;1;36;47m█▓▓█[0;1;36;46m▀▀▀▀[0;36m▌▀[0;1;36m  [0;36m▄[0;1;36m▄[0;1;36;46m▄▓▓░[0;36m▌[0;1;36;46m░[0;36m███ █[0;37m [0;35m▐[0m
     [1;36m [0;36m▀▀▀▀▌[0;1;36m  [0m               [36m▀[0;1;36m▀▀▀[0;1;36;46m▀[0;1;36;40m██▀▀▀▀[0m      [36m▐[0;1;36;46m░░░▀▀[0;36m▌▀▀▀▀▀[0m        [36m▀▀▀▀▀▀▌[0;1;36m  [0m
                                              [36m  [0m    [37m [0m
-[37m [0;1;30m [0;1;34mp[0;36moli[0;1;30m_[0;36mesta[0;37m [0;1;34mm[0;36melbourne[0;1;30m.[0;36m [0;1;34mr[0;36meleasing [0;1;34ma[0;36mnything [0;1;34mf[0;36mrom [0;1;34mP[0;36mCBoard [0;1;34mm[0;36mods [0;1;34mt[0;36mo [0;1;34ma[0;36mnarchy [0;1;34mf[0;36miles[0;1;30m![0m
-            [1;30mfounded by rippa and cronik in the early times of 1997![0m
+[37m [0;1;30m [0;1;34m [0;36m   [0;1;30m [0;36m    [0;37m [0;1;34m [0;36m        [0;1;30m [0;36m [0;1;34m [0;36m         [0;1;34m [0;36m        [0;1;34m [0;36m    [0;1;34m [0;36m       [0;1;34m [0;36m    [0;1;34m [0;36m  [0;1;34m [0;36m       [0;1;34m [0;36m    [0;1;30m [0m
+            [1;30m                                                       [0m
 
 
-                              [1;33m<──[0;1;32m─[0;32m──────────>[0m
-[37m hope you  like this ansi dudes, i coulnt fit pol"Y" so i used the "i" instead.[0m
-[37m  if you hate it, its probably because im on a laptop, and the keyboard sucks![0m
-             [37m-- ansi 1OO% done by trippah in approx. one hour! --[0m'
+                              [1;33m<──[0;1;32m─[0;32m──────────>[0m'

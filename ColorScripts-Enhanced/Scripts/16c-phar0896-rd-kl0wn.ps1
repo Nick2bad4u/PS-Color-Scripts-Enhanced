@@ -5,7 +5,7 @@
 # Source SHA-256: e77a56e48e71073837b8dc24ebae0594cd6ece4ce7a8341770d4176ba827d2db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD!KL0WN.ANS by Rabid Doctor (phar0896); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
@@ -20,10 +20,8 @@ Write-Host '
 [31m\-[0;34m"$$"[0;31m\[0;34m"$$$$$"[0;31m/\[0;34m"$$"[0;31m/\[0;34m"$"[0;31m-/\-/\[0;34m^"$$$"[0;31m-/-\/\-[0;34m"$$"[0;31m\-/[0;34m"$$$$$"[0;31m-/\[0;34m"$$$$$"[0;31m/[0;34m"$$$$"[0;31m\-/\-[0m
 [1;37m   [0m                                                                           [1m [0m
 -----[kl0wn]--------------------------------------------------------------------
- This is for some dude I don''t really know at all named Spasm. He asked me to do
-it and I was kinda bored so here it is. I think it''s for his BBS in the 905 area
-code.                                                                         [1m [0m
+                                                                                
+                                                                                
+                                                                              [1m [0m
 --------------------------------------------------------------------------------
-----------------------------------------------------------------------[eof]-----
-[1m   [0m                                                                           [1m [0m
-[1m                                                                               [0m'
+----------------------------------------------------------------------[eof]-----[0m'

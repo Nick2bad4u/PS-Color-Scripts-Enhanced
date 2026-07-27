@@ -5,7 +5,7 @@
 # Source SHA-256: 3a6be71fea195ee24c8d8989ae37bf53fd9ed12ba16cfa61c58c17be409ce393
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SEEKACID.ANS by Zed Nitro (ansis-s); released in ansis-s and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 42-72
 # Columns: 1-80
 
@@ -37,7 +37,7 @@ Write-Host '
                   [37m▀[0m        [1;30m▀░▒[0;31m▀█[0;1;31;41m░▒[0;1;31;40m▀[0m           ▀[1;30;47m▀[0m▒░░[1;30m░▒[0;1;30;41m▄[0;31m█[0;31;41m [0;1;31;41m░▒[0;1;31;40m▀[0m▄▒░░[1;30m░▒[0;1;30;41m▄[0;31m▀[0;37m▒░░[0;1;30m░░▒▀[0;1;30;41m▄▄▄▄▄[0;1;30;40m▀[0m
                              [1;30;40m▀░▒[0;1;31;40m▀[0m               ▀[1;30;47m▀[0m▒░░[1;30m░▒[0;1;31;41m▒[0;1;31;40m▀   [0m▀[1;30;47m▀[0m▒▀▀  ▀[1;30;47m▀[0m▒░░▄▀▒▒░░░░
                                                   ▀▀▀▀▀              ▀[1;30;47m▀[0m▀[1;30;47m▀▀▀▀▀▀[0m▀
-  [1;33m─[0;1;31m─[0;31m─ SEEK AND DESTROY ─[0;1;31m─[0;1;33m─[0m                           [1;31mZ[0;31med [0;1;31mN[0;31mitro [0;1;31m<[0;31mAC[0;1;31mi[0;31mD[0;1;31m>[0m
+  [1;33m─[0;1;31m─[0;31m─                  ─[0;1;31m─[0;1;33m─[0m                           [1;31m [0;31m   [0;1;31m [0;31m     [0;1;31m [0;31m  [0;1;31m [0;31m [0;1;31m [0m
 [1;31m  [0;1;37m┌────────[0m─────[1;30m─────────────────────────────────────────────────────────────┐[0m
-[1;30m▐[0;1;30;47m▓▒░  [0;1;37;47m5[0;1;30;47m1[0;30;47m4.654.9138 [0;31;47m· [0;1;37;47mS[0;1;30;47my[0;30;47msop: [0;1;37;47mP[0;1;30;47mu[0;30;47mppet M[0;1;30;47ma[0;30;47mster [0;31;47m· [0;1;37;47m6[0;1;30;47m6[0;30;47m0 megs [0;31;47m· [0;1;37;47m1[0;1;30;47m4[0;30;47m.4k [0;1;37;47mD[0;1;30;47mu[0;30;47mal Standard  [0;1;37;47m░▒▓[0;1;37;40m▌[0m
+[1;30m▐[0;1;30;47m▓▒░  [0;1;37;47m [0;1;30;47m [0;30;47m           [0;31;47m  [0;1;37;47m [0;1;30;47m [0;30;47m     [0;1;37;47m [0;1;30;47m [0;30;47m      [0;1;30;47m [0;30;47m     [0;31;47m  [0;1;37;47m [0;1;30;47m [0;30;47m       [0;31;47m  [0;1;37;47m [0;1;30;47m [0;30;47m    [0;1;37;47m [0;1;30;47m [0;30;47m             [0;1;37;47m░▒▓[0;1;37;40m▌[0m
 [1;37;40m  [0m└[1;30m──────────────────────────────────────────────────────────────────────────┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e764d7f150a31f94e0ad1a0789da3abce63af1e8b85f240b925db825553bcab2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUM-POS1.ANS by Sumixam (max_artpack_0993); released in max_artpack_0993 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -45,12 +45,9 @@ Write-Host '
         · [32m▄▄▄ ███ [0;1;37m∙ [0;1;32;42m░  [0m · [1;32;42m░  [0m     [1;32;42m▒░[0;32m█████ [0;1;32;42m░  [0m [32m▀████ [0;1;32;42m▒░[0;32m█ ███▀ [0;1;32;42m▒░[0;32m█ ▄▄▄  [0;37m·[0m
 [37m [0;1;30m∙  [0m∙ [1;30m∙   [0;1;32;42m▓▒░[0;32m████   [0;32;42m   [0m [37;40m· [0;37;42m   [0m [1;37;40m·[0;1;30;40m∙  [0;1;32;42m░[0;32m██ ███ [0;32;42m   [0m [37;40m· [0;32;40m███ [0;1;32;42m░[0;32m██████  [0;1;32;42m░[0;32m██████ [0;1;37m·   [0;1;30m∙   [0m∙
            [32m▀▀▀▀▀    ▀▀▀   ▀▀▀[0m      [32m▀▀ ▀▀  ▀▀▀   ▀▀▀  ▀▀▀▀▀ [0;37m∙  [0;32m▀▀▀▀▀[0m
-     [37m·[0m       [1;30m·[0m     [1;37m·    [0;1;32msUMIxAM [0;32m<[0;1;32mM/┤X Productions 1993[0;32m>[0m         [1;30m·[0m     [1;30m∙[0m
+     [37m [0m       [1;30m [0m     [1;37m     [0;1;32m        [0;32m [0;1;32m  ┤                  [0;32m [0m         [1;30m [0m     [1;30m [0m
                   ·              ·            ∙ [1m·[0m                [1;30m·[0m
-[1;30m    [0;1;37m∙[0m      ∙                 [1;32m.:[0;34mP[0;1;34meople Are Strang[0;34me[0;1;32m:.[0;1;30m∙[0m                    [1;30m·[0m     [1;30m∙[0m
-              [1;30m∙[0m      [1;30m∙  [0;1;37m·[0;1;32m.:[0;34m1[0;1;34m,200 Megs Online Storag[0;34me[0;1;32m:. [0;1;30m∙  [0;1;37m·  [0;1;30m∙[0m     ·
+[1;30m    [0;1;37m [0m                        [1;32m  [0;34m [0;1;34m                [0;34m [0;1;32m  [0;1;30m [0m                    [1;30m [0m     [1;30m [0m
+              [1;30m [0m      [1;30m   [0;1;37m [0;1;32m  [0;34m [0;1;34m                       [0;34m [0;1;32m   [0;1;30m   [0;1;37m   [0;1;30m [0m      
      [1;30m∙    [0m·                  [1;32m.:[0;34mU[0;1;34mSR 16.8 HST/DUA[0;34mL[0;1;32m:.   [0;1;30m·[0m                 ∙   ·
-       [1;30m·[0m       ·   [1m∙  [0;1;30m·[0m       [1;32m.:[0;34mS[0;1;34mysOp: Mr. Moj[0;34mo[0;1;32m:.  [0;1;37m∙[0m     ∙  [1;30m·   ∙[0m        [1;30m·[0m
-[1;30m   [0m∙        [1;30m∙[0m           [1;30m∙ [0;1;32m.:[0;34mC[0;1;34mo-SysOp: Samuri Chicke[0;34mn[0;1;32m:.[0;1;30m∙[0m     ∙       [1m·  [0;1;30m∙[0m     [1;30m∙[0m
-       [1;37m∙    [0;1;32m.:[0;34mR[0;1;34munning WWIV (hey,if it works, Don''t Fuck with it![0;34m)[0;1;32m:.[0m
-                      [1;30mNo Rippin'', Cuttin'', Bashin'', Etc..[0m'
+       [1;30m·[0m       ·   [1m∙  [0;1;30m·[0m       [1;32m.:[0;34mS[0;1;34mysOp: Mr. Moj[0;34mo[0;1;32m:.  [0;1;37m∙[0m     ∙  [1;30m·   ∙[0m        [1;30m·[0m'

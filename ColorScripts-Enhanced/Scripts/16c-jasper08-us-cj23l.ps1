@@ -5,7 +5,7 @@
 # Source SHA-256: 0e9c0e0549c3fa9b14a38bb669ef4f23b60de1668e40e551dcbb8d90c8e37edf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CJ23L.ANS by Aesthetic + Character Zero (jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: chaotic justice 23liner
 # SAUCE Author: aes + character
 # SAUCE Group: jasper
@@ -37,9 +37,4 @@ Write-Host '
 [1;33m▓▌[0;33m ▓███[0;1;31;43m▀▓[0;1;31;40m███[0;1;31;47m██[0;1;31;40m███[0;1;31;43m▀[0;1;31;40m▀ [0;34m▄[0;1;34m▄[0;34m▄ ▓[0;1;34m▒▓▄▄[0;1;34;44m▄[0;1;34;42m▓[0;1;34;40m▓[0;1;34;44m▄ [0;1;34;40m▄[0;34m▄▄[0;33m ▐██████[0;37m   [0;1;33m▓▓▓▓███▓█[0;1;33;47m███[0;1;33;40m██ [0;1;37;40m█[0m [1;36m [0;1;36;44m  log on  [0;1;36;40m [0m [1;30;46m▀[0m
 [1;33m▒▒ [0;33m▓████[0;1;31;43m░▓█[0;1;31;40m██████▓ [0;1;34;44m░▓[0;1;34;40m▀[0m    ▄[1m▄▄[0m▄ [34m  ▄▄▓▀[0;33m [0;1;31;43m  [0;33m████▌ [0;37m [0;1;33m▓▓[0m   [1;33m▓▓▓▓█[0;1;33;47m▓▓█[0;1;33;40m██[0;1;30;40m [0;1;36;40m█[0m [1;33m   [0;1;36mlogoff[0;1;33m  [0m  [1;30;41m█[0m
 [1;33m░░ [0;33m▓█████[0;1;31;43m░▓▓█[0;1;31;40m█████[0;1;31;43m▄[0;33m▄[0;34m▀[0;1;34m█[0;1;34;42m▓[0;1;34;44m▄▄[0;1;34;40m▄[0m▄▄[1;34m▄▄[0;1;34;44m▄[0;1;34;40m▓▓[0;34m█▀[0;33m ▄[0;1;31;43m░░   [0;33m█▓  [0;1;33m▒▒[0m   [1;33m▒▒[0m  [1;33m▓[0m [1;33m███▓▓[0;1;30m [0;1;36;46m▄[0m [1;33m  [0;1;36mpage sop [0;1;33m [0;1;30m ▀▓[0m
-[1;33m░[0;33m░[0;1;33m [0;33m▓▓█████[0;1;31;43m ░▓▓████[0;1;31;40m██[0;1;31;43m▄[0;1;31;40m▄[0;33m▄[0;34m▀[0;1;34m▀[0m▀[1m▀[0;1;34m▀▀▀▀[0;34m▀[0;1;36m [0;1;31m▄▄[0;1;31;43m▓▓▒▒░  [0;33m▓░ [0;1;33m░░[0m   [1;33m░░[0m  [1;33m▒[0m   [1;33m▓▓░░[0m [36m▓[0;1;36m [0;1;33m  [0;1;36mmail sop[0;1;33m    [0;1;30m░[0m
-
- [32moriginal ansi artwork by [0;1;32maesthetic[0;32m.[0m
-[37m [0;1;32mcharacter zero[0;32m did a block or two thousand.[0m
-
-[37m [0;32mdrawn for that chaotic justice board.[0m'
+[1;33m░[0;33m░[0;1;33m [0;33m▓▓█████[0;1;31;43m ░▓▓████[0;1;31;40m██[0;1;31;43m▄[0;1;31;40m▄[0;33m▄[0;34m▀[0;1;34m▀[0m▀[1m▀[0;1;34m▀▀▀▀[0;34m▀[0;1;36m [0;1;31m▄▄[0;1;31;43m▓▓▒▒░  [0;33m▓░ [0;1;33m░░[0m   [1;33m░░[0m  [1;33m▒[0m   [1;33m▓▓░░[0m [36m▓[0;1;36m [0;1;33m  [0;1;36mmail sop[0;1;33m    [0;1;30m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c96b2fb877dfc199b262d2ddb721e2c2d1ccb18d5b5d4e2035e8d00724e1bbe9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: is-amend.ans by prosthesis (legion); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: amend menu
 # SAUCE Author: prosthesis
 # SAUCE Group: legion
@@ -38,5 +38,4 @@ Write-Host '
 [37m  article       article         [0;32m██[0;1;32;42m░░▒▒▒▒░[0;32m█████████████▄▄  ▄▄██[0;1;30;42m░░▒▒▓[0;1;30;40m▓░░[0m
                            [32m     ▀██[0;1;32;42m░░░░░░[0;32m███████████████████[0;1;30;42m░░▒▒▓▓▓█[0;1;30;40m▄[0;32m           [0m
 [37m                           [0;32m      ▄ ▀████████████████████████[0;1;30;42m░░▒▓▓[0;1;30;40m█▀[0;32m             [0m
-[37m                           [0;32m     ▄▀█▄ ▀█████[0;1;32;42mis[0;1;37;42mLEGION[0;32m ▀███[0;1;30;42m░[0;32m▀[0;1;30;42m░▒▒▓▓[0;1;30;40m█▓▓▒░░[0;32m           [0m
-[37m                                                                                [0m'
+[37m                           [0;32m     ▄▀█▄ ▀█████[0;1;32;42mis[0;1;37;42mLEGION[0;32m ▀███[0;1;30;42m░[0;32m▀[0;1;30;42m░▒▒▓▓[0;1;30;40m█▓▓▒░░[0;32m           [0m'

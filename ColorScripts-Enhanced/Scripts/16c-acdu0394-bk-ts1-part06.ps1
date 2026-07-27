@@ -5,7 +5,7 @@
 # Source SHA-256: 2b5b99226fe3b2706a6181f8bab5e43b11f889d644e0a19282e531865324d983
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-TS1.ANS by Bad Karma (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Terminal Sabotage
 # SAUCE Author: Bad Karma
 # SAUCE Group: ACiD Productions
@@ -36,31 +36,31 @@ Write-Host '
 
                          [1;30m─[0;36m──[0;1;36m─[0;1;37m─ Node #2 Coming Soon ─[0;1;36m─[0;36m──[0;1;30m─[0m
 
-                                  [1;37mE[0;1;36mm[0;36mpi[0;1;30mre  U[0;36mS [0;1;36mH[0;1;37mQ[0m
-                                 [1;37mi[0;1;36mC[0;36mE  [0;1;30mCourie[0;36mr [0;1;36mH[0;1;37mQ[0m
-                                [1;37mL[0;1;36mu[0;36mpu[0;1;30ms Distro [0;36mSi[0;1;36mt[0;1;37me[0m
-                    [1;37mT[0;1;36mu[0;36mrb[0;1;30mine Distro [0;36mSi[0;1;36mt[0;1;37me [0;1;30mφ [0;1;37mP[0;1;36mu[0;36mrs[0;1;30muit Distro [0;36mSi[0;1;36mt[0;1;37me[0m
+                                  [1;37m [0;1;36m [0;36m  [0;1;30m     [0;36m  [0;1;36m [0;1;37m [0m
+                                 [1;37m [0;1;36m [0;36m   [0;1;30m      [0;36m  [0;1;36m [0;1;37m [0m
+                                [1;37m [0;1;36m [0;36m  [0;1;30m         [0;36m  [0;1;36m [0;1;37m [0m
+                    [1;37m [0;1;36m [0;36m  [0;1;30m           [0;36m  [0;1;36m [0;1;37m  [0;1;30m  [0;1;37m [0;1;36m [0;36m  [0;1;30m           [0;36m  [0;1;36m [0;1;37m [0m
 
-                             [1;37mC[0;1;36mo[0;36mrr[0;1;30muption Member B[0;36moa[0;1;36mr[0;1;37md[0m
-                            [1;37mi[0;1;36mN[0;36mSO[0;1;30mMNIA Mag  Distro [0;36mSi[0;1;36mt[0;1;37me[0m
-                  [1;37mT[0;1;36mo[0;36mxi[0;1;30mn Mag Distro [0;36mSi[0;1;36mt[0;1;37me [0;1;30mφ [0;1;37mP[0;1;36ms[0;36myc[0;1;30mhosis Distro [0;36mSi[0;1;36mt[0;1;37me[0m
-                  [1;37mL[0;1;36mu[0;36mci[0;1;30mdity Member B[0;36moa[0;1;36mr[0;1;37md [0;1;30mφ [0;1;37mD[0;1;36mr[0;36mea[0;1;30mdloc  Distro [0;36mSi[0;1;36mt[0;1;37me[0m
-                               [1;37mI[0;1;36mr[0;36mid[0;1;30mium Distro [0;36mSi[0;1;36mt[0;1;37me[0m
+                             [1;37m [0;1;36m [0;36m  [0;1;30m               [0;36m  [0;1;36m [0;1;37m [0m
+                            [1;37m [0;1;36m [0;36m  [0;1;30m                 [0;36m  [0;1;36m [0;1;37m [0m
+                  [1;37m [0;1;36m [0;36m  [0;1;30m             [0;36m  [0;1;36m [0;1;37m  [0;1;30m  [0;1;37m [0;1;36m [0;36m  [0;1;30m             [0;36m  [0;1;36m [0;1;37m [0m
+                  [1;37m [0;1;36m [0;36m  [0;1;30m             [0;36m  [0;1;36m [0;1;37m  [0;1;30m  [0;1;37m [0;1;36m [0;36m  [0;1;30m             [0;36m  [0;1;36m [0;1;37m [0m
+                               [1;37m [0;1;36m [0;36m  [0;1;30m           [0;36m  [0;1;36m [0;1;37m [0m
 
-                       [1;37mc[0;1;36mD[0;36mc [0;1;30mFactory World Domination Ou[0;36mtl[0;1;36me[0;1;37mt[0m
-                             [1;37mT[0;1;36mh[0;36me [0;1;30mNew Legion Worl[0;36md [0;1;36mH[0;1;37mQ[0m
-                  [1;37mS[0;1;36mC[0;36mAM[0;1;30m! Mag Distro [0;36mSi[0;1;36mt[0;1;37me [0;1;30mφ [0;1;37mC[0;1;36mo[0;36mRo[0;1;30mSioN  Distro [0;36mSi[0;1;36mt[0;1;37me[0m
-                               [1;37mM[0;1;36mo[0;36mde[0;1;30mrnz Distro [0;36mSi[0;1;36mt[0;1;37me[0m
-                                [1;37mE[0;1;36mx[0;36mil[0;1;30med Centra[0;36ml [0;1;36mH[0;1;37mQ[0m
+                       [1;37m [0;1;36m [0;36m  [0;1;30m                           [0;36m  [0;1;36m [0;1;37m [0m
+                             [1;37m [0;1;36m [0;36m  [0;1;30m               [0;36m  [0;1;36m [0;1;37m [0m
+                  [1;37m [0;1;36m [0;36m  [0;1;30m             [0;36m  [0;1;36m [0;1;37m  [0;1;30m  [0;1;37m [0;1;36m [0;36m  [0;1;30m             [0;36m  [0;1;36m [0;1;37m [0m
+                               [1;37m [0;1;36m [0;36m  [0;1;30m           [0;36m  [0;1;36m [0;1;37m [0m
+                                [1;37m [0;1;36m [0;36m  [0;1;30m         [0;36m  [0;1;36m [0;1;37m [0m
 
-                             [1;37mS[0;1;36mt[0;36mor[0;1;30mmWatch Missouri [0;36mH[0;1;36mu[0;1;37mb[0m
-                    [1;37mM[0;1;36mo[0;36mBN[0;1;30met Missouri [0;36mH[0;1;36mu[0;1;37mb [0;1;30mφ [0;1;37mC[0;1;36mo[0;36mRN[0;1;30met  Central [0;36mH[0;1;36mu[0;1;37mb[0m
-                                [1;37mi[0;1;36mC[0;36mN  [0;1;30mMissouri [0;36mH[0;1;36mu[0;1;37mb[0m
+                             [1;37m [0;1;36m [0;36m  [0;1;30m                [0;36m [0;1;36m [0;1;37m [0m
+                    [1;37m [0;1;36m [0;36m  [0;1;30m            [0;36m [0;1;36m [0;1;37m  [0;1;30m  [0;1;37m [0;1;36m [0;36m  [0;1;30m            [0;36m [0;1;36m [0;1;37m [0m
+                                [1;37m [0;1;36m [0;36m   [0;1;30m         [0;36m [0;1;36m [0;1;37m [0m
 
 
-                                 [1;30mOBV/2 Beta Site[0m
-                            [1;30mCustomized Raistlin <iCE>[0m
+                                 [1;30m               [0m
+                            [1;30m                         [0m
 
 [1;30m ─  ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
-                         [1;30mANSI by [0m:  [1mB[0ma[1;30md [0;1;37mK[0ma[1;30mrma  <AC[0mi[1;30mD>[0m
+                         [1;30m        [0m   [1m [0m [1;30m  [0;1;37m [0m [1;30m        [0m [1;30m  [0m
                 [1;30m─  ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m'

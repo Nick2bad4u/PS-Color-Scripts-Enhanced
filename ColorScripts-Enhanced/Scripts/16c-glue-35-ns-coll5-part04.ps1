@@ -5,7 +5,7 @@
 # Source SHA-256: 347d242ea5abfc53bc9f2350c595a12da0897fd85a6fe765c17956e660ae4f02
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NS-COLL5.ANS by ansichrist (glue); released in glue-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: small pics & logo colly part 5
 # SAUCE Author: ansichrist
 # SAUCE Group: glue
@@ -58,6 +58,6 @@ Write-Host '
            [31m▀[0m      [1;34;44m░[0;34m [0;1;30m▐[0;34m  ▐ [0;1;30m■[0m         [34m▌ [0;1;30m░[0;34m  [0;1;34;44m░[0;1;30;40m ▐ [0m     [34m▀ [0;1;30m▄[0m      [34m▌[0;1;30m▐[0m    [31m▀[0m
                  [1;34m▐[0;1;34;44m▓[0;34m▌   ▄ [0;1;30m■[0m             [1;34m▐[0;1;34;44m▓[0;34m▌[0;1;30m [0m      [34m▀[0m        [34m▌[0;1;30m▐[0m
                   [1;34m▀[0m                     [1;34m▀[0m                 [34m▌ [0;1;30m▌[0m
-                          [1;30m>>insodotdarktechdotorg[0m         [1;34;44m░[0;34m [0;1;30m░[0m
+                          [1;30m                       [0m         [1;34;44m░[0;34m [0;1;30m░[0m
                                                          [1;34m▐[0;1;34;44m▓[0;34m▌[0m
                                                           [1;34m▀[0m'

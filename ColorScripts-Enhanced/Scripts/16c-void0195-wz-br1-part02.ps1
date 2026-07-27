@@ -5,7 +5,7 @@
 # Source SHA-256: 3aea92e7ee22259a4e017588e5d0077f8aa4e57ceef0ce5371a95cba5d5f36cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WZ-BR1.ANS by Weazel (VOiD); released in void0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Rain
 # SAUCE Author: Weazel
 # SAUCE Group: VOiD
@@ -21,7 +21,7 @@ Write-Host '
 [1m [0m▐█████████████████████████████████▀▀ [1;30m▒▓▒▒▓▓[0;1;30;47m▓▓[0m▀               [31m▀[0m        [1;47m▓▒░[0m▌█▌[1;30;41m ░[0m
 [1m ░[0m▀████████████████████████████▀▀  [1;30m▒▒░░░░▒▀▀[0m                         [1m▄[0;1;47m▓▒░  [0m▐[31m▐[0;1;30;41m░▒[0m
 [1m ┌[0;1;36m─[0;36m─[0;1;30m─[0;36m─[0;1;30m─ ───────[0;31m░[0;1;30m────────────────────────────────────────────────────────────[0;36m─[0;1;36m─[0;1m┐[0m
-[1m [0;1;36m│    [0;36mTaken[0;31m░[0;36mfrom PiTT issue #6 Origional Art by Dale Keown of iMAGE COMiCS.   [0;1;36m│[0m
+[1m [0;1;36m│    [0;36m     [0;31m░[0;36m                                                                  [0;1;36m│[0m
 [1;36m [0;1m└[0;1;36m─[0;36m─[0;1;30m─────────────────────────────────────────────────────────[0;31m░[0;1;30m────────── ─[0;36m─[0;1;30m─[0;36m─[0;1;36m─[0;1m┘[0m
 [1m [0;1;30m█▓▒░░ ░[0m       [31m░[0m                  [31m░[0m                    [31m░[0m                [1;30m░ ░░▒▓█[0m
 [1;30m ▓▒░░    [0;36m░ [0;31m░[0m     [1;30m░ [0;31m░[0m                [31m░[0m            [31m░[0m       [36m░[0m                  [1;30m░▒▓[0m
@@ -53,15 +53,9 @@ Write-Host '
 [1;30m ▓  [0;31m▐▓░[0m     [31m▄▓ ▀▀▀▀[0;1;36;46m░[0;36m▌[0;1;30m████[0;31m▐▓  ▒ ▓▌[0;1;30m▐█████████ ████ ████ [0;31m▒ [0;1;30m████ [0;31m▄ ░[0m     [31m▓   ▒▓▌  [0;1;30m▓[0m
 [1;30m █   [0;31m▀▒░ ░▒▓█▌[0;36m░ ░▒▓[0;1;36;46m▒[0;36m▌[0;1;30m████[0;31m▐█▓ ▓███▄[0;1;30m▀████▀███ ████ ████ [0;31m█ [0;1;30m████ [0;31m█▓▒░    █  ░▒▀   [0;1;30m█[0m
 
-             [1my[0;1;36mO[0;36mU[0;31m^[0;1mk[0;1;36mN[0;36mO[0;1;30mW[0;31m^[0;1mw[0;1;36mE[0;31m^[0;1mg[0;1;36mO[0;36mT[0;31m^[0;1mt[0;1;36mH[0;36mE[0;31m^[0;1me[0;1;36mL[0;36mE[0;1;30mCTRiC[0;31m^[0;1mf[0;1;36mU[0;36mN[0;1;30mK[0;31m^^[0;1mc[0;1;36mU[0;36mZ[0;31m^[0;1mw[0;1;36mE[0;31m^[0;1mg[0;1;36mO[0;36mT[0;31m^[0;1mt[0;1;36mH[0;36mE[0;31m^[0;1mb[0;1;36mO[0;36mM[0;1;30mB[0m
+             [1m [0;1;36m [0;36m [0;31m [0;1m [0;1;36m [0;36m [0;1;30m [0;31m [0;1m [0;1;36m [0;31m [0;1m [0;1;36m [0;36m [0;31m [0;1m [0;1;36m [0;36m [0;31m [0;1m [0;1;36m [0;36m [0;1;30m     [0;31m [0;1m [0;1;36m [0;36m [0;1;30m [0;31m  [0;1m [0;1;36m [0;36m [0;31m [0;1m [0;1;36m [0;31m [0;1m [0;1;36m [0;36m [0;31m [0;1m [0;1;36m [0;36m [0;31m [0;1m [0;1;36m [0;36m [0;1;30m [0m
 
 [1;30m ▀▀▀▀▀[0m▀[1;30m▀[0m▀▀▀[1m▀[0m▀[1;30m▀▀ ▀[0m           [1;30m.oO [0;1mB[0;1;36mL[0;36mA[0;1;30mCK R[0;36mA[0;1;36mi[0;1mN [0;1;30mOo.[0m                  [1;30m▄ ▄▄[0;1m▄[0m▄▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄[0m
-                  [1;30m.oO [0;1mV[0;1;36mO[0;36mi[0;1;30mD APPLiCATiON-HQ-MEMBER BO[0;36mA[0;1;36mR[0;1mD [0;1;30mOo.[0m
-                      [1;30m.oO [0;1mL[0;1;36m0[0;36m0[0;1;30mKiN FOR SOME AFF[0;36mi[0;1;36mL[0;1mS. [0;1;30mOo.[0m
-[1;30m ▀▀▀▀▀[0m▀[1;30m▀[0m▀▀▀[1m▀[0m▀[1;30m▀▀ ▀[0m          [1;30m.oO [0;1m5[0;1;36m1[0;36mo[0;1;30m-829-8[0;36m3[0;1;36mo[0;1m3 [0;1;30mOo.[0m                 [1;30m▄ ▄▄[0;1m▄[0m▄▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄[0m
-
-
-     [1mH[0mi[1;30m''s and Ho''s go out to: Sharp[ACiD.VOiD]...GRiMACE[VOiD]...Somms[ACiD][0m
-[1;30m The Undecided[VOiD]...Turtle[VOiD]...Asylum[SHiVER]...T²[ACiD]...Lates...[0m=[1m)[0m
-
-       [1;30mi[0mF [1mYOU WANNA GET AHOLD OF [0mM[1;30mE i [0;1mCAN BE MAiLED A[0mT[1;30m.  V[0mO[1miDSS@AOL.C[0mO[1;30mM[0m'
+                  [1;30m    [0;1m [0;1;36m [0;36m [0;1;30m                          [0;36m [0;1;36m [0;1m  [0;1;30m   [0m
+                      [1;30m    [0;1m [0;1;36m [0;36m [0;1;30m                [0;36m [0;1;36m [0;1m   [0;1;30m   [0m
+[1;30m ▀▀▀▀▀[0m▀[1;30m▀[0m▀▀▀[1m▀[0m▀[1;30m▀▀ ▀[0m          [1;30m.oO [0;1m5[0;1;36m1[0;36mo[0;1;30m-829-8[0;36m3[0;1;36mo[0;1m3 [0;1;30mOo.[0m                 [1;30m▄ ▄▄[0;1m▄[0m▄▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄[0m'

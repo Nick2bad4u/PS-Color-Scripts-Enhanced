@@ -5,7 +5,7 @@
 # Source SHA-256: 41feec08064bf190955ccbbf95194a26acc6e1b09e832bd484b3d5e37eb169a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-HOOD1.ANS by Genocide + Veritech (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Hood
 # SAUCE Author: Multiple Artists
 # SAUCE Group: ACiD Productions
@@ -40,19 +40,19 @@ Write-Host '
             [1;37m▀▀▄▄▄▄▀▀[0m                         [1;37m▀▄[0;1;30m▀▀[0;1;30;44m▓▓▒▒[0;34m▀▀[0;1;37m▄▄▀[0m
                                                [1;37m▀▀▄▄▄▄▀▀[0m
    ▄▄▄▄[1;30m▄[0m                                                                [1;37m▄[0m▄▄▄[1;30m▄[0m
-[1;30m    [0;1;37m■[0m■[1;30m■    [0;1;37mT[0;1;31mH[0;31mE [0;1;30mHOOD[0m                                  [1;30mSysop: Berser[0;31mk[0;1;31me[0;1;37mr    ■[0m■[1;30m■[0m
+[1;30m    [0;1;37m■[0m■[1;30m■    [0;1;37m [0;1;31m [0;31m  [0;1;30m    [0m                                  [1;30m             [0;31m [0;1;31m [0;1;37m     ■[0m■[1;30m■[0m
 [1;30m    [0;1;37m▐[0m█[1;30m▌[0m                                                                  [1;37m▐[0m█[1;30m▌[0m
-[1;30m    [0;1;37m▐[0m█[1;30m▌    [0;1;37m9[0;1;31m0[0;31m5[0;1;30m.XXX.XXXX[0m                               [1;30m8 Node Ringd[0;31mo[0;1;31mw[0;1;37mn    ▐[0m█[1;30m▌[0m
+[1;30m    [0;1;37m▐[0m█[1;30m▌    [0;1;37m [0;1;31m [0;31m [0;1;30m         [0m                               [1;30m            [0;31m [0;1;31m [0;1;37m     ▐[0m█[1;30m▌[0m
 [1;30m    [0;1;37m▐[0m█[1;30m▌[0m                                                                  [1;37m▐[0m█[1;30m▌[0m
-[1;30m    [0;1;37m▐[0m█[1;30m▌    [0;1;37m0 [0;1;31mD[0;31ma[0;1;30my IBM Warez Only[0m                  [1;30mHuge Console Sect[0;31mi[0;1;31mo[0;1;37mn    ▐[0m█[1;30m▌[0m
+[1;30m    [0;1;37m▐[0m█[1;30m▌    [0;1;37m  [0;1;31m [0;31m [0;1;30m                [0m                  [1;30m                 [0;31m [0;1;31m [0;1;37m     ▐[0m█[1;30m▌[0m
 [1;30m    [0;1;37m▐[0m█[1;30m▌[0m                                                                  [1;37m▐[0m█[1;30m▌[0m
-[1;30m    [0;1;37m▐[0m█[1;30m▌    [0;1;37m3 [0;1;31mG[0;31mi[0;1;30mgs Online[0m                  [1;30mCanada''s Largest Pirate [0;31mB[0;1;31mB[0;1;37mS    ▐[0m█[1;30m▌[0m
+[1;30m    [0;1;37m▐[0m█[1;30m▌    [0;1;37m  [0;1;31m [0;31m [0;1;30m         [0m                  [1;30m                        [0;31m [0;1;31m [0;1;37m     ▐[0m█[1;30m▌[0m
 [1;30m    [0;1;37m▐[0m█[1;30m▌[0m                                                                  [1;37m▐[0m█[1;30m▌[0m
-[1;30m    [0;1;37m▐[0m█[1;30m▌    [0;1;37mP[0;1;31mh[0;31mo[0;1;30menix CHQ[0m                                   [1;30mWC! Worl[0;31md [0;1;31mH[0;1;37mQ    ▐[0m█[1;30m▌[0m
+[1;30m    [0;1;37m▐[0m█[1;30m▌    [0;1;37m [0;1;31m [0;31m [0;1;30m        [0m                                   [1;30m        [0;31m  [0;1;31m [0;1;37m     ▐[0m█[1;30m▌[0m
 [1;30m    [0;1;37m▐[0m█[1;30m▌[0m                                                                  [1;37m▐[0m█[1;30m▌[0m
-[1;30m    [0;1;37m▐[0m█[1;30m▌    [0;1;37mS[0;1;31mC[0;31mU[0;1;30mM Canadian HQ[0m                          [1;30mExcel Courie[0;31mr [0;1;31mH[0;1;37mQ    ▐[0m█[1;30m▌[0m
+[1;30m    [0;1;37m▐[0m█[1;30m▌    [0;1;37m [0;1;31m [0;31m [0;1;30m             [0m                          [1;30m            [0;31m  [0;1;31m [0;1;37m     ▐[0m█[1;30m▌[0m
 [1;30m    [0;1;37m▐[0m█[1;30m▌[0m                                                                  [1;37m▐[0m█[1;30m▌[0m
-[1;30m    [0;1;37m■[0m■[1;30m■    [0;1;37mF[0;1;31mr[0;31me[0;1;30melancers Member Board[0m                                      [1;37m■[0m■[1;30m■[0m
+[1;30m    [0;1;37m■[0m■[1;30m■    [0;1;37m [0;1;31m [0;31m [0;1;30m                     [0m                                      [1;37m■[0m■[1;30m■[0m
 [1;30m   [0;1;37m▀[0m▀▀▀[1;30m▀[0m                                                                [1;37m▀[0m▀▀▀[1;30m▀[0m
 
               [1;30mP I C T U R E   B Y   G E N O C I D E   <[0m [1;30mA C [0mi [1;30mD >[0m

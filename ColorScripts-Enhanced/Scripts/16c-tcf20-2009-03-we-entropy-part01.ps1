@@ -5,7 +5,7 @@
 # Source SHA-256: cbb376ba13ed3c17bbf2388ad8412072ad8701159c1e72e098ca8b2295fda74c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2009 - 03 - we-entropy.ans by The Creep Fever + Avenging Angel + Enzo (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -30,7 +30,7 @@ Write-Host '
 [32m█▄[0;1;32m▀▀████▄[0;32m▄[0;1;32m [0;1;32;42m ▄[0;1;32;40m▄[0;32m▀█ [0;1;32m███████▒ [0;32m█[0;1;32m▒▄█████[0;1;32;42m▀█[0;1;32;40m████[0;1;32;42m▀[0;32m▀[0m
 [37m  [0;32m ▀▀▄[0;1;32;42m▀[0;1;32;40m▀██[0;1;32;42m▄[0;1;32;40m ▀██▄ █████▓[0;1;32;42m█[0;1;32;40m▒ [0;32m▒[0;1;32m  ▄▄██[0;1;32;42m▄[0;1;32;40m▄[0;1;32;42m█[0;1;32;40m███[0;32m▀[0;1;37m [0;1;32m    [0m [32m [0;1;32m▒▒[0;32m▄▄[0m
 [37m [0;31m░[0;37m    [0;1;32m   ██  [0;32m▀[0;1;32m███[0;1;32;47m█[0;1;32;40m████[0;1;32;42m▀[0;32m▀[0;1;32m [0;32m▄[0;1;32m [0;32m▄[0;1;32m███▀ ██████ [0;1;37m░[0;1;32m▒   [0m [32m█▄█▀[0m
-[37m  [0;1;32m [0;32m▄[0;1;32;42m▄[0;1;32;40m▀[0;1;32;42m▀[0;1;32;40m ▄██▒ ▒████▓▓[0;1;32;42m▀[0;32m▀▄ ▀ [0;1;32m [0;32m▀▀[0;1;32m   [0;1;32;42m▄[0;1;32;40m███[0;1;32;42m▀[0;1;32;40m █ [0;1;37;40m▒[0;1;32;40m█   [0m [32m█▀█[0;37m "[0;1;37mWe stack blocks, bitch![0m"
+[37m  [0;1;32m [0;32m▄[0;1;32;42m▄[0;1;32;40m▀[0;1;32;42m▀[0;1;32;40m ▄██▒ ▒████▓▓[0;1;32;42m▀[0;32m▀▄ ▀ [0;1;32m [0;32m▀▀[0;1;32m   [0;1;32;42m▄[0;1;32;40m███[0;1;32;42m▀[0;1;32;40m █ [0;1;37;40m▒[0;1;32;40m█   [0m [32m█▀█[0;37m  [0;1;37m                       [0m 
   [1;32m▒██▄▄███▀   ▄██[0;1;32;42m▀[0;1;32;40m▀[0;32m▄▀▀ [0m      [1;32m  [0;1;32;42m▄[0;1;32;40m███[0;1;32;42m▀[0;1;32;40m  █ [0;1;37;47m█[0;1;32;40m█   [0m [32m▒[0m      [1;30m810CK7R0N1C5 4N51[0m  [1m   [0;32m▒▒[0m
 [37m [0;32m ▄[0;1;32m▀████▀   ▄█[0;1;32;42m█[0;1;32;40m▀[0;32m▀[0m     [31m ▄▄▄[0;37m   [0;1;32m [0;1;32;42m▄[0;1;32;40m███[0;1;32;42m▀[0;1;32;40m   █▄▄█   [0m [1;32m [0m         [1;30mtcf avg[0m  [1;30mzO[0m       [32m▄[0;1;32;42m▄[0;32m▄[0m
 [35m▀■ [0;32m▀█▄▄ ▀[0;1;32m  ▒██ [0;1;33m▄▄[0;32m▀▄[0;1;32m [0m  [31m█ ▄▀█▄[0;37m [0;1;32;42m▄[0;1;32;40m█▒██ [0;32m▒ [0;1;32m ▀[0;1;32;42m▀▀[0;32m▀[0m         [1;30m [0m                   [32m  ▀▀■▄[0m

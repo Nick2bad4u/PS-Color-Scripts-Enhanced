@@ -5,13 +5,13 @@
 # Source SHA-256: 9ccafe4613c284e4d461a57c1ee103cfca5f9ec7d52165d505d0870ec7f0de74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ND.ANS by Maytag + Bizzarro (bleu001); released in bleu001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-[1;30moriginal outlines::[0m [31mbizzarro[0m                 [1;36m     [0m
-[1;30mreworled by::[0m [31mmaytag[0m
+[1;30m                   [0m [31m        [0m                 [1;36m     [0m
+[1;30m             [0m [31m      [0m
 [1;30m█[0;1;30;47m▓▓[0;1;30;40m▄▄▄   ▐██[0;1;30;47m▓▓[0;1;30;40m██████▀▀▀[0m         [31m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0m     [31;40m [0m   [31;40m         [0m   [1;30;40m▀▀▀██[0;1;37;40m░░░░[0;1;30;40m███[0m▒▒[1;30m▄▄   [0m▒▒▒[1;30;47m▓[0m
 [1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0;1;36;40m██[0;1;30;40m██▄▐[0;1;30;47m▓▓[0;1;37;40m░░[0m▒▒[1;30m▀▀[0;31m [0;37m  [0;31m█[0;1;31;41m▄▄[0;31m█[0m       [30;41m░[0;31;40m▓[0;30;41m░[0;31;40m▓█[0;1;31;41m▄[0;31m██ ▄▄▄▄▄▄▄  ░[0;30;41m▓[0;31;40m░[0m        [1;30;40m▐▀▀▐█████████▄ [0m▒[1;30;47m▓▓[0;1;30;40m█[0m
 [1;30;40m█[0;1;30;47m▓[0;1;30;40m██████████▐[0m▒[1;30m▀▌[0;31m [0;31;41m██[0;31;40m  [0;1;31;41m [0;1;31;47m▓▓█[0;31;41m█[0m      [1;31;40m▒▒[0;31m█[0;1;31;41m██[0;31m▄[0;1;31;41m█[0;31m██[0;1;31m█▀▀▀▀▀[0;30;41m░[0;31;40m▓[0;30;41m░[0;1;31;41m▄▄▄[0;31m▄▄▄▄[0m    [1;30m▐   ▀████▀███▓ [0;1;30;47m▓[0;1;30;40m███[0m

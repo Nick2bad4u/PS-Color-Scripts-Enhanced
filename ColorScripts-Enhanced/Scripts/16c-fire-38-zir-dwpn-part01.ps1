@@ -5,7 +5,7 @@
 # Source SHA-256: 0a2484d5f1647092457fec7b5f0ca105abb6ae20fe61b4710c5c25c005063f58
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-DWPN.ANS by zir (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dream weapon engage
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -17,7 +17,7 @@
 # Columns: 1-80
 
 Write-Host '
-[37;40m in a very real sense [0;1;30;40m:::::[0m there is an ongoing attack on the human imagination
+[37;40m                      [0;1;30;40m     [0m                                                    
 
   ░░░░░░░░░░░░[34m░[0;37m [0;34m▒▒▒▒░▒▒▒░▒░░░░░░░░ ░░░░░░ ░░▒▒░▒░░░ ░░░░░░░░░░▒░▒▒▒[0;37m  [0;30;47m►zir[fire][0m
  ░▓▐[30;47m▌▌▌[0;1;35;47m░░░[0;30;47m23[0;37;40m▓[0;1;30;40m░[0;34m░[0;37m [0;34m▒▓[0;30;44m:[0;34;40m▀▐[0;30;44m■·[0;34;40m█[0;31;44m░░░░[0;34;40m█[0;31;44m░░[0;34;40m██[0;31;44m░[0;34;40m███████▐█████[0;31;44m░[0;34;40m███▌██████████▓▀▄▐▓[0m

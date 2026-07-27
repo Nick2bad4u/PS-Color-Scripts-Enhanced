@@ -5,7 +5,7 @@
 # Source SHA-256: b3d1f4c10482270ea9a09604cebe70c7dfb20948c7aa2b0cf8955f46fcad7172
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PY-UTPIA.ANS by Pyro (FusioN); released in fsn-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Utopia
 # SAUCE Author: Pyro
 # SAUCE Group: FusioN
@@ -37,8 +37,8 @@ Write-Host '
 [1;37m────[0;1;34m───── [0;1;30m▀[0;1;30;44m█[0;1;30;40m▀ [0;1;34;40m─[0;34m────── [0;1;30;44m██[0m [34m─────── [0;1;30m▀[0;1;30;44m██[0;1;30;40m▀ [0;34m─────── [0;1;30;44m█[0m [34m────────── [0;1;30m▀[0;1;30;44m█[0m [34m── [0;1;30m▀▀[0;1;30;44m█[0;1;30;40m▐▀ [0;1;34;40m─────[0;1;37;40m────[0m
            [1;30m▌[0m          [1;30m▐[0m           [1;30m▐[0m           [1;30m▐[0m             [1;30m▐[0m       [1;30m▐[0m
 
-[1m(2o3[0;1;34m)887-6554 ■ [0;34mJustice Member Board ■ Cranium Dist Site ■ Sic USH[0;1;34mQ ■ TPU Di[0;1;37mstro[0m
-[1;37mNuke[0;1;34m-Net ■ Cows [0;34mDistro ■ Sysop: AmericA [Justice] ■ Co-Sysop: Zeus [0;1;34m[Justice/[0;1;37mFat][0m
+[1m    [0;1;34m          ■ [0;34m                     ■                   ■        [0;1;34m  ■       [0;1;37m    [0m
+[1;37m    [0;1;34m     ■      [0;34m       ■                          ■                [0;1;34m         [0;1;37m    [0m
 
       [1;34m▌[0m                                 [1;34m▌[0m                                    [1;34m▌[0m
      [1;34m▐▌[0m          [1;34m▐[0m       [1;34m▌[0m             [1;34m▐▌[0m          [1;34m▐[0m           [1;34m▌[0m            [1;34m▐[0;1;34;44m▓[0m
@@ -48,7 +48,7 @@ Write-Host '
 [1;34;44m▒▒▒▒░░░▒▒▓▓▓▓▓▓▓▒░▒▒▓▓▓▒░░░▒▓▓▓▓▓▓▓▓▓▒░ ░▒▒▒▓▓▓▒▒░░░░░▒▒▒▒▓▓▓▒░░▒▒▓▓▓▓▓▓▓▒▒░░░▒▓[0m
 [1;34;44m░░░░░ ░░░▒▒▒▒▒▒▒░░░░▒▒▒░   ░░▒▒▒▒▒▒▒▒░   ░░░▒▒▒░░░   ░░░░░▒▒▒░░ ░░▒▒▒▒▒▒▒░░   ░▒[0m
 [1;34;44m         ░░░░░░░    ░░░     ░░░░░░░░░       ░░░           ░░░     ░░░░░░░      ░[0m
-[30;44mfusion·fusion·fusi[0;1;30;44m░░░[0;30;44mfusion·f[0;1;30;44m░[0;30;44msion·fusion·fusion·fusion·fusion·fusion·fusion·fus[0m
+[30;44m                  [0;1;30;44m░░░[0;30;44m        [0;1;30;44m░[0;30;44m                                                  [0m
 [30;44m  [0;1;30;44m░░░░░░░     ░░░░▒▒▒░    ░░▒▒▒░   ░░░░░░░░░░░      ░░░░░░░░░░░         ░░░░░░░ [0m
 [1;30;44m░░▒▒▒▒▒▒▒░   ░▒▒▒▒▓▓▓▒░ ░░▒▒▓▓▓▒░ ░▒▒▒▒▒▒▒▒▒▒▒░░   ░▒▒▒▒▒▒▒▒▒▒▒░░░    ░░▒▒▒▒▒▒▒░[0m
 [1;30;44m▒▒▓▓▓▓▓▓▓▒░ ░▒▓▓▓▓[0;1;30;40m▀▀▀[0;1;30;44m▓▒░▒▒▓▓[0;1;30;40m▀▀▀[0;1;30;44m▓▒░▒▓▓▓▓▓▓▓▓▓▓▓▒▒░ ░▒▓▓▓▓▓▓▓▓▓▓▓▒▒▒░░ ░▒▒▓▓▓▓▓▓▓▒[0m

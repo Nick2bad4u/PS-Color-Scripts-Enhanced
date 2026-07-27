@@ -5,7 +5,7 @@
 # Source SHA-256: 143e9f1c20591e937775686f4d88963ac045a3604bb6274e40bab46b3ce27554
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UV-XF.ICE by Ultra Vires (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 35-70
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
 [1;31m █ [0;31m█ [0;1;30m∙ │  [0;1;37m█[0m█ [1m█[0m                                                    [1m█ [0m█[1;30m█  │ ∙ [0;31m█ [0;1;31m█[0m
 [1;31m █ [0;31m█[0;1;31;41m▀▀[0m [1;30;40m│  [0;1;37;40m█[0m█ ▄              [1;30m4 [0m1 [1m6 [0;31m· [0;1;37m7 6 4 [0;31m· [0;1;37m7 2 [0m0 [1;30m8[0m               ▄ █[1;30m█  │ [0;1;31;41m▀▀[0;31m█ [0;1;31m█[0m
 [1;31m █ [0;31m███ [0;1;30m│  [0;1;37m█[0m█ [1;30m▄ [0;1;37m▐[0;31;47mS[0;1;30;40m▌o[0mv[1mereig[0mn[1;30ms[0;31m:  [0;1;30mD[0me[1msolate Zomb[0mi[1;30me [0;31m· [0;1;30mU[0ml[1mtra Vir[0me[1;30ms [0;1;37m[[0;1;36mi[0;36mC[0;1;34mE[0;34m] [0;1;30m▄ [0m█[1;30m█  │ [0;31m███ [0;1;31m█[0m
-[1;31m █ [0;31m███ [0;1;30m│  [0;1;37m█[0m█   [1;30mQ[0mu[1mick Silv[0me[1;30mr [0;1;37m[[0;1;36mi[0;36mC[0;1;34mE[0;34m] [0;31m· [0;1;30mL[0mo[1mrd Carnu[0ms[1;30ms [[0mL[1megac[0my[1;30m] [0;31m· [0;1;30mV[0mi[1mp[0mo[1;30mr   [0m█[1;30m█  │ [0;31m███ [0;1;31m█[0m
+[1;31m █ [0;31m███ [0;1;30m│  [0;1;37m█[0m█   [1;30m [0m [1m        [0m [1;30m  [0;1;37m [0;1;36m [0;36m [0;1;34m [0;34m  [0;31m  [0;1;30m [0m [1m        [0m [1;30m   [0m [1m    [0m [1;30m  [0;31m  [0;1;30m [0m [1m [0m [1;30m    [0m█[1;30m█  │ [0;31m███ [0;1;31m█[0m
 [1;31m █ [0;31m███ [0;1;30m│  [0;1;37m█[0m█ [1;30m▀  [0;1;37m▐[0;31;47mR[0;1;30;40m▌u[0mn[1mning Renega[0md[1;30me [0;31m· [0;1;37m▐[0;31;47mF[0;1;30;40m▌a[0ms[1mt Fil[0me[1;30ms [0;31m· [0;1;37m▐[0;31;47mE[0;1;30;40m▌s[0ms[1may Ba[0ms[1;30me  ▀ [0m█[1;30m█  │ [0;31m███ [0;1;31m█[0m
 [1;31m █ [0;31m███ [0;1;30m│  [0;1;37m█[0m█ ▀               [1m▐[0;31;47mH[0;1;30;40m▌o[0mm[1mo Superiors On[0ml[1;30my[0m                ▀ █[1;30m█  │ [0;31m███ [0;1;31m█[0m
 [1;31m █ [0;31m█ [0;1;30m∙ │  [0;1;37m█[0m█ [1m█[0m                                                    [1m█ [0m█[1;30m█  │ ∙ [0;31m█ [0;1;31m█[0m

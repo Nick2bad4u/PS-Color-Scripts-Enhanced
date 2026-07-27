@@ -5,7 +5,7 @@
 # Source SHA-256: bf8243c48cfe1430d8aebdf6d9e70b56c21a03a9266bb035b537bfd4d7b3efe0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KG-BKMX.ANS by Kargus (.;:Anemia:;.); released in ane-0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BatKave Matrix
 # SAUCE Author: Kargus
 # SAUCE Group: .;:Anemia:;.
@@ -41,7 +41,4 @@ Write-Host '
 [1;37;40m [0m [1m [0;1;30m▓▒░  [0;33m▒[0;1;30m       [0;33m▀██[0;30;43m░[0;1;31;43m░░░▒▒▒▒▓▓▓[0;1;31;47m▓[0;1;31;43m▓▓▓▒▒[0;33m▄ [0;37m   [0;33m▐[0;1;31;43m░░▒[0;1;31;40m [0;1;31;43m░▒▓[0;1;31;47m▓[0m [33m▀▓[0;37;43m [0;33;40m▄ [0;34;40m▀■▄[0m       [33;40m [0;37;40m  [0;33;40m [0m         [1;34;44m░[0m
   [1;30m▀▓▒▒░ [0;33m░[0;1;30m  ░      [0;33m▀▀[0;1;31;43m░[0;33m█[0;1;31;43m░░░▒▒▒▓▒▓▒▒▓▓▒[0;33m   [0;37m  [0;33m▐[0;1;31;43m░▒▒[0;1;31;40m█[0m [1;31;43m▒[0;1;31;47m▓[0;1;31;40m▌[0;1;37;40m [0;34m▄■[0;33m ▀[0;37;43m [0;33;40m▄ [0;1;34;44m ░ [0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄[0;1;34;44m░░[0m
 
-[34m-[0;1;30m[ [0;1;34mvrooom! fire up mr. chainsaw![0;1;30m ][0;34m----------------------------------------------[0m
-
-[37m [0;1;30myeah, sure its shitty, but hell, its something..[0m
-[1;30m if anyone uses this but coug, it will hax0r your board. not.. :)[0m'
+[34m-[0;1;30m[ [0;1;34mvrooom! fire up mr. chainsaw![0;1;30m ][0;34m----------------------------------------------[0m'

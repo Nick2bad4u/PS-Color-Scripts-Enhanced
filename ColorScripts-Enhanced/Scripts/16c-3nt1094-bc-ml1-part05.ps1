@@ -5,7 +5,7 @@
 # Source SHA-256: ad45cd1092d51f22ec1cb42c15b25bb254c1c26d07f19f3ce3215b645443be0d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-ML1.ANS by Beyond Cool (3nt1094); released in 3nt1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 167-208
 # Columns: 1-80
 
@@ -39,16 +39,15 @@ Write-Host '
 [36m  [0;1;36mM  [0;36m · [0;1;36m  Y [0;36m · [0;1;36m  S [0;36m · [0;1;36m  T [0;36m · [0;1;36m  E [0;36m · [0;1;36m  R [0;36m · [0;1;36m  Y  [0;36m [0;1;36m ∙[0;36m  [0;1;36m   l [0;36m · [0;1;36m  A [0;36m · [0;1;36m  N [0;36m · [0;1;36m  D[0m
 [1;37m.·∙-───────────────────────────────────÷───────────────────────────────────--∙·.[0m
                                        [34m│[0m
-[37m [0m  [35m           [0m  [35m     [0m  [1;37mS[0;1;35miZ[0;35mMAN : illEGAl[0;34m│[0;35mENTR[0;37mY[0m
-[35m [0;37m [0;35m                   [0m [37mC[0;35mOEMEN[0;34m [0;35m: U4EA·THE[0;34m│[0;35mPRoPHET·CHARlY[0;37m [0;35mlo[0;1;35mWNoi[0;1;37mSE[0m
-[35m  [0;37m [0;35m                       [0m   [1;37mA[0;1;35mll [0;35mSPEEDS[0;34m│[0;35mAVAilABl[0;37mE[0;35m                     [0m
+[37m [0m  [35m           [0m  [35m     [0m  [1;37m [0;1;35m  [0;35m             [0;34m│[0;35m    [0;37m [0m
+[35m [0;37m [0;35m                   [0m [37m [0;35m     [0;34m [0;35m          [0;34m│[0;35m              [0;37m [0;35m  [0;1;35m    [0;1;37m  [0m
+[35m  [0;37m [0;35m                       [0m   [1;37m [0;1;35m   [0;35m      [0;34m│[0;35m        [0;37m [0;35m                     [0m
                                        [34m│[0m
-[36m [0m [36mHuh ? That''s iT ? liKE, No PHEUN ? No[0;34m│[0;36mAFFilS ? No NoTHiNG ? FiND iT oUT NoW ![0;37m [0m
+[36m [0m [36m                                     [0;34m│[0;36m                                       [0;37m [0m
 [1;37m.·∙-───────────────────────────────────÷───────────────────────────────────--∙·.[0m
-[34m│[0m [1;32mYo, DUDEZ, DiD YA C iT ? THiZ ANSi iZ oVER 2oo liNEZ loNG !!! YEEHA''N STUFF[0m
+[34m│[0m [1;32m                                                                           [0m
 [34m│[0m
-[34m║[0m [35m0MiNoUS PERSY GREETiNX 2 : liQUiD-X · TASMANiAC · STERN0NE · WHiTESNAKE ...[0m
-[34m║[0m [35m0MiNoUS GRoUP GREETiNX 2 : ACiD · iCE · FAT · KTS · lBo · NFF · TCP   [0m
+[34m║[0m [35m                                                                           [0m
+[34m║[0m [35m                                                                      [0m
 [34m│[0m
-[1;37m.·∙-───────────────────────────────────÷───────────────────────────────────--∙·.[0m
-[1;35m               [0m  [1;35mTHiZ ANSi iS DEDiCATED To THE loViNG MEMoRY oF FlUPPE ... [B∙C][0m'
+[1;37m.·∙-───────────────────────────────────÷───────────────────────────────────--∙·.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2c71b80dd1eeaa90e6b153453a418103334e47987b40823b07f9d4c407a51d8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LACID.ANS by Nitris + Madman (lacidus); released in blndr023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blender 23
 # SAUCE Author: madman and nitris
 # SAUCE Group: lacidus
@@ -40,11 +40,4 @@ Write-Host '
 [30;44m            [0;37;44m████████[0;30;44m           [0;37;44m█████████[0;37;42m█[0;30;44m     [0;32;44m▀▀▀▀▀[0;30;44m  [0;32;44m [0;30;44m                          [0m
 [30;44m            [0;37;44m████████[0;30;44m           [0;37;44m▀▀▀▀[0;30;44m [0;1;30;44m▄▄▄▄[0;30;44m                                        [0m
 [30;44m            [0;37;44m▀▀▀▀[0;30;44m [0;1;30;44m▄▄▄▄▄▄[0;30;44m      [0;1;30;44m███████████[0;30;44m                                        [0m
-[30;44m            [0;1;30;44m███████████[0;30;44m                                                         [0m
-[30;44m                                                                                [0m
-[30;44m                                                                                [0m
-[30;44m                                                                                [0m
-[30;44m                                                                                [0m
-
-[34;40mthis is a quicky by madman and nitris of lacidus.  it''s for blender and the[0m
-[34;40mwords were spies, fighting, underwater.  pHEAR lACIDUS bITCHES![0m'
+[30;44m            [0;1;30;44m███████████[0;30;44m                                                         [0m'

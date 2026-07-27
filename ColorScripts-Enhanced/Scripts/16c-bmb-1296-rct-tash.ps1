@@ -5,7 +5,7 @@
 # Source SHA-256: 64a9fa4fd559f80e3a15c0b3b5e59f6434c774e6eaa1c8b1c41a653c55aeda39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RCT-TASH.ANS by react (bamboosh); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: succotash
 # SAUCE Author: react
 # SAUCE Group: bamboosh
@@ -35,5 +35,5 @@ Write-Host '
 [37m███[0;1;30;47m▒[0;32m [0;1;30m░[0;35m▀▀[0;32m [0;37m▐█▄▄▄▄▄▄[0;1;30;47m▒[0m██[1;30;47m▒[0m▄[1;30m ░[0;35m▀▀[0;32m [0;37m▐█████████[0;1;30;47m░ [0m█[1;30;47m▒[0m  [1;30m░[0m██[1;30;47m▒[0m▄▄█[1;30;47m░[0m███▄ ▄[1;30;47m░[0m███▄ ▄[1;30;47m▒[0m██[1;30;47m░ ▒[0m▄ ▄[1;30;47m▒[0m▄ ▄[1;30;47m▒[0m██
 ███[1;30;47m░[0m█▄▄▄▄[1;30;47m▒[0m██████[1;30;47m ░[0m██[1;30;47m░[0m█[1;30;47m▒[0m▄▄▄[1;30;47m▒[0m█████████████[1;30;47m░[0m█▄[1;30;47m░[0m██[1;30;47m░[0m█████████████████[1;30;47m░[0m███[1;30;47m ░[0m██[1;30;47m ░[0m██[1;30;47m ░[0m██
 [1;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37;47m▄[0m
-[1;37;40m█[0m▌[1;30m.[0;35ma[0;1;30mnsi.[0;35mm[0;1;30made.[0;35mb[0;1;30my.[0;35mr[0;1;30meact.[0;35mo[0;1;30mf.[0;35mb[0;1;30mamboosh.[0;35m4[0;1;30m.[0;35ms[0;1;30muccotash. [0m [1;30m.[0;35mg[0;1;30mreet:[0;35mo[0;1;30mce.[0;35mr[0;1;30moma.[0;35ms[0;1;30moda.[0;35md[0;1;30mrkl.[0;35mp[0;1;30myx.[0m▐[1m█[0m
+[1;37;40m█[0m▌[1;30m [0;35m [0;1;30m    [0;35m [0;1;30m    [0;35m [0;1;30m  [0;35m [0;1;30m     [0;35m [0;1;30m  [0;35m [0;1;30m        [0;35m [0;1;30m [0;35m [0;1;30m          [0m [1;30m [0;35m [0;1;30m     [0;35m [0;1;30m   [0;35m [0;1;30m    [0;35m [0;1;30m    [0;35m [0;1;30m    [0;35m [0;1;30m   [0m▐[1m█[0m
 [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a5f55f72871a8e9cc65483428a34f6901773943ea7b2ca469aa1f7c33acad34c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Po-phi13.ans by PORTIA (LUR3); released in lure002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: PHIL3
 # SAUCE Author: PORTIA
 # SAUCE Group: LUR3
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1;36mPHIL3[0m
-[1;33mPORTIA[0m
+[1;36m     [0m
+[1;33m      [0m
 [31mLU[0;1;34mR[0;1;37m3[0m
 [1;37m02[0m
                                                   [1;37m░░░[0m

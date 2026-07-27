@@ -5,7 +5,7 @@
 # Source SHA-256: 6de375d33d2bd7540d6c1d32a833dd0d46b9a548c0aad0b8b0d7e14b4defda5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-NJ1.ANS by Neophyte + Rage (plain / mistigris); released in mist2yr1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neon jesus
 # SAUCE Author: neophyte / rage
 # SAUCE Group: plain / mistigris
@@ -31,7 +31,4 @@ Write-Host '
 [1;37m█[0;1;37;47m▓[0;1;37;40m▌[0;33m▐[0;1;31;43m▄▄▄[0;33m▌[0;1;37m  [0;33m▐[0;1;31;43m▐█▌[0;33m▌[0;1;37m▀▌[0;33m▐[0;1;31;43m░▓▓░[0;33m░░░[0;1;37m [0;1;31;43m░██░[0;1;37;40m ▌ [0;33m▀▀▀[0;1;31;43m░░░░░[0;33m▄▄▄▄[0;1;37m ▀▌[0;33m▐[0;1;31;43m▐█▌[0;33m▌[0;1;37m   [0;33m▐[0;1;31;43m▐█▌[0;33m▌[0;1;37m▐▌ [0;33m▀▀▀[0;1;31;43m░░░░░[0;33m▄▄▄▄[0;1;37m ▀█ [0m
 [1;37m██ [0;1;31;43m░▓▓░[0;33m░░░[0;1;37m [0;1;31;43m░██░[0m [1m [0;1;31;43m░██░[0;1;37;40m     [0;33m▐[0;1;31;43m▐█▌[0;33m▌[0;37m [0;1;31;43m░▄░[0;33m▄[0;1;37m      [0;1;31;43m░██░[0;1;37;40m  [0;1;31;43m░▓▓░[0;33m░░░[0;37m  [0;1;31;43m░██░[0;1;37;40m [0m [1;31;43m░▄░[0;33m▄[0;1;37m      [0;1;31;43m░██░[0;1;37;40m █ [0m
 [1;37;40m█▌[0;33m▐[0;1;31;43m▐█▌[0;33m▌[0;1;37m  [0;33m ░[0;1;31;43m░▓▓▓░[0;33m▐[0;1;31;43m▐█▌░[0;33m▄▄▄▄▄▄[0;1;31;43m░▀▀░░▄█▌[0;33m▌[0;1;37m  [0m    [33m▐[0;1;31;43m▐█▌[0;33m▌▐[0;1;31;43m▐█▌[0;33m▌[0;37m     [0;33m▐[0;1;31;43m▐█▌[0;33m▌▐[0;1;31;43m▐█▌[0;33m▌[0;1;37m  [0m    [33m▐[0;1;31;43m▐█▌[0;33m▌[0;1;37m▐ [0m
-[1;37m█[0m [33m▀[0;1;31;43m░▀░[0;33m▄▄▄▄▄▄[0;1;31;43m░▀▀░░▀▀░[0;33m▄▄▄▄▄▄▄▄▄▄[0;1;37m [0;33m▀[0;1;31;43m▀▀░[0;33m▄▄▄▄▄▄▄▄[0;1;31;43m░▀▀░░▀▀░[0;33m▄▄▄▄▄▄▄[0;1;31;43m░▀▀░░▀▀░[0;33m▄▄▄▄▄▄▄▄[0;1;31;43m░▀▀[0;33m▀[0;37m [0;1;37m [0m
-
-[1;30m  [0m [1;30mgenocide kitten''s neon jesus - ten billion art packs - eclipse affiliated[0m
-[1;30m        [0m [1;30mmore camels than you could ever want - ansi: neophyte & rage[0m'
+[1;37m█[0m [33m▀[0;1;31;43m░▀░[0;33m▄▄▄▄▄▄[0;1;31;43m░▀▀░░▀▀░[0;33m▄▄▄▄▄▄▄▄▄▄[0;1;37m [0;33m▀[0;1;31;43m▀▀░[0;33m▄▄▄▄▄▄▄▄[0;1;31;43m░▀▀░░▀▀░[0;33m▄▄▄▄▄▄▄[0;1;31;43m░▀▀░░▀▀░[0;33m▄▄▄▄▄▄▄▄[0;1;31;43m░▀▀[0;33m▀[0;37m [0;1;37m [0m'

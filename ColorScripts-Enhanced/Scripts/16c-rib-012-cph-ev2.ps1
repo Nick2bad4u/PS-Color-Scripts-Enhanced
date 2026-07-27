@@ -5,7 +5,7 @@
 # Source SHA-256: 6a6666f9fe77a5e0910eb0fd4549d0c1214c53eb33e5c9b4d8967783c85fac8a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-EV2.ANS by cph (rib); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: evil emag logo
 # SAUCE Author: cph
 # SAUCE Group: rib
@@ -16,7 +16,7 @@
 
 Write-Host '
                                               [1;31m▄▓▓[0;1;32;41m [0;31m▄[0;1;36m [0m
-       [36me .....v i ll[0;1;30ml l[0m                      [31m▐[0;1;32;41m     [0;31m▌[0m
+       [36m             [0;1;30m   [0m                      [31m▐[0;1;32;41m     [0;31m▌[0m
                   [1;36m    [0;31m▄▄[0;1;36m [0;31m█[0;1;31m▌[0;31m▌█[0;1;31;41m█▓▓▀[0;31m█[0;1;31;41m░[0;36m▐[0m      [31m█[0;1;31;41m▒[0;31m█[0;36m [0;31m▀[0;32;41m  [0;1;31;41m▀[0;31m▀[0;36m [0;1;31;41m▓▓[0m
                   [36m [0;31m▄[0;31;46m██[0;1;31;41m▀[0;31m▀[0m    [31m▓[0;1;31;41m▌█▌[0;31m███[0;36m▐[0m      [31m█[0;1;31;41m░[0;32;41m [0;31;40m█▐█▄▄[0;36;40m [0;1;31;41m░▒▒[0m
                   [31m▐[0;31;46m█[0;1;31;41m░░[0;31m▌[0m     [31m▒[0;1;31;41m▌█▓▄▄[0;31m█[0;36m▐ [0;31m [0;1;31;41m░[0;32;41m [0;31;40m▄▄[0;36;40m [0;31;40m▀[0;32;41m [0;31;40m█▐█[0;32;41m  [0;31;40m▌▐[0;1;31;41m░░[0;31m▌[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 8585291ccc3e677ca6def345844ddf168a39a59e7dec8630a77a8463b22575f3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CERT.ANS by Slackzor + Produkt (purg); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cert
 # SAUCE Author: produkt&slackzor
 # SAUCE Group: purg
@@ -43,19 +43,4 @@ Write-Host '
                [1;30m░▓▀■[0m  [32m▀▀▀[0;37m  [0;1;30m■▀░[0m [32m░▀▀▓[0;1;30;42m▒▓[0;1;30;40m▄[0m    [1;30m░[0;32m░[0m     [32m■[0;1;32m░[0;32m▀▀[0;37m    [0;1;30m░[0m
                 [1;30m░[0m                   [1;30m░░[0m
 
---------------------------------------------------------------------------------
-
-          slackzor=outline, prod=color/touchup/background
-
-
-         N0W!$@% It''s prod''s first greets ever. i''m sure you all want to
-         read this. Actually i have some friends who bitch at me for not
-         being in the greets, so i guess they DO read it! MWAHAH.
-
-
-         [35ms[0;1;35ml[0;35ma[0;1;35mc[0;35mk[0;1;35mz[0;35mo[0;1;35mr[0;32m[[0;1;37mi[0;1;32mc[0;1;37my[0;1;32mm[0;1;37mi[0;1;32mk[0;1;37me[0;32m][0;37m, aeternam[icymike], jakiechan[icymike],[0m
-         [37mhectic[icymike], camo, timbo, dildo, fjerie, axo, dev, dist,[0m
-         [37mmoogled, mexis, rew. and anyone who remembers me from when[0m
-         [37mi was grimmy, i owned you back then, and i own you now.[0m
-
-         [1;36mslackzor gets no greets because he likes men.[0m'
+--------------------------------------------------------------------------------[0m'

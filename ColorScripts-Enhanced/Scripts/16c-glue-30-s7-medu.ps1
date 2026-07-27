@@ -5,7 +5,7 @@
 # Source SHA-256: 908edd41ff89f3179d92bf57a781f3527dcdb28404b6398d6a27d94d1e39bb06
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S7-MEDU.ANS by Somberlain + Zerovision (Glue); released in glue-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Medusa BBS Software
 # SAUCE Author: Somberlain
 # SAUCE Group: Glue
@@ -54,8 +54,4 @@ Write-Host '
       [1m▀▀▀[0;1;47m▒▒░[0m█▓ [1;30m▀█▄[0;1;37m▀ ▀▀▀▀[0;1;30m▄[0m  ▐██▀█████[1;47m ░▒[0m▀   [1m▀▀▀██████████████████[0m▀▀ ▐[1;47m▐███▀[0m▀[1;47m▄██▌▀[0m▌
          ▐[1;47m░░[0m███▄ [1;30m▀▀█████▀[0m ▄███▌  ▀▀▀             [1m▀▀▀▀▀▀▀▀▀▀▀▀[0m       ▀▀▀▀ ▐[1;47m▀██▀[0m
           ▀▀██████▄▄[1;30m▀▀▀[0m ▄████▀                                            ▀▀▀
-             ▀▀▀▀████████▀▀▀
-
-
-[1;32m  [0;1;30m-[0;1;32m [0;1;30mSomberlain[0;1;32m [0m
-  [1;30m- zv background[0m'
+             ▀▀▀▀████████▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 34c6c932a648ffcd2bb45a41ad32bf00a4c07674d3f503aef52cd53c1b4e998c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GI-LOA.ANS by giger (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: library of alexandria
 # SAUCE Author: giger
 # SAUCE Group: leper society
@@ -39,6 +39,4 @@ Write-Host '
 [40m  [0;33;40m■[0;1;31;43m░[0;33mgi[0;37m    [0;33m▄▄▄▓▄▄▄▄▄▄▓▀[0;37m   [0;33m▀■[0m   [33;42m▓[0;1;30;43m░[0m [33m░░▀▀▀▀▀▌▀▀▓▀▀██[0;1;31;43m▒▀[0;33m▀▀■▀▀▒▄▀█[0;1;31;43m░[0;43m░[0;33;40m███[0;1;31;43m░▒[0;33m▄▄▄▄[0;31;43m░░[0;33;40m▄▄▓[0;1;30;43m░[0;1;31;43m░[0;33m█[0;37;43m░[0m
 [37;40m [0;33;40m▐▓[0;1;31;43m▒[0;31;43m▒[0;33;40m▀▄▀▀▀▌▀▀█[0;1;31;43m░▀▓▒■[0;33m▓█[0;1;31;43m░[0;33m▄[0m                [33m▓█[0;1;31;43m░[0;33m▌[0m                    [33m▀▀▀▓█[0;31;43m▒▓▓[0;33;40m▓[0;31;43m░[0;33;40m██▀█[0;1;31;40m▓[0;33m▓[0m
 [37m  [0;33m▀▀[0m     [1;31;43m░[0;43m░[0;33;40m▌[0m       [33;40m▄[0;1;31;43m▒▓░[0;33m▌[0m               [33m▀[0;1;31;43m▒▓[0m                     [33m▄[0;33;42m▓[0;33;40m▓[0m      [33;40m▀▀▄[0;37;40m [0;33;40m■░▀[0m
-          [33;40m▀ [0m        [33;40m▀▀▓[0m                                         [33;40m▀▀[0m
-[37;40m  [0;33;40m      [0;37;40m  [0;1;31;40m [0;33m.: [0;1;31mlibrary  of  alexandria[0m   [33msysop [0;1;31mzardox[0m   [1;31m4l2[0;33m: [0;1;31m68l[0;33m: [0;1;31m5l66[0;33m :.[0m
-                         [33m [0;37m [0;33mansi giger of leper society[0m'
+          [33;40m▀ [0m        [33;40m▀▀▓[0m                                         [33;40m▀▀[0m'

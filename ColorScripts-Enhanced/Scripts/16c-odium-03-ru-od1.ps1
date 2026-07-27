@@ -5,7 +5,7 @@
 # Source SHA-256: 0a889643c7e8caea931173d08e450d3971f66d8a52cf4f67ea8688702baf7f3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RU-OD1.ANS by ruckus/unsane (odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: odium promo
 # SAUCE Author: ruckus/unsane
 # SAUCE Group: odium
@@ -30,5 +30,4 @@ Write-Host '
 [1;31;41m░▐▓[0;1;31;47m▓[0;1;31;40m█▌  [0;1;30;40m░░[0;31m▐[0;1;31;41m▄[0;31m▄▄[0m     [31m▄▄▄  [0;1;30m░░    [0;31m▄▄  ▐[0;1;31;41m▄█▄[0;31m▌ ▐[0;1;31m██[0;1;31;47m▓▓[0;1;31;40m▌ [0;1;30;40m░░ [0;1;31;40m▐[0;1;31;47m▓▒▓[0;1;31;41m▄[0;31m▀▀[0;1;31m▀█▀█[0;1;31;41m▌[0;31m▌[0m     [1;31m▀[0m     [1;31;41m▓[0;1;31;47m▓[0;1;31;41m▄▄▄[0m
 [1;31;40m [0;31m▀[0;1;31;41m▀▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m▄  ▄█[0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▄[0;31m▀  ▐[0;31;41m [0;1;31;41m▄▄▓[0;1;31;40m▌[0m     [31m▄[0;1;31;41m▄▄  [0m [1;31;41m▐[0;1;31;40m█[0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▌[0m  [1;31;40m▀█[0;1;31;41m▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m▄  ▄██[0;1;31;41m▄[0;1;31;40m█[0;1;37;40m▀▀[0;1;31;40m▀[0;1;37;40m▀[0;1;31;40m▀▀▀▀[0;1;37;40m▀[0;1;31;40m▀ ▀ [0;1;37;40m░░    ▀[0;1;31;40m▀▀[0;1;31;47m▓[0;1;31;40m▀▀[0;1;31;47m▓[0m
     [1;31;40m▀[0;1;37;40m▀[0;1;31;40m▀[0;1;37;40m▀▀[0;1;31;40m▀▀▀[0m      [1;31;40m▀██[0;1;31;47m▓[0;1;31;40m█▄  ▄[0;1;31;41m█[0;1;31;47m▓▓▓[0;1;31;40m█[0;1;31;41m▌[0m           [1;31;40m▀▀▀▀[0;1;37;40m▀[0;1;31;40m▀[0;1;37;40m▀▀[0m
-                     [1;31;40m▀▀[0;1;37;40m▀[0;1;31;40m▀[0;1;37;40m▀▀[0;1;31;40m▀██[0;1;31;41m▀▀ [0m
-                                                  [33mruckus ([0;1;37modiUm[0;33m)[0m'
+                     [1;31;40m▀▀[0;1;37;40m▀[0;1;31;40m▀[0;1;37;40m▀▀[0;1;31;40m▀██[0;1;31;41m▀▀ [0m'

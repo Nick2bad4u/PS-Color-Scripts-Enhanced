@@ -5,7 +5,7 @@
 # Source SHA-256: 33ce0afa4f4a1d165fca8fed9db6e852c3227ff1bb066574f89bdc0101d981e6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PF-CONV3.ANS by Pfezzyo (stl-0296); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -15,7 +15,7 @@ Write-Host '
 [1;30m           ▄▄▀▀▀[0m ▄▄▄▄▄[1;47m          [0;1;30;47mAm I a singer!?! [0;1;37;47m         [0m▄▄▄▄▄[1;30m ▀▀▀▄▄           [0m
     [1;30m▄▄▄▄▀▀▀[0m ▄▄[1;30;47m  [0;1;37;47m     [0;30;47mSome People call me tha space-cowboy..       [0;37;40m▄▄ [0;1;30;40m▀▀▀▄▄▄▄[0m
 [1;30m▀▀▀▀[0m ▄▄▄▄[1;47m    [0;30;47m  ...Ypsilon call me tha leecher, so I had to do yet [0;1;37;47m    [0;30;47m [0;37;40m▄▄▄▄ [0;1;30;40m▀▀▀▀[0m
-[1;37;47m                    [0;30;47manother ansi for him.. ;) ..here it is.. [0;1;37;47m [0;1;30;47m    [0;1;37;47m     [0;30;47m [0;1;37;47m        [0m
+[1;37;47m                    [0;30;47m                                         [0;1;37;47m [0;1;30;47m    [0;1;37;47m     [0;30;47m [0;1;37;47m        [0m
 [1;37;47m  [0;1;30;47mS[0;1;37;47m              [0;30;47m    [0;1;30;47m          [0;32;47m [0;1;30;47m▄▄▄         ▄▄▄▄[0;32;47m     [0;1;30;47m         [0;30;47m [0;1;37;47m              [0;1;30;47mS[0;1;37;47m  [0m
 [1;37;47m  [0;1;30;47mt[0;1;37;47m              [0;1;30;47m          ▄[0;32;47m [0;1;30;47m ▀▀   ▀▀▄[0;32;47m  [0;1;30;47m ▄▀▀[0;32;47m    [0;1;30;47m▀▀▄[0;32;47m [0;1;30;47m▄[0;32;47m [0;1;30;47m   [0;32;47m [0;1;30;47m     [0;1;37;47m              [0;1;30;47mt[0;1;37;47m  [0m
 [1;37;47m  [0;1;30;47mi[0;1;37;47m              [0;1;30;47m       ■   █[0;32;47m    [0;1;30;47m▀▄[0;32;47m  [0;1;30;47m▐▌[0;32;47m [0;1;30;47m▐▌[0;32;47m  [0;1;30;47m ▄▄▄[0;32;47m   [0;1;30;47m█[0;32;47m   [0;1;30;47m■ [0;32;47m  [0;1;30;47m    [0;1;37;47m              [0;1;30;47mi[0;1;37;47m  [0m
@@ -25,7 +25,7 @@ Write-Host '
 [1;37;47m  [0;1;30;47m1[0;1;37;47m              [0;1;30;47m   ▀  [0;32;47m    [0;1;30;47m▐▌[0;32;47m             [0;1;30;47m▀[0;32;47m  [0;1;30;47m▀▀▄█▄[0;32;47m     [0;1;30;47m▀[0;32;47m     [0;1;30;47m▀ [0;1;37;47m              [0;1;30;47m1[0;1;37;47m  [0m
 [1;37;47m  [0;1;30;47m9[0;1;37;47m              [0;1;30;47m  ▐▌   [0;32;47m   [0;1;30;47m▀[0;32;47m   [0;1;30;47m▄▄▀[0;32;47m       [0;1;30;47m▀▀▄▄▄▄[0;32;47m  [0;1;30;47m   [0;32;47m  [0;1;30;47m▐▌[0;32;47m    [0;1;30;47m▀[0;32;47m  [0;1;37;47m              [0;1;30;47m9[0;1;37;47m  [0m
 [1;37;47m  [0;1;30;47m9[0;1;37;47m              [0;1;30;47m  ▄   [0;32;47m  [0;1;30;47m▄▄▀▀▀▀[0;32;47m                [0;1;30;47m▀▀▄     ▄   ■  [0;32;47m [0;1;37;47m              [0;1;30;47m9[0;1;37;47m  [0m
-[1;37;47m  [0;1;30;47m6[0;1;37;47m              [0;1;30;47m ▄[0;32;47m [0;1;30;47m [0;30;47m Pfezzyo of Stile Productions 1996![0;1;30;47m ▀     [0;1;37;47m       [0;30;47m [0;1;37;47m      [0;1;30;47m6[0;1;37;47m  [0m
+[1;37;47m  [0;1;30;47m [0;1;37;47m              [0;1;30;47m ▄[0;32;47m [0;1;30;47m [0;30;47m                                   [0;1;30;47m ▀     [0;1;37;47m       [0;30;47m [0;1;37;47m      [0;1;30;47m [0;1;37;47m  [0m
 [1;37;47m  [0;1;30;47m![0;1;37;47m              [0;1;30;47m▀   [0;30;47m                                        [0;1;30;47m  [0;1;37;47m              [0;1;30;47m![0;1;37;47m  [0m
 [1;37;47m                         [0m▓▓▓▓▓▒▒▒▒░░░░░▒▒▒▒▓▓▓▓[1;47m                                [0;1;37;47m [0m
 [1;37;47m              [0m▓▓▓▓▓▒▓▒▒▒▒░░░░░[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m░░░▒▒▓▓▓[1;47m                           [0;1;37;47m [0m

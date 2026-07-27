@@ -5,7 +5,7 @@
 # Source SHA-256: 9e56395c3f08e68b52b358db9802639f23ba6ae8928dcacd2b12a00764ba7db7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKY!FLD.ANS by skylord (fluid); released in fld9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fluid promotiOn
 # SAUCE Author: skylord
 # SAUCE Group: fluid
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-            [32m▀▄[0m          [1;30m-. now we realy kick ass .-[0m
+            [32m▀▄[0m          [1;30m                           [0m
              [32m▄▀▀█[0;1;32;42m░░[0;1;32;40m▄▄▄[0m
              [32m▄[0;1;32;42m▓[0;1;30;40m░ [0;32m▀▀[0;1;32;42m░[0;1;32;40m▓█[0;32m▄[0m                           [32m▄[0;1;32;42m▒█[0;1;32;40m▀ ▀▀▄▄ [0;32m▀[0m
             [32m█[0;1;32;42m░▒[0m        [32m▀[0m          [32m▄▄[0m     [1;30m▓▓ [0;32m▄[0;1;32;42m░░[0m [32m█[0;1;32;42m░░[0m  [1;32;40m▄   [0;32m▀[0;1;32m█▄[0m

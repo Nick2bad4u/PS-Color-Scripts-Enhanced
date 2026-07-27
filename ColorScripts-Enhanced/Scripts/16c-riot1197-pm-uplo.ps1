@@ -5,7 +5,7 @@
 # Source SHA-256: 74b32829c9c1f6ebdb34859385b08c7d39e1999afd2d5ecac533c0e6827b863c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pm-uplo.ans by Precious Metal (riot1197); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
@@ -22,8 +22,4 @@ Write-Host '
 [36m▐█[0;1;36;46m▀▄[0;36m▄[0;1;36m▄[0;36m▀▀█[0;1;36;46m█[0;36m█[0;1;36m▌[0;36m▐▐█[0;1;36;46m██[0;36m█ [0;1;31;41m░[0;31m█[0;1;31m ▄[0m [36m▐█[0;1;36;46m▌[0;36m▌▀[0;1;31m▀[0;36m █[0;1;36;46m▌[0;36m█▌▐██▌▀ ▐██[0;1;36;46m▄[0;36m█[0;1;31m▐[0;36m▐[0;1;36;46m█▀[0;36m█▀ █[0;1;36;46m██[0;36m█[0;1;36;46m▌[0;1;31;40m▐[0;36m▐[0;1;36;46m▌[0;36m▌▀▀ ▐█[0;1;36;46m▀[0;36m█▌[0;31m ▌[0m
 [36m▐█[0;1;36;46m█▀▀[0;36m██▄[0;1;36;46m [0;36m█[0;1;36;46m█[0;36m██▐███▀ [0;31m▀▄[0;1;31m▄[0;31m▄[0;37m [0;36m▐█[0;1;36;46m▀▄▄▄[0;36m█▄█▀ ▐███[0;1;36;46m▄▄█[0;36m▄[0;1;36;46m█[0;36m█▀[0;1;31;41m▓[0;36m▐███[0;1;31;41m░[0;31m▄[0;36m████▀[0;1;31;41m▓[0;36m▐█[0;1;36;46m▀▀▄▄[0;36m█▄██▀[0;1;31;41m▓[0;31m▄[0m
 [31m▀▄[0;36m▀▀▀▀▀▀▀▀▀▀  ▀▀[0;37m  [0;31m▀▀[0m   [31m▀ [0;36m▀▀▀▀▀▀▀[0m    [36m▀▀▀▀▀▀▀▀[0m    [36m▀▀[0m   [36m▀▀▀[0;37m [0;1;31m▀▀[0m [36m▀▀▀▀▀▀▀▀[0;37m [0;1;31m▀▀[0;31m▀▄[0m
-[37m  [0;1;31;41m░[0;31m▀▀[0;1;31m▀▀▀[0;1;31;41m▓[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31m▀▀▀[0;1;31;41m▓[0;31m▀[0;37m  [0;31m▀[0;37m [0;31m▀[0;37m [0;31m▀[0;37m [0;31m▀▀▀▀▀▀▀▀[0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31;41m▓▓[0;31m▀▀▀▀▀▀▀▀▀▀[0m
-
-      [1;37mStats here.  U should be running Iniquity tho... :)[0m
-[1m    [0m         [1mGreetz to the callerz at Metal Edge[0m
-                    [1mAnother freebee for ya![0m'
+[37m  [0;1;31;41m░[0;31m▀▀[0;1;31m▀▀▀[0;1;31;41m▓[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31m▀▀▀[0;1;31;41m▓[0;31m▀[0;37m  [0;31m▀[0;37m [0;31m▀[0;37m [0;31m▀[0;37m [0;31m▀▀▀▀▀▀▀▀[0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31;41m▓▓[0;31m▀▀▀▀▀▀▀▀▀▀[0m'

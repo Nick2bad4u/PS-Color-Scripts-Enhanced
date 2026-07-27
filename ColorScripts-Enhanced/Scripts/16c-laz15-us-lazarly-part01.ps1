@@ -5,7 +5,7 @@
 # Source SHA-256: b07e5cfdc01c8ca28c63b9e97aedbba1c2a06d86c8f175ab437bc18818d77f4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-lazarly.ans by The Knight + Sudden Death (Lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lazarly
 # SAUCE Author: The knight & SD
 # SAUCE Group: Lazarus
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30;40m [0m                      [1;30m an old 2017 outline sd once started i decided to finish[0m
+[1;30;40m [0m                      [1;30m                                                        [0m
 
 
 

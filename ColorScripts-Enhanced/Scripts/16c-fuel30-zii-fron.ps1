@@ -5,7 +5,7 @@
 # Source SHA-256: 7a74886205b2f34915b5a21786707b784ff9f70d243911e9981be50025fb0f21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zII-FRON.ans by Zeus II (FUEL); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The New Frontier
 # SAUCE Author: Zeus II
 # SAUCE Group: FUEL
@@ -41,19 +41,4 @@ Write-Host '
 [31m   [0;1;33;41m▀ [0m     [31m▀▀▀  [0;35m▄▄▀[0;1;35m▀[0;35m▀[0;31m  ▄▄▄▄▄▄[0m      [31m▄   ▄▄▀  [0;35m ▄▄██▀ [0;31m  [0;35m [0;31m    [0;35m ▀ [0;31m [0;35m▀▀█▄▄ ▄[0;1;30m░[0;31m [0;35m▐▌[0;31m ▐▌ ▀ ▐▌[0m
 [31m [0;35m▄[0;31m  ▀▀▄▄    [0;35m▀[0;31m    ▄  ▀▀[0m      [31m▀▀▄ [0;35m▀[0;31m  ▀▀▀  [0;35m ▄[0;1;35;45m▄▄▀[0;35m▀    ▄▄ ▀▀[0;31m   [0;35m▄▀[0;31m [0;35m▄▄[0;31m [0;35m▀[0;1;35;45m▀▄[0;35m▄▀▄[0;1;35;45m■▄[0;31m  ▀ ▄▄▀[0m
 [31m [0;35m▐[0;1;35;45m▄[0;35m▄[0;31m   [0;1;30m░[0;31m ▀▀▀▀▀[0m     [1;30m░░[0;35m▄▄▀[0;31m ▀    ▐▌ [0;35m▀▀▄[0;1;35m▄[0;35m▄[0;1;35m▄[0;1;35;45m▄▄▀[0;1;35;40m▀[0;35m▀[0;31m  [0;35m   ▀   [0;37m [0;35m▐▌[0;31m [0;35m▐▌[0;31m [0;35m▐[0;1;35;45m██[0;35m█[0;31m [0;35m▐[0;1;35;45m▓▌[0;35m▌[0;31m  [0;35m▀▀▄▄[0m
-[31m  [0;35m▄[0;1;35m▀[0;35m▀[0;1;35m▄[0;35m▄[0;31m [0;35m▄▄[0;31m   [0;35m▄[0;31m [0;35m▄[0;1;35m▄▄[0;1;35;45m▄▀[0;1;35;40m▀[0;35m▀  [0;31m  ▀▄▄▄▀[0m     [35m▀▀▀████▄▄▄▄▀  [0;1;30m░░░[0m  [35m▀▄ ▀[0;31m  [0;35m▀▀▄▄▀[0;31m [0;35m▀[0;31m   [0;1;30m░[0m     [35m▀▀[0m
-
-
-
-                          [30m    [0;1;35mThe New Frontier [0;1;33m][ [0;1;35mBBS[0m
-
-                    [35m [0m          [1;33mWeb ][ [0;35mfrontierbbs[0;1;35m.[0;35mnet[0m
-
-                    [35m [0m     [35m   [0;1;33mTelnet ][ [0;35mfrontierbbs[0;1;35m.[0;35mnet[0m
-
-                   [35m  [0m     [35m   [0;1;33mSSH ][ [0;35mfrontierbbs[0;1;35m.[0;35mnet[0;1;35m:[0;35m222[0m
-
-                  [35m   [0m     [35m [0;1;33mRLogin ][ [0;35mfrontierbbs[0;1;35m.[0;35mnet[0;1;35m:[0;35m513[0m
-
-
-                               [1;35m   [0;1;37mANSI[0;35m by[0;1;35m [0;1;33mZeus II[0m'
+[31m  [0;35m▄[0;1;35m▀[0;35m▀[0;1;35m▄[0;35m▄[0;31m [0;35m▄▄[0;31m   [0;35m▄[0;31m [0;35m▄[0;1;35m▄▄[0;1;35;45m▄▀[0;1;35;40m▀[0;35m▀  [0;31m  ▀▄▄▄▀[0m     [35m▀▀▀████▄▄▄▄▀  [0;1;30m░░░[0m  [35m▀▄ ▀[0;31m  [0;35m▀▀▄▄▀[0;31m [0;35m▀[0;31m   [0;1;30m░[0m     [35m▀▀[0m'

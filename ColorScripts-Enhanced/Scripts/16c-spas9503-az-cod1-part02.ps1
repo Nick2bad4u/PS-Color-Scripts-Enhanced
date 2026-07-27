@@ -5,7 +5,7 @@
 # Source SHA-256: e44a8697a230743ad21657fca4b707b05646b3fc3785e98ebfb9eed7e93baf4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AZ-COD1.ANS by Azrael (Spastic Studios); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chamber Of Dreams
 # SAUCE Author: Azrael
 # SAUCE Group: Spastic Studios
@@ -42,11 +42,11 @@ Write-Host '
                 [1;30;40m▒   ░[0m                 [1;30;40m▓[0m      [1;30;40m▓[0m      [1;30;40m░[0m        [1;30;40m░[0m
                 [1;30;40m▓   ▒[0m               [1;30;40m░[0m               [1;30;40m▒[0m      [1;30;40m░ ▒[0m
                     [1;30;40m▓  ░[0m       [1;37;40mChamb[0;1;30;40m▒[0;1;37;40mr of Dreams [0;1;30;40m░  ▓[0m      [1;30;40m▒ ▓[0m
-                 [1;30;40m░[0m     [1;30;40m▒  [0;1;37;40mSy[0;1;30;40m░[0;1;37;40mGodess:[0;1;30;40m▓[0;1;37;40mEssence [aka[0;1;30;40m▒[0;1;37;40mSpeck][0;1;30;40m░  ▓[0m
+                 [1;30;40m░[0m     [1;30;40m▒  [0;1;37;40m  [0;1;30;40m░[0;1;37;40m       [0;1;30;40m▓[0;1;37;40m            [0;1;30;40m▒[0;1;37;40m      [0;1;30;40m░  ▓[0m
                  [1;30;40m▒[0m     [1;30;40m▓    ▒    [0;1;37;40m615.443.7336[0;1;30;40m░   ▓[0m      [1;30;40m▒[0m
                  [1;30;40m▓[0m          [1;30;40m▓[0m       [1;30;40m▒[0m        [1;30;40m▒[0m          [1;30;40m▓[0m
                                     [1;30;40m▓[0m        [1;30;40m▓[0m
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
-[30;47mANSyEE by: Azrael^Spastic^ ''95  Gr33ts: Eerie,Twiz,iV,Pr,ld!,sTc,t2,a3,kam,cash [0m
+[30;47m                                                                                [0m
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

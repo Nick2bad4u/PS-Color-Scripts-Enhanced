@@ -5,7 +5,7 @@
 # Source SHA-256: fe19943b2111aee277944293f9672b9831239982af150ea42f773b1836b07f19
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-D23.ANS by Smoke (moi-1296); released in moi-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -20,12 +20,11 @@ Write-Host '
  [1;30m░[0m [1;34;44m░[0;34m██[0;1;34;44m░[0m [1;34;44m░[0;34m███[0;37m [0;1;34;44m░[0;34m███[0;37m [0;1;34;44m░▀▀▓[0m [34m███[0;1;34;44m░[0m [1;34;44m░[0;34m███[0;37m [0;1;34;44m░[0;34m██[0;1;34;44m░[0m [1;34;44m░▀▀▓[0m [1;34;44m█▀▀▓[0m [1;34;44m░[0;34m██[0;1;34;44m▒[0m [1;34;44m [0;34m██[0;1;34;44m░[0m [1;34;44m░[0;34m███[0;37m [0;1;34;44m░[0;34m██[0;1;34;44m▒[0m [1;34;44m░[0;34m███[0;37m [0;34m▀▀▀▀[0;37m [0;1;30m▒[0m
  [1;30m▓[0m [34m▀▀▀▀[0;1;30m ▄▄▄▄[0m [34m▀▀▀▀▀[0;37m [0;1;30m▄▄▄▄▄▄▄▄[0m [34m▀▀▀▀[0;37m [0;34m▀▀▀▀▀[0;37m [0;1;30m▄▄▄[0m [34m▀▀▀▀▀[0;37m [0;1;30m▄▄▄[0m [34m▀▀▀▀[0;37m [0;1;30m▄▄▄[0m [34m▀▀▀▀▀[0;37m [0;1;30m▄▄▄▄▄▀▀▀▀▓[0m
   [1;30m░▀▀▀▀▀[0m   [1;30m ▀▀▀▀▀▀▀[0m        [1;30m▀▀▀▀▀▀▀▀▀▀▀▀[0m   [1;30m▀▀▀▀▀▀▀[0m   [1;30m▀▀▀▀▀▀[0m   [1;30m▀▀▀▀▀▀▀[0m      [1;34;44msm...[0m
-        [34m> [0;1;34md[0;34mivision [0;1;34m2[0;34m3 [0;1;34ma[0;34md [0;1;34ml[0;34misting[0m
-                                                       [1;34;44ma[0;34mdd [0;1;34mt[0;34mo [0;1;34ml[0;34misting[0m
-                                                       [1;34;44mr[0;34mead [0;1;34mt[0;34mhe [0;1;34ml[0;34mist[0m
-                                                       [1;34;44mq[0;34muit [0;1;34mb[0;34mack [0;1;34mb[0;34mbs[0m
+        [34m  [0;1;34m [0;34m        [0;1;34m [0;34m  [0;1;34m [0;34m  [0;1;34m [0;34m      [0m
+                                                       [1;34;44m [0;34m   [0;1;34m [0;34m  [0;1;34m [0;34m      [0m
+                                                       [1;34;44m [0;34m    [0;1;34m [0;34m   [0;1;34m [0;34m   [0m
+                                                       [1;34;44m [0;34m    [0;1;34m [0;34m    [0;1;34m [0;34m  [0m
 
 [1;30m┌----   --------------------------------------------[0m  [1;30m----[0m [1;30m--------------------+[0m
 [1;30m|[0m                                                                [1;30m<[0m [1;30m>[0m
-[1;30m└------------------[0m [1;30m-[0m [1;30m-----[0m  [1;30m-------------------------------¬[0m
-[1;30mcopyright 1996[0m [1;30mdemension seven software.[0m'
+[1;30m└------------------[0m [1;30m-[0m [1;30m-----[0m  [1;30m-------------------------------¬[0m'

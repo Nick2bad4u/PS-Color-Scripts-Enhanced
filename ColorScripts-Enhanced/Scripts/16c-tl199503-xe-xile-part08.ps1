@@ -5,7 +5,7 @@
 # Source SHA-256: 45d72c19337ca1aea5ed884446dbb266a8cc974d11e074b7b791156998c3cb02
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XE-XILE.ANS by Xeryrus (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Savage Exile!
 # SAUCE Author: Xeryrus
 # SAUCE Group: TekLordZ
@@ -54,14 +54,11 @@ Write-Host '
                      [1;30m█▀▄█▀[0m                                   [1;30m▄[0m
                                                           [1;30m█[0m [1;30m▀[0m
 
-                       [1;35mS[0;35mYSoP: [0;1;35mC[0;35mRiTiCAL [0;1;35mi[0;35mLLUSioN[0m
-                         [35m [0;1;35mC[0;35mo:[0m [1;35mP[0;35mREYiNG [0;1;35mM[0;35mENACE ([0;1;37mD[0;1;35ma[0;35mR[0;1;30mK[0;35m/[0;1;30mT[0;32mT[0;1;32mF[0;1;33mi[0;35m)[0m
-                              [1;35mA[0;35mCiDiC [0;1;35mS[0;35moAP (D[0;1;35ma[0;35mR[0;1;30mK[0;35m)[0m
-              [35m [0m               [1;35mM[0;35maXX ([0;1;36mT[0;36mU[0;34mRB[0;1;37mi[0;36mN[0;34mE[0;35m)[0m
-                              [1;35mS[0;35mCRUPULoUS[0m [35m([0;1;37mD[0;35maR[0;1;30mK[0;35m/[0;1;30mT[0;32mT[0;1;32mF[0;1;33mi[0;35m)[0m
+                       [1;35m [0;35m      [0;1;35m [0;35m        [0;1;35m [0;35m       [0m
+                         [35m [0;1;35m [0;35m  [0m [1;35m [0;35m       [0;1;35m [0;35m       [0;1;37m [0;1;35m [0;35m [0;1;30m [0;35m [0;1;30m [0;32m [0;1;32m [0;1;33m [0;35m [0m
+                              [1;35m [0;35m      [0;1;35m [0;35m      [0;1;35m [0;35m [0;1;30m [0;35m [0m
+              [35m [0m               [1;35m [0;35m     [0;1;36m [0;36m [0;34m  [0;1;37m [0;36m [0;34m [0;35m [0m
+                              [1;35m [0;35m         [0m [35m [0;1;37m [0;35m  [0;1;30m [0;35m [0;1;30m [0;32m [0;1;32m [0;1;33m [0;35m [0m
 
 
-             [1;35mS[0;35m A V A G E[0m  [1;35m9[0;35mo5.89i.2544[0m   [1;35m9[0;35mo5.89i.2544[0m   [1;35mS[0;35m A V A G E[0m
-             [1;35mE[0;35m X i L E ![0m  [1;35mP[0;35mENTiUM[0m [35m9o / [0;1;35m1[0;35m.o GiG oNLiNE [0m  [1;35mE[0;35m X i L E ![0m
-                      [1;35mo[0;35m-3 DaY WaREZ - [0;1;35mA[0;35mLL Art PAcKS WELCoME [0m
-                         [1;35mB[0;35mLADE SiTE.[0;1;35mD[0;35mARK MEMBER.[0;1;35mV[0;35moiD SiTE[0m'
+             [1;35mS[0;35m A V A G E[0m  [1;35m9[0;35mo5.89i.2544[0m   [1;35m9[0;35mo5.89i.2544[0m   [1;35mS[0;35m A V A G E[0m'

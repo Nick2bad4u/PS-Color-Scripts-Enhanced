@@ -5,7 +5,7 @@
 # Source SHA-256: 096c5a26f557b8faee0a1c408d9d3131f6a27f0d5e52149bea2523f5c50ec75f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PICROTOXIN-DOGGO.ANS by al3yna (mist0819); released in mist0819 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: double dog dare
 # SAUCE Author: al3yna
 # SAUCE Date: 20190802
@@ -49,5 +49,4 @@ Write-Host '
 [37;40m [0;30;42m▄▀▄[0;32;40m█████[0;30;42m▀[0;32;40m█[0;30;42m▀[0;32;40m████████████[0;30;42m▄▀▄▀[0;32;40m█[0;30;42m▀[0;32;40m█[0;30;42m▄[0;32;40m█[0;30;42m▀[0;32;40m████████[0;30;42m▄▀▄▀▄▀[0;32;40m███[0;30;42m▀[0;1;33;40m▀[0;30m█[0;1;33m▀▀[0;30;42m▀▄▀▄▀[0;30;40m█[0m
 [37;40m [0;30;42m▄▀▄▀▄[0;32;40m██████████████████[0;30;42m▄▀▄▀[0;32;40m█[0;30;42m▄▀▄▀[0;32;40m███████████[0;30;42m▄▀▄▀[0;32;40m██████[0;30;42m▀▄▀▄▀▄▀[0;30;40m█[0m
 [37;40m [0;30;42m▄▀▄▀▄▀▄[0;32;40m████████[0;30;42m▄▀▄▀[0;32;40m█████████[0;30;42m▄▀▄▀[0;32;40m█[0;30;42m▄▀▄▀[0;32;40m████[0;30;42m▄[0;32;40m██████████[0;30;42m▀[0;32;40m██[0;30;42m▀[0;32;40m█[0;30;42m▀▄▀[0;30;40m█[0m
-[37;40m [0;32;40m▀[0;30;40m█[0;30;42m▄[0;30;40m█[0;30;42m▄[0;30;40m█[0;30;42m▄▄▄▄▄▄▄▄▄▄▀▄▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▄▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;40m█[0;30;42m▄[0;30;40m██[0m
-[30;40m  [0;1;31;40mI DOUBLE DOG DARE YOU....[0;30m                          [0;1;31m  al3yna[0;30m [0m'
+[37;40m [0;32;40m▀[0;30;40m█[0;30;42m▄[0;30;40m█[0;30;42m▄[0;30;40m█[0;30;42m▄▄▄▄▄▄▄▄▄▄▀▄▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▄▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;40m█[0;30;42m▄[0;30;40m██[0m'

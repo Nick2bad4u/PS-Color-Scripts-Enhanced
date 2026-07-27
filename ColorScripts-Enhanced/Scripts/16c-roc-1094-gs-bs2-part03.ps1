@@ -5,7 +5,7 @@
 # Source SHA-256: 32add932f96e220bd495906e152bd1180e5d6a0e56b8f9ba6fa00627ef239d74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GS-BS2.ANS by Godsung (ROC); released in roc-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bloodstorm II
 # SAUCE Author: Godsung
 # SAUCE Group: ROC
@@ -54,10 +54,10 @@ Write-Host '
 
 [31m[[0m     [1;31m3[0m     [1;31m0[0m     [1;31m1[0m     [31m-[0m     [1;31m2[0m     [1;31m9[0m     [1;31m2[0m     [31m-[0m      [1;31m4[0m     [1;31m1[0m     [1;31m2[0m     [1;31m4[0m
 [1;30m▄▄▄▄▄[0m▄▄▄▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄[1;30m▄▄▄▄▄[0m
-[1;30m█ Ω B[0ml[1moodstorm[0m/[1;30m2 Ω O[0mb[1mv/2 2.[0m2[1;30m5 Ω N[0mo [1mN[0mU[1;30mP Ω S[0my[1msop Silver R[0ma[1;30mt Ω R[0me[1mmote Galah[0ma[1;30md Ω █[0m
-[1;30m ▀▀▀▀[0m▄ [1;30mΩ A[0mN[1mSI/Mags/Demos/PHACCV/NO WAR[0mE[1;30mZ Ω A[0mr[1mtists/Scene Dudes Welco[0mm[1;30me Ω █▀▀▀[0m
+[1;30m█    [0m [1m        [0m [1;30m     [0m [1m      [0m [1;30m     [0m  [1m [0m [1;30m     [0m [1m            [0m [1;30m     [0m [1m          [0m [1;30m    █[0m
+[1;30m ▀▀▀▀[0m▄ [1;30m   [0m [1m                           [0m [1;30m     [0m [1m                       [0m [1;30m    █▀▀▀[0m
       ▀▀▀▀[1m▀▀▀▀▀▀█ [0;1;30mΩ V[0mO[1mR Member Boa[0mr[1;30md Ω R[0mO[1mC Ditribution Si[0mt[1;30me Ω  [0;1;37m█▀▀▀▀[0m▀▀▀▀▀
-                [1m█ [0;1;30mΩ D[0mS[1mi Member Boa[0mr[1;30md Ω U[0mF[1mO Disrtibution Si[0mt[1;30me Ω [0;1;37m█[0m
+                [1m█ [0;1;30m   [0m [1m            [0m [1;30m     [0m [1m                 [0m [1;30m    [0;1;37m█[0m
                  [1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
 [34m▀▀▀▀▀[0;1;34m▀▀▀▀▀[0;1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▀▀▀▀▀[0;34m▀▀▀▀▀[0m

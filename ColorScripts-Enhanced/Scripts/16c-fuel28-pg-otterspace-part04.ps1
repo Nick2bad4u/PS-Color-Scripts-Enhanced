@@ -5,7 +5,7 @@
 # Source SHA-256: 0832060a6c7f9e45955f5cae0b464c951af224d91f61f3f8967c584fe99d9260
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pg-otterspace.ans by Pinguino (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: An Ansi from Otter Space
 # SAUCE Author: Pinguino
 # SAUCE Group: Fuel
@@ -52,5 +52,4 @@ Write-Host '
 [38;2;0;0;171;48;2;0;0;0m▓███████▓▒████████▀[0m            [1;38;2;87;87;87;48;2;0;0;0m░░[0;38;2;171;171;171;48;2;0;0;0m  [0;1;38;2;87;87;87;48;2;0;0;0m░[0;1;38;2;255;255;87;48;2;0;0;0m████[0;1;38;2;255;255;87;48;2;171;0;0m█[0;1;38;2;255;255;255;48;2;171;171;171m███[0;1;38;2;255;255;87;48;2;0;0;0m███████████[0;1;38;2;255;255;255;48;2;171;171;171m████[0;1;38;2;255;255;87;48;2;0;0;0m█████████████████████[0m
 [38;2;0;0;171;48;2;0;0;0m▓██████▓▒░▒██▓░[0m           [1;38;2;87;87;87;48;2;0;0;0m░░░░░░░[0;38;2;171;171;171;48;2;0;0;0m  [0;1;38;2;87;87;87;48;2;0;0;0m░[0;1;38;2;255;255;87;48;2;0;0;0m███[0;1;38;2;255;255;255;48;2;171;171;171m█████[0;1;38;2;255;255;87;48;2;0;0;0m███████████[0;1;38;2;255;255;255;48;2;171;171;171m████[0;1;38;2;255;255;87;48;2;0;0;0m█████████████████████[0m
 [38;2;0;0;171;48;2;0;0;0m▒▓█▓▒░░▒▒░[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄▀▒░[0m      [1;38;2;87;87;87;48;2;0;0;0m░░░░░░░░░░░[0m
-[38;2;0;0;171;48;2;0;0;0m░▒▓▓▒░▀[0m                                               [38;2;0;171;171;48;2;0;0;0mAn[0;1;38;2;255;255;255;48;2;0;0;0m [0;1;38;2;87;255;255;48;2;0;0;0mAnsi[0;1;38;2;255;255;255;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0mfrom [0;1;38;2;87;255;255;48;2;0;0;0mOtter Space[0m
-                                                        [1;38;2;255;255;255;48;2;0;0;0m   [0m        [1;38;2;255;255;255;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0m- pinguino[0m'
+[38;2;0;0;171;48;2;0;0;0m░▒▓▓▒░▀[0m                                               [38;2;0;171;171;48;2;0;0;0mAn[0;1;38;2;255;255;255;48;2;0;0;0m [0;1;38;2;87;255;255;48;2;0;0;0mAnsi[0;1;38;2;255;255;255;48;2;0;0;0m [0;38;2;0;171;171;48;2;0;0;0mfrom [0;1;38;2;87;255;255;48;2;0;0;0mOtter Space[0m'

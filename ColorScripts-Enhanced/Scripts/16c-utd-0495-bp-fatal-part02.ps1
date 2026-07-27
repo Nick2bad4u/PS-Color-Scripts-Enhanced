@@ -5,7 +5,7 @@
 # Source SHA-256: c90eea1dbaa9d55759d1aa398437640c0b616af46b75f81f32af2f4f7616bd34
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BP-FATAL.ANS by Bigge Pif (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fatal Error
 # SAUCE Author: Bigge Pif
 # SAUCE Group: United
@@ -56,7 +56,4 @@ Write-Host '
 
                                     [1;36md [0;36mv s [0;1;36mw [0;36mh q[0m
 
-                             [1;36m1 [0;36m8 o o . [0;1;36md [0;36mr e . a m [0;1;36mo [0;36mn[0m
-
-
-                  [1;34ma[0;34mrt [0;1;34mb[0;34my [0;1;34mb[0;34migge [0;1;34mp[0;34mif [0;1;34mf[0;34mor [0;1;34md[0;34mvs[0;37m... [0;1;34mb[0;34mla[0;37m... [0;1;34mb[0;34mla[0;37m... [0;1;34mb[0;34mla[0;37m![0m'
+                             [1;36m1 [0;36m8 o o . [0;1;36md [0;36mr e . a m [0;1;36mo [0;36mn[0m'

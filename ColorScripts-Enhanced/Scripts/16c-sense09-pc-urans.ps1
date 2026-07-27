@@ -5,7 +5,7 @@
 # Source SHA-256: b4f9f1f9506a5272c50cf475c9f994220cc7718c943bc34e2b3ec729887f2b36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-URANS.ANS by Proctologist (Treason); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: anal probe me
 # SAUCE Author: Proctologist
 # SAUCE Group: Treason
@@ -17,7 +17,7 @@
 Write-Host '
 $ⁿ"^`           `"?$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 l ,+²"^^"²+, ,g#S$$$$$$$$$$$$$$$$$$$$$$S*╜ⁿⁿⁿⁿⁿⁿⁿ╜*S$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-'' l [1;31mU[0;31mRANU[0;1;31mS[0m ld$$$$S*╜ⁿⁿⁿⁿⁿⁿⁿ╜*S$$$$$P"`_[1m.,╖[0mg[1mgg[0ms[1mgg[0mg[1m╓[0m,[1m._[0m`"?$$$$$$$S*╜ⁿⁿⁿⁿⁿⁿⁿ╜*S$$$$
+    [1;31m [0;31m    [0;1;31m [0m         ╜       ╜           [1m  ╖[0m [1m  [0m [1m  [0m [1m╓[0m [1m  [0m            ╜       ╜      
   ?g╖,..,╓g$$P"`[1m_[0m.[1m,[0m╖[1mggg[0ms[1mg[0mg[1mg╓[0m,[1m._[0m`"?'' d[1m$[0m$[1m$[0m$$$$[1m$[0m $[1m$[0m$$$$[1m$[0m$[1mb[0m `$$P"`_[1m.,╖[0mg[1mg[0mg[1msgg[0mg[1m╓[0m,.[1m_[0m`"?
 ,g$$S*╜ⁿⁿⁿⁿⁿ'' [1md[0m$$$[1m$[0m$[1m$[0m$$ $$[1m$[0m$$[1m$[0m$[1m$[0mb  i[1;32m$[0m$[1;32m$[0m$$[1;32m$$$[0m$ [1;32m$[0m$[1;32m$$[0m$[1;32m$[0m$[1;32m$[0m$[1;32mi[0m ⁿⁿ [1md[0m$$[1m$[0m$[1m$[0m$$$ [1mⁿ[0mⁿⁿ[1mⁿ[0mⁿⁿ[1mⁿ[0m╜*
 P"`[1m_[0m.[1m,╖[0mg[1mgg[0m [1mg[0m [1;32mi[0m$[1;32m$$$[0m$[1;32m$[0m$$[1;32m$[0m [1;32m?$[0m$[1;32m$$[0m$[1;32m$[0m$[1;32m$i[0m [1;32m?[0;32m$[0;1;32m$[0;32m$[0;1;32m$[0m$[32m$$[0;1;32m$$[0m [32m$[0;1;32m$[0;32mP[0;1;32mⁿ[0m`[1m_[0m.[1m,[0m╖[1mgg[0mg [1mg[0m`[1;32m"ⁿ[0mⁿ[1;32mⁿ[0mⁿⁿ[1;32mⁿ[0mⁿ[1;32mⁿ[0m$$[1;32m$[0m$[1;32m$[0m$S#[1;32mg,[0m
@@ -31,15 +31,15 @@ P"`[1m_[0m.[1m,╖[0mg[1mgg[0m [1mg[0m [1;32mi[0m$[1;32m$$$[0m$[1;3
 [37m$$$$$$S*╜ⁿ°"^```         `?$$$Pⁿ"`   `^"ⁿ╙$''    `"ⁿ$Pⁿ"^`            `ⁿP`^"°ⁿ╜?$[0m
 [37mP"^`[0m                       [37m$''[0m             [37m''[0m      [37m  l[0m   [37m  [0m              [37m`. [0;31mp[0;1;31mC[0m [1;34m.[0m l
 b,[1;34m`∙.[0m                      `∙                       `~                      [1;34mj[0;34m''[0;37m,$[0m
-[37m$$$, [0;1;34m`[0m    [[1;32mM[0m][32message menu[0m       [37m[[0;1;32mI[0m][32mnfo menu[0m           [37m[[0;1;32mS[0m][32metup menu[0m         [1;34m,[0;34md''[0;37m,$$[0m
-[37m$$$$ [0;34m.[0m    [37m[[0;1;32mF[0m][32miles menu[0m         [37m[[0;1;32mA[0m][32mnsi ad menu[0m        [37m[[0;1;32mP[0m][32mage sysop[0m        [1;34m`[0;34m"?,[0;37m`?$[0m
-[37m$$$: [0;1;34ml[0m    [[1;32mG[0m][32mames menu[0m         [37m[[0;1;32mB[0m][32mBS List[0;37m [0;32mmenu[0m       [37m[[0;1;32m![0m][32mLogoff[0m             [1;34m_[0;34m∙` [0;37ml[0m
+[37m     [0;1;34m [0m     [1;32m [0m [32m           [0m       [37m [0;1;32m [0m [32m        [0m           [37m [0;1;32m [0m [32m         [0m         [1;34m [0;34m  [0;37m   [0m
+[37m     [0;34m [0m    [37m [0;1;32m [0m [32m         [0m         [37m [0;1;32m [0m [32m           [0m        [37m [0;1;32m [0m [32m         [0m        [1;34m [0;34m   [0;37m   [0m
+[37m     [0;1;34m [0m     [1;32m [0m [32m         [0m         [37m [0;1;32m [0m [32m       [0;37m [0;32m    [0m       [37m [0;1;32m [0m [32m      [0m             [1;34m [0;34m   [0;37m [0m
 [37m$P'' [0;34mj''[0m    [37m [0m           [37m [0m                                        [37m, [0;34m [0m        [1;34m''[0m .,d$
 '' [34m∙''"+_[0;37m  ,~"$b, +g,._     , [0m                       [37m,[0m        [37m ,d, [0;34m [0m         [37m''  `$[0m
 [37m$$S#g,_    ,$$$L `?$$$P'',d$b,_[0m   [37m_.,╖g#S$$$Sg, +.,d$b,_[0m   [37m`^"?d$$#g╖,._[0;34m [0m       [37m$[0m
 [37m^^"ⁿ╜?$S##$$$$$$b,_`^`    `?$$$$$$$$$$$$$$$$$$b,._ `Pⁿ"^` _,╖$$$$$$$$$$$S#g╖,,d$[0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mThe mani menu for my board.  Wanna draw for me? :)[0m
+[1;30m                                                  [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

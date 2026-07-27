@@ -5,7 +5,7 @@
 # Source SHA-256: 574327c39474010abd347015b297c330d37fc6bf7c3224adff341b66ed8fb147
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM-RIB.ICE by Lord Mischief (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-85
 # Columns: 1-80
 
@@ -40,7 +40,7 @@ Write-Host '
                                   [31m▐[0m
                                   [31m■[0m
      [1;30m▄   ▄ ▄ ▄▄▄   [0;1;37mSysop: Uriel · 718-698-1969 · 718-761-6985   [0;1;30m▄▄▄ ▄▄▄ ▄ ▄  ▄[0m
-[1;30m   ▀   ▀ ▀▀ ▀▀▀  [0;1;37mRAZOR 1911 · HYPE Eastern HQ · FelonyNET/TCSNet [0;1;30m▀ ▀▀▀ ▀   ▀[0m
+[1;30m   ▀   ▀ ▀▀ ▀▀▀  [0;1;37m                                                [0;1;30m▀ ▀▀▀ ▀   ▀[0m
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
 [1;30m   L [0mO [1mR D   M I S C H I [0mE [1;30mF   [0;31m-   [0;1;30mi [0mC [1mE   A D V E R T I S E M E N [0mT [1;30mS [0;36m(c)1992[0m

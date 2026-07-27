@@ -5,7 +5,7 @@
 # Source SHA-256: 680906385c6d8add44f2c9b95e7bebd15266cb7873504062b6da267a696dcaf5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FDLST-1.ANS by fd and lst! (dox_9703); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: styles! its a war
 # SAUCE Author: fd and lst!
 # SAUCE Date: 19970216
@@ -15,14 +15,14 @@
 
 Write-Host '
 
-     [1;30mhey!,  lst here. this is something kinda different and cool[0m
-[1;30mi make urban ansi and flood wanted to fuck around with it. so i gave him[0m
-[1;30ma copy!?!?!.. take a good look and let me know what style what you like[0m
+     [1;30m                                                           [0m
+[1;30m                                                                        [0m
+[1;30m                                                                       [0m
 [1;30mbest..[0m
 
 [1;30m-------------------------------------------------------------------------------[0m
 
-   lst''s ansi saying: urban
+                           
 
 
         [1;32;42m░[0;1;30;42m  [0m    [32m ▀[0;1;30;42m [0;1;32;42m░[0m [1;30;42m  [0;1;32;42m░[0;32m▀▀▀▀▀[0;1;30;42m  [0;1;32;42m░[0m [1;30;42m   [0;32m▄▄▄▄▄▄▄▄[0;37m [0;32m███▀▀▀▀▀[0;1;32;42m░[0;32m██[0;37m [0;32m███▀▀▀▀▀[0;30;42m [0;32;40m█[0;1;32;42m░[0m
@@ -32,10 +32,10 @@ Write-Host '
        [1;32m▀▀▀▀[0m     [1;32m▀▀▀▀▀▀▀[0m [1;30m  [0m  [1;32m▀▀▀▀▀▀▀[0m     [1;32m▀▀▀▀▀▀▀[0m     [1;32m▀▀▀▀▀▀▀[0m     [1;32m▀▀▀▀[0m           [1;30m [0m
       [1;30m [0m [1;34;44m░[0;34m██▄▄▄▄▄[0;1;34;44m▒░[0;34m█[0;1;34m [0;1;34;44m▒░[0;34m█[0;1;34m [0;1;30m  [0;34m  ▀▀▀[0;1;34m [0;1;34;44m ░▒[0;34m▄▄▄▄▄███[0;1;34m [0;1;34;44m▒░[0;34m█▄▄▄▄▄[0;1;34;44m░[0;34m██ [0;1;34;44m▒░[0;34m█     █[0;1;34;44m░▒[0m
       [1;30m         [0m [34m▀▀▀[0;1;34m [0;1;30m       [0;34m    [0m         [34m   [0m         [34m   [0m         [34m▀▀▀[0m
-              [1;30m        [0m [1;30mlst-production in the 90''s sucks[0m
+              [1;30m        [0m [1;30m                                [0m
 [1;30m   [0m
 
-   Flood''s remake of that ansi.
+                               
 
 
         [32m▀[0;1;32;42m ░░[0;32m▌[0;37m  [0;32m▐[0;1;32;42m░[0;32m██▄ ██[0;1;32;42m░░[0;32m▀█[0;1;32;42m░░[0;32m█▄[0;37m [0;1;32;42m░░[0;32m██▄▄▄▄▄▄▄[0;37m [0;32m▄[0;1;32;42m░░[0;32m█▀▀▀▀▀[0;1;32;42m░░░[0m [1;32;42m░░░[0;32m▀▀█[0;1;32;42m░░[0;32m█▄[0;37m [0m

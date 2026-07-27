@@ -5,7 +5,7 @@
 # Source SHA-256: ab2b0eacc8c32ba492b3de8696f8d9d921ca7465decaf3f6f0c4a1455103ae84
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-MOOSE.ANS by Mendator (Stile Prod.); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Moose City!
 # SAUCE Author: Mendator
 # SAUCE Group: Stile Prod.
@@ -46,11 +46,4 @@ Write-Host '
                 [1;30;46m▒▒▒▒▒[0m   [1;30;46m▒▒▒▒▒[0;36m [0;1;30;46m▒▒▒▒▒▒[0;36m [0;1;30;46m▒▒▒▒▒[0m         [1;30;46m▒▒▒▒▒[0m   [1;30;46m▒▒▒▒▒[0m
                 [1;30m▐[0;1;30;46m▓▓▓▓[0m   [1;30;46m▓▓▓▓[0;1;30;40m▌[0;36m [0;1;30m▐[0;1;30;46m▓▓▓▓[0;1;30;40m▌[0;36m [0;1;30m▐[0;1;30;46m▓▓▓▓[0m         [1;30m▐[0;1;30;46m▓▓▓▓[0m   [1;30;46m▓▓▓▓[0;1;30;40m▌[0m
                  [1;30m▀████▄████▀[0m   [1;30m▀██▀[0m   [1;30m▀███ [0m         [1;30m▀████▄████▀[0m
-                    [1;30m▀▀▀▀▀[0m         [1;30m [0m      [1;30m▀ [0m            [1;30m▀▀▀▀▀[0m
-                         [1;30mUgly logo! Made it real quick![0m
-
-          [1;30m         φ [0;1;36mS[0;36mysop[0;1;30m: [0;1;31mC[0;31matonica[0;37m [0;1;30mφ[0;31m [0;1;36mC[0;36moSysop[0;1;30m: [0;1;31mM[0;31miss [0;1;31mA[0;31mstarot[0;37m [0;1;30mφ[0m
-
-                            [1;36mS[0;36mtile [0;1;31mW[0;31morld [0;1;31mH[0;31mead [0;1;31mQ[0;31muarter [0m
-
-            [1;30mAnsi by [0mMendator[1;30m of [0mStile[36m [0;1;30mProductions in the year of 1996[0m'
+                    [1;30m▀▀▀▀▀[0m         [1;30m [0m      [1;30m▀ [0m            [1;30m▀▀▀▀▀[0m'

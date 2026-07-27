@@ -5,7 +5,7 @@
 # Source SHA-256: 9eaeee54219adca8c6603712aa2764bc2b0c07b30cd9f6f6e62877567aa292ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DRM-CPH.ANS by Dr. Dream (xzARt); released in xrt-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: {Ph?! is my god...
 # SAUCE Author: Dr. Dream
 # SAUCE Group: xzARt
@@ -52,6 +52,4 @@ Write-Host '
                  [35m▐█████████ [0;32m▐[0;1;32;42m▀[0;32m▀[0m         [1;30m▄[0;1;30;47m▀░ [0;1;30;40m▌[0;36m▐[0;1;36;46m█▓▓██▀▀ [0;30;46m░[0;36;40m▌ [0;1;30;40m [0m
              [32m░░[0m   [35m▀████[0;30;45m░░░[0;35;40m█▌ [0;32;40m▓[0m       [1;30;40m ▄[0;1;30;47m▀░░ ▄[0;1;30;40m▀[0;36m [0;1;36;46m▐█▀ [0;30;46m░░[0;1;36;46m░ [0;36m▀ [0;1;30m░ ░░[0m
                      [35m▀▀▀████▄      [0;1;30m░[0;35m [0;1;30m▀[0;1;30;47m▄▄▄▄[0;1;30;40m▀[0;36m ▄▓[0;1;36;46m ▐ [0;36m▀▀▀[0m
-      [35mcph is my god...[0m        [37m           [0;1;30;47m▓[0m
-
-      [1;30mgreets to cyberpunch =] and to Sprocket /HRg for an idea.[0m'
+      [35m                [0m        [37m           [0;1;30;47m▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 52957d1ee602a2202c0c01b4c0c07fbb3acb28114172f84d8f61d522e9df0a55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KK-GODMX.ANS by Kamikaze (thst0895); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -35,6 +35,4 @@ Write-Host '
 [34m [0;1;30m▄▄▄▄  ▄▄▄▄▄  ▄▄▄  ▄▄ ▄▄▄▄ ▄   [0;34m▄■█▓▀░▀▓▀▄[0;1;30m░▒▓ ▓ [0;34m█▓ [0;37m▄█▓[0;1;37;47m■▀[0;1;37;40m▌[0m              [34m░   ░   ░[0m
 [34m [0;1;30m▐▓[0;30;47muSe ↑ and ↓ To MoVe BaR[0;1;30;40m▓█   [0;34m▓█▓▀░▒▓▀▒▓▓  [0;1;30m░▒ [0;34m▓ [0;37m▄▓█[0;1;37;47m▄[0;1;37;40m▌ [0;34m▄▓▀█▓▓  ░  ░ ░[0m
 [34m   [0;1;30m▀▀  ▀▀  ▀▀ ▀▀▀▀▀ ▀ ▀ ▀▀▀▀▀▀ [0;34m█░▀░▓▄▓▒▀░▄█ [0;1;30m▒░▄ [0m▄▓[1;47m▄■[0;1;40m▌[0;34m▄▓▒▀▓▄▓  ░[0m          [34m░[0m     [34m░[0m
-[1;30m-=-=-=-=-=-=-=-=-=-=-= Cuto hero majaro {= --==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-[0m
-[1;30m  Well Crypter, heers your elite shuttle menu! njoy! If ne1 would like an ansi[0m
-[1;30m  by me, e-mail me at: thrust@primenet.com. Or contact me over iRC as kk^thrust.[0m'
+[1;30m-=-=-=-=-=-=-=-=-=-=-= Cuto hero majaro {= --==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-[0m'

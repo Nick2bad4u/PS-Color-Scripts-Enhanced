@@ -5,7 +5,7 @@
 # Source SHA-256: fc5642fe9d41a029c5e34d1de0cd13cba1b21dd9e79791b62d6682614de64f21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-GURKA.ANS by raider (?t bajs.); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: leverragu
 # SAUCE Author: raider
 # SAUCE Group: ?t bajs.
@@ -29,12 +29,12 @@ Write-Host '
    [1;30m ■[0;1;32m [0;30;43m▀[0;1;30;40m▄[0;30;46m▓[0;32;40m▀▀[0;1;32;40m▀▀[0;1;32;42m▀▀[0;32m▀[0;1;32m  [0;30;43m▓▓[0;1;30;40m▄[0;1;32;40m [0;30;46m█[0;1;32;40m [0;32m▀[0;1;32m▀▀[0;1;32;42m▀▀▀[0;32m▌[0;1;32m [0;1;30m▄[0;32m▀▀▀[0;1;32m [0;1;30m▄▄░░[0;1;32m [0;1;30m ▀[0;30;46m▓▓[0;1;32;40m  [0;1;30;40m.[0;1;32;40m [0;1;30;40m░░▄▄[0;1;32;40m [0;32m▀▀[0;1;32m▀▀[0;1;32;42m░░[0;32m▌[0;1;32m [0;1;30m▓▓ ▄.[0;30;46m▓[0;32;40m▀[0;1;32;40m▀[0;1;36;40m▀[0;1;36;42m▀▀[0;1;32;42m▀[0;33;42m▄[0m
         [30;46m▓[0;1;32;40m [0;1;30;40m▀▀  [0;1;32;40m  [0;1;30;40m░[0m     [1;30;40m ▀▀∙[0;1;32;40m [0;1;30;40m░░[0m    [1;30;40m    ░░[0m             [1;30;40m░░[0;1;32;40m  [0;1;30;40m▀[0;30;43m▄[0;1;32;40m  [0;1;30;40m▀[0;32m▌[0m    [1;30m░[0m   [1;30m▀▀░░[0;1;32m  [0;1;30m▄[0m
     [1;30m▄▓▄[0m                                                                  [1;30m▄▄▌[0m
-     [1;30m▐[0m    [33mdin mamma heter: [0;32marne[0m       [33mstorlek på galoscher: [0;32m303[0m           [1;30m▐[0m
-     [1;30m▐░[0m   [33mditt personnr: [0;32m86.02.54[0m     [33msamlar du på frimärken: [0;32mpå helger [0;37m  ░ [0;1;30m░[0m
-     [1;30m▀[0m    [33mditt fd. tel.nr: [0;32m071-15[0m     [33mantal hästar i din lägenhet:[0;37m [0;32m80[0m     [1;30m▐.[0m
-   [1;30m░ ▐[0m    [33mdin favoritfärg: [0;32mbanan     [0;37m [0;33mhur ofta går du på opera: [0;32m3ggr/dag[0;37m  [0;1;30m░[0m
-     [1;30m.[0m    [33mdin favoritost: [0;32mmögel[0m       [33mantal rävsaxar i ditt rum: [0;32m9 [0m       [1;30m▄▄[0m
-     [1;30m▐[0m    [33mkan du prata ryska: [0;32mda  [0m    [33mja, jag är: [0;32mett senapsfrö[0m         [1;30m [0m [1;30m▐[0m
+     [1;30m▐[0m    [33m                 [0;32m    [0m       [33m                      [0;32m   [0m           [1;30m▐[0m
+     [1;30m▐░[0m   [33m               [0;32m        [0m     [33m                        [0;32m          [0;37m  ░ [0;1;30m░[0m
+     [1;30m▀[0m    [33m                 [0;32m      [0m     [33m                            [0;37m [0;32m  [0m     [1;30m▐ [0m
+   [1;30m░ ▐[0m    [33m                 [0;32m          [0;37m [0;33m                          [0;32m        [0;37m  [0;1;30m░[0m
+     [1;30m [0m    [33m                [0;32m     [0m       [33m                           [0;32m  [0m       [1;30m▄▄[0m
+     [1;30m▐[0m    [33m                    [0;32m    [0m    [33m            [0;32m             [0m         [1;30m [0m [1;30m▐[0m
      [1;30m▀[0m                                        [1;30m [0m                        [1;30m░░ ▐[0m
      [30;47m▓▓[0;37;40m [0;1;30;40m▄▄--[0m   [1;30m▄─--[0m   [1;30m-[0m         [1;30m..[0m     [1;30m-─▄▄[0m    [1;30m─▄▄▄[0m   [1;30m░░[0m   [1;30m.[0m     [1;30m--[0m  [1;30m▄▄▄[0m [30;46m▓▓[0;1;30;40m▄▄[0m
     [1;30m▀▀[0m                                                                    [1;30m▀[0m'

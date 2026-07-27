@@ -5,7 +5,7 @@
 # Source SHA-256: 5cfafacaa2b1275a1e30ab107f1d63258b13f66eab89cf6fc281774c43a906c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-DH1.ANS by Chromatik (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Disposable Heros
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -39,7 +39,7 @@ Write-Host '
                   [1;30m▒[0m       [1;30m▒[0m         [1;30m▒[0m       [1;30m░[0m    [1;30m▒[0m    [1;30m▒[0m        [1;30m░ ░[0m
      [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄░▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▒▀▀▀▀░▀▀▀▀░▄▄[0m     [1;30m▄░▄▄▄[0m   [1;30m▄▄▄▓[0m
      [1;30m▓[0m      [1;30m▓[0m    [1;30m░[0m        [1;30m▒[0m     [1;30m░[0m   [1;30m▒[0m  [1;30m░[0m    [1;30m▓[0m    [1;30m░[0m             [1;30m▒[0m         [1;30m▓[0m
-     [1;30m▒[0m      [1;30m▓[0m 14.4 - 28.8[1;30m ▓[0m 1 gig+ of files[1;30m ▒[0m 2 CD-Roms Online[1;30m ▓[0m         [1;30m▒[0m
+     [1;30m▒[0m      [1;30m▓[0m            [1;30m ▓[0m                [1;30m ▒[0m                 [1;30m ▓[0m         [1;30m▒[0m
      [1;30m░[0m      [1;30m▒[0m    [1;30m░[0m              [1;30m░[0m      [1;30m▒[0m    [1;30m░[0m    [1;30m░[0m         [1;30m░[0m             [1;30m░[0m
      [1;30m░[0m E d E N[1;30m.[0m M e m b e r[1;30m.[0m b o a r d[1;30m ▓[0m S a b r E[1;30m.[0m M e m b e r[1;30m.[0m S i t e[1;30m ░[0m
      [1;30m▒[0m      [1;30m░[0m    [1;30m░[0m        [1;30m░[0m     [1;30m▒[0m      [1;30m▒[0m         [1;30m░[0m         [1;30m░[0m             [1;30m▒[0m
@@ -51,8 +51,8 @@ Write-Host '
 [1;30m▒[0m    [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m    [1;30m▒[0m
 [1;30m▓[0m    [1;30mb[0m  [1;30ml▒ a[0m  [1;30md[0m  [1;30me[0m  [1;30m·[0m  [1;30mp[0m  [1;30mr[0m  [1;30mo[0m  [1;30md[0m  [1;30mu[0m  [1;30mc[0m  [1;30mt[0m  [1;30mi[0m  [1;30mo▒ n[0m  [1;30ms[0m  [1;30m·[0m  [1;30m1[0m  [1;30m9[0m  [1;30m9[0m  [1;30m4[0m         [1;30m▓[0m
 [1;30m▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▒▀▀░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▒[0m
-[1;30m░ Hey Andy.. I think I''m not even going to apply to ACiD.. blade rules! =)[0m    [1;30m▓[0m
+[1;30m░                                                                         [0m    [1;30m▓[0m
 [1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▓[0m   [1;30m▄▄▄▓[0m       [1;30m▓[0m      [1;30m▓[0m                            [1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m
-             [1;30m▒[0m     [1;30mACiD is still a little too good for me.[0m      [1;30m▒[0m
+             [1;30m▒[0m     [1;30m                                       [0m      [1;30m▒[0m
              [1;30m░[0m      [1;30m▒[0m       [1;30m▒[0m      [1;30m▒[0m                       [1;30m▓▄▄▄▄░[0m
                     [1;30m░[0m       [1;30m░[0m      [1;30m░[0m                       [1;30m▒[0m'

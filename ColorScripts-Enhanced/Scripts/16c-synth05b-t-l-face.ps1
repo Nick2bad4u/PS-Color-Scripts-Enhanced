@@ -5,7 +5,7 @@
 # Source SHA-256: b4723bd53414d5da55e3da361d98573474c83ecbe8b3185c5c13d5a33a985172
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T&L-FACE.ANS by Liquid Grey + Trippah (Synthetic.Production); released in synth05b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Joint ansi!
 # SAUCE Author: Trip/Liq.G
 # SAUCE Group: Synthetic.Production
@@ -58,5 +58,5 @@ Write-Host '
 [1;47m█▌[0m▌                                                                    ▐█[1m██████[0m
 [1m█[0m█                                                                      █[1m██████[0m
 -------------------------------------------------------------------------------
-[1;36m   outline/face shading -- liquid grey     background/font -- trippah(synth)[0;1;37m    [0m
+[1;36m                                                                            [0;1;37m    [0m
 -------------------------------------------------------------------------------[0m'

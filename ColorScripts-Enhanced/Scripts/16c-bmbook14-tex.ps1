@@ -5,7 +5,7 @@
 # Source SHA-256: dcad51d7e7f7944e652406f823ccf61c8f657c32144e7b1ba6dcfe1511e2cfb8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TEX!.ANS by -------------------- (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tex
 # SAUCE Author: --------------------
 # SAUCE Group: black maiden
@@ -16,9 +16,9 @@
 
 Write-Host '
 
-      [33;46m [0;36;44m▄░[0m                         [37;40mhandle [0;1;37;40mtex[0m
-     [36m▀[0;33;46m  [0;36;44m▓[0;36;40m▀▀▀[0m                      [37;40mprofession [0;1;37;40mvga artist, senior[0m
-      [33;46m▓░░[0m                         [37;40morigin [0;1;37;40mluxembourg[0m
+      [33;46m [0;36;44m▄░[0m                         [37;40m       [0;1;37;40m   [0m
+     [36m▀[0;33;46m  [0;36;44m▓[0;36;40m▀▀▀[0m                      [37;40m           [0;1;37;40m                  [0m
+      [33;46m▓░░[0m                         [37;40m       [0;1;37;40m          [0m
    [32m░[0;37m  [0;33m█[0;33;46m▓▓[0;33;40m░[0m     [33;40m██▄▄▄▄[0;37;40m [0;33;40m [0m
    [32;40m▓[0;37;40m  [0;33;40m▓██▌[0m      [33;40m█[0;1;33;43m▄▐▄[0;1;33;41m░░░[0;33m███▓▓▓░░[0;37m [0;1;30m  tex is one of the black maiden founders, but[0m
    [32m█[0;37m  [0;33m░███[0m      [1;33;43m▐███▓░[0;33m██[0m          [1;30mhe has almost no time for the scene anymore,[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 47b3aa33b69fc720aa9135f757cb6e9964cf4346dc788340efdd009c362280b1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 77-TOON1.ANS by agent#77 (toon1095); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: toOn promo
 # SAUCE Author: agent#77
 # SAUCE Date: 19950918
@@ -26,6 +26,4 @@ Write-Host '
                           [1;31m███████[0;1;31;41m▀██[0;1;31;40m█[0m      [1;35mproductiOns[0m   [1;31m▄█▄[0m     [1;31m▀▀▀[0m
                      [1;31m▀[0m     [1;31m▀▀[0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▄ ░[0;31m▀[0;37m▀[0m                      [1;31m▀[0m
 
-[1;30m@end[0m
-[36mtoday i hate everyone[0m
-[36mno greets[0m'
+[1;30m@end[0m'

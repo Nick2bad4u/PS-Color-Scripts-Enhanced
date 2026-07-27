@@ -5,7 +5,7 @@
 # Source SHA-256: e35b509e67fa789fd6136a3d9d6bea3bbb93b896c9219b7345aafa51c56fc140
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-LOCUS.ANS by catch22 (glue); released in glue-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: locus art group promo
 # SAUCE Author: catch22
 # SAUCE Group: glue
@@ -41,6 +41,6 @@ Write-Host '
                                           [31m▐[0m
                                           [31m▐[0m
 
-                              [37mi ate the locus.[0m
+                              [37m                [0m
 
 [1;30m0R1(┐1|\|/┤|_[0m'

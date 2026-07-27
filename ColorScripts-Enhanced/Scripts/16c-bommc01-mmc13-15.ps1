@@ -5,7 +5,7 @@
 # Source SHA-256: 28a84d3846a758d5813b82cf654ffa42e7d0914c1d74f6eea4a841957885494b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mmc13-15.ans by Essence/Polygon (bommc01); released in bommc01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Borgasm
 # SAUCE Author: Essence/Polygon
 # SAUCE Date: 19990607
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mgSSII[0mlll[1mlSSSSSS$$$$SSSSSSll[0mll[1mIISSSS$$$$$┘''$$$$$g┐`$$i[0m:[1m$$$$$%[0m%[1;30m%[0m %[1;30m:[0m  [1;30m:[0m
+[1m     [0m   [1m                   [0m  [1m           ┘       ┐    [0m [1m      [0m [1;30m [0m  [1;30m [0m  [1;30m [0m
 [1m$$$II[0mll[1mlSSSSS$$$$$$$$SSSSSlll[0ml[1mIISSSS$[0md[1m$$$$$$$$$$$$$$$[0mi[1m$$b$$$$$$$$[0;1;35mS[0;1;37m#[0;1;35ms[0;35m,[0;1;37m [0m
 [1m$$$$$$[0m┘[1mSSSSSi$$$$$$$$SSSSSSlll[0ml[1mIISS┘$SS$$$$$$$$$$$$$II└$$$$S$$:[0m²²└[1;35m4[0;1;37m$$[0;35m$[0;1;30ml[0m  [31m.[0;1;31m,,[0;31m_[0m
 [1;37m$$$$$$$[0mi[1m$$$$i$$$$$$$$$SSSSSlllId$$$$$$S[0mI[1m$$$$$$$$$$$i$$$$$$$[0mI[1m$$i [0m   [1;30ml[0;1;35m$[0;35mP┌[0;31m\$$[0;1;31m$[0;35m$$[0;1;31m$[0;31mk,[0m
@@ -27,7 +27,7 @@ Write-Host '
       [1m`7$$[0;1;47m▓▓[0m$$I[1m$$[0m┘[1mI[0;1;30mS$[0m$[1;30m7$$[0m$$[1;30m$[0m$[1;30m''[0m          [1;30m''``[0;35m [0m    [1;30m_[0;1;35m.[0;1;33m┌[0;1;37m┐.[0m         [1m command #1[0m
 [31m.[0m       [1;37m`$[0m$$$[1;30mPl[0m$$[1;30m$[0m$[1;30m$$$[0;1;37m  [0;1;30m└²''$P''` [0m      [31m.__.[0;1;30m [0m     [35m`[0;1;35m*[0;1;37m$└''[0m   [1;30m.[0m      [1mcommand #2[0m
 [31ml[0m        [37m`[0;1;30m$P ::$┘²"^``[0m         [1;30m,[0m   [35m   [0;31m:$[0;1;31m$[0;31ml[0;1;30m [0m             [31m::[0m     [1;37mcommand #3[0m
-[1;30m`[0m           [1;30miii[0m  [1;30m:[0m   [1;30m.,┌q%P`,d[0m    [35m [0m    [31m7[0;35m$[0;1;35m$[0;35mb[0;1;30m,[0m           [35md[0;31mi[0m      [1;37mcommand #4[0m
+[1;30m [0m           [1;30m   [0m  [1;30m [0m   [1;30m  ┌      [0m    [35m [0m    [31m [0;35m [0;1;35m [0;35m [0;1;30m [0m           [35m [0;31m [0m      [1;37m          [0m
          [1;30m,:[0;1;37m [0;1;30m$$$  i$│:[0m$$$$`.l$[1;30m$,[0m        [1;30m`[0;1;31m`[0;1;35m4[0;1;37m│$[0;35mb[0;31m┌,.[0m    [31m,[0m          [1;37mcommand #5[0m
        ,d$P[1;30mu[0m$$$$$I$$iS[1m$$$$$[0m$$$$[1;30mk,[0m         [31m`[0;35m"[0;1;31m└*[0;31m⌂⌂[0;37m [0;31m░░[0m         [1;37m▒▒[0m [30;47mcommand #6[0m
     [1;37;40m,d$$$$[0m└$[1ml$$$$[0mS[1m$$S[0mi[1m$$$$$$$7[0m$$$$b,          [1;30m``[0m               [1mcommand[0;35m [0;1;37m#7[0m

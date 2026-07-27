@@ -5,7 +5,7 @@
 # Source SHA-256: 1f01a20c0443138df326e4279a2aa9f7343a01ef13c32b3e24a01cdb95301bd1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-BIPR.ANS by pitt (gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bi products
 # SAUCE Author: pitt
 # SAUCE Group: gravity
@@ -48,13 +48,9 @@ Write-Host '
       [34m▀[0;1;34;44m▀▀▀[0;34m█▄█▀  ▄[0;1;30;44m░[0;1;34;44m▀▀▀▀[0;34m█▄[0m       [34m█[0;1;34m█[0;1;34;44m▓▒░[0;1;30;40m░░░[0m         [34m▀[0m                        [34;44m [0;1;34;44m▀[0;34m▀▀[0m
                               [34m▀▀[0;1;34;44m▀▀▓[0;34m█[0m
                                   [34m▀▀[0m
-                              [37mbi-products[0m
-                          [37mops: neo negro[blade][0m
-                             [37mmany hip affils[0m
+                              [37m           [0m
+                          [37m                     [0m
+                             [37m               [0m
 
-            [37mthis too hip ansi by pitt(i suck at fonts)<gravity>[0m
-[37m--[snip-snip]-------------------------------------------------------------------[0m
-[37mweee.. I did a decent ansi?!.. or did I... anyway.. I tried to imitate a cheeze[0m
-[37mtype style with my font.. and I think I failed.. it looks decent though..[0m
-[37mwelp.. neo negro dood.. I hope this is to your liking you asked for a cow.. :)[0m
-[37mgreetz to people who like this ansi..  later ....... pitt(gravity)[0m'
+            [37m                                                   [0m
+[37m--[snip-snip]-------------------------------------------------------------------[0m'

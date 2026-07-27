@@ -5,7 +5,7 @@
 # Source SHA-256: 14a765bf4e66e87e1fc441c5667e926e29a885591ed5eff6d988924979e9e426
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RCT-APE!.ANS by React (Bamboosh); released in bmb-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ape [ans]
 # SAUCE Author: React
 # SAUCE Group: Bamboosh
@@ -47,4 +47,4 @@ Write-Host '
 [1;32m  [0;1;32;42m▐[0;32m▄    [0;1;31;43m▒  ▒[0;33m▄▄▄▄▄ [0;1;31;43m▒[0;33m██[0;1;31;43m▒[0m  [32m▄▄■ [0;33m▄▄▄▄▄[0;1;31;43m▒ [0;33m█[0;1;31;43m▒[0m [1;31;43m▒[0;33m██[0;1;31;43m▓[0;33m▄[0;1;31;43m░[0;33m██[0;1;31;43m▒[0m [1;31;43m▒[0;33m██[0;1;31;43m░[0m [1;31;43m░[0;33m██[0;1;31;43m░[0m  [1;31;43m▒ [0;33m█[0;1;31;43m▒[0m [1;31;43m▒[0;33m██[0;1;31;43m▒[0m [33m▄▄▄▄  [0;1;32;42m▐[0;32m▌■[0m
 [32m  ■[0;1;32;42m▒[0;32m▌░  [0;1;31;43m▓  ░[0m [1;31;43m░[0;33m██[0;1;31;43m▒[0m [1;31;43m▓[0;33m██[0;1;31;43m░[0m [32m▀[0;1;32m▒▌  [0;1;31;43m▓[0;33m██[0;1;31;43m░[0m [1;31;43m░[0;33m██[0;1;31;43m▒[0m [1;31;43m░[0;33m██[0;1;31;43m▒[0m   [1;32m▄[0;32m■ [0;1;31;43m▓[0;33m██[0;1;31;43m▒[0m [1;31;43m▒[0;33m██[0;1;31;43m▒[0m  [1;31;43m░[0;33m██[0;1;31;43m▒[0m [1;31;43m▓[0;33m██[0;1;31;43m░[0m [1;31;43m░[0;33m██[0;1;31;43m▒[0m [32m■▐[0;1;32;42m▌[0m
 [1;32m    [0;32m▀[0;1;32;42m■[0;32m▄ [0;33m▀▀▀▀▀[0;1;31;43m▒[0;33m██[0;1;31;43m░[0;33m▀▀▀▀▀▀ [0;32m░   [0;33m▀▀▀▀▀[0;1;31;43m▒[0;33m██[0;1;31;43m░[0;33m▀[0;1;31;43m░[0;33m██[0;1;31;43m░[0m   [32m▐[0;1;32;42m▌[0m [33m▀▀▀▀ [0;1;31;43m░ [0;33m█[0;1;31;43m░[0m [33m▄[0;1;31;43m▒[0;33m██[0;1;31;43m░[0;33m▀▀▀▀▀▀[0;1;31;43m▒[0;33m██[0;1;31;43m░[0m   [1;32m▀■[0m
-[1;30m====[0;32m▄[0;1;32;42m░[0;32m▀[0;1;30m=>hARDcORE jUNGLiST<==================[0;32m▀[0;1;32;42m░[0;32m▄[0;1;32;42m▒[0;32m▄■▀[0;1;30m=======>rEACT/bAMBOOSH<===[0m'
+[1;30m    [0;32m▄[0;1;32;42m░[0;32m▀[0;1;30m                                      [0;32m▀[0;1;32;42m░[0;32m▄[0;1;32;42m▒[0;32m▄■▀[0;1;30m                          [0m'

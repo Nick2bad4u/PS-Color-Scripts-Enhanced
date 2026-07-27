@@ -5,7 +5,7 @@
 # Source SHA-256: 3da7a753db0d15774ecaac8dd222d8ea9d6f2d217f59327a1c73126e092c1bad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KK-IIMTX.ANS by Kamikaze (thst0895); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -35,6 +35,6 @@ Write-Host '
 [1;30m ▀▀▀ ▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀ ▀▀▀▀▀▓█▓ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀ ▀▀▀▀▓▀ ▀▀▀▀▀▀ ▀ ▓▀▀▀▀▀[0m
 [1;30mkk![0m                [1;30m▀ ▀▀▀ ▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m[======-===----=====------===-CuT HeRe, DiLL=====----========---=-=-=-=-=--====][0m
-[1;30m[[0m     [1;30mHeer is jer eleet matrix... That''s all I have ta say bout that....[0m       [1;30m][0m
-[1;30m[[0m              [1;30mdammit cyber punk! stay away from my ansi!![0m                     [1;30m][0m
+[1;30m [0m     [1;30m                                                                  [0m       [1;30m [0m
+[1;30m [0m              [1;30m                                           [0m                     [1;30m [0m
 [1;30m[======-===----=====------===-----===----=-=--====----========---=-=-=-=-=--===][0m'

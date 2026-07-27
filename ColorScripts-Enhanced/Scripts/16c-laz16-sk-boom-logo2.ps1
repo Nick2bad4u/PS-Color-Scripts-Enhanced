@@ -5,7 +5,7 @@
 # Source SHA-256: 317fb2c5dbd00a6b6102e37758d7c6fb8da40b0f0f7bd2c1e5398fa34e41b5e4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sK!boom_logo2.ans by sIMONkING! (thelo0p^LAZARUS); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BOOM!
 # SAUCE Author: sIMONkING!
 # SAUCE Group: thelo0p^LAZARUS
@@ -47,7 +47,7 @@ Write-Host '
 [37m                                                                      ▄▄▄       ▄▄▄   ▄[0m
 [37m                                                                     [0;1;30m▓▓[0m   [34m▄▄▄▄[0;37m [0;1;30m▓▓[0m    [1;30m▓▓[0m [1;30m▓[0m
                                                                      [1;30m▒▒[0m   [31m▄▄▄▄[0;37m [0;1;30m▒▒▀▀█[0m [1;30m▀▀▀▒[0m
-                              W[1;30mE [0mA[1;30mRE [0mT[1;30mHE [0mC[1;30mOMMODORE [0mT[1;30mERRISTS[0m           [1;30m▀▀▀[0m       [1;30m▀▀▀▀[0m    [1;30m▀[0m
+                               [1;30m  [0m [1;30m   [0m [1;30m   [0m [1;30m         [0m [1;30m       [0m           [1;30m▀▀▀[0m       [1;30m▀▀▀▀[0m    [1;30m▀[0m
 
                           [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [37m                          [0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

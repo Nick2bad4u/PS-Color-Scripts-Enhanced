@@ -5,7 +5,7 @@
 # Source SHA-256: 89ef800d1ee560ea3721b022764ea9d67a5ee6690bf075fe1b8d96f4cc8111f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-DNK1.ANS by Warpus (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Doink
 # SAUCE Author: Warpus
 # SAUCE Group: AWE Lettering
@@ -34,5 +34,4 @@ Write-Host '
 [1;32;42m [0;32m ▐█▌▐[0;1;31;42m▀░░[0;32m█[0;1;37;42m ▒▒[0;32;44m█[0;1;37;42m▀[0;32m█▀[0;1;32;42m  [0;32m▌█[0;1;33;42m██[0;1;37;42m██▄▒▒▀[0;1;33;42m▀[0;32m█▀[0;1;32;42m [0;1;33;42m░░[0;1;32;42m▀▀[0;1;33;42m██▄[0;1;32;42m [0;32m██[0;1;36;42m▄▀[0;1;33;42m▒▒[0;32m▌[0;34m▐[0;1;34;44m▐[0;1;34;40m██[0;32m █▌[0;1;32;42m  [0;32m░█[0;1;32;42m█▀░░[0;32m [0;31m█[0;32m ▒[0;1;32;42m██▀▒▒[0;32m [0;31m█[0;1;31m████[0m
 [32m░░        ▀▀▀░░     ▀▀▀▀▀▀▀▀  ▄▄▄▄▄▐[0;1;33;42m▒▒██[0;32;44m█[0;32;40m▌[0;1;36;42m░░[0;32m▌   [0;34m░░░░ [0;32m  ▀▀░█[0;1;32;42m▀[0;32m▌██   ▒[0;1;32;42m░░[0;32m▌▀▀ [0;31m░░░░░[0m
 [32m   [0m               [32m [0;1;35mcheeze''s[0;32m ░░▀▀▀▀▀██[0;1;33;42m▀▀░░[0;32m▌░░░░ [0;37m [0;1;34mdoink[0m      [32m  ▀▀   [0m
-[31m [0m               [31m   [0m                      [32m░░[0;31m       [0m
-                                          [31m         [0m'
+[31m [0m               [31m   [0m                      [32m░░[0;31m       [0m'

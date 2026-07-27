@@ -5,7 +5,7 @@
 # Source SHA-256: 6f581e828b6f2fd5d198ae2027485f0f6df169b1b0d62506a415987fb7661780
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MF-GH.ICE by Microfarad (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -58,4 +58,4 @@ Write-Host '
 [34m▓▒░░▒▓▒░▒▓▒░▓   ▀▀ █░▓█[0m        [34m█ ░▓█[0m                [1;31mTEI [0;31mdist. [0;1;31m*  0-1 [0;31mday warez[0m
 [34m▒▓▒░▒▓▒░▒▓▒░█▓[0m      [34m▀▀[0m       [34m▄▀ ░░▄▀[0m                       [31mCelerity * HST[0m
 [34m░▒▓▒░▒▓▒░▒▓▒[0;1;34;44m░▒[0;34m█[0m             [34m█  ░▄▀    [0;1;30mAnsi:[0m
-[34m░▒▓▒░▒▓▒▒░▒▓[0;1;34;44m░▒▓[0m              [34m▀▀▀  [0;1;30mMicroFarad [iCE]   "fuck Mirage"[0m'
+[34m░▒▓▒░▒▓▒▒░▒▓[0;1;34;44m░▒▓[0m              [34m▀▀▀  [0;1;30m                                [0m'

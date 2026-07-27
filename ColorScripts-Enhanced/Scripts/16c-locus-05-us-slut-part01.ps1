@@ -5,12 +5,12 @@
 # Source SHA-256: b7f42ce70bd936dbfc3f12bd3e97cad9a7cb055cc479c8790c13a200eb3635b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SLUT.ANS by Avenging Angel + Immortality (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
-[30mhaha, another spun, shit and stupid ansi from us fags at locus.. eat shit cowboy[0m
+[30m                                                                                [0m
 [37m                [0;36m [0;37m    [0;36m■[0;37m              [0;36m■[0;37m                       [0;36m▄[0;37m      [0;36m▄[0;37m [0;36m ■[0;37m         [0m
 [37m            [0;36m [0;37m   [0;36m▄ ▀[0;37m                    [0;36m▀ ▄[0;37m           [0;1;36m░░[0m     [36m▄[0;37m [0;36m ▄▄▀ [0;37m          [0;36m  [0;37m [0m
 [37m           [0;36m   ▄[0;1;36;46m▄[0;36m▌[0;37m            [0;36m      [0;37m  [0;1;36m ░░[0m [36m▐[0;1;36;46m▄[0;1;36;40m▄[0;36m▄[0;37m        [0;1;36m▓▓[0m   [36m▄[0;1;36m▄█[0;1;36;46m█▀[0;36m▀    [0;37m            [0m
@@ -31,7 +31,4 @@ Write-Host '
 [37m  [0;1;31;41m▀[0;1;31;40m▀[0;1;31;47m▓▓[0m [31m▀[0;37m [0;1;31;41m█[0;1;31;40m▀[0;31m▀[0;37m [0;1;30m▀[0m   [36m▓▓[0;37m [0;1;31;41m███████████████[0;31m▀[0;37m [0;1;30m▀[0m [31m▄[0;37m [0;1;30m▄[0;36m  [0;1;30m▀[0m [1;31;47m ▄[0;1;31;41m██[0m  [36m▓▓[0;37m [0;1;31;47m▓▓[0m [1;30m▀[0;36m  [0;1;30m▄[0m [1;30m▐[0;1;30;46m▌[0;36m██▌[0;37m [0;31m▐[0;1;31;41m▐█[0;1;31;47m▓▓▓[0;1;31;41m▄[0;31m▄ [0;37m  [0m
 [37m  [0;31m▄ [0;1;31m▓▓[0m [31m▀[0;37m [0;31m▀ [0;37m  [0;1;30m▀[0m   [36m░░[0;37m [0;1;31;41m█[0;31m▀[0;37m [0;1;31;41m▀[0;31m▀[0;37m [0;31m▀[0;1;31;47m▓▓[0;31m ▀[0;1;31;41m█▀[0;31m▀[0;1;31;41m▀[0m  [31m ▀[0;1;31m▀[0m    [1;30m▀[0m [1;31m██[0m [1;31;41m█[0m  [36m░░[0;37m  [0;31m▀[0;37m [0;1;30m▀[0;36m   [0;1;30m▄[0;1;30;46m▀[0;36m██▀[0;37m [0;31m▄[0;1;31;41m▄█[0;1;31;40m▀[0;1;31;41m█████[0;31m▀ ▀[0m
 [37m    [0;1;31m░░[0m   [31m▀[0;37m          [0;1;31;41m▀[0m  [31m▄ [0;37m [0;31m [0;1;31m▓▓[0;31m  ▀[0;37m  [0;31m▄[0;37m  ave[0;1;37mlocus[0;31m [0;1;31m▓▓[0m [31m▀[0;37m      [0;31m▀[0;37m   [0;1;30m▄▀[0;36m▀▀[0;37m  [0;31m   [0;1;31m▓▓[0m [31m▀[0;37m [0;1;31;41m▀[0m [1;31m▀[0;31m▀[0;37m  [0m
-[37m                    [0;31m▄[0;37m     [0;31m [0;1;31m░░[0m  [31m▀[0;37m              [0;1;31m░░[0m [31m▄[0;37m      [0;36m [0;37m [0;1;30m■[0;36m [0;37m       [0;31m  [0;1;31m░░[0;31m ▀[0;37m [0;31m▄[0;37m [0;31m  [0;37m  [0m
-[37m                                                                                [0m
-[37m                                                                                [0m
-[37m                                                                                [0m'
+[37m                    [0;31m▄[0;37m     [0;31m [0;1;31m░░[0m  [31m▀[0;37m              [0;1;31m░░[0m [31m▄[0;37m      [0;36m [0;37m [0;1;30m■[0;36m [0;37m       [0;31m  [0;1;31m░░[0;31m ▀[0;37m [0;31m▄[0;37m [0;31m  [0;37m  [0m'

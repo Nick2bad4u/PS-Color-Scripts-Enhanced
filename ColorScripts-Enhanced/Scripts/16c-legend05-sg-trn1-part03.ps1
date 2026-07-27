@@ -5,7 +5,7 @@
 # Source SHA-256: 46124946eec369565b0d9c5d6804cbce79bd586b83d34aab3d9b9467c33aefef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SG-TRN1.ANS by Snake Grunger (Legend); released in legend05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Ravaged Nightmare
 # SAUCE Author: Snake Grunger
 # SAUCE Group: Legend
@@ -55,6 +55,5 @@ Write-Host '
    [1;30m▀[0m    [1;30m ▀▌[0m   [1;30m▀█▀▀▀▀▀▀▀█ [0m [1;30m▄██[0;1;30;47m█[0;1;30;40m▄ ▄[0m     [1;30m▀[0m  [1;30m ▒███▄[0m    [1;30m██▓[0m  [1;30m▀▀▀▀▀[0m [1;30m▀[0m  [1;30m  ▀    [0m
                [1;30m▄[0m             [1;30m▀[0m        [1;30m▀[0m  [1;30m▄▓▀▀ [0m  [1;30m▀[0m [1;30m▀▀▀▀▀[0m       [1;30m     ▀ [0m
                              [1;30m▀[0m        [1;30m ▀ [0m                      [1;30m [0m
-                     ┌-   - [1mThe Ravaged NightMare![0m -   -┐
-                     └-   -  - -- ops: [1mJazz^[0m -- -  -   -┘
-                             [1;30mthat''s all I know  [0m'
+                     ┌      [1m                      [0m      ┐
+                     └-   -  - -- ops: [1mJazz^[0m -- -  -   -┘[0m'

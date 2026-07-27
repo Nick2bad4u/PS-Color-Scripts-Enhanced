@@ -5,7 +5,7 @@
 # Source SHA-256: 787beee78a7b3e195efbaabaf8c7e5fb3bbc5f2c97e6588c83b1c60dcbbd1b47
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HEN-SK82.ANS by hennifer (lazarus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: skateshop menuset #2
 # SAUCE Author: hennifer
 # SAUCE Group: lazarus
@@ -36,8 +36,4 @@ Write-Host '
                [1;31m██[0;1;31;41m▓▓▒▒░░[0;31m▄▄▄▄▄▄██[0;30;41m [0;31;40m▒ [0;36;40m  [0;31;40m▐█▄▄▄▄█████████▄▄▄▄[0;30;41m  [0;31;40m███████[0;1;31;41m██[0;1;30;40m   [0m
                                [31m▀▀▀▀▀▀▀░[0;30;41m▓[0m
 
-[1;30;40m--------------------------------------------------------------------------------[0m
-
-[1;30mi like this font =)  its for my bubba, stereo and his FANSi skateshop.[0m
-
-                        [1mLAZARUS - [0;1;33mWE PUT THE LAZ IN ARUS![0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

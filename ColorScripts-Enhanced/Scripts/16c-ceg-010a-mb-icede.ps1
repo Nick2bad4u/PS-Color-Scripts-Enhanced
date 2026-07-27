@@ -5,7 +5,7 @@
 # Source SHA-256: 166706e66fc2f02ce83122ead7418062a99dc836dc43348b39a9445efd69e55d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-ICEDE.ANS by mr.byte (chaos energy group); released in ceg-010a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 'iced earth bbs logo'
 # SAUCE Author: mr.byte
 # SAUCE Group: chaos energy group
@@ -33,6 +33,4 @@ Write-Host '
    [1;32;42m▐[0;1;32;40m███████▄[0m [1m▀[0;1;47m▓▓[0;1;40m███[0;1;47m▀▀[0;1;40m▀[0m ▐▄▀▄[1;47m▀[0;1;40m█▀[0m░░░ [1;32m∙[0m [1;32mE[0m [1;32m∙[0m [1;32mA[0m [1;32m∙[0m [1;32mR[0m [1;32m∙[0m [1;32mT[0m [1;32m∙[0m [1;32mH[0m [1;32m∙[0;34m▀▀[0;37m  [0;1;34m2:5o3o/128o[0m
   [1;32m [0;32m▀▀[0;1;32;42m▀▓▓▀▀[0;1;32;40m████[0m░░[1m▀[0m▀▀[1;32m▄▄██▄▄█▄▄▄[0m
       [1;32m░░[0m  [32m▀▀▀[0;1;32m▀▀▀▀███[0;1;32;42m▓▓▓[0;1;32;40m█████▌[0m    [36miCEd[0;1;36m [0;36mEaRtH[0;1;36m [0;36mbbs[0;1;36m  [0m [36m+7 (812) 559-2o42[0m
-           [1;32m23-o7[0m    [1;32m░░░[0m [1;32m ▀▀[0m    [36msysop: mr.byte[0;37m  [0;36mcosysop: monarch[0m
-                                 [36mrunning on pcboard v15.4[0m
-                      [36mceg, secular,[0;37m [0;36mjust-x,[0;37m [0;36mgas, ubg, dlc, sawat ppe distro[0m'
+           [1;32m     [0m    [1;32m░░░[0m [1;32m ▀▀[0m    [36m              [0;37m  [0;36m                [0m'

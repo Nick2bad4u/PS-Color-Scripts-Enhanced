@@ -5,7 +5,7 @@
 # Source SHA-256: a76b8fadc496fda7dc923e818a081ef0dfc8eb2fdf77435340582ee9080eb92c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2FC(C).ANS by Chile (d38-12); released in d38-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -35,12 +35,4 @@ Write-Host '
 [31;40m████████████████████[0;1;30;41m▄[0;31m▀[0;1;30m▀[0;31m [0m   [33m▀▀▀▀▀[0;1;30m [0m [1m█[0;1;47m▌█▌▄▌[0;1;30;47m▄[0m▀ [33m▒[0;37m [0;1;30;47m▒ [0m██[1;47m▄[0m███[1;30;47m▀[0m▄▄▄▄ [33m▀▀▀▀▀▀▀▀▀[0;37m  [0;30;41m░[0;1;33;41m▀[0;1;31;41m▀[0;31m█[0;1;31;41m▄[0;31m█▄ [0;34m▀[0m
 [35m▀[0;31m███████▓ ▀▀▀▀[0;1;30m▀▀▀[0m              [1m▄░███▌▀▀[0m       [1;30m▀[0m▀▀[1;47m█░ ▌[0m███[1;47m▒[0m█    [35m░[0;30;45m▓[0;37;40m [0;34;40m▄▄[0;37;40m  [0;34;40m▄▄░[0;1;30;40m▀[0;33m▀[0;31m▀▌[0m
 [31m    [0;35m▀▀[0;31m▀▀▀██░  ▄[0;35m▄[0m               [1;37m█▄▄[0m              [1m▐██[0;1;47m▄▌▄█▄[0;1;40m██[0m      [35m▄[0;34m█[0;36;44m▀░[0;36;40m░[0;34;40m ▐▀[0m
-[37;40m99 bottles ah beer on da wall, <------------------------------------------------[0m
-[37;40mah called up da dyx an we drunk em all.[0m
-
-[37;40mjeah it''s a new stylee for me... well.. i think so.[0m
-[37;40manyways, y''all always bitching bout me doing ansi''s for ya so boom, i''ve done[0m
-[37;40mjuan finally... for cash mind. [0m
-[37;40mSo stay off this dick still.[0m
-
-[37;40m(c)hile 87 recognyzing the dyx for the 97 or perhaps 98,..[0m'
+[37;40m99 bottles ah beer on da wall, <------------------------------------------------[0m'

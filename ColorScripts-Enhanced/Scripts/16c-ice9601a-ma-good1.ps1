@@ -5,7 +5,7 @@
 # Source SHA-256: 44a5c343735b772bc1bac614e53d5ec0115b796349fa88293b98a529824ee173
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-GOOD1.ICE by Maestro (iCE Advertisements); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Goodies Ansi Utils
 # SAUCE Author: Maestro
 # SAUCE Group: iCE Advertisements
@@ -34,5 +34,4 @@ Write-Host '
      [31m░░▀▓[0;1;37;41m░[0;31m▄▄▄▄[0;1;37;41m░[0;31m▀░[0m     [31m▀▀ [0;34m▄[0m     [1;34;44m▀[0;34m▌    ■  ░▀█▄  ▄[0;34;42m▓[0;34;40m▀[0;1;34;44m▀[0;34m▀[0m     [31m▀[0m     [31m▐[0;1;31;41m░[0;31m▀[0m
         [31m▐▄ ▀▀ ▄[0m           [34m■░▄ ■▐[0m          [34m░░▀▀ ░   ▀[0m     [31m■ ▄ ■▀  ▄[0;1;31;41m▄[0m [31m░[0m
          [31m▌[0m      [31m■░[0m            [34m░▐[0m                      [34m■[0m             [31m░▄[0m
-         [31m▌[0m       [31m░ ▄[0m     [31mg O O D I E S  a N S I  u T I L S[0m             [31m░■[0m
-                           [1;30mmade in the good old USA baby![0m'
+         [31m▌[0m       [31m░ ▄[0m     [31mg O O D I E S  a N S I  u T I L S[0m             [31m░■[0m'

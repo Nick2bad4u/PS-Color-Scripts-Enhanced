@@ -5,7 +5,7 @@
 # Source SHA-256: 875115cc269ac73c7b3723518dd131037f00fc9842d877e19800fc0c4cf9089c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-INQ2.ANS by Spirit of Rage (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iniq2
 # SAUCE Author: Spirit of Rage
 # SAUCE Group: Zenith
@@ -40,10 +40,10 @@ Write-Host '
 [1;30m [0m               [1m▀▀▀[0m▀▀[1m▄[0m▄▄[1;30m▄▄[0m [33m▀[0;1;33m▀[0;33m▀[0;1;30m ▄[0m▀  [1;30minfo spot...[0m
 C:\INIQ2\[5m_[0m
 [1;30m----<cut>-----------------------------------------------------------------------[0m
-[1;30mhere yah go comatose.. umm.. and good luck with the program.. ehh.. the toon [0m
-[1;30mfigure u sent me was broke so i couldnt use it.. so i hope u like this one as   [0m
+[1;30m                                                                             [0m
+[1;30m                                                                                [0m
 [1;30mit is...[0m
 
-[1;30m// spirit of rage out...[0m
+[1;30m                        [0m
 
 [1;30m----<eof>-----------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4f11f4c8519b38bcb0bf8743eb61f84a0a85f9516c7bd86dfe6cc19ead93d838
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-EDEN2.ANS by Borys (Eden); released in eden1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eden Advertisement
 # SAUCE Author: Borys
 # SAUCE Group: Eden
@@ -38,8 +38,8 @@ Write-Host '
  [1;30m-bs[0m                        [1;30m▓▒▒▒▓▀ ▀▀▀▀▀▀▀▀▀▀[0;33m [0;1;30m▀▒▒▒▒▒[0m
 
 
-   [33mas we floated through deep space, literally disembowelling our victims,[0m
-[33m [0m [33m     the navigator informed us that we had attacked the wrong planet[0m
+   [33m                                                                       [0m
+[33m [0m [33m                                                                    [0m
 
 
 
@@ -57,11 +57,11 @@ Write-Host '
 
 
 
-[33mgreets... [0m                                [33mif you would like an ansi, contact[0m [33mme[0;37m [0m
-                                          [33mon speed net, syndicate net, or union[0;37m [0m
-[33m.dalamar.......up for danzig?......[0m       [33mnet...  or just call syndication-x...[0;37m [0m
-[33m.highwacker....fix your zmodem.....  [0m     [33mborys.eden -eom[0m
-[33m.crisis........pick a handle....... [0m
-[33m.rest of eden..ummm hi............. [0m                          [33mquickie[0m [33mad... [0m
-[33m.blade.........bring out your dead. [0m
+[33m          [0m                                [33m                                  [0m [33m  [0;37m [0m
+                                          [33m                                     [0;37m [0m
+[33m                                   [0m       [33m                                     [0;37m [0m
+[33m                                     [0m     [33m               [0m
+[33m                                    [0m
+[33m                                    [0m                          [33m       [0m [33m      [0m
+[33m                                    [0m
 [33m.else..........ummm hi............. [0m'

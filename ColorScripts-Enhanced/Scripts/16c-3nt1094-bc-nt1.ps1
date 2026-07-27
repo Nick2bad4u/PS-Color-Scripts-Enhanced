@@ -5,7 +5,7 @@
 # Source SHA-256: f4093d98e11abbcd015c99b8cd6720da16495f42c3df6c2b2547b7e345cb8b06
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-NT1.ANS by Beyond Cool (3nt1094); released in 3nt1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
@@ -44,6 +44,6 @@ Write-Host '
 [34m█▓█    [0;37;46m░[0;1;36;40m████████[0;1;36;46m [0m  [36;47m▒[0m [37;46m░[0;1;36;40m█████████[0;46m░[0m [36;47m▓[0m [36;47m▓[0;1;36;40m█████████[0;36;47m█[0m [36;47m▓[0;36;40m▄[0;36;46m [0;1;36;40m█████████[0;36;47m▓[0m [36;47m█[0m [37;46m░[0;1;36;40m█████████[0;1;36;46m [0m  [34m█▓▓[0m
 [34m███    [0;34;46m [0;1;36;46m▀▀▀▀▀▀▀▀ [0m  [46m░[0;36;40m▄[0;37;46m░[0;1;36;46m▀▀▀▀▀▀▀▀▀[0;46m░[0m [36;47m▓[0;36;40m▀[0;36;47m█[0;1;36;46m▀▀▀▀▀▀▀▀▀[0;36;47m█[0m [36;40m▄▄[0;36;46m [0;1;36;46m▀▀▀▀▀▀▀▀▀[0;36;47m▓[0m [36;47m█[0;36;40m▄[0;36;46m [0;1;36;46m▀▀▀▀▀▀▀▀▀ [0m  [34m███[0m
 
-                   [31mCRiTZ: lBo ∙ (┤CiD ∙ iCE ∙ KTS [0;34m∙ C-SURFER[0m
+                   [31m              ┤                [0;34m          [0m
 
 [37m─[0;36m─[0;1;36m─ [0;1;37mN [0;1;36m─[0;36m─[0;37m──[0;36m─[0;1;36m─ [0;1;37mE [0;1;36m─[0;36m─[0;37m───[0;36m─[0;1;36m─ [0;1;37mO [0;1;36m─[0;36m─[0;37m─[0;35m──[0;37m─[0;36m─[0;1;36m─ [0;1;37mT [0;1;36m─[0;36m─[0;37m───[0;36m─[0;1;36m─ [0;1;37mO [0;1;36m─[0;36m─[0;37m───[0;36m─[0;1;36m─ [0;1;37mK [0;1;36m─[0;36m─[0;37m───[0;36m─[0;1;36m─ [0;1;37mY [0;1;36m─[0;36m─[0;37m───[0;36m─[0;1;36m─ [0;1;37mO [0;1;36m─[0;36m─[0;37m─[0m'

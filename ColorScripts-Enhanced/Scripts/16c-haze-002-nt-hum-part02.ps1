@@ -5,7 +5,7 @@
 # Source SHA-256: 1e177549d35a44037e217b9ad2d50081e77f53f31d39a47b4220939dc36ae4e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT-HUM.ANS by notorious (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hUma!
 # SAUCE Author: notorious
 # SAUCE Group: haze
@@ -51,7 +51,7 @@ Write-Host '
 [1;30m___________  [0;36m░ [0;1;30m____________________________________________ [0;36m░ [0;1;30m_____ [0;36m░ [0;1;30m__________[0m
                             [1;30mhuma!?!...619.^^^.^^^^![0m
 
-                        [1;30mop! lord jazz..running obv/twoo![0m
+                        [1;30m                                [0m
 
-                              [1;30mart!art!art!art![0m
+                              [1;30m                [0m
 [1;30m________________________________________________________________________________[0m'

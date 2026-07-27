@@ -5,7 +5,7 @@
 # Source SHA-256: 539df3ffa187437910fef844dce03bef6a4c3fa34b5e67db0b8d8f9e86049010
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-IMPUR.ANS by ttalps (esipilce); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ?erupmi
 # SAUCE Author: ttalps
 # SAUCE Group: esipilce
@@ -28,4 +28,4 @@ Write-Host '
 [37m  [0;30;46m▀░░░░░░[0;36;40m██▀█▀▀ [0;1;30;40m  [0;36m▀[0;30;46m░░[0;37;40m [0;1;37;40m▀▀▀[0m▀[1m▀[0m [1;36;46m▒▒▒[0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;46m░░░░[0;36;40m█[0;30;46m░░[0;36;40m██[0;1;36;46m▀▀▀[0;36m████[0;30;46m░▒▒▒▒▒[0;1;36;40m▒[0;30;46m▒▒[0;1;36;40m▒▒[0;30;46m▓▓[0m
 [30;46m▓▓▓▒▒▒[0;1;36;40m▒[0;30;46m▒[0;1;36;40m▒▒[0;30;46m░░░[0;36;40m▀▀   ▀▀·■▄[0m    [36;40m ▄▄▄  [0;34;40m░░░░░░[0;36;40m [0;34;40m░░░[0;37;40m [0;36;40m           [0;37;40m [0;36;40m▄■[0;37;40m [0;36;40mSt?░░░░░▀▀▀▀[0;30;46m▓▓▓▓▓▓▓▓[0;36;40m [0m
 [36;40m  ░░░[0;30;46m▓▓▓▓▓[0m                             [36;40m [0;37;40m [0;36;40m [0m
-            [36;40m [0;37;40m [0;36;40m. .xxx..[0;37;40m [0;1;32;40mimp[0;1;32;46mU[0;1;32;40mre[0;36m [0;1;33m░░░[0;36m [0;1;32min the devine style[0;36m ...xxx.  .[0m'
+            [36;40m [0;37;40m [0;36;40m        [0;37;40m [0;1;32;40m   [0;1;32;46m [0;1;32;40m  [0;36m [0;1;33m░░░[0;36m [0;1;32m                   [0;36m           [0m'

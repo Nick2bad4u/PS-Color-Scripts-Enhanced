@@ -5,7 +5,7 @@
 # Source SHA-256: 91b97c28198cd106b9970668e36fbb21d16558070a34356429a3196e57cb21e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-KP1.ICE by TooN GooN (iCE); released in ice9509a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kerplunk
 # SAUCE Author: TooN GooN
 # SAUCE Group: iCE
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[32m              [0;30mthis months quote by friar tuck : "i''m such a whore"[0m
-[32m     [0;30mcoming after admitting to running a bbs and requesting this ansi.[0;32m   [0;30m:)[0m
+[32m              [0;30m                                                    [0m
+[32m     [0;30m                                                                 [0;32m   [0;30m  [0m
 
 
                                            [33m░[0;37m [0;33m [0m
@@ -52,5 +52,4 @@ Write-Host '
 [1;31m                [0m [1;47m ▀░ [0m▌[1;31m [0m [1;47m░▄[0m██ [1;31m [0;32m▀[0;37m▄[0;1;37m▄▄ [0m▀▀▀▀▀▀▄[1m▄[0m██▄▄▄ ▄▄▄▄▀▀▀▀▀▀[34m [0;31m [0;37m         [0m
 [36m      [0;37m░[0;36m  [0;1;31m    [0m [1;31m [0;34m [0;1;37;47m▄░[0m███▄ ▀▀[1;47m▀[0m███ █[1;47m▐[0;1;40m▄█▀ [0;1;31;40m     [0m [1;47m▀[0m███     [31m [0;37m   [0m
     [36m  [0;37m ■  [0m    [37m▄█▀▀▀  [0m     [37m▀[0;1;37;47m▀[0m██▄▀[1m▀[0;1;47m▀[0;1;40m▄█[0m       ▀[1;47m▀[0m██▄       [31m [0;37m  [0m
-[1;30m────────[0m  ▀▀▀  [1;30m───────── [0m [1m█▄ [0m▀▀▀█▄▄▄▄ ░  [1;30m───[0m  ▀▀▀█▄▄▄▄ ░ [31m [0;1;30m──────────────────────[0m
-'
+[1;30m────────[0m  ▀▀▀  [1;30m───────── [0m [1m█▄ [0m▀▀▀█▄▄▄▄ ░  [1;30m───[0m  ▀▀▀█▄▄▄▄ ░ [31m [0;1;30m──────────────────────[0m'

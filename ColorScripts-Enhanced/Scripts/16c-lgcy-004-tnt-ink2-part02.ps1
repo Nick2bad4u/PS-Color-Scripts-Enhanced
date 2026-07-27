@@ -5,7 +5,7 @@
 # Source SHA-256: 2ec92e0a000866484b1d670fb325f70f584035edcb318127ee446f7a8e1b46f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt-ink2.ans by tainted (blocktronics); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ink2 promotional
 # SAUCE Author: tainted
 # SAUCE Group: blocktronics
@@ -51,8 +51,8 @@ Write-Host '
 
                                                             [1m░[0m
 
-              telnet [1;30m| [0;1;37mbbs[0;1;30m.[0;1;37minktwo[0;1;30m.[0;1;37mcom[0;1;30m [0mport [1;30m| [0m23  [1;30m░░░[0m  op [1;30m|[0m [1msmooth[0m
+                     [1;30m  [0;1;37m   [0;1;30m [0;1;37m      [0;1;30m [0;1;37m   [0;1;30m [0m     [1;30m  [0m    [1;30m░░░[0m     [1;30m [0m [1m      [0m
 
-                      [1;35mblocktronics[0m [1;30m|[0m [35mlegacy krew[0;37m [0;1;30m|[0m impure
-                     [1;30maraknet | agoranet | zeronet | fsxnet[0m
+                      [1;35m            [0m [1;30m [0m [35m           [0;37m [0;1;30m [0m       
+                     [1;30m                                     [0m
 [1;30m■[0m'

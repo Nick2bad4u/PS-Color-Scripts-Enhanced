@@ -5,7 +5,7 @@
 # Source SHA-256: 7afabf50f9b2088da7489a30d78abe2c13bf2ed5402cef87c2359240dd710236
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-ICEBR.ANS by izey (fusion); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: icebreakers main
 # SAUCE Author: izey
 # SAUCE Group: fusion
@@ -36,4 +36,4 @@ Write-Host '
 [1;33;43m▐[0;1;33;45m▓[0;1;37;40m ▐[0;1;37;43m▐[0;1;37;40m█[0m▌[1m [0m   [1m  ███[0m▌ [1;33m [0m
 [1;33;43m▐[0;1;33;45m▓[0;1;37;40m ▐[0;1;37;43m▐[0;1;37;40m█[0m▌[1m  ▄▄█[0;1;47m▀[0;1;40m▀[0m▀   [1;33m  [0m   [1;33mOption [0m#[1m3 [0m [1m [0m  [1;33mOption [0m#[1m7  [0m   [1;33mOption [0m#[1m11[0m   [1m [0m [1;33mOption [0m#[1m15[0m
 [1;33;43m▐[0;1;33;40m▀[0;1;37;40m ▐██[0;1;37;47m▀[0;1;37;40m▀▀[0m▀
-[33m▌[0;1;37m [0m■▀                   [1;33mOption [0m#[1m4 [0m [1m [0m  [1;33mOption [0m#[1m8  [0m   [1;33mOption [0m#[1m12 [0m [1m [0m  [1;33mOption [0m#[1m16[0m'
+[33m▌[0;1;37m [0m■▀                   [1;33m       [0m [1m  [0m [1m [0m  [1;33m       [0m [1m   [0m   [1;33m       [0m [1m   [0m [1m [0m  [1;33m       [0m [1m  [0m'

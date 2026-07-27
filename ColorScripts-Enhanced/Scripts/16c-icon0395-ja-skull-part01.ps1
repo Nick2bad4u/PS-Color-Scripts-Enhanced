@@ -5,7 +5,7 @@
 # Source SHA-256: 17e19fc20b42777f567183bc81d3d6281475fbb60cd8ddc46e17f2bfd94aa01a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JA-SKULL.ANS by Jashik (iCON); released in icon0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gay schitt....
 # SAUCE Author: Jashik
 # SAUCE Group: iCON
@@ -17,7 +17,7 @@
 Write-Host '
   [30m░[0m
   [30m▒[0m                   [30m░[0m                                      [37m░[0m
-[1;30mwow aren''t these bars just the coolest dividers?:)[0m   ▓       ▒
+[1;30m                                                  [0m   ▓       ▒
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30m▄▄      [0;37m▓[0;30m       [0;37m▓[0;30m          [0;37m▒[0;30m       [0m
 [30;44m█[0;1;30;40m      ░               [0;30;44m▀▀▒▀▀▀░▀▀▀▀[0;1;30;40m   [0;34m▄▄[0;1;30m   [0;34m▄[0;1;30m ▓ █ [0;1;30;47m▄[0;1;37;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0;1;30;40m  [0m
  [30;47m▄[0;1;30;40m▓[0;1;30;47m▓▒░[0;30;47m  [0;1;30;47m░░▒▒▓█[0m▀ ▓[30;47m    [0;1;30;47m▒[0;30;47m▀[0m [30;44m▄▓▒░▒░  [0;34;40m▀▀▀▀▄[0m  [34;40m▀▀▀[0m    [1;30;40m▓[0m [1;30;47m█[0;30;47m ██   [0;37;40m▀[0;30;47m▄▄  ▄██▄    █ ████  [0;1;37;47m█[0m
@@ -54,12 +54,7 @@ Write-Host '
 [45m                [0;1;35;45m░▒▓█[0m  [1;30m░[0;30;47m█[0;1;37;40m█[0;1;37;47m▓▓▓▒░░░[0;30;47m           ▓▒░ [0;1;30;47m░▒█▓[0;1;30;40m▓▒▓[0;1;30;47m▓[0;30;47m▄[0;37;40m [0;1;35;45m█▓▒[0;45m [0;1;35;45m░[0;45m                  [0m
 [1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30;40m                                                                                [0m
-[1;34;40mYou ever get one of those days where you get this GREEAAAAAT idea for a pic[0;1;30;40m [0m
-[1;34;40mand then halfway through .........YOU FORGET HOW IT ENDS? KINDA LIKE A WET DREAM[0m
-[1;34;40mwith no FRICKING CLIMAX no?.....oh well this one''ll prob stay like this forever.[0m
-[1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30;40m                [0m
-[1;34;40mwhy do I use these gay bar seperator things you might ask? well the answer is[0m
-[1;34;40mREEEEEEEEEEALLY simple. i use em cuz I''M A LAZY ASSHOLE THAT''S WHY! doh!:)[0m
-[1;34;40mwell seeing as how i''m not ever going to finish this one, but also seeing as how[0m
-[1;34;40mi rilly don wanna destroy it, i guess i''ll just ramble w3rds ta members.......[0m'
+[1;34;40m                                                                           [0;1;30;40m [0m
+[1;34;40m                                                                                [0m
+[1;34;40m                                                                                [0m
+[1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

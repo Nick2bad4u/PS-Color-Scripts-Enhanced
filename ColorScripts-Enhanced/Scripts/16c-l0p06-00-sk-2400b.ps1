@@ -5,7 +5,7 @@
 # Source SHA-256: 675534f66ca2bf43c9c87ad7d8c413327d7d85ad56f981dee718ac154202436c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!2400B.ANS by Simonking (l0p06_00); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
@@ -32,17 +32,17 @@ Write-Host '
  [34m|[0m                                                                [1;30m|[0m
  [34m|[0m                                                                [1;30m|[0m         [1;32m|[0m
                                                                   [1;30m|[0m         [1;32m|[0m
- [1;34m|[0m   [1;43m[c][0m [32momm[0;1;32mand[0m      [1;37;43m[c][0m [32momma[0;1;32mnd[0m      [1;37;43m[c][0m [32mom[0;1;32mmand[0m      [1;43m[c][0m [32momman[0;1;32md[0m   [1;30m|_[0m     [1;30m_ [0m [1;32m|[0m
+ [1;34m [0m   [1;43m   [0m [32m   [0;1;32m   [0m      [1;37;43m   [0m [32m    [0;1;32m  [0m      [1;37;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m   [1;30m  [0m     [1;30m  [0m [1;32m [0m
  [1;34m|[0m   [1;43m   [0m [32m   [0;1;32m    [0m     [1;43m   [0m [32m    [0;1;32m   [0m     [1;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m   [1;32m\\/_\\/ \\/[0m
- [1;34m|[0m   [1;43m[c][0m [32momm[0;1;32mand[0m      [1;37;43m[c][0m [32momma[0;1;32mnd[0m      [1;37;43m[c][0m [32mom[0;1;32mmand[0m      [1;43m[c][0m [32momman[0;1;32md[0m             [1;32m|[0m
+ [1;34m [0m   [1;43m   [0m [32m   [0;1;32m   [0m      [1;37;43m   [0m [32m    [0;1;32m  [0m      [1;37;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m             [1;32m [0m
  [1;34m|[0m   [1;43m   [0m [32m   [0;1;32m    [0m     [1;43m   [0m [32m    [0;1;32m   [0m     [1;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m   [1;32m|[0m
- [1;34m [0m   [1;43m[c][0m [32momm[0;1;32mand[0m      [1;37;43m[c][0m [32momma[0;1;32mnd[0m      [1;37;43m[c][0m [32mom[0;1;32mmand[0m      [1;43m[c][0m [32momman[0;1;32md[0m   [1;32m|[0m         [1;32m|[0m
+ [1;34m [0m   [1;43m   [0m [32m   [0;1;32m   [0m      [1;37;43m   [0m [32m    [0;1;32m  [0m      [1;37;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m   [1;32m [0m         [1;32m [0m
  [1;34m|[0m   [1;43m   [0m [32m   [0;1;32m    [0m     [1;43m   [0m [32m    [0;1;32m   [0m     [1;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m   [1;32m|[0m         [32m|[0m
-[37m [0;1;34m|[0m   [1;43m[c][0m [32momm[0;1;32mand[0m      [1;37;43m[c][0m [32momma[0;1;32mnd[0m      [1;37;43m[c][0m [32mom[0;1;32mmand[0m      [1;43m[c][0m [32momman[0;1;32md[0m   [1;32m|[0m         [32m|[0m
+[37m [0;1;34m [0m   [1;43m   [0m [32m   [0;1;32m   [0m      [1;37;43m   [0m [32m    [0;1;32m  [0m      [1;37;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m   [1;32m [0m         [32m [0m
 [37m [0;1;34m|[0m   [1;43m   [0m [32m   [0;1;32m    [0m     [1;43m   [0m [32m    [0;1;32m   [0m     [1;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m   [1;32m|[0m  text   [32m|[0m
-[37m [0;1;34m|[0m   [1;43m[c][0m [32momm[0;1;32mand[0m      [1;37;43m[c][0m [32momma[0;1;32mnd[0m      [1;37;43m[c][0m [32mom[0;1;32mmand[0m      [1;43m[c][0m [32momman[0;1;32md[0m   [1;32m|[0m         [32m|[0m
+[37m [0;1;34m [0m   [1;43m   [0m [32m   [0;1;32m   [0m      [1;37;43m   [0m [32m    [0;1;32m  [0m      [1;37;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m   [1;32m [0m         [32m [0m
 [37m [0;1;34m|[0m   [1;43m   [0m [32m   [0;1;32m    [0m     [1;43m   [0m [32m    [0;1;32m   [0m     [1;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m   [32m|[0m
-[37m [0;1;34m|[0m   [1;43m[c][0m [32momm[0;1;32mand[0m      [1;37;43m[c][0m [32momma[0;1;32mnd[0m      [1;37;43m[c][0m [32mom[0;1;32mmand[0m      [1;43m[c][0m [32momman[0;1;32md[0m   [32m|[0m         [32m| [0m
+[37m [0;1;34m [0m   [1;43m   [0m [32m   [0;1;32m   [0m      [1;37;43m   [0m [32m    [0;1;32m  [0m      [1;37;43m   [0m [32m  [0;1;32m    [0m      [1;43m   [0m [32m     [0;1;32m [0m   [32m [0m         [32m  [0m
 [37m |[0m                                                                [32m|[0m
 [37m |[0m                                                                [32m|[0m
 [37m |[0m                                                                [32m|[0m         [32m|[0m

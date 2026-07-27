@@ -5,7 +5,7 @@
 # Source SHA-256: b7338820b953320cf1dbc6d1756a2c3560ab48c832aa394b9613819a0570d127
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-BIO.ANS by GRiFFiN (SUiCiDE); released in su-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BioHazard Ad
 # SAUCE Author: GRiFFiN
 # SAUCE Group: SUiCiDE
@@ -35,14 +35,8 @@ Write-Host '
 [1;32;40m███▀▀[0;1;37;40m▄▄████████████████▄▀▄▄██████████ [0;1;37;47m░[0;1;37;40m█████████████████████████████████████████[0m
 [1;32;40m▀[0;1;37;40m▄▄█████████████████████████████████ █[0;1;37;47m░[0;1;37;40m█████████████████████████████████████████[0m
 [1;37;40m███████████████████████████▀▄[0;1;37;47m░[0;1;37;40m███████[0;1;37;47m░[0;1;37;40m██████████████████████████████████████████[0m
-[1;30;40mGR[0m [1;30;40m[SUiCiDE][0m
+[1;30;40m  [0m [1;30;40m         [0m
 
 
 
-                     [1;30;40m· [0;32m■ [0;1;32m■ [0;1;37m■  [0;1;32mB i o H a z a r d [0;1;37m■ [0;1;32m■ [0;32m■ [0;1;30m·[0m
-
-                                [1;32m[8i7]NOT·YET!   [0m
-
-                                 [1;32mSUiCiDE WHQ[0m
-
-                                [1;32mS: ShadowHawk[0m'
+                     [1;30;40m· [0;32m■ [0;1;32m■ [0;1;37m■  [0;1;32mB i o H a z a r d [0;1;37m■ [0;1;32m■ [0;32m■ [0;1;30m·[0m'

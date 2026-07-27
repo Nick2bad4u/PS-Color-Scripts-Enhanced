@@ -5,7 +5,7 @@
 # Source SHA-256: 2f3812bc1619468d7a26c7e5d4312e7eac7fae92fd0288f08e3ec28ef93abc70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-DLC.ANS by The Stalker (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 37-78
 # Columns: 1-80
 
@@ -44,11 +44,6 @@ Write-Host '
 [1;35m▄█[0;1;35;45m▄▀ ▄[0;35m██▀ [0;1;35m▄█[0;1;35;45m▄[0;1;35;40m▀ [0;35m▄██▀ [0;1;35m▄[0;1;35;45m█▄▀▄▄[0;1;35;40m▄ ▄█[0;1;35;45m▀[0;35m▀ ▄██▀ ▄█[0;1;35;45m▄ ▄▀[0;1;35;40m██▀ ▄█[0;1;35;45m▀▄[0;1;35;40m▄▄▄[0;35m▄▄ [0;1;35m▄█[0;1;35;45m▀[0;1;35;40m▄▄▄[0;35m██▀ [0;1;35m▄[0;1;35;45m▄▀▄[0;35m▄▄▄▄▄[0m
 [35m [0;1;35m▀▀▀▀▀▀    ▀    [0;35m▀    [0;1;35m▀▀▀▀▀   ▀    [0;35m▀    [0;1;35m▀▀▀▀▀▀    ▀▀▀▀▀[0;35m▀▀   [0;1;35m▀▀▀▀[0;35m▀▀    [0;1;35m▀▀▀▀▀▀[0;35m▀[0m
 
-[1;30mT[0mhe [1;30mM[0magazine [1;30mW[0mith [1;30mA "W[0mho [1;30mG[0mives a [1;30mS[0mhit [1;30mW[0mhat [1;30mT[0mhey [1;30mT[0mhink, [1;30mI[0mt''s [1;30mM[0my [1;30mO[0mpinion[1;30m" A[0mttitude
+[1;30m [0m   [1;30m [0m        [1;30m [0m    [1;30m    [0m   [1;30m [0m       [1;30m [0m    [1;30m [0m    [1;30m [0m    [1;30m [0m      [1;30m [0m    [1;30m [0m  [1;30m [0m      [1;30m   [0m       
 
-                      [1;30m─ ──  ─[0m─[1;30m──[0m───[1;30m─ ─ [0m─ [1;30m─ ──[0m─[1;30m──[0m──[1;30m─  ── ─[0m
-                         ANSi Created by The Stalker
-                     "Don''t you just want to kiss him :)"
-                       "Hey Tuborg, I''m learning <G>"
-                    "Hooptie, can I get this into DLC #3?"
-                     "The Intruder, stop calling me <G>"[0m'
+                      [1;30m─ ──  ─[0m─[1;30m──[0m───[1;30m─ ─ [0m─ [1;30m─ ──[0m─[1;30m──[0m──[1;30m─  ── ─[0m'

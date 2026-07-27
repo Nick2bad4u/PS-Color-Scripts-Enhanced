@@ -5,7 +5,7 @@
 # Source SHA-256: 42ce8d08129d83d0d427e3f1bc3c5efdf1331f920bb44b9425dc982f6d40e31d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-CBAR1.ANS by burps (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the crossbar
 # SAUCE Author: burps
 # SAUCE Group: odium
@@ -32,4 +32,4 @@ Write-Host '
 [40m        [0;1;30;40m▄             █                                     ▄  [0m■▄ ▄  ▄▐[1;47m░[0m▀[40m       [0m
 [40m    [0;1;30;40m▀ ▀▀█▀▀▀ [0;1;30;47m▓[0;1;30;40m▀▀ ▀ ▀▀▀█▀▀▓▀▀[0;1;30;47m▓[0;1;37;40m [0;1;30;40m▀▀  ▀  ▀       ▀ ■▀▀ [0;1;30;47m▓[0;1;30;40m▀▀▀▀▓▀▓▀█▀  [0;1;37;40m▐[0m▌▐▌[1m▐[0m▌ [1m▀[0;1;40m        [0m
 [1;40m        [0;1;30;40m▓             ▓  ░                                  ▓   [0;1;37;40m▀ [0;1;37;47m░[0m  [1m▀[0;1;40m          [0m
-[1;40m                      [0;1;30;40m░       [0;36m.[0;1;32mneophyte''s[0;36m.[0;1;32mcrossbarr[0;36m.        [0;1;30m▀      .bs!odium.[0;1;30;40m   [0m'
+[1;40m                      [0;1;30;40m░       [0;36m [0;1;32m          [0;36m [0;1;32m         [0;36m         [0;1;30m▀                [0;1;30;40m   [0m'

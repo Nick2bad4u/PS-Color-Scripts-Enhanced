@@ -5,7 +5,7 @@
 # Source SHA-256: d627a2c313ea61068873b9458d626c12d7601963fc558b8dcaf034daca00e8a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CRANI.ANS by Ceelow + Simonking (thelo0p); released in l0p17_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cRANIVAL
 # SAUCE Author: ceelow^simonking
 # SAUCE Group: thelo0p
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-demintri.carnival // farwell to the flesh..
+                                           
 
 
 [33m  [0m
@@ -33,7 +33,4 @@ demintri.carnival // farwell to the flesh..
 [1;30m▐▌[0;33m [0;1;30m█[0;33m  [0;1;30;47m▀▄[0;33m  [0;1;30;47m▌ [0;1;30;40m▌▀[0;33m  [0;1;30m▄▄[0;1;30;47m▀[0;1;30;40m█▄[0m                      [1;30m▀▄[0;33m  ▀▀[0m     [1;30m▀[0;33m  ▀[0;1;33m▀▀[0;33m▀ ▀[0;1;33;43m▀▓[0;33m▀▐[0;1;33;43m███▄[0;33m▄ ▄[0;1;33;43m▄███[0m
 [33m  [0;1;30;47m▌[0;1;30;40m▌[0;33m [0;1;30m▐[0;1;30;47m [0;1;30;40m▌[0;33m  [0;1;30m█[0;1;30;47m [0;1;30;40m▌ ▄[0;1;30;47m▀▄[0;1;30;40m▀[0;33m [0;1;30m [0;1;30;47m▄▀[0m         [36mcRANIVA[0;1;36mL[0;33m [0;36m;)[0m              [1;30m▀▀[0m   [1;30m▀▄[0;33m  [0;1;30m█[0;33m █[0;1;37m██[0;1;33;43m██▄███▀[0;33m▌  [0m
 [33m  [0;1;30m▐[0;1;30;47m▄[0;1;30;40m▌[0;33m [0;1;30m▀▀▄[0;33m  [0;1;30m▀[0;1;30;47m▄▀▄[0;1;30;40m▀[0m     [1;30m▀▀▄[0m                                         [33m [0;1;30m▀▄[0;33m▀▀[0;1;33;43m▀▀▀▀▀[0;33m▀ [0m
-    [1;30m▀▀▄[0m                                                             [1;30m▀▀[0m    [33m   [0m
-                                                                           [37m [0m
-[37m [0;1;30moutlines: ceelow/thelo0p[0m                                         [35m    [0m
-[1;30m shading^simply b/g: simonking/thelo0p[0m [1;30m[simonking@poczta.onet.pl][0m'
+    [1;30m▀▀▄[0m                                                             [1;30m▀▀[0m    [33m   [0m'

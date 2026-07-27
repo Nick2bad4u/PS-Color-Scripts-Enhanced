@@ -5,7 +5,7 @@
 # Source SHA-256: 4e520dd18d0493cb33c21d212845ca45ff098c51ce64e19afd8a6aef3a573c5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PLEET-02.ANS by pleeto (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: _[[\     ^[] _[[[[[2\0  ^[[[[20
 # SAUCE Author: pleeto
 # SAUCE Date: 19960917
@@ -36,4 +36,4 @@ Write-Host '
 [1;32m![0m     ░  ░░░░[1;47m░░[0m▌[31m▐[0;1;31;41m▌[0;31m▌[0;37m▐[0;1;37;47m░[0m▄▓▀▀[1;31m [0;31;47m▓█[0;37;40m ▀▀▌[0;32;40m▐[0;1;32;42m▌[0;32m▌[0;37m▐▄▌[0;33m▐[0;1;33;43m░[0;33m▌[0;37m▐[0;1;30;47m░[0m▀[1;33m [0;1;33;43m▀▄[0m ▀▀▌[34m▐[0;1;34;44m▐[0;34m▌[0;37m▐▄█▌[0;1;35m▐[0;1;35;45m▄[0;35m▌[0;37m▐[0;1;37;47m░░[0m▓▄[1;30;47m░░[0m▀          [1;32m![0m
 [1;32m![0m           ▐[1;47m░░[0m█ [1;31;41m░▒[0m  [31m▄▄▄▀▀▓[0;37m  [0;32m▓▄[0;37m [0;1;32;42m░▒[0m ▀▓▓ [1;33;43m░░[0m [33m▄▄▀▀[0;37m  [0;34m▓▄[0;37m [0;1;34;44m░▒[0m ▀    [1;35;45m░▒[0m ▀▀█▓▀[1;30mpX[0m          [1;32m![0m
 [1;32m![0m            ▀[1;47m░[0m▀  [31m▀▓▀[0;37m      [0m    [32m▀▀[0m       [33m▀▀[0m        [34m▀▀[0m    [37m  [0m                     [1;32m![0m
-[1;32m└-([0;32m::[0;37m [0;1;37mop: exulted[0m [32m::[0;1;32m)[[0m [30;47ms[0;1;30;40m [0m      [1mh[0m      [1;30m [0;30;47mo[0;1;30;40m [0m      [1mc[0m      [1;30m [0;30;47mk[0;37;40m [0;1;32;40m]([0m [1moohbeeveeslashtoo [0;1;32m)┘[0m'
+[1;32m└  [0;32m  [0;37m [0;1;37m           [0m [32m  [0;1;32m  [0m [30;47m [0;1;30;40m [0m      [1m [0m      [1;30m [0;30;47m [0;1;30;40m [0m      [1m [0m      [1;30m [0;30;47m [0;37;40m [0;1;32;40m  [0m [1m                  [0;1;32m ┘[0m'

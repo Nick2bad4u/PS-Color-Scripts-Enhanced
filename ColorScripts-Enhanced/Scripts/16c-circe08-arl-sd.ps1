@@ -5,7 +5,7 @@
 # Source SHA-256: 194913b76d5818eb139b4ddf6f8df5d8fd313b3cbadae6388ed9013fe40cc9fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-SD.ANS by arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: square dog bbs
 # SAUCE Author: arlequin
 # SAUCE Group: circe
@@ -35,9 +35,6 @@ Write-Host '
                              ▄██▄                  [1;30m▀[0;1;36;46m▀[0;36m▀[0m
 [37m  [0;1;30m▄[0m                          ▀██                   [36m▀[0;1;36;46m▀[0;36m▀[0m
                              [37m▄██▄[0m                  [36m▄▄[0;1;30m▄[0m
-      [36mSmart Drug[0m              [37m█▀[0m                    [36m▀[0m
+      [36m          [0m              [37m█▀[0m                    [36m▀[0m
                              [37m▀█▀[0m                    [36m▀[0m
-                              [37m▄[0m
-
-        [36msorry, the ascii was done in a hurry for a local compo.[0m
-        [36mI think i won.. don''t remember very well...[0m'
+                              [37m▄[0m'

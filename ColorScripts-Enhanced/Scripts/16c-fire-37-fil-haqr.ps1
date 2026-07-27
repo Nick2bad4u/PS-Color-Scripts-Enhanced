@@ -5,7 +5,7 @@
 # Source SHA-256: cb1a5da47e7cc16164f39119a90c5abfd7b79d3f511969bca5b6a7124f96d2d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-HAQR.ANS by filth (FiRE); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: uNALL0CATED hACKERS sPACE
 # SAUCE Author: filth
 # SAUCE Group: FiRE
@@ -41,6 +41,4 @@ Write-Host '
 [38;2;0;0;171;48;2;0;0;0m▌[0;1;38;2;87;87;255;48;2;0;0;0m▀▀[0;38;2;0;0;171;48;2;0;0;0m██[0;1;38;2;87;87;255;48;2;0;0;0m▀▀[0;38;2;0;0;171;48;2;0;0;0m█▄▄██▄▄█▄▄▄▄▄█▄▄██▄▄█▄▄▄▄▄█▄▄██▄▄█▄▄▄▄▄█▌[0;1;38;2;87;87;255;48;2;0;0;0m▀▀▀▀[0;38;2;0;0;171;48;2;0;0;0m █▄▄█████▄▄██▄▄█▄▄▄▄▄█▄▄▄▄▄[0m
 [38;2;0;0;171;48;2;0;0;0m█▄▄██▄▄█████████████████████████████████████████▄▄▄▄▄█████[0;38;2;0;0;0;48;2;0;0;171mC:\filth> del *.* /y [0m
 [1;38;2;87;87;255;48;2;0;0;0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;0;48;2;0;0;171m░[0;38;2;0;0;171;48;2;0;0;0m▓ [0;1;38;2;87;87;255;48;2;0;0;0mnETW0RK c00RDiNAT0R[0;1;38;2;255;87;255;48;2;0;0;0m:[0;1;38;2;87;87;255;48;2;0;0;0m [0;38;2;171;0;171;48;2;0;0;0mdISC0NNEX[0;1;38;2;255;87;255;48;2;0;0;0m [0;38;2;0;0;0;48;2;0;0;171m░[0;38;2;0;0;171;48;2;0;0;0m▓[0;38;2;0;0;0;48;2;0;0;171m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;38;2;0;0;171;48;2;0;0;0m░[0;38;2;0;0;0;48;2;0;0;171m▓[0m
-
-                                                          [1;38;2;87;87;87;48;2;0;0;0mwassup 2: hawkamaniac[0m'
+[38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;0;48;2;0;0;171m░[0;38;2;0;0;171;48;2;0;0;0m▓ [0;1;38;2;87;87;255;48;2;0;0;0mnETW0RK c00RDiNAT0R[0;1;38;2;255;87;255;48;2;0;0;0m:[0;1;38;2;87;87;255;48;2;0;0;0m [0;38;2;171;0;171;48;2;0;0;0mdISC0NNEX[0;1;38;2;255;87;255;48;2;0;0;0m [0;38;2;0;0;0;48;2;0;0;171m░[0;38;2;0;0;171;48;2;0;0;0m▓[0;38;2;0;0;0;48;2;0;0;171m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;38;2;0;0;171;48;2;0;0;0m░[0;38;2;0;0;0;48;2;0;0;171m▓[0m'

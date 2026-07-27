@@ -5,7 +5,7 @@
 # Source SHA-256: 97d99df2cf8032257b9edee70a4340f4ce6b814aeb21029bf67dae0608c359cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aleperez-no_game_over_esp.ans by @AljandroPrez (HPM); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no game over
 # SAUCE Author: @AljandroPrez
 # SAUCE Group: HPM
@@ -18,10 +18,10 @@
 Write-Host '
 [1m────────────────────────────────────────────────────────────────────────────────[0m
   [1;32m╓──────╖[0m [1;32mCENTRO DE INTELIGENCIA[0m
-  [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32mLOS ESCUADRONES GRADIUS Y EXERION HAN CAIDO EN COMBATE. LA REINA[0m
-  [1;32m≡[0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m≡[0m   [1;32mFUE HERIDA PERO LOS HEMOS PERDIDO.[0m
-  [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32mYA HEMOS ENVIADO UN MENSAJE DE AUXILIO A TODA NAVE CON CAPACIDAD[0m
-  [1;32m╚──────╜[0m   [1;32mDE COMBATE QUE ESTE CERCA, PERO NO TENEMOS NOTICIAS[0m
+  [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32m                                                                [0m
+  [1;32m [0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m [0m   [1;32m                                  [0m
+  [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32m                                                                [0m
+  [1;32m╚──────╜[0m   [1;32m                                                   [0m
 [1m███[0;1;33m███[0;31m██████[0;1;34m█████[0;1;34;41m▀[0;1;34;40m███████████████████[0;1;34;41m▀[0;1;34;40m█[0;1;34;41m▀[0;31m████[0;1;33;41m▄[0;1;33;40m██[0;1;33;41m▄[0;31m████[0;1;34;41m▀[0;1;34;40m███████████████[0;1;36;40m███[0;1;37;40m███[0;1;33;40m█[0;1;37;40m█[0;1;31;40m██[0;1;37;40m█[0;1;36;40m█[0m
 [1;33;40m█████[0;31m██████[0;1;34;41m▄[0;1;34;40m█████████████████████[0;1;34;41m▄[0;1;34;40m███[0;1;34;41m▄[0;1;34;40m█[0;31m████[0;1;33m██[0;1;37m██[0;1;33m██[0;31m████[0;1;34m█[0;1;34;41m▄[0;1;34;40m████████████[0;1;36;40m█[0;1;36;42m▀[0;1;37;40m██[0;1;36;40m███[0;1;37;40m█[0;1;31;40m███[0;1;37;40m██[0m
 [1;33;40m██[0;1;33;41m▀▀[0;31m███████[0;1;34m█[0;31m█[0;1;34m█████████████████████████[0;1;34;41m▀[0;31m████[0;1;33;41m▀[0;1;33;40m████[0;1;33;41m▀[0;31m████[0;1;34m███████████[0;1;36m███[0;1;31m██[0;1;37m█[0;1;33m█[0;1;37m██[0;1;36m██[0;1;31m██[0;1;37m███[0m
@@ -43,10 +43,10 @@ Write-Host '
 [1;34m███[0;1;34;41m▄[0;1;34;40m███████[0;1;34;41m▀▄[0;1;34;40m█████[0;1;36;40m█[0;1;34;40m██▄[0m▀██[1;31m█[0m███▀▄[1;47m▀[0m [1m▀[0;32m▄▄▄[0;1;35m▀████[0m █[1m███████████▀██[0m [1;35m█▀[0;32m▄███[0;1;37m███████[0;1;31m██[0;1;37m███[0;1;31m██[0;1;37m█[0m
 [1;37m───────────────────────────────────────────────────────────────────────────────-[0m
   [1;32m╓──────╖[0m [1;32mEL-1 WINBEE[0m
-  [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32mESTOY BAJO UN INTENSO ATAQUE, VEO MAS NAVES DE APOYO CAYENDO...[0m
-  [1;32m≡[0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m≡[0m   [1;32mTENGO DAÑADA MI MANO DERECHA, QUIZAS LA ULTIMA OPORTUNIDAD SEA[0m
-  [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32mACTIVAR EL SISTEMA DE AUTODESTRUCCION ANTES DE SER DERRIBADA.[0m
-  [1;32m╚──────╜[0m   [1;32m... ACELERO HACIA EL OBJETIVO...[0m
+  [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32m                                                               [0m
+  [1;32m [0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m [0m   [1;32m                                                              [0m
+  [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32m                                                             [0m
+  [1;32m╚──────╜[0m   [1;32m                                [0m
 [32m██████████████████[0;1;37m██▀▀▀[0;31m▄▄▄▄█[0;1;34m██████████████████████████▄▄▄▄[0;1;37m▀▀▀██[0;32m█████████████████[0m
 [32m███████████████[0;1;37m█▀▀[0;1;33m▄▄█[0;1;33;41m░░░░[0;31;41m░░[0;31;40m█[0;1;34;40m██████████████████████████[0;1;34;42m▀[0;1;34;40m██████▄▄[0;1;37;40m▀██[0;32m██████████████[0m
 [32m████████████[0;1;37m█▀▀[0;31m▄[0;1;33;41m░░░░░░░░[0;31;41m░░[0;31;40m█[0;1;34;40m████████████████████[0;1;34;42m▀▀▀[0;1;34;40m█[0;1;34;42m▄[0;1;34;40m██[0;1;34;42m▀[0;1;34;40m███[0;1;34;46m▄[0;1;34;40m█████▄▄[0;1;37;40m▀█[0;32m████████████[0m

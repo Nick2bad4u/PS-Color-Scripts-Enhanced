@@ -5,7 +5,7 @@
 # Source SHA-256: 5c5d75b205680a1098517ef36432ce36161415c2dd2f9552b9ede7cdc2330ce3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-ansilove.ans by warpus (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ansi love
 # SAUCE Author: warpus
 # SAUCE Group: Legacy Krew
@@ -51,9 +51,9 @@ Write-Host '
                                        [31m▀██▀[0m
                                         [31m▐[0;1;30m▌[0m
 
-               [1;33;41mansi[0;1;37;40m [0;1;37;41mlove[0m                        [1;37mfor the love of the block[0m
+               [1;33;41m    [0;1;37;40m [0;1;37;41m    [0m                        [1;37m                         [0m
 
 
 
-               [1;30ma warpus feat. tk ANSI[0m
+               [1;30m                      [0m
                       [30;47m█[0m'

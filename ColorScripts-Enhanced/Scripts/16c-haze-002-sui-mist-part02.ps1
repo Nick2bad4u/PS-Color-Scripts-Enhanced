@@ -5,7 +5,7 @@
 # Source SHA-256: e6d9c97cc8b1a5c84bd1c410ac6be8965e1c2cb78fac1262c7f504e129634d1c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUI-MIST.ANS by SuiCyco (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: guardian of the mist
 # SAUCE Author: SuiCyco
 # SAUCE Group: haze
@@ -16,9 +16,9 @@
 
 Write-Host '
                                             [37m▄█[0;1;30;47m▄[0;1;30;40m▀[0m        [34m▒[0m
-[30mfuck this took forever. and the fool i made[0;37m▐█[0;1;30;47m▐[0;1;30;40m▌[0;30mit for st[0;34m░[0;30mill complained about[0m
-[30mit.. sheiit holmes... well, haze  aint goin[0;37m ▀█[0;1;30;47m▀[0;1;30;40m▄[0m [30mout like that in 95''. so stay[0m
-[30mcool, and peace.[0;37m [0;33m ▄[0;1;33m▄▄▄ [0m [30moh ye[0;1;33m.[0m [30mah...[0m          [1;31m.[0m▀[1;30m▌[0;30m [0m
+[30m                                           [0;37m▐█[0;1;30;47m▐[0;1;30;40m▌[0;30m         [0;34m░[0;30m                    [0m
+[30m                                           [0;37m ▀█[0;1;30;47m▀[0;1;30;40m▄[0m [30m                             [0m
+[30m                [0;37m [0;33m ▄[0;1;33m▄▄▄ [0m [30m     [0;1;33m [0m [30m     [0m          [1;31m [0m▀[1;30m▌[0;30m [0m
 [1;34m▄▄▄▄▄▄▄▄▄▄▄[0;1;33m [0;1;34m [0;33m▄▄[0;1;33;43m▄▄[0;1;33;40m██▀▀ [0;1;34;40m▄▄▄▄▄▄▄[0m [33m▌[0;1;34m ▄▄▄▄▄[0m [1;33m▄[0m [1;34m▄▄▄▄▄[0m [1;30;41m▓[0;1;30;40m▀■▄[0m [1;34m▄▄▄▄▄▄▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▄▄▄▄▄▄▄[0;37m [0;34m▄▄[0;37m [0;34m▄[0m
 [1;34;47m▓[0;1;34;40m████████[0;1;33;40m  [0;33m▄[0;1;33;43m▄[0;1;33;40m███[0;1;33;43m█[0;1;33;40m▀ [0;1;34;40m▄█████████[0m [1;33;43m▐[0m [1;34m████▌[0;33m▐[0;1;33m█[0m [1;34m█████[0m ▄[1;30m ▄[0;1;30;47m▓[0m▌ [1;34m████[0;1;34;44m▓▓▓▒▒▒░░░[0;34m███▓▓▓▒▒▒░░░[0m
 [1;34m▀▀▀▀▀▀▀▀[0;1;33m [0;33m▐[0;1;33;43m▄[0;1;33;40m████▀ [0;1;34;40m ▀▀▀▀▀▀▀▀▀▀▀[0m [1;33;43m▐[0m [1;34m▀▀▀▀[0m [33m▐[0;1;33;43m▐[0;1;33;40m▌[0;1;34;40m ▀▀▀▀[0m [1;30;47m░[0;1;30;40m▌[0;1;30;47m░▒[0;1;30;40m▄[0m [1;34m▀▀▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀▀▀▀▀▀▀[0;37m [0;34m▀▀[0;37m [0;34m▀[0m

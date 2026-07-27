@@ -5,7 +5,7 @@
 # Source SHA-256: 4bc621338ad9c8b9dc8240f660feec0ab97ac2292149ab381b13ee46774b0180
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MO-DEAD1.ANS by Manslaughter (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 38-74
 # Columns: 1-80
 
@@ -37,12 +37,7 @@ Write-Host '
 
 
 
-                                     [1;37;40mMt. [0mOlymp[33mus[0m
-                                     [1;37mSys[0mop: Ze[33mus[0m
+                                     [1;37;40m    [0m     [33m  [0m
+                                     [1;37m   [0m      [33m  [0m
                                     [1;37m904[0m-375-71[33m52[0m
-                                      [1;37m660 [0mMe[33mgs[0m
-                                  [1;37mRunning [0mLSD 1[33m.42[0m
-                           [1;37mTSANNET HUB [0mand Florida Out[33mpost[0m
-                             [1;37mTSANNET/O[0mOFNET/UTNET/TC[33mSNET[0m
-
-                               [31mANS[0;1;31mI:MAN[0;1;37mSLAUGH[0;1;31mTER:D[0;31meAD[0m'
+                                      [1;37m660 [0mMe[33mgs[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b372abca936eba75d5e208cd3e54df5765f2d27fc7391044e8a13c921ee59c3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PNK-AFRO.ANS by phanatik (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: aphro
 # SAUCE Author: phanatik
 # SAUCE Group: lazarus
@@ -25,8 +25,4 @@ Write-Host '
 [37m [0;32m$,_[0;1;37m`[0;32m  `^"^`        [0;1;32m$#%s[0;32m┬s%#S$$$   `$$$$$╝'' [0;1;37m''[0;32m_,    $$$$$$$%#S$b,   `^"^`   _,$[0m
 [37m [0;32m$$$$S#%sss%#$SSS   [0;1;32m;$[0;32m$$$$$$$$$s%#S$$$$$ss%S$$$$S#%s$$$$$$$$$$$$$$#%sss%#S$$$$[0m
 
-         [1;31m>>[0;36m yeah[0;1;36m,[0;36m we gonna [0;1;33mgrafity[0;36m your house and [0;1;33mfux0r[0;36m your mom[0;1;36m!#@[0m [1;31m<<[0m  [35m░[0;30;45m▓[0m
-
-
-[37;40mthis is the only ascii i made which is actually turned out goote.[0m
-[37;40mgreets to the whole #[0;1;37;40m972[0m shabeng. i love you guys, no. [1mpnk[0m([1mlaz[0m)[0m'
+         [1;31m  [0;36m     [0;1;36m [0;36m          [0;1;33m       [0;36m                [0;1;33m     [0;36m         [0;1;36m   [0m [1;31m  [0m  [35m░[0;30;45m▓[0m'

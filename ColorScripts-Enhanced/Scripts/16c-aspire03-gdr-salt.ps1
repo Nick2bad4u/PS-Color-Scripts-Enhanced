@@ -5,7 +5,7 @@
 # Source SHA-256: 822e2966de2fbaa8df339a17292c6ce6379decbb71973cb6ce78b4be738f67a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GDR-SALT.ANS by gravedancer (aspire); released in aspire03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: salt
 # SAUCE Author: gravedancer
 # SAUCE Group: aspire
@@ -37,5 +37,4 @@ Write-Host '
 [37;40m███▌[0;31;40m █▌[0;37;40m [0;33;40m▐[0;1;31;43m▓▓▒▒[0;33m▌   ▀██▀▐██▀▀▀▀[0;31m  ▄▄▄▄ [0;33m▀▀▀▀▀██[0;1;30;43m░░[0;33m█▀ [0;32m [0;1;32m▐[0;1;32;42m▒▒░[0;32m  ▐█████▄▄[0;36m   [0;37m▀▀▀███[0;37;46m█████████[0m
 [37;40m█▀▀[0;36;40m [0;37;40m [0;33;40m▄ ▐[0;1;31;43m▒▒░░░[0;33m█       ████▀  [0;31m▀[0;1;31m▀[0;1;31;41m▒[0;1;31;47m▓[0;1;31;41m▒[0;31m▀█▀[0;1;30m▀[0;33m ▐██[0;1;30;43m░[0;33m█▀ [0;32m [0;1;32m▐[0;1;32;42m▓▒░[0;1;32;40m▒[0;32m▌[0;33m [0;32m▐[0;1;32m▒▒[0;32m████████▄▄ [0;36m [0;37m    ▀▀▀▀▀   [0m
 [37m  [0;33m▀▀███▄[0;1;31;43m░░░░[0;33m▀         ▀▀██▌ [0;31m▀[0;1;31m▀[0;1;31;47m▓▓[0;1;31;41m░[0;31m▀▀[0;1;30m▀[0;31m [0;33m▀███▀[0;32m  [0;1;32m▐[0;1;32;42m▓[0;1;32;40m▓[0;1;32;42m░[0;1;32;40m▒▒[0;32m▌ [0;33m [0;32m ▐████████████▌▄▄▄[0;36m         [0m
-[37m--[0m
-[37mmade this for salt, so if your board isn''t salt, don''t use it.[0m'
+[37m--[0m'

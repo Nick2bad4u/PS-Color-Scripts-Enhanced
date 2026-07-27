@@ -5,7 +5,7 @@
 # Source SHA-256: 11a11b0b253fe8f74cfed2b8b60c8b12f13a29bfaf10ea0e87eac0ea25d36f06
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-FMSH.ANS by superbym (poffelipoff); released in plf-0499 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fSOL - Mutated Mushrooms
 # SAUCE Author: superbym
 # SAUCE Group: poffelipoff
@@ -38,5 +38,4 @@ Write-Host '
 [35m█[0;1;35;45m▄[0;35m█▄▄[0;1;30m▐█▀▀[0;35m▄█[0;1;35;45m▀[0;35m█▄██[0;30;47m█[0;35;40m█[0;1;35;45m█[0;30;47m█[0;1;30;40m██[0;30;47m█[0;37;40m█[0;1;37;40m▓▒[0;30;47m▌▀[0;1;37;40m▐██[0;30;47m▐[0;37;40m█[0;1;37;40m███[0;30;47m █[0;1;30;40m████▀▄▄██▀[0;30;47m██[0;1;30;40m▄▄██[0;1;30;46m██▀▐▓▀▌[0;36m▌[0;1;30m▐[0;1;30;47m▄  ▓[0;1;30;40m█▌▐[0;1;30;47m  ▓▀[0;30;47m██[0;1;30;47m▌[0;1;37;47m▒[0;1;37;40m▒▒[0m
 [35m█[0;1;35;45m▀▌[0;35m▀▀▄▄█[0;1;35;45m▄▄▀[0;35m▀▐███[0;30;47m█[0;35;40m▐[0;1;35;45m▐[0;35m▌[0;1;30m▐██▄[0;30;47m▄█▄▄▄[0;37;40m████[0;30;47m▄▌[0;1;37;40m█▀[0;30;47m██[0;1;30;40m▄▄██████████[0;1;30;46m▓▌▀▓▀▄[0;36m█████[0;1;30m▄▀▀[0;1;30;47m▄[0;1;30;40m██[0;30;47m█[0;1;30;40m▀▀[0;1;30;47m▄▐[0;1;30;40m█▌[0;30;47m█[0;1;30;40m▐[0;1;30;47m▄[0;1;37;47m▓[0;1;37;40m▓[0m
 [30;47m█[0;35;40m▀███[0;1;35;45m▄██▀[0;35m█▄▄[0;30;47m█[0;35;40m [0;30;47m█[0;35;40m▀█▄██▄[0;1;30;40m▀[0;1;30;47m▓▓▀[0;1;30;40m██▀▀[0;30;47m████[0;35;40m▄[0;30;47m█████[0;1;30;40m▄▄[0;1;30;47m▓[0;1;30;40m▀▀▀[0;1;37;40m░░[0;1;30;40m█[0;1;30;46m█▄█▄ [0;36m███[0;1;30;46m▀▌[0;36m██[0;1;30;46m▀[0;36m██[0;1;30;46m▀[0;1;30;40m▄[0;30;47m█████[0;1;30;40m▀▀███[0;30;47m█[0;1;37;40m [0;1;30;47m▌[0;1;37;40m█[0;1;37;47m█[0m
-[35m█████████████▀[0;30;47m████[0;35;40m▀▀[0;30;47m███[0;1;30;40m▀▀[0;30;47m██[0;35;40m░░▄  [0;1;30;40m▄▄▄▄▄█▀▄▄▄██[0;1;30;46m███▓▓▀▀ [0;36m██[0;1;32;46m  [0;36m█████████▄[0;1;30m▄[0;30;47m█[0;1;30;40m▄▄██[0;1;30;47m▀▓▓[0;1;30;40m▄[0;1;30;47m▀[0;1;37;47m▄ ▀[0m
-                                                            [33m>>[0;32m [0;36mel[0;33m [0;36mniño''s[0;33m [0;35m::[0;33m [0;1;33mfsol[0m'
+[35m█████████████▀[0;30;47m████[0;35;40m▀▀[0;30;47m███[0;1;30;40m▀▀[0;30;47m██[0;35;40m░░▄  [0;1;30;40m▄▄▄▄▄█▀▄▄▄██[0;1;30;46m███▓▓▀▀ [0;36m██[0;1;32;46m  [0;36m█████████▄[0;1;30m▄[0;30;47m█[0;1;30;40m▄▄██[0;1;30;47m▀▓▓[0;1;30;40m▄[0;1;30;47m▀[0;1;37;47m▄ ▀[0m'

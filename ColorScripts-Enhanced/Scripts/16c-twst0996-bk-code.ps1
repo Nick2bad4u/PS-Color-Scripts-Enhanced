@@ -5,7 +5,7 @@
 # Source SHA-256: 3fe71a61b8761e3c07eaae9c0f680777f0fab7a2d900d0ace4a751224162ba8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-CODE.ANS by Black Majick + Putrid Carcass (twisted); released in twst0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: codegarden
 # SAUCE Author: black majick/pkarkk
 # SAUCE Group: twisted
@@ -47,6 +47,4 @@ Write-Host '
 [1;36m██[0;35m ▀[0;1;35;45m▀▀░[0;35m▄█[0;1;35;45m▀▀[0;35m▀[0;37m [0;35m ▀[0;1;35;45m▀▀[0;35m█▄█[0;1;35;45m▀▀[0;35m▀[0;1;36m ▒[0;1;36;46m ░░░▀▀▀▀[0;36m██▌ [0;1;36m [0;36m         ▐[0;1;36;46m▀▀▀▀▀▀▀▀▌[0;36m▌[0;35m▐[0;1;35;45m▀▀▀[0;35m█▄█[0;1;35;45m▀▀[0;35m▀[0;37m [0;35m ▀[0;1;35;45m▀▀[0;35m█▄█[0;1;35;45m▀▀[0;35m▀[0m
 [1;30m────--────────────────────────────────────────────────────────────────────--────[0m
    [1m░░[0m              [1m♦ [0m G     A       R       D   [1m [0m   E   [1m [0m   N [1m ♦[0m            [1m░░[0m
-[1;30m────--────────────────────────────────────────────────────────────────────--────[0m
-                     [1;30maNSI bY [0mbLACK mAJICK [1;30mwITH[0m [1;30ma lIL [0mpKARKASS
-                                          [35m  [0m'
+[1;30m────--────────────────────────────────────────────────────────────────────--────[0m'

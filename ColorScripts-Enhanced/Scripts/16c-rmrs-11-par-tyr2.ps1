@@ -5,7 +5,7 @@
 # Source SHA-256: 53d55855ff7b9e5fb03da1cef144d541b7e8fd7952f21b9db6227dffae87f2ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-TYR2.ANS by Pariah (REMORSE); released in rmrs-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tyrone Emag
 # SAUCE Author: Pariah
 # SAUCE Group: REMORSE
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m╘IICSNA [0m- [1;36mpariah[0m          ,[1;33md$P[0;33m''[0;1;30m`[0m             [1m      [0m     [1;36mTYRONE EMAG[0m [1mrun by empty[0m
+[1m╘       [0m  [1;36m      [0m           [1;33m   [0;33m [0;1;30m [0m             [1m      [0m     [1;36m           [0m [1m            [0m
                         ,[1md[0;1;33m$$K[0m  [33m___[0;1;33m___[0;1;34m [0m     [1;33m   [0m
                [33m_,[0;1;33mg@58$[0m |[1m$[0;1;33m$$$$h[0;33m,`7[0;1;33m$$$$85@g,[0;33m_[0m   [37m                    [0m
             [33m,[0;1;33m╒8$$$$$$$[0;33m,`[0;1;33m7$$$$$$$$$$$$$$$$$$8╕[0;33m,[0m                   [1;32m               [0m
@@ -37,5 +37,4 @@ Write-Host '
 [1;32m$$$$$$$$$[0;32mh,[0;33m`7[0;1;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;33mP''[0;32m,d[0;1;32m$$$$$[0;32my[0;1;32m [0;32mgy[0;1;32m [0m(c)[1;30m [0;1;37mpariah[0;1;32m  [0;35m  [0;30m  [0;32m$[0;1;32m$$$$$[0m
 [32m$[0;1;32m$$$$$$$$$$[0;32mh,[0;33m`7[0;1;31m$$$[0;33m''[0;37m,yy[0;1;37myyyyyyyyyyyyy[0myy,[33m`[0;1;31m$$$[0;33mP''[0;32m,d[0;1;32m$$$[0;1;37m$$[0;1;32m$$$$$[0;32m$[0;1;32m [0;1;30m            [0;35m  [0;1;32m  [0;32m$[0;1;32m$$$$[0;32m$[0m
 [32m$[0;1;32m$$$$$$$$$$$$[0;32mh,[0;33m`7$[0;37m $$[0;1;37m$88$$$8888$8[0;1;33m88[0;1;37m$[0m$$ [33m$P''[0;32m,d[0;1;32m$$$$$$$$$$$$$85555555555555[0;32m588[0;1;32m$$$$$[0;32m$[0m
-[32m$$5[0;1;32m$$$$$$$$$$$$[0;32mh,[0;33m`[0;37m $[0;1;37m$$$$$$$[0m$ $[1m$$$$$$$[0m$ [33m''[0;32m,d[0;1;32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;32m5$$[0m
-                          [37m                        [0m'
+[32m$$5[0;1;32m$$$$$$$$$$$$[0;32mh,[0;33m`[0;37m $[0;1;37m$$$$$$$[0m$ $[1m$$$$$$$[0m$ [33m''[0;32m,d[0;1;32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;32m5$$[0m'

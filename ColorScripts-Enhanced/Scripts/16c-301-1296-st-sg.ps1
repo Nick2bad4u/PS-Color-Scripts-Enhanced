@@ -5,7 +5,7 @@
 # Source SHA-256: 7b9827dcb10a5aab7604be5ecb513c67dad4b285d57827cd0b7055b743ddd2ff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-SG.ANS by stile (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spinal gamma
 # SAUCE Author: stile
 # SAUCE Group: project/301
@@ -34,5 +34,4 @@ Write-Host '
 [1m  [0m      ▒ [1m█[0;1;34;44m█[0;1;37;40m█  █ [0m  [1m▌█[0;1;34;44m▓[0;1;37;40m█  █ [0m  [1m▌█[0;1;34;44m▓[0;1;37;40m█  █[0m  [1;47m▓[0;1;40m [0m  [1m▌█[0;1;34;44m▓[0;1;37;40m█  █[0m  [1;47m█[0;1;40m [0m  [1m▌█[0;1;34;44m▓[0;1;37;40m█  █[0m ▒
 [1m  [0m      ░ [1m▄▀▀▀▀█ [0m  [1m▌█[0;1;34;44m█[0;1;37;40m█▀▀█ [0m  [1m▌█[0;1;34;44m█[0;1;37;40m█  █[0m  [1;47m█[0;1;40m [0m  [1m▌█[0;1;34;44m█[0;1;37;40m█  █[0m  [1;47m█[0;1;40m [0m  [1m▌█[0;1;34;44m█[0;1;37;40m█▀▀█[0m ░
 [1m  [0m      [1;30m░[0m [1;30m [0;1;37m▀▀▀▀  [0m [1m  ▀▀▀  ▀ [0m  [1m ▀▀▀  ▀[0m  [1m▀ [0m [1m  ▀▀▀  ▀[0m  [1m▀ [0m  [1m ▀▀▀  ▀[0m [1;30m░ [0m
-        [1;30m───────────────────────────────────────────────────────────[0m [1;30m─[0m
-        [1;30mansi by [0ms[1;30mtile of p/301[0m'
+        [1;30m───────────────────────────────────────────────────────────[0m [1;30m─[0m'

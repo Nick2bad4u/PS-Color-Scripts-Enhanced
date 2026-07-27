@@ -5,7 +5,7 @@
 # Source SHA-256: 0cc20cf099573802c4ebaec965d1ca29c196741fcfcdf1dba320de943f71e82e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HF-CCI.ANS by Happyfish (mISTFUNK 1998); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: CyberCrimeInternational Warning
 # SAUCE Author: Happyfish
 # SAUCE Group: mISTFUNK 1998
@@ -46,5 +46,5 @@ Write-Host '
       [30;47m               ▀▀▀▀▀▀▀▀█[0;1;37;42mCCI░ANSI[0;30;47m█    [0;1;30;47m▀▀[0;1;30;40m▄▄[0;30;47m███[0;31;40m▀▀[0;1;31;41m▓▓▓[0;1;31;40m███[0;1;31;41m▓▓░[0;30;47m█▌   ▀▀▀███[0m
       [30;47m     ▄                 ▐[0;32;40m▐[0;1;32;40m▒[0;1;37;42mPATROL[0;1;32;40m▌[0;30;47m▌       [0;1;30;47m▀▀[0;1;30;40m▄▄[0;30;47m████[0;31;40m▀▀▀▀[0;30;47m██▀         ▐[0m
       [30;47m  ▄█▀                   ▀▀▀▀▀▀▀▀▀▀           [0;1;30;47m▀▀▀[0;1;30;40m▄▄▄▄[0;30;47m▀▀            [0m
-      [30;47m▄██ [0;1;30;47m=)α[0;30;47m [0;1;30;47m- mist ''97[0;30;47m          ▄ [0;1;30;47mcybercrime: we pulp lamers [0;30;47m▄[0;1;30;47m [0;30;47m       [0m
+      [30;47m▄██ [0;1;30;47m   [0;30;47m [0;1;30;47m          [0;30;47m          ▄ [0;1;30;47m                           [0;30;47m▄[0;1;30;47m [0;30;47m       [0m
                                  [30;47m▄[0m                              [30;47m▐[0m'

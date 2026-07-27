@@ -5,7 +5,7 @@
 # Source SHA-256: e9d4ec22df9badd70dfe1edbc1bc1b28074d1e6130f940b40fdef75f267daa1d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-AL01.ANS by Cleaner (27inch05); released in 27inch05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -35,6 +35,6 @@ Write-Host '
 [35m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [35m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 
-[37m  For an upcoming project of mine!                 Cleaner[0;1;30m([0m27"[1;30m)[0m [1;30m- [0mOctober 2003
-  Living in the nineties forever..                 http[1;30m://[0mcleaner[1;30m.[0mplanet-d[1;30m.[0mnet
+[37m                                                          [0;1;30m [0m   [1;30m [0m [1;30m  [0m            
+                                                       [1;30m   [0m       [1;30m [0m        [1;30m [0m   
                                   [30m ■ A N S i ■[0m'

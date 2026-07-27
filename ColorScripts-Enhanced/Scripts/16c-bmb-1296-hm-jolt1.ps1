@@ -5,7 +5,7 @@
 # Source SHA-256: 78cb40ba6be2d937ed54923909c95c95e31ae22ace34d28a6ec06a0899af80ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HM-JOLT1.ANS by head mOnk (bamboosh); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jolt again!
 # SAUCE Author: head mOnk
 # SAUCE Group: bamboosh
@@ -34,8 +34,4 @@ Write-Host '
                                   [1;34m [0m [32m▀▀█[0;1;32;42m░▒▓▓▓▓▓▓▓▓[0;1;32;40m██████████████[0;1;32;42m▓▓▓▓▒▒▒░░░░ [0;32m▀[0m
                           [32m       [0m       [32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;32m [0m
 
-[35m--[0m
-[1;30mThis I also made for my friend Snowpage[0m                           [35m[[0;1;30mhead m[0;35mO[0;1;30mnk[0;35m][0m
-[1;30mI think it looks funny, it''s a krokofant[0m
-[1;30mi think! Hmm..greetz to Bamboosh crew![0m
-[1;30mYeehaa ![0m'
+[35m--[0m'

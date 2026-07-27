@@ -5,7 +5,7 @@
 # Source SHA-256: 5c982bd0b29a07728d46cc70246205a92fe89ef1072e0e8833abe78b21e80944
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-SG.ANS by The Reaper (purg-01); released in purg-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-17
 # Columns: 1-80
 
@@ -21,8 +21,8 @@ Write-Host '
 [1;30m█▓▒[0m [1;30;44m    [0;34m▄[0;1;30;44m   [0m [1;30m    [0m [1;30;44m░▒▓[0m [1;30;44m    [0m [1;30;44m░▒▓[0m [1;30;44m    [0m [1;30;44m░▒▓[0m [1;30;44m   [0;34m▀▄[0;1;30;44m░▒▓[0m [1;30;44m    [0m [1;30;44m░▒▓[0m      [1;30;44m░▒▓[0m [1;30;44m   [0;34m▀▄[0;1;30;44m░▒▓[0m [1;30m▒▓█[0m
 [1;30m▀█▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓█▀[0m
  [1;30m▀███████████████████████████████████████████████████████████████████████████▀[0m
-                                                                     [1;30mtr[PuRG][0m
-    [1;36m [0m              [34mtw[0;1;34mone[0;36mnine[0;1;36mseven[0;1;37mthreeight[0;1;36moneon[0;36meigh[0;1;34mtfo[0;34mur[0m
-   [1;36m      [0m              [1m [0;1;34m [0;1;37m─[0;36msop[0;1;36mz.sta[0;1;37mrgazer.he[0;1;36mllbea[0;36mst[0;1;37m─ [0m
-   [36m    [0m              [1;37m∙°  ─[0;36mphu[0;1;36mqn.up[0;1;37m.renegade[0;1;36m.1o-o[0;36m5[0;1;37m─  °∙[0m
+                                                                     [1;30m        [0m
+    [1;36m [0m              [34m  [0;1;34m   [0;36m    [0;1;36m     [0;1;37m         [0;1;36m     [0;36m    [0;1;34m   [0;34m  [0m
+   [1;36m      [0m              [1m [0;1;34m [0;1;37m─[0;36m   [0;1;36m     [0;1;37m         [0;1;36m     [0;36m  [0;1;37m─ [0m
+   [36m    [0m              [1;37m    ─[0;36m   [0;1;36m     [0;1;37m         [0;1;36m     [0;36m [0;1;37m─    [0m
                      [1m`[0;1;36m·..[0;36m∙''[0m                     [36m`∙[0;1;36m..·[0;1;37m''[0m'

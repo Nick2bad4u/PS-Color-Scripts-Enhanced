@@ -5,7 +5,7 @@
 # Source SHA-256: 6211ae99413a566e3c5b6e0849897d60cdedda0f272a5da6679fcd9a9a7027de
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEL-BLOK.ANS by delicious (blocktronics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blocktronics
 # SAUCE Author: delicious
 # SAUCE Group: blocktronics
@@ -39,5 +39,4 @@ Write-Host '
 [37m  [0;1;30m█[0;1;30;47m▄[0;1;30;40m▀[0m    [1;30m▀[0m█[1;30;47m▀[0;36m  ▐[0;1;36;46m▒▒[0;36m [0;1;36;46m ▒▒[0;36m    █[0;1;36;46m▓▓[0;36m█    █[0;1;36;46m▓[0;36m█[0;1;36;46m▓██[0;36m▌[0;1;30m█[0;1;30;47m▓[0;36m █[0;1;36;46m▒▒[0;36m  █[0;1;36;46m▒▒[0;36m [0;1;36;46m▀██[0;36m▄▄[0;1;36;46m▄▓██[0;36m▄    [0;1;36;46m▒▒[0;36m█[0;37m  [0;1;30m█[0;1;30;47m▀[0m░
           [1;30m█[0;1;37;47m▓[0m  [36m▐[0;1;36;46m░░[0;36m▓[0;1;36;46m ░░[0;36m [0;1;30m█[0;1;30;47m▀[0;1;30;40m▄[0;36m ▀[0;1;36;46m▒▒░[0;36m▄▄███ ███▌[0;1;30m█[0;1;30;47m░[0;36m █[0;1;36;46m░░[0;36m  █[0;1;36;46m░░[0;36m  ▀▀[0;1;36;46m▀■[0;36m█▀ [0;1;36;46m   [0;36m▄▄[0;1;36;46m░[0;36m█▀[0;37m  [0;1;30m█[0;1;30;47m░▄[0m
           [1;30m▄▄[0m▄         [1;30m▀█[0;1;30;47m▓▀[0;1;30;40m▄▄[0;36m▀[0;1;36;46m░[0;36m███▀[0m      [1;30;46m░[0;1;30;47m▄[0m         [1;30m█[0;1;30;47m▀▀[0;1;37;40m▄[0;36m  [0;1;30m▄[0m▄[1;30;46m▓[0;36m▀[0;1;30;46m░▒▒[0;1;36;46m [0;36m▀[0;37m  [0;1;30m▄[0;1;30;47m▀▄▄[0m
-          [1;30m▀▀▀▀▀▀▀ ▀▀[0m     [1;30m▀[0;1;30;47m▄▄[0;1;30;40m█[0m [1;30mb[0m [1;30ml[0m [1;30mo[0m [1;30mc[0m [36mk[0m      [1;30m-[0m   [1;30m▀▀[0m [1;30m▀▀[0m▀  [1;30m▀[0;1;30;47m▄[0;1;30;40m█[0m      [1;30m▀▀ ▀▀[0m
-                          [1;30mt[0m [1;30mr[0m [1;30mo[0m [1;30mn[0m [36mi[0;37m [0;1;30mc[0m [1;30ms[0m   [36mthanks for the [0;1;36mmemories[0;36m.[0m'
+          [1;30m▀▀▀▀▀▀▀ ▀▀[0m     [1;30m▀[0;1;30;47m▄▄[0;1;30;40m█[0m [1;30mb[0m [1;30ml[0m [1;30mo[0m [1;30mc[0m [36mk[0m      [1;30m-[0m   [1;30m▀▀[0m [1;30m▀▀[0m▀  [1;30m▀[0;1;30;47m▄[0;1;30;40m█[0m      [1;30m▀▀ ▀▀[0m'

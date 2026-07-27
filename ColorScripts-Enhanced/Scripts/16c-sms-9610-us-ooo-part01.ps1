@@ -5,7 +5,7 @@
 # Source SHA-256: 9a4589c1e9ec3c8f3335bea65e147368dfb1a4e46ac75e1dba7a5d8678e9c0ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-OOO.ANS by Mice + Eerie (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Out Of Order
 # SAUCE Author: Mice & Eerie
 # SAUCE Group: Samsara
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-*)> aIJaa + a)Iw hq LuIor-II)se <(*         *)> ascii-joint by mice + eerie <(*
+                                                                               
 ──-──────-──-─────────-─-──────────────-──────────-───────────────--─────────--
 [31m$$$''[0;32md$$$$$$$$$$$$$$$$$$$SS[0;1;32my[0;32my,[0;31m"²S$$$$$$[0;30;41m$$[0;31;40m$$$$$S[0;1;31;40ms,[0;1;37;40m"²$[0;1;36;40m$$s[0;1;37;40m,    "$$$[0;1;36;40m$S[0;1;37;40ms[0m     [1;37;40m$[0;1;36;46m░[0;1;36;40ms[0;1;37;40m, [0mm?
 [31m$²[0;32m,$$$$$$$$$$[0;1;32;42m░[0;32mS²$$$$$$$$$Sy[0;1;32m`$[0;32m$$Sy,[0;31m"²$$$²²²$²²²²²[0;1;31m$b[0;1;37m`$$[0;1;36m$$[0;1;37m,    `$$$[0;1;36m$$[0;1;37mb   ,$S[0;1;36m²$[0;1;37mb[0m
@@ -44,8 +44,8 @@ Write-Host '
 [32mTTSSSS$$SSSSSSTTl╧''d$[0;1;32m$$²[0;32mb`²lTTSSS$$$$$$SSSS$$$$$##$[0;1;32m$''[0m      [1;30m$$$$$$$$$$$$$$[0m░░[1;30m$┘[0m
 [32mlTTTSSSSSSSTTl╧²''d$$[0;1;32m$''[0;32md$$$$Ss,"²TSSS$░²²$$$$$[0;1;32;42m$$[0;32m$$[0;1;32;42m▒[0;1;32;40m$²[0m       [1;30;40mY$$""''[0m
 [32m╧ilTTTSl╧²"    ,S$$[0;1;32m$''[0;32md$$$$$$$$$Ss,"²TSSyy$$$$$$[0;1;32m$S²"[0m        [1;30m`"$$#s[0m
-[1;30my,[0m     [1;30myy²   [0;32m,d$$[0;1;32;42m░[0;1;32;40m$''[0;32md$$$$$$SSSSSSSS░Ss,"²S[0;1;32mS[0;32m$[0;1;32mS²" [0;32m.,[0;1;30my[0m                  [1;30m$s[0m
-[1;30m²[0m     [1;30my²''   [0;32md$$$[0;1;32m$''[0;32md$$$$$$$$SSSTTTTTTSSSS$$SyyyySSTi;[0;1;30m,[0m                    [1;30m"#s[0m
+[1;30m  [0m     [1;30m      [0;32m    [0;1;32;42m░[0;1;32;40m  [0;32m               ░      [0;1;32m [0;32m [0;1;32m    [0;32m  [0;1;30m [0m                  [1;30m  [0m
+[1;30m [0m     [1;30m      [0;32m    [0;1;32m  [0;32m                                  [0;1;30m [0m                    [1;30m   [0m
           [32m,$$$$Sy$$$$$SSSTTTTII╧╧²²"""²²╧╧SS$$▓SSTTll[0m                       [1;30m$[0m
          [32m,$$$²²$$$$SSSSTT╧╧²²"[0;1;37m,yySS$$$SSy ,._[0;32m"²²╧╧Il''[0m                     [1;30ms#$[0m
        [1;30my [0;32m╧²""  ╧╧²²""[0;1;37m_,yySS $$$$$##$$$$$''d$$$$SSy, [0;32m"[0;1;30m,[0m            [1;30mY$$$$$$$$$$$[0m

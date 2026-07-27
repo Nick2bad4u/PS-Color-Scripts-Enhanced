@@ -5,7 +5,7 @@
 # Source SHA-256: 03d93910b53cb36cf6475deffd31f001b479b90dc47cde9a61a65919963673f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-CYBER.ANS by Dark Horizon (READ THE INI FILE); released in xide0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: CyberPhuck
 # SAUCE Author: Dark Horizon
 # SAUCE Group: READ THE INI FILE
@@ -57,6 +57,4 @@ Write-Host '
 [34m███████████████████▄▄▄▄ [0;35m▀▀▀▀███████████████████████████▀▀▀▀▀ [0;34m▄▄█████████████████[0m
 [34m███████████████████████████▄▄▄▄ [0;35m▀▀▀▀█████████████▀▀▀ [0;34m▄▄▄████████████████████████[0m
 [34m███████████████████████████████████▄▄▄ [0;35m▀▀▀▀▀▀▀ [0;34m▄▄▄██████████████████████████████[0m
-[34m████████████████████████████████████████████████████████████████████████████████[0m
-[36mC[0;1;36mA[0;1;37mLL [0;36mC[0;1;36mY[0;1;37mBER [0;36mP[0;1;36mH[0;1;37mUCK, [0;36mR[0;1;36mU[0;1;37mNNING [0;36mA C[0;1;36mE[0;1;37mRTAIN [0;36mB[0;1;36mB[0;1;37mS [0;36mP[0;1;36mR[0;1;37mOG, [0;36mX[0;1;36mi[0;1;37mDE [0;36mD[0;1;36mI[0;1;37mSTRO, [0;36mC[0;1;36mA[0;1;37mLL [0;36mA[0;1;36mT [0;36m8[0;1;36m1[0;1;37m3-[0;36mE[0;1;36mA[0;1;37mT-[0;36mM[0;1;36mE[0;1;37m!![0m
-[36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0;1;37mAH, [0;36mB[0;1;36mL[0m'
+[34m████████████████████████████████████████████████████████████████████████████████[0m'

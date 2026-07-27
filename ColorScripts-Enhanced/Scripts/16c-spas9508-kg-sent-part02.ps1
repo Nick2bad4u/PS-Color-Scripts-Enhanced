@@ -5,7 +5,7 @@
 # Source SHA-256: 178c77d96030b514f700267b9e2fdab9b10a4d008a6b82c91f99a8895ac67fe4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KG-SENT.ANS by Krieg (spastic); released in spas9508 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sentouku
 # SAUCE Author: Krieg
 # SAUCE Group: spastic
@@ -45,7 +45,4 @@ Write-Host '
 [37;40m ▀[0;31;47m▀■[0;37;40m▓▄▄▄▄▄▄■▄▄▄ █[0;31;47m█[0;37;40m█▓▄▄▄▄[0;31;47m■▀▀▀▀▀[0;37;40m██[0;31;47m█[0;37;40m█     █[0;31;47m█████[0;37;40m██[0;31;47m▀▀▀▀▀[0;37;40m█     █[0;31;47m█[0;37;40m██[0;31;47m█[0;37;40m█     █[0;31;47m█████ [0;31;40m [0m
 [37;40m ▄▄▄▄▄▄▄    [0;31;47m ██[0;37;40m██[0;31;47m█[0;37;40m█     ▄▄▄▄▄▄▄█[0;31;47m█[0;37;40m█     █[0;31;47m█████[0;37;40m█            █[0;31;47m█[0;37;40m██[0;31;47m█[0;37;40m█ [0m    [31;47m █████[0;37;40m█[0m
 [37;40m [0;31;47m █████[0;37;40m█    █[0;31;47m██[0;37;40m██[0;31;47m█[0;37;40m█     █[0;31;47m█████[0;37;40m██[0;31;47m█[0;37;40m█     █[0;31;47m█████[0;37;40m█            █[0;31;47m█[0;37;40m██[0;31;47m█[0;37;40m█ [0m    [37;40m█[0;31;47m█████[0;37;40m█[0m
-[37;40m ▀█[0;31;47m▀▀▀▀■[0;37;40m▄▄▄▄[0;31;47m■▀▀[0;37;40m██[0;31;47m▀■[0;37;40m■▄▄▄▄[0;31;47m■▀▀▀▀▀[0;37;40m▀█[0;31;47m▀[0;37;40m█     █[0;31;47m▀▀▀▀▀[0;37;40m█  kg!      ▄[0;31;47m■▀[0;37;40m█▀[0;31;47m▀[0;37;40m▓▄▄▄▄▄[0;31;47m■▀▀▀▀▀[0;37;40m▀[0m
-
-[37;40m Sentouku! Spastic US HeadQuarters, Sysops : Eoijin and Krieg, All Anime pics, [0m
-[37;40m text, nothing but Anime! Obv/2, 305-570-6662, Best Anime board in the 305 ![0m'
+[37;40m ▀█[0;31;47m▀▀▀▀■[0;37;40m▄▄▄▄[0;31;47m■▀▀[0;37;40m██[0;31;47m▀■[0;37;40m■▄▄▄▄[0;31;47m■▀▀▀▀▀[0;37;40m▀█[0;31;47m▀[0;37;40m█     █[0;31;47m▀▀▀▀▀[0;37;40m█  kg!      ▄[0;31;47m■▀[0;37;40m█▀[0;31;47m▀[0;37;40m▓▄▄▄▄▄[0;31;47m■▀▀▀▀▀[0;37;40m▀[0m'

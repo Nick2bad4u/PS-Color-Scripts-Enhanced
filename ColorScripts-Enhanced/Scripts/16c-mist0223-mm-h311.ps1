@@ -5,7 +5,7 @@
 # Source SHA-256: cbbdb6db2be4ff7a3beb3c547256503f5304857fbe0bbd6a4e6d50752601e561
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-H311.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sometimes H311
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
@@ -52,7 +52,7 @@ Write-Host '
 [30m00[0;1;32m0[0;30m0[0;1;32m111[0;1;35m▄█[0;35m▀[0;30m0[0;1;32m1001[0;30m00[0;1;30m0[0;1;32m1[0;32m10[0;1;32m1[0;32m1111[0;1;32m011111[0;32m1[0;1;32m│││[0;30m00000000[0;1;32m│││[0;32m1[0;1;32m111110[0;32m1111[0;1;32m1[0;32m01[0;1;32m1[0;1;30m0[0;30m00[0;1;32m1001[0;30m0[0;35m▀[0;1;35m█▄[0;1;32m111[0;30m0[0;1;32m0[0;30m00[0m
 [1;35m1[0;30m0[0;1;36m1[0;30m1[0;1;36m111[0;1;35m█0[0;1;32m1[0;30m0[0;1;32m00[0;1;36m0[0;30m001[0;1;36m011[0;1;35m1[0;1;32m01┴11101111[0;32m1[0;1;32m110::[0;30m0000[0;1;32m::011[0;32m1[0;1;32m11110111┴10[0;1;35m1[0;1;36m110[0;30m100[0;1;36m0[0;1;32m00[0;30m0[0;1;32m1[0;1;35m0█[0;1;36m111[0;30m1[0;1;36m1[0;30m0[0;1;35m1[0m
 [30m00[0;1;36m1111[0;30m0[0;1;35m█11[0;30m1[0;1;35m111[0;30m0[0;1;35m0[0;30m0[0;1;35m001[0;1;36m111111110111[0;1;32m1111[0;30m00000000[0;1;32m1111[0;1;36m111011111111[0;1;35m100[0;30m0[0;1;35m0[0;30m0[0;1;35m111[0;30m1[0;1;35m11█[0;30m0[0;1;36m1111[0;30m00[0m
-[1;33m00[0;1;37mSREWSNA[0mEHTEVAHTNSEOD[1;31mD06[0;1;32mSEMITEMOS[0;1;30m0[0;30m0[0;1;32m:[0;30m000000[0;1;32m:[0;30m0[0;1;30m0[0;1;32mSOMETIMES[0;1;31m60D[0mDOESNTHAVETHE[1mANSWERS[0;1;33m00[0m
-000[36m0[0;1;37m0[0mMEHT[1mDNIF[0mOT[1;31m113H[0mOTOGISEMITEMOSOS[1;36m000[0m1[30m00[0;37m1[0;1;36m000[0mSOSOMETIMESIGOTO[1;31mH311[0mTO[1mFIND[0mTHEM[1m0[0;36m0[0;37m000[0m
+[1;33m  [0;1;37m       [0m             [1;31m   [0;1;32m         [0;1;30m [0;30m [0;1;32m [0;30m      [0;1;32m [0;30m [0;1;30m [0;1;32m         [0;1;31m   [0m             [1m       [0;1;33m  [0m
+   [36m [0;1;37m [0m    [1m    [0m  [1;31m    [0m                [1;36m   [0m [30m  [0;37m [0;1;36m   [0m                [1;31m    [0m  [1m    [0m    [1m [0;36m [0;37m   [0m
 [1;35m1[0;30m0[0;1;36m1[0;30m1[0;1;36m111[0;1;35m█0[0;1;32m1[0;30m0[0;1;32m00[0;1;36m0[0;30m001[0;1;36m011[0;1;35m1[0;1;32m011:11┼┼┼┼1[0;32m1[0;1;32m11:[0;30m00000000[0;1;32m:11[0;32m1[0;1;32m1┼┼┼┼11:110[0;1;35m1[0;1;36m110[0;30m100[0;1;36m0[0;1;32m00[0;30m0[0;1;32m1[0;1;35m0█[0;1;36m111[0;30m1[0;1;36m1[0;30m0[0;1;35m1[0m
 [30m00[0;1;36m1111[0;30m0[0;1;35m█11[0;30m1[0;1;35m111[0;30m0[0;1;32m:[0;30m0[0;1;35m001[0;1;32m::::[0;1;36m11110111[0;1;32m111:[0;30m00000000[0;1;32m:111[0;1;36m11101111[0;1;32m::::[0;1;35m100[0;30m0[0;1;32m:[0;30m0[0;1;35m111[0;30m1[0;1;35m11█[0;30m0[0;1;36m1111[0;30m00[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 6abf0e0e6626cc9babf77daba1ff3a65c838745d12f7c02676177cdedbc8bc26
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-ALFF1.ANS by pixel_pusher (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alfheim forest
 # SAUCE Author: pixel_pusher
 # SAUCE Group: anger
@@ -37,5 +37,4 @@ Write-Host '
 [32m▓▀░▀[0;1;32;42m░[0;32m▄▓▄■[0;37m  [0;32m■▀▀ [0;37m [0;32m░░▀▀■░[0;37m [0;32m [0;1;37m![0;1;36ma[0;32m [0;1;32ml[0;1;37m f[0;32m  [0;1;37m h[0;32m [0;1;37m e[0;32m  [0;1;37mi[0;32m  [0;1;37mm[0m▀▀▀▀▀[1;36mf[0;32m [0;1;32mo[0;32m [0;1;37mr[0;32m [0;1;37me[0;32m [0;1;37ms[0;32m [0;1;37mt[0;32m░■▀[0;1;32;42m░[0;32m▄▄[0;37m  [0;32m░░▄▄▄[0;1;32;42m░░[0;32m▓▀▀[0;1;32m░[0;32m  [0m
 [32m▄▀[0;1;32;42m░[0;32m░▄▀░[0;37m [0;32m▀[0;37m [0;32m!<[0;1;32mstats go in this large amount of blank space ;) [0;32m>[0;1;32m!░░[0;32m▀▀[0;1;32;42m░░[0;32m▓▀▀▀  ▀pp$ [0m
 [32m░▀▓[0;1;32;42m▒[0;32m▄▄▄░░[0;1;32m░[0m        [32m▄▄▀■[0;37m  [0;32m [0m                                         [1;32m   [0;32m     [0m     [1;32m░[0m
-  [32m  [0;1;32m▀[0;32m▀▀[0;1;32;42m░░[0;32m▄▄▄▄▄▄[0;1;32;42m░[0;32m▓▀▀[0;37m [0;1;32m░[0m [1;32m░░f[0;32morest [0;1;32ms[0;32mcene; [0;1;32mp[0;32mixel [0;1;32mp[0;32musher <[0;1;32manger[0;32m>[0;1;32m░[0m      [32m         [0m
-        [32m       [0m'
+  [32m  [0;1;32m▀[0;32m▀▀[0;1;32;42m░░[0;32m▄▄▄▄▄▄[0;1;32;42m░[0;32m▓▀▀[0;37m [0;1;32m░[0m [1;32m░░f[0;32morest [0;1;32ms[0;32mcene; [0;1;32mp[0;32mixel [0;1;32mp[0;32musher <[0;1;32manger[0;32m>[0;1;32m░[0m      [32m         [0m'

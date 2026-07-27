@@ -5,14 +5,14 @@
 # Source SHA-256: a50f6654455481f9965eaf168ed238c353f488d9aa7895d4d6d9e7c82bd7ac04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RB-FILE.ANS by Rabi Li (axis-9); released in axis-9 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
-[1m  [0mSince [DiG] threathen me that he will show my bbs''s ansi in the magazine he
-  is now working at, so i have to work very hard these few days to change my
-  bbs''s ansi! ~;(
+[1m  [0m                                                                           
+                                                                            
+                 
 
   [33m░  [0;1;33m▄▄▄▄▄[0m             [1;33m▄▄[0m       [1;33m▄▄▄▄▄[0m       [1;33m▄▄▄▄    ▄▄▄▄▄    ▄▄▄▄▄    ■▄▄▄▄  ▄▓▄[0m
 [1;33m   ▄[0;1;33;43m███[0m [1;33;43m███[0;1;33;40m▄▄  [0;30;43m▀▀[0m   [1;33;40m▄▄[0;1;33;43m███[0;1;33;40m░    ▄███ ███▄  ▄▄▄▄▄███▄▄███ ███▄▄███ ███▄▄▄▄▄▄███▄ ▒[0m
@@ -29,10 +29,10 @@ Write-Host '
 [30;40m [0;33;40m▀[0;36;40m▄▄ [0;30;43m▄▄[0m       [30;43m▄▄▄[0m      [30;43m▄▄▄▄▄[0m    [30;43m▄▄▄▄▄[0m      [30;43m▄▄▄▄▄[0m    [30;43m▄▄[0;33;40m■[0m      [30;43m▄▄▄▄▄[0m    [30;43m▄▄▄▄▄[0m [36;40m▄▓ [0;33;40m░[0m
 [36;40m░[0;1;37;40m▐[0;36m▀██▓[0;33m.[0;1;33mf[0;33m.[0m      [33m.[0;1;33mi[0;33m.[0m      [33m.[0;1;33ml[0;33m.[0m      [33m.[0;1;33me[0;33m.[0m        [33m.[0;1;33ma[0;33m.[0m      [33m.[0;1;33mr[0;33m.[0m      [33m.[0;1;33me[0;33m.[0m      [33m.[0;1;33ma[0;33m.[0;33;46m [0;36;40m███▌[0m
 [36;40m ▓███[0m                                                                     [36;40m▐[0;1;37;46m▌[0;36m██▀[0m
-[36m [0;1;36;46m▄ [0;36m█▌    [0;33m[[0;1;36mF[0;33m][0;36mile list[0m          [33m[[0;1;36mS[0;33m][0;36mearch by filename    [0;33m[[0;1;36mB[0;33m][0;36mRequest files[0m     [36m████[0m
-[36m [0;1;36;46m▌ [0;36m█▌    [0;33m[[0;1;36mA[0;33m][0;36mrea change[0m        [33m[[0;1;36mK[0;33m][0;36meyword search[0m        [33m[[0;1;36mR[0;33m][0;36mules[0m           [36m░ ░▓███[0m
-[36m [0;36;46m  [0;36;40m█▌    [0;33;40m[[0;1;36;40mU[0;33m][0;36mpload files[0m       [33m[[0;1;36mN[0;33m][0;36mew file list[0m         [33m[[0;1;36m/[0;33m][0;36mReturn    ▄ ▀[0m     [36m████[0m
-[36m [0;36;46m  [0;36;40m█▓    [0;33;40m[[0;1;36;40mD[0;33m][0;36mownload files[0m     [33m[[0;1;36mV[0;33m][0;36miew tag list[0m         [33m[[0;1;36m![0;33m][0;36mLogOff   ▀▓▀[0m     [36m▐[0;1;36;46m▐[0;36m███[0m
+[36m [0;1;36;46m▄ [0;36m█▌    [0;33m [0;1;36m [0;33m [0;36m        [0m          [33m [0;1;36m [0;33m [0;36m                     [0;33m [0;1;36m [0;33m [0;36m             [0m     [36m████[0m
+[36m [0;1;36;46m▌ [0;36m█▌    [0;33m [0;1;36m [0;33m [0;36m          [0m        [33m [0;1;36m [0;33m [0;36m             [0m        [33m [0;1;36m [0;33m [0;36m    [0m           [36m░ ░▓███[0m
+[36m [0;36;46m  [0;36;40m█▌    [0;33;40m [0;1;36;40m [0;33m [0;36m           [0m       [33m [0;1;36m [0;33m [0;36m            [0m         [33m [0;1;36m [0;33m [0;36m          ▄ ▀[0m     [36m████[0m
+[36m [0;36;46m  [0;36;40m█▓    [0;33;40m [0;1;36;40m [0;33m [0;36m             [0m     [33m [0;1;36m [0;33m [0;36m            [0m         [33m [0;1;36m [0;33m [0;36m         ▀▓▀[0m     [36m▐[0;1;36;46m▐[0;36m███[0m
 [36m░▓██[0;1;37;46m▄[0;36m▄[0m                                                                   [36m▄[0;1;36;46m▄▀[0;36m██▓░[0m
 [36m ▐██[0;36;46m [0;36;40m▄█▄▄▄ [0;1;37;40m▄[0;36m▄  [0;1;37m▄▄[0;36m▄[0;1;37m▄[0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄███████▌[0m
 [36m  ▀██▓ [0;33mYou are now standing in da [0;1;33m♂Z[0m                                     [36m▄[0;1;36;46m▄[0;36m█▄▀[0m
@@ -46,8 +46,8 @@ Write-Host '
 [1;30m  █ █ █ █ █ █ █ █ █▀▀ █ █ █▀ █▀█ █▀   █ █ █ █[0m
 [1;30m  █ █ █ █ █ █ █ █ █▄█ █ █ █  █ █ █ █  █ █ █ █[0m
 [1;30m  █ █ █ █ █▀▀ █▀▀ █ █ █ █ █  █ █ █ █  █ █ ▄ █[0m
-[1;30m  █ ▌[0mYou are not allowed  to [1mMODIFY [0mor [1mUSE [0mpart or whole of
-  [1;30m█ ▌[0mour works without permission from AXiS(C) productions.
+[1;30m  █ ▌[0m                        [1m       [0m   [1m    [0m                
+  [1;30m█ ▌[0m                                                      
   [1;30m█ █ █ █ █   █   █ █ █ █ █  █ █ █ █  █ █ █ █[0m
 [1;30m  █ █ █ █ █   █   █ █ █ █ █  █ █ █ █  █ ▀▄▀ █[0m
 [1;30m  █▄█ █▄█ █   █   █ █ █ █▄█  █ █ █▄█   ▀▄▄▄▀[0m

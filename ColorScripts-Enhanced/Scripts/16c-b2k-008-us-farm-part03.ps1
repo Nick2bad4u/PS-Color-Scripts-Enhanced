@@ -5,7 +5,7 @@
 # Source SHA-256: fd9c6bf20d75e9657d8dc69e9d6c0350a2d5a08617d891232031ed2f7afc710c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FARM.ANS by Spirit Of Rage + Big Yellow Man (poffelipoff); released in b2k-008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: famer, selling, planet of apes
 # SAUCE Author: Multiple Artists
 # SAUCE Group: poffelipoff
@@ -45,12 +45,4 @@ Write-Host '
 [33m█[0;37;43m░░[0;33;40m▄▄[0;37;40m  [0;34;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▓▒▒ ▓▒▒▓▒▒▓▒▒[0m        [33;40m▀▀▀▄▄█████▌[0;37;40m [0;36;40m▓█▓█▓▓▓▓▓▒▓▓▓▒▓▒▒▓▒▒[0;37;40m [0;33;40m▄█▓▓██[0m
 [37;43m░░[0;33;40m▌██▀[0;37;40m [0;34;40m░░░░░▒░░▒░░▒▒▒▒  ▒▒▒▒▒▒▒▒▒[0m         [33;40m▀▀▀[0;37;40m [0;33;40m▄██▀▀▌[0;37;40m [0;36;40m▒▒▓▒▓▒▒▒▓▒▒▒▒░▒░░▒░░[0;37;40m  [0;33;40m▀████[0m
 [33;40m██▌▀█▌[0;37;40m   [0;34;40m░[0;37;40m  [0;34;40m░[0;37;40m  [0;34;40m░[0;37;40m [0;34;40m░░░░░ ░░▒░░░▒░▒░[0m      [33;40m▄▄██▀▀[0;37;40m [0;33;40m▄▄█▀▀[0;37;40m  [0;36;40m░▒░▒▒░░▒░░░░ ░  ░ ░[0m
-[33;40m█▀ ▄▀▀[0m               [34;40m░[0;37;40m  [0;34;40m░[0;37;40m [0;34;40m░[0;37;40m [0;34;40m░[0;37;40m [0;34;40m░░[0m                     [36;40m░ ░░ ░  ░[0m
-
-[37;40m  [0;1;37;40m- Ah!.. fresh moyeno human milk!!![0m      [1;37m- Ah!... fresh moyeno mokey dollars!!![0m
-    big yellow mankey [1;30m/ [0mplf                 spirit of farmer rage [1;30m/[0m hood
-
-
-[1;30ma fine example of dealing with the liquid white gold... if you dont want to have[0m
-[1;30mthe milk with your cereals. Go deposit it in your local sperm bank.[0m [1;30mSelling milk[0m
-[1;30mon the planet of apes is good business![0m                      [35m>> poffelipoff 1999[0m'
+[33;40m█▀ ▄▀▀[0m               [34;40m░[0;37;40m  [0;34;40m░[0;37;40m [0;34;40m░[0;37;40m [0;34;40m░[0;37;40m [0;34;40m░░[0m                     [36;40m░ ░░ ░  ░[0m'

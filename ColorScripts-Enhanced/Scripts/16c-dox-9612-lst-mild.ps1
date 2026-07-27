@@ -5,7 +5,7 @@
 # Source SHA-256: b968edf8a38745d921669b55f23a17abdc8375dd378647f45158e08c956dfab8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LST-MILD.ANS by Soul Trader (dox_9612); released in dox_9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -27,8 +27,8 @@ Write-Host '
        [31m▒ [0;1;30m█████ [0;31m▓ [0;1;30m███ ███ ███ ████ ███▄█▀▀ [0;31m▒  ▒ [0;1;30m███▄█▀▀ [0;1;30;47m█▀█[0m [1;30;40m█[0;1;30;47m░[0;1;30;40m█ █[0;1;30;47m▓▓█[0;1;30;40m█ █ [0;31m▓▌[0m
        [31m▓▄▄▄ ▄▄ ░ [0;1;30m▀▀▀ [0;31m▄▄  [0;1;30m███▄████ [0;31m▄▄ ▄▄▄▓▒▓ ▐▓▄▄▄▄▄▄▄▓ [0;1;30m███ █[0;1;30;47m█[0;1;30;40m█ ▀▀▀▀█▄█ [0;31m█▌[0m
        [31m▀▀▀█ █▀[0m       [31m▐▓   [0;1;30m▀[0m       [31m▐██▀[0m               [31m█▄  ▄ [0;1;30m▀▀█ [0;31m░▒▓▄▄▄▄▄█▌[0m
-       [1;31mMiL[0;1;31;41md[0m [1;31;41mC[0;1;31;40mhiCkEN   [0;31m▒   [0;1;30m▓   [0;1;31mG00d [0;1;31;41mE[0;1;31;40mtZ[0m                       [1;30;40m▄[0m      [31m█[0m
-          [31m▓ █[0m         [31m░   [0;1;30m▒[0m        [31m▓[0m      [1;31mblACk SUNdAY.. UMM [0;1;30m█  [0;1;31mSUNd[0;1;31;41mA[0;1;31;40mY![0m
+       [1;31m   [0;1;31;41m [0m [1;31;41m [0;1;31;40m         [0;31m▒   [0;1;30m▓   [0;1;31m     [0;1;31;41m [0;1;31;40m  [0m                       [1;30;40m▄[0m      [31m█[0m
+          [31m▓ █[0m         [31m░   [0;1;30m▒[0m        [31m▓[0m      [1;31m                   [0;1;30m█  [0;1;31m    [0;1;31;41m [0;1;31;40m  [0m
           [31m▒ ▓[0m             [1;30m░[0m        [31m▒[0m                         [1;30m▓[0m      [31m▓[0m
           [31m░ ▒[0m         [31m░[0m            [31m░[0m                         [1;30m▒[0m      [31m▒[0m
             [31m░[0m             [1;30m░[0m                                  [1;30m░[0m      [31m░[0m'

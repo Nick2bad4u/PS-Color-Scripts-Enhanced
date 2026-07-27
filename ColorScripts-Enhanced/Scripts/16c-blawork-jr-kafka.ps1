@@ -5,7 +5,7 @@
 # Source SHA-256: b5a6cf8dd721032bb21e43f41ca7b9e12f89cfa4b4c31cadb5c0cd0e32cc5784
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_KAFKA.ANS by jerusalem (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tot
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
 [1;36;46m▄[0;34m▌[0;1;36;46m▄[0;34m▐▀▀▀[0m    [31m▀[0;33m▀[0;31;43m▄[0;1;31;43m▀[0;1;31;47m▄[0;1;31;43m▄[0;31;43m▀[0;33;40m▄▄[0;31;40m▄[0;33;40m [0;31;40m▐[0;33;40m  [0;31;40m▐▀[0m      [31;40m▐[0;33;40m▀▀[0;31;40m▀[0m     [1;30;40m jer[0m [1;33;43m ▀▐[0;1;33;46m██[0;1;33;43m███[0;1;37;46m░░[0;1;33;43m▒ [0;30;43mK[0m   [33;40mA[0m     [33;40mF  KA E SK[0m
 
 [1;33;40m::[0m
-[1;33m↓↓[0m
-[36mfast so hübsch wie der hund von kafka.      [0m                      [1;36mjerusalem^boil[0m'
+[1;33m↓↓[0m'

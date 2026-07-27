@@ -5,7 +5,7 @@
 # Source SHA-256: 343b99f30ae4ce280c4d3294f248cf0d428c3fc0f6616e51c6ea939310df9284
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Gl-tds.ans by Gloss (REVIVAL); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: A 709 Legend
 # SAUCE Author: Gloss
 # SAUCE Group: REVIVAL
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
- [30mWhile this piece may appear simple, it took[0m    [1;30m▄[0m [30mmany hours of mulling[0;37m [0;32m▄ ▀▌[0m
-[37m [0;30maround with the shading and shaping to get [0;1;30m ▄[0m [30mthe look I was going for[0;32m▐▌[0;30m.[0;32m ▀▄[0m
+ [30m                                           [0m    [1;30m▄[0m [30m                     [0;37m [0;32m▄ ▀▌[0m
+[37m [0;30m                                           [0;1;30m ▄[0m [30m                        [0;32m▐▌[0;30m [0;32m ▀▄[0m
 [37m  [0;1;30m  [0;32m▐▀ ▄[0;1;30m [0;30mIf you  [0;1;30m [0;1;33m▄▄[0;30mdon''t like what you see,[0;1;30m▄▌[0;30mtry squinting[0m      [37m [0;1;33m▄▄[0m [1;33m [0;32m  ▓▄[0m    [32m▄█[0m
 [32m▌[0m    [32m▀ ▐▌[0;37m [0;1;30m▄[0m [1;30m [0m  [1;33m▓▀[0m    [1;33m▀▄[0m [1;33m [0;32m  [0m     [1;30m▀[0m  [32m▄▄ ▀▀▀ ▄▄[0;37m [0;1;30;42m▓[0;30m(something I did[0;1;30m [0;1;33m▓▀[0;32m [0;1;33m   ▀▄[0m    [32m▀▀[0;37m  [0;32m▐[0m
 [32m▓▄[0;37m [0;32m▀[0;37m  [0;32m▄[0;1;33;42m░[0;1;30;40m   ▄ [0;1;33;40m ▐▌ ▄  [0m  [1;33m▐▌[0m  [32m [0;37m [0;1;30m ▄[0;1;33m  [0;32m▄[0;1;33;42m░[0;32m▀[0m    [32m▄ ▀ ▀▓[0;30m [0;1;30m  ▀ ▄[0;30mmuch of [0;1;30m  [0m [1;33m▐▌   ▄  ▐▌ [0;1;30m▀[0m [1;30m▄[0;32m  [0;37m [0;32m▐[0m
@@ -41,7 +41,7 @@ Write-Host '
 [1;30m▄[0;32m ▀[0;1;33m▀[0;32m▀  ▄[0;1;33m▄▄[0;32m [0;1;33m [0;32m ▀[0;1;33m▀[0;32m  [0;1;33;42m▓[0m  [1;30m▀[0m  [32m▐▀[0;1;30m▐▌  [0m     [1;30m   [0;1;33m▀[0;32m▀[0;37m  [0;1;30m   ▀ [0m [1;30m [0m [1;32m  [0m    [1;33m▀[0;32m▀[0m     [1;33;42m▄[0;32m▄[0m      [32m▄[0;1;33;42m▄[0;1;30;40m [0m [32m [0;1;30m▀▌[0m [32m▀[0m
 [1;30m▌[0m  [1;30m [0m        [1;30m [0m    [1;33m▐▀[0m [1;30m   [0m  [1;30m▄[0;1;30;42m▓[0;1;30;40m▄ [0m   [1;30m▄▌[0;1;33m Clozure''s TDS -- A 709 Legend[0m  [32m▀▀[0;37m [0;1;30m [0m     [1;30m  ▄[0m
 [1;30m▓▄   [0m            [1;33m▀[0m   [1;30m  ▄▀▀   ▀▀[0m                                          [1;33m   [0m [1;30m▐[0m
-[1;30m   ▀[0m     [1;30m▄ [0m       [1;33m▄▌[0;1;30m ▄   [0;1;33mtelnet://thespiral.ath.cx[0m [1;33m-- Running Mystic v1.07[0;1;30m  ▄▓[0m
+[1;30m   ▀[0m     [1;30m▄ [0m       [1;33m▄▌[0;1;30m ▄   [0;1;33m                         [0m [1;33m                       [0;1;30m  ▄▓[0m
         [1;30m  [0m  [1;30m [0m  [1;30m [0m   [1;30m▄[0m                                             [32m  [0;1;30m▄[0m      [1;30m▀[0m
                           [1;30m ▀▀[0m
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 4b36aa4617c4ce564408cb0cfeec3967f5f412e851a66556f64fa65dcb0f3817
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CY-L0GIN.ANS by Cyren (.;:Anemia:;.); released in ane-0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Login Screen
 # SAUCE Author: Cyren
 # SAUCE Group: .;:Anemia:;.
@@ -34,5 +34,5 @@ Write-Host '
 [1;40m▓[0m ▐▌▐[1;47m█[0;1;40m▌▐█[0;1;47m▀[0m▌░[1;47m  ▀[0;1;40m▌░[0;1;47m ░▓[0;1;40m▌[0m▄[1;47m [0m▓[1m▀▌[0;32m▐█████[0;1;32;42m   [0;32;47m▓[0;1;32;42m  ▐▓██[0;1;32;40m█████[0;1;32;47m█[0;1;32;40m█▌[0;1;37;40m■[0m▐[1m▓[0m▐[1m▌[0m▐▓[1m█[0m▀▄▓[1m▌[0m▀▄▀[1;47m▀[0;1;40m█▀[0m▄▓[1;47m▓[0m [1;47m ▄[0;1;40m▌ [0;1;47m ▀▓[0;1;40m▄[0m
 [1;40m▀[0m [33m [0;37m▀░▀[0;33m [0;1;37m▀[0m▀▀░■[33m [0;37m▀▀[0;1;37m   [0m▀[1m▀[0;33m [0;37m▀▀■▀[0;1;37m ■[0;32m▀████[0;32;47m▓█[0;1;32;42m     ▀▀▓▓[0;1;32;40m█[0;1;32;47m█▓[0;1;32;40m▀▀ [0m [1m [0m▀[1m▀▀▀[0;33m [0;1;37m■[0;33m [0;37m▀▀[0;1;37m▀▀[0;33m  [0;1;37m▀[0;33m  [0;37m▀▀[0;1;37m▀[0;33m  [0;37m▀▀[0;1;37m▀[0;33m  [0;37m▀[0;1;37m▀ [0m
 [1;30m▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀[0m
-          [1ml0GiN[0m     [1m   [0m      [1mchAt    [0m      [1maPPly[0m     [1m  [0m     [1ml0GoFF[0m
+          [1m     [0m     [1m   [0m      [1m        [0m      [1m     [0m     [1m  [0m     [1m      [0m
 [1;30m--------------------------------------------------------------------------------[0m'

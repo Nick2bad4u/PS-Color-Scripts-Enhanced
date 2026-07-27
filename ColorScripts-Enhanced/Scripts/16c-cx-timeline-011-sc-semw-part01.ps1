@@ -5,7 +5,7 @@
 # Source SHA-256: 27dd81d7ac750ed04bccb374de4ec757d155c9ca99ca58a181ec479a1271603c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: [011] SC-SEMW.ans by Skarecrow (Visions of Reality); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Seminole Wind
 # SAUCE Author: Skarecrow
 # SAUCE Group: Visions of Reality
@@ -17,11 +17,11 @@
 
 Write-Host '
 [37;40m  [0;1;30;40m──[0;34m──[0;1;34m───[0;1;37mGreetz[0;1;34m─[0;1;37mBox[0;1;34m───────────────────────────────────────────────────────────┐[0m
-[1;30m│[0m [1mok[0;1;34m,[0m [1mmy[0m [1mansi[0;1;34m''[0;1;37ms[0m [1mare[0m [1mlate[0m [1msometimes[0;1;34m,[0m [1mbut[0m [1mthis[0m [1mthing[0m [1mis[0m [1msoooooo[0m [1mfucking[0m   ▄███▄ [1;34m│[0;1;5;30mi[0m
-[34m│[0;1;37m overdue that i[0;1;34m''[0;1;37mm dedicating the entire greetz box to the requester[0;1;34m,[0;1;37m  [0m █▄▀▄█ [34m│[0m
-[1;34m│[0m [1mOsceola[0;1;34m.[0m [1;34m([0;1;37mwhen[0;1;34m''[0;1;37md[0m [1myou[0m [1mask[0m [1mfor[0m [1mthis[0m [1mthing[0m [1mOA[0;1;34m,[0m [1mJuly[0;1;34m?[0m [1mhehehe[0;1;34m,[0m [1msorry[0;1;34m...)[0m   ▄▀█▀▄ [1;30m│[0m
+[1;30m│[0m [1m  [0;1;34m [0m [1m  [0m [1m    [0;1;34m [0;1;37m [0m [1m   [0m [1m    [0m [1m         [0;1;34m [0m [1m   [0m [1m    [0m [1m     [0m [1m  [0m [1m       [0m [1m       [0m   ▄███▄ [1;34m│[0;1;5;30m [0m
+[34m│[0;1;37m               [0;1;34m [0;1;37m                                                   [0;1;34m [0;1;37m  [0m █▄▀▄█ [34m│[0m
+[1;34m│[0m [1m       [0;1;34m [0m [1;34m [0;1;37m    [0;1;34m [0;1;37m [0m [1m   [0m [1m   [0m [1m   [0m [1m    [0m [1m     [0m [1m  [0;1;34m [0m [1m    [0;1;34m [0m [1m      [0;1;34m [0m [1m     [0;1;34m    [0m   ▄▀█▀▄ [1;30m│[0m
 [1;34m└────────────────────────────────────────────────────────────────────────[0;34m──[0;1;30m──[0m
-     [1;34m"i[0m [1;34mdon''t[0m [1;34mgive[0m [1;34ma[0m [1;34mfuck[0m [1;34mwho''s[0m [1;34mcopyrighted[0m [1;34mshit[0m [1;34min[0m [1;34mmy[0m [1;34mansis."[0m [1;34m-[0m [1;34mSkarecrow[0m
+     [1;34m  [0m [1;34m     [0m [1;34m    [0m [1;34m [0m [1;34m    [0m [1;34m     [0m [1;34m           [0m [1;34m    [0m [1;34m  [0m [1;34m  [0m [1;34m       [0m [1;34m [0m [1;34m         [0m
 
  [1;30m▄▄█████████████████████████████████████████████████████████████████████████▄▄[0m
 [1;30m▐████████████████████████████████████▀▀[0;1;33m▄▄▄▄▄▄▄▄▄[0;1;30m▀▀████████████████████████████▌[0m
@@ -34,8 +34,8 @@ Write-Host '
 [1;30m█████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33m▀[0;1;33;43m▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▀[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█████[0m
 [1;30;40m▐████████████████████████████████████▄▄[0;1;33;40m▀▀▀▀▀▀▀▀▀[0;1;30;40m▄▄████████████████████████████▌[0m
  [1;30m▀▀█████████████████████████████████████████████████████████████████████████▀▀[0m
-    [1;34m"Engaged[0m [1;34min[0m [1;34mcrime,[0m [1;34mI[0m [1;34mgrasp[0m [1;34mmy[0m [1;34mthroat.[0m  [1;34mEnraged,[0m [1;34mmy[0m [1;34mmind[0m [1;34mstarts[0m [1;34mto[0m [1;34msmoke.[0m
-        [1;34mEnforce[0m [1;34ma[0m [1;34mmental[0m [1;34moverload,[0m [1;34mAngry[0m [1;34magain,[0m [1;34mAngry[0m [1;34magain,[0m [1;34mAngry[0m [1;34magain."[0m
+    [1;34m        [0m [1;34m  [0m [1;34m      [0m [1;34m [0m [1;34m     [0m [1;34m  [0m [1;34m       [0m  [1;34m        [0m [1;34m  [0m [1;34m    [0m [1;34m      [0m [1;34m  [0m [1;34m      [0m
+        [1;34m       [0m [1;34m [0m [1;34m      [0m [1;34m         [0m [1;34m     [0m [1;34m      [0m [1;34m     [0m [1;34m      [0m [1;34m     [0m [1;34m       [0m
 
 
 

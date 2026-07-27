@@ -5,12 +5,12 @@
 # Source SHA-256: b356afb85e0b724068cb993409a43019f26cd3134c80026ac72560d5ded8433a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SAD!OPM.ANS by The Sad Jester (sliver02); released in sliver02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-    [1;30mthe sad jester (c)1996[0m         [1;30m''would you like to buy a pickle?''[0m
+    [1;30m                      [0m         [1;30m                                 [0m
           ░  [1;30m                       [0m░[1;30m  [0m           ░       ░
        ░░▒▓▄▓[1;47m░░░░░░░░[0m▄▓▄       ░▄[1;47m▒[0m▄[1;47m▒░░▒[0m▄[1;47m░▒[0m▄    ░░▒▓▄▄▄[1;47m░[0m▄[1;47m░[0m▄▓[31m [0;37m▄[0;1;37;47m░[0m▄▄▓▄▄▓▒░
          █[1;47m▒▒▒▒░[0m▓▀ [1;47m ░░░░░[0m█▓▒  [1;47m ▓▓▓▓▒░[0m  [1;47m░▒▓▓▓▓▓[0m░   █[1;47m▒▒▒▒░░[0m▐[1;47m░▒░░[0m▌█[1;47m░░░░░ [0m
@@ -27,9 +27,4 @@ Write-Host '
        [31m [0;1;31m▐[0;1;31;41m▓ ░  ░[0;31m▌[0;37m  [0;31m▐[0;1;35;41m░[0;1;33;41m [0;31m██[0;1;34;41m [0;1;35;41m▒[0;1;35;40m▌[0m  [1;31m▐[0;1;31;41m▄ [0;31m█[0;1;31;41m▒ ▓[0;1;31;40m [0m            [1;31m▐[0;1;31;41m▄░[0;31m█[0;1;31;41m▀■▒[0;31m▌[0m    [31m [0;37m [0;31m▐[0;1;35;41m░[0;1;33;41m [0;31m██[0;1;34;41m [0;1;35;41m▒[0;1;35;40m▌[0m [1;35m [0m
        [31m [0;1;31m▀█[0;1;31;41m▄▓░▄▒▓[0m  [1;35;41m▓▒░▄▓▄[0;1;35;40m█▀[0;1;33;40m   [0;1;31;40m█[0;1;31;41m▓▄▓░▄▒[0;1;31;40msj[0m           [1;31;41m▓▒▄▒▄▓[0;1;31;40m█[0m [1;31m [0m  [31m [0;37m [0;1;35;41m▓▒░▄▓▄[0;1;35;40m█▀▓▒░░[0m
           [1;31m▓▀▀▀▀▀▀■[0;1;35;41m▓[0;1;35;40m▀▀▓▀[0;1;35;41m▓[0;1;35;40m▓▒░[0m    [1;31m▀▀▀▓▀[0;1;31;41m▓[0;1;31;40m▒░[0m          [1;31;41m▒[0m [1;31m▀▀▀▀▀▓▒ [0m [1;35m ▀[0;1;35;41m▓[0;1;35;40m▀▓▀▀[0;1;35;41m▓[0;1;35;40msj[0;1;33;40m [0m [1;35m [0m
-       [1;31m [0m  [1;31m░[0m          [1;35m░[0m  [1;35m  [0m          [1;31m░[0m                   [1;31m░[0m       [1;35m▒░[0m      [1;35m [0m
-       [1;30mOPM... sounds like opium , i drew it this way so you all could say[0m
-            [1;30m"what in the hell was he trying to do, burn out my cornea"[0m
-
-
-                                                      [31m [0;1;35m [0;1;34m [0m  [1;33m   [0m'
+       [1;31m [0m  [1;31m░[0m          [1;35m░[0m  [1;35m  [0m          [1;31m░[0m                   [1;31m░[0m       [1;35m▒░[0m      [1;35m [0m'

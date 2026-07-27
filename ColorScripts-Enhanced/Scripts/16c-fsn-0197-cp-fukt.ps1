@@ -5,13 +5,13 @@
 # Source SHA-256: f4668616b09c5c9e25ceaabc829d3f091f919e9f1f2feba58548ce22e9821636
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CP-FUKT.ANS by Oolite + Tape (fsn-0197); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-15
 # Columns: 1-80
 
 Write-Host '
                                                            [1;31m [0m
-                                                [1;36moolite [0;1;33m+[0m [1;31mtape[0m
+                                                [1;36m       [0;1;33m [0m [1;31m    [0m
           [32m░░▄▄▄▄[0m                       [1;30m▀  ▀ ■             [0m [1;30m [0m   [32m▄▄▌  [0m
 [34m  [0;32m  ░░▓[0;1;32;42m░░░[0;32m██▀▀▀[0;1;32;42m░[0;32m██▄▄▄▄▄▄[0;1;36m [0;1;30m  [0m        [1;30m▄▀[0m        [1;30m ▀▌      [0;32m▄▄▌[0;31m [0;37m   [0;32m▄[0;1;32;42m░░[0;32m█░░[0m      [1;30m▄ ■▄[0m
 [1;30m [0;34m [0;32m ▐[0;1;32;42m▒▒▒▒[0;32m█▀[0;31m [0;1;30m▄▄▄▄[0;32m  [0;37m  [0;32m▀[0;1;32;42m░▓▓█▀[0;32m█[0;34m [0m     [1;30m [0;1;36m [0;32m▄[0m     [1;30m  [0m [1;30m  [0m [32m▄▄░░[0;1;32;42m▒▒░░[0;32m█▀▀[0;33m [0;32m ▀█[0;1;32;42m▒▒░░[0;32m▀[0;31m [0;37m  [0;1;30m▄▀ [0m    [1;30m ▌[0m
@@ -22,6 +22,4 @@ Write-Host '
 [1;30m▐▀▀▀[0;32m░░[0;1;32;42m▀▀[0;32m▀▀ [0;37m  [0;32m▀▀[0;1;32;42m▀▀▀▀▌[0;32m▄▄▄[0;1;32;42m░[0;32m███▀▀▀░░[0;1;37m [0;36m [0;1;30m▄▄▄▄████▀███▀▀██▄▄▄▄▄███ [0m [32m▄▄[0;1;32;42m▓▓██▄[0;32m▄▄█[0;1;32;42m▄█▀[0;32m▀▀[0;1;37m [0;1;30m▄██ [0m
 [1;30m ▀▄    ·  ▄ [0m [1;30m [0;30;46m█[0;30;40m    [0;32;40m░░▀▀▀[0;30;40m    [0;1;30;40m▀█▀▀▀██████▌▄███████▄▐███▄█▓▓▓ [0;32m█[0;1;32;42m░░[0;32m▀░░▀▀▀▀[0;1;30m  [0;36m    [0;1;30m▀▀▀▐[0m
    [1;30m ■[0m  [1;30m▀  [0m        [1;35mf[0;35mUCT[0;31m?![0m    [1;30m▀▀▀[0m        [1;30m▀████████▀[0m   [1;30m▀[0m   [1;30m░░[0m    [1;30m▄[0m [1;30m [0m    [1;30m▀[0m    [1;30m [0m
-           [1;30m    [0m  [1;30m [0m                         [1;30m▀▀▀[0m  [1;30m▀[0m [1;30m▄■[0m            [1;30m▀■[0m [1;30m▀[0m     [1;30m [0m
-[30m   [0m                                                                 [1;30m [0m    [1;30m [0m
-              [1;30mfor cocaine. font by oolite. shading+background by[0m [1;30mtape.[0m'
+           [1;30m    [0m  [1;30m [0m                         [1;30m▀▀▀[0m  [1;30m▀[0m [1;30m▄■[0m            [1;30m▀■[0m [1;30m▀[0m     [1;30m [0m'

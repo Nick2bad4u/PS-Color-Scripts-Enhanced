@@ -5,7 +5,7 @@
 # Source SHA-256: 1f029ca6ca70bb4c5841770b4f582ca7ab5682c37cb419e8c7d1991aee4479b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-BLND.ANS by Acidic Soap (blndr015); released in blndr015 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -54,9 +54,4 @@ Write-Host '
 [1;33;40m████████████████████████████████████████████████████████████████████████████████[0m
 [1;33;40m████████████████████████████████████████████████████████████████████████████████[0m
 [1;33;40m████████████████████████████████████████████████████████████████████████████████[0m
-[1;33;40m████████████████████████████████████████████████████████████████████████████████[0m
-[1;33;40mOk, I''m drunk, and I''m tired.  So this is what I''ve drawen.  It''s a army cadet[0m
-[1;33;40mdrowning in quick sand, well actually this is the result of trying to swimming.[0m
-[1;33;40mYou can see his little army hat floating over there.  And then theres that[0m
-[1;33;40mweird fucking Indian guy, that is not very bright.  So there yeah go.[0m
-[1;33;40m    -Acidic Soap <dark>[0m'
+[1;33;40m████████████████████████████████████████████████████████████████████████████████[0m'

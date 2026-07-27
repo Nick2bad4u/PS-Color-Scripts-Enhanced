@@ -5,7 +5,7 @@
 # Source SHA-256: b640ae10267762de706fb17f4c9da2357489262b7b19e739183df926b0546c2e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-WRETC.ANS by Silver Blade (paw); released in paw-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wretch
 # SAUCE Author: Silver Blade
 # SAUCE Group: paw
@@ -40,10 +40,10 @@ Write-Host '
 [1;30m             [0m   [1;30m ▀▀▀▀▀[0m    [1;30m ▀▀[0;1;30;47m▀[0;1;30;40m▀▀[0m   [1;30;40m ▀▀[0m▀▀▀             [1;30m ▀▀▀[0m▀▀  [1;30m█▀▀ [0m [1;30m▀[0;1;30;47m▒[0m▀[1;30m▄[0;1;30;47m▓[0;1;30;40m▀▀[0m▀▀▄
                            ▄[1;30m█▀▄▄ [0;1;34m![0m [34mW[0;1;30m R E T C [0;33mH[0;1;30m [0;1;33m![0m              [1;30m ▀▀▀▀[0m▀ [1;30m▀[0;1;30;47m▓[0;1;30;40m▓▀ [0m ▀[1;30;47m▒[0m▀▄
                           ▐[1;30;47m▒[0;1;30;40m▌[0m  [1;30;40m▓▌[0m  [1;34;40mO[0;34mP[0;1;30m: Ima[0;33mg[0;1;33me[0;1;30m [0m          [1;30m [0m              [1;30m [0m▀[1;30m▀▀[0m▀▀
-                          [1;30m▐[0;1;30;47m▓[0;1;30;40m ▓[0m [1;30;40m▐[0;1;34;40m[[0;34m7[0;1;30mO2] xxx.xx[0;33mx[0;1;33mx[0m
-                           [1;30m▀[0;1;30;47m▓[0;1;30;40m▓█▀[0;1;34;40mo[0;34mp[0;1;30mening April 12th.[0;33m.[0;1;33m.[0;1;30m   [0m
-                             [1;30;47m▒[0m   [1;34;40mP[0;34ma[0;1;30mw Dist[0;33mr[0;1;33mo[0m
-                  [1;34mG[0;34mR[0;1;30m33tz go out to │|: dd, misk, Q, Rebel Star, Injun , mX :[0;33m|[0;1;33m│[0m
+                          [1;30m▐[0;1;30;47m▓[0;1;30;40m ▓[0m [1;30;40m▐[0;1;34;40m [0;34m [0;1;30m          [0;33m [0;1;33m [0m
+                           [1;30m▀[0;1;30;47m▓[0;1;30;40m▓█▀[0;1;34;40m [0;34m [0;1;30m                 [0;33m [0;1;33m [0;1;30m   [0m
+                             [1;30;47m▒[0m   [1;34;40m [0;34m [0;1;30m      [0;33m [0;1;33m [0m
+                  [1;34m [0;34m [0;1;30m               │                                        [0;33m [0;1;33m│[0m
                              [1;30m█[0m
                           ▄[1;30;47m░▒▒▓█[0;1;30;40m▄[0m
                       [1;30;40m▄▄[0m■▀█[1;30;47m░░▒▓▓[0;1;30;40m▓[0;1;30;43m▀▀[0;1;30;40m▄[0m

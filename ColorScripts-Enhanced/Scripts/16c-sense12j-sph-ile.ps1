@@ -5,7 +5,7 @@
 # Source SHA-256: bbc3f2cfa66d99de1f60b6da54ce4354f788392c4cd249eaa185acaabf1b3ad8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPH_ILE.ANS by Sephiroth (Sense); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Elixir1
 # SAUCE Author: Sephiroth
 # SAUCE Group: Sense
@@ -38,5 +38,4 @@ Write-Host '
    [37m [0;31m▐[0;33;41m▐[0;33;40m█[0;1;31;43m▄[0;33m█[0;1;31;43m▀▀▀███[0;1;31;40m█[0;33m [0;32m░[0;33m [0;1;33;43m░[0;33m▌ [0;30;43m░[0;1;33;43m░[0;33m▓░   [0;37m [0;33m█[0;1;33;43m▓░[0;33m▓[0;1;33;43m▄░[0;33m▓[0;1;33;43m░[0;33m█▓[0;1;33;43m▄[0;33m▓[0;1;33;43m░░[0;33m█[0;37m [0;33m▒░[0;32m [0m     [37m      [0m
    [37m [0;31m█[0;33m███[0;37;43m░░[0;33;40m████[0;1;31;43m▀█[0;1;31;40m▌[0;32m [0;33m▄▓▌ █[0;1;33;43m░[0;33m░ ▒  [0;37m [0;1;33;43m░░[0;33m▀▀▄[0;1;33;43m▄▓[0;33m▀▓▓▀[0;1;33;43m▀▓[0;33m▀[0;1;33;43m░[0;1;33;40m [0;33m░ [0;32m [0m
    [31m▐▓[0;33m███[0;37;43m░▒░[0;33;40m██[0;1;31;43m ░▓[0;1;31;40m█[0m [33m▒░▓░▄█ ▓▌ [0;37m [0;33m▀[0;37m [0;33m▄▀[0;1;33;43m░▀[0;33m▀▄█▓[0;1;33;43m░░[0;33m▄▀▄[0;37m [0;33m▀[0;37m [0;33m░[0;32m [0m                              [34m [0m
-   [31m▐[0;33;41m░[0;33;40m███[0;37;43m░░[0;33;40m█[0;37;43m░[0;33;40m█[0;1;31;43m░▒█[0;1;31;40m█[0m [33m░[0;37m [0;33m░[0;37m [0;33m▀░[0;37m [0;33m░[0m    [33m▀ ▒▀▓[0;37m [0;33m ▀[0;1;33;43m [0;33m▀▓▀[0;37m [0;33m ▀[0;37m [0;33m░ [0m
-                                                   [34m  [0m'
+   [31m▐[0;33;41m░[0;33;40m███[0;37;43m░░[0;33;40m█[0;37;43m░[0;33;40m█[0;1;31;43m░▒█[0;1;31;40m█[0m [33m░[0;37m [0;33m░[0;37m [0;33m▀░[0;37m [0;33m░[0m    [33m▀ ▒▀▓[0;37m [0;33m ▀[0;1;33;43m [0;33m▀▓▀[0;37m [0;33m ▀[0;37m [0;33m░ [0m'

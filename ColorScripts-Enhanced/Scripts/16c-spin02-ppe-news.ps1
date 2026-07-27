@@ -5,7 +5,7 @@
 # Source SHA-256: d2db926ec37264ace8ba10f4619d03838d73c5d481b9d6ee923483552b47ce74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-NEWS.ANS by Purplee (SPIN); released in spin02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: News for YOUR board
 # SAUCE Author: Purplee
 # SAUCE Group: SPIN
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[33m,gy[0;1;33mgyS''[0m:[1;33ms[0;1;33;43mS[0;1;33;40mgg[0m [33m..[0;37mⁿS[0;1;37mS[0mssgygygy[1mgy[0mygygygygygygygyg[1my[0mggyyyg[1my[0mgygygygy[1mg[0mg[1my[0mygygygygygygs┐._
+[33m   [0;1;33m    [0m [1;33m [0;1;33;43m [0;1;33;40m  [0m [33m  [0;37m  [0;1;37m [0m        [1m  [0m                [1m [0m      [1m [0m        [1m [0m [1m [0m             ┐  
 [1;33m$[0;1;33;43m$[0;1;33;40m$[0;1;33;43m$[0;1;33;40m$''[0m [1;33ms.[0m * [1;33m''''[0mSS [1;33m''[0m*$$$$[30;47m$[0;37;40m$S[0;1;37;40m$[0mⁿⁿⁿS[30;47m$[0;37;40m$$$$$$[0;1;37;40m$[0mS$$$$''  `[30;47m$[0;37;40m$$$[0;1;37;40m$[0m$$SS$$$$$$$░$SⁿS$$$$$$[1m$[0m$$$
 [1;33m$[0;1;33;43m$[0;1;33;40mⁿ[0;36m,┌s%@#S$$$S#[0;1;36m@%s┐.[0m┴[1;36m,┌s%@#[0;36mS[0;1;36mS#[0;1;35m@%s┐.[0m┴[1;35m,%##%,[0m`$,  ,$$$$''[35m,%@@%,[0;1;37m`[0m''[35m,┌s%#@[0;30;45mS[0;1;30;40m@#%s┐.[0m`$''`$
 [1;33;43m$[0;1;33;40m$:[0;36m`$$$$$$''[0;37m.[0;36m`$$$[0;1;36m$$$''[0m.[1;36m$$ⁿ$$$''`^"[0;1;35mⁿ┴S$[0m [1;35m$$ii$$.[0m┴[30;47m$[0;37;40m$$SS[0;30;47m$[0;37;40m$$ [0;35;40m$$$$$$.[0;37;40m''[0;35;40m$$$$$$''`[0;1;30;40mⁿ┴╩S$[0m $,,[1m$[0m
@@ -35,6 +35,4 @@ Write-Host '
    :
    |                                                                       [1mi[0m
    |                                                                       [1mi[0m
-   |.__ _ _ ___________ __  __   _ ____   __  _ _________  __ [1m_  _[0m    [1m_____|[0m
-
-                        fresh news on <your bbsname>[0m'
+   |.__ _ _ ___________ __  __   _ ____   __  _ _________  __ [1m_  _[0m    [1m_____|[0m'

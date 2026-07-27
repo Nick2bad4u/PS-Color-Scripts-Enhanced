@@ -5,7 +5,7 @@
 # Source SHA-256: d97d2863dadb62b2e62417db78378a4411b81ffcbd8bd71740c6f1d733ab263c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CE-V961.ANS by celestian (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: viper
 # SAUCE Author: celestian
 # SAUCE Group: odium
@@ -29,10 +29,10 @@ Write-Host '
 [1;31;40m    [0;32m▀[0;33;42m░░[0;32;40m▀  [0;35;40m▀ [0;32;40m▐[0;1;32;42m▓▒░[0;32m▐[0;33;42m░░░[0m     [32;40m▄▄▀[0m
       [32;40m▀[0m      [1;32;42m▒▒░[0;32m█[0;33;42m░░[0;32;40m▌ ▄▄[0;33;42m░[0;32;40m▀▄[0;1;32;42m░[0m
           [35m▀   [0;32m▀[0;33;42m░░[0;32;40m▀ ▄[0;33;42m░░[0;32;40m▀▄[0;1;32;42m░▒[0;32m▌[0m
-[32m    [0;1;33mviper96[0m     [32m▀ [0;33;42m░░ [0;32;40m▌[0;32;42m [0;1;32;42m░▒▓[0;32mce!▄[0m             [1;37mThis was done up for Viper96[0m
+[32m    [0;1;33m       [0m     [32m▀ [0;33;42m░░ [0;32;40m▌[0;32;42m [0;1;32;42m░▒▓[0;32m   ▄[0m             [1;37m                            [0m
                   [32m▐[0;33;42m░░ [0;1;32;42m░▒[0;32m▀ ▄[0;33;42m░[0;32;40m▀▄[0;1;32;42m░[0;32m▌[0m          [1;37mfor thier application generator.[0m
 [1;37m  [0mi-net courier    [32m▀[0;33;42m░░[0;32;40m▀  [0;33;42m░ [0;32;40m▌[0;32;42m [0;1;32;42m░▒▓[0m
-[1;32;40m   [0mbbs courier       [32m▄▌ ▐[0;33;42m░░[0;32;40m▐[0;1;32;42m░▒▓[0;32m▌[0m          [1;37mAnsi By [0mCelestian [1mof Odium Art![0m
+[1;32;40m   [0m                  [32m▄▌ ▐[0;33;42m░░[0;32;40m▐[0;1;32;42m░▒▓[0;32m▌[0m          [1;37m        [0m          [1m             [0m
      artist         [33;42m░[0;32;40m▌[0;1;32;42m░▒[0m [32m▀[0;33;42m░░ [0;1;32;42m░▒[0m
 [1;32;40m   [0mprogrammer      [33;42m░░[0;32;40m▐[0;1;32;42m░▒▓[0;32m▄ ▀[0;33;42m░[0;32;40m▀[0m
                   [32;40m▐[0;33;42m░ [0;32;40m▄▀[0;1;32;42m░▒▓[0;32m▌[0m

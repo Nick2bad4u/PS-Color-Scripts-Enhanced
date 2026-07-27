@@ -5,7 +5,7 @@
 # Source SHA-256: d726f1943559772bbc88874fe64307d065dc8ea37df992c8037d0f7cbfe8238d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ!-CLUS.ANS by dezeit (phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: clustah
 # SAUCE Author: dezeit
 # SAUCE Group: phobia
@@ -16,7 +16,7 @@
 
 Write-Host '
 
-                   [1;5m(dezeit) [0mpresents his first cluster for
+                   [1;5m         [0m                              
                                                               [1m  [0m
 
 
@@ -39,5 +39,4 @@ Write-Host '
             [1;30m [0m                [1;30m        [0m              [1;30m [0m
 
 [1;34m  ,$$b,[0m   [1;34m,$$b,[0m   [1;34m,$$b,[0m   [1;34m,$b[0m  [1;34mTitle: oOps!aSCii[0m   [1;34md$b,[0m   [1;34m,$$b,[0m   [1;34m,$$b,[0m   [1;34m,$$b,[0m
-[1;34m,d$'' `$b,d$'' `$b,d$'' `$b,d$''[0m   [1;34mRequested: NO[0m         [1;34m`$b,d$'' `$b,d$'' `$b,d$'' `$b[0m
-'
+[1;34m,d$'' `$b,d$'' `$b,d$'' `$b,d$''[0m   [1;34mRequested: NO[0m         [1;34m`$b,d$'' `$b,d$'' `$b,d$'' `$b[0m'

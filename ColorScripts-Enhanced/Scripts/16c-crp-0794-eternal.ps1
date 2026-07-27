@@ -5,7 +5,7 @@
 # Source SHA-256: ae85bd87657362a30695ec07b90475b6ff08de9a89ae1eff57121b1f83f23d8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ETERNAL.ANS by Realm Dweller (crp-0794); released in crp-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -59,4 +59,4 @@ Write-Host '
 [31m██████████[0;1;30;41m [0;31m████████████████████▀[0;1;30m▒░[0m       [1;30m░▒ [0;31m▀███████████████████████████████████[0m
 [31m█████████[0;1;30;41m  [0;31m████████████████████▌[0;1;30m▒░[0m        [1;30m░▒[0;31m▐███████████████████████████████████[0m
 
-[31m [0;1;30m■ "The Eternal Warrior" ■ Mortal Realm ■ (904) 377-3572 ■ rd ■ [M/┤G] Trial ■[0m'
+[31m [0;1;30m■                       ■              ■                ■    ■    ┤         ■[0m'

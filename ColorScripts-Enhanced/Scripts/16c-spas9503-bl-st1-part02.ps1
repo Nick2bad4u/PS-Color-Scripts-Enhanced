@@ -5,7 +5,7 @@
 # Source SHA-256: c5ce5bf79e9d9feb21fc603f7dab3a05bd399bc5276d784b772b33b614b33656
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-ST1.ANS by Black Lightning (Spastic); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sarcastic Toaster
 # SAUCE Author: Black Lightning
 # SAUCE Group: Spastic
@@ -38,10 +38,4 @@ Write-Host '
 [32m▄▓█[0;1;33;42m░░░░▒▒▒▒▒░░░[0;32m██▓██▌[0;1;33m▒[0m      [36m▀    ▐[0;1;37;46m░[0;36m▄  [0;1;37m▐[0;1;37;47m▓[0;1;37;40m██[0;1;37;43m▓[0;1;37;40m████[0;1;37;43m▓[0;1;37;40m▌    [0;32m░[0m     [36m▐█[0;1;37;46m░[0;36m▌   [0;32m▄  ▀██▓█▓▄▄ ▀█[0m
 [32m█▓▓██[0;1;33;42m░░░░░░░   [0;32m▓▓▓[0;32;42m [0;32;40m██    [0;36;40m▄▀[0m     [36;40m▄█[0;1;37;46m▒░[0;36m▌ [0;1;37m▀[0;1;37;47m▓▓▓▓[0;1;37;40m██[0;1;37;43m▓▓▓[0;1;37;40m▀    [0;36m▄■▀  ▄█[0;1;37;46m░[0;36m█▓  [0;32m▐███▄▄▄ ▀▀▀▀▀█▓[0m
 [32m▒█▓▓█▀▀▀▀▀▀▀▒▄▄▄▄▓▒█▌ [0;36m■▄▓▄■▀▓▄██[0;1;37;46m░▒[0;36m█▀[0m               [36m■▀ ▀█▄[0;1;37;46m░░▒░[0;36m▀  [0;32m▄█████████▓▄▓▄[0m
-[37m──────────────────────  [0;36m▀  [0;37m─ [0;36m▀▀▀▀  [0;37m── [0;1;36m^tOASTAh!^ [0m─────── [36m▀▀  [0;37m───────────────────[0m
-[1;30mansiby[0mblaklit[1m-[0mn[1m''-[0ming[1;30m.first[0mans[1mi[0mfor[1;30mthe[0;1;36m^418^849^0121^[0;1;30mnewgroup[0;1;37m"[0mspastic[1m"[0;1;30m.startedon02/[0m
-[1;30m23/95,finishedon02/24/95.requestedb[0;1;36m^tOASTOp^33 Ree^[0;1;30myeeriebutmyharddrivecrashedon[0m
-[1;30m02/20/95andilostthescreencapture.I[0;1;36m^UndergrownUnivHq^[0;1;30mquitUnionon02/22/95froma3.50[0m
-[1;30mHDdisk.greetingstodahwiz''ard,eeri[0;1;36m^SpasticSecondaryHq^[0;1;30me,md,mca,evilernie,etc.etc.[0m
-[1;37m----[0mBlack[1m--[0mLightning[1m--[0mInternet[1m--[0mE[1m-[0mmail[1m--[0mAddress[1m--[0mfor[1m--[0mrequests[1m--[0mand[1m--[0mstuff[1m-[0m:[1m----[0m
-[35maj368@detroit.freenet.org [0;1;30m<- it''s worthy of purple.[0m'
+[37m──────────────────────  [0;36m▀  [0;37m─ [0;36m▀▀▀▀  [0;37m── [0;1;36m^tOASTAh!^ [0m─────── [36m▀▀  [0;37m───────────────────[0m'

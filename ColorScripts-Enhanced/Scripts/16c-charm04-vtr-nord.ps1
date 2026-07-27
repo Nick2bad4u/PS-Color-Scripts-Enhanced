@@ -5,7 +5,7 @@
 # Source SHA-256: 8f7e18865db465874088ca329db4f6c679a82d1f562731a9f82e606f7c247fc4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VTR-NORD.ANS by Venturus (Charm); released in charm04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nordic Winds
 # SAUCE Author: Venturus
 # SAUCE Group: Charm
@@ -25,7 +25,4 @@ Write-Host '
      [33m▐[0;1;33;43m░░░[0;33m▌[0m      [1;37;47m▓▓▓██[0m   [1;32m▀█[0;1;32;47m▓▓█[0;1;32;40m▄▄▄█[0;1;32;42m█▓▓▒[0;32m▄[0;37m    [0;36m▄██[0;1;36;46m░░[0;36m▀[0m          [37m    w   i   n   d   s[0m
       [33m░░░[0;30;43m▓[0m     [37;40m [0;1;37;40m▀▀▀▀▀[0m      [1;32m▀▀▀▀▀▀[0m  [1;32m▀▀[0;1;32;42m▓[0;1;32;46m▓▒░░░[0;36m▀▀▀[0m
 
-[36m_______________________________________________________________________________[0;31m [0m
-[33mfive minutes of nordic winds for bleech[0m                    [33mripping is [0;32mfun[0;36mfun[0;35mfun[0m
-
-[37mand you sick bastard out there, do not bother. i DON''T take requests anymore[0m'
+[36m_______________________________________________________________________________[0;31m [0m'

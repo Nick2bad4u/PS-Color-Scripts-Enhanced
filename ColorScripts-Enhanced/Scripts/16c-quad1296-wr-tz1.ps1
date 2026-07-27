@@ -5,7 +5,7 @@
 # Source SHA-256: 9bee4a8c83163d817017467a474b14713a06d5c206a2c1dfc311c5d9a35487a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WR-TZ1.ANS by Windrider (quad-p); released in quad1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: twilight zone
 # SAUCE Author: Windrider
 # SAUCE Group: quad-p
@@ -16,14 +16,14 @@
 
 Write-Host '
 
-          [34m,sª"ªs,[0m        [34mYOU ARE ABOUT TO EXIT THE[0m
+          [34m       [0m        [34m                         [0m
        [34m,s$$''[0;1;37m,s,[0;34m`$$s,[0m                              [35m.[0;1;30m.   [0;34m,s$$ª""""""""ª$s,[0m
        [34m$ª"" [0;1;37m$$$ [0;34m""ª$ [0;35m. [0;1;35m,[0;34m,[0;1;37m,[0;1;30m.[0;35m.[0;34m,[0;1;35m, [0;1;30m.[0;1;37m,[0;35m.[0;34m,  [0;1;35m, [0;1;37m,[0;35m.[0;34m, [0;1;30m.[0;1;37m,[0;1;35m,[0;1;37m,[0;35m.[0;1;30m.[0;34m,[0;1;37m,[0;1;35m,[0;34m,  $$''[0;1;37m,s$$$$$$$$,[0;34m`$$[0m
        [34m$ [0;1;37m($$$$$$$) [0;34m$ ,  [0;35m.[0;34m,  [0;1;37m,[0;35m. [0;34m,[0;1;35m, [0;1;30m. [0;35m.[0;1;37m,[0;34m, [0;1;30m.[0;1;35m,[0;1;37m,[0;35m. [0;34m,[0;1;30m. [0;1;35m, [0;35m.[0;1;30m.[0;35m.  [0;34m$''[0;1;37m,ª''[0;34ms, [0;1;37m,$$ª''[0;34m,$$$[0m
        [34m$bs, [0;1;37m$$$ [0;34m,sd$s,    [0;1;35m''   ''    [0;35m.[0m          [35m.  [0;1;30m.[0;1;37m,[0;35m.[0;1;30m.  [0;34m$bsd$''[0;1;37m,$$ª''[0;34md$ª"$$[0m
        [34m`ª$$ [0;1;37m$$$ [0;34m$$$ª$ª$ª$ª$ª$ª$ª$ª$ª$ª$ª$ª$ª$ª$s,    ,s$$ª''[0;1;37m,$$ª'' [0;34m''''[0;1;37m,s''[0;34m:$[0m
          [34m$$ [0;1;37m$$$ [0;34m`ª [0;35mW [0;1;37m∙ [0;35mI [0;1;37m∙ [0;35mL [0;1;37m∙ [0;35mI [0;1;37m∙ [0;35mG [0;1;37m∙ [0;35mH [0;1;37m∙ [0;35mT [0;1;37m∙ [0;34m$$    $$$''[0;1;37m,$$$$$$$$$ª''[0;34m,$$[0m
-         [34m$$b [0;1;30m`ª$s,[0;34m`s$s$s$s$s$s$s$s$s$[0;35ms[0;34m$[0;35ms[0;34m$s$s$s$ª''    `ª$bssssssssssd$$ª''[0m
+         [34m    [0;1;30m     [0;34m                   [0;35m [0;34m [0;35m [0;34m                                [0m
          [34m`ª$s, [0;1;30m`$$s, [0;34m`ªs, [0;35m,[0;1;30m.[0;1;37m,[0;1;30m,[0;1;35m. [0;1;30m,[0;35m,[0;1;37m,[0;35m`ª$$[0m                [1;30m. [0;34m; `ª$ª[0;35mO[0;34mª$ª''  [0;1;30m,[0;34m,[0m
              [34m''  [0;1;30m`ª$$s, [0;34ms$  [0;1;30m,[0;35m,[0;1;35m.[0;1;37m,[0;34m.[0;35m,[0;1;30m.[0;1;35m, [0;35m.[0;1;35m$[0;35m$    [0;1;30m[[0;1;37mC[0;1;30m][0;1;37mommand  [0;1;35m,[0;35m,[0;1;30m,[0;35m.[0;1;30m;[0;1;35m''[0;1;30m.[0;34m$s[0;1;37m∙[0;34ms$[0;1;30m, [0;34m.  .[0m
            [1;37m,[0;1;30m,[0;1;35m.[0;1;30m.[0;34m,[0m      [34mdª''  [0;1;37m, [0;1;30m,[0;1;37m,[0;1;35m.[0;1;30m,[0;34m.  [0;35m`[0;1;35mª[0;35m$[0;1;35m,[0m          [1;30m. [0;1;37m,[0;34m,[0;1;30m.[0;1;35m,[0;34m;[0;1;37m,[0;1;30m,[0;35m. [0;34m$ [0;35mN [0;34m$  [0;1;30m, [0;34m.[0;1;30m,[0m

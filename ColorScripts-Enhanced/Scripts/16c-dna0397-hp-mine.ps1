@@ -5,7 +5,7 @@
 # Source SHA-256: 5d7e0057e0c5823842997c6e291fbfdf67f91c0eab3888fb3fa8712298c67a97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HP-MINE.ANS by Hypno (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -26,5 +26,5 @@ Write-Host '
 [32m▓█▓   [0;31m░░░░ ░░ ░░░░ ░░░ ░░░░ ░░░ ░░░░ ░░░ ░░░░ [0;32m░ [0;31m░░░ ░░░░ ░░░ ░░░  ░░░░ ░░░  [0;32m███▌[0m
 [32m▒▓▒    [0;31m░ ░ ░   ░ ░  ░   ░ ░  ░   ░ ░  ░   ░ ░    ░   ░ ░  ░   ░    ░ ░  ░   [0;32m▓█▓▌[0m
 [32m░▒░[0m                                                                         [32m▒▓▒[0m
-[32m ░[0m        [31mwelcOme to minEfield you loUzy useR, pleaSe give rEal naMe![0m       [32m░▒░[0m
+[32m ░[0m        [31m                                                           [0m       [32m░▒░[0m
           [31m▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀ ▀[0;1;31m▀[0;31m▀[0m        [32m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0a1615507ea6144aab2c34431c0743ccaf7d6cef9d2eb7c34361e1223ae1ae83
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TPE-COV2.ANS by the platinum eagle (leper society); released in ls-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: church of valhala ii
 # SAUCE Author: the platinum eagle
 # SAUCE Group: leper society
@@ -33,15 +33,11 @@ Write-Host '
 [35m$$$$ $$[0;1;35m$[0;31m,sS$$$[0;1;31m$$    [0;31m$$$$$$[0;1;31mSs.[0;35m$$$$ $$$$[0;1;35m$ [0;35m$$$[0;1;35m$ [0;35m$$$[0;1;35m$ [0;35m$$$[0;1;35m$ [0;35m$$$[0;1;35m$ [0;35m$$$$ $$$[0;1;35m$$ [0;35m$ $$$[0;1;35m$[0m
 [35m$²²"""[0;1;35m"''[0;31m╙$$$$[0;1;31m$$ [0;1;30m"²sS [0;31m$$$$$[0;1;31m$$╜[0;35m$²²""""[0;1;35m""'' [0;35m$²[0;1;35m"'' [0;35m$²[0;1;35m"'' [0;35m$²[0;1;35m"'' [0;35m$²[0;1;35m"'' [0;35m$²²""""[0;1;35m""'' [0;35m'' $²[0;1;35m"''[0m
          [31m`²²[0;1;31m"''[0m        [31m`""[0;1;31m²²''[0m
-                            [34mC[0;1;34mhurc[0;34mH 0f V[0;1;34malhall[0;34mA[0m
+                            [34m [0;1;34m    [0;34m      [0;1;34m      [0;34m [0m
                                [36m9[0;1;36mo[0;36m8.685.8[0;1;36mo[0;36m91[0m
                                 [36mN[0;1;36mu[0;36mP[0;37m: [0;36m?[0;1;36m?[0;36m?[0;1;36m?[0;36m?[0m
-                         [34mM[0;1;34mento[0;34mR[0;1;34m: [0;34mT[0;1;34mhr [0;34mP[0;1;34mlatinum [0;34mE[0;1;34magle[0m
-               [34mC[0;1;34mo-[0;34mG[0;1;34murus: [0;34mB[0;1;34mruce [0;34mL[0;1;34mee/[0;34mP[0;1;34mrime/[0;34mA[0;1;34mcid [0;34mR[0;1;34meflux/[0;34mT[0;1;34melekom[0m
-                          [34mC[0;1;34mlergy: [0;34mC[0;1;34myber[0;34mP[0;1;34munk [0;34mP[0;1;34moison[0m
+                         [34m [0;1;34m    [0;34m [0;1;34m  [0;34m [0;1;34m   [0;34m [0;1;34m        [0;34m [0;1;34m    [0m
+               [34m [0;1;34m  [0;34m [0;1;34m      [0;34m [0;1;34m     [0;34m [0;1;34m   [0;34m [0;1;34m     [0;34m [0;1;34m    [0;34m [0;1;34m      [0;34m [0;1;34m      [0m
+                          [34m [0;1;34m       [0;34m [0;1;34m    [0;34m [0;1;34m    [0;34m [0;1;34m     [0m
 
-[1;37m\/-----------------------────[]------──────────────\/────────────────────----\/[0m
-[1;37mdamn, aother fucking stupid ansi for my board.. maybe a picture next time..[0m
-[1;37mand serously,.. it probly is the only true ansi/hpvac board in north jersey..[0m
-[1;37mthats scary?! eeym taking requests yet again., that is till i get backed up..[0m
-[1;37mso sendem to platinum@jmac.weschke.com or call my bbs 908-685-8091[0m'
+[1;37m\/-----------------------────[]------──────────────\/────────────────────----\/[0m'

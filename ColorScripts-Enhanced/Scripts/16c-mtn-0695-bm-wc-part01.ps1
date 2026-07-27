@@ -5,7 +5,7 @@
 # Source SHA-256: 7c77527450015ab85cbebe944eeb29b04874b9887b9b32a9cda55f71c6e90cb0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM!WC.ANS by blIndman (READ THE INI FILE); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wicked City
 # SAUCE Author: blIndman
 # SAUCE Group: READ THE INI FILE
@@ -33,7 +33,7 @@ Write-Host '
                 [1m▄▀[0m       [1;30m █[0m [1;30m▓[0m [1;34;44m  ░ [0;1;30;44m░[0;34m■[0;1;37;44m [0;1;34;44m░[0;1;37;44m  [0;1;30;44m░[0m [1;44m [0;1;36;44m▀▀[0;1;37;44m  [0;1;30;40m [0;34m▀▀▀[0;1;30m [0;1;37;44m [0;1;36;44m█▄[0;1;34;44m░[0;1;30;44m░[0m [1;30m█[0m [1;30m█[0m
               [1m▄▀[0m          [1;30m█[0m [1;30m▒▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄■▓▀▓[0m [1;44m    [0;1;30;44m░[0m [1;30m▓[0m [1;30m█[0m
             [1m▄▀[0m            [1;30m▓[0m [1;30m░[0m [1;30m▄▓▄▄▄▄▄▄▄▄ ▒[0m [1;30m▄▄▄▄▄▄[0m [1;30m▓▄▄▄▓▄▄▄▓[0m [1;30m▓[0m
-           [1m▀[0m             [1mb[0;1;30m▒[0;1;37mindm[0;1;30m▒[0;1;37mn[0;1;30m [0mpresents[1;30m [0ma[1;30m [0;1;37mmotion[0;1;30m [0mpr[1;30m▒[0mducti[1;30m░[0mn
+           [1m▀[0m             [1m [0;1;30m▒[0;1;37m    [0;1;30m▒[0;1;37m [0;1;30m [0m        [1;30m [0m [1;30m [0;1;37m      [0;1;30m [0m  [1;30m▒[0m     [1;30m░[0m 
 
 
 

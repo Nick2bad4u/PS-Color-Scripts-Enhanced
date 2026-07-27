@@ -5,7 +5,7 @@
 # Source SHA-256: beeb833b251669448486f5e2fdea7bb3ba58b409c5962daf6d386e8b07ba4ecf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DV8!.ANS by -------------------- (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dv8
 # SAUCE Author: --------------------
 # SAUCE Group: black maiden
@@ -30,14 +30,7 @@ Write-Host '
         [1;34m      [0;1;37m░▀▌[0;1;34m ▀[0;1;37m▀[0;1;34m▀▀▀▀▐██[0;1;36;44m░░[0;1;34;40m▓█▀[0;1;35;40m  [0;34m░[0;1;35m  [0;1;31m░▓█[0;1;31;47m▓[0;1;31;40m▀[0;1;37;40m [0;33m ░[0;1;31;43m░▓[0;1;31;47m▓▓[0;1;31;43m█▓░[0;33m▄▄▄▄[0;1;33m▄▄[0;1;37m▄[0;1;37;43m▄[0;1;37;40m▓[0m  [31mave_[0;1;31m▐░[0m
         [1;34m        [0;1;37m░[0;1;34m   [0;31m░▓░[0;1;34m     ▀▀▌[0;1;35m  [0;1;31m░[0m    [31m░▀[0;1;31m▌[0m    [31m▄[0;1;31m▄▄[0;31m▄[0;1;31m░[0;33m  ▀▀▀▀▀▀[0;1;33;43m▀[0;1;33;40m▓▓░[0m
                      [31m░[0m         [31m▄█[0;1;31m▒[0;31m▄▄░░[0m    [31m▄█[0;1;31;41m░▓█[0;1;31;47m▓▀[0;1;31;40m▓░[0m        [1;33m░[0m
-                       [31m░▓[0;30;41m♥♥[0;1;35;40m  [0;1;37;40mI L[0;1;37;41mOVE[0;31m▀[0;1;37mMONOC[0;1;37;41mHROME L[0;1;31;41mOG[0;1;37;41mOS[0;1;37;40m![0;1;35;40m [0;30;41m♥♥[0;31;40m▄░[0m
+                       [31m░▓[0;30;41m  [0;1;35;40m  [0;1;37;40m   [0;1;37;41m   [0;31m▀[0;1;37m     [0;1;37;41m       [0;1;31;41m  [0;1;37;41m  [0;1;37;40m [0;1;35;40m [0;30;41m  [0;31;40m▄░[0m
 [37;40mhandle: [0;1;37;40mdv8[0m                               [31m▀[0;37m [0;31m▐█[0;1;31;41m░▒[0;1;31;40m██▓▒░[0m
-origin: [1mgermany[0m                              [31m▓▀▀[0;37m  [0;1;31m░[0m
-profession: [1mansi artist[0m                      [31m░[0m
-
-[37mdv8 has been a very good friend also before i entered the scene and we managed[0m
-[37mto make him join a couple of months ago. he loves toon and anime, and i guess[0m
-[37myou can recognize this in his ansis :)[0m
-
-[37mdue to his less attention to the scene in the last time, he wasn''t able to[0m
-[37mfinish all his ansis, so there''s few of them in this pack.[0m'
+        [1m       [0m                              [31m▓▀▀[0;37m  [0;1;31m░[0m
+            [1m           [0m                      [31m░[0m'

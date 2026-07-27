@@ -5,7 +5,7 @@
 # Source SHA-256: f91cf62f7cca286c68a2e01b4d1f85d2315357f7af5c1cab09b4c8b5a46ae965
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-inf1.ans by Avenging Angel + Goatboy (kbsart05); released in kbsart05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -27,6 +27,5 @@ Write-Host '
         [34m▄█████████[0;37m   [0;1;30m▀▀[0m [1;30m▀[0;1;30;47m▄   [0m█▀ [1;30m▀[0m▀▀▀▀          [34m    [0;37m [0;1;34;44m███▀[0;34m▀▀[0m
         [34m█[0;1;34;44m▄[0;34m█[0;37m [0;34m▀[0;1;34;44m▀[0;1;34;40m▒▒▒[0;1;34;44m▄▄[0;34m▄[0m    [1;30m▀[0m▀▀▀           [34m░░░░░░[0m   [34m ██▄  [0;37m [0;34m▀▀[0m
          [34m▀▀▀[0;37m  [0;34m▀▀[0;1;34;44m▀██▀[0m [34m▄▄  [0;37m   [0m                    [34m [0;1;34m▀[0;34m▀▀  [0m
-        [1;37mavg[0m([1mloc[0m)  [34m ▄▄[0;1;34m▒▒[0;34m  [0;37m  [0;1;30mi n f l i c t e d . .[0m     [1mgoat[0m([1mkibosh[0m)
-                  [34m ▀▀▀[0;1;34m▀[0;34m  [0m
-                  [34m         [0m'
+        [1;37m   [0m [1m   [0m   [34m ▄▄[0;1;34m▒▒[0;34m  [0;37m  [0;1;30m                     [0m     [1m    [0m [1m      [0m 
+                  [34m ▀▀▀[0;1;34m▀[0;34m  [0m'

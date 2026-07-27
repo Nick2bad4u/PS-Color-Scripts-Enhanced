@@ -5,7 +5,7 @@
 # Source SHA-256: 66155876098bd408a275820047efdb9f9ade5e83322253a5f0fd0402833474a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-SALT.ANS by cryogenic (avenge); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: salt
 # SAUCE Author: cryogenic
 # SAUCE Group: avenge
@@ -16,8 +16,8 @@
 
 Write-Host '
 [1;30m┌──────────────────────────────────────────────────────────────────────────────┐[0m
-[1;30m│[0m  [30mwell, i bet you''re all looking for black on black right now... well, you [0m   [1;30m│[0m
-[1;30m│[0m  [30mwont find any AHAHAHAHAHAHAHAHAH%!^@75!@^$!%@!@$!@#$ ... ahem...[0m            [1;30m│[0m
+[1;30m│[0m  [30m                                                                         [0m   [1;30m│[0m
+[1;30m│[0m  [30m                                                                [0m            [1;30m│[0m
 [1;30m│[0m  [35m█▀[0m                              [1;35m░░[0m                                          [1;30m [0m
 [1;30m│[0m    [35m█[0;1;35;45m▄[0;1;35;40m▄[0;35m▄[0m    [35m▀█[0;1;35m▄[0;35m▄[0m          [35m [0;1;35m░░[0m [35m [0m   [1;35m▓▓[0m           [1;35m░░[0m        [35m▄[0m     [1;35m░░[0m  [1mcryo[0m[[1mavenge[0m]
 [1;30m│[0m     [35m▀[0;1;35;45m▀██▄[0;35m▄[0;37m  [0;35m▐[0;1;35m▓[0;35m▄[0m          [35m [0;1;35m▓▓[0m [35m [0;37m  [0;35m▄[0;1;35;45m██[0;35m ▄[0m         [1;35m▓▓[0m   [35m▄[0;1;35m▄[0;1;35;45m░[0;35m▀[0;37m [0;35m▄[0m     [1;35m▓▓[0m  [35m▄▄[0m

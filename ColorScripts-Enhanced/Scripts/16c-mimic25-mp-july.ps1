@@ -5,7 +5,7 @@
 # Source SHA-256: f16b53a9c022dcc39d5c326d9649c8d3d3e356546f942cf410f3c7d50d186193
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-july.ans by Meatpod (mimic25); released in mimic25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -31,17 +31,4 @@ Write-Host '
                     [1;31m$$$$$ $[0;33mP┘''/[0;1;31m$$$$$$$$$[0;33m''[0m    [1;31m$$[0;33m$[0;1;31m  [0;33m;┘²"`[0;37m [0;1;30m mp.[0m
                     [1;31m$$$$$ [0;33m [0m    [31m [0;33m`²---²`[0m    [31m [0;33md[0;1;31m$[0;33m''[0;37m  [0;1;31m [0m
                     [1;31m$$$$$  [0;33m└.[0;31m   [0m        [33m .┌\┘ [0m
-                           [31m   [0;33m`[0;31m   [0;33m .. -*┘`[0m
-
-[37m[July 15th]-[for: Jeff, Julian, Justin, others]--------- - - - -- fuck you -----[0m
-
-[37mHappy birthday, cancers![0m
-[37mHappy anniversary, Mimic![0m
-[37mI love [0;1;37m18[0m-year-old Jeffrey Fourrier.
-
-[1;31m ed[0;31m [0;1;31mnote.[0;31m ([0;1;31mblk_jack[0;31m, that is)  Even though [0;1;31mmeatpod[0;31m knows Mimic''s [0;1;31mbirthday[0;31m is[0m
-[37m [0;31mon July [0;1;31m16th[0;31m, he was [0;1;31munaware[0;31m mine was on the 16th [0;1;31mtoo[0;31m, and thought mine was on[0m
-[31m the same day as [0;1;31mhis[0;31m (July 15th).  ..and even though it''s kinda the [0;1;31mwrong date[0;31m, [0m
-[31m I''ll still give you sweet [0;1;31msweet[0;31m [0;1;31mhead[0;31m, Jules.  [0;1;31mThank you[0;31m so much, you sexy man.[0m
-
-[37m [0;31mOh, and I''m turning [0;1;31m19[0;31m you big [0;1;31mhairy[0;31m jew :)[0m'
+                           [31m   [0;33m`[0;31m   [0;33m .. -*┘`[0m'

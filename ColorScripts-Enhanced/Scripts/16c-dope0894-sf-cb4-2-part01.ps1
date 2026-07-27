@@ -5,7 +5,7 @@
 # Source SHA-256: 72414adb5a77481313f31befd0fde720f02735773cc55cc64bdbfde76a258b0b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-CB4#2.ANS by Superfly (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -15,7 +15,7 @@ Write-Host '
 [1;30;40mhouse go out to│[0;34m───[0;1;32m▄[0;1;32;46m▀▀▀[0;1;32;40m▄[0;34m─────[0;1;34m▐[0;1;32;42m░[0;1;34;40m▌▀[0;1;34;42m▄[0;1;34;40m▀[0;34m──[0;1;30m│[0m          [1;36mPτesents:[0m
 [1;36m [0;1;30mall the MGDs, │[0;1;37m─[0;1;32m▐[0;1;32;46m▀▄[0;1;32;40m▀▀▀[0;1;32;46m▄■[0;1;37;40m─────[0;1;34;42m▌▐[0;1;37;40m─────[0;1;34;40m▀▄[0m
 [1;30;40myou guys are   │[0;34m─[0;1;32m▐[0;1;32;46m▄▀[0;1;32;40m▄▄▄▄[0;34m──────[0;1;34;42m▌▐[0;34m────[0;1;34m▄▄▀[0m             [1;36mÆ[0m
-[1;30mthe shit[0;1;37m¡[0;1;30mSeri- │[0;1;37m───[0;1;32m▀[0;1;32;46m▄▄▄▄▀[0;1;32;40m▄[0;1;37;40m────[0;1;34;40m▐[0;1;32;42m░[0;1;34;42m█[0;1;34;40m▄▀▀[0;1;37;40m─[0;1;30;40m│[0m      [1;37;40m▄[0m         [1;37;40m▄▄    [0;1;30;40m▄▄▄[0m
+[1;30m        [0;1;37m [0;1;30m      │[0;1;37m───[0;1;32m▀[0;1;32;46m▄▄▄▄▀[0;1;32;40m▄[0;1;37;40m────[0;1;34;40m▐[0;1;32;42m░[0;1;34;42m█[0;1;34;40m▄▀▀[0;1;37;40m─[0;1;30;40m│[0m      [1;37;40m▄[0m         [1;37;40m▄▄    [0;1;30;40m▄▄▄[0m
 [1;30;40m ous Pilgrim,  │[0;34m────────[0;1;32m▀[0;1;32;46m▄▀[0;1;32;40m▄[0;1;34;40m▄▀█[0;1;32;42m░[0;1;34;40m▌[0;34m────[0;1;30m│[0m     [1;30m▌[0;1;37m██▄  [0;1;30m▄▄▄ ▌[0;1;37m▌[0;1;30m▌[0;1;37m▀▄ ▌[0;1;30m▌[0m
 [1;30m signed yet?[0;1;37m¡  [0;1;30m│[0;1;32m▄[0;1;32;46m▀■[0;1;32;40m▀[0;1;37;40m───[0;1;34;40m▄▄▀[0;1;32;40m▐[0;1;32;46m░[0;1;32;40m▌[0;1;37;40m──[0;1;34;42m▌▐[0;1;37;40m────[0;1;30;40m│[0m     [1;30;40m▌[0;1;37;40m█[0;1;30;40m▌[0;1;37;40m█▌▌[0;1;30;40m▌[0;1;37;40m▐[0;1;30;40m▐ ▌[0;1;37;40m▌▄▀  ▐[0;1;30;40m▐■[0m
 [1;30;40m Trilobyte &   [0;1;32;40m▐[0;1;32;46m░[0;1;32;40m▌[0;34m────[0;1;34m█[0;34m───[0;1;32m▐[0;1;32;46m░[0;1;32;40m▌[0;34m──[0;1;34;42m▌▐[0;34m────[0;1;30m│[0m     [1;30m▌[0;1;37m██▀ ▌[0;1;30m▌[0;1;37m▐[0;1;30m▐ ▌[0;1;37m▌    ▌[0;1;30m▌[0m

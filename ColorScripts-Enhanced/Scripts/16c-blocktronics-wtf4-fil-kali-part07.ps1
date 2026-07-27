@@ -5,7 +5,7 @@
 # Source SHA-256: 9a543a671d553603ceb4a3906f4bf43d099099de0966b3e8f4069a7434ad0df3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-kali.ans by Filth (blocktronics_wtf4); released in blocktronics_wtf4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20140725
 # SAUCE Dimensions: 80x397
 # SAUCE Font: IBM VGA
@@ -46,11 +46,11 @@ Write-Host '
 [37;40m  [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0m                [1;37;40ms[0m   [1ma[0m   [1mm[0m   [1ms[0m   [1ma[0m   [1mr[0m   [1ma[0m [36m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0m
 [37;40m  [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m    1[0m       [37;40m9[0m       [37;40m9[0m       [37;40m6 [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0m              [36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0m
 [37;40m  [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0m                                                  [36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0;30;46m▓[0m
-              [36;40masylum[0m         [36;40mdiehard[0m        [36;40mkid[0;37;40m [0;36;40mkrylon[0;37;40m   [0;36;40mrza[0m
+              [36;40m      [0m         [36;40m       [0m        [36;40m   [0;37;40m [0;36;40m      [0;37;40m   [0;36;40m   [0m
 [37;40m  [0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40mcircus[0;37;40m [0;36;40mfreak[0;37;40m   [0;36;40meconochrist[0;37;40m    [0;36;40mlamer[0m        [36;40msammael[0m      [36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m
-              [36;40mcolourless[0m     [36;40meerie-kun[0m      [36;40mmice[0m         [36;40msilver[0;37;40m [0;36;40mrat[0m
+              [36;40m          [0m     [36;40m         [0m      [36;40m    [0m         [36;40m      [0;37;40m [0;36;40m   [0m
 [37;40m  [0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40mcoug[0m           [36;40mellisdee[0m       [36;40mmisfit[0m       [36;40msquarepusher[0;37;40m [0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m
-              [36;40mcrayON[0m         [36;40mexulted[0m        [36;40mmogel[0m        [36;40mstone[0;37;40m [0;36;40mamnesia[0m
+              [36;40m      [0m         [36;40m       [0m        [36;40m     [0m        [36;40m     [0;37;40m [0;36;40m       [0m
 [36;40m▀▀▄[0;37;40m  [0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;37;40m  [0;36;40mcyre[0m           [36;40mfever[0m          [36;40mnumb[0m         [36;40mtarot[0m        [36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m [0;1;36;40m▄▄▀[0m
 [36m▀▄▄[0;1;36m▀▄▄▄[0m       [36mdieznyik[0m       [36mflame[0m          [36moutkast[0m      [36mvade79[0m        [36m▄▄[0;1;36m▄▄▀[0m [36m▄▓▓[0m
 [36m█▓██[0;37m  [0;1;36m▀▀▄▄▄[0m   [36mdefiant[0m        [36mfluor[0m          [36mposkgubbe[0;37m    [0;36mxode[0m     [36m▄▄[0;1;36m▄▀[0m  [1;36m▀[0m   [36m██▀▓[0m

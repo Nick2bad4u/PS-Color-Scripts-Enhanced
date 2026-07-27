@@ -5,7 +5,7 @@
 # Source SHA-256: 2d5cc621e331e628ad9d2f45b7838596f1a76d15530c951c0f7103874fdc6ac5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-3031.ICE by trip (iCE Advertisements); released in ice9702a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Login 303
 # SAUCE Author: trip
 # SAUCE Group: iCE Advertisements
@@ -33,8 +33,8 @@ Write-Host '
         [34m ░[0;1;36;44m░[0;34m▀▀▀■▄[0;37m  [0;34m▐▓ [0;1;36;44m░[0;34m▀▀▀■▄[0;37m  [0;34m▐▓[0;37m [0;1;36;44m░[0;34m▀▀▀■▄[0;37m  [0;34m▐▓░ [0m   [34m░░▒[0;37m [0;1;30m▄▀[0m [34m░▒[0;37m  [0;1;30m▀[0m  [34m▀▀▀▀▀▀▀[0;37m  [0;1;30m ██[0m  [34m▒░░[0m
           [34m▀■▄[0;37m [0;34m [0;37m  [0;34m▄■▀[0;37m [0;34m▀■▄[0;37m [0;34m [0;37m  [0;34m▄■▀[0;37m [0;34m▀■▄[0;37m [0;34m [0;37m  [0;34m▄■▀[0m       [34m░[0m     [34m░[0m          [34m░░[0m     [1;30m▀[0m [34m░[0m
              [34m▀▀▀▀[0m       [34m▀▀▀▀[0m    [34m  [0;37m [0;34m▀▀▀▀[0m     [36minfo [0m   [36m :[0;37m buy ansis from me![0m
-         [36mHandle:[0;37m Trip[0m                       [36mSec Level:[0;37m $5 for 23 liners,[0m
-         [36mPasswd:[0;37m trip@ice.org[0m               [36mLast Call:[0;37m $15/100 lines of pics[0m
+         [36m       [0;37m     [0m                       [36m          [0;37m                  [0m
+         [36m       [0;37m             [0m               [36m          [0;37m                      [0m
              [34m░[0;36m [0;34m░▄[0;36m▄[0;36;44m▄[0;36;40m▀[0;34;40m░[0m                                      [34;40m░[0;36;40m▀[0;36;44m▄[0;36;40m▄[0;34;40m▄░[0;36;40m [0;34;40m░[0m
              [34;40m▒▄[0;36;44m▄[0;1;32;46m▄▀[0;34m░[0m             [1;32mL O G I N  3 0 3[0m             [34m░[0;1;32;46m▀▄[0;36;44m▄[0;34;40m▄▒[0m
            [34;40m░▒[0;36;44m [0;36;40m█[0;1;32;40m█[0;1;32;46m▌[0;36m▌ [0m                                          [36m ▐[0;1;32;46m▐█[0;36m█[0;34m█▒░[0m'

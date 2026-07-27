@@ -5,7 +5,7 @@
 # Source SHA-256: 8ccbee42a0ad6aaf4113419f06a6d75e8255909d7ff32aecb8fbcf2040832afe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SE-RIGE4.ANS by Side Effect (adfa0793); released in adfa0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 33-61
 # Columns: 1-80
 
@@ -31,11 +31,10 @@ Write-Host '
                           [1;30;40m·[0m
                                [1;37;40m.[0m                           ∙                [1m.[0m
 
-∙                     [1;35m/[0;35m] [0;1;37mRi[0mGELL[1mi[0mAN [1mS[0mTARBASE [1mE[0mNTERPR[1mi[0mSES [35m[[0;1;35m\[0m                     [1;30m·[0m
-     [1;35m/[0;35m] [0;37mFA[0;1;37mi[0mC [1mo[0mZ H[1m.[0mQ[1m. ∙ [0mFA[1mi[0mRL[1mi[0mGHT D[1mi[0mST S[1mi[0mTE [1m∙ T[0mCA D[1mi[0mST S[1mi[0mTE [1m∙ N[0muKE S[1mi[0mTE [35m[[0;1;35m\[0m
-                           [1;35m/[0;35m] [0;1;37mS[0mYS[1mo[0mP[1m: D[0mEADLY [1mA[0mVENGER [35m[[0;1;35m\[0m
+                      [1;35m [0;35m  [0;1;37m  [0m    [1m [0m   [1m [0m        [1m [0m      [1m [0m    [35m [0;1;35m [0m                     [1;30m [0m
+     [1;35m [0;35m  [0;37m  [0;1;37m [0m  [1m [0m   [1m [0m [1m    [0m  [1m [0m  [1m [0m     [1m [0m    [1m [0m   [1m   [0m    [1m [0m    [1m [0m   [1m   [0m     [1m [0m   [35m [0;1;35m [0m
+                           [1;35m [0;35m  [0;1;37m [0m  [1m [0m [1m   [0m      [1m [0m       [35m [0;1;35m [0m
           [1;30m· ·[0m                                                    [1;30m· ·[0m
-[1;37m.[0m                 [1;35m/[0;35m] [0;1;37mA[0mNSi: [1mSi[0mDE [1mE[0mFFECT [1m∙ [0mF/[1mi[0mC [1m∙ [0mC[1mi ∙ [0m/[1m][0mDF[1m[[0m\ [35m[[0;1;35m\[0m              ∙
+[1;37m [0m                 [1;35m [0;35m  [0;1;37m [0m     [1m  [0m   [1m [0m      [1m  [0m  [1m [0m  [1m  [0m [1m    [0m [1m [0m  [1m [0m  [35m [0;1;35m [0m               
             [1m.[0m                                                          [1m.[0m
-                        [1;30m·[0m              ∙            [1;30m·[0m
-     [1;30m·    [0;1;37m"[0mI drew this baby in 25*80, but it looks hell good in 50*80![1m"[0m      [1;30m·[0m'
+                        [1;30m·[0m              ∙            [1;30m·[0m'

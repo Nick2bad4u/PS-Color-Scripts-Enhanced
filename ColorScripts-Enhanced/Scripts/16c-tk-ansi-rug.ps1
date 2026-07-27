@@ -5,7 +5,7 @@
 # Source SHA-256: 2ba1e4b75eecdf36bcb02a5c29ad46710c6302004355f85351f2b6dd76f47120
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RUG.ANS by Tank (tk-ansi); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Indian Rug
 # SAUCE Author: Tank
 # SAUCE Date: 19910224
@@ -32,5 +32,4 @@ Write-Host '
        [1;37m║ [0;34m█[0;1;36m███████████[0;34m██[0;1;36m████████████[0;1;35m██[0;34m██  ██[0;1;35m██[0;1;36m████████████[0;34m██[0;1;36m███████████[0;34m█  [0;1;37m║[0m
        [1;37m║ [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;35m█[0;34m██    ██[0;1;35m█[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0;1;37m║[0m
        [1;37m╚═══════════════════════╗  [0;34m▀▀▀  [0;1;37m╔╗  [0;34m▀▀▀  [0;1;37m╔════════════════════════╝[0m
-                               [1;37m╚═══════╝╚═══════╝[0m
-                                 [1;34mThe Indian Rug[0m'
+                               [1;37m╚═══════╝╚═══════╝[0m'

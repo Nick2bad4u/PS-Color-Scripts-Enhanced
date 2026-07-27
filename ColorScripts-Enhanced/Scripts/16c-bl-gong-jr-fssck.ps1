@@ -5,7 +5,7 @@
 # Source SHA-256: 1adea1883e802625f9d2649accf92e2c96ec811b825a44d674ace43962d0f1ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSSCK.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FS security-checker.
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -37,8 +37,7 @@ Write-Host '
 [1;30m   ▒   [0m│[1;30m····∙∙├ ....................... ░[0m [33m ▄░[0;1;37m▀▀████[0;1;37;47m▓▓▓▓▐[0;1;37;40m████▐███[0;1;37;47m▌▓▓▓[0;1;37;40m██▌[0m [33m░[0;37m  [0;33m  [0;1;30m.[0;33m░[0m
 [1;30m   ░   [0m│[1;30m····∙∙├ .......................  [0;33m▄░░ [0m   [33m░░░[0;1;37m▀▀▀▀▀▀▀▀ ▀▀██[0;1;37;47m▓ ▓[0;1;37;40m██▀[0m   [33m▒[0;37m [0;1;30mjR²[0;33m [0m
                                         [33m▀   [0m   [33m░░░[0m                        [33m▀[0m
-                                  [1;37;43ms[0mlam on[33m░[0;37men[0;1;37;43mt[0mah
+                                  [1;37;43m [0m      [33m░[0;37m  [0;1;37;43m [0m  
 
 
-[1;30m------------------------------------░░░---------░-------------------------------[0m
-[1;30mthe FS security-check screen. another "angry can"-design - it rocks![0m'
+[1;30m------------------------------------░░░---------░-------------------------------[0m'

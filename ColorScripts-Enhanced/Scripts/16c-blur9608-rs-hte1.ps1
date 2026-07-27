@@ -5,7 +5,7 @@
 # Source SHA-256: bcf74bd61ea19f019beac0652ef50da038600d0cc8d8b52834deb611e8e5435b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-HTE1.ANS by rip-saw (blur); released in blur9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hell TeCH Enterprises
 # SAUCE Author: rip-saw
 # SAUCE Group: blur
@@ -45,13 +45,8 @@ Write-Host '
                 [36m▌[0m                   [36m▄[0;1;36;46m▓░[0m  [1;36m░[0m
                 [36m▄[0m                   [36m▓[0;1;36;46m░[0;36m▀[0m
                                     [36m▒[0m
-                         [1;36m([0;36mhell tech enterprises.[0;1;36m)[0m
-                      [1;36m([0;36moped by ringmaster & rip-saw[0;1;36m)[0m
-                              [1;36m([0;36m517.xxx.xxxx[0;1;36m)[0m
-                         [1;36m([0;36mansi by rip-saw of blur[0;1;36m)[0m
-[1;30m---------------------------/ kigity-cut me /---------------------------------[0m
-[1;30mheres another one goin out to a local baord.  This month it was all local do[0m
-[1;30mto the fact that calling out wasnt real easy for me.  Im moven out with my [0m
-[1;30mgirlfriend to our own place in a couple weeks.  I passed the GED numba 1 in [0m
-[1;30mmy class, and Im getting my scheduling for college done.  Lucky I could draw[0m
-[1;30mas much as I did.[0m'
+                         [1;36m [0;36m                      [0;1;36m [0m
+                      [1;36m [0;36m                            [0;1;36m [0m
+                              [1;36m [0;36m            [0;1;36m [0m
+                         [1;36m [0;36m                       [0;1;36m [0m
+[1;30m---------------------------/ kigity-cut me /---------------------------------[0m'

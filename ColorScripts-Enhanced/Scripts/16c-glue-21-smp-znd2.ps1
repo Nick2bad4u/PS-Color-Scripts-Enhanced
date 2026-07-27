@@ -5,7 +5,7 @@
 # Source SHA-256: 946c86d06fcc99fbf7ced7f8a1cf554cef57c091b5fad5c79b4bdb4555d89c1a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-ZND2.ANS by Shrimp (glue-21); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
@@ -35,21 +35,21 @@ Write-Host '
                                           [1;30m▀[0m      [1;30m▄▄[0m  [1;30m▄[0m     [1;30m▄[0m [1;30m▄▄▀▀[0m
 
 
-[1;30mWOAH, I got more than 3 letters in one ansi! Heh, it is hard to call that thing[0m
-[1;30man ansi, this a is very weird and almost an unreadable art work(unless viewed in[0m
-[1;30mVGA mode). Anyhow.. This is another ansi for Squinty''s Zandura. Nice guy, that [0m
-[1;30mSquinty.. Heh, he asked me to draw another ansi with  the pretty much same [0m
-[1;30mcolors as the previous ansi I did for him (Smp-ZAND.ans, located in this pack),[0m
-[1;30mso in order not to make it look almost the same i had to draw that weird thing [0m
-[1;30mwhich, I have to admit, looks cool NONTHELESS =)[0m
+[1;30m                                                                               [0m
+[1;30m                                                                                [0m
+[1;30m                                                                               [0m
+[1;30m                                                                           [0m
+[1;30m                                                                               [0m
+[1;30m                                                                               [0m
+[1;30m                                                [0m
 
-[30;41mG[0;1;30;40mr33tz: Catch22 & all of Glue!$!$, Fever7, Tainted, Xylyl!@, SQUINT!@, uh.. [0m
-        [1;30mnstalkie.. filth.. um..and all the guys who DO (not) greet me on IRC.[0m
+[30;41m [0;1;30;40m                                                                           [0m
+        [1;30m                                                                     [0m
 
-[1;30mIf you''re not here you must be:[0m
-[1;30mA) Very sad[0m
-[1;30mB) A person who wants my head on his bookshelf[0m
-[1;30mC) Forgatten by me[0m
-[1;30mD) A typical [0;1;33;44mSwede[0;1;30;40m artist (Crayon, Deviant, etc..)[0m
+[1;30m                               [0m
+[1;30m           [0m
+[1;30m                                              [0m
+[1;30m                  [0m
+[1;30m             [0;1;33;44m     [0;1;30;40m                                [0m
              [34m░░[0;37m [0;34m [0;1;33;44m░[0m
                  [1;33m░[0m'

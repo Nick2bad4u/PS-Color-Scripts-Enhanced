@@ -5,7 +5,7 @@
 # Source SHA-256: 4314568d2e14a8454317d7f804578204695218788851e7cae96eb13357d840df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DE-SX1.ANS by Dragons Eye (dyn9406); released in dyn9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-86
 # Columns: 1-80
 
@@ -41,7 +41,7 @@ Write-Host '
                          [31m▄▄▄[0m                 [31m▄▄▄[0m
                      [31m▄▄██▀    SO[0;1;31mUT[0;1;37mHE[0;1;31mRN [0;31mCR[0;1;37mO[0;1;31mSS   [0;31m▀▀██▄▄[0m
                     [31m███[0m                            [31m███[0m          [31m<┤NSI:[0m
-                   [31m███[0m       [31mS[0;1;31mY[0;1;37mS[0;1;31mO[0;31mP[0;1;30m:  [0;31mRO[0;1;31mBO[0;1;37mTE[0;1;31mCH[0m       [31m███[0m      [31mD[0;1;31mR[0;1;37mA[0;1;31mG[0;31mO[0;1;37mN[0;1;31m''[0;31mS [0;1;37mE[0;31mY[0;1;31mE[0m
+                   [31m███[0m       [31m [0;1;31m [0;1;37m [0;1;31m [0;31m [0;1;30m   [0;31m  [0;1;31m  [0;1;37m  [0;1;31m  [0m       [31m███[0m      [31m [0;1;31m [0;1;37m [0;1;31m [0;31m [0;1;37m [0;1;31m [0;31m  [0;1;37m [0;31m [0;1;31m [0m
                     [31m██[0m                              [31m██[0m        [31m[D[0;1;31mY[0;1;37mN[0;31m<┤[0;1;37mS[0;1;31mT[0;31mY][0m
                      [31m▀█[0m        [31m818.448.5859[0m        [31m█▀[0m
                        [31m▀[0m                          [31m▀[0m'

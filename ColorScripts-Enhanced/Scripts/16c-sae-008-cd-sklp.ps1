@@ -5,7 +5,7 @@
 # Source SHA-256: f899b20222507a03c4a5288a626d29879edf156536203cca97fc046e676de5c7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-SKLP.ANS by Cd_ (sae-008); released in sae-008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -27,13 +27,13 @@ Write-Host '
             [34m. $$[0;1;36m [0;34m [0;1;36m $[0;34m$g,[0m     [1;34m [0;1;36m''   [0;1;34m [0;1;36m   [0;34m,p[0;1;36m$[0;1;34m$[0;34m▄[0;1;36m [0;36m▐[0;1;34m$$[0;1;36m [0;1;34m .[0m
             [34m  `²[0;1;36mS[0;34m$S[0;1;36m²''[0;34m ²$[0;1;36mS*m,____[0;34m,m*S$²[0;1;36m `[0;1;34m²[0;1;36mS[0;1;34m$[0;1;36mS[0;1;34m²[0;1;36m''[0m
                 [1;36m [0;34m [0;1;36m: ''[0;34m [0;1;36m [0m  [36m:[0;37m  [0;1;34m   [0m  [1;34m [0m    [1;36m..[0;1;34m [0;1;36m [0;1;34m.: [0;1;36m  [0;1;34m .[0m
-            [34m.   [0;1;36m [0;34m [0;1;36m. [0;34mcd[0;36m: .▌ [0;34mskulpture[0m
+            [34m    [0;1;36m [0;34m [0;1;36m  [0;34m  [0;36m   ▌ [0;34m         [0m
                 [1;36m [0;34m [0;37m  [0;34m  [0;1;36m [0m  [1;36mi[0m
 
 
 [1;36m▐▌▐▌▐▌▐▌▐▌▐▌▐▌▐▐▐▌▐▐▌▐▐▌ [cut ] ▌▐▌▐▌▐▌▌▐▌▐▌▐▌▐▌▌▐▌▐▌▐▌▐▌▐▌▐▐▌▐▌▐▌▐▌▐▌▌▐▌▌▐[0m
 
 
-[1;36m i tryed out some ansi colors again for practice\[0m
+[1;36m                                                 [0m
 
                                     [1;36mcD_[0m'

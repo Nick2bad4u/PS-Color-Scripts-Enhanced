@@ -5,7 +5,7 @@
 # Source SHA-256: e9671f0afcb8f488119952903b2df06761ff4f172c5278329ff194339f799f74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-IMAG.ANS by San Man (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 43-85
 # Columns: 1-80
 
@@ -50,6 +50,4 @@ Write-Host '
   [30m▓▓[0;1;30m░[0m▀▀[1m▀▀▀[0;1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▓▒░░░░[1;47m▀▀▀▀▀▀▀▀▀[0;1;40m▀▀▀▀▀[0;1;47m▀▀▀▀▀▀▀▀▀▀▀[0m█▓▒░░░░░[1;47m▀▀▀▀▀[0;1;40m▀[0m░░░░▄▀  ░░
 [30m▓▓▓▓[0;37m░░░░░[0;1;30;47m▀[0m▄▀[47m          [0;40m█▓▒░[0;30;40m░░░░[0m      [37;40m▀▀░░░░░[0;37;47m [0;37;40m▄▀▀[0;37;47m      [0;37;40m█▓▒░░[0;30;40m█████████ [0;37;40m░░░░[0;37;47m   [0;37;40m   ░[0m
 [30;40m▓▓ [0;37;40m░░░░[0;37;47m     [0m [37;47m       [0;37;40m█▓▒░[0;30;40m░░░░░░░░░░░░ [0;37;40m░░░░[0;37;47m     [0m [37;47m        [0;37;40m█▓▒░[0;30;40m████████ [0;37;40m░░░[0;37;47m      [0;37;40m░[0m
-[37;40m░  ░░░▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▓▒░[0;30;40m░░░░░░░░░░ [0;37;40m░░░▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀█▒▓▒░[0;30;40m██████  [0;37;40m░░░░▀▀▀[0m
-
-                                     [34;40m   S.[0;31;40mA.[0;34;40mN. [0;31;40mM[0;34;40mA[0;31;40mN [0;1;32;40m[[0;1;35;40mESCAPE[0;1;32;40m] [0;34m''94[0m'
+[37;40m░  ░░░▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▓▒░[0;30;40m░░░░░░░░░░ [0;37;40m░░░▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀█▒▓▒░[0;30;40m██████  [0;37;40m░░░░▀▀▀[0m'

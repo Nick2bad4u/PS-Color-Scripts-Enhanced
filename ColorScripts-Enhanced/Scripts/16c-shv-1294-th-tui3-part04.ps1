@@ -5,7 +5,7 @@
 # Source SHA-256: e8478848f7cf1c78535a69b7738973ab844020b97c10781d39f76c30961df84f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-TUI3.ANS by Thor (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Trapped Under Ice
 # SAUCE Author: Thor
 # SAUCE Group: Shiver
@@ -48,12 +48,10 @@ Write-Host '
 [1;40mT [0m▌  [1;33mR    [0;1;35mA    [0;35mP    [0;1;30mP    E    D[0m        [1;30mU    N    D   [0m▌[1;30mE    [0;35mR[0m       [1;35mi    [0;1;33mC    [0;1;37mE[0m
 [1;37m  [0m▌
 
-                      [36m"[0;1;37mT[0mhe [1mC[0mhoice [1mO[0mf [1mA N[0mew [1mG[0meneration[36m..."[0m
-                        [35mTU[0;1;35mi [0;35mF[0;1;35mine [0;35mB[0;1;35mubbly[0;36m.. [0;35mO[0;1;35mn the rocks[0;36m![0m
+                      [36m [0;1;37m [0m   [1m [0m      [1m [0m  [1m   [0m   [1m [0m         [36m    [0m
+                        [35m  [0;1;35m  [0;35m [0;1;35m    [0;35m [0;1;35m     [0;36m   [0;35m [0;1;35m           [0;36m [0m
 
 [1;34;44m███▄█▀▄▀▄  ▀      ▀                                             ▀  ▄  ▄▀▄▀▄████[0m
 [1;34;44m█▀█▀█▀█▄ ▀  [0;44mT[0;1;44mrapped [0;44mU[0;1;44mnder i[0;44mCE     S[0;1;44mysop[0;36;44m: [0;37;44mR[0;1;37;44me[0;44mD L[0;1;44mo[0;44mTUS     5[0;1;44mi[0;44m7[0;36;44m.[0;37;44m35[0;1;37;44mi[0;36;44m.[0;37;44m3968 [0;1;34;44m▄  ▄▀█▄█▄██[0m
 [1;34;44m██▀██▄█▄▄ ▀ ▄ ▀   [0;44mA[0;1;44mffils?  [0;44mW[0;1;44me don[0;36;44m'' [0;1;37;44mneed no stinking affils[0;36;44m...     [0;1;34;44m▀ ▄ ▀▄▀▄█▄█▄█[0m
-[1;34;44m███▀█▄▀ ▄ ▀ ▄ ▄  ▀                                              ▄ ▀▄  ▄ ▀▄▀█▀██[0m
-
-[1;30;40m([0mc[1;30m)[0;1;37mT[0;1;33mh[0;1;31mo[0;31mr[0;1;30m/''94  ([0mc[1;30m)[0;1;37mT[0mH[1;30m-[0;1;37mT[0myp[1;30me [0;1;37mS[0mhi[1;30mt [0;1;37m1[0m99[1;30m4[0m                        [35m"Splat, squirt, drip!"[0m'
+[1;34;44m███▀█▄▀ ▄ ▀ ▄ ▄  ▀                                              ▄ ▀▄  ▄ ▀▄▀█▀██[0m'

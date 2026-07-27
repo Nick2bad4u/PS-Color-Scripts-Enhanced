@@ -5,7 +5,7 @@
 # Source SHA-256: d5b904eb3cd3cb93ebac82dbafdecba9cb5d563a526c954eab2453a75b3d0971
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (M1)XFER.ANS by m01 (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: last transfers
 # SAUCE Author: m01
 # SAUCE Group: Phat Studios '97
@@ -38,10 +38,4 @@ Write-Host '
  [1;33;43m▐[0;1;37;40m██[0;1;33;43m▌[0;33m▌[0;36m [0;1;37m,[0m9                                                              [1;36;46m▐[0;1;37;40m█[0;1;36;40m [0m▀[1m▀▌▀[0m▀
  [33m▀[0;1;33m▀▌▀[0m                                                                   [36m▀[0;1;36m▀[0m   [1;30m ▀[0m
 
-[1;30m─(bzzzzzz),────────────  ─ ───--- -- ──────── ─ ─────  ───--─────── ─────── ────[0m
-
- [1;30mThis ansi is supposed to be delivered with the soon released "last-transfers"[0m
- [1;30mppe of our group "cannabis".[0m [1;30mThe strange phont over there should say[0m
-[1;30m "LAST", huhu, can you read it? - i can''t ... never mind =) looks fresh...[0m
- [1;30mThe final ppe will be released in the middle of june, stay tuned =)[0m
-[1;30m PS: stop spreading around the betas you silly *#%&$"!;&° ;)[0m'
+[1;30m─(bzzzzzz),────────────  ─ ───--- -- ──────── ─ ─────  ───--─────── ─────── ────[0m'

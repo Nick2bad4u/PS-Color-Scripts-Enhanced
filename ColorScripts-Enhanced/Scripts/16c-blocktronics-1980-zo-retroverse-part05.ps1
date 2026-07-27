@@ -5,7 +5,7 @@
 # Source SHA-256: 93e3a618f7062e74f66f7b09a5df6c07d465c702eaf961631adcb3fd09fa74d5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zO-retroverse.ans by Enzo (blocktronics_1980); released in blocktronics_1980 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20140426
 # SAUCE Dimensions: 80x221
 # SAUCE Font: IBM VGA
@@ -55,7 +55,7 @@ Write-Host '
                           [36m  [0m       [36m▀[0;34m▄▀▄▀▄▀▄▀[0;1;34;44m  [0;34m▄▀[0m              [36m ▄▀▀▄[0m
 [36m  [0m                       [36m░  [0m         [36m▀[0;34m▄▀█▄▀▀[0m                   [36m ▀▀[0m
 [37m   [0;36m▀[0;37m [0;36m▄▀[0m
-[36m [0m       [1;37mR[0;1;37;46mE[0;1;37;40mTR0VERSE[0m BBS                   [36m   [0m        [36moriginal[0;37m [0;36martwork[0;37m [0;36mby[0;37m [0;1;36menzO[0m
-[36m [0;37m [0;36m▒▒[0;37m    [0;36mwww.retroverse.com.au[0m           [36m▀ ■[0m            [36menzo@blocktronics.org[0m
+[36m [0m       [1;37m [0;1;37;46m [0;1;37;40m        [0m                       [36m   [0m        [36m        [0;37m [0;36m       [0;37m [0;36m  [0;37m [0;1;36m    [0m
+[36m [0;37m [0;36m▒▒[0;37m    [0;36m                     [0m           [36m▀ ■[0m            [36m                     [0m
 [36m [0;37m [0;36m██[0m
 [36m [0;37m [0;36m▀[0;1;36;46m▀[0;36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m'

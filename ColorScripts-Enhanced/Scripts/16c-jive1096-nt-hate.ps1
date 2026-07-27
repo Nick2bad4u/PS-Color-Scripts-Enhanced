@@ -5,7 +5,7 @@
 # Source SHA-256: 826732c410a2b43f4bc88bf189a79ebf218978ccaf6cb7cf7e8f004899f67b21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT-HATE.ANS by NighTrain (jive1096); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: We Hate JiVE :)
 # SAUCE Author: NighTrain
 # Lines: 1-23
@@ -28,10 +28,10 @@ Write-Host '
              [33;40m▓[0;32;41m██[0;31;42m▓[0;32;41m█[0;31;40m█[0;37;40m [0;32;41m █████[0;31;40m█[0;37;40m [0;31;40m█[0;31;42m▒[0;32;41m█[0;1;32;42m░[0;32;41m██[0;31;40m█[0;37;40m [0;31;40m█[0;32;41m█████[0;31;40m█[0;37;40m [0;31;40m█[0;32;41m████[0;31;40m█[0;37;40m [0;31;40m█[0;31;42m▓[0;32;41m███ [0;37;40m [0;31;40m█[0;32;41m███[0;37;42mnt[0;31;40m█[0;33;40m▀▀[0m
              [31;40m▀▀▀▀▀▀▀█[0;32;41m▀▀▀[0;31;42m▓[0;32;41m▀[0;31;40m█ █[0;31;42m▓[0;32;41m▀▀▀▀[0;31;40m█[0;37;40m [0;31;40m█[0;32;41m▀[0;31;42m▓[0;32;41m▀▀▀[0;31;40m█▀▀▀▀▀▀▀[0;37;40m [0;31;40m▀[0;33;40m▓[0;31;40m▀▀▀▀▀█[0;32;41m▀[0;33;40m▓[0;32;41m▀▀▀[0;31;40m█ [0m
 
-[1;30;40m    [0m   [1;30mJive, does not ask anyone for acceptance, nor do we encourage[0m
-[1;30m    [0m   [1;30m [0m     [1;30mpointless anti-group actions *WE* are an art group[0m
-[1;30m   [0m   [1;30m   if you have something to say, go ahead and speak your mind[0m
-[1;30m [0m     [1;30m [0m  [1;30mif you think we suck then start your own group and release[0m
-[1;30m   [0m        [1;30myour artwork and prove us wrong. untill then fuck off.[0m
+[1;30;40m    [0m   [1;30m                                                             [0m
+[1;30m    [0m   [1;30m [0m     [1;30m                                                  [0m
+[1;30m   [0m   [1;30m                                                             [0m
+[1;30m [0m     [1;30m [0m  [1;30m                                                          [0m
+[1;30m   [0m        [1;30m                                                      [0m
 
 [1;30m--------------------------------------------------------------------------------[0m'

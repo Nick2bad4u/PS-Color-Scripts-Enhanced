@@ -5,7 +5,7 @@
 # Source SHA-256: 757a4ef20c942818e27ef45cbe006a8d6d685fa8beea7f682a4ba76e54e1c45a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DFUSE-MR.ANS by dfuse (guest); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mitt rum
 # SAUCE Author: dfuse
 # SAUCE Group: guest
@@ -37,5 +37,4 @@ Write-Host '
 [1;31;40m█[0;1;31;41m▄ ░░[0;1;31;40m█▄████████████████████[0;1;31;41m▄▀[0;1;31;40m███[0;1;31;47m▓▓▓▀[0;1;31;40m█▓░[0;34m▀███[0;1;34;44m▐[0;1;34;40m█████[0;1;34;44m▀▄[0;1;34;40m████████[0;1;34;47m▓▓▓▓▓▓[0;1;34;40m█████[0;1;34;44m█▀▄[0;1;34;40m██[0;30;44m ds[0;34;40m█▄[0m
 [1;31;40m████[0;1;31;41m▓▓▓[0;1;31;40m█▄▀█████▓▓▓█▀█████████[0;1;31;41m▄[0;1;31;40m█████[0;1;31;47m  ▀[0;1;31;40m█▓░[0;34m▀███[0;1;34m██[0;1;34;44m▀▄[0;1;34;40m████████████████████▀[0;1;34;44m▄[0;1;34;40m████▓▓▒[0;34m██[0m
 [1;31m████████████████[0;1;31;41m▒░░[0;31m█▄[0;1;31m▀█████████████[0;1;31;47m▄   ▀[0;1;31;40m█░░[0;34m▀█▓▓[0;1;34;44m▐[0;1;34;40m████████████████████▄████████▓▓▒[0m
-[1;31;40m█████████████████[0;1;31;41m    [0;31m██[0;1;31m▒▒▒▓▓▓▓███[0;1;31;41m█▀[0;1;31;40m█[0;1;31;47m▄▄▄▄[0;1;31;40m█▓▓▒▒[0;34m░░▒▓▓[0;1;34m░░▒▒▓▓▓▓▓████████████████████▓[0m
-[1;31mVILKEN JÄVLA GRAJJ,, PÅ MED 3D BRILLORNA OCH NJUT!!!! FUNKAR BÄST I VGA..lalalal[0m'
+[1;31;40m█████████████████[0;1;31;41m    [0;31m██[0;1;31m▒▒▒▓▓▓▓███[0;1;31;41m█▀[0;1;31;40m█[0;1;31;47m▄▄▄▄[0;1;31;40m█▓▓▒▒[0;34m░░▒▓▓[0;1;34m░░▒▒▓▓▓▓▓████████████████████▓[0m'

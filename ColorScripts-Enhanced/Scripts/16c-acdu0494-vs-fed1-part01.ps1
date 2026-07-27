@@ -5,7 +5,7 @@
 # Source SHA-256: debeb0f629afe567a37040c9ac067c94ab56b404fbdbd1a35837a5c687f05ea6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VS-FED1.ANS by Vision (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Federation Network
 # SAUCE Author: Vision
 # SAUCE Group: ACiD Productions
@@ -42,7 +42,7 @@ Write-Host '
                                                               [1;30m░[0m
                                                               [1;30m░[0m
                                                               [1;30m░[0m
-      Crawl out of [1;30mthe Darkness. . .[0m                        [1;30m░░[0m
+                   [1;30m                 [0m                        [1;30m░░[0m
 [1;30m▄▄▄▄[0m                                                       [1;30m░░[0m              [1;30m...vs[0m
 [1;30m███████▓▓▄▄▄▄[0m                                     [1;30m▒▒▒▒▒░░░░[0m               [1;30m▄▄▄▄▓▒[0m
 [1;30m▓██████████▓▓▓▓▓▓▓▄▄▄▄▄[0m                       [1;30m▒▒▒▒░░░[0m             [1;30m▄▄▓▓▓▓▓▓▓▓▓▓▓▓[0m

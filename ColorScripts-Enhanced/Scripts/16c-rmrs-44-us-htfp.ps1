@@ -5,12 +5,12 @@
 # Source SHA-256: bc94ed28380f6414ed021519b31a1ff4e9fb3276480082534c033d74cc5998b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-htfp.ans by Nightrain + Cd_ (rmrs-44); released in rmrs-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-[1;30mascii start : 80x25 : [0m                                         [1m       [0m
+[1;30m                      [0m                                         [1m       [0m
 [1;30m----------------------------------------[0;1;37m√[0;1;30m---------------------------------------[0m
 [31m▄[0;1;37;41m [0;30;41m-[0;1;37;41m [0;30;41mh1t3ch f1r3pl4c3[0;31;40m█[0;30;41m---[0;1;37;41m   ______     ______     .    [0;33;41m___[0;1;37;41m  [0;31m▄[0;1;37;41m     ______[0;31m███[0;30;41m░[0;1;37;41m   . [0m
 [1;37;41m [0;30;41m:[0;1;37;41m    [0;31m██████████████[0;1;37;41m___▄___|[0;1;33;41m░[0;1;37;41m   |____ |   [0;1;33;41m░[0;1;37;41m|[0;30;41m [0;1;37;41m____▄__________)\__ |[0;1;33;41m░[0;1;37;41m   |_______[0;31m██[0m
@@ -21,7 +21,7 @@ Write-Host '
 [1;37;41m [0;30;41m>[0;1;37;41m       [0;31m██████████[0;30;41m -[0;1;37;41m )/[0;30;41m--─[0;1;37;41m|____|[0;30;41m------[0;1;37;41m___[0;1;31;41m|[0;1;37;41m|[0;30;41m--[0;1;37;41m)/[0;30;41m-----------------[0;1;37;41m|____|[0;30;41m---[0;1;37;41m\(  [0;31m▓█[0m
 [31m ▬[0;37m [0;31m▓[0;1;37;41m [0m [31m▬▬  ▬▬▬▬▬▬,[0;37m [0;31m███████▀████████[0;30;41m┌[0;31;40m████████████████████[0;30;41m▄[0;31;40m████████[0;33;41m░[0;30;41m [0;31;40m██████[0;1;37;41mnt!$[0;31m██[0;1;37;41m  [0m
     [31m___...l.[0m    [31m$ ___.. ,,  ___...,▬[0;37m  [0;31m▀[0;37m [0;31m___., ▬*[0;37m [0;31m ▀▀[0;37m  [0;31m___..,▬y___..)  ___...,▬  [0m
-[31m°ⁿS$$[0;1;33ml[0;31mⁿⁿⁿⁿ''  ,  $[0;1;33m│[0;31m$lⁿⁿⁿ√$Dl[0;1;33m┤[0;31m$lⁿⁿⁿⁿⁿ''ⁿS$$lⁿⁿⁿⁿ$$[0;1;33m┤[0;31ml,ⁿ%S$$lⁿⁿⁿⁿ$Sl$$lⁿⁿ√''S[0;1;31;41m$[0;31mlⁿⁿⁿⁿⁿ''[0m
+[31m     [0;1;33m [0;31m           [0;1;33m│[0;31m         [0;1;33m┤[0;31m                   [0;1;33m┤[0;31m                       [0;1;31;41m [0;31m       [0m
 [31m   `$[0;31;41m$[0;31;40m$ym %d7$#$[0;1;31;40m│[0;31m`$[0;31;41m$[0;31;40m$ymm┤; `$[0;1;31;41m$[0;31m$ymm[0m    [31m`$[0;1;31;41m$[0;31m$ymmⁿ`$[0;1;31;41m$[0;31m$, [0;1;37m`[0;31m$[0;1;31;41m$[0;31m$ymmm$$[0;1;31m$[0;31mS[0;1;31;41m$[0;31m$,   `$[0;1;31m$[0;1;33m$[0;31mymm[0;37m [0;31m ░[0m
 [1;30m-[0m   [31m`$[0;31;41m$[0;31;40m$;  $[0;31;41m$[0;31;40m│  [0;1;31;40m:[0;31m `$[0;1;31;41m$[0;31m$; :$┐ `$[0;1;31;41m$[0;31m$;[0m    [1;30m [0m [31m`$[0;1;31;41m$[0;31m┴, [0;1;30m-[0;31m `$[0;1;31;41m$[0;31m$; [0;1;37m`[0;31m$[0;1;31m$[0;31m$;  $[0;1;31;41m$[0;31m$`$[0;1;31m$[0;31m$,   `$[0;1;31;41m$[0;31m$;[0;37m [0;31mcd_[0m
 [1;30m  \[0m  [31ml[0;5;31;41m$[0;1;31;41m$[0;31m$l $$│  [0;1;31m.[0;31m  l$[0;1;31;41m$[0;31m$  $$; l[0;31;41m$[0;1;31;40m$[0;31m$,,_[0m    [31ml$y$[0m    [31mS[0;31;41m$[0;1;31;41m$[0;31m$,,l$[0;1;31m$[0;31m$. [0;1;31m$[0;31m$[0;33m┤[0;31m l[0;1;31;41m$[0;1;31;40m$[0;31m$┌ _ l[0;5;31;41m$[0;1;31;41m$[0;31m$,,_[0m
@@ -30,6 +30,4 @@ Write-Host '
 [1;31m.ⁿ''[0m    [1;30m░[0m   [31m$[0;1;31m$[0;31m║[0m     [1;30m [0m [1;30m    [0;5;31m  [0;31m [0;5;31m     [0;1;30m               [0m  [1;30m              [0m        [31m°[0;37m  [0;1;37m [0m [31m√[0m
            [31mY$[0;1;31m┼[0;1;33m·· ·  ·[0;31m [0;37m [0;31m [0m     [1;31m░[0;31m    [0;1;37m h i t 3 c h / f i r 3 p l 4 c e  ───── >[0m
 
-[1;30m-------------------------------------[0;31m√[0;1;30m------------------------------------------[0m
-[1;30mcd and nightrain present a joint production . ph34r the oldschool vrs newschool[0m
-[1;30mmany thanks to cd, for his elite contribution to the remorse pack.. ph34r [0m'
+[1;30m-------------------------------------[0;31m√[0;1;30m------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ce407a389b121161a7f8b3eb85b9ac6545c83c7e89e9720ad1538d9dc36f404f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-REBEL.ANS by Dyingsoul + Sephiroth (ra-pak10); released in ra-pak10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19961230
 # SAUCE Dimensions: 80x78
 # Lines: 39-78
@@ -47,8 +47,4 @@ Write-Host '
            [32m▐[0;1;32;42m▄[0;32m▄▀[0;1;32;42m▀▀[0;32m▀[0m    [32m [0;1;32m▀[0;32m▄[0;1;32;42m▄[0;32m▐[0;1;32;42m▌[0m   [32m  [0;1;32;42m▐[0;1;32;40m▓[0;1;32;42m▓▌[0;32m  ▀▄[0;1;32;42m▄[0;32m▐[0;1;32m▓[0;32m▌[0;1;32m▄▄[0m       [1;32;42m▐▓[0;1;32;40m▄[0;32m▀[0m
           [32m▄[0;1;32;42m▓▓▓▄[0;32m▄ [0m      [1;32;42m▐▓▓[0;32m▄▀▌    [0;1;32;42m▐▓░▓[0;32m▌[0m   [1;32;42m▓[0;1;32;40m▄[0;32m▀[0;1;32m▄[0;1;32;42m▓[0;1;32;40m▌[0m       [32m█[0;1;32;42m░▓▓[0;1;32;40m▌[0m
          [32m▐[0;1;32;42m░░░░[0;32m█▀[0m       [32m▐[0;1;32;42m░░░[0;32m█▄    ▐[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m█[0m    [1;32;42m░░░░[0;32m█▄[0m      [32m▐█[0;1;32;42m░░[0;32m█[0m
-         [32m▀▀▀▀▀[0m          [32m▀▀▀▀▀[0m     [32m▀▀▀▀ [0m    [32m▀▀▀▀▀[0m       [32m▀▀▀▀[0m
-
-            [1;30msucks to see ya go...[0m
-
-      [1;30mansi by DyingSoul(outline/shade/font) and Sephiroth(touch-ups)[0m'
+         [32m▀▀▀▀▀[0m          [32m▀▀▀▀▀[0m     [32m▀▀▀▀ [0m    [32m▀▀▀▀▀[0m       [32m▀▀▀▀[0m'

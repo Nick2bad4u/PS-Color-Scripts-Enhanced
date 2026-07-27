@@ -5,7 +5,7 @@
 # Source SHA-256: d07ebb0285ab216027722f843c8ab1db44268393cd9e68faeb0cdb37e0717b41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TPE-COV.ANS by the platinum eagle (leper society); released in ls-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: church of valhala
 # SAUCE Author: the platinum eagle
 # SAUCE Group: leper society
@@ -25,7 +25,7 @@ Write-Host '
          [1;37m`$²""[0;1;32m"[0;32m"''[0;37m [0m [1;32m$[0;1;37m²"''[0m  [1;37m`[0;32m"²$[0m [1;32m`$[0;1;37m²""[0;32m""²$[0m [1;37m$²"''[0m [1;37m$"[0;1;32m"$[0m [1;32m$$$[0;1;37m$$$$$[0m [1;32m$$[0;1;37m$$[0m [1;37m$$[0;1;32m$$[0m
           .                     [36m∙o∙f∙[0m    [37m [0m [1;37m,''[0m    [1;32m`$²[0;1;37m""""''[0m [1;32m$[0;1;37m²"''[0m   [1m`"²[0;1;32m$[0m
                                            [1m`[0m
-  [32m`$Ss.[0;37m   :[0m [32m,sS$''[0m [32m$SssS$[0m        [32m²$Ss.[0m [32m,sSS$"[0;37m [0;32m,ssssss.[0;37m [0;32m²$$$$$[0m
+  [32m     [0;37m    [0m [32m     [0m [32m      [0m        [32m     [0m [32m      [0;37m [0;32m        [0;37m [0;32m      [0m
     [32m$$$$[0m   [32m$$$$[0m  [32m$$$$$$$$[0;37m [0;32m,sS$[0m   [37m [0;32m$$$[0;37m [0;32m$$$$''[0m [32m$$$$$$$$$$[0m [32m$$$$$[0m     [32m,sS$Ss.[0m
      [32m$$$$[0m [32m$$$$[0m  [32m$$$[0;1;32m$"[0;32m"$$$ $$$$[0m   [32m$$$$÷$$$$[0m [32m$²"''[0;37m [0;32m.,$$$$[0m [32m$$$$[0m     [32m$$$$$$$$$[0m
       [32m$$$[0;1;32m$[0;32m$$$[0m   [32m$[0;1;32m$$$ss$[0;32m$$[0;37m [0;32m$$$$[0m   [32m$$[0;1;32m$$[0m [1;32m$$[0;32m$$[0m   [32m╓s$$[0;1;32m$$$[0;32m$$[0m [32m$$$$[0m    [37m [0;32m$$$"""$$$[0m

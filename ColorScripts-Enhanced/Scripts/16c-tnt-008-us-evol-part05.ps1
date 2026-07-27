@@ -5,7 +5,7 @@
 # Source SHA-256: e52c43e07a1e65d63ecf310c0c267141343f9281b7ce339fdf3cf55fe63c87d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-evol.ans by Zerovision + Grymmjack + Skypager (tnt-008); released in tnt-008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 193-240
 # Columns: 1-80
 
@@ -52,9 +52,4 @@ Write-Host '
                     [1;30m▀▀████ █▓[0m ▐[1m█[0m▌  ▀[1m▀[0m  █ [1;30m▄  ░▓██ ▌   ░░ ░░▒░▓▓ [0;1;30;43m▌░[0;1;33;43m░▓[0;1;30;47m░▓[0;1;30;40m░██[0;1;33;43m░▓[0;1;30;40m▓▓ ██[0m
                         [1;30m▀▀ ██▄[0;1;37m ▓[0m   ▀[1m█[0m   [1;30m▄▄   ███ ▌░░▒▓▓ ▐▒▓▒██ ██████ ███▀▀▀[0m
                            [1;30m   [0m     [1;30m [0m  [1;30m▄▓██▓░ ███ ▌[0m [1;30m███  ██████ ▀▀▀▀[0m
-                                      [1;30m▀▀▀▀▀▀ ▀▀▀[0m   [1;30m▀▀▀[0m  [1;30m▀▀▀[0m
-
-
-
-
- [1;30mans[0mi[1;30m composed and delivered by grymmjack[0;1;37m,[0;1;30m zeroVision([0mtnt[1;30m)[0;1;37m,[0;1;30m and skypager!([0mtnt[1;30m)[0m'
+                                      [1;30m▀▀▀▀▀▀ ▀▀▀[0m   [1;30m▀▀▀[0m  [1;30m▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ec73bbda0dcefce267369ab115e9b3e281a1c82448c1fbf84e3eb09059b5b5ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HW-TJ.ANS by Heat Wave (DIVINE); released in div-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tijuana Jail
 # SAUCE Author: Heat Wave
 # SAUCE Group: DIVINE
@@ -35,7 +35,7 @@ Write-Host '
 [30m████[0;1;37m▀[0;1;37;43m█[0;1;37;40m▓[0;1;37;43m████[0;1;37;40m▓█[0;1;37;43m███████[0;1;37;40m▓▀[0;30m█████████████████████████████████████████████████████████[0m
 [30m██████[0;1;37m▀[0;1;37;43m█[0;1;37;40m▀[0;30m█[0;1;37m▀[0;1;37;43m██[0;1;37;44m▓▓[0;1;37;40m▀[0;30m█[0;1;37m▀▓▀[0;30m███████████████████████████████████████████████████████████[0m
 [30m███████████[0;1;37m▐[0;1;37;44m▓▒[0;34m▌[0;30m███████[0;1;37m"Y[0mes[1;30m,[0;30m█[0;1;30mYou''ve[0;30m█[0;1;30mreached[0;30m█[0;1;30mThe[0;30m█[0;1;30mTijuana[0;30m█[0;1;30mJail[0;30m█[0;1;30mcan[0;30m█[0;1;30mI[0;30m█[0;1;30mhel[0mp[30m█[0;37my[0;1;37mou[0;30m█████[0m
-[30m████████████[0;1;37;44m▒░[0;30m██████[0;1;37mSi[0mr?[1;30m"[0;30m█[0;1;30m"Sex?[0;30m█[0;1;30msorry[0;30m█[0;1;30mdon''t[0;30m█[0;1;30mhave[0;30m█[0;1;30many[0;30m█[0;1;30mhere,[0;30m█[0;1;30mbut[0;30m█[0;1;30mwe[0;30m█[0;1;30mhave[0;30m█[0;1;30mgi[0mfs[1m!"[0;30m██[0m
+[30m████████████[0;1;37;44m▒░[0;30m██████[0;1;37m  [0m  [1;30m [0;30m█[0;1;30m     [0;30m█[0;1;30m     [0;30m█[0;1;30m     [0;30m█[0;1;30m    [0;30m█[0;1;30m   [0;30m█[0;1;30m     [0;30m█[0;1;30m   [0;30m█[0;1;30m  [0;30m█[0;1;30m    [0;30m█[0;1;30m  [0m  [1m  [0;30m██[0m
 [30m████████████[0;1;37;44m░[0;34m█[0;30m█████████████████████████████████████████████████████████████████[0m
 [30m████████████[0;34m██[0;30m████[0;1;37m▄▄[0;1;37;44m▓▓[0;1;37;40m▀[0;30m█[0;1;37m▄▄[0;1;37;44m▓▓[0;1;37;40m▀[0;30m█[0;1;37m▄▄[0;1;37;44m▓▓[0;1;37;40m▀[0;30m█[0;1;37m▄▄[0;1;37;44m▓▓[0;1;37;40m▀[0;30m█[0;1;37m▄▄▓[0;1;37;44m▓▓▓▓[0;1;37;40m▄[0;30m███[0;1;37m▄▄[0;1;37;44m▓▓[0;1;37;40m▀▄[0;1;37;44m▓▓▓[0;1;37;40m▄[0;30m███[0;1;37m▄▄▓[0;1;37;44m▓▓▓[0;1;37;40m▄▄[0;30m█████[0m
 [30m████████████[0;34m█▓[0;30m█████[0;1;37;44m▓▒▒[0;30m███[0;1;37;44m▓▒▒[0;30m███[0;1;37;44m▓▒▒[0;30m███[0;1;37;44m▓▒▒[0;30m█[0;1;37m▀[0;1;37;44m▒▒▒[0;1;37;40m▀[0;30m██[0;1;37m▀[0;1;37;44m▒▒[0;30m███[0;1;37;44m▓▒▒▒[0;1;37;40m▀[0;30m█[0;1;37m▀[0;1;37;44m▒▒▒[0;30m█[0;1;37m▀[0;1;37;44m▒▒▒[0;1;37;40m▀[0;30m██[0;1;37m▀[0;1;37;44m▒▒[0;30m████[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: f05c5d3f17c50efffda06ff036b51a68cd8ea886e51d87ce54408db9185bd572
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LG-ZONE.ANS by lawn genie (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the zone
 # SAUCE Author: lawn genie
 # SAUCE Group: ftc
@@ -27,7 +27,7 @@ Write-Host '
 [1;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m   [32m         ▐███▌ [0;1;30mlg[0;32m     [0m
 [1;30m▓[0m                                                  [1;30m▓[0m    [32m       ▄[0;1;32;42m░░[0;32m███▄▄  [0m   [32m▄[0m
 [1;30m█[0m                                          [36m [0m        [32m▄[0;1;32;42m░[0;32m▄ ▄▄▄[0;1;32;42m░░[0;32m▌▐[0;1;32;42m░░░[0;32m███▀▀█[0;1;32;42m░░[0;32m▄█▀▀ [0m
-[1;30m█[0m     [1;30mmatrix shit goes here.  interesting[0;36m   [0m        [32m▄█[0;1;32;42m░░[0;32m█▀▀▀[0;37m  [0;32m▄[0;1;32;42m░░  [0;32m███▌[0;37m [0;32m  █▀██▀[0m
+[1;30m█[0m     [1;30m                                   [0;36m   [0m        [32m▄█[0;1;32;42m░░[0;32m█▀▀▀[0;37m  [0;32m▄[0;1;32;42m░░  [0;32m███▌[0;37m [0;32m  █▀██▀[0m
 [1;30m█[0m     [1;30mblack space in here.. hell .. font[0;36m     [0m      [32m▀[0;1;32;42m░[0;32m▀▐[0;1;32;42m░[0;32m▌  [0;37m  [0;32m▐[0;1;32;42m░▒░[0;32m█[0;1;32;42m ░░[0;32m█ [0;37m  [0;32m▐[0;1;32;42m░░[0;32m▄[0m
 [1;30m█[0m     [1;30mturned out good tho[0m                          [1;30m▄[0m  [32m ▀[0;37m [0;32m   [0;37m [0;32m▐[0;1;32;42m░[0;32m▀██[0;1;32;42m░░[0;32m██   [0;37m [0;32m▀▀[0m
 [1;30m█[0m                                                  [1;30m█[0m      [32m [0;37m  [0;32m ▀█[0;1;32;42m░[0;32m█[0;1;32;42m░░[0;32m█▌   [0m

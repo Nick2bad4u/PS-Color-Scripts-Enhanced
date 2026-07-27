@@ -5,7 +5,7 @@
 # Source SHA-256: 86058d4e4017fb23e277021678049869c2085df748c264d3cdf07497bd207cb6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HF-PAL.ANS by Hellfire (Force); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pirates At Large
 # SAUCE Author: Hellfire
 # SAUCE Group: Force
@@ -28,7 +28,4 @@ Write-Host '
             [33m█[0;1;33;43m░░░[0m [31m▀████▀▀ [0;33m▄[0;1;33;43m░░░[0m  [1;31;41m░░[0;31m███   [0;1;31;41m▓▓[0;31m██[0;1;31;41m▀[0;31m▀  [0;1;33;43m░▒░[0;33m▄▄[0;31m▀▀▀▀ ▀▀▀▀[0m
            [1;30m [0;33m▐█[0;1;33;43m░░[0;33m█▄▄▄    ▀▀▀▀▀[0m     [31m▀▀▀▀▀▀▀▀▀[0m
               [33m▀▀▀▀▀[0m
-                      [37mP [0;1;30mi r a t e s   [0mA [1;30mt  [0mL [1;30ma r g e[0m
-
-
-                       [1;30msmall logo for P.A.L BBS.[0m'
+                      [37mP [0;1;30mi r a t e s   [0mA [1;30mt  [0mL [1;30ma r g e[0m'

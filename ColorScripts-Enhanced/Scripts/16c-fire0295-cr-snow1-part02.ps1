@@ -5,7 +5,7 @@
 # Source SHA-256: f512d49d2cc6cc913dba2212b5de3a55bd442d6293fff3fe63d4325b427a3e41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-SNOW1.ANS by Crisis (Fire); released in fire0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Barefooted Snow Angels
 # SAUCE Author: Crisis
 # SAUCE Group: Fire
@@ -40,23 +40,4 @@ Write-Host '
 [1m███████████████████████████████████████████████████████████████████████████████[0m
 [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-
-                      [1m"Look Ma, I made a snow angel!"[0m
-
-             [1m"Get your ass back in here and get some shoes on!"[0m
-
-
-[1m  [0m [1mThis isn''t for any board because I''m not cool enough to get requests yet.[0m
-[1m This is my first and last ansi for Fire (fuck, just as I join in, they merge)[0m
-[1m  Greets go to Halaster, Shinobi, Vn[Mbd], Nivenh, and all the guys in #ansi.[0m
-             [1m"I can''t draw feet worth shit!, so why even try? :)"[0m
-
-
-
-
-                    [1m· Make sure never to eat yellow snow ∙[0m
-
-
-[30mI shall Kill You All!!![0m'
+[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

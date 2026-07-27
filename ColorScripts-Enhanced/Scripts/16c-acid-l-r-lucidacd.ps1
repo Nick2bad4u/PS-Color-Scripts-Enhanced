@@ -5,7 +5,7 @@
 # Source SHA-256: 539947cb465fd1a4058148545dbd8bd3b104de1659c6a5a12578dcf722a2e420
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LUCIDACD.ANS by Tank (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -50,8 +50,8 @@ Write-Host '
                               [1;30;40m▀▄[0m      ▀████████[1;47m░[0m▀
                                 [1;30m▀▄[0m     ▄█████[1;47m░[0m▀
                                   [1;30m▀▀[0m▄[1;30m▄[0m█[1;30m▀[0m▀██▀▀
-                                 [1;30m<[0mT[1mAN[0mK[1;30m> <[0mAC[1mi[0mD[1;30m>[0m
-                   [1;37m┌ [0;36mBoard[0;1;32m:[0;1;36mLucid Dreams [0;36mSysop[0;1;32m:[0;1;36mLouis Cypher [0;1;37m┐[0m
+                                 [1;30m [0m [1m  [0m [1;30m   [0m  [1m [0m [1;30m [0m
+                   [1;37m┌ [0;36m     [0;1;32m [0;1;36m             [0;36m     [0;1;32m [0;1;36m             [0;1;37m┐[0m
                    └──[1;30m─[0m─[1;30m── [0;1;31mFlash[0;31mback BBS [0;1;35mUSR DS [0;35m38.4 [0;1;30m──[0m─[1;30m─[0m──┘
-                      [1m┌ [0;1;32m1900 [0;32mT-Files [0;1;32m300+ [0;32mVirii [0;1;32mTcH [0;32mNet [0;1;37m┐[0m
+                      [1m┌ [0;1;32m     [0;32m        [0;1;32m     [0;32m      [0;1;32m    [0;32m    [0;1;37m┐[0m
                       └─[1;30m─[0m─[1;30m── [0;1;32mN[0;32mumber[0;1;32m: [0;1;30m([0;1;32m7[0;32m13[0;1;30m)[0;1;32m5[0;32m22-[0;1;32m0[0;32m709 [0;1;30m──[0m─[1;30m─[0m─┘[0m'

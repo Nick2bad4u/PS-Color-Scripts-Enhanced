@@ -5,7 +5,7 @@
 # Source SHA-256: f9de08e1098b55cad8bead2cc02def0a43ea13222f6b2742efc50925a4ecfb4b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KZ-RATS.ICE by Kamikazee (iCE Advertisements); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Rat's Nest
 # SAUCE Author: Kamikazee
 # SAUCE Group: iCE Advertisements
@@ -48,10 +48,4 @@ Write-Host '
     [1;34m ▀[0;34m█[0;1;34m▄[0m  [1;34m [0m                                                        [34mkz[0m     [1;34m▄█▄▀ [0m
       [1;34m▄[0;34m▀ ▀ ▀▀▀ ▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀  ▀▀▀▀  ▀▀  ▀[0;37m [0;1;34m ▄ [0m
    [34m▄[0;37m [0;34m▀[0m      [1;33mN[0m        [1;33m [0m        [1;33me[0m             [1;33m   [0m [1;33ms[0m    [1;33m [0m            [1;33m t[0m
-                                                                       [1;34m▀[0m
-               [1m  [0m            -   [1mTHE RAT''S NEST[0m   -
-
-             SYSOPS[1m:[0m SYNTAX ERROR {iCE} [1m/[0m WIZBANDIT [1m/[0m 10 NODES + GIGS
-
-[1m [0m  [34m [0;1;33m [0;34m   [0;1;30mLogo by Kamikazee of [0mi[1;30mCE[0;34m [0;1;30mAdvertisements.  Happy New Year!  - 1/1/96[0m
-'
+                                                                       [1;34m▀[0m'

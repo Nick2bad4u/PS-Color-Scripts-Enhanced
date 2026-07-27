@@ -5,7 +5,7 @@
 # Source SHA-256: 96096a58b22994ea584504174bebe28d6800df46a60ece1ff7ad96a1e94d4e57
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-SARC1.ANS by Diamond Traveller (Mistigris); released in mist0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sarcastic Toastah!
 # SAUCE Author: Diamond Traveller
 # SAUCE Group: Mistigris
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[37;40m               [0;1;30;40mthere is one for eerie''s toa[0;36m░[0;1;30mtah![0;32m  [0;1;30mblah![0;32m  [0;37m                      [0m
+[37;40m               [0;1;30;40m                            [0;36m░[0;1;30m    [0;32m  [0;1;30m     [0;32m  [0;37m                      [0m
 [37m                    ░[0;32m                      [0;36m▒[0;32m         [0;37m░[0;32m   [0;37m                      [0m
 [37m                    ▒[0;32m                    [0;36m▄▄▓▄▄[0;32m [0;36m▄[0;32m     [0;37m▒[0;32m   [0;37m                      [0m
 [37m                    ▒[0;32m    [0;36m▄[0;1;36;46m░▒▓▄[0;36m▄▄[0;32m      [0;36m▄[0;1;36;46m▄▓▒░[0;36m█▀▓[0;1;36;46m▒▓[0;36m▌[0;32m    [0;37m▒[0;32m   [0;37m                      [0m

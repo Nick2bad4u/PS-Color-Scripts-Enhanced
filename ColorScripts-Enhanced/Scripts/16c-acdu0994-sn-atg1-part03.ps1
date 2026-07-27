@@ -5,7 +5,7 @@
 # Source SHA-256: fa20a28e2de3fd5d88496350b0d7dfbbdca605a0d0e18a8efdae1d93888b645d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-ATG1.ANS by Spawn (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Alpha Trading Grounds
 # SAUCE Author: Spawn
 # SAUCE Group: ACiD Productions
@@ -56,11 +56,11 @@ Write-Host '
                                                                 [1;30m▄  ▄▄  ▄▄▄█[0m
 
                   [1m■ [0mA L P H A   T R A D I N G   G R O U N D S [1m■[0m
-                       [1mS[0;1;30mysOps: [0;1mB[0;1;30manshee  [0m/  [1mS[0;1;30mpineless [0;1mF[0;1;30mreak[0m
-                    [1;30mPC Board v15.1 [0m■ [1;30m3 High Speed Nodes [0m■ [1;30m3 Gigs[0m
-                 [1;30mSupporting IBM Warez Only [0m■ [1;30mLocal Only by Invite[0m
-            [1mN[0;1;30mUP Enforced [0m■ [1;30mNeXus Member Board [0m■ [1;30mDOD US HQ [0m■ [1;30mRoyal WHQ[0m
+                       [1m [0;1;30m       [0;1m [0;1;30m        [0m   [1m [0;1;30m         [0;1m [0;1;30m    [0m
+                    [1;30m               [0m■ [1;30m                   [0m■ [1;30m      [0m
+                 [1;30m                          [0m■ [1;30m                    [0m
+            [1m [0;1;30m            [0m■ [1;30m                   [0m■ [1;30m          [0m■ [1;30m         [0m
 
 [1;30m ──────────────────────────────────────────────────────────────────────────────[0m
-                              [1mANSi by [0mSpawn [1mof A[0;1;33mC[0;1;32mi[0;32mD[0m
+                              [1m        [0m      [1m    [0;1;33m [0;1;32m [0;32m [0m
 [32m [0;1;30m──────────────────────────────────────────────────────────────────────────────[0m'

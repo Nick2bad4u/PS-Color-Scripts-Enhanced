@@ -5,7 +5,7 @@
 # Source SHA-256: 7618047e882ca2687591ff082a0acfffb2424d9124da77a644c33af65933343f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-PGLS.ANS by anomite (scum); released in filth-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 10 last and page
 # SAUCE Author: anomite
 # SAUCE Group: scum
@@ -33,7 +33,7 @@ Write-Host '
                [35m▀▐▀█[0;1;35;45m▓▄▄[0;35m▄▄▄▄▄▄▄▄[0m                  [35m▄▄▄▄▄[0;1;35;45m▄▄█████▀[0;35m▀[0m   [35m▌[0m
                 [35m▐[0m    [35m ▀▀▀▀▀█[0;1;35;45m░░[0;35m███████████████[0;1;35;45m░░▄▄▄▓█▀▀[0;35m▀▀▀▀▀[0m      [35m▀[0m
                 [35m▀[0m
-[1;30m-----page ansi,[0m
+[1;30m               [0m
 
       [35m░░[0m              [34m▄[0m              [35m░░░[0;37m      [0m     [34m▄[0m      [35m░░░[0m            [1;30m [0m   [34m▀[0m
 [35m ▄▄▄▄▄▓▓░▄[0m     [35m   [0;34m▄[0m     [34m▀█[0;1;34;44m▄[0;34m█▄[0m   [35m▄▄▄▄▄▓▓▓░▄▄   [0;34m▄▄[0;1;34;44m▄[0;34m▀[0m   [35m▄▄▄▄░▓▓▓▄  [0;34m▀[0;35m [0;34m▄▄▄[0m    [34m▄[0;35m  [0;34m▄[0;1;34;44m▄[0;34m▄[0m
@@ -44,10 +44,10 @@ Write-Host '
 [34m▄[0;35m █[0;1;35;45m▄▌[0;35m▄▌[0m    [34m▀[0m   [35m▄[0;1;35;45m▄▐[0;1;35;47m▄▄▐[0;1;35;45m▄[0;35m▌▀ ▀[0;34m▄[0;35m █[0;1;35;45m▄[0;35m▄▐[0;1;35;45m▄▄▄▄▄▌[0;35m▌ [0;34m▐▄▄[0;35m  ▀▐[0;1;35;45m▐[0;1;35;47m▀▐[0;1;35;45m▌[0;35m▌  █[0;1;35;45m▀[0;1;35;47m▄[0;1;35;45m▄[0;35m▓░ [0;34m▀[0;1;34;44m▀▀[0;34m▀[0;35m  ▄▌▄▄[0;1;35;45m▐[0;35m█[0;1;35;47m▄[0;1;35;45m▀▀[0;35m▀▀[0m
 [34m▄[0;35m  ▀▀[0;1;35;45m▀▄[0;35m▄▄▄▄▄▄▄[0;1;35;45m▄▀▀▀[0;35m▀▀▀▀  [0;34m▄▄[0m   [35m▀[0;1;35;45m▀▀█[0;1;35;47m▓▄▄▄▐[0;1;35;45m▌[0;35m▄▄▄[0;34m▀[0;35m ▄▌▄[0;1;35;45m▄[0;1;35;47m▓▄[0;1;35;45m▀░[0;35m [0;34m▄[0;35m ▀▀[0;1;35;45m▀▄[0;35m▄▄▄▄▄▄▄[0;1;35;45m▄██▀[0;35m▀▀▀▀anm?[0m
 [1;34;44m▓▌[0;34m▄[0;37m    [0;35m░░[0m         [34m▄▌▄█[0;1;34;44m▀▀░[0;34m▌[0m      [35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m   [0;34m▐▀▀█[0;37m  [0m
-                            [1;35m![0;35mlAst [0;1;35m10[0;35m cAllers[0;1;35m![0m
+                            [1;35m [0;35m     [0;1;35m  [0;35m        [0;1;35m [0m
 
-[1;30m----last callers..[0m
+[1;30m                  [0m
 
-[1;30mboth for my board, fuckahh.[0m
+[1;30m                           [0m
 
 [1;30m-anm[0m'

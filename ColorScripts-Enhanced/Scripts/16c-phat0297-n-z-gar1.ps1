@@ -5,7 +5,7 @@
 # Source SHA-256: ef3d6d6ec21a36e61598524b76f9708bec5658f29b83a9c5d2e1bcc95add9f21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!Z-GAR1.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: garbage-logo ii
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
@@ -38,7 +38,4 @@ Write-Host '
 
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30mif i suffer i draw the best ansis. and man, believe me today i suffer.[0m
-[1;30mlove your brain :> its for lo!. it says ''g''-arbage.[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b2e87478d4c7fc5ce9373d7fdd23f2ce07d59db875b6f86e9cb4db8844d562e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-USEOD.ANS by ize (fusion); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: users
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -24,12 +24,4 @@ Write-Host '
        [35m▀[0;1;35;45m▀▀[0;1;35;40m█████▄▄▄▄▄[0;1;35;45m▄[0;35m▀[0;1;35;45m▀▀[0;1;35;40m████▄▄▄▄▄[0;1;35;45m▄▀[0;1;35;40m█████▄▄▄▄▄[0;1;35;45m▄[0;1;35;40m███[0;34m░▓[0;1;34;47m░▓[0;34m█▌[0;35m▐[0;1;35;45m▐[0;1;35;40m█[0;1;35;45m█▀[0;1;35;40m█████▄▄▄▄▄[0;1;35;45m▄[0;1;35;40m█[0;1;35;47m▓[0;1;35;40m [0;34m▓░[0m
      [34m░▄▄▄[0;1;35m [0;35m▀▀▀[0;1;35;45m▀▀▀▀[0;1;35;40m█████  [0;35m▀▀▀[0;1;35;45m▀▀▀[0;1;35;40m████▄[0;35m▀▀▀▀[0;1;35;45m▀▀▀[0;1;35;40m█████[0;1;35;47m▓▓[0;1;35;40m▌[0;34m▐[0;1;34;47m▓[0;1;34;44m█▀[0;34m▀[0;1;35m [0;1;35;45m [0;1;35;40m██▄[0;35m▀▀▀▀[0;1;35;45m▀▀▀[0;1;35;40m███[0;1;35;45m█▀[0;1;35;40m▀ [0;1;34;40m▒[0;34m░[0m
       [34m░[0;1;34;44m ▀  [0;34m▄▄▄▄▄[0;1;35m [0;35m▀▀▀▀▀[0;34m░█[0;1;34;44m▄▄[0;34m▄▄▄[0;1;35m [0;35m▀▀▀▀▀[0;34m░█[0;1;34;44m▄[0;34m▄▄▄[0;1;35m [0;35m▀▀▀▀▀[0;1;35m [0;34m▄▄▄[0;1;34;44m▄[0;1;34;40m▒[0;34m░[0;1;35m [0;35m▀▀▀▀▀[0;1;35m [0;34m░▓█▄▄[0;1;35m [0;35m▀▀▀▀[0;1;35m [0;34m▄[0;1;34;44m▄[0;1;34;40m▀[0m
-           [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35m [0;34m [0;1;34mUSERS[0;1;35m  [0;34m░▀▀▀▀▀▀▀▀[0;1;34m▀▀[0m
-
-
-       [1;34mhere you go oddball - -[0m
-       [1;34mplease dont ask me for a header! - - [0m
-       [1;34mmy headers really suck! - -[0m
-       [1;34mdont ask or - -[0m
-      [1;34m I will - -    [0m
-       [1;34mREGULATE!@# :)[0m [1;34m- -[0m'
+           [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35m [0;34m [0;1;34mUSERS[0;1;35m  [0;34m░▀▀▀▀▀▀▀▀[0;1;34m▀▀[0m'

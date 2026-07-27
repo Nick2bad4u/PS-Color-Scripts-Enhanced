@@ -5,26 +5,26 @@
 # Source SHA-256: 79df35f002a7fe9856183674283dc15e54d84fd75b2f2825d24a8e7d10dd4101
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QUAST12.ANS by Anubis (force-01); released in force-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 75-124
 # Columns: 1-80
 
 Write-Host '
 [1;30m██[0m█                                            [1;33;42m░[0m               [31m▀▀▀[0;1;33;42m░[0m     [1;33;42m▒[0m [31m▀▀[0;1;33;42m░[0;31m███[0m
 [1;30m██[0m█  PaiN aND eViL iS WHeRe i DWeLL            [1;33;42m░[0m                  [1;33;42m▒[0m     [1;33;42m▓[0m   [1;33;42m░[0m [1;30;40m▄▄[0m
-[1;30;40m██[0m█  You''LL Be PLaCeD & CaPTuReD uNDeR My SPeLL[1;33;42m░[0m                  [1;33;42m▒[0m     [1;33;42m▓[0m   [1;33;42m░[0m [1;30;40m██[0m
+[1;30;40m██[0m█                                            [1;33;42m░[0m                  [1;33;42m▒[0m     [1;33;42m▓[0m   [1;33;42m░[0m [1;30;40m██[0m
 [1;30;40m██[0m█                                            [1;33;42m▒[0m                  [1;33;42m▓[0m     [1;33;41m▓[0m   [1;33;42m░[0m [1;30;40m██[0m
-[1;30;40m██[0m█  Do THY BiDDiNG aND THY LiFe WiLL Be SPaReD[1;33;42m▒[0m                  [1;33;42m█[0m     [1;33;41m▓[0m   [1;33;42m▒[0m [1;30;40m██[0m
-[1;30;40m██[0m█  FoR iF NoT PaiN & SuFFeRiNG WiLL BE DaReD [1;33;42m▒[0m                  [1;33;41m▓[0m     [1;33;41m▓[0m   [1;33;42m▒[0m [1;30;40m██[0m
+[1;30;40m██[0m█                                            [1;33;42m▒[0m                  [1;33;42m█[0m     [1;33;41m▓[0m   [1;33;42m▒[0m [1;30;40m██[0m
+[1;30;40m██[0m█                                            [1;33;42m▒[0m                  [1;33;41m▓[0m     [1;33;41m▓[0m   [1;33;42m▒[0m [1;30;40m██[0m
 [1;30;40m██[0m█                                            [1;33;42m▒[0m                  [1;33;41m▓[0m     [1;33;41m▒[0m   [1;33;42m▒[0m [1;30;40m██[0m
 [1;30;40m██[0m█  JuDGe WiLL i uPoN THY SouL                [1;33;42m▓[0m                  [1;33;41m▒[0m     [1;33;41m▒[0m   [1;33;42m▒[0m [1;30;40m██[0m
 [1;30;40m██[0m█  MY HeaRT BeiNG aS BLaCK aS CoaL           [1;33;42m▓[0m                  [1;33;41m▒[0m     [1;33;41m▒[0m   [1;33;42m▒[0m [1;30;40m██[0m
 [1;30;40m██[0m█                                            [1;33;42m█[0m                  [1;33;41m░[0m     [1;33;41m▒[0m   [1;33;42m▓[0m [1;30;40m██[0m
-[1;30;40m██[0m█  GooD WoRK aND i''LL ReWaRDiTH THee         [1;33;42m█[0m                  [1;33;41m░[0m     [1;33;41m░[0m   [1;33;42m▓[0m [1;30;40m██[0m
-[1;30;40m██[0m█  WiTH TReaSuReS oF KNoLeDGe To SeT You FRee[1;33;41m▒[0m                  [1;33;41m░[0m     [1;33;41m░[0m   [1;33;42m▓[0m [1;30;40m██[0m
+[1;30;40m██[0m█                                            [1;33;42m█[0m                  [1;33;41m░[0m     [1;33;41m░[0m   [1;33;42m▓[0m [1;30;40m██[0m
+[1;30;40m██[0m█                                            [1;33;41m▒[0m                  [1;33;41m░[0m     [1;33;41m░[0m   [1;33;42m▓[0m [1;30;40m██[0m
 [1;30;40m██[0m█                                            [1;33;41m▒[0m                  [1;33;43m░[0m     [1;33;41m░[0m   [1;33;42m▓[0m [1;30;40m██[0m
-[1;30;40m██[0m█  CoMe JoiN ouR SeCT oF LiFeLeSS SouL''S     [1;33;41m▒[0m                  [1;31;41m░[0m     [1;33;41m░[0m   [1;33;42m█[0m [1;30;40m██[0m
-[1;30;40m██[0m█  aND ouR WiSDoM WiLL TaKe iT''S ToLL        [1;33;41m░[0m                  [1;31;41m░[0m      [31m▌  [0;1;33;41m▓[0m [1;30;40m██[0m
+[1;30;40m██[0m█                                            [1;33;41m▒[0m                  [1;31;41m░[0m     [1;33;41m░[0m   [1;33;42m█[0m [1;30;40m██[0m
+[1;30;40m██[0m█                                            [1;33;41m░[0m                  [1;31;41m░[0m      [31m▌  [0;1;33;41m▓[0m [1;30;40m██[0m
 [1;30;40m██[0m█                                            [1;33;41m░[0m                  [1;31;41m░[0m      [31m▌  [0;1;33;41m▓[0m [1;30;40m██[0m
 [1;30;40m██[0m█                            [1;30m[uNiCoRN][0m       [1;33;41m░[0m                  [1;33;41m [0m     [31m▄   [0;1;33;41m▒[0m [1;30;40m██[0m
 [1;30;40m██[0m█                                            [1;33;41m░[0m                  [1;33;41m [0m         [1;33;41m▒[0m [1;30;40m██[0m
@@ -52,9 +52,9 @@ Write-Host '
                             [1;31m▄[0m
                            [1;31m■[0m
        [1;31m▄▀▀[0;35m▀▀▀▀▀▀[0m                                                [35m▀▀▀▀▀▀▀[0;1;31m▀▀▄[0;31m▄[0m
-     [1;31;41m▀[0;1;31;40m█[0;31m░[0m       [31mDiS[0;1;31mT SiT[0;1;37me''S    NeuRoCaCTuS · CoRe · iNDeP[0;1;31meND[0;31maNT[0m           [1;31m█▀▒[0m
+     [1;31;41m▀[0;1;31;40m█[0;31m░[0m       [31m   [0;1;31m     [0;1;37m                                 [0;1;31m   [0;31m   [0m           [1;31m█▀▒[0m
 [1;31m    [0;31m█▀▓▓[0m                                                                 [31m█  ░[0m
-[31m    ▒  █ SuP[0;1;31mPoR[0;1;37mTiNG   ACiD · iCE · DiE · SKaG · DaRK · iNDePeNDa[0;1;31mNT  A[0;31mNSi ▓  ░[0m
+[31m    ▒  █    [0;1;31m   [0;1;37m                                                 [0;1;31m     [0;31m    ▓  ░[0m
 [31m    ▒  ▓[0m                                                                 [31m▒[0m
 [31m    ░  ▒[0m                                                                 [31m▒[0m
        [31m░[0m                                                                 [31m▒[0m

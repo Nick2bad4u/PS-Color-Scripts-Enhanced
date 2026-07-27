@@ -5,7 +5,7 @@
 # Source SHA-256: e2d5097df87f171714ff267516eeb57e3e8c7815fc6ac0e239c265750f33141a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ED-BCNT1.ICE by Eternal Darkness (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-94
 # Columns: 1-80
 
@@ -52,5 +52,5 @@ Write-Host '
                                    [31m▀▀█[0;1;31;41m▀▀[0;31m▀    ▀[0m                    [31m▀[0m     [31m▄▀▀[0m
 
 [31m [0;1;30m──────────────────────────────────────────────────────────────────────────────[0m
-                   [1;37mA[0mN[1;30mSi: E[0mt[1mernaL Darkne[0ms[1;30ms [[0;1;37mi[0mCE[1;30m] φ [0mo9[1;30m/[0mo8[1;30m/[0m92
+                   [1;37m [0m [1;30m     [0m [1m            [0m [1;30m   [0;1;37m [0m  [1;30m    [0m  [1;30m [0m  [1;30m [0m  
  [1;30m──────────────────────────────────────────────────────────────────────────────[0m'

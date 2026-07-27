@@ -5,7 +5,7 @@
 # Source SHA-256: 1ec578177d466723c133eedca32b7c892c68d114c90a2054c8ce14204e6113dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-TRT4.ANS by Tsunami Surge (orbit01); released in orbit01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 30-59
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
 
       [1;37m┌────·── ─ [0m───·[1;30m── ─ ·[0m                                             [1;30m·[0m
       [1;37m│ [0;1;30m[[0;1;31mNode 1·3[0;31m13[0;1;30m/[0;1;31m9[0;31m60[0;1;30m-[0;1;31m9[0;31m119[0;1;30m]  [[0;1;37mT[0mh[1;30me [0;1;37mR[0mo[1;30mu[0mn[1md T[0ma[1;30mb[0ml[1me[0;1;30m]  [[0;1;31mNode 2·3[0;31m13[0;1;30m/[0;1;31m9[0;31m60[0;1;30m-[0;1;31m9[0;31m181[0;1;30m] .[0m
-      [1;37m|  [0;1;30m[ [0;1;31mCRY[0;31mteria [0;1;31mE[0;31mcho[0;1;30m]    [ [0;1;31mR[0;31munning [0;1;31mTAG 2[0;31m.6[0;1;31md [0;1;30m]    [ [0;31m2.2 Gigabytes [0;1;30m]  [0m:
-      :[1;31m1[0;31m6[0;1;31m.[0;31m8[0;1;31mk D[0;31mual [0;1;31mS[0;31mTD [0;1;30m-[0m=[1m≡[[0m■[1;30m∙∙ [0;1;31mS[0;31mys[0;1;31mO[0;31mp: [0;1;31mδ[0;31mir [0;1;31mG[0;31malahad [0;1;30m∙∙[0m■[1m]≡[0m=[1;30m- [0;1;31m1[0;31m6[0;1;31m.[0;31m8[0;1;31mk D[0;31mual [0;1;31mS[0;31mTD [0;1;37m|[0m
+      [1;37m   [0;1;30m  [0;1;31m   [0;31m      [0;1;31m [0;31m   [0;1;30m       [0;1;31m [0;31m       [0;1;31m     [0;31m  [0;1;31m  [0;1;30m       [0;31m              [0;1;30m   [0m 
+       [1;31m [0;31m [0;1;31m [0;31m [0;1;31m   [0;31m    [0;1;31m [0;31m   [0;1;30m [0m [1m  [0m■[1;30m   [0;1;31m [0;31m  [0;1;31m [0;31m   [0;1;31m [0;31m   [0;1;31m [0;31m       [0;1;30m  [0m■[1m  [0m [1;30m  [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m   [0;31m    [0;1;31m [0;31m   [0;1;37m [0m
       [1;30m.[0m                   [1;37m([0m([1;30m(·[0;1;31m/[0;31m┤[0;1;32m∩[0;1;34mδ[0;1;33mï [0;1;35mß[0;35mÿ[0;1;35m: [0;34mT[0;1;34mδ[0;36mü[0;1;36m∩[0;36mÆ[0;1;34mM[0;34m¡[0;1;30m·)[0m)[1m)[0m                     [1m│[0m
       [1;30m·[0m                                           [1;30m·  ─ ──[0m·─── [1m─ ──·─────┘[0m'

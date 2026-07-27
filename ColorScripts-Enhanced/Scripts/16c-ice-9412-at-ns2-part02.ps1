@@ -5,7 +5,7 @@
 # Source SHA-256: d94d67b86bb22bbd933801cd2625a0440dd30bca77b402ae920a1fe26f160852
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AT-NS2.ICE by Aphex Twin (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 39-74
 # Columns: 1-80
 
@@ -41,7 +41,7 @@ Write-Host '
                                             [36m▄■ ▐[0;1;37;46m▒▓[0;1;37;40m█[0;1;37;46m▓[0;1;37;40m███████[0;1;37;46m▓[0m      [1;37;40m▄▓▄█[0;1;37;46m▓[0m [1;37;40m▀▄[0;31m▀█▓[0m
 [1;33mt h e  n o r t h e r n  s e c t o r[0m             [1;37;46m▓▀[0;1;37;40m▀[0;1;37;46m▒[0;1;37;40m▀█[0;1;37;46m▓[0;1;37;40m███[0;1;37;46m▓▒[0;36m█    [0;1;37m■[0;36m▄[0;1;37m██▄█▀ ▀[0;31m▄▀██[0m
 [1;37m(416)512-9995[0m                               [36m▀ ▀    [0;1;37;46m░[0m  [36m▀  [0;1;37m▀▀ [0;1;37;46m▓[0;36m▀▀ ▀▀[0;1;37m▀[0;36m▀[0;1;37m▀▀ [0;36m▀▀  [0;1;37m░   ▀[0m
-supporting art/demo/wares                                [36m▀▄   ▀▀    ▀▀▓[0m
+                                                         [36m▀▄   ▀▀    ▀▀▓[0m
                                                      [36m▀    █[0m           [36m▒ [0;1;37mat(ice)[0m
                                                           [36m▓    ▄█▄    ░[0m
                                                           [36m▒[0m     [36m▀[0m

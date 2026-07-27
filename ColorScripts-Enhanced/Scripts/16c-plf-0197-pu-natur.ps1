@@ -5,7 +5,7 @@
 # Source SHA-256: 37320d6fac5df59d1a17780b811b386d510ad17f89c5bb84100c28f62f749e4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PU-NATUR.ANS by puppiluppan (gummiboll.art); released in plf_0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nature 1997
 # SAUCE Author: puppiluppan
 # SAUCE Group: gummiboll.art
@@ -22,7 +22,7 @@ Write-Host '
 
 
    [1;30m   [0m
-       [1;30m          thousands of people is still using freon...[0m
+       [1;30m                                                     [0m
 
 
 
@@ -58,6 +58,4 @@ Write-Host '
  [1;32;42m▀▀[0;32m█[0;37m [0;32m█[0;37m [0;32m █[0;1;32;42m▀■[0;32m██[0;37m [0;1;32;42m░[0;32m▀▀[0;37m [0;32m▄▄▄[0;37m [0;32m▀[0;37m [0;1;30m▄▄▄[0;1;30;46m▓▓▄[0;1;30;40m▓█[0;1;30;46m▓[0;1;30;40m█▓▓▓▓▓▓▓█▌▐█▀[0;1;30;46m▓▓[0;1;30;40m██▌███▄▄██[0m   [1;30m▀▀▄[0m  [1;30m░▄▀█[0;1;30;46m▓▓▓[0;1;30;40m█▀▄▄██[0m
 [32m█▄[0m   [32m▄▄▄[0;37m [0;32m▄█[0m    [1;30m    [0m [1;30m▄▄█[0;1;30;46m▓▓[0;1;30;40m░█▀▄▓█▀███[0m [1;30m███▓▓██▒█▌▐█[0;1;30;46m▓[0;1;30;40m███[0m [1;30m███■▓███▄▄[0m [1;30m▀▄█[0;1;30;46m▓▓[0;1;30;40m███▀▀█[0m [1;30m▓▓█[0m
   [32m████[0m        [1;30m  ▄▄█[0;1;30;46m▓▓[0;1;30;40m█▄█▓▀██[0m [1;30m▀█▄▀▀██▀▄█████░ ▓▓▓▓█[0;1;30;46m▓▓[0;1;30;40m███▀█▀█▓██▄█▀▄[0;1;30;46m▓▓[0;1;30;40m█▓▓█▄▄▓▓███[0m
-  [1;30m▄▄▄▄[0m [1;30m▄▄[0m▄▄▄[1;30m▄▄[0m  [1;30m▄▄[0m  [1;30m▄[0m   [1;30m▄[0m                [1;30m▀[0m    [1;30m▄[0m▄[1;30m▄[0m [1;30m▄▄[0m  [1;30m▀    ▄▄▄[0m     [1;30m▄▄[0m   [1;30m▄▄▄▄[0m
-
-        [1;30mare you one of them?...[0m'
+  [1;30m▄▄▄▄[0m [1;30m▄▄[0m▄▄▄[1;30m▄▄[0m  [1;30m▄▄[0m  [1;30m▄[0m   [1;30m▄[0m                [1;30m▀[0m    [1;30m▄[0m▄[1;30m▄[0m [1;30m▄▄[0m  [1;30m▀    ▄▄▄[0m     [1;30m▄▄[0m   [1;30m▄▄▄▄[0m'

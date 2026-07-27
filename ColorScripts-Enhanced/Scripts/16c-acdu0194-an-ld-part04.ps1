@@ -5,7 +5,7 @@
 # Source SHA-256: c97f51e72d851fb35121ba4ff011653c8cb14bc8cf0b01d8a8f30a4be674960b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN-LD.ANS by Andrew Nice (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 127-159
 # Columns: 1-80
 
@@ -31,14 +31,10 @@ Write-Host '
 
             [1;30;40mL o [0ms t   [1mD e s [0mt i [1;30mn y   [0;1;37m··   [0;1;30m7 o [0m8   6 [1m6 5   [0m3 7 [1;30m4 o[0m
 
-                               [1;30mS[0my[1ms[0mo[1;30mp [0;1;37m· [0;1;30mD[0mr[1meadlo[0mr[1;30md[0m
+                               [1;30m [0m [1m [0m [1;30m  [0;1;37m  [0;1;30m [0m [1m     [0m [1;30m [0m
                                    [1;30m1[0m6[1m.[0m8[1;30mk D[0mua[1;30ml[0m
                                     [1;30m5[0m2[1;30m0 M[0meg[1;30ms[0m
-                                [1;30mN[0me[1mt[0m/[1;30m2 [0;1;37m· [0;1;30mC[0mi[1mPN[0me[1;30mt[0m
+                                [1;30m [0m [1m [0m [1;30m  [0;1;37m  [0;1;30m [0m [1m  [0m [1;30m [0m
                                     [1;30m0[0m-[1;30m3 D[0ma[1;30my[0m
 
-         [1;30m─────────────────────────────────────────────────────────────[0m
-
-                         [1;30mA[0mN[1mSi (and fonts this time) b[0my[1;30m...[0m
-
-                               [1;30mA[0mn[1mdrew Ni[0mc[1;30me [[0mAC[1mi[0mD[1;30m][0m'
+         [1;30m─────────────────────────────────────────────────────────────[0m'

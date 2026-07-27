@@ -5,13 +5,13 @@
 # Source SHA-256: 7623ba2aa59a5a3463462bb4fc46ee1f9fe467b6bf4348eb6d2f4c9348fc3f08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DY-JRR2.ANS by Dynosaw (stx0594); released in stx0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
 Write-Host '
-       [1;30m"STILL not long enough... and STILL not enough colors!! ggrrrr...."[0m
-                            [1;30mANSi+QuickFont: Dynosaw[0m
+       [1;30m                                                                   [0m
+                            [1;30m                       [0m
            ▄▀                                                        ▀▄
          ▄[1;30;47m▄[0m                                                            [1;30;47m▄[0m▄
        ▄█[1;30;47m░[0;1;30;40m▌[0m                                                            [1;30;40m▐[0;1;30;47m░[0m█▄

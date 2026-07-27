@@ -5,7 +5,7 @@
 # Source SHA-256: df8fa8dc69dade8fbf242cb4f8916f3804c0c3c7acd16f861fb5251d4987dfeb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD!-GRM!.ANS by cREEPiNG dEATH (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fREE aNSi!
 # SAUCE Author: cREEPiNG dEATH
 # SAUCE Date: 19951027
@@ -21,10 +21,10 @@ Write-Host '
                       [31m [0m      [31m▄▄[0;37m ██ ▄▄[0;37;41m▓[0;37;40m▄[0;1;30;40m [0;31m▄[0;37m▐█▌ ▄█▀[0;31m▄[0;37m [0m
                       [31m [0m     [31m▀[0;1;31;41m░[0m ▄█[41m▓[0;40m█▀▀ [0;31;40m▄▄[0;1;31;41m░[0m █▄[41m▓[0;40m▀[0;1;30;40m [0;31m▄█▀[0m
                       [31m [0m      [31m█▄[0;1;30m [0m▀     [31m ▀[0m   [37m▀[0;1;30m [0m   [1;31;41m░[0m
-                      [31m [0m      [31m▐▌[0;37m [0;31min a new tatoo[0;1;31m [0m [31m▐[0m
-                      [31m [0m       [31m▌[0m   [31mproduction.[0m
+                      [31m [0m      [31m▐▌[0;37m [0;31m              [0;1;31m [0m [31m▐[0m
+                      [31m [0m       [31m▌[0m   [31m           [0m
 
-                         [31m1OO% original.1OO% free ansi.[0m
+                         [31m                             [0m
 
                                         [1;30m▄▄▄▓▄▄▄▄▄▄▓▄▄▄▄▄▄    [0m
                          [1;30m▄▓▄▄▄▄▄████████████████████████████▄▄[0m

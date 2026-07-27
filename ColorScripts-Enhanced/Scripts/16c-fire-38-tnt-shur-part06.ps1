@@ -5,7 +5,7 @@
 # Source SHA-256: 2cf7f57a79e221539f283ee0b1e1cd86b3b4556ec8d3217bb8d3f544bb9d077e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-SHUR.ANS by tainted (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: shuratos heavenly sphere
 # SAUCE Author: tainted
 # SAUCE Group: fire
@@ -36,8 +36,4 @@ Write-Host '
                        ▄█▌ ▓   ▐[1;47m░[0m   [1;47m░[0m ▐[1;47m░[0m▌ ▄▄▄ █▌ ▀█▄ ▐[1;47m░[0m▌ ▄▄ ▄ [1;30m■░[0m
                      ▄█▀▀  ▒    ░   █  ▀▀▀     ▀   ▀█▄▀▀▀
                     ▀      ░        ▓                ▀▀▄▄
-                 [1;30m■░[0m                 ░
-
-                            [1;30mshuratos heavenly sphere[0m
-
-                                   [1;30mshsbbs.net[0m'
+                 [1;30m■░[0m                 ░[0m'

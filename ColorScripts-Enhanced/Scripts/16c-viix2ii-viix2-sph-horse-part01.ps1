@@ -5,7 +5,7 @@
 # Source SHA-256: cb2b68ac3c3cedc9c721cf70d69b473481666e6998ff84794a087c5d6d06aa55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ViiX2 - SPH - HORSE.ANS by sephiroth (viix2); released in viix2ii and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: horse
 # SAUCE Author: sephiroth
 # SAUCE Group: viix2
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-                    [35mWhats this? no background? ... hm..[0m
-                    [35mI hope its not just another damn floating head..[0m
+                    [35m                                   [0m
+                    [35m                                                [0m
 
 
 

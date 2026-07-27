@@ -5,7 +5,7 @@
 # Source SHA-256: dce8a1a3b28ccabcca2e8c737bc7f6aef230f392ad88d4b3cbaea9970e8e6d58
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S3-TDZ.ANS by Saturn 32 (rain-01); released in rain-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 84-120
 # Columns: 1-80
 
@@ -42,8 +42,8 @@ Write-Host '
 [1;33;40m██▓▓▓[0;1;30;40m▄▄  [0;1;33;40m▓  ▓    ▓[0m       [1;33;40m░[0m     [1;33;40m▒[0m     [1;33;40m░    ░[0m       [1;33;40m░[0m        [1;33;40m▓[0m     [1;33;40m▓[0m        [1;30;40m▄▄[0;1;33;40m▓▓██[0m
 [1;33;40m█▓[0;1;30;40m▀▀▀    [0;1;33;40m░   ▓[0m        [1;33;40m░    ░   ▓[0m       [1;33;40m░   ░    ▒  ░    ▓   ▒ ░   ░  ▓ ▒    [0;1;30;40m▀▀[0;1;33;40m▓█[0m
 [1;30;40m█    [0;1;33;40m░[0m     [1;33;40m▒[0m      [1;33;40m░ ░[0m       [1;37;40mThe Danger Zone[0m      [1;33;40m░    ░[0m     [1;33;40m▒    ░[0m             [1;30;40m█[0m
-[1;30;40m█[0m         [1;33;40m▒    [0;1;37;40mSix,Oh,too - Fo,three,nine - Fo,eight,seven,too[0m      [1;33;40m░  ░[0m       [1;30;40m█[0m
-[1;30;40m█ [0;1;37;40mAlways The latest Warez, Running the Latest ViSiON-X always, At 16.8 DS USR  [0;1;30;40m█[0m
-[1;30;40m█  [0;1;37;40m1.2 Gigz + a cd-rom -=- Carrying Felonynet -=- NO LAMERS,NO CRAP,NO NUP[0m     [1;30;40m█[0m
-[1;30;40m ▀▄▄▄  [0;1;37;40mNO RATIOS for L/D Callers - Sysop: Bigguy Co-sysop: Silent Stalker  [0;1;30;40m▄▄▄▀[0m
+[1;30;40m█[0m         [1;33;40m▒    [0;1;37;40m                                               [0m      [1;33;40m░  ░[0m       [1;30;40m█[0m
+[1;30;40m█ [0;1;37;40m                                                                             [0;1;30;40m█[0m
+[1;30;40m█  [0;1;37;40m                                                                       [0m     [1;30;40m█[0m
+[1;30;40m ▀▄▄▄  [0;1;37;40m                                                                    [0;1;30;40m▄▄▄▀[0m
      [1;30;40m▀▀[0m                        [1;37;40mCall Now![0m                                [1;30;40m▀▀▀[0m'

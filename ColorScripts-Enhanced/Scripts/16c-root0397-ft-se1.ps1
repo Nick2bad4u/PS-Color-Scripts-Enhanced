@@ -5,7 +5,7 @@
 # Source SHA-256: cacf2cc130247889c5737ca490f0cbb2497cd6793cbdca4e749d05e07aaae02b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FT-SE1.ANS by Flight (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Spilled Entrails
 # SAUCE Author: Flight
 # SAUCE Date: 19970228
@@ -29,10 +29,9 @@ Write-Host '
         [1;30m▀▀▀▀▀▀▀▀▀[0m          [1;30m▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀▀▀[0m    [1;30m▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▀▀▀▀▀[0m    [1;30m▀[0m
 [1;30m▀[0m      [32m░[0;30;42m░ m a i n  m e n u░[0;32;40m░[0m
 [1;30;40m█[0m                                                                         [1;30m▄▓▄[0m [1;30m▀[0m
-[1;30m▓▄▀[0m  [1;30m▀▄[0m    [1;33mc[0m  [33mcommands[0;37m [0;33mhere[0m     [1;33ma[0m  [33mand[0;37m [0;33mhere....[0m      [1;33mc[0m  [33mcommands[0;37m [0;33mhere[0m      [1;30m▀[0m  [1;30m█[0m
-[1;30m█▌[0m    [1;30m▐▌[0m   [1;33mc[0m  [33mcommands[0;37m [0;33mhere[0m     [1;33ma[0m  [33mand[0;37m [0;33mhere[0;37m [0;33mtoo.[0m     [1;33mc[0m  [33mcommands[0;37m [0;33mhere[0m        [1;30m░▓[0m
+[1;30m▓▄▀[0m  [1;30m▀▄[0m    [1;33m [0m  [33m        [0;37m [0;33m    [0m     [1;33m [0m  [33m   [0;37m [0;33m        [0m      [1;33m [0m  [33m        [0;37m [0;33m    [0m      [1;30m▀[0m  [1;30m█[0m
+[1;30m█▌[0m    [1;30m▐▌[0m   [1;33m [0m  [33m        [0;37m [0;33m    [0m     [1;33m [0m  [33m   [0;37m [0;33m    [0;37m [0;33m    [0m     [1;33m [0m  [33m        [0;37m [0;33m    [0m        [1;30m░▓[0m
 [1;30;47m▓[0m  [1;30m▄░[0m [1;30m▀[0m    [1;33mc[0m  [33mcommands[0;37m [0;33mhere[0m                                                   [1;30;47m▓[0m
 [1;30;47m▓[0m   [1;30m▀[0m                                                                        [1;30;47m▓▓[0m
 [1;30;47m▓[0;1;30;40m█[0m                                                                           [1;30;47m▒▒[0m
-[1;30;47m▒▓[0;1;30;40m▄▄▄▄[0m [1;30m▄▄[0m  [1;30m▄[0m                                                         [1;30m▄[0m [1;30m▄▄▄▄▄[0;1;30;47m▓▒░[0m
-                                                                       [1;30mft(root)[0m'
+[1;30;47m▒▓[0;1;30;40m▄▄▄▄[0m [1;30m▄▄[0m  [1;30m▄[0m                                                         [1;30m▄[0m [1;30m▄▄▄▄▄[0;1;30;47m▓▒░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e4d771072348913a69c8417d3ba206e0a8ad81a09f88a616d0394c43f8b21a27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SRB-ANTI.ANS by Sketch Rimanez (sclr-15); released in sclr-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -27,10 +27,4 @@ Write-Host '
 [1m              [0m  [1m      [0;1;31m [0;31m`?§@§\.[0;37m`"` ''[0;1;37m              [0;31m_[0;37m"╛S?''[0m
             [1;37m  [0m  [1m      [0;1;31m [0;31m  `╛╡§b. [0;1;31m               ,d[0;31m§╡''[0m
             [1;37m  [0m  [1m      [0;1;31m [0;31m     "[0;1;31m?╡§g▬,__    __,▬g§╡?²[0m
-                               [1;31m`"²?§j╡╡╡╡j§?÷²`[0m
-
-       [1;30m [0m
-
-        [1;30mThis[0m [1;30mis logo for my[0m
-        [1;30mown[0m [1;30mechoconference[0m
-        [1;30mSUMY.ANTIGOP[0m'
+                               [1;31m`"²?§j╡╡╡╡j§?÷²`[0m'

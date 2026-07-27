@@ -5,7 +5,7 @@
 # Source SHA-256: e8042badaa90c103353e8b0bfcd5a97df244f6ef68ffc53f436bc00c22e662e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VDR-BALD.ANS by Vader (opx-19); released in opx-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bald chick
 # SAUCE Author: Vader
 # SAUCE Date: 19971221
@@ -51,7 +51,4 @@ Write-Host '
 [1;36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [1;31;43m ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ [0m [1;36m░░░░░░░░░░░[0m
 [30;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;30;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;30;46m▓▓▓▓▓▓▓▓▓▓▓▓[0m
 
-[37;40m-[0m
-[37;40mno logo.[0m
-[37;40mrequests - sp97jwa@ksk.sala.se[0m
-[37;40mrespects - ezy, rawlock and mongi.[0m'
+[37;40m-[0m'

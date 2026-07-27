@@ -5,7 +5,7 @@
 # Source SHA-256: 6acca58d6b94930cc44d3a2be969d93bd2d30e29b451e5db9be97eb60d00df28
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!Z-MAIN.ANS by noize (phat); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mainmenu
 # SAUCE Author: noize
 # SAUCE Group: phat
@@ -17,8 +17,8 @@
 Write-Host '
 [1;35m░[0;1;37m▄[0;1;35m█[0;1;35;45m▓[0;1;35;40m▀▀[0;35m▀▀▀▀[0;37m [0;35m▀[0m     [35m▀[0;37m [0;35m  [ noize # phat ]   ▀▓[0m      [1;35m▀░▀[0m                           [1;35m▀░[0m
  [1;35m▓[0;1;35;45m▓[0;1;35;40m [0m [1;30mc: a  main menu 4 my board - do i  [0m     [35m▓▀[0m      [35m▀[0;37m [0;35m▀[0;1;35m▀▀▀▀[0;35m▀[0;1;35m [0;35m▀[0;1;35m▀▀▀▀[0;35m▓[0;1;35;45m▓░[0;1;35;40m▄░[0;35m [0m
-[37m  [0;35m▄[0m     [1;30mhave a board ? not really - just [0;35m▌[0m   [35m▐[0;37m [0;1;30mn: main menu :)    [0m  [1;45m▀[0;1;35;40m▓[0m
-   [35m░[0m    [1;30m4 some testing.[0m                  [35m█[0m     [1;30m4: myself         [0m    [1;35m░[0m     [1;30m▄[0m
+[37m  [0;35m▄[0m     [1;30m                                 [0;35m▌[0m   [35m▐[0;37m [0;1;30m                   [0m  [1;45m▀[0;1;35;40m▓[0m
+   [35m░[0m    [1;30m               [0m                  [35m█[0m     [1;30m                  [0m    [1;35m░[0m     [1;30m▄[0m
      [1;35m■[0;1;30m░[0m  [35m▄▄▄▄▄▄▄▄▄▄[0m    [35m▄▄▄▄▄▄▄▄▄▄[0m       [35m▄▓[0m   [35m▐[0;37m [0m                  [37m  [0;35m [0;1;35m▀[0m     [1;30m▀▓▀[0m
 [1;35m░▄[0m                                          [1;30m░[0;35m▄▄[0m         [35m▄▄▄[0m     [35m■[0;37m [0;1;35m▀[0m            [1;30m░[0m
 
@@ -39,7 +39,7 @@ Write-Host '
 [35m▄▀▀   ▀█[0;1;35;45m▀▀[0;35m█▓[0;37m [0;35m▄▓[0;37m [0;33m [0;1;35mn[0;35moiz[0;1;35me[0;33m [0;35m ▐[0;1;35;45m▄[0;35m  [0;33m[[0;35md[0;33m] downlod[0m            [35m▐[0;1;35;45m▀[0m                       [35m▐█[0;1;36m [0;31m▒[0m
 [35m▌[0m    [35m     ▀▀▀[0m    [1;35mp[0;35mha[0;1;35mt[0m   [35m ██[0m   [33m[[0;35mu[0;33m] upload[0m           [35m▀[0m                        [35m▐█[0;36m [0;31m▓[0m
 [35m  [0;33m[[0;35m![0;33m] logoff[0m             [35m █[0;1;35;45m▄[0;35m▌[0m                    [35m▀[0m                          [35m█[0;35;41m░[0;35;40m█[0m
-[35;40m▌  [0;33;40m[[0;35;40ms[0;33;40m] leave mail to noize[0;35;40m▐[0;1;35;45m▀[0;35m█  [0;1;35m[f] filemenu[0m    [35m█ [0m                           [35m█[0;35;41m▄[0;35;40m█[0m
+[35;40m▌  [0;33;40m [0;35;40m [0;33;40m                     [0;35;40m▐[0;1;35;45m▀[0;35m█  [0;1;35m            [0m    [35m█ [0m                           [35m█[0;35;41m▄[0;35;40m█[0m
 [35;40m█[0m   [33;40m[[0;35;40mo[0;33;40m] page op''per [0;35;40m ▄▄██▀▀▀ ▄▄[0m              [35;40m▄█ ▄▄ [0m   [1;35;40m[m] messagemenu[0m    [35m██▀▀[0m
 [35m [0;1;35;45m■[0;35m▄▄[0m        [35m▄▄▄[0;1;34m   [0;35m ▀▀  [0;31m▄▄▄▓░▄▄[0;1;34m [0;35m▀[0m           [35m▄[0;35;41m▓[0;1;35;45m▀[0m   [35m██ [0m                    [35m▀[0m   [31m░░░░[0m
 [31m▓[0;35m █[0;1;35;45m▀▄▄[0;35m▄▄█▀▀▀ [0;31m▄▄▄▓████▀▀▀▀▀▀▀▀▀▀▓▄▄[0m   [35m▄  ▄▄[0;1;35;45m▄[0;35;41m▓[0;35;40m█ [0;1;34;40m [0;31m░[0;1;34m  [0;35m██ [0m            [35m▄[0m       [31m░░░░▒▓▓[0m

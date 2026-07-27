@@ -5,7 +5,7 @@
 # Source SHA-256: 985c9d95e0d14fad80032c82465b4280fce9defb2ed3c4141d11f936d0ead483
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-UD.ANS by Flick Of The Switch (mpir1193); released in mpir1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 86-116
 # Columns: 1-80
 
@@ -25,13 +25,13 @@ Write-Host '
 [31m▀█████[0;1;30;41m░░░▒▓█[0;1;30;40m██▀   [0;31m██[0;1;30;41m░▒[0m [31m▀[0;31;41m [0;1;30;41m░ [0;31m█▄█[0;31;41m  [0;31;40m█▀ ██[0;1;30;41m░▒[0m [31m████████[0;1;30;41m░░[0m [31m██[0;1;30;41m░▒[0m [31m▀█[0;31;41m [0;1;30;41m░[0;31m█████[0;1;30;41m░[0;31m▀ [0;1;30;41m░[0;31m█[0;1;30;41m░▒[0m    [31m██[0;1;30;41m░▒[0m
   [31m▀▀███[0;31;41m [0;1;30;41m░░▒▓[0;1;30;40m▀[0m     [31m▀██[0;1;30;41m░[0m   [31m▀[0;31;41m  [0;31;40m███▀   ▀██[0;1;30;41m░[0m  [31m▀██████▀  ▀██[0;1;30;41m░[0m   [31m▀█████▀   ███[0;1;30;41m░[0m    [31m▀██[0;1;30;41m░[0m
 
-                          [1;30m∙[0m∙[1m∙ [0;1;30m<[0m/[1mnkno[0mw[1;30mn /[0m>[1mivisi[0mo[1;30mn [0;1;37m∙[0m∙[1;30m∙[0m
+                          [1;30m [0m [1m  [0;1;30m [0m [1m    [0m [1;30m   [0m [1m     [0m [1;30m  [0;1;37m [0m [1;30m [0m
 
              [1;30m┌[0;1;37m∙[0;34m─[0;35m─[0;1;35m─[0;1;37m·─[0;1;36m∙[0;36m■ [0;1;37mSysOps [0;1;30m∙ [0;1;33mCooz [0;1;30m∙ [0;1;33mKafka Kierkegaard [0;36m■[0;1;36m∙[0;1;37m─·[0;1;35m─[0;35m─[0;34m─[0;1;37m∙[0;1;30m┐[0m
              [1;37m∙[0m                                                   [1;37m∙[0m
              [1;30m├[0;1;37m∙[0;34m─[0;35m─[0;1;35m─[0;1;37m──·─[0;1;36m∙[0;36m■ [0;1;37mC[0;1;36me[0;36mleri[0;1;36mt[0;1;37my 1.42 [0;1;30m∙ [0;1;37m3.9 G[0;1;36mi[0;36mgabyt[0;1;36me[0;1;37ms [0;36m■[0;1;36m∙[0;1;37m─·──[0;1;35m─[0;35m─[0;34m─[0;1;37m∙[0;1;30m┤[0m
              [1;37m∙[0m                                                   [1;37m∙[0m
-             [1;30m├[0;1;37m∙[0;34m─[0;35m─[0;1;37m·─[0;1;36m∙[0;36m■ [0;1;37mE[0;1;35mM[0;35mPi[0;1;35mR[0;1;37mE D[0;1;35mi[0;35mstro [0;1;30m∙ [0;1;37mA[0;1;35mp[0;35mps [0;1;30m∙ [0;1;37mG[0;1;35ma[0;35mmes [0;1;30m∙ [0;1;37mO[0;1;35mS[0;35m/2 [0;36m■[0;1;36m∙[0;1;37m─·[0;35m─[0;34m─[0;1;37m∙[0;1;30m┤[0m
+             [1;30m├[0;1;37m [0;34m─[0;35m─[0;1;37m ─[0;1;36m [0;36m■ [0;1;37m [0;1;35m [0;35m  [0;1;35m [0;1;37m   [0;1;35m [0;35m     [0;1;30m  [0;1;37m [0;1;35m [0;35m   [0;1;30m  [0;1;37m [0;1;35m [0;35m    [0;1;30m  [0;1;37m [0;1;35m [0;35m   [0;36m■[0;1;36m [0;1;37m─ [0;35m─[0;34m─[0;1;37m [0;1;30m┤[0m
              [1;37m∙[0m                                                   [1;37m∙[0m
              [1;30m├[0;1;37m∙[0;34m─[0;35m─[0;1;35m─[0;1;37m───·─[0;1;36m∙[0;36m■ [0;1;37mF[0;1;34mr[0;34mee [0;1;37mF[0;1;34mi[0;34mles [0;1;30m∙ [0;1;37mN[0;1;34mo [0;1;37mN[0;1;34mU[0;34mP [0;1;30m∙ [0;1;37mN[0;1;34mo [0;1;37mP[0;1;34mC[0;34mR [0;36m■[0;1;36m∙[0;1;37m─·──[0;1;35m─[0;35m─[0;34m─[0;1;37m∙[0;1;30m┤[0m
              [1;37m∙[0m                                                   [1;37m∙[0m

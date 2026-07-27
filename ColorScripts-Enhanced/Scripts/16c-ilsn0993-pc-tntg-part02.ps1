@@ -5,7 +5,7 @@
 # Source SHA-256: cdb5ddae8a5fd7b4d9b44ba55fe8f8d21d50d2ceabf23e8ebbcde5b7df6cb698
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-TNTG.ANS by Primordial Chowder + Brain Dead (ilsn0993); released in ilsn0993 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-98
 # Columns: 1-80
 
@@ -53,9 +53,4 @@ Write-Host '
         [1;37;47m█[0;47m████████████     ██[0;31;47m■[0;37;47m█[0;1;33;47mF[0;1;31;47me[0;31;47mlony [0;1;33;47mN[0;1;31;47me[0;31;47mt[0;37;47m█[0;1;33;47mH[0;1;31;47mU[0;31;47mB/[0;1;33;47mW[0;1;31;47mH[0;31;47mQ[0;37;47m█[0;31;47m■[0;37;47m██████████████████[0;1;30;47m█[0m
         [1;37;47m█[0;47m████████████████████[0;31;47m■[0;37;47m█[0;1;33;47mN[0;1;31;47mD[0;31;47mN [0;1;33;47mC[0;1;31;47mo[0;31;47murier [0;1;33;47mH[0;1;31;47mo[0;31;47mme[0;37;47m█[0;31;47m■[0;37;47m███████████████████[0;1;30;47m█[0m
         [1;37;47m█[0;47m██████████ ██[0;31;47m■[0;37;47m█[0;1;33;47mA[0;1;31;47mP[0;31;47mT [0;1;33;47mD[0;1;31;47mi[0;31;47mst.[0;37;47m█[0;1;33;47mS[0;1;31;47mi[0;31;47mte[0;37;47m█[0;31;47m■[0;37;47m█[0;1;33;47mi[0;1;31;47mC[0;31;47mE [0;1;33;47mD[0;1;31;47mi[0;31;47mst. [0;1;33;47mS[0;1;31;47mi[0;31;47mte[0;37;47m█[0;31;47m■[0;37;47m█  ████████[0;1;30;47m█[0m
-        [1;37;47m█[0;1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-
-                        [1;33;40m"[0;1;31;40mO[0;31mh [0;1;31mS[0;31mhit, [0;1;31mT[0;31mhere [0;1;31mG[0;31moes [0;1;31mT[0;31mhe [0;1;31mP[0;31mlanet[0;1;31m![0;1;33m"[0m
-
-              [1;37m·[0;1;33m·[0;1;31m∙[0;31m∙ [0;1;33mANSi[0;31m: [0;1;33mPrimordial Chowder [0;31m[[0;1;33miLLUSiON[0;31m] ∙[0;1;31m∙[0;1;33m·[0;1;37m·[0m
-            [1;37m·[0;1;33m·[0;1;31m∙[0;31m∙ [0;1;33mFonts[0;31m, [0;1;33mANSiMATiON[0;31m: [0;1;33mBraiN DeaD [0;31m[[0;1;33miLLUSiON[0;31m] ∙[0;1;31m∙[0;1;33m·[0;1;37m·[0m'
+        [1;37;47m█[0;1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

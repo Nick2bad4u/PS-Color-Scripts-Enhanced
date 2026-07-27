@@ -5,7 +5,7 @@
 # Source SHA-256: 11b01f48acfd546da71d51b3ed8c563dfc17ae276f65695fb5c2415a1b71f746
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dev-log1.ans by dev (flange); released in flange01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo.one
 # SAUCE Author: dev
 # SAUCE Group: flange
@@ -21,12 +21,4 @@ Write-Host '
 [1;30m▓[0;1;37m█████[0m▄▄▄▄▄▄▄▄▄▄▄▄ [1;30m▓[0;1;37m███████[0m [1;30m▓[0;1;37m█████████[0m [1m██ [0;1;30m▓[0;1;37m███████[0m [1;30m▓[0;1;37m██  ▀▀██[0m [1;30m▓[0;1;37m██[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 [1;30m▓[0;1;37m█████[0m▄▄▄▄▄▄▄▄▄▄▄▄ [1;30m▓[0;1;37m███████[0m [1;30m▓[0;1;37m████ [0m▄ [1;30m▓[0;1;37m█[0m [1m██ [0;1;30m▓[0;1;37m███████[0m [1;30m▓[0;1;37m████████[0m [1;30m▓[0;1;37m██████████████████[0m
 [1;30m▓[0;1;37m█████[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-[1;30m▓[0;1;37m█████[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-
-[1;30mThis[0;32m [0;1;30mis the flange 45 liner ansi that i did for our wonderful WHQ bbs.[0m
-[1;30mTHE^DRAIN. Hope ya like the ozzie ned kelly type guy with the very powerful[0m
-[1;30mgun. What a huge basard of a gun. As this is our first artpack and we have only[0m
-[1;30ma few members right now it is sorta late. We are looking for some good artists [0m
-[1;30mand musicians (yes we do music aswell) to come and join, to strengthen the[0m
-[1;30mozzie art scene. Like the logo? looks kinda like a symbol for an old fasion  [0m
-[1;30mmaybee 70''s car. so yeah eNjOy The pack..[0m'
+[1;30m▓[0;1;37m█████[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

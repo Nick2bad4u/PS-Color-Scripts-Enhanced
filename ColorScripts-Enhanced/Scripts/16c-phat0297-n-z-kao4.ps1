@@ -5,7 +5,7 @@
 # Source SHA-256: 4c16caa2d1c27475d51893cab84620723bbf482883118032d246fe3a7d3f63cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!Z-KAO4.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kaoz-logo iv
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
@@ -37,7 +37,4 @@ Write-Host '
 
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30mkaoz / the progression. the originla logo before poti touched it and we two[0m
-[1;30m''destroyed'' it at the ruwer-meetin''.[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

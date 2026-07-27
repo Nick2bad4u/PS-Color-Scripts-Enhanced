@@ -5,7 +5,7 @@
 # Source SHA-256: 652dab0037f3f84737dffe31018ee3a70014eb525b297a6ea253776c36261faf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CREONIX_-_TWO_WEEKS_TRIP.ANS by Creonix (MiSTFUNK 2016!@#$%); released in mist-lc-artdisk-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 2 weeks trippin'
 # SAUCE Author: Creonix
 # SAUCE Group: MiSTFUNK 2016!@#$%
@@ -62,5 +62,4 @@ Write-Host '
 [37m [0;30m██[0;1;30m▒▒▒▒[0;30m██████████████████████████████████████████████████████[0;1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30m██jjj[0m
 [37m [0;1;30m▒▒▒[0;30m███[0;1;30m▒▒▒▒[0;30m█████████████████████████████[0;1;30m▒▒▒▒▒▒▒▒▒▒[0;30m███jjjjjj[0;1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30m███jjj[0m
 [37m [0;30m█████[0;1;30m▒▒[0;30m█████████████████████████[0;1;30m▒[0;30m███[0;1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30mjjjjjjjjjjjjjjjjj[0;1;30m▒▒▒▒▒▒[0;30mjjjjj[0m
-[37m [0;30m███████[0;1;30m▒▒[0;30m█[0;1;30m▒▒▒▒▒▒▒▒▒▒[0;30m██████████[0;1;30m▒▒▒▒▒▒[0;30m███████████████jjjjjjjjjjjjjjj[0;1;30m▒▒▒[0;30mjjjjjjjjjj[0m
-'
+[37m [0;30m███████[0;1;30m▒▒[0;30m█[0;1;30m▒▒▒▒▒▒▒▒▒▒[0;30m██████████[0;1;30m▒▒▒▒▒▒[0;30m███████████████jjjjjjjjjjjjjjj[0;1;30m▒▒▒[0;30mjjjjjjjjjj[0m'

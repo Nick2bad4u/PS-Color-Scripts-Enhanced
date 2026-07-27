@@ -5,7 +5,7 @@
 # Source SHA-256: 53bbf5163714b7d7b5f1cfda965d62e12feee5145b407a362edff0ad105f27f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (A)BSIDE.ANS by al3cs (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: b-side.. for gO!3
 # SAUCE Author: al3cs
 # SAUCE Group: phat studios '97
@@ -40,7 +40,4 @@ Write-Host '
 [33m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░   [0;37;40m [0;33;40m░[0;30;43m▓[0;33;40m░[0m    [33;40m▀ [0m     [33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m   ░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0m    [37;40m ░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0m
 
 
-[1;30;40m-------------------------------------------------------------------------------[0m
-for nail''s [1mgerman only[0m [1m#3..[0m
-the [1mb-side[0m.
-colourscheme by [1mtna[0m, who ruls.[0m'
+[1;30;40m-------------------------------------------------------------------------------[0m'

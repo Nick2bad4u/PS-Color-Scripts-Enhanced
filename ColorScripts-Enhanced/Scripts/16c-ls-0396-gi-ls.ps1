@@ -5,7 +5,7 @@
 # Source SHA-256: 1ac7e461692f88a773ad9db3f86f7688751446fcc5fd749a62da992e4eb02029
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GI-LS.ANS by giger (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: leper society
 # SAUCE Author: giger
 # SAUCE Group: leper society
@@ -54,7 +54,4 @@ Write-Host '
  ▄[1m▄[0;1;47m▄[0;1;40m█[0;1;42m▓[0;1;40m██[0;1;42m▓[0;1;40m███████▀[0m ▄[1;47m▄[0;1;40m█[0;1;47m▓[0;1;40m███[0;1;47m▓▒[0;1;40m▌[0;1;30;40m             [0m ▐[1m█[0;1;47m▓[0;1;42m▓[0m ▀[1m▀[0;1;47m▀▀[0;1;40m▓██▀[0m [1;30m     [0m █[1m███[0;1;47m▓[0;1;40m█▄[0m ▀[1;42m▓[0;1;47m█▓[0;1;40m▄▄[0m
 [1m▀▀▀[0m [1;30m    [0m [1m▀▀██[0;1;42m▓[0;1;40m█[0m  ▄[1m███▀▀▀▀▀▀█ [0;1;30m            [0m █[1;47m▓▒[0;1;42m▓[0m    [1;30m                      [0m▀[1m▀▀▀▀▀▀[0m
 [1;30m         [0m   [1m▀[0;1;42m▓[0m  [1;30m                     [0m  [1;30m [0m ▀[1m▀▀▀[0m  [1;30m [0m   [1;30m                            [0m
-[1;30m             [0m [1m▀■[0m [1m▄[0m    leper society
-
- -a canvas to paint to degenerate, dark reflections-degeneration,
-  a canvas to paint to denigrate, dark reflections, of dark foul light-carcass[0m'
+[1;30m             [0m [1m▀■[0m [1m▄[0m                 [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ab3c7c1589767d64a701e08724688e81509b2badb732ff5f8855b6aefe741be8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CODEFENIX-GOING-SO-SOON.ANS by Codefenix (mist1024); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Going So Soon?
 # SAUCE Author: Codefenix
 # SAUCE Date: 20241025
@@ -61,7 +61,4 @@ Write-Host '
  ▄    [1;30m▀█[0;1;30;47m▌[0;1;37;47m▐[0;1;30;40m  [0;1;37;47m█[0;1;30;47m▐[0;1;30;40m█[0m    [1;30m█[0;1;30;47m▌[0;1;37;47m█[0;1;30;40m   [0m▄    [1;30m▀█[0;1;30;47m▌[0;1;37;47m▐[0;1;30;40m  [0;1;37;47m█[0;1;30;47m▐[0;1;30;40m█[0m    [1;30m█[0;1;30;47m▌[0;1;37;47m█[0m [1;47m█[0;1;30;47m▐█[0m    [1;30m█[0;1;30;47m▌[0;1;37;47m█[0m  [1;47m▌[0;1;30;47m▐[0;1;30;40m█[0m █ [1;30m█[0;1;30;47m▌[0;1;37;47m▐[0m    [1;30m█[0;1;37;47m▄[0;1;37;40m▌[0m
  [1m▀[0;1;47m▌[0;1;30;40m█▌[0m  [1;30m▐[0;1;37;47m▄█[0;1;30;40m  [0;1;37;40m▐[0;1;37;47m▌[0;1;30;47m▀[0;1;30;40m▌[0m  [1;30m▐[0;1;30;47m▀[0;1;37;47m▐[0;1;37;40m▌[0;1;30;40m  [0;1;37;40m▐▀[0;1;37;47m▄[0;1;30;47m▀[0;1;30;40m▌[0m  [1;30m▐[0;1;37;47m▄█[0;1;30;40m  [0;1;37;40m▐[0;1;37;47m▌[0;1;30;47m▀[0;1;30;40m▌[0m  [1;30m▐[0;1;30;47m▀[0;1;37;47m▐[0;1;37;40m▌[0m [1m▐[0;1;47m▌[0;1;30;47m▀[0;1;30;40m▌[0m  [1;30m▐[0;1;30;47m▀[0;1;37;47m▐[0;1;37;40m▌[0m  [1;47m█[0m█[1;30m█[0m [1m▐[0m▌[1;30m█[0m█[1;47m█[0m
   [1m▀██[0;1;47m▄▄[0;1;40m██▀   ▀█[0;1;47m▄▄▄▄[0;1;40m█▀     ▀██[0;1;47m▄▄[0;1;40m██▀   ▀█[0;1;47m▄▄▄▄[0;1;40m█▀   ▀█[0;1;47m▄▄▄▄[0;1;40m█▀  ▄██[0;1;47m▄[0;1;40m▄[0m [1m█[0;1;47m▄[0;1;40m██▄  [0;1;47m▄██▄[0m
-                                                                        [1m▀▀[0m
-                                [1;30mStay a while.[0m
-
-                                  [1;30mI insist.[0m'
+                                                                        [1m▀▀[0m'

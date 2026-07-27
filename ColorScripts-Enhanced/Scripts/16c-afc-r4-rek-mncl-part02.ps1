@@ -5,7 +5,7 @@
 # Source SHA-256: 80b66715f1c416fce74e8d236047abfcf4c634c89e37392b115449fca1989064
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REK-MNCL.ANS by Rekku (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 32-62
 # Columns: 1-80
 
@@ -29,10 +29,10 @@ Write-Host '
 [1;34;44m   ▀[0;1;34;40m██████[0;1;34;46m██▓▓▒[0;34;46m▄[0;1;34;44m▄[0;1;34;46m▓▓▓[0;1;34;44m▌   ▐[0;1;34;40m████[0;1;34;44m ▄▄[0;1;34;40m██[0;1;34;46m█▓▓▒▒░░[0;1;34;44m▐[0;1;34;40m█████[0;1;34;46m▓▓▒▒░░[0;34;46m▌[0;1;34;46m▒▓▓[0;1;34;40m████████[0;34;46m▌[0;1;34;46m░▒▓▓[0;1;34;44m▌ ▐[0;1;34;46m▓[0;1;34;40m███[0;1;34;44m▌ [0m
 [1;34;44m      ▀▀[0;1;34;40m███[0;1;34;44m▀▀ ▄[0;1;34;40m██████[0;1;34;44m▄ ▄[0;1;34;40m██████[0;1;34;44m▄▀[0;1;34;40m████[0;1;34;46m▓▓▒▒░[0;1;34;44m▐[0;1;34;40m██████[0;1;34;46m▓▓▒▒░[0;34;46m▌[0;1;34;46m▓█[0;1;34;40m█████████[0;34;46m▌[0;1;34;46m▒▓[0;1;34;40m███[0;1;34;44m▄▀[0;1;34;40m████[0;1;34;44m█▄[0m
 [1;34;44m                                                                               [0m
-[1;34;44m                                                             [0;30;44mA[0;1;30;44mN[0;44mS[0;1;44mi: Rε[0;44mK[0;1;30;44mK[0;30;44mU [[0;1;30;44mA[0;44mF[0;1;44mC] [0m
-[1;44m                          [0;1;36;44m-[0;36;44m-[0;1;34;44m-[0;36;44m-[0;1;36;44m- M[0;36;44mi[0;1;34;44mDNiG[0;36;44mH[0;1;36;44mT C[0;36;44mA[0;1;34;44mLL[0;36;44mE[0;1;36;44mR -[0;36;44m-[0;1;34;44m-[0;36;44m-[0;1;36;44m-                          [0m
+[1;34;44m                                                             [0;30;44m [0;1;30;44m [0;44m [0;1;44m     [0;44m [0;1;30;44m [0;30;44m   [0;1;30;44m [0;44m [0;1;44m   [0m
+[1;44m                          [0;1;36;44m [0;36;44m [0;1;34;44m [0;36;44m [0;1;36;44m   [0;36;44m [0;1;34;44m    [0;36;44m [0;1;36;44m   [0;36;44m [0;1;34;44m  [0;36;44m [0;1;36;44m   [0;36;44m [0;1;34;44m [0;36;44m [0;1;36;44m                           [0m
 [1;36;44m                          [0;1;34;44m----- +358-21-PRiVATE -----                          [0m
-[1;34;44m                          ----- SysOp / Wolfman -----                          [0m
+[1;34;44m                                                                               [0m
 [1;34;44m                          -----  Open \ 22-10   -----                          [0m
 [1;34;44m                          ----- Modem / V.32bis -----                          [0m
 [1;34;44m                                                                               [0m

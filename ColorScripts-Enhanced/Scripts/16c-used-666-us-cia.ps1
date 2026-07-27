@@ -5,7 +5,7 @@
 # Source SHA-256: 67a29c8fd52a67289fe03fecf9db20fd1ddcae65699ffb457aa6923a02b9478e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CIA!.ANS by Ansichrist + Tefron (The Used Coalition); released in used-666 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cia
 # SAUCE Author: Multiple Artists
 # SAUCE Group: The Used Coalition
@@ -16,7 +16,7 @@
 Write-Host '
                                                   [1;36m■[0m
                                              [1;30;46m▓[0;1;37;40m  [0;36m▄▀[0m
-[1;37mwhat cia does best?[0m        [1;36m░[0m                   [30;46m░[0;36;40m▌[0m
+[1;37m                   [0m        [1;36m░[0m                   [30;46m░[0;36;40m▌[0m
         [32;40m   [0m              [1;36;40m [0m [1;36m [0m     [31m░░[0m            [36m▐[0;1;36;46m░[0;36m▄[0;1;34m    [0m [31m░░░[0m            [1;31m░[0m
  [1;36m▓[0;36m▄▄▄[0;1;36m░░[0m [1;36m░[0m [31m░▄[0;36m [0;1;36m▒[0;36m▄▄▄▄▄▓▒[0;37m [0;36m░[0;37m  [0;36m▄▄[0;1;36;46m▓[0;36m▄[0;37m   [0;31m▀[0;1;31;41m░[0;31m▀░■ [0;1;36m░[0;36m▄▄▄▄[0;31m░▀▀■[0;37m [0;1;36;46m▒▓█[0;36m▄▄ [0;31m■▀▀[0;1;31;41m░[0;31m▄░[0;1;36m░▓▓[0;36m▄[0;37m  [0;31m■▄░▀[0;1;31;41m░[0;31m▄░[0m
 [37m [0;1;36;46m▒█████[0;36m▄▄[0;37m  [0;36m▄[0;37m [0;36m [0;1;36m▓[0;1;36;46m▓▓████░[0;36m▄▄[0;30;46m▓[0;36;40m▄[0;1;36;46m▓▓███[0;36m▄▄▄▄░[0;37m  [0;1;36m▒▓[0;1;36;46m██████[0;36m▄▄[0;1;36m [0;1;36;46m░██████[0;36m▌▄▄▄▄[0;1;36;46m░▓▓[0;1;36;40m█[0;1;36;46m░[0;36m▄▄▄▄[0;37m [0;31m▀▓░▄[0;37m   [0;31m░[0m
@@ -35,15 +35,12 @@ Write-Host '
 [1;30;47m▓▓[0;1;30;40m▓█▀█▄▄▄░[0m [1;30m░[0m [31m▀▀▀[0;37m  [0;31m▄[0;1;30m░[0m      [31m■[0m              [30;46m▓[0m     [31;40m   [0;37;40m    [0;31;40m ▄▄▓▀▀░░[0m      [1;30;40m░[0m [1;30m░▄▓▄▓▀█▓[0;1;30;47m▓[0m
 [1;30m▓▀░░▀▓[0;1;30;47m▓▓[0;1;30;40m█▀▄▓▄[0m       [31m▄ [0m      [1;30m>[0;31m>[0;1;37m [0;1;36mCRE[0;36mATE[0;1;37m [0;31m<[0;1;30m<[0m         [31m■[0;37m  [0;31m▀[0;37m    [0;31m░[0m        [1;30m░▄[0;1;30;47m▓[0;1;30;40m▄▀▓▓[0;1;30;47m▓▓[0;1;30;40m▀[0m [1;30m░▀[0m
 [1;30m░[0m    [1;30m░▓▓░[0m [1;30m░▀[0m [1;30m░▄[0m    [31m  [0m                                            [1;30m▄[0m  [1;30m▓░[0m [1;30m░░[0m
-      [1;30m░░[0m        [1;30m■[0;1;37m [0;1;30mc[0mreat[1mors [0;1;30mo[0mf[1m [0;1;30mi[0mnt[1mense [0;1;30ma[0mr[1mt [0;1;30mr[0met[1murns [0;1;30mt[0mo[1m [0;1;30ml[0mow[1mres..[0m  [1;30m■ ░[0m  [1;30m░[0m
-tefUSED[1;30mfont.[0m                                                           nsUSED[1;30mbg.[0m
+      [1;30m░░[0m        [1;30m■[0;1;37m [0;1;30m [0m    [1m    [0;1;30m [0m [1m [0;1;30m [0m  [1m     [0;1;30m [0m [1m  [0;1;30m [0m  [1m     [0;1;30m [0m [1m [0;1;30m [0m  [1m     [0m  [1;30m■ ░[0m  [1;30m░[0m
+       [1;30m     [0m                                                                 [1;30m   [0m
                                                                        [36m         [0m
 [1;36m▀▀▀▀▀▀▀[0;36m▀▀▀▀▀[0;37m [0;1;30m▀[0m  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37m▀▀▀▀▀▀[0;1;30m▀▀▀▀▀▀▀▀▀▀[0;31m [0;37m▀▀▀▀▀▀▀▀[0;1;30m  [0m▀ [1;30m [0;1;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▀▀▀[0m
-[1;30mtEfRON[0m [1;30msays..[0m
-what this was suppose to be was a cia ansi promo, after hearing that it was
-gunna bring back an ansi dept.. but, of course it didn''t happen. unfortunently,
-and i do mean unfortunently, i am forced to release a cia ansi promo with used.
-[1m________________________________________________________________________________[0m
-
-[1;30mansichrist says..[0m
-i am a nerd.[0m'
+[1;30m      [0m [1;30m      [0m
+                                                                           
+                                                                               
+                                                                               
+[1m________________________________________________________________________________[0m'

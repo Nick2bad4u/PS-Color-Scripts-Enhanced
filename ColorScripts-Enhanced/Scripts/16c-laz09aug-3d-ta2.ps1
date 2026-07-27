@@ -5,7 +5,7 @@
 # Source SHA-256: c4648604dde9a870cfc5b5f08631db3d82f3ca209bf8a134b2f2ce0a3fd294ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 3D-TA2.ANS by rusted (lAZ); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: thin air #2
 # SAUCE Author: rusted
 # SAUCE Group: lAZ
@@ -39,13 +39,4 @@ Write-Host '
 [31m▄[0;1;31m▄[0;1;31;41m███▓▓[0m [31m [0;37m [0;1;31m▀[0;31m▀ ▀[0;1;31m█▌[0;1;32m▐[0;1;33;42m▓[0;1;32;40m▌[0;1;33;40m▄[0;1;32;40m▄[0;1;31;40m [0;1;32;40m▀[0;1;33;40m▀[0;1;32;40m▌[0;31m▄[0;1;31;41m░▓[0;1;31;40m▄▄[0;31m▀[0;1;31m▀▄[0m [1;33m [0;1;37;47m▓[0;1;37;40m▌[0;1;33;40m▄ ▀ ▀[0m▄[1;47m░[0m▀[30;47m░▓[0;31;40m [0;1;31;40m▄▐ [0;1;32;40m [0;1;33;40m█[0;1;33;42m▓[0;1;32;40m▄[0;31m  ▀[0;1;31;41m   ░[0;31m▌[0;1;33m▀ [0;1;32m▄[0;1;33m█[0;1;33;42m▓[0m [31m▐[0;1;31;41m██▓[0m [31m▐[0;1;31;41m▒▓[0;1;31;40m▄▄[0;31m▌[0m
 [1;31m███[0;31m▌[0;1;31m▀[0m  [31m [0m     [1;31m▀[0;1;31;41m▀[0;31m▀[0;37m [0;31m [0;1;32m▄[0;1;33;42m▓[0;1;33;40m▀▀[0;1;33;42m▄[0;1;32;40m▄[0;31m▀[0;1;31;41m░▓[0;1;31;40m▄▄[0;31m▀[0;1;31m▀[0;31m▄ [0m      [1;37;47m▀[0;1;37;40m▄[0m▄[1;47m░▓[0m▌[30;47m▓[0;1;31;40m▄██[0;1;31;41m▓░[0m  [1;32m▀[0;1;33m▀[0;1;32m▀[0;31m  ▐▄[0;1;31;41m░▒▓█[0;31m▄[0;37m [0;1;33m▀▀[0;1;32m▀[0;31m [0;1;31m█[0;31m▌▌[0;37m  [0;1;31;41m▓[0;1;31;40m███[0m
 [1;31m▀▀▀ [0m   [1;33mt[0;1;32m [0;1;33mh[0;1;32m i n [0;1;33ma[0;1;32m [0;1;33mi[0;1;32m r [0;31m [0;37m  [0;1;31m   [0;31m▀[0;1;31m▀▀▄[0;31m [0;1;31m▀[0m        ▀▀[1m▀▀ [0;1;31m▐▀[0;1;31;41m▓▒░[0;31m▌▌ [0;1;31;41m█▓[0;31m▓░  ▀▀▀[0;1;31m▀█[0;31m▌[0;1;31m▌▄[0;31m     [0;37m [0;1;31m▀▀▀[0;31m▀ [0m
-[37mmore things to read-------------------------------------------------------------[0m
-[37mhello to all of my lazarus comrades, congratulations to whoever holds the title[0m
-[37mof blender champion, i know they don''t deserve it..  =)[0m
-[37mthis was drawn completely for my board, and if you want to use it..  too bad, [0m
-[37myou can''t..  go draw your own welcome ansi..[0m
-                                                         [37mrusted-lazarus[0m
-
-[37moh ya, please don''t ask me for freebies..  my request list is large enough to [0m
-[37mlast me for a few months, they i''ll start drawing for friends.  i wonder if [0m
-[37mconvertical is going back up..  hmmm...[0m'
+[37mmore things to read-------------------------------------------------------------[0m'

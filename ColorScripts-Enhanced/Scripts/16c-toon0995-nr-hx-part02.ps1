@@ -5,7 +5,7 @@
 # Source SHA-256: 53a0d33097d339f9a3ee7c1831a21e2fe80da7787c8de21fd5b4d60564100070
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NR-HX.ANS by Narcosis (toon); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Highway X
 # SAUCE Author: Narcosis
 # SAUCE Group: toon
@@ -34,7 +34,7 @@ Write-Host '
                                  [35m [0m              [1;37m   ▀▀▀▀▀▀▀[0;1;37;47m▓[0;1;37;40m▀▀▀▀▀▌ [0m
                                                  [1m            [0m
 
-              [1;30m▒[0m     [1;30msorry kids, no background this time. :([0m
+              [1;30m▒[0m     [1;30m                                       [0m
   [1;30m▓[0m [1;30m▀[0m   [1;30m▒[0m  [1;30m▄[0m [1;30m▀▓▄[0m   [1;30m▒[0m   [1;30m▀[0m [1;30m▒[0m  [1;30m▄[0m  [1;30m▓▀[0m   [1;30m▒▄[0m  [1;30m▄[0m      [1;30m▓[0m   [1;30m▄[0m  [1;30m▄▀[0m [1;30m░[0m    [1;30m▒[0m   [1;30m▒[0m [1;30m▀[0m [1;30m▓[0m [1;30m░[0m [1;30m▀▄[0m   [1;30m▄[0m
 [1;30m▓[0m [1;30m▒ ▄▄▀▀▓▀▀▀▄[0;1;30;47m▓[0;1;30;40m▄[0m [1;30m▄▓▀ ▀▀▓▀[0m [1;30m░▀▀▓▀▀▄▄▀▀▀▓▀▀[0m [1;30m▓▀▄▀▀ ▀[0;1;30;47m▓[0;1;30;40m▀[0m [1;30m▄▀[0m [1;30m▀▓▀[0m [1;30m▒[0m [1;30m▀▀▀▄[0m [1;30m▀▀▓[0m [1;30m▄▀▀[0m  [1;30m▀▄[0;1;30;47m▓[0;1;30;40m▀▓▄[0m
  [1;30m▄▀▀ [0m [34m▄▄[0;1;34;44m   [0;34m▌ ▓[0;1;34;44m  [0;34m▄▄ [0;1;30m▓▄▀▀▓▀▄▄[0m [1;30m▒[0m  [1;30m▀[0;34m [0;1;30m▄▀▀[0;34m [0;1;30m▄▄[0;34m [0;1;30m [0;34m [0;1;30m▄[0;1;30;47m▓[0;1;30;40m▄[0;34m [0;1;30m▀▄ ▄[0m  [1;30m▀ ▒[0m  [1;30m▓[0m [1;30m▀▀▄▄[0m [1;30m▒[0m  [1;30m▓[0;34m  [0;1;30m▓▄▀▀[0;34m [0;1;30m▒ ▒[0m [1;30m▓[0m
@@ -50,5 +50,4 @@ Write-Host '
             [1;30msysop : equus[0m        [1;30m▄▀[0;31m▄[0;1;31;41m ▄[0;1;31;47m▓[0;1;31;41m█▀█▓▄[0;31m█▄[0m     [1;30m warez/art/phactv/adult[0m
            [1;30mco : hell rider[0m     [1;30m▄▀[0;31m▄█[0;1;31;41m▄[0;1;31;40m▓[0;1;31;41m█▀[0;31m█▀█[0;1;31;41m▀██▄[0;31m█▄[0m    [1;30mWICKED RG SETUP      [0m
                 [1;30mstargazer[0m       [1;30m▓▄[0;31m▀█[0;1;31;41m▀[0;31m▓▀ [0;1;30m▀▓[0;31m▀█[0;1;31;41m▀[0;31m█▀[0m     [1;30m(no one told me to write[0m
-                [1;30mfree fall[0m         [1;30m▀ [0;31m▀[0m     [1;30m▀ [0;31m▀[0m        [1;30mthat. :>)[0m
-                                 [1;30m(905)XXX-XXXX[0m'
+                [1;30m         [0m         [1;30m▀ [0;31m▀[0m     [1;30m▀ [0;31m▀[0m        [1;30m         [0m'

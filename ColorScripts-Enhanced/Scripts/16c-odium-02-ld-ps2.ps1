@@ -5,7 +5,7 @@
 # Source SHA-256: fe7cecf494501be9f602c362350237a5b8a436a5a420890510f34b3b5c3a0245
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-PS2.ANS by lordjazz (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: photosynthetic shit matrix
 # SAUCE Author: lordjazz
 # SAUCE Group: odium
@@ -31,7 +31,7 @@ Write-Host '
 [32m  [0;1;32m▀▄[0;1;32;42m▒░░[0;32m█ [0;1;32m▐▄▄█▀[0;1;32;42m▒░░[0;32m████[0;32;42m [0;32;40m▀ ▄█[0;1;32;42m░▓░[0;32m██▀▀  [0;1;32m▀[0;1;32;42m░[0;1;32;40m▀▀[0;32m██[0;1;32;42m░[0;32m▀  ▐[0;1;32;42m░[0;32m█▄█[0;1;32;42m░[0;32m▌   ▐[0;1;32;42m▓[0;32m▌ .[0m        [32m.■[0m      [32m▐ ▐[0m
 [1;32m▄▄   [0;32m▀▀[0;1;32;42m░[0;32m▌ [0;1;32;42m█▓▒[0;32m▄▄ [0;1;32m▀▀[0;32m▀[0;1;32m▀ [0;32m▄▄█[0;1;32;42m░▒░[0;32m▀▀ ▄▄█▀ ▄▄ [0;1;32;42m░[0;32m██▌    ██▌▐▀[0m     [32m▀ ▄■[0m                [32m▐ ▐[0m
 [1;32;42m██▓▒[0;1;32;40m▄▄    [0;32m░[0;1;32m▀[0;1;32;42m▓▒░[0;32m▀▄▄▄░▀█▀██▀▄▄██[0;1;32m░[0;32m█▌▐[0;1;32;42m▓▀[0;32m▌▐[0;1;32;42m░[0;32m██ ░   ▀▀█ ▄▀█▄[0m                      [32m▐ ▐[0m
-[1;32m▀▀[0;1;32;42m██▓[0;1;32;40m▄[0;1;32;42m▒░[0;32m▄▄▄▀ [0;1;32m▀▀[0;1;32;42m░░[0;32m██▌ [0;1;32m▐[0;1;32;42m░[0;32m▀▄████████▀[0;1;32;42m░[0;32m█ [0;1;32;42m▒░░[0;32m█▌  ▄█[0;1;32;42m░[0;32m▄ ▐[0;1;32;42m░[0;32m██▌  [0;1;35mphotosynthetic shit [0;32m▐▄[0;1;32;42m░[0m
+[1;32m▀▀[0;1;32;42m██▓[0;1;32;40m▄[0;1;32;42m▒░[0;32m▄▄▄▀ [0;1;32m▀▀[0;1;32;42m░░[0;32m██▌ [0;1;32m▐[0;1;32;42m░[0;32m▀▄████████▀[0;1;32;42m░[0;32m█ [0;1;32;42m▒░░[0;32m█▌  ▄█[0;1;32;42m░[0;32m▄ ▐[0;1;32;42m░[0;32m██▌  [0;1;35m                    [0;32m▐▄[0;1;32;42m░[0m
 [1;32;40m    ▀▀[0;1;32;42m▓▒▒░░[0;32m█▄▄█▀[0;1;32m▀[0;32m█▀ [0;1;32m▄▀[0;32m██[0;1;32;42m░[0;32m█▄█[0;1;32;42m░[0;32m██[0;1;32;42m░[0;32m█▌ █ [0;1;32m▀[0;1;32;42m▓▒▒░[0m [32m▀█ ▀▀  [0;1;32;42m▒░░[0m [32m░    [0;1;35m619-744-3113[0m     [32m▐ ▐[0m
 [32m░  [0;1;32m▄[0;1;32;42m▓[0;1;32;40m▄▄ ▀▀[0;1;32;42m▒░░[0;32m███▄▄░  █[0;1;32;42m░[0;32m█ ███▓▄███[0;1;32m░ [0;32m▐▌  [0;1;32m▀[0;1;32;42m░[0m  [1;32;42m░[0;32m█████▄ █▄▄    [0;1;35modium world hq    [0;32m▐ ▐[0m
 [32m▄ [0;1;32m▐[0;1;32;42m█▓▒▒░[0;32m██▄▄[0;1;32m▀[0;32m▀[0;1;32;42m░░[0;32m██▓▄█[0;1;32;42m░[0;32m▓ ▐█[0;1;32;42m░[0;32m▓ █[0;1;32;42m░[0;32m███▄█[0;1;32;42m░[0;32m▄▄█▀ [0;1;32;42m░[0;32m██[0;1;32;42m░[0;32m█▌██▌▐[0;1;32;42m░[0;32m█▌  [0;1;35mstaff:pointblank   [0;32m▐▄[0;1;32;42m▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: ef0f9ef73c64ab5a862fcc8bae6dc68848edc7f70563e33694ffdbd5aa41df13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sar-fcm.ans by Sargon (clit-63); released in clit-63 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -27,14 +27,14 @@ Write-Host '
                            : l$$$$$$$[31m  [0;37m:$$$$$$$l[0m
 [1;37m.[0m                          : :$$$[1m80[0m$$:[31m  [0;37m$$$$$$$$[0m
                            [37m:  $$$$$$$l[0;31m  [0;37ml$$$$$$$[0m
-[35mno.. this is NOT an oral[0m   [37m : l$$$[0;1;37m50[0m$$[31m  [0;37m:$$$$$$$:[0m
+[35m                        [0m   [37m       [0;1;37m  [0m  [31m  [0;37m         [0m
 [35mthermometer[0m                 [37m: :$$$$$$$:[0;31m  [0;37m$$$$$$$:[0m
                             [37m:  $$$$[0;1;37m32[0m$l[1;36m--[0ml$$$$$$l
                              : l$$$$$$$[31m [0;37m :$$$$$$l[0m
                              [37m: :$$$$[0;1;37m20[0m$:[31m_[0;1;37m [0m$$$$$$$
-                             :  $$$$$$$l[31ml:[0;37ml$$$$$$  [0;1;36mAT 12 DEGREES FAHRENHEIT, [0m
-                              : l$$$$$P''[31mdb[0;37m`4$$$$$: [0;1;36mTHE FREEZING COCKMOBILE [0m
-                              : :$$$$$ [31m($$)[0;37m $$$$$:  [0;1;36mIS THE COLDEST CAR IN[0m
+                                        [31m  [0;37m         [0;1;36m                          [0m
+                                        [31m  [0;37m         [0;1;36m                        [0m
+                                       [31m    [0;37m         [0;1;36m                     [0m
                               :  $$$$$b,..,d$$$$$l  [1;36mTHE WORLD[0m
                                : l$$88**╨╨²²""^^.''
                                :'' ....∙∙∙∙''''''''```

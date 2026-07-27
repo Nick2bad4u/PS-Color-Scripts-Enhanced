@@ -5,7 +5,7 @@
 # Source SHA-256: 66dec1e477a64baadaf0f58c89a4c084c5f11039b5468bdc0cfce3388da9f2f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-COL1.ANS by cryogenic (avenge); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Colly #1 for Avenge
 # SAUCE Author: cryogenic
 # SAUCE Group: avenge
@@ -52,4 +52,4 @@ Write-Host '
    [1;30m▀[0;1;30;42m▄[0m [1;30m▄[0;1;30;42m░[0;1;32;42m▀[0;32m▀[0;37m [0;32m██▄[0;37m [0;1;30m▀[0;32m▀[0;37m [0;32m▀[0;1;30;42m░[0;32m▄[0;37m [0;32m▓[0m     [32m▄[0;1;32;42m▀[0;32m▀[0;1;32;42m░[0;32m▄▀[0;1;32m▀[0;1;32;42m▀█▄[0;32m▄▄▄[0;35m  [0m        [32m▄▄[0;1;32m▒▒▒[0;32m█▄ ▀▀[0;1;32;42m▀░[0;32m▄[0;37m [0;32m▀[0;1;32;42m▀[0;1;32;40m▄[0;32m▄ [0m   [32m▄[0;1;32;42m▄[0;1;32;40m▓░[0m [34m░░[0m
 [37m  [0;1;30m▀[0m     [1;30m▀[0;32m▀[0;37m [0;32m▓▓[0m     [1;30m▀[0;32m▀[0;37m  [0;32m░[0m   [1;30m▀[0;32m▀[0;1;30;42m▄[0;32m▄[0;37m [0;1;30m▀[0;32m▀[0;37m [0;32m▄[0;37m [0;32m▄[0;1;32;42m░[0;32m▀[0;37m [0;1;30m▀[0;32m▀▀ [0;1;30m▄[0m   [1;30m▄[0;32m [0;1;30m▀[0;32m▀ [0;1;30m▀[0;1;30;42m░[0m [32m▀[0;37m [0;32m▄[0;37m [0;1;30m▀[0;32m▀[0;37m [0;32m [0;37m [0;1;30;42m░[0;1;32;40m▒[0;32m▀▀[0;1;32;42m▀█▀[0;32m▀[0;1;32;42m░[0;32m▄ [0m
            [32m░░[0m                    [1;30m▀[0;32m▀[0m                   [32m▓[0m        [1;30;42m░[0;32m▄[0;37m [0;1;32m░[0m [32m▀▀[0;37m  [0;32m▀▀ [0m
-[37mwell.. im back where i belong.. =)  ahh sweet avenge, [0;32m░[0;37m ive missed you.. =)[0m'
+[37m                                                      [0;32m░[0;37m                    [0m'

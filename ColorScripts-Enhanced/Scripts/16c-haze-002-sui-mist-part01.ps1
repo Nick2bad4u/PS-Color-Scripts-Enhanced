@@ -5,7 +5,7 @@
 # Source SHA-256: e6d9c97cc8b1a5c84bd1c410ac6be8965e1c2cb78fac1262c7f504e129634d1c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUI-MIST.ANS by SuiCyco (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: guardian of the mist
 # SAUCE Author: SuiCyco
 # SAUCE Group: haze
@@ -50,7 +50,7 @@ Write-Host '
 [34m████████████████████████████▀█████▀▀▓▀▀▀[0m    [34m▀▓▀▀█[0;37m ███████▄▄▄███[0;1;37;47m███ [0m [34m███████▀▓▀[0m
 [34m▀█▀▀▀▓▀▀▀▀▀█▓██████████▀▀[0m          [34m■[0m         [34m·[0m    [37m ▀[0;1;37;47m   x sui[0m█[1;47mx[0m██[1;47m█[0;1;40m▀[0m [34m▄███▀▓▀[0m   [34m■[0m
 [37m [0;34m■[0;37m  [0;34m■[0m        [34m▄[0;37m [0;34m▀▓▀▀▀[0m    [34m▄[0m                  [37m▄[0m         [37m ▀▀▀▀▀▀▀▀▀[0m   [34m▀[0m    [34m▄[0m   [34m▓[0m
-       [34m▓[0;37m  [0;34mblack[0;37m  [0;34m■[0m                        [1;30;47m▄[0;1;30;40m▀[0m   [34m█[0m   [30m|suBZEro|, you suck my[0;37m  [0;34m▒[0m
+       [34m▓[0;37m  [0;34m     [0;37m  [0;34m■[0m                        [1;30;47m▄[0;1;30;40m▀[0m   [34m█[0m   [30m                      [0;37m  [0;34m▒[0m
 [34m▓[0m      [34m▒[0;37m  [0;34mwerd.[0m           [34m▓[0m              [37m▄ ▄[0;1;30;47m▀[0;1;30;40m▄[0m        [30mleft nut. stop comin[0;37m [0;34m░[0m
-[34m▒[0m      [34m░[0m                  [34m▒[0m              [1;30m▀[0m ▀██[1;30;47m▀[0;1;30;40m▄[0m      [30mon to me in #ansi, bitch.[0m
+[34m▒[0m      [34m░[0m                  [34m▒[0m              [1;30m▀[0m ▀██[1;30;47m▀[0;1;30;40m▄[0m      [30m                         [0m
 [34m░[0m                         [34m░[0m                  [37m▀█[0;1;30;47m▐[0;1;30;40m▌[0m       [34m▓[0m'

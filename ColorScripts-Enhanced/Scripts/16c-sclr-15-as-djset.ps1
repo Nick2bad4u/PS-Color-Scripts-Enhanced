@@ -5,7 +5,7 @@
 # Source SHA-256: 790b81522c359cf0e67378266eaa4fb0200fb90d10489a242154c001d11633f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-DJSET.ANS by asd (secular); released in sclr-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dj set
 # SAUCE Author: asd
 # SAUCE Group: secular
@@ -36,13 +36,4 @@ Write-Host '
 [34;40m█[0;34;42m░[0;1;34;44m░▒▓[0;34;40m███████[0;37;40m  ▀████▀▀▀[0;36;47m ░░[0;37;40m▀▀         ▄█       [0;34;40m▐[0;1;34;44m▒[0;1;36;40m   [0;37;40m [0;1;34;40m▄[0;37;40m     [0;1;34;40m▐▌[0;37;40m  [0;1;34;44m▓[0;37;40m                  [0m
 [34;40m▓[0;34;42m▒[0;34;40m████████████▄[0;37;40m ▀████▄           ▄███         [0;1;34;44m▓[0;1;34;40m▌[0;37;40m   [0;1;34;40m▐▌[0;37;40m   [0;1;34;40m▄[0;1;34;44m▓[0;37;40m  [0;1;34;40m▐▌[0;37;40m                  [0m
 [34;40m▒[0;34;42m▓[0;1;34;44m▒[0;34;40m█████████████▄[0;37;40m ▀▀██████▄▄▄ █▓▓██▀          [0;1;34;40m▐[0;1;34;44m█[0;37;40m  [0;1;34;40m▄▄▄▄▀▀▀[0;37;40m   [0;1;34;40m▐▌[0;37;40m       [0;34;40m [0;37;40m          [0m
-[34;40m░[0;1;36;44m░[0;34;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m    ▀▀▀[0;36;47m░[0;37;40m█▄▄█▀▀▀   [0;34;40m+o asd[0;37;40m   [0;1;34;40m▀▀▀▀▀[0;37;40m   [0;1;34;40m▀▀▀█▄▄█[0;37;40m [0;1;34;44ms[0;1;34;40met[0;34;40m [0;1;34;40mstat[0;1;34;44mi[0;1;34;40mon[0;37;40m       [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[34;40m    [0;37;40m                                                                            [0m
-[34;40m------[ djset station ]------[0;37;40m                                                   [0m
-[37;40m                                                                                [0m
-[34;40m· mu[0;1;34;40ms[0;1;34;44mi[0;34;40mc inspira[0;1;34;44mt[0;34;40mion:[0;37;40m                                                            [0m
-[34;40m [0;1;34;40mt[0;34;40malamasca "tele[0;1;37;44mp[0;34;40mathic atmosphe[0;1;36;44mr[0;34;40mees"[0;37;40m                                            [0m
-[34;40m· greets: [0;37;40m                                                                      [0m
-[37;40m [0;34;40mmph (where you?), frodo, crs and all ppl !:-)[0;37;40m                                  [0m'
+[34;40m░[0;1;36;44m░[0;34;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m    ▀▀▀[0;36;47m░[0;37;40m█▄▄█▀▀▀   [0;34;40m+o asd[0;37;40m   [0;1;34;40m▀▀▀▀▀[0;37;40m   [0;1;34;40m▀▀▀█▄▄█[0;37;40m [0;1;34;44ms[0;1;34;40met[0;34;40m [0;1;34;40mstat[0;1;34;44mi[0;1;34;40mon[0;37;40m       [0m'

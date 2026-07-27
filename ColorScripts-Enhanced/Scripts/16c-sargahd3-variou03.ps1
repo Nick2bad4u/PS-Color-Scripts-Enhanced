@@ -5,7 +5,7 @@
 # Source SHA-256: 1f4de029be16cc658d1fb30d8f62a168278013828239de2665bc9d43f82d8963
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VARIOU03.ANS by Noize + Outraider (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: unleashed!
 # SAUCE Author: various artists
 # SAUCE Group: fbk.sargahd
@@ -33,17 +33,10 @@ Write-Host '
                           ▐[1;47m███▀▀▀▀▀███▄[0m▄
                           ▀▀▀▀[30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▓█[0;1;37;47m▀█▀[0m▀░▀▀▀ ▄▄
                               ░[30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m  [0;1;37;47m▀[0m▌
-                                     ▌  [1;30m@shaitan[0;35m    [0m
+                                     ▌  [1;30m        [0;35m    [0m
 
 
 
 
 
-[37m--------------------------------------------------------------------------------[0m
-                                                                [37mnoize - outlines[0m
-                                                                [37m  out -  shading[0m
-
-[37mthe screen looks so empty!@ there''s only that neat logo on it, nothing else..[0m
-[37mdamnit, i''d REALLY like to do more but the shading, but i won''t break the[0m
-[37mrules again. noize said SHADE IT! and i did the shading. nothing more.[0m
-[37mnothing less. like 4o told me.[0m                                               [37m-or[0m'
+[37m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ab4a8758dfd31f3d78c2f04466ce3f5a61089ede12babf7be2321f4729894c79
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Vld-snwl.ans by velodrome (ecolove); released in eco-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: snow login
 # SAUCE Author: velodrome
 # SAUCE Group: ecolove
@@ -39,5 +39,5 @@ Write-Host '
          [30;47m►[0;36;47m░░░░░░░▒▒▓▓▓[0;36;46m      [0;1;30;46msnow is only frozen water      [0;36;47m▓▓▓▒▒░░░░░░░[0;37;40m►[0m
 
 
-[37;40m [0;1;30;40m┌[0m login ansi. if he doesn''t f*cking use it, i will :)
- [1;30m┌[0m req''s: dwaalspoor@hotmail.com // rebirth o786399125[0m'
+[37;40m [0;1;30;40m┌[0m                                                    
+ [1;30m┌[0m                                                    [0m'

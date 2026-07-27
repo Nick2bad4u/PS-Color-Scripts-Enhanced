@@ -5,7 +5,7 @@
 # Source SHA-256: 80caffc37475a18f3f353e2451a023c4a6482f15d1dd16f1bfaa2005d0394b4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-ascgod2022.ans by spinsane (iMPURE); released in impure83 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: asciigod^2022
 # SAUCE Author: spinsane
 # SAUCE Group: iMPURE
@@ -39,6 +39,5 @@ Write-Host '
 [37m [0;35m:[0;31m:::[0;37m `²~   [0;31m.[0;37m''4$:  Y$$?┌,,[0;31m┐[0;35m$[0;1;35m$[0;31m$[0;37m [0;1;30m:[0m ''$$b   _.,÷I [35m|[0;37m  [0;36m|[0;37m      | [0;31m__[0;37m|[0;31m:[0;1;32ms$$[0;1;33;42m$$$[0;31m:::~~[0;37m  [0;31m~[0;37m [0;35m|[0m
 [37m  [0;35m: [0;31m:::..[0;35m:[0;31m.::[0;37m  `Y.  `:S$[0;1;30;41mSSS[0;31;45m$$[0;31;40m$[0;37;40m [0;1;30;40m:.[0m °$$$S$$XX5⌡ [35m__[0;36m,+-~~[0;34m~-/[0;37m| [0;31m__[0;37m|[0;31m:[0;1;32m""~~[0m   [35m......>>[0;1;30m>[0m
       [35m..[0;37m [0;35mXX[0;37m [0;35m...:::[0;37m  [0;35m:[0;37m  ''"[0;35mⁿⁿⁿ~[0;37m [0;1;30m.::::[0m `²Xⁿ_/\_-~~| [1;30m...[0m  _Y/   | [1;30m..[0;35mXXXXXXXX[0;1;30m:[0;35mX[0;1;30mX:[0m
-  [1msP[0;1;33m![0;1;36mMp       [0;35mXX[0;37m  [0;35mXXXXXXXXXXXXXXXXXXXX[0;37m ( \_/[0;31m\\[0;37m_| [0;35mXXX[0;37m (_____/ [0;35mXXXXXXX[0;1;30m""[0;35m""[0m
-[37m                                        `----''[0m
-[37m  [0;1;33mhttp://twitch.tv/asciigod >> kekkekekeke [0;1;35m<[0;1;31m3[0m'
+  [1m  [0;1;33m [0;1;36m         [0;35m  [0;37m  [0;35m                    [0;37m      [0;31m  [0;37m   [0;35m   [0;37m         [0;35m       [0;1;30m  [0;35m  [0m
+[37m                                        `----''[0m'

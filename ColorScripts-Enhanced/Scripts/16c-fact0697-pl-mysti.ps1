@@ -5,7 +5,7 @@
 # Source SHA-256: 3d89728117f0a6ef2bd4499eebbb214f356028ea4819594c12d416768c495e0c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-MYSTI.ANS by Pussylover (fACt!); released in fact0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the mystic!
 # SAUCE Author: Pussylover
 # SAUCE Group: fACt!
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mpussylover[0;1;36m(fACt!)[0m
+[1;30m          [0;1;36m       [0m
 
 [1;36m [0m■ ▀      [1;30m▀  ■[0m              [1;30;47m▓[0;1;30;40m▄[0m                                      ■
 ▓  ▄[1;36;47m░[0m [1;30m▄[0;1;30;47m▓[0;1;30;40m▄    ▄▓▀██  ▄▄ ▄▓▀██ ██▀  [0;1;36;40mpUSSYlOVEr [0mfor [1;36mfACt! [0mart studio      ▀      ■
@@ -49,13 +49,8 @@ Write-Host '
 █████[1;30;47m▀▀▀▀▀▀▀[0m██▄▄▄█[47m [0;40m▀▀▀▀▀▀▀▀▀▀▀▀███████████████████████████████████▄▄▄▄▄████▓██[0m
 [40m ▐█[0;1;36;47m▄░[0m█▀▀▓██[1;36;47m▄▒▌[0m█                 ███[1;36;47m▒[0m█▀▀▀▀▀▀▀▀▀▀█[47m [0;1;36;47m▓▓[0m█▌
   [1;36;47m▀▓[0m█     ▐█[1;36;47m█▌[0m [31mNew ending for a  [0;37m▀[0;1;36;47m▀█▒█[0m        ▐█[1;36;47m▐█▄[0m██ [31mPredestination between[0m
-[31m   [0;37m▀[0m       [37m▀   [0;31mdance of wheels,[0m     [37m▀█▄[0m        [37m██[0;1;36;47m█▓[0m█▌ [31mWhite lines of the highway[0m
-     [37m■   [0;1;36;47m▓[0m     [31mInterconnected freeways[0m         [37m▀██▀   [0;31mNeither to the left[0m
-               [31mTunnel vision swimmers in the[0m     [1;36;47m▓[0m  ▄ [31mNor the right[0m
-               [31mdrivers box[0m                            [31mStraight[0m
-               [31mthe engine of the heart,[0m               [31mThe highway [0;5;36m▄[0m
-
-                                                                 [31m- JiM MORRiSON[0m
-
-         [1;30m.pussylover for tha fact enterprises art transmission no.7 (c).[0m
-           [1;30m.using 2 joints, 1 beer and 3 cigaretts (marlboro medium!).[0m'
+[31m   [0;37m▀[0m       [37m▀   [0;31m                [0m     [37m▀█▄[0m        [37m██[0;1;36;47m█▓[0m█▌ [31m                          [0m
+     [37m■   [0;1;36;47m▓[0m     [31m                       [0m         [37m▀██▀   [0;31m                   [0m
+               [31m                             [0m     [1;36;47m▓[0m  ▄ [31m             [0m
+               [31m           [0m                            [31m        [0m
+               [31m                        [0m               [31m            [0;5;36m▄[0m'

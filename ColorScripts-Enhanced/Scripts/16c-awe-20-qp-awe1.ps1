@@ -5,7 +5,7 @@
 # Source SHA-256: 175c181c37d561a4f1accbb186767a53ad945ca95ae7bef45092a59e471c0a3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QP-AWE1.ANS by Quip (AWE Lettering Guest); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: AWE Lettering
 # SAUCE Author: Quip
 # SAUCE Group: AWE Lettering Guest
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [1mmassive attack + boredom =[0m
+  [1m                          [0m
                 [32m [0m
                   [32m▀ ▄▄  ▄ ■[0;1;30m░[0m
                     [32m▄[0;1;32;42m▀[0;32m▀▄[0m
@@ -32,8 +32,4 @@ Write-Host '
           [32m▓[0;1;32m██[0;32m▒ ░[0;37m▄▀ ▄▀▓[0;34m ▐[0;1;34;44m▀[0;34m▀▐▌▀[0;1;34;44m▀▄[0;1;34;47m▀[0;1;34;44m▄[0;34m▄[0m         [32m▐██[0m     [37m▄ ▀▀░[0;33m ▒[0;37;43m▓░[0;33;40m▌▄[0;32;40m [0;37;40m▀▐▌[0;32;40m    [0;37;40m▄[0;1;37;47m░ [0;1;30;47m▄[0;1;30;40m▀░[0m
          [1;30m░[0;1;32;42m░[0;1;32;40m██[0;32m░[0m   [1;30m [0m    ░[34m▀     ▐[0;1;34;44m▀[0;34m▀▐[0;1;34;44m▀[0;34m█▄[0m      [32m▒▀▀[0m   [37m░▐[0;1;37;47m [0m▌ [32m  [0;37m [0;33m ▓[0;37;43m█▓▄[0;33;40m▌[0m    [37;40m▓[0;32;40m [0;37;40m▀[0;32;40m [0;37;40m▀[0;1;30;40m▀[0m
        [1;30m░[0m [1;30m▒[0;1;32;42m▓[0;1;32;47m█[0;1;32;40m█[0;32m  [0;37m [0m             [34m▀    ▀▀▐▌[0m   [32m░[0m        [37m ▀■[0;32m  [0;1;30m░[0;33m  ▀[0;37;43m▀▀░[0;33;40m██░[0;32;40m  [0;37;40m░[0m
-     [1;30;40m░[0m [1;30m▒[0m [1;30m▓[0;1;32m███[0m                         [34m░[0m                     [33m  [0;32m [0m
-                                                          [33m   [0m
-[35m           [0m    [1;35mawe lettering [0;1;30m// [0;35mexperimental logo by quip(ice)[0m
-                                                            [1;37m  [0m
-                                                            [1m [0m'
+     [1;30;40m░[0m [1;30m▒[0m [1;30m▓[0;1;32m███[0m                         [34m░[0m                     [33m  [0;32m [0m'

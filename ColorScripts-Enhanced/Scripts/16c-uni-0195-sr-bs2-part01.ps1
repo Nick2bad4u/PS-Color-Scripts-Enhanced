@@ -5,7 +5,7 @@
 # Source SHA-256: 5afaa42aa40670cff10adfcc02a0ee148e62454703d01e2c5518d4f498b8c469
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-BS2.ANS by Silver Rat (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Blood Shot 2
 # SAUCE Author: Silver Rat
 # SAUCE Group: Union
@@ -31,11 +31,4 @@ Write-Host '
                               [1;36m ▀▀▀▀▀▀▀▀▀▀▀▀[0m               [35m [0m
             [1;30m   ▄▄▓  ▄▓ [0m [1;30m ░▄▄▄[0;35m■[0;1;30m▄░ [0m [1;30m ▄▄▓[0m   [1;30m░▄▄▄[0;35m■[0;1;30m▓▄▄[0m   [1;30m░▄▄▄[0;35m■[0;1;30m▄░[0m
               [1;30m [0;1;30;47m█▓[0;1;30;40m█  ▐█ [0m [1;30;40m █[0;1;30;47m▓[0;1;30;40m█  ▐█ [0m [1;30;40m █[0;1;30;47m▓[0;1;30;40m█[0m   [1;30;40m█[0;1;30;47m▓[0;1;30;40m█  █[0;1;30;47m▓█[0m   [1;30;40m█[0;1;30;47m▓[0;1;30;40m█  ▐█[0m
-               [1;30;40m░▀▀▀[0;35m■[0;1;30m▀░ [0m [1;30m ▀▀▓  ▀▓ [0m [1;30m ░▀▀ [0m  [1;30m▀▀▒[0;35m■[0;1;30m▀▀▀░[0m   [1;30m▀▀▒  ▀▓[0m
-             [1;30m        [0m     [1;30m  [0m  [1;30m  [0m  [1;30m   [0m     [1;30m  [0m         [1;30m  [0m  [1;30m [0m
-                     [1;30mlook beavis.. fire fire! huhuhu [0m
-                       [1;30m [0myea.. where? where? huhuhu
-[1;30m [0m                    [1;30mlike scroll down and stuff dude[0m
-
-
-'
+               [1;30;40m░▀▀▀[0;35m■[0;1;30m▀░ [0m [1;30m ▀▀▓  ▀▓ [0m [1;30m ░▀▀ [0m  [1;30m▀▀▒[0;35m■[0;1;30m▀▀▀░[0m   [1;30m▀▀▒  ▀▓[0m'

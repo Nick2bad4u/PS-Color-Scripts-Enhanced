@@ -5,7 +5,7 @@
 # Source SHA-256: 0dd05bbc01d1f76f73bf5d28cd0eba55fb51a0772ae91def603b0d780f414190
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TO-303.ANS by tormentor (drop!); released in drop9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo for 303
 # SAUCE Author: tormentor
 # SAUCE Group: drop!
@@ -41,7 +41,4 @@ Write-Host '
                                             [36m  ■ [0m
 
 
-[35m■------------------------------------------------------------------------------■[0m
-
-                                   [1;30mshitty logo![0m
-                            [1;30mgnihteomes[0m [1;30mro zlur rotnemrot[0m'
+[35m■------------------------------------------------------------------------------■[0m'

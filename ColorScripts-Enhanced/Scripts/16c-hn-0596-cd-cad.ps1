@@ -5,7 +5,7 @@
 # Source SHA-256: aa9a80403e8cdfa691dc50f0f16bf55a4a9733e4638b35b30c0786d9795397e6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-CAD.ANS by Comrade (HaLLUCi NaTi0N 96'); released in hn-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chaos AD 96' Ridin' 0ut!
 # SAUCE Author: Comrade
 # SAUCE Group: HaLLUCi NaTi0N 96'
@@ -37,6 +37,4 @@ Write-Host '
    [1;34;44m░░▒▒▒▓▓▓▓▓▓▓▓[0;1;34;40m▄▄▄▄[0;35m ▀[0;1;31;45m▒[0;35m▀▀[0;37m [0;1;34;44m▓▓[0m [1;31;45m▒[0;35m▀[0;37m [0;1;34;44m▓▓[0m [35m█[0;1;31;45m▀██▀[0;1;31;40m█[0;1;31;45m▒▀[0;35m█ [0;1;34;44m▓▓[0m [1;31;45m▓[0;35m▀[0;34m▄[0;37m [0;35m██[0;1;31;45m▀▄▒▀ [0;35m▀ ▀█[0;1;31;45m▀▓[0;35m███▀▀[0;1;31;45m░[0m [34m▄[0;1;34;44m▒░░[0;35m ▀[0;1;31;45m▒[0;35m [0m
     [1;34;44m░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒[0m [1;31;45m░[0m [1;34;44m▒▒▒▒[0;34m [0;1;31;45m░[0m [1;34;44m▒▒▒[0;34m▄[0;37m [0;35m▀█▀[0;34m▄[0;35m▀[0;1;31;45m░[0;35m▀[0;37m [0;1;34;44m▒▒[0;34m█ [0;1;31;45m▒[0m [34m█▄[0;37m [0;35m▀▀▀[0;1;31;45m░[0m [34m▄▄[0;1;34;44m▒[0;34m [0;35m▀▀[0;1;31;45m▒[0m [34m▄▄▄▄▄[0;1;34;44m░░░░[0m   [1;31;45m░[0m
 [35m(┤nsi[0;34m [0;1;31m [0;1;34;44m░░░░░░░░░░░░░░░[0;34m▄[0;1;34;44m░░░░░░[0;34m▄[0;1;34;44m░░░░░░░[0;34m▄[0;1;34;44m░░[0;34m [0;1;31;45m░[0;34m [0;1;34;44m░░░░[0;34m [0;1;31;45m░[0;34m [0;1;34;44m░░░░░░[0;34m [0;1;34;44m░░░░░░[0;34m░[0;1;31;45m░[0;1;34;44m░░░░░░░[0m
-[35m [0;37m  [0;35mBy Comrade (Hn!)   [0m    [35m  [0;37mSySoP: Cannibal  WHQ: Halluci Nation[0;1;31;45m░[0m
-[35mIf you would like a logo,[0m
-[35me-mail me on Chaos A.D.[0m    [1;30mC.H[0;35mAOS [0;1;31mA.TE[0;35mR D.[0;1;30mARK[0m'
+[35m [0;37m  [0;35m                   [0m    [35m  [0;37m                                    [0;1;31;45m░[0m'

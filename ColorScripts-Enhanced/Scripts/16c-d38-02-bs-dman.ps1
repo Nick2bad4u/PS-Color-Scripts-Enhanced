@@ -5,7 +5,7 @@
 # Source SHA-256: 2094d6ec2473224b1c55456c9eae3e91265dadf21e173fa9289f7ca05ff88dc9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-DMAN.ANS by Blind Sniper (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DiZMAN
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
@@ -52,9 +52,7 @@ _____|__ _\_:_/  ___/__)_\   /_ \   )/   \\      /
  \  \(   /:'''''':\       /__\_/     / |______\\  /
   \_____/╙::.::''\_____/    |_____/ bs!<d38> \_/
 
-[1;30m(I''m sorry, but anything under 50 columns would''ve been a crime)  [0m
-[1;30m(The "I" is a screaming skull by the way...)[0m
+[1;30m                                                                  [0m
+[1;30m                                            [0m
 
-[1;30m[There you go.. Hope it''s good enough]------------------------------------------[0m
-
-[1;32mT[0;32mhat was some crap for I can''t remember requested by some guy I can''t remember..[0m'
+[1;30m[There you go.. Hope it''s good enough]------------------------------------------[0m'

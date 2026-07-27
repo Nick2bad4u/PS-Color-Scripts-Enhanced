@@ -5,7 +5,7 @@
 # Source SHA-256: 835a615ee521ae5d01f4e539458ffe885803db20c544631d2567510fa5b80566
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-D73.ANS by Sir Death (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dimension 7
 # SAUCE Author: Sir Death
 # SAUCE Group: Vapor
@@ -14,14 +14,14 @@
 # Columns: 1-80
 
 Write-Host '
-             [1;30mthis ansi was inspired from the clevland indians logo.[0m
-[1;30mgreetz; snipa''; dillinger; vapwhOre membz; blendz; airborn; professa''; vital_c;[0m
-[1;30m   nivenh; ld; cia; acid; spastic; t_wiz; ice; tg-member me?; 33; all of 419;[0m
-                                [1;30many1 else.  y0![0m
+             [1;30m                                                      [0m
+[1;30m                                                                               [0m
+[1;30m                                                                             [0m
+                                [1;30m               [0m
 
-        [1;30mthis is ansi was drawn by sir death, of vapwhOre, july 3, 1995![0m
+        [1;30m                                                               [0m
 
-                  [1;30m(didn''t have time for funky fonts, and shit)[0m
+                  [1;30m                                            [0m
 
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
 [1;30m█[0m                                                                              [1;30m█[0m

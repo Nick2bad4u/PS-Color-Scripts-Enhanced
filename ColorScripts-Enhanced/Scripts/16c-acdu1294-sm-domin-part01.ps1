@@ -5,7 +5,7 @@
 # Source SHA-256: 6d930799b80d7897e5e72d0884f8e6060fae677500080bce3f753dfdfe8da347
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-DOMIN.ANS by Smooth (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Dominion
 # SAUCE Author: Smooth
 # SAUCE Group: ACiD Productions
@@ -28,9 +28,9 @@ Write-Host '
    [1;30;40m▀▒[0;1;30;47m▄▓[0;1;30;40m▓▄▄■[0m [33m▀[0m   [1;30m▀[0;1;30;47m▒▀[0;1;30;40m█▓▀[0m      [1;30;40m▀▀▀░[0m [33m▀░▐[0m  [1;30m    [0m [33m▀▐[0m                 [33m▀[0m   [1;30m■▀[0;1;30;47m▓▒[0;1;30;40m▄▓▄▀[0m
      [1;30;40m ▀▀▀ [0m        [1;30;40m▀▀[0m           [1;31;40m   [0;33m ▐  [0;1;31m   [0m   [1;31m [0;33m▀[0m                        [1;30m▀[0m
                                     [33m▀[0m
-[1;30mACiD Productions proudly presents anutha kewl ANSi by Smooth foh December ''94[0m
-[1;30mIf you would like to request an ANSi/RiP created by me.  Send me Email via[0m
-[1;30mInternet: smooth@mango.aloha.com or on any FreeFall/iFXnet system near you.[0m
+[1;30m                                                                             [0m
+[1;30m                                                                          [0m
+[1;30m                                                                           [0m
 
 [1;30m─────────────────────────────────────────────────────────────────────────────[0m
 [1;30m█████████████████████████████████████████████████████████████████████████████[0m

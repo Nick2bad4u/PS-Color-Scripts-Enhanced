@@ -5,7 +5,7 @@
 # Source SHA-256: 4342372a4b499ab53cecdc46f9c1512898e2e3c63157d1253520f7f6e923a931
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-NOCT.ANS by Pariah (REMORSE); released in rmrs-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nocturne
 # SAUCE Author: Pariah
 # SAUCE Group: REMORSE
@@ -57,5 +57,4 @@ Write-Host '
 [35m$$[0;1;35m$$$$$[0m     [35m$[0;1;35m$$$$$$$$$[0;35m''[0;37m    [0;35m,[0;37m    [0;35m`7[0;1;35m$$$$$$$$$[0;35mP''[0;37m         [0;35m`7[0;1;35m$$$$$$$$$$$[0;35m$[0;37m     [0;1;35m$$$$$[0;35m$$[0m
 [35m$$[0;1;35m$$$$$[0m     [35m$[0;1;35m$$$$$$$[0;35mP''[0;37m    [0;35m,[0;1;35m$h[0;35m,_[0;37m   [0;35m`ⁿ[0;1;35m╧╩╩╩╧[0;35mⁿ''[0;37m    [0;35m_[0;1;35m,h[0;35m,[0;1;35m_[0m    [35m`ⁿ[0;1;35m╧╩╩╩╩╩╩╩[0;35m╧''[0;37m     [0;1;35m$$$$$[0;35m$$[0m
 [35m$$[0;1;35m$$$$$[0;35m555[0;1;35m55$$$$$$$$$555[0;35m88[0;1;35m$$$$85[0;35m@%gy╥╥╥╥╥╥[0;1;35m╥╥y@5$$$$$8[0;35m5@%g╥╥╥[0;1;35m╥╥╥╥╥╥╥╥╥[0;35m╥╥yy[0;1;35m$$$$$[0;35m$$[0m
-[35m$$5[0;1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;37m$$5[0;1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$[0;35m5$$[0m
-   [1;37m  [0m'
+[35m$$5[0;1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;37m$$5[0;1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$[0;35m5$$[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3ad1e0cca6839b9e1964b74d32a244eb93f2c5c9791218a60fae428e82baf1f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-SHV.ANS by Eerie (Shiver); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shiver Promotional
 # SAUCE Author: Eerie
 # SAUCE Group: Shiver
@@ -36,11 +36,11 @@ Write-Host '
                    [36m▒  ▒[0m            [36m▒[0m              [1;36m▒[0m              [1;36m▒[0m     [1;36m▒[0m
                                                                        [1;36m░[0m
                    [1;37ms   h   i   v   e   r[0m       [1;37m1   9   9   5[0m
-      "i don''t care what they say about us anyway, i don''t care bout that"
+                                                                          
 
 
- [46m                   [0;1;46mwhat tg? you dont like the logo? fuck..                    [0m
-[1;40m [0;1;46m                     oh, anyway i promised a 100-liner..                      [0m
+ [46m                   [0;1;46m                                                           [0m
+[1;40m [0;1;46m                                                                              [0m
 
             ▀▓ ▀▀▓▀▀ ▓▀▀▓▄▓▀ ▀▀▀
              ▓  ▄▓      ██▓
@@ -48,7 +48,7 @@ Write-Host '
           █████ ▀▀█▀▀ ▒ ▓██▀▓███▓▄▓▄▄▄ █
            ▀▀▀▀▓██▓███▓ ███ ▓████████▌ ▓ ▄▓
        ▀ ▀█▓██ █████▓██ ███ ▓████████  ███▓
-          ▐▓██ █████▒█▓ ██▓ █████████  ███▓  aw shit.. so bored to do those
+          ▐▓██ █████▒█▓ ██▓ █████████  ███▓                                
          ▄▀▒▄▓▌████▀░ ▀ █▀▀ ██████▓█▀  ▓█▀▀  fucking stupid logos.. less try
            ░  ▀▀▓           █▓▀▀▀▀           something easier
 
@@ -57,11 +57,4 @@ Write-Host '
 [1;34;40m  [0;35;43m▓[0;35;40m▄[0;36;40m▀[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35m▄▄[0;1;37m▄[0;35;43m▓[0;35;40m▀[0;36;40m▀[0;35;43m▓[0m [1;37;46m▒[0;35m▀[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0m [36;40m▀[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0m [35m▀[0;36m▀[0;35m▀[0;1;34;45m▒[0;36m▀[0;35m▀[0;1;34;45m▒[0m [35;43m▓[0;1;34;40m▀[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0m [35m▀[0;1;34m▀[0;36m▀[0;35;43m▓[0;1;34;40m▀[0;36m▀[0;35;43m▓[0m [1;37;46m▒[0;35m▀[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;40m▄[0;35m▄[0;1;34m▀[0;1;37;46m▒[0;35m▀[0;1;34m▀[0;1;37;46m▒[0m [1;34;45m▒[0;36m▀[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0m  [1;37;40m▄[0;35m▀[0m
 [35m  [0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;33m▄[0;35m▄ [0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;35;43m▒[0m [1;37;46m▓[0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;35;43m▒[0m [1;37;46m▓[0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0m [1;34;45m░[0;1;37;46m▓[0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;35;43m▒[0;1;34;45m░[0m [35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;35;43m▒[0;1;34;45m░[0m [35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;35;43m▒[0m [1;37;46m▓[0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;35;43m▒[0m [1;37;46m▓[0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0m [1;34;45m░[0;1;37;46m▓[0;35;43m▒[0;1;34;45m░[0;1;37;46m▓[0m
 [1;37;40m  [0;35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0;35;45m [0m [35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0m [1;37;42m▓[0;35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0m [1;37;42m▓[0;35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0;35;45m [0;1;37;42m▓[0m [1;37;45m [0;1;37;42m▓[0;35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0;35;45m [0m [35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0;35;45m [0m [35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0m [1;37;42m▓[0;35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0m [1;37;42m▓[0;35;43m░[0;35;45m [0;1;37;42m▓[0;35;43m░[0;35;45m [0;1;37;42m▓[0m [1;37;45m [0;1;37;42m▓[0;35;43m░[0;35;45m [0;1;37;42m▓[0m [33m33[0m
-[33m    [0;1;37m▀[0;33m▀[0;35m▀[0;1;37m▀[0;33m▀[0;35m▀[0;1;37m▀ [0;35m▀[0;1;37m▀    [0;35m▀[0;1;37m▀[0;33m▀ [0;1;37m▀[0;33m▀[0;35m▀ [0;33m▀[0;35m▀  ▀[0;1;37m▀[0;33m▀ [0;1;37m▀[0;33m▀    [0;1;37m▀[0;33m▀[0;35m▀[0;1;37m▀[0;33m▀[0;35m▀[0;1;37m▀ [0;35m▀[0;1;37m▀    [0;35m▀[0;1;37m▀[0;33m▀[0;35m▀[0;1;37m▀[0;33m▀[0;35m▀ [0;33m▀[0;35m▀    [0;33m▀[0;35m▀[0;1;37m▀[0m
-
-[1;37m [0mbahahahahaha! i cant believe i''ll actually give this to tg for the next pack..
-
-        all the ansi here was done by eerie [shiver and some others too]
-         the first shiver logo was done by young [shiver], shame on him
-  the puke on your screen was done by _____________________ (insert yer name)
-                  WHOA! 100 LINES! I DID IT! I FEEL SO PROUD![0m'
+[33m    [0;1;37m▀[0;33m▀[0;35m▀[0;1;37m▀[0;33m▀[0;35m▀[0;1;37m▀ [0;35m▀[0;1;37m▀    [0;35m▀[0;1;37m▀[0;33m▀ [0;1;37m▀[0;33m▀[0;35m▀ [0;33m▀[0;35m▀  ▀[0;1;37m▀[0;33m▀ [0;1;37m▀[0;33m▀    [0;1;37m▀[0;33m▀[0;35m▀[0;1;37m▀[0;33m▀[0;35m▀[0;1;37m▀ [0;35m▀[0;1;37m▀    [0;35m▀[0;1;37m▀[0;33m▀[0;35m▀[0;1;37m▀[0;33m▀[0;35m▀ [0;33m▀[0;35m▀    [0;33m▀[0;35m▀[0;1;37m▀[0m'

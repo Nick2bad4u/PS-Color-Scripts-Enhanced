@@ -5,7 +5,7 @@
 # Source SHA-256: b13548074a867cdd903acb59aeba2e74a509d1c17d4e08f4c5b47bb39e8c6cf0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BLDE1.ANS by Mindcrime + Grey Hawk (blade productions); released in blde9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blade productions
 # SAUCE Author: grey hawk + mci
 # SAUCE Group: blade productions
@@ -33,5 +33,4 @@ Write-Host '
 [31m   [0;35m▐▌   [0;1;37m| [0;1;30m▄[0;1;30;44m█[0m [1;30;40m▄[0;1;30;44m█[0;1;30;40m▄▄[0;1;30;44m█[0m▄▄[1m▄[0;1;47m▓[0m [1;35;45m▓[0m [1;35;40m▄[0;1;35;45m░[0m [1;32;44m▒[0;34m▄▄[0;1;34;44m░[0;34m▄▄[0;1;35;45m░[0;1;35;40m▄▄▄█ [0;1;30;44m█[0m [1;30;40m▄█▄▄[0;1;30;44m█[0m▄▄[1m▄[0;1;47m▓[0m [1;30;44m█[0m [1;30;40m▄█▄▄[0;1;30;44m█[0m▄▄[1m▄[0;1;47m▓[0;1;30;40mc [0;1;34;44m░[0m  [1;31;40m▄ ▀[0m
 [1;31;40m    [0;35m▀   [0;37m│ [0;1;37m/   [0;35m▄[0m      [1;37m░[0m                            [1;37m░[0m           [1;37m░[0m
 [1;37m    - [0;35m▀[0;1;37m-[0;1;35m┼ [0;1;37m── - ─── -- ─  ─    --   ──  - - -  -  < [0;1;35mblad[0;35me p[0;1;35mroductions [0;1;37m> ─ -─[0m
-      [1;37m/ [0m│ [1m\[0m
-        [1m:[0m       [1;30m<-- - logo: grey hawk ;; shading/color: mindcrime - -->[0m'
+      [1;37m/ [0m│ [1m\[0m'

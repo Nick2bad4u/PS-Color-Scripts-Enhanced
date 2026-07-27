@@ -5,7 +5,7 @@
 # Source SHA-256: 35d1f1aff350f6c77bb88cf00ae39d988650d358f44b180971989a67e4616986
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-TOON.ANS by Spitfire (Rigamortiz); released in rmtz-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fuckin toonface!
 # SAUCE Author: Spitfire
 # SAUCE Group: Rigamortiz
@@ -45,6 +45,4 @@ Write-Host '
 [34;40m▀[0m           [31;40m█[0;37;40m [0;32;40m█[0;1;32;42m▒▒▓[0;1;32;40m█▄[0;31m■[0;1;32m [0;1;32;42m▒▀[0;1;32;40m█[0m [1;32m▀[0;1;32;42m▓[0m [31m▄▀ ▄▀[0;37m [0;1;32;42m ▓[0;1;32;40m█▀[0m  [1;32;42m▒▓████▓█[0m [31m█[0;37m [0;1;32m▄[0;1;32;42m ▒▓[0;1;32;40m█▀[0m [1;32m▄▄▄ [0;31m▀▄[0m              [34m█[0m
 [34m▀[0m           [31m█[0;37m [0;1;32m▀[0;32m█[0;1;32m███▀ [0;31m■[0;1;32m ▀[0;1;32;42m░[0;1;32;40m█▄[0m  [31m█▄▀[0;37m [0;1;32m▄██▀[0m [31m▄▀▄[0;37m [0;1;32m▀[0;1;32;42m▒▀▀[0;1;32;40m██▀[0m [31m█[0;37m [0;1;32m▀[0;1;32;42m▓▓█[0;1;32;40m███[0;1;32;42m██▓▒[0;1;32;40m▄[0m [31m█[0;37m  [0;34msf/cw[0m      [34m▄[0m
              [31m▀▄[0;37m [0;1;32m▀▀[0m [31m▄▀[0;37m [0;31m▀▄▄▄[0;37m [0;1;32m▀[0;31m ██[0;37m [0;1;32m▀[0m [31m▄▄▄▀[0m   [31m▀▄▄▄▄▄▄▄▀[0;37m [0;31m▀▄▄▄▄▄▄[0;37m [0;1;32m▀▀▀▀▀▄[0m [31m█[0m
-               [31m▀▀▀▀[0m      [1;32m [0;31m▀▀▀ [0;37m [0;31m▀▀▀[0m                        [31m▀▀▀▀▀▄▄▄▀[0m
-
-            [34mthiz ANSEE is made by Spitfire and Chainwallet of Rmtz![0m'
+               [31m▀▀▀▀[0m      [1;32m [0;31m▀▀▀ [0;37m [0;31m▀▀▀[0m                        [31m▀▀▀▀▀▄▄▄▀[0m'

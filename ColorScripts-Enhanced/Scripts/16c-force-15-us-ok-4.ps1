@@ -5,7 +5,7 @@
 # Source SHA-256: 402500b6bc2ddd688f8033ab54b896b8cc094b39c351069d3a49b7530a572056
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-OK#4.ANS by Criminal Enigma + Illogic (fORCE); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Organized Kaos
 # SAUCE Author: c3/illogic
 # SAUCE Group: fORCE
@@ -33,7 +33,4 @@ Write-Host '
        [32m  [0m         [32m▀▀▀▐[0;1;32;42m▒▀[0;32m▀▀[0m                              [32m▀▀[0;1;32;42m▀▒[0;32m▌▀▀▀[0m
                       [32m█[0m                                    [32m█[0;37m [0;1;30mc3 + ill[0m
   [1;31m            [0m [1;31m   [0m    [32m▌[0m                                    [32m▐[0m
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30m [0moutline + background by [1mcriminal enigma[0m
-[1m [0mshading and touchups by [1millogic[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

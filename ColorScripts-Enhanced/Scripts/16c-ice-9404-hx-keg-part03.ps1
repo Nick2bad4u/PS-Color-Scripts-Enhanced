@@ -5,7 +5,7 @@
 # Source SHA-256: eaf5a7a608924d5ec0580cf6a14e28ffeed7bb1471847af299ff6c9627796083
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HX-KEG.ICE by Hoaks (ice-9404); released in ice-9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 99-135
 # Columns: 1-80
 
@@ -33,17 +33,16 @@ Write-Host '
                  [34m▄█▀▀▀█▄[0m       [1;34m▐[0;1;34;44m▓[0m     [34m▄██ [0;1;34m█[0;1;34;44m▓▒[0;34m▌  [0;1;34m▀██▄ ▄■°   [0;1;30m▄[0;1;30;44m▓▓[0m [1;34;40m█[0;1;34;44m▓▒[0;34m▌  [0;1;34m▀██▄ ▄■°[0m
                [34m■▀▀ [0;35m▄▀  [0;34m▀▀■[0m      [1;34m▀[0;1;34;44m▓[0;1;34;40m▄ ■▄[0;34m▀▀[0;1;34m▄█[0;1;34;44m▓▒[0;34m▀ ■    [0;1;34m▀▀    ■▄[0;1;30m▀▀[0;1;34m▄█[0;1;34;44m▓▒[0;34m▀ ■    [0;1;34m▀▀[0m
 [1;34m [0;34m·[0m               [35m■▀[0m               [1;34m▀▌  ▀▀▀▀[0m                 [1;34m▀▀▀▀[0m
-[1;34m [0;34m:  [0;1;36mi[0;1;34mC[0;34mE Member [0;1;34mBoard[0m                                             [1;34mMAG[0;34miC Distro  .[0m
-[34m .  Psy Member[0m                                                  [1;34mPrim[0;34mal Distro  ·[0m
-[34m │  Union Dist[0;1;34mro[0m                                             [1;34mRelic 9[0;34m14 Distro  :[0m
-[34m │  Imperial U[0;1;34mSHQ[0m                    [1;34mi[0;1;36mCN Ne[0;1;34mt[0m                   [1;34mTDN E[0;34mastern HQ  │[0m
-[34m │  RAM Distro[0m                       [1;34mC[0;1;36mCi Ne[0;1;34mt[0m                       [1;34mL[0;34mSD Distro  │[0m
-[34m │  KRONICK Ea[0;1;34mstern HQ[0m            [1;34mALLE[0;1;36mGIANC[0;1;34mE Net[0m              [1;34mInfini[0;34mty Distro  │[0m
-[34m │  CiA Applic[0;1;34mation[0m                 [1;34mSh[0;1;36maka N[0;1;34met[0m                   [1;34mRANS[0;34mOM Distro  │[0m
-[34m │  POW Distro[0m                     [1;34mThu[0;1;36mnder [0;1;34mNet[0m        [1;34m·[0m       [1;34mDREADL[0;34mOC Distro  │[0m
-[34m │  HS-Link Be[0;1;34mta Site    .[0m           [1;34mR[0;1;36mAM Ne[0;1;34mt[0m          [1;34m:   Gravity No[0;34mrthren HQ  │[0m
-[34m │  LUPUS Dist[0;1;34mro[0m         [1;34m·[0m         [1;34mSha[0;1;36mdow  [0;1;34mNet[0m        [1;34m.[0m          [1;34mTox[0;34min Distro  │[0m
-[34m │  SSN Distro[0m           [1;34m:[0m          [1;34mGri[0;1;36mp  N[0;1;34met[0m         [1;34m.[0m              [34mSCaR EHQ  │[0m
-[34m │  SILICON Di[0;1;34mstro[0m       [1;34m│[0m         [1;34mVali[0;1;36mant [0;1;34mNet[0m        [1;34m│[0m           [1;34mHi[0;34mpe Distro  │[0m
-[34m └────────────[0;1;34m───────────┴─────────────[0;1;36m────[0;1;34m───────────┴─────────────[0;34m───────────┘[0m
-[34m    [0;1;30mH•[0mO•[1mA[0m•K[1;30m•S [0;1;36mi[0;1;34mC[0;34mE[0m                                              [1;34mFont: [0;34mESOTERiC[0m'
+[1;34m [0;34m   [0;1;36m [0;1;34m [0;34m         [0;1;34m     [0m                                             [1;34m   [0;34m            [0m
+[34m              [0m                                                  [1;34m    [0;34m            [0m
+[34m │            [0;1;34m  [0m                                             [1;34m       [0;34m            [0m
+[34m │            [0;1;34m   [0m                    [1;34m [0;1;36m     [0;1;34m [0m                   [1;34m     [0;34m           │[0m
+[34m │            [0m                       [1;34m [0;1;36m     [0;1;34m [0m                       [1;34m [0;34m           │[0m
+[34m │            [0;1;34m        [0m            [1;34m    [0;1;36m     [0;1;34m     [0m              [1;34m      [0;34m           │[0m
+[34m │            [0;1;34m     [0m                 [1;34m  [0;1;36m     [0;1;34m  [0m                   [1;34m    [0;34m           │[0m
+[34m │            [0m                     [1;34m   [0;1;36m     [0;1;34m   [0m        [1;34m [0m       [1;34m      [0;34m           │[0m
+[34m │            [0;1;34m            [0m           [1;34m [0;1;36m     [0;1;34m [0m          [1;34m              [0;34m           │[0m
+[34m │            [0;1;34m  [0m         [1;34m [0m         [1;34m   [0;1;36m     [0;1;34m   [0m        [1;34m [0m          [1;34m   [0;34m           │[0m
+[34m │            [0m           [1;34m [0m          [1;34m   [0;1;36m    [0;1;34m  [0m         [1;34m [0m              [34m          │[0m
+[34m │            [0;1;34m    [0m       [1;34m│[0m         [1;34m    [0;1;36m    [0;1;34m   [0m        [1;34m│[0m           [1;34m  [0;34m           │[0m
+[34m └────────────[0;1;34m───────────┴─────────────[0;1;36m────[0;1;34m───────────┴─────────────[0;34m───────────┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e090c088137fa40c9e431de8c52af3314b6a8e75e996b3333466699bf9dc40f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-NERP.ANS by nOah? (nerp-01); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: NERP!
 # SAUCE Author: nOah?
 # SAUCE Date: 19970720
@@ -29,6 +29,4 @@ Write-Host '
       [34m▀[0;1;34;44m▀▌[0;34m▌▀[0;31m [0;34m█[0;1;34;44m█[0;1;34;47m▒▓[0;1;34;44m█▀[0;34m▀▄[0;1;34;44m▄[0;1;34;47m▒▓[0;1;34;44m▄[0;34m▌▄[0;1;34;44m▄█▄[0;1;34;40m▄[0;34m▄[0;31m [0;37m [0;1;31mnerp![0m              [31m▄████[0;33;41m░░[0;31;40m███▄▄[0;1;30;40m ▀▐█[0;1;30;47m▓▓[0;1;30;40m████████[0m
        [34m▄▄[0;1;34;44m▄[0;34m█▐▄▀[0;1;34;44m▀[0;1;34;40m▀[0;34m█[0;37m [0;34m▀[0;1;34m▀[0;1;34;44m▀█▀[0;34m▀▀[0;31m [0;34m▀▐[0;1;34;47m▓[0;1;34;44m▀[0;34m▀▀[0;31m    [0;35m    [0;31m   [0;35m        [0;37m [0;31m▀████▌▀▀▀▀ [0m     [1;30m ▀▀▀▀▐▀▀▀[0m
       [34m█[0;1;34;47m█▒▓[0;1;34;44m▀[0;34m▀█[0;1;34;44m▄[0;1;34;47m▒▓[0;1;34;44m█▄[0;34m▄ [0m                [31m             [0;35m     [0;31m ▀[0m   [35m            [0m
-       [34m▀[0;1;34m▀[0;34m▀[0m   [34m▀[0;1;34m▀▀[0;34m▌▀[0m    [1;31mI don''t like you, I love you![0m  [35m      [0m
-
-   [1;31mwarning! just some usual crap by nOah, i will do better in the next pack![0m'
+       [34m▀[0;1;34m▀[0;34m▀[0m   [34m▀[0;1;34m▀▀[0;34m▌▀[0m    [1;31mI don''t like you, I love you![0m  [35m      [0m'

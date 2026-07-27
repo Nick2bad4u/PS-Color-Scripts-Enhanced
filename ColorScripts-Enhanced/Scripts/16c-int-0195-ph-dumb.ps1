@@ -5,7 +5,7 @@
 # Source SHA-256: 5a16cc640148bfb74b161601139983c259766b81d7c2e94543ac87256cb0145a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-DUMB.ANS by Prophet (Integrity); released in int-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dumb (Drawn while Stoned)
 # SAUCE Author: Prophet
 # SAUCE Group: Integrity
@@ -18,7 +18,7 @@ Write-Host '
    [1;30m▀ ▀▒▀ [0;1;37;47m▓[0;1;37;40m▀▀▀▀▄  [0;1;37;43m█[0m [1;30;40m▀▀▀▓▀▀ [0;1;37;40m▄ [0;1;37;41m▓[0;1;37;40m▄[0;1;30;40m▀■[0;1;37;43m█[0;1;37;40m▀[0;1;37;42m▓[0;1;37;40m▀▀ [0;1;30;40m▀■[0;1;37;40mpresents a real dumb anzi [0;1;30;40m■▀▀ ▀ ▀▀▒ ▀[0m
       [1;30;40m▓  [0;1;37;47m▒[0m [1;37;40m▓▄▄▄▀ [0;1;37;43m▓[0;1;37;40m▄▄  [0;1;30;40m▒   [0;1;37;40m▄ [0;1;37;41m▒[0m [1;37;40m▀▄[0;1;37;46m▓[0m [1;37;42m▒[0m    [1;37;40m"i''m sick, leave me alone"[0m         [1;30;40m▓[0m
       [1;30;40m█  [0;1;37;47m░[0m       [1;37;43m▒[0m  [1;37;40m▀▄ ▄■ [0;1;37;45m▓[0m [1;37;41m░[0m   [1;37;46m▒[0m [1;37;42m░[0m     [1;37;40mhey.. mr. sun looks cool tho[0m      [1;30;40m█[0m
-      [1;30;40m█  [0;1;37;40mpro[0mfi[33mt of [0;35min[0;1;37m▀[0;35mt[0;31megr[0;36mite[0;32meee[0m        [1;37mmerrie christmas, happy new year  [0;1;30m█[0m
+      [1;30;40m█  [0;1;37;40m   [0m  [33m     [0;35m  [0;1;37m▀[0;35m [0;31m   [0;36m   [0;32m   [0m        [1;37m                                  [0;1;30m█[0m
 [1;30m  ▀ ▀▀▓▀▀▀▀▀▀▀▀▀▀▀[0;36m▄[0;1;36;46m░[0;36m■▄▄[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀ ▀[0m
                [36m▄[0;1;36m▄[0;1;36;46m▓▓▒░▒▓▒░[0;36m▄▄   [0;1;30mHere comes the hotsettepa![0m                  [1;30m■[0m
 [1;31m░░░░░░░░░░░░[0;31m▀[0;36m▄[0;1;36;46m▒▓▓[0;1;36;40m█▄[0;1;36;46m▓▓[0;1;36;40m▄[0;1;36;46m█▓▓▓▒▒░[0;36m▄[0;31m▀[0;30;41m<-mr.cloud[0;31;40m▓▓▓▓▓▓▀[0;1;36;40m▄▄▓▄■ [0;31m▀▀▀[0;1;31m░░░░░░░░░░░░░░░░░░░░░░░[0m

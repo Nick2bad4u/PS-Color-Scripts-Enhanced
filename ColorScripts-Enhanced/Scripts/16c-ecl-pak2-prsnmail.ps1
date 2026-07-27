@@ -5,7 +5,7 @@
 # Source SHA-256: bc60c3764fc56ead849d49157fcddb6823162c5a8f0094acc138a7839ca9944f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PRSNMAIL.ANS by President + Snowball (ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: readmsg new layout!
 # SAUCE Author: president & snowball
 # SAUCE Group: ecolove
@@ -29,13 +29,13 @@ Write-Host '
 [32m▐[0;1;32;42m▓[0m  [32m▐[0;1;32;42m▓[0m [1;30m▐[0m█[1;47m▄▓[0m█[1;30;47m▀█[0;1;30;40m▄[0m       [1;30m [0m▄▄▄[1;30m██[0;1;30;47m▓▓[0;1;30;40m▌[0;32m▐[0;1;32;42m▓[0m [32m▐[0;1;32;42m▓[0m      [1;30;43m▓█[0;1;30;40m▌[0m
  [1;32;42m▓[0;1;32;40m▌[0;32m▄[0;1;32;42m▓[0;1;32;40m▌[0m [1;30;47m▌[0m▀[1;30;47m▄[0;1;37;47m▀▓░[0m█[1;30;47m▓[0;1;30;40m▌[0m     [1;30m [0m█▀[1;47m░▓▄[0;1;30;47m▀[0;1;30;40m█▀[0m [1;32;42m▒[0;1;32;40m▌[0m  [1;32;42m▒[0m [1;30m▄[0;33m▄▄[0;37m [0;33m▐[0;1;30;43m▓▒[0;33m█[0;37m   [0m
 [37m [0;32m▀[0;1;32m▀▀[0;1;30m ────[0;1;32m [0;1;30m [0m▀▀[1;30m▀▀[0;1;32m  [0;1;30m───────────[0;1;32m  [0;32m▀[0;1;32;42m░[0;32m▄[0;1;32m▄▄[0;1;32;42m░[0;1;32;40m▌[0;1;30;40m ░░ [0;33m▀▀[0;1;30;43m░[0;33m▌[0;1;30m [0;33m▀▀[0;1;30m▀░░ ───────────────────────────[0m
- [1;32;42ms[0;32mcanning [0;1;32ma[0;32mrea[0;1;30m:[0m [1;30m([0m            [1;32m       [0m     [33m    [0m     [1;30m)[0m [1;32;42ma[0;32mrea [0;1;32mp[0;32mrogress[0;1;30m:[0m [1;30m([0m··········[1;30m)[0m
+ [1;32;42m [0;32m        [0;1;32m [0;32m   [0;1;30m [0m [1;30m [0m            [1;32m       [0m     [33m    [0m     [1;30m [0m [1;32;42m [0;32m    [0;1;32m [0;32m       [0;1;30m [0m [1;30m [0m          [1;30m [0m
  [1;32;42mo[0;32mverall [0;1;32mm[0;32msgbase[0;37m [0;1;32mp[0;32mrogress[0;1;30m:[0m [1;30m0%([0m············································[1;30m)100%[0m
- [1;32;42mp[0;32mersonal[0;37m [0;1;32mm[0;32msg[0;37m [0;1;32mf[0;32mound[0;1;30m:[0m [1;30m([0m    [1;30m)[0m             [1;30m([0m [1;30mpress[0m [1;30m''[0;1;32mesc[0;1;30m''[0m [1;30mor[0m [1;30m''[0;1;32ms[0;1;30m''[0m [1;30mto[0m [1;30mstop[0m [1;30mscanning[0m [1;30m)[0m
+ [1;32;42m [0;32m       [0;37m [0;1;32m [0;32m  [0;37m [0;1;32m [0;32m    [0;1;30m [0m [1;30m [0m    [1;30m [0m             [1;30m [0m [1;30m     [0m [1;30m [0;1;32m   [0;1;30m [0m [1;30m  [0m [1;30m [0;1;32m [0;1;30m [0m [1;30m  [0m [1;30m    [0m [1;30m        [0m [1;30m [0m
  [1;30m──────────────────────────────────────────────────────────────────────────────[0m
 
 
 
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m≡[0m [32mr[0;1;30mead[0m [1;30m≡[0m [32mm[0;1;30mark[0m [1;30mas[0m [1;30mrcvd[0m [1;30m≡[0m [32mc[0;1;30monfigure[0m [1;30m≡[0m [32mh[0;1;30melp[0m [1;30m≡[0m [32mq[0;1;30muit[0m [1;30m≡────────────([0m [1;32mReadm[0;1;32;42ms[0;1;32;40mg[0m [1;32mv1.0ß![0m [1;30m)[0m'
+[1;30m [0m [32m [0;1;30m   [0m [1;30m [0m [32m [0;1;30m   [0m [1;30m  [0m [1;30m    [0m [1;30m [0m [32m [0;1;30m        [0m [1;30m [0m [32m [0;1;30m   [0m [1;30m [0m [32m [0;1;30m   [0m [1;30m ──────────── [0m [1;32m     [0;1;32;42m [0;1;32;40m [0m [1;32m      [0m [1;30m [0m'

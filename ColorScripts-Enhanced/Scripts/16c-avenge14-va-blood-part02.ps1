@@ -5,7 +5,7 @@
 # Source SHA-256: 0e6215a85412365eb9780daad62720b567486a5fa3ed4da101bd7e1406462754
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VA-BLOOD.ANS by VampOfT (The AvengeCult); released in avenge14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BLOOD
 # SAUCE Author: VampOfT
 # SAUCE Group: The AvengeCult
@@ -38,7 +38,7 @@ Write-Host '
                               [35;47m░[0;37;40m▓[0;31;47m▓▌[0;37;40m▓▒[0;1;30;40m▐[0m [31m  [0;37m [0;1;30m▐[0m ▒▓▓▓█▀      [1;30m▀[0m
                      [1;30m▄[0m          [1;30m▀[0;31;47m▌[0;37;40m▒[0;1;30;40m▌[0;31m  [0;37m    [0;1;30m░▐[0m▒▒▀[31m░[0m     [1;30m▀█[0m      [31mand blood [0m
                      [1;30m▀▌[0m          [31m▐[0;1;30m▀[0m         [1;30m▀[0m      [35m [0;1;30m▀▌[0m       [31mpours from her[0m
-                       [1;30m▓[0m         [31m▐[0m    [37m     [0m       [35m    [0m       [31msoul like tears..[0m
+                       [1;30m▓[0m         [31m▐[0m    [37m     [0m       [35m    [0m       [31m                 [0m
                             [1;30m▄ [0m   [31m░[0;37m  [0;35m░[0m       [35m░[0m
                            [1;30m▐[0m▒  [35m█▄[0;37m  [0;35m▄▐[0;37m  [0;35m▌[0;37m [0;35m █[0;37m [0;35m [0;1;35m [0;35m▄▄[0;37m [0;1;30m [0m           [31mshe is now..  [0m
                            [1;30m▐[0m  [1;35;45m░░[0;35m█[0;37m [0;35m ██ ██▌▐█▌▐▌██▌[0m

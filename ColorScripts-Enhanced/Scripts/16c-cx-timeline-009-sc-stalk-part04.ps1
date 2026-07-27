@@ -5,7 +5,7 @@
 # Source SHA-256: 1e69124fb4e50e1cff235a2f6fc8991f1abba1a0b9796b9fba183832172a9fe7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: [009] SC-STALK.ans by Skarecrow (VOR); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Stalker's guild logoff
 # SAUCE Author: Skarecrow
 # SAUCE Group: VOR
@@ -53,8 +53,4 @@ Write-Host '
 [1;32;40m▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒░[0m
 [1;32;40m▒▒▒░░░░░░░░░▒▒▒░░░░░░░░░▒▒▒░░░░░░░░░▒▒▒░░░░░░░░░▒▒▒░░░░░░░░░▒▒▒░░░░░░░░░▒▒▒░░░░[0m
 [1;32;40m░░░░░░[0m   [1;32m░░░░░░░░░[0m   [1;32m░░░░░░░░░[0m   [1;32m░░░░░░░░░[0m   [1;32m░░░░░░░░░[0m   [1;32m░░░░░░░░░[0m   [1;32m░░░░░░░░░[0m
-[1;32m░░░ [0m       [1;32m ░░░[0m         [1;32m░░░[0m         [1;32m░░░[0m         [1;32m░░░[0m         [1;32m░░░[0m         [1;32m░░░[0m
-
-
-
-'
+[1;32m░░░ [0m       [1;32m ░░░[0m         [1;32m░░░[0m         [1;32m░░░[0m         [1;32m░░░[0m         [1;32m░░░[0m         [1;32m░░░[0m'

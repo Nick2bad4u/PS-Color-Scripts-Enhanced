@@ -5,7 +5,7 @@
 # Source SHA-256: baefe2b65a28f49868d2fb9f416f3a350f8828b9c95397d9fabf611b712c276b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-FILTH.ANS by mendator (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: filth
 # SAUCE Author: mendator
 # SAUCE Group: fuel
@@ -30,6 +30,4 @@ Write-Host '
       [36;40m▒[0;30;46m▒[0;36;40m▒░[0;30;46m▓[0;36;40m [0m          [30;46m░░[0;36;40m▓[0;30;46m▒[0;36;40m▒[0;30;46m▓[0m    [36;40m ▀[0;1;36;40m▀▀[0;1;36;46m▀[0;1;36;40m█▄[0;1;37;40m▄[0;36m▐[0;1;36;46m█▌[0;36m█[0;30;46m░▒[0;36;40m░[0;30;46m▓[0;36;40m mendator[0;1;36;40m([0;36mfuel[0;1;36m)[0;30;46m [0;36;40m██[0;30;46m░[0;36;40m▓▒ ▐[0;30;46m░[0;36;40m▓▒[0m
       [36;40m░[0;30;46m▓[0;36;40m░[0m             [30;46m▒[0;36;40m▒[0;30;46m▒[0;36;40m░[0;30;46m▓[0m           [1;37;40m▀[0;1;36;40m▀▀▀[0;36m▀ ░[0;30;46m▓[0;36;40m [0m                [30;46m░░[0;36;40m▓[0;30;46m▒[0;36;40m▒[0;30;46m▓[0;37;40m [0;36;40m▐[0;30;46m▒▒[0;36;40m░[0m
         [36;40m  f[0m           [30;46m▓[0;36;40m░[0;30;46m▓[0m           [36;40ml[0m                          [30;46m▒[0;36;40m▒[0;30;46m▒[0;36;40m░[0;30;46m▓[0m   [36;40m░[0;30;46m▓[0m
-        [36;40m [0m                                                      [30;46m▓[0;36;40m░[0;30;46m▓[0m   [36;40mh[0m
-       [36;40mfast logo made in 10-15mins while I was on IRC..[0m
-       [36;40m(halaster inspired.. halaster is the greatest)[0m'
+        [36;40m [0m                                                      [30;46m▓[0;36;40m░[0;30;46m▓[0m   [36;40mh[0m'

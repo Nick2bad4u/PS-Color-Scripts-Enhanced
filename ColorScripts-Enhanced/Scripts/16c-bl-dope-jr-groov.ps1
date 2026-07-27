@@ -5,7 +5,7 @@
 # Source SHA-256: b56348482db90428bce8f89431518b8bc4a62911d9a7de0d6151b5b460aae763
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_GROOV.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: drink'n go.
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -39,5 +39,4 @@ Write-Host '
 
 
 
-[1;30m--------░░-░------------------▒----------------------------------------------░▓▓[0m
-[1;30mjetzt auch als kaffee und shampoo in einem: drink & go ![0m'
+[1;30m--------░░-░------------------▒----------------------------------------------░▓▓[0m'

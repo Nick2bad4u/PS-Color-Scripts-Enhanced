@@ -5,7 +5,7 @@
 # Source SHA-256: 3ff870ec52b0170d1042a620869a908504fd3b4cb65a376b9bf6c49f556d5210
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-UTOP.ANS by tainted (blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: utopia
 # SAUCE Author: tainted
 # SAUCE Group: blocktronics
@@ -54,9 +54,4 @@ Write-Host '
                                                 [1;36m▒[0m               [1;30m■[0m
                                 [1;30mu  t  o  p  i  a[0m [1;36m░[0m
                                                   [36m░[0m               [1;30m░[0m
-                                                   [36m░[0m
-
-                     [1;30mtelnet:[0;1;36mutopia[0;1;30m.[0;36maraknet[0;1;30m.xyz[0m   [1;30mport:xxxx[0m
-                                   [1;30mop:[0msmooth
-                  [1;36mblocktronics [0;1;30m/ [0;36mlegacy krew [0;1;30m/ [0mimpure[1;30m / phenom[0m
-                            [1;30mrunning [0mmystic[1;30m v1.12 a47[0m'
+                                                   [36m░[0m'

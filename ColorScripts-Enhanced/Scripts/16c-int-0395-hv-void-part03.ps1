@@ -5,7 +5,7 @@
 # Source SHA-256: a6b432713e7fb78d81123548a6429fbf277f0dc9e647ab7f1f34ceff68f94b80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HV-VOID.ANS by Havoc (Integrity); released in int-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Void
 # SAUCE Author: Havoc
 # SAUCE Group: Integrity
@@ -40,7 +40,7 @@ Write-Host '
         [1;30;40m [0m   ██[1;30;47m░[0m█[1;30;47m░[0m▀ [36m▐[0;1;36;46m░[0;1;30;40m▐[0;1;30;46m▓[0;1;30;40m▄▄[0;36m▀▀▀▀▀▀▄█ [0;1;30;46m░[0;36m▌[0;1;30;46m░▒▓[0;1;36;40m▐[0;1;36;46m▓[0m [1;30;40m▀[0;1;30;46m▓[0;1;30;40m▀[0;36m▄[0;1;36;46m▒[0;36m▀[0m     [37m▄▄▄▄[0;1;37;47m▒▒▒▒▒░░[0m█▀▄[1;30;47m░▒[0m▀ [1;30m [0m
         [1;30m [0m  ▐█[1;30;47m░[0m█▀▄█▀ [36m█[0;1;36;46m░[0;36m▌[0;1;30m▐▌[0;1;30;46m▒▒░▒[0;36m█[0;1;30;46m░[0;36m█[0;1;30;46m░░[0;36m▐[0;1;30;46m░[0;36m▐[0;1;30;46m▒▓[0;1;30;40m▌[0;1;36;46m▓[0;1;36;40m▌[0;36m█▄█▀[0;37m▄▄▄▄█[0;1;37;47m░░▒▒▒▒▒░░░[0m▀▄ ▀█[1;30;47m░▒[0m ▄ [1;30m [0m
         [1;30m [0m  ███[1;30;47m░▒[0m▄▄█▌[36m▐[0;1;36;46m░[0;36m▐ [0;1;30;46m▓▒░[0;36m█[0;1;36;46m░▒░[0;1;30;46m░░▒[0m [1;30;46m░[0;36m▌[0;1;30;46m▒▓[0;1;30;40m▌[0;1;36;46m▒[0;1;36;40m▌[0;1;36;46m░[0;36m▀  [0;37m▀██████[0;1;37;47m░░░░░[0m██▌▐[1;30;47m▒[0m▄[1;30;47m░▒▒[0m ▀█ [1;30m [0m
-       [1;30m  [0m [1;30m /\copywrite of image.picture and font by havoc/integrity/\.   [0m
+       [1;30m  [0m [1;30m                                                               [0m
                [1;30m░[0m            [1;30m▓▄[0m [1;30m▒[0m                [1;30m░[0m               [1;30m▒[0m  [1;30m░[0m
               [1;30m░▓▀[0m   [1;30m▀▓▀▀[0m [1;30m▀▀▌▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▒▀▌▀▀▀▓▀▀▀▀▀▀▀▀[0m [1;30m▀▓▄▒[0m
            [1;30m  ▄▀░[0m                                                [1;30m░[0m [1;30m░▓▄▓[0m
@@ -55,7 +55,7 @@ Write-Host '
            [1;30m▄[0m               ▐[1;30;47m░░░░[0m▀ [1;30m▐[0;1;30;47m▓▓▓[0m [1;30;47m▓▓[0;1;30;40m▌[0m [1;30;47m▓▓▓[0m  [1;30;47m▓▓▓[0;1;30;40m▄[0;1;30;47m▓▓▓▓▓[0;1;30;40m▀[0m           [1;30;40m░[0m
                             ▀█▀    [1;30m▀[0;1;30;47m▒▒▒▒[0;1;30;40m▀[0m [1;30;40m▄[0;1;30;47m▒▒▒[0;1;30;40m▌▀[0;1;30;47m▒▒▒▒▒▒[0;1;30;40m▀▀[0m
             [1;30;40m░[0m                                                        [1;30;40m░[0m
-   [1;30;40m  [0m      [1;30;40m ▒[0m                    [1;30;40mSysOp: The Warden[0m           [1;30;40m [0m   [1;30;40m░[0m   [1;30;40m▒[0m
+   [1;30;40m  [0m      [1;30;40m ▒[0m                    [1;30;40m                 [0m           [1;30;40m [0m   [1;30;40m░[0m   [1;30;40m▒[0m
    [1;30;40m  [0m      [1;30;40m▀▓   ▒  ░     [0m     [1;30;40mCarrying 0-7 Day Warez[0m        [1;30;40m [0m    [1;30;40m▒░[0m [1;30;40m█▀[0m
    [1;30;40m     [0m     [1;30;47m█[0;1;30;40m▄■▓[0m [1;30;40m ▒   [0m    [1;30;40m   [0m [1;30;40mSomewhere in the 6o4[0m [1;30;40m    ░    [0m   [1;30;40m▒▓▄▓▌[0m
      [1;30;40m   [0m     [1;30;40m▒[0m [1;30;40m▀[0;1;30;47m█[0;1;30;40m▀[0m  [1;30;40m▄▄▌▄▐▄▄▄▓▄▄▄▄▄▒▄▄░▐▄▄▄▄▓▄▄▄▄▄▄▄▄▄▌▄[0m [1;30;40m█▄▄▒▄[0m [1;30;40m░[0m [1;30;40m▄▒[0m [1;30;40m▒[0m

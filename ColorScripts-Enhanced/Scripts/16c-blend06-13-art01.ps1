@@ -5,7 +5,7 @@
 # Source SHA-256: 18bdfe46bb111add7e687577071b5dc91ec7b907bf2f33103b1990d82d5b575d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 13-ART01.ANS by ville (blend sexual); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Alla koivupuun...
 # SAUCE Author: ville
 # SAUCE Group: blend sexual
@@ -31,7 +31,4 @@ Write-Host '
 [34m  [0;1;32mXXXX[0;34m [0;36mCOMMAND![0m                               [34m▀▐▄[0m          [34m░░ [0;37m [0;1;37;47m░█[0m█ [1;47m▐█▒[0m  ▐[1;47m█▌[0m
 [34m  [0;1;32mXXXX[0;34m [0;36mCOMMAND![0m                                                [37m█[0;1;37;47m░[0m█ █[1;47m█▒[0m▌ ▐▓▌
   [1;32mXXXX [0;36mCOMMAND![0m                                                [37m█▓▓ ▐█[0;1;37;47m▒[0m▌  ░
-  [1;32mXXXX[0m [36mCOMMAND![0m    [36mö, Finnish sky at night, birchtrees on the[0m   [37m░░[0m
-[37m  [0;1;32mXXXX[0m [36mCOMMAND![0m    [36mright. it''s for darkmind...  eh. and i will[0m
-[37m  [0;1;32mXXXX[0m [36mCOMMAND![0m    [36mdraw more for him..... after JOOJOOVITTufuK[0m
-[37m  [0;1;32mXXXX[0m [36mCOMMAND![0m'
+  [1;32m    [0m [36m        [0m    [36m                                          [0m   [37m░░[0m'

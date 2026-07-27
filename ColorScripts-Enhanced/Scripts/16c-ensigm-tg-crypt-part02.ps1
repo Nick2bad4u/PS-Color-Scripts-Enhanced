@@ -5,26 +5,26 @@
 # Source SHA-256: efe60ee958f90609ae80498c42e498078d0ffbefc1e566f27f130ba7519fe262
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-CRYPT.ANS by The Guardian (ensigm); released in ensigm and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 42-82
 # Columns: 1-80
 
 Write-Host '
-[1;30m  You Come To Th[0;32me Conclu[0;1;32msion It [0;1;37mIs Some Kind Of [0;1;32mCrypt. Y[0;32mou Knock [0;1;30mOn The Stone[0m
-[1;30mHard Walls, Tryi[0;32mng To Fi[0;1;32mnd Out I[0;1;37mf Anyone Is Insi[0;1;32mde. You [0;32mDont Hea[0;1;30mr Anything. Then[0m
-[1;30m    The Door Ope[0;32mns, Givi[0;1;32mng Out A [0;1;37mBlaring Screech[0;1;32m. You Wa[0;32mlk Into [0;1;30mThe Intense[0m
-[1;30mDarkness, And Al[0;32ml Of A S[0;1;32mudden Th[0;1;37me Door Closes, L[0;1;32meaving Y[0;32mou Engul[0;1;30mfed In Darkness.[0m
-[1;30m    Again The De[0;32mafening [0;1;32mLaugh St[0;1;37marts. You Feel T[0;1;32mhe Walls [0;32mClosing [0;1;30mIn On You,[0m
-[1;30m The Laughing Ge[0;32mts More [0;1;32mIntense, [0;1;37mYou Realize You[0;1;32mr Time I[0;32mn This L[0;1;30mife Is Up. You[0m
-[1;30mGet Down On Your [0;32mKnees A[0;1;32mnd Thank [0;1;37mGod For All Tha[0;1;32mt He Has [0;32mDone Fo[0;1;30mr You, Then You[0m
-[1;30mClose Your Eyes [0;32mAnd Wait [0;1;32mFor Dea[0;1;37mth To Come. Five [0;1;32mSeconds [0;32mLater T[0;1;30mhe Spiked Walls[0m
-[1;30m   Close In On Y[0;32mou Turni[0;1;32mng You I[0;1;37mnto A Bloody Pin [0;1;32mCushion[0;32m. A Trap [0;1;30mDoor Below You[0m
-[1;30m  Opens And Your [0;32mBloody [0;1;32mCarcass [0;1;37mDrops Into A Pil[0;1;32me Of Dea[0;32md And De[0;1;30mcaying Bodies.[0m
-[1;30m After Your Deat[0;32mh The Tr[0;1;32map Door [0;1;37mCloses And The W[0;1;32malls Go [0;32mBack To [0;1;30mTheir Original[0m
-               [1;30mS[0;32mtate. Th[0;1;32men The H[0;1;37morrible Laughing [0;1;32mStarts [0;32mUp Again[0;1;30m.[0m
-[1;31;41m▓[0m  [1;30;40mIn Another Pa[0;32mrt Of To[0;1;32mwn An Ol[0;1;37md Woman Is Lying [0;1;32mOn Her [0;32mDeath Be[0;1;30md, Unable To[0m   [1;31;41m░[0m
-[1;31;41m▓[0m  [1;30;40mTalk Or Move. [0;32mYet She [0;1;32mHears T[0;1;37mhe Intense Laugh[0;1;32ming. She [0;32mFeels S[0;1;30mhe Must Find[0m   [1;31;41m░[0m
-[1;31;41m█[0m                             [1;32;40mOu[0;1;37;40mt What It Is....[0;1;32;40m.[0m                              [1;31;41m▒[0m
+[1;30m                [0;32m        [0;1;32m        [0;1;37m                [0;1;32m        [0;32m         [0;1;30m            [0m
+[1;30m                [0;32m        [0;1;32m        [0;1;37m                [0;1;32m        [0;32m        [0;1;30m                [0m
+[1;30m                [0;32m        [0;1;32m         [0;1;37m               [0;1;32m        [0;32m        [0;1;30m           [0m
+[1;30m                [0;32m        [0;1;32m        [0;1;37m                [0;1;32m        [0;32m        [0;1;30m                [0m
+[1;30m                [0;32m        [0;1;32m        [0;1;37m                [0;1;32m         [0;32m        [0;1;30m          [0m
+[1;30m                [0;32m        [0;1;32m         [0;1;37m               [0;1;32m        [0;32m        [0;1;30m              [0m
+[1;30m                 [0;32m       [0;1;32m         [0;1;37m               [0;1;32m         [0;32m       [0;1;30m               [0m
+[1;30m                [0;32m         [0;1;32m       [0;1;37m                 [0;1;32m        [0;32m       [0;1;30m               [0m
+[1;30m                [0;32m        [0;1;32m        [0;1;37m                 [0;1;32m       [0;32m         [0;1;30m              [0m
+[1;30m                 [0;32m       [0;1;32m        [0;1;37m                [0;1;32m        [0;32m        [0;1;30m              [0m
+[1;30m                [0;32m        [0;1;32m        [0;1;37m                [0;1;32m        [0;32m        [0;1;30m              [0m
+               [1;30m [0;32m        [0;1;32m        [0;1;37m                 [0;1;32m       [0;32m        [0;1;30m [0m
+[1;31;41m▓[0m  [1;30;40m             [0;32m        [0;1;32m        [0;1;37m                 [0;1;32m       [0;32m        [0;1;30m            [0m   [1;31;41m░[0m
+[1;31;41m▓[0m  [1;30;40m              [0;32m        [0;1;32m       [0;1;37m                [0;1;32m         [0;32m       [0;1;30m            [0m   [1;31;41m░[0m
+[1;31;41m█[0m                             [1;32;40m  [0;1;37;40m                [0;1;32;40m [0m                              [1;31;41m▒[0m
 [1;31;41m█[0m              [1;31;41m░[0m          [1;31;41m█[0m                             [1;31;41m▓[0m        [1;31;41m█[0m             [1;31;41m▒[0m
 [1;31;40m■[0m              [1;31;41m▒[0m          [1;31;41m█[0m                             [1;31;40m█[0m        [1;31;41m█[0m             [1;31;41m▓[0m
 [1;31;40m·[0m      [1;31;41m [0m       [1;31;41m▒[0m          [1;31;40m■   [0m▄▄▄▄▄[47m     [0;40m▄▄▄▄[0m     [41m [0m      [1;31;41m█[0m        [1;31;40m■[0m             [1;31;41m▓[0m

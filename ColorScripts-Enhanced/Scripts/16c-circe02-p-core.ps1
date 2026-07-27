@@ -5,7 +5,7 @@
 # Source SHA-256: a1f22a47b69ce53c796d743aa281227b3281cc7580cc673b336c15a9973a824c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P-CORE.ANS by pesho aka pop-a (circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: coredump
 # SAUCE Author: pesho aka pop-a
 # SAUCE Group: circe
@@ -39,10 +39,10 @@ Write-Host '
 
 ----[ Saludos ]--------------------------------------------------------------↓--
 
-Primeramente quisiera saludar a todos mis compañer@s en Circe. Segundamente qui
-siera saludar a Helmut, Lisandro, Spektor, Coda, Nervioz, Javier, Chaco, Larry
-Simon, Sludge, Cromos, Sodi, Eze, Predicador, Mamani, Gallego, Werner, Gavilán
-Si bien de momento y para rato carezco de modem, puedes hacerme llegar tu memo
-al buzón del colegio escribiendo a tintxo@bruce-lee.com. Besos a tod@s,
-                                                                         Pesho.
+                                                                               
+                                                                              
+                                                                              
+                                                                              
+                                                                       
+                                                                               
 --------------------------------------------------------------------------------[0m'

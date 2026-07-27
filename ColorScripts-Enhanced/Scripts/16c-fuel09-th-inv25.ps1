@@ -5,7 +5,7 @@
 # Source SHA-256: 96376bcd082b02aaa7eede91b2c43824da37d00a118c89022929313650737644
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-INV25.ANS by thrasher (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: invisible 25line ad.
 # SAUCE Author: thrasher
 # SAUCE Group: fuel
@@ -39,11 +39,4 @@ Write-Host '
 [31m██[0;1;31;41m▐▄▐█▌[0;31m▌ [0;1;37m▐███████[0;1;37;47m▀░[0;1;31;47m░░▄▄[0;1;31;40m█████████[0;1;31;43m▓▒[0;33m▄[0;1;31m [0m▀██[1;31;47m░▒▀▓▓[0;1;31;40m████████████[0;1;31;43m▓▀[0;1;31;40m▀▀[0;33m▀[0;1;31m ░[0;33m▄▄▀[0;1;37m ▄████[0;1;37;47m▓▀[0;1;31;47m░▄█[0;1;31;41m▀░[0m
 [31m██[0;1;31;41m░[0;1;31;47m▓▓[0;1;31;41m█░[0;31m  [0;1;37m██████[0;1;37;47m▓░[0;1;31;47m░▄[0;1;31;40m██████████████[0;1;31;43m▓▄▒[0;33m▄▄[0;1;31m [0m▀▀[1;31;47m░▀[0;1;31;40m███[0;1;31;43m▓▒[0;1;31;40m▀▀▀▀[0;33m▀[0;1;31m [0;33m▄▄[0;1;31m▄▄▄[0;1;31;43m░▄░░[0;33m▀[0;1;37m ▄███[0;1;37;47m▓▓▀[0;1;31;47m░[0m█[1;31;47m█[0;1;31;41m▓░[0;31m██[0m
 [31m▐█[0;1;31;41m▀██▌[0;31m▌ [0;1;37m▐████[0;1;37;47m▓▀[0m█[1;31;47m▄▓[0;1;31;40m███████████████████[0;1;31;43m▓▄▓[0;1;31;40m▄▄▄▄▄▄░░▄▄[0;1;31;43m▄▄▓[0;1;31;40m██████[0;1;31;43m▓▓[0;1;31;40m▀ [0;1;37;40m▄███[0;1;37;47m▓▀░[0;1;31;47m░▄[0;1;31;41m▓[0;1;31;47m█[0;1;31;41m▀░[0;31m█▓▄[0m
-[31m ▀▓[0;1;31;41m▀[0;31m█▀  [0;1;37m█████[0;1;37;47m░[0;1;31;47m░▓[0;1;31;40m████████████████████████████▌▀████▄██████[0;1;31;43m▓▓[0;33m▀[0;1;37m░▄█[0;1;37;47m▓▒▀[0m█[1;31;47m░▄▓[0;1;31;41m▓▓▀[0;31m▄[0;1;31;41m░[0;31m██▄█[0m
-
-[37mokay, this 25liner is for o2sin''s invisible...[0m
-[37mi didn''t know if it shoul be a matrix or something, so, put your stats or       [0m
-[37mcommands or whatever on, over, under the ansi ;) wherever...[0m
-
-[37mpayed reqs or trades for trauma only.[0m
-[37mthrasher@netlink.be[0m'
+[31m ▀▓[0;1;31;41m▀[0;31m█▀  [0;1;37m█████[0;1;37;47m░[0;1;31;47m░▓[0;1;31;40m████████████████████████████▌▀████▄██████[0;1;31;43m▓▓[0;33m▀[0;1;37m░▄█[0;1;37;47m▓▒▀[0m█[1;31;47m░▄▓[0;1;31;41m▓▓▀[0;31m▄[0;1;31;41m░[0;31m██▄█[0m'

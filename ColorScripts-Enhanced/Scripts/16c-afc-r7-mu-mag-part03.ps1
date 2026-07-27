@@ -5,7 +5,7 @@
 # Source SHA-256: e7e199c927d0bad117462e35056619ae115baaff6142b64cfc018f572526cc34
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MU-MAG.ANS by Mule (afc-r7); released in afc-r7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 84-128
 # Columns: 1-80
 
@@ -44,14 +44,6 @@ Write-Host '
            [1;36m▐[0;36;44m▐[0m         [1;36;44m▌[0;36m▌[0;1;36m▐[0;36;44m▐[0m    [1;36;44m▌[0;36m▌[0;1;36m▐[0;1;36;44m      [0;36m▌[0;1;36m▐[0;1;36;44m [0;36m▌[0;1;36m▐[0;1;36;44m      [0;36m▌[0;1;36m▐[0;36;44m▐[0m    [1;36;44m▌[0;36m▌[0;1;36m▐[0;36;44m▐[0m   [1;36;40m▐[0;36;44m▐[0m
             [1;36;40m▌[0m         [1;36;40m▐  ▌    ▐  [0;1;36;44m█[0;36;44m▄▄▄▄[0;36;40m█  [0;1;36;40m█  █[0;36;44m▄▄▄▄█[0m  [1;36;40m▌    ▐  ▌    [0;36m▌[0m
 
-                                  [36m= [0;1;36mMAGICAN [0;36m=[0m
+                                  [36m  [0;1;36m        [0;36m [0m
 
-          [36m- [0;1;36m+4[0;36m9-[0;1;36m4[0;36m21-[0;1;36m4[0;36m841163 [[0;1;36mN[0;36mode [0;1;36m1[0;36m] - [0;1;36mZ[0;36my[0;1;36mX[0;36mEL [0;1;36m1[0;36m9.[0;1;36m2[0;36mk - [0;1;36mS[0;36mys[0;1;36mO[0;36mp: [0;1;36mB[0;36myte/[0;1;36miW [0;36m-[0m
-[36m   - [0;1;36mC[0;36mo[0;1;36mS[0;36mys[0;1;36mO[0;36mps: [0;1;36mF[0;36mish/[0;1;36miW[0;36m, [0;1;36mT[0;36mhe [0;1;36mW[0;36malker/[0;1;36miW [0;36m- [0;1;36mA[0;36mdamik [0;1;36mS[0;36moftware [0;1;36mG[0;36mroup [0;1;36mS[0;36mupport [0;1;36mS[0;36mite -[0m
-[36m - [0;1;36mC[0;36mybernetic [0;1;36mD[0;36mreams [0;1;36mD[0;36mistribution [0;1;36mS[0;36mite - [0;1;36mD[0;36mynamic ([0;1;36mA[0;36mmiga) [0;1;36mG[0;36merman [0;1;36mH[0;36meadquarters -[0m
-           [36m- [0;1;36mE[0;36mniac [0;1;36mG[0;36merman [0;1;36mH[0;36meadquarters - [0;1;36mI[0;36mmbhobia [0;1;36mD[0;36mistribution [0;1;36mS[0;36mite -[0m
-     [36m- [0;1;36mJ[0;36meskola! [0;1;36mP[0;36mroductions [0;1;36mG[0;36merman [0;1;36mH[0;36meadquarters - [0;1;36mL[0;36megend [0;1;36mD[0;36mesign [0;1;36mN[0;36morth [0;1;36mH[0;36most -[0m
-        [36m- [0;1;36mO[0;36mnyx [0;1;36mG[0;36merman [0;1;36mH[0;36meadquarters - [0;1;36mS[0;36mynergy [0;1;36mD[0;36mesign [0;1;36mD[0;36mistribution [0;1;36mS[0;36mite -[0m
-         [36m- [0;1;36mT[0;36mhe [0;1;36mB[0;36mit[0;1;36mB[0;36mlaster [0;1;36mD[0;36mistribution [0;1;36mS[0;36mite - [0;1;36mAFC D[0;36mistribution [0;1;36mS[0;36mite -[0m
-
-                                                                    [34m[[0;1;34mM[0;36mU[0;1;36mL[0;1;37mE/[0;1;36mA[0;36mF[0;1;34mC[0;34m][0m'
+          [36m- [0;1;36m+4[0;36m9-[0;1;36m4[0;36m21-[0;1;36m4[0;36m841163 [[0;1;36mN[0;36mode [0;1;36m1[0;36m] - [0;1;36mZ[0;36my[0;1;36mX[0;36mEL [0;1;36m1[0;36m9.[0;1;36m2[0;36mk - [0;1;36mS[0;36mys[0;1;36mO[0;36mp: [0;1;36mB[0;36myte/[0;1;36miW [0;36m-[0m'

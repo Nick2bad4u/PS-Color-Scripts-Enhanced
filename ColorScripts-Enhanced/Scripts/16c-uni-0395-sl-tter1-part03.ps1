@@ -5,7 +5,7 @@
 # Source SHA-256: c8edbe25172f99fbf7b61510ddf3f09ab36f4f6749e17584909bb4f46cfdc0a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-TTER1.ANS by Surreal Logic (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 99-130
 # Columns: 1-80
 
@@ -23,22 +23,22 @@ Write-Host '
       [1;30m▀▀[0;1;30;47m▓█[0;1;30;40m▓[0;1;30;47m█▓▓[0;1;30;40m▀▀[0m [1;30;47m▓▓[0;1;30;40m▓[0;1;30;47m█▓[0;1;30;40m▀▀[0m [1;30;47m▓[0;1;30;40m▀[0m        [1;30m▀▀[0;1;30;47m▓[0;1;30;40m▓▀[0m [1;30;40m▀[0;1;30;47m▓[0;1;30;40m▄[0m [1;30m▀▀▓[0;1;30;47m▓[0;1;30;40m▀[0m     [1;30;40m▀▀[0;1;30;47m▓▒[0;1;30;40m▀▀▄[0;1;30;47m▓▓[0;1;30;40m▀▀[0m [1;30;40m▀[0;1;30;47m▓▓[0;1;30;40m▓[0;1;30;47m█▓[0;1;30;40m▀▀[0m
 
 
-                           [1;30m{[0;1;37m*[0;1;30m}[0m [1;37mt[0mERM[1mi[0mTE [1mt[0mERRACE [1;30m{[0;1;37m*[0;1;30m}[0m
+                           [1;30m [0;1;37m [0;1;30m [0m [1;37m [0m   [1m [0m   [1m [0m       [1;30m [0;1;37m [0;1;30m [0m
 
-                  o[1;30mPS[0m: [1mNivenh[0m <[1mRELiC[0m∙[1mpMT[0m> [1m∙[0m [1mTooN[0m [1mGooN[0m <[1miCE[0m>
+                   [1;30m  [0m  [1m      [0m  [1m     [0m [1m   [0m  [1m [0m [1m    [0m [1m    [0m  [1m   [0m 
 
                                [1m1[0m-[1m214[0m-[1m288[0m-[1m3211[0m
-                   [1m1[0m-[1m214[0m-[1m288[0m-[1m32xx[0m [1;30m[[0mfor [1mi[0mMPULSE guyZ only![1;30m][0m
+                   [1m [0m [1m   [0m [1m   [0m [1m    [0m [1;30m [0m    [1m [0m                 [1;30m [0m
 
-            a[1;30mFF[0mi[1;30mLS[0m - [1mi[0mCE, [1mE[0mvolut[1mi[0mon [1mE[0mmag, [1mR[0mEL[1mi[0mC, [1mu[0mNDER[1mg[0mROWN [1me[0mMAG
-                   - [1mJi[0mHAD, [1mP[0maramount, [1mFi[0mRE, [1ma[0mCE [1me[0mMAG, [1mN[0mokturnal
-                   - [1mi[0mMPULSE [1mB[0mBS [1mA[0mlpha [1mSi[0mte
-           d[1;30mEAL[0mi[1;30mNS[0m - [1mA[0mrt, [1mA[0mrt [1mU[0mt[1mi[0ml[1mi[0mt[1mi[0mes, [1mP[0mrogramm[1mi[0mng [1;30m[[0mC[1;30m,[0mPas[1;30m,[0mAsm[1;30m][0m
+             [1;30m  [0m [1;30m  [0m   [1m [0m    [1m [0m     [1m [0m   [1m [0m     [1m [0m  [1m [0m   [1m [0m    [1m [0m     [1m [0m   
+                     [1m  [0m     [1m [0m          [1m  [0m    [1m [0m   [1m [0m     [1m [0m        
+                     [1m [0m       [1m [0m   [1m [0m     [1m  [0m  
+            [1;30m   [0m [1;30m  [0m   [1m [0m    [1m [0m   [1m [0m [1m [0m [1m [0m [1m [0m    [1m [0m       [1m [0m   [1;30m [0m [1;30m [0m   [1;30m [0m   [1;30m [0m
 
-[1m [0m                           [1mk[0mAWL [1mi[0mT [1mn[0mOW [1mj[0m00 [1mf[0m00!
-                  [1m([0mhmm .. now who does that sound like? [1m;)[0m
+[1m [0m                           [1m [0m    [1m [0m  [1m [0m   [1m [0m   [1m [0m   
+                  [1m [0m                                     [1m  [0m
 
 
            [1;30m────[0m────[1m────────────────────────────────────────[0m────[1;30m────[0m
-           Artwork by Surreal Logic of [1mUNiON[0m Productions[1;30m/[0mMarch 1995
+                                       [1m     [0m            [1;30m [0m          
            [1;30m────[0m────[1m────────────────────────────────────────[0m────[1;30m────[0m'

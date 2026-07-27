@@ -5,7 +5,7 @@
 # Source SHA-256: d533923bb9c95755f3d91335376b06c7b001ff363d7f41ce5f25ef1d2c318db2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-FUCK.ANS by Thrasher (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fuck method man@#!$
 # SAUCE Author: Thrasher
 # SAUCE Group: Fuel Productions
@@ -37,27 +37,4 @@ Write-Host '
 [1;32;42m▀▄▄[0;1;32;40m█[0;1;32;42m▀▀[0;32m██▀▄▐█▌[0;37m [0;33m▄[0;1;30;43m▄▌▀[0;1;31;43m  ▄█[0;1;31;40m████[0;1;31;47m▀▓▓▀[0;1;31;40m████[0;1;31;43m▄▄[0;33m█▄▄[0;1;31m [0;33m▀[0;1;31;43m▀[0;1;31;40m███████[0;1;31;46m▒[0;1;31;40m████████[0;1;31;47m▓[0;1;31;40m▀▀░ [0;33m▄▄█████▀▀[0;1;30;43m░[0;33m▄█[0;1;31;43m▄▄▀▐[0m
 [1;32;42m▀▀[0;32m███[0;1;32;42m▄▄▌[0;32m███▓ [0;33m▄[0;1;30;43m▐▀░[0;1;31;43m  [0;1;31;40m███[0;1;31;47m▌▀░▄▐[0;1;31;40m█[0;1;31;47m▌[0;1;31;40m█████████[0;1;31;43m▓▄[0;33m▄▄[0;1;31m [0;33m▀[0;1;31m▀[0;1;31;43m▀[0;1;31;40m███[0;1;31;46m▄[0;1;31;40m████[0;1;31;47m▀[0;1;31;40m▀[0m▀[1;31m [0;33m▄▄[0;1;31;43m▄░[0;33m█▀[0;1;30;43m▌[0;33m▀[0;1;30;43m░[0;33m▄▄[0;1;31;43m▄▄▄▓▀▀░   [0m
 [32m██[0;1;32;42m▀▓█[0;1;32;47m▓[0;1;32;42m▌[0;32m████░[0;37m [0;33m█[0;1;30;43m▄[0;1;31;43m   ▐[0;1;31;40m██[0;1;31;47m▌ ▄[0;1;31;40m██[0;1;31;47m▐[0;1;31;40m█[0;1;31;47m▄[0;1;31;40m███[0;1;31;47m▓▓[0;1;31;40m█████████[0;1;31;43m▄[0;1;31;40m▄[0;33m▄[0;1;31m [0;33m▀▀[0;1;31m▀▀▀ [0;33m▄▄[0;1;31m▄[0;1;31;43m▄▄▀▌▄[0;33m█[0;1;31m [0;33m▐[0;1;31;43m▄[0;1;31;40m██[0;1;31;43m▓▀▀░      ▄ [0m
-[32m██[0;1;32;42m▀▀▌▀[0;32m████▓░[0;33m▐[0;1;30;43mthr![0;1;31;43m ▓[0;1;31;40m██[0;1;31;47m▄[0;1;31;40m████[0;1;31;47m▄[0;1;31;40m█████████████████████[0;1;31;43m▄▄▄▄▒▓[0;1;31;40m█[0;1;31;43m▓▄[0;1;31;40m█[0;1;31;43m▀▀▌ [0;33m█▄[0;1;31;43m▐▀[0;33m██████[0;1;31;43m▄░▀▓▌[0;33m██[0m
-
-
-[37mthis ansi was originally requested by method man for his board primitive carnage[0m
-
-[37mbut since he decided to act like a backstabbing ass, and didn''t give me my part[0m
-[37mof the trade. i''ve decided to give it to some guys who asked me something a long[0m
-[37mtime ago, but i didn''t get round to do them something.[0m
-
-
-[37mso this one''s for:[0m
-
-[37mmassmurderer (forgot the boardname dude)[0m
-[37melastic''s (ditto:)[0m
-[37mphobiuh''s fluph[0m
-[37mmartz''s fallen empires[0m
-
-[37mand i think i''m going to use it myself for trauma!@#[0m
-
-[37mwant an ansi like this for your board?[0m
-[37mreach me at: thrasher[0;1;32m@[0mnetlink.be or on irc (#fuel #ansi)
-
-pay requests please.
-ansi as shown: 10 us dollar.[0m'
+[32m██[0;1;32;42m▀▀▌▀[0;32m████▓░[0;33m▐[0;1;30;43mthr![0;1;31;43m ▓[0;1;31;40m██[0;1;31;47m▄[0;1;31;40m████[0;1;31;47m▄[0;1;31;40m█████████████████████[0;1;31;43m▄▄▄▄▒▓[0;1;31;40m█[0;1;31;43m▓▄[0;1;31;40m█[0;1;31;43m▀▀▌ [0;33m█▄[0;1;31;43m▐▀[0;33m██████[0;1;31;43m▄░▀▓▌[0;33m██[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 131f42efbead355851c09e3a9b891fd97df50541240136323a58f471866cdd7d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-NEOSP.ANS by the knight (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neosporin matrix
 # SAUCE Author: the knight
 # SAUCE Group: fuel
@@ -38,9 +38,4 @@ Write-Host '
 [1;35;45m░[0;1;35;40m▀[0;35m▀  ▄[0;1;35m▄[0;35m ▐▀[0;1;35;45m██▓▒[0;35m▓[0;37m [0;1;35;45m░[0;35m [0;31m▀[0;1;35;45m▒[0;35m▌▐[0;1;35;45m▀▀▓▒░[0;35m▄[0;37m [0;1;31m▄[0;31m▄[0;1;31;41m▄▓▒[0;31m▌[0;1;35m▐[0;1;35;47m▄[0;35m▐▀[0;1;35m▐[0;35m▄[0m   [31m ▐[0;1;31;41m▄▓▒[0;31m▌[0m   [34m·[0;1;34m%[0;34m·[0;37m command [0;34m·[0;1;34m%[0;34m·[0;37m  [0;32m ▀[0;1;32;42m▒▓[0;32m▓▓[0m
 [35m ▄▄█[0;1;35;45m▒▓▓█[0;1;35;40m▄[0;35m ▓[0;1;35;45m▀▀[0;35m▀▀▀[0;37m [0;35m▀▀[0;31m [0;35m ▀▀[0;31m ▄▄▄[0;1;31m▄[0m [31m [0;1;31;41m▓[0;1;31;47m▓▒[0;1;31;41m▄[0;31m [0;35m▐[0;1;35m▌[0;35m▐[0;1;35;45m▒▓[0;35m▌[0;37m [0;31m░[0;37m [0;31m▒▓█[0;1;31;41m▄▓[0;1;31;47m▀[0;1;31;40m▄▄[0;31m▄▄      [0m            [1;32m▄[0;1;32;42m▓▒[0;32m▀[0m
 [35m█[0;1;35;45m░░[0;35m▄[0;1;35;45m▒▒▒▒[0;35m▀ ▄▄ [0;37m [0;31m▄▄[0;1;31m▄▄[0;1;31;41m▄[0;31m██[0;1;31;41m▀▀[0;31m█▀▀▀▀[0;37m   [0;1;31m▀▀[0;1;31;41m░[0;31m [0;35m▐[0;1;35m▒[0;35m▄[0;1;35;45m░[0;35m▀[0m     [31m   [0;1;31m▀▀▀[0;31m [0;1;31m▀▀[0;31m▀[0;1;31m▀[0;31m▀▀[0;37m [0;31m▀[0;37m [0;31m▀ [0;32m  ▀ ▀[0;37m [0;1;32m▀[0;32m▀[0;1;32m▀▀[0;32m [0m
-[35m ▄[0;1;35;45m░░░░[0;35m▀ ▄[0;1;35;45m▓▒[0m [31m▒▓██▀▀▀▀ ▄▄▄▀▀▀[0;37m [0;35m▀▄[0;37m    [0;35m▄▀ [0;1;35m░[0m         [31m [0m
-
-[1;30mthis matrix is for [0mneosporin[1;30m. smallscale is more fun than i thought. tnx[0m
-[1;30mto burps for advice.[0m [1;30mrage: you might have to cut off the 24th line.[0m
-
-                                                              the knight[36m([0;37mfuel[0;36m)[0m'
+[35m ▄[0;1;35;45m░░░░[0;35m▀ ▄[0;1;35;45m▓▒[0m [31m▒▓██▀▀▀▀ ▄▄▄▀▀▀[0;37m [0;35m▀▄[0;37m    [0;35m▄▀ [0;1;35m░[0m         [31m [0m'

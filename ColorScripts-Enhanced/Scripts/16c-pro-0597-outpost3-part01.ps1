@@ -5,7 +5,7 @@
 # Source SHA-256: 91a400967355dddc0fd9a9b2977882bf272088929026df393ce6435c39126166
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OUTPOST3.ANS by Necrophidius (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -57,6 +57,4 @@ Write-Host '
                [1;30m░    [0;35m▒▓█▓▒░ ░[0m        [1;33m░▒▓██▓▒░[0m        [35m▒▓█▓▒░ ░    [0;1;30m░[0m
                [1;30m▒░[0m           [35m▒▓█▓▒░ ░[0m        [35m▒▓█▓▒░ ░[0m           [1;30m░▒[0m
                [1;30m▓▒░[0m                  [35m▒▓█▓▒░ ░[0m                  [1;30m░▒▓[0m
-               [1;30m█▓▒░ ·[0m     [1;30m∙[0m■[1m[[0ma[1;30mNZ[0mi [1;30mB[0my [1;30mN[0me[1;30mCR[0mo[1;30mPH[0mi[1;30mD[0miu[1;30mS[0;1;37m][0m■[1;30m∙[0m       [1;30m· ░▒▓█[0m
-
-'
+               [1;30m█▓▒░ ·[0m     [1;30m∙[0m■[1m[[0ma[1;30mNZ[0mi [1;30mB[0my [1;30mN[0me[1;30mCR[0mo[1;30mPH[0mi[1;30mD[0miu[1;30mS[0;1;37m][0m■[1;30m∙[0m       [1;30m· ░▒▓█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9e91c67658a0eb4021663f11255ed0e3d6d87767cabb76e0959f804460db048d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-HIGH2.ANS by Proctowhatever (SeNSE); released in sense10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spOrk!
 # SAUCE Author: Proctowhatever
 # SAUCE Group: SeNSE
@@ -32,14 +32,14 @@ Write-Host '
      [35m`[0m   [37m [0;1;35m`[0;35m$[0;1;35mP"[0;35m``[0;37m [0;35m`[0m   [37m [0;35m`[0;1;35m$[0;35mP[0;1;35m"`[0;35m`[0;37m [0;35m`[0m   [37m [0;1;35m`[0;35m$[0;1;35mP"[0;35m``[0;37m [0;1;35m`[0m    [35m`[0;1;35m$[0;35mP[0;1;35m"`[0;35m`[0;37m [0;35m`[0m   [37m [0;35m`$[0;1;35mP[0;35m"[0;1;35m``[0m [1;35m`[0m    [35m`[0;1;35m$[0;35mP[0;1;35m"[0;35m`[0;1;35m`[0m
           [1;30m_[0;1;35m''[0m           [1;35m''[0m           [1;35m''[0m           [1;35m''[0m           [1;35m''[0m     [1;30m,$,[0m   [1;35m''[0m
      [1;30m_,╖g$$,[0m                                                    [1;30m+$$$$#╓,.[0m
-  [1;30m `ⁿ$$$$$$$$g,∙[0m   [1;35m·-[0;35m1[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m6[0;1;35m»[0m [1;30mhigh casualties[0m     [1;30m?$$$P`[0m     [1;30m.[0m
-      [1;30m`$$$$$$''[0m     [1;35m·-[0;35m2[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m7[0;1;35m»[0m [1;30mhigh casualties[0m     [1;30m:$$$[0m        [1;30m:[0m
- [1;30m   _,g$$$$$l[0m      [1;35m·-[0;35m3[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m8[0;1;35m»[0m [1;30mhigh casualties[0m   [1;30m_,$$$$,_[0m    [1;30m_,l[0m
- [1;30m`?$$$$$P╜╜?$,[0m     [1;35m·-[0;35m4[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m9[0;1;35m»[0m [1;30mhigh casualties[0m    [1;30m`╙$$$$$$SS$$$$b[0m
-   [1;30m$P`[0m       [1;30m`+.[0m   [1;35m·-[0;35m5[0;1;35m»[0m [1;30mhigh casualties[0m  [1;35m·-[0;35m0[0;1;35m»[0m [1;30mhigh casualties[0m      [1;30m`$ⁿ`[0m     [1;30m`?`[0m
+  [1;30m              [0m   [1;35m  [0;35m [0;1;35m [0m [1;30m               [0m  [1;35m  [0;35m [0;1;35m [0m [1;30m               [0m     [1;30m      [0m     [1;30m [0m
+      [1;30m        [0m     [1;35m  [0;35m [0;1;35m [0m [1;30m               [0m  [1;35m  [0;35m [0;1;35m [0m [1;30m               [0m     [1;30m    [0m        [1;30m [0m
+ [1;30m            [0m      [1;35m  [0;35m [0;1;35m [0m [1;30m               [0m  [1;35m  [0;35m [0;1;35m [0m [1;30m               [0m   [1;30m        [0m    [1;30m   [0m
+ [1;30m        ╜╜   [0m     [1;35m  [0;35m [0;1;35m [0m [1;30m               [0m  [1;35m  [0;35m [0;1;35m [0m [1;30m               [0m    [1;30m ╙             [0m
+   [1;30m   [0m       [1;30m   [0m   [1;35m  [0;35m [0;1;35m [0m [1;30m               [0m  [1;35m  [0;35m [0;1;35m [0m [1;30m               [0m      [1;30m    [0m     [1;30m   [0m
    [1;30m''[0m                                                                [1;30m''[0m        [1;30m:[0m
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mYeee.. goody, this one turned out decent. :)  High Casualties - 403-258-2200,[0m
-[1;30mNUP is "dark justice".  It''s a SeNSE[0m [1;30mdistro site dontcha know. :)[0m
+[1;30m                                                                             [0m
+[1;30m                                    [0m [1;30m                            [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a5c6e7caf81e8972c1004ec6009dc8cba267561b47d5af156af7e5374b0e515f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-BMBNE.ANS by flux (bamboiousjoh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bmbnews
 # SAUCE Author: flux
 # SAUCE Group: bamboiousjoh
@@ -25,5 +25,4 @@ Write-Host '
 [1;30m====[0;36m ░[0;30;46m▓[0;36;40m░ [0;1;30;40m=[0;36m ▀▀▀▀▀▀▀▀▀█[0;1;36;46m [0;30;46m░░░[0;36;40m░[0;30;46m▓[0;36;40m [0;1;30;40m===================================================[0m
                       [36m░[0;30;46m▓[0;36;40m░[0;37;40m   [0m
 
-[37;40m--[0m
-[37;40meh.. sir death inspired.. ;) blame me, nah.. for bamboosh: use this ;) hehe...[0m'
+[37;40m--[0m'

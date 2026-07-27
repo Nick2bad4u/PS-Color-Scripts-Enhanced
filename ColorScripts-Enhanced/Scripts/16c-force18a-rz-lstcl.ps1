@@ -5,7 +5,7 @@
 # Source SHA-256: 3894f40d07b76154a3a5b5c0d2fe2f797e50c7b5a137b0d4587aa1798df6102f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZ-LSTCL.ANS by Rzarector (fOrce prOduktiOns); released in force18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lASt CAllERZ
 # SAUCE Author: Rzarector
 # SAUCE Group: fOrce prOduktiOns
@@ -30,7 +30,7 @@ Write-Host '
      [1;31m░▓[0;1;31;47m░▀▓▓[0;1;31;40m█[0;1;31;43m▓▓▓▓▓▓[0;1;31;40m██[0;1;31;47m▓[0;1;31;40m▌░[0m            [1;30m░[0m                                     [1;30m░▌[0m   [1;30m|[0m
       [1;31m░[0m ▀▀[1;31m▀▓[0;1;31;47m▓▓[0;1;31;40m█▓▀▀▀ [0m             [1ms[0m t a e s i s [1m/[0m [1m2[0m [1;30m∙[0m [1ml[0m a s t [1;30m∙[0m [1mc[0m a l l e r s  [1;30m|[0m
 [1;30m---∙------[0m [1;31m░[0m [1;30m-[0m [1;31m░[0m [1;30m----------- ------------------------------∙------------------+[0m
- [1;30m       [0mc[1;30maller..                 [0md[1;30mate..         [0mt[1;30mime..        [0mb[1;30maud..[0m          [1;30m|[0m
+ [1;30m       [0m [1;30m                        [0m [1;30m              [0m [1;30m             [0m [1;30m     [0m          [1;30m [0m
 [1;30m- ---------------------------------------------------------------------------[0m [1;30m+∙[0m
 
         rzarector                11/11/96       04:20         33600           [1;30m|[0m

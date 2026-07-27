@@ -5,7 +5,7 @@
 # Source SHA-256: a1e7daaa5d35a46a47c359a0871e01720e4e00974ed03f00988feec3d924f08d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-OO.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -56,7 +56,7 @@ Write-Host '
             [32m▀  [0;33m█[0;1;30;43mJ[0m [32m██▀[0m             [36m300 [0;1;34mmeg H[0;34mD[0m               [32m▀  [0;33m██ [0;32m██▀[0m
               [1;30m▐[0;33m█[0;1;30;43mO[0;33m▌[0;32m▀[0m         [1;36mCD-RO[0;36mM «∙» [0;1;34m20,0[0;34m00+ F[0;1;30miles[0m         [1;30m▐[0;1;30;43m:([0;33m▌[0;32m▀[0m
                [1;30;43m▌R[0m               [1;36;40m1[0;36m2oo t[0;1;34mo 14,[0;34m4oo[0m                [1;30;43m▌[0;33m█[0m
-              [1;30m▐[0;1;30;43m▌N[0;33m▌[0m            [1;36m100 [0;36m+ Me[0;1;34mssage [0;34mSubs[0m             [1;30m▐[0;1;30;43m:)[0;33m▌[0m
+              [1;30m▐[0;1;30;43m▌ [0;33m▌[0m            [1;36m    [0;36m    [0;1;34m      [0;34m    [0m             [1;30m▐[0;1;30;43m  [0;33m▌[0m
                [1;30;43m▌[0;33m█ ────────[0;1;33m─────────ATOMiC''93!─────[0;1;37m─────────── [0;1;30;43m▌[0;33m█[0m
-              [1;30m▐[0;1;30;43m▌[0;33m█▌ Make ANSi, n[0;1;33mot love.[0m        [1;33mNo, wa[0;1;37mit...:) [0;1;30m▐[0;1;30;43m:([0;33m▌    [0;34mB[0;1;34mj[0;36mo[0;1;34mr[0;34mn[0m
+              [1;30m▐[0;1;30;43m▌[0;33m█▌             [0;1;33m        [0m        [1;33m      [0;1;37m        [0;1;30m▐[0;1;30;43m  [0;33m▌    [0;34m [0;1;34m [0;36m [0;1;34m [0;34m [0m
                [1;30;43m█[0;33m█ ─────────────────AT[0;1;33mOMiC''93!───────────[0;1;37m───── [0;1;30;43m█[0;33m█  [0;31mATOM[0;1;33mi[0;31mC H[0;1;33me[0;31mad[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b510d3e27656c57af7b515c31be3436919cd0bca69883747c81279bf206da607
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RT-LOGO1.ANS by riptide (blade productions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo collection 1
 # SAUCE Author: riptide
 # SAUCE Group: blade productions
@@ -48,7 +48,7 @@ Write-Host '
       [1;30m |[0;34m■[0;37m ▀[0;1;30;47m▒[0;1;30;40m▀[0m [34m█▄[0;36m▀[0;1;36;46m▀[0;36m▀[0m [37m▀▀██[0;36m▀[0;1;30m▄[0m▀[1;30;47m▒[0;1;30;40m▀[0;34m▄█▄[0;37m▀█▀[0;34m■█▌[0;36m▀[0;1;36;46m▀[0;36m█▄[0;37m▀[0;1;30;47m▒[0;1;30;40m▀[0m▐[1;30;47m░▒[0;36m▀[0m [34m▄[0;37m▀[0;1;30;47m▒[0;1;30;40m▀[0;34m▐▌[0;36m▀[0;1;36;46m [0;36m▀[0;1;30m▄▀[0;1;30;47m▒[0m▀[36m▄█[0;1;36;46m▀[0;36m▀[0;1;30m▄[0m [1;30m|[0m [34m▀[0m
       [34m▄[0;1;30m|▀▓▀■[0;34m▄███▄[0;1;30m_▀[0;34m■▀[0;1;30m▀■_▀[0;34m▀[0;1;30m▓▀▀_[0;34m▀[0;1;30m▓▀_▀[0;34m▄██▄[0;1;30m■▀_[0;34m▄[0;1;30m_▀▓[0;34m■▄■▀█▀[0;1;30m▀[0;34m▄██▄■[0;1;30m▀▀▀■▀_▓▀▀▓▀|[0;34m▄[0m
        [1;30m|[0;34m■[0m [1;30m/[0m [34m ▀▀[0m  [1;30m [0m               [34m■▀▀[0m [34m▀■[0m               [34m▀█▌[0m         [1;30m\[0m [34m■[0;1;30m|[0m
-       [1;30m|/[0m  [1;30m.[0;1;36mF[0;1;30m.[0m [1;36mF[0;36mile menu[0m     [1;30m.[0m [1;30m.[0m                        [34m▀■[0m          [1;30m\|[0m
+       [1;30m  [0m  [1;30m [0;1;36m [0;1;30m [0m [1;36m [0;36m        [0m     [1;30m [0m [1;30m [0m                        [34m▀■[0m          [1;30m  [0m
        [1;30m|[0m   [1;30m.[0m [1;30m.[0m               [1;30m.[0m [1;30m.[0m               [1;30m.[0m [1;30m.[0m                   [1;30m|[0m
        [1;30m|[0m   [1;30m.[0m [1;30m.[0m               [1;30m.[0m [1;30m.[0m               [1;30m.[0m [1;30m.[0m                   [1;30m|[0m
        [1;30m|[0m   [1;30m.[0m [1;30m.[0m               [1;30m.[0m [1;30m.[0m               [1;30m.[0m [1;30m.[0m                   [1;30m|[0m

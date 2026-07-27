@@ -5,7 +5,7 @@
 # Source SHA-256: d65b5470438a99905b9344b8fff6162b0901802155a757ed224203db1839c021
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-BOOYA.ICE by Misfit (iCE iCE baby..); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jive Soda
 # SAUCE Author: Misfit
 # SAUCE Group: iCE iCE baby..
@@ -44,6 +44,4 @@ Write-Host '
           [31m░▓[0;1;31;41m▄▌[0;1;33;41m░[0;31m▌[0;1;30m [0m    [1;30m░▒▓█[0m [33m [0;31m░[0;1;31;41m█▌[0;31m▌ [0;37m  [0;1;30m [0;31m▐[0;1;31;41m ▄▓[0;31m█[0;37m [0;31m█[0;1;31;41m░▄▌[0;31m▌[0;1;30m [0m  [31m ▐[0;1;31;41m▐▓[0;31m░ [0;1;30m ▀▄[0m      [1;30m [0;31m▒█[0;1;31;41m▓▌[0;31m▌[0m
           [1;30m [0;1;31;41m▐▓▒░[0;31m█▄▄■[0;1;30m ▄█▀▀[0m  [33m [0;31m▀[0;1;31;41m▐▓ [0;31m▄[0;37m [0;1;30m [0;31m░▀[0;1;31;41m▀▓▌[0;31m▌[0;37m [0;31m▐[0;1;31;41m▀▓▌[0;31m▀░[0;1;30m [0m [31m▄[0;1;31;41m▄▀▌[0;31m▀ ▄[0;37m [0;31m [0;37m [0;1;30m▀[0m [1;30m■[0m [1;30m▄[0m [31m░▀[0;1;31;41m▀[0;31m█▄[0m
          [31m▄▀[0;1;31;41m▀▀ [0;31m▀▀[0;37m [0;1;30m■ ▀[0m      [33m [0;31m▀[0;1;31m▀[0;31m▀▀▀■▀▀▀▓[0;1;31;41m▀[0;31m▀ [0;37m [0;31m █[0;1;31;41m▀[0;31m▓▀▀▀■▀▀▀[0;1;31;41m [0;31m▀ [0m               [31m▀[0;37m [0;31m▄[0;37m [0;31m [0m
-     [31m■[0;37m [0;31m▀ [0m       [31mop : [0;1;31mnootropic[0m     [1;30m [0;31m░[0;37m [0;1;30m  [0;31m▄▀▀[0;37m [0;31m░[0;1;30m [0m         [31m([0;1;31m905[0;31m)[0;1;31m569[0;31m-[0;1;31m9492[0m     [31m ■[0m
-
-[31m   [0m                      [31m ..[0;37m [0;31mansi by [0;1;31mmisfit[0;31m of [0;1;37mi[0;1;36mc[0;36me[0;37m [0;31m.. [0m'
+     [31m■[0;37m [0;31m▀ [0m       [31mop : [0;1;31mnootropic[0m     [1;30m [0;31m░[0;37m [0;1;30m  [0;31m▄▀▀[0;37m [0;31m░[0;1;30m [0m         [31m([0;1;31m905[0;31m)[0;1;31m569[0;31m-[0;1;31m9492[0m     [31m ■[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1a80d09ccef2dc67e923355221f9eb1fa6ffefe453ee71d8a715b0e6f082e12e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mgp-cmp.ans by Magpie (trick01); released in trick01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -35,7 +35,4 @@ Write-Host '
                  [1;35;40m >>[0;35msurreal[0;1;35m?[0m  [35m░[0m   [35m▐[0m   [30;45m▓[0;37;40m [0m                                     [34;40m▌[0m
 [37;40mpgdn[0m                                                                         [34;40m▌[0m
                                                                              [34;40m▌[0m
-                                                                             [34;40m▌[0m
-
-
-[37;40mArt work by Magpie AKA Shrimp of Trick ANSi/ASCii productions.[0m'
+                                                                             [34;40m▌[0m'

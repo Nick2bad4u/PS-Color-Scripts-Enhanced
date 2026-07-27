@@ -5,7 +5,7 @@
 # Source SHA-256: 8282bddd2d7bc845915448a80d3a2bf1f398a89e23fec4ad631b4593c1814846
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-CAS1.ANS by Abomination (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Castravalva!
 # SAUCE Author: Abomination
 # SAUCE Group: Union
@@ -59,8 +59,4 @@ Write-Host '
  [1;32m▐[0;1;32;47m▓[0;1;32;40m▌[0;1;34;40m  [0;1;32;40m▐█▌▐█▌[0;1;34;40m  [0;1;32;40m▐█▌▐█▌[0;1;34;40m  [0;1;32;40m▐█▌▐[0;1;32;47m▓[0;1;32;40m▌[0;1;34;40m [0;1;32;40m▐█▌[0;1;34;40m  [0;1;32;40m▐█▌▐█▌[0;1;34;40m  [0;1;32;40m▐█▌▐[0;1;32;46m▓[0;1;32;40m▌[0;1;34;40m [0;1;32;40m▐[0;1;32;46m▓[0;1;32;40m▌▐█▌[0;1;34;40m  [0;1;32;40m▐█▐[0;1;32;47m▓[0;1;32;40m▌[0;1;34;40m  [0;1;32;40m▐[0;1;32;46m▓[0;1;32;40m▌[0;1;34;40m [0;1;32;40m▐[0;1;32;46m▓[0;1;32;40m▌▐█▌[0;1;34;40m  [0;1;32;40m▐█▌[0m
 [1;34m [0;1;32m [0;1;32;47m▒▓[0;1;32;40m▄▄▀▀[0;1;34;40m [0m [1;32;47m▓[0;1;32;40m█[0;1;34;40m [0;1;32;40m▄[0;1;32;47m▓[0;1;32;40m▀[0;1;34;40m  [0;1;32;47m▓[0;1;32;40m█▄▄[0;1;32;47m▓[0;1;32;40m▀[0;1;34;40m [0;1;32;40m [0;1;32;47m▒▓[0;1;32;40m▄[0;1;34;40m [0;1;32;47m▓[0;1;32;40m█[0;1;34;40m [0;1;32;40m▄[0;1;32;47m▓[0;1;32;40m▀[0;1;34;40m [0m [1;32;47m▓█[0;1;34;40m [0;1;32;40m▄[0;1;32;47m▓[0;1;32;40m▀[0;1;34;40m [0;1;32;40m [0;1;32;47m▓[0;1;32;40m█▄▀▀[0;1;34;40m [0m [1;32;47m▓[0;1;32;40m█[0;1;34;40m [0;1;32;40m▄[0;1;32;47m▓[0;1;32;40m▀[0;1;34;40m [0;1;32;47m▒▓[0;1;32;40m▄▄ [0;1;32;47m▓[0;1;32;40m█▄▀▀[0;1;34;40m [0;1;32;40m [0;1;32;47m▓[0;1;32;40m█[0;1;34;40m [0;1;32;40m▄[0;1;32;47m▓[0;1;32;40m▀[0;1;34;40m [0m
  [1;32m [0m [1;32m [0m     [1;32m  [0m              [1;32m [0m                   [1;32m [0m                         [1;32m [0m
-  [1m [0m   [1m [0m                 [1m3[0m  O  1   -   [1m8[0m  9  8  -  [1m4[0m  O  8  8
-              PCLink, Comic Book Network, Host of the Anime Network
-           Sysop : [1mE[0mvil [1mR[0mesolution  ..  CoSysop :  [1mT[0merminally [1mN[0mothing
-
-                        [1;33m [0;1;37ma[0;1;33mnsi by [0;1;37ma[0;1;33mbomination of [0;1;37mu[0;1;33mnion[0m'
+  [1m [0m   [1m [0m                 [1m3[0m  O  1   -   [1m8[0m  9  8  -  [1m4[0m  O  8  8[0m'

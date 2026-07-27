@@ -5,7 +5,7 @@
 # Source SHA-256: b89c9c594a1336efbd09a8af77373424ad5c808dfb36f9861b478deb1a888198
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-L00P.ANS by Squarel00p (b0ca junio); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Arpegio
 # SAUCE Author: Squarel00p
 # SAUCE Group: b0ca junio
@@ -36,7 +36,4 @@ Write-Host '
 [37;40m     [0;34;40m█[0;32;40m█[0;1;37;42m░[0;1;32;40m▓▓[0;1;36;44m▓▓░░[0;1;35;44m [0;1;32;44m    [0;1;32;40m▓▓▓[0;32;40m▓[0;1;33;42m  ▀[0;1;37;42m███[0;1;36;44m███[0;1;37;42m█[0;1;33;40m█[0;32;40m███▀▓[0;37;40m        [0;34;40m▀[0;37;40m█[0;1;36;44m░░[0;1;34;40m██▓▓[0;34;40m███[0;37;40m       [0;1;35;40m█[0;37;40m              [0m
 [37;40m     [0;34;40m█[0;32;40m██[0;37;42m▓▓▓▓[0;1;32;40m [0;34;40m`''[0;35;40m▀▀[0;34;40m▀▀''''`[0;37;40m [0;32;40m█▄▀▀█[0;1;33;42m▀▀▀▀▀[0;32;40m█▀▀ [0;37;40m [0;32;40m█[0;37;40m          [0;34;40m▀[0;37;40m███[0;1;34;40m████[0;34;40m█[0;37;40m    [0;31;40m▄[0;1;35;40m░[0;31;40m▀▀▄[0;37;40m             [0m
 [37;40m    [0;1;31;40m  ░░▓▓▓▓[0;37;40m           [0;32;40m██[0;37;40m     [0;34;40m▀▀[0;37;40m    [0;32;40m░░█[0;37;40m            [0;34;40m▀[0;37;40m███[0;1;34;40m██[0;34;40m█[0;37;40m    [0;1;35;40m▓▓[0;31;40m▄▄[0;1;30;40m▀[0;37;40m             [0m
-[37;40m       [0;1;31;40m [0;1;35;40m░░░░[0;37;40m                        [0;32;40m▓▓█[0;37;40m               [0;1;34;40m░░░[0;37;40m                       [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m
-[37;40m                                                                                [0m'
+[37;40m       [0;1;31;40m [0;1;35;40m░░░░[0;37;40m                        [0;32;40m▓▓█[0;37;40m               [0;1;34;40m░░░[0;37;40m                       [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: fcab612f0dc64df6edeabfbe68e51d8420121d6eb7b0611715fcd3b1567465a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TOAOINT.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -24,8 +24,4 @@ Write-Host '
             [1;30;40m└──[0;33;41m▓[0;1;30;40m──[0;33;41m▓[0;31;40m▀[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;31;40m▀[0;1;30;40m───[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;31;40m▀[0;1;30;40m───[0;33;41m▓[0;31;40m▀[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m──[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m─[0;33;41m▓[0;1;30;40m────[0;31m▀[0;33;41m▓[0;1;30;40m──┘[0m
                [33m▀  ▀ ▀ ▀▀▀   ▀  ▀ ▀ ▀▀▀  ▀ ▀ ▀ ▀ ▀▀    ▀  ▀ ▀  ▀▀ ▀▀[0m
 
-                               [1;30m─[0;32m─ INTR[0;1;33mO CRE[0;32mDITS ─[0;1;30m─[0m
-
-                                 [34mCO[0;1;34mDiNG[0;1;37m:[0;1;30m····[0;1;34mZ[0;34m80[0m
-                                 [34mGRA[0;1;34mFIX[0;1;37m:[0;1;30m····[0;1;34mRO[0;34mY[0m
-                                 [34mMU[0;1;34mSIC[0;1;30m·[0;1;37m:[0;1;30m····[0;1;34mARG[0;34mON[0m'
+                               [1;30m─[0;32m─     [0;1;33m     [0;32m     ─[0;1;30m─[0m'

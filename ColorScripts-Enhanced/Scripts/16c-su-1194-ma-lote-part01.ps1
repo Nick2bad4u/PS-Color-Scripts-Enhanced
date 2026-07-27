@@ -5,7 +5,7 @@
 # Source SHA-256: 929e93e114f51ca8664ce3bc0a6c6de200008356dff79704b2c53eb099d9dc47
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-LOTE.ANS by Sound Of Silence + Nuclear Dreamer (SUiCiDE); released in su-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Living On The Edge ANSi
 # SAUCE Author: Multiple Artists
 # SAUCE Group: SUiCiDE
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m ──>[0m     [1;30mA[0m S[1mUiCiDE Production by Sound Of Silence And Nuclear Dream[0me[1;30mr[0m        [1;37m<──[0m
+[1m ── [0m     [1;30m [0m  [1m                                                       [0m [1;30m [0m        [1;37m ──[0m
 
 
 

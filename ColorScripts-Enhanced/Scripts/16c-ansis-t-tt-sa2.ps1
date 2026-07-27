@@ -5,7 +5,7 @@
 # Source SHA-256: 7a934827b68328315d88922abc9a3bf414a1b846336e46834acef894fbecd65d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-SA2.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -41,9 +41,9 @@ Si[1mckler   ▄█[0;1;47m▀[0m▀    [34m· [0;37m▄[0;1;30;47m▄[0;
 Je[1md   ▄█[0;1;47m▀[0m▀  [1;34m│ [0m· ▄[1;30;47m▄[0;1;30;40m█▀  [0;1;34;40m┌──────────────────────────────────[0m─[1m┐[0m       [1;30m┌────┐[0m
 [1;30m  └─[0;1;37m▄█[0;1;37;47m▀[0m▀   [1;34m─[0m┼[1;34m─[0m▄[1;30;47m▄[0;1;30;40m█▀    [0m│  [1mi[0;1;36mC[0;1;34mE [0m- [1;34m"[0;1;32mC[0;32moming [0;1;32mb[0;32mack [0;1;32mh[0;32mard [0;1;32ma[0;32mgain![0;1;34m"  [0m│   The [1mFiRM D[0mist.
   [1m▄█[0;1;47m▀[0m▀  ·  [1;30m·[0m▄[1;30;47m▄[0;1;30;40m█▀[0m      [1;37;40m└[0m─[1;34m──────────────────────────────────┘[0m       [1;30m│    │[0m
-[1;37m▄█[0;1;37;47m▀[0m▀  [1;34m·   [0m▄[1;30;47m▄[0;1;30;40m█▀[0m               [1;37;40mGe[0;1;36;40mt y[0;36mour [0;1;34morder in today![0m        Illum[1minatus [0mSite
+[1;37m▄█[0;1;37;47m▀[0m▀  [1;34m    [0m▄[1;30;47m▄[0;1;30;40m█▀[0m               [1;37;40m  [0;1;36;40m   [0;36m    [0;1;34m               [0m             [1m       [0m    
 [1m█[0;1;47m▄▄▄▄▄▄▄▄[0;1;30;47m▄[0;1;30;40m█▀[0m                                                      [1;30;40m│    │[0m
-                                                       Rescue Raid[1mer Wes[0mtern Hq
+                                                                  [1m      [0m       
                                                                   [1;30m└────┘[0m
 [1;30;47m [0;30;47m◄--[0;37;40m████[0;1;30;47m▐[0;30m───[0;1;37m▐[0m██████████[1;30m▌ [0;1;37m▐[0m██[1;30m▌[0;30m─ ─[0;1;37;47m▌[0m█[1;30;47m▐[0;30m─  [0;1;37;47m▌[0m█[1;30;47m▐[0;30m──────────[0;1;37;47m▌[0m█[1;30;47m▐[0;30m───[0;1;37m▐[0m██[1;30m▌[0;30m──[0;1;37;47m▌[0m██████[1;30;47m▀[0;1;37;47m▀[0m█████[1;30m▌[0;30m─[0m
 [30m─────[0;1;37m▀[0;1;37;47m▌[0m██[1;30m▌[0;30m── [0;1;37;47m▌[0m█[1;30;47m▐[0;1;30;40m▀[0;30m───[0;1;37m▀[0;1;37;47m▌[0m█[1;30;47m▐[0;30m──[0;1;37;47m▌[0m█[1;30;47m▐[0;30m───[0;1;37m▐[0m██[1;30m▌[0;30m──[0;1;37m▐[0m██[1;30m▌[0;30m─────────[0;1;37m▐[0m██[1;30m▌[0;30m───[0;1;37;47m▌[0m█[1;30;47m▐[0;30m──[0;1;37m▐[0m██[47m [0;40m▀▀[0;1;47m▄[0m██[1;30;47m▄[0;1;30;40m▀[0;30m─[0;1;37;47m▌[0m█[1;30;47m▐[0;30m─[0m

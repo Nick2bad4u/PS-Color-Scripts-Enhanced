@@ -5,7 +5,7 @@
 # Source SHA-256: 8c2ba3347405aa565f348c9b2823300816239c60951ca2cb0a3c9e0256367fc2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STI-MTRX.ANS by Stimpy (Shaolin's Finest); released in shao0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sonic Terror
 # SAUCE Author: Stimpy
 # SAUCE Group: Shaolin's Finest
@@ -16,7 +16,7 @@
 
 Write-Host '
                   [1;36mc[0;36mc..[0m
-                 [1;36m$[0;36m$[0;1;36m$[0;36m$$[0;1;36mc[0;36mc    [0;1;36mc[0;36mS[0;1;36mS[0;36mc[0;1;30m.    [0;1;36m$$[0;36m$[0;1;36m$[0;36mSc[0;1;36mc[0;36m.   [0;1;36mc$$[0;36mSc ..ccS[0;1;36m$[0;36mc[0m                 [1;30m.[0m
+                 [1;36m [0;36m [0;1;36m [0;36m  [0;1;36m [0;36m     [0;1;36m [0;36m [0;1;36m [0;36m [0;1;30m     [0;1;36m  [0;36m [0;1;36m [0;36m  [0;1;36m [0;36m    [0;1;36m   [0;36m        [0;1;36m [0;36m [0m                 [1;30m [0m
                   [36m$$$[0;1;30mⁿ[0;36m''$$$ [0;1;36mc[0;36m$[0;1;36m$[0;36m$$[0;1;36m$[0;36m$$Sc.ⁿ[0;1;36m$[0;36m$''[0;1;30mⁿ[0;36m√[0;1;36m$[0;36m$c.[0;1;36m`[0;36m$$$[0;1;36m'' $$[0;36mΣⁿ''$$[0;1;36m$[0;36mc  [0;1;36m$c[0m
                   [1;36m$[0;36m$$c[0;1;36mc[0;36mcc.  Q$$$''[0;1;30m`ⁿ[0;36m$[0;1;36m$[0;36m$ $$l .$$$; [0;1;36mc[0;36m.c [0;1;36m$[0;36m$$.  [0;1;30m`ⁿ[0;36m√$$c[0;1;36m$[0;36m$[0;1;36m$[0;36mc[0m
                   [1;30m√[0;36mⁿ°''[0;1;30m`[0;36mⁿ[0;1;30m√[0;1;36m$[0;1;30m$[0;36m,`[0;1;36m$[0;36m$$   $$$ $[0;1;36m$[0;36m$ ;$$$l $[0;1;36m$[0;36m$ $[0;1;36m$[0;36m$;  c.`ⁿ√ⁿ$$[0;1;30m$[0;36m$ⁿ  [0;1;30msT    .[0m
@@ -24,11 +24,11 @@ Write-Host '
               [1;30m.[0;36mc$$√ⁿ''  `ⁿ[0;1;30m$[0;36m$[0;1;30m$c[0;36m`$$[0;1;30m$[0;36m$$[0;1;30m√[0;36mⁿ[0;1;30m''[0;36m.$[0;1;30m$l [0;36m`ⁿ√$[0;1;30m$c[0;36m.`$[0;1;30mc [0;36m$$$$$[0;1;30m$[0;36mⁿ''   [0;1;30mⁿ[0m            [1;30m.[0m
 [1;30m [0;1;37m.:[0m:[1m:[0m::[1m:[0m::::.[1;30m`ⁿ[0;36m√[0;1;30m$[0;36mⁿ''[0;37m.:::::....:......::....:::.[0;1;30m`[0;36mⁿ[0;1;30m''[0m. [1;30m''[0m.:.[36m`ⁿ[0;1;30mⁿ[0;36m°[0;1;30m''[0m.:::::::[1;30m:[0m::[1;30m:[0m:[1;30m: :  [0m:
  [1m:[0m''                                                                           [1;30m:[0m
-[1;30m [0m: [1;30msonic.terror - sonic.terror - [0;36mcommands.here! [0;1;30m- sonic.terror - sonic.terror [0m:
- [1;30m: sonic.terror - sonic.terror - [0;36mcommands.here! [0;1;30m- sonic.terror - sonic.terror [0m:
- : [1;30msonic.terror - sonic.terror - [0;36mcommands.here! [0;1;30m- sonic.terror - sonic.terror :[0m
-[1;30m [0m: [1;30msonic.terror - sonic.terror - [0;36mcommands.here! [0;1;30m- sonic.terror - sonic.terror [0;1;37m:[0m
-[1;37m [0;1;30m: sonic.terror - sonic.terror - [0;36mcommands.here! [0;1;30m- sonic.terror - sonic.terror [0m:
+[1;30m [0m  [1;30m                              [0;36m               [0;1;30m                              [0m 
+ [1;30m                                [0;36m               [0;1;30m                              [0m 
+   [1;30m                              [0;36m               [0;1;30m                               [0m
+[1;30m [0m  [1;30m                              [0;36m               [0;1;30m                              [0;1;37m [0m
+[1;37m [0;1;30m                                [0;36m               [0;1;30m                              [0m 
  :                                                                           .[1m:[0m
 [1m [0;1;30m:  [0;1;32m$c[0;32m. [0;37m'''''''''''':: [0;1;32m$[0;32mSc. [0;37m'''''''':: [0;1;32m$S[0;32mc. [0;37m'''''''':: [0;1;32m$[0;32mS[0;1;32mc[0;32m. [0;37m'''''''':: [0;1;32m$[0;32mSc. [0;37m'''''''':: [0;1;32m$[0;32mSc. [0;37m''''''[0;1;37m''[0m::[1m::''[0m
 [1m [0;1;30m.  [0;1;32m$[0;32m$$ⁿ[0;1;32m$$[0;32m$$ⁿ[0;1;32mS[0;32mc. $[0;1;32m$[0;32m$$ⁿⁿⁿ[0;1;32m$S[0;32mc. [0;1;32m$[0;32m$$[0;1;32m$[0;32mⁿⁿⁿ[0;1;32m$[0;32mSc. $[0;1;32m$[0;32m$$ⁿⁿⁿ[0;1;32m$S[0;32mc. $$[0;1;32m$[0;32m$ⁿⁿⁿ[0;1;32m$[0;32mSc. $[0;1;32m$[0;32m$$ⁿⁿⁿ[0;1;32m$[0;32mSc.[0m
@@ -37,6 +37,4 @@ Write-Host '
         [1;32m$[0;1;30m$[0;32m$$ ⁿⁿ[0;1;30mⁿ [0;32m$$$$   [0;1;32m$$[0;32m$$ [0;1;32m$[0;32m$$$   $[0;1;30m$[0;1;32m$[0;32m$ $$[0;1;32m$[0;32m$   $$$$ $$$$   $$[0;1;30m$[0;32m$ $$[0;1;30m$[0;32m$   $[0;1;30m$[0;32m$$[0m
         [32m$$$[0;1;30m$[0m     [32m$$[0;1;30m$[0;32m$   [0;1;32m$[0;32m$$[0;1;30m$ [0;32m$$$[0;1;30m$   [0;32m$$$$ $$$[0;1;30m$   $[0;32m$$$ $[0;1;30m$[0;32m$$   $[0;1;32m$[0;32m$$ $$$[0;1;30m$   [0;1;32m$[0;32m$$$[0m
 [32m [0;1;30m.[0m      [1;30m`[0;32mⁿ[0;1;30m√$[0m     [1;30m`[0;32mⁿ√[0;1;30m$[0;32mccc$$[0;1;32m$[0;32m$ $√[0;1;30mⁿ''   [0;32m$$[0;1;30m$[0;32m$ $√[0;1;30mⁿ''   [0;32m$$[0;1;30m$[0;32m$ `ⁿ√[0;1;30m$[0;32mccc$$$[0;1;30m$ [0;32m$√[0;1;30mⁿ''   [0;32m$$$[0;1;30m$[0m
-                        [32m`[0;1;30mⁿ[0;32m√[0;1;30m$[0m        [1;30m`[0;32mⁿ√[0;1;30m$[0m        [32m`ⁿ√[0;1;30m$[0m        [32m`[0;1;30mⁿ[0;32m√[0;1;30m$[0m        [32m`ⁿ[0;1;30m√$[0m
-
-[36mmatrix for wooga, plz dont rip!!![0m'
+                        [32m`[0;1;30mⁿ[0;32m√[0;1;30m$[0m        [1;30m`[0;32mⁿ√[0;1;30m$[0m        [32m`ⁿ√[0;1;30m$[0m        [32m`[0;1;30mⁿ[0;32m√[0;1;30m$[0m        [32m`ⁿ[0;1;30m√$[0m'

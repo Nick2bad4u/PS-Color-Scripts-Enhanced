@@ -5,7 +5,7 @@
 # Source SHA-256: 12cc740025b1582035cae4c2c102a0beb2932a4844f635b4fd1a0f51aa96f33f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-BT.ANS by The Knight (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Thursday
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel
@@ -40,10 +40,10 @@ Write-Host '
 
 
 -░ + ▀ -- --── ─────═══─══ ░══════─────────- - + --───── ──░ ▄ ---- - - ░ ▀──▀ ─
- : i dunno what went on in my mind when i finished this logo, but i can tell
- : ya that smoking funny dried plants had a lot to do with it =)
- : colorsplash is wicked!
- : here you are skatter... i hope you''re satisfied with the result of our trade,
- : sorry it took so long..   original Teakay font! blah...recycling is okay i
- : guess :)  blabhablah.. greets.. to all of you...you know who you are..
+                                                                            
+                                                                
+                         
+                                                                                
+                                                                             
+                                                                         
 -░ + ▀ -- --── ─────═══─══ ░══════─────────- - + --───── ──░ ▄ ---- - - ░ ▀-── ─[0m'

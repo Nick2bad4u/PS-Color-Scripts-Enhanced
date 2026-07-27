@@ -5,7 +5,7 @@
 # Source SHA-256: 9ee0ac914595fa44531604635f62c41b6e5f410a095d746fdef9b5d82e727d7c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TO-DYS01.ANS by Tonto (drOol prOductionz); released in drl-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dyslexia
 # SAUCE Author: Tonto
 # SAUCE Group: drOol prOductionz
@@ -15,29 +15,29 @@
 # Columns: 1-80
 
 Write-Host '
-       [1m      ''shroom   [0m [1m  [0m   [1m|[0;1;31m [0m
+       [1m                [0m [1m  [0m   [1m [0;1;31m [0m
     [1m [0m [1m [0m  ▄▄▄▄[41m▀▀▀▀▀▀[0;40m▄▄  [0;1;40m [0m     |[1;31m [0m
       ▄[41m▀▀ [0;1;41m▄[0;41m [0;1;41m▀▄ ▀▄[0;41m [0;1;41m▄[0;41m  ▀▀[0;40m▄ [0;1;40m  [0m  [1m|[0;1;31m [0m  Myah ghreets:
     [41m▀[0;1;41m ▄█[0;41m [0;1;41m▀▀[0;41m [0;1;41m▀▀[0;41m [0;1;41m▀▀[0;41m  [0;1;41m▀█[0;41m [0;1;41m▄▄[0;41m▀[0;40m▄[0m   [40m|[0;1;31;40m [0;1;30;40mc[0m   [1mpurple tentacle: [0mtake on the werld man!
     [1;41m▀[0;41m ▄[0;33;47m▀▄▄▄▄▄[0;1;33;47m▄[0;33;47m▄▄[0;1;33;47m▄[0;33;47m▄▄▄[0;37;41m▄▄▄ [0;1;37;41m▄[0;41m [0;40m█  [0;1;40m|[0;1;31;40m [0;1;30;40mu[0m   [1mfacade[0m: You have gay french name =)
-   ▐[33;47m▄[0;1;33;43m ▄▄▀▀▀▀▄ ▌▌ [0;1;33;40m█[0;1;33;43m ▄▀▄[0;33;47m▄▄[0;37;40m█[0;37;41m▄▐[0;37;40m  |[0;1;31;40m [0;1;30;40mt[0m   [1mgodfather[0m: don''t fuck tiff
+   ▐[33;47m▄[0;1;33;43m ▄▄▀▀▀▀▄ ▌▌ [0;1;33;40m█[0;1;33;43m ▄▀▄[0;33;47m▄▄[0;37;40m█[0;37;41m▄▐[0;37;40m   [0;1;31;40m [0;1;30;40m [0m   [1m         [0m                 
     ▀[33;47m ▀▀[0;1;33;43m▀▀▀▄▄▀[0;1;33;47m▀[0;1;33;43m▀ [0;1;33;47m▀[0;1;33;43m▀[0;1;33;40m█[0;1;33;43m▀▄▀[0;33;47m▀▀▀[0;37;40m▀  [0;1;37;40m|[0;1;31;40m [0;1;30;40m|[0m   [1mpsyko semite[0m: i have a gig and joo don''t
         ▀▀▀█[33;47m▀▀[0;1;37;47m▐[0;1;37;43m░░[0;1;37;47m▌[0;43m▄▄[0;40m█▀▀▀[0m     [40m|[0;1;31;40m [0;1;30;40mh[0m   [1makira[0m: is the group really falling apart?
-              ▐[1;43m▒▒[0m▌           [1m|[0;1;31m [0;1;30me[0m   [1mpryz[0m: don''t cuit platoooon
-              ▐[1;43m▓▓[0m▌[1mo[0m          |[1;31m [0;1;30mr[0m   [1mmaytrickz[0m: wow, a cia person in my greets.
-            to[1;47m▐█[0;1;43m▓[0;1;47m▌[0m           [1m|[0;1;31m [0;1;30me[0m   [1mpiratebox[0m: like, make me cool.
+              ▐[1;43m▒▒[0m▌           [1m [0;1;31m [0;1;30m [0m   [1m    [0m                      
+              ▐[1;43m▓▓[0m▌[1m [0m           [1;31m [0;1;30m [0m   [1m         [0m                                 
+              [1;47m▐█[0;1;43m▓[0;1;47m▌[0m           [1m [0;1;31m [0;1;30m [0m   [1m         [0m                     
             ▄[1;47m▄████▄[0m▄         |[1;31m [0m    [1mchronos[0m: doo mee a proggy
-   [1mto[0m [1mand drOol produkshinz[0m  [1m|[0;1;31m  [0m   [1mairborn[0m: tanx for logos, wow, an ice persin.
-[1m_[0m_[1m_[0m_[1m_[0m [1m_[0m_[1m_[0m_[1m_[0m_[1m_[0m_[1m_[0m_[1m_[0m_[1m_[0m_[1m_[0m_[1m_[0m_[1m_[0m_[1m_[0m_[1m_/[0;1;31m [0m    [1mtorque[0m: groovy as shit name doodylidoodoo
-      [1;30mc u t - h e r e [0m             [1mar[0m: hit puberty, THEN call conferences.
-    if used on a board:            [1mslyder[0m: uhh, do you still think i suck?
-      leave shroom, cut greets     [1mall[0m [1msurreal[0m [1mmembers[0m: i am quitting surreal
-         [1m        [0m              [1m [0m   [1mall[0m [1mplatoon[0m [1mmembers[0m: keep dis shit rokin!
-          [1m       [0m              [1m [0m   [1mall[0m [1mvapor[0m [1mmembers[0m: umm.  i know 2 of joo
-  [5;34m  [0m     [1m        [0m              [1m [0m   [1mall[0m [1mschizo[0m [1mmembers[0m: when joo releasing?
-              myah vmb[1ms     [0m     Aditional Greets
-              [1m 1800-fat-girl[0m       [1macid,[0m [1mice,[0m [1mgrip,[0m [1mspastic,[0m [1mintegrity,[0m [1mshiver,[0m
-              [1m 1800-wet-dawn[0m       [1mrevolution,[0m [1minfinity,[0m [1mcream,[0m       [36m░[0m
+   [1m  [0m [1m                     [0m  [1m [0;1;31m  [0m   [1m       [0m                                     
+[1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m  [0;1;31m [0m    [1m      [0m                                   
+      [1;30m                [0m             [1m  [0m                                     
+                                   [1m      [0m                                 
+                                   [1m   [0m [1m       [0m [1m       [0m                       
+         [1m        [0m              [1m [0m   [1m   [0m [1m       [0m [1m       [0m                      
+          [1m       [0m              [1m [0m   [1m   [0m [1m     [0m [1m       [0m                       
+  [5;34m  [0m     [1m        [0m              [1m [0m   [1m   [0m [1m      [0m [1m       [0m                     
+                      [1m      [0m                     
+              [1m              [0m       [1m     [0m [1m    [0m [1m     [0m [1m        [0m [1m          [0m [1m       [0m
+              [1m              [0m       [1m           [0m [1m         [0m [1m      [0m       [36m░[0m
                [1;37m1800-hot-tart[0m [36m░[0m                               [36m░[0m       [36m░▒░[0m
                     [36m░[0m       [36m░▒░[0m                             [36m░▒░[0m     [36m░▒▓▒░[0m
 [37m  [0;36m░[0m        [36m░░ [0m     [36m░▒░[0m     [36m░▒▓▒░[0m          [36m░░[0m               [36m░▒▓▒░[0m   [36m░▒▓[0;1;36m░[0;36m▓▒░[0m

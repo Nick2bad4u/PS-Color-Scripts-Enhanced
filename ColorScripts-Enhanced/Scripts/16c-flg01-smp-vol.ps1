@@ -5,7 +5,7 @@
 # Source SHA-256: 9f685d0f3ce30ac0500cd98c40472a82523f7321165b64f470e1c2e4c8305db1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-VOL.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
 # SAUCE Date: 20010705
@@ -38,11 +38,4 @@ Write-Host '
 [1;31;41m▓██▓▓░░[0;31m█▄▄[0m    [34m▀[0;1;36;44m▓▓▓▓░░  [0;34m█▌ [0;36m ░▀███▄[0m    [35m▀▀[0;1;31;45m░░░░[0;1;32;45m  [0;35m██▀▀ [0;32m  [0m   [36m▄▄██▀▀[0m    [34m▄▄█[0;1;36;44m░▓▓▓███▀[0;34m██▀[0m
 [31m█[0;1;31;41m█[0;1;31;47m▓[0;1;31;41m██▓▓░░[0;31m██▄[0m   [34m █[0;1;36;44m░░   [0;34m█[0;1;36;44m  [0;34m▄[0;37m [0;36m   ▀▀██▄▄[0m           [32m ▄▄[0;37m  [0;36m▄███▀[0m     [34m▄███████[0;1;36;44m░░▓▓▓[0;34m█▀[0;37m  [0;31m▓[0m
 [31m▐[0;1;31;41m▀[0;1;31;47m▒▓█[0;1;31;41m█▓▓▓░░[0;31m██▄[0m   [34m▀██[0;1;34;44m░░[0;34m█[0;1;36;44m░░░░ [0;34m▄▄ [0;36m   ▀▀▀█▄▄▄[0m     [32m▀▀[0m   [30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓[0;30;46m░[0m   [37;40ms[0;1;36;44mmp[0;1;34;44m  [0;1;36;44m░░░[0;34m█████▀▀[0;37m  [0;31m▄▄[0;1;31;41m░[0;1;31;40m▓[0m
-[31m ▀█[0;1;31;41m▀▀▓███▓▓░░[0;31m██▄[0m   [34m ▀█[0;1;34;44m    [0;1;36;44m░░░[0;1;34;44m  [0;34m▄▄[0;37m [0;34m▄[0m        [34m▄▄▄▄[0m    [36m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m    [34;40m███[0;1;36;44m░░[0;34m█████▀  [0;31m▄▄█[0;1;31;41m░▓[0;1;31;40m▀▀ [0m
-
-"VOL" as in Volatile.
-
-You draw oldschool ASCII dude, thus you posses no artistic talent whatsoever,
-and the only things you can "create" are the same banal, monotonous, unasthetic
-letters. You have no right to comment on real art such as VGA/ANSI, and even new
-school ASCII. DIE, YOU FAT-ASS MOTHERFUCKER.[0m'
+[31m ▀█[0;1;31;41m▀▀▓███▓▓░░[0;31m██▄[0m   [34m ▀█[0;1;34;44m    [0;1;36;44m░░░[0;1;34;44m  [0;34m▄▄[0;37m [0;34m▄[0m        [34m▄▄▄▄[0m    [36m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m    [34;40m███[0;1;36;44m░░[0;34m█████▀  [0;31m▄▄█[0;1;31;41m░▓[0;1;31;40m▀▀ [0m'

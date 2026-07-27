@@ -5,7 +5,7 @@
 # Source SHA-256: 64101cbc2a4d73afb3d94f6a9b2f7fbcaad46293a8254df79dd4af988ced041c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-LAHO.ANS by Zeus II (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Lake House
 # SAUCE Author: Zeus II
 # SAUCE Group: Mistigris
@@ -16,9 +16,9 @@
 # Columns: 1-80
 
 Write-Host '
-                             [36mThe Lake House BBS menu set[0m
+                             [36m                           [0m
 [37m                                      [0;36m2023-24[0m
-[37m                                      [0;36mZeus II[0m
+[37m                                      [0;36m       [0m
 
 
 [31m█▀▀█▄[0;33m▄[0;31m▄[0;1;30m  [0;31m░░[0;1;30m   [0;31m▄▄[0;1;30m [0;31m▀▀[0;1;30m  ▄▄  [0;33m▄▄[0;1;30m  [0;31m▄▄[0;31;43m▀▀[0;33;40m▀[0;1;30;40m   [0;33m▄▀▀          ▄▄▄[0;31m▄[0;33m   ▄[0;31m▄[0;1;30m [0;31m■[0;1;30m  ▄▄██▀▀    █ [0;33m▐▄[0;31m▀[0m

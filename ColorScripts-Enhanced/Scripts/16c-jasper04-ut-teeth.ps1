@@ -5,7 +5,7 @@
 # Source SHA-256: 0e8cc379e17ba5c9e1e984023ecb0593d29b2bc37d426123bbd4c2fd161d18e4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UT-TEETH.ANS by untamed (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: teeth
 # SAUCE Author: untamed
 # SAUCE Group: jasper
@@ -39,6 +39,4 @@ Write-Host '
 [36m███▓█▓▒▒░░  [0;37m ▀█[0;36m▄  [0;37m▀▀[0;1;30;47m░░[0m█▄[1;30m [0;36m░░░[0;1;30m [0;36m░ ░▒▒░[0;1;30m  [0;36m░[0;1;30m      [0;36m░[0;1;30m [0;36m [0;1;30m [0;36m░[0;1;30m [0;36m░[0;1;30m  [0;36m░▒░░░▓▓▒░ ▒ ░[0;1;30m  [0;1;33m▀[0m▀ [1;30m    [0;36m░[0;1;30m [0;36m░░[0;1;30m [0m
 [36m██[0;30;46m■[0;36;40m▒██▓▓▒▒░░░    ░░ [0;1;30;40m  [0;36m  ░▒▓▒░▒░▒▓▓▒░░▒░░ ░[0;37m [0;36m░▒ ░░▓░▒░░▓▓▒▓▒█▓▓▒░▓░▒░░ ░[0;1;30m [0;36m░[0;1;30m [0;36m░░[0;1;30m [0;36m░▒▒[0;1;30m [0m
 [36m██▌░████▓▓▒▓▒░░ ░▒▒░░ ░░░▓█▓░▓▒▓▓█▓▒▒▓▓▒░  ▒▓ ▒▒█▒▓▓▒█▓▓█▓▓██▓▒█▒▓▓▒░▒░▒░▒▒░▒▓▓[0;1;30m [0m
-[1;30m-------------------------------------------------------------------------------[0m
-[1;30mfirst finished ansi in 3 years. feel free to use this if you like it, but all i[0m
-[1;30mask, is please leave my sig in there. requests to [0mjetgtt18@hotmail.com[0m'
+[1;30m-------------------------------------------------------------------------------[0m'

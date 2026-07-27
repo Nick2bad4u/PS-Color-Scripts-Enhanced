@@ -5,7 +5,7 @@
 # Source SHA-256: 81648b72f46ca4a60d3992b83efb26bae7e9fe0744f57710162d47fbdc90189f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sar-lude.ans by sargon (serial ascii); released in serial03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: sargon
 # SAUCE Group: serial ascii
 # SAUCE Date: 19970217
@@ -20,7 +20,7 @@ Write-Host '
 [34myyyyy [0;32mT$$$$$S$$$$P[0;34m yy yyyyyyyyyy$$$$$$$$$ l sar l$$$$$$$$$$$$$$$$ $$$$$$$$ $$$$[0m
 [34m$$P╨² [0;37m [0;32m╨''[0;33m,,╥╥,,[0;32m''╨[0;37m [0;34m ╨$ $$$$$$$$$$$$$$$$$$$ $$@%@$$$$$$$$$$$$$$$$$$ $$$$$$$$ $$$$[0;37m [0m
 [34m$'' [0;33m,sS$$$$$$$$$$$$Ss,[0;34m $$$$$$$$$$$$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$ $$$$$$$$ $$$$[0m
-[34my[0;33m jP''[0;1;37m,sSSs,[0;33m`''[0;1;37m,sSSs,[0;33m`Tb [0;34m$$$$$$$$ yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy $$$$$$$$ yy  [0;37m [0m
+[34m [0;33m    [0;1;37m      [0;33m  [0;1;37m      [0;33m    [0;34m                                                        [0;37m [0m
 [34m$[0;33m $ [0;1;37mj$$$$$$Lj$$$$$$L [0;33m$ [0;34m$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$$$$ $$  [0;37m [0m
 [34m$[0;33m $ [0;1;37m$$$$$$$$$$$$$$$$ [0;33m$ [0;34m$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$$$$ $$  [0;37m [0m
 [34m$[0;33m $ [0;1;37m$$$$$╨$$$$$$╨$$$ [0;33m$ [0;35myo*-yyyyyyyyyyyyyyyyyyyy [0;34myyy $$$$$$$[0;35m y-*oyy[0;34m $$$$$$$     [0;37m [0m
@@ -35,6 +35,6 @@ Write-Host '
 [34m$$$l[0;33m $l [0;1;37m$$$$$$$$[0;33m l$ [0;34m,   [0;35m   T$$$$P    ,   T$$$$P    ,   T$$$$P    ,   T$$$$P    [0m
 [34m$$$$ [0;33m!$,[0;1;37m`$$$$$$''[0;33m,$! [0;34m$ [0;37m [0;35mb,_  `╨╨''     $b,_ ''╨╨`     $b,_ ''╨╨`     $b,_ ''╨╨`     [0m
 [34myyyyy[0;37m [0;33m$$b,[0;1;37m`╨╨''[0;33m,d$$ [0;34m,y [0;37m [0;35m$$$$$&@@&$@@%m$$$$$&@@&$$@@%$$$$$&@@&$$@@%$$$$$&@@&$@@%m[0m
-[34m$$$$$,[0;33m`?$$$$$$$$P''[0;34m,$$ yyyyyyyy yyyyyyyyyyyyyyyyyyyy yyyyyyyyy yyyyyyyy yyy     [0;37m [0m
+[34m      [0;33m            [0;34m                                                             [0;37m [0m
 [34m$$$$$$, [0;33m?$$$$$$P [0;34md$$$ $$$$$$$$ $$$$$$$$$$$$$$$$$$$$ $$$$$$$$$ $$$$$$$$         [0;37m [0m
 [34m$$$$$$$b,[0;33m`╨$$╨''[0;34m,d$$$$ ╙╨╨╨╨╨╨╜                      $$$$$$$$$                  [0;37m [0m'

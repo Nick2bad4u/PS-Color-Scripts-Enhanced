@@ -5,7 +5,7 @@
 # Source SHA-256: e0eb16d958b6765a0800eb8abdbf79f14279e2a546f55aed839f6ed34fa67399
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JDA-TRAN.ANS by Joda (deranged); released in drg-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: transfer protocol fer vermin!
 # SAUCE Author: Joda
 # SAUCE Group: deranged
@@ -36,4 +36,4 @@ Write-Host '
   [31m▐[0;1;31;41m░░[0;1;31;40m█████████████[0;1;31;41m▀▀▀▀▀░[0;31m▄▄[0;30;41m░[0;1;31;41m▀▀▀▀▀▀▀▀░[0;31m▌▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;41m▓[0;31;40m░[0m          [1;30;40m░▀▀▀▀▀▀▀[0mjda[1;30m([0mdrg[1;30m)[0m
 [30;41m▓[0;31;40m░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░[0m
 
-   [31;40m░░[0;37;40m [0;31;40miNΣV|TABLE eX|STANCE tRANSFER pR0T0C0L mΣNU ^^[0m'
+   [31;40m░░[0;37;40m [0;31;40m                                              [0m'

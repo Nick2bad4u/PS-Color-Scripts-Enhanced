@@ -5,7 +5,7 @@
 # Source SHA-256: 004ea2ab062c6cb61f6f930efae8de62afb1010e81832406526c2437c93b6124
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-PRG.ANS by Pariah (REMORSE); released in rmrs-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Purge
 # SAUCE Author: Pariah
 # SAUCE Group: REMORSE
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1m└IISCNA - [0;1;36mpariah[0;34m ,P`[0;33m,`ⁿ75[0;1;31m8850055888[0;33mP''[0;34m,[0;1;34md[0;34m''[0;33m,d[0;1;31m$$[0;33mh,[0;34m`7[0;1;34m$$$[0;34mP''[0;33m,d[0;1;31m$[0;33mh,[0;37m [0;34mh[0;1;34m,[0;33m`7[0;1;31m$588850005888[0;33mPⁿ'',[0m
-[1;36m           [0m [34m ,g[0;1;34m╒P[0;34m''[0;37m [0;33m,$7[0;1;31m@%yyyyyyyyy[0;33my''[0;34m,[0;1;36md[0;1;34mP[0;34m''[0;33m,[0;1;31m$$$$$$[0;33mh,[0;34m`[0;1;34m7[0;34m''[0;33m,d[0;1;31m$$$$$[0;33mh,[0;34m`[0;1;34mh[0;34m,[0;33m`7yy[0;1;31myyyyyyyyy[0;33m%@P$[0m
+[1;36m           [0m [34m   [0;1;34m╒ [0;34m [0;37m [0;33m   [0;1;31m           [0;33m  [0;34m [0;1;36m [0;1;34m [0;34m [0;33m [0;1;31m      [0;33m  [0;34m [0;1;34m [0;34m [0;33m  [0;1;31m     [0;33m  [0;34m [0;1;34m [0;34m [0;33m    [0;1;31m         [0;33m    [0m
 [1;36mPURGE [0;1;37m  [0m  [34m ,d[0;1;34m$$$[0;34m''[0;37m [0;33md$$[0;1;31m$55$$P╩ⁿ"[0;33m~`''''[0;1;37m  [0m  [33md[0;1;31m$$$$$$$$$h[0;33m,[0;1;31md$[0;1;31;47m▓▓▓[0;1;31;40m$$$P[0;33m''[0;37m [0;34m''[0;37m  [0;33m`7"`''[0;1;31m~"ⁿ╩7$$5[0;33m$$$[0m
 [1;37m+o fmACID[0;34m d[0;1;34m$$$$[0;34m''[0;37m [0;33m;$$[0;1;31m$$$[0;33m,`''[0;37m,[0;1;37mg@55[0mP''_[1m.[0m_[1m [0m_[33m`7[0;1;31m5$$$$$$$$$$$$$$$$yg5[0;33mP''[0;37m_ _[0;1;37m.[0m_`7[1m55@g[0m,[33m`'',$[0;33;47m▓▓[0m
 [1;37;40m        [0m [34m;[0;1;34m$$$$[0;34m|[0;37m  [0;33m$$[0;1;31m$$$$[0;33m''[0;37m d[0;1;37m$$$$$[0m ;[1m$$$ [0m`[1mh[0m,[33m`7[0;1;31m$$$$$$$$$$$$$$$$P[0;33m''[0;37m,[0;1;37md[0m'' [1m$$$[0m; [1m$$[0;1;33m$$[0;1;37m$[0mh [33m`$$$[0m

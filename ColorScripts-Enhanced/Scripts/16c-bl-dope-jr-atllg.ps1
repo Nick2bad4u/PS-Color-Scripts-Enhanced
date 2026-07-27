@@ -5,7 +5,7 @@
 # Source SHA-256: 619d4663e4d3440acc41387a611f4eb1e73a8ac1648c50b541faeb8543895079
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_ATLLG.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: GO! #04 entry
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
 [32m█[0;1;32;42m▀▀[0;32m█[0;37m [0;32m█[0;1;32;42m░░▀▀[0;32m█[0;30;42mj[0;1;32;40mr°[0;32mb[0;36ml░░░░░[0;1;30m░░░░░░░[0;36m░░[0;1;30m░░░[0m [1;30m░[0m [1;30m░[0;36m░[0;37m [0;1;30m░░░░[0m     [1;30m░░[0m                   [36m.atlan[0;1;36;43mtis[0;31;43m▒[0m
 
 
-[1;30;40m-------░░-░-------------------------------------------------░░░░----------░-----[0m
-[1;30;40mmy german-only competition o4/97 entry. atlantis logo.[0m'
+[1;30;40m-------░░-░-------------------------------------------------░░░░----------░-----[0m'

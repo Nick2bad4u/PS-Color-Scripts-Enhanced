@@ -5,7 +5,7 @@
 # Source SHA-256: 610502b242cbc4aa23e1acd195b494239d089d4f5ad45d57bfdc5fa414e123af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KIO-C1.ANS by Kiomatsu (Avenge); released in avenge12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cluster number uno
 # SAUCE Author: Kiomatsu
 # SAUCE Group: Avenge
@@ -17,9 +17,9 @@
 Write-Host '
 
  [1mHi[0m
- [35mWelcome to my very first colly, #1 that is =). Only three logos included, but[0m
-[37m [0;35mfeel free to request logos for your board/groups whatsoever, you might be[0m
-[37m [0;35mthe lucky one. --[0;37m [0;1;35mKiomatsu[0m
+ [35m                                                                             [0m
+[37m [0;35m                                                                         [0m
+[37m [0;35m                 [0;37m [0;1;35m        [0m
 
 
 
@@ -40,7 +40,7 @@ Write-Host '
      [1m▀[0m            [1m▀▄▀▀▀[0m▌               [1m░░░░[0m          [1m░▀▄▀▀[0m▀▌     [1m▀[0m
                      [1m▀[0m▀▌                                 ▀▀▌
 
-       [32mHas nothing to do w/ Fever. I had fever at the day, impulse logo.[0m
+       [32m                                                                 [0m
 
 
 

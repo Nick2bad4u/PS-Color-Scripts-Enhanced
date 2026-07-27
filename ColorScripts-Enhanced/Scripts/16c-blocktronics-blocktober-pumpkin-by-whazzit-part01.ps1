@@ -5,7 +5,7 @@
 # Source SHA-256: ca47f03547e0aae90fd7ea2c7298d44f1678272773ef9f7949f791451a992c74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _Pumpkin_by_Whazzit.ans by Whazzit (Blocktronics); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: WZ - Blocktober Pumpkin Challenge
 # SAUCE Author: Whazzit
 # SAUCE Group: Blocktronics
@@ -18,7 +18,7 @@
 Write-Host '
 
 
-                             [36;40mCinderella''s night didn''t quite go as she had hoped.[0m
+                             [36;40m                                                    [0m
 
 
 

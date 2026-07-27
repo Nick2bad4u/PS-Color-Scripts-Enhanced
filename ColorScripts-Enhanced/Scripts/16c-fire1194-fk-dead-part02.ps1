@@ -5,7 +5,7 @@
 # Source SHA-256: a5ded2e0115c67319aa267538b6ee821f9e6584fd0f02e32d10ac84dcdad2fdf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FK-DEAD.ANS by Farbekreig (Fire); released in fire1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Deadly Ground
 # SAUCE Author: Farbekreig
 # SAUCE Group: Fire
@@ -61,7 +61,4 @@ Write-Host '
 
 [1;31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;31;41m▓▒░[0;31m█████████████████████████████████████████████████████████████████[0;30;41mAsP   [0;1;31;41m░▒▓[0m
-[1;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[31mS[0;37millytations Go to[0m
-[31mW[0;1;30matcher- you gotta join them doom2net games in third period ;([0m
-[31mH[0;1;30mey everyone else <talen<tegid?>><hal,Dh,QzR!,EricW,HF,Dem S[0mi[1mNN[0me[1;30mR Guys,Wm>[0m'
+[1;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

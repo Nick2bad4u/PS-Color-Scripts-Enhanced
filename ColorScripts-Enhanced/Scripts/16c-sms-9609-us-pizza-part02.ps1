@@ -5,7 +5,7 @@
 # Source SHA-256: 2c305e2e22251c6cf9403975ca1e13fba77ec255d99067c233951275140ea567
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PIZZA.ANS by Eerie + Outkast (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Neon Pizza
 # SAUCE Author: Outkast & Eerie
 # SAUCE Group: Samsara
@@ -36,7 +36,4 @@ Write-Host '
 [1;36;46m░▐[0;1;36;40m█[0m     [1;36;40m░█[0;1;36;46m▓[0;1;36;40m█[0m         [1;36;46m▄▒█[0m       [1;36;46m▄[0;36m█[0;1;36;46m▐[0;1;36;40m▌   [0;32msamsara    [0;1;36m██[0;1;36;46m▓[0;1;36;40m▌[0m               [1;36;46m▌▄▒[0m  [1;33;40m333  [0;1;36;46m▓[0m
 [1;36;46m▓[0;1;36;40m██▄▄▄▄█▓▀[0;36m▀[0m          [1;36m▐[0;1;36;46m▓[0;1;36;40m█[0m       [1;36;40m███▌   [0;32msite!@[0m     [1;36m███▌[0m               [1;36m██[0;1;36;46m▓[0;1;36;40m▄▄▄▄▄▄▄█[0m
 [1;36;40m██[0;1;37;40m█  [0;36m░[0;30;46m▓[0m              [1;36;40m▄██[0m       [1;36;40m██[0;1;37;40m█[0m               [1;37;40m█[0;1;36;40m██[0m                [1;36;40m███[0m     [36m░[0;30;46m▓[0;1;36;40m█[0m
-[1;37;40m███[0m                  [1;36;40m██[0;1;37;40m█[0m       [1;36;40m██[0;1;37;40m█▄▄[0;1;36;40m▄▄▄▄▄▄[0;36m▄[0m      [1;37m██[0;1;36m█▄▄▄▄▄▄▄▄[0;36m▄[0m       [1;36m█[0;1;37m██[0m       [1;36m█[0m
-
-[31mdevil outline & samsara font by [0;1;31moutkast [0;31m(samsara).[0m
-[1;31meerie [0;31mis to blame for the shading, the font & the horrible background.[0m'
+[1;37;40m███[0m                  [1;36;40m██[0;1;37;40m█[0m       [1;36;40m██[0;1;37;40m█▄▄[0;1;36;40m▄▄▄▄▄▄[0;36m▄[0m      [1;37m██[0;1;36m█▄▄▄▄▄▄▄▄[0;36m▄[0m       [1;36m█[0;1;37m██[0m       [1;36m█[0m'

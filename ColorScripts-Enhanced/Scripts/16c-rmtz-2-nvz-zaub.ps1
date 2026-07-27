@@ -5,7 +5,7 @@
 # Source SHA-256: 1617c2553e5ea67ea6941c97f89bc37041623eb5af7f10b974db04504fbd488e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NVZ-ZAUB.ANS by N0ViCE (rmtz); released in rmtz-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ZT BBS Logo- many RPG related files
 # SAUCE Author: N0ViCE
 # SAUCE Group: rmtz
@@ -31,5 +31,4 @@ Write-Host '
 [1;30m░░[0m [1;30m▀▄▄[0;34m▀▀▀██████████[0;32m▐[0;1;32;42m░[0;32m▌[0;34m████[0;32m▐[0;1;32;42m░[0;32m█[0;34m▐[0;32m▐[0;1;32;42m░[0;32m█[0;37m [0;32m██[0;1;32;42m░[0;34m▐█[0;32m▐[0;1;32;42m░[0;32m▌[0;34m█[0;32m▐[0;1;32;42m░[0;32m▌[0;34m█[0;37m [0;1;32;42m░[0;32m█▌[0;34m▌[0;1;32;42m░[0;32m█[0;1;32;42m░[0;34m▐[0;37m [0;1;32;42m░░░[0;34m▐██████████████ [0;1;30m█[0m [1;30m░[0m
 [1;30m▒░░░[0m  [1;30m▀▀▀▄▄▄[0;34m▀▀▀▀███▄[0;32m▀[0;34m▄████▄[0;32m▀[0;34m▄█▄[0;32m▀[0;34m▄█▄[0;32m▀[0;34m▄██▄[0;32m▀[0;34m▄█▄[0;32m▀[0;34m▄██▄[0;32m▀[0;34m▄█▄[0;32m▀[0;34m▄██[0;32m▐[0;1;32;42m░[0;32m▌[0;34m██████████▀▀▀[0;1;30m▄▄▀[0m [1;30m░▒[0m
 [1;30m▓▒▒░░░░░░[0m   [1;30m▀▀▀▀▄▄▄▄▄▄▄[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;32m▀[0;37m [0;34m▀▀[0;1;30m▄▄▄▄▄▄▄▄▀▀▀[0m  [1;30m░░▒▓[0m
-[1;30m█▓▒▒▒▒░░░░░░░░░        ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀        ░░░░░▒▒▓█ [0m
-[1;30m  ZA[0;32mUB[0;1;32mERT[0;32mRA[0;1;30mNK B[0;32mB[0;1;30mS .[0;32mo[0;1;30m. OB[0;32mER[0;1;32mMA[0;32mGI[0;1;30mER : AN[0;32mDRE[0;1;30mAS DU[0;32mER[0;1;32mRE[0;1;37mN[0;1;32mBE[0;32mRG[0;1;30mER .[0;32mo[0;1;30m. +4[0;32m9-[0;1;32m44[0;1;37m05-[0;1;32m9x[0;32mxx[0;1;30mxx[0m'
+[1;30m█▓▒▒▒▒░░░░░░░░░        ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀        ░░░░░▒▒▓█ [0m'

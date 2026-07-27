@@ -5,7 +5,7 @@
 # Source SHA-256: 53ef6f145bf96cea6177557ea718b78da8d9c83c78b7c50f8546542207feb974
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-TRIP.ANS by nnsanguined (Apocalyptic Visions); released in avpack08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 2 tripped 2 tell
 # SAUCE Author: nnsanguined
 # SAUCE Group: Apocalyptic Visions
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-     ▄▄▄▄▄   If you would like an ansi by me, reach me thru Madness Network.
-   ▄█▓[1;47m▒░░▒▒[0;1;40m▄[0m  [1mNo. I am not a homie, I was just bored so I did this "homie ansi".[0m
+     ▄▄▄▄▄                                                                  
+   ▄█▓[1;47m▒░░▒▒[0;1;40m▄[0m  [1m                                                                  [0m
   ▐[1;47m░░▒▓[0m  [1m▀▀█  ▄  [0m     ■▀[1;30m▀[0;1;30;47m▒[0m▓[1;30;47m▒[0m███▄▄███████▄▄███▓▄▄▄██████▄▄▄▄▄[30;47m▒[0;37;40m███████████[0;1;30;47m▀[0m█▓▀▀
   █[1;47m░░[0m▌[1m▀▄■[0m [1m▀ ■▓▀[0;1;47m▒[0m▄[1;47m░░[0m▄[1m [0;1;30m▀▀█[0m▓[1;30m▓[0;1;30;47m▒[0m█[30;47mThis ansi is ingeniously presented to you [0;37;40m█[0;1;30;47m▄[0m█[1;30;47m▄[0;1;30;40m██▀[0m■
   ▐█[1;47m░[0m▄  [1m ▀█▄  [0m▐[1;47m▒[0m▀[1m  [0m▐▓ [1;30m▀[0m▀████[30;47mby εnsanguined / aV. Please support drugs!      [0;37;40m██[0m

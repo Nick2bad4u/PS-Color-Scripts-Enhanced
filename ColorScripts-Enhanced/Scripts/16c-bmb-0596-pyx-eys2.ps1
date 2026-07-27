@@ -5,7 +5,7 @@
 # Source SHA-256: 7a3b91686983a964d3042480f93e58229cf611c0ea60044553e07c9a95d7d137
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-EYS2.ANS by Pyx (bmb-0596); released in bmb-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -21,9 +21,9 @@ Write-Host '
    [34m [0;35m▐██[0;34m  [0;1;34;44m ░▒▓███▒▒░░░░░░░░░░░   ░░▒▓██▓▒░░░░░░░░░░░░░░░▒▒▒███▓▓▒▒[0;1;32;40m  [0;1;35;40m░[0;35m█[0;1;35;45m░ [0;35m█[0;34m [0m
 
 
-[37m [0m      [37m...  ... These are the eyes, not just a glare      [0m
-                 [37mThese are the eyes, filled with my care  [0m
-                  [37mThese are the eyes, that forever will be  [0m
-                   [37mThese are the eyes, that says you are free ...  ...[0m
+[37m [0m      [37m                                                   [0m
+                 [37m                                         [0m
+                  [37m                                          [0m
+                   [37m                                                   [0m
 
                                            [37m        pyx [0m'

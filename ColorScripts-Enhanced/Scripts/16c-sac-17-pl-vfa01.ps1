@@ -5,7 +5,7 @@
 # Source SHA-256: a1928de92a5d453c13ce00e85fdf3fc7ae751a3d767ce64d29dd466e74b83cd3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-VFA01.ANS by puschel; released in sac-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -30,6 +30,4 @@ Write-Host '
 $$$ . [1mby . $$[0;1;31m$[0m°[1m  [0;1;35m`[0;35m$[0;1;35m$ ''$$[0;35m$[0;1;35m`[0;1;37m [0m`$$°[1m   [0m`[1m       [0m,[1;31m$$[0;1;37m$$$$$$$$$$$$$$[0mo[1m [0;35m,_[0;1;35m``''$[0;35m.[0m
 `$. pu[1msche[0ml .`   [35m`[0;1;35m°^  `[0;35m$`[0;1;31m.$.[0m`$ [1m         [0m.[1;31m$$$$[0;1;37m$$[0mÜP*"°°°^`  `°"=,[35m°[0;1;35m°$[0;35m$[0m
 [37m °    [0;1;37m$$,[0;1;31m.[0m       [1m     [0;1;31m ,''°[0;1;37m   [0m`[1m       [0m .$+"°`[1m                   [0m`.[1m [0;35m°[0m
-[37m      ''[0;1;31m`[0;1;37m              [0;1;31m`   [0;1;37m    [0m`+[1m    [0m.+`
-    [1me[0mquality ch[1;35mq[0m [1m.[0m [1mw[0marrior gh[1;35mq[0m [1m.[0m [1ml[0megends eh[1;35mq[0m [1m.[0m [1mw[0meapon eh[1;35mq[0m [1m.[0m [1mb[0macklash h[1;35mq[0m
-  [1mu[0mnique iso wh[1;35mq[0m [1m.[0m [1mr[0misc iso h[1;35mq[0m [1m.[0m [1mg[0mwa whq [1m.[0m [1mn[0mbd h[1;35mq[0m [1m.[0m [1ma[0mmok eh[1;35mq[0m [1m.[0m [1mc[0mouncil h[1;35mq[0m'
+[37m      ''[0;1;31m`[0;1;37m              [0;1;31m`   [0;1;37m    [0m`+[1m    [0m.+`[0m'

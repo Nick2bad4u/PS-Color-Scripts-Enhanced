@@ -5,7 +5,7 @@
 # Source SHA-256: 33024b635585d25a594c80f01f9c5a89030f6bedba7eb5503070c6e2716cbe5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GASMEM01.ANS by Juice Gas (gas-01); released in gas-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -23,20 +23,20 @@ Write-Host '
 [32;47m [0;1;37;47m▒           [0;46m▓[0m          [32;40m░▒░   ░[0m       [32;40m░[0m       [32;40mready to explode[0m       [32;40m░[0m
 [32;47m [0;1;37;47m░            [0m           [32m░[0m                                                   [32m░[0m
 [32;47m      [0;1;37;47m░       [0m      [32m░[0m                                                         [32m░[0m
-[32;47m [0;1;37;47m░            [0m   [32m░[0m     [37mseniors[0m
+[32;47m [0;1;37;47m░            [0m   [32m░[0m     [37m       [0m
 [37;47m [0;1;37;47m▒            [0m   [32m▒░[0m
-[32;47m [0;1;37;47m░           [0m▓   [32m░[0m     [1;30mtribal[0m               [1;30m(tl)   founder~ansie[0m               [32m░[0m
-[32;47m   [0;1;37;47m·          [0m         [1;30;40mjuice[0m                [1;30;40m(jc)   ansie~askey[0m
+[32;47m [0;1;37;47m░           [0m▓   [32m░[0m     [1;30m      [0m               [1;30m                    [0m               [32m░[0m
+[32;47m   [0;1;37;47m           [0m         [1;30;40m     [0m                [1;30;40m                  [0m
 [1;30;47m              [0m                                                                [32m░[0m
-[32;47m             [0;1;30;47m░[0m         members
+[32;47m             [0;1;30;47m░[0m                
 [47m [0;1;47m░            [0m   [32m░[0m                                                          [1;30m░[0m
-[1;30;47m  [0;30;47mg         s [0m         [1;30;40mbutachico[0m            [1;30;40m(bc)   askey[0m
-[1;30;47m       [0;30;47ma     [0;1;30;47m░[0m         [1;30;40mmr schizophrenia[0m     [1;30;40m(sz)   veegeeay[0m
-[1;30;47m            ░▒[0m         [1;30;40mpinguino[0m             [1;30;40m(pg)   veegeeay[0m
-[1;30;47m            ░▒[0m         [1;30;40msprite[0m               [1;30;40m(sp)   veegeeay[0m                   [32m░[0m
-[32;47m             [0;1;30;47m░[0m         [1;30;40mwebba[0m                [1;30;40m(wb)   veegeeay[0m
-[1;30;47m            ░▒[0m         [1;30;40mswilmeist[0m            [1;30;40m(sw)   coding[0m
-[1;30;47m            ░▒[0m   [32m░[0m     [1;30mloreon[0m               [1;30m(lr)   www design[0m
+[1;30;47m  [0;30;47m            [0m         [1;30;40m         [0m            [1;30;40m            [0m
+[1;30;47m       [0;30;47m      [0;1;30;47m░[0m         [1;30;40m                [0m     [1;30;40m               [0m
+[1;30;47m            ░▒[0m         [1;30;40m        [0m             [1;30;40m               [0m
+[1;30;47m            ░▒[0m         [1;30;40m      [0m               [1;30;40m               [0m                   [32m░[0m
+[32;47m             [0;1;30;47m░[0m         [1;30;40m     [0m                [1;30;40m               [0m
+[1;30;47m            ░▒[0m         [1;30;40m         [0m            [1;30;40m             [0m
+[1;30;47m            ░▒[0m   [32m░[0m     [1;30m      [0m               [1;30m                 [0m
 [1;30;47m           ░▒▓[0m
 [1;30;47m          · ░▒[0m         sites                                                  [32m░[0m
 [32;47m           [0;1;30;47m░▒▓[0m
@@ -44,7 +44,7 @@ Write-Host '
 [1;30;47m       ░  ░▒▓[0;1;30;40m▓[0m
 [46m▓[0;47m          [0;1;30;47m░▒▓[0m   [32m░[0m     [37minternet site[0m
 [37;47m [0;1;30;47m░  ░    ░░▒▓[0;1;30;40m▒[0m                                                               [32m░[0m
-[37m▓[0;1;30;47m░░░▒░░░░░▒▒▓[0;1;30;40m▓[0m         [1;30;40mftp.wuarchive.wustl.edu /pub/MSDOS_UPLOADS/ansi/gas[0m
+[37m▓[0;1;30;47m░░░▒░░░░░▒▒▓[0;1;30;40m▓[0m         [1;30;40m                                                   [0m
 ▐[1;30;47m░▒▒▓▒▒▒▒▒▓▓[0;1;30;40m▒▌   [0;32m░[0m                                                           [32m░░[0m
 [1;30m░[0m▀▓[1;30;47m▒▓▓▓▓▓▓[0;1;30;40m▒▓▀░   [0;1;32;40m░[0;32m░[0m     [32m░[0m          [32m░[0m                [32m░[0m                   [32m░   ░▒▒░[0m
 [32m  [0;1;30m░ ▀▀▀▀▀▀ ░    [0;32m░  ░   ░ ░[0m        [32m░    ░[0m         [32m░[0m         [32m░[0m     [32m░[0m     [32m░▒░   ░░[0m

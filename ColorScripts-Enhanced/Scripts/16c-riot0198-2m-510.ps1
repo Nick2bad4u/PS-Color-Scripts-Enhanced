@@ -5,7 +5,7 @@
 # Source SHA-256: df71757bfdf3f3fa809f8ce27511cfd92bbede6069a4ee356a77730cf9aeaf06
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2M-510.ANS by 2much4u (RioT Productions); released in riot0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: 2much4u
 # SAUCE Group: RioT Productions
 # SAUCE Date: 19980131
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-  [1;30mDiViSioN 51o[0m
+  [1;30m            [0m
                [32m▄▄▄▄[0m        [1;32;42m░[0;32m▄▄▄[0m             [32m▄▄[0m
            [1;32;42m░[0;32m▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▌[0m     [32m▄▀[0;1;33m▄[0;32m■▌[0m    [32m▄▄▀▀▀▀▀▀[0;1;32;42m░[0;32m▄[0m
           [1;32;42m▒[0m [1;33;42m█▓█▓▒▓▓▓█▓▒█▓▒▓[0;1;33;40m██[0;1;33;42m▒█[0;1;33;40m█[0;1;33;42m▓[0;1;33;40m█▀[0;32m▐▀[0m   [1;32;42m▒[0;32m▀[0;1;33m▄[0;1;33;42m▓[0;1;33;40m▌[0;1;32;42m░[0m   [32m▄▀[0;37m [0;1;33m▄[0;1;33;42m▓▓▓▒▓▒[0;1;33;40m▄[0;32m▀▀▄[0m
@@ -36,8 +36,4 @@ Write-Host '
                       [1;32;42m░[0;32m█[0;37m [0;1;33m▄▀▀▀[0;32m▄▄▀▀▀[0m               [32m▀▀▀[0;1;32;42m░[0;32m▄▄[0;1;33m▀▀▀▄[0;32m▐[0m
                        [1;32;42m▒[0;32m▀▄▀▀▀▀[0m                        [32m▀▀▀▀▄[0;1;32;42m░[0m
 
-[1;30m---------------------------------snipsnipsnip-----------------------------------[0m
-[1;30mThis is for Millenium''s fresh new groop to the scene Division 510. Use it if ya[0m
-[1;30mlike it Millenium.[0m [1;30mGreets to ShadCat, Rhoddi, Precious Metal, Destroyer, The[0m
-[1;30mDirector, loco, and Millenium.[0m
-[1;30mI do requests, so send em to me at: turbine@geocities.com[0m'
+[1;30m---------------------------------snipsnipsnip-----------------------------------[0m'

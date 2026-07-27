@@ -5,7 +5,7 @@
 # Source SHA-256: aa3633a0f1f34c3b3792ba5a58348d0496fb9d5ee3b57efd2a212f6ed13c3721
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW_N9.ANS by black weasel (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: N9: "sehr charmant."
 # SAUCE Author: black weasel
 # SAUCE Group: boil
@@ -39,11 +39,10 @@ Write-Host '
 [1;33;47m██[0;1;37;47m▐██▄ [0m▄[1;30m [0m [1;31;47m▀▓▓[0;1;31;43m██▌▄▄[0;1;33;43m  ░▓█▓░[0;33m ▐[0;1;33;43m ░▒▓[0;1;33;40m▀[0;33m▀ [0;37m  bw_([0;1;37mboil[0m)[1;33m▀[0m   [1;33m [0m [1;33m [0m          [33m▐[0m
 [1;31m  [0m      [1;30m [0m    [1;33m [0m      [1;33m ░[0m  [33m [0;37m [0;33m▐[0m                                   [33m▐[0m
                           [33m [0m
-[37m::[0;1;37mhmm[0m..[1m this is old[0m.[1m ya[0m.[1m i think i made it for an imagined pack 07[0m/[1m97 [0m:)
+[37m  [0;1;37m   [0m  [1m            [0m [1m   [0m [1m                                          [0m [1m   [0m  
 
 [1m         ____                           __/\__           ____ ___        .[0m
 [1m  ______/  .__ ________       ______    \ ss /    ______/  _//__/ --/\__/----.[0m
 [1m  \    /_______\\     /_______\__  /_cLS/____\ __ \\   /  /___               |_[0m
 [1m ss\   ______ ___.   ___  ______/ __    _____/_____\   \     /sss  [0;1;33m([0mboil[1;33m)[0;1;37m    _/[0m
-[1m """\__________\"\  /"""\________/""\\__________________\  //""""           _|[0m
-[1m   [0;1;33m_black weasel[0;1;37m  \/  [0;1;33m([0mboil[1;33m)[0;1;37m            [0m   [1m              \// [0mbw_[1;33m@[0mgmx.net[1m ?--\-[0m'
+[1m """\__________\"\  /"""\________/""\\__________________\  //""""           _|[0m'

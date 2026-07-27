@@ -5,7 +5,7 @@
 # Source SHA-256: a28577c802e4fdab30fc37e74ee953282005f20b99896cd073ebb9466fe76e18
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-EVIL1.ICE by Tetanus (iCE); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Industrial Evil
 # SAUCE Author: Tetanus
 # SAUCE Group: iCE
@@ -50,13 +50,4 @@ Write-Host '
                [1;35m▀▒[0;1;31m [0m [1;30m██▓░ [0m   [1;30m ▀■[0m    [1;30m█▌ [0m  [1;30m▐▓ [0m  [1;30m▐▓[0m  [1;30m▐▓░█[0m  [35m▄▄▀[0;37m  [0;1;35m░[0m
      [35m▀[0m   [35m░▄[0m        [1;30m▐██▌░ [0m [1;30m [0m   [1;30m▄[0m  [1;30m▐█░░[0m   [1;30m▓▌[0m  [1;30m█▌ [0m  [1;30m▀▄▓[0m    [1;30m  [0;1;35;45m▒▓[0;1;35;40m▄■[0m
              [35m▀[0;1;35;45m░▒[0;1;35;40m▄[0;1;31;40m [0;1;35;40m■[0m [1;30m▀██▓▄░ [0m [1;30m▄▓▀[0m   [1;30m▀▓▄░▄▓▀[0m [1;30m▄▓▀█▄[0m [1;30m▄▓▀▄▄░[0m [1;30m▄■[0;35m▀[0;1;35;45m░[0;35m▀[0;37m  [0;35m▀[0;37m [0;35m■[0m
-                [1;31m [0;1;35m▀[0;1;31m [0m   [1;30m ▀▀▀▀▀▀ [0m      [1;30m▀▀▀[0m  [1;30m▀▀[0m   [1;30m▀▀▀[0m   [1;30m▀▀▀[0m          [31m [0;35m▀[0m
-
-     [37mindustrial evil [0;35m ∙  [0;1;30m[714][0;35m [0;1;30m779-4116[0m [35m ∙  [0;1;30msysOp: [0mpossessed [1;30m(bigod-2φ?¿)[0m      [1;30m [0m
-
-                    [1;30mansi by [0mtetanus[1;30m of [0mice advertisments
-[1;30m  [0m         [1;30mgreets: slothy, syntax, lemonade, toon goon, parasite..[0m
-
-                      [1;30mInsane Creators Enterprises 1995[0m
-
-'
+                [1;31m [0;1;35m▀[0;1;31m [0m   [1;30m ▀▀▀▀▀▀ [0m      [1;30m▀▀▀[0m  [1;30m▀▀[0m   [1;30m▀▀▀[0m   [1;30m▀▀▀[0m          [31m [0;35m▀[0m'

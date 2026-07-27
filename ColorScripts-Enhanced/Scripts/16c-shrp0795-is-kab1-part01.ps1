@@ -5,7 +5,7 @@
 # Source SHA-256: a756f5d7a76e63af6e9ac4256a95a1aa6bc28a682e31ac0fade5c7e7c2d3d8a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IS-KAB1.ANS by Iseilice (SHARP); released in shrp0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Kabalah
 # SAUCE Author: Iseilice
 # SAUCE Group: SHARP
@@ -26,7 +26,7 @@ Write-Host '
      [31;40m██[0m       [31;40m██[0m   [31;40m██[0m   [31;40m████[0m    [31;40m██[0m    [31;40m██[0;37;40m [0;31;40m█ [0;37;40m  [0;31;40m█ [0;37;40m [0;31;40m███████[0;37;40m [0;31;40m█ [0;37;40m [0;31;40m█ [0;37;40m [0;31;40m████[0;37;40m [0;31;40m█  █[0;37;40m  [0;31;40m█[0m   [31;40m█ [0m
 
 
-[34;40m      [0;31;40mCRIMSON U.S. HEAD QUARTERS[0;34;40m(941)921-7280[0;35;40m [0;31;40mSYSOPS[0;34;40m(Iseilice, Quadrophenia)[0m
+[34;40m      [0;31;40m                          [0;34;40m             [0;35;40m [0;31;40m      [0;34;40m                        [0m
 
                     [33;40m ▓▓▓▒▒▒  ▒▒[0m
                    [31;40m [0;33;40m ▓▒▒▒[0;37;40m     [0;33;40m▒[0m

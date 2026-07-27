@@ -5,7 +5,7 @@
 # Source SHA-256: 38428eaf0934e8f5b98e42e6d87e3de16ebaba5d8bf5b27a625bc417a1875a28
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LO`LORE.ANS by lord (mud); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lore E-Mag
 # SAUCE Author: lord
 # SAUCE Group: mud
@@ -32,5 +32,5 @@ Write-Host '
 [1;37m     [0m        [33m░██████▄ ▄█▓███▄███▀█████▌[0;32m░[0;33m▐█████▀██▄▄▄▄▄█[0;37m [0;32m░[0;37m [0;33m▄▄██▀███▌[0m
               [33m███████▓██████████▓██████▄▀█████▓███▒████▀▄█████▓███[0m
               [33m ▀▀▀██▒███████████▒███████▓█████▒████████▓██████▒▀▀ [0m
-                   [33m░[0;1;30m  ansi copyr[0;33m░[0;1;30might [0;32m([0;1;37mc[0;33m▒[0;32m)[0;1;30m lor[0;33m░[0;1;30md of ins[0;33m▒[0;1;30momnia[0m [33m░[0m
+                   [33m░[0;1;30m            [0;33m░[0;1;30m     [0;32m [0;1;37m [0;33m▒[0;32m [0;1;30m    [0;33m░[0;1;30m        [0;33m▒[0;1;30m     [0m [33m░[0m
                                         [33m░[0m              [33m░[0m'

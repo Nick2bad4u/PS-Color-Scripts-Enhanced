@@ -5,7 +5,7 @@
 # Source SHA-256: d850537c4eea18a04ffd27a7ce6f9395e16284d45d05eb76d8e794389f356fc5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-MENU.ANS by (BYM)Stor Gul Man (poffelipoff); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: twin tower menuset
 # SAUCE Author: (BYM)Stor Gul Man
 # SAUCE Group: poffelipoff
@@ -32,7 +32,7 @@ Write-Host '
 [36m [0;1;30;46m▌[0;1;36;46m▓▌[0;1;30;40m▌[0;1;36;46m█[0;1;30;46m▐[0;36m [0;1;32m xxxxxxxxxxxxxx[0m     [1;32mxx.xx - xx.xx   xxxxx   xxxxxxxxxxxx[0m [36m [0;1;30m▄[0;36m▄  ▀▀▀[0;1;30;46m▄[0;1;36;46m▀██▌[0;1;30;40m▌[0m
 [36m [0;1;30;46m▌[0;1;36;46m▓▌[0;1;30;40m▌[0;1;36;46m█[0;1;30;46m▐[0;36m [0;1;32m xxxxxxxxxxxxxx[0m     [1;32mxx.xx - xx.xx   xxxxx   xxxxxxxxxxxx[0m [36m [0;1;30m▐[0;1;30;46m▄[0;1;36;46m▀░[0;36m▄▄▄  [0;1;30;46m▓░[0;1;36;46m▌[0;1;30;40m▌[0m
 [36m [0;1;30;46m▌[0;1;36;46m▓▌[0;1;30;40m▌[0;1;36;46m█[0;1;30;46m▐[0;36m [0;1;32m xxxxxxxxxxxxxx[0m     [1;32mxx.xx - xx.xx   xxxxx   xxxxxxxxxxxx[0m    [1m ░░[0;1;30m▀[0;1;30;46m▄[0;36m███[0;1;30m▌[0;36m█[0m
-[36m [0;1;30;46m▌[0;1;36;46m█▌[0;1;30;40m▌[0;1;36;46m█[0;1;30;46m▐[0;36m [0;37m [0;1;32mxxxxxxxxxxxxxx[0m     [1;32mxx.xx - xx.xx   xxxxx   xxxxxxxxxxxx[0m          [1;30m▀[0;36m▀[0;1;30m▌[0m
+[36m [0;1;30;46m▌[0;1;36;46m█▌[0;1;30;40m▌[0;1;36;46m█[0;1;30;46m▐[0;36m [0;37m [0;1;32m              [0m     [1;32m                                    [0m          [1;30m▀[0;36m▀[0;1;30m▌[0m
 [36m [0;1;30;46m▌[0;1;36;46m▀[0;1;30;46m▐[0;36m ▀▀[0m                                                                  [36mbym[0m
 [36m [0;1;30m▀[0;36m  ▄▄[0;1;36;46m ▀▀▀[0;1;30;46m ▄[0;36m▀▀▀[0;1;30m▀[0m                                           [1m  [0m  [1;30m▀▀[0;36m▀▀[0;1;30;46m▄▄[0;36m███▄▄[0;1;30m▄[0;36m   [0m
 [36m [0;1;30m▄[0;36m██[0;1;30;46m▄[0;36m▀▀[0;1;30m▀[0m     [36m▄▄[0;1;36;46m░░[0;36m█▀▀▀▀[0;1;30m▀▀[0m   [1;30m▀[0;36m▀▀▀▌  [0;1;30m▄[0;36m▄▄[0m     [1;30m▄[0;36m▄▄  [0;1;30m▐[0;36m▀▀[0;1;30m▀[0m    [1;30m▀[0;36m▀▀▀▀▀[0;1;36;46m▀▀░[0;36m▄[0;1;30m▄[0m     [1;30m▀[0;36m▀▀[0;1;36;46m░▄[0;36m█[0;1;30m▄[0m
@@ -41,7 +41,7 @@ Write-Host '
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 
- [1mTwin tower main menu ...[0m
+ [1m                        [0m
 
 
               [36m▄▄▄▄ █[0;1;36;46m▄[0;36m█[0m     [1;30m▄▌[0;36m █[0;1;36;46m▄[0;36m▌[0m    [36m [0;1;36;46m▄▄▓▓[0;36m█▄▄▌ [0;1;36;46m▐▓[0;36m█[0m   [36m▐[0;1;36;46m▐▄░░▄▌[0;36m▌ [0;1;30m▄[0;36m▄▄[0;1;30m▄ [0m

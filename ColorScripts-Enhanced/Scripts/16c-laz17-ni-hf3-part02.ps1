@@ -5,7 +5,7 @@
 # Source SHA-256: 6bf3e4af2abf82e6745bc2968b8cfd2a7b4dbcbf5e386f3bf7665a98fa278009
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-HF3.ANS by Nitron (Lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hold Fast! #3
 # SAUCE Author: Nitron
 # SAUCE Group: Lazarus
@@ -56,5 +56,5 @@ Write-Host '
 [37;40m     [0;34;40m▀[0;34;44m▀▓[0;34;40m▀▄[0;37;40m [0;34;40m▀▀▀▀▒▒██▄▄▄▄▄[0;37;40m [0;34;40m▄▄▀▀▀█▓▓▓▓▀[0;37;40m     [0;34;40m▀▀▀▀▓▓▓▀▀▀▀[0;37;40m [0;34;40m▀▄▄░░▄▄▄▄▄[0;37;40m  [0;34;40m░▒▒▀▀▀▀▄▄▄▄[0m
 [37;40m           [0;34;40m▄▄▀▀▀▀▀▀[0;37;40m      [0;34;40m▀▀▀▀[0;37;40m    [0;34;40m▀▀[0;37;40m [0;1;30;40m░[0m [1;36;46m░[0;36m▐[0;37m [0;1;30;46m▒[0;36mn1tron[0;37m  [0;34m▀▀▀▀[0;37m      [0;34m▄▄▓█▀▀▀▀▀▀▀▀▀[0;37m   [0;34m■[0m
 
-[1;30m                                 [0m░ [1;30mholdfastbbs[0m.[1;30mca[0m
+[1;30m                                 [0m░ [1;30m           [0m [1;30m  [0m
 [30m1[0m'

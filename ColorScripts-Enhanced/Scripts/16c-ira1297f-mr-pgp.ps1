@@ -5,7 +5,7 @@
 # Source SHA-256: d488d174ced1a84f9b0e8b16860e51cf1da1b59cdaf61907d52aa23faffe80d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-PGP.ANS by Mr.Wrong (irato); released in ira1297f and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pretty good piracy
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: irato
@@ -36,6 +36,5 @@ Write-Host '
     [31m░[0;1;31m░[0;1;31;41m▓░[0;31m█[0;1;31;41m ░▓[0;1;31;40m▄[0;31m▄■[0;37m [0;36m▐[0;1;36;46m░[0;1;36;40m░[0m [36m▐▀▀▀▀▀▀[0;1;37m▀[0;1;36;46m█▓░░[0;36m█▄▄▄[0;1;36;46m▓[0;36m▀▀[0;1;36;46m░▓█[0;1;37;40m▄[0;36m▄[0;37m [0;32m░[0;37m [0;31m▀[0;36m [0;31m [0;36m▄▄[0;1;37m▄[0;36m █▄▄▄[0;1;37m▀[0;1;36;46m░▓█[0;1;37;40m▀[0m [1;31m▄[0;1;31;41m█▓░[0;31m█▓░[0m
     [31m▀[0;1;31m ░▀[0;31m▀▀▀▓▀▄[0;37m [0;1;30m[[0;1;37mwrng[0;1;30m][0m               [1;36m░[0m [36m▀▀[0;1;36;46m░[0;36m▌▀[0;37m    [0;36m▀▀▀░[0;1;37m [0;36m▓[0m       [1;36;46m░[0m [1;31m▄[0;31m▀[0;1;31m▀[0;31m▀▀▀▀░[0;1;31m▀[0m
    [1m [0m       [31m░[0;37m [0m         [37mp r e t t y  g o o d  p i r a c y[0m
-   [1;37m [0m      " h/p for all the family " [1madmin [0m- [1mPhaust[0m  [1m418.ate.bell[0m
-[1;30m--------------------------------------------------------------------------------[0m
-- Cut & paste. old school. Experimenting backgrounds. Neurosis. Lot''s of coffee.[0m'
+   [1;37m [0m                                 [1m      [0m  [1m      [0m  [1m            [0m
+[1;30m--------------------------------------------------------------------------------[0m'

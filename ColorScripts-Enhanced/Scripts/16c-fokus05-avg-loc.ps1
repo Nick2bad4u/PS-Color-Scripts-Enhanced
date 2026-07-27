@@ -5,7 +5,7 @@
 # Source SHA-256: 887e34acc1eb4cfa13422a50ba55bb7f3329f6d1447d067e5fa5b25de8a1c771
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-LOC.ANS by ave angel (fokus fonting); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: yayjuju.. locus
 # SAUCE Author: ave angel
 # SAUCE Group: fokus fonting
@@ -37,7 +37,4 @@ Write-Host '
       [34m   [0;1;30m▀[0;34m▄▄█[0;1;34;44m      ▀▀[0;34m█▄ ▄████[0;1;34;44m▄[0;34m██[0;1;34;44m▀[0;34m██▀▀▀ [0;1;30m▄[0;1;30;47m▀▀[0;1;30;40m▄[0;34m ▀▀▀[0;1;34;44m    ▄ ▄██▄[0;1;34;40m▄[0;34m▄▄▄[0;1;34;44m   ▀▀ ▄[0;1;34;47m█[0;1;34;44m▄[0;34m▄▄▀[0;1;34m▒▒[0;34m▄ ▄[0m
       [34m  ▄[0;1;34;44m ▀[0;34m▀ [0;1;34;44m     [0;34m█[0;1;34;44m  [0;34m████[0;1;34;44m   [0;34m█▀▀█▄[0;1;34m▒▒[0;34m▀▀   [0;1;30m▀▀  [0;34m ▀▀[0;1;34m▒▒[0;34m▄▀▀▀[0;1;34;44m ▀▀[0;1;34;47m▄[0;1;34;44m▓▓▀ ▀  [0;34m▀[0;1;30m▄[0m▄[34m▀[0;1;34;44m▀ ▄   [0;34m▄[0m
        [34m▐[0;1;34;44m  [0;34m  ▐[0;1;34;44m    ▄▄[0;1;34;47m▀[0;1;34;44m▀[0;1;34;40m▀[0;34m▀[0;1;34m▀[0;34m▀[0;37m [0;1;30m  ▀[0m▀    [1;33m        [0;1;30m   [0m     [1;30m▀[0m▀▀  [34m▄[0;1;34m▄[0;1;34;44m█▄[0;34m▀▀████▄▄██▀[0;1;30m▄[0;34m▀[0;1;34;44m   [0;34m▌[0m
-[34m                     [0m               [1;30ml o c u s[0;1;33m   [0m         [34m▀[0;1;34m▀▀[0;34m▀[0m
-          [37m                [0m                  [1;30m [0m
-[1;30mafter tna talked to me i drew this, the shit he said to me, really influenced me[0m
-[1;30mand i ended up drawing a weird ass logo.., but i like it for some reason..[0m'
+[34m                     [0m               [1;30ml o c u s[0;1;33m   [0m         [34m▀[0;1;34m▀▀[0;34m▀[0m'

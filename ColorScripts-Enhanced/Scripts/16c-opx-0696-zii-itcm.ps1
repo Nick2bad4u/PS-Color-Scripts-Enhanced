@@ -5,7 +5,7 @@
 # Source SHA-256: 5f49ba6f1adedea067f2aea4ee44225575496b339658c7deed5d4a1139107639
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-ITCM.ANS by Zeus II (Opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Matrix for ITC 2.00
 # SAUCE Author: Zeus II
 # SAUCE Group: Opium
@@ -32,8 +32,7 @@ Write-Host '
     [34m█▀ ▀[0;1;34;44m░▒▒▓[0;1;34;40m▀[0;34m▄▀[0;1;34;44m░[0;34m▄▄ [0;37m ▀██████▀▀███[0;1;37;47m    ░[0m██████████[1;47m░░░░▒▒▓█[0;1;40m▀[0m [34m▄▀[0;1;34;44m░▒[0m [34m ▄▄▄█[0;1;34;44m░░▒▓▓▓[0m [34m█[0;1;34;44m░▒[0;34m [0m
 [37m  [0;34m▀█▄[0;1;34;44m░░▒▓▓[0;1;34;40m▀ [0;34m▄[0;1;34m▄[0;34m▀▀[0;1;34m▀[0;1;34;44m░▒▓[0;1;34;40m▄[0;34m [0;1;34m▄[0m▀▀████▄▄▀▀▀▀[1;47m░▒░[0m█▀▀▀▄[1;47m░░░░░▒▒▒▓[0;1;40m▀▀ [0;34m▄[0;1;34;44m░▒[0;1;34;40m▀[0m [34m▄█▀ █[0;1;34;44m░░▒▓▓▓[0;1;34;40m▀▄▀[0;1;34;44m░▒▓▓[0m
    [34m▀▀▀▀[0;1;34m▀▀[0m  [34m▀[0;1;34m▀▀▀[0m  [34m [0;1;34m▀▀▀[0;34m [0;1;34m▀▀[0;34m [0;37m   ▀▀▀▀▀       ▀▀▀▀▀▀[0;1;37m▀▀▀[0m    [34m▀▀▀[0;1;34m▀▀[0m [34m▀▀▀▀▀▀▀[0;1;34m▀▀▀[0m  [1;34m▀▀[0;34m  [0;1;34m▀▀▀▀[0m
-                        [34mAnsi by ZEUS II in may ''96[0m
+                        [34m                          [0m
 
-   [1;31;47m  [0;1;37;47mA[0;30;47mpply  [0;1;30;40m▄[0m     [1;30;47m [0;1;37;47mG[0;30;47moodbye [0;1;30;40m▄[0m     [1;30;47m  [0;1;37;47mL[0;30;47mogon  [0;1;30;40m▄[0m     [1;30;47m [0;1;37;47mM[0;30;47members [0;1;30;40m▄[0m     [1;30;47m [0;30;47m [0;1;37;47mP[0;30;47meek   [0;1;30;40m▄[0m
-    [1;30m▀▀▀▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀[0m
-Option:[0m'
+   [1;31;47m  [0;1;37;47m [0;30;47m      [0;1;30;40m▄[0m     [1;30;47m [0;1;37;47m [0;30;47m       [0;1;30;40m▄[0m     [1;30;47m  [0;1;37;47m [0;30;47m      [0;1;30;40m▄[0m     [1;30;47m [0;1;37;47m [0;30;47m       [0;1;30;40m▄[0m     [1;30;47m [0;30;47m [0;1;37;47m [0;30;47m      [0;1;30;40m▄[0m
+    [1;30m▀▀▀▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀[0m      [1;30m▀▀▀▀▀▀▀▀▀[0m'

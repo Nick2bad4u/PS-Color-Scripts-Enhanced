@@ -5,7 +5,7 @@
 # Source SHA-256: a02a8ede5df03a6538a0948a931368d27e38289e9797d4749fba74af770b5097
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ACIDSUCK.ANS by splatt (ACID SUCKS!); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ACID HACKED MY HARDDRIVE!
 # SAUCE Author: splatt
 # SAUCE Group: ACID SUCKS!
@@ -35,6 +35,4 @@ Write-Host '
     [1;30m  [0m  [1;30m▄▀ [0m            ▄[1;30;47m░[0;30;47masdfghjkl;''[0;1;30;47m▄[0m▀[1;30m▀ [0m               [34m█▌▄▄▄▄▄[0;37m  [0;35m▀▀▀▀▀[0m
        [1;30m■[0m              ▄[1;30m■[0m ▀▀[30;47mxc[0;1;30;47m▄[0m▀▀[1;30m▀st?[0m   [1;30m [0m              [34m▐█████████ [0;1;31m▀▀[0;33m▀[0m
         [1;30m▀[0m▄▄      [1;33m▄[0;1;37m▄▄▀[0m▀                               [34m ▐█████▄██████▓ [0;37m [0;1;31m     [0m
-           ▀[1m▀[0;1;33m▀▀[0m                            [1;33m  HAXOR![0m   [1;34;44m▒▒[0;34m████ ██████▓ [0m
-
-[1;31m                 [0m [1;31m**** ACID HAXOR HACKING RAI''S COMPUTER ****[0m'
+           ▀[1m▀[0;1;33m▀▀[0m                            [1;33m  HAXOR![0m   [1;34;44m▒▒[0;34m████ ██████▓ [0m'

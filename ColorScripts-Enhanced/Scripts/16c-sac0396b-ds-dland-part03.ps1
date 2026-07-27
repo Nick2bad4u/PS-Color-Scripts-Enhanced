@@ -5,7 +5,7 @@
 # Source SHA-256: fad70154901066681f586de06a5f78fc9f89b1242be7f51247d4d310e67cef70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-DLAND.ANS by dark star; released in sac0396b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Darklands Login 2
 # SAUCE Author: Dark Star
 # SAUCE Group: SAC
@@ -50,18 +50,18 @@ Write-Host '
 [34m              [0;1;37m     [0;34m    [0;31mD[0;34m [0;1;30m·[0;34m [0;37mA[0;34m [0;1;30m·[0;34m [0;1;37mR[0;34m [0;1;30m·[0;1;37m K [0;1;30m·[0;1;37m L [0;1;30m·[0;1;37m A [0;1;30m·[0;1;37m N [0;1;30m·[0;1;37m [0mD[1m [0;1;30m·[0;1;37m [0;31mS[0;37m [0;1;37m [0m
 [31m─ ─────────[0;37m─[0;31m──[0;37m──[0;31m─[0;37m──────────────[0;1;37m─[0m──[1m──[0m─[1m─────[0m─[1m──[0m──[1m─[0m──────────────[31m─[0;37m──[0;31m──[0;37m─[0;31m────────  ─[0m
 
-                       [1;37m    [0mφ  [31mSY[0;37mSO[0;1;37mP : DEATHWA[0mLK[31mER[0;37m  φ[0m
-                  [37mφ  [0;31mCOS[0;37mYSO[0;1;37mP : THE OUTLAWS , DA CONS[0mPIR[31mACY[0;37m  φ[0m
+                       [1;37m    [0m   [31m  [0;37m  [0;1;37m           [0m  [31m  [0;37m   [0m
+                  [37m   [0;31m   [0;37m   [0;1;37m                         [0m   [31m   [0;37m   [0m
 
-                     [1;37m  [0mφ[1m  [0;31m5[0;1;37m [0mNO[1mDES(4x ISDN & 1x V.[0m34+[31m)[0;37m  φ[0m
+                     [1;37m  [0m [1m  [0;31m [0;1;37m [0m  [1m                   [0m   [31m [0;37m   [0m
 
-                             [1;37m [0mφ[1m  [0;31mD[0;37mOD[0;1;37m GERMA[0mN H[31mQ[0;37m  φ[0;1;37m [0m
-                            φ[1m [0m [31mDY[0;37mNA[0;1;37mMIX GERMA[0mN[31m HQ[0;37m  φ[0m
-                         [31m [0;37m  φ[0;1;37m [0m [31mNU[0;37mTE[0;1;37mLLA GERMA[0mN[31m HQ[0;37m  φ[0m
-                          [1;37m [0m φ[1m [0m [31mDY[0;37mTE[0;1;37mC HEADQUA[0mRT[31mER[0;37m  φ[0m
-                          [31m  [0;37mφ [0;1;37m [0;31mRI[0;37mSC[0;1;37m  MEMBER[0mBOA[31mRD[0;37m  φ[0m
-                           [37mφ [0;1;37m [0;31mEN[0;37mERG[0;1;37mY  MEMBER[0mBOA[31mRD[0;37m  φ[0m
+                             [1;37m [0m [1m  [0;31m [0;37m  [0;1;37m      [0m   [31m [0;37m   [0;1;37m [0m
+                             [1m [0m [31m  [0;37m  [0;1;37m         [0m [31m   [0;37m   [0m
+                         [31m [0;37m   [0;1;37m [0m [31m  [0;37m  [0;1;37m         [0m [31m   [0;37m   [0m
+                          [1;37m [0m  [1m [0m [31m  [0;37m  [0;1;37m         [0m  [31m  [0;37m   [0m
+                          [31m  [0;37m  [0;1;37m [0;31m  [0;37m  [0;1;37m        [0m   [31m  [0;37m   [0m
+                           [37m  [0;1;37m [0;31m  [0;37m   [0;1;37m         [0m   [31m  [0;37m   [0m
 
-                       [37mφ  [0;31m/┤N[0;37mSi[0;1;37m BY D/┤RK ST/┤R <[0mS/[31m┤C>[0;37m  φ[0m
+                       [37m   [0;31m ┤ [0;37m  [0;1;37m      ┤      ┤   [0m  [31m┤  [0;37m   [0m
 
 [31m▄[0;1;30m  [0;31m▄▄▄▄▄▄▄▄[0;37m▄[0;31m▄▄[0;37m▄▄[0;31m▄[0;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄▄▄[0m▄[1m▄▄[0m▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[31m▄[0;37m▄▄[0;31m▄▄[0;37m▄[0;31m▄▄▄▄▄▄▄▄[0;1;30m  [0;31m▄[0;1;30m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 91e025f773d4c3fa92a505fc819e1c0f102104b07a3e2b14e4ac00f5d63e8038
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-HH1.ANS by Mr Corruption (fury1094); released in fury1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 96-143
 # Columns: 1-80
 
@@ -21,7 +21,7 @@ Write-Host '
 [1;33;40m████▀ ▀███ ███▄  ▄█▀  ███[0;1;31;40m▄[0;1;33;40m███ ███▄  ▄█▀  ██   ██  ███▄  ▄█▀[0m
 [1;33;40m████▄ ▄██▀ ▀█████▀▄██ ███ ███ ▀█████▀▄██  ██▄██   ▀█████▀▄██  ▄▄[0m
 [1;33;40m▀▀▀ ▀▀▀▀[0m     [1;33;40m▀▀▀▀▀▀▀  ▀▀▀ ▀▀▀   ▀▀▀▀▀▀▀    ▀▀▀[0m      [1;33;40m▀▀▀▀▀▀▀   ▀▀[0m
-[1;30;40mAlien Work shop is a trademark of Scott Conklin..[0m
+[1;30;40m                                                 [0m
 
 
          [32m▀████▀▀▀   ▀█[0;32;42m [0;32;40m██▀▀▀[0m                      [32;40m▀████▀▀▀   ▀█[0;32;42m [0;32;40m██▀▀▀[0m
@@ -37,16 +37,16 @@ Write-Host '
            [32m██[0;1;32;42m█[0m       [1;30;40m▌[0;32m░██▌[0m                          [32m██░[0m       [1;30m▌[0;1;32;42m▓[0;32m██▌[0m
           [32m▐█[0;32;42m [0;1;32;42m█[0m        [32m░███[0m                         [32m▐█[0;32;42m [0;32;40m░[0m        [1;32;42m▓[0;32m███[0m
          [32m▀▀▀▀▀▀▀[0m     [32m▀▀▀▀▀▀[0m                       [32m▀▀▀▀▀▀▀[0m     [32m▀▀▀▀▀▀[0m
-[30mI am fucking elite![0m                                       [30mTron is a necro!![0m
-[30mWiz has no penis!!![0m                            [1;37m▄▄▄▄▄[0m
+[30m                   [0m                                       [30m                 [0m
+[30m                   [0m                            [1;37m▄▄▄▄▄[0m
 [30mHammer cant skate![0m      [37m▄▄██▄[0m              [1;37m▄▄████████[0;1;37;47m▓[0;1;37;40m▄▄[0m
                      ▄▄█▀▀▀▀▀▀           [1m▀▀▀▀▀▀▀▀▀▀██[0;1;47m▓▓▒▓[0m▄
             ▄▄██▄▄ ▀████ [1;32m█▀▀▀[0;32m▀[0;1;32m▀▀▀[0;32m▀[0;1;32m▀[0;32m▀▀▀▀▀▀[0;1;32m▀[0;32m▀[0;1;32m▀▀[0;32m▀[0;1;32m▀▀▀█ [0;1;37m█[0;1;37;47m▓▓▒▓▒▒▒[0m
              ▀▀▀▀   [32m▄▄▄▄▄▄▄▄▄▄▄[0m             [32m▄▄▄▄▄▄▄▄▄▄▄ [0;37m▀▀[0;1;37;47m▒░[0m▌
              [1;32m▄▄▄[0;32m▄▄█ [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;32m█▄▄[0;1;32m▄▄▄[0m
-             [32m▄▄ [0;1;30m▄▄▄ █ Hel[0;32mi[0;1;32mu[0;32mm [0;1;30mH[0;32mi[0;1;32mg[0;32mh[0;1;30mGroun[0;32md[0;1;32ms[0;32m: [0;1;30m5[0;32m1[0;1;32m5[0;32m-[0;1;30m232-0969█ ▄▄▄ [0;32m▄▄  [0;30mcia is cool!![0m
-             [32m█    [0;1;30m█   2 N[0;32mo[0;1;32md[0;32me [0;1;30mR[0;32mi[0;1;32mn[0;32mg[0;1;30mdown, [0;1;32m1[0;32m6[0;1;30m.8 [0;1;32ma[0;32mn[0;1;30md 28.8k   █    [0;32m█[0m
-             [32m▄ [0;1;32m█[0;32m▀ [0;1;30m█  Dual [0;1;32mS[0;32mtand[0;1;32ma[0;32mr[0;1;30mds, 2[0;32m.[0;1;32m2 [0;32mGig[0;1;32ms [0;1;30mof Space  █ [0;32m▀[0;1;32m█ [0;32m▄[0m
+             [32m▄▄ [0;1;30m▄▄▄ █    [0;32m [0;1;32m [0;32m  [0;1;30m [0;32m [0;1;32m [0;32m [0;1;30m     [0;32m [0;1;32m [0;32m  [0;1;30m [0;32m [0;1;32m [0;32m [0;1;30m        █ ▄▄▄ [0;32m▄▄  [0;30m             [0m
+             [32m█    [0;1;30m█      [0;32m [0;1;32m [0;32m  [0;1;30m [0;32m [0;1;32m [0;32m [0;1;30m      [0;1;32m [0;32m [0;1;30m   [0;1;32m [0;32m [0;1;30m          █    [0;32m█[0m
+             [32m▄ [0;1;32m█[0;32m▀ [0;1;30m█       [0;1;32m [0;32m    [0;1;32m [0;32m [0;1;30m     [0;32m [0;1;32m  [0;32m   [0;1;32m  [0;1;30m          █ [0;32m▀[0;1;32m█ [0;32m▄[0m
              [32m█ [0;1;32m█  [0;1;30m█[0m     [1;30mH[0;32m/[0;1;32mP[0;32m/[0;1;30mA/[0;32mV[0;1;32m/[0;32mC[0;1;30m, o-3[0;32mO d[0;1;30m4y [0;1;32mW[0;32ma[0;1;30mrez[0m       [1;30m█  [0;1;32m█ [0;32m█ [0;37m██▄▄[0m
              [32m▄ [0;1;32m▀[0;32m▀ [0;1;30m█[0m      [32mA[0;1;32mc[0;32mc[0;1;30mse[0;32ms[0;1;32ms[0;32mi[0;1;30mon WH[0;32mQ[0;1;32m, [0;1;30mPC[0;32mP W[0;1;30mHQ[0m        [1;30m█ [0;32m▀[0;1;32m▀ [0;32m▄ [0;37m█████▀[0m
              [32m█▄ [0;1;30m▄▄█ ▄  De[0;32mv[0;1;32mi[0;32ml[0;1;30mis[0;32mh[0;1;32mN[0;32me[0;1;30mt Mid[0;32mW[0;1;32me[0;32ms[0;1;30mt [0;32mU[0;1;32mS[0;32mA [0;1;30mHub    ▄ █▄▄ [0;32m▄█  [0;37m▀[0m
@@ -54,7 +54,4 @@ Write-Host '
                   [32m▀ ▄▄▄▄▄▄▄▄▄▄▄[0m             [32m▄▄▄▄▄▄▄▄▄▄▄ ▀[0m
                          [1;32m▄[0m                       [1;32m▄ [0m▄▄▄
                          [1;32m▀▀▀▀[0;32m▀[0;1;32m▀▀▀[0;32m▀[0;1;32m▀[0;32m▀▀▀▀▀▀▀[0;1;32m▀[0;32m▀[0;1;32m▀▀[0;32m▀[0;1;32m▀▀▀ [0m███▀
-                                             ▀▀████▀▀
-                                                           [30mAzrael is really[0m
-                                                             [30ma woman!![0m
-[1;30mMr. Corruption -FURY(c) 1994.. Ansi for R.I.[0m'
+                                             ▀▀████▀▀[0m'

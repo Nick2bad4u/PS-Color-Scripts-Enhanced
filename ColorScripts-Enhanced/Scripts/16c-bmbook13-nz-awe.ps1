@@ -5,7 +5,7 @@
 # Source SHA-256: 244ff0236174e2c8fd53d16dd8ef51e1a3bf28953caaaf64ddad1b25a1151a7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-AWE.ANS by noize (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: awe promotion
 # SAUCE Author: noize
 # SAUCE Group: black maiden
@@ -17,7 +17,7 @@
 Write-Host '
 
 
-                            [1mdedicated to awe letterings.[0m
+                            [1m                            [0m
 
                                               [1;32;42m▐███▄▄▄[0;32m▌[0m
                         [35m░[0m    [32m█[0;1;32;42m▄▄▐███[0;32m▌[0m         [1;32;42m▐█[0;1;37;40m███[0;1;32;42m██[0;32m▌ ▄▄▄[0;1;32;42m▄▄███▄▄[0;32m▄▄▄[0m     [30;43m░[0;33;40m▓[0;30;43m░[0;33;40m▓[0;30;43m░[0;33;40m▓[0;30;43m░[0m

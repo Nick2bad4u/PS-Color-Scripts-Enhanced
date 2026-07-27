@@ -5,7 +5,7 @@
 # Source SHA-256: 87582f107a27ffe515a9cff3e9b0b1433d1eca305e480bd2d735539f68840aec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PLZ-AWE.ANS by Plazz (sense10j); released in sense10j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -25,6 +25,4 @@ Write-Host '
         [32m    ▒[0m      [35m▀███[0;1;35;45m▀▀▀[0;35;40m██[0m   [32m█[0;1;32;42m   ▄███[0;32;40m█[0;35;42m▄█[0;35;40m█▀[0m  [1;32;42m▀[0;1;36;40m█[0;1;32;42m█[0;32;40m█[0;1;32;42m  [0;32;40m█[0;35;42m▄▄[0;35;40m███[0m  [32m█[0;1;36;42m██[0;1;32;42m▄[0;35;42m██[0;35;40m███▀ [0m
         [32m   ░[0m          [35m▀▀▀▀[0m      [32m▀█[0;1;32;42m ▀▀[0;32;40m▀[0;1;32;42m██▄[0;32;40m▄[0m  [32m▄█[0;1;32;42m▄█▀[0m [32m▓[0;1;32;42m▄ [0;32;40m█[0;35;42m▀█[0;35;40m██▄[0m  [32m▀[0;1;36;42m██▄[0;32;40m▄[0m
                                       [32m▀[0;1;32;42m▀[0;32;40m█████[0;1;32;42m▄▀[0;32;40m▀[0m   [32m▀[0;1;32;42m▀█▄▄▄[0;1;32;45m▄[0;1;32;40m▄▄[0;1;32;42m▄██▀▀[0;32;40m▀[0m
-                                        [32m▀▀▀▀▀▀[0m       [32m ▀[0;1;32m▀[0;1;32;42m▀▀▀▀▀[0;32;40m▀▀[0m
-
-                [1;30m--[0m i''m so fucking sick of awe tribute logo''s [1;30m--[0m'
+                                        [32m▀▀▀▀▀▀[0m       [32m ▀[0;1;32m▀[0;1;32;42m▀▀▀▀▀[0;32;40m▀▀[0m'

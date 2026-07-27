@@ -5,7 +5,7 @@
 # Source SHA-256: 65929c30a9d136c90b869cd15790a3bcf3b08259eda63fa2c9ea511e1734c5f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DB`MENU.ANS by Drunken Basterd (insomnia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Free Menu
 # SAUCE Author: Drunken Basterd
 # SAUCE Group: insomnia
@@ -33,8 +33,4 @@ Write-Host '
 [34;44m [0;30;44m▐[0;33;40m▓[0;30;44m█▄▄▄▄  [0;34;40m████▀▀▀▀▀██[0;33;40m▐█[0;1;33;43m░[0;33m█[0;1;33;43m█[0;1;37;40m█[0;1;37;43m         ■ [0;1;33;43m░░▓░ ░░░ [0;1;37;43m▀[0;1;33;43m██ [0;1;37;43m▐[0;1;33;43m▄▐█▌ [0;33m▌[0;34m██▀▀▀▀▀█████▀▀▀▀ [0;1;33;43m░[0;34m▀███[0m
 [30;44m▄[0;33;40m▄[0;1;33;43m▓▄▄█▄▄[0;33m▄▄[0;34m▀▀[0;33m▄▄█[0;1;33;43m▄█[0;33m█[0;1;33;43m▒[0;33m▄[0;34m▀[0;33m██[0;1;33;43m▓ ▐[0;1;37;43m█▌           [0;1;33;43m░▒▓░ ░░░░▐█▌ ▀██[0;30;43m▌  [0;34;40m▀[0;30;43m▀[0;1;33;43m░██▄█[0;33m▄[0;34m▀▀[0;33m▄▄█[0;1;33;43m▄▄▄▄▓[0;33m█▄[0;34m▀█[0m
 [33m██[0;1;33;43m█▀▓█▒█████▄██▀█[0;33m███[0;1;33;43m▒[0;33m████[0;33;43m [0;1;33;43m▀█▄█■[0;1;37;43m▄[0;1;33;43m███████████████████[0;33m█[0;1;33;43m▐██      ░  █▄██░███▀█░██░▒[0m
-[1;33;40m [0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[33m  [x]Menu Command   [x]Menu Command   [x]Menu Command[0m     [33m[x]Menu Command[0m
-[33m  [x]Menu Command   [x]Menu Command   [x]Menu Command[0m     [33m[x]Menu Command[0m
-[33m  [x]Menu Command   [x]Menu Command   [x]Menu Command[0m     [33m[x]Menu Command[0m
-[33m  [x]Menu Command   [x]Menu Command   [x]Menu Command[0m     [33m[x]Menu Command[0m'
+[1;33;40m [0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

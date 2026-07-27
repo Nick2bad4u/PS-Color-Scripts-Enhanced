@@ -5,7 +5,7 @@
 # Source SHA-256: c164205bf3bb47827269c660da184299c6ef5fa54d98d3801827cc8566b96fba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FO-JAG.ANS by flexor (poffelipoff); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: look it's me
 # SAUCE Author: flexor
 # SAUCE Group: poffelipoff
@@ -37,6 +37,4 @@ Write-Host '
           [31m██▌[0;1;37m▐[0;1;37;47m▌▀▀▀▀▌▄[0;1;37;40m█▀▀▀ [0;34m    [0m   [37m  [0;1;31m [0m [33m▀▀▀███▀▀▀[0m        [34m    [0;1;37m ▀▀▀  ▐[0;1;37;47m▌ [0;1;33;47m░░[0;1;37;47m▐[0;1;37;40m▌[0m
           [31m██▌[0;1;37m▐[0;1;37;47m▌ ▄▄▄[0;1;37;40m█      [0;34m                                [0;1;37m   ░░  ▀[0;1;37;47m▄▄▄[0;1;37;40m▀[0m
           [31m██▌[0;1;37m▐▀▀▀▀▀▀[0m                                              [1m [0;31m░░[0m
-          [31m██▄▄▄▓▓▓▓  [0m                [1;37m [0;31mFLÄXxoRR[0m
-
-      [1;30mSelf portrait of Flexor aka Inflicted[0m [1;30mof Poffelipoff productions 1997[0m'
+          [31m██▄▄▄▓▓▓▓  [0m                [1;37m [0;31mFLÄXxoRR[0m'

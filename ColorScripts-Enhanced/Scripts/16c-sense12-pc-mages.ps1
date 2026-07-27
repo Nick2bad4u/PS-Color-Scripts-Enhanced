@@ -5,7 +5,7 @@
 # Source SHA-256: 70fa1a021b3bd4f71a9b953f01b8ae745ef9700257e8134adc4d0b2784b4b7e4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-MAGES.ANS by Proctologist (SeNSE); released in sense12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: games
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNSE
@@ -32,15 +32,15 @@ Write-Host '
 [34m$P`[0;1;30m_,∙[0m      [34m.''[0;1;30m,ⁿ``[0m  [34m`?$ⁿ`[0;1;30m,+~`[0m     [34ml''[0;37m [0;1;30m,∙[0m  [34m`∙.[0;1;30m`∙[0m       [34mlP`[0;37m [0;1;30m,+[0m    [34m`?,[0;37m [0;1;30ml`[0m   [31mp[0;1;31mC[0m  [34m?`[0;37m [0;1;30m.[0m
 [34ml[0;37m [0;1;30m$l[0m         [1;30m∙[0m        [34m`.[0;37m [0;1;30m?[0m       [34m.''[0;37m [0;1;30ml[0m               [34m∙''[0;37m [0;1;30m,''[0m        [34m`∙[0;1;30m`∙[0m       [34m''[0;37m [0;1;30ml[0m
 [34m`∙[0;37m [0;1;30m`∙[0m                     [1;30m`[0m         [1;30m`[0m                  [1;30m`∙[0m                     [1;30m`[0m
-                ∙-[1;31mA[0m¬ [31mThere,[0m          [37m∙-[0;1;31mF[0m¬ [31mof[0m            [37m∙-[0;1;31mK[0m¬ [31mthe[0;37m [0m
-                [37m∙-[0;1;31mB[0m¬ [31mnow[0m             [37m∙-[0;1;31mG[0m¬ [31mroom[0m          [37m∙-[0;1;31mL[0m¬ [31mdoor[0m              [34m∙[0m
-                [37m∙-[0;1;31mC[0m¬ [31mya[0m              [37m∙-[0;1;31mH[0m¬ [31mto[0;37m [0m           [37m∙-[0;1;31mM[0m¬ [31mgames[0m           [37m  [0;34m:[0m
-[34m:[0;37m [0;1;30m:[0m             ∙-[1;31mD[0m¬ [31mhave[0m            [37m∙-[0;1;31mI[0m¬ [31mfit[0m           [37m∙-[0;1;31mN[0m¬ [31myou[0;37m [0m            [1;30m:[0m [34ml[0m
+                  [1;31m [0m  [31m      [0m          [37m  [0;1;31m [0m  [31m  [0m            [37m  [0;1;31m [0m  [31m   [0;37m [0m
+                [37m  [0;1;31m [0m  [31m   [0m             [37m  [0;1;31m [0m  [31m    [0m          [37m  [0;1;31m [0m  [31m    [0m              [34m [0m
+                [37m  [0;1;31m [0m  [31m  [0m              [37m  [0;1;31m [0m  [31m  [0;37m [0m           [37m  [0;1;31m [0m  [31m     [0m           [37m  [0;34m [0m
+[34m [0;37m [0;1;30m [0m               [1;31m [0m  [31m    [0m            [37m  [0;1;31m [0m  [31m   [0m           [37m  [0;1;31m [0m  [31m   [0;37m [0m            [1;30m [0m [34m [0m
 [34ml[0;37m [0;1;30m`∙._[0m          ∙-[1;31mE[0m¬ [31mlots[0m            [37m∙-[0;1;31mJ[0m¬ [31mall[0;37m [0m          [37m∙-[0;1;31mO[0m¬ [31mwant.[0m      [37m  [0;1;30m_.∙''[0m [34m$[0m
 [34m$b,.[0;37m [0;34m.[0;37m   [0;34m.[0;37m       [0;34m.[0;37m         [0;34m.[0;37m                   [0;34m.[0;37m         [0;34m.[0;37m          [0;34m.[0;37m    [0;34m.[0;37m [0;34m..,d$[0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mThe "G" is cool but the rest of the font it shit.  Requested by Mind Demon for[0m
-[1;30mhis board, The Mages.[0m
+[1;30m                                                                              [0m
+[1;30m                     [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

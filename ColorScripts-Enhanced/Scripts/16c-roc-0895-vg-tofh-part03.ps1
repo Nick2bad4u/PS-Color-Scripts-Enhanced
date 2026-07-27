@@ -5,7 +5,7 @@
 # Source SHA-256: ecd8ea84cf2f02fe04c5f49e06a8240b91f751a852808b2e344420e56586ab04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VG-TOFH.ANS by Voltage (Rulers Of Chaos); released in roc-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ToFH
 # SAUCE Author: Voltage
 # SAUCE Group: Rulers Of Chaos
@@ -45,10 +45,10 @@ Write-Host '
 [31m■▀[0;37m [0;31m▄▐▌▄[0;37m [0;31m▀▓[0;1;30m▀▄[0m  [1;30m▒[0m      [31m▄■▀[0m     [31m▓■▓[0;37m  [0;31m▀[0;37m [0;1;30m▄[0m  [31m▀▒▄█▄▐▓▌[0;37m [0;1;30m▒[0m [31m▀[0m   [31m▒[0;37m [0;31m░[0;37m [0;31m░[0m        [31m▓▄[0;37m [0;31m▀▄▄[0;30;41mvg[0;1;30;40m░[0;31m▓░▒[0m
 [31m█▓▀[0;37m [0;31m▀■▌▓[0;37m [0;31m▄▀▄▀[0;1;34m''[0;34mWhere the young stay young,[0;31m▀[0;34mand[0;31m■[0;34mthe old[0;37m [0;31m▒[0;34mon''t come![0;1;34m''[0m    [31m▓▌■▀▄[0;1;30m▀[0;31m▄■▄[0m
 [31m▐▌▀■▓▀▄░▓[0;37m [0;31m▓[0;37m  [0;1;34m3     0     1     2     0     3     0     8     6     7[0m [31m▐░▀▄▀■▀▀░▓[0m
-[31m█ █■▀▄▀■▐▌█[0m    [34m%[0;1;34m''Zop.GeeK[0;34m%[0;1;34m''Cop.Hunter[0;34m%[0;1;34mART/CONVO/DRUGS/HACK/PHREAK[0;34m%[0m     [31m▒░█[0;37m [0;31m▀░▓▄[0m
+[31m█ █■▀▄▀■▐▌█[0m    [34m [0;1;34m         [0;34m [0;1;34m           [0;34m [0;1;34m                           [0;34m [0m     [31m▒░█[0;37m [0;31m▀░▓▄[0m
 [31m░▀[0;37m [0;31m▄▓[0;37m [0;31m▀[0;37m [0;31m▀▄[0;37m [0;1;34m  Affils:       [0m                                               [31m░▀▄■█[0m
 [1;30m■────░──[0;31m░[0;1;30m──────────────────────────────────────────────────[0;31m▒[0;1;30m────────────────[0;31m░[0;1;30m─■[0m
-[1;30m                        [0m... ANSi by Voltage of [1mROC[0m ...
-           [1;30m [0mgreetz:.zl.bg.gk.pz.ci.bp.wl.7a.md.sr.az.spd.dr.wh.[1;30m              [0m
-                           special thanx ta nemesis
+[1;30m                        [0m                       [1m   [0m    
+           [1;30m [0m                                                   [1;30m              [0m
+                                                   
 [1;30m■─────░───────────────────────────────────────────────────────────────────────■ [0m'

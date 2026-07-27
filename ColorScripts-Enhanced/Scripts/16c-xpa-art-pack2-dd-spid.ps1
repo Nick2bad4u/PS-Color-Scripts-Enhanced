@@ -5,7 +5,7 @@
 # Source SHA-256: de439b77b3292c4f670752ae7d0f9e89f9e6681bfa1a14545aa2e73db494cfcd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-SPID.ANS by DiAMOND dARRELL (X-P-A); released in xpa_art_pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Spider monster
 # SAUCE Author: DiAMOND dARRELL
 # SAUCE Group: X-P-A
@@ -50,8 +50,4 @@ Write-Host '
 [31m▀  [0;34m▐[0;1;34;44m░▒▓[0;1;34;40m█  [0;31m▄▄▓ [0;1;34;44m░▒▓▓[0;1;34;40m▌[0;34m▐[0;1;34;44m░[0;1;34;40m▌[0;31m▄▓▄ [0;1;34;44m░▒▓[0m [31m▄[0;34m▀[0;1;34;44m░▒▓[0;1;34;40m▄ [0;31m▄[0;34m▐[0;1;34;44m░[0;1;34;40m▌[0;31m▄▓▄ [0;1;34;44m░▒▓[0;31m▐[0;34m▐[0;1;34;44m▒▓[0m [31m▓▌ [0;1;34m▌[0;31m▀▄[0;34m▐[0;1;34;44m▒▓[0;31m▐▀[0;1;34m▄[0;1;34;44m▒▓[0;1;34;40m▀[0;34m▐[0;1;34;44m▒▓[0m [1;34m▄▄[0;31m▐▄ ▀[0m
 [31m■▀▄ [0;1;34;44m░▒▓▓[0;1;34;40m▌[0;31m▀█▓ [0;34m▐[0;1;34;44m░▒▓▓▓[0m [1;34;44m░▒[0;1;34;40m▄[0;31m▀▓▀[0;34m▐[0;1;34;44m░▒▓[0m [34m▄  ▀[0;1;34;44m▒▓[0;1;34;40m▄ [0;1;34;44m░▒[0;1;34;40m▄[0;31m▀▀▌[0;34m▐[0;1;34;44m░▒▓[0m [1;34;44m░▒▓[0m [31m▀ [0;1;34m▄[0;1;34;44m▓[0;31m▐▌[0;1;34;44m░▓[0;1;34;40m▌▀[0;1;34;44m▒▓[0;1;34;40m▄[0;31m▀▌[0;1;34;44m░▒▓[0;1;34;40m▀[0;31m▄▓▀▀▄▀■[0m
 [31m    [0;34m▀[0;1;34;44m░▒[0;1;34;40m▀[0m     [34m▀[0;1;34;44m░░▒▓[0;1;34;40m▌  [0;34m▀[0;1;34;44m░▒[0;1;34;40m▄[0;1;34;44m▓[0;34m▀ [0;1;34;44m░▒[0;34m▌[0;1;34;44m░▒▓[0;34m▄[0;1;34;44m▓▓[0;1;34;40m▌  [0;34m▀[0;1;34;44m░▒[0;1;34;40m▄[0;1;34;44m▓[0;34m▀ [0;1;34;44m░▒[0;34m▌ ▀[0;1;34;44m░▒[0;34m▄[0;1;34;44m▓▓▓[0;1;34;40m▀  [0;1;34;44m░▒[0m  [1;34m▀[0;1;34;44m▒▓[0m [34m▐[0;1;34;44m▒▓[0;1;34;40m▄ ▄[0;1;34;44m▒[0;1;34;40m▄[0m
-               [34m▀[0;1;34;44m░[0;1;34;40m▀[0m           [34m▀  ▀▀▀▀[0m            [34m▀[0m     [34m▀▀[0m      [34m▀    [0;1;34;44m▒[0;1;34;40m▀  [0;34m▀▀[0;1;34m▀▀▀ [0;1;30mDd![0m
-
-          [32mSysop: [0;1;32mDiamond Darrell [0;32mStaff: [0;1;32mDanzig [0;32m/ [0;1;32mCapitan N [0;32m/ [0;1;32mSmooth[0m
-                [1;32mMemba Board of: XPA [0;32m%[0;1;32m Kortatu [0;32m%[0;1;32m PGA [0;32m%[0;1;32m Innuendo        [0m
-         [1;32m    [0m    [1;32mPsyco Magazine Distro Site [0;32m% [0;1;32mLeviatanica WHQ[0m'
+               [34m▀[0;1;34;44m░[0;1;34;40m▀[0m           [34m▀  ▀▀▀▀[0m            [34m▀[0m     [34m▀▀[0m      [34m▀    [0;1;34;44m▒[0;1;34;40m▀  [0;34m▀▀[0;1;34m▀▀▀ [0;1;30mDd![0m'

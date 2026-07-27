@@ -5,7 +5,7 @@
 # Source SHA-256: fec767869997ab49f2375a20306e1b5a8806a566a025e30543bd33ac1da1c919
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CE-ROSE1.ANS by Cerebrus (acdu0393); released in acdu0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -57,6 +57,6 @@ Write-Host '
 [1;34m█████████▄▄▄▄▄▄▄███▄▄▄███▄▄▄█▄▄▄███▄▄▄█▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄▄██▄▄▄███▄▄▄█████████[0m
 [1;34m  [0;1;30m──[0m──[1m──────────────[0m─[1;30m─ [0;1;33mC[0;1;34mere[0;1;30mbrus o[0mf [1;30m<[0m/┤C[1;33mi[0mD[1;30m> [0;1;37mPr[0mod[1;30muctions ─[0m─[1m──────────────[0m──[1;30m──[0m
 [1;37m┌─[0m──[1;30m──────────────────────────────────────────────────────────────────────[0m──[1m─┐[0m
-│ [1mTh[0me [1mRo[0mse [1mGa[0mrd[1;30men [0;1;37m- 51[0m3[1m.87[0m4[1m.18[0m47 [1m- US[0mR [1m16[0m.8k [1mDu[0mal [1m- 1.[0m6 [1mGi[0mgs [1m- No LD Ra[0mti[1;30mos  [0m│
-[1;30m│ [0;1;37mSy[0msO[1;30mp: [0;1;37mWh[0mit[1;30me [0;1;37mRo[0mse [1m- Ru[0mnn[1;30ming [0;1;37mCe[0mle[1;30mrity [0;1;37m1.[0m42 [1m- MA[0mLi[1;30mCE/[0;1;37mTD[0mT[1;30m/[0;1;37miC[0mE [1m- CC[0mi [1m51[0m3 [1mHo[0mst  [1;30m│[0m
+│ [1m  [0m  [1m  [0m   [1m  [0m  [1;30m   [0;1;37m    [0m [1m   [0m [1m   [0m   [1m    [0m  [1m  [0m    [1m  [0m   [1m    [0m  [1m  [0m   [1m          [0m  [1;30m    [0m│
+[1;30m│ [0;1;37m  [0m  [1;30m   [0;1;37m  [0m  [1;30m  [0;1;37m  [0m   [1m    [0m  [1;30m    [0;1;37m  [0m  [1;30m     [0;1;37m  [0m   [1m    [0m  [1;30m   [0;1;37m  [0m [1;30m [0;1;37m  [0m  [1m    [0m  [1m  [0m  [1m  [0m    [1;30m│[0m
 [1;30m└────────────────────────────────────────────────────────────────────────────┘[0m '

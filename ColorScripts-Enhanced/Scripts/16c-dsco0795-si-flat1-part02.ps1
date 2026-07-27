@@ -5,7 +5,7 @@
 # Source SHA-256: 77f597dc5e8998347fdcc08d5bea8dab8e3f3b2e308812c6c08ae156304a362c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-FLAT1.ANS by Spirit of Illusion (READ THE INI FILE); released in dsco0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flatliner
 # SAUCE Author: Spirit of Illusion
 # SAUCE Group: READ THE INI FILE
@@ -31,7 +31,7 @@ Write-Host '
 [37m▐███[0;1;37;47m░[0m ▄█▌    [36m▓■▀▒██▌  ▓▀█[0;1;36;46m▒[0;36m▌▐████ █[0;1;36;46m▀▒[0;36m██▓[0m                [37m░░█ [0;36m█████ ▒██████▄ ▐███▒[0m
 [37m▒▀■█████ [0;36m▄█▄    ░ ▀█▄ ░ ▐█▌▀ ▀██ █████▌[0;30mprince of death,  [0;37m█▌[0;36m▐███[0;1;36;46m░[0;36m▌▐█████[0;1;36;46m░[0;36m█▄▄███▓[0m
 [37m░▄███▒██  [0;36m▀█▌■▄   ▄█■   ██    ▐▀▐█████ [0;30msinned soul, ol'' [0;37m▐▓  [0;36m▒███[0;1;36;46m▒[0;36m▄▀■███████████[0m
-[37m▐██[0;1;37;47m▀[0m████▌ [36m■▀ ▐█▄▀█[0;1;36;46m░[0;36m▌  ▓▐▀░    ▀ ▓▀▀██▒ [0;30mdirty bastard,   [0;37m▐▌   [0;36m███[0;1;36;46m▓[0;36m█  ▐██████▀███[0m
+[37m▐██[0;1;37;47m▀[0m████▌ [36m■▀ ▐█▄▀█[0;1;36;46m░[0;36m▌  ▓▐▀░    ▀ ▓▀▀██▒ [0;30m                 [0;37m▐▌   [0;36m███[0;1;36;46m▓[0;36m█  ▐██████▀███[0m
 [37m██[0;1;37;47m░[0m▀█████░   [36m█▓▀  ▓   ▐█▓▀ ■▄■[0m     [36m▐█▌[0;30mand all them warez[0;37m█   [0;36m▐█████▌ ▄▓████▌ ▒▀[0m
 [37m▐▓▌ ▐[0;1;37;47m░▄[0m██▒    [36m▀▀  ▀■ ▄███   ▓█▄  ▄▄█▀█▄ [0;30mpuppies![0m       [37m▐█▌ [0;36m▀▒███████▀█████▀[0m
 [37m░▀█▄ ▀▀▓█▀▓[0m           [36m▀▓▀   ▐█[0;1;36;46m░[0;36m▀█▓█[0;1;36;46m▒[0;36m▄▐▌[0m                 [37m▀[0;1;37;47m░[0m▄ [36m▐██████▀ ▐█▀▀▒[0m
@@ -54,6 +54,6 @@ Write-Host '
 [1;37m▓[0;1;36m█░[0m     [1;37m▀[0;1;36m▀█░ [0;1;37m█[0;1;36m▀    [0;1;37m▐▀[0;1;36m▀[0m     [1;37m█[0;1;36m█▀    [0;1;37m▐█[0;1;36m███░ [0;1;37m█[0;1;36m▀    [0;1;37m▐█[0;1;36m█▀    [0;1;37m▐▀[0;1;36m▀[0m     [1;37m█[0;1;36m███░▄[0m       [1;36m░ [0;1;37m▓[0m
 [1;37m█[0;1;36m█■▀▀    [0;1;30m[ [0;1;34mf[0m      [1;34ml[0m      [1;34ma[0m      [1;34mt[0m      [1;34ml[0m      [1;34mi[0m      [1;34mn[0m      [1;34me[0m      [1;34mr [0;1;30m]    [0;1;36m▀▀■█[0;1;37m█[0m
 [1;37m█[0m                                                                             [1;37m█[0m
-[1;36m░[0;36m- gO pHILL iN tHEM bEE bEE eSS aFFIL-e-a-sHUNS rIGHT hERE cUZ i hATE sTATz. -[0;1;36m░[0m
+[1;36m░[0;36m                                                                             [0;1;36m░[0m
 [1;36m▓▄[0m                                                                            [1;36m▓[0m
-[1;37m█[0;1;36m█■▄▄ [0;1;30mansi/wannabe hannibal lecter font: spirit of illusion [d i s c o ]  [0;1;36m▄▄[0;1;37m■█[0;1;36m█[0m'
+[1;37m█[0;1;36m█■▄▄ [0;1;30m                                                                    [0;1;36m▄▄[0;1;37m■█[0;1;36m█[0m'

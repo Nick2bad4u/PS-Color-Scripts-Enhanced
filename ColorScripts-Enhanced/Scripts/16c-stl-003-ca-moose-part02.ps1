@@ -5,7 +5,7 @@
 # Source SHA-256: 773c52dc8845e4313aa857c13f2364c1c9856ac8a7e18256d3e87892b36945a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-MOOSE.ANS by Catonica (Stile Productions 95); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Moose City Logo
 # SAUCE Author: Catonica
 # SAUCE Group: Stile Productions 95
@@ -41,8 +41,8 @@ Write-Host '
 
                      [1mM[0m · [1mo [0m· [1mo[0m · [1ms[0m · [1me[0m ·     · [1mC[0m · [1mi[0m · [1mt[0m · [1my[0m
 
-                   Sysop''s [1mCatonica [0m& [1mMiss Astarot [0m■ [1mStile [0mWhq
+                           [1m         [0m  [1m             [0m■ [1m      [0m   
 
                                  +[1m46[0m-[1m8[0m-[1m55o[0m-[1m16892[0m
-                                                         [1m       [0m [1mCatonica[0m.[1mStile[0m.
+                                                         [1m       [0m [1m        [0m [1m     [0m 
 [1;30m·■▀■▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▀▀■▀■·[0m'

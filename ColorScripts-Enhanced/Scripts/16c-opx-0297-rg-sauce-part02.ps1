@@ -5,7 +5,7 @@
 # Source SHA-256: 4a7e52ffbe20cca0222d11d667d1dfe03b78004cef96d5e43552690b1c6b755c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG!SAUCE.ANS by rage (opium); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: special sauce
 # SAUCE Author: rage
 # SAUCE Group: opium
@@ -28,7 +28,7 @@ Write-Host '
 [35m▓[0;1;35m▄[0;35m▄ [0;1;30m▓ [0;35m▄[0;1;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;35m▄[0;1;35m▄[0;35m▄▄▄▄▄▄▄▄▄[0;37m [0;35m▄[0;1;30m ░[0m [35m▄[0;37m  [0;35m ▄[0;1;30m [0m      [1;30m░[0m    [1;30m [0m   [1;30m▒[0m     [1;30m [0m      [1;30m░[0m    [1;30m [0m
 [35m▐▀▀[0;1;30m ░[0;35m▐▓[0;1;35;45m▒▒▓[0;1;35;41m▓[0;1;35;40m▓[0;1;35;47m▓▒[0;1;35;45m▓[0;1;35;43m▒[0;1;35;45m▒░░[0;35m▀▓▀▀▀▌▀▀▀ ▀[0m   [35m▐▀[0m    [1;37m.[0m [1m.[0m [1m.[0m [1ms p e c i a l [0;1;30m░[0;1;37m s a u c e .[0m [1m.[0m [1m.[0m
       [1;35m▀[0m [1;35m▀▀▀▌▀▀[0;35m [0;37m [0;1;35m▀[0m
-                       [1;30mnote[0m:[1;30m font did not include in the compo[0m ([1;30mnot enuff time[0m)
+                       [1;30m    [0m [1;30m                                  [0m  [1;30m              [0m 
 [32m─────────────────────────────────────────────────────────────────────────────── [0m
-[1;32m [0m          [1;31ma[0;33mnsi [0;1;31mb[0;33my [0;1;37mrage[0;33m [0;1;31mo[0;33mf [0;1;37mopium[0;33m [0;1;31mf[0;33mor [0;1;31mc[0;33mompo [0;1;31mo[0;33mn [0;1;33m#[0;1;31mb[0;33mlender[0;1;33m,[0;33m [0;1;31md[0;33mec[0;1;33m,[0;33m [0;1;31mi[0;33m996[0m
+[1;32m [0m          [1;31m [0;33m    [0;1;31m [0;33m  [0;1;37m    [0;33m [0;1;31m [0;33m  [0;1;37m     [0;33m [0;1;31m [0;33m   [0;1;31m [0;33m     [0;1;31m [0;33m  [0;1;33m [0;1;31m [0;33m      [0;1;33m [0;33m [0;1;31m [0;33m  [0;1;33m [0;33m [0;1;31m [0;33m   [0m
 [32m─────────────────────────────────────────────────────────────────────────────── [0m'

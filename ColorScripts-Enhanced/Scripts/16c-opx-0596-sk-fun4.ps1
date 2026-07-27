@@ -5,7 +5,7 @@
 # Source SHA-256: e7deda3b98ad87746032d76d8a68f3dbf1c3fe21900f20802276b5fa6db7479d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!FUN4.ANS by SKeLeToN (opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: funzone menuset #2
 # SAUCE Author: SKeLeToN
 # SAUCE Group: opium
@@ -29,4 +29,4 @@ Write-Host '
 [1m  [0;1;30m▒[0;1;30;43m▓▒[0;1;30;40m█[0m       [1;30m▓[0;1;30;43m▓█[0;33m█▄▄ [0;1;30;43m▓[0;33m██  [0;1;30m▒[0;33m█[0;1;30;43m▒[0;33m█   [0;1;30m▒[0;1;30;43m█▄[0;33m█[0;1;30m▓[0;1;30;43m▀[0;33m█[0;1;30;43m▓[0;33m█  █[0;1;30;43m▓[0;33m█[0;1;30m▓[0;33m█[0;1;30;43m░[0;33m█   [0;1;30m▓[0;33m██[0;1;30;43m▒[0m [1;30m▓[0;33m█[0;1;30;43m█[0;33m█   [0;1;30m▓[0;1;30;43m█[0;33m█[0;1;30;43m▀[0m [1;30m▓[0;33m█[0;1;30;43m░[0;33m█ [0;1;30m▒[0;33m█[0;1;30;43m░[0;33m█[0;1;30m▓[0m
 [1;30m   ▓▀▓▄[0m        [1;30m▀▀███▀▀  ▓▄██▓▀ ░███▀ ▒██[0;1;30;43m░[0;1;30;40m▄ ██[0;1;30;43m░[0m [1;30m▒[0;1;30;43m█▓[0;33m█[0;1;30m▄▒▄[0;1;30;43m▒░[0;33m█ [0;1;30m▒[0;1;30;43m░[0;33m█[0;1;30;43m▓[0m  [1;30m▒█[0;1;30;43m░[0;1;30;40m██▒███ ░ ███▒[0m
      [1;30m▒ ▀[0m                [1;30m▄▀▀ ▒  ▄▀▀    ░▀▀███▀   ░▀▀███▀▀ ░███▀ ░▀██▀ ░▀███▄███▀░[0m
-     [1;30m░[0m                      [1;30m░[0m                 [1;30mfunzone menuset #2 by skeleton.opx[0m'
+     [1;30m░[0m                      [1;30m░[0m                 [1;30m                                  [0m'

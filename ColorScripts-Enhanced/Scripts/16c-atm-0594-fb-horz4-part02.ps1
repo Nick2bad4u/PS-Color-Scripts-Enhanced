@@ -5,7 +5,7 @@
 # Source SHA-256: ce9a778c5ea5edd2f7cc67937dc7713c7dd95200fdfac28e7b97fe5f8f91546d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-HORZ4.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 42-79
 # Columns: 1-80
 
@@ -14,16 +14,16 @@ Write-Host '
                          [35m██▌▀▄ [0;37m▀▀[0;1;30;47m░▓[0;1;30;40m█▄▄▄ ▄▄  ▀  [0;35m▄▀▄█▌[0m
                           [35m▀████▄[0m             [35m▄████▀[0m
                             [35m▀█▀▄ ▄▀ ▀ ▄▄▀▀ ▀  ▀█▀[0m
-                    [1;30mG[0mo[1;31mo[0;31md or Bad, you must accept your f[0;1;31ma[0mt[1;30me,[0m
-                   [1;30mb[0me[1;31mc[0;31mause no bonds will hold back tomor[0;1;31mr[0mo[1;30mw.[0m
-                 [1;30mA[0ml[1;31ml [0;31mthe might can''t stop the earth revolv[0;1;31mi[0mn[1;30mg,[0m
-                        [1;30mi[0mt[1;31m''[0;31ms impossi[0;1;31mble to [0;31mshackle t[0;1;31mi[0mm[1;30me.[0m
-                        [1;30mT[0mh[1;31me [0;31mdays [0;1;31mto come wil[0;31ml be ro[0;1;31mu[0mg[1;30mh,[0m
-                         [1;30ms[0mo [1;31ms[0;31mtar[0;1;31me i[0;1;33mnto the [0;1;31mthe [0;31msun[0;1;31ms[0me[1;30mt.[0m
-                         [1;30mP[0mr[1;31me[0;31mpar[0;1;31me t[0;1;33mo f[0;1;37mace [0;1;33mthe [0;1;31mhe[0;31mreaf[0;1;31mt[0me[1;30mr,[0m
-                     [1;30ml[0mo[1;31mo[0;31mk at to[0;1;31mmm[0;1;33moro[0;1;37mw, gaz[0;1;33me [0;1;31mupo[0;31mn a new [0;1;31me[0mr[1;30ma.[0m
+                    [1;30m [0m [1;31m [0;31m                                [0;1;31m [0m [1;30m  [0m
+                   [1;30m [0m [1;31m [0;31m                                  [0;1;31m [0m [1;30m  [0m
+                 [1;30m [0m [1;31m  [0;31m                                     [0;1;31m [0m [1;30m  [0m
+                        [1;30m [0m [1;31m [0;31m         [0;1;31m       [0;31m         [0;1;31m [0m [1;30m  [0m
+                        [1;30m [0m [1;31m  [0;31m     [0;1;31m           [0;31m       [0;1;31m [0m [1;30m  [0m
+                         [1;30m [0m  [1;31m [0;31m   [0;1;31m   [0;1;33m        [0;1;31m    [0;31m   [0;1;31m [0m [1;30m  [0m
+                         [1;30m [0m [1;31m [0;31m   [0;1;31m   [0;1;33m   [0;1;37m    [0;1;33m    [0;1;31m  [0;31m    [0;1;31m [0m [1;30m  [0m
+                     [1;30m [0m [1;31m [0;31m       [0;1;31m  [0;1;33m   [0;1;37m      [0;1;33m  [0;1;31m   [0;31m        [0;1;31m [0m [1;30m  [0m
 
-                         [1;30mI[0mt [1;31ma[0;31mll begins with a HORi[0;1;31mZ[0mO[1;30mN.[0m
+                         [1;30m [0m  [1;31m [0;31m                     [0;1;31m [0m [1;30m  [0m
            [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
         [1;30m▄██▀▀▀▀▀▀███▀▀▀▀▀▀███▀▀▀▀▀▀██▀▀▀███▀▀▀▀▀▀▀████▀▀▀▀▀▀███▀▀▀▀▀▀██▄[0m
        [1;30m██▀ [0;34m▄[0;1;37;44m·[0m  [34m█▄ [0;1;30m▀ [0;34m▄[0;1;37;44m·[0;34m███▄ [0;1;30m▀ [0;34m▄█[0;1;37;44m·[0;34m██▄ [0;1;30m▀ [0;34m█▄ [0;1;30m▀ [0;34m▄[0;1;37;44m·[0;34m██[0;1;37;44m·[0;34m█▄ [0;1;30m▀▀ [0;34m▄█[0;1;37;44m·[0;34m██▄ [0;1;30m▀ [0;34m▄██[0;1;37;44m·[0;34m█▄ [0;1;30m▀██[0m
@@ -41,10 +41,4 @@ Write-Host '
        [1;30;40m██ [0;1;31;41m▓█▓[0m  [1;31;40m███  ▀████▀ ▄█▄  █ ▄▄███████▄▄▄▄▄▄▄▄█▄ ▀████▀  ███  [0;1;31;41m▓█▓[0m [1;30;40m██[0m
        [1;30;40m██▄ [0;1;31;40m▀[0;1;31;41m█[0m  [1;31;40m█▀ ▄█▄▄▄▄▄▄████████████████████████████▄▄▄▄▄▄█▄ ▀█  █▀ [0;1;30;40m▄██[0m
        [1;30;40m▀███▄▄▄ [0;1;31;40m▄▄██████████████████████████████████████████████▄▄ [0;1;30;40m▄▄▄███▀[0m
-[1;30;40m80x50 by ▀▀█▀[0;1;31;40m▄████████████████████████████████████████████████████▄[0;1;30;40m▀█▀▀[0m
-[1;34;40mF[0;1;36;40mr[0;1;37;40mo[0;1;36;40ms[0;1;34;40mt [0;1;36;40mB[0;1;37;40my[0;1;36;40mt[0;1;34;40me[0m         [1;30;40m"[0;31mT[0;1;31mH[0;1;33mE [0;31mA[0;1;31mr[0;1;33mti[0;1;31ms[0;31mt S[0;1;31mu[0;1;33mp[0;1;37mp[0;1;33mo[0;1;31mr[0;31mt N[0;1;31me[0;1;33mt[0;1;37mw[0;1;33mo[0;1;31mr[0;31mk o[0;1;31mf [0;31mT[0;1;31mom[0;1;33mm[0;1;37mo[0;1;33mr[0;1;31mro[0;31mw[0;1;30m"[0m
-[1;33mA[0;1;31mT[0;31mOMi[0;1;30mC[0m                  [1;37mFo[0;1;35mr [0;35mI[0;1;30mnformation on this net[0;35mw[0;1;35mo[0;1;37mrk[0m
-                      [1;37mCo[0;1;35mn[0;35mt[0;1;30mact Frost Byte, or Void Trav[0;35me[0;1;35ml[0;1;37mer[0m
-                         [1;37mon [0;1;35mC[0;35mC[0;1;30miNet or on their Sys[0;35mt[0;1;35me[0;1;37mms[0m
-                     [1;37mFr[0;1;35mo[0;35ms[0;1;30mt Byte ≡ Cold Snap ≡ 517-423-[0;35m3[0;1;35m3[0;1;37m78[0m
-                 [1;37mVo[0;1;35mi[0;35md [0;1;30mTraveler ≡ DarkSun Systems ≡ 703-379-[0;35m5[0;1;35m7[0;1;37m29[0m'
+[1;30;40m80x50 by ▀▀█▀[0;1;31;40m▄████████████████████████████████████████████████████▄[0;1;30;40m▀█▀▀[0m'

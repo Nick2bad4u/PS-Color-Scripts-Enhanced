@@ -5,7 +5,7 @@
 # Source SHA-256: d01ddc2f1f17ea2fad98026d49915aa9ced970df21aa04e4deb636e9e2e4f5de
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-STUL1.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Another Different Style
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -29,7 +29,4 @@ Write-Host '
   [35m▓[0;37m [0;34m█[0;37m [0;32m▀▓[0;1;32;42m▀▄[0;32m█▄▄▄████▀▄█[0;37m [0;32m▄█[0;1;32;42m░[0;32m█▀[0;37m [0;32m▄[0;37m  [0;32m█[0;1;32;42m▄ [0;32m▀[0;37m [0;32m██ ▐[0;1;32;42m▒▓[0;32m█[0;37m [0;32m▄[0;1;32;42m▄[0;32m██▀[0;37m [0;32m▓[0;37m [0;32m▀▓[0;1;32;42m▀▄[0;32m█▄ ▀[0;1;32;42m▀▄▄[0;32m▄   ▄[0;1;32;42m▄▀[0;32m█ [0;37m [0;34m█[0;37m [0;1;34m▓[0m
   [35m█[0;37m [0;34m▀█▄[0;37m [0;32m▀▀▓[0;1;32;42m▀▀▀[0;32m█▀▀ ▀█[0;1;32;42m▀[0;32m██▀▀ ▀█████▀▀[0;37m [0;32m ▀██ ▀█[0;1;32;42m▀[0;32m██▀▀  ▓██ [0;37m [0;32m▀▀▓[0;1;32;42m▀[0;32m [0;1;34m▄[0;32m ▀▀[0;1;32;42m▀[0;32m██[0;1;32;42m▄[0;32m█▀▀[0;37m [0;1;34m▄[0;34m█▀[0;37m [0;1;34m█[0m
   [35m▀[0;1;30;45m░[0;35m▄[0;37m [0;34m▀▀▓▄▄▄▄▄▄▄▀▓▄▄▄▄▄▄█▓▄▄▄▄▄▄▄▓▀▓▄▄▄▄▄▄▄▄▄▄█▓▄▄▄▄▄▀█▄▄▄▄▓▀▓▄▄▄▄▄▄▄▓█▀ [0;1;34m▄[0;1;34;44m▓[0;1;34;40m▀[0m
-    [35m▀▀▓▄▄ ▄▄▄ ▄ [0;1;30m▓[0;35m [0;1;30m▄▄▄[0;35m [0;1;30m▄   [0;35m [0;1;30m▄▄▄▄▄▄▄▓▄[0;35m  [0;1;30m▄[0;35m [0;1;30m▄▄▄▄[0;35m   [0;1;30m▄▄▄▄▄▄▓[0;35m [0;1;30m▄▄▄[0;35m [0;1;30m▄[0;35m [0;1;30m▄[0;35m  [0;1;34m▄[0;35m [0;1;34m▄[0;34m▄[0;35m [0;1;34m▄▄▄▀▀[0m
-[1;30m         [0m  [1;30m ansi.made.by.rawlock.opium.1996.-.contribute.now.[0m
-         [34m [0m
-[1;30m  [0;32m  [0m      [32mSt[0;1;32mu[0;1;33mlt[0;1;32mi[0;32mfy[0;1;30m, [0;32mno mo[0;1;30mre fuckin''jokes, call it n[0;32mow[0;1;30m [0;32mfor[0;1;30m [0;1;32mf[0;1;33mre[0;1;32me[0;1;30m<[0;32mopium[0;1;30m>[0m'
+    [35m▀▀▓▄▄ ▄▄▄ ▄ [0;1;30m▓[0;35m [0;1;30m▄▄▄[0;35m [0;1;30m▄   [0;35m [0;1;30m▄▄▄▄▄▄▄▓▄[0;35m  [0;1;30m▄[0;35m [0;1;30m▄▄▄▄[0;35m   [0;1;30m▄▄▄▄▄▄▓[0;35m [0;1;30m▄▄▄[0;35m [0;1;30m▄[0;35m [0;1;30m▄[0;35m  [0;1;34m▄[0;35m [0;1;34m▄[0;34m▄[0;35m [0;1;34m▄▄▄▀▀[0m'

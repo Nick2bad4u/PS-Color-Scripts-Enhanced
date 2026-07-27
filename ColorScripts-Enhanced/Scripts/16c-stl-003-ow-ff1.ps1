@@ -5,7 +5,7 @@
 # Source SHA-256: 87da033cdd12ea0169610a37c4accbbcaa0838cae29c653504d86eb3ab5776cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OW-FF1.ANS by oWyn (STILE); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fear factory
 # SAUCE Author: oWyn
 # SAUCE Group: STILE
@@ -28,7 +28,7 @@ Write-Host '
 [1m   ███████[0;1;47m▓[0;33m▀[0;1;31;43m▒▒[0;1;31;40m [0;1;31;43m▒▓▓▓[0;1;31;40m███▀▄█[0;1;31;43m▓▒███[0;1;31;40m▄[0;33m▀[0;1;31m▀▀[0;1;31;43m▓▓[0;1;31;40m███████[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;43m▓▓[0;1;31;40m▀███▄▀██[0;1;37;40m▐███████████████████[0m
 [1m   ███████[0;1;47m▓▒[0;1;40m▄[0;33m▀[0;1;31;43m░[0;33m▄▀[0;1;31;43m▒▓[0;1;31;40m████▄▄█[0;1;31;43m▓█[0;1;31;40m██████▄▄[0;33m▄[0;1;31m▀▀▀██[0;1;31;43m▓▓[0;1;31;40m██▄▀▄██[0;1;31;47m▓[0;1;31;40m█ [0;1;31;47m▓▓[0;1;37;40m▐███▀▀▀[0m        [1m▀▀▀███[0m
 [1m   ███████[0;1;47m▓▒[0;1;40m██▄[0;33m▀[0;1;31;43m░[0;1;31;40m▄[0;1;31;43m▓▓▓[0;1;31;40m███████████████[0;1;31;43m▓▓▓▓[0;1;31;40m▄▀[0;1;31;43m▓▓▓[0;1;31;40m██▄▀█[0;1;31;47m▓[0;1;31;40m▀ [0;1;31;47m▓▒[0;1;37;40m▐██   [0;1;36;40mI BET YOU[0m      [1m▀▀▄[0m
-[1m   ████████[0;1;47m▒[0;1;40m████▄▄[0;1;31;40m▀[0;1;31;43m▒▒▓▓▓[0;1;31;40m█████████████[0;1;31;43m▓[0;1;31;40m████ [0;1;31;43m▓▓▓[0;1;31;40m██▄▀██[0;1;31;47m▓[0;1;31;43m█[0;1;37;40m▐█▀  [0;1;36;40mWILL SHIT YOUR    [0;1;37;40m▄▀[0m
+[1m   ████████[0;1;47m▒[0;1;40m████▄▄[0;1;31;40m▀[0;1;31;43m▒▒▓▓▓[0;1;31;40m█████████████[0;1;31;43m▓[0;1;31;40m████ [0;1;31;43m▓▓▓[0;1;31;40m██▄▀██[0;1;31;47m▓[0;1;31;43m█[0;1;37;40m▐█▀  [0;1;36;40m                  [0;1;37;40m▄▀[0m
 [1m   ████████████████▄▄[0;33m▀[0;1;31m▀[0;1;31;43m▒▒▓▓[0;1;31;40m███████[0;1;31;47m▓[0;1;31;40m█████▀▄[0;1;31;43m▓▓▓[0;1;31;40m███[0;1;31;43m▓[0;1;31;40m▄▀[0;1;31;43m██[0;1;37;40m▐██▄   [0;1;36;40mPANTS DOWN!    [0;1;37;40m██[0m
 [1m   ███████████████████[0;1;42m▓[0;1;40m▄▄[0;1;31;40m▀▀[0;1;31;43m▒▓[0;1;31;40m█████[0;1;31;47m▓▓[0;1;31;40m███ [0;1;31;43m▓▓[0;1;31;40m▀█[0;1;31;43m▓[0;1;31;40m██▀██[0;1;31;43m▓[0;1;31;40m [0;1;37;40m▄█████▄[0m          [1m▄▄▄█████[0m
 [1m   ██████████████████[0;1;42m▒▓[0;1;40m████▄▄▄[0;1;31;40m▀▀▀███▀▀ ▄▄▄█████[0;1;31;43m▓[0;1;31;40m▄▀█[0;1;31;43m▓[0;1;37;40m▐███▀▀  ▄▄▄[0;1;37;47m▓[0;1;37;40m█████████████[0m
@@ -50,8 +50,4 @@ Write-Host '
 [1m     [0;1;30m█████████▄▄[0m      [1;30m█████████[0m       [1;30m███████▀  █████[0;1;30;47m▓[0;1;30;40m████▄▄    █████████▄▄[0;1;37;40m▀▀[0m
 [1m     [0;1;30m█████████████▀▀▀   █████[0m           [1;30m████    █████████████▀▀▀█████████████[0m
       [1;30m████████▀▀[0m                     [1;30m▀▀▀▀▀[0m       [1;30m████████▀▀[0m      [1;30m████████▀▀[0m
-[1;30m   ▄▄▄███▀▀▀[0m        [32mf[0;1;30mf[0;32ma[0;1;30ma[0;32mc[0;1;30mc[0;32mt[0;1;30mt[0;32mo[0;1;30mo[0;32mr[0;1;30mr[0;32my[0;1;30my[0m            [1;30m▄▄▄███▀▀▀[0m       [1;30m▄▄▄███▀▀▀[0m
-                                                                 [1;30m([0moWyn[1;30m/[0;1;37mstile[0;1;30m)[0m
-         [1;32mthe board bastards are lawbreaker,u-man,alfrod,baphomet[0m
-               [1;32mpc[0;1;33mⁿ[0;1;32mamiga[0;1;33mⁿ[0;1;32mvirii+hpa[0;1;33mⁿ[0;1;32mcode[0;1;33mⁿ[0;1;32mansi+ascii[0;1;33mⁿ[0;1;32mmore[0m          [1;30m               [0m
-                                                                 [1;30m          [0m'
+[1;30m   ▄▄▄███▀▀▀[0m        [32mf[0;1;30mf[0;32ma[0;1;30ma[0;32mc[0;1;30mc[0;32mt[0;1;30mt[0;32mo[0;1;30mo[0;32mr[0;1;30mr[0;32my[0;1;30my[0m            [1;30m▄▄▄███▀▀▀[0m       [1;30m▄▄▄███▀▀▀[0m'

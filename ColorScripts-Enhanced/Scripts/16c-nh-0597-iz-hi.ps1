@@ -5,7 +5,7 @@
 # Source SHA-256: 58c2256de2e0556e0ea1e11dca794879b96efd7551865c7a858f481b03615cef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-HI!!!.ANS by ize (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hi!! for illogic
 # SAUCE Author: ize
 # SAUCE Group: nh!
@@ -31,6 +31,4 @@ Write-Host '
      [31m   [0;34m ▐[0;34;43m▄▄▄▄[0;34;40m▌ [0;30;44m▒[0;31;40m [0;1;31;41m░▓[0;31m█▌[0;34m ▐[0;34;43m▄▄▄▄[0;34;40m▌ ▒ ▐[0;34;43m▄▄▄▄[0;34;40m▌ ▒[0;1;31;40m [0;1;31;41m░  <G> at the bottom[0;31m███[0;1;31;41m [0;31m█░   [0m
       [31m   [0;34m     ▄▄[0;30;44m░[0;34;40m░[0;31;40m█[0;1;31;41m░[0;31m█▌[0;34m [0m     [34m▄▄[0;30;44m░[0;34;40m   [0m   [34;40m▄▄▓[0;1;31;40m [0;1;31;41m░  well . .. .[0;31m██[0;1;31;41m.[0;31m██████░     [0m
       [31m   ░▄▄▄▄▄▄▄▄████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;31;41m - ize [0;31m███████[0;1;31;41m [0;31m▀▀▀▀       ░░[0m
-    [31m ░██[0;1;31;41m  [0;31m█[0;1;31;41m░░[0;31m██████████████[0;1;31;41m░░[0;31m███████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-                                                                  [31m  [0m
-                 [1;31m-- -  - for illogic only, you know :)[0m'
+    [31m ░██[0;1;31;41m  [0;31m█[0;1;31;41m░░[0;31m██████████████[0;1;31;41m░░[0;31m███████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

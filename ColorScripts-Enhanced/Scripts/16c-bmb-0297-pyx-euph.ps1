@@ -5,7 +5,7 @@
 # Source SHA-256: 00b704ed2706e6fa274ebcbe55095d3a856769aa4f8714d669b7db7e436d2010
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-EUPH.ANS by Pyx (Bamboosh); released in bmb-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Euphoria
 # SAUCE Author: Pyx
 # SAUCE Group: Bamboosh
@@ -30,6 +30,4 @@ Write-Host '
 [36m██[0;34m █[0;1;34;44m██▓[0;34m█ █[0;1;34;44m▄██ [0;34m █[0;1;34;44m▌[0;34m█ ██[0;1;34;44m▄▓[0;34m█ █[0;1;34;44m▀ [0;34m [0;36m▄▄▄▄▄[0;34m █[0;1;34;44m▄[0;34m█ ██[0;1;34;44m▄█▌[0;34m █▄█[0;1;34;44m▀▀▀[0;34m█ [0;1;34;44m▐▌[0;34m█ █[0;1;34;47m▓[0;1;34;44m█[0;34m██ ███ [0;1;34;44m▐▓[0;34m█ █[0;1;34;44m▄[0;1;34;47m▓▓[0;34m█[0;37m [0;36m█[0;1;36;46m░[0m
 [36m██[0;34m █[0;1;34;44m ▀▀[0;34m█▄█[0;1;34;44m▀▀ [0;34m█ █[0;1;34;44m█[0;34m█ █[0;1;34;44m▀▀[0;34m█[0;1;34;44m░[0;34m [0;36m▄▄▄▄[0;1;36;46m ▄[0;1;37;46m▓[0;1;36;46m▓[0;36m█[0;34m █[0;1;34;44m▐▌[0;34m [0;1;34;44m █▓▀[0;34m█ [0;36m▄▄▄▄▄▄▄[0;34m [0;1;34;44m░▀[0;34m█▀█[0;1;34;44m ▀[0;34m█▄ [0;36m▄[0;34m ▄▄█[0;1;34;44m▀░[0;34m █[0;1;34;47m█▓█[0;34m█[0;37m [0;36m██[0m
 [36m█[0;1;36;46m░[0;36m▄▄▄▄▄▄▄▄▄▄▄▄[0;34m ▀▀▀▀▀ [0;36m▄▄▄▄[0;1;36;46m░▀▀▓▀▀▀▀[0;36m█[0;34m ▀▀▀ ▀▀▀▀▀ [0;1;36;46m░▀▀■▓▀[0;36m█▄▄▄▄▄▄▄▄▄▄▄[0;1;36;46m░[0;36m▄▄▄▄▄▄[0;34m ▀▀▀▀▀[0;37m [0;36m██[0m
-[37m             [0;36m▀▀▀▀▀▀▀▀▀[0;37m        [0;36mpyx▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m                       [0;36m▀▀▀▀▀▀▀▀▀▀[0m
-
-[1;36m    [0m    [1;36msysop: Equinox[0m [36m- [0;1;36mo to 3 day old warez[0m [36m- [0;1;36mrunning fast PCBoard[0m'
+[37m             [0;36m▀▀▀▀▀▀▀▀▀[0;37m        [0;36mpyx▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m                       [0;36m▀▀▀▀▀▀▀▀▀▀[0m'

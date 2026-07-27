@@ -5,7 +5,7 @@
 # Source SHA-256: bb23622f184ea75505f7d5dc220ebb1b6dc11699fa6e8ed8100447b5c898ab86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: hs-m3.ans by Hellspawn (rmrs-25); released in rmrs-25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -40,6 +40,4 @@ Write-Host '
                   ²  s ┐┤$$$$$$$$$$$$$$$$│F┘²''''''└7$*┘²''`
                          `''└7│$$$$$$$$│P''
                               `└7$$$$F
-                                 `└7`
-
-                          [1mm3[0m   [1mwhere old meets new[0m'
+                                 `└7`[0m'

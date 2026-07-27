@@ -5,7 +5,7 @@
 # Source SHA-256: e91085d812a3d57be34f81e4699c75d26e4d03f5b1be55e37ba1de3b6d088ada
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-ICONN.ANS by Grim (iCON); released in icon0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fase
 # SAUCE Author: Grim
 # SAUCE Group: iCON
@@ -29,10 +29,10 @@ Write-Host '
 [1;30;46m                                             [0;36m▀▀ ▄ ■  · [0;1;37;47m█[0m       [1;37;47m█[0m    [1;30;40m▀ [0;1;37;40m▄ [0;1;37;47m█[0m     [1;30;40m█[0m
 [1;30;46m      [0m [1;36;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄   ▄[0m          [1;37;47m▓[0m  ▄▄▄▄ [1;47m▓[0m    [1;47m▓[0m [1;47m▓[0m [1;47m▓[0m     [1;40m▄[0m
 [1;46m      [0m [1;36;40m█[0m                                               [1;37;47m▒[0m     █ [1;47m▒[0m    [1;47m▒[0m [1;47m▒[0m [1;47m▒[0m     [1;47m▓[0m
-[1;46m      [0m [1;36;40m█  [0;1;30;40mgreets.tO.all.da.icOn.members.also[0m           [1;37;47m░[0m     █ [1;47m░[0m    [1;47m░[0m [1;47m░[0m [1;47m░[0m     [1;47m▒[0m
+[1;46m      [0m [1;36;40m█  [0;1;30;40m                                  [0m           [1;37;47m░[0m     █ [1;47m░[0m    [1;47m░[0m [1;47m░[0m [1;47m░[0m     [1;47m▒[0m
 [1;46m      [0m [1;36;40m█  [0;1;30;40ma.shout.out.to.scarface.psyker.and[0m           [47m▀[0;40m▄▄▄▄▄█ █    [0;47m [0m [40m█ █[0m     [1;47m░[0m
-[1;46m      [0m [1;36;40m█  [0;1;30;40mstriker.joe.without.whome.i.might.[0m
-[1;30;46m      [0m [1;36;40m█  [0;1;30;40mnot.have.been.in.this.pack.PEACE.[0m
+[1;46m      [0m [1;36;40m█  [0;1;30;40m                                  [0m
+[1;30;46m      [0m [1;36;40m█  [0;1;30;40m                                 [0m
 [1;30;46m      [0m [1;36;40m█[0m
 [1;36;46m      [0m [1;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;36;46m                                                                                [0m

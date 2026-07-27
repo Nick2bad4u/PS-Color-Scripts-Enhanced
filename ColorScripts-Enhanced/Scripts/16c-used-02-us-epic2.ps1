@@ -5,7 +5,7 @@
 # Source SHA-256: 61f857815fb4e96ebd2cc12b19cb20e0a25cc881b3959f894b866a8aeaec0660
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-epic2.ans by Spear + Cryogenic (Used); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Epic Arts
 # SAUCE Author: cryogenic and spear
 # SAUCE Group: Used
@@ -17,7 +17,7 @@
 Write-Host '
 
 
-         [30;44mepic outline[0;34;40mcryogenic[0;31;40m  [0;37;40m [0;31;40mEP[0;1;31;41mi[0;31mC ARTS[0m   [34mspearfx[0;30;44mdestruction[0m
+         [30;44m            [0;34;40m         [0;31;40m  [0;37;40m [0;31;40m  [0;1;31;41m [0;31m      [0m   [34m       [0;30;44m           [0m
                                                             [36;40m▄  [0;37;40m [0;36;40m [0m
                [1;36;40m               [0m [36m [0m   [1;37m░░░░░[0m          [36m  ▄▄▄▄[0;37m [0;36m▀█ [0m   [1;36m░░░░░░░░░░[0m
 [36m [0;1;36m        [0;30;46m▒░[0;36;40m█[0;1;36;46m ░▒▓[0;1;36;40m██[0;1;36;47m█▓▓▓▒▒▓▓[0;1;36;40m█[0;1;36;47m▓[0;1;36;40m██[0;1;36;46m█▌[0;36m█[0;1;37;46m ▐[0;1;37;40m▓▓▓▓▓[0;1;33;46m▓[0;1;37;46m▓▒░ [0;30;46m░[0;36;40m▓▓▀▀    ▄███[0;1;36;46m▄████[0;1;36;40m▓▓▓▓▓░░░░░[0m

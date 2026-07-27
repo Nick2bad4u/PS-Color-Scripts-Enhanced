@@ -5,7 +5,7 @@
 # Source SHA-256: 056856183031b8341886f7d40e06cb9ecdb00c2157c4566a9b16920b4d1f865b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-ST.ANS by yes mastah death (ECLiPSE); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: shaolin sugah shack
 # SAUCE Author: yes mastah death
 # SAUCE Group: ECLiPSE
@@ -32,5 +32,4 @@ Write-Host '
  sd [35m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;37;40m [0;30;45m▓[0m   [1;30;40m▀[0m▀▀▀▀▀▀▀      [1;30m▀[0m█ [1;30m▀[0m     [1;30m▀[0m▀▀▀ [30;47m██[0;1;30;40m█[0m  [1;30m▀[0m▀▀▀▀▀▀▀   [1;30m▀[0m▀▀▀▀▀
                        ▄  ▄▄█              [1;30m▀▀▀[0m [1;30m▀[0m
 
-                           s h a o l i n  t e m p l e[0m
-'
+                           s h a o l i n  t e m p l e[0m'

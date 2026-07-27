@@ -5,7 +5,7 @@
 # Source SHA-256: c6faae65edb67b18cedf254b8f6bb47a94528f5fdfb6d0839cd4f1e78311aef8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-BLOQ.ANS by Filth (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BLOCKTRONICS
 # SAUCE Author: Filth
 # SAUCE Group: blocktronics
@@ -23,9 +23,9 @@ Write-Host '
 
                                                                                [36m▌[0m
 [37m                                                                               [0;36m▌[0m
-[37m      [0;1;33m...machines that build robots that build factories that build machines[0m  [36m▌[0m
-[37m      [0;1;33mthat build robots that build factories that build machines that build[0m   [36m▌[0m
-[37m      [0;1;33mrobots that build factories that build machines that build robots...[0m    [36m▌[0m
+[37m      [0;1;33m                                                                      [0m  [36m▌[0m
+[37m      [0;1;33m                                                                     [0m   [36m▌[0m
+[37m      [0;1;33m                                                                    [0m    [36m▌[0m
 [37m                                                                 [0;36m▌[0;37m           [0;36m▌[0m
 [37m                                                                 [0;36m▌[0;37m           [0;36m▌[0m
 [37m                                                                 [0;36m▌[0;37m           [0;36m▌[0m

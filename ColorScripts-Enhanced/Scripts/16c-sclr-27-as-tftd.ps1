@@ -5,7 +5,7 @@
 # Source SHA-256: bddaed2042e6dfaeae0369b21c88e3b75f0728e8d699424e45d3ed1e2162602b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-TFTD.ANS by Asd (sclr-27); released in sclr-27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -16,11 +16,11 @@ Write-Host '
 [37;40m            j$$$7'';;                                                            [0m
 [37;40m    lQ@%g╓─▬?$$│$╓,._       .........  ..   .......  ..  .   .  ...  .          [0m
 [37;40m    ``"²┘ `)$║$;²╙*/$/╓     :                                                   [0m
-[37;40m ,\$║$QS@%╥\$$$l....`$$$$/..:  mimimal art and abstract art - a new culture     [0m
-[37;40m;$║$(    ;;)Q$$$    .7║$$7  :  or its glimpse of the world ?                    [0m
+[37;40m    ║     ╥                                                                     [0m
+[37;40m  ║                   ║                                                         [0m
 [37;40m `/$║$QS↕↕⌂*l$│$;*\S║$\╙`   :                                                   [0m
-[37;40m            ;%*╙─²`...      : e-mail: serovsky@newmail.ru                       [0m
-[37;40m              :..: >> asd^sclr^smr^wrlck                                        [0m
+[37;40m               ╙─                                                               [0m
+[37;40m                                                                                [0m
 [37;40m                                                                        [0;1;36;40mxxx$$S[0;37;40m  [0m
 [37;40m    [0;36;40m.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.[0;37;40m    [0;1;36;40m1[0;36;40m$$$[0;1;36;40m$1[0;37;40m  [0m
 [37;40m  [0;36;40m;[0;37;40m [0;36;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;37;40m    [0;1;36;40mS[0;36;40m$$$[0;1;36;40mxxx[0;37;40m [0m
@@ -43,6 +43,4 @@ Write-Host '
 [37;40m      [0;36;40m1$$$$$$$$$$;[0;37;40m [0;1;36;40m$$$$$$[0;36;40m$yyyyyyyyy[0;1;34;46m$[0;36;40m88888$;[0;37;40m [0;36;40mS$S*└²"`.,┐\$$$$$$$$$$$$$$$$$$$[0;37;40m     [0m
 [37;40m      [0;36;40m````````````[0;37;40m [0;36;40m```````````````````````[0;37;40m  [0;36;40m``[0;37;40m     [0;36;40m````````````````````````[0;37;40m     [0m
 [37;40m                                                                                [0m
-[37;40m------------------                                                              [0m
-[1;30;40mmusic inspiration: Robbie Wiliams[0;37;40m [0;1;30;40m''the road to mandalay''[0;37;40m                        [0m
-[37;40m                                                                                [0m'
+[37;40m------------------                                                              [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5af06dfad0016fc9cb7b726d2235750126a5c03e1819597475309809f27d621b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-LOTUSBLOOM.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Programming Roots Lotus
 # SAUCE Author: Mavenmob
 # SAUCE Group: Mistigris
@@ -48,6 +48,4 @@ Write-Host '
 [37m                                       [0;1;32m0[0m
                                        [32m0[0m
 [37m                                        [0;1;30m░[0m
-                                         [1;30m▀[0;32m  you are a fucking[0m
-[37m                          [0;32myou are pointless             idiot[0m
-[37m                     [0;32myou are[0m'
+                                         [1;30m▀[0;32m                   [0m'

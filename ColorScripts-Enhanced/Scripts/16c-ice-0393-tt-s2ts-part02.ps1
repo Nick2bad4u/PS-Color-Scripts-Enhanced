@@ -5,7 +5,7 @@
 # Source SHA-256: 9579187575fe5ea0248e17ee3790006184a3cccf0a27969ec7fae1674665a3d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-S2TS.ICE by Tempus Thales (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -56,7 +56,4 @@ Write-Host '
            [33m█[0;1;33m█[0;33m█[0;1;33m█ [0;33m█[0;1;33m█[0;33m▀[0;1;33;43m▀[0;1;33;40m▄▄[0m          [33m▄[0;1;33;43m▄[0;1;33;40m███▀[0m         [33m▄[0;1;33m▄▄[0;1;33;43m▄[0;1;33;40m▀[0;33m▀[0;1;33;43m▀[0;1;33;40m▄▄[0;33m▀[0;1;33;43m▀[0;1;33;40m▄█▀[0;33m▀[0;1;33;43m▀[0;1;33;40m▄[0;1;33;43m▄[0;1;33;40m▀[0;33m▀[0;1;33;43m▀[0;1;33;40m▄▄[0;33m▀[0;1;33;43m▀[0;1;33;40m▄▄[0m
                               [33m▄[0;1;33;43m▄[0;1;33;40m███▀    [0;33m▄[0;1;33m▄[0m                [33m▀[0;1;33m▀[0m
 [1;30m▄▄▄[0m▄[1;30m▄▄[0m▄▄[1;30m▄[0m▄▄▄▄[1m▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄[0;33m▐[0;1;33;43m▐[0;1;33;40m███████████ [0;1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1m▄▄[0m▄▄[1m▄[0m▄▄▄▄[1;30m▄[0m▄▄[1;30m▄▄[0m▄[1;30m▄▄[0m
-                              [33m▀[0;1;33m▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;37mSANCTUARY(tm)[0m·[1mPart II[0m, [1mTHE SEQUEL [0;1;30m-[0m/[1;30m- [0;1;37mINC Affiliate [0;1;30m-[0m/[1;30m- [0;1;37mMercury Site[0m/[1mMemb[0m. [1mSite[0m
-      [1m4oo[0m+ [1mMegs [0;1;30m-[0m/[1;30m-  [0;1;37mo[0m-[1m1 Day Wares [0;1;30m-[0m/[1;30m- [0;1;37mSysop[0m: [1mTempus Thales [0m& [1mMack Daddy[0m
-      [1mNode 1[0m: [1m3o5[0m.[1m755[0m.[1m9o68 [0m· [1mNode 2[0m: [1mUpSoon [0;1;30m-[0m/[1;30m- [0;1;37m16[0m.[1m8 [0;1;30m-[0m/[1;30m- [0;1;31mA[0;1;34mN[0;1;32mS[0;1;33mi[0m·[1mTEMPUS[0;1;30m[[0mi[1mCE[0;1;30m][0m'
+                              [33m▀[0;1;33m▀▀▀▀▀▀▀▀▀▀▀[0m'

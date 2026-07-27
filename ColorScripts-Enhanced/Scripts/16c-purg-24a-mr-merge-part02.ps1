@@ -5,7 +5,7 @@
 # Source SHA-256: 83d859bab279b6ebb5ecfe931619eb23922b4e34716c4635ed2f18c871f6dcaf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-MERGE.ANS by Mr D (purg-24a); released in purg-24a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-91
 # Columns: 1-80
 
@@ -23,11 +23,11 @@ Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;34m█[0;1;34;44m▀[0;34m█[0;1;30m    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30m [0m                                 [1mb[0mecome [1mo[0mne[1;30m...[0m
+[1;30m [0m                                 [1m [0m      [1m [0m  [1;30m   [0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1m [0m                                     [1m            [0m
                                                   [1;30m [0m
-                                 [1;30m [0m  [1mP[0mhear [1mu[0ms[1;30m![0m [1;32m [0m
+                                 [1;30m [0m  [1m [0m     [1m [0m [1;30m [0m [1;32m [0m
 
                                        [1;32m▄▄[0m
                            [35m [0m      [35m [0;1;32m▄▄ [0;32m█[0;1;32m▐▌[0;32m█[0;1;32m ▄▄[0;35m [0m
@@ -40,14 +40,4 @@ Write-Host '
                                       ▐  ▌
 
 
-─[1;30m( ya gotta cut along THIS LINE! )[0m──────────────────────────────────────────────
-
- [1;30mIts a worm from the new worms armageddon.[0m
- [1;30mPerhaps my first seriously researched ansi...[0m
- [1;30m...almost certainly one of my best. [0m
-
-   [1;30mIf you need some serious sound entertainment... d/l flange music![0m
-
-   [1;30mwhy?   cos we''re kickass tracker''s and we know how its done foo''![0m  [1;30m;][0m
-
-                                                      [1;30m-mrd^flg^purg[0m'
+─[1;30m( ya gotta cut along THIS LINE! )[0m──────────────────────────────────────────────[0m'

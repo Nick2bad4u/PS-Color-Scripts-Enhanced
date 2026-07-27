@@ -5,7 +5,7 @@
 # Source SHA-256: a31a69b7325f0a42233304a17300719e16718b8ea3ae71fabe7fe0694648b1af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-RIP.ANS by Sudden Death (acepak03); released in acepak03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 49-92
 # Columns: 1-80
 
@@ -50,7 +50,7 @@ Write-Host '
         [1;30;40m▀▄[0;1;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [1;30;40m▀▄[0;1;37;40m▀▀▀[0;1;30;40m▄▀ ▀▀▀▄[0;1;37;40m▀[0;1;30;40m▄   █[0;1;37;40m▐█████▌[0;1;30;40m▀▀▀▀▀[0m
           [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀[0m            [1;30;40m▀▀▀[0m       [1;30;40m▀    █[0;1;37;40m▐█████▌[0m
 [1;30;40m┌─── R [0;1;37;40mE S T  [0;1;30;40mI [0;1;37;40mN  [0;1;30;40mP [0;1;37;40mE A C E [0;1;30;40m─────────────────── █[0;1;37;40m▐███▌▀ [0;1;30;40m──────────────────────┐[0m
-[1;30;40m│  S[0;1;37;40mysOp [0;1;30;40mN[0;1;37;40muclear [0;1;30;40mW[0;1;37;40mar[0m     [1;30;40mP[0;1;37;40mublic [0;1;30;40mE[0;1;37;40mnemy [0;1;30;40mA[0;1;37;40mffilate   [0;1;30;40m█[0;1;37;40m▐█▌▀[0;1;30;40m▄▀[0;1;37;40mH[0;1;30;40m/P/A/C/V [0;1;37;40mS[0;1;30;40mupport[0m      [1;30;40m│[0m
-[1;30;40m│  C[0;1;37;40moSysOp [0;1;30;40mT[0;1;37;40mron[0m          [1;30;40mA[0;1;37;40mrt [0;1;30;40mC[0;1;37;40mreation [0;1;30;40mE[0;1;37;40mnterprises[0;1;30;40m▀▄[0;1;37;40m▀[0;1;30;40m▄▀ M[0;1;37;40member [0;1;30;40mB[0;1;37;40moard[0m            [1;30;40m│[0m
-[1;30;40m│  R[0;1;37;40memote [0;1;30;40mH[0;1;37;40mot [0;1;30;40mS[0;1;37;40mhot[0m       [1;30;40m7[0;1;37;40m00+ [0;1;30;40mM[0;1;37;40megabytes [0;1;30;40mO[0;1;37;40mnline[0m     [1;30;40m▀ A[0;1;37;40mnsi [0;1;30;40mB[0;1;37;40my [0;1;30;40mS[0;1;37;40mudden [0;1;30;40mD[0;1;37;40meath ([0;1;30;40mace)│[0m
+[1;30;40m│   [0;1;37;40m     [0;1;30;40m [0;1;37;40m       [0;1;30;40m [0;1;37;40m  [0m     [1;30;40m [0;1;37;40m      [0;1;30;40m [0;1;37;40m     [0;1;30;40m [0;1;37;40m          [0;1;30;40m█[0;1;37;40m▐█▌▀[0;1;30;40m▄▀[0;1;37;40m [0;1;30;40m         [0;1;37;40m [0;1;30;40m      [0m      [1;30;40m│[0m
+[1;30;40m│   [0;1;37;40m       [0;1;30;40m [0;1;37;40m   [0m          [1;30;40m [0;1;37;40m   [0;1;30;40m [0;1;37;40m        [0;1;30;40m [0;1;37;40m          [0;1;30;40m▀▄[0;1;37;40m▀[0;1;30;40m▄▀  [0;1;37;40m      [0;1;30;40m [0;1;37;40m    [0m            [1;30;40m│[0m
+[1;30;40m│   [0;1;37;40m      [0;1;30;40m [0;1;37;40m   [0;1;30;40m [0;1;37;40m   [0m       [1;30;40m [0;1;37;40m    [0;1;30;40m [0;1;37;40m         [0;1;30;40m [0;1;37;40m     [0m     [1;30;40m▀  [0;1;37;40m    [0;1;30;40m [0;1;37;40m  [0;1;30;40m [0;1;37;40m      [0;1;30;40m [0;1;37;40m      [0;1;30;40m    │[0m
 [1;30;40m└──────────────────────────────────────────────────────────────────────────────┘[0m'

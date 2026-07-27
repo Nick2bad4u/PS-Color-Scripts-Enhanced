@@ -5,7 +5,7 @@
 # Source SHA-256: 3fa8eb0739043f8752bab2c670ea52343cc0e8444f41108e0dc5399497220485
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PX-ELFR.ANS by Phoenix (Union); released in uni-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Electronic Frontier
 # SAUCE Author: Phoenix
 # SAUCE Group: Union
@@ -55,13 +55,11 @@ Write-Host '
 [1;30;40m▐[0;1;30;47m  ▄[0;1;30;40m█████████████████▀▀   [0;1;37;40m∙ T [0;1;36;40mH [0;36mε   [0;1;37mε [0;1;36mL [0;36mε [0;1;30mC T R O ∩ I C   [0;1;37mF [0;1;36mR [0;36mO [0;1;30m∩ T I ε R [0;1;37m∙ [0;1;30m█[0;1;30;47m [0;1;30;40m█[0m
 [1;30;47m▌ ▐[0;1;30;40m███▀[0m                                                                     [1;30;40m█[0;1;30;47m [0;1;30;40m█[0m
 [1;30;47m▌ [0;1;30;40m███▌[0m                                [1;30;40mPiPεLI∩ε WHQ[0m                          [1;30;40m█[0;1;30;47m [0;1;30;40m█[0m
-[1;30;47m▌ [0;1;30;40m███    [0;1;37;40mT[0mh[1;30me Leader ∙ [0;1;37m∩[0me[1;30mt Distrtion[0m                                         [1;30m█[0;1;30;47m [0;1;30;40m█[0m
+[1;30;47m▌ [0;1;30;40m███    [0;1;37;40m [0m [1;30m           [0;1;37m [0m [1;30m           [0m                                         [1;30m█[0;1;30;47m [0;1;30;40m█[0m
 [1;30;47m▌ [0;1;30;40m███[0m                                                                       [1;30;40m█[0;1;30;47m [0;1;30;40m█[0m
-[1;30;47m▌ [0;1;30;40m███    [0;1;37;40mT[0mh[1;30me Shit ∙ [0;1;37mA[0mr[1;30mt packs/vision2/pipeline utilities[0m                    [1;30m█[0;1;30;47m [0;1;30;40m█[0m
+[1;30;47m▌ [0;1;30;40m███    [0;1;37;40m [0m [1;30m         [0;1;37m [0m [1;30m                                  [0m                    [1;30m█[0;1;30;47m [0;1;30;40m█[0m
 [1;30;47m▌ ▐[0;1;30;40m██[0m                                                                      [1;30;40m▐[0;1;30;47m▌▐[0;1;30;40m█[0m
 [1;30;40m▐[0;1;30;47m  [0;1;30;40m██▌[0m         [1;30;40m+ 1 . 8 1 6 . 3 5 3 . 8 6 1 7[0m          [1;30;40m28.8 USR[0m             [1;30;40m█[0;1;30;47m [0;1;30;40m█▌[0m
 [1;30;40m █[0;1;30;47m  [0;1;30;40m██▄[0m                                                                   [1;30;40m█[0;1;30;47m [0;1;30;40m██[0m
 [1;30;40m  ▀[0;1;30;47m▄▄[0;1;30;40m█████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▀▄[0;1;30;40m█▀[0m
-[1;30;40m    ▀▀█████████████████████████████████████████████████████████████████▀▀▀[0m
-[1;30;40m this 100% orig. ansi was done for Net Distortion by Phoenix of aim productions[0m
-[1;30;40mqwk greetz to Net Distortion, Lord Prime, J-smoove, Shattershot, and Dazed Youth[0m'
+[1;30;40m    ▀▀█████████████████████████████████████████████████████████████████▀▀▀[0m'

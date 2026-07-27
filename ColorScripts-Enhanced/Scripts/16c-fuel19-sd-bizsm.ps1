@@ -5,7 +5,7 @@
 # Source SHA-256: 2ae5bfe5df6d45a4b5473214a1343d27d0c195e16f2a12956af3559d994b5097
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-BIZSM.ANS by sad (fuel); released in fuel19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: stats screen
 # SAUCE Author: sad
 # SAUCE Group: fuel
@@ -39,7 +39,4 @@ Write-Host '
 [37m [0;1;36m▀▌[0;1;36;46m▓[0;1;36;40m▄[0;1;36;45m▄[0;35m▄[0;1;31m  [0;35m███▓▀[0m     [34m▐[0;1;34;44m░[0;34m█[0;1;34;44m ▓[0;1;34;40m█[0;1;34;46m▓[0;1;34;40m ▓█[0;1;34;44m▌[0;34m█[0;1;34;44m░[0;34m▌[0;1;36m ▌[0;1;36;46m▓[0;1;36;40m▄[0;1;36;45m▄[0;35m██████▓▀[0m
    [1;36m▀▀[0;1;36;44m▓[0;1;36;45m▓░░[0;35m▓▌▀[0;37m  [0;1;30msd.[0m  [34m▀▀[0;30;44m░[0;1;34;44m░▐[0;1;34;40m█▌ ▐[0;1;34;44m▓█░[0;34m▀▀[0;37m  [0;1;36m▀▀[0;1;36;44m▓[0;1;36;45m▓░░[0;35m▓▌▀[0m
 
-[37m------------------------------------------------------------------------------- [0m
-[37mmiss melkzak''97 - this is a free ansi, if you want to use it, just do...[0m
-[37msilly ideas (tail & horns & super big boobs) by me and nightstalker...[0m
-[37mjust anouther sad%fuel''97%production [0m'
+[37m------------------------------------------------------------------------------- [0m'

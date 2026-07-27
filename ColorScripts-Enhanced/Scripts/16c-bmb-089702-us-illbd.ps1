@@ -5,7 +5,7 @@
 # Source SHA-256: 8032ef0fcc9246478b4ff89e1b684213d660bacc5626120247f6b757aa1097c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ILLBD.ANS by anOmite + pyx (bamboosh); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iLLbRED?!
 # SAUCE Author: anOmite + pyx
 # SAUCE Group: bamboosh
@@ -38,7 +38,4 @@ Write-Host '
 [37m  [0;34m▄▄[0;1;35m [0;34m▀▀▄[0;37m [0;34m▀▀▀▀▄▄▄▄[0;37m [0m     [34m▄[0;1;34;44m▄[0;32m ▐[0;1;32;42m▀▌[0;32m▌[0;35m [0;34m▀▀[0;35m [0;32m▄[0;1;32;42m▄████[0;32m█[0;35m [0;34m▄[0;35m [0;32m▀[0;1;32m▀[0;1;32;42m▀▄[0;1;32;40m▄[0;32m▄ ▄[0;1;32;42m▄██▀[0;32m▀▀[0;1;32;42m▀█▄[0;1;32;40m▄▄[0;1;32;42m▄█▀[0;1;32;40m▀▀[0;32m▀[0;35m [0;34m.[0;1;34;44m█[0;1;34;40m█▄[0;34m▄[0m
 [37m  [0;1;34;46m▀▒[0;1;34;44m▄[0;34m▄[0;1;34;44m▄[0;1;34;46m▀▀[0;1;34;44m▓░░[0m [34m▄[0;1;34m▄▄▄▄[0;1;34;44m▄██▄[0;1;34;40m▄▄▄▄[0;34m▄[0m   [35m      [0;32m▀[0;1;32m▀▀▀▀[0;32m▀[0;35m [0;1;34m▀█▄[0;34m▄[0;35m  [0;32m▀[0;1;32m▀▀[0;32m▀[0m   [32m ▀[0;1;32m▀▀▀[0;32m▀[0m    [34m▄[0;1;34m▄▄[0;1;34;44m▄[0;34m▌ ▀[0;1;34m▀▀[0m
                                                       [34m▀[0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀[0m
-[34m─────────────────────────────────────────────────────────────────────────────── [0m
-[1;30mOriginal outline + background, anomite. [0m
-[1;30mFont touchup + coloring + shading, pyx[0m
-[1;30mRequested by Cereal killer.[0m'
+[34m─────────────────────────────────────────────────────────────────────────────── [0m'

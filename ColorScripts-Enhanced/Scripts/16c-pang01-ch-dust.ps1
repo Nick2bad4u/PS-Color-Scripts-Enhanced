@@ -5,7 +5,7 @@
 # Source SHA-256: 89e749a2fe8c986875c7deb2e98ba5630f33e451b2b29779c7231f74d2586ff9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH-DUST.ANS by Chronic-Pang (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -24,8 +24,4 @@ Write-Host '
     [1;33;47m██▄█▓[0;1;33;40m▀▀▀▀[0m                      [1;33;47m██[0;1;33;40m▄▄[0m        ▐█[1;33;47m░[0;1;33;40m▌[0m         [1;33;47m▒▒▒█[0m [1;33m  [0mch/png[1;33m▐███[0m
                                     [1;33;47m▓▓[0;1;33;40m█▌[0m       ███         [1;33m [0;1;33;47m▓▓[0;1;33;40m██▄▄▄[0;1;33;47m▓[0;1;33;40m████[0;1;33;47m▓▓[0;1;33;40m▀▀[0m
                                      [1;33;47m▀▀■▄[0m▄▄▄▄█[1;33;47m░░[0m█▌         [1;33m████▀▀▀▀[0m
-      [33my[0;1;33mar[0;33m [0;1;32mnh[0;32mum [0m   [32m >>[0m                 [37m▀▀[0;1;33;47m░[0m████▀▀▀▀
-                       [32m [0m
-      [33my[0;1;33mar[0;33m [0;1;32mpa[0;32mssword >>[0m                          [33m:[0;1;33m: [0;1;32md[0;32must something goes her[0;1;32me [0;1;33m:[0;33m:[0m
-                       [33m  [0m
-      [33my[0;1;33mar[0;33m [0;1;32mlo[0;32mcation ::[0m                            [33m>[0;1;33m>[0;33m [0;1;32mo[0;32mpped by reptical[0;1;35m   [0m'
+      [33my[0;1;33mar[0;33m [0;1;32mnh[0;32mum [0m   [32m >>[0m                 [37m▀▀[0;1;33;47m░[0m████▀▀▀▀[0m'

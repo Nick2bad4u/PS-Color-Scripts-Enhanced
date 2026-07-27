@@ -5,7 +5,7 @@
 # Source SHA-256: ae7be0c5a0169924cb2fb4b178659809b9f895168db385c149d7086e0a3c5668
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-WAAA.ANS by Dizzy (sadist03); released in sadist03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 34-67
 # Columns: 1-80
 
@@ -36,11 +36,4 @@ Write-Host '
                      [34m░░[0;37m [0;34m▌[0;37m  ░[0m       [37m░░  [0;34m▀░░[0m   [37m░░[0m      [37m▄▄▄[0;1;37m█▀[0m   ▐[1m▌[0m
                         [34m▓[0m                         [37m▀▀▀▓▓█▀▀[0;1;37m▀▀▀▀[0m
                                    ░░  [1msad1[0mst99      ░░ ▀[1m▄[0m
-                                                          ▄
-
-
-
-
-
-
-                               .. Dizzy@i.am[0m'
+                                                          ▄[0m'

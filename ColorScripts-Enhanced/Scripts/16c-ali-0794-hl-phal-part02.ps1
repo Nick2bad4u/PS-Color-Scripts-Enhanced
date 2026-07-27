@@ -5,7 +5,7 @@
 # Source SHA-256: 44730c60a176735c88f7154eb0a1e27649d884daec45206a6f00a9767df018bc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HL-PHAL.ANS by Hellion (ali-0794); released in ali-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 49-96
 # Columns: 1-80
 
@@ -44,17 +44,17 @@ Write-Host '
                         [37;40m. ..[0;1;30;40mp[0m.[1;30mh[0m.[1;30ma[0m.[1;30ml[0m.[1;30ml[0m.[1;30mi[0m.[1;30mc[0m..[1;30md[0m.[1;30me[0m.[1;30ma[0m.[1;30mt[0m.[1;30mh[0m.. .
                              . ...[1;30m4O8[0m.[1;30m899[0m.[1;30mO235[0m... .
 
-      [1;30manarchy [0m- [1;30mart [0m- [1;30mchemistry 101 [0m- [1;30mconspiracy [0m- [1;30mcyberculture [0m- [1;30mmaryjane[0m
-      [1;30mnootropics [0m- [1;30minhalants [0m- [1;30mpsychedelics [0m- [1;30mcultivation [0m- [1;30mebooks [0m- [1;30met''s[0m
-        [1;30mfraud [0m- [1;30mliberation [0m- [1;30mhacking [0m- [1;30munix/linux [0m- [1;30msecurity [0m- [1;30msubdudes[0m
-[1;30m    virus [0m- [1;30mansibombs [0m- [1;30mcomplete collections of every major ezine published[0m
+      [1;30m        [0m  [1;30m    [0m  [1;30m              [0m  [1;30m           [0m  [1;30m             [0m  [1;30m        [0m
+      [1;30m           [0m  [1;30m          [0m  [1;30m             [0m  [1;30m            [0m  [1;30m       [0m  [1;30m    [0m
+        [1;30m      [0m  [1;30m           [0m  [1;30m        [0m  [1;30m           [0m  [1;30m         [0m  [1;30m        [0m
+[1;30m          [0m  [1;30m          [0m  [1;30m                                                   [0m
 
-                  --[1;30mcDc official factory distribution outlet[0m--
-           -[1;30minternational freedom of information network 69[0m:[1;30m1OO[0m/[1;30m951[0m-
+                    [1;30m                                        [0m  
+            [1;30m                                               [0m [1;30m   [0m [1;30m   [0m 
 
-                 [1;30manonymous ftp at ftp[0m.[1;30mnetcom[0m.[1;30mcom [0m: /[1;30mpub[0m/[1;30mphallic[0m
+                 [1;30m                    [0m [1;30m      [0m [1;30m    [0m   [1;30m   [0m [1;30m       [0m
 
-                             [1;30msysadmin[0m: [1;30mreclinerHead[0m
+                             [1;30m        [0m  [1;30m            [0m
 
 [1;30m [0;31m──────────────────────────────────────────────────────────────────────────────[0m
                           [1;30m──[0mansi[1;30m─[0mby[1;30m─[0mhellion[1;30m─[0m[alive][1;30m──[0m'

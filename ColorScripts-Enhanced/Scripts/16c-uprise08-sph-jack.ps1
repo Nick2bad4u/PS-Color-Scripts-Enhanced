@@ -5,7 +5,7 @@
 # Source SHA-256: 5c2925383647dda6edb7c5c63e53b10157c144a4e6b7724e38386d4acaa77a6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPH_JACK.ANS by sephiroth (uprise08); released in uprise08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: svenne jao
 # SAUCE Author: sephiroth
 # SAUCE Date: 19980831
@@ -19,7 +19,7 @@ Write-Host '
 [1;32;42m█[0;1;33;42m█[0;1;37;42m█[0;1;32;42m██▀▀▀▀▀[0;32m██[0;1;32;42m░[0;32m█████████████▀[0;30;47m██████████████████████[0;30;42m▓[0;32;40m▀█████████████████████████████[0m
 [1;32;42m█[0;1;37;42m█[0;1;32;42m█[0;32m████████████████████▀▀[0;30;47m████▀▀▀▓▓█████████████████[0;32;40m▐████████████████████████████[0m
 [1;32;42m██[0;32m██████████████████▀▀[0;30;47m█▓▀▀▀[0;37;40m██[0;1;37;47m [0;1;30;47m░[0;30;47m░░░▀█████████████████[0;32;40m████████████████████████████[0m
-[1;32;42m█▓░[0;32m█[0;30;42mIn case that[0;32;40m████▄[0;30;47m█▄░ [0;37;40m████[0;1;37;47m  [0;1;30;47m░░[0;30;47m▄██▓▓██████████████[0;32;40m▐██[0;30;42mand shit...            [0;32;40m██[0m
+[1;32;42m█▓░[0;32m█[0;30;42m            [0;32;40m████▄[0;30;47m█▄░ [0;37;40m████[0;1;37;47m  [0;1;30;47m░░[0;30;47m▄██▓▓██████████████[0;32;40m▐██[0;30;42m                       [0;32;40m██[0m
 [1;32;42m█░[0;32m█[0;30;42mthere is some of[0;32;40m███[0;30;47m██▄ [0;37;40m████[0;1;37;47m  [0;30;47m▄▀▀░░░▀▀█████████████[0;32;40m██[0;30;42mAnyway.. feel free to[0;32;40m████[0m
 [1;32;42m█[0;32m██[0;30;42myou out there[0;32;40m██████▌[0;30;47m█▀▀ [0;37;40m████[0;1;37;47m [0m████████[30;47m▐████████████[0;30;42m░[0;32;40m█[0;30;42muse this as a matrix[0;32;40m█████[0m
 [1;32;42m█[0;32m██[0;30;42mwho have as bad [0;32;40m████[0;30;47m█ [0;37;40m███[0;1;37;47m  [0m██████[1;30;47m░░░░[0;30;47m████████████[0;30;42m▓░[0;32;40m█[0;30;42mor something[0;32;40m█████████████[0m

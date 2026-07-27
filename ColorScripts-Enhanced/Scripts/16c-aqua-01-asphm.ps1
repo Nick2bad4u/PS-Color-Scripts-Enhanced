@@ -5,7 +5,7 @@
 # Source SHA-256: 3411cfc02b58afdfc5bc606cdda3463039cc85f70a4bbb3322647374e01d72c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASPHM!.ANS by Asphynx + Mice (aqua-01); released in aqua-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: affils for you
 # SAUCE Author: mice ^ asphynx
 # SAUCE Date: 19970907
@@ -25,10 +25,9 @@ Write-Host '
 [32m     [0;35mS[0;1;35m$[0;1;35;45m$[0;35m$$$$ [0;32m"``[0;35m,yy[0;1;35myS$$$$$$$S[0;35msyy$[0;1;35m$$$$$$$y[0;35myyS$$y,[0;32m`"²**d²``[0;35m,$[0;1;35m$$$$yyy[0;1;35;45m$[0;35m''[0;1;33m,$[0;1;32;42m$[0;1;32;40m$''[0m
 [1m     [0;35ml[0;1;35m$²²²$$$4[0;35m$$$$$$SSS╧╧╧²²²²²²"""""```""""""²²²²²╧╧╧╧SSSSSS$[0;1;35m$[0;1;35;45m$[0;35m$$[0;32m''[0;1;33m,[0;32m$[0;1;32m$$[0;32m''[0m
 [1;37m     [0;35m:$[0;1;35myyy$[0;35m╧²"`                                              `"[0;1;35m²[0;35m╧ [0;32m<$$░'' m![0m
-[1;37m   [0;35m   $[0;1;35m$[0;1;35;45m$[0;35m$''       joint made by mice and asphynx                  [0;32m`"``[0m
+[1;37m   [0;35m    [0;1;35m [0;1;35;45m [0;35m                                                         [0;32m    [0m
 [1;37m   [0;35m   l[0;1;35m$[0;1;35;45m$[0;35m([0m
-[1;37m   [0;35m   :$[0;1;35m$[0;35m$,[0;37m          [0;35m- mice basic out lines[0m
-[1;37m   [0;35m    `$[0;1;35m$[0;1;35;45m$[0;35my,_  .[0;37m    [0;35m- asphynx colouring and backrounds[0m
+[1;37m   [0;35m     [0;1;35m [0;35m  [0;37m          [0;35m                      [0m
+[1;37m   [0;35m      [0;1;35m [0;1;35;45m [0;35m      [0;37m    [0;35m                                  [0m
 [1;37m   [0;35m      `"²$$$ii::[0m
-[1;37m   [0;35m             ::[0m
-[37m [0m'
+[1;37m   [0;35m             ::[0m'

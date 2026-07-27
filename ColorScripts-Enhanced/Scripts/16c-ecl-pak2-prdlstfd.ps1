@@ -5,7 +5,7 @@
 # Source SHA-256: 9a95203dd79a5553c4269ac910d08be963a69173efb98d5a57a56ef863a59521
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PRDLSTFD.ANS by President + Delusion (ecolove^fade); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the first degree logo
 # SAUCE Author: president & delusion
 # SAUCE Group: ecolove^fade
@@ -35,5 +35,4 @@ Write-Host '
  [1;34m|[0;1;30m$[0;1;31m [0;31m;$[0;1;31m$.[0;1;30m`²²''[0;31m.$[0;1;31m$Y[0;31mY$[0;1;31m$²╘**╛²°''[0;1;30m..[0;31m`°[0;1;31m²╘**[0;31m╛[0;1;31m²$$Y[0;31mY[0;1;31m$$ [0;1;30m$$$$$$s[0;1;31m [0;31mY[0;1;31m$$²╘**[0;31m╛[0;1;31m²°'' [0;31mY[0;1;31m$$²╘**[0;31m╛[0;1;31m²°'' [0;1;30m.$[0;34ml[0m
 [37m [0;1;34m|[0;1;30m$[0;1;31m [0;31m╚[0;1;31m╩╩╩╘**[0;31m╛[0;1;31m²°''[0;1;30mdb[0;1;31m`°²═ ·[0;31m*²''[0;1;30m.$$.[0;31m`[0;1;31m *s *²°''[0;1;30m..[0;1;31m`° [0;1;30m$$$$$$$b[0;1;31m `°²* ·[0;31m*²''[0;1;30m.b[0;1;31m `°²* ·*[0;31m²''[0;1;31m [0;1;30md$$[0;34m|[0m
 [37m [0;1;34m;[0;1;30m$b╦╦╦╦╦╥╥╦╦s@$$@s╦╦╥╥╦╦%$$$$%╦╦╥╥╦╦%$$$$%@$$$$$$$$$$$╦╦╥╥╦╦%@$$@%╦╦╥╥╦╦%@$$$[0;34m;[0m
-[37m [0;1;34m²[0;34m²²²²[0;1;30m²²[0;34m²²²²²[0;1;30m²²²²²²²²²²²²²[0;34m²²²[0;1;30m²²²²²²[0;34m²²²²²²²²²²²²²²²²²[0;1;30m²²²²[0;34m²²²²²[0;1;30m²²²²²²²[0;34m²[0;1;30m²²²[0;34m²²²²[0;1;30m²[0;34m²[0;1;30m²[0m
-                 [31mjoint by president[0;37m [0;1;31m[ansi] [0;31mand delusion[0;37m [0;1;31m[ascii][0m'
+[37m [0;1;34m²[0;34m²²²²[0;1;30m²²[0;34m²²²²²[0;1;30m²²²²²²²²²²²²²[0;34m²²²[0;1;30m²²²²²²[0;34m²²²²²²²²²²²²²²²²²[0;1;30m²²²²[0;34m²²²²²[0;1;30m²²²²²²²[0;34m²[0;1;30m²²²[0;34m²²²²[0;1;30m²[0;34m²[0;1;30m²[0m'

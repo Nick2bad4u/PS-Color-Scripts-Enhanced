@@ -5,7 +5,7 @@
 # Source SHA-256: f2c29aa04dde49eea3c8d0c5a7a37c463eb12a6b27ff2592ebb8ee93ce8c6ffc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-ESNC1.ANS by Shatter Shot (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Essence
 # SAUCE Author: Shatter Shot
 # SAUCE Group: Shiver
@@ -61,7 +61,4 @@ Write-Host '
 ▐███▌      ░        ████         ████ ▐███▌      ░  ████  █ ▐███▌░  ▐███▌
  ████   ░  ▒   ░   ▐███▌     ░  ▐███▌  ████    ░ ▒  ████  █  ████▒   ████   ░  ▒
   ▀███▄ ▒  ▓   ▒   ████      ▒  ████    ▀███▄  ▒ ▓  ▐███  █   ▀██▓▄   ▀███▄ ▒  ▓
-    ▀▀██▓▄▀  ▀▄▓▄▄███▀    ▀▄▄▓▄███▀       ▀▀██▄▓▀    ▀██  █     ▀▀██▄▀  ▀▀██▓▄▀
-                                                                   archangel·aim
-      [1mE[0mssence - Sysop: J-Smoove - 3i4.524.6796 - NuP: LUCID DREA[1mM[0m
-            [1mA[0miM Member Board - ENMiTY WhQ - RpM Member Boar[1md[0m'
+    ▀▀██▓▄▀  ▀▄▓▄▄███▀    ▀▄▄▓▄███▀       ▀▀██▄▓▀    ▀██  █     ▀▀██▄▀  ▀▀██▓▄▀[0m'

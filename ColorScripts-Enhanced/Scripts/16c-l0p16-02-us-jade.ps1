@@ -5,7 +5,7 @@
 # Source SHA-256: 5117e8d56b41b766348d9572388cad32267ba9dded418e060e72540f2ec6ea4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-JADE.ANS by Simonking + Ize (l0p16_02); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -30,7 +30,7 @@ Write-Host '
        [1;36;43m [0;1;30;43m▀▀▀▀[0;33m█▄[0m                   [36m [0;37m  [0;33m▐█[0;1;30;43m██[0;1;30;40m▓▓[0;33m▌[0m
        [33m░░░░░[0m                        [33m▀▀▀▀▀▀▀[0m
 
-            [1;34myou can find the original ascii version in Lure15[0m
+            [1;34m                                                 [0m
 
 
 

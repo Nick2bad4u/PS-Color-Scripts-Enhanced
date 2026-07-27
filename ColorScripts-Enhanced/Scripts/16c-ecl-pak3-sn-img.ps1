@@ -5,7 +5,7 @@
 # Source SHA-256: 35272a33837b4e864690201b7a44305bbc2217f06dab5d1c7f4184c6ddf6ffa3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN!IMG.ANS by Snowball (Ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo for Imagine...
 # SAUCE Author: Snowball
 # SAUCE Group: Ecolove
@@ -35,4 +35,4 @@ Write-Host '
                   [33m▐[0;1;30;43m░▓[0;1;30;40m▄██[0;1;30;43m█[0;1;30;40m██▄[0m  [1;30m▀[0m▀[1;30;47m▄[0m█[1;30;47m ░░[0m▀  [1;30m▄██[0;1;30;43m█[0;1;30;40m██[0;1;30;43m▓▒░[0m
                   [33m▀[0;1;30;43m░▒▓[0;1;30;40m██[0;1;30;43m▄[0;1;30;40m█▌▀▀█▄[0m  ▄[1m▄▄▄▄[0m [1;30m▀▀▐███▄[0;1;30;43m▓░[0;33m▌[0m   [1;30mThe little rabbit[0m
                   [1;30m   [0;33m▀[0;1;30m▀▀▀▀▀▀[0m    [1;47m░▓[0;1;40m▀[0m▐[1;47m▒▓[0;1;40m▌[0m  [1;30m▀▀▀▀▀[0;33m▀[0m    [37m [0;1;30mlooks a bit like [0m
-                                ▀[1m▀[0m ▀[1m▀▀[0m              [1;30mgood old [0mEd de Goeij[0m'
+                                ▀[1m▀[0m ▀[1m▀▀[0m              [1;30m         [0m           [0m'

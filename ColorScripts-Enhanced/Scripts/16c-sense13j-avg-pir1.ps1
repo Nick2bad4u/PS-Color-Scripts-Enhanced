@@ -5,7 +5,7 @@
 # Source SHA-256: aaf628fa65b707d434b914a180939c99b9b728802be0436433c86732e0a23f3a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-PIR1.ANS by Avenging Angel (sense13j); released in sense13j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -29,9 +29,9 @@ Write-Host '
 [1;30;42m█[0;1;30;47m▓▄[0m▀[1;30m▀[0m  [1;30m▀▀▄[0m  ▒▒▒                                                       [1;30m▀▀▀[0;1;30;47m▓▓[0;1;30;40m▄[0m
           [1;30m ▄[0m ░░░  [1;30mr o h a n[0m   [1;30m-  m a i n z[0m                                 [1;30m▀▀▄[0m
 [1;30m░░[0m                                                                             [1;30m▄[0m
-[1;30m▒▒[0m    [1;30mx[0m [1;30mcommands[0m         [1;30mx[0m [1;30mcommands[0m         [1;30mx commands[0m         [1;30mx commands[0m     [1;30m█[0;1;30;47m█[0m
-[1;30;40m▓▓[0m    [1;30mx[0m [1;30mcommands[0m         [1;30mx[0m [1;30mcommands[0m         [1;30mx[0m [1;30mcommands[0m         [1;30mx[0m [1;30mcommands[0m     [1;30m██[0m
-[1;30;47m▓▓[0m    [1;30mx[0m [1;30mcommands[0m         [1;30mx[0m [1;30mcommands[0m         [1;30mx[0m [1;30mcommands[0m         [1;30mx[0m [1;30mcommands[0m     [1;30m██[0m
-[1;30m██[0m    [1;30mx[0m [1;30mcommands[0m         [1;30mx[0m [1;30mcommands[0m         [1;30mx[0m [1;30mcommands[0m         [1;30mx[0m [1;30mcommands[0m     [1;30m██[0m
+[1;30m▒▒[0m    [1;30m [0m [1;30m        [0m         [1;30m [0m [1;30m        [0m         [1;30m          [0m         [1;30m          [0m     [1;30m█[0;1;30;47m█[0m
+[1;30;40m▓▓[0m    [1;30m [0m [1;30m        [0m         [1;30m [0m [1;30m        [0m         [1;30m [0m [1;30m        [0m         [1;30m [0m [1;30m        [0m     [1;30m██[0m
+[1;30;47m▓▓[0m    [1;30m [0m [1;30m        [0m         [1;30m [0m [1;30m        [0m         [1;30m [0m [1;30m        [0m         [1;30m [0m [1;30m        [0m     [1;30m██[0m
+[1;30m██[0m    [1;30m [0m [1;30m        [0m         [1;30m [0m [1;30m        [0m         [1;30m [0m [1;30m        [0m         [1;30m [0m [1;30m        [0m     [1;30m██[0m
 [1;30m██[0m                                                                            [1;30;47m▓▓[0m
 [1;30;40m▀██▒[0m [1;30m [0;1;37m99 [0mmin left[1m: [0m                                                         [1;30m▒█[0;1;30;47m▄[0;1;30;40m▀[0m'

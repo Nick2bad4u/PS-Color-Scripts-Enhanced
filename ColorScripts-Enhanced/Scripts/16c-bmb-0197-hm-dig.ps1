@@ -5,7 +5,7 @@
 # Source SHA-256: 4677fc6c032471b1b1555e55594ee16feb7a2b259ab35b930f0129ee470b669e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HM-DIG.ANS by head mOnk! (Bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: digital mOtion!
 # SAUCE Author: head mOnk!
 # SAUCE Group: Bamboosh
@@ -56,8 +56,6 @@ Write-Host '
 [35m [0;37m  [0;35m██████████[0;37m [0;35m█[0;37m [0;35m█[0;37m [0;35m█████████▄█[0;32m [0;35m███████▄█[0;32m [0;35m▄█████████▄[0;37m [0;35m█████████▄█[0;37m [0;35m██████████[0;37m [0;35m█[0m
               [35m█[0m        [32m  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;32m [0m
               [35m█[0m            [32m▀▀▀▀▀████████████▀▀▀▀▀[0m
-           [37m [0;35m ▀█▀ [0m                                                  [35m[[0;32mhead m[0;35mO[0;32mnk[0;35m][0m
+           [37m [0;35m ▀█▀ [0m                                                  [35m [0;32m      [0;35m [0;32m  [0;35m [0m
 
-[1;30m--[0m
-[1;30mhoho..this sucks! the font is bad the background is bad![0m
-[1;30mbut...I can''t do better! or?!?[0m'
+[1;30m--[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 78c9a80dfd599cd1f7c9380cca04bc2e850e3def2fe9a08d5b91190c30ccf751
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-LOGO1.ANS by trinity (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logocluster no#1
 # SAUCE Author: trinity
 # SAUCE Group: phat studios '97
@@ -25,14 +25,14 @@ Write-Host '
     [35;40m▀[0;35;46m███[0;35;40m▄▄▄▄▄▄▀▀[0;35;46m█[0;1;35;45m░[0;35m█▄[0;37m  [0;35m▀▀▀▓▓▓▀░▀██[0;1;35;45m▄▓▀[0;35m█▀░░░▀[0;1;35;45m░░[0;35m▀▀▄▄▓░░▄▄██▀▀▀[0;37m   [0;35m▄▄▄▄▄▄▄▄▄▄██[0;1;30;45m░[0;35m█▀▓[0m
       [37m    [0;35;46m█[0;1;35;45m▀▓[0;35m▌[0m                  [35m▀▀▀▀[0m         [35m▀▀[0;37m   [0;35m▄▀░░░[0;37m      [0;35m▐[0;1;35;45m▓█▌[0m
           [35m▐▓▀▀[0;37m     [0;1;34m                            [0m             [35m▀▀▀▄▄[0m
-                         [35mlogocluster numero uno![0m
+                         [35m                       [0m
 
                              [35m     [0m
 
 
 
 [1;30m--[0;31m entry for go compo #2 [0;1;30m-------------------------------------------------------[0m
-   [31mmade the 5th place [0m
+   [31m                   [0m
 
             [1;36ma r t i f i c i a l[0m              [1;35m    [0m           [31m      [0m   [31m▄▄[0m
                                       [35m      [0;1;35m  [0;35m▄[0;1;35m▄█[0;1;35;45m▄▓▄[0;35m▄▄▄▄[0;36m  [0;35m   [0;37m [0;31m ▄▄▄▄█▀▀[0m
@@ -58,7 +58,7 @@ Write-Host '
 
 
 [1;30m----[0;31m intro ansi for jd [0;1;30m---------------------------------------------------------[0m
-     [31mrequested by joshija[0m
+     [31m                    [0m
 
                [31m▐▌[0m         [32m░░[0m
              [31m ▄██▄▄▄▄[0m     [32m▓▓▄▄▄▄▄[0m                 [1;30m       [0m

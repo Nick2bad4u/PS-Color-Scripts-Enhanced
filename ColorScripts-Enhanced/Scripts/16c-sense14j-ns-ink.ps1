@@ -5,7 +5,7 @@
 # Source SHA-256: 8c003629d06df4bc25249e01190a96ad390ae52aad8cace2daa212efc60ff2d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NS-INK.ANS by ansichrist (senseimagery); released in sense14j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ink
 # SAUCE Author: ansichrist
 # SAUCE Group: senseimagery
@@ -38,6 +38,4 @@ Write-Host '
 [34m   ▐[0;36;44m░▓█[0;1;36;46m▄▄█████▄[0;36;44m▄[0;36;40m▄[0;34;40m▄ [0;31;40m░░[0;32;40m [0;31;40m▄[0;1;31;47m▄[0;1;31;40m▓[0;31m▄[0;32m [0;31m▄[0;1;31m▄[0m▄[1;31m▄[0;31m▄[0;32m  [0;37m▀▀[0;1;30m▀▓▓[0;32m   ▐[0;1;32;42m░░[0;1;30;42m░░▓[0;32m [0;37m▄[0;1;37;47m██████[0;1;30;40m▐[0;1;30;47m▓▒[0;1;30;40m  [0m [1;37;47m▓▓▒▒[0;1;30;40m [0;1;30;47m▓[0;1;37;40m▒[0;1;30;47m▄[0;1;30;40m▀[0m [1;37m▓[0m [1;30;47m     ░[0m
 [1;34;44m▒░[0;34m █[0;36;44m▓[0;1;36;46m▄[0;1;36;47m█[0;1;37;40m██[0;1;36;47m█[0;1;36;46m██▓▒░░[0;1;36;40m▒▒▒[0;36;44m▄[0;34;40m▄[0;32;40m  [0;1;31;40m░░[0;31m▀[0;1;31m▀▀▀▀▀[0;31m▀▓[0;32m [0;31m░░░[0m      [32m▀▀[0;1;30m▀▓▓▄[0;32m [0;37m▀[0;1;37;47m▀█▓▓█[0;1;30;40m▐[0m▒[1;30;47m▓[0;1;30;40m  [0m ▀[1;37;47m▀▓▓[0;1;30;40m [0m▒[1;30m▀[0m ▄[1;37;47m▄▓[0m [1;30;47m [0;1;37;40m▒▒▒[0;1;30;47m▄[0;1;30;40m▀[0m
 [1;34;44m░[0;34m▌▐[0;36;44m▐[0;1;36;46m▐█[0;1;36;47m█▓▓█[0;1;36;46m█▓▒░[0;36;44m███▀[0;34;40m▀ ▄[0;36;40m▄[0;36;44m▄[0;1;36;46m░▒▓▓▒░[0;1;36;40m▒[0;36;44m▄[0;36;40m▄[0;34;40m▄▄ ▄[0m      [34;40m  ▄▄▄▄▄▄[0;32;40m  [0;37;40m▀[0;1;37;47m▒▒█[0;1;30;40m▐[0m▒[1;30m▀[0m     ▀[1;37;47m▀[0m [1;30m   [0m ▀[1;37;47m█[0m▀[1;30;47m░[0;1;37;40m▒[0;1;30;47m▄[0;1;30;40m▀[0m
-[1;34;40m▒[0;34m▌▐[0;36;44m█[0;1;36;40m▓▓[0;1;36;46m████▓▒░[0;36;44m██▀[0;34;40m▀ ▄[0;36;44m▄[0;1;36;40m▒[0;1;36;46m░▒▓[0;1;36;40m▓[0;1;36;47m██[0;1;36;46m▓▒░[0;36;44m█▓▒░[0;34;40m▌▐[0;36;44m▓[0;1;36;46m▄░░[0;36;44m▓▒░[0;34;40m█▄▀█[0;36;44m░░░[0;1;34;40m▒▒[0;34m▄[0;37m ▀[0;1;37;47m▀[0;1;30;40m▀[0m [1;33mink.zapto.org[0m ▀▓[1;30;47m▓[0;1;30;40m▀[0m
-
-[1;30;40mthis is why i don''t draw original characters. my originals suck...[0m'
+[1;34;40m▒[0;34m▌▐[0;36;44m█[0;1;36;40m▓▓[0;1;36;46m████▓▒░[0;36;44m██▀[0;34;40m▀ ▄[0;36;44m▄[0;1;36;40m▒[0;1;36;46m░▒▓[0;1;36;40m▓[0;1;36;47m██[0;1;36;46m▓▒░[0;36;44m█▓▒░[0;34;40m▌▐[0;36;44m▓[0;1;36;46m▄░░[0;36;44m▓▒░[0;34;40m█▄▀█[0;36;44m░░░[0;1;34;40m▒▒[0;34m▄[0;37m ▀[0;1;37;47m▀[0;1;30;40m▀[0m [1;33mink.zapto.org[0m ▀▓[1;30;47m▓[0;1;30;40m▀[0m'

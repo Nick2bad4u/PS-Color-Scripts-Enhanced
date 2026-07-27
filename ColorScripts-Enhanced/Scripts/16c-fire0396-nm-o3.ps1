@@ -5,7 +5,7 @@
 # Source SHA-256: d977b8a842c0d35810bd0a4b1c9c3716cca3461886a7fe2f2e633256b8287f22
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NM-O3.ANS by Numb (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Out of Order
 # SAUCE Author: Numb
 # SAUCE Group: fire
@@ -35,6 +35,4 @@ Write-Host '
 [1;31m   [0m   [33m▄[0;1;31;43m▒▒▒▒▓▓▓[0;1;31;40m███  ▐[0;1;31;43m▓▓░[0;1;31;40m▌[0;1;31;43m▓▓▓██▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░[0;33m▀ ▄[0;1;31;43m░░░░░░░░░░░░░░░░░[0m
 [1;31m   [0m   [1;31m  [0;33m▀[0;1;31;43m▒▒▒▒▒▓▓▓▓[0;1;31;40m▄[0;1;31;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░[0;33m▀  ▄[0;1;31;43m░░░░░░░░░░░░░░░░░░[0m
 [1;31m     [0m    [1;31m  [0;33m▀[0;1;31;43m▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░[0;33m▀▀  ▄[0;1;31;43m░░░░░░░░░░░░░░░░░░░░[0m
-[1;31m              [0;33m▀▀▀▀██[0;1;31;43m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░[0;33m▀▀▀   ▄[0;1;31;43m░░░░░░░░░░░░░░░░░░░░nm[0m
-                                                                  out of order[0m
-'
+[1;31m              [0;33m▀▀▀▀██[0;1;31;43m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░[0;33m▀▀▀   ▄[0;1;31;43m░░░░░░░░░░░░░░░░░░░░nm[0m'

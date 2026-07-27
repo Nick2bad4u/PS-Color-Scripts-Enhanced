@@ -5,7 +5,7 @@
 # Source SHA-256: 4689fb239a32db4db0d3f06f0f8bbe8b4f962ceb4c32b71a830f1652d594b1ab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-LR1.ANS by Somms + Terminator2 (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Last Resort
 # SAUCE Author: Somms
 # SAUCE Group: ACiD Productions
@@ -60,8 +60,5 @@ Write-Host '
 [31m▐▌░    ▐[0;1;31;41m▀[0;31m▌[0m                   [1;37m2 [0mGi[1;30mgabytes On[0mli[1mne[0m                        [1;47m▒▓[0m   [31m▒▐▌[0;37m [0m
 [31m██[0m      [31m▀[0m                                                               [1;37m▀    [0;31m█▄[0;37m [0m
 [31m▐▀▌[0m     [31m■[0m                     [1;37mAf[0mfi[1;30mls o'' Pl[0men[1mty[0m                              [31m▐▓▌[0;37m [0m
-[31m ▄▓[0m      [30mA big nyah! to Shihear...ACiD ruined me? No, you ruined TRiBE.[0m     [31m▌▀[0m
-[31m  ▀▌[0m       [30mGreets and <g>rins to T2, Etl, WN, Khyron, SY, and TT. =)[0m       [31m▐▀[0m
-       [1;37mA[0mNSi by Somms(Excuse me, is this seat taken?) of AC[1mi[0mD Production[1ms[0m
-[1m   F[0mont royally fucked up by Terminator(Teaspoon Woman)2 of AC[1mi[0mD Production[1ms[0m
-[1m1[0m      9       f       u       c       k       i       n       g       9      [1m4[0m'
+[31m ▄▓[0m      [30m                                                              [0m     [31m▌▀[0m
+[31m  ▀▌[0m       [30m                                                         [0m       [31m▐▀[0m'

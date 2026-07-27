@@ -5,7 +5,7 @@
 # Source SHA-256: c21a689dd2022d9b42557b38947b3fe90fbc851efc1bf6d46d8811e4b0d9b46b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRS-SHD5.ANS by Crasher + Shadow (galza); released in buzina7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: broken eyes
 # SAUCE Author: shadow [buzined crs]
 # SAUCE Group: galza
@@ -39,11 +39,4 @@ Write-Host '
                                          [1;30m [0m             [1;30m│[0m            [1;30m      [0m
   [1;30m││││[0m                                                 [1;30m:[0m
                                                        [1;30m│[0m
-                                                       [1;30m│[0m
-
-
-
-
-
-                              [1;30moriginal by Shadow[0m
-                              [1;30mbuzined by Crasher[0m'
+                                                       [1;30m│[0m'

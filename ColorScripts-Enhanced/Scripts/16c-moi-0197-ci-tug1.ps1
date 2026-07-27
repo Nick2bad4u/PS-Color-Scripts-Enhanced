@@ -5,7 +5,7 @@
 # Source SHA-256: b59322fc44cd4a9e55490a53a335e16999a1a1682890f265b89abdacdfb8e484
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CI-TUG1.ANS by Civid (moi-0197); released in moi-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -28,7 +28,4 @@ Write-Host '
 [1;34;40m ▀▀▀▀▀▀▀███   [0;1;34;44m▓▓[0;1;34;40m█[0m         [1;34;40m▀▀▀▀▀▀▀▀▀[0m     [1;34;40m▀▀[0;1;34;44m▓[0;1;34;40m████▀▀[0m      [34m▀▀[0;34;44m [0m    [1;34;40m▀▀▀ ███▄▄▄▄▄███[0m
 [1;34;40m▄▄[0m     [1;34;40m▄███   [0;1;34;44m▓▓▓[0;1;34;40m█[0m                                                 [1;34;40m▀▀▀▀▀▀▀▀▀[0m
 [1;34;40m▀███▄▄▄███[0m     [1;34;40m▀▀▀▀[0m
-[1;34;40m   ▀▀▀▀▀▀[0m
-                       [1;34;40mthis board better go back up... :)[0m
-
-                          [1;34;40m+o the undergod and tanis[0m'
+[1;34;40m   ▀▀▀▀▀▀[0m'

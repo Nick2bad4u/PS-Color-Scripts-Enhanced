@@ -5,7 +5,7 @@
 # Source SHA-256: 48056eed0c1462c10b9165af0f44f6e958bc64321cbd411876e3e13592a42ca0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OUT-KMS.ANS by Sandy Chidester (out-0597); released in out-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -30,5 +30,4 @@ Write-Host '
 [31m██[0;1;33;41m▄▀[0;31m█[0;1;33;41m█▄[0;31m████[0;1;31;41m▄[0;33;41m█[0;31m██████▀    ▄[0m                         [31m▄[0;1;33m▄[0;31m██▀[0m     [31m█[0;1;33;41m██▀[0;31m██████▄███[0;1;33;41m█▄▀[0;31m██[0;1;33m█[0m
 [1;33;41m███▀[0;31m██▄[0;1;33;41m█[0;31m██████▄▀[0m       [31m▄▀[0;1;33;41m▄[0;1;31;43m▄[0;1;30;43m█[0m                     [31m█[0;1;33;43m█▀[0;31m██    ▄█████████[0;1;33;41m▄▀[0;31m██[0;1;33;41m██▄▀██[0;1;33m▀[0m
 [1;33;41m█▄▀[0;31;43m██[0;1;33;41m█▀[0;31m███████▀   ▄ ▄▀[0;1;33;41m █[0;1;33m███[0;1;33;43m▄[0;1;30;43m▀[0;1;30m▄[0m          [31m▄▄▄▄▄[0m     [31m▀▀██████[0;1;33;41m▄[0;31m█[0;1;33;41m█▄▀[0;31m██████[0;1;33;41m▀█▄[0;31m█[0;1;33;41m▄██[0m
-[1;33;41m▀[0;31;43m███[0;1;33;41m▄▀[0;33;43m█[0;1;31;43m▄[0;1;33;43m█[0;1;31;43m▄[0;31m▄███   ▄█[0;31;41m█  [0;1;33m█[0;1;33;41m█ ▀███[0;1;33;43m▄[0;1;33m▄[0;1;30m▄▄[0m      [1;33;41m [0;1;33m████[0;31m██▄[0m      [31m▀██████[0;1;33;41m▀[0;31m█[0;1;33;41m▄▄█[0;31m███[0;1;33;41m▄█[0;33;41m█[0;1;33;41m▄[0;1;33m▀▀[0m
-             [1;31mWeb Site at: http://members.aol.com/mdgpubs/index.htm[0m'
+[1;33;41m▀[0;31;43m███[0;1;33;41m▄▀[0;33;43m█[0;1;31;43m▄[0;1;33;43m█[0;1;31;43m▄[0;31m▄███   ▄█[0;31;41m█  [0;1;33m█[0;1;33;41m█ ▀███[0;1;33;43m▄[0;1;33m▄[0;1;30m▄▄[0m      [1;33;41m [0;1;33m████[0;31m██▄[0m      [31m▀██████[0;1;33;41m▀[0;31m█[0;1;33;41m▄▄█[0;31m███[0;1;33;41m▄█[0;33;41m█[0;1;33;41m▄[0;1;33m▀▀[0m'

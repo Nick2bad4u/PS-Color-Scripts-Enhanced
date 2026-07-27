@@ -5,7 +5,7 @@
 # Source SHA-256: 4dfd4d23e2cc4a32927b9cd1058523c410537f5675d518b62134c9f5f564d09d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-FIRE.ANS by Slackzor (Hallucigenia); released in hal0299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fire
 # SAUCE Author: Slackzor
 # SAUCE Group: Hallucigenia
@@ -43,19 +43,4 @@ Write-Host '
 
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
-└► excuse the randomly shaded slackzorfest background =)
-
-   this ansi is a crappy tribute to your friend and mine, vade79.. so i''d like.
-   to take a minute to tell a little story..
-
-   in my town there''s this kid named justin hanners, and around the time i
-   first discovered irc, he was going through a beavis and butthead inspired
-   "pyro" phase.. you''ve seen these kids, the ''fire fire fire is cool'' kind of
-   guys.. anyway.. one day while my friend and i were making fun of this on irc
-   i joined #fire unaware of the fr00tful art produced within.. the only other
-   idler that day was the bot coffee, coffee pinged out, and like any irc
-   newbie, i cycled to get ops.. lo and behold in a few minutes vade79 showed
-   up.. he thought i''d taken #fire intentionally.. so being the erekt winnuker
-   he was (and probably still is) he followed my to one of my channels, and
-   took that, and after talking to him (some months later) realized how great
-   of a guy he is,  i love you vadey p00!@#  sz(hal)[0m'
+└►                                                      [0m'

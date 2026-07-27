@@ -5,12 +5,12 @@
 # Source SHA-256: 3a125200e60958def2e5bd87c9702668a7173dd3983883bed24be05b829829d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dy1-pen2.ans by Discyple (fgirls-2); released in fgirls-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
-THE TERRIFYING LEGACY OF [1mCRAB! [0mCRAB CRAB  [1;35m┌#S$$b,$$┌#S$$S%┐;$$$: $$ [0mCRAB CRAB C
+                         [1m      [0m           [1;35m┌        ┌      ┐         [0m           
                                          [1;35md$P^``^$$$$┘^``^┘$$$ $l $$S#┐.[0m
                                          [1;35m$$[0m      [35m$[0;1;35m$[0m       [1;35m:$$_$$:$$`^└Y$.[0m
                                          [35mY[0;1;35m$b,..  [0;35m$$[0m     [35m$$[0;1;35m$$$$$$l$$    $$ [0;1;37m![0m
@@ -37,26 +37,4 @@ THE TERRIFYING LEGACY OF [1mCRAB! [0mCRAB CRAB  [1;35m┌#S$$b,$$┌#S$$S%┐
 [1;32m`[0m     [33m░░[0m       [1;32m`    [0;34m`Y[0m              [34m`[0m            [34m''  [0;33mY[0;1;31m$$  [0;34m: [0;33ml[0;1;31m$$$P[0m     [34m`┘b$P[0m
                       [34m`[0m                              [1;31m`$  [0;34m'' [0;33m├[0;1;31m$$P[0m         [34m`   [0;33m░[0m
                                  [37m/\[0m                    [1;31m`   [0;33m$[0;1;31m$[0;33m''[0m
-                               [37mTHEY DO NOT HAVE[0m           [33m┘''[0m
-                                [37mWHAT THEY CALL[0m
-                              [37m''EMOTION''S OXYGEN''[0m
-                               [37mIN THE ATMOSPHERE[0m
-                                [37mARGGHHH[0m
-
-
-            [37mTHE CRAB IS FOILED YET AGAIN, IRONICALLY SO BY HIS OWN[0m
-            [37mFIENDISH DEVICES[0m
-
-            [37mTO BE CONTINUED[0m
-
-
-
-
-
-
-
-
-
-
-[1;37mBack by popular demand :)  But never quite the same.[0m
-[1;37mscott[0m'
+                               [37m                [0m           [33m┘ [0m'

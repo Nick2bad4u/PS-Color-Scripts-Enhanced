@@ -5,7 +5,7 @@
 # Source SHA-256: b34d1bb2ecde0d7c7af5bc151963832c21c1a419131513808f4fedb308422842
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-GOD.ANS by Silver Reaper (RAiD); released in raid1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Twilight of The Gods
 # SAUCE Author: Silver Reaper
 # SAUCE Group: RAiD
@@ -63,5 +63,4 @@ Write-Host '
 [1;37m██████████████████████▄▄[0;34m▀▀▀[0;1;37m▄▌[0;34m▐▌  ▐▌[0;1;37m▐████████▄▄▄▄█▄▄▄████▄▄▄▄████████████████████[0m
 [1;37m████████████████████████████▄[0;34m▀▄▄▀▀[0;1;37m▄█████████████████████████████████████████████[0m
 [1;37m██████████████████████████████▄▄████████████████████████████████████████████████[0m
-[1;37m  [0;1;30m─ ─ ─[0m─[1;30m─[0m─[1;30m─────[0m─[1;30m───[0m──[1m─[0m────[1m─[0m─[1m─[0m─[1m──[0m───[1m────────[0m─[1m─[0m──[1m─[0m─[1m─[0m─────[1;30m─[0m─[1;30m─[0m──[1;30m───[0m─[1;30m─[0m─ [1;30m──── ────  ─[0m
-..[1;30ms[0mi[1;30mlver reaper[0m..[1;30mraid[0m''[1;30m94[0m..[1;30mdid this[0m..[1;30msemi[0m-[1;30mokay ansi[0m..[1;30mpic[0m..[1;30mfont[0m..[1;30mall done by him[0m..[0m'
+[1;37m  [0;1;30m─ ─ ─[0m─[1;30m─[0m─[1;30m─────[0m─[1;30m───[0m──[1m─[0m────[1m─[0m─[1m─[0m─[1m──[0m───[1m────────[0m─[1m─[0m──[1m─[0m─[1m─[0m─────[1;30m─[0m─[1;30m─[0m──[1;30m───[0m─[1;30m─[0m─ [1;30m──── ────  ─[0m'

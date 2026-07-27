@@ -5,7 +5,7 @@
 # Source SHA-256: e60d686f62f3e0bfd67b81e7335ad062de9671b7eb6704459dddd869d5222326
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-TGM2.ANS by Trip (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Global Market
 # SAUCE Author: Trip
 # SAUCE Date: 19951106
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[31m [0;36m[[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][0m
+[31m [0;36m [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m [0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄[0m       [36m▄   [0;1;30m▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄  ▄▄   [0;36m▄[0m
 [1;30m█▄  [0;36m▄▄▄▄▄▄▄▄▐▄▄▄▄▄▄▄██[0;1;36;46m▄▄[0;36m███   ▄▄▄▄▄▄▐▄▄▄[0m         [36m▄▄▄▄[0;1;36;46m▄[0m    [36m▄▄▄▄▄▐▄▄▄   ▄▄▐▄▄▄▄[0;1;36;46m▄[0;36m██[0m
 [36m  ▄█[0;1;36;46m▀[0;36m███[0;1;36;46m░░[0;36m█████████[0;1;36;46m■▀████[0;36m█▌  █[0;1;36;46m█▀■[0;36m█████[0;1;36;46m▄[0;36m████████[0;1;36;46m■▀██▄█▀[0m   [36m█[0;1;36;46m▄██▀[0;36m███[0;1;36;46m▀■[0;36m▌ ████[0;1;36;46m■▀████[0;36m█[0m
@@ -30,11 +30,11 @@ Write-Host '
            [1;30m█  [0;36m▐[0;1;36;46m▐███▄███▀[0;36m█  ██[0;1;36;46m██▄▄■▀[0;36m███████████████[0;1;36;46m▀[0;36m█▌  █[0;1;36;46m▐████▄▄■[0;36m██  █[0;1;36;46m██▄▄■[0;36m██[0;1;36;46m▄█[0;36m█[0m
            [1;30m█  [0;1;36;46m▄▀▀▀[0;36m▀▀▐▀▀▀   ▐[0;1;36;46m■▀[0;36m█▀▀▀▐▀▀▀▀▀▀▀███▐█████▀  ▐█[0;1;36;46m▀[0;36m▀▀▀▀▀▀▐▀   ▐█▀▀▐▀▀▀▀▀[0m
 [1;30mtrip.thrust█▄ [0;36m▀[0m             [36m▀[0m                         [36m▀▌[0m            [36m▀[0m     [1;30m▄▄▄▄▄█[0m
-[1;30m [0;36m[[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][[0;1;36mtGM![0;36m][0m
-                               [36m┌ t[0;1;36mEE [0;36m- g[0;1;36mEE [0;36m- e[0;1;36mHM [0;36m┐[0m
-                              [36m┌  T[0;1;36mhe[0;36mG[0;1;36mlobal[0;36mM[0;1;36market  [0;36m┐[0m
-                         [36m┌ [0;1;36m2 Nodes · 28.8 USR Couriers [0;36m┐[0m
-                                [36m─ [0;1;36m2 Gigz online [0;36m─[0m
-                       [36m└ [0;1;36mKatzNet · File Not Found Distro [0;36m┘[0m
+[1;30m [0;36m [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m  [0;1;36m    [0;36m [0m
+                               [36m┌  [0;1;36m   [0;36m   [0;1;36m   [0;36m   [0;1;36m   [0;36m┐[0m
+                              [36m┌   [0;1;36m  [0;36m [0;1;36m     [0;36m [0;1;36m       [0;36m┐[0m
+                         [36m┌ [0;1;36m                            [0;36m┐[0m
+                                [36m─ [0;1;36m              [0;36m─[0m
+                       [36m└ [0;1;36m                                [0;36m┘[0m
                         [36m└  [0;1;36m6o2.991.7o42   6o2.991.1294 [0;36m┘[0m
-                         [36m└ [0;1;36mNUP: figger it out, tiger! [0;36m┘[0m'
+                         [36m└ [0;1;36m                           [0;36m┘[0m'

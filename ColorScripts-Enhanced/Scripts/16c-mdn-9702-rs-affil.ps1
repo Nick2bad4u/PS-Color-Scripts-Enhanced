@@ -5,7 +5,7 @@
 # Source SHA-256: 8510885723d55baf4569372f648a275c9e0bbcf5e99f90b248f7760e2e3b4a43
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-AFFIL.ANS by rorshack (Maiden Brazil); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 'affiliations' logo
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -16,9 +16,9 @@
 
 Write-Host '
                                                      [35m░[0m
-                    [31mthis [0;1;31mlogo[0;31m is for ▐[0;1;37;41mi[0;31m▌n[0;1;31ms[0;1;37me[0;31mrt, of ▐[0;1;37;41m p[0;31;45m▌[0;1;37;45mh[0;31;45m▐[0;1;37;41ma t [0;31m▌░[0;30;41m▓[0m
+                    [31m     [0;1;31m    [0;31m        ▐[0;1;37;41m [0;31m▌ [0;1;31m [0;1;37m [0;31m       ▐[0;1;37;41m  [0;31;45m▌[0;1;37;45m [0;31;45m▐[0;1;37;41m    [0;31m▌░[0;30;41m▓[0m
                                                      [35;40m░░[0m
-                               [1;31;40mrip t[0;1;37;40mh[0;1;31;40mis and !@[0;1;37;40m#[0;1;31;40m$%[0m
+                               [1;31;40m     [0;1;37;40m [0;1;31;40m         [0;1;37;40m [0;1;31;40m  [0m
 
        [1;30m░░[0m                [1;30m░░[0;1;30;42m░░[0;32m█[0m              [32m███[0m           [1;30m░░[0m [1;35mrs[0;1;30m<[0;35mm[0;1;37;45ma[0;35miden[0;1;30m>[0m [1;30m░░[0m
   [32m▀▀▀▀█[0;1;30;42m░░[0m [32m▄██▀▀███▄██▀▀[0;1;32;42m▀▀▀[0m [32m███[0;37m [0;1;32m▀▀▀▀[0;32m [0;1;32m▀[0;32m ▀▀██[0;1;30;42m░[0;1;30;40m░[0;1;30;42m░░[0;32m█▀ [0;1;32m▀▀▀[0m [32m▄██▀▀[0;1;30;42m░░[0;32m▄[0;37m [0;32m███▀▀██▄[0;37m [0;32m▄[0;1;30;42m░░[0;32m▀▀▀▀ [0m
@@ -31,6 +31,4 @@ Write-Host '
  [1;32m▀██▄▄███[0m [1;32m███[0m [35m█[0;1;35;45m█[0;35m█[0;37m [0;1;32m███[0m  [1;32m███[0m [1;32m███[0m [1;32m███[0m [1;32m▀██▄▄███[0m [1;32m▀██▄▄███[0m [1;32m▀██▄▄██▀[0m [1;32m███[0;32m  [0;1;32m███[0m [1;32m▀██▄▄███[0m
  [1;35m░[0;35m▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;35;45m█[0;35m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [37m  [0;35m▀█[0;1;35;45m▀▀▀[0;35m█[0;1;35;45m▀▀ ▀[0;35m█[0;1;35;45m▀▀▀▀▀▀▀▀▀▀▀▀[0;35m██[0;1;35;45m▀[0;35m██[0;1;35;45m▀[0;35m█[0;1;35;45m▀▀▀[0;35m█[0;1;35;45m▀▀▀[0;35m█[0;1;35;45m▀▀[0;35m███[0;1;35;45m▀[0;35m█[0;1;35;45m░[0;35m█[0;1;35;45m▀▀▀▀▀▀[0;35m███[0;1;35;45m▀▀[0;35m█[0;1;35;45m▀[0;35m█[0;1;35;45m▀▀▀▀[0;35m██[0;1;35;45m▀▀[0;35m█[0;1;35;45m▀[0;35m█[0;1;35;45m▀▀[0;35m█▀[0m
-                                               [35m░[0m
-
-                   [37m"momma help, [0;1;37mda[0md[1md[0my has become old school!"[0m'
+                                               [35m░[0m'

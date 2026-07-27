@@ -5,7 +5,7 @@
 # Source SHA-256: 77ab6e37272d254215667930f6adcd9b1574097dab7efa3c6b4cda6c4defca5e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MK-AVGA1.ANS by Modeus Khahn (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Avga Logo
 # SAUCE Author: Modeus Khahn
 # SAUCE Group: Blade Productions
@@ -34,7 +34,4 @@ Write-Host '
 [36m██[0;1;36;46m░[0;36m████████████████[0;1;35;46m░[0;36m███[0;1;36;46m░[0;36m███[0;36;47m█[0;36;40m██[0;1;36;46m░[0;36m███[0;1;36;46m░[0;36m██ [0;1;30m░    [0;33m░░   [0;35m▀▀▀█[0;1;35;45m░░[0;35m██[0;35;45m [0;1;37;45m░[0;35m████[0;35;45m [0;37;40m▓[0;35;40m█[0;1;35;45m░▒░ [0;35m█▀ ░ [0;1;30m▄▄▓█[0;1;30;47m▒[0;1;30;40m▓[0m
 [36m██[0;1;36;46m░[0;36m████[0;1;36;46m░[0;36m███████████[0;36;46m [0;36;40m███[0;1;36;46m▒ [0;36m███████████▀   [0;1;30m▄▓[0m     [33m░ [0;35m░ ▀███▒▀██▓█[0;1;35;45m░[0;35m██▀[0;1;35;45m▒[0;35m██▀ ▄░ [0;1;30m▒█[0;1;30;47m▓█▓▓[0;1;30;40m█[0m
 [36m████████████████████████████████████ [0;1;30m░▄[0;1;30;47m█▓[0;1;30;40m█▓▄▄░ ▄▄ [0;35m▀▄▄▄[0;1;35;45m░[0;35m▀▀▀▀▀▀▀█▀▀▀ ▄▄█▀[0;1;30m▄▄░[0;1;30;47m▓███[0;1;30;40m█░[0m
-[1;30;40m▄▄ ░▄ [0;1;30;46m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;30;46m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▒ [0;35m▀▀▀▀ ▀▀▓▄▄▄▓█▀▀ [0;1;30m▒▄▄▄▄ ▄[0;1;30;46m▓[0;1;30;40m▒▄▄[0m
-call [36mavg[0;1;36ma [0mat [36m9[0;1;36mO[0;36m4.387.474[0;1;36mO [0mto see more ansis like deez
-[1;30mansi pic by [0;35m:[0;1;35m: [0mmodeus khahn [1;30m<[0;1;35mb[0;35mlad[0;1;30me> ... .. .  .[0m
-this guy is playing the guitar on a rock i think....[0m'
+[1;30;40m▄▄ ░▄ [0;1;30;46m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;30;46m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▒ [0;35m▀▀▀▀ ▀▀▓▄▄▄▓█▀▀ [0;1;30m▒▄▄▄▄ ▄[0;1;30;46m▓[0;1;30;40m▒▄▄[0m'

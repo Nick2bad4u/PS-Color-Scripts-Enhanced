@@ -5,7 +5,7 @@
 # Source SHA-256: 15838a5c790e00b7080a46731a3d2be9c796d46df4a7652d758369d7d4c10c64
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-WCRY.ANS by Hunter (BLitZ); released in bli-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: War Cry
 # SAUCE Author: Hunter
 # SAUCE Group: BLitZ
@@ -54,5 +54,4 @@ Write-Host '
                    [31m░▓[0;1;31;41m▒▒▒[0m                   [31m░░▒[0;1;32m  [0;31m▓▓[0m
                                             [1;31m [0;31m░░▒▓[0m
 
-                                                                 [32m─┼┤unter 8∙94[0m
-                                                                     [1;30m([0;1;34mBL[0;34mit[0;1;34mZ[0;1;30m)[0m'
+                                                                 [32m─┼┤unter 8∙94[0m'

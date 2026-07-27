@@ -5,7 +5,7 @@
 # Source SHA-256: 07f1020e7a27bab50932c652bb733876c298a85137e82097c4453881d544f5f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_!GƒX!.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the g?x-hq's boot-up picture.
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
 [34;40m▓▓▓██[0;1;34;44m░░[0;34m█▄▄▄▄▄███▄▄▄▄▄▄▄[0;36m [0;1;36ms[0;36mUBDiV[0;30;46mi[0;36;40mSiON [0;1;36;40mo[0;30;46mƒ[0;36;40m [0;1;36;40mb[0;36m0|L [0;1;36m.[0;36m..[0m    [1;30m░░[0m
 
 
-[1;30m-----------------------------------------------------------------------------░░-[0m
-[1;30mthis screen is my personal boot-up picture... no opinion about that piece ov art[0m'
+[1;30m-----------------------------------------------------------------------------░░-[0m'

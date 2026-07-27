@@ -5,7 +5,7 @@
 # Source SHA-256: 3e0afb12dcb8d874ced362bd7a6e690a538080775872e1142331b0432d7c6897
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ID-SUCCO.ANS by Iodine (Shiver); released in shv-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Succotash
 # SAUCE Author: Iodine
 # SAUCE Group: Shiver
@@ -56,6 +56,4 @@ Write-Host '
 [1;30m   ▐▌▐▌   [0m░ [1;30m▄▀▀▄▄█▓▄[0m       [1;30m▐▌▐▌    ▐▌▐▌[0m     [1;30m▐▌▐▌  █▄▀▓[0m     [1;30m▐▀▄▀▄▀▄▀[0m     [1;30m▐ ▄▀[0m
 [1;30m   ▐ ▄▀ ▄▄██▀▀▀▀  ▀  ▀ ▄▓▄ ▐▓▄▀    ▐ ▄▀[0m     [1;30m▐▓▄▀  ▐█▌▐▌▄■ ▄▓▀ ▐▓▀[0m      [1;30m■▀▀[0m
 [1;30m   ▐▀▄▀▀▀▄▓▄[0m            [1;30m▀  ▀▀[0m     [1;30m▄▓▀[0m      [1;30m■▀▀    ▐▀ ▄▀ ■▀  ▄ ▀[0m
-          [1;30m▀[0m                        [1;30m▀[0m             [1;30m▄▀▀[0m
-[1;30m succotash system spud.  rad man^acid flounder   ansi stud.  iodine^acid/shv.[0m
-[1m [0;1;30mdamn good setup![0;1;37m                                                               [0m'
+          [1;30m▀[0m                        [1;30m▀[0m             [1;30m▄▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0cfc6ef3784787593e02d43951a253280943281dc8ce5899547ebb3ca5062055
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-RPR01.ANS by The Reaper (Purg Productions); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: The Reaper
 # SAUCE Group: Purg Productions
 # SAUCE Date: 19990901
@@ -54,10 +54,4 @@ Write-Host '
                            [36;40m▄[0;37;40m  [0m                    [37;40m    [0;36;40m▄[0;37;40m [0;36;40m▀[0;30;46m░░▒▒[0;36;40m░[0;30;46m▓[0;37;40m [0m
 [37;40m [0;36;40m                           [0;37;40m [0;36;40m░[0;30;46m▓▒▒░░  [0;1;37;46mrapier[0;30;46m  ░░▒▒[0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m░[0m
 
-[37;40m-------[0m
-[37;40mfor keerus and his mag rapier[0m
-
-[37;40moldschool is the only school.[0m   [37;40m [0m                                [37;40m   tee_are/purg[0m
-[37;40mall original as usual.[0m
-
-[37;40mgreets:  contributing active artists in the scene.[0m'
+[37;40m-------[0m'

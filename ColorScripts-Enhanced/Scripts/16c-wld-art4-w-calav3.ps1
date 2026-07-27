@@ -5,7 +5,7 @@
 # Source SHA-256: da6dc132bdc4de467bcfabf4736bd1e7fddad0295ca2fbed35cb52b5461f074c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: W-CALAV3.ANS by Wolfman-Circe (wld-art4); released in wld-art4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -53,9 +53,4 @@ Write-Host '
                         [1;30m▀[0;1;30;43m▄▓▓▓░                 ░▒▓█[0;1;30;40m▌[0m
                           [1;30m▀[0;1;30;43m▄▄▒▒▒░░░░░░░░░░░░░░░▒▓▓█[0m
                             [1;30m ▀[0;1;30;43m▄▄[0;33;43m█[0;1;30;43m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██[0m
-                            [1;30m [0m  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-
-
-                            [1;30mÆ[0mNS[1mI[0m [1mß[0m¥[1m:[0m
-                                     [1;30mΓ[0mh[1me[0m [1mW[0mol[1;30mƒ[0m [1;30mM[0mα[1mn [0;36m[W[0;1;36mi[0;1;37mL[0;1;36md[0;36mS][0m'
+                            [1;30m [0m  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

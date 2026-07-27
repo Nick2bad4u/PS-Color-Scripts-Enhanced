@@ -5,7 +5,7 @@
 # Source SHA-256: f7028b5929e840c8f0523d046f0c09957a6723eeea0841a5a4f11276f5718e8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ-JUVE.ICE by Beez (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 34-65
 # Columns: 1-80
 
@@ -34,11 +34,11 @@ Write-Host '
 [33;40m ▓▓▓▓[0;30;43m██[0;33;40m▓[0;30;43m██[0;33;40m▓▓[0;30;43m██[0;33;40m▓▓[0;30;43m████[0;33;40m▓▓[0;30;43m██[0;33;40m▓▓▓▓▓[0;30;43m██[0;33;40m▓▓[0;30;43m██[0;33;40m▓[0;30;43m██[0;33;40m▓▓[0;30;43m██[0;33;40m▓[0;30;43m██[0;33;40m▓▓▓▓▓[0;30;43m██[0;33;40m▓▓[0;30;43m█▌[0;33;40m▓[0;30;43m██[0;33;40m▓▓[0;30;43m██[0;33;40m▓[0;30;43m██[0;33;40m▓▓▓[0;30;43m▄[0;33;40m▓▓▓[0;30;43m██[0;33;40m▓▓▓[0m
 [33;40m █[0;30;43m▄▄█▀  ▀██▄█▀   ▀█   ██▄▄▄▄ ██  ██ ▀██▄█▀ ▀██▄█▀ ██  ▐▀ ██  ██ ▀██▄█▀   ██   [0m
 [30;40m [0;33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[33;40m   [0;37;40mJuvenocracy [0;1;37;40m[[0mHollywood, FL[1m] Φ [0mS[1;30mysop[0m: S[1;30milicon [0mN[1;30mightmare[0;1;37m[iCE] Φ [0m3O5-964-459O
-   R[1;30munning [0mR[1;30menegade   [0;1;37mΦ  [0m96OO+  [1;30mbaud preferred  [0;1;37mΦ   [0mN[1;30mo  ratio for  [0mLD C[1;30mallers[0m
-[1;30m   [0mT[1;30mons of  [0mA[1;30mnsis[0m/VGA[1;30ms from  [0mALL [1;30mthe groups  [0;1;37mΦ  [0m1OOO+ T[1;30mext [0mF[1;30miles of [0mA[1;30mll [0mS[1;30morts[0m
-[1;30m   [0mTR[1;30mi[0mN[1;30mi[0mTY A[1;30mmerican [0mH[1;30meadquarters [0;1;37mΦ [0mCHAOS D[1;30mistribution [0mS[1;30mite [0;1;37mΦ [0;1;30mi[0mCE M[1;30member [0mB[1;30moard[0m
-[1;30m   [0mINC   D[1;30mox  [0mA[1;30mnd [0mT[1;30mrainers  [0mD[1;30mist.  [0mS[1;30mite   [0;1;37mΦ   [0mC[1;30myber[0mC[1;30mrime   [0mI[1;30mnternational  [0mN[1;30met[0m
+[33;40m   [0;37;40m            [0;1;37;40m [0m             [1m    [0m [1;30m    [0m   [1;30m       [0m [1;30m        [0;1;37m        [0m            
+    [1;30m       [0m [1;30m          [0;1;37m   [0m       [1;30m                [0;1;37m    [0m [1;30m              [0m    [1;30m      [0m
+[1;30m   [0m [1;30m        [0m [1;30m    [0m    [1;30m        [0m    [1;30m            [0;1;37m   [0m       [1;30m    [0m [1;30m        [0m [1;30m   [0m [1;30m    [0m
+[1;30m   [0m  [1;30m [0m [1;30m [0m    [1;30m        [0m [1;30m            [0;1;37m  [0m       [1;30m            [0m [1;30m    [0;1;37m  [0;1;30m [0m    [1;30m      [0m [1;30m    [0m
+[1;30m   [0m       [1;30m    [0m [1;30m   [0m [1;30m         [0m [1;30m      [0m [1;30m      [0;1;37m    [0m [1;30m    [0m [1;30m       [0m [1;30m              [0m [1;30m  [0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30m  i [0mC [1mE  A D V E R T I S E M E N [0mT [1;30mS  [0;31m──  [0;1;30mB [0mE [1mE Z  [ [0;1;30mi [0mC [1mE ] [0;31m──  [0;1;37m12 · 15 · 92[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f7b27e6e6ac4d34f836c619c6cc621810145839b57e32c1328822f4f8d15c4ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: $H-TRIPM.ANS by Shinigami (.%.AXss.%. -97); released in axss-005 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Menu Ansi for TRiP !
 # SAUCE Author: Shinigami
 # SAUCE Group: .%.AXss.%. -97
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;44m - T R I P ! -[0;30;44m    [0;1;37;44mpress alt+s to enter setup[0;30;44m                      [0;1;37;44m- 0 6 / 9 7 - [0m
+[1;44m              [0;30;44m    [0;1;37;44m                          [0;30;44m                      [0;1;37;44m              [0m
 [34m▄▄▄▄▄▄▄██▄▄▄██▀▀▀▀▀▀▀▀▀▀█▄▄▄█▀ [0;1;36m▄▄▄[0;34m ▀█▀▀[0;37m [0;1;36m■[0m [1;36m▬[0;34m▐████▄▄▄██▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [34m██[0;1;34;44m▓▓[0;34m██▀▀▀[0;37m [0;1;36m▄▄▄▄▄████[0;1;36;44m▓▓██[0;1;36;40m▄▄▄▄[0m [34m▀[0;37m [0;1;36m▀█[0;1;36;44m▓[0;1;36;40m▀▀[0m [1;36m▄▄▀[0m [34m▀[0;37m [0;1;36m▄▄▄▄▄[0m [34m▀▀██████████████████████████[0;1;34;44m▓▓[0;34m██[0m
 [34m█████[0;37m [0;1;36m▄█████[0;1;36;44m▓▓[0;1;36;40m█████▀▀▀▀▀▀▀▀▀▀[0;34m▐[0;37m [0;1;36m▄▄▄██[0;1;36;44m▓[0;1;36;40m▌[0m [1;36m▄█[0;1;36;44m▓[0;1;36;40m▀[0m  [1;36m▓▀▀█▄[0m [34m███[0;1;37;44moh how TRiP! can be[0;34m███████[0m
@@ -42,13 +42,11 @@ Write-Host '
 [34m████[0;30;44m░[0;34;40m▒░[0m
 
 [1;30;40m─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─[0m
-  [30;44mN[0;1;34;40mame[0;34m: [0;30;44mM[0;1;34;40menu Ansi for TRiP ![0m            [30;44mB[0;1;34;40my[0;34m: [0;30;44mS[0;1;34;40mhinigami//AXss[0m              [30;44m1[0;1;34;40m997[0;1;5;34;40m_[0m
+  [30;44m [0;1;34;40m   [0;34m  [0;30;44m [0;1;34;40m                   [0m            [30;44m [0;1;34;40m [0;34m  [0;30;44m [0;1;34;40m              [0m              [30;44m [0;1;34;40m   [0;1;5;34;40m [0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─[0m
 
-  [1;34mThis Ansi was seen sum time ago in the TRiP mag... It came out to be all blue[0m
-  [1;34mand stuff cause I was rather hot because of all those hot summer days (but[0m
-  [1;34mjust as I finished this ansi, it started to rain...) Well, I guess it DID[0m
-  [1;34mbring a little bit of much needed refreshment :)[0m
-                                                            [1;34m$ h í ∩ í Ç /┤ m ì[0m
-
-                             [1;30mI[0m [1;30mcommand[0m [1;30mthe[0m [1;30mDevil...[0m'
+  [1;34m                                                                             [0m
+  [1;34m                                                                          [0m
+  [1;34m                                                                         [0m
+  [1;34m                                                [0m
+                                                            [1;34m$ h í ∩ í Ç /┤ m ì[0m'

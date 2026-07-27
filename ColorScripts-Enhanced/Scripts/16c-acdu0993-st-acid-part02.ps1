@@ -5,7 +5,7 @@
 # Source SHA-256: c978a9658fc66d4ce5d45c092c3f8b3d0d37bd311af0aea05e0ed5de969e484a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-ACID.ANS by Stile (acdu0993); released in acdu0993 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-66
 # Columns: 1-80
 
@@ -30,5 +30,4 @@ Write-Host '
            [1;30;40m▒ [0;1;34;47m▒[0m  [1;34;47m▓[0m [1;34;47m▒[0m  [1;34;47m▓[0m [1;34;47m▒[0m  [1;34;47m▓[0m [1;34;47m▒[0m  [1;34;47m▓[0m [1;34;47m▓[0m  [1;34;47m▓[0m [1;34;47m▓[0m       [1;34;47m▒[0m [1;34;47m▒[0m [1;34;47m▒[0m  [1;34;47m▓[0m [1;34;47m▒[0m  [1;34;47m▒[0m [1;34;47m▓[0m    [1;30;40m▒[0m
            [1;30;40m▓ [0;1;34;47m▓[0;1;34;40m▀▀  [0;1;34;47m▓[0;1;34;40m▀▀▄ [0;1;34;47m▓[0m  [1;34;47m█[0m [1;34;47m▓[0m  [1;34;47m█[0m [1;34;47m█[0m  [1;34;47m█[0m [1;34;47m█[0m       [1;34;47m▓[0m [1;34;47m▓[0m [1;34;47m▓[0m  [1;34;47m█[0m [1;34;47m▓[0m  [1;34;47m▓[0m  [1;34;40m▀▀▄ [0;1;30;40m▓[0m
           [1;30;40m▀▀ [0;1;34;47m█[0m    [1;34;47m█[0m  [1;34;40m▓ [0;1;34;47m█[0;1;34;40m▄▄▀ [0;1;34;47m█[0;1;34;40m▄▄▀ ▀▄▄▀ ▀▄▄▀    [0;1;34;47m█[0m [1;34;47m█[0m [1;34;47m█[0;1;34;40m▄▄▀ [0;1;34;47m█[0m  [1;34;47m█[0m [1;34;40m▀▄▄▀ [0;1;30;40m▀▀[0m
-           [1;30;40m▀[0m                                                     [1;30;40m▀[0m
-            [34mthis a[0;1;34mnsi w[0;36mas dra[0;1;36mwn by [0;1;37mstile [0;1;36mof ac[0;36mid pr[0;1;34moduct[0;34mions.. ''93[0m'
+           [1;30;40m▀[0m                                                     [1;30;40m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e142932dd6d2da20de3416538f7f052591b16d6350497f4f3a0bd48883cf0c43
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLUEHELL.ANS by Hacker-Bh (bh-art1); released in bh-art1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -33,5 +33,4 @@ Write-Host '
      [1;34m█[0m   [1;34m█[0m [1;34m█▀▀[0m           [1;34m█[0m    [1;34m██▀▀█[0m [1;37m██▄▄[0m  [1;37m█[0m    [1;37m██▄▄[0m  [1;37m█[0m [1;37m██[0m   [1;37m█[0m [1;37m█[0m   [1;37m█[0m
      [34m▀████[0m [34m█[0m            [34m█[0m     [34m█[0m   [34m█[0m [1;34m█▄[0m   [1;34m▄▀[0m    [1;34m█▄[0m   [1;34m▄▀[0m [1;37m█[0m [1;37m█[0m  [1;37m█[0m [1;34m█[0m  [1;34m▄[0m
             [34m█[0m          [34m▀[0m         [34m█[0m  [34m▀███▀[0m      [34m▀███▀[0m   [1;34m█[0m  [1;34m█[0m [1;34m█[0m [34m███▀[0m
-             [34m▀[0m                  [34m▀[0m                      [34m█[0m   [34m██[0m
-                [1;37mdone by Hacker/Bluehell BBS[0m'
+             [34m▀[0m                  [34m▀[0m                      [34m█[0m   [34m██[0m'

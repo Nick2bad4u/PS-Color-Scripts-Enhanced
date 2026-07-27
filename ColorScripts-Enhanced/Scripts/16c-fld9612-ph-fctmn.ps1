@@ -5,7 +5,7 @@
 # Source SHA-256: ce55410c2e587fe32626598addb175108fd03da99c2c0e7c994dfba498afeae9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-FCTMN.ANS by pharcyde (fluid); released in fld9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fuct main menu
 # SAUCE Author: pharcyde
 # SAUCE Group: fluid
@@ -24,12 +24,4 @@ Write-Host '
    [34m [0;37m [0;34m▒[0;37m [0;34m▓▀[0;37m  [0;1;32;42m▐▓[0;1;32;40m▀▀[0m [1;32m▐[0;32m█[0;1;32m▌[0;1;37m [0;34m▓[0;37m [0;1;32;42m▐[0;33;42m▒[0;32;40m█[0;1;32;42m▐[0m [34m▀█▀ [0;32m▄▄[0;33;42m▒[0;32;40m█[0;37;40m [0;1;34;44m░[0;34m▌[0;32m▐█▌[0;1;30mph[0;34m▓[0;37m [0;1;30m▄[0m [33m▌ [0;37m▐[0;1;37;47m░▒[0m▌[1m [0;1;31;41m░[0;31m▌[0;37m■[0;1;30m [0m     [1;31m▐[0;1;31;41m▒░[0m ▐[1;47m░▒[0m▀[33m ▐█[0;1;31;43m░[0m [1;30m▓[0m
    [1;30m░[0m [34m░[0;30;44m▓[0;37;40m [0;34;40m░[0;37;40m [0;1;32;40m░██[0;1;37;40m [0;34m░[0;37m [0;1;37m [0;1;37;42m▓[0;1;32;40m█▄[0m  [1;32m██░▀[0;1;32;42m█[0;1;32;40m▄▄[0;1;37;40m▄[0;1;32;40m▐[0;1;32;42m▄[0;32m▌▀[0;1;32;42m▄[0;32m▄[0;37m [0;34m░[0;32m█[0;1;32;42m▄[0;34m░[0;30;44m▓[0;37;40m [0;34;40m░[0;1;30;40m [0;1;30;47m▓[0m [33m▄[0;37m ▀▀▀▀[0;1;37m [0m [1;31m▀[0m      [1;31m■▀▀[0;1;34m [0;1;37m [0m▀▀[33m ▄█[0;1;31;43m░░▓[0m [1;30m█[0m
   [34m [0;1;30m▒▄▄[0m [1;30m▄▄▄▄▄▄[0;32m  [0;1;30m▄▄▄[0m [1m▀[0;1;32m▀▀▀[0m [1;30m▄░[0m [1;30m▄ [0;1;32m▀▀▀[0m  [1;32m░▀▀▀█[0;1;37;42m▓[0m [1;30m▄▄▄▄█▄▄▄▄▄▄[0m [1;30m░▄▄[0m  [1;30m▄▄▄▄[0m    [1;30m▄▄▄▄ ▄▄  [0;1;30;47m▓[0;1;30;40m█░ [0m
-  [34m [0;1;30m▓ [0;34m                        [0m                                               [1;30m▓[0m
-     [[1mj[0m][1m [0mjoin conferance[1m [0m [1m  [0m [[1mi[0m][1m [0minstinct            [[1mt[0m][1m [0mtagged files
-     [[1ma[0m][1m [0marea change[1m      [0m [1m [0m [[1ml[0m][1m [0mmembers[1m   [0m          [[1mfr[0m][1m [0mfile reverse
-     [[1mb[0m][1m [0mbulletins [1m      [0m [1m  [0m [[1mm[0m][1m [0mmailscan            [[1my[0m][1m [0myell
-     [[1mt[0m][1m [0mtoday callers[1m   [0m [1m  [0m [[1mn[0m][1m [0mnew file scan       [[1m+[0m][1m [0mdeposit
-     [[1md[0m][1m [0mdownload[1m        [0m [1m  [0m [[1mo[0m][1m [0mnode menu    [1m [0m      [[1m-[0m][1m [0mwithdraw
-     [[1mu[0m][1m [0mupload[1m          [0m [1m  [0m [[1mr[0m][1m [0mread mail[1m    [0m       [[1m#[0m][1m [0mwrite settings
-     [[1mf[0m][1m [0mfile list           [[1mw[0m][1m [0mwrite mail          [[1m=[0m][1m [0mview stats
-     [[1mg[0m][1m [0mgoodbye             [[1ms[0m][1m [0msearch a file                       [34m [0m'
+  [34m [0;1;30m▓ [0;34m                        [0m                                               [1;30m▓[0m'

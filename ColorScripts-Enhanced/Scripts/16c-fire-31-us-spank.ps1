@@ -5,7 +5,7 @@
 # Source SHA-256: 3c10e8bf832c8079786c7b0438cab425dd5eb925f510d5c99edadb3f91dfa42f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SPANK.ANS by Halaster + Nail (fire spankings); released in fire-31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blender: nazi . spanking . africa
 # SAUCE Author: halaster / nail
 # SAUCE Group: fire spankings
@@ -54,9 +54,9 @@ Write-Host '
                [1;30m█[0;1;30;47m▓▓[0;1;30;40m███▌▀[0m      [33m▐[0;1;31;43m░▓████[0;1;31;47m▓▓[0;1;31;43m▀[0;33m▀[0;37m  [0;33m▐[0;1;31;43m███▌[0;33m▌[0;32m [0m   [33m▄▀[0m
                 [1;30m▀▀▀[0m   [1;30m [0m     [32m [0;33m█[0;1;31;43m░▓█[0;1;31;47m▓▓[0;1;31;43m█▀[0;33m▀[0m     [33m▀[0;1;31;43m▀▀[0;33m▀[0;32m [0m
                            [33m▄██[0;1;31;43m▄██▀[0;33m▀▀[0m
-                         [33m▀▀[0;1;31;43m▀▀[0;33m▀▀▀[0m      [1;30m"some nazi guy spanking africa"[0m
+                         [33m▀▀[0;1;31;43m▀▀[0;33m▀▀▀[0m      [1;30m                               [0m
 
-                                                            [1;30mjesse m. kates[0m
-                                                            [1;30mbjoern odendahl[0m
+                                                            [1;30m              [0m
+                                                            [1;30m               [0m
 
                                                               [1;30mfeb 8th 1998[0m'

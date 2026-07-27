@@ -5,7 +5,7 @@
 # Source SHA-256: b36e96c177bd756acd671fe14e73fa04cff8c9e5117fd764ebde429ee09930f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%SHAD.ANS by big y3llow man (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: oddball's shad
 # SAUCE Author: big y3llow man
 # SAUCE Group: pHOBIA@!
@@ -37,5 +37,4 @@ Write-Host '
 [36;40m [0;1;30;40m▐[0;1;30;46m░░░[0;31;46m░[0;36;40m█████[0;1;30;46m▌[0;36m██[0;1;30;46m░░[0;36m██▀[0;36;47m█████[0;36;40m██████████[0;1;36;46m▀█[0;1;37;40m█[0;1;36;46m█[0;36m██ [0m   [1;30m█[0;33m██[0;1;33;43m░[0;1;33;40m██[0;1;33;43m█[0;1;33;40m██████████████[0;1;37;40m███[0;1;33;40m██[0;1;33;43m█▌[0;33m██[0;1;33;43m░░[0;1;30;40m▌[0;30;41m█[0;30;43m░[0m
 [36;40m [0;1;30;46m▓░▄▄[0;1;30;40m▀▀▀▀▀▀▀▀[0;1;30;46m▓▄[0;36m███▌███████▀▀▀   ░░▀▀██▀▐ [0m   [1;30m▐[0;1;30;43m▌[0;33m███[0;1;33;43m▀▓[0;1;33;40m█████████████[0;1;37;40m██[0;1;33;40m██[0;1;33;43m██▀[0;33m█[0;1;30;43m░[0;33m█[0;1;30;43m▄[0;1;30;40m█[0;36m [0;30;43m░[0;33;40m█[0m
 [37;40m  [0;30;46m▓[0;36;40m░[0m         [30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0m     [36;40m▄▌[0m                    [36;40m [0;1;30;40m█[0;33m██[0;1;33;43m░[0;33m██[0;1;33;43m▀▓█[0;1;33;40m██████[0;1;33;43m▓▓▓[0;1;33;40m███[0;1;33;43m█▀▀[0;1;30;43m░░▄▓▓[0;1;30;40m▀[0;33m ▄█▐[0m
-                                              [36m [0;1;30m█[0;33m██[0;1;33;43m░[0;33m██[0;1;33;43m▀▓█[0;1;33;40m████[0;1;33;43m▓[0;1;33;40m███[0;1;33;43m▀▀[0;33m█[0;1;30;43m░░▄▓▓[0;1;30;40m▀[0;33m ▄[0;30;43m ░░▓[0m
-[1;37;40m1oo% original pic+font by big yellow man of pHOBIA@! in 1997 - for shad only!!![0m'
+                                              [36m [0;1;30m█[0;33m██[0;1;33;43m░[0;33m██[0;1;33;43m▀▓█[0;1;33;40m████[0;1;33;43m▓[0;1;33;40m███[0;1;33;43m▀▀[0;33m█[0;1;30;43m░░▄▓▓[0;1;30;40m▀[0;33m ▄[0;30;43m ░░▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 937d07fea0fba982795f853c6103c6b1edc41e20636118c4418bc6d9cce6ac28
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PE!BLUE.ANS by Phonyeye (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19970406
 # SAUCE Dimensions: 80x22
 # Lines: 1-22
@@ -13,7 +13,7 @@
 
 Write-Host '
 `                                            [35m [0m
-    [35m░[0;30;45m▓[0;35;40m░[0;37;40m [0;1;30;40mP[0;1;30;41mh[0;1;30;40monyEye[0m<fsn>
+    [35m░[0;30;45m▓[0;35;40m░[0;37;40m [0;1;30;40m [0;1;30;41m [0;1;30;40m      [0m     
         [1;30m^[0m                                     [35m▄▄▄[0;30;45m▓[0m
           [1;30;40m [0m        [35m▄[0m                          [1;33;45m▐[0;1;33;46m▓[0;1;33;45m▓░[0m            [35m▄[0;37m [0;35m░░[0;30;45m▓[0;35;40m [0m
               [35;40m▄▄█▀[0m              [1;33;45m░▀[0m   [34m  [0m        [35m▀▀▀[0m           [34m [0;37m  [0;35m▀[0;1;33;45m■[0;30;45m░[0;35;40m▄[0m

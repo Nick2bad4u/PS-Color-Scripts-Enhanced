@@ -5,7 +5,7 @@
 # Source SHA-256: 0bda8e55677876ba793f11eb3302e00d3dbbb00eadd420fa82679370e5d519e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX-DSC4.ICE by Apocalypse + Apox (iCE); released in ice9609a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wreck the discotheque
 # SAUCE Author: apocalypse
 # SAUCE Group: iCE
@@ -31,10 +31,6 @@ Write-Host '
 [1;30;47m░░░▒▒▓[0;1;30;40m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;33m░░[0m [1;30m▄█▄▄▄▄▄[0m [1m▀▀[0;1;33m▀▀[0m [1;30m▄████▄▄▄▄▄▄▄▄▄█████▄▄▄▄▄▄▄▄▄▄▄▄███▓▓▒▒░[0m
 [1;37m██[0;1;30;47m░▒▒▓[0;1;30;40m█████████[0;1;30;47m▓▓▓[0;1;30;40m██████▄▄▄▄████████████████[0m░░░░░░[30;47m▓[0;1;30;40m███[0m░[30;47m▓[0;1;30;40m██[0m░[1;30m████████[0;1;30;47m▓▓[0;1;30;40m████▓▓▒▒░░[0m
 [1m░░[0m                                                                     [1;30m░░▒▒░░[0m
-          ░                   ansi dedicated to:                  ░     [1;30m ░░[0m
+          ░                                                       ░     [1;30m ░░[0m
          ░▒░░░ ░░░   ░     ░    cash soi brett    ░   ░   ░░░  ░░░▒░
-          ░                      jackd pubert                     ░
-                                rza  & kadaver[0m
-
-
-'
+          ░                                                       ░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9db667b308a3c4e73d9ed864d6321dbb742ecb40c36f03159eeb4d3b4b86d0f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UG-LETNT.ANS by Uprising (CaNCeR Productions); released in cnc-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lethal-Net
 # SAUCE Author: Uprising
 # SAUCE Group: CaNCeR Productions
@@ -30,14 +30,4 @@ Write-Host '
                        [1;40m [0m [1;30;47m▒░ [0m ▀▄ [1;30;47m▒░ [0m▌ [1m [0m [1;30;47m▒░ [0m▌      [1m [0m [1;30;47m▒░ [0m▌
                        [1m [0m [1;30;47m▒▒░[0m▌  █[1;30;47m▒▒░[0m▌ [1m [0m [1;30;47m▒▒░[0m▌  ▄▄  [1m [0m [1;30;47m▒▒░[0m▌
                        [1m [0m [1;30;47m▓▒▒░[0m   [1;30;47m▓▒▒░[0m [1m [0m [1;30;47m▓▒▒░[0m▄█▀   [1m [0m [1;30;47m▓▒▒[0m▌
-                       [1m  [0m▀[1;30m▀[0m▀▀ [1m  [0m▀[1;30m▀[0m▀▀ [1m  [0m▀[1;30m▀[0m▀▀ [1m [0m    [1m  [0m▀[1;30m▀[0m▀  [1m [0m
-
-              Terminal Illness  714/282.7641  World Head Quarters
-                            For more Info, logon as:
-                          Handle: LETHAL    PW: LETHAL
-
-
-
-         This has been a |<-RaD Ansi by Uprising of CANCER Productions
-
-                  Greetz to all da fools in seven one four...[0m'
+                       [1m  [0m▀[1;30m▀[0m▀▀ [1m  [0m▀[1;30m▀[0m▀▀ [1m  [0m▀[1;30m▀[0m▀▀ [1m [0m    [1m  [0m▀[1;30m▀[0m▀  [1m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f650f3017b8ba7cfdd4998b8dc02f4a385de695a1c36734c78bbff1e14e91a09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ViiX2 - XXX - K1.ans by Knocturnal + Spear + Enzo + Aesthetic + Taintedx (viix2ii); released in viix2ii and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 37-72
 # Columns: 1-80
 
@@ -41,8 +41,4 @@ Write-Host '
                 [1;30m▀[0;32m▀▀[0;1;30m▀[0m             [1;30;42m▓[0;1;30;40m█[0;32m▒[0m       [1;30m▄▄▄▄[0m [1;30m ▀▄[0m          [1;30m█[0;1;30;42m▄[0;1;30;40m [0m [1;30m▄▄[0m      [1;30m▌[0m
                                  [1;30m▀[0;32m▀ [0m       [1;30m█[0m  [1;30m▀[0m   [1;30m██▒[0m         [1;30m▀▄▄[0;1;30;42m▄[0;1;30;40m▀[0m
                                            [1;30m▀▄[0m    [1;30m▄▀[0m
-                                              [1;30m▀▀[0m
-
-  [36mthis just feeeeellssss like. spinninnnngggggg pllaaaattttteeeeeessssssssssss[0m
-
-[37m [0;1;30muh, spear, enzo, aesth, tainted, k1, elton john, peter griffin, ana kournikova.[0m'
+                                              [1;30m▀▀[0m'

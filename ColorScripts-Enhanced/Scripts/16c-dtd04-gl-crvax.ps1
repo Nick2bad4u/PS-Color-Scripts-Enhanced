@@ -5,7 +5,7 @@
 # Source SHA-256: f977d4d5ce446ab27802fde3aed9fd212f2958eedc02e40ff2dcf30b3ced80fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GL-CRVAX.ANS by glandyth-a-krae (DEVOTiON TO DARKNESS); released in dtd04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 'todesstoss - crovax'
 # SAUCE Author: glandyth-a-krae
 # SAUCE Group: DEVOTiON TO DARKNESS
@@ -38,6 +38,4 @@ Write-Host '
 [1m████████▄▄[0;33m▀▒[0;37m  [0;1;37m  [0m             [33m▒░▀[0m   [1;37m▀██▀█[0;1;37;47m▓[0;1;37;40m██[0;1;30;40m░[0m [1m▄██████[0;1;47m▓█[0;1;40m███[0;1;47m▄[0m▄ ▐[1;47m░▓[0;1;40m████████████████[0m
 [1m██████████[0;1;47m▓▒░[0m█▄██[1;47m░▓[0;1;40m▄▄▄▄[0m           [33m▒░[0;37m [0;1;37m▀▄ [0;1;30m▄[0;1;37m▀[0;1;30m▓[0;33m [0;1;37m████████████[0;1;37;47m▓▓░[0m▌[1m [0m▀[1;47m▀[0;1;40m████████████████[0m
 [1m██[0;1;47m▓[0;1;40m█████[0;1;47m▓▓░░[0m█[1;47m░▒░[0m█[1;47m░▓▓[0;1;40m███▌[0m░▄  [1;30m░▒▄░[0m    [1;30m [0;33m░[0;37m ▀ [0;1;30m▀▒[0;1;37m███████████████[0;1;37;47m▓▄[0m▄[1m [0m ▀▀▀[1;47m▀▀▀░▓[0;1;40m███[0;1;47m▓▓[0;1;40m███[0m
-[1m█[0;1;47m▓░▓[0;1;40m█[0;1;47m▓▓▒▓░[0m██[1;47m░▓░[0m█[1;47m░▓[0;1;40m██████[0m ▀[1;30;47m░▓[0;1;30;40m▓▀▀[0m    [1;30m   ▄▓ [0;1;37m█▄ ▄███████████[0;1;37;47m▓[0;1;37;40m██[0;1;37;47m▓▓▄░[0m▄▄    ▀▀▀▀▀▀▀▀▀[1;47m▀[0m
-
-[1mfor the lugburz bbs. [0m'
+[1m█[0;1;47m▓░▓[0;1;40m█[0;1;47m▓▓▒▓░[0m██[1;47m░▓░[0m█[1;47m░▓[0;1;40m██████[0m ▀[1;30;47m░▓[0;1;30;40m▓▀▀[0m    [1;30m   ▄▓ [0;1;37m█▄ ▄███████████[0;1;37;47m▓[0;1;37;40m██[0;1;37;47m▓▓▄░[0m▄▄    ▀▀▀▀▀▀▀▀▀[1;47m▀[0m'

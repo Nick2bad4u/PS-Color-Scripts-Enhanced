@@ -5,7 +5,7 @@
 # Source SHA-256: 1c90a02e5b3a075502884ba4b0f2cb1308f4f587cfcc85147d5e672223bac36e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UND-0004.ANS by Fever (fever1yr); released in fever1yr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -27,5 +27,4 @@ Write-Host '
                        [35;46m░▓[0;31;46m [0;31;42m█[0;31;46m▓[0;31;42m█[0;1;31;47m▓▓[0;1;31;41m▓░[0;31m▓░[0;32m [0;36m░▓[0;1;36;46m▓[0;30;46m▐[0;32;40m [0;30;46m▌[0;1;36;46m▄[0;30;46m▐[0;32;40m   [0;1;36;46m▐▒▄[0;32m     [0;1;36;46m [0m
                      [36m░▒▓[0;1;33;46m░[0;31;46m░▒▓▓[0;31;42m█[0;31;40m▓[0;31;42m█[0;31;46m▓▒░[0;32;40m  [0;30;46m▄▄[0;32;40m  [0;1;36;46m░▓▌[0;32m  [0;36m░▓[0;1;36;46m▓[0;36m▓░[0;32m [0;30;46m▄▄[0;36;40m░▓[0;37;40m  [0;36;40m░[0m
                        [36;40m▒[0;1;33;46m▓▒░[0;31;46m░▀[0;31;40m▒▒[0;1;31;40m▓[0;31;46m▀[0;30;46m [0;1;36;46m░[0;1;33;46m░▓[0;30;46m▀▀▀[0;1;36;46m  ▀ [0;30;46m▀▀▀ [0;1;36;46m░[0;30;46m ▀▀▀▀▀[0;36;40m▓░[0m     [1;31;40m░[0m
-                       [36m░[0m      [31m░[0;1;30mfor more information call  [0m
-                               [1;30m1-800-RTV-VOTE[0m'
+                       [36m░[0m      [31m░[0;1;30m                           [0m'

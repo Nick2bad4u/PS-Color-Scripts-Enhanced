@@ -5,7 +5,7 @@
 # Source SHA-256: 5f8d4d619e9e7ff8ad8ec28f3873e6afd05f79ca8b2fbb56791ce368373e0c90
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MIN-SF.ANS by Minister (Glue); released in glue-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Superfiend
 # SAUCE Author: Minister
 # SAUCE Group: Glue
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;32mminister[0;32m profucktion 247 dayz til the millenium ..[0;1;32m glue[0;32m tribe .. supereligion ..[0m
+[1;32m        [0;32m                                          [0;1;32m     [0;32m                         [0m
 [1;32;42m░[0;32m▌[0;30;42m▓[0;1;32;42m▒▓▒░▒▒░░░░░▒░░ ░  [0;30;42m  [0;1;30;42m░[0;30;42m░[0;32;40m▌[0;30;42m▓[0;1;32;42m▒░░[0;32m█[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m██████████████████████████████[0;1;30;42m      ░ [0;30;42m░░░░░█▓[0;32;40m▄[0m
 [1;32;42m▒▒[0;30;42m▓▓[0;1;32;40m▓[0;1;32;42m▓▓▓▓▓▓▒▓▒▓▒▒░▒░[0;1;30;42m░[0;1;32;42m░[0;1;30;42m░░░[0;30;42m█[0;32;40m▐[0;1;32;42m▓▓▒░▒▒▒░[0;32m█[0;1;32;42m░[0;32m█[0;1;32;42m░[0;32m██████████████████████[0;1;30;42m [0;32m█[0;1;30;42m [0;32m█[0;1;30;42m  [0;30;42m░░░░░░▒▓[0;32;40m░▄▄[0;1;32;42m▒▓[0m
 [1;32;42m▓[0;1;32;40m█[0;1;32;42m▓[0;32m [0;30;42m▓[0;32;40m▀[0;1;32;40m▀▀▀▀▀[0;32m [0;1;32m▄▄▄[0;32m▄[0;1;32m▄▄[0;32m▄▄[0;1;32m▄[0;32m▄▄▄▄[0;30;42m▓▓[0;1;32;40m▀▀[0;1;32;42m▓▓▓▓▓▒░▒░▒░[0;32m█[0;1;32;42m░[0;32m███████████████[0;1;30;42m    ░░ [0;30;42m░░░░░▒▓▓[0;32;40m▄[0;1;32;40m▄[0;1;32;42m▒▓▒▓░▒[0m

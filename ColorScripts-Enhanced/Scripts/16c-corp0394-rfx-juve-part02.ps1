@@ -5,7 +5,7 @@
 # Source SHA-256: 5b7c1b12f2749bf7433cdf5f2ec4145bc4e5d4a40dd7bd164a0f3cc36b4f8d3e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RFX-JUVE.ANS by Reflex (corp0394); released in corp0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-78
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
 
                                                   [32m▐[0m
 
-[32m   iN dA[0;1;32mTA[0;32mF[0;1;32mLoW nO-oNE hEARS y[0;32mOU[0;1;32mR sC[0;32mREAM.    [0;1;32m▐[0;32m▌ ▌[0m       [1;32mRaster / Corp''94[0m
+[32m        [0;1;32m  [0;32m [0;1;32m                  [0;32m  [0;1;32m    [0;32m         [0;1;32m▐[0;32m▌ ▌[0m       [1;32m                [0m
                                               [32m▄[0m
 [32m [0;1;30m▀ ▀[0m▀▀███[1;30m█[0m█[1;30m██▀▀▀▀▀[0m▀[1;30m▀[0m▀▀▀▀▀▀▀▀▀▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀[0;32m▀[0;1;30m▀▀▀[0;32m▀[0;1;32m▀▀[0;32m▀▀[0m▀▀▀▀▀[1;32m▀[0m▀▀▀▀▀▀▀▀▀▀▀[1;30m▀[0m▀[1;30m███▀▀ ▀[0m
       ██▀[1;30m▀[0m▀[1;30m▀▀ [0;1;34m█████████ ████▌█████████ ████▌███[0;1;34;44m█████[0;1;34m█ [0;1;34;44m█████[0;1;34m█████████ [0;1;30m███[0m

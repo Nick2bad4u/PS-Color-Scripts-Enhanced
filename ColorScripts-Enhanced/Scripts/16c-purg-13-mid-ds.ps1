@@ -5,7 +5,7 @@
 # Source SHA-256: f24806f6673064aafe238040682a996676aaad481c1cb1560d3f43ec205cc615
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MID-DS.ANS by Midknight (purg-13); released in purg-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 
 
                                 [36m░[0m
-                                                [34m%m[0;1;34myd[0;1;30mkn[0mig[1mht.[0m
+                                                [34m  [0;1;34m  [0;1;30m  [0m  [1m   [0m
   [32m░[0m                              [36m░[0m           [32m░[0m
 [32m░[0;1;34m▄██████▄▄▄[0;1;37m      [0m  [1;34m▄▄█[0;1;34;44m▓[0;1;34;40m██▀▀▀█████▄[0;36m░[0m      [1;34m▄▄▄▄▄▄█▀ ▀██▄▄▄[0m  [1;34m        [0m
 [1;34m▐███████████▄▄[0;1;37m   [0;1;34m▄█[0;1;34;44m▓[0;1;34;40m███▀  ▄███████[0;36m░[0;1;34m    ▄█[0;1;34;44m▓[0;1;34;40m█████▌[0;32m░[0;1;34m  ▐████▌  ▄███[0;1;34;44m▓[0;1;34;40m██▄ [0m   [1;34m▄███[0;1;34;44m▓[0;1;34;40m██▄[0;32m░[0m

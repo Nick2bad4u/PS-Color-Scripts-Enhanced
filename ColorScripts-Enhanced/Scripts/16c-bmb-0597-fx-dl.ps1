@@ -5,7 +5,7 @@
 # Source SHA-256: 079b6e76be1d7cdb2beee676c7a289e5be0bddb279a29f1daa084b39d12404dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-DL.ANS by flux (bambi); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dload
 # SAUCE Author: flux
 # SAUCE Group: bambi
@@ -26,5 +26,4 @@ Write-Host '
 [34mby[0;37m [0;34mflux/pr+bmb[0m    [34m [0m            [30;44m▓[0;37;40m [0;30;44m▓▓[0;34;40m   [0m    [36;40m▀▀▀   [0;34;40m     [0;30;44m▓[0;37;40m  [0;30;44m▓▓[0m
 [34;40m  [0m
 
-[37;40m--[0m
-[37;40mok.. this is for me, only.. do not rip.. er.. well.. [0m'
+[37;40m--[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 513776342aeac08a435f15df646c8b718540de2763dee4a311684ff44c5607aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-ERE3.ANS by Trip (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Erebus
 # SAUCE Author: Trip
 # SAUCE Group: Apathy
@@ -51,11 +51,11 @@ Write-Host '
 [33m▄██▄▄▄▄▄▄▄▄[0;1;30;43m ti![0;33m█▄▄▄▄▄▄▄▄█▌ ▄██▄▄▄▄▄▄▄▄████▄▄▄▄▄▄▄▄██▄ ▄██▄▄▄▄▄▄▄▄██████▄▄▄▄▄▄██▄[0m
 
 [33m-----[cut me, baby]-------------------------------------------------------------[0m
-                         [33myay. more elite work for erebus. enjoy.[0m
+                         [33m                                       [0m
        [33m▄ ▀[0m       [33m▀[0;1;30;43m░░[0;33m▄▄[0m
      [33m▄▀ [0m          [33m▐[0;1;30;43m░[0;33m▌[0m
-   [33m▄[0;1;30;43m░[0;33m▌ [0;37m [0;33m  ▄[0;1;30;43m▒[0;33m▄[0m     [33m▐[0;1;30;43m▒[0;33m [0m    [33mif you want an ansi/ascii/rip, send email to:[0m
+   [33m▄[0;1;30;43m░[0;33m▌ [0;37m [0;33m  ▄[0;1;30;43m▒[0;33m▄[0m     [33m▐[0;1;30;43m▒[0;33m [0m    [33m                                             [0m
 [37m [0;33m▄▀[0;37m [0;1;30;43m▒[0;33m▌[0;37m [0;33m  ▄[0;37m [0;33m▀[0m    [33m  ▐▌[0m     [33mthrust@primenet.com[0m
-[33m■[0m   [33m▐▌[0;37m  [0;33m ▐[0;1;30;43m▒[0m      [33m ▀[0m     [33m and we will work something out. no, i dont do freebies.[0m
+[33m■[0m   [33m▐▌[0;37m  [0;33m ▐[0;1;30;43m▒[0m      [33m ▀[0m     [33m                                                        [0m
 [37m [0;1;30m ░░[0m [1;30;43m░[0;33m [0;1;30m░░[0;33m [0;1;30;43m▒[0;33m▌[0;1;30m░░░[0m [33m▄[0;1;30;43m░[0;33m▄[0;37m [0;1;30m░░[0m
  [1;30m   [0m  [33m▀[0;37m [0;33m  [0;37m [0;33m▀ [0m   [33m ▀[0m'

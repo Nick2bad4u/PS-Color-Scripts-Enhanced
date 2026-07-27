@@ -5,7 +5,7 @@
 # Source SHA-256: ae3ba9351cb1cc08c69c7a59045b51b431110a58446fabf2d6d42537f99ff156
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cyberlove.ans by Revengeday (CORTEXIMPLANT); released in cyberpack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cyber Love
 # SAUCE Author: Revengeday
 # SAUCE Group: CORTEXIMPLANT
@@ -57,5 +57,5 @@ Write-Host '
     [1;35m█[0m          [34m██████[0;1;34;44m░░░░[0;34m█████[0;1;37m█████████████████[0;1;37;44m▄[0;34m████[0;1;34;44m░░[0;34m████[0;1;34;44m░[0;34m██████████▀[0;37m     [0;1;35m█[0m
     [1;35m▀▄[0m          [34m▀████████████[0;1;37m███████[0;1;37;47m▄[0;1;37;40m███████████[0;1;37;44m▄[0;34m██████████████████▀[0;37m      [0;1;35m▄▀[0m
     [1;35m█[0m [1;35m▀▄▄▄▄▄▄▄▄▄▄[0;1;35;44m▄▄▄▄▄▄▄▄▄▄▄[0;1;37;105m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;35;44m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35;40m▄▄▄▄▄▄▄▄▀[0m [1;35m█[0m
-    [1;35m█[0m   [1;30m2025 // REVENGEDAY // CORTEX IMPLANT                               [0;1;35m█[0m
+    [1;35m█[0m   [1;30m                                                                   [0;1;35m█[0m
     [1;35m▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀[0m'

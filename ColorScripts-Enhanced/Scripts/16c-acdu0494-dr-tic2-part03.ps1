@@ -5,7 +5,7 @@
 # Source SHA-256: 1b0dd5dc6d9f0929f1f531697da2dcb5c676dc0612ffa1c77a0a1e7a5ee49151
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-TIC2.ANS by Duster (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Icy Connection
 # SAUCE Author: Duster
 # SAUCE Group: ACiD Productions
@@ -47,10 +47,8 @@ Write-Host '
 
                  [1;37m·[0;1;34m■[0;34mφ  [0;1;34mT [0;34mH [0;1;34mE   i [0;34mC [0;1;34mY   C [0;34mO [0;1;30mN N E C T i [0;34mO [0;1;34mN  [0;34mφ[0;1;34m■[0;1;37m·[0m
 
-            [1;32mA[0;32mCi[0;1;30mD Member bo[0;32mar[0;1;32md [0;1;30m■ [0;1;32mD[0;32mW C[0;1;30mourier bo[0;32mar[0;1;32md [0;1;30m■ [0;1;32mC[0;32mTC [0;1;30mFinnis[0;32mh H[0;1;32mQ[0m
-[1;32m   R[0;32mun[0;1;30mning PCBoard 15.1/M under desqv[0;32mie[0;1;32mw [0;1;30m■ [0;1;32m2 [0;32mno[0;1;30mdes, 16.8k ZyXel & 14.4k [0;32mUS[0;1;32mR[0m
-                   [1;32m1[0;32m.6 [0;1;30mgigabytes online, 2.0+ gigs offl[0;32min[0;1;32me[0m
-             [1;32mN[0;32mo r[0;1;30matios for ld callers, relaxed for local call[0;32mer[0;1;32ms[0m
-           [1;32mS[0;32mys[0;1;30mOps: Dealer, Duster / A[0;32mCi[0;1;32mD [0;1;30m■ [0;1;32mC[0;32mos[0;1;30mysops: Daya, Mr. [0;32mBi[0;1;32mg[0m
-
-                          [36mANSi: Duster / ACiD [Euro][0m'
+            [1;32m [0;32m  [0;1;30m           [0;32m  [0;1;32m  [0;1;30m■ [0;1;32m [0;32m   [0;1;30m         [0;32m  [0;1;32m  [0;1;30m■ [0;1;32m [0;32m   [0;1;30m      [0;32m   [0;1;32m [0m
+[1;32m    [0;32m  [0;1;30m                               [0;32m  [0;1;32m  [0;1;30m■ [0;1;32m  [0;32m  [0;1;30m                         [0;32m  [0;1;32m [0m
+                   [1;32m [0;32m   [0;1;30m                                [0;32m  [0;1;32m [0m
+             [1;32m [0;32m   [0;1;30m                                            [0;32m  [0;1;32m [0m
+           [1;32m [0;32m  [0;1;30m                       [0;32m  [0;1;32m  [0;1;30m■ [0;1;32m [0;32m  [0;1;30m                 [0;32m  [0;1;32m [0m'

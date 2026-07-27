@@ -5,7 +5,7 @@
 # Source SHA-256: af1d572671f17453465f203e42d67b609c4d3e584b5cfa12941ed516339c8e6f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-TEH1.ANS by Terminator2 (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Eleventh Hour
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -57,10 +57,9 @@ Write-Host '
          [1;30m▄██[0;1;30;42m▓▓▒▒░░░░[0;32m████▄▄[0;35m▀▀▀▀[0;1;30m▄▄█[0;1;30;42m▓▒▒░░[0;32m▄▄[0;35m▀▀[0;1;30;45m░░▒▒▒▓[0;1;30m▀▀▀▀▄▄▄ [0;32m█▄▄▄ [0;1;30m▄▄[0;1;30;45m▓▒▒░░[0;35m▄▄█▀▄▄ ▀█[0;1;33;45m░▒[0m
        [1;30m▄██[0;1;30;42m▓▓▒▒░░░░ [0;32m███▀▀  [0;1;30m▄█▀█[0;1;30;42m▓▓▒░░░ [0;32m█[0;1;30;42m ░[0;32m██▄[0;1;30m▀▀▀▀[0;32m▄[0;1;30m▀▀▀▀[0;32m▄▄▄▀[0m      [1;30m▀█[0;1;30;45m▓▓▒▒░░ [0;35m██▄ █[0;1;33;45m░▒▓[0m
 [1;30m▄[0;1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄[0m
-[1;30;47m     "Maul" Is A Trademark Of Jim Lee And Image Comics . (C)opyright 1993      [0m
+[1;30;47m                                                                               [0m
 [1m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1m▀[0m
 
 
 
-[1;30m░▒▓▓███████████████████████████████████████████████████████████████████████▓▓▒░[0m
-'
+[1;30m░▒▓▓███████████████████████████████████████████████████████████████████████▓▓▒░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 885cc442921173c768431d8209e2ced1226daee9644620bf2d7fa90ffc6229df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX-100LN.ANS by dexter (slogan.arts); released in plenty and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 100 line ansi
 # SAUCE Author: dexter
 # SAUCE Group: slogan.arts
@@ -18,7 +18,7 @@ Write-Host '
               [1;33m▀▄▄▄[0m [1;33m▀▀▀▀[0;1;33;43m▓[0;1;33;40m▄▄▄▄▄████[0;1;33;43m▓▓▒░░░  [0;33m▀▀▀[0;1;33m ▄▄▄[0m [1;33m▄[0m [1;33m▄▄[0m [1;33m▄               [0m
           [1;35m▄[0m  [1;33m░░[0m   [1;33m▀▀▀▀▄▄▄▄▄▄▄[0m [1;33m▀[0;33m▀[0;1;33m▀▀[0;33m▀▀▀▀[0;37m [0;1;33m▄▄▄▀▀▀ [0m
   [35m▄▄[0;1;35;45m░▓[0;1;35;40m▀▀▀▀[0m         [1;33m     [0m [1;33m░░[0m  [1;33m▀▀▀▀▀▀▀▀▀▀░░[0m
-[1;35;45m░[0;35m▀▀▀[0;37m  [0;35mthis is my first 100 liner, so it''s a little bit chaotic :))[0m
+[1;35;45m░[0;35m▀▀▀[0;37m  [0;35m                                                            [0m
 [35m▀[0;37m [0;1;33;43m░▒▓[0;1;33;40m▄▄▄▄▄[0m            [1;33m       [0m▄▄[1;30m▄[0m▀▀[1;30m▀[0m
 [33m▀▀[0;1;33;43m░▒▓▓▓[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m█[0;33m▀[0;1;33m██▄[0m    [1;36m ▌[0m     [1;33m  [0;1;30m■▐[0;1;33m [0m                                [1m▄▄[0;1;36m▄[0;36m▄▄▄[0m
 [1;35;45m░[0;35m▄▄[0;37m [0;33m▀▀[0;1;33;43m░▒▓▓▓[0;1;33;40m█[0;1;33;43m▓▓[0;1;33;40m▌[0m   [1;36m█ [0m       [1;33m [0;1;30m▌[0m [1;30m▀▀[0m [1;30mone.. two.. three.. weeee![0m         [36m▀▄[0m
@@ -61,7 +61,7 @@ Write-Host '
 [1;33m▀▀[0m               [1;33m▀▀▀▄▄▄▄▄▄▄▀[0m   ▄▄[1m  [0;1;33m [0;33m▀▄[0m    [1;30mspecial greets to[0m
   [1;33msend your works[0m [1;33mto[0m     [1;33m▐▌[0m     ▀[1;47m░▒▓[0m [33m▐[0;1;33m▌[0m
                          [1;33m█[0m        ▀[1;47m░[0;1;40m▌[0m [33m█[0m      [1;30mh y p n o t i z e[0m
- [1;33mdexterek@tl.krakow.pl[0m   [1;33m▐▌[0m   [1;33m   [0;1;37m [0m▀[1m [0;1;33m ▐▌[0m
-                          [1;33m▀▄[0m        [1;33m▄▀[0m              [1;30mfor best intros ever!! |][0m
+ [1;33m                     [0m   [1;33m▐▌[0m   [1;33m   [0;1;37m [0m▀[1m [0;1;33m ▐▌[0m
+                          [1;33m▀▄[0m        [1;33m▄▀[0m              [1;30m                         [0m
                           [1;33m  ▀▀▀▀▀▀▀▀[0m      [1;30mkeep it up![0m
 [1;30m-----------------------------------------------------------[100 lines!!]--------[0m'

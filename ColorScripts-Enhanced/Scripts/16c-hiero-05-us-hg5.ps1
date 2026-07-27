@@ -5,7 +5,7 @@
 # Source SHA-256: c355be8d6c48cd0bfdb92bac68d250d85ab89b07f2217da2e4322dccf1acdcc9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-HG5.ANS by Firehead + Avenging Angel (Hieroglyphics); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hieroglyphics
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Hieroglyphics
@@ -36,7 +36,4 @@ Write-Host '
       [37m [0;1;31;47m▄[0;1;37;47m▀[0m   [1;31;41m▄[0;1;31;47m▀[0;1;31;40m▓[0m   [31m░▒▓▓[0;1;31;41m▀[0;1;31;47m▄▓[0;1;31;41m▄[0;31m▄▄  [0;1;30m▀[0;1;35m▀[0;35m▀[0;1;35m▒▒▒▒▒▒[0;31m █[0;1;31;47m▓▓[0;1;31;41m▄██[0;1;31;47m▀▀[0;1;31;41m▄[0;31m▄▄▄▄ [0;1;31m░░░[0;35m [0;1;30m▄[0;31m▄▄▄[0;37m [0;1;30;41m▄[0;1;31;41m▀[0;1;31;47m▄[0;1;31;40m▓░[0m
        [1;31;41m▀[0;1;31;47m█[0;1;30;41m▀[0;1;30;40m [0;31m▄[0;1;31;47m▓[0;1;31;41m▀[0;1;31;40m░[0m       [31m  ▀▀▀[0;1;30m▀[0;31m  ▄[0;1;31m▄[0m▄[1;31m▄[0;31m▄ [0;1;35m   [0;31m [0;1;30;41m▄[0;31m█[0;1;31;41m ▀[0;1;31;47m▓░░▄[0;1;31;41m▀[0;1;31;40m▒[0;1;31;47m▓▀[0;1;31;41m▄[0;31m▐[0;1;31m▒▒▒[0;1;30;41m▀[0;31m█[0;1;31;41m▄[0;1;31;47m▀[0;1;31;41m█[0;1;31;40m▒ [0m    [31m  [0m
         [31m▀[0;1;31m▒▒[0;1;31;41m▀[0;1;30;41m▄[0;1;30;40m▀[0m  h[1mieroglyphics[0m [1;30m▀[0;31m▀[0;1;31m▀▀[0;1;31;41m▀[0;31m██▓▓▒░░[0;37m  [0;1;30m▀[0;31m▀▀▀▀▐[0;1;31;41m ▀▀[0;31m▓▓▓▓▓▓[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0m        [31m     [0m
-               [37m                 [0;31m [0;37m [0;31m       [0;37m        [0;31m ░░░░░░░░░░[0m
-                  [31m             [0;37m [0;31m [0;37m [0;31m    [0m
-[37moutline by fyrehead[0m   [31m       [0;37m       [0m
-[37mreshaping and shading by avenging angel[0m'
+               [37m                 [0;31m [0;37m [0;31m       [0;37m        [0;31m ░░░░░░░░░░[0m'

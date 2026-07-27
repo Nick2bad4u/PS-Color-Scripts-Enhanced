@@ -5,7 +5,7 @@
 # Source SHA-256: ce60b80ec187b81380218be4395ad9c13b9ef9d8251cc6055d70a0e08ce3b6d2
 # Source License: FAL-1.3
 # Source Attribution: ROY-OBS.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Obession
 # SAUCE Author: ROY
 # SAUCE Group: READ THE INI FILE
@@ -34,4 +34,4 @@ Write-Host '
 [1;30m▒ [0;1;34;47m▒▒▒[0m [1;30m░ [0;1;34;47m▒▒[0m [1;34;47m▒▒▒[0m [1;30m░ [0;1;34;47m▒▒[0m [1;34;47m▒▒[0m [1;30m░ [0;1;34;47m▒▒▒[0m [1;34;47m▒▒▒[0m [1;30m░ [0;1;34;47m▒▒[0m [1;34;47m▒▒[0m [1;30m░ [0;1;34;47m▒▒▒[0m [1;34;47m▒▒[0m [1;30m░ [0;1;34;47m▒▒▒[0m [1;34;47m▒▒▒[0m [1;34;47m▒▒▒[0m [1;30m░ [0;1;34;47m▒▒[0m [1;34;47m▒▒▒[0m [1;30m▒ [0;1;34;47m▒▒[0m [1;30m▒[0m
 [1;30m░ [0;1;34;47m▓▓▓▓▓▓▓▓[0m [1;34;47m▓▓▓▓▓▓▓▓[0m [1;34;47m▓▓▓▓▓▓▓▓[0m [1;34;47m▓▓▓▓▓▓▓▓[0m [1;34;47m▓▓▓▓▓▓▓▓[0m [1;34;47m▓▓▓▓▓▓▓▓[0m [1;34;47m▓▓▓[0m [1;34;47m▓▓▓▓▓▓▓▓[0m [1;34;47m▓▓▓[0m [1;30m░ [0;1;34;47m▓▓[0m [1;30m░[0m
 [1;30m   [0;1;34m▀▀▀▀▀▀  ▀▀▀▀▀▀▀   ▀▀▀▀▀▀   ▀▀▀▀▀▀   ▀▀▀▀▀▀   ▀▀▀▀▀▀  ▀▀▀  ▀▀▀▀▀▀  ▀▀▀   ▀▀[0m
-[1;34m [0;1;30m■[0;32m■ [0;1;33mO[0;1;32mBSESSION [0;32m■ [0;1;33m2 L[0;1;32mINES [0;32m■ [0;1;33mP[0;1;32mCB [0;1;33m1[0;1;32m5.2 [0;32m■ [0;1;33mB[0;1;32mULLETIN [0;1;33mB[0;1;32mOARD [0;1;33mS[0;1;32mYSTEM [0;32m■ [0;1;33m1[0;1;32m.5 [0;1;33mG[0;1;32miG [0;1;33mS[0;1;32mTORAGE [0;32m■[0;1;30m■[0m'
+[1;34m [0;1;30m■[0;32m■ [0;1;33m [0;1;32m         [0;32m■ [0;1;33m   [0;1;32m     [0;32m■ [0;1;33m [0;1;32m   [0;1;33m [0;1;32m    [0;32m■ [0;1;33m [0;1;32m        [0;1;33m [0;1;32m     [0;1;33m [0;1;32m      [0;32m■ [0;1;33m [0;1;32m   [0;1;33m [0;1;32m   [0;1;33m [0;1;32m       [0;32m■[0;1;30m■[0m'

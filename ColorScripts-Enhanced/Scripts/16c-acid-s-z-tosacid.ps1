@@ -5,7 +5,7 @@
 # Source SHA-256: 837e1f036325782b777169b73f4168d50a49a9a204b7f94c979189afc9e19a42
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TOSACID.ANS by Tank (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -45,8 +45,4 @@ Write-Host '
 
                        [1;34m▄[0;1;34;44m▓▓▓▓▓▓[0;1;34;40m▄[0m     [1;34;40m▄[0;1;34;44m▓▓▓[0;1;34;40m▄[0m      [1;34;40m▄[0;1;34;44m▓▓[0;1;34;40m▀▀▄[0m
                        [1;34;40m▀  [0;1;34;44m▒▒[0m  [1;34;40m▀    [0;1;34;44m▒▒[0;34m▌ [0;1;34m▐[0;1;34;44m▒▒[0m      [1;34;40m▀[0;1;34;44m▒▒[0;34m▄[0m
-                         [34m▄[0;1;34;44m░░[0;34m▄ [0;1;34mHE    [0;34m▀[0;1;34;44m░░░[0;34m▀ [0;1;34mTHER [0;34m▀▄▄[0;1;34;44m░░[0;34m▀ [0;1;34mIDE[0m
-
-                               [1;32mS[0;32mys[0;36mo[0;1;36mp: [0;1;37mB[0mon[1;30mi[0;1;37mJ[0mon[1;30mi[0m
-                               [1;35mS[0;35mpe[0;31me[0;1;31md: [0;1;37m9[0m60[1;30m0 [0;1;37mD[0mS
-                           [1mN[0mum[1;30mb[0;34me[0;1;34mr: [0;1;37m9[0m72[1;30m-[0;1;37m4[0;1;30m-[0;1;37mP[0mRI[1;30m-[0;1;37mV[0mAT[1;30mE[0m'
+                         [34m▄[0;1;34;44m░░[0;34m▄ [0;1;34mHE    [0;34m▀[0;1;34;44m░░░[0;34m▀ [0;1;34mTHER [0;34m▀▄▄[0;1;34;44m░░[0;34m▀ [0;1;34mIDE[0m'

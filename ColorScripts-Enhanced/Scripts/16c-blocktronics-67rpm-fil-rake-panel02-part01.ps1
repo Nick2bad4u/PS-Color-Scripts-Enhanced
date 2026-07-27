@@ -5,7 +5,7 @@
 # Source SHA-256: eee97aeaa7232cdfbed17260c785235ed0ce926544a9e3099cd3e16b6128b4f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-rake.ans by filth (bL0CKTRONiCS); released in blocktronics-67rpm and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: RAKE S/T
 # SAUCE Author: filth
 # SAUCE Group: bL0CKTRONiCS
@@ -28,11 +28,11 @@ Write-Host '
 [1;36;44m                                              [0;44m                        [0;34;40m██████████[0m
 [34m████████████████████████████[0;1;36;44m             [0;44m                             [0;34;40m██████████[0m
 [34m██████████████████████████████████████████████████[0;1;36;44m             [0;34m█████████████[0;1;36;44m    [0m
-[1;37;44m*[0;1;36;44m evel knievel [0;1;37;44m*[0;1;36;44m  miami [0;1;37;44m*[0;1;36;44m voy a bailar [0;1;37;44m*[0;1;36;44m (your)  probe  (is on fire)[0;34m████████████[0m
-[1;36;44m  [0;1;37;44m*[0;1;36;44m crazy [0;1;37;44m*[0;1;36;44m this isn''t high school anymore [0;1;37;44m*[0;1;36;44m giant ray combs  (live)[0;34m████[0;34;44m██████[0;34;40m██[0m
-[1;36;44m folder [0;1;37;44m*[0;1;36;44m holy moses [0;1;37;44m*[0;1;36;44m annie [0;1;37;44m*[0;1;36;44m el camino [0;1;37;44m*[0;1;36;44m dom deluise [0;1;37;44m*[0;1;36;44m red tsunami[0;34m████[0;34;44m██████[0;34;40m██[0m
-[1;36;44mrl [0;1;37;44m*[0;1;36;44m mama  mama  [0;1;37;44m*[0;1;36;44m  jim breuer, your dead meat  (live) [0;1;37;44m*[0;1;36;44m peace corps   [0;34m█[0;34;44m██████[0;34;40m██[0m
-[1;36;44mtatcho [0;1;37;44m*[0;1;36;44m honk honk [0;1;37;44m*[0;1;36;44m mr. bojangles (live)    [0;1;37;44m2001 Krullbeast Records  [0;34m██[0;34;44m██████[0;34;40m██[0m
+[1;37;44m [0;1;36;44m              [0;1;37;44m [0;1;36;44m        [0;1;37;44m [0;1;36;44m              [0;1;37;44m [0;1;36;44m                            [0;34m████████████[0m
+[1;36;44m  [0;1;37;44m [0;1;36;44m       [0;1;37;44m [0;1;36;44m                                [0;1;37;44m [0;1;36;44m                        [0;34m████[0;34;44m██████[0;34;40m██[0m
+[1;36;44m        [0;1;37;44m [0;1;36;44m            [0;1;37;44m [0;1;36;44m       [0;1;37;44m [0;1;36;44m           [0;1;37;44m [0;1;36;44m             [0;1;37;44m [0;1;36;44m            [0;34m████[0;34;44m██████[0;34;40m██[0m
+[1;36;44m   [0;1;37;44m [0;1;36;44m             [0;1;37;44m [0;1;36;44m                                     [0;1;37;44m [0;1;36;44m               [0;34m█[0;34;44m██████[0;34;40m██[0m
+[1;36;44m       [0;1;37;44m [0;1;36;44m           [0;1;37;44m [0;1;36;44m                         [0;1;37;44m                         [0;34m██[0;34;44m██████[0;34;40m██[0m
 [34;44m██████████████████████████████████████████████████████████████████████████████[0;34;40m██[0m
 [34;44m██████████████████████████████████████████████████████████████████████████████[0;34;40m██[0m
 [34;44m██████████████████████████████████████████████████████████████████████████████[0;34;40m██[0m

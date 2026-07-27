@@ -5,7 +5,7 @@
 # Source SHA-256: 3ed6767771df5d38820b25c85f4bed6fbdbb3a28f78c2e7ff580022e7857b627
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIR-B420.ANS by zir (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DRAGON HOT YOGA GROW OP
 # SAUCE Author: zir
 # SAUCE Group: FiRE
@@ -40,7 +40,7 @@ Write-Host '
  [36m█[0;37m [0;1;30m░░░░░  [0;36m▀ ▀▀▀▀[0;1;30m    [0;36m▀▀   ▄▄▄██▄▄▄▄▄▄▄[0m             [36m▀▀▀[0;1;36;46m░▄[0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m ░░░░░ ░[0;36m [0;1;36;46m░[0m
  [36m█████[0;1;36;46m▀▀▀▀[0;36m█[0;1;36;46m▀▀▀▀▀▀▀▀[0;36m█[0;1;36;46m▀▀▀▀▀▀▀▀[0;36m█[0;1;36;46m▀▀[0;36m█[0;1;36;46m▀▀[0;36m██[0;1;36;46m▀[0;36m██[0;1;36;46m░░░[0;36m█[0;1;36;46m░░░[0;36m█▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m   [0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
 
-[37m [0;1;30m░░░[0m [1;32mzir[0m of [1;32mfire[0m graphix for [1;32mblender [0m4[1;32m/[0m20[1;32m/[0m2024[1;32m:[0m [1;32mDRAGON[0m / [1;32mHOT YOGA[0m / [1;32mGROW OP[0m [1;30m░░░[0m
+[37m [0;1;30m░░░[0m [1;32m   [0m    [1;32m    [0m             [1;32m        [0m [1;32m [0m  [1;32m [0m    [1;32m [0m [1;32m      [0m   [1;32m        [0m   [1;32m       [0m [1;30m░░░[0m
 
  [36m▀▀▀▀▀[0;1;36m▀▀▀▀[0;36m▀[0;1;36m▀▀▀▀▀▀▀▀[0;36m▀[0;1;36m▀▀▀▀▀▀▀▀[0;36m▀[0;1;36m▀▀[0;36m▀[0;1;36m▀▀[0;36m▀▀[0;1;36m▀[0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [37m [0;36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;37meof[0m'

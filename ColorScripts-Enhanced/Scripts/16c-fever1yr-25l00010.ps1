@@ -5,7 +5,7 @@
 # Source SHA-256: 79b63f0ede645c134b18bb3e78a6bb58b86694c29aa72f120bbaeab4475e8ba9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 25L00010.ANS by Fever (fever1yr); released in fever1yr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -44,9 +44,4 @@ Write-Host '
 [30;46m█[0;1;30;40m▓██▄█▌▐[0;1;30;47m████▓▓▒▀[0;30;47m▄▄▄▄▄▄[0;1;30;47m░░[0;30;47m     [0;1;30;47m░░░▒▒▒▓▓█[0;1;30;40m████▓███▓▐██████████▀[0;30;47m███[0;1;30;46m░░[0;30;46m   ▄▄▀▀▀ ▄▄[0;30;47m███[0;1;37;40m [0;30;46m▀[0m
 [30;47m█[0;1;30;40m▒▓██▀█▄█▓███▀[0;30;47m██[0;1;37;40m▄[0;30;47m█[0;1;37;40m▄[0;1;37;47m▄[0;1;37;40m█[0;1;37;47m▀[0;1;37;40m▄▄▄▄[0;30;47m▄▄▄▄▄▄▄▄[0;1;30;47m▓▓[0;30;47m▄[0;37;40m [0;1;30;40m▐[0;1;30;47m██[0;1;30;40m█▄█[0;1;30;47m█[0;1;30;40m▓▒▌█████████▄[0;30;47m█[0;30;46m▀[0;30;47m█[0;30;46m▌    ▀   ▄[0;30;47m██[0;30;46m▀▀[0;1;36;46m░[0;30;47m█[0;30;46m▀ [0;1;36;46m░[0m
 [1;30;40m░░▒▓██▄████▓▌▄[0;1;37;40m [0;1;37;47m▓▄[0;1;37;40m▐██[0;1;37;47m▌▓▓[0;1;37;40m██[0;1;37;47m▓▓[0;1;37;40m██▄██[0;1;37;47m░[0;30;47m▀█[0;1;37;40m▄[0;30;47m▀█[0;1;30;40m▀▀▀[0;1;30;47m██[0;1;30;40m▀▓▒▒░░▌▀█████[0;1;30;46m▓▒░[0;30;46m██[0;1;30;46m░░[0;30;46m  ▄▄▀▀▀ [0;1;36;46m░░▓▄[0;30;46m▐▌ [0;1;36;46m░▓[0m
-[1;30;40m░░░▒▓███████▄[0;1;37;40m ▐[0;1;37;47m▓░[0;1;37;40m▄[0;1;37;47m▓▄▀ ░▓▀[0;1;37;40m█[0;1;37;47m▄[0;1;37;40m██▀▐█[0;1;37;47m▓░[0;30;47m▐[0;1;37;40m█[0;1;37;47m▌[0;30;47m░▀░█▀[0;37;40m  [0;1;30;40m▐░░░▐█[0;30;47m█[0;1;30;40m▐▀█[0;1;30;46m▓▓▓░[0;1;30;40m▀[0;30;47m██[0;30;46m▀[0;1;30;46m░[0;30;46m ▀    [0;1;36;46m░▓▓█[0;30;46m▄██ [0;1;36;46m░▓█[0m
-[1;30;40mcunt------------------------------snatch------------------------------------cunt[0m
-[1;30;40merr cunt , .. no cunt ... damnit,cut and snip =)[0m [1;30m^^^^^^^^^^^^^^[0m
-[1;30mheh , well i haven''t gone to bed tonight [0m
-[1;30mit''s the hulk when mcfarlane drew him[0m
-[1;30msd: greats [0m'
+[1;30;40m░░░▒▓███████▄[0;1;37;40m ▐[0;1;37;47m▓░[0;1;37;40m▄[0;1;37;47m▓▄▀ ░▓▀[0;1;37;40m█[0;1;37;47m▄[0;1;37;40m██▀▐█[0;1;37;47m▓░[0;30;47m▐[0;1;37;40m█[0;1;37;47m▌[0;30;47m░▀░█▀[0;37;40m  [0;1;30;40m▐░░░▐█[0;30;47m█[0;1;30;40m▐▀█[0;1;30;46m▓▓▓░[0;1;30;40m▀[0;30;47m██[0;30;46m▀[0;1;30;46m░[0;30;46m ▀    [0;1;36;46m░▓▓█[0;30;46m▄██ [0;1;36;46m░▓█[0m'

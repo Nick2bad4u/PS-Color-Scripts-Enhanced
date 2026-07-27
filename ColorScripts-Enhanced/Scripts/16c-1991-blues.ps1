@@ -5,7 +5,7 @@
 # Source SHA-256: bd6ea95e8217f0e6ca6c292671683b01345803f0422aac217d4e3d23199e7ae8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLUES.ANS by Scott Graphix (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -34,11 +34,7 @@ Write-Host '
 
 
 
-[30mBT200L4O1CEGAB-A8G.ECEGAB-A8G.EFA>CDE-D8C.<ACEGAB-A8G.EGB>[0m
-[30mDEFE8D.<BCEGAB-A8G.ECEGAB-AGECEGAB-AGEFA>CDE-DC<A><CEGAB-AGEGB>[0m
-[30mDEFED<BCEGAB-AGL4O1B-2.P4B-A8B-.P4B-2.P4B-A8B-4.P4>E-2.P4E-D8E-.P4[0m
-[30m<B-2.P4B-A8B-.P4>F2.P4FE8F.P4<B-2.P4B-A8B-.P1P1P1P1P1P1P1P1P1P1P1P1[0m
-[30mL4O2D2.P4DD-8D.P4D2.P4DD-8D.P4G2.P4GG-8G.P4D2.P4DD-8D.P4A2.P4AA-[0m
-[30mA8.P4D2.P4DD-8D.P4>CC<L8GFE-FG4G4FE-C4C2E-2F2G2>C4C4<GFE-FG4[0m
-[30mG4FE-C4G2F2C1G4G4G2GAGEG4G4C1C2♫[0m
-@PAUSE@[0m'
+[30m                                                          [0m
+[30m                                                               [0m
+[30m                                                                  [0m
+[30m<B-2.P4B-A8B-.P4>F2.P4FE8F.P4<B-2.P4B-A8B-.P1P1P1P1P1P1P1P1P1P1P1P1[0m'

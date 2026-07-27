@@ -5,7 +5,7 @@
 # Source SHA-256: f3a62f9c1ea91351d89b239469ddd9960d25b60322c7c5cbc1963dd5e1529db6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-FR1.ANS by Abomination (Union); released in uni-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flatlined Reality
 # SAUCE Author: Abomination
 # SAUCE Group: Union
@@ -39,10 +39,9 @@ Write-Host '
 [37m█[0;1;37;47m░[0m█████▄ [1;30m█[0;33m█▄▄▄▄▄▄▀ [0;1;30m█[0;33m█▀▀▀    [0;1;30m█[0;33m▄▄▄▄▄▄██ [0;1;30m█[0;33m█ [0;37m▀▀▀▀ [0;1;30m█[0;33m█ [0;37m▄▄ [0;33m██ [0;37m▄▄ [0;1;30m▀[0;33m▀▀▀▀▀▀▀██ [0;37m█████████[0;1;37;47m░[0m█
 █[1;47m▒[0m██████ [33m▀▀ [0;37m▄▄▄▄ [0;1;33m▀ [0;33m▀▀▀▀▀▀▀[0;1;33m▀ [0;33m▀ [0;37m▄▄▄▄ [0;33m▀[0;1;33m▀ [0;33m▀▀▀▀▀▀[0;1;33m▀ [0;33m▀▀ [0;37m██ [0;33m▀[0;1;33m▀ [0m██ [1;30m▀▀[0;33m▀▀▀▀▀▀▀[0;1;33m▀ [0m█████████[1;47m▒[0m█
 █[1;47m▓[0;1;40m▀▀[0m▀[1m▀[0m▀▀[1m▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀[0m▀▀[1m▀[0m▀[1m▀▀[0;1;47m▓[0m█
-█▓                             [33mf[0;1;33ml[0ma[1mtined [0;33mr[0;1;33me[0ma[1mlity[0m                               ▓█
+█▓                             [33m [0;1;33m [0m [1m      [0;33m [0;1;33m [0m [1m    [0m                               ▓█
 █▒                                                                            ▒█
-█░     [1;30m- UNiON World Head Quarters - S: [0;1;33mN[0;33me[0;1;30murotic and [0;1;33mN[0;33ma[0;1;30milz - 613[0;33m-[0;1;30m824[0;33m-[0;1;30m7375 -   [0m░█
-[1;30;47m░[0m           [33mansi by the keenest guy in the world.. [0;37mA[0;1;37mbomination [0;33mof [0;37mU[0;1;37mnion[0m        [1;30;47m░[0m
-[1;30;47m▒[0m                    fresh skull taken from wizard [1m#[0m28 pg[1m.[0m15                   [1;30;47m▒[0m
-[1;30;47m▓█[0;1;30;40m▄[0m▄[1;30m▄▄[0m▄▄▄[1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▄[0m▄▄▄[1;30m▄▄[0m▄[1;30m▄[0;1;30;47m█▓[0m
-[1;34;40muNiON.. yEZZ.. WE gET YOu clOzER to GoD.. and dOn''T yOU tELL mE hoW i fEEL!!nINY[0m'
+█░     [1;30m                                 [0;1;33m [0;33m [0;1;30m           [0;1;33m [0;33m [0;1;30m         [0;33m [0;1;30m   [0;33m [0;1;30m         [0m░█
+[1;30;47m░[0m           [33m                                       [0;37m [0;1;37m           [0;33m   [0;37m [0;1;37m    [0m        [1;30;47m░[0m
+[1;30;47m▒[0m                                                  [1m [0m     [1m [0m                     [1;30;47m▒[0m
+[1;30;47m▓█[0;1;30;40m▄[0m▄[1;30m▄▄[0m▄▄▄[1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▄[0m▄▄▄[1;30m▄▄[0m▄[1;30m▄[0;1;30;47m█▓[0m'

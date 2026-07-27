@@ -5,7 +5,7 @@
 # Source SHA-256: 79fa8c69c8f59a32623c532ea05033ff1d95d25b41f39d4610cf9b6357112dec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-MORAL.ANS by Arlequin + Diamond Darrell (circe06); released in circe06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -32,6 +32,4 @@ Write-Host '
 [35m [0;1;35m▓[0;1;35;47m▀▀[0;1;35;40m▓▒▒▒▒[0;35m▓▓  █[0;1;35;45m ░░▒▒▒[0;1;35;40m█[0;1;35;47m▓▓[0;1;35;40m█▓▓▓▒▒[0;35m█ [0;1;35m▒▒▒▒▓▓▓▓█[0;1;35;47m▓▓▓[0;1;35;40m█▓▓[0;35m▀ ▄▀[0;1;35m▒[0;35m [0;37m [0;34m░[0m
 [34m▓[0;35m [0;1;35m▓[0;1;35;47m▄[0;1;35;40m█▓▓▓▓░[0;35m  █[0;1;35m▒▒▓▓██[0;1;35;47m▀▀  ▀▀▀[0;1;35;40m█▓▓[0;35m██ [0;1;35m░▓▓█[0;1;35;46m▀▀▓▓[0;1;35;40m█[0;1;35;45m▀▀[0;35m█▄▄[0;1;35m▒▒[0;35m▀▀[0m
 [1;34m█▄[0;35m ▀[0;1;35m▀[0;1;35;47m▀▀[0;1;35;40m███▒▒▓▓▓[0;1;35;47m▓▓▌[0m▓▓█[1;35;47m   [0;1;37;40m▒▒▒[0;1;35;40m██▓▓▒▒[0;35m▀[0;1;35m▀▀▀[0;35m ▀▀▀▀ [0;1;30mDd! & Arl / Circe 98[0m
-[35m  [0;1;34m   [0;35m   ▀▀[0;1;35m▀▀▀▀▀▀[0m▀▀▀[1;35m▀▀[0;35m▀▀▀▀[0m
-[35m                           [0m
-[37m Diamond Darrell & Arlequin  /  Circe 1998[0m'
+[35m  [0;1;34m   [0;35m   ▀▀[0;1;35m▀▀▀▀▀▀[0m▀▀▀[1;35m▀▀[0;35m▀▀▀▀[0m'

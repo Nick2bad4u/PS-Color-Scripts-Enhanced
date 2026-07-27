@@ -5,7 +5,7 @@
 # Source SHA-256: cc7f4af979bd53e1d7df77b0cbca5f8de4182a2540fa5070489518ceaff60ffd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-todd goya.ans by filthy mcfarlane (BROCK T. RONICS); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Malebolgia Devouring His Spawn
 # SAUCE Author: filthy mcfarlane
 # SAUCE Group: BROCK T. RONICS
@@ -27,11 +27,11 @@ Write-Host '
 [30;43m   [0;1;33;40m▓[0;30;43m███▀▀          [0;33;40m███[0;33;43m                                                [0;1;33;43m▄[0;30;43m████     [0m
 [30;43m                                                                                [0m
 [30;43m                                                                                [0m
-[33;40m█[0;33;43m [0;30;43mVOiCE, LOrD HeAleR, The Modern One, Tex, Pi, BkC, SIEdGE HAmMer, BaD BlooD,   [0m
-[33;40m█[0;33;43m [0;30;43mRAGE, MERCiLESS DEViL, tRiCYCLe, RADiOACTiVE MAN, LAST V8, KYPM COkE, 17OI,   [0m
-[33;40m█[0;33;43m [0;30;43mAVENGER, SPARROW, Rascal, Satanic Sly, NE1, Scavenger, Buster, Leonardo,      [0m
-[33;40m█[0;33;43m [0;30;43mpoti, shiva, toot, noize, mr4tune, black weasel, junk. lord chaos, milkman,   [0m
-[33;40m█[0;33;43m [0;30;43mpandur, celsius, dfuse, dv8, jerusalem, osel, shine, seltorn, mother, zippy,  [0m
+[33;40m█[0;33;43m [0;30;43m                                                                              [0m
+[33;40m█[0;33;43m [0;30;43m                                                                              [0m
+[33;40m█[0;33;43m [0;30;43m                                                                              [0m
+[33;40m█[0;33;43m [0;30;43m                                                                              [0m
+[33;40m█[0;33;43m [0;30;43m                                                                              [0m
 [33;40m█[0;33;43m [0;30;43msmoke, poldi, potzkoten, gomorrha[0;33;40m█[0;30;43m                             [0;33;40m█████████[0;30;43m      [0m
 [30;43m                                                                                [0m
 [30;43m             [0;1;33;43m [0;30;43m                 [0;33;40m████[0;30;43m                                             [0m
@@ -53,10 +53,10 @@ Write-Host '
 
 
 
-[1;33;40m    song & such: ''i wanna see it burn'' by days n'' daze feat. juicy karkass[0m
+[1;33;40m                                                                          [0m
 
 
-         [1;33m    [0;33m [0;1;33mthis goes out to my OG west coast homie: smoke[0m
+         [1;33m    [0;33m [0;1;33m                                              [0m
 
 
 

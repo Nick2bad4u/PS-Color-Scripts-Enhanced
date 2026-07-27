@@ -5,7 +5,7 @@
 # Source SHA-256: 2a50c4ff579b6cfbc916948ccf48fb3723907a70ef0f926f3c63b90963df6b49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: nio-ecl.ans by Niobium (eco-12); released in eco-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
                                           [35m;[0m
                                          [35m,l.[0m
                           [1;35m [0;35m_[0;1;35m [0;35m_[0;1;35m [0;35m.[0;1;35m [0;35m.,[0;1;35m,┌[0;35m┌┌⌐g%[0;1;35m$$[0;35m.[0m
-      [35mggyg[0;1;35myy[0;35myyggyy[0;1;35my[0;35mgg[0;1;35mg[0;35mugU[0;1;35m$$$$$$$$$$$$$$$$$$$$[0;35mb.[0;1;35m        [0m
+      [35m    [0;1;35m  [0;35m      [0;1;35m [0;35m  [0;1;35m [0;35m   [0;1;35m                    [0;35m  [0;1;35m        [0m
        [1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;35m%┐▬[0;1;35m,[0;35m.._[0;1;35m  [0;35m_[0m
        [35m$[0;1;35m$[0;35m55[0;1;35m$$$$$$[0;35m55[0;1;35m$$$$[0;30;45m$$$[0;1;35;40m$$$$$$$$$$[0;1;31;45m▒▒▒▓░$[0;1;37;40m$[0;1;35;40m$$$$$$│[0;35m\└²[0;1;35m` [0;35m`[0m   [1;35m`[0m   [35m`[0m
        [35ml[0;1;35m$$[0;35m55[0;1;35m$$$$$$$$$$[0;30;45m$$$$$░░[0;35;40m` [0;1;35;40m`[0;35m''"ⁿ└└[0;1;35m*[0;35m$[0;1;35m│$$$$$[0;35m│\┘`[0m
@@ -23,10 +23,10 @@ Write-Host '
      [1;35m   [0;35m$[0;1;35m$$$$[0;35m555[0;1;35m$$$$$$$$$$[0;30;45m$[0;1;35;40m$$[0;35m;;[0;1;35m [0;31ml¼[0;1;31m¼m[0;31mmmm[0;1;31mm[0;31m¼[0m    [31m¼m[0;1;31mm.[0;31m.:[0;1;31m [0m         [1;35m     [0m
        [35ml$[0;1;35m$$$$$$$$$$$$$$$$$$$$[0;35m;;[0;1;35m [0;1;31m;¼¼[0m     [1;31m¼mm[0;31mmm¼[0;1;31m,,,[0;31m,,[0;1;31m,[0;31m,,,,[0;1;31m,[0;31m,[0;1;31m,,[0;31m,,[0;1;31m,[0m
      [35m.d$l[0;1;35m$$$$[0;35m$;[0;1;35m  [0;35m└²""` `[0;1;35m$$$$$[0;35m┘[0;1;35m   [0;35m_[0;1;35m   [0;1;31m   l      ¼[0;1;35m    [0m
-[1;35m [0;35m-*S│$$$l[0;1;35m$$$$$[0;35ml[0;1;35m  [0;35mlSS[0;1;35m$$$$$$$$$[0;35mb.%[0;1;35md║[0;35m║$b.[0;1;35m [0;1;31m ;[0;1;35m     [0;31mm¼[0;1;31mmm[0;1;35m [0;1;31mmm[0;31mmmm[0;1;31mm[0;31mmm[0;1;31mm[0;31mmmmm[0;1;31mmm[0;31mmmm[0;1;31mm[0;31mmmmm[0;1;31mm[0;31my[0m
+[1;35m [0;35m   │    [0;1;35m     [0;35m [0;1;35m  [0;35m   [0;1;35m         [0;35m   [0;1;35m ║[0;35m║   [0;1;35m [0;1;31m  [0;1;35m     [0;31m  [0;1;31m  [0;1;35m [0;1;31m  [0;31m   [0;1;31m [0;31m  [0;1;31m [0;31m    [0;1;31m  [0;31m   [0;1;31m [0;31m    [0;1;31m [0;31m [0m
      [35m`4$;[0;1;35m$$[0;35m55[0;1;35m$[0;35m$[0;1;35m  [0;35m;[0;1;35m$$$$$$$[0;35m555[0;1;35m$$$$$$$$$$[0;35mb,.. _  _  _ [0;1;35m  [0;1;32;45me[0;1;31;40m  c[0;35;46mo[0;1;35;40m [0;1;36;40m [0;1;35;40m [0;1;36;40ml[0;1;35;41mo[0;1;35;40m [0;1;33;40mv[0;1;34;40me[0;1;33;40m [0m        [31m¼[0m
        [35m`;$[0;1;35m$[0;35m55[0;1;35m$[0;35m$;[0;1;35m  [0;35m"``[0;1;35m$$$$[0;35m555[0;1;35m$$[0;1;31m$$[0;1;37m$[0;1;31m$[0;1;35m$$$$$[0;35ml²`[0;1;35m  `        [0m                      [31m¼[0;1;31m;[0m
-       [1;35m  [0;35m$[0;1;35m$$[0;35m5[0;1;35m$$[0;35ml[0;1;35m  [0;35ml[0;1;35m$$$$$$$$$$$$$$$$[0;35m│[0;1;35m\[0;35m┘`[0;1;35m   [0mit''s just about the feeling that[1;35m [0;1;31m¼[0;31m;[0m
+       [1;35m  [0;35m [0;1;35m  [0;35m [0;1;35m  [0;35m [0;1;35m  [0;35m [0;1;35m                [0;35m│[0;1;35m [0;35m┘ [0;1;35m   [0m                                [1;35m [0;1;31m [0;31m [0m
        [1;35m  [0;35m$[0;1;35m$$$$$[0;35m$[0;1;35m  [0;35m;┐,,[0;1;35m. [0;35m_$[0;1;35m$$$$$$$$[0;35mY`[0;1;35m       [0mwe put in out work              [1;31m¼[0;31m;[0m
        [1;35m  [0;35ml[0;1;35m$$$$$$$$$$$$$$$$$$$$[0;35m55[0;1;35m$[0;35ml[0;1;35m                    [0m                     [1;31m¼[0;31m¼[0m
        [1;35m  [0;35ml[0;1;35m$$$$[0;35m55[0;1;35m$$$$$$$$$$$$$$$$$$[0;35m$$b,_[0;1;35m                [0m              -n10 [1;35m [0;1;31m¼¼[0m

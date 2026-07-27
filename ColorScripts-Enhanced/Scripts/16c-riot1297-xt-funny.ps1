@@ -5,7 +5,7 @@
 # Source SHA-256: 16229701d693fcfe833baf1e1216adde54cfda03410ab3c2e9fecd39049d1879
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XT-FUNNY.ANS by Exocet (riot1297); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -22,8 +22,8 @@ Write-Host '
 [34m███▄[0;32m ▀▀ [0;34m▄█▌[0;1;32m▐[0;1;32;42m▓░[0;32m█▌[0;34m▓[0;1;32m▐[0;1;32;42m▓░[0;32m█▌[0;34m████[0;32m [0;1;32;42m▓▒░[0;32m█ [0;34m█[0;1;32m▐[0;1;32;42m▒[0;32m▀▀■[0;34m▄▄▄█[0;32m [0;1;32m▀[0;1;32;42m▒░[0;32m▀ [0;34m███▓[0;32m [0;1;32;42m▓░[0;32m█▌[0;34m ███████[0;32m [0;1;32m█[0;1;32;42m▒[0;32;42m█[0;32;40m▌ [0;1;32;40m█[0;1;32;42m░[0;32m█▌[0;34m▐████[0m
 [34m██▀▀▀▀▀▀▀██[0;32m [0;1;32m▀▀[0;32m█▄▄█[0;1;32;42m░[0;32m█▀ [0;34m██▀█▄[0;32m [0;1;32m▀▀[0;32m [0;34m▄█▄▄▄▄▀▀▀▀▀█▄▄▄▄█▀▀▀█▄[0;1;32m▐[0;1;32;42m▒░[0;32m▀ [0;34m██▀▀▀██[0;32m [0;1;32m▀[0;1;32;42m░[0;32;42m█[0;32;40m▄[0;1;32;42m▒░[0;32m█▀ [0;34m█▀▀██[0m
 [34m█[0m         [34m▀▀█▄▄▄▄▄▄▄▄█▀[0m   [34m▀▀▀▀▀▀[0m                    [34m▀▄▄▄▄█▀[0m     [34m▀█▄▄▄▄▄▄▄▄█▀[0m   [34m█[0m
-[34m▓[0m                                                                      [34mxt<riot>▓[0m
-[34m▒[0m   [37mPut commands ''n'' shit here![0m                        [1;33m  ▄▄▄████████▄▄▄[0m        [34m▒[0m
+[34m▓[0m                                                                      [34m        ▓[0m
+[34m▒[0m   [37m                           [0m                        [1;33m  ▄▄▄████████▄▄▄[0m        [34m▒[0m
 [34m░[0m                                [1;33m▄▄▄▄▄▄▄▄▄▄     [0m     [1;33m▄▄█████████████████[0;1;33;47m▓[0;1;33;40m▄[0m     [34m░[0m
                                 [1;33;47m▓▓[0;1;33;40m██▀▀▀▀▀█▀█[0;1;33;47m▓[0;1;33;40m▄[0m     [1;33m▄[0;1;33;47m▓[0;1;33;40m█████ ▐█████████████[0;1;33;47m▓▓[0;1;33;40m▄[0m
                                         [1;33m█▄▀[0;1;33;47m▓[0;1;33;40m█▀█[0;1;33;47m▓[0;1;33;40m▄ [0;1;33;47m▓[0;1;33;40m██████[0;1;37;40m░[0;1;33;40m ███████ ▐███████[0;1;33;47m▓[0;1;33;40m█[0m
@@ -38,12 +38,12 @@ Write-Host '
 
 ---------------[snap!]----------------------------------------------------------
 
-  This is the ''funnies'' menu requested by Destroyer for The Asylum, goofy head
-  and all. It''s colorful, scary, & original.. all in one ansi! Wewp!
+                                                                              
+                                                                    
 
              [1;30m░▒▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0;1;30;47m▓░[0;1;37;40m█[0m [1;30m [0m         [1m                          -[0mexocet
              [1;30m▒▓[0m [1;30m█▒[0m [1;30m █▄[0m   [1;30m██[0m     [1;30;47m▓░[0m
-             [1;30m▒[0m  [1;30m█▓[0m [1;30m █▓[0m   [1;30m██▒[0m     [1;30;47m▓[0m           Requests? <ehksohset@hotmail.com>
+             [1;30m▒[0m  [1;30m█▓[0m [1;30m █▓[0m   [1;30m██▒[0m     [1;30;47m▓[0m                                            
           ▄  [1;30m▒[0m  [1;30m█▓[0m [1;30m █▓[0m   [1;30m█▓▀▀▀[0m   [1;30;47m▒[0m  [1m▄[0m
     ■▄■█▄█[1;30m▄[0m▄[1;30m▄▄▄[0m [1;30m▀██▓▀[0m    [1;30m█▓[0m  [1;30m██▀[0m ▄▄▄[1m▄█[0m▄[1m▄█■[0m [1m▄■[0m
   ■▀ ■▀█[1;30m▀[0m▄▀[1;30m▀▀▀[0m  [1;30m█▓[0m [1;30m██▄[0m   [1;30m█▓[0m  [1;30m█▓[0m ▀▀▀[1m█[0m▀[1m▄▀█■▀■[0m
@@ -52,7 +52,4 @@ Write-Host '
              [1;30m░[0m  [1;30m▀█[0m [1;30m █▓[0m   [1;30m███▀▀[0m  [1;30;47m░░[0m
               [1;30m▀▒▄[0m [30m████████[0m    [1;30;47m▒░[0m▀
                 [1;30m ▀▀[0;1;30;47m▓[0;1;30;40m▄[0;30m███[0;37m  [0;1;30;47m▓[0m▄▀▀
-                    [1;30m [0;1;30;47m▒[0m▀▀▀▀
-
-       [1m [0m [1m"If it doesn''t have an ex-tee,[0m
-       [1mthen someone else prolly made it."[0m'
+                    [1;30m [0;1;30;47m▒[0m▀▀▀▀[0m'

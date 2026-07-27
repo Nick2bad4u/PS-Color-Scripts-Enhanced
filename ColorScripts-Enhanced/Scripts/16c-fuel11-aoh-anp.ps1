@@ -5,7 +5,7 @@
 # Source SHA-256: bfe2e470e60ab43da72e0b8141f9afb13955afd37035e7916a9448efa3fffb4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AOH-ANP.ANS by Angel of Hell (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Artnophobia
 # SAUCE Author: Angel of Hell
 # SAUCE Group: Fuel
@@ -38,13 +38,11 @@ Write-Host '
              [35;40m▐[0;1;35;45m▒[0;35m▄[0m                                                  [35m▀[0;30;45m▄[0;35;40m▄[0m
               [35;40m▀[0m                                                      [35;40m■[0m
 
-[1;37;40m[cut here][0m
-[1;37;40myea .. finally i finished this requet :) i had this request from the time when[0m
-[1;37;40mi was really bad at ansi :) and i could have never found a style i liked so[0m
-[1;37;40mhere is one i REALLY REALLY like :) for my bro sikOs and his fucking artnophobia[0m
+[1;37;40m          [0m
+[1;37;40m                                                                              [0m
+[1;37;40m                                                                           [0m
+[1;37;40m                                                                                [0m
 
-[1;37;40m* thanks to the knight for the tips, fixes, and advice.. and for being a fucking[0m
-[1;37;40m  cool dude.. ;) and.. hmm.. i owe him this:  [0;1;30;40mgreetz;  ▀[0;1;30;47m░[0;1;30;40m▀ [0;1;30;47m▓[0;1;30;40m▄▀  the knight[0m
-                                                  [1;30;40m▀ ▀▀  [0;1;30;47m▓[0m  [1;30;47m▓[0m [1;30;47m▓[0m  [1;30;40m▀▀ ▀[0m
-
-for trades.. aOh@ansi-art.org[0m'
+[1;37;40m                                                                                [0m
+[1;37;40m                                              [0;1;30;40m         ▀[0;1;30;47m░[0;1;30;40m▀ [0;1;30;47m▓[0;1;30;40m▄▀            [0m
+                                                  [1;30;40m▀ ▀▀  [0;1;30;47m▓[0m  [1;30;47m▓[0m [1;30;47m▓[0m  [1;30;40m▀▀ ▀[0m'

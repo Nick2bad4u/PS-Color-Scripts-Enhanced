@@ -5,7 +5,7 @@
 # Source SHA-256: 54a292316fee5ca46e5a1219ebe8b2b95dc3ec16014e98eced59d0df91268cd5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-ENT.ANS by Pariah (ACID(remorse1981)); released in rmrs-14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Entrophy
 # SAUCE Author: Pariah
 # SAUCE Group: ACID(remorse1981)
@@ -19,7 +19,7 @@ Write-Host '
 
               [1;36m            [0m
    [34m  [0m        [1;36m                      [0m
-[1mDRAWNby [0m- [1;36mpariah   [0m       [1;36m                        [0m [1m          [0;1;36mENTROPHY[0m [1m+o elastic[0m
+[1m        [0m  [1;36m         [0m       [1;36m                        [0m [1m          [0;1;36m        [0m [1m          [0m
 [33m                                     [0;1;36m            [0;33m                               [0m
 [33m   [0m             [1;31m______[0;31m__[0;1;31m_________[0;31m__[0m     [1;36m      [0m        [31m`7ç[0;1;31myyy[0;31myy[0m              [33m    [0m
 [31m  [0;33m [0;1;31m   [0m  [31m_,[0;1;31m╥g#8ÑÑ$$$$$$$$$$$$$$$$$$[0;31m$[0;37m [0;31m_,[0;1;31mg@5Ñ$$Ñ5@g[0;31m,_[0;37m  [0;31m_[0;1;31m__[0;31m$[0;1;31m$$$$$[0;31m$____[0;1;31m   [0;31m__[0;1;31m     [0;31m_[0;1;31m [0;33m  [0m
@@ -36,5 +36,4 @@ $[1m$$[0;1;36myy[0;1;37myyÑ$$[0m$ [34mpp[0;1;34mpppppppppppp[0;34mpp[0;
 ~~[1m"""""""[0m~~ [34m0[0;1;34m00000000000000000000000000000000000000000y0y[0;34mg[0;1;34m [0;34my[0;1;34m0000000[0;34m0[0;1;37m [0m~"[1m"""""""[0m~~
 [34m00[0;1;34m0000000000000000000000000000000000000000000000000000000000000000000000000000[0;34m00[0m
 [1;30m                                                                                [0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30m send all comments/requests to pariah@breaks.for.alienz.org or pariahFAT on irc[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

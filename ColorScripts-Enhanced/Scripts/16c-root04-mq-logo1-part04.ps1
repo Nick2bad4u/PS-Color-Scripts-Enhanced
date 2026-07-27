@@ -5,7 +5,7 @@
 # Source SHA-256: bf97c388f7446ce17517f5e90499c9d0487e293eb627e85efecfd1a78e44f242
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MQ-LOGO1.ANS by Moleql (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo stack
 # SAUCE Author: Moleql
 # SAUCE Group: Root
@@ -39,25 +39,25 @@ Write-Host '
 [1;30;40m───---─────-───----───-────────---──-─-───────────────-──--[ endofcolly ]-──-─--[0m
 
 
-[1;30moh my god!.. can it be???!?!@#$!#! [0mmoleql[1;30m has done a logo colly???!! what is the[0m
-[1;30mworld coming too? =).. bah.. logos arent that bad.. kinda fun to play with too.[0m
-[1;30mSOOOOOOOOOOO... i jumped on the bad wagon and started doing little [0mcollies[1;30m.[0m
-[1;30mBe gentle folks.. this is my [0mFIRST[1;30m colly ever, so... dont expect too much... yet[0m
-[1;30mif you want a little logo from me, contact me in 613 (art boards). NO.. just [0m
-[1;30mbecause im not a pro like flight or defiant dosent mean that they''re free. =)[0m
-[1;30mthey''re [0m2$[1;30m. suck it up. [0m
+[1;30m                                   [0m      [1;30m                                       [0m
+[1;30m                                                                               [0m
+[1;30m                                                                   [0m       [1;30m [0m
+[1;30m                             [0m     [1;30m                                              [0m
+[1;30m                                                                             [0m
+[1;30m                                                                             [0m
+[1;30m        [0m  [1;30m              [0m
 
-[1;30mgreetZZZZZZZZZZZZ.... [0m
-[1;30mflight    - logos are cool after all =)[0m
-[1;30mdefiant   - look.. im taking after you.. 23 liners only! <g>[0m
-[1;30mdislogic[0m  [1;30m-[0m [1;30mummm.. so is flight like prez now or something? =)[0m
-[1;30mnecrolyte[0m [1;30m-[0m [1;30mwhen is f0am comin''?[0m
-[1;30mfusion[0m    [1;30m-[0m [1;30myou need to type more messages.. i keep thinking your dead, heehe.[0m
-[1;30mmalformed[0m [1;30m-[0m [1;30mweightlifting is cool.[0m
-[1;30mgree[0m     [1;30m -[0m [1;30myour sense of humor is fucked.. i like it![0m
-[1;30mburnout[0m   [1;30m-[0m [1;30mascii''s dead.. draw ansi <g>[0m
-[1;30mbios      - i dunno if your boards ever coming up, but i drew for it anyways =)[0m
-[1;30mLupus Y.  - CPS logo... maple leaf sucks... i know. =)[0m
+[1;30m                      [0m
+[1;30m                                       [0m
+[1;30m                                                            [0m
+[1;30m        [0m  [1;30m [0m [1;30m                                                  [0m
+[1;30m         [0m [1;30m [0m [1;30m                    [0m
+[1;30m      [0m    [1;30m [0m [1;30m                                                                  [0m
+[1;30m         [0m [1;30m [0m [1;30m                      [0m
+[1;30m    [0m     [1;30m  [0m [1;30m                                          [0m
+[1;30m       [0m   [1;30m [0m [1;30m                            [0m
+[1;30m                                                                               [0m
+[1;30m                                                      [0m
 [1;5;31m■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■[0m
-[1;5;31m  [0mDUKE      - EAT ME YOU LITTLE PUKE. YOUR SO LAME I GET STOMACH PAINS LAUGHIN''
+[1;5;31m  [0m                                                                             
 [1;5;31m■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■[0m'

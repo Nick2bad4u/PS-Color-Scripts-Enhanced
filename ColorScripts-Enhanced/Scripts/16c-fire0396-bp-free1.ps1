@@ -5,7 +5,7 @@
 # Source SHA-256: ab3f755035e8824e71a78320eea2764f261a22fb1b723068189088b090b948cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BP-FREE1.ANS by Bigge Pif (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Free Coke
 # SAUCE Author: Bigge Pif
 # SAUCE Group: fire
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mgrindstone''s[0m
+[1;30m            [0m
           [1;36m▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄▄[0;1;37m▄[0;1;36m▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄▄[0;1;37m▄[0;1;36m▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄▄[0;1;37m▄[0;1;36m▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄▄[0;1;37m▄[0;1;36m▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄[0m
            [1;36m▓[0;1;36;46m▀ ▀█[0;1;37;40m█[0;1;36;40m▀█[0;1;36;46m█▓▓▓[0;1;36;40m█▓ ▓[0;1;36;46m▀ ▀█[0;1;37;40m█[0;1;36;40m▀█[0;1;36;46m█▓▓▓[0;1;36;40m█▓ ▓[0;1;36;46m▀ ▀█[0;1;37;40m█[0;1;36;40m▀█[0;1;36;46m█▓▓▓[0;1;36;40m█▓ ▓[0;1;36;46m▀ ▀█[0;1;37;40m█[0;1;36;40m▀█[0;1;36;46m█▓▓▓[0;1;36;40m█▓[0m
            [1;36;40m▒[0;1;36;46m▀   [0;36m▄  [0;1;36m▄[0;1;36;46m▒▒▒▓[0;1;36;40m░ ▒[0;1;36;46m▀   [0;36m▄  [0;1;36m▄[0;1;36;46m▒▒▒▓[0;1;36;40m░ ▒[0;1;36;46m▀   [0;36m▄  [0;1;36m▄[0;1;36;46m▒▒▒▓[0;1;36;40m░ ▒[0;1;36;46m▀   [0;36m▄  [0;1;36m▄[0;1;36;46m▒▒▒▓[0;1;36;40m░[0m

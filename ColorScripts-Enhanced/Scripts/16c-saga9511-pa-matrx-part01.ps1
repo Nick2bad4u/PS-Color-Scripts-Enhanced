@@ -5,7 +5,7 @@
 # Source SHA-256: f6d88a47ec9158e512a100d5e63b893602432d4d1e4ec26904b4ef335db7c60f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PA-MATRX.ANS by Parasite (Saga); released in saga9511 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Matrix Stack
 # SAUCE Author: Parasite
 # SAUCE Group: Saga
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-If you need a matrix for your board, don''t rip it.  Buy one from me =).  They''re
-cheap ([1m5 bucks[0m), and they rule.  Plus, you get something original for a change.
-Mail me at: [1;36mchendi@math.umbc.edu[0m for more information.
+                                                                                
+       [1m       [0m                                                                 
+            [1;36m                    [0m                      
 
 [1;30m---[0m[[1mInsomnia[0m][1;30m-------------------------------------------------------[0m[[1mbeast-[0m][1;30m---[0m
 

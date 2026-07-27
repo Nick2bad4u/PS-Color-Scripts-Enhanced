@@ -5,7 +5,7 @@
 # Source SHA-256: e06c908e5a9c3f0e1d398fed0f64835e6cb5c98e629de5a49d67be339bc4da20
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-MT.ANS by Pyx (Bamboosh); released in bmb-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Minor Threat
 # SAUCE Author: Pyx
 # SAUCE Group: Bamboosh
@@ -37,5 +37,4 @@ Write-Host '
                          [31m█[0;1;31;41m▓[0;1;31;40m██[0;1;31;47m▓▒▒▓[0;1;31;40m█[0;1;31;41m▓▄▄▄[0;31m▄▄▄▄▄▄▄▄▄[0;1;31;41m░▄▄▄[0;1;31;40m███████████[0;1;31;47m▓▒▒▓█[0;1;31;40m███[0;1;31;41m░[0m
 [31m+o infinite & bounty[0m     [31m▐[0;1;31;41m▐[0;1;31;40m███[0;1;31;47m▓▓▒▓[0;1;31;40m██████████████████████████[0;1;31;47m▓▒▓▓█[0;1;31;40m████[0;1;31;41m▌[0;31m▌[0m
 [31m       [0m                   [31m▀[0;1;31;41m▀▓[0;1;31;40m█████████[0;1;31;41m▓▀▀▀▀▒[0;1;31;40m████████████[0;1;31;47m▓▓▓▒▒▓[0;1;31;40m███[0;1;31;41m▓▓▀▀[0;31m▀[0m
-                           [31m ▀▀[0;1;31;41m░▀▀▀▀[0;31m▀▀▀▀    ▀▀▀▀[0;1;31;41m░▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀░[0;31m▀▀▀[0m
-[31m                                                                                [0m'
+                           [31m ▀▀[0;1;31;41m░▀▀▀▀[0;31m▀▀▀▀    ▀▀▀▀[0;1;31;41m░▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀░[0;31m▀▀▀[0m'

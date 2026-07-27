@@ -5,7 +5,7 @@
 # Source SHA-256: 80abbbb0f5ace5556fc636b8a8315a821e40d0683f5d8e40d66747649d37533f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MST!PNA.ANS by Mist (sclr-18); released in sclr-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -25,5 +25,4 @@ Write-Host '
                      [31m▐▄ [0;32m▀▌[0;31m▄[0;37m [0;1;32m▀▌[0;31m▄▄▄▄▄▄▄▄▄▄▌▄[0;1;31;41m▄▌[0;31m▄▄[0;37m [0;32m▀▌[0;31m▄▄▄▄▄▄▄▄▄▄▄[0;1;31;41m▄[0;31m▄[0;1;31;41m▄█[0;31m█[0m
                       [1;31;41m■▄[0;31m▄[0;37m [0;1;31;41m▐▄[0;31m▄ [0;1;31;41m ███████████████▄[0;31m▄ █[0;1;31;41m█████████████▌[0;31m▌[0;1;32mmst![0m
                       [31m▐[0;1;31;41m▐█▄█▀[0;31m▀▀[0;1;31;41m █████▀▀[0;31m▀▀▀[0;1;31;41m▀▀█████▄█▀▀[0;31m▀▀[0;1;31;41m▀▀██████▀[0;31m▀[0m
-                       [31m▀[0;1;31;41m▀▀[0;31m▀ [0;37m   [0;31m▀[0;1;31;41m▀▀[0;31m▀▀[0;37m    [0;31m   ▀▀[0;1;31;41m▀▀▀[0;31m▀▀[0m      [31m▀▀[0;1;31;41m▀▀[0;31m▀▀[0m
-                        [1;32m ansi by Mist/Spiral for Pienia/Spiral[0m'
+                       [31m▀[0;1;31;41m▀▀[0;31m▀ [0;37m   [0;31m▀[0;1;31;41m▀▀[0;31m▀▀[0;37m    [0;31m   ▀▀[0;1;31;41m▀▀▀[0;31m▀▀[0m      [31m▀▀[0;1;31;41m▀▀[0;31m▀▀[0m'

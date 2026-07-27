@@ -5,7 +5,7 @@
 # Source SHA-256: 12c36121279da24abd027a86b961e272c0856aa609df910cfb78258ba7bd3a36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LO^TJT1.ANS by Lord (blur); released in blur9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Daily
 # SAUCE Author: Lord
 # SAUCE Group: blur
@@ -34,8 +34,5 @@ Write-Host '
   [32m [0;1;30m░▐███████▌[0;32m░[0;1;30m▐█████▓█████████████▀█████▄ ▄█████████▌[0;32m▓██▀[0;1;30m▄█▀█████░[0m
      [1;30m█████▀██▄██████▒████▓██▀█████▓██████▓████████▀██▄▄▄███▓█████ [0m
      [1;30m ▀▀██▓█████████▒███████▓█████▒██████▒████████▓████████▒██▀▀  [0m
-         [1;30ma▒nsi [0;1;33m([0;32mc[0;1;33m)[0;1;30m c░opyrigh▒t[0m [1;30mlor░d[0m   [32m.[0;37m [0;1;30m░[0;32m. .[0;37m [0;32mt[0;37m [0;32mr[0;37m [0;1;30m▒[0;32mo[0;37m [0;32mu[0;37m [0;32mt[0m   [1;30m░[0m
-          [1;30m░[0m                 [1;30m░[0m                     [1;30m░[0m
-[32m         [0m      [1;30msop [0;1;33m([0;32mjandor[0;1;33m.[0;32mcodine[0;1;33m.[0;32mmud[0;1;33m)[0m   [1;30mco [0;1;33m([0;32mlord[0;1;33m.[0;32mmud[0;1;33m)[0m
-                        [1;33m [0m [1;30mnum [0;1;33m([0;32mXxX[0;1;33m.[0;32mxXx[0;1;33m.[0;32mXxXx[0;1;33m)[0m
-             [1;30mcodine [0;1;33m([0;32mmember[0;1;33m.[0;32mboard[0;1;33m)[0m   [1;30mforge[0m [1;33m([0;32mmember[0;1;33m.[0;32mboard[0;1;33m)[0m'
+         [1;30m ▒    [0;1;33m [0;32m [0;1;33m [0;1;30m  ░       ▒ [0m [1;30m   ░ [0m   [32m [0;37m [0;1;30m░[0;32m   [0;37m [0;32m [0;37m [0;32m [0;37m [0;1;30m▒[0;32m [0;37m [0;32m [0;37m [0;32m [0m   [1;30m░[0m
+          [1;30m░[0m                 [1;30m░[0m                     [1;30m░[0m'

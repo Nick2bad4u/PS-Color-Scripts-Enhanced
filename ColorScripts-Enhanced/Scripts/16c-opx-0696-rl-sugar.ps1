@@ -5,7 +5,7 @@
 # Source SHA-256: c8cd25cf9a6b22a9149ba0d84db00e8ad523003ce9e7b7e24e96aa732e3dab70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-SUGAR.ANS by Rawlock (Opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .SUGAR.
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -29,9 +29,4 @@ Write-Host '
     [35m▀▀▀▀▀ [0;37m [0;32m▀[0;1;36;42m▀[0;1;36;40m▄▄ [0;35m  [0;1;36m▀[0;32m▄[0;1;36;42m▄▓[0;1;36;40m█▀ [0;35m▀▀▀▀▀[0;1;36m [0;32m█[0;1;36m█[0;1;36;42m▓[0;1;36;40m ▄▄ [0;35m▀[0;1;36m [0;32m▄[0;1;36;42m▄[0;1;36;40m▀ [0;32m▀[0;1;36;42m▀[0;1;36;40m█[0;1;36;42m▓[0;1;36;40m▄ [0;35m▀▀▀[0;32m ▄[0;1;36m▄[0;1;36;42m▄[0;1;36;40m▀ ▀▄ [0;35m▀[0;37m [0;32m▀[0;1;36;42m▀[0;1;36;40m▄[0m [35m▀▀▀▀▀[0;1;36m ▄▀[0m
 [1;33m    [0m  [31m▀[0;1;33m [0;33m ▄[0;1;33;43m░[0;33m▄[0;35m [0;37m [0;32m▀[0;1;36m▀▀▀▀▀▀[0;35m  [0;32m▀[0;1;36;42m▀[0;1;36;40m▄▄  [0;32m▄[0;1;36;42m▄▓[0;1;36;40m▀ [0;33m [0;1;36m [0;32m▀[0;1;36m▀▀▀▀ [0;33m▄[0;1;33;43m░[0;33m▄[0;1;36m [0;32m▀[0;1;36m▀[0;1;36;42m▀[0;1;36;40m█[0;1;36;42m▓[0;1;36;40m▄[0;1;36;42m▄[0;1;36;40m▀▀ [0;33m [0;32m █[0;1;36;42m▓[0;1;36;40m▀[0;33m ▀▀[0;37m [0;32m▀[0;1;36;42m▀▓[0;1;36;40m█▄▄▄[0;1;36;42m▓[0;1;36;40m█▀[0m
  [35m [0;37m  [0;35m   [0;1;31m [0;35m  [0;33m▀[0;35m [0;1;31m▄[0;35m [0;37m [0;32m▄[0;1;36m▄ [0;1;36;42m█[0;1;36;40m ▄[0;35m    [0;37m [0;32m▀[0;1;36m▀▀▀[0m [35m         [0;31m▀[0;35m  [0;33m▀[0;35m [0;1;31m▄[0;35m [0;37m   [0m      [1;30m        [0m [1;30m [0mrawlock!
-              [1;34m  [0;32m▀[0;1;36;42m▀▓[0;1;36;40m▀[0m. . .[1;30m φ [0mS U G A R [1;30mφ[0m .[1;30m [0m. .
-
-
-
-
-                                                            [32m [0m'
+              [1;34m  [0;32m▀[0;1;36;42m▀▓[0;1;36;40m▀[0m. . .[1;30m φ [0mS U G A R [1;30mφ[0m .[1;30m [0m. .[0m'

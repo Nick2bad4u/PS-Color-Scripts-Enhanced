@@ -5,7 +5,7 @@
 # Source SHA-256: 2cedd0ba7d485459f35f2deb7a070fe4407c0a54ff1b25decd38f8bb17c9a893
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DLT-ARC.ANS by dalton (Arc/Plf); released in arc-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Arc
 # SAUCE Author: dalton
 # SAUCE Group: Arc/Plf
@@ -40,5 +40,4 @@ Write-Host '
           [34m█[0;1;34;44m▓[0;1;34;47m▓[0;34m█[0m   [34m▀█[0;1;34;44m▀▀▀▀ [0;34m▀[0m      [37mAlphaforce low resolution art                    [0m
            [34m▀▀[0m      [34m ▀▀   [0m
 
-[37m-------------------------------------------------------------------------------[0m
-[37mdalton@alpha-force.org <-- requesta![0m'
+[37m-------------------------------------------------------------------------------[0m'

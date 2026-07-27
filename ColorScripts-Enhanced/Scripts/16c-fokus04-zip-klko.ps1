@@ -5,7 +5,7 @@
 # Source SHA-256: 75780815a993e425a9ab1370c34d9eb08d79d431404039e4886313f6bb7ef7aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZIP-KLKO.ANS by zippy (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Soing
 # SAUCE Author: zippy
 # SAUCE Group: Fokus fonting
@@ -37,10 +37,4 @@ Write-Host '
                       [31m [0m
 
 
-[1;30m///[0m
-[1;30m    for soing as a late birthday present - "man, you CAN draw, so wake up!"[0m
-[31m   [0;1;30m only one contribution for the fokus pack. phew, i suck. er, i dont take [0m
-[1;30m    requests anymore cos i am too lazy for them. contact me : zipbm@gmx.net[0m
-   [1;30m and go to[0m [1;30mhttp://www.darkillustrated.org/design[0m [1;30mfor art&webdesign! it`s[0m
-   [1;30m still under construction, so keep an eye on it!                  [0m
-  [1;30m              [0m'
+[1;30m///[0m'

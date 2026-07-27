@@ -5,7 +5,7 @@
 # Source SHA-256: 36be1a121985eba714be1a848d23c7c6a7a0713ce4d265f0e533b07d96b55c72
 # Source License: FAL-1.3
 # Source Attribution: ROY-BDN3.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -29,6 +29,4 @@ Write-Host '
         [34m▀[0;1;34m▀[0;34m▄[0;1;34m▄[0m                            [1;34m▄[0;34m▄[0;1;34m▀[0;34m▀[0m                [33m▀██[0m
             [34m▀[0;1;34m▀[0;34m▄[0;1;34m▄▄[0m                  [1;34m▄▄[0;34m▄[0;1;34m▀[0;34m▀[0m                      [33m▀[0m
                  [1;34m▀▀▀▄▄▄▄▄▄▄[0;36m▄[0;1;44m▄[0;36m▄[0;1;34m▄▄▀▀▀[0m
-                            [34m▀[0m
-
-[34mThis Ansi won the fast-ansi compo at BDN Party 3 in Berlin/Germany[0m'
+                            [34m▀[0m'

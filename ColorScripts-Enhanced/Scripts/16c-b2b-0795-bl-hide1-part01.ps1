@@ -5,7 +5,7 @@
 # Source SHA-256: 441a8dc34352e5a954947d660dce9e7a0f3edda1b057577299449e11c5cebb6f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-HIDE1.ANS by Blind Enemy (THE COEXiSTENCE,B2B); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: THE HiDEOUT - LOGiN #1
 # SAUCE Author: Blind Enemy
 # SAUCE Group: THE COEXiSTENCE,B2B
@@ -33,5 +33,4 @@ Write-Host '
 
 [1;30m                     [0m          [1;30mP R E S E N T S[0m
 
-  [1;30m [0m                        [1;30m  [0m   [1;30mA N O T H E R [0m
-'
+  [1;30m [0m                        [1;30m  [0m   [1;30mA N O T H E R [0m'

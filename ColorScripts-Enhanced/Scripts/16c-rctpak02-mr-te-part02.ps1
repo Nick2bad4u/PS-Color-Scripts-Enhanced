@@ -5,7 +5,7 @@
 # Source SHA-256: e79b07ba714d91f436e08025f738370f8aed7e474c598a991b0610c462b7daef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-TE.ANS by Mirage (rctpak02); released in rctpak02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 43-85
 # Columns: 1-80
 
@@ -50,6 +50,4 @@ Write-Host '
 [1;30;40m  1[0;31m6[0;1;31m.8 Ba[0;31mu[0;1;30md  [0;1;30;47m▒[0;1;30;44m [0;1;34;44m░[0;1;30;47m▒[0;1;30m▄▄▄▄▄ [0;1;30;47m▒[0;34m█[0;1;34;44m░[0;1;30;47m▒[0;1;30m▄▄▄ ▄▄▄▄▄[0;1;30;47m▒[0;1;34;44m▓▓[0;1;30;47m▒[0m   [1;30;47m▒[0;1;34;44m▒▓[0;1;30;47m▒[0m   [1;30;47m▒[0;1;30;44m [0;1;30;47m▒[0m  [1;30;47m▒[0;1;34;44m▓[0;1;30;47m▒[0m [1;30m▄▄▄▄▄[0;1;30;47m▒[0;1;34;44m▓▓[0;1;30;47m▒[0m    [1;30;47m▒[0;1;34;44m▓▓[0;1;30;47m▒[0m
              [1;30;47m▓[0;1;34;44m░░▒▒▓▓█[0;1;30;47m▓[0m [1;30;47m▓[0;1;34;44m░▒▒▓█[0;1;30;47m▓[0m [1;30;47m▓[0;1;34;44m░░▒▒▓▓█[0;1;30;47m▓[0m   [1;30;47m▓[0;1;34;44m▓█[0;1;30;47m▓[0m   [1;30;47m▓[0;1;34;44m░[0;1;30;47m▓[0m  [1;30;47m▓[0;1;34;44m█[0;1;30;47m▓[0m [1;30;47m▓[0;1;34;44m░░▒▒▓▓█[0;1;30;47m▓[0m    [1;30;47m▓[0;1;34;44m▓█[0;1;30;47m▓[0m
              [1m▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀   ▀▀▀▀   ▀▀▀  ▀▀▀ ▀▀▀▀▀▀▀▀▀    ▀▀▀▀[0m
-          [1;30mR[0;31mE[0;1;31mACT[0;31mO[0;1;30mR D[0mi[1mST[0mR[1;30mO ·[0;1m■[0;1;30m· [0;31mC[0;1;31mi[0;31mA [0;1;30mM[0mE[1mMBER BOA[0mR[1;30mD ·[0;1m■[0;1;30m· [0;31mA[0;1;31mNS[0;31mi [0;1;30mA[0mR[1mTISTS WELCO[0mM[1;30mE[0m
-       [1;30mSY[0mS[1mOP[0;1;30m: [0;1;31mMa[0;31mn[0;1;30mdor[0m     [1;30mCOSY[0mS[1mOP[0;1;30m: [0;1;31mMa[0;31mn[0;1;30mifest Dest[0;31mi[0;1;31mny[0m     [1;30mN[0mU[1mP[0;1;30m: [0;1;31mLo[0;31mr[0;1;30mds of A[0;31mc[0;1;31mid[0m
-                                             [1;30mA[0mN[1mSi[0;1;30m: [0;1mMi[0mR[1;30mAGE   F[0mO[1mNT[0;1;30m: [0;1mDa[0mr[1;30mk jes[0mt[1meR[0m'
+          [1;30m [0;31m [0;1;31m   [0;31m [0;1;30m   [0m [1m  [0m [1;30m   [0;1m■[0;1;30m  [0;31m [0;1;31m [0;31m  [0;1;30m [0m [1m        [0m [1;30m   [0;1m■[0;1;30m  [0;31m [0;1;31m  [0;31m  [0;1;30m [0m [1m           [0m [1;30m [0m'

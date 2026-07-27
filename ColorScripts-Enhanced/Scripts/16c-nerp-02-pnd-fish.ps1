@@ -5,7 +5,7 @@
 # Source SHA-256: 15951eb94e91bb80541a24f820edb4f26bc6974d1e141815babe927275dd0592
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PND-FISH.ANS by pandur (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: koenigs-fisch
 # SAUCE Author: pandur
 # SAUCE Group: nerp
@@ -37,5 +37,4 @@ Write-Host '
 [1;34;44m█[0;1;34;47m██▄▄░  ▀[0;1;34;44m▓[0;34m▌[0;37m [0;34m▄[0;1;34m▄[0m       [34m▀[0;37m  [0;34m▄[0m           [34m       [0;37m [0;1;34m   [0;36m  [0;1;32;46m▓█[0;1;32;42m▓▓▓▓[0;1;32;46m███[0;36m█ ▀[0;1;32m▀[0;1;32;46m▀█████[0;1;32;42m▓▓[0;1;32;46m▀[0;1;32;40m▀[0;36m▀ [0m
 [1;34;44m████[0;1;34;47m▓▓▓░ ▐[0;1;34;44m█▄[0;1;34;47m▄▌[0;1;34;44m▓[0;34m  ▄█[0;1;34;44m░░▓▓▓▓█[0;1;34;47m▓▓░░▒▒[0;1;34;44m█▓▓▓▓▒▒▒▒░░[0;34m███▄ [0;36m [0;1;32m▀▐[0;1;32;42m░░[0;1;32;46m▀▀[0;1;32;40m▀[0;36m▀        ▀[0;1;32m▀▀[0;36m▀[0m   [1;32m ''pandur[0m
 [1;34m▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;37m [0;34m▀[0;1;34m▀[0m                                    [1;32m▐[0m      [1;32mk ö n i g s % f i s c h[0m
-                           [34m [0m                      [1;32m▀[0m            [36m        [0m
-[37m..// 2nd place in go-compo#9 (german ansi compo)[0m'
+                           [34m [0m                      [1;32m▀[0m            [36m        [0m'

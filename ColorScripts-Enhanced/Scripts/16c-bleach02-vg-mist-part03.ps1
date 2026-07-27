@@ -5,7 +5,7 @@
 # Source SHA-256: a68d8ed36a31928fc81c48e24b3a7391ccac9145ff7c64a3d4d70c720613ef7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VG-MIST.ANS by Vertigo (Bleach); released in bleach02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mist
 # SAUCE Author: Vertigo
 # SAUCE Group: Bleach
@@ -51,17 +51,16 @@ Write-Host '
                         [1;36;46m▓█[0;1;36;40m▀[0;1;30;40m▒▓▀  [0;1;36;40m▀[0;1;36;46m█▓[0m [1;36;46m▓█[0;1;36;40m▀  ▄   █[0;1;36;46m█▓[0m [1;30m▀▓▒[0;1;36;46m▓█[0;1;36;40m▀[0m
                         [1;36m▀  [0;1;30m▀[0m      [1;36m▀ ▀[0m     [1;36m▀▀▀▀▀▀   [0;1;30m▀[0;1;36m▀[0m
                           [1;30m           [0m
-                    [1;30m [0m                [1mM[0;36mi[0;1;34ms[0;1;30mt[0m
+                    [1;30m [0m                [1m [0;36m [0;1;34m [0;1;30m [0m
 
-                    [1;30m  [0m      [36ms[0;1;34my[0;1;30ms[0;34m∙[0;36mver[0;1;34mtig[0;1;30mo[0;34m([0;36mble[0;1;34mac[0;1;30mh.[0;36mvir[0;1;34mtu[0;1;30me[0;34m)[0m
-                     [1;30m  [0m     [36mc[0;1;34mo[0;1;30ms[0;34m∙[0;36mpsio[0;1;34mnid[0;1;30me[0;34m([0;36mha[0;1;34mz[0;1;30me[0;34m.[0;36mshi[0;1;34mve[0;1;30mr[0;34m)[0m
-                      [1;30m  [0m        [36mfa[0;1;34maz[0;1;30my[0;34m([0;36mvir[0;1;34mtu[0;1;30me[0;34m)[0m
+                    [1;30m  [0m      [36m [0;1;34m [0;1;30m [0;34m [0;36m   [0;1;34m   [0;1;30m [0;34m [0;36m   [0;1;34m  [0;1;30m  [0;36m   [0;1;34m  [0;1;30m [0;34m [0m
+                     [1;30m  [0m     [36m [0;1;34m [0;1;30m [0;34m [0;36m    [0;1;34m   [0;1;30m [0;34m [0;36m  [0;1;34m [0;1;30m [0;34m [0;36m   [0;1;34m  [0;1;30m [0;34m [0m
+                      [1;30m  [0m        [36m  [0;1;34m  [0;1;30m [0;34m [0;36m   [0;1;34m  [0;1;30m [0;34m [0m
                        [1;30m  [0m   [36m6[0;1;34m1[0;1;30m9[0;34m∙[0;36m7[0;1;34m2[0;1;30m7[0;34m∙[0;36mst[0;1;34mi[0;1;30mf[0;34m([0;36m78[0;1;34m4[0;1;30m3[0;34m)[0;36m1[0;1;34m4.[0;1;30m4[0m
-                        [1;30m  [0m  [36mble[0;1;34mac[0;1;30mh[0;1;34m [0;36mmem[0;1;34mbe[0;1;30mr[0;1;34m [0;36mbo[0;1;34mar[0;1;30md[0m
-                        [1;30m  [0m  [36mvir[0;1;34mtu[0;1;30me[0;1;34m [0;36mmem[0;1;34mbe[0;1;30mr[0;1;34m [0;36mbo[0;1;34mar[0;1;30md[0m
+                        [1;30m  [0m  [36m   [0;1;34m  [0;1;30m [0;1;34m [0;36m   [0;1;34m  [0;1;30m [0;1;34m [0;36m  [0;1;34m  [0;1;30m [0m
+                        [1;30m  [0m  [36m   [0;1;34m  [0;1;30m [0;1;34m [0;36m   [0;1;34m  [0;1;30m [0;1;34m [0;36m  [0;1;34m  [0;1;30m [0m
                             [36mob[0;1;34mv[0;1;30m²[0m
 [1;30m ▄ [0;1;30;44m░[0m [1;30;44m░[0m [1;30;44m░[0;34m▀▀[0;1;30m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30m█[0m [1;30m [0;1;30;44m▒[0m [1;30;44m▒[0m [1;30;44m▒[0m   [1;30m  [0m [1;30mgreetz: psionide, asylum, suicyco, faazy,[0m [1;30mlord jazz, dweizel[0m   [1;30m  █[0m
-[1;30m█[0m  [1;30m▀▄▀[0m [1;30;44m▓[0;1;30;40m▄[0;1;30;44m▓[0m  [1;30mspiderman, and everyone else in bleach, virtue & haze[0m              [1;30m█[0m
-[1;30m ▀▀[0m  [1;30m  [0m    [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m
-[1;30mthere''s a method to my madness[0m'
+[1;30m█[0m [1;30m [0;1;30;44m▒[0m [1;30;44m▒[0m [1;30;44m▒[0m   [1;30m  [0m [1;30m                                         [0m [1;30m                  [0m   [1;30m  █[0m
+[1;30m█[0m  [1;30m▀▄▀[0m [1;30;44m▓[0;1;30;40m▄[0;1;30;44m▓[0m  [1;30m                                                     [0m              [1;30m█[0m
+[1;30m ▀▀[0m  [1;30m  [0m    [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m'

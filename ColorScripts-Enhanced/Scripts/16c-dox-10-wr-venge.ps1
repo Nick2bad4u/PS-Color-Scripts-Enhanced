@@ -5,7 +5,7 @@
 # Source SHA-256: 7719532e65a8edaf4bb9d3dd2e6e18037affdcbca46806312e413c4bcc449865
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WR-VENGE.ANS by war (dox_10); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: vengence
 # SAUCE Author: war
 # SAUCE Group: .
@@ -29,23 +29,12 @@ Write-Host '
   [32m▒▄▄[0;37m [0;32m [0m     [32m  [0m                        [1;34;44m     [0;30;44m░[0;34;40m▓░[0;30;44m▓[0m                         [33;40m▒ [0;32;40m▌[0;1;32;42m ▒[0;1;33;42m░[0;32m▒[0m
 [37m  [0;32m▀[0;1;33;42m░[0;1;32;42m░[0;32m█▀[0;37m [0;32m▀[0m    [32m [0m                             [34m  [0m                           [33m░[0;32m▀▀█[0;1;32;42m░[0;33m▒  [0m
 [37m  [0;32m [0;37m [0;32m▒▄[0;1;32;42m░[0m                                                                    [1;32;42m░[0;32m▄[0;33m░[0;32mwr[0m
-   [32m▐[0;1;32;42m▒░[0;32m [0m          [37mput your menu stuff right here, I would suggest[0m        [32m▀▀[0;1;32;42m░[0;1;33;42m░[0;1;32;42m▓[0;32m▌[0;33m  [0m
-   [32m ▀▀▀[0m        [37ma high intensity color so it stands out better.[0m           [32m [0;37m  [0;32m▀[0;37m  [0;33m [0m
+   [32m▐[0;1;32;42m▒░[0;32m [0m          [37m                                               [0m        [32m▀▀[0;1;32;42m░[0;1;33;42m░[0;1;32;42m▓[0;32m▌[0;33m  [0m
+   [32m ▀▀▀[0m        [37m                                               [0m           [32m [0;37m  [0;32m▀[0;37m  [0;33m [0m
 [37m [0;33m░[0;32m▄▄ [0m                             [37m--war[0m
 [37m [0;32m▐[0;1;32;42m█▒░[0;32m▀▀[0m                                                             [1;32;42m░[0;32m▄▄ [0;33m░[0;32m [0m
 [37m  [0;32m▀▀[0;33m▒[0m   [32m░[0m                                                     [32m  [0;37m [0;32m■▀▀▀[0;1;32;42m▒▓[0;1;33;42m░[0;32m▄▀▀■ [0m
    [33m  [0m                                                   [30;42m░[0;32;40m▓▄▄▀▀ [0m       [32;40m▀[0m
     [33;40m [0m                                                  [32;40m▀▀█[0;1;32;42m░[0m [33m▒▒[0m
                                                           [32m▒[0;37m  [0;33m [0m
-[37m----<cut>-----------------------------------------------------------------------[0m
-                [37mthis is for Kenneth E. Swartz...[0m
-
-[37m  ok .... you asked for a kick-ass menu, well, I didn''t have time or even feel  [0m
-[37m  like making anything good, but i through this together..  at first it was  [0m
-[37m    just to plain so i added the leaves/brush crap, and the blue splotches are[0m
-[37m  there just to calm your eye away from the logo that looks like crap.  This [0m
-[37m     is the best I could do for you....for now[0m
-
-                                                [1;37mwar[0;1;30m.[0md0x[1;30m![0mproductions
-
-     ps-   it''s a little long for a menu, but i didn''t have many options[0m'
+[37m----<cut>-----------------------------------------------------------------------[0m'

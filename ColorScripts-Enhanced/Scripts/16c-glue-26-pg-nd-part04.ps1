@@ -5,7 +5,7 @@
 # Source SHA-256: eade0450ea50cb252dcfcd5941580d0c5966c4cc9c0b8a8120883078e0370176
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PG-ND.ANS by polygon (glue); released in glue-26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: night daemon
 # SAUCE Author: polygon
 # SAUCE Group: glue
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-           [35;44m░░[0;34;40m█[0;35;44m░[0;34;40m█[0;30;44mswip your tears, because we didnt even know[0;34;40m███████[0m
-           [35;44m▒░[0;34;40m█[0;35;44m▒[0;34;40m█[0;30;44myour name, who would have thought one day we  [0;34;40m██[0;35;44m░[0;34;40m█[0m
+           [35;44m░░[0;34;40m█[0;35;44m░[0;34;40m█[0;30;44m                                           [0;34;40m███████[0m
+           [35;44m▒░[0;34;40m█[0;35;44m▒[0;34;40m█[0;30;44m                                              [0;34;40m██[0;35;44m░[0;34;40m█[0m
            [35;44m▓▒░▓░[0;30;44mwill bury you.[0;34;40m█[0;35;44m░[0;34;40m███████████████████████████████[0;35;44m ░[0;34;40m█[0m
            [35;44m█▓▒[0;35;40m█[0;35;44m▒[0;34;40m█[0;35;44m░░[0;34;40m██[0;35;44m░[0;34;40m█[0;35;44m░▒▓░[0;34;40m████[0;35;44m▒[0;34;40m█[0;35;44m░[0;34;40m████[0;30;44m\\ for you. night daemon[0;34;40m██[0;35;44m░[0;34;40m█[0m
            [35;40m██[0;35;44m▓[0;35;40m█[0;35;44m▓░▒▒░[0;34;40m█[0;35;44m▒░▒▓[0;35;40m█[0;35;44m▒░[0;34;40m██[0;35;44m░▓░▒[0;35;40m▓▓[0;35;44m░[0;34;40m██[0;35;44m░[0;34;40m██[0;35;44m░[0;34;40m█[0;30;44m1981-1997[0;34;40m███[0;35;44m░[0;34;40m███[0;35;44m░[0;34;40m██[0;35;44m ░[0;34;40m█[0m
@@ -40,16 +40,4 @@ Write-Host '
            [35;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  ▒▒▒▒▒▒▒▒▒▒▒   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
            [35;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   [0m
 
-[35;40mpolygon-glue------------------------------------------------------------------- [0m
-
-[35;40mAlright, well, this ansi has a big value for me.[0m
-[35;40mthis ansi is dedicate to the art god called Night Daemon, who commit suicide[0m
-[35;40mI know this will look like i''m alittle late in time since he died to 2 years[0m
-[35;40mago, but i still felt like i had to do this. I knew him personally since i was[0m
-[35;40msomething like 2 years old, and what really scares is when i look from my [0m
-[35;40mwindow, I can see where he jumped from. since he was my neighbor as well.[0m
-[35;40mand if you ask me. death to the people who doesnt respect the dead.[0m
-
-[35;40mthats all. i guess.[0m
-
-                                                 [35;40mrest in peace. [0m'
+[35;40mpolygon-glue------------------------------------------------------------------- [0m'

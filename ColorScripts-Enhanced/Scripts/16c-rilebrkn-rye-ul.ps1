@@ -5,7 +5,7 @@
 # Source SHA-256: 56251bf95dd32730bf669ca12dd2c0970ad632fb1685a88fdccfdad8d2170828
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ^RYE_UL.ANS by Toot + Alecs (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: chow.
 # SAUCE Author: alecs und toot.
 # SAUCE Group: RILE
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[34m(thanks to toot and alecs for the guest release.)[0m
+[34m                                                 [0m
 
                                              [1;37m  [0m              [33m▄▌░[0;30;43m▓[0m
 [37;40m░[0;30;47m▓[0;37;40m ▄▄▌▄▄▄[0;1;37;40m ░░▄▄▄▄▄[0m▄▄toot [1m&[0m alecs          [1m▄▄▄▌  [0m           [33m▄▄[0;1;31;43m▓▓▄▄[0;30;43m░[0;33;40m░[0;30;43m▓[0;37;40m ░[0;30;47m▓[0m
@@ -33,6 +33,4 @@ Write-Host '
 ▀▀ [31m▄[0;1;31;41m▄██[0;31m▄[0;1;31;41m█[0;31m▌▀▀[0;37m ▄[0;1;37;47m▄██▄[0m▄▐[1;47m▐[0;1;40m██[0;1;47m█▀[0m [31m▐[0;1;31;41m█[0;1;31;47m▓░▓[0;1;31;41m▌[0;31m▌[0;37m  ▄ [0;31m▀▀▐[0;1;31;41m▀██▀[0;31m▌▀[0;1;31m▀▀▀[0m   [1m▄▄▄▐[0;1;47m███▄[0;1;40m▄▄▄▄▄[0m▄▐[1;47m░░░[0m█▀
 [30;47m░░[0;37;40m░[0;31;40m▀▌▀▀ [0;37;40m ▄▐[0;1;37;47m▄▐██████▄▐██▄[0m▄[31m▀[0;1;31m▀▀[0;1;31;41m▀[0;1;31;47m▄▄[0;1;31;41m█▄[0;1;31;40m▄[0;31m▄[0;37m ▐[0;1;37;47m░░[0m▄[1m▄▄▄▄▄▄▄[0;1;47m▓▓█[0;1;33;40m████[0;1;37;47m█▓▓█████▌▀▀[0m███▀▀
 ░[30;47m▓[0m   [37;40m░[0;30;47m▓░░[0;37;40m███[0;1;37;47m▄██[0;1;33;40m███[0;1;37;47m██▄███▌▄▄[0m▄▄▄▄▄▄▄▄[1m▄▄[0;1;47m▓▓█████▌▀▀[0m▌[1m▀▀▀▀▀[0m▀▀░[30;47m▓[0;1;37;47m███▌▀[0m▀▀▀
-               [1m░▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀[1m▀▀▀[0m▀▀▀▀▀▀
-
-[35mcya later, from this rile releas[0;1;35me[0;34me[0;37m [0;34m..[0m'
+               [1m░▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀[1m▀▀▀[0m▀▀▀▀▀▀[0m'

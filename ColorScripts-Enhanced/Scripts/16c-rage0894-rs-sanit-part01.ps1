@@ -5,7 +5,7 @@
 # Source SHA-256: c914ae6e2497e3b74caba011145737aa2c49b0a549f13d4bc86414b30db11e2c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-SANIT.ANS by ReNeGAde SPiRiT (RaGE); released in rage0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Edge Of Sanity
 # SAUCE Author: ReNeGAde SPiRiT
 # SAUCE Group: RaGE
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-                         [36mΓ[0;1;30mH[0;1;36mi[0;1;30mS [0;36m0[0;1;30mUT[0;36m[[0;1;36mR[0;1;35ma[0;1;36mGE[0;36m][0;1;30mOU[0;36ms [0;1;30mPR[0;36mö[0;1;30mD[0;1;36mÜ[0;1;30mCTiO[0;36m∩[0m
-                        [1;30mW[0;1;36mú[0;1;30mZ CRE[0;36mÅ[0;1;30mTÉ[0;1;36mÉ [0;1;30mB[0;1;36mÿ [0;36mR[0;1;36me[0;36mN[0;1;36me[0;36mGAd[0;1;36me [0;36mSP[0;1;36mi[0;36mR[0;1;36mi[0;36mT[0m
+                         [36m [0;1;30m [0;1;36m [0;1;30m  [0;36m [0;1;30m  [0;36m [0;1;36m [0;1;35m [0;1;36m  [0;36m [0;1;30m  [0;36m  [0;1;30m  [0;36m [0;1;30m [0;1;36m [0;1;30m    [0;36m [0m
+                        [1;30m [0;1;36m [0;1;30m     [0;36m [0;1;30m  [0;1;36m  [0;1;30m [0;1;36m  [0;36m [0;1;36m [0;36m [0;1;36m [0;36m   [0;1;36m  [0;36m  [0;1;36m [0;36m [0;1;36m [0;36m [0m
 
 [36m [0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [30mA[0;1;37m█[0;31m█[0;1;30;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m█[0;1;37m█[0m

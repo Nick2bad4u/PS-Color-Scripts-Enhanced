@@ -5,7 +5,7 @@
 # Source SHA-256: c08aaee83bd7000d33d14b70430cd12e4eca677ae8c358d5a8d585764048a696
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BHABT-06.ANS by bad habit (ophidiac); released in oph-0013 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ^[[[[[[[[[2_
 # SAUCE Author: bad habit
 # SAUCE Group: ophidiac
@@ -18,7 +18,7 @@ Write-Host '
 
 
 ·······················[1;30m[[0;1;37m bad habit production 1996 [0;1;30m][0m····························
-"[1;30marea 5i[0m [1;30mfont[0m"
+ [1;30m       [0m [1;30m    [0m 
 
 
  [1;30m ▄▄██▀▀▀▀▀▀▀▀▀▀▓█▀▀▀▀▀▀▀▀▀▀██▀▀▀▀▀▀▀▀▀▀██▀▀▀▀▀▀▀▀▀▀████████▀▀▀▀▀▀▀▀▀▀█▓▀▀▀▀█▄ [0m
@@ -33,7 +33,7 @@ Write-Host '
 
 
 ················································································
-"[1;30mbedrock promotion ansi[0m"
+ [1;30m                      [0m 
 
                     [1;32m▄▄[0;1;32;42m░[0;32m▀[0m
            [1;32m   ▄[0;1;32;42m▓[0;1;32;40m▄[0m [1;32m▄[0;1;32;42m▓[0;32m▀[0;37m [0;1;32m    [0m
@@ -52,6 +52,6 @@ Write-Host '
    [1;30m█[0;1;30;46m▄▄▓[0;1;30;40m▄█▀▀[0m  [1;30m█[0;1;30;46m▄▄█[0;1;30;40m▄█▀▀[0m  [1;30m█[0;1;30;46m▄▄█[0;1;30;40m▄█▀▀[0m  [1;30m█[0;1;30;46m▄▄[0;1;30;40m█[0m [1;30;46m█[0;1;30;40m▀▀[0m  [1;30;46m▓▄▄[0;1;30;40m█▄[0;1;30;46m▓[0;1;30;40m▀▀[0m  [1;30m█[0;1;30;46m▄▄[0;1;30;40m█▄█▀▀[0m  [1;30;46m▓▄▄[0;1;30;40m█[0m [1;30m█▀▀bhabt [0m
 
                               [36m[[0;1;30m4i6[0;36m][0;37m [0;1;30m287[0;36m-[0;1;30m9634[0m
-                          [1;30mop''d by rockhead.badhabit[0m
+                          [1;30m                         [0m
 
 ·····················[1;30m[[0;1;37m the end of this shitty colly [0;1;30m][0m···························[0m'

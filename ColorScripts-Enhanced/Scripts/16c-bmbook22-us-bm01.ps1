@@ -5,7 +5,7 @@
 # Source SHA-256: a7577182f2383efad5976375a6968885f4ce04bc56fac3e844541f852d4c9b1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BM01.ANS by Avenger + Mr Wrong (bm & hrg); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Maiden
 # SAUCE Author: ave & mr. wrong
 # SAUCE Group: bm & hrg
@@ -39,11 +39,5 @@ Write-Host '
            [1;30m▀[0;1;30;42m▓[0;32m▀[0;1;33;42m▀[0;1;33;40m▄[0;1;33;42m░[0m   [34m ▀[0m     [1;30m ▀[0;32m ▀[0;1;32;42m▀[0;32m▄ [0;37m  [0;34m▀[0;37m  [0;1;30;42m▓[0;32m▀[0;1;30;42m▓[0;1;30;40m▀[0m         [34m▀[0;37m [0;32m ▀[0;1;32;42m▓[0;32m▌[0m     [1;30m▀▄[0;32m▀[0;1;32m██▄[0;1;32;42m▄[0;1;33;40m█[0;1;32;42m█[0;1;32;40m▄[0;32m [0m
              [1;30m▀ [0;32m▀▓[0m            [1;30m▀[0m   [1;30m▀[0;32m   [0;1;30m ▀[0;32m [0;1;30m█▌[0m            [32m ▄▀[0m       [1;30m▐█[0;32m ▀[0;1;33;42m▀[0;1;37;42m█[0;1;33;40m█[0;1;37;42m█[0;1;32;40m▓[0;1;37;40m░[0m░ ░
               [1;30m▀ [0;32m [0;1;30m▀[0m                [1;30m▀[0m      [1;30m▀[0;32m [0;1;30m▄[0m         [1;30m▀[0;32m [0m       [1;30m▄[0;32m [0;1;30m▀[0m    [32m▀[0;1;37;42m▀[0;1;32;40m▓[0;32m░ [0;1;30mave[0m
-             - [1;30m▀ [0m- b[1mLACK [0mm[1mAIDEN[0m - oldschool for the no school -  -    [32m ▀▄[0;37m [0;1;30mmrw[0m
-                                                                         [32m [0;1;30m▀[0;32m [0;1;30m▄ [0m
-
-
-
-
-
-                                                                            [1;30m [0m'
+               [1;30m▀ [0m   [1m     [0m [1m     [0m                                       [32m ▀▄[0;37m [0;1;30m   [0m
+                                                                         [32m [0;1;30m▀[0;32m [0;1;30m▄ [0m'

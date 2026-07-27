@@ -5,7 +5,7 @@
 # Source SHA-256: 43a6a92bcaae90d9100d79a8fd370e952e2cd88073535082f65f719c05849c85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-DYST.ANS by Mr.Wrong (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dystopia
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Irato
@@ -35,7 +35,5 @@ Write-Host '
   [1;30m▀▄▄██▓░    [0m        [1;30m ▓[0m  [1;30m    ▀[0m          [1;30m      ██▀▀▀▀▀▀▀█▌▀[0m     [1;30m█▀[0m  [1;30m▀▀▀▀▄███▀▀[0m
     [1;30m▀▀▀[0m  [1;30m [0m          [1;30m ▀[0m                       [1;30m▐▓▓▌[0m       [1;30m▀■[0m    [1;30m▀[0m  [1;30m[[0;1;37mwrng[0;1;30m][0m [1;30m▀[0m [1;30m▀▓[0m
                                            [1;30m ▄▓░▀[0m                           [1;30m▐▌[0m
-[1;30m-[0m [35md y s t o p i a[0;37m [0;1;30m-[0m  [1;30m[[0;1;37m418[0;1;30m][0m  URE[1;30m - [0mFISH[1m![0m  [1;30m- ▄▀[0m   [1;30m-[0m  admin [1;30m:[0;1;35m d e c a x [0;1;30m -[0m   [1;30m■▀[0m
-[1;30m ------------------------------------------------------------------------------[0m
- [1;30m-[0m This one is for Decax board, even if i don''t think he will use it, i hope he
-   liked it. [1;30m(the "D" is pure shit and the background shading too;"someday kid")[0m'
+[1;30m [0m [35m               [0;37m [0;1;30m [0m  [1;30m [0;1;37m   [0;1;30m [0m     [1;30m   [0m    [1m [0m  [1;30m  ▄▀[0m   [1;30m [0m        [1;30m [0;1;35m           [0;1;30m  [0m   [1;30m■▀[0m
+[1;30m ------------------------------------------------------------------------------[0m'

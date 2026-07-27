@@ -5,7 +5,7 @@
 # Source SHA-256: abe713381334660a458e71d20c22176c653a83cd7f136c2091cad81c2d552440
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ATL.ANS by Nail + The Knight (fire / fuel); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: atlantis
 # SAUCE Author: nail / teakay
 # SAUCE Group: fire / fuel
@@ -38,6 +38,4 @@ tk[1;30mfuel[0m                [33m [0m     [33m▄[0m     [33m [0m     
 [1;31;43m▒░░[0;33m██▓[0;30;43m░░[0;33;40m▄▄  ▀▀[0;1;31;43m ▀▓█[0;1;31;47m██[0;1;31;43m▓▒░[0;33m▀▀▀▀█[0;1;31;43m░[0;33m█ [0;37m   [0;34m▒░[0;37m    [0;34m ▐▄[0;37m   [0;1;34m ▀▐[0;1;34;47m▓░░[0;1;33;47m░░[0m▀[1;34m  [0m
 [1;31;43m░[0;33m█▀▀▐███[0;1;31;43m░░[0;33m██▄▌  ▀▀[0;1;31;43m▀▀▀▓▒░[0;33m██[0;30;43m░[0;33;40m▓▀ [0;37;40m [0;34;40m ░░ [0;37;40m        [0;34;40m▀[0;37;40m  [0;1;34;40m    [0m▀▐[1;34;47m [0;1;33;47m░[0m▌[1;34m     [0;34m                    [0m
                      [33m▀▀▀▀▀▀[0m                          [37m▀▀[0;1;34m [0m▄
-[1;30m---[0m
-[1;30mdedicated to all you "original"-lovers out there.. this is NO comic rip, but[0m
-[1;30m100% original stuff.. so what?[0m'
+[1;30m---[0m'

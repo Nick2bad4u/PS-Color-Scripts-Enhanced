@@ -5,7 +5,7 @@
 # Source SHA-256: 1ed2d4ac48afc8f6587231178c765c64d9eb3137aefabff0a9c34421d9b024c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LI-GOODB.ICE by Lithium (ice-9410-logo); released in ice-9410-logo and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -56,6 +56,4 @@ Write-Host '
        [31m▄█[0;1;31;41m▀[0;31m█▀█ [0;33m▀   ▌[0m                                   [31m▄▄███▌    █▀▀[0m      [31m▀██▌[0m
 [31m    ▄▄█▀▀   ▀▀[0m                                   [31m▄▄▀▀▀▀▀[0m        [31m▐[0m         [31m▀▀[0m
 [31m   ▀▀[0m
-[1;30m--8<--- cut here -------[0m
-[1;30mwell, this little ditty is a quicky i did,just cuz ya ever notice that[0m
-[1;30mgoodbye screens always suck?? :)...[0m     [30m-[0;1;30m- lithium [frozen.water][0m'
+[1;30m--8<--- cut here -------[0m'

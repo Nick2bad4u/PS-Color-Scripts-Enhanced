@@ -5,7 +5,7 @@
 # Source SHA-256: 46695708dce468f3b59982c1e3f131951fc3a8b025be015f97b19f01e28f59a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC03.ANS by Incesticide (gel-001); released in gel-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
                                                                    [36m█▀█[0;37m [0;36m█▀[0;37m [0;36m█[0m
                                                                    [36m█[0m   [36m█[0;37m  [0;36m█[0m
                                                                    [36m█[0m   [36m█[0;37m  [0;36m█[0m
-           [1;33msP [0m          [1;31m [0m    [1;31m.sdS$$$$Sbs.[0m                [1;33m Ps[0m       [36m█[0m   [36m█▀[0;37m [0;36m█[0m
+           [1;33m   [0m          [1;31m [0m    [1;31m            [0m                [1;33m   [0m       [36m█[0m   [36m█▀[0;37m [0;36m█[0m
            [1;33m`$[0m         [1;31m.sdS$$$$$$$$$$$$$$$$$$Sbs.[0m          [1;33m$`[0m       [1;30;46m░[0m [1;30;46m░[0m [1;30;46m░[0m  [1;30;46m░[0m
             [1;33m¶$[0m     [1;31m.sS$$$$$$$$$$$$$$$$$$$$$$$$$$Ss.[0;1;33m  [0m  [1;33m.s$¶[0m        [1;30;46m▒[0m [1;30;46m▒[0m [1;30;46m▒[0m  [1;30;46m▒[0m
             [1;33m`$$$b.[0m [1;31m$$[0;1;32m$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;31m$$$[0;1;33m .b$$$''[0m        [1;30;46m▓[0m [1;30;46m▓[0m [1;30;46m▓[0m  [1;30;46m▓[0m
@@ -38,6 +38,4 @@ Write-Host '
                     [1;33m`$$$$[0;1;37m$$$$[0;31m$$$$[0;1;37m$$$$[0;31m$$$[0;1;37m$$$$[0;1;33m$$$$$''[0m
                       [1;33m`$$$$[0;1;37m$$[0;31m$$$$[0;1;37m$$$$[0;31m$$$[0;1;37m$$[0;1;33m$$$$$''[0m
                        [1;33m`$$$$[0;1;37m$[0;31m$$$$[0;1;37m$$$$[0;31m$$$[0;1;37m$[0;1;33m$$$$$''[0m
-                         [1;33m`$$$$$$$$$$$$$$$$$$$''[0m
-
-                            [1;30mbowser gonna get ya![0m'
+                         [1;33m`$$$$$$$$$$$$$$$$$$$''[0m'

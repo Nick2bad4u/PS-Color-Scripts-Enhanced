@@ -5,7 +5,7 @@
 # Source SHA-256: df06dc5bec8c1e867535e0002ba4583b8d14cdd11cb7edc1dfb115556c225511
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DH01.ANS by Grymmjack + Mr Wrong (The Used Coalition); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dark Horizons
 # SAUCE Author: Multiple Artists
 # SAUCE Group: The Used Coalition
@@ -36,6 +36,4 @@ Write-Host '
     [34m▄█▀[0;1;34m▀[0;1;34;44m▀█▄[0;1;34;40m▄▄[0;34m▄[0;1;30m  [0;34m▀[0;1;34m▀▀[0;1;30m [0;34m▀[0;1;34m▀[0;34m▀[0;1;30m  ▄▄ ▀▀[0m [36m▄▄▀[0;1;36m▒▒[0;36m▀[0;37m [0;34m▄▀▀[0;36m▄[0;37m  [0;34m▄[0;1;34;44m▄[0;1;34;40m▀▀[0;34m▀[0;36m▄▄ ▄▄▄▄[0;37m  [0;34m▄[0;1;34;44m▄[0;1;34;40m▀▀▀[0;34m▀[0;1;30m  [0;34m▄[0;1;34m▄▄[0;1;34;44m▄█▀[0;1;34;40m▀▀[0;34m█▄[0m
        [34m▀▀▄▄[0;37m [0;34m▀[0;1;34m▀▀[0;1;34;44m▀▄[0;1;34;40m▄[0;34m▄[0;37m [0;36m▀[0;1;36;46m▀░[0;36m▀[0m   [36m ▄ ▀[0;1;36;46m▀░[0;36m▀█[0;1;36;46m░▄[0;36m▄[0;37m  [0;36m▀[0;1;36;46m░[0;36m▀[0;34m▀[0;37m [0;36m▄ ▀█[0;1;36;46m░▀[0;1;36;40m▒[0;36m▀▀▀ [0;37m [0;34m▀[0m   [34m▄[0;1;34m▄[0;1;34;44m▄▀[0;1;34;40m▀▀[0;34m▀[0;37m [0;34m▄▄▀▀[0m
 [37m  [0;36m       [0;37m [0;34m ▀[0m      [1;34m▀[0;34m▀▄[0;37m  [0;36m■▄[0;1;36;46m░[0;36m▄[0m     [36m ▄[0;37m [0;36m▀▀[0m         [36m▄[0;1;36;46m▄[0;36m▄▀▀[0;37m [0;36m▄[0m   [34m▀[0;37m  [0;34m▄▀[0;1;34m▀[0m   [36m  [0;37m [0;34m▀ [0;37m [0;36m      [0m
-            [34m▀[0m        [34m▄[0m   [36m▀[0;37m  [0;31md[0;1;30mh[0;1;33mA[0;1;30mo[0;1;33mR[0;1;30mr[0;1;33mK[0;1;30mi[0m [1;30mz[0m [1;30mo[0m [1;30mn[0m [1;30ms[0m   [36m▀[0;37m [0;36m [0;37m [0;36m▀[0;1;36;46m░[0;36m▀[0m    [34m▄[0m        [34m▀[0m
-
-                                     [1;30mGrymmjack & Mr.Wrong // The Used Coalition[0m'
+            [34m▀[0m        [34m▄[0m   [36m▀[0;37m  [0;31md[0;1;30mh[0;1;33mA[0;1;30mo[0;1;33mR[0;1;30mr[0;1;33mK[0;1;30mi[0m [1;30mz[0m [1;30mo[0m [1;30mn[0m [1;30ms[0m   [36m▀[0;37m [0;36m [0;37m [0;36m▀[0;1;36;46m░[0;36m▀[0m    [34m▄[0m        [34m▀[0m'

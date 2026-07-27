@@ -5,7 +5,7 @@
 # Source SHA-256: 64a985c82b00eab8aaf4ff89e71d3be8691c970b01d11377a2b8bd06117883ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-asc.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ascii
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
@@ -59,7 +59,7 @@ Write-Host '
                                                    [1;30m$$$   $$$$  $$$$$$$[0m
                                                      [1;30m$$$$$  $$$$$$$$$$[0m
                                                    [1;30m$$$$  $$$$$$$$$$$$$[0m
-                                                   [1;30m$  $$$$$$$abstrakt$[0m
+                                                   [1;30m                   [0m
 
 
 

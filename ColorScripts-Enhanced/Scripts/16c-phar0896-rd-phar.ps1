@@ -5,7 +5,7 @@
 # Source SHA-256: 480b0b0f54ca632134a40514f3b83081d3eb83b750cda8d4c437a1db4d5145b4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD!PHAR.ANS by RaBiD DoCToR (PHaR); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: PHaR PRoMo
 # SAUCE Author: RaBiD DoCToR
 # SAUCE Group: PHaR
@@ -38,7 +38,7 @@ Write-Host '
  [36m°[0;1;36m∙[0;36m°[0;1;37m`"""""[0;36m°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°[0;1;36m∙[0;1;37m`""""""""[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°[0;1;36m∙[0;36m°°[0;1;36m [0m
  [31m [0m
 [37m-----[PHaR aGaiN]---------------------------------------------------------------[0m
-[37m Anotha PHaR promo... oh boy.[0;1;37m                                              [0m
+[37m                             [0;1;37m                                              [0m
 --------------------------------------------------------------------------------
 ----------------------------------------------------------------------[eof]-----
 

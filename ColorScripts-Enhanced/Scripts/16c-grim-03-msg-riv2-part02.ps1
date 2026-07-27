@@ -5,7 +5,7 @@
 # Source SHA-256: 70c284b52a6a7c31c1d914aae5683e12b71101c8ff4ff51e8ea88f209b3dedb5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MSG-RIV2.ANS by Manslaughter (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-84
 # Columns: 1-80
 
@@ -37,9 +37,8 @@ Write-Host '
                                   [1;30;40m▀  [0;1;30;47m▄[0;1;30;40m▀▀[0m      [1;30;40m▀[0m                [1;30;40m▀[0;1;30;47m▄[0;1;30;40m▀[0m         [1;30;40m▀[0;1;30;47m▄[0m
 
 [1;30;40m    ┌────────[0m──────[1m────· ·  ·[0m                                            [1m·[0m
-[1m    [0;1;30m│Rive[0mndell [1mSysop : Fo[0mrce Ten  [1;30mCosys: Th[0me Master  [1mGRiM WHQ  [0mTCS Ne[1mt [0;1;30mHQ[0;1;37m·[0m
-[1;37m    [0m│   [1;30m20[0m1-808[1m-5574  660 [0mMB Onli[1;30mne  USR HST [0m14.4k O[1mNLY  0-7 [0mDay Files   [1m│[0m
-[1m    [0m│   [1;30mUlt[0mra Te[1mch  Apex  P[0mrognosi[1;30ms  Illumina[0mtus  PoW[1mR  ICA Co[0murier HQ   │
-    [1m│  [0;1;30mINC T[0mraine[1mrs EHQ  Dia[0mmond EH[1;30mQ  Unreal E[0mHQ  Reve[1mlation Al[0mpha Site  [1;30m│[0m
-[1;30m    [0;1;37m·[0m                                             [1;37m· · ·───────[0m────────[1;30m───┘[0m
-                           [1;37mMANSLAUGHTER GRiM/Trial[0m'
+[1m    [0;1;30m│    [0m      [1m          [0m         [1;30m         [0m          [1m          [0m      [1m  [0;1;30m  [0;1;37m [0m
+[1;37m    [0m│   [1;30m  [0m     [1m           [0m       [1;30m            [0m       [1m         [0m            [1m│[0m
+[1m    [0m│   [1;30m   [0m     [1m           [0m       [1;30m           [0m        [1m         [0m           │
+    [1m│  [0;1;30m     [0m     [1m           [0m       [1;30m           [0m        [1m         [0m          [1;30m│[0m
+[1;30m    [0;1;37m·[0m                                             [1;37m· · ·───────[0m────────[1;30m───┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 885efa6a57f5b77ecbc6309b56979d8e471e37602f6f3470c27596602fbf03d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: INT-GLUE.ANS by Internal (glue); released in glue-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: glue
 # SAUCE Author: Internal
 # SAUCE Group: glue
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[36minternal[0;31m([0;1;31mglue[0;31m/[0;1;31m7[0;31m)[0m        [1;35m░░[0m
+[36m        [0;31m [0;1;31m    [0;31m [0;1;31m [0;31m [0m        [1;35m░░[0m
               [31m▐▀[0m   [31m▀[0;37m  [0;31m▀[0;1;35;41m▀[0;1;35;40m▓[0;1;35;47m▓▓[0;1;35;41m▓▓░░[0;31m▄[0;1;31m░░[0m                                     [31m▄[0m
                    [35m▄[0m     [31m▀[0;1;35;41m▓░[0;31m█▀█[0;1;31;41m▀█[0;1;31;40m▓[0;1;31;41m▄▄ [0;31m▄▄▄[0;1;31m░░░[0m             [1;35mglue[0m              [31m▄[0m
                    [35m▐[0;1;36;45m▄[0;1;36;40m░░[0m    [31m▀▌[0;37m  [0;31m▀[0;1;31;41m ▀████▄▄[0;1;31;40m▓▓[0;31m███▄▄▄▄[0m                  [31m░[0m    [31m░[0;30;41m▓[0;31;40m▐[0;1;31;41m▄[0;31m▄[0m
@@ -37,4 +37,4 @@ Write-Host '
 [1;31;41m░░▓█▄[0;1;31;40m▄[0;31m▄[0;37m [0;35m  ▀▓▀[0m   [35m  [0m   [35m░[0m             [35m▀[0;1;36;45m▀[0;35m▌[0m      [35m [0m                 [35m▀[0;1;35m▀▀▀▀▀[0;1;35;45m▀▓[0;1;35;47m▄[0;1;35;45m▀[0;35m▀[0m     [31m ▄[0m
 [31m▓[0;30;41m░[0;1;31;41m▀▀▀[0;1;31;40m▓[0;1;31;47m▓▓[0;1;31;41m▄[0m  [30;45m▓[0m                         [35;40m▀[0;37;40m [0;35;40m▄[0m   [35;40m  [0m                       [35;40m▐[0;1;35;45m░[0;35m▀[0m   [31m░▄▄[0;1;35;41m▄██[0m
 [30;41m▓[0;31;40m░[0;30;41m▓[0;1;31;40m░░░[0;31m▀[0;1;31m▀[0;31m▀▀[0m        [1;34mG[0;32mlue [0;1;34m░[0m [1;34m1[0;32m997[0m                                       [35m▀[0;37m  [0;31m▄▄[0;1;35;41m░[0;31m▓[0;1;35;41m░░▓[0;1;35;40m▓[0;1;35;47m▓[0m
-                                    [1;34mB[0;32mringing [0;1;34mB[0;32mack the [0;1;34mF[0;32mun in [0;1;34mA[0;32mrt[0m          [30;41m▓[0;31;40m░[0;30;41m▓[0;1;35;40m░░░[0m'
+                                    [1;34m [0;32m        [0;1;34m [0;32m        [0;1;34m [0;32m      [0;1;34m [0;32m  [0m          [30;41m▓[0;31;40m░[0;30;41m▓[0;1;35;40m░░░[0m'

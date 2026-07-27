@@ -5,7 +5,7 @@
 # Source SHA-256: beb5672e2e23e6899b70f2c47b1528ceda2bc2602f0198b89e0dd6c0dd8685e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-ED.ANS by Trip (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eternal Damnation
 # SAUCE Author: Trip
 # SAUCE Date: 19951106
@@ -24,7 +24,7 @@ ask for money, but if you wish to pay me for  [1;30m--- ░░ - [0;1;37;47m�
 my services it will guarentee yourself an      [1;30m▒▄[0m     ▐[1;47m█▌[0m████  [1m▐[0;1;47m▌░[0m██[1;47m░[0m█         █
 ansi done by the first of the next month,      [1;30m░▒  ▄  [0m█[1;47m███▄■[0m▌  [1;47m██▄▄■[0m█▌   [1;30m░   [0m█▀
 prolly sooner. If you just want a freebie,  ▌     [1;30m▓  [0m▄[1;47m▀▀▀[0m▀▀▀  █▀▀▀      [1;30m▒  [0m█▀▀
-e-mail me and i''ll see what i can do, al-   ▌     [1;30m▒  [0m▀                 [1;30m░ [0m▄▄█
+                                            ▌     [1;30m▒  [0m▀                 [1;30m░ [0m▄▄█
 though i can''t guarentee [1;30m▄[0m you''ll get one.  ▀▀▀█  [1;30m░[0m       [1;30m░ ░   ▓   ░░   [0m█
 [1mWoa.. thats alot of text[0;1;30m▐▒[0m▄ [1m..haha[0m             █    [1;30m▒░[0m        [1;30m░▒ [0m▄▄▄▄▄▄█▀▀
 greetz: animal,obsid,nyc[1;30m░▒[0;1;37;47m░[0m▌,kk, max,mojo,r3p[1;30m  [0m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█          [1;30m▄▀▀[0m

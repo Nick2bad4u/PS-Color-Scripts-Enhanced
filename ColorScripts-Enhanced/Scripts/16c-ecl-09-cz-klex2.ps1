@@ -5,7 +5,7 @@
 # Source SHA-256: e9a7a4cbf5fa15b6767ff0c3478e981168e37eb31f4106318917821b55e09362
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-KLEX2.ANS by Cheeze (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -30,5 +30,4 @@ Write-Host '
               [36m░[0;1;33;46m▐▓▌[0;36m░[0m    [36m▄▄▄▄▄███░[0;37m   [0;1;30m░░[0m        ░[1;47m▐[0;1;40m█[0;1;47m▀[0;1;40m▀▀▀▀[0m▀[1m [0m▄[1m▄▄▄▄▄[0m▄
               [36m░[0;1;37;43m█[0;1;33;46m███▓▓▓▓▒[0;36m▀▀▀▀[0;1;33;46m░░ [0;36m░[0;37m [0;1;30mque''lexikal[0m ░[1;47m▐[0;1;40m████████[0;1;47m▀[0;1;40m▀▀▀▀▀[0m▀
 
-[1;30m─────────────────────────────────────────────────────────────────────────────── [0m
-yeah, so its kinda cheezey.. oh well. the q is definately hal influenced..  -cz[0m'
+[1;30m─────────────────────────────────────────────────────────────────────────────── [0m'

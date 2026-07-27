@@ -5,7 +5,7 @@
 # Source SHA-256: 0880d842222719dd392c1effa117d770f920922aa7e25b76f4f9b7a80568273a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GB-COLLY.ANS by geek_boy (lush); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: colly
 # SAUCE Author: geek_boy
 # SAUCE Group: lush
@@ -16,7 +16,7 @@
 
 Write-Host '
      ░[30;47m▓▓[0;1;35;40m░░[0m
-░[30;47m▓[0;35;40m ▄▄[0;1;37;45m░░[0;45m░[0;1;35;45m░░[0;1;35;40m░[0m geekboy - kickin out that completly average ansi!
+░[30;47m▓[0;35;40m ▄▄[0;1;37;45m░░[0;45m░[0;1;35;45m░░[0;1;35;40m░[0m                                                  
  [35m ▐███████▌[0m                       [37m [0m                            [35m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0m
 [35;40m [0;37;40m [0;35;40m██[0;1;37;45m  [0;35m███▓░[0m                                 [35m░[0;30;45m▓[0;35;40m░[0;30;45m▓▓[0m     [35;40m░[0;30;45m▓[0m    [35;40m▄██[0;1;37;45m░░░[0;1;35;45m░░[0;35m█[0m
 [37m [0;35m▐███████▓░[0m                            [35m  ▄██[0;1;30;45m░░░ [0;35m███████[0;1;30;45m░░[0;35m█▄ ▐███████▌[0m
@@ -33,7 +33,7 @@ Write-Host '
   ▀[1;35;47m▒▒▒▒▒▒▒▒░░░░[0m██████▀▀▀▀██████▄█[1;31;47m░░[0m██▌  ▀▀████▄▄  ▄[1;33;47m░░[0m██████▀  ▐█████▌     [1;33;47m░░[0m███
      ▀▀▀▀▀▀▀▀▀▀▀           ▀▀▀▀▀▀▀▀▀        ▀▀██████████▀▀    ██████▀    ░[1;35;47m░░[0;1;33;47m░░[0m█
                                                                           [1;35m░░[0m
-                               lush productions
+                                               
 [36m▀[0;1;36;46m ▀[0;1;36;40m██████████▄▄▄ [0;1;33;40m▀██[0;1;32;40m███████████[0;1;33;40m████████████████████████████████████████████████[0m
 [1;33m▄[0m [36m▀▀█[0;1;36;46m▀[0;1;36;40m███████████▄ [0;1;33;40m██[0;1;32;40m███████[0;1;33;40m█████████▀▀[0m [30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;1;35;40m░░[0;30;45m▓[0;1;33;40m█[0;1;33;46m▓▓[0;1;33;40m████████████[0;1;37;40m██[0;1;33;40m███████▀▀▀▀▀██[0m
 [1;33m███▄[0m [36m▀[0;1;36;46m░▓[0;1;36;40m██████████▌[0;1;33;40m▐█[0;1;32;40m████[0;1;33;40m█████▀▀▀[0m [35m▄[0;1;35m▄▄▄[0;1;35;45m▄[0;1;35;40m██[0;1;35;46m▓▓▓▓[0;1;35;45m▓▓[0;1;35;40m▄ [0;1;33;46m█[0;1;33;40m████[0;1;33;42m███[0;1;33;40m████[0;1;37;40m███[0;1;33;40m████▀ [0m    [33m░[0;30;43m▓[0;37;40m  [0;1;33;40m█[0m
@@ -60,8 +60,6 @@ Write-Host '
 [1;33;47m▓▓[0;1;33;40m███[0m [1;30m▐[0;1;30;47m▌[0m███████████████████[1;31;47m░░[0m▌[1;33m▐██████████████████████████████████[0;1;32m████████[0;1;32;42m▀[0;32m████▄[0m
 [1;33m░░▀▀[0m [1;30m▄[0;1;30;47m▓░░[0m███[1;47m░░░░░[0m████████▀▀▀[1;31m░░[0;1;33m ████████████████████████████████[0;1;32m███████[0;1;32;42m▀▀[0;32m████[0;1;32;42m░░[0;32m█[0m
 [1;33m                [0m
-           [1;33mby geek [0m     [1;33mfunky shapes..[0m
+           [1;33m        [0m     [1;33m              [0m
 
----
-hey, i''m new to lush.. I also draw for k-rap. so, hello, i hope i dont suck to
-much,[0m'
+---[0m'

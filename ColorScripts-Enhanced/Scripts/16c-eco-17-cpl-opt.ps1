@@ -5,7 +5,7 @@
 # Source SHA-256: b13d322c2b96a429cb2eda170d489bd80d8c2f07146f694be6e2f0b0606fbb90
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPL-OPT.ANS by Commissaris Plons (Ecolove(still)); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Option-Dude
 # SAUCE Author: Commissaris Plons
 # SAUCE Group: Ecolove(still)
@@ -39,20 +39,4 @@ Write-Host '
   [1;33m  [0;33m▀[0;1;33m▀[0;1;33;43m▄[0;1;33;40m▄▄[0;1;33;43m▀[0;1;33;40m▀[0;33m▀[0;1;33m [0m    [1;30m▀▀▀▀  [0m [1m [0;1;47m ▓[0m▀[34m ▄[0;1;34;44m▄▄[0;34m█▄▀▄  ▀▀▀██▄▄▄[0;1;31m [0;33m▀[0;1;31m▀▀[0;33m▀[0;1;31m [0;34m▄█▀  ▄██[0;1;34;44m▀[0;1;34;47m▓▓[0;1;34;44m▀▀[0;34m█▌ [0;33m▐[0;1;31;43m▐[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;43m▓[0;1;31;40m█ [0m [1;31m [0;1;31;43m▐▓[0m
 [1;30;43m█[0;43m ▄[0;1;30;43m▀[0;33m▄[0;1;30m▄[0;33m    [0;1;30m▄[0;33m▄[0;1;30;43m▀[0;43m▄▄[0;33;40m█[0;1;30;43m▀[0;43m▄[0;1;30;43m▀▀[0;1;30;40m█[0;1;30;43m▀█[0;1;30;40m▄[0m ▐[1;47m░[0;34m ▐[0;1;34;44m▐[0;1;34;47m▓▒▓[0;34m█▄[0;37m [0;34m▄▄██▄▄▄[0;37m [0;34m▀▀▀[0;37m [0;34m▄█▀[0;37m    [0;34m ▀▀▀▀[0;37m  [0;1;37m▄▄▄[0m▄▄[1m [0m [33m▀[0;1;31;43m▀[0;1;31;40m████▌ [0m [33m▐[0;1;31;43m▒[0m
 [1;30;40m▀▀▀▀[0;33m▀▀▀[0;1;30m▀▀[0;33m▀▀▀▀▀▀▀▀[0;1;30m▀▀▀▀▀[0m   ▀[1;47m [0m▌[34m ▀[0;1;34;44m▀▀[0;34m▀▀▀▀▀▀▀[0;37m ▄▄▄[0;1;37m▄▄▄▄▄▄▄▄[0;1;37;47m▄▄▄[0;1;37;40m████████████[0;1;37;47m▄▄[0m▄▄[1m [0;1;31m [0;33m▀[0;1;31m▀▀ [0m  [33m▀[0;1;31m▀[0m
-               [1;30;43m█░[0;1;31;43m▀▀[0;1;30;43m▄█[0;33m   [0;1;37m  [0m▀[1;47m [0;1;40m  [0m▄▄▄▄[1;47m    ▀▀▀█▀▀[0;1;40m████████████[0;1;46m██[0;1;40m██████[0;1;47m▀[0;1;40m█[0;1;47m▀▀▀▀▀  ▀▀ ▀cp[0;1;37;47ml[0m
-
-
-        HOLY SHIT!!!!       Ecolove is over!!!!!!    ( snif..snif... )
-
-        The first pack in the year 2000 is the last Ecolove-[1mP[0mack......
-        I''ve been drawing ansi''s for Ecolove for about 8 or 9 packs,
-        and I a[1mL[0mways enjoyed doing it, but all good things must come 2
-        an end...As a wise man once said... And I think Ecolove was a
-        pretty good thing, n[1mO[0mt only for the Dutch Ansi-scene, but also
-        for the world wide art-scene. I would honestly like to thank
-        all the ( ex ) Ecolove members ( especially Preside[1mN[0mt for pas-
-        sing me all the wisdom I needed to draw this shit ), And of
-        course all the people who supported u[1mS[0m and watched our packs,
-        year in year out.....
-
-                       Plons sez ....BI         (snif...snif...)[0m'
+               [1;30;43m█░[0;1;31;43m▀▀[0;1;30;43m▄█[0;33m   [0;1;37m  [0m▀[1;47m [0;1;40m  [0m▄▄▄▄[1;47m    ▀▀▀█▀▀[0;1;40m████████████[0;1;46m██[0;1;40m██████[0;1;47m▀[0;1;40m█[0;1;47m▀▀▀▀▀  ▀▀ ▀cp[0;1;37;47ml[0m'

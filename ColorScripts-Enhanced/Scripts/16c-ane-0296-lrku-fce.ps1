@@ -5,7 +5,7 @@
 # Source SHA-256: 503f5f95cb7793c0c85a42fdaedd3a535a943c8b4fb6e38d7ef0b3d576ada7fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LRKU-FCE.ANS by lameR & kU (anemia); released in ane-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pic i used ku's font for
 # SAUCE Author: lameR & kU
 # SAUCE Group: anemia
@@ -42,4 +42,4 @@ Write-Host '
        [1m▀█████▄[0;36m▀[0;1;30;46m▐▓[0m       [1;30;46m▓█▄██▄ [0m [1;30;46m░[0;36m█[0;32;46m░ [0;36;40m██[0;1;30;46m░[0m [1;30;46m▓█▄██▄ [0;36m [0;37m [0;1;30;46m░[0;36m█[0;32;46m░ [0;36;40m██[0;1;30;46m░[0m [1;30;46m▓█▄██▄ [0m
           [1m▀▀▀[0;36m ▄[0;1;30;46m▀▄[0;1;30;40m▄[0;1;30;46m▄▓▒▀[0;1;30;40m▄[0m [1;30m▀▐█▓▄[0;1;30;46m█▌[0m [1;30;46m▓[0;36m█[0;36;46m  [0;1;30;46m▄▐[0;1;30;40m▌[0m [1;30m▀▐█▓▄[0;1;30;46m█▌[0;36m [0;37m [0;1;30;46m▓[0;36m█[0;36;46m  [0;1;30;46m▄▐[0;1;30;40m▌[0m [1;30m▀▐█▓▄[0;1;30;46m█▌▄[0;1;30;40m▄[0;1;30;46m▄▓▒▀[0;1;30;40m▄[0m
           [1;30m▀█[0;1;30;46m▌█▄[0;1;30;40m▓[0;1;30;46m▄▓▌█▄[0;1;30;40m▓[0;1;36;40m [0m [1;30m░▀▀▄[0;1;30;46m██[0;1;30;40m▓ [0;1;30;46m█▄▐[0;1;30;40m▓▀▐▀[0m [1;30m░▀▀▄[0;1;30;46m██[0;1;30;40m▓kU[0;1;30;46m█▄▐[0;1;30;40m▓▀▐▀[0m [1;30m░▀▀▄[0;1;30;46m██[0;1;30;40m▓[0;1;30;46m▄▓▌█▄[0;1;30;40m▓▀[0m
-           [1;30m pic░[0m   [1;30mby░[0m   [1;30mlameR░  of░[0m    [1;30manemia░    ░[0m      [1;30m font░[0m   [1;30mby░kU[0m'
+           [1;30m    ░[0m   [1;30m  ░[0m   [1;30m     ░    ░[0m    [1;30m      ░    ░[0m      [1;30m     ░[0m   [1;30m  ░  [0m'

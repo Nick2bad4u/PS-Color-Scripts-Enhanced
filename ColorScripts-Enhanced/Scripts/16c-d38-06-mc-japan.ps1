@@ -5,7 +5,7 @@
 # Source SHA-256: d68a26b776457684847da9a7b874887f97a8f5cc4c416d69f441d75d22203dc6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!JAPAN.ANS by Madcap (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Crap mini
 # SAUCE Author: Madcap
 # SAUCE Group: D38
@@ -37,12 +37,4 @@ Write-Host '
 [1;40m [0;1;36;40m▀[0;1;33;40m■[0m▀[1;36m■[0m▀ [1;36m█ [0;1;30m▄ ▀''[0m               [1;37m▀▀▀[0;1;37;47m▓▓▓▓[0;1;37;40m▄▄▄▄▌ [0;32m▌[0;1;30m▓[0m                [1;37m▄▄[0m
 [1;37m▌[0m▀[1m──┘▀[0;1;30m▄▌[0m                                  [1;30m▀▌▄▐■[0m           [1;37m▐█▀[0m
 [1;30m▀▄ ■▀[0m                   [1;30m_  _▄■[0m
-                    [1;30m▄■[0;1;37m▄═[0;1;33m■[0;1;36m▐[0;1;37m■''▄[0;1;30m▐[0m                    [1;37m▄█[0;1;37;47m▐[0;1;37;40m▀[0m
-
-      [1;37;40mWow!.. must be a big board if it has a conference for asian cars![0m
-
-         [1;37;40mThis little ansi was done by Madcap, of D38 for Holdens Lair 4[0m
-[1;37;40m    particularly the asian car conference.. though.. The car above.. well..[0m
-       [1;37;40mits pretty bad.. sure most asian cars would be a bit better.. yup[0m
-
-               [1;37;40m.. hmm.. that all I''m supposed to say? yup.. *:o)[0m'
+                    [1;30m▄■[0;1;37m▄═[0;1;33m■[0;1;36m▐[0;1;37m■''▄[0;1;30m▐[0m                    [1;37m▄█[0;1;37;47m▐[0;1;37;40m▀[0m'

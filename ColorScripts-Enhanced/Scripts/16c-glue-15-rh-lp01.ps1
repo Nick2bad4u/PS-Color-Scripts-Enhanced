@@ -5,7 +5,7 @@
 # Source SHA-256: 93de6b872a1acd27a9589fbd3ee5e48cc3b1324a68388d0c7cc38bfb0e010812
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RH-LP01.ANS by Rash (glue-15); released in glue-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -30,8 +30,6 @@ Write-Host '
 [34m█▓[0;1;34;44m░░▒▒▓▓[0;1;34;47m▓█▓▓▓[0;30;47m░[0;37;40m█[0;1;34;47m▓▓[0;32m ████[0;30;42m░[0;32;40m▐[0;30;42m░[0;32;40m▓[0;30;42m [0;32;40m█[0;37;40m [0;1;37;40m█▒[0m▌[32m █[0;1;32;42m   [0;32m▄[0;30;42m_[0;1;32;40m▒▒[0;32m█▌[0;1;32;42m [0;32m█▓[0;37m [0;32m▐[0;1;32;42m [0;32m███████[0;37m [0;34m▐[0;1;34;44m▒▒▒▓▓▓[0;1;34;40m███████████[0;1;34;44m███░░[0m
 [30;44m░[0;34;40m▓[0;30;44m [0;34;40m█[0;1;34;44m░░▒▒▓▓[0;1;34;40m▓[0;1;34;44m▓▓[0;1;34;47m▓▓██[0;32m ██[0;1;32;42m [0;32m█▓▐[0;1;32;42m▒▒▒▒[0;32m▄▄▄▄▄███[0;30;42m [0;32;40m▄▄▄▄▄▄██▓ ▐█████[0;1;32;42m░░[0;32m█[0;37m [0;34m▐[0;1;34;44m░░░▒▒▒▓▓▓▓▓▓▓▓█░░░  [0;30;44m░[0;34;40m▓[0m
 [34;40m░[0;30;44m▓[0m                                                                 [1;33;40m  [0m         [34m░[0;30;44m▓[0m
-[37;40m   [0;31;40m░[0;30;41m▓[0;31;40m░ [0;37;40m [0;1;33;45mcommand(1)[0m   [1;33mcommand(4)[0m   [1;33mcommand(7)[0m   [1;33mcommand(10)[0m   [1;33mcommand(13)[0m [31m▄▄▄[0m
-[34m▒▒ [0;30;41m░[0;31;40m▓[0;1;31;41m▄[0;31m [0;37m [0;1;33mcommand(2)[0m   [1;33mcommand(5)[0m   [1;33mcommand(8)[0m   [1;33mcommand(11)[0m   [1;33mcommand(14)[0m [1;31m▒[0;1;31;41m▀[0;31;47m█[0;37;40m  [0;34;40m▒▒[0m
-[34;40m░░[0;37;40m [0;31;40m▀▀▀ [0;37;40m [0;1;33;40mcommand(3)[0m   [1;33mcommand(6)[0m   [1;33mcommand(9)[0m   [1;33mcommand(12)[0m   [1;33mcommand(15)[0m [1;31m░░░[0m  [34m░[0;30;44m▓[0m
-
-thanks to catch22 for doing the ereeto hat :)[0m'
+[37;40m   [0;31;40m░[0;30;41m▓[0;31;40m░ [0;37;40m [0;1;33;45m          [0m   [1;33m          [0m   [1;33m          [0m   [1;33m           [0m   [1;33m           [0m [31m▄▄▄[0m
+[34m▒▒ [0;30;41m░[0;31;40m▓[0;1;31;41m▄[0;31m [0;37m [0;1;33m          [0m   [1;33m          [0m   [1;33m          [0m   [1;33m           [0m   [1;33m           [0m [1;31m▒[0;1;31;41m▀[0;31;47m█[0;37;40m  [0;34;40m▒▒[0m
+[34;40m░░[0;37;40m [0;31;40m▀▀▀ [0;37;40m [0;1;33;40m          [0m   [1;33m          [0m   [1;33m          [0m   [1;33m           [0m   [1;33m           [0m [1;31m░░░[0m  [34m░[0;30;44m▓[0m'

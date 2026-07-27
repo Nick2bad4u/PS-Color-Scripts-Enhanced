@@ -5,7 +5,7 @@
 # Source SHA-256: 549791dd13f93a9e250067ef4fe1e7425b2a5880abfd4551804c0c09545e38c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-DROP2.ANS by rink rat (dr0p!); released in drop9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wiley coyote!?
 # SAUCE Author: rink rat
 # SAUCE Group: dr0p!
@@ -42,6 +42,4 @@ Write-Host '
           .''$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ⁿ°.,$$''.$$$,$$$$$$$$$$$$$''
            ;$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ⁿ''[1;31m.,x;x,.[0m
             ".''$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$x. [1;31m,[0;31mⁿ°ⁿ[0;1;31m$$$$$$''[0m
-                `'';$$$$$dⁿ°"''`      `'';$$$$$$$;ⁿ°''`       `''$$
-
-                [1;30md e [0;33ms t [0;1;33mi n [0my  r u l e s  o u r  [1;33mp e[0m [33mo p[0;37m [0;1;30ml e[0m        [1;30m<<[0;33mr[0;1;33mi[0mnk r[1;33ma[0;33mt[0;1;30m>>[0m'
+                `'';$$$$$dⁿ°"''`      `'';$$$$$$$;ⁿ°''`       `''$$[0m'

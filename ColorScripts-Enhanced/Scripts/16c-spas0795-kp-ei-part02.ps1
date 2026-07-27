@@ -5,7 +5,7 @@
 # Source SHA-256: 580e5365a9f3a19d5eb03581eb143089d3ff8f481de42d5800f91e04100ed421
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KP-EI.ANS by Kerplunk (Spastic Productions); released in spas0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Evil Intentions
 # SAUCE Author: Kerplunk
 # SAUCE Group: Spastic Productions
@@ -26,7 +26,7 @@ Write-Host '
 [1;30;46m▓▓▒▒░░░[0;36m████[0;1;30;46m░░▒▓[0;1;30m▀[0;36m▄ [0;1;30m▀[0;1;30;46m▓▓▒▒[0;36m▓▀▄▄[0;1;30;46m░[0;36m█▀▄▄▄▀▀▀▄▄ ░[0;1;30m▀[0;1;30;46m░░[0;46m░░[0;36m███[0;1;30;46m░░▒[0;36m▀▀ ▀▀[0;1;30;46m░[0;46m░[0;36m▄▀▀[0;46m░[0;36m▓▀   [0;31m▐▓  ▄■▀  ▄ ▀[0m
 [1;30m▀[0;1;30;46m▓▓▒▒▒░░░░[0;36m███▄██[0;1;30;46m░[0;36m██▄▄▄▄▄█▓█████[0;46m░░[0;36m▓▐█▓▌  [0;1;34m■▄ [0;36m▀▀▀▀  [0;34m▄▄■▀  ▄    [0;33m░  [0;1;34m▄ [0;31m▀▀▓▌ ▓▌ ▄■▀▀▓▄[0m
 --------[36m▀ [0m-[36m▓▀▀[0m-----------------------------------------------------------------
-[36m░[0;1;30m░ [0;36m░   [0;1;30m. [0;33mx [0;36moh shit[0;1;36m! [0;36mthey[0;1;36m''[0;36mre coming back again[0;1;36m... [0;36mmy evil intentions [0;33mx [0;1;30m.    [0;36m░ ░░[0m
+[36m░[0;1;30m░ [0;36m░   [0;1;30m  [0;33m  [0;36m       [0;1;36m  [0;36m    [0;1;36m [0;36m                    [0;1;36m    [0;36m                   [0;33m  [0;1;30m     [0;36m░ ░░[0m
 [33m■[0;1;30m▒[0m-[33m▄▀▀■[0m----[36m░[0m-------------------[33m▄▄▓[0m-------[1;30m▄[0m---[33m■[0m-----[33m▄▒[0m--[1;30m▓[0m-------[33m▀[0m---[33m■▄[0m--[33m▄■▀[0m-[1;30m▓[0m--[33m▄[0m
 [33m [0;1;30m▓▄■▄  [0;33m▀▀■[0;1;30m▄▄■▓ [0;33m■[0;1;30m▄ [0;33m▀▀■ ▄▀[0;1;30m▄■▀[0;33m░ [0;1;30m▄[0;33m▀  ▀▄▄■[0;1;30m▄▄■▄▓  [0;33m▄▀[0;1;30m▄▄■▓  [0;33m░ [0;1;30m▄▓▄▄▄[0;33m▀▀■▄ [0;1;30m▓▄▄ [0;33m▓▀[0;1;30m▄  ■▀▓▄[0;33m■▓[0m
 [1;30m▀ [0;36m▄■▄▄[0;1;30m■▀▓▀ [0;36m▄ [0;1;30m▓  ▓ [0;36m▄[0;1;30m▀▀■ ▀[0;36m▄ [0;1;30m▓[0;33m░ [0;1;30m▓▀[0;36m▄[0;1;30m▀▀■ ▀[0;36m▄■▄▄[0;1;30m▀▀■ ▀[0;36m▄■▄▄[0;1;30m▀▀■▀ [0;36m▄■▄▄[0;1;30m▀■▄ ▀[0;36m▄■▄▄[0;1;30m■▀▓▀▀[0;36m▄■▄▄[0;1;30m▀■[0m
@@ -39,7 +39,5 @@ Write-Host '
 [1;30m▄▄[0;36m▀■▀▀[0;1;30m▄■▀▄ [0;36m▀■▀▀ [0;1;30m▄■ ▄[0;36m▀ [0;1;30m▄▄[0;36m▀■▀▀[0;1;30m▄■ ▄▄[0;36m▀ [0;1;30m▄ [0;36m▀[0;1;30m■▓▄ [0;36m▀[0;1;30m▄▄■[0;36m▀ [0;1;30m▄■ ▓▄■ [0;36m▀■▀▀[0;1;30m▄▄▀■▄[0;36m▀ [0;1;30m▓▄■[0;36m▀[0;1;30m▄  [0;36m▀[0;1;30m▄■▀ ▓[0m
 [1;30m▓[0m     [1;30m▀   ▓  ▓▀▀    ▀▓    ▀▀[0m     [1;30m▀▓  ▀   ▀▓   ▀▀   ▀   ▀▓▀■[0m     [1;30m▀▀   ▀▓▀▀■    ▓[0m
 ----------[1;30m▀[0m----------[1;30m▓[0m----------------------------------[1;30m▀[0m---------------------[1;30m▀[0m
-[36m░░ ░[0m       [36m░ ░░ [0;1;30m. [0;33mx [0;36mevil[0;1;36m![0;36mintentions [0;33mx [0;1;30m. [0;33mx [0;36ms[0;1;36m:[0;36mbetrayer[0;1;36m![0;36mshiver [0;33mx [0;1;30m. [0;36m░░ ░[0m       [36m░ ░░[0m
--------------------------------------------------------------------------------
-
-                       [1;30m. [0;33mx [0;36mansi by kerplunk[0;1;36m![0;36mspastic [0;33mx [0;1;30m.[0m'
+[36m░░ ░[0m       [36m░ ░░ [0;1;30m  [0;33m  [0;36m    [0;1;36m [0;36m           [0;33m  [0;1;30m  [0;33m  [0;36m [0;1;36m [0;36m        [0;1;36m [0;36m       [0;33m  [0;1;30m  [0;36m░░ ░[0m       [36m░ ░░[0m
+-------------------------------------------------------------------------------[0m'

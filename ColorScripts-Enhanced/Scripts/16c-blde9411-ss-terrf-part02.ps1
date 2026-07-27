@@ -5,7 +5,7 @@
 # Source SHA-256: 4691af9c4ff7e7458807c2a58d30dddb8f6962f27a1adb36d165d4dadbfd461b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-TERRF.ANS by Soul Seeker (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Terra Firma Advertisement
 # SAUCE Author: Soul Seeker
 # SAUCE Group: Blade Productions
@@ -55,12 +55,4 @@ Write-Host '
               [32m█[0;1;32;42m▓[0;32m█[0m       [32m█[0;1;32;42m▓[0;32m█ █[0;1;32;42m▓[0;32m█   ▄▄▄█ █[0;1;32;42m▓[0;32m█    █[0;1;32;42m▓[0;32m█    █[0;1;32;42m▓[0;32m█ █[0;1;32;42m▓[0;32m█    █[0;1;32;42m▓[0;32m█[0m
               [32m█[0;1;32;42m▒[0;32m█[0m       [32m█[0;1;32;42m▒[0;32m█ █[0;1;32;42m▒[0;32m█    ███ █[0;1;32;42m▒[0;32m█    █[0;1;32;42m▒[0;32m█    █[0;1;32;42m▒[0;32m█ █[0;1;32;42m▒[0;32m█    █[0;1;32;42m▒[0;32m█[0m
               [32m█[0;1;32;42m░[0;1;30;42m░[0m       [32m█[0;1;32;42m░[0;1;30;42m░[0m [32m█[0;1;32;42m░[0;1;30;42m░[0m    [32m██[0;1;30;42m░[0m [32m█[0;1;32;42m░[0;1;30;42m░[0m    [32m█[0;1;32;42m░[0;1;30;42m░[0m    [32m█[0;1;32;42m░[0;1;30;42m░[0m [32m█[0;1;32;42m░[0;1;30;42m░[0m    [32m█[0;1;32;42m░[0;1;30;42m░[0m
-              [32m█[0;1;30;42m░░[0m       [32m█[0;1;30;42m░░[0m [32m█[0;1;30;42m░░[0m    [32m█[0;1;30;42m░░[0m [32m█[0;1;30;42m░░[0m    [32m█[0;1;30;42m░░[0m    [32m█[0;1;30;42m░░[0m [32m█[0;1;30;42m░░[0m    [32m█[0;1;30;42m░░[0m
-
-                        [1;32;40mSys[0mtem [1;32mOp[0merator - S[1;32mo[0mmms [1;32m<[0mAC[1;32mi[0mD[1;32m>[0m
-
-                    [32mBLADE [0;1;30mSeven One Four Distribution Site![0m
-                     [1;30m"Oh please, you can find the number!"[0m
-
-                [1;30m100% SouL SeeKeR (one) brain (cell) power ANSI![0m
-[1;30m   Yo, yo..."BROkEN" Grifter... you conceited bitch! ;) / What''s up dude...[0m'
+              [32m█[0;1;30;42m░░[0m       [32m█[0;1;30;42m░░[0m [32m█[0;1;30;42m░░[0m    [32m█[0;1;30;42m░░[0m [32m█[0;1;30;42m░░[0m    [32m█[0;1;30;42m░░[0m    [32m█[0;1;30;42m░░[0m [32m█[0;1;30;42m░░[0m    [32m█[0;1;30;42m░░[0m'

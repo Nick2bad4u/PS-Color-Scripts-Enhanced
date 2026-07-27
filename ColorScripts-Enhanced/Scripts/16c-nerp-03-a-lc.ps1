@@ -5,7 +5,7 @@
 # Source SHA-256: b176f1a801f66bace13f113e27ff78d0803de0db28600a33d5f2dab48365392f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: A-LC.ANS by alecs (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lost city
 # SAUCE Author: alecs
 # SAUCE Group: nerp
@@ -16,7 +16,7 @@
 
 Write-Host '
                                                        [32m [0m
-                                            [32m▄[0;1;33m▄[0;1;32m▄▄▄[0;32m    [0m    [32m&& .. ansi by alecs &&[0m
+                                            [32m▄[0;1;33m▄[0;1;32m▄▄▄[0;32m    [0m    [32m                      [0m
             [32m  [0;31m [0;32m  [0;37m  [0;33m▀[0;31m▀[0;33m█[0;33;41m▀[0;1;31;40m█▄░[0m  [32m▄▄░[0m    [31m            [0;1;32m▀[0;1;33m▀▓[0;32m▄ [0m
              [32m░██▄[0;1;32m▄▄▄[0;32m▄[0;37m [0;31m▀[0;1;31m▓▀[0m [1;32m▄[0;32m█▀▀[0m      [31m█[0;1;33;41m▀[0;31m▀[0;1;33m▀▀▀▀▀▀▀▀█[0m  [32m▀░[0m
 [37m [0;1;37m░[0;33m░░░░░░[0;37m [0;32m░▄[0m       [1;32m▓█[0;32m▀[0m   [32m▄█[0;1;32m▀[0;31m [0;1;32m▄[0;32m▄██░[0m   [1;33;41m▄[0;31m█▄▄    [0m   [1;37m█[0m [1m░[0m

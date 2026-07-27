@@ -5,7 +5,7 @@
 # Source SHA-256: 98179b2570f89ee17de9489b7a26840fc5d05cb92c27b6136cb792d45cf9977b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MOTH-MISSINGNO.ANS by Moth (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the Secret of Missingno.
 # SAUCE Author: Moth
 # SAUCE Group: Mistigris
@@ -30,7 +30,7 @@ Write-Host '
 [36;40m████████████[0;31;40m [0;1;31;41m▌[0;31m▄ [0;36m▀▀▀[0;31m [0;1;31m▀[0;1;31;41m▀[0;31m██  ▀████▄ [0;36m█[0;31m▐███▄▄ [0;36m▀[0;31m▐█ [0;36m████[0;31m ▀████▄  ▄[0;31;46m█[0;31;40m█ [0;36;40m▄[0;31;46m [0;36;46madorable cat[0;36;40m████[0m
 [36;40m████████████[0;31;40m ▐████████▀  [0;36;40m▄      ▄[0;31;46m [0;36;40m▄      ▄▄[0;31;40m  [0;31;46m    [0;36;40m▄[0;31;40m      [0;36;40m▄    ▄[0;31;46m [0;36;46mhave to do with[0;36;40m██[0m
 [36;40m████████████▌[0;31;40m           [0;36;40m▄[0;36;46m Missingno? Well, you''ll have to read it to find out![0;36;40m██[0m
-[36;40m█[0;36;46mIt can be found[0;30;46m [0;36;46mat http://trsrockin.com/missingno_fic.html  [0;31;46m              [0;36;40m█████[0m
+[36;40m█[0;36;46m               [0;30;46m [0;36;46m                                            [0;31;46m              [0;36;40m█████[0m
 [36;40m███████████████████  [0;30;46m██[0;36;40m▀▀████████████████▀▀[0;30;46m█████[0;36;40m▀[0;30;46m [0;36;46m...Or, well, it COULD, but[0;36;40m████[0m
 [36;40m███████████████████ [0;31;40m▐█▄[0;36;40m [0;30;46m██[0;36;40m▀████████████▀[0;30;46m████[0;31;40m▄▄[0;1;31;40m [0;30;46m██ [0;36;40m█[0;36;46mthe website''s been down for[0;36;40m██[0m
 [36;40m███████████████████▌[0;31;40m▐[0;1;31;41m ▒[0;1;31;40m█▄[0;30;46m██[0;36;40m ▀▀▀▀▀▀▀▀▀█ [0;30;46m███[0;30;41m▀[0;1;31;41m ░▒[0;31m▌[0;36m [0;30;46m█[0;36;40m▐█[0;36;46ma good decade. You can still[0;36;40m█[0m

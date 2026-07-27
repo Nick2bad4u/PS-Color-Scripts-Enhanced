@@ -5,7 +5,7 @@
 # Source SHA-256: 9156eca446efd8d330ba9b27a0dbd14ad5f9c063a967c3c5fd4cb96b06d5f8df
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-THIN.ANS by Massm + Catch 22 (joint font); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: thin air
 # SAUCE Author: massm / catch22
 # SAUCE Group: joint font
@@ -34,6 +34,4 @@ Write-Host '
                                   [32ma i r[0m      [32m░░[0;37m  [0;1;36m░░[0m       [32mmassm22[0m
 
 
-[32m---------------------------------[0m
-[37m [0;32mfont outline massm[0m
-[37m [0;32mcoloring and background catch22[0m'
+[32m---------------------------------[0m'

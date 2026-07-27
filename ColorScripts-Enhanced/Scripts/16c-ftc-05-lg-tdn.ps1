@@ -5,7 +5,7 @@
 # Source SHA-256: 48bbd631ad46a4d1d879417d542762677a6c618e2ff9e91781dc2ae763ab6e75
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LG-TDN.ANS by lawn genie (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the dimensional nexus
 # SAUCE Author: lawn genie
 # SAUCE Group: ftc
@@ -32,9 +32,9 @@ Write-Host '
     [33m▀▀█████████[0m        [33m▀█▀▀▀[0m
 [1;30m       [0m  [33m▀▀▀▀▀ [0;1;30m                                         [0m
 [1;30m---<thrill kiss me cut me here>------------------------------------------------[0m
-[1;30mwelp hehe just on a neeto note this gilr with rad  bangs i drew like 6+ months [0m
-[1;30mago & had had no use for her.  so i suddenly ran into her and went hell yeah i[0m
-[1;30mcan use her for a font!  yeay!  so here she  is in glorious ansi  graphics and [0m
-[1;30mpc speaker sound for your viewing pleasure.  um yeah.  neways  now demosthenes[0m
-[1;30mreally owes me. :) heh.. ahh aint bein an ansist grand:)  lawngenie out. 1996.[0m
+[1;30m                                                                               [0m
+[1;30m                                                                              [0m
+[1;30m                                                                               [0m
+[1;30m                                                                              [0m
+[1;30m                                                                              [0m
 [1;30m---<here ends the babble>------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 6866484ee71f0924b4d84109c359ddb22b10cd2e059db946b6d69079350da48f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-MD2.ANS by rorsh4ck (Maiden Brazil!); released in mdn-9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mental disorder
 # SAUCE Author: rorsh4ck
 # SAUCE Group: Maiden Brazil!
@@ -31,6 +31,4 @@ Write-Host '
 [1;30m░▄[0m [31m▀█[0;1;31;41mrs[0;31m█[0;37m [0;1;37;47m▀▀ [0m [1;30m▄▄▄▄▄[0m ▀▀▀▀▀▀▀ [1;30m▓▄[0m [1;30m▄▄ [0m [1;30m▄▄▄[0m █████ [1;30m▄[0m [1;30m█▄[0m [36m▀▀▀▀▀▀▀▀[0;37m [0;36m▀████▄██▀[0;37m [0;36m▀▀▀▀▀[0;37m [0;1;30m▀[0m [1;30m░[0m
  [1;30m▀█▄▄[0m [1;30m▄▄[0m  [1;30m▄[0m [1;30m▄▓[0m [1;30m░▒▓▀▀ ▀▀[0m [1;30m ▀[0m [1;30m░[0m       [1;30m░▓▄▄▄▄[0m [1;30m▄▄▓░[0m [1;30m▀▀ ▀▓▀▀[0m [1;30m░▒▓▄▄▄  ▄ ▄▄█▀▀▀▓▒░ ░▓░[0m
   [1;30m▓░[0m         [1;30m░[0m   [1;30m░[0m                  [1;30m░[0m              [1;30m▒░[0m    [1;30m░[0m             [1;30m░[0m
-  [1;30m░[0m                                                [1;30m░[0m
-
-   [1;36mM[0;36man, [0;1;36mm[0;36mental [0;1;36md[0;36misorder [0;1;36mw[0;36mas [0;1;36mi[0;36mn [0;1;36mm[0;36my [0;1;36mm[0;36mind [0;1;36mw[0;36mhen [0;1;36mI[0;36m''ve [0;1;36md[0;36mone [0;1;36mt[0;36mhis [0;1;36mo[0;36mutline. [0;1;36m:-)[0;1;37m ..rs[0m'
+  [1;30m░[0m                                                [1;30m░[0m'

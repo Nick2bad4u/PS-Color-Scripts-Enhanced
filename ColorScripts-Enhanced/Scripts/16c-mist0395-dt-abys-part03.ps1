@@ -5,7 +5,7 @@
 # Source SHA-256: 98199eece198a7b32bd8aa3c8e1fb38df6d44e33b926da548c2b1fb03e1a462d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-ABYS.ANS by Diamond Traveller (Mistigris); released in mist0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Abyssimal Dissimulation
 # SAUCE Author: Diamond Traveller
 # SAUCE Group: Mistigris
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;37;40m▒▒[0m  [1m░[0m               [36m░[0;37m        [0;1;37m░[0m    [1;36m             [0;36m        [0;1;37m░[0;36m  [0;37m    [0;36m▀▀▀[0;37m   [0;36m ▀▓▓█▀[0;37m [0;1;37m░[0m [1m▒[0m
-[1m▓▓[0m  [1m▒[0m        [1m░[0m    [31m"Serving the finest[0;1;36m [0;31min bullshit[0;36m [0;31mfound[0;1;37m░[0;31manywhere"[0;37m   [0;1;37m░[0m  [36m▒[0;37m   [0;1;37m░[0m [1m▓[0m
+[1m▓▓[0m  [1m▒[0m        [1m░[0m    [31m                   [0;1;36m [0;31m           [0;36m [0;31m     [0;1;37m░[0;31m         [0;37m   [0;1;37m░[0m  [36m▒[0;37m   [0;1;37m░[0m [1m▓[0m
 [1m█▄▓▄▓[0m [1m░ [0m     [1m░[0m    [1m▓[0m          [1m▒[0m     [31m..[0;1;36m [0;31m...[0;37m        [0;36m [0;1;37m░[0m [1m▒  ░░▒[0m     [1m░[0m  [1m░[0m [1m▒[0m  [36m░[0;37m   [0;1;37m▒[0m [1m██[0m
 [1m▓███▄[0m [1m▒[0m  [1m░[0m   [1m▒[0m     [1m▀▄[0m  [1m▀[0m     [1m▓[0m       [1;36m [0m [1m▀[0m   [1m░[0m    [1m▄ ▒█▓  ▒▒▓▄▄▓▄[0m [1m▒[0m [1m ▒[0m [1m▓▄[0m [1m▄■▄▄▓█[0;1;44m█▓[0m
 [1;40m██████▓▓▄▓ ▄▄▓   ▓▄▀▄  ▓ ▄▄▄▄█[0m   [1m▄▄▓[0m [1;36m [0m [1m█[0m   [1m▒[0m [1m░[0m   [1m▄▓▄▓▄▄▓▄[0m  [1m▄█▄▄▓▄▄▓██[0;1;45m▓[0;1;40m████████▓[0m
@@ -36,21 +36,20 @@ Write-Host '
 [1;37m█▓██▓▄█▄██▓████▓██▀█▀▀▄▓[0m   [1m▀[0m           [1m▄[0m  [1m▄[0m  [1m▒[0m   [1m▓[0m          [1m▓[0m   [1m▓▀[0m  [1m▒▀▀████▄███[0m
 [1m█▀█▓▀▀▀█  ▓▀▀▀▓ ▀[0m [1m▐▌[0m   [1m▒[0m   [1mD  I  S  S  I  M  U  L▒ A  T  I  O  N▒   ░[0m  [1m▀[0m [1m▀▓▀█▓▀[0m
 [1m▓[0m  [1m▓[0m   [1m▄[0m  [1m▒[0m [1m▒[0m  [1m▀▀▄▓[0m [1m·[0m  [1m░[0m                         [1m░[0m              [1m░[0m      [1m▀[0m  [1m▒[0m [1m▓██[0m
-[1m▒[0m  [1m▒[0m        [1m░[0m     [1m▀[0m [1m▄[0;31m"It may be slo, but it''s faster than yo'' ass"[0;37m        [0;1;37m░[0m [1m▒ ▀[0m
+[1m▒[0m  [1m▒[0m        [1m░[0m     [1m▀[0m [1m▄[0;31m                                             [0;37m        [0;1;37m░[0m [1m▒ ▀[0m
 [1m░[0m  [1m░[0m         [31m░  ░[0;37m                     [0;31m......[0;37m                       [0;31m░[0;37m        [0;1;37m▒[0m
    [1m░[0m         [31m░  ▒[0;37m                                                  [0;31m▒[0;37m        [0;1;37m░[0m
-             [31m▒█▄▓[0;37m         [0;31m-!- Abyssimal Dissimulation -!-[0;37m          [0;31m▓▄▄[0;37m        [0;1;37m [0m
-            [31m▐▓▓[0;1;31;41m▄[0;31m█▌-!- SyZop: Psychoskylark [mist/cia/rlt/evol] -!-▐[0;1;30;41m░ [0;1;31;41m█[0;31m▓[0;37m        [0m
-[37m           [0;31m▓[0;1;30;41m░[0;1;31;41m▀▓[0;31m▓   -!- CoSyZop: Sabotage and Dark Vengeance -!-  ▀[0;1;30;41m▒░[0;1;31;41m▓▄[0;31m▌[0;37m        [0m
-[37m          [0;31m▐[0;1;30;41m▓▒[0;31m█[0;1;31;41m▒[0m [31m-!- REALiTY Literature production member board -!-▓[0;31;41m [0;1;31;41m▒▓■[0;31m▀▀  ▀[0;37m   [0m
+             [31m▒█▄▓[0;37m         [0;31m                               [0;37m          [0;31m▓▄▄[0;37m        [0;1;37m [0m
+            [31m▐▓▓[0;1;31;41m▄[0;31m█▌                                                ▐[0;1;30;41m░ [0;1;31;41m█[0;31m▓[0;37m        [0m
+[37m           [0;31m▓[0;1;30;41m░[0;1;31;41m▀▓[0;31m▓                                                 ▀[0;1;30;41m▒░[0;1;31;41m▓▄[0;31m▌[0;37m        [0m
+[37m          [0;31m▐[0;1;30;41m▓▒[0;31m█[0;1;31;41m▒[0m [31m                                                  ▓[0;31;41m [0;1;31;41m▒▓■[0;31m▀▀  ▀[0;37m   [0m
 [37m           [0;1;30;41m▓▒[0;31m██[0;1;31;41m▄[0;31m▄▄ -!- Creators of Intense Art member board -!-▄[0;1;31;41m▄■▀[0;1;30;41m░[0;31m█[0;1;31;41m▒[0;31m▀[0;37m        [0m
 [37m            [0;31m▀[0;1;30;41m▓▄░[0;1;31;41m▓▀▓■[0;31m▄[0;37m      [0;31m-!- Mistigris member board -!-    ▄[0;1;31;41m▄▓▀▀[0;31m█[0;1;30;41m░▒[0;31m▀[0;37m         [0m
 [37m               [0;31m▀▀[0;1;30;41m░[0;31m██[0;1;31;41m▓[0;31m▓ -!- Southern HQ of Rebellion E-Mag -!-▓[0;1;31;41m▓▒ [0;1;30;41m░[0;31m▀[0;37m            [0m
-[37m                  [0;31m▓█[0;1;31;41m▄▄■[0m [31m-!- Evolution E-Mag member board -!-▐▓[0;1;30;41m░[0;31m█[0;1;30;41m░[0m
+[37m                  [0;31m▓█[0;1;31;41m▄▄■[0m [31m                                    ▐▓[0;1;30;41m░[0;31m█[0;1;30;41m░[0m
              [31m▄▄[0;1;31;41m■▀░[0;31m██[0;1;31;41m░▀[0;31m█   -!- Home Of SlayTanic:TFD -!-   [0;1;30m▓▒░[0;1;30;41m░[0;31m██[0;1;31;41m■[0;31m▄▄▄▄[0;37m          [0m
 [37m            [0;31m▐▓[0;1;30;41m▒[0;31m▀▓[0;1;31;41m▀[0;31m▀▀▀▀    -!- Distro of Untouchables -!-[0;37m      [0;31m▀▀▀▀▓█[0;1;31;41m▓▄[0;31m▌[0;37m        [0m
-[37m            [0;31m▀[0;1;30;41m▓[0;31m-!- Carrionet, EViL Net, Scream Net and Kitsch Net -!-▀▓▀[0;37m        [0m
+[37m            [0;31m▀[0;1;30;41m▓[0;31m                                                      ▀▓▀[0;37m        [0m
 [37m              [0;31m▀▄■[0;37m                  [0;31m▄■ ▄▄▄ ■▄[0;37m                      [0;31m■▄▀[0;37m          [0m
 [37m                                  [0;31m▓▄▄█[0;1;31;41m░[0;31m▀[0;1;31;41m▓▀[0;31m▄▄▀[0;37m                                  [0m
-[37m                                        [0;31m▒[0;37m                                      [0m
-[37m     [0;1;30manother 1oo% original monsta'' pic by diamond traveller of mis-tee-gris![0m'
+[37m                                        [0;31m▒[0;37m                                      [0m'

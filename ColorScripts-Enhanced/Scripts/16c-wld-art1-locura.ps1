@@ -5,7 +5,7 @@
 # Source SHA-256: fc325339c5a69fe817dc7d72229afec9ff625bc4de8e70357aac26c517f40c3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LOCURA.ANS by Darkman-Circe (wld-art1); released in wld-art1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -53,8 +53,4 @@ Write-Host '
  [1m [0m [1;34;44m▓▒▒░░  [0m      [1;32;42m░ ░▒[0m     [1;32;42m ░▒▓[0m [1;32;42m░ ░▒[0;1;32;40m▀▀[0;1;32;42m▓▒░[0;32m█[0;37m  [0;1;32;42m▒░ [0;1;32;40m [0m        [1;32;42m█▓▒░[0;32m█[0;1;32;42m░▒▓[0;1;32;40m▀[0m      [1;34;44m  ░░▒▒▓▓[0m
    [1;34;44m▒▒░░  [0m       [32m█[0;1;32;42m░▒▓[0m     [1;32;42m░▒▓█[0m [1;32;42m ░▒▓[0m  [1;32;42m▒░ ░[0m  [1;32;42m░ ░[0;32m▄ [0m       [1;32;42m▓▒░[0;32m▀  [0m        [1;34;44m  ░░▒▒▓▓█[0m
    [1;34;44m▒░░  [0m        [1;32m▐[0;1;32;42m▒▓█[0m     [1;32;42m▒▓█[0;32m▌[0;37m [0;32m▐[0;1;32;42m▒▓[0;1;32;40m█[0m  [1;32;42m░ ░[0;32m▌[0;37m  [0;1;32;42m ░▒▓[0;1;32;40m█[0;1;32;42m▓[0;32m▄▄▄[0;1;32m  [0m [32m▀[0;1;32;42m░[0;32m█[0;1;32;42m░[0;1;32;40m▄▄▄▄[0;32m [0m    [1;34;44m  ░░▒▒▓▓██[0m
-   [1;34;44m░░  [0m         [1;32m ▀[0;1;32;42m█[0;1;32;40m▀[0m     [1;32m▀[0;1;32;42m█[0;1;32;40m▀[0;32m [0;37m  [0;1;32m▀█▀[0m  [32m▀[0;1;32;42m [0;32m▀[0;1;32m [0m  [32m▐[0;1;32;42m▒▓█▓▒░  [0;32m▀[0m   [32m▀[0;1;32;42m░▒▓█▓▒[0;1;32;40m▀[0m   [1;34;44m  ░░▒▒▓▓███[0m
-                               [1;32m  [0m
-                            [1;34mB[0;36mu[0;1;36ml[0;1;37mle[0;1;36mt[0;36mi[0;1;34mn[0;31m B[0;1;31mo[0;1;33ma[0;1;37mrd[0;31m [0;32mS[0;1;32my[0;1;33mst[0;1;32me[0;32mm[0m
-
-[37m   [0m       [1;30m M[0mAL[1mé[0;1;30m B[0mB[1mS[0;1;30m T[0mL[1mD[0;1;30m d[0me[1;30m [0;1;37m0 [0ma[1;30m 7  T[0me[1ml.[0;1;30m 2[0m3[1m1-66[0m1[1;30m1[0m [1;30m [0m [1;30mA[0mNS[1mi[0;1;30m b[0my[1;30m d[0mA[1mrKM[0ma[1;30mN[0m'
+   [1;34;44m░░  [0m         [1;32m ▀[0;1;32;42m█[0;1;32;40m▀[0m     [1;32m▀[0;1;32;42m█[0;1;32;40m▀[0;32m [0;37m  [0;1;32m▀█▀[0m  [32m▀[0;1;32;42m [0;32m▀[0;1;32m [0m  [32m▐[0;1;32;42m▒▓█▓▒░  [0;32m▀[0m   [32m▀[0;1;32;42m░▒▓█▓▒[0;1;32;40m▀[0m   [1;34;44m  ░░▒▒▓▓███[0m'

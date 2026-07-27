@@ -5,7 +5,7 @@
 # Source SHA-256: 944fee8b0f021c2054816fff99adc5cd7b38716d2fde2bb8be2099d1dee14ec5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-ALL1.ANS by Chromatik (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: All Hallow's Eve
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -51,17 +51,17 @@ Write-Host '
  [34m█[0;1;30m ▓[0;31m ░ ░[0m   [34m█[0m     [1;30m▓[0m                                             [1;30m▒[0m   [34m█[0m  [31m░[0m [31m ░ [0;1;30m▓ [0m
  [34m█[0;1;30m ▓[0;31m ▒[0;34m ▀[0m   [34m█ █[0m   [1;30m▓[0m [1;30mT[0;31morment[0;1;30m W[0;31mHQ[0;1;30m  B[0;31mlade[0;1;30m M[0;31member[0;1;30m B[0;31moard[0;1;30m  A[0;31mce[0;1;30m D[0;31mistro[0m [1;30m▓[0m [34m█ █[0m  [34m▀[0m [34m [0;31m▒ [0;1;30m▓ [0m
    [1;30m▒[0m  [34m▓[0m  [34m▓[0m       [1;30m▓[0m                                             [1;30m▒[0m     [34m▓[0m  [34m▓[0m  [1;30m▒[0m
-   [1;30m▓[0m             [1;30m▓[0m [1;30mR[0;31meality[0;1;30m M[0;31member[0;1;30m B[0;31moard[0;1;30m     O[0;31mblivion2[0;1;30m 2[0;31m.25[0;1;30m M[0;31mod[0m [1;30m▒[0m           [1;30m▓[0m
+   [1;30m▓[0m             [1;30m▓[0m [1;30m [0;31m      [0;1;30m  [0;31m     [0;1;30m  [0;31m    [0;1;30m      [0;31m        [0;1;30m  [0;31m   [0;1;30m  [0;31m  [0m [1;30m▒[0m           [1;30m▓[0m
  [34m▓ [0;1;30m▓[0m    [31m░[0m        [1;30m█[0m                                             [1;30m▓[0m       [31m░[0m   [1;30m▓[0;34m [0m
  [34m░ [0;1;30m▓[0m    [31m▒[0m  [31m▒[0m [34m▓[0m   [1;30m▓ S[0;31mpeed[0;1;30mN[0;31met[0;1;30m 1[0;31m2:91/6[0;1;30m            U[0;31mhf[0;1;30mN[0;31met[0;1;30m 2[0;31m9:316/0[0;1;30m ▓[0m [34m▓[0m [31m▒[0m   [31m▒[0m   [1;30m▓[0;34m [0m
  [34m░ [0;1;30m▒ [0;31m░[0m  [31m▓▀ ▒[0m     [1;30m▓[0m                                             [1;30m▓[0m   [31m▒ ▀[0m [31m▓[0m [31m░[0;1;30m ▒[0;34m [0m
-   [1;30m▒ [0;31m░[0m  [31m░[0m  [31m▓[0m     [1;30m▓ R[0;31mlt[0;1;30mN[0;31met[0;1;30m 2[0;31m47:200/1[0;1;30m [0m     [1;30mL[0;31mocals[0;1;30m o[0;31mn[0;1;30m i[0;31mnvite[0;1;30m o[0;31mnly[0;1;30m ▒[0m   [31m▓[0m   [31m░[0m [31m░[0;1;30m ▒[0m
+   [1;30m▒ [0;31m░[0m  [31m░[0m  [31m▓[0m     [1;30m▓  [0;31m  [0;1;30m [0;31m  [0;1;30m  [0;31m        [0;1;30m [0m     [1;30m [0;31m     [0;1;30m  [0;31m [0;1;30m  [0;31m     [0;1;30m  [0;31m   [0;1;30m ▒[0m   [31m▓[0m   [31m░[0m [31m░[0;1;30m ▒[0m
  [34m█ [0;1;30m▒ [0;31m░ [0;34m█[0;31m▒[0;34m▓[0m  [31m█[0m [34m██[0m [1;30m▓[0m                                             [1;30m▒[0;34m█[0m [31m█[0m  [34m▓█[0;31m▒ ░[0;1;30m ▒[0;34m [0m
  [34m█ [0;1;30m▒ [0;31m▒ [0;34m▌[0;31m▓[0m  [31m░[0m  [34m█▓[0m [1;30m▒[0m [1;30mN[0;31mo[0;1;30m  N[0;31mup[0;1;30m.   N[0;31mo[0;1;30m w[0;31marez[0;1;30m,   A[0;31mll[0;1;30m a[0;31mrt[0;1;30m.    N[0;31mo[0;1;30m c[0;31mhrap[0m [1;30m▓[0;34m█[0m  [31m░[0m  [34m▌[0;31m▓ ▒[0;1;30m ▒[0;34m [0m
    [1;30m▓[0m [1;30m▓[0m         [34m▓[0m [1;30m▒[0m                                             [1;30m▓[0m         [1;30m█[0m [1;30m▓[0m
    [1;30m▓[0m           [34m▒[0m [1;30m▒[0m [1;30mN[0;31mo[0;1;30m r[0;31matios[0;1;30m f[0;31mor[0;1;30m l[0;31md[0;1;30m u[0;31msers[0m     [1;30m▒[0m                [1;30m▒[0m         [1;30m▓[0m [1;30m▓[0m
    [1;30m▓▄▄▄▄▄▄▄▄▄▄▄[0;34m▒[0;1;30m▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▄▄▓[0m
 [1;30m [0m  [1;30m▀[0m ▄[30;47m     [0;37;40m▓▄▓▄▄[0m                                                           [1;30;40m▓[0m
-[37m  ▄██[0;30;47m100% original[0m [1;30;40mc h r o m a t i k - b l a d e  p r o d u c t i o n s 9 4▓[0m
+[37m  ▄██[0;30;47m             [0m [1;30;40m                                                        ▓[0m
   [37m▀▓█[0;30;47mck.blade[0;37;40m███▓▀[0m [1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m
 [37m [0m   [37m▀▀[0;30;47m [0;37;40m█[0;30;47m   [0;37;40m██▀▀[0m'

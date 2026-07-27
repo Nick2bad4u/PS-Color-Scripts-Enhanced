@@ -5,7 +5,7 @@
 # Source SHA-256: e30d047a763c59b326cf2a111ced1ee3b3fce2322f61c3517af4e125547e09bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CX-MTXST.ANS by cyntax (force); released in force18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: staesis(2)matrix
 # SAUCE Author: cyntax
 # SAUCE Group: force
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
- [31mjust a little  matrix thingo  i decided to whip  up for my much needed up life[0m
-[37m [0;31mfor the baord... blah.. greetz to all the people out that are still interested[0m
-[37m [0;31min the agoin art of ansi.. greetz to the whole force krew[0m
+ [31m                                                                              [0m
+[37m [0;31m                                                                              [0m
+[37m [0;31m                                                         [0m
 
 [37m [0;1;31m──--─────----─ ─────-───── -───────---────-─ ───────── ----──────-([0m [31mspacer [0;1;31m)─-[0m
 
@@ -32,7 +32,7 @@ Write-Host '
 [37m [0;1;30m  [0;33m ▄▀[0;1;30m  [0;33m▀[0m   [37m▄▄▄▄▄ [0;33m▐███▓░░░  ░▓█▌[0m   [35mmatrix command kewlio thr33[0m
 [37m  [0;33m  [0m   [37m▄▄[0;37;47m [0;1;37;47m▄▄▄[0;1;37;40m█▀█[0;1;37;47m▄ [0m▄▄ [33m▀█▄   ▄████[0m   [35mmatrix command kewlio four[0m
 [33m ▄  [0;37m▄[0;37;47m [0;1;37;47m▄▄[0;1;37;40m███ ██ ████[0;1;37;47m▄[0m█ [33m▀█████████▌[0;37m  [0;35mmatrix command kewlio phive[0m
-   [37m█[0;1;37;47m▄[0;1;37;40m██████ █  █████[0;1;37;47m▄[0m█ [33m████▓▓▄███[0;37m  [0;35mmatrix command kewlio sex[0m
+   [37m█[0;1;37;47m▄[0;1;37;40m██████ █  █████[0;1;37;47m▄[0m█ [33m████▓▓▄███[0;37m  [0;35m                         [0m
 [33m▄ [0;37m▐[0;1;37;47m▐[0;1;37;40m██████  █  █████[0;1;37;47m█▌[0m▌[33m▐██████████▄▄[0m                                [33m     [0m
 [33m▄  [0;37m█[0;1;37;47m▀[0;1;37;40m█████████████[0;1;37;47m██▀[0m█ [33m█▀▀▀▀▀██▓███[0;30;43muse the ▲/▼ to select!   [0;33;40m▀▀▀▀▀███▓█[0;30;43mcx_[0m
 [33;40m▐█  [0;37;40m█[0;1;37;47m▀[0;1;37;40m██▄▄▄ ▀█▀█▀▀▀▀[0m▀  [33m▀ [0;1;33;45m ▄ [0m [33m██████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;35m▀▀░[0;1;30m [0;33m▀▀▀▀▀▀▀[0m

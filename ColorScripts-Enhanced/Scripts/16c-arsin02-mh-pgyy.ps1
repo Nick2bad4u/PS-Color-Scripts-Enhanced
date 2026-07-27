@@ -5,12 +5,12 @@
 # Source SHA-256: 0817082eb36775cccc63fe75c6d7e7dbeaa5f5333b0000481fb082702e3d3fda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH!PGYY.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
-                        maddog hoëk of ARSiN productions
+                                                        
          [1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;47m▀[0m
          [1;40m█ [0;1;34;40m▄[0;1;34;44m███▓▓▒▒░░               [0;34m▀▀▀▀▀▀[0;34;44m                [0;1;34;44m░░▒▒▓▓███[0;1;34;40m▄ [0;1;34;47m [0m
          [1;37;40m█ [0;1;34;44m██▓▓▒▒░░          [0;34m▀▀▀ [0;33m▄▄▄▄[0;33;42m▀▀▀[0;33;40m█▄▄▄  [0;34;40m▀▀▀[0;34;44m           [0;1;34;44m░░▒▒▓▓██[0m [1;34;47m [0m
@@ -44,5 +44,4 @@ Write-Host '
 [1;37;47m▓[0m ┌╦═[1m══╦┐[0m┌╦   [1m╦┐[0m┌╦═[1m══╦┐[0m┌╦═[1m══╦┐[0m┌╦═[1m══╦┐[0m┌╦═[1m══╦┐[0m┌╦═[1m══╦┐[0m┌╦═[1m══╦┐[0m┌╦═[1m══╦┐[0m┌╦[1m╦╦┐[0m┌╦═[1m══╦┐ [0;1;30;47m░[0m
 [1;37;47m▒[0m [36m│╠═[0;1;36m══╩┘[0;36m└╩═[0;1;36m══╣│[0;36m│╠═[0;1;36m═╦╩┘[0;36m│║   [0;1;36m║│[0;36m│║  [0;1;36m═╦┐[0;36m├╬═[0;1;36m═   [0;36m│║   [0;1;36m║│[0;36m├╬═[0;1;36m═   [0;36m└╩═[0;1;36m══╦┐  ║  [0;36m└╩═[0;1;36m══╦┐ [0;1;30;47m▒[0m
 [1;37;47m░[0m [34m└╩[0m     [34m└╩═[0;1;34m══╩┘[0;34m└╩  [0;1;34m╚═┘[0;34m└╩═[0;1;34m══╩┘[0;34m└╩═[0;1;34m══╩┘[0;34m└╩═[0;1;34m══╩┘[0;34m└╩   [0;1;34m╩┘[0;34m└╩═[0;1;34m══╩┘[0;34m└╩═[0;1;34m══╩┘[0;34m└╩[0;1;34m╩╩┘[0;34m└╩═[0;1;34m══╩┘ [0;1;30;47m▓[0m
-[1;30;47m [0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m█[0m
-[1;30;40m [0;33m([0;31m8[0;1;33m1[0;1;31m8[0;33m) [0;31m3[0;1;31m6[0;1;33m9[0;33m-[0;31m3[0;1;33m6[0;1;31m3[0;1;33m3   [0;31mf[0;33mu[0;1;33ml[0;1;31ml [0;33ma[0;31mc[0;1;33mc[0;33me[0;1;33ms[0;1;31ms [0;33mo[0;31mn 1[0;1;31ms[0;1;33mt [0;31mc[0;33ma[0;1;33ml[0;1;31ml   [0;31mm[0;33me[0;1;31ms[0;1;33ms[0;33ma[0;31mg[0;33me[0;1;33ms[0;33m/[0;1;31mf[0;33mi[0;31ml[0;33me[0;1;31ms[0;33m/[0;1;33md[0;33moo[0;1;33mr[0;31ms   [0;1;33mm[0;33ma[0;31mc [0;1;33ms[0;33mu[0;31mp[0;1;33mp[0;33mo[0;1;33mr[0;1;31mt[0m'
+[1;30;47m [0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m█[0m'

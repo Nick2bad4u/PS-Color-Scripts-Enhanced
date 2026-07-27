@@ -5,19 +5,19 @@
 # Source SHA-256: 14002868c47340d829b172676f402d12b7842975b8a804edd93c414a9d60e0d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: vp-rmrs.ans by Vapor (rmrs-39); released in rmrs-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
 Write-Host '
   vap ñÑÑÑ198119811981198119[1;35m 1198 [0m1981198119811981198119811981198119811981198119
-  0r! é$│░[1;30mremorse[0mremorseremo[1;35m sere [0morse[1;30mremorse[0mremorse[1;30mremorse[0mremorse[1;30mremorse[0mremorse
+        │░[1;30m       [0m           [1;35m      [0m    [1;30m       [0m       [1;30m       [0m       [1;30m       [0m       
   $$$$▒$│$$$$$$$$$$$$$$$$$$$[1;35m $$$$ [0m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
   ⁿⁿS$@*┘┘*@$│$@*┘┘┘*@#*ⁿⁿ*$[1;35m $$$$ [0m$$$$$$$$│@*┘┘*@$$SSS$$@*┘┘*┘°°°°°ⁿ$$@*┘┘┘*@$$$
   ss _.,┐┐,._` [1;37m.,┐┐┐,._[0m ss `[1;35m °ⁿ┘* [0mⁿ°°ⁿ````_.,┐┐,._° ss _.,┐┐,ssssss ` [1;37m.,┌┌┐,._[0m
   l$SÑÑ*┘┘*$│[1;37m,S$*└┘┘*Ñ│:[0m.$SsΦ@s,.,sΦΦs$$,¶$$*┘┘*$│♫sl☻♫ÑÑ*└┘**┘┘┘┘┘ [1;37m,S$*└└┘*$│[0m:
   ;☺$'',sSS `[1;37m;ÑÑ`[0;34m*┘ⁿⁿ°[0;37m [0;1;37ml$[0mi$$ⁿ°`°Ñ££°`°$┼$☻$`[34m,┐ss┐,[0;37m`$$Ñ☺$'';$$` [0;34mssSS│[0;37m [0;1;37m.ÑÑ[0m`[34m└ⁿⁿⁿ┘[0;37m [0;1;37m`$[0m
-  ƒ☺Ñ ║$$Ñ  [1;37mÑÑÑƒƒƒƒƒƒƒƒƒ[0mL$Ñ [1;35m $[0m l¿l [35m$[0;37m Ω$$§; [0;35mssssss[0;37m ;┤│$Ñ  \│Ssss┐.,_[0;1;37m;ÑÑÑÑÑÑÑ$$$$[0m
+      ║     [1;37m            [0m    [1;35m  [0m     [35m [0;37m       [0;35m      [0;37m  ┤│     │    ┐   [0;1;37m            [0m
   ┼╬Ñ ║$$$  [1;37ml$Ñ.[0m [34m*ss*[0;37m  [0;1;37m [0m┼╬Ñ [1;35m $s┐┐ [0;35m┐$[0;37m Ω╪$l§,[0;35m`°ⁿⁿ°`[0;37m,$$┼╬Ñ [0;34ms,.[0;37m````°;J│[0;1;37mS$Ñ.[0m [34m*ss*[0;37m  [0;1;37m_[0m
   ░╬Ñ Ññ░Ñ [35m,[0;37m [0;1;37m*$$S*┐┐*#¶╪$[0m╬Ñ [1;35m $$$$ [0;35m$$[0;37m ⌡⌡$$S♠$@ss@§$*$░╬Ñ sssss┐┐┌S$$%[0;1;37m*$$│*┐┐*@$│[0m
   [35m...[0;37m ñ$ÑÑ [0;35m$@┐.[0;1;37m`°ⁿ┘┘ⁿ°`[0m   [34m**[0;1;35m `°┘$ [0;35m$$sss┐,[0;37m`┘*S$☻S*┘` [0;35m__[0;37m  ┘┘┘┘┘┘┘┘ⁿ°`   [0;1;37m`°ⁿ┘┘ⁿ°`[0m _
@@ -30,7 +30,7 @@ Write-Host '
   [1;34ms[0;34mss[0;37m ╬Ñ▓$ [0;1;30ms[0m [35msss,[0;37m *$$│*┐*#$☻║*''S$¶s┐s¶$$%$S♠$@ss@§ÑÑ$░ ╪┼$▓ Ñ$$▓ⁿ°`[0;34m_.[0;37m [0;1;35m$$$$$$$$$$[0m
   [1;34m$[0;34m$$[0;37m ╬Ñ$$ [0;1;30m$[0m [35m$$$$[0;37m [0;34m,_[0;37m`°ⁿ┘┘ⁿ°` [0;1;35m,┐,[0m`°ⁿ┘┘ⁿ°`[34m__[0;37m`┘*SÑ☻S*╬Ñ$Ñ ╪┼$$ Ñ$$$ [0;34m$$$$[0;37m [0;1;35m$°°°°°°°°°[0m
   [1;34m$[0;34m$$[0;37m ▌▒$[ [0;1;30m$[0m [35m$$$$[0;37m [0;34ml$$$[0;37m [0;1;35m$$[0m [34m$│[0;37m [0;1;35m$$$│[0m [34mSSSSSSSSSS@ssss[0;37m ╬╬╪┼ ╫┼ÑÑ Ñ$S$ [0;34mSSSS[0;37m [0;1;35m$[0m
-  [1;34m$[0;34m$$[0;37m ````[0;1;30m,$[0m [35m$$$$:[0;34m`$$$[0;37m [0;1;35m$$[0m [34m$$[0;37m [0;1;35m$$$$ssssssssssssssssssssssssss [0mÑ░$$ [1;35msssss$[0m
+  [1;34m [0;34m  [0;37m     [0;1;30m  [0m [35m     [0;34m    [0;37m [0;1;35m  [0m [34m  [0;37m [0;1;35m                               [0m ░   [1;35m      [0m
   [1;34m$[0;34m$$$$$$$$$ [0;35ml$$$l[0;37m [0;34m$$$[0;37m [0;1;35m$$[0m [34m$$[0;37m [0;1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$⌡┘┘┘[0m ÑÑÑ$ [1;35m$$$$$$[0m
   [1;34m`[0;34m```````[0;1;34m$[0;34m$[0;37m [0;35m`$$$$,[0;34m└*$[0;37m [0;1;35m$$[0m [34m$$,[0;1;35m```````````````$$`````````[0m [-s$$$Ñ$ [1;35m``````[0m
           [1;34m$[0;34m$,[0;37m [0;35m`/$$$*,_[0;37m [0;1;35m`°[0m [34mⁿ┘***┘[0;37m [0;35m_,sS$││$[0;37m [0;34m$[0;37m [0;1;35m$$[0m          [-*$$$Ñ$

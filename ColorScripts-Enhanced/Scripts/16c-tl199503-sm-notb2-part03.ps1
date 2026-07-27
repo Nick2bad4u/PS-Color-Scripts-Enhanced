@@ -5,7 +5,7 @@
 # Source SHA-256: fae23bc6f5902e4ef0e7a8b43313e963aeeef13439e11de137f8870e8c2b24fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-NOTB2.ANS by Smooth (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Number of The Beast
 # SAUCE Author: Smooth
 # SAUCE Group: TekLordZ
@@ -35,10 +35,8 @@ Write-Host '
   [1;30;40m▄▓[0m                                                                       [1;30;40m███[0;1;30;47m▒[0m
   [1;30;40m▓▒████ ██[0m   [1;30;40m█[0m  [1;30;40m▌[0m                                       [1;30;40m▄[0m       [1;30;40m▄▄[0m   [1;30;40m▄▄▄▄▄▄▄█[0;1;30;47m▓[0m
 
-  [1;30m░[0m       [1mNu[0mmber of the Beast         +O:Lazarus         +Co:Grima[1mce[0m          [1;30m░[0m
-  [1;30m▒[0m              [1mTe[0mkLordZ Member Board     EMiGRE Pacific [1mHq[0m                  [1;30m▒[0m
-  [1;30m▓[0m                    [1;30m    [0m [1;30m [0;1;37mIf[0mxnet Member Boa[1mrd[0m                              [1;30m▓[0m
+  [1;30m░[0m       [1m  [0m                                                      [1m  [0m          [1;30m░[0m
+  [1;30m▒[0m              [1m  [0m                                       [1m  [0m                  [1;30m▒[0m
+  [1;30m▓[0m                    [1;30m    [0m [1;30m [0;1;37m  [0m               [1m  [0m                              [1;30m▓[0m
   [1;30m█[0m                          [1;30m [0m  [1;37m8o[0m8.423.98[1m24[0m                                 [1;30m █[0m
-  [1;30m██▄▄▄▄[0m   [1;30m▄▄▄[0m    [1;30m▄[0m     [1;30m■[0m                                 [1;30m■[0m    [1;30m▄[0m   [1;30m▄▄▄[0m   [1;30m▄▄▄▄██[0m
-[1;30m        [0m  [1;30mEViL AhN-ZEe bY SmoOth [ACiD.TL] - TekLordZ Productions 1995[0m
-                            [33m                                                 [0m'
+  [1;30m██▄▄▄▄[0m   [1;30m▄▄▄[0m    [1;30m▄[0m     [1;30m■[0m                                 [1;30m■[0m    [1;30m▄[0m   [1;30m▄▄▄[0m   [1;30m▄▄▄▄██[0m'

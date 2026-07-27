@@ -5,7 +5,7 @@
 # Source SHA-256: 65d22685d5fa00b35ff2f8f6a7e6a46b50a6bf2ec56909a2870cf9c7b05e31e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SANC-SD.ANS by Slam Dunk (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 32-53
 # Columns: 1-80
 
@@ -26,8 +26,8 @@ Write-Host '
             [1;30;40m▀[0m                                              [1;30;40m▀▄▄▀▀▀▄▄▀[0m
                                                              [1;30;40m▀▀▀▀[0m
         [1;34m┌────────────────────────────────────────────────────────────┐[0m
-        [1;34m│[0m         [36mSanctuary[0;1;36m([0;1;37mtm[0;1;36m) [0;1;30m■ [0;36m3O5[0;1;37m.[0;36m792[0;1;37m.[0;36m8771 [0;1;30m■ [0;1;37mi[0;1;36mC[0;36mE USA HQ[0m          [1;34m│[0m
-        [1;34m│ [0;36mSysop [0;1;30m■ [0;36mTempus Thales [0;1;30m[[0;1;37mi[0;36mC[0;1;36mE[0;1;30m] ■ [0;36mModerator[0;34m/[0;36mCo [0;1;30m■ [0;36mLady In Black [0;1;34m│[0m
-        [1;34m│[0m        [36mLTD Southern [0;1;37mH[0;1;36mQ [0;1;30m■ [0;36mPrognosis Site [0;1;30m■ [0;36m2OO Megs[0m         [1;34m│[0m
-        [1;34m│[0m     [36mUSR HST[0;1;36m/[0;36mv[0;1;36m.[0;36m32bis[0;1;36m/[0;36mv[0;1;36m.[0;36m42bis[0;1;36m/[0;36m38[0;1;36m.[0;36m4 [0;1;30m■ [0;36mANSi By [0;1;36m■ [0;34mS[0;1;34md[0;35m<[0;1;31mACiD[0;35m>[0m      [1;34m│[0m
+        [1;34m│[0m         [36m         [0;1;36m [0;1;37m  [0;1;36m  [0;1;30m■ [0;36m   [0;1;37m [0;36m   [0;1;37m [0;36m     [0;1;30m■ [0;1;37m [0;1;36m [0;36m        [0m          [1;34m│[0m
+        [1;34m│ [0;36m      [0;1;30m■ [0;36m              [0;1;30m [0;1;37m [0;36m [0;1;36m [0;1;30m  ■ [0;36m         [0;34m [0;36m   [0;1;30m■ [0;36m              [0;1;34m│[0m
+        [1;34m│[0m        [36m             [0;1;37m [0;1;36m  [0;1;30m■ [0;36m               [0;1;30m■ [0;36m        [0m         [1;34m│[0m
+        [1;34m│[0m     [36m       [0;1;36m [0;36m [0;1;36m [0;36m     [0;1;36m [0;36m [0;1;36m [0;36m     [0;1;36m [0;36m  [0;1;36m [0;36m  [0;1;30m■ [0;36m        [0;1;36m■ [0;34m [0;1;34m [0;35m [0;1;31m    [0;35m [0m      [1;34m│[0m
         [1;34m└────────────────────────────────────────────────────────────┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 68773240ac33d3797685fb7c1adff00171a7e1fa01ab9494cc448244dfd120d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LR!-BD.ANS by late riser ((the 5th..)); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: brain damage logo
 # SAUCE Author: late riser
 # SAUCE Group: (the 5th..)
@@ -40,5 +40,4 @@ Write-Host '
 [1;30m   [0m    [1;30m`,[0m
 [1;30m   [0m   [1;30m,[0m
 
----------------------------------[ Late Riser ]---------------------------------
-Brain Damage Logo ..... my contribution to GO #6[0m'
+---------------------------------[ Late Riser ]---------------------------------[0m'

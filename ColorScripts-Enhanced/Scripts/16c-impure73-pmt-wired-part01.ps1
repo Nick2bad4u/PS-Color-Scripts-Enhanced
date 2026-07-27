@@ -5,7 +5,7 @@
 # Source SHA-256: 84c8fd72bbb0841a1309c0da2eeb0b320010259ea9e994d69b91e2083daae893
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pmt-wired.ans by Prismate (impure73); released in impure73 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20190519
 # SAUCE Dimensions: 80x121
 # SAUCE Font: IBM VGA
@@ -13,7 +13,7 @@
 # Columns: 1-80
 
 Write-Host '
-                [1;30;40m++ [0;1;31;40miMPURE[0;31m!ASCii [0;1;35m1940  [0;1;30mwired [0;1;35m73  [0;1;30mby  [0;35mP[0;1;34mR[0;1;37mi[0;1;31mS[0;31mM[0;37mA[0;36mT[0;33mE[0;1;30m ++[0m
+                [1;30;40m   [0;1;31;40m      [0;31m       [0;1;35m      [0;1;30m      [0;1;35m    [0;1;30m    [0;35m [0;1;34m [0;1;37m [0;1;31m [0;31m [0;37m [0;36m [0;33m [0;1;30m   [0m
 
 
 

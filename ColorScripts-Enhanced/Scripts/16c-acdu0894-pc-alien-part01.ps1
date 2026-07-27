@@ -5,7 +5,7 @@
 # Source SHA-256: 6ae875ba45b0c254d5e0533ea9d72f8ee94457f8e46df29638353f1ddf5ddc9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-ALIEN.ANS by P-Chan (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Alien Workshop
 # SAUCE Author: P-Chan
 # SAUCE Group: ACiD Productions
@@ -31,11 +31,11 @@ Write-Host '
                                             [1m▀[0;1;47m▓▓▓▓▓[0;1;40m▄[0;30;43m█[0m
                                                   [1;37;40m▀█[0m
                                                   [1;37;40m▄▀[0m
-                                                 [1;37;40m▀[0;30;43m█[0m    [1;37;40m┌─I[0mf [1;30myou need an ansi [0mb[1my┐[0m
-                                                       │ [1mm[0me[1;30m, you can find me [0mo[1mn[0m│
-                                                       [1;30m│ [0;1;37ms[0mo[1;30mme loacl 619 boar[0md[1ms,[0;1;30m│[0m
-                                                       [1;30m│ [0;1;37mo[0mr [1;30mleave some mail [0mo[1mn [0;1;30m│[0m
-                                                       │ [1mC[0mh[1;30mannel Zer0 or Ter[0mr[1ma [0m│
+                                                 [1;37;40m▀[0;30;43m█[0m    [1;37;40m┌─ [0m  [1;30m                 [0m [1m ┐[0m
+                                                       │ [1m [0m [1;30m                  [0m [1m [0m│
+                                                       [1;30m│ [0;1;37m [0m [1;30m                 [0m [1m  [0;1;30m│[0m
+                                                       [1;30m│ [0;1;37m [0m  [1;30m                [0m [1m  [0;1;30m│[0m
+                                                       │ [1m [0m [1;30m                 [0m [1m  [0m│
                                                        [1m└─F[0mi[1;30mrma.[0;1;37m────────────────┘[0m
 
 [1;30;47m▒▒[0m  [1;30;47m░░[0m [1;30;47m░[0m  [1;30;47m░░[0m               [1;30;47m░[0m [30;47m▌[0m    [1;30;47m░░[0m [1;30;47m░░[0;30;47m▄[0m  [30;47m▀  ▄[0m  [30;47m▀[0;1;30;47m░░[0;30;47m▄▄[0m    [1;30;47m░[0m

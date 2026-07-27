@@ -5,7 +5,7 @@
 # Source SHA-256: fc057d08182daa383dabcabd8003a7d41c54e96c2ca60357bf32ebcc4a0bf6b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ON-PROJX.ANS by Orion (fos-0595); released in fos-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-99
 # Columns: 1-80
 
@@ -58,4 +58,4 @@ Write-Host '
                                           [1;30m▐[0;1;30;47m▒░[0;1;37;47m░[0m▌         [1;30m▄▀[0m
                                           [1;30;47m▓▒░[0;1;37;47m░▒[0m▄
                                            [1;30m▀[0;1;30;47m▒░[0;1;37;47m░▒▓[0m▄▄▄[1m▄▀[0m
-                                              [1;30m▀▀▀▀[0m▀   [1;30mdr[0maw[1mn[0;1;30m b[0my[1;30m o[0mr[1mi[0mo[1;30mn[[0mfos[1m][0m'
+                                              [1;30m▀▀▀▀[0m▀   [1;30m  [0m  [1m [0;1;30m  [0m [1;30m  [0m [1m [0m [1;30m  [0m   [1m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 75a2959abcaa6e4a29f3e8fb54bfdf8126a11d4b426a4c5640e31223cf8f1dfe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-molaram.ans by The Knight + Zeus Ii (FUEL); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mola Ram
 # SAUCE Author: the knight , Zeus II
 # SAUCE Group: FUEL
@@ -43,12 +43,4 @@ Write-Host '
      [34;40m▀▄[0;37;40m  [0;35;40m▀[0;37;40m▀[0;35;40m▀[0;1;35;45m░░[0;36;45m█[0;35;40m█[0;32;46m░░[0;1;36;46m▄▄[0;36m█[0;1;36;46m▀▀[0;36m█▀▀[0;37m  [0;34m▄[0;37m   [0;36m▀▀[0;1;36;46m▀▀▀[0;36m█[0;1;36;46m▀▀[0;32;46m░░░[0;36;40m▀▀▀[0;37;40m  [0;36;40m    ▄▄▄▄[0;35;40m▄▄▄▓[0;36;45m▄[0;35;40m█[0;36;45m▄▄[0;36;40m██[0;35;46m█▀[0;36;40m█▀▀[0;37;40m    [0;34;40m▄[0m
 [37;40m    [0;36;40m    [0;34;40m▀▀▄▄▄[0;36;40m [0;37;40m ▀[0;36;40m▀▀▀▀▀[0m     [34;40m▀▀[0;37;40m   [0;34;40m▀▄▄▄[0m            [34;40m▄▄[0;37;40m [0;34;40m▀[0;37;40m [0;32;46m░[0;1;36;46m▀▀[0;36;45m▀▄█[0;1;35;45m░░[0;35m█[0;31;45m░[0;35;40m▀▀▀▀▀[0;37;40m   [0;34;40m▄▄▀▀[0m
                 [34;40m▀▀▀[0;36;40m    [0m              [34;40m▀▀▀▀▀▀▀[0m                  [34;40m▄▄▄▀▀▀▀[0m
-          [34;40mU    N    D    E    R    W    O    R    L    D[0m
-
-
-
-
-
-[37;40m [0;30;40m [0;1;30;40mMola Ram - drawn partially during ToorCamp live drawing session by the knight[0m
- [1;30m Thanks to Cap Hawk Hubbard for the suggestion.[0m
-  [1;30mACiD Underworld logo by Zeus II![0m'
+          [34;40mU    N    D    E    R    W    O    R    L    D[0m'

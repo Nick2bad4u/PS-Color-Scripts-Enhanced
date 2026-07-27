@@ -5,7 +5,7 @@
 # Source SHA-256: a9612d64b790e17259de812b62d112161c03805c473f8f433b096f20ee602c41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-DIF1.ANS by Chromatik (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digital Fluid
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -33,17 +33,17 @@ Write-Host '
 
                                   [1m6[0m12[1;30m.[0;1;37m4[0m31[1;30m.[0;1;37m2[0m770
 
-      [1;35mP[0;35mOiSON [0;1;35mN[0;35mHQ [0;1;35m· P[0;35mOiSON [0;1;35mn[0;35met [0;1;35mW[0;35mHQ [0;1;35m· P[0;35mOiSON [0;1;35ma[0;35mpp [0;1;35mH[0;35mQ [0;1;35m· V[0;35mOR [0;1;35mm[0;35member [0;1;35mb[0;35moard [0;1;35m·[0m
+      [1;35m [0;35m      [0;1;35m [0;35m   [0;1;35m   [0;35m      [0;1;35m [0;35m   [0;1;35m [0;35m   [0;1;35m   [0;35m      [0;1;35m [0;35m   [0;1;35m [0;35m  [0;1;35m   [0;35m   [0;1;35m [0;35m      [0;1;35m [0;35m     [0;1;35m [0m
 
-[32m    [0;1;35mV[0;35mPi [0;1;35md[0;35mistro [0;1;35m· B[0;35mROkEN [0;1;35md[0;35mistro [0;1;35m· B[0;35mLuNT [0;1;35md[0;35mistro [0;1;35m· 6[0;35m13[0;1;35mm[0;35mag [0;1;35mU[0;35mSHQ [0;1;35m· p[0;35mlus [0;1;35mm[0;35more.[0;1;35m..[0m
+[32m    [0;1;35m [0;35m   [0;1;35m [0;35m      [0;1;35m   [0;35m      [0;1;35m [0;35m      [0;1;35m   [0;35m     [0;1;35m [0;35m      [0;1;35m   [0;35m  [0;1;35m [0;35m   [0;1;35m [0;35m    [0;1;35m   [0;35m    [0;1;35m [0;35m    [0;1;35m  [0m
 
  1 0 0 % · o r i g i n a l · a n s i · b y · c h r o m a t i k  ·  B L /┤ D E
 
-[1;30mthis ansi also appeared with the BROkEN pack.. I plan to stay in Blade for now.[0m
+[1;30m                                                                               [0m
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░ Greets go out to everyone! But, especially to Darkfyre,[0m
-[1;30m▓ █▀█ █   █▀█ █▀█ █▀▀ ░ DX, Whiplash, Aggressor, Mystic Plague, Da Hood, Term.[0m
-[1;30m▒ █▀▄ █   ▓▀█ █ █ █▀  ░ Velocity, Diehard, Stranger, Brass Hat, Punisher, The[0m
-[1;30m░ █ █ █   ▒ ▓ █ ▓ █   ░ Master, Ice, and anyone that I might have missed...-GR.[0m
+[1;30m▓ █▀█ █   █▀█ █▀█ █▀▀ ░                                                       [0m
+[1;30m▒ █▀▄ █   ▓▀█ █ █ █▀  ░                                                      [0m
+[1;30m░ █ █ █   ▒ ▓ █ ▓ █   ░                                                        [0m
 [1;30m░ ▓ ▓ ▓   ░ ▒ ▓ ▒ ▓   ▒ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄
 [1;30m░ ▒▄▒ ▒▄▄ ░ ░ ▒▄▀ ▒▄▄ ▓[0m
 [1;30m░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

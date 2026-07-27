@@ -5,7 +5,7 @@
 # Source SHA-256: bdf44d7009facf3e5591ce0453e8bbca64b70d3a5d0a647360a90684bf5cb642
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CATS.ANS by Moth + LDA + Zeus Ii (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cats!
 # SAUCE Author: Moth, Zeus II, LDA
 # SAUCE Group: Mistigris
@@ -47,9 +47,4 @@ Write-Host '
         [1;30m▐██[0;1;30;43m▓[0;33m▌[0;1;30;43m░▒▓▓[0;1;30;40m████[0;1;30;43m▓█[0;1;30;40m█ [0;33m▀▄█  [0;1;36;46m▄[0;36m ▀[0;1;36;46m■[0;36m█[0;1;36;46m▄[0;36m▄[0;37m   [0;36m▄[0;37m [0;33m█[0;1;30;43m▒[0;1;30;40m ▀[0;1;30;43m▒▓█[0;1;30;40m███[0;1;30;43m▒▓[0;1;30;40m█ █[0;1;30;43m▒[0;33m█[0;1;30;43m▒[0;1;30;40m▌[0;33m▐[0;33;47m▓▒[0;33;40m█[0;1;30;43m▒[0;1;30;40m▌ █[0;1;30;43m▒[0;1;30;40m█▐█[0m
         [1;30m██[0;1;30;43m▓░[0;33m█[0;33;47m▓[0;33;40m█[0;1;30;43m▒▓[0;1;30;40m▌███[0;1;30;43m▓[0;1;30;40m█▌▄[0;33m██[0;1;30;43m░▓[0;1;30;40m▄[0m [36m▀▄[0;37m [0;1;36m▀▄[0;36m [0;1;36m▀[0;36m▀[0;1;30m▀[0;36m [0;1;30m▄[0;33m▀█[0;1;30;43m▓[0;1;30;40m▄▄[0;1;30;43m█[0;1;30;40m██▀█[0;1;30;43m▓[0;1;30;40m█[0;33m  [0;1;30m█[0;33m██[0;1;30;43m▓[0;1;30;40m▌[0;1;30;43m▒[0;33m█[0;33;47m▓[0;1;30;43m░▓[0;1;30;40m▌▐█[0;1;30;43m░▒[0;1;30;40m█[0;1;30;43m▓[0m
         [1;30m███[0;33m ██[0;1;30;43m░▓[0;1;30;40m█ █████ █[0;1;30;43m▄▓▓█[0;1;30;40m█ ▄▄▄  [0;36m▀[0;1;30m▀▄ █[0;1;30;43m▓▓░[0;33m█[0;1;30;43m▓█[0;1;30;40m ███[0;1;30;43m▓[0;1;30;40m█  ▐[0;1;30;43m▓[0;33m█[0;1;30;43m▓[0;1;30;40m█ [0;1;30;43m▒[0;33m██[0;1;30;43m▓[0;1;30;40m█[0;33m  [0;1;30m█[0;1;30;43m░[0;33m█▐[0;1;30m█[0m
-[37m       [0;1;30m▐██ [0;33m▐█[0;1;30;43m░▒[0;1;30;40m█  ▐███ [0;1;30;43m████▓[0;1;30;40m▌  ▐▀[0;1;30;43m▓[0;1;30;40m████[0;1;30;43m▓▓▒░[0;33m█▄▀[0;1;30m██ ▐███[0;33m   [0;1;30m█[0;1;30;43m░[0;33m█[0;1;30m█ █[0;1;30;43m▓░░[0;1;30;40m██[0;33m  [0;1;30m▐[0;1;30;43m▓[0;33m█[0;1;30;43m▒▓[0;1;30;40m▌[0m
-
-[37m    [0;1;30mA Note from LDA:[0m
-       [1;30mThis started life as a sketch by [0mmoth [1;30mof Odd from Code Lyoko.[0m
-       Zeus II[1;30m ran with it, not knowing it was Code Lyoko.[0m
-       [1;30mFinishing touches by [0mLDA[1;30m and [0mZeus II[1;30m.[0m'
+[37m       [0;1;30m▐██ [0;33m▐█[0;1;30;43m░▒[0;1;30;40m█  ▐███ [0;1;30;43m████▓[0;1;30;40m▌  ▐▀[0;1;30;43m▓[0;1;30;40m████[0;1;30;43m▓▓▒░[0;33m█▄▀[0;1;30m██ ▐███[0;33m   [0;1;30m█[0;1;30;43m░[0;33m█[0;1;30m█ █[0;1;30;43m▓░░[0;1;30;40m██[0;33m  [0;1;30m▐[0;1;30;43m▓[0;33m█[0;1;30;43m▒▓[0;1;30;40m▌[0m'

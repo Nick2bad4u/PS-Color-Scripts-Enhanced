@@ -5,7 +5,7 @@
 # Source SHA-256: 0921a60d8f5b3a2d5c0bcb4bbe2bac701d17fa684789d24342d3b206b2907c5c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-WOPR.ANS by nitron (mistigris); released in mist0523 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: WOPR Banner
 # SAUCE Author: nitron
 # SAUCE Group: mistigris
@@ -18,7 +18,7 @@
 Write-Host '
 [1m[[0m [1;33mBULLETIN: [0;1;32mHOSTILE ICMB LAUNCH DETECTED [0m--[1m][0;1;30m  ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄[0m
 [1m[[0m [1;33mSTATUS: [0;1;32mDEFCON 1 [0m------------------------[1m][0;1;30m ▄▓▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓█▄[0m
-[1m[[0m [1;33mINFORMATION: [0;1;32m1256 WARHEADS READY [0m--------[1m][0;1;30m░▓▓[0m  [1;33m■[0m              [1;30m░        [0;1;36m■[0m  [1;30m▓█▓[0m
+[1m [0m [1;33m             [0;1;32m                    [0m        [1m [0;1;30m░▓▓[0m  [1;33m■[0m              [1;30m░        [0;1;36m■[0m  [1;30m▓█▓[0m
 [1;30m▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████████████▓▓▓[0m  [36m■[0;37m   [0;1;31m■[0;1;30m [0;1;36m■[0m           [1;36m■[0;1;30m [0;1;37m■[0m   [1;33m■[0m  [1;30m▓█▓[0m
 [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████████████████████▓▓▓▓▓[0m  [36m■[0;37m   [0;1;33m■[0;1;30m [0;36m■[0;37m           [0;36m■[0;37m [0;1;33m■[0m   [36m■[0;37m  [0;1;30m▓█▓[0m
 [31m     [0;1;31m■[0m [1;33m■[0m         [1;33m■[0m   [1;33m■[0m [1;33m■[0m   [1;32m■[0m   [1;33m■[0m   [1;33m■[0m [1;31m■[0m [1;31m■[0;1;30m [0;1;31m■[0m [1;30m▓▓█▓[0m  [36m■[0;37m     [0;1;32m■[0m   [31m====_[0;1;30m   [0;1;33m■[0m     [36m■[0;37m  [0;1;30m▓█▓[0m
@@ -32,13 +32,13 @@ Write-Host '
 [1;30m▓▓▓▓▓▓▓▓▓▓▓▓██████████████████████████████▓▓▓▓▓▌[0;1;37mWar Operation Plan Response[0;1;30m▐█▓▓[0m
 [1;30m▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████████████████▓▓▓▓▀[0m
 ───────────────────────────────────────────────────────────────────────────────
-[1;32m> Good evening, Professor Falken.[0m
+[1;32m                                 [0m
 
-[1;32m> Would you like to play a game of chess?[0m
+[1;32m                                         [0m
 
-[1;32m> How about a game of Global Thermonuclear War?[0m
+[1;32m                                               [0m
 
-[1;32m> Professor Falken, are you there?[0m
+[1;32m                                  [0m
 
 [1mcmd>_[0m
 [1;30m--------------------------------------------------------------------------------[0m

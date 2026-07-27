@@ -5,7 +5,7 @@
 # Source SHA-256: d017fdec6cc6c29166277de5953186b50cd0322bac3d9aa09cec308b367bb3c5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YT-NJ2.ANS by neophyte (mistiblade); released in blde9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neon jesus
 # SAUCE Author: neophyte
 # SAUCE Group: mistiblade
@@ -56,8 +56,4 @@ Write-Host '
       [30;47m▓▓[0;37;40m  ▐[0;1;37;47m░░[0m▌ [1m   [0m▐[1;47m░░[0m▌▐[1;47m░░[0m▌▀▀▀▀▀▀[30;47m▓[0;37;40m▐[0;1;37;47m░░[0m▌[1m    [0m▐[1;47m░[0;30;47m░[0;37;40m▌▐[0;1;37;47m░░[0m▌ [1m   [0m▐[1;47m░░[0m▌▐[1;47m░░[0m▌[1m    [0m▐[1;47m░[0;30;47m░[0;37;40m▌ [0;30;47m▓▓[0;37;40m        [0m
 [37;40m      [0;1;33;40m▄▄▄▄[0m ▀▀▀▄▄▄▄▀▀▀[1m  [0m▀▀▀▄▄▄▄▌ [1;33m▄[0;1;37m [0m▀▀▀▄▄▄▄▀▀▀[1m  [0m▀▀▀▄▄▄▄▀▀▀ [1m [0m▀▀▀▄▄▄▄▀▀▀[1m [0;1;33m▄▄▄▄[0m
         [1;33m▀▀▓▓▓▄▄▄▄▄▄▓▓▓▓▓▓▄▄▄▄▄▄▄▓▓▓▓▄▄▄▄▄▄▓▓▓▓▓▓▄▄▄▄▄▄▓▓▓▓▓▓▄▄▄▄▄▄▓▓▓▀▀[0m
-[30;42m▓[0;37;40m   [0;30;42m▓[0;37;40m [0;30;42m▓▓▓▓[0;1;33;40m░░░[0;30;42m▓▓▓▓▓▓[0;1;33;40m░░░░░░[0;30;42m▓▓▓▓▓▓▓[0;1;33;40m░░░░[0;30;42m▓▓▓▓▓▓[0;1;33;40m░░░░░░[0;30;42m▓▓▓▓▓▓[0;1;33;40m░░░░░░[0;30;42m▓▓▓▓▓▓[0;1;33;40m░░░[0;30;42m▓▓▓▓[0;37;40m [0;30;42m▓[0;37;40m   [0;30;42m▓[0;37;40m [0m
-[37;40m                                                                                [0m
-[37;40m     [0;1;30;40msorry this sucks so bad, i was pressed for time and i didn''t have[0m
-    [1;30ma lot of time to make it look better.. at least the head is neat =)[0m        [1;30m [0m
-'
+[30;42m▓[0;37;40m   [0;30;42m▓[0;37;40m [0;30;42m▓▓▓▓[0;1;33;40m░░░[0;30;42m▓▓▓▓▓▓[0;1;33;40m░░░░░░[0;30;42m▓▓▓▓▓▓▓[0;1;33;40m░░░░[0;30;42m▓▓▓▓▓▓[0;1;33;40m░░░░░░[0;30;42m▓▓▓▓▓▓[0;1;33;40m░░░░░░[0;30;42m▓▓▓▓▓▓[0;1;33;40m░░░[0;30;42m▓▓▓▓[0;37;40m [0;30;42m▓[0;37;40m   [0;30;42m▓[0;37;40m [0m'

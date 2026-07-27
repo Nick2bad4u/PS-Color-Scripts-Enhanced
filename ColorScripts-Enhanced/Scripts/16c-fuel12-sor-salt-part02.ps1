@@ -5,7 +5,7 @@
 # Source SHA-256: 7c2463bb8c84935372735492cc17e91461c3bb722377b74025e4921915faa0f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-SALT.ANS by Spirit of Rage (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Salt
 # SAUCE Author: Spirit of Rage
 # SAUCE Group: Fuel Productions
@@ -52,16 +52,16 @@ Write-Host '
 [1;30;40m░[0m   [1;30m░░░[0m [1;30m░░░░[0m [1;30m░[0m      [1;30m▀▀▀▀[0;1;30;43m▓▄▄▄▄▄▄░ [0;1;31;43m░░[0;1;30;43m  [0;1;31;43m  [0;33m▌[0;1;31m▐[0;1;31;47m▓▓[0;1;31;45m█[0m [33m▐[0;1;31;43m░░[0;33m█[0;1;30;43m░▄▄▄▄▄▓[0;1;30;40m▀▀[0;34m [0;1;34;47m▓[0;1;34;40m▀[0m ▄[1;30;47m░[0;1;37;47m   ░▄▓[0;1;37;40m█████▓▓▓▒▒[0m
   [35m+[0;36mo[0;1;36m youtellme![0m           [1;30m    ▀▀▀▀▀▀▀▀▀[0m [1;31m▐[0;1;31;47m▓[0;1;31;40m▀[0m [1;30m ▀▀▀▀▀▀ [0m▄▄▄▄▄[1;30;47m░░[0m▄▄[1;47m  ░▄▄▓[0;1;40m██████▓▓▒▒▒░░[0m
 [1;30;40m────────────────-──────-──-─--─ ─- ─  ─[0;34m [0;1;31m▀[0m  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀▀▀▀▀▀▀▀▀░░▒▒░░░  [0m
-[1;30m [0m           ansi by [1mspirit of rage[0m of [1mfuel productions[0m, [1m1997[0m             [1m░░[0m
+[1;30m [0m                   [1m              [0m    [1m                [0m  [1m    [0m             [1m░░[0m
 [1;30m─────────────────────────────────────────────────-────────-────-──-─--─ ─- ─  ─ [0m
 
 [1;30m─░─+─-──--────░──+───-──-+--────+-────-──░────+──+──-───--──+───-───+───-───░──[0m
 
-  [1;30mokey... this one''s for ''salt''.. i got the request via email.. but he did''nt[0m
-  [1;30mtell hes nick... so your gonna have to put your nick there yourself jordan..[0m
+  [1;30m                                                                           [0m
+  [1;30m                                                                            [0m
 
-  [1;30mthats all.. greets to everybody i know, you know who you are!![0m
+  [1;30m                                                              [0m
 
-  [1;30mspirit of rage out....[0m
+  [1;30m                      [0m
 
 [1;30m─░─+─-──--────░──+───-──-+--────+-────-──░────+──+──-───--──+───-───+───-───░──[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: fa5e09d1d84fd77446be71875100cfa406a3b257a99edf403d1e944d6a173fee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S3-FM.ANS by seltorn (tone); released in tone0199 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: file menu
 # SAUCE Author: seltorn
 # SAUCE Group: tone
@@ -37,7 +37,4 @@ Write-Host '
 
 
 
-[1;30;40m---[0m
-
-[1;30;40m  this is for prime-62k, don''t rip this shit. anyway i don''t the the reason you[0m
- [1;30mwould want to rip this :)[0m'
+[1;30;40m---[0m'

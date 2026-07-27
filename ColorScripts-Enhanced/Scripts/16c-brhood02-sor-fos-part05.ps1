@@ -5,7 +5,7 @@
 # Source SHA-256: 9108d2af4eb484a7db6c47759340fc425257824796b228d65e20318a75313ab6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _SOR-FOS.ANS by spirit of rage (brotherhood); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: [fos] fistful of steel [fos]
 # SAUCE Author: spirit of rage
 # SAUCE Group: brotherhood
@@ -45,21 +45,21 @@ Write-Host '
 [1;30m░▒░░ [0m      [1;30m░[0m [1;30m░▒[0m [1;30m░▒▒[0m [1;30m░▓▓▓[0m ░▒▒ [1m█[0m [1;30m█▓[0;35m [0;37m███▓[0;35m [0;1;35;47m▓[0;1;35;40m▄▄[0;1;35;45m▄▄[0;35m█[0;37m [0;1;30m▓▓▓[0m [1;35;45m▄▄[0;35m█[0;37m  [0;35m█[0;1;35;45m▄▄[0;1;35;40m▄▄[0;1;35;47m▓[0m  [35m█[0;1;35;45m▄▄[0;1;35;40m▄▄[0;1;35;47m▓[0m  [35m█[0;1;35;45m▄▄[0;1;35;40m▄▄[0;1;35;47m▓[0m ▓█
 [1;30m░░[0m     [1;30m░ [0m [1;30m░▒[0m [1;30m░▒[0m [1;30m░▒▒[0m [1;30m░▓▓▓[0m ░▒▒ [1;47m▀[0m [1;30m▀[0;1;30;46m▓[0m  ▀▀█ [1;30m▄▄▄▄▄▄▄███▄▄▄▄▌[0;1;37mfistful of steel[0;1;30m [0;1;37m#??[0;1;30m▐▄▄[0m █▀
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[1;30m                 [0mansi by [1mspirit of rage[0m of [1mbrotherhood[0;1;30m,[0m dec 98
+[1;30m                 [0m        [1m              [0m    [1m           [0;1;30m [0m       
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
 
 [1;30m--<[0mend of ansi[1;30m: [0m210 lines[1;30m>------------------------------------------------------[0m
 
-[1;30mWoop, merry christmas (a little late but what tha heck =) and a happy new year[0m
-[1;30meverybody! The last part under her head is a hand, a little hard to see since[0m
-[1;30mI might have zoomed a little to close when I drew it.[0m [1;30mI hope I can keep it up[0m
-[1;30mwith drawing one of these phat pics in each hood pack. I dont wanna draw them[0m
-[1;30mfor boards or so, I''d rather draw them for a mag or a group. So if you feel[0m
-[1;30mlike your group or emag need a little boost give me a call or something =)[0m
+[1;30m                                                                              [0m
+[1;30m                                                                             [0m
+[1;30m                                                     [0m [1;30m                       [0m
+[1;30m                                                                             [0m
+[1;30m                                                                           [0m
+[1;30m                                                                          [0m
 
-[1;30m// [0mspirit of christmas[1;30m (err.. [0mrage[1;30m =)[0m [1;30m([0msor_@hotmail.com[1;30m)[0m
+[1;30m   [0m                   [1;30m        [0m    [1;30m   [0m [1;30m [0m                [1;30m [0m
 
-[1;30mps. dont forget to check out our site at [0mhttp://w3.to/hood [1;30m- It will be updated[0m
-    [1;30msoon when I get some time right now I''m enjoying the holydays =) ds.[0m
+[1;30m                                         [0m                  [1;30m                    [0m
+    [1;30m                                                                    [0m
 
 [1;30m--<[0mend of file[1;30m: [0m226 lines[1;30m>------------------------------------------------------[0m'

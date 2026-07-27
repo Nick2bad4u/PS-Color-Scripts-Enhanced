@@ -5,7 +5,7 @@
 # Source SHA-256: 65d1d67be4da0f8b7f9fda770e8227c14d793ce80db2c313b6f90292f9c1ce9f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VISION2.ANS by Lord Saben (dox_9610); released in dox_9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -29,7 +29,7 @@ Write-Host '
          [1;30;44m░[0m [1;30;44m░░░░░░[0;34m▄[0;1;30;44m░░[0m [1;30;44m░░░░[0m [1;30;44m░░░░░░[0m [1;30;44m░░░░░[0m [1;30;44m░░░░[0m [1;30;44m░░░░░░░░[0m [1;30;44m░░░░░░[0m [1;30;44m░░░░░[0m [1;30;44m░[0m
          [34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
 
-             [34mL[0;1;34mo[0;34mRD S[0;1;34ma[0;34mB[0;1;34me[0;34mN[0m                               [34m([0;1;30mD[0;1;34mφ[0;1;30mX[0;34m)[0;1;30m^SOC[0m
-                                   [1;37mV[0mi[1;30msi[0mo[1mN[0m
+             [34m [0;1;34m [0;34m    [0;1;34m [0;34m [0;1;34m [0;34m [0m                               [34m [0;1;30m [0;1;34m [0;1;30m [0;34m [0;1;30m    [0m
+                                   [1;37m [0m [1;30m  [0m [1m [0m
 
-                        [31m» Dès[0;1;31mτ⌐φy[0;1;30mè⌐s [0;31mφ[0;1;31mƒ [0;31mτ[0;1;31mh[0;1;30mè [0;31mXè[0;1;31m⌐φ[0;1;30mX [0;31m«[0m'
+                        [31m     [0;1;31m ⌐  [0;1;30m ⌐  [0;31m [0;1;31m  [0;31m [0;1;31m [0;1;30m  [0;31m  [0;1;31m⌐ [0;1;30m  [0;31m [0m'

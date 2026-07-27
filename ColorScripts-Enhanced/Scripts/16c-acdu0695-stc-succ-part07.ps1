@@ -5,7 +5,7 @@
 # Source SHA-256: f4734afc3461bd86c2fed2faab3390890b1eb621bb33d7bbf976c5625523456f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-SUCC.ANS by Stone The Crow (ACiD Productions); released in acdu0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Succotash
 # SAUCE Author: Stone The Crow
 # SAUCE Group: ACiD Productions
@@ -43,14 +43,14 @@ Write-Host '
 [37;40m [0;1;31;40m▀▄[0;31m▄[0;37m  [0;33m▀■[0m             [33m▀[0m      [33m▀▀[0m         [33m▀▀[0m        [33m■▀[0;37m [0;33m▄[0;37;43m▓[0;33;47m▒[0;37;40m▌[0;33;40m▀▀▄ ▀▀    ▀▀▀   ▀█▌▄▓▀[0;1;31;40m▀[0m
    [31m [0;1;31m▀[0;31m▀[0;1;31m▀[0;31m▀[0;1;31;41m▄▒[0;31m█[0;1;31m▄[0;31m▄▄▄▄▄▄▄▄▄▄[0;33m  [0;31m▄▄[0;33m  [0;31m▄[0;33m  [0;31m ▄[0;33m    [0;1;30m     [0;33m  [0;37m [0;31m▄[0m    [31m▄[0;37m [0;33m▐[0;37;43m▒[0;33;47m▓[0;33;40m▌[0;33;47m▓[0;33;40m▄▄[0;37;40m [0;31;40m▄▄[0;37;40m [0;31;40m▄▄▄▄[0;1;31;40m▄[0;31m▄[0;1;31m▄▄[0;1;31;41m▒▄[0m [33m▀[0;1;31m▀[0;31m [0m
                                                    [33m [0;37m [0;37;43m░[0;33;40m█▄█▓█▌[0m
-[33;40m [0;1;30;40mf[0;33mo[0;1;30mnT[0;33mbY[0;1;30mr[0;33maDmaN[0;1;37m∙[0;33minkSbYsilveRraT[0;1;37m∙[0;33mcenterfolDbYstC[0;1;37m∙[0;1;33m<[0;1;37mA[0;1;36mC[0;36mi[0;1;30mD[0;31m>[0;37m [0;33m▐█[0;37;43m  [0;33;40m▒▀ producti[0;1;30;40mo[0;33mnS[0;1;30mtM[0;1;33m [0;1;30m1[0;33m9[0;1;30m9[0;33m5[0;1;30m![0;33m [0m
+[33;40m [0;1;30;40m [0;33m [0;1;30m  [0;33m  [0;1;30m [0;33m     [0;1;37m [0;33m               [0;1;37m [0;33m               [0;1;37m [0;1;33m [0;1;37m [0;1;36m [0;36m [0;1;30m [0;31m [0;37m [0;33m▐█[0;37;43m  [0;33;40m▒▀         [0;1;30;40m [0;33m  [0;1;30m  [0;1;33m [0;1;30m [0;33m [0;1;30m [0;33m [0;1;30m [0;33m [0m
                                                       [33m▀▌▀    [0;37m                  [0m
 
-[1;37m [0m  [1;30mRu[0mn[1;30mn[0mi[1;30mn[0mg t[1;30mh[0me most wickedly modded [1mOblivion/2[0m setup the world has eve[1;30mr[0m s[1;30me[0me[1;30mn[0m
+[1;37m [0m  [1;30m  [0m [1;30m [0m [1;30m [0m   [1;30m [0m                       [1m          [0m                        [1;30m [0m  [1;30m [0m [1;30m [0m
 
 [1m       [0m                [1mS   U   C   C   O   T   A   S   H   [0m
 
-          [1mA C i D[0m                     [1mIce[0m           [1m   [0m   [1mThe rest of you [0m
+          [1m       [0m                     [1m   [0m           [1m   [0m   [1m                [0m
            [1;33m▄▄[0;33m▄▄▄[0m                     [1;33m▄▄[0;33m▄▄▄[0m                     [1;33m▄▄[0;33m▄▄▄[0m
 [33m  [0m     [33m [0;1;37m▄[0;1;33m█▀▀██▀▀[0;1;33;43m▄▄[0;33m▄   [0m           [33m [0;1;37m▄[0;1;33m██▀███▀[0;1;33;43m▄▄[0;33m▄   [0m           [33m [0;1;37m▄[0;1;33m███████[0;1;33;43m▄▄[0;33m▄[0m
 [33m  [0;1;30m■[0m    [1m█[0;1;33m█▄ [0;1;36m▀ [0;1;33m█ [0;1;36m■ [0;1;33m█[0;1;33;43m▒ [0m             [1m█[0;1;33m██ [0;1;34m■[0;1;33m▀█ [0;1;34m▀[0;1;33m▄█[0;1;33;43m▒ [0m             [1m█[0;1;33m█▄ [0;1;31m■[0;1;33m▀█▀[0;1;31m■[0;1;33m▄█[0;1;33;43m▒ [0m     [1;30m■[0m
@@ -58,6 +58,6 @@ Write-Host '
 [1m  [0m▐[1m▄[0m   [1m ▀█[0;1;33m█▄   ▄██▀   [0m           [1;33m [0;1;37m▀█[0;1;33m█▄▄▄▄▄▄█▀   [0m           [1;33m [0;1;37m▀█[0;1;33m▄  [0;31m▄▄ [0;1;33m▄█▀[0m     [1m▄[0m▌
    ▀[1m▀[0m [1;30m■[0m    [1m▀[0;1;33m▀[0;1;37m▀[0;1;33m▀▀[0m                     [1m▀[0;1;33m▀[0;1;37m▀[0;1;33m▀▀[0m                     [1;33m▀[0;31m▐[0;1;31;41m▐▄[0;31m▌[0m     [1;30m■[0m [1m▀[0m▀
                                                                  [31m▀▀[0m
-[1;30m         [0;1;37m [0m This mostly original ansi was created by the man himself[1;30m:            [0m
+[1;30m         [0;1;37m [0m                                                         [1;30m             [0m
 
 [1;30m      [0m         [1mS   t   o   n   e     t   h   e     C   r   o   w[0m'

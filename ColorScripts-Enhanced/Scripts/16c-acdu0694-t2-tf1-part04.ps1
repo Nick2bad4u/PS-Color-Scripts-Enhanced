@@ -5,7 +5,7 @@
 # Source SHA-256: a1be2423d863b926c0f05fbb20128bf2a1ddb835fa4ddb51c972940a7cfd9d08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-TF1.ANS by Terminator2 (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Terra Firma
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -49,14 +49,14 @@ Write-Host '
           [1;30m▒[0m          [1;30m░[0m          [1;30m░[0m          [1;30m▒[0m        [1;30m▄▀▀  ▒[0m         [1;30m░ ▄[0;1;30;42m▓[0;1;30m▀▀  ▒  [0;32m░[0m
 [1m▄[0;1;32m▄[0;32m▄[0m▄[1;30m▄▄▄▄▄ ░ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ░ ▄▄▄▄▄▄▄▄▄▄▄ ░ ▄▄▄▄▄▄▄▄ ▀ ▄▄[0m▄[32m▄ [0;1;30m░ [0;1;32m▄[0;1m▄[0m
 
-[1m    T[0;1;32me[0;32mr[0mr[1;30ma Firma . 714·963·4851 . SysOp''s ■ Somms <ACiD> & StreaKeR <EMP[0mi[32mR[0;1;32mE[0;1m>[0m
-     [1m4[0;1;32m0[0;32m0[0m+ [1;30mMegs of Art/Demo/Source . ACiD Member Board . BL/┤DE Distro [0mS[32mi[0;1;32mt[0;1me[0m
-[1m    M[0;1;32mA[0;32mN[0mi[1;30mFEST Distro Site . iLLUSiON Distro Site . SUCK Courier HeadQuar[0mt[32me[0;1;32mr[0;1ms[0m
-[1m    F[0;1;32me[0;32md[0me[1;30mration Network . StormWatch Network . ANSi · t2 of ACiD Product[0mi[32mo[0;1;32mn[0;1ms[0m
+[1m     [0;1;32m [0;32m [0m [1;30m                                 ■                             [0m [32m [0;1;32m [0;1m [0m
+     [1m [0;1;32m [0;32m [0m  [1;30m                                                 ┤          [0m [32m [0;1;32m [0;1m [0m
+[1m     [0;1;32m [0;32m [0m [1;30m                                                               [0m [32m [0;1;32m [0;1m [0m
+[1m     [0;1;32m [0;32m [0m [1;30m                                                               [0m [32m [0;1;32m [0;1m [0m
 
 [1m─[0;1;32m─[0;32m─[0m─[1;30m───────────────────────────────────────────────────────────────────────[0m─[32m─[0;1;32m─[0;1m─[0m
 
-[1mS[0;1;32mh[0;32mo[0mu[1;30mts And Heigh Ho''s Go Out To : iCE, Eye-Sea-Eee, ACiD Choir Division, TR[0mi[32mB[0;1;32mE[0;1m,[0m
-[1mG[0;1;32mr[0;32mo[0mu[1;30mp of Frozen H²O, Returning MiRAGE Guys [Hey D00Dz!], And Everyone Else.[0m.[32m.[0;1;32m.[0;1m.[0m
+[1m [0;1;32m [0;32m [0m [1;30m                                                                       [0m [32m [0;1;32m [0;1m [0m
+[1m [0;1;32m [0;32m [0m [1;30m                                                                       [0m [32m [0;1;32m [0;1m [0m
 
 [1m▀[0;1;32m▀[0;32m▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[32m▀[0;1;32m▀[0;1m▀[0m'

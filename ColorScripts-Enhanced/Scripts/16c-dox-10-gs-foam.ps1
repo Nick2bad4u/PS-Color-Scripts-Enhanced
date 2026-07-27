@@ -5,7 +5,7 @@
 # Source SHA-256: e65605b7d92c6bf8f2fc637fb34fce0321ea13b482824d2ba81e66ce3bd9c9d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GS-FOAM.ANS by Godsung (DOX); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Foam
 # SAUCE Author: Godsung
 # SAUCE Group: DOX
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-[1;32mfoamfoamfoamfo[0;1;37m▄▄▄▄▄[0;1;32mmfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoam[0m
-[1;32mfoamfoa [0;1;37m▄▄█████████████ [0;1;32mfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoam[0m
-[1;32mfoam   [0;1;37m▄████[0;1;36m▄[0;1;36;46m███[0;1;37;40m███[0;1;36;40m▄▄[0;1;37;40m███[0;1;32;40mfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoam[0m
-[1;32;40mfoa   [0;1;37;40m███[0;1;36;40m▄[0;1;37;40m██[0;1;36;46m██████[0;1;37;40m██[0;1;36;46m██[0;1;37;40m███[0;1;32;40moamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoam[0m
+[1;32m              [0;1;37m▄▄▄▄▄[0;1;32m                                                             [0m
+[1;32m        [0;1;37m▄▄█████████████ [0;1;32m                                                        [0m
+[1;32m       [0;1;37m▄████[0;1;36m▄[0;1;36;46m███[0;1;37;40m███[0;1;36;40m▄▄[0;1;37;40m███[0;1;32;40m                                                        [0m
+[1;32;40m      [0;1;37;40m███[0;1;36;40m▄[0;1;37;40m██[0;1;36;46m██████[0;1;37;40m██[0;1;36;46m██[0;1;37;40m███[0;1;32;40m                                                       [0m
 [1;32;40mfo   [0;1;37;40m████[0;1;36;46m▓█[0;1;37;40m██[0;1;36;46m█[0;1;36;40m▀[0;1;36;46m▓██[0;1;37;40m██[0;1;36;46m███[0;1;37;40m██[0;1;32;40moamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfoam[0m
 [1;32;40mf   [0;1;37;40m███[0;1;36;40m▐[0;1;37;40m██[0;1;36;46m██[0;1;37;40m█[0;1;36;46m█[0;1;37;40m█[0;1;36;40m▐[0;1;36;46m▓▓[0;1;37;40m█[0;1;36;46m███[0;1;36;40m▌[0;1;37;40m██[0;1;32;40moamfoamfoamfoamfoamfoamfoamfoamfoamfoamfo [0;33m▄▄▄[0;1;32mamfoamfoam[0m
 [1;32mf  [0;1;37m████[0;1;36m▐[0;1;36;46m▓[0;1;37;40m█[0;1;36;46m████[0;1;36;40m▄ [0;1;37;40m█[0;1;36;46m▓[0;1;37;40m█[0;1;36;46m███[0;1;37;40m█▀[0;1;32;40mfoamfoamfoamfoamfoamfoamfoamfoamfoamfoamfo [0;33m▀[0;1;31m█[0;1;31;43m▄[0;33m█ [0;1;32mfoamfoam[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 023044412211a2ed0af1104c669384d40d63353ce751e32434ef1c63ca578963
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5D-FRD.ANS by slayer dr3ams (maiden BRAZIL); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fatal rayden logo
 # SAUCE Author: slayer dr3ams
 # SAUCE Group: maiden BRAZIL
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                     [33m [0m    [33mfata[0;1;33mAA[0;33mal  rayd[0;1;33mEN[0m
+                     [33m [0m    [33m    [0;1;33m  [0;33m        [0;1;33m  [0m
              [33m░[0;30;43m▓[0;33;40m ▐██▄▄ [0m   [33;40m▄[0m       [1;30;40m▄[0m               [33m▄[0m
                 [33m██[0;37;43m░[0;33;47m▓[0;33;40m▀██▄▄▌██▄▄[0m   [1;30;40m▐░░ [0m         [33m▐█▄▐▄  ░[0;30;43m▓[0;33;40m ██▄▄[0m
                [33;40m▐█▀█▌[0m   [33;40m▀▀██▄[0;30;43m░[0;33;40m▓▌ [0;1;30;40m▄▐▓▓░░[0;33m [0;1;30m▄[0m      [33m███[0;30;43m░[0;33;40m▓█[0m   [33;40m▐███▌[0m
@@ -33,4 +33,4 @@ Write-Host '
       [33m████ ▀  [0;36;43m░[0;33;46m▓[0;33;40m██[0;36;40m▐█[0;1;36;46m░░[0;36m▌[0;33m [0;36m▄▄█[0;33;46m░[0;36;43m▓░[0;33;46m▓[0;33;40m██[0m    [33;40m▐▌ ▐▌  ▐█████▌[0m   [1;33;40m▐[0;1;33;43m▓▓[0;1;33;40m█████[0;33m  [0;1;33m███████[0;33m [0m
      [33m ██▀▌  [0m   [33m█[0;36;43m░[0;33;46m▓░[0;36;43m▓[0;36;40m████▀▀▀[0;36;43m░[0;33;46m▓[0;33;40m███[0m      [33;40m████ ▄█[0;37;43m░[0;33;47m▓[0;33;40m▀ ▀▀▀█▄[0;1;33;43m░░▒[0;1;33;40m▀▀▀█▌[0;33m   [0;1;33m█[0;1;33;47m▓▓[0;1;33;40m██▌[0m
    [33m░[0;30;43m▓[0;33;40m    ▀[0m      [33;40m██[0;36;43m░[0;33;46m▓[0;36;40m▀▌[0m      [33;40m▀▀    ░[0;30;43m▓[0;33;40m  ▐██▀▀▀[0m                      [1;33;40m██▀▀[0;33m [0m
-                 [33m▀[0m   [36m▀[0m      [33m [0m                 [1;33m+o[0;33m death threatz[0m'
+                 [33m▀[0m   [36m▀[0m      [33m [0m                 [1;33m  [0;33m              [0m'

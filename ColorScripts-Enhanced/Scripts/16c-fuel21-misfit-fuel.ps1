@@ -5,7 +5,7 @@
 # Source SHA-256: cc1d6c43eef51355f90601a81c01ea39bacb3a978f3f192a213c00f1d82eb484
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: misfit-fuel.ans by misfit (ACiD/b7); released in fuel21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fuel
 # SAUCE Author: misfit
 # SAUCE Group: ACiD/b7
@@ -53,9 +53,4 @@ Write-Host '
 [30m████████████████████████[0;1;30m▒▄ [0m [1m  [0m  ▀▀[1m   ▀█████████[0;1;47m▓▓▒░[0m█
 [1;30m  [0m                    [30m███[0;1;30m▒▒ [0m       [1m    ▀▀▀███[0;1;47m▓▓▒▒[0m▀▀
 [1;30m░░░░░░░░░░░░░░░░░░░░░░[0;30m███[0;1;30m░░[0m                         [1m  AN[0mSI by M[1;30misfit [0m<ACiD/b[1m7>[0m
-[1;30m  [0m                        [1;30m░[0m                        [1m   do[0mne for [1;30mmy pal[0ms in FU[1mEL[0m
-
-                                                  [1m    Gr[0meets to[1;30m Burp[0ms & TK [1mfor[0m
-                                                  [1m    he[0mlping to[1;30m kee[0mp the s[1mcene[0m
-                                                   [1m   vi[0mbrant. [1;30mKeep th[0mis th[1ming[0m
-                                                  [1m    go[0ming,[1;30m gents![0m'
+[1;30m  [0m                        [1;30m░[0m                        [1m     [0m       [1;30m      [0m       [1m  [0m'

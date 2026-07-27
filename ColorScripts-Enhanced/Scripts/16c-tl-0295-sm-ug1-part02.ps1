@@ -5,7 +5,7 @@
 # Source SHA-256: b0f7debebad0b463af9ece90c0e9f7cf38e074071ac18a186ce2db6297801d88
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-UG1.ANS by Smooth (TekLordZ); released in tl-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: UnderGrown Promo
 # SAUCE Author: Smooth
 # SAUCE Group: TekLordZ
@@ -50,11 +50,11 @@ Write-Host '
 [1;30m▓▀■[0m        [1;30m [0m [1;30m▄█▓▀[0m [1;30m▀▌[0m
 [1;30m▄▄▄▄▄▄█▀▀▀▀▀▀▀▀  [0m [1;30m [0m
 [1;30m█▓[0m         [1;30m   [0m
-[1;30m▓[0m   Eerie: So I didn''t finish the Grown... hehe and yeah that white
-[1;30m▒[0m          shit says Under.  It''s a quickie ansi... Sue me!
+[1;30m▓[0m                                                                  
+[1;30m▒[0m                                                          
 [1;30m░[0m
 
 [1;30m░[0m   [1;30m▀▄[0m
 [1;30m▒[0m    [1;30m█▓[0m
-[1;30m▓█▄▄▓█▀[0m Original ANsi by Smooth of TekLordZ Productionz 1995
+[1;30m▓█▄▄▓█▀[0m                                                     
 [1;30m▀▀▀▀▀[0m'

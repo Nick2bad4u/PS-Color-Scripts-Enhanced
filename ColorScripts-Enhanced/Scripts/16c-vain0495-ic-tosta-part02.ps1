@@ -5,7 +5,7 @@
 # Source SHA-256: 4cd6e73062a8bc57956276c748d8cb694909f2af58a11e500ce10f2900e82123
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-TOSTA.ANS by iNNER CHAOS (READ THE INI FILE); released in vain0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sarcastic Toaster
 # SAUCE Author: iNNER CHAOS
 # SAUCE Group: READ THE INI FILE
@@ -48,7 +48,7 @@ Write-Host '
 ▄  ▀▀██ [1;30;47m░[0m█ ▄██ [1;30;47m░[0m█■▀█  [1;30;47m░[0m█   ▄ [1;30;47m░[0m█ ▄██ ▄  ▀▀██     [1;30;47m [0m█  [1;30;47m░[0m█  [1;30;47m░[0m█   ▄      ▄▄▄▄
 [1;30;47m▒░[0m▄  ██ [1;30;47m▒░[0m  ██ [1;30;47m▒░[0m  █▌ [1;30;47m▒░[0m ▄██ [1;30;47m▒░[0m  ██ [1;30;47m▒░[0m▄  ██     [1;30;47m  [0m  [1;30;47m▒░[0m  [1;30;47m▒░[0m ▄██     [1;47m░▒▓▓▒░[0m
 [1;30;47m▓▒░[0m████ [1;30;47m▓▒[0m  ██ [1;30;47m▓▒[0m  ██ [1;30;47m▓▒░[0m███ [1;30;47m▓▒[0m  ██ [1;30;47m▓▒░[0m████     [1;30;47m  [0m  [1;30;47m▓▒[0;1;30;40miç[0;1;30;47m▓▒░[0m███      ▀[1;47m░░[0m▀
- [1;30m.errie''s.[0m                                                       ▄▄▄
+ [1;30m         [0m                                                       ▄▄▄
 [1;30m [0m  █▄ ▄▄   ▄▄▄   ▄  ▄▄▄  ▄  ▄▄▄ ▄▄                              ▄[1;47m░░░▒░░░[0m
 ▄██████▀  █[1;30;47m░[0m▄[1;30;47m▓[0;1;30;40m█[0m █[1;30m▄[0;1;30;47m▒[0m ▀[1;30m■▄[0m ▀[1;30;47m▒[0;1;30;40m▀[0m [1;30;47m▒[0m■  [1;30;47m▒[0m [1;30;40m▀[0m ▄▄▄▄▄[1;47m░▒▒▒░▒░░░▒▒░░░[0m▄▄▄▄▄     █[1;47m░▒▓▒░░░[0m
 ▀▀ ██      ▀[1;30m▀▀[0m  ▀ [1;30m▀[0m ▀[1;30m▀▀[0m  [1;30m▀[0m  [1;30m▀▀▀[0m [1;30m▀[0m  [1;37;47m▒▓nOW▓wHAT█cAN▓bE▓sO▓▓▒▒▒░░[0m▄▄   ▀▀▀▀       [1;30m░[0m
@@ -57,10 +57,4 @@ Write-Host '
 [1;30m░[0m  ▀[1;30;47m░▒▒▒▓▓▓▓[0;1;30;40m▀[0m     [1;30;40m▒[0m            [1;37;47m░▒▒░▒▒▒▓sARCAStiC▓aBOUt█a▓tOAStER?▒░░[0m          [1;30;40m░[0m
 [1;30m▒[0m    [1;30m▀▀▀▀▀[0m     [1;30m░[0m  [1;30m▓[0m       [1;30m▓[0m      ▀▀▀[1;47m░▒▒░▒▒░▒▒▒▒░▓▒▒▒▓▒▒▒▒▒▒░▒▒▒▒░░[0m▀   [1;30m░[0m    [1;30m░[0m  [1;30m▓[0m
 [1;30m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄█▄▄▄▓▄▄▄█▄▄▄▓▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▄▄▄▄▄▄▄▄▓▄▄▄▄▓▄▄█▄[0m
-[1;30m................................................................................[0m
-[1;30mcoupon cutter cut this bitch on the dotted line![0m
-
-[1;30m  if you want a free ansi by me "inner chaos" then i can be reached on the [0m
-[1;30mstellar nights or iron clad. if you want it to be done first and fast then send [0m
-[1;30mmah 5$. but you need to reach me first.  [0m
-[1;30m [0m'
+[1;30m................................................................................[0m'

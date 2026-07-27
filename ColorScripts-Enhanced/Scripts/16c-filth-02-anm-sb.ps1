@@ -5,7 +5,7 @@
 # Source SHA-256: 2a6ed7eb53e8576c927fd838f009986b7f4b1b12afd4e3eda19a80580070a0c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-SB.ANS by anomite,. (scum ofcourse!@ =)); released in filth-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spacebahr, welcome screen
 # SAUCE Author: anomite,.
 # SAUCE Group: scum ofcourse!@ =)
@@ -50,11 +50,6 @@ Write-Host '
 [31m   [0;36m [0;34m▀▌▄[0;36m   [0;34m██▄[0m       [36m▀▌██▄▄▌  ▐[0;34;46m▐█▀▐▀[0;36;40m█▀▌  ▀[0;34;46m▀▀██▄▄[0;36;40m▄▄▄▌▄▐[0;34;46m▄█▀[0;36;40m█▌▀▌ [0;37;40m [0;34;40m██▐[0;37;40m  [0;34;40m▀▀▀[0;37;40m  [0;34;40m▄[0;1;34;40m▄[0m [34m▀[0m
 [31m   [0;34m▄▌▀[0;1;34m▀[0;34m [0;36m  [0;34m▐▀▐[0;1;34;44m▄▄▓░[0;34m▄▄[0m     [36m▀▀▀▀▀▀▀▀▀▀▀▀[0m      [36m ▀▌▀▀▀▀▀▀▀▀▀▀▀[0m       [34m▀▀▀[0;1;34m▀[0;34m▀[0;1;34m▀▀[0;34m▌▀[0;37m  [0;34m█[0m
 [31m   [0;1;34m▀[0;34m▀  [0m                                   [34m    [0m
-                      [34m░▓[0;30;44mwelcome[0;34;46m▓[0;30;46mto[0;34;46m▓[0;34;40m>[0;1;34;40m> space[0;34mbar[0m
+                      [34m░▓[0;30;44m       [0;34;46m▓[0;30;46m  [0;34;46m▓[0;34;40m [0;1;34;40m       [0;34m   [0m
 
-[1;30m────────────────────────────────────────────|[0m
-
-[1;30mhmmm.... for hybris.. he requested a monster or zumphin, but[0m
-[1;30mi hate drawing monsters.. arghhh..[0m
-
-[1;30mfuck. my arm is broken, I''m not to good drawing with the LEFT hand.. =/[0m'
+[1;30m────────────────────────────────────────────|[0m'

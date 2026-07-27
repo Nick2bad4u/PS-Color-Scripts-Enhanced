@@ -5,7 +5,7 @@
 # Source SHA-256: 9a4589c1e9ec3c8f3335bea65e147368dfb1a4e46ac75e1dba7a5d8678e9c0ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-OOO.ANS by Mice + Eerie (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Out Of Order
 # SAUCE Author: Mice & Eerie
 # SAUCE Group: Samsara
@@ -47,5 +47,4 @@ Write-Host '
 [31m$$s   [0;1;37m`--''[0;31m^┘   [0;1;37m|[0;31m$$s   [0;1;37m|,-''[0m     [1;37m|[0;31m$$s   [0;1;37m`--''[0;31m^┘   [0;1;37m|[0;31m$$s   [0;1;37m`--''[0m     [1;37m|[0;31m$$s   [0;1;37m|,-''[0m
 [1;31m$[0;31m$#s[0m           [1;37m|[0;1;31m$[0;31m$#s  [0;1;37m|[0;31mss[0m      [1;37m|[0;1;31m$[0;31m$#s[0m           [1;37;41m|[0;1;31;40m$[0;31m$#s[0m           [1;37m|[0;1;31m$[0;31m$#s  [0;1;37m|[0;31mss[0m
 [1;37m$[0;1;31m$$#[0;31m$3#s  s   [0;1;37m||$[0;1;31m$$#[0;31m$3[0;1;37m|[0;1;31m$[0;31m$#s s  [0;1;37m|$[0;1;31m$$#[0;31m$3#s  s   [0;1;37m||$[0;1;31m$$#[0;31m$3[0m        [1;37m||$[0;1;31m$$#[0;31m$3[0;1;37m|[0;1;31m$[0;31m$#s s[0m
-[1;37m""------------''`""----''`------''`""------------''`""------------''`""----''`[0;1;37;41m-[0;1;37;40m-----''[0m
-[1;37;40mout of order [0;1;32;40m.. [0;32moped by risu [0;1;32m.. [0msite of too many things to list here!#![0m'
+[1;37m""------------''`""----''`------''`""------------''`""------------''`""----''`[0;1;37;41m-[0;1;37;40m-----''[0m'

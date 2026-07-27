@@ -5,7 +5,7 @@
 # Source SHA-256: bfb7cdac10bdcf057dafefdb6a622d2c838955bad82fb024078a5409a760ebce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-SKATE.ANS by warpus (lazarus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: skateshop
 # SAUCE Author: warpus
 # SAUCE Group: lazarus
@@ -36,9 +36,7 @@ Write-Host '
                  [34;40m░[0;30;44m▓[0;34;40m▀▀▀ [0m         [34;40m░[0;30;44m▓[0;34;40m ▀▀▀░░[0m       [34;40m░░░[0;30;44m▓[0;34;40m▀▀▀ [0m           [34;40m ▀▀▀ [0;37;40m [0;34;40m░░[0m
                                              [34;40m [0m
                                                                         [34;40m░[0;30;44m▓[0m
-                       [34;40mthe skate shop[0;37;40m  [0;1;33;40mhome of lacidus[0m
+                       [34;40m              [0;37;40m  [0;1;33;40m               [0m
 
 
-[1;30m------------------------------------------------------------------------------- [0m
-
-[1;30mit''s crack time[0m'
+[1;30m------------------------------------------------------------------------------- [0m'

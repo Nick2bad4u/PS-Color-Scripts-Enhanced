@@ -5,7 +5,7 @@
 # Source SHA-256: 8bd4703acf2df21b9af9fab579396dbe27bfbb105a908f4da4fb0c2967e0c7f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-YAKTRIBUTE.ans by Warpus + Hennifer (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: YAK TRIBUTE
 # SAUCE Author: hennifer & warpus
 # SAUCE Group: LAZARUS
@@ -16,18 +16,16 @@
 # Columns: 1-80
 
 Write-Host '
-[31m  │   agent#77[0;37m      [0;31mdruggie[0;37m      [0;31mhennifer[0;37m      [0;31mphantasm    shadow hunter   │[0m
-[31m  │   artemis[0;37m       [0;31meox[0;37m          [0;31mnot opus[0;37m     [0;31mpunchbowl[0;37m        [0;31msugarless   │[0m
-[31m  │   choir boy[0;37m     [0;31mepoxy[0;37m        [0;31mnitris[0;37m            [0;31mpyro[0;37m           [0;31mwarpus   │[0m
+[31m  │           [0;37m      [0;31m       [0;37m      [0;31m        [0;37m      [0;31m                            │[0m
+[31m  │          [0;37m       [0;31m   [0;37m          [0;31m        [0;37m     [0;31m         [0;37m        [0;31m            │[0m
+[31m  │            [0;37m     [0;31m     [0;37m        [0;31m      [0;37m            [0;31m    [0;37m           [0;31m         │[0m
 [31m  │[0;37m                                                                        [0;31m│[0m
 [31m  ╘════════════════════════════════════════════════════════════════════════╛[0m
 
 
-[31m  [0;1;30m►   [0;36m519''s finest distributors of Sherpa pants and spiritual wallpaper   [0;1;30m◄[0m
+[31m  [0;1;30m►   [0;36m                                                                    [0;1;30m◄[0m
 
 
-                   [1;30m"[0mSay no to marsupials in the Himalayas[1;30m"[0m
+                   [1;30m [0m                                     [1;30m [0m
 
-                                     [1;30m**[0m
-
-[1;30m    Copyak 1996 - 2023 Lazional Geographic Society.  All rights over easy.[0m'
+                                     [1;30m**[0m'

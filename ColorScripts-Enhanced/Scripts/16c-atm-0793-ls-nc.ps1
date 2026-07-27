@@ -5,7 +5,7 @@
 # Source SHA-256: 788c12927743c43fff3a84dde57eb480526138e509468fbd9d6cb352538b7cb8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS-NC.ANS by Lord Scarlet (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -51,9 +51,9 @@ Write-Host '
      [1;37;40m│[0;1;32;40mCYBΣRNET [0;32m@[0m            [1;37m│ │[0m              [1;37m▀[0;1;37;47m▄[0;1;37;40m█[0;1;37;47m▄▄[0;1;37;40m▀▀[0m
      [1;37;40m│[0;1;33;40mLIƒONΣT  [0;33m@[0m            [1;37m│ │[0m
      [1;37m│[0;1;31mPRONΣT   [0;31m@[0m            [1;37m│ │[0m                             [1;37m⌠[0m
-     [1;37m│[0;1;36mƒUCTNΣT  [0;36m@[0m            [1;37m│ │[0m                     [1;37m·[0m·[1;30m·LO[0mΓD [1m⌡CA[0mR£[1;30mΣT·[0m·[1m·[0m
-     [1m│[0;1;34mACΣNΣT   [0;34m@[0m            [1;37m│ │[0m                       [1;37m·[0m·[1;30m·[0mPAC[1miFi[0mER[1;30m·[0m·[1m·[0m
-     [1m│ Hosting the most BBS │ │[0m                      [1m·[0m·[1;30m⌠A[0mTOM[1miC [0m''9[1;30m3·[0m·[1m·[0m
-     [1m│ software in the area │ │[0m                    [1m·[0m·[1;30m·[0m<[1;30m⌡Σ[0mNiO[1mΓ M[0mΣM[1;30mBΣ[0mR[1m>[0;1;30m·[0m·[1m·[0m
+     [1;37m│[0;1;36m         [0;36m [0m            [1;37m│ │[0m                     [1;37m [0m [1;30m   [0m   [1m⌡  [0m  [1;30m   [0m [1m [0m
+     [1m│[0;1;34m         [0;34m [0m            [1;37m│ │[0m                       [1;37m [0m [1;30m [0m   [1m   [0m  [1;30m [0m [1m [0m
+     [1m│                      │ │[0m                      [1m [0m [1;30m⌠ [0m   [1m   [0m  [1;30m  [0m [1m [0m
+     [1m│                      │ │[0m                    [1m [0m [1;30m [0m [1;30m⌡ [0m   [1m   [0m  [1;30m  [0m [1m [0;1;30m [0m [1m [0m
      [1m└──┬───────────────────┘ │[0m                      [1m·[0m·[1;30m·[[0m[[R[1miSi[0mN][1;30m]]·[0m·[1m·[0m
         [1m└─────────────────────┘[0m'

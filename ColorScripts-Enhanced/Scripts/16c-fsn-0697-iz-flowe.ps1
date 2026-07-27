@@ -5,7 +5,7 @@
 # Source SHA-256: d7a0229e96c431585ac70b382dd22c6b14f5e97796282e8425df04b944f83625
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-FLOWE.ANS by ize (fusion); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: flower power
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -28,11 +28,4 @@ Write-Host '
 [34m█[0;1;37;44m▐[0;1;37;40m██[0;1;37;47m [0;34m  [0;1;34;44m░[0;34m█[0;30;44m░[0;34;40m▓[0;30;44m░[0;1;37;40m██[0;1;37;47m▌[0m▌[1m▄[0;1;44m▄▄▄▄▄[0;1;40m██[0;1;47m▄[0;1;40m▄▄[0;1;44m▄▄[0;1;40m████[0;1;47m▀[0m▀[1m▄▄████[0;1;47m▄[0;1;40m▄▄[0m▄[1m▐████[0;1;47m [0m [1m [0;1;47m▌[0m▌[1m▄▄▄▄▄▄██[0;1;47m▄[0;1;40m▄[0;1;47m█ [0;1;40m [0;34m █[0;1;34;44m░░[0;34m▓[0;30;44m░[0;34;40m▓▓[0;1;37;40m██[0;1;37;47m▌[0m▌
 [30;44m░[0;1;37;40m██[0;1;37;47m▌[0m▌[1m [0;34m [0;30;44m░[0;34;40m▓▒▒▒[0;1;37;40m██[0;1;37;47m▄[0;1;37;40m▄█[0;1;37;47m▀[0;1;37;40m▀▀████[0;1;37;47m█[0;1;37;40m█████[0;1;37;47m▀[0;1;37;40m▀[0m▀▄[1m▐███[0;1;47m▀[0;1;40m▀▀▀▀██[0;1;47m▀[0;1;40m▀▀▀[0m▀[1m █[0;1;47m█▄[0;1;40m▄█[0;1;47m▀[0;1;40m▀▀██[0;1;47m▀[0m▀[1m▐██[0;1;47m [0m [34m ▓[0;30;44m░[0;34;40m▓▒▒▒▒[0;1;37;40m██[0;1;37;47m▌[0m▌
 [34m▒[0;1;37m██[0;1;37;47m▌[0m▌[1m [0;34m ▒▒░[0;30;44m▓[0;34;40m░ [0;1;37;40m▀[0m▀[1m  [0m             [1m   ▀▀█[0;1;47m [0;34m [0;1;37m              ▀[0m▀[34m [0;1;37m   [0;1;34m        [0;1;37m  [0;34m ▒▒▒░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;1;37;40m    [0m
-[34m░[0m      [34m░[0;30;44m▓[0m                              [1;36;40m [0;34m flower power for [0;1;34mleonardo[0m   [34m░[0;30;44m▓[0;34;40m░[0m    [1;33;40mize[0m
-
-
-      [1;34mi was under the influence of halaster when I drew this background! :)[0m
-      [1;34mheh.. probably when I shaded and p[0;34mi[0;1;34mcked the colors too! ohwell.. [0m
-
-        [1;34mBtw, want a logo by me?! hmm email me and we can work out [0;34ma[0;1;34m deal![0m
-                                                          [1;34m([0;1;36mize@geocities.com[0;34m)[0m'
+[34m░[0m      [34m░[0;30;44m▓[0m                              [1;36;40m [0;34m                  [0;1;34m        [0m   [34m░[0;30;44m▓[0;34;40m░[0m    [1;33;40m   [0m'

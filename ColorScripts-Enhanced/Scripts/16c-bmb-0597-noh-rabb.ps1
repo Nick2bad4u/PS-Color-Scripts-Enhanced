@@ -5,7 +5,7 @@
 # Source SHA-256: 85015f335fb5b645eea14ce546380e23f95e44897a467df6e758eb22a50bcc73
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-RABB.ANS by nOah? (Bamboosh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rabbit
 # SAUCE Author: nOah?
 # SAUCE Group: Bamboosh
@@ -33,7 +33,4 @@ Write-Host '
            [31m [0;35mrabbit [0;37m [0;31m▀[0;1;31m▀▀[0;31m▀▌▀[0;1;31m▀▀[0;31m▀[0m    [31m▀▀[0;37m  [0;31m█[0;1;31m█[0;1;31;41m▀[0;1;31;40m▀▀▀[0;31m▀[0m         [31m▀[0;1;31m▀▀▀▀[0;1;31;41m▌[0;31m▌█[0;1;31m▀▀▀[0;31m▀[0m    [31m▀[0m
                                                           [31m▐[0m
 
-[35m---[0m
-[35mhaha....i can''t draw a rabbit god damn#@!....so i did a font!![0m
-[35mhum...first time i did this kinda shading....and i don''t like the [0m
-[35mresult...i won''t do it again i think....hum....[0m'
+[35m---[0m'

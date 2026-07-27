@@ -5,7 +5,7 @@
 # Source SHA-256: 257588959adf8b1d0dc13d32b038438e8305171715dd9b08a77fa0fce791e8d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: L7-SELCT.ANS by Lancelot (dead krew); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logon pic select
 # SAUCE Author: Lancelot
 # SAUCE Group: dead krew
@@ -38,11 +38,4 @@ Write-Host '
 [30;44mL7[0;30;47m█[0;34;40m ▌      ▐▌  ▌       [0;33;40m▀▀█[0;1;31;43m░▒▓█[0;1;31;40m▄▄[0;30;47m██[0;30;41m▄▄▄▄▄▄▄[0;30;47m███[0;1;31;40m▄[0;30;47m█[0;1;31;40m███[0;30;47m█[0;34;40m        [0;37;40m [0;1;30;40m([0;34mi[0;1;30m)[0;34m [0;1;34martists name[0;34m     [0m
 [30;44m [0;30;47m█[0;34;40m ▄▀      ▐   ▀          [0;33;40m▀█[0;1;31;43m░▒▓███████████████[0;1;31;40m▄▀██[0;30;47m█[0;34;40m       [0m                 [34;40m     [0m
 [30;47m█[0;34;40m ▄▀       █                [0;33;40m▀█[0;1;31;43m░▒▓███████████████[0;1;31;40m▄▀█▄[0;34m      [0m                [34m      [0m
-[1;30m--------------------------------------------------------------------------------[0m
-            [1;30mThis is for Light Show, nothing more, nothing less.[0m
-    [1;30moh ya, in case you hadn''t realised, that logo up there is an [0;1;34mLS[0;1;30m joined[0m
-                            [1;30m    together.[0m
-    [1;30mWant any ansis from me?  Contact me thru [0;1;34mLight Show[0;1;30m or [0;1;34mErrorlevel 255[0m
-
-                [1;30m"You have any idea how to use these things?"[0m
-                               [1;30m"Not a clue..."[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 70c16d600ff17d4c6f768a1c9306e1f78057b3721ae14caa2e0a8b7ca4de48c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CSC.ANS by Poti + Shaitan (phat. fbk.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: crescent.
 # SAUCE Author: poti. shaitan.
 # SAUCE Group: phat. fbk.
@@ -39,6 +39,4 @@ Write-Host '
 
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30ma us with shaitan^srg!fbk done at wired ''96. we did this one for the bm-crew[0m
-[1;30mand their forthcomming e-mag ''crescent2'' which also includes an article by me :)[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 41e9a08aa00dab78e38d06458df809aedfd3e482b4837a13b1477618679f624c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-DIE01.ANS by Mr.Wrong (The Used Coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .D.I.E.
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: The Used Coalition
@@ -38,6 +38,4 @@ Write-Host '
 [1;30m▓[0m [1;34;44m▀[0;34m▀[0;37m [0;1;30m▀▀▄█▀▄▄[0m  [34m [0;37m▀[0;1;30m▀▀▄▄[0m   [1;30m▀▀ ▄▀▀[0;34m ▄ ■[0;1;30m▄▓▀▄▄▄▀▀[0;1;30;47m▓[0;1;30;40m    [0;34m▀[0;37m [0;34m▄[0;37m [0;1;30m▀▀▄ ▀▀[0m [34m [0;37m [0;1;30m▄▄▀[0m▀[1;30m▀[0m   [1;30m▄▄▀█▄▀▀[0m [34m▀[0;1;34;44m▀[0m [1;30m▓[0m
 [1;30m░[0m  [34m▀[0m     [1;30m▀▀▄▀▀▄[0;34m ▀▄▄[0;37m [0;1;30m▀[0m    ▒[1;30m▌[0m [34m [0;1;34m▒[0;34m▌[0m   [1;30m ▀▀▄▀▀▄▓[0m      [34m▐[0;1;34;44m░[0m  [1;30m▐[0m▒ [34m  [0;37m [0;1;30m▀[0m [34m▄▄▀[0;37m [0;1;30m▄▀▀▄▀▀[0m     [34m▀[0;37m  [0;1;30m░[0m
     [34m▀[0m      [1;30m▐[0;1;30;47m▓[0;1;30;40m  ▀[0m  [34m ▀ [0;1;30m▀[0m    [1;30m▀▄ [0m [34m▀[0;37m [0;34m▄[0m    [1;30m▐[0m▒[1;30m  ▒[0m    [34m▄[0;37m [0;34m▀[0;37m [0;1;30m ▄▀[0m    [1;30m▀[0;34m ▀ [0;37m  [0;1;30m▀  [0;1;30;47m▓[0;1;30;40m▌[0m      [34m▀[0m
-         [1;30m▄ ▀[0m    [1;30m▀[0m   [34m  [0m       [1;30m▀[0m     [1;30m▄ ▀[0m   [1;30m░[0m       [1;30m▀[0m        [34m▀[0m   [1;30m▀[0m    [1;30m▀ ▄[0m [1;30mMr.Wrong[0m
-                                                          [1;30mof The Used Coalition[0m
-.........[1mD[0m..[1mI[0m..[1mE[0m.. [1;30mi[0m [1;30mwas[0m [1;30mjust[0m [1;30mfucking[0m [1;30mbored[0m [1;30mand[0m [1;30mit[0m [1;30mwas 3am and i couldn''t sleep[0m'
+         [1;30m▄ ▀[0m    [1;30m▀[0m   [34m  [0m       [1;30m▀[0m     [1;30m▄ ▀[0m   [1;30m░[0m       [1;30m▀[0m        [34m▀[0m   [1;30m▀[0m    [1;30m▀ ▄[0m [1;30mMr.Wrong[0m'

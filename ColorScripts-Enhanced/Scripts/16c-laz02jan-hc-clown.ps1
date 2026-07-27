@@ -5,7 +5,7 @@
 # Source SHA-256: 95fad53221ed6c6dff05a42a9d44df1e095a0562e83becf3b56ca363c0376223
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HC-CLOWN.ANS by hachi (lazarus); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: clown
 # SAUCE Author: hachi
 # SAUCE Group: lazarus
@@ -37,6 +37,4 @@ Write-Host '
 [1;34;44m█[0;1;34;40m███████████[0;1;34;44m░[0;34m█▀[0;37m [0;1;30m█[0;1;30;47m▄▒[0;1;37;40m  [0;31m▀██[0;1;31;41m   [0;31m██████▀▀[0;1;37m  [0;31m▀▀▀[0;1;37m [0m▄[1;30;47m░▀[0;1;30;40m▄[0;1;37;40m ▀████████[0;1;37;47m▌[0m████[1;30;47m▐[0;1;30;40m▌[0;31m▐█████████████████[0m
 [1;34m█████████████[0;34m█[0;37m [0;1;30m░▓█[0;1;37m [0;1;30m▄[0m█▄▄[1m [0;31m▀▀▀▀▀▀▀[0;1;37m [0m▄▄[1;47m░▄▄▄[0;1;40m██[0;1;47m▓▒░ [0;1;30;47m░[0;1;30;40m█[0;1;37;40m ▀████████[0;1;37;47m [0m████[1;30m█[0;1;37m [0;31m█████████████████[0m
 [1;34m█████████████[0;34m█▄▄[0;37m [0;1;30m▌▐[0;1;30;47m▓[0;1;37;47m░▒▓▄▄▄░[0m████[1;47m  ▄▓[0;1;40m███████[0;1;47m▓▒░[0m█[1;30m█[0;1;37m ████████[0;1;37;47m▌[0m████[1;30;47m▐[0;1;30;40m▄[0;31m ▀▀[0;1;31;41m hachiLAZ [0;31m▀▀[0;37m [0;34m▄[0m
-[1;34m█[0;1;34;44m▓▓[0;1;34;40m█[0;1;34;44m██[0;1;34;40m█████████[0;34m█[0;37m  [0;1;30m█[0m█[1;47m░▓[0;1;40m█████[0;1;47m█▄▄▄[0;1;40m█████████[0;1;47m▓░[0m███[1;30;47m░▒[0;1;30;40m▌[0;1;37;40m▐██████[0;1;37;47m▓▒░[0m████[1;30m█ [0;34m█▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;34;44m▄▓[0m
-23 liner for absolutely nothing.  if ya wanna use it for somethin, go nutty.
-ansi by hachi of Lazarus ..[0m'
+[1;34m█[0;1;34;44m▓▓[0;1;34;40m█[0;1;34;44m██[0;1;34;40m█████████[0;34m█[0;37m  [0;1;30m█[0m█[1;47m░▓[0;1;40m█████[0;1;47m█▄▄▄[0;1;40m█████████[0;1;47m▓░[0m███[1;30;47m░▒[0;1;30;40m▌[0;1;37;40m▐██████[0;1;37;47m▓▒░[0m████[1;30m█ [0;34m█▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;34;44m▄▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a34d31ec0a79dd5594245242f43964d388599f8a0e04597b62352dbed42dccd3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-PLF8.ANS by Zeus II (poffelipoff); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pofflapoff
 # SAUCE Author: Zeus II
 # SAUCE Group: poffelipoff
@@ -43,13 +43,4 @@ Write-Host '
                                 [1;37mp[0m      [31m ▄[0;1;33;41m░[0;31m     [0m
                                    [1;37mo[0m
                                       [1mf[0m    [31m▀[0m
-                                        [1;37mf[0m
-
-
-
-         [1;30mdet roliga med att rita gruppnamn e att man kan rita hur fan[0m
-         [1;30msom helst och f[rskallarna[0;31m [0;1;30mtar emot det ''nd[..[0m
-         [1;30mi detta fallet innebar det bara att jag ritade hur jag ville,[0m
-         [1;30moch ansin blev mer konstn''rlig ''n .. andra.[0m
-
-               [1;30mflexor: s''tt in svenska tecken [t mej eru sn''ll.[0m'
+                                        [1;37mf[0m'

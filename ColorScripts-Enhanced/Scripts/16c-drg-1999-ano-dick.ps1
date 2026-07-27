@@ -5,7 +5,7 @@
 # Source SHA-256: 54181af94b2c5304e51206f66cebefa16ff43f580d4446a5a3d99845da8e7464
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANO-DICK.ANS by Anomite (drg-1999); released in drg-1999 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -38,10 +38,4 @@ Write-Host '
 [1;33;42m▓▓▓▓▓▓[0m [1;33;42m▓▓[0m [1;33;42m▓▓[0m [1;33;42m▓▓▓▓▓[0m [1;33;42m▓▓[0m  [1;33;42m▓▓[0m [1;33;42m▓▓▓▓▓[0m [1;33;42m▓▓[0m [1;33;42m▓▓[0m   [1;33;42m▓[0;1;33;40m▄▄[0;1;33;42m▓▓[0m   [1;33;42m▓▓[0;1;33;40m▄[0;1;33;42m▓▓[0m [1;33;42m▓▓[0;1;33;40m▄[0;1;33;42m▓▓[0m [1;33;42m▓[0;1;33;40m▄▄[0;1;33;42m▓▓[0m
 
 
---------------------
-
-hmm, I didnt want to make a logo to this pic.
-It''s for [1mcherox[0m''s bbs, tical. Hope he''ll use it.
-
-
-[1;33manomaly [0m( [1;35mdore-myne-o )[0m'
+--------------------[0m'

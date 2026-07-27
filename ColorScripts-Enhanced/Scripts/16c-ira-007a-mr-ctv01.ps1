@@ -5,7 +5,7 @@
 # Source SHA-256: 8973e89703a2b8a03dfc3023e9ec4263ac7341685d0ded5b7703849cff89296a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-CTV01.ANS by Mr.Wrong (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Color t.v. matrix
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: irato
@@ -37,7 +37,4 @@ Write-Host '
 [30;43m░[0;1;31;43m ▀▓[0;1;31;47m█▓▓▒▒░░░▒▓▓████[0;1;31;43m▓▓▒▒▒▒░[0;33m██▌[0;1;30m▐[0;1;30;43m▒▒▒░ [0;33m▌▐[0;37;43m  [0;1;31;43m░▒▒▄[0;43m [0;40m [0;33;40m▀[0;1;31;43m ░▒▒▓[0;1;31;47m▓▒▒▒▓[0;1;31;40m▓[0;33m▒ [0;37m [0;1;33m4[0;1;37m-[0m Go to Main Menu
 [33m▒[0;30;43m░[0;1;31;43m░░▀▀▓▓[0;1;31;47m▓▒▒▒░░░▓▓████[0;1;31;43m▓▓▓▒▒▒░[0;33m▄[0;1;30;43m░░░░ [0;33m█▄█[0;33;41m█[0;1;31;43m░▒▓[0;1;31;47m▓[0;1;31;43m▓░[0;33m▌░▓[0;1;31;43m░▓▓[0;1;31;47m▓▒░ ░▒▓[0;33m▓░[0m
 [30;43m▓[0;33;40m░░▀▀[0;1;31;43m░░░▀▀▀[0;1;31;47m▓▓▓▓[0;1;37;40m▒▒[0;1;31;47m▓▒▒▓▓[0;1;31;43m█▓▓▒▒▒░░[0;33m████[0;33;41m█████[0;1;31;43m░░▒░[0;33m▓░▒[0;1;31;43m░▓[0;1;31;40m█[0;1;31;47m▓▒░░░░▒▓[0;33m▓░[0;37m  [0m              [33m░░░[0m
-[33mwrong[0;30;43m▓▓▓[0;33;40m▀▀▀▀[0;37;43m░[0;33;40m▀▀[0;1;31;40m▒▒▓▓█[0;1;31;47m▄[0;1;31;43m███▓▓▒▒▒░░░[0;33m█[0;33;41m███████[0;30;43m░[0;33;40m▓▀░▒▓[0;1;31;40m▓[0;1;31;47m▓▓▓▓▒▒▒▒▓▓[0;33m▒[0;37m  [0;1;33m-[0m so?_   [33m░░[0;37m  [0;33m░░▒▒▓░[0m
-
-[37mThis thing is for my board (Color T.V.) that will be up soon. I''ve only began[0m
-[37mlast week to draw pics, so expect more lines in the future... [0m'
+[33mwrong[0;30;43m▓▓▓[0;33;40m▀▀▀▀[0;37;43m░[0;33;40m▀▀[0;1;31;40m▒▒▓▓█[0;1;31;47m▄[0;1;31;43m███▓▓▒▒▒░░░[0;33m█[0;33;41m███████[0;30;43m░[0;33;40m▓▀░▒▓[0;1;31;40m▓[0;1;31;47m▓▓▓▓▒▒▒▒▓▓[0;33m▒[0;37m  [0;1;33m-[0m so?_   [33m░░[0;37m  [0;33m░░▒▒▓░[0m'

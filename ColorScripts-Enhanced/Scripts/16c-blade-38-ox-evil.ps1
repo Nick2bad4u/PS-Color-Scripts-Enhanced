@@ -5,7 +5,7 @@
 # Source SHA-256: 721a797d52a4d9e13f816edb61908b32310f1f97a842f1e12cc62aa67378b4f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OX-EVIL.ANS by oxidizer (blade productions); released in blade-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: evil empire
 # SAUCE Author: oxidizer
 # SAUCE Group: blade productions
@@ -32,7 +32,4 @@ Write-Host '
               [31;40m▐███▄▄[0;1;31;41m [0;31m█[0;35;41m░[0;31;40m██[0;1;31;41m [0;31m▄▄ [0;32m▀[0;31m ▐█[0;35;41m░[0;31;40m█ [0;32;40m▐[0;1;32;42m ██▌ [0;32m▌[0;31m ███▌ [0;32m▀[0;31m ▄▄█████▓▄▄██[0;35;41m░[0;31;40m▌[0;37;40m  [0m
               [31;40m▐[0;35;41m░[0;31;40m███▓▀▀▀▀▀▀████▄███▌ [0;1;32;42m ▄███  [0;31m ▐█[0;35;41m░[0;31;40m█▄██▓█▀▀▀▀▀▀█[0;35;41m░[0;31;40m███▌[0;37;40m  [0m
               [31;40m█▀▀    [0m    [31;40m   ▀▀[0;35;41m░[0;31;40m██▓ [0;32;40m▐[0;1;32;42m ▀▀█▓█ [0;32m▌[0;31m ████▀▀  [0m      [31m   ▀▀█[0;37m  [0m
-              [31m       evil      ▀▀  [0;32m▀▀▀▀▀▀▀▀▀[0;31m  ▀▀     empire      [0;37m  [0m
-                         [37m [0m
-                           [37mmy first ansi ever. phear.[0m
-                       [37moxidizerBLADE (oonce@hotmail.com)[0m'
+              [31m       evil      ▀▀  [0;32m▀▀▀▀▀▀▀▀▀[0;31m  ▀▀     empire      [0;37m  [0m'

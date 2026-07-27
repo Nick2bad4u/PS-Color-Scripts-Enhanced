@@ -5,7 +5,7 @@
 # Source SHA-256: b79ed6fd54ae022dad5b072139d28daa067f478d7e5ad3037d48a25e2b95e729
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CS-TUGW1.ANS by Cryptic Stench (grnd1194); released in grnd1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 274-315
 # Columns: 1-80
 
@@ -34,20 +34,4 @@ Write-Host '
 
  [1m▀[0;1;47m▌[0m▀ [1;47m▌[0m [1;47m▌[0m [1;47m▌[0m▀    [1;47m▌[0m  [1;47m▌[0m [1;47m▌[0m▄  [1;47m▌[0m [1;47m▌[0m▀[1m▄[0m [1;47m▌[0m▀ [1;47m▌[0m▀[1m▄[0m [1m▄[0m▀[1;30m▄[0m [1;30;47m▐[0m [1;30;47m▐[0m [1;30;47m [0m▄  [1;30;47m▐[0m █▀[1;30m▄[0m   [1;30;47m▐[0m   [1;30;47m▐[0m ▄▀[1;30m▄[0m [1;30;47m [0m▀▄ [1;30;47m▐[0m   █▀▄
   [1;47m▌[0m  [1;47m▌[0;1;40m▀[0;1;47m▌[0m [1;47m▌[0m▀    [1;47m▌[0m  [1;47m▌[0m [1;47m▌[0m [1;47m▌[0m [1;47m▌[0m [1;47m▌[0m [1;47m▌[0m [1;47m▌[0m▀ [1;47m▌[0m▀[1m▄[0m [1;47m▌[0m [1;30;47m▐[0m [1;30;47m▐[0m [1;30;47m▐[0m [1;30;47m▐[0m [1;30;47m▐[0m [1;30;47m▐[0m [1;30;47m▐[0m [1;30;47m▐[0m   [1;30;47m▐[0m ▄ [1;30;47m▐[0m [1;30;47m▐[0m [1;30;47m▐[0m [1;30;47m [0m▀▄ [1;30;47m▐[0m   [1;30;47m▐[0m [1;30;47m▐[0m
-  [1;37;47m▌[0m  [1;37;47m▌[0m [1;37;47m▌[0m [1;37;47m▌[0m▄    [1m▀[0m▄▄[1m▀[0m [1;47m▌[0m  [1m▀[0;1;47m▄[0m [1;47m▌[0m▄[1m▀[0m [1;47m▌[0m▄ [1;47m▌[0m [1;47m▌[0m [1;40m▀[0m▄[1;30m▀[0m [1;30;47m [0m▄[1;30;47m▐[0;1;30;40m [0;1;30;47m▐[0m  ▀[1;30;47m▐[0m [1;30;47m▀[0m▄▀   ▀▄▀▄▀ [1;30m▀[0m▄▀ [1;30;47m▐[0m [1;30;47m▐[0m █▄▄ █▄▀
-
-
-
-                         -[1;30mφ[0m- [1;30mTH[0me[1;30m UND[0me[1;30mRGR[0mou[1;30mND W[0mo[1;30mRLD[0m -[1;30mφ[0m-
-
-                  [1;30mS[0my[1;30mS[0mo[1;30mP [0mo[1;30mF TH[0;1;31mi[0;1;30mS W[0mo[1;30mRLD[0m:[1;30m  TH[0me[1;30m G[0ma[1;30mT[0me[1;30m K[0mee[1;30mP[0me[1;30mR[0m/[1;30mGR[0;1;31mi[0;1;30mND[0m
-               [1;30mH[0;1;31mi[0;1;30mS D[0me[1;30mM[0mo[1;30mN[0;1;31mi[0;1;30mC C[0mo[1;30m''S[0m:[1;30m  CRYPT[0;1;31mi[0;1;30mC ST[0me[1;30mNCH[0m/[1;30mGR[0;1;31mi[0;1;30mND[0m,[1;30m S[0ma[1;30mT[0ma[1;30mNL[0mo[1;30mRD[0m
-                             [1;30mR[0mu[1;30mNN[0;1;31mi[0;1;30mNG R[0me[1;30mN[0me[1;30mG[0ma[1;30mD[0me[1;30m 1[0mΘ-Θ[1;30m5[0m
-[1;30m                          [0m          2[1;30m N[0mo[1;30mD[0me[1;30mZ[0m
-                          [1;30mSBN[0met[1;30m WHQ[0m,[1;30m GR[0;1;31mi[0;1;30mND[0mnet[1;30m, [0;1;31mi[0;1;30mTC[0mnet
-                                   [1;30mGR[0;1;31mi[0;1;30mND S[0;1;31mi[0;1;30mT[0me
-            [1;30mN[0mo[1;30mN[0m-[1;30mL[0ma[1;30mM[0me[1;30m [0mo[1;30mN[0me[1;30mS[0m,[1;30m T[0mo[1;30m [0ma[1;30mPPLY[0m,[1;30m C[0ma[1;30mLL 4[0m1[1;30m4[0;1;31m.[0;1;30m4[0m33[1;31m.[0m9[1;30m42[0m5[31m   [0;1;30m N[0mu[1;30mP: [0mNUKEM
-             [1;30mL[0ma[1;30mM[0me[1;30mRS[0m,[1;30m J[0mu[1;30mST DR[0mea[1;30mM [0mo[1;30mF [0me[1;30mNT[0me[1;30mR[0;1;31mi[0;1;30mNG TH[0me[1;30m [0mu[1;30mND[0me[1;30mRL[0ma[1;30mND[0m,[1;30m M[0ma[1;30mN[0m.[1;30m.[0m.[1;30m      [0m
-          a[1;30mND R[0me[1;30mM[0me[1;30mMB[0me[1;30mR [0ma[1;30mLW[0ma[1;30mYS[0m.[1;30m.[0m.[1;30m H[0ma[1;30mV[0me[1;30m F[0mu[1;30mN[0m,[1;30m G[0me[1;30mT W[0ma[1;30mST[0me[1;30mD[0m,[1;30m K[0;1;31mi[0;1;30mLL L[0ma[1;30mM[0me[1;30mRS[0m.[1;30m.[0m.[1;30m.[0m
-
-[1;30mANS[0;1;31mi[0;1;30m BY CRYPT[0;1;31mi[0;1;30mC ST[0me[1;30mNCH[0m/[1;30mGR[0;1;31mi[0;1;30mND[0m'
+  [1;37;47m▌[0m  [1;37;47m▌[0m [1;37;47m▌[0m [1;37;47m▌[0m▄    [1m▀[0m▄▄[1m▀[0m [1;47m▌[0m  [1m▀[0;1;47m▄[0m [1;47m▌[0m▄[1m▀[0m [1;47m▌[0m▄ [1;47m▌[0m [1;47m▌[0m [1;40m▀[0m▄[1;30m▀[0m [1;30;47m [0m▄[1;30;47m▐[0;1;30;40m [0;1;30;47m▐[0m  ▀[1;30;47m▐[0m [1;30;47m▀[0m▄▀   ▀▄▀▄▀ [1;30m▀[0m▄▀ [1;30;47m▐[0m [1;30;47m▐[0m █▄▄ █▄▀[0m'

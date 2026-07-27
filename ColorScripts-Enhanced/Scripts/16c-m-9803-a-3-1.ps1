@@ -5,7 +5,7 @@
 # Source SHA-256: 71f67cf889b275ff837c6d5ae442755280a656d56851a0c66646e4fa733901a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (3)-1.ANS by Tricolore (Mistigris); released in m-9803-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: HipE
 # SAUCE Author: Tricolore
 # SAUCE Group: Mistigris
@@ -37,19 +37,6 @@ Write-Host '
 [37m [0;35m  [0;30;45m█[0;1;31;40m   [0m           ▐     [34m▌[0m        [37m██[0;1;37;47m██[0;1;37;40m░░[0;1;34;40m ▐███████▀▀[0;1;34;47m▓░[0m███
  [35m  [0m                     [34m▌[0m              [1;34m  ▐▀▀▀[0m      ██[1;47m██[0m
                         [34m█[0;30;44m [0;34;40m█ [0;37;40m [0;1;37;40m·  · ∙ + hipe + ∙ ·  ·  [0m [1m▐[0;34m [0;1;37m██[0m
-[1;34m║[0;1;37m · [0;1;34m┌[0;1;37m   ·[0m     [1;37m·   ∙  ∙ + http://huizen.dds.nl/~traxart/hipe + ∙  ∙    ·    [0;1;34m┐[0;1;37m · [0;1;34m║[0m
+[1;34m║[0;1;37m   [0;1;34m┌[0;1;37m    [0m     [1;37m                                                             [0;1;34m┐[0;1;37m   [0;1;34m║[0m
 [1;34;44m╙─┐ ┘─ ─[0;1;34;40m──[0m                                                            [1;34m──[0;1;34;44m─ ─└ ┌─╜[0m
-  [1;34m│[0m                                                                          [1;34m│[0m
-
-  First stuff i''ve done in quite a while. I''ve lost most all will to
-express myself through the art of ansi. Although i will still not give
-up completely, you will not see as much stuff from me as in the past. Do not
-request anything from me unless it is for a tracking/music group. The only
-way i will draw for your bbs or whatever else you want it for is for music
-in return, demo tapes, mix tapes and shit like that. I only want techno stuff.
-Jungle, trance, ambient, minimal, acid, instrumental hiphop, triphop and of
-course, good experimental stuff (none of that noise is music crap).
-
--+O [1mtricolore [0mO[1m mistigirs [0mO[1m hipe  [0m+- -   -
-[1m [0m   [1mumeatoug[0m@[1mcc[0m.[1mumanitoba[0m.[1mca[0m
-[1m [0m   [1mhttp[0m://[1mhome[0m.[1mcc[0m.[1mumanitoba[0m.[1mca[0m/~[1mumeatoug[0m/[0m'
+  [1;34m│[0m                                                                          [1;34m│[0m'

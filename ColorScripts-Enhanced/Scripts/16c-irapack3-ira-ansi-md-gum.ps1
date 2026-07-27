@@ -5,7 +5,7 @@
 # Source SHA-256: fef7733295a957aea30ad591af372eeadfd2d36f892a6aa5711c3c538525c8b1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-GUM.ANS by Dawger (irapack3-ira-ansi); released in irapack3-ira-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -29,5 +29,4 @@ Write-Host '
                [1;35;45m▒▒▓░[0;35m▌[0m   [35m▐[0;1;35;45m░▒▒[0;35m▌▐[0;1;35;45m░░[0;35m▌[0m   [1;35;45m▒▒▓░[0;35m▌[0m    [1;35;45m▒▒▓░[0;35m▌[0m   [35m ▐[0;1;35;45m▒▓░[0;35m▌[0m
               [35m▐[0;1;35;45m░▒[0;35m▀[0;1;35;45m▓░░[0m   [1;35;45m░░▒▒▓▓░[0m   [35m▐[0;1;35;45m░▒[0;35m▀[0;1;35;45m▓░░[0m  [35m▐[0;1;35;45m░▒[0;35m▀[0;1;35;45m▓░░[0m  [35m [0;1;35;45m░▒[0;35m▀[0;1;35;45m░▒[0m
                [1;35;45m░░[0;35m▄[0;1;35;45m▓░[0;35m▀[0m   [35m▐[0;1;35;45m░░▒▒▓[0;35m▌[0m    [1;35;45m░░[0;35m▄[0;1;35;45m▓░[0;35m▀[0m   [1;35;45m░░[0;35m▄[0;1;35;45m▓░[0;35m▀[0m  [35m▐[0;1;35;45m░░▒▓░[0;35m▌[0m
-               [35m▀▀▀▀[0m [35m [0m    [35m▀▀▀▀▀[0m     [35m▀▀▀▀[0m [35m [0m   [35m▀▀▀▀[0m [35m [0m   [35m▀▀▀▀▀[0m
-                 [1;37m [0m [35mT[0;1;35mH[0;1;37me[0m [1;37mouTRaGeouS BuBBLy GuM[0m [1;37moF THe i[0;1;35mR[0;35ma[0m'
+               [35m▀▀▀▀[0m [35m [0m    [35m▀▀▀▀▀[0m     [35m▀▀▀▀[0m [35m [0m   [35m▀▀▀▀[0m [35m [0m   [35m▀▀▀▀▀[0m'

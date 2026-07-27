@@ -5,7 +5,7 @@
 # Source SHA-256: fdfdee23d4c8b4b6093123b2135b2440bc8f4e499617deeea7897cb0e1f989b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MJ-CBAND.ANS by majiCk (ins^frg^sphere^void); released in esp0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: contraband
 # SAUCE Author: majiCk
 # SAUCE Group: ins^frg^sphere^void
@@ -29,10 +29,10 @@ Write-Host '
    [34m▀[0;1;34;44m░▒░░▒▓[0;1;34;40m█▀▀▀▀▀▀▀[0m [1;34m [0m                   [1;34m▀▀▀▀████████████████████████████[0;1;34;44m▓▓▒[0;34m█▌[0m
       [34m▀▀[0m    [34mi[0;37m [0;1;34mN S O M N i A[0m   [34mW[0;37m [0;1;34mh[0m [1;34mQ[0m   [34m#[0;37m [0;1;34m2[0m  [1;34m  [0m    [1;34m▀▀▀▀▀▀▀▀▀▀▀[0;1;34;44m███████▓▓▓▒▒░[0;34m█▀[0m
 
-[1;30m-[0m-[1m-[ [0mkut dis shit biznitch.. [1m]-[0m-[1;30m------------------------------------------------[0m
-           up above, a little leet0 contraband font.. insomnia whq #2
-         down below, a phunky [1;32mgreen[0m/[36mcyan [0;37mremix.. almost looks kewl.. :)[0m
-[1;30m------------------------------------------------[0m-[1m-[ [0mkut dis shit biznitch.. [1m]-[0m-[1;30m-[0m
+[1;30m [0m [1m   [0m                        [1m  [0m [1;30m                                                [0m
+                                                                     
+                              [1;32m     [0m [36m     [0;37m                              [0m
+[1;30m                                                [0m [1m   [0m                        [1m  [0m [1;30m [0m
 
 [34m [0m      [1;32m▄█▀▀▀[0;1;32;46m▓▓▒░[0m                          [1;32m▄[0;1;32;46m█[0m                     [1;32m█▄[0m
       [1;32;46m▓[0;1;32;40m█[0m    [1;32;46m▓▒░[0;36m▌[0m       [1;32m▄█[0m                [1;32m▐[0;1;32;46m▓[0;1;32;40m▌[0m     [36mm[0;1;34m [0;1;32mj[0;1;34m [0;36m^[0;34m [0;36mi[0;37m [0;1;32mn[0;1;34m [0;1;32ms[0m     [1;32m▐[0;1;32;46m▓[0;1;32;40m█[0m
@@ -46,7 +46,4 @@ Write-Host '
    [36m█[0;1;32;46m░[0;1;32;40m█[0m [1;32m▀[0;1;32;46m█▓▒[0;36m▀[0;37m  [0;1;32m▄▄▄▄▄▄[0;1;32;46m████████████████████████████████████████████████▄▄▄ ▀[0;1;32;40m█▄[0m
    [1;32;46m░░▓[0;1;32;40m▌[0m [1;32m▄▄▄▄█[0;1;32;46m████████████████████████████████████████████████████████████▓▒░[0m
    [36m▀[0;1;32;46m░▒░░▒▓█[0;1;32;40m▀▀▀▀▀▀▀[0m                     [1;32m▀▀▀▀[0;1;32;46m████████████████████████████▓▓▒[0;36m█▌[0m
-      [36m▀▀[0m    [36mi[0;37m [0;1;32mN S O M N i A [0;36m  W [0;1;32mh Q   [0;36m# [0;1;32m2[0m        [1;32m▀▀▀▀▀▀▀▀▀▀▀[0;1;32;46m███████▓▓▓▒▒░[0;36m█▀[0m
-
-
-                  [1;30m"[0m [34mh[0;1;34mo[0;36ml[0;1;32my[0m [34ms[0;1;34mh[0;36mi[0;1;32mt[0;1;33m![0m  [34ms[0;1;34mo[0;36mm[0;1;32me[0;1;33mt[0;1;32mh[0;36mi[0;1;34mn[0;34mg o[0;1;34mv[0;36me[0;1;32mr[0m [34m2[0;36m5[0;37m [0;34ml[0;1;34mi[0;36mn[0;1;32me[0;1;33ms[0;1;37m![0;1;32m$[0;36m%[0;1;34m#[0m [1;30m"[0m'
+      [36m▀▀[0m    [36mi[0;37m [0;1;32mN S O M N i A [0;36m  W [0;1;32mh Q   [0;36m# [0;1;32m2[0m        [1;32m▀▀▀▀▀▀▀▀▀▀▀[0;1;32;46m███████▓▓▓▒▒░[0;36m█▀[0m'

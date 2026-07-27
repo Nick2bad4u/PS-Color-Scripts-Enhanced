@@ -5,7 +5,7 @@
 # Source SHA-256: 441fb06c832ee13005fa2cf95b6d7448c5c38bccfcc507de522f8eb8e7e8d618
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-ARCT.ANS by abstrakt (fire); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: stratospheric polar vortex
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -49,6 +49,4 @@ d$$$$P''.dP''.d$$$$P''.d$$$$$$$P''.d$$$$$$$$$$$$$$b.`4$$$$$$$b.`4$$$$b.`4b.`4$$$
 [1m$$$$d$$$[0;1;33m$$[0;1;37m$$$$$$b.j$$$b$$$$$$$$$$[0m [1m.d$$$$$$$$$$$$$$$$$$$$$$S$$$$$$$$$bj$$$$$$$$$b[0m
 [1m$$$$$$$$$$$$$$[0m$[1m$$$$$$$$$[0m$[1m$$$$$$$$$$$$$$[0m$$[1m$$$$$$[0m7[1m$$$$$$$$$$$[0mj$[1m$$$$$$$$[0m$$[1m$$$$$[0m$[1m$$[0m$
 $[1m$[0m$$/`^┘Q$[1m$$$[0mP`4j[1m$$$$$$[0m$P`4[1m$$$$[0mb`Y[1m$$$[0m$P''└/[1m$$[0mP┘'' `4j$[1m$$$$[0m$P'' `*[1mS$$$*[0m┘''^4[1m$[0;1;33m$$[0;1;37m$$[0m$`└4
-`''²`     `²²''    `└*↕*┘''   `²┘²''  `''''`             `"²²''`              `└**┘''
-
-[1;30mbreak out your long johns[0m'
+`''²`     `²²''    `└*↕*┘''   `²┘²''  `''''`             `"²²''`              `└**┘''[0m'

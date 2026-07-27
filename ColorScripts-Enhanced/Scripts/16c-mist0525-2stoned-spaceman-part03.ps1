@@ -5,7 +5,7 @@
 # Source SHA-256: 3be45c0b7f0a71b33d26942c67dab8fbb68c2d88c19fd7deec8feb92641e0235
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2STONED-SPACEMAN.ANS by 2Stoned (Mistigris); released in mist0525 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Spacewalk
 # SAUCE Author: 2Stoned
 # SAUCE Group: Mistigris
@@ -45,6 +45,4 @@ Write-Host '
     [1m∙[0m                    ·            ·                 [1m▀██[0;1;47m▓▓▓▓▓[0;1;40m█████████[0;1;47m▓▓▓▓▓▓▓[0m
                                     · ·      ·[34m             [0;1;37m▀▀▀█[0;1;37;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37;40m▀[0m
    ·                 [1;31m∙[0m            ·                                 [1m▀▀▀▀▀[0m
-             ·
-
-     [30mSOME PSYCHONAUTS SPACEWALK EVERY DAY[0m'
+             ·[0m'

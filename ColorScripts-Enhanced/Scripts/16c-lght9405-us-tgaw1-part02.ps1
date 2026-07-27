@@ -5,7 +5,7 @@
 # Source SHA-256: 7f8100f8ab6ec43318758e50b576f506c76ebabe9d81a05f25f60e84cd835c60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TGAW1.ANS by Forego + Ansiman (lght9405); released in lght9405 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-97
 # Columns: 1-80
 
@@ -45,15 +45,7 @@ Write-Host '
 
 
 
-                                  [1;30mT[0;36mh[0;1;36me [0;1;37mGeta[0;1;36mw[0;36ma[0;1;30my[0m
-                                 [1;30mS[0;36my[0;1;36ms[0;1;37mop: Loo[0;1;36mn[0;36me[0;1;30my[0m
-                           [1;30mC[0;36mo[0;1;36ms[0;1;37mysops: Spectre & Ce[0;1;36mc[0;36mi[0;1;30ml[0m
-                                  [1;30m3[0;36mo[0;1;36m3[0;1;37m-469-0[0;1;36m1[0;36m3[0;1;30m2[0m
-                                 [1;30mW[0;36mW[0;1;36mi[0;1;37mVNet @ 3[0;1;36m3[0;36m0[0;1;30m4[0m
-                                 [1;30mi[0;36mC[0;1;36me[0;1;37mNeT @ 3[0;1;36m3[0;36m0[0;1;30m4[0m
-                               [1;30mi[0;36mN[0;1;36mF[0;1;37miNiTiNeT @ 3[0;1;36m3[0;36m0[0;1;30m4[0m
-                                [1;30mW[0;36mW[0;1;36mi[0;1;37mVLiNK @ 13[0;1;36m3[0;36m0[0;1;30m4[0m
-                                  [1;30mL[0;36mA[0;1;36mZ[0;1;37meRNeT [0;1;36m@ [0;1;30m1[0m
-
-[1;30mGraphic at top: Forègo [LiGHT][0m
-[1;30mFont and stats: ANSiMAN [LiGHT][0m'
+                                  [1;30m [0;36m [0;1;36m  [0;1;37m    [0;1;36m [0;36m [0;1;30m [0m
+                                 [1;30m [0;36m [0;1;36m [0;1;37m       [0;1;36m [0;36m [0;1;30m [0m
+                           [1;30m [0;36m [0;1;36m [0;1;37m                   [0;1;36m [0;36m [0;1;30m [0m
+                                  [1;30m3[0;36mo[0;1;36m3[0;1;37m-469-0[0;1;36m1[0;36m3[0;1;30m2[0m'

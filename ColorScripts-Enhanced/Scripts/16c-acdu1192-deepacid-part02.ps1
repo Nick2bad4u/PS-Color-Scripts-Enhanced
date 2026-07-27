@@ -5,7 +5,7 @@
 # Source SHA-256: c49c0b7515f0ba8d0c4ad131c9006b67dd88a2edb0db705561beb1781b1c41e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DEEPACID.ANS by Blade Runner (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 45-91
 # Columns: 1-80
 
@@ -55,5 +55,5 @@ Write-Host '
 [34m░[0;1;34mBlad[0;34me[0;1;34m·[0;34mRunner [0;1;30mof[0;34m░░░░░░░▒▒▒▒▒▒░░░░▒▒░▒▒▓▓▓[0;1;37;44m█[0;1;33;44m███▀▀[0;34m▓▓█▓▓[0;32;44m▌[0;1;32;44m█[0;32;44m▐▌ [0;1;32;44m█ [0;32;44m▐[0;1;32;44m▐▌ [0;32;44m█[0;1;32;44m▐▌[0;32;44m▌[0;1;32;44m█▌▀ ▄█▌ ▄█▌[0;34m██[0m
 [1;37m.\[0mCi[1;30m> [0mP[1;30mroduction[0ms [34m░ ░░░░░░░░░░░░░░░▒▒▒▒▓[0;1;37;44m█[0;1;33;44m█▀▀[0;34m▓▓▓▓▓▓▓▓[0;32;44m▀[0;1;32;44m▐▌[0;32;44m█[0;1;32;44m▐█[0;33;44m▄█▄[0;1;32;44m█[0;32;44m▐▌ [0;1;32;44m█ ▀█▄[0;33;44m█▄[0;1;32;44m▀[0;33;44m██▄[0;1;32;44m▀ [0;34m██[0m
 [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▐[0;1;33m▀[0;1;30m▄▄[0m▄[1m▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1m [0;1;30mT[0;1;30;47m [0;30;47mh e  [0;1;37;47mD E E P     [0;30;47mSysOp: [0;1;37;47mGreat White [0;30;47m·─· Co: [0;1;37;47mThe Speed Racer [0;30;47m·─· [0;1;37;47m3o5[0;1;30;47m■[0;1;37;47m888[0;1;30;47m■[0;1;37;47m772[0;1;37;40m4[0m
+[1m [0;1;30m [0;1;30;47m [0;30;47m     [0;1;37;47m            [0;30;47m       [0;1;37;47m            [0;30;47m ─      [0;1;37;47m                [0;30;47m ─  [0;1;37;47m   [0;1;30;47m■[0;1;37;47m   [0;1;30;47m■[0;1;37;47m   [0;1;37;40m [0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

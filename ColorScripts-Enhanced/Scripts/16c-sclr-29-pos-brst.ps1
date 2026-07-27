@@ -5,7 +5,7 @@
 # Source SHA-256: c131afa8e9440cce05feb6fa61ea5388ddd91240118d49af0d7d939786840096
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: POS!BRST.ANS by Poise (sclr-29); released in sclr-29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -35,12 +35,10 @@ Write-Host '
 
 
 [36m--[0m
-[36mma'' point of view on a ''break stuff'' ;)[0m
+[36m                                       [0m
 
-[36minspirated by ''break stuff'' series [0m
-[36mby sketch_rimanez...[0;37m [0;36mrespect, man![0m
+[36m                                   [0m
+[36m                    [0;37m [0;36m             [0m
 
-[36mpoise.secular.deez''nuts.....[pOs!][0m
-[36mex-nekro.................nkr@wp.pl[0m
-
-[36mit''s stuff for a break![0m'
+[36m                                  [0m
+[36mex-nekro.................nkr@wp.pl[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d9670b586f69806ffa1e60a7901f66bb02bfbd14adea7a3af070f84f1c0d57bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MOTH-MARK_Z_DANIELEWSKI-HOUSE_OF_LEAVES.ANS by moth (mist0426); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: moth
 # SAUCE Date: 20260428
 # SAUCE Dimensions: 80x51
@@ -37,5 +37,4 @@ Write-Host '
 [1;37m|\  | [0;1;30m-:+--------|[0;1;37m   [0;1;30m|[0;1;37m            [0;35mA Novel       [0;1;30m|[0;35m            [0;1;30m|[0;35m       [0;1;30mH[0;35m   [0;37m|   [0;1;30m_[0;31m/[0;37m|[0m
 [1;37m|[0;34m\[0;1;37m`\|[0m  [1;30m:[0m    [1;30m|[0m    [1;30m|[0m   [1;30m|-----------==[0m   [1;30m==+===[0m  [1;30m==+=====[0m     [1;30m=====[0m    [1;30m|=---[0m|[1;30m\[0m [1;30m|[0;31m/[0;37m |[0m
 [1;37m`[0;1;34m\[0;34m`[0;1;37m\|[0m  [1;30m:[0m    [1;30m|[0m    [1;30m|[0m   [1;30m|[0m           [1;30m|[0m    [1;30m|[0m [1;30mH[0m [1;30m|[0m       [1;30m|[0m        [1;30m|[0m [1;30m|[0m      [1;30m||[0m   |[1;30m`\[0;31m/[0;1;30m__[0m|
-  [34m`[0;1;37m\|[0m__[1;30m:[0m_________[1;30mI[0m___[1;30mI[0m___________[1;30mI[0m____[1;30mI[0m_[1;30mH[0m_[1;30mI[0m_______[1;30mI[0m________[1;30mI[0m_[1;30mI[0m______[1;30mII[0m___|[1;33m>[0;31m/[0;37m_[0;1;30m\[0m_|
-                                                         2[1;30m ANSI Reprint by[0m [31mmoth[0m'
+  [34m`[0;1;37m\|[0m__[1;30m:[0m_________[1;30mI[0m___[1;30mI[0m___________[1;30mI[0m____[1;30mI[0m_[1;30mH[0m_[1;30mI[0m_______[1;30mI[0m________[1;30mI[0m_[1;30mI[0m______[1;30mII[0m___|[1;33m>[0;31m/[0;37m_[0;1;30m\[0m_|[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7d9fadc309d965f49fabe3effc5d22e394d85f58accfecb70d3d058915b8c5ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-FIL.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -24,13 +24,6 @@ Write-Host '
  [1;35m▀▀▀▀▀[0;35m░[0;30;45m▓[0;35;40m▀▀▀[0;1;36;40m▄[0;1;36;46m▓▓[0;1;36;40m▌[0;35m▀█▌[0;1;36m [0;35m▀[0;1;30;45m░░[0;35m██▌[0;1;30;45m▒░[0;35m██▄[0;1;36m▀[0;35m███[0;1;35;45m░▒[0;1;35;40m▓[0;1;35;45m▓[0;1;35;40m█▄▄████▀▀[0m      [1;30m[[0;1;37m#[0;1;30m][0mchange to base #
    [1;36m▀▀▀▀▀▀▀[0;1;36;46m░░▒[0;1;36;40m▀[0;36m░[0;30;46m▓[0;37;40m [0;35;40m▌[0;1;36;45m▓[0;35m [0;1;30;45m▓▒░[0;35m█ [0;1;30;45m▓▒░[0;35m█████▓▀[0;1;35;45m░▒[0;1;35;40m▓[0;1;35;45m▓[0;1;35;40m▀▀▀▀▀[0m         [1;30m[[0;1;37ms[0;1;30m][0met date
                      [35m▀[0;1;30;45m▒░[0;35m██▀ ▀▀▀░[0;30;45m▓[0m   [37;40m  [0;1;35;45m▓[0m              [1;30m[[0;1;37mt[0;1;30m][0mext srch
-                           [1;30m[[0;1;37m[[0;1;30m][0mprevious area          [1;30m[[0;1;37mu[0;1;30m][0mpload
-                           [1;30m[[0;1;37m][0;1;30m][0mnext area              [1;30m[[0;1;37m+[0;1;30m][0mflag file
-                           [1;30m[[0;1;37m/![0;1;30m][0mhelp[0m
-
-
-
-
-
-
-'
+                           [1;30m [0;1;37m [0;1;30m [0m                       [1;30m [0;1;37m [0;1;30m [0m     
+                           [1;30m [0;1;37m [0;1;30m [0m                       [1;30m [0;1;37m [0;1;30m [0m         
+                           [1;30m[[0;1;37m/![0;1;30m][0mhelp[0m'

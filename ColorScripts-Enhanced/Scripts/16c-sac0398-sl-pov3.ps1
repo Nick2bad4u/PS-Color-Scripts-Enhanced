@@ -5,7 +5,7 @@
 # Source SHA-256: e6d4f4a98da035217b88a0cbe2514bd21957afacdc107c151039a6585ec08c43
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-POV3.ANS by Strikeligt (sac0398); released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -30,5 +30,4 @@ Write-Host '
      [32m▐▌█[0;1;37m│[0m               [1;30m▄▄█▀[0m          [1;30mO[0m [1;30mF[0m                 [35m [0m            [35m│[0;32m█▐▌[0m
       [32m▌█[0;1;37m│[0m             [1;30m▄▀▀[0m           [1mV[0m [1;33mi[0m [1;31mE[0m [31mW[0m                            [35m│[0;32m█▐[0m
        [32m█[0;1;37m│[0m            [1;30m■[0m                                                 [34m│[0;32m█[0m
-        [1;37m└───────────────────────────────────────────────────[0;1;31m──[0;1;37m─[0;1;31m───[0;35m───[0;34m──┘[0m
-               [1;30m-[0m+[1;36m-[0;1;37m Bringing You The iNFO behind today''s Scene! [0;1;36m-[0m+[1;30m-[0m'
+        [1;37m└───────────────────────────────────────────────────[0;1;31m──[0;1;37m─[0;1;31m───[0;35m───[0;34m──┘[0m'

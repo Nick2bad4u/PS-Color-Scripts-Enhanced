@@ -5,7 +5,7 @@
 # Source SHA-256: 935f967489615f57f41cff94e9604b5213aae25f220c7a8ee02021eb8e71f265
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-CTV04.ANS by Mr.Wrong (Fokus fonting); released in fokus03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Color Tv
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Fokus fonting
@@ -35,5 +35,5 @@ Write-Host '
      [1;30m▒[0m [1;30m█[0;1;30;47m▀▓[0;1;30;40m█▄▓▓█▄▄▄▄░░▀[0m▀[1m▀[0m▀░ [1;30m▄[0;1;30;47m█▀[0;1;37;40m▒[0;1;30;40m▄[0m ░    [1;30m▒▀▀▄▄[0m [1;30m▀[0;1;30;47m▄▓[0;1;30;40m█▀▀[0m ▄▀[1;47m░[0;1;40m▀▀[0m▀[1;30m▀[0m [1;30m░░░░▄▄▓▄█[0;1;30;47m▓▀[0;1;30;40m█[0m  [1;30m▒[0m
      [1;30m░[0m  [1;30m▀▀▄███[0m▒▒[1;30;47m▀▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█▄▄▄ ▄[0m [1;30m▀▀▀[0m [1;30m▄[0m▒[1;30;47m▀[0;1;30;40m▄[0m [1;30m█▓▓▄▄[0m [1;30m▀[0m  [1;30m█▄[0m [1;30m▀[0m [1;30m▄▄[0;1;37m▒[0;1;30m ▄▄▄▄█[0;1;30;47m▓█▓▓▀[0m▒▒[1;30m▄██▄[0m [1;30m ░[0m
              [1;30m▀▀▀▀▄▄[0m              [1;30m▀▀[0m [1;30m▄[0m [1;30m▀▀[0m    [1;30m▀[0m        [1m░[0m        [1;30m▄▄▀▀▀▀[0m [1;30mMr[0;35m.[0;1;30mWrong[0m
-                   [1;30mColor[0m [1;30mTv[0m [1;30m-[0m [1;30mremember▄the[0m [1;30mhole[0m [1;30myou[0m [1;30mput[0m [1;30mme[0m [1;30min?[0m        [35m([0;1;30mFokus[0;35m)[0m
+                   [1;30m     [0m [1;30m  [0m [1;30m [0m [1;30m        ▄   [0m [1;30m    [0m [1;30m   [0m [1;30m   [0m [1;30m  [0m [1;30m   [0m        [35m [0;1;30m     [0;35m [0m
                     [1;30m▀[0m                                       [1;30m▀[0m'

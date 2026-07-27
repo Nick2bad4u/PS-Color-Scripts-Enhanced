@@ -5,7 +5,7 @@
 # Source SHA-256: 4c1565bdbb7598c7828a8038663961005d5c29ce0c3a5d838de90039a8f961ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AA-CCI.ICE by Aada (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -42,7 +42,7 @@ Write-Host '
             [1;31m▀▀██████████▀▀[0m        [1;36m▀▀▀▀▀[0;1;36;43m▀▀▀▀[0;33m████████████████▀███░░░░██▀▄▓▒▒▒░░░░[0m
                                               [33m▀▀▀▀▀▀▀█████████░░░░▓▓▌▐▓▒▒░░░░░░[0m
 [33m [0;1;32mi[0;32mCE [0;1;32mProdu[0;32mction [0;1;32mN[0;32mov [0;1;32m3[0;32m0[0;1;30m, [0;1;32m19[0;32m92[0m                                [33m▀▀    ▀▓▌▐▓▒▒░░░░░░[0m
-[33m [0;1;32mAN[0;32mSI [0;1;32mb[0;32my [0;1;32mAA[0;32mDA[0;1;30m[[0;1;32mi[0;32mCE[0;1;30m/[0;1;32miLLUS[0;32mTRATOR[0;1;30m/[0;1;32mT[0;32mS[0;1;30m][0m                                         [33m░░░░░[0m
+[33m [0;1;32m  [0;32m   [0;1;32m [0;32m  [0;1;32m  [0;32m  [0;1;30m [0;1;32m [0;32m  [0;1;30m [0;1;32m     [0;32m      [0;1;30m [0;1;32m [0;32m [0;1;30m [0m                                         [33m░░░░░[0m
 
 [33m [0;36m▄█▀[0;1;36;46m▀▄[0m [36m▄[0;1;36;46m▀▄[0;36m▄    ▄█▄▀▀[0;1;36;46m▄[0;36m▄ ▄█▄▀█[0;1;36;46m▀▄[0;36m▄ ▄█▄▀▀[0;1;36;46m▄[0;36m▄[0m     [36m▄█▀[0;1;36;46m▀▄[0m [36m▄█▄▀▀[0;1;36;46m▄[0;36m▄  ▄[0;1;36;46m▄[0;36m▄ ▄█▄ █[0;1;36;46m▄[0;36m▄ ▄█▄▀█[0;1;36;46m▀▄[0;36m▄[0m
 [36m▐▀   ▀   ▀▌▄▄[0;1;36;46m▄[0;36m▄ █  ▄█[0;1;36m▀  [0;36m█ ▄▄ ▀   █  ▄█[0;1;36m▀    [0;36m▐▀   ▀  █  ▄█[0;1;36m▀   [0;1;36;46m▀[0m   [36m█ █▌▀[0;1;36;46m▀[0;36m▌ █ ▄▄ ▀[0m

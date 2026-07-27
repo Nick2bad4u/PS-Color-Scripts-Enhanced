@@ -5,7 +5,7 @@
 # Source SHA-256: c2ba9a9f156b3c10189245b50b26480977cb5e8aba44918fd1f8c0f3699906ec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V9-DOOD.ANS by Vade79 (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Doodle E-Mag
 # SAUCE Author: Vade79
 # SAUCE Group: Samsara
@@ -53,5 +53,4 @@ Write-Host '
 [1;30m░[0;34m [0;1;34m▀[0;1;34;47m▓[0;1;34;44m█[0;1;34;46m▓▓[0;1;34;44m█▄[0;34m▄ [0;1;30m░[0;1;34m▐[0;1;34;44m▓██▀▀[0;34m▀ [0;1;30m░[0;1;34m░▀[0;1;34;44m█[0;1;34;46m▓[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m▄[0;34m▄[0;1;34;44m██▓▓▀▀[0;34m▀[0;37m [0;1;30m░[0m [1;34m▀[0;1;34;47m▓[0;1;34;44m█▓██▄[0;34m▄[0;1;34;44m▒[0;30;44m░[0;1;34;44m░░[0;30;44m░[0;34;40m▀ [0;1;30;40m░▒░[0;1;34;40m▀[0;1;34;47m▓[0;1;34;44m███▓░[0;34m▄[0;37m ░[0;1;34m▐[0;1;34;44m██▓▀▀[0;34m▀ [0;1;30m░▒▓▒▒[0m
 [1;30m▒░[0m [1;30m░[0;1;34m▀▀[0;1;34;47m▓▓[0;1;34;44m█▓[0;34m▀[0;1;34m▄[0;1;34;44m▓▀[0;34m▀▀[0;1;30m░[0m [1;30m░▒▒▒░[0;34m [0;1;34m▀▀[0;1;34;44m██▓▀[0;34m▀▀▀[0;37m [0;1;30m░▒░▒░░[0m [1;34m▀▀[0;1;34;44m██▓▓░[0;34m▀▀[0;1;30m░[0m [1;30m░░▒▓▒░[0m [1;34m▀▓[0;1;34;44m███▓[0;34m▀[0;1;34m▄[0;1;34;47m▓[0;1;34;44m▀[0;34m▀▀[0;1;30m░[0m [1;30m░░▒▓█▓▓[0m
 [1;30m▓▒▒▒░░[0m  [1;30m░[0m [1;30m░[0m   [1;30m░░▒░▒▒▓▓▒░▒░[0m  [1;30m░[0m [1;30m░░▒░▒▓▓▓▒▒░░░[0m  [1;30m░[0m  [1;30m░░▒░▒▒▓[0;1;30;47m▓[0;1;30;40m▓▒░░[0m  [1;30m░░[0m [1;30m░[0m   [1;30m░░▒░▒▒▓▓[0;1;30;47m▓▓[0;1;30;40m▀[0m
--■- GRinDKing''z !?DooDle EMag?! -■- ANSi : Vade 79[s[30;47mam[0;1;30;47mS[0;30;47mar[0;37;40ma] -■- it''z THE mag -■-[0m
-                         [37;40m [0m'
+ ■                               ■                  [30;47m  [0;1;30;47m [0;30;47m  [0;37;40m    ■                ■ [0m'

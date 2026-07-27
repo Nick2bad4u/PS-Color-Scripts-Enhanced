@@ -5,7 +5,7 @@
 # Source SHA-256: 782afec5dd99392b0361cc8d89caf6d31d9aaa500b0628365a450b478d3cf923
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-EUPH1.ANS by Diamond Traveller (MiSTiGRiS); released in mist1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Euphoria
 # SAUCE Author: Diamond Traveller
 # SAUCE Group: MiSTiGRiS
@@ -47,10 +47,5 @@ Write-Host '
 [37m           [0;1;30m|[0m      [1;30m▓[0m [1;30m▀[0m                                        [1;30m [0m [1;30m▒[0m      [1;30m|[0m
           [1;30m-+--[0;36m    [0;1;30m▒[0;36m              [0;37m                            [0;36m  [0;1;30m░[0;36m    [0;1;30m--+-[0m
                   [1;30m░[0m           [36m  [0;37m [0;1;30m.t h e   e n d.[0m [1;30m [0m             [1;30m░[0m
-[1;30m      [0m  [1;30manother 1oo% original ansi from Diamond Traveller. the only one! =)[0m
-[1;30m---------------------------->8-------------------------------------------------[0m
-[1;30mYes.. another ugly shit from me.. =) well, i''ve nothing special to say [0m
-[1;30m( as always ), so i hope you guys will love this one![0m
-[1;30museless greets go to zoltar and to that pHUNKY guy, 33rie =)[0m
-[1;30m--- if you want an ansee from me, you can join me on Sarcastic toaster, The[0m
-[1;30mScreaming tomatoes,[0m [1;30mkitchnet or simply ask to other[0m [1;30mmist guys...[0m'
+[1;30m      [0m  [1;30m                                                                   [0m
+[1;30m---------------------------->8-------------------------------------------------[0m'

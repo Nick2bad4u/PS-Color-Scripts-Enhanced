@@ -5,7 +5,7 @@
 # Source SHA-256: 6607afa6da8b0304bcbbe7cab9cd509edf478555097fecc26e9188fe6d31e2b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP43-S.ANS by Aesthetic + Spear (sense imagery); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the sanctuary
 # SAUCE Author: spear/aes
 # SAUCE Group: sense imagery
@@ -40,6 +40,4 @@ Write-Host '
                    [1;30m▄[0m              [1;30m▄[0m                  [1;30m▀[0m                 [1;30m▀[0m
                                                     [1;30m▀[0m
 
-                            T H E  S A N C T U A R Y
-
-                     ya ya so its several months late. sue me.[0m'
+                            T H E  S A N C T U A R Y[0m'

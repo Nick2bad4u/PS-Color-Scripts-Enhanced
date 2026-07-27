@@ -5,7 +5,7 @@
 # Source SHA-256: d1b8511944a01971ae7c7f875be4ff98de9bb04dd911008e7e7e4102597d4d9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: checs - casa robada.ans by Checs (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: casa robada
 # SAUCE Author: Checs
 # SAUCE Group: HPM
@@ -25,7 +25,7 @@ Write-Host '
    ║─╥┘╟─ ╟─┘║ │║─╢║  ║║  ╓__┐ .[36m≡≡[0;1;37m≡≡≡[0m ╥┘║ ─┐╟─ ║╙╖│  ║  ║ ║╙╖║╓__┐      [1m▓[0m▌
    ╨ ╙─╙─┘╨  ╙─┘╨─┘╨─┘╨╙─┘╨  ┴ :[1m≡≡≡[0;36m≡≡[0;37m ╙─╙──┘╙─┘╨ ╙┴  ╨  ╨ ╨ ╙╨╨  ┴     [0;1;37m▓▓[0m
                                :[36m≡≡≡[0;37m                                   [0;1;37m▓▓▓[0m
-           Quién podrá Hackear :[36m≡[0;37m                                    [0;1;37m▒▓▓[0m▌
+                                [36m [0;37m                                    [0;1;37m▒▓▓[0m▌
                    este Juego? ;                                 ╓[1m▓▓░░▓▓[0m
                                :                       ╓▒▒▄▄     [1m▓▓▓░▓▓▌[0m
                                :                     ╓╜▒▒▒▒▒▒▓▄ _[1m▓▓▓▓▓▌[0m
@@ -52,5 +52,4 @@ Write-Host '
 [1;35m└─┴┴─┘-│║$║┬┬┬┬┬║$$║┬┬┬║[0m [1;35m$$[0m         [1;35m$$[0m [1;35m║┬┬┬║[0;1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;35m"""""""│""""""""""""""""[0m [1;35m$$[0m         [1;35m$$[0m [1;35m"""""[0;1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
 [1;37mⁿⁿⁿⁿⁿⁿⁿ│║$║$$$$$║$$║$$$║[0m [1m$$[0m [1;30m,,,,,,,[0m [1m$$[0m [1m║$$$║[0;1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-                                            [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-'
+                                            [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

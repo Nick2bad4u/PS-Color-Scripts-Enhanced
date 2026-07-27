@@ -5,7 +5,7 @@
 # Source SHA-256: 4eb7b4c2aa556d32c87e5f8901535b35cc7f3f40c1efbc154b2c233a3df94a42
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DAZE.ANS by AeonSage & ODB (Shaolin's Finest); released in sf-pak12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Daze
 # SAUCE Author: AeonSage & ODB
 # SAUCE Group: Shaolin's Finest
@@ -33,10 +33,4 @@ Write-Host '
 [1;37m  [0;32m__[0;1;33m [0;33m)[0;1;32m [0;32m__/[0;34m/[0;1;34m    ___[0;36m/[0;1;36m/[0;1;34m [0;1;30m:[0;36m:[0;1;34m   [0;1;30m`[0;1;34m  [0;34m|/[0;36m/[0;1;34m   [0;34m:[0;1;34m   ___[0;36m_/[0;1;34m   [0;34m\[0;1;34m    [0;34m_[0;1;34m_[0;36m))[0;1;36m_[0;1;34m__[0;34m,[0;1;34m----[0;36m,[0;1;32m_[0;32m__[0;1;34m [0;1;37m [0;32m:  :[0m
 [1;37m      [0;1;32m/ [0;32m/[0;1;32m [0;34m`[0;1;34m--[0;34m,[0;1;34m___   __[0;36m_[0;1;36m_[0;1;30m [0;1;34m   ___    [0;1;30m.[0;1;34m    [0;1;30m)[0;34m)[0;1;34m      [0;1;30m.[0;1;34m    [0;34m|[0;1;34m     [0;34m''[0;1;34m   [0;1;36m/[0;1;37m/[0;1;32m_[0;32m//[0;1;34m [0;1;37m [0;32m:. :[0m
 [1;37m  [0;1;32m  [0;1;30m/[0;1;37m/[0;1;32m_[0;32m/_[0;1;32m [0;32m_ __ [0;1;30m)[0;34m)[0;1;34m______[0;36m/[0;34m.[0;1;34m___[0;34m//[0;1;30m_[0;1;34m   __[0;34m\[0;1;34m--[0;34m,[0;1;34m______[0;36m,[0;1;34m-[0;34m)[0;1;34m-[0;36m,[0;1;34m________[0;36m,[0;1;34m--[0;36m/[0;1;32m/[0;1;34m [0m    [32m.:..:...[0m
-[1;37m  [0;32m-------(daze ) )---------[0;1;30m\[0;34m\[0;1;34m_______([0;1;30m([0;32m----------------------------- /.:..:[0m
-
-
-[1;30moutline by aeonsage[0m
-[1;30mreshaping, shading & coloring by ol'' dirty bastard[0m
-
-[1;30mShaolin''s.Finest.1998[0m'
+[1;37m  [0;32m-------(daze ) )---------[0;1;30m\[0;34m\[0;1;34m_______([0;1;30m([0;32m----------------------------- /.:..:[0m'

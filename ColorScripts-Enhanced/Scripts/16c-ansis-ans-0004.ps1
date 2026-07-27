@@ -5,7 +5,7 @@
 # Source SHA-256: cb40ae8edee0b7e73abfc9b8c93b96e05954c016853c172b449cc9eedb766fe4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANS-0004.ANS by Tim Tintle (ansis); released in ansis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -27,6 +27,6 @@ Write-Host '
 [1;33;40m▒▒[0;1;34;44m╔════════╤═══════════════╗[0;1;33;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;31;41m╟────────────────────────╢[0;31;43m░[0;1;33;40m▒▒▒▒▒▒▒[0m
 [1;33;40m▒▒[0;1;34;44m║ [0;37;44mIBM BBS[0;1;34;44m│ [0;37;44m24 Hr SERVICE [0;1;34;44m║[0;34;43m░[0;1;33;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;31;41m║  [0;1;37;41mTIM TINTLE  CO-SYSOP  [0;1;31;41m║[0;31;43m░[0;1;33;40m▒▒▒▒▒▒▒[0m
 [1;33;40m  [0;1;34;44m╟────────┴───────────────╢[0;34;40m░[0;37;40m                 [0;1;31;41m╟────────────────────────╢[0;31;40m░[0;37;40m       [0m
-[31;40m  [0;1;34;44m║ [0;37;44mPC-BOARD VER. 14.1/D   [0;1;34;44m║[0;34;40m░    [0;1;33;40mSUPPORTS:    [0;1;31;41m║[0;1;37;41mCINDY WENTWORTH CO-SYSOP[0;1;31;41m║[0;31;40m░[0;37;40m       [0m
+[31;40m  [0;1;34;44m║ [0;37;44m                       [0;1;34;44m║[0;34;40m░    [0;1;33;40m             [0;1;31;41m║[0;1;37;41m                        [0;1;31;41m║[0;31;40m░[0;37;40m       [0m
 [31;40m  [0;1;34;44m╚════════════════════════╝[0;34;40m░  [0;1;33;40m300/1200/2400  [0;1;31;41m╚════════════════════════╝[0;37;40m        [0m
 [37;40m                               [0;1;36;40m9600 HST[0;37;40m                                         [0m'

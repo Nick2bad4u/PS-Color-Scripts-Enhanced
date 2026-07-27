@@ -5,7 +5,7 @@
 # Source SHA-256: 0a745f4ea08ee95494a3a10ad3220e5bf5259b38b4d3fc4a4eacdc1aea509357
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KA-VOTB.ANS by kadaver (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: valley of the buffalo
 # SAUCE Author: kadaver
 # SAUCE Group: READ THE INI FILE
@@ -15,11 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-[1;33mgreetz[0;1;30m.[0;34m..[0m                                                     [34mif[0;1;30m you want [0;1;33mto buy[0m
-[1;33mkc[0;1;30m-told you i was in the mo[0;34mod[0m                               [34man[0;1;30m ansi(usually li[0;1;33mke[0m
-[1;33mnc[0;1;30m-how was cw [0;34m:)[0m                                           [34m$1[0;1;30m0 or so) find me [0;1;33mon[0m
-[1;33msw[0;1;30m-opiv will be cool[0;34mio [0m                                   [34mIR[0;1;30mC or in (410)...ye[0;1;33mah[0m
-[1;33mtt[0;1;30m-than[0;34mx![0m                [1;33mka[0;1;30mdav[0;34mer[0;1;30m [0;1;33mof[0;1;30m [0;1;33mwa[0;1;30mrn[0;34mer [0;1;33mpr[0;1;30mesen[0;34mts[0;1;30m.[0;34m..[0;37m  [0;34m [0m           [34mi k[0;1;30mnow...h[0;1;33meh[0m
+[1;33m      [0;1;30m [0;34m  [0m                                                     [34m  [0;1;30m          [0;1;33m      [0m
+[1;33m  [0;1;30m                         [0;34m  [0m                               [34m  [0;1;30m                [0;1;33m  [0m
+[1;33m  [0;1;30m            [0;34m  [0m                                           [34m  [0;1;30m                 [0;1;33m  [0m
+[1;33m  [0;1;30m                  [0;34m   [0m                                   [34m  [0;1;30m                  [0;1;33m  [0m
+[1;33m  [0;1;30m     [0;34m  [0m                [1;33m  [0;1;30m   [0;34m  [0;1;30m [0;1;33m  [0;1;30m [0;1;33m  [0;1;30m  [0;34m   [0;1;33m  [0;1;30m    [0;34m  [0;1;30m [0;34m  [0;37m  [0;34m [0m           [34m   [0;1;30m       [0;1;33m  [0m
              [1;33m█[0;1;33;41m▓▒▓[0;1;33;40m█[0m [1;33m█[0;1;33;41m▓▒▓░[0m [1;33m█[0;1;33;41m▓▒▓[0;1;33;40m█▀█[0;1;33;41m▓▒▓[0;1;33;40m▄[0m [1;33m█[0;1;33;41m▓▒▓[0;1;33;40m█[0m [1;33m█[0;1;33;41m▓▒▓[0;1;33;40m█▀█[0;1;33;41m▓▒▓[0;1;33;40m█[0m [1;33m█[0;1;33;41m▓▒▓[0;1;33;40m█▀█[0;1;33;41m▓▒▓[0;1;33;40m▄[0m
 [1;36m░[0m [1;30m█[0m [1;30m▓░[0;1;36m░[0m [1;30m▓[0m [1;30m▀[0;1;36m░[0m [1;33;41m▓▓█▓▓[0;34m░[0;1;33;41m▓▓█▓▓[0m [1;33;41m▓▓█▓▓[0;34m░[0;1;33;41m▓▓█▓▓[0m [1;33;41m▓▓█▓▓[0m [1;33;41m▓▓█▓▓[0;34m░[0;1;33;41m▓▓█▓▓[0m [1;33;41m▓▓█▓▓[0;34m░[0;1;33;41m▓▓█▓▓[0m [1;36m░[0;1;30m▒█[0m [1;36m░░[0m [1;30m█[0m [1;36m░[0m [1;36m░[0;1;30m█[0m
 [1;30m▓[0m [1;30m█[0;1;36m░[0;1;30m▒▓[0m  [1;30m▒[0;1;36m░[0;1;30m▓[0m  [1;33;41m▓░█░▒[0m [1;33;41m▓░█░▒[0m [1;33;41m▓░█░▒[0;34m░[0;1;33;41m▓░█░▒[0m [1;33;41m▓░█░▒[0m [1;33;41m▓░█░▒[0;34m░[0;1;33;41m▓░█░▒[0m [1;33;41m▓░█░▒[0;34m░[0;1;33;41m▓░█░▒[0m  [1;30m▓▓[0m  [1;36m▒[0m [1;30m▓[0m [1;30m▓[0m [1;30m▒▓[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 6309a4542b3fa34b176283b3ba15d15c8449f24b4481a1784b8e6fc0422648d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-H99.ANS by avenger (black maiden); released in bmbook17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hazard/99
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -39,4 +39,4 @@ Write-Host '
 [1;31;41m░[0;31m▄[0;33;41m░[0;31;40m  ▀_ave▀█▀[0;37;40m [0;36;44m░[0;34;40m▄▄[0;36;44m [0;34;40m▌[0;37;40m [0;31;40m▓[0;32;40m   [0m    [35;40m          [0m    [31;40m█[0;33;41m▀█▀[0;31;40m ▀[0;33;41m▀[0;31;40m▀[0m   [32;40m▄[0;37;40m  [0;31;40m▀▀[0;1;30;40m [0;32m▀[0;37m [0;1;32m▄[0;32m▄[0;37m [0;32m▄▓[0;37m [0;32m▄░ ▄[0;31m▀[0m    [31m▀[0;33;41m▀[0;1;33;43m▀[0m
 [31m███▄[0;33;41m▄███▄[0;31;40m██▄ ▀[0m     [31;40m▄█▀[0;37;40m [0;33;40mh a[0;37;40m [0;33;40mz[0;37;40m [0;33;40ma[0;37;40m [0;33;40mr[0;37;40m [0;33;40md[0;37;40m [0;33;40m/[0;37;40m [0;33;40m2[0;37;40m [0;31;40m<-- ▀▀ █▄[0;37;40m  [0;31;40m▀[0;37;40m [0;32;40m [0;1;32;40m░[0;1;32;42m▀[0;32m▀▄[0;1;32;42m▄[0;32m▄[0;33m░▄[0;32m▀[0;1;30m [0;32m▄[0;1;33;42m▄░[0;32m▀█▄[0;1;33;42m▄[0;32m▌[0;37m [0;32m█▄[0;37m [0;32m░▄[0m
 
-[35mb l a c k ∙ m a i d e n  1 9 9 8 ╖[0;37m [0;31mthe top of the hill[0;37m [0;31m< [0;33m√√[0;36m [0;31m>[0;36m avengerbm@aol.com[0m'
+[35m                                 ╖[0;37m [0;31m                   [0;37m [0;31m  [0;33m  [0;36m [0;31m [0;36m                  [0m'

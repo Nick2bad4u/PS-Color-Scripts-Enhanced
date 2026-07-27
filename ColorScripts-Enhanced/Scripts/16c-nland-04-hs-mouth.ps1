@@ -5,7 +5,7 @@
 # Source SHA-256: e846b2194a36cf86d5aaee68fd422ab965fee731116cffb2fa4e8ccfdf485dd5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HS-MOUTH.ANS by Han SoLo (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BoCon
 # SAUCE Author: Han SoLo
 # SAUCE Group: NeveRLanD People
@@ -59,5 +59,4 @@ Write-Host '
 [30;46m                    ▀██[0;1;31;40m█████████████████████████████████████████████████[0;30;46m██      [0m
 [30;46m                      ███[0;1;31;40m▀▀▀██████████████████████████████████████████▀[0;30;46m██       [0m
 [30;46m                        ▀▀▀▀██████[0;1;31;40m▀▀▀▀▀▀▀██████████████████████▀▀▀▀[0;30;46m███▀▀        [0m
-[30;46m                                  ▀▀▀▀▀▀▀██████████████████████▀▀▀▀▀            [0m
-[30;46m                                                                                [0m'
+[30;46m                                  ▀▀▀▀▀▀▀██████████████████████▀▀▀▀▀            [0m'

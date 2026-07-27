@@ -5,7 +5,7 @@
 # Source SHA-256: 1ae14929640b630c70079eeb506c17d7763a3b29cfc18181929708f3c796ec6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ES-PHASE.ANS by elusive (flvr0396); released in flvr0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: phase one
 # SAUCE Author: elusive
 # SAUCE Date: 19960203
@@ -35,11 +35,7 @@ Write-Host '
 [1;30mes[0;1;30;47m▓[0;1;30;40m▄[0;1;36;40m  [0;1;30;40m▀[0;1;36;40m    [0m [1;30m▀▒▄[0;1;30;47m▓[0;1;30;40m▄[0m [1;30m▀[0m  [1;30m▄[0m [1;30m▐▌[0m [1;30m▄[0m [1;30m░[0m [1;30m         ▀[0m   [1;30m▒[0m  [1;30m▀ [0m       [1;30m▀[0m [1;30m▄[0m         [1;36m  [0m [1;30m▀[0m [1;30;47m▓[0;1;30;40m▄█[0m    [1;30m [0m
 [1;30m▄[0m  [1;30m▀▀▄[0m    [1;30m▀[0m  [1;30m░[0m [1;30m▀[0m        [1;30m▀[0m                  [1;30m░[0m              [1;30m░[0m         [1;30m▒[0m    [1;30m▀ [0m  [1;30m ▄[0m
 [1;30m               [0m            [1;34m [0m   p h a s e   [1mo[0m n e                             [1;30m  [0m
-[1;30m░[0m  [1m.[0m operated by energizer and gee [1m.[0m fatal trading experience memberboard [1m.[0m  [1;30m ░[0m
-[1;30m▒[0m  [1m.[0m                    [1;30m<[0m [1;30mfill this in by yourself :) >[0m                   [1m.[0m   [1;30m▒[0m
+[1;30m░[0m  [1m [0m                               [1m [0m                                      [1m [0m  [1;30m ░[0m
+[1;30m▒[0m  [1m [0m                    [1;30m [0m [1;30m                             [0m                   [1m [0m   [1;30m▒[0m
 [1;30m▓▒ ░[0m [1;30m▄[0m [1;30m▄[0m              [1;36m     [0m                                     [1;30m    [0m [1;30m▄ [0m [1;30m▄ ░ ░▒▓[0m
-[1;30mut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut[0m
-[1;30m hm. this is my first logo this year, i''ve had a little holiday from drawing,  [0m
- [1;30msince i accidentally deleted my second and best PIC, that was never released[0m
- [1;30mand of course i had no backup of it *argH!*...well, rest in peace. lates. [0m
- [1;30m                 [0m   [1;30m [0m   [1;30m [0m [1;30m -elusive(fte^fos^flavor)[0m'
+[1;30mut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut---8<---cut[0m'

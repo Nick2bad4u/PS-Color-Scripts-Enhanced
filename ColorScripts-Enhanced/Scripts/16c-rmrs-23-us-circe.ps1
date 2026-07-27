@@ -5,7 +5,7 @@
 # Source SHA-256: ed7845c0134cc6078f15a38a2cf287f6b6c1d5dfb4dc9064a258b83be7d83930
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CIRCE.ANS by The Upright Man + Arlequin (rmrs-23); released in rmrs-23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -36,10 +36,4 @@ Write-Host '
 [1;36;44m`````````[0;36;44m``````        [0;1;36;44m ````````[0;1;34;44m `````````````[0;36;44m```````````````````````````[0;1;36;44m``````[0m
 [44mArlequin [Circe] and The Upright Man [Remorse Senior][0;34;40m██████████████████████████[0m
 [34;44mgreets: brad, neil, ryan, mikael, tk                     [0;34;40m█████████[0;34;44m           [0;34;40m██[0m
-[34;44mfuck yu''s to: if i hate you, i''ll let you know soon enough[0;34;40m█████████████[0;34;44m       s[0m
-[37;40m<tum>  think this defines smooth[0m
-[37;40m<arlequin> what are you talking about? what the hell is wrong with you?[0m
-[37;40m<tum> don''t mess with me man. i''ll kick you out of remorse.[0m
-[37;40m<arlequin> i''m not even in remorse you fag..[0m
-[37;40m<arlequin> hello?[0m
-[37;40m** tum has quit irc [..][0m'
+[34;44m                                                          [0;34;40m█████████████[0;34;44m        [0m'

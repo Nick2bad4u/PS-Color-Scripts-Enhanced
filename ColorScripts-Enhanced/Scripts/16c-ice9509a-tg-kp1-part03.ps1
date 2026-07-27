@@ -5,7 +5,7 @@
 # Source SHA-256: 91b97c28198cd106b9970668e36fbb21d16558070a34356429a3196e57cb21e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-KP1.ICE by TooN GooN (iCE); released in ice9509a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kerplunk
 # SAUCE Author: TooN GooN
 # SAUCE Group: iCE
@@ -45,7 +45,4 @@ Write-Host '
 ▄[1;47m▄[0;1;40m██▀▀[0;1;47m [0;1;40m███[0m   [1;30mtg[0m [1;47m [0;1;40m███ [0;35m [0;37m▀[0;1;37m▀[0;1;37;47m▀[0;1;37;40m██[0;1;37;47m▀█[0;1;37;40m█▄[0;1;37;47m▄[0;1;37;40m█▀▀[0;35m  [0;37m▄[0;1;37;47m▄[0;1;37;40m██▀▀ [0m         [1m [0m   ▄[1m▄[0;1;47m▄[0;1;40m█▀▀▀ [0m▄[1;47m▄[0;1;40m██▀▀[0;1;47m [0;1;40m███[0m
        [1;47m [0;1;40m███[0m     [1;47m [0;1;40m███▄[0m     [1;47m [0;1;40m███[0m                        [1m [0m  [1m [0;35m    [0;1;37m    [0m      [1;47m [0;1;40m███[0m
 [1m [0m        ▀[1m▀▀[0m ▄ ▀[1m▀▀▀ [0m      [1;47m [0;1;40m███▄[0m            [1m  [0m          [1m [0m         [1m [0m        ▀[1m▀▀   [0m
-                         ▀[1m▀▀▀  [0m
-     ([1;33mkerplunk[0m)  -  run by that elite coder dude and ice senior, friar tuck
-                             ansi by toongoon[34m [0;37m([0;1;33mice[0m)
-            "so this is what happens after not drawing for 2 months"[0m'
+                         ▀[1m▀▀▀  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 15e497c8a1344e2b9960aff711cdeae0f3352d8967629f266ef5bc6ee5aa97f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-TOON.ANS by 5now8a11 (Ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shitty Cartoon Colly
 # SAUCE Author: 5now8a11
 # SAUCE Group: Ecolove
@@ -18,8 +18,8 @@ Write-Host '
 [36m░[0m   [1;37m▄▄▄[0;1;33m▄▄[0m  [1;30m░░[0m
 [1m▓[0;31m▀▓▀[0;1;37m███[0;1;33m█▀[0m [1m▄[0m  [1m▀[0m  [1m▀[0m
 [1m▀▄[0m [1;35m■[0;1;32m▓█[0;1;37m▀▄▀[0m
-[1m█▄▀▄▀▄█[0m     [1;32mHi ppl .. [0;1;35mWARNING[0m [1;36m.. The random little blocks you are about to [0m
-[1;32m▓[0;1;33m█[0;1;37m█ ▐[0;36m▓[0;1;37m▌[0m     [1mview have nothing to do [0;1;34mwith ansi [0m
+[1m█▄▀▄▀▄█[0m     [1;32m          [0;1;35m       [0m [1;36m                                             [0m
+[1;32m▓[0;1;33m█[0;1;37m█ ▐[0;36m▓[0;1;37m▌[0m     [1m                        [0;1;34m          [0m
 [1m█▀▄▀▄▀█[0m
 [1m▄▀[0m [1;35m■[0;1;37m██▄▀▄[0m
 [1m█[0;31m▄▓▄[0;1;36m██[0;1;37m██▄[0m [1m▀[0m [1;30m [0m [1m▄[0m  [1m▄[0m
@@ -27,7 +27,7 @@ Write-Host '
 
        [31m▄[0m        [37m                  [0m
 [37m [0;1;32m█[0;1;33m▄▄[0;1;31m▄[0;31m▀[0m               [37m     [0m
-[37m [0;1;31m░░░[0;1;36m▓[0m  [1;32mSordid likes my [0;1;36mtooney [0;1;35mstyle [0;1;33m8)[0m
+[37m [0;1;31m░░░[0;1;36m▓[0m  [1;32m                [0;1;36m       [0;1;35m      [0;1;33m  [0m
  [1;36m▄[0;1;31m▄▄█[0m
 
 
@@ -52,5 +52,4 @@ Write-Host '
   [36m█[0;1;30;46m░[0;36m▌[0m   [1;33m▄▀[0m [1;33m▀▄[0m     [1;30m▄[0m    [1;33m▄▀[0m [1;33m▀▄[0m   [36m▐█[0;1;30;46m▒[0m [1;34m▀[0;34m▄[0m
 [37m  [0;36m▀██▄[0;37m [0;1;33m▀[0m     [1;33m▀[0m    [1;30m▄[0m   [1;33m▀[0m       [36m▄[0;1;30;46m▄[0;1;30;40m█[0;1;30;46m▓[0;36m▄[0;34m▀█▀[0m                                         [34m▄[0m
 [37m [0;34m▄█▄[0;36m▀█[0;1;36;46m▓▓[0;36m▄▄▄[0;1;36m▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄[0;36m▄▄▄[0;1;30;46m▄[0;1;30;40m█▀[0;34m▄[0;1;30m▀█[0;1;30;46m▄[0;36m▄▄[0;37m [0;1;36m▄▄▄[0m [1;36m▄▄▄[0m [1;36m▄▄[0m                 [34m(User)[0m   [34m▀[0;37m [0;34m▀▀[0;1;34;44m▀[0m
-  [34m▀[0m              [37m [0;1;30m▄[0m            [34m▀█▀[0m
-'
+  [34m▀[0m              [37m [0;1;30m▄[0m            [34m▀█▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c92ba0d38c7fa9c4bf92baef9ddc363c552ce08f5ac778332e176ab797c4de22
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-MISSI.ANS by ize (fusion); released in fsn-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the missing link
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -34,8 +34,4 @@ Write-Host '
           [1;36m█[0;1;32m████[0;1;32;42m███[0;1;32;40m██[0;1;32;42m█[0;1;32;40m████▀▀[0m [1m▄[0;1;33m██████[0;1;33;43m▌[0;33m▌[0;31m▐[0;1;31;41m▐[0;1;31;40m██[0;1;35;40m█  [0m   [31m▄[0;1;31;41m▄[0;1;31;40m█████[0;1;35;40m▌[0m [1;35m [0m     [1;36m [0;36m▐[0;1;36;46m▐[0;1;36;40m████[0;1;32;40m█[0;1;37;40m█░░[0m
        [1;36m ░░██[0;1;32m███[0;1;32;42m█[0;1;32;40m▀▀▀▀▀▀[0;1;33;40m ▄▄▄████████[0;1;33;43m▀[0;33m▀[0;37m [0;1;31;41m [0;1;31;40m████[0m [31m▄[0;1;31m▄[0;1;31;41m▄[0;1;31;40m███████▀[0m [1;33m  [0m    [36m░░[0;1;36;46m [0;1;36;40m█████[0;1;32;40m█[0;1;37;40m▌[0m
            [1m▄[0;1;33m▄▄▄▄▄███████████[0;1;33;43m█[0;1;33;40m██[0;1;33;43m▀[0;1;33;40m▀[0;33m▀[0;37m [0;31m▄[0;1;31;41m▄[0;1;31;40m████▌[0m [1;31;41m [0;1;31;40m████▀▀▀[0m [1;36m▄[0;1;33m▄[0m [1;33m      [0;1;36m [0;36m▐[0;1;36;46m▐[0;1;36;40m████[0;1;32;40m██[0m
-[1m    ▀[0;1;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀[0;37m    [0;31m▀[0;1;31m▀▀▀▀▀▀▀[0m   [1;31m   [0m               [36m▀[0;1;36m▀▀▀▀▀[0;1;37m▀[0m
-                                        [1;31m [0m
-          yeah.. total out of control .. :).. no regrets bwhahaa.. ;)[0m
-
-'
+[1m    ▀[0;1;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀[0;37m    [0;31m▀[0;1;31m▀▀▀▀▀▀▀[0m   [1;31m   [0m               [36m▀[0;1;36m▀▀▀▀▀[0;1;37m▀[0m'

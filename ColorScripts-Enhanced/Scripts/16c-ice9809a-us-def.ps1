@@ -5,7 +5,7 @@
 # Source SHA-256: 6c2cdb9056630b661bdf6473d3b41b976a872f5fae22bd1af82c8c8e75830fe5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DEF.ICE by Taintedx + Scientifik (ice9809a); released in ice9809a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Defsquad
 # SAUCE Author: DefSquad
 # SAUCE Date: 19980904
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mTime to educate the youth, because if we won''t then who will?[0m   [1;30m░░▄▄[0m
+[1m                                                             [0m   [1;30m░░▄▄[0m
 [1mDef Squad Style Baby......[0m             ▄[1;30m▓▓▀▀[0m  [1;30m▄[0m▄▄[1;30m▀░░[0m          [1;30m▄[0m  [1;30m▒▒▀▀▀▄[0m
 [1mTainted X and Scientifik[0m             [1;30m▄▀▀[0m  [1;30m▄[0m▄[1;47m▄░░[0m▀           [1;30m▄[0m [1;30m▀[0m [1;30m░░[0m  [1;30m▄[0m▄▄▄[1;30m▄[0m  [1;30m▄[0m
                                    [1;30m▄▀[0m [1;30m▄[0m▄▀[1;47m░[0;1;33;40m▓[0;1;37;47m█▓▓[0m▌         [1;30m▄[0m [1;30m▀▄[0m▄[1m▄▄[0;1;47m▄█▀▀[0m█[1;47m▀[0;1;30;47m░[0;1;30;40m▀[0m

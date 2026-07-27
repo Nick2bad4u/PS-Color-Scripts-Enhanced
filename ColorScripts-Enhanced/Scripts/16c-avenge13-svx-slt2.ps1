@@ -5,7 +5,7 @@
 # Source SHA-256: 6997281cf38bc7e42492e7319666b732449639df77bde6e50d2519706ee60143
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SVX-SLT2.ANS by SalvationX (A v e n g e); released in avenge13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Salt Matrix
 # SAUCE Author: SalvationX
 # SAUCE Group: A v e n g e
@@ -40,9 +40,4 @@ Write-Host '
 [1;37;47m▓▒░░[0m█▄         [34m    [0;37m [0;1;37m [0;33m░▀[0;1;31;43m▀▓[0;1;31;47m▓[0;1;31;40m▄▄[0;33m▄[0;37m  [0;33m▀▀[0;30;43m░[0;33;40m▓[0;1;31;43m░░[0;33m▓[0;30;43m▀■░[0;33;40m▓▀▀[0;1;37;40m  [0;31m▀▀[0;1;31;41m░░░[0m [1;31;41m░░░[0;31m▀▀[0;1;31;41m░░░[0;31m▐[0;1;31;41m░░░[0m [31m▒[0;1;31;41m░░░[0m [1;31;41m░░░[0m  [1;31;41m░░░[0m
 [1m█[0;1;47m▓▒▒░░░[0m█▄▄       [34m░[0;30;44m▓[0;37;40m   [0;1;37;40m  [0;33m▀[0;1;31;43m▀▓▓▒▒░[0;33m▄█[0;1;33;43m░░░[0;30;43m░[0;33;40m▓▀▀░[0;37;40m  [0;1;31;41m▒▒▒[0m  [1;31;41m▒▒▒[0m [1;31;41m▒▒▒[0m  [1;31;41m▒▒[0;31m▌▐[0;1;31;41m▒▒▒[0m  [1;31;41m▒▒▒[0m [1;31;41m▒▒▒[0m  [1;31;41m▒▒▒[0m
 [1m██[0;1;47m▓▓▒▒▒░░░░░[0m▄▄[1;30m▄[0m             [1;30m▀[0;33m▀▀▀▀▀▀▀[0;37m       [0;1;31;41m▓▓▓▓▓▓▓▓[0m [1;31;41m▓▓▓▓▓▓▓▓[0m [1;31;41m▓▓▓▓▓▓▓▓[0m [1;31;41m▓▓▓▓▓▓▓▓[0m
-[1m-----[0m
-
-[1mSeems there was some confusion last month, this was meant to be a matrix for[0m
-[1msalt.. someone released the wrong version.  Sorry Dissonance.[0m
-
-[1mSalvationX[0m'
+[1m-----[0m'

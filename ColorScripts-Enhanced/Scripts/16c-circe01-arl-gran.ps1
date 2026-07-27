@@ -5,12 +5,12 @@
 # Source SHA-256: 95c1c1ed694b532627f6dedc8398315a6e0b224108fd72fdbace70c86e64b09f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-GRAN.ANS by Arlequin (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
-                       [31m       ___ [0;1;31m,┌┌┌┌[0;31m┌[0m       [1;30m       [0;31m [0;1;30mArlequin.Addiction[0m
+                       [31m           [0;1;31m ┌┌┌┌[0;31m┌[0m       [1;30m       [0;31m [0;1;30m                  [0m
        [31m_.,▬┌gggg┐▬,.    ┌[0;1;31m┌**[0;31m``"$[0;1;31m$$$[0;31m$  [0m            [31m___[0m     [37m               [0;31m     [0m
     [31m ╓d[0;1;31;41m$$$[0;1;31;40m$$$[0;31mY╜╜╜ⁿⁿ$$@%@[0;1;31m$[0;31mT [0m    [31m╠[0;1;31m$$[0;1;31;41m$$[0;31m@╗**g╗╗▬,.,┌■"` `"*■[0;1;31m┐[0;31m▬,. [0m         [31m `[0m    [31m : [0m
 [31m    l$[0;1;31m$$$$$[0;31mF` [0m     [31m╠[0;1;31m╠$ⁿⁿ[0;31mⁿⁿ     !F╝ⁿ``    `"╘Y[0;1;31m$$[0;31m$[0m       [31m![0;1;31m$$$[0;31m$╦╗  ╔╦gg╬╬╬[0m     [31m l [0m
@@ -27,6 +27,4 @@ Write-Host '
 [37m  [0;37;41m$$[0;31;47m$$$[0;37;40m$$![0m          [37;40m:$[0;37;41m$$$[0;37;40m╠l[0m   [37;40m   :$$$$$![0m      [37;40m![0m         [37;40ml[0;37;41m$$[0;37;40m┐                [0;37;41m$$[0;37;40m [0m
 [37;40m [0;31;47m╠╠╠[0;37;40m╠╝╝Y$b,_         $$$ⁿⁿⁿⁿ ⁿ    $$$[0;37;41m$$$[0m      [37;40ml[0m         [37;40m|$$$b,_             $[0;37;41m$[0;37;40m [0m
         [37;40m    `` - ∙ ,,$[0;31;47m$$[0;37;40mgggg,     `ⁿ╚╚╚*[0m      [37;40m:[0m         [37;40m:$[0;37;41m$$[0;37;40m╠╠╠@%m┐,._      ╬╬ [0m
-                    [37;40m ÑÑ$√√`  ` ...  [0m                    [37;40m $$ⁿⁿⁿⁿⁿⁿⁿ[0m          [37;40m`` [0m
-   [31;40mgr[0;1;31;40ma[0;31mn[0;1;31md  [0;31mil[0;1;31ml[0;31mu[0;1;31msion[0m            [31m [0m    [31m`` [0m                  [37m $$mmm [0m
-                                                       [37m [0m'
+                    [37;40m ÑÑ$√√`  ` ...  [0m                    [37;40m $$ⁿⁿⁿⁿⁿⁿⁿ[0m          [37;40m`` [0m'

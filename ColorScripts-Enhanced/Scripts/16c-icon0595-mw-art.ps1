@@ -5,7 +5,7 @@
 # Source SHA-256: 6357631a583d561c6640a723c01482c3715f9255c8a92e7ce11a0880b749276e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-ART.ANS by Maeve-Wolf (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Artifacts
 # SAUCE Author: Maeve-Wolf
 # SAUCE Group: iCON
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mGreets: Terminally Nothing ■ [0;1;34m▄[0m             [1;30m▄   [0;1;34m▄[0m
+[1;30m                           ■ [0;1;34m▄[0m             [1;30m▄   [0;1;34m▄[0m
 [1;30mCybrDemon ■ Cardiac    [0;1;34m▄▄[0;1;34;44m▓[0;1;34;40m▀[0m            [1;36;40m▄   [0;1;30;40m▓[0m      [1;34;40m▀[0;1;34;44m▓[0;1;34;40m▄▄[0m
 [1;30;40mArrest ■ Xten ■ Sinned[0;1;34;44m▓▒▓[0m    [1;36;46m▓[0;1;36;40m█[0;1;36;47m█[0;1;36;40m▀█[0m     [1;36;40m██[0;1;36;47m▓[0m [1;30;40m▒ [0;1;36;40m██▄    [0;1;34;44m▓▒▓[0m
 [1;30;40mSoul ■ Squidgalator   [0;1;34;44m▒▓▓[0m    [1;36;46m█[0;1;36;47m█░[0m [1;36;40m█▀[0;1;36;47m░[0;1;36;40m█▄ [0;1;36;46m▓[0;1;36;40m█[0;1;36;47m▒[0m [1;30;40m░ [0;1;36;47m▓[0;1;36;40m█[0;1;36;46m█[0m    [1;34;44m▓▓▒[0m

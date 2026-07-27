@@ -5,7 +5,7 @@
 # Source SHA-256: 574503a1e7b80ad2764783636d7228806a3342d60bd78687561dc64ba3eab61e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OS-DD.ANS by Ono-Sendai (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -45,12 +45,12 @@ Write-Host '
             [1;36m█  ▄▀  █[0m      [1;36m█[0m     [1;36m█ █[0m      [1;36m█  ▀▄ █    █[0m       [1;36m█    █    █[0m
             [1;36m█ ▀    █ ▄▄▄▄ █[0m     [1;36m█ █ ▄▄▄▄ █[0m     [1;36m█    █    ▄▄▄▄▄▄▄ █    █[0m
                       [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄
-                      [1m█[0;31;47m         [0;34;47m1[0;1;36;47m(6o9)PRi-VATE         [0;1;30m█[0m
-                      [1m█[0;31;47m         [0;34;47m3[0;1;36;47m NODES ONLiNE         [0;1;30m█[0m
-                      [1m█[0;31;47m   [0;34;47m2 + Gi[0;1;36;47mGS OF STORAGE ONLiNE   [0;1;30m█[0m
-                      [1m█[0;34;47m      RUNNiNG PCBOARD 15.0      [0;1;30m█[0m
-                      [1m█[0;34;47m       iRiDiUM COURiER HQ     [0;1;36;47m  [0;1;30m█[0m
-                      [1m█[0;34;47m          iRiDiUM SiTE          [0;1;30m█[0m
-                      [1m█[0;34;47m           NO LAMERS!           [0;1;30m█[0m
-                      [1m█[0;34;47m ANSi BY ONO-SENDAi [ATOMiC S[0;1;36;47mS] [0;1;30m█[0m
+                      [1m█[0;31;47m         [0;34;47m [0;1;36;47m                      [0;1;30m█[0m
+                      [1m█[0;31;47m         [0;34;47m [0;1;36;47m                      [0;1;30m█[0m
+                      [1m█[0;31;47m   [0;34;47m      [0;1;36;47m                       [0;1;30m█[0m
+                      [1m█[0;34;47m                                [0;1;30m█[0m
+                      [1m█[0;34;47m                              [0;1;36;47m  [0;1;30m█[0m
+                      [1m█[0;34;47m                                [0;1;30m█[0m
+                      [1m█[0;34;47m                                [0;1;30m█[0m
+                      [1m█[0;34;47m                             [0;1;36;47m   [0;1;30m█[0m
                       ▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

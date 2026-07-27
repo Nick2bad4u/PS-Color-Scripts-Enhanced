@@ -5,7 +5,7 @@
 # Source SHA-256: ea314f95d89b91b6f0dfeb1cb3caa91a904829886f4f650c3915618883df07d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-ODE.ANS by tainted (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ode to ansi
 # SAUCE Author: tainted
 # SAUCE Group: fire
@@ -52,6 +52,6 @@ Write-Host '
                     [1;30m▀▀[0m
 
 
-        [1mtainted[0;36m[[0;1;36mfire[0;36m] - still paintin'' [0;1;37mansi[0;36m in [0;37mtwo thousand twenty three[0m
+        [1m       [0;36m [0;1;36m    [0;36m                   [0;1;37m    [0;36m    [0;37m                         [0m
 
 [1;30m░[0m'

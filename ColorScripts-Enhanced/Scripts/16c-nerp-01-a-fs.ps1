@@ -5,7 +5,7 @@
 # Source SHA-256: be151d666f720784b578a07a16d30b1922aed500d20664d83a2b1e4394c33bf0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: A-FS.ANS by alecs (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: freeside!
 # SAUCE Author: alecs
 # SAUCE Group: nerp
@@ -37,12 +37,6 @@ Write-Host '
 [1;31;41m█▄█[0;31m▌▄▄   ▀[0;1;31m▀[0;31m █▄▄▐█[0;1;31;41m░[0;31m▀▀████▌[0;1;31;41m▐▌▀█[0;1;31;47m▓░ ▄[0;1;31;41m▀[0;31m▀▀  [0;37m [0;31m▄[0;31;46m█▓░[0;1;36;46m▐▌░[0;31;46m░░[0;36;40m▌▐▄▄▄█[0;34;46m▄[0;36;40m▀▀[0;34;40m▀[0;36;40m   ▄█[0;34;46m▄[0;34;40m▀[0;36;40m ▄[0;1;36;46m▄░░▐▌[0;36m██[0;1;36;46m░▓██▌[0m
 [1;31;41m▓[0;1;31;47m▓[0;1;31;41m█▄██▄[0;31m█▓░  █[0;1;31;41m░[0;31m█▐▀██▄█[0;1;31;41m░░[0;31m██[0;1;31;41m▓[0;31m█▀[0;1;31m▀▀[0;1;31;41m▀█▄[0;31m▄▄█[0;31;46m▓▓[0;31;40m█[0;31;46m█▓▒░[0;36;40m█[0;1;36;46m▀▓[0;36;44m▓▓▀[0;36;40m▀▀[0;34;40m▌[0;36;40m   ▄▄▄██[0;34;46m▄[0;36;40m▀[0;34;40m▀[0;36;40m ▄[0;1;36;46m▄[0;1;36;47m▓[0;1;36;46m█▓▓█[0;36m████[0;1;36;46m▀▀▌▌[0m
 [1;31;41m░ ▀[0;1;31;47m▓░[0;1;31;41m█▄[0;31m▄ ▄▄▐████▄ ▀▀▀████[0;1;31;41m░[0;31m██▀   ▀██████[0;31;46m█▓[0;36;40m▀▀▀[0;34;40m▀[0;36;40m    ▄▄▄▐█[0;34;46m▄[0;36;40m▀▀[0;34;40m▀[0;36;40m   ▄[0;1;36;40m▄[0;1;36;46m▄█[0;1;36;47m▄░▓[0;1;36;46m▀▀[0;36m███[0;1;36;46m▀[0;36m███[0;1;36;46m▌[0;36m█[0m
-[31mthe idea with this fucking eye[0;37m [0;31mcomes from flame, who roks, of course.[0m
+[31m                              [0;37m [0;31m                                      [0m
 
-[36m↓ word to..[0;37m [0;36m↓[0m
-[1;36mabsent[0;36m [0;1;36m spinsister[0;36m,  [0;1;36m assign[0;36m,[0;1;36m  avenger[0;36m,[0;37m [0;1;36mbaphomet[0;36m,[0;1;36m [0;36m [0;1;36mblack weasel[0;36m, [0;1;36m blade[0;36m, [0;1;36mblaze[0;36m,[0m
-[1;36mbizzarro[0;36m,[0;1;36mbuster[0;36m,[0;1;36m catharsis[0;36m,[0;1;36mcaynan[0;36m,[0;1;36mcruz[0;36m,[0;37m [0;1;36mcyberd[0;36m,[0;1;36mcirion[0;36m,[0;1;36mdrynwhyl[0;36m,[0;1;36mdv8[0;36m,[0;1;36m eerie[0;36m,[0;1;36meric[0;36m,[0m
-[1;36mfaxe[0;36m,[0;1;36m honk[0;36m, [0;1;36mjae[0;36m,[0;1;36mjey[0;36m,[0;1;36mkyp[0;36m,[0;37m [0;1;36mleonardo[0;36m,[0;37m [0;1;36mlord[0m [1;36mchaos[0;36m,[0;1;36mlure[0;36m,[0;1;36mmightymouse[0;36m,[0;1;36mmilkman[0;36m,[0;1;36mmr4tune[0;36m,[0m
-[1;36mnail[0;36m,[0;1;36mnapalm[0;36m,[0;1;36mnemo[0;36m,[0;1;36mnoize[0;36m,[0;1;36moutraider[0;36m,[0;1;36mpandur[0;36m,[0;1;36mphonyeye[0;36m,[0;1;36m poti[0;36m,[0;37m [0;1;36mrex[0;36m,[0;1;36msamurai[0;36m,[0;1;36mschtroumpf[0;36m,[0m
-[1;36mscope,[0m [1;36mshadow[0;36m,[0;1;36mshaft[0;36m, [0;1;36mshaitan[0;36m,[0;1;36m surpreme[0;36m,[0;37m [0;1;36mthe knight[0;36m,[0;1;36mthe unconsciousness[0;36m,[0;1;36mtricycle[0m
-[1;36mtoot[0;36m,[0;1;36m vade79[0;36m,[0;1;36m warhawk[0;36m,[0;37m [0;1;36mville[0m [36m&[0;37m [0;1;36mwiktor..[0m'
+[36m↓          [0;37m [0;36m↓[0m'

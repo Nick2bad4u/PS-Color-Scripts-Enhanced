@@ -5,7 +5,7 @@
 # Source SHA-256: 96d02b411976e2ecbf0d5121f01ba2075d6d04abb5e95d63bc0c25ab133541ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HEN-DEM1.ANS by hennifer (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: demesne interface
 # SAUCE Author: hennifer
 # SAUCE Group: lazarus
@@ -38,5 +38,4 @@ Write-Host '
 [1;37;41m▓[0;1;37;40m████[0;1;33;40m██▓▒[0m [31m▄█████[0;1;31m▓[0;31m ▓████████████[0m    [1;37mstuff here[0m    [31m████  [0;36m███[0;1;36;46m▓▓[0m  [31m█▓     ▄▄████[0;1;31;41m▒▒███[0m
 [1;37;40m███[0;1;33;40m██[0;1;37;40m▓▓[0;31m▒▒█████[0;1;31;41m▒[0;1;31;40m▓[0;31m  ▓████████████[0m    [1;37mstuff here[0m    [31m████  [0;37m       [0;31m█   ▄████[0;1;31;41m░░[0;31m██[0;1;31;41m▓▓███[0m
 [1;37;40m███[0;1;37;41m▓▓░░[0;31m██████[0;1;31;41m▒[0;1;31;40m▓[0;31m  ░█████████[0;36;41m░░[0;31;40m██[0m                  [31;40m██[0;36;41m░░[0;31;40m██████████  ▐███████[0;1;31;41m░░█████[0m
-[1;37;40m█[0;1;37;41m█▒▒[0;31m▓▓[0;1;37;41m     [0;1;31;41m░▒[0;1;31;40m▓[0;31m   ▓[0;1;37;41m   [0;31m██[0;36;41m░░[0;1;37;41m    [0;31;46m▓▓[0;36;40m░░[0m            [36;40m░░[0;37;40m [0;31;40m [0;31;46m▓▓[0;31;40m████[0;36;41m░░[0;31;46m█[0;31;40m████████████[0;1;31;41m░░▓▓████[0;1;31;40m▓▓[0m
-'
+[1;37;40m█[0;1;37;41m█▒▒[0;31m▓▓[0;1;37;41m     [0;1;31;41m░▒[0;1;31;40m▓[0;31m   ▓[0;1;37;41m   [0;31m██[0;36;41m░░[0;1;37;41m    [0;31;46m▓▓[0;36;40m░░[0m            [36;40m░░[0;37;40m [0;31;40m [0;31;46m▓▓[0;31;40m████[0;36;41m░░[0;31;46m█[0;31;40m████████████[0;1;31;41m░░▓▓████[0;1;31;40m▓▓[0m'

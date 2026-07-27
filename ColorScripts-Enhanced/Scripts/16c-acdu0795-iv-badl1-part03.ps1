@@ -5,7 +5,7 @@
 # Source SHA-256: 69e434f609cbb831227921496d691f16b2fe318db58730a3c16408175814339b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IV-BADL1.ANS by Inner Vision (ACiD Productions); released in acdu0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The BadLands
 # SAUCE Author: Inner Vision
 # SAUCE Group: ACiD Productions
@@ -56,12 +56,12 @@ Write-Host '
                 [1m▄[0;1;47m█▄▄[0m█[1;47m▄[0m     [1m▄[0;1;47m█▄▄░▄[0m [1m▄█[0;1;47m▄▄░▄[0m   [1m ▄[0;1;47m█▄▄░▄[0m     [1m▄[0;1;47m█▄▄[0m█[1;47m▄[0m      [1m▄[0;1;47m█▄▄░▄[0m
 
 
-                              [1;30mSizzleop: Soultaker[0m
+                              [1;30m                   [0m
 [1;30m     [0m
 [1;30m-─--───--─[0m─[1;30m-─[0m──[1;30m-[0m─[1;30m-[0m─[1;30m─-[0m───[1m──[0m─[1m──[0m───[1m───[0m──[1m──[0m─[1m──────[0m──[1m─[0;1;30m─[0;1;37m───[0m─[1m─[0m─[1m─[0m──[1;30m-[0m─[1;30m-──[0m─[1;30m-─[0m─[1;30m─--─-────---[0m
-[1;37mI[0mnner Vision here with another ansi for The Soultaker of AC[1mi[0mD prodcutions...
-[1mT[0mhis is my first ansi under the name of ac[1mi[0md. Hope yah likes! ;>      [1m- [0miv[1m<[0mACiD[1m>[0m
-[1mGreets[0m: Azrael, Animal, Tek, Malebolgia, Schizosynth, Sinned Soul, Silver Rat,
-RaD Man, all of the ACiD Crew, Maestro, Smooth, Beaner, Valgamon, All of the
-Spastic Crew, ts, tyme and pale.      <ps: View it in VGA if possible>
+[1;37m [0m                                                          [1m [0m                
+[1m [0m                                         [1m [0m                           [1m  [0m  [1m [0m    [1m [0m
+[1m      [0m                                                                        
+                                                                            
+                                                                      
 [1;30m-─--───--─[0m─[1;30m-─[0m──[1;30m-[0m─[1;30m-[0m─[1;30m─-[0m───[1m──[0m─[1m──[0m───[1m───[0m──[1m──[0m─[1m──────[0m──[1m─[0;1;30m─[0;1;37m───[0m─[1m─[0m─[1m─[0m──[1;30m-[0m─[1;30m-──[0m─[1;30m-─[0m─[1;30m─--─-────---[0m'

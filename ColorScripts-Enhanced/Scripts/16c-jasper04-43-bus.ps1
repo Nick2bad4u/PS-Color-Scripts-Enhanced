@@ -5,7 +5,7 @@
 # Source SHA-256: c9e31f3141a8e162140b7ec73e49272913f8eee265ab6555b6d2d6ffb3c84a05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 43-BUS.ANS by aesthetic (the jasper project); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: busgo ?
 # SAUCE Author: aesthetic
 # SAUCE Group: the jasper project
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-   [30moh no, black on black is back. [0m
+   [30m                               [0m
          [31m  [0m                   [31m  [0m                              [31m ▄▄▄▄▄ [0m
 [37m░░  [0;31m░▓██████▌ ▐█████████▌▐██████████████████▀███▄  ▄▄█████  ███▀▀███[0;30;41m (a)[0;31;40m▄   ▄  [0m
 [37;40m▓▓▓[0;1;30;40m  [0;31m▐█████▀  ████▄██▓▓█ ██▀█[0;1;30;41m ░░[0;31m███▀▀[0m      [31m ▄▄███▌▐████████  ██████▀[0;30;41m  [0;31;40m██▀  ███░[0m

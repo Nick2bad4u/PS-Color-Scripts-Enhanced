@@ -5,7 +5,7 @@
 # Source SHA-256: d2aff6b727221cc2a19f0a3984a0dbc24499c706efb69996ec3bacb64d535d8b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TIN-OPUS.ANS by tin man (UNiT Productions); released in unit01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Opus
 # SAUCE Author: tin man
 # SAUCE Group: UNiT Productions
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;34m┌──────────────────────────┬──────────────────────────────────────────────────┐[0m
-[1;34m│[0;36m [0;1;32;44m command:      [0;1;34;44m([0;1;37;44mQ=Quit[0;1;34;44m) [0m [1;34m│[0m                                                  [1;34m│[0m
+[1;34m│[0;36m [0;1;32;44m               [0;1;34;44m [0;1;37;44m      [0;1;34;44m  [0m [1;34m│[0m                                                  [1;34m│[0m
 [1;34m└──────────────────────────┴──────────────────────────────────────────────────┘[0m
 [36m [0;32m[[0;1;32mA[0;32m][0;36m [0;37mANSI Graphics:  [0m          [36m▀▀█████[0;35;46m▄[0;36;40m████[0;35;46m▄[0;36;40m████[0;35;46m▄[0;36;40m████[0;33;46m  [0;36;40m████[0;1;36;46m░[0;1;37;46m ▄▄█[0;1;37;40m█▄[0;36m  ▀████▀█[0;36;45m▀▀[0;36;40m█▌[0m
 [1;37;40m [0;32m[[0;1;32mB[0;32m][0;36m [0;37mPassword:[0m      [37m [0m             [36m▀▀▀█████[0;35;46m█[0;1;35;40m█[0;35;46m█[0;36;40m████[0;33;46m▄▄▄▄[0;33;40m██[0;33;46m▄▄▄▄[0;1;37;46m▄[0;1;37;40m▀██████[0m   [36m▀██[0;36;45m▒[0;35;40m█[0;1;35;45m██ [0;36m▌[0m

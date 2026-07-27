@@ -5,7 +5,7 @@
 # Source SHA-256: 16a4d3400531c0650367e778c72b38827bcb2fafdec993d3dfee8ffabbe50f08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 11_WWWDZ.ANS by Dieznyik (k-sztuka); released in k-sztuka and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19990415
 # SAUCE Dimensions: 80x70
 # Lines: 48-70
@@ -32,5 +32,4 @@ Write-Host '
          [30;41m▓░[0;31;40m█▄[0;37;40m [0;31;40m [0;33;40m▀[0;1;33;43m▀▓░[0;30;43m░▓[0;37;40m [0;31;40m▐██▒[0;37;40m [0;33;40m [0;1;33;43m▓[0;30;43m░[0;31;40m▄░[0;33;40m▐[0;1;33;43m░[0;33m▀ [0;31m▄███[0;30;41m░[0;31;40m░[0;33;40m ▄[0;1;33;43m░▓█▀[0;30;43m░[0;33;40m░[0;37;40m  [0;31;40m▐██▌[0;37;40m [0;33;40m░[0;30;43m░[0;33;40m█[0;1;33;43m░▓▀[0;43m░[0;33;40m▀  [0;30;41m░[0;31;40m▓[0m
           [31;40m░[0;30;41m░[0;31;40m▌[0;37;40m ▐[0;1;33;47m▓░[0m▄[31m▄▄[0;33m [0;37m [0;31m░[0;30;41m░[0;31;40m▓░[0;37;40m [0;33;40m▐[0;1;33;43m░[0;33m [0;31m▀[0;33m ▀[0;30;43m▓[0;37;40m▐▄[0;33;40m [0;31;40m▀[0;30;41m░[0;31;40m▓░[0;37;40m [0;33;40m▐▀▀  [0;30;41m▓[0;31;40m▄▄[0;37;40m [0;31;40m░[0;30;41m░[0;31;40m▓▓[0;37;40m  ▄[0;33;40m ▀▀[0;1;33;43m░[0;33m▀ [0;31m▄▌[0;33m [0;31m░[0;30;41m▓[0m
            [31;40m░[0;33;40m [0;37;40m░▓[0;1;33;47m░[0m▄[41m▒[0;31;40m▓[0;37;40m [0;31;40m▀[0;33;40m  [0;31;40m░[0;30;41m▓[0;33;40m  ▀▀[0;30;43m░[0;33;40m▌▄▌  [0;37;40m▀░[0;33;40m [0;31;40m░[0;30;41m▓[0m    [37;40m▄[0;1;33;47m░[0m▄[33m [0;30;41m░[0;31;40m▀[0;33;40m  [0;31;40m░░[0;30;41m▓[0;33;40m [0;37;40m ▐[0;1;33;43m▒[0;33m█▄ [0;37m░[0;31m▀[0;33m [0;31m    [0m
-               [31m [0;33m▀[0;31m▀[0;33m [0;31m░[0;30;41m▓[0m          [33;40m▀[0m             [37;40m▀▀[0m          [37;40m [0m    [31;40m [0m
-               [1;37;40mh[0;1;33;40mo[0;33mm[0;31me[0m        [1;37mex[0;1;33mhi[0;33mbi[0;31mts[0m       [1;37mre[0;1;33mso[0;33murc[0;31mes[0m        [1;37mm[0;1;33ma[0;33mi[0;31ml[0m'
+               [31m [0;33m▀[0;31m▀[0;33m [0;31m░[0;30;41m▓[0m          [33;40m▀[0m             [37;40m▀▀[0m          [37;40m [0m    [31;40m [0m'

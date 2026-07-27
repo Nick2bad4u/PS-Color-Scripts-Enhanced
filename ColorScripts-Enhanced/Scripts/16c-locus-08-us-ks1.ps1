@@ -5,7 +5,7 @@
 # Source SHA-256: 45acd2cbe04201d12e8e9903eb89b2831a54c0db7ceae9f6176818122965ad8c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-KS1.ANS by Avenging Angel + Somberlain (locus-08); released in locus-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -34,6 +34,4 @@ Write-Host '
    [34;40m▀[0;1;36;40m▒▓▓▒[0;34;46m    [0;1;36;46m ▄[0;34;46m▀[0;36;40m▄[0;34;40m▄ [0;1;30;40m   ▀▀▀    [0;1;36;40m▄[0;36m▄[0;1;30m  ▀[0m▒▒▒▒[1;30m██████▀▀[0m      ░[1;30m▌[0;34m▀[0;37m [0;1;30m▐▌[0m [34m [0;1;30m▀[0;1;36;46m▄[0;1;36;40m▄[0;36m▄[0m    [1;30m▄[0;36m▄[0;1;36;46m▄▄▄▄[0;36;44m█[0;1;36;46m▀▀[0;36;44m█[0;34;40m [0m
 [37;40m  [0;34;46m▀[0;1;36;46m▄█▓▓[0;1;36;40m▓▒[0;1;36;46m  [0;34;46m  [0;1;36;46m      [0;34;46m▀[0;36;40m▄[0;1;36;40m▄▄▄▄[0;1;36;46m▄[0;1;37;46m▓▓██[0;1;36;46m▄[0;36m▄[0;1;30m  [0m  [1;30m▀▀▀▀[0m    [36m▄▄[0;1;36;46m▄▄▄[0;36m▄[0;37m  [0;1;30m▀[0m [1;30m▄▀[0m [34m [0;36m▄[0;1;36;46m▄██████████████[0;36;44m███[0;36;40m▄[0;36;44m▄█[0m
 [37;40m  [0;1;36;46m ████▓[0;34;46m▄[0;36;40m▀[0;34;46m▄[0;1;36;40m▒▒▒▒[0;1;36;46m  [0;34;46m▄[0;36;40m▀[0;1;30;46m▄[0;1;36;46m▀[0;1;36;40m█[0;1;36;46m██[0;1;36;40m█[0;1;36;46m████████[0;1;36;40m▓▓▒░ [0;34m   [0;36m█[0;1;36;46m░░░█[0;1;36;40m█[0;1;37;46m██[0;1;36;46m█[0;36m█[0m   [1;36m░▒▓[0;1;36;46m▓███▀[0;1;36;40m▀[0;1;36;46m▀▄███▄▀▀▀▀[0;36;44m██[0;1;36;46m▄[0;36;44m█▀[0;36;40m▀▀[0m
-[37;40m  [0;34;40m▀[0;36;40m▀[0;1;36;40m▀▀[0;36m▀[0;34m▀ [0;37m   [0;34m▀[0;36m▀▀▀[0;34m▀[0;37m    [0;1;30m▀[0;36m▀[0;1;36m▀▀[0;36m▀[0;1;36m▀▀▀[0;36m▀[0;37m            [0;36m▀▀▀▀[0;1;36m▀▀▀[0;36m▀[0m        [34m      [0;1;30m▀[0;1;36m▀▀▀[0;36m▀[0m   [34m▀[0;36m▀▀▀[0;34m▀[0m
-[37moriginal outline [0;1;37msomberlain of glue[0m
-mass reshaping, shading, background [1mthe avenging angel of the used coalition[0m'
+[37;40m  [0;34;40m▀[0;36;40m▀[0;1;36;40m▀▀[0;36m▀[0;34m▀ [0;37m   [0;34m▀[0;36m▀▀▀[0;34m▀[0;37m    [0;1;30m▀[0;36m▀[0;1;36m▀▀[0;36m▀[0;1;36m▀▀▀[0;36m▀[0;37m            [0;36m▀▀▀▀[0;1;36m▀▀▀[0;36m▀[0m        [34m      [0;1;30m▀[0;1;36m▀▀▀[0;36m▀[0m   [34m▀[0;36m▀▀▀[0;34m▀[0m'

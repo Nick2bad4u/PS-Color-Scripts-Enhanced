@@ -5,7 +5,7 @@
 # Source SHA-256: 4aaa5204d356d257d7334bd1b54f073e9e088a7f9572fa0d8cecfb8638dfdab3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K-NOSENS.ICE by kyp (ice); released in ice9801a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: this ansi makes no sense
 # SAUCE Author: kyp
 # SAUCE Group: ice
@@ -42,7 +42,7 @@ Write-Host '
 
 [1;33mi n t e r l u d e[0m    [33mr e s p e c t s[0m                                  [1;30m  [0;31m▄[0;1;30m     [0m
                                                                       [1;31m▄▄[0;1;31;41m░[0;31m▌█▄[0;1;30m  [0m
-[31mtoday: groups that formed my art scene presence              [0;1;30m░░[0m       [1;31m▀▐[0;1;31;47m▓[0;31m▌[0;1;31;41m░[0;31m▄[0;37m [0;1;30m [0m
+[31m                                                             [0;1;30m░░[0m       [1;31m▀▐[0;1;31;47m▓[0;31m▌[0;1;31;41m░[0;31m▄[0;37m [0;1;30m [0m
                                                             [1;30m▐▓▒▒   [0;33m▄██[0;1;30;43m▀[0;1;30;40m▄[0m  [1;31;41m▒░[0m [31m▌[0m
     [33ma c i d                [0m                                 [37m [0;1;30m█▓▓[0;33m▄▄▄▌▀▀██[0;1;30;43m▀[0;1;30;40m▄[0;1;31;47m▓[0;1;31;41m▒[0;31m▌▓[0m
      [33ma p a t h y        [0m                                    [1;30m  ▀▀[0;33m▀[0;37;43m░░[0;33;40m██▀▀▀[0;37;43m░░[0;1;31;47m▓[0;1;31;41m▓[0;31m▄[0;37m [0m
@@ -52,5 +52,4 @@ Write-Host '
          [33mi c e                [0m                                   [37m [0;33m█[0;1;30;43m▀[0;33m▄[0;1;30m▄[0;33m▐[0;1;30;43m▐[0;1;30;40m▌[0;33m▄███[0;1;30m█[0m
           [33ml e g e n d  [0m                                          [33m▐███[0;1;30m█[0;33m █[0;1;30;43m▀[0;33m▄▄█[0;1;30m█[0;33m [0m
 [31m..[0m         [33mm e a n   s c h e m e[0m                                 [37;43m▓▓░[0;33;40m█[0;1;30;43m▀[0;1;30;40m▄[0;33m▀██[0;1;30;43m▄[0;1;30;40m▀[0;33m▄[0;1;30m█[0m
-[31m::. [0m        [33mt w i l i g h t[0m                                      [37m░░[0;33m▀▀▀▀[0;1;30m▀[0;33m   ▀▀[0;1;30m▀[0m
-[31mii:..[0m                                   [31m                           kyp@ice.org[0m'
+[31m::. [0m        [33mt w i l i g h t[0m                                      [37m░░[0;33m▀▀▀▀[0;1;30m▀[0;33m   ▀▀[0;1;30m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8cdbe87f54d5ba6599e95f850420a362e76f8075e00d1b8b023e65a8f3329b01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SCUM.ANS by Tek (rca-9609); released in rca-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -28,5 +28,4 @@ Write-Host '
         [33m$[0;31m;[0;33m:[0;31m;%    $;[0;33m:[0;31m;[0;33m% $[0;31m;[0;33m:[0;31m;%    $;[0;33m:[0;31m;[0;33m% $[0;31m;[0;33m:[0;31m;%    $;[0;33m:[0;31m;[0;33m% $[0;31m;[0;33m:[0;31m;% [0;33m$$ [0;31m$;[0;33m:[0;31m;[0;33m%[0m
         [1;30m$[0;31m;/[0;33m.$    [0;31m$;[0;1;30m/[0;33m.[0;31m$ $;/[0;33m.$    [0;31m$;/[0;1;30m.[0;31m$ [0;1;30m$[0;31m;/[0;33m.$    [0;31m$;/[0;33m.[0;31m$ $;/[0;33m.$ $[0;31m$ $;/[0;33m.[0;1;30m$[0m
         [1;30m$[0;31m:::$    [0;33m$[0;1;30m:[0;31m::[0;1;30m$ $[0;31m:::$    [0;33m$[0;31m::[0;1;30m:[0;31m$ $:::$    [0;33m$[0;1;30m:[0;31m::$ $[0;1;30m:[0;31m:[0;1;30m:[0;31m$ [0;33m$$ $[0;1;30m::[0;31m:$[0m
-        [31m`¢[0;1;30m$[0;31m¢ss[0;1;30ms[0;31mss¢[0;1;30m¢[0;31m$²'' `¢[0;1;30m$[0;31m¢s[0;1;30ms[0;31msss[0;1;30m¢[0;31m¢$²'' `¢$¢[0;1;30ms[0;31mssss¢¢[0;1;30m$[0;31m²'' `¢$[0;1;30m¢[0;31m'' `'' `[0;1;30m¢[0;31m$[0;1;30m¢[0;31m''[0m
-                                       [1;30mtk_courier[acid productions][0m'
+        [31m`¢[0;1;30m$[0;31m¢ss[0;1;30ms[0;31mss¢[0;1;30m¢[0;31m$²'' `¢[0;1;30m$[0;31m¢s[0;1;30ms[0;31msss[0;1;30m¢[0;31m¢$²'' `¢$¢[0;1;30ms[0;31mssss¢¢[0;1;30m$[0;31m²'' `¢$[0;1;30m¢[0;31m'' `'' `[0;1;30m¢[0;31m$[0;1;30m¢[0;31m''[0m'

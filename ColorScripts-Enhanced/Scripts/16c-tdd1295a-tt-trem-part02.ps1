@@ -5,7 +5,7 @@
 # Source SHA-256: 6c5510296d33f214f526c09566c401c88b0fafa23951aad91f65e8634b0f262e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-TREM.ANS by Trust (tdd1295a); released in tdd1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 24-56
 # Columns: 1-80
 
@@ -41,5 +41,4 @@ Write-Host '
      [1;35m██[0;1;35;45m▄[0;1;35;40m▀ ▄[0;1;35;45m█▀[0;1;35;40m█▄▄▄▄▄▄▄[0;1;35;45m▄░▀[0;1;35;40m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35;45m▄[0;1;35;40m█[0;1;35;45m ▄░[0;1;35;40m▄▄▄[0;1;35;45m▓[0m  [1;35m▄▄[0;35m▄[0;1;35m▄[0;35m▄▄▄▄▄[0;1;35m▄▄[0;35m▄[0;1;35m▄[0;1;35;45m▄[0;1;35;40m▀ ▄▄▄▄▄▄▄▄▄▄▄[0;1;35;45m▓[0;1;35;40m█[0m
      [1;35m█▀ ▄█[0;1;35;45m▀          ░                       ▀█[0;1;35;40m▄ ▀[0;1;35;45m▄▄░▄[0;35m█[0;1;35;45m▄ [0;35m█[0;1;35;45m▓▄[0;1;35;40m▀ ▄[0;1;35;45m█▀     ▀   ▓ [0;1;35;40m█[0m
       [1;35m▄[0;1;35;45m█▀  ░     ▀      ▄               ▓▀     ▀[0;1;35;40m█▄[0m          [1;35m▄█[0;1;35;45m▀        ░ ▀  [0;1;35;40m█[0m
-     [1;35m▀█[0;1;35;45m▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄█▄░▄▄▄▄[0;1;35;40m██▄[0m      [1;35m▄█[0;1;35;45m█▄▄▄▓▄█▄▄▄▄▄▄▄▄[0;1;35;40m█▀[0m
-            Tremor! BBS Ad done for Tetanus by: [1mtrUst[0m/[1mtDD [0m100% Original[0m'
+     [1;35m▀█[0;1;35;45m▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄█▄░▄▄▄▄[0;1;35;40m██▄[0m      [1;35m▄█[0;1;35;45m█▄▄▄▓▄█▄▄▄▄▄▄▄▄[0;1;35;40m█▀[0m'

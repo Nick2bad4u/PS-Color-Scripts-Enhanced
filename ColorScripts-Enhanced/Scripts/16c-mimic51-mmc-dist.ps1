@@ -5,7 +5,7 @@
 # Source SHA-256: 891ee214e960d7f386cc2c281080eef9ae5762c778a21243073a96d215b60f67
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mmc-dist.ans by Konami (mimic51); released in mimic51 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -27,7 +27,4 @@ Write-Host '
                  [1;30m☻[0m    [1m,d[0m☻[1;31m☻☻☺[0;31m↑▲⌐.[0;37m  [0;31m  [0;1;31m☺☺☺☺☺[0;31m☻☻☻[0;1;30m☻[0m  [31m,d[0;1;31m☺☺☺☺☻☻[0;31mb,[0m    [1;30m`[0m
                       [31m☻[0;1;31m☻☻☻[0;31m7"`"²☻[0;1;31m☺[0;31m,[0m           [31m,d☻²"`[0;37m [0;31m `[0;1;31m☻[0;31m7`[0m
                       [31m`7☻[0;1;31m☻☻[0m      [31m`7[0m          [31m7`[0m     [31m,\`[0m
-                        [31m`"²↑▲,[0m     [31m`[0m
-
-      [31m           "Official" Mimic Productions distribution site[0m
-             [31mhttp://www.mimic.ca - ftp://ftp.mimic.ca - #mimic@efnet[0m'
+                        [31m`"²↑▲,[0m     [31m`[0m'

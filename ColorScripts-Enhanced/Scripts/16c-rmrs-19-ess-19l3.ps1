@@ -5,7 +5,7 @@
 # Source SHA-256: 5d141e827cbc5a5d64755b6a0cea62ffe3c1711faefd63428a389036751583c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ESS!19L3.ANS by Essence (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BodyCount News
 # SAUCE Author: Essence
 # SAUCE Group: Remorse Productions
@@ -38,5 +38,4 @@ _[1;30m_`[0;1;34m  [0;1;30m``[0;34m``^"╝$$[0;1;34m$$$$$$$$[0;34m$$*-[0;
 ¥[1m¥[0m¥l    [34m,[0;1;30m-[0;1;34m ` [0;34miISS$$$$g, `$[0;1;34m$$$$$$[0;34mP`[0;1;34m [0;34m,d$[0;1;34m$$$$$$$$$$$$$$$[0;34m$,[0;1;30m `[0m¥¥[1m¥¥¥¥¥[0;1;36m¥¥[0;1;37m¥[0m¥[1;30ml[0m
 ¥[1m¥¥[0m¥b[1;30m,[0m       [34mi[0;1;34mS$$$$$$$[0;34m$l[0;1;34m [0;34ml$╝"^````,┘"``[0;1;30m`[0;34m ``[0;1;30m``[0;34m ``````^"╚*, [0;1;30m`[0m¥¥[1m¥¥¥¥¥¥[0m¥[1;30ml[0m
 ¥¥[1m¥¥¥[0m¥¥¥Ii[1;30m:[0m   [34m$╝"^```[0;1;30m`[0;34m``[0;1;34m [0;34m:l[0;1;30m`,[0mg@¥¥[1;30m,┌[0md¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥@g,[1;30m_`[0m l¥[1m¥¥¥¥¥[0m¥[1;30mP[0m
-""""""""""[1;30m`[0m [1;30m`[0;34m`[0;37m  [0;1;30m""[0m"[1;30m"[0m"""[1;30m"[0m  [34m:[0;37m [0;1;30m""[0m"""[1;30m"[0m""""""""""""""""""""""[1;30m""[0m""""""""[1;30m`[0m
-'
+""""""""""[1;30m`[0m [1;30m`[0;34m`[0;37m  [0;1;30m""[0m"[1;30m"[0m"""[1;30m"[0m  [34m:[0;37m [0;1;30m""[0m"""[1;30m"[0m""""""""""""""""""""""[1;30m""[0m""""""""[1;30m`[0m'

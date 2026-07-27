@@ -5,7 +5,7 @@
 # Source SHA-256: be6d30a02990f5e5a72fa55cf97e874b8075ec3e7eecea45f151e9dce89c4f85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-DM1.ANS by Mithrandir ([Quad-P]); released in quad0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dragons Magic
 # SAUCE Author: Mithrandir
 # SAUCE Group: [Quad-P]
@@ -39,12 +39,9 @@ Write-Host '
                [1;35;45m░[0;35m█[0;1;30;45m▓[0;35m█ [0;1;35;45m░[0;1;30;45m▓[0;1;35;45m░[0;35m█ █[0;1;30;45m▓[0;35m██[0;37m [0;1;35;45m░[0;35m█[0;1;30;45m▓[0;1;35;45m░[0;35m [0;1;35;45m░[0;1;30;45m▓[0;35m█[0;1;35;45m░[0m [1;35;45m▓▒[0;1;30;45m▓[0;1;35;45m▒[0m [35m█[0;1;30;45m▓[0;35m█[0;1;35;45m░[0m [35m██[0;1;30;45m▓[0;1;35;45m░[0m [1;35;45m░[0;35m█[0;1;30;45m▓[0;35m█ [0;1;35;45m░[0;1;30;45m▓[0;1;35;45m░▒[0m
              [35m ▄[0;37m [0;35m▀[0;1;30m▀[0;35m█ █[0;1;30m▀[0;35m▀[0;37m [0;35m▄█[0;1;30m▀[0;35m▀[0m   [35m▀[0;1;30m▀[0;35m█▄█[0;1;30m▀[0;35m▀[0;37m  [0;35m ▀[0;1;30m▀[0;1;35;45m░[0;35m▄█[0;1;30m▀[0;35m▀[0m   [35m▀[0;1;30m▀[0;35m█[0;37m  [0;35m▀[0;1;30m▀[0;35m█▄[0;35;45m█[0;1;30;40m▀[0;35m▀[0;37m [0;35m▄[0;37mmr-qdp[0m
              [1;35;45m▓[0;35m▀[0;1;35m▀▀[0m  [35m [0;37m [0;35m [0;1;35m▀[0m    [35m▀▀▀[0;1;35m▀[0;35m▀[0m     [35m▀▀[0;1;35m▀▀[0;35m▀[0m     [1;35m▀[0;35m▀▀[0;1;35m▀▀[0m   [35m▀[0;1;35m▀[0m     [35m▀▀[0;1;35;45m▓▒[0m
-             [35m█[0;37m [0;35mD[0;1;35mr[0;35mago[0;1;35mn[0;35ms M[0;1;35ma[0;35mgi[0;1;35mc[0m [35m-[0;1;35m-[0;35m---[0;1;35m\[0;35m---++-[0;1;35m─[0;35m-/-----[0;37m [0;35ms''[0;1;35mO[0;35mp T[0;1;35mi[0;35mme[0;1;35mp[0;35meice[0;37m [0;1;35;45m░[0m
-             [35m▄[0m     [35m [0m            [35mn[0;1;35mU[0;35mp: m[0;1;35mi[0;35mke[0;1;35ml[0;35mike[0;1;35ms[0m                   [35m▄[0m
-             [35m▀[0m                    [35mfEA[0;1;35mT[0;35mUR[0;1;35mI[0;35mNG:[0m                     [35m▀[0m
-             [35m▄[0;37m [0;35mkri[0;1;35ms[0;35mpy ne[0;1;35mt[0;35m-\-iniquity [0;1;35mn[0;35met-|-exile [0;1;35m [0;35mne[0;1;35mt[0;35m-/-ev[0;1;35mi[0;35ml net[0;37m [0;35m▄[0m
+             [35m█[0;37m [0;35m [0;1;35m [0;35m   [0;1;35m [0;35m   [0;1;35m [0;35m  [0;1;35m [0m [35m [0;1;35m [0;35m   [0;1;35m [0;35m      [0;1;35m─[0;35m       [0;37m [0;35m  [0;1;35m [0;35m   [0;1;35m [0;35m  [0;1;35m [0;35m    [0;37m [0;1;35;45m░[0m
+             [35m▄[0m     [35m [0m            [35m [0;1;35m [0;35m    [0;1;35m [0;35m  [0;1;35m [0;35m   [0;1;35m [0m                   [35m▄[0m
+             [35m▀[0m                    [35m   [0;1;35m [0;35m  [0;1;35m [0;35m   [0m                     [35m▀[0m
+             [35m▄[0;37m [0;35m   [0;1;35m [0;35m     [0;1;35m [0;35m            [0;1;35m [0;35m           [0;1;35m [0;35m  [0;1;35m [0;35m     [0;1;35m [0;35m     [0;37m [0;35m▄[0m
                                      [35mand[0;1;35m![0m
-             [35m▄[0m               [35mpcb/i[0;1;35mn[0;35miquity su[0;1;35mp[0;35mport[0m                [35m▄[0m
-                               [1;35m 24[0;1;37m [0;1;35mhrz/7[0;1;37m [0;1;35mdayz [0m
-
-[1m [0m'
+             [35m▄[0m               [35m     [0;1;35m [0;35m         [0;1;35m [0;35m    [0m                [35m▄[0m'

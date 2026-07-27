@@ -5,7 +5,7 @@
 # Source SHA-256: e035344c203ded0a559640873ccd04fc0a68db437c70002c48f80cdf09bd2dd9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-TRUE.ANS by abstrakt (fire); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: till death
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -60,5 +60,4 @@ Write-Host '
  [36m┘[0;1;30m''.┌⌐$┐,$b[0m [35m`[0;37m [0;1;30m.┌$$l[0m  [36m\$[0;1;30m$$$[0m  [36m└[0;1;30m4┐.j$P''└4$bj$$$$$$=-`[0m [1;30m,$$$$$%$$l[0m [36m`└[0;1;30m┘[0;36m''[0;37m [0;1;30mj$$┘''[0m [35m`[0;37m [0;1;30m┌$$$P[0m
    [36m$[0;1;30m$$$$$$$k┐.[0;36m`4j[0;1;30m$''[0m   [36m`└[0;1;30m┘''[0m   [36m└[0;1;30m$↕┘''[0m [1;30m4b.`[0;36m└4[0;1;30m$$$$P[0m [36m.[0;1;30m,┌$$$$P''[0m [1;30m$$$[0;36m''[0m      [1;30m$$''[0m [36m,[0;1;30md$L[0;36m`└[0;1;30m*┘''[0m
    [36m`└*[0;1;30m┘''[0m [36m`└[0;1;30mSP''[0m     [36ma[0;1;30mbs[0m        [36m`4[0;1;30m┐.[0m [36m`²[0;1;30m''[0m   [36m`¬*[0;1;30m''[0m  [36m`└*↕[0;1;30m*²`[0;36m.,¬┘[0;1;30m''[0m   [36mƒ[0;1;30mire [0;36m`/  `└[0;1;30m┘''[0m
-                                 [36m`[0m                                   [36m`[0m
-'
+                                 [36m`[0m                                   [36m`[0m'

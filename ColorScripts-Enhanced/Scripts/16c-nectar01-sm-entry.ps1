@@ -5,7 +5,7 @@
 # Source SHA-256: ed435c1d7c9a836692416c0c7a0892b28d3262e2d7944d127149761d3ac0d174
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-ENTRY.ANS by Smooth (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -27,9 +27,4 @@ Write-Host '
 [37;40m [0;32;40m▓[0;1;30;42m▒[0;32m█[0;1;32;42m░░[0;1;36;42m▒[0;36;42m░[0;37;40m [0;34;40m▒[0;1;34;44m█▒[0;34m▌[0;32m▐██[0;1;32;42m░░[0;1;36;42m░[0;36;42m▒[0;37;40m  [0;31;40m▀██[0;1;31;41m░▓█[0;31m█[0;37m [0;1;30;47m░░[0m [31m▄█[0;1;31;41m░▒██[0;31m█▀ [0;37m [0;34m▓▀[0;37m [0;32m▓[0;1;30;42m▒[0;32m█[0;1;32;42m░░[0;1;36;42m▒[0;36;42m░[0;37;40m  [0;34;40m░█▀[0;37;40m [0;32;40m▓[0;1;30;42m▒[0;32m█[0;1;32;42m░░[0;1;36;42m▒[0;36;42m░[0;37;40m  [0;34;40m██▒[0;32;40m▐██[0;1;32;42m░░[0;1;36;42m░[0;36;42m▒[0;37;40m [0;34;40m█[0m
 [32;40m▀▀▀██[0;1;32;42m░[0;1;36;42m░[0;36;42m▒[0;32;40m▌[0;34;40m██[0;1;34;44m▒[0;32m ▀███[0;1;32;42m░░[0;1;36;42m▒[0;32m▌[0;34m░▄ [0;31m▀▓[0;1;31;41m░▒▓[0m [1;30;47m▒▒[0m [31m▓█[0;1;31;41m░▓▀[0;31m█▀░[0;37m [0;34m█▓[0;37m [0;32m▀▀▀██[0;1;32;42m░[0;1;36;42m░[0;36;42m▓[0;32;40m▌[0;34;40m▒██[0;37;40m [0;32;40m▀▀▀██[0;1;32;42m░[0;1;36;42m░[0;36;42m▒[0;32;40m▌[0;37;40m [0;34;40m██[0;32;40m ▀███[0;1;32;42m░░[0;1;36;42m▒[0;32m▌[0m
 [34m██▄▄[0;37m [0;32m▀▀█▌[0;34m▀███▄[0;37m [0;32m▀▀██[0;1;36;42m░[0;32m█[0;37m [0;34m██▄[0;37m [0;31m▀▀[0;1;31;41m░[0;31m█▄▄▄█▀▀▀  [0;37m  [0;34m ▀▀▀▀▀[0m   [32m▀▀█▌[0;34m▀▀▀▀▀▀[0m   [32m▀▀█▌[0;37m [0;34m▀▀▀ [0;37m [0;32m▀▀██[0;1;36;42m░[0;32m█[0m
-[1;34msM.tL[0m  [32m░▀[0;37m  [0;1;34m     [0m  [32m ▀▓ [0m      [31m       [0m                 [32m░▀[0m           [32m░▀[0m         [32m ▀▓[0m
-                             [31m [0;37m [0;31m  [0;37m [0;31m [0m
-                                [31m [0m
-                                [31m  [0m
-
-                                [31m [0m'
+[1;34msM.tL[0m  [32m░▀[0;37m  [0;1;34m     [0m  [32m ▀▓ [0m      [31m       [0m                 [32m░▀[0m           [32m░▀[0m         [32m ▀▓[0m'

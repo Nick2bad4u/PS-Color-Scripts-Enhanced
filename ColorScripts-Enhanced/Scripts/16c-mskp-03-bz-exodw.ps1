@@ -5,7 +5,7 @@
 # Source SHA-256: eaeaac6993f193365694c22998559e866bd9c1c6b891a334ccf651f8a2f95c3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ-EXODW.ANS by BiOZARD (masakre productions); released in mskp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: exodo welcome logo
 # SAUCE Author: BiOZARD
 # SAUCE Group: masakre productions
@@ -30,8 +30,4 @@ Write-Host '
  [1;30m▀ [0;34m▐▌[0;37m  [0;34m █ [0;37m [0;34m█░░░▐▌[0;37m [0;34m█[0;37m  [0;34m░░█[0;37m  [0;34m█░░[0;37m  [0;34m█[0;37m [0;34m▐▌░░░█[0;37m  [0;34m█░░░▐▌[0;37m [0;34m█░░░░█[0;37m  [0;34m█░░[0;37m [0;34m▐▌[0;37m [0;34m▐▌[0;37m [0;34m░░█[0;37m  [0;34m█░░[0;37m [0;34m▐▌[0;37m [0;1;30m▄[0m
  [1;30m▐▌ [0;34m▀▄▄[0;37m  [0;34m▀▀[0;37m [0;34m░▄▄▀[0;37m  [0;34m█[0;37m    [0;34m█[0;37m  [0;34m█[0;37m    [0;34m█[0;37m  [0;34m▀▄▄[0;37m [0;34m▀▀▀▀[0;37m [0;34m▄▄▀[0;37m  [0;34m█[0;37m    [0;34m▀▀▀▀[0;37m [0;34m▄▄▀[0m   [34m▀▄▄[0;37m [0;34m▀▀▀▀[0;37m [0;34m▄▄▀ [0;1;30m▐▌[0m
   [1;30m▀■▄▄[0m [34m▀▓▀▀▀▀[0;37m  [0;1;30m▄▄[0m [34m▀▀▒▀▀▀[0;37m  [0;34m▀▀■▀▀▀[0;37m  [0;1;30m▄▄[0;34m ▀▀▀▓▀▀[0;37m  [0;1;30m▄▄[0m [34m▀▀▀▀░▀▀▀▀▀[0;37m   [0;1;30m▄■▀■▄[0m [34m▀▀▀▓▀▀[0;37m  [0;1;30m▄■▀[0m
-      [1;30m▀▀■▄▄▄▄■▀[0m [1;30m ▀■▄▄▄▄■▀▀■▄▄▄▄▄■▀[0m [1;30m ▀■▄▄▄▄▄■▀[0m  [1;30m▀■▄▄▄▄▄▄▄▄▄▄■▀[0m     [1;30m▀■▄▄▄▄▄■▀[0m
-
-      [1;30m [0;1;37m. [0;36mNECROMANCERS FORCES HQ[0;37m [0;1;37m∙ [0;36mMASAKRE APPLY HQ[0;37m [0;1;37m∙ [0;36mA.M.B.U.S.H MEMBER[0;37m [0;1;37m.[0;1;30m       [0m
-       [1m       .[0;36m SATAN [[0;1;36m666[0;36m] DiST[0;37m [0;1;37m/[0m [36mACiD FLOWiNG DiST[0;37m [0;1;37m/ [0;36mOBLOX DiST[0;37m [0;1;37m.        [0m
-[1m       [0m   [1m           . [0;36mPSYCHO MAGAZiNE DiST[0;37m [0;1;37m/[0m [36mFEDCON DiST[0;37m [0;1;37m.                    [0m'
+      [1;30m▀▀■▄▄▄▄■▀[0m [1;30m ▀■▄▄▄▄■▀▀■▄▄▄▄▄■▀[0m [1;30m ▀■▄▄▄▄▄■▀[0m  [1;30m▀■▄▄▄▄▄▄▄▄▄▄■▀[0m     [1;30m▀■▄▄▄▄▄■▀[0m'

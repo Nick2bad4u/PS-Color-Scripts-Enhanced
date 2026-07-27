@@ -5,7 +5,7 @@
 # Source SHA-256: aa131ce767e5ad2b26aaf661f89f41e2b5a8574da1d62c22ed1ad426d5a8c2c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PB-SPAM.ANS by Piratebox (drOol); released in drl-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Green Eggs And Spam
 # SAUCE Author: Piratebox
 # SAUCE Group: drOol
@@ -17,7 +17,7 @@
 Write-Host '
 [1;30m█▀▀▀▀[0m■▀■[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀███▀▀▀▀▀▀▀▀▀[0m■▀■[1;30m▀▀▀▀▀▀▀▀███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m■▀■[1;30m▀▀▀█[0m
 [30m [0;37m  [0;1;32;42m▓[0m                       [1m [0;1;30m█[0m  [1;30m [0m                  [1m [0;1;30m█[0m                         [1;30m [0m
-[30m [0;37m  [0;1;32;42m▒[0m                        [1;30m▓[0m [1;30mph[0mphile[1;30m: [0;1;37mpb[0m-s[1;30mpam[0m.a[1mns[0m [1;30m▓[0m  [1mg[0mr[1;30mee[0mt[1mz[0m :
+[30m [0;37m  [0;1;32;42m▒[0m                        [1;30m▓[0m [1;30m  [0m     [1;30m  [0;1;37m  [0m  [1;30m   [0m  [1m  [0m [1;30m▓[0m  [1m [0m [1;30m  [0m [1m [0m  
 [30m [0;37m [0;1;30m [0;1;32;42m░[0m          [1;30mp[0m            [1m [0;1;30m▒ [0m   [31m    [0;1;30m [0;31m         [0m   [1;37m [0;1;30m▒ [0m
 [30m [0;1;30m▌[0;32m▓[0;1;32;42m░[0;32m█▓▄[0;37m  [0;1;30m▌[0;32m▄▄█▓▄[0;1;30mi[0m          [1m [0m [1;30m░[0m [1;30mph[0mphor [1;30m:[0m [1mne[0mk[1;30m0[0m        [1;30m░[0m  iK : danke! phor da
  [1;30m▌[0;32m▓█[0;1;32;42m░▒[0;32m█▓▄[0;1;30m▌[0;32m▓[0;1;32;42m░[0;32m██▓[0;1;32;42m▓[0;1;30;40mr[0m                                          phat phont[1;30m [0mwe[1;30m [0m

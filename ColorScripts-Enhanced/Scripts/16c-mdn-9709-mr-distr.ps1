@@ -5,7 +5,7 @@
 # Source SHA-256: 8953bd408b42d0b0fc4b2c8b6167930e97a7ae36c9a2a8858279586ef004caa6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-DISTR.ANS by mINO (mAIDEN); released in mdn-9709 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bababebow bird is the word yeah
 # SAUCE Author: mINO
 # SAUCE Group: mAIDEN
@@ -31,17 +31,11 @@ Write-Host '
 [34m▌▀▀▀▀▀▀▀▀▀▀▌▀▀[0;37m▀[0;1;37;44m█[0;1;37;47m█▀[0;1;37;40m▐[0;1;37;47m█▀[0m         [31m░░[0m     [31m▌[0m      [31m▓▐▄[0;1;37;41m▄█▓[0;31m  ▐[0;1;31;41m░[0;31m█▄[0m   [31m░▐  ▄[0;1;33;41m▄▌[0;31m▌[0;37m [0;1;34;44m ▄[0;34m▌[0m       [34m▒▒[0m
 [34m▌[0;37m [0;31muSER[0;37m [0;31moN[0;37m  [0;34m▌[0m       [1;37m▒▒[0m   [1m[[0;1;36mb[0;1;37m] [0;33mababeba  [0;31m▀[0m         [1;37m▒▀[0;31m▀  [0;1;31;41m░░[0;31m█▐█[0;1;31;41m▀[0;31m▄▄▐[0;1;37;41m░[0;31m█[0;1;33;41m▀[0;31m█▀ [0;37m [0;1;34;44m▐[0;1;34;47m▐[0;34m▌[0;37m [0;31m░░[0;37m [0;33m░[0;37m  [0;34m░░[0m
 [34m▌[0;31m---------[0;37m [0;34m█[0m       [1;37m░░[0m   [1m[[0;1;36mb[0;1;37m] [0;33mbabowbabe[0m          [1;37m░[0m    [31m░░[0;37m [0m   [31m▀▀▀▀[0m    [33m░[0;37m [0;1;34;44m▐[0;1;34;47m▒[0;34m▌[0;37m [0;31m▒▒[0;37m [0;33m▒░[0m
-[37m  [0;31mjoaoxx[0m   [34m█[0;37m [0m           [1;37m[[0;1;36mb[0;1;37m] [0;33mababeba[0m   [1;37m[[0;1;36mb[0;1;37m] [0;33mababeba  [0;37m [0;1;37m[[0;1;36mb[0;1;37m] [0;33mababeba[0m   [33m░[0;37m [0;1;34;44m▐[0;1;34;47m▄[0;34m▌[0;37m [0;31m░░[0;37m [0;33m▓▒[0m
-[37m [0;31m---------[0;37m [0;1;34;44m▐[0;34m▌[0m          [1;34m░[0;1;37m[[0;1;36mb[0;1;37m] [0;33mbabowbabe[0;37m [0;1;37m[[0;1;36mb[0;1;37m] [0;33mbabowbabe[0;37m [0;1;37m[[0;1;36mb[0;1;37m] [0;33mbabowbabe[0;37m [0;33m░[0;37m [0;34m█[0;1;34;44m█[0;34m▌[0m    [1;33;43m░[0;33m▓[0m
+[37m  [0;31m      [0m   [34m█[0;37m [0m           [1;37m [0;1;36m [0;1;37m  [0;33m       [0m   [1;37m [0;1;36m [0;1;37m  [0;33m         [0;37m [0;1;37m [0;1;36m [0;1;37m  [0;33m       [0m   [33m░[0;37m [0;1;34;44m▐[0;1;34;47m▄[0;34m▌[0;37m [0;31m░░[0;37m [0;33m▓▒[0m
+[37m [0;31m         [0;37m [0;1;34;44m▐[0;34m▌[0m          [1;34m░[0;1;37m [0;1;36m [0;1;37m  [0;33m         [0;37m [0;1;37m [0;1;36m [0;1;37m  [0;33m         [0;37m [0;1;37m [0;1;36m [0;1;37m  [0;33m         [0;37m [0;33m░[0;37m [0;34m█[0;1;34;44m█[0;34m▌[0m    [1;33;43m░[0;33m▓[0m
 [37m  [0;31mbAUD[0;37m [0;31m░░░[0;37m [0;1;34;44m▐▄[0;34m▄[0;37m [0;34m░░[0m      [1;37m▀[0;1;37;44m▄[0;1;34;40m▄[0m   ▌ [1m▄[0;1;34m▄[0;1;37m▀[0m    [1m[[0;1;36mb[0;1;37m] [0;33mababeba[0m   [1;37m[[0;1;36mb[0;1;37m] [0;33mababeba[0m   [33m░[0;37m [0;34m█[0;1;34;44m▓[0;34m▌[0;1;37m░░[0m [1m▌[0;1;33;43m▒ [0m
  [31m---------[0;37m [0;1;34;44m▐[0;1;34;47m▓[0;1;34;44m▄░[0;34m▓▓▐▄▄▄▄[0m   [1;37;44m▒[0;1;34;40m▄[0;1;37;40m▄[0;1;34;40m▄[0;1;37;44m▓▀[0;1;34;40m▀[0m      [1m[[0;1;36mb[0;1;37m] [0;33mbabowbabe[0;37m [0;1;37m[[0;1;36mb[0;1;37m] [0;33mbabowbabe ░[0;37m [0;34m█[0;1;34;44m▒[0;34m▌[0;1;37m█[0;1;37;47m▄[0m [1m▀[0;1;33;43m▓░[0m
  [31m [0;37m [0;31m14400[0;37m [0;31m [0;37m [0;1;34;44m▐[0;1;34;47m▌▀[0;1;34;44m█▄▄▄░░[0;34m███[0;1;34;44m░▀▀[0;1;34;47m█[0;1;34;44m▀█▓▄[0;1;37;44m ░[0;1;34;44m░░[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m             [33m░░░▒[0;37m [0;1;34;44m░▒[0;34m▌[0;1;37;47m▓[0;1;37;40m▀[0m [33m▐[0;1;33;43m█▓[0m
  [31m---------[0;37m [0;34m█[0;1;34;44m▀[0;34m▀▀▀▀▀▀[0m     [37m▄[0;1;34;47m▓[0;1;34;40m▀▐[0;1;34;44m▓[0m▀[1;34;47m▓[0;1;34;40m▄[0m    [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████[0;1;34;44m▀▀▀[0;34m▄▄[0;1;34m▄▄[0m   [33m░[0;37m [0;34m█▓▌[0;33m▄▄[0;1;33;43m░▀[0;33m▀[0m
 [1;37mmr([0;1;34mMAIDEN[0;1;37m) [0m            ▀[1;34m▀▒[0m [1;34m▀[0m▀  ▀[1;34m▀[0m                          [34m▀▀▀▀▐[0;1;34;44m▀[0;1;34;40m▌[0;34m▄[0;1;34;44m▄░[0;34m▌▒[0;33m▀▀[0m
-[1;37m--------------------------[0m      [31m    [0m                         [37m   [0;31m        [0m
-
-[1;37mforgot who requested it .. who cares , here it goes , mr. X[0m
-[1mfor yer board distrolight[0m
-[1;33m**rzh0h0h0h0h0h0h0**[0m
-
-[1;30m>> minotaur@nitnet.com.br[0m'
+[1;37m--------------------------[0m      [31m    [0m                         [37m   [0;31m        [0m'

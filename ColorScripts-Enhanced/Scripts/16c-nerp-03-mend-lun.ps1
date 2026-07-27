@@ -5,7 +5,7 @@
 # Source SHA-256: 4909c0b9f9cad5dd146fac261143e65afb5548e6f17dd7ea7ef1d39e5754a375
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MEND-LUN.ANS by Mendator + Samurai (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BunchLox
 # SAUCE Author: mendator / samurai
 # SAUCE Group: nerp
@@ -40,7 +40,4 @@ Write-Host '
 [1;32;40m  [0m                               [34m░▓   [0;32m▐▒[0;30;42m▒[0;32;40m░[0;37;40m [0;32;40m░[0;30;42m▓[0;37;40m [0;33;40m▐[0;1;31;43m░█████▓▓▓▓▒▒▒░░[0;33m██░[0;32m░▒▒▒[0;30;42m▓[0;32;40m▓▒[0;30;42m▒▓[0;32;40m░[0;34;40m  [0;30;44m▓▓[0;34;40m░[0m
 [1;32;40m  ▼▼[0;1;30;40m [0;32m [0m                                 [30;42m▓▓[0;32;40m░[0m                        [37;40m   [0;32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0m
 
-[1;33;40m  [0;30;42m▓▓[0;32;40m [0;1;32;40mcut here[0;32m [0;30;42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;32;40m nerp [0;30;42m▓▓[0;1;33;40m  [0m
-
-[32m  [0;1;33m// [0;1;32mmendator[0;1;33m [0;32m-[0;1;33m outline, shading[0m [32m(Late night on dec 23''rd)[0m
-[32m  [0;1;33m//[0m [1;32msamurai [0;1;33m [0;32m-[0;1;33m outline-touchup[0m'
+[1;33;40m  [0;30;42m▓▓[0;32;40m [0;1;32;40mcut here[0;32m [0;30;42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;32;40m nerp [0;30;42m▓▓[0;1;33;40m  [0m'

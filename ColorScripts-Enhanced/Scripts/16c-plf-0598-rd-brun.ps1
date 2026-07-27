@@ -5,7 +5,7 @@
 # Source SHA-256: 2ebd11cc0bc1fae13b85058cb35e9b93166df2237d4a6e45412ef30b00d6e13b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-BRUN.ANS by raider (leif's attack squad); released in plf-0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BRUN.
 # SAUCE Author: raider
 # SAUCE Group: leif's attack squad
@@ -16,7 +16,7 @@
 
 Write-Host '
                  [1;30m [0m
- [1;30m░[0m                                        [33m [0m   [33m''[0;1;30mbrun[0;33m'' - [0;1;30mfür[0;33m [0;1;30mgasol[0;33m.   [0;1;30mraider 1998[0m
+ [1;30m░[0m                                        [33m [0m   [33m [0;1;30m    [0;33m    [0;1;30m   [0;33m [0;1;30m     [0;33m    [0;1;30m           [0m
 [1;30m ░░[0m [1;30m░[0m            [1;30m░[0m                [33m        [0m
 [1;30m░░░░[0m  [1;30m▄▄▄▄▌ [0m  [1;30m░[0m [1;30m ░░[0m      [1;30m░░[0m       [1;30m░░[0m   [1;30m ▄▄███▌[0m [1;30m░░[0m          [1;30m▄[0m
 [1;30m░▒▒░░[0m  [1;30;47m▓░░▀[0;1;30;40m██▄▄  ▒░░░░   ▄▄▄[0;1;30;47m▀▀[0;1;30;40m███▄▄▄▄▓[0;1;30;47m▀▀▓▓[0;1;30;40m██▌  ▒▒░░[0m         [1;30;47m▓▀[0;1;30;40m█▄▄▄▄▄[0m

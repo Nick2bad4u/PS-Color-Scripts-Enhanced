@@ -5,7 +5,7 @@
 # Source SHA-256: 68baaaa6b9a41aea52dfb70474943800aae6af655600adcbe205b4d92372e9bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-MANIF.ANS by minotaur (mdn-9703); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: manifesto underground ( abstract )
 # SAUCE Author: minotaur
 # SAUCE Date: 19970219
@@ -37,8 +37,4 @@ Write-Host '
                                                                   [32m   [0m
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mIts just abstract ... =)[0m
-[1;30mand says : MANIFESTO UNDERGROUND[0m
-[1;30mthis ansi is dedicated to the kind of people that look at a fork with a tomatoe[0m
-[1;30mand a needle inside the tomatoe , and they say : Oh!! This is Art![0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e6e6c3d27a3e6d1fa9a8d3e17cba792842aa91124fbbd85bc6d239acce7af0f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-SHSYS.ANS by raiser; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SHADOW SYSTEM 1ST.
 # SAUCE Author: RAiSER
 # SAUCE Group: SAC
@@ -17,11 +17,11 @@
 Write-Host '
 [1;34;40m▄[0;1;30;40m [0;1;34;40m▄▄▄▄▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄[0;34m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34m▄[0;1;30m▄[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;34m▄[0;34m▄[0;1;34m▄▄▄▄▄▄ ▄[0m
 [34m▄[0;1;34m▄▄[0;1;37m▄  [0;1;30m▄▄[0;34m▄[0;1;30m▄[0;34m▄▄▄[0;1;34m▄▄[0;1;37m▄ [0;1;30m▄▄[0;34m▄[0;1;30m▄[0;34m▄▄▄[0;1;34m▄▄[0;1;37m▄ [0;1;30m─-──-───────────────────────────────────-──-─ [0;1;37m [0;34m▄[0;1;34m▄▄[0;1;37m▄[0m
-[1;30m▓[0;1;37m  [0;1;34m█[0;1;37m  [0;1;30m▓[0;1;37m        [0;1;34m█[0;1;37m [0;1;30m▓[0;1;37m        [0;1;34m█[0;1;37m I[0;1;34mf[0;1;30m [0;1;34myou''[0;34md[0;1;30m [0;34mlik[0;1;30me to purchase an an[0;34msi[0;1;30m [0;34mfrom[0;1;30m [0;1;34mmy[0;1;30m [0;1;34mo[0;1;37mwn[0;1;30m [0;1;37m [0;1;30m▓[0;1;37m  [0;1;34m█[0m
+[1;30m▓[0;1;37m  [0;1;34m█[0;1;37m  [0;1;30m▓[0;1;37m        [0;1;34m█[0;1;37m [0;1;30m▓[0;1;37m        [0;1;34m█[0;1;37m  [0;1;34m [0;1;30m [0;1;34m    [0;34m [0;1;30m [0;34m   [0;1;30m                   [0;34m  [0;1;30m [0;34m    [0;1;30m [0;1;34m  [0;1;30m [0;1;34m [0;1;37m  [0;1;30m [0;1;37m [0;1;30m▓[0;1;37m  [0;1;34m█[0m
 [1;30m▒[0;1;37m  [0;34m▓[0;1;37m  [0;1;30m▒[0;1;37m  [0;1;34m▀[0;34m▀▀[0;1;30m▓[0;1;37m  [0;34m▓[0;1;37m [0;1;30m▒[0;1;37m  [0;34m▓[0;1;34m▀[0;1;37m   [0;34m▀▀[0;1;37m [0;1;34mtr[0;34my[0;1;30m [0;34mto[0;1;30m [0;34mc[0;1;30montact  my at  the  followin[0;34mg[0;1;30m [0;34mboar[0;1;34mds:[0;1;30m [0;1;37m [0;1;30m▒[0;1;37m  [0;34m▓[0m
 [1;30m░[0;1;37m  [0;1;30m▒[0;1;37m  [0;1;30m░[0;1;37m  [0;1;30m░[0;1;37m [0;34m▀[0;1;37m  [0;1;30m▀[0;1;37m  [0;1;30m░[0;1;37m  [0;1;30m▀[0;34m▀[0;1;30m▀▀▀▀▓[0;1;37m [0;34mCLOS[0;1;30mED SOCIETY  ■  EISERNE FRONT  ■   MY[0;34mSTER[0;1;34mY[0;1;30m [0;1;37m [0;1;30m░[0;1;37m  [0;1;30m▒[0m
 [1;37m   [0;1;30m░[0;1;37m     [0;1;30m▓[0;1;37m [0;34m▀[0;1;30m▓[0;1;37m [0;1;30m▀▄[0;1;37m [0;1;30m▒▀▀▀[0;34m▄▄[0;1;34m▄[0;1;37m  [0;34m▒[0;1;37m [0;1;34mRE[0;34mMEMBER[0;1;30m!  Ansi''s  are always  free [0;34motherw[0;1;34mise[0;1;30m [0;1;37m    [0;1;30m░[0m
-[1;37m   [0;1;30m░[0;1;37m     [0;34m█[0;32m [0;1;37m [0;1;30m▒[0;1;37m  [0;34m█[0;1;37m [0;1;30m▓[0;1;37m        [0;1;34m░[0;1;37m y[0;1;34mou''re[0;1;30m [0;34mlame[0;1;30m or unknown so you m[0;34must[0;1;30m [0;34mpa[0;1;34my[0;1;30m [0;1;34mfor[0;1;30m [0;1;37mit[0;1;30m [0;1;37m    [0;1;30m░[0m
+[1;37m   [0;1;30m░[0;1;37m     [0;34m█[0;32m [0;1;37m [0;1;30m▒[0;1;37m  [0;34m█[0;1;37m [0;1;30m▓[0;1;37m        [0;1;34m░[0;1;37m  [0;1;34m     [0;1;30m [0;34m    [0;1;30m                    [0;34m   [0;1;30m [0;34m  [0;1;34m [0;1;30m [0;1;34m   [0;1;30m [0;1;37m  [0;1;30m [0;1;37m    [0;1;30m░[0m
 [1;37m        [0;34m▀[0;1;34m▀[0;1;37m    [0;34m▀[0;1;34m▀ [0;1;37m        [0;34m▀[0;1;34m▀[0;1;37m [0;1;30m─-──-───────────────────────────────────-──-─[0m
 [1;34m▀[0;1;30m [0;1;34m▀▀▀▀▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;34m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;1;30m▀[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▀[0;34m▀[0;1;34m▀▀▀▀▀▀[0;1;30m [0;1;34m▀[0m
                         [1;30m▄▄▄▄▄▄▄▄▄▄▄▄[0;34m▄▄▄▄▄▄▄▄▄▄▄[0;1;30;44m░[0;34m▄▄▄▄▄▄▄▄▄▄[0;37m [0;1;33m▄▄▄[0m [1;30m ░░░░▒▒▒▒▒▓▓▓▓▓▓[0m

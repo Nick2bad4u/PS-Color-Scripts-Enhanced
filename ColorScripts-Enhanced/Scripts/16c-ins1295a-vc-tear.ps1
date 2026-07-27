@@ -5,7 +5,7 @@
 # Source SHA-256: 0071d123f07905b4a7049a6757caf48de48aa0b8b171f73453b7edb770e344c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC-TEAR.ANS by VOiCE (BLACK MAiDEN); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shed
 # SAUCE Author: VOiCE
 # SAUCE Group: BLACK MAiDEN
@@ -44,14 +44,14 @@ Write-Host '
     [1;30m▄■▀[0m    [1;30;47m▄[0m   [1;30m░[0m                                                [1;30m░[0m   [1;30;47m▄[0m  [1;30m▄■▀[0m
    [1;30m█[0m       [1;30;47m▄[0m   [1;30m▒[0m  [1;30m▀▄[0m       [31mBeauty pale! Black adorned![0m      [1;30m▄▀ [0m [1;30m▒[0m   [1;30;47m▄[0m [1;30m▐[0m
     [1;30m▀■▄▄■▀[0m [1;30;47m▀[0m   [1;30m▓[0m    [1;30m▀[0m [31mBlack well hidden - black so scorned.[0;1;30m▀ [0m   [1;30m▓[0m   [1;30m█[0m  [1;30m▀■[0m
-           [1;30m█[0m   [1;30m█[0m         [31mDarkness lay, in darkness shy,[0m         [1;30m█[0m   [1;30m█[0m    [1;30m▌[0m
-           [1;30m█[0m   [1;30;47m▄[0m       [31mFrom darkness came, a whisper shy.[0m       [1;30;47m▄[0m   [1;30m█[0m
-           [1;30m▓[0m   [1;30;47m [0m        [31mThe echo high - the ceiling low,[0m        [1;30;47m [0m   [1;30m▓[0m
-       [1;30m▄■[0m  [1;30m▒[0m   [1;30;47m▀[0m         [31mGloomy gloomy sad moon''s glow.[0m         [1;30m█[0m   [1;30m▒[0m
-      [1;30m▐[0m    [1;30m░[0m   [1;30m█[0m     [31mThe figure black, her hair is flowing,[0m     [1;30m█[0m   [1;30m░[0m [1;30m▄■▀▄[0m
-       [1;30m▌[0m      [1;30m ▓[0m  [31mHer heart is stiff, her bright eyes glowing.[0;37m  [0;1;30m▓ [0m        [1;30m▌[0m
-       [1;30m█[0m   [1;30m░[0m   [1;30m▒[0m    [31mFrom whence thou camesth, thou went away,[0m   [1;30m▒[0m   [1;30m░[0m  [1;30m▄■▀[0m
-    [1;30m▄■▀[0m    [1;30m▒[0m   [1;30m░[0m   [31mSweet Black Maiden, why canst thou stay...[0m   [1;30m░[0m   [1;30m▒[0m [1;30m▐[0m
+           [1;30m█[0m   [1;30m█[0m         [31m                              [0m         [1;30m█[0m   [1;30m█[0m    [1;30m▌[0m
+           [1;30m█[0m   [1;30;47m▄[0m       [31m                                  [0m       [1;30;47m▄[0m   [1;30m█[0m
+           [1;30m▓[0m   [1;30;47m [0m        [31m                                [0m        [1;30;47m [0m   [1;30m▓[0m
+       [1;30m▄■[0m  [1;30m▒[0m   [1;30;47m▀[0m         [31m                              [0m         [1;30m█[0m   [1;30m▒[0m
+      [1;30m▐[0m    [1;30m░[0m   [1;30m█[0m     [31m                                      [0m     [1;30m█[0m   [1;30m░[0m [1;30m▄■▀▄[0m
+       [1;30m▌[0m      [1;30m ▓[0m  [31m                                            [0;37m  [0;1;30m▓ [0m        [1;30m▌[0m
+       [1;30m█[0m   [1;30m░[0m   [1;30m▒[0m    [31m                                         [0m   [1;30m▒[0m   [1;30m░[0m  [1;30m▄■▀[0m
+    [1;30m▄■▀[0m    [1;30m▒[0m   [1;30m░[0m   [31m                                          [0m   [1;30m░[0m   [1;30m▒[0m [1;30m▐[0m
    [1;30m▐ [0m      [1;30m▓[0m                                                        [1;30m▓[0m  [1;30m▀▀■▄[0m
     [1;30m▀■▄[0m [1;30m▀[0m [1;30m▀[0m▀[1;30m▀▀[0m ▀[1;30m▀[0m  [1;30m▀[0m                   [31m  [0m                    [1;30m▀[0m [1;30m▀▀[0m [1;30m▀[0m▀▀[1;30m▀[0m [1;30m▀[0m   [1;30m▌[0m
        [1;30m▀▀[0m [1;30m▀[0m

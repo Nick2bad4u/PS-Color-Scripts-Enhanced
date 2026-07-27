@@ -5,7 +5,7 @@
 # Source SHA-256: 57144822a945fa964f4dd67432a64bd778a4a558c0b0d386598ed16cd973847d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-LOST.ANS by sektor (infinitee__); released in inf-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lost city main
 # SAUCE Author: sektor
 # SAUCE Group: infinitee__
@@ -30,5 +30,4 @@ Write-Host '
 [33;46m░[0;35;46m░[0;36;40m▄▄[0m        [31;40m░[0;30;41m▓[0;37;40m▀▀[0;1;31;40m▀[0;1;31;43m█[0;1;31;40m▄[0;33m▄[0;1;31;43m▀[0;1;31;40m▀[0;33m▀[0;1;30m▄▄▀▀▄▀░░░[0m [36m [0;32m░[0;30;42m▓[0;36;40m   [0;37;44m[[0;1;37;44ma[0;44m][0;30;44m abandon conf   [0;34;40m██████[0;1;34;44m░░[0;30;44m▀[0;1;34;40m▄▄[0;1;34;44m▀[0;34m█[0;1;34;44m░[0;30;44m▄[0;1;34;40m▄[0;1;34;44m▀[0;34m█[0;30;44m▐[0;1;34;44m░[0;34m▌[0m
 [1;32;46m░░░[0;36m██[0;33;46m░[0;36;40m▄▄▄[0m       [31;40m    [0;37;40m [0;1;30;40m░░▄▄▀▀[0m   [32m░[0;30;42m▓▓[0;1;30;40msr_ [0m  [44m[[0;1;44mts[0;44m][0;30;44m txt search msg[0;34;40m██████[0;30;44m░░▄▄▄▄[0;1;34;40m▄▄[0;1;34;44m▀░░[0;30;44m▄[0;1;34;40m▄[0;1;34;44m▀[0m
 [1;32;46m▓▓▓░░░[0;36m███[0;33;46m░[0;35;46m░░[0;36;40m▄▄▄▄[0m        [32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;36;40m         [0;34;40m░░[0;37;44m[[0;1;37;44mx[0;44m][0;30;44m xpert mode     [0;1;34;44m░░[0;34m████[0;30;44m [0;34;40m█[0;1;34;44m░░▀▀[0;30;44m▄▄▄[0;1;34;40m▄▄[0;1;34;44m▀[0;34m▀[0m
-[1;32;47m▒▒▓▓[0;1;32;46m▓▓▓▓▓░░░░░░[0;36m██[0;1;32;46m [0;33;46m░░[0;35;46m░░[0;36;40m▄▄▄▄▄▄▌░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m [0;35;40m░░▄[0;34;40m▓▓▀▀█[0;30;44m░░░░[0;34;40m██████[0;30;44m__[0;34;40m█[0;30;44mxx[0;34;40m██████[0;30;44m░░▀▀[0;1;34;40m▄▄▄[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀[0m
-                                       [34m  [0m'
+[1;32;47m▒▒▓▓[0;1;32;46m▓▓▓▓▓░░░░░░[0;36m██[0;1;32;46m [0;33;46m░░[0;35;46m░░[0;36;40m▄▄▄▄▄▄▌░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m [0;35;40m░░▄[0;34;40m▓▓▀▀█[0;30;44m░░░░[0;34;40m██████[0;30;44m__[0;34;40m█[0;30;44mxx[0;34;40m██████[0;30;44m░░▀▀[0;1;34;40m▄▄▄[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀[0m'

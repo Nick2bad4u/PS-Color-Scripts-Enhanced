@@ -5,7 +5,7 @@
 # Source SHA-256: af932fe85a342e03dbc612738d9a21dbefbdbf80e2fc79426a52c5b94df75708
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-DD.ANS by Crackerman (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 45-86
 # Columns: 1-80
 
@@ -38,7 +38,7 @@ Write-Host '
 [33;40m████[0;30;43m▄▄▀[0;33;40m█████[0;37;40m▀▓▓██▓▓▓▓▓▓▓▓▓▓▄[0;1;30;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;33m████████████████████[0m
 [33m██[0;30;43m▄▄▀[0;33;40m█████████[0;37;40m▀▓▓▓▓▓▓▓▓▓▓▓▓▓▀[0;1;30;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;33m███████████████████[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-         [1;37mD[0mo[1;30mPE [0;1;37mP[0mo[1;30mlluting [0;1;37mT[0mh[1;30me [0;1;37mW[0mo[1;30mrld [0;1;37mI[0mn [1m''[0m9[1;30m4!!   [0;1;37mA[0mN[1;30mSi [0;1;37mB[0my [1mC[0mr[1;30mackerman [[0mD[1mo[0mPE[1;30m][0m
+         [1;37m [0m [1;30m   [0;1;37m [0m [1;30m        [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m    [0;1;37m [0m  [1m [0m [1;30m      [0;1;37m [0m [1;30m   [0;1;37m [0m  [1m [0m [1;30m          [0m [1m [0m  [1;30m [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
 
 
@@ -47,8 +47,4 @@ Write-Host '
 ▐[1;30m█▄▄▀[0m▐[1;30m█[0m▐[1;30m█▄▄█[0m▐[1;30m█  [0m▐[1;30m█  [0m▐[1;30m█ [0m▐[1;30m█[0m▐[1;30m█▄▄▄   [0m▐[1;30m█▄▄▀[0m▐[1;30m█[0m▐[1;30m█▄▄█  [0m▐[1;30m█  [0m▐[1;30m█▄▄█[0m▐[1;30m█ ▀▄  [0m▐[1;30m█  [0m▐[1;30m█[0m▐[1;30m█▄▄█[0m▐[1;30m█ ██[0m
 
 
-     [1;30mD[0mo[1;30mPE[0m                   [1;30m3 1 3 [0m- [1;30m4 2 0 [0m- [1;30m1 0 3 2[0m                   [1;30mG[0ma[1;30mN[0mj[1;30mA[0m
-[1;30m  D[0mi[1;30mSTRO S[0mi[1;30mTE[0m            [1;30mH[0m/[1;30mP[0m/[1;30mA[0m/[1;30mC [0mδ [1;30mWares [0mδ [1;30mArt [0mδ [1;30mMusic[0m             [1;30mD[0mi[1;30mSTRO S[0mi[1;30mTE[0m
-                    [1;30mCiPNet [0m∞ [1;30mCryptoNET [0m∞ [1;30mEViLNET [0m∞ [1;30miMPACTNET[0m
-                    [1;30mOblivion/2 2.25 Modded To Hell And Back![0m
-                      [1;30mSysGod: Ares [0mφ [1;30mLocals By Invite Only[0m'
+     [1;30mD[0mo[1;30mPE[0m                   [1;30m3 1 3 [0m- [1;30m4 2 0 [0m- [1;30m1 0 3 2[0m                   [1;30mG[0ma[1;30mN[0mj[1;30mA[0m'

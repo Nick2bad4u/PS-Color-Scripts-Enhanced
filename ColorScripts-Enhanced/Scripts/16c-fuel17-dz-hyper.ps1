@@ -5,7 +5,7 @@
 # Source SHA-256: f3f27a930567b0052ba85ec47e59ceb30c672b1c0cc7063c7a3155b0460ed0f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-HYPER.ANS by Dizzy (fUEL); released in fuel17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hyper ?h? :) to jekyll! .
 # SAUCE Author: Dizzy
 # SAUCE Group: fUEL
@@ -29,7 +29,7 @@ Write-Host '
  [1;30m █[0;1;30;47m▓[0m▌[1;31m  [0;33m▀[0;1;31;43m░▒▓▄▄[0;1;31;40m█[0;1;31;41m▒[0;1;31;40m██[0;1;31;43m▓[0;1;31;47m▀▓▄[0;1;31;40m▀  ░░[0;1;30;40m  ▐[0;1;30;47m▓░[0m▄    ░░ [1m    [0;1;31m  [0m▬                          ▬[1;31m [0m▄▄▄[1;47m▐█[0;1;37;47m█[0m
  [1;30m▐[0;1;30;47m▓[0m▌    [1;37m [0;33m▀▀[0;1;31;43m░▓[0;1;31;40m█▀[0;1;31;43m░▓[0;1;31;47m▄[0;1;31;40m▀▀  [0;31m     [0;1;30m  ▐▀[0;1;30;47m▓░[0m▄   [1;37m           [0m                           ▀[1;47m▀██[0;1;37;47m█[0m
 [1;30;40m █[0m▐░[1;31m  [0m     [1m [0m [1m [0;33m [0;1;37m [0m                 [1;30m [0m                                       ░░▓▄▀[1;47m▀[0;1;37;47m█[0m
-▒[1;30m▌[0m▀                   [1;30mcoomands & shit here!.. [0m                             ░▓░[1;31m [0m▀
+▒[1;30m▌[0m▀                   [1;30m                        [0m                             ░▓░[1;31m [0m▀
 ▀    [1;37m  [0m                                                                     ░
 [1;37m     [0m
 
@@ -38,7 +38,4 @@ Write-Host '
  [1m▓[0;1;47m░[0;1;30;47m░[0;1;30;40m▌[0m [1;30m░░[0m [1;30m▄[0m read!
 [1m▌[0m [1;30;47m▌ ▓[0;1;30;40m  ▄[0m
 [1m▀[0;1;47m▓░[0;1;30;47m ░▓[0;1;30;40m▀[0m  [1;30m▓▓░░[0m
-  ▀[1;30;47m░[0;1;30;40m▀[0m    [1;30m░░[0m
-[1;30m  main menu to jekyll''s board called Hyper .. something (can''t remember)..;). [0m
-[1;30m  ok this was a trade,.. but i still to freebies.. when I want to.. ;).. [0m
-[1;30m  requests: [0mDizzysmail[1;30m@hotmail.com[0m'
+  ▀[1;30;47m░[0;1;30;40m▀[0m    [1;30m░░[0m'

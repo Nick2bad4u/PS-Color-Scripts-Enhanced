@@ -5,7 +5,7 @@
 # Source SHA-256: b2a65d75be5b329aff5497ff7f0cbd3f30e3f8bc456a5adf89113267f41e3b41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-TNA.ICE by Magnetic M (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
@@ -19,7 +19,7 @@ Write-Host '
     [35m░[0;1;37;45m▒[0;1;37;40m███▄  [0;1;37;45m▒[0;1;37;40m█[0;1;37;45m░[0m   [1;37;45m▒[0;1;37;40m██[0;1;37;45m▒[0m   [1;37;45m▒[0;1;37;40m████▄   [0;1;37;45m▒[0;1;37;40m█[0;1;37;45m░[0m  [1;37;45m▒[0;1;37;40m█[0;1;37;45m▒[0m
      [35m▒[0;1;37;45m▓[0;1;37;40m████▄▄▀▀  ▄[0;1;37;45m▓[0;1;37;40m█[0;1;37;45m▓[0m    [35m░[0;1;37;45m▓[0;1;37;40m██[0;1;37;47m▓[0;1;37;40m██▄[0m▄ [1m▀▀ ▄[0;1;45m▓[0;1;40m█▄[0m          Special whoo-s out to
      [1m▄[0;1;45m▒[0;1;40m▀▀[0m         [1;40m▀[0;1;47m▀[0m      [1;45m░[0;1;40m▀[0;1;47m▀▒[0;1;30;40m▄ [0m▀      [1m░ [0m▀[1m▀[0m▄      Syntax and Friar ...
-    ▀                        ▀              [1;30m°[0m           ... thanks guys! :)
+    ▀                        ▀              [1;30m [0m                              
 
                         [1;30m▀[0m▄         ▄■[1;30m▀   ▄■[0m
 [1;30m   ouiii!  :)[0m             ▀■▄[1m▄▄[0;1;47m▄[0;1;40m▄▄[0;1;47m▄[0;1;40m▄[0;1;30;40m▄[0m▄■▀                      [1;30m▄■[0m

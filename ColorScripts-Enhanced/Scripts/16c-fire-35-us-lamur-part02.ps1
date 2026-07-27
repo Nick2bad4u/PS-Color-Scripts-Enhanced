@@ -5,7 +5,7 @@
 # Source SHA-256: b5af104130916888d93b1eebe5b8c2166c75a1e92a9be721513a786bcb3bfc32
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LAMUR.ANS by Necro + Tainted (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: la muerte
 # SAUCE Author: necro / tainted
 # SAUCE Group: fire
@@ -59,6 +59,4 @@ Write-Host '
        [1;30m█[0m                                                               ▄█[1;30m▄▀[0m
        [1;30m▀▄▄▄▄  ▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄▄▄[1;30m▄▄▄[0m▄▄▄▓▄▀
                                                                       ░
-                                                                      [1;30m▒[0m
-
-                         [1;30mnecro[fire][0m      [1;30mtainted[fire][0m'
+                                                                      [1;30m▒[0m'

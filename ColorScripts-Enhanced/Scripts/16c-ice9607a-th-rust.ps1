@@ -5,7 +5,7 @@
 # Source SHA-256: 6b66da4394ef47c9a32b7ea93e1bf755341594b7163b565d16ec68bc30e4d572
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-RUST.ICE by thrasher (fuel.iCE); released in ice9607a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rust matrix
 # SAUCE Author: thrasher
 # SAUCE Group: fuel.iCE
@@ -39,11 +39,11 @@ Write-Host '
 [34m▐█▄▄▄▄▄▄▄▄▄▄▀▄▒▒▄[0;1;34;44m▄[0;34m▄█▀██[0;1;34;44m▀▒[0;34m▌     [0;37m   [0;31m▀▌▀▀[0;1;34;41m░[0;34m [0;1;31m▀██▄▄[0;1;31;41m░[0;1;31;40m██[0;1;31;41m▒█[0;1;31;40m█████████[0;1;31;47m▓▓▓▒[0;1;31;40m▀[0m▀[1;31m [0;33m░[0;1;31m▄▄[0;1;31;47m▒▓[0;33m▓▒░[0;37m [0;31m▄[0;1;31;41m░▒[0;31m▌[0m
 [1;34m [0;34m▀[0;1;34;44m░░[0;36;44m.thrasher!fuel.iCE.[0;34;40m▄█ ▄█[0;1;34;44m▒░[0;34m▄▄[0;37m [0;34m▄[0;37m [0;31m▀[0;37m   [0;31m▀[0;34m [0;1;31m▀█[0;1;31;43m▄[0;1;31;40m▄▄[0;1;31;43m▓[0;1;31;40m█[0;1;31;41m▓[0;1;31;40m█████[0;1;31;47m▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m▀▀[0m▀[1;31m [0;33m▄[0;1;31m▄▄[0;1;31;43m▄[0;1;31;40m█[0;1;31;47m▓▒▓[0;33m▓░[0;37m [0;31m▄[0;1;31;41m░[0;31m▀▀░ [0m
 
-[37mthis one''s for massmurdrers rust![0m
-[37mcoming up next... free coke for tna & fluor[0m
-                  [37m??? for crayon[0m
-                  [37mnitro for estatic[0m
+[37m                                 [0m
+[37m                                           [0m
+                  [37m              [0m
+                  [37m                 [0m
 
-[37mbe patient guys :)[0m
+[37m                  [0m
 
 [37mc ya![0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 76e2392d48c106189807cb37b21dea8f7bf8961b650a4cb5f2435ec1624c12f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: vp-abz.ans by Vapor (rmrs-39); released in rmrs-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -22,7 +22,7 @@ Write-Host '
         [1;36m┐$$  [0m  [36m [0;37m$$ [0;1;37m$$$$$[0m $$$$ [1;37m$$$$[0m  [1;37m$$$[0m  [1;37m││[0m [1;37m││[0m [1;37m$$$$$$$$$$$$$$[0m ⁿⁿⁿ
       [1;36m,$$$[0m     [36m [0;37m$$ [0;1;37m$$$$$[0m ⁿⁿⁿⁿ [1;37m$$$$[0m  [1;37m$$$[0m  [1;37m$$[0m [1;37m$$[0m [1;37m$$$$$$$$$$$$$$$$$$$$$$$[0m
      [1;36ms$$ⁿ[0m      [36m [0;37m$$ [0;1;37m$$$$$$$$$$$$$$$[0m  [1;37m$$$$$$$[0m [1;37m$$[0m [1;37m$$$$$$$$$$$$$$$$$$$$$$$[0m
-    [1;36m:│└[0m [34m▌[0m     [1;36m [0;36m [0;37m$$ [0;1;37mⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ[0m  [1;37mⁿⁿⁿⁿⁿⁿⁿ[0m [1;37mⁿⁿ[0m [1;37mⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ[0m sss [1;37m$$$$[0m
+    [1;36m │└[0m [34m▌[0m     [1;36m [0;36m [0;37m   [0;1;37m               [0m  [1;37m       [0m [1;37m  [0m [1;37m              [0m     [1;37m    [0m
      [36m ,[0;37m [0;34m▌[0m    [1;36ms$[0;36m [0;37m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ [0;1;37m$$$$[0m
       [36m `[0;34m▌[0;37m   [0;1;36mS$$*** [0;1;30m***************[0m                                [1;37m$$$$[0m
       [34m  ▌[0;36m*[0;37m  [0;1;36m$$$[0m $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ [1;37m$$[0m [1;37m$$$$$$$$$$$$$$$$$$$$[0m
@@ -33,5 +33,4 @@ Write-Host '
         [1;36m:[0m          [1;30m$$$$$$$$$$$$$$$[0m  [1;36m`┘$[0m
                    [1;30m```````````````[0m   [1;36m,`[0m
         [1;36mi[0m
-[1;30m::([0m  [36m6[0;1;30m,[0m  [36m24[0;1;30m)[0m   [36mColor[0;37m  [0;34movr[0;37m [0;1;30m%[0m [1;30m#[0m1 [31;41m [0;37;41mF:[0;31;41m [0;37;41m1=[0;1;37;41m░[0;31;41m [0;37;41m2=[0;1;37;41m▒[0;31;41m [0;37;41m3=[0;1;37;41m▓[0;31;41m [0;37;41m4=[0;1;37;41m█[0;31;41m [0;37;41m5=[0;1;37;41m▀[0;31;41m [0;37;41m6=[0;1;37;41m▄[0;31;41m [0;37;41m7=[0;1;37;41m▌[0;31;41m [0;37;41m8=[0;1;37;41m▐[0;31;41m [0;37;41m9=[0;1;37;41m■[0;31;41m [0;37;41m10=[0;1;37;41m·[0;31;41m [0;30;40m [0;31;40m░░[0m
-[37;40mAre you thinking right now? vap0r.[0m'
+[1;30m::([0m  [36m6[0;1;30m,[0m  [36m24[0;1;30m)[0m   [36mColor[0;37m  [0;34movr[0;37m [0;1;30m%[0m [1;30m#[0m1 [31;41m [0;37;41mF:[0;31;41m [0;37;41m1=[0;1;37;41m░[0;31;41m [0;37;41m2=[0;1;37;41m▒[0;31;41m [0;37;41m3=[0;1;37;41m▓[0;31;41m [0;37;41m4=[0;1;37;41m█[0;31;41m [0;37;41m5=[0;1;37;41m▀[0;31;41m [0;37;41m6=[0;1;37;41m▄[0;31;41m [0;37;41m7=[0;1;37;41m▌[0;31;41m [0;37;41m8=[0;1;37;41m▐[0;31;41m [0;37;41m9=[0;1;37;41m■[0;31;41m [0;37;41m10=[0;1;37;41m·[0;31;41m [0;30;40m [0;31;40m░░[0m'

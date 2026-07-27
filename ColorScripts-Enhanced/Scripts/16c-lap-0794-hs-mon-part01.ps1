@@ -5,7 +5,7 @@
 # Source SHA-256: 21085b0e4b22d624b2c0eabfc11a9afc786f3387a23e0427d6ed3567537cc916
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HS-MON.ANS by HellSpawn (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Monastery of Destruction
 # SAUCE Author: HellSpawn
 # SAUCE Group: Lapse
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-  [32m░[0m                         [1;30meef you would leeke [0;32man [0;1;32ma[0;32mn[0;1;30msee done by Mouee,HellSpawn[0m
-[1;30m  [0;32m▒[0m                  [36m░[0m         [1;30mOr anyother [0;1;37mLa[0mpse Me[1;30mmber  contact any member[0m
-[1;30m  [0;32m▓ ▄[0;1;32m▀[0m               [36m▒[0m        [1;30mboard <aeon flux-8[0;32mo1[0;1;32m-2[0;32m9[0;1;30m8-44o9,good plug>[0m
+  [32m░[0m                         [1;30m                    [0;32m   [0;1;32m [0;32m [0;1;30m                           [0m
+[1;30m  [0;32m▒[0m                  [36m░[0m         [1;30m            [0;1;37m  [0m      [1;30m                        [0m
+[1;30m  [0;32m▓ ▄[0;1;32m▀[0m               [36m▒[0m        [1;30m                  [0;32m  [0;1;32m  [0;32m [0;1;30m                 [0m
 [32m▀ █▐   [0;1;32m▀[0m             [36m▓[0m
 [36m [0;32m▌[0;1;32;42m▄[0m  [1;32;40m▄[0;32m▀[0m              [36m█[0m                                 [1;37;47m█[0;1;37;40m▀▀▀▀▀▀[0m▀[1m▀[0m▀▀▀▀▀▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀▀▀[0m
 [1;32m▄   ▄[0m                [36m█[0m                                 [1;37;47m▓[0m [1;30;43m██▓▒░[0;33m███████▀▀▀▀▀▀▀████[0m

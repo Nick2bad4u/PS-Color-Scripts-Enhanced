@@ -5,7 +5,7 @@
 # Source SHA-256: adced20b17e3a9c86f931f88b7f6a8010dfc4a07b9988db9f6e786de8f3adf53
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-DKLIN.ANS by Ts (tl199409); released in tl199409 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 82-122
 # Columns: 1-80
 
@@ -28,7 +28,7 @@ Write-Host '
      [36m░░░░░░░░░    [0;33m▒▓▓▓▒░░▒▓▓▓▓▒▓▓██▓▒░▒░▒▓██▓▒░▒▓▓▓▓▓▓▓▓▓▒▓▒▒░[0m
                    [33m░░▒░░░░▒▒▒▒▒▒▓▓▓▓▓▒░▒▓▓▓▓▓▓▒▓▒▒▒▒▒▒▒▒▒▒▒▒░[0m
                      [33m░░░░░░░░░░░▒▒▒▒▒░░░▒▒▒▒▒▒▒▒░░░░░░░░░░░░[0m
-                             the perilous crags of                  [1;30m▄██▀[0m
+                                                                    [1;30m▄██▀[0m
 [1;30m▄ █▄ ▀▄[0m       [1;30m▄███▀   █▄ ▀██▄   [0;1;30;41m█[0;1;30;40m▄    ▄[0;1;30;41m█[0;1;30;40m▀   ▄██▄   ▀▀ ▄[0;1;30;41m██[0;1;30;40m▀  █▄ ▀[0;1;30;41m██[0;1;30;40m▄  █▌[0m
 [1;30;40m▀ ███ ▀█▄    ███  ▄█  ███  ███  [0;1;30;41m███[0m  [1;30;40m▐[0;1;30;41m██[0m   [1;30;40m██▀ ▀[0m     [1;30;41m███[0m [1;30;40m▄█ ███ ▀[0;1;30;41m███[0m [1;30;40m▀ ▄█████▄[0m
 [1;30;40m  ███  ▐█▌  ▐██   ██  ███  ▐██▌ [0;1;30;41m███[0m  [1;30;41m██[0;1;30;40m▌   ██[0m        [1;30;41m███[0m [1;30;40m▀  ███  ▐[0;1;30;41m██[0m  [1;30;40m▐██▀   ▀█[0m
@@ -47,7 +47,7 @@ Write-Host '
 [1;30;40m   [0;31mthiNE[0m     [1;30m██ ▀█▄[0m      [1;30m▓█[0m     [1;30m▄█▀  ▓█ ▀  █▌   ▓█[0m     [1;30m▄  ▓█ ▀   ██    [0;31mthiNE[0m
 [31m MAiN dUdE   [0;1;30m██   ▀█▄    ▒▌   ▄█▀    ▒▌    █▌   ▒▌   ▄█▀  ▒▌[0m     [1;30m██ [0;31mWhiPPiN'' BoY[0m
              [1;30m█▌[0m     [1;30m▀█▄  ░ ▄██▀[0m      [1;30m░[0m     [1;30m█    ░ ▄██▀    ░[0m      [1;30m█▌[0m
-[31mJade Creed   [0;1;30m▓▌[0m                                                  [1;30m▓▌   [0;31mPaperboy[0m
-             [1;30m▒[0m      Art thou man enough to brave th'' climb?      [1;30m▒[0m
+[31m             [0;1;30m▓▌[0m                                                  [1;30m▓▌   [0;31m        [0m
+             [1;30m▒[0m                                                   [1;30m▒[0m
              [1;30m░[0m                                                   [1;30m░[0m
-             [1;30m░[0m              [1;30miFX ∙ UNdERWoRLd ∙ iTC[0m               [1;30m░    ts.[TL].94[0m'
+             [1;30m░[0m              [1;30m                      [0m               [1;30m░              [0m'

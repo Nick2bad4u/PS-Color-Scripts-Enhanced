@@ -5,7 +5,7 @@
 # Source SHA-256: c3e59f354b4620e76d5e5753fd33f446ff7f67f0e8c6e9257c9343d049db5de4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FD-SI.ANS by flood (dox production); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: for war--
 # SAUCE Author: flood
 # SAUCE Group: dox production
@@ -31,6 +31,4 @@ Write-Host '
                   [1;33;42m▓▒░▒░░░░░▒▒▓▒▓[0m [30;44m▒▓▒░[0;1;34;44m▄▒██▓▀░[0m  [30;44m▒▓[0;1;30;40m░[0;30;44m█▓▒▀░░[0;1;30;44m  [0;1;34;44m▓▒▓▄[0;34m▌[0m
                    [1;33;42m▓▓▓▒▒▒▒▒▓▓█▓█[0m [30;44m░▒░[0;1;34;44m▀░[0;30;44m░[0;34;40m▀▀▀[0;37;40m  [0;34;40m▄[0;30;44m▒▒▀░▒▒░[0;1;34;44m▄▄▄█[0m█[1;34;44m▒░▒[0;1;30;44m [0m
                      [1;33;42m█▓▓▓▓▓[0;1;33;40m▀▀▀[0m [32m ▄▄▄▄▄▄▄▄█[0;37m [0;34m▀▀[0;1;36;44mfd[0;30;44m░░[0;1;30;44m [0;1;34;44m■▀███░▀▀░[0;1;30;44m [0;34m▀[0m
-                      [32m■▄▄▄▄▄██[0;1;32;42m▄▄▄█[0;1;32;40m▀▀▀▀▀▀▀▀[0;1;32;42m█[0;1;32;40m▄▄[0m [34m▀▀▀[0;30;44m░[0;34;40m▀▀▀▀▀[0m
-
-[1;32;40m [0m                             [1;32;42ms[0;1;32;40mynthetic_[0;1;32;42mi[0;1;32;40mntelliegence[0m'
+                      [32m■▄▄▄▄▄██[0;1;32;42m▄▄▄█[0;1;32;40m▀▀▀▀▀▀▀▀[0;1;32;42m█[0;1;32;40m▄▄[0m [34m▀▀▀[0;30;44m░[0;34;40m▀▀▀▀▀[0m'

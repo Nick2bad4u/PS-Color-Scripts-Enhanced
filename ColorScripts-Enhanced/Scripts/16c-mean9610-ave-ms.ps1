@@ -5,7 +5,7 @@
 # Source SHA-256: 903e04e4e835766939b16aa08940945d53ace970de242b3a3679e2004b1425d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-MS.ANS by avenger (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mean scheme
 # SAUCE Author: avenger
 # SAUCE Date: 19961031
@@ -29,8 +29,4 @@ Write-Host '
           [35m█[0;37m [0;35m▀[0;1;35;45m▀█[0;1;35;40m▄[0;35m [0;37m  [0;35m▌[0;37m  [0;1;30mave [0;34m▄▀[0;37m [0;35m▀[0;1;35m▀[0;1;35;47m▓[0;1;35;40m▄▄[0;1;35;45m░█[0;35m▌[0m   [1;35;45m▒[0;35m▐[0;1;35m▀[0;35m▀[0m        [34m▐▌[0;37m [0;35m    [0;37m  [0;35m▄[0;1;35;45m▄[0;1;35;40m█▀[0m [1;35;45m░█[0;35m░[0;37m [0;36m▀▀▀▀▀▀▀▀▀[0m
 [1;37mmean[0m           [35m▀[0;1;35m▀[0m [35m▄▌[0m       [34m▀▀ ▄▄[0;35m [0;1;35m▀▀[0;35m▀[0;1;35;45m░[0;1;35;40m▄▄[0;35m▄[0;1;35;45m░[0;35m▐[0m          [34m▓ [0;37m [0;35m█[0;37m [0;35m [0;37m [0;1;35m▄[0;1;35;45m▄█[0;1;35;40m▌[0;35m▄▄▄[0;1;35;45m▀█[0;35m▌[0;37m [0;1;37m   scheme[0m
                                  [34m▀▀[0m    [1;35m▀▀[0;35m▀[0m         [34m▐▌[0;35m▐▄█▄ ▀▀[0;1;35;45m▀[0;1;35;40m▒░[0m
-                                      [34m▀▀[0m           [34m▀▄[0;37m [0;35m▐▀  [0m   [1;35m░[0m
-
- Well, Nail phoned me one evening and got me really quick into Mean Scheme :)
- Sorry, Nail, but i think i''ll try it with EGA a little bit longer, at the
- moment I can handle three artgroups (as long as they don''t release monthly)[0m'
+                                      [34m▀▀[0m           [34m▀▄[0;37m [0;35m▐▀  [0m   [1;35m░[0m'

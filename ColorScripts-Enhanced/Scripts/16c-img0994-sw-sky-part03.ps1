@@ -5,7 +5,7 @@
 # Source SHA-256: 36827a77559d3e55faa9d1ba33812ed60846cbff2ebb5654103ad94acd3a9fae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SW-SKY.ANS by Sword Weaver (img0994); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 86-113
 # Columns: 1-80
 
@@ -26,14 +26,8 @@ Write-Host '
             [1;47m██▓▓▒▒▒░░ [0;30;47m▄[0m  [30;47m▄ [0;1;37;47m▒▓█[0;1;37;40m▄[0;30;47m▄[0;1;30;47m░[0;30;47m▐[0m [37;40m▀[0;1;30;47m░[0m█[1;47m░ ░░▒▒▒[0;1;40m▀ [0;1;47m█▓▒▒░[0m▀        ▀█[1;30;47m░[0m█▀
               [1m▀▀[0;30;47m▄▄▄▄[0m       [30;47m▄[0;1;37;40m▀▀ [0;30;47m▄▄[0m
 
-                                                             [1;37;40mSword Weaver[0m
-                                                           [1;37;40m     <Image>[0m
+                                                             [1;37;40m            [0m
+                                                           [1;37;40m            [0m
 
-                                [1;31;40m.∙THE SKYLOFT∙.[0m
-                                  [34m7O8-6548898[0m
-                  [1;34mHAVOK Member Board[0m         [1;34mTHUNDER Network[0m
-                  [1;34mMAD Distribution Site[0m        [1;34mFORCE Network[0m
-                  [1;34mDREADLoC Distribution Site[0m     [1;34mUFP Network[0m
-                  MECH CORP Distribution Site    uSu Network
-                  ART/MAG/HPAVC/O-2 Day Wares    DPS Network
-                  [1;30mAlways Looking For More Nets And Affils!!![0m'
+                                [1;31;40m               [0m
+                                  [34m7O8-6548898[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4ab97caa605b7e6dfd4894f2b62ed970971e0825d06d372fb502310b7bc5cfe6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZM-ANSiTRaPHouSE.ans by Zeromous (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ZM-ANSiTRaPHouSE
 # SAUCE Author: Zeromous
 # SAUCE Group: LAZARUS
@@ -23,7 +23,7 @@ Write-Host '
 [37m  [0;1;35;47m░▒▓█[0;36;47m▐[0;36;40m  [0;1;35;46m▓[0;1;35;40m [0;1;35;47m░▒▓█[0;1;36;47m▐[0;1;36;40m [0;1;35;47m░▒▓██[0;1;35;46m█[0;36m▌ [0;36;47m▐[0;36;40m   [0;37;106m▌[0m [1;35;47m░▒▓█[0;1;35;46m▌[0;1;35;40m  [0;1;35;47m░▒▓███[0;36m▌[0;1;35;47m░▒▓██[0;1;35;40m [0;1;35;46m▌[0;1;35;40m [0;1;35;46m▒[0;1;35;40m [0;1;35;47m░▒▓███[0;36m▌[0;1;35;46m▌[0;1;35;40m [0;35;105m▄[0;35m▄▄▄[0;1;35;45m▀▀[0;35m▄▄▄[0;1;35;45m▀[0;35m█[0;35;105m▒[0;35m▌[0m
 [37m         [0;1;35;47m▓[0m               [1;35;46m▒[0;1;35;40m   [0;36;47m▐[0;37;40m                       [0;1;35;47m▓[0m          [35m▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [37m                             [0;36;47m▐[0m
-[37;40m  [0;1;36;40mRADMAN: YOU CANT SUE THE   [0;1;35;46m▒[0m   [1;36mSTREETS AND YOU CANT BEAT THE TEETS![0m [1;36mLOLKBYE![0m
+[37;40m  [0;1;36;40m                           [0;1;35;46m▒[0m   [1;36m                                    [0m [1;36m        [0m
 
  [1;30mi can feel the judgement of the     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m  [1;30moooooh[0m
  [1;30mstreets as if we should know what[0m  ▄[1;36m▄████████████████████████████████▄[0m▄ [1;30myeaahh[0m
@@ -62,5 +62,4 @@ Write-Host '
 ░░░ [1;30;47m▄[0m██▓▓▓▓▓▓▒▒░ [1;30;47m▄[0m▓▓▓▓▓▓▓▓▒▒░ [1;30;47m▄[0m▓▓▓▓▓▓▓░░░░ [1;30;47m▄[0m██▓▓▓▓▓▓▒▒░ [1;30;47m▄[0m▓▓▓▓▓▓▓▓▒▒░ [1;30;47m▄[0m▓▓▓▓▓▓▓░░░
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-'
+[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

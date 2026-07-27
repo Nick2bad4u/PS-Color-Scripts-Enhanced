@@ -5,7 +5,7 @@
 # Source SHA-256: 166495bd8106138153fb0b7eedeeff933d20a49c692421d6efb6fd9388c4e0f1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-SOH.ICE by Tempus Thales (ice-0293); released in ice-0293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 24-53
 # Columns: 1-80
 
@@ -27,7 +27,7 @@ Write-Host '
 [33m    [0;1;30m░░░░[0m                                        [33m▐█████████▓▒ ███   ▐███▄  ▀███▄[0m
                                                  [1;30m▀[0;33m▀▀▀▀▀▀[0m     [33m▀█[0;1;30;43m▄[0m    [33m▀██▀   ▀██▀[0m
 [1;37m▄▄▄▄[0m▄[1m▄▄▄[0m▄▄[1m▄[0m▄▄▄▄[1;30m▄[0m▄▄▄[1;30m▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄▄▄[1;30m▄[0m▄▄▄▄[1m▄[0m▄▄[1m▄▄▄[0m▄[1m▄▄▄▄[0m
-                                                           [1;30mTempus Thales [[0;1;37mi[0mC[1;30mE][0m
+                                                           [1;30m               [0;1;37m [0m [1;30m  [0m
 [1;30m [0;1;37m▄▄▄▄   ▄▄▄▄▄  ▄   ▄  ▄[0m     [1;37m▄▄  ▄▄▄   ▄    ▄  ▄   ▄  ▄    ▄  ▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄▄▄[0m
 [1;37;47m▒▓[0m     [1;37;47m▒▓[0m   ██ [1;47m▒▓[0m  ██ [1;47m▒▓[0m   [1;47m▒[0m▌▐[1;47m▒[0m [1;47m▒[0m▄    [1;47m▒▓[0m   ██ [1;47m▒▓[0m  ██ [1;47m▒▓[0m   ██  [1;47m▒▓[0m  [1;47m▒▓[0m  ▀ [1;47m▒▓[0m   ██
 [1;47m░▒[0m     [1;47m░▒[0m   ██ [1;47m░▒[0m  ██ [1;47m░▒[0m    ▀▀  ▀     [1;47m░▒[0m   ██ [1;47m░▒[0m  ██ [1;47m░▒[0m▀▄ ██  [1;47m░▒[0m  [1;47m░▒[0m    [1;47m░▒[0m   ██
@@ -35,8 +35,8 @@ Write-Host '
     [1;30;47m▒░[0m ██   [1;30;47m▒░[0m ██  [1;30;47m▒░[0m [1;30;47m▒░[0m  [1;30;47m▒[0m  [1;30;47m▒[0m  [1;30;47m▒[0m [1;30;47m▒▓[0;1;30;40m▄ [0m██   [1;30;47m▒░[0m ██  [1;30;47m▒░[0m ██   [1;30;47m▒░[0m  [1;30;47m▒░[0m  [1;30;47m▒░[0m    ██   [1;30;47m▒░[0m
 [1;30;40m▄   [0;1;30;47m▓▒[0m ██   [1;30;47m▓▒[0m ██  [1;30;47m▓▒[0m [1;30;47m▓▒[0m   [1;30;40m▄[0m          ██   [1;30;47m▓▒[0m ██  [1;30;47m▓▒[0m ██   [1;30;47m▓▒[0m  [1;30;47m▓▒[0m  [1;30;47m▓▒[0m  [1;30;40m▄ [0m██   [1;30;47m▓▒[0m
 [1;30;40m▀▀▀▀▀   ▀▀▀▀▀   ▀▀▀▀   ▀▀▀▀▀[0m           ▀    [1;30m▀  ▀▀▀▀   [0m▀    [1;30m▀   ▀   ▀▀▀▀  [0m▀    [1;30m▀[0m
-                  [1;30mAn INC & iCE, Private Bulletin Board System.[0m
+                  [1;30m                                            [0m
 
 
-♥☻--- Revelation v0.92α
-♥♥ * Origin: Infinite Darkness ■ iCE SHQ ■ CCi WHQ ■ 12OO Megs (69:1305/0)[0m'
+                       
+                               ■         ■         ■                      [0m'

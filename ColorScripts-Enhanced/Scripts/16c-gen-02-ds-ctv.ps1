@@ -5,7 +5,7 @@
 # Source SHA-256: 5d7aff3c7421fc2daa24df42ba973a6e27cb2e9b35e258337533ad93674bdaee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ds-ctv.ans by Dyingsoul (gen-02); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19990107
 # SAUCE Dimensions: 80x29
 # Lines: 1-29
@@ -33,10 +33,4 @@ Write-Host '
            ▀[1;30;47m▄▓▓▓░▀[0;1;30;40m▄▄ ▄██████▀▀▀[0m [1;30;46m▌[0;1;36;46m▀[0;1;30;46m▐[0m [1;30m▀████[0;1;30;47m▓▓░▓▓▓[0;1;30;40m███[0;1;30;47m▓[0;1;30;40m█▐▄▀██[0;1;30;47m▓▓▓░░░░▓▓▓[0;1;30;40m█▀[0m
               [1;30m▀▀[0;1;30;47m▓▓[0;1;30;40m██████▀▀[0m       [1;30m▀[0m    [1;30m▀▀███[0;1;30;47m▓[0;1;30;40m█████▀▀[0m [35m▄[0;1;35;45m▄[0;1;30;40m  ▀███[0;1;30;47m▓▓▓▓[0;1;30;40m█▀▀[0m
                   [1;30m▀█▀▀[0m       ds?           [1;30m▀▀▀▀[0m   [35m▄[0;1;35;45m▄▀[0;35m▀ [0m    [35m [0;1;30m█▀▀[0m
-                                                [1;30m▄[0;35m▐[0;1;35;45m▀[0;35m▀[0m
-[1;30m.x(ANSi BY [0mDyingSoul[1;30m)x.....x([0;1;34mC[0;34mo[0;36ml[0;1;36mo[0;1;32mr[0;1;30m [0;1;33mT[0;33mV[0;1;30m)x...x(+o [0mMr[1;30m [0mWrong[1;30m([0mAWE[1;30m)x...................[0m
-
-[1;30mhere filth, Ill review this one for you too:[0m
-[1;30mthe [0;1;34m09/[0;34m01/[0;1;30m08 sucks and so does DyingSoul, and the bg totally sucks :P[0m
-[1;30moh yeah, I also should mentioned that TNA(AWE) did amazing touchups on this one.[0m
-[1;30m     [0m'
+                                                [1;30m▄[0;35m▐[0;1;35;45m▀[0;35m▀[0m'

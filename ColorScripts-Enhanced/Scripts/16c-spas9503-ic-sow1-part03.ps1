@@ -5,7 +5,7 @@
 # Source SHA-256: 11dd61142a87ded80b4a9fd43667a97b9f697a4dd0c22569b02172e4a8d4cea0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-SOW1.ANS by Impact (Spastic Studios); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sowhatchawant!
 # SAUCE Author: Impact
 # SAUCE Group: Spastic Studios
@@ -26,7 +26,7 @@ Write-Host '
 [1;36m [0;36m██▌   ▒ ░   ██  ▓  ██▌  ▓    ▐██   ░  ███▌ ░[0m      [1;36mthis about wraps it up for[0m
 [36m▐██▌   ▓ ▒  ▐██▌ ▀ ▐███  ▀    ███▌  ▒  ▐███▄ ▄███▄ [0;1;36mthis edition.. until next[0m
 [36m████▄  ▀ ▓ ▄████   ████▌[0m     [36m▐████  ▓   ▀█▓█████▀  [0;1;36mtime..[0m            [1;36mwOOP![0m
--------------------------------kut dis bitch here!------------------------------
+                                                                                
 
 
  [1m▄▀█▄▀█▄[0;35m▀██▄    [0;1;30m▄▓█▀[0;1;37m▄█▀▄█▀▄ ▄▀█▄▀█▄[0;32m▀██▄  [0;1;37m▄▀█▄▀█▄[0;31m▀██▄    [0;34m▄█▓▀[0;1;37m▄█▀▄█▀▄  [0;1;33m▄██▀[0;1;37m▄█▀▄█▀▄[0m
@@ -40,20 +40,4 @@ Write-Host '
 
 [1;37;40m▓   █ █  █ █▀▀▄ █▀▀▄ [0m▄
 [1m█ █ █ █  █ █▀▀▄ █  █ [0m▄
- [1m▀ ▀   ▀▀  ▀  ▀ ▀▀▀[0m
-[1mCash[0m: Your the one eYe gotta thank most, thank for the help/advice/etc.
-[1mShattershot[0m: Yo shiver foolio ;> nice ansi in the 02.95 shiv paq. improved alot!
-[1mMage[0m: Hope you like it in Int.. Int''s got the coolest people- next to Spastic ;>
--> thanx for the advise also that bearded man ansi was cool as hell.. good luq!
-[1mGd[0m: Send those mushrooms! 2 lbs. would fuq me up! - perminaltly.. tripp 4ever ;>
-[1mDrakul[0m: thanks for the ansi.. i like yer style.. that was a really cool font..
-[1mLeonard0[0m: wo0p fool! ;> you got an inlink acct. and never use it.. stupid! ;)
-[1mFalcon[0m: thanks for the loader.. jump into Spastic your a superb(w0w!) coder ;>
-[1mSpAZTiQ![0m: :) greets out to all the spas guys.. especially 33rie and The Wizard..
--> im happy to be releasing this month with spastic by my name..
-[1mPhoenix[0m: What the fuck is going on with Alpha.. Whats wrong with intermail??
-[1mThe Clone[0m: Your one of the people i dont see on irc much anymore.. kind of sucks
--> since your one of the cooler people i see on.. good luck with Penguim Monthly
--> running a group can be hard.. but i dont need to tell you about that kinda
--> stuff.. ;> thanx for the ansi.. ill do a better one for you soon..
-[1mAsphixia[0m: hey.. mabey ill be up to Baltimore soon to see joo nad typhus.. ;>[0m'
+ [1m▀ ▀   ▀▀  ▀  ▀ ▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1c21cb305cb5c7232bbfd5c433b454b6404709eff193d39af90e227f8b0251c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TO-DRKW.ANS by Toadie (blur); released in blur9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dark Waters
 # SAUCE Author: Toadie
 # SAUCE Group: blur
@@ -37,6 +37,4 @@ Write-Host '
 [1;30m  [0;31m▐███[0;1;30;41m░[0;31m███[0;31;41m [0;31;40m██[0;1;30;41m▐▄[0;1;30;40m▓▌  [0;1;30;41m░[0;31m█[0;31;41m [0;1;30;41m██[0m [1;30;41m  ▐[0;1;30;40m▓▌   [0;31m▐[0;31;41m  [0;31;40m█[0;1;30;41m▄█[0m   [31m▐██[0;1;30;41m▐[0;31m▄[0;1;30;41m▄ ▄[0;1;30;40m▓▌  [0;31m██[0;31;41m [0;1;30;41m▄█[0m [1;30;41m ▄[0;1;30;40m▌  [0;31m███[0;1;30;41m░▐[0;31m▄█[0;31;41m [0;1;30;41m▐█[0;1;30;40m▓[0m
 [1;30m ░ [0;31m█[0;1;30;41m▓[0;31m███▀▀█[0;1;30;41m▓▄[0;1;30;40m▓[0;1;30;41m█[0;1;30;40m█░  [0;31m██[0;1;30;41m▄█[0;1;30;40m▓ [0;1;30;41m▄▓[0;1;30;40m▓[0;1;30;41m██[0m    [31m█[0;1;30;41m▓[0;1;30;40m▓[0;1;30;41m█[0;1;30;40m▓   [0;31m█▓█[0;1;30m▓[0;1;30;41m▄█▓[0;1;30;40m█▀   [0;31m██[0;1;30;41m▓[0;1;30;40m▀▓ ▓[0;1;30;41m█[0;1;30;40m▓   [0;1;30;41m▓[0;31m██[0;1;30;41m░[0;31m█[0;1;30;41m█▄█[0;1;30;40m▓▌  [0;34m░[0m
          [1;30m░ ▀▀▀▀▌  [0;34m░  [0;1;30m▓▀   ▀▀░▀▀░    ▀▀▀░    ▀  ░▀▀▌[0m         [1;30m▀▀▀░[0m      [1;30m▄░▀▀▀▄░[0m
-         [34m░[0m
-                               [1;31mS[0;31my[0;1;30msOp^Comra[0;31md[0;1;31me[0m
-                            [1;31mN[0;31mu[0;1;30mmber^(Com)ing-So[0;31mo[0;1;31mn[0m'
+         [34m░[0m'

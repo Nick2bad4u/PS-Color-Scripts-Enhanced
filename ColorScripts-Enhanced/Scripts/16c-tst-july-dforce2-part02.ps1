@@ -5,7 +5,7 @@
 # Source SHA-256: 13d1aba0af0384eee66a2b68ae115b83b3c630e79b7b0ff13a41470675401a91
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DFORCE2.ANS by Senator (tst-july); released in tst-july and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 41-75
 # Columns: 1-80
 
@@ -35,13 +35,13 @@ Write-Host '
            [31m──────────────────────────────────────────────────────────[0m
      [31m══════════════════════════════════════════════════════════════════════[0m
 [31m────────────────────────────────────────────────────────────────────────────────[0m
-                           [36m·∙■ TST Member Board ■∙·[0m
-[36m·∙■ 19.2oo TΣRbΘ SpΣΣD ■∙·  ·∙■ 24 HΘuRz Θ∩li∩Σ ■∙·  ·∙■ ΘvΣr 500MB Hd-SpαcΣ ■∙·[0m
-                        [36m·∙■ Ru∩∩i∩ u∩dα PcBΘαRd 15.1 ■∙·[0m
-       [36m·∙■ SµSφP: SENATOR ■∙·[0m                      [36m·∙■ CφSµSφP: HAGIE ■∙·[0m
-        [36m·∙■ KΣWL DΣmΘ CΘllΣcTiΘ∩s ■∙·    ·∙■ KΣWL AnSi CΘllΣcTiΘ∩s ■∙·[0m
-                           [36m·∙■ MΣGα PPE SuPPφRt ■∙·[0m
+                           [36m  ■                  ■  [0m
+[36m  ■                    ■      ■                 ■      ■                     ■  [0m
+                        [36m  ■                          ■  [0m
+       [36m  ■                ■  [0m                      [36m  ■                ■  [0m
+        [36m  ■                       ■        ■                       ■  [0m
+                           [36m  ■                  ■  [0m
                      [36m·∙■ CαLL ∩Θw: +49-(0)6221-12831 ■∙·[0m
-                       [36m·∙■ 28.8oo V.Fc CuMMiN SφφN ■∙·[0m
-        [36m·∙■ GrΣΣtS tφ: CµBΣrDµ∩Σ SµStΣmS - MuSiC CiTµ - HΘuSΣ oF PαiN ■∙·[0m
+                       [36m  ■                         ■  [0m
+        [36m  ■                                                           ■  [0m
 [31m──────────────────────────────────────└───────└───────└───────└───────└───────└─[0m'

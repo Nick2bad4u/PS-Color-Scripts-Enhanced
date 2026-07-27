@@ -5,7 +5,7 @@
 # Source SHA-256: 9a463fa2a19340111aa6833285dcd864e0e2a99f8b27ea40ed68a189ddf325b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-j2.ans by Avenging Angel + Aesthetic (jasper03); released in jasper03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -31,13 +31,6 @@ Write-Host '
 [32m  [0;37m   [0;31m  [0m     [37m░▒▒[0;1;30m▌ ▒▓▓▓███[0;1;30;47m▓░▒▓▓[0;1;30;40m█[0;1;30;47m▒[0;1;37;40m   [0;35m▀▀▀[0;1;37m [0;35m▄[0;37m  [0;1;37m░▒▒▒▒▒[0m▓▓▓▓▒▒[1m░░░[0m▒[1;30m▒▒░ ░[0m    [1;35m░░░░░[0m
 [1;32m  [0m                  [34m  [0;37m ▄▄[0m
 [1;30m░░░[0;1;32m  [0mstarted[35m  [0;1;37mavg[0m      [30;47m▬[0;1;37;40m▒▒▒[0;1;34;47m░░▓[0;1;34;44m▒[0;1;34;40m▓▒▒[0;1;34;44m▓▒[0m [1;34;44m░[0;34m▓▒░  [0;37m [0;1;36mj[0;36ma[0;1;30msper - we slap hoes for fun ☺☻[0m
-     finished[35m  [0;1;37m43[0m      ▬
+             [35m  [0;1;37m  [0m      ▬
 
-[1;30mthis has been a happy-[0m ▬                    [1;30mi USED to be skinny.... thanks to[0m
-[1;30mpappy simultANeoUS joint[0m                    [1;30mpablodraw... i can now eat AND[0m
-[1;30m..we love pablo draw :).[0m                    [1;30mdraw ansi... AT THE SAME TIME!..[0m
-                                            [1;30mi USED to have a drug problem,[0m
-                                            [1;30mand now i have more money.. >>j<<[0m
-
-                                            [1;30mwe wont be held down.[0m
-                                            [1;30mp.diddy rules  avg_[0m'
+[1;30m                      [0m ▬                    [1;30m                                 [0m'

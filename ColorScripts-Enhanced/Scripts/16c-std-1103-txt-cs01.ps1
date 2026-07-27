@@ -5,7 +5,7 @@
 # Source SHA-256: efcbbf696c0e4b0991430dc4431db013a88a48740b208e1c806bc7afc7a0fd2c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TXT-CS01.ANS by The Textorcist (std); released in std-1103 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: its a kind of weed :)
 # SAUCE Author: The Textorcist
 # SAUCE Group: std
@@ -39,4 +39,4 @@ Write-Host '
          [1;37m░░░▒▒▓▓▓▓[0;1;33m▀▀▀▀[0;33m▀▀[0;1;30m▀[0m   [1;33m▄[0;33m▄▀[0;1;33m  [0;1;32m▒▒[0;1;33m [0;1;32;42m▀▓[0;1;32;40m▄[0;1;32;42m▓▓▄[0;32m▄[0;1;30m▀[0;1;32m▀█[0;1;32;42m▄[0;1;32;40m▄[0;1;30;40m .[0;32mcY[0;1;32mTR[0;1;33mA[0;1;37mL[0;32m ▀[0;1;30m▀[0m [35m▄▄[0;37m [0;35m█[0;31;45m▄[0;31;40m▒[0;35;40m▀▀[0;31;40m▀▀[0;1;30;40mtxt[0m
   [1;30m░[0m░[1m░░░[0m    [1;30m [0m [1;30m    [0m     [1m▄▄▄[0;1;33m███░[0;33m░[0;37m [0;1;32m░░[0m [1;33m  ▄[0;1;30m▀[0;1;32;42m▀[0;1;32;40m█▄[0;32m▀[0;1;32;42m▓▄[0;1;32;40m▄[0;32m▀[0;1;32m▓▓[0;1;30m .[0;32msK[0;1;32mUN[0;1;33mK[0;1;37m!@[0;1;32m [0;35m▄[0;31m░[0;35m▀[0;31m▀[0m
            [1;30m   [0m    [1m▒▒▒▓▓▓█[0;1;47m▀[0;1;40m▀[0;1;30;40m▀[0m       [1;33m▀[0;33m▀[0;37m  [0;1;32m▒▒[0;1;33m [0;1;32m▒▒▒ [0;32m░░[0m
-        [1;30m░[0m░░[1m░░░[0;1;35m heaven smiles [0;35mabove[0;1;35m me,[0m [32m▒▒[0;37m [0;32m▒▒▒[0;37m  [0;1;35mwhat a gift here [0;35mbelow[0;1;35m.[0m'
+        [1;30m░[0m░░[1m░░░[0;1;35m               [0;35m     [0;1;35m    [0m [32m▒▒[0;37m [0;32m▒▒▒[0;37m  [0;1;35m                 [0;35m     [0;1;35m [0m'

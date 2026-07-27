@@ -5,7 +5,7 @@
 # Source SHA-256: 4251b2e133c93b35f47106d13932b144e53fe105c23f3fad166ef2a2f04357c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-BS!!1.ANS by dark horizon (rile); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bUULLLSHITTTTTTTT.
 # SAUCE Author: dark horizon
 # SAUCE Group: rile
@@ -26,7 +26,7 @@ Write-Host '
      [1;33;40m▐[0;33m▓[0m      [1;30m▀▀[0m     [1;32m█[0;1;32;42m▓[0;32m█[0;1;32;42m▀[0;32m██[0;1;32;42m░[0;32m█[0;1;30;42m░[0;32m█[0;1;32;42m░[0;32m█░▀ [0;1;33m▄█[0;1;33;43m░[0;32m▓[0;1;30;42m▀█[0;1;30;40m█ [0;32m█▓█ ██[0;1;30;42m░  ▓▀██[0;1;30;40m▌[0m
 [1;30;40m    [0;1;33;40m■▀[0m              [1;32;40m▐█[0;32m█[0;1;32;42m░[0;32m█████▀░[0;1;33m▄▄[0;1;33;43m█[0;1;33;40m█[0;1;33;43m█[0;1;33;40m▀ [0;32m▄[0;1;30;42m░▓[0;1;30;40m█ [0;32m▓██ █[0;1;30;42m░[0;1;32;42m░[0;32m█[0;1;30;42m░ ██▓▒[0m
                      [1;32;40m█[0;1;32;42m▌[0;32m█[0;1;32;42m░[0;32m█▀▓[0;1;33m▄▄[0;1;33;43m██▓█▀░[0;33m█▄ [0;1;30m▀▓ ░[0;32m▀▀▀████[0;1;30;42m░ ░▓█[0;1;30;40m█▌[0m
-[1;30;40m   !BULLSHIT![0m        [1;32;40m▐[0;1;32;42m▓[0;32m█[0;1;32;42m▒[0;32m▓[0;1;33m▄█[0;1;33;43m█▀▀▓██▌ [0;1;30;43m░[0;33m██▄ [0;1;30m▄███▄▄ [0;1;30;42m▒░▄▓▄[0;1;30;40m██▀[0m
+[1;30;40m             [0m        [1;32;40m▐[0;1;32;42m▓[0;32m█[0;1;32;42m▒[0;32m▓[0;1;33m▄█[0;1;33;43m█▀▀▓██▌ [0;1;30;43m░[0;33m██▄ [0;1;30m▄███▄▄ [0;1;30;42m▒░▄▓▄[0;1;30;40m██▀[0m
                       [1;33;40m▄▄▄ ▀[0;1;33;43m▓ [0;33m█[0;1;33;43m▓[0;33m▀[0;1;33;43m■▀░ [0;33m███▄[0;1;30;43m░▓■[0;33m█[0;1;30;43m▓█[0;1;30;40m██▌▀▀▀▀[0m
                      [1;33;40m█[0;1;33;43m▓█▀░[0;33m▄▄▓▄▄[0;30;43mp00p[0;33;40m▓▓█[0;1;30;43m░[0;33m███[0;1;30;43m░▄▄▓[0;1;30;40m██▀[0m
                      [1;33;40m▀[0;1;33;43m███▄░▄■[0;1;30;43m░[0;33m█▀▀▄[0;1;30;43m░[0;33m█[0;33;43m  [0;1;30;43m■▓[0;33m▄[0;1;30m▓▀███▀[0m

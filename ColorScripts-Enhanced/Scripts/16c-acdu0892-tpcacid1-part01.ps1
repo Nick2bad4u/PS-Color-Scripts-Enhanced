@@ -5,7 +5,7 @@
 # Source SHA-256: 146b93fd1d42581119a913b5b9f934254d65df81a7a0211074355aca745bf974
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TPCACID1.ANS by Blade Runner (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -44,5 +44,4 @@ Write-Host '
 [47m            [0;40m▌[0;1;30;40m██[0m▒[44m [0;1;36;46m▒▒[0;1;36;44m [0;1;36;46m▒▒[0;1;30;44m▐[0;1;30;40m▌ ░▒▒▓[0;1;30;44m███[0;1;36;43m▄▄[0;33;44m▀[0;1;36;43m▄[0;33;44m████████[0;33;40m███████[0;1;30;43m▄▄[0;1;30;40m█[0m           [1;37;40m·[0m          [1;30;40m·[0m
 [1;30;40m▄█[0;1;30;47m [0;1;30;40m▄▄▄▄▄▄▄█[0;1;30;47m [0m▌[1;30m██[0m▒[44m [0;34;46m▀▀[0;34;44m [0;34;46m▀▀[0;1;30;40m█ ░▒▒▓▓█[0;1;30;44m█▌[0;34;46m▀▀[0;34;44m [0;34;46m▀▀[0;34;44m [0;37;40m▒[0;37;44m [0;34;40m▓▓▒▒░[0;1;30;40m▐▌ ░▒▓▓██    [0m· [1m·[0m
 [1;47m            [0m▌[1;30m██[0m▒[44m [0;1;36;46m▒▒[0;1;36;44m [0;1;36;43m██[0;1;30;40m█ ░▒▓▓██[0;1;30;44m█ [0;1;36;46m▒▒[0;1;36;44m [0;1;36;46m▒▒[0;1;36;44m [0m▒[44m [0;34;40m▓▓▒▒░[0;1;30;40m█ ░▒▓▓███[0m                   [1;30;40m·[0m
-[1;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-'
+[1;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

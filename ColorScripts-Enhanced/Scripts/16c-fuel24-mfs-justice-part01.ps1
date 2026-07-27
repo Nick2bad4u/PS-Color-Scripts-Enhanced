@@ -5,7 +5,7 @@
 # Source SHA-256: d312f2635c632c6c5077258cf0d74d084ecade6a0e6c3b5d3bdebc97833b2f70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mfs-justice.ans by Mel Farr Suppastar + The Knight (Fuel); released in fuel24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nolalsattutor.com
 # SAUCE Author: Mel Farr Suppastar
 # SAUCE Group: Fuel
@@ -17,7 +17,7 @@
 # Columns: 1-80
 
 Write-Host '
-     [1;31;43mF[0murious [1;31mU[0mtopians [1;31mE[0mntering [1;31mL[0mitigati[1;30;43mon[0;1;30;40m [0mpresnts: an [1;33mmfs [0mjo[1;30;43min[0mt (tk helped)
+     [1;31;43m [0m       [1;31m [0m        [1;31m [0m        [1;31m [0m       [1;30;43m  [0;1;30;40m [0m            [1;33m    [0m  [1;30;43m  [0m             
 
 [33m█[0;1;33;43m▒▒[0;33m▐ [0;1;33;43m▒▒[0;33m▀█ ▄[0;1;33;43m▓[0;30m [0;1;36m [0;1;33m [0;33m█[0;1;33;43m▒[0;33m▀▌ ▄[0;1;33;43m░░[0;1;33;40m  [0;33m█[0;1;33;43m░░[0;33m▀ ▄[0;1;33;43m░[0;33m▀▄ ▄[0;1;33;43m░░[0;33m▄ ▄[0;1;33;43m░░[0;33m▄ [0;1;33;43m░[0;33m▌▐[0;1;33;43m░[0;1;33;40m [0;33m▄[0;1;33;43m░░[0;33m▄ █[0;1;33;43m░[0;1;33;40m▀[0;1;33;43m░[0;1;33;40m  [0;33m▄█▀▀ ▐[0;1;33;43m░░[0;33m█ [0;1;33;43m░░[0;1;33;40m▀[0;1;33;43m░[0;1;33;40m [0;33m█[0;1;33;43m░[0;33m▌[0;1;33;43m░[0m
 [1;30;43m░[0;33m▐[0;1;30;43m░[0;1;33;43m░[0;1;33;40m [0;1;33;43m░░[0;33m▐[0;1;30;43m░[0;1;30;40m [0;1;33;43m░░[0;1;33;40m [0;1;36;40m [0;1;33;40m [0;1;30;43m░[0;1;33;43m░[0;33m▌█ [0;1;30;43m░░[0;1;33;43m░[0;1;33;40m  [0;33m▄[0;1;30m▄[0;1;30;43m░░[0;1;30;40m [0;1;30;43m░[0;1;33;43m░[0;33m▌[0;1;30;43m░[0;1;30;40m [0;33m▀[0;1;30;43m░░[0;33m▀ ▀[0;1;30;43m░░[0;33m▀ [0;1;30;43m░[0;33m▌▐[0;1;30;43m░[0;1;30;40m [0;33m▀[0;1;30;43m░░[0;33m▀ [0;1;30;43m░░[0;1;30;40m [0;1;30;43m░[0;1;30;40m [0;33m▐██   ▐[0;1;30;43m░[0;33m▄▄ [0;1;30;43m░░[0;1;30;40m [0;1;30;43m░[0;1;30;40m [0;1;30;43m░[0;33m▐[0;1;30;43m░[0;33m▐[0m

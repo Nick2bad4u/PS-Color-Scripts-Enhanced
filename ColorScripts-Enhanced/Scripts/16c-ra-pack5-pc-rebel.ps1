@@ -5,7 +5,7 @@
 # Source SHA-256: 7d36dabcb16c7559559c319389d329f186f72024b6d36e2569dac62b995aa1a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-REBEL.ANS by Proctologist (SeNSE); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rebel Arts!@
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNSE
@@ -33,8 +33,4 @@ _,╖g$$$$$$$Ss,_[1;32m`╙$$[0;32mP[0;1;32mⁿ[0;32m"[0;1;32m^``[0m_d$#s 
 $$$$$$$$$$$$$$$$ [1;32ml''[0m     $$$$$$ [1;32m:[0m "`       ,d$$$$ [1;32ml''[0m,g#S$$$$P''  [1;32ml''[0m,g#S$$$$$$$$l
 $$$*╜ⁿ"^``"╜$$$$ [1;32m:[0m $,   ?$$$$$,_       ,d$$$$$$$ [1;32m:[0m `4$$$$$L    [1;32m:[0m $$$$$$$P*╜ⁿ''
 P`           ?$$,.,$$,   `╜S$$$$$Ss,_   `ⁿ?$$$P`     `$$$$$L   .,$$$$''        [31mp[0;1;31mC[0m
-[1;37m──────────────────────────────────────────[0m `ⁿ` [1m─────────────────────────────────[0m
-[1;31mP[0;31mroctologist[0;1;30m/[0;1;31mS[0;31meNSE[0m
-
-[1;30mRage asked me to guest in the pack so here I am.  I''ve never seen a Rebel Arts[0m
-[1;30mpack... I suppose now would be a good time to go download one. :)[0m'
+[1;37m──────────────────────────────────────────[0m `ⁿ` [1m─────────────────────────────────[0m'

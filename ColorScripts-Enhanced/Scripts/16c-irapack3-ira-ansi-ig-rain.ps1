@@ -5,7 +5,7 @@
 # Source SHA-256: 0a879939c9162cff7886bfb36798b6164f910890f594b15315c22951e2f97702
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IG-RAIN.ANS by Iguana (irapack3-ira-ansi); released in irapack3-ira-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -51,8 +51,8 @@ Write-Host '
    [32m   [0m                [37m│[0m          [1;32m█[0m     [32m▀[0m   [1;32;42m [0;32m▌[0m    [32m-[0;1;37mi[0mG[1;32mG[0;32my-[0m
 [32m   [0m                   [37m│[0m          [1;32m▐▌ [0m       [32m▐[0m     [1;37mi[0;32m [0;37mR[0;32m [0;1;32ma[0;32m![0m
                      [32m [0;37m│[0;32m [0m         [1;32m▐▌[0m
-                  [32m   [0m            [1;32m▐[0m    S[1mySoP[0m: [1mi[0mG[1;32mU[0;32maNa[0m
-                                 [32m  [0;37m [0;32mR[0;1;32mu[0mN[1mNiNG[0;32m [0;1;37miNiQU[0mi[1;32mT[0;32my![0m
+                  [32m   [0m            [1;32m▐[0m     [1m    [0m  [1m [0m [1;32m [0;32m   [0m
+                                 [32m  [0;37m [0;32m [0;1;32m [0m [1m    [0;32m [0;1;37m     [0m [1;32m [0;32m  [0m
                       [1;37m·[0m           [1;32m  [0m [1m[[0m7[1;32mo[0m9[1m][0m.[1;32m3[0;32m34.23[0;1;32m7[0m1[1m][0m
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 12f5b2fed584e0a7ae0f70ef3e92670d4052aeb894d8f3a80f84198651c541a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-GOL1.ANS by Chromatik (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Golgotha
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -43,18 +43,18 @@ Write-Host '
 [1;30m▓▀▀▀▀▀▀▀▒▀▀▀▀▓▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▒ ▀▀▓[0m
 [1;30m▓ ▓▀▀▀▀ ▓ ▀▀▀▓ [0m5.5·GiGS  - Multi CD-ROM Changer(s) - 8 Nodez [1;30m▀▀▀▀▀▓▀▀▀▀▀▓  ░▓  ▓[0m
 [1;30m▒ ▒[0m     [1;30m█    ▒[0m                                                    [1;30m▓[0m     [1;30m▒   ▒  ▒[0m
-[1;30m▒ ░[0m     [1;30m▓  [0mRunning on Netware Dedicated/Netware Communications Server   [1;30m░   ░  ▒[0m
+[1;30m▒ ░[0m     [1;30m▓  [0m                                                             [1;30m░   ░  ▒[0m
 [1;30m░ ░   ░ ▒[0m                                                                   [1;30m░  ░[0m
-[1;30m░ ░   ░ ░[0m       1.3 GiG Tape Drive - 14.4 to 28.8 Callers ONLY!             [1;30m░  ░[0m
+[1;30m░ ░   ░ ░[0m                                                                   [1;30m░  ░[0m
 [1;30m▒[0m     [1;30m░ ░[0m                                                                      [1;30m▒[0m
-[1;30m█ ░   ░ ░[0m         Impact - Crimson - UHF - Sonic - Speed Nets           [1;30m░   ░  █[0m
+[1;30m█ ░   ░ ░[0m                                                               [1;30m░   ░  █[0m
 [1;30m█ ▒   ▒[0m          [1;30m░[0m                                                      [1;30m▒   ▒  █[0m
 [1;30m▓ ▓▄▄▄▓[0m          [1;30m▒ [0mFAT WHQ/ESo UTiLZ WHQ and Many Many More             [1;30m▓ ▄▄▓  ▓[0m
 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
                  [1;30m▒[0m                           [1;30m▒[0m
 [1;30m▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ░ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0m
 [1;30m█▀▀▀▀▓  a n s i · b y · c h r o m a t i k · o f · b l a d e · 1 9 9 4[0m       [1;30m▄▓▄█[0m
-     [1;30m▒▄▄▄▄▄▄▓ Andy! ... better than acid yet? =) DF/DX ... thanks...   ▓▄▄▄▄▓[0m
+     [1;30m▒▄▄▄▄▄▄▓                                                          ▓▄▄▄▄▓[0m
          [1;30m░  ░▀▀▀▀▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓ ▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▓▄▄░    ▒[0m
                  [1;30m▒[0m             [1;30m▒[0m          [1;30m▒[0m                    [1;30m▒[0m            [1;30m░[0m
                  [1;30m░[0m                        [1;30m░[0m'

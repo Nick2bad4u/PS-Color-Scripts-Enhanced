@@ -5,7 +5,7 @@
 # Source SHA-256: 5c62e4333bd0226f2119335534a4cdf8087cfc0a9fada23bab6f10af88057ca2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS@HLMEN.ANS by Blind Sniper (Department 38); released in d38-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Holdens Lair IV Menu (ARRGH!)
 # SAUCE Author: Blind Sniper
 # SAUCE Group: Department 38
@@ -25,7 +25,7 @@ Write-Host '
  [31;42m▓░[0;32;40m█████[0;37;40m  [0;31;42m░░[0;32;40m██▀[0;1;37;40m [0;1;36;40m▄[0;1;36;46m▄[0;1;36;40m▄▄▄[0m  [31;42m░[0;32;40m██████▌[0;1;37;40m   [0m              [1;30m▀[0;1;30;47m░░[0m▀   ▀[1;30;47m▄▄▒[0m███▀▀▄[1;30;47m░[0m█▐█▀▄█▐[1;30;47m░[0m█▄█[1;30;47m░░[0m▌
  [31;42m█░░[0;32;40m█[0;31;42m░░[0;32;40m██▄▄[0m   [1;36;40m▐[0;1;36;46m▓[0;1;36;40m██[0;1;36;46m▓▓[0;1;37;46m_■[0;1;37;40m [0;32m▀██████▄████▀[0;37m [0;1;30m               [0m      [1;30m▄▄▄▄[0;1;30;47m▒▒░░░[0m▄▀███▄▀▀█[1;30;47m░░[0m▀
 [1;36m▌   ─     [0;32m▀▀▀▀[0;37m [0;1;36m▀▀▀[0;1;36;46m▓[0;30;46m▄▄▄▄[0;37;40m  [0;32;40m▀▀▀▀▀▀[0m   [37;40m   [0m                     [1;30;40m▀▀[0;1;30;47m▓[0m▀▀▀▀▀ ▀▀▀▀▀▀▀▀    ▀
-[1;36m█▐ [0;1;37mPainting Of The Holdens Lair IV "The Awakening", by Blind Lè Sniper Of d38[0m [1;36m█▐[0m
+[1;36m█▐ [0;1;37m                                                                          [0m [1;36m█▐[0m
 [1;36m█                       ▄                            [0;1;37m▄[0;1;36m                         ▐[0m
 [1;36;46m▓[0m [1;36m    [0;30;46m▓▓[0;1;36;40m       [0;1;32;40m▄▄[0;1;36;40m██▀▀▀                                  [0;1;37;40m▀▀██▄[0;1;36;40m▄[0;1;37;40m▄[0;1;36;40m               [0m [1;36;46m▓[0m
 [1;36;46m▒[0;1;36;40m     [0m     [32m   [0;1;32m▐[0;1;36m███ [0;32m            [0;1;36m    [0;1;36;41mt[0;1;36;40mIME[0;1;37;40m:[0;1;36;40m [0;36mMCI[0;32m                 [0;1;36m███▌[0;32m      [0;37m  [0;36m░░[0;1;36m    [0;1;36;46m▒[0m
@@ -38,22 +38,4 @@ Write-Host '
 [1;36;46m:[0m [36m[[0;1;36;41mO[0;36m][0;1;36mPage Sysop[0;32m..............[0;36m][0;1;36m     [0m              [36m[[0;1;36;41mN[0;36m][0;1;36mSystem News[0;32m..............[0;36m][0;37m [0;1;36;46m:[0m
 [1;36;46m:[0;36m▄[0m                                [31m▐[0m                                           [36m▄[0;1;36;46m:[0m
 [1;36;46m\\%o,._[0;36m█[0;1;36;46m_.,sS$`''∙,∙''`∙,· ·░ [0;36m▌▌█▐  [0;1;36;41mc[0;1;36;40mOMMAND[0;1;37;40m:[0;36m CMD   ▌█▐▐[0;1;36;46m░· ·,∙`''∙,∙''`$Ss,._ _.,o%//[0m
->Cut Here F0o!<-----------------------------------------------------------------
-
-[1;32mO[0;32mkays, heres the sucessful steps to getting a menu request from me.[0m
-
-[1;32m1[0;32m. Call up tHE AGENCY (649-410-6940), or e-mail (rsmith@ihug.co.nz) [0m
-[1;32m2[0;32m. Ask politely for a menu request.[0m
-[1;32m3[0;32m. Attach a txt with various information about your board (sysops, number so I [0m
-[32mcan get on), Also info on what you''d like the menu to look like (Colours, maybe[0m
-[32ma theme) and don''t expect me to exactly how you asked :)[0m
-[1;32m4[0;32m. Bugger off and wait for me to reply[0m
-[1;32m5[0;32m. If I like the name or want something from you; Goto 7 else[0m
-[1;32m6[0;32m. Sod Off and Cry[0m
-[1;32m7[0;32m. I tell you when I''ve done it and am satisfyed with it[0m
-[1;32m8[0;32m. You go to your friendly bank establishment[0m
-[1;32m9[0;32m. Send $10 NZ to me[0m
-[1;32m10[0;32m. Loop Until End[0m
-
-[1;32mH[0;32mehehehe, I am serious about this... I really do hate doing menu''s... [0m
-[1;32mO[0;32mh yeah, this is for Abaddon and his board Holdens Lair IV...                   [0m'
+>Cut Here F0o!<-----------------------------------------------------------------[0m'

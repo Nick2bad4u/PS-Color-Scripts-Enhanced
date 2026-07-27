@@ -5,7 +5,7 @@
 # Source SHA-256: d1a9244f19883ddb6cbcbe0fe8522abca24a890cf62287adec57c691e70d2ea0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GULLI.ANS by Big Yellow Man + Gasol (poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gullig =)
 # SAUCE Author: bym + gso
 # SAUCE Group: poffelipoff
@@ -34,6 +34,4 @@ Write-Host '
        [1;30;47m [0m███[30;47m█[0;37;40m███████[0;1;37;47m░░[0m██[1;47m░▒▓▓▓[0;30;47m▐[0;34;40m▐[0;1;34;40m▄[0;34m [0;1;30m▀[0m▀[34m [0;1;30m▀[0m▀▀[1;30m▀[0;34m ▄[0;1;34;44m▄[0;1;34;40m█[0;1;34;44m█[0;1;34;40m▌[0;33m▐[0;1;33m███████[0;1;33;43m▌[0;30;47m█[0;1;33;43m▐[0;1;30;40m▄▄[0;33m▄[0;1;33;43m▐█▓▓▓▓[0;30;47m█[0;1;32;46m▀[0;1;32;40m███[0;1;32;42m▀[0;32m▀[0;34m▄[0m
        [1;30;47m [0m█████████[30;47m      [0;1;37;47m▓▓██▌[0;1;34;40m [0;1;34;44m▐███▄▄[0;34m██[0;1;34;44m▄▄█[0;1;34;40m███[0;1;34;44m█▌[0;30;47m█[0;1;33;43m▐[0;1;33;40m██████[0;1;33;43m▌[0;1;30;40m▌[0;1;33;43m▐█████▒▒▒▓[0;1;30;40m▌▄[0;1;30;42m▄[0;32m▀[0;1;30m▄[0;1;34m▄[0;1;34;44m▄░[0m
        [1;30;47m [0m█████[30;47m▀█▄▄▄    [0;1;37;47m░████[0;30;47m▐[0;34;40m▐[0;1;34;44m▓██[0;1;34;40m███████████[0;1;34;44m██[0;30;47m█[0;1;33;43m▐[0;1;33;40m██[0;1;33;43m▓▓▓▓▓[0;33m▌[0;1;30m▐[0;1;33;43m█████[0;30;47m█[0;1;30;40m▐ [0;1;33;43m▒[0;1;30;40m▌[0m▐[1;30;47m▄[0;30;47m█[0;1;34;44m▐█[0;1;34;40m█[0;1;34;44m▒[0m
-      [30;47m█[0;1;30;47m▄[0;30;47m [0;1;37;47m░░▓▓██▄[0;1;37;40m▄▄[0;30;47m▀██▄[0;1;37;47m░███▀[0;30;47m█[0;1;34;44m░▓█[0;1;34;40m███████[0;1;34;44m█▓▓▓▓▓▓[0;30;47m█[0;1;33;43m░▓▓▒▒▒▒▒[0;33m▌[0;1;30m▐[0;1;33;43m███▓▓▒▒░░[0;1;30;40m▌[0m▐[1;30;47m░[0;30;47m█[0;1;34;44m░▀▀ [0m
-                            [34m [0m
-                       [1;37m   [0m    [1mhej jag är en åsna![0m'
+      [30;47m█[0;1;30;47m▄[0;30;47m [0;1;37;47m░░▓▓██▄[0;1;37;40m▄▄[0;30;47m▀██▄[0;1;37;47m░███▀[0;30;47m█[0;1;34;44m░▓█[0;1;34;40m███████[0;1;34;44m█▓▓▓▓▓▓[0;30;47m█[0;1;33;43m░▓▓▒▒▒▒▒[0;33m▌[0;1;30m▐[0;1;33;43m███▓▓▒▒░░[0;1;30;40m▌[0m▐[1;30;47m░[0;30;47m█[0;1;34;44m░▀▀ [0m'

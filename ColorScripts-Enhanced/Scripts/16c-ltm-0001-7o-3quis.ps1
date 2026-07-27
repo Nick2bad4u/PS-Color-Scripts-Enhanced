@@ -5,7 +5,7 @@
 # Source SHA-256: c94f08e4ba76f151f80e91b82f20c10e9fcf7617e73a571afe3e68b19231eae8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 7O-3QUIS.ANS by 7alo (lithium); released in ltm-0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tres equis
 # SAUCE Author: 7alo
 # SAUCE Group: lithium
@@ -36,6 +36,4 @@ Write-Host '
 [1;37m                [0;36m  [0;1;37m [0;36m░[0;1;37m     [0;33m«««[0;35m«[0;32m««[0;1;30m░[0;1;37m [0mSERT SiUQE[1m [0;1;30m░[0;33m«[0;1;30m░[0;33m««[0;32m«[0;33m«[0;32m«[0m           [32m░[0;36m.[0m
 [1;37m                         [0;35m|[0;32m/_[0;33m»[0;35m»[0;1;30m░[0;33m»[0;1;37m [0mTRES EQUiS[1m [0;32m«[0;33m«[0;1;30m░[0;35m««[0;32m_[0;35m\[0;32m|[0m
 
-[1;30m--«(░)«[0;1;37m [0;1;30mcut this shit «(░)«----------------------------------------------------[0m
-[1;30mtres equis logo - anxiety argentine style - a greet for my friend minotaur !!![0m
-[1;30m... que te quiero ver ... te quiero contar ...[0m'
+[1;30m    ░  [0;1;37m [0;1;30m                ░                                                      [0m'

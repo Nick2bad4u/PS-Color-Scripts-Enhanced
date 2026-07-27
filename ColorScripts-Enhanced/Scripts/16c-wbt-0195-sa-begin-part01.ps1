@@ -5,7 +5,7 @@
 # Source SHA-256: 521ec254df09b786ce6a39a48c26f4fa6dc04eb14443679fc1a40c1d164996ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-BEGIN.ANS by Sabotage (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: AfterDeath E-Mag Promo
 # SAUCE Author: Sabotage
 # SAUCE Group: WBT/SHiVER
@@ -32,18 +32,4 @@ Write-Host '
  ░                 [1;30m▀[0;1;30;45m▓[0;1;30;40m▀[0m    [1m▄▄▄[0m▄[1m▄[0m▄▄▄[1;30m▄[0m▄[1;30m▄▄[0m▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄[0m   [1;30m▀[0;1;30;45m▓[0;1;30;40m▀[0m                    ░
                                                     [1;30m▀▀▄[0m
                                           [1;30m▄▀▀▀▀▀▀▀▀▀▀▀[0m
-                                           [1;30m▀▀▄■[0m
-
-                     [1;30mSabotage of Wild Buffalo Tamerz is proud to[0m
-                     [1;30mpresent his latest ansi, 100% original of[0m
-                     [1;30mcourse, this being WBT''s first pack, I[0m
-                     [1;30mwould like to say that if you wanna join[0m
-                     [1;30mjust call up The Cave, or anywhere you see[0m
-                     [1;30mone of our senior staff members. I do ansi[0m
-                     [1;30mfor a small trade, or for free.[0m
-                                   [1;30mEnjoy the pack.[0m
-
-
-                                 [1;30mDouble-Yoo Bee Tea![0m
-
-'
+                                           [1;30m▀▀▄■[0m'

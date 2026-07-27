@@ -5,7 +5,7 @@
 # Source SHA-256: 21a0a337ffaced11946caf81dc9e90ad58aa49fc44ae6b8420a82b5a580f3013
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VE-DK.ANS by VeNoMouS (DeViL FoRCeS); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: CHiVo oF Da BBS oF vN!
 # SAUCE Author: VeNoMouS
 # SAUCE Group: DeViL FoRCeS
@@ -30,10 +30,4 @@ Write-Host '
 [1;30mdhdd½ [0;35m, [0;1;30m½½¼½½$$$$$ [0;31md½½ [0;37m½¼¼ ½¼ [0;31m½ [0;37m½¼½ [0;31m`[0;37m,sS$$,[0;31m`½¼ [0;37m,s@s,[0;31m`½½''[0;1;30m,$$$$$$½½½½½ [0;35m, [0;1;30m½½¼½½GgGr[0m
 [1;30mHRdf [0;35mQ$F [0;1;30m½½½¼$$$$$ [0;31m½½½ [0;37m¼½¼½S''[0;31m,½ [0;37m`²''  ¼½¼ⁿ½½,  d¼½S²'' [0;31m½½b [0;1;30m$$$$$$$½½½ [0;35mQ$F [0;1;30m½½½¼ttee[0m
 [1;30mdtd,[0;35m`²S²''[0;1;30m,½½G$$$$$ [0;31m²½½ [0;37m¼½½¼S,[0;31m`½ [0;37m¼½½  ½½¼  ½¼  ½½½ ½s,[0;31m`½½, [0;1;30m$$$$$$²½,[0;35m`²S²''[0;1;30m,½½hhreh[0m
-[1;30mDGD½$SsS$½½''$$$$$$$ [0;31m,½ [0;37m¼½½ `½½  ¼½¼  ¼½¼  ½¼  ½¼½ `½½,[0;31m`½½, [0;1;30m$$$$$4d½$SsS$½½''4tHH[0m
-[1;30mGHTRJTKHIOIGFgfjfjh[0;31m:½½,[0;37m`²S  `²[0;31m,,[0;37m`²''[0;31m,,[0;37m`²S  `²  `²S$$S²''[0;31m,½¼½b [0;1;30m$$$$ggEE$$$gTTTYHHC[0m
-[1;30mGJHFJGHTRRE GHGD$$$ [0;31md½½$Ss½½$S½½SsS½¼$Ss½¼Ss½¼SssssssS¼½¼½½Ss[0;1;30m`$$Z$T$$$TTT$$hFFFH[0m
-[1;30mRETREHFUJHGFDBFHGHD$ [0;31m`²S¼½½¼½½¼½¼½¼½¼½½¼½¼¼½¼½¼½¼½¼½¼½¼½½¼¼S²''[0;1;30m,$FxXXVBbFFHJGFJGh[0m
-[1;30mGGHHGGHDGHFGHGFH$$$$$$SsssssssssssssssssssssssssssssssssssssS$$$GFFGGGGHHGJKHGTY[0m
-        This iS a Publicity OF DEVIL KiNG BBS, The Board Of VeNoMouS
-                       MagiK Numba: See iT In THe NFo[0m'
+[1;30mDGD½$SsS$½½''$$$$$$$ [0;31m,½ [0;37m¼½½ `½½  ¼½¼  ¼½¼  ½¼  ½¼½ `½½,[0;31m`½½, [0;1;30m$$$$$4d½$SsS$½½''4tHH[0m'

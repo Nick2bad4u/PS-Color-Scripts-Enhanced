@@ -5,7 +5,7 @@
 # Source SHA-256: 920e011404b9f73a86b91d51441460c645aad1892c0803079efbe2930c80ee97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CODEFENIX-DOVE-NET.ANS by CodeFenix (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DOVE-Net logo package
 # SAUCE Author: CodeFenix
 # SAUCE Group: Mistigris
@@ -16,10 +16,10 @@
 # Columns: 1-80
 
 Write-Host '
-I hope people enjoy them, or get inspired to make other/better ones
-of their own.
+                                                                   
+             
 
-codefenix@conchaos.synchro.net (VERT/CONCHAOS)
+                                              
 
      [34m,.[0;37m [0;34m.,.[0;1;37m,.[0m    [34m..,,,..[0;37m  [0;34m..,,......,;;;;%%;;;;,..,,;;;;.[0;37m          [0;34m..[0;37m    [0;1;30m..[0m
   [1;30m.[0;34m;%%,;%.[0;37m [0;1;37m$$$$bn,[0;1;33m._[0m [34m..%%!%%%,,,,%;,,.........,;,,,..[0;37m  [0;1;37m_.[0m  [1m,od$P[0;1;33m°~`[0m [34m.%&&[0;1;34m#![0;34m.[0;1;30m..[0m

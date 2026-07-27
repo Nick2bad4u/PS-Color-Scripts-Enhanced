@@ -5,7 +5,7 @@
 # Source SHA-256: 8dad49b714e1dd5959615994ceeb8eddc2914c00e77acd93b0e7cf845b9a3196
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-SON.ANS by S.a.n. Man (RiGOR); released in rgr-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Swamps of Nyissa
 # SAUCE Author: S.a.n. Man
 # SAUCE Group: RiGOR
@@ -39,7 +39,7 @@ Write-Host '
 [37m  [0;36m▓[0m      [36m█[0m       [1;36;46m█[0m        [1;30m▄▀[0m     [36m··[0m        [36m·[0m
 [37m  [0;36m█[0;37m [0m                      [1;30m■[0m                [36m░[0m                    [36m░[0m
                           [1;30m░[0m       [36m░[0m        [36m▒[0m                    [36m▒[0m           [1;36;46m░[0m
-                      [1;30m   [0m [1;30m▒S[0;32m . A [0;1;32m.[0;36m▒[0;1;32mN[0;32m [0;1;32m.[0;1;30m [0;32m [0;1;36mM[0;32m [0;1;36mA[0;36m▓N[0;32m [0;1;30m [0;36m[[0;1;32mRi[0;32mGO[0;1;30mR][0m          [36m▓[0m           [1;36;46m▒[0m
+                      [1;30m   [0m [1;30m▒ [0;32m     [0;1;32m [0;36m▒[0;1;32m [0;32m [0;1;32m [0;1;30m [0;32m [0;1;36m [0;32m [0;1;36m [0;36m▓ [0;32m [0;1;30m [0;36m [0;1;32m  [0;32m  [0;1;30m  [0m          [36m▓[0m           [1;36;46m▒[0m
 [36m░[0m           [36m░[0m             [1;30m▓[0m       [36m▓[0m        [36m█[0;37m [0m                   [36m█[0;37m [0m          [1;36;46m▓[0m
 [36m▒[0m           [36m▒[0m             [1;30m█[0m       [36m█[0;37m [0m                                [1;30m░[0m       [1;36;46m█[0m
 [36m▓[0m           [36m▓[0m              [1;30m   [0m [1;30m P r e s e n t s[0m                     [1;30m▒[0m

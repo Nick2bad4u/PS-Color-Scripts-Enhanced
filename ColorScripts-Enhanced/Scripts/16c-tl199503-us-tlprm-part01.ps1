@@ -5,7 +5,7 @@
 # Source SHA-256: 3fc56b595f08e118414be353291dc43b4befd2e99fe61089b0a7c6461ad8b9e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TLPRM.ANS by Smooth + Celestian (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: TekLordZ Promo
 # SAUCE Author: Cel/Smooth
 # SAUCE Group: TekLordZ
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;32;40mP[0;32mh[0;1;30mUnKy aNd[0m [31m▒[0;1;30m PhAt[0;31m▄▄▄[0;1;36m [0;1;30mPrOMoTi0TiOnaL ANSi [0m  [1;30mfoh  TekLordZ Productions 1[0;34m9[0;1;34m9[0;36m5[0;1;30m [0;1;37m![0m
+[1;32;40m [0;32m [0;1;30m        [0m [31m▒[0;1;30m     [0;31m▄▄▄[0;1;36m [0;1;30m                    [0m  [1;30m                           [0;34m [0;1;34m [0;36m [0;1;30m [0;1;37m [0m
 [34m░▒▓███████[0m [31m▓[0m [31m▄▄█▀▀▀▀▀▀▀▀█▄[0;34m ░▒▓█████████▀ [0m      [33m ▒[0m             [1;30m  ▓[0m [34m██████████[0m
         [34m█▀[0m [31m███▀[0m [35m▄[0;1;35;45m░▒▓██[0;35m▓[0m [31m▓█[0m         [34m██▌   [0m      [1;30m▀[0;1;30;43m▓[0m               [1;30;40m▀▄[0m [34m█[0m       [34m█[0m
         [34m█[0m [31m▐█▀[0m [35m▄█▀  ▄  ▒[0m [31m▒▌[0m     [1;37m▓█[0m  [34m███▄[0m [34m▄▀▄[0m [33m▄[0m    [1;30m▒[0m               [1;30m░[0m [34m▓[0m [1;37m█▓[0m    [34m▓[0m

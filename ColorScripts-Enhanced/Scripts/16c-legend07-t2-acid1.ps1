@@ -5,7 +5,7 @@
 # Source SHA-256: 8a1ff53fed468fb6ae943dbabc4ea3c19fb6667e5a7d8d1b4b11caf32a7593b4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-ACID1.ANS by Terminator 2 (Legend); released in legend07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Acid
 # SAUCE Author: Terminator 2
 # SAUCE Group: Legend
@@ -30,5 +30,5 @@ Write-Host '
              [31m▀  [0;32m▌ [0m▀▓▀▀▀▀      ▐▌  [1ma   i   9  [0m▀▀[1;30;47m▒[0m▓▀      ▀■      [31m▀[0m
                 [32m■  [0m▒           ▀■   [1mc   d   6  [0m▐▌          ▀
 [1m────────────────── [0m░ [1m──────────── [0m▀ [1m───────── [0m■▀ [1m──────────────────────────────[0m
-[1m  [0m... nifty-lookin'' font, completely and udderly by terminator2 of legend ...
+[1m  [0m                                                                           
 [1m────────────────── [0m░ [1m──────────────────────────────────────────────────────────[0m'

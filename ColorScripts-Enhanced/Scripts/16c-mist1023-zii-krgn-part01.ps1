@@ -5,7 +5,7 @@
 # Source SHA-256: b19241bfea92d72b2e59bb3833d805f236f937c5f6f9b89fd10e17a87ad67dea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-KRGN.ANS by Zeus II (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kurgan!
 # SAUCE Author: Zeus II
 # SAUCE Group: Mistigris
@@ -37,12 +37,11 @@ Write-Host '
 [37m                    [0;1;30m▀▀█▄▄█[0;1;30;43m▓▓▓[0;1;30;40m▄▄▄▄██▄▄▄[0;1;30;43m█▓▓[0;1;30;40m▄██[0;1;30;43m▓▓[0;1;30;40m▄▄▄▄██[0;1;30;43m▓▓[0;1;30;40m█[0;1;30;43m▒▒▒[0;1;30;40m▀▀[0m
 
 
-[37m                               [0;1;32mWassup Buenos Aires![0m
+[37m                               [0;1;32m                    [0m
 
 
 
                                      [1;30m■[0m
                                   [1;33m░[0;1;30m▀[0m
                               [1;30m▄[0m ▀
-                              [1m▄[0;1;33m░[0m
-'
+                              [1m▄[0;1;33m░[0m'

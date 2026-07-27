@@ -5,7 +5,7 @@
 # Source SHA-256: ccd9d11627256bd275b17d25b7f5fed81a1b1fdb021258bab73ea803528212fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: the textorcist - Jasmine.ANS by the textorcist (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: jasmine
 # SAUCE Author: the textorcist
 # SAUCE Group: blocktronics
@@ -47,11 +47,11 @@ Write-Host '
 [34m███▓██▓██[0;36;44m [0;34;40m ▌▐[0;36;44m░░░ [0;34;40m██[0;1;30;44m▀▄▄▀[0;34m██[0;37;44m█[0;34;40m███[0;37;44m▓[0;34;40m█[0;1;37;44m▓▄▄▄▀[0;34m█[0;1;37;44m▓[0;34m█[0;1;37;44m█[0;34m█[0;1;37;44m█[0;34m█[0;1;37;44m▄▄▓▄▄[0;34m█[0;37;44m▓[0;34;40m██[0;37;40m██[0;34;40m█[0;1;30;44m▓▄▄▄▓[0;34m█[0;36;44m  ░░░[0;34;40m█[0;5;34;44m██[0;34m█ [0;5;34;44m█████[0;34m █[0;5;34;44m██[0m
 [34m██████████▌▓▄████████████████[0;37;44m░[0;34;40m███████[0;1;37;44m░[0;34m███████[0;1;37;44m░[0;34m███[0;37;44m░[0;34;40m█████████[0;1;30;44m░[0;34m███████[0;5;34;44m██[0;34m░[0;5;34;44m███████[0;34m░[0;5;34;44m██[0m
 [34m████████████████████████████████████████████████████████████████████▓█████████▓█[0m
-[1;33;44m    [0;1;37;44mjasmine bbs [0;44m-[0;1;44m [0;1;33;44mrunning [0;1;37;44mdaydream [0;1;33;44mfor[0;1;37;44m linux [0;44m-[0;1;44m 100[0;44m/[0;1;44m100[0;1;33;44mmbit[0;1;37;44m [0;1;33;44mfibre connection     [0m
-[1;33;44m           [0;1;37;44mfood [0;1;33;44mhq[0;1;37;44m [0;44m-[0;1;44m ocean5 [0;1;33;44mwhq[0;1;37;44m [0;44m-[0;1;44m [0;1;33;44mpure[0;1;37;44m [0;1;33;44mscene[0;1;37;44m files [0;1;33;44mfrom[0;1;37;44m 1996 [0;1;33;44mto[0;1;37;44m 2013 [0;1;33;44m           [0m
-[1;33;44m ansi[0;44m/[0;1;33;44mascii[0;44m/[0;1;33;44mdemo[0;44m/[0;1;33;44mmusic[0;44m/[0;1;33;44mjpg[0;44m/[0;1;33;44mmud[0;44m/[0;1;33;44mirc[0;44m/[0;1;33;44mhacks[0;44m/[0;1;33;44mmp3s[0;1;37;44m [0;44m-[0;1;44m get with it before it gets you[0;44m.[0;1;33;44m [0m
+[1;33;44m    [0;1;37;44m            [0;44m [0;1;44m [0;1;33;44m        [0;1;37;44m         [0;1;33;44m   [0;1;37;44m       [0;44m [0;1;44m    [0;44m [0;1;44m   [0;1;33;44m    [0;1;37;44m [0;1;33;44m                     [0m
+[1;33;44m           [0;1;37;44m     [0;1;33;44m  [0;1;37;44m [0;44m [0;1;44m        [0;1;33;44m   [0;1;37;44m [0;44m [0;1;44m [0;1;33;44m    [0;1;37;44m [0;1;33;44m     [0;1;37;44m       [0;1;33;44m    [0;1;37;44m      [0;1;33;44m  [0;1;37;44m      [0;1;33;44m           [0m
+[1;33;44m     [0;44m [0;1;33;44m     [0;44m [0;1;33;44m    [0;44m [0;1;33;44m     [0;44m [0;1;33;44m   [0;44m [0;1;33;44m   [0;44m [0;1;33;44m   [0;44m [0;1;33;44m     [0;44m [0;1;33;44m    [0;1;37;44m [0;44m [0;1;44m                               [0;44m [0;1;33;44m [0m
 [1;37;44m                                                                                [0m
-[1;37;44m          [0;1;33;44mtelnet to[0;44m:[0;1;44m jasmine[0;44m.[0;1;44mocean5[0;44m.[0;1;44morg [0;44m-[0;1;44m [0;1;33;44mlogin[0;44m:[0;1;44m bbs [0;44m/ [0;1;33;44mpass[0;44m:[0;1;44m loveclown         [0;34m█[0m
+[1;37;44m          [0;1;33;44m         [0;44m [0;1;44m        [0;44m [0;1;44m      [0;44m [0;1;44m    [0;44m [0;1;44m [0;1;33;44m     [0;44m [0;1;44m     [0;44m  [0;1;33;44m    [0;44m [0;1;44m                   [0;34m█[0m
 [1;37;44m                                                                                [0m
-[1;33;44m [0;34m██[0;1;33;44mlocated in norway [0;44m-[0;1;33;44m custom ansi artwork by[0;44m:[0;1;33;44m  [0;1;37;44mthe textorcist[0;1;33;44m [0;44m([0;1;33;44mblocktronics[0;44m)[0;1;33;44m   [0m
+[1;33;44m [0;34m██[0;1;33;44m                  [0;44m [0;1;33;44m                       [0;44m [0;1;33;44m  [0;1;37;44m              [0;1;33;44m [0;44m [0;1;33;44m            [0;44m [0;1;33;44m   [0m
 [34m████████████████████████████████████████████████████████████████████████████████[0m'

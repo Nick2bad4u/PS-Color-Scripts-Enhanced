@@ -5,7 +5,7 @@
 # Source SHA-256: bb0973dbeecfe7ec68cdeb7e25920d25a542e1489cf9f5a90703b87c92e1268a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-GRAP.ANS by bizzarro (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: grape
 # SAUCE Author: bizzarro
 # SAUCE Group: nerp
@@ -18,7 +18,7 @@ Write-Host '
                        [34m    ▄                              [0m
            [1;30m           [0;34m▄▄▀ [0;1;30m     [0m
           [1;30m    [0;1;34m░░[0;1;30m [0m   [34m ▐[0;1;34;44m▌[0;34m▌[0m
-          [1;30m   [0;1;34m░[0;1;34;44m░░[0;1;34;40m░ [0;34m biz▀[0;1;34;44m▄[0;34m▄[0m             [1;34mmom!!! we have no grape!!! [0m
+          [1;30m   [0;1;34m░[0;1;34;44m░░[0;1;34;40m░ [0;34m    ▀[0;1;34;44m▄[0;34m▄[0m             [1;34m                           [0m
         [34m░[0;30;44m▓[0;34;40m▄▄[0;36;40m [0;34;40m█[0;1;34;44m▄▄[0;34m█▌▄▄[0;37m  [0;34m▄[0;1;34;44m▐[0;30;44m░▓[0m            [1;34;40m                              [0m
        [30;44m▓[0;34;40m▓▓[0;1;34;44m█▄[0;34m▌[0;1;34;44m▐███▄█▄ ░ [0;34m▀▐[0;30;44m▓[0m       [34;40m                                 [0m
      [37;40m  [0;1;37;40m [0;1;34;44m  ▀█▌█[0;1;34;46m  ░[0;1;34;44m█[0;1;34;46m▓▓[0;1;34;44m▓▓░[0m [34m▐[0;37m [0m
@@ -54,12 +54,12 @@ Write-Host '
                          [34m▐[0;1;34;44m  ▀[0;34m▀▀[0m     [1;34m  funeral fog [0m      [1;34m+46-8-7326143[0m
                     [34m [0m    [30;44m█▓░[0;1;34;44m ▄[0;34m▌[0m       [1;34micebreaker [0m       [1;34m+46-8-7392182[0m
                           [30;44m▓[0;37;40m [0;1;34;44m ▌[0;34m [0m
-                             [34m█░[0m      [34m   [0;37m [0;34mansi by bizzarro nerp/echo[0m
+                             [34m█░[0m      [34m   [0;37m [0;34m                          [0m
                              [34m▐░[0m
                              [34m▐[0m
                              [34m [0m
 
 
-[34m  [0;37m [0;34m pssst.. why don''t you give grape a call.. milkman would be happy.. it''s [0m
-[34m  [0;37m [0;34m the best looking board in sweden.. you don''t have the number? i have..[0m
+[34m  [0;37m [0;34m                                                                         [0m
+[34m  [0;37m [0;34m                                                                       [0m
 [34m [0;37m [0;34m  +46-06080022[0;37m [0;34m.[0;37m [0;34m+46-06080022[0;37m [0;34m.[0;37m [0;34m+46-06080022[0;37m [0;34m.[0;37m [0;34m+46-06080022[0;37m [0;34m.[0;37m [0;34m+46-06080022[0m'

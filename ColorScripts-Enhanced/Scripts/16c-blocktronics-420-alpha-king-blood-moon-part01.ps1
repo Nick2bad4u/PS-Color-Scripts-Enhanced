@@ -5,7 +5,7 @@
 # Source SHA-256: 488f59bb30007ea44ff2f50973bfd3c1e1e4099403cf3c98d547da7bd9bdaa38
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: alpha_king-blood-moon.ans by alpha king (blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the blood moon rises once again
 # SAUCE Author: alpha king
 # SAUCE Group: blocktronics
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                        [1;36malphaking/blocktronics[0m
+                                                        [1;36m                      [0m
 [34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 [1;36m▄▄[0;34m░░░░░░░░░[0;1;36m▄▄▄[0;34m░░░░░░░░[0;1;36m▄[0;34m░░░░░░░[0;1;36m▄[0;34m░░░░░░[0;1;36m ▄▄[0;34m░░░[0;1;36m▄[0m [1;36m▄[0;34m░░░░░░░░[0;1;36m▄▄▄[0;34m░░░░░░░░[0;1;36m ▄▄▄[0;34m░[0;1;36m▄▄▄[0;34m░░░░░░░[0m

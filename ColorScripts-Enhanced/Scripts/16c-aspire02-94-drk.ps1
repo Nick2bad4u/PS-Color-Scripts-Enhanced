@@ -5,7 +5,7 @@
 # Source SHA-256: 3e63562a92e7d9125f40b8ad394c4f747d3c271d10ce475db37d06bcd95d6a76
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 94-DRK.ANS by pandora (aspire); released in aspire02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dark tribute
 # SAUCE Author: pandora
 # SAUCE Group: aspire
@@ -54,7 +54,4 @@ Write-Host '
 [1;31m░░░░░[0m
 
 
-[35m--[0;31m     [0m
-[35mgod, i had this ansi here forever.  i even sent it over to another artist[0m
-[35min dark as a joint, but i don''t think we ever went through with it.  anyhow[0m
-[35mi decided to finish it up.  it''s a tribute to my buds at dark.  --pandora/delia[0m'
+[35m--[0;31m     [0m'

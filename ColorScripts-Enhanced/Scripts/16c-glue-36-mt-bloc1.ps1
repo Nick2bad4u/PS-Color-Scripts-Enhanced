@@ -5,7 +5,7 @@
 # Source SHA-256: d23f8ba6c48a1aea5969f95f9a09df4e43b4f4c280705c395a35d7a2278fd135
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-BLOC1.ANS by misfit (glue); released in glue-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: refuse & resist
 # SAUCE Author: misfit
 # SAUCE Group: glue
@@ -39,17 +39,17 @@ Write-Host '
 [1;47m ░[0m███▓▓▒  [1;30m▓▄[0m           [1;30m░[0m                                        [1;30m▓░[0m
 █▓▓▓▀▀░   [1;30m▀[0m▒[1;30m▄[0m                                                   [1;30m▒[0m   ([1mmisfit[0m)
 [1;30m-────────────────────────────────────────────────────────────────────────────--[0m
-[1;30mhey folks.. sept 28th to oct 4th in washington, d.c. there will be massive[0m
-[1;30mprotests against the world bank and the international monetary fund, two out-[0m
-[1;30mdated and truly destructive operations sponsored by the u.s. government and[0m
-[1;30mused throughout the world to force the american way of life on other nations.[0m
-[1;30mcheck out abolishthebank.org for more info on the actions in d.c., and check[0m
-[1;30mout sites like www.indymedia.org, infoshop.org, and 50years.org for more info[0m
-[1;30mon what the wb/imf are all about. alright, i''m gonna keep this short, i don''t[0m
-[1;30mwant to preach to anyone. but please, check it out if you can. anyone can e-[0m
-[1;30mmail me at freestylefunk420@yahoo.com if you want to get in touch.  - james[0m
+[1;30m                                                                          [0m
+[1;30m                                                                             [0m
+[1;30m                                                                           [0m
+[1;30m                                                                             [0m
+[1;30m                                                                            [0m
+[1;30m                                                                             [0m
+[1;30m                                                                             [0m
+[1;30m                                                                            [0m
+[1;30m                                                                           [0m
 [1;30m-────────────────────────────────────────────────────────────────────────────--[0m
-[1;30moh yeah, this is my first ansi in quite a while, so forgive the rustiness..[0m
-[1;30mthanks to catch22 for harassing me for months to draw something, you''re a pain[0m
-[1;30min the ass man :). and greets to transient & trip.[0m
+[1;30m                                                                           [0m
+[1;30m                                                                              [0m
+[1;30m                                                  [0m
 [1;30m-────────────────────────────────────────────────────────────────────────────--[0m'

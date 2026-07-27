@@ -5,7 +5,7 @@
 # Source SHA-256: 65caad6c5c38184b329dedc2abe273bce5137ca9ec3fd9cf2a9941a3bb86366d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CA-TUGO.ANS by Cardiac Arrest (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -42,7 +42,7 @@ Write-Host '
 [1;32;40m   [0;1;31;41m▐[0;31m▌    [0;1;32m▀[0;1;32;42m▄[0;1;30;40m▌[0m▀[1;30m▄[0;32m▄▄[0;1;30m▀▀▀[0m            [32m▀[0;1;32m▀▄[0;1;32;42m▄[0;32m▄  [0;1;30m▀▀▄▄[0;32m▄▀▀ [0;37m▄[0;1;37m▀[0;1;30m▄▀[0m     [1;32m▀▄[0;1;30m▀[0m▀[1;30m▐[0;1;30;47m█[0m▌[1;30m█▀▀[0;1;30;47m▌[0;1;30;40m▐█[0m▌[1;30m▀▀[0;1;32m▄▀[0m
 [1;32m  [0;31m▐[0;1;31;41m▌[0m      [1;32;40m▀▄[0;32m▀▀[0m                     [1;32m▀[0;1;32;42m▄▄[0;32m▄▄  [0;1;37m▄▄▀[0m▀[32m▄[0;1;30m▀[0m         [1;32m▀▀▄▄▄▄▀▀▄▄▄▄▀▀[0m
 [1;32m  [0;1;31;41m▐[0;31m▌[0m                                  [1;32m▀▀▀[0;1;32;42m▄[0;1;32;40m▄[0;32m▄▀▀[0m
-[32m  [0;1;31;41m▐[0;31m▌   █[0m                                            [1;35mA[0;35mn[0;1;37ms[0;1;35mi[0;1;37m: C[0;1;32mard[0;32mia[0;1;30mc[0m
+[32m  [0;1;31;41m▐[0;31m▌   █[0m                                            [1;35m [0;35m [0;1;37m [0;1;35m [0;1;37m   [0;1;32m   [0;32m  [0;1;30m [0m
 [1;30m  [0;1;31;41m▐[0;31m▌  ▐▌    ▀[0m                                        [1;30m▀▀[0m▀▀[1m▀▀ A[0;1;32mrr[0;32mes[0;1;30mt [0;1;37m[[0;36mGR[0;1;36mi[0;36mM[0;1;37m][0m
 [1;37m  [0;1;31;41m▐[0;31m▌▐ [0;1;31;41m▐[0;31m▌  ▄▀  ▄▀   ▄▀[0m
 [31m  █▌█▐[0;1;31;41m▌[0m  [1;31;41m▐[0;31m▀ ▄[0;1;31;41m▀[0;31m▀ ▄▄▀[0m

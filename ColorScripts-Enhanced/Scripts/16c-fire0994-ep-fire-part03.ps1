@@ -5,7 +5,7 @@
 # Source SHA-256: 68825a51b2f393d9e2a0d2834e24e1b61874e1bd4ddc5ff02ae516d3b98ba7c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EP-FIRE.ANS by Epitaph + Halaster (fire0994); released in fire0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 93-139
 # Columns: 1-80
 
@@ -52,8 +52,7 @@ Write-Host '
 [31m  ▓  [0;1;30m▄ ▄  [0;31m▓  [0;1;30m▄[0m                                                   [1;30m▄  [0;31m▓  [0;1;30m▄ ▄  [0;31m▓[0m
 [1;30m░ [0;31m▒ [0;1;30m░   ░ [0;31m▒ [0;1;30m░  ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄  ░ [0;31m▒ [0;1;30m░   ░ [0;31m▒ [0;1;30m░[0m
 [1;30m▒ [0;31m░ [0;1;30m▒   ▒ [0;31m░ [0;1;30m▒  [0;1;30;41m▓[0m  Fire is always looking for talented artists  [1;30;41m▓[0m  [1;30m▒ [0;31m░ [0;1;30m▒   ▒ [0;31m░ [0;1;30m▒[0m
-[1;30m▓   ▓   ▓   ▓  [0;1;30;41m▒[0m  to add to our ranks.  If you are interested  [1;30;41m▒[0m  [1;30m▓   ▓   ▓   ▓[0m
+[1;30m▓   ▓   ▓   ▓  [0;1;30;41m▒[0m                                               [1;30;41m▒[0m  [1;30m▓   ▓   ▓   ▓[0m
 [1;30m ▀▓▀[0m     [1;30m▀▓▀   [0;1;30;41m░[0m  in joining, call TFD or The Regency in 404.  [1;30;41m░[0m   [1;30m▀▓▀[0m     [1;30m▀▓▀[0m
 [1;30m  ▒[0m       [1;30m▒    [0;31m▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀    [0;1;30m▒[0m       [1;30m▒[0m
-[1;30m  ░[0m       [1;30m░[0m                                                         [1;30m░[0m       [1;30m░[0m
-                 [1;30mAnsi by Epitaph[Fire]  Font by Halaster[Fire][0m'
+[1;30m  ░[0m       [1;30m░[0m                                                         [1;30m░[0m       [1;30m░[0m'

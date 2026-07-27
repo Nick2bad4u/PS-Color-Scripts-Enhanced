@@ -5,7 +5,7 @@
 # Source SHA-256: a2bcdddc02b7caf8feb8e43c9e2b40a2db0c13195bdccbab8146205f4eb491f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-SYSX.ANS by paratoxic (RCA); released in rca-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: System X
 # SAUCE Author: paratoxic
 # SAUCE Group: RCA
@@ -57,6 +57,4 @@ Write-Host '
                [32m░░▒▒▓▓█[0;1;32;42m▀░▀[0;32m▀ ▄[0;1;32m░[0;32m▀█[0;1;32;42m░[0;32m▌[0;31m░▄[0;1;31;41m▄[0;31m▓▀[0;32m░[0;37m [0;31m█[0;1;31;41m▄[0;31m▄[0;37m [0;32m▀▀▓▓[0;1;32;42m░▀▀█▄[0;32m▄[0;1;32m░[0m
                           [32m▀[0;1;32;42m░[0;32m▀[0;1;32m [0m  [31m █[0;1;31;41m█░[0;31m░[0m   [31m▐[0;1;31;41m▓▌[0;31m▌[0;37m  [0;32m░░[0;37m  [0;32m▀▀▀▀▀ [0m
                                 [31m▐[0;1;31;41m▐▓[0;31m▌[0m    [31m▀▀▀[0m                [31m         [0m
-                                [31m ▀▀▀[0m
-                    [31m        with atomic dressing[0m
-                              [31m     +o alecs[0m'
+                                [31m ▀▀▀[0m'

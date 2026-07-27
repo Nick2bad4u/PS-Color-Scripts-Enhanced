@@ -5,7 +5,7 @@
 # Source SHA-256: f8f29c2400842f33a8cb8e9c3fc833a55636d279a494c298735bbaf7dc2dd118
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-BRE.ANS by baxter (Axial Force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Barren realms elite promo
 # SAUCE Author: baxter
 # SAUCE Group: Axial Force
@@ -33,7 +33,7 @@ Write-Host '
 [1;30m|[0m            [1;35;45m░[0m    [35m▐[0;1;35;45m▒▓▒░[0m [1;32m▀ ▄[0;1;35;45m░▓[0;1;35;42m▓[0;1;35;45m░[0m [35m▐[0;1;35;45m░▒▓▒░[0;35m▐[0;1;35;45m░▓▒░[0m   [1;35;45m░▒▓▒░[0;1;32;40m▀ ▄[0m                        [1;30m|[0m
 [1;30m|[0m            [1;35m▒[0m     [35m▀[0;1;35;45m▓[0;1;35;42m▒░[0;1;32;42m░▒▓[0;1;32;45m▀[0;1;35;45m▒▓[0;1;35;42m▒░[0;1;32;42m░▒[0;1;32;45m▀[0;1;35;45m▒▓░[0;35m▌ ▀[0;1;35;45m▓[0;1;35;42m▒░[0;1;32;42m░▒▓[0;1;32;45m▀[0;1;35;45m▒▓[0;1;35;42m▒░[0;1;32;42m░▒[0;1;32;40m▀[0m                        [1;30m|[0m
 [1;30m|[0m             [1;35m▄[0m     [1;35;45m▓[0m                                                         [1;30m|[0m
-[1;30m|[0m              [1;35m▄[0mBarr[45me[0;40mn Realms Elite online on Virtual Hell !![0m                 [1;30;40m|[0m
+[1;30m [0m              [1;35m▄[0m    [45m [0;40m                                        [0m                 [1;30;40m [0m
 [1;30m|[0m               [1;35m▀ ■▀[0m                                                          [1;30m|[0m
-[1;30m|[0m                             Play it or die ...                              [1;30m|[0m
+[1;30m [0m                                                                             [1;30m [0m
 [1;30m`-------------------------[0mType [1;35mBRE [0mat the main menu[1;30m---------------------------''[0m'

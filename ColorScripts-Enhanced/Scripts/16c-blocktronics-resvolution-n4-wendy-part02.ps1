@@ -5,7 +5,7 @@
 # Source SHA-256: e8be5273927507f3e3e04d274601fd84bee7f7679fc140c39a7a2e216326a190
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: n4-wendy.ans by Sodium (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 35-60
 # Columns: 1-80
 
@@ -33,6 +33,4 @@ Write-Host '
                                                                           [34m▐[0;35;44m▐[0;35;40m████[0m
                                                                          [30;44m▓▓[0;34;40m█[0;35;44m█[0;35;40m███[0m
                                                                          [30;44m▒▒[0;1;34;44m  [0;35;44m▀█[0;35;40m█[0m
-                                                                   [35;40m  [0;34;40m░░░░[0;30;44m░░[0;1;34;44m   [0;35;44m▐█[0m
-
-                                                         [1;30m [0m           [34msodium[[0;1;32m67[0;34m][0m'
+                                                                   [35;40m  [0;34;40m░░░░[0;30;44m░░[0;1;34;44m   [0;35;44m▐█[0m'

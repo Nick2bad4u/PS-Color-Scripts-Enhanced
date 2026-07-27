@@ -5,7 +5,7 @@
 # Source SHA-256: f168083c4685aa8c17893ad5b404c2beeb5a74a4ff5b4c8b347d0607320f5bbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: I3-CIA.ANS by islayer(i3) (maiden); released in maiden15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: CiA
 # SAUCE Author: islayer(i3)
 # SAUCE Group: maiden
@@ -33,10 +33,7 @@ Write-Host '
  [1;47m▐▓▓▓▌[0;30;47m▐[0;35;40m [0;1;33;40m [0;30;47m░░[0;35;40m [0;1;34;44m░[0;30;44m░░[0;1;34;44m▀▀▀[0;1;34;40m▀▀▀[0;34m▀[0;35m  ▀▀▀▀▀[0;1;35;45m▀[0;1;35;47m▓▓█[0;1;35;45m█████▄[0;35m▄ [0;30;47m█░[0;1;37;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37;40m▐[0;1;37;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌[0m
  [30;47m▓▓▓[0;37;40m░[0;30;47m▓▓▓▓▓▓[0;35;40m [0;1;36;40m [0;30;44m▓▓[0;1;36;40m [0;35m   [0;30;47m▓▓▓▓▓▓▓▓▓[0m    [35;40m▀[0;1;35;40m▀[0;1;35;45m▀█[0;1;37;47m▓▓[0;35m▄[0;1;35;45m▌[0;35m▌[0;37m [0;30;47m▓▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓▓[0;37;40m░[0;30;47m▓[0;37;40m░░[0;30;47m▓▓▓[0;37;40m░[0;30;47m▓▓[0;37;40m░░░[0;30;47m▓▓▓▓▓[0;37;40m░[0;30;47m▓[0;37;40m░░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░░░ [0m
         [1;33;40m [0;35m    [0;1;36m  [0;35m      [0m             [35m ▀[0;1;35;45m▀█▀[0;35m▀[0m                 [1;37m [0m
- >[1m>[0m >[1;30m [0;1;37m [0mislayer(i3)[1mmaiden brazil  [0m   [35m▐[0;1;35;45m░[0;35m▌[0m                  [1;37m [0m
- [1;30mislayer@hotmail.com > requests [0;35m [0;1;30m [0;35m   █▀ [0m
+  [1m [0m  [1;30m [0;1;37m [0m           [1m               [0m   [35m▐[0;1;35;45m░[0;35m▌[0m                  [1;37m [0m
+ [1;30m                               [0;35m [0;1;30m [0;35m   █▀ [0m
 
-[1;30m-- cut --[0m
-
-   [1;30mNossa! que porra eh essa?! eh um [0m"o"[1;30m?! um [0m"q"[1;30m?! a [0m"Carla Perez"[1;30m?! NAOO!$#[0m
- [1;30m  Eh um logo para a [0mCIA[1;30m! Eheeh, tah tudo junto ai, o [0m"c"[1;30m, o [0m"i"[1;30m e o [0m"a"[1;30m!#$@[0m'
+[1;30m-- cut --[0m'

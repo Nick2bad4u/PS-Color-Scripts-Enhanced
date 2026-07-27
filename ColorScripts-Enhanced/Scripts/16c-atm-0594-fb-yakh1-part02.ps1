@@ -5,7 +5,7 @@
 # Source SHA-256: 9084b784f2b86c2f479686aa4fb9335a21c2a2e89c576dd461a9dd137f8e00cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-YAKH1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 45-90
 # Columns: 1-80
 
@@ -50,9 +50,4 @@ Write-Host '
 [1;33m [0m▄█[1;47m░▒▓[0m    ▄█[1;47m░▒▓[0m
 ▄█[1;47m░▒▓[0;1;40m▌   [0m▄█[1;47m░▒▓[0;1;40m▌[0m
 ▐[1;47m░▒▓[0;1;40m▀    [0m▐[1;47m░▒▓[0;1;40m▀[0m
-[1;40m [0m▀[1m▀[0m       ▀[1m▀[0m
-[1m    "[0;1;35mW[0;35me [0;1;37me[0;1;35mi[0;35mther [0;1;37md[0;1;35me[0;35mal [0;1;37mw[0;1;35mi[0;35mth [0;1;37mA[0;1;35m. [0;1;37mT[0;1;35ma[0;35mlking [0;1;37m([0;1;35ms[0;35mlang) [0;1;37mB[0;1;35m. [0;1;37mL[0;1;35mo[0;35mng [0;1;37mh[0;1;35ma[0;35mired [0;1;37mb[0;1;35mo[0;35mvine [0;1;37mm[0;1;35ma[0;35mmmels [0;1;37mo[0;1;35mf[0m
-[1;35m   [0;1;37mC[0;1;35me[0;35mntral [0;1;37mA[0;1;35ms[0;35mia [0;1;37mo[0;1;35mr [0;1;37mC[0;1;35m. [0;1;37mR[0;1;35me[0;35mvealing [0;1;37mp[0;1;35ma[0;35mst [0;1;37ml[0;1;35mu[0;35mnches... [0;1;37mY[0;1;35mo[0;35mu [0;1;37mm[0;1;35ma[0;35mke [0;1;37mt[0;1;35mh[0;35me [0;1;37mc[0;1;35ma[0;35mll [0;1;37ms[0;1;35mm[0;35mart [0;1;37mg[0;1;35mu[0;35my!"[0m
-
-
-[1;35m13 min ANSi for Slam[0m                                       [32m"Hold it in chief!"[0m'
+[1;40m [0m▀[1m▀[0m       ▀[1m▀[0m'

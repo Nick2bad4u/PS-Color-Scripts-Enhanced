@@ -5,7 +5,7 @@
 # Source SHA-256: 042cac24aec81990e552621f77c8ab3f9d98aa726b45ce25312039e53e18ed27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VA-TC.ANS by Vassago (THRuSt); released in thst1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tokin' Toadie!
 # SAUCE Author: Vassago
 # SAUCE Group: THRuSt
@@ -33,10 +33,10 @@ Write-Host '
  [1;30m▀▄■▄▄▄▄■[0m  [1;30m▄▄[0m [1;30m▄▄▄▄▓[0m [1;30m▄■▄[0m [1;30m▄▄▄▓■▄▄▄[0m [1;30m▄▀▄▄▄▄▄[0m  [1;30m▄[0m [1;30m▄▄[0m [1;30m■▄▒▄▄■[0m [1;30m▄▄▒■▄▄[0m [1;30m▄▄[0m [1;30m■▄▄▄▄▄[0m [1;30m▄[0m [1;30m▄[0m [1;30m■▄ ░▄[0m
          [1;30m▀ [0m     [1;30m▓[0m                                         [1;30m▓[0m
 
-[1;30m-=-=-=-=-=-==--=-=-=-=--==-->The Bitch Line<--==-=-=-=-=-=-=---=-=-=-=-=-=-=--=-[0m
+[1;30m                                                                                [0m
 [1;30m|[0m                                                          [1;30m|[0m [1;30m\[0m      [1;30m|[0m       [1;30m/[0m [1;30m |[0m
-[1;30m|[0m [1;30mSup all..  this hea is a k-neet lil'' toking'' toadie...[0m   [1;30m|[0m  [1;30m \[0m  [1;30mVassago[0m [1;30m/[0m [1;30m [0m [1;30m |[0m
+[1;30m [0m [1;30m                                                      [0m   [1;30m [0m  [1;30m  [0m  [1;30m       [0m [1;30m [0m [1;30m [0m [1;30m  [0m
 [1;30m-----------------------------------------------------------|---[0m     [1;30mo''[0m    [1;30m ----|[0m
-[1;30m|[0m  [1;30mGretes:  TRip, KK, ALT (of course), Corpse warper,[0m      [1;30m|[0m   [1;30m/[0m  [1;30mTHRuST  [0m [1;30m\[0m  [1;30m |[0m
-[1;30m|[0m  [1;30mBig hurt, Pirate box, red mist, umm... Ck and sg..[0m      [1;30m|[0m [1;30m/[0m [1;30m [0m    [1;30m|[0m    [1;30m  [0m  [1;30m\[0m [1;30m|[0m
+[1;30m [0m  [1;30m                                                  [0m      [1;30m [0m   [1;30m [0m  [1;30m        [0m [1;30m [0m  [1;30m  [0m
+[1;30m [0m  [1;30m                                                  [0m      [1;30m [0m [1;30m [0m [1;30m [0m    [1;30m [0m    [1;30m  [0m  [1;30m [0m [1;30m [0m
 [1;30m-==-=-==--=-=-=-=-=-=-=-==--=-=-=-==--=-=-=-==--==--=-=-=-=-==-=--==--=-=-=-=-=-[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 03ceac60a6d035c052a440c9ff33543eb478d4dd2adc0535f4619a6ff1016c2b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M-DSTAR.ANS by milkmang (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Deathstar
 # SAUCE Author: milkmang
 # SAUCE Group: nerp
@@ -16,11 +16,11 @@
 
 Write-Host '
 
-          [35msmall peace of largescale art, created by milkmang of nerp [0m
-     [1;35mfor [0;1;31mD E A T H S T A R[0m [1;35m, one of the last from the time that once was.[0m
-       [35mdedicated to Max, Igor, Paulo and Andreas, you were the greatest[0m
+          [35m                                                           [0m
+     [1;35m    [0;1;31m                 [0m [1;35m                                              [0m
+       [35m                                                                [0m
 
-            [1;30mfanmail and penetrationdemands to milkman@mindless.com[0m
+            [1;30m                                                      [0m
 
 
 

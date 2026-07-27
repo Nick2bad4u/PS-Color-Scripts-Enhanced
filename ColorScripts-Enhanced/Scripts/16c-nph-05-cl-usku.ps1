@@ -5,7 +5,7 @@
 # Source SHA-256: 918bf89ca5fd66ff9eae8b85a213eb22138d67b6515630a5e817a03b58855415
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-USKU.ANS by .:(cLEANER):. (.:(nITROPHUSION):.); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .:(u-sKULE^lOGO):.
 # SAUCE Author: .:(cLEANER):.
 # SAUCE Group: .:(nITROPHUSION):.
@@ -30,6 +30,4 @@ Write-Host '
       [1;30;40m▀▀▓▀▀[0m     [1;30;40m░  ▀▄ [0;1;35;40m▀▀█[0;1;35;45m▓[0;1;35;40m█▀▀ [0;1;30;40m▄▀   ▓[0m        [1;30;40m▒   ▀▄▄ [0;1;35;40m▀▀▀ [0;1;30;40m▄▀[0m     [1;30;40m▀▓▀▀▀   ▒    ▓[0m
         [1;30;40m▒[0m            [1;30;40m▀▀▄▄▄▄▄▀▀[0m     [1;30;40m▒[0m        [1;30;40m░[0m      [1;30;40m▀▀▀▓▀[0m        [1;30;40m▒[0m      [1;30;40m░    ▒[0m
         [1;30;40m░[0m                 [1;30;40m▒[0m        [1;30;40m░[0m                  [1;30;40m▒[0m         [1;30;40m░[0m           [1;30;40m░[0m
-                          [1;30;40m░[0m                           [1;30;40m░[0m
-
-[1;30;40m-[0m--[1;30m-[0;36m[[0;37mc[0;1;30mUT[0;36m^[0;1;30mhER[0mE[36m][0;1;30m-[0m-[1;30m-[0;36m[[0;37mc[0;1;30mAL[0mL[36m^[0;1;30mm[0mY[36m^[0;37mb[0;1;30mOAR[0mD[36m^[0;1;30md[0mA[36m^[0;37mp[0;1;30mROPHEC[0mY[36m:^+[0;1;30m3[0m3[36m-[0;37m5[0;36m-[0;1;30m6[0m2[1;30m8[0m7[1;30m2[0m2[1;30m1[0m2[36m][0;1;30m-[0m-[1;30m-[0;36m[[0;37mc[0;1;30mLEANE[0mR[36m^[0;37mn[0;1;30mP[0mH[36m][0;1;30m-[0m--[1;30m-[0m'
+                          [1;30;40m░[0m                           [1;30;40m░[0m'

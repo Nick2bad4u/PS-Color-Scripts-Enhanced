@@ -5,7 +5,7 @@
 # Source SHA-256: f29142c25db8ddce2dd65f1c767fc1b91506bd51c8faa65ecfab21038804579a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-STMP2.ANS by MADBiT (MATRiX); released in mtx-05a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Stimpy
 # SAUCE Author: MADBiT
 # SAUCE Group: MATRiX
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                      M[1mATRi[0mX[1;30m presents an [0;1;37mA[0;1;36mN[0;1;34mS[0;34mi[0;1;30m by [0mM[1mADBi[0mT[1;30m...[0m
+                       [1m    [0m [1;30m             [0;1;37m [0;1;36m [0;1;34m [0;34m [0;1;30m    [0m [1m    [0m [1;30m   [0m
 
 [1;30m        [0m [31m▄▄ [0;1;30m                                   [0m [31m▄▓[0;37m [0m
 [1;30m         [0m [31m▀▓█▄ [0;1;30m  [0m [31m▄[0;1;30m  [0m [31m▄▄▄▄▄▄▄ ▄██▀▀▀▀▀▀█▄[0;37m [0;31m▄▄▄[0;37m [0;31m▄█▓▌[0m
@@ -48,6 +48,4 @@ Write-Host '
 [1;37m█▌▄[0;31m ██▌[0;1;37m▐[0;1;37;47m▓▓[0;1;37;40m████▄▄ [0;31m▀▀█[0;1;31;41m░░▒▒▓[0;1;31;40m▀▀▀▀▀▀ [0;1;37;40m▄▄▄▄▄▄█████████████[0;1;37;47m▓[0;1;37;40m▌[0m
 [1m█▐██▄[0;31m▀█ [0;1;37;47m▒▓▓▓[0;1;37;40m██████▄▄▄▄▄▄▄▄███████████████████████[0;1;37;47m▓▓▓[0m
 [1m█▀███▌[0;31m▐▌[0;1;37m▐[0;1;37;47m▒▒▓▓▓█[0;1;37;40m██████████████████████████[0;1;37;47m█[0;1;37;40m███[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓▓▓▓[0m
-[1m▄████[0m [31m██[0;37m [0;1;37;47m▒▒▒▒▓▓▓▓▓[0;1;37;40m███████████████████████[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓▓▓▓▓▓▓[0m [1;30m   [0m
-
-[1;30m       [0m [1;30m"Ain''t got much to say here... So that''s it for this ANSi :)"[0m [1;30m-MB[0m'
+[1m▄████[0m [31m██[0;37m [0;1;37;47m▒▒▒▒▓▓▓▓▓[0;1;37;40m███████████████████████[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓▓▓▓▓▓▓[0m [1;30m   [0m'

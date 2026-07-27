@@ -5,7 +5,7 @@
 # Source SHA-256: 911f15fdbe06cf5a9eebb564e66ac1822f35954b9ffc36cb2ce88a5516ed63e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-EGA1.ANS by avenger (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: eLECTRONiC GRAPHiC ARTiSTs
 # SAUCE Author: avenger
 # SAUCE Group: ega
@@ -37,5 +37,5 @@ Write-Host '
 [1;30m█████████[0;1;30;47m███[0;1;30;40m█████▄[0m [1m ▀█▌[0;1;30m▐[0m▀[1;30m░[0m  [1m▄▄▄▄█▀▀▀▀[0;1;30m ▄▄▄▄▄▄▄██████▄▄▄▄▄▄▄▄▄▄███████████████████[0m
 [1;30m██████████████████▌[0m  [1m▀█▄▄██▀▀▀[0m [1;30m▄▄▄██████████████████████████████████████████████[0m
 [1;30m███████████████████▄ [0m  [1m▀▀[0m [1;30m▄▄████████████████████████████████████████████████████[0m
-[1;30m80x50 [0m electronic graphic artists [1;30m ─────────[0m  ansi by avenger / bm ^ ega   [1;30m80x50[0m
+[1;30m      [0m                            [1;30m ─────────[0m                               [1;30m     [0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

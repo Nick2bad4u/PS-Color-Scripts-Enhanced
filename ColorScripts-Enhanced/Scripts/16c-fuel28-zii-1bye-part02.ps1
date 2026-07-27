@@ -5,7 +5,7 @@
 # Source SHA-256: 63a4ec90c1678ee4fae56da54cba7d29291496af5358a79bb9c2fb25703c2116
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zII-1BYE.ANS by Zeus II (FUEL); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Goodbye Moon!
 # SAUCE Author: Zeus II
 # SAUCE Group: FUEL
@@ -43,20 +43,4 @@ Write-Host '
 [34m▄▄▀▀▀█▓▓▓▓██████ [0;37m [0;1;37m███▀███▀██▌▐█████████▌▐█████████▌▐███  ▐████[0m  [34m  ▄  ▀█▄▄▀▀██[0;1;34;44m▀▀▀[0m
 [34m ▀▀▀▀█▀▀███████▓ [0;37m [0;1;37m███  █  ██▌ ▀███████▀  ▀███████▀ ▐███   ████[0m  [34m    ▀▀▀▀██████▄▀[0m
 [34m▄▄█████▀▀▀   ▀▀▀ [0;37m [0;1;37m▀▀▀[0m     [1m▀▀▀   ▀▀▀▀▀[0m      [1m▀▀▀▀▀   ▀▀▀▀   ▀▀▀▀[0m  [34m   ▀ ▀▀▀██▀▀██▀█[0m
-     [34m▀▀▀▀▀[0;37m  [0;34m▄▄▄[0m                 [1;37mCome back soon![0m
-                            [1;34mApollo 11 Return Splash[0m
-
- [1;34m  GOODBYE MOON - For the Error 1202 BBS - @SysOpSolaris - by Zeus II[0m
-
-  [34m [0;1;35mGreetz[0;34m: Gosia, Propane, Pinguino, Ungennant, TCF, Filth, TK, Alpha King,[0m
-[34m   Warpus, Andyh, AMiSH (not, lol), Todd Solaris, Everyone at Fuel, B7 and[0m
-[34m   Mistigris and all the other hard warriors out there fighting the good[0m
-[37m  [0;34m fight of low res textmode. And Misfit, and Luciano, and RaD_Man and[0m
-[37m  [0;34m everybody else. Tempus Thales, what a guy. The entire CiA team. Opium.[0m
-[37m  [0;34m Poffelipoff. Twilight. All the groups I joined and was appointed leader[0m
-[37m  [0;34m of and then killed off, love those. Stone the Crow, redman and nootropic.[0m
-[37m  [0;34m Peace out and have a sick ass christmas you fool ass ghoul ass toooools!![0m
-
-
-
-                                [30m  [0;1;33m@Zeus_II[0m'
+     [34m▀▀▀▀▀[0;37m  [0;34m▄▄▄[0m                 [1;37mCome back soon![0m'

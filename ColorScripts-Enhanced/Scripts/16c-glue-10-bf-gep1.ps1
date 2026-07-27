@@ -5,7 +5,7 @@
 # Source SHA-256: 68a8e1bf9a530b120c2569e24633f536b64183dc28e3700dd73c93ad0eee004d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-GEP1.ANS by Boba Fett (glue-10); released in glue-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -36,13 +36,13 @@ Write-Host '
 [37m██[0;1;30;47m░░░▓▓██[0;1;30;40m▄▄[0;31m ▀▀██████▄▄▄▄[0;37m [0;31m▀[0;1;31m▀▀[0m
 [1;30m-([0mcut[1;30m)------------------------------------------------------------------------- [0m
 
-This is for my buddy Rash...  sorry this has taken so damn long but school has
-been consuming a large part of my time...  I''m back in the scene for good now
-since school is out...  Call pOD and see what''s going down...=)
+                                                                              
+                                                                             
+                                                               
 
- The Power of the Darkside ... (864)-639-1007 ... ansifire to burn your brain
+                                                                             
 
-bobafett ..,bobafett@x-net.net
+                              
 .pODSOp. ..,(864)-639-1007
 
 [1;30m-([0mcut[1;30m)------------------------------------------------------------------------- [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c3ce25c3908ddf17cc605678be732a67352e3373de4ec1347ea6542f0f10f269
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-MALF1.ANS by Cheeze (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -28,6 +28,4 @@ Write-Host '
       [1;37;47m░░░░░░ [0m▄  [31m▀▀[0;1;31;41m░▒▒▒▓▄[0;1;31;40m▄[0;31m▄[0m   [31m▄[0;1;31m▄[0;1;31;41m▄[0;1;31;47m▓▓[0;1;31;40m██[0;1;31;41m▓▓▒▒░░[0;30;41m▓[0;37;40m [0m     [31;40m▄▄▄▄▄[0;1;31;41m▒▒▓▓▓▓▓█[0;1;31;47m▓▓[0;1;31;41m▌[0;31m▌[0;37m  ▐[0;1;37;47m░░░░[0;30;47m▓[0m
      [37;40m [0;1;37;47m         [0m▄▄    [31m▀[0;1;31m▀▀▀[0;1;31;41m▀[0;1;31;47m▓▓[0;1;31;41m▀▀[0;1;31;40m▀▀[0;31m▀▀▐[0;1;31;41m▓▓▒▒░░ [0;31m▄▄[0;1;31;41m░░▒▒▒▒▒▓▓▓▓▓██▀▀[0;1;31;40m▀▀[0;31m▀▀▀[0;37m   █████[0;30;47m▓[0m
       [1;37;47m        [0;1;33;47m░░▒▒░░[0m▄▄▄▄       ▄   [31m▄▄▄▄▄[0;1;31;41m░▒▒▒▒▒▓▓▓▓[0;1;31;40m▀▀▀▀[0;31m▀[0m      [37m▄▄▄▄▄[0;1;33;47m░░░[0m████░
-                [1;33m░░[0m                [31m▀▀[0;1;31;41m▒▒▒▒[0;31m▀▀▀▀▀[0m
-
-      [37mwhite raven''s([0;1;37mmalfeas[0m)   [1;30mi swear it says malf..[0m  [1;30m [0mby cheeze([1meclipse[0m)[0m'
+                [1;33m░░[0m                [31m▀▀[0;1;31;41m▒▒▒▒[0;31m▀▀▀▀▀[0m'

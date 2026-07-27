@@ -5,7 +5,7 @@
 # Source SHA-256: 2700cfe01a0d4957bdf2f2029da4a944a75c700a49108d992680a00724d61b4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-CH02.ANS by Bad Karma (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Channel Zer0
 # SAUCE Author: Bad Karma
 # SAUCE Group: ACiD Productions
@@ -38,27 +38,27 @@ Write-Host '
                             [31m7 1 4 [0;1;30m· [0;31m5 3 2 [0;1;30m· [0;31m5 9 5 0[0m
                             [31m7 1 4 [0;1;30m· [0;31m5 3 2 [0;1;30m· [0;31m5 9 6 8[0m
 
-                   [1;30mDedicated to the Artists of the Underground[0m
-              [1;30m  800 Megz of Pure ANSi/VGA/Demo/Source/Audio/Emagz[0m
+                   [1;30m                                           [0m
+              [1;30m                                                   [0m
 
  [1m──[0m─[1m──[0m─[1m─[0m─────[1;30m─[0m─[1;30m────────────────────────────────────────────────[0m─[1;30m─[0m──────[1m─[0m─[1m──[0m─[1m───[0m
 [1m  C [0;1;30m·    [0;1;37mH [0;1;30m·    [0;1;37mA [0;1;30m·    [0;1;37mN [0;1;30m·    [0;1;37mN [0;1;30m·    [0;1;37mE [0;1;30m·    [0;1;37mL [0;1;30m·[0m       [1;30m· [0;1;37mZ    [0;1;30m· [0;1;37mE    [0;1;30m· [0;1;37mR    [0;1;30m· [0;1;37m0[0m
 [1;37m ──[0m─[1m──[0m─[1m─[0m─────[1;30m─[0m─[1;30m────────────────────────────────────────────────[0m─[1;30m─[0m──────[1m─[0m─[1m──[0m─[1m───[0m
 
-[1m   [0;1;30m-/-  [0;1mO[0mfficially affiliated with the following Art organizations[1;30m...[0m
+[1m   [0;1;30m     [0;1m [0m                                                         [1;30m   [0m
 
-       ACiD Productions[1;30m, [0mCIA[1;30m, [0mDefiant[1;30m, [0mDire[1;30m, [0mEmpire[1;30m, [0mEstranged[1;30m, [0mEternity[1;30m,[0m
-       Lapse[1;30m, [0mOpium[1;30m, [0mRelic[1;30m, [0mRIOT[1;30m, [0mSkill[1;30m, [0mUnion[1;30m.[0m
+                       [1;30m  [0m   [1;30m  [0m       [1;30m  [0m    [1;30m  [0m      [1;30m  [0m         [1;30m  [0m        [1;30m [0m
+            [1;30m  [0m     [1;30m  [0m     [1;30m  [0m    [1;30m  [0m     [1;30m  [0m     [1;30m [0m
 
-   [1;30m-/-  ...[0;1;37mT[0mhe following Electronic Magazines[1;30m...[0m
+   [1;30m        [0;1;37m [0m                                 [1;30m   [0m
 
-       CLS[1;30m, [0mCorruption[1;30m, [0mCritic[1;30m, [0mHurricane[1;30m, [0mIridium[1;30m, [0mLancelot II[1;30m, [0mLithium[1;30m,[0m
-       Paradigm[1;30m, [0mParanoia[1;30m, [0mPremier[1;30m, [0mPsychosis[1;30m, [0mRumors[1;30m.[0m
+          [1;30m  [0m          [1;30m  [0m      [1;30m  [0m         [1;30m  [0m       [1;30m  [0m           [1;30m  [0m       [1;30m [0m
+               [1;30m  [0m        [1;30m  [0m       [1;30m  [0m         [1;30m  [0m      [1;30m [0m
 
-[1;30m   -/-  ...[0;1;37mA[0mnd other miscellaneous groups[1;30m...[0m
+[1;30m           [0;1;37m [0m                             [1;30m   [0m
 
-       Source[1;30m, [0mLUPUS[1;30m, [0mSpectrum[1;30m, [0mTurbine[1;30m, [0mLeviathan Coding Cartel[1;30m, [0mNew Age[1;30m.[0m
+             [1;30m  [0m     [1;30m  [0m        [1;30m  [0m       [1;30m  [0m                       [1;30m  [0m       [1;30m [0m
 
   [1;30m─  ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
-                         [1;30mANSI by [0m:  [1mB[0ma[1;30md [0;1;37mK[0ma[1;30mrma  <AC[0mi[1;30mD>[0m
+                         [1;30m        [0m   [1m [0m [1;30m  [0;1;37m [0m [1;30m        [0m [1;30m  [0m
                 [1;30m─  ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m'

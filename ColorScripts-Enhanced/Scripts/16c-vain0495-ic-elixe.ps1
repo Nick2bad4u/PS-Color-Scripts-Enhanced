@@ -5,7 +5,7 @@
 # Source SHA-256: 8846a21d5f9d862ae1c4426558754443296e0ce97d3c912660f6448c6101e74e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IC-ELIXE.ANS by iNNER CHAOS (READ THE INI FILE); released in vain0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dumb Elixer Ad
 # SAUCE Author: iNNER CHAOS
 # SAUCE Group: READ THE INI FILE
@@ -52,6 +52,4 @@ Write-Host '
                 [31m▐[0;1;30m▐█████▄■[0m     [1;30m██[0m [31m▀[0m [1;30miç▐██[0m  [1;30m▀██▄██▀[0m [1;30m███▀▀███ ▐██▀▀█▀[0;31m▐ [0m
                 [31m▀[0m [1;30m███▄[0m    [1;30m ▄■[0m [1;30m██▄▄▄▄▄▀▀█▌ [0m [1;30m▄███[0m  [1;30m▐██ ▀▀▀▀▀ [0m [1;30m██[0m   [1;30m [0;31m▀[0m
                    [1;30m▀███████▀[0m [1;30m████▀▀▀▀▀▀■▀▄██▀▀██▄[0m [1;30m▀██▄▄▄▄█■[0m [1;30m█▌[0m
-                     [1;30m ▀▀▀▀[0m  [1;30m■▀  [0m         [1;30m■▀[0m    [1;30m▀[0m     [1;30m▀▀▀▀[0m  [1;30m▀▀ [0m
-
-[1;30mboy this one suked.[0m'
+                     [1;30m ▀▀▀▀[0m  [1;30m■▀  [0m         [1;30m■▀[0m    [1;30m▀[0m     [1;30m▀▀▀▀[0m  [1;30m▀▀ [0m'

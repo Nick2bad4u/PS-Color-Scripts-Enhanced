@@ -5,7 +5,7 @@
 # Source SHA-256: f62276dabb2ccb39846235f5a0be080af65e3b16489dc21115372d19ab6c5b90
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P!_GROUP.ANS by phos4! (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: groups
 # SAUCE Author: phos4!
 # SAUCE Group: READ THE INI FILE
@@ -25,13 +25,13 @@ Write-Host '
  [1;30m▒[0m [1m▀[0;1;47m▓█▄▀[0m█▄  [1;30m███▓███████▓██▄▄▄▄[0m ▀ [1;30m▄▄▄▒██▄▄▄▄▄████▒▄▄[0m [1;47m░[0;1;40m▀▀[0m [1;30m▒▄▄▄▄▄▄▄▄▄▄▄█████████▀▄▀[0m
 [1;30m▄▓█▄▄▄▄▄▄▄▄████████████████████▄▄██████████████▀▓▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀[0m            [1;30m▀[0m
 [1;30m██▓▀[0m                                                                          [1;30m▄▓[0m
-[1;30m▓██[0m    [1msorry for da colours..but mangar loves this ones ..dont use it or ask[0m [1;30m▀▓[0m
- [1;30m▀█[0m    [1mme for ya own .. or request one ...hehehe...[0m
+[1;30m▓██[0m    [1m                                                                     [0m [1;30m▀▓[0m
+ [1;30m▀█[0m    [1m                                            [0m
 [1;30m  ▀[0m
-[1;30m   [0m  [1mgrEEtS: mANGAR, p! pain, mONSTER b!,krASh (what are u painting ?), iNX!,[0m
-             [1msinus ( want 2 see your board but get no connect ): ), d-sign,[0m    [1;30m▓[0m
-[1;30m▄  [0m          [1mniLS[0m [1m( hope you will read this ... brother ..), wiktor, cyz, hx!,[0;1;30m▒█[0m
-[1;30m██[0m           [1mviOlA[0m [1m( i aM nnnnnnnnnnnnnno smoker ... :) [0m  [1m [0m  [1m  [0m             [1;30m▓▄██[0m
+[1;30m   [0m  [1m                                                                        [0m
+             [1m                                                              [0m    [1;30m▓[0m
+[1;30m▄  [0m          [1m    [0m [1m                                                            [0;1;30m▒█[0m
+[1;30m██[0m           [1m     [0m [1m                                     [0m  [1m [0m  [1m  [0m             [1;30m▓▄██[0m
 [1;30m▓██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄  [0m        [1;34mphOS4!%phAT!%iNX[0;1;30m▄▄▒████[0m
 [1;30m▀██████████████████████████████████████████████ ▄████████████████████████████▀▀[0m
   [1;30m█▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████▓[0m

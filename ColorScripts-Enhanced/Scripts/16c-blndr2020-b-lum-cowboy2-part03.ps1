@@ -5,7 +5,7 @@
 # Source SHA-256: 05728ebe81de0e1d8dd0596fea2d6f13395984ee535a1332e0f777447110822a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: b-lum-cowboy2.ans by Luminator (fUEL); released in blndr2020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Blender
 # SAUCE Author: Luminator
 # SAUCE Group: fUEL
@@ -57,7 +57,4 @@ Write-Host '
 [1;36;40m ██████[0;1;36;45m██[0;1;36;40m  ██▌           ███▀▀▄███████████▒█▓██████████████████████████[0;1;36;45m██[0;1;36;40m██████[0m
 [1;36;40m  █████[0;1;36;45m██[0;1;36;40m▌ ▀█            ▄▄▄██████████████▒████████████████████████████[0;1;36;45m██[0;1;36;40m█████[0m
    [1;36m▀███[0;1;36;45m██[0;1;36;40m█  ▀             ████████████████▒████████████████████████████[0;1;36;45m██[0;1;36;40m███▀[0m
-      ▀▀[1;36m▀██▄               █▀█████████████▓████████████████████████████▀▀▀[0m
-
-[1;36m    [0;1;30mBlender 2020[0m            [1;30mTOPICS:[0m  [1;30mCOWBOY / EATING SUSHI / KIDDIE POOL[0m
-                                   [1;30m+ MONKEYS / RESCUING / BETWEEN REALITIES[0m'
+      ▀▀[1;36m▀██▄               █▀█████████████▓████████████████████████████▀▀▀[0m'

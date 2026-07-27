@@ -5,7 +5,7 @@
 # Source SHA-256: de106714585f3bba1b8f561110389a9374c9a6e231dff5af52e1834151ae2270
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DV-TACOL.ANS by digital vampire (Apocalyptic Visions); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the asylum logon
 # SAUCE Author: digital vampire
 # SAUCE Group: Apocalyptic Visions
@@ -29,10 +29,10 @@ Write-Host '
    [35m [0;1;30m░[0m      [35;41m▒[0;31;40m▄▐▀▀[0;37;41m░[0;31;40m█▓▀[0;37;40m [0;31;40m ▄▄[0;1;31;41m░▀[0;31m█▀ ▓[0;37m [0;31m▀▓██[0;37;41m░[0;31;40m▀▄▄[0;35;41m▒[0;31;40m █ ▐[0;35;41m▒[0;31;40m█[0;1;31;41m▐[0;1;31;47m░▓[0;1;37;41m [0m [31m ▀▀▀▀▀  ▀▀[0;37m [0;31m██▌ ░ ██[0;1;31;41m▀▓█[0;31m█[0;37m [0;1;34m  [0m [1;34m [0m
  [35m  [0m     [37m   [0;1;34m   [0m       [31m▀▓██[0;37;41m░[0;31;40m█▄▀ [0m          [31;40m▐▓█[0;37;41m░[0;1;31;41m░[0;31m█[0;1;31;41m██▀[0;31m▌[0;37m  [0;1;34m      [0m   [31m███▓   ▐███[0;1;31;41m▀■[0;31m▌[0;37m   [0;1;34m [0m
 [35m [0m       [1;34m                              [0m  [31m▀▀ ▀▀▀▀▀░▀[0;37m  [0;1;34m                [0m   [31m▀▀▀▀[0;37m   [0;1;34m [0m
-       [1;30m<f>ilebase  [0;1;34m        [0;1;30m(%)page syop      [0;1;34m  [0;1;30m(!)ogoff[0;1;34m     [0;1;30msdfsdfsd[0;1;34m           [0m
-       [1;30m<e>mail[0m             [1;30m(y)asdl[0m             [1;30msdfsd[0m        [1;30m(s)sdk[0m          [1;30m░[0m
- [1;30m░[0m     [1;30m<b>lah[0m              [1;30m(c)onferfences[0m      [1;30mff(h)[0m        [1;30m..[0m              [1;30m▒[0m
-[35m       [0;1;30m(mail)networks[0m   [1;30m░[0m  [1;30m(etC)[0m               [1;30m(g)[0m            [1;30m..[0m            [1;30m░[0m
+       [1;30m            [0;1;34m        [0;1;30m                  [0;1;34m  [0;1;30m        [0;1;34m     [0;1;30m        [0;1;34m           [0m
+       [1;30m       [0m             [1;30m       [0m             [1;30m     [0m        [1;30m      [0m          [1;30m░[0m
+ [1;30m░[0m     [1;30m      [0m              [1;30m              [0m      [1;30m     [0m        [1;30m  [0m              [1;30m▒[0m
+[35m       [0;1;30m              [0m   [1;30m░[0m  [1;30m     [0m               [1;30m   [0m            [1;30m  [0m            [1;30m░[0m
  [1;30m░[0m [35m       [0m              [1;30m▒[0m
  [1;30m▓[0;1;30;45m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m▓[0;1;30;45m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀[0;1;30;40m▄[0m
  [1;30m▐[0;1;30;45m▌[0;35m███████████████████████████████████████████████████████████████████████████[0;1;30;45m▐[0;1;30;40m▌[0m

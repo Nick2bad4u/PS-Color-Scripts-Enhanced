@@ -5,7 +5,7 @@
 # Source SHA-256: 77f616d6f31caef7219f1ba18c6d28af356a6e899a46a4368a6bdd99e7ddab25
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-TGOT.ANS by Crime Lord (riot0194); released in riot0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 75-118
 # Columns: 1-80
 
@@ -34,21 +34,21 @@ Write-Host '
        [1;30m▐[0;1;30;47m▓░[0m▀       [1;30m▐[0;1;30;47m▓▒[0m▀  [1;30m▐[0;1;30;47m▓▒[0m▀ [1;30m█[0;1;30;47m▓▒[0m▌   [1;30m▀[0;1;30;47m▓▒░ [0m▀    [1;30m▀[0;1;30;47m▓[0;1;30m▄[0;1;30;47m▒[0m▀     [1;30m▀[0;1;30;47m▓▒░ [0m▀  [1;30m▄[0;1;30;47m▓▓▓[0;1;30m▄▄[0;1;30;47m▒[0m▀
         [1;30m▀[0m          [1;30m▀[0m     [1;30m▀    ▀[0m▀      [1;30m▀[0m▀        [1;30m▀[0m         [1;30m▀[0m▀     [1;30m▀▀▀▀[0m
 
-                 [1m▄[0m            [1;30mT[0mh[1me Guild Of Thiev[0me[1;30ms[0m           [1m▄[0m
+                 [1m▄[0m            [1;30m [0m [1m                [0m [1;30m [0m           [1m▄[0m
                  [1;47m▓[0;1m▌ [0;1;30m─────────────────────────────────────── [0;1m▐[0;1;47m▓[0m
-                 [1;47m▒▓[0m     [1;30mS[0m: [1mMithrandir  [0;1;30m■  [0;1m(INV)ITE-ON[0mL[1;30mY[0m     [1;47m▓▒[0m  [1;30m<- damn, they[0m
-                 [1;47m░▒[0m     [1;30m5[0m4[1m0 Megs  [0;1;30m■  [0;1mBurnin at 21.6 b[0mp[1;30ms[0m     [1;47m░░[0m     [1;30mare thieve[0m
-                [1;30m▀[0;1;30;43m▀▀[0;1;30m▀    T[0mM[1mG Support  [0;1;30m■  [0;1mQuality Membe[0mr[1;30ms    ▀[0;1;30;43m▀▀[0;1;30m▀    knives!!!![0m
+                 [1;47m▒▓[0m     [1;30m [0m  [1m            [0;1;30m■  [0;1m           [0m [1;30m [0m     [1;47m▓▒[0m  [1;30m             [0m
+                 [1;47m░▒[0m     [1;30m [0m [1m        [0;1;30m■  [0;1m                [0m [1;30m [0m     [1;47m░░[0m     [1;30m          [0m
+                [1;30m▀[0;1;30;43m▀▀[0;1;30m▀     [0m [1m           [0;1;30m■  [0;1m             [0m [1;30m     ▀[0;1;30;43m▀▀[0;1;30m▀              [0m
                  [1;33;43m░▒[0m                                         [1;33;43m▒░[0m
 [1m ▄[0m               [1;33m▀▀[0m                                         [1;33m▀▀[0m               [1m▄[0m
 [1m [0;1;47m▓[0;1m▌ [0;1;30m─────────────────────────────────────────┬───────────────────────────── [0;1m▐[0;1;47m▓[0m
-[1;40m [0;1;47m▒▓[0m   [1;30mIf you wish to contact me for an ansi, │ Greets: MT, DL, BE, VN, and  [0;1;47m▓▒[0m
-[1;40m [0;1;47m░░[0m   [1;30myou can e-mail me on Malicious Intent  │ all the artists contributing [0;1;47m░░[0m
-[1;30m▀[0;1;30;43m▀▀[0;1;30m▀  or if you''re lucky you may catch me on │ to the art scene...[0m         [1;30m▀[0;1;30;43m▀▀[0;1;30m▀[0m
+[1;40m [0;1;47m▒▓[0m   [1;30m                                       │                              [0;1;47m▓▒[0m
+[1;40m [0;1;47m░░[0m   [1;30m                                       │                              [0;1;47m░░[0m
+[1;30m▀[0;1;30;43m▀▀[0;1;30m▀                                         │                    [0m         [1;30m▀[0;1;30;43m▀▀[0;1;30m▀[0m
 [1;30m [0;1;33;43m░▒[0m   [1;30mToXiC-Net...[0m                           [1;30m│[0m                              [1;33;43m▒░[0m
 [1m [0;33m▀▀ [0;1;30m─────────────────────────────────────────┴───────────────────────────── [0;33m▀▀[0m
-                               [1mA[0mn[1;30msi: [0;1mC[0mr[1;30mime [0;1mL[0mo[1;30mrd[0m
-                [1;30m"When the shit goes down, you better be ready..."[0m
+                               [1m [0m [1;30m    [0;1m [0m [1;30m    [0;1m [0m [1;30m  [0m
+                [1;30m                                                 [0m
 
        [1;30m────────────────── [0;1;30;47m▓██[0;1;30m▀▀▀▄ [0;1;30;47m▓[0;1;30m██ [0;1;30;47m▓██[0;1;30m▀▀█ ▀[0;1;30;47m▓[0;1;30m██▀ [0;1m(TM) [0;1;30m──────────────────[0m
        [1mCopyright (c) 1993 [0;1;30;47m▒▓█[0m   [1;30m█ [0;1;30;47m▒▓[0;1;30m█ [0;1;30;47m▒▓█[0m  [1;30m█  [0;1;30;47m▒▓[0;1;30m█  [0;1mAll rights are reserved[0m

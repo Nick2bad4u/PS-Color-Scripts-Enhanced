@@ -5,13 +5,13 @@
 # Source SHA-256: 0f93ba0d4c952d850092c1ea6cf8899dc3544caf5ceccb05938496b9b0eaa383
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-STD.ANS by Shrimp (12317); released in 12317 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
 Write-Host '
         .
-         └q┐._       `┌._                     [30;47mS[0;37;40mpread [0;30;47mT[0;37;40mhe [0;30;47mD[0;37;40misease[0m
+         └ ┐          ┌                       [30;47m [0;37;40m      [0;30;47m [0;37;40m   [0;30;47m [0;37;40m      [0m
            [37;40m`Q│g┐._     `Q#g┐,. [0m
              [37;40m`$$$$$Sy┐,._`Q$$$S#g┐,._[0m
          [37;40m .,┌a#S$$$$$$$$$$$$$$$$$$$$$S#y┐._[0m   [37;40m    ______________________[0m
@@ -35,7 +35,7 @@ Write-Host '
        [37;40m  `"└+/│$$$$$$$$│\+└ⁿ`  .,┌a#S8'' d$$$$$$$$$$$$l  ,┌y#888888888888 [0m   [37;40m↓[0m
       [37;40m         `ⁿ/$$\┘` [0m                                                 [37;40m  [0m
         [32;40m.[0m        [32;40m   [0m
-         [32;40m└q┐._[0m    [32;40m   `┌._[0m                     [1;32;40mS[0;32mpread [0;1;32mT[0;32mhe [0;1;32mD[0;32misease[0m
+         [32;40m└ ┐  [0m    [32;40m    ┌  [0m                     [1;32;40m [0;32m      [0;1;32m [0;32m   [0;1;32m [0;32m      [0m
            [32m`Q│g┐._     `Q#g┐,. [0m
              [32m`$$[0;1;32m$$$[0;32mSy┐,._`Q[0;1;32m$$$[0;32mS#g┐,._[0m
          [32m .,┌a#[0;1;32mS$$$$$$$$$$$$$$$$$$$$$[0;32mS#y┐._[0m   [37m    [0;1;30m______________________[0m

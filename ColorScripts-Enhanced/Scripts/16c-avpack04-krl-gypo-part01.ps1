@@ -5,7 +5,7 @@
 # Source SHA-256: c9b5fb1c4235b91ccaf551feb1164ab133788fed8cbab8897d9acb2ecd89058b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRL-GYPO.ANS by Mr Krinkle (Apocalyptic Visions); released in avpack04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: King Tut
 # SAUCE Author: Mr Krinkle
 # SAUCE Group: Apocalyptic Visions
@@ -22,7 +22,7 @@ Write-Host '
                                                    [31m       ▄[0;1;31;41m■▒▒░[0;31m▓▄▄[0m
                                                    [31m   ▄ ▀▀[0;1;31;41m░▒▓▒▒[0;31m▓▀▀▀▀[0m
  [37mAnsi - Mr Krinkle 95[0m                                      [31m▀▀[0;1;31;41m▒░[0m [1;37;43m▀▀▀[0;1;33;43m▀▀▀▀▀▀▀▀▀▀[0m
-   for Visions GFX                                            [1;31;41m░[0;31m▓▄[0m [31m  [0m  [1;33;43m▀[0m
+                                                              [1;31;41m░[0;31m▓▄[0m [31m  [0m  [1;33;43m▀[0m
        viewer                                                 [31m▀▓[0m [1;37;43m▀[0m [1;33;40m▄▄[0;1;37;43m▀[0;1;33;43m▀▀[0;1;33;40m▄▄[0m [1;33;43m▀[0m
                                                              [31m▄▓[0m [1;33m▄[0m [1;33m█[0;33m▀▀[0m [1;33m [0m [33m▀▀[0;1;33;43m▓[0m [1;33;40m▄[0m
                                                             [31m▄▀[0m  [33m▀[0m [33m▀[0m       [33m▀[0m [33m▀[0m

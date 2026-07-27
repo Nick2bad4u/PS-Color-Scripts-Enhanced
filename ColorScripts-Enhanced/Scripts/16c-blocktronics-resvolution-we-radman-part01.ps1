@@ -5,7 +5,7 @@
 # Source SHA-256: 3adca4da873feb018487722aa8e645c633fa4209f5d5027c3c3d9337c78c6985
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-radman.ans by Avenging Angel + Rad Man (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -33,10 +33,4 @@ Write-Host '
        [37m    [0;34m▄[0;1;34m▒[0;36;44m░[0;34;40m [0m       [33;40m▀[0;1;31;40m▀[0;1;31;43m▀[0;1;31;47m█▀▀█[0;1;31;43m▄▄[0;33m█[0;1;30m▀[0;33m   [0;1;30;43m▀[0;33m█[0;1;30;43m▄[0;1;31;40m▀▀[0;1;30;43m▄[0;33m▀  [0;31m░░[0m        [34m [0;35m▀[0;1;37m█[0;1;36;44m█[0;1;36;45m▄[0;34m▄█[0;1;36;44m░░░░[0;36;44m░░[0;34;40m▄▄▄▄▄[0;1;34;40m▒▒▒▒[0;34m▀[0m
          [34m▄[0;1;34m▒▒▒[0;34m▀[0m        [1;35m░░░░[0;33m▀[0;1;31m▀[0;1;31;43m▀[0;1;31;40m██[0;1;30;43m█[0;1;30;40m▄[0;1;30;43m▀[0;1;31;43m▄[0;1;31;40m▓▓▓▓▒[0;33m  [0;37m [0;33m [0;31m░[0m        [34m▄[0;1;36;44m▄▄[0;34m▄[0;35m▀[0;1;36;44m▓▓▓[0;34m█▄█[0;36;44m░░░░[0;34;40m▀▀█[0;1;34;40m▒▒▒▒[0;34m█▄[0;1;36m▄[0;1;37;44m▄█[0m
         [34m▒[0;1;34m▒▒▒[0;36;44m░[0;1;34;40m▒[0;34m▄▄[0m               [33m ▀[0;1;31m▀▀▀▀[0;33m▀[0;37m    [0;33m [0m        [34m ▒█[0;1;36;44m▀▓▓[0;34m██[0;1;36;44m░░░[0;1;34;40m▒▒[0;34m▀▀   ▒[0;1;34m▒▒▒[0;34m██[0;1;36;44m▓▓▓[0;1;37;40m▓▓[0m
-           [34m▀▀▀██▒[0m                                                    [1;34m░░░[0m
-[1;30mavg[0m+radman
-
-
-                           [1;35mr[0;1;33ma[0;1;36md[0;1;32mm[0;1;37ma[0;32mn.. [0;1;36mWE SALUT YOU![0m
-
-'
+           [34m▀▀▀██▒[0m                                                    [1;34m░░░[0m'

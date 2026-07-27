@@ -5,7 +5,7 @@
 # Source SHA-256: d74d0bc3a44156324aceea42bb84649a73bde71fc80990a16e5bc0336b092212
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-VESA1.ANS by Bizzarro + Milkmang (nerp); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: vesalis 24 liner
 # SAUCE Author: biz and milkmang
 # SAUCE Group: nerp
@@ -39,6 +39,4 @@ Write-Host '
 [37m█▐[0;1;37;47m█[0m█ ▀█▌           ▐████[1;30;47m░░▒▓█[0;1;30;40m▄▄▄[0m      [1;30m▀[0;33m█[0;1;31;43m░▓░[0;33m▄ [0;1;30m▄[0m▄[1;47m█[0;1;40m▄▄[0;1;47m▄[0;1;40m███[0;1;47m▄[0;1;40m▄[0m▄▀▀ [33m▄▐[0;1;31;43m▄[0;33m▄███▒ █████[0;1;37;43m [0;33m█[0;1;31;43m▀[0;33m▀ [0m
 [37m█ ▀[0;1;30m▀[0m                 [1;30m▀▀▀▀▀▀▀▀▀[0m         [33m ▓[0;1;31;43m░░[0;33m▀▓[0;1;30m▀[0;1;37m░▀▀[0;1;37;47m▓[0;1;37;40m███[0;1;37;47m▀▀[0m▀[1;30m▀▄[0;33m▄███[0;1;31;47m▀[0;1;33;43m░░[0;33m█▓[0;37m [0;33m▐████▄▀ [0;1;30m▀[0;33m   [0m
 [1;30m▀[0m                                      [33m [0;1;30m▀[0;33m▀▀ ▀[0m    [1;30m▀▀▀[0m    [33m▀▀▀▀▀▀▀▀▀▀[0;37m  [0;33m▀▀▀▀[0;1;30m▀[0m
-[1;30m--------------------------------------------------------------------------------[0m
-here you go knocturnal, hope you''ll enjoy it. i think it''s quite good. ahwell,
-see you around pal.[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

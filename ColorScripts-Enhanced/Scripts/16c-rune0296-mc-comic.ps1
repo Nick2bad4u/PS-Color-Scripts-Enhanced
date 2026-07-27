@@ -5,7 +5,7 @@
 # Source SHA-256: 5dfccaf5e524744029c750484611fee636646ea4bd4d578b1d8544e23f00d882
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-COMIC.ANS by mortal comeback (rune); released in rune0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: comic stop
 # SAUCE Author: mortal comeback
 # SAUCE Group: rune
@@ -54,6 +54,5 @@ Write-Host '
 [1;37m███▄████████████████████████████▄█████▄▄    ▄[0m  [33m▀▀▀▀[0;37m  [0;1;37m▄[0mmC<rune>▄[1m▄▄▄██████████████[0m
 [1m██████████████████████████████████████████████▄▄▄▄▄▄▓███████████████████████████[0m
 --------------------------------------------------------------------------------
-[33mc[0;1;33mO[0;33mmic st[0;1;37mO[0;33mp!  %murdeR distrOsite#[0;37m [0;33m&mOre![0m           [1;30mansi^mortal comeback~rune_prOd[0m
-[1;30m--------------------------------------------------------------------------------[0m
-                                                  [1;30mlOgO^omega[0;31mr[0;37me[0;1;30md[0;35m@[0;32mr[0;1;32mu[0;1;33mn[0;33me[0;1;30m%prOduKtiOns[0m'
+[33m [0;1;33m [0;33m      [0;1;37m [0;33m                       [0;37m [0;33m      [0m           [1;30m                              [0m
+[1;30m--------------------------------------------------------------------------------[0m'

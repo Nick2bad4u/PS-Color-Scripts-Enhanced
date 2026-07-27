@@ -5,7 +5,7 @@
 # Source SHA-256: ade21c9fbf947383b78789ff64f4bc41090569ce76689ba6d1204d81957bcca4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-NTG.ICE by Stiletto (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 35-82
 # Columns: 1-80
 
@@ -49,12 +49,11 @@ Write-Host '
           [1;30;40m▒[0;1;37;47m░[0m▄▄▄[1;47m░[0m  [1;30;40m▒[0;1;37;47m░[0m    [1;37;47m░[0m  [1;30;40m▒[0;1;37;47m░[0m▄▄▄▄[1;47m░[0m  [1;30;40m▒[0;1;37;47m░[0m▄▄▄ [1;47m░[0m  [1;30;40m▒[0;1;37;47m░[0m    [1;37;47m░[0m  [1;30;40m▒[0;1;37;47m░[0m▄▄▄▄[1;47m░[0m  [1;30;40m▒[0m▄▄▄▄[1;47m░[0m
           [1;30;40m░[0m       [1;30;40m░[0m        [1;30;40m░[0m        [1;30;40m░[0m        [1;30;40m░[0m        [1;30;40m░[0m        [1;30;40m░[0m
 
-      " [1;30mRe: Illustrator - Can I be artist of the month, huh, can I?  :) [0m"
+        [1;30m                                                                [0m 
 
                [1;32mT[0;1;30m∙[0;1;32mH[0;1;30m∙[0;1;32mE   N[0;1;30m∙[0;1;32mE[0;1;30m∙[0;1;32mV[0;1;30m∙[0;1;32mA[0;1;30m∙[0;1;32mD[0;1;30m∙[0;1;32mA   T[0;1;30m∙[0;1;32mE[0;1;30m∙[0;1;32mS[0;1;30m∙[0;1;32mT[0;1;30m∙[0;1;32mI[0;1;30m∙[0;1;32mN[0;1;30m∙[0;1;32mG   G[0;1;30m∙[0;1;32mR[0;1;30m∙[0;1;32mO[0;1;30m∙[0;1;32mU[0;1;30m∙[0;1;32mN[0;1;30m∙[0;1;32mD[0;1;30m∙[0;1;32mS[0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;32mSysOp[0;32m: [0;1;37mAftermath [0;32m∙ [0;1;32mCoSys[0;32m: [0;1;37mCyclonus [0;1;30m<[0mi[1mCE[0;1;30m> [0;32m∙ [[0;1;32m313[0;32m] [0;1;37m348[0;32m-[0;1;37m2829 [0;32m∙ [0;1;37m1[0;32m.[0;1;37m4 [0mGigabyte OnLine
-USRobotics [1;32m16[0;32m.[0;1;32m8[0;32mk [0;37mDual Standard [0;32m∙ [0;37mNo[0;32m-[0;37mRatio [0;32m∙ [0;1;37mV[0mi[1mS[0mi[1mON[0;32m-[0;1;37mX [0mSupport World Headquarters
-[1mFelony[0mNET [1;32mHUB[0;32m/[0;1;32mWHQ [0;32m∙ [0;1;32mNDN [0mCourier Home [32m∙ [0;1;32mAPT [0mDistro Site [32m∙ [0;1;32miCE [0mDistribution Site[1m![0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m    [0;1;32mANSiCreated by[0;32m: [0;1;37mStiletto [0mof [1mi[0mCE[1;30m([0mtm[1;30m) [0;1;37mAdvertisements [0mon [1;32mNovember [0;1;37m14[0;32m, [0;1;37m1992[0m'
+[1;32m     [0;32m  [0;1;37m          [0;32m  [0;1;32m     [0;32m  [0;1;37m         [0;1;30m [0m [1m  [0;1;30m  [0;32m   [0;1;32m   [0;32m  [0;1;37m   [0;32m [0;1;37m     [0;32m  [0;1;37m [0;32m [0;1;37m  [0m               
+           [1;32m  [0;32m [0;1;32m [0;32m  [0;37m              [0;32m  [0;37m  [0;32m [0;37m      [0;32m  [0;1;37m [0m [1m [0m [1m  [0;32m [0;1;37m  [0m                          
+[1m      [0m    [1;32m   [0;32m [0;1;32m    [0;32m  [0;1;32m    [0m             [32m  [0;1;32m    [0m            [32m  [0;1;32m    [0m                 [1m [0m
+[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

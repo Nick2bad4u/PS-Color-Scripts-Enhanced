@@ -5,7 +5,7 @@
 # Source SHA-256: 27d103394a7bf0fa39efe27ed69df5297fb4337483f908d33789dc98f206c317
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DND-AGE.ANS by diAMONd (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: AGE STATiSTiX
 # SAUCE Author: diAMONd
 # SAUCE Group: RiB
@@ -29,21 +29,21 @@ Write-Host '
 [37;40m$[0;1;31;40m$s,,,s$$$$$[0;1;31;41m$$[0;31m$$[0;30;41m$$[0;1;31;40m$²[0;31m²²[0;1;31m²²²[0;31m$[0;30;41m$[0;1;31;41m$$$[0;30;41m$$$[0;1;31;41m$$[0;1;31;40m$$$$$$[0;30;41m$$$[0;1;31;41m$$$[0;31m$$$y%@S$[0;30;41m$$[0;31;40m$$$$$[0;30;41m$$[0;1;31;41m$$$[0;1;31;40m$$[0;1;31;41m$$$[0;1;31;40m$$$b,_[0m
 [41m$[0;40m$[0;1;31;40m$$$$$$$$$$$$$$$$$yyy[0;31myy[0;1;31myS[0;31mSS[0;1;31mSS[0;31mS[0;1;31mS[0;31mS[0;1;31m╨╨╨╨╨╨╨²²²²²²²²²²""""""""""""""^^^^^^^^`````` `[0m
 [41m$$[0;1;31;40m$$$[0;41m$$$[0;1;31;40m$$$[0;1;31;41m$[0;31m$╨²"^```[0m
-[37m²[0;1;31m²²²$$$$[0;1;31;41m$$[0;31m$╜  [0;1;36m10-14 [0;36myears ∙[0;1;36m[quant] [0;36m∙ [0;1;34msome additional info..[0m
-yyy[1;31my$$$[0;30;41m$[0;31;40m$$''   [0;1;36;40m15-19 [0;36myears ∙[0;1;36m[quant] [0;36m∙ [0;1;34mmay be a graph like this:[0m
+[37m [0;1;31m       [0;1;31;41m  [0;31m ╜  [0;1;36m      [0;36m       [0;1;36m        [0;36m  [0;1;34m                      [0m
+   [1;31m    [0;30;41m [0;31;40m      [0;1;36;40m      [0;36m       [0;1;36m        [0;36m  [0;1;34m                         [0m
 [41m$$[0;1;31;40m$$$$$$[0;31m$l[0m    [1;36m20-24 [0;36myears ∙[0;1;36m[quant] [0;36m∙ [0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 l[41m$[0;1;31;40m$$²$$[0;30;41m$[0;31;40m$:[0m    [1;36;40m25-29 [0;36myears ∙[0;1;36m[quant] [0;36m∙ [0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;31m!$[0;41m$$[0;1;31;40my$$$[0;30;41m$[0;31;40m$,   [0;1;36;40m30-34 [0;36myears ∙[0;1;36m[quant] [0;36m∙ [0;1;34m▀▀[0m
 [1;31m∙$$$$$[0;1;31;41m$$[0;30;41m$$[0;31;40mi,[0m
-[1;31;40m∙:$$$$$$[0;1;31;41m$$[0;30;41m$$[0;31;40mby,..  __[0m    [36;40mMale users: [0;1;36;40m[quantity]  [0;36mFemale users: [0;1;36m[quantity][0m
+[1;31;40m        [0;1;31;41m  [0;30;41m  [0;31;40m         [0m    [36;40m            [0;1;36;40m            [0;36m              [0;1;36m          [0m
 [1;36m  [0;1;31m`^""²²╙╙╙╙SSSS[0;30;41mSS[0;31;40mSS@@@%%%%%ssssss╥╥╥╥╥╥╥╥╥╥,[0;1;31;40m,,,,....,,╥╥╥╥╥[0;30;41mggg[0;1;31;40mgg%%%@@@@SSS[0;30;41m$$[0;1;31;40myS╨[0m
 [1;31;40m  ...[0;31m.. ..  .[0m        [1;36mEn[0;36mter Me ◄─┘[0m    [31m```````[0;1;31m^^^^^^^^^"""""""""""[0;31m²²²²²²²²²²²╨╨╨╨ [0m
 
 [31m  [0;37m|[0m                                                                          [1;30m╒[0m
 ─[1m═╬[0m────[1;30m══[0m══[1;30m─═══[0m═══[1;30m══─────[0m══─[1;30m─[0m═──[1;30m-────-[0m─══[1;30m══──[0m─ ───-[1;30m─[0m-──      [1;30m──-[0m──═  [1;30m══-[0m─[1;30m═══[0m═╪[1;30m──[0m
-[1;30m  [0m║ [1mDes[0mcri[1mpti[0mon : The AGE statistics                                         |
-  │ C[1momm[0ment[1ms[0m    : I''m tired.. =)                                             [1;30m:[0m
-[1;30m  ╡ [0mMa[1mde [0mfor    : My BBS                                                     [1;30m│[0m
+[1;30m  [0m║ [1m   [0m   [1m   [0m                                                                 
+  │  [1m   [0m   [1m [0m                                                                 [1;30m [0m
+[1;30m  ╡ [0m  [1m   [0m                                                                    [1;30m│[0m
 [1;30m  │ [0mDat[1me[0m        : 26/02/98                                                   ║
 [1;30m─[0m─╫[1;30m─══[0m═[1;30m═───[0m══[1;30m═─══[0m═──[1;30m-[0m─  [1;30m══─══ ───[0m───[1m══ ═[0m───[1;30m─[0m     ─[1;30m─── ──══  [0m──[1;30m-───══─═─═-[0m-─[1;30m--[0m╟─═
   |                                                                          [1;30m:[0m

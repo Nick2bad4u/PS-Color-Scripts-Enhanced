@@ -5,7 +5,7 @@
 # Source SHA-256: 01afc36bae7f4ce7bdbe551ec65bd77616aa0858607d311e856ea43d91549e81
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DM!SLIV.ANS by demo (sliver); released in sliver02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sliver, muthafucka
 # SAUCE Author: demo
 # SAUCE Group: sliver
@@ -35,5 +35,4 @@ thing!?    [1m²$$$mssm$$$[0;1;42m$[0;1;32;40m$$$[0;1;32;42m$[0;32m$[0;37m
  eeek! ,s[30;47m►[0;37;40m►[0m    [1;37;40m²$$[0;1;37;42m$$[0;1;37;40m$$$[0;1;37;42m$$$[0;32m$²[0;37m [0m             [1;37m:[0m   :   [1m:[0m  [1m:[0m  [1m:[0m  [1m:[0;30;47me[0;37;40m► [0;1;37;40m:[0m  r
 /      s,         [1m²[0;1;42m$[0;1;40m$$$[0;1;42m$[0;32m$$² [0;37m [0m              [1;37m∙.[0m∙ ∙[1m.∙[0m ∙.[1m∙.∙[0m ∙.[1m∙[0m...[1m∙[0m
        `$$s          [1m²$[0;32m$$²  [0;37m [0m
-        [37m `$s[0m
-          [37m'' foirx me walking outside[0m'
+        [37m `$s[0m'

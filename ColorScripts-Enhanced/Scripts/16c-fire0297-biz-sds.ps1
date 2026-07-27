@@ -5,7 +5,7 @@
 # Source SHA-256: be5e066c4c842c2fa357b67dda8f7aa8c1ec22954c6ce2c99f69eea31d53ca53
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-SDS.ANS by Bisounours (Fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sonic! Dizzy sensations.
 # SAUCE Author: Bisounours
 # SAUCE Group: Fire
@@ -34,14 +34,14 @@ Write-Host '
 [1;37m███[0;1;36m▌▀░░[0;35m  [0;1;37m▀▀ ▀▀[0;1;36m▀[0;35m  [0;1;33m [0;1;34m░░[0;1;33m    [0;1;36m▐[0;1;37m [0;1;33m     [0;1;37m▀▀█[0;1;36m▌▓[0m     [1;30m░[0;1;37m▐█[0;1;36m█[0m   [1;30m░[0;1;36m█ [0;1;37ms o n i c ! dizzy sensations[0m
 [1;30m░░[0m             [1;34m   [0m [1;33m  [0m                      [1m▀[0;1;36m▀[0m   [1;30m░[0;1;36m▌[0m [1;36m [0m
 
- [1m░░[0m [1min a galaxy, far, far away, which is sometime referred to as the european[0m
-[1m    #ansi, a new group is born. the purpose of sonic is to develop an artform[0m
-[1m    which is mostly unknown. file_id.diz''s. [0m
+ [1m░░[0m [1m                                                                         [0m
+[1m                                                                             [0m
+[1m                                            [0m
 
-[1m    we are looking for innovative artists who don''t know where to release their[0m
-[1m    file_id.diz''s. don''t waste them.[0m
+[1m                                                                               [0m
+[1m                                    [0m
 
-    [1mbesides, i''m tired of seeing ugly file_id.diz''s, so if your demo/music[0m [1mor[0m
-    [1mwhatever group need an diz, contact us, we may be able to help. [0m
+    [1m                                                                      [0m [1m  [0m
+    [1m                                                                [0m
 
-    [1mbisounours. gigandet@iplus.fr [0m                                         [1m  ░░ [0m'
+    [1m                              [0m                                         [1m  ░░ [0m'

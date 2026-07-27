@@ -5,7 +5,7 @@
 # Source SHA-256: f37cca170095e1a06ccd1722a64f0ef8284b22065760a9acdaadfff65ac8b380
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-LLARN.ANS by nitron (lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lleshie Arinar Portrait
 # SAUCE Author: nitron
 # SAUCE Group: lazarus
@@ -28,13 +28,13 @@ Write-Host '
 [1m║[0m [1;30;47m▄[0;1;30;40m█████[0;1;30;47m▓[0;1;30;40m██▓▓▀ ▀█▓ ░░░░░░░░░░░░░░[0m■[33m▐[0;1;31;43m▒▓[0;1;31;40m██████[0;1;31;43m▓▓▓▒[0m■   [1;30m░░░░░░░░  [0m [1;30;46m▓██[0;1;30;40m██▓[0m [1;30m▀▄[0m [1;30m▐[0m   [1;30m░▒[0m [1m║[0m
 [1m║[0m [1;30m▓▓▓█▓██▓▀ ░░░  ▀▓ [0m [1;30m░░░░░░░░░░░░[0m■[33m▐[0;1;31;43m▒▓[0;1;31;40m███[0;1;31;43m▓▓▓▒▒▒▒[0m▄■  [1;30m░░░░░░░   [0m [1;30;46m███[0;1;30;40m▓▓[0m        [1;30m░▒▒[0m [1m║[0m
 [1m╠════════════════════════════════════╦═════════════════════════════════════════╣[0m
-[1m║[0m [31m░▒▓[0;1;37;41m  DANGER - VIOLENT CRIMINAL [0;31m▓▒░[0;37m [0;1;37m║[0m         [1m-[0m [1mCrimes & Misdemeanors[0m [1m-[0m       [1m║[0m
+[1m║[0m [31m░▒▓[0;1;37;41m                            [0;31m▓▒░[0;37m [0;1;37m║[0m         [1m [0m [1m                     [0m [1m [0m       [1m║[0m
 [1m╠════════════════════════════════════╬═════════════════════════════════════════╣[0m
-[1m║[0m    [1mName: Lleshie Arinar[0m            [1m║[0m   [1m-[0;31m Treason[0;1;32m   [0;31m  [0;1;37m        [0m                [1m║[0m
-[1m║[0m    [1mKnown Affiliations: [0m            [1m║[0m   [1m-[0;31m Sedition[0;37m                            [0;1;37m║[0m
-[1;37m║[0m      [1m- Kador Special Forces[0m        [1m║[0m   [1m-[0;31m Piracy[0;37m                              [0;1;37m║[0m
-[1;37m║[0m      [1m- Shadow Cartel[0m               [1m║[0m   [1m-[0;31m Grand Theft Starbase[0;37m                [0;1;37m║[0m
+[1m║[0m    [1m                    [0m            [1m║[0m   [1m [0;31m        [0;1;32m   [0;31m  [0;1;37m        [0m                [1m║[0m
+[1m║[0m    [1m                    [0m            [1m║[0m   [1m [0;31m         [0;37m                            [0;1;37m║[0m
+[1;37m║[0m      [1m                      [0m        [1m║[0m   [1m [0;31m       [0;37m                              [0;1;37m║[0m
+[1;37m║[0m      [1m               [0m               [1m║[0m   [1m [0;31m                     [0;37m                [0;1;37m║[0m
 [1;37m╠════════════════════════════════════╣[0m   [1m-[0;31m Destruction of Imperial Property[0;37m    [0;1;37m║[0m
 [1;37m║[0m [31m░▒▓████[0;1;37;41mWANTED DEAD OR ALIVE[0;31m████▓▒░[0;37m [0;1;37m║[0m   [1m-[0;31m Assault Causing Bodily Harm[0;37m         [0;1;37m║[0m
 [1;37m╚════════════════════════════════════╩═════════════════════════════════════════[0;1;32m╝[0m
-[1;37m ≡V≡       [0m                                                      [1mnitron░lazarus[0m'
+[1;37m           [0m                                                      [1m      ░       [0m'

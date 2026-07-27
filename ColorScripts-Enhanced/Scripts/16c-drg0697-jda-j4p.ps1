@@ -5,7 +5,7 @@
 # Source SHA-256: 1cadaedcbeffd812a703512ad5de489c1f495e2887b96354cced656a6ea61c0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JDA-J4P!.ANS by Joda (ddRANGdD); released in drg0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: just4phun menu.
 # SAUCE Author: Joda
 # SAUCE Group: ddRANGdD
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                    [30;42m▓[0;32;40m░[0;30;42m▓[0m          [1;35;40mjUST4pH[0;1;35;45mU[0;1;35;40mN[0;35m [0;1;35m>>[0m
+                    [30;42m▓[0;32;40m░[0;30;42m▓[0m          [1;35;40m       [0;1;35;45m [0;1;35;40m [0;35m [0;1;35m  [0m
       [30;42m▓[0;32;40m░▄▄▄▄▄[0;1;32;42m░▄▄▄▄▄▄░░[0;32m▄▄▄▄[0;37m [0;30;42m▓[0;32;40m░[0m    [1;35;40mm[0;1;35;45mA[0;1;35;40mIN mENU[0m                            [35m▄▄▄▄▄▄[0;30;45m▓[0;35;40m░[0m
     [32;40m▄█[0;1;32;42m▄▄▄▓▀▀▀▀▀▀█[0;1;37;40m█[0;1;32;42m███▓▓░░░░░[0;30;42m░[0;32;40m▄[0m                     [30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m▄▄▄▄▄▄▄▐█████████████▌[0m
    [32;40m░[0;30;42m░[0;1;32;42m█[0;1;37;40m█[0;1;32;42m█[0;32m█▀▀[0;37m [0;1;36m▄[0;1;37m▄[0m [32m▀▀█[0;1;32;42m▀▀▀▀▀▓▓▒▒░░[0;32m█[0;30;42m░[0;32;40m░[0m      [35;40m▄▄▄▄▄▄▐[0;30;45m░░[0;35;40m████████████████████  ██████▌[0m
@@ -32,11 +32,9 @@ Write-Host '
 [1;30m    [0m   [1;31m░▀▓██[0;1;31;43m▓▓[0;1;31;40m████[0;1;31;43m▓▀▀   [0;33m█[0;30;43m░[0;33;40m▀░[0;37;40m [0;35;40m░▀▀▀▀▀▀▀▀▐███████████████████████████████████[0m
 [1;30;40m- i[0m  [1;30m [0m    [1;31m▀▀[0;1;31;43m▀▀▀▀░░    [0;33m█[0;30;43m░[0;33;40m▀[0m                       [30;45m▓[0;35;40m░▀▀▀▀▀▀▀▀▀▀▐████████████▌[0m
 [37;40m [0;1;30;40m uSED    [0m  [30;43m▓[0;33;40m░▀▀█[0;30;43m░░[0;33;40m▀▀▀[0;30;43m▓[0;33;40m░[0m                                     [1;35;40mjda[0;35m([0;1;35mdrg[0;35m)░▀▀[0;1;35m░░[0;35m [0m
-[1;30m  fLOWBEE     [0m    [33m░[0m
-[1;30m  f0R a m0NTH         [0m
- [1;30m aND l00K h0W[0m [1;30mgREaT[0m
-  [1;30miT tURNED oUT!!!1@£[0m
+[1;30m              [0m    [33m░[0m
+[1;30m                      [0m
+ [1;30m             [0m [1;30m     [0m
+  [1;30m                   [0m
 
-[1;30m[============================[for sysop at just4phun]=========================][0m
-[1;30mdidnt turn out great at all, but you can use it if you want... but i think this[0m
-[1;30mwill fit if the board is just plain bullshit. i goot call there one day! :)[0m'
+[1;30m[============================[for sysop at just4phun]=========================][0m'

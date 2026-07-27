@@ -5,7 +5,7 @@
 # Source SHA-256: fdba19e9dc6c20a940eb1289b95a3b3bd71b12eb9505a6a8f9cf7dad7aee7c39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DW-SOH.ICE by Darkwolf (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
 [1;30m── [0;1m▀▀▀▀▀[0;1;47m▓██[0;1m▄ [0;1;30m─ [0;1;47m▓[0;1m█ [0;1;30m─────[0;1m▐[0;1;47m▓▓[0m [1;30m────────────────────────────────────────────────────[0m
 [1;30m   [0;1m▀█▄▄ ▌[0m▐[1;47m▓█[0;1m▌  [0m▐[1;47m▒▓[0m     [1;47m▓▒[0m▌ [1;30mDeeply Disturbed: "Thanks for the sig spooge"[0m
 [1;30m    [0m▐[1;47m▓█[0m ▄▄[1;47m▒▓█[0m   [1;47m░▒[0m▌   ▐[1;47m▒░[0m [1;30mRed Leader: "SS rules man"[0m
-[1;30m    [0m▄[1;47m▒▓[0m ▌ ▐[1;47m▒▓[0m▌  [47m [0;1;47m░[0m▌   ▐[1;47m░ [0m [1;30mMalcolm X: "Que penserais-tu d''un autre GT?"[0m
+[1;30m    [0m▄[1;47m▒▓[0m ▌ ▐[1;47m▒▓[0m▌  [47m [0;1;47m░[0m▌   ▐[1;47m░ [0m [1;30m                                            [0m
 [1;30m   [0m▀▐[1;47m░▒[0m ▌ ▐[47m [0;1;47m▒[0m▌ ▐[1;30;47m░ [0m▌ [1;30;47m░[0m ▐[47m [0;1;30;47m░[0m▌ [1;30mThe Duellist: "The dude in the Iron Maiden jacket"[0m
 [1;30m    [0m▐[47m [0;1;47m░[0m ▌ [1;30;47m░░ [0m  [1;30;47m▒░░[0m [1;30m▐[0;1;30;47m▒[0;1;30m▌ [0;1;30;47m░░▒[0m  [1;30mDevil''s Spawn: "This one''s for you man"[0m
 [1;30m   [0m▄█▀▀ ▌[1;30m▐[0;1;30;47m▒░[0m▌ [1;30m▐[0;1;30;47m▓▒[0;1;30m▌▄[0;1;30;47m▓[0;1;30m▀[0;1;30;47m▓[0;1;30m▄▐[0;1;30;47m▒▓[0;1;30m▌ Metal Head: "Did you finish doom yet? :)"[0m

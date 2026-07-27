@@ -5,7 +5,7 @@
 # Source SHA-256: 3d25cd78a574b305c9829e78eb176c2d03004c4b2b74f438ff088beab7d7b604
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FN-PREB.ANS by Fenric & New School (CHALK); released in chlk1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Packaged Rebellion
 # SAUCE Author: Fenric & New School
 # SAUCE Group: CHALK
@@ -15,11 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mThis ANSi was drawn by Fenric of CH/┤LK, If you would like an ANSi done for you[0m
-[1;30m or your board, you can contact me on The Abode @ (201)509-0384. The fee for a[0m
-[1;30m100+ line ANSi like this is 3,000 dollars <jK>, there is no charge, just be nic[0m
-                [1;30mwhen you ask me, and if I have time I''ll do it.[0m
-           [1;30mNew School did the Packaged Rebellion below. Thanks NS :)[0m
+[1;30m                                    ┤                                          [0m
+[1;30m                                                                              [0m
+[1;30m                                                                               [0m
+                [1;30m                                               [0m
+           [1;30m                                                         [0m
                              ▄▄▄▄▄ ▄▄▄▄▄  ▄▄▄▄▄    ▄▄▄▄▄
 [30m┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘[0m     [37m▄ █[0;1;32;47m▒▒▒[0m█ █[1;32;47m▒▒▒[0m█  █[1;32;47m▒▒▒[0m██▌  █[1;32;47m▒▒▒[0m█ [30m┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘┘[0m
 [32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓    [0;37m▄[0;1;32;47m▄[0m█ █[1;32;42m███[0m█ █[1;32;42m███[0m█  █[1;32;42m███[0m█ █▌ █[1;32;42m███[0m█   [30;42m░[0;32;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

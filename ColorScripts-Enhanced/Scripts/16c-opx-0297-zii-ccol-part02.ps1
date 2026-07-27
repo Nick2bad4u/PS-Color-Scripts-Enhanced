@@ -5,7 +5,7 @@
 # Source SHA-256: 28542289701204665c52f7415828bf111e258e07447935aa400f1aed57cc17c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-CCOL.ANS by Zeus II (opium); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Colly jan/feb '96
 # SAUCE Author: Zeus II
 # SAUCE Group: opium
@@ -32,10 +32,10 @@ Write-Host '
                       [31;40m▀[0;1;31;41m▀[0m [1;31;41m░▐[0;1;33;40m█[0;1;31;40m▓[0;1;31;41m▌[0;30;41m▓[0;37;40m [0;31;40m■[0;33;40m  [0;30;41m░[0;31;40m▌[0;33;40m [0;30;41m▓░[0;1;31;41m■[0;31m▀[0;1;31;41m▀[0;1;33;40m▓[0;1;31;41m█[0;31m▀ ▀▐[0;1;31;41m▀▀▀[0;30;41m▓[0m
                             [31;40m▀▀[0m      [31;40m▌[0m
                              [1;31;40m       [0;31m▀[0;1;31m    [0m
-                     [1;31m  [0m [1;31m [0;1;37mdiabolic rites[0;1;31m  +o baphomet[0m
-                    [1;31m  fusion[0m [1;31mmemb - itp shq - ivc memb[0m
-                      [1;31m    lem dist - control memb[0m
-                       [31m   logo by Zeus II/cia^opx[0m
+                     [1;31m  [0m [1;31m [0;1;37m              [0;1;31m             [0m
+                    [1;31m        [0m [1;31m                         [0m
+                      [1;31m                           [0m
+                       [31m                          [0m
 
 [37m--------.x< Ione >x.------------------------------------------------------------[0m
 
@@ -56,7 +56,4 @@ Write-Host '
                         [36m▄▄▄▄▄▄▄▄[0;37m  [0;36m▄▄▄[0;37m [0;33m▀[0;30;43m▓▓[0;37;40m [0;1;36;46m▐▌[0;36m▐[0;37m  [0;36m▄▄▄▄[0;1;36;46m▄▄██▌[0;36m▄▄▄▄▌ [0m
                            [36m▐▌[0;1;36;46m▐▀█▄[0;36m█▐[0;37m [0;1;36;46m▐▀[0m   [36m▄▄[0;1;36;46m▐▀▀▀▀███▀▀[0;36m▀▀▀▀     [0m
                                 [36m▀▀ [0;37m [0;36m▀▀▀[0;37m  [0;36m▀▀▀▀▀▀[0m
-                         [1;37m [0m   [1;36m [0;1;37mI O N E[0;1;36m [0;1;37m[+46-171-58567][0m
-                           [1m  [0m        [1;36m+o whack [0m
-                        [1;30m[[0;1;36muup memberboard[0;1;30m][[0;1;36mshade memberboard[0;1;30m][0m
-                       [1;30m[[0;1;36mcolor-crazy logo by Zeus II/opium.cia[0;1;30m][0m'
+                         [1;37m [0m   [1;36m [0;1;37mI O N E[0;1;36m [0;1;37m[+46-171-58567][0m'

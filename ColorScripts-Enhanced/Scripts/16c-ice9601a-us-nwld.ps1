@@ -5,7 +5,7 @@
 # Source SHA-256: 992e4fdc5f5272af2320301bb5ff7bc73352d7fefa811b12b234cc25ef8f7be0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-NWLD.ICE by Kadaver + Surreal Logic (iCE); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: netherwOrld
 # SAUCE Author: surreallogic/kadaver
 # SAUCE Group: iCE
@@ -38,5 +38,4 @@ Write-Host '
       [1m [0m [1m [0m    [1m [0m      [1m▀▌[0m     [1;30m ░[0;1;34;46m░[0;1;31;46m░[0;1;34;46m░▒[0;1;31;46m░[0;36m▌[0;37m [0;1;30m░[0;1;31;46m░░[0;1;34;46m░░[0;36m▓[0;1;30m░[0;1;34;46m░[0;1;31;46m░[0;1;34;46m▒░▒[0;1;34;40m▌[0;1;30;40m░[0;1;34;46m░[0;1;31;46m░░[0;1;34;46m▒░[0m [1;30m░[0;1;31;46m▒░[0;1;34;46m░[0;1;31;46m▒░[0m  [1;30m        [0m
 [1;30manSi by surreal lOgic of iCE░[0;1;34;46m▒░▒▓░[0;1;34;40m▌[0;1;30;40m░░[0;1;34;46m░░▒▒░[0;36m▀▀[0;1;34;46m░▓▒▓[0;1;34;40m▌[0;1;30;40m░[0;1;34;46m▒░░▓▒[0;1;30;40m░░[0;1;31;46m░[0;1;34;46m░▒[0;1;31;46m░[0;1;34;46m▒[0;36m [0;1;30mnetherwOrld #0[0m
 [1;30m   [0m   [1;30mfOnt by kadaver of[0m [1;30miCE[0;1;34m▐[0;1;34;46m▓▓▓█▒[0;1;34;40m▀▀▐[0;1;34;46m▒▒▓▓▒[0;1;34;40m▌[0;1;30;40m░░[0;1;34;40m▀▀▀▀▓[0;1;34;46m▓▒▒[0;1;34;40m▓[0;1;34;46m▓[0;1;34;40m▌[0;1;30;40m░[0;1;34;40m▐[0;1;34;46m▒[0;1;34;40m▓[0;1;34;46m▒[0;1;34;40m▀[0m [1;30mcoming seWn![0m
-[1;30m(finishing touches by sL!)░[0;1;34m▄[0;1;34;46m▓[0;1;34;40m▀▀ [0m [1;30m░░[0;1;34m▄▓[0;1;34;46m▓▓[0;1;34;40m▀▀▀▀▀[0m        [1;30m░[0;1;34m▀▀▀▀▀▀[0;1;30m...[0m [1;30miCE''96 babee ...[0m
-                           [1;34m [0m'
+[1;30m(finishing touches by sL!)░[0;1;34m▄[0;1;34;46m▓[0;1;34;40m▀▀ [0m [1;30m░░[0;1;34m▄▓[0;1;34;46m▓▓[0;1;34;40m▀▀▀▀▀[0m        [1;30m░[0;1;34m▀▀▀▀▀▀[0;1;30m...[0m [1;30miCE''96 babee ...[0m'

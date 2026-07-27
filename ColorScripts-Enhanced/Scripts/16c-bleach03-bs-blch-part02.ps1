@@ -5,7 +5,7 @@
 # Source SHA-256: 2900a6a29f2f82b8c00ab5995c0b0e48593e333bac85c052334fa0ab57caaa2b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-BLCH.ANS by bURPS! (Bleach); released in bleach03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bleach Promotional
 # SAUCE Author: bURPS!
 # SAUCE Group: Bleach
@@ -53,8 +53,8 @@ Write-Host '
 [1;30;40m                    ░   ▒              ░                                        [0m
 [1;30;40m  ■▄▄ ▄▓▄  ░▄▄ ▓▄▓▄  ▄ ■▄ ■▓▄▄▓ ▄▄■▄ ▄▄ ▄ ▄▀▓▄▄■▀▀■▓▄▄  ▄▄ ▄▓ ■▄  ▄■▓ ▄ ▄▄▀▓▄▄■ [0m
 [1;30;40m █ ▒   ░       ▒   ▓▀    ▀ ▒  ░    ▐▓▀    ▓        ▒   ▒▀            ▀     ▒  █ [0m
-[1;30;40m ▓                          bS^bLEACH%bELGIUM is alive!                       ▓ [0m
-[1;30;40m ▒   greetz go out to : Beyond cool, scratch!, musk, lord jazz, whitesnake,   ▒ [0m
-[1;30;40m            neophyte, count dracula, weed friet, ... (greetz suck...)         ░ [0m
+[1;30;40m ▓                                                                            ▓ [0m
+[1;30;40m ▒                                                                            ▒ [0m
+[1;30;40m                                                                              ░ [0m
 [1;30;40m ■▄■▓▄▄■▓ ▄ ▓ ■▄▄▓■░■▄▄▄ ▄▓■ ▄▓■ ▓▄■█▄ ▓▄ ■░ ▄■ ▄▄■▀▓ ▄▀■░ ▓▄■█▄ ▓▄  ▄▄▓■▒▄■▄▒  [0m
 [1;30;40m    ▒       ▒ ▒           ░   ▒        ░            ░      ▒     ░  ▀    ░   ░  [0m'

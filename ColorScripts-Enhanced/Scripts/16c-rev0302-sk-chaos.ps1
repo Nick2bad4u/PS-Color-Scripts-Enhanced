@@ -5,7 +5,7 @@
 # Source SHA-256: d7b6abde79e7477d2f578672c4eff4263d4e8e1c3fb13518d2821538670f140d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-CHAOS.ANS by skatter (Revival2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chaos A.D.
 # SAUCE Author: skatter
 # SAUCE Group: Revival2002
@@ -35,11 +35,4 @@ Write-Host '
             [35m▀[0;1;34m [0;1;35m▄[0;1;34m ▀[0;1;34;45m▓[0m               [1;34;40m▀  [0;35m▄[0;1;35m▌[0;1;34m [0;1;37m [0m                                 [1;34m [0m
                   [35m▀[0;1;34m [0;1;35m■.[0;1;34m [0;1;37m  [0m          [35m▀[0;1;35;45m▒[0;1;35;40m▀■.[0m
 
-[1m────────────────────────────────────────────────────────────────────────────── [0m
-[1m FUCK this took me a long time.. I seriously[0m [1mhad 5 "chaos" fonts before I [0m
-[1m got to one I liked.. and I''m still not sure[0;1;30m [0;1;37mit''s good! :)[0m
-
-[1m This is for c4nn''s board[0m:[1m Chaos A.D., I[0m [1mhope you like it..[0m
-
-[1m skatter[0m
-[1m skatter@gaschamber.net[0m'
+[1m────────────────────────────────────────────────────────────────────────────── [0m'

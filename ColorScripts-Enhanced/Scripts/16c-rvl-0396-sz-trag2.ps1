@@ -5,7 +5,7 @@
 # Source SHA-256: 82475b3d8674754edc654806b9ce5538ca5b223a0dbd8fbb353104b6506d22fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-TRAG2.ANS by Seize (RiVAL); released in rvl-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tragic .(again).
 # SAUCE Author: Seize
 # SAUCE Group: RiVAL
@@ -32,5 +32,4 @@ Write-Host '
 [35m▄▄[0;37m [0;32m▀▌▀[0;1;32;42m░[0;32m▀[0;1;32m [0;1;31m  ▀▀   [0m [32m▀▌▀[0;1;32;42m░[0;32m▀[0;35m [0;1;31;45m▓█[0m  [1;31m▀█[0;1;32m  [0;32m▀▀[0;1;32;42m░░[0;32m▄▄▀[0;1;32;42m░[0;32m▀▐▀[0;37m [0;1;32m [0m [32m▀▐▀[0;1;32;42m░[0;32m▀▄▄[0;1;32;42m░░[0;32m▀▀[0;1;32m  [0m [32m▀▌▀[0;1;32;42m░[0;1;32;40m [0m [32m▀▌▀[0;1;32;42m░[0;32m▄▄▀▀▀▀ [0;1;31m [0;35m▄[0;1;31;45m▒▓[0m
  [1;31;45m░▒▓[0;35m▄▄▄▄▄▄[0;1;31;45m▓[0;35m▄[0;1;31m   [0;35m▄[0;1;31;45m░[0;35m▀[0m   [35m▄[0;1;31;45m▒▓▓[0;1;31;40m▌[0m   [35m [0;37m [0;35m▀▄▄▄▄▄▄  [0;37m [0;35m▄▄▄▀[0m     [35m▄[0;1;31;45m░[0;35m▄▄▄[0;1;31;45m░░▒▓█[0;35m▄[0;37m  [0;35m▄▀▄▄ ▄▄▄▄▀▀▌[0;1;31m [0;1;31;45m█[0;1;31;40m▓[0;1;31;45m▓[0;1;31;40m▌[0m
   [35m▀▀▀▀[0;1;31;45m░░▒▓█▄░[0;1;31;40m [0;35m▀▀[0m   [35m▀▀[0;1;31;45m░▒▒[0;1;31;40m▀[0m             [35m▀▀▀[0m            [35m▀▀▀▀▀  [0m               [1;31m▀▀▓▀[0m
-        [1;31m▀▀▀[0m                 [1;31m   [0m  [1;31mTragic....[0m
-                      [1;31m       [0m'
+        [1;31m▀▀▀[0m                 [1;31m   [0m  [1;31m          [0m'

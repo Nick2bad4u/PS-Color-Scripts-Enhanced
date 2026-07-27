@@ -5,7 +5,7 @@
 # Source SHA-256: f1365f6728bc27375599d7f0db4e0233005d59e8252899a8ecc208bf535aaff2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KZ-DOA.ICE by Kamikazee (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -20,7 +20,7 @@ Write-Host '
  [1;30m         [0m [1;33m  [0m [1;33m              [0m               [1;30m▀▓█░▓░[0;1;30;47m█[0;1;30;40m  ▒▓▒▒ [0m [1;30m░▓▓█▓▀▄ ▄■▀   ▀▀■[0m    [1;33m▀[0m
 [1;30mTo purchase an ansi ad, I can [0m      [1;33m▄[0;33m▄ ■[0;37m [0;33m ▀[0m   [1;30m▀▀■■■▄▄ ▄░░▒▒▒▒▓  ▓[0;1;30;47m▓[0;1;30;40m▓▓▒▒░ ░ [0m   [1m█[0;1;33m▄[0m
     [1;33m   [0m  [1;33m              [0m [1;33m [0m      [1;33m▄[0m [1;33m▀[0m                        [1;30m ░░░▄■▀ ▒▒      [0;1;33m▄■▀▀  [0m
-[1;30mbe contacted on IRC & the Synd[0;1;37m▐[0;1;33m▌[0;1;30micate[0m           [1;33mpresents[0;1;37m..[0m [1;30m▀ [0m [1;30m [0m    [1;30m░[0m   [1;33m▀[0;1;30m [0m    [1;33m ░ [0m
+[1;30m                              [0;1;37m▐[0;1;33m▌[0;1;30m     [0m           [1;33m        [0;1;37m  [0m [1;30m▀ [0m [1;30m [0m    [1;30m░[0m   [1;33m▀[0;1;30m [0m    [1;33m ░ [0m
   [1;33m  [0m   [1;33m                   [0m     [1;33m▀[0;1;37m■[0;1;33m▄[0m                       [33m    [0;1;33m [0;33m [0;1;33m  [0m [1;33m  [0m           [1;33m▒[0m
 [1;33m                               [0m     [1;33m▀[0m [1;33m■▄[0m             [1;33m▄[0m    [1;33m [0;1;30m  [0m [33m [0;1;33m   ░[0m   [1;33m [0m      [1;33m  ▀[0m
  [1;33m                  [0m [33m [0m       [33m [0;36m  [0m       [1;33m ▐[0;1;37m█[0;1;33m▄[0m       [1;33m  ▄[0m    [1;33m▄              ░[0m   [1;33m▄■▀[0m

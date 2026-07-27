@@ -5,7 +5,7 @@
 # Source SHA-256: eb7193b55fe0a85e927ef98ee51a01eddda9b11f4d82059d6fd95dd29fc12f4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BB-HEMP.ANS by Bugs Bunny?! -:) (Maiden Br!); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hemp!
 # SAUCE Author: Bugs Bunny?! -:)
 # SAUCE Group: Maiden Br!
@@ -29,6 +29,4 @@ Write-Host '
          [35;44m [0;1;34;44m▀■   [0m [1;34;44m░     [0m  [1;33m▄[0;1;33;42m█▀[0;32m███ [0;1;33;42m░[0;32m█████  [0;1;36;46m  █ ▄[0;1;36;40m█[0;36m▀[0;1;36;46m  ▀[0;1;36;40m█▄[0;1;31;40m  [0;1;36;46m      [0m  [1;31;41m      [0;35m [0;1;31;41m      [0m
          [35;44m      [0;37;40m [0;1;34;44m▒     [0m [1;33m▐[0;1;33;42m█▌[0;32m█[0;1;33;42m▓▓[0;32m█▄██████  [0;1;36;46m  ░▐[0;1;36;40m█▌[0;1;31;40m [0;36m▐[0;1;36;46m  ▐[0;1;36;40m█▌[0;1;31;40m [0;1;36;46m░     [0m  [1;31;41m      [0;31m▄[0;1;31;41m     [0;31m▀[0m
          [35;44m  [0;1;34;44m▄▓▄ [0m [1;34;44m▓     [0m  [1;33m█[0;1;33;42m█▄[0;32m███ ▄▄▄▄▄▄  [0;1;36;46m    ▀[0;1;36;40m▓▄[0;1;36;46m  ▄[0;1;36;40m█▀[0;1;31;40m  [0;1;36;46m      [0m  [1;31;41m      [0m [1;30mBb?![0m
-     [1;30m   [0m [35;44m   [0;1;34;44m▀  [0m [1;34;44m      [0m   [1;33m▀▀[0;1;33;42m█▄■[0;32m▄█████▀  [0;1;36;46m   ░   ▀    [0;36m▓[0;35m [0;1;36;46m      [0m  [1;31;41m      [0;35m [0;1;30mMdn Br[0m
-       [1;30m [0m
-    [1;30m [0m'
+     [1;30m   [0m [35;44m   [0;1;34;44m▀  [0m [1;34;44m      [0m   [1;33m▀▀[0;1;33;42m█▄■[0;32m▄█████▀  [0;1;36;46m   ░   ▀    [0;36m▓[0;35m [0;1;36;46m      [0m  [1;31;41m      [0;35m [0;1;30mMdn Br[0m'

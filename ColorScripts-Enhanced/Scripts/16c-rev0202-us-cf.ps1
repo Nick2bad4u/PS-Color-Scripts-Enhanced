@@ -5,7 +5,7 @@
 # Source SHA-256: b175aef376ebdeda8c6586148380174f5c49e58b1e4bef626cfaa5bf0d713186
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-cf.ans by Magnatop + Retribution (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -36,11 +36,4 @@ Write-Host '
       [1;37m▄[0;1;30m▀▀[0m [1;30m▐█▓▌[0;33m▓▄[0;1;31m▀[0m [1;33mmo[0m
        [1m▀[0m▀  [1m▄▄▄[0m▄[33m▀▀[0;37m [0m
 
-[37m--------------------------------------------------------------------------------[0m
-[37mret: magna/retri joint -- another ansi ruined by retribution.[0m
-[37mmag: i did the outlines for the font and the other shiz.. ret colored everything[0m
-[37mbut the font.. and he did a damn fine job ... or something :P[0m
-
-[37mlove you all.[0m
-         [37m   [0m
-           [37m [0m'
+[37m--------------------------------------------------------------------------------[0m'

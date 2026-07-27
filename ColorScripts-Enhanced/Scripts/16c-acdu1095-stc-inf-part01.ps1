@@ -5,7 +5,7 @@
 # Source SHA-256: 39b54476e5a05907b7665adb99a5c9a853ddb1769e7262c180ff978454493554
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-INF.ANS by Stone the Crow (ACiD Productions); released in acdu1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Infinity
 # SAUCE Author: Stone the Crow
 # SAUCE Group: ACiD Productions
@@ -35,5 +35,4 @@ Write-Host '
 [31m▒  [0;34m▄[0;37m  [0;31m■[0m   [31m▄[0;37m [0;1;30m▐██▒█▒[0m [1;30m▀▒█▄[0m   [1;30m▄▄▀[0m     ▀▀▀▀▀           [1;30m▀▄▄[0m   [1;30m▄█▒▀[0m [1;30m▒█▒██▌[0m [31m▄[0;37m [0;34m [0;37m [0;31m■[0;37m [0;34m ▄  [0;31m▒[0m
 [31m▐▓▄ [0;34m▀[0;36;44m░[0;34;40m▄▄[0;31;40m▀[0m    [1;30;40m▀▀░▓░▄[0m  [1;30m▀▀▀▀[0m  [31m [0m              [37m  [0m          [1;30m▀▀▀▀[0m  [1;30m▄░▓░▀▀[0m    [31m▀[0;34m▄▄[0;36;44m░[0;34;40m▀[0;37;40m [0;31;40m▄▓▌[0m
 [31;40m [0;1;31;40m▀[0;1;31;41m▄[0;31m█[0;1;31;41m░[0;31m▄▄▄[0;34m▀▀▀▀[0;31m  [0;1;30m▀■[0m [1;30m▐▀▀▀[0m [1;31m■[0;31m     [0m               [37m [0m            [1;31m■[0m [1;30m▀▀▀▌[0m [1;30m■▀[0m [34m ▀▀▀▀[0;31m▄▄▄[0;1;31;41m░[0;31m█[0;1;31;41m▄[0;1;31;40m▀[0m
-    [1;31m▀[0;31m▀▀▀[0;1;31;41m░[0;31m█[0;1;31;41m░▒[0;1;31;40m▄[0;31m▄[0;1;31m▄▄[0;31m▄▄ [0;1;31m▀[0;31m▀   [0;1;37mACiD P r o d u c t i o n s [0m([1mtm[0m)   [31m▀[0;1;31m▀[0m [31m▄▄[0;1;31m▄▄[0;31m▄[0;1;31m▄[0;1;31;41m▒░[0;31m█[0;1;31;41m░[0;31m▀▀▀[0;1;31m▀[0m
-'
+    [1;31m▀[0;31m▀▀▀[0;1;31;41m░[0;31m█[0;1;31;41m░▒[0;1;31;40m▄[0;31m▄[0;1;31m▄▄[0;31m▄▄ [0;1;31m▀[0;31m▀   [0;1;37mACiD P r o d u c t i o n s [0m([1mtm[0m)   [31m▀[0;1;31m▀[0m [31m▄▄[0;1;31m▄▄[0;31m▄[0;1;31m▄[0;1;31;41m▒░[0;31m█[0;1;31;41m░[0;31m▀▀▀[0;1;31m▀[0m'

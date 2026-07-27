@@ -5,7 +5,7 @@
 # Source SHA-256: 95e0b8dce503397d9b37d7967cad32ef475a12300bd955b97d6e2f2e363e048d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FW-DCAMP.ANS by FightWindeR (FiNiSH of GODz); released in fog01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Death Camp Board ANSi...
 # SAUCE Author: FightWindeR
 # SAUCE Group: FiNiSH of GODz
@@ -60,6 +60,4 @@ Write-Host '
 [1;30m ▀[0;1;30;47m▓▓[0;1;30;40m███[0;1;30;47m▓▒▓[0;1;30;40m██[0;1;30;47m▓▓[0;1;30;40m██████[0;1;30;47m▓[0;1;30;40m█▌▐[0;1;30;47m▓▓[0m  [1;30m█[0;1;30;47m▒▓[0;1;30;40m███[0;1;30;47m▒[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█ █[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▒[0;1;30;40m█[0m     [1;30m█[0;1;30;47m██▓▒▓[0;1;30;40m████ █[0;1;30;47m▓▒[0;1;30;40m████[0;1;30;47m█[0;1;30;40m▀[0;1;30;47m▓▓[0m
    [1;30;47m▓[0;1;30;40m▀███[0;1;30;47m▒[0;1;30;40m███[0;1;30;47m▓▓[0;1;30;40m██████[0;1;30;47m▓[0;1;30;40m██ [0;1;30;47m▓[0;1;30;40m█▌▐█[0;1;30;47m▒[0;1;30;40m████[0;1;30;47m▒[0;1;30;40m███▌█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▒[0;1;30;40m█▌   ▐[0;1;30;47m███▓▒[0;1;30;40m█████▌▐[0;1;30;47m▓▒[0;1;30;40m███▌   [0;1;30;47m▓[0m ANSi by
    [1;30;47m▓[0m   [1;30m▀[0;1;30;47m▒[0;1;30;40m█[0m      [1;30m█▀  [0;1;30;47m▓[0;1;30;40m▀  ▀▌  █[0;1;30;47m▒[0;1;30;40m▌▀  [0;1;30;47m▒[0m       [1;30;47m▒[0m         [1;30m▀[0;1;30;47m▒[0;1;30;40m█[0m      [1;30m█[0;1;30;47m▒[0;1;30;40m█[0m     FightWindeR
-        [1;30;47m▒[0m                [1;30m▌  ▀[0;1;30;47m▒[0m                       [1;30;47m▒[0m       [1;30m▀[0m
-
-'
+        [1;30;47m▒[0m                [1;30m▌  ▀[0;1;30;47m▒[0m                       [1;30;47m▒[0m       [1;30m▀[0m'

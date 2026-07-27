@@ -5,7 +5,7 @@
 # Source SHA-256: 34c049af03213d7a8d127de52e08cdee089bb2778e282b2727c6e3f6c6cbc46d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cd!tus.ans by cat-dog (mimic); released in mimic43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: cat-dog
 # SAUCE Group: mimic
 # SAUCE Date: 20020103
@@ -39,10 +39,4 @@ l$$$$$$$$$$$$$$$$$$$$$$$$$L  [35m`└**⌂⌂SS[0;1;35m$$$$$$$$$$$$$$$$$$$$$$$
 [37m:$$$$$$$$$$$$$$$$$$$$$$$$$$k┐,.,┌ `[0;1;34m  >> [0;1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;35m:[0m
 [37m 7$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ [0;1;33m::..[0m  [1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;35m7[0;37m [0m
 [37m  `└*⌂S$$$$$$$$$$$$$$$$$$$$$$$$$$ [0;35m.┌4[0;1;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S⌂[0;35m*┘`[0;37m  [0m
-[37m`┐,.________________________________________________________________________.,┌''[0m
-
-[37m  this is an ascii for the usual suspects.[0m
-[37m  cain, (at one time or another) wanted me to draw a guest ascii for tus.[0m
-[37m  i chose to draw a tus ascii, for release in a mimic pack.[0m
-
-[37m  2 birds?[0m'
+[37m`┐,.________________________________________________________________________.,┌''[0m'

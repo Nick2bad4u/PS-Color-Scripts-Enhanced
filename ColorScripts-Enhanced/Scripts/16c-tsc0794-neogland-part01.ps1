@@ -5,12 +5,12 @@
 # Source SHA-256: b42226181ad8eae656688d741365e7a68975cb5c36559508b49217a54f71c1cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NEOGLAND.ANS by Evil Iggy (tsc0794); released in tsc0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
 Write-Host '
-[1m-So this is what you get for doing ''cid[0m
+[1m                                       [0m
 [1m    ▄▄▄▄   [0;32m▄    ▄[0m       [32m▄[0;32;42m  [0;1;32;42m░▒▓  ▓█[0;1;32;40m▄▄    [0;1;37;47m▄██▓▓▒[0;1;37;40m▄    [0;1;32;40m▄▄[0;32m▀▄  [0;1;32m▄▀   ▄▄ [0;32m▄[0;1;37m▄▄[0m
 [1;37m ▄████████▄ [0;32m▀▄▄█[0;32;42m [0;32;40m▀▄  ▄▄[0;32;42m     [0;1;32;42m▒▓     ░░▒▓[0;1;32;40m▄[0;1;37;47m▓█[0;1;37;44m▀▀[0;1;37;47m▄▓▒░[0;1;37;40m▄[0;1;32;40m▄▀ ▌  [0;32m▀▄[0;1;32m▀ ▄▄[0;1;32;42m▓▒░[0;1;37;42m▄[0;1;37;47m░▒▓█[0;1;37;40m▄[0m
 [1;37;40m▐████[0;1;37;41m█▀▀[0;1;31;41m▀▀[0;1;37;41m▀[0;1;37;40m▌ [0;32m▐▒▓[0;32;42m [0;32;40m▀▄[0;32;42m         [0;1;32;42m▓         ░▒▓[0;1;32;40m▄[0;1;34;44m░▓ [0;1;37;47m█▓▒[0;1;37;40m▌[0;1;32;40m▄▄  [0;32m■   [0;1;32m▄[0;1;32;42m▓▒░ [0;1;37;47m░▒▓█[0;1;37;41m▀▀[0;1;37;47m█▓[0;1;37;40m▌[0m

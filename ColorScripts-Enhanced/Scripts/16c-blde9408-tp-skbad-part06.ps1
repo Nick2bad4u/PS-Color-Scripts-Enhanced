@@ -5,7 +5,7 @@
 # Source SHA-256: dc3756cf82ecdc84ac8731096abc9a4793ba62a86aa6c3e47dbfeb23a4099b93
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-SKBAD.ANS by Technophreak (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 246-295
 # Columns: 1-80
 
@@ -42,21 +42,6 @@ Write-Host '
        [31m.[0m      [31m. ▀▄▐▄■ ▀▄▐█ ▄█▐▄█[0;1;37m▀▄▀▀[0;31m▀█▄[0;1;37m██▀[0;31m▐█[0;1;37m█[0;1;37;47m▓▓[0;1;37;40m▀[0;31m▐▄▀▄ ▄■▐  ▄▐▄▀▀■  ·[0m
 [31m████████████████████████████████▄▄▄▀████▄██▄▄[0;1;37m▀▀[0;31m▄████████████████████████████████[0m
 [31;41m                                                                                [0m
-[31;41m                    [0;1;37;41mSysOps: Rage, Thorn  CoSysop: Red Baron                     [0m
-[1;37;41m                       (iTS) PRi-VATE····(NOT) FOR-YOU!                         [0m
-[1;37;41m                                  28.8 USR DS                                   [0m
-[1;37;41m      Menace Corp US EHQ · TGT EHq · ViOLATiON Member board · TRSi DiSTRo       [0m
-[1;37;41m             CoRoSioN DiSTRo ·D*U*A EHq · PoW DiSTRo · ATOMiX DiSTRo            [0m
-[1;37;41m         AMiTECH DiSTRo · BGR 203 HeadQuarters · HCH DiSTRo · ROT DiSTRo        [0m
-[1;37;41m          UNSUNG EHq · PHAiT DiSTRo · Psychic Monks DiSTRo · MAUi DiSTRo        [0m
-[1;37;41m           BLADE DiSTRo · RELiC DiSTRo · iMPERIAL DiSTRo · MiiS DiSTRo          [0m
-[1;37;41m                    iRiDiUM DiSTRo · TiA DiSTRo · AcE DiSTRo                    [0m
+[31;41m                    [0;1;37;41m                                                            [0m
 [1;37;41m                                                                                [0m
-[1;37;41m                 ViOLATiON Net · RAD Net EHq · DEAD NET Regional                [0m
-[1;37;41m                   Thunder NeT · iMPACT NeT · RADNet · GRiPNet                  [0m
-[1;37;41m                                                                                [0m
-[1;37;41m                         H/P/A/V · 96oo+ Only · 1.5 Gigz                        [0m
-[1;37;41m                              OBLIVION/2 BETA SiTE                              [0m
-[1;37;41m                                                                                [0m
-[1;37;41mGreetz: MC, FX, SS, MC, TP, RM, BE, ETl, SA, NA, SF...                          [0m
-[1;37;41m                                                                                [0m'
+[1;37;41m                                  28.8 USR DS                                   [0m'

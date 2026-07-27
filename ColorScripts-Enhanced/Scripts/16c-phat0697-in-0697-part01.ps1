@@ -5,7 +5,7 @@
 # Source SHA-256: 1a0380a71fdfb6b535358a47a68d53535489b6a68e80dcdc55bae292d542fbbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-0697.ANS by insert (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: small cluster
 # SAUCE Author: insert
 # SAUCE Group: Phat Studios '97
@@ -15,22 +15,22 @@
 # Columns: 1-80
 
 Write-Host '
-[36mhello to all my fans and fanettes.. also to those who don''t like me at all..[0m
+[36m                                                                            [0m
 
-[37m [0;36mi''ve been quite inactive on ansi cause my school takes all the time more and[0m
-[37m [0;36mmore of my time.[0m
+[37m [0;36m                                                                            [0m
+[37m [0;36m                [0m
 
-[37m  [0;36mi will spend [0;1;36mjune[0;36m [0;1;36m&[0;36m [0;1;36mjuly[0;36m in Thailand[0;37m [0;36mso if you''ll have to contact me, please[0m
-[37m  [0;36muse following email: [0;1;36mrikuh@hotmail.com[0m
+[37m  [0;36m             [0;1;36m    [0;36m [0;1;36m [0;36m [0;1;36m    [0;36m            [0;37m [0;36m                                       [0m
+[37m  [0;36m                     [0;1;36m                 [0m
 
-   [36mplease read those few lines ^above^![0m
-
-
-    [36myours, [0;1;36minsert[0;36m [0m
+   [36m                                    [0m
 
 
+    [36m       [0;1;36m      [0;36m [0m
 
-[35m↓ this one''s for vader   .   it''s a goodbye thingie[0m
+
+
+[35m↓                                                  [0m
 
 [1;34;44m▐█▌[0m    [34m█[0;1;34;44m▀▀▀▀▀▀███▀▀▀▀▀▀[0;34m█▀ ██▀▀█[0;1;34;44m▀▀▀▀▌[0;34m▀▀█[0;1;34;44m▀▀██████[0;1;34;40m▄▄[0;34m▄[0m               [34m▐[0;37m  [0;34m▄[0m       [34m█[0m
 [1;34;44m▐█▌[0m          [1;34;44m ███[0;34m█[0m            [34m▌[0m    [34m▐[0m   [34m [0;37m [0;34m▀[0m     [1;34;44m▌[0m                [34m▄▐[0m       [34m▄▄█▀[0m
@@ -53,5 +53,4 @@ Write-Host '
             [31;40m ▀▀▀▀▀▀▀▀▀██[0;1;31;41m▀▀▀▀▀▀▀▀██[0;1;35;41m [0;31m▄▄▄▄▄▄▄[0;35m▀▀▀[0;1;35;45m▀▀ [0;35m▀[0;37m  # g o o d b y e  [0;30;44m▓[0;34;40m█▄▄[0m
    [34;40m▀▀█▄▄[0;37;40m  [0;34;40miN[0m                  [31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄▄▄[0m
                                                [31;40m▀▀▀▀▀▀▀▀▀▀▀[0;37;40m [0;31;40m ▄▄▄▄▄[0m
-                                                                     [31;40m▀[0m
-'
+                                                                     [31;40m▀[0m'

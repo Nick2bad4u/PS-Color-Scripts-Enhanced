@@ -5,7 +5,7 @@
 # Source SHA-256: 735c75b8311f0010f80419fe597f51a15d01b6b843b5aec813b7c5c9e4c4877b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: k1-satan.ans by knocturnal (27inch); released in 27inch06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Satan loves Pharcyde BBS
 # SAUCE Author: knocturnal
 # SAUCE Group: 27inch
@@ -53,9 +53,9 @@ Write-Host '
 
                              ░█[30;47mP[0;37;40m [0;1;37;40mh a r c y d e[0m   [1mB B[0m [1mS[0m
 
-                             [1;30m░░[0m  +[1mo[0m [1mAccess[0m [1mDenied[0m  [1;30m░░[0m
+                             [1;30m░░[0m   [1m [0m [1m      [0m [1m      [0m  [1;30m░░[0m
 
-                             [1mtelnet[0m://[1mpharcyde[0m.[1math[0m.[1mcx[0m
+                             [1m      [0m   [1m        [0m [1m   [0m [1m  [0m
 
 
-      [1;30m■[0m original ansi art by [1mknocturnal[0m of twenty[1m27[0mseven inch productions [1;30m■[0m'
+      [1;30m■[0m                      [1m          [0m          [1m  [0m                       [1;30m■[0m'

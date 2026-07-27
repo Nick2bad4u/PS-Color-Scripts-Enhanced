@@ -5,7 +5,7 @@
 # Source SHA-256: e2c2c1a149af337483d760b853db6866ab81d43c82a26580cbcc1a88b48a98b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-sauna.ans by Abstrakt (thesauna03); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20220319
 # SAUCE Dimensions: 80x25
 # SAUCE Font: IBM VGA
@@ -14,7 +14,7 @@
 
 Write-Host '
 [1;36m    o [0;30m$[0;1;36md$[0m [30m$[0;1;36m.┐s,[0m   [1;36m,[0m                   [1m,¬.[0m          [1m.,[0m┌┐.    [1m.d$[0m$Ss.
-[1;36m °   \[0m [1;36m"[0;36m`[0;37m [0;1;36m:$$[0;36m$j  [0;1;36md7   [0;1;30msex   [0;1;37m.s[0mS[1;30mb[0;1;37m  db \$$$[0mA.[1m [0mdb[1m [0;30m$[0;1;37m.d$$$$$[0m$b[1m.[0;30m$[0;1;37md$$$$$$[0m$b  [34mj[0;1;34ms¬┐,.[0m
+[1;36m      [0m [1;36m [0;36m [0;37m [0;1;36m   [0;36m    [0;1;36m     [0;1;30m      [0;1;37m  [0m [1;30m [0;1;37m         [0m  [1m [0m  [1m [0;30m [0;1;37m       [0m  [1m [0;30m [0;1;37m       [0m    [34m [0;1;34m  ┐  [0m
 [1;36m  `[0m        [1;36m`[0;36m''`[0;30m''[0;37m      [0;1;30min[0m     [1mY[0m7`[1m  d$$[0m$[1m 4[0m$j[1;30m7''[0;1;37m [0m4jbs[1m$$[0m7 [1md$$$[0m$W[1m $[0mP''^''4$$$[1;30mb/[0;34m [0;1;34m`^''└*j$/[0;34m.[0m
 [37m  [0;1;33m.┌#SS[0;1;31m#%┐.[0;1;33m   .┌[0;1;31m.    [0;1;30ma   [0;1;37m.┐.[0m`[34m    [0;1;37m`[0m¬┘[1;30m''[0;1;37m [0m`''      `''┘[1;30m/[0m [1m`4[0mj$$$[1;30mP[0;1;37m [0m`     Y$$[1;30m$''[0m       [36m`4[0;32m$[0m
 [1;33m j$[0;1;31m$$$$$$$$$AjS*┘[0;1;35mb.[0m      [1mW[0m$''[32m [0;1;33md$[0;1;31mSs┐.[0m      [1;33m⌐┐,._[0m        `''[1;30m`[0;1;33m .┌[0;1;35mjS@¬[0;1;31m.[0m `[1;30m²''[0;1;33m jS[0;1;31m#s.[0m    [32m''[0m

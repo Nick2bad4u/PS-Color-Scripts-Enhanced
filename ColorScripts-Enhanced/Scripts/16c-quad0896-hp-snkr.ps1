@@ -5,7 +5,7 @@
 # Source SHA-256: 0e83b323ae4eff5d4108688de69d239f2458458f9aa08df01e0a5275cb8c3175
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HP-SNKR.ANS by Hiro Protagonist ([Quad-P]); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Snooker Shack
 # SAUCE Author: Hiro Protagonist
 # SAUCE Group: [Quad-P]
@@ -37,13 +37,13 @@ Write-Host '
               [34m████ ████ ██▓█ ████ ████ ████ ████ ████ █▓██ ████ [0;1;30m⌐hP![0m
 [1;30m    +-------- [0;34m▀▓██▄███▀ ███▀ ███▀ ███▀ ███▀ ▀███▄███▀ ███▀ ███▀ [0;1;30m80x50 ----+[0m
 
-                          Snooker Shack Billiard Room
-             3421 8th Street East (Across from Circle Centre Mall)
+                                                     
+                                                                  
                              Phone: (306) 374-2100
 
-       Fully Licensed - 16 Pool Tables - Lounge Area - 52" Big Screen TV
-                     Drink Specials - 10% Student Discount
+                                                                        
+                                                          
 
-                   Think of us for your next club function!
+                                                           
 
     [1;30m+---------------------------------------------------------------------+[0m'

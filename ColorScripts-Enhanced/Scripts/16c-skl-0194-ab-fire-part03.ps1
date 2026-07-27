@@ -5,12 +5,12 @@
 # Source SHA-256: 1a8c47c169ea0bd92558eb6b0768a7f1e2ae14f72c72982691f6532131bb62ee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-FIRE.ANS by Abomination (skl-0194); released in skl-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 99-141
 # Columns: 1-80
 
 Write-Host '
-       [1;30m..and only the morbid fondle and feast the holy deaths of the devil..[0m
+       [1;30m                                                                     [0m
 
                  [35m▄[0m        [35m▄▄▄[0m
                [35m▄[0;1;35;45m▒▓[0;35m▄  [0;1;31m▄▄▄[0;1;31;45m▓▓░░[0;1;35;45m░░[0;35m▄[0m
@@ -47,8 +47,6 @@ Write-Host '
            [31m▀▀[0m               [31m▀███▀[0m      [31m▀██▀[0m       [31m▀█████▀[0m
 
 
-         [1;30m■ [0;31mFire in the Sky [0;1;30m■ [0;31m51O[0;1;31m·[0;31mQUA[0;1;31m·[0;31mLITY [0;1;30m■ [0;31mNUP [0;1;31m: [0;31mLIFEONMARS [0;1;30m■[0m
-         [1;30m■ [0;31mCS[0;1;31m: [0;31mPowdered Toast Man [0;1;30m■ [0;31mS[0;1;31m: [0;31mD[0;1;31m. [0;31mViRGiNiZER [0;1;30m■ [0;31m96OO[0;1;31m+ [0;1;30m■[0m
-         [1;30m■ [0;31mRUNNING OBV[0;1;31m/[0;31m2 [0;1;30m■ [0;31m187 Member Board [0;1;30m■ [0;31mO[0;1;31m-[0;31m1O Day Wares [0;1;30m■[0m
-               [1;30mAnsi by [0;34m.\[0;1;34mb[0;36mo[0;1;36mm[0mi[1mnation [0m[[1mS[0mK[1;34mi[0;34mLL[0;1;30m/[0;1mi[0mC[1;34mE [0;34mTrial[0m]
-    [1;30m`Thought I''d pop in some Religion in the ansi. It worked well.. ''[0m'
+         [1;30m■ [0;31m                [0;1;30m■ [0;31m   [0;1;31m [0;31m   [0;1;31m [0;31m     [0;1;30m■ [0;31m    [0;1;31m  [0;31m           [0;1;30m■[0m
+         [1;30m■ [0;31m  [0;1;31m  [0;31m                   [0;1;30m■ [0;31m [0;1;31m  [0;31m [0;1;31m  [0;31m           [0;1;30m■ [0;31m    [0;1;31m  [0;1;30m■[0m
+         [1;30m■ [0;31m           [0;1;31m [0;31m  [0;1;30m■ [0;31m                 [0;1;30m■ [0;31m [0;1;31m [0;31m             [0;1;30m■[0m'

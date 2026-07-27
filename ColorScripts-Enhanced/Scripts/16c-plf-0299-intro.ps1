@@ -5,7 +5,7 @@
 # Source SHA-256: dc665fb2544fba79e1ed90fc5fe6d08738e4c806b506655b62dcfb4282b2c90e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: %#!INTRO.ANS by plf crew (poffelipoff); released in plf-0299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: plf 18 - art with identity
 # SAUCE Author: plf crew
 # SAUCE Group: poffelipoff
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                [1;33mpoffe[0;1;36m [0;35m18 [0;1;33mlipoff[0m
+                                [1;33m     [0;1;36m [0;35m   [0;1;33m      [0m
 
       [1;33m█▀█ █▀█ █▄   ▓█ ▄   ▀▀  █▄  ██ ▄   ▀▀ ▐█▀▄ ▓█▀ ██▀▄ █▄ ▀▀  ▓▄ █▄█[0m
      [1;33m▐█▀█▐█▀▄▐█▄▄ ▐█▌▄█▄█ ██▀▐█▄▄▐█▀▀█  ▐█▀ █▄▄▀▐█▄▄▐██ █▐█▄▄▐█▀▐█▄▄ ▄▌[0m
@@ -44,6 +44,4 @@ Write-Host '
 [37;40m  ░░[0;1;30;47m▓▓[0;1;30;40m███▀▀▀▄▄▄▀▀▀▀██[0m░[1;30m█▀▀▀  ▄███[0;30;47m████[0;1;30;40m▐[0;30;47m▐█[0;1;30;40m██▀▀▀▄▄▄▄▄[0m     [1;30m▄██[0;1;30;47m▓▓[0;1;30;40m██▐[0;30;47m██[0;1;30;40m▌▀ [0;30;47m█[0;1;30;40m  ▄█[0m░[1;30m█▐██[0m
   [1;30m▄████[0;30;47m▓▓[0;1;30;40m▄███████████▀▀▀▄▄██[0;1;30;47m▓▓▀[0;1;30;40m██▄▄▄▄[0m      [1;30m▄▓█[0m░░[1;30m▄▄▄▄▄▄▄▄ █▄███▄[0m░[1;30m▄▄[0m     [1;30m▄▄███▀▄[0m
   [1;30m██████████▀▓▓▓███████████████████████▄[0m      [1;30m▄▄▄▄▄███████████▀▀[0m        [1;30m▀▀▓▓█▄[0m
- [35m──────────────────────────────────────────────────────────────────────────────[0m
-    [1;37mbig yellow man [0m-[1;37m drax [0m-[1;37m el niño [0m- [1;37memok [0m- [1;37mzatchmo [0m- [1;37mnightstalker [0m- [1;37mpike[0m
-    [1;37m_a spinsister[0m, [1;37mplc [0mand[1;37m guest artists[0m... [1;37mproducers of art with identity[0m'
+ [35m──────────────────────────────────────────────────────────────────────────────[0m'

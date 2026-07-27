@@ -5,7 +5,7 @@
 # Source SHA-256: e4deb38880b9b4c0befc80945d6255b27a819021e6cac135002d591eefff051e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-FKS1.ANS by Avenging Angel (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fokus fonting
 # SAUCE Author: Avenging Angel
 # SAUCE Group: Fokus fonting
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mavg[0mfokusfonting99!      [36m   [0m
+[1m   [0m                     [36m   [0m
                         [1;37m░░[0;1;36m░[0m           [36m        [0;37m [0;1;37m       [0m
                      [36m [0;1;36m▄[0;36m [0;1;37m▓▓[0;1;36m▓[0m           [36m    ▄▄[0;1;36m▄[0;1;36;46m▄██[0;1;37;40m██▓▒░[0m            [1;30m  [0m
       [1;30m [0m            [1;36m   ▄[0;36m [0;1;37m██[0;1;36m█[0;36m ▄▄[0;1;30m▀▀[0;1;30;47m▄[0;1;37;47m [0;1;30;40m▄[0;36m    ▄[0;1;36;46m▄███████████████▌[0;36m▌[0;1;30m    ▄[0;1;37m▄[0m▄▄[1;30m▄[0m [1;30m▄[0;1;37m░░░[0m [1m░[0m [1;36m    [0m
@@ -37,10 +37,4 @@ Write-Host '
 [32m [0;1;30m▄[0;1;30;42m▀[0;1;32;42m [0;32m▄[0;33m▀[0;1;33m▀[0;32m▄[0;1;32;42m ▄▄  [0;32m▄ [0;33m▀[0;1;31;43m▓▒▓▒▓[0;33m▀[0;32m ▄[0;1;32;42m▄███▄███ [0;32m▀ [0;33m▄[0;1;31;43m [0;33m▀[0;32m [0;1;30m▄[0;1;30;42m▀[0;32m██[0;1;32;42m▄▄ [0;32m██[0;1;32;42m▓▓[0;32m█▀[0;33m▄[0;32m▀[0;36;42m  [0;1;32;42m  ▀█[0;32m███████▀▀▀▀▀▄[0;1;32;42m▄█[0;1;32;40m▀[0;32m▀ ▓▓[0m
 [1;30m▐[0;1;30;42m▌[0;1;32;42m   [0;32m██[0;1;32;42m  ▀ ▄█▌[0;32m▌ [0;33m▐[0;1;31;43m░▒░▒[0;32m ▐[0;1;32;42m▐████▄███[0;32m▌ [0;33m▐[0;1;31;43m█[0;33m▌[0;32m [0;1;30m▐[0;1;30;42m▌[0;32m███[0;1;32;42m▀ ▄▄ ██▄[0;32m▄[0;1;33m▀[0;33m▀[0;32m▄[0;1;32;42m▄██▄ [0;32m▀▀▀▄[0;1;32m▄[0;1;32;42m█▀[0;32m▀▀ [0;33m▄[0;1;31m▄[0;33m▄  ▄[0;1;31;43m▄[0;32m ░░[0m
 [32m            [0;33m                           [0;32m      [0;1;32;42m▀█████████▀[0;1;32;40m▀[0;32m▀            [0m
-[33m░░░░░░░░░░░░░░░░░░░░░░  [0;37mf[0;1;37mokus[0;1;30m [0mf[1monting[0;1;30m [0;33m░░░░░  [0;32m░[0;1;32m░░░░░░░░░[0;32m░  [0;33m░░░░░░░░░░░░░░░░░░░░░░[0m
-
-
-[1;30myOe!, this is for my new group fokus, just like to greet all the fokus members[0m
-[1;30mespecially: knocturnal, mr wrong, fluor, cleaner, cryogenic, dfi, zedfactor, [0m
-[1;30madvocate, moe, moose, freeze, rippa, crayon, d1, and ;ast but not least my homie[0m
-[1;30mplatoonim, [0m'
+[33m░░░░░░░░░░░░░░░░░░░░░░  [0;37mf[0;1;37mokus[0;1;30m [0mf[1monting[0;1;30m [0;33m░░░░░  [0;32m░[0;1;32m░░░░░░░░░[0;32m░  [0;33m░░░░░░░░░░░░░░░░░░░░░░[0m'

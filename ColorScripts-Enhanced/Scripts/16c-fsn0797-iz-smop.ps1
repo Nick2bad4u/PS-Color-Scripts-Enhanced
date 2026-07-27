@@ -5,7 +5,7 @@
 # Source SHA-256: 3a1b98145c8a650fc6833799be680ac927f6f47a861d0313b2ec8811faee3bc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-SMOP.ANS by ize (fusion); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: stupied mop
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -29,10 +29,4 @@ Write-Host '
    [34m▀[0;1;34;44m▀▄▄[0;34m▄▄[0;37m ▀▀▀█[0;1;37;47m▀[0m█▄[1;47m▄▄▄██▄[0m▄[34m ▄[0;37m▐[0;1;37;47m▀▓▓[0m▓▀ [34m▄█[0;1;34;47m█▓[0;34m▌█[0;1;34;44m█▌[0;34m▄▄[0;37m ▀▀[0;1;37;47m▀▀█▄▄[0m▄[1m▄[0;1;47m▄▄▓▓██▀[0m▀█ [34m█[0;1;34;44m█[0;34m█[0m       [34m▐[0m
      [34m▀▀[0;1;34;44m▀█▄[0;1;34;40m▀[0;34m█▄▄▄[0;37m ▀▀[0;1;37;47m ▀▀▀[0m▀ [34m▄▄▄▄▄▄▄▄▄█[0;1;34;44m▀▀▀[0;34m▌▀▀▀▀[0m      [37m▀▀▀▀███▀▀▀[0;1;37;47m █▄[0m▌ [34m██[0m        [34m▀ [0m
         [34m▐▀[0;37m [0;34m ▌[0m     [37m  [0m     [37m           [0;34m ▌[0;37m [0;34mStupied Mop[0;37m      █[0;1;37;47m▄███[0m▌ [34m█[0m
-         [34m [0;37m  [0;34m▀[0m                       [34m ▀[0m                 [37m ▀▀▀▀▀ [0m
-       [1;34m      [0m
-       [34mOption #1[0m    [34mOption #4[0m    [34mOption #7[0m    [34mOption #10[0m   [34mOption #13[0m
-
-       [34mOption #2[0m    [34mOption #5[0m    [34mOption #8[0m    [34mOption #11[0m   [34mOption #14[0m
-
-       [34mOption #3[0m    [34mOption #6[0m    [34mOption #9[0m    [34mOption #12[0m   [34mOption #15[0m'
+         [34m [0;37m  [0;34m▀[0m                       [34m ▀[0m                 [37m ▀▀▀▀▀ [0m'

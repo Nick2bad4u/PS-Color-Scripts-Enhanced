@@ -5,7 +5,7 @@
 # Source SHA-256: 504882605147d1652d9d4d52462b574e67149898a2b409b29b06aa44cfbb88ab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MS-LI3O3.ANS by MrSPLiF (ELP); released in elp-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lost iN ThreeHundredThree Logon
 # SAUCE Author: MrSPLiF
 # SAUCE Group: ELP
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mansi by mr.splif[0m
+[1;30m                [0m
 
 
                         [32m [0;37m [0;32m+o: ramirez![0;37m [0;32m [0;1;30m░░ [0m      [1;30m░░[0m
@@ -29,7 +29,7 @@ Write-Host '
                      [1;30m▐▄▐[0;1;30;42m▒░[0;32m██▌▄▄█[0;1;36;42m░[0;32m▀▀▀[0;1;30;42m▓▒░[0;32m██▌[0;1;36;42m▒▒[0;42mms[0;32;40m▀ [0;34;40m▄[0;1;34;44m▐▓▀[0;34m▀[0;32m▄[0;1;30;42m░▒▓[0;1;30;40m▌[0m
                      [1;30m ▀ █[0;1;30;42m▓▒[0;32m▀▀▀ [0;1;30m▄▄▄█▐▀▀▀[0;32m [0;1;30m▄▄[0;32m ▀▀▀█▄▄▄[0;34m▀[0;32m▄█[0;1;30;42m░▒▓[0;1;30;40m▀[0m
                      [1;30m   [0m    [1;30m░░[0m             [1;30m▀▀   [0;32m ▀▀▀[0;1;30m▀▀[0;32m  [0;1;30m░░[0m
-                      [1;30m   [0;32m [0;1;32m [0;1;36m►[0;1;36;42mL[0;1;32;42mo[0;1;32;40mst[0;1;36;42mI[0;1;32;42mn[0;1;36;42mT[0;1;32;42mh[0;1;32;40mr[0;32me[0;1;32me[0;1;36;42mH[0;1;32;42mu[0;1;32;40mn[0;32mdre[0;1;32md[0;1;36;42mT[0;1;32;42mh[0;1;32;40mr[0;32me[0;1;32me[0;1;36m◄[0m
+                      [1;30m   [0;32m [0;1;32m [0;1;36m►[0;1;36;42m [0;1;32;42m [0;1;32;40m  [0;1;36;42m [0;1;32;42m [0;1;36;42m [0;1;32;42m [0;1;32;40m [0;32m [0;1;32m [0;1;36;42m [0;1;32;42m [0;1;32;40m [0;32m   [0;1;32m [0;1;36;42m [0;1;32;42m [0;1;32;40m [0;32m [0;1;32m [0;1;36m◄[0m
                        [1;30m      [0m
                         [1;30m                [0m
                       [1;32mLogin:[0m [1;32m...........................[0m

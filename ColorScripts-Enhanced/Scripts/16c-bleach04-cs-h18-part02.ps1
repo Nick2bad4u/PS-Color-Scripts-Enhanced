@@ -5,7 +5,7 @@
 # Source SHA-256: e738e7ea5e3d000141e04620544a6403d4f09541aa9b3580e13023827e95295c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CS-H18.ANS by chainsaw (bleach); released in bleach04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hangar 18 ad
 # SAUCE Author: chainsaw
 # SAUCE Group: bleach
@@ -47,12 +47,12 @@ Write-Host '
                                    [31m▓[0m    [31m ▓ [0m
 
 [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;37;41m                                    [0;30;41mh[0;1;30;41ma[0;41mn[0;1;41mgar [0;1;30;41m1[0;30;41m8[0;1;37;41m                                   [0m
-[1;37;41m              [0;30;41ms[0;1;30;41my[0;41ms[0;1;41mop: phat jukems co: toker remotez: digital mess[0;41mi[0;1;30;41ma[0;30;41mh[0;1;37;41m             [0m
-[1;37;41m                 [0;30;41m&[0;1;37;41m [0;41mc[0;1;41mhainsaw ■ [exile] distro site ■ too-elite[0;41m-[0;1;30;41m4[0;30;41mu[0;1;37;41m                [0m
-[1;37;41m                             [0;30;41mn[0;1;30;41mu[0;41mp[0;1;41m: take no prison[0;41me[0;1;30;41mr[0;30;41ms[0;1;37;41m                             [0m
+[1;37;41m                                    [0;30;41m [0;1;30;41m [0;41m [0;1;41m    [0;1;30;41m [0;30;41m [0;1;37;41m                                   [0m
+[1;37;41m              [0;30;41m [0;1;30;41m [0;41m [0;1;41m                                               [0;41m [0;1;30;41m [0;30;41m [0;1;37;41m             [0m
+[1;37;41m                 [0;30;41m [0;1;37;41m [0;41m [0;1;41m        ■                     ■          [0;41m [0;1;30;41m [0;30;41m [0;1;37;41m                [0m
+[1;37;41m                             [0;30;41m [0;1;30;41m [0;41m [0;1;41m                [0;41m [0;1;30;41m [0;30;41m [0;1;37;41m                             [0m
 [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[30;41m                        t[0;1;30;41mh[0;41mi[0;1;41ms ansi was brought to you [0;41mb[0;1;30;41my[0;30;41m:                        [0m
-[30;41m             [0;1;37;41m [0;30;41mc[0;1;30;41mh[0;41ma[0;1;41minsaw, bleach, and the public broadcasting sys[0;41mt[0;1;30;41me[0;30;41mm              [0m
+[30;41m                         [0;1;30;41m [0;41m [0;1;41m                          [0;41m [0;1;30;41m [0;30;41m                         [0m
+[30;41m             [0;1;37;41m [0;30;41m [0;1;30;41m [0;41m [0;1;41m                                              [0;41m [0;1;30;41m [0;30;41m               [0m
 [30;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

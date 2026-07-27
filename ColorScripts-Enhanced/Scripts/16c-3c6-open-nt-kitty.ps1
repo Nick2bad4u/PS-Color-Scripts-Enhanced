@@ -5,7 +5,7 @@
 # Source SHA-256: 8b0fde014e96b820304dc0d11269b8d3b922efbca8ff840b4673868c4e1ef97b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT-KITTY.ANS by Nootropic (3c6-open); released in 3c6-open and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -20,7 +20,7 @@ Write-Host '
 [1;37m  [0m░▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0m▄[1m▄▄▄▄▄▄[0m▄[1m ▄▄[0m▄[1m [0;31m▀[0;1;31m▀[0;31m▀▀[0;1;31;41m▀▓[0;31m▌ ▀  [0;33m■ ░▀░[0;37m ▄[0;1;37m▄▄█▄▄▄▄▄▄ [0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ░[0m
 [1m▄▀ [0;31m▄▄▒░[0;1;37m  name.ext who-dunit[0m               [1;37mdescription.. [0m               [31m▄  ▄▄▄ [0;1;37m▀▓[0m
 [1;37;41m▓[0;1;37;40m [0;31m▓▀[0m              [1;33m [0m                                                         [31m▀▓[0;1;37m █[0m
-[1;37;41m▒[0m░[31m▓[0;1;37m [0;1;33m XXXXXXXX.XXX [0;1;37mNootropic[0m               [31mThis thing looks weirrrrdd....[0m     [31m▒[0;1;37m [0;1;37;41m▓[0m
+[1;37;41m▒[0m░[31m▓[0;1;37m [0;1;33m              [0;1;37m         [0m               [31m                              [0m     [31m▒[0;1;37m [0;1;37;41m▓[0m
 [1;37;41m░[0;1;37;40m [0;31m▒[0;1;37m  [0;1;31m2[0m                                                                       [31m░[0;1;37m [0;1;37;41m▒[0m
 [31m▀[0;1;37m [0;31m░[0;1;37m  [0;1;31m3[0m                                                                         [1;37;41m░[0m
 [31m░[0m    [1;31m4[0m                                                                         [1;31;41m░[0m
@@ -31,5 +31,4 @@ Write-Host '
 [31m█[0;37m [0;1;31m▒[0m  [1;31m9[0m                                                                       [1;31m▓[0m [31m█[0m
 [1;31;41m░[0m [1;31m░[0m  [1;31m10[0m                                                                      [1;31m░[0m [1;31;41m░[0m
 [1;31;41m░[0m [1;31m [0m                                                                           [31m▄▀[0m
-[37m [0;31m▀■ ▒░  ░░           ■[0m                    [31m░[0m     [31m-[0;37m [0;31m-[0m                    [31m░[0;37m [0;31m▀[0;37m  [0;31m■▀[0m
-[1;31mT[0;31moggles[0;33m:[0;31m [0;1;33mText[0;33m/[0;31mXga [0;33m([0;1;37m+[0;33m/[0;1;37m-[0;33m) ..[0;31m [0;1;33mSmooth Scroll[0;33m/[0;31mFast Scroll [0;33m([0;1;37mtab[0;33m) .. [0;1;37mF1[0;31m for some [0;1;31mhelp[0;33m..[0m'
+[37m [0;31m▀■ ▒░  ░░           ■[0m                    [31m░[0m     [31m-[0;37m [0;31m-[0m                    [31m░[0;37m [0;31m▀[0;37m  [0;31m■▀[0m'

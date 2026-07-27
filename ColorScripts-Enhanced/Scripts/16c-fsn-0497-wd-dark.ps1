@@ -5,7 +5,7 @@
 # Source SHA-256: becd12c0dfcacd14f5d7fb2e48d3fc67960dac62a7eca28d8a73c709d8232599
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WD-DARK.ANS by weirdo (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the dark force
 # SAUCE Author: weirdo
 # SAUCE Group: fusion
@@ -30,8 +30,4 @@ Write-Host '
 [1;35;45m ▌▀██░░[0;35m▌ [0;34m▐[0;1;34;44m▒▓▓▓▓▓[0;34m▌[0m    [34m█[0;1;34;44m▒▓▓▓▓▓▓▒[0;34m█[0;37m  [0m    [34m█[0;1;34;44m▒▓▓[0;34m█[0;37m   [0;34m▀[0;1;34;44m▒▓▓▓▄[0;34m▄[0;37m [0;34m█[0;1;34;44m▒▓▓[0;34m█[0;37m   [0;34m▐[0;1;34;44m▒▓▓▓▓[0;34m▌[0;37m  [0;35m █[0;1;35;45m ▀██░░[0;35m██[0m
 [1;35;45m░░█[0;1;37;45m██[0;1;35;45m█▄[0;35m█wd[0;34m█[0;1;34;44m░▒▒▒▒[0;34m█[0m    [34m█[0;1;34;44m░▒▒▒▒▒▒▒░[0;34m█[0;37m  [0m   [34m█[0;1;34;44m░▒▒[0;34m█[0m    [37m [0;34m█[0;1;34;44m░▒▒▒[0;34m▌█[0;1;34;44m░▒▒[0;34m█[0;37m    [0;34m█[0;1;34;44m░▒▒▒[0;34m█[0;37m  [0;35m▐[0;1;35;45m▄██[0;1;37;45m██[0;1;35;45m▌[0;35m███[0m
 [35m█[0;1;35;45m▄▓█▓█▄▐[0;35m█▄[0;37m [0;34m▀▀[0;1;34;44m░░░░[0;34m█▄[0;37m  [0;34m█[0;1;34;44m░░░░[0m [34m▀[0;1;34;44m░░░░[0;34m█▄▄[0;37m  [0;34m▀[0;1;34;44m░░░[0;34m█[0;37m     [0;34m▐[0;1;34;44m░░░░[0;34m██[0;1;34;44m░░░[0;34m█[0;37m   [0;34m▐[0;1;34;44m░░░░░[0;34m▌[0;37m [0;35m █[0;1;35;45m▐ ██▓▓[0;35m███[0m
-[35m██[0;1;35;45m ░░[0;35m██[0;1;35;45m░░[0;35m███▄▄[0;37m [0;34m▀▀▀██▄[0;37m [0;34m████[0m    [34m▀▀▀████▄▄▄[0;37m [0;34m█[0;37m    [0;34m▄████▀[0;37m [0;34m█[0;1;34;44m [0;34m███[0;37m  [0;34m▄█████▀[0;35m ▄███[0;1;35;45m░░▐▀[0;35m████[0m
-              [35m [0m
-[37mthis is my guest appearance in bat, i did it for vader''s board.[0m
-[37mhope ya''ll like it.. but i''ll release it in fusion to cause[0m
-[37mfusion really roxx.[0m'
+[35m██[0;1;35;45m ░░[0;35m██[0;1;35;45m░░[0;35m███▄▄[0;37m [0;34m▀▀▀██▄[0;37m [0;34m████[0m    [34m▀▀▀████▄▄▄[0;37m [0;34m█[0;37m    [0;34m▄████▀[0;37m [0;34m█[0;1;34;44m [0;34m███[0;37m  [0;34m▄█████▀[0;35m ▄███[0;1;35;45m░░▐▀[0;35m████[0m'

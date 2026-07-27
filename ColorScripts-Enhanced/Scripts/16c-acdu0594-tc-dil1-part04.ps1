@@ -5,7 +5,7 @@
 # Source SHA-256: f566d99422f903021e65caa33a82de2e13bc9eb66e2db7de41cce0d3ac071bde
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TC-DIL1.ANS by The Clone (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digital Illusions
 # SAUCE Author: The Clone
 # SAUCE Group: ACiD Productions
@@ -33,8 +33,8 @@ Write-Host '
 [1;30m▐▌[0;33m▐██ [0;1;30m█ [0;1;47m▓▓▒▒░░░░[0m█[1;47m░[0m███████████████████[1;30;47m░[0m█[1;30;47m░[0m▀▀ [1;30m▄▄▄  ▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀▀ [0;1;30m▄▄▄▀[0m
 [1;30m █ [0;33m▀▌[0;1;30m▐▌ [0;1;47m▓[0;1m▀▀[0m▀▀▀▀▀▀▀▀ [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m  ▀▄▄█▄▄▄▄▀▀▀▀▀▀▀▀▀▀[0m
-           [1mV[0mo[1;30moDoo Snatched From WiZARD #27 November, 1993.  Origin[0ma[1ml[0m
-      [1mA[0mr[1;30mt By Jim Lee (c) 1993 iMAGE Comi[0mc[1ms.[0m
+           [1m [0m [1;30m                                                     [0m [1m [0m
+      [1m [0m [1;30m                                [0m [1m  [0m
 
    [1m▀[0;1;36m▀[0;1;36;46m▓▒░[0;36m▀▀▀▓[0;1;36;46m░▒[0;36m▄ [0;1;37m▀[0;1;36m▀[0;1;36;46m▓▒░[0;36m▀▀ [0;1;37m▄[0;1;36;46m▒░[0;36m▀▀▀▓[0;1;36;46m░▒[0;36m▄ [0;1;37m▀[0;1;36m▀[0;1;36;46m▓▒░[0;36m▀▀ [0;1;37m▀[0;36m▀[0;1;36m▀[0;1;36;46m▓▒░[0;36m▀▀▀ [0;1;37m▄[0;1;36;46m▒░[0;36m▓▀▓[0;1;36;46m░▒[0;36m▄   [0;1;36m▀[0;1;36;46m▓▒░[0;36m▀[0m
 [36m    [0;34m░[0;1;36;46m▒[0;36m▄▓█  █▓▄[0;1;36;46m▒[0;34m░ ░[0;1;36;46m▒[0;36m▄▓█ [0;34m░[0;1;36;46m▒[0;36m▄▓█ [0;1;37m▄[0;1;36m▄[0;36m▄▄▄▄ [0;34m░[0;1;36;46m▒[0;36m▄▓█    [0;34m░[0;1;36;46m▒[0;36m▄▓█  [0;34m░[0;1;36;46m▒░[0;36m▓█ █▓[0;1;36;46m░▒[0;34m░  ░[0;1;36;46m▒[0;36m▄▓█[0m
@@ -55,7 +55,7 @@ Write-Host '
 [34m [0;1;30mD    I    G    I    T    A    L  ·  I    L    L    U    S    I    O    N    S[0m
 
 
-                               [1;36mD[0;36mi[0;1;30mgital Illusio[0;36mn[0;1;36ms[0m
-                [1;36m([0;36m┤[0;1;30mCi│) Member · TRiBE Member · The Source Memb[0;36me[0;1;36mr[0m
-                        [1;36mS[0;36my[0;1;30msOps: Cyber Mage & The Calib[0;36mr[0;1;36me[0m
+                               [1;36m [0;36m [0;1;30m             [0;36m [0;1;36m [0m
+                [1;36m [0;36m┤[0;1;30m  │                                         [0;36m [0;1;36m [0m
+                        [1;36m [0;36m [0;1;30m                            [0;36m [0;1;36m [0m
                                  [1;36m([0;36m2[0;1;30m19) 672.81[0;36m3[0;1;36m7[0m'

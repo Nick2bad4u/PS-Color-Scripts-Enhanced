@@ -5,7 +5,7 @@
 # Source SHA-256: 734b12e0496564fc279cbbd9677e04ab2a24e6dfb5ce27b9ce3a9621eee078d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ga-elix.ans by Gossamer Axe (wrlk006); released in wrlk006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -36,5 +36,4 @@ Write-Host '
 
 [37;40m   [0;32;40m▀[0;1;33;42m▀[0;32m█[0;1;32;42m░[0;32m▄[0;37m [0;1;34m▓██[0;37m██[0;1;34m█[0;37m [0;1;33;42m▐▄▄[0;32m▌▐[0;1;33;41m█[0;1;33;42m█[0;32m▌[0;1;33;46m░[0;37;40m [0;32;40m▄█[0;1;33;42m▀[0;32m█▀▀[0;37m [0;1;34m ▓▀[0;37m [0;32m▐[0;1;33;42m█▓[0;32m▌[0;1;36;46m░[0;32m▐[0;1;33;42m██[0;1;34;42m░░[0;37;40m  [0;1;34;42m▓[0;1;34;40m ▌▀[0;37m      [0;33m▐█[0;31m █[0;33;41m░[0;31;40m███▄[0;33;40m▐▓[0;1;30;40m [0;37m [0;35m▀▀▀[0;37m     [0m
 
-[37m    [0;32m▀█[0;1;32;42m▀▄[0;32m▄ [0;37m [0;1;34m▀███▌[0;32m▀[0;1;33;42m██[0;32m▌▐[0;1;33;41m█[0;1;33;42m▓[0;32m▌[0;37m [0;32m█[0;1;33;42m░[0;32m▐[0;1;33;42m░[0;32m█▌[0;1;34m■▀▄[0;37m [0;1;34m▄▌[0;32m▐[0;1;33;42m▀▌[0;32m▌[0;1;34m▀[0;32m▐[0;1;33;42m█▓[0;32m█[0;37m [0;1;34m▄█▄▀[0;37m      [0;33m▄█[0;33;41m▓[0;33;40m [0;31;40m███████[0;37;40m [0;33;40m██▄ [0;37;40m       [0m
-'
+[37m    [0;32m▀█[0;1;32;42m▀▄[0;32m▄ [0;37m [0;1;34m▀███▌[0;32m▀[0;1;33;42m██[0;32m▌▐[0;1;33;41m█[0;1;33;42m▓[0;32m▌[0;37m [0;32m█[0;1;33;42m░[0;32m▐[0;1;33;42m░[0;32m█▌[0;1;34m■▀▄[0;37m [0;1;34m▄▌[0;32m▐[0;1;33;42m▀▌[0;32m▌[0;1;34m▀[0;32m▐[0;1;33;42m█▓[0;32m█[0;37m [0;1;34m▄█▄▀[0;37m      [0;33m▄█[0;33;41m▓[0;33;40m [0;31;40m███████[0;37;40m [0;33;40m██▄ [0;37;40m       [0m'

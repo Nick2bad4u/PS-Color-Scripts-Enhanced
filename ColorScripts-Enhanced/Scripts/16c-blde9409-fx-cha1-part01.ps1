@@ -5,7 +5,7 @@
 # Source SHA-256: 076d06fdccb389ed4f2df420a7fc1b169deda3eb545fd15a72cbdbbcde6911a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-CHA1.ANS by Facsimile (Blade Productions); released in blde9409 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chaos A.D. Advertisement
 # SAUCE Author: Facsimile
 # SAUCE Group: Blade Productions
@@ -21,7 +21,7 @@ Write-Host '
            ■▀[1;30m▀▀▀[0;1;30;47m▄▄▄ ░     [0m          [1;30;40m▄ ▒▓ ▀   [0mIF [1;30mby any chance you want an ansi,[0m
         [34m■ ▄  [0;1;30m█▐ ▄▄ ▀▀[0;1;30;47m▄ ░ [0;1;30;40m▌ [0;34m■▄▄▄ ▀ ▄[0m     [1;30m■ [0;34m▄  [0;1;30mcontact fax [0;34m▄ [0;1;30mon [0;34m■   [0;1;30mChannle Zero,[0m
 [1;30m  [0;34m■ █ ▀  [0;1;34;44m▀█ [0m [1;30;40m█▐ [0;34m▄ [0;1;30m▀▀▄ ▀[0;1;30;47m▄ [0m ■▄ [34m▀ [0;1;30m▄▀ [0;1;34;44m▐ ▀▌▄▀ ▄  ▀   [0;34m▐ ▄[0;34;44m [0;34;40m▀ ▄    ▀   ▄[0m      [1;30;40mSpeednet,[0m
-[1;30;40mFacsim[0mile[1mF[0ma[1;30mc █■ l[0me[1mFa[0mc[1ms[0;1;30mi [0;1;30;47m▌[0m [1;30;40me▐[0;1;37;47m▀[0;1;37;40m▄ [0;1;30;40mm[0mi[1mleF[0ma[1mcs[0mimi[1ml[0me[1;30mFacs[0mi[1;30mm[0;34mi[0;1;30mle[0mF[1;30mac[0ms[1;30mimile[0m     [1;30mLast Resort,[0m
+[1;30;40m      [0m   [1m [0m [1;30m  █■  [0m [1m  [0m [1m [0;1;30m  [0;1;30;47m▌[0m [1;30;40m ▐[0;1;37;47m▀[0;1;37;40m▄ [0;1;30;40m [0m [1m   [0m [1m  [0m   [1m [0m [1;30m    [0m [1;30m [0;34m [0;1;30m  [0m [1;30m  [0m [1;30m     [0m     [1;30m            [0m
 [1;30m  [0;34m▄ ▄  [0;1;34;44m▄▀[0;34m▄ [0;37m▀ [0;1;30m█▌[0m█▀ ▀ [1;34;44m▄[0m ▀ [34m▄ ▀ [0;1;30;47m▒[0;1;37;47m░▀[0;1;37;40m▄ [0;34m▀▄[0;1;34;44m▄█ [0m [34m▌ ▀ [0;34;44m [0;34;40m▀   ▄[0m       [34;40m▀  [0;1;30;40mor Eternal Insanity.[0m
       [34m▄   ▀  [0;1;30m█▌  [0;34m▀[0m       [1;30m▄▀ [0;1;30;47m▓  [0;1;37;47m░▀[0;1;37;40m▄    [0;34m▄[0m          [1;30mNo beggin for free ansis. Col-[0m
         [1;30m▒░  ▐▓█▄ fx  [0;34m▀ [0;1;30m▄█▌ ▄[0;1;30;47m█▄░ [0;1;37;47m░▐[0;1;37;40m▌[0m           [34m■   [0;1;30mlaterals [0;34m▄ [0;1;30minclude free d/ls,[0m

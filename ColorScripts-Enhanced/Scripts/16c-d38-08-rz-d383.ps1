@@ -5,7 +5,7 @@
 # Source SHA-256: 172e621bdf8a7f850ffad2373998aeb960eefe8a3e7947fcb33b27d61b012087
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RZ-D383.ANS by Rzarector [GUEST] (fOrce prOductiOnz); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: department 38
 # SAUCE Author: Rzarector [GUEST]
 # SAUCE Group: fOrce prOductiOnz
@@ -43,10 +43,10 @@ Write-Host '
 
 
 
-[37m This ansi for blind sniper and his koOl group department-38 (d38)[0m
-[37m Greets: Blind Sniper, Z-force, Blindman, Midnight Judge & Kresile[0m
-[37m         forCe, d38 and basiC!asCii[0m
+[37m                                                                  [0m
+[37m                                                                  [0m
+[37m                                   [0m
 
 [31m          [0m        [31m        [0m                             [31m▐▄▄▄▄▄[0m    [31m▄▄▄▌[0m
-[31m          [0m    [31m    [0m        [31m    [0m                         [31m▐[0;37;41mrzare[0;37;40mCtor[0;31;40m▐[0;37;41mfor[0;37;40mCe[0m
+[31m          [0m    [31m    [0m        [31m    [0m                         [31m▐[0;37;41m     [0;37;40m    [0;31;40m▐[0;37;41m   [0;37;40m  [0m
 [31;40m              [0m                [31;40m    [0m                     [31;40m▀▀▀▀▀▌[0m    [31;40m█▀▀▌[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e68c9e037fd2eebd5a5b476fa6d7af4925e1c24134227ec96d0a6b896c0cb2bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S&4-ANSC.ANS by Absent Spinsister + Aesthetic (sense); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: anscii
 # SAUCE Author: AbsentSpinsister/43
 # SAUCE Group: sense
@@ -16,7 +16,7 @@
 
 Write-Host '
  [1;30mtextmode art..[0m              [36m.[0;1;36m........[0;36m..[0m                        [1;37m_______[0m
- [1;30m♥nity in the scene.[0m         [36m:[0m         [1;36m:....[0;36m..[0m    [36m..[0;1;36m..[0m          `└l[1mQQQQQQp[0mp,.
+ [1;30m                   [0m         [36m [0m         [1;36m     [0;36m  [0m    [36m  [0;1;36m  [0m           └ [1m       [0m   
 [36m [0;1;36m..[0;36m.[0;1;36m..[0;36m..   [0;37m  [0;1;37m░░[0m       [1m▄[0;1;47m▄[0;1;40m██▄▄[0m   [1;30mansi?[0m   [36m:[0m    [36m :[0;1;36m...[0;36m..[0;37m [0;1;37m [0;36m:[0;1;37m   [0;1;30mascii?[0m    `4[1m$$$$$$$$Q[0mp,
  [1;36m:[0m      ▄[1m████▓▓[0m [1m▒[0m    ▀[1m▀▀▀▀█▓[0;1;47m▄[0m▄      [1m▄▄▄▄[0m [30mi strike [0;36m:[0;30mgain[0m      [37m__[0;1;37m_[0m_    l[1m$$$[0m7''[1m``[0m''4[1m$[0m
  [36m:  [0;37m ▄[0;1;37m██████▀[0m              [1m░█[0;1;47m█[0m▌   [1;47m░▓███▓[0m ▒[1m▒▒[0m▒       [1m  [0m_.,g[1mQQQ$$$[0m$    :$[1m$[0m''[1m [0;1;30m:[0m$[1m$  [0m`
@@ -36,8 +36,8 @@ Write-Host '
  [30mansi world[0;1;30m|[0;30mw[0;36m$[0;1;36m$[0;30me[0;1;37m░░░[0m [1m██[0m [1;47m████[0;1;40m▄[0m     ░              [34m░░░[0m         [1;30m:[0m$7`└4[1m$$$$$[0m$. , ·[1m ''[0m
 [1;30m<<<--------''[0;30me[0;36m''[0;1;36m''[0m ░░░ [1m█[0;1;47m▀[0m  ▀[1m▀[0;1;47m███▄[0;1;40m▄▄▄[0m               [34m░░░[0m                [37m`''ⁿ┘│ [0m    [1;30m|[0m
 [30mi hack all ansi over[0;37m▀[0m      [1;37m▀[0;1;37;47m████[0;1;37;40m▀[0m▀                                           [1;30m|[0m
-[30mthe world. make sure ur not next victum >[0;37m [0;1;37maest[0mheti[1;30mc[0m([1;30mjsp)&&[0;36msp[0;1;36mins[0;1;37mis[0m([1m123[0m) [1;30m-----''[0m
-                                   [1;30m .----[0m  featuring king saver[1;30m ----------''[0m
+[30m                                         [0;37m [0;1;37m    [0m    [1;30m [0m [1;30m      [0;36m  [0;1;36m   [0;1;37m  [0m [1m   [0m  [1;30m      [0m
+                                   [1;30m      [0m                      [1;30m            [0m
                                     [1;30m|[0m
                                     [1;30m`-------.[0m
                                             [1;30m|[0m

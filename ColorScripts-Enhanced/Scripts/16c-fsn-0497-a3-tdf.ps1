@@ -5,7 +5,7 @@
 # Source SHA-256: e4245eeb651e593b6fb367ade2d85bb4d696ab015ef5f2c6ae8c542576d033e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: A3-TDF.ANS by absence (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the_dark force.
 # SAUCE Author: absence
 # SAUCE Date: 19970330
@@ -38,10 +38,9 @@ Write-Host '
                                           [32m▀▀▄▄[0;37m  [0;32m▄ [0m
                                                                 [31m [0m
              [32m░[0m                     [32m                         [0m
-[32mhaw! haw![0;37m  [0;32mlo[0;30;42mo[0;32;40mk at that!!? absence is trying to do newschoOl![0;37;40m [0;32;40mhar! har![0;37;40m [0;32;40mhaw!!   [0m
-[32;40mwhat does tha[0;1;32;42mt[0;32m mean?? what does that mean??![0;37m [0;32m. he''s trying to be... nifte3yh![0m
-[37m [0;32myeh.. well, ▓[0;37m [0;32msometime has to be the 1st time so shaddup and dont be ereet! :)[0m
-[37m  [0;32mwoops.. .[0;37m  [0;32m░[0;37m [0;32moi ize, oi noah,[0;37m [0;32moi myth! -and yes, the easter bunny scares me. [0m
-[32m chop where ever you like vader, ▐█[0;30;42m░[0;32;40m►[0;37;40m [0;30;42m► [0;32;40m▌ ▐█▓ ░░[0;37;40m [0;32;40m/eof -[0;37;40m [0;32;40mcouple of lines...  [0m
-[37;40m [0;32;40mand yo vader.... this░[0;1;32;40mis[0m [32mthe last release of this shit. im satisfied! period.[0m
-                       [1;32m [0m'
+[32m         [0;37m  [0;32m  [0;30;42m [0;32;40m                                               [0;37;40m [0;32;40m         [0;37;40m [0;32;40m        [0m
+[32;40m             [0;1;32;42m [0;32m                              [0;37m [0;32m                                [0m
+[37m [0;32m            ▓[0;37m [0;32m                                                                [0m
+[37m  [0;32m         [0;37m  [0;32m░[0;37m [0;32m                [0;37m [0;32m                                               [0m
+[32m                                 ▐█[0;30;42m░[0;32;40m►[0;37;40m [0;30;42m► [0;32;40m▌ ▐█▓ ░░[0;37;40m [0;32;40m      [0;37;40m [0;32;40m                    [0m
+[37;40m [0;32;40m                     ░[0;1;32;40m  [0m [32m                                                    [0m'

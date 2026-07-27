@@ -5,7 +5,7 @@
 # Source SHA-256: edb7e607bea3b3562517b50626c125a518dfaeab05de654a5f6b1a76e2b3c7d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: W_PLANET.ANS by whack (shade/uup); released in shade4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: planets
 # SAUCE Author: whack
 # SAUCE Group: shade/uup
@@ -50,8 +50,4 @@ Write-Host '
    ▐[1;47m██[0m▌       ▐[1;47m████████[0m▌       ▐[1;47m█████[0m▌       ▐[1;47m█████[0m▌       ▐[1;47m█████[0;1;30;40m▌[0m       ▐[1;47m██[0m▌
     [1;47m▐█▌[0m    ▄▄ ▀▀  [1;47m▐█▌[0m▐[1;47m█▌[0m    ▄▄ ▀▀  [1;47m▐█▌[0m      [1;30m▐[0;1;30;47m▄[0m▀  [1;47m▐█▌[0m    ▄▄ ▀▀  [1;47m▐█▌[0m    ▄▄ ▀[1;30;47m▄[0;1;30;40m▌[0m
     [1;47m▐█▌[0m▀▀▀       [1;30m▐[0;1;30;47m▄▄▄[0m▀▀▀▀▀▀        ▀[1;30;47m▄▄[0;1;30;40m▌[0m         [1;30m▐[0;1;30;47m▄▄[0m▀▀▀▀        ▀▀▀▀[1;30;47m▄▄[0;1;30;40m▌[0m
-    ▀[1;30;47m▄▄[0;1;30;40m▌[0m
-                      planets ... couldn''t fit the s
-
-   [1;30m sup''s to : phlare, mend, caithor, liithn, raider and last but not least[0m
-               [1;30mdfuse (wee ... look at those squares +))[0m'
+    ▀[1;30;47m▄▄[0;1;30;40m▌[0m'

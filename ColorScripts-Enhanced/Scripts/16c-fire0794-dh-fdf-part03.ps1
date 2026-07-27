@@ -5,7 +5,7 @@
 # Source SHA-256: a5c3c3ceca32e3fa3bf5cf83ba7d84bb22af85379ff8ca354f29626ebb247c42
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-FDF.ANS by Donut Hole (fire0794); released in fire0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 94-142
 # Columns: 1-80
 
@@ -48,14 +48,7 @@ Write-Host '
 [1;30;40m  [0;1;30;47m▒▓█[0;1;30;46m▓[0m      [36m▄▀   [0;1;33;43m▒░[0;33m████[0;1;30;43m░▒▓▓[0m [1;30;47m▒▓█[0;1;30;46m▓[0m     [1;30;47m▒▓[0;1;30;46m█▓[0m  [1;30;40m▀[0;1;30;47m▓[0;1;30;40m█[0;1;30;46m▓[0;36m▄    ▄▀    [0;1;30;47m▒▓█[0;1;30;46m▓[0m     [1;37;40m▐[0;1;37;47m [0;1;30;47m░▒[0;1;30;40m▄   ▄[0;1;30;46m▒░ [0m
 ▄[1;30;47m▒▓█[0;1;30;46m▓▒░[0;36m▄▄▄▀▀[0m      [33m▀███[0;1;30;43m░▒▓[0;1;30;40m▀[0m▄[1;30;47m▒▓█[0;1;30;46m▓▒░[0;36m▄ [0;37m▄[0;1;30;47m▒▓[0;1;30;46m█▓▒░[0;36m▄  ▀[0;1;30;46m▒░  [0;36m▄▀    [0;37m▄[0;1;30;47m▒▓[0;1;30;46m█▓▒░[0;36m▄    [0;37m▀▀[0;1;30;47m░▒▓█[0;1;30;46m▓▒░[0;36m▀[0m
 
-                                                                  [1;37m-[0m[[1;30mDonut Hole[0m][1m-[0m
+                                                                  [1;37m [0m [1;30m          [0m [1m [0m
                                                                    [1m-[0m[[1;30m07-03-94[0m][1m-[0m
-                             [1m·[0m■[1;30m▌Flying Donuts▐[0m■[1m·[0m
-                                [1m([0m4[1;30m04)578-85[0m5[1m8[0m
-
-                             [1mS[0my[1;30msOp : Donut Ho[0ml[1me[0m
-                         [1mC[0mo[1;30mSysOps: Ktulu and FLo[0mo[1mD[0m
-        [1mF[0me[1;30matures ProgNet, FidoNet, interBBS-BRE, and tonsa other stuff[0mz[1m.[0m
-
-              [1mC[0ma[1;30mlvin and Stpendous man is copyrighted by Watterso[0mn[1m.[0m
-                   [1m"[0mS[1;30mtupendous Man, searching for donut[0ms[1m"[0m'
+                             [1m [0m■[1;30m▌             ▐[0m■[1m [0m
+                                [1m([0m4[1;30m04)578-85[0m5[1m8[0m'

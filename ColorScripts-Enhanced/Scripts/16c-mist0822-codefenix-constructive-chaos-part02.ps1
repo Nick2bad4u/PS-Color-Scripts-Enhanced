@@ -5,7 +5,7 @@
 # Source SHA-256: 5b96acc52354d16da390ef00646c5af301f50e2e40915d0d8bb1c74796e585f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CODEFENIX-CONSTRUCTIVE_CHAOS.ANS by Codefenix (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Constructive Chaos BBS
 # SAUCE Author: Codefenix
 # SAUCE Group: Mistigris
@@ -48,11 +48,11 @@ Write-Host '
  [1;30m│[0m                 [1;30m■[0m [1;30m■[0m [1;30m■ ■[0m [1;30m■[0m                      [1;30m■ ■[0m [1;30m■[0m [1;30m■[0m [1;30m■[0m                  [1;30m│[0m
  [1;30m│[0m                                                                           [1;30m│[0m
  [1;30m│[0m                                                                           [1;30m│[0m
- [1;30m│[0m [1mLoRD[0;1;30m·[0;1;37mUsurper[0;1;30m·[0;1;37mTradeWars[0;1;30m·[0;1;37mYankee Trader[0;1;30m·[0;1;37mEsterian Conquest[0;1;30m·[0;1;37mOperation Overkill[0m [1;30m│[0m
+ [1;30m│[0m [1m    [0;1;30m [0;1;37m       [0;1;30m [0;1;37m         [0;1;30m [0;1;37m             [0;1;30m [0;1;37m                 [0;1;30m [0;1;37m                  [0m [1;30m│[0m
  [1;30m│[0m                                                                           [1;30m│[0m
- [1;30m│[0m     [1;30mA[0mr[1makN[0me[1;30mt[0;1;37m·[0;1;30mf[0ms[1mxN[0me[1;30mt[0;1;37m·[0;1;30mt[0mq[1mwN[0me[1;30mt[0;1;37m·[0;1;30mD[0mO[1mVE-N[0me[1;30mt[0;1;37m·[0;1;30mA[0mg[1moraN[0me[1;30mt[0;1;37m·[0;1;30mM[0me[1mtroN[0me[1;30mt[0;1;37m·[0;1;30mM[0mi[1mcron[0me[1;30mt[0;1;37m·[0;1;30mF[0mi[1mdoN[0me[1;30mt[0m     [1;30m│[0m
+ [1;30m│[0m     [1;30m [0m [1m   [0m [1;30m [0;1;37m [0;1;30m [0m [1m  [0m [1;30m [0;1;37m [0;1;30m [0m [1m  [0m [1;30m [0;1;37m [0;1;30m [0m [1m    [0m [1;30m [0;1;37m [0;1;30m [0m [1m    [0m [1;30m [0;1;37m [0;1;30m [0m [1m    [0m [1;30m [0;1;37m [0;1;30m [0m [1m    [0m [1;30m [0;1;37m [0;1;30m [0m [1m   [0m [1;30m [0m     [1;30m│[0m
  [1;30m│[0m                                                        [30mä[0;37m                  [0;1;30m│[0m
- [1;30m│[0m                         [1;30mDoorParty[0;1;37m·[0;1;30mBBSlink[0;1;37m·[0;1;30mBCR[0;1;37m·[0;1;30mMRC[0;30m  ä[0;37m                      [0;1;30m│[0m
+ [1;30m│[0m                         [1;30m         [0;1;37m [0;1;30m       [0;1;37m [0;1;30m   [0;1;37m [0;1;30m   [0;30m   [0;37m                      [0;1;30m│[0m
  [1;30m│[0m                                                   [30mÇÇê[0;37m                     [0;1;30m│[0m
  [1;30m│[0m                                                                           [1;30m│[0m
- [1;30m└─<[0;1;34m·[0;36m·[0;1;36m·[0m https[1;30m://[0;1;37mconchaos[0;1;30m.[0msynchro[1;30m.[0mnet[1;36m [0;36m·[0;1;30m<>[0;36m·[0;1;30m [0mtelnet[1;30m://[0;1;37mconchaos[0;1;30m.[0msynchro[1;30m.[0mnet [1;36m·[0;36m·[0;1;34m·[0;1;30m>─┘[0m'
+ [1;30m└─ [0;1;34m [0;36m [0;1;36m [0m      [1;30m   [0;1;37m        [0;1;30m [0m       [1;30m [0m   [1;36m [0;36m [0;1;30m  [0;36m [0;1;30m [0m      [1;30m   [0;1;37m        [0;1;30m [0m       [1;30m [0m    [1;36m [0;36m [0;1;34m [0;1;30m ─┘[0m'

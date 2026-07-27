@@ -5,7 +5,7 @@
 # Source SHA-256: dcff00aea7e4bd5da6abb143b3d4e9c696b71b97e16a0a2e4d2ea0d86a63c2db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: jn-milkb.ans by Jashiin (Mimic Productions); released in mimic57 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Jashiin
 # SAUCE Group: Mimic Productions
 # SAUCE Date: 20030221
@@ -54,13 +54,5 @@ Write-Host '
              [1;30m²┘$$$$$$$$$$$$$$$$$$$$$$$$$`""`[0m                 [1;30m  $[0m [1;30m$$[0m [1;30m$$$$$$$$ $$[0m
                [1;30m$$$$Ñ⌂⌂$$$$$$$$$"^\$$$$j/  [0m                [1;30m [0m [1;30m   Y[0m [1;30m$$[0m [1;30m$$$$$$$$ $$[0m
                [1;30m  `[0m   [1;30m $$"²└──┘²[0m [1;30m [0m [1;30m`""` [0m                  [1;30m  [0m      [1;30m$$[0m [1;30m$$$$$$$$ $$[0m
-               [1;30m  [0m     [1;30m$j[0m              [1;30m [0m  [30mknock, knock, neo.[0;37m  [0;1;37m [0m   [1;30m `[0m [1;30m²└─┘²"$$[0m [1;30m└''[0m
-                                                                        [1;30m  \$[0m
-
-
-
-
-
-
-
-[35mlots of letters... [0;1;35mmilky bar[0;35m for noches.[0m'
+               [1;30m  [0m     [1;30m  [0m              [1;30m [0m  [30m                  [0;37m  [0;1;37m [0m   [1;30m  [0m [1;30m └─┘    [0m [1;30m└ [0m
+                                                                        [1;30m  \$[0m'

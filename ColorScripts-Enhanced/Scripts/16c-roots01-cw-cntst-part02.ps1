@@ -5,7 +5,7 @@
 # Source SHA-256: ecf3059e191243b0c8c57e910fa28c893c07a019aad98163c23a26bc46f6d6b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CW-CNTST.ANS by Ceelow + Ansichrist (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ansichrist contest
 # SAUCE Author: ceelow
 # SAUCE Group: roots
@@ -53,13 +53,10 @@ Write-Host '
                       [37m█▄█▀[0m                      [37m▀█▄█[0m
                       [37m▓█▌[0m     [37mglue thirty six    ▐█▓[0m
                       [37m▓█[0m                          [37m██[0m
-                      [37m▐█▌"blahblahblahblahblah!!"▐█▌[0m
-                       [37m▀▐▄  "bblahblaaaaaaah!"  ▄█▀[0m
+                      [37m▐█▌                        ▐█▌[0m
+                       [37m▀▐▄                      ▄█▀[0m
                         [37m▐▀██▄▄▄▄[0m          [37m▄▄▄▄██▀░░[0m
                         [37m▐ ░░▀▀▀▀████▌▓▓▓▓█▀▀▀▀▌[0m
                                     [37m▌[0m         [37m▄[0m
                                     [37m▀[0m
-                                    [37m▀[0m
-              [1;34mContest started by ansichrist in glue #35.[0m
-     [1;34mOnly seen 2 actual releases of it. One by Gloss and[0m [1;34manother by Agent[0m
-     [1;34mOrange who released[0m [1;34min a revival pack, a group i was also[0m [1;34min. :)[0m'
+                                    [37m▀[0m'

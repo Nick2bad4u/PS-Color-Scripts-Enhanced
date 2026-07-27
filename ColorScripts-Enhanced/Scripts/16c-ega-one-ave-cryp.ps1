@@ -5,7 +5,7 @@
 # Source SHA-256: 2d7411a955e2c03e78dc419a96e8b90044c1ebcabc11a20189d01b6688ee1c42
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-CRYP.ANS by avenger (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the crypt
 # SAUCE Author: avenger
 # SAUCE Group: ega
@@ -30,6 +30,4 @@ Write-Host '
 [31m▐▀[0;1;31;41m▀░[0m ▀ [31m▄▄▄[0;37m [0;31m▀▀▄[0;1;31;41m▄[0;31m▄ [0;30;47m▓▓▓▓▓░░[0;1;37;47m▀▌[0m [31m▐[0;37;41m░[0;1;31;41m▀[0;1;31;47m▓[0;30;41m▄▓▓▓▓[0;37;40m [0;30;41m▓▓▓[0;31;40m▄[0;1;31;41m▄[0;31m▄[0;37m ▀[0;1;37;47m▀[0;1;37;41m▓▓[0;1;37;47m█▓[0m ▀▀[1;47m▀[0m▀ [31m▐▄[0;1;31;41m░▄[0;1;31;40m▄[0;31m▄[0;1;31m▄[0;1;31;41m▓[0;31m▄[0;37m [0;31m▄▄[0;37m [0;31m▄[0;37m [0;37;41m▀[0;1;37;40m▀▀[0;31m░▄▌[0m
 [37m [0;31m  [0;1;31;41m▀░[0;31m▀▀▌[0;37m  [0;30;41m████[0;31;40m▐▀[0;37;40m [0;31;40m▄▄▄[0;37;40m [0;30;47m▓▓[0;31;40m▄[0;1;31;40m▄[0;31m▄█[0;1;31;41m▄░[0;31m▄[0;30;41m▓▓[0m    [31;40m▄[0;1;31;41m▄░[0;31m▄[0;37m [0;31m▀▀[0;1;31;41m▀▓[0m  [1;47m▀█▀[0m▀ [31m▐▄▄[0;1;31;41m░▄░[0;31m▀▀▀▌[0;37m  [0;31m▀[0;1;31m▀[0;1;31;47m▓[0;1;31;41m▀[0;31m▀[0;1;31;41m░[0;1;31;40m▀[0;1;31;47m▓[0;31m▀▀[0;1;31;41m▀▀[0;31m▀[0m
    [31m▀[0m   [31m▌[0m          [31m▀░[0;30;41m▓[0m   [31;40m▀░[0;37;40m [0;31;40m▀▀▌[0m       [31;40m▀▀▌[0m   [37;40m▄[0;1;37;40m▄[0m ▀▀▀  [30;41m▓▓▓▒[0;31;40m▀▀[0m            [31;40m ▀[0;1;31;41m▀[0;31m▀▌[0m
-[30;46m▓▓▓▓▓▓[0m   [30;46m▓▓▓▓▓▓▓▓▓█[0m   [30;46m▓▓[0m   [30;46m▓[0;37;40m [0;31;40m▌[0;37;40m [0;30;46m▓▓▓▓▓▓▓[0;37;40m  [0;30;46m▓▓[0m     [30;46m▓▓[0;37;40m [0;1;37;40mthe crypt[0m [30;46m▓▓▓▓▓▓▓█▓[0;31;40m [0;37;40m [0;30;46m▓[0;37;40m [0;31;40m▌[0;37;40m [0;30;46m▓▓▓[0m
-
-[37;40m trade with nail / fire[0m'
+[30;46m▓▓▓▓▓▓[0m   [30;46m▓▓▓▓▓▓▓▓▓█[0m   [30;46m▓▓[0m   [30;46m▓[0;37;40m [0;31;40m▌[0;37;40m [0;30;46m▓▓▓▓▓▓▓[0;37;40m  [0;30;46m▓▓[0m     [30;46m▓▓[0;37;40m [0;1;37;40mthe crypt[0m [30;46m▓▓▓▓▓▓▓█▓[0;31;40m [0;37;40m [0;30;46m▓[0;37;40m [0;31;40m▌[0;37;40m [0;30;46m▓▓▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d796dc3453bf483d756f88ed1fb2dc8080d7e36fd6f6cf713a7e3c67c5f0beb7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S0G-E2.ANS by Snoop (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eternity/2
 # SAUCE Author: Snoop
 # SAUCE Group: READ THE INI FILE
@@ -35,19 +35,19 @@ Write-Host '
 
 
 
-                        [1;35m· [0;35mRe[0;1;30malms of Eternity · Eternity[0;35m/2 [0;1;35m·[0m
+                        [1;35m  [0;35m  [0;1;30m                           [0;35m   [0;1;35m [0m
 
                             [1;35m· [0;35m61[0;1;30m9-794-9655,#11,#[0;35m11 [0;1;35m·[0m
 
-                              [1;35m· [0;35m1.[0;1;30mo GiGs Onli[0;35mne [0;1;35m·[0m
+                              [1;35m  [0;35m  [0;1;30m           [0;35m   [0;1;35m [0m
 
-                               [1;35m· [0;35m0-[0;1;30m3 day on[0;35mly [0;1;35m·[0m
+                               [1;35m  [0;35m  [0;1;30m        [0;35m   [0;1;35m [0m
 
-                              [1;35m· [0;35mSy[0;1;30ms Darker Ima[0;35mge [0;1;35m·[0m
+                              [1;35m  [0;35m  [0;1;30m            [0;35m   [0;1;35m [0m
 
-                              [1;35m· [0;35mRe[0;1;30mmote Plasmato[0;35mid [0;1;35m·[0m
+                              [1;35m  [0;35m  [0;1;30m             [0;35m   [0;1;35m [0m
 
-                         [1;35m· [0;35mnu[0;1;30mp: you can go lookin'' ba[0;35mby [0;1;37m·[0m
+                         [1;35m  [0;35m  [0;1;30m                        [0;35m   [0;1;37m [0m
 
 
 
@@ -62,5 +62,4 @@ Write-Host '
                             [31m▀▀[0m           [31m▄▀▀    ▄[0m
                                        [31m▄▀[0m     [31m▄▀[0m
                                       [31m▀▄ ■ ▄▄▀[0m
-                                        [31m▀▀▀[0m
-                              [1;30mmike.shearer@com2bbs.com[0m'
+                                        [31m▀▀▀[0m'

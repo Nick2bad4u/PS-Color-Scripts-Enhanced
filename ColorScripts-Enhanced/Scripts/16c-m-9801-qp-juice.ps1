@@ -5,7 +5,7 @@
 # Source SHA-256: 85ba54cb714a0162bed5dde69876cdbba42cd8ec763d1284b8747d8a37788190
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QP-JUICE.ANS by quip (mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: juice
 # SAUCE Author: quip
 # SAUCE Group: mistigris
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-             " here is something you just can''t understand "
+                                                            
 
                    [35m░[0m                 [35m░[0m
                    [35m░[0;37m    [0;35m░[0m         [35m░[0;37m  [0;35m▓[0m        [35m░[0m

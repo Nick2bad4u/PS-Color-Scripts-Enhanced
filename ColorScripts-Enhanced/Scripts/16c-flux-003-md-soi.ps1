@@ -5,7 +5,7 @@
 # Source SHA-256: 481258ee98f5d823041827f9b4324c1d8fa95c4517255b74a383e47c3cad224d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-SOI.ANS by metal defender (many groups ;)); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: smell of incense +o thorax
 # SAUCE Author: metal defender
 # SAUCE Group: many groups ;)
@@ -28,14 +28,4 @@ Write-Host '
     [34;40m▌[0;1;30;40m███▀ ▀████▌▀▀██▄[0;1;30;45m▓[0;1;30;40m█▀[0;37;40m [0;34;40m█▌[0;37;40m [0;1;30;40m██[0;1;30;45m▓[0;1;30;40m█▀▀▀▀▀[0;34;40m [0;1;34;44m▒[0;34;40m [0;1;35;43m▄ [0;1;35;40m█[0;1;30;40m ██[0m       [1;37;40m█▌[0;1;35;40m▐[0;1;35;43m▒▌ [0m
     [1;34;44m▒[0;34;40m▄▄▄▄[0;1;34;44m▒[0;34;40m▄▄ [0;1;30;40m▀▀▀md ▀▀ [0;34;40m▄▄[0;1;34;44m▒▄[0;1;31;40m [0;1;30;40m▀▀[0;37;40m [0;34;40m▄▄▄[0;1;34;44m░░▄▄▒▒[0;37;40m [0;1;35;40m█[0;1;35;45m▀[0;1;35;43m▄[0;1;35;40m▌[0;1;30;40m▐[0;1;30;47m▓[0;1;30;40m██[0;37;40m▒[0;1;30;40m▄[0;37;40m▄▄[0;1;37;40m█▀[0;1;35;40m [0;1;35;45m░[0;1;35;40m█[0;1;35;45m▀▀[0m
    [34;40m▐[0;1;34;44m▒▄[0;34;40m█[0;1;34;44m▒▒▀▒▒[0;34;40m██[0;1;34;44m▄▒▒[0;34;40m▀▀▀▀▀▀[0;1;34;40m▀[0;34;40m▀[0;1;34;44m▒[0;34;40m███[0;1;34;44m▄▄░░▀▀▀▒▒▒[0;34;40m▌[0;1;35;40m▐[0;1;35;45m▓ ▓[0;1;35;40m▄▄[0;1;30;40m ▀▀▀ [0;1;35;40m▄▄▄█[0;1;35;43m▒[0;1;35;45m░ ▐[0;1;35;43m▒[0m
-   [34;40m▀▀▀▀[0m                             [34;40m▀▀▀▀[0m                 [1;35;40m▀▀[0;1;35;43m▒[0;1;35;40m▄[0m
-              [1;31;40msmell of incense +o thorax[0m
-
-
-
-
-
-
-
-
-[37;40m [0m'
+   [34;40m▀▀▀▀[0m                             [34;40m▀▀▀▀[0m                 [1;35;40m▀▀[0;1;35;43m▒[0;1;35;40m▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5a72629e2ba2be1eaf05e5bc8f8a524580e04a6309fe84287853a32ba720f1c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM!NUMB.ANS by BlindmAn (DEZiGN); released in dzg9601 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nUMB pROMO!
 # SAUCE Author: BlindmAn
 # SAUCE Group: DEZiGN
@@ -38,5 +38,4 @@ Write-Host '
 █[1;47m▐█[0;1;40m█[0;1;47m▀░▀[0;1;40m█[0;1;47m▄[0m▄ [32m▀▄[0;37m▀ ▀[0;1;37;47m▀ [0m▀▄[1;47m ▓▄[0m▄ [1;32m▀[0m ▄[1;47m░[0m▀▀[1m [0;1;32m▄▀[0;1;37m  ▄█[0;1;37;47m▀[0;1;37;40m▄ ▄▄[0;1;30;40m [0;32m▀[0;1;30m [0m▄▄[1m▐██[0;1;47m▄░▄[0;1;40m█████[0;1;47m░   ░[0m▄[1m [0m▄[1;47m ■ [0;1;40m▐██[0;1;47m░█[0;1;40m██[0;1;47m▌ [0;1;37;47m░[0m
 ▐[1;47m ▀[0;1;40m██[0;1;47m▄[0;1;40m███[0;1;47m▌ [0m▄▄ [32m▀[0;37m [0;32m▄[0;37m [0;1;37m  [0m▀▀[1;47m▀▀[0m▀▀▀ [32m▄[0;37m [0;1;32m▀[0m ▄▄[1m ██[0;1;47m▄░▄[0;1;40m████[0;1;47m▄█▄ [0m▄[1m▀██[0;1;47m▀▀[0;1;40m██████[0;1;47m█▄▄  ▄ ▀ [0m▌[1;47m▓[0;1;40m█████[0;1;47m▀  [0m▌
  ▀[1;47m  ▀▀▀[0;1;40m█[0;1;47m▀ ▀ [0m▀▀     [32m▀[0;37m  [0;32m■[0;37m  [0;32m▀[0;37m ▄▄▄[0;1;37;47m ░[0m▀ [1m ▐[0;1;47m▓█▀[0;1;40m████[0;1;47m██[0;1;40m█[0;1;47m█▌  [0m▄▀▀[1;47m  ▀▀▀▀▓▀▀▀▀   [0m▀▀[1m ▀[0;1;47m▀▀▀   ░[0m▀[1m [0m
-    ▀▀▀▀▀[1;30m!Bm@dZg.nUMB[0m [1;30m [0m  ▀▀▀▀       [1m▀██[0;1;47m▀█[0;1;40m█████[0;1;47m▀  [0m▀[1m   [0m    ▀▀▀▀▀▀▀      [1m   [0m▀▀▀[1m    [0m
-                                  [1m                                 [0m'
+    ▀▀▀▀▀[1;30m!Bm@dZg.nUMB[0m [1;30m [0m  ▀▀▀▀       [1m▀██[0;1;47m▀█[0;1;40m█████[0;1;47m▀  [0m▀[1m   [0m    ▀▀▀▀▀▀▀      [1m   [0m▀▀▀[1m    [0m'

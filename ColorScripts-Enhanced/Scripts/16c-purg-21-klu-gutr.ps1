@@ -5,7 +5,7 @@
 # Source SHA-256: e4528e884a94bf26eb2fe316b1f5adfafff56f0a44ebb9f0c78c1288dcb8b730
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KLU%GUTR.ANS by Klumzee (purg-21); released in purg-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -50,10 +50,10 @@ Write-Host '
 [33m▄▓▓[0;34m░▒▒[0;1;34m░░[0;34m▒▒[0;1;34m░[0;34m▌[0;1;31;43m▓▒[0;1;31;40m▓[0;1;31;43m█▓██[0;1;31;40m▓█[0;1;31;43m██▀[0;33m▀▓[0;1;31m████████[0;1;31;43m▄[0;33m▄    ▀▀▀[0;1;31;43m░░▒▒▒▓▓▓▒▒[0;33m██▀ [0;37m  [0;33m█[0;1;31;43m░░░[0;33m█[0;37m [0;1;31m▓▓[0;1;31;43m▒▒░[0;33m██ [0;34m▒▒▒░[0;1;34m░[0;34m▌[0;33m▓[0m
 
 
-[37mIn the end, I decided to keep only the base of his neck... if it weren''t for the[0m
-[37mdeadline (I procrastinated just a weeeeee bit) I probably would have gone on to [0m
-[37mdo his chest, and hell maybe an entire torso, but nahhh :)[0m
+[37m                                                                                [0m
+[37m                                                                                [0m
+[37m                                                          [0m
 
-[37mPS; now I wait for someone to give me the gutter font they promised to make...[0m
-[37mthis person shall remain anonymous ... *cough* [0;5;32;47mCRIMSON SKYE[0m *cough*  :P
+[37m                                                                              [0m
+[37m                                               [0;5;32;47m            [0m            
                                                [1;36m^^^^^^^^^^^^[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1a9ba1cac9ec1f69f32563c386ff7386f835f8290c1d62aff9aa540334323aaf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SKULL.ANS by Judge Dredd (guild); released in guild and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -57,5 +57,4 @@ Write-Host '
 [40m    [0;47m▀[0;1;35;47m███[0;47m▀[0m    [40m▄[0;1;35;47m▄█████[0;47m▀[0m [47m▀[0;1;35;47m██[0;47m▀[0m    [47m▀[0;1;35;47m██[0;47m▀[0m    [47m▀[0;1;35;47m███[0;47m▀[0m    [47m▀[0;1;35;47m██ [0m    ▀[1;35;47m▀█[0;47m▀[0m  [47m▀[0;1;35;47m██[0;47m▀[0m   [47m▀[0;1;35;47m████[0;47m▀[0m
      [47m▀[0;35;47m███▄▄▄▄███████[0;37;47m▀[0m [37;47m▀[0;35;47m███▄[0;37;40m▄▄[0;35;47m▄███[0;37;47m▀[0m    [37;47m [0;35;47m███[0;37;47m▀[0m    [37;47m▀[0;35;47m██[0;37;47m▀[0m    [37;47m▀[0;35;47m██[0;37;47m▀[0m  [37;47m▀[0;35;47m██[0;37;47m▀▀▀▀[0;35;47m█████[0;37;47m▀[0m
       [37;47m▀[0;35;47m█████████▀[0;37;40m▀[0;35;47m▀█[0;37;47m▀[0m  [37;40m▀[0;35;47m▀██████▀[0;37;40m▀[0m     [37;47m▀[0;35;47m███[0;37;47m▀[0m  [37;47m▀[0;37;40m▄[0;37;47m▀[0;35;47m███▄▄▄▄███[0;37;47m▀[0m  [37;47m▀[0;35;47m██████████[0;37;47m▀[0m
-       [37;47m [0;35;47m▀▀▀▀▀▀▀ [0m  [37;40m▀[0;35;47m▀[0;37;47m▀[0m    [37;40m▀[0;35;47m▀▀▀▀[0;37;40m▀[0m     [37;40m▄[0;37;47m▀[0;35;47m▀▀▀▀[0;37;47m▀[0;37;40m▄ [0;37;47m▀[0;35;47m▀▀▀▀▀▀▀▀▀▀▀[0;37;40m▀ ▄[0;37;47m▀[0;35;47m▀▀▀▀▀▀▀▀▀▀ [0m
-                                                           [34;40m[D[0;1;34;40mre[0;36md[0;1;36md[0;1;37m/[0;1;36mG[0;36mU[0;1;34mil[0;34mD][0m'
+       [37;47m [0;35;47m▀▀▀▀▀▀▀ [0m  [37;40m▀[0;35;47m▀[0;37;47m▀[0m    [37;40m▀[0;35;47m▀▀▀▀[0;37;40m▀[0m     [37;40m▄[0;37;47m▀[0;35;47m▀▀▀▀[0;37;47m▀[0;37;40m▄ [0;37;47m▀[0;35;47m▀▀▀▀▀▀▀▀▀▀▀[0;37;40m▀ ▄[0;37;47m▀[0;35;47m▀▀▀▀▀▀▀▀▀▀ [0m'

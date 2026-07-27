@@ -5,7 +5,7 @@
 # Source SHA-256: 1dce96cdd0e322590cee1b7fcf9c9749e85de186b1c53f15515f23c3bdc309a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S-D-TRAN.ANS by Slum Dweller (ansis-s); released in ansis-s and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 39-74
 # Columns: 1-80
 
@@ -39,10 +39,10 @@ Write-Host '
 [1;30;40m   █[0;1;34;44m▓[0;1;30;44m▄[0m
 [1;30;40m   █▀[0m
 
-[1;30;40m    æ [0;1;34;40mRAZOR 1911 Affiliate Site [0;1;30;40mæ [0;1;34;40mGrim Eastern Canadian HQ [0;1;30;40mæ [0;1;34;40mITD Dist Site [0;1;30;40mæ[0m
-[1;30;40m   æ [0;1;34;40mUNREAL Emag Dist Site [0;1;30;40mæ [0;1;34;40mDiamond Dist Site [0;1;30;40mæ [0;1;34;40m600 Megs [0;1;30;40mæ [0;1;34;40mRunnin[0;1;30;40m'' [0;1;34;40mCelerity [0;1;30;40mæ[0m
-      [1;30;40mæ [0;1;34;40mStaff[0;1;30;40m: [0;1;34;40mQuick Silver[0;1;30;40m, [0;1;34;40mThe Hawk[0;1;30;40m, [0;1;34;40mThe Unforgiven[0;1;30;40m, [0;1;34;40mSpectral Illusion [0;1;30;40mæ[0m
+[1;30;40m      [0;1;34;40m                          [0;1;30;40m  [0;1;34;40m                         [0;1;30;40m  [0;1;34;40m              [0;1;30;40m [0m
+[1;30;40m     [0;1;34;40m                      [0;1;30;40m  [0;1;34;40m                  [0;1;30;40m  [0;1;34;40m         [0;1;30;40m  [0;1;34;40m      [0;1;30;40m  [0;1;34;40m         [0;1;30;40m [0m
+      [1;30;40m  [0;1;34;40m     [0;1;30;40m  [0;1;34;40m            [0;1;30;40m  [0;1;34;40m        [0;1;30;40m  [0;1;34;40m              [0;1;30;40m  [0;1;34;40m                  [0;1;30;40m [0m
                                [1;30;40mæ [0;1;34;40m416[0;1;30;40m-[0;1;34;40m391[0;1;30;40m-[0;1;34;40m1312 [0;1;30;40mæ[0m
 
-                                                                  [1;34;40mS[0;36ml[0;1;36mum[0;34m-[0;1;34mDw[0;36mel[0;1;36mler[0m
+                                                                  [1;34;40m [0;36m [0;1;36m  [0;34m [0;1;34m  [0;36m  [0;1;36m   [0m
                                                                          [34m[[0;1;32mi[0;36mC[0;1;34mE[0;34m][0m'

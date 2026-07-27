@@ -5,7 +5,7 @@
 # Source SHA-256: 595d31a246f67c88d667c3ea80dbe1f5cfe5ae27856b434977f0712d458fbe1e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STI-UFGM.ANS by Stimpy (Shaolin's Finest); released in sf-pak12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tha Unforgiven Matrix
 # SAUCE Author: Stimpy
 # SAUCE Group: Shaolin's Finest
@@ -39,18 +39,8 @@ Write-Host '
 [1;31;41m▓▓▒▒░[0;31m▄▄▄▄[0m                 [31m▄▄▄▄▄▄█████[0;1;31;41m░▒▓▓[0;1;31;40m█▄▄ [0;1;30;40m█[0;1;30;42m▓▒░[0;32m██████[0;32;42m [0;32;40m█▄▄▄▄▄[0;1;30;42m░[0;32m███████████▀ [0;1;31m▄█[0;1;31;41m▓[0m
 [1;31;40m██[0;1;31;41m▓▓▒▒░░[0;31m██[0;1;31;41m░[0;31m██▄▄▄▄▄▄█████████████████[0;1;31;41m░[0;31m█[0;1;31;41m░▒▒▓▓[0;1;31;40m█▄ [0;1;30;40m▀█[0;1;30;42m▓▒░[0;32m██[0;1;30;42m░[0;32m██████████████[0;1;30;42m░[0;32m███▀ [0;1;31m▄█[0;1;31;41m▓▒░[0m
 
-[1;30;40m::: [0;1;36;40mc[0;36mut [0;1;36mh[0;36mere[0;1;30m![0m
+[1;30;40m    [0;1;36;40m [0;36m   [0;1;36m [0;36m   [0;1;30m [0m
 
-this is a login matrix i did for my non-existant board... for christs sake,
+                                                                           
 
-                             [1;31mR [0;31mE Q U E S T [0;1;30m! # @ %[0m
-
-i need something to do, i will do a logo/matrix for free, as soon as possible,
-pictures take longer, but they eventuate... i can''t be that bad... can i?
-
-anyway, here it is, enjoy my art (if you can) and follow above ^^^
-
-greets : wooga, isotone, odb, rippa, kaotic, berzerk, image, warp
-groups : shao, synth, av, org, poly, inf, dome and to all the other vic groups!
-
-                    support our scene - download +613 art![0m'
+                             [1;31mR [0;31mE Q U E S T [0;1;30m! # @ %[0m'

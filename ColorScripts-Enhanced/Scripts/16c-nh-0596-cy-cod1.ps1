@@ -5,7 +5,7 @@
 # Source SHA-256: 07e1433fd5b6a108471d01d4d2a7daadfa4153d156787a9430e092aa0bc6f718
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CY-COD1.ANS by Crayon (nh-0596); released in nh-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Code Lit. #1
 # SAUCE Author: Crayon
 # SAUCE Date: 19960315
@@ -26,6 +26,4 @@ Write-Host '
       [32;40m▐█[0;1;37;42m░░[0;32m▌[0;1;32m  [0;32m▀▀▀▀[0;37m [0;32m▐[0;1;32;42m [0;1;37;42m░░[0;32m▌[0;37m [0;32m▐[0;1;32;42m   [0;32m▌ ▐[0;1;32;42m [0;1;37;42m░░[0;32m▌[0;37m [0;32m▐[0;1;32;42m   [0;32m▌[0;37m [0;1;32;42m [0;1;37;42m ░░[0m [1;32;42m  [0;1;37;42m░░[0m  [32m▐█[0;1;32;42m  [0;32m▄[0;37m [0;32m▐█[0;1;37;42m░░[0;32m▀▀▀▀▀▀▀▀▀[0m
         [32m▀▀█▀▀▀▀▀[0;1;32m [0m   [32m▀▀▀▀▀▀▀[0m     [32m▀▀▀▀▀▀▀[0m   [32m▀▀▀▀[0;37m [0;32m▀▀▀▀[0m   [32m▀▀[0;1;32;42m  [0;32m▄▄[0;1;32m [0;32m▀▀▀▀▀█▀▀[0m
           [32m█▄▄[0m                                             [1;32m   [0m  [32m ▄▄█[0m
-            [32m▀▀▀▀▀▀[0m    [32mCodine literature, memberlist?[0m      [32m▀▀▀▀▀▀▀[0m
-[32m [0m
-[32m The first one, luke, i kinda like it. [0m'
+            [32m▀▀▀▀▀▀[0m    [32mCodine literature, memberlist?[0m      [32m▀▀▀▀▀▀▀[0m'

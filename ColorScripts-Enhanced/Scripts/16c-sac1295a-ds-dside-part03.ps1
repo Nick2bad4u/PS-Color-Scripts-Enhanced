@@ -5,7 +5,7 @@
 # Source SHA-256: 655dd8f70594beef3d8e2ee1365938119b00d3277a9f86f7b7869839af66ef8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-DSIDE.ANS by dark star; released in sac1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Darkside Login
 # SAUCE Author: Dark Star
 # SAUCE Group: SAC
@@ -45,5 +45,4 @@ Write-Host '
      [1;30m▄[0m   [1;30m▄▄█[0m [1;30m██████▀▄▄▄▀█[0m  [1;30mφ[0m [1mOUTLAWS[0;1;30m [0;1;37m HEADQUARTER[0m [1;30mφ[0m  [1;30m▄▀▄▄▄▀█████[0m [1;30m██▄▄[0m   [1;30m▄[0m
       [1;30m▀ ▀████▀█▀▄█▀▄██▄▄ ▄[0m     [1;30mφ[0m [1mSAC[0;1;30m [0;1;37mDISTSITE[0;1;30m φ   ▄▀▄[0m [1;30m▄▄██▄▀█▄▀██▀███▀ ▀[0m
     [1;30m▄▀▀█[0m [1;30m▄[0m [1;30m████▄▀▄█▄▄▄▀▄▀▀[0m [1;30m▀▀[0m                         [1;30m▄▀▄▄▄█▄▀▄████[0m [1;30m▄[0m [1;30m█▀▀▄[0m
-  [1;30m▄▄▄▄▄▀▄███▄▄▄█▄▄█▄█▄[0m  [1;30mφ[0m [1m/┤NSi BY D/┤RK ST/┤R<S/┤C>[0m [1;30mφ[0m  [1;30m▄█▄█▄▄█▄▄▄███▄▀▄▄▄▄▄[0m
-                           [1;30m                            [0m'
+  [1;30m▄▄▄▄▄▀▄███▄▄▄█▄▄█▄█▄[0m  [1;30mφ[0m [1m/┤NSi BY D/┤RK ST/┤R<S/┤C>[0m [1;30mφ[0m  [1;30m▄█▄█▄▄█▄▄▄███▄▀▄▄▄▄▄[0m'

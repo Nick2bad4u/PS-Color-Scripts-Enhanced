@@ -5,7 +5,7 @@
 # Source SHA-256: b416c087ce3f53d961f75c37886dff3bf92bfc47bdd54161d30d5b87436f5676
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRL-PSY1.ANS by krl (polyester); released in pst-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: psychotic revolution
 # SAUCE Author: krl
 # SAUCE Group: polyester
@@ -34,4 +34,4 @@ Write-Host '
 [32m ▓[0;1;32;42m▒░░[0;32m▌[0m         [1;32m  [0m                                    [1;32m▐██████  [0m▐[1;47m░[0m▀▄  █▄  ▀▄[1;47m░░[0m▀
 [32m ▐[0;30;42m[k][0;32;40m███[0;34;42m░[0;34;40m░[0;37;40m  [0;1;32;40m                  [0m   [1;32m [0m                   [1;32;45m▓[0;1;32;40m█████▌[0m
 [32m ▐███▀▀▀▀[0m
-[1;30m                [0m              ▐[30;47mkrl▐[0;1;37;40m([0mblue moon productions[1m)[0;30;47m▌dont kick dead cats[0m'
+[1;30m                [0m              ▐[30;47m   ▐[0;1;37;40m [0m                     [1m [0;30;47m▌                   [0m'

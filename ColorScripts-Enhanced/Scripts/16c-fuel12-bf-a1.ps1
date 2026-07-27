@@ -5,7 +5,7 @@
 # Source SHA-256: 97d15665dcd752974b2082ecd449b3baf82825949ad3eafa73830aa46327df14
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-!A1.ANS by Bobafett (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Abraxas
 # SAUCE Author: Bobafett
 # SAUCE Group: Fuel Productions
@@ -39,7 +39,7 @@ Write-Host '
 [1;32;46m [0;1;31;46m░░░░[0;36m▄▄[0;37m  [0;1;31;46m░░[0;36m▀▀[0;1;31m▐[0;1;31;46m▒▒▒▒▒[0m [1;31m▄[0;1;31;46m▓▒▒░░░[0m▀[1;31;46m▓▓[0;1;31;40m▓▒░░[0m     [1;32;46m [0;1;31;46m░░░░[0;36m▄▄[0;37m  [0;1;31;46m░░[0;36m▀▀[0;37m [0;1;31m■▄[0;1;31;46m██[0;1;31;40m▌[0m     [1;31m▐[0;1;31;46m██[0;1;31;40m▄[0m [1;31m█[0m    [1;31m▐[0;1;31;46m▓▓▓[0;1;31;40m▀▀[0m
 [1;31;46m░[0;36m▀▀[0;37m  [0m       [1;31m■▀▀▐[0;1;31;46m▓[0;1;31;40m▀▀▀[0m    [1;31m▀▀[0;1;31;46m▒[0m   [1;31m▀░[0m     [1;31m░░[0;1;31;46m░[0;36m▀▀[0;37m  [0m          [37m [0;1;31m▀[0;1;31;46m█[0;1;31;40m░░[0m    [1;31m▀▀[0m [1;31m▄▄█[0m   [1;31m■▀[0m
 (cut)---------------------------------------------------------------------------
-ok mHz, here is a little matrix or something for !abraxas/diabolic.  I wanted to
-do it, "!abraxas," but you know ansi, only 80 columns and I don''t want to mess
-with it anymore.
+                                                                                
+                                                                              
+                
 (cut)---------------------------------------------------------------------------[0m'

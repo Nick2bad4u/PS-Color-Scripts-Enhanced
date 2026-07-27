@@ -5,7 +5,7 @@
 # Source SHA-256: c03322feeb27132c930b31addf52505ea7cf6390a9b4a63b838e3ff376414130
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-FC12.ANS by Mass Murderer (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Free Coke
 # SAUCE Author: Mass Murderer
 # SAUCE Group: AWE Lettering
@@ -55,8 +55,4 @@ Write-Host '
 [30;41m░[0;31;40m▓█▓ [0;1;31;40m░▒▓▒░░  [0;31m██▓ [0;1;31m█[0;1;31;47m▓▓[0;1;31;40m█▄▀█▀███▀ [0;31m░▓▌▌[0;1;31m▐████▌██[0;1;31;43m▓▓▓[0m [31m▄ [0;1;31m▀██[0;1;31;43m▓[0;1;31;47m▓[0;1;31;43m▓▓▓[0;1;31;40m█▀▄▐██▄▄▄▄▄▄███[0;1;31;43m▓[0;1;31;40m█  [0;31m█▓█▓█[0m
 [31m░▒▓░  [0;1;31m▀▐▓▓▓▄▄▄▄▄▄████▓ [0;31m▬ [0;1;31m▄▀ ▄▄▄▄▄▄[0;1;31;47m██[0;1;31;40m█▌▀ ▓████ [0;30;41m░[0;31;40m▓▄ [0;1;31;40m▀██▀ ▀ ▐████▄▄█▄  [0;31m▄▄▄▄▄▄█▓▒[0;30;41m░[0;31;40m░▓[0m
 [33;40m░[0;31;40m░[0;30;41m▓[0m     [1;31;40m░ ░[0m             [1;31m■[0m          [1;31m▀[0m          [31m░░[0;30;41m▓[0;37;40m  [0;1;31;40m▐█▀ [0;31m░  [0;1;31m▀█▌▀[0m      [31m░[0;30;41m▓[0;37;40m [0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░ ░[0;30;41m▓[0;37;40m [0;31;40m░[0m
-[31;40m    [0;1;30;40m-  [0mThe Night Angel and Fluor''s [1mFree Coke  [0;1;30m-   [0;1;31m■▀[0m        [1;31m▀■[0m
-       [1;30mAnsi by Mass Murderer / Awe Lettering[0m
-
-
-           [1;30m* Thanks to tna[0m [1;30mfor helping me with the top shaping *[0m'
+[31;40m    [0;1;30;40m   [0m                            [1m           [0;1;30m    [0;1;31m■▀[0m        [1;31m▀■[0m'

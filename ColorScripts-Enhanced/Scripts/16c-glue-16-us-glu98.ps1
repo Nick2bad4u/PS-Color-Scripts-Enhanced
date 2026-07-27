@@ -5,7 +5,7 @@
 # Source SHA-256: 72f13af3405fc728774bb0234aeb9f23d84c5c512d567d4d217ca1dbc49482c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GLU98.ANS by Retribution + Catch 22 (glue d00d); released in glue-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: glue in da ninEIGHT
 # SAUCE Author: retribution&catch22
 # SAUCE Group: glue d00d
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30ma retribution & catch22 original.[0m
+[1;30m                                 [0m
 
 [1;33m▐[0;1;33;43m▓[0;33m▌[0;1;33m █[0;1;33;43m▓[0;33m▀[0;1;33m ▄[0;1;33;43m▒░[0;33m▌[0;1;36m▐[0;1;37m██[0;1;36;46m██[0;36m▌▄[0;1;36;46m▓█▄[0;36m▄ [0;1;36m░▓[0;1;36;46m█▄[0;36m▄█[0;1;36;46m▄█████▓[0;36m▄▌▄[0;1;36m▄██[0;1;36;46m█▄[0;1;36;40m▄[0;36m▄[0;1;36m [0;36m▄[0;1;36m▄[0;1;36;46m▄███▄[0;1;36;40m▄░▓[0;1;36;46m█████[0;36m▄ ▄[0;1;36;46m▄████[0;36m▌[0;1;36m░▒▓[0;1;36;46m█[0;1;37;40m█▄[0;36m▄ [0m
 [1;33m▄█[0;33m▄▄[0;1;33m  ▄█[0;1;33;43m▀[0;33m▀▀[0;36m▄[0;1;36;46m▒███▓[0;36m▌█[0;1;36;46m▒▓▓[0;36m█▐▓█[0;1;36;46m▓▓▓█████▓▓▒▒░▒▒▓▓▓▓▓░[0;36m▐[0;1;36;46m███▓▓▓▓▒[0;36m▐[0;1;36;46m▒▓▓[0;36m▀▀[0;1;34m▄▄▄[0;36m▀▀[0;1;36;46m▒▓▓▓[0;36m▌█[0;1;36m▓[0;1;36;46m▓██▓▓[0;36m▌[0m
@@ -54,5 +54,4 @@ Write-Host '
 [1;30;47m        ░ ░░[0m [32m██▌[0;36m▐[0;1;36;46m░[0;1;36;40m██████[0;1;36;46m▒ [0m [36m▄[0;37m  [0;36m▀▀[0;37m    [0;36m▌[0;37m    [0;36m▀[0;37m [0;1;36m▄[0m [36m▐[0;37m   [0;1;36m█▐██[0;36m█▀▀▀[0;37m [0;36m▌▐[0;1;36;46m▐[0;1;36;40m██████[0;1;36;46m▓░[0;30;47m█[0;32;40m█████████▓[0m
 [1;30;47m [0;1;36;47m░[0;1;30;47m ░  [0;1;36;47m░[0;1;30;47m      [0m [32m██[0;37m [0;36m█[0;1;36m█████[0;1;36;46m█░ [0m [1;36;46m [0;1;36;40m█[0;1;36;46m▄[0;1;36;40m▄▄[0;36m▄▄[0;37m [0;1;30m98[0m [36m▄[0;1;36m█████[0m   [36m▄[0;1;36m██▄▄▄▄██[0;1;36;46m▄[0;36m█▌[0;1;36;46m ▐[0;1;36;40m██████[0;1;36;46m▓░[0;30;47m█[0;32;40m████████▓▓[0m
 [1;36;47m░▓▓░[0;1;30;47m  [0;1;36;47m▒▒[0;1;30;47m  [0;1;36;47m░░[0;1;30;47m  [0m [32m█[0;37m [0;36m▀[0;1;36m▀[0;1;36;46m▀[0;1;36;40m█[0;1;36;46m▄[0;1;36;40m▄▄[0;36m▄▄[0;37m [0;36m▐[0;1;36;46m░▓[0;1;36;40m█████████████████████[0;1;36;46m▀▀[0;1;36;40m██[0;1;36;46m▀ [0;36m▌[0;37m [0;1;36;46m [0;1;36;40m▄▄▄▄[0;1;36;46m▓░[0;36m▀▀▀[0;30;47m█[0;32;40m██████▓▓▒▒[0m
-                                                                      [32;40m░░░░░░░░░░[0m
-                       [1;30;40mglue 1998 - taking the time to smile.[0m'
+                                                                      [32;40m░░░░░░░░░░[0m'

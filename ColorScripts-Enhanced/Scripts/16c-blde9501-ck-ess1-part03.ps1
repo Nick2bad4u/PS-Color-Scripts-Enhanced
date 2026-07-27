@@ -5,7 +5,7 @@
 # Source SHA-256: 0bd1acdca8e2e64e38502dff250c08bde5428d4a7437608175dab36c9e80cbdb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-ESS1.ANS by Chromatik (Blade Productions); released in blde9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Essence!
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -58,6 +58,6 @@ Write-Host '
   [36m▀[0m    [36m░[0m   [36m▀[0;1;36m▓[0;1;36;46m▀▓  [0;36m█[0;1;36;46m░[0;36m▓[0m        [36m▒ ▄▀[0m  [36m▒[0m    [36m▄[0m   [36m▓[0m     [36m▄[0m   [36m█[0;1;36;46m░[0;36m██████[0m  [36m▓[0m      [36m░[0m   [36m██[0m  [1;30m▒[0m
 [1;30m▄▄▓[0m   [36m▄▄█▓█▄[0;1;36m▒[0;36m▀[0;37m [0;1;36;46m▀▒[0;36m████[0m       [36m░[0m     [36m▒[0m    [36m▀[0m   [36m▓[0m    [36m▀▓▄▄█[0;1;30;46m░[0;36m█[0;1;30;46m░[0;36m████▓[0m  [36m▒[0m           [36m▀▓[0;1;30m ▓[0m
    [36m▄█▓████████▄[0;37m [0;36m▀▀▀██▓▄▀[0m          [36m▒[0m    [36m▀[0m   [36m■[0m      [36m▀▀▀▀▓██▀▀[0m    [36m░[0m
- [36m ▄▓█[0;30;46mchromatik. [0;1;30;40m 100% original![0m [1;30;40mAndy, Chris, TP, DF/DX. ACiD people, thanks for[0m
- [36m▓▀ ▓▀▀▓███████▓[0;1;30m ACiDdraw, but work on that x/y flip routine! =)[0m [1;30mblade prod. 94[0m
+ [36m ▄▓█[0;30;46m           [0;1;30;40m               [0m [1;30;40m                                               [0m
+ [36m▓▀ ▓▀▀▓███████▓[0;1;30m                                                [0m [1;30m              [0m
 [36m▀[0m  [37m    [0m   [36m▓▀█▓▀[0m'

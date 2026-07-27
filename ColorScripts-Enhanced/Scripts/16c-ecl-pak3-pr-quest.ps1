@@ -5,7 +5,7 @@
 # Source SHA-256: 64bf8440bead7525e08664fd51d00bcd002997eef21b3a65180897d8a4323fc7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR_QUEST.ANS by president (ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: questionairie
 # SAUCE Author: president
 # SAUCE Group: ecolove
@@ -29,5 +29,4 @@ Write-Host '
      [1;31m    [0;1;33m [0;33m▀[0;1;33m▀[0;1;33;43m▓▓[0;1;33;40m██▀▀[0;33m▐[0;1;33;43m▓▓▓[0;1;33;40m▌[0;33m▐[0;1;33;43m▒▒▒▒[0;33m▄▄[0;1;33;43m▒▒▒▓█[0;1;33;40m▀[0;33m▐[0;1;33;43m▒▓█[0;1;33;40m████▀▀▀▀ [0;33m▐[0;1;33;43m▒▒▒▒[0;1;33;40m   [0;33m▄[0;1;33;43m▒▒▒[0;33m▌[0;1;33m [0;1;33;43m░▒▒▒[0;1;33;40m [0;1;30;40m  [0;1;33;40m [0;33m▐[0;1;33;43m▒▒▒[0;33m▌[0;1;30m  [0;1;33m [0m
 [1;32m [0m    [1;33m    [0;1;30m        [0;1;33m [0;1;33;43m░▒▒▒▒[0;33m▄[0;1;33m [0;33m▀▀[0;1;33;43m░░░░[0;33m▀▀[0;1;33m [0;1;30m  [0;1;33m [0;1;33;43m░▒▒[0;33m▄[0;1;33m   [0;33m▄[0;1;33;43m▒▒▒▓[0;1;33;40m [0;33m▀▀[0;1;33;43m░░░░░░░[0;33m▀▀[0;1;33m  [0;33m▀[0;1;33;43m░░░░[0;33m▄▄[0;1;33;43m░░░░[0;33m▀[0;1;33m [0;1;30m  [0;1;33m [0m
 [1;32m [0m       [1;30m         [0;33m▐[0;1;33;43m░[0;33m▀▀▀[0;1;33m            [0;1;30m   [0;1;33m [0;33m▀[0;1;33;43m░░░░░░░[0;33m▀▀[0;1;33m [0;1;30m   [0;1;33m  [0;33m▀▀▀[0;1;33m        [0;33m▀▀▀▀▀▀[0;1;33m [0;1;30m      [0m
-         [1;30m              [0;1;33m            [0;1;30m     [0;1;33m [0;33m▀▀▀[0;1;33m [0;1;30m        [0;1;33m          [0;33m   ░▒▓[0;1;33m [0;33miona[0;1;33;43mi[0;33mrie[0;1;30m [0;33m░[0m
-          [1;30m     [0m                     [1;30m               [0m'
+         [1;30m              [0;1;33m            [0;1;30m     [0;1;33m [0;33m▀▀▀[0;1;33m [0;1;30m        [0;1;33m          [0;33m   ░▒▓[0;1;33m [0;33miona[0;1;33;43mi[0;33mrie[0;1;30m [0;33m░[0m'

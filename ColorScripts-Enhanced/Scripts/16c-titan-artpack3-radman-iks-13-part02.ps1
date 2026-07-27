@@ -5,7 +5,7 @@
 # Source SHA-256: bfbf969ac10e3038331861ea7d7052eb60853c032dd11454006fd9bfee328471
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: radman&iks-13.ans by Irokos + Rad Man (ACiD Productions); released in titan-artpack3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: thirteen (remix)
 # SAUCE Author: RaD Man + irokos
 # SAUCE Group: ACiD Productions
@@ -39,5 +39,4 @@ Write-Host '
                  [1;30m▒▒ttn[0m      [1;30m▀▀▀▀▀ [0;1;37m▀▀▀▀[0;1;30m▀[0m     [1;30m▀[0m           [1;30m▄[0m▄[1;30m▄▀[0m▀[1;30m▀▀   ░░[0m
  [1mthirteen[0m       [1;30m   [0m▀[1;30;47m▓▓[0m                           ▄▄[1;30m▄▄[0m▀[1;30m▀▀[0m       [1;30m░░[0m
  [1;35mradman & irokos[0m       ▀▀▀ ▄▄▄[1;30;47m▀▀▀▀▀▀▀▀▀▀▀▄▄▄[0m▀▀▀[1;30m▀▀▀[0m        [1;30m░░[0m
-[35m december mmxiii[0;37m [0m                                  [1;30m░░[0m
-[1;30m shoutout to ANT[0m'
+[35m                [0;37m [0m                                  [1;30m░░[0m'

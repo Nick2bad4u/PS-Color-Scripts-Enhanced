@@ -5,7 +5,7 @@
 # Source SHA-256: 47be07acb5009b0393ae2e9d839e9f86b0f54ec7bf9a2ae3b211a70944a252d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TGH-NECR.ICE by The Green Hornet (iCE); released in ice9510a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Necropolis
 # SAUCE Author: The Green Hornet
 # SAUCE Group: iCE
@@ -57,8 +57,4 @@ Write-Host '
         [36;40m██[0;1;36;46m▒[0m [31m░[0m    [35m▀▓[0;1;35;45m░[0;35m▄▄[0;1;30m▀▄▄[0m▀[36;47m░░[0;37;40m▄[0m          [35;40m░[0;1;30;40m▄▀[0m▄[1;47m░▒[0m▄ [35m▀[0;37m▄▄▀[0m [1;30m▐▌[0m▐[1;47m░[0m▌▄[1;30m▀▄[0m▀▄▄ ▀▀ [35m▓▀[0m   [1;36;46m▒[0;36;47m▒░[0m
         [1;36;46m░▒▓[0m [31m░[0m     [35m░[0m  [35m▀▓[0m [1;30m ▀▄▄[0m▀█▄     ▄   [1;30m▀▀▄▄▄[0m▀▀▀[36;47m░[0;37;40m▌ [0;35;40m▒[0m [1;30;40m▀[0m▄▀▀   [1;30m▀▄▄▀ [0m  [35m░[0m  [36m  [0;1;36;46m▓░[0;36m█[0m
         [36m▀█[0;1;36;46m░[0;36m▄▄[0m         [35m░[0m    [1;30m ▀ [0m ▀█▄█▀       [1;30m  ▀▀▀[0m   [35m░[0;37m [0;1;30m▀[0m                [36m▄▄[0;1;36;46m░[0;36m█▀[0m
-           [36m▀▀▀▀▀ ▄▄▄[0m  [35m░[0m  [36m    [0m  [1;30m▀▄[0m▀                          [36m   ▄▄▄ ▀▀▀▀▀[0m
-
-[37m       [0;1;30mRessurected from the dead.[0m [1;30m8 nodes / 28.8. New numbers. Traders only.[0m
-
-               The Green Hornet / grhornet@sizone.pci.on.ca  - [1mi[0;1;36mC[0;36mE[0m'
+           [36m▀▀▀▀▀ ▄▄▄[0m  [35m░[0m  [36m    [0m  [1;30m▀▄[0m▀                          [36m   ▄▄▄ ▀▀▀▀▀[0m'

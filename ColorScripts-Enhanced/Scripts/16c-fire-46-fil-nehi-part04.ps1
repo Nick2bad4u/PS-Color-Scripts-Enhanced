@@ -5,7 +5,7 @@
 # Source SHA-256: d21c67145a551926bc26777b4052487756fed3245085114caf655d57f3f16014
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-NEHI.ANS by filth (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: CORRUPTiON OF THE FLAME
 # SAUCE Author: filth
 # SAUCE Group: FiRE
@@ -54,7 +54,4 @@ Write-Host '
 [37m    [0;1;30m▀▄▀▀▄▀    ▀▄▄▀  ▄▀[0m     [1;30m▄▀[0m         [1;30m▄▀[0m       [1;30m▄▀    ▀  █[0m       [1;30m▄▀[0m      [1;30m▄▀[0m
    [1;30m▀▀    ▀▀[0m        [1;30m▀[0m      [1;30m▀[0m          [1;30m▀[0m        [1;30m▀[0m         [1;30m▀[0m      [1;30m▀[0m       [1;30m▀[0m
 
-[1;30m  [0;1;37m¥[0;1;35m ¥[0;35m ¥[0;1;30m ¥ H 0 N 0   N 0   G U R A F i K K U [0;35m: [0;1;30mF U K E T S U [0;35m·[0;1;30m 2 O 2 6 ¥ [0;35m¥ [0;1;35m¥ [0;1;37m¥[0m
-
-
-                        [30mttps://www.youtube.com/watch?v=AniVfAS1BZ4[0m'
+[1;30m  [0;1;37m¥[0;1;35m ¥[0;35m ¥[0;1;30m ¥ H 0 N 0   N 0   G U R A F i K K U [0;35m: [0;1;30mF U K E T S U [0;35m·[0;1;30m 2 O 2 6 ¥ [0;35m¥ [0;1;35m¥ [0;1;37m¥[0m'

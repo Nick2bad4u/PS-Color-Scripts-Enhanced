@@ -5,7 +5,7 @@
 # Source SHA-256: 7416aa35ad648ee01c5cb8f8cb53938bb8540779d7ac5ec15dbdbd772ef99575
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IF-HLPB2.ANS by infernal flames (finish of godz); released in fog01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: horny little piggy bank
 # SAUCE Author: infernal flames
 # SAUCE Group: finish of godz
@@ -57,8 +57,4 @@ Write-Host '
 [1;37m           [0m      [1;30;47m▓[0;1;30;40m░▒▓█▓▓█▒█▓▓▓▒░[0;1;30;47m▓[0m  [1;30;40m   [0m               [31m░░▐[0m     [31m░[0m   [31m▀[0m
 [1;37m            [0m     [1;30m [0;1;30;47m▓[0;1;30;40m░▓▓▓█▓▓█▓▓▒░[0;1;30;47m▓[0m [1;37;40m           [0m         [31m▌[0m [31m░[0m
 [1;37m            [0m     [1;30;47m▓[0;1;30;40m░▒▓▓▓█▒█▓▓▒░[0;1;30;47m▓[0m                      [1;31;40m [0m [31m [0m
-[1;37m                [0;1;30m░▒▓▓▓▓█▒█▓▓▄▄[0;1;30;47m▄[0m [31mHorny Little Piggy Bank[0m [31m- [0;1;31mFOG[0;31m [0;1;33mrussian [0;31mhome board[0m
-                                               [31m [0m
-
-
- [31m        [0m                                        [31mFinish Of Godz 28.06.95[0m [31m[FOG][0;37m [0m'
+[1;37m                [0;1;30m░▒▓▓▓▓█▒█▓▓▄▄[0;1;30;47m▄[0m [31mHorny Little Piggy Bank[0m [31m- [0;1;31mFOG[0;31m [0;1;33mrussian [0;31mhome board[0m'

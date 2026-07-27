@@ -5,7 +5,7 @@
 # Source SHA-256: 4ed336ac7cf0824c6639f5f336b6956d83c2980d7876f949c06322f858e03b60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-pigeon.ans by Necrofiliac + The Knight + Propane (FUEL); released in fuel25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fuel the pigeon
 # SAUCE Author: Necro Pro TK
 # SAUCE Group: FUEL
@@ -16,10 +16,10 @@
 # Columns: 1-80
 
 Write-Host '
-[37;40m   [0;1;37;40m This white pigeon is called Fuel.[0m It is my best friend and i cherish it.
+[37;40m   [0;1;37;40m                                  [0m                                       
 
-    For[1m Fuel the white pigeon[0m is a sign of[1m peace [0mand[1m dialogue[0m, [1mtransparency[0m
-    and everlasting[1m love[0m. **
+       [1m                      [0m             [1m       [0m   [1m         [0m  [1m            [0m
+                   [1m     [0m    
 
 
                                     [34m  ▄▄▄▄▄▄▄[0;1;34m [0m                       ▄▄
@@ -53,9 +53,4 @@ Write-Host '
                                               [1m  [0m            ▓[1;47m▒█░[0m░▒[1m█[0;1;47m░[0;1;40m░█[0;1;47m░▀[0m░ ▀[1;30m▓▄[0m
                                               [1m  [0m             ▐[1m██[0m█░[1;47m▐[0;1;40m█[0;1;47m▀[0;1;40m [0m▓▀[1;30m▄[0m
                                               [1m  [0m               [1;47m▀[0m▓ ░░▀[1;30m▄[0m
-                                              [1m  [0m                [1;30m▀■[0m
-
-
-
-   [1;30m** This doesn''t count for countries that have natural resources of oil[0m
- [1m [0m   [1;30m or gas[0m [1;30mcos we bomb the fuck out of ya![0m'
+                                              [1m  [0m                [1;30m▀■[0m'

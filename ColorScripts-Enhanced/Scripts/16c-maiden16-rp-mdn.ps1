@@ -5,7 +5,7 @@
 # Source SHA-256: 3045b39953819087edea7d902d4476b9f3a5b67461baf84fbaf8b638b6239bd4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RP-MDN.ANS by rippa (polyester); released in maiden16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: maiden brazil guest logo
 # SAUCE Author: rippa
 # SAUCE Group: polyester
@@ -27,12 +27,4 @@ Write-Host '
 [31m  [0;36m [0;1;36m▀[0;36m▀▀  ▄  [0;36;42m░░[0;32;40m█▀███▄▄▄  ██[0;1;32;42m░[0;32m [0;1;32;42m░[0;1;32;40m▌▀ ▀▀▀▀▀█▄▄█[0;1;32;42m▓░[0;32m ▀▀▀▀▀█▄▄█[0;30;42m▀[0;32;40m█ ▀▀▀[0;36;40m [0;1;31;40m▀▀[0;31m▀[0;1;30m [0;1;30;46m▒▓[0;1;30;40m█[0;36m  [0;1;31m▀▌[0;31m▀▀     [0m
 [31m  [0;36m    [0m     [32m▀▀▀      ▀▀▀[0;30;42m░░░[0;32;40m  [0;1;32;40m▀■ ▄  [0m     [1;32;40m▀▀▀[0;1;30;40m [0;32m   [0m     [32m▀▐▀[0;1;30m [0;32m [0;36m  [0m     [1;30m▀▌▀[0m   [31m▀[0m
 [37m [0;1;30m [0m                               [32m  [0m       [32m  ▀  ▄  ▄ ▀[0m        [1;30m▐[0;36m [0;1;30m▌[0;1;30;41m█▓░ [0;30;41mmaiden[0;31;40m█[0;35;41m [0;31;40m▐▌▐[0m
-[31;40m [0m                                          [32;40m      [0m               [1;30;40m ░ [0m
-                                                                 [1;30m [0m
-[32mthis one goes to my brazilian pal, rorshack and his maiden brazil.[0m
-[32mfor the world cup 98 maiden pack! croatia will win! :). i''m from australia[0m
-[32mand i run polyester and i''d like to say hello to everyone in[0;1;30m..[0m
-
-[1;32mmaiden[0;1;30m//[0;1;32mpolyester[0;1;30m//[0;1;32mcia[0;1;30m//[0;1;32mapocalypticvisions[0;1;30m//[0;1;32mavenge[0;1;30metc..[0m
-
-[32mrippa_@hotmail.com. peace out.[0m'
+[31;40m [0m                                          [32;40m      [0m               [1;30;40m ░ [0m'

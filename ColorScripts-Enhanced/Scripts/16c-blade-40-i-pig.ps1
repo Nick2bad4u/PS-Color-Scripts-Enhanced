@@ -5,7 +5,7 @@
 # Source SHA-256: 5b830f2e9bfc9400cd1606b71b22388e6deb4a9889fdf29f6abf62d27a5da1bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: I!-PIG.ANS by Internal Stalker (blade productions 97); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pig
 # SAUCE Author: Internal Stalker
 # SAUCE Group: blade productions 97
@@ -35,5 +35,4 @@ Write-Host '
    [31m█[0;1;31;41m░[0;31m▀[0;37m [0;1;33;41m▓[0;1;37;40m██▌[0m    [31m▐[0;1;33;41m░[0;31m█[0;36;41m░[0;31;46m▓▓▓[0;31;40m█▌▀▀██▀[0;37;40m [0;36;40m▌[0;1;36;46m▐████[0;36m█[0m   [1;36;46m █████ [0m [31m▐▀▀▀▀[0;1;35;41m░ [0;31m█▀[0;37m [0;36m▄[0;1;36;46m▐██▌[0;36m▌▄[0;37m  [0;31m▄▄▄[0;1;31m▄▄[0;1;31;41m▄[0;31m▀▀▀[0m
    [31m▀[0;37m [0;31m▄█[0;1;33;41m░▓▓▓[0m  [31m▄▄[0;1;33;41m▄▓▓░[0;31m█[0;1;33;41m░[0;31m█▀[0m       [36m▐▀▀▀▀▀▀▀▀[0;37m [0;1;36;46m [0;1;37;46m████▓▓░░[0m  [1;46m░[0m   [36m▄[0;1;36m▄[0;1;36;46m▄█████▄[0;36m▄[0;37m  [0;31m▄▄▄▄[0;1;31m▀▀▀[0;31m▀▀[0m
    [31m▀▀▀▀▀[0;1;33;41m░░[0m  [31m▀▀▀▀▀▀▀▀[0m                    [1;36;46m [0;1;37;46m▀▀▀██[0;1;36;46m [0;36m██▄▄▄▄█[0;1;36;46m▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▄▄[0;37m  [0;31m▀▀▀▀▀▀[0m
-                                           [36m▀▀▀▀[0m
-        [37ma group that never was[0m'
+                                           [36m▀▀▀▀[0m'

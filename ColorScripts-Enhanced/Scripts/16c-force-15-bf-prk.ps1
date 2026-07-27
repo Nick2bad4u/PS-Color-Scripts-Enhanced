@@ -5,7 +5,7 @@
 # Source SHA-256: d62240e9efb758448b00022442b91552529b153ed176b53cfe51d9be2368da99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-PRK.ANS by Black Fire (f0RCE); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: anscii 4 P.R.i.C.K HPA Mag
 # SAUCE Author: Black Fire
 # SAUCE Group: f0RCE
@@ -23,10 +23,6 @@ Write-Host '
      [1;35;45m$[0;35m$[0;1;36m$[0m [34m$[0;1;34;42m$[0;1;34;40m$[0;32m$[0;34m$[0;1;34m$$[0;34m$P''[0;1;36ms[0m [32;44m$[0;32;40m$[0;1;32;40m$[0;32m$[0;1;34m$[0;32m$[0;1;32m$$P[0;32m''[0;1;36;45m$[0m [1;32;42m$[0;32m$[0;32;44m$[0;32;40m$[0;1;32;40m$[0;32m$[0;37m [0;1;32;42m$[0;1;34;40m$[0;1;32;40m$[0;1;34;40m$[0;1;32;40m$[0;32m$,[0;36m²[0;35;46m$[0;1;36;45m$[0m [32m$[0;1;32m$[0;32m$[0;1;34m$[0;32m$$`[0;1;32m$[0;1;34m$[0;1;32mb,[0;1;36m`[0;1;36;46m$[0;1;36;40m$[0;1;35;45m$[0m
      [36m$[0;1;36;45m$[0;36m$[0;37m [0;34m$[0;1;34m$$$[0;34m$[0;1;34m$[0m [1;36;45ms[0;36ms[0;1;36m$$[0m [34m$[0;1;34m$[0;34m$[0;1;34;44m$[0;34m$[0;1;34m$[0;34m`[0;1;34m²[0;1;34;42m$[0;1;34;40mb[0;34m,[0;37m [0;34m$[0;1;34;42m$[0;1;34;40m$[0;34;42m$[0;1;34;40m$[0;34m$[0;37m [0;1;34m`[0;34m$[0;1;34m$[0;1;32m$[0;1;34m$[0;32;44m$[0;34;40m$[0;1;34;40mb,[0;36m²[0;31m [0;1;34m$$[0;1;32m$[0;32;44m$[0;34;40m$[0;1;34;40m$[0m [34m`[0;1;32m$[0;1;34m$[0;1;34;44m$[0m [1;36m$[0;1;35;46m$[0;1;36;46m$[0;1;36;40m [0m
      [1;36m$$[0;1;36;46m$[0m [1;34m$[0;34m$$[0;1;34;44m$[0;1;34;40m$$[0m [1;36m$$[0;36m$[0;1;36;46m$[0m [1;34m$[0;34m$[0;1;34m$$[0;1;34;44m$[0;1;34;40m$[0m  [34m$[0;1;34;44m$[0;34m$[0;37m [0;34m$[0;1;34;44m$[0;34m$[0;1;34m$[0;1;34;44m$[0;1;34;40m$[0m [1;36ms[0;34m`[0;1;34m²$[0;1;34;44m$[0;34m$[0;1;34m$$[0;34m$[0;1;34m$[0m [1;34m$[0;34m$[0;1;34m$[0;34m$[0;1;34m$[0;1;34;44m$[0m  [1;34m$[0;32;44m$[0;34;40m$[0;37;40m [0;36;40m$[0;1;36;40m$$[0m
-     [1;36;46m$[0;1;36;40m$[0;36m$[0;1;36mSs[0;36ms[0;1;36mss[0;36mss[0;1;36;46mS[0;36m$$[0;1;36m$[0;36m$[0;1;36mSs[0;36msss[0;1;36mssSS[0;36ms[0;1;36mssSs[0;36mss[0;1;36msssS[0;36m$[0;1;36;46m$[0;1;36;40mSs[0;36mss[0;1;36mss[0;36ms[0;1;36msSss[0;36msss[0;1;36msSSs[0;36ms[0;1;36ms[0;1;36;46mS$[0;1;36;40m$[0;36m$[0m
-         [1;31mPERf[0;1;31;42mE[0;1;31;40mCt[0m     [1;31m REAL[0;1;31;45mi[0;1;31;40mStS[0m    [1;31m [0;1;31;41mi[0;1;31;40mN[0m     [1;31mC[0;1;31;41mh[0;1;31;40mRONiC[0m    [1;31m  [0;1;31;45mk[0;1;31;40mAOS[0m
---------------------------------------------------------------------------------
-hey there .. uhm , there u go .. =) did an ascii for fun .. id prefer it if u
-used it as something ( newsletter, memberlist etc .. ) but if it doesn''t fit
-anything then just put it in the pack .. =)
-tP!/f0RCE[0m'
+     [1;36;46m [0;1;36;40m [0;36m [0;1;36m  [0;36m [0;1;36m  [0;36m  [0;1;36;46m [0;36m  [0;1;36m [0;36m [0;1;36m  [0;36m   [0;1;36m    [0;36m [0;1;36m    [0;36m  [0;1;36m    [0;36m [0;1;36;46m [0;1;36;40m  [0;36m  [0;1;36m  [0;36m [0;1;36m    [0;36m   [0;1;36m    [0;36m [0;1;36m [0;1;36;46m  [0;1;36;40m [0;36m [0m
+         [1;31m    [0;1;31;42m [0;1;31;40m  [0m     [1;31m     [0;1;31;45m [0;1;31;40m   [0m    [1;31m [0;1;31;41m [0;1;31;40m [0m     [1;31m [0;1;31;41m [0;1;31;40m     [0m    [1;31m  [0;1;31;45m [0;1;31;40m   [0m
+--------------------------------------------------------------------------------[0m'

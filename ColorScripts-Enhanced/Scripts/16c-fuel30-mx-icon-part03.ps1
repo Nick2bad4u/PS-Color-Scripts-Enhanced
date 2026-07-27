@@ -5,7 +5,7 @@
 # Source SHA-256: 31837cd52e416390bab1374f1ecd92b000966084ff0fbb09640ed8a01220cb75
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mx-icon.ans by mx (fuel30); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ANSIcon
 # SAUCE Author: mx
 # SAUCE Date: 20190714
@@ -23,35 +23,35 @@ Write-Host '
   [33m▄▀▀[0;1;30m▀[0;33m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▌ ▀▀▀▀▀▀  ▀▀[0;31m▀[0;1;30m▀   ▀▀[0;31m▀[0;37m [0;31m▀[0;1;31;41m▀[0;31m▀[0;37m [0;31m▀[0;1;30m▀▀[0m   [1;30m▀[0;31m▀[0;1;30m▀▀▀[0m  [1;30m▀▀▀▀▀▀[0m [1;30m▐▀▀▀▀▀▀▀▀▀▀[0;33m▀[0;1;30m▀[0;33m▀▀▄[0m
 [37m [0;1;30m▐[0;33m▌ ▓▒░░░░░░░░░░░ ░░░░░░░ ░░░░░ ░░░▒▒▓ [0;1;31m░ [0;33m▓▒▒░░░ ░░░░░░ ░░░░░░░ ░░░░░░░░░░░▒▓ ▐[0;1;30m▌[0m
   [1;30m▀▄[0;33m ░[0;31m                                                                    [0;33m░ [0;1;30m▄▀[0m
-  [33m▌[0;1;30m▐▌[0;31m  [0;1;30mone of my first[0m  [1;30mansis after decade+ long break from textmode art.[0m  [1;30m▐▌[0;33m▐[0m
-[37m  [0;1;30m■▀[0;33m ░[0;37m [0;1;30myou''re welcome to  and absolutely should interpret this piece just[0m [33m░ [0;1;30m▀■[0m
-  [1;30m▌[0;1;30;43m▓[0;33m░[0;37m  [0;1;30mlike you''d do with some real art :p  drop by #fuel channel on EFnet[0m [33m░[0;1;30;43m▓[0;1;30;40m▐[0m
+  [33m▌[0;1;30m▐▌[0;31m  [0;1;30m               [0m  [1;30m                                                 [0m  [1;30m▐▌[0;33m▐[0m
+[37m  [0;1;30m■▀[0;33m ░[0;37m [0;1;30m                                                                  [0m [33m░ [0;1;30m▀■[0m
+  [1;30m▌[0;1;30;43m▓[0;33m░[0;37m  [0;1;30m                                                                   [0m [33m░[0;1;30;43m▓[0;1;30;40m▐[0m
   [1;30m▌[0;1;30;43m▒[0;33m▒░[0;37m [0;1;30mto share your vision.[0;31m                                              [0;33m░▒[0;1;30;43m▒[0;1;30;40m▐[0m
   [1;30m▌[0;1;30;43m░[0;33m▓▒░░░░░░░░░[0;37m [0;1;30ma few shout-outs just like in the good ole days:[0m [33m░░░░░░░░░▒▓[0;1;30;43m░[0;1;30;40m▐[0m
-  [1;30m▌[0;33m▓▒░[0;37m           [0;1;30mzaner [0;33m÷[0;31m [0;1;30mdMG [0;33m÷[0;1;30m syph [0;33m÷[0;1;30m bOhEmE[0;33m ÷[0;1;30m sjh [0;33m÷[0;1;30m rootstyle[0m            [33m░▒▓[0;1;30m▐[0m
-  [1;30m▌[0;33m▒░[0;37m                    [0;1;30msal-one [0;33m÷[0;1;30m kaze [0;33m÷[0;1;30m irokos [0;33m÷[0;1;30m 2o![0m                     [33m░▒[0;1;30m▐[0m
-  [1;30m▌[0;33m▒[0;37m             [0;1;30mkt [0;33m÷[0;1;30m shaq [0;33m÷[0;1;30m MtD [0;33m÷[0;1;30m infernal flames [0;33m÷[0;1;30m uvex [0;33m÷[0;1;30m ter[0m             [33m▒[0;1;30m▐[0m
-  [1;30m▌[0;33m░[0;37m              [0;1;30mcpN (where art thou, bruh?) [0;33m÷[0;1;30m m0lo [0;33m÷[0;1;30m neoman[0m               [33m░[0;1;30m▐[0m
-  [1;30m▌[0;33m░[0;37m                     [0;1;30mnerv [0;33m÷[0;1;30m idiana [0;33m÷ [0;1;30mkenet [0;33m÷ [0;1;30masphyx[0m                     [33m░[0;1;30m▐[0m
-  [1;30m▌[0;33m░[0;37m                [0;1;30mthe knight [0;33m÷[0;1;30m burps [0;33m÷[0;1;30m mel farr [0;33m÷[0;1;30m pinguino[0m                [33m░[0;1;30m▐[0m
-  [1;30m▌[0;33m░[0;37m                   [0;1;30mnecrofiliac[0;33m ÷[0;1;30m knockturnal [0;33m÷[0;1;30m warpus[0m                   [33m░[0;1;30m▐[0m
-  [1;30m▌[0;33m░[0;37m                 [0;1;30mzeusII [0;33m÷[0;1;30m smooth [0;33m÷[0;1;30m grymmjack[0;33m ÷[0;1;30m cleaner[0m                  [33m░[0;1;30m▐[0m
-  [1;30m▌[0;33m░[0;37m               [0;1;30mAlpha King[0;31m [0;33m÷ [0;1;30mmisfit[0;33m ÷[0;1;30m whazzit [0;33m÷[0;1;30m NuSkooler[0m                [33m░[0;1;30m▐[0m
-  [1;30m▌[0;33m▒[0;37m                [0;1;30mLuciano Ayres (hi enzo!)[0;33m ÷[0;1;30m RaD Man [0;33m÷[0;1;30m tcf[0m                [33m▒[0;1;30m▐[0m
-  [1;30m▌[0;33m▒░[0;37m                  [0;1;30mungenannt [0;33m÷[0;1;30m filth [0;33m÷[0;1;30m mypalGOO [0;33m÷[0;1;30m h7[0m                   [33m░▒[0;1;30m▐[0m
+  [1;30m▌[0;33m▓▒░[0;37m           [0;1;30m      [0;33m [0;31m [0;1;30m    [0;33m [0;1;30m      [0;33m [0;1;30m       [0;33m  [0;1;30m     [0;33m [0;1;30m          [0m            [33m░▒▓[0;1;30m▐[0m
+  [1;30m▌[0;33m▒░[0;37m                    [0;1;30m        [0;33m [0;1;30m      [0;33m [0;1;30m        [0;33m [0;1;30m    [0m                     [33m░▒[0;1;30m▐[0m
+  [1;30m▌[0;33m▒[0;37m             [0;1;30m   [0;33m [0;1;30m      [0;33m [0;1;30m     [0;33m [0;1;30m                 [0;33m [0;1;30m      [0;33m [0;1;30m    [0m             [33m▒[0;1;30m▐[0m
+  [1;30m▌[0;33m░[0;37m              [0;1;30m                            [0;33m [0;1;30m      [0;33m [0;1;30m       [0m               [33m░[0;1;30m▐[0m
+  [1;30m▌[0;33m░[0;37m                     [0;1;30m     [0;33m [0;1;30m        [0;33m  [0;1;30m      [0;33m  [0;1;30m      [0m                     [33m░[0;1;30m▐[0m
+  [1;30m▌[0;33m░[0;37m                [0;1;30m           [0;33m [0;1;30m       [0;33m [0;1;30m          [0;33m [0;1;30m         [0m                [33m░[0;1;30m▐[0m
+  [1;30m▌[0;33m░[0;37m                   [0;1;30m           [0;33m  [0;1;30m             [0;33m [0;1;30m       [0m                   [33m░[0;1;30m▐[0m
+  [1;30m▌[0;33m░[0;37m                 [0;1;30m       [0;33m [0;1;30m        [0;33m [0;1;30m          [0;33m  [0;1;30m        [0m                  [33m░[0;1;30m▐[0m
+  [1;30m▌[0;33m░[0;37m               [0;1;30m          [0;31m [0;33m  [0;1;30m      [0;33m  [0;1;30m         [0;33m [0;1;30m          [0m                [33m░[0;1;30m▐[0m
+  [1;30m▌[0;33m▒[0;37m                [0;1;30m                        [0;33m  [0;1;30m         [0;33m [0;1;30m    [0m                [33m▒[0;1;30m▐[0m
+  [1;30m▌[0;33m▒░[0;37m                  [0;1;30m          [0;33m [0;1;30m       [0;33m [0;1;30m          [0;33m [0;1;30m   [0m                   [33m░▒[0;1;30m▐[0m
   [1;30m▌[0;33m▓▒░[0;37m             [0;1;30m────────────────[0;33m─[0;1;30m─ ─[0;33m┼[0;1;30m─ ─[0;33m─[0;1;30m────────────────              [0;33m░▒▓[0;1;30m▐[0m
   [1;30m▌[0;1;30;43m░[0;33m▓▒░░░░░░░░░[0;37m   [0;33m┼[0;1;30m R.I.P. Dusodril (18.05.1985-21.05.2006) [0;33m┼[0;1;30m    [0;33m░░░░░░░░░▒▓[0;1;30;43m░[0;1;30;40m▐[0m
   [1;30m▌[0;33m▓▒░[0;37m             [0;1;30m───────[0;33m─[0;1;30m  gone but not forgotten[0m  [33m─[0;1;30m──────              [0;33m░▒▓[0;1;30m▐[0m
   [1;30m▌[0;33m▒░[0;37m                                                                      [0;33m░▒[0;1;30m▐[0m
-  [1;30m▌[0;33m▒░░[0;37m [0;1;30mbig respect to the entire FUEL gang, BLOCKTRONICS, TiTAN, iMPURE,[0m  [33m░░▒[0;1;30m▐[0m
-  [1;30m▌[0;33m░░[0;37m  [0;1;30mOGs and veterans of ansi from ACID, CIA, FOCUS, DARK, FIRE, FORCE,[0m  [33m░░[0;1;30m▐[0m
-  [1;30m▌[0;33m░[0;37m             [0;1;30mTWISTED, LEGEND, GLUE, SENSE, ICE, CRO, SAC.....           [0;33m░[0;1;30m▐[0m
+  [1;30m▌[0;33m▒░░[0;37m [0;1;30m                                                                 [0m  [33m░░▒[0;1;30m▐[0m
+  [1;30m▌[0;33m░░[0;37m  [0;1;30m                                                                  [0m  [33m░░[0;1;30m▐[0m
+  [1;30m▌[0;33m░[0;37m             [0;1;30m                                                           [0;33m░[0;1;30m▐[0m
   [1;30m▌[0;33m▒░[0;37m                                                                      [0;33m░▒[0;1;30m▐[0m
-  [1;30m▌[0;33m▒▒░[0;37m [0;1;30mspecial[0m [1;30mthanks[0m [1;30mto[0m [1;30mAndy[0m [1;30mHerbert[0m [1;30mfor[0m [1;30mcreating[0m [1;30mnew[0m [1;30mansi/ascii[0m [1;30meditor[0m  [33m░▒▒[0;1;30m▐[0m
-  [1;30m▌[0;33m▒░[0;37m         [0;1;30mMoebius[0m [1;30mand[0m [1;30mfor putting up with all the feedback!            [0;33m░▒[0;1;30m▐[0m
+  [1;30m▌[0;33m▒▒░[0;37m [0;1;30m       [0m [1;30m      [0m [1;30m  [0m [1;30m    [0m [1;30m       [0m [1;30m   [0m [1;30m        [0m [1;30m   [0m [1;30m          [0m [1;30m      [0m  [33m░▒▒[0;1;30m▐[0m
+  [1;30m▌[0;33m▒░[0;37m         [0;1;30m       [0m [1;30m   [0m [1;30m                                                 [0;33m░▒[0;1;30m▐[0m
   [1;30m▌[0;33m░[0;37m                                                                        [0;33m░[0;1;30m▐[0m
-  [1;30m▌[0;33m▒[0;37m                          [0;1;30mlast[0m [1;30mbut[0m [1;30mnot[0m [1;30mleast,[0m                           [33m▒[0;1;30m▐[0m
-  [1;30m▌[0;33m▒[0;37m         [0;1;30mzeroVision,[0m [1;30mbruh,[0m [1;30mif[0m [1;30myou[0m [1;30msee[0m [1;30mthis[0m [1;30m-[0m [1;30mreveal[0m [1;30myourself[0m [1;30m☺          [0;33m▒[0;1;30m▐[0m
+  [1;30m▌[0;33m▒[0;37m                          [0;1;30m    [0m [1;30m   [0m [1;30m   [0m [1;30m      [0m                           [33m▒[0;1;30m▐[0m
+  [1;30m▌[0;33m▒[0;37m         [0;1;30m           [0m [1;30m     [0m [1;30m  [0m [1;30m   [0m [1;30m   [0m [1;30m    [0m [1;30m [0m [1;30m      [0m [1;30m        [0m [1;30m           [0;33m▒[0;1;30m▐[0m
   [1;30m▌[0;33m▓[0;37m                                                                        [0;33m▓[0;1;30m▐[0m
   [1;30m▌[0;1;30;43m░[0m                                   [33m▐▌[0;37m                                   [0;1;30;43m░[0;1;30;40m▐[0m
   [1;30m▌[0;1;30;43m▒[0;33m░[0;37m                                [0;33m▀▄[0;1;33;43m░░[0;33m▄▀[0;37m                                [0;33m░[0;1;30;43m▒[0;1;30;40m▐[0m

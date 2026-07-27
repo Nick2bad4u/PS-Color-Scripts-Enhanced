@@ -5,14 +5,14 @@
 # Source SHA-256: 07d7f5f8ccc6f40662708c60cf775b4fb45bb5969cf8279548df7453e8012c24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZP-SOD0A.ANS by Zippy (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sod userlist *I am co sysop again!*
 # SAUCE Author: Zippy
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
-     [36m▄[0m                       [1;30mShadows of Darkness[0m                       [36m▄[0m
+     [36m▄[0m                       [1;30m                   [0m                       [36m▄[0m
     [36m▐[0;1;36;46m░[0;36m▌[0m               [1;37m▄▄▄▄▄[0m  [1;30m [0m       [1;30m██[0;1;30;47m▓[0m          [1m▄▄▄▄▄[0m              [36m ▐[0;1;36;46m░[0;36m▌[0m
      [36m█[0m      [1;30;47m▒▓[0;1;30;46m▓[0m [1m█████▀█[0;1;47m▓▒[0;1;30;47m░[0;1;37;40m█[0m [1;30m███▀▀▀[0m [1m▄▄▄▄▄▄▄[0m [1;30m▀▀▀███[0m [1m█[0;1;46m▓[0;1;40m███▀█[0;1;47m▓▒[0;1;30;47m░[0;1;37;40m█[0m [1;30m█[0;1;30;47m▓▒[0m      [36m█[0m
      [36m▐[0m      [1;30;47m▓[0;1;30;40m██[0m [1;47m█▒▓[0;1;46m▄[0;1;40m█[0m [1m██[0;1;47m▓▒[0;1;40m█[0m [1;30m█▀[0m [1m▄████[0m ▄[1;30m▄▄[0m [1m████▄[0m [1;30m▀█[0m [1;47m█▒▓[0;1;46m▄[0;1;40m█[0m [1m██[0;1;47m▓▒[0;1;40m█[0m [1;30m██[0;1;30;47m▓[0m      [36m▌[0m
@@ -25,14 +25,4 @@ Write-Host '
 [36m█ [0;1;36;46m▓[0;36m███[0;1;36m▄[0;1;36;46m▀[0;1;36;40m▄[0;1;36;46m▒▐[0m [1;30m███[0m [1;36;46m▒░[0;1;37;46m ■ [0m [1;46m [0;1;33;46m░[0;1;37;46m▀ [0;1;36;46m░[0m [1;30m█▄[0;36m [0;1;37m▀████[0m [1m▀▀[0m▀ [1;47m▓[0;1;40m███▀[0m [1;30m▄█[0m [1;36;46m░[0;1;37;46m ▀[0;1;33;46m░[0;1;37;46m [0m [1;36;46m░[0;1;37;46m■ [0;1;36;46m░▒[0m [1;30m███[0m [1;36;46m░[0;36m█▄[0;1;36;46m▀[0;1;36;40m▄[0;1;36;46m▀[0;36m███ [0;1;36;46m▓[0m
 [36m█[0;1;36m▄▄[0;1;36;46m▀[0;36m█▀▄[0;1;36m▄[0;36m [0;1;36m▀[0;1;36;46m█[0m [1;30m███[0m [1;36;46m░[0;1;37;46m   [0;1;33;46m░[0m [1;46m [0;1;36;46m [0;1;33;46m [0;1;36;46m░▒[0m [1;30m███▄▄▄[0m [1m▀▀▀▀▀▀▀[0m [1;30m▄▄▄███[0m [1;36;46m▒░[0;1;33;46m [0;1;36;46m [0;1;37;46m [0m [1;33;46m░[0;1;37;46m   [0;1;36;46m░[0m [1;30m███[0m [36m█▀ ▄[0;1;36m▄▀[0;1;36;46m▄[0;36m█▄▄[0;1;36;46m▀[0m
 [36m            [0;1;30m▀▀▀[0m [36m▀▀▀▀▀▀[0;1;37;46m [0;1;36;46m░░▒▓[0m [1;30m▀▀▀▀▀▀▀▀ [0m▀▀▀ [1;30m▀▀▀▀▀▀▀▀[0m [1;36;46m▓▒░░[0;1;37;46m [0;36m▀▀▀▀▀▀[0;37m [0;1;30m▀▀▀[0m
-[36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m▀[0;36m▀[0;1;36m▀▀[0;36m [0m        [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m▀[0;36m▀[0;1;36m▀▀[0m         [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m▀[0;36m▀[0;1;36m▀▀[0;36m  [0m
-[37m [0;1;36mMember[0;36m.............[0m         [1;36mlocation[0;36m/[0;1;36maffils[0;36m....[0m         [1;36mfoochang[0;36m............[0m
-
-
-[1;36;46mblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahb[0m
-
-
-[1;30mzP.like this is a member list header for the board i was once co on for about[0m
-[1;30m   errr...   two or three days.  I didnt produce enough stuff for him.  So [0m
-[1;30m   here you go :).   This month is dedicated to sod (and all fellow Klept0es)[0m
-[1;30m   "To anyone who doesnt like it!   Fuck you" .. hey.. i cant argue.[0m'
+[36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m▀[0;36m▀[0;1;36m▀▀[0;36m [0m        [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m▀[0;36m▀[0;1;36m▀▀[0m         [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m▀[0;36m▀[0;1;36m▀▀[0;36m  [0m'

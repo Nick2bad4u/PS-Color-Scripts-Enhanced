@@ -5,7 +5,7 @@
 # Source SHA-256: efeffc98519ccec535776b5721d9502b8b0f185b3d00e7607399f05fe5de79d7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XP-TBL2.ANS by Xavier Pyros (myst5_95); released in myst5_95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 148-194
 # Columns: 1-80
 
@@ -47,12 +47,12 @@ Write-Host '
                    [40m██ ▀[0m
                    [1;30;40m▄▄[0m
                    [1;30;40m██▀█[0m
-                   [1;30;40m████ [0mreetz [1;30mG[0mo [1;30mO[0mut [1;30mT[0mo [1;30mA[0mll [1;30mT[0mhe [1;30mM[0mYSTiC [1;30mM[0members."
+                   [1;30;40m████ [0m      [1;30m [0m  [1;30m [0m   [1;30m [0m  [1;30m [0m   [1;30m [0m   [1;30m [0m      [1;30m [0m        
 
 
 
 
-               █ ■ [1mThi[0ms ansi was m[1;30made by XAVi[0mER PYROS[MYSTi[1mC]. [0m■ █
-               █ ■ [1mIf  [0mou would li[1;30mke an ansi [0mby me, or any     ■ █
-               █ ■ [1moth[0mer MYSTiC me[1;30mmber, just [0mcall The Black    ■ █
-               █ ■ [1mLea[0mgion and lea[1;30mve a messag[0me.                ■ █[0m'
+               █ ■ [1m   [0m            [1;30m           [0m              [1m    [0m■ █
+               █ ■ [1m    [0m           [1;30m           [0m                  ■ █
+               █ ■ [1m   [0m            [1;30m           [0m                  ■ █
+               █ ■ [1m   [0m            [1;30m           [0m                  ■ █[0m'

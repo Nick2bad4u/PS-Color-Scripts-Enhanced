@@ -5,7 +5,7 @@
 # Source SHA-256: 0d118cd3125c74fb1ba45addf7a25c5297ece7476ce65a1910d9378423566bdd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TB-ME.ANS by Turbine (RioT Productions); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Turbine
 # SAUCE Group: RioT Productions
 # SAUCE Date: 19970530
@@ -37,5 +37,4 @@ Write-Host '
       [1;36;40m▀██▄[0m       [1;36;40m██  █[0;1;36;47m▓[0m          [1;36;40m▀██▄[0m        [1;36;40m▄██▀[0m         [1;36;40m▀██▄[0m
         [1;36;40m▀█[0;1;36;47m▓[0;1;36;40m▄[0m     [1;36;40m█▓ ██[0m             [1;36;40m▀██▄    ▄██▀[0m             [1;36;40m▀██▄[0m
           [1;36;40m▀██▄   ▀███[0m                [1;36;40m▀█▓████▀[0m                 [1;36;40m▀[0;1;36;47m▓[0;1;36;40m█▄[0m           [1;30;40mtb.[0m
--------------------snippity----------snippity--------------snip-----------------
-[1;30mBit of a shitty font, but it don''t look bad. :) This is for Precious Metal''s BBS[0m'
+-------------------snippity----------snippity--------------snip-----------------[0m'

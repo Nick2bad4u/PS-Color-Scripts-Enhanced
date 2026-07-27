@@ -5,7 +5,7 @@
 # Source SHA-256: e867213528be61cae3e2bde8d7c2b5afe6e4b429f00acca72eaafc938b8fa8fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-HACK1.ICE by chromatik (.ice%prod!1995.); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: da hack shack?! ..
 # SAUCE Author: chromatik
 # SAUCE Group: .ice%prod!1995.
@@ -37,6 +37,4 @@ Write-Host '
               [34m░[0m           [32m▄ ▀  ░  [0;1;30m▀    [0;32m▀▓▀[0m            [34m░[0m
                      [32m■  ▀[0m         [1;30m▄[0m       [32m▀ ■ ▀[0m
                  [1;30m. . . [0;1;35mh [0;35ma c k [0;1;30m░ [0;1;35ms [0;35mh a c k [0;1;30m. . .[0m
-                 [1;30m... [0;1;32ms[0;32mysop[0;1;30m░[0;1;32mi[0;32ms [0;1;32mk[0;32m-spiff! .. [0;1;32my[0;32may. [0;1;30m...[0m
-
-                [1;30morig.ansi.by.chromatik.ice.1995.[0m'
+                 [1;30m    [0;1;32m [0;32m    [0;1;30m░[0;1;32m [0;32m  [0;1;32m [0;32m           [0;1;32m [0;32m    [0;1;30m   [0m'

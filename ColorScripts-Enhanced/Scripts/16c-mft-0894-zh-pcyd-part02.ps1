@@ -5,7 +5,7 @@
 # Source SHA-256: 216e89c94649b41a4a8329e0542be894e3bd5f66e0f91d91fbda2a65ec6cd880
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZH-PCYD.ANS by Zipperhead (Manifest Innovations); released in mft-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Pharcyde
 # SAUCE Author: Zipperhead
 # SAUCE Group: Manifest Innovations
@@ -62,5 +62,4 @@ Write-Host '
                    [1;34;44m▒▓[0;1;34;40m▀[0;34m▄[0;1;34;44m░▒[0m      [1;34;44m▒▓[0;1;34;40m▀[0;34m▄[0;1;34;44m░▒[0;1;34;40m  [0;1;30;40m▐██▌[0;1;34;44m▒▓[0;1;34;40m▀[0;34m▄[0;1;34;44m░▒[0;1;34;40m  [0;1;30;40m▐██▌[0;1;34;44m▒▓[0;1;34;40m▀[0;34m▄[0;1;34;44m░▒[0;1;34;40m   [0;1;30;40m▐██▌[0m
                    [1;34;40m▀[0;34m▄[0;34;44m [0;1;34;44m░▒▓[0m      [1;34;40m▀[0;34m▄[0;34;44m [0;1;34;44m░▒▓[0;1;34;40m  [0;1;30;40m▐██▌[0;1;34;40m▀[0;34m▄[0;34;44m [0;1;34;44m░▒▓[0;1;34;40m  [0;1;30;40m▐██▌[0;1;34;40m▀[0;34m▄[0;34;44m [0;1;34;44m░▒▓[0;1;34;40m   [0;1;30;40m▐██▌[0m
                    [1;30;44m  [0;1;34;44m░▒▓█[0m      [1;34;44m  ░▒▓█[0;1;34;40m  [0;1;30;40m▐██▌[0;1;30;44m  [0;1;34;44m░▒▓█[0;1;34;40m  [0;1;30;40m▐██▌[0;1;30;44m  [0;1;34;44m░▒▓█[0;1;34;40m   [0;1;30;40m▐██▌[0m
-                   [1;30;44m [0;1;34;44m░▒▓██[0m      [1;34;44m ░▒▓██[0;1;34;40m  [0;1;30;40m▐██▌[0;1;30;44m [0;1;34;44m░▒▓██[0;1;34;40m  [0;1;30;40m▐██▌[0;1;30;44m [0;1;34;44m░▒▓██[0;1;34;40m   [0;1;30;40m▐██▌[0m
-'
+                   [1;30;44m [0;1;34;44m░▒▓██[0m      [1;34;44m ░▒▓██[0;1;34;40m  [0;1;30;40m▐██▌[0;1;30;44m [0;1;34;44m░▒▓██[0;1;34;40m  [0;1;30;40m▐██▌[0;1;30;44m [0;1;34;44m░▒▓██[0;1;34;40m   [0;1;30;40m▐██▌[0m'

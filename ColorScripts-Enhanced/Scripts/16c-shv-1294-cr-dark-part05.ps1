@@ -5,7 +5,7 @@
 # Source SHA-256: a755029096e61caf134ee72c98f5d9769cf2d1cfb357b3e1d75939d26644c51a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-DARK.ANS by Crimson Ryder (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Vektor
 # SAUCE Author: Crimson Ryder
 # SAUCE Group: Shiver
@@ -34,14 +34,14 @@ Write-Host '
 
 [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 
-                   Need an ANSi, contact me on Serenity.
-   Greetz:
-         The Guardian         - Hey I finally finished it.  And don''t worry,
-                                I''m staying. :)
-         nTTk                 - How''s Union?  Gotta see that next pak of theirs.
-         Valiant              - Hey bud, whassup?
-         The Shiver gang
-         that''s always on IRC - Don''t you guys ever go off? :)
-         Creep                - Sorry, I have no choice :)
-                                                           - [31mCrimson Ryder[0;1;30m[[0;31mSHVR[0;1;30m][0m
+                                                        
+          
+                                                                            
+                                               
+                                                                                
+                                                 
+                        
+                                                              
+                                                          
+                                                             [31m             [0;1;30m [0;31m    [0;1;30m [0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

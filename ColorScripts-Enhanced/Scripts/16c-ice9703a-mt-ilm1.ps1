@@ -5,7 +5,7 @@
 # Source SHA-256: c73ec9d8f264416217a993dc4b711e9c1458a91629b6710aea8803670390b138
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-ILM1.ICE by Misfit (iCE Productions); released in ice9703a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iCE LogoMafia
 # SAUCE Author: Misfit
 # SAUCE Group: iCE Productions
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                 [1;30m         "rebirth of hardcore pride." [0m
+                 [1;30m                                      [0m
                    [36m [0m                                [37m         [0m
                     [36m [0m                            [1;30m░[0;1;37m [0;1;30m▄▄██▄▄[0m
                    [36m▄▄▄▄▄▄[0m         [36m▄▄███  ▄▄▄▄▄▄ [0;1;30m▄▓████[0m░[1;30m▀▀▀[0m
@@ -35,5 +35,4 @@ Write-Host '
                        [36m    [0;1;37mi[0;1;36mC[0;36mE LogoMafia [0;31m▓▓▀■[0;37m [0;36m▀[0;37m [0;31m▓░[0;37m  [0;31m▀▒▀▓▀■[0;37m [0;36m▀█▀[0m
                            [1;30m-──-─--───-─-[0m [31m░[0m      [31m░[0m    [31m░[0;37m [0;31m▒[0;37m [0;31m [0m
                                 [31m▒▀[0;37m  [0;31m  [0m                 [31m░[0m
-                                [31m░[0m
-[1;30mMisfit[iCE][0m                                                        [1;30m       2/3/97[0m'
+                                [31m░[0m'

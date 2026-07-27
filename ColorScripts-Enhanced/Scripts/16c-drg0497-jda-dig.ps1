@@ -5,7 +5,7 @@
 # Source SHA-256: 9f3e61a442918f91dececfc4744b8542660e57a2e2adefc1907980b97af513a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JDA-DIG!.ANS by Joda (deranged); released in drg0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: digital motion.
 # SAUCE Author: Joda
 # SAUCE Group: deranged
@@ -45,8 +45,5 @@ Write-Host '
 [31m [0;1;31;41m▐██▌[0m    [1;31;41m▐██▌[0;31m [0;37m  [0;31m▐[0;1;31;41m████[0;31m ▀[0;1;31;41m▀███▄[0;31m▄[0;1;31;41m▄███▀[0;31m▀ ▐[0;1;31;41m███▄▄▄█▀▀[0;31m▀▐[0;1;31;41m█[0;1;35;40m█[0;1;31;41m█[0;31m▌▀[0;1;31;41m▀███▄[0;31m▄[0;1;31;41m▄▄██▀[0;31m▀▄[0;1;31;41m█▌[0m      [31m▐[0;1;31;41m███▌[0m
 [31m▐[0;1;31;41m███▌[0m    [1;31;41m▀▀▀[0;31m█ [0;37m  [0;31m▐[0;1;31;41m███▌[0m   [31m▀▀[0;1;31;41m▀▀█▀▀[0;31m▀▀[0m   [31m ▀[0;1;31;41m▀▀▀▀[0;31m▀▀   ▐[0;1;31;41m███[0;31m▌  ▀▀[0;1;31;41m░▀▀▀░[0;31m▀▀ [0;1;31;41m▀▀▀▀[0m      [31m▐[0;1;31;41m███▌[0m
 [31m▐▀▀▀▀[0m           [31m▀▀▀▀▌[0m       [31m▀[0m                  [31m▀▀▀▀▌[0m      [31m▀[0m               [31m▐[0;1;31;41m▀▀▀▌[0m
-                                                       [31m.digital motion.[0m
-        [1;33m+o[0;33m to rexazy     +47[0;31m [0;33m22259784[0m
-
-
-                        [31mmore affils than you can imagine[0m'
+                                                       [31m                [0m
+        [1;33m+o[0;33m to rexazy     +47[0;31m [0;33m22259784[0m'

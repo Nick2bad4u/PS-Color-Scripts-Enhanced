@@ -5,7 +5,7 @@
 # Source SHA-256: 1c3a655e274a50b3a0a41931323c7ec6db7f2fd1cb4192bc85d0d4c53efcfe23
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MFS-ATLI.ANS by m3l farr suppastar (your mom); released in blndr006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alien plays basketball with human
 # SAUCE Author: m3l farr suppastar
 # SAUCE Group: your mom
@@ -28,10 +28,10 @@ Write-Host '
 [1;36m    [0m█[1;33m████▄[0m▀[1;33;47m▀[0;1;33;40m████▄[0m▀[1;33;47m▀[0;1;33;40m██████[0m                  [1;30;43m█[0;33m██[0;1;30;43m [0m [1m███ ██ ██ ██ ██ ███ [0;33m██████▌[0m
      [37m▀[0;1;33;47m▀[0;1;33;40m███▀ [0m▀[1;33;47m▀[0;1;33;40m███▀[0m▄[1;33;47m▄[0;1;33;40m███▀[0mel Farr Suppastar   [1;30m▀▀▀▄  [0;1;37m█  █  █ █  █  █    [0;33m▀▀▀▀▀[0m
                          [37m [0m                      [1;30m▀▄▄▄▄▄▄▄▄[0;33m▄▄▄▄▄▄▄▄▄▄▀[0m
-[37m [0;34m┌ samasara does this[0m                                    [1;30;43m█[0;33m█[0m
-[37m [0;34m|[0;37m [0;34mand they''re 3l33t[0;37m  damn aliens, --------------->[0m      [1;30;43m█ [0m
- [34m|[0;37m [0;34mso now, i am too[0m   [37mwait a sec'' ▓[0m                      [1;30;43m█[0;33m██▄▄▄[0m
-[37m [0;34m|[0m                    [37mthats not an alien   [0m             [1;30;43m█[0;33m██    [0;1;30m▀▄[0m
+[37m [0;34m┌                   [0m                                    [1;30;43m█[0;33m█[0m
+[37m [0;34m [0;37m [0;34m                 [0;37m                               [0m      [1;30;43m█ [0m
+ [34m [0;37m [0;34m                [0m   [37m            ▓[0m                      [1;30;43m█[0;33m██▄▄▄[0m
+[37m [0;34m [0m                    [37m                     [0m             [1;30;43m█[0;33m██    [0;1;30m▀▄[0m
  [34m│[0m                  [37mthats hennifer''s mom,     [0;1;30m▄[0;1;30;47m▄[0;1;30;40m▄[0m     [1;30m▄▀ [0;1;30;43m█[0;33m█    [0;1;30m▀▀▀[0m
  [34m└──┐[0m                   [37mdamn[0m                [1;30m▄████▄ ▀ ▄▀  [0;1;30;43m█[0;33m█[0m
     [34m│   [0m                                   [1;30m███[0;1;37m▄[0;1;30m█[0;1;37m▄[0;1;30m█▄ ▀ ▄█ █[0;1;30;43m▄[0m

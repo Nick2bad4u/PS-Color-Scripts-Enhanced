@@ -5,7 +5,7 @@
 # Source SHA-256: f2bdcdec0021cc7e97498018c86f8677c78ee0af6c02368936de80d1758dac9f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-TRA.ANS by FusionX (CRiSiS); released in cri-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Realms Above
 # SAUCE Author: FusionX
 # SAUCE Group: CRiSiS
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;37;47m▓[0m [1;37;40mGr[0meetz..          [1;30;47m▓[0m                                      [1;30;47m▓[0m [1;37;40mif [0myou are sooo
+[1;37;47m▓[0m [1;37;40m  [0m                [1;30;47m▓[0m                                      [1;30;47m▓[0m [1;37;40m   [0m            
 [1;37;47m▒[0m [1;37;40mAs[0mphexia..        [1;30;47m▒[0m           [34m▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄  [0;1;30m▄▄▄[0m▄[1m▄    [0;1;30;47m▒[0m [1;37;40mde[0msperately in
 [1;37;47m░[0m [1;30;40m(''cause I wanna   [0;1;30;47m░[0m         [34m▄[0;1;34;44m░░▒[0;34m█[0;1;34;44m░[0;34m██[0;1;34;44m░[0;34m██▄ ▀█[0;1;34;44m░░░░[0;34m▄ [0;37m▀█[0;1;30;47m░▒[0m    [1;30;47m░[0m [1;37;40mne[0med of an ansi,
 █  [1;30mbe cool like ya) [0m█       [34m▄[0;1;34;44m░░▒░░[0;34m▀[0m          [34m▀[0;1;34;44m░▒░░░[0;34m▄[0m       [37m█ [0;1;37mas [0mto ask me..

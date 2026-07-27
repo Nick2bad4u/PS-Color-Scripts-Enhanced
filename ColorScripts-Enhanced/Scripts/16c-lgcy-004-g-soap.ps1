@@ -5,7 +5,7 @@
 # Source SHA-256: 4494efb20c6b26a244fbbbf9d4f3304a97840bcbcb00c0ea38ba1de504ac9224
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: g-soap.ans by G. (lEGACY kREW!); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: S0AP
 # SAUCE Author: G.
 # SAUCE Group: lEGACY kREW!
@@ -39,6 +39,4 @@ Write-Host '
       [37m.4[0;36m$[0;1;37m$$$$$$$$$[0m▒▒[36m$$$[0;37m;... [0;36m◄[0;1;37;46m s0AP [0m         "²ⁿⁿ²"` ..$$[1m$$$[0;36m$[0;37m$│ :[0;1;37m°[0m  [1;36mO:[0m    used[1;30m.[0m
     [1m,[0m-. .\\[1;36m▒▒[0m$[36m$$$$ZZ[0;37m\\\..[0m           [1;37m,──[0m.    [1m,-[0m.       $$[1m$[0;1;36m▒▒[0;36mZZ[0;37m;  "**"  [0;1;36m,[0;36m-.[0m
 [37m    [0;1;37m"[0;36m-[0;1;36m''[0m     "²ⁿⁿ²"`::   [1m,-[0m.        [1m:[0m    [1;36m:[0m   [1m"[0;36m-[0;1;36m''[0m   [1m,-[0m.  "²ⁿ²"`::       [1m"[0m-''
-                        [1m"[0;36m-[0;1;36m''[0m         [36m"--[0;1;36m"[0m          [1m"[0;36m-[0;1;36m''[0m
-  [1mS0AP[0m arrived onto the scene in 1995[1;30m.[0m It lasted for about a year[1;30m.[0m Shoutouts
-  to j33p33 [1;30m([0ma[1;30m.[0mk[1;30m.[0ma[1;30m.[0m Gay P[1;30m).[0m'
+                        [1m"[0;36m-[0;1;36m''[0m         [36m"--[0;1;36m"[0m          [1m"[0;36m-[0;1;36m''[0m'

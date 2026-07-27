@@ -5,7 +5,7 @@
 # Source SHA-256: 557769e38db9d76e67d2fe1d38b7bce42102dc98b5665f666c7ac2b310761ad2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AR-PREVL.ANS by Argon (EPiC); released in epic0004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Prevail
 # SAUCE Author: Argon
 # SAUCE Group: EPiC
@@ -32,9 +32,9 @@ Write-Host '
 [30;40msod[0;37;40m [0;30;40m+[0;37;40m [0;30;40mthe[0;37;40m [0;30;40mepic[0;37;40m [0;30;40mcrew,[0;37;40m      [0;30;41m▓▓[0;31;40m▀▀▀▓[0;37;41m [0;31;40m▄[0;37;40m    [0;37;43m▒░ [0;33;40m▄[0;37;40m    [0;31;40m▄[0;33;41m░[0;31;40m▓▀▀▀[0m
 [30;40mtna,[0;37;40m [0;30;40msomberlain,[0;37;40m [0;30;40mscow,[0;37;40m     [0;30;41m▓[0;31;40m▓[0;37;40m    [0;31;40m▓▌[0;37;40m  ▀▀[0;37;43m▒░[0;33;40m▀▀[0;37;40m  [0;31;40m▐▓[0;37;40m    [0;31;40m▓[0m
 [30;40mspearfx,[0;37;40m [0;30;40mzero[0;37;40m [0;30;40mvision[0;37;40m        [0;31;40m▐▌[0;37;40m    [0;31;40m▀■[0;37;40m    [0;33;40m▀[0;37;40m   [0;31;40m■▀[0;30;41m▓[0;37;40m   [0;31;40m▐▌[0m
-[30;40mand[0;37;40m [0;30;40mall[0;37;40m [0;30;40mthe[0;37;40m [0;30;40mother[0;37;40m            [0;31;40m▓▄[0;37;40m    [0;31;40m▌[0;37;40marg√epic[0;31;40m▐[0;30;41m▓[0;37;40m   [0;31;40m▄▓[0m
+[30;40m   [0;37;40m [0;30;40m   [0;37;40m [0;30;40m   [0;37;40m [0;30;40m     [0;37;40m            [0;31;40m▓▄[0;37;40m    [0;31;40m▌[0;37;40m        [0;31;40m▐[0;30;41m▓[0;37;40m   [0;31;40m▄▓[0m
 [30;40m/<-rad[0;37;40m [0;30;40melite[0;37;40m [0;30;40mdoods[0;37;40m [0;30;40min[0;37;40m [0;30;40mth[0;37;40m       [0;31;40m▀▀▄▄▌[0;37;40m  ioo%  [0;31;40m▐▄▄▀▀[0m
-[30;40mscene![0m
+[30;40m      [0m
 [37;40m                                 [0;31;40m▀▄▄[0m
 [37;40m                                    [0;31;40m▀▀░[0m
 [37;40m                                           [0;31;40m▄▄[0m

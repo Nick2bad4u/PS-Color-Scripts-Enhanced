@@ -5,7 +5,7 @@
 # Source SHA-256: 638af07416efb6c65569f07d729832350958660f822621c507f0391ced5c309c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DREAM.ANS by Bugs Bunny + Lilith (Maiden / KiSS); released in mdn-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Celestial Dreams
 # SAUCE Author: Bugs Bunny & Lilith
 # SAUCE Group: Maiden / KiSS
@@ -31,7 +31,4 @@ Write-Host '
  ▐[1;33;47m░▒▒▒[0m█[1;33m [0m [34m▒▒▒[0;37m [0;34m▓[0;37m [0;1;33;47m░▓▓▓[0;1;33;40m▀[0m▄▄▄▄█▀▓█▀▀██▌[34m▒▒▒[0;37m [0;34m▒▒[0;1;33m [0;1;33;47m▒▒[0m█▀▐[1;33;47m░░░[0m▄▄▀▀███[1;33m  [0;34m ▒▒[0;1;33m [0;34m░[0;37m████▓  [0;34m░[0;37m █[0;1;33;47m░░░[0m█
  ▒▓█[1;33;47m░░[0m█▌[1;33m [0;34m░░░[0;37m [0;34m▒[0;37m █[0;1;33;47m▒▒▒[0m█[1;33m   [0m▄▄█▄██[1;33;47m [0m██▌[34m░░░[0;37m [0;34m░░[0;1;33m [0;1;33;47m░░[0m█ ▐███[1;33;47m░[0m█[34m  [0;37m██▓░[0;34m  ░░  [0;37m███[0;1;33;47m■[0m█  [34m░[0;37m █[0;1;33;47m   [0m█
  [1;33m [0m ▀▀███▄[34m   [0;37m [0;34m░[0;37m █[0;1;33;47m░░░[0m█   [1;33m [0m▀███▄████▄▄▄▄▄▄▄███ ▀▀▀▀▀▀[34m [0m   [37m  [0;34m  [0;37m    ▄████ ███████▓▒[0m
-[37m [0;1;33m     [0m▀▀▀▀█▄▄▄▄████[1;33;47m■[0m    [1;33m [0;30;47mBb?![0;37;40m▄ [0m         [1;33;47m  [0m▓ [44mBb?![0;30;44m [0;1;33;44mMdn[0;44m -Lt [0;1;33;44mKiSS[0m
-                       [1;33m  [0m [1m             [0m
-      [1mCelestial Dreems[0m  [1;33m       [0m
-      [1m+o AneuriZm[0m'
+[37m [0;1;33m     [0m▀▀▀▀█▄▄▄▄████[1;33;47m■[0m    [1;33m [0;30;47mBb?![0;37;40m▄ [0m         [1;33;47m  [0m▓ [44mBb?![0;30;44m [0;1;33;44mMdn[0;44m -Lt [0;1;33;44mKiSS[0m'

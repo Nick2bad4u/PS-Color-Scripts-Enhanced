@@ -5,7 +5,7 @@
 # Source SHA-256: 931ad8caff973051e73e74a59e258f766d42ebc7d104793acdc113964b746c53
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OS-BKSX.ANS by Offset (rmrs-51); released in rmrs-51 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -34,11 +34,4 @@ Write-Host '
 [1;31;41m▓█▓▒░[0;31m█[0;1;31;41m░[0;31m  ▐[0;1;31;41m▒▒░[0;31m▓       [0;1;31;41m░[0;31m█[0;1;31;41m▒░[0;31m█   ▐[0;30;41m      █[0;31;40m ▓[0;1;31;41m░[0;32m   [0;1;30m▒█████[0;1;30;42m██[0;1;30;46m▓▒░[0;36m███████[0;1;37;46m [0;36m████████████████▓ [0m
 [1;31;41m■▀░[0;31m███    ▀▀▀   ▄[0;1;31;41m░[0;31m▓▄  ▀▀▀   ▄[0;30;41m      [0;31;40m▓[0;32;40m [0;31;40m░█▓[0;1;30;40mos!▓█████[0;1;30;46m▓▒░[0;36m██[0;30;46m           [0;1;37;46m  [0;36m████████████ [0m
 [1;30m [0m    [32m             [0;37m [0;32m                                                             [0m
-[1;30m·················[ C U T H E R E ]·············································[0m
-[1;30m [0m
-[1;30mThis is for my brother-at-arms, Pailhead. I hope it fits somewhere on his board [0m
-[1;30mBlack Six - telnet://black6bbs.zapto.org. This was supposed to be a full-blown[0m
-[1;30m100+ pic, but I got mad and frustrated at it, and I turned it into a 25 liner.[0m
-
-[1;30m Offset ([0;1;37ma[0;1;32mc[0;32mi[0;1;30md/[0;1;37mr[0;1;31me[0;31mmo[0;1;30mrse)[0m
-[1;30m "No Remorse for the weak... [0;1;37mi[0;1;34mC[0;34mE[0;1;30m..."[0m'
+[1;30m·················[ C U T H E R E ]·············································[0m'

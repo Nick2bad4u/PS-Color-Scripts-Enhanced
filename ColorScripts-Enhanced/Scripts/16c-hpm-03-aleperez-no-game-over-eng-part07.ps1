@@ -5,7 +5,7 @@
 # Source SHA-256: b3681b76699050579b30596ccce971ce78acd85c046910158563f5ccdff831e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aleperez-no_game_over_eng.ans by @AljandroPrez (HPM); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no game over
 # SAUCE Author: @AljandroPrez
 # SAUCE Group: HPM
@@ -25,21 +25,21 @@ Write-Host '
 ██[1m█[0m [1;42m═[0m [33m█[0;1;33;43m░░░░[0;33;43m▄[0;1;33;40m▄[0;33m▀[0;1;33;43m▀[0;1;33;40m████████▄[0m [1;35m██▄▄▄▄▄▄▄▄▄▄▄▄[0m  [1;30m███[0m [1m▀███[0;1;47m▀[0;42m▀[0;32;40m██████[0;37;42m▀[0;1;37;47m▀[0;1;37;40m▄[0m [1m▄▀▄█[0m▄▀█[1;47m▄[0;1;40m█████▀[0m
 ██[1m█[0m [32m█[0;37m [0;33m█[0;1;33;43m░░░░░▄[0m [1;33;43m▀[0;1;33;40m████████▀[0m [1;35m███████[0;1;35;45m▀▀▀▀▀[0;35m██[0;37m  [0;1;30m████▄▄▄▄[0m [30;47m════════[0;1;37;40m▄▄▄████▀[0m [1m▀▀▀▀[0m
 [1m───────────────────────────────────────┬┬───────────────────────────────────────[0m
-         [1;32mE1-WINBEE[0m                     [1m││[0m         [1;32mCHRONOS[0m               [30m┬[0m
+         [1;32m         [0m                     [1m││[0m         [1;32m       [0m               [30m┬[0m
 [37m                                       [0;1;37m││[0m
-         [1;32m>THANK YOU CAPTAIN, WITHOUT[0m   [1m││[0m         [1;32m>I WAS LUCKY ENOUGH TO ARRIVE[0m
+         [1;32m                           [0m   [1m││[0m         [1;32m                             [0m
 [1;32m╓──────╖[0m  [1;32mYOUR HELP WE WOULD HAVE      [0;1;37m││[0;1;32m╓──────╖[0m  [1;32mIN TIME, THE DESTRUCTION[0m
 [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m  [1;32mLOST OUR WORLD               [0;1;37m││[0;1;32m║[0m [1;36m▀[0;1;33m■■[0;1;36m▀[0m [1;32m║[0m  [1;32mOF MY WORLD LEFT ME AND[0m
 [1;32m≡[0;1;37m░┬░[0m░░[1m░[0;1;32m≡[0m                               [1m││[0;1;32m≡[0m [1;35m■[0;1;33m■■[0;1;35m■[0m [1;32m≡[0m  [1;32mMY SHIP IN SUSPENSION[0m
 [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m [1;32m>YOUR WORLD DESTROYED?        [0;1;37m││[0;1;32m║[0m [1;36m▄[0;1;33m■■[0;1;36m▄[0m [1;32m║[0m
 [1;32m╚──────╜[0m                               [1m││[0;1;32m╚──────╜[0m [1;32m>YES, BECAUSE OF AN ACCIDENT,[0m
-                                       [1m││[0m          [1;32mTHIS IS NOT THE TIME TO TALK[0m
-                                       [1m││[0m          [1;32mABOUT IT...[0m
+                                       [1m││[0m          [1;32m                            [0m
+                                       [1m││[0m          [1;32m           [0m
                             [1;32m█[0m         [1;32m>>[0m [1;32m(*)[0m                                   [1m─[0m
                           [1;32m▄▀[0m        [1;32m/[0m
-              [1;32m>>[0m [1;32m(*)[0m     [1;32m█[0m       [1;32mSUPPORT[0m
+              [1;32m  [0m [1;32m   [0m     [1;32m█[0m       [1;32m       [0m
              [1;32m/[0m          [1;32m▄▀[0m
-          [1;32mSUPPORT[0m      [1;32m█[0m
+          [1;32m       [0m      [1;32m█[0m
                      [1;32m▄▀[0m
                      [1;32m█▄[0m                  [1;32m┌────────────┐[0m
      [1;32m>>(*)[0m            [1;32m█[0m                  [1;32m│[0m   [1;32m......[0m   [1;32m│[0m
@@ -55,11 +55,9 @@ Write-Host '
                          [1;32m▄█[0m    [1;32mHEADQUARTER ─────┤[0m [1;32m//\\[0m [1;32m│[0m
                         [1;32m█[0m   ─                   [1;32m└▀▀▀▀▀▀┘[0m
 [1m───────────────────────────────────────────────────────────────────────────────-[0m
-  [1;32m╓──────╖[0m [1;32mINTELLIGENCE HEADQUARTERS[0m
+  [1;32m╓──────╖[0m [1;32m                         [0m
   [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m
-  [1;32m≡[0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m≡[0m    [1;32mTHE ENEMY WAS ELIMINATED! THANK YOU CHRONOS, YOU ARRIVED JUST IN[0m
-  [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32mTIME TO SAVE THIS WORLD. THIS IS YOUR NEW HOME, THE OPERATION HAS[0m
-  [1;32m╚──────╜[0m   [1;32mBEEN A SUCCESS. NOW ALL THAT REMAINS IS REST...[0m
-                                                                               [1m─[0m
-
-'
+  [1;32m [0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m [0m    [1;32m                                                                [0m
+  [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32m                                                                 [0m
+  [1;32m╚──────╜[0m   [1;32m                                               [0m
+                                                                               [1m─[0m'

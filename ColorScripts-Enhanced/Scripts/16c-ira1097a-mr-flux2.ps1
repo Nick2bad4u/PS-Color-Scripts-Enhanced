@@ -5,7 +5,7 @@
 # Source SHA-256: fba4a2d8d25ff07954c834597b7fa58a98ef6c3091f82fc7915a0e05a0ffd3a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-FLUX2.ANS by Mr.Wrong (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flux
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Irato
@@ -32,9 +32,4 @@ Write-Host '
  [1m░[0m [36m░[0m     [1;34m▄[0m           [34m░[0m        [1;37m [0;34m  [0;1;37m▀▀[0;34m [0;1;37m▌[0m  [34m░▄[0;1;34;44m░[0;1;34;40m▀▓░[0;34m▀[0;1;34m▄[0;34m▄[0;37m  [0;1;37m■[0m [1m▀[0m  [1;34m▄[0;34m▄[0;1;34m▀[0m       [34m▀▀[0;37m  [0;34m▀[0m    [34m░[0;37m  [0;1;37m▐▌[0m
                                   [1m■▀ [0;34m ■[0;1;34m▀[0m  [34m░[0;1;34m░[0;34m░[0;37m [0;34m░[0;1;34m░▀▀▀▀▀[0;34m▀▀[0m               [34m▀[0m     [1;37m■▀[0;1;34m¿[0m
                                             [34m░[0m   [34m░[0m                        [1;30m[[0;1;37mwrng[0;1;30m][0m
- [1;30m ---------------------------------------------------------------------------- [0m
-  [1;30m- [0mIt''s actually my 3rd "font" (if we can call it this way). I don''t expect
-[1;30m [0m   that anyone found it "original" or "new", but we must begin somewhere (in
-    fact, everyone has to). I have no pics to release because it''s been only
-    2-3 weeks that i''m really trying to "do" something...
-   [1;30m(and by the way, it''s for my board that will be open, hum...maybe never)[0m'
+ [1;30m ---------------------------------------------------------------------------- [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0938d28f489baf282c0582ab54a90e346287a1461b16dc7b1d5872eb2dcd4518
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MG-PDEL.ICE by Magnus (ice-9404); released in ice-9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 91-115
 # Columns: 1-80
 
@@ -26,11 +26,10 @@ Write-Host '
 [1;35m▀▀[0m                  [1;30m■▄░▄[0;1;30;45m▒[0;1;30;40m▌[0m                      [1;30;40m░[0;35m▐▌[0m           [1;30m░▐▌[0m
 [31m▄[0;35m▄▄[0;31m▄[0;35m▄[0;1;35m▄[0;35m▄[0;1;35m▄▄[0;35m▄[0;31m▄[0;35m▄[0;1;35m▄▄[0;35m▄[0;1;35m▄▄[0;35m▄▄[0;31m▄ [0;1;30m▐█[0;1;30;45m▓[0;1;30;40m▀[0;31m▄[0;35m▄[0;1;35m▄▄▄▄▄▄▄▄▄[0;35m▄[0;1;35m▄▄▄▄▄[0;35m▄[0;1;35m▄▄[0;35m▄▄[0;31m▄▄ [0;35m▀ [0;31m▄▄[0;35m▄[0;1;35m▄▄[0;35m▄[0;1;35m▄[0;35m▄[0;1;35m▄[0;35m▄[0;31m▄ [0;1;30m▀ [0;31m▄[0;35m▄[0;1;35m▄▄▄[0;35m▄[0;1;35m▄▄[0;35m▄[0;1;35m▄[0;35m▄[0;31m▄▄[0m
                       [1;30m▀[0m
-                   [1;37mP[0ms[1;35my[0;35mchadelic - Located in the 616 Area C[0;1;35mo[0md[1me[0m
-                             [1mS[0my[1;35ms[0;35mop: Bloody Sabb[0;1;35ma[0mt[1mh[0m
-             [1mR[0me[1;35mm[0;35maining Stats are Unavaliable - But, be sure to Ca[0;1;35ml[0ml[1m![0m
+                   [1;37m [0m [1;35m [0;35m                                    [0;1;35m [0m [1m [0m
+                             [1m [0m [1;35m [0;35m               [0;1;35m [0m [1m [0m
+             [1m [0m [1;35m [0;35m                                                 [0;1;35m [0m [1m [0m
 
 [1m─[0m─[1;35m─[0;35m─────────────────────────────────────────────────────────────────────────[0;1;35m─[0m─[1m─[0m
-        [35mA[0;1;35mn[0ms[1mi Created by MAGNUS of iCE Advertisements · Stats by QuR[0m''[1;35ma[0;35mN[0m
-[1;37m─[0m─[1;35m─[0;35m─────────────────────────────────────────────────────────────────────────[0;1;35m─[0m─[1m─[0m
-                       [1;30mSlightly modified by Shaggy [iCE][0m'
+        [35m [0;1;35m [0m [1m                                                        [0m [1;35m [0;35m [0m
+[1;37m─[0m─[1;35m─[0;35m─────────────────────────────────────────────────────────────────────────[0;1;35m─[0m─[1m─[0m'

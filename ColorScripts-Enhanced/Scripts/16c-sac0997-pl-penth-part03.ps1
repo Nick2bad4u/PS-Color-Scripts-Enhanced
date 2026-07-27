@@ -5,7 +5,7 @@
 # Source SHA-256: e9f0d07381c4eebe93cf8ce827f90590d6eafc73323506e2efe66a0a4f6ac6e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-PENTH.ANS by puschel; released in sac0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Penthouse
 # SAUCE Author: puschel
 # SAUCE Group: sac
@@ -46,7 +46,7 @@ Write-Host '
 [1;37;40m█████████████████[0;30;47m▀[0;35;40m▀[0;1;37;47m▐[0;1;37;40m██[0;30;47m▄[0;1;37;40m██████████████████████████[0;1;37;47m▄[0;30;47m▀[0;1;35;40m█[0;30;47m▀[0;1;37;47m▄[0;1;37;40m██[0;30;47m▀██[0;1;37;40m▄▄▄[0;1;37;47m▄▄[0;30;47m▀[0;1;37;47m▄[0;1;37;40m█████████████ [0m
 [1;37;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;35mTHE PENTHOUSE [0;35mS[0;1;35m·[0;35mT[0;1;35m·[0;35mO[0;1;35m·[0;35mP[0;37m [0;1;35mSYSOP: MARBiTOZ [0;35mS[0;1;35m·[0;35mT[0;1;35m·[0;35mO[0;1;35m·[0;35mP[0;37m [0;1;35mPiRATES WiTH ATTiTUDES HQ[0;35m S[0;1;35m·[0;35mT[0;1;35m·[0;35mO[0;1;35m·[0;35mP[0m
+[1;35m              [0;35m [0;1;35m [0;35m [0;1;35m [0;35m [0;1;35m [0;35m [0;37m [0;1;35m                [0;35m [0;1;35m [0;35m [0;1;35m [0;35m [0;1;35m [0;35m [0;37m [0;1;35m                         [0;35m  [0;1;35m [0;35m [0;1;35m [0;35m [0;1;35m [0;35m [0m
 [1;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;35m  [0;35m▀[0;1;35;45m▒[0;1;35;40m▀[0;35m▀▀[0;1;35;45m▒[0;1;35;40m████[0;1;35;45m▓▓▒[0;1;35;40m▀▀▀▀▀▀[0;35m▀[0;1;35m▀▀▀▀▀[0;1;35;45m▓▓██[0;1;35;40m▀▀▀▀▀▀[0;35m▀[0;1;35m▀▀▀[0;1;35;45m░█[0;35m▀[0;37m [0;35m▀▀[0;37m [0;1;35m▀▀▀▀[0;1;35;45m▓[0;1;35;40m█[0;1;35;45m▓▓[0;1;35;40m██[0;1;35;45m▓[0;1;35;40m█▀▀▀▀▀▀▀[0;1;35;45m▓[0;1;35;40m██[0;1;35;45m█▓▒[0;1;35;40m▀▀[0;35m▀▀▀[0;1;35m [0m
 [35mpuschel[0;37m [0;1;35;45m▒▓[0;1;35;40m█[0;1;35;45m▒[0;1;35;40m▀[0;35m▀▀[0m             [1;35;45m▓▓[0;1;35;40m█▀▀[0;35m▀[0m                   [1;35;45m▓[0;1;35;40m█▀[0;35m▀[0;37m [0;1;35;45m▓[0;35m▀[0m       [35m ▐[0;1;35;45m▓[0;35m▌[0m

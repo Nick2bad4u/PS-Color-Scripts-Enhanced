@@ -5,7 +5,7 @@
 # Source SHA-256: 7636fd8a16ab8b5109ef10bf3d3deb547828c0ea6c7ab83ede5307354800e57d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BESTANSI.ANS by Slum Dweller + Slum-Dweller (ansis-b); released in ansis-b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-84
 # Columns: 1-80
 
@@ -35,15 +35,15 @@ Write-Host '
  [1;30m█▄▄▄▄▄▄▄▄▄▄[0m▀  [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m█      [1;30m▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m█
 
 
-                            [1;30mT[0;32mh[0;1;32me [0;1;30mΣ[0;32ml[0;1;32md[0;32ma[0;1;30mr[0;32m''[0;1;32ms [0;1;30mC[0;32mr[0;1;32ma[0;32mƒ[0;1;30mt[0;32mw[0;1;32mo[0;32mr[0;1;30ml[0;32md[0m
+                            [1;30m [0;32m [0;1;32m  [0;1;30m [0;32m [0;1;32m [0;32m [0;1;30m [0;32m [0;1;32m  [0;1;30m [0;32m [0;1;32m [0;32m [0;1;30m [0;32m [0;1;32m [0;32m [0;1;30m [0;32m [0m
 
 [32m  [0;1;30;47m▄[0;1;37;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
-  [1;30;47m█   [0;35;47m- U.S.R. 14.400 Bps HST            - NUP: Quebec City                  [0;1;37;47m█[0m
+  [1;30;47m█   [0;35;47m                                                                       [0;1;37;47m█[0m
   [1;30;47m█                                                                          [0;1;37;47m█[0m
-  [1;30;47m█   [0;35;47m- Running on Exidium v0.10         - 130 Mb of HD                      [0;1;37;47m█[0m
+  [1;30;47m█   [0;35;47m                                                                       [0;1;37;47m█[0m
   [1;30;47m█                                                                          [0;1;37;47m█[0m
-  [1;30;47m█   [0;35;47m- 418-623-3092                     - SysOp: Slum-Dweller               [0;1;37;47m█[0m
+  [1;30;47m█   [0;35;47m                                                                       [0;1;37;47m█[0m
   [1;30;47m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37;47m▀[0m
 
-                                                                 [35mAn[0;1;35msi b[0;35my:[0m
+                                                                 [35m  [0;1;35m    [0;35m  [0m
                                                            [1;34m──[0;34m─ [0;36mSl[0;1;36mum-Dwell[0;36mer [0;1;30m─[0m─[1m─[0m'

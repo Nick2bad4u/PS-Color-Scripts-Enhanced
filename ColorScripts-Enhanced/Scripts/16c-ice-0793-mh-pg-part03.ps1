@@ -5,7 +5,7 @@
 # Source SHA-256: e7fecd66f5473cf3d804fa118d51fc28ab31816e6a7a02772315d5fc11b852a6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH-PG.ICE by Metal Head (ice-0793); released in ice-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 80-117
 # Columns: 1-80
 
@@ -40,11 +40,11 @@ Write-Host '
   [1;30m█[0m██     [1;30m▐[0;1;30;47m▌[0m█▌[1;30m▐[0;1;30;47m▌[0m█▌[1;30m▐[0;1;30;47m▌[0m█[1;30;47m▐▌[0m███[1;30;47m▐▌[0m█▌[1;30m▐[0;1;30;47m▌[0m█▌[1;30m▐[0;1;30;47m▌[0m█▌[1;30m█[0m██   [1;30m▐[0;1;30;47m▌[0m█[1;30;47m▐▌[0m█▌[1;30m▐[0;1;30;47m▌[0m█▌[1;30m█[0m██   [1;30m▐[0;1;30;47m▌[0m█▌ [1;30m█[0m██  [1;30m█[0m██ [1;30m▐[0;1;30;47m▌[0m█▌
   [1;30m█[0m██      [1;30m▀[0;1;30;47m▄[0m█[1;30m█[0m█▀  [1;30m▀[0;1;30;47m▄[0m███[1;30;47m▄[0m███▀  [1;30m▀[0;1;30;47m▄[0m█[1;30m█[0m█▀ [1;30m█[0m██    [1;30m█[0m██[1;30m▀[0;1;30;47m▄[0m█[1;30m█[0m█▀ [1;30m█[0m██    [1;30m█[0m██ [1;30m█[0m██  [1;30m█[0m██ [1;30m█[0m█▀
    [1;30m▀[0m▀        [1;30m▀[0m▀      [1;30m▀[0m▀  [1;30m▀[0m▀      [1;30m▀[0m▀    [1;30m▀[0m▀     [1;30m▀[0m▀  [1;30m▀[0m▀    [1;30m▀[0m▀     [1;30m▀[0m▀[1;30m▀[0m▀▀▀▀[1;30m▀[0m▀▀▀▀▀
-                                [1;30mT[0mhe [1mPowergri[0;1;30md[0m
-                     [1;30mS[0mys[1mops: The GridRunner & Syntax Er[0mro[1;30mr[0m
-      [1;30mA[0mva[1mlanche US HQ - Adrenalin Site. - Trace Dist. - Lancelot ][ Di[0mst[1;30m.[0m
-       [1;30mI[0mnt[1merPool Net - Running ViSiON/2 - USR 16.8 Dual - [813]-481-6[0m53[1;30m9[0m
-               [1;30mS[0mpe[1mcializing in MODS, Demos, ANSI''s, & 669[0m''s[1;30m.[0m
-                       [1;30mA[0mdv[1manced Gravis Support S[0mit[1;30me[0m
+                                [1;30m [0m   [1m        [0;1;30m [0m
+                     [1;30m [0m  [1m                               [0m  [1;30m [0m
+      [1;30m [0m  [1m                                                             [0m  [1;30m [0m
+       [1;30m [0m  [1m                                                           [0m  [1;30m [0m
+               [1;30m [0m  [1m                                       [0m  [1;30m [0m
+                       [1;30m [0m  [1m                      [0m  [1;30m [0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m [0;1;37m- [[0;1;30mi[0mC[1mE] - [[0;1;30mi[0mC[1mE] - [[0;1;30mi[0mC[1mE] ¬ A[0;1;35mNS[0;35mi [0;1;37mB[0;1;35mY[0;35m: [0;1;37mM[0;1;35meta[0;35ml [0;1;37mH[0;1;35mea[0;35md [0;1;35m[[0;35mi[0;1;35mC[0;1;37mE[0;1;35m] [0;1;37m⌐ [[0;1;30mi[0mC[1mE] - [[0;1;30mi[0mC[1mE] - [[0;1;30mi[0mC[1mE] -[0m'
+[1;30m [0;1;37m   [0;1;30m [0m [1m      [0;1;30m [0m [1m      [0;1;30m [0m [1m      [0;1;35m  [0;35m  [0;1;37m [0;1;35m [0;35m  [0;1;37m [0;1;35m   [0;35m  [0;1;37m [0;1;35m  [0;35m  [0;1;35m [0;35m [0;1;35m [0;1;37m [0;1;35m  [0;1;37m⌐  [0;1;30m [0m [1m      [0;1;30m [0m [1m      [0;1;30m [0m [1m    [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 454163d1d1c592a6f911f6f5e479f57ee6b8afb9761fbc6a6e161ba9e6a9607a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLACKLIG.ANS by HellSpawn (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, scaling, or background-space stripping; split only into contiguous source-row ranges at manually reviewed composition boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Read it
 # SAUCE Author: HellSpawn
 # SAUCE Group: iDENTiTY
@@ -41,7 +41,7 @@ Write-Host '
                                                        [31m▀██▄▌[0m
 [31m ▌[0m                                                       [31m███[0m     [31m▄■[0m
 [31m █[0m                                                       [31m▐███   ▀[0m
-[31m ▐█▄[0m       [1;30m"[0mC[1mo[0mM[1me i[0mNT[1mo [0mTH[1me [0mL[1mi[0mGHT[1;30m.. [0mTH[1me [0mBL[1ma[0mCK L[1mi[0mGHT[1;30m!!!"[0m     [31m▀███▄  ▀▄[0m
+[31m ▐█▄[0m       [1;30m [0m [1m [0m [1m   [0m  [1m  [0m  [1m  [0m [1m [0m   [1;30m   [0m  [1m  [0m  [1m [0m    [1m [0m   [1;30m    [0m     [31m▀███▄  ▀▄[0m
 [31m  ▓█▌[0m                                            [1;37m╫δ[0m         [31m▀███▄█▒▌[0m
 [31m ▐███[0m                                                         [31m███▓▒░[0m
 [31m ███[0m                   [31m▀▄[0m          [31m■[0m               [31m▄■[0m     [31m■▄  ▐███▓▓▌[0m
@@ -60,5 +60,4 @@ Write-Host '
 [35;40m [0;1;31;41m░[0;35;41m▓░░░░[0;31;40m█[0;35;41m░[0;31;40m██[0;35;41m░[0;31;40m████████████[0;1;31;41m░▒░[0;31m██[0;35;41m▒░[0;31;40m███[0;35;41m▄▀[0;31;40m██████████[0;35;41m░░[0;31;40m█[0;35;41m▒▒▓[0;31;40m█▓█[0;35;41m░[0;31;40m████████[0;35;41m░[0;31;40m███████[0;35;41m░░░░▒▓▓[0m
 [35;40m [0;1;31;41m░▒[0;35;41m░░░ ▓█▄▄[0;31;40m█[0;35;41m▄[0;31;40m██[0;35;41m▀[0;31;40m███████[0;1;31;41m▄▓▒░░[0;35;41m░[0;31;40m█[0;35;41m░░██▄[0;31;40m██████[0;35;41m░░[0;31;40m██[0;35;41m░░░▒[0;31;40m█[0;35;41m▒░▒▒[0;31;40m▓▓[0;35;41m░░[0;31;40m█████[0;35;41m░░░░[0;31;40m█[0;35;41m░░░▒░░░▒▓▓█[0m
 [35;40m [0;31;40m█████████▀▀▀▀▀▀▀▀▀▀████████████████▀▀▀▀▀▀█▓███████████▒▓██████████▀▀▀█████████[0m
-[31;40m ▓█▀▀ █[0m                [31;40m▀▀███▀█▌▀[0m           [31;40m▒ ▀ █▓████▓▓▀ ▀▀▀██▀▀[0m           [31;40m▀█▀█[0m
-'
+[31;40m ▓█▀▀ █[0m                [31;40m▀▀███▀█▌▀[0m           [31;40m▒ ▀ █▓████▓▓▀ ▀▀▀██▀▀[0m           [31;40m▀█▀█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 692943b4faa7c32f8bc28f87f1b95765d397b9f4f061d36626296ee2e0088f38
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RN-UG01.ANS by Rock & Roll Nigger (765); released in 765n001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Undergrown Logo
 # SAUCE Author: Rock & Roll Nigger
 # SAUCE Group: 765
@@ -38,4 +38,4 @@ Write-Host '
                                           [31m─[0;1;31m─ [0;31m─[0;1;31m·▐[0m
                                 [31m─ [0;1;31m─[0;31m──[0m
                                                                              [1;30m─[0m
-                                                                 [1;30m─ [0;34mcreep[0;35m/[0;31mjezebel[0m'
+                                                                 [1;30m─ [0;34m     [0;35m [0;31m       [0m'

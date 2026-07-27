@@ -5,7 +5,7 @@
 # Source SHA-256: b71ecad27b29a5302dc09ea68c3fd5a5410386f03ec7759900bee0f8fe307cbe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASS-04.ANS by ASS (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "Soul Assassin .. rAG nUMBAH fOUR?"
 # SAUCE Author: ASS
 # SAUCE Group: .rAGS 2 rICHES.
@@ -47,18 +47,17 @@ Write-Host '
 [31m ■[0;37m [0;31m▄[0;37m [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄ ▄ ▄[0;37m [0;31m ▄[0m
 [37m [0;31m▄▀▄▀▄▀[0;37m [0;31mthe GREETZ goes to:[0m                                                 [31m■[0m
 [37m [0;31m▄▀▄▓▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀ ▀ ▀  ▀   [0m
-[37m [0;31m█▓▓▒░[0;37m [0;31mLord of darkness: Try to find where I took the idea of this ansi:)[0m   [31m▀[0m
-[37m [0;31m█▓▒░[0;37m  [0;31mBibitte: Just cuz you''re a co0L guy![0m                                 [31m▄[0m
-[37m [0;31m█▒░[0m   [31mSnake Grunger: Your Savage Dragon is the best!;P[0m                     [31m▄[0m
-[37m [0;31m█░[0m    [31mStaline or the Russ Koff: for the fun to greetz you[0;37m [0;31mpal!;-W[0m          [31m▄[0m
-[37m [0;31m█ [0m    [31mSkull Fire: I''m glad to have you in our group!*<8-D[0m                  [31m▀[0m
-[37m [0;31m█[0m     [31mMage: That''s the way!;)[0m                                              [31m█[0m
-[37m [0;31m▄[0m     [31mMorgoth: Engarde![0m                                                   [31m░█[0m
-[37m [0;31m▀[0m     [31mThe Night Angel: Peace man![0m                                        [31m░▒█[0m
-[37m [0;31m▀[0m                          [31mAnd All the other SAD members![0m              [31m ░▒▓█[0m
+[37m [0;31m█▓▓▒░[0;37m [0;31m                                                                  [0m   [31m▀[0m
+[37m [0;31m█▓▒░[0;37m  [0;31m                                    [0m                                 [31m▄[0m
+[37m [0;31m█▒░[0m   [31m                                                [0m                     [31m▄[0m
+[37m [0;31m█░[0m    [31m                                                   [0;37m [0;31m       [0m          [31m▄[0m
+[37m [0;31m█ [0m    [31m                                                   [0m                  [31m▀[0m
+[37m [0;31m█[0m     [31m                       [0m                                              [31m█[0m
+[37m [0;31m▄[0m     [31m                 [0m                                                   [31m░█[0m
+[37m [0;31m▀[0m     [31m                           [0m                                        [31m░▒█[0m
+[37m [0;31m▀[0m                          [31m                              [0m              [31m ░▒▓█[0m
 [37m [0;31m▀[0m                                                                     [31m ░▒▓▓█[0m
-[37m [0;31m▄[0m     [31mthe[0;37m [0;5;31mFUCK[0;31m go to:[0;37m [0;5;31mFernando BBS[0m                                    [31m▒▓▄▀▄▀[0m
-[37m [0;31m [0m    [31m                [0;37m [0;31mcuz the SysOp is a real motha fucka![0m            [31m▄▀▄▀▄▀[0m
+[37m [0;31m▄[0m     [31m   [0;37m [0;5;31m    [0;31m       [0;37m [0;5;31m            [0m                                    [31m▒▓▄▀▄▀[0m
+[37m [0;31m [0m    [31m                [0;37m [0;31m                                    [0m            [31m▄▀▄▀▄▀[0m
 [37m [0;31m■[0m     [31m       ▀  ▀ ▀ ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀ ■[0m
-                                                                             [31m▀[0m
-[37m [0;31m [0m'
+                                                                             [31m▀[0m'

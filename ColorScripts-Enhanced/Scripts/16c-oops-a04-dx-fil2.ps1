@@ -5,7 +5,7 @@
 # Source SHA-256: 4004189d19a3b8a4eac8943a96576bd408ef37259bbb6f425be1b8d309e82005
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX!-FIL2.ANS by Drax (oops_a04); released in oops_a04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -22,14 +22,4 @@ Write-Host '
     [32ml$$$$$$$$?ⁿ∩[0m    [32m `ⁿ?$$$$::$$$$?ⁿ∩ `ⁿ?$$$$$$$$: `ⁿ?$$$$$$$$:   :$[0;1;32m$$$[0;32m$$io. [0m
     [32m:$$$$?ⁿ∩  [0m      [32m     `ⁿ?  ?ⁿ∩     [0m   [32m `ⁿ?$$$$l[0m    [32m `ⁿ?$$$$l[0m   [32m:$$$$$[0;1;32m$[0;32m$$:`[0m
     [32m ?ⁿ∩      [0m               [32m [0m           [32m     `ⁿ?$.[0m   [32m     `ⁿ?$.  l$$$$$$$?[0m
-    [32m [0m                                   [32m   [0m       [32m [0m            [32m   $$$$$?ⁿ∩[0m
-                                              [1;33m:[0;1;32m![0;32m [0;1;37mFILE[0;32m [0;1;37mLISTING[0;32m [0;1;32m![0;1;33m:[0;32m j$?ⁿ∩[0m
-                                                                [37m [0m
-
-                                      [37m [0m           [37m [0m
-                                      [37m [0m           [37m [0m
-                                      [37m [0m           [37m [0m              [37m [0m
-
-
-
-                   [37m [0m                                            [37m [0m'
+    [32m [0m                                   [32m   [0m       [32m [0m            [32m   $$$$$?ⁿ∩[0m'

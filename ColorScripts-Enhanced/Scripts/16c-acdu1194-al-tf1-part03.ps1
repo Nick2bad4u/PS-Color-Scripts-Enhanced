@@ -5,7 +5,7 @@
 # Source SHA-256: 3ce8b17896cda61805538b5479dae3727264d0b0161d8fe8fbe355b2592aec90
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AL-TF1.ANS by Animal (ACiD Productions); released in acdu1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Terra Firma
 # SAUCE Author: Animal
 # SAUCE Group: ACiD Productions
@@ -57,9 +57,9 @@ Write-Host '
 [1;33m▓   ▀[0m     ▒  [1;33m▀▀▀█▄▄  ▀    [0;1;31m▒   [0m▒  [1;33m▀    ▀▀▒    ▀▀ ▀   [0;1;31m▒   [0m▒  [1;33m▀▄  [0;1;31m▒ [0;1;33m▀   ▀▓  ▀ ▀▀▄▌[0m
 [1;33m▒[0m     [1;33m    [0m░ [1;33m       ▀      [0;1;31m░   [0m░ [1;33m        ░           [0;1;31m░   [0m░ [1;33m     [0;1;31m░[0;1;33m      ▒ [0m      [1;33m▀[0m
 [1;33m░[0m                                                                     [1;33m░[0m
-     [1;33mSysops : Somms <ACiD> , Terminator 2 <ACiD> , Kool [UNiON] , Streaker[0m
+     [1;33m                                                                     [0m
 
-     [1;33m░[0m        [1;33mLatest Obv/2, Usr 28.8k Dual, ACiD Western Agora![0m             [1;33m░[0m
+     [1;33m░[0m        [1;33m                                                 [0m             [1;33m░[0m
 [1;33m▓    ▒[0m                                                                      [1;33m▒  [0m
-[1;33m▀█▄▄ ▓[0m      [1;33mAnimal Da Canibal Productions with ACiD ! [27/10/94] ![0m         [1;33m▄▓▄█[0m
+[1;33m▀█▄▄ ▓[0m      [1;33m                                                      [0m         [1;33m▄▓▄█[0m
 [1;33m▀██▓▀▓██▀▄▄[0m      [1;33m▄[0m                                                [1;33m▄   ▄▄▄▓█▀▀█▀[0m'

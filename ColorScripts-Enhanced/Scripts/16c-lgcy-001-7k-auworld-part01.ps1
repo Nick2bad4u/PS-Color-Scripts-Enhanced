@@ -5,7 +5,7 @@
 # Source SHA-256: 6c8a7a9daf445aaae0a8941d439fea5bc9c12f7df730eacd92985cf5e921161d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 7k-auworld.ans by The Knight (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ACiD Underworld
 # SAUCE Author: The Knight
 # SAUCE Group: Legacy Krew
@@ -17,7 +17,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                               [37;40m7k.Legacy.[0m
+                                                               [37;40m          [0m
            [1;30;40m▒▒▒[0;1;31;40m ▄▄▄▄▄▄    [0;1;30;40m▄▄▄██▀█[0;1;31;40m [0;31m▄[0;1;31m▄▄[0m▄▄▄[31m▄  [0;1;30m▀▀█████▄▄ [0;1;31m▄▄▄▄▄▄  ▄▄▄▄▄▄[0;1;30m▄▄[0m     [1;30m▄▄▄▄[0m
        [1;30m▓▓▓▓▓▀[0;31m▄ [0;1;31m███▌▌  [0;1;30m▒▄██▀▀[0;1;31m [0;31m▄[0;1;31m▄[0;1;31;41m█▀████████[0;1;31;47m▄[0;1;31;40m▄[0m▄ [1;30m▀▓▓▒▀[0m [1;31m▄██[0;1;31;41m▄▄[0;1;31;40m▀[0;31m▄   [0;1;31m▀[0;1;31;41m▀[0;1;31;40m██████[0;1;31;41m▄[0;1;31;40m█▄▄ [0;1;30;40m▀▄███[0m
 [1;31;40m  [0;1;30;40m░[0;1;31;40m [0;1;30;40m▄▄▓▀██▀[0;1;31;40m [0;31m▄█ [0;1;31;47m▓[0;1;31;40m██▌▌ [0;1;30;40m▓██▄[0;1;31;40m  ▄[0;1;31;41m████████████[0;1;31;40m█████▄ [0;1;30;40m░[0;1;31;40m  ▄[0;1;31;47m▓▓▓▓[0;1;31;40m [0;1;31;41m ░[0;1;31;40m  █▄  [0;1;30;40m▀[0;1;31;40m▀[0;1;31;41m▀▀▀█[0;1;31;40m██[0;1;37;47m▀▄[0;1;31;40m▄  [0;1;30;40m▓█[0m

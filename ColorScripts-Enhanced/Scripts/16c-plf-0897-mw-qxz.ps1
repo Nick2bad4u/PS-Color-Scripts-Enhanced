@@ -5,7 +5,7 @@
 # Source SHA-256: b1da0e486249644464a69a33616115221044857231b63ea79759122f7c0aad63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-QXZ.ANS by mangowhac (poffelipoff); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: typical plf ansee
 # SAUCE Author: mangowhac
 # SAUCE Group: poffelipoff
@@ -34,6 +34,4 @@ Write-Host '
       [31m▓▀[0m      [37m░▄[0m      [37m░░[0m       [32m▀▀▓[0;1;32;42m▀▀▐▓▓▒▒▒[0;32m▄[0;1;32;42m░[0;32m▀[0m
 [32m     [0;31m░[0m      [1;37m"bild ur mitt liv"    [0;32m░░▀▐[0;1;32;42m▀[0;32m▓[0;1;32;42m▒░░[0;32m▌[0m
                                        [32m▓▀[0;1;32;42m ░[0;32m█[0m
-      [1;37mdet stod först dv men sen blev   [0;32m░   ▀▀[0m
-[32m   [0;1;37mdet helt galet... En typisk plf ansi,[0m
-               [1meller hur ...[0m'
+      [1;37m                                 [0;32m░   ▀▀[0m'

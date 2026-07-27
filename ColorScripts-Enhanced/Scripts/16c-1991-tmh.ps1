@@ -5,7 +5,7 @@
 # Source SHA-256: 7e12492e91ba87ead4779ac7729330d90623100a7fd2473517ce8b8f93d97e27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TMH.ANS by Black Spyrit (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -44,8 +44,8 @@ Write-Host '
       [34m▀▀▀▀▀▀[0m      [34m█ [0;1;37m██▄▄██ [0;34m█[0m                                      [34m▀▄▄▄▄▀[0m
 [1;30m───────────[0m────── [34m▀▄[0;1;30m▀[0;1;37m▀▀▀▀[0;1;30m▀[0;34m▄▀ [0;1;30m─  [0;1;33mH  I  D  E  O  U  T [0;1;30m─[0m─[1m─────[0m──────────[1;30m──────────[0m
                     [34m▀▀▀▀▀▀[0m
-[34m [0;1;36mS[0;36mysop: [0;1;36mM[0;36mystic [0;1;36mW[0;36marrior ∙ [0;1;36m([0;36m514) [0;1;36m3[0;36m59-[0;1;36m7[0;36m133 ∙ [0;1;36mC[0;36melerity/[0;1;36mC[0;36melerityNET ∙ [0;1;36mD[0;36mual [0;1;36mS[0;36mtandard[0m
+[34m [0;1;36m [0;36m      [0;1;36m [0;36m      [0;1;36m [0;36m         [0;1;36m [0;36m     [0;1;36m [0;36m   [0;1;36m [0;36m      [0;1;36m [0;36m        [0;1;36m [0;36m             [0;1;36m [0;36m    [0;1;36m [0;36m       [0m
 
-         [1;36mC[0;36mo-[0;1;36mS[0;36mysop: [0;1;36mD[0;36muracell [0;1;36mR[0;36mabbit ∙ [0;1;36m4[0;36m50 [0;1;36mM[0;36megs [0;1;36mO[0;36mnline ∙ [0;1;36m4[0;36m00+ [0;1;36mM[0;36mOD [0;1;36mF[0;36miles[0m
+         [1;36m [0;36m  [0;1;36m [0;36m      [0;1;36m [0;36m        [0;1;36m [0;36m        [0;1;36m [0;36m   [0;1;36m [0;36m    [0;1;36m [0;36m        [0;1;36m [0;36m    [0;1;36m [0;36m   [0;1;36m [0;36m    [0m
 
 [1;30m───────────[0m────────────[1m──────────────────────────────────[0m────────────[1;30m──────────[0m'

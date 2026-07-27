@@ -5,7 +5,7 @@
 # Source SHA-256: a6bf9bcdf3d55c3f7594d3c15c604860f2dfdeb81c1d5aa105334d7f63a3bcdf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-SLOAD.ANS by ize (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: speed loader
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -24,8 +24,4 @@ Write-Host '
    [1;37;40m [0;31m▐[0;30;41m░░[0;31;40m▌ [0;1;36;46m░▓▄[0;36m█░[0;31m░[0;1;33;41m░░[0;31m█▐[0;1;33;41m░░[0;31m▌[0;37m [0;36m▄▄[0;1;36;46m▄▄▄▄▄[0;36m█░[0;31m▐[0;1;33;41m░░[0;31m▌[0;33m [0;1;36;46m░▓▄[0;36m█[0;30;46m▓[0;31;40m░[0;1;33;41m░░[0;31m█[0;1;33;41m░░[0;31m▌ [0;1;36;46m░▓▄[0;36m█[0;30;46m▓[0;31;40m░[0;1;33;41m░░[0;31m███[0;1;33;41m░[0;31m░ [0;36m▄[0;1;36;46m░█▌[0;36m░[0;31m▐[0;1;33;41m░░[0;31m▌[0;37m [0;36m  [0m
    [1;37m [0;31m▐[0;1;33;41m░░[0;31m▌[0;37m [0;36m▀[0;37m [0;31m▄[0;1;33m▄▄[0;1;33;41m▄▓▌[0;31m░▐[0;1;33;41m▓▓[0;31m▌[0;36m ▀▀▀▐[0;1;36;46m░▓▀[0;36m█[0;30;46m▓[0;31;40m▐[0;1;33;41m▓▓[0;31m▌[0;33m [0;36m▀[0;37m [0;31m▄[0;1;33m▄▄[0;1;33;41m▄▓▌[0;31m▐[0;1;33;41m▓▓[0;31m▌[0;33m [0;36m▀[0;37m [0;31m▄[0;1;33m▄▄[0;1;33;41m▄▓▌[0;31m ░[0;1;33;41m░▓▓[0;1;33;40m▄▄[0;31m▄[0;37m [0;36m▀[0;37m [0;31m▐[0;1;33;41m▓▓[0;31m▌[0;37m [0;36m [0m
    [1;37m [0;31m░[0;1;33;41m▐▓▓▀▀▀[0;1;33;40m▀▀[0;31m▀[0m   [31m ░[0;1;33;41m▐█▌[0;31m [0;36m▐██▄█[0;1;36;46m░[0;36m█[0;30;46m▓[0;37;40m [0;31;40m░[0;1;33;41m▐██▀▀▀[0;1;33;40m▀▀[0;31m▀[0;36m▄▄[0;37m [0;31m░[0;1;33;41m▐██▀▀▀[0;1;33;40m▀▀[0;31m▀[0;37m [0;36m▄▄▄▄▄▄[0;37m [0;31m▀[0;1;33m▀▀[0;1;33;41m▀▀▀██▌[0;31m░[0m
-   [1;37m [0;31m░▀▀▀[0;37m [0;36m▄▄▄▀▀▀▀[0;37m  [0;31m░▀▀▀[0;37m [0;36m▀▀▀▀▀▀▀░[0;37m [0;31m ▀▀▀░[0;30;41m▓[0;37;40m  [0;36;40m▀▀ [0;37;40m  [0;31;40m ▀▀▀[0m    [36;40m▀▀▀[0m    [36;40m░[0;30;46m▓[0;36;40m▀▀▀▄[0;37;40m [0;31;40m░[0;30;41m▓[0;31;40m▀▀▀ [0m
-            [36;40mSpeed loader @phonyeye and stuff ..[0m
-
-     [1;37;40mperhaps this logo is way to big, again ;)[0m [1mbut .. I _hate_ smallscale[0m
-      [1mso dont ask me for a header or something!  - ize[0m'
+   [1;37m [0;31m░▀▀▀[0;37m [0;36m▄▄▄▀▀▀▀[0;37m  [0;31m░▀▀▀[0;37m [0;36m▀▀▀▀▀▀▀░[0;37m [0;31m ▀▀▀░[0;30;41m▓[0;37;40m  [0;36;40m▀▀ [0;37;40m  [0;31;40m ▀▀▀[0m    [36;40m▀▀▀[0m    [36;40m░[0;30;46m▓[0;36;40m▀▀▀▄[0;37;40m [0;31;40m░[0;30;41m▓[0;31;40m▀▀▀ [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 621a18eca28203759b17e255a43e3481a9b7c969f3f6be9fe47934a3b9342651
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: po-uglee.ans by Portia (equate01); released in equate01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -16,9 +16,9 @@ Write-Host '
 [36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 
        [1;37m [0;1;36m@@[0m [1m###  [0;1;34m  [0;1;37m                                                              [0m
-        [1;36m@@[0m      [1;34m░░[0m             [1;34mj[0;32m take my cum[0;1;33m          [0m
-        [1;36m@@[0m      [1;34;45m░░[0;35m▄ [0m           [1;34mb[0;32m ugh mmmmmmm[0m
-        [1;36;45m@@[0m   [35m░▄▀▀[0;1;34m [0m [35m▀▄ [0;37m [0;35m  [0m      [1;34mj[0;32m yeh bitch[0m
+        [1;36m  [0m      [1;34m░░[0m             [1;34m [0;32m            [0;1;33m          [0m
+        [1;36m  [0m      [1;34;45m░░[0;35m▄ [0m           [1;34m [0;32m            [0m
+        [1;36;45m  [0m   [35m░▄▀▀[0;1;34m [0m [35m▀▄ [0;37m [0;35m  [0m      [1;34m [0;32m          [0m
         [1;36;45m@@[0m  [35m ▀█▄ [0m   [35m▐▌[0m         [1;34mb[0;32m mmmm slll[0;37m [0;1;34m [0m
         [1;36;45m@@[0;1;33;40m [0;30;45m▓[0;35;40m▐▌[0;37;40m  [0;35;40m▀▀▄▄ █[0m         [1;34;40mj[0;32m ughh[0m      [1;34m░[0m
         [1;36;45m@@[0;35m   ▀▄[0m     [35m▀[0;37m [0;35m [0m        [1;34mj[0;1;35m [0;1;34m*squirts*[0m [1;34m░[0m [1;34m░░[0m
@@ -31,17 +31,17 @@ Write-Host '
       [35m  [0;30;45m░░[0;35;40m  [0m            [35;40m▀▀[0m   [1;33;40m▐[0;1;33;45m▓[0m       [35m▀[0;37m [0;35m▄▄▓▓[0;37m  [0;35m▄▀[0m    [37m [0;1;37m█▀▐[0m [1m▄▀▀▄[0m   [1m▄▄[0m
       [35m  [0;30;45m▓▓[0;35;40m  [0m                  [1;33;45m█[0;1;33;40m▌[0m [35m▀[0m       [35m▀[0;37m [0;35m░░[0m        [1;37;47m▓[0m▄[1m▀[0m [1m█[0m  [1m▐▌[0m [1m▀[0;1;33m  [0m
       [35m  ░[0;30;45m▓[0;35;40m  [0m                  [1;37;40m█[0;1;33;40m▀░[0m                   [1m ▀[0m    [1m▀[0m [1m░[0m
-      [35m  ░░  [0m                                         [34mif i fuct a dog[0m
-      [35m  ░[0;30;45m▓[0;35;40m  [0m                                         [34;40mwould u treat me good[0m
-      [35;40m  ░░  [0;1;34;40m     [0m                                    [1;34mpeee oohh[0m
+      [35m  ░░  [0m                                         [34m               [0m
+      [35m  ░[0;30;45m▓[0;35;40m  [0m                                         [34;40m                     [0m
+      [35;40m  ░░  [0;1;34;40m     [0m                                    [1;34m         [0m
       [35m  ▒▒  [0m
-      [35m  [0;30;45m░[0;35;40m▓  [0m                       [1;31;40masian sex[0m
-        [30;45m░░[0m                        [1;32;40mcall me oddfish[0m
-        [1;33;45m11[0;35m                      [0;34mlucky fucker[0;35m                                    [0m
-        [1;33;45m33[0m                        [1;35m1ucky star[0m
-        [1;33;45m33[0m                     [1;36ms3xual being [0m
-        [1;33;45m33[0m                        [1;33msexua1 feeling[0m
-        [1;33;45m66[0m                          [1;34;44mfuc[0;30;44mj[0;1;34;44mthr blond3[0m
+      [35m  [0;30;45m░[0;35;40m▓  [0m                       [1;31;40m         [0m
+        [30;45m░░[0m                        [1;32;40m               [0m
+        [1;33;45m  [0;35m                      [0;34m            [0;35m                                    [0m
+        [1;33;45m  [0m                        [1;35m          [0m
+        [1;33;45m  [0m                     [1;36m             [0m
+        [1;33;45m  [0m                        [1;33m              [0m
+        [1;33;45m  [0m                          [1;34;44m   [0;30;44m [0;1;34;44m          [0m
         [1;33;45m66[0m
         [1;33;45m66[0m                          [1m [0m
         [1;33;45m@@[0m                 [31m▄[0m     [1;36m   [0;1;37m [0;1;36m  [0m   [31m▐[0;37m [0;31m▓▄[0m

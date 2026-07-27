@@ -5,7 +5,7 @@
 # Source SHA-256: 50626db2081940aabef217267cb49cd8cd363c13e8e7b02172669240696c1153
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ICP-GJ.ANS by Icepick (RAGE); released in rage964a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Green
 # SAUCE Author: Icepick
 # SAUCE Group: RAGE
@@ -30,8 +30,4 @@ Write-Host '
 [36m ▀  ▀ ▄ ░[0m              [36m░[0m         [36m▀■ ▀▄[0;1;36;46m░[0;36m▄[0m             [36m░  ▀ ▀█[0;1;36;46m░[0;36m█  ▄[0m          [36m▀  ▀[0m
 [36m▄[0;1;36;46m░[0;36m▄ ▀[0m                       [36m▀   ▀[0m     [36m▀[0m                 [36m▀  ▄ ▀■[0m          [36m▀  ▀ ▀[0m
 [36m ▀   ▀[0m                          [36m▄   ▀[0m                          [36m▀[0m            [36m▀[0m
-[36m([0;1;36mF[0;36m) [0;1;32mF[0;32mile Dir''s[0m      [36m([0;1;36mR[0;36m) [0;1;32mR[0;32mead Messys[0m     [36m([0;1;36mG[0;36m) [0;1;32mC[0;32mya L8r[0m         [36m▀([0;1;36mO[0;36m) [0;1;32mB[0;32mug Me[0;36m▄  ▀■[0m
-[36m([0;1;36mU[0;36m) [0;1;32mU[0;32mpload Warez    [0;36m([0;1;36mE[0;36m) [0;1;32mE[0;32mnter Messages  [0;36m([0;1;36mTOP[0;36m) [0;1;32mT[0;32mop Ul/Dl[0m      [36m([0;1;36mLAS[0;36m) [0;1;32mL[0;32mast Calls[0m
-[36m([0;1;36mD[0;36m) [0;1;32mD[0;32mownload Stuff  [0;36m([0;1;36mQ[0;36m) [0;1;32mQ[0;32muick Messy Scn [0;36m([0;1;36mULB[0;36m) [0;1;32mU[0;32mlb Info[0m       [36m([0;1;36mRSM[0;36m) [0;1;32mR[0;32mesume Dl[0m
-[36m([0;1;36mZ[0;36m) [0;1;32mZ[0;32mippy search    [0;36m([0;1;36mW[0;36m) [0;1;32mC[0;32mhange Ur Info  [0;36m([0;1;36mACR[0;36m) [0;1;32mA[0;32mcr Translator [0;36m([0;1;36mAUT[0;36m) [0;1;32mA[0;32muto Sig[0m
-[36m([0;1;36mL[0;36m) [0;1;32mL[0;32mocate Filename [0;36m([0;1;36mM[0;36m) [0;1;32mM[0;32mode (Anc/Asc)  [0;36m([0;1;36mWWF[0;36m) [0;1;32mP[0;32mcb Wrestling  [0;36m([0;1;36mTIM[0;36m) [0;1;32mD[0;32migi Clock[0m'
+[36m [0;1;36m [0;36m  [0;1;32m [0;32m         [0m      [36m [0;1;36m [0;36m  [0;1;32m [0;32m          [0m     [36m [0;1;36m [0;36m  [0;1;32m [0;32m      [0m         [36m▀ [0;1;36m [0;36m  [0;1;32m [0;32m     [0;36m▄  ▀■[0m'

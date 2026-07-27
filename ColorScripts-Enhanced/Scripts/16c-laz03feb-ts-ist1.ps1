@@ -5,7 +5,7 @@
 # Source SHA-256: 4c07d7acd0b2a11446aa2300bfacd0c17b270e67c46fd8fbd6ea1499b6299bad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-IST1.ANS by tr(ansi)ent (l(aza)rus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: (i)star
 # SAUCE Author: tr(ansi)ent
 # SAUCE Group: l(aza)rus
@@ -15,13 +15,13 @@
 # Columns: 1-80
 
 Write-Host '
-                           [1;30mtr[0m([1mansi[0m)[1;30ment presents..[0m
+                           [1;30m  [0m [1m    [0m [1;30m              [0m
                        [1;37m▄▄[0m     [1;37m▄▄▄▄[0m  [1;37m   [0m    [1;37m    [0m
                        [1;37m▀▀[0m  [1m██▀▀▀[0m [1m▀[0m [1m▀▀██▀██[0m [1m▄██▄[0m   [1m▄██▄[0m
                         [1m██[0m  [1m▀▀▀▀██[0m  [1m▐█▌[0m  [1m ▐█▄██[0m  [1m▐█▄█▀[0m
                         [1m▐█▌[0m [1m▀▀▄▄██[0m  [1m██[0m    [1m██[0m [1m▐█▌[0m [1m██[0m [1m▐█ [0m
                                               [1m▀▀[0m     [1m▀▀[0m
-                       [1mpeace, flowers, freedom, happiness[0m
+                       [1m                                  [0m
 
                           [1;30ml[0ml[1;30m. a[0ma[1;30m. z[0mz[1;30m. a[0ma[1;30m. r[0mr[1;30m. u[0mu[1;30m. s[0ms
         [1m    [0m                                                      ▀▀ ▄▄▄▄█[1;47m▒▒░░░[0m█
@@ -61,6 +61,4 @@ Write-Host '
     [1;37m░[0m       [1;37m░[0m       [1;37m░[0m                                       [1;31m▐[0;1;31;43m▓▒░[0;33m██▓▒░[0m [1;31;43m▓[0;1;31;47m▓[0;1;31;43m░[0m    [1;31;43m▓▒░[0m
                                                          [31m░[0m  [1;31m▐▌[0m  [33m░░[0m   [1;31m▄[0;1;31;43m▓[0;1;31;47m▓[0;1;31;43m░[0m    [1;31;40m▐[0;1;31;47m▓[0;1;31;43m░[0m
                                                              [1;31;40m█▄[0m [1;31;43m░░[0m [1;31;40m▄[0;1;31;43m▓▒░[0;33m▀[0m     [1;31m▐[0;1;31;47m▓[0;1;31;43m░[0m
-[1;37;40mits always good to have someone to hold.[0m                      [1;31;40m▀▀[0;33m▀▀▀▀▀[0m        [1;31m▀[0;33m▀▀[0m
-[37mwhatabeautifultripitsbeen.![0m
-[1;30mtransient!~(lazarus)1962,..[0m'
+[1;37;40m                                        [0m                      [1;31;40m▀▀[0;33m▀▀▀▀▀[0m        [1;31m▀[0;33m▀▀[0m'

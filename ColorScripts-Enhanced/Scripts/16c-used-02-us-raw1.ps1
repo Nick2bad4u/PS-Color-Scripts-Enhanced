@@ -5,7 +5,7 @@
 # Source SHA-256: 17256ec1bf1c2d71a544402b9223af37327bad1121416ab2d31b8e0bf8aa9c8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-raw1.ans by Spear + Produkt (used-02); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Raw
 # SAUCE Author: Spear and Produkt
 # SAUCE Date: 19991216
@@ -53,14 +53,5 @@ Write-Host '
               [30;44m░[0;34;40m██[0m    [34;40m█[0;1;34;44m▀[0;34m█▄▄▀▀▀[0m    [34m▀▀▀▄▄[0;37m [0;34m█[0;1;34;44m░▄[0;34m▄▄▄[0;30;44m░[0;34;40m▓▄▄[0;30;44m░[0;34;40m▓█[0;1;34;44m▄[0;1;34;47m▓▓[0;1;34;44m▀▀[0;34m▀▀[0m   [34m▀▀[0;1;34;44m▀[0;34m▄[0;1;34;44m▄▓▓[0;34m▄▀▀▀[0;1;34m▄▀[0m
               [30;44m▒[0;34;40m█ [0m     [34;40m█[0;30;44m░[0m              [34;40m▀[0;1;34;44m▀▓[0;34m▀[0m   [34m▀█[0;1;34;44m▀▒[0;34m▀▀[0;1;34;44m▀█▀[0;34m▀[0m           [34m▀[0;1;34;44m▄ ▀▀[0;34m▀▀[0m
               [34m░▀[0m      [34m▀[0;30;44m▒[0;37;40m  [0;1;30;40m            [0m [34m▀▌[0m      [30;44m░[0m    [34;40m█[0m               [34;40m▓[0m
-                       [34;40m░[0;37;40m  [0;1;30;40mRAW LETTERING[0m  [1;30m1999[0m  [34m░[0;37m  r[0;1;30maw like dat ass [0m [34m▒[0m
-                                                                    [34m░[0m
-[37m [0m
-[37m [0m
-
-
-[37mfont outlines[0;1;33m/[0mbg[1;30m[[0mspear[1;30m][0m           rAW iS wAR!@$           bg[1;30m/[0mcoloring0r[1;30m[[0mprodukt[1;30m][0m
-(see that weird hand I drew? :P)
-
-
-                       RAW IS GOOOD HAHAHAHAHAHhaHAHAHAHAHAHHAHAH -50linemark[0m'
+                       [34;40m░[0;37;40m  [0;1;30;40m             [0m  [1;30m    [0m  [34m░[0;37m   [0;1;30m                [0m [34m▒[0m
+                                                                    [34m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 98cd8040bae9a335e092a66a5f9f023ca5e4f2f852e1a92661c4c07f675c3e91
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: nu+sdn-xibalba.ans by Nuskooler + Sudden Death (blocktronics_baud_dudes); released in blocktronics_baud_dudes and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Xibalba Girl
 # SAUCE Author: NuSkooler+Sudndeath
 # SAUCE Date: 20160111
@@ -55,11 +55,11 @@ Write-Host '
 
                       [31mX    [0;1;33mi[0m     [1;31mB[0m     [1;31mA[0m     [1;31mL[0m     [1;31mB[0m     [31mA[0m
 
-                              [33menigma[0;31m½ [0;33mbbs soft whq[0m
+                              [33m      [0;31m  [0;33m            [0m
 
-                                 [1;31m+o [0;31mnuskooler[0m
+                                 [1;31m   [0;31m         [0m
 
-                            [1;30mxibalba[0m.[1;30ml33t[0m.[1;30mcodes 44510[0m
+                            [1;30m       [0m [1;30m    [0m [1;30m           [0m
 
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 0ca6865dc812b3f24b561b9a50f17da96496c3b8f578ca149f1ead062c4556fa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DNK1.ANS by Cheeze + Defiant (eclipse/? =)); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: doink joint #01
 # SAUCE Author: cheeze/defiant
 # SAUCE Group: eclipse/? =)
@@ -34,5 +34,4 @@ Write-Host '
      [36m▀[0;1;36m▀▀▀▀[0;1;36;46m▀[0;1;36;40m███[0;1;36;46m▄[0;36m▄  [0;1;30m██[0;36m [0;37m▀▀▄[0;1;37m▄▄[0;1;37;47m▄▀[0m▀[1;47m▀▓▓[0m█▐[36m [0;37m▌[0;1;30m ██▄▄▄[0;36m ▐[0;1;32;46m [0;36m█ ▄[0;1;32;46m░░▒▒[0;36m▌[0;1;30m ▄[0;1;30;47m▓▓[0;1;30;40m██▄▄▄[0;36m ░[0;1;36;46m░[0;1;36;40m█[0;1;36;46m [0;36m░[0;1;30m ▓▌[0;36m▐[0;1;36;46m▐[0;1;36;40m█[0;1;37;40m██[0;1;36;46m▌[0;36m▌▌[0m
     [1;30m ████▄▄▄ [0;36m▀[0;1;36m▀▀[0;1;36;46m░[0;36m▄ [0;1;30m▀██▄▄[0;36m [0;37m▀[0;1;37m▀[0;1;37;47m▀ [0m░[36m [0;1;30m▄▄▄▄▄▄[0;1;30;47m▓▓▓[0;1;30;40m███[0;36m [0;1;32;46m ░░▒▒▒▓▓[0;36m▌[0;1;30m ▐█████▀[0;36m ▄[0;1;36;46m▄[0;1;36;40m█[0;1;36;46m▌[0;36m▌ [0;1;30m▄█[0;36m █[0;1;36m▀[0;36m▀ [0;1;30m [0m
      [1;30m░░░░░░░   [0m   [36m▀ [0;1;30m ░░░   [0;36m  [0;37m▀[0;36m [0;37m▄[0;36m [0;1;30m  ░░░░░░░░[0;36m  ▀▀[0;1;32;46m▀▓▓██▄[0;36m▄ [0;1;30m  ░░░[0;36m ▀[0;1;36m▀▀[0;1;36;46m▀░[0;36m░ [0;1;30m  [0m   [1;30m   [0m
-                    [36m▀[0m                               [36m▀[0;1;32m▀▀[0;36m▀[0m          [36m▀ [0;1;30m [0m
-[1;30m  [0m     [1;30mjoint by defiant and cheeze. dt did logo outline, cz did the rest.[0m'
+                    [36m▀[0m                               [36m▀[0;1;32m▀▀[0;36m▀[0m          [36m▀ [0;1;30m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 18bc009f919a48e9f34d380233a580b521cf9339b54dede277c7279d7d0442a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PD_ECO.ANS by PoSeidon (OSF); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 1st contribution
 # SAUCE Author: PoSeidon
 # SAUCE Group: OSF
@@ -40,9 +40,9 @@ Write-Host '
   [1;30m·[0;1;37mT[0;1;30m·[0;1;37mH[0;1;30m·[0;1;37mE[0;1;30m·[0;1;37mR[0;1;30m·[0;1;37mE[0;1;30m··[0;1;37mI[0;1;30m·[0;1;37mS[0;1;30m··[0;1;37mA[0;1;30m·[0;1;37mL[0;1;30m·[0;1;37mW[0;1;30m·[0;1;37mA[0;1;30m·[0;1;37mY[0;1;30m·[0;1;37mS[0;1;30m··[0;1;37mP[0;1;30m·[0;1;37mO[0;1;30m·[0;1;37mS[0;1;30m·[0;1;37mE[0;1;30m·[0;1;37mI[0;1;30m·[0;1;37mD[0;1;30m·[0;1;37mO[0;1;30m·[0;1;37mN[0;1;30m··[0;1;37mT[0;1;30m·[0;1;37mO[0;1;30m··[0;1;37mS[0;1;30m·[0;1;37mC[0;1;30m·[0;1;37mR[0;1;30m·[0;1;37mO[0;1;30m·[0;1;37mL[0;1;30m·[0;1;37mL[0;1;30m··[0;1;37mI[0;1;30m·[0;1;37mT[0;1;30m··[0;1;37mU[0;1;30m·[0;1;37mP[0;1;30m·[0m
 
 
-[1;30m   Yowh! Word↑ evry1. Thiziz tha PoSeidon OSF speakin2yall. Thiziz my first    [0m
-[1;30m   contribution to tha Ecolove packz. Guez I''m tha new memba of tha ECO, so[0m
-[1;30m   therez need 4 sum introduction bout me. Well, ta bad, tha ain''t gonna be[0m
-[1;30m   one, if ya wunna know me, mail me or just ask[0m [1;30msum dewdz who know me. Now[0m
-[1;30m   only sum greetz:[0;1;37m Intellium Steel↔WausMaus↔Nestor↔Crackdown↔NoWhereMan[0m
-                    [1m  Predator↔Zek Killah↔The Reaper↔SWR↔KOT G↔ECO-dewdz[0m'
+[1;30m             ↑                                                                 [0m
+[1;30m                                                                           [0m
+[1;30m                                                                           [0m
+[1;30m                                                [0m [1;30m                          [0m
+[1;30m                   [0;1;37m                ↔        ↔      ↔         ↔          [0m
+                    [1m          ↔          ↔          ↔   ↔     ↔         [0m'

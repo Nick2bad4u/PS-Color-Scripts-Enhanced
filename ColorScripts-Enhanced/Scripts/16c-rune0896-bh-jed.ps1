@@ -5,7 +5,7 @@
 # Source SHA-256: fccf645fdcfc9fa2e328ea06f4e5af99e59ed806538012bf636940c9923652c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BH-JED.ANS by blackehawke (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: jed of ACiD?!
 # SAUCE Author: blackehawke
 # SAUCE Group: rune
@@ -18,7 +18,7 @@ Write-Host '
 [1;34;44m▒▓[0;1;34;40m■  ▐[0;1;34;44m▓[0;1;34;40m▌▐[0;1;34;44m▒[0;34m▌ [0;1;34;44m▒▓[0;1;34;40m■  [0;1;34;44m▒▓[0;1;34;40m■▀   ▐[0;1;34;44m▓[0;1;34;40m▌▐[0;1;34;44m█[0;1;34;40m▌▐[0;1;34;44m▒[0;34m▌▐[0;1;34;44m▒[0;34m▌ [0;1;34m▐[0;1;34;44m▓[0;1;34;40m▌▐[0;1;34;44m▓[0;1;34;40m▀█▄[0;1;34;44m▒▓[0m [1;34;44m▒▓[0m [34m▐[0;1;34;44m▒[0;34m▌[0;1;34m▐[0;1;34;44m▓[0;1;34;40m■  [0;1;34;44m▒▓[0;1;34;40m■▀ [0;1;34;44m▒▓[0;1;34;40m■  [0;1;34;44m▒▓[0m [34m▐[0;1;34;44m▒[0;34m▌  ▄[0;1;34;44m▒[0;34m▀[0m
 [1;34;44m▓█[0;1;34;40m▄█  ▀[0;1;34;44m▓▓[0;1;34;40m▀  [0;1;34;44m▓█[0;1;34;40m▄[0;1;34;44m█[0m [1;34;44m▓█[0m [1;34;44m█[0m    [1;34;40m▀[0;1;34;44m█[0;1;34;40m█▀██▀  [0;1;34;44m▓█[0;1;34;40m▄[0;1;34;44m▓█[0m [1;34;44m▓█[0m  [1;34;40m▀[0;1;34;44m▓█[0m [1;34;44m▓█[0;1;34;40m▄[0;1;34;44m▓[0;1;34;40m▀ [0;1;34;44m▓█[0;1;34;40m▄[0;1;34;44m█[0m [1;34;44m▓█[0m [1;34;40m█ [0;1;34;44m▓█[0;1;34;40m▄█ [0;1;34;44m▓█[0;1;34;40m▄[0;1;34;44m▓[0;1;34;40m▀   ▄▄[0m
 
-([1;34mb[0m)[34mhawke[0m     [1;30mwhat [0mJed [1;30mof [0;1;37mAC[0mi[1mD [0;1;30mlooks like? I just happened to[0m          [1;37m▄▄▄▄[0;1;37;47m▓▓[0;1;37;40m▄▄[0m
+ [1;34m [0m [34m     [0m     [1;30m     [0m    [1;30m   [0;1;37m  [0m [1m  [0;1;30m                              [0m          [1;37m▄▄▄▄[0;1;37;47m▓▓[0;1;37;40m▄▄[0m
 [1;37;40m▄[0;1;37;47m████████[0;1;37;40m▄[0;1;37;47m▓[0;1;37;40m▄▄▄[0m       [1;30;40mhave a snapshot of him..[0m        [1;37;40m▄▄▄▄▄[0;1;37;47m▓[0;1;37;40m▄▄▄[0;1;37;47m████████▓▓▓▓██████[0m
 [1;37;47m██▓▓███▓▓▓███████[0;1;37;40m▄▄[0;1;37;47m▓[0;1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37;47m▓[0;1;37;40m▄▄[0;1;37;47m███████▓▓▒▓▓▓████▓███████▓▓███▓[0m
 [1;37;47m▓▓[0;1;37;40m████[0;1;37;47m▓▓▓▒▓[0;1;37;40m██████[0;1;37;47m▓▓▒▓[0;1;37;40m████[0;1;37;47m▓▓▓███▓[0;1;37;40m████[0;1;37;47m▓[0;1;37;40m████[0;1;37;47m▓[0;1;37;40m███[0;1;37;47m▓[0;1;37;40m██[0;1;37;47m▓[0;1;37;40m██[0;1;37;47m▓▓[0;1;37;40m██[0;1;37;47m▓▓▒▒▒▒▓▓[0;1;37;40m█[0;1;37;47m▓▓[0;1;37;40m█████[0;1;37;47m▓[0;1;37;40m████[0;1;37;47m▓[0;1;37;40m███[0m

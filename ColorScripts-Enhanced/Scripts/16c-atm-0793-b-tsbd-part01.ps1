@@ -5,7 +5,7 @@
 # Source SHA-256: 2519199b7eee1ad12dc134fdcc75446f69844a911ef1b8dced89f2b6c38f0028
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-TSBD.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -22,8 +22,8 @@ Write-Host '
                                       [1;30;40m▀█[0m▄▄  [1;30m▄▄▀[0m                      [33m▀[0;1;30;43m▓▒▒░░    [0m
                                         [1;30;40m▀▀▀▀[0m                           [33m▀[0;1;30;43m▓▒░░   [0m
                                                                          [1;30;43m▓▒▒░[0;33m██[0m
-         [1;30m"I saw it happen, Officer!  He was... IT was...[0m                  [1;30;43m▓▄▄█[0;1;30;40m▀[0m
-                     [1;30;40mGrowling Friendly-Like!"[0m                             [1;30;40m▀▀[0m
+         [1;30m                                               [0m                  [1;30;43m▓▄▄█[0;1;30;40m▀[0m
+                     [1;30;40m                        [0m                             [1;30;40m▀▀[0m
 
 [1;30;40m [0;1;37;43m░░░[0;33m█    ████████████  █ [0;1;30;43m░░░[0;33m███████████[0;1;30;43m░░▒[0m  [1;30;43m░░[0;33m███[0;1;30;43m░░░░[0m   [1;30;43m▒▒░░░[0;33m██[0;1;30;43m▒[0m        [33m███████[0m
 [33m [0;1;37;43m░░[0;33m███   █████████████  [0;1;30;43m▒░░[0;33m█████████████[0;1;30;43m░░▒[0m [1;30;43m░░[0;33m█████[0;1;30;43m░░░▒[0m  [1;30;43m▒▒░░░[0;33m███[0;1;30;43m▒[0m      [33m███████[0m
@@ -58,5 +58,4 @@ Write-Host '
          [1;30;40m█[0;1;30;46m  [0;36m█[0;1;36;46m▒▓[0;1;37;40m█[0m        ▄▄▄▄▄▄▄[1;30m▄▄▄▄█[0;36m█[0;1;36;46m░▒▓[0;1;37;40m█ [0;1;30;40m█[0;36m███[0;1;36;46m░[0;1;37;40m█▄▄[0m▄█[36m███[0;1;36;46m░▒[0;1;37;40m█ [0;1;30;40m█[0;36m███[0;1;36;46m░[0;1;37;40m█▄▄[0m▄▄▄▄[1;30m█[0;36m████[0;1;36;46m░[0m█
          [1;30m█[0;1;30;46m   [0;36m█[0;1;36;46m▒[0;1;37;40m█[0m        █[36m█████████████[0;1;36;46m░▒[0;1;37;40m█ [0;1;30;40m█[0;36m█████████████[0;1;36;46m░[0m█ [1;30m█[0;36m████████████████[0;37m█[0m
          [1;30m█[0;1;30;46m    [0;1;36;46m▒[0m█        [1;30m█[0;36m█████████████[0;1;36;46m░▒[0m█ [1;30m█[0;36m█████████████[0;1;36;46m░[0m█ [1;30m█[0;36m███████████████[0;37m█[0m
-         [1;30m▀▀▀▀▀[0m▀▀        [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-'
+         [1;30m▀▀▀▀▀[0m▀▀        [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

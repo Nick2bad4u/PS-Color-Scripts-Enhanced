@@ -5,7 +5,7 @@
 # Source SHA-256: 9a232d064bb59920092184acc12191c629a63db94917b1b39688ff5fbd6e3ff9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CID-AW03.ANS by Cidica + Prizm (sOAP.dOPE!); released in s0ap0000 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alIENwoRKSHOP[3]
 # SAUCE Author: 114.[cid]
 # SAUCE Group: sOAP.dOPE!
@@ -42,7 +42,6 @@ Write-Host '
 [1;30m│[0;32m$[0;1;37m [0;31mY;  `S&''   "[0;1;37m [0;32m$$$$[0;1;32;42m$[0;32m$$$,[0;1;33m"$[0;1;37m`$S$$s$$sassasS$S$SS$$S [0;1;33m$$$$²[0;32m,$$$$▀$$[0;1;35m Y;  `S&''   " [0;1;30m│[0m
 [1;30m│[0;32m$y[0;31m $b. S& .a$ [0;32m,$$$$$$$$$y[0;1;33m`$,[0;1;37m"$S$$¼$$S$$$$$$S$$S$''[0;1;33m,$$$''[0;32m,$$[0;1;32;42m$[0;32m$$$$$y[0;1;35m $b. S& .a$  [0;1;30m│[0m
 [1;30m│[0;32m$''[0;1;37m [0;31m `$S$X$$P`[0;1;37m [0;32m$$$$$$$$$$▀- [0;1;33m²s[0;1;37m "$$S$S$$$SSX$SS$"[0;1;33m,yS½$''[0;32m,$$$$$$$$$"[0;1;35m  `$S$X$$P`[0;32m [0;1;35m [0;1;30m│[0m
-[1;30m│[0;31m d$Sa.ⁿssP'',Sb,[0;32m`"[0;37mold asciiz[0;32m ░[0;1;33m`a,[0;1;37m``"²S$$$$¼²"''[0;1;33m,y$²"''[0;1;37m [0;32m■[0;37mby cidz,[0;32m"[0;1;37m [0;1;35md$Sa.ⁿssP'',Sb,[0;1;30m│[0m
-[1;30m [0;31m$$$$$SSssaS$X$$[0;37m [0;32m░[0;37m wif a lil he  [0;1;33m²$Ss,.u.[0;1;37m [0;1;33m.,u$$"''[0;1;37m [0mlp fro prizm [1;35m$$$$$SSssaS$X$$[0;1;37m [0m
-[1;30m└ [0;31m`"ⁿⁿY$$$$Pⁿ"'' [0;1;37m∙[0;1;30m─────────────────[0;1;37m∙ [0;1;33m`""²²""''[0;1;37m ∙[0;1;30m────────────────[0;1;37m∙[0;1;30m [0;1;35m`"ⁿⁿY$$$$Pⁿ"'' [0;1;30m┘[0m
-                        [1m [0m'
+[1;30m│[0;31m               [0;32m  [0;37m          [0;32m ░[0;1;33m   [0;1;37m             [0;1;33m      [0;1;37m [0;32m■[0;37m        [0;32m [0;1;37m [0;1;35m              [0;1;30m│[0m
+[1;30m [0;31m               [0;37m [0;32m░[0;37m               [0;1;33m        [0;1;37m [0;1;33m       [0;1;37m [0m             [1;35m               [0;1;37m [0m
+[1;30m└ [0;31m`"ⁿⁿY$$$$Pⁿ"'' [0;1;37m∙[0;1;30m─────────────────[0;1;37m∙ [0;1;33m`""²²""''[0;1;37m ∙[0;1;30m────────────────[0;1;37m∙[0;1;30m [0;1;35m`"ⁿⁿY$$$$Pⁿ"'' [0;1;30m┘[0m'

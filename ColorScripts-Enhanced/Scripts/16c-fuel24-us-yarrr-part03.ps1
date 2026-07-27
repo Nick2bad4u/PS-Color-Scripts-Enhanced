@@ -5,7 +5,7 @@
 # Source SHA-256: 8fec82858b8434296af5bf551256dcc39fcb8747481463b95bc1cdadfc90c325
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-yarrr.ans by The Knight + Avenging Angel (fuel); released in fuel24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: yarr pirate
 # SAUCE Author: the knight & avg
 # SAUCE Group: fuel
@@ -58,6 +58,4 @@ Write-Host '
 [1;40m███████[0;1;47m▄ [0m██[1;30;47m▀[0;1;30;40m▄[0m  [31m▀[0;31;43m▄[0;1;31;43m [0;33;41m█[0;1;31;43m░▒░▒░▒░▒▒░[0;31m▀[0;37m [0;1;30m▄[0;1;37;47m  [0;1;37;40m███████████████[0;1;37;47m███[0;1;37;40m███[0;1;37;47m█[0;1;37;40m████████[0;1;37;47m█[0;1;37;40m▓▓▓▓▓▓█████████[0m
 [1;37;40m█████████[0;1;37;47m▄  [0m█[1;30;47m▀[0;1;30;40m▄[0m  [31m▀[0;31;43m▄[0;33;41m█[0;1;31;43m░[0;33;41m█[0;1;31;43m░[0;33;41m█[0;1;31;43m░[0;33;41m█[0;1;31;43m░[0;31;43m▄[0;31;40m▀[0;37;40m [0;1;30;40m▄[0;1;37;47m  [0;1;37;40m██████████████████[0;1;37;47m████[0;1;37;40m█[0;1;37;47m█[0;1;37;40m███████████████████████[0m
 [1;37;40m███████████[0;1;37;47m▄  [0m█[1;30;47m▀[0;1;30;40m▄[0m   [31m▀▀▀▀▀▀▀[0;37m [0;1;30m▄[0m▄[1;47m ▄[0;1;40m████████████████████████████████████████████[0;1;47m██[0;1;40m██[0m
-[1;40m▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;47m■   [0m▒ [1m [0m      [1;30m▄[0;1;37;47m  ■[0;1;37;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-
-::::: ansi by [1mavg_[0mivan segaric and [1mthe knight[0m for [1;36mfuel[0;36m #[0;1;36m24[0m - december 2017 :::::[0m'
+[1;40m▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;47m■   [0m▒ [1m [0m      [1;30m▄[0;1;37;47m  ■[0;1;37;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

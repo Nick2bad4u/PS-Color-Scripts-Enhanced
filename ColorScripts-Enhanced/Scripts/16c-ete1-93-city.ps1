@@ -5,7 +5,7 @@
 # Source SHA-256: e64839fcd00d26e2b2bc5fccc02a94472a05795c45b58004928c1307226f2393
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CITY.ANS by Maestro (ete1-93); released in ete1-93 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -47,6 +47,5 @@ Write-Host '
               Y[1mes [0mW[1me [0mH[1mave [0mF[1miles,[0m                [1;30m▌  ││││││[0m││  [1;30m∩ ∩▌├───────┴┐ [0m║ [1;30m∙[0m
                M[1message [0mF[1morums,[0m                  [1;30m▌   │││││ [0m│     [1;30m▌├────────┤ [0m║
                 A[1mnd [0mP[1mlenty [0mO[1mf[0m                        [1;30m│││[0m        [1;30m▌├─────-- ∙[0m
-                  O[1mnliners![0m                           [1;30m│∙[0m        [1;30m▌├─--∙[0m
-                  [31mN[0;1;31mew [0;31mU[0;1;31msers[0m                           [1;30m∙[0m         [1;30m▌[0m
-             [31mE[0;1;31mnter [0;31mY[0;1;31mour [0;31mR[0;1;31meal [0;31mN[0;1;31mame[0m                               [1;30m∙[0m'
+                   [1m        [0m                           [1;30m│ [0m        [1;30m▌├─   [0m
+                  [31m [0;1;31m   [0;31m [0;1;31m    [0m                           [1;30m [0m         [1;30m▌[0m'

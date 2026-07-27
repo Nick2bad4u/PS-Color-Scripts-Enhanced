@@ -5,7 +5,7 @@
 # Source SHA-256: fa53de97950fa9c5f1de93124f96422e5781904b626aa9c0c6615a6a86f05c79
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ox-idraw.ans by 0xel (zeit_02); released in zeit_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -34,7 +34,4 @@ Write-Host '
 [1;30m $$$$$$$$$$$$7[0m  a[1;30m_.,▬┐sS$l  :$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$(µ)oxel+ùÑí«ºá$$[0m
 [1;30m $$$$$$$$$$$$b,._~^"²└*↕$:[0my[31m [0;1;30ml$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;30m $$$$$$$$$$$$$$$$$$S#s┐▬,._.J$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-[1;30m $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;30;47mI draw how i want[0m
-        [33m [0m         [33m [0m                       [33m [0m                              [33m [0m    [33m [0m
-
-            [33m [0m'
+[1;30m $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;30;47mI draw how i want[0m'

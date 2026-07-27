@@ -5,7 +5,7 @@
 # Source SHA-256: a68d8ed36a31928fc81c48e24b3a7391ccac9145ff7c64a3d4d70c720613ef7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VG-MIST.ANS by Vertigo (Bleach); released in bleach02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Mist
 # SAUCE Author: Vertigo
 # SAUCE Group: Bleach
@@ -62,6 +62,4 @@ Write-Host '
 [1;30mvg░░▒▀▀[0m                [31m▀[0;1;31;41m░░[0;31m▄[0m            [37m  [0;31m▄[0;1;31;41m░░[0;31m▓▀[0m                 [1;30m▀▀██████▌▐█████▓▓[0m
 [1;30m   [0;36m [0m                     [31m▀▀▓▒[0m   [1;30m [0m  [1;30m [0m   [31m▒▓▀▀[0m                        [1;30m▀▀██ ████▓▓▒▒[0m
                                 [1;30m [0m  [1;30m  [0m                                  [1;30m▀▀█▓▓▒▒░░[0m
-                               [1;30m [0m    [1;30m  [0m                                     [1;30m▒░░vg[0m
-                              [1;30m [0m      [1;30m [0m                                         [1;30m [0m
-'
+                               [1;30m [0m    [1;30m  [0m                                     [1;30m▒░░vg[0m'

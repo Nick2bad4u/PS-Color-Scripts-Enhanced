@@ -5,7 +5,7 @@
 # Source SHA-256: 49c90ae34792dddf43524f19060f59e1fe083a48e0d6ee6689c0502b45debd19
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-FR1.ANS by Somms (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flatlined Reality
 # SAUCE Author: Somms
 # SAUCE Group: ACiD Productions
@@ -53,7 +53,6 @@ Write-Host '
      [1;30m▀▀[0;32m▀▄[0;1;30m▄[0m          [1;30m▀[0;32m▀▄[0m            [1;30m▀[0m                                    [1;30m▄▄█▀▀▄▀[0m
 [1;30m▄  ░ ░░   ▀■   ░[0m             [1;37mA[0mn [1;30moriginal ANSi [0mb[1my   [0;1;30m░ ░░  ■    ░  ░░  ■ ▀    ░[0m
 [1;30m ▀[0m     [1;30m░[0m          [1;30m▀■[0m            [1;30m▄▄▄ ▄▄▄ ▄ ▄▄▄(tm)[0m          [1;30m▀ ▄▄[0m           [1;30m░▒ ░[0m
-            [1;30m▄▄▀[0m       [1;37mS[0mom[1;30mms of[0m                  [1;30mProducti[0mon[1ms    [0;1;30m▀[0m
+            [1;30m▄▄▀[0m       [1;37m [0m  [1;30m     [0m                  [1;30m        [0m  [1m     [0;1;30m▀[0m
 [1;30m▌▄▄▓▄▄▌[0;32m▄▄[0;1;30m▓██▄ ▀▄▄▒▓▌▀▄▄ ▄▄▄▄▄▄▄█  █▄█▄▄▄█ █▄▄█▄▄▄▄▄▄▄ ▄  ▄▄▄▀ ▓▄▄▄[0;32m▄▄[0;1;30m▄ ▄▓▌▄▌[0;32m▄▀[0;1;30m▄▌[0m
-      [32m▀[0;1;32;42m░[0m [1;30;40m▀   [0;1;37;40mG[0mre[1;30mets and <g>rins to Jello, Shinobi, and Greater E[0mvi[1ml[0m      [1;30m▀[0;1;32;42m░[0m
-                      [1;30;40mSkye is (c) 1994 ACiD Productions[0m'
+      [32m▀[0;1;32;42m░[0m [1;30;40m▀   [0;1;37;40m [0m  [1;30m                                                [0m  [1m [0m      [1;30m▀[0;1;32;42m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 19d1d1c07f5f37b1d4208ffdd649fc8abb91de11991a1653ad48f946375b477e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zv-911.ans by Zerovision (tnt-004); released in tnt-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 135-179
 # Columns: 1-80
 
@@ -35,13 +35,13 @@ Write-Host '
   [1m▀█▄▀█▄[0m [35m▀[0;1;37m [0;35m▐[0;35;41m▒[0;35;40m▌[0;1;37;40m▐█▌▀█▄[0m [35;41m▓[0;37;40m [0;1;37;40m░▀▀  ▀█▄ [0;35m█[0;1;37m   [0;35m▀[0;1;37m ▄█ [0;35m▐[0;35;41m▒[0;35;40m▌[0;1;37;40m▐█▌[0;31m [0;1;37m▄██▀ [0;35m█[0;1;37m ▄██▌[0;32m  [0;37m   [0;1;37m▐█[0m  [1m▀█▓▀▀[0m [1m▀▀[0m [1m▀▀[0m
    [31m [0;1;37m▐▌░▀█▄■[0m [35;41m▓[0;35;40m█▄[0;1;37;40m▀█[0m  [1m▀[0m [35m▀[0;37m [0;1;37m▄▓▌[0m    [1m [0;1;30m [0;35m█[0;37m    [0;1;37m▓▀█▌[0m [35;41m▓[0;1;37;40m █▀▀▄[0;31m [0;1;37m▀[0;31m [0m     [1;37m▀▀[0;31m [0m     [1;37m▀[0m
    [31m [0;1;37m▀[0m  [1m▐█▀▌[0m [35m█[0;37m [0;1;37m▄▄█▌[0m  [1m ▀▀▀ ▀[0m    [1m [0m      [1m░[0m  [1m▀[0m                 [1mnine.one.one[0m
-       [1m▀[0m      [1m▓[0m [1m▀[0m                                         [1m+o reevolution[0m
+       [1m▀[0m      [1m▓[0m [1m▀[0m                                         [1m              [0m
               [1m▓[0m
 [1;30m------------[0m  [1m▒[0m [1;30m----------------------------------------------------------------[0m
               [1m░[0m
 
-if you''re having deja vu, this outline was done before as a joint but i
-forgot about it and finished it myself. You get to see it twice.
+                                                                       
+                                                                
 
 
      [1;30m    [0m  ▄▄[1;47m░▓[0;1;40m▄[0m          [1m▄▄[0m
@@ -53,5 +53,4 @@ forgot about it and finished it myself. You get to see it twice.
    [1;30m░▀▀[0;1;30;47m▄[0m▌[33m▐▀▀▀▀▀[0;37m [0;1;30m▄▄▄▌▄▄[0;1;30;47m▓[0;1;30;40m▌[0m [33m▄[0;1;30;43m▒[0;33m▄[0;37m▀█[0;1;30;47m░▒[0;1;30;40m▀[0m
        [1;30m▀▄▄▀[0;1;30;47m▓▒░[0m▀[1;30;47m░[0m▀[1;30;47m▄[0m███[1;30;47m░[0m█▄ [33m▀[0;37m▄▐[0;1;30;47m░[0m
            [1;30m▀█▄▓▀[0m  [1;30m▀▀▀[0m   ▀▀▀▀
-              [1;30m░[0m
- [1mzeroVision[TNT] zerovision@downmix.com[0m'
+              [1;30m░[0m'

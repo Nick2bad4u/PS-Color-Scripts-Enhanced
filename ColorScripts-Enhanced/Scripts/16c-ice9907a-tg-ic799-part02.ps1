@@ -5,7 +5,7 @@
 # Source SHA-256: facffd0ccaf0a59a4bc91e3499f7b610ddf2ee50927c4fc963cb4ac66cf56497
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-IC799.ICE by Toon Goon (ice9907a); released in ice9907a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 34-77
 # Columns: 1-80
 
@@ -51,6 +51,4 @@ Write-Host '
 [1;30m              ▄▄▄▄▀▀▀       ▀[0;34m▀[0;1;30;44m▄  [0;44m▀▀██▀[0;1;30;44m ▄[0;34m▀[0;1;30m▀ ▄▄▀▀            ▀[0;1;30;44m▄[0;34m▀[0;1;30m▀ ▄▄▄▀▀           [0m
                         [1;30m         ▀[0;34m▀▀▀[0;1;30m▀ ▄▄▀▀    [0m              [1;30m▄▀▀  [0m
                                      [1;30m▀▀[0m
-                                      iCE.
-                               Pic: Toongoon [iCE]
-                               iCELogo: Trip [iCE][0m'
+                                      iCE.[0m'

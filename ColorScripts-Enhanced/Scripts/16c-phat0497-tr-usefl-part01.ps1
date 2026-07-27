@@ -5,7 +5,7 @@
 # Source SHA-256: 64495615e7fa9bb3a7780f830e7eb39e517ec1b162a6587913e9c0c50042c5c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-USEFL.ANS by trinity (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: take a look at it...
 # SAUCE Author: trinity
 # SAUCE Group: phat studios '97
@@ -24,14 +24,14 @@ Write-Host '
 [35;40m░░░▐[0;35;46m▓▓▓[0;35;40m▌[0m       [35;46m▓▓[0;35;40m▓░░[0m     [35;40m▄[0;1;33;45m [0;35;46m▓▓[0;35;40m▓░[0;37;40m  [0;35;40m▄[0;35;46m▓▓▓▓[0;35;40m▌[0;37;40m [0;35;40m▐[0;35;46m████[0;35;40m█▄▄[0;37;40m      [0;35;40m▐[0;35;46m▓▓▓[0;35;40m█▄▀░░░▓▓▀▀▀▀░░█[0;35;46m██[0;35;40m█░░░░[0m
     [35;40m▀[0;35;46m███[0;35;40m▄▄▄▄▄▄▀▀[0;35;46m█[0;1;35;45m░[0;35m█▄[0;37m  [0;35m▀▀▀▓▓▓▀░▀██[0;1;35;45m▄▓▀[0;35m█▀░░░▀[0;1;35;45m░░[0;35m▀▀▄▄▓░░▄▄██▀▀▀[0;37m   [0;35m▄▄▄▄▄▄▄▄▄▄██[0;1;30;45m░[0;35m█▀▓[0m
       [37m    [0;35;46m█[0;1;35;45m▀▓[0;35m▌[0m                  [35m▀▀▀▀[0m         [35m▀▀[0;37m   [0;35m▄▀░░░[0;37m      [0;35m▐[0;1;35;45m▓█▌[0m
-          [35m▐▓▀▀[0;37m   [0;35mtrinity^phat produly presents:[0m     [37m        [0;35m▀▀▀▄▄[0m
+          [35m▐▓▀▀[0;37m   [0;35m                              [0m     [37m        [0;35m▀▀▀▄▄[0m
                              [35m  [0m
-                       [35m"some useful[0;37m [0;35mthingies"      [0m
+                       [35m            [0;37m [0;35m               [0m
 
 
                              [35m     [0m
 [1;30m-[0;31m upload-matrix for joshijas dreamland[0;1;30m -----------------------------------------[0m
-[1;30m [0m [31mrequested by joshija[0m                                                    [32m [0m
+[1;30m [0m [31m                    [0m                                                    [32m [0m
 
                               [36m                  [0m
 [31m▄▄▓▓[0;37m [0;31m   [0;37m [0;35m▄▄▄▄▓▄▄▄▄▓[0m   [35m▄░░[0;36m▄▄▄▓███████[0;1;36;46m      [0;36m████[0;1;36;46m▐▄▄▄[0;36m▄▄▄ [0;31m▀█▓▌[0;35m░░▄▄▄[0;31m▀▀▀▓▀▀▀▀[0;1;31;41m░[0;31m█▄█[0;1;31;41m▄▄[0;31m▄[0;1;31;41m▌[0;31m█[0m
@@ -46,5 +46,4 @@ Write-Host '
 [31m▀████[0;1;31;41m▐▀[0;31m▌[0;37m  [0;36m▐███▓░▄[0;37m  [0;32m▀▀▀▀▀▀▓▓▀▀▀██▄[0;37m [0;36m▓█[0;1;36;46m░░▓███▄▄ ▄█[0;36m▀▀▄▄█[0;31m ▄▄[0;37m [0;36m████[0;1;36;46m░▄▄█▀▀[0;36m▀▀[0;1;31m▄▄▄[0;36m▀▀▀[0;1;36;46m░▀[0;1;36;40m▄[0m  [1;31m▐[0m
 [31m█[0;1;31;41m░▓▄[0;1;31;47m▓[0;1;31;41m█▄[0;31m█▀[0;37m [0;36m██[0;1;30;46m░▒░[0;36m██[0;1;36;46m [0;36m██████▄▄▄▓▓▄▄▄▄▄██[0;1;36;46m▀▀▓[0;1;36;40m▀▀[0;36m  [0;1;36m▀▀[0;1;36;46m█▄ [0;36m███▌[0;31m▐[0;1;31;41m░[0;31m▌[0;36m▀▀▀▀[0;37m [0;31m▄▄▄▄▄▄[0;1;31;41m▀▓▀█[0;1;31;47m▓▓[0;1;31;41m▓░[0;31m▄▄[0;36m▀[0;1;36m▀[0m [31m▄[0m
 [31m▀▀▀▀▀[0m   [36m▄▀▀▀[0m                                [36m░░[0;1;36m▀[0;1;36;46m▓░ [0;36m██▄[0;37m [0;31m▀▀▀▀▀▀▀▀▀▀[0;37m [0;31m▀▀▀▀▀[0;1;31m▀▀▀▀[0;31m▀▀▀▀▀▀[0m
-                                               [1;36m▐[0;36m▀  [0m
-'
+                                               [1;36m▐[0;36m▀  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 02287259800c76ab1e33d9afc43573dc5daed74004ceef3b95cb7ff65335506e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DRC#ELEC.ANS by Drc (Purg); released in purg-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Electric Zone Commercial
 # SAUCE Author: Drc
 # SAUCE Group: Purg
@@ -36,5 +36,4 @@ Write-Host '
                    [32m▄█▀[0m     [32m  ██[0;1;32;42m█[0m    [32m███▌[0;37m [0;32m███[0m     [32m▐[0;1;32;42m■[0;32m█[0;37m  [0;32m██▌[0m      [32m▄[0;37m [0;32m [0m
                 [32m▄██▀[0m      [1;32m▄[0;32m  ▐██[0;1;32;42m▓[0;32m▄▄████[0;37m [0;32m▐██[0;1;32;42m█[0m     [32m██▌[0m   [32m█[0;1;32;42m█[0;32m [0m    [32m███[0m
               [32m▄███[0;1;32m▄[0m    [32m▄▄██▀[0;37m  [0;32m████████[0;37m  [0;32m███[0;1;32;42m█[0;32m▌[0m   [32m███▌[0m    [32m█[0;1;32;42m█[0;32m▄[0;37m [0;32m▄███▌[0m
-               [32m▀▀██[0;1;32;42m▀▀[0;32m████▀[0m     [32m▀▀██▀▀[0;37m [0;32m▄█████[0;1;32;42m▓[0m  [32m▐███[0m      [32m▀█████▀[0m
-                                 [32m [0m'
+               [32m▀▀██[0;1;32;42m▀▀[0;32m████▀[0m     [32m▀▀██▀▀[0;37m [0;32m▄█████[0;1;32;42m▓[0m  [32m▐███[0m      [32m▀█████▀[0m'

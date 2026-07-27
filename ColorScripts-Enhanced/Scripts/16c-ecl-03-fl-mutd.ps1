@@ -5,7 +5,7 @@
 # Source SHA-256: 1a708b8a7dc0375c65b3b8807f1920f50940c8665a9f57cdade7a4e43b9a47a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-MUTD.ANS by flame (guest); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: got me .. (??)
 # SAUCE Author: flame
 # SAUCE Group: guest
@@ -34,6 +34,6 @@ Write-Host '
         [33m ▀▀█████▓▀███[0m         [33;46m█[0;33;40m████▓[0m   [1;33;43m▓▓█[0;1;37;40m█[0m [1;31m                        [0m
                   [33m███[0m                              [1;30m [0;35m [0m      [1;30m   [0;35m         [0m
 [37m [0m                                               [1;30m             [0;35m    [0m
-[37m [0;31m          [0;1;35m──-─- a mutual agreement?..can we just not talk?..(?) ──-─[0m
-                    [35m"i think the stupid shapes are what make it cool.."[0m
+[37m [0;31m          [0;1;35m── ─                                                  ── ─[0m
+                    [35m                                                   [0m
                                    [31m  [0;35m         [0;31m   [0;35m"w[0;31mh[0;1;31ma[0;1;33mT"[0m'

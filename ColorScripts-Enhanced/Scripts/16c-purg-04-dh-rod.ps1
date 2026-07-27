@@ -5,7 +5,7 @@
 # Source SHA-256: 7d1054c983294d14fcaa0f10e684c18b015056372afcf4a769169f8aa8a41069
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH!ROD.ANS by DarkHeart (PuRG PRoDuKSHuNZ); released in purg-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rEalm oF dragOns
 # SAUCE Author: DarkHeart
 # SAUCE Group: PuRG PRoDuKSHuNZ
@@ -33,5 +33,5 @@ Write-Host '
               [36m▓ [0;1;30m▀████▄▄▄▄▄▄▄██ [0m▀▀[34m▀▀▀ [0;1;30m▄▄▄ [0;34m▒[0;1;30m▄▄▄▄▄▄▄▄▄▄██████▀ [0;36m▐[0;1;36;46m▒[0;36m▀  ▄[0m
               [36m▒    [0;1;30m▀▀▀▀▀▀▀▀▀▀█████████▀█▄▄▀▀▀▀▀▀    [0;36m▄▄ [0;1;36m▄ [0;36m▄▀[0;1;36;46m░[0m
               [36m░[0m                        [1;30m▀▀▀[0m            [36m▀▀[0;36;46m░[0;1;36;40m▀█[0m
-                           [1mr[0me[1;31ma[0;31ml[0;1;30mm[0;31m o[0;1;30mf[0;31m [0;1;37md[0mr[1;31mag[0;31mon[0;1;30ms[0m            [36m▀[0m
+                           [1m [0m [1;31m [0;31m [0;1;30m [0;31m  [0;1;30m [0;31m [0;1;37m [0m [1;31m  [0;31m  [0;1;30m [0m            [36m▀[0m
                                                      [37m▀[0m'

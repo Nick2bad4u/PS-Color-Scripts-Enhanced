@@ -5,7 +5,7 @@
 # Source SHA-256: e36aff87c5e6c802c456568bdd90d3db91d8cfb06c619074b87e53110203492a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PF-MEAN.ANS by puff (UNiT Productions); released in unit03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mean guy
 # SAUCE Author: puff
 # SAUCE Group: UNiT Productions
@@ -33,8 +33,8 @@ Write-Host '
 [34m.[0m   [34m,[0m   [34m. ..[0m   [34m,  .[0m   [34m.[0;1;36m`$[0m$[36m$b,_  [0;1;30m,a[0;36m$P"4[0;1;36m$[0;36m$$$[0;37m$[0;36mP"4$[0;1;30ma,  [0;36m_,d$$[0;1;30m$''[0m [34m , .[0m   [34m, .[0m    [34m.[0m   [34m.[0m
 [34m:. :;:::;:;i::.::.;:::.[0;1;30m [0;1;36ml[0m$[36m$$$[0;37m''[0;1;30m,$[0;36m$P[0;1;30m''[0;1;36m,a;[0;36m$[0;1;36m$[0;36m$$$[0;37m;a,`4[0;36m$[0;1;30m$,[0m`[36m$$$[0;1;30m$l[0m [34m.:;;:.::.: :;.::.::;;.[0m
 [34m.:::i:::i:::ii:i;l:i::ii,[0;1;36m:[0m$[36m$$y$$$[0;1;30m'' [0;1;36m$$[0;36m$[0;1;36m$[0;36m$$$[0;37m$[0;36m$[0;37m$$[0;1;30m [0m`$[1;36m$[0;1;30m$[0;36my$$[0;1;30m$;[0m [34m,i::::i::i::i:::::::ii:[0m
-[34miii:l:::iiliiili::illilil,[0;1;36m`[0m²[36mQ$$$[0;1;30m:  [0;1;36m`Q$[0;36m$[0;1;36m$$[0;36m$$[0;37m$D''[0;1;30m  [0;36m$[0;37m$[0;1;36m$[0;36m$D[0;1;30m²''[0;34m,::illiill::iiillili:iil:[0m
-[34mlllilillliliillililiiillili,[0;1;36m`[0;36m:l[0;1;30m'';    [0;1;36m`"[0;36m²²²[0;37m"`[0;1;30m    [0;36m;$[0;37ml[0;1;36m;[0;1;30m''[0;34m,iil111l1l1l1ll1l1il1l1il1i[0m
+[34m                          [0;1;36m [0m [36m    [0;1;30m   [0;1;36m   [0;36m [0;1;36m  [0;36m  [0;37m   [0;1;30m  [0;36m [0;37m [0;1;36m [0;36m  [0;1;30m  [0;34m                         [0m
+[34m                            [0;1;36m [0;36m  [0;1;30m      [0;1;36m  [0;36m   [0;37m  [0;1;30m    [0;36m  [0;37m [0;1;36m [0;1;30m [0;34m                           [0m
 [34mlli1111l1i1111l1i1l11l1i1l1i,[0;37m`[0;1;36m:  [0;1;30m`+,[0m            [36m$[0;1;30m$:''[0;34m,li1111l1llilli1111l1i1111l1[0m
 [34m111√1√1111√1√√1√√1√√√1√1√√1√√1,[0;1;36m`[0;1;30m    [0m,+[1;30m^`^"+,   ,$''[0;34m,111√1√1111111√1√1111√1√√1√√1√[0m
 [34m√√1√√√√√1√1√√√√√√√√1√1√√√√√√√1√,[0;37m`+   [0;1;30m         ,²''[0;34m,√√1√√√√1√√1√√√√√1√1√√√√√√√√1√1[0m
@@ -43,20 +43,19 @@ Write-Host '
 [34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [34m√$√$D²"^`                                                              `^"²Q$√$√[0m
 [34m$√$'' [0m                                                                      [34m  $√$[0m
-[34m1√1 [0;36m [0;37m  [0;1;37mI decided not to go with a font on this one. This is my first pic.[0m  [34m  1√1[0m
-[34m1l1 [0;36m [0;37m  [0;1;37mLooks pretty good, huh? Yeah... I know... I''d like to thank[0m [1mthe ppl[0m [34m  1l1[0m
-[34m1ll [0;36m [0;37m  [0;1;37mthat so graciously allowed me into UNiT. Gravedancer, and Pandora.[0m  [34m  1ll[0m
-[34ml1l [0;36m [0;37m  [0;1;37mI''d also like ta greet PSiON, Spike, Jeeves, aXb, and Infect. They[0m  [34m  l1l[0m
-[34mlil [0;36m [0;37m  [0;1;37mall gave me advice and got me into the _scene_. And[0m [1ma special thanks[0;34m  lil[0m
-[34miil [0;36m [0;37m  [0;1;37mout to Druid for teaching me how to draw, and for all of his[0m        [34m  iil[0m
-[34mili [0;36m [0;37m  [0;1;37m_constructive_critisem_. And if I forgot anyone, sorry :) And I have[0;34m  ili[0m
-[34mi:i [0;36m [0;37m  [0;1;37mto say that the peeps out in the 4i0 are the most supportive and      [0;34mi:i[0m
-[34mii: [0;36m [0;37m  [0;1;37mkindest around. THANKS!@#$%&*~[0m                                      [34m  ii:[0m
+[34m    [0;36m [0;37m  [0;1;37m                                                                  [0m  [34m     [0m
+[34m    [0;36m [0;37m  [0;1;37m                                                           [0m [1m       [0m [34m     [0m
+[34m    [0;36m [0;37m  [0;1;37m                                                                  [0m  [34m     [0m
+[34m    [0;36m [0;37m  [0;1;37m                                                                  [0m  [34m     [0m
+[34m    [0;36m [0;37m  [0;1;37m                                                   [0m [1m                [0;34m     [0m
+[34m    [0;36m [0;37m  [0;1;37m                                                            [0m        [34m     [0m
+[34m    [0;36m [0;37m  [0;1;37m                                                                    [0;34m     [0m
+[34m    [0;36m [0;37m  [0;1;37m                                                                      [0;34m   [0m
+[34m    [0;36m [0;37m  [0;1;37m                              [0m                                      [34m     [0m
 [34m;i;, [0m                                                                      [34m  ;i;[0m
 [34m:;;;;a,._                                                              _.,a;:;;;[0m
 [34m..;.;;.;;.;.;.;;..:;;.:;.;;..;;.;;..:;;.:;.;;;.:.;;;:..;:;;;;;:::;;:;.;::;.:;:.;[0m
 [34m:   ::.::...:...;.;::..;:;;::;:...;.;::..;:;;::..::;;.:..::.:.::.:::. . .::...::[0m
 [37m [0;34m.[0;37m [0;34m.[0m       [34m.[0m   [34m.[0m       [34m.[0;37m  [0;34m.[0m      [34m.[0m       [34m.[0;37m  [0;34m.[0;37m  [0;34m.[0;37m [0;34m.[0;37m [0;34m.[0;37m [0;34m.[0;37m  [0;34m.[0m   [34m.[0m   [34m.[0m   [34m.[0m   [34m.[0;37m  [0;34m.[0m   [34m.[0m
 [34m.[0m     [34m.[0;37m [0;34m.[0m   [34m.[0;37m [0;34m.[0;37m [0;34m.[0;37m [0;34m..[0;37m [0;34m.[0;37m [0;34m.[0m   [34m.[0;37m [0;34m.[0;37m [0;34m.[0;37m [0;34m..[0m   [34m.[0m   [34m.[0;37m  [0;34m.[0;37m  [0;34m.[0;37m [0;34m.[0;37m [0;34m.[0;37m [0;34m.[0m   [34m.[0m    [34m.[0m   [34m.[0;37m [0;34m.[0;37m  [0;34mPf(UNiT)[0m
-[37m  [0;34m.[0;37m [0;34m.[0m     [34m.[0m    [34m.[0;37m [0;34m.[0m    [34m.[0;37m  [0;34m.[0;37m  [0;34m.[0m   [34m.[0m   [34m.[0m   [34m.[0m   [34m.[0m   [34m.[0;37m [0;34m.[0m    [34m.[0m     [34m.[0m        [34m.[0m   [34m.[0;37m  [0;34m.[0m
-                    [34m     [0m'
+[37m  [0;34m.[0;37m [0;34m.[0m     [34m.[0m    [34m.[0;37m [0;34m.[0m    [34m.[0;37m  [0;34m.[0;37m  [0;34m.[0m   [34m.[0m   [34m.[0m   [34m.[0m   [34m.[0m   [34m.[0;37m [0;34m.[0m    [34m.[0m     [34m.[0m        [34m.[0m   [34m.[0;37m  [0;34m.[0m'

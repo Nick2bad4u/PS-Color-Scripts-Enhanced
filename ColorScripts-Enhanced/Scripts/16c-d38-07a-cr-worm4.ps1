@@ -5,7 +5,7 @@
 # Source SHA-256: 934a3ef57aa259c20558c0e38f0e5b6b44325cc4d20b629fbe185fbec43094f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR_WORM4.ANS by CRUCiFER (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Can'o'Worms
 # SAUCE Author: CRUCiFER
 # SAUCE Group: Department 38
@@ -37,8 +37,4 @@ Write-Host '
 [1;30m [0;31m [0;37m▀▀▄▄[0;1;37m▀▀[0;31m▄▄[0;1;31;41m▒▓[0;1;31;40m█[0;1;31;41m▓▒[0;31m▄▄[0;1;37m▀▀[0;31m [0;1;31m▐[0;1;31;41m▒[0;31m▌[0;1;30m [0;1;31m [0;1;31;41m▒[0;1;31;40m▀▄[0;1;31;41m▒[0;31m▀   [0;1;37m▀▀[0;31m▄▄[0;1;31;41m▒▓[0;1;31;40m█[0;1;31;41m▓▒[0;31m▄▄[0;1;37m▀▀[0;31m [0;1;31m▄▄[0;31m▐[0;1;31;41m▒░[0;31m▀[0;1;31m▄▌[0;31m [0;1;31;41m▓[0;1;31;40m▄[0;31m  [0;1;37m▀▀[0;31m▄▄[0;1;31;41m▒▓[0;1;31;40m█[0;1;31;41m▓▒[0;31m▄▄[0;1;37m▀▀[0;1;30m▄[0m▄▄▀▀ [1;30m [0m
 [1;31m  [0;1;30m  [0m  ▀▀▄▄▄[31m▀[0;1;31m▀▀[0;1;31;41m█▓▒░[0m [1;31m ▐[0;1;31;41m▓▒[0;31m▄[0;37m [0;1;31m ▐[0;1;31;41m▒░[0;31m▐▄    ▐[0;1;31;41m▒[0;1;31;40m▀[0;1;31;41m██▓[0;31m▀[0;1;31;41m░[0;31m▌ [0;1;31m▄[0;1;31;41m▓▒[0;31m▀[0;1;31;41m░[0;31m▄▄[0;1;31;41m▒[0;1;31;40m▀[0;31m  [0;1;31m▐[0;1;31;41m▒[0;31m▌   ▐[0;1;31;41m░[0;31m▄▄[0;1;31m▀[0;31m▀▀[0;37m▄▄▄▀▀[0m   [1;30m   [0m
   [1;31m    [0;1;30m  [0m  [1;30m [0m▀▀▀▄▄▄▄▄▄[1;31m ▀▀[0;31m▀▀[0;37m [0;1;31m▀▀[0;31m▀[0;1;31m [0;1;31;41m▒░[0;31m▄   [0;1;31;41m▒▓[0;1;31;40m▄▄▄[0;1;31;41m▒░[0;31m  [0;1;31m▐[0;1;31;41m▒[0;31m▄  ▀▀[0;1;31m [0;31m    [0;1;31m▀[0;31m▀[0;37m ▄▄▄▄▄▄▀▀▀[0;1;30m [0m    [1;30m    [0m
-      [1;31m     [0;1;30m       [0;1;31m [0m ▀▀▀▀▀▀▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀▀▀▀▀▀▀[1;30m        [0m [1;30m      [0m
-            [1mI[0;1;34mt[0;34m''[0;1;30ms[0;1;34m [0;1;37ma[0;1;34m [0;1;37mw[0;1;34mh[0;34mo[0;1;30mle[0;1;34m [0;1;37mn[0;1;34me[0;34mw[0;1;34m [0;1;37mc[0;1;34ma[0;34mn[0;1;34m [0;1;37mo[0;1;34mf [0;1;37mw[0;1;34mo[0;34mr[0;1;30mms,[0;1;34m [0;1;37mh[0;1;34me[0;34mr[0;1;30me[0;1;34m [0;1;37ma[0;1;34mt [0;1;37mD[0;1;34mi[0;34mz[0;1;30mzy''s[0;1;34m [0;1;37mD[0;1;34mi[0;34ml[0;1;30memma![0m      [1;30m cr·d38[0m
-
-
-[1;30m...Hehehe...Wot you staring at? :>[0m'
+      [1;31m     [0;1;30m       [0;1;31m [0m ▀▀▀▀▀▀▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀▀▀▀▀▀▀[1;30m        [0m [1;30m      [0m'

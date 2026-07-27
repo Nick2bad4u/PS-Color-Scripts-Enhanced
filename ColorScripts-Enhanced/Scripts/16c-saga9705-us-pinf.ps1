@@ -5,7 +5,7 @@
 # Source SHA-256: 3de0d090fe5db5efd0dc6bdb5678cb983b61dd73f3808c9265e07f6a987b0134
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PINF.ANS by Sharque + Creator (Saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: project inf
 # SAUCE Author: Multiple
 # SAUCE Group: Saga
@@ -39,8 +39,4 @@ Write-Host '
                         [36m                           [0;33m▀▓▓▌▄[0;1;31;43m▀▓[0;1;33;40m             [0;36m████████▓[0m
                         [36m                             [0;33m▀[0;1;31;43m▓[0;33m▀▀              [0;36m▐███████▓[0m
                         [37m                    [0;1;37m                           [0;36m░▓██████▓[0m
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30m                 [0m       [1;30mPic by SharQue / Font by Creator[0m
-
-'
+[1;30m--------------------------------------------------------------------------------[0m'

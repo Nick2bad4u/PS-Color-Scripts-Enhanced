@@ -5,7 +5,7 @@
 # Source SHA-256: bb1149291996bd066717f8d7d96ca4e05ed199adb2cc2da4be4e46139c2baa7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D5-CDAD.ANS by dee five (gel); released in gel-008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cd add =)
 # SAUCE Author: dee five
 # SAUCE Group: gel
@@ -34,10 +34,10 @@ Write-Host '
                  [37m  [0;1;31;43m▄[0m
                    [31m [0;37m  [0m
 [1;37m--------------------------------------------------------------------------------[0m
-[1;37m ...err this is an ansi i made for umm catatom1c d1sasters or chron1c d1stort1on[0m
-[1;37mwhatever one uses it first gets it... ummm... =) aight anyways ... umm [0m
-[1;37mi made my own program for my sigz0r!@ i just type say... "D5ADDSG.EXE filename"[0m
-[1mand it adds my sig ... umm anyways... ttyl bye?@[0m
+[1;37m                                                                                [0m
+[1;37m                                                                       [0m
+[1;37m                                                                               [0m
+[1m                                                [0m
 
 
   [1m/\[0;1;33m--[0;33m-[0;1;33m-[0;1;37m/\/\[0;1;33m__[0;1;37m/\[0;1;33m__[0;1;37m/\[0;1;33m__[0;33m_[0;1;33m_[0;1;37m/\[0;1;33m__[0;33m_[0;1;37m/\/\[0;1;33m__[0;33m_[0m

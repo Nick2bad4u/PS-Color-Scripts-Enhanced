@@ -5,7 +5,7 @@
 # Source SHA-256: 1311e370fda72928823cd8f0e082458a972e7d39487ad3206ff7e564c413c56a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSM!.ANS by jerusalem (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FS:: mainmenu #1
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -39,5 +39,4 @@ Write-Host '
 
 
 [1;33;40m::[0m
-[1;33;40m↓↓[0m
-[35m...coffee mug!!! it''s 4 tha FS of course. hm, not so good.=(      jerusalem~boil[0m'
+[1;33;40m↓↓[0m'

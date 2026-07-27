@@ -5,7 +5,7 @@
 # Source SHA-256: f2c45608b34533978b81f1b44de66ecda8caec39f3510a57604a257f71d7cfb9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MK-AV0.ANS by modeus khahn (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: avga!
 # SAUCE Author: modeus khahn
 # SAUCE Group: Blade Productions
@@ -48,5 +48,4 @@ Write-Host '
 [1;30;40m▓▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;37;47m▓[0;1;37;40m███[0;1;37;46m▒[0m [1;37;47m▓[0;1;37;40m███[0;1;37;46m▒[0m [1;37;47m▓[0;1;37;40m███[0;1;37;46m▒[0m [1;37;47m▓[0;1;37;46m█▓[0;1;37;40m█[0;1;37;46m░[0m [1;37;47m▓[0;1;37;40m█[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m▒[0m [1;37;47m▓[0;1;37;40m█[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m░[0m [1;37;47m▓[0;1;37;40m█[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m▒[0m [1;37;47m▓[0;1;37;40m███[0;1;37;46m▒[0m [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░[0m
           [1;37;40m- av [0;1;37;47m▓[0;1;37;40m███[0;1;37;46m░[0m [1;37;40m████[0;1;37;46m░[0m [1;37;40m████[0;1;37;46m░[0m [1;37;47m▓[0;1;37;40m███[0;1;37;46m░[0m [1;37;47m▓[0;1;37;40m███[0;1;37;46m░[0m [1;37;47m▓[0;1;37;40m███[0;1;37;46m░[0m [1;37;47m▓[0;1;37;40m███[0;1;37;46m░[0m [1;37;40m████[0;1;37;46m░[0m [1;37;40mga! -[0m
 [1;37;40ms:modeus khahn ████[0;1;37;46m░[0m [1;37;40m██[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m░[0m [1;37;40m████[0;1;37;46m░[0m [1;37;47m▓[0;1;37;40m█[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m░[0m [1;37;40m██[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m░[0m [1;37;40m██[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m░[0m [1;37;40m██[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m░[0m [1;37;40m██[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m░[0m [1;37;40m9O4%387%474O![0m
-[1;37;40moblivion²beta  ▀█[0;1;37;46m▓▀░▓[0;1;37;40m██[0;1;37;46m▓▀░[0;36m▄[0;1;37m▀███[0;1;37;46m░[0;1;37;40m▓██[0;1;37;46m▓▀[0;36m▀ [0;1;37m▀█[0;1;37;46m▓▀░[0;1;37;40m▓██[0;1;37;46m▓▀[0;36m▀ [0;1;37m▀█[0;1;37;46m▓▀░▓[0;1;37;40m██[0;1;37;46m▓▀░[0;36m▄ [0;1;37mblade shq[0m
-well geezus....  an ansi over 25 lines...  it''s rare but it happens occasionally[0m'
+[1;37;40moblivion²beta  ▀█[0;1;37;46m▓▀░▓[0;1;37;40m██[0;1;37;46m▓▀░[0;36m▄[0;1;37m▀███[0;1;37;46m░[0;1;37;40m▓██[0;1;37;46m▓▀[0;36m▀ [0;1;37m▀█[0;1;37;46m▓▀░[0;1;37;40m▓██[0;1;37;46m▓▀[0;36m▀ [0;1;37m▀█[0;1;37;46m▓▀░▓[0;1;37;40m██[0;1;37;46m▓▀░[0;36m▄ [0;1;37mblade shq[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 597cbacc81d4f433b5eefff287a62753846f5b1286ab862edd84e6947e780639
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-PICAS.ANS by The Knight (Fuel Productions); released in blndr032 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blender#32 entry
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel Productions
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-          words for [1;36mblender[0;36m#[0;1;36m32[0m are [1;35mpicasso[0m, [1;32malien encounter[0m and [1;33mdesert[0m
+                    [1;36m       [0;36m [0;1;36m  [0m     [1;35m       [0m  [1;32m               [0m     [1;33m      [0m
 
                             [34m   [0m
 
@@ -54,6 +54,4 @@ Write-Host '
 [1;33m  [0;33m▐█████████[0;1;33;43m   [0;33m██[0;1;33;43m   [0;33m██[0;1;33;43m           [0;33m████████████▄[0;1;33;43m▐███▓▓▓▓▓▓▓[0;1;33;40m▄[0;1;33;43m▓▓▓██████████████▓▓[0;33m░ [0m
 [1;33m   [0;33m▀█████▀██████████████████████████████████[0;1;33;43m ▄[0;1;33;40m██[0;1;33;43m▓▒▒▒▒▒▒▒▒▒▒▒▒▓▓████████[0;1;33;40m█[0;1;33;43m████[0;1;33;40m█[0;33m [0;1;37m [0m
 [33m▄[0;1;33m    [0;33m ▀▀▀█████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;43m ▄▄▄▄▄▄[0;1;33;40m████[0;1;33;43m▓▒░░░░░░░░░░░░▒▓▓████████████[0;1;33;40m▀  [0m
-[33m███▄▄[0;1;33m    [0;33m    ▀▀▀▀▀▀▀▀▀[0;1;33;43m▄▄▄▄▄▄▄▄▄▄▓▓█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓███████[0;33m▀[0;1;33m▀▀      [0m
-
-                                                               [1;30mthe knight.fuel[0m'
+[33m███▄▄[0;1;33m    [0;33m    ▀▀▀▀▀▀▀▀▀[0;1;33;43m▄▄▄▄▄▄▄▄▄▄▓▓█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓███████[0;33m▀[0;1;33m▀▀      [0m'

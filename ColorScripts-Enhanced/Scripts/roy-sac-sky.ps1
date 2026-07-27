@@ -5,7 +5,7 @@
 # Source SHA-256: 6f4c685f5429d0b750c3ee9cdb2084544384aec176ada5a91848d65eb12ce5b8
 # Source License: FAL-1.3
 # Source Attribution: ROY-SKY.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -31,6 +31,6 @@ Write-Host '
 [1;30m▒▓▀[0m                                                                         [1;30m▀▓▒[0m
 [1;30m░▒ ░▒▒▒▓▓▓▓███▄▀ ■ -[0m-[1m- [0;1;30mANSiA[0mRT  BY:  [1mROY [0mof TRS[1;30mi/FAiTH [0;1m-[0m-[1;30m- ■ ▀▄█████▓▓▓▓▒▒▒░ ▒░[0m
 [1;30m▓[0m                                                                             [1;30m▓[0m
-[1;30m▒░  ■ ·[0m      [34mNODE 0:  +4[0;1;34m9-(A)SK-DA-E[0;1mLiTE   NODE [0;1;34m1:  +49-[0;34m(T)O-FAST4U    [0;1;30m·  ■  ░▒[0m
-[1;30m░[0m               [34mHARDWARE: 2*[0;1;34m486/33 , 8[0;1mMB , 1 [0;1;34mGiGA H[0;34mD , NOVELL NET[0m             [1;30m░[0m
-[1;30m┐  [0;32m-[0;1;33mPC ONLY[0;32m- · · [0;1;30m· ·[0m       [34m2 VERY M[0;1;34mAGiC [0;1m& C[0;1;34mOOL S[0;34mYSOPS[0m       [1;30m· · [0;32m· · -[0;1;33mPC ONLY[0;32m- [0;1;30m┌[0m'
+[1;30m▒░  ■  [0m      [34m           [0;1;34m            [0;1m            [0;1;34m        [0;34m               [0;1;30m   ■  ░▒[0m
+[1;30m░[0m               [34m            [0;1;34m          [0;1m       [0;1;34m      [0;34m              [0m             [1;30m░[0m
+[1;30m┐  [0;32m [0;1;33m       [0;32m      [0;1;30m   [0m       [34m        [0;1;34m     [0;1m   [0;1;34m     [0;34m     [0m       [1;30m    [0;32m     [0;1;33m       [0;32m  [0;1;30m┌[0m'

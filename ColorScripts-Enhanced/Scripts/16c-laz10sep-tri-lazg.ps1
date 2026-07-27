@@ -5,7 +5,7 @@
 # Source SHA-256: 41b82d259c254c4ba17e10cd80903d1e2fcae9741a77cd5c2c993647395abc6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TRI-LAZG.ANS by tricolore (lazarus); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lazarian logo
 # SAUCE Author: tricolore
 # SAUCE Group: lazarus
@@ -36,7 +36,4 @@ Write-Host '
      [35m▀[0m   [37m   [0;1;37mlaz R us[0m [1;35m    [0m  [35m▀[0;1;35;45m▀▀▓▒▒[0;35m▄▄▄[0;37m▀▀▀▀▀▀[0;35m▄▄[0;35;46m▒▒░░[0;1;36;46m▓▓▌▀▀[0;36m▀[0;1;36;46m░[0m    [1;35m▀[0;1;35;47m▓▓[0;1;35;40m█████▀[0m
    [1;35m [0;35m▄[0m    [37m  [0;1;37m..........[0;1;35m   [0m   [35m▀██▀▀▀▀[0;30;45m tricol [0;35;46m▓▓▒▒░[0;36;40m▀▀▀▀[0m          [1;35;40m ▀▀▀ [0m
     [35m  [0m     [1;35m          [0m  [35m▄█▄[0m
-     [35m °[0m      [35m▄[0m          [35m▀[0m
-
-
-[1;30m!lazarus promo[0m [1;30m(c) tricolore of lazarus[0m'
+     [35m °[0m      [35m▄[0m          [35m▀[0m'

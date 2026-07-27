@@ -5,7 +5,7 @@
 # Source SHA-256: 6cf457f96be18e58dd4f891036a9e2bf02c160431b56baf0db8f0f96d6cec985
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-CSC2.ANS by Snow Dog (max_artpack_0393-ansi0393); released in max_artpack_0393-ansi0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -38,5 +38,4 @@ Write-Host '
               [33m▀▀██████▓▓▓▓▓░░▒▒░▒░░░░░░░░░░░░▒▒▒▓▓░▓▓▒▓▓██████▀▀[0m
                   [33m▀▀▀████████▓▓▓▓▓▓▒▒▒░▒▒▒░▒▓▓▓▓▓████████▀▀▀[0m
                         [33m▀▀▀▀██████████████████████▀▀▀▀[0m
-                                [33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-'
+                                [33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

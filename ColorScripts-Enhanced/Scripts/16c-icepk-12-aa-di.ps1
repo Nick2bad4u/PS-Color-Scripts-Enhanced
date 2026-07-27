@@ -5,7 +5,7 @@
 # Source SHA-256: baea7122828875b02c644ea31f2a6f88f45bb60b2a046989a7a6bbdd95ecbb07
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AA-DI.ICE by Aada (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -46,9 +46,9 @@ Write-Host '
      [1;30;40m▒▒▓   [0m▀▀▀▀▀[1;30;47m▒▒▒░░[0m█████████[1;30;47m▄██▀▄[0;1;30;40m████▀▀[0m
        [1;30;40m▀▀▄▄▄▄▄▄▄▀[0m
 [1;30;40m───────────────────────────────────────────────────────────────────────────────[0m
-       [34m9[0;1;34m6O[0;1;37mO-[0;34m14[0;1;34m4O[0;1;37mO [0;34mV[0;1;34m32[0;1;37mB[0m                    [34mLa[0;1;34mrg[0;1;37me [0;34mVi[0;1;34mri[0;1;37mi/[0;34mTr[0;1;34moj[0;1;37man [0;34mCol[0;1;34mlect[0;1;37mion[0m
-       [34mY[0;1;34mA[0;1;37mM [0;34mCa[0;1;34mnad[0;1;37mian [0;34mCo[0;1;34muri[0;1;37mer [0;34mH[0;1;34mQ[0m            [34mGr[0;1;34mowi[0;1;37mng [0;34mHom[0;1;34mewo[0;1;37mrk/[0;34mEs[0;1;34msa[0;1;37my [0;34mBa[0;1;34mse[0;1;37ms[0m
-       [34m1[0;1;34m00[0;34m% Und[0;1;34mergr[0;1;37mound [0;34mRe[0;1;34mlat[0;1;37med [0;34m(PH[0;1;34mAC[0;1;37mVT)  [0;34mDem[0;1;34moral[0;1;37mized [0;34mYo[0;1;34mut[0;1;37mh [0;34mCa[0;1;34mnad[0;1;37mian [0;34mH[0;1;34mQ[0m
-       [34mT[0;1;34mh[0;1;37me [0;34mEvo[0;1;34mlut[0;1;37mion [0;34mNe[0;1;34mtwo[0;1;37mrk [0;34m4[0;1;34m1[0;1;37m6 [0;34mH[0;1;34mU[0;1;37mB[0m      [34mLi[0;1;34mmit[0;1;37med [0;34m4[0;1;34m1[0;1;37m6 [0;34mCa[0;1;34mll[0;1;37mers[0m
-       [34mDi[0;1;34mCN[0;1;37met [0;34mN[0;1;34mod[0;1;37me[0m                        [34mN[0;1;34mo [0;34mRa[0;1;34mti[0;1;37mo [0;34mf[0;1;34mo[0;1;37mr [0;34mL[0;1;34mD [0;34mCa[0;1;34mlle[0;1;37mrs[0m
+       [34m [0;1;34m  [0;1;37m  [0;34m  [0;1;34m  [0;1;37m  [0;34m [0;1;34m  [0;1;37m [0m                    [34m  [0;1;34m  [0;1;37m  [0;34m  [0;1;34m  [0;1;37m  [0;34m  [0;1;34m  [0;1;37m   [0;34m   [0;1;34m    [0;1;37m   [0m
+       [34m [0;1;34m [0;1;37m  [0;34m  [0;1;34m   [0;1;37m    [0;34m  [0;1;34m   [0;1;37m   [0;34m [0;1;34m [0m            [34m  [0;1;34m   [0;1;37m   [0;34m   [0;1;34m   [0;1;37m   [0;34m  [0;1;34m  [0;1;37m  [0;34m  [0;1;34m  [0;1;37m [0m
+       [34m [0;1;34m  [0;34m     [0;1;34m    [0;1;37m     [0;34m  [0;1;34m   [0;1;37m   [0;34m   [0;1;34m  [0;1;37m     [0;34m   [0;1;34m    [0;1;37m     [0;34m  [0;1;34m  [0;1;37m  [0;34m  [0;1;34m   [0;1;37m    [0;34m [0;1;34m [0m
+       [34m [0;1;34m [0;1;37m  [0;34m   [0;1;34m   [0;1;37m    [0;34m  [0;1;34m   [0;1;37m   [0;34m [0;1;34m [0;1;37m  [0;34m [0;1;34m [0;1;37m [0m      [34m  [0;1;34m   [0;1;37m   [0;34m [0;1;34m [0;1;37m  [0;34m  [0;1;34m  [0;1;37m   [0m
+       [34m  [0;1;34m  [0;1;37m   [0;34m [0;1;34m  [0;1;37m [0m                        [34m [0;1;34m  [0;34m  [0;1;34m  [0;1;37m  [0;34m [0;1;34m [0;1;37m  [0;34m [0;1;34m  [0;34m  [0;1;34m   [0;1;37m  [0m
 [1;30m──────────────────────────────ANSI─BY─AADA─[iCE]───────────────────────────────[0m'

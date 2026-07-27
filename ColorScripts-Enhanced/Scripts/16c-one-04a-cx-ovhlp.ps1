@@ -5,7 +5,7 @@
 # Source SHA-256: ac6ff909a8e4da6723d5955844cb9b85b945490fae6772acb92b999f302523f0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CX-OVHLP.ANS by Cyrix (One); released in one-04a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: OneVu Help Screen
 # SAUCE Author: Cyrix
 # SAUCE Group: One
@@ -24,7 +24,7 @@ Write-Host '
  [1;30m [0m            [1;30m▀▄  ▄▀[0m            [1;30m▀▀▀[0m
                 [1;30m▀ [0m
 
-      [1mc[0m [32m*[0;37m [0;1;30m>>[0m ommand
+      [1m [0m [32m [0;37m [0;1;30m  [0m       
 
 
 

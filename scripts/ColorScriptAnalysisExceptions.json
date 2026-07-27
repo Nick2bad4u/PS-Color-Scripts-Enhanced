@@ -1202,11 +1202,6 @@
         },
         {
             "issueType": "leading-blank-run",
-            "family": "16c-mimic31-lmenase",
-            "reason": "The 6 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "leading-blank-run",
             "family": "16c-sae-006-m0d-beer",
             "reason": "The 3 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
         },
@@ -1324,11 +1319,6 @@
             "issueType": "leading-blank-run",
             "family": "16c-hiero-02-smi-slt2",
             "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-hiero-03-3i-epik",
-            "reason": "The 13 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
         },
         {
             "issueType": "leading-blank-run",
@@ -1738,11 +1728,6 @@
         {
             "issueType": "leading-blank-run",
             "family": "16c-sense11-cp-pot1",
-            "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
-        },
-        {
-            "issueType": "leading-blank-run",
-            "family": "16c-sense11-k-sns",
             "reason": "The 4 leading blank source rows are the artwork's authentic top margin; trimming them would alter the archived geometry."
         },
         {
@@ -2542,11 +2527,6 @@
         },
         {
             "issueType": "derivative-attribution-review",
-            "family": "16c-bmbook14-shv",
-            "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
-        },
-        {
-            "issueType": "derivative-attribution-review",
             "family": "16c-d38-07a-cr-worm6",
             "reason": "Reviewed false positive: the flagged use of 'after' is ordinary temporal, narrative, grammatical, or production prose and does not identify an external source artwork."
         },
@@ -3042,11 +3022,6 @@
         },
         {
             "issueType": "mostly-plain-ascii",
-            "family": "16c-mist0223-mm-programmedsouls-part01",
-            "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
             "family": "16c-nph1097-hrc-xgj1",
             "reason": "Reviewed styled ASCII: the source deliberately uses colored or composed ASCII glyphs; a high ASCII ratio does not indicate missing ANSI artwork."
         },
@@ -3072,57 +3047,7 @@
         },
         {
             "issueType": "mostly-plain-ascii",
-            "family": "16c-33rules-33-glo-part01",
-            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
-            "family": "16c-blde9509-mb-shoc2-part02",
-            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
-            "family": "16c-blocktronics-acid-trip-fil-bloq-part06",
-            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
-            "family": "16c-blocktronics-baud-dudes-nu-sdn-xibalba-part01",
-            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
             "family": "16c-blocktronics-resvolution-zo-lud-part01",
-            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
-            "family": "16c-blocktronics-space-invaders-we-diamondie-part03",
-            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
-            "family": "16c-crime-dreams-part01",
-            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
-            "family": "16c-hpm-04-checs-casa-robada-part02",
-            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
-            "family": "16c-mist1014-wz-clockmaker-part01",
-            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
-            "family": "16c-mist1014-wz-clockmaker-part10",
-            "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
-            "family": "16c-mist1014-wz-clockmaker-part11",
             "reason": "Reviewed full-work context: this is an authentic narrative, credit, or interface panel belonging to a substantive larger ANSI work."
         },
         {
@@ -3427,16 +3352,6 @@
         },
         {
             "issueType": "leading-blank-run",
-            "family": "16c-fuel28-mfs-dktm-part02",
-            "reason": "Reviewed official preview: the leading blank rows are the authored separator before the artist's prose panel."
-        },
-        {
-            "issueType": "mostly-plain-ascii",
-            "family": "16c-fuel28-mfs-dktm-part02",
-            "reason": "Reviewed official preview: this is the artist's intentionally plain prose panel following the illustrated scene, not a failed ANSI conversion."
-        },
-        {
-            "issueType": "leading-blank-run",
             "family": "16c-27inch07-is-kaasu-part02",
             "reason": "Reviewed against the official preview: this is authored source canvas, alignment space, or negative-space composition; the converted rows remain contiguous and uncropped."
         },
@@ -3707,11 +3622,6 @@
         },
         {
             "issueType": "very-small-output",
-            "family": "16c-33rules-33-glo-part01",
-            "reason": "Reviewed official preview and raw hash: the two centered lines are the deliberate prologue before the multicolor title at row 25; moving the seam would cut that title."
-        },
-        {
-            "issueType": "very-small-output",
             "family": "16c-acdu0494-ld-cod-part02",
             "reason": "Reviewed official preview and raw hash: this is the authored vertical descent and negative-space transition between the opening panel and castle scene; adjacent parts cannot be merged under 50 rows."
         },
@@ -3727,11 +3637,6 @@
         },
         {
             "issueType": "very-small-output",
-            "family": "16c-blocktronics-baud-dudes-nu-sdn-xibalba-part01",
-            "reason": "Reviewed official preview and raw hash: the centered prologue and darkness are a coherent opening panel before the rain begins at row 28; the remaining rows already require three full panels."
-        },
-        {
-            "issueType": "very-small-output",
             "family": "16c-blocktronics-blockalypse-goo-unleash-part05",
             "reason": "Reviewed official preview and raw hash: the near-black suspense frame and small red eyes are the deliberate transition between the forest fade and next scene; all twelve panels are near the row limit."
         },
@@ -3744,16 +3649,6 @@
             "issueType": "very-small-output",
             "family": "16c-blocktronics-resvolution-zo-lud-part01",
             "reason": "Reviewed official preview and raw hash: this is a coherent typographic opener with the two believe lines, diagonal artist credit, and beginning of the matrix transition."
-        },
-        {
-            "issueType": "very-small-output",
-            "family": "16c-crime-goodbye-lulu-part01",
-            "reason": "Reviewed official preview and raw hash: the prose and symbol prologue is intentionally separated from the portrait beginning at row 27; the second part is already 49 rows."
-        },
-        {
-            "issueType": "very-small-output",
-            "family": "16c-crime-ill-go-down-swinging-part01",
-            "reason": "Reviewed official preview and raw hash: the prose prologue is a separate authored panel before the underwater illustration at row 23; redistribution would cut the illustration."
         },
         {
             "issueType": "very-small-output",

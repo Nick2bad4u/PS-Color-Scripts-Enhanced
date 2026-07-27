@@ -5,7 +5,7 @@
 # Source SHA-256: 3e80256ef6590306c0953424b8527d21ea71d0b9b80257691160159d11683454
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pxg-reaching.ans by Pixel Goth (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20150130
 # SAUCE Dimensions: 80x97
 # SAUCE Font: IBM VGA
@@ -20,7 +20,7 @@ Write-Host '
 [31m.,,,,,,,.[0;1;33;41m,[0;31m.,,;,,;;,,sS$$$SSs;,,[0;1;33;41m%[0;31m;,,,,,....,,;;;[0;1;33;41m.[0;31m$$$SS$$Sss$$S;,;s,,;;;$$$$$$$s;,[0m
 [31m.,,,,,,,.,,;;s;;;;,s$$[0;1;33;41m.[0;31m$$$$SSssSSs;,,,....,.,,,S$$$SS$SSssSSs;,;s;[0;1;33;41m%[0;31ms;;S$$[0;1;33;41m.[0;31m$$$$Ss[0m
 [31m.,,,,;[0;1;33;41m%[0;31m;.,,,,ss;[0;1;33;41m%[0;31m;;S$$$$$$$SSssSSs;,,;,;ssSs;;,sSSSS[0;1;33;41m.[0;31m$SSSS[0;1;33;41m.[0;31mSs;;[0;1;33;41m.[0;31mSSSS;s$$$$$$$$Ss[0m
-[31m,;;;[0;1;33;41m;[0;31msSs,sss;s;s;;;$$$$$$$Sss;;sss[0;1;33;41m%[0;31m;s$$$$$$[0;1;33;41m.[0;31mSs;SSssssS;;ssss;;;sSSSS;[0;1;33;41m%[0;31ms$$$$$$$Ss[0m
+[31m    [0;1;33;41m [0;31m                             [0;1;33;41m [0;31m        [0;1;33;41m [0;31m                         [0;1;33;41m [0;31m          [0m
 [31m;sss,sSs,sss;s;[0;1;33;41m.[0;31m;;[0;1;33;41m%[0;31m$$$$$$[0;1;33;41m.[0;31ms;;;;SSSsS[0;1;33;41m.[0;31m$[0;1;33;41m..[0;31m$$$$Ss;SS[0;1;33;41m.[0;31msss[0;1;33;41m.[0;31m;;ssss;;;sS[0;1;33;41m.[0;31m$$$$$$$$$$[0;1;33;41m.[0;31mSss[0m
 [31m;sss,;S[0;1;33;41m.[0;31ms$$$[0;1;33;41m░[0;31m$S[0;1;33;41m.[0;31m;;[0;1;33;41m%[0;31m$[0;1;33;41m░[0;31m$SSSS,.,;[0;1;33;41m░[0;31mSSSsS$$$$$$$$Ss;SS[0;1;33;41m..[0;31mssS;[0;1;33;41m%[0;31mssss;ssS$[0;1;33;41m.[0;31m$$[0;1;33;41m..[0;31m$$$$$$$Sss[0m
 [31mssSS;[0;1;33;41m.[0;31mS[0;1;33;41m.[0;31m$$[0;1;33;41m░▓░[0;31m$$S;;;$[0;1;33;41m▓[0;31m$SS.S,[0;1;33;41m,[0;31m,,[0;1;33;41m▒[0;31msss[0;1;33;41m░░░[0;31m$$$[0;1;33;41m░▒[0;31m$$[0;1;33;41m.[0;31ms;s;,[0;1;33;41m;[0;31m,,;,;ssssss[0;1;33;41m░[0;31mS$$$$$$[0;1;33;41m░[0;31m$$$$[0;1;33;41m.[0;31m$Sss[0m
@@ -57,9 +57,9 @@ Write-Host '
      [31m,[0m         [31m;ss.[0m     [31m,s,[0m       [31m;$;[0;37m    [0;31m,[0m        [31m.;.[0m       [31m.;.[0m      [31m,[0m      [31m,[0m
      [31m;[0m         [31m.,,[0m      [31m.;.[0m       [31m,S;[0;37m    [0;31m.[0m         [31m,[0m         [31m,[0m       [31m,[0m      [31m,[0m
      [31m.[0m         [31m.,.[0m       [31m;[0m        [31m.;,[0;37m    [0;31m.[0m         [31m,[0m         [31m,[0m       [31m.[0m      [31m,[0m
-                [31m..[0m     [1;33m"She reached inside,[0m        [31m,[0m         [31m,[0m              [31m,[0m
-                [31m,.[0m       [31m,[0m      [1;33mand all that[0;30ma[0;1;33mcame out[0m     [1;33m [0m  [31m.[0m              [31m.[0m
-                [31m,[0m        [31m,[0;37m  [0;1;33mwere lies."[0m  [31m.[0m         [31m,[0m
+                [31m  [0m     [1;33m                    [0m        [31m [0m         [31m [0m              [31m [0m
+                [31m  [0m       [31m [0m      [1;33m            [0;30m [0;1;33m        [0m     [1;33m [0m  [31m [0m              [31m [0m
+                [31m [0m        [31m [0;37m  [0;1;33m           [0m  [31m [0m         [31m [0m
                 [31m,.[0m       [31m,[0m         [31m,[0m               [31m.[0m
-                         [31m.[0m         [31m,[0;1;30mwww.pixelgoth.com[0m
+                         [31m [0m         [31m [0;1;30m                 [0m
                                    [31m.[0m'

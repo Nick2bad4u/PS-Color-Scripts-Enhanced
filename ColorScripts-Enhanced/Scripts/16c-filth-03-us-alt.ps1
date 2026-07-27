@@ -5,7 +5,7 @@
 # Source SHA-256: 009e1ad1673750be2b77c6d49dcaba690611eebe2e52a56aa16b6097af500658
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ALT.ANS by Panaji + Anomite (fIlth?!); released in filth-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: aLTERn 8
 # SAUCE Author: p4/anOmite
 # SAUCE Group: fIlth?!
@@ -40,9 +40,4 @@ Write-Host '
      [36;40m░[0;30;46m▓[0m                     [34;40maLTERn[0;37;40m [0;34;40m8![0m    [34;40m▐[0;37;40m  [0;1;34;40m░░[0m             [34m░[0;30;44m▓[0m
                                          [34;40m▀[0m
 
-[34;40m─────────────────────────────────────────────────────────────────────────────── [0m
-
-[34;40mThis is a joint between [0;1;34;40mPanaji[0;34m and [0;1;34manOmite[0;34m,..[0m
-[34mturned out pretty good.[0m
-[1;34mpanaji[0;34m; outline, color and a little shading on the "a"[0m
-[1;34manOmite[0;34m; The rest.           [0m'
+[34;40m─────────────────────────────────────────────────────────────────────────────── [0m'

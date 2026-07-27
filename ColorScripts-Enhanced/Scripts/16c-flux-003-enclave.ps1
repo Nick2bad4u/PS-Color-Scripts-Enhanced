@@ -5,7 +5,7 @@
 # Source SHA-256: 80576ba3e35a749f604089a1d0a6f6ff66869dbe1097d72adeb034b8595a0c1e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ENCLAVE.ANS by 1! (flux-003); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: flux!
 # SAUCE Author: 1!
 # SAUCE Group: ..
@@ -33,5 +33,4 @@ Write-Host '
         [1;31m███[0;1;31;47m▓[0m░[1;31m  ███▄███  ████ ███   ███▄███ ███   ███████[0m   [1;31m███▀███  [0m░[1;31;47m▓[0;1;31;40m██▀[0m
         [1;31m▄███   ███ ███[0m   [1;31m███▄███   ███ ██[0;1;31;47m▓[0m░[1;31m███   ███ ███   ███ ███[0m   [1;31m████[0m
          [1;31m▀▀▀▀▀▀▀▀▀ ▀▀▀[0m   [1;31m███ ▀▀▀▀▀▀▀▀▀ ▀▀▀ ▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀[0m
-                        ░[1;31;47m▓[0;1;31;40m██▄██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m                      [1;30m  [0m
-                         [1;31m          [0m'
+                        ░[1;31;47m▓[0;1;31;40m██▄██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m                      [1;30m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ffbb6427f8a122a5eb1bd0ccb26838b48da05fe8a3c4f8f72e5fbd29d49714d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DY-AWE.ANS by Discyple (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: AWE Promotional
 # SAUCE Author: Discyple
 # SAUCE Group: AWE Lettering
@@ -33,4 +33,4 @@ Write-Host '
 [1;35m───── [0;1;33m▀▀  [0;1;37m▓████▀▀[0m▀ [1;33m▄▄[0;1;33;47m██[0;1;33;40m▌  [0;35m▄ [0;1;37m▀ ▀▀▀[0;1;37;47m▒[0m▄  [1m▄▄██[0;1;47m█▓[0m▌[1m▄▄▄▄ ▄[0m▄  [1m▀  [0;1;33m▄ ▄ ▐████[0;1;33;43m▓[0;1;33;40m▌ [0m▄ ▀ [1;35m───────[0m
       [1;37m▀  ▀▀▀[0m▀   [1;33m▀ [0;1;33;43m▓[0;1;33;40m▀██▀ [0;35m▀ [0;1;33;45m░[0;35m▀▀▀ ▀[0m        [1;37m▀▀▀█[0m▄ [1m▀[0m▀ [1;33m▄   ▀▀▀▀▀[0;1;33;43m▓[0;1;33;40m▀▄█▀▀[0;1;33;43m▓▒[0;33m▄    [0;37m░░[0m
               [1;33m░  [0;33m▀[0;1;33;43m▒[0;1;33;40m▀[0m                                       [1;33;43m▓▓█[0;1;33;40m█  [0;33m▀[0m
-                    [1;33m▀  [0;1;36mawe [0;36mlettering [0;1;36m1997 [0;1;37;47m::[0m [1;37;40mdiscyple[0m       [1;33;40m▀▀  ▄[0m'
+                    [1;33m▀  [0;1;36m    [0;36m          [0;1;36m     [0;1;37;47m  [0m [1;37;40m        [0m       [1;33;40m▀▀  ▄[0m'

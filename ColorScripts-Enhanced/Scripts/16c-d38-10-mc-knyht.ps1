@@ -5,7 +5,7 @@
 # Source SHA-256: 503e18fc34e0db65b5a57f804aa6963c9d4a1bd1cc83186e346c129dff500caa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!KNYHT.ANS by Madcap (d38-10); released in d38-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -32,6 +32,4 @@ Write-Host '
 [1;37;40m████████▀[0m▀ [1;30m─▄     [0;1;37m▄█▌ [0;33m▀█[0;1;33;43m▌▄[0;1;37;40m [0;1;37;47m▒[0;1;37;40m█▄ [0;31m▀▓▓▓▓▓▓█▓▒▀[0;32;44m█[0m▐[35;47m▒[0m▌ [1;30m▄▄─    [0m▄[1m▄▄ [0;34m▐[0;1;32;45m▒[0;1;32;44m▒▒[0;36m▌[0m▐[43m▓[0;1;30;40m▌  ▐[0;36;42m▓[0;34m▌[0;1;32;45m▓[0;1;32;47m▓[0m
 [1;37;40m███████[0m▌        [1m▄████▄ [0;33m░▀[0;1;33m▄▄ [0;1;37m███▄[0m▄[1;30m▄[0;31m▀▀▀▀  [0m─▀[32;44m▒[0;1;34;40m▐[0;35;47m▓[0;34m▌[0m▀▀   [1;30m▀[0m▀▀▀ [1;30m▀[0m▀ [1;32;45m▓[0;1;32;44m▓[0;1;32;46m▒░[0m▐[1;32;47m░[0;1;33;40m [0m▄  [36;42m▒[0;1;32;42m░▓[0;1;32;47m▓[0m
 [1;37;40m███████▌     [0;33m▀▌[0;1;37m▐█████▌ [0;33m▄ [0;1;33m▐[0;1;33;47m▓[0;1;33;40m▌[0;1;37;40m▐██████[0;1;37;47m▄[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m█▄[0m▄[35;44m░▒▓[0;1;30;40m▄     ▄[0m▄[1m▄ [0;1;30m▄[0m▄[1;30m▄ [0;1;32m▐█[0;1;32;43m▓▒[0;1;32;47m▒░[0;1;33;40m [0m▀─ [36;42m░[0;1;32;42m▒[0;1;32;40m██[0m
-[1;37;40m████████▄[0m      [1;37;47m▐[0;1;37;40m█████[0;1;30;40m▌[0;33m▐▌▀─ ▄▌[0;1;37m███████▀▀▀ ▀▀[0m▀▀ [1;30m▀▀ ▀[0m▀▀▀▀[1;30m▀[0m▀▀ ▀▀[1;30mMC!D38[0m└▄[1m▄_[0m
-
-           [1;35m--- Freebie for anyone who has a board with initials FE ---[0m'
+[1;37;40m████████▄[0m      [1;37;47m▐[0;1;37;40m█████[0;1;30;40m▌[0;33m▐▌▀─ ▄▌[0;1;37m███████▀▀▀ ▀▀[0m▀▀ [1;30m▀▀ ▀[0m▀▀▀▀[1;30m▀[0m▀▀ ▀▀[1;30mMC!D38[0m└▄[1m▄_[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 0a258efea080b5654f0b8e9efb38f88bdbe9119c10bdd3b1e06a58e34710b840
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B!-LOGIN.ANS by bleach (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dr?! login
 # SAUCE Author: bleach
 # SAUCE Group: dope
@@ -37,6 +37,4 @@ Write-Host '
                     [1;30;40m█▒█▄▄▄███▀[0m             [1;30;40m▀▀▀▀▀▀▓▀▀▀▀[0m
                      [1;30;40m▀████▀[0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mlogin for my board, ( yes, yet another ansi from my stoopid board.. this one[0m
-[1;30mis open to anyone that wants it.. <all credits of sunman goto df! heh.. >[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9c5024f63793a0f8ad065a939fa252f98bdb6a21cb6246ef12a80b0e2bd96501
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-HVOC.ANS by Colourless (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Malhavoc
 # SAUCE Author: Colourless
 # SAUCE Group: awe lettering
@@ -16,7 +16,7 @@
 
 Write-Host '
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│   malhavoc! ansi for fusion blast [1m- [0moriginal design [1m- [0mby colourless of awe   │
+│                                   [1m  [0m                [1m  [0m                       │
 └──────────────────────────────────────────────────────────────────────────────┘
 
                                            [1;33m░░[0m
@@ -38,10 +38,10 @@ Write-Host '
 
 
 
-[33;40m [0;37;40m- i left this one in for fluor, caus he liked it...  oh well, greets to you 09[0m
+[33;40m [0;37;40m                                                                              [0m
 
 [37;40m┌──────────────────────────────────────────────────────────────────────────────┐[0m
-[37;40m│   malhavoc! ansi for fusion blast [0;1;37;40m- [0mmodified design [1m- [0mby colourless of awe   │
+[37;40m│                                   [0;1;37;40m  [0m                [1m  [0m                       │
 └──────────────────────────────────────────────────────────────────────────────┘
 
 

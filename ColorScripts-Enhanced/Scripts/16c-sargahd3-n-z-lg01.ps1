@@ -5,7 +5,7 @@
 # Source SHA-256: 8db3b6fa17c414049dd8d1769e98ad10bd454349fbc04cb38107ec3b87f712fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!Z-LG01.ANS by noize (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kafkaesk
 # SAUCE Author: noize
 # SAUCE Group: fbk.sargahd
@@ -39,9 +39,4 @@ Write-Host '
                                            [1;30;40m   [0m
 
 
---------------------------------------------------------------------------------
-''k'' for kafkaesk ... or how it says. don''t mind anyway. should be used as status
-screen. think it''s quite good.
-style credits fly out to that fluor^awe dude. wanted to try this fontspecialized
-style. i could be getting good in this.
-outlines done in 45 seconds. grmba. found it easy ...[0m'
+--------------------------------------------------------------------------------[0m'

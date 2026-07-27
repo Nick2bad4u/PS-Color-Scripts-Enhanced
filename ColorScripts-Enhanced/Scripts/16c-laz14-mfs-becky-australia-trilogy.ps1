@@ -5,7 +5,7 @@
 # Source SHA-256: 1c0ab8ebc843e0ded1ab2d63f225496cd036d3c02f0a2fe4e277b33eb7d041ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mfs-Becky-Australia-Trilogy.ans by Mel Farr Suppastar (Lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Becky Australia Trilogy
 # SAUCE Author: Mel Farr Suppastar
 # SAUCE Group: Lazarus
@@ -18,7 +18,7 @@
 Write-Host '
 [1;30;106m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
 [1;30;106m▌▒▒▒[0;34;106m          [0;1;36m███[0;34;106mThe Wolf Who Cried Women[0;1;36m██████████████[0;31;106m▒▓▓[0;1;36m█[0;1;30;106m▐[0m
-[1;30;106m▌▒▒[0;34;106m       Ninjitsu Cycle[0;32;106m [0;34;106m- Becky Australia Trilogy       [0;31;106m▓▓[0;1;30;106m▐[0m
+[1;30;106m▌▒▒[0;34;106m                     [0;32;106m [0;34;106m                                [0;31;106m▓▓[0;1;30;106m▐[0m
 [1;30;106m▌[0;34;106m                       [0;32;106m░░░[0;34;106m      [0;32;106m░░░░[0;34;106m                     [0;31;106m▒[0;1;30;106m▐[0m
 [1;30;106m▌[0;1;36m██[0;34;106m                [0;1;36m███[0;32;106m░▒[0;32m▀▀[0;32;106m▒░[0;1;36m██[0;32;106m░[0;1;36m█[0;32;106m░▒[0;32m▀▀[0;32;106m▒░[0;1;36m██████[0;32;106m░░░[0;1;36m████████████[0;1;30;106m▐[0m
 [1;30;106m▌[0;1;36m██[0;32;106m            [0;1;36m█████[0;32;106m░▒[0;32m▀[0;37m▄[0;1;30;47m▒[0m▀[32m▄[0;32;106m▒░░▒░▒▒[0;32m▌[0;37m░[0m [32;106m█░[0;1;36m████[0;32;106m░▓[0;32m▀[0;32;106m▓░[0;1;36m███████████[0;1;30;106m▐[0m

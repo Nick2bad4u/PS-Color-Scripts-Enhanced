@@ -5,7 +5,7 @@
 # Source SHA-256: 926526c3cc406229bcc5306fb007697404c7e3f1fc33603eed169ced8d37dfd0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HOS-FMNU.ANS by Hos (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chronic Farts Menu
 # SAUCE Author: Hos
 # SAUCE Group: AWE Lettering
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-   [1mMain Commands    Message Commands    File Commands    Misc Menu Choices[0m
+   [1m                                                                       [0m
 [1;30m+ -────-[0m───-[1m───┬──-[0m──-[1;30m─────────────────────────--───   [0m·   [1;30m─────-────────────-─-[0m
 [1;30m [0mcommand [47m [0;1;47m01 [0m  [1m|   [0;34m░[0m        [30;44m█[0m       [34;40m░[0m                 [37;40m■  ░[0m              [34;40m░    ░[0m
                [37;40m│   Hos''s [0;1;30;40m- [0;1;37;40mChronic Farts[0m      [34m░   [0;37m▄ ▀  ░    [0;34m░[0m          [37m░  [0;34m░  ░ ░[0m
@@ -37,14 +37,4 @@ Write-Host '
                [1;30m|  [0;1;34;44m░▓█▄▄██▓[0;34m▌▀▀[0;1;34;44m░▓[0;34m▐[0;1;34;44m░░[0;34m▄▄▄▄▄[0;34;44m  [0;1;34;44m░░░[0m  ░▌ [34m▄  [0;1;30m▀▌ [0;34m▄▄  [0;37m▀ [0;34m░░▓[0;1;34;44m░▓[0;1;34;46m▓[0;1;34;44m▀[0;34m▀ ▀[0;1;34;44m▀[0;1;34;46m▓[0;1;34;44m▀[0;34m▀▄▀░[0;30;44m▓[0;34;40m▓[0m
 [34;40m [0;37;40mcommand [0;37;47m [0;1;37;47m10 [0m  [1;30m: [0;34m▄[0;34;44m [0;1;34;44m░[0;34m▌▀▌█[0;1;34;44m█▀▄[0;34m▄[0;1;34;44m░▓[0;34m▀▐[0;1;34;44m▓▓[0;34m▄▄▀▀▀[0;1;34;44m░░▓▓▓▓[0;34m▄▄▄▄[0;1;34;44m▄▄▄[0;34m▄ █[0;1;34;44m░░░░[0;34m▄▄▄▀▀[0;1;34;44m▀▀[0;1;34;46m▓[0;1;34;44m█▄[0;34m▄[0;1;34;44m▄[0;1;34;47m▓[0;1;34;44m▌[0;34m▌▐▌[0;30;44m▓[0;34;40m▓[0;30;44m░[0;1;34;44m░[0m
                [1;30m| [0;34m░▌[0;1;34m░ [0;34m░▌ [0;1;34m░[0;34m▀▐▀[0;1;34;44m▓█[0;34m▀▀▀[0;1;34;47m▓▓[0;1;34;44m█[0;34m▀[0;1;34;44m░░[0;34m▄▄▄  [0;1;34m▀▀▀▀▀▀▌[0;1;34;44m▓█[0;1;34;47m▓[0;1;34;44m▌[0m  [34m▀▀▌[0;1;34;44m░░▓█▄[0;34m▄█▀[0;1;34;44m▀▀[0;1;34;47m▓░[0;1;37;47m█[0m [34m█░[0;30;44m░[0;34;40m█▀[0;1;34;46m▓[0m
-[1;30;40m- -────-───────┴───────--────────────────────-─────────────────────────────-──--[0m
-
-[1mThis HAS to be the BEST font that I have ever made..   It took me 45 minutes..[0m
-
-[1mWhew.  You want one like this? Email me, or find my on irc..[0m
-
-[1memail - mike.hall@sylvania.sev.org[0m
-[1mirc nick - hos[0m
-
-[1mor just call my board (my line should be in around dec 12 or so) 419-841-2376[0m
-[1m.. Running a spiff''d OBV/2 setup.  call. :)[0m'
+[1;30;40m- -────-───────┴───────--────────────────────-─────────────────────────────-──--[0m'

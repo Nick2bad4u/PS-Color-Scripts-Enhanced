@@ -5,7 +5,7 @@
 # Source SHA-256: 8911d954c48e49a500b6d4e28b3cc0124ac7c548f7113f1b182d8539aed97760
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GUMF.ANS by Luminous + Minister (Multiple Groups); released in avenge14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gumfuck
 # SAUCE Author: min / lum
 # SAUCE Group: Multiple Groups
@@ -37,4 +37,4 @@ Write-Host '
                             [1;33m░▒[0m [33m▓█▓▄[0;37m [0;31m░[0;37m▀▓[0;31m▓[0;37m▐[0;1;37;47m░[0m▄[1;37m▄▄[0;31m░▀▀▀▀▀▀▀▀▓▄[0;1;37m▄[0m▄[1;37;47m▓▒[0m▐[1;37;47m  [0m▓▀[31m░[0;37m  [0;1;33m░[0m [33m▀[0;1;31;43m▒▒░[0;33m▌[0;37m [0;1;33m░░▒[0m
                              [1;33m░[0m [33m░▒▒▓▒[0;37m [0;31m▄[0;37m [0;37;41m░[0;31;40m░[0;37;41m▀▀[0;1;37;47m▒▓[0;1;37;40m▌[0;1;37;47m▒▓▓[0;1;37;40m█▌█[0;1;37;47m▓▓[0;1;31;41m░[0;1;37;47m▓▓░[0;1;37;40m▓[0m▀[31m░[0;37m▀▀  [0;33m▄[0;37m [0;1;33m░▒░[0m [1;30m░[0;1;31;43m▒░[0m [1;33m░▒▒▓[0m
                             [1;33m░▒[0m  [33m░░▒░░[0;37m [0;31m▀▓[0;1;31;41m░[0;31m▄▄▄[0;1;31m▄[0m [1;37m▀▀▀[0m [1;37m▀▀▀▀[0m▀▀    [33m▄▄▄█[0;1;31;43m  [0m [1;33m▒▓▒░[0m [33m▀[0;37m [0;1;33m░▒▀▓▄[0m
- [1;33m▒░[0m [1;33m░░[0m  [1;33mg[0m [1;33mu[0m [1;33mm[0m [1;33mf[0m [1;33mu[0m [1;33mc[0m [1;33mk[0m  [1;33m░░[0m [1;33m░▒▒▒▒░[0;1;30m░░[0;33m░[0;37m [0;33m░[0;37m  [0;31m▓░▄▓▓[0;1;31m▀▀[0;31m▀[0;37m [0;1;33m░░[0;1;30m░[0;1;33m░[0m [33m▄▄▄▄███████[0;1;31;43m░[0;33m▌[0;1;33m░▓▓▓▒░[0;1;30m░[0;1;33m░▒▓█▓▄[0m'
+ [1;33m▒░[0m [1;33m░░[0m  [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m  [1;33m░░[0m [1;33m░▒▒▒▒░[0;1;30m░░[0;33m░[0;37m [0;33m░[0;37m  [0;31m▓░▄▓▓[0;1;31m▀▀[0;31m▀[0;37m [0;1;33m░░[0;1;30m░[0;1;33m░[0m [33m▄▄▄▄███████[0;1;31;43m░[0;33m▌[0;1;33m░▓▓▓▒░[0;1;30m░[0;1;33m░▒▓█▓▄[0m'

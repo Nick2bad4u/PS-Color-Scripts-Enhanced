@@ -5,7 +5,7 @@
 # Source SHA-256: 49afbfb1d9784fa17c27d1d6f4f968917f007db1babd5ceca423a192e36bcf83
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P-LARVAZ.ANS by pop-a (circe/larvas); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 3cd11
 # SAUCE Author: pop-a
 # SAUCE Group: circe/larvas
@@ -28,6 +28,4 @@ Write-Host '
 [37m [0;35m|      [0;36m |[0;35m   \_      |     |       |---|           _/     |    _|     /    _/[0m
 [37m [0;35m|[0;34m__[0;35m          |[0;34m__[0;35m    |     |[0;34m__[0;35m     |   |[0;34m__[0;35m         |[0;34m__[0;35m    |    \[0;34m___[0;35m        |[0m
 [34m    \___     _(  \___     _(  \__  |      \__     _|  \__      _|  \__     | [0m
-[34m      ╙------┘      ╙-----┘     ╙--┘        ╙-----┘      ╙-----┘     ╙-----┘[0m
-
-[37m        [0;33mE L  C U L T O D E L A LARVA  #2  LLEGANDO P R O XIMAMEN T  E.[0m'
+[34m      ╙------┘      ╙-----┘     ╙--┘        ╙-----┘      ╙-----┘     ╙-----┘[0m'

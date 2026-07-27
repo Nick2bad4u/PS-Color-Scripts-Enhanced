@@ -5,7 +5,7 @@
 # Source SHA-256: b32e5ba5fdd1e13d01a2d1a61c278b03c51761586343601493428bf1889b22e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-TRB.ANS by The Knight (Fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the speedy rebel base
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel
@@ -26,7 +26,7 @@ Write-Host '
 [32m [0;31m▄██▀░▀█▌███▀░▀[0;1;31;41m░[0;31m▄[0;32m▀███▀[0;1;32m▄[0;32m▄[0;37m [0;1;31;43m  ░▒▒▓▓▒▒░░▒▒[0;33m▀▀▀[0;1;31;43m ░░░░░▒▒▒▒▒▒▒▒▒▒▒░▒▒▓▓▓▓▓▓▓[0;1;31;47m▓▓▒▒▓[0;1;31;43m▒▒▒░░ [0;33m▀[0m
 [31m█████▄█▀░▀▀██▄[0;1;31;41m░░▒▓[0;32m [0;1;32m▄[0;32m▄[0;1;32;42m▀▄[0;32m█▄[0;37m [0;33m▀[0;1;31;43m ░░▒▒░░[0;33m▀▀[0;37m  [0;1;30m▓▄▄▄[0m [1;31m [0;33m▀▀▀▀[0;1;31;43m░░░░░░░░░[0;33m▀▀[0;1;31;43m░░▒▒▒▒▒▒▒▒▒▒[0;1;31;47m▓[0;1;31;43m░░░░[0;33m▀▀[0;1;31m [0;1;30m▓[0m
 [32m [0;31m▀▀█▓▌[0;1;30m▄[0;32m [0;37m■■[0;32m [0;1;30m▄[0;31m▐[0;1;31;41m░░[0;31m▀▀[0;32m▄▄▄[0;1;32m▀▀[0m [1;32m▀[0;32m█▓▄▄[0;1;30m▄[0;32m▄[0;1;30m▄▄▄▄▄▓▀█▀[0m [1;30m▓▀▀▀▀█▓▀▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄[0;33m▀▀▀▀▀▀▀▀▀[0;1;30m▄▄▄▄▓▄▀▒[0m
-       [1;30m▀  ▀[0m      [31m   [0m         [37m [0m          [1;30m [0m                       [1;30m100% original..[0m
+       [1;30m▀  ▀[0m      [31m   [0m         [37m [0m          [1;30m [0m                       [1;30m               [0m
            ▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄[1;35m   [0m▄▄▄▄▄▄▄▄▄▄ ▄▄▄      ▄▄▄▓▄▄▄▄▄▄ ▄▄▄
         ▄[1;47m ░▒░ [0m█     █[1;47m ░▒░ [0m█   █[1;35;47m [0;1;37;47m░▒░  [0m   █[1;47m ░▒░ [0m▄   █[1;47m ░▒░  [0m   █[1;47m ░▒░ [0m▄
      ░▒▓█[1;47m░▒▓▒░[0m█     █[1;47m░▒▓▒░ [0m   █[1;47m░▒▓▒░ [0m   █[1;47m░▒▓▒░[0m█▓░ █[1;47m░▒▓▒░ [0m   █[1;47m░▒▓▒░[0m█▓▒░
@@ -43,13 +43,13 @@ Write-Host '
                   [1;32m [0;35m [0;32m▀[0;1;32;42m▀▓▓█[0;1;32;40m██[0m [1;32m [0m [1;32m▀▀▀▀▀▀▀[0m   [1;32m▀▀▀[0;1;32;42m▓▓[0;1;32;40m▀▀[0m   [1;32m▀▀▀▀▀▀▀[0m  [1;32m ████[0;1;32;42m▀[0;32m▀[0;35m [0m
                       [32m▀[0;1;32m▀[0;1;32;42m▀▀[0;1;32;40m█▄ [0m      [1;32;46mT[0;1;32;40mhe[0m [1;32;46mR[0;1;32;40mebel[0m [1;32;46mB[0;1;32;40mase[0m        [1;32m ▄█[0;1;32;42m▀▀[0;1;32;40m▀[0;32m▀[0m
                         [1;32m   [0;32m▀[0;1;32m▀▀[0m                          [1;32m▀▀[0;32m▀[0;1;32m   [0m
-                         [1;32m [0m       [32m+[0;1;32mo[0m [1;36mL[0;36muke [0;1;36mS[0;36mkywalker[0m
+                         [1;32m [0m       [32m [0;1;32m [0m [1;36m [0;36m    [0;1;36m [0;36m        [0m
 
-            [1;30m  supports most major art groups and more of that stuff..[0m
-[1;30m [0m            [1;30mfill in the affils yourself ls, i aint gotz time fer it!?[0m
+            [1;30m                                                         [0m
+[1;30m [0m            [1;30m                                                         [0m
 
 
 [1;30m▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀ ▀▀▀ ▀▀  ▀  ▀[0m                     [1;30m▀  ▀  ▀▀ ▀▀▀ ▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀[0m
-           [1;30m [0m     [1;30mpicture by [0m"suske" t[1;30mhe[0m k[1;30mnight[0m [1;30m&[0m "god" h[1;30maras[0ms ;)
-                          [1;30m    logo by [0mt[1;30mhe [0mk[1;30mnight[0m    [1;30m  [0m
+           [1;30m [0m     [1;30m           [0m         [1;30m  [0m  [1;30m     [0m [1;30m [0m        [1;30m    [0m    
+                          [1;30m            [0m [1;30m   [0m [1;30m     [0m    [1;30m  [0m
 [1;30m▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄ ▄▄  ▄  ▄[0m                     [1;30m▄  ▄  ▄▄ ▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄[0m'

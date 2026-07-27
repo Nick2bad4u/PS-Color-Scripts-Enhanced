@@ -5,7 +5,7 @@
 # Source SHA-256: 168051ee503e255caf48ef2de2a9e0cf778116b909a1941a45195868c50cee0d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RJ-GNEST.ANS by Radjan (fos-0596); released in fos-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -54,9 +54,4 @@ Write-Host '
       ▀[1;47m▓[0;1;40m█▄▄ [0;1;33;40m▀[0m          [1m▀[0m       [1;30m▀ [0;1;37m▀  [0;1;30m▀  [0;1;37m▀▀▀[0m     [1;36m▄  [0;1;37m▀▀▀[0m       [1;36m▐▌[0m      [1m▀[0m
         [1m▀[0;1;47m▓[0;1;40m██▀[0m                                        [1;36m▀[0m       [1;36m▀ ▄■[0m
           [1m▀[0m                                   [1;36m▐▌[0m      [1;36m▀[0m
-                               [1mg[0moose[36m''[0;37ms [0;1;37mn[0mest [1mb[0mbs [1;36m▀ ▄▄ ▀[0m
-                                 [1mx[0mxx[36m-[0;1;37mx[0mxx[36m-[0;1;37mx[0mxxx
-                            [1ms[0mysop[36m: [0;1;37mg[0mimp [1mt[0mhe [1mb[0mastard
-
-
-grEetz[36m:[0;37mdark horizon[0;36m.[0;37mdesync[0;36m.[0;37mgimp the bastard[0;36m.[0;37motron[0;36m.[0;37mroyal assasian  by radjan[0;36m.[0;37mfos[0;36m.[0m'
+                               [1m [0m    [36m [0;37m  [0;1;37m [0m    [1m [0m   [1;36m▀ ▄▄ ▀[0m'

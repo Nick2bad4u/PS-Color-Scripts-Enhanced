@@ -5,7 +5,7 @@
 # Source SHA-256: 21eeffee3dbd7f48c3937db31e013229e5337b409e27f38b6e6ff5e5bc884eb4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5D-KICK.ANS by slayer dreams (maiden brazzilllllLL); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: maiden brazil!!
 # SAUCE Author: slayer dreams
 # SAUCE Group: maiden brazzilllllLL
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-    [1;33m                      [0m              [32m                  [0;37m  [0;1;33m┌>[0;32m [0;1;33m"Maiden??"[0m   [32m [0m
+    [1;33m                      [0m              [32m                  [0;37m  [0;1;33m┌ [0;32m [0;1;33m          [0m   [32m [0m
            [32m [0;37m [0;32m    [0m    [32m                                     [0;37m  [0;1;33m│[0m  [1;33m [0m
             [32m                  [0m   [32m░[0;30;42m▓[0m               [32;40m        [0;1;37;40m ▄▄[0;1;33;40m   [0;1;37;40m▄▄[0m        [32m░[0;30;42m▓[0m
        [32;40m[.![0;1;33;40m [0;32mmaiden[0;1;33m [0;1;32mb[0;1;33mr[0;1;34maz[0;1;33mi[0;1;32ml[0;1;33m [0;32m!.]  [0m              [32m░[0;30;42m▓[0m    [32;40m        [0;1;37;40m▀█▄▀ ▀▄[0;1;37;47m▓[0m▀[1m [0m  [32m ░[0;30;42m▓[0;37;40m [0;32;40m   [0m
@@ -33,5 +33,4 @@ Write-Host '
          [32;40m ▐[0;30;42m░[0;32;40m▌[0m   [32;40m█▄▄▄▄██[0;1;32;42m░░[0;32m███████[0;30;42m░[0;32;40m▓▌[0;34;40m▐▀▀▀ [0;32;40m▄▄▄▄███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [32;40m [0m
           [32;40m ░[0;30;42m▓[0;37;40m  [0;1;37;40m [0;32m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m    [32m░[0;37m [0;32m░[0;30;42m▓[0;37;40m  [0;1;30;40mlogo by[0;32m slayer [0;1;32md[0;1;33mr[0;1;34mea[0;1;33mm[0;1;32ms[0m  [32m░[0;30;42m▓[0;32;40m░[0;37;40m [0;30;42m▓[0m
              [32;40m░[0;30;42m▓[0;37;40m  [0;1;33;40m│[0m   [32m [0m
-                 [1;33m└> "[0;1;32myeaah[0;32m..! it''s the most important [0;1;32mbrazilian art group[0;32m![0m
-            [32m    And [0;1;32mmaiden[0;32m is coming to [0;1;32mrock[0;32m the [0;1;32mmundial scene!![0;1;33m"[0m'
+                 [1;33m└   [0;1;32m     [0;32m                            [0;1;32m                   [0;32m [0m'

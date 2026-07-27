@@ -5,7 +5,7 @@
 # Source SHA-256: b603cf3dca49c44fca0e5b7e66f59e2a7ed0dd8abcf83f9766423f8dfa393548
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2005 - 17 - TCF - Sadist.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -57,5 +57,5 @@ Write-Host '
 [31m▄▄  [0;1;31m░[0;1;31;41m▒▒▄▄[0;31m████▄▄▄▄[0;35;41m░░░░░[0;31;40m▀▀▀  ▄▄▄██[0;35;41m░░░[0;1;36;41m░░[0;35;41m░░[0;1;36;40m▒[0;1;36;41m░[0;35;41m░[0;1;36;41m░░░░[0;1;36;40m▒▒▒[0;1;36;41m░[0;35;41m░[0;1;36;41m░▒[0;1;36;40m▒[0;35;41m░░[0;1;36;41m░[0;1;36;40m▒▒[0;35;41m░░░[0;1;36;41m▒[0;1;36;40m▒[0;1;36;41m▒[0;1;36;40m▀[0;31m▀ ▄▓[0;35;41m░░[0;1;31;41m░░▒[0;1;31;40m▓▀[0;35m [0;1;35m▒▒[0m
 [35m░[0;31m▀▀■[0;37m   [0;31m▀▀█[0;1;31;41m▀[0;31m▄▄[0;37m    [0;31m▄▀▀[0m                       [31m▀██▄▄[0m         [31m▄▄▄██▀▀[0;37m [0;1;36m▀▀[0m [1;36m■[0m         [1;35m▒▒[0m
    [1;35m░░[0m [31m·[0;37m    [0;31m▀▀█▒█[0;1;33;41m   [0;1;31;41m▀▀▀[0;1;33;41m  [0;1;31;41m▀[0;1;33;41m   [0;1;31;41m▒[0;1;33;41m [0;1;31;41m▀[0;1;33;41m  [0;1;31;41m▒▒[0;1;33;41m  [0;1;31;41m▒▒▒▒▀▒▒▒▒▒▒▀▀▀▀▒▒▒▒▒[0;31m▀▀▀[0m           [1;36m·[0m      [1;35m▒[0;35m▌[0m
-[37m [0;31m▄▓▓[0;1;35m▒▒[0;1;33;41mSADIST [0;41m<<[0;1;33;41m  [0;1;35;41mTCF[0;1;33;41m  [0;41m>>[0;1;33;41m DRAWING PLEASURE FROM THE EMOTIONAL ABUSE OF OTHERS [0;35m▄▀[0m
+[37m [0;31m▄▓▓[0;1;35m▒▒[0;1;33;41m       [0;41m  [0;1;33;41m  [0;1;35;41m   [0;1;33;41m  [0;41m  [0;1;33;41m                                                     [0;35m▄▀[0m
 [35m ░░░░[0;37m [0;35m▀▀▀░░░▀▀░[0;37m [0;35m▀[0;37m [0;35m░░[0;37m    [0;35m░░░░░[0m      [35m░░░░░░░░░░[0m      [35m▀[0;37m    [0;35m░[0m       [35m▀▀▀▀[0;37m   [0;35m▀▀▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7de0bb90d90fe184c3236792bd4e2e01995b69657f122aa760dcb7d74d626edd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!-CREM.ANS by seeker (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cream
 # SAUCE Author: seeker
 # SAUCE Group: anger
@@ -30,7 +30,7 @@ Write-Host '
     [1;34m  $$     $$$$$$$$$`$P''  $[0;36m$[0;1;34m$$    [0;36m$[0;1;34m$$$$$$;$$$$  [0;36m$[0;1;34m$$$$$;$$$[0m        [1;34m$$$$$[0m
     [1;34m  $$$$s. `$$$$$$$$  `   $$$$$$    $$$$$!$$$s [0;36m$[0;1;34m$$$$$$"$$$[0m        [1;34m$$$$$[0m
     [1;34m   `$$$$$$$$$$$$$''   [0;32m÷[0;1;34m  `$$$$$$$$$$$$$$''`$$$$$$$$$$''$$²''[0m        [1;34m"""²''[0m
-    [37m [0m       [1;33m$[0;1;32mss[0;1;33m$$[0;1;32mssss$[0m   [1;32m:[0m                      [1;32m [0m     [1;32m²sssss[0;32m$$7[0m
+    [37m [0m       [1;33m [0;1;32m  [0;1;33m  [0;1;32m     [0m   [1;32m [0m                      [1;32m [0m     [1;32m      [0;32m   [0m
            [1;33m$$[0;1;32m$$[0;1;33m$$[0;1;32m$$$P[0m    [1;32m.$[0m  [1;32mC[0m   [1;32mr[0m  [1;32mea[0m   [1;32mM[0m      [1;32m! [0m    [1;32m$$$$[0;32m$$$$$: [0m
           [1;33m''$[0;1;32m$$$[0;1;33m$[0;1;32m$[0;1;33m$[0;1;32m$$[0m     [1;32m$[0;32m$[0m                     [1;32m.[0;32m$ [0m   [1;32m"[0;32m$$$$$$$$!` [0m
    [37m [0m      [1;33mi$[0;1;32m$$$$$$$$[0;1;33mb.[0;1;32m .d$$$[0m        [1;32m [0m         [1;32m$~[0;32m$$b.[0;37m [0;32m,[0;1;32md[0;32m$$$$$$$$$i [0m

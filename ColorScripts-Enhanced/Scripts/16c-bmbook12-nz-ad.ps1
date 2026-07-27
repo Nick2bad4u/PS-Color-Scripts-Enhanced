@@ -5,7 +5,7 @@
 # Source SHA-256: 69981bfaff3a7fa0b9ec8e2c015902961bb9c2b2d9125036a49e5b777c68172e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-AD.ANS by noize (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: artificial dope
 # SAUCE Author: noize
 # SAUCE Group: black maiden
@@ -39,6 +39,4 @@ Write-Host '
 [1;30;47m      [0;1;30;40m▌▀[0;34m▐[0;1;34;44m██[0;1;34;47m▄▄[0;1;34;44m██[0;34m ▀▀[0;1;34;44m▀▀▀[0;1;34;40m▄▄▄[0m   [1;34m▄▄▄▄[0;1;34;44m▐██[0;1;34;40m███[0;1;34;44m███[0;1;34;47m▄▐[0;1;34;44m█████▀[0;34m  [0;1;30m█[0;1;30;47m  ▐[0;1;30;40m▄▄[0;1;30;47m▀▀ [0;1;30;40m▌[0;34m▐[0;1;34;44m█[0;1;34;47m▓▓▄▄[0;1;34;44m██ [0m   [1;34;44m▀▌[0;1;37;40m [0;1;30;47m▌    [0m
 [1;30;47m▄[0;1;30;40m▌ [0;1;30;47m▄▄[0;1;30;40m░[0;1;37;40m  [0;34m▀▀▀▀▀[0;1;34;44m▀▀▀[0;34m▄▄[0m    [34m▀▀▀▀▀▀▀▀▀▐[0;1;34;44m▀▀▀▀▀▀▀░█████[0;34m▌▀ [0;1;30m▄[0;1;30;47m▀        ▄[0;34m █[0;1;34;44m▀▀▀▀▀▐█[0;34m▓░[0;1;37m [0;1;30m nz ░▀[0;1;30;47m▌  [0m
                                        [34m▀▀▀▀▀▀[0m                     [34m▀▀ [0m
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30mmy final ansi for go 2. basta.[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

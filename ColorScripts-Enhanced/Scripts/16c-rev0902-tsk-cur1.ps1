@@ -5,7 +5,7 @@
 # Source SHA-256: 2d3eb17f22c8d5f4aefb86cb228a169029bf9ded33e0475403fa4b1b66d30f0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-CUR1.ANS by The Silent Killer (Revival); released in rev0902 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Curatem
 # SAUCE Author: The Silent Killer
 # SAUCE Group: Revival
@@ -29,5 +29,4 @@ Write-Host '
    [37m [0;1;34m▀█[0;1;34;44m▓▄▓[0;1;34;40m▄▄[0;1;34;47m▓▓░▄[0;1;34;40m▌[0;1;35;40m▐[0;1;35;47m▓▓[0;1;35;45m▀[0;35m▀[0m   [1;37m██▌▀█[0;1;37;46m▓▓[0;1;37;40m▀▀[0;1;33;40m  [0;1;35;47m▓[0;1;35;40m█[0;1;35;45m▓[0;1;35;40m▀▀▀█[0;1;35;47m▓▓[0;1;35;40m█[0;1;35;45m▓▒[0m [1;35m▐[0;1;35;45m▓░[0m   [1m▀[0;1;47m▓[0;1;40m███▄▄███[0;1;46m▓▓[0;1;40m▌[0;1;30;40m▀[0;1;30;47m▄[0;1;30;40m [0m   [1;34;47m▓[0;1;34;44m▓▒[0m
       [1;34m▀▀▀██▀▀▀[0m   [1;35m▀[0m  [1;30mTsk[0m [1m▓▓█[0m  [1;34m▄▄[0;1;34;44m▓[0;34m▄[0;37m  [0;1;35m▀██[0m      [1;35m▀▀[0;1;35;45m▓[0m [1;35;47m▓[0;1;35;40m█[0;1;35;45m▓[0m     [1m▀▀▀▓▓▀▀██▀[0m       [1;34m▀▀▀[0m
                               [1;34m▀[0;1;34;44m▒▒░[0;34m▄[0m      [1;30m░░[0m [1m█[0;1;47m▓[0m▄
-                                            [1;47m▓▒░[0m▌   T H E   G R A N D[0m
-'
+                                            [1;47m▓▒░[0m▌   T H E   G R A N D[0m'

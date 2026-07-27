@@ -5,7 +5,7 @@
 # Source SHA-256: cca225034cf5e6aaa52c08404841aa4cab5d2e455d0e5d7a6aa214d357ca7a27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR_LOSTR.ANS by CRUCiFER (Department 38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lost Reality
 # SAUCE Author: CRUCiFER
 # SAUCE Group: Department 38
@@ -36,8 +36,4 @@ Write-Host '
              [1;30m│[0m [1;30m▐▀▀▀▀▄▄▄▀▀▀█ [0;35m  [0m    [1;30m▀▀[0m             [1;30m▀▀[0m        [1;30m▄█▀▀█ [0m [1;30m│[0m
              │[1;30m ▀▀▀▀▀▀▀▀▀▀▄▄▌  [0m  [1m·[0m [1m∙[0;35mR[0;37m··[0;1;35mE[0m·∙[1;35mA[0;1;30m∙·[0;1;37mL[0;1;30m·∙[0;1;35mI[0m∙·[1;35mT[0m··[35mY[0;1;37m∙[0;1;30m [0;1;37m·[0m    [1;30m▀▀▄▌[0m │
              [1m│[0m   [1;30mcr·d38[0m  [1;30m  ▀[0m [1m·[0;34mS[0;37m∙[0;1;34mY[0;1;30m∙[0;1;37mS[0;1;30m∙[0;1;34mO[0m∙[34mP[0;1;37m∙ ∙[0;34mT[0;1;37m∙[0;34mH[0;37m∙[0;1;34mE[0m∙[1;34mH[0;1;30m∙[0;1;37mI[0;1;30m∙[0;1;34mT[0m∙[1;34mM[0m∙[34mA[0;1;37m∙[0;34mN[0;1;37m∙[0m    [1;30m▀[0m [1m│[0m
-             [1m╚──[0m──[1;30m───[0m [1;30m─ ∙[0m                              [1;30m∙ ─[0m [1;30m───[0m──[1m──╝[0m
-
-
-[1;30m...A screen for The Hitman of Lost Reality...I don''t think I''ve managed to get [0m
-[1;30mon and give it to him yet...Oh well...:>[0m'
+             [1m╚──[0m──[1;30m───[0m [1;30m─ ∙[0m                              [1;30m∙ ─[0m [1;30m───[0m──[1m──╝[0m'

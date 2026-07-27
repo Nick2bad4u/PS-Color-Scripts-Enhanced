@@ -5,7 +5,7 @@
 # Source SHA-256: e6d9c97cc8b1a5c84bd1c410ac6be8965e1c2cb78fac1262c7f504e129634d1c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUI-MIST.ANS by SuiCyco (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: guardian of the mist
 # SAUCE Author: SuiCyco
 # SAUCE Group: haze
@@ -57,5 +57,5 @@ Write-Host '
 [36;40m███████████████████████████████████████████████████████████[0;36;42m█[0;36;40m███████████████████[0m
 [36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;36;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30m"[0;36mhe stopped, fearing what he had created, as it rose from[0;37m [0;36mthe thinning[0;37m [0;36mmist...[0;1;30m"[0m
+[1;30m [0;36m                                                        [0;37m [0;36m            [0;37m [0;36m       [0;1;30m [0m
 [36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

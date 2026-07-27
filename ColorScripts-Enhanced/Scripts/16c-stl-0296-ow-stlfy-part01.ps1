@@ -5,7 +5,7 @@
 # Source SHA-256: 95d9c271d32ba186f49fecc199e5b55d0072ebc014c7101eace6b8103e78047b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OW-STLFY.ANS by oWyn (stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: stultify
 # SAUCE Author: oWyn
 # SAUCE Group: stile
@@ -17,7 +17,7 @@
 Write-Host '
 
 
-[1m [0;30mdone jan 27, 1996.[0m
+[1m [0;30m                  [0m
 
 
 

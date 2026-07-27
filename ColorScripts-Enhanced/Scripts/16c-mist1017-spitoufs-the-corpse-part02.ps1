@@ -5,7 +5,7 @@
 # Source SHA-256: 2be40b87984c0e8737875737d4f6a0e293ca48236da3db8d386e024861f61a52
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPITOUFS-THE-CORPSE.ANS by Spitoufs (Mistigris); released in mist1017 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Corpse That Ran Away
 # SAUCE Author: Spitoufs
 # SAUCE Group: Mistigris
@@ -46,7 +46,7 @@ Write-Host '
              [31;40m░░[0;37;40m    [0;31;40m░[0;37;40m  [0;30;43m░░[0;37;40m  [0;31;40m░[0;37;40m [0;30;43m░[0;37;40m   [0;30;43m░▄[0;37;40m [0;31;40m░[0;30;43m▄░[0;37;40m [0;31;40m░[0;37;40m [0;30;43m░░[0;37;40m  [0;31;40m░[0;37;40m [0;30;43m░[0;37;40m  [0;31;40m░[0;37;40m [0;30;43m░░[0;37;40m [0;31;40m░[0;37;40m    [0;30;43m░░[0;37;40m [0;31;40m░░[0;37;40m  [0;31;40m░[0m
       [31;40m░[0;37;40m  [0;31;40m░[0m      [31;40m░[0;37;40m [0;31;40m░[0;37;40m [0;31;40m░[0;37;40m   [0;31;40m░░[0;37;40m   [0;31;40m░[0;37;40m [0;31;40m░[0;37;40m    [0;31;40m░[0;37;40m  [0;31;40m░░[0;37;40m    [0;31;40m░[0;37;40m   [0;31;40m░[0;37;40m   [0;31;40m░[0;37;40m  [0;31;40m░[0;37;40m [0;31;40m░[0;37;40m   [0;31;40m░[0m      [31;40m░[0m
           [31;40m░[0;37;40m   [0;31;40m░[0m       [31;40m░[0m          [31;40m░░[0m     [31;40m░[0;37;40m  [0;31;40m░[0;37;40m   [0;31;40m░░[0;37;40m  [0;31;40m░░[0;37;40m [0;31;40m░[0;37;40m  [0;31;40m░[0;37;40m  [0;31;40m░░[0;37;40m   [0;31;40m░[0m
-[37;40m   [0;31;40m!DIME [0;1;31;40mMYSTERY[0;31m 2[0;1;31m00[0;31m7[0;1;31m-[0;31mby Lobo~[0m           [31m░[0;37m    [0;31m░[0m       [31m░░[0m      [31m░[0m
+[37;40m   [0;31;40m      [0;1;31;40m       [0;31m  [0;1;31m  [0;31m [0;1;31m [0;31m        [0m           [31m░[0;37m    [0;31m░[0m       [31m░░[0m      [31m░[0m
        [31m░!EDITION[0;37m [0;1;31mHORROR[0;31m![0m        [31m░[0m     [31m░[0;37m   [0;31m░[0m       [31m░[0m     [31m░[0;37m    [0;31m░[0;37m    [0;31m░[0m
                          [31m░[0m       [31m░[0m           [31m░[0;37m   [0;31m░░[0m
         [31m░[0m         [31m░[0m                              [31m░[0m           [31m░[0m

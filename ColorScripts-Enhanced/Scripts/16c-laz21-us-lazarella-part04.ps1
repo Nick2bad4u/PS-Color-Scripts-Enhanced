@@ -5,7 +5,7 @@
 # Source SHA-256: c413eee54163fe7f95f4bef2be36cd195bf5dc117540b0e02a425cedc9c32b24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-lazarella.ans by Warpus + Harvest (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lazarella
 # SAUCE Author: harvest & warpus
 # SAUCE Group: LAZARUS
@@ -33,19 +33,19 @@ Write-Host '
 [1;30m      ▄█   ▀▀  ▄        █         Isidoro Broggi[0m
 [1;30m  ▄  ███▀   ▄▄▀        ▄▀▀▄[0m
 [1;30m █▀      ▄       ▄        ▀▄      [0mDIRECTED BY
-[1;30m       ▀▀      ▄▀          ▀▄     Carlo Lazovico Bragaglia[0m
+[1;30m       ▀▀      ▄▀          ▀▄                             [0m
 [1;30m    ▄      ▄     ▄██    ▀▄▄▄[0;34m▀[0m
 [1;30m   ▀      ▀     ▀▀██[0;34m▌[0;1;30m             [0mSCREENPLAY BY
-[1;30m      ▀            [0;34m▀[0;1;30m              Riccardo Lazzaglia &[0m
-             [1;30m▄                    Carlo Lazovico Bragaglia[0m
+[1;30m      ▀            [0;34m▀[0;1;30m                                  [0m
+             [1;30m▄                                            [0m
 
-                                  [1;30mBASED ON THE HIT SONG [0mLAZZARELLA
-                                  [1;30mBy Domenico Modugno & Riccardo Lazzaglia[0m
+                                  [1;30m                      [0m          
+                                  [1;30m                                        [0m
 
-                                  MUSIC BY               [1;30mCINEMATOGRAPHY BY[0m
-                                  [1;30mDomenico Modugno       Aldo Giordani[0m
+                                                         [1;30m                 [0m
+                                  [1;30m                                    [0m
 
-                                  EDITED BY
-                                  [1;30mRoberto Cinquini[0m
+                                           
+                                  [1;30m                [0m
 
                                     [30;41m█[0m'

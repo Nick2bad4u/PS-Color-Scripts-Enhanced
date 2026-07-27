@@ -5,7 +5,7 @@
 # Source SHA-256: bcba042745b4b1182ffba0b1474c75afe9b98aec4ad85235fcade086d001e817
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DV8-POTI.ANS by dv8! (ph33red and teetotal); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: a hdr for poettchen
 # SAUCE Author: dv8!
 # SAUCE Group: ph33red and teetotal
@@ -16,7 +16,7 @@
 
 Write-Host '
 
-   [1mjust a tiny header for you![0m
+   [1m                           [0m
    [1mi was bored[0m [1mso this thingie[0m                 [35m [0m    [1;35m▄▄█[0;1;35;45m█▀█[0;1;35;40m█▄▄[0m
    [1misn''t that good..[0m                           [35m  [0;1;35m▄██[0;1;35;45m▓▀[0;35m█████[0;1;35;45m▀▀▓█[0;1;35;40m▄[0;35m [0m
                                              [1;35m▄▄▄[0m [1;35m▀▀█[0;1;35;45m█▄▄[0;35m███[0;1;35;45m  ▓█[0;1;35;40m▀▀[0;35m [0;1;35m▄▄▄[0m

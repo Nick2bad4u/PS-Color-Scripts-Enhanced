@@ -5,7 +5,7 @@
 # Source SHA-256: 5b1dcf07ad824a971f25e5707803ba175fc0d020f137b62a38fcdb5f1e92e635
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REALMS.ANS by Magius (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 32-73
 # Columns: 1-80
 
@@ -43,11 +43,4 @@ Write-Host '
                            [1;33;40m▀███▄[0m              [1;33;40m▄▄██▀[0m
                               [1;33;40m▀▀████▄▄▄▄▄▄████▀▀[0m
                                     [1;33;40m▀▀▀▀▀▀[0m
-                                 [36m7[0;1;36m0[0;1;37m3-569-2[0;1;36m9[0;36m7[0;1;34m8[0m
-                                 [36mS[0;1;36my[0;1;37ms: Vang[0;1;36ma[0;36mr[0;1;34mD[0m
-                               [34mN[0;1;34mu[0;36mp [0;1;37m- What [0;1;36ma [0;1;34mDa[0;34my[0;1;34m![0m
-                               [34mT[0;1;34mS[0;36mA[0;1;36mN [0;1;37m/ IRS [0;1;36m/ [0;1;34mTP[0;34mS[0m
-                           [1;30mS[0;34may "[0;1;34mT[0;36m.[0;1;36mW[0;1;37m.D.''90 [0;1;36mS[0;36me[0;1;34mnt [0;34myou[0;1;30m"[0m
-                                [1;34mC[0;36mo[0;1;36m: [0;1;37mThe St[0;1;36ma[0;36ml[0;1;34mio[0;34mn[0m
-                               [34mR[0;1;34me[0;36mm[0;1;36mo[0;1;37mte : Ba[0;1;36mb[0;36my [0;1;34mD[0;34moc[0m
-                                 [36mI[0;1;36mR[0;1;37mS ''9o H[0;1;36mo[0;36mm[0;1;34me[0m'
+                                 [36m7[0;1;36m0[0;1;37m3-569-2[0;1;36m9[0;36m7[0;1;34m8[0m'

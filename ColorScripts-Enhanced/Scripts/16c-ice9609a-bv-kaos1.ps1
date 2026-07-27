@@ -5,7 +5,7 @@
 # Source SHA-256: 1e6c06f153d9293eb99b3ea5a1c5dd568cfb16c13f85641f5de6e0e7be24729b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BV-KAOS1.ICE by Black Viper (iCE Advertisements); released in ice9609a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Total Kaos
 # SAUCE Author: Black Viper
 # SAUCE Group: iCE Advertisements
@@ -39,27 +39,8 @@ Write-Host '
 [37;40m█████▀ ▄█▄▄ [0m                     [37;40m          [0;33;40m▄▄[0;30;43m░[0;33;40m▓█[0;37;43m░░▒░[0;33;40m▌▐[0;37;43m ░ [0;33;40m█████████[0;30;43m▀▄[0;33;40m▓▒▓█████▓▒▒▓[0m
 [37;40m███▀ ░▒▓▓████▄  ░[0m                 [37;40m▌▓[0m    [33;40m░▓███████[0;37;43m ░ [0;33;40m█▄█▀[0;30;43m░[0;33;40m▓██[0;30;43m [0;33;40m██████[0;30;43m▐▌[0;33;40m▓██████[0;30;43m░[0;33;40m▓[0;30;43m░[0;33;40m▓[0m
 
-[37;40m            ** This ansi is for Total Kaos ONLY, run by Ripper. **[0m
+[37;40m                                                                  [0m
 
 [1;30;40m───────────────────────────────────────────────────────────────────────────────[0m
-      This ansi has been made by [1mBlack Viper[0m from [1miCE Advertisements[0m,[1m 1996[0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m
-
-Black Viper[1;30m''[0ms[1;30m [0mlittle words[1;30m :)[0m
-
-I decided to quit [1mLegend[0m, cuz I didn''t have news for 2 weeks, and it really
-pissed me out. I was invited in [1mRoots[0m, ([1mDeeply[0m''s [1mD[0m new group), but it died
-1 week later. So I joined [1miCE[0m. :) Now it will be a big [1mchallenge[0m for me, so
-look out for [1mVERY worked[0m ansis from me in the next iCE packs. :)  Well that''s
-it, I think. :)
-
-All [1mrequests[0m should be emailed to [1mbviper[0m@[1mtotal[0m.[1mnet[0m,
-or call [1mPulse[0m at ([1m514[0m) [1m434[0m-[1m9508[0m
-
-[1mWord[0m to:
-
-Inertia, Grindstoned, Fluor, Tnangel, Snake Grunger, Toon Goon, Cold''N''Ugly,
-Colourless, Juice, Syntax, Cheeze, Splatt, Lord Soth, Widowmaker, Flame,
-Lemonade, Tetanus, Thrasher, and other people I forgot to greet. :)
-
-- [1mBlack Viper[0m ([1miCE[0m)[0m'
+                                 [1m           [0m      [1m                  [0m [1m     [0m
+[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

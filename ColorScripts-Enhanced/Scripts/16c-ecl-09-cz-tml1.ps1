@@ -5,12 +5,12 @@
 # Source SHA-256: a87114aaca00fea2c46101e44a7dcc3ad45cbbcac11027dca9c0db477988f3f2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-TML1.ANS by Cheeze (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
 Write-Host '
-''the missing link'' a cheeze([1meclipse[0m) logo..
+                            [1m       [0m        
                                                [1;32;47m [0m░
                                               [1;32;47m░░ [0m░
                                              [1;32;47m▒▒▒░░[0m░

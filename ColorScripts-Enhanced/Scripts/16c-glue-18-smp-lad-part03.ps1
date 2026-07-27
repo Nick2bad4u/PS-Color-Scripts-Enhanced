@@ -5,7 +5,7 @@
 # Source SHA-256: 9fc035a5fa1f691584857c8fb5d1dc82f5d72f8d5c97d030f5889de262d62e80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-LAD.ANS by Shrimp (glue-18); released in glue-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 70-107
 # Columns: 1-80
 
@@ -37,14 +37,13 @@ Write-Host '
  [1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0m [1;30m▄██[0;1;30;47m▓[0;1;30;40m███[0;1;30;47m▀░▄▄ ▐[0;1;30;40m▓▀▀▓▓▓▀██▓▓▀[0m [1;30m▀▓▓▀▀[0m [1;30m▄▄▄▓[0m [1;30m▀▀▀[0m  [1;30m▄▓▓▄▄▓▄▄[0m [1;30m▀▀[0m     [1;30m▀██[0;1;30;47m▄░▓[0;1;30;40m█[0;1;30;47m▒▒█▀▄[0;1;30;40m██▓░[0m
 [1;30m▄▄[0m  [1;30m░▓█[0;1;30;47m░░▄[0;1;30;40m▀▀▀▀░[0m [1;30m-----[0m [1;30m▒░░-------------------------------------------------------[0m
                       [1;30m░[0m
-[1;30maensi be dedicAYEted Ta Me gRRRandf''dah[0m [1;30mColin Lilley aND Ta mE cawntRRRy[0m [1;30manD ta[0m
-[1;30mTheee pEopLe O'' ScAtlan'' aNd Ta tHeirrr WhIsKee. i Be GaNnIng nO'' sew GoodbyE[0m
-[1;30mME lAdz, yEE.[0m
+[1;30m                                       [0m [1;30m                                [0m [1;30m      [0m
+[1;30m                                                                             [0m
+[1;30m             [0m
 [1;30m--------------------------------------------------------------------------------[0m
-I KNOW, FUCKING CHRIST, I KNOW, I SHOULD STICK TO FONTS. i just wanted to try,
-heh.. Don''t worry people, I''m not going to draw any more pictures soon :p.
-I sketched this ansi on a piece of paper and it took me no longer than 6 mins..
-Converting this picture to ansi took me a couple of hours.. HAH.. oh man.
-Look at the font, the font is cool.
-[1;30m--------------------------------------------------------------------------------[0m
-[1;37m(C) 1994-1999[0m [1mShrimp and Glue Productions.[0m'
+                                                                              
+                                                                          
+                                                                               
+                                                                         
+                                   
+[1;30m--------------------------------------------------------------------------------[0m'

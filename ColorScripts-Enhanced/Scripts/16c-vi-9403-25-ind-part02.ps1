@@ -5,7 +5,7 @@
 # Source SHA-256: 3d2c3b22887720f3e810e69f1e57917fab1cc0683ddb3966bcd99deb24b175aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 25-IND.ANS by Number 25 (vi-9403); released in vi-9403 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 38-72
 # Columns: 1-80
 
@@ -37,11 +37,4 @@ Write-Host '
 [1;37;40m   [0;1;37;47m▓▒[0m [1;37;47m▓▒[0m  [1;37;47m▓▒[0m [1;37;47m▓▒[0m [1;37;40m▐[0;1;37;47m▓[0;1;37;40m▌ [0;1;37;47m▓▒[0;1;37;40m▄▄▄▄ [0;1;37;47m▓▒[0m     [1;37;47m▓▒[0;1;37;40m▄▄▄▄ [0;1;37;47m▓▒[0m  [1;37;47m▓▒[0m [1;37;47m▓▒[0m [1;37;40m▐[0;1;37;47m▓[0;1;37;40m▌ [0;1;37;47m▓▒[0;1;37;40m▄▄▄▄ [0;1;37;47m▓▒[0m  [1;37;47m▓▒[0m    [1;37;47m▓▒[0m
 [1;37;40m   [0;1;37;47m█▓[0m [1;37;47m█▓[0m  [1;37;47m█▓[0m [1;37;47m██[0;1;37;40m██▀  [0;1;37;47m█[0;1;37;40m█████ [0;1;37;47m█▓[0m     [1;37;47m█[0;1;37;40m█████ [0;1;37;47m█▓[0m  [1;37;47m█▓[0m [1;37;47m█[0;1;37;40m███▀  [0;1;37;47m█[0;1;37;40m█████ [0;1;37;47m█▓[0m  [1;37;47m█▓[0m    [1;37;47m█▓[0m
 
-[1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-                             independent net
-            a general conversation net based at awakened earth
-            its new and kinky . art based . only 3 per area c.
-            for more information download the ind-pack.zip and
-            upload  your   applications  to   awakened   earth
-            708∙948∙5303 . graphics  done by  number 25 of vi.[0m'
+[1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

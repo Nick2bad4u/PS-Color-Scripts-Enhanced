@@ -5,7 +5,7 @@
 # Source SHA-256: a2c8a8ec2340dbeeeaba34e3a36916924c2a5ecb25ebb9e6b130fa03af97fb17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MP-RE1.ANS by mephitopeles (blade productions); released in blde9505 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: release...
 # SAUCE Author: mephitopeles
 # SAUCE Group: blade productions
@@ -36,8 +36,4 @@ Write-Host '
 [1m█████[0;1;47m▀[0;1;40m▀▀████[0;1;47m█ [0m [1;47m█▀[0;1;40m▀▀█[0;1;47m▓▄[0m▄[1m▀████[0m█ [1m███████[0;1;47m▓▀[0;1;40m▀▀██[0;1;47m▄[0m▄[1m▀███[0;1;47m▀[0;1;40m▀████[0;1;47m [0m [1;40m████[0;1;47m▀[0;1;40m▀▀█[0;1;47m▄[0m▄[1m▀███[0;1;47m▀[0;1;40m▀▀██[0;1;47m▄[0m▄
 [1;47m█[0;1;40m███[0;1;47m▓[0m█  [1m▄▄▄▄▄▄▄[0;1;47m█▀[0m▀[1m▄▄▄▄[0m▄ [1m█[0;1;47m▓[0;1;40m██[0m█ [1m▀▄▄▄▄[0m▄ [1m█[0;1;47m▀[0m▀[1m▄▄▄▄[0m▄ [1m▄▄▄▄▄[0;1;47m▓▀[0;1;40m▀█[0;1;47m [0m [1;40m▄▄[0m▄[1m▀▀▀[0;1;47m▄[0;1;40m▄▄[0m▄[1m▀██[0;1;47m▓▀[0m▀[1m▄▄▄▄[0m▄
 [1m▀▀▀▀▀[0m▀  [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀ [1m▀▀▀▀▀▀▀▀▀▀▀[0m▀ [1m▀▀▀▀▀▀▀[0m▀ [1m▀▀▀▀▀▀▀▀▀[0m▀ [1m▀▀▀▀▀▀▀▀[0m▀ [1m▀▀▀▀▀▀▀▀▀▀[0m▀
-[1m▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀[0m
-                    [1m"oh shit! i just blew marvin''s face off"[0m
-
-[1m  CIA[0m: [1mno hard feelings[0m
-[1mUNiON[0m: [1mno hard feelings[0m'
+[1m▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1m▀[0m'

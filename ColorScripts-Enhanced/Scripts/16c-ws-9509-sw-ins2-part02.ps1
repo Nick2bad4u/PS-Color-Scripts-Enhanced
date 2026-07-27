@@ -5,7 +5,7 @@
 # Source SHA-256: f1ed49898014c0c5138c2ce733248efada6da4cbeaa715ff5becf6d565cc113a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SW-INS2.ANS by screeching weasel (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: insomnia!
 # SAUCE Author: screeching weasel
 # SAUCE Group: READ THE INI FILE
@@ -35,13 +35,13 @@ Write-Host '
 [1;30;47m▓▒[0;1;30;40m▄[0;1;37;40m▀[0;1;37;46m█[0;1;37;40m▀▀ ▄▓[0;1;37;46m▄[0;1;37;40m▀▀ ▐▀▀[0m▄ [1m▀▀▓[0;1;46m▓[0;1;40m▄▀▀▀ [0m▄ [1m▀▀[0;1;46m▓▄▄[0;1;40m▀▀▄[0;1;46m▄█[0;1;40m▀▀▄▀▀[0m▄ [1m▐▀▀ [0;1;46m▄▄[0;1;40m▀▀ ▐▀[0m▄■[1m▀[0;1;46m▄[0;1;40m▀▀▀ ▀▀▓[0;1;46m▄▄[0;1;40m▀▀[0;1;46m▄▀[0;1;40m▄ [0;1;30;47m▒▓[0m
 [1;30;47m▒░▒[0;30;47m▀█░ [0;37;40m▄▄▄▄▄▓▄▄▄▓▀█▄▄▄▄▄▄▄▄█▓▄▄▄▄▄▄▄▓▄▄▄▄█▄▄▄▓█▄▄▓▄▄▄▄█▓▄▄▄█▄▄███▄▄▄▄▄ [0;1;37;40m■▀▀▀ [0m▄[1;30;47m░▒[0m
 [1;30;47m░[0m█[1;30;47m░[0;30;47m▄▓▀▀ ▀  ▀▀    [0;37;40m▓▄▄▄▄▀▀[0;37;47m  [0;30;47m▀   ▀                                           [0;37;40m▀▄[0;37;47m  [0;1;30;47m░[0m
-[1;30;47m    [0;31;47minsomnia! four.one.o.six.seven.nine.five.six.four.two.(410)679.5642  [0;37;40m▌▐░[0;37;47m   [0m
-[37;47m   [0;31;47mcontroled by bEASt [mOtiON.FiRM] .&. sCREEChiNG wEASEL [UNkNOWN.EARtH] [0;37;40m▄▒[0;37;47m   [0m
-[37;47m  [0;31;47mmOtion member board . firm member board . earth member board . asia dist[0;37;40m▄▓[0;37;47m [0;30;47m░ [0m
-[1;30;47m░ [0;31;47mwicked dist . aim dist . coar dist . same dist . sain dist . brain dist.    [0;1;30;47m░[0m
-[1;30;47m     [0;31;47mhooked up to aparanet and escapenet . running the latest iniquity       [0;1;30;47m░░[0m
-[1;30;47m░    [0;31;47mno nup . nuv . warez . lamerz . yes . art . music . stuff . tetris  [0;30;47m░  [0;1;30;47m░ ▒[0m
-[1;30;47m▒░     [0;31;47mansi brought you by that phunky motherfucka screeching weasel     [0;30;47m░  [0;1;30;47m░░▓[0m
+[1;30;47m    [0;31;47m                                                                     [0;37;40m▌▐░[0;37;47m   [0m
+[37;47m   [0;31;47m                                                                       [0;37;40m▄▒[0;37;47m   [0m
+[37;47m  [0;31;47m                                                                        [0;37;40m▄▓[0;37;47m [0;30;47m░ [0m
+[1;30;47m░ [0;31;47m                                                                            [0;1;30;47m░[0m
+[1;30;47m     [0;31;47m                                                                        [0;1;30;47m░░[0m
+[1;30;47m░    [0;31;47m                                                                    [0;30;47m░  [0;1;30;47m░ ▒[0m
+[1;30;47m▒░     [0;31;47m                                                                  [0;30;47m░  [0;1;30;47m░░▓[0m
 [1;30;47m▓▒░        [0m▄[47m   [0;30;47m▄■         ░       ▄     ▒          ▄▄        ▄         ░[0;1;30;47m░  ░▓▒▓[0m
 [1;30;47m█▓▒░  [0m▄▀▀▀▄[47m [0;30;47m■▀▀        ■▀▄▒░  ▄▄▀▀      ░  [0;37;40m▀▀[0;37;47m   [0;30;47m▀▀▀█ ▀    ▀▄▀    ▀     [0;1;30;47m░▒░░▒█▓█[0m
 [1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▓[0m▄  [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▓[0;1;30;40m██[0m

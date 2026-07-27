@@ -5,7 +5,7 @@
 # Source SHA-256: 02c0cf5d1cefaf006b4ad901c842e1f5da69712e9624711ee05a7b16eed1af3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-DI!.ANS by Fire Lord (eph0595); released in eph0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 48-95
 # Columns: 1-80
 
@@ -56,5 +56,4 @@ Write-Host '
            [1;30m▀▀[0;1;30;45m▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░░▒▒▓▓▓▓▓▓[0;1;30;40m▀▀[0;1;30;45m▓▓[0;1;30;40m▄▄[0;1;30;45m▓▓▓▒▒▒▒▒▒▒▒▒[0;35m▀[0m
                 [1;30m▀▀▀[0;1;30;45m▓▓▓▓▓▓▒▒▒▒▒▒▒▓▓[0;1;30;40m▀▀▀▄▄▄[0;1;30;45m▓▓▓▒▓▓▒▒▓▓▓▓▓▓▓[0;35m▀▀[0m
                        [1;30m▀▀[0;1;30;45m▓▓▓▓▓▓▓[0;1;30;40m▀█[0;1;30;45m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;40m▀▀▀[0m
-                                  [1;30;40m▀▀▀▀▀▀▀[0m
-'
+                                  [1;30;40m▀▀▀▀▀▀▀[0m'

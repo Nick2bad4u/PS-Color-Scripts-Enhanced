@@ -5,7 +5,7 @@
 # Source SHA-256: f00ea8c40cb07ccf0ee735e15c54b4df117ef809dc12a2b4c414e0186aeaa55c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-CRWT.ANS by Trip (thst0895); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 31-51
 # Columns: 1-80
 
@@ -23,11 +23,11 @@ Write-Host '
                                      [31m▀    ▀[0m        [31m▐▌[0m
                    [1;30mW[0m       [1;30mA[0m       [1;30mT[0m       [1;30mE[0m       [1;30mR[0m       [1;30mS[0m
 
-[1mLike, call this board.. ya... It''s mighty eleet, and has lotsa k-rad affils...[0m
-                                                         [1;30mEven those thrust guyz.[0m
+[1m                                                                              [0m
+                                                         [1;30m                       [0m
 
 
 [1;30m[∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙Snip this here cutline∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙][0m
-[1;30mWell .... I did a neck for this pick, and it didn''t look good, so i put in the[0m
-[1;30mspace filler shit....like..o well... i will put a body on the next one, I swear.[0m
+[1;30m                                                                              [0m
+[1;30m                                                                                [0m
 [1;30m[∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙Snip this here cutline∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙][0m'

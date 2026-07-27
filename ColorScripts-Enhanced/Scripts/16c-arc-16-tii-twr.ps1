@@ -5,7 +5,7 @@
 # Source SHA-256: 60c36027587895418eb6633fae1eafc098bf57adcf3ca899300914459bdb7da2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TII-TWR.ANS by tetsuo_ii (arc-16); released in arc-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the war room bbs
 # SAUCE Author: tetsuo_ii
 # SAUCE Date: 20000401
@@ -37,8 +37,4 @@ Write-Host '
                   [1;30m░[0m                                       [1;30m░[0m
 
 
-[1;30m- -----(cut)------------------------------------------------------------------ -[0m
-[1;30mthe war room bbs[0m [1;30m- the first one is singed as mxonfrost (sae) and re_released[0m
-                   [1;30mwith ARC.[0m [1;30m(as i have changed my handle to tetsuo_ii)[0m
-
-[1;30mtetsuo_ii[0m'
+[1;30m- -----(cut)------------------------------------------------------------------ -[0m'

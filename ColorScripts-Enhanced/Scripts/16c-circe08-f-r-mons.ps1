@@ -5,7 +5,7 @@
 # Source SHA-256: e729809f30197cb2f7da7dbbaa30ea9f63e16e4aec792db262486617d600fe66
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: F^R-MONS.ANS by Fear + Arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: monstro malo
 # SAUCE Author: fear - arle
 # SAUCE Group: circe
@@ -40,7 +40,4 @@ Write-Host '
         [1;30m░░░░░░░░░░░░░░░░░░▀[0;32m▒▒[0;1;32;42m██▄[0;32m▄[0;31m░▒▓[0;35;41m▀█[0;1;31;45m▀███[0;35;41m█[0;31;40m▀[0;32;40m▄[0;1;32;42m█[0;1;32;47m▀ ░[0;1;32;42m▀[0;32m░[0;1;30m░░░░░░░░░░░░░░░░░░[0m
         [1;30m░░░░░░░░░░░░░░░░░░░░ ▀[0;32m▓[0;1;32;42m▀[0;1;32;46m▄  ▀[0;1;32;40m▄[0;31;42m▀▀▀▀[0;1;32;42m▄▄███▀[0;32m▒▒[0;1;30m░░░░░░░░░░░░░░░░░░░░[0m
         [1;30m░░░░░░░░░░░░░░░░░░░░░░░░▀[0;1;32m▀[0;1;30;46m▄[0;1;36;46m▀███[0;1;32;46m  ▓▓[0;1;32;42m▀[0;32m▀[0;1;30m▀░░░░░░░░░░░░░░░░░░░░░░░[0m
-                                   [31m ▀▀[0;1;30m▀▀▀[0m
-
-        [1;30mOutlines        : Fear/Circe[0m
-        [1;30mColours/Touchups:[0m [1;30mArlequin/Circe[0m'
+                                   [31m ▀▀[0;1;30m▀▀▀[0m'

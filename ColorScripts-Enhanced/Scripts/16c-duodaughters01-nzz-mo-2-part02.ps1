@@ -5,7 +5,7 @@
 # Source SHA-256: 8e602028f9bf0b29d861b9a7c8ec28e14d5076ecb18c98717e56b2095498f647
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Nzz-MO-2.ans by mohra attacks (duoD); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ninjzz
 # SAUCE Author: mohra attacks
 # SAUCE Group: duoD
@@ -60,5 +60,5 @@ Write-Host '
          [1;30m▄▓███▀[0m     [32m░[0m                               [32m [0m              [32m▒[0m
                                 [32m ░[0m                                 [32m░[0m
                     [32m░[0m
-                                         [1;35mfuck y3r crew .. you aint shit like ew[0m
+                                         [1;35m                                      [0m
                     [32m.[0m                                                       [1;35mdo[0m'

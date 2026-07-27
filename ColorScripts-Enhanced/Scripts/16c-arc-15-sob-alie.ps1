@@ -5,7 +5,7 @@
 # Source SHA-256: d096f5299443525b895984477cc8b17ac63370025f0dbbdb633debe8bfd0aee7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOB-ALIE.ANS by Somberlain (Arc); released in arc-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Alien, for emok.
 # SAUCE Author: Somberlain
 # SAUCE Group: Arc
@@ -44,10 +44,4 @@ Write-Host '
 [1;30m  [0m  [36m [0;1;37m      [0;34m▀▀[0;1;37m        █      [0;1;33m▐▌▀▀[0;33m▀[0;1;37m          [0;33m▐[0;1;33;43m█[0;1;33;40m██[0;1;33;43m█[0;33m▀▄[0;1;33m▄[0;1;37m [0;33m▀[0;1;33m▀[0;1;37m    [0m█[1m     ▐▌              [0m
 [30mdrain[0;1;30m [0;30mis[0;1;30m [0;30man[0;1;30m [0;30midiot[0;1;37m    █      [0;1;33m▐▌[0;1;37m             [0;33m▐[0;1;33m▀[0;1;33;43m▀[0;1;33;40m▄[0;33m▀[0;1;33m▀[0;1;37m          [0m▀[1m [0m▄[1m▄ ▀               [0m
     [36m [0;1;37m                ▐▌     [0;1;33m█[0;1;37m           [0;33m▄[0;1;33m▄[0;1;37m [0;33m▀[0;1;33m▀[0;1;37m                                   [0m
-    [36m [0;1;37m                 ▀ ▄[0;1;33m▄[0;1;37m [0;1;33m▀[0;1;37m                                                    [0m
-                                                                       [1m         [0m
-                                                                       [1m         [0m
-[1;30mAnsi by the Somberlain, of Arc.[0;1;37m                            [0m
-
-[1;30m"ex ordine ad confusionem, ex luce ad noctem. Sanguis virginis te offero, [0m
-[1;30m accipe hoc donum humile, animam meam cape, ac da mihi aeteruita aem meam."[0m'
+    [36m [0;1;37m                 ▀ ▄[0;1;33m▄[0;1;37m [0;1;33m▀[0;1;37m                                                    [0m'

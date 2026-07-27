@@ -5,7 +5,7 @@
 # Source SHA-256: 986de73dcc9d8fa6de26f6b716a951bd3ae79e7f9248b516f34f9cfbcf908a40
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-C02.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -44,7 +44,7 @@ Write-Host '
 [1;31;40m█[0;1;31;43m▓▓▒▒░[0;33m▄[0;1;33m▀██▄[0m          [1;33m██▌[0;34m▓▒▒▒░▒▒▒▒▒▒▓▓▓▄▀▀ ▒▒░░░ ▓▒▒▒▒░▒▒░[0;1;33m▐██    [0;34m░░░░░░░▒▓▓█[0;1;33m▐█[0;1;33;43m▓▓▒[0m
 [1;31;40m█[0;1;31;43m▓▒▒▒░░ [0;33m▄[0;1;33m▀█▌[0;34m░░░░ ░   [0;1;33m▐██[0;34m▐▓▒░░░░░░░▒▒▒▒▒▒▓▓▄▄▄▄▄█▄▄▄▄▄▄▄▄ [0;1;33m██▌ [0;34m░░░▒▒▒▒▒▒▓▓▓▓█▌[0;1;33;43m▓▒▒░[0m
 [1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-                    [1;37;40mC[0myclops [1mo[0mf [1mt[0mhe [1mX[0m-[1mM[0men ([1mc[0m) [1mM[0marvel [1mE[0mntertainment
+                    [1;37;40m [0m       [1m [0m  [1m [0m   [1m [0m [1m [0m    [1m [0m  [1m [0m      [1m [0m            
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
                          [1;31m▄▄▄   ▄[0m              [1;31m▄[0m                [1;31m▄[0m         [1;31m▄[0m

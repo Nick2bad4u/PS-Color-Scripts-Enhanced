@@ -5,7 +5,7 @@
 # Source SHA-256: 4011ea31e5f8c65c788ce8c8c54291d3a6f9fb339281330c4e4244929c4daeb8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-FIL00.ANS by Precious Metal (riot-019); released in riot-019 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -22,18 +22,15 @@ Write-Host '
 
 
 
-        [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m       [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m      [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m
-        [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m       [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m      [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m
-        [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m       [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m      [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m
-        [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m       [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m      [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m
-        [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m       [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m      [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m
-        [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m       [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m      [1;36m·[0;36mx[0;1;36m·[0;1;37mxxxxxxxxxx[0m
+        [1;36m [0;36m [0;1;36m [0;1;37m          [0m       [1;36m [0;36m [0;1;36m [0;1;37m          [0m      [1;36m [0;36m [0;1;36m [0;1;37m          [0m
+        [1;36m [0;36m [0;1;36m [0;1;37m          [0m       [1;36m [0;36m [0;1;36m [0;1;37m          [0m      [1;36m [0;36m [0;1;36m [0;1;37m          [0m
+        [1;36m [0;36m [0;1;36m [0;1;37m          [0m       [1;36m [0;36m [0;1;36m [0;1;37m          [0m      [1;36m [0;36m [0;1;36m [0;1;37m          [0m
+        [1;36m [0;36m [0;1;36m [0;1;37m          [0m       [1;36m [0;36m [0;1;36m [0;1;37m          [0m      [1;36m [0;36m [0;1;36m [0;1;37m          [0m
+        [1;36m [0;36m [0;1;36m [0;1;37m          [0m       [1;36m [0;36m [0;1;36m [0;1;37m          [0m      [1;36m [0;36m [0;1;36m [0;1;37m          [0m
+        [1;36m [0;36m [0;1;36m [0;1;37m          [0m       [1;36m [0;36m [0;1;36m [0;1;37m          [0m      [1;36m [0;36m [0;1;36m [0;1;37m          [0m
 
 
 
 
 
--snip---
-
-  Another crazy ansi...use it if you''d like, watch for the upcoming dore
-pack, there''s going to be some Iniquity mods in there.[0m'
+-snip---[0m'

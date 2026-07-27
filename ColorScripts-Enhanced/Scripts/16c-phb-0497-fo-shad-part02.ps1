@@ -5,7 +5,7 @@
 # Source SHA-256: 93ff47c38a9263db56cca5c21cde0861b2771d54da5b82a5cbf821ba3f4fd770
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FO-SHAD.ANS by flexor (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: shad
 # SAUCE Author: flexor
 # SAUCE Group: pHOBIA@!
@@ -33,8 +33,4 @@ Write-Host '
             [1;30m█[0;1;30;41m▄▄▄[0;1;30;40m█▄▄██[0;1;30;41m▄▄█[0;36m [0;37m [0;1;30m█[0;1;30;41m▄▄▄█[0;1;34;40m [0;31m [0;1;30m█[0;1;30;41m▄▄▄█[0;36m  [0;1;30m█[0;1;30;41m▄▄▄█[0;1;30;40m▄▄█[0;1;30;41m▄▄▄█[0m [31m [0;1;30m█[0;1;30;41m▄▄▄█[0;1;30;40m▄▄█[0;1;30;41m▄▄▄[0;1;30;40m█[0m  [31m▐[0;1;31;41m [0;1;31;40m██[0;1;31;41m [0;31m▌[0m
                                                                     [1;31;41m [0;1;31;40m██[0;31m█[0;1;31;41m [0m
                                               [31m▄▄▄▄▄█[0;1;31;41m ▄▄▄▄▄▄▄▄[0;31m▄▄[0;1;31m [0;31m ▄▄[0;1;31;41m▄▓▓[0;31m█[0;1;31;41m [0m
-                                                    [31m▀▀▀▀▀▀[0;1;31;41m  ▀▀[0;31m█[0;1;31;41m  [0;31m█[0;1;31;41m▀[0;31m█▀▀▀[0m
-
-                [1;30mansi for the bbs shad... [0m [1;30mgreets to all i know :)[0m
-[1;30m             [0m
-                 [1;30m [0m                                 [1mflexor[0;1;30m([0;1;33mpHOBIA[0;1;30m)[0m'
+                                                    [31m▀▀▀▀▀▀[0;1;31;41m  ▀▀[0;31m█[0;1;31;41m  [0;31m█[0;1;31;41m▀[0;31m█▀▀▀[0m'

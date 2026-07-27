@@ -5,7 +5,7 @@
 # Source SHA-256: 7b1afb6aabbf2d1cd8c849ae1a5ed505e3534b4645f3fe7a840c1e804cd6404e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PS-DESER.ANS by Psionide (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Desert
 # SAUCE Author: Psionide
 # SAUCE Group: fire
@@ -37,6 +37,4 @@ Write-Host '
 
                                  [1;30md[0m [1;30mE [0m [1;30mS[0m   [1;30mE[0m  [1;30mR[0m [1;30mt[0m
 
-                     I  L   L    u      s     i    O   N  S
-
-[1;30mlogo by pSionide, 1996[0m'
+                     I  L   L    u      s     i    O   N  S[0m'

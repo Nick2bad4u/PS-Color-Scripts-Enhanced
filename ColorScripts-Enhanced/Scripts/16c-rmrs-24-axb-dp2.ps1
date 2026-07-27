@@ -5,7 +5,7 @@
 # Source SHA-256: 77eedcab65c192f09b144ac2106fa584a721aec3ec3cd8df6062653df2197a0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AXB-DP2.ANS by Axb (rmrs-24); released in rmrs-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -26,6 +26,6 @@ Write-Host '
           [1;30m;;;ii,,_,'';;;;ii; [0;33m""`[0;1;30m_,;;;;;;;;;;;;;;ii;;;;ii1;;1;;i;;;;;;[0m
           [1;30m;;;iii;;;;;;;;ii;;;;ii;;;;;;;;;;;;;;;ii;;;;iii;;i;;i;;;;;l[0m
 
-          [30;41m[        [0;1;37;41mt[0;30;41m   [0;1;37;41mE[0;30;41m            [0;1;37;41me[0;30;41m        [0;1;37;41m4 1 zero[0;30;41m              ][0m
+          [30;41m         [0;1;37;41m [0;30;41m   [0;1;37;41m [0;30;41m            [0;1;37;41m [0;30;41m        [0;1;37;41m        [0;30;41m               [0m
           [30;43m[          [0;1;37;43mh        d  E     p          [0;30;43m    [0;1;37;43m/[0;30;43m  [0;1;37;43m(c)1998[0;30;43m   ][0m
           [30;42m[                                                        ][0m'

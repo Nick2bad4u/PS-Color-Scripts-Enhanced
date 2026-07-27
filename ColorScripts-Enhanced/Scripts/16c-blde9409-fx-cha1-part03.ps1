@@ -5,7 +5,7 @@
 # Source SHA-256: 076d06fdccb389ed4f2df420a7fc1b169deda3eb545fd15a72cbdbbcde6911a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-CHA1.ANS by Facsimile (Blade Productions); released in blde9409 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chaos A.D. Advertisement
 # SAUCE Author: Facsimile
 # SAUCE Group: Blade Productions
@@ -45,10 +45,10 @@ Write-Host '
           [1;30m▀▀▀▀▀[0m                    [1;30m▀ ▀█▓▄▄[0;34m▀█▀[0m      [1;30m▀█▓▄ [0;34m▀▀▀▀▀▀[0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▒ ▄▀ ▄▄▄▄▄▄▄▄ ▒ ▀▀▀▀▀  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
         [1;30m▄ ▄[0m                            [1;30m░[0m             [1;30m░[0m                   [1;30m▐█[0m
-        [1;30m▓[0m               [1;37mSysop Apocalypse / Cosysops Seleriquis, Jax[0m      [1;30m▐█[0m
-        [1;30m▒[0m               [1;37mRunning PCB v15.1 / 9600+ only / 1 gig online    [0;1;30m▐█[0m
-        [1;30m░[0m               [1;37miLLNet, MiseryNet, CiS Site, LpK Site, BoC Site  [0;1;30m█▌[0m
-                        [1;37m317-pri-vate[0m                                   [1;30m▄█▀[0m
+        [1;30m▓[0m               [1;37m                                           [0m      [1;30m▐█[0m
+        [1;30m▒[0m               [1;37m                                                 [0;1;30m▐█[0m
+        [1;30m░[0m               [1;37m                                                 [0;1;30m█▌[0m
+                        [1;37m            [0m                                   [1;30m▄█▀[0m
 [1;30m [0;34m▓▀[0;1;34;44m░[0;34m▄ ░ [0;1;34;44m▓▒[0;34m▀▄ ░▀[0;1;34;44m▓[0;1;34;40m▄ [0;1;34;44m▓▒[0;1;34;40m▀ [0;1;30;40mtm ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▐█▀▀[0m
 [1;30;40m [0;34m▒▀[0;1;34;44m▒[0;34m▄ ▒ [0;1;34;44m▒░[0;34m▀▓ ▒ [0;1;34;44m▒▓[0m [1;34;44m▒░[0m [34m▀   [0;1;30m█▀ ▀[0m
 [1;30m [0;34m░▄[0;1;34;44m▓▒[0;34m▌▓▄▄▀ ▒ ▓▄[0;1;34;44m░[0;34m▀ [0;1;34;44m░ [0;34m▄    [0;1;30m▓▒ [0mGreets go to Abomination, Beastie, Betrayer,

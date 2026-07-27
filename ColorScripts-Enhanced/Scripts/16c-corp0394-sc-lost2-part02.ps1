@@ -5,7 +5,7 @@
 # Source SHA-256: 2decc0206ef3df888912e226ffacd9327f692d1d6989b5012378143cee82ddd0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-LOST2.ANS by Sliver Cut (corp0394); released in corp0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-87
 # Columns: 1-80
 
@@ -41,13 +41,11 @@ Write-Host '
                                                                               [1m░[0m
                             [1m2 1 6 [0;1;35m- [0;1m4 6 4 [0;1;35m- [0;1m7 7 6 3[0m
 
-                 [1mstaff : JabberWocky/PSY ■ Israfel/PSY/Gothic[0m
-                             [1mworking at 16800bps[0m
-       [1mPsychosis Magazine World HQ [0;1;35m■ [0;1mGothic US Stronghold [0;1;35m■ [0;1mSUN World HQ[0m
-              [1mUNiON Eastern HQ [0;1;35m■ [0;1mQUiCK Central HQ [0;1;35m■ [0;1mRAM Dist. Site[0m
-           [1miRiDiUM Dist. Site [0;1;35m■ [0;1mLUPUS Dist. Site [0;1;35m■ [0;1mRANCiD Central HQ[0m
-       [1mBAD Eastern HQ [0;1;35m■ [0;1mInfinity Diskmag Dist. Site [0;1;35m■ [0;1mTurbine Dist. Site[0m
-              [1mTECnik Eastern HQ [0;1;35m■ [0;1mRAGE US HQ [0;1;35m■ [0;1miMPHOBiA Dist. Site[0m
-           [1mShakaNet(tm) World HUB [0;1;35m■ [0;1mCCi Node [0;1;35m■ [0;1mStormWatch Central HUB[0m
-
-             [1;35mthis ansi is a 80x50 production by sliver cut of CoRP[0m'
+                 [1m                        ■                   [0m
+                             [1m                   [0m
+       [1m                            [0;1;35m■ [0;1m                     [0;1;35m■ [0;1m            [0m
+              [1m                 [0;1;35m■ [0;1m                 [0;1;35m■ [0;1m              [0m
+           [1m                   [0;1;35m■ [0;1m                 [0;1;35m■ [0;1m                 [0m
+       [1m               [0;1;35m■ [0;1m                            [0;1;35m■ [0;1m                  [0m
+              [1m                  [0;1;35m■ [0;1m           [0;1;35m■ [0;1m                   [0m
+           [1m                       [0;1;35m■ [0;1m         [0;1;35m■ [0;1m                      [0m'

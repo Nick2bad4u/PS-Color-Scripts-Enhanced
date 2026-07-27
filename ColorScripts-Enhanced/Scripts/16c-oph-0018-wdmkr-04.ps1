@@ -5,7 +5,7 @@
 # Source SHA-256: 08a32068a851fdabf9f94e76c3596546b1af6447011829c7954c27eec4eacbad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WDMKR-04.ANS by widowmaker (ophidiac); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: netzach@idirect.com
 # SAUCE Author: widowmaker
 # SAUCE Group: ophidiac
@@ -33,5 +33,4 @@ Write-Host '
         █[1m███[0;1;47m [0m [1;36;46m█[0;36m███▄▄▄▄[0;1;36;46m▀[0;36m███[0;37m [0;1;36;46m▓[0;36m███▄▄▄▄[0;1;36;46m▀[0;36m███[0;37m [0;1;36;46m█[0;36m███▄▄▄▄[0;1;36;46m▀[0;36m█[0;1;37;46m ▒[0m [1;36;46m█[0;36m███▄▄▄▄[0;1;36;46m▀[0;36m███[0;37m █[0;1;37m███[0;1;37;47m [0m
         █[1m███[0;1;47m [0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[1m███[0;1;47m [0m
         [1;33m▓[0;1;37m█████████████████████████████████████████████████████████████[0;1;37;47m [0m▄
-        [1;33m█[0;1;37;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m
-        widowaker[1mOPHIDIAC[0m'
+        [1;33m█[0;1;37;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 50f31e49cc1cafee7b09709a119fc601cad1eefb22883c312022384fcf518951
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-HDR.ANS by bizzarro (nH!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: some headers for funeral fog
 # SAUCE Author: bizzarro
 # SAUCE Group: nH!
@@ -48,6 +48,4 @@ Write-Host '
      [1;33m░░[0m  [1m▀[0;1;30;47m▄[0;1;37;47m▀▀█[0;1;37;40m▄▓▓▄[0;1;30;40m▐[0;1;30;47m▓[0;1;37;40m▌[0m▀▀[1m▀[0;1;33m▀[0;1;33;46m▒▒[0;36m░[0;37m [0;1;37m▀▀▀▀▓▓▓░░[0m [1m  [0;35m▀[0;1;37m▀[0;1;33m▀▀[0;1;35m [0;35m▀[0;1;37m   [0;35m▀[0;1;33m▀▀[0m  [35m▀▀[0;1;33;45m░░[0;1;33;40m▀[0m [35m▀[0;37m  [0;35m▀▀▀[0;1;33m▀▓▓[0;1;35m▀[0;35m▀[0;1;33;45m░░[0;1;33;47m█[0;1;37;47m█[0;1;37;40m▌░ [0m
          [1;30m  ██[0m▀[1m▀▀[0m [1m▀[0;36m▀▀[0m    [1;33m [0;36m░░ [0;1;33m  [0m   [1m░░░[0m                     [1;33;45m▒▒[0;1;33;40m░[0m        [1;33m [0m  [1;33m [0;1;35m░░[0;1;33m  [0m
                                  [1m   [0m                     [1;33m░░ [0m
-[1m--[0m [1muse[0m [1myour[0m [1mknife[0m [1mhere[0m [1m---------------------------------------------------------[0m
-
-                        strictly for funeral fog..[0m'
+[1m--[0m [1muse[0m [1myour[0m [1mknife[0m [1mhere[0m [1m---------------------------------------------------------[0m'

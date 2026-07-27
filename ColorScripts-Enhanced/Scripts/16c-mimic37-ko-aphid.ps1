@@ -5,7 +5,7 @@
 # Source SHA-256: e54ca3bc3334c19ef06ebe4d49be6d970b1edf60bfac29f1d3bd19522e827f68
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ko-aphid.ans by Konami (mimic37); released in mimic37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
         [31m.[0m   [31m;[0m   [1;31m.[0m    [1;37m_.[0m  [31m_-  ,d\[0m    [31m,d$[0;37m [0;31m`7$[0m   [31m`²/[0;1;31mb, [0m     [1m$$$$[0m [1m$$s⌐,$$ $$ $$[0m [1m$$b,[0m
           [31m,d[0;37m  [0;1;31m,[0;31ml [0;1;37m$\²`  [0;31m``[0m     [31m```[0;37m [0;31m`²/$[0m    [31m`7[0m     [31m`[0;1;31m;l[0;31mb[0m    [1;37mll`/lll`/lll ll ""[0m [1ml`ll[0m
          [31md$;[0;37m [0;1;31m,[0;31m$$$[0m      [31m.[0;37m  [0;31m,s[0;1;31m;[0;31m²"[0;37m [0;31m`[0m     [31m`[0m     [31ml[0m      [31m`[0;1;31m;[0;31mb[0m   [37m$$  $$$ ,$$$ $$ $$ $ $$[0m
-       [31m,d[0;1;31m;;[0;31m$$$$$\²²"`` [0;37m  [0;31m;l[0;1;31ml[0;31m  [0m         [31m;[0m      [31m.[0m      [31m`7[0;37m  lllllllll\lllll ll l l;[0m
+       [31m  [0;1;31m  [0;31m            [0;37m  [0;31m  [0;1;31m [0;31m  [0m         [31m [0m      [31m [0m      [31m  [0;37m                         [0m
      [31m,d[0;1;31mll[0;31m\²²""`[0;1;30m.-\[0m        [31m;l[0;37m  [0;31m` ²s⌐,  .[0m                [31ml[0;37m [0;1;30m$$  $$$`  $$ $$ $$ $d$;[0m
     [31m²"``[0;37m [0;1;30m__--`[0m    [1;30m;[0m     [1;30m/[0m   [31m⌐,[0m    [31m`²$[0;1;31m;[0;31m,[0m                [31m;[0;37m [0;1;30mll  lll ,lll lllll l\` [0m
     [1;30m_¬s$\` [0m        [1;30m`.[0m     [1;30m\[0m   [31m:[0m      [31m$[0;1;31ml[0;31m$  )[0m            [1;31m [0m
@@ -23,7 +23,7 @@ Write-Host '
        [33m--[0;1;33m-----[0m [1;33m$$[0m [1;33m-----[0;33m--[0m     [31m,s┼$[0;1;31m;;`[0;31m  |[0m        [1;30m║ for shrimps board "APHID"![0m
      [1;31m$[0m [33m$$`[0;1;31m"²/$l[0;33m$$[0;1;31m$$\²"`$[0;33m$ $[0;37m [0;31m;$[0m   [31m"²⌐[0m    [31m`--`[0m    [1;30m║[0m
      [1;31m`l[0;33m$[0;1;31ml$$[0;1;37ms[0;1;31m s⌐$$⌐s[0;1;37ms[0;1;31m $$$[0;33m$l`[0;37m  [0;31m\_[0m     [31m`.  ;[0m       [1;30m║[0m
-       [33m;[0;1;31m$$$__$$$$$$_ ²""[0;33m;[0m     [31m `)[0m               [1;30m║[0m [1;30mmenu commands go here dumbass![0m
+       [33m [0;1;31m                [0;33m [0m     [31m   [0m               [1;30m║[0m [1;30m                              [0m
         [1;31m7$$$$$$[0;33m$$[0;1;31m$$$ /$$l[0;1;30m--([0;1;37m--[0;31m-`[0m       [31m/[0m        [1;30m║[0m
     [1m,[0m [1;30m⌐,.[0;1;31m`²/$┼$$$$┼l [0;1;33m----[0;31m¬[0;1;37m ,[0m      [31m`--`[0m          [1;30m║[0m
      [1;33m\[0m [1;30m`7$$$[0m  [1;31m````[0m  [1;30m;$$[0m;l [1;33m/[0m                     [1;30m║[0m

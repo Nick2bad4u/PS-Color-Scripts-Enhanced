@@ -5,7 +5,7 @@
 # Source SHA-256: cb9ab63e1c9df8ce6d7bda295c12aaf3a131786e5251ee5c92211c018e3627fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EDOG.ANS by Maestro (ete1-93); released in ete1-93 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -47,6 +47,4 @@ Write-Host '
                    [35m█   ▌ █  █   ▌█   ■ ▄▀ ▌  ▌ ▀  █  █ ▄▀[0m      [37m∙[0;1;30m∙[0mM[1máεstrO[0;1;30m∙[0m∙
                    [1;30m█■    █  █■   █▀▄▀  █  ▌  ▌ █  █  ▐▀[0m            [1;37moF[0m
                    [1;30m█   ▌ █  █   ▌█  ▀▄ █  ▀▄ ▌ ▌  █  █[0m          [1;30mε[0mT[1mεRNi[0mT[1;30mY[0;1;37m°[0m
-                   [1;30m▌▄▄▀  ▌  ▌▄▄▀ ▌    ■▌    ▀  ■  ▌  ▌[0m
-
-                             [31mε[0;1;31mTεRNiTY° [0;31mA[0;1;31mNSi[0;31m([0;1;31mç)[0m'
+                   [1;30m▌▄▄▀  ▌  ▌▄▄▀ ▌    ■▌    ▀  ■  ▌  ▌[0m'

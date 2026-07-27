@@ -5,7 +5,7 @@
 # Source SHA-256: e079e9b05cf5a441d9555c805072f2088d80d9d2cbae0053034f3b1ab185751a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-IC.ANS by The Illusionist (aim-0002); released in aim-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 42-77
 # Columns: 1-80
 
@@ -44,5 +44,5 @@ Write-Host '
 [30m██[0;1;30;47m██[0;30m████████████████[0;1;30m [0;30m██████████████████[0;1;37m [0;30m███████████████████████████████████████[0;37m [0m
 [30m████[0;1;30;47m█[0;1;30;40m▓▓[0;30m████████████████[0;1;30m [0;30m███[0;1;30mC [0mr [1mu s h i n g  t h e  C o m p e t i t i [0mo[1;30m n [0;30m████[0m
 [30m██████[0;1;30;47m█[0;1;30;40m▓▓▒[0;30m█████████████████████████████████████████████████████████████████████[0;37m [0m
-          [1;30m▓▒▒▒[0;30m█[0;1;30m           [0;30m██[0;1;30mAnsi by The Illusionist of AiM Productions [0m
+          [1;30m▓▒▒▒[0;30m█[0;1;30m           [0;30m██[0;1;30m                                           [0m
 [30m███████████████████████████████████████████████████████████████████████████████[0;37m [0m'

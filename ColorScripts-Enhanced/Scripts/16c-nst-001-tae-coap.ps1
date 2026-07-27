@@ -5,7 +5,7 @@
 # Source SHA-256: 29ae94a520b2332cf02c6fa8e59ccb44236a38c09f331acd284b94fc40083522
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TAE-COAP.ANS by taevore (neon strike); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "  chaos on a plate "
 # SAUCE Author: taevore
 # SAUCE Group: neon strike
@@ -34,6 +34,4 @@ Write-Host '
       [35m▀[0;1;33;45m▀█▄[0;35m▄▄[0m     [33m▐[0;1;35;41m▐▓░[0;31m▀[0;1;30m^tAe[0;31m▀▓[0;31;43m▀[0;1;35;41m▀▓███████▌[0;31m▀[0;37m [0;36m▐▀[0;1;36;46m░▓░[0;36m▀▀▌[0;1;30m   [0;36m▐▀█[0;1;36;46m░░[0;36m▀▀▌[0;1;30m [0;36m▐▀▀[0;1;36;46m░[0;36m██▀▌▄█[0;1;36;46m░[0;36m█▀ [0;37m [0;36m   [0m
         [35m▀[0;1;33;45m▀▀▓▄▄[0;35m▄[0;1;33m [0;33m▄[0;31;43m▄[0;1;35;41m [0;31m▀[0;1;30m    [0m  [31m  [0;37m  [0;33m▀[0;31;43m▀[0;1;35;41m▀██▀▀[0;31m▀[0;37m  [0m                              [36m  [0m
           [37m [0;35m▀▓▓▀▌[0;37m [0;31m▀[0m          [37m [0m   [31m▓▓▀▌[0m    [1;30m          - chaos on a plate[0m
-            [35m░░[0m   [1;30m               [0;31m░░[0m    [1;30m propably one of the world ugliests [0m
-[1;30m(btw: this one is[0m [1;30mmade just for fun)[0m  [1;30m ansis on history of ansi scene :)[0m
-[1;30m(btw2: this one was[0m [1;30mmade *f a s t* )[0m'
+            [35m░░[0m   [1;30m               [0;31m░░[0m    [1;30m                                    [0m'

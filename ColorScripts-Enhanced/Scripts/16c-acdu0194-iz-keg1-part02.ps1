@@ -5,7 +5,7 @@
 # Source SHA-256: 118e0c7c8559860619e7558498915c25028fc7edd4d7430bff8e8aad754a2f03
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-KEG1.ANS by Icszer (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -50,13 +50,13 @@ Write-Host '
               [34m,[0m                                                [34m.   .[0m
         [34m, ·[0m                                                          [34m■[0m
       [1;34m▄[0;1;34;44m▀[0;34m▄'';▀ ,`  `[0m                914-234-[1;30m9674[0m                   [34m· ; ·▀·█▄[0;1;34m▄[0m
-[1;34m   ▄██[0;1;34;44m▀[0;34m■·,.·  ''[0m        PWA Affil  TCM W[1;30mHQ  TDN Eastern HQ[0m            [34m''▀ [0;30;44m■ [0;1;34;44m▀[0;1;34m█▄[0m
+[1;34m   ▄██[0;1;34;44m▀[0;34m■       [0m                        [1;30m                  [0m            [34m ▀ [0;30;44m■ [0;1;34;44m▀[0;1;34m█▄[0m
 [1;34m▄███[0;1;34;44m▓[0;34m█■.··[0m             Edge Memb[1;30mer [0mb[1;30moard  PoW Distro Site[0m               [34m.:[0;30;44m░[0;1;34;44m░[0;1;34m███▄[0m
-[1;34;44m▀▀▀[0;34m█[0;1;34;44m▄[0;34m█[0;1;34;44m·[0;34m■- `.[0m        PRiMAL Di[1;30mstro [0msi[1;30mte   Ransom Member board[0m         [34m. , ■.█[0;1;34;44m▒▀▀▀[0m
-[34m▀████[0;1;34;44m■[0;34m▐ [0mHSLin[1;30mk [0mBeta S[1;30mite  [0mATT[1;30miTUDE [0mN[1;30met  ShadowNet  Blitzmail  UltraTech   [0;34m▌█████[0m
-[34m   ▀▀██▄,·[0m       Staf[1;30mf;  [0mS[1;30mixPack  [0mP[1;30mhoenix Hawk  Visual Delusion[0m       [34m·,▄███▀[0m
+[1;34;44m▀▀▀[0;34m█[0;1;34;44m▄[0;34m█[0;1;34;44m [0;34m■    [0m                 [1;30m     [0m  [1;30m                        [0m         [34m    ■ █[0;1;34;44m▒▀▀▀[0m
+[34m▀████[0;1;34;44m■[0;34m▐ [0m     [1;30m  [0m      [1;30m     [0m   [1;30m      [0m [1;30m                                      [0;34m▌█████[0m
+[34m   ▀▀██▄  [0m           [1;30m    [0m [1;30m        [0m [1;30m                            [0m       [34m  ▄███▀[0m
       [34m▀██.` '',[0m                                                  [34m,  .~.▄▀▀▀[0m
          [34m▀ . ,  ,[0m                                             [34m,   · ▄[0m
-                       [1;30mANSI BY ICSZER OF ACID PRODUCTIONS[0m
-         [1;30mIf you would like an ansi like this one for your board/group,[0m
+                       [1;30m                                  [0m
+         [1;30m                                                             [0m
                            [1;30mcall me at 1-800-521-5804[0m'

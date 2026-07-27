@@ -5,7 +5,7 @@
 # Source SHA-256: 5e10736b02b78f753f21768886b4738ba8271ce552b85018ea1fe3d53b2adb58
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RP-NEWS.ANS by rippa (polyester); released in pst-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: news file header
 # SAUCE Author: rippa
 # SAUCE Group: polyester
@@ -29,12 +29,4 @@ Write-Host '
                                                [1;30m [0m           [36m ▀            [0m
 
 
-[1;30m──────────────────────────────────────────────────────────────────[ [0;36mcut here[0;1;30m ]─[0m
-
-[36mgreets go to all who i''ve met along the way.. krinkle([0;1;37minsurge[0;36m), [0;1;37mvejita[0;36m, stanna,[0m
-[36mrorshack, trippah, black_jack, serial2n, napalm, dark entity, bchrome, palmore,[0m
-[1;37mhitek[0;36m, [0;1;37minclusive[0;36m, [0;1;37mdeathstroke[0;36m, and everyone who has joined my polyester. i''d[0m
-[36mlike to see my group prosper even more, so if you wanna release an ansi, ascii,[0m
-[36mvga or rip every two months (yes, just one), please contact me![0m
-
-[36moh, this ansi is for anyone to use btw, just mail me b4 you use it.[0m'
+[1;30m──────────────────────────────────────────────────────────────────[ [0;36mcut here[0;1;30m ]─[0m'

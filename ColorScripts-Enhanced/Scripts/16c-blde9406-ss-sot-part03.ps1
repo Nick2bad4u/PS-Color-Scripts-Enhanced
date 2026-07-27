@@ -5,7 +5,7 @@
 # Source SHA-256: e3aa9dd5b85a62a3f9ce026e55fd52696b64e3537c0d9e545b0a181a5f158a3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-SOT.ANS by Soul Seeker (blde9406); released in blde9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 72-108
 # Columns: 1-80
 
@@ -35,14 +35,13 @@ Write-Host '
 
                            [1;37m9 [0;1;31m0 [0;31m8 [0;1;30m- [0;31mT M P [0;1;30m- [0;31mD O [0;1;31mW [0;1;37mN[0m
 
-                       [1;37mC[0;1;31mu[0;31mrrently 1[0;1;31m4[0;1;30m.[0;1;37m4[0;1;30m, [0;1;37mS[0;1;31mo[0;31mon To Be 2[0;1;31m8[0;1;30m.[0;1;37m8[0m
-                   [1;37mR[0;1;31mu[0;31mnning PCBoard v15[0;1;30m.[0;31m1[0;1;30m/[0;31m10 w[0;1;30m/[0;31mSide Effec[0;1;31mt[0;1;37ms[0m
-                     [1;37m3[0;1;31m4[0;31m5 Megz On[0;1;30m-[0;31mLi[0;1;31mn[0;1;37me [0;1;30m/ [0;1;37m1 [0;1;31mG[0;31mig[0;1;30m! [0;31mOff[0;1;30m-[0;31mLi[0;1;31mn[0;1;37me[0m
-                                [1;37mo[0;1;30m-[0;1;31m7 [0;31mDay Sh[0;1;31mi[0;1;37mt[0;1;30m![0m
+                       [1;37m [0;1;31m [0;31m         [0;1;31m [0;1;30m [0;1;37m [0;1;30m  [0;1;37m [0;1;31m [0;31m          [0;1;31m [0;1;30m [0;1;37m [0m
+                   [1;37m [0;1;31m [0;31m                 [0;1;30m [0;31m [0;1;30m [0;31m    [0;1;30m [0;31m          [0;1;31m [0;1;37m [0m
+                     [1;37m [0;1;31m [0;31m         [0;1;30m [0;31m  [0;1;31m [0;1;37m  [0;1;30m  [0;1;37m  [0;1;31m [0;31m  [0;1;30m  [0;31m   [0;1;30m [0;31m  [0;1;31m [0;1;37m [0m
+                                [1;37m [0;1;30m [0;1;31m  [0;31m      [0;1;31m [0;1;37m [0;1;30m [0m
 
-            [1;37mB[0;1;31mL[0;31m/┤[0;1;31mD[0;1;37mE M[0;1;31me[0;31mmber Boa[0;1;31mr[0;1;37md [0;1;30m/ [0;1;37mP[0;1;31mh[0;31maseNet No[0;1;31md[0;1;37me [0;1;30m/ [0;1;37mV[0;1;31mi[0;31mCE Distro Si[0;1;31mt[0;1;37me[0m
+            [1;37m [0;1;31m [0;31m ┤[0;1;31m [0;1;37m   [0;1;31m [0;31m        [0;1;31m [0;1;37m  [0;1;30m  [0;1;37m [0;1;31m [0;31m         [0;1;31m [0;1;37m  [0;1;30m  [0;1;37m [0;1;31m [0;31m            [0;1;31m [0;1;37m [0m
 
-                        [31mThe Op[0;1;30m: [0;1;37mH[0;1;31mo[0;31mmie D. Clo[0;1;31mw[0;1;37mn [0;1;30m[[0;1;37mB[0;1;31mL[0;31m/┤[0;1;31mD[0;1;37mE[0;1;30m][0m
+                        [31m      [0;1;30m  [0;1;37m [0;1;31m [0;31m          [0;1;31m [0;1;37m  [0;1;30m [0;1;37m [0;1;31m [0;31m ┤[0;1;31m [0;1;37m [0;1;30m [0m
 
-[1;30m [0;1;37m───[0;1;31m────[0;31m────────────────────────────────────────────────────────────────[0;1;31m────[0;1;37m───[0m
-              [1;37mANSI Presentation By [0;1;30mS[0;34mo[0;1;34mu[0;1;37mL See[0;1;34mK[0;34me[0;1;30mR[0;1;37m, [0;1;30mB[0;32mL[0;1;32mA[0;1;37mDE Producti[0;1;32mo[0;32mn[0;1;30ms[0m'
+[1;30m [0;1;37m───[0;1;31m────[0;31m────────────────────────────────────────────────────────────────[0;1;31m────[0;1;37m───[0m'

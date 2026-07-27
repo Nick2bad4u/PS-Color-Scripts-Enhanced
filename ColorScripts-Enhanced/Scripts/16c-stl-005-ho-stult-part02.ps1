@@ -5,7 +5,7 @@
 # Source SHA-256: 0140ce4bf67ebcc4fd0e818d9fbd0e8d9424d6719cccfefaeb5af720dba2abb6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HO-STULT.ANS by hoodoo (stile); released in stl-005 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ^Stultify^
 # SAUCE Author: hoodoo
 # SAUCE Group: stile
@@ -45,7 +45,4 @@ Write-Host '
 [1;30;41m██[0;1;30;40m▄▄▄▄▄▄▄[0;1;30;41m█▓▓▓▓▓[0;1;30;40m▄▄▄▄[0;1;30;41m▓▒▒▒▒[0;1;30;40m▄▄▄[0;31m▄[0;1;30m▄▄[0;31m▄[0;1;30;41m▒▒░░░[0;31m▄▄▄[0;1;30m▄[0;31m▄▄▄██[0;1;30;41m░░░[0;31m▄▄▄▄[0;1;30;41m░░[0;31m▄[0;1;30m▄▄[0;31m▄[0;1;30;41m▒▒▒▒▒[0;1;30;40m▄▄▄▄▄[0;1;30;41m▓▓▓▓▓▓[0;1;30;40m█▄▄▄[0;1;30;41m██[0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31m▀[0;1;30m▀[0;31m▀▀[0;1;30m▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;31m▀▀▀[0;1;30m▀[0;31m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mCouldn''t put number or affils on this one cause i didn''t now em'' =)[0m
-[1;30mWell hope you''re satisfied now Fear, you''ve been yelling for an ansi a long time[0m
-[1;30mnow =)... Here it is, enjoy and peace![0m'
+[1;30m--------------------------------------------------------------------------------[0m'

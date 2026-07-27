@@ -5,7 +5,7 @@
 # Source SHA-256: ab18ad46a6e59212673f261072f9b016d7169216e8d97972dd2cf32ba9a2677d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW-ORDR.ANS by -M9 <-upsidedown bw! (apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: order askii
 # SAUCE Author: -M9 <-upsidedown bw!
 # SAUCE Group: apathy
@@ -32,8 +32,4 @@ Write-Host '
                        [1;30m [0;1;37m████▌[0m   [1;30m [0;1;37m██▀[0m  [1m█████[0;1;30m [0m   [1m▐████[0;1;30m [0m
                         [1;30m [0;1;37m▀▀██▄▄■▀▀[0m   [1;30m [0;1;37m▀██▀[0;1;30m [0;1;37m▀■▄▄██▀▀[0;1;30m [0m
                           [1mo     r     d     e     r[0m
-[1;30m   [0m                         a    s    k    i    i
-
-
-[1;30msorry about the lameness of this ansi guedo but uhmm.. like it was on A deadline[0m
-[1;30mgreetz goto [0mms. f1tt [1;30m,[0mtrip[1;30m, [0mkk[1;30m, [0mvassago ''o'' DiRT [1;30m([0;1;37mwhat a dweeb[0;1;30m).[0m'
+[1;30m   [0m                         a    s    k    i    i[0m'

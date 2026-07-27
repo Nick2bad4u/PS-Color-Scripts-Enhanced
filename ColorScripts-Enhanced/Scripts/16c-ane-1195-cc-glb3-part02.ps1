@@ -5,7 +5,7 @@
 # Source SHA-256: 048f99d6cdd2eb1dd1bc88241acc2f61ab58fc0b43c84a22202e6a895917fd00
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-GLB3.ANS by Clorox Cowboy (anemia); released in ane-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Globe Pic #1
 # SAUCE Author: Clorox Cowboy
 # SAUCE Group: anemia
@@ -42,4 +42,4 @@ Write-Host '
  ▓▄ [1m▀▀▓▄ [0;1;30m▀▀▀▀▀▀[0m [1m▄▄▓▀  [0m [1m▀▓[0m ▓▄   [1m▀▄▄▄▄██▀▀[0m     ▓▄ [1m▀▀██▄▄▄▄▀[0m ▄  [1m▀▀▓▄[0;1;30m ▀▀▀▀[0m [1m  ▄▓▀▀[0m
    ▀▀▄  [1m▀▀▀▀▀▀▀▀     [0;1;30m▀▓[0;1;37m [0m [1m▀▄▄[0m ▀                 ▀▀          ▀▓▄▄[1m  ▀▀▀▀▀▀▀▀[0m
                        [1;30m▀▀▄[0m [1m ▀▀▓▄▄▄▄▄▀ [0;1;30m¡numero:4o7.264.4966![0m
-                           [1;30m▀▀▀[0m [1;30m▄▄[0m     [1;30m¡sopz:clorox cowboy![0m'
+                           [1;30m▀▀▀[0m [1;30m▄▄[0m     [1;30m                    [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c58a008d3f672409a86f0987c44752b965df364b25ab211a96aa36d1084f0314
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-BYE.ANS by Arlequin (circe02); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
@@ -26,5 +26,5 @@ Write-Host '
   [1;32m$[0;1;32;42m$$[0;1;32;40m$[0;32mb,._[0;1;30m`└☻☻⌂┐,._[0;34m`~°[0;1;34mⁿ└*▲[0;1;37m [0;1;30m:☻[0;1;30;47m☺[0m☻[1;30m☻[0m [34m¬┬[0;1;34m┬▬[0;34m▬[0;1;34m,.__[0;34m [0;1;30m+[0;1;37m [0;31m`[0;37m [0;1;30m`└*[0;32m ; [0;1;30m~"┴⌂☻:[0m [35m`└*[0;37m  [0;1;30m `~°└─⌂⌂Y☻││☻☻[0m
   [30;42m$[0;1;32;40m$[0;1;32;42m$[0;1;37;42m$$$$$[0;1;32;40m║$#%g┬┬▬▬▬[0;32m,[0;1;32m..[0;32m__[0;37m   [0;1;30m☻[0m☻☻[1;30m☻[0m [34m"ⁿ[0;1;34mⁿ┴[0;34m┴*[0;1;34m*⌂T$[0;1;34;44m$$[0;1;34;40mX#%gg┬┬ [0mArl                     [1;30m``[0m
   [30;42m$$[0;1;32;42m$[0;1;32;40m$F⌂*┘ⁿⁿ"[0;32m~~`    [0;37m   [0;32m  [0;30;45m$[0;35;40mL [0;1;30;40m└Y☻☻[0;1;37;40m [0;35m![0;1;35m$[0m
-  [32m┘"`[0;37m                    [0;1;35m![0;30;45m$[0;1;35;40mb┐▬[0;35m,[0;1;35m.[0;35m_j[0;1;35;45m$[0;1;35;40mL[0;35m [0;37m       ++ Goodbye Wax.[0m
+  [32m┘  [0;37m                    [0;1;35m [0;30;45m [0;1;35;40m ┐▬[0;35m [0;1;35m [0;35m  [0;1;35;45m [0;1;35;40m [0;35m [0;37m                      [0m
 [37m                         [0;35m `~[0;1;35m°ⁿ└*▲Y[0;1;37;45m$[0;1;35;40m║ [0m'

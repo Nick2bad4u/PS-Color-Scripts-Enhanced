@@ -5,7 +5,7 @@
 # Source SHA-256: 5eca32162225c2a28f134786313e1e7ec3a897c5fe79725ea98c4c70f30d9b50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VDR-CLN.ANS by Vader (3o3pack3); released in 3o3pack3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Clean
 # SAUCE Author: Vader
 # SAUCE Date: 19970428
@@ -34,5 +34,4 @@ Write-Host '
              [34m▀▐[0;1;34;44m░[0;34m██████████[0;1;34;44m░[0;34m▌[0m    [34m▐▀[0;1;34;44m░[0;34m███████[0;1;34;44m░[0;34m███▀▌▀[0;1;34;44m░[0;34m████████[0;1;34;44m [0;34m███[0;1;34;44m░[0;34m████[0;1;34;44m░[0;34m▐██▌▓[0m
                   [34m▌▓█▌█[0;1;34;44m░[0;34m█▓▌[0m         [34m▀▀▓██[0;1;34;44m░[0;34m▌▀[0m      [34m▌▀▓█████[0;1;34;44m░[0;34m▌▓████████▓▀▀[0m
                       [34m▓[0;37m  [0;34m▌[0m             [34m▓▐[0m             [34m▀▀█▓▀[0m     [34m▀▓▌▀[0m
-                                       [34m ▀[0m               [34m▐[0m         [34m▓[0m
-[37mthanx to nOah for the small touch-ups... i did this ansi orginally for clean..[0m'
+                                       [34m ▀[0m               [34m▐[0m         [34m▓[0m'

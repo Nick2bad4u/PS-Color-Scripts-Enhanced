@@ -5,7 +5,7 @@
 # Source SHA-256: 0b6dc26b93b008386d7e8d7b2deeef0fb9756ecee888e55c1866e0c5baa5ab5f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-MD2RD.ANS by Nail + Tainted (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Maid That Raids
 # SAUCE Author: tainted + nail
 # SAUCE Group: Fire
@@ -55,10 +55,4 @@ Write-Host '
     [1;30m [0m▓▓▓[1;30m [0;1;30;47m▄[0;1;30;40m█  [0;1;30;47m▄[0;1;30;40m█[0m                                          [1;30m██  [0m░░[1;30m    ▄▄███▀[0m
     [1;30m [0m░░░[1;30m   █  [0m▒▒                    [1;30m▀▓▓▄[0m               [1;30m▌  █[0m       [1;30m▀▀▀▀[0m
             [1;30m▄   ▀[0m              [1;30m   [0m   [1;30m    ▀▀[0m [1;30m   [0m        [1;30m▓▓[0m
-                  [1;30mn![0m
-
-
- [1;30mSeen this before? Yeah, you''re right.[0m
-[1;30m A version of this was packaged into Fire #38 and it was just a couple days[0m
-[1;30m later that I realized that something didn''t look quite right. So now you get[0m
- [1;30mto look at it again, with a couple of blocks changed. Aren''t you lucky?[0m'
+                  [1;30mn![0m'

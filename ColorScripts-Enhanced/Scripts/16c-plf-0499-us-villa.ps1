@@ -5,7 +5,7 @@
 # Source SHA-256: 7ff36b2fa3d50efd0420336b01e0d6b545d5078f944000b554d992ce02f381b1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-VILLA.ANS by Keetar + Konami (poffelipoff); released in plf-0499 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: village matrix
 # SAUCE Author: Multiple Artists
 # SAUCE Group: poffelipoff
@@ -37,7 +37,7 @@ ko/ktr    [1;30m▀▀ [0m           [1;30m▀▀▀▀▀▀██[0;1;30;4
                                       ▀
 [1;34;47m█▄[0;1;34;40m██[0;1;34;47m█[0;1;34;40m████▓▓▓▓▓▓▓▓▓░░░░░ [0m░░░
 
-Outlines:[1;37m Konami[0m of Black Maiden
-Shade:[1;37m Keetar[0m of poffelipoff
+         [1;37m       [0m                
+      [1;37m       [0m               
 
 [1;37m..[0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: f3ab1ae2658fcbebe9b82f3d54d09e30388471bbd6679fa434d4318bf0057b93
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AOH-ILSN.ANS by Angel Of Hell (emic0496); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-[36m.xsS#Ssx. .xsS#Ssx. .xsS#Ssx. .xsS[0m      [36m.xsS#Ssx. .xsS#Ssx. .xsS#Ssx. .xsS[0m
+[36m                                  [0m      [36m                                  [0m
 [36m$$$$ $[0;1;36m$$[0;36m$ $$$$ $$$$ $$$$ $$$$ $[0;1;36m$$[0;36m$ss    $$$$ $$$$ $$$$ $[0;1m$[0;1;36m$[0;36m$ $$$$ $$$$ $$$$ss[0m
 [36m$$$$s$[0;1m$[0;1;36m$[0;36m$ $$$$$$$$  $$$$sssss $[0;1;36m$[0;1m$[0;36m$[0m      [36m$$$$$$$$  $$$$s$[0;1;36m$$[0;36m$ $$$$[0m      [36m$[0;1m$[0;1;36m$[0;36m$[0m
 [36m$$$$ $$$$ $[0;1;36m$$[0;36m$ $$$$[0m      [36m$[0;1;36m$$[0;36m$ $$$$ .xx. $[0;1;36m$$[0;36m$ $$$$ $$$$ $$$$ $[0;1;36m$$[0;36m$ $$$$ $[0;1;36m$$[0;36m$ .xx.[0m
@@ -26,9 +26,4 @@ Write-Host '
 [31m   $$[0;1;31m$$[0;31m$  $$$$$    $$$s`$$$soos$$$''sos$$$'' ,sssss  ²$$$  s$$$$$'',$$    $[0;1m$[0;1;31m$[0;31m$s $$[0m
 [31m   $$[0;1m$[0;1;31m$[0;31m$ ²²$$$$    $$$$²[0m      [31m$$$''[0m       [31m,[0;1;31m$$[0;31m$$$    $$$'' ,$$[0;1;31m$$[0;31m$$s $$    $$$$²,$$[0m
 [31m   ²²$$²[0;36maoh[0;31m`$$$soos$$$''[0m       [31m$$''[0m       [31m,$[0;1;31m$[0;1m$[0;31m$[0m     [31m$$$$  $$$[0;1m$[0;1;31m$[0;31m$''`$$$    $$$'',$$''[0m
-                  [31m$$$''[0m     [1;31m,s [0;31m$''[0;1;31ms,[0m     [31m,$$$$[0m     [31m$$$$'' ,$$$$$''   ²²`$ss$'' s$$''[0m
-[33m,mmmmmmmmmmmmmmmm [0;31m$$''[0;33mmmmmm [0;1;31m$$$s$$$ [0;33mmmm [0;31m$$$s   s$$$''[0;33mmmm [0;31m²²$$$² [0;33mmmmmmmmmmmmmmmmmm,[0m
-[33m$$ [0mascii: angel[1;31m,s [0;31m$''[0;1;31ms,[0mof he[1;31m`$$$$$''[0mll     [31m`²²²²²''[0m             (Cr)eator :posys [33m$$[0m
-[33m$$ [0mthis is for [1;31m$$$s$$$[0m       [1;31m`$''[0m                  abstract illusion :eman sbb [33m$$[0m
-[33m$$ [0mthe  ''96 asc[1;31m`$$$$$''[0mii competion..                              :rebmun sbb [33m$$[0m
-[33m$$mmmmmmmmmmmmmm,[0;1;31m`$''[0;33m,mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm$$[0m'
+                  [31m$$$''[0m     [1;31m,s [0;31m$''[0;1;31ms,[0m     [31m,$$$$[0m     [31m$$$$'' ,$$$$$''   ²²`$ss$'' s$$''[0m'

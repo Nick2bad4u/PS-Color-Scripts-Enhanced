@@ -5,7 +5,7 @@
 # Source SHA-256: e0ac19c2ff34804fe310ab6feb48e60868e7e4eee0a75ed8fd8d4f2eba43962e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OB-UNRL.ANS by oddball (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Unreal!
 # SAUCE Author: oddball
 # SAUCE Group: lazarus
@@ -29,16 +29,8 @@ Write-Host '
                       [1;35m▄█[0;1;35;45m▀[0;1;35;40m▀[0;35m▀[0m                 [1;36m░░░[0m
                        [1;35m▌[0m      [35m ░[0;30;45m▓[0m
 [37;40m-[klipp]------------------------------------------------------------------------[0m
-[37;40m uhm.. i dunno who this was for. . anyway, it''s my only work (except our joint)[0m
-[37;40m for the july-pack, cause i''m on vacation.[0m
-[37;40m and i''m all out of reqs... so mail them to ob_shad@hotmail.com and don''t catch[0m
-[37;40m me on irc. =>. .damn.. i''m so tired.. i''m leaving in about 2 hours.. blah.. [0m
-[37;40m bye.[0m
-[37;40m greets to:[0m
-[37;40m [0;1;37;40mhennifer[0m: kanelbullar
- [1mdanen[0m: ta väl hand om mammadOlm&co
- [1mstrajd[0m: urf.. jusste.. du ja. =>
- [1mzembar[0m: ikke spela zelda2! :>
- [1mcombo[0m: ajuste.. du är inte hemma nu..
- alla jag glömde + alla i fusion + the whole wide laz!crew.
- sgnäpraks artscen är ksitetap[0m'
+[37;40m                                                                               [0m
+[37;40m                                          [0m
+[37;40m                                                                               [0m
+[37;40m                                                                             [0m
+[37;40m bye.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ade72b60960c49407a9d4f94255759a899eec28974396592253bf6eb09a0da19
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EX-ECL.ANS by exocet (ncl / xpo??); released in ecl-pak4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ecl ansi!
 # SAUCE Author: exocet
 # SAUCE Group: ncl / xpo??
@@ -38,11 +38,4 @@ Write-Host '
 [1;35m  [0;1;30m [0m [36m▐[0;1;36m█[0;1;36;47m▓▓[0;1;36;40m█▀▀▀[0m     [1m  [0;1;30m░░[0;1;30;44m▓[0;1;37;44m█[0;1;34;44m█[0;34m▄[0m     [32m▀▀█▄▄[0;1;30m   [0m   [32m      [0;37m [0;32m▄▄▀▀▀▀[0;37m [0;34m▄▄█▀[0m
 [1;35m [0m            [1m  [0m [1m    [0;1;30m ░[0;34m▀▀[0;1;34;44m▀▄▄░[0;34m█▄▄▄[0m                [34m▄▄▄██▀▀▀▀[0m
 [1;35m [0m           [1m   [0m [1m      [0m    [31m [0m    [34m▀▀▀▀▀▀[0m      [34m▀▀[0m
-[1;30m( cut here 8< )-(lees meer hieronder enzo!)------------------------------------[0m
-     [31m [0;37m [0;31m [0;37m              [0;31m    [0m
-[1;30mwhaaaaaa eclove! they even start looking GREEN! whahha...[0m [1;30manother quick ansi[0m
-[1;30mdone by me: exocet... --> yeah it''s me.. i''m back enzo! ''the feeling'' is dead[0m
-[1;30mbut the feeling of drawing ansi is back in my fingers! whahah.... [0m
-[1;30mdon''t rip this... because this one is for ECOLOVE![0m
-
-[1;30mmzzl! greets go who are reading this CRAP! CRAP![0m'
+[1;30m( cut here 8< )-(lees meer hieronder enzo!)------------------------------------[0m'

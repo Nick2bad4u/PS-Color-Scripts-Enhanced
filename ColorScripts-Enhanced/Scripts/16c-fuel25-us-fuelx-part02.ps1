@@ -5,7 +5,7 @@
 # Source SHA-256: a4bcb532937b242f96cb8acd77bb34982cf0828e6c2330cbceca87bdfac2ade1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-fuelx.ans by Knocturnal + Somnambulist (FUEL); released in fuel25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fuel logo
 # SAUCE Author: k1 & Somnambulist
 # SAUCE Group: FUEL
@@ -56,7 +56,7 @@ Write-Host '
                       [1;30m■[0m                            [35m  [0;37m   [0;1;30m▀[0m
                                      ░░
 
-                           [1mknocturnal [0m+[1m somnambulist[0m
-                             [1mwe are the champions[0m.
+                           [1m           [0m [1m             [0m
+                             [1m                    [0m 
 
                                      ░░[0m'

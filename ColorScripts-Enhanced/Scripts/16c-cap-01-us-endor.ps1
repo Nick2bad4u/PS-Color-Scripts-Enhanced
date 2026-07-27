@@ -5,7 +5,7 @@
 # Source SHA-256: 5be5295068bbed23f89ff57a8eb3c7e828c4ee4c7b60ba66a6153d474ad82ebe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ENDOR.ANS by Excidium + Luminous + The Chef (dark/caption); released in cap-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: endor +o dopie
 # SAUCE Author: xid, lume, chef
 # SAUCE Group: dark/caption
@@ -50,5 +50,5 @@ Write-Host '
 [33m       [0;37m        [0m    [31m [0;1;31;47m▓[0;1;31;40m█▓▓▀[0;31m   [0;1;31m▀▀▀░░[0m [1;31m [0m  [1;31m░░▀▀▐▀▀[0m                                  [31m [0m
                       [1;31m░░[0m
 
-             [31m█[0;30;41man[0;31;40msi [0;1;31;40mp[0;31mroduced [0;1;31mb[0;31my: [0;1;31me[0;31mxcidium[0;37m [0;31m/[0;37m [0;1;31ml[0;31muminous /[0;37m [0;1;31mt[0;31mhechef_[0m
+             [31m█[0;30;41m  [0;31;40m   [0;1;31;40m [0;31m        [0;1;31m [0;31m   [0;1;31m [0;31m       [0;37m [0;31m [0;37m [0;1;31m [0;31m         [0;37m [0;1;31m [0;31m       [0m
              [30;41m▐[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 72c0f407ffd5d13a7b634950dae01ef095fbfc477426dfedb18bea57d62229f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ARC.ANS by Dalton + Woffel (Alphaforce); released in arc-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Alphaforce
 # SAUCE Author: Dalton / Woffel
 # SAUCE Group: Alphaforce
@@ -33,13 +33,11 @@ Write-Host '
                                      [1;36m▄[0m               [1m▀▄[0;1;36m▄▄▀[0m
 
 
-                               Dalton / Woffel
+                                              
                                2    0   0    0
                                                    [31m  [0m
 
 
 
 
-[37m--------------------------------------------------------------------------------[0m
-[37mOriginal font outline by Woffel.[0m
-[37mThe rest by Dalton.[0m'
+[37m--------------------------------------------------------------------------------[0m'

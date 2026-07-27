@@ -5,7 +5,7 @@
 # Source SHA-256: 712c782b87bc237943ca7c4c5fa158d140e8f34d87235fb20bdc9966428af783
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FD-DAMAG.ANS by flood (dox_10); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: damage logo
 # SAUCE Author: flood
 # SAUCE Date: 19970607
@@ -26,5 +26,4 @@ Write-Host '
 [32m▐███[0;37m [0;1;31;47m▒▒░[0m [32m███████▌[0;37m ▀[0;1;31;47m▒░[0m [32m██▌█████[0;37m  [0;32m████[0;37m ▌ [0;32m██[0;1;32;42m░░[0;32m███▌[0;37m ▀[0;1;31;47m░[0m▀ [32m██████[0;1;32;42m░[0m  ▄ [32m▐███[0;1;32;42m░[0;32m██[0;37m [0;1;31;47m▓▓▒[0m [32m▀█▄[0;37m [0m
 [37m [0;32m█[0;30;42mfd[0;32;40m▌[0;37;40m ▀ [0;32;40m▐███▌█████▄▄[0;37;40m [0;32;40m▐████████▌▐███▌[0;37;40m  [0;32;40m▐█████████▄▄[0;37;40m [0;32;40m▐███████▌[0;37;40m▀▀ [0;32;40m███████▌[0;37;40m ▀▀[0;1;31;47m░[0m [32m▐█▌[0m
 [37m  [0;32m▀▀▀■▄▄█▀▀[0;37m   [0;32m▀▀████▀■▀████████[0;37m [0;32m▀▀▀[0m   [32m█████[0;37m [0;32m▀▀████▀■▀███▀███▄▄████▌█████▄▄[0;37m [0;32m▄██[0;37m [0m
-[37m [0m      [37m                   [0;32m▀█████[0m     [32m█████▀[0m            [37m   [0;32m▀▀▀▀███▀[0;37m  [0;32m▀▀████▀■▀[0m
-[1;37mdamage [0m'
+[37m [0m      [37m                   [0;32m▀█████[0m     [32m█████▀[0m            [37m   [0;32m▀▀▀▀███▀[0;37m  [0;32m▀▀████▀■▀[0m'

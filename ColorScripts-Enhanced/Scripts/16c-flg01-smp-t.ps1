@@ -5,7 +5,7 @@
 # Source SHA-256: f82bb3dcafb6b8c0e60bfb16dda766ea8a27c2b6239de7a5eb1f67939af72e07
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-T.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: T.
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
@@ -40,11 +40,4 @@ Write-Host '
 [1;36;46m [0;46m░[0;36;47m░░[0;37;46m██▄▄[0;36;40m▄▄ [0;37;40m  [0;34;40m▀█[0;37;44m▀▓░[0;34;47m▓[0;34;40m▄▄▄[0m     [34;40m▄▄▄███[0;37;44m▀▀▄[0;34;40m█▄▄[0m      [35;40m▀▀▀▀▄▄[0;37;40m [0;35;40m [0m                 [34;40m▄▄█[0;37;44m▄[0;1;37;47m■[0;44m▀[0;34;40m█▀▀[0;36;40m [0m
 [36;40m██[0;37;46m░░▓[0;36;47m░░[0;37;46m█[0;1;36;47m░░[0;46m▄[0;36;40m▄ [0;37;40m  [0;34;40m▀[0;37;44m░[0;1;37;44m [0;1;36;44m [0;34m███████████▀▀  ▀▀█████▄▄▄▄▄[0m     [35m▀[0m         [34m▄▄▄▄▄▄██[0;37;44m  ▀[0;34;40m█▀▀[0;36;40m   ▄[0;36;47m▀[0m
 
-[1;30;40m───[[0;36mCut[0;1;30m]────────────────────────────────────────────────────────────────────────[0m
-
-[36mDo you run a board that starts with a ''T''? Good! You almost have an original [0m
-[36mANSI by Shrimp of Foliage! All you have to do now is to scream: "[0;1;5;36mNECROMANCER[0m [1;5;36mAND[0m
-[1;5;36mHIS OLDSCHOOLING COLLEAGUES[0m [1;5;36mARE A BUNCH OF TALENTLESS FUCKS[0;36m", and you have it[0m
-[36mwith no extra charges! Thank you. [0m
-
-[36m...Yeah, as you can see I am in a desperate need of requests, so come on.[0m'
+[1;30;40m───[[0;36mCut[0;1;30m]────────────────────────────────────────────────────────────────────────[0m'

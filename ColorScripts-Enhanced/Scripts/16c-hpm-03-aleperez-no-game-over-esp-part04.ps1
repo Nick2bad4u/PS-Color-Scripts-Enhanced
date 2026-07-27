@@ -5,7 +5,7 @@
 # Source SHA-256: 97d99df2cf8032257b9edee70a4340f4ce6b814aeb21029bf67dae0608c359cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aleperez-no_game_over_esp.ans by @AljandroPrez (HPM); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no game over
 # SAUCE Author: @AljandroPrez
 # SAUCE Group: HPM
@@ -22,10 +22,10 @@ Write-Host '
                         [32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;37m────────────────────────────────────────────────────────────────────────────────[0m
 [30m██[0;1;32m╓──────╖[0m [1;32mEL-1 WINBEE[0m                                                      [30m████[0m
-[30m██[0;1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32mBASE, MIS INSTRUMENTOS DEJARON DE FUNCIONAR, QUIZAS ESTOY PEOR[0;30m██[0m
-[30m██[0;1;32m≡[0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m≡[0m   [1;32mDE LO QUE PENSABA... QUE ES ESO!! UN PORTAL SE ESTA ABRIENDO!![0m
-[30m██[0;1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32mESTA SALIENDO UNA ESPECIE DE NAVE DEL PORTAL, NO SE SI ES AMIGO[0;30m████[0m
-[30m██[0;1;32m╚──────╜[0m   [1;32mO ENEMIGO. ABRO CANAL DE COMUNICACION, ESPERO TENER SUERTE[0m
+[30m██[0;1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32m                                                              [0;30m██[0m
+[30m██[0;1;32m [0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m [0m   [1;32m                                                              [0m
+[30m██[0;1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32m                                                               [0;30m████[0m
+[30m██[0;1;32m╚──────╜[0m   [1;32m                                                          [0m
 [1;34;44m▄▄▄[0;1;33;44m▄▄▄▄[0;1;34;44m▄[0;1;33;44m▄▄[0;1;34;44m▄[0;1;33;44m▄▄[0;1;34;44m▄▄[0;1;33;44m▄▄[0;1;34;44m▄[0;1;33;44m▄▄▄▄[0;1;34;44m▄▄▄▄[0;1;33;44m▄▄▄▄▄[0;1;34;44m▄[0;1;33;44m▄▄[0;1;34;44m▄[0;1;33;44m▄▄[0;1;34;44m▄▄▄[0;1;33;44m▄▄[0;1;30;44m▄[0;1;33;44m▄▄▄▄▄[0;1;30;44m▄▄▄▄▄▄[0;34m▀▀[0;37m ▄▄▄▄████████▄▄▄ [0;1;30m▀▀█████[0m
 [1;34;44m▄▄▄[0;1;33;44m▄[0;1;33;43m▀[0;1;34;43m▄[0;1;34;44m▄[0;1;33;44m▄[0;1;33;43m▀[0;1;34;43m▄[0;1;33;44m▄[0;1;33;43m▀▀[0;1;33;44m▄[0;1;33;43m▀[0;1;33;40m█[0;1;34;44m▄[0;1;33;44m▄[0;1;33;40m█[0;1;33;43m▄[0;1;34;44m▄▄▄▄▄▄▄[0;1;33;40m█[0;1;33;44m▄▄[0;1;33;43m▀[0;1;34;44m▄▄[0;1;33;44m▄[0;1;34;44m▄[0;34;43m▀[0;1;33;40m█[0;1;34;44m▄▄[0;1;33;40m█[0;1;30;44m▄[0;1;30;43m▄[0;1;33;43m▀[0;1;33;44m▄[0;1;30;43m▄[0;1;33;43m▀[0;1;33;44m▄[0;1;30;43m▄[0;1;30;44m▄▄▄▄[0;34m▀▀[0;37m ▀▀▀▀▀██████████████▄▄ [0;1;30m▀██[0m
 [1;34;44m▄[0;1;33;44m▄[0;1;33;43m▀[0;1;34;43m▄[0;1;34;44m▄[0;1;33;44m▄▄[0;1;33;43m▀[0;1;34;43m▄[0;1;33;44m▄[0;1;33;43m▀[0;34;43m▀[0;1;33;40m█[0;34;43m▀[0;1;33;44m▄[0;1;33;43m▀[0;1;34;44m▄[0;1;33;40m█[0;1;33;43m▄[0;1;33;44m▄▄[0;1;33;43m▀[0;1;34;44m▄▄▄▄▄[0;1;33;40m█[0;1;33;44m▄[0;1;34;44m▄▄▄▄[0;1;33;40m█[0;1;33;44m▄[0;1;34;44m▄[0;1;33;43m▀[0;1;33;44m▄▄[0;1;30;43m▄[0;1;33;43m▀[0;1;33;44m▄▄[0;1;33;40m█[0;1;30;44m▄▄[0;1;30;43m▄[0;1;33;40m█[0;1;30;44m▄▄[0m [1;34m▄▄███████▄▄▄[0m▀█████████████▄ [1;30m▀[0m
@@ -47,9 +47,9 @@ Write-Host '
 [1;30m██████████████████████████████████████████▄▄▄▄[0m [30;47m════════[0;1;37;40m▄▄▄████▀[0m [1m▀▀▀▀[0m
 [1m────────────────────────────────────────────────────────────────────────────────[0m
 [30m██[0;1;32m╓──────╖[0m [1;32mCHRONOS[0m                                               [30m████[0m
-[30m██[0;1;32m║[0m [1;36m▀[0;1;33m■■[0;1;36m▀[0m [1;32m║[0m   [1;32mCAPITANA DE LA NAVE CHRONOS REPORTANDOSE, NOMBRE CLAVE TIMEPILOT.[0m
-[30m██[0;1;32m≡[0m [1;35m■[0;1;33m■■[0;1;35m■[0m [1;32m≡[0m   [1;32mEL SISTEMA DE NAVEGACION RECIBIO EL MENSAJE Y A UTILIZADO EL PORTAL[0m
-[30m██[0;1;32m║[0m [1;36m▄[0;1;33m■■[0;1;36m▄[0m [1;32m║[0m   [1;32mAUTOMATICAMENTE... QUEDO A SUS ORDENES, AUNQUE ME HAGO UNA IDEA DE[0m
+[30m██[0;1;32m║[0m [1;36m▀[0;1;33m■■[0;1;36m▀[0m [1;32m║[0m   [1;32m                                                                 [0m
+[30m██[0;1;32m [0m [1;35m■[0;1;33m■■[0;1;35m■[0m [1;32m [0m   [1;32m                                                                   [0m
+[30m██[0;1;32m║[0m [1;36m▄[0;1;33m■■[0;1;36m▄[0m [1;32m║[0m   [1;32m                                                                  [0m
 [30m██[0;1;32m╚──────╜[0m   [1;32mCUAL ES EL PROBLEMA.[0m
 [1;34m██████████████████████████████[0;1;37m█[0m [1;42m══════════════════════[0;32m▀▀[0;37m [0;1;35m▄▄▄[0;35m▄████████▄▄▄[0;37m [0;32m▀▀[0;1;37;42m═════[0m
 [1;34;40m███████████████████████████████[0;1;37;40m█[0m [32m███████████████████▀▀[0;1;35m▄███████[0;1;35;45m▄▄▄[0;35m█████████▄▄[0;37m [0;32m▀██[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 173a0232bfe23992c502409b1c863f94d31aeffd2b37909f15ce2853d54a9cdd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-GPMAI.ANS by drs (glue); released in glue-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: geekstas paradise
 # SAUCE Author: drs
 # SAUCE Group: glue
@@ -39,5 +39,4 @@ Write-Host '
     [37m     [0;31m ▀▀██[0;37m      [0;1;31m▀▀▀▀[0;33m██████▀▀▀▀[0;37m      [0;31m▄▄█[0;1;31;41m ▀[0;31m█░░ ▀▀▀▀▀▀█▄[0;37m  [0m                [31m [0m   [31m▄[0m
 [36;44m░░[0;34;40m████[0;36;44m░░░[0;34;40m▄▄   [0;37;40m  [0;1;31;40m██▄▄     ▐[0;1;31;43m▄▄[0;33m▌[0;1;31m  ▄▄▄▄[0;1;31;43m   [0m  [31m▀▀[0m     [34m▄▄▄▄▄▄▄[0m   [37m    [0;31m▀█[0;1;31;41m ▄▄▄▄[0;31m█▄█[0;1;31;41m▄▄▄[0;31m█░░█[0;1;31;41m▄▄[0m
 [36;44m██░░[0;34;40m██████[0;36;44m░░[0;34;40m█▄[0;37;40m  [0;1;31;40m██[0;1;31;47m▓▓[0;1;31;40m██[0;1;31;47m▓▓[0;1;31;40m      ███[0;1;31;43m▀    [0m  [34m▄▄▄[0;36;44m ░░██░░[0;34;40m█████[0;36;44m░░[0;34;40m███▄[0;31;40m ░░█[0;1;31;41m████▌[0;31m▌█[0;1;31;41m██[0;31m█▐█[0;1;31;41m█[0;1;33;40m██[0m
-[36;44m░░[0;34;40m██████[0;36;44m░░██░░[0;37;40m  [0;1;31;40m████[0;1;31;47m▓▓▒▒▓▓[0;1;31;40m██████[0;1;31;43m▌     [0m  [34m█[0;36;44m░░[0;34;40m███[0;36;44m░░[0;34;40m█████[0;36;44m░░██░░[0;34;40m██▌[0;31;40m ░[0;1;37;41m░░[0;1;31;41m▀▀[0;31m█▀█[0;1;31;41m▀▀[0;41m░░[0;31;40m█▀▀█[0;1;31;41m▀[0m
-                                                              [31m [0m'
+[36;44m░░[0;34;40m██████[0;36;44m░░██░░[0;37;40m  [0;1;31;40m████[0;1;31;47m▓▓▒▒▓▓[0;1;31;40m██████[0;1;31;43m▌     [0m  [34m█[0;36;44m░░[0;34;40m███[0;36;44m░░[0;34;40m█████[0;36;44m░░██░░[0;34;40m██▌[0;31;40m ░[0;1;37;41m░░[0;1;31;41m▀▀[0;31m█▀█[0;1;31;41m▀▀[0;41m░░[0;31;40m█▀▀█[0;1;31;41m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8277d7af0af32857a5939eb9ea2fb943cb23f2ecfd98d33aedaecce92055eed1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: no-lowqu.ans by Noches (Mimic Production); released in mimic64 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Noches
 # SAUCE Group: Mimic Production
 # SAUCE Date: 20030912
@@ -15,12 +15,12 @@
 
 Write-Host '
 
- [1;30mlowqualityseries [0m
- [1;30midrew all in1session 20:40>21:26[0m
+ [1;30m                 [0m
+ [1;30m                                [0m
                            [35m    [0m
-[37m [0;1;30mnoches[0m                 [35m           [0m
+[37m [0;1;30m      [0m                 [35m           [0m
 
-[37m [0;1;30mkid606 is so funnyfor me [0m
+[37m [0;1;30m                         [0m
 
 
                        [35m           [0;37m  [0;35m.[0;1;35m4 [0m
@@ -59,5 +59,4 @@ Write-Host '
 [1m$$$$ :$$$`4$$$$/` $$$i$$$$      $$$$$ $$$$$$$$b,. .,d$$$$$$$$: $$$$`   .,┐*%#$$$[0m
 [1m$$$$  $$$  `4/`   $$$:$$$$#%⌂*  $$$$$$$$$$\$$$$$$$$$$$$$/$$$$  $$$$  /$$$$      [0m
 [1m⌂*=┘  $$$ b.      """ %*┘ⁿ''^``^''ⁿ/$$$$$$""  `''ⁿ┘ ==┘ⁿ''`  $$$$ [0m [1m^^   [0m
-    [1m  ^                            `/                    ^^          [0m
-    [1mwww.mutek.ca    [0m      [1m          ,  [0m                             [1m [0m'
+    [1m  ^                            `/                    ^^          [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d15c4b5c324557d498c13ba826a20e24f282e3c3a73f074ca49b2c193627bcff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FO-CHEZ.ANS by flexor (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cheeze
 # SAUCE Author: flexor
 # SAUCE Group: pHOBIA@!
@@ -27,11 +27,4 @@ Write-Host '
 [33m [0;1;30;43m▌[0;1;33;43m [0;1;37;43m▒[0m    [33m [0;1;30;43m▌[0;33;43m▐[0;1;37;43m░░[0;33m [0;1;30;43m▌[0;33;43m▒[0;1;37;43m▒[0;33m    [0;1;30m▐[0;33m█[0;33;43m▐[0;1;37;43m▒▒[0;33m [0;1;30;43m▌[0;1;37;43m▒▒[0;33m▌[0m   [1;30m▐[0;1;30;43m [0;1;37;43m  [0;33m▌ [0;1;30;43m▌[0;1;37;43m░░[0;33m▌[0m   [1;30m▐[0;33m█[0;33;43m▐ [0;33;40m▌ [0;1;30;40m█[0;33;43m▌[0;33;40m█     [0;1;30;43m▌[0;1;33;43m░░[0;33;43m░[0;33;40m [0;1;30;43m▌[0;33;43m▒[0;33;40m█▌[0m   [1;30;40m▐[0;33m███▌ [0m
 [33m [0;1;30m█[0;33;43m▐[0;1;37;43m░[0m   [33m [0;1;30m▀▀[0;1;30;43m▄[0;33;43m ░[0;33;40m▌[0;1;30;43m▌[0;33m█[0;1;37;43m░[0;33m    [0;1;30;43m▌[0;33m█[0;33;43m [0;1;37;43m░░[0;33m [0;1;30;43m▌[0;1;37;43m░░[0;33;43m [0;33;40m▄▄▄[0;1;30;43m▀[0;33m█[0;33;43m [0;33;40m▀  [0;1;30;43m▌[0;33m█[0;1;33;43m [0;33m█▄▄▄[0;33;43m░[0;33;40m█[0;33;43m [0;33;40m▀  [0;1;30;40m█[0;33;43m▒[0;33;40m█     [0;1;30;43m▌[0;33;43m▓▓ [0;33;40m [0;1;30;43m▌[0;33;43m▐[0;33;40m██▄▄▄[0;1;30;43m▀[0;33;43m░[0;33;40m█▀  [0m
 [33;40m [0;1;30;40m▐[0;1;30;43m▌[0;33m█▌[0m   [33m ▄▄▄▄ [0;1;30;43m▌[0;33;43m▌[0;33;40m█    [0;1;30;40m▐[0;33;43m░▐[0;33;40m█[0;33;43m [0;33;40m [0;1;30;43m▌[0;33;43m▐ [0;33;40mfO        [0;1;30;43m▌[0;33;43m▐[0;1;33;43m [0;33m          [0;1;30m█[0;33;43m▓[0;33;40m█▌   ▐[0;1;30;43m [0;33;43m▐[0;33;40m█▌ [0;1;30;40m▐[0;33m█[0;33;43m░[0;33;40m          [0m
-[33;40m  [0;1;30;40m▀[0;1;30;43m▄▄[0;33m▄▄▄██[0;1;33;43m░░[0;33m█ [0;1;30;43m▌[0;33;43m▐[0;33;40m█     [0;1;30;40m▀[0;33m█[0;1;33;43m░░[0;33m▄[0;1;30;43m▀[0;33;43m▐[0;33;40m█[0;33;43m░[0;33;40m▄▄▄▄[0;30;47m▓▓[0;33;40m▄▄▄[0;1;30;43m▀[0;33;43m▒[0;1;33;43m░░[0;33m▄▄▄▄▄▄▄▄[0;30;43m▀▀[0;1;30;43m▀[0;33;43m░[0;33;40m█▄▄▄[0;1;30;43m [0;33m██▀   [0;1;30m▀[0;1;30;43m▄[0;33;43m [0;33;40m▄▄▄▄▄▄[0;1;30;40m [0;33m  [0m
-            [33m [0;37m  [0;33m  [0m                                                [33m [0;37m  [0;33m  [0m
-                 [33m [0m                                                    [33m [0m
-[37m [0;33m     [0m                                               [37m [0;33m     [0m
-                     [1;37m [0m    [1m ansi for the cheeze emag@#   [0m
-                      [1m greets goes to all pHOBIA members[0m
-
-                         [1m   [0mansee by [1;36mFLEXOR[0m in 1997[0m'
+[33;40m  [0;1;30;40m▀[0;1;30;43m▄▄[0;33m▄▄▄██[0;1;33;43m░░[0;33m█ [0;1;30;43m▌[0;33;43m▐[0;33;40m█     [0;1;30;40m▀[0;33m█[0;1;33;43m░░[0;33m▄[0;1;30;43m▀[0;33;43m▐[0;33;40m█[0;33;43m░[0;33;40m▄▄▄▄[0;30;47m▓▓[0;33;40m▄▄▄[0;1;30;43m▀[0;33;43m▒[0;1;33;43m░░[0;33m▄▄▄▄▄▄▄▄[0;30;43m▀▀[0;1;30;43m▀[0;33;43m░[0;33;40m█▄▄▄[0;1;30;43m [0;33m██▀   [0;1;30m▀[0;1;30;43m▄[0;33;43m [0;33;40m▄▄▄▄▄▄[0;1;30;40m [0;33m  [0m'

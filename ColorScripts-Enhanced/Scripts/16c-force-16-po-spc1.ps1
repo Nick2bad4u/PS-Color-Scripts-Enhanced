@@ -5,7 +5,7 @@
 # Source SHA-256: f66925245abf70a9852308d8d85a2ac61660f664986241c4afe47ecf7c021947
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-SPC1.ANS by pOrtia (fORCE); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Space Cowboys creed
 # SAUCE Author: pOrtia
 # SAUCE Group: fORCE
@@ -35,8 +35,4 @@ Write-Host '
                             [1me l e c t r o n i c[0m
                          [1m▓▄▐ [0m    [1mm u s i c[0;31m [0;1;37m [0m    [1m░▄▐[0m
                          [1m██▄▄[0m▄▄[30;47m░[0;37;40m▄  ▄▄▄[0;1;37;40m▄[0m▄[1m▄▄[0;1;36m▄▄[0;1;37m▄▄▄▄▓█[0;1;36m█░[0m
-                               ░                 [1m▀[0m
-
-
-[1;36mpOrtia[0;1;37m [0;1;36m''97 [0;1;37m space cowboys creed[0m
-peice from Adelaide Australia[0m'
+                               ░                 [1m▀[0m'

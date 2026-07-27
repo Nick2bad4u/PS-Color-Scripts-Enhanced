@@ -5,7 +5,7 @@
 # Source SHA-256: 6c0f55a4d12edac40d0f81f93f23ebd0b67494620cb2f49bc8e42b159df8c1e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-BM1.ANS by Spearfx (The Used Coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Maiden
 # SAUCE Author: Spearfx
 # SAUCE Group: The Used Coalition
@@ -15,7 +15,7 @@
 
 Write-Host '
 
-[1;30m     [0m              [1;30mThis ansi is an ode to quality control. [0m
+[1;30m     [0m              [1;30m                                        [0m
 
 
 
@@ -51,6 +51,4 @@ Write-Host '
              [1;32m [0m               [1;32m▄ [0m [1;32m [0m     [1;32m  [0m  [1mM[0m        [1;32m▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀[1;32m▀[0m▀[1;32m▀▀▀▀▀[0m
                            [1;32m [0m  [1;32m [0m       [1mB L A C K[0m
                            [1;32m▐▌[0m             [1mI[0m
-                                          [1mD E N[0m
-
-           eeh.. I kinda emulated a circuit board for that thing :P[0m'
+                                          [1mD E N[0m'

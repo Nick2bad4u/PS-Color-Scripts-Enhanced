@@ -5,7 +5,7 @@
 # Source SHA-256: eba1b93061048ed3565926c48c7fd8f7ef959ac9928525bf8ec1d0f49dc7714f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-BB.ANS by Purplee (purg-16); released in purg-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -30,4 +30,4 @@ Write-Host '
        [1;30m$$''[0m [34m$$$.[0;37m  [0;34m`$$[0;1;34m$[0m [34m`[0;30;44m$[0;34;40m$$.[0;37;40m [0;34;40m`$[0;1;34;40m$$[0;34m.,$$$[0;37m  [0;34m$$[0;30;44m$[0;34;40m''[0;37;40m   [0;1;37;40m,[0;1;34;40my[0;34m.[0;37m  [0;1;30m`"$$[0m [1;30m P_[0m
        [1;30m`$g.[0;34m`^"ⁿ┴┴ⁿ"^''[0;37m  [0;34m`^┴[0;30;44mS[0;34;40mg_`^"ⁿ┴"^''[0;37;40m  [0;34;40m`^"ⁿ┴[0;1;34;40m┴[0;34mⁿ"^''[0;37m [0;1;30m,,j$$[0m  [1;30m E_[0m
         [1;30m`^""ⁿⁿⁿ┴┴┴SSSS$Sg.__[0;34m`"[0;1;34m"[0;34m^[0;1;34m^[0;34m''   [0;1;30m__,gS$$SyyS$SS┴┴ⁿ''[0m   [1;30m [0m
-                       [1;30m`^ⁿSS$SgggS$$$S┴^""''[0m'
+                       [1;30m               ┴    [0m'

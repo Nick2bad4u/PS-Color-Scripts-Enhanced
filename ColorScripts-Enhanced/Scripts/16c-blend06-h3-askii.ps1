@@ -5,7 +5,7 @@
 # Source SHA-256: 51fb8e7b5ccc21fc5a47263c1f507e426d673af9c48b321eac3d610a31f73aa0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: H3-ASKII.ANS by h3ck (blend); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: askii korner
 # SAUCE Author: h3ck
 # SAUCE Group: blend
@@ -16,7 +16,7 @@
 
 Write-Host '
 
-[32mpic fo [0;1;32minflux[0m
+[32m       [0;1;32m      [0m
 
                                              [36m·[0m
                                      [32m,s[0;1;32m@S[0;32m@s, [0;36m.[0m
@@ -34,7 +34,7 @@ Write-Host '
 
 
 
-[32mpic fo [0;1;32minflux[0m
+[32m       [0;1;32m      [0m
 
 [1m                      $$$$$@@@@sssssss╖╖╖╖,,,,____[0m
 [1m                      $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
@@ -55,12 +55,12 @@ Write-Host '
 [1m        potkittu      $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$|   vittuu[0m
 [1m                      $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$:[0m
 [1m                       ~~~~"""""²²²²²²²╙╙╙╙╙╙@@@$$$$[0m
-[1m                                  täältä[0m
+[1m                                        [0m
 
-[1mterminating connect ...[0m
+[1m                       [0m
 
 --------------------------------------------------------------------------------
 
 
-[32mwanna askii?[0m
+[32m            [0m
 [32mask.[0m'

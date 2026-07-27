@@ -5,7 +5,7 @@
 # Source SHA-256: 6300eac09dbfcf9707ef4e300e83a97cbae41ac0ce5738b7ee82b7df92ae47b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Vld-wast.ans by velodrome (ecolove); released in eco-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wasted
 # SAUCE Author: velodrome
 # SAUCE Group: ecolove
@@ -34,10 +34,10 @@ Write-Host '
 [36m l[0;1;36m$$$[0;36m) l[0;1;36m$$[0;36m) l[0;1;36m$$$$[0;36m$ $[0;1;36m$$[0;36m:[0;1;30m ▀ [0;36ml[0;1;36m$[0;36m$ ([0;1;36m$$$[0;36m. [0;1;30m▀[0;36m ,[0;1;36m$$$$$[0;36ml [0;1;30m▀[0;36m l[0;1;36m$$[0;36m: :[0;1;36ml[0;1;37;46m$[0;1;36;40m$$[0;36mb.[0;1;30m▀▀[0;33m▀[0;36m.d[0;1;36m$$$$$[0;36mb.[0;1;30m▀▀[0;36m ,[0;1;36m$$$[0;36ml[0m
 [36m `²T$%┐%)(%┐%$T%²`[0;1;30m.[0;36m`²T%┐┐%T²''  `²T$%┐%$T''`²T$%┐%$T²''  `''²┘T$%┐%$T┘²`²┘T$%┐%$T┘²''[0m
 [33m           [0;1;35m .,┌*%d$b[0;35m%*┐,[0;1;30m.[0m                                     [1;30m                [0m
-           [1;35m:lSSSS[0;35mSSSSSS[0;1;30mSl:[0m
+           [1;35m      [0;35m      [0;1;30m   [0m
            [1;35m"""[0;35m""""""""[0;1;30m""""[0m
 
-[1;30m▼[0m page down [1;30m▼[0m
+[1;30m▼[0m           [1;30m▼[0m
 
-      [1;30m┌[0m no time waiting for delusion''s part. 100% velodrome :)
-      [1;30m┌[0m req''s: dwaalspoor@hotmail.com // rebirth o786399125[0m'
+      [1;30m┌[0m                                                       
+      [1;30m┌[0m                                                    [0m'

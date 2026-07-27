@@ -5,7 +5,7 @@
 # Source SHA-256: ea856dffdba7326c3bf56a12c633a22fb279ab13ae7a42210e8e6332e239dc1d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: POS-DRM1.ANS by positive pain (dtd'blz); released in dtd02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dreamland logo
 # SAUCE Author: positive pain
 # SAUCE Group: dtd'blz
@@ -15,12 +15,12 @@
 
 Write-Host '
          [36m"""[0;1;36m"[0;36m"[0;1;36m""S@a,[0;36m`"""[0;1;36m"[0;36m"[0;1;36m""S@a,[0;36m`"""[0;1;36m"[0;36m"[0;1;36m""S@a,[0;36m`"""[0;1;36m"[0;36m"[0;1;36m""S@a,[0;36m`"""""""[0;1;36m"[0;36m"[0;1;36m""S@a,[0m
-         [36meeyy   $$[0;1;36m$$e[0;36myyyy [0;37m..[0;36m$$[0;1;36m$$e[0;36myyyy[0;37m...[0;36m$$[0;1;36m$$e[0;36myyyy[0;37m.. [0;36m$$[0;1;36m$$e[0;36myyyy  yyy  $$[0;1;36m$$[0m
+         [36m         [0;1;36m   [0;36m     [0;37m  [0;36m  [0;1;36m   [0;36m    [0;37m   [0;36m  [0;1;36m   [0;36m    [0;37m   [0;36m  [0;1;36m   [0;36m             [0;1;36m  [0m
       [36m▒ ▒░ $$   $$$[0;1;36m$ [0;36m$$$$ [0;37m: [0;36m$$$[0;1;36m$ [0;36m$$$$   $$$[0;1;36m$ [0;36m$$$$ [0;37m:.[0;36m$$$[0;1;36m$[0m.[36m$$$$[0;37m..[0;36m$$$[0;37m..[0;36m$$$[0;1;36m$[0m...
      ....[36myy$$[0;37m...[0;36m$$$$[0;37m.[0;36m$$$$[0;37m.: [0;36m$$$$ $$$$   $$$$ $$$$   $$$$ $$$$  $$$  $$$$  [0;37m:[0m
      [37m:  [0;36m.ⁿ^^ⁿ.  $$$[0;1;36m$ [0;36m$$$$   $ⁿⁿ[0;1;36mⁿ [0;36mⁿⁿ$$mmm$$$[0;1;36m$ [0;36m$$$$mmm$$$[0;1;36m$ [0;36m$$$$  $$$ .ⁿ^^[0;1;36mⁿ[0;36m. [0;37m:[0m
      [37m:..[0;36m: [0;34m░░ [0;36m:[0;37m..[0;36m$$$$[0;37m.[0;36m$$$$[0;37m. .. [0;36m▓ ▒▒ $$   yyyy $$$$   $$$$ $$$$  $$$ : [0;34m░░ [0;36m: [0;37m:[0m
-        [36m`e,,e''  ⁿⁿⁿⁿ ⁿⁿⁿⁿ[0m          [36mⁿⁿ   ⁿⁿⁿⁿ ⁿⁿⁿⁿ   ⁿⁿⁿⁿ ⁿⁿⁿⁿ  ⁿ$$ `e,,e'' [0;37m:[0m
+        [36m                 [0m          [36m                                       [0;37m [0m
          [1;30m$[0;36m$$$    """" `"""""""""[0;1;36m"[0;36m"[0;1;36m""S@a,[0;36m`"""[0;1;36m"[0;36m"[0;1;36m""S@a,[0;36m`"""[0;1;36m"[0;36m"[0;1;36m""S@a,[0;36m`$  $ⁿⁿⁿ  [0;37m:[0m
          [36m$$$$    yyyy[0m     [37m...[0;36myyyy[0;37m.. [0;36m$$[0;1;36m$$e[0;36myyyy   $$[0;1;36m$$e[0;36myyyy   $$[0;1;36m$$ [0;36m$  $ ▓▓▒ [0;37m:[0m
          [1;30m$[0;36m$$$    $$$$   [0;35mpos  [0;36m$$$$ [0;37m: [0;36m$$$[0;1;36m$ [0;36m$$$$   $$$[0;1;36m$ [0;36m$$$$   $$$[0;1;36m$ [0;36m$  $yyy  [0;37m:[0m

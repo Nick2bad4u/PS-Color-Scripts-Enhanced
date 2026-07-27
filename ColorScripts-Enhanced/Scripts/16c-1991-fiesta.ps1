@@ -5,7 +5,7 @@
 # Source SHA-256: d19d4a827a256c4011ef9c56d809d895a32d43ac6219d9a31d2281461e41a2be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIESTA.ANS by Jc (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -31,5 +31,4 @@ Write-Host '
     [1;33;40m▐[0;1;33;43m   [0m   [1;33;43m   [0;1;33;40m▌[0m        [33m▓[0;33;43m [0m       [33;40m▓[0;33;43m [0m       [33;40m▓[0;33;43m [0m       [33;40m▓[0;33;43m [0m       [33;40m▓[0;33;43m [0m       [33;40m▓[0;33;43m [0m
     [30;41m█[0;1;30;40m███   ███[0m     [30;41m█[0;37;40m_[0;37;43m______[0;37;40m___[0;37;43m______[0;37;40m___[0;37;43m______[0;37;40m___[0;37;43m______[0;37;40m___[0;37;43m______[0;37;40m___[0;37;43m______[0;37;40m_[0m
 [37;40m  [0;1;30;40m▄█████   █████▄  [0m(O · O · O · O · O · O · O · O · O · O · O · O · O · O
-                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- [1;33mFIESTA  CENTENNIAL  ·  1891-1991  ·  SAN ANTONIO, TEXAS  ·  APRIL 19-28[0m'
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m'

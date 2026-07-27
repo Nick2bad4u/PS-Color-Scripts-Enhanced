@@ -5,7 +5,7 @@
 # Source SHA-256: b8fbc1879d43bd697e7a8d36fd16dd126229e4716080375237d069a6c90fa297
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VN-TNW2.ANS by Venom (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 33-79
 # Columns: 1-80
 
@@ -42,18 +42,18 @@ Write-Host '
                            [34m█   [0;1;34;44m░[0m     [1;34;44m░[0m     [34m█ █ █[0m
                           [34m▀   ▀[0m     [34m▀[0m       [34m▀ ▀[0m
 
-                           [1;30m■ [0;1;34mT[0;34mhe [0;1;34mN[0;34mether [0;1;34mW[0;34morlds [0;1;30m■[0m
+                           [1;30m■ [0;1;34m [0;34m   [0;1;34m [0;34m      [0;1;34m [0;34m      [0;1;30m■[0m
 
-                        [1;30m■ [0;1;34mS[0;34mysop: [0;1;34mE[0;34mllegen [0;1;34m[[0;34mFiDELiS] [0;1;30m■[0m
-                            [1;30m■ [0;1;34mC[0;34mo: [0;1;34mC[0;34myber.[0;1;34mS[0;34mtreak [0;1;30m■[0m
-                     [1;30m■ [0;1;34mF[0;34mile [0;1;34mS[0;34mysop: [0;1;34mM[0;34magic [0;1;34mM[0;34man [0;1;34m[[0;34mCYANiDE] [0;1;30m■[0m
-                               [1;30m■ [0;1;34mX[0;34miDE [0;1;34mW[0;34mHQ! [0;1;30m■[0m
-                             [1;30m■ [0;1;34mS[0;34mpeed [0;1;34mA[0;34mpp. [0;1;34mH[0;34mQ [0;1;30m■[0m
-                                [1;30m■ [0;1;34mA[0;34mWE-[0;1;34mN[0;34met [0;1;30m■[0m
-                               [1;30m■ [0;1;34mT[0;34mNoTB-[0;1;34mN[0;34met [0;1;30m■[0m
-                               [1;30m■ [0;1;34mI[0;34mmpact[0;1;34mN[0;34met [0;1;30m■[0m
-                            [1;30m■ [0;1;34m1[0;34m.2 [0;1;34mG[0;34miGS [0;1;34mO[0;34mNLiNE [0;1;30m■[0m
-                          [1;30m■ [0;1;34mR[0;34munning [0;1;34mO[0;34mBV/2 [0;1;34m2[0;34m.3Oß6 [0;1;30m■[0m
-                            [1;30m■ [0;1;34m2 B[0;34mLAZiNG [0;1;34mN[0;34modez [0;1;30m■[0m
+                        [1;30m■ [0;1;34m [0;34m      [0;1;34m [0;34m       [0;1;34m [0;34m         [0;1;30m■[0m
+                            [1;30m■ [0;1;34m [0;34m   [0;1;34m [0;34m     [0;1;34m [0;34m      [0;1;30m■[0m
+                     [1;30m■ [0;1;34m [0;34m    [0;1;34m [0;34m      [0;1;34m [0;34m     [0;1;34m [0;34m   [0;1;34m [0;34m         [0;1;30m■[0m
+                               [1;30m■ [0;1;34m [0;34m    [0;1;34m [0;34m    [0;1;30m■[0m
+                             [1;30m■ [0;1;34m [0;34m     [0;1;34m [0;34m    [0;1;34m [0;34m  [0;1;30m■[0m
+                                [1;30m■ [0;1;34m [0;34m   [0;1;34m [0;34m   [0;1;30m■[0m
+                               [1;30m■ [0;1;34m [0;34m     [0;1;34m [0;34m   [0;1;30m■[0m
+                               [1;30m■ [0;1;34m [0;34m     [0;1;34m [0;34m   [0;1;30m■[0m
+                            [1;30m■ [0;1;34m [0;34m   [0;1;34m [0;34m    [0;1;34m [0;34m      [0;1;30m■[0m
+                          [1;30m■ [0;1;34m [0;34m       [0;1;34m [0;34m     [0;1;34m [0;34m      [0;1;30m■[0m
+                            [1;30m■ [0;1;34m   [0;34m       [0;1;34m [0;34m     [0;1;30m■[0m
                    [1;30m■ [0;1;34mN[0;34mode [0;1;34m1[0;34m: [0;1;34m8[0;34mi3-[0;1;34m9[0;34m42-[0;1;34m4[0;34m147 / [0;1;34m9[0;34m6OO - [0;1;34m2[0;34m88OO [0;1;30m■[0m
                    [1;30m■ [0;1;34mN[0;34mode [0;1;34m2[0;34m: [0;1;34m8[0;34mi3-[0;1;34m9[0;34m43-[0;1;34mO[0;34m777 / [0;1;34m9[0;34m6OO - [0;1;34m1[0;34m44OO [0;1;30m■[0m'

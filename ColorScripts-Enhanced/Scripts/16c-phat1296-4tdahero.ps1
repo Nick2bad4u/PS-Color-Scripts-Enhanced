@@ -5,7 +5,7 @@
 # Source SHA-256: 7f9abdbdcc1befcd570186952868fa1bee40d74d1573f9bd30ba972a7f6d05d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 4TDAHERO.ANS by mr.4tUne (pHaT); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hero 0f the day
 # SAUCE Author: mr.4tUne
 # SAUCE Group: pHaT
@@ -17,7 +17,7 @@
 Write-Host '
 
                                                               [34m  [0m
-[37m  [0;34m  [0m             [1;34msssssss[0;34ms [0m                             [34m ssss[0;1;34ms░s[0;34ms[0m
+[37m  [0;34m  [0m             [1;34m       [0;34m  [0m                             [34m     [0;1;34m ░ [0;34m [0m
 [37m  [0;34m   [0m        [34ms$$[0;1;34m$$²²²²²²░[0;1;34;44m$[0;34m$s  ²s[0m                 [34ms²  s$$$²²[0;1;34m²²²²$$[0;34m$░s[0m     [34m [0m
    [34m [0m      [34ms$░$²²[0;1;34m [0;1;30ms [0;36m s[0;34m [0;37m s[0m   [34m²²$s [0m                 [34m s$²²[0;37m [0;1;30ms[0m [36m s[0;34m  [0;37ms[0;1;30m s[0;1;34m ²[0;34m²$$$s[0m   [34m [0m
         [34m ²² [0m   [1;30m²$$[0;34m [0;1;36m$[0;36m$[0;34m  [0;37m ²[0;34m [0;1;30m$²[0m  [34m  ²[0m           [34m s[0;37m  [0;34m²  [0;37m [0;1;30m ²$$[0;36m [0;1;36m$[0;36m$[0m   [37m²[0;1;30m $²²[0m   [34m²²[0m   [34m  [0m

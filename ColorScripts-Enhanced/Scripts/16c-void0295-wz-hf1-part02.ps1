@@ -5,7 +5,7 @@
 # Source SHA-256: 5ad96c34b983791621d72cc69bbc542f875553fcd821da2f3467f063bfd41d0b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WZ-HF1.ANS by Weazel (VOiD); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: High Fidelity
 # SAUCE Author: Weazel
 # SAUCE Group: VOiD
@@ -32,7 +32,7 @@ Write-Host '
 [1;30m  [0;35m░[0;1;30m░[0;35m▓[0;1;30m░[0m      [35m░░░[0;1;30m░░[0m                      [1;31m▀▀▀▀▀▀▀[0m          [1;30m░[0;35m░  ░[0;1;30m░[0;35m░[0;1;30m░[0m
 
 [1;30m [0;36m─────────────────[0;35m─[0;36m─[0;35m──[0;36m─[0;35m───[0;36m─[0;35m──────────────[0;1;30m─[0;35m─[0;1;30m──[0;35m─[0;1;30m───[0;35m─[0;1;30m─────────────── ─  ─   ─[0m
-         [35mHi''s -n- Ho''s going out to Shi_One,Grimace,Mr. Muff,The Wizard[0m
+         [35m                                                              [0m
      [1;30m─   ─  ─ ──────────────[0;35m─[0;1;30m───[0;35m─[0;1;30m──[0;35m─[0;1;30m─[0;35m───────────────[0;36m─[0;35m───[0;36m─[0;35m──[0;36m─[0;35m─[0;36m──────────────────[0m
 
 [36m [0;1;30m██████████████████████████████████████████████████████████████████████████████[0m
@@ -53,15 +53,14 @@ Write-Host '
                 ▀      ▀    ▀▀▀    [1m▀[0m            ▀                          ▀
       [1;30mH[0m     [1;30mi[0m     [1;30mG[0m     [1;30mH[0m        [1;30mF[0m     [1;30mi[0m     [1;30mD[0m     [1;30mE[0m     [1;30mL[0m     [1;30mi[0m     [1;30mT[0m     [1;30mY[0m
 
-     [1;30miNFiNiTY World Hq - High Rez US Hq - Devious US Hq - VOiD East Hq[0m
-[1;30m   PsychoDellic Attitudes West Hq - Surge Central Hq - Defiant Central Hq[0m
-       [1;30mHOSTiLE North Hq - Trance Central Hq - Untouchables Central Hq[0m
-          [1;30mU.P.A. App Hq - HAiL North Hq - PDS Memberboard - S.O.B. Site[0m
-[1;30m    S.F.C Central Hq - iNFiNiTY Senior Memberboard - CiA Senior Memberboard[0m
-        [1;30mNull Distro - Euphoria Distro - FiDELiS Distro - Spetznas Distro[0m
-[1;30m   Brotherhood of Gods and Retards - SENSE Net U.S. Central Hub - CiP Network[0m
-      [1;30m2 gig online - 3500+ H/P/V/A/C - Mass amount of art & BBS Software[0m
-                          [1;30mRunnin PiPELiNE Registered[0m
-                          [1;30mS: Mr. Muff & LiViNG Death[0m
-                                 [1;30m217-874-2418[0m
-                              [1;30mBiggest in the 217[0m'
+     [1;30m                                                                 [0m
+[1;30m                                                                         [0m
+       [1;30m                                                              [0m
+          [1;30m                                                             [0m
+[1;30m                                                                           [0m
+        [1;30m                                                                [0m
+[1;30m                                                                             [0m
+      [1;30m                                                                  [0m
+                          [1;30m                          [0m
+                          [1;30m                          [0m
+                                 [1;30m217-874-2418[0m'

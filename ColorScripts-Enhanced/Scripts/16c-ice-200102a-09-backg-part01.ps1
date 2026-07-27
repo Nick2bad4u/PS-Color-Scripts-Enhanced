@@ -5,14 +5,14 @@
 # Source SHA-256: 24d71a223cd2dba0f9149e24eaadc4d8d0dbc93c91dba767606893d684b7ecc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 09-backg.ice by Fluor (ice-200102a); released in ice-200102a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
     [1;30m [0m
-[1;30m      [0m [1;30m- Voilà a couple of ansi backgrounds I made for art''s[0m [1;30msake, eh...[0m
-[1;30m      [0m   [1;30mSue me, I was[0m [1;30mso bored.[0m
+[1;30m      [0m [1;30m                                                     [0m [1;30m           [0m
+[1;30m      [0m   [1;30m             [0m [1;30m         [0m
 
                               [1;30m░[0m                  [1;30m░[0m
              [1;30m [0m          [1;30m [0m    [1;30m  ▓▓▄▄[0m               [1;30m■[0m         [1;30m▌[0m
@@ -39,7 +39,7 @@ Write-Host '
          [32m░[0m      [34m▓ [0;37m▌ [0;34m▀█▄[0;1;34;44m▓[0;34m▀ █   ▀[0;1;34m▀[0;1;34;44m▀[0;34m▄ ▄[0;1;34;44m▀▓[0;34m▓▀▀ [0;37m▄[0;1;37;47m▀[0;1;30;47m▄▄[0m▀[1;30m▀  [0;31m▄[0;1;31m▄[0;1;31;41m▄[0m ░  [31m▐▀[0;1;31m▀▀ [0;32m▄[0;1;32m▄[0;1;32;42m▄[0;32m▀[0m         [32m░[0m
 [37m [0;34m░[0m       [32m░[0m      [34m░ [0;37m▓ [0;34m▄▐[0;1;34;44m▀[0;34m▀ ░▓[0m       [34m▀▓ ▀ [0;37m▓▓▀▀  [0;31m▄[0;1;31m▄[0;31m▀[0;1;31m▀▀[0m
  [34m■[0m                [37m░ [0;34m▀▀▌   ░[0m        [34m▓  [0;37m░    [0;31m▄▀[0m
-[37m [0;34m▐[0m                [37m░   [0;34m▌[0m            [34m░[0m      [31m░  [0;37mfreestyle background one,. .[0m
+[37m [0;34m▐[0m                [37m░   [0;34m▌[0m            [34m░[0m      [31m░  [0;37m                            [0m
 [37m [0;34m▐[0m                    [34m▌[0m
 [34m ▐▄[0m
 [34m   ▀█▄▄[0m

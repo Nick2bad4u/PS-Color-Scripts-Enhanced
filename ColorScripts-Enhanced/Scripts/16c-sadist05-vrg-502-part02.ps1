@@ -5,7 +5,7 @@
 # Source SHA-256: ac1988b48cc13a2f22b97f40be455e9171e6135fdb46371da110ec72aaf91b86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VRG-502.ANS by Vargr (sadist05); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 48-97
 # Columns: 1-80
 
@@ -52,11 +52,4 @@ Write-Host '
                   [31m■[0m    [1;31m■[0m                       [31m▀[0m      [1;31m■[0m      [31m▌[0;1;31m■[0m
 
                   [31m▀[0m                                          [31m■[0m
-                                                             [31m▀[0m
-
-
-
-
-
-                                                         [1;30m-vaRgr-[0m
-                                                       [1;30mSADISTäteralla.[0m'
+                                                             [31m▀[0m'

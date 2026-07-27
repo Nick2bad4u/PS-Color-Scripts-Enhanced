@@ -5,7 +5,7 @@
 # Source SHA-256: 125a755adaf74a824c85119cd834649e501d157e346d93adf3988fc3ccd16003
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ICE.ICE by Magnetic M + Lord Soth (iCE); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iCE Promo!
 # SAUCE Author: MM/LS
 # SAUCE Group: iCE
@@ -40,9 +40,4 @@ Write-Host '
        [1;30m▀▀▄▄▄▓   [0;31m░▀▀▄▄[0;1;30m [0;36m▀ [0;31m▄[0;1;30m▄▀▀▓ ▀▀▄▄ [0;36m▀ [0;1;30m▄▄▀▀ ▒  ▀▀▀▀   [0;31m▓▄▄▄[0;1;30m▄▀  ░   ▀▀▄▄▄▄▓▀[0m
 [1;30m ─ ──── ─── ▒ ───── [0;31m▓▀▀▀░[0;1;30m── ▒ ─── ▀▀▀ ─── ░ ─────── [0;31m▒[0;1;30m ────── ─── ─ ── ▒ ─ BoA[0m
             [1;30m░[0m       [31m▒[0m       [1;30m░[0m                       [31m░[0m                 [1;30m░[0m   [1;30mLS[0m
-                    [31m░[0m
-[1;30m This ansi is (c) Lord Soth and Magnetic M -- all rights reserved. Jan-02 1996[0m
-[1;30m Thanks to Surreal Logic for fixing up some of the shading.  :)[0m
- [1;30mKickass font by Boa, with some shading by Lord Soth.[0m
-
- [1;30mBottoms up to the year that will see Slothy become a Hokie! - LS[0m'
+                    [31m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5e2a3a37919ebac6911dbf260e84e02d602af9c5ea784436a2864f7232b5bf4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-UNDER.ANS by Unknown Comic (blnt0594); released in blnt0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -26,8 +26,5 @@ Write-Host '
                          [30;41m▄▄▄▄▄[0m     [30;41m▄[0m  [30;41m▄               ▐[0m
                                          [30;41m▄▄▄      ▄▄[0;30;42m█[0;30;41m▄ ▀[0m
                                                         [30;41m▄[0m
-                                 [1mOf BLuNT[0m
-                              [1mP R E S E N T S[0m
-
-                     ·In That Unknown Comic Kinda Way·[0m
-'
+                                 [1m        [0m
+                              [1mP R E S E N T S[0m'

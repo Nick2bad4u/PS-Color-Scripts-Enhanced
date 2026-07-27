@@ -5,7 +5,7 @@
 # Source SHA-256: 771697ec32466f1a055b80f8684ce02f34b9ce59aabea737386ae7f05e884bea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TMB.ANS by Avenger + Poti (phat. bm.); released in bmbook11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tmb.
 # SAUCE Author: poti / avenger
 # SAUCE Group: phat. bm.
@@ -39,7 +39,4 @@ Write-Host '
 
 
 
-[1;30;40m------------------------------------------------------------------------------- [0m
-[1;30;40mit was a gray sunday when we (ave&me) did this logo. I pretty much think that[0m
-[1;30mthis one is pretty cool but actually maf didn''t use it because ''it doesn''t fit[0m
-[1;30mto my boarddesign''. this is an attitude of dump shareware-sysops, imho.[0m'
+[1;30;40m------------------------------------------------------------------------------- [0m'

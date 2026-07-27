@@ -5,7 +5,7 @@
 # Source SHA-256: 90af41b64975d6157fa652e3507adda6179423f00027218933653f1fbe526b49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-SANCT.ANS by Proctologist (SeNsE); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Inner Sanctum
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNsE
@@ -22,11 +22,11 @@ Write-Host '
              [31m`ⁿⁿⁿ[0;1;31mⁿg, [0;31m,gⁿⁿⁿ$[0;1;31m$ [0;31m$$ [0;1;30m$ [0;31m$[0;1;31m$ [0;31m$$ [0;1;30m$ [0;1;31mgg [0;31m$$ⁿⁿ[0;1;31mⁿ   [0;31m$$ [0;1;30m$ [0;31m$[0;1;31m$ [0;31m$$ ⁿ $[0;1;31m$[0m
              [31mg, [0;1;30mg [0;31m$[0;1;31m$ [0;31m$$ [0;1;30mS [0;31m$[0;1;31m$ [0;31m$$ [0;1;30m$ [0;31m$[0;1;31m$ [0;31m$$ [0;1;30m$ [0;31m$[0;1;31m$ [0;31m$$ [0;1;30mS [0;31mg[0;1;31mg [0;31m$$ [0;1;30m$ [0;31m$[0;1;31m$ [0;31m$$ [0;1;30mS [0;31m$[0;1;31m$[0m
              [31mⁿⁿ [0;1;30mⁿ [0;31mⁿ[0;1;31mⁿ [0;31mⁿⁿ [0;1;30mⁿ [0;31mⁿ[0;1;31mⁿ [0;31mⁿⁿ [0;1;30mⁿ [0;31mⁿ[0;1;31mⁿ [0;31mⁿⁿ [0;1;30mⁿ [0;31mⁿ[0;1;31mⁿ [0;31mⁿⁿ [0;1;30mⁿ [0;31mⁿ[0;1;31mⁿ [0;31mⁿⁿ [0;1;30mⁿ [0;31mⁿ[0;1;31mⁿ [0;31mⁿⁿ [0;1;30mⁿ [0;31mⁿ[0;1;31mⁿ[0m
-         [1m,[0;1;33m╓[0;1;37mg#[0;1;33mS[0;1;37mS,╓g[0;1;33m#[0;1;37mSSⁿ[0;1;33mⁿS[0;1;37mS#g╖,[0;1;33m,[0;1;37m╓g#[0;1;33mS[0;1;37mSⁿⁿSS#g[0;1;33m╖[0;1;37m,,╓g[0;1;33m#S[0;1;37mSⁿⁿS[0;1;33mS[0;1;37m#g╖[0;1;33m,[0;1;37m,╓g[0;1;33m#[0;1;37mSSⁿⁿSS#g[0;1;33m╖,[0m
+         [1m [0;1;33m╓[0;1;37m  [0;1;33m [0;1;37m  ╓ [0;1;33m [0;1;37m   [0;1;33m  [0;1;37m   ╖ [0;1;33m [0;1;37m╓  [0;1;33m [0;1;37m       [0;1;33m╖[0;1;37m  ╓ [0;1;33m  [0;1;37m    [0;1;33m [0;1;37m  ╖[0;1;33m [0;1;37m ╓ [0;1;33m [0;1;37m        [0;1;33m╖ [0m
 [1;34m-------- [0;1;36m$[0;1;37m$[0;1;36m$$[0;1;37m$[0;1;36m$$$$[0;1;37m$[0;1;36m$$  [0;1;37m$[0;1;36m$[0;1;37m$[0;1;36m$$$[0;1;37m$[0;1;36m$$$[0;1;37m$[0;1;36m$  $[0;1;37m$[0;1;36m$$[0;1;37m$[0;1;36m$$$$[0;1;37m$$[0;1;36m$  $[0;1;37m$[0;1;36m$$$[0;1;37m$[0;1;36m$$$[0;1;37m$[0;1;36m$$  $[0;1;37m$[0;1;36m$$[0;1;37m$$ [0;1;34m--------[0m
 [34m▒▒▒▒▒▒▒▒ [0;36m$[0;1;36m$[0;36m$$[0;1;36m$[0;36m$$$$[0;1;36m$[0;36m$$  [0;1;36m$[0;36m$[0;1;36m$[0;36m$$$[0;1;36m$[0;36m$$$[0;1;36m$[0;36m$  $[0;1;36m$[0;36m$$[0;1;36m$[0;36m$$$$[0;1;36m$$[0;36m$,╖S[0;1;36mS[0;36m*╜ⁿ[0;1;36m`[0;36m$$$[0;1;36m$[0;36m$$,╖S[0;1;36mS[0;36m*╜[0;1;36mⁿ` [0;34m▒▒▒▒▒▒▒▒[0m
 [1;34m-------- [0;36m$$$$$$$$$$$$  $$$$$$$$$$$$  $$$$$$$$$$$$  ,╓g#SS$$$$$$`"SS#g╓, [0;1;34m--------[0m
-         [36mSS*╜ⁿ``ⁿ╙*SS  SS*╜ⁿ``ⁿ╙*SS  SS*╜ⁿ``ⁿ╙*SSggSS*╜ⁿ``ⁿ╙*SS  SS*╜ⁿ` [0;31mp[0;1;31mC[0m
+         [36m   ╜    ╙        ╜    ╙        ╜    ╙        ╜    ╙        ╜   [0;31m [0;1;31m [0m
              [31mgg [0;1;30mg [0;31mg[0;1;31mg [0;31mgg [0;1;30mg [0;31mg[0;1;31mg [0;31mgg [0;1;30mg [0;31mg[0;1;31mg [0;31mgg [0;1;30mg [0;31mg[0;1;31mg [0;31mgg [0;1;30mg [0;31mg[0;1;31mg [0;31mgg [0;1;30mg [0;31mg[0;1;31mg [0;31mg[0;1;31mg [0;1;30mg [0;31mg[0;1;31mg[0m
              [31m?$,_,$P ?$,_,$P ?$ [0;1;30m" [0;31m$P ?$,_,$P ?$,_,$P ?$,_,$P ?$ [0;1;30m" [0;31m$P[0m
               [31m`^"^`   `^"^`   `   `   `^"^`   `^"^`   `^"^`   `   `[0m
@@ -35,6 +35,6 @@ Write-Host '
                    s [1;35my [0;35ms o p - n a t h a n   a l e x a n d [0;1;35me [0mr
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mThis one was a quickie.  For another local board.[0m
+[1;30m                                                 [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

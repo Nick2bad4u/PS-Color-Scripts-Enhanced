@@ -5,7 +5,7 @@
 # Source SHA-256: 0ee8e24aa98df03605a380c5a1578219491241dd2281ae71a2429f430747dc39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SLC_ECO.ANS by Silence (ecl-pak3); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -25,7 +25,4 @@ Write-Host '
                      ▀▀▀▀█▄  ██[1;47m░░[0;1;40m▀▀▀▀[0;1;47m▓[0;1;40m▄[0m  [1;46m██[0;1;47m▓▓[0;1;40m▀▀▀█[0;1;47m▓[0m   [1;47m▄[0m▄▄█ [1;30m▀[0;1;30;47m▄▄[0m█▄ ▄[1;30;47m░░[0m█▀
                            ▀▀▀         [1m▀▀▀[0m        [1m▀▄▀▀[0m        [1;30m▀▀[0m▀▀
 
- ---- -
- >> note, damnit, i can''t draw anymore. ohjeah, this is a guest-release for
-          ''[1mecolove[0m''. if you want something from me or want to send hatemail,
-          try [1msilence@dds.nl[0m.[0m'
+ ---- -[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 546d2ce362120c565fa784381b3ea816ee87265e5cd0bf7adcffaee8c14e8d39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CU-ZG.ICE by Cold and Ugly (iCE); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Zero Gravity
 # SAUCE Author: Cold and Ugly
 # SAUCE Group: iCE
@@ -39,5 +39,4 @@ Write-Host '
 [31m   [0;37m [0;34m▀[0;1;34;44m▄[0;34m▄▄[0m           [34m▐[0;1;34m█[0;1;34;44m█[0;1;34;47m▓[0;1;34;40m█[0;1;34;44m▌[0;34m█[0;1;34;44m▄[0m  [34m▀▀[0;1;34;44m▄[0;34m▄[0;37m  [0;34m▀[0;37m [0;34m▀▀[0;1;34;44m▀█▀[0m    [35m [0;34m███[0;37m [0;34m▐[0;1;34;44m▀[0;34m▌[0m      [1;34;44m▐█▄[0;34m▄ ▄[0m    [34m██[0;1;34;44m▄[0;34m██[0m
 [31m  [0m    [34m▀▀█[0;1;34;44m■[0;34m▄▄▄▄  [0;37m [0;34m▄▄[0;1;34;44m▄████[0;1;34;40m█[0;1;34;44m▐█[0;1;34;40m▌[0m   [34m▐[0;1;34;44m▐█[0m     [34m▐█[0;1;34;44m▀[0;34m█▄[0;37m [0;34m▄██[0;1;34;44m▀[0m   [34m██[0m      [34m▐[0;1;34;47m▓▓[0;1;34;44m█[0;34m▀[0m   [34m▄[0;1;34;44m▄▄█▀[0;34m█[0m
          [34m ▀[0;1;34m▀▀[0;34m██[0;1;34;44m▄▄██[0;1;34;47m▓▓[0;1;34;40m▀▀[0m [1;34;47m▓▓[0;1;34;44m██[0m    [1;34;44m█[0;1;34;47m▓[0;1;34;40m▌[0m    [34m█[0;1;34;44m▀[0;34m▀[0;1;34;44m▀█[0;1;34;47m▓[0;1;34;44m▄▀[0;34m▀[0m    [34m▐█▌[0m      [1;34;47m█[0;34m▀[0;37m [0;34m▄▄[0;1;34;44m▄▄[0;1;34;47m▓▓█[0;34m█▀[0m
-                        [34m [0;1;34m▀▀▀▀[0m  [1;34m ▐▀▀ [0m  [34m▀▀[0m   [34m▀▀[0;35m [0m        [34m▀[0m      [34m  [0;37m  [0;34m ▀▀[0;1;34;44m▀[0;34m▀▀[0m
-[35m...[0;34m [0;1;35mZero Gravity [0;35m...[0;34m [0;1;35mSysOp[0m:[34m [0;1;35mOrpheus[0;34m [0;35m...[0;37m [0;1;35m            [0m    [1;35m [0m   - [1mCold and Ugly[0m/[1mi[0;1;31mC[0;31mE[0m'
+                        [34m [0;1;34m▀▀▀▀[0m  [1;34m ▐▀▀ [0m  [34m▀▀[0m   [34m▀▀[0;35m [0m        [34m▀[0m      [34m  [0;37m  [0;34m ▀▀[0;1;34;44m▀[0;34m▀▀[0m'

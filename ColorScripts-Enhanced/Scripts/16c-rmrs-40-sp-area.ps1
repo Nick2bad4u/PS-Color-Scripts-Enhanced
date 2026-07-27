@@ -5,7 +5,7 @@
 # Source SHA-256: 225f56f44d151ee14f805aaeb53f43aefe8891f611e4e9d7e109905d30819fa1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-area.ans by Spinsane (rmrs-40); released in rmrs-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
@@ -23,8 +23,4 @@ Write-Host '
 [1;35m::::::::[0;1;37maREa[0;1;35m:::::::::::::::::::::[0;1;32m╠[0;32m.[0m          [32m█▒░[0m     [1;32m.f[0;32m╬╬╬>,╬╬╬╬╬╬╬╬b.[0m     [1;36m`4╬╬╬[0m
 [1;35m:::::::::::::::::::::::::::::::::[0;1;32m╠╬╬╬╬╬╬╬╬╬╬╬[0;32m╬[0;1;32m╬╬╬╬[0;32m╬╬[0;1;32m╬[0;32m╬╬╬╬╬╬╬╬╬╬▓╬▓▓██╬b.[0m     [1;36m`4╬[0m
 [1;35m::::::::::::::::::::::::::::::::[0;1;37m81?[0;1;35m:::::[0m [1;35m:[0m [1;35m:[0m [32m█▒░[0;37m [0;32m░[0;37m  [0;32m░░▒▒▓▓▓▒▓███████████b.[0m
-[1;33;43m-------------------------------------------------)cut(--------------------------[0m
-[1;33;43mnotice the color illusions on the left and right color[0;36m 3 [0;1;33;43mappears as color [0;1;36;40m11[0m
-[32m2 [0;1;33;43mappears as[0;1;32;40m 10[0m
-[1;33;43mneat huh? :)  this is because of the placement of red [0;1;31;40m12 [0;1;31;43mmusic notes ♫[0;1;32;43m♫[0;1;36;43m♫[0;36;43m♫[0;32;43m♫[0m
-[1;33;43mfinished feb 16 2/001[0m'
+[1;33;43m-------------------------------------------------)cut(--------------------------[0m'

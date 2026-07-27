@@ -5,7 +5,7 @@
 # Source SHA-256: b5308736dc621d464a5c8a728ca38af8a27fa01a111e132c6173ed5e2f87e48a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX-SK!.ANS by dx[ka] (ka); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sK! with face
 # SAUCE Author: dx[ka]
 # SAUCE Group: ka
@@ -15,11 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mfor thelo0p pack #6[0m
+[1;30m                   [0m
 
 
 
-        [1;32m▄[0;32m [0;1;32m▄[0;32m▄▄[0m                                    [1;37msimonking/theloop[0m
+        [1;32m▄[0;32m [0;1;32m▄[0;32m▄▄[0m                                    [1;37m                 [0m
      [1;32m▄▐▐▐[0;32m▌[0;1;32;42m▌[0;32m▀▄▀▌[0;1;32;42m▌[0;32m▄▄[0m            [35m░[0;1;35;45m░[0;35m█░[0;1;35;45m░[0;35m█░[0;1;35;45m░[0;35m█░[0;1;35;45m░[0;35m█░[0;1;35;45m░[0;35m█░[0;1;35;45m░[0;35m█░[0;1;35;45m░[0;35m█████[0;1;35;45m░░░▒▓▓▓▓▓██[0m
    [32m▄█▐█▐[0;37m [0;32m▌▐[0;1;32m▐[0;32m▐▌█▐▌▌[0;1;32;42m▌[0;32m▐▄[0m     [1;37m          [0m          [35m  [0;37m [0;35m██[0;1;35;45m░▒▓▓▓█[0;1;35;40m▀▀▀▀▀[0;1;35;45m██▓▓[0m
   [1;32m▐[0;32m▌[0;1;32m▄[0;1;32;42m▌[0;32m █[0;37m [0;1;32;42m▌[0m [32m▌▐[0;1;32m▐[0;32m▌[0;1;32;42m▌[0;32m▐▐▐▌[0;1;32;42m▐[0m       [1m█[0;1;47m▓▒░░ [0m               [1;35;45m░░[0;35m██[0;1;35;45m░▒▓█[0;35m [0;37m [0;1;37;47m▓░[0m▄[1m [0;1;35m▀[0;1;35;45m▓▓[0;1;37;40m         [0m
@@ -38,12 +38,9 @@ Write-Host '
 
 [1;30m---------- kut here !@[0m
                                        [1;30m [0m
-[1;30m100 % original art. no xeroboy stuff :][0m [1;30mansi done for l0p pack #6.[0m
-[1;30mrequested by simonking / thelo0p. okee sK! here you go.. [0m
+[1;30m                                       [0m [1;30m                          [0m
+[1;30m                                                         [0m
 
-[1;30mdexter / k!aa[0m
-[1;30mdexterek@tl.krakow.pl[0m
-[1;30m28.04.2000[0m
-[1;30m(c) klub!anonimowyhazkoholikuf[0m
-
-[1;30mps. jak kwadraty, to kwadraty‼  :]][0m'
+[1;30m             [0m
+[1;30m                     [0m
+[1;30m28.04.2000[0m'

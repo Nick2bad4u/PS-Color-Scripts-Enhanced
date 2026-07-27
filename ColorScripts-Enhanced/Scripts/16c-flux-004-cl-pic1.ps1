@@ -5,7 +5,7 @@
 # Source SHA-256: 1978f88da879edde317f50f28d43fe6eb7461d2665182cf96d38bc9bc6df9c55
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-PIC1.ANS by .:(cLEANER):. (.:(fLUX):.); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .:(fLUX^pROMO^pICZ):.
 # SAUCE Author: .:(cLEANER):.
 # SAUCE Group: .:(fLUX):.
@@ -59,9 +59,4 @@ Write-Host '
 [1;30;40m ▒▒   [0;35m▄▄[0;1;35;45m░[0;35m▀▀[0;1;30mCl!▒▒  ▓▓   [0;35m▄▄[0;1;35;45m░▓[0;1;35;40m▀▀▀▀█[0;1;35;45m▓[0;1;35;40m█[0;1;36;40m██[0;1;35;40m█ [0;1;30;40m░░░ [0;1;35;40m▀[0;1;35;45m▓[0;1;35;40m█[0;1;35;45m▓[0;1;35;40m██[0;1;35;45m▓[0;1;35;40m█[0;1;36;40m▓[0;1;35;40m█▀ [0;1;30;40m░░ ░░ [0;1;35;40m▄[0;1;36;40m██[0;1;35;45m▓[0;1;35;40m▀  [0;1;30;40m▒▒  [0;1;35;40m▀▄ [0;1;30;40m░░ ▓▓[0m
 [1;30;40m ░░ [0;35m▀▀▀    [0;1;30m░░░░░  ▒▒ [0;35m▀▀▀   [0;1;30m░░░   [0;1;35m▀▀▀[0m         [1;35m▀▀▀▀▀[0;1;30m░░[0m      [1;35m▄[0;1;35;45m▓█[0;1;35;40m▀▀    [0;1;30;40m░░    [0;1;35;40m▀▄▄ [0;1;30;40m▒▒[0m
 [1;30;40m ░░░░░[0m            [1;30;40m░░   ░░[0m        [1;30;40m░░░░░  ░░░[0m           [1;30;40m░░[0m        [1;30;40m░░░░░ ░░[0m     [1;30;40m▒▒[0m
-        [1;30;40m░░░░░[0m     [1;30;40m░░░░░░░   ░░░[0m               [1;30;40m░░░░░░░░░░   ░░░[0m           [1;30;40m░░░░░░[0m
-
-[1;30;40m=[0m==[1;30m=[0;36m[[0;1;30mc[0mLEANE[1;30mR[0;36m/[0;1;30mf[0mLU[1;30mX[0;36m][0;1;30m=[0m=[1;30m=[0;36m[[0;1;30mc[0mONTAC[1;30mT[0;36m^[0;1;30mm[0mE[36m^[0;1;30ma[0mT[36m^[0;1;30mc[0mLEANE[1;30mR[0;36m@[0;1;30mc[0mHE[1;30mZ[0;36m.[0;1;30mc[0mO[1;30mM]=[0m=[1;30m=[0;36m[[0;1;30m2[0m2[36m/[0;1;30m1[0m1[36m/[0;1;30m9[0m7[36m][0;1;30m=[0m=[1;30m=[0;36m[[0;1;30m1[0m4[36m:[0;37m5[0;1;30m5[0;36m][0;1;30m=[0m==[1;30m=[0m
-
-Hi! This is my first picz for flux! And my first face picz too! :)
-                                                                     Cleaner.[0m'
+        [1;30;40m░░░░░[0m     [1;30;40m░░░░░░░   ░░░[0m               [1;30;40m░░░░░░░░░░   ░░░[0m           [1;30;40m░░░░░░[0m'

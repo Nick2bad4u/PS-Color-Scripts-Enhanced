@@ -5,7 +5,7 @@
 # Source SHA-256: 7988e8d286694366191f173436ea9426d1b494af59eb4b6976cc300bb1f47d19
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-TEN1.ANS by warpus (lazarus); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tenuous
 # SAUCE Author: warpus
 # SAUCE Group: lazarus
@@ -37,13 +37,4 @@ Write-Host '
          [34m░░[0m              [32m  [0m            [1;32mten[0;1;34muous[0;32m   [0;34m░░[0m         [1;37m  [0m      [34m░░[0m
                         [32m [0m
 
-[1;30m------------------------------------------------------------------------------- [0m
-
-[1;30mman, i haven''t done ansi in such a long time.  first came exams, then i had[0m
-[1;30mto move.  and now it''s time for christmas...  i almost had to force myself[0m
-[1;30mto do that font :)  it''s for phantams''s new board, tenuous.  i think i spelled[0m
-[1;30mthat right..  so..  merry christmas nick![0m
-
-[1;30mgreets to everyone in lazarus and awe.  i love you all.[0m
-
-[1;30mi''ll have something for the next awe pack for sure.  i promise :)[0m'
+[1;30m------------------------------------------------------------------------------- [0m'

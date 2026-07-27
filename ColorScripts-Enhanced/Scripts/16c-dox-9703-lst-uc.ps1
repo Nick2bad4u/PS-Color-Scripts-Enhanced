@@ -5,7 +5,7 @@
 # Source SHA-256: 5e090662524b0f45b632dadee46b7ab4af30d52de77cf084fc118815d0515666
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LST-UC!.ANS by soul trader (dox product 97); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: great little uc ansi
 # SAUCE Author: soul trader
 # SAUCE Group: dox product 97
@@ -29,6 +29,4 @@ Write-Host '
         [1;32;47m▓[0;1;32;42m▓▓[0m     [1;32;47m▓[0;1;32;42m▓▓[0m [1;32;47m▓[0;1;32;42m▓▓[0m     [1;32;42m▓▓[0;1;32;47m▓[0m [1;32;42m▓▓[0;1;32;47m▓[0m     [1;32;42m▓▓▓[0m [1;32;42m▓[0;1;32;47m▓▓[0m     [1;32;47m▓[0;1;32;42m▓▓[0m [1;32;42m▓▓▓[0m     [1;32;42m▓▓[0;1;32;47m▓[0m
        [1;32m▀▀▀▀[0m     [1;32m▀▀▀▀▀▀▀[0m     [1;32m▀▀▀▀▀▀▀[0m     [1;32m▀▀▀▀▀▀▀[0m     [1;32m▀▀▀▀▀▀▀[0m     [1;32m▀▀▀▀[0m
         [34m█[0;1;34;44m░▒[0;34m▄▄▄▄▄███[0;37m [0;1;34;44m▒░[0;34m█[0m     [34m█[0;1;34;44m░▒[0m [34m█[0;1;34;44m░▒[0;34m▄▄▄▄▄███[0;37m [0;34m█[0;1;34;44m░▒[0;34m▄▄▄▄▄███[0;37m [0;34m███▄▄▄▄▄[0;1;34;44m▒░[0;34m█[0m
-                            [34m▀▀▀[0m
-
-        [1;32mhandle[0m [1;32m[[0;32mmxmxmxmxmxmxmxmxmxm[0;1;32m][0m [1;32mpassword[0m [1;32m[[0;32mmxmxmxmxmxxmxmxmxmx[0;1;32m][0m'
+                            [34m▀▀▀[0m'

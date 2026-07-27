@@ -5,7 +5,7 @@
 # Source SHA-256: f893c92a933fdd986089ddcb7f476fa5c59e72ee3e8ac9652bb17392d55ecf6b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-SHDOW.ANS by Satan Claus (hrp-6); released in hrp-6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 43-84
 # Columns: 1-80
 
@@ -50,5 +50,4 @@ Write-Host '
                                                          [32m▀▀[0;32;42m   [0;1;33;42m░░░░       [0m
                                                              [32m▀▀[0;32;42m          [0m
                                                                  [32;40m▀▀[0;32;42m      [0m
-                                                                      [32;40m▀▀▀[0m
-'
+                                                                      [32;40m▀▀▀[0m'

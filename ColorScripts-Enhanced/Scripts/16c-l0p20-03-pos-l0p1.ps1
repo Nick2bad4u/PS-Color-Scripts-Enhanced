@@ -5,7 +5,7 @@
 # Source SHA-256: 12b92b663b55baf88fb2c7a7ad2f0bbfa36d7d636be8cc6de971c6c4cb7a6bbd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: POS!L0P1.ANS by Poise (l0p20_03); released in l0p20_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -30,8 +30,4 @@ Write-Host '
                                                      [32m ▐▓▀▀[0;37m  [0;1;30m▓▒ [0m
                                                      [1;32m [0;32m [0;37m    [0;1;30m▓▒[0m
 
-[1;30m--[0m
-[1;30mguest art for thelo0p#20.[0m
-[1;30mpoise/innate+secular [[0mnkr@wp.pl[1;30m][0m
-
-[1;30mi nie jestem juz nekro...[0m'
+[1;30m--[0m'

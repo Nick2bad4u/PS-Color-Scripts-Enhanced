@@ -5,7 +5,7 @@
 # Source SHA-256: 97d99df2cf8032257b9edee70a4340f4ce6b814aeb21029bf67dae0608c359cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aleperez-no_game_over_esp.ans by @AljandroPrez (HPM); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no game over
 # SAUCE Author: @AljandroPrez
 # SAUCE Group: HPM
@@ -17,9 +17,9 @@
 
 Write-Host '
   [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32mESTADO DE EVACUACION: 70%[0m
-  [1;32m≡[0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m≡[0m   [1;32mCOMUNICACIONES OPERATIVAS AL 30%[0m
+  [1;32m [0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m [0m   [1;32m                                [0m
   [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m   [1;32mBAJAS EN TIERRA: 45%[0m
-  [1;32m╚──────╜[0m   [1;32mNAVES DE ELITE EN EL AIRE REPORTENSE...[0m
+  [1;32m╚──────╜[0m   [1;32m                                       [0m
 [32m█████████████[0;33;42m▀▓▓[0;31;42m▓▓[0;33;42m▓▀[0;32;40m█████████████████████████[0;1;34;43m▄[0;1;34;40m██████████████████████████████████[0m
 [32m██████████████[0;33;42m▀▓▓▓[0;32;40m██████████████▀[0;1;37;40m▄▄▄▄[0;32m▀████[0;1;34;43m▄▄▄[0;1;34;40m█████████[0;1;34;47m▀▀▀▀[0;1;37;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;34;47m▀▀▀▀[0;1;34;40m████[0m
 [32m████████████████[0;37;42m║[0;32;40m███████████[0;30;42m▒[0;32;40m█▀[0;37;40m [0;1;37;40m█[0;1;33;40m████[0;1;37;40m█▄[0;32m▀█▀[0;1;35m▄[0m [1;33m▄▄▄[0;1;34m▀[0;1;35m▀[0;1;30;47m▄[0;1;30;40m██[0;1;31;47m▄[0;1;31;40m█[0;1;31;41m▀▀▀▀▀▀[0;1;31;40m████[0;1;37;40m████████████[0;1;37;47m▄[0;1;34;47m▀[0;1;34;40m██[0m
@@ -41,10 +41,10 @@ Write-Host '
 [1;34m████████████████████████████████████████████████████████████████████████████████[0m
 [1;37m────────────────────────────────────────────────────────────────────────────────[0m
 [30m██[0;1;32m╓─[0;35m▄▄▄▄[0;1;32m─╖[0m [1;32mEL-1 WINBEE[0m                                                      [30m████[0m
-[30m██[0;1;32m║[0;1;30;45m▄[0;1;35;40m████[0;1;30;45m▄[0;1;32;40m║[0m   [1;32mWINBEE REPORTANDOSE. TENGO A LA REINA A LA VISTA PERO CUENTO CON[0;30m███[0m
+[30m██[0;1;32m║[0;1;30;45m▄[0;1;35;40m████[0;1;30;45m▄[0;1;32;40m║[0m   [1;32m                                                                [0;30m███[0m
 [30m██[0;1;32m≡[0;1;30;45m▀[0;1;30;40m████[0;1;30;45m▀[0;1;32;40m≡[0m   [1;32mPOCAS MUNICIONES...[0m                                            [30m████[0m
-[30m██[0;1;32m║[0m [1;35m█[0;1;35;43m▀▀[0;1;35;40m█[0m [1;32m║[0m   [1;32mESTA HERIDA PERO SIGUE ACERCANDOSE A LA CENTRAL.[0m               [30m████[0m
-[30m██[0;1;32m╚[0;1;35m▀[0;1;32m─[0;33m▀▀[0;1;32m─[0;1;35m▀[0;1;32m╜[0m   [1;32mDONDE SE ENCUENTRAN LAS OTRAS NAVES DE ELITE?[0m
+[30m██[0;1;32m║[0m [1;35m█[0;1;35;43m▀▀[0;1;35;40m█[0m [1;32m║[0m   [1;32m                                                [0m               [30m████[0m
+[30m██[0;1;32m╚[0;1;35m▀[0;1;32m─[0;33m▀▀[0;1;32m─[0;1;35m▀[0;1;32m╜[0m   [1;32m                                             [0m
 
 
        [31m▀█[0;1;34;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m██▀[0m

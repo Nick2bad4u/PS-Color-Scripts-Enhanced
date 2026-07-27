@@ -5,7 +5,7 @@
 # Source SHA-256: e3303ecd38dccb659a41aadca6d3ad924f03e4f3e5e7a7c3eaef84ea30f13d68
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-FIRE.ANS by warpus (LAZARUS); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FIRE FIRE
 # SAUCE Author: warpus
 # SAUCE Group: LAZARUS
@@ -53,5 +53,5 @@ Write-Host '
 [1;33m▒[0;31m▒▒[0;1;37m░[0m      [31m░[0;1;33;43m▒▒▒[0;1;33;40m█[0;1;33;43m▀[0;1;30;41m▄[0;1;30;40m▀[0m            [30m▄▄[0;30;41m▓[0;1;33;46m▒[0;31m▓[0;1;30m▒ [0;30m███[0;1;30m [0;31m▓[0;1;33;46m▓[0;1;33;40m▓▓[0;1;37;40m▓▓▓▓▓▓[0;1;30;41m▀[0;1;30;40m▄[0;30m██[0;31m    ▀[0;1;30m▄[0m         [31m▄[0;1;33;41m▄▒▒▒▓▓▓▓[0m
 [31m▒▒[0;1;37m░[0m        [31m░▒[0;1;33;43m▀[0;1;37;43m▄[0;1;37;40m▀[0m      [30m▄▄▄▄[0;31m    [0;30m▒▒[0;1;30m▐[0;31;43m▓[0;31;40m▒[0;1;30;40m▒ [0;30m▓▓▓▒[0;31m▒[0;31;43m▄[0;31;40m▓▓▓▓▓▓▒▒▒░[0;1;30;40m▒ [0;30m███[0m          [31m▄[0;1;33;41m▄[0;31m▒▒▒▒▒▒▒▒▒[0m
 [31m░[0m            [1;37;41m■[0;31m▄[0m                 [30;41m▒[0;1;30;40m  ▓ [0;30m▒▒▒[0m              [30m▓▓▓▓▓▓[0m
-             [30m▓▓[0;30;41m▓▓[0;31;40m   [0;30;40m▓[0m      [31;40mFire▀   [0;1;30;40m▓[0m     [1;30;40mCome on baby, light my[0;1;31;40m [0;1;30;40mpyre[0m
+             [30m▓▓[0;30;41m▓▓[0;31;40m   [0;30;40m▓[0m      [31;40m    ▀   [0;1;30;40m▓[0m     [1;30;40m                      [0;1;31;40m [0;1;30;40m    [0m
                   [30;41m█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1d0c49bc72a0b51a93bbbeb9ec832c510c2a097b09ab508d5c2afc1cc36f5c08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B&S^BR.ANS by Pharoneus + Sketch Rimanez (secular!forever); released in sclr-23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wonderfull bridge
 # SAUCE Author: sketch & phAr
 # SAUCE Group: secular!forever
@@ -57,10 +57,4 @@ Write-Host '
 [1;47m  j$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;47m ,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;47mJ$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-[1;47m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-
-
-
-
-sketch rimanez [[1;30msrb[0m] - illustration
-     pharoneus [[1;30mbab[0m] - lyrics[0m'
+[1;47m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m'

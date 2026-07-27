@@ -5,7 +5,7 @@
 # Source SHA-256: 142fe7398ba111973d33aafab65b6cacf30359e26fc113b55bba38843a15bbcd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FX-LAST.ANS by Facsimile (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 148-196
 # Columns: 1-80
 
@@ -21,7 +21,7 @@ Write-Host '
 [35m ░░[0m
 [35m░░[0m
 
-[35m ░[0m                 [1;30m" The dialouge bubbles got in the way:) "[0m
+[35m ░[0m                 [1;30m                                         [0m
 
 
              [1;31m▄▄▄▄▄▄▄▄▄▄[0m                          [1;31m▄[0m
@@ -48,10 +48,10 @@ Write-Host '
                [1;30;40m▐▌▓[0m
                [1;30;40m▄▄█[0m
 
-[1;30;40m █▀ [0;1;37;40mSysops · Metal Fang  Stinger    Cosysops · Striker  ConTra  Terminator2 [0;1;30;40m▀█[0m
-[1;30;40m ▄[0m       [1;37;40m1+ gigbytes online   PARALYSIS World Headquarters   4 nodes[0m         [1;30;40m▀[0m
-[1;30;40m █[0m                [1;37;40m0 day IBM   Fast consoles   Art support[0m                    [1;30;40m█[0m
-[1;30;40m ▄[0m                      [1;37;40mRunning PCBoard 15.1 Modded[0m                          [1;30;40m█[0m
+[1;30;40m █▀ [0;1;37;40m                                                                        [0;1;30;40m▀█[0m
+[1;30;40m ▄[0m       [1;37;40m                                                           [0m         [1;30;40m▀[0m
+[1;30;40m █[0m                [1;37;40m                                       [0m                    [1;30;40m█[0m
+[1;30;40m ▄[0m                      [1;37;40m                           [0m                          [1;30;40m█[0m
 [1;30;40m █▄▄ ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄[0m     [1;30;40m▄ [0;1;37;40mc''est-pri-vé [0;1;30;40m▄    ▄▄ ▄[0m       [1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄   ▄[0m
 
 [1;30;40m   [0;31m▓▀[0;1;31;41m░[0;31m▄ ░ [0;1;31;41m▓▒[0;31m▀▄ ░▀[0;1;31;41m▓[0;1;31;40m▄ [0;1;31;41m█▓[0;1;31;40m▀ [0;1;30;40mtm [0mGreets go to  BE, MC, ME, MF, PS, SO, SS, TP, ZY

@@ -5,7 +5,7 @@
 # Source SHA-256: fb568ee83a34b20738a99569da5105bc411f43496649d3ad8c2326b39ce32211
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-FF.ANS by avenger (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: funfair
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -39,6 +39,4 @@ Write-Host '
 
 
 
-[33;40m↓↓[0m
-
-[33;40magain thanx for your cool ansi, riddler :) [0m'
+[33;40m↓↓[0m'

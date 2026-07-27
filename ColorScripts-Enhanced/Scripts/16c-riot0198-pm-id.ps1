@@ -5,7 +5,7 @@
 # Source SHA-256: efceeb234f745dbe4a91973280bca0a0e82e4b75466d37678b85de9533dc50ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-ID.ANS by Precious Metal (riot0198); released in riot0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -32,7 +32,4 @@ Write-Host '
       [32m▀[0;1;32m██[0;32m▀[0;1;32m███[0;32m▌[0;1;32m█▄▄ [0;1;32;42m▒[0;1;32;40m█[0;1;32;42m▌▄[0;32m▌[0;1;30m███████████[0;31m█[0;32m▐[0;1;32;42m▐[0;1;32;40m█████[0;1;32;42m▄▄▄▄▄▄▄[0;1;32;40m███████[0;1;32;42m▐▄ ▓▓[0;1;32;40m█[0;1;32;42m▀[0;1;32;40m▀███████[0m
         [1;32;42m▐░[0;1;32;40m███████[0;32m▐[0;1;32;42m▓▓  [0;32m▌▄▄▄▄▄▄▄▄▄▄▄[0;31m▐[0;32m▐[0;1;32;42m [0;1;32;40m████████████████████[0;1;32;42m▄▄[0;1;32;40m████[0;1;32;42m▄[0;1;32;40m▄▌█████[0m
          [32m▀▀▀▀[0;1;32;42m░░▀▀▀▀▀▀▀       ░░      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;32;40m▀▀[0;1;32;42m▌[0;1;32;40m████████[0m
-%PA                                                            [32m▀▀▀▀▀▀▀▀[0m
-[37mOh shit, I don''t know, this is my first pic, eh, not so great, but [0m
-[37mmaybe it''ll get better :)  For the Op, sorry it took me so long...[0m
-[37mThe font is bad, but I ran outta idears...[0m'
+%PA                                                            [32m▀▀▀▀▀▀▀▀[0m'

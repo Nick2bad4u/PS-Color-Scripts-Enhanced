@@ -5,7 +5,7 @@
 # Source SHA-256: dc5b527b69e22230811154745df7d8d546bb6622b96a3641a4762a80c37e0056
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-DIST1.ICE by Sand + Hannibal Lecter (ice-9401); released in ice-9401 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 82-123
 # Columns: 1-80
 
@@ -46,9 +46,9 @@ Write-Host '
 [1;30;40m░[0m           [1;36;40m██[0;1;36;46m▓[0m   [1;36;40m██[0;1;36;46m▓[0m [1;36;40m██[0;1;36;46m▓[0m [1;36;40m▒   ██[0;1;36;46m▓[0m  [1;36;40m▓█[0;1;36;46m▓[0m  [1;36;40m██[0;1;36;46m▓[0m  [36m▓   [0;1;36m██[0;1;36;46m▓[0m    [1;36;40m██[0;1;36;46m▓[0;36m▐[0;1;36m█[0;1;36;46m▓[0;36m▌ [0;1;36;46m▓[0;1;36;40m██[0m           [1;30;40m░[0m
            [1;36;40m▄▓█[0;1;36;46m▌[0m  [1;36;40m▄▓█[0;1;36;46m▌[0m [1;36;40m▓█[0;1;36;46m▌[0;36m▄[0;1;36;46m▀▓[0;1;36;40m▄ ▓█[0;1;36;46m▌[0m [1;36;40m▄▒█[0;1;36;46m▌[0m [1;36;40m▄▓█[0;1;36;46m▌[0;36m▄▄[0;1;36;46m▀▓[0;1;36;40m▄ ▓█[0;1;36;46m▌[0m   [1;36;40m▄▓█[0;1;36;46m▌[0m [36m▀[0;1;36;46m▀▓[0;1;36;40m▄▀[0;1;36;46m▓[0;1;36;40m▓[0m
 [1;30;40m─────────── [0;36m░ [0;1;36m▀ [0;1;30m─ [0;36m░ [0;1;36m▀ [0;36m░ [0;1;36m▀ [0;1;30m─── [0;36m░ [0;1;36m▀  [0;36m░ [0;1;36m▀  [0;36m░ [0;1;36m▀ [0;1;30m──── [0;36m░ [0;1;36m▀ [0;1;30m── [0;36m░ [0;1;36m▀ [0;1;30m───── [0;36m░ [0;1;30m───────────[0m
-[1;36;46m▓[0m    [1;36;40mdistorted reality - 805-583-0095 - s: swami - co: the carnage/mirage[0m     [36m░[0m
-[1;36;46m▓[0m [36mempire distribution site -/- insomnia courier hq -/- dire distribution site [0;1;36m░[0m
-[1;36;46m▒[0m [1;34;40mcybercrime -/- lethal -/- neurosis -/- phelony -/- thunder -/- kronic nets! [0;1;36;40m▒[0m
-[1;36;46m░[0m [34msupporting all warez, h/p/a/c/v/t, & art! -/- no nup -/- running renegade!  [0;1;36m▓[0m
+[1;36;46m▓[0m    [1;36;40m                                                                    [0m     [36m░[0m
+[1;36;46m▓[0m [36m                                                                            [0;1;36m░[0m
+[1;36;46m▒[0m [1;34;40m                                                                            [0;1;36;40m▒[0m
+[1;36;46m░[0m [34m                                                                            [0;1;36m▓[0m
 [1;36m░[0m                                                                             [1;36;46m▓[0m
-[36m░   [0;1;37mansi by sand of [0;1;36mi[0;36mce [0;1;37mproductions [0;1;30m- [0;1;37mfNT by hannibal lecter of [0mac[1mi[0md [1;30m& [0;1;37mpsy    [0;1;36;46m▓[0m'
+[36m░   [0;1;37m                [0;1;36m [0;36m   [0;1;37m            [0;1;30m  [0;1;37m                          [0m  [1m [0m  [1;30m  [0;1;37m       [0;1;36;46m▓[0m'

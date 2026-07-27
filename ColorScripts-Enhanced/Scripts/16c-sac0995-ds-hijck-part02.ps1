@@ -5,7 +5,7 @@
 # Source SHA-256: a80beb925d75e9e4c092c29ce2b755b546a5d76fdcf58cca56ac135d8736e0da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-HIJCK.ANS by dark star; released in sac0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hijack BBS
 # SAUCE Author: Dark Star
 # SAUCE Group: Independent
@@ -55,5 +55,4 @@ Write-Host '
    [1m ▀██████[0;1;47m▓[0;1;40m [0m       [1;30mNo[0mDE[1m [0m1[1m : +49 (0)30 662-17-64 [0m [1m28.8[0mk V.[1;30m34[0m [1m [0m      [1;47m▓[0;1;40m██████▀ [0m
      [1m ▀████[0;1;47m█▓[0m       [1;30mNo[0mDE[1m [0m2[1m : +49 (0)30 OFF-Li-NE [0m [1m14.4[0mk[1m [0mSt[1;30md.[0m       [1;47m▓[0;1;40m█████▀ [0m
         [1m ▀▀███▄▄▄[0m   [1;30mNo[0mDE[1m [0m3[1m : +49 (0)30 PRi-VA-tE  14.4[0mk[1m [0mSt[1;30md.[0m [1m [0m [1m▄▄▄█DS▀▀ [0m
-             [1m ▀▀▀▀[0m▀                                        [1m  [0m▀[1m▀▀▀▀ [0m
-                                  [1m [0m'
+             [1m ▀▀▀▀[0m▀                                        [1m  [0m▀[1m▀▀▀▀ [0m'

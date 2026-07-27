@@ -5,7 +5,7 @@
 # Source SHA-256: b408ad6d49e8a88db274b81ad000078dd676f8ced520ed70049159d2d1b86274
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-ED.ANS by Distortion (rage_294); released in rage_294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -53,10 +53,10 @@ Write-Host '
 
             [1mE  [0;1;33mT  [0;1;31mE  [0;31mR  N  A  L[0m           [31mD  A  R  K  N  [0;1;31mE  [0;1;33mS  [0;1mS[0m
 
-       [1;30m24Hrs LiNE  -■- iVORY Member -■- Syntex Error DiSTRo -■- RaGE DiSTRo[0m
-        [1;30m210 MB oNLiNE -■- RUNNiNG PCBoARD 15.1 Reg''d -■- Sysop Sgt.Slughet[0m
-                                                         [1;30mCos''  MasterBlaster[0m
-                                                               [1;30mThe Ripper[0m
+       [1;30m             ■                ■                       ■             [0m
+        [1;30m               ■                              ■                   [0m
+                                                         [1;30m                   [0m
+                                                               [1;30m          [0m
 [1;30m [0;31m─ ────────────[0;1;31m─[0;31m─[0;1;31m───────────[0;1;33m─[0;1;31m─[0;1;33m──────────────[0;1;31m──[0;1;33m─[0;1;31m──────────[0;31m─[0;1;31m─[0;31m──────────── ─ ─[0m
-                       [31mANSi By [0;1;31mDiSToRTioN [0;31m[-] [0;1;31mRaGE[0m
+                       [31m        [0;1;31m           [0;31m    [0;1;31m    [0m
 [1;31m  [0;31m─ ─────────────────[0;1;31m─[0;31m─[0;1;31m────────[0;1;33m─[0;1;31m──[0;1;33m─────────[0;1;31m──[0;1;33m─[0;1;31m────────────────[0;31m──[0;1;31m─[0;31m────── ─[0m'

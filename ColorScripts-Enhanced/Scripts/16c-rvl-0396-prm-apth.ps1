@@ -5,7 +5,7 @@
 # Source SHA-256: 12aa5398c57f1e370e1083cec7b4a3192767c1ff08e81a86012ce83f7e0e599e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PRM-APTH.ANS by Prizzzzm (RiVAL); released in rvl-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Apathy
 # SAUCE Author: Prizzzzm
 # SAUCE Group: RiVAL
@@ -36,18 +36,4 @@ Write-Host '
 [36m▌[0;36;46m [0;1;36;46m░▓▓[0;36;44m█▄[0;34;40m█ █[0;34;46m  ▐[0;34;40m▌█ ░ ▄▄▄▓[0;36;44m▄▄▄█[0;1;36;46m▒░  ▓▒ [0;36m▌[0;36;46m  [0;1;36;46m▓▓▒▄░[0;34;46m▀▀▀  ▐[0;34;40m▄▀ ▄▄▄[0;34;46m▀▀▀ [0;1;36;46m░[0;34;46m▀[0;34;40m▄ ▄▀  ▄▄[0;34;46m▀▀ [0;1;36;46m▒▓▄ ▒ ▒▒▒[0;36m▌[0m
 [36m  ▀[0;36;44m█[0;1;36;46m░▓▄.[0;36;44m▄[0;1;36;46m░[0;36;44m█[0;36;40m▓[0;36;44m█[0;34;40m█▄▄[0;34;46m▀▀▀  [0;1;36;46m▄▓▒░ ▀▒▓▒░ [0;36m▀  ▀[0;36;46m [0;1;36;46m░▀▀ [0;36m▀▀[0;36;46m [0;1;36;46m▒ [0;34;46m▀▀▀▀ [0;1;36;46m▄  `▄▓▒░[0;34;46m▀[0;34;40m█▄▄[0;34;46m▀▀[0;1;36;46m░▓▒ [0;36m▀[0;36;46m [0;1;36;46m▒▓▓ [0;36m▀ ▀▀[0m
 [1;37;47m▄[0;1;37;40m▄▄▄[0m▄ [36m▀▀▀ [0;37m▄▄ [0;36m▀▀[0;36;46m [0;1;36;46m░▒▓▓▒[0;36m▀▀ [0;37m▄ [0;36m▀▀▀▀▀ [0;37m▄▄[0;1;37m▄▄▄▄▄▄[0m▄[1m▄[0m▄ [36m▀▀[0;1;36;46m░░▓▓▓▒[0;36m▀ [0;37m▄[0;36m▀▀ ▀[0;36;46m  [0;1;36;46m░  ▒▒[0;36m▀▀ [0;37m▄▄ [0;36m▀▀ [0;37m▄[0;1;37m▄▄▄[0;1;37;47m▄[0m
-[1;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀─[0m      [1;37;40m─▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀─[0m      [1;37;40m─▀▀▀▀▀─[0m       [1;37;40m─▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;34;40myo this is probably my best logo ever. i drew it in my binder then ansi-rized it[0m
-
-
-
-
-fucken.. who am i to be writing this shit.. when you think of Prizm, you
-probalby dont think of shit.  Drawin rip sucks, i''ll admit it... duno i''m a big
-time complainer.. thats all. ascii''s cool...soap''ll take your crew anyday
-fudwink.  props to ice. and anyone drawin for fun, can''t say i am.  my middle
-name is mudbone.  yo come enter infra on sundays.. probably on /server neato.org
-#infra.. and call my vmb, 800-328-0297 box: 7028. and request something. even
-tho i''ll never do it.  unless its ascii. then maybe i will.  peace to ky-.
-
-peace to union. can it be that it was all soo simple then.[0m'
+[1;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀─[0m      [1;37;40m─▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀─[0m      [1;37;40m─▀▀▀▀▀─[0m       [1;37;40m─▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

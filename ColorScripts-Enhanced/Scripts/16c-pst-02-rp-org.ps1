@@ -5,7 +5,7 @@
 # Source SHA-256: 1716c9c366a7f76d269a0af106ca5bb2587ab662917b079a86f3ed4ece34ff3c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RP-ORG.ANS by Rippa (Polyester); released in pst-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: organic
 # SAUCE Author: Rippa
 # SAUCE Group: Polyester
@@ -30,7 +30,4 @@ Write-Host '
 [1;35;45m██▐[0;1;30;40m░████[0;1;37;40m [0;1;35;45m▌██[0;1;37;40m [0;1;35;45m███[0;1;37;40m [0;1;30;40m████[0m [1;35;45m███[0;1;37;40m [0;1;35;40m███[0;1;37;40m [0;1;30;40m████[0;1;35;40m █[0;1;35;45m▌▐[0;1;37;40m [0;1;35;45m███[0m [1;30m████░[0;1;35m███[0;1;30m▀[0;1;35m█[0;1;35;45m▐[0;1;35;40m█[0;1;30;40m ████[0;1;35;40m ███[0;1;37;40m [0;1;35;40m█[0;1;35;45m▐▌[0;1;37;40m [0;1;35;45m▄█▐[0;1;37;40m [0;1;30;40m██[0;1;37;40m [0;1;35;40m███[0m
 [1;35;45m███[0;1;37;40m [0;1;30;40m▓███[0;1;37;40m [0;1;35;45m███[0;1;35;40m ███ [0;1;30;40m████[0m [1;35m███ ███ [0;1;30m███▓░[0;1;35m███ ███[0m [1;30m███▓░[0;1;35m███[0;1;30m▀[0;1;35m███[0;1;30m ▓▓██[0;1;35m ███ ███ ███ [0;1;30m██[0;1;35m ███[0m
 [1;35;45m███[0;1;37;40m [0;1;30;40m▓▓██[0;1;37;40m [0;1;35;45m███[0;1;35;40m ███[0;1;30;40m░▓▓██▄▄▄▄[0;1;35;40m ███ [0;1;30;40m████[0;1;35;40m ███ ███ [0;1;30;40m██▓▓[0;1;35;40m ███ ███[0;1;30;40m ▓▓██[0;1;35;40m ███ ███ ███ [0;1;30;40m██[0;1;35;40m ███[0m
-[1;37;40m█[0;1;35;45m██[0;1;35;40m▄▄[0;1;37;40m▄▄[0;1;35;40m▄▄[0;1;37;40m█[0;1;35;45m██[0;1;35;40m ███ [0;1;30;40m░░[0;31m       [0;1;37m█[0;1;35m██▄[0;1;37m▄▄[0;1;35m▄▄▄███ ███▄▄[0;1;37m▄▄[0;1;35m▄▄█[0;1;37m██[0;1;35m [0;1;37m█[0;1;35m██[0;1;30m ░░[0;1;35m   ███ ██[0;1;37m█[0;1;35m ███▄▄[0;1;37m▄▄[0;1;35m███[0m
-
-    [1;37morganic[0;35m nothing but [0;1;35mhot [0;1;37maustralian art[0;1;30m.[0;35m the way things really [0;1;35mshould[0;35m [0;1;35mbe[0;1;30m![0m
-                                                                           [1;30m    [0m'
+[1;37;40m█[0;1;35;45m██[0;1;35;40m▄▄[0;1;37;40m▄▄[0;1;35;40m▄▄[0;1;37;40m█[0;1;35;45m██[0;1;35;40m ███ [0;1;30;40m░░[0;31m       [0;1;37m█[0;1;35m██▄[0;1;37m▄▄[0;1;35m▄▄▄███ ███▄▄[0;1;37m▄▄[0;1;35m▄▄█[0;1;37m██[0;1;35m [0;1;37m█[0;1;35m██[0;1;30m ░░[0;1;35m   ███ ██[0;1;37m█[0;1;35m ███▄▄[0;1;37m▄▄[0;1;35m███[0m'

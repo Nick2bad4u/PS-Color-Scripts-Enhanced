@@ -5,7 +5,7 @@
 # Source SHA-256: 29e482c657e9f8d5676cc7bbd7fd0b15227904974cf6e29164d1c6be804bb5cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-MATRI.ANS by The Knight (Fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: random matrix
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel
@@ -40,11 +40,11 @@ Write-Host '
 [36;45m [0;35;40m██[0;1;35;45mget out[0;35m██████████▄[0;37m [0;36m  [0;37m  [0;1;31m ███████████▄▄[0;1;31;43m▄[0;1;31;40m███████████████████████████████████████[0m
 [36;45m [0;35;40m█████████████████████▄▄[0;36;40m [0;1;33;40m  [0;1;31;40m ████████████████████████[0;1;31;43m▒ ▀[0;1;31;40m█████████████████████████[0m
 [1;30;40m-----8<-----------------------------------------------[0m [1;30mkrab de kut! -----8<-----[0m
- [1;30manother small [0;1;36;46mtk[0;1;30;40m ansi...feel free to use this matrix...[0m [1;30mand remember[0m
-[1;30m kids...this is merely the beginning of the resurrection of fUEL ansi![0m
- [1;30mcare to join us ? email siemen.ghysens@ping.be and make sure you add[0m
-[1;30m a few samples of your work.. requests that are backed up by some good hard[0m
-[1;30m cold cash are welcome too <eg>..[0m
- [1;30mgreets to all I respect..deep,nf,thr,pfez,mend,ts-,ext-,horrid,cu,creator,[0m
-[1;30m liithn,sensei,kargus,ws,na,ox,massm,bs,trip,spear,ls,sulphur, etc..[0m
+ [1;30m              [0;1;36;46m  [0;1;30;40m                                       [0m [1;30m            [0m
+[1;30m                                                                      [0m
+ [1;30m                                                                    [0m
+[1;30m                                                                           [0m
+[1;30m                                 [0m
+ [1;30m                                                                          [0m
+[1;30m                                                                    [0m
 [1;30m-----8<-----------------------------------------------[0m [1;30mkrab de kut! -----8<-----[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 86b443dd4787b89a58e1d9925e8a700ad8f4458cee51676e5aa112d56e27c3bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-HAL2.ANS by filth (BLOCKTRONiCS); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: regency '95
 # SAUCE Author: filth
 # SAUCE Group: BLOCKTRONiCS
@@ -39,22 +39,22 @@ Write-Host '
 [1;33;40m█[0;31m▓ █[0;33;41m█[0;31;40m████[0;33;41m▀▀▀▀▀  ▀▀▀  [0;31;40m████████████████████████████████████████████[0;33;41m▀[0;31;40m█[0;33;41m▀▀▀▀▀▀[0;31;40m██[0;33;41m█[0;31;40m█░█[0;1;33;40m█[0m
 [1;33;40m█[0;31m█ █[0;33;41m█ [0;1;37;41m                   [0;33;41m  ·«≤<◄ [0;1;37;41msys0p: halaster[0;33;41m ►>≥»·[0;1;33;41m  [0;1;37;41m                   [0;33;41m█░[0;31;40m░█[0;1;33;40m█[0m
 [1;33;40m█[0;31m█ █[0;33;41m█[0;1;37;41m                                                                      [0;33;41m▓░[0;31;40m █[0;1;33;40m█[0m
-[1;33;40m█[0;31m█ █[0;33;41m█[0;1;37;41m           [0;33;41m·«≤<◄[0;1;37;41m  c0sysz: talen [0;33;41m»[0;1;37;41m crisis [0;33;41m»[0;1;37;41m wintermute[0;1;33;41m [0;33;41m►>≥»· [0;1;37;41m          [0;33;41m█[0;31;40m█ █[0;1;33;40m█[0m
+[1;33;40m█[0;31m█ █[0;33;41m█[0;1;37;41m           [0;33;41m    ◄[0;1;37;41m                [0;33;41m [0;1;37;41m        [0;33;41m [0;1;37;41m           [0;1;33;41m [0;33;41m►     [0;1;37;41m          [0;33;41m█[0;31;40m█ █[0;1;33;40m█[0m
 [1;33;40m█[0;31m█[0;33m [0;31m█[0;33;41m█[0;1;37;41m                                                                      [0;33;41m█[0;31;40m█ █[0;1;33;40m█[0m
-[1;33;40m█[0;31m█[0;33m █[0;33;41m█[0;1;37;41m AGORAnet [0;33;41m»[0;1;37;41m ESSENCEnet [0;33;41m»[0;1;37;41m ESCAPEnet [0;33;41m»[0;1;37;41m KiTSCHnet [0;33;41m»[0;1;37;41m TWiNGLEnet [0;33;41m»[0;1;37;41m m0p ehq [0;33;41m█[0;31;40m█ █[0;1;33;40m█[0m
-[1;33;40m█[0;31m█ [0;33m█[0;33;41m█[0;1;37;41m  ACiD member [0;33;41m»[0;1;37;41m FiRE whq [0;33;41m»[0;1;37;41m BSLAP whq [0;33;41m»[0;1;37;41m undergrown member [0;33;41m» [0;1;37;41mMiST ushq  [0;33;41m█[0;33;40m█ [0;31;40m█[0;1;33;40m█[0m
-[1;33;40m█[0;31m█ [0;33m█[0;33;41m▀▄░[0;1;37;41m  DiALTONE whq [0;33;41m»[0;1;37;41m HOARD distro [0;33;41m»[0;1;37;41m PARANOiA distro [0;33;41m»[0;1;37;41m STAFF distro     [0;33;41m▄▀[0;33;40m█[0;31;40m █[0;1;33;40m█[0m
+[1;33;40m█[0;31m█[0;33m █[0;33;41m█[0;1;37;41m          [0;33;41m [0;1;37;41m            [0;33;41m [0;1;37;41m           [0;33;41m [0;1;37;41m           [0;33;41m [0;1;37;41m            [0;33;41m [0;1;37;41m         [0;33;41m█[0;31;40m█ █[0;1;33;40m█[0m
+[1;33;40m█[0;31m█ [0;33m█[0;33;41m█[0;1;37;41m              [0;33;41m [0;1;37;41m          [0;33;41m [0;1;37;41m           [0;33;41m [0;1;37;41m                   [0;33;41m  [0;1;37;41m           [0;33;41m█[0;33;40m█ [0;31;40m█[0;1;33;40m█[0m
+[1;33;40m█[0;31m█ [0;33m█[0;33;41m▀▄░[0;1;37;41m               [0;33;41m [0;1;37;41m              [0;33;41m [0;1;37;41m                 [0;33;41m [0;1;37;41m                  [0;33;41m▄▀[0;33;40m█[0;31;40m █[0;1;33;40m█[0m
 [1;33;40m█[0;1;33;41m▄[0;31m█[0;33m █[0;33;41m ▀▄▄▄▄▄▄▄▄▄  ▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄   ▄ ▄▄  ▄▄▄▄▄▄▀ [0;33;40m█[0;31;40m █[0;1;33;41m▄[0;1;33;40m█[0m
 [1;33;40m██[0;1;33;41m▄[0;31m█▄[0;33m▄▀▀▀[0;31m▀[0;33m▀▀▀▀▀▀▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀▀▀▀▀▀▀▀▀▄[0;31m▄█[0;1;33;41m▄[0;1;33;40m██[0m
 [1;33;40m█[0;1;33;41m▄[0;1;33;40m███[0;1;33;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33;40m███[0;1;33;41m▄[0;1;33;40m█[0m
 [33m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
-            [31mthis OG gitdown brought to you by[0;1;33m filth [0;31mof[0;1;33m bL0CKtRONiCS[0m
-             [31mwith parameters found in file[0;1;33m HAL-HOW2.ANS[0;31m [0;33m(fire0895)[0m
-                  [1;33mHalshade![0;33m(c)[0;1;33m:[0;31m [0;1;33mhow to draw the halaster way.[0m
-                          [31mby[0;1;33m halaster[0;31m of [0;1;33mFiRE [0;31m* [0;1;33m1995[0m
+            [31m                                 [0;1;33m       [0;31m  [0;1;33m             [0m
+             [31m                             [0;1;33m             [0;31m [0;33m          [0m
+                  [1;33m         [0;33m   [0;1;33m [0;31m [0;1;33m                             [0m
+                          [31m  [0;1;33m         [0;31m    [0;1;33m     [0;31m  [0;1;33m    [0m
 
 
-                [33mb0nus greet: halaster - [0;1;33mf0URoNEtW0[0;31mx[0;1;33mPGH [0;33mRPRZNT!@[0m
+                [33m                        [0;1;33m          [0;31m [0;1;33m    [0;33m        [0m
 
                                      [1;30m▀[0m▀[1m▀[0;1;33m▀[0;33m▀[0;31m▀[0m'

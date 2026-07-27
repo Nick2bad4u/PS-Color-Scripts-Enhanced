@@ -5,7 +5,7 @@
 # Source SHA-256: d3173e52c4653e3dd6cd314ccd9fc302149168d631a3dbfd15a455046f62c68e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-UNTIT.ANS by Flying Squirrel (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Untitled.
 # SAUCE Author: Flying Squirrel
 # SAUCE Group: Irato
@@ -36,5 +36,5 @@ is nothing     [1;32m [0;1;30m░[0;1;32m   [0;1;34m▄▀▀[0;1;32m  [0m
                  [34m      ▀▄▄[0;35m▀▀[0;1;35;45m░░░░▒▒▒▒▓▓▓█▓▓▓▒▒▒▒░░░[0;35m█▀▀[0;34m▄▄▀[0;37m [0;34m  [0m
 [1;37msysgod[0;1;33m : [0;1;37mdark[0;1;33m [0;1;37melf[0;34m         ▀▀▄▄[0;35m▀▀[0;1;35;45m░░░░▒▒▒▓▒▒▒░░░░[0;35m▀▀[0;34m▄▄▀▀ [0m     [34m  [0;1;37mphone[0;1;33m [0;1;37m#[0;1;33m : [0;1;37mABC-DEFG[0m
 [1;33m                         [0;1;30m  [0;34m [0;37m  [0;34m▀▀▄▄[0;35m▀▀[0;1;35;45m░░░▒░░░[0;35m▀▀[0;34m▄▄▀▀[0;1;33m                              [0m
-[36menter your affils and[0m       [36m     [0;34m ▀▀▄▄[0;35m▀[0;1;35;45m░[0;35m▀[0;34m▄▄▀▀ [0;36m            dna sliffa ruoy retne[0m
-[36msystem informations in thiz area.[0m     [34m▀▄▀[0m     [36m.aera ziht ni snoitamrofni metsys[0m'
+[36m                     [0m       [36m     [0;34m ▀▀▄▄[0;35m▀[0;1;35;45m░[0;35m▀[0;34m▄▄▀▀ [0;36m                                 [0m
+[36m                                 [0m     [34m▀▄▀[0m     [36m                                 [0m'

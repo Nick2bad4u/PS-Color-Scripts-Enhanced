@@ -5,7 +5,7 @@
 # Source SHA-256: 867101a29a644655d3c33a84754068eeab70cce404e46d0da3d57a8c8a23927e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MH!PERVP.ANS by Maddog Hoek (moi-1296); released in moi-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -30,6 +30,4 @@ Write-Host '
 [1m  [0;1;33;43m░[0m [1;36m█  [0;1;30m░░ [0;1;36m▐▌  ▐▌ [0;1;30m░░  [0;1;36m█  ▐▌ [0;1;30m░░[0m     [1;36m▐▌ [0;1;30m░░  [0;1;36m█  ▐▌ [0;1;30m░░ [0;1;36m▐▌  █  ▐▌ [0;1;30m░░ [0;1;36m▐▌  █  [0;1;30m░░ [0;1;36m▐▌ [0;1;33;43m░[0m
 [1m  [0;33m▐▌[0;1;36m▐▌■▄▄■▀    ▀■▄▄■▐▌   ▀▄[0m        [1;36m▀■▄▄■▐▌   ▀■▄▄■▀   ▐▌  ▀■▄▄■▀   ▐▌■▄▄■▀ [0;33m▐▌[0m
 [33m   █ [0;1;36m█   [0;33m▄▄■▀▀■▄▄▄▄▄▄▄■▀■▄▄▄■▀▀▀▀▀■▄▄▄▄▄▄▄■▀■▄▄▄▄▄▄■▀■▄▄■▀■▄▄▄▄■▀■▄ [0;1;36m▀■▄▄▄  [0;33m█[0m
-[33m   ▀▄▄▄■▀[0m      [1ms[0my[1;30msop[0;1;35m: [0;1ms[0me[1;30mñor [0;1md[0mo[1;30mc [0;1;35m■ [0;1ma w[0mw[1;30miv [0;1mb[0mb[1;30ms [0;1;35m■ [0;1ma[0mt[1;30mdt [0;1mq[0mo[1;30mq[0;1;35m.[0;1m6[0m8[1;30ml[0;1;35m.[0;1m4[0mz[1;30msz   [0;33m▀▀▄▄▄▄■▀[0m
-
-   [35mNote - This board changed its name to "Blue Star" right after I made this.[0m'
+[33m   ▀▄▄▄■▀[0m      [1ms[0my[1;30msop[0;1;35m: [0;1ms[0me[1;30mñor [0;1md[0mo[1;30mc [0;1;35m■ [0;1ma w[0mw[1;30miv [0;1mb[0mb[1;30ms [0;1;35m■ [0;1ma[0mt[1;30mdt [0;1mq[0mo[1;30mq[0;1;35m.[0;1m6[0m8[1;30ml[0;1;35m.[0;1m4[0mz[1;30msz   [0;33m▀▀▄▄▄▄■▀[0m'

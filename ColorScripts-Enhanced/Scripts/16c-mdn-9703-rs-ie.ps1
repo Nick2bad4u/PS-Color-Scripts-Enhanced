@@ -5,7 +5,7 @@
 # Source SHA-256: 177e5e6127b27a28548851a3e8b7cc54a39955b5c27c781ece3e4f274185b950
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-IE.ANS by rorshack (Maiden Brazil); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: i.e
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -30,11 +30,4 @@ Write-Host '
                 [31m▐[0;1;31;41m▐▓▓▒▄[0;31m▄[0;35m ░[0;30;45m▓░[0;35;40m▓[0;30;45m▒░[0;35;40m█[0;30;45m░[0;35;40m▌  ░[0;30;45m▓▒[0;35;40m░[0;30;45m▓▒[0;35;40m▒[0;30;45m░[0;35;40m██[0;30;45m░[0;35;40m█[0;30;45m░░[0;35;40m█▄[0;37;40m [0;31;40m▀[0;1;31;41m▀▓█▒░[0;31m▌[0m
                  [31m▀█[0;1;31;41m▒░░[0;31m█▌[0;35m  [0;30;45m▓[0;35;40m▒ [0;30;45m▓░[0;35;40m▒[0m     [35;40m░[0;37;40m  [0;35;40m░[0;30;45m▓▒░[0;35;40m▓[0;30;45m▓▒▒▒░[0;35;40m█▌[0;37;40m [0;31;40m▐[0;1;31;41m▒▒[0;31m█▀[0m
                   [31m▐█[0;1;31;41m░[0;31m█▀[0m    [35m░  [0;30;45m▒[0;35;40m [0;37;40mrs[0;1;37;40m![0;1;30;40mmaiden[0m [30;45m▓[0;35;40m▒░[0;37;40m [0;35;40m░[0;30;45m▓▓[0;35;40m▒▀[0;37;40m  [0;31;40m█[0;1;31;41m░[0;31m█▌[0m
-                 [31m▀▀▀▀▀▀▀▀▀[0;35m  [0;31m▀[0;35m ░ [0;31m▀▀[0;35m [0;31m▀[0;35m [0;31m▀[0;35m [0;31m ▀[0;37m  [0;35m░[0;37m [0;31m▀[0m   [35m░[0;37m  [0;31m▀▀▀▀▀[0m
-
-
-            [1;30mhumn. yes. well, don''t mind this logo. although it might[0m
-[1;30m  look good (great colors uhn?), it looks a little strange. it''s not my style.[0m
-        [1;30mit''s because i''m trying new styles. yes. rounded stuff rules. :)[0m
-
-                          [1;30m- [0mrorshack[1;30m, le [0mmaiden[1;30m founder[0m'
+                 [31m▀▀▀▀▀▀▀▀▀[0;35m  [0;31m▀[0;35m ░ [0;31m▀▀[0;35m [0;31m▀[0;35m [0;31m▀[0;35m [0;31m ▀[0;37m  [0;35m░[0;37m [0;31m▀[0m   [35m░[0;37m  [0;31m▀▀▀▀▀[0m'

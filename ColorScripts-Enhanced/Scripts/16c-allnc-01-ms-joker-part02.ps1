@@ -5,7 +5,7 @@
 # Source SHA-256: 37487bb14cce52aea221a4d61ada9ab627e0bcdd607d1af0b22bd4f2583ba4f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MS-JOKER.ANS by Mendelssohn (The Alliance); released in allnc-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "Trademark Joker"
 # SAUCE Author: Mendelssohn
 # SAUCE Group: The Alliance
@@ -50,19 +50,19 @@ Write-Host '
 
                      [1;37;40m·T·H·E· ·H·I·E·R·A·R·C·H·Y· ·B·B·S·[0m
 
-                          [1;30;40mT[0mh[1me Children of Judas W[0mH[1;30mQ[0m
-                          [1;30mE[0mp[1minicion Productions W[0mH[1;30mQ[0m
-                             [1;30mE[0mu[1mphoria E-mag W[0mH[1;30mQ[0m
-                              [1;30mT[0mh[1me Alliance W[0mH[1;30mQ[0m
-                              [1;30mG[0mu[1milt Affilia[0mt[1;30me[0m
+                          [1;30;40m [0m [1m                     [0m [1;30m [0m
+                          [1;30m [0m [1m                     [0m [1;30m [0m
+                             [1;30m [0m [1m              [0m [1;30m [0m
+                              [1;30m [0m [1m            [0m [1;30m [0m
+                              [1;30m [0m [1m           [0m [1;30m [0m
 
 
-                          [1;37m· A[0mr[1;30mt [0;1;37m· D[0me[1;30mmos [0;1;37m· M[0mu[1ms[0;1;30mic [0;1;37m·[0m
+                          [1;37m   [0m [1;30m  [0;1;37m   [0m [1;30m    [0;1;37m   [0m [1m [0;1;30m   [0;1;37m [0m
 
                                [1;30m([0m6[1m19) 945-74[0m1[1;30m7[0m
-                               [1;30mN[0mU[1mP: ENTRENO[0mU[1;30mS[0m
-                                [1;30mN[0mU[1mV Enforc[0me[1;30md[0m
+                               [1;30m [0m [1m          [0m [1;30m [0m
+                                [1;30m [0m [1m        [0m [1;30m [0m
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m   "Trademark Joker" is Copyright (c)1994 by Hoyle Games.[0m      [1;30m-Mendelssohn[0m
+[1;30m                                                         [0m      [1;30m            [0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m'

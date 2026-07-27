@@ -5,7 +5,7 @@
 # Source SHA-256: 29953878cd0b0a0f66de5d6f7fc0c386309025f94a2f2cc209ee24715e688151
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-EPIC.ANS by Anvilhed + Savagecow (epic); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: is there something in my teeth?
 # SAUCE Author: anvilhed/savageCOW
 # SAUCE Group: epic
@@ -14,8 +14,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m  [0m  [1;30mWhy hide behind black on black?  We want EVERYONE to know Epic is here..[0m
-[1;30m                           and going no where but up.        [0m
+[1;30m  [0m  [1;30m                                                                        [0m
+[1;30m                                                             [0m
 
                               [1;30me[0m   [1;30m     [0;32m [0;34m▄▄▄▄▄[0;37m [0;1;30m  [0m [1;30ma[0m
                           [1;30mg[0m [32m ▄▄▄[0;1;32;42m░░░[0;1;33;42m░[0;32m▀▀▀[0;34m ▄[0;1;34;44m░░▒▓▓▒░[0;34m█▄▄▄[0;37m [0;1;30mn[0m

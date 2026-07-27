@@ -5,7 +5,7 @@
 # Source SHA-256: 699c574331fd11ff9a616268a4d0738c4c3ccb019b0125d47f2de39ef8611f6e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AE-DSUN2.ANS by Alter Ego (acdu1093); released in acdu1093 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 228-276
 # Columns: 1-80
 
@@ -31,9 +31,9 @@ Write-Host '
 
 [1;30;40m────────────────────────────────────────────────────────────────────────────────[0m
 
-        I was high above the trees... Everything was more vivid than
-      I thought was ever possible. I saw things from all sides. Then I 
-         realized I wasn''t perceiving things through my human eyes.
+                                                                    
+                                                                       
+                                                                   
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
 
@@ -52,7 +52,7 @@ Write-Host '
 [31m  [0;1;37mS[0mo[1;31mrc[0;31merer[0;1;30m-King:[0m               [33m▀██ ██[0m      [33m██ [0;33;43m█[0;33;40m█[0m      [33;40m█[0;1;33;43m░[0m       [31m■▄▄[0m      [31m▄■[0m
             [1;33mAlter Ego[0m          [33m▄██ ██[0m     [33m▄██ [0;33;43m█[0;33;40m█[0m      [1;33;43m░▒[0m        [31m▐[0;1;31;41m░[0;31m▌[0m     [31m▓▌[0;1;30mae[0m
 [1;30m  [0;1;37mC[0mo[1;31mns[0;31morts[0;1;30m:[0m             [1;33;43m▓▒░░[0;33m███▀▀  ██ ░▒▓█▀▀  [0;33;43m█[0;33;40m█[0m      [1;33;43m▒▓[0m        [31m▐▓[0m     [31m░▒░[0m
-       [1;31mS[0;31mac[0;1;30mha and Wy[0;31ma[0;1;31mn[0m                                           [31m▒░[0m      [31m░[0m
+       [1;31m [0;31m  [0;1;30m         [0;31m [0;1;31m [0m                                           [31m▒░[0m      [31m░[0m
 [31m  [0;1;37mA[0mC[1;31miD [0;31mEas[0;1;30mtern Agor[0;31ma[0;1;31m.   [0;1;33;43m▓▒[0m      [1;33;43m▒▓[0m  [33m▄▄█▓▒░ [0;1;33;43m▒▓[0m [1;33;43m▓▒▒░░[0;33m██▄▄  [0;1;33;43m▓▒[0m     [31m░   [0;1;33;43m▓▒▒░░[0;33m██▄▄[0m
 [33m  [0;1;37mP[0mA[1;31mRA[0;31mDiGM [0;1;30mMagazine[0;31m.    [0;1;33;43m▒░[0m  [33m▄▄  [0;1;33;43m░▒[0m [33m██▀[0m     [1;33;43m░▒[0m [33m▄▄[0m     [33m▀██ [0;1;33;43m▒░[0m          [33m░[0m     [33m▀██[0m
 [33m  [0;1;37mC[0me[1;31mle[0;31mrity [0;1;30mBeta Sit[0;31me[0;1;31m.   [0;1;33;43m░[0;33m█  ▓▒  █[0;1;33;43m░[0m [33m██[0m      [33m█[0;1;33;43m░[0m [33m██[0m     [33m▄██ [0;1;33;43m░[0;33m█[0m         [33m░▒[0m      [33m██[0m

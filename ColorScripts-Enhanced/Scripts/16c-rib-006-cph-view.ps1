@@ -5,7 +5,7 @@
 # Source SHA-256: 67c38b07d82a5730aa71cdbaae314db8410f990e52b2c01f1c0438dabf788aa1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-VIEW.ANS by {YBERPUNCh (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: RiB ViEW
 # SAUCE Author: {YBERPUNCh
 # SAUCE Group: RiB
@@ -32,6 +32,4 @@ Write-Host '
                                            [35m▀[0m
 [1;31m  [0m                  [1;31mr a d i a t i o n b o o m g r o u p [0m
   [1;31m  [0m                                           [31m   [0m
-    [1;31m   [0m                   [1;31mp  r  e  z  e  n  t  s [0m
-
-[1;31m   [0m                     [1;31mtHe best vga \ ansi viewer [0m'
+    [1;31m   [0m                   [1;31mp  r  e  z  e  n  t  s [0m'

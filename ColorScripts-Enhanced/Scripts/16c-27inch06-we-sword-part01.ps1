@@ -5,17 +5,17 @@
 # Source SHA-256: dbf11706a880927b4eabf33d269aeb855c8178ace8794e070ba02a1473841b7c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-sword.ans by Knocturnal + Avenging Angel + Enzo + Mr Wrong (27inch06); released in 27inch06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
 
 
-                           [1;30m░ [0m [1;30mOpen your History book. ░░[0m
+                           [1;30m░ [0m [1;30m                        ░░[0m
 
-               [1;30m  [0m             [1;30m See that [0mfirst[1;30m page?[0m
-                              [1;30m    We wrote it..[0m
+               [1;30m  [0m             [1;30m          [0m     [1;30m      [0m
+                              [1;30m                 [0m
 
 
             [1;30m▄[0m [1;30m▄[0m▄▄▄▄▄▄

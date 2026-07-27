@@ -5,7 +5,7 @@
 # Source SHA-256: cae055c532bee5b6d35ecb1f8f45a227077f46522c01dfd2ff5c66c09d89eb6f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DE-ARB.ICE by Dreamevil (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 100-149
 # Columns: 1-80
 
@@ -56,7 +56,6 @@ Write-Host '
                   [34m▀▀▀▄▄▄▄▄▀▀▀[0m                              [34m▀▀▀████▀▀[0m
 
              [1;30mA[0;32m·[0;1;30mR[0;32m·[0;1;30mB[0;32m·[0;1;30mI[0;32m·[0;1;30mT[0;32m·[0;1;30mR[0;32m·[0;1;30mA[0;32m·[0;1;30mG[0;32m·[0;1;30mE  [0;32m■  [0;1;30m310.838.5960  [0;32m■  [0;1;30mViSiON-X 0.97a[0m
-[1;30m  FelonyNET  [0;32m■  [0;1;30mLancelot II Western HQ  [0;32m■  [0;1;30mNDN Site  [0;32m■  [0;1;30mUiD Site  [0;32m■  [0;1;30mNiG Site[0m
-        [1;30m16.8 Dual  [0;32m■  [0;1;30m9600+ Only  [0;32m■  [0;1;30mNUP=GRIDLOCK  [0;32m■  [0;1;30mZERO Day Wares[0m
-          [1;30mSysop[0;32m· [0;1;30mSPooZ  [0;32m■  [0;1;30mStaff[0;32m· [0;1;30mSoultaker, Delerium, Quicksilver[0m
-                      [1;30mANS[0;1;37mi[0;1;30m·  [0mdreamevil · [1m12.22.92 [0m· [1mi[0;1;36mCE[0m'
+[1;30m             [0;32m■  [0;1;30m                        [0;32m■  [0;1;30m          [0;32m■  [0;1;30m          [0;32m■  [0;1;30m        [0m
+        [1;30m           [0;32m■  [0;1;30m            [0;32m■  [0;1;30m              [0;32m■  [0;1;30m              [0m
+          [1;30m     [0;32m  [0;1;30m       [0;32m■  [0;1;30m     [0;32m  [0;1;30m                                [0m'

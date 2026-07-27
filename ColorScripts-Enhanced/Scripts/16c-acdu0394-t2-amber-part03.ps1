@@ -5,7 +5,7 @@
 # Source SHA-256: 460b45f5a59e5e9e21084fa8979ecce682eb64cc8487f49845780993eee56716
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-AMBER.ANS by Terminator2 (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Amber
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -30,7 +30,7 @@ Write-Host '
 [1;30m▐▌▐[0;1;30;47m█▓[0;1;30m▌ [0;1;30;43m██▓▓▒▒░░[0;31m▐█▌[0;1;30;43m            [0;33m▀[0;1;30m▐▌[0;1;30;43m▓▒▒░░     [0;33m▌[0;31m██[0;1;30m▐[0;1;30;43m▓▒▒░░        [0;31m▐█▌[0;30;43m [0;33m▀▀▀[0;31m▄[0;1;31m▄[0;1;33m▄[0;33m▄[0m
 [33m [0;1;30;47m▓[0m [1;30;47m▓█[0;1;30m▌▐[0;1;30;43m▓▓▒▒░░ [0;33m▌[0;31m██[0;33m▐[0;1;30;43m         [0;33m▀▀[0;1;30m▄[0;1;30;43m▓[0;1;30m▀▐[0;1;30;43m█▓▓▒▒░░    [0;31m▐█▌[0;1;30m█[0;1;30;43m▓▓▒▒░░     [0;33m▌[0;31m██[0;33m▐▄[0;31m▀▀▀[0;33m▄▄▄[0;30;43m     [0;33m▄▄[0m
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30;47m▒"PiTT" Taken Off The Cover Of PiTT Issue #3 - TradeMark Of Image Comics 1993.[0;1;47m▒[0m
+[1;30;47m▒                                                                             [0;1;47m▒[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
                       [1m▀[0m
@@ -46,21 +46,21 @@ Write-Host '
                                                           ▄
                       [1;30m▄[0m      [1;30mA[0m     [1;30mM[0m     [1;30mB    E    R[0m      [1;30m▀[0m
                             [1;30m[914] 779·1369 . 3.1 Gigs[0m     [1;30m▄[0m
-                          [1;30mSysOp · Corwin Of Amber <ACiD>[0m
-                          [1;30mToo Many Affiliations To List![0m
-                         [1;30mAlso, Too Many Networks To List! ▀[0m
-                        [1;30mCall And Find Out For Yourself...![0m
-                             [1;30mANSi · Terminator2<ACiD>[0m
+                          [1;30m                              [0m
+                          [1;30m                              [0m
+                         [1;30m                                 ▀[0m
+                        [1;30m                                  [0m
+                             [1;30m                        [0m
 
 [1;30m ▀[0m        [1;30m▄   ▀  ▄▀▄██▀▄[0;1;30;47m▓[0;1;30m█[0;1;30;47m▓▓▒▒░░  [0;1;47m░░▒▒▓▓[0;1m███[0;1;47m▓▓▒▒░░  [0;1;30;47m░░▒▒▓▓█[0;1;30m▀▄██▀▄▀  ▄   ▀[0m      [1;30m▄[0m
 
-[1;30mBeastie : Greeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeet! There...! :)[0m
-[1;30mCorwin Of Amber : Too Many Greets, Man... I''m Not Used To This...! :)[0m
-[1;30mCorwin Greet #2 : Promotion! Promotion! :)[0m
-[1;30mGlenn Danzig : Yo Dood... You Still Eleeet? :) How''d You Like Your ANSi? (:[0m
-[1;30mIcy : La La La... We Are Dead... We Are Really Really Dead... :)[0m
-[1;30mIcy Greet #2 : Buried Under Your Monitor After The Earthquake... Hmm...? :)[0m
-[1;30mRaD Man : Official ACiD Song...?  How ''Bout An Nude Pinup Of The ACiD Bunny? :)[0m
-[1;30mPerson Who Sung The RaD Man Song : You''re Ooooooooff Key <Ahem> Me Me Me... :)[0m
+[1;30m                                                                    [0m
+[1;30m                                                                     [0m
+[1;30m                                          [0m
+[1;30m                                                                           [0m
+[1;30m                                                                [0m
+[1;30m                                                                           [0m
+[1;30m                                                                               [0m
+[1;30m                                                                              [0m
 
 [1;30m ▀[0m        [1;30m▄   ▀  ▄▀▄██▀▄[0;1;30;47m▓[0;1;30m█[0;1;30;47m▓▓▒▒░░  [0;1;47m░░▒▒▓▓[0;1m███[0;1;47m▓▓▒▒░░  [0;1;30;47m░░▒▒▓▓█[0;1;30m▀▄██▀▄▀  ▄   ▀[0m      [1;30m▄[0m'

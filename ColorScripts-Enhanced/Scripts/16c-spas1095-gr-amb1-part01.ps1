@@ -5,7 +5,7 @@
 # Source SHA-256: c83655b4b4d69c33a91513aac83fd613fb60193a2a28dcd1ae6dca500f780e3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-AMB1.ANS by Gradius (spastique); released in spas1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ambrosia
 # SAUCE Author: Gradius
 # SAUCE Group: spastique
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-spastic                                                                spastique
+                                                                                
      ▄▄▄▄▄▄▄▄▄▄[1;31;47m░[0m▄   [1;31m [0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄       ▄[1;31;47m░[0m▄▄▄▄▄▄▄▄▄▄         ▄▄▄▄▄▄▄▄▄▄▄▄ [1mgr![0m
  ▄[1;31;47m░ ░░ ░ [0;1;31;40m▓[0m ▀█[1;31;47m░░▒░░▒[0;1;31;40m▄[0m [1;31m [0;1;31;47m░░ ░ ░░[0m▀[1;31m░[0m▀[1;31;47m░ ░░ ░[0m▄ [1;31m▄[0;1;31;47m▒░░▒░░[0m█▀ ▀[1;31;47m ░ ░ ░[0m▄  ▄[1;31;47m░░ ░ ░ [0m▀▓▀█[1;31;47m░░▒░░▒[0m
 ▐[1;31;47m░▒░▒░░▒[0m [1;31m▒[0m  [1;31m▓▀[0;1;31;47m▒▓▒▒▓▓[0;1;31;40m▌▐[0;1;31;47m▒▒░▒░▒[0;1;31;40m▌[0m [1;31m▒[0m  [1;31;47m▒▓▒▒▒▒[0;1;31;40m▌[0;1;31;47m▓▓▒▒▓▒[0;1;31;40m▀[0m     [1;31;47m▒░░░▒░[0;1;31;40m▌▐[0;1;31;47m▓▒▒░▒░▒[0m     [1;31m▀[0;1;31;47m▒▓▒▒▓[0;1;31;40m▌[0m

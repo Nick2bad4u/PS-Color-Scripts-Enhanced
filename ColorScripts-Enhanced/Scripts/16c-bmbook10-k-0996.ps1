@@ -5,7 +5,7 @@
 # Source SHA-256: d5721a01a1ef7734683536114b89c79f58d341942d83c4bc25c4f59803b176f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (K)0996.ANS by kyp (black maiden); released in bmbook10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mostly greets
 # SAUCE Author: kyp
 # SAUCE Group: black maiden
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[33m<[0;1;33mo[0;33m>[0;37m [0;1;33mpage sysop[0m                                 [1;30m        [0;1;33m                         [0m
+[33m [0;1;33m [0;33m [0;37m [0;1;33m          [0m                                 [1;30m        [0;1;33m                         [0m
 [33m<[0;1;33ml[0;33m>[0;37m [0;1;33mleech[0m                                      [1;30m   [0;1;33m▄▄██▀▀▀[0;1;33;43m▒[0;33m▄[0;1;33m  [0;33m▄▀[0;1;33;43m░▒▓[0;1;33;40m█▄▄           [0m
 [33m<[0;1;33mc[0;33m>[0;37m [0;1;33msome more commands..[0m                       [1;30m [0;1;33m▄███[0;1;33;43m▓▓▒░[0;33m▓▄░▌▓[0;1;33;43m░[0;33m▀ ░░[0;1;33m▀█[0;1;33;47m▓▓[0;1;33;40m▄         [0m
      [33m[[0;1;33m...[0;33m][0m                                     [1;33m▐[0;1;33;43m▓▓[0;1;33;40m▀▀▄▄▄[0m [33m░▓▓[0;37m [0;33m▀[0;37m [0;33m░▓▓▒▒░[0;1;33m▀[0;1;33;47m█[0;1;33;40m█▌        [0m
@@ -37,20 +37,4 @@ Write-Host '
 [1;30m  [0;33m▐█▓██[0;37m [0;1;31m    [0;34m░░[0;1;31m     [0;33m░▓▓[0;37m [0;1;31m    [0m  ░░       [33m▒▓▓▀[0;37m [0;1;33;47m▓▓[0;1;33;43m▓▒[0;1;33;40m▄▀[0;33m▀[0;37m▄▀▀[0;1;30m▀[0;33m░▓▓[0;1;31;43m░[0;33m▌▐[0;1;33;43m░░[0;33m▀[0;31m░▓[0;1;31m▄[0m [33myou prepare[0;30;43md[0;33;40m░[0m
 [1;30;40m [0m [33m█[0;1;33;43m░ [0;33m▓░   [0;1;31m        [0m [33m██[0;37m [0;1;31m    [0;1;30m░░▓[0m▓▓▄    [33m░▒▓▀▄[0;1;33;43m▒▓[0m [1;33;43m▓▒░▓[0;33m▌[0;37m▐▌[0;1;31m▐[0;1;31;43m▓▒[0;33m█[0;1;31;43m░▒▓▓[0m [33m█▌[0;31m▐[0;1;31;41m░▓[0;1;31;47m▓[0;1;31;40m▌[0m [33m░░for the  [0m
 [1;30m [0;33m█[0;1;33;43m░▒░[0;33m▓▒░░ ░░[0;1;31m    [0;33m░░▓▀[0;1;31m    [0m░░▓[1;30;47m░░▒▒░░[0m▓░  ▄▄▌[33m▒[0;1;33;43m▓[0;1;33;40m██▄[0;33m ░▒▓[0;1;30;47m░[0m [1;31;43m▓▓[0;33m█[0;1;31;43m░▒▓▓[0;1;31;40m██[0m [33m█▄▀[0;1;31m▀▀[0;1;33m d[0;1;37me[0;1;33mmon kn[0;1;31mi[0;1;33mghts[0m
- [33m▓▓[0;1;33;43m░[0;33m░     [0;1;31m   [0;31m░░[0;1;31m     [0;1;30m▄ ▄[0m▄█[1;30;47m░▒▓[0;1;30;40m▀░▓▀[0;1;30;47m▓▒░░[0m█[1;30;47m░░[0m█▄[33m▀[0;1;33;43m▓[0;1;33;40m█[0;1;33;47m▓▒░░▓[0;1;33;40m▄[0m▀▄[33m▀▀[0;1;31;43m▓▓[0;1;31;40m███▀[0;1;30;40m░░[0;33m░░░[0;37m    [0;33m  [0;37m [0;33m?[0;37m!  [0;1;30m kyp[0m
-
-Hey, I did mostly US-Screens this month, so there aren''t too many single
-screens this month. <g> Next pack there''ll be some more, I guess.
-
-short ansi, long greetinglist:
-4Eyes · Assign · Avenger · Bisounours · Bonewood · Buster · Cirion · Coke+Andy
-Cosmic · Crusader · D-Cool · Enno · Gunman · Jey · Kabutowari · Labadal
-Leonardo · Malice · Marine Fighter · Merciless Devil · Misfit · Mysterio
-Nail · NE1 · Novice · Piing · Poti · Radioactive Man · Raiden · Rascal
-RayTrayza · Shadow · Shaitan · Shy · Sky · Spitfire · Tex · Trate · Tricycle
-Ts · Voice
-
-group greets:
-Apathy · Back2Basix · Blood · Cia · Cop · Creeping Death · Design Religion · EGA
-Fbk.Sargahd · Fire · Fuel · Gas · Phat · Radical Rhythms · Rigamortiz · Se7en
-SHC · Teklordz · Vos · Xography · Xpress[0m'
+ [33m▓▓[0;1;33;43m░[0;33m░     [0;1;31m   [0;31m░░[0;1;31m     [0;1;30m▄ ▄[0m▄█[1;30;47m░▒▓[0;1;30;40m▀░▓▀[0;1;30;47m▓▒░░[0m█[1;30;47m░░[0m█▄[33m▀[0;1;33;43m▓[0;1;33;40m█[0;1;33;47m▓▒░░▓[0;1;33;40m▄[0m▀▄[33m▀▀[0;1;31;43m▓▓[0;1;31;40m███▀[0;1;30;40m░░[0;33m░░░[0;37m    [0;33m  [0;37m [0;33m?[0;37m!  [0;1;30m kyp[0m'

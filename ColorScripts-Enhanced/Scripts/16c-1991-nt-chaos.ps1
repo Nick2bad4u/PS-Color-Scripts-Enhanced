@@ -5,7 +5,7 @@
 # Source SHA-256: cc2890cd595c38ea5570ec49c9fcfb82445ca02bd5267359f7d81d250ad1379d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT_CHAOS.ANS by Nautilus (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -31,5 +31,4 @@ Write-Host '
  [1;31m████[0m [1;30m█[0m    [1;30m█[0m [1;31m███▌[0;1;30m█[0m [1;31m███▌[0;1;30m█[0;1;31m▐███[0m [1;30m█[0m [1;31m███▌[0;1;30m█[0;1;31m▐███[0m [1;30m█[0m  [1;30m▀░░░░░░▒▒▒▒▒▓▓▓▓███▀▄▄▄▄▄▄[0m  [1;31m███▌[0;1;30m█[0m
 [31m▐███▌[0m [1;30m▀▀▀▀▀▀[0;31m▐███[0;1;30m▐▌[0;31m▐███[0;1;30m▐▌[0;31m███▌[0;1;30m▐▌[0;31m▐███[0;1;30m▐▌[0;31m███▌[0;1;30m▐▌[0m   [1;30m▀░░░░░░▒▒▒▒▒▓▓▓▓█▀▐▌[0;31m███[0;1;30m▐██[0;31m▐███[0;1;30m▐▌[0m
 [31m███████████████▌[0;1;30m█[0m [31m███▌[0;1;30m█[0;31m▐███[0m [1;30m█[0m [31m███▌[0;1;30m█[0;31m▐███[0m [1;30m█[0m      [1;30m▀▀░░░░▒▒▒▒▒▓▀▀[0m  [1;30m█[0;31m▐█████████▌[0;1;30m█[0m
-[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀[0m                      [1;30m█▄▄▄▄▄▄▄▄▄▄▄▀[0m
-                                           [1;36mNAUT[0;36mILUS[0m [1;34m[[0mi[1mCE[0;1;30m''[0m91[1;34m][0m'
+[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀[0m                      [1;30m█▄▄▄▄▄▄▄▄▄▄▄▀[0m'

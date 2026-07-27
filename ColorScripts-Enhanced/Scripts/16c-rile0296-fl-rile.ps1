@@ -5,7 +5,7 @@
 # Source SHA-256: c7efb0eb2853c00ebf8ee04d5d00847fc536c6b0ccb4d32043129bf93b9a6ce0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-RILE.ANS by flame (rile); released in rile0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: == rile promo ==
 # SAUCE Author: flame
 # SAUCE Group: rile
@@ -33,5 +33,4 @@ Write-Host '
 [32;40m▄[0;1;32;40m▄▀▀[0;1;32;42m█[0;1;32;40m▄▄[0;32m▀▀[0;1;32;42m░░▒[0m [1;32m▀ [0;32m▀[0;1;32m▀ [0;1;30m▐█[0;1;30;47m▓[0m [1;42m▄ ▄█■▄[0;1;40m▌ [0;1;30;40m█▀ ▀ [0;1;37;42m▄██[0m [1;42m█[0;32m█[0;1;37;42m▄[0;1;37;40m█ [0;1;37;42m█▄█[0;1;37;40m▄[0;1;37;42m████▄[0m [1;30m██▄▀▌▄▄ [0;1;32m▀[0;32m▀▀ ▀[0;1;30mfl[0;1;32m▀▀[0;1;32;42m▒░[0m  [36m▓▀▀[0m
 [32m▀[0;1;32;42m░▀▀[0;1;32;40m▄▄▀[0m     [32m▀  [0;1;30m█▄▄█▄▌ [0;1;37m▀[0;1;37;42m▓█▄██[0;1;37;40m█ [0;1;30;40m██▄[0;1;30;47m▓[0m [1m▀▀  ██▀▀ [0;1;30m▄▄▄▄▄▄▄▄▄▄█[0;1;30;47m▓[0;1;30;40m█▀███▄▄██▄▄▄▄▀▄▄[0m
 [1;30m  ▄▄▄▄▄█████████▀▄▓▀██▄▄▄▄▄▄▄▄███▀████▄▄▄▄██▄███▄▄█████▄▀▓█████████████▄▄▄▄▄ ▄▄▀[0m
-[1;30m▓████████▄██████▓██████████████████████████████████▓▀██████▓████████████████████[0m
-                      [1;30m" regiment in a lasting empire "[0m'
+[1;30m▓████████▄██████▓██████████████████████████████████▓▀██████▓████████████████████[0m'

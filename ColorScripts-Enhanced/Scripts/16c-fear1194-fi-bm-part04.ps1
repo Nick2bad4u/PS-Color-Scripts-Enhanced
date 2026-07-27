@@ -5,7 +5,7 @@
 # Source SHA-256: 604265adbb63e0b05acb6b1f552360ef7d2b5b99a0b7c57cc676cbfb296b9e63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FI-BM.ANS by Future Imperfect ([FEAR]); released in fear1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Moon Rising
 # SAUCE Author: Future Imperfect
 # SAUCE Group: [FEAR]
@@ -54,9 +54,8 @@ Write-Host '
                    [1;40m▀▀█[0;1;47m▓▓[0;1;40m▀▀[0m                            [1;40m▀▀[0;1;47m▓▓[0;1;40m█▀▀[0m
 [1;40m  [0m
 [1;30m──═[0m═[[1mF[0muture [1mI[0mmperfect]═[1;30m═────────────────────────────────────────────────────────[0m
-[1;30m  My latest %100 original ansi!  Easy one, but effective.  Another font from[0m
-[1;30m  a font book...[0m
-[1;30m  Hellblazer ■ Remember, this was done for 50 lines...  [0m
-[1;30m  Azrael ■ I''m checking with Cynical Servant right now![0m
-[1;30m────────────────────────────────────────────────────────────────────═[0;31m═[[0;1;31mF[0;31mEAR]═[0;1;30m═──[0m
-                                                                      [31mCOPREZ[0m'
+[1;30m                                                                            [0m
+[1;30m                [0m
+[1;30m             ■                                          [0m
+[1;30m         ■                                             [0m
+[1;30m────────────────────────────────────────────────────────────────────═[0;31m═[[0;1;31mF[0;31mEAR]═[0;1;30m═──[0m'

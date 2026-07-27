@@ -5,7 +5,7 @@
 # Source SHA-256: 91ecf47c2c7ba6e7fc72b29fd6d58819107d71c5eacdfb4fdaf7677a230690db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EX-AMBER.ANS by Exile (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Amber
 # SAUCE Author: Exile
 # SAUCE Group: ACiD Productions
@@ -40,15 +40,15 @@ Write-Host '
 [1;30m ▓[0m                                                                       [1;30m▀██  ▓[0m
 [1;30m ▒[0m                                 [1;30m· Amber ·[0m                              [1;30m▐█▌ ▓[0m
 [1;30m ▒[0m                                                                         [1;30m██ ▒[0m
-[1;30m ▒[0m      [1;30m914.779.1369 · SysOp : Corwin Of Amber<ACiD> · 3.1 Gigs Online[0m     [1;30m██ ▒[0m
+[1;30m ▒[0m      [1;30m                                                              [0m     [1;30m██ ▒[0m
 [1;30m ▒[0m                                                                         [1;30m██ ▒[0m
-[1;30m ░[0m             [1;30mTo many Affiliations to list in this tiny space.[0m            [1;30m██ ░[0m
-[1;30m ░[0m               [1;30mTo many Networks to list In this tiny space.[0m             [1;30m▐█▌ ░[0m
+[1;30m ░[0m             [1;30m                                                [0m            [1;30m██ ░[0m
+[1;30m ░[0m               [1;30m                                            [0m             [1;30m▐█▌ ░[0m
 [1;30m ░[0m                                                                       [1;30m▄██  ░[0m
      [1;30m▄▄███████████████████████████████████████████████████████████████████▀   ░[0m
 [1;30m ░  ██▀▀[0m
 [1;30m   ▐█▌[0m                                                                    [1;30m▀   ░[0m
-[1;30m   ██[0m              [1;30mANSI Made by Exile Of ACiD Productions[0m                  [1;30m█▄[0m
+[1;30m   ██[0m              [1;30m                                      [0m                  [1;30m█▄[0m
 [1;30m   ▐█▌[0m                                                                     [1;30m▐█▌[0m
 [1;30m    ██▄[0m                                                                   [1;30m▄██[0m
      [1;30m▀████▄██▄▄█▄ ▄▄  ▄[0m                                             [1;30m▄  ▄███▀[0m'

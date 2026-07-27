@@ -5,7 +5,7 @@
 # Source SHA-256: b967b5398c38cb18c43a2c5e914e4468b7403a5a7468f30f50e3b819db466f7e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-BLSTR.ANS by burps (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Blister #3
 # SAUCE Author: burps
 # SAUCE Group: Fuel Productions
@@ -23,7 +23,7 @@ Write-Host '
 [1;33m▄[0;33m▄[0;1;33;43m░[0;1;33;40m [0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▌[0;31m█  ▐█[0;1;31;41m▀░[0;31m▌[0;1;31;41m░▀[0;31m██ ▀▐█[0;1;31;41m▀[0;31m█▌[0;1;31;41m░▀[0;31m██▐[0;1;31;41m░▀[0;31m█▌ ▐[0;1;33;41m░[0;1;31;41m▀░[0;31m▌ ▐[0;1;31;41m░▀[0;31m█▌ ▐[0;1;31;41m▀[0;31m█▀▌▐[0;1;31;41m▀░[0;31m█▄▄▓█▀▀ █[0;1;31;41m░▀[0;31m█ [0;1;31;41m░[0;31m [0;1;31;41m░[0;31m▄▄  [0;1;33m▐[0;1;33;43m░[0;33m▌[0m
 [1;33;47m▓[0;1;33;43m▀[0;33m▀▌[0;31m▐[0;1;31;41m▀[0;31m▀█▄▄█[0;1;33;41m░[0;31m▀▀ █▄█▓▄▄██▀▀ █[0;1;33;41m░[0;31m▀█ ▀▀█▓▄██▀▀ ▄ ▀▀█[0;1;33;41m░[0;31m▄█▓▀▀  ▀▀█▄▄▄  [0;1;31;41m░[0;31m █▀█▓ █▄  [0;1;33m▄▄[0;33m▄█▀ [0m
 [1;33m▐[0;1;33;43m▌[0;1;33;40m [0;31m▄█▀▀ [0;33m--─∙ [0;31m▀░[0;33m∙ [0;31m▀ [0;33m─--- [0;31m▀ [0;33m─--─-[0;31m▀ [0;33m--∙─  [0;31m▀[0;1;31;41m░[0;31m▀▀▀  ▀ [0;33m-─ [0;31m▀▀▀▀  [0;33m─-─ [0;31m▀▀ [0;33m─∙-- [0;31m▀▀▀  [0;1;33m░▀█[0;1;33;43m░[0;33m▌[0m
-[33m█▀▌ [0;1;33m▄▄ [0;1;31medito    articles    interviews    artwork    general   quit! [0;1;33m░▄[0;33m▄    [0;1;33m▐[0;1;33;43m▀[0;33m█[0m
+[33m█▀▌ [0;1;33m▄▄ [0;1;31m                                                              [0;1;33m░▄[0;33m▄    [0;1;33m▐[0;1;33;43m▀[0;33m█[0m
 [1;33;43m▄[0;33m█▀█[0;1;33m▀[0;1;33;43m░[0;33m▌ ─-─--─∙-─-─-∙-∙──-─-─---∙-─-─-─--──---──--∙-∙─--──-─---∙─--─ [0;1;33m▐[0;1;33;43m▌[0;33m▌    [0;1;33;47m▓[0;1;33;43m▌[0;33m▌[0m
 [1;33;43m▌[0;33m▌[0;1;33m▐[0;1;33;43m▄[0;33m█▀               :                                             ▀▀[0;1;33;43m░[0;1;33;40m▀[0;1;33;43m░[0;33m▄[0;1;33m▄[0;33m▄[0;1;33;43m▀░[0;33m▀ [0m
 [1;33;43m░[0;1;37;40m [0;1;33;43m▓▌[0;33m▌  [0;1;31meditor''s note [0;33m│                                                 [0;1;33;43m▄▌[0;33m▌▐▄█ [0;1;33;43m▓[0m
@@ -42,8 +42,8 @@ Write-Host '
 [1;35m                                                        [0;1;33m▀▀▌   [0;33m▀  ▄  ▀▀▀▀[0;1;33m░  [0;33m▀▀[0;1;33;43m░[0;1;33;40m▌[0m
 [1;35m                                                                               [0m
 -------------------------------------------------------------------------------
-[1;35m [0mblister died a long time ago. i made this screen for blister 3 wich was
-[1;35m [0mreleased partially. but i myself really like it and i now at last, i''m
-[1;35m [0mreleasing it damnit <g> i can''t see it rotting somewhere on my hd :)
-[1;35m [0mgreets go to thrasher, necro and everyone else who made blister alive
+[1;35m [0m                                                                       
+[1;35m [0m                                                                      
+[1;35m [0m                                                                    
+[1;35m [0m                                                                     
 -------------------------------------------------------------------------------[0m'

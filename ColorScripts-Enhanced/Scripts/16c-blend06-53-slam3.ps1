@@ -5,7 +5,7 @@
 # Source SHA-256: 310bccf6a5b7e4bd8db018e8b7012896697af94ef3d6c116fcfe399029ffb476
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 53-SLAM3.ANS by sENILE (bLEND); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: slam city shit
 # SAUCE Author: sENILE
 # SAUCE Group: bLEND
@@ -38,11 +38,6 @@ Write-Host '
 
 -<SNIPSNIP>---------------------------------------------------------------------
 
-hi dkl!@# i tried to do a "pic", and you see for yourself.. eww!@# =) well,
-anyways, i need an objective opinion, whaddya think?! =) beeeeee honeeeeest!
-:> well the logo is ok for a header or so i guess?       [30;47m ▌[0;37;40m [0;30;47m seni1e [0;37;40m►░[0m
-
-[37;40m"look at me, i''m hilarious.[0m
-[37;40m at least to one of us..."[0m
-[37;40m [0m
-[37;40m        [0m   [37;40m-gameface[0m'
+                                                                           
+                                                                            
+                                                         [30;47m ▌[0;37;40m [0;30;47m        [0;37;40m►░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9b4f188dcab70f7f7eeab43633910c296139e4abe034a2960238ba6c0fe18e33
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PRSNALMA.ANS by President + Snowball (ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: allura main menu
 # SAUCE Author: president & snowball
 # SAUCE Group: ecolove
@@ -31,7 +31,4 @@ Write-Host '
 [37m▐[0;1;37;47m ▀[0m█[1;30;47m▐[0m [1;35;45m ░[0;35m▄▄[0;37m  [0;1;37m [0m▀▀▀[1;47m▀[0;1;40m█▄▄▄▄▄███[0;1;47m▀[0;1;40m▀[0m▀ [35m▄▄[0;37m [0;1;30m▄[0m▄█[1;47m▀■[0m█▄  [1;35;45m░▀█[0;1;35;47m█[0;1;35;45m█[0;1;35;47m█[0;1;35;45m▓▄[0;35m▄ [0;34m▀▀[0;1;34;44m▀▓▒░░[0;34m▄▄[0;1;34;44m░▒▒[0;34m▌[0;35m▐[0;1;35;45m░[0;34m █[0;1;34;44m▓▒░[0;34m▌[0;35m▐[0;1;35;45m▌[0;34m █[0;1;34;44m▀[0;34m█▌[0m
 [37m ▀[0;1;30;47m▄[0m█[1;30m▌[0;35m▐[0;1;35;45m▄██▄[0;35m██▄▄▄▄  [0;1;30mpr+s[0;1;30;45mn[0;1;37;40m  [0m [35m▄▄[0;1;35;45m▄[0;1;35;40m▀▀[0;1;35;45m░[0;35m▄▄[0;1;37m  [0m▀[1;30m▀[0m    [35m ▀▀█[0;1;35;45m▀▀▀██▄▄[0;35m▄▄[0;34m ▀▀████▀▀[0;37m [0;1;35;45m▐[0;35m▌[0;34m▐[0;1;34;44m▀▀░[0;34m▀▀[0;37m [0;1;35;45m▌[0;35m  ▄▄▄[0m
 [35m  [0;37m  [0;35m▄[0;1;35;45m ▀▀░[0;35m▀▀[0m                                      [35m▀▀▀▀▀▀▀█▄▄▄▄▄▄█▀▀   ▄▄▄[0;1;35;45m▄█▀▀▓[0;1;35;40m▀[0;35m▀ [0m
-[37m [0;35m▀▀▀▀▀[0m         [1;30m    [0m                                                    [35m▀▀[0m
-            [1;30m    [0m     [1;30mmain menu for delusion''s board allura..[0m
-            [1;30m    [0m [1;30m  [0m  [1;30min the meantime dls has also joined ecolove[0m
-                     [1;30mwelcome dude..[0m'
+[37m [0;35m▀▀▀▀▀[0m         [1;30m    [0m                                                    [35m▀▀[0m'

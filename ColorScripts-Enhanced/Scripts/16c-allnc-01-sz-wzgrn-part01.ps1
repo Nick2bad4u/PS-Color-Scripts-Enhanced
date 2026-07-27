@@ -5,7 +5,7 @@
 # Source SHA-256: 2fde800ac0b8bc49201c6b3c797cdab5939227ed64c240992597af155b3d34d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-WZGRN.ANS by Schizo (allnc-01); released in allnc-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -22,8 +22,8 @@ Write-Host '
 [1;30;40m│  ▄[0;1;30;47m█▀██▀█▄██▀█▄█▀▄█▀▄▀[0;1;30;40m▄   ▄[0;1;30;47m ▀▀▄▄▀[0;1;30;40m█[0;1;30;47m▄▀[0;1;30;40m██[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m█▄  │ also go out to LV and AB.  │[0m
 [1;30;40m│ ▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀[0m▀▀▀[1;30m▀[0m▀[1;30m▀▀▀ ▀▀▀[0m▀[1;30m▀[0m▀▀[1;30m▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀▀▀▀[0m▀[1;30m▀▀▀▀▀ │ Good luck guys in the new  │[0m
 [1;30m├─────────────────────────────────────────────────┤ groups.  Hey, I don''t[0m      [1;30m│[0m
-[1;30m│ Ansi created by Schizophreniac of Sonic 1994... │ blame you guys for wanting │[0m
-[1;30m│ Call the Sonic Head Quarters - The Soul Asylum  │ to leave 619...  Later...  │[0m
+[1;30m│                                                 │                            │[0m
+[1;30m│                                                 │                            │[0m
 [1;30m└─────────────────────────────────────────────────┴────────────────────────────┘[0m
 [1;30m  ─────── ─  ────────  ─ ── ──── ─ ── ───  ─ ─── ─── ──── ─── ─── ──────  ─  ───[0m
       [1;30m─[0m      [1;30m─ ────   ─ ──── ──  ─  ─    ────[0m     [1;30m── ─  ─ ─ ─    ── ───[0m      [1;30m──[0m

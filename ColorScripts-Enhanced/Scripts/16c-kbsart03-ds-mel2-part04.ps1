@@ -5,7 +5,7 @@
 # Source SHA-256: da558b2bfa22813da3fcdf95454b67f3066de91177f3ccb1dff73f201f0b2481
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-MEL2.ANS by Dyingsoul (kbsart03); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19990907
 # SAUCE Dimensions: 80x193
 # Lines: 146-193
@@ -23,17 +23,17 @@ Write-Host '
 [1;30m ▐[0;1;30;47m▀▓▓[0;1;30;40m▌[0;36m [0;1;30m▀[0;36m   [0;1;30m▐▀██▌[0;36m   [0;37m   [0;1;30m▐[0m    [35m▄[0;1;35;45m▄░[0;35m▄[0;37m                [0;1;30m▄▀[0;1;30;47m░[0;1;37;40m▓[0;1;30;47m░░[0m▓[1;30;47m░▓▓▓▓[0;1;30;40m▀[0m    [1;30m▀▄[0m        [1;30m▄███  [0m
   [1;30m▀▀▀▀▀▀▀▀ ▐[0m  [1;30m█▌ ▀▀▀▀▀▐ ▀▀[0;35m▄[0;36m [0;35m▀▀[0;37m [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀ [0m [1;30m▀[0m  [1;30m▐[0m▒[1;30;47m▓▓▓▓▓[0;1;30;40m▀▀█▄ ▀    [0m  [1;30m▀  ▀▀▀▀▀▀▀▀  [0m
 [30mRevealation[0;1;30m▐[0m  [1;30m█▀[0m [1;30m▄[0m    [1;30m▐[0m  [35m▀[0;1;35;45m▀[0;35m▀[0;37m Mellow [0;1;30m      [0m      [1;30m▐[0;1;30;47m▓[0;1;30;40m█▀█▄▀▀[0m [30mscream[0;34m [0;30mfor[0;34m [0;30mme,[0;34m [0;30mdie[0;34m [0;30mfor[0;1;30m [0m
-[30mof[0;34m [0;30mthe[0;37m     [0;1;30m▐[0m  [1;30m▐[0m [1;30m▄[0m [1;30m ▀▄[0m [1;30m▐[0;36m [0;35m▀[0;37m    [0;1;30m+o [0mZatchmo[1;30m([0mPLF[1;30m)[0m    [1;30m▐▌▀▀[0m [1;30m  [0m  [30mme.[0;34m [0;30mI[0;34m [0;30mam[0;34m [0;30myour[0;34m [0;30mgod.[0;37m [0;1;30m  [0;36m [0;1;30m [0m
+[30m  [0;34m [0;30m   [0;37m     [0;1;30m▐[0m  [1;30m▐[0m [1;30m▄[0m [1;30m ▀▄[0m [1;30m▐[0;36m [0;35m▀[0;37m    [0;1;30m   [0m       [1;30m [0m   [1;30m [0m    [1;30m▐▌▀▀[0m [1;30m  [0m  [30m   [0;34m [0;30m [0;34m [0;30m  [0;34m [0;30m    [0;34m [0;30m    [0;37m [0;1;30m  [0;36m [0;1;30m [0m
 [30mWorld[0;1;30m [0;30mWide[0;37m [0;1;30m▀[0m  [1;30m▐▐▌[0m   [1;30m▐▌▐[0m         [1;30m  [0m       [1;30m   [0m   [1;30m▄▀▌[0m    [1;30m [0m                     [1;30m  [0m
 [30mWar[0;1;30m           ▐██▄▄▄▀▀▀▄                   [0m  [1;30m▀[0m   [1;30m▀▄[0m                      [1;30m     [0m
   [1;30m            [0;1;30;47m▓[0;1;37;40m▓[0;1;30;47m▀[0;1;30;40m▄█▄▄  ▐▌                           ▀                         [0m
   [1;30m      [0m [1;30m   [0m  [1;30m▐███▀▀ [0m  [1;30m▀ [0m  [1;30m [0m   [1;30m    [0m  [1;30m   [0m                            [1;30m     [0m
- [1;30m         [0m    [1;30m▐█▀▌[0m     [1;30m  [0m  [1;30m      [0m     Picture[1;30m and [0mlogo[1;30m by[0m Dyingsoul[1;30m ([0mKIBOSH[1;30m)[0m
-[1;30m          [0m    [1;30m▐▌[0m [1;30m▌[0m   [1;30m   [0m   [1;30m   [0mHeader[1;30m by [0mDyingsoul[1;30m([0mKIBOSH[1;30m) and [0mSpearfx[1;30m([0mFOKUS[1;30m)[0m
+ [1;30m         [0m    [1;30m▐█▀▌[0m     [1;30m  [0m  [1;30m      [0m            [1;30m     [0m    [1;30m   [0m          [1;30m  [0m      [1;30m [0m
+[1;30m          [0m    [1;30m▐▌[0m [1;30m▌[0m   [1;30m   [0m   [1;30m   [0m      [1;30m    [0m         [1;30m [0m      [1;30m      [0m       [1;30m [0m     [1;30m [0m
               [1;30m▐[0m  [1;30m▀[0m        [1;30m   [0m [1;30m   [0m  [1;30m  [0m  [1;30m [0m [1;30m [0m
               [1;30m▀[0m                  [1;30m       [0m
 
-[1;30m.x(ansibyDyingsoul)x..........x(end of[0;34m [0;1;30mansi[0;34m [0;1;30mat[0;34m [0;1;30m167[0;34m [0;1;30mlines)x.....x(Kibosh)x.......[0m
+[1;30m                                      [0;34m [0;1;30m    [0;34m [0;1;30m  [0;34m [0;1;30m   [0;34m [0;1;30m                             [0m
 [1;35;45m░░[0;35m█▌[0;37m [0;1;30m▄▌[0;35m▐██▀[0;37m [0;1;30m▄▀[0m    [1;30m▀▀▄▄[0m [1;30m▄[0;1;30;47m▓░[0;1;37;47m░░[0m███▀▀▄    [35m▀▀██▄▀[0;1;30;45m░░▓▓[0;1;30;40m▌[0m [1;30m [0m
 [35m▀[0;37m [0;35m▄█[0;37m [0;1;30m█▄[0;35m▀▓▌ [0;1;30m▐▌[0m  [1;30m▄▀[0m [33m [0;37m [0;1;30m▄[0m▄[1;30m▀▀[0;1;30;47m▒░[0m██▀▀▄▄ ▐▌▄ [35m▄[0;1;30m▀▄[0m [35m██▌▐[0;1;30;45m▓▓[0;1;30;40m▀[0m
 [35m▄[0;1;35;45m▒░[0;35m▌[0;33m [0;1;30m█▓▌[0;35m▐  [0;37m [0;1;30;47m▓[0m [1;30m▐▌[0m [1;30m░▀▀[0;1;30;47m▒░[0;1;37;47m░[0m█[1;30;47m░[0m▌▀▄[1;30;47m▀[0m██[1;30;47m░▒[0;1;30;40m▄[0m▀█▌[35m▐▌[0;1;30m▐▌[0;35m▐█▄[0;1;30;45m▄[0;1;30;40m▀[0m [1;31m         [0m
@@ -57,6 +57,4 @@ Write-Host '
               [1;30m▀[0;1;30;47m▓[0;1;30;40m▄[0m ▀▀[1;30;47m░[0m▀[1;47m░▒▒[0;1;30;47m░░▒[0;1;30;40m▀▀[0m▄▐▌
              [1;30m░[0m  [1;30;47m▒▒░[0m▄▄[1;47m░[0m▄ ▄  ▄▄▀[1;30;47m░[0m▀
 [1;31m                [0m ▀[1;30;47m░[0m█▌▐[1m▓[0m▀▄[1;47m░[0m█▄▄[1;30;47m▀[0m▌[33m                          [0m
-                   [1;30m▀[0m▀[1;30m▄[0m██▀▀[1;47m░[0m█[1;30;47m▄[0;1;30;40m▀[0m
-
-[1;30m.x(ansibyDyingsoul)x..........x(end of[0;34m [0;1;30mfile[0;34m [0;1;30mat[0;34m [0;1;30m193[0;34m [0;1;30mlines)x.....x(Kibosh)x.......[0m'
+                   [1;30m▀[0m▀[1;30m▄[0m██▀▀[1;47m░[0m█[1;30;47m▄[0;1;30;40m▀[0m'

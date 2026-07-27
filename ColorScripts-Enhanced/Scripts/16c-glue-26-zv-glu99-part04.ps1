@@ -5,7 +5,7 @@
 # Source SHA-256: 7edb0f392f703e26993f57d169519bcb6023b2e4a8b3830a0fba206e4fcbd4af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZV-GLU99.ANS by zeroVision (GLUE); released in glue-26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: a tribute
 # SAUCE Author: zeroVision
 # SAUCE Group: GLUE
@@ -43,22 +43,8 @@ Write-Host '
 [30mwith you. I consider you a true friend.[0;37m        [0;33m▀[0;37m [0;1;31m█▓[0;1;31;43m▓▒[0;33m█▄[0;1;31;43m░▒▓[0;1;31;40m██[0;1;31;47m▓▓[0;1;31;40m▀▀[0m           [31m▒▓[0;37m   [0m
 [30mScrye - an amazing artist and a good friend.  [0;37m   [0;1;31m▐▒▓▀[0m     [1;31m▀▀ [0m [1;31m ▄▄[0;1;31;43m▓▒[0;33m▄▄[0;1;31m   [0m   [31m░  [0;37m  [0m
 [30mCreator - You are still THE man.[0;1;30m [0m                 [1;31m░[0m  [33m▄[0;1;31;43m▀[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;43m▓▓[0;1;31;40m▄▄[0;1;31;47m▓▓[0;1;31;43m▓▓░░[0;33m▀▀[0;1;31m     [0m  [31m [0;37m  [0m
-[30mWhitey - you and i were there from the very[0;37m            [0;33m▀▀▀[0;37m       [0;1;31m▀[0;33m▀[0;1;31m [0m       [31m░[0;37m  [0;30m▄[0;37m [0m
-[30mbeginning.[0;1;30m [0;30myou are still my best friend in the scene. [0;37m               [0;30m▀▄▄[0;37m   [0;30m▄▀▀[0;37m  [0m
-[30mCrimson Skye - You continue to amaze me.[0;1;30m [0m            [1mZ[0mero[1mV[0mision[1m[[0mGlue[1m][0m [30m▐█▌[0;37m [0;30m▐▌[0;37m    [0m
-[30mSkaboy - simply fucking awesome. yur empathy owns [0;37m   zerovision@netzero.net     [0m
-[30mrippa & cronik - you two are mad tite, T-I-T-E[0;37m                     [0;30m▄▄▀▀[0;37m         [0m
-[30mthe Almighty Filth - did you ever know that you''re my[0;1;30m [0;30mHEEeeRoW?[0;37m                 [0m
-[30mMinister(of Light) - It was awesome drawing with you in 3(4) groups? thank you.[0;37m [0m
-[30mDyingsoul(sombrlain) - thank you for everything my friend. [0;37m                     [0m
-[30mzeusII - Shiznigglyiznit man, you''re fucking `A''[0;37m                                [0m
-[30mCyberPhreakphreakphreakphreak - Thank you for everything. [0;37m                      [0m
-[30mEnz0 - I''m speechless. words can''t describe how cool you are. [0;37m                  [0m
-[30mcronix, rzicus, whitetrash, d1ssonance, proctologist, rage, tee-are, coolguy, [0;37m  [0m
-[30mlord scarlet, kitiara, sephiroth, bluedevil, taintedx, bigyellowman, cat-dog, [0;37m  [0m
-[30mprosthesis, quip, ataxia, mafesto. [0;37m                                             [0m
-[30m(ol'' skool greetz:)Ded bob, red dragon, [0;37m                                        [0m
-[30mproximity, bobalis fettasia, thwart, disillusion, [0;37m                              [0m
-[30mepistasis. [0;37m                                                                     [0m
-[30mshit i''m missing people. very sorry. you know who you are.      [0;37m                [0m
-[37m                                                                                [0m'
+[30m                                           [0;37m            [0;33m▀▀▀[0;37m       [0;1;31m▀[0;33m▀[0;1;31m [0m       [31m░[0;37m  [0;30m▄[0;37m [0m
+[30m          [0;1;30m [0;30m                                           [0;37m               [0;30m▀▄▄[0;37m   [0;30m▄▀▀[0;37m  [0m
+[30m                                        [0;1;30m [0m            [1m [0m   [1m [0m     [1m [0m    [1m [0m [30m▐█▌[0;37m [0;30m▐▌[0;37m    [0m
+[30m                                                  [0;37m                              [0m
+[30m                                              [0;37m                     [0;30m▄▄▀▀[0;37m         [0m'

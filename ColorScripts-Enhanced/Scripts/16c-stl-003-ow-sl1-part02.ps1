@@ -5,7 +5,7 @@
 # Source SHA-256: 020f09b79c2de26d04c59ec8bdf9bf8f9104f5eb118714ce38be0eec1876e20e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OW-SL1.ANS by oWyn (STILE); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: shadowlands
 # SAUCE Author: oWyn
 # SAUCE Group: STILE
@@ -37,9 +37,9 @@ Write-Host '
         [1;34;44m▓[0;1;30;40m▐[0;47m       [0;40m▓[0;1;30;47m▀▀[0m███[47m   [0;40m█[0;1;30;47m▄▄▄▀▀[0m█[1;30m▌[0;1;34;44m▓[0;1;34;40m▄▄▄▄[0;1;30;40m▀▀[0m▀[1;30;47m▄           [0;1;30;40m▌[0;1;34;44m▓▓[0;1;34;40m▄▄[0;1;30;40m▀▀▀▀[0;1;34;40m▄▄▄[0;1;34;44m▓[0m
 [1m    [0;1;34m▄▄▄▄[0;1;34;44m▓[0;1;34;40m▄[0;1;30;40m▀▀[0;1;30;47m▄▄▄▄[0;34m [0;1;30m▀▀▀▀▀▀▀▀▀▀ ▀[0;1;30;47m▄▄▄[0;1;30;40m▀     [0;1;34;40m▀▀▀  [0;1;30;40m▀▀▀[0;1;30;47m▄▄▄▄▄▄[0;1;30;40m▀▀    [0;1;34;40m▀▀▀▀▀▀▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;34m  ▄▀▀[0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31;45m+46-31-    [0;35m▄▄▄▄▄▄▄▄▄▄[0;1;33;45m▒░[0;35m▄▄▄▄▄▄▄▄▄▄▄[0;1;31;45m+46-31-    [0;35m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;34m▀▀▄[0m
-[1;34m  [0;1;34;44m▓[0m [33;45m  [0;1;33;45m░     ▒░[0;1;32;45m [0;1;37;45msystem spankers: manhunter, lancelot and heinreich        [0;1;33;45m▒░ [0m [1;34;44m▓[0m
-[1m  [0;1;34;44m▓[0m [33;45m  [0;1;33;45m░▒     [0;1;32;45m [0;1;37;45mx-force shq [0;1;31;45m■ [0;1;37;45mmalice memberboard [0;1;31;45m■ [0;1;37;45msect memberboard         [0;1;33;45m░ [0m [1;34;44m▓[0m
-[1m  [0;1;34;44m▓[0m [33;45m   [0;1;33;45m▒        [0;1;32;45m [0;1;37;45mdata shq [0;1;31;45m■[0;1;33;45m░[0;1;37;45mvicious leaders hq [0;1;31;45m■ [0;1;37;45mfluid distsite [0;1;33;45m░▒   ansi:  [0m [1;34;44m▓[0m
-[1m  [0;1;34m█ [0;1;37;45m                       [0;1;33;45m░ [0;1;37;45mrazor 1911 memberboard              [0;1;33;45m▒[0;1;37;45moWyn[0;1;35;45m/stl  [0;1;37;40m [0;1;34;40m█[0m
+[1;34m  [0;1;34;44m▓[0m [33;45m  [0;1;33;45m░     ▒░[0;1;32;45m [0;1;37;45m                                                          [0;1;33;45m▒░ [0m [1;34;44m▓[0m
+[1m  [0;1;34;44m▓[0m [33;45m  [0;1;33;45m░▒     [0;1;32;45m [0;1;37;45m            [0;1;31;45m■ [0;1;37;45m                   [0;1;31;45m■ [0;1;37;45m                         [0;1;33;45m░ [0m [1;34;44m▓[0m
+[1m  [0;1;34;44m▓[0m [33;45m   [0;1;33;45m▒        [0;1;32;45m [0;1;37;45m         [0;1;31;45m■[0;1;33;45m░[0;1;37;45m                   [0;1;31;45m■ [0;1;37;45m               [0;1;33;45m░▒          [0m [1;34;44m▓[0m
+[1m  [0;1;34m█ [0;1;37;45m                       [0;1;33;45m░ [0;1;37;45m                                    [0;1;33;45m▒[0;1;37;45m    [0;1;35;45m      [0;1;37;40m [0;1;34;40m█[0m
 [1;34m  ▀▄ [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;33;45m░[0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;34m▄▀[0m
 [1;34m    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

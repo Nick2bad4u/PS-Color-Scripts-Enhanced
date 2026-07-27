@@ -5,12 +5,12 @@
 # Source SHA-256: df2f20a7b1778dd95e6fd82f3298d9e4f66069c60b8d87a9b56c7dd069027863
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RMX-CASP.ICE by Apox + The Malevolent Trickster (ice9708a); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
- [1;30m█[0;1;30;47m▀[0;1;30;40m▄[0m         [1m▄[0m              [1;30m.[0m [1;30m..[0ma [1mspecial[0m 5th anniversary [1mremix ansi[0;1;30m.. .[0m
+ [1;30m█[0;1;30;47m▀[0;1;30;40m▄[0m         [1m▄[0m              [1;30m [0m [1;30m  [0m  [1m       [0m                 [1m          [0;1;30m    [0m
  [1;30m▀▀[0m  [1m▄▄▐[0;1;47m▓[0;1;33;40m██▄[0;1;37;40m▄███▌[0;1;33;40m▄[0;1;37;40m▄[0m
    [1m█▓[0;1;47m▓▓▒░[0;1;40m▓[0m [1;30m▄[0m [1;47m▓██▓[0;1;33;40m▓[0;1;37;40m▀[0;1;37;47m▓░░[0m▄▄     [1;30m. ..[0mof [1mtmt-casp.ice[0m from the 1st icepack[1;30m.. .[0m
    [1;47m░▓░[0m▐[1;47m░[0;46m▓[0;40m▓ [0;1;30;40m▓[0m [1;47m░▓[0m [1;47m▒░[0;30;47m█[0;37;40m [0;33;40m [0;37;40m▀[0;1;37;47m [0;46m▓[0;40m█▄ [0m
@@ -27,7 +27,7 @@ Write-Host '
        [37m░[0m     [1;30m▄▄█[0;1;30;47m█[0;1;30;40m█▓░[0m [30;44m▄[0;36;44m░[0;30;44m [0;36;44m░[0;30;44m▌ [0;36;44m░[0;30;44m ▀▀▀[0;30;47m█[0;30;44m▄▄▄▄▄[0;37;40m ░░[0;1;30;40m▌▀▀░░[0m  [1;30m  ▀▐[0;1;30;47m▓[0;1;30;40m▀  [0m [34m [0;1;30m▬[0m [30;47m█[0;30;44m▀[0;36;44m▒[0;34;46m░[0;36;44m▓▒[0;30;44m▄[0;30;47m█[0;37;40m [0;36;44m▒[0;34;46m░[0;36;44m▓[0;30;44m [0;30;47m█[0m
              [1;30;40m▀▀▀▀▀▀▓[0m  [30;44m   ▀[0m                          [1;30;40m  [0m  [1;30m▄▀[0m [30;44m▀[0;36;44m░[0;34;46m▓[0;36;44m▒░[0;30;44m▄[0;30;47m█[0;1;30;40m▄[0m▄  [36;44m░[0;34;46m▒[0;36;44m░[0;30;44m [0;30;47m█[0m
                                                       [1;30;40m ■[0m    [30;44m▄▄[0;34;40m░[0m    [1;30;40m▀[0m  [30;44m▄▄▄▄[0;30;47m█[0;37;40m  [0m
-                   [37;40mtaste us again for the first time..[0m
+                   [37;40m                                   [0m
 
                                                         [37;40m▄[0;1;37;40m▄[0m
   [1;30m    [0m              [1;30m [0m                                    [1;47m▐[0m
@@ -46,10 +46,9 @@ Write-Host '
  [34;46m▒[0;36;40m▒[0;34;46m▓[0;36;44m░[0;34;40m████████████████████████████ [0;1;30;40m▐▀[0m [34m▄█▀[0;37m [0;1;30m▄■░[0m [34m▀[0m    [34m░▓▓░[0;37m [0;34m▀███[0;37;44m   [0;34;40m████████████[0;1;34;44m░░▒▒▓▓[0m
  [34;46m░[0;36;40m▓[0;34;46m▒[0;36;44m▒[0;34;46m▓[0;36;44m░[0;34;40m██[0;36;44m░░[0;34;40m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37;40m      [0;1;30;40m▀[0m     [1;30m█▌[0m         [34m░░ [0;1;30m▀[0m [34m▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;34;44m░░[0;34m█[0;1;34;44m░░▒▒[0;1;34;40m▓[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m█[0m
  [36m░░[0m                          [37m [0m           [1;30m▀■▄[0m    [1;30m▄[0m
-       [1mAN[0mS[1;30mi[0;1;37m:[0m                                        [1;30m                [0m
+       [1m  [0m [1;30m [0;1;37m [0m                                        [1;30m                [0m
  [34m  [0;1;37mThe Malevolent[0m                         [1;30m▄[0m   [1;30;47m▓[0;1;30;40m▀■[0m [1;30m▓▀▄[0m [1;30m▓■▀[0m [1;30m▀[0m [1;30m█[0m [1;30m▄▀█[0m [1;30m▄[0m [1;30m█[0m [1;30m█▀[0m  [1;30m [0m [1;30m▄[0m
  [34m    [0;1;37mTrickster[0m                           [1;30m▀▓▀[0m  [1;30m█▀▀[0m [1;30m█▀[0m  [1;30m█[0m   [1;30m█[0m [1;30m█[0m [1;30m█ █[0m [1;30m█ █[0m  [1;30m▀▄[0m [1;30m ▀▓▀[0m
  [1m  [0m     ///       [1;30m [0m                           [1;30m▀[0m   [1;30m▀▀▀[0m [1;30m▀[0m   [1;30m▀[0m [1;30m▀ ▀▀▀[0m [1;30m▀▀▀[0m [1;30m▀▀▀[0m
- [1m  [0m    [1mApox[0m      [1;30m [0m
-   [1m  [0;1;30m[[0;1;37mi[0;1;36mC[0;1;34mE[0;1;30m]([0mtm[1;30m)   [0m
-   [1;30mAd[0mve[1mrtism[0men[1;30mts [0m'
+ [1m  [0m    [1m    [0m      [1;30m [0m
+   [1m  [0;1;30m[[0;1;37mi[0;1;36mC[0;1;34mE[0;1;30m]([0mtm[1;30m)   [0m'

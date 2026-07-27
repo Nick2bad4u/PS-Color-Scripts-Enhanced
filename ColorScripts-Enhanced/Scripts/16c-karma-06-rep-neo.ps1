@@ -5,7 +5,7 @@
 # Source SHA-256: 82564d240a791a7dcd222ef3ec9baf5b46e743e0dd7dabe9ec3651f00fe4eb03
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REP-NEO.ANS by Reptical (karma-06); released in karma-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -33,7 +33,4 @@ Write-Host '
                                          [1;31m  [0m                         [31m`[0m
    [37m [0m
 
-[33m-[0;32m-[0;1;32m┤[0;33m:[0;37m  N E O [0;1;30mS P O R I N [0m,
-
-      For deadsoul, done as a trade.
-      - reptical [karma][0m'
+[33m-[0;32m-[0;1;32m┤[0;33m:[0;37m  N E O [0;1;30mS P O R I N [0m,[0m'

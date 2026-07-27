@@ -5,7 +5,7 @@
 # Source SHA-256: 982bf3e5233a09797468dcac9efd4935540298ecc4f45b3b194b505416b22b3c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RI-OI.ICE by Riothamus (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 37-69
 # Columns: 1-80
 
@@ -41,5 +41,4 @@ Write-Host '
 
                                [34m░░░░▓▓[0;1;36;44m▒[0;1;36;40m▓▓▓[0;1;36;44m▒[0;34m▓▓░░░░[0m
                             [34m░░░░░░░░▓▓[0;1;36;44m░░░[0;34m▓▓░░░░░░░░[0m
-                               [34m░░░[0m           [34m░░░[0m
-'
+                               [34m░░░[0m           [34m░░░[0m'

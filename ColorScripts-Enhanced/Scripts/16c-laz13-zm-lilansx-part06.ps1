@@ -5,7 +5,7 @@
 # Source SHA-256: e9ae98b51b421a1c7a40bc1534746b3fae7bf9fda665e8bda03a46cc95a8986b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZM_LilAnsX.ans by Zeromous (LAZARUS); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lil Ans X
 # SAUCE Author: Zeromous
 # SAUCE Group: LAZARUS
@@ -26,13 +26,13 @@ Write-Host '
 [31m▀▄▄▀▄▀▄▀[0;37m   [0;31m▀▄▀[0;37m [0;31m█[0;37m [0;31m▄▀▀█▄[0;37m [0;31m▀▄▀[0;37m         [0;31m▄[0;31;47m▄[0;1;37;40m█[0;1;37;47m▀▄▀[0m▀ [31m▀[0;37m   [0;31m▀▀▀▄▄▄[0;37m [0;31m█▀[0;37m [0;31m▄▄[0;37m    [0;31m█[0;37m  [0;31m▀▄[0;37m   [0;1;31m█[0;31m█████[0;37m [0;31m█[0m
 [37m [0;31m▄▄▀▄▀[0;37m      [0;31m▄█▀▄[0;37m [0;31m▄[0;37m [0;31m▀[0;37m [0;31m█▄[0;37m     [0;31m█▄▄[0;37m      [0;31m▀[0;37m      [0;31m▀[0;37m      [0;31m▄[0;37m   [0;31m▀▄[0;37m   [0;31m▄[0;37m  [0;31m▀█▄[0;37m [0;31m█[0;37m    [0;1;31m█[0;31m███▀▄█▄[0m
 [31m▀▄▀▀[0;37m                                                                     [0;31m▀███▄▄[0m
-[31m▀[0;37m         ■ forgive me father for i have joined the church of satansi ■   [0;31m▀▄▀███[0m
+[31m▀[0;37m         ■                                                           ■   [0;31m▀▄▀███[0m
 [37m                                                                            [0;31m▀▄▄▀[0m
-[37m              zeromous ■ 613 funktion ■ #iNd13d ■ manager of warpus            [0;31m▀[0m
+[37m                       ■              ■         ■                              [0;31m▀[0m
 
-[37m                   [0;1;36me[0;1;37mv[0mery [1;36mb[0;1;37ml[0mock [1;36ml[0;1;37ma[0mid [1;36mb[0;1;37my[0m [1;36mh[0;1;37ma[0mnd [1;36m1[0;1;37m0[0m0% [1;36mo[0;1;37mr[0mignal [1;36mi[0;1;37mm[0mage
+[37m                   [0;1;36m [0;1;37m [0m    [1;36m [0;1;37m [0m    [1;36m [0;1;37m [0m   [1;36m [0;1;37m [0m [1;36m [0;1;37m [0m   [1;36m [0;1;37m [0m   [1;36m [0;1;37m [0m      [1;36m [0;1;37m [0m   
 
-                     sysop errorlevel 255 ■ 613 scene museum
+                                          ■                 
 
                            [33m23.233.24.232:2023 ■ telnet[0m
 

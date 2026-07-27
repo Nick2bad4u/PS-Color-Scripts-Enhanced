@@ -5,7 +5,7 @@
 # Source SHA-256: 1695469e45e3a70f6f87e01fef3259814325f42be6bc5c66459ac147236d3d86
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-HG01.ANS by Mr. Wrong (Hieroglyphics Guest); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hieroglyphics
 # SAUCE Author: Mr. Wrong
 # SAUCE Group: Hieroglyphics Guest
@@ -38,5 +38,4 @@ Write-Host '
     [1;30m▀[0m [1;30m ▄▄[0;32m ▀▀▄[0;37m [0;1;30m▄[0m [1;30m▄▄ [0;32m [0;1;30m▀[0m   [32m▄[0;37m   [0;32m▀▀[0;37m [0;32m▄[0;37m [0;1;30m█[0;1;30;47m▓▓[0;1;30;40m█▄ ▄[0;1;30;47m██[0;1;30;40m█▄▄ [0m [32m▀[0;37m [0;32m▄ [0;37m [0;32m▀ [0;1;30m▄▄█▄▄[0m [32m▄[0;37m  [0;32m▄[0m   [32m▄ [0;1;30m▄▄▄[0m [1;30m [0m [1;30m▀[0m
      [1;30m▀▄[0;1;30;47m▀▓[0;1;30;40m▀█▄[0;32m ▄[0;37m [0;1;30m▄[0;1;30;47m▀[0;1;30;40m▄[0;1;30;47m▓▓[0;1;30;40m▄ [0m [32m▀[0;1;32;42m▀[0;32m▀[0;1;30m ▄[0;1;30;47m▀▓[0;1;30;40m▄▄▄█[0;1;30;47m▄[0;1;30;40m▀ ▄[0;1;30;47m▓▓▄[0;1;30;40m▀▀▄█[0;1;30;47m▀▓▓[0;1;30;40m▄▄▄█▀[0;1;30;47m▓▓▄[0;1;30;40m█▄ ▄▄[0m [32m▀[0;1;32;42m▀[0;32m▀[0;37m [0;1;30m▄▄▄█▀[0;1;30;47m▓▀[0;1;30;40m▄▀[0m
        [1;30m▀▀█▄[0m     [1;30m▀▀▀▀[0m    [1;30m▄▀▀ ▀▀  ▀▀▀█▄     ▀▀▀▀     ▀▀  ▀▀▀▀[0m        [1;30m▀[0m [1;30m▄█▀▀[0m
-           [1;30m▀▀ ▄▄[0m        [1;30m [0m   h [1;36mI E R O[0;1;30m▀[0;1;36mG[0;1;30m▄[0;1;36mL Y P H I C S[0m           [1;30m▄▄[0m [1;30m▀▀[0m   [1mmrw[0m
-                                                                [1m         [0m'
+           [1;30m▀▀ ▄▄[0m        [1;30m [0m   h [1;36mI E R O[0;1;30m▀[0;1;36mG[0;1;30m▄[0;1;36mL Y P H I C S[0m           [1;30m▄▄[0m [1;30m▀▀[0m   [1mmrw[0m'

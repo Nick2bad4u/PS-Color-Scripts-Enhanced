@@ -5,7 +5,7 @@
 # Source SHA-256: 66145b762068cb69525bac769ae14dc2816f8cd5857cdbf00184048dd0a076a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BC-VIS.ANS by Burning Chrome (Delusion); released in dls0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Vision Logo
 # SAUCE Author: Burning Chrome
 # SAUCE Group: Delusion
@@ -27,5 +27,4 @@ Write-Host '
        [1;30m▐[0;1;30;47m░▒[0;1;30;40m█▀    [0m▄[1;35m▐[0;1;30;45m░[0;1;35;45m▒▓[0;1;35;40m▌[0m·''[1;30;45m░[0;1;35;45m▒▓[0;1;30;40m▓▒░  ░▒▓[0;1;30;45m░[0;1;35;45m▒▓[0m ▄[1;35m▐[0;1;30;45m░[0;1;35;45m▒▓[0;1;35;40m▌[0m·''[1;35;45m▓[0;1;30;40m▓▒░  ░▒▓[0;1;30;45m░[0;1;30;40m▀[0m▄[1;35m▐[0;1;30;45m░[0;1;35;45m▒▓[0;1;35;40m▌[0m·''  [1;30m▀ [0m▄[1;35m▐[0;1;30;45m░[0;1;35;45m▒▓[0;1;35;40m▌[0m·''
         [1;30m▐[0;1;30;47m░[0;1;30;40m▌    [0m▀▄[1;35m▐[0;1;35;45m░▓[0;1;35;40m▓[0;1;30;40m▄  [0;1;35;45m░▓[0;1;35;40m▓[0;1;30;45m▓[0;1;30;40m▓▒░░▒▓[0;1;30;45m▓▒[0;1;35;45m▓[0;1;35;40m▓[0m▀▄[1;35m▐[0;1;35;45m░▓[0;1;35;40m▓[0;1;30;40m▄ [0;1;35;45m▓[0;1;35;40m▓[0;1;30;45m▓[0;1;30;40m▓▒░░▒▓[0;1;30;45m▓[0;1;30;40m▀▀[0m▄[1;35m▐[0;1;35;45m░▓[0;1;35;40m▓[0;1;30;40m▄[0m     ▀▄[1;35m▐[0;1;35;45m░▓[0;1;35;40m▓[0;1;30;40m▄[0m
          [1;30;40m▌[0m       ▀[1;30m▀[0m▀[1;30m▀▀[0m▀[1;30m▄ ░[0;1;30;45m▓▓▓[0;1;30;40m███▓[0;1;30;45m▓▓[0;1;30;40m░    [0m▀[1;30m▀[0m▀[1;30m▀▀[0m▀[1;30m▄[0;1;30;45m▓▓▓[0;1;30;40m███▓[0;1;30;45m▓▓[0;1;30;40m░  [0m▀[1;30m▀[0m▀[1;30m▀▀[0m▀▄     ▀[1;30m▀[0m▀[1;30m▀▀[0m▀▄
-                [31m. [0;37m.■▀▀▀    [0;1;30m▀▀▀▀▀▀▀[0m     [31m. [0;37m.■▀▀▀  [0;1;30m▀▀▀▀▀▀▀   [0;31m. [0;37m.■▀▀▀[0m     [31m. [0;37m.■▀▀▀[0m
-                                              [1;30mBurning Chrome [Delusion][0m'
+                [31m. [0;37m.■▀▀▀    [0;1;30m▀▀▀▀▀▀▀[0m     [31m. [0;37m.■▀▀▀  [0;1;30m▀▀▀▀▀▀▀   [0;31m. [0;37m.■▀▀▀[0m     [31m. [0;37m.■▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b3681b76699050579b30596ccce971ce78acd85c046910158563f5ccdff831e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aleperez-no_game_over_eng.ans by @AljandroPrez (HPM); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no game over
 # SAUCE Author: @AljandroPrez
 # SAUCE Group: HPM
@@ -20,7 +20,7 @@ Write-Host '
                           [1;32m▄▀[0m             [1;32m│[0m  [1;32m░▒▒▓▓▒▒░[0m  [1;32m│[0m
              [1;32m>>[0m [1;32m(*)[0m      [1;32m█[0m               [1;32m│[0m   [1;32m░░░░░░[0m   [1;32m├───[0m [1;32mQUEEN[0m
            [1;32m/[0m            [1;32m▄▀[0m               [1;32m└────────────┘[0m
-        [1;32mSUPPORT[0m        [1;32m█[0m
+        [1;32m       [0m        [1;32m█[0m
                      [1;32m▄▀[0m
                      [1;32m█▄[0m     [1;32m>>[0m
                       [1;32m█[0m       [1;32m\[0m [1;32mEL-1[0m
@@ -28,7 +28,7 @@ Write-Host '
                        [1;32m▀▄[0m                            [1;32m*[0m            [1;32m*[0m
                   [1;32m>>(*)█[0m                             [1;32m#[0m            [1;32m#[0m
                  [1;32m/[0m      [1;32m█[0m              [1;32m**[0m
-             [1;32mSUPPORT[0m    [1;32m█▄[0m              [1;32m#[0m                      [1;32m*[0m
+             [1;32m       [0m    [1;32m█▄[0m              [1;32m [0m                      [1;32m [0m
                          [1;32m█[0m                                     [1;32m#[0m
          [1;32m>>[0m [1;32m(*)[0m           [1;32m█[0m                 [1;32m*[0m
         [1;32m/[0m                 [1;32m▀█[0m                [1;32m#[0m   [1;32m┌──────┐[0m
@@ -36,10 +36,10 @@ Write-Host '
                          [1;32m▄█[0m    [1;32mHEADQUARTER ─────┤[0m [1;32m//\\[0m [1;32m│[0m
                         [1;32m█[0m   ─                   [1;32m└▀▀▀▀▀▀┘[0m
 [1m───────────────────────────────────────────────────────────────────────────────-[0m
-  [1;32m╓──────╖[0m [1;32mINTELLIGENCE HEADQUARTERS[0m
-  [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32mTHE ENEMY IS FIGHTING ON MULTIPLE FRONTS WITHIN A FEW MILES FROM[0m
-  [1;32m≡[0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m≡[0m  [1;32mTHE HEADQUARTERS. THE QUEEN IS IN CONTROL OF THE SOLDIERS, IF THE[0m
-  [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m  [1;32mQUEEN FALLS WE WILL BE ABLE TO COUNTERATTACK WITH THE TROOPS LEFT[0m
+  [1;32m╓──────╖[0m [1;32m                         [0m
+  [1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32m                                                                [0m
+  [1;32m [0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m [0m  [1;32m                                                                 [0m
+  [1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m  [1;32m                                                                 [0m
   [1;32m╚──────╜[0m  [1;32mON THE GROUND.[0m
 [32m██[0;33m██[0;30;43m▒▒▒[0;33;40m░░░░░░░[0;30;43m▒▒▒[0;33;40m█[0;32;40m████████[0;1;37;47m▀▄[0;42m▒▒[0;1;40m█[0;1;47m▄▄[0;1;40m█[0;42m▒▒[0;1;40m█[0;1;42m▀[0;32m████████[0;1;31;44m*[0;1;33;44m.[0;32m█████████████[0;33m█[0;30;43m▒▒▒▒[0;33;40m░░░░░░░░░░░░░░[0m
 [32;40m█[0;33;40m██[0;30;43m▒▒▒[0;33;40m░░░░[0;1;31;43m*[0;33m░░░[0;30;43m▒▒[0;33;40m█[0;32;40m███████████[0;1;37;47m▀▄[0;42m▒▒▒▒[0;1;47m▄▀[0;32m███████[0;1;31;42m*[0;32m██[0;1;33;44m.[0;1;31;44m*[0;1;33;44m.[0;32m█████[0;1;31;42m*[0;32m█▀▀███[0;33m█[0;30;43m▒▒[0;33;40m░░░[0;1;31;43m*[0;33m░░░░░░░░[0;1;31;43m*[0;33m░░░[0m
@@ -61,4 +61,4 @@ Write-Host '
 [33;40m░░░░▀[0;1;36;40m▄▄██▀[0;33m▄░░░░[0;30;43m▒[0;32;40m▄[0;1;31;40m▀▄▄▄▄▄▀[0;32m▄█████[0;1;37m█[0;30;47m#[0;37;40m█[0;1;37;40m█[0;32m█[0;1;33;44m...[0;32m██████████████████▄[0;1;31m▀▄▄▄▀[0;32m▄██████[0;33;42m▀▀▀▀▀[0;32;40m██████[0m
 [33;40m░░░░░▄▄▄▄░░░░[0;30;43m▒▒▒▒[0;32;40m█▄▄▄▄▄█████[0;1;37;42m▄[0;1;37;47m▀[0m█[1;47m▄[0;1;42m▀[0;32m█████████████████████████▄▄▄███████████████████[0m
 [1;37m────────────────────────────────────────────────────────────────────────────────[0m
-  [1;32m╓──────╖[0m [1;32mINTELLIGENCE HEADQUARTERS[0m'
+  [1;32m╓──────╖[0m [1;32m                         [0m'

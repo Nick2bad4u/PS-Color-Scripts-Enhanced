@@ -5,7 +5,7 @@
 # Source SHA-256: f46e71860125f2363f12499afd8afd89ff3289339322cb6e1a2196f0c6fdda0c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 13-PREVA.ANS by ville (blend&fire); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: prevail, trade with ize
 # SAUCE Author: ville
 # SAUCE Group: blend&fire
@@ -38,6 +38,4 @@ Write-Host '
 [31m▌[0;1;31;41m░░▓▓[0;1;31;47m▌[0;1;31;41m█▓[0;31m▌█[0;1;31m▒[0;1;31;41m▒▒[0;1;31;40m░[0;31m▐[0;1;31m▓[0;1;31;41m█[0;1;31;47m▓░[0;1;31;41m▄[0;31m░░░[0;1;30m    [0;31m▀▀[0;1;31;41m   ▀[0;1;31;47m▓[0;1;37;47m▄▒[0;31m█[0;1;31;41m█▌▀[0;31m█▀[0;1;30m     [0;31m▄▄[0;1;31;41m▐▓[0;31m▌[0;1;31;41m░[0;1;31;40m░░░▒▒▒[0;31m▐[0;1;31;41m█[0;1;31;47m██▌[0;1;31;41m█[0;1;31;40m▓[0;1;31;41m▄[0;31m▌▄[0;1;30m   [0;31m▓▓██[0;1;31;41m▄█▀[0m
 [31m ▀█[0;1;31;41m▀█[0;1;31;47m▌▓[0;1;31;41m▓[0;1;30;40m [0;1;31;41m░[0;1;31;40m▓[0;1;31;47m▓[0;1;31;41m▓░[0;31m▄▀[0;1;31;41m▀█[0;1;31;47m▄▌▀[0;1;31;41m██▄▄[0;31m▄▄▄[0;1;30m  [0;31m░▓[0;1;31;41m▌[0;1;31;47m▓[0;1;37;47m▀[0;1;31;47m▓[0;1;31;41m▌[0;31m█▓░[0;1;30m [0;31m▄████[0;1;31;41m▄██▀[0;31m▀▄[0;1;31;41m▓▒▒▒▒[0;1;31;40m▓[0;31m▌[0;1;31m▒[0;1;31;41m█[0;1;31;47m▓▀▌ ▀[0;1;31;41m█[0;31m█[0;1;31;41m░[0;1;31;40m░[0;31m▓░[0;1;30m [0;31m░▀████[0m
 [31m▄█[0;1;31;41m▄[0;1;33;41m░[0;1;31;47m▀ ▓[0;1;31;41m░[0;1;30;40m [0;1;31;40m▒[0;1;31;47m▀░▓▓[0;1;31;41m▄[0;1;31;40m▒[0;31m▄░▀[0;1;31m▀[0;1;31;41m▀▀█[0;1;31;47m▄▓[0;1;33;41m░[0;1;31;41m██████▌█[0;1;31;47m▓[0;1;31;41m██▄[0;31m█████[0;1;31;41m▄█▌▀[0;31m▀▓▄[0;1;31;41m░▄██▓▓▓▓[0;1;30;40m [0;1;31;40m▐[0;1;31;47m▓░   ░▓[0;1;31;41m░[0;31m█[0;1;31;41m▀[0;1;31;40m▒[0;31m▓[0;1;30m  [0;31m░▓▓▓█[0m
-[1;35m───────────────────────────────────────────────────────────────────────────────[0m
-[1;32mredrambou! this for izes board[0m [1;32m" prevail ", need an ansi or html for a few US$[0m
-[1;32mville@fan.net - www.geocities.com/soho/7980/[0m'
+[1;35m───────────────────────────────────────────────────────────────────────────────[0m'

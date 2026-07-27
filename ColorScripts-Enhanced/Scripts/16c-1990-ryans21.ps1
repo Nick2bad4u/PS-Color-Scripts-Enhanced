@@ -5,19 +5,19 @@
 # Source SHA-256: 1ea55f6f59f1193f6efb39e3b6603b6a33d2595fcfc6a82c2877c45ef8ecebd5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RYANS21.ANS by Ed Bragg (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
 Write-Host '
 ------------------------------------------------------------------------
 
-Echo Flag :         Permanent: N       Export: N      Personal Read: N
+                                                                      
 
- BBS: INFOEXCH        Conference: ANSI            Imported:  8/06/1990
+                                                                      
   To: ALL                             Num: 131        Date:  8/05/1990
-From: ED BRAGG                         Re: 0          Time:  1:20 am
-Subj: Clown                          Prvt: N          Read: N
+                                                                    
+                                                             
 
                                [1;31;43m░[0;1;33;41m░▒[0m  [1;31;43m░▓░▒▓[0m [1;33;41m░▒▓[0m [1;33;41m▒▓░▒[0m  [1;31;43m░▒▓[0m [1;31;43m▓░▒▓[0;1;33;41m░▒[0;1;31;43m▓░[0m
                            [1;33;41m░▒▓░[0m [1;31;43m░▒▒[0m [1;31;43m▒▓░▒▓█[0;1;33;41m▒▓[0;1;34;40m▓[0;1;33;41m▒[0m [1;33;41m░▒▓[0m [1;31;43m░▒▓░[0;1;34;40m▓[0;1;31;43m▒▓█▓[0;1;33;41m▒▓[0;1;31;43m░▒[0;1;33;41m▒[0m [1;31;43m▓[0m
@@ -40,8 +40,4 @@ Subj: Clown                          Prvt: N          Read: N
 [1;35;40m  [0;1;32;40m│ │╒╕╤╤╤  &  │ │╒╕╒╡[0m     [1;35;40m░▒▓░▒▓░▒▓░▒▓░▒▓░▒▓░▒▓░▒▓░▒▓▒░▒▓░▒▓░▒▓░▒▓░[0m
 [1;35;40m  [0;1;32;40m╧ ╧╘╛╧ ╧[0m     [1;32;40m╧═╛╘╧╘╧[0m          [1;35;40m░▒▓░▒▓░▒▓░▒▓░▒▓░▒▓░▒▓░▒▓░▒▓░▒[0;1;30;40mma[0m
 
-##MMR 2.14ß
-
-PCRelay:PROGRAM -> #458 RelayNet (tm)
-4.10               Programmers Exchange « Hawaii » 808-422-2921[0m
-'
+##MMR 2.14ß[0m'

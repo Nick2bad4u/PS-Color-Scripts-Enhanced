@@ -5,7 +5,7 @@
 # Source SHA-256: 050f44bc4e957cc2feb77ff69213592a10eaa0f8c7f98bb8b4a0b684ea67a753
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BLUE2.ANS by Massm + Discyple (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Blue
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -35,5 +35,4 @@ Write-Host '
       [1;37;40m▀[0;1;37;47m▌[0m▌  [35m░  [0;1;35m▀[0;1;35;45m [0m  [1;32;40m▀███[0;1;32;42m█▌[0;32m█████████████████████████████████[0;1;32;42m░░[0;32m▄ [0;35m▐[0;1;35;45m▐[0;1;35;40m▀    [0;32m▄[0;1;32m▄[0m
         ▀        [35m▀   [0;30;42m▓[0;1;32;40m▀▀[0;32m▀[0;1;32;42m▄  [0;32m██▀██████████████[0;32;42m  [0;32;40m████▄█▄ ▀▀▀ [0;35;40m▄ ▀[0m     [35;42m [0;1;32;42m█[0;1;32;47m▓[0;1;32;42m█[0m
                            [32m▀▌   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;42m▓▓[0m                   [1;32;40m▀▀[0m
-                                                                 [32m▀[0m
-                              [37mmassm([0;1;37mice[0m) / discyple([1mawe[0m)[0m'
+                                                                 [32m▀[0m'

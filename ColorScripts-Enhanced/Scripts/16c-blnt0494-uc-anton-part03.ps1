@@ -5,7 +5,7 @@
 # Source SHA-256: df625e3329a343ec23cb7a4bc45408e5185e27bdbe676ca33a24fdaed1778a3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-ANTON.ANS by Unknown Comic (blnt0494); released in blnt0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 101-126
 # Columns: 1-80
 
@@ -22,16 +22,4 @@ Write-Host '
          █[1m█ [0;30;47m [0;1m██[0m      [30;47m▀[0;1;47m▄[0;1m██▀[0;1;47m [0;1m██▀[0;30;47m▀[0;1;47m▄▀[0;1m███▀[0;30;47m▄[0;1m▀[0;1;47m [0;1m███▀[0;1;47m▀[0;1m██  [0;30;47m▀[0;1;47m▄[0;1m█[0;1;47m▄[0;1m▀▀ [0;30;47m▀[0;1;47m▄▀[0;1m███▀[0;30;47m▄[0;1m▀  [0m█[1m█[0m
          █[1m█ [0;30;47m▄[0;1;47m▀[0;1m█▄[0;30;47m▀[0;1;47m▄[0;1m█   [0;1;47m [0;1m██[0;1;47m▄[0;1m██▀  [0;30;47m▀[0;1;47m▄[0;1m██[0m     [1;47m [0;1m██ [0;1;47m▄[0;1m██[0;1;47m▄[0;1m▀[0;30;47m [0;1m██▄▄[0;1;47m▄[0;1m▀ [0;30;47m▀[0;1;47m▄[0;1m██[0m      █[1m█[0m
          █[1m█   [0;30;47m▄[0;1m▀▀▀[0m     [30;47m▄[0;1m▀▀▀    [0;30;47m▄[0;1m▀▀[0m     [30;47m▄[0;1m▀▀  ▀▀    [0;30;47m▄[0;1m▀▀▀   [0;30;47m▄[0;1m▀▀[0m       █[1m█[0m
-         ▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-
-
-                         [1mA[0mn[1;31mt[0;31mon''s Cor[0;1;31mn[0me[1mR [0;1;36m· [0;1m3[0mO[1;31m4[0;31m.346.2[0;1;31m9[0m3[1m2[0m
-                   [1mH[0ma[1;31ml[0;31mf a Gig of [0;1;31mH[0m/[1mP [0;1;36m· [0;1mF[0me[1;31ma[0;31mturing the H/P [0mC[1mD[0m
-         [1mS[0mp[1;31mA[0;31mzM Distribution S[0;1;31mi[0mt[1mE [0;1;36m· [0;1mP[0ma[1;31mI[0;31mN 3O4 [0mH[1mQ [0;1;36m· [0;1mB[0;31mLuNT [0;1;31mW[0mH[1mQ [0;1;36m· [0;1mB[0;31mAD Dist[0;1;31mr[0mo[1m.[0m
-                               [1;36m· [0;1mI[0mn[1;31mf[0;31motel i4[0;1;31m.[0m4[1mK [0;1;36m·[0m
-            [1mS[0my[1;31ms[0;31mOp ≡ Anton the Pimp [SpAzM Senior Member, BLuNT Pre[0;1;31mz[0m.[1m][0m
-                    [1mC[0mo[1;31mS[0;31mysOp ≡ Unknown Comic [BLuNT Vice Pre[0;1;31mz[0m.[1m][0m
-                      [1mC[0mo[1;31mS[0;31mysOp ≡ The Conquistador [LeeChN[0;1;31mE[0mT[1m][0m
-
-                           [1mA[0mN[1;31mS[0;31mi [0;1;36m· [0;31mUNKNOWN COMiC  (BLu[0;1;31mN[0mT[1m)[0m'
+         ▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

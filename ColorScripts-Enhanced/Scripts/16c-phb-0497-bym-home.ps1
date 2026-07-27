@@ -5,7 +5,7 @@
 # Source SHA-256: b656164b0279c3cf989832ef5880b70c011a26c489dd344eb24d9c37a6f66cf7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%HOME.ANS by big y3llow man (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: my house
 # SAUCE Author: big y3llow man
 # SAUCE Group: pHOBIA@!
@@ -29,6 +29,4 @@ Write-Host '
                   [30;42m▓▓▀[0;32;40m██▌[0;1;30;40m▐█[0;34m█[0;1;30;44m ░░[0;34m██[0;1;31m [0;1;34;44m░░ [0;34m█[0;1;34;44m▀█[0;30;47m█[0;33;40m▀[0;30;47m█[0;1;34;40m▀[0;32m▄▄[0;1;32;42m▄▄█▄▓[0;32m█[0;30;42m░[0m
                   [30;42m█▄▄[0;1;32;42m░░[0;30;42m▓[0;30;47m█[0;1;30;40m█[0;1;30;44m█[0;1;30;40m█[0;1;30;44m▄[0;34m██▀[0;30;47m█[0;34;40m▀▀▀[0;32;40m▄▄▄▄[0;30;47m█[0;33;40m██[0;30;47m█[0;30;42m░[0;1;32;42m▀▓██▀[0;32m█[0;30;47m█[0m
                      [32;40m▀██▄▄▄▄▄▄▄▄█[0;1;32;42m▄▄▄▄██▌[0;32m▌[0;33m▐██[0;30;47m█[0;32;40m▐[0;30;42m░[0;1;32;42m▀[0;32m█▀▀▀▌[0m
-                               [32m█▀▀▀▀▀▀▀▀[0m
-
-                              [1;37mIT''S MY HOUSE@!#[0m'
+                               [32m█▀▀▀▀▀▀▀▀[0m'

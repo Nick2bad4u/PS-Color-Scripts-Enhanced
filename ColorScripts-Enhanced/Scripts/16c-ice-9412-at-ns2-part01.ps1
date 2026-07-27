@@ -5,12 +5,12 @@
 # Source SHA-256: d94d67b86bb22bbd933801cd2625a0440dd30bca77b402ae920a1fe26f160852
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AT-NS2.ICE by Aphex Twin (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
 Write-Host '
-                      [30mTop ten worst things in the "art scene":  [0;37m■▄[0;1;37m▄▄▄▄▄▄▄[0m▄▄
+                      [30m                                          [0;37m■▄[0;1;37m▄▄▄▄▄▄▄[0m▄▄
                                                               [1m▄███[0;1;47m▀[0;1;40m▀[0m▀▀▀▀▀[1;47m▀█[0;1;40m█[0;1;47m▄[0;1;40m▄[0m
                       [30m1. The Internet (i.e. #ANSI)[0m           [1;37m▐[0;1;37;47m█[0;1;37;40m█[0m▀ [33m▄[0;1;33m▄[0;1;33;43m██[0;1;33;40m█[0;1;33;43m▄[0;1;33;40m▄[0;33m▄ [0;37m▀[0;1;37m██▌[0m
                       [30m2. Lack of *originality*[0m               [1;37m█[0;1;37;47m█[0m█ [1;33;43m▒▓█[0;1;33;40m▄██▄[0;1;33;43m██▓[0m [1;33;47m [0;1;37;40m██[0m
@@ -21,7 +21,7 @@ Write-Host '
                       [30m7. 500 "E-MagZ"[0m                         [1;37m▀▀▀ ████▀▀ ███▀▀[0m
                       [30m8. 1-Kid kiddie-groups[0m                 [1;37m████ ██████ █████▄[0m
                       [30m9. f1/f2/f3[0m
-            [1;30m▄[0m▄[1m▄[0m      [30m10. Black-on-black text[0m
+            [1;30m▄[0m▄[1m▄[0m      [30m                       [0m
           [1;30m▀▀   [0m▀[1;30;47m░[0m
         [1;30;40m█   ·   [0;1;30;47m▒▄[0;1;30;40m▄▓[0m
          [1;30;40m▄    ▄█[0;1;30;47m▓█[0;1;30;40m██■ ░[0m

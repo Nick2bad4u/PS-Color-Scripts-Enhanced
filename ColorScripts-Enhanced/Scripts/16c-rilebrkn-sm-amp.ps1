@@ -5,7 +5,7 @@
 # Source SHA-256: acb2416507981cd3326488d74459ee2651e954bda62de289061fc91ad234f6ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-AMP.ANS by sammael (art); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: &
 # SAUCE Author: sammael
 # SAUCE Group: art
@@ -52,7 +52,6 @@ Write-Host '
 [32;40m██  [0;30;42m│[0;32;40m▄▄█▀▀█   ▐▄▄▄█   ██▀▀█▀▀▀▀▀[0;30;42m [0;32;40m██▀▀▀▀▀█▀▀▀▀▀█  ▌▐▀▀▀▀▀▌▐  [0;30;42m│[0;32;40m███[0;30;42m│[0;32;40m───[0;30;42m│[0;32;40m████[0;30;42m│[0;32;40m  ▌▐██[0m
 [32;40m██  [0;30;42m│[0;32;40m▌▐▀▀▀▀   ▐▄▄▄█▀▀▀█[0;30;42m│[0;32;40m  █  ▄▄▄[0;30;42m [0;32;40m██─────█     [0;30;42m│[0;32;40m  ▌▐     ▌▐▀▀▀▀▀▀█▀▀▀█▄▄▄▄[0;30;42m│[0;32;40m  ▌▐█▀[0m
 [32;40m██▀▀▀▀▀▀▀▀█▀▀▀▀▀█     █[0;30;42m│[0;32;40m  █  ▀▀▀▀▀▀     █▀▀▀▀▀█  ▌▐▀▀▀▀▀▌▐      █▀▀▀█▀▀▀▀██[0;30;42m┌▄[0;32;40m   [0m
-[32;40m██[0;1;32;42mscribbles, message, font, pic, colored blocks, triteness, and angst [0;32m▀▀▀▀ [0;1;32m this[0m
-[32m██[0;1;32;42mby an unknown artist named sammael in a art group[0;32m█▀▀▀▀▀▀▀▀▀▀▀ [0;1;32mwas all done for[0m
-[32m██[0;1;32;42mby the name of rile[0;32m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;32ma friend named eerie and his bbs ampersand.[0m
-'
+[32;40m██[0;1;32;42m                                                                    [0;32m▀▀▀▀ [0;1;32m     [0m
+[32m██[0;1;32;42m                                                 [0;32m█▀▀▀▀▀▀▀▀▀▀▀ [0;1;32m                [0m
+[32m██[0;1;32;42m                   [0;32m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;32m                                           [0m'

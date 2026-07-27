@@ -5,7 +5,7 @@
 # Source SHA-256: ae7e95c378a3bea136ea3cb342b27a4b8eeb05903d7a70448ae8f7e5dfe5845d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-QUES.ANS by Zeus II ([no group]); released in mist1118 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Quest For Meaning
 # SAUCE Author: Zeus II
 # SAUCE Group: [no group]
@@ -37,5 +37,4 @@ Write-Host '
 [1;37;46m▀[0;36m███████████████████[0;1;37;46m▄▄▄▄▄▄▄▄▄██▀▀▀[0;36m▀▀▀▀▄▄▄▄███▀▀▀███████████████[0;1;30;46m▄[0;1;30;40m▀[0m  [31m██▌[0;1;31;41m▒▒░[0;31m██▄▀██▓[0m
 [1;37;46m▀[0;36m█[0;1;37;46m▀▀█████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36m█████▀▀██▌███[0;1;37;46m▄[0;36m█▌▄▄[0;1;35;46m░[0;36m████████████▀▀█▄[0;1;30;46m░▄[0;1;30;40m▀[0;30m   [0;31m██▓▌[0;1;31;41m░░[0;31m█[0;1;33;41m░░[0;31m██▄▀▀[0m
 [36m██[0;1;37;46m████[0;36m██████████▀▀██▄[0;1;37;46m▄  [0;36m▀ ▄▄▄[0;1;37;46m▄▄[0;36m█[0;1;37;46m▀[0;36m▀▄█[0;1;37;46m■▀[0;36m█▀▄██[0;1;37;46m▄▄▀[0;36m█ ▄▄▄█▄███[0;1;30;46m▄▄[0;36m▀[0;1;30m▀[0;30m    [0;31m▄██▓████████▓██▄[0m
-[36m█[0;1;37;46m▐██████   [0;36m▀▀▄▄[0;1;37;46m    [0;36m▀▀▀▄▄[0;1;37;46m  [0;1;30;46m [0;36m▀▀▀▀▄███▀▀▄▄███▀▀▀▄▄[0;1;30;46m▄▄[0;36m▀▀▀[0;1;30m▀▀▀[0;36m    [0;31m▄▄▄██▓▓█[0;1;33;41m░[0;31m█▌█████▓▓█▓█[0m
-                                                                        [1;33m@Zeus_II[0m'
+[36m█[0;1;37;46m▐██████   [0;36m▀▀▄▄[0;1;37;46m    [0;36m▀▀▀▄▄[0;1;37;46m  [0;1;30;46m [0;36m▀▀▀▀▄███▀▀▄▄███▀▀▀▄▄[0;1;30;46m▄▄[0;36m▀▀▀[0;1;30m▀▀▀[0;36m    [0;31m▄▄▄██▓▓█[0;1;33;41m░[0;31m█▌█████▓▓█▓█[0m'

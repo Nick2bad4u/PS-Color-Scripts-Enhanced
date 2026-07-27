@@ -5,7 +5,7 @@
 # Source SHA-256: 2cfd9f0e7c1d709e28cc4ad0592bc385cec9b8ef2ac4c2bb3c599fda55ff1e4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SW-IS.ANS by Sword Weaver (img-9408); released in img-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 64-109
 # Columns: 1-80
 
@@ -43,15 +43,6 @@ Write-Host '
                 [1;47m░▒▓██[0m   [1;47m▓█[0m   [1;47m█▓[0m   [1;47m▓█[0m   [1;47m▓█[0m   [1;47m▒▒▓▓██[0m [1;47m░▒▓██[0m
 
 
-                         [1;40mIllusionary States[0m
+                         [1;40m                  [0m
 
-                     [1m7 0 8 ∙ 3 8 1 ∙ x x x x[0m
-
-
-                  iMAGE USHQ       LANCELOT ][ distro
-                  AAA net          ENiGMA distro
-                  VOiD net         Allegiance Net
-
-
-       Picture of Makaku from Battle Angel Alita Published by Viz
-               Original Story and Art by Yukito Kishiro[0m'
+                     [1m7 0 8 ∙ 3 8 1 ∙ x x x x[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 8a519e5efc9c37a753fb63884ef38dd92321c8821333fa3183b4333e3993d103
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZYAL8ER.ANS by Raider + Phlare (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: star?!@.. umpf.. something nice :)
 # SAUCE Author: raider & phlare
 # SAUCE Group: shade
@@ -49,7 +49,4 @@ Write-Host '
 
                                       [35;40m▀[0;30;45m░[0m
 
-                            [36;40m [0m           [30;45m▓[0m
-
-
-                               [36;40msee ya next time :)[0m'
+                            [36;40m [0m           [30;45m▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9cc34cb744b4361cd8f872c94bef7b895c06e1c8a27e962fe12a2083ae12df91
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-BM.ANS by Shine + President (bm & ecolove); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: black maiden
 # SAUCE Author: shine + president
 # SAUCE Group: bm & ecolove
@@ -57,11 +57,11 @@ Write-Host '
                  [1;31m [0m               ▀[1;47m▀▓░[0m█[1;47m [0m███████▓[1;30;47m█[0m ▐███████████▀▀ [1;30m▀[0m      [1;30m▐[0;1;30;46m█▄ ▓█▄[0;36m█[0m
                                     [37m▀▀[0;1;37m▀[0m▀███████[1;30;47m▀█[0;1;30;40m▄[0m█▀▀▀▀▀▀▀             [1;30m▀[0m▒░[1;30m█[0;1;30;46m▄█[0;1;30;40m██[0m
                                                                       [36m [0;1;30m█[0;1;30;46m█▓▓[0;1;30;40m█[0;36m▀[0;1;30;47m█[0;1;30;40m▌[0m
-outlines and touchups [1mshine[0;1;33mbm[0m [1;33m [0m                                      [1;30m █[0;1;30;47m▀▄[0;1;30;46m█[0;1;30;40m███▀  [0m
-logo and colouring [1mpresident[0;1;33mecolove[0m                              [1;30m ▄▄[0;1;30;47m█▓[0;1;30;40m██▀▀▄[0m▄
+                      [1m     [0;1;33m  [0m [1;33m [0m                                      [1;30m █[0;1;30;47m▀▄[0;1;30;46m█[0;1;30;40m███▀  [0m
+                   [1m         [0;1;33m       [0m                              [1;30m ▄▄[0;1;30;47m█▓[0;1;30;40m██▀▀▄[0m▄
 
 [1;30m------------------------------------------------------------------------------- [0m
-[1;30mwith all love to voice+tex+coke, guys - but you aren''t serious about [0m
-[1;30mthe quality art since 1994, are you? =)[0m
+[1;30m                                                                     [0m
+[1;30m                                       [0m
 [1;30m- ave[0m
 [1;30m-------------------------------------------------------------------------------[0m'

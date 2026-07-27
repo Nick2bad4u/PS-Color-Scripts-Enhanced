@@ -5,7 +5,7 @@
 # Source SHA-256: 4d6354201e46cb6e108f6db291e0ed15762c8a9f4dd8c7dde4989ea75bdc418c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TW-IST.ANS by twilight (rune); released in rune0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: istar
 # SAUCE Author: twilight
 # SAUCE Group: rune
@@ -34,4 +34,4 @@ Write-Host '
       [1;34m▀███▄[0m               [1;30m■[0m     [1;34m▄███▀████ [0m   [1;30m ░[0m [1;30m▀[0m    [1;34m▐██▀[0m  [1;30m▒[0m [1;34m ▐███▌[0m
          [1;34m▀▀█▄▄ [0m       [1;30m▀[0m      [1;34m▄▄▀▀▀[0m [1;30m   [0;1;34m▀▀██     [0m      [1;34m█▀[0m    [1;30m▐▌[0m [1;34m ████[0m
                 [1;34m▀[0m        [1;34m▀[0m      [1;30m        [0m [1;34m▀▀■ ▄[0m   [1;34m▄[0m  [1;34m▀[0m       [1;30m█[0m [1;34m ▐██[0m
- [1;30m  runewhq[0m  [1;30m∙[0m  [1;30m tribalmem[0m  [1;30m ∙ [0m istar!   [1;30m∙  nausia westhq[0m   [1;30m▀[0m [1;30m∙  [0m [1;30midea westhq[0m'
+ [1;30m         [0m  [1;30m [0m  [1;30m          [0m  [1;30m   [0m          [1;30m                [0m   [1;30m▀[0m [1;30m   [0m [1;30m           [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 66155876098bd408a275820047efdb9f9ade5e83322253a5f0fd0402833474a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-SALT.ANS by cryogenic (avenge); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: salt
 # SAUCE Author: cryogenic
 # SAUCE Group: avenge
@@ -42,10 +42,4 @@ Write-Host '
 [1;30m│[0m [36m░[0m                       [1;30m▀[0m    [1;30m▀[0m       [36m░[0m    [1;30m▀[0;36m [0;37m  [0;1;30m▀[0;36m▀[0m     [1;30m▀[0;36m▀[0;37m [0;1;30m▄[0;36m  [0;1;30m▀[0;1;30;46m▄░[0;36m▄    [0;37m  [0;1;30m▄[0m [1;30m▀[0;36m▀[0m   [36m▓▓[0m
 [1;30m│[0m    [1;30m░░░░░░░░░░░░░░░[0m             s[1malt?![0m [1;30m-[0;1;37m [0m+[1mo [0md[1missonance[0m      [1;30m▀[0;36m▀[0;37m  [0;36m [0m            [36m░░[0m
 [1;30m│[0m                                                                              [1;30m.[0m
-[1;30m└──────────────────────────────────────────────────────────────────────────────┘[0m
-  i think this is actually my first pic for avenge... cause i never used to draw
-pics.. only fonts.. so this is a sorta first.. i think, just for the sake of it,
-ill greet a few people.. if only to piss you all off.. =)
-mad shoutouts to creator, rzicus, ave angel, davey flop-it, advocate, filth, w7,
-sq2, and chr0nix...
-cryogenic[1;30m - [0mavenge [30m: whupping ass into 2000.. =)  and this is not black on black[0m'
+[1;30m└──────────────────────────────────────────────────────────────────────────────┘[0m'

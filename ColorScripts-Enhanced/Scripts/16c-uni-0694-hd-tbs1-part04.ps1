@@ -5,7 +5,7 @@
 # Source SHA-256: f82e68f93873e249b2ceae4d56e7d32ab3d9a0f26a755cbd8f52cb207fd76c11
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HD-TBS1.ANS by Hound (UNiON); released in uni-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Burning Sanctuary
 # SAUCE Author: Hound
 # SAUCE Group: UNiON
@@ -39,23 +39,23 @@ Write-Host '
 [31;43m          [0m [31;43m [0m [31;43m░░░[0;33;40m▄▀[0;33;43m    [0;33;40m▄▀█ [0;33;43m   [0m [33;43m    [0;33;40m▄[0;33;43m   [0m [31;43m░[0m [31;43m    [0m  [31;43m          [0m [31;43m        [0;33;40m▄ ▀[0;33;43m    [0;33;40m▄▀[0;33;43m    [0m
 [33;40m ▀▀▀▀▀▀▀▀ ▀▀ ▀▀▀ ▀▀▀▀▀▀▀ ▀▀▀▀ ▀▀▀▀▀▀▀ ▀▀▀ ▀▀ ▀ ▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀ ▀▀▀[0m
 [1;31;40m───────────────────────────────────────────────────────────────────────────────[0m
-                            [31mTHE BURNING  SANCTUARY[0m
+                            [31m                      [0m
                             [31mNode [1]: 731∙975∙7130[0m
-                            [31mNode [2]: 731∙COM-ING![0m
-                         [31mBOTH NODES 28800 v.FC MODEMS[0m
+                            [31m                      [0m
+                         [31m                            [0m
 [31m───────────────────────────────────────────────────────────────────────────────[0m
-                              [31mTRUE 0-5  DAY ONLY[0m
-                            [31mNUP: The Unfaith Lives[0m
+                              [31m                  [0m
+                            [31m                      [0m
 [31m───────────────────────────────────────────────────────────────────────────────[0m
-                             [31mFinalNET Node System[0m
-                            [31mShadowNET  Node System[0m
-                     [31mSonicRageIncognite-VX NET Central HUB[0m
+                             [31m                    [0m
+                            [31m                      [0m
+                     [31m                                     [0m
 [31m───────────────────────────────────────────────────────────────────────────────[0m
-                           [31mTEMPEST United States HQ[0m
-                              [31mBlur Member Board[0m
+                           [31m                        [0m
+                              [31m                 [0m
 [31m───────────────────────────────────────────────────────────────────────────────[0m
-                              [31mSysop: Misery Man[0m
-                         [31m[TEMPEST Senior/UNiON/BLUR][0m
-                           [31mCoSysop:  Dark Spectre[0m
-                     [31m[TeRRaTRoN Senior/FOUNDATION Senior][0m
+                              [31m                 [0m
+                         [31m                           [0m
+                           [31m                      [0m
+                     [31m                                    [0m
 [1;31m───────────────────────────────────────────────────────────────────────────────[0m'

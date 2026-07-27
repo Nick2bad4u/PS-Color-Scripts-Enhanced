@@ -5,7 +5,7 @@
 # Source SHA-256: d9554203a1373ab4340291ddca783360c36732ee7154a115e8fdc7f00c0128f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FI-TF.ANS by Forbidden Image + Bad Karma (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Terra Firma
 # SAUCE Author: Forbidden Image
 # SAUCE Group: ACiD Productions
@@ -62,5 +62,5 @@ Write-Host '
                                               [33m▀■[0m          [33m▀■[0m
 
 [1;30m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m
-        [1;30mAnsi by [0m:  [1mF[0mo[1;30mrbidden[0m [1mI[0mm[1;30mage[0m [1;30m<[0mAC[1mi[0mD[1;30m>[0m  -  [1;30mFont[0m :  [1mB[0ma[1;30md[0m [1mK[0ma[1;30mrma[0m [1;30m<[0mAC[1mi[0mD[1;30m>[0m
+        [1;30m        [0m   [1m [0m [1;30m       [0m [1m [0m [1;30m   [0m [1;30m [0m  [1m [0m [1;30m [0m     [1;30m    [0m    [1m [0m [1;30m [0m [1m [0m [1;30m   [0m [1;30m [0m  [1m [0m [1;30m [0m
                [1;30m─   ─  ── ───────[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m──[1m────[0m──[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─────────────── ──  ─   ─[0m'

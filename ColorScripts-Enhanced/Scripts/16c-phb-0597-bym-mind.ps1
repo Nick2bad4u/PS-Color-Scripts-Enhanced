@@ -5,7 +5,7 @@
 # Source SHA-256: c0df4f5644b22aed22a32dcfd45aa2158ad464bc12d40f7bf4206101e442261c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%MIND.ANS by big y3llow man (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: plf - like a twisted mind
 # SAUCE Author: big y3llow man
 # SAUCE Group: pHOBIA@!
@@ -32,7 +32,4 @@ Write-Host '
 [35m [0m   [35m▄▀[0;37m [0;33m▄▄██[0;35;43m░[0;33;40m█▀▀▀▀[0;37;40m  [0;35;40m▄▄[0;1;31;45m░[0;35m▀[0m      [33m█[0;37;43m░[0;37;40m█[0;33;40m▌[0;35;43m░░[0;37;43m░[0;33;40m█[0;37;43m [0;33;40m████████[0;37;43m▀[0;37;40m█▓[0;33;40m▌[0;37;40m [0;33;40m▄▄████▀▀▀▀[0m    [35;40m█[0;1;31;45m██[0;35m▌[0;37m [0;35m▐[0m   [35m▀[0m   [35m▀[0m
 [35m [0m      [33m▀▀[0m          [35m ▐  [0m       [33m▀▀[0;37m [0;33m▀[0m    [35m [0m    [33m▀▀▀▀[0;37;43m [0;33;40m████▄[0;37;40m  [0;1;30;40m░░[0m        [35m▐▌[0m   [1;31;45m░[0;35m▌[0m
 [35m▌[0m         [35m   P O F F▐E L I P O F F   [0;37m [0;35mP R O D U C T I O N S    1 ▐[0;37m  [0;35m9[0;37m [0;35m▀7[0m
-[1;31;45m░[0m          [35m  [0m       [35m▀[0m              [35m  [0m                            [35m█▌[0m
-
-[1;30m      "[0;1;37mlike a twisted mind we''re getting higher and higher! pHEAR US@##![0;1;30m"[0m
-[1;30m   [0m    [1;30mansi by big yellow man of pHOBIA - poffelipoff art division 1997![0m'
+[1;31;45m░[0m          [35m  [0m       [35m▀[0m              [35m  [0m                            [35m█▌[0m'

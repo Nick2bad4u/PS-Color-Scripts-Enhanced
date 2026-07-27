@@ -5,7 +5,7 @@
 # Source SHA-256: e0fc9fa9333ce949dd19e1f48878336d0ac93815f02def69c803ff83fad8859f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-ECO.ANS by Cleaner (Nitrophusion); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ecolove
 # SAUCE Author: Cleaner
 # SAUCE Group: Nitrophusion
@@ -35,7 +35,7 @@ Write-Host '
     :....[1;30m..[0m.[1;30m...[0m [1;30m.. .    . [0m
 
 
-  `` For all my friends in Ecolove, one of the best European Artgroup ever. ''''
+                                                                              
 
 
-[1;44m   [0;44m■[0;34;40m█[0;1;37;44mEcolove Logo By Cleaner[0;44m ■  [0;34;40m████[0;1;37;44m                      [0;44m■ [0;1;44m31[0;44m/[0;1;44m12[0;44m/[0;1;44m99 [0;44m- [0;1;44m4[0;44m:[0;1;44m26[0;34m█[0;37;44m■   [0m'
+[1;44m   [0;44m■[0;34;40m█[0;1;37;44m                       [0;44m ■  [0;34;40m████[0;1;37;44m                      [0;44m■ [0;1;44m  [0;44m [0;1;44m  [0;44m [0;1;44m   [0;44m  [0;1;44m [0;44m [0;1;44m  [0;34m█[0;37;44m■   [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 30e90ed804910ccaf2d1992da2b2bb0b12d6153118e56d76ee4e34509d417164
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS-CC.ICE by Lord Soth (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Cat's Cradle
 # SAUCE Author: Lord Soth
 # SAUCE Group: iCE
@@ -33,20 +33,4 @@ Write-Host '
 [1;31m [0;31m▀▀▀▀   ▄[0;1;31;41m▄███[0;31m█[0;1;31m██████  [0;31m▄[0;1;31;41m▄██▄[0;1;31;40m▀▀▀▀    [0;1;37;40mSysop: Cat    [0;31m▀▀▀▀   ▄[0;1;31;41m▄███[0;31m█[0;1;31m██████  [0;31m▄[0;1;31;41m▄██▄[0;1;31;40m▀▀▀▀[0m
 [1;31;40m [0;31m▄[0;1;31;41m▄███[0m  [1;31;41m ████[0;31m▀[0;1;31m▀▀▀▀▀▀  [0;1;31;41m ███ ███[0;1;31;40m▄ [0;1;37;40mSomewhere in 914 [0;31m▄[0;1;31;41m▄███[0m  [1;31;41m ████[0;31m▀[0;1;31m▀▀▀▀▀▀  [0;1;31;41m ███ ███[0;1;31;40m▄[0m
 [1;31;40m [0;31m█[0;1;31;41m████[0m  [31m▄[0;1;31m▄[0;1;31;41m▄██▄███████[0;1;31;40m█ [0;1;31;41m███ ████[0m                  [31m█[0;1;31;41m████[0m  [31m▄[0;1;31m▄[0;1;31;41m▄██▄███████[0;1;31;40m█ [0;1;31;41m███ ████[0m
-[1;31;40m [0;31m█[0;1;31;41m▀▀▀[0;1;31;40m▀   [0;31m▀[0;1;31;41m▀▀▀▀▀▀▀▀▀▀[0;1;31;40m▀[0;31m▄[0;1;31;41m▄███▄██[0;1;31;40m▀▀[0m                  [31m█[0;1;31;41m▀▀▀[0;1;31;40m▀   [0;31m▀[0;1;31;41m▀▀▀▀▀▀▀▀▀▀[0;1;31;40m▀[0;31m▄[0;1;31;41m▄███▄██[0;1;31;40m▀▀[0m
-[1;31;40m Pic: Lord Soth[0m                                  [1;31;40mWhite font:  TooN GooN[0m
-[1;31m Copy of White Font in Red: Lord Soth[0m
-
-[1mAnd now it''s time for Slothy''s list of quotes from IRC:[0m
-*[1mMellow-D[0m* yeah.. I want to be eaten by a frog and go "Snap! Crackle! Pop!"
-[1m<[0mtinyz[1m>[0m slothy: dude, if you want me to card you something, i can''t... it ju''s
-        not cost effective
-[1m<[0mstBlazer[1m>[0m hey... ice now has a doctor, a friar, a saint, 2 lords, and 2
-           captains... :)
-[1m<[0mB00MER:#ansi[1m>[0m ice will always rule over others... hate to say it but its true.
-[1m<[0mSlothy[1m>[0m I bet God would do well on the SAT''s
-[1m<[0mSlothy[1m>[0m since he knows everything
-[1m<[0mSkitzo[1m>[0m I''ve only seen one Marshal Law ansi.. What groups was he in?
-[1m<[0margon[1m>[0m i told the guy at sizzler that i was in iCE and i got a 20% discount.
-
-        - Samuel L. Jackson is the greatest actor in the known world. -[0m'
+[1;31;40m [0;31m█[0;1;31;41m▀▀▀[0;1;31;40m▀   [0;31m▀[0;1;31;41m▀▀▀▀▀▀▀▀▀▀[0;1;31;40m▀[0;31m▄[0;1;31;41m▄███▄██[0;1;31;40m▀▀[0m                  [31m█[0;1;31;41m▀▀▀[0;1;31;40m▀   [0;31m▀[0;1;31;41m▀▀▀▀▀▀▀▀▀▀[0;1;31;40m▀[0;31m▄[0;1;31;41m▄███▄██[0;1;31;40m▀▀[0m'

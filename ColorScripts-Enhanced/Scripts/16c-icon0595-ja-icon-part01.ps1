@@ -5,7 +5,7 @@
 # Source SHA-256: c95a73b7e17d20b8757086353168a48bdc3503a645f0fa9f5963ca06b147f748
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JA-ICON.ANS by Jashik (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pure shit...:)
 # SAUCE Author: Jashik
 # SAUCE Group: iCON
@@ -16,18 +16,18 @@
 
 Write-Host '
 [1;34m────────────────────────────────────────────────────────────────────────────────[0m
- This is like...another ansi that kinda started out in my head as a GREAT ansi
-and slowly but surely turned into pure crap...dunno i just have no clue what
-to do wit it anymore....sooOOoo i guess this is like...where i greet everyone
-and their dog....:)GREEEEeeEEEeeeEEEtzZZZZ go out to (in like some really
-fucked up algorithmic way (that prob wouldnt work for me in code cuz like
-code hates me for fooling around on it...er...too much chicken..yep...)
-GREETAGES..Superfly, T_nothing, Nivenh(i''m sober now honest:), Modal, Hiro (not
-sure which one, gahd you guys could be twins:) so i put both:), Stimpy (checked
-out the TEA pak (shit those are nifty exe''s:P), Boogeyman (tanx for da ascci:P),
-Gorgutz(you know the visual i get when I think of your handle?:)...hmmm did i
-miss anyone? oh well if i did i guess you''ll stop talking to me or something...
-:~( snif snif...oh well....(that was quick:P
+                                                                              
+                                                                            
+                                                                             
+                                                                         
+                                                                         
+                                                                       
+                                                                               
+                                                                               
+                                                                                
+                                                                             
+                                                                               
+                                            
 
 
 

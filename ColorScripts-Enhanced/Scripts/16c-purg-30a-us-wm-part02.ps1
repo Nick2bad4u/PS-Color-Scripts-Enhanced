@@ -5,7 +5,7 @@
 # Source SHA-256: ae3d4d9bfea235f39954c18662bae86dce79a7d37984e220b6c9eb8f4fa21168
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-WM.ANS by Produkt + Mrd (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 28-63
 # Columns: 1-80
 
@@ -41,8 +41,4 @@ Write-Host '
 [30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;31;40m░░[0;30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 
 
-[37;40m--------------------------------------------------------------------------------[0m
-           [37;40m100% original ansi''d straight out of my head                    [0m
-        [37;40m   (other than most of the font outlines by Mr_D) [0m
-
-                                         [37;40m-produkt[0m'
+[37;40m--------------------------------------------------------------------------------[0m'

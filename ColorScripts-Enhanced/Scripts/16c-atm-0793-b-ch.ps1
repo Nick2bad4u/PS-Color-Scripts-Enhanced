@@ -5,7 +5,7 @@
 # Source SHA-256: 5f30cc53ba4eac48db1cca83f38efa6b8415ad0944d2e7a7166a6dafc9ad894e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B-CH.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -52,11 +52,7 @@ Write-Host '
 [1;31;40m [0;31m█████████[0;1;31m█[0;31m████████[0;1;31m█[0;1;30;41m░░░[0m [1;30;41m░[0m [1;30;41m░[0;31m██   ███   █[0;1;31;41m░░░[0m  [1;31;41m░[0m [1;31;41m░░▒▒[0m [1;31;41m▒▒▒▒▒▒▒[0m [1;31;41m▒[0m [1;31;41m▒▒▒▓[0m [1;31;41m▓▓▓▓▓▓[0m [1;31;41m▓[0;1;31;40m█████[0m
 [1;31;40m [0;31m▀███████[0;1;31;41m▄[0;1;31;40m▀[0;31m▀██████[0;1;31;41m▄[0;1;31;40m▀[0m
 [1;31;40m   [0;31m▀▀▀▀▀[0;1;31m▀    [0;31m▀▀▀▀[0;1;31m▀[0m
-                                 [1;37mCelest[0mial [1;30mHapp[0menin[1mgs BBS[0m
-                                     [1mSy[0msop  [1;30m: S[0murfa[1mce[0m
+                                 [1;37m      [0m    [1;30m    [0m    [1m      [0m
+                                     [1m  [0m     [1;30m   [0m    [1m  [0m
 
-                                      [1m([0m301) [1;30m424[0m-815[1m8[0m
-
-
-
-[1;34mBjorn[0;1;33m∙[0;1;31mATOM[0;1;33mi[0;1;31mC H[0;1;33me[0;1;31mad[0m'
+                                      [1m([0m301) [1;30m424[0m-815[1m8[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 47818e99e33eb703f0d91f2b48f02cd8a9dec736df5ab237604d53875eee8f4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: gdr-mim1.ans by Gravedancer (mimic11); released in mimic11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -45,6 +45,4 @@ Write-Host '
 [1;37m$$$$$$$$$$$b      [0;1;31m [0;33m;I8888[0;1;31m888888888888888[0;33m888IIiiiii;;;[0;1;31m  [0;1;37m      d$$$$$$$$$$$$$$$$$$[0m
 [1;37mF**²²²''''''``[0m          [33m;;;;;;;[0m           [33miii;;;;;;[0m   [33m;[0m         [1;37m```''''''²²²****7$$$$$[0m
 [1;37m           [0m                 [1mM I M I C   [0m     [1m1 9 9 9[0m
-[1m--[0m
-[1mI''ll be taking a few requests since I''m drawing a bit more, email me at[0m
-[1mgdr@mimic.ca[0m'
+[1m--[0m'

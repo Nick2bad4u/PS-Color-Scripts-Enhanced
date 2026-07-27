@@ -5,7 +5,7 @@
 # Source SHA-256: acac24aa8d7cd9a130f9e2984bedbe1e7b096bf10b424bbb10e7d482c9db471b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FK-Z.ANS by Farbekrieg (fire1094); released in fire1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Heavy Metal
 # SAUCE Author: Farbekrieg
 # SAUCE Date: 19941008
@@ -36,20 +36,20 @@ Write-Host '
 
       [1;37m▄▄[0m▄▄[1m▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄ [1mH E A V Y  M E T A L [0m▄▄[1m▄▄▄▄▄▄▄▄▄[0m▄[1m▄▄▄[0m▄▄[1m▄[0m▄[1m▄▄[0m
 [1m   [0m▄[1m▀[0m▀                                                               ▀[1m▀[0m▄
-     [1;30mHell i liked the    [0;1;37mThis is not for a Board[0m     [1;30m"WaR Chickens!"[0m
-     [1;30mMovie so much i ▐   [0;1;37mIt is Simply a Font,[0m      [1;30m▌  i know yer out[0m
-[1;30m  [0;1;37m▀  [0;1;30mdone stole the  ▌   [0;1;37mcause all ansi''s need[0m     [1;30m▐[0m     [1;30mthere....[0m      [1;37m▀[0m
-     [1;30mfont..[0m          [1;30m▐   [0;1;37mfonts. Ansi''s w/o Fonts   [0;1;30m▌[0m
-                     [1;30m▌   [0;1;37mAre like chickens w/o[0m     [1;30m▐[0m
-[1;30m  [0m▄    [1;30mMagiK Greetz    ▄[0m         [1;37mlips.[0m          [1;30m▄ ▀[0m                     ▄
+     [1;30m                    [0;1;37m                       [0m     [1;30m               [0m
+     [1;30m                ▐   [0;1;37m                    [0m      [1;30m▌                [0m
+[1;30m  [0;1;37m▀  [0;1;30m                ▌   [0;1;37m                     [0m     [1;30m▐[0m     [1;30m         [0m      [1;37m▀[0m
+     [1;30m      [0m          [1;30m▐   [0;1;37m                          [0;1;30m▌[0m
+                     [1;30m▌   [0;1;37m                     [0m     [1;30m▐[0m
+[1;30m  [0m▄    [1;30m                ▄[0m         [1;37m     [0m          [1;30m▄ ▀[0m                     ▄
                               [1;30m▀[0m            [1;30m▀[0m
-[1;30m  [0;1;37m■   [0;1;30mHal- Again, yer always here..[0m                                     [1;37m■[0m
-[1;37m  [0m·   [1;30mVagrant.. No baseball; no problem[0m                                 ·
-  [1m■   [0;1;30mFlood- I still like Fist of the N. Star[0m                           [1;37m■[0m
-      [1;30mFiRE- Hey people i really dont know y''all[0m
-[1;30m  [0m▀   [1;30mSilence- How bouts a Pic every once in a while :)[0m                 ▀
-      [1;30mALL ANSI GODS- I think i may have stole this font style from one[0m
-[1;30m  [0;1;37m▄   [0;1;30mof y''all.. sorry didn''t intend to.[0m                                [1;37m▄[0m
+[1;30m  [0;1;37m■   [0;1;30m                             [0m                                     [1;37m■[0m
+[1;37m  [0m    [1;30m                                 [0m                                  
+  [1m■   [0;1;30m                                       [0m                           [1;37m■[0m
+      [1;30m                                         [0m
+[1;30m  [0m▀   [1;30m                                                 [0m                 ▀
+      [1;30m                                                                [0m
+[1;30m  [0;1;37m▄   [0;1;30m                                  [0m                                [1;37m▄[0m
 
-[1;37m   [0m▄    [1;30mjeezus, looks like i aspire to a lit postion! :)[0m               ▄
+[1;37m   [0m▄    [1;30m                                                [0m               ▄
     [1m▀[0m▀[1m▄[0m▄▄[1m▄▄▄▄▄[0m▄[1m▄▄▄[0m▄[1m▄▄▄▄[0m▄▄▄▄[1;30m▄▄▄▄▄▄[0m       [1;30m▄▄▄▄▄[0m▄▄▄[1m▄▄ ▄▄▄▄[0m▄[1m▄▄[0m▄▄▄[1m▄▄[0m▄ ▄[1m▄▄▄[0m▀[1m▀[0m'

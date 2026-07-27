@@ -5,7 +5,7 @@
 # Source SHA-256: ee779f16863381e2868b03295828f06c53bcb64679b27b3a4fe922c961bf3cf7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-Y2K.ANS by Knocturnal + Zippy (Fokus fonting); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: y2k
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Fokus fonting
@@ -37,6 +37,4 @@ Write-Host '
 [34;40m██[0m   [35;40m▀█▄█▀█████████████▀█▄██▌[0m   [34;40m ██████[0;1;34;40m▒▒▒[0;34m██  [0;37m   ▀▀[0;1;37;47m▀█[0m█[35m▄[0;37m    ▀[0;35;47m▄[0;37;40m█▄▄████████[0;35;47m▄▄[0;37;40m▀[0;35;40m▀[0m   [34;40m [0m
 [34;40m███▄[0m   [35;40m▀▀█▓▄▀▀█▓▓▓█▀▀█████▀[0m    [34;40m█ ███████████▄███▄▄[0;37;40m    [0;35;40m▀▀[0;37;40m  [0;34;40m▄[0;37;40m   [0;35;40m▀[0;37;40m▀[0;35;47m▄[0;37;40m█▄▄▄██▄[0;35;40m▄[0m    [34;40m  █[0m
 [34;40m██████▄▄[0m   [35;40m▀▀███▄▄████▀▀[0m    [34;40m▄▄███████████▀███████████▄▄▄▄▄██▄▄ [0;37;40m    ▀▀[0;35;40m▀▀▀▀[0;37;40m  [0;34;40m▄████[0m
-[34;40m▀▀▀▀▀▀▀▀▀[0m      [37;40m [0;35;40m▀▀▀[0m       [34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀           ▀▀▀▀▀[0m
-                                                                     [34;40m           [0m
-[37;40m                      [0m   [37;40mknocturnal+zippy of fokus fonting : h3LLO@!_[0m'
+[34;40m▀▀▀▀▀▀▀▀▀[0m      [37;40m [0;35;40m▀▀▀[0m       [34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀           ▀▀▀▀▀[0m'

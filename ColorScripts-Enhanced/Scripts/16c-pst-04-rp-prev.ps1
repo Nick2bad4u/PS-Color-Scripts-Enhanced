@@ -5,7 +5,7 @@
 # Source SHA-256: b287a85f76e37640b5f17ecc58dd867a2898d68642d072f0e4b4eb7346df1dea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RP-PREV.ANS by rippa (polyester); released in pst-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: revolution
 # SAUCE Author: rippa
 # SAUCE Group: polyester
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                            [1;30m...[0;36mpsychotic[0;1;36m%[0;36mrevolution[0;1;30m..[0m
+                            [1;30m   [0;36m         [0;1;36m [0;36m          [0;1;30m  [0m
                                      [1;33m [0;1;36m  [0;1;30m [0m
               [36m   ▄▄▄[0m        [36m   ▄▄▄  [0;37m [0;1;30m  ▄▄ [0;36m      [0m        [36m   ▄▄▄ [0m
              [36m▄[0;1;36;46m░░[0;36m█▀ ▀███▄[0m   [36m▄█▓█▀ ▀███▄ [0;1;30m▀[0;1;36m█[0;1;36;46m▓░[0;1;33;46m [0;36m     [0;1;36m   [0;36m ▄▄▄███▀ ▀[0;1;36;46m░░░[0;36m▄[0m
@@ -34,8 +34,4 @@ Write-Host '
 
 
 
-[1;30m----------───>> >[0m
-[1;30mSession Start: Fri Jul 26 21:39:01 1998[0m
-[1;30m<[0mpolo^^[1;30m> [0mpolyester BWAHAHAAH YOU LAME GROUP!!
-[1;30m<[0mrippa[1;30m> [0mpcwave. that''s MY rebuttle.
-[1;30mSession Close: Fri Jul 26 19:57:14 1998[0m'
+[1;30m----------───>> >[0m'

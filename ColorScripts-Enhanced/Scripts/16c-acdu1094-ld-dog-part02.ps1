@@ -5,7 +5,7 @@
 # Source SHA-256: 2e1e53ca21eb386b7d3f8f0171edf6e6c30ee2887630228a000252401bafb22e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-DOG.ANS by Lord Jazz (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Delusions of Grandeur
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -63,5 +63,4 @@ Write-Host '
 [1;36;40m [0;1;33;40m▄▄ [0;1;33;43m█[0;1;33;40m▄ [0m▐[1;47m▒▓▓[0;1;40m████████████████████[0;1;46m▓▓██[0;1;40m█▄   ▀   ▄[0;1;46m▓[0;1;40m████[0;1;46m▓[0;1;40m█████████████████[0;1;47m▓[0m▌  [1;33;43m█[0;1;33;40m▄▄   [0;1;36;40m▀[0m
 [1;33;43m█[0;1;33;47m▓[0m [1;33;43m█[0;1;33;47m▓[0;1;33;43m█[0m  [1;37;47m░▒▓▓[0;1;37;40m████████████████████[0;1;37;46m▓[0;1;37;40m▓████[0m     [1;37;40m█▓███[0;1;37;46m▓▓[0;1;37;40m█████████████████[0;1;37;47m▓▒[0m [1;33;40m▐▌ [0;1;33;47m▓[0;1;33;43m██[0m [1;33;40m▄[0m
 [1;33;43m▓[0m [1;33;43m▓[0;1;33;40m▓[0;1;33;43m█[0m [1;33;43m█[0m ▐[1;46m░[0;1;47m▒▓▓▓[0;1;40m████████████████████[0;1;46m▓[0;1;40m████   █[0;1;46m▓█[0;1;40m██[0;1;46m▓▓[0;1;40m████████████████[0;1;47m█▓▒[0m▌ [1;33;47m▓[0;1;33;43m█[0;1;33;40m▌ [0;1;33;43m█[0;1;33;40m▓[0;1;33;43m█[0m [1;33;40m▀[0m
-[1;33;40m ▐[0;1;33;43m▒▓[0m [1;33;40m▐▓[0;1;33;43m█[0m ▀█[1;47m░▒▓▓▓[0;1;40m███████████████████████▌ ▐█████████████████████[0;1;47m█▓▓▒░[0m  [1;33;40m▐[0;1;33;43m█▓[0m  [1;33;43m█▓▒[0m
-'
+[1;33;40m ▐[0;1;33;43m▒▓[0m [1;33;40m▐▓[0;1;33;43m█[0m ▀█[1;47m░▒▓▓▓[0;1;40m███████████████████████▌ ▐█████████████████████[0;1;47m█▓▓▒░[0m  [1;33;40m▐[0;1;33;43m█▓[0m  [1;33;43m█▓▒[0m'

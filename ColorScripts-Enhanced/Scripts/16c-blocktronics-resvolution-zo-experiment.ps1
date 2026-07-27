@@ -5,7 +5,7 @@
 # Source SHA-256: 4b09fb0c6ee84b3565a9ba6ffaf597a14529fbe8627fc20328966c39dcdff9be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zO-experiment.ans by Enzo (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -42,6 +42,4 @@ Write-Host '
 [1;31;40m███████████▓██████[0;1;31;43m█████████████████▄▄▄▄██[0;1;31;40m█▄[0;33m▄▄[0;1;31;43m▓▓[0;33m▀▀[0;1;31;43m▀██[0;33m▓[0;1;31;43m▓▓[0;1;31;40m█  [0;1;31;43m▓▓[0;1;31;40m███[0;1;31;43m▄[0;1;31;40m ████[0;1;31;43m▄[0;1;31;40m  ██[0;1;31;47m  [0;1;31;40m████[0m
 [1;31;40m█████████████████████████[0;1;31;43m███████▒▒▒███████████[0;1;31;40m██████████[0;1;31;43m▄[0;1;31;40m ███[0;1;31;47m▓▓[0;1;31;40m██▓█[0;1;31;47m ▀[0;1;31;40m█[0;1;31;43m▄[0;1;31;40m ▒██[0;1;31;47m▓▓[0;1;31;40m███[0m
 [1;31;40m█████████████████████[0;1;31;43m██████▀▀▀[0;33m██[0;1;31;43m▄█[0;1;31;40m███████▓▓▓▓▓███████████[0;1;31;43m▄[0;1;31;40m███████████[0;1;31;47m▄[0;1;31;40m██████████[0m
-[1;31;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
-
-     [36m_ quick ansi experiment by enzOlito gonzales of Blocktronics Barrio[0m'
+[1;31;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m'

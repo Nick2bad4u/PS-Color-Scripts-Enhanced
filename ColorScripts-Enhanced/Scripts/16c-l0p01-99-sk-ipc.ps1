@@ -5,7 +5,7 @@
 # Source SHA-256: c8895eb5829fe7a740ba5679d851ea3f5e920099004971dac2ae958fd3b5ca04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!IPC.ANS by sIMONkING (thelo0p); released in l0p01_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iPC - polska legenda
 # SAUCE Author: sIMONkING
 # SAUCE Group: thelo0p
@@ -37,26 +37,4 @@ Write-Host '
               [33m▀▀▀[0;1;31;43m▒▒▒▒░[0;33m▀▀▀▀▀[0m           [31m   [0;1;31m █[0m        [33m░[0;37m  [0;33m█[0m         [31m░░░[0m
               [1;31m░░░[0m     [1;31m░░▒▒▓▓▓ [0;31msK![0m     [31m░░░[0;1;31m  [0m▀▄[1;31m▄[0m     [33m▄▄▀[0m
                  [1;31m░▒▒▒▒▒▒▓▓▓[0m                   [1;31m▀▀▀[0;33m▀▀[0m             [31m   [0m
-                     [1;31m▓▓▓[0m
-
-
-
-
-
-[1;30m independent people community... ta grupa BYLA legenda polskiej art sceny.[0m
-[1;30m garfield, trance, simon king... jedni z pierwszych ascii/ansi makerow w[0m
-[1;30m polsce. to wlasnie tutaj, w tej grupie i z ta grupa kojarzy ich cala scena.[0m
- [1;30mdzis ''ipc'' to puste slowo i ludzie, ktorzy chyba tak naprawde nie wiedza[0m
- [1;30mdlaczego sie tam znalezli. zla organizacja czy nieudana proba zachowania[0m
-[1;30m przy zyciu mitow?![0m
-[1;30m mam prosbe, jako ostatni z aktywnych memberow starego ipc do obecnego hq[0m
-[1;30m independet people community. zostaw ta grupe, nic ci do niej! lepiej bedzie[0m
-[1;30m dla nas wszystkich jesli stworzysz cos swojego. zostawcie ''ipc'' poki jeszcze[0m
-[1;30m ktos kojarzy ja z legenda, slawa i zaszczytem![0m
-
-                                           [1;30m       simon king/ex.ipc memba.[0m
-                                              [1;30m [0m    [1;30msimon_k@friko.onet.pl[0m
-
-
-[1;30m  logo ''ipc'' do wykorzystania tylko w packu ''thelo0p 001'' oraz przez memberow[0m
-[1;30m  pierwszego skladu ipc, czyli trance^garfielda - z dedykacja od sK!''a (1999)[0m'
+                     [1;31m▓▓▓[0m'

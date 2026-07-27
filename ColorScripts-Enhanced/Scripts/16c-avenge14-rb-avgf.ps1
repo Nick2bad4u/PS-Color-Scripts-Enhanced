@@ -5,7 +5,7 @@
 # Source SHA-256: bba484f1057963a9fb0f6be7993679f725fb7c52dc37f31c05c6066f7fbef526
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RB-AVGF.ANS by rebel (The AvengeCult); released in avenge14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: AVG
 # SAUCE Author: rebel
 # SAUCE Group: The AvengeCult
@@ -39,7 +39,7 @@ Write-Host '
 [37;40m  ▄  [0;1;30;40m▄▄█▄▄▄▄▄[0;1;37;40m  [0;1;30;40m▌▄█▌▄▄▄[0;1;37;40m [0m▄[1;30m▄[0;1;37m [0;1;30m▄[0;1;30;46m▓[0;1;30;40m▌[0;1;37;40m ▀ ▄ [0;1;30;40m▄[0;1;30;47m▀ [0;1;30;40m▄[0m    [1;30m▄▄▄▄█[0;1;30;47m▓▄[0;1;30;40m▀█▄[0;1;37;40m  ▐▀[0;1;37;47m▓[0;1;37;40m▌ [0;1;30;40m█▄▄[0;34m [0;37m▄▄ [0;1;30m▄▄▌[0m ▄▄▄▄▄  [1;30m░[0m
      ▄▄[34m [0;1;37m [0;1;30;47m▀[0;1;30;40m▄▄▄▄▄[0;1;37;40m [0m▄▄[1;30m▀▀[0;1;30;47m▀[0;1;30;40m▄▄[0m    [1;30m▌[0m   ▄▄▌[1m [0;1;30m▀[0;1;37m [0;1;30m▀[0m▄[1;30m▀▀█[0;1;30;47m▄ [0;1;30;40m▄▄▄█▓▄▄▄▄▄[0;1;37;40m  [0m▐[1m  [0;1;30m▌[0;34m [0;37m▄▄▄[0m      [37m▄▄[0m
                                                 [1;30m░[0m    [1;30m▀▀[0m   [1;30m▀▀[0m
-                  [1;30m,[0m  [1;30myesterday   was   a   million-[0m
-[1;30m                              years   ago[[0m
-                       [1;30min░ all  my  past  lives[0m
-                [1;30m.[0m   [1;30m.■''ve   played░   an   asshole[0m'
+                  [1;30m [0m  [1;30m                              [0m
+[1;30m                                          [0m
+                       [1;30m  ░                     [0m
+                [1;30m [0m   [1;30m ■            ░               [0m'

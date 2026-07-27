@@ -5,7 +5,7 @@
 # Source SHA-256: bf6d7aca07287b696ae53009629b03c926d45aaffd8c0ca75494305399ed1e17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Ap-fart.ans by Appel (Ecolove); released in eco-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Farty shit :)
 # SAUCE Author: Appel
 # SAUCE Group: Ecolove
@@ -37,22 +37,17 @@ Write-Host '
                          [1;30m▀▀[0m           [1;30m▀▀[0m                   [1;30m▀[0m  [1;30m░[0m
 
 [1;30m-------------------------------------------------------------------------------[0m
-[1;30m  This is kinda the colored version of my wired picture... i got last and i''m [0m
-[1;30m  proud of it..; cos it''s nothing but a big joke...[0m
-[1;30m  But well... 10 days before the deadline the avenger writes me an msg on the [0m
-[1;30m  deadline, and because i took kinda a break, i hadn''t worked on anything yet[0m
-[1;30m  so well... heh... :))[0m
+[1;30m                                                                              [0m
+[1;30m                                                   [0m
+[1;30m                                                                              [0m
+[1;30m                                                                             [0m
+[1;30m                       [0m
 
-[1;30m  i''m toooo lazy to draw a bg on this one :))[0m
+[1;30m                                             [0m
 
-[1;30m  see all you dudes at ambience''99... wich is gonna rock because i will[0m [1;30mbe[0m
-[1;30m  there :)) (mmm... egotripping :))[0m [1;30mno actually cos we''re gonna smoke weed &[0m
-[1;30m  drink beer (geniet maar drink met mate(n), grote maten ;)[0m
+[1;30m                                                                       [0m [1;30m  [0m
+[1;30m                                   [0m [1;30m                                        [0m
+[1;30m                                                           [0m
 
-  [1;30mWell.. if you find anyting funny to do with this piece of fart, please do[0m
- [1;30m it! [0m
-[1;30m [0m
-  [1;30mEnough shit ...[0m [1;30mi can''t actually believe you are that stupid to read all[0m
-  [1;30mthe crap ppl write under their stupid ansi shit :)[0m
-
-[1;30m  Signing off ap~ecl[0m'
+  [1;30m                                                                         [0m
+ [1;30m it! [0m'

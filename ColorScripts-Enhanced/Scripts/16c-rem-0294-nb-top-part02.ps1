@@ -5,7 +5,7 @@
 # Source SHA-256: 6227692269f4f695a2adbd1f6be16403ed7f92ac1d38f81767a4e830899fe06d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NB-TOP.ANS by Night Breed (rem-0294); released in rem-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
 [33m▒█[0;33;43m  [0;33;40m███████████[0;33;43m  [0;33;40m█[0;33;43m   [0;33;40m▒▓▓███████▓▒▓█▓▓▓▓▓▓▒▒▒[0m          [1;30;40m▀[0m▓██▒▓▄▀[31m▀▀[0;37m▄[0m
 [33m▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒[0m                 [37m▀▀▓██▓░▀[0m
 
-[1;30mAnsi: Night Breed<REM][0m
+[1;30m                      [0m
 
             [36m▄▒[0m
            [36m█▓[0m
@@ -50,13 +50,4 @@ Write-Host '
         [1;30m▓▓[0m       [1;30m▓▓  ▓▓   ▓▓    ▓▓   ▓▓[0m       [1;30mREM Inc. World Headquarters[0m
         [1;30m▓▓[0m       [35m▒[0;1;30m▓  [0;35m▒[0;1;30m▓   [0;35m▒[0;1;30m▓    [0;35m▒[0;1;30m▓   [0;35m▒[0;1;30m▓[0m       [1;30mSTC Static Message Network[0m
         [1;30m▓▓[0m       [1;30m▓[0;35m▓  [0;1;30m▓[0;35m▓   [0;1;30m▓[0;35m▓    [0;1;30m▓[0;35m▓   [0;1;30m▓[0;35m▓[0m       [1;30mSP  Silent Partners <Couriers][0m
-        [1;30m▓▓[0m      [35m▄▀▀ ▄▀▀  ▄▀▀   ▄▀▀   ▀▀▄[0m      [1;30mQC  Quality Control  <DiskMag][0m
-
-                                              [1;30mBOOMER: The Bass Pig   <CA.HQ][0m
-[1;30m  Shots out to :[0m
-                                              [1;30mThe Cast: Night Breed - Brainz[0m
-        [1;30mBrainz[0m       [1;30m<REM][0m
-        [1;30mLord Musashi <REM][0m                    [1;30mArt/Mag Shit Only![0m
-        [1;30mHurricane    <BAD][0m                    [1;30mLocals By Invite.[0m
-        [1;30mHigh Density <EMPiRE][0m                 [1;30mEnough Said.[0m
-        [35m& All REM Inc. Members.[0m               [1;35m* [0;35mREM Inc. Members Wanted [0;1;35m*[0m'
+        [1;30m▓▓[0m      [35m▄▀▀ ▄▀▀  ▄▀▀   ▄▀▀   ▀▀▄[0m      [1;30mQC  Quality Control  <DiskMag][0m'

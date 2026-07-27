@@ -5,7 +5,7 @@
 # Source SHA-256: 3ed39e917eba5516479d9145a4a9faccab294345a93b89868f601adf184c1800
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMP-BH.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Shrimp
 # SAUCE Group: Foliage
 # SAUCE Date: 20010706
@@ -15,7 +15,7 @@
 
 Write-Host '
                     $[1m$$[0m$                                    [36m.[0m
-                    [37m$[0;1;37m$$[0m$            [34m.  `[0m               [34m, `[0m       [1;37mShrimp[0m([32mFoliage[0;37m)[0m
+                    [37m [0;1;37m  [0m             [34m    [0m               [34m   [0m       [1;37m      [0m [32m       [0;37m [0m
                     [37m$[0;1;37m││[0mP[34m  [0m   [34m_[0;36m.,[0;34m▬p`[0m                 [34m,dP[0m
                 [34m [0m   [37m''[0;34m__.,▬g\[0;36m$$$[0;34mP`[0m                   [34m$[0;36m$[0;34m$┐.[0m          [1;37m-WHOLEtype[0m
           [34m  _.,┌∟g#S[0;1;34m$│[0;34m││[0;36m$[0;34m$[0;36m$$$$$$[0;34m/a.[0m                 [34m`/$$[0;36m$$[0;34mb∟g┐▬._[0m
@@ -30,7 +30,7 @@ Write-Host '
  [32m__ [0m    [34m  b.  \\∟[0;1;34m*└[0;34mⁿ"`    [0;32m_ [0;34m  .\│[0;36m$$$[0;34m│\` [0m    [32m_____________[0;34m  1$$[0;36m$$$[0;34m$$l [0;37m [0;34mbio[0;36mhazard[0m
 [37m [0;1;32m$[0;32mP[0;36m  [0;34m.┌[0;36ma\$$[0;34m$b  `.[0m   [37m,#S$[0;34m  [0;32m''[0;34m ,\$[0;36m$$$$[0;34ml:  [0;32m .\[0;1;32mS$$$$$[0;32m$[0;1;32m$$[0;32m│j$\*┘[0;34m   1$[0;36m$$$[0;34m$$$;[0m
 [37m [0;32m1[0;36m  [0;34mj$[0;36m$[0;1;36m$$[0;36m$[0;34m1``  [0;32m__[0;34m . [0;37m$[0;1;37m$$[0m$   [34m;$$[0;36m$$[0;1;36m$$[0;36m$[0;34m$/.[0m   [32m`ⁿ[0;1;32m$$[0;32mP┘ⁿ"^~[0m     [34m_.,d[0;36m$$$$[0;34m$$$\ [0;37m [0;34mscan for[0m
-[37m [0;32m:[0;36m  [0;34m?[0;36m$[0;1;36m$$$[0;36m$[0;34m1_[0m   [32m`┘[0m   [37m$[0;1;37m$$[0m$[34m  [0;32m [0;34m `└/│[0;36m$$$$$[0;34m│/┐.  [0;32m''[0m    [34m_.,▬∟g#S[0;36m$$$$$$[0;34m$│j\`[0m   [34mnew shit? [0m
+[37m [0;32m [0;36m  [0;34m [0;36m [0;1;36m   [0;36m [0;34m  [0m   [32m ┘[0m   [37m [0;1;37m  [0m [34m  [0;32m [0;34m  └ │[0;36m     [0;34m│ ┐   [0;32m [0m    [34m   ▬    [0;36m      [0;34m │   [0m   [34m          [0m
 [37m [0;32m$.[0;36m  [0;34m`*[0;36m│$$$$[0;34m$/┐. [0m   [37m$[0;1;37m$$[0m│[34m  [0;32m¢*-[0;34m   ?$[0;36m$$$$$[0;34m$b[0m    [34m.\$[0;36m$$$$$$$$$│[0;34m\*└ⁿ`[0m
 [37m [0;1;32m$$[0;32mb,_[0;34m  `ⁿ└[0;36m/$$[0;34m$$1   [0;37m└[0;1;37mⁿ`[0m [34m _.,┌g%S[0;36m$$$$$[0;34m$│\`  .\$[0;36m$$$[0;1;36m$$[0;36m$$[0;34m$\└`[0;37m  [0;32m.  [0m      [34m  Yes  [0;1;37;44m NO [0m
  _________[34m  1$[0;36m$[0;34m$$  .┌a\[0;36m$$[0;34m$$[0;36m$$$$$\[0;34m*└ⁿ"~ [0m   [34m:$[0;36m$$$[0;1;36m$$$[0;36m$$[0;34mP`  [0;1;30m__[0m_____________________

@@ -5,7 +5,7 @@
 # Source SHA-256: cde93ff0a829721bd8fbd404abdfa6c1f48149eb264b72a74f4c5876f18561dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL_GAS1.ANS by Blitzkrieg (wiz-0296); released in wiz-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -36,6 +36,4 @@ Write-Host '
           [32mP e n g u i n   P a l a c e   D i s t r o / M e m b e r[0m
            [35mF i r e  M e m b e r  B o a r d / W e s t e r n   H Q[0m
                     [1;36mS o l e  M e m b e r  B o a r d[0m
-                    [1;34mA C i D  M e m b e r  B o a r d[0m
-
-                          [1;30mAnd a shit load more![0m'
+                    [1;34mA C i D  M e m b e r  B o a r d[0m'

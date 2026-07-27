@@ -5,7 +5,7 @@
 # Source SHA-256: 52b6bcc1165153b8f2687b9bcb2ef472ebad6d6b10591d82df98f7c5fc113204
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EMPIRE1.ANS by Jed + Rad Man (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-95
 # Columns: 1-80
 
@@ -51,7 +51,4 @@ Write-Host '
   [1;30;47m▌[0;1;30;41m   [0;41m▀[0;1;30;47m▀▀▀▀▀▀▀[0;41m▀   [0;1;30;47m▐▐[0m [1;30;47m▄[0;41m▄[0;1;30;47m▄[0m [1;30;47m▌[0;1;30;41m   [0;1;30;47m▐▌[0;31;47m███▀▀[0;1;30;47m▄▄[0m     [41m▌ ▐[0m     [41m▌  [0;40m█[0;41m   ▄▄[0;1;30;47m▄[0m     [1;30;47m▌[0;1;30;41m   [0;41m▐[0;1;30;40m█▀    ▄[0;1;30;47m▀▐[0m
   [41m▌               [0;1;30;47m▐[0;31;47m▌[0;1;30;40m▌   ▐[0;41m▌   ▐[0;1;30;47m▌[0;31;47m███[0;1;30;47m▐[0m       [1;30;47m▌[0;1;30;41m   [0;1;30;47m▐[0m   [1;30;47m▌[0;1;30;41m   [0;1;30;47m▐[0m█[41m ▀[0;1;30;47m▀▀[0m     [1;30;40m▐[0;41m▌    ▀[0;1;30;47m▀▀▀▀▀[0;41m▀ [0;1;30;47m▐[0m
 [1;30;40m▄[0;1;30;47m▀[0m█[41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▐[0;31;47m▀[0;37;40m█[0;1;30;47m▀[0;1;30;40m▄[0;1;30;47m▀[0m█[41m▄▄▄▄▄[0;40m█[0;31;47m▀▀▀[0;37;40m█[0;1;30;47m▀[0;1;30;40m▄   ▄[0;1;30;47m▀[0m█[41m▄▄▄[0;40m█[0;1;30;47m▀[0;1;30;40m▄[0;1;30;47m▀[0m█[41m▄▄▄[0;40m█[0;1;30;47m▀▄[0;41m▄▄ ▀▀[0;1;30;47m▀▀▀[0;41m▀▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;47m▐[0m
-[1;37;40m [0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [1;30;40m▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀ ▀▀[0;1;30;47m▄▄[0;41m▄▄▄▄[0;1;30;47m▄[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-      [34m∞[0m [33mUn[0;1;33mde[0;1;37mrGr[0;1;33mou[0;33mnd[0m [31mE[0;1;31mm[0;1;37mpi[0;1;31mr[0;31me[0m [34m∞[0m [33m([0;1;33m908[0;33m)[0m [1;33m283[0;33m-[0;1;33m4889[0m [34m∞[0m [1;30mH[0;37mST[0m [1;37mSupp[0mor[1;30mt[0m [34m∞[0m  [33mANS[0;1;33mi[0m [33mBy:[0m [1;37mJ[0;1;33mE[0;1;32mD[0m
-    [34m∞[0m [1;37mSy[0;1ms[0;1;37mOp[0;1;30m:[0m [1;37mLord[0m [1;37mChaos[0m [34m∞[0m [35m20[0;1;35m0+[0m [1;37mMega[0;1;35mbyt[0;35mes[0m [34m∞[0m [1;30mRu[0mnn[1;37ming[0m [1;37mCele[0;37mri[0;1;30mty[0m [34m∞[0m  [31mR[0;1;31ma[0;1;33mD[0m [1;33mM[0;1;31ma[0;31mn[0m [1;30m<[0mA[37mC[0;1;37mi[0;37mD[0;1;30m>[0m'
+[1;37;40m [0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [1;30;40m▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀ ▀▀[0;1;30;47m▄▄[0;41m▄▄▄▄[0;1;30;47m▄[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

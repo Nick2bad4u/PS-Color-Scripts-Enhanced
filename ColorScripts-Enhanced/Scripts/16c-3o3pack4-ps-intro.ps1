@@ -5,7 +5,7 @@
 # Source SHA-256: 8489c1f11e202a5dfe78e1fdef0ea0b0abea7f2811ee796dd480be7054892119
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PS-INTRO.ANS by Psychic (3o3pack4); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -33,15 +33,15 @@ Write-Host '
                [1;35m░[0m   [1;34m▓[0;33m  [0;1;34m░[0m     [33m█[0;1;31;43m▀[0;33m██  [0;1;37mr e [0;1;33;43mf[0;1;37;40m u s [0;1;33;43ma[0;1;37;40m l[0m
 [37m  [0;1;30mPsychic^3o3![0m             [33m▀▀▀▀[0m                [1;34m░[0m      [1m [0m
 
-                       [1;33;43m3[0;1;37;40mo[0;1;33;43m3[0;1;37;40m Pr[0;1;33;43mo[0;1;37;40mductions Me[0;1;33;43mm[0;1;37;40mberboard[0m
+                       [1;33;43m [0;1;37;40m [0;1;33;43m [0;1;37;40m   [0;1;33;43m [0;1;37;40m           [0;1;33;43m [0;1;37;40m        [0m
 
-                      [1;30m<[0;1;35mRape tha fuckin'' Enta 4 fun![0;1;30m>[0;1;35m [0m
+                      [1;30m [0;1;35m                            [0;1;30m [0;1;35m [0m
                                    [1;35m☺[0m
 
 [1;30m<------------------------------------------------------------------------------>[0m
 
-           [1;30mThis is my first 3o3-released pic!... it is a intro-file for[0m
-           [1;30mmy board... refusal. ;) well thats all for now![0m
+           [1;30m                                                            [0m
+           [1;30m                                               [0m
 
 
 [1;30m<-----------------------------------------------------------psychic^3o3-------->[0m'

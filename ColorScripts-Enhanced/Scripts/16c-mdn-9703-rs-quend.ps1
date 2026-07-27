@@ -5,7 +5,7 @@
 # Source SHA-256: 7f61c319c32ea6419be1d0f4b2b2ed50a257eea359f873fc94367279f66597d6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-QUEND.ANS by rorshack (Maiden Brazil); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: quendi, for noah_
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -32,5 +32,4 @@ Write-Host '
 [31m█[0;1;31;41m▓▓▓▓▓▓▓[0;31m█[0;37m [0;1;35m████[0;1;35;45m▌[0;35m▌[0;31m▐[0;1;31;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓░[0;31m▄▄[0;1;35m ▀▀[0;35m▀[0;37m [0;31m▄▄[0;1;31;41m░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄[0;31m▄[0;1;35m ▀▀██[0;1;35;45m▀[0;35m▀[0;31m▄[0;1;31;41m▒[0;31m█[0m
 [31m█[0;1;31;47m▒▓[0;1;31;41m█████[0;31m█[0;37m [0;1;35m███[0;1;35;45m▀[0;35m▀[0;31m▄[0;1;31;41m▄█████████████████████████████████████████████[0;1;31;47m▓▒▓▓[0;1;31;41m███▄▄[0;1;31;40m▄▄▄▄[0;1;31;41m▄██[0;31m█[0m
 [31m█[0;1;37m██[0;1;31;47m▒▓[0;1;31;41m███[0;31m█[0;37m [0;1;35m▀[0;35m▀[0;31m▄▄[0;1;31;41m▄██████████████████████████████████████████████[0;1;31;47m▓▒[0;1;37;40m██[0;1;31;47m▒▓[0;1;31;41m███████████[0;31m█[0m
-[31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                                [1;37mqu[0men[1;30mdi.[0m [1m+[0mo:[1;30m [0;1;37mn[0moa[1;30mh[0m'
+[31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

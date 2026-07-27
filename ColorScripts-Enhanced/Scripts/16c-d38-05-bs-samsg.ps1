@@ -5,7 +5,7 @@
 # Source SHA-256: 6c3802e006e7ea205c2b34a20fc99cf79e094333737f03ddadfd4b2d7158db19
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-SAMSG.ANS by Blind Sn]per (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Messages boiy
 # SAUCE Author: Blind Sn]per
 # SAUCE Group: Department 38
@@ -38,15 +38,5 @@ Write-Host '
 [1;31;41m█▀▀[0;31m█▀[0;37m  [0;1;33m█[0;1;36m█[0;1;34m██████████████[0;1;34;46m▓[0m [1;34m████[0;1;34;46m▓[0;1;34;40m███[0;1;36;40m██▌[0;35m  █[0;30;45m░[0;35;40m▌[0;31;40m█[0;1;31;41m▐▌[0;31m▌[0m   [35m█▄▄▄▄▌[0;37m [0;35m  ░░[0;30;45m▓[0m   [1;35;40m▀▀[0m  [30;47m▓[0;1;37;40m▓████▌[0m
 [1;31;41m▌[0;31m▀[0;35m ▄▄▌[0;1;34m [0;1;36m█[0;1;34;46m▓▓[0;1;34;40m██████[0;1;34;45m▓[0;1;34;40m██████[0;1;36;40m█▌[0;1;34;40m▒██████[0;1;36;40m██▀▀[0m [1;34m [0;35m ▒[0;37m  [0;31m▀[0;1;31;41m▀[0;31m█▄[0m   [35m▀[0;30;45m░[0;35;40m████[0;1;35;45m [0;35m█[0;1;35;45m░░▒[0;35m░[0m      [1;37m ▀▀▐██▌[0m
 [31m▀▌[0;35m ▀▐▄▄▄[0;37m [0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m█[0;1;37m█▌[0m [1;34m██▀▀[0;1;36m▀▀[0;1;34m [0m   [31m░░[0m       [31m▐▌[0m   [35m░[0m             [1;37m▀ [0m     [35m  [0m
-[37m [0;31m▀[0;37m   [0;35m▒▀▀▀[0m                      [31m             ■▀       ▄■▐[0;1;33;41maREA: porno chat[0;31m▌[0m
-[1;33;41mFat boy says, "Eye post msg''s - therefore you should t00"[0;31m█►[0;30;41m►►▌►▌►[0;31;40m▐[0;30;40m [0;31;40m▌[0;1;37;40m [0;1;33;40mt[me[0;1;37;40m:[0;30m [0;31m211[0;30m [0m
-
-[32mFor Stimpy and Stimpy only... Enjoy[0m
-
-[32mGreets to d38: Ascension, ooZe, Madcap, Myth,[0;37m [0;32mNe0phyte, Sunder,[0;37m [0;32mSyNtHeSiZ,[0m
-[32mGreets to ex-d38: Fade[0m
-[32mGreets to those guests: PhOENIX [plague], War Child [plague], War Pig [KiRRA][0m
-[32mGreets to all the rest: Abaddon, Aneurysm,[0;37m [0;32mCyanide, Gomez, kURUPT, Ripper,[0m
-                        [32mRorshack, Erekose, Cynical[0m
-
-[32mIf ya not in there, you better get back into my good books[0m'
+[37m [0;31m▀[0;37m   [0;35m▒▀▀▀[0m                      [31m             ■▀       ▄■▐[0;1;33;41m                [0;31m▌[0m
+[1;33;41m                                                         [0;31m█►[0;30;41m►►▌►▌►[0;31;40m▐[0;30;40m [0;31;40m▌[0;1;37;40m [0;1;33;40m    [0;1;37;40m [0;30m [0;31m   [0;30m [0m'

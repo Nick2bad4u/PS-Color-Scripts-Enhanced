@@ -5,7 +5,7 @@
 # Source SHA-256: bcc7fdd225dbc67870e37c9383564e754aaac6792e2da5a98d194e51a14357a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BE-DSUN1.ANS by Beastie (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Dark Sun World
 # SAUCE Author: Beastie
 # SAUCE Group: ACiD Productions
@@ -63,5 +63,4 @@ Write-Host '
                [33;40m▀███████████▓▓▒▒[0m                [33;40m░░   ▒▒▒▓▓███████[0;33;43m  [0;33;40m▌[0m
                   [33;40m▀▀████████▓▒▒░[0m              [33;40m░   ░▒▒▓▓███████[0;33;43m   [0;33;40m▀[0m
                       [33;40m▀▀█████▓▒▒░░[0m              [33;40m░░▒▒▓▓█[0;33;43m       [0;33;40m▀▀[0m
-                          [33;40m▀▀▀▓▓▒▒░░░[0m          [33;40m░░▒▒▓▓[0;33;43m   [0;33;40m▀▀▀▀[0m
-                             [1;30m...Alter Ego''s...[0m'
+                          [33;40m▀▀▀▓▓▒▒░░░[0m          [33;40m░░▒▒▓▓[0;33;43m   [0;33;40m▀▀▀▀[0m'

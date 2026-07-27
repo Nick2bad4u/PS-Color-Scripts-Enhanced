@@ -5,7 +5,7 @@
 # Source SHA-256: b25467ba6cd5259021e0a2c5d7580d45f89fdcf0f39218a4b9f876f22cd9fff1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRS-FOR.ANS by Crasher (just-x/galza); released in galza-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: forward
 # SAUCE Author: Crasher
 # SAUCE Group: just-x/galza
@@ -38,11 +38,5 @@ Write-Host '
 [1;33;46m█████▓▓▒▒▒░░░░░[0;36;44m███████▓▓▓▓▓▓▓▓▒▒▒▒▒░░░░[0;34;40m███▓▓▓▒▒░░░[0;1;37;40m  `\$[0;1;37;47m╫╫[0;1;36;47m░[0m████[1;30;47m░░▒▒▓▓▓[0;1;30;40m█████▓▓▓▓▓[0m
 [1;33;46m███████▓▓▓▒▒▒▒▒░░░░░░░[0;36;44m████████▓▓▓▓▓▒▒▒▒░░░[0;34;40m███▓▓▒▒▒░░░[0;1;37;40m  `└?╫[0;1;37;47m╫[0m████[1;30;47m░░▒▒▒▓▓▓▓▓[0;1;30;40m█████ [0m
 [1;33;46m██████████▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░░[0;36;44m█████▓▓▓▓▒▒▒░░░[0;34;40m██▓▓▓▒▒▒░░░░[0;1;37;40m  `└?[0;1;37;47m╫[0m████[1;30;47m░░░▒▒▒▒▓▓▓▓▓[0m
-[1;30mcrasher[0;34m [0;1;30m//[0;34m [0;1;30mjust-x / galza[0;34m                                                       [0m
-[1;30m███████████████████████████████████████████████████████████████████████████████ [0m
-[1;30m                                                                                [0m
-[1;30m                                                                                [0m
-[1;30m                                                                                [0m
-[1;30m                                                                                [0m
-[1;30m                                                                                [0m
-[1;30m                                                                                [0m'
+[1;30m       [0;34m [0;1;30m  [0;34m [0;1;30m              [0;34m                                                       [0m
+[1;30m███████████████████████████████████████████████████████████████████████████████ [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4731d88a3767fa2df04cff9f91d706cf1964c421d9060477fa123d6d89cd2f93
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dy1-jen.ans by Discyple (clit-63); released in clit-63 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -31,16 +31,4 @@ Write-Host '
 [1;31m  [0;33m.d[0;1;31m$$$$$$$$$$$$$[0;33mb┐. [0;1;31m$$$$$$$$$$$$$$[0;33ml [0;30;46m▓[0m       [33;40md[0;1;31;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [33m,[0;1;31m$$$$$$$$$$$$$$$$$$$[0;33mb[0;1;31m$$$$$$$$$$$$$$[0;33m$_.,┌⌐s#[0;1;31mS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-[35m───────────────────────────────────────────────────────────────────────────────[0m
-[33m<< [0;1;37mJEN [0;33m>> SHE SUPPORTS MY ASCII!!@#[0m
-
-[33mthis is.. discyple-does-inverse-and-tries-meatpod-coloring-and-fails-badly...[0m
-[33mhi jules :)[0m
-
-[33mthis ascii is dedicated to my woman [0;1;37mJen[0;33m; without her this ascii would not[0m
-[33mhave been possible...  I love you, and we''ll be together again soon.[0m
-
-[33mShe gives me ascii skills. :)[0m
-
-[33mScott[0m
-[33m<[0;1;37mscott[0m@[1mbreaks[0m.[1mfor[0m.[1malienz[0m.[1morg[0;33m>[0m'
+[35m───────────────────────────────────────────────────────────────────────────────[0m'

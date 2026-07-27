@@ -5,7 +5,7 @@
 # Source SHA-256: 57dd524cbd453f3ef7f8a8bf9e93531759c47c90ec9afb38b56ea1e8d8c0186c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EK-AA1.ANS by Euphonik (mOist); released in moi-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Alderaan
 # SAUCE Author: Euphonik
 # SAUCE Group: mOist
@@ -28,7 +28,7 @@ Write-Host '
 [1;30m████▀██████▄[0m ░[1;30m▄█▀███▀▀▀▀[0m ░[1;30m▄▄▀▀▄▄▄▀[0m [1;30m■▓[0m
 [1;30m████▄▀████████▄██████████████▄▄████▄█[0m euphonik..
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;35mthis cute lttle pic done by ek of mOist[0m
+[1;35m                                       [0m
 [1;33m██████▄█[0;1;30m▀[0;1;33m██████████▀▄[0m  [1;33m▀▀[0;1;30m░[0;1;33m■■[0m                 [1;32m▄▄█[0;1;32;42m▄▀▀[0;32m█[0;1;32;42m▀▀[0;32m█████████████[0;1;32;42m▀▄[0;32m█▄▄[0m
 [1;33m████  █▓  ███████[0;1;33;43m▓[0;1;33;40m▓█[0;1;33;43m▓[0;1;33;40m█▄ ▀▀ ░[0m [1;33;40m■[0m      [32m░░[0m [1;32m▄▄▓███[0;1;32;42m▀▀▓[0;32m██████████████▓▓▄████[0;1;32;42m▀[0;32m██▀▀▄[0m
 [1;33m███▓  ██  █▓█[0;1;33;43m▓[0;1;33;40m■▀[0;1;33;43m▓[0;1;33;40m▀▀[0;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;32m■▀█[0;1;32;42m▀▓░[0m [32m▄██[0;1;32;42m█░[0;32m███▓▓█████████[0;1;32;42m▄▄[0;32m██████[0;1;32;42m▀▄░[0;32m██[0m

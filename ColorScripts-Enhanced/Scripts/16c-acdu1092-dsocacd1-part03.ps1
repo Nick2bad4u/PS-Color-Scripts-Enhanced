@@ -5,7 +5,7 @@
 # Source SHA-256: 5ffb53c760bb2a4b8ab3dde5afd349530a83ed20fcb767c83e243b11aba7c03c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DSOCACD1.ANS by Cerebrus (acdu1092); released in acdu1092 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 93-128
 # Columns: 1-80
 
@@ -35,9 +35,9 @@ Write-Host '
 [1;33;41m ░░░░░░░░░ [0;31m▀ ▀[0;31;41m [0;1;33;41m░░░░░░░░ [0;31m▀ ▀[0;31;41m [0;1;33;41m░░░░░░░░ [0;31m▀ [0;31;41m [0;1;33;41m░ [0m [31m▀[0;31;41m [0;1;33;41m░░░░░░░░ [0m     [1;33;41m ░ [0m         [1;33;41m ░ [0m
 [1;33;40m [0;31m▀▀▀▀▀▀▀▀▀[0m     [31m▀▀▀▀▀▀▀▀[0m     [31m▀▀▀▀▀▀▀▀    ▀▀   ▀▀▀▀▀▀▀▀▀[0m      [31m▀▀[0m          [31m▀▀[0m
    [1;30m[[0;36m·····························[0;1;30mD[0ma[1;37mrk[0m [1;30mS[0;37mo[0;1;37mciety[0;36m·····························[0;1;30m][0m
-   [36m[···[0;1;30mS[0;37my[0;1;37msOp:[0m [1;30mS[0;35mh[0;1;35marp[0;34m,[0m [1;30m[[0;37m4[0;1;37m0[0;37m8[0;1;30m]-[0m2[1;37m6[0m8[1;30m-[0;37m7[0;1;37m308[0;34m,[0m [1;30mD[0mu[1;37mal[0m [1;30mS[0;37mt[0;1;37mandard[0;34m,[0m [1;30mN[0;37mU[0;1;37mP:[0m [1;30mU[0;35mn[0;1;35mited[0m [1;30mV[0;35me[0;1;35mnture[0;36m···][0m
-   [1;36m[[0;36m········[0;1;30mC[0mo[1;37mSysOp''s:[0m [1;30mC[0;35me[0;1;35mrebrus[0;34m,[0m [1;30mT[0;35mh[0;1;35me[0m [1;35mGray[0m [1;35mRanger[0;34m,[0m [1;30mT[0;35mh[0;1;35me[0m [1;35mUnder[0m [1;35mTaker[0;36m·········[0;1;36m][0m
-   [36m[······[0;1;30mI[0mN[1;37mC[0m [1;30mA[0;1;37mffiliate[0;34m,[0m [1;30mN[0mO[1;37mT[0;1m![0;34m/[0;1;30mN[0mD[1;37mN[0;34m/[0;1;30mM[0mi[1;37mRAGE[0;34m/[0;1;30mU[0mI[1;37mD[0;34m/[0;1;30mN[0;37mI[0;1;37mG[0;34m/[0;1;30mU[0;37mn[0;1;37mReal[0m [1;30mD[0mi[1;37mstribution[0;36m······][0m
+   [36m    [0;1;30m [0;37m [0;1;37m    [0m [1;30m [0;35m [0;1;35m   [0;34m [0m [1;30m [0;37m [0;1;37m [0;37m [0;1;30m  [0m [1;37m [0m [1;30m [0;37m [0;1;37m   [0;34m [0m [1;30m [0m [1;37m  [0m [1;30m [0;37m [0;1;37m      [0;34m [0m [1;30m [0;37m [0;1;37m  [0m [1;30m [0;35m [0;1;35m    [0m [1;30m [0;35m [0;1;35m     [0;36m    [0m
+   [1;36m [0;36m        [0;1;30m [0m [1;37m        [0m [1;30m [0;35m [0;1;35m      [0;34m [0m [1;30m [0;35m [0;1;35m [0m [1;35m    [0m [1;35m      [0;34m [0m [1;30m [0;35m [0;1;35m [0m [1;35m     [0m [1;35m     [0;36m         [0;1;36m [0m
+   [36m       [0;1;30m [0m [1;37m [0m [1;30m [0;1;37m        [0;34m [0m [1;30m [0m [1;37m [0;1m [0;34m [0;1;30m [0m [1;37m [0;34m [0;1;30m [0m [1;37m    [0;34m [0;1;30m [0m [1;37m [0;34m [0;1;30m [0;37m [0;1;37m [0;34m [0;1;30m [0;37m [0;1;37m    [0m [1;30m [0m [1;37m          [0;36m       [0m
 [36;41m [0m  [1;30m[[0;36m·················[0;1;30mP[0;37mR[0;1;37miSM[0m [1;30mN[0;1;37met[0;34m,[0m [1;30mC[0mC[1mi[0;1;37mNet[0;34m,[0m [1;30mF[0mu[1;37msion[0;1;30mN[0;37me[0;1;37mt[0m [1;30mM[0;37me[0;1;37mmber[0;36m··················[0;1;30m][0m  [31;40m█[0m
 [31;41m  [0m     [31;40m▄▄[0;1;31;40m▄[0;31m▄[0m                                                           [31m▄▄▄[0m  [31m▄[0;1;31;41m░ [0m
 [1;31;41m░▒▓[0;31m▄▄▀▀▀[0;31;41m  [0;1;31;41m▀▓[0;31m▄[0m           [1;33mC[0;1;34mere[0;1;30mbrus[0m [1;30mof[0m [1;30m<[0;35m/[0;1;35m┤C[0;1;33mi[0;35mD[0;1;30m>[0m [1;30mP[0;35mro[0;1;35mdu[0;1;37mc[0;1;35mti[0;35mon[0;1;30ms[0m           [1;31m▄[0;1;31;41m▓ [0;31m▀▄▄▄[0;1;31;41m▓▓▒░ [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 48aef444baea4bcb9cf09f1121c6ed47f69dd985df0f756121f3923f3f320d7b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FILEM.ANS by Amroth (am-gore); released in am-gore and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -28,9 +28,9 @@ Write-Host '
 [1;31;40m  [0;31m▄▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄▄[0;1;31;41m▒▒[0;31m█▀▀▓[0;1;30m▀▄█▀▀[0;31m▄▄▓▓▓▐[0;1;37;41m▌[0;31m█[0;1;31;41m([0;1;37;41mE[0;30;41m)dit Uploads        [0;1;31;41m([0;1;37;41mU[0;30;41m)pload File   [0;1;31;41m░[0m
 [1;31;40m [0;31m▀───────────▄█[0;1;37;41m■.[0;31m██[0;31;41m   [0;31;40m█▄▄▓▓▓▓▄[0;1;37;41m.■[0;31m███▄▄▐[0;1;37;41m▌[0;31m█[0;1;31;41m([0;1;37;41mG[0;30;41m)oodbye             [0;1;31;41m([0;1;37;41mV[0;30;41m)iew Archive  [0;1;31;41m▒[0m
             [31m▀────────────────────────▐[0;1;37;41m▌[0;31m█[0;1;31;41m([0;1;37;41mI[0;30;41m)Generate Listing   [0;1;31;41m([0;1;37;41mX[0;30;41m)Request List [0;1;31;41m▒[0m
-                                     [31m▐[0;1;37;41m▌[0;31m█[0;1;31;41m([0;1;37;41mK[0;30;41m)onfigure File list [0;1;31;41m([0;1;37;41mY[0;30;41m)Your Stats   [0;1;31;41m▓[0m
-                                     [31m▐[0;1;37;41m▌[0;31m█[0;1;31;41m([0;1;37;41mL[0;30;41m)ist Files          [0;1;31;41m([0;1;37;41m+[0;30;41m)Add To Batch [0;1;31;41m▓[0m
-[1;31;40m [0;31m▄▄[0m                                 [31m░▐[0;1;37;41m▌[0;31m█[0;1;31;41m([0;1;37;41mN[0;30;41m)ewscan All Areas   [0;1;31;41m([0;1;37;41mZ[0;30;41m)Set Last    [0;31;40m█[0;1;31;41m█[0m
+                                     [31m▐[0;1;37;41m▌[0;31m█[0;1;31;41m [0;1;37;41m [0;30;41m                    [0;1;31;41m [0;1;37;41m [0;30;41m              [0;1;31;41m▓[0m
+                                     [31m▐[0;1;37;41m▌[0;31m█[0;1;31;41m [0;1;37;41m [0;30;41m                    [0;1;31;41m [0;1;37;41m [0;30;41m              [0;1;31;41m▓[0m
+[1;31;40m [0;31m▄▄[0m                                 [31m░▐[0;1;37;41m▌[0;31m█[0;1;31;41m [0;1;37;41m [0;30;41m                    [0;1;31;41m [0;1;37;41m [0;30;41m             [0;31;40m█[0;1;31;41m█[0m
 [31m▓▓▀▀■[0m                              [31m▒▒▐[0;1;37;41m│[0;31m█[0;1;31;41m([0;1;37;41mQ[0;30;41m)uit to Main      [0;31;40m▓[0;31;41m    [0;30;41mCall Date &  [0;1;31;41m▀[0m
 [31m████▄  .■▄[0m                    [31m▄▄   ▄[0;1;31;41m▄[0;31m▐[0;1;37;41m│[0;31m██████▀▀▀▀▀▀▀▓▓███[0;31;41m  [0;31;40m▓▓▄▄▄▀[0;30;41mTime       [0;31;40m▀▄▓[0m
 [1;37;41mAMROTH[0;31m▄[0;1;37mG[0;1;37;41mORE[0;31m▄    ■.[0m        [31m▒▒ ▀▀▓▓ [0;1;37;41m.[0;1;31;41m▀▒▒[0;31m██▓▓▀■▄█████▓▓▓▓▓▓▒▒▒▄[0;31;41m [0;1;37;41m.[0;31m███▄▓▓▓▓▒▒▒▒▒▄[0;1;37;41m■.[0;31m█[0m'

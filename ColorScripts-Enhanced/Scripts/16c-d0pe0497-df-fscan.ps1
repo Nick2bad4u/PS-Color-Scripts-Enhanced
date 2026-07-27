@@ -5,7 +5,7 @@
 # Source SHA-256: ae19c6de22d5d7fb768cc5cc1ac2a48b79571b7934f0591f509100173e2c5022
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DF-FSCAN.ANS by dOpe fiend (dope); released in d0pe0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: misc filescan
 # SAUCE Author: dOpe fiend
 # SAUCE Group: dope
@@ -37,7 +37,6 @@ Write-Host '
 [1;33m▀[0m   [1;33m▀[0;1;37m█[0;1;33m▀▀ ▀▀▀▀▀[0;1;37m█[0;1;33m▀▀[0m [1;33m▀[0m [1;33m▀▀▀[0m [1;33m▀[0m  [1;33m▀[0m [1;33m▀▀[0m [1;33m▀[0m  [1;33m▀▀▀[0m [1;33m▀[0m   [1;33m▀▀▀[0;1;37m█[0;1;33m▀[0m [1;33m▀[0m [1;33m▀[0;1;35m▀[0;1;33m▀[0;1;35;45m▄▄ ▄[0;1;33;45m▀[0;1;35;45m [0;1;33;40m▀[0;35m▀[0;37m [0;1;33m▀ [0m
      [1;33m▀[0m     [1;33m▀[0m [1;33m▄[0m  [1;33m▀[0m           [1;33m▀[0m [1;33m▄[0m        [1;33m▀[0m [1;33m▄[0m  [1;33m▀[0m      [1;30m▄▓▄▄▄[0m  [1;30m▄▄▄▓▄[0m
          [1;30m                                       [0m
-     [1;33m▀[0m   [1;30m(c)dOpe.. don''t be a leech..[0m [1;30mupload.[0m
+     [1;33m▀[0m   [1;30m                            [0m [1;30m       [0m
 
-[1;30m[-snip-]------------------------------------------------------------------------[0m
-[1;30muh... hrmm.. well, it''s okay i suppose, you be the judge. mod it or something..[0m'
+[1;30m[-snip-]------------------------------------------------------------------------[0m'

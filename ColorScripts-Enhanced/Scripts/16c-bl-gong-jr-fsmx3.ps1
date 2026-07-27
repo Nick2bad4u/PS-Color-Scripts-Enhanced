@@ -5,7 +5,7 @@
 # Source SHA-256: 0f10601c2f4e22655180c681bf978e6a4bfbb543c97822c9ebefa816dfa5a5eb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSMX3.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FS matrix NxIII
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
     [33m░▒░░[0m     [33m█[0m                                     [1;33;43mjR[0;33m▓▄▓[0;1;33;43m█[0;33m█[0m                [1;33;43m▐▀██[0;33m▌[0m
       [33m░░░░[0;37m  [0;33m░[0m                                      [33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
            [33m [0m
-[1;30m---------░-------------------------------------------------------------------░░-[0m
-[1;30mokay, this is the 3rd matrix 4 the FS... it is great - my opinion.[0m'
+[1;30m---------░-------------------------------------------------------------------░░-[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5c0800f3e79f4232278478f91ce5549d99762bffa73c7f8db28d4a47c2004e19
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-SKULL.ANS by Splatt (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SkullFish
 # SAUCE Author: Splatt
 # SAUCE Group: AWE Lettering
@@ -35,4 +35,4 @@ Write-Host '
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄ [30;44m▓▓[0;34;40m░[0;30;44m▓[0;34;40m░  ░[0;30;44m▓▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;37;40m [0;1;37;40m███[0m [31m░[0;30;41m▓[0;37;40m [0;1;37;40m███▄▄▄▄▄▄▄▄████▄[0m [31m▀[0;37m [0;1;37m██[0m [1;34m▄[0m [1m▄▄▄▄▄[0m▄▄▄[1;34m [0;31m▀[0;1;31m▀[0;31m▀[0;30;41m▓▓[0;31;40m░[0;30;41m▓[0m
 [1;37;40m█████████████████[0m█[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄███▄▄▄▄█████████████████████▄▄▄█████[0;1;47m▓▓▓[0;30;47mst?[0;37;40m▄▄▄[0;1;37;40m▄▄[0m
 [1;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[30;47m  SKULLFISH opped by BREED  ▌[0;37;40m [0;1;30;40m▌[0m [1;30m░[0m'
+[30;47m                            ▌[0;37;40m [0;1;30;40m▌[0m [1;30m░[0m'

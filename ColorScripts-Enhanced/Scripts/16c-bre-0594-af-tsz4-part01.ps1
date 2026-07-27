@@ -5,7 +5,7 @@
 # Source SHA-256: 490a88452129e556cdd7fc2707fc00ed3587ab27e21939142d73fb34a649ffeb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-TSZ4.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -14,10 +14,10 @@ Write-Host '
 [1;30m│▀▀▄ ▀▀▀[0;1;36mB[0;36mre[0;1;30med▀▀▄ ▀▀▀│[0m     [1;30m▀▀▀ ▀ ▄ ▀▀▀  ▀▀▀ ▀▀▄ █▀▀   ▀ █ █▀▀ ▀▀▄ ▀▀▀[0m          [1;30m│[0m
 [1;30m│█▀█ █▀ [0;1;36mU[0;36mNi[0;1;30mON█▀█ █▀ │[0m      [1;30m█  █▄█ █▀   ▀▀█ █ █ ▄ █ ▀ ▄▀▀ ▄ █ █ █ █▀[0m           [1;30m│[0m
 [1;30m│▀ ▀ ▀  [0;1;36mT[0;36mri[0;1;30mal▀ ▀ ▀  │[0m      [1;30m▀  ▀ ▀ ▀ ▀  ▀▀▀ ▀ ▀ ▀▀▀   ▀▀▀ ▀▀▀ ▀ ▀ ▀ ▀[0m          [1;30m│[0m
-[1;30m│[0;1;36mA[0;36mci[0;1;30md[0;1;36mF[0;36mla[0;1;30msh [0;1;36mA[0;36mci[0;1;30md[0;1;36mF[0;36mla[0;1;30msh│[0;1;36mA[0;36mci[0;1;30md[0;1;36mF[0;36mla[0;1;30msh [0;1;36m[B[0;36mre[0;1;30med/[0;1;36mUN[0;36miO[0;1;30mN [0;1;36mTr[0;36mia[0;1;30ml] [0;1;36m[[0;36m0[0;1;30m4[0;1;36m/[0;36m0[0;1;30m6[0;1;36m/1[0;36m99[0;1;30m4] [0;1;36m[Th[0;36me Sn[0;1;30mo Zone]│[0m
-[1;30m│▀▀▄ ▀▀▀[0;1;36mB[0;36mre[0;1;30med▀▀▄ ▀▀▀│ [0;1;36mQu[0;36mic[0;1;30mk Greetz 2 : Nailz n'' Neurotic : Thanx a zillion!!, │[0m
-[1;30m│█▀█ █▀ [0;1;36mU[0;36mNi[0;1;30mON█▀█ █▀ │ The fucker who applied as me on PI : Fuck you asshole!, │[0m
-[1;30m│▀ ▀ ▀  [0;1;36mT[0;36mri[0;1;30mal▀ ▀ ▀  │ Hound : Ego yourself!,  Satanic GoldFish : REAL Alias!. │[0m
+[1;30m│[0;1;36m [0;36m  [0;1;30m [0;1;36m [0;36m  [0;1;30m   [0;1;36m [0;36m  [0;1;30m [0;1;36m [0;36m  [0;1;30m  │[0;1;36m [0;36m  [0;1;30m [0;1;36m [0;36m  [0;1;30m   [0;1;36m  [0;36m  [0;1;30m   [0;1;36m  [0;36m  [0;1;30m  [0;1;36m  [0;36m  [0;1;30m   [0;1;36m [0;36m [0;1;30m [0;1;36m [0;36m [0;1;30m [0;1;36m  [0;36m  [0;1;30m   [0;1;36m   [0;36m    [0;1;30m       │[0m
+[1;30m│▀▀▄ ▀▀▀[0;1;36m [0;36m  [0;1;30m  ▀▀▄ ▀▀▀│ [0;1;36m  [0;36m  [0;1;30m                                                    │[0m
+[1;30m│█▀█ █▀ [0;1;36m [0;36m  [0;1;30m  █▀█ █▀ │                                                         │[0m
+[1;30m│▀ ▀ ▀  [0;1;36m [0;36m  [0;1;30m  ▀ ▀ ▀  │                                                         │[0m
 [1;30m└───────────────────┴─────────────────────────────────────────────────────────┘[0m
 
 
@@ -32,7 +32,7 @@ Write-Host '
                         [1;34;44m▌[0;34m██▀[0;31m▄█████[0;1;31;41m▄▄[0;1;31;40m█▄[0;34m▀█[0;1;34;44m▀[0;1;34;40m█  [0;1;37;40m▀[0m
 [1;37;40m  ▀[0m              [1;37;40m▄[0m      [1;37;44m [0;34m█▌[0;31m█▀[0;1;37m▄▄[0;1;31m▀██▀[0;1;37m▄▄[0;1;31m▀█[0;34m▐█[0;1;34;44m▐[0m        ▀       ▄▄[1;47m▄▄▄▄[0m▄▄     [1m▀[0m
                        [34m█▀▀[0;31m▐▌[0;1;37m██▀█[0;1;31m▐▌[0;1;37m█▀██[0;1;31m▐█[0;34m▐▌[0m              [37m▄[0;1;37;47m▄▀▀  [0m██[1;47m▀▀▄[0m▄
-                       [1;31m▄█▌[0;31m█[0;1;37m▐██▐▐▌▐▌▌██▌[0;1;31m█▀▄[0m            ▄[1;47m▄▀[0m█[30;47mFUCK     [0;1;37;47m▐[0m▌
+                       [1;31m▄█▌[0;31m█[0;1;37m▐██▐▐▌▐▌▌██▌[0;1;31m█▀▄[0m            ▄[1;47m▄▀[0m█[30;47m         [0;1;37;47m▐[0m▌
           [1m▀[0m      [1m▀[0m     [34m▄[0;1;31m█ [0;31m█▄[0;1;37m▀▀▀▀[0;1;31m▄▄[0;1;37m▀▀▀▀[0;1;31m▄█▌▌   [0m▄        [1;47m▐  [0;30;47mIt''s COLD![0;37;40m█[0;1;37;47m▌[0m
                        [34m█▄[0;1;31m▌[0;31m█[0;31;41m [0;1;31;41m▄▄▄▄[0;31m▀[0;1;31;41m▄▄▄▄[0;1;31;40m██▌█ [0;34m▌[0m         [1;37m▄▄[0m▀[1;47m▀▄[0m████████[1;47m▄▄▀[0m▀
     [1m▄[0m                  [34m▐▐▌[0;31m█[0;1;31;41m▐[0;1;31;40m█▀▀▀██▀▀█[0;1;31;47m▄[0;1;31;40m█[0;34m▐▄▐█[0m      [1;37m▄ ▐[0m██[1m▌ [0m▀[1;47m▀▀▄▄▄▄▄▀[0m█▀

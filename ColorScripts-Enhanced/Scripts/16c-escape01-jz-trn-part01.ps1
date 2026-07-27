@@ -5,7 +5,7 @@
 # Source SHA-256: eeb40f560a89f221f2a87d6d44f033fa48ce67a2b821884b99f82abb50c68fdd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JZ-TRN.ANS by Jazz (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -15,16 +15,16 @@ Write-Host '
 ██▄  ▐[1;30;47m░░▒[0;1;30;40m▀    [0m▄█[1;30;47m░░[0;1;30;40m▀[0m      [1;30;40m│Z│ Lord Jazz(of course) - hi :)[0m
 [1;30;40m [0m▀█████▀    ▄████▄▄▄▄▄█  [1;30m│ │ Nitro - thanks for all your support, bro..[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[30mjeez, it looks like this guy is break-  [0;1;30mMy first "real" ansi - completed 8/21/94[0m
-[30ming out in "jz''"s.. anyway here are all the hideagreets I promised: [BTW, I dont[0m
-[30mthink that this ansi is good enuff [0;33m▄▄▄▄▄▄▄▄▄▄▄▄ [0;30mfor hidden greets, but what the[0m
-[30mhell? :)... anyway, here   [0;33m▄▄▄[0;33;43m       jz.PoW         [0;33;40m▄▄▄ [0;30;40mgoes :  QuR''aN - thanks[0m
-[30;40mfor running my favor- [0;33;40m▄▄[0;30;43m░░[0;33;40m█[0;33;43m [0;33;40m█[0;33;43m                  jz       [0;33;40m█▄▄▄ [0;30;40mite  board..now its[0m
+[30m                                        [0;1;30m                                        [0m
+[30m                                                                                [0m
+[30m                                   [0;33m▄▄▄▄▄▄▄▄▄▄▄▄ [0;30m                               [0m
+[30m                           [0;33m▄▄▄[0;33;43m                      [0;33;40m▄▄▄ [0;30;40m                       [0m
+[30;40m                      [0;33;40m▄▄[0;30;43m░░[0;33;40m█[0;33;43m [0;33;40m█[0;33;43m                           [0;33;40m█▄▄▄ [0;30;40m                   [0m
 [30;40mOBV/2, my favorite[0;33;40m▄[0;30;43m▒░░[0;33;40m██[0;33;43m     jz                           [0;33;40m████▄▄[0;30;40mbbs softawre :)[0m
 [30;40mI love harmoon [0;33;40m▄[0;30;43m▒░[0;33;40m█[0;33;43m                     jz           [0;1;31;43m░░▒▒     [0;33m██[0;1;31;43m░░[0;33m▄[0;30m:)...[0m
 [30mBeastie : I l-[0;30;43m░░      [0;33;43myeah, biatch! :)                  [0;1;31;43m░░▒▒ [0;33m█[0;33;43m  [0;33;40m█[0;1;31;43m░░░[0;33m▄[0;30move Channel[0m
 [30m0.. its my 2n[0;30;43m░ [0;33;43m█     █                              tt  and [0;1;31;43m░▒▒    ░░▒[0;30md favorite[0m
-[30mboard.. and [0;33m█[0;33;43m        [0;30;43m▒░░            [0;33;43mjz          jz       at rule ice[0;1;31;43m░▒[0;33m▌[0;30mto ravage[0m
+[30m            [0;33m█[0;33;43m        [0;30;43m▒░░            [0;33;43m                                [0;1;31;43m░▒[0;33m▌[0;30m         [0m
 [30md soul : I [0;33m▐[0;33;43m  ████ [0;30;43m▒░░░ [0;33;43m█ █ jz jz                          [0;30;43m▄▄▄▀     [0;1;31;43m░▒░[0;30mlove my/[0m
 [30mour board- [0;33m██[0;33;43m        █[0;30;43m▄▄▄▄▄                          ▄▀▀▀▀▀▀        [0;1;31;43m░▒▒[0;30mTRN.. to[0m
 [30msomms : kee[0;30;43m          [0;33;43m▄▄▄▄▀ [0;30;43m▀▄           [0;33;43mjz        jz            jz [0;33;40m█[0;1;31;43m░▒▒[0;30mp it up[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 28fb2ce67e8b8fc3613a2aec1614e71513d4030bf6139412f371edfa609fd8a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-cgach1ck.ans by Hayn9 + Tainted (legacy krew / 67); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cga ch1ck
 # SAUCE Author: hayn9 / tainted
 # SAUCE Group: legacy krew / 67
@@ -17,8 +17,8 @@
 
 Write-Host '
 
-                  [1;37;40mhayn9[0m                [1;30;40m▌[0m               [1mtainted[0m
-              [1;30m[[0mlegacy krew[1;30m][0m            [1;30m▌[0m            [1;30m[[0mblocktronics[1;30m][0m
+                  [1;37;40m     [0m                [1;30;40m▌[0m               [1m       [0m
+              [1;30m [0m           [1;30m [0m            [1;30m▌[0m            [1;30m [0m            [1;30m [0m
 
 
                              [35m▄▄██[0;1;36;45m▄▄[0;1;36;40m▄▄[0m

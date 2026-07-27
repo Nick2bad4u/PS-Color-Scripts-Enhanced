@@ -5,7 +5,7 @@
 # Source SHA-256: 3c1937fea607c81914ccf9f2e68e2054c1caddafe5ecb4f44b435db947faebbd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC!ST-BL.ANS by Sad dood Madcap (d38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Stormblade
 # SAUCE Author: Sad dood Madcap
 # SAUCE Group: d38
@@ -37,8 +37,4 @@ Write-Host '
 [1m [0;34m░ [0;1;30m▄█[0;1;30;47m▌▄─[0m█[1;47m▀[0;1;40m▄[0;1;30;40m▐[0;1;30;47m▄[0;1;30;40m  [0;1;30;47m▌▌[0;1;37;47m▀[0m ▐[1;47m─▀[0;1;40m█▀   [0;1;30;40m▀███[0m▄█[1;30;47m▄-[0;1;37;47m▀[0;1;37;40m▀[0;1;36;40m▀ [0;1;30;40m░[0;1;37;47m▐[0;1;37;40m█[0m▄[1;36;47m■[0;1;36;40m▄  [0;34m░██▀[0m           [34m█████▒  [0;1;30m▄[0;1;30;47m▀─ [0;1;37;47m■▀ ▐[0;1;37;40m█[0m
 [1m  [0;1;30m▀▀[0;1;30;44m▓[0;1;30;40m▀░   [0m▀▀[1;30;47m▌[0;1;30;40m  ▐[0;1;30;47m▌▓[0;1;30;40m▌[0m▄█[1m▀   [0;34m░   [0;1;30m▀███▀  [0;34m▄▓▀[0;1;30m▄[0;1;37;47m▀▐[0m ▀ [1;36m▄  [0;34m▒█▓[0m           [34m▓████▌ [0;1;30m▐[0;1;30;47m▒■[0m██[1;47m■─▄[0;1;40m██[0m
 [1m [0;34m▒▒    ▒▒     [0;1;30m▄█[0;1;30;47m▄[0;1;30;40m█▀[0m█[1m▌   [0;34m░░     [0;1;30m▀▌[0;34m░▒▒▓▌[0;1;30m▀█[0;1;30;47m▌▄[0;1;37;47m─▀[0;1;37;40m██[0;1;36;40m▀  [0;34m██▌[0m          [34m▐████▌ [0;1;30m░[0;1;30;47m█▄▐▀[0m█[1;47m▀▀[0m██
-  [34m▒▒▒  ▒▒▒▒    [0;1;30m░▀   [0m▀  [34m░░░░░[0m       [34m░▒░ [0;1;30m▐▀░  [0m▀[1m▌ [0;34m▄▐███░[0m         [34m░████▓▄ [0;1;30m▐[0;1;30;47m█▓▄─┘[0m█[1;47m■[0m█
-
-[32mLet it be known that Madcap generally sucks at logos :) but alas... I must [0m
-[32mgive him my props on this one... Maybe he''s been ripping real art groups or     [0m
-[32msomething :)[0m'
+  [34m▒▒▒  ▒▒▒▒    [0;1;30m░▀   [0m▀  [34m░░░░░[0m       [34m░▒░ [0;1;30m▐▀░  [0m▀[1m▌ [0;34m▄▐███░[0m         [34m░████▓▄ [0;1;30m▐[0;1;30;47m█▓▄─┘[0m█[1;47m■[0m█[0m'

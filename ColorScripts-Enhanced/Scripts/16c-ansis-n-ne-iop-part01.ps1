@@ -5,12 +5,12 @@
 # Source SHA-256: a346d6a184fe17bf9a108c6456bae6989ebc39c1a78d5325a8dfdc55f407da13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NE-IOP.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-                               [1;34mA[0;34mn [0;1;37mi[0;1;36mC[0;36mE [0;1;34mP[0;34mr[0;1;34mo[0;34md[0;1;34mu[0;34mc[0;1;34mt[0;34mi[0;1;34mo[0;34mn[0m
+                               [1;34m [0;34m  [0;1;37m [0;1;36m [0;36m  [0;1;34m [0;34m [0;1;34m [0;34m [0;1;34m [0;34m [0;1;34m [0;34m [0;1;34m [0;34m [0m
 
 
                                  [1;37m▄▄▄ [0;1;30m▄[0m         [1;37m▄▄▄▄▄▄ [0;1;30m▄  [0;1;37m▄▄▄▄▄▄▄[0;1;30m▄    [0;1;37m▄▄▄▄▄▄▄▄▄[0;1;30m▄[0m
@@ -30,5 +30,4 @@ Write-Host '
         [34mSysop:Death Wish[0m       [1;37m███▄ [0;1;30m▀[0;1;37m▄███[0;1;30m▐▌ [0;1;37m██ [0;1;30m▄▄▀[0m
                                 [1;37m▀██████▀[0;1;30m▄▀  [0;1;37m██[0;1;30m▐▌[0m
                                   [1;37m▀▀▀▀[0;1;30m▄▀    [0;1;37m▀▀[0;1;30m▐▌[0m
-                                    [1;30m▀▀[0m       [1;30m▀▀[0m
-'
+                                    [1;30m▀▀[0m       [1;30m▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e55451442d10863b3a246553561f8f5f4abe18d010b1796aef3806630676d817
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VD-MONST.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -55,8 +55,8 @@ Write-Host '
 [1;32;42m▒▒▒▒[0m [1;30m▄█[0m        [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m      [1;30m█▄ [0;1;32;42m▒▒▒▒[0m
 [1;32;42m▒▒▒▒[0m [1;30m█[0m                                                                   [1;30m█ [0;1;32;42m▒▒▒▒[0m
 [1;32;42m▒▒▒[0m [1;30m▄█[0m                                                                   [1;30m█▄ [0;1;32;42m▒▒▒[0m
-[1;32;42m▓▒▒[0m [1;30m█[0m     [32mThis board is waiting your call. Tintin built MONSTER BBS[0m       [1;30m█ [0;1;32;42m▒▒▓[0m
-[1;32;42m▓▓[0m [1;30m▄█[0m     [32mwith the help of Daisy.  Running at 2400 bps  twenty four[0m       [1;30m█▄ [0;1;32;42m▓▓[0m
-[1;32;42m▓▓[0m [1;30m█[0m      [32mhours a  day only for you!  So, take a look at this board[0m        [1;30m█ [0;1;32;42m▓▓[0m
-[1;32;42m▓[0m [1;30m▄█[0m      [32m... if you dare! (418)628-0661[0m      [1;30mANSIby[VLAD]oƒ{astek}[0m        [1;30m█▄ [0;1;32;42m▓[0m
+[1;32;42m▓▒▒[0m [1;30m█[0m     [32m                                                         [0m       [1;30m█ [0;1;32;42m▒▒▓[0m
+[1;32;42m▓▓[0m [1;30m▄█[0m     [32m                                                         [0m       [1;30m█▄ [0;1;32;42m▓▓[0m
+[1;32;42m▓▓[0m [1;30m█[0m      [32m                                                         [0m        [1;30m█ [0;1;32;42m▓▓[0m
+[1;32;42m▓[0m [1;30m▄█[0m      [32m                              [0m      [1;30m                     [0m        [1;30m█▄ [0;1;32;42m▓[0m
 [1;32;42m▓[0m [1;30m█[0m                                                                         [1;30m█ [0;1;32;42m▓[0m'

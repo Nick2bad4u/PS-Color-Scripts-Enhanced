@@ -5,7 +5,7 @@
 # Source SHA-256: 6ac55823718cac100ca459b2c77c5c155a61bbff6eafe40085f25077170b1870
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-DC1.ANS by Defiant (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Diet Cola
 # SAUCE Author: Defiant
 # Lines: 1-14
@@ -25,4 +25,4 @@ Write-Host '
                    [34m▐[0;1;34;44m▀[0;34m▄▓▓▒[0;1;34m▒░   [0;32m▀█[0m     [36m░ [0;1;36m░ [0;35m▓▌[0;36m▐[0;1;36m█    [0;36m▀▀[0;1;36;46m▄[0;36m▀▀[0;1;36m▀ [0;35m▄█[0;1;31;45m▐█▌[0;35m▌[0m
                 [34m▄  ▀  ▒▒[0m       [32m▐   [0;36m▀ ▄▄[0;1;36m█ [0;35m░▌[0;1;36m▐ [0;35m▄ ▀▀▀▄▄▄██[0;1;31;45m░▓▄██[0;35m█[0m
                   [1;30m░[0;1;37m░  [0;34m░░    ░[0m         [1;36m▀▌  [0;35m▌ [0;36m▄   [0;35m░   ▀[0;1;31;45m▀▀██▀[0;35m▀▀░[0m
-                                [1;30mdiet cola[0m               [1;31m░[0m'
+                                [1;30m         [0m               [1;31m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 16165fc9246285c13113cfb4bc2137ff741ec1de4ca0de03a9d873acc055ca84
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M!NEOPIZ.ANS by Mice (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Neon Pizza
 # SAUCE Author: Mice
 # SAUCE Group: Samsara
@@ -17,13 +17,13 @@
 Write-Host '
 
 
-             ,sSTSs,
-STSs,  _.,yySy²ITS$$
+                    
+                    
 TITS$!$$$$$$$$Sy²T$'' [1myyS²""[0m   [1myyS²"^SyS²"^SyyS²""[0m
-liS$z$$$$$$$$$²"$''  [1m $$yssssss$$y[0m   [1m$$y[0m   [1m$$$yssssssyyy[0m
+                    [1m             [0m   [1m   [0m   [1m             [0m
 "²''y$$$  `$$$$  $[1;30m─-────-───[0;1;37myss$$$[0;1;30m─-─[0;1;37m$$$[0;1;30m───[0;1;37m$$$[0;1;30m-───[0;1;37myss$$$[0m
-    "²$$  .`$''. $[1m [0m   [1m>>[0m it''s time foo'' sum action!@! [1m>>[0m
-mice   "²yyy$yyS²[1m [0mz
+                 [1m [0m   [1m  [0m                              [1m  [0m
+                 [1m [0m 
  [1;30m     [0m  z `^"²d$b   ` .
      ,        `²''
 

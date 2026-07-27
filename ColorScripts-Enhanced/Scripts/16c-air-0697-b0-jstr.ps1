@@ -5,7 +5,7 @@
 # Source SHA-256: fcc318e040d7ec42749733cdb62e3915aeff7b85d5930ea5dc77f31fe0a41ff8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B0-JSTR.ANS by bOmb (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pic???
 # SAUCE Author: bOmb
 # SAUCE Group: air
@@ -38,7 +38,7 @@ Write-Host '
        [35mS,[0m    [34m$$[0;1;34m$$$$$$$$$$$[0;1;36mP[0;1;35m.[0;35m''[0;1;34ma[0;35m`b,[0;1;35md[0m  [35m,°.[0;1;35m,[0m        [35m°[0m
          [1;35m`[0;35m..°`.,°ⁿ[0;1;34m$$$$$$$$[0;1;36mb[0;1;35m°[0;35m.[0;1;34mⁿ[0m [35md[0;1;35mP[0;35mⁿ°''[0m       [35m°.[0;37m  [0;1;35m.''[0m [35m [0;37m [0;35m [0m
           [1;35m''[0m   [34mⁿ$b[0;1;34m°ⁿ$$$$$$[0;1;36mP[0;1;34m$$ [0;35m$°[0m                 [35m.''°ⁿb [0m   [1;35m.[0m
-           [35m`.[0m   [34m`ⁿb[0;1;35m`[0;35m.[0;34mYSSPⁿ''[0;37m [0;35m`Y[0m                       [1;35mⁿ.[0m  [35m,[0m
+           [35m  [0m   [34m   [0;1;35m [0;35m [0;34m      [0;37m [0;35m  [0m                       [1;35m  [0m  [35m [0m
         [1;35m ,[0;35ma[0;1;35mP[0;35m''[0m        [1;35m°''[0;35m°,[0m   [35m,[0;1;35m$[0m                          [35m°[0m
         [1;35m [0;35mⁿ[0;1;35mY[0m  [35ma.[0m        [35m.[0;37m  [0;35m,[0;1;35m°[0;35mⁿ[0m
           [35md[0;37m  [0;35m. [0;1;35m''[0m        [35m`°[0m

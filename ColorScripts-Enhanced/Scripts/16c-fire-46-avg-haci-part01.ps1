@@ -5,7 +5,7 @@
 # Source SHA-256: 5b29ab632aa4ffa78c55dd8d58bcb0b0f68dbd61b9fa9f4a1c4efee1f5e64c2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-HACI.ANS by Savage (Fire graphics); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hacienda
 # SAUCE Author: Savage
 # SAUCE Group: Fire graphics
@@ -22,7 +22,7 @@ Write-Host '
 
 
 
-                  [1;30;40mSavage of fire..[0m
+                  [1;30;40m                [0m
 
 
 

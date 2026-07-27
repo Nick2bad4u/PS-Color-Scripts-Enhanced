@@ -5,7 +5,7 @@
 # Source SHA-256: 9bf18e538a8a952c37f419de1cd98413e701f1809604fece4242902ed71cffb4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CEO.ICE by Mass Murderer + The Night Angel (AWE Lettering); released in ice9610a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ceo
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -36,6 +36,4 @@ Write-Host '
 [32m█▄   [0;1;36m▀[0;1;34;46m░▓▓[0;1;34;40m█████[0;1;34;44m███▄[0;1;34;40m▄▄▄▄[0;34m▄░[0;30;44m▓[0m       [34;40m▀  ▄    [0;33;40m▐▌ [0;1;34;40m▄[0m           [34m░[0;30;44m▓[0;34;40m▄[0;1;34;40m▄▄▄▄[0;1;34;44m▄[0;1;34;40m████████[0;1;34;46m▓▓░[0;1;36;40m▀   [0;32m▄█[0m
 [1;32;42m░░[0;32m██▄▄▄ [0;1;36m▀[0;1;34m▀▀[0;1;34;46m▀[0;1;34;40m██████████[0;1;34;44m██████[0;1;34;40m████████[0;1;34;44m▄[0;1;34;40m▄[0;34m▄  [0;33m▀▬ [0;1;34m▀█▄▄▄ ▀▀█▀██████████████[0;1;34;46m▀[0;1;34;40m▀▀[0;1;36;40m▀ [0;32m▄▄▄█[0;32;42m [0;1;32;42m░░[0m
 [1;32;42m▓▓░░░[0;32m█████▄▄▄▄ [0;1;36m▀[0;1;34m▀▀▀▀[0;1;34;46m▀[0;1;34;40m███████████████████[0;1;34;44m▄▄[0;1;34;40m▄▄[0;34m▄▄▄[0;1;34;44m▀[0;1;34;40m▀▀████████[0;1;34;46m█▀[0;1;34;40m▀▀▀▀[0;1;36;40m▀ [0;32m▄▄▄▄█████[0;1;32;42m░░░▓▓[0m
-[1;32;42m██▓▓▓░░░░[0;32m█[0;1;32;42m░[0;32m██[0;1;32;42m░[0;32m█████▄▄▄▄▄▄ [0;1;36m▀[0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m▀ [0;32m▄▄▄▄▄▄█████[0;1;32;42m░[0;32m██[0;1;32;42m░[0;32m█[0;1;32;42m░░░░▓▓▓██[0m
-Original [1moutline [0mby Mass Murderer ([1miCE[0m)
-[1mShading [0mand [1mBackground [0mby The Night Angel ([1mAWE[0m)[0m'
+[1;32;42m██▓▓▓░░░░[0;32m█[0;1;32;42m░[0;32m██[0;1;32;42m░[0;32m█████▄▄▄▄▄▄ [0;1;36m▀[0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36m▀ [0;32m▄▄▄▄▄▄█████[0;1;32;42m░[0;32m██[0;1;32;42m░[0;32m█[0;1;32;42m░░░░▓▓▓██[0m'

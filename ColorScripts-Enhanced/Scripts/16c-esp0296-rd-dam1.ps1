@@ -5,7 +5,7 @@
 # Source SHA-256: 462310cf09a40c0b24c2a4cc5f9b029c3b3d4179ba80f0c740f8dbfe1186e15c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-DAM1.ANS by Rabid Doctor (esp0296); released in esp0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -21,12 +21,12 @@ Write-Host '
       [1;34m [0m     [33m█[0;31m█[0;33m█[0;37m [0;33m█[0;1;31;43m▄██[0;33m█[0;37m [0;33mINCORPORATED +1(908)-752-6365 █[0;31m█[0;33m█[0;37m [0;33m█[0;1;31;43m█[0;33m███▄[0;37m [0;33m█[0;31m█[0;33m█[0;1;30ms[0m
      [1;34m [0m      [33m█[0;31m█[0;33;41m▀▀[0;33;40m█[0;1;31;43m▀█▀[0;33m█[0;33;41m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31;40m█[0;33;41m▀▀[0;33;40m█[0;1;31;43m▀██▀[0;33m█[0;33;41m▀▀[0;31;40m█[0;33;40m█[0;1;30;40mp[0m
     [1;34m [0m      [31m ██[0;33m▀▀▀███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████▀▀▀▀▀[0m
-   [1;34m [0m       [31m▀█[0m       [1;31m [0m [33m"[0;1;31mWhere reality is non-existant!![0;33m"[0m
+   [1;34m [0m       [31m▀█[0m       [1;31m [0m [33m [0;1;31m                               [0;33m [0m
           [31m▐▀[0;37m [0;31m▀[0m   [1;34m                [0m
-[1;31m  [0;1;34m [0;1;31m      [0;1;34m■[0;31m▐[0;34mVam[0;31mp[0;34mNet and Insanity Net [0;1;34m■ [0;34mAdult access! [0;1;34m■ [0;34mAround 1 gig! [0;1;34m■[0m
-[1;34m  [0m    [1;34m■ [0;34mAn[0;31ma[0;34mrchy/Hackers too! [0;1;34m■ [0;34mSick and twisted graphics [0;1;34m■[0m [34m14.4 access[0;37m [0;1;34m■[0m
-[1;34m■ [0;34mEastern[0;31m■S[0;34meabo[0;31ma[0;34mrd Pirates HQ [0;1;34m■ [0;34mCustom modded Wildcat 4.11 M10 [0;1;34m■ [0;34mMany doors! [0;1;34m■[0m
-[1;34m       ■[0;31m·Cus[0;34mtom modded L.O.R.D. [0;1;34m■ [0;34mAll doors registered! [0;1;34m■ [0;34mSysOp: fLeA [0;1;34m■[0m
+[1;31m  [0;1;34m [0;1;31m      [0;1;34m■[0;31m▐[0;34m   [0;31m [0;34m                     [0;1;34m■ [0;34m              [0;1;34m■ [0;34m              [0;1;34m■[0m
+[1;34m  [0m    [1;34m■ [0;34m  [0;31m [0;34m                  [0;1;34m■ [0;34m                          [0;1;34m■[0m [34m           [0;37m [0;1;34m■[0m
+[1;34m■ [0;34m       [0;31m■ [0;34m    [0;31m [0;34m              [0;1;34m■ [0;34m                               [0;1;34m■ [0;34m            [0;1;34m■[0m
+[1;34m       ■[0;31m    [0;34m                    [0;1;34m■ [0;34m                      [0;1;34m■ [0;34m            [0;1;34m■[0m
         [31m▀█▄[0m
         [31m███▄[0m
         [31m▐███▌[0m

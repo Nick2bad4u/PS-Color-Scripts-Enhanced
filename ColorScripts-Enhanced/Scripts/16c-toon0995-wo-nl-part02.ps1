@@ -5,7 +5,7 @@
 # Source SHA-256: 1bbfd409afd2fd282b2831a21d938107ce47e30f7e4150e97f17d584a1dd151d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-NL.ANS by Wat0r + Narcosis (toon); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neverland ad
 # SAUCE Author: watOr/narcosis
 # SAUCE Group: toon
@@ -56,5 +56,4 @@ Write-Host '
 [1;30m▄███████████████████████████▀▄██████▄[0;33m▀▀▀[0;1;30m▄███ █████████████████▌■▀▀▀[0;32m▄▄▄▄▄▄[0;1;30m▀▀▀■[0;32m▐██[0m
 [1;30m██████████████████████▀▀▀▄▄▄████████████████▌▐████████████████▌[0;32m▐████████████▄███[0m
 [32m▄[0;1;30m▀▀▀█████████▀▀▀▀▀▄▄▄▄██████████████████████▌▐█████████████████[0m [32m████████████████[0m
-[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-'
+[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

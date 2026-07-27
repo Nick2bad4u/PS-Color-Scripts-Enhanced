@@ -5,7 +5,7 @@
 # Source SHA-256: 93f8a65b05bc9838e551d713b444d89065dd440345ae8d31558e0f3c3d3d74b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-SOTA.ANS by cocox (opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: state of the art menu...
 # SAUCE Author: cocox
 # SAUCE Group: opium
@@ -25,9 +25,9 @@ Write-Host '
 [36m [0;35m▄  [0;37m▀▀▀▓▄ ▀█▄▓▀ [0;33m▓▀▀▀▀▀                                              ▀▀▀▀█ [0;1;33m▄[0;36m▀▓▀[0;30m  [0m
 [35m▀▓▀[0;37m▀▓▄▄[0;31;47m░[0;37;40m▀[0;1;35;40m▄▓▄ [0;33m▄▄▓▀  [0;1;32m"[0;32mone of the best module and demo board[0;1;32m"[0;1;34m [0;1;32m- [0;35mdeep - 96[0;1;34m  [0;33m█ [0;1;33m▓[0;30m    [0m
 [1;33m          [0;1;35m▀[0;1;33m▄ [0;33m█                                                          █ [0;1;36m▄▓▄[0;30m   [0m
-[1;36m           [0;1;33m█ [0;33m█   [0;1;34m  [0;1;32m"[0;32mnice sysop and nice menus =))[0;1;32m" - [0;35mcocox - 96[0;1;34m         [0;33m█ [0;1;33m▄[0;1;36m▀[0;30m    [0m
+[1;36m           [0;1;33m█ [0;33m█   [0;1;34m  [0;1;32m [0;32m                             [0;1;32m    [0;35m          [0;1;34m         [0;33m█ [0;1;33m▄[0;1;36m▀[0;30m    [0m
 [1;36m           [0;1;33m█ [0;33m█                                                          █ [0;1;33m█[0;30m     [0m
-[1;33m  [0;1;34m▄▓▄      [0;1;33m█ [0;33m█  [0m     [1;35md[0;35mi[0;1;30mal +46-175-73258 for[0;1;34m [0;1;30mcool music boar[0;35md[0;1;35m![0;1;34m           [0;33m█ [0;1;33m█[0;30m  [0m
+[1;33m  [0;1;34m▄▓▄      [0;1;33m█ [0;33m█  [0m     [1;35m [0;35m [0;1;30m                    [0;1;34m [0;1;30m               [0;35m [0;1;35m [0;1;34m           [0;33m█ [0;1;33m█[0;30m  [0m
 [1;33m   [0;1;34m▀ [0m▄  [34m▄▓▄  [0;33m█                                                          █ [0;1;33m█[0;30m     [0m
 [1;33m  [0m▀▄[36;47m░[0;37;40m▌ [0;34;40m░ ▀ [0;1;33;40m▀ [0;33m█    [0;1;34m                                               [0;33m▓▀▀▀▀▀▓  [0;31m▄▓▄[0;30m   [0m
 [31m [0;1;34m▄ [0m▐▌▀▄ [34m▒ [0;36;47m░[0;1;33;40m  [0;33m█▄  [0;1;32m%[0;1;33mansee[0;1;32m%[0;1;33mby[0;1;32m%[0;1;33mcocox[0;1;32m%[0;1;33mof[0;1;32m%[0;1;33mopium[0;1;32m%[0;1;33min[0;1;32m%[0;1;33m199six[0;1;32m%[0;33m          ▓▀▀▀▀ [0;31m░[0;37m▀[0;34;47m░[0;37;40m▄ [0;1;31;40m░[0m▄ [31m▀[0;30m   [0m

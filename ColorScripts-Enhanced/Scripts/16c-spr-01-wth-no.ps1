@@ -5,7 +5,7 @@
 # Source SHA-256: 7822dc2d5b4b36e64253ffb68aae1c04a87c8bfc5ac22a04da35f602f70ceaea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WTH!NO.ANS by With[ooo]FMC (spr_01); released in spr_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: With[ooo]FMC
 # SAUCE Date: 20001117
 # SAUCE Dimensions: 80x27
@@ -36,7 +36,7 @@ Write-Host '
    [30;47mwi[0;37;40mth[0;33;40m▀▀[0;1;31;43m▀▀▀▀███▓▓▓▓▓▒▒▒▒░░░░░░[0;33m▌  [0m    [33m█[0;1;31;43m░░░░▒▒▓▓▓[0;1;32;42m▐██[0;1;32;40m██[0;1;32;42m▓▓▓[0;1;32;40m███[0;1;32;42m▒▒▒▒▒[0;1;31;42m▐[0;1;31;43m██▓▓▓▓▓▒░░[0;33m█▌[0m
              [33m▀▀▀▀▀[0;1;31;43m▓▓▓▓▒▒▒░[0;33m▀▀▀▀▀ [0;1;37m  [0m    [33m ▀[0;1;31;43m▀▀▒▒▓▓▓[0;1;32;42m ███████▓▓▒▒░░░░ [0;1;31;43m▒▓▓▓▓▓▓▓▒▒[0;33m▀[0m
                                 [32m [0;1;37m [0m        [33m▀▀▀▀▀[0;1;32;42m ▀▀▀▀███▓▓▒▒░░░░ [0;1;31;43m░░▒▓[0;33m▀▀▀▀[0m
-[37m  [0;1;32;42md[0;32mla[0;1;32;42mn[0;32mochesa[0;1;32;42mw[0;32mielkiego[0;1;32;42ma[0;32mrtysty[0;1;32;42mb[0;32madz[0;1;32;42mn[0;32mam[0;1;32;42mp[0;32mrzykladem[0;1;32;42mm[0;32miszczu▀▀▀▀▀▀▀▀▀▀▀▀  [0;34m  [0m
+[37m  [0;1;32;42m [0;32m  [0;1;32;42m [0;32m      [0;1;32;42m [0;32m        [0;1;32;42m [0;32m      [0;1;32;42m [0;32m   [0;1;32;42m [0;32m  [0;1;32;42m [0;32m         [0;1;32;42m [0;32m      ▀▀▀▀▀▀▀▀▀▀▀▀  [0;34m  [0m
 
 
-[37m  sorry, zbyt ladnie to nie wyglada, ale to jeden z moich pierwszych ansow■[0m'
+[37m                                                                          ■[0m'

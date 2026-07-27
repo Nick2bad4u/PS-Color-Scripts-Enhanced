@@ -5,7 +5,7 @@
 # Source SHA-256: db008a59e1a1914e834aceaf889af5297dd9946f9de3d1c81fdf69457f37741d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MOO_SAC.ANS by moolok; released in sac-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -33,7 +33,4 @@ Write-Host '
    [31;43m▓░▒[0m     [31;43m▒░▓░▒▓[0m     [31;43m ▒[0;31;40m  [0m     [31;43m▓▓▓▓[0m      [31;43m ▒[0m                        [31;43m ▒[0m   [31;43m▒░░[0m
 [37;40m  [0;31;43m░░[0m         [1;31;40m [0m   [31;43m░░[0m     [31;43m░░[0m        [31;43m▓▓[0m       [31;43m░▒▓▓[0;37;40m [0;31;43m░░▓░░[0m             [31;43m ▓▓░░░[0m   [31;43m░[0m
 [37;40m  [0;31;43m░▓▓▒[0m      [31;43m░[0m      [31;43m░▒▓▓▒░░▒[0m         [31;43m▓▒▒▒[0m   [31;43m░░░░▓▓[0;37;40m  [0;31;43m▓░░░░[0m        [31;43m░░▓▓[0m        [31;43m░░[0m
-    [31;43m░▓▓▓▓▓▓▓[0m          [31;40m [0;37;40m  [0;31;43m░▓▒░▒▒[0m         [31;43m░▒░░▒[0m          [31;43m▒▒▓▓▓▓░▓░[0;37;40m [0;31;43m▓[0m     [31;43m░░░░░[0m
-
-[37;40m   [0;31;40mThis is my First ANSI i ever did ;P[0m
-   [31;40mIT OWNS! ;)[0m'
+    [31;43m░▓▓▓▓▓▓▓[0m          [31;40m [0;37;40m  [0;31;43m░▓▒░▒▒[0m         [31;43m░▒░░▒[0m          [31;43m▒▒▓▓▓▓░▓░[0;37;40m [0;31;43m▓[0m     [31;43m░░░░░[0m'

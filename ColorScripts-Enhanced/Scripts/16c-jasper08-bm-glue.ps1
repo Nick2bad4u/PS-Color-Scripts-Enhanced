@@ -5,7 +5,7 @@
 # Source SHA-256: 84c78fe2f8b8653c8ef3b03707831b8903cf257cbb4b2490c66554e80e901421
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM-GLUE.ANS by Aesthetic + Avenging Angel (jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "glue"
 # SAUCE Author: 43/avg
 # SAUCE Group: jasper
@@ -39,7 +39,7 @@ Write-Host '
 [37m"[0;1;37mglue[0m" [35m ▀[0;1;32;45m▒▒[0m  [1;30m▀[0;35m▀▀▄[0;1;35;47m ▒[0m  [1;30m▓▓[0;1;30;47m▓▓[0m [1;35;45m▄█[0m  [1;30m▄▄▄[0m   [1;35;45m▒▒[0;35m▀▀▀▓▄▄▄▄▄[0m      [35m▄[0;1;30;45m▓█[0;1;30;40m██[0;1;30;47m▄[0;1;30;40m▀[0m [1;30m▀▀[0;1;30;46m▄ ▀[0;1;30;40m▄[0m     [35m▄[0;1;35m▒[0;35m▀[0;37m [0;31m▄[0;1;31m▄[0m
          [35m▀[0;1;32;45m░░[0m    [35m▒[0;1;35;47m█[0;1;35;45m▀[0;35m▄[0;37m [0;1;30m▀▀▀[0m  [1;35;47m [0;1;35;45m▀[0m [1;30m ▓[0m░░[1;30;47m▓[0m  [1;35;45m▓▓[0m        [1;30m▀[0;35m▀▀▀▀▄▀▀▀[0;37m  [0;31m▄[0;1;31m▄▄[0;1;31;41m▄[0;31m▄[0;37m ▄[0;1;30m▀[0m [1;30m▀[0;1;30;46m▄▓[0;1;30;40m▄[0;35m▄[0;1;35m░[0;35m▀[0;37m [0;31m▄[0;1;31;41m▄[0;1;31;47m▀▓▓[0;1;31;40m▄[0m
            [35m▀[0;1;32;45m░[0;35m▄▄[0;37m [0;35m▓[0;1;35;45m▀[0;1;30;40m▀[0;35m▀▀[0;1;35;45m▒[0;35m▄▄▄[0;1;35;45m▄█[0;35m▄[0;37m    [0;1;30m▀▀[0m  [1;35;45m██[0m  [1;30m█[0;1;30;47m▒[0;1;37;47m██▄[0;1;30;47m▀[0;1;37;40m▄[0m▄▄[1;30m▄[0m   [31m▄▄[0;1;31;41m▒▒[0;1;31;40m▀▀[0m▀[1;31;41m▀[0;1;31;47m▓[0;1;31;41m▄[0m ▀    [1;30m▀▀[0m  [1;31;41m ▀▀[0;31m▀[0;37m [0;31m▀[0;1;31;41m▀[0m
-[1;30;40mour shit[0m     [1;30m▀[0;35m▀▀█▄[0m     [1;30m▀[0;35m▀[0;1;35;45m█▀[0;1;35;40m▀▀[0;1;35;45m▀▒[0;1;35;40m▄▄[0;35m▄[0;37m [0;1;35;45m▄[0;1;35;47m▀[0;35m▀[0;37m    [0;1;30m▀[0m▀▀▀[1;30;47m▄[0m▓▒░[1;30m▒[0m [1;31m▒[0;31m▀[0;37m    [0;1;30m▄[0m  [31m▀[0;1;31;41m▀▄[0;31m▄[0;37m [0;1;30m▀▄[0m  [1;30m▀[0m   [35;41m▀█▄[0;31;40m▄[0m
+[1;30;40m        [0m     [1;30m▀[0;35m▀▀█▄[0m     [1;30m▀[0;35m▀[0;1;35;45m█▀[0;1;35;40m▀▀[0;1;35;45m▀▒[0;1;35;40m▄▄[0;35m▄[0;37m [0;1;35;45m▄[0;1;35;47m▀[0;35m▀[0;37m    [0;1;30m▀[0m▀▀▀[1;30;47m▄[0m▓▒░[1;30m▒[0m [1;31m▒[0;31m▀[0;37m    [0;1;30m▄[0m  [31m▀[0;1;31;41m▀▄[0;31m▄[0;37m [0;1;30m▀▄[0m  [1;30m▀[0m   [35;41m▀█▄[0;31;40m▄[0m
 [1;30;40msticks like[0m      [1;30m▀[0;35m▀▀▄▄▄[0;37m [0;1;35;45m▄▀[0m   [1;30m▄▄[0m [1;30m▀[0;35m▀▀[0;1;35;47m▒▄[0;1;35;40m▀▀▒[0;35m▄▄[0;31m▄▄▄[0m      [31m▄█[0;37m  [0;1;30m▄[0;1;30;47m▀[0;1;37;47m▄█[0m ▒▄ [31m▀[0;1;31m▒[0;1;31;41m▄[0m  [1;30m▀▄▄[0m   [31m▄[0;1;31;41m▄▄▀[0;1;37;41m░[0;31m▄[0m
 [1;30mspider webs[0m [1;30m>>[0m        [1;30m▀[0;35m▀▀▓▄▄▄[0;37m ▀[0;1;30m▀[0m  [1;35;45m▄█[0;35m▀[0;37m [0;1;30m▄▄▄[0m    [35m▀▀[0;31m▀▀[0;37m [0;31m▀▀[0;37m  [0;1;30m▄[0;1;30;47m  ▄▄[0;1;30;40m▒[0m ▀▀▄ [31m▀[0;1;31m▒ [0m  [1;30m▀[0;1;30;41m▒[0;31m▄[0;1;31;41m▄[0;1;31;47m▓[0;1;31;41m▀[0;31m▀[0;37m [0;31m▀[0;35;41m▀[0m
                            [1;30;40m▀[0;35m▀▀▀▓▄[0;1;35;45m▄▀[0;35m▀[0;37m   [0;1;30m▀▀▀[0;1;30;47m▄[0;1;37;47m▀▒▒[0;1;30;47m▀[0;1;30;40m▄▄▄▄▄[0;1;30;47m▀[0;1;37;47m▄[0;1;37;40m▒▒[0;1;30;47m▀██[0;1;30;40m▓[0m [1;30m▄▄▄[0m   [1;31m░ [0m   [31m▀[0;1;30;41m [0;31m▀▄[0;1;37;41m░[0;35;41m▄[0;37;40m [0;31;40m▄[0m
@@ -47,11 +47,7 @@ Write-Host '
                                            [1;30m▀[0;35m▀[0;31m▀▀[0;1;31m▀[0;31m▄▄[0;1;31m▄▄[0m     [1;30m▀[0m░░[1;30m▄[0;1;30;41m▓[0;1;30;40m▀▀█[0m    [1;31m░[0;31m [0;37m [0;31m [0m     [31m▀[0m
                                                    [1;30m▀[0;31m▀[0;1;31m▀[0m▀▀[1;31;41m▀[0m▄[1;31m▄[0;31m▄[0;37m [0;1;30;41m▒[0m [1;30m▓▌[0m
                                                            [1;30m▀[0;31m▀▀[0m     [1;30m"drugs?"[0m
-                                                                  [1;30malot of drugs[0m
+                                                                  [1;30m             [0m
 
 
-[1;30m-36 lines-----------------------------------------------------------------------[0m
-
- this is the first balkan madness peice we''ve commented on in the bottom. this
-particular ansi took us about 1 hour or so, and it''d rate up there with our
-best.[0m'
+[1;30m-36 lines-----------------------------------------------------------------------[0m'

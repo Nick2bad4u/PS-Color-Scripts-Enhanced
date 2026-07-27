@@ -5,7 +5,7 @@
 # Source SHA-256: 3a32da8506b9687ef72dd44aa97a8cd2f4503f598f13bab90116527eddc38f7d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-BLCH1.ANS by sirdeath (apathy!); released in apathy02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bleach promo
 # SAUCE Author: sirdeath
 # SAUCE Group: apathy!
@@ -48,10 +48,10 @@ Write-Host '
 
 
 [37m+------------------------------------------------------------------------------+[0m
-                       [1;30mtheres just a little bleach promo.[0m
-                           [1;30mdunno what the hell it is.[0m
+                       [1;30m                                  [0m
+                           [1;30m                          [0m
 
-                             [1;30mgreetz; yo my homies.[0m
+                             [1;30m                     [0m
 
-                        [1;30mpiece of shit ansi by; sirdeath[0m
+                        [1;30m                               [0m
 +------------------------------------------------------------------------------+[0m'

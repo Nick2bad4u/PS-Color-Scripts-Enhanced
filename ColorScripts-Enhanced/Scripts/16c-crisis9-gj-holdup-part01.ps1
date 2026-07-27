@@ -5,7 +5,7 @@
 # Source SHA-256: 0a553db34e3279a9560dadc577479f731953cd772b4fcdacd70ee56a725de7a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: gj-holdup.ans by Grymmjack (crisis9); released in crisis9 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -15,8 +15,8 @@ Write-Host '
 [31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
 [1;37;41m                                                                               [0m
 [1;41m                                                                               [0m
-[1;41m   THIS ANSI IS DEDICATED TO THE BAD ASS UNSUNG HEROES OF THE U.S. MILITARY    [0m
-[1;41m  THAT SERVED OUR COUNTRY OVER SEAS IN THE HELL HOLE THAT IS THE MIDDLE EAST.  [0m
+[1;41m                                                                               [0m
+[1;41m                                                                               [0m
 [1;41m                                                                               [0m
 [1;41m                                                                               [0m
 [1;41m                                                                               [0m
@@ -26,7 +26,7 @@ Write-Host '
 [1;30m▓▓▒░░[0m [1;30m▀[0m▀[1m▀▀[0;1;47m▒▒░[0m▀[1m██▀[0m▀▀[1;31m [0;33m▄ [0;1;31m  [0m            [1;30m▀[0m▀[1;47m▒░[0m█[1;47m░▓█[0;1;33;47m██[0;1;37;47m▀[0m░ [1;36m▀[0;1;36;46m▓[0;1;36;40m█[0;1;36;46m▓[0;1;36;40m███[0;36m█[0;1;36m [0;1;31;41m▒[0;1;33;41m  ░░▒▒▓▓▓[0;1;33;40m██████[0;1;37;41m█[0;1;33;40m████[0m
 [1;30;40m░░[0;36m  ▄▄▄▄ [0;1;30m ▄▄▄[0;1;30;47m░░[0m [1;31m▄█▀▀[0;1;31;43m▓░[0;1;31;40m   [0;33m░  [0;1;31m   [0m      [1;33m░[0m [1;30m▀[0;1;30;47m▓[0m█[1;47m▒▓[0;1;40m█[0m▓▀ [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;1;33m▀████[0;1;37;41m█[0;1;33;40m███[0m
 [36m██████▀[0;1;30m▄█[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;47m▓▒[0;1;37;40m░[0m [1;31m█ [0;33m▄[0;1;31m▄[0;1;31;43m▒[0;1;31;40m  [0;33m░▄[0;1;31;41m░[0;1;31;40m [0;33m ░░[0;1;31m [0m        [1;33m░[0;36m░[0;37m▓█▓▀[0;36m  [0;31m█[0;1;37;41mSAY HELLO TO ALAH FOR[0;31m█░[0;1;33m ███████[0m
-[1;36;46m░░░░░[0;36m▄ [0;1;30m▀▀[0;1;30;47m███[0;1;30;40m▀▓[0;36m [0;37m [0;1;31m▄█▄[0;1;31;43m▒[0;1;31;40m  [0;33m▒█[0;1;31;43m▒[0;1;31;40m█ ▄▒▒▄[0m       [36m [0;1;33m░[0;36m░[0;37m░░[0;36m [0;1;36m▄▄[0;36m [0;31m█[0;1;37;41mTHE[0;30;41m▐[0;1;31;40mU[0;1;37;40mS[0;1;34;40mA[0;30;41m▌[0;1;33;41mMOTHERFUCKER[0;1;37;41m [0;31m▓░[0;1;33m ███████[0m
+[1;36;46m░░░░░[0;36m▄ [0;1;30m▀▀[0;1;30;47m███[0;1;30;40m▀▓[0;36m [0;37m [0;1;31m▄█▄[0;1;31;43m▒[0;1;31;40m  [0;33m▒█[0;1;31;43m▒[0;1;31;40m█ ▄▒▒▄[0m       [36m [0;1;33m░[0;36m░[0;37m░░[0;36m [0;1;36m▄▄[0;36m [0;31m█[0;1;37;41m   [0;30;41m▐[0;1;31;40m [0;1;37;40m [0;1;34;40m [0;30;41m▌[0;1;33;41m            [0;1;37;41m [0;31m▓░[0;1;33m ███████[0m
 [1;36;46m▓▓▓▓▓▓▓▄[0;1;36;40m▄▄▄[0;36m▄▒▒[0;1;31m [0;1;31;43m▄[0;33m▀[0;1;31m [0;33m█[0;1;31m  [0;33m▓[0;1;31;43m░▓[0;1;31;40m█[0;1;31;43m▀[0;1;31;40m▀▀[0;1;31;43m░▒[0;1;31;40m██ [0;33m░░[0;1;31m [0m  [1;33m░[0;36m░[0;1;36m█[0;1;36;46m▓▓▀[0;1;36;40m▀[0;31m▄▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;31m▄[0;1;33;41m░▓▓▓▓[0;1;33;40m█[0;1;33;41m▓▓[0m
 [1;36m█[0;1;36;46m▀▀[0;36m▀▀▀▀▀▀[0;1;36;46m▀[0;36m█▀[0;37m [0;1;31m▄█[0;33m▀[0;1;31m [0;33m█[0;1;31;43m░[0;33m▄█[0;1;31;43m░[0;1;31;40m▀[0;33m▀[0;1;31m   [0;33m█[0;1;31;43m ▓▓▀[0;1;33;40m░[0;1;31;40m▒░[0;33m░[0;37m  [0;36m░[0;1;36;46m░░▒[0;1;36;40m▀[0;36m  ▄▄▄▓█[0;1;36;46m░░░▒▒▒▓▓▓▄▄  [0;36m▄▄[0;31m▀▀▀████[0;1;33;41m░░░▒░▒▒[0m
 [36m▀[0;1;31m ▄▄[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;43m▀▀[0;1;31;40m▄ ▄[0;1;31;43m▀[0;33m▀▀[0;1;31m [0;33;46m▓▓[0;33;40m█▀▀[0;1;31;40m [0;33m▄▀[0;1;31m   [0;33m▀[0;1;31;43m░[0;33m▀[0;1;31m█[0;1;33m▄▒[0;1;31m▀[0;33m▀[0;1;31m [0m [36m▄██▄▄▓███[0;1;36;46m░░░░[0;36m█[0;1;36;46m░[0;36m███[0;1;36;46m░░░▒▒█[0;1;36;40m██[0;1;36;46m▒▒▄▄▄[0;36m▄▄[0;31m▀▀▀▀█[0;1;33;41m░░░░[0m

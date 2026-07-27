@@ -5,7 +5,7 @@
 # Source SHA-256: cd2991d5b103e61161fc32d26affdd4a7189e261635365a48878ccde460b127a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-FAIR4.ANS by Rimgale (LUCiD); released in lcd-a002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FairGround #4
 # SAUCE Author: Rimgale
 # SAUCE Group: LUCiD
@@ -23,7 +23,7 @@ Write-Host '
 [1;34;44m▓▓▓▒░[0m ▐[1;47m▒▒▒▓▒▒░░░[0m                                 [1;47m░░[0m [1;34;44m░░░▒▓▓[0;1;34;40m█████[0;1;34;44m▓▓▒▒░░[0m [1;34;44m░░▒▓▓[0;1;34;40m████[0m
 [1;34;44m▓▒▒░[0;34m▌ [0;1;37;47m░░░░░░░░[0m▀                                  ▐ [34m█[0;1;34;44m░░▒▒▓[0;1;34;40m███[0;1;34;44m▓▓▓▒▒▒░░[0;34m▌▐[0;1;34;44m░░▒▓▓[0;1;34;40m████[0m
 [1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;37;47m [0;47m     [0;1;47mTHiS LOOK''S REALLY C00L iN 32O*2OO ■ ANSi BY RiMGALE / LUCiD''1994[0;47m       [0;40m [0m
+[1;37;47m [0;47m     [0;1;47m                                   ■                             [0;47m       [0;40m [0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
                 [34m▄[0;1;30;44m░░ [0;34m▀▀[0;1;34;44m░▒▓[0;1;34;40m▄    ▄[0;1;34;44m▓▒░[0;34m▀▀[0;1;34;44m░[0;1;30;44m░[0;1;34;44m░[0;34m▄[0m       [34m▄[0;34;44m [0;1;30;44m░ [0;34m▀  ▄[0;1;34;44m░▒░[0;34m▀▀[0;1;34;44m░▒▓[0;1;34;40m▄[0m
                [34m▐[0;1;30;44m▒▒▓[0;1;30;40m▌  [0;34m▐[0;1;34;44m▒▓█[0;1;34;40m▌  ▐[0;1;34;44m██▓[0;34m▌  ▐[0;1;30;44m▒░ [0;34m▌[0m     [34m▐[0;1;30;44m░░▒[0;34m▌  ▐[0;1;34;44m░ [0;1;30;44m░[0;34m▌  ▐[0;1;34;44m▒▓[0;1;34;40m█▌[0m
@@ -53,8 +53,8 @@ Write-Host '
         [1m▀▄▄▄[0m▄[1;30m▄[0m                                                   [1;30m▄[0m▄[1m▄▄▄▀[0m
 
 [1m    [0;1;30m─  ─ ───[0m─[1;30m───[0m─[1;30m──[0m─[1;30m─[0m─[1;30m─[0m──[1;30m─[0m───[1m─[0m──[1m─[0m─[1m─[0m─[1m──[0m─[1m────[0m─[1m─[0m──[1m─[0m──[1;30m─[0m───[1;30m─[0m──[1;30m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m───[0m─[1;30m─── ─  ─[0m
-      [1;30m■ [0;1;37mS[0mY[1;34mS[0;1;30mOP: [0;1;37mR[0mi[1;34mM[0;1;30mGALE ■ [0;1;37m+[0m4[1;34m6[0;1;30m-(O)8-58O26274 ■ [0;1;37m1[0m6[1;34mK[0;1;30m8 [0;1;37mU[0mS[1;34mR [0;1;37mH[0mS[1;34mT[0;1;30mDS ■ [0;1;37m1[0m5[1;34mO[0;1;30mO [0;1;37mM[0mE[1;34mG[0;1;30mZ! ■[0m
-        [1;30m■ [0;1;37mL[0mU[1;34mC[0;1;30miD [0;1;37mA[0mP[1;34mP[0;1;30mLiCATiON [0;1;37mH[0mE[1;34mA[0;1;30mDQUARTER ■ [0;1;37mB[0mL[1;34mA[0;1;30mCKOUT [0;1;37mS[0mW[1;34mE[0;1;30mDiSH [0;1;37mH[0mE[1;34mA[0;1;30mDQUARTER ■[0m
-        [1;30m■ [0;1;37mV[0mi[1;34mR[0;1;30mTUAL [0;1;37mT[0mR[1;34mA[0;1;30mDERS [0;1;37mS[0mW[1;34mE[0;1;30mDiSH [0;1;37mH[0mE[1;34mA[0;1;30mDQUARTER [0;1;37m■ F[0mU[1;34mT[0;1;30mURE [0;1;37mD[0mE[1;34mS[0;1;30miGN [0;1;37mD[0mI[1;34mS[0;1;30mTSiTE ■[0m
-              [1;30m■ [0;1;37mS[0mO[1;34mL[0;1;30miD [0;1;37mD[0mA[1;34mR[0;1;30mKNEZ [0;1;37mD[0mi[1;34mS[0;1;30mTSiTE ■ [0;1;37mA[0mR[1;34mY[0;1;30mAN [0;1;37mV[0mA[1;34mN[0;1;30mGUARD [0;1;37mD[0mI[1;34mS[0;1;30mTSiTE ■[0m
+      [1;30m■ [0;1;37m [0m [1;34m [0;1;30m    [0;1;37m [0m [1;34m [0;1;30m     ■ [0;1;37m [0m [1;34m [0;1;30m               ■ [0;1;37m [0m [1;34m [0;1;30m  [0;1;37m [0m [1;34m  [0;1;37m [0m [1;34m [0;1;30m   ■ [0;1;37m [0m [1;34m [0;1;30m  [0;1;37m [0m [1;34m [0;1;30m   ■[0m
+        [1;30m■ [0;1;37m [0m [1;34m [0;1;30m   [0;1;37m [0m [1;34m [0;1;30m         [0;1;37m [0m [1;34m [0;1;30m         ■ [0;1;37m [0m [1;34m [0;1;30m      [0;1;37m [0m [1;34m [0;1;30m     [0;1;37m [0m [1;34m [0;1;30m         ■[0m
+        [1;30m■ [0;1;37m [0m [1;34m [0;1;30m     [0;1;37m [0m [1;34m [0;1;30m     [0;1;37m [0m [1;34m [0;1;30m     [0;1;37m [0m [1;34m [0;1;30m         [0;1;37m■  [0m [1;34m [0;1;30m    [0;1;37m [0m [1;34m [0;1;30m    [0;1;37m [0m [1;34m [0;1;30m      ■[0m
+              [1;30m■ [0;1;37m [0m [1;34m [0;1;30m   [0;1;37m [0m [1;34m [0;1;30m     [0;1;37m [0m [1;34m [0;1;30m      ■ [0;1;37m [0m [1;34m [0;1;30m   [0;1;37m [0m [1;34m [0;1;30m      [0;1;37m [0m [1;34m [0;1;30m      ■[0m
 [1;30m    ─  ─ ───[0m─[1;30m───[0m─[1;30m──[0m─[1;30m─[0m─[1;30m─[0m──[1;30m─[0m───[1m─[0m──[1m─[0m─[1m─[0m─[1m──[0m─[1m────[0m─[1m─[0m──[1m─[0m──[1;30m─[0m───[1;30m─[0m──[1;30m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m───[0m─[1;30m─── ─  ─[0m'

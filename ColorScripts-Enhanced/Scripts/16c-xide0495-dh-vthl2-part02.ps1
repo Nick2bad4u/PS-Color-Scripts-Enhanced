@@ -5,7 +5,7 @@
 # Source SHA-256: 82519c22ca297a7f7147292ed0498064f5f029348592ef1c1e09463d8c64ec43
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-VTHL2.ANS by Dark Horizon (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 34-65
 # Columns: 1-80
 
@@ -32,13 +32,13 @@ Write-Host '
               [1;34m/[0m     [1;34m:[0m     [1;34m\    /  \[0m     [1;34m\[0m     [1;34m\    \   \[0m
               [1;36m\_____|[0m      [1;36m\_______\___________\________\[0m
                     [1;36m:.______\[0m
-             [1;36mV[0;1;34mirtual [0;1;36mHell[0m
+             [1;36m [0;1;34m       [0;1;36m    [0m
              [1;36m91[0;1;34m6.623.[0;1;36m3726[0m
-             [1;36mSys[0;1;34m: Char[0;1;36mon[Rev[0;1;34molt/Ed[0;1;36men/TAP/[0;1;34mFiDELi[0;1;36mS Lit C[0;1;34moord][0m
-             [1;36mCosys[0;1;34m: Bul[0;1;36mlwinkle[0m
-             [1;36mAffil[0;1;34ms: Rev[0;1;36molt Di[0;1;34mst/Ede[0;1;36mn Dist/[0;1;34mFiDELi[0;1;36mS Dist[0;1;34m/VOiD [0;1;36mDist[0m
-[34m· :[0m          [1;36mMore A[0;1;34mffils [0;1;36mAhhhh: [0;1;34mXiDE [0;1;36mDist/H[0;1;34moE Dist[0;1;36m/AcE Dist[0m                  [34m: ·[0m
-[34m. [0;1;34m│[0m          [1;34mN[0;1;36mets: I[0;1;34mmpact [0;1;36mNet/Ci[0;1;34mP Net/[0;1;36mInsaNet[0;1;34m/Creat[0;1;36mors N[0;1;34met/Min[0;1;36mdlink N[0;1;34met[0m      [1;34m│ [0;34m.[0m
-[34m: [0;1;36m│[0m          [1;34mMo[0;1;36mre Net[0;1;34ms Ahhh[0;1;36mh:/OSN[0;1;34m/Reali[0;1;36mty Net[0m                                [1;36m│ [0;34m:[0m
+             [1;36m   [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m       [0;1;34m      [0;1;36m       [0;1;34m     [0m
+             [1;36m     [0;1;34m     [0;1;36m       [0m
+             [1;36m     [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m       [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m    [0m
+[34m   [0m          [1;36m      [0;1;34m      [0;1;36m       [0;1;34m     [0;1;36m      [0;1;34m       [0;1;36m         [0m                  [34m   [0m
+[34m  [0;1;34m│[0m          [1;34m [0;1;36m      [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m       [0;1;34m      [0;1;36m     [0;1;34m      [0;1;36m       [0;1;34m  [0m      [1;34m│ [0;34m [0m
+[34m  [0;1;36m│[0m          [1;34m  [0;1;36m      [0;1;34m      [0;1;36m      [0;1;34m      [0;1;36m      [0m                                [1;36m│ [0;34m [0m
 [34m└──[0;1;34m───────[0;1;36m───────────────────────────────────────────────────────────[0;1;34m───────[0;34m───┘[0m
 [34m  [0;1;36m└[0;1;34m────[0;34m──── ─  .[0m                                                 [34m. ─ ────[0;1;34m────[0;1;36m┘[0m'

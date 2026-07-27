@@ -5,7 +5,7 @@
 # Source SHA-256: 9383295b8968e6adfd9e7ec5e3aaaf26ec325ca732f4165038768a1f8d3c9316
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-BC1.ANS by Somms (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Chamber
 # SAUCE Author: Somms
 # SAUCE Group: ACiD Productions
@@ -37,12 +37,12 @@ Write-Host '
 
 
                            [1m7 [0m1 [1;30m4 [0;1m∙ [0;1;30m6 4 6 - 2 4 [0m2 [1m2[0m
-                         [1mR[0mun[1;30mning The Latest Reneg[0mad[1me[0m
-                       [1m6[0mOO[1;30m+ Megs OnLine [0;1m∙ [0;1;30m25O OffL[0min[1me[0m
-                         [1mC[0mCi [1m∙ [0;1;30mFusionNet [0;1m∙ [0;1;30mBeer[0mNe[1mt[0m
-                            [1mB[0mee[1;30mrWare Alpha S[0mit[1me[0m
-                         [1mS[0mys[1;30mops: Jumpman [0;1m∙ [0;1;30mMerc[0mur[1my[0m
-                               [1mC[0mo: [1;30mSir Be[0mrr[1my[0m
+                         [1m [0m  [1;30m                     [0m  [1m [0m
+                       [1m [0m  [1;30m              [0;1m  [0;1;30m        [0m  [1m [0m
+                         [1m [0m   [1m  [0;1;30m          [0;1m  [0;1;30m    [0m  [1m [0m
+                            [1m [0m  [1;30m             [0m  [1m [0m
+                         [1m [0m  [1;30m             [0;1m  [0;1;30m    [0m  [1m [0m
+                               [1m [0m   [1;30m      [0m  [1m [0m
 
                                 [1;32m▄▄ ▄[0;32m▄ ▄ [0;1;32m▄ [0;32m▄tm[0m
 [1;30m─────═══════  [0;1mT[0mhi[1;30ms Has Been An [0;1;32;42m▌[0m [32m▄[0;1;32m▐[0;32m▌  ▄ [0;1;32;42m▌[0m [32m▐▌ [0;1;30mAbduction [0m<g[1m>  [0;1;30m══════════════─────[0m

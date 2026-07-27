@@ -5,7 +5,7 @@
 # Source SHA-256: fc457e9cc3da4ba93f084154ad5ac2db0ddd519f269dba032fdaae4b22425acf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: [006] SC-SOULS.ans by Scythe (Visions of Reality); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Souls in Hell
 # SAUCE Author: Scythe
 # SAUCE Group: Visions of Reality
@@ -44,7 +44,7 @@ Write-Host '
 [44m▓▓[0;40m▄[0;34;40m▀[0;37;44m░░▒▒▓▓[0;37;40m▄▀[0;1;37;47m░▒▒▓▓[0;1;37;40m▄▄[0m                         [34m▀▀▀▀[0;1;30;44m░▒▒░[0;34m█▄▄▄▄[0;37m▀▀▀▀▀▀▀[0;37;44m▓▓▓▓[0;37;40m▀[0;1;30;40m▄[0;1;30;44m▓▓[0;1;30;40m▄[0m▀[1;47m▒░░░[0m▀
 ▀▀   [34m▀[0;37;44m░░▒▒[0;37;40m▀ ▀[0;1;37;47m░░▒▒▓[0;1;37;40m▀▀▀[0m                              [34m▀▀▀▀▀[0m     [34m▀[0;1;30;44m░░[0;34m▄▄▄▄[0;1;30;44m░░▒▒░░[0;34m▄▄▄▄[0;1;30;44m░[0m
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;41m                  Lobo is a regestered trademark of DC Comics inc.             [0m
+[1;41m                                                                               [0m
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
  [1;32m▄▄[0m               [1;32m▄▄▀[0m                               [1;32m▄[0m        [1;32m▄[0m
 [1;32m  ▀█[0;1;32;42m▀▀[0;1;32;40m▄▄▄   ▄▄▄▄[0;1;32;42m▀▀▄[0;1;32;40m▀[0m                                 [1;32m█▄   ▄█▀[0m
@@ -61,5 +61,4 @@ Write-Host '
 [1;32;40m  ▐[0;1;32;42m▄▀▀[0;1;32;40m▄▄▄▄[0;1;32;42m▀▀[0;32m████[0;1;32;42m▄[0;1;32;40m▀[0m     [1;32m▐[0;32m██[0;1;32;42m▀[0;1;32;40m▄▄[0;1;32;42m▀[0;32m██[0;1;32m▌[0m      [1;32m█[0;1;32;42m ▀[0;1;32;40m▄   ▄[0;1;32;42m▀  [0;1;32;40m█   ▄[0;1;32;42m▀  [0;1;32;40m█    ▄▄[0m      [1;32m█[0;1;32;42m   [0;1;32;40m█[0m
 [1;32;40m  ▐[0;1;32;42m▀[0;32m█████████[0;1;32;42m▄▄[0;1;32;40m▀[0m       [1;32m█[0;1;32;42m [0;32m█[0;1;32;42m▄▄▄▄[0;32m██[0;1;32m█[0m       [1;32m█[0;1;32;42m  ▀▀▀   [0;1;32;40m█    █[0;1;32;42m ▄▄ [0;1;32;40m█[0m     [1;32m▀█[0;1;32;42m▀▀▀▀  ▄[0;1;32;40m▀[0m
 [1;32;40m ▄[0;1;32;42m▀▄▄▄[0;1;32;40m▀▀▀▀▀▀▀[0m        [1;32m▄█▀▀▀    ▀▀▀▀▄[0m      [1;32m▀▀[0;1;32;42m▄▄▄[0;1;32;40m█▀▀   ▄█▀▀  ▀▀█   ▄█[0;1;32;42m▄▄▄▄▄[0;1;32;40m▀▀[0m
-[1;32;40m▄▀▀[0m                                                [1;32m▀[0m         [1;32m▀ ▀▀[0m
-'
+[1;32;40m▄▀▀[0m                                                [1;32m▀[0m         [1;32m▀ ▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d02cdd5b3b546c649947c38e09ba89038517983dc3aec6e81c0c1b802c9388e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PRO-TRAU.ANS by Propane (rca0497a); released in rca0497a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -38,13 +38,11 @@ Write-Host '
 [1;30;40m [0m   [35m     [0m      [35m      [0m          [35m             [0m
 [37m--------------------------------------------------------------------------------[0m
 
-[37mThis 100% original ansi is by propane.. phear..[0m
-[1;32mSo the Waterfall is on a smaller scale then the face, it looks cool..[0m
-[1;32manyways[0m
+[37m                                               [0m
+[1;32m                                                                     [0m
+[1;32m       [0m
 
-greets: Teekay, aoh, sl, kit, phorcep...
+                                        
 [1;32m   [0m
 
-[1;32mAND.....[0m
-[36mthrashie[0m
-[36m                  [0m'
+[1;32mAND.....[0m'

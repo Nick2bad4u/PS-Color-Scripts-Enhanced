@@ -5,7 +5,7 @@
 # Source SHA-256: 302cbc681e6a2c5263a77b79c903aff77581e9b1f1b4b368e939f115c044ab1c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM!OPX.ANS by _sm(SIMS) (opium graphix); released in opx-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: OPX Logo
 # SAUCE Author: _sm(SIMS)
 # SAUCE Group: opium graphix
@@ -42,5 +42,4 @@ Write-Host '
 [37m      [0;1;31m▓[0;31m▀[0;1;31m▀▀[0;1;31;41m▀[0;1;31;40m███████[0;1;31;43m▓▓[0;1;31;40m░[0m  [36m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;1;36;40m▒▒[0m     [31m▄░ ▄▄▄[0;1;31m▄▄▄[0;1;31;41m▄█[0;1;31;47m▓▓▓[0;1;31;41m█▀[0;1;31;40m▀▀▀▀[0;31m▀░[0m    [31m  [0m    [1;31m░░[0m  ░░ sims
       [1;31m [0m       [31m▀[0;1;31m▀▀▀▀▀[0m          [31m░░[0;37m  [0;31m▀[0;37m [0;31m ▓▀[0;1;31m▓▀▀▀▀[0;31m▀[0m
 
-           [1;36m [0;1;30m([0;1;36m [0m [1;36mO   P   I   U   M       G   R   A   P   H   I   X[0;1;30m [0;1;36m [0;1;30m)   [0m [1;30m [0m  [1;30m    [0m
-                                   [1;33m [0m'
+           [1;36m [0;1;30m([0;1;36m [0m [1;36mO   P   I   U   M       G   R   A   P   H   I   X[0;1;30m [0;1;36m [0;1;30m)   [0m [1;30m [0m  [1;30m    [0m'

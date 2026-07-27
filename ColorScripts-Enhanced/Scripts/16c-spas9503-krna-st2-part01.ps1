@@ -5,7 +5,7 @@
 # Source SHA-256: 6803fbeea9f6090625dd0deb2c3c770da128ff190f5c4088ec19553b77a3b817
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRNA-ST2.ANS by Kerplunk + Narcolept (Spastic Studios); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sarcastic Toaster
 # SAUCE Author: Kerplunk/Narcolept
 # SAUCE Group: Spastic Studios
@@ -25,12 +25,12 @@ Write-Host '
 [1;30;40m ░   ░ [0;1;33;43m▓▒░[0;33;46m▓[0m [33;40m▓[0;1;33;43m░▒▓[0m [1;33;43m▒░[0;33m█[0;33;46m▓[0;33;40m▄[0;1;33;43m░░▒[0;1;36;46m░[0m [1;36;46m░[0;1;33;43m░[0;33;46m▓[0;1;33;43m░[0m [33;46m▓[0;1;33;43m░▒▓[0m [1;36;46m░[0;1;33;43m▒░[0;33;46m▓[0m [33;40m█[0;1;33;43m░▒▓[0;1;33;40m▀[0;1;33;43m░[0;33;46m▓[0;1;33;43m░▒[0m [1;33;43m▓▒░[0;1;36;46m░[0m [1;33;43m▒░[0;33m█[0;1;33;43m░[0;1;33;40m▀[0;1;33;43m▓▒░[0;33;46m▓[0m [33;40m▀▀[0;1;33;43m░[0;1;36;46m░[0m    [1;30;40m▒ ░[0m
        [1;33;40m▀[0;1;33;43m▓▒░[0;33m▄[0;1;33;43m░▒▓[0;1;33;40m▀ [0;1;33;43m▓▒░░[0m   [1;33;40m▀▒ [0;1;33;43m▓▒░░[0;33m▄[0;1;33;43m░▒▓[0;1;33;40m▀ ▀[0;1;33;43m▓▒░[0;33m▄[0;1;33;43m░▒▓[0;1;33;40m▀ [0;1;33;43m░░▒▓[0m [1;33;40m▒  ▄▄[0;1;33;43m▓▒░░[0;33m▄[0;1;33m▀[0;1;33;43m▓▒░[0;33m▄▓[0;1;33;43m░▒▓[0;1;33;40m▄   [0;1;30;40m░[0m
                          [1;33;40m░ ▒▀[0m                       [1;33;40m░[0m
-                [1;30;40m...a narcol[0;1;33;40m░[0;1;30;40mpt/kerplunk spastijoint endevour...[0m
+                [1;30;40m           [0;1;33;40m░[0;1;30;40m                                   [0m
 
 [1;36;46m░[0m                                                                             [1;36;46m░[0m
-[1;36;46m░[0m   [1;30;40meerie rools. he is a god. he is not a fat frenchie slob. we worship him   [0;1;36;46m░[0m
-[1;36;46m▒[0m  [1;36;46m░[0m [1;30;40mhe can diss on paramount without caring what they think of him. he is [0;1;36;46m░[0m  [1;36;46m▒[0m
-[1;36;46m▓▓[0;1;36;40m▄[0;1;36;46m▒[0;1;36;40m▄▄▄ ▄ [0;1;30;40malso an overall nice guy. and for that, he deserves an ansi.[0;1;36;40m▄ ▄▄▄[0;1;36;46m▒[0;1;36;40m▄[0;1;36;46m▓▓[0m
+[1;36;46m░[0m   [1;30;40m                                                                          [0;1;36;46m░[0m
+[1;36;46m▒[0m  [1;36;46m░[0m [1;30;40m                                                                      [0;1;36;46m░[0m  [1;36;46m▒[0m
+[1;36;46m▓▓[0;1;36;40m▄[0;1;36;46m▒[0;1;36;40m▄▄▄ ▄ [0;1;30;40m                                                            [0;1;36;40m▄ ▄▄▄[0;1;36;46m▒[0;1;36;40m▄[0;1;36;46m▓▓[0m
 [1;36;46m▓▓▓▓▒▒▒▒▒▒▒░░░░░          ░░▒▒▒▒▒▒▒░░░            ░░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓███[0;1;36;40m█[0;1;36;46m▓██▓[0m
 [1;36;46m▒▒▒▒░░░░░░░[0;36m███[0;36;46m         [0;1;36;46m░░░▒▒▒▓▓▓▓▓▓▒▒▒░                  ░░░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓[0m
 [1;36;46m░░░░[0;36m███████[0;36;46m          [0;1;36;46m░░▒▒▒▓[0;1;36;40m▀[0m     [1;36;40m▀▀[0;1;36;46m▓▓▒▒░                       ░░░░░░░░▒▒▒▒▒▒▒▒[0m

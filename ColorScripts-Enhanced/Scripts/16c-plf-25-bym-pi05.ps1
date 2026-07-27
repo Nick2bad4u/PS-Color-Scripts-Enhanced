@@ -5,7 +5,7 @@
 # Source SHA-256: da2927d90b798ccb878f15276bf54a532850ee16c204bc5111f03549ab867264
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-PI05.ANS by Superbym (plf); released in plf-25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Piranha - Two Fishes
 # SAUCE Author: Superbym
 # SAUCE Group: plf
@@ -26,16 +26,16 @@ Write-Host '
 [34;40m█[0;1;34;44m░      [0;34m▄[0;1;30m▀[0;33m▀███[0;33;41m▀[0;31;40m██[0;33;41m▀▀▀▀▀[0;37;41m   [0;31;40m▀[0m     [31;40m▄[0;1;34;41m██[0;41m░[0;1;34;41m▀[0;41m   [0;1;34;41m▀▀[0;1;34;47m██[0;41m░[0;1;34;41m█▀[0;41m [0;1;34;44m▓▓▒▒░░▀ [0;34m░░[0;31m░░░[0;1;34m  ▀[0;1;34;47m▓[0;1;34;40m▓▒░[0;30;47m█[0;34;40m██▌   ▐█[0;1;34;44m░[0;34m█▄[0m
 [34m█[0;1;34;44m░░▀     [0;34m█▄▄▄[0;31m▀▀▀▀▀▓▒▒███▄▄▄▄▓[0;1;34;41m▀▀▀▀[0;41m░   [0;31;40m██[0;37;41m  [0;1;34;41m░[0;41m░[0;31;40m██[0;37;41m [0;31;44m▀[0;1;34;40m░[0;1;34;44m░[0;34m▓▀▀ [0;31m▀░░░[0m       [1;34m▀▓▒░[0;30;47m█[0;34;40m██▄   ▀███[0m
 [34;40m█░[0m                        [31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m                       [30;47m█[0;1;34;40m▀ [0m         [34m░█[0m
-[34m█░ [0;37m [0;1;34m1   some fishhead[0m          [1;34m.:[PIR]:.[0m             [1;34mBrowsing![0m     [1;34mgender M [0m [34m░█[0m
-[34m█░[0;37m  [0;1;34m2   some fishhead[0m          [1;34m.:[PIR]:.[0m             [1;34mBrowsing![0m     [1;34mgender M [0m [34m░█[0m
-[34m█░[0;37m  [0;1;34m3   some fishhead[0m          [1;34m.:[PIR]:.[0m             [1;34mBrowsing![0m     [1;34mgender M [0m [34m░█[0m
-[34m█░[0;37m  [0;1;34m4   some fishhead[0m          [1;34m.:[PIR]:.[0m             [1;34mBrowsing![0m     [1;34mgender M [0m [34m░█[0m
-[34m█░[0;37m  [0;1;34m5   some fishhead[0m          [1;34m.:[PIR]:.[0m             [1;34mBrowsing![0m     [1;34mgender M [0m [34m░█[0m
-[34m█░[0;37m  [0;1;34m6   some fishhead[0m          [1;34m.:[PIR]:.[0m             [1;34mBrowsing![0m     [1;34mgender M [0m [34m░█[0m
-[34m█░[0;37m  [0;1;34m7   some fishhead[0m          [1;34m.:[PIR]:.[0m             [1;34mBrowsing![0m     [1;34mgender M [0m [34m░█[0m
-[34m█░[0;37m  [0;1;34m8   some fishhead[0m          [1;34m.:[PIR]:.[0m             [1;34mBrowsing![0m     [1;34mgender M [0m [34m░█[0m
-[34m█░[0;37m  [0;1;34m9   some fishhead[0m          [1;34m.:[PIR]:.[0m             [1;34mBrowsing![0m     [1;34mgender M [0m [34m░█[0m
-[34m█░[0;37m  [0;1;34m10  some fishhead[0m          [1;34m.:[PIR]:.[0m             [1;34mBrowsing![0m     [1;34mgender M [0m [34m░█[0m
+[34m█░ [0;37m [0;1;34m                 [0m          [1;34m         [0m             [1;34m         [0m     [1;34m         [0m [34m░█[0m
+[34m█░[0;37m  [0;1;34m                 [0m          [1;34m         [0m             [1;34m         [0m     [1;34m         [0m [34m░█[0m
+[34m█░[0;37m  [0;1;34m                 [0m          [1;34m         [0m             [1;34m         [0m     [1;34m         [0m [34m░█[0m
+[34m█░[0;37m  [0;1;34m                 [0m          [1;34m         [0m             [1;34m         [0m     [1;34m         [0m [34m░█[0m
+[34m█░[0;37m  [0;1;34m                 [0m          [1;34m         [0m             [1;34m         [0m     [1;34m         [0m [34m░█[0m
+[34m█░[0;37m  [0;1;34m                 [0m          [1;34m         [0m             [1;34m         [0m     [1;34m         [0m [34m░█[0m
+[34m█░[0;37m  [0;1;34m                 [0m          [1;34m         [0m             [1;34m         [0m     [1;34m         [0m [34m░█[0m
+[34m█░[0;37m  [0;1;34m                 [0m          [1;34m         [0m             [1;34m         [0m     [1;34m         [0m [34m░█[0m
+[34m█░[0;37m  [0;1;34m                 [0m          [1;34m         [0m             [1;34m         [0m     [1;34m         [0m [34m░█[0m
+[34m█░[0;37m  [0;1;34m                 [0m          [1;34m         [0m             [1;34m         [0m     [1;34m         [0m [34m░█[0m
 [34m█░[0m                                                                           [34m░█[0m
 [34m▓█[0;1;34;44mbym ░░░[0;34m█▄▄▀  ▀▀▀[0;30;44m [0;1;34;44m▀█[0;1;34;47m▀▓▓[0;1;34;44m░░░▒▒▒▓▓▀▀▀[0;34m███▄▄████▓▓▓▓▒▒▒░░[0;1;30m▄█[0;35;44m░░[0;34;40m▓▓▀▀[0;32;40m [0;35;40m ░░[0;35;44m░░░[0;34;40m▓▓[0;1;34;44m▀░[0;34m█▀▀[0;1;30m [0;32m [0;34m░▓[0m
 [34m░▒▓▓▓▓▓▀▀▀▀   ▄▓▓█[0;1;34;44m▄█[0;1;34;47m▓▓[0;1;34;44m▀▀[0;34m█[0;1;34;44m▀[0;34m█▓▓▓▓▓█[0;1;34;44m▄[0;1;34;47m▀[0;1;37;47m▄ [0;1;34;47m▄[0;1;34;44m▀[0;34m▀▀ ██▀█████▀[0;1;30m▄█[0;33;44m░░[0;34;40m▀▀[0;32;40m  [0;35;40m░░░[0;35;44m░░[0;34;40m▓▓▀▀▀[0;1;30;40m  [0;32m [0;34m▄░░[0;1;30m▀[0;34m ░▀[0m

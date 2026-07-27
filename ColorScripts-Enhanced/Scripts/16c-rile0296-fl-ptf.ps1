@@ -5,7 +5,7 @@
 # Source SHA-256: d436dcdd6f7539db327c51523ef81050890e0c4ef3943410d603f0f1589422b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-PTF.ANS by flame (rile); released in rile0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: [PtF]  %%
 # SAUCE Author: flame
 # SAUCE Group: rile
@@ -35,5 +35,4 @@ Write-Host '
                                 [35;40m▀ ▀▀▓▀[0m
 
                                    [1;30;40m" PtF "[0m
-     ][1;30m---------------------------------------------------------------------[0m[
-                            [1;30mhere''s j0r ansi mastax.[0m'
+     ][1;30m---------------------------------------------------------------------[0m[[0m'

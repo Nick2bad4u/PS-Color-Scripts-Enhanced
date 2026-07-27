@@ -5,7 +5,7 @@
 # Source SHA-256: 37fe35ae280112b87eedd0fccbdd85974a0ad744d0050a00e8f9d82128cfe5a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-HELL.ANS by Phlare (Decades); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hellbound
 # SAUCE Author: Phlare
 # SAUCE Group: Decades
@@ -34,5 +34,4 @@ Write-Host '
 [35;40m ▀[0;1;35;45m▀[0;35m█[0;1;35;45m░░[0;45m  ░[0;35;40m█[0;30;45m░[0;1;35;45m╓──╜[0;35m██[0;1;35;45m░░[0;35m██[0;37;45m░░[0;35;40m█▀[0m      [35;40m.HellTech Ent.[0m         [35;40m▐[0;1;35;45m░[0;35m██[0;1;35;45m░░[0;35m███▄ [0;1;34m▐█▀[0m [35m ▄▄▀▀▀[0;1;35m░░[0;35m▀▄[0m
     [35m▀▀▀▀█[0;1;35;45m░░╙▄[0;30;45m░░[0;1;35;45m░░▓▓░░[0;35m██▌ [0m    [35mby Phlare <Decades>[0m    [35m ▄██[0;1;35;45m░░▒▓░░[0;35m█[0;37;45m░[0;35;40m▌[0;1;34;40m▀[0m   [35m▀ [0m
             [35m▀▀▀▀█[0;1;35;45m░░[0;35m██[0;1;35;45m░░[0;35m█[0;1;35m▄[0m               [35m ░░        ▀▀[0;1;35;45m▀[0;35m▀▀▀█[0;1;35;45m░░[0;35m█[0;1;35;45m▀[0;35m▀▀[0m
-              [1;35m    [0;35m  ▀▀▀▀▀▀▀▀▄▄▄[0m   [35m───[0m   [35m──── ┘[0m
-                        [1;35m [0m'
+              [1;35m    [0;35m  ▀▀▀▀▀▀▀▀▄▄▄[0m   [35m───[0m   [35m──── ┘[0m'

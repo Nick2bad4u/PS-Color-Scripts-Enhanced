@@ -5,7 +5,7 @@
 # Source SHA-256: 60bba2dca7802673d16893ce3b846431f6456fadfa4859be80124544d92798f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-RAGE2.ANS by Primordial Chowder (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rage Phosphorus
 # SAUCE Author: Primordial Chowder
 # SAUCE Group: UNiON
@@ -56,10 +56,4 @@ Write-Host '
 [1;37;47m██████▓▓▓██████████████████████████████████▓█▓▓▓███████▓▓▒░▒▒▒▒▒▓▓██████████████[0m
 [1;37;47m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██[0m
 [1;37;47m▀[0;1;30;47m▄[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▄[0;1;37;47m▀[0m
-[1;30;40m▀ [0mO[1mutcast from society, the life that I prized, noone walks with me, I''ve bee[0mn [1;30m▀[0m
-o[1mstracized.  I stalk through the sewers, a torch in my hand, this is my kingdom[0m,
-   t[1mhis is my land. Under a grate, the light strikes my skin, I flee from it[0ms
-  p[1moison, I just cannot win. This game of existance, so hard do I strive, I''l[0ml
- n[1mever grow wealthy, just barely survive.  The cloak of night falls, the moon''[0ms
- b[1morn anew, my goal is now clear, I know what to do. Pull myself to the surfac[0me
- a[1mnd breathe the fresh air, you all stare right at me but I''ll never care.  Fo[0mr[0m'
+[1;30;40m▀ [0m [1m                                                                          [0m  [1;30m▀[0m'

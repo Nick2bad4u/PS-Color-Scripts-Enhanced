@@ -5,7 +5,7 @@
 # Source SHA-256: 68088d4d061ad3a9f51022f49984a83fe81654be9c7774b4bab74909e52c0fec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M7-FB.ANS by m7 (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: full blown
 # SAUCE Author: m7
 # SAUCE Group: eclipse
@@ -32,7 +32,4 @@ Write-Host '
        [32m█[0;1;32;42m▓[0;1;32;40m█████[0;1;32;42m▓▓▓▓[0;32m▓[0;1;32m▀[0;30;42mm7[0;1;32;42m▀▀▀▀▀▀▀▀▀[0;32m▓[0;30;42m░▒[0;32;40m▒▓[0;30;42m░▒▓[0;32;40m░[0;30;42m▓[0;32;40m░[0m   [32;40m░[0;30;42m▓[0m     [32;40m░[0m
         [32;40m▀▀▀▀▀▀▀▀▀▀[0m               [32;40m░[0;30;42m▓[0m
 [37;40m--------[0m
-[37;40meye''m greeting misfit, cause I used his font thinger ▲ .. so like.. HI! .. he[0m
-[37;40msaid it was ok, and to go nuts.. so, I did. :) .. Uhm.. Like, I''d also like to [0m
-[37;40mgreet uhm.. lemme think THE SCENE.. HI EVERYONE! .. I''d like to give special [0m
-[37;40mthanks to fonebone.. and uh.. kal.  And uhm.. lesse.. hal and hol.[0m'
+[37;40m                                                     ▲                       [0m'

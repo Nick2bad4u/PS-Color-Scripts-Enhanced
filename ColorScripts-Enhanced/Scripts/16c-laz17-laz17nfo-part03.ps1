@@ -5,7 +5,7 @@
 # Source SHA-256: c4597a58796d2902f6d3857c78a656c4bdb97149c1b70f13e9603c2bf22c2154
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAZ17NFO.ans by Warpus + Mel Farr Suppastar + Pinguino (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: LAZARUS 17 NFO
 # SAUCE Author: warpus,mfs,pinguino
 # SAUCE Group: LAZARUS
@@ -40,22 +40,4 @@ Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒[0m
 [1;30m░░░░░░░░░░░░░░░░░░░░[0m [1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m [1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░[0m
-                     [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [1;30m░░░░░░░░░░░░░░░░░░░[0m
-
-
-
-
-      [36mWe are gathered here today, in this beautiful place, to witness the[0m
-[37m    [0;36mrelease of [0;1;37mLAZARUS[0;1;35m [0;1;37m17[0;36m.[0m
-
-[37m      [0;36mSixteen separate artists have chosen[0;37m [0;36mthis special release date to enter[0m
-[37m    [0;36minto a non-legally non-binding pack.[0;37m  [0;36mThese artists have taken great[0m
-[37m    [0;36mconsideration and respect for each other to produce works[0;37m [0;36mof textmode art[0m
-[37m    [0;36mfor this special moment.  You as friends and family are able to celebrate[0m
-[37m    [0;36mthe release of this pack with them.[0m
-
-[37m      [0;36mThe essence of this pack symbolizes the sharing of 35 works of art.  Yet[0m
-[37m    [0;36mthis closeness will not diminish the characters or being of either artist.[0m
-[37m    [0;36mAs you peep at this pack, your understanding of each piece of art will[0m
-[37m    [0;36mcontinue to expand.[0m
-'
+                     [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [1;30m░░░░░░░░░░░░░░░░░░░[0m'

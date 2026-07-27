@@ -5,7 +5,7 @@
 # Source SHA-256: f379b6db86bb597d78e8625dfb8bb8be395f42f51d5ed053d8326be89de0aa9f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!Z-SUP.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: support-header
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
@@ -38,8 +38,4 @@ Write-Host '
 
 
 
-[1;30;40m--------------------------------------------------------------------------------[0m
-
-[1;30mtoday i met ave in an chat. he''s surely cool. okay heres an ansi 4 him.[0m
-[1;30mdebug your board man ! if it''s properly modded one like me might be able to use[0m
-[1;30mit. i''m the lamest dude who ever called a board ... believe me ..[0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

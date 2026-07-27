@@ -5,7 +5,7 @@
 # Source SHA-256: af5a5728c8e71a82caa526bab384d9509440742d36c1ad42a1c32005c523b1c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IGFL3333.ANS by Flame + Ironghost (Function); released in fx-9806 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eerie
 # SAUCE Author: Ironghost / Flame
 # SAUCE Group: Function
@@ -49,6 +49,4 @@ Write-Host '
       [1;30m▀ [0m  [1;30m░[0m     [1;30m▀[0m       [1;30m░[0m         [1;30m  ▀[0m   [1;30m▄▒▀[0m [1;30m ▄▀▄[0;1;30;46m▀▓[0;1;30;40m▀[0m   [1;30m▄▒[0;36m▀[0m    [1;30m▀[0m
            [1;30m▀[0m               [1;30m■ [0m   [1;30m░[0m [1;30m▀[0m   [1;30m▄▀[0m   [1;30m░▀▄[0;1;30;46m▀▄[0;1;30;40m▀[0m   [1;30m▄[0m  [1;30m [0m
 [31meerie.[0m                                    [1;30m ▄▒▀▒[0m     [1;30m [0m
-                                        [1;30m▄   [0m      [1;30m [0m
-[31mig und flame.[0m                                                               [31m1997[0m
-[31m(face)&(logo)[0m'
+                                        [1;30m▄   [0m      [1;30m [0m'

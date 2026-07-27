@@ -5,7 +5,7 @@
 # Source SHA-256: 1eb9a9db7d60589439ed26f1343311ec660e092f7bd95b10828995af1c1aacf9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SMI-UFO.ANS by samurai (klexikal); released in k-ronin and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: take me to your leader ...
 # SAUCE Author: samurai
 # SAUCE Group: klexikal
@@ -38,6 +38,4 @@ Write-Host '
 [34m░░[0;1;30m▀[0;34m ░[0;1;34m▒▒[0;1;34;44m░░░[0;34m██[0;1;34;44m░░░[0;34m▓▓▓[0;1;34m▒▒[0;34m▄[0;1;30m▀▀[0;34m [0;1;30m [0;1;32m░░▒▒▒▒▒▒░░[0m▀[1;30m▀[0m [34m [0;1;30m▄[0;34m▄███▄  [0;1;30m▄▄[0;34m▄[0;1;34;44m [0;34m█[0;1;34m▒▒[0;1;34;44m░░░░[0;34m░ ░░[0;37m ▓███ [0m
 [34m░[0;1;30m▀[0m [1;30m▄[0;34m▓█[0;1;34;44m░▓▓▒[0;34m▌[0;1;34;44m░▒▒▒░[0;34m▌▐[0;1;34;44m░░░[0;34m░  [0;1;30m▄[0;1;32m▒[0;32m█[0;1;32;42m▀▄███▄░[0;32m█░[0;1;30m▓[0m [34m ░[0;1;34m▒▒[0;1;34;44m░░░[0;34m▌▄[0;1;34;44m ░░░░[0;34m▐[0;1;34;44m░▒▓▓▓[0;34m▓ [0;1;30m▀[0;34m░░[0;37m░███ [0m
 [1;30msmi[0;34m░█[0;1;34;44m░▓[0;1;34;47m▓▀[0;1;34;44m▓[0;34m [0;1;34;44m▒▓▓▓▒[0;34m▌[0;1;34;44m░░[0;34m▓▓▓[0;1;30m ▐[0;1;32m▓▓[0;1;32;42m░▓██[0;1;37;40m▓▓▓[0;1;32;42m▓[0;1;32;40m▒[0;32m▓[0;1;30m█[0m [1;30m▄[0;34m▓[0;1;34m░[0;1;34;44m░░░[0;34m▓░█[0;1;34;44m░░▒▒▒[0;34m [0;1;34;44m▒▓[0;1;34;47m▓▒▀[0;1;34;44m▄[0;1;30;40m▌ ▀[0;34m░░[0;37m ▀█ [0m
-[1;30m=={ [0m5:19:1999 [1;30m}===================================================={ [0mnotes ↓[1;30m }==[0m
-[1;30manother teeny 23 liner ... original as usual. [0m [1;30mit''s supposed to be some sort of[0m
-[1;30malien or something.[0m'
+[1;30m=={ [0m5:19:1999 [1;30m}===================================================={ [0mnotes ↓[1;30m }==[0m'

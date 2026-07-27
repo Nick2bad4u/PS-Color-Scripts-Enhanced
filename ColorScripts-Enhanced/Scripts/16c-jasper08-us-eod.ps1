@@ -5,7 +5,7 @@
 # Source SHA-256: cdf20499cc3c08bec3ed6af7e15208a270c38856c6287090443ac5ed7687d669
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-EOD.ANS by Taintedx + Aesthetic (jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: epitome of darkness
 # SAUCE Author: tainted/aesthetic
 # SAUCE Group: jasper
@@ -50,8 +50,4 @@ Write-Host '
           [1;47m▐[0;1;40m█[0m [1;47m█[0;1;40m▌[0m [1;30m▀[0;1;37m▀[0m▀ ▄[1;30m▄[0m   [1me p i t o m e[0m      ▄  [1;30m░░[0m      ▀   ■
           [1m█[0;1;47m▓[0;1;40m [0;1;47m▓[0m▌     [1;30m▀[0m
           [1;47m▀░[0;1;40m░[0;1;47m░[0;1;30;47m▐[0m       [1m■[0m                  [1mo f[0m    ■           [1md[0m [1ma r k n e s[0m [1ms[0m
-           [1;30;47m▄▄[0m▀
-
-
-
-     [1mtainted[0m did some lines, [1maesthetic[0m did some shades[0m'
+           [1;30;47m▄▄[0m▀[0m'

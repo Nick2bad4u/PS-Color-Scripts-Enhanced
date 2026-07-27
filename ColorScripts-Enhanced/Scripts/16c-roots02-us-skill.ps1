@@ -5,7 +5,7 @@
 # Source SHA-256: afcf02941c5f6c2da9ca62bd773fe8906978062e8dcca32ef30f95b0a6d2eaf6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-skill.ans by Avenging Angel + Ceelow (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -31,8 +31,8 @@ Write-Host '
          [1;36m▀[0;1;36;46m██[0;1;36;40m▒[0m                 [1;36m▀▀[0m            [1;36m▀[0;1;36;46m██[0;1;36;40m▄[0m       [1;36;46m▓[0;1;36;40m▀[0m     [31m+o[0;36m [0;31mtricky [0;37m    [0;36m▀[0;1;36;46m░░[0m
                                               [1;36m▀▀[0;1;36;46m█[0;1;36;40m▄▄▄▄[0m         [31m//[0;36m [0;31mslashkill[0m
 
-[37m   [0;1;37;41mavg/ceelow[0m
-   [1;41mthe roots![0m
+[37m   [0;1;37;41m          [0m
+   [1;41m          [0m
 
 [30;46mucks[0;36;40m█[0;1;36;46m░▒▒▓▓[0;1;37;46m▒▒[0;1;37;47m▒▒[0;1;37;40m█ ▄▄█ █ █ ▄▄█ ▀▄██ █ █ ▄ █ █ ██[0;1;37;47m▒▒[0;1;37;46m▒▒[0;1;36;46m▓▓▒▒░░[0;36m█[0;30;46mtricky sucks[0;36;40m█[0;1;36;46m░░▒▒▓▓[0;1;37;46m▒▒[0;1;37;47m▒▒[0;1;37;40m█[0m
 [30;46mucks[0;36;40m█[0;1;36;46m░▒▒▓▓[0;1;37;46m▒▒[0;1;37;47m▒▒[0;1;37;40m█ ▄██ ▀ █ ▀▀█ █ ██▄ ▄█ ▀ █ ▀ ██[0;1;37;47m▒▒[0;1;37;46m▒▒[0;1;36;46m▓▓▒▒░░[0;36m█[0;30;46mtricky sucks[0;36;40m█[0;1;36;46m░░▒▒▓▓[0;1;37;46m▒▒[0;1;37;47m▒▒[0;1;37;40m█[0m'

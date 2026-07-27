@@ -5,7 +5,7 @@
 # Source SHA-256: ba03c34f988231275c15c31b33b1e6db6a134344fb8bb305827bb866b7903c62
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WI-NC.ANS by widowmaker (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no control menu
 # SAUCE Author: widowmaker
 # SAUCE Group: eclipse
@@ -34,5 +34,4 @@ Write-Host '
 [1;41m▒░░░░░[0;31m▄▄[0;37m [0;34m▀[0;36m▀[0;36;44m▓[0;34;46m░░[0;36;40m▀▀[0;1;34;40m [0;36m░░[0;1;34m [0;31m▄█[0;1;37;41m░░░░░░░░▒[0;31m▄▄[0;1;34m [0;34m▀[0;1;34m▀▀[0;34m▐[0;1;34;44m▐[0;1;34;40m███[0;1;34;44m▄[0;1;34;40m▄▄▄[0;34m▐[0;1;34m▓█████[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀[0;1;34m [0;1;37m ▄  [0m              [35;41m░[0;1;37;41m░▒[0m
 [1;41m▓▒▒▒▒▒▒▒░░[0;1;40m▄[0;1;34;40m [0;36m▀[0;1;34m [0;1;37m▄[0;1;37;41m░[0;1;34;40m [0;31m▄▄▄[0;1;37;41m░░▒▒▒▒▒▒▒[0;1;37;40m▄[0;1;37;41m▓[0;1;37;40m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m [0;34m▀[0;31m [0;1;37m▄▄▄▄▄▄▄▄▄[0;1;37;47m█▓[0;1;37;40m▓▌ [0m [1;41m G Command[0m   [1m [0;1;41m▒▓▓[0m
 [1;41m█▓▓▓▓▓▓▓▓▓▓▓████▓▒░░▒▒▓▓▓▓▓▓█▓██▓[0;1;40m██████████████████[0;1;41m▓▓[0;1;40m█████▀[0m                [1m░▓[0;1;41m██[0m
-[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31m [0m
-[37mwidHOmakeWHORE[0;1;37mECLIPSE![0m                                                  [31m  [0m'
+[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31m [0m'

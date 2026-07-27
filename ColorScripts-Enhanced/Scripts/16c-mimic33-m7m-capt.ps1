@@ -5,12 +5,12 @@
 # Source SHA-256: f08220e7baf5a27a723d9ce0db6a50d824d089075aea64675a111f863ccccede
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: m7m-capt.ans by Metal Militia (mimic33); released in mimic33 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
-[30msocialism[0m          [1;37m            [0m ______ [1m    [0m         [34m [0m
+[30m         [0m          [1;37m            [0m        [1m    [0m         [34m [0m
                    [37m:[0;1;37m$$$$$$[0m╠╩╩╩╩╩╩╩╩╩[1m╣$$[0mÑÑÑ:
 [1m   [0m                :[1m$$$$$$[0ml         [1ml$$$$$[0ml                               [34mQ│:::[0m
 [1;37m     [0m_,[1mg[0m\[1mQQQ[0m/[1mg[0m,_[1m   [0m:[1m$$$$$$[0ml         [1ml$$$$$[0ml[1m        [0;34m.*[0;1;34mQ$[0;34m$Q/..[0;1;37m [0;34m├$$$$┤...,,┌d[0;1;34m$$$$[0;34m$[0m

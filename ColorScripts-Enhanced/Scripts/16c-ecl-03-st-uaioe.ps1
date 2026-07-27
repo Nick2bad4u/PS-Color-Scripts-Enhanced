@@ -5,7 +5,7 @@
 # Source SHA-256: fbd79ce7b633749cf05b835d5f0d4e804ea1bb0cad096386cf9125c5de39c60b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-UAIOE.ANS by andy (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: a bunch of sorted vowels
 # SAUCE Author: andy
 # SAUCE Group: eclipse
@@ -31,6 +31,4 @@ Write-Host '
              [37m█[0;1;37m█[0;1;37;46m██████████████[0;1;37;40m███████████████[0;1;37;47m█▄[0m▄[1;34m [0;36m▀[0;1;32;46m░░▒▒[0;1;32;40m▄[0m              [1;34m  [0;36m▐[0;1;36;46m▐█[0;1;37;40m██[0;1;37;46m▌[0;36m▌[0;1;34m   [0m
              █[1m███[0;1;46m██████[0;1;40m████████████████████████[0;1;47m▄[0m▄[1;34m [0;32m▀[0;1;32m▀[0;1;32;46m▓▓[0;1;32;47m▓[0;1;37;40m▄▄[0;1;34;40m       [0m   [1;34m [0;36m▄[0;1;36m▄[0;1;36;46m▄▀[0;1;36;40m▀▀[0;36m▀[0m
              [37m█[0;1;37;46m█[0;1;37;40m███████████████████[0;1;37;47m▓▓▓▓▀▀[0;1;37;40m▀▀▀▀▀▀▀▀▀[0m▀     [1;32m▀[0;1;37m▀▀▀[0;1;36m [0;1;34m [0;1;37m▄[0;1;32m▄[0;32m▄[0;1;34m  [0;36m▀[0;1;36m▀[0m
-             ▀[1m▀▀▀▀▀▀▀[0m▀▀░[30;47m▓[0;37;40m░[0;30;47m▓[0;37;40mst?[0m
-
-       [1;37;40muaioe [0m- [1mso what if you can''t say it..[0m'
+             ▀[1m▀▀▀▀▀▀▀[0m▀▀░[30;47m▓[0;37;40m░[0;30;47m▓[0;37;40mst?[0m'

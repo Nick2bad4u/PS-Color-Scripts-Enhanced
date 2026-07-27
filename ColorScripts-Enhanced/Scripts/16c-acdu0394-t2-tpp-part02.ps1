@@ -5,7 +5,7 @@
 # Source SHA-256: 89c847849e32d5d432d0534208b3fe7a6ea0b7490fed96d1ecbd1a5c39bc6081
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-TPP.ANS by Terminator2 (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Phunk Palace
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -57,10 +57,9 @@ Write-Host '
         [1;30m▄▄▄▄[0;1;30;41m▓▓▒░[0;31m▀▀[0;33m▄▄[0;1;30;43m░▒▓[0;1;30m▀[0;31m▄[0;1;31;41m░░[0;30;41m▀▀▀[0;1;30m▀▀▀▄[0;1;30;43m▓▒[0;33m▄▀▀▀[0;31m▄▄▄ [0;1;30;43m▒░[0m  [1;30mhis crouching position and[0m
 [1;30m▄▄▄▄[0;1;30;41m▓▓▓▓▒▒▒▒░░   [0;31m▄▄▄▄▄█[0;1;32;41m [0;1;31;41m░▒▒░░  ░ [0;31m▄▄▄▄[0;1;31;41m░▒░░[0;31m▀  [0;1;30;43m░░[0m  [1;30mchuckled.  An erie music is[0m
 [1;30;41m▓▓▓▓▒▒▒▒░░░░  ░     ░ [0;1;31;41m░░▒▓▓▒▒░░ [0;31m▀▀   ▀▀[0;1;31;41m [0m    [1;30;43m░[0;33m█  [0;1;30mheard from a distance as he[0m
-                                            [33m██  [0;1;30mstood within . . .[0m
+                                            [33m██  [0;1;30m                  [0m
 [1;30m▄[0m     [1;30m▀ ▄▀ ▄[0;1;30;43m▓[0;1;30m▀▄[0;1;30;43m▓█[0;1;30m▀▄[0;1;30;43m▓███▓██▓[0;1;30;46m█[0;1;30;43m██▓█▓▓▓▒▒▒▒░░░[0;33m████ [0;1;30m▄ ▄▄ ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄ ▄▄ ▄[0m
 
-[1;30m"Spawn" Was Taken Off Spawn Issue #17 - Spawn Is A Trademark Of Todd McFarlane.[0m
+[1;30m                                                                               [0m
 
-[1;30m▄[0m     [1;30m▀ ▄▀ ▄[0;1;30;43m▓[0;1;30m▀▄[0;1;30;43m▓[0;1;30m█▀▄[0;1;30;43m▓██[0;1;30m██[0;1;30;43m▓[0;1;30m██[0;1;30;43m▓▓▓▒▒▒░░░       ░░░▒▒▒▓▓▓[0;1;30m██[0;1;30;43m▓[0;1;30m███[0;1;30;43m█▓[0;1;30m▄▀[0;1;30;43m▓[0;1;30m█▄▀[0;1;30;43m▓[0;1;30m▄  ▀▄ ▀    ▄[0m
-'
+[1;30m▄[0m     [1;30m▀ ▄▀ ▄[0;1;30;43m▓[0;1;30m▀▄[0;1;30;43m▓[0;1;30m█▀▄[0;1;30;43m▓██[0;1;30m██[0;1;30;43m▓[0;1;30m██[0;1;30;43m▓▓▓▒▒▒░░░       ░░░▒▒▒▓▓▓[0;1;30m██[0;1;30;43m▓[0;1;30m███[0;1;30;43m█▓[0;1;30m▄▀[0;1;30;43m▓[0;1;30m█▄▀[0;1;30;43m▓[0;1;30m▄  ▀▄ ▀    ▄[0m'

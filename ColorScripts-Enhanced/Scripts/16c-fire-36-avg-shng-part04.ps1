@@ -5,7 +5,7 @@
 # Source SHA-256: 583c7730244257b03894c24a00ddb238ff10b4e4e6dfb00f577783d90b80cec3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-SHNG.ANS by avg (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: here's savage!
 # SAUCE Author: avg
 # SAUCE Group: fire
@@ -59,6 +59,4 @@ Write-Host '
        [30;41m░[0;31;40m▓▄██▄▄▄█▄▄▄▄▄[0;30;41m░[0m                [34;40m▀▀▀▀▀▀[0m                 [31;40m▀[0;37;40m  [0;31;40m▀▀▀·▀▀▀▀▀[0m
 
 
-                                      [35;40mf U [0;30;45m3[0;37;40m [0;30;45mL[0m
-
-                              [1;30mansi by s[0mav[1;30ma[0mg[1;30me Of fIRE[0m'
+                                      [35;40mf U [0;30;45m3[0;37;40m [0;30;45mL[0m'

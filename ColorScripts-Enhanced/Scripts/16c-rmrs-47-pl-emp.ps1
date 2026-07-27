@@ -5,7 +5,7 @@
 # Source SHA-256: f60c9ccee7bfbfe79ab25405995025fac1ab7a8a19199bb4663114c503fbf4d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-EMP.ANS by Palmore (rmrs-47); released in rmrs-47 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -28,14 +28,12 @@ Write-Host '
          [36m  [0m   [36m,sS$Ss,[0m   [36m.,┐sS$Ss┐,.  .,.[0m       [36m,sS$╬[0;1;33;46m$[0;36mSs,[0m    [32m [0;35m $[0;1;33;45m$$[0;35m     $$[0m    [1;33m   [0m
             [36m┌$$$$[0;1;33;46m$$[0;36m$$$s$$$$$$$$$$$$$$$$$$Ss,sS$$$$$$$$$$$┐[0m    [35m$$$[0m     [35m$$[0m      [1;33m [0m
            [36m  ⁿS$$$$[0;1;33;46m$[0;36m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Sⁿ[0m    [35m`Y$b,   $$[0m      [1;33m [0m
-palmore-rmrs                                                    [35m`Y[0;1;33;45m$[0;35m$Ss$$[0m      [1;33m [0m
-                       [1m■[0mEmpathy 1.0  this[1;33m [0mis my B0[1m0[0mM stick![1m■[0m       [35m`"ⁿ$$[0m      [1;33m [0m
+                                                                [35m  [0;1;33;45m [0;35m     [0m      [1;33m [0m
+                       [1m■[0m                 [1;33m [0m        [1m [0m        [1m■[0m       [35m     [0m      [1;33m [0m
                                                                       [35m$$[0m
                                                                       [35m$$[0m
                                                                    [35m_,d7`[0m
                                                                [35m.,π└ⁿ"` [0m
 
 
-[37m--------------------------------------------------------------------------------[0m
-
-[37m   just a quick whack font for empathy 1.0 final....Palmore''rmrs[0m'
+[37m--------------------------------------------------------------------------------[0m'

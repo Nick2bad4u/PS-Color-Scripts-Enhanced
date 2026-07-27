@@ -5,7 +5,7 @@
 # Source SHA-256: 951d774f978dfde66ac5835f1e7057e08139216ec749ef80cdce39b06c075f9a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FILTH-MSGRS.ANS by filth (MiSTiGRiS); released in mist1119 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: MS-GRS
 # SAUCE Author: filth
 # SAUCE Group: MiSTiGRiS
@@ -18,10 +18,10 @@
 
 Write-Host '
 
-[37;40m SEE:\> type fil-MSGRS.ANS_[0m
+[37;40m                           [0m
 
 
-[1;37;40m  [0;1;31;40m filth[0;1;37;40m *[0;35m MiSTiTR0NiCS[0;1;37m // [0;1;33m2019[0m                             [1mMS[0m-[1;31mG[0;1;35mR[0;1;33mS[0;1;37m *[0m▐[30;47m25[0;1;37;47m yEARZ[0m
+[1;37;40m  [0;1;31;40m      [0;1;37;40m  [0;35m             [0;1;37m    [0;1;33m    [0m                             [1m  [0m [1;31m [0;1;35m [0;1;33m [0;1;37m  [0m▐[30;47m  [0;1;37;47m      [0m
  [31m  [0;37m██[0;1;37m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██
  [31m  [0;1;37m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m██[1m██[0m
  [31m  [0;37m██[0;1;37m██[0m██[1m██[0m██ ░░░        [1m██[0m██[1m██[0m██[1m██[0m██       ░░[1m█[0m██[1m▀ [0m      ░░░░░░░▀[1m▀█[0m██[1m██[0m██[1m██[0m██

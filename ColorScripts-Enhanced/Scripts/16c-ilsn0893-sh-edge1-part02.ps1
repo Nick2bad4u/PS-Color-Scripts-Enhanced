@@ -5,7 +5,7 @@
 # Source SHA-256: adc7f653f8f2ce8c1372e8b1dcb9ed19087f11517d0774535730806906835634
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-EDGE1.ANS by Shadow Hawk (ilsn0893); released in ilsn0893 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-71
 # Columns: 1-80
 
@@ -32,8 +32,4 @@ Write-Host '
               [1;30m▐[0;34m███[0;1;30m▀▀   ▐[0;34m███  [0;1;30m▐[0;34m███  [0;1;30m▐[0;34m███  [0;1;30m▐[0;34m████  [0;1;30m▐[0;34m███[0;1;30m▀▀[0m
               [1;30m▐[0;34m███[0m     [1;30m▐[0;34m███ [0;1;30m▐[0;34m███    [0;1;30m▐[0;34m███  [0;1;30m▐[0;34m███  [0;1;30m▐[0;34m███[0m
                [1;30m▐[0;34m██████████████████████████████████████████[0m
-                [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-
-                                                     SH[1;30ma[0mD[1;30mo[0mW H[1;30ma[0mWK
-                                                    [[1;30mi[0;1;34mLL[0;1;30mu[0;1;34mS[0;1;30mi[0;1;34mON[0;1;30mi[0;1;34mST[0m][0m'
+                [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

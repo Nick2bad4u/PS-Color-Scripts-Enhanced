@@ -5,7 +5,7 @@
 # Source SHA-256: 78b5d7faaa7412a71c1b8c9e1533bdf787c0783a48d86264848d5a2fbe5934d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RLWI-COR.ANS by Red Lightning + White Insanity (WBT); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Corrosion
 # SAUCE Author: Wi & RL
 # SAUCE Group: WBT
@@ -17,12 +17,12 @@
 Write-Host '
 [1;30m─[0m[[1mLit Time![0m][1;30m───────────────────────────────────────────────────────────────────[0m
 
- nautious feeling in my mind
- i want to spew i want to deploy my mind
- the corrosion of the 20th century
- all the ego''s destroy, more obituaries
- we all wanna die in this world, the ones that know whats coming.
- we all will die, the corrosion is here
+                            
+                                        
+                                  
+                                       
+                                                                 
+                                       
 
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
          [1;30m [0m

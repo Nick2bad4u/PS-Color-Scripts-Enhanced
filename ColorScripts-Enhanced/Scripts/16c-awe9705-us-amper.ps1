@@ -5,7 +5,7 @@
 # Source SHA-256: 67bbbe982b6a5fe98347b935811eda03c6996b735ce97e2904fe154fccf5c9f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-AMPER.ANS by The Night Angel + Grindstoned (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ampersand
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -38,5 +38,5 @@ Write-Host '
      [34m▐▓░   ░▓░[0;30;44m▓[0m   [1;34;40m▄[0;34m▄▌ [0;31m▄[0;1;31;41m▄[0;31m▄[0m         [1;30m▄██████▀▀▀▀ [0;31m▄[0;1;31;41m▄[0;1;31;47m▀[0;1;31;40m▄ [0;31m▀▀▀█[0;1;31;41m▀[0;31m▀  [0;34m▄[0;34;44m [0;1;34;44m▄▄[0;34m▄  ▓    [0;31m░[0;30;41m▓[0m [34;40m▐▌[0m
       [34;40m▀▄    [0;1;34;44m▄[0m    [1;34;40m▀[0;1;34;47m▄[0;1;34;44m▀[0;34m▀  [0;31m▀▌ [0;1;30m▄[0;1;30;47m▀[0;1;30;40m▄  ▄▄ ▐█▀▀░   [0;31m░[0;30;41m▓[0m   [31;40m▀[0;1;31;40m▀[0m       [34m▄[0;1;34;44m▄[0;34m▄ ▀▀▀   █[0m      [34m▄▀[0m
 [34m [0;1;30m-──-──∙ [0;34m▀[0;1;34m▀▀[0;1;34;47m▄[0;1;34;40m▀ [0;1;30;40m─+──-─-─ [0;31m░  [0;1;30m▀▀ ▀[0;1;30;47m▄[0;1;30;40m█▀▀ ∙──-─────-+────░-── [0;34m▐▀ [0;1;30m∙──+ [0;34m▄▄[0;1;34;44m▄[0;34m▄▄ ▀▀ [0;1;30m─-───[0m
-[1;30m [0mgrindstoned([1mawe[0m) / the night angel([1mawe[0m)                          [34m▀   [0;1;30m░   ░ ░░[0m
+[1;30m [0m            [1m   [0m                    [1m   [0m                           [34m▀   [0;1;30m░   ░ ░░[0m
 [1;30m -──∙─--───-+──-─--─────-─-─░─────+-──────-───-─--- ──-────+--──-──░─-──-───-+[0m'

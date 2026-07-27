@@ -5,7 +5,7 @@
 # Source SHA-256: 0595d1c63fb5e62b0f2ee47b50d9a04d6adbaa4c2cf97a07ceb1e3893c8ddfec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-JOIN.ANS by ize (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: join
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -27,9 +27,4 @@ Write-Host '
                  [33m▀[0;1;33;43m▀▓▓[0;1;33;47m▓▓[0;1;33;43m▄[0;1;33;40m▄▄▄[0;1;33;43m███[0;1;37;40m█▄[0;1;33;40m▄▄[0;1;33;43m▄████▀[0;33m▀ ▒▒[0;30;42m▓[0;1;37;40m█[0;1;36;40m█[0;1;32;47m▓▓█[0;1;32;40m▌[0;33m▐[0;1;31;43m▒▒▒▒[0;33m  [0m
                     [33m▀[0;1;33m▀▀[0;1;33;43m▀[0;1;33;40m███[0;1;33;47m▓[0;1;37;40m███[0;1;33;47m▓▓[0;1;33;40m█[0;1;33;43m▀[0;1;33;40m▀▀[0;33m▀ [0;1;37m▄[0;33m ░[0;30;43m▓[0;33;40m░ [0;1;36;40m█[0;1;32;40m███[0;1;32;42m▓▓[0;33m [0;1;31;43m▓▓▓▓[0;33m▌[0m
                            [33m▀[0;1;33m▀[0;1;37m▀[0;33m▀ [0;1;32m▄▄▄[0;1;36m▄█[0;1;36;47m▓[0;1;37;40m██[0;1;36;40m▄[0;1;32;40m▄[0;33m  [0;1;32m ▀▀▀▀       [0m
-                                 [32m░[0;30;42m▓[0m
-
-
-             [1;37;40mhope this one will fit your needs hmm it sucks.. [0m
-               [1muse it if you like it.. ok? :).. [0m
-             [1mbtw, caithor only, ok?[0m'
+                                 [32m░[0;30;42m▓[0m'

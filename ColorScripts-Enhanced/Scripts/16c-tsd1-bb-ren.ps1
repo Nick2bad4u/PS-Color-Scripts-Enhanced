@@ -5,7 +5,7 @@
 # Source SHA-256: db4667b3a84c7fedcd8736a49958daee1094f6f2b67cbb3f20518086af5c9759
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BB-REN.ANS by Blue Beetle (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -43,16 +43,7 @@ Write-Host '
       [1;34;44m█▓▒░[0;34m█  ░ ░▒▓[0;34;44m [0;1;34;44m░▒▓[0;1;34;40m█████ ██[0;1;34;47m█▓▒░ [0;1;37;47m░▒▓█[0;1;37;40m▓▒░[0m░[1;30m▒░   ▀[0;1;37m▀▀[0m      [1;30;47m▒░  [0;1;37;40m████[0;1;37;47m  [0m▌
       [1;34;44m▓▒░[0;34m█▓   ░▒▓[0;34;44m [0;1;34;44m░▒▓[0;1;34;40m██████ ██[0;1;34;47m▓▒░ [0;1;37;47m░▒▓█[0;1;37;40m▓▒░[0m░[1;30m▒░[0m             [1;30;47m▒░ [0;1;37;47m▐[0;1;37;40m████[0;1;37;47m▌ [0m▌
 
-            [1mThe Shining Darkness[0m
+            [1m                    [0m
 
-           [1m[ANSi and VGA Graphics][0m          [1mWHQ Located on Flight BBS[0m
-           [1mBased in [4o3][0m                   [1m[4o3.45o.2939] [14.4k DS][0m
-
-      [1m-+-  Members -+-[0m
-
-       [34mB[0;1;34ml[0;1;36mu[0;1;37me [0;1;30mB[0me[1me[0;1;33mt[0;1;31ml[0;31me[0m           [1;30m- [0mFounder/President/Artist
-       [1;34mM[0;1;36ma[0;1;37ms[0mt[1;30me[0mr [1mP[0;1;33me[0;1;31mt[0;31me[0m           [37m- WHQ SysOp[0m
-       [1;36mD[0;1;37mr[0m. [1;30mS[0mu[1me[0;1;33ms[0;1;31ms[0m             [1;37m- [0mArtist
-       [1mS[0mo[1;30mu[0mp [1mD[0;1;33mr[0;1;31ma[0;31mg[0;33mon[0m           [1;37m- [0mArtist/VGA
-       T[1;30mh[0me [1mL[0;1;33my[0;1;31mr[0;31mi[0;33mcal Terrorist [0;37m- Artist/Music[0m                      [37mBlue Beetle[0m
-       [1;30mT[0mh[1me [0;1;33mH[0;1;31mo[0;31mm[0;33mie[0m             [1;30m- [0mArtist                            [1;30m[[0;1;37mT[0mS[1;30mD] [0m[010492][0m'
+           [1m                       [0m          [1m                         [0m
+           [1mBased in [4o3][0m                   [1m[4o3.45o.2939] [14.4k DS][0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 77c2c20b736119473bfa62e238a7ba4121c5010cc206fd90b3f638220cc775a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-JABBERWOCKY.ANS by Oddfirefox + LDA + Ldb + Polyducks + Cthulu (Mistigris); released in mist0620 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jabberwocky
 # SAUCE Author: a bunch of cards
 # SAUCE Group: Mistigris
@@ -17,10 +17,10 @@
 
 Write-Host '
 [1;37;40m╔════════════════════════════════════╗[0m
-[1m║ He took his vorpal sword in hand   ║[0m              [1m.[0m
-[1m║ long time the manxome foe he sought║    .[0m        [1m.|.   .[0m
-[1m║ so rested he by the tum-tum tree   ║   .|.[0m      [1m.| |. .|.[0m
-[1m║ and stood a while in thought[0m       [1m║  .| |.    .|v  |.| |.[0m
+[1m║                                    ║[0m              [1m [0m
+[1m║                                    ║     [0m        [1m       [0m
+[1m║                                    ║      [0m      [1m         [0m
+[1m║                             [0m       [1m║                      [0m
 [1m╚════════════════════════════════════╝ .|v  |.   |v  v | v |.[0m
 [1m .|[0m      [1m|.[0m                    [1m.|v  v|.|v v  | ███▓▓▒█████▄▄▄▄▄▓▓███▒░[0m
 [1m.|[0m        [1m|.[0m                  [1m.|v v  v|v v █████████████████████████████[0m
@@ -45,13 +45,13 @@ Write-Host '
 [1m░░░▒[0m       [1m░▒▒▓▓███ ███▄▄▄ )\[0m      [1m\\\\\\\\\\\\\\\\\.....\\\\\|\..\|\\||\\\\ ██▒[0m
 [1m░░░▒[0m      [1m░░░░▒▒▓▓██ ░░░▓▓████▄▄▄.[0m     [1m\\\\\YYYYYYYYYYYYYYYYYYYYYYYYYYYYYY ██▓▒░[0m
 [1m░░░░[0m     [1m:░░░░░▒▒▒▓▓    ::░░░▒▒▓▓██▄▄,___ \\::\\:\\\\\YYYYYY\\YYYYYYY ▄▄██▓▓▒░[0m
-                     [1mPOLYDUCKS[0m
+                     [1m         [0m
 
  [1m╔══════════════════════════════════════╗[0m
- [1m║ And, as in uffish thought he stood,  ║[0m
- [1m║ the Jabberwock, with eyes of flame   ║[0m    [1m___[0m        [1m.''.''[0m
- [1m║ came whiffling through the tulgy wood║[0m  [1m.''___ \    / /[0m
- [1m║ and burbled as it came![0m              [1m║[0m  [1mL(   ) L__| L_.[0m
+ [1m║                                      ║[0m
+ [1m║                                      ║[0m    [1m   [0m        [1m    [0m
+ [1m║                                      ║[0m  [1m              [0m
+ [1m║                        [0m              [1m║[0m  [1m               [0m
  [1m╚══════════════════════════════════════╝[0m      [1m.''[0m         [1m\[0m
                                             [1m__'' 0 __  0  .''""".  .-''''''''''-_[0m
                                           [1m/"  \___/\____/   \  \[0m          [1m''.[0m

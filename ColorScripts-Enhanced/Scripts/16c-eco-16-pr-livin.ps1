@@ -5,7 +5,7 @@
 # Source SHA-256: 0d1feeb025a48ea526f1f4f01a90a1b5f58b6f230afe0f7036f852a7b38d6459
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR-LIVIN.ANS by president (ecolove); released in eco-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: grandma phoebe's living room
 # SAUCE Author: president
 # SAUCE Group: ecolove
@@ -40,11 +40,4 @@ Write-Host '
 [1;30;47m [0;1;37;47m█ [0;1;30;47m▄▄▄▄[0;1;30;40m█[0;1;30;47m▀▀[0;1;37;47m ▀░[0;1;30;47m▀[0;1;30;40m▄▀[0m [31m▄[0;1;31;41m▄[0;1;31;47m▀[0;1;31;41m█▄ [0;31m▄ [0;1;30m▀[0;1;30;43m▄▄▄[0;1;30;40m▀[0;31m [0;32m [0;1;30m▀[0;1;34m ▄▀[0;34m▀▀▄[0;37m [0;32m▀[0;1;30m▀[0m [34m▄▀[0;1;34m▀▀▀▄[0m [1;30m▀ [0;31m [0;1;30m▀[0;1;30;43m▄▄▄[0;1;30;40m▀[0;31m ▄[0;1;31;41m ▄█[0;1;31;47m▀[0;1;31;41m▄[0;31m▄[0;37m [0;1;30m▀▄[0;1;30;47m▀▀[0;1;30;40m▄[0;1;33;40m [0;33m▀[0;1;33m▀[0;33m▄[0;1;33;43m ▀▀▀[0m
 [1;30;40m█[0;1;30;47m▄▄▄[0;1;30;40m█[0;1;30;47m▄▄▄▄▄███[0;1;30;40m▀ [0;31m▄█[0;1;31;41m▀▀▀▀▀pr[0;31m█▄▄▄▄▄[0;1;31;41m▄▄[0;31m▄[0;37m [0;34m▀[0;1;34;44m▀[0;34m█▀[0;37m [0;31m▄[0;1;31;41m▄▄[0;31m▄[0;37m [0;34m▀[0;1;34;44m▀▀▀[0;34m▀[0;37m [0;31m▄[0;1;31;41m▄▄[0;31m▄▄▄▄▄█[0;1;31;41m▀▀▀▀▀▀▀[0;31m█▄[0;1;30m ▀[0;1;30;47m▄▄▄▀[0;1;37;40m▄[0m▄[1;30m▄▄  [0m
 
-[1;30m( ----------- )[0m
-[1;30mwhen phoebe isn''t cleaning com. plons'' place, she likes to sit at home to relax [0m
-[1;30mlittle, and reading the newspaper. she does all those cleaning jobs at other [0m
-[1;30mpeople''s places, that''s why she doesn''t have time to do her own livingroom.[0m
-[1;30mstill, it''s a nice hangout when you''re in the mood for a cup of tea and to have[0m
-[1;30ma little chit-chat with her about birds and bees.[0m
-
-[1;30mthis one''s for sepulcrum''s very own linux startup system[0m [1;30m..[0m'
+[1;30m( ----------- )[0m'

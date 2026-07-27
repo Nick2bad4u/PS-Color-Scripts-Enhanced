@@ -5,7 +5,7 @@
 # Source SHA-256: ddbc2a66c07b3726aa41aafcc9496e9a4418f392510291d851f8add8adb5e299
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DTU-PUBE.ANS by Deathlok The Ugly (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 101-148
 # Columns: 1-80
 
@@ -50,11 +50,4 @@ Write-Host '
                       [31m░░░░░░░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░[0m
                              [31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
 
-[1m──────────────[0m──────────[1;34m─────────[0;31m──────────────[0;1;34m─────────[0m──────────[1m──────────────[0m
-
-                   [1mDa[0;1;34mrknes[0;1;30ms [0;1;34ms[0;31mur[0;34mroun[0;31mds the m[0;34minds [0;31mof [0;1;30mal[0;1;34ml who live[0m
-                 [1;37mCo[0;1;34mntin[0;1;30mo[0;34mus [0;31mDis[0;34mruptio[0;31mn of so [0;34mca[0;31mlled [0;1;30m"[0;34mSane [0;1;34mActions[0;1;30m"[0m
-            [1;37mTru[0;1;34me Ana[0;34mrchy s[0;31mprea[0;34mds far [0;31mfrom Contain[0;34mment of [0;31mLaW [0;1;34mand order[0m
-               [1;37mF[0;1;34mami[0;34mly memb[0;31mers [0;34mthrust [0;31mda[0;34mggers [0;31minto [0;34meach o[0;31mthe[0;34mrs [0;1;30mb[0;1;34macks[0m
-                  [31mo[0;34mmnious l[0;31maughter fi[0;34mlls The [0;31mhalls of the[0;34mre home[0;1;30m,[0m
-              [1;37mO[0;1;34mnl[0;31my t[0;34mhe last li[0;31mving m[0;34members [0;31mfe[0;34mels [0;31mThe ext[0;34mra in[0;31msani[0;1;34mty[0m'
+[1m──────────────[0m──────────[1;34m─────────[0;31m──────────────[0;1;34m─────────[0m──────────[1m──────────────[0m'

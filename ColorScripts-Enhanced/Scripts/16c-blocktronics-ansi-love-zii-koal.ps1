@@ -5,7 +5,7 @@
 # Source SHA-256: 1e0ac74430aaec308bf379962b2180a56f21230a4a4fadd19ac4ec7e9b93301e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-KOAL.ans by Zeus II (Blocktronics); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Psykoala
 # SAUCE Author: Zeus II
 # SAUCE Group: Blocktronics
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[37;40m    [0;33;40m   [0m                                                       [35;40mZeus II[0m
+[37;40m    [0;33;40m   [0m                                                       [35;40m       [0m
 [37;40m    [0;33;40m   [0;35;40m   ███████████████████████████████████████████████████████████[0m
 [37;40m    [0;33;40m   [0;35;40m   ████████[0;35;45m [0;35;40m█[0;1;31;45m▀▀▀[0;35m█[0;1;31;45m▄[0;35m███████[0;1;31;45m▄▄▄[0;35m████████[0;1;31;45m▄▄[0;35m███████████[0;1;31;45m▄[0;35m██[0;1;31;45m▄▄[0;35m████████[0m
 [37m    [0;33m   [0;35m   ██[0;1;31;45m▄[0;35m█[0;1;31;45m▀▀▄[0;35m██▄▀▀  ▀█[0;1;31;45m█[0;35m██[0;1;31;45m▄[0;35m█▀▀▀▀█[0;1;31;45m█[0;35m████[0;1;31;45m█[0;35m█▀▀▀█[0;1;31;45m▀▄[0;35m██████[0;1;31;45m█[0;35m██▀██[0;1;31;45m▀▄[0;35m█[0;1;31;45m▀[0;35m████[0m

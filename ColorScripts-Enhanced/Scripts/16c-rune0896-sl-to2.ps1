@@ -5,7 +5,7 @@
 # Source SHA-256: 6b581051aa28d261621e5b70739dac0063acda462c75adfda06bee747cf7de9e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-TO2.ANS by sinful! (rune!); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 2nd pic.. total ad!
 # SAUCE Author: sinful!
 # SAUCE Group: rune!
@@ -40,8 +40,4 @@ Write-Host '
 [34m▀[0;1;34;44m     [0;30;44m░▒░[0;1;34;44m [0;30;44m░[0;1;34;44m      [0;34m██[0;1;34;44m   [0;34m█▀████[0;1;34;44m░[0;34m████▀[0;37m [0;1;32m▄▄▄▄▄[0;1;32;42m▓▀[0;1;32;40m█▄[0;1;32;42m▓[0;1;32;40m▀[0;1;32;42m█[0;32m██████[0;1;32;42m░[0;32m██[0;1;37;42m▀ ▀▓▄ ▄[0;32m█[0;1;37;42m■[0;32m█[0;1;32;42m░▄█[0;1;32;40m▀▄[0;1;32;42m█[0;1;32;40m▄▄[0m [34m▀████[0m
 [34m█[0;1;34;44m      [0;30;44m░[0;1;34;44m       [0;34m██▀███▀sl!▀█▀███▀ [0;1;32m▄▀[0;1;33m▄[0;1;32m▀[0;1;32;42m▓▄[0;32m█[0;1;32;42m░[0;32m███[0;1;32;42m▀▀▓[0;1;32;40m▀▀▀▀▀▀▀▓[0;1;32;42m▄[0;32m█[0;1;37;42m   ░[0;32m████[0;1;32;42m▄▓[0;1;32;40m▄█[0;1;32;42m▀▀░ ▀[0;1;32;40m▓▄[0m [34m██▀[0m
 [34m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀ [0;37m [0;1;32m▀[0m [1;33m▀▀▀[0m [1;32m▀▀[0;32m▀▀▀▀[0;1;32m▀▀[0m [1;32m▀▀▀[0m [1;32m▀▀▀[0m [1;32m▀▀[0;32m▀[0;1;32;42m░[0;32m▀▀▀▀▀▀▀[0;1;32m▀[0;32m▀▀▀▀▀▀▀▀[0;1;32m▀▀[0m
-[1;30m-[for my board]-----------------------------------------------------------------[0m
-[1;34mwoohaa, i like dis.. this is my second pic... a 25liner..<26?> ok 26.. uhm its[0m
-[1;34mtha bomb to me, i''m proud of it... its beetle bailey... and look! i didnt even[0m
-[1;34mlook at his comic! yah! sl!''s leet!? =) ok enuff!!!!! i always talk so damn much[0m
-[1;34mit makes people hate me!!! =) ok anyways laytah! -sl![0m'
+[1;30m-[for my board]-----------------------------------------------------------------[0m'

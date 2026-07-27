@@ -5,7 +5,7 @@
 # Source SHA-256: 98c6308648acf28b4617b182f9a14030f71894114d549840b60df13a5e51b028
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MST!BLAH.ANS by Mist (spr_03); released in spr_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -53,5 +53,4 @@ Write-Host '
             [1;30;47m▀█[0m [31m▀▀▀[0;1;30m [0;1;30;47m▐[0;1;30;40m█▓[0m        ▀[1;30;47m▐▓▓[0;1;30;40m██▓▓▓▒▒▒░░░[0m  [1;30m▄▄[0;1;30;47m█[0;1;30;40m▌[0m  [1;30m░██[0m [31m■▀[0;37m [0;1;30m▄▄████▄█▓▓░▀■[0m
             ▀▀[1;30m▀▀▀▀▀▀▀▌[0m         [1;30m█[0m                [1;30m▐▀░[0m  [1;30m░██████████████▓▓░░[0m
                                [1;30m▄[0m                     [1;30m░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░[0m
-                                                      [1;30m░░░░░░░░░░░░░░░░[0m
-          [1;31ma[0;31mutor: [0;1;31mM[0;31mist[0m'
+                                                      [1;30m░░░░░░░░░░░░░░░░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7d45e01ac0390f884be665271047f3159098117e0af552c95db22537649ba475
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bj-asc79.ans by Black Jack (Serial [04/29/97]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Advertisement (Serial2n)
 # SAUCE Author: Black Jack
 # SAUCE Group: Serial [04/29/97]
@@ -38,16 +38,4 @@ iil&&$$$i;       [1m '' [0m       [1m `[0m                [1m~[0m [1m [0
  ;il&&blii;,[1m ,g@S$$@g,il$$$&i; ,,il&&@,g@S$$@g, ,,ggg,,_ ,'''' [0m     [1m [0m  [1m b, [0m
 ;ilI&$$b`&i;[1m $$$$$$$$il&&$$$&llill&&$$$il&$$$$$;`Y$$$$$P,d$$S@g,[0m  [1m [0m  [1m l$b,  [0m
                [1m````""`~` ```''''`''''ⁿⁿⁿⁿ''`''''''ⁿⁿⁿⁿⁿ ⁿⁿⁿY$$Pd$$$$$$$$b  [0m [1m,g$$$b, [0m [1mgg[0m
-------------------------------------- - -- --      -
-sn1p .. gEE
-
-this is for serial toon ( serial2n on irc ) and his board... whatever it may be
-called.  ahyes.  I have quite a bit of requests to do .. and unfortunatly, when
-I switched ISP''s .. I lost all my email.
-
-Soo... email me at blk_jack@deathsdoor.com
-
-ladah pEEPz...                                  Black Jack [serial]
-
-
-greets? .. only one.    mr kite.[0m'
+------------------------------------- - -- --      -[0m'

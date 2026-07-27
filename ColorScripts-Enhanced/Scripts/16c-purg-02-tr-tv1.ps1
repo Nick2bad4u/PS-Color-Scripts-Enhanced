@@ -5,7 +5,7 @@
 # Source SHA-256: e4aeaf44c815db88e6ae94ec480481ec456d7ec2d3d3af6189ea3d555ce9bd80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-TV1.ANS by The Reaper (purg-02); released in purg-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -31,8 +31,8 @@ Write-Host '
                             [34;40m▐▌[0;37;40m [0;34;40m▓[0;34;47m▄▄█[0;37;40m [0;34;40m▐▌[0m            [34;40m▐▌[0;37;40m [0;34;47m▓▄▄█[0;37;40m [0;34;40m▐▌[0m
              [1;37;40m [0m              [34m█▄▄▄▄▄▄▄█[0m             [34m█▄▄▄▄▄▄▄█[0m
 
-                           [36m  [0;1;37m«[0;1;30m─[0;34mpu[0;1;34mrg[0;1;30m─[0;36mme[0;1;36mmbe[0;36mr[0;1;30m─[0;36mb[0;1;34moa[0;34mrd[0;1;30m─[0;1;37m«[0m
+                           [36m  [0;1;37m [0;1;30m─[0;34m  [0;1;34m  [0;1;30m─[0;36m  [0;1;36m   [0;36m [0;1;30m─[0;36m [0;1;34m  [0;34m  [0;1;30m─[0;1;37m [0m
                     [34m [0;1;30m [0;1;34m  [0;1;30m  [0;1;37m«[0;1;30m─[0;34mth[0;1;34me[0;1;30m─[0;1;34mv[0;36moy[0;1;36mager[0;1;30m─[0;1;36m2i9[0;1;30m─[0;1;36m9[0;36m33[0;1;30m─[0;1;34m72[0;34m74[0;1;30m─[0;1;37m«[0m
-                    [1m«[0;1;30m─[0;34mso[0;1;34mp[0;1;30m─[0;1;34mb[0;36mos[0;1;36msman[0;1;30m─[0;1;36mco[0;36m-[0;1;36msopz[0;1;30m─[0;1;36mthe reape[0;36mr[0;1;30m─[0;36mc[0;1;34mra[0;34msh[0;1;30m─[0;1;37m«[0m
-                     [1m«[0;1;30m─[0;34mbl[0;1;34mac[0;36mkn[0;1;36met[0;1;30m─[0;1;36m5o:ioo/27[0;1;30m─[0;1;36mpdanet[0;1;30m─[0;1;36m69:[0;36m6o[0;1;34moo[0;34m/3[0;1;30m─[0;1;37m«[0m
+                    [1m [0;1;30m─[0;34m  [0;1;34m [0;1;30m─[0;1;34m [0;36m  [0;1;36m    [0;1;30m─[0;1;36m  [0;36m [0;1;36m    [0;1;30m─[0;1;36m         [0;36m [0;1;30m─[0;36m [0;1;34m  [0;34m  [0;1;30m─[0;1;37m [0m
+                     [1m [0;1;30m─[0;34m  [0;1;34m  [0;36m  [0;1;36m  [0;1;30m─[0;1;36m         [0;1;30m─[0;1;36m      [0;1;30m─[0;1;36m   [0;36m  [0;1;34m  [0;34m  [0;1;30m─[0;1;37m [0m
                     [1;36m  [0m  [1m«[0;1;30m─[0;34mi.2[0;1;30m─[0;1;34mgi[0;36mg[0;1;30m─[0;36mo[0;1;36mnline[0;1;30m─[0;1;36m28.8[0;1;30m─[0;1;36mu[0;36msr[0;1;30m─[0;1;34mv.[0;34m34[0;1;30m─[0;1;37m«[0m'

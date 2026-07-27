@@ -5,7 +5,7 @@
 # Source SHA-256: ea624da65d7f1df3a14d135988bc38a698aa9503dbe2e1a4282889e8c53eeaa6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-CDI1.ANS by Eerie-Kun (Fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cool Dudes, Inc.
 # SAUCE Author: Eerie-Kun
 # SAUCE Group: Fire
@@ -15,11 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-[30;46meerie-kun[0m [30;41mfire[0m [33;40m> [0;35;40mwelcome to this month''s explosion of craziness from the legend[0m
+[30;46m         [0m [30;41m    [0m [33;40m  [0;35;40m                                                              [0m
 
-               [35;40myou''ve come to adore, eerie-kun.  as you can see, i have a [0;1;34;40mc[0;1;32;40mo[0;1;36;40ml[0;1;31;40mo[0;1;35;40mr[0m
+               [35;40m                                                           [0;1;34;40m [0;1;32;40m [0;1;36;40m [0;1;31;40m [0;1;35;40m [0m
 
-               [35mmonitor now & it sure rocks.  hope you enjoy, you lamer you!@!@![0m
+               [35m                                                                [0m
 
 
 
@@ -34,15 +34,4 @@ Write-Host '
                   [32m▀[0;1;33m▀[0;1;33;42m▀[0;1;37;42m▓█[0;1;37;40m█[0;1;33;42m█▄[0;1;33;40m▄[0;32m▄[0m      [1;33;42m░[0;1;32;42m█▓▓░[0m [32m▓▒[0;1;32;42m░▓[0;1;32;47m▓[0;1;32;42m░[0m  [32m▄▄█[0;1;32;42m░░░[0;1;32;40m▀[0;32m▀ ▄[0;1;33m▄[0;1;33;42m▄[0;1;33;41m▓▓[0;1;33;42m▓▓▓[0;1;33;40m▄[0;32m▄ [0;1;32m33[0m
 [32mmember board[0m        [1;33m░░░[0;1;37m▀▀▀[0;1;33m▀▀▀▀▀▀▀[0;1;32m▀▀[0;32m▀░[0;1;33m░ [0;32m▀▀[0;1;32;42m░░░░[0;32m▓▀▀▀▀░[0m     [32m░[0;1;32m▀[0;1;33m▀[0;1;37m▀[0;1;37;42m▀██[0;1;33;42m█▓[0;1;32;40m▀[0m
                                           [32m░ ░░░░[0m
-[32m& a whole lot of goodies.  the sysop is a    ░    pimp, too.[0m
-
-
-
-
-
-
-
-
-
-
-[34m> [0;1;37meof you dumb[0m'
+[32m                                             ░              [0m'

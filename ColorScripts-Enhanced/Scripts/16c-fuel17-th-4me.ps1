@@ -5,7 +5,7 @@
 # Source SHA-256: 8daa1e138d5fa16efbe20f65c6a788d54b818db72b317a7a3772c126d4df3971
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-4ME.ANS by thrasher (fuel); released in fuel17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: trauma matrix
 # SAUCE Author: thrasher
 # SAUCE Group: fuel
@@ -37,12 +37,4 @@ Write-Host '
 [1;32;42m▄[0;32m▌▄[0;1;32m▀▐[0;1;32;42m█▄▌[0;32m▄░[0;1;30m█[0;1;30;43m█▄[0;33m██[0;1;30;43m▄[0;33m██▀▐██[0;1;31;43m▀▀[0;1;31;40m███████████████[0;1;31;43m▓[0;33m▀[0;1;30m  [0;32m▐[0;1;32;42m▐████▌[0;32m█▌[0;34m ▄[0;1;30m  [0;32mchat[0;1;30m    [0m [1;30m [0;34m█[0;1;34;44m▀[0;34m▌[0;1;30m [0;32m█[0;1;32;42m▀[0;32m█[0;1;32;42m▄▄[0;32m█▄[0;37m [0;32m▐[0m
 [1;32;42m▀▌[0;32m█[0;1;32;42m▄[0;32m▄[0;1;32;42m█[0;1;32;40m▀[0;1;32;42m▄[0;32m█▄ [0;1;30m▀█[0;1;30;43m█▄▌[0;33m████▄▄▀▀█[0;1;31;43m▀▀█[0;1;31;40m██████████▀[0m [32m▄█[0;1;30m [0;32m░█[0;1;32;42m█████▄[0;32m█▄[0;1;30m   [0;32mlogoff[0;1;30m  [0m [1;30m [0;34m▄[0;1;34;44m▄[0;34m█[0;1;30m [0;32m▐█[0;1;32;42m████[0;32m█▌[0;37m [0m
 [32m▀▐▄[0;1;32;42m▄[0;32m▀█[0;1;32;42m▀[0;1;32;40m▄[0;1;32;42m█▄▌[0;32m▄ [0;1;30m▀█[0;1;30;43m█▄▄[0;33m███████▄▄ ▀[0;1;31m▀[0;1;31;43m▀▓▓[0;1;31;40m██▀▀[0m [32m▄[0;1;32;42m▄█▌[0;32m▌[0;1;30m [0;32m▐[0;1;32;42m░▓████▄[0;32m█▄[0;1;30m  [0;34m▄[0;1;30m [0;34m▄▄[0;1;30m [0;34m▄▄▄[0;1;30m [0;34m▄▐[0;1;34;44m▄[0;34m▀[0;37m [0;32m▐█[0;1;32;42m▐███▌[0;32m█░[0m
-[32m█▄▀[0;1;32;42m▀▌[0;32m▄▓▀[0;1;32;42m▀[0;1;32;40m▀[0;1;32;42m█▄[0;32m▀▄ [0;1;30m▀██[0;1;30;43m▓█▄▄▄[0;33m█[0;1;30;43m▄░░[0;33m█▌[0;37m [0;33m  [0;32m [0;33m [0;32m░░▄[0;37m [0;32m▐[0;1;32;42m▐██░[0;32m▄ ▀█[0;1;32;42m▀█████▄[0;32m█▄░[0;1;30m [0;34m▀█[0;1;37;44m▄░[0;34m▀[0;1;34;44m▀░░[0;34m▄[0;1;34;44m▀[0;34m█▄[0;1;30m [0;32m▀█[0;1;32;42m▀███▄[0;32m█ [0m
-
-[37mmatrix for my board trauma[0m
-
-[37mwant something?[0m
-[37mtry your luck at: trauma[0;1;32m@[0mdma.be (no freebees)
-
-later!
-thrasher[0m'
+[32m█▄▀[0;1;32;42m▀▌[0;32m▄▓▀[0;1;32;42m▀[0;1;32;40m▀[0;1;32;42m█▄[0;32m▀▄ [0;1;30m▀██[0;1;30;43m▓█▄▄▄[0;33m█[0;1;30;43m▄░░[0;33m█▌[0;37m [0;33m  [0;32m [0;33m [0;32m░░▄[0;37m [0;32m▐[0;1;32;42m▐██░[0;32m▄ ▀█[0;1;32;42m▀█████▄[0;32m█▄░[0;1;30m [0;34m▀█[0;1;37;44m▄░[0;34m▀[0;1;34;44m▀░░[0;34m▄[0;1;34;44m▀[0;34m█▄[0;1;30m [0;32m▀█[0;1;32;42m▀███▄[0;32m█ [0m'

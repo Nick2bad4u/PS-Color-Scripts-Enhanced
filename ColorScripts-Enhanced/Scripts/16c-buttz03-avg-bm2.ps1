@@ -5,7 +5,7 @@
 # Source SHA-256: e2047d1feac03068b4f366dbc7b8e5060b7055fcdd62928286f76410d2530451
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-BM2.ANS by Avenging Angel (buttz03); released in buttz03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -28,14 +28,4 @@ avg [1;31;47m▀[0;1;37;47m▄[0;1;31;43m [0;1;30;43m▄[0m [1;31;47m▓�
 [1;30m  [0;1;31;43m ▄█▀[0m [1;47m▄[0;1;40m▒[0;1;31;47m▀[0;1;31;41m█[0;41m▀[0;40m▀[0;1;31;40m▀▀[0;31m▀[0;37m [0;1;30m▄[0;33m▄▄[0;1;30;43m▀[0;1;31;43m▄   [0;1;37;47m▄[0;1;31;47m▀[0;1;30;40m▄[0m [1;31;41m▀[0m [1;30;43m▀[0;1;31;43m▄[0;1;31;47m▓[0;33m▀[0;37m [0;1;31;47m▀ [0;1;31;41m█[0;31m▀[0;37m [0;1;30;43m▀[0;1;31;43m▄[0;1;31;47m▓▀█[0;1;31;43m  [0;1;31;40m▒▒▒▒▒▒▒[0;1;30;40m▄[0;31m [0;1;31m▀[0;1;31;47m█[0;1;31;41m█▄[0;31m▄ [0;1;30m▄[0;33m▄[0;1;30;43m▀[0;1;31;43m▄[0;1;37;43m [0;1;31;43m▀[0;1;37;43m  [0;1;31;47m▓▓[0;1;31;43m▄[0;33m█[0;1;31;43m▄██[0m
 [1;30m  ▀[0;33m▀[0;1;31m▒▒[0;33m▄▄▄▄▄▄▄[0;1;30;43m▀[0;33m███[0;1;31;43m▀▀░░░[0;33m██[0;1;31;43m ▀[0;1;31;47m▄[0;1;31;43m▄[0;33m▄▄▄[0;1;31;43m [0;1;31;47m▄[0;1;31;43m▀[0m [1m▒[0;1;47m▀[0;1;31;47m▄[0;1;31;41m▀[0m [1;30;43m▀[0;1;31;40m▒[0;1;31;43m▀▀▀    [0;1;30;43m       ▀[0;33m▄▄▄▄▄▄[0;1;37;43m [0;1;31;43m▀[0;1;37;43m [0;1;31;43m░░  [0;1;37;43m  [0;1;31;43m▀[0;1;31;47m▄[0;1;31;43m██▀[0;1;31;40m▒[0m
     [33m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░[0;1;30m [0m
-    [33m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;37m [0m
-
-
-
-
-
-
-
-
-
-'
+    [33m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;37m [0m'

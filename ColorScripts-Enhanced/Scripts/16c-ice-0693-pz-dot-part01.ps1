@@ -5,7 +5,7 @@
 # Source SHA-256: d564df5681f772a7ad9c435d558e5450305973115ac05787f793eae32a4610f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PZ-DOT.ICE by Pizza (ice-0693); released in ice-0693 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -44,5 +44,4 @@ Write-Host '
 [33;41m▒▒▒▒▓▓▓▓▒▒▒▒▒▒▒▒[0;31;40m▀▀[0;33;41m▓▓▓▓▒▒▒▒▒▓▓▓▓[0;31;40m▀[0m     [31;40m▀[0;33;41m▒▒▒▒▒▒▒▒▒▒▒[0;31;40m▀[0m       [31;40m▐▀ ▐[0;33;41m▒▒▒▒▒▒▒[0;31;40m▌[0m
 [33;41m▓▓▒▓[0;33;40m▀[0;33;41m██▓▓▓▓▒▒▓▓[0;31;40m▀  ▀▀▀[0;33;41m▓▓▓▓▓▓▓▓█[0;33;40m▌[0m       [33;40m▐[0;33;41m▓▓▓▓▓▒▒▒▒[0;31;40m▌[0m          [33;40m▄[0;33;41m▓▓▓▓▓▓▓▓[0m           [33;40m▄[0m
 [33;41m▓▓[0;33;40m█▌ ▀███[0;33;41m▓▓▓▓▓[0;33;40m▌   ▐███[0;33;41m▓▓▓▓▓▓██[0m          [33;40m▄▄[0;33;41m▓▓▓▓▓▓[0m          [33;41m▓▓▓▓▓▓▓▓▓▓[0m          [33;40m██[0m
-[33;40m███  ▐████[0;33;41m█████[0m    [33;41m██████▓███[0m         [33;41m██████▓▓▓▓▓[0m         [33;40m▐[0;33;41m█████████[0;33;40m▌[0m        [33;40m▐██[0m
-'
+[33;40m███  ▐████[0;33;41m█████[0m    [33;41m██████▓███[0m         [33;41m██████▓▓▓▓▓[0m         [33;40m▐[0;33;41m█████████[0;33;40m▌[0m        [33;40m▐██[0m'

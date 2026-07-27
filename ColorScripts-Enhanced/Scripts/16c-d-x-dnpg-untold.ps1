@@ -5,7 +5,7 @@
 # Source SHA-256: 2dbbc39a993bc848c855b42c48c4b40546379e8cc47cdd58035f2c14a42a94b4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UNTOLD.ANS by Npg (d-x-dnpg); released in d-x-dnpg and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -32,7 +32,4 @@ Write-Host '
 [33;42m█▓█░▓▒▓▒▓▓▒▓▒▓█▓▒▓░▓▓▓▒▓▒▓[0;1;32;42m▒▒░▒▒░▒░[0;33;42m▒▓▒▓▒▓███▓▒▓▒▓▒░░▓▓▒▓▒▓▓▓▒▓▒░▒▒▒▒[0;1;32;42m░▒▒░▒░▒░░▒░▒▒[0m
 [33;42m░▓▓▓▓▓▓▒▓▓▓▓▒▓▒▓▒▓▒▓▓▒▓[0;1;32;42m░▒▒░░░░▒▒░[0;33;42m▓▒▒▓▓▓▓▓▒▒▒▒▓▓██░▓▒▒▓▒▓▒▓▒▒▓▓▓▓▓▓▓▓▒▒[0;1;32;42m░▒▒▒▒▒░░▒[0;33;42m▓[0m
 [33;42m▓▓░▒▒▒▒▒▓▓▒▓▒▓▓▒▓▒▒▒▒[0;1;32;42m░▒░▒▒▒▒░▒░▒[0;33;42m▒▒▒▒▓▓▓▓▒▒▒▒▓▓▓▒▒▓█▒▓█▓██▒▓▒▒▒▒▓▓▓▓▒▒▓▒██▒▓▓▒▒▒▓[0m
-[33;42m▓▓▓▓▓▒▓▓▓▒▓▒▒▒▒▓▓▓▓▓▓▒▒▒▒▒▓▓▓▓▓▒▓▓▓▒▒▒██▓▓▓▓▓▓▓▓▒▒▒▒█▒▒▒▒▓▓▓▒░▓▒▓▓▓▒▓▒▒▓▓▒▓▓▒▒▓▓[0m
-[33;47m                                                                                [0m
-[33;47m                                                                                [0m
-[40m                                                                                [0m'
+[33;42m▓▓▓▓▓▒▓▓▓▒▓▒▒▒▒▓▓▓▓▓▓▒▒▒▒▒▓▓▓▓▓▒▓▓▓▒▒▒██▓▓▓▓▓▓▓▓▒▒▒▒█▒▒▒▒▓▓▓▒░▓▒▓▓▓▒▓▒▒▓▓▒▓▓▒▒▓▓[0m'

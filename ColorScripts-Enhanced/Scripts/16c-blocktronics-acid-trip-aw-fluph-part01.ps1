@@ -5,7 +5,7 @@
 # Source SHA-256: ac0c39746e160294915a97049af60bc931fc7fa9616a1e53af4d9f48d55f9b15
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aw-FLUPH.ANS by abdully wahaa (aw produktionz); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fluph
 # SAUCE Author: abdully wahaa
 # SAUCE Group: aw produktionz
@@ -19,7 +19,7 @@ Write-Host '
 
 
 
-         abdully wahaa produktionz.. gansur raps wun hendrad percent.%%
+                                                                       
 
 
 

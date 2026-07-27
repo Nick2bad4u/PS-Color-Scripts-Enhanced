@@ -5,7 +5,7 @@
 # Source SHA-256: 41cb0475f6a04a5014fb7bf914a6d2b8f777d8f7302d4c73bf644df01ad00b4b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BK-UNDER.ANS by blackknight (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: underground empire logo
 # SAUCE Author: blackknight
 # SAUCE Group: READ THE INI FILE
@@ -28,6 +28,6 @@ Write-Host '
 [1;30;40m█[0;36m▄ [0;1;36m▀▀▀[0;1;36;46m▓▓[0;1;36;40m▄ [0;1;30;40m▄▄▄▄▄ [0;1;36;40m█[0;1;36;46m▄░▄▓[0m [1;30;40m█[0;1;30;47m▓[0;1;30;40m█ [0;1;36;40m▀▀▀▀▐█████▌ [0;1;30;40m▄▄▄▄▄ [0;1;36;40m▐█[0;1;36;46m▓▄[0;1;36;40m██▐[0;1;36;46m▓[0;1;36;40m███[0;1;36;46m▓▓[0m [1;30;40m█▄░▄██▄ [0;1;36;40m▀▀▀[0;1;36;46m▓▓[0;1;36;40m▄ [0;1;30;40m▄▄▄▄▄[0;1;30;47m▓[0;1;30;40m█[0m
 [1;30;46m▓░▒▓▓[0;1;30;40m▄▄▄▄▄█▓▀░▀▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄▄▄█[0;1;30;47m▓▓▓[0;1;30;40m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██ ███████▄▄▄▄▄███████[0m
 [1;30;40m█[0;1;30;46m▓[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░▀▀▀▀▀▀▀▀▀▀ ▀▀▀▓▓▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▓[0;1;30;46m▓[0m
-[1;30;40m█ x[0mthis[1;30mx[0mboard[1;30mx[0m([1;30mx[0mthe[1;30mx[0mprototype[1;30mx[0m)[1;30mx[0mis[1;30mx[0mofficial[1;30mx[0mXXXXXXX[1;30mx[0mof[1;30mx[0mthe[1;30mx[0munderground[1;30mx[0mempire[1;30mx █[0m
+[1;30;40m█  [0m    [1;30m [0m     [1;30m [0m [1;30m [0m   [1;30m [0m         [1;30m [0m [1;30m [0m  [1;30m [0m        [1;30m [0m       [1;30m [0m  [1;30m [0m   [1;30m [0m           [1;30m [0m      [1;30m  █[0m
 [1;30m▀[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;45m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;45m▓[0;1;30;40m▀[0m
                     [1;30;40m▀[0m       [1;30;40m░[0m                        [1;30;40m▀[0m'

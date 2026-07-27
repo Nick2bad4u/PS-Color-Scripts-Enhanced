@@ -5,7 +5,7 @@
 # Source SHA-256: 327ecee0725b026e6b2d0c8bbc05faeb222f6fae7ad6b77d9bbd136bac2b5cef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FED-BM1.ANS by Firehead (Hieroglyphics); released in hiero-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Maiden
 # SAUCE Author: Firehead
 # SAUCE Group: Hieroglyphics
@@ -37,4 +37,4 @@ Write-Host '
                           [34m▀▀▀▀[0;37m   [0;31m▄█[0;1;31;41m▄███▄▄▄▄▄▄[0;31m██[0m       [1;30m▀[0m [34m██▀▀[0m
                              [31m ▄▄▀█[0;1;31;41m▀▀▀[0;1;31;47m▓▓▀[0;1;31;41m█▀▀▓▒░[0;31m▒░[0m
                            [31m  [0;37m  [0;31m  [0;37m  [0;1;31m▀▀[0;1;31;47m▀[0;1;31;40m█▀▀[0m
-  [1;30mFyrehed. [0m   [1;30mBlack Maiden[0m      [1;31m▄[0m [1;31m ▀[0m               [1;30mIn the year 2001.[0m'
+  [1;30m         [0m   [1;30m            [0m      [1;31m▄[0m [1;31m ▀[0m               [1;30m                 [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 266e8cbb6e8a13124a8a32cc9500507d5f4773969949d6ed6bf8457a1cdb1e44
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N#TRE3.ANS by nos (blend); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tre
 # SAUCE Author: nos
 # SAUCE Group: blend
@@ -18,7 +18,7 @@ Write-Host '
 
 
 
-[1mansi by nos of blend productions[0m [1m1997[0m                    [30;41m▓▓▓[0m
+[1m                                [0m [1m    [0m                    [30;41m▓▓▓[0m
                                                        [30;41m▓▓░░░[0;31;40m██[0;1;31;41m            [0m
                                                              [31m▀▀[0;1;31;41m           [0m
                                                                  [31m▀█▄█[0;1;31;41m     [0m
@@ -46,6 +46,4 @@ Write-Host '
 [35m▀[0;1;35m▀[0;1;35;45m▀[0;1;35;40m█████[0;1;35;47m▓▓[0;1;35;40m█████[0;1;35;45m▄[0;35m▄[0m   [1;35m [0m  [1;31m [0;33m▀▀ ▀[0;1;31;43m░░░░░░░          [0;33m▀▌▀[0m
 [1;35m   [0;35m▀[0;1;35;45m▀[0;1;35;40m████████████[0;1;35;45m▄[0;35m▄[0;1;35m   [0m        [33m▀▀▀[0;1;31;43m   [0;33m██▀▀▀▀[0m
 [1;35m▓▓▄[0;35m▄[0;1;35m [0;35m▀[0;1;35;45m▀[0;1;35;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ [0m
-[1;35m░░░[0m    [1;35m░░░░░░░░░░░░░░░░░░[0m
-
-do not rip this pic[1m,[0m it''s for my board, tre [1m/[0m greetings [1m:[0m liithn [1m&[0m polymorph[1m   [0m'
+[1;35m░░░[0m    [1;35m░░░░░░░░░░░░░░░░░░[0m'

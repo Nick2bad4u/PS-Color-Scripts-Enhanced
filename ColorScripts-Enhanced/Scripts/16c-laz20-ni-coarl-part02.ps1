@@ -5,7 +5,7 @@
 # Source SHA-256: e93f95362466fdd4bb2126ebf2a864bc9934747ea1c95b6c7f6d9166b58fbb4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-COARL.ANS by Nitron (Lazarus); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: u/ComeOnArlene Portrait
 # SAUCE Author: Nitron
 # SAUCE Group: Lazarus
@@ -42,5 +42,4 @@ Write-Host '
 [1;30m▓ ▓ ██ ▒█▒ ▒[0;33m      █[0;1;31;43m░▓[0;1;31;40m█████████▓[0;1;31;43m▓▓▓░[0;33m███[0;1;31;43m░▓▓░[0;33m████████▓     [0;1;30m▒█▓░ ▒   ▄▓▓ ▄▄ ▒▒ █▒ [0;36m▒▓[0m
 [1;30m▓ ▓ ▓█  ▒  ▓[0;33m      █[0;1;31;43m░▓[0;1;31;40m███████████[0;1;31;43m▓▓░[0;33m██[0;1;31;43m░▓[0;1;31;40m█[0;1;31;43m▓░[0;33m███████▓▒     [0;1;30m███  ██ ▓██ ██▓ ▓▒ ▒[0m  [36m█▓[0m
 [1;30m▒▒▒ ▓▓▄▒  █▓[0;33m      ▒█[0;1;31;43m░▓[0;1;31;40m██████████[0;1;31;43m▓[0;33m████[0;1;31;43m░▓[0;1;31;40m██[0;1;31;43m▓░[0;33m██████▓     [0;1;30m▒███ ▒██ ▒█▒ █▒  █▓▒ [0;1;36m░[0;30;46mn1[0;36;40m▓[0m
-[1;30;40m░░░ ▀▒▒▀ ██▓       [0;33m█[0;1;31;43m░▓[0;1;31;40m██████████[0;1;31;43m▓[0;33m███[0;1;31;43m░▓[0;1;31;40m███[0;1;31;43m▓▒░ [0;33m███▓▒    [0;1;30m▒███▒ ████ ▒ ▒█▒  ██▓▒[0m [36m▀█▓[0m
-[1;37mu/ComeOnArlene[0m                                                         [1mr/drawme[0m'
+[1;30;40m░░░ ▀▒▒▀ ██▓       [0;33m█[0;1;31;43m░▓[0;1;31;40m██████████[0;1;31;43m▓[0;33m███[0;1;31;43m░▓[0;1;31;40m███[0;1;31;43m▓▒░ [0;33m███▓▒    [0;1;30m▒███▒ ████ ▒ ▒█▒  ██▓▒[0m [36m▀█▓[0m'

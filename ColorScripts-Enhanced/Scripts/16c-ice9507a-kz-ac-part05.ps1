@@ -5,7 +5,7 @@
 # Source SHA-256: 8590c18e5fad1f0f9f936c7ee23e5e8aeb7357544d952f0bb68d06c12defbd10
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KZ-AC.ICE by Kamikazee (ice9507a); released in ice9507a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 183-227
 # Columns: 1-80
 
@@ -43,15 +43,4 @@ Write-Host '
 [1;33m      [0m   [1;33mc[0m        [1;33me[0m      [1;33m n[0m    [1;33m [0m  [1;33mt[0m     [1;34m  [0m [1;33ma[0m        [1;33mu[0m        [1;33mr[0m       [1;33mi[0m   [33m   [0m
 
                                                     [37m   [0m
-       [1;37m-[0m [1m[[0m604[1m]-[0m 942[1m-[0m1798 ([1;30m28[0m.[1;30m8 vfc[0m)      [1m-[0m [1m[[0m604[1m]- [0m942[1m-[0m1798 ([1;30m14[0m.[1;30m4 v32[0m)
-
-
-   [1;30mSysops[0m:[1;30m Ranma[0m/[1;30mInnate Malice [0m[[1;30mUnreal[0m]
-
-[1;30m [0m  [1;30malphasoft whq[0m,[1;30m unreal whq[0m,[1;30m tradewars beta site[0m,[1;30m celerity beta site[0m,[1;30m rem chq[0m,[1;30m [0m
-   [1;30mwicked chq[0m,[1;30m thundernet chq[0m,[1;30m infiNet[0m,[1;30m spamNet[0m...
-
-   [1;30mlarge art[0m/[1;30mdemo/magazine[0m/[1;30mmusic area[0m. [1;30m [0m...[1;30mrunning reg[0m''[1;30md celerityv[0m.[1;30m202r[0m
-
-
-   [1m.[0mansi by Kamikazee[1;30m [0;1;37m[[0miCE[1m]..[0m..[1;30m..[0m [1;30m.[0m                               [1;30m [0m [1;30m   7[0m.[1;30m20[0m.[1;30m95[0m'
+       [1;37m-[0m [1m[[0m604[1m]-[0m 942[1m-[0m1798 ([1;30m28[0m.[1;30m8 vfc[0m)      [1m-[0m [1m[[0m604[1m]- [0m942[1m-[0m1798 ([1;30m14[0m.[1;30m4 v32[0m)[0m'

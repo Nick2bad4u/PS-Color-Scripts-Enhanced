@@ -5,7 +5,7 @@
 # Source SHA-256: cf8205377d0775e370b14b7c36dc866086f1bfcfd3c90e0180fcf95a759efc92
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-J22.ANS by Sephiroth + Tcf (sadist06); released in sadist06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -33,5 +33,4 @@ Write-Host '
 [33;42m▒[0;33;40m█▄█[0;33;42m▒[0;33;40m▄█▓▄[0;37;40m   [0;32;40m▀▀█▀███[0;37;40m   [0;32;40m■[0;37;40m   [0;1;37;40m▓[0m  [1m▌[0m [1m▀[0m  [1m▀▀▀▀▀▀[0m  [33m▄▄▄▄▄▄▄▄▄▄▄▄[0;32m [0;1;37;42m▒[0m  [32m▄▄██▄▄█▀███[0;1;32;42m░[0;32m▀▄ ▀▄█▄▄▄▄[0m
 [33;42m░[0;33;40m█▄█▄[0;37;40m [0;33;40m▀█▄▀▀▄▄  [0;37;40m [0;32;40m▀▀▀▀▄▄▄██[0;37;40m [0;1;37;40m▐[0;32m▌▄[0;37m  [0;32m░░  ░ ░░░░▄▄▄▄▄▄▄[0;33;42m▄▀▓[0;33;40m█▄▄[0;32;40m [0;1;37;42m▀[0m [32m██▄[0;1;32;42m▓▄[0;32m▄▀▀░░░▄██▄ [0;33;42m░░[0;32;40m▄▄[0;1;32;42m░[0;32m▄▄[0m
 [33m▌▒▀█[0;33;42m▓▓[0;33;40m▀▀█▄▀▀▀█▀▀▄▄▄[0;37;40m  [0;1;31;40m  [0m   [32m ▀[0;37m [0;33m░[0;32m▓▓▓██▀▄▄▄▄▄▄▄▄▄░░░░░▀▄▄▄▄[0;1;32;42m▒[0;32m▄▄[0;33;42m░░[0;32;40m█▀█[0;33;42m░▀▄[0;32;40m▄▄▄▄▄▄▌[0;33;42m▒▒[0;32;40m▄▄▀▀█[0m
-[37;40m [0;33;40m░[0;37;40m  [0;33;40m▐▀▄[0;32;40m░[0;33;40m▀░▄░[0;37;40m [0;33;40m▀▀▄[0;37;40m  [0;33;40m░░[0;32;40m [0;33;40m▄▄▄[0;32;40m▒[0;33;40m▀▀[0;33;42m▀[0;1;32;42m░░[0;32m█▀▀▀▀▀█▄▄[0;1;32;42m░[0;32m▀▀▒▒██[0;1;32;42m░▓▄░[0;32m█▀█[0;1;32;42m▄▀[0;32m▀█[0;33;42m▓▀[0;32;40m▀[0;37;40m  [0;32;40m▀[0;33;42m▓▐▐[0;1;37;43mSPH_+TCF&AD[0;32m▀░[0m
-[32m [0;37m        [0m   [37m [0m                              [32m  [0m'
+[37;40m [0;33;40m░[0;37;40m  [0;33;40m▐▀▄[0;32;40m░[0;33;40m▀░▄░[0;37;40m [0;33;40m▀▀▄[0;37;40m  [0;33;40m░░[0;32;40m [0;33;40m▄▄▄[0;32;40m▒[0;33;40m▀▀[0;33;42m▀[0;1;32;42m░░[0;32m█▀▀▀▀▀█▄▄[0;1;32;42m░[0;32m▀▀▒▒██[0;1;32;42m░▓▄░[0;32m█▀█[0;1;32;42m▄▀[0;32m▀█[0;33;42m▓▀[0;32;40m▀[0;37;40m  [0;32;40m▀[0;33;42m▓▐▐[0;1;37;43mSPH_+TCF&AD[0;32m▀░[0m'

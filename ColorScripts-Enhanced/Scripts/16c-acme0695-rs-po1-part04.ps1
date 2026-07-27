@@ -5,7 +5,7 @@
 # Source SHA-256: f73be9f7fe21cc92607ddd707cfd5a86956ee83e330919530402f90d1e4de1ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS!PO1.ANS by rusty! (acme!); released in acme0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: point omega!
 # SAUCE Author: rusty!
 # SAUCE Group: acme!
@@ -17,7 +17,7 @@
 Write-Host '
                    [1;30m"SHOUT!"[0m
 
-[1;30;47m█▓▒░[0;31;47m Omega - word from the bible - synonymous with "The End"[0;1;30;47m                ░▒▓█[0m
+[1;30;47m█▓▒░[0;31;47m                                                        [0;1;30;47m                ░▒▓█[0m
 [1;30;41m      [0;31m▓[0;1;30;41m         [0;31m▓[0;1;30;41m         [0;31m▓[0;1;30;41m        [0;31m▓[0;1;30;41m [0;31m▓▓[0;1;30;41m [0;31m▓▓▓░[0;1;30;41m   [0;31m▓[0;1;30;41m    [0;31m▓▓▓[0;1;30;41m       [0;31m▓[0;1;30;41m  [0;31m▓[0;1;30;41m   [0;31m▓▓[0;1;30;41m      [0;31m▓[0;1;30;41m  [0m
 [31m [0;1;30;41m [0;31m▓[0;1;30;41m  [0;31m▓[0;1;30;41m  [0;31m▓[0;1;30;41m    [0;31m▓▓▓[0;1;30;41m   [0;31m▓[0;1;30;41m    [0;31m▓[0;1;30;41m      [0;31m▓[0;1;30;41m  [0;31m▓▓[0;1;30;41m [0;31m▓[0;1;30;41m  [0;31m▓[0;1;30;41m [0;31m▓▒[0;1;30;41m [0;31m▓▓▓▓[0;1;30;41m   [0;31m░[0;1;30;41m  [0;31m▓▓[0;1;30;41m  [0;31m░▓▓[0;1;30;41m  [0;31m▓█[0;1;30;41m   [0;31m░[0;1;30;41m  [0;31m▓▓[0;1;30;41m     [0;31m [0m
 [31m░■░░[0;37m [0;31m▀[0;37m [0;31m▓░░[0;37m [0;31m▀▀[0m    [31m▀▀[0;37m  [0;31m▀▀▀[0;37m  [0;31m▀░▀■▀[0;37m [0;31m▀▀░[0;37m [0;31m▀▀[0;37m [0;31m▀[0;37m [0;31m▀▀▓[0;37m [0;31m▀▀▀[0;37m  [0;31m▀▀▒[0;37m [0;31m▀▀[0;37m  [0;31m▀▒[0;37m [0;31m▒[0;37m [0;31m■▒[0;37m [0;31m▀▀■▒░[0;37m [0;31m▀▀▀▀[0;37m [0;31m░░▓[0m

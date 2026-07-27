@@ -5,7 +5,7 @@
 # Source SHA-256: 4e7e0507d9d004486d61341b49412b536fc9dffc2f9ec9081602a994c46c813d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RAY^GI.ANS by ^rAYTRAYZa^ (bACK tO bASiX); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: GOLDEN iMAGE
 # SAUCE Author: ^rAYTRAYZa^
 # SAUCE Group: bACK tO bASiX
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mTHiS NiCE ANSi WAS CREATED BY RAYTRAYZA... iF YOU WANT YER OWN LiLL ANSi MAiL ME[0m
+[1;30m                                                                                [0m
 
 
 

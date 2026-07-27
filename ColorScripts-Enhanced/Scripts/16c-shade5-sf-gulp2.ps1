@@ -5,7 +5,7 @@
 # Source SHA-256: 9dd285dd4765c0521b3bdf53e4b656d5a5eef4824dd8497e7b0499f52f7b1340
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-GULP2.ANS by shaft (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gulp
 # SAUCE Author: shaft
 # SAUCE Group: shade
@@ -38,7 +38,4 @@ Write-Host '
 [35;41m▌[0;31;40m██████▌[0;35;40m▐[0;31;40m█▄▄[0m   [1;30;40m▀▄[0;1;37;47m▄[0;1;30;47m [0;1;30;40m▀▄[0m [35;41m█▀▀▀[0;31;40m██████▀███[0;37;40m  [0;31;40m▄▄▄[0;1;31;41m▀▀█[0;1;31;40m▀[0;31m [0;1;30m▄[0;1;30;47m▀[0;1;37;40m█[0;1;30;40m▌[0;1;30;47m▄[0;1;37;47m▓[0;1;30;47m▀[0;1;37;40m [0;1;30;47m▌[0;1;37;40m███[0;1;37;47m▌[0;1;30;40m▄▀[0;1;37;40m▀[0m▄[1;30;47m ▄[0;1;30;40m▀[0m  [31m█[0;1;31;41m▀▀▀[0;1;31;40m█[0;1;31;47m██[0;1;31;40m▄▄▄█▀[0m
 [35;41m█  [0;31;40m████ [0;35;40m█[0;31;40m███▀[0;37;40m [0;1;30;40m▄[0;1;30;47m▀[0;1;37;47m▄▀[0;1;30;40m▀[0;1;30;47m▌[0;1;37;47m░[0;1;30;40m▌[0;35m▐█▀▀[0;31m▀▀▀[0;37m  [0;31m ▐█▀ ▄████[0;1;31;41m▄[0;1;31;40m▀[0;31m [0;1;30m▄[0;1;30;47m▀[0;1;37;47m▓▓▓[0;1;30;40m▌▐▄[0;1;30;47m▄▄[0m█[1m███[0;1;47m▀[0;1;30;47m▄[0m▀[1;30m▀[0m   [31m▄▄███████[0;1;31;41m▀▀███[0;1;31;47m█[0m
 [35;41m██▄▄ [0;31;40m█▌[0;35;40m▐[0;35;41m▌[0;31;40m██▌ [0;37;40m [0;1;30;40m▐[0;1;37;47m▀[0;1;30;47m▄[0;1;30;40m▀[0;1;30;47m▌[0;1;37;47m▓▓[0;1;30;47m▀[0m [35m▄▄▄[0;31m▄▄▄[0m    [31m▀[0;37m [0;31m█████▀[0;37m [0;1;30m▄[0;1;30;47m▀[0;1;37;47m░░▒[0;1;30;47m▄[0;1;30;40m▀[0;1;37;40m [0;1;30;40m▀▀[0m   [1;30m▀[0m▀[1;30m▀[0;1;37m [0m  [31m▄▄██████████████[0;1;31;41m▀██[0m
-[35;41m██████[0;31;40m [0;35;40m█[0;35;41m▄▄ [0;31;40m█▄[0m   [1;30;40m▀[0m▀▀▀[1;30;47m▄[0m█[1;30m▄[0;35m▐[0;35;41m░░[0;31;40m█████▄[0;37;40m  [0;31;40m███▀▀[0;37;40m [0;1;30;40m▄[0;1;30;47m▀ ▄[0m▀[1;30m▀[0m  [31m▄▄▄▄███▄▄▄[0;1;31;41m  ▀[0;1;31;40m▌[0;31m▐██████████████[0;1;31;41msf█[0m
-
-
-[1mthisone''s for gulp. don''t rip it!.[0m'
+[35;41m██████[0;31;40m [0;35;40m█[0;35;41m▄▄ [0;31;40m█▄[0m   [1;30;40m▀[0m▀▀▀[1;30;47m▄[0m█[1;30m▄[0;35m▐[0;35;41m░░[0;31;40m█████▄[0;37;40m  [0;31;40m███▀▀[0;37;40m [0;1;30;40m▄[0;1;30;47m▀ ▄[0m▀[1;30m▀[0m  [31m▄▄▄▄███▄▄▄[0;1;31;41m  ▀[0;1;31;40m▌[0;31m▐██████████████[0;1;31;41msf█[0m'

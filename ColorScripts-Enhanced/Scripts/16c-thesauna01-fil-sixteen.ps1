@@ -5,7 +5,7 @@
 # Source SHA-256: ad8a1b6af07e57f76a3171a0d1d79c17445a7204e76ab15ab67e45b6f407fcea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-sixteen.ans by filth (54UN4); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 16 colors promo
 # SAUCE Author: filth
 # SAUCE Group: 54UN4
@@ -39,7 +39,4 @@ Write-Host '
 [31m███▄   ▀[0;1;33;41m▀[0;1;37;40m█[0;1;33;41m▀[0;31m▀   ▄▄   ▀[0;1;33;41m▀[0;1;37;40m█[0;1;33;41m▀[0;31m▀[0;37m [0;31m  ▄ ░[0;1;37m██[0;1;33;41m▀[0;31m▀[0;37m [0;31m  ▄████▄  [0;37m [0;31m▀[0;37m [0;31m  ▄  [0;37m [0;31m▀   [0;1;37m█[0;1;33;41m▀[0;31m▀[0;37m [0;31m  ▄▄   ▀[0;1;33;41m▀█▄[0;1;37;40m█[0;1;33;41m▀[0;31m▀[0m
 [31m█████▄   ▀[0;37m [0;31m  ▄████▄  [0;1;33m [0;31m▀[0;1;33m [0;31m  ▄█▌ [0;1;33m▐[0;1;33;41m▀[0;31m▀[0;37m [0;31m  ▄████████▄   ▄███▄    [0;37m [0;31m▀[0;37m [0;31m  ▄████▄  [0;37m [0;31m▀▀▀[0;37m [0;31m  ▄█[0m
 [31m███████▄   ▄████████▄   ▄██▌[0;37m [0;31m■▀[0;37m [0;31m  ▄██[0;1;33;41m 1 6 C O L O R S [0;31m█▄[0m     [31m▄█[0;30;41m [0;31;40m█████[0;1;33;41m [0;31m▄[0m     [31m▄███[0m
-[1;33;41m▓▓▓▓▓▓▓▓▓[0;1;33;40m▄[0;1;33;41m▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▄[0;1;33;41m▓▓[0;1;33;40m▀[0m      [1;33;41m▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▄▄▄[0;1;33;41m▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▄▄▄[0;1;33;41m▓▓▓▓▓[0m
-
-[1mlike colors? get 16 of ''em at 16colo.rs! [0;1;33munderground / old school / textmode art[0m
-[1;33mlove[0;31m &[0;1;33m respect[0;31m & [0;1;33mhugs[0;31m & [0;1;33mkisses[0;31m to:[0;1;37m lord scarlet[0;31m &[0;1;33m [0;1;37mburps[0m [31m/[0;33m/[0;1;33m/[0;1;37m/////[0;1;33m/[0;33m/[0;31m/[0;37m [0;31mfilth{54un4}[0m'
+[1;33;41m▓▓▓▓▓▓▓▓▓[0;1;33;40m▄[0;1;33;41m▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▄[0;1;33;41m▓▓[0;1;33;40m▀[0m      [1;33;41m▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▄▄▄[0;1;33;41m▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▄▄▄[0;1;33;41m▓▓▓▓▓[0m'

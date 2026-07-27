@@ -5,7 +5,7 @@
 # Source SHA-256: 7a5b994789b657b934a3a3d5c42797122c407fecec3c8140cdf4f7638c5bd7b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ET-UNHLY.ANS by Eternal (Hypeart); released in hype-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: " Unholy main menu "
 # SAUCE Author: Eternal
 # SAUCE Group: Hypeart
@@ -27,9 +27,9 @@ Write-Host '
 [1;33;46m ░[0m                      [36m░[0;30;46m▓[0;37;40m  [0;36;40mu[0;37;40m [0;36;40mn[0;37;40m [0;1;36;40mh[0m [1;36mo[0m [1;36ml[0;1;33m y[0m   [1;33mg[0m [1;36mr[0m [1;36mo u[0m [36mn d[0;37m  [0;36m░[0;30;46m▓[0m                     [1;33;46m▓▒[0m
 [1;33;46m  [0m                                                                            [1;33;46m▒░[0m
 [1;36;46m░[0;36m█[0m                                                                            [1;33;46m░[0;1;36;46m░[0m
-[1;36;46m▒░[0m   [36m;[0;1;36m:[0m [1;36mm[0;1;37m [0;36menu commands?![0m                                                      [1;36;46m░▒[0m
-[1;36;46m▓▒[0m   [36m>[0;1;36m>[0;1;37m [0;1;36mm[0;1;37m [0;36menu commands?![0m                                                      [1;36;46m▒▓[0m
-[1;36;46m█▓[0m   [36m-[0;1;36m-[0m [1;36mm[0;1;37m [0;36menu commands?![0m                                                      [1;36;46m▓█[0m
+[1;36;46m▒░[0m   [36m [0;1;36m [0m [1;36m [0;1;37m [0;36m              [0m                                                      [1;36;46m░▒[0m
+[1;36;46m▓▒[0m   [36m [0;1;36m [0;1;37m [0;1;36m [0;1;37m [0;36m              [0m                                                      [1;36;46m▒▓[0m
+[1;36;46m█▓[0m   [36m [0;1;36m [0m [1;36m [0;1;37m [0;36m              [0m                                                      [1;36;46m▓█[0m
 [1;36;46m██[0m                                                                            [1;36;46m██[0m
 [1;36;46m██[0m                                                                           [1;36m▐[0;1;36;46m█[0;1;36;40m▌[0m
 [1;36;46m██[0m                                                                            [1;36;46m██[0m

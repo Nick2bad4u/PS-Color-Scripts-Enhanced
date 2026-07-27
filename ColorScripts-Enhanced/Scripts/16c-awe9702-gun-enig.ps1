@@ -5,7 +5,7 @@
 # Source SHA-256: 96b3ac1df79a19838753450e804037f54258631469682c11861700e863723b9e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GUN-ENIG.ANS by Gunthar (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Enigma
 # SAUCE Author: Gunthar
 # SAUCE Group: AWE Lettering
@@ -32,6 +32,6 @@ Write-Host '
 [33;40m     ░ [0;32;40m [0;33;40m [0;32;40m [0;33;40m  [0;37;40m  [0;32;40m▄  [0;33;40m▀[0m    [33;40m█[0;32;40m ▀[0;1;32;42m░░░[0;32m███[0;30;42m░[0;32;40m▀[0m   [33;40m▄▓░[0m   [33;40m▀▀▀▀▀▀██▄▄▄▄▄▄█[0;30;43m░[0;33;40m▐█▓▀▀▀▀▀▀▀   [0m        [30;43m▓[0m
 [32;40m  [0;33;40m  [0m                [33;40m░[0;37;40m  [0;33;40m█[0;32;40m  ▐█[0;30;42m░░▒[0;37;40m [0;33;40m░[0;37;40m [0;33;40m▐▓ [0m    [33;40m░[0;30;43m░[0;33;40m█▌░[0m    [33;40m   ▀▀▀ [0;30;43m▓[0m      [37;40m: e n [0;1;37;40mi[0m g m a
              [30;42m▓[0m          [33;40m█[0m   [30;42m▒▒[0;37;40m [0;33;40m░[0;37;40m [0;33;40m▐▌ [0m     [33;40m░[0;30;43m▓[0m                                    [37;40m░[0m
-                     [33;40m░[0;37;40m  [0;33;40m▐▌[0m      [33;40m▐▌[0m        [37;40m [0m   [37;40mdystro''s elite non-existant bbs  │[0m
+                     [33;40m░[0;37;40m  [0;33;40m▐▌[0m      [33;40m▐▌[0m        [37;40m [0m   [37;40m                                 │[0m
                          [33;40m█▄▄▄▄░[0;37;40m [0;30;43m░[0;37;40m  ░ -───--──-───────-─-──░───-───────-────░--─┼[0m
-                            [33;40m▀▀▀▀▀[0m    [37;40mplease rip this .. somebody .. please !![0m'
+                            [33;40m▀▀▀▀▀[0m    [37;40m                                        [0m'

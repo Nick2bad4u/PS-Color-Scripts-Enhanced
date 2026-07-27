@@ -5,7 +5,7 @@
 # Source SHA-256: 6c770174bcafea626bd89e58ab1357ae65cc99768341f09440db884200820469
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: E0-POFF.ANS by Enzo (Glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Poffelipoff
 # SAUCE Author: Enzo
 # SAUCE Group: Glue
@@ -43,6 +43,6 @@ Write-Host '
         [1;32m▄[0;32m▄▀▄[0;36m [0;1;37;46m░░[0;36m  ▐[0;1;36;46m███[0;36m   [0;1;36;46m▓▓ [0;36m▌ [0;1;36;46m█▀[0;36m ▐[0;1;36;46m██[0;36m▀▀▀▀[0;37m  [0;36m█▀▄[0;1;36;46m▄▀[0;1;36;40m▀▀▀[0;1;36;46m▀[0m  [1;30;46m░[0;36m▀[0;37m  [0;36m█[0;1;36;46m▓▓[0;36m▓  [0;1;36;46m██[0;36m█ [0;1;37;46m░░[0;36m  [0;32m▄▄[0;36m [0;32m [0m
     [32m▄[0;1;32;42m▄▄[0;32m▄█▄▄▀[0;36m ▀[0;1;37;46m▓[0;36m [0;32m▄[0;36m ▀[0;1;36;46m▀▀ [0;36m▓▓[0;1;36;46m░░[0;36m▀  [0;1;36;46m▓[0;36m▀[0;32m▄[0;37m [0;36m▀[0;1;36;46m▀[0m  [1;35;47m▓▓▄[0m [1;30;46m▄ [0;36m▀[0;37m  [0;32m▄▄▄[0;36m [0;37m  [0;1;30;46m▓[0;1;30;40m█[0m  [1;30m▀[0;1;36;46m░░[0;36m█▄▄[0;1;36;46m▀[0;36m█▀ ▀█[0;37m [0;32m▀ ▄[0;1;32;42m▄▄[0;32m▄[0;37m [0;32m▄[0m
 [37m  [0;1;32m [0;32m▀[0;1;32m▀▀▀▀▀▀[0;32m▀▀[0;36m ▀[0;1;37;46m▀[0;36m [0;1;32m▀[0;32m▀[0m   [36m▀▀▀  [0;32m▀▀[0;36m [0;1;36;46m░[0;36m [0;1;32m▀[0;32m▀[0;37m   [0;35m▀▀▀▀[0;37m  [0m   [32m▀[0;1;32m▀▀[0m [32m▀[0;37m  [0;1;30m▀[0m  [32m▀[0;37m [0;36m  [0;1;30m▀[0;36m▀▀  [0;1;30m [0;32m▀▀[0;36m [0;37m [0;32m▀▀▀[0;1;32m▀▀▀[0;32m▀[0;1;32m▀[0;32m▀[0m
-[37m                          [0;36m ▄[0;1;37m▄[0;1;37;46m▓[0;36m  [0;37m [0;36m  [0;1;33m [0m     [1;30mwrite info stuph title here[0m
+[37m                          [0;36m ▄[0;1;37m▄[0;1;37;46m▓[0;36m  [0;37m [0;36m  [0;1;33m [0m     [1;30m                           [0m
       [36m( p[0;1;36mO[0;36mffe[0;1;36mLL[0;36mip[0;1;36mO[0;36mff )[0;37m  [0m    [36m▀[0;1;37;46m▀[0;36m▓▓ ▀[0m
                               [36m▀[0m                     [37m [0m              [37m [0m'

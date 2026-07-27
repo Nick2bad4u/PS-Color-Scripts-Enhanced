@@ -5,7 +5,7 @@
 # Source SHA-256: 706803e639ef2588575108a3ac38f50cfd3c29ec409bcce5b050d165be4e02ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PV-PSYN0.ANS by Pure Voltage (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: PsychoNet
 # SAUCE Author: Pure Voltage
 # SAUCE Group: MiSTiGRiS
@@ -35,5 +35,4 @@ Write-Host '
      [1;30;47m▒[0m▌                        ▄■        [1;30m▒▓[0m▐[47m [0m                   [1;47m▓▒[0m
      [1;30;47m░[0m                        ▐▌        [1;30m░▒[0m▄[1;47m░[0m▌                 ▄[1;47m░[0m▀
      ▐                         ▀▄▄    [1;30m░[0m▄▄█▀                 ▄▀▀
-                                  ▀▀▀▀▀                   ■▀
-        We''ve declared psychological warfare on the rest of the world.[0m'
+                                  ▀▀▀▀▀                   ■▀[0m'

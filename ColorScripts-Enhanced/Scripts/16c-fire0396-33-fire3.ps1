@@ -5,7 +5,7 @@
 # Source SHA-256: 09cbd2c309362449a9b627d1cdf6ca46680109ff018de0f138d8e2b52c132f0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-FIRE3.ANS by Eerie-Kun (Fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fire promotional - like we need 'em
 # SAUCE Author: Eerie-Kun
 # SAUCE Group: Fire
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-eerie-kun     [1;5mDONE ON 100% MONOCHROME SCREEN BY A GENUINE ANSI LEGEND[0m      [1;31mfire[0m
+              [1;5m                                                       [0m      [1;31m    [0m
 
 
-[1;31m   [0m"something was going to happen, that i was sure of it.  well i guess so."
+[1;31m   [0m                                                                         
 
 [1m██████████████████▀[0m      [1;33m▄▄▄▌▄▄▄████▀▀▐█████[0;1;33;43m▀[0m  [1;33;40m▄▄▄░[0m     [1;37;40m▀▀█████████████████████[0m
 [1;37;40m██████████████████   [0;1;33;40m███████▌▐██████[0;1;33;43m▓[0m [1;33;40m▐████[0;1;33;43m▓[0;33m█  [0;1;33m▀▀▓████▄    [0;1;37m████████████████████[0m
@@ -51,7 +51,5 @@ eerie-kun     [1;5mDONE ON 100% MONOCHROME SCREEN BY A GENUINE ANSI LEGEND[0m 
                  [31m▄[0;1;31;41m▀▀▌▀[0;1;31;40m██[0;1;31;41m▌[0;31m█ ▀▀▀▀▀▀[0;1;31;41m▀▀▀[0;31m██▌  ░  ▀[0;1;31;41m▀[0;1;31;40m████[0;1;31;41m▀▌[0;31m█[0;1;31;41m░[0;31m▀[0;1;31m███[0;1;31;41m▓[0;1;31;40m███[0;1;31;41m▌[0;31m█   [0;1;31m█[0;1;31;41m▓▀[0m [31m▀▀█[0;1;31;41m▌▀[0;31m█▌[0m
 [1;37mfire[0m               [31m▀▀▀▀▀▀▀▀▀▀[0m                [31m▐[0;1;31m█[0;1;31;41m▀░[0;31m▀▀▀▀▀▀▀▀█[0;1;31;41m░▀▀▀▓█[0;1;31;40m██▄██[0;1;31;41m▀[0;31m█[0m
 [1;37mproductions[0m                                  [31m▀▀[0m               [31m▀▀▀▀[0;1;31m███[0;1;31;41m▌[0;31m▌ [0;1;31m33[0m
-[1;37mnineteen ninety six[0m                                              [1;31m▐██[0;1;31;41m▓▌[0m
-"if you give us the fuel, guess you''re the fool .."              [31m▀▀[0;1;31;41m▀░[0;31m█[0m
-
-[1;30mand there goes another 100% original ansi by the guy you''d like dead ..  eerie![0m'
+[1;37m                   [0m                                              [1;31m▐██[0;1;31;41m▓▌[0m
+                                                                 [31m▀▀[0;1;31;41m▀░[0;31m█[0m'

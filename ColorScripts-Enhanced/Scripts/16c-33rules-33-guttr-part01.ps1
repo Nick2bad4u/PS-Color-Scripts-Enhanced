@@ -5,7 +5,7 @@
 # Source SHA-256: 1c77b367d4d68d5533c02acfcad0f9fdf831ecc5ef306864ddd62aab54cd445a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-GUTTR.ANS by Legion 07/98 (#4) (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Gutter E-mag
 # SAUCE Author: Legion 07/98 (#4)
 # SAUCE Group: Eerie
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-[1;31mhey!  that''s björk!  [0;31m(hah, made you look.)[0m
+[1;31m                     [0;31m                     [0m
 
-[34mdon''t ask me how i suddenly learned to draw decent hair--i have no clue myself.[0m
+[34m                                                                               [0m
 
 [36m▄███▀▀[0m        [34m░  ░    ░[0m            [34m░  ░[0m     [34m░   ▀[0;1;34;44m▓▒░[0;34m▄ ▀[0;1;34;44m▒[0m  [34m▀[0;1;34;44m░[0m    [34m▀▓[0m     [36m▀██████▄[0m
 [36m███[0m       [34m░  ▒ ░▐▒ ░ ▒[0m     [34m░[0m     [34m▄▒  ▒[0m     [34m▒▓ ░▌ █[0;1;34;44m▒[0;34m▄▀▓  [0;1;34;44m░[0m   [34m▓[0m     [34m░[0m     [36m███████[0m

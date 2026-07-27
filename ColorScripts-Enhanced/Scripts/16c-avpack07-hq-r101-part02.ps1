@@ -5,7 +5,7 @@
 # Source SHA-256: f376e7653163ba5f320e1788f0d3c3d01bfc741fea569fbeaa7662347066bb0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HQ-R101.ANS by Harlequin (Apocalyptic Visions); released in avpack07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: RooM 101
 # SAUCE Author: Harlequin
 # SAUCE Group: Apocalyptic Visions
@@ -39,9 +39,9 @@ Write-Host '
                   [35m▀▀▄▄▄▄[0;31m▀▀▀▀█████▌[0;35m▐██▓▓▓▓▓▓▓▓▓▓▓▌[0;31m▐██▀▀▀[0;35m▄▄▄▄▀▀[0m      [30msome black[0m
                  [31m       [0;35m▀▀▀▀▄▄▄▄▄▄▄▄▄▄▀▀▀▀▀▀▀▀▀▄▄▄▄▄▀▀▀  [0m          [30mon black   [0m
                                     [35m  ▀▀▀▀▀▀▀▀▀   [0m                 [30mansi in your[0m
-                                                                   [30mpics, it [0m
-                                                                   [30mmakes them   [0m
-                                                                   [30mmuch more[0m
+                                                                   [30m         [0m
+                                                                   [30m             [0m
+                                                                   [30m         [0m
           [1;30m [0m [1;30;41m░[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;1;30;41m█[0;30minteresting[0m
          [1;30m [0m  [1;30;41m░[0m [1;30m█▓▒░[0;31m███[0;37m [0;1;30m▄[0;1;30;41m▒░ [0;31m▄[0;37m [0;1;30m░▒▒▒░[0m [31m▄▄▄▄[0;37m [0;1;30m░▒▒▒▒▒▒▒░[0m [31m▄██[0;37m [0;31m▄██▄ ▄██[0;37m [0;1;30m░▒▓█[0m [1;30;41m▓[0m
         [1;30m [0m   [1;30;41m▒[0m [1;30m▓▒░[0;31m▐███[0;37m [0;1;30m▀▀[0;1;30;41m▓▒░[0;31m█[0;37m [0;1;30m░░░▄[0;1;30;41m▓▒[0;31m▀▀[0;1;30;41m░[0;31m█▄[0;1;30m░░░░░░░░░[0m [1;30;41m░[0;31m█[0;37m [0;1;30;41m░[0;31m█ █ [0;37m [0;1;30;41m░[0;31m█[0;37m [0;1;30m░▒▓█[0m [1;30;41m▓[0m
@@ -52,10 +52,9 @@ Write-Host '
 
 
 
-  [1m┌[0m───[1mR[0mu[1;30mnning a nifty cracked-not-registered-PCBoard setup[0m [1;30munder Win 3[0m.[1m1[0m───[1m┐[0m
-[1;30m  [0m|     [1mS[0mu[1;30mpporting all major art/ansi/demo packs, two hamsters and[0m a[1mn[0m      │
-  :    [1mA[0ml[1;30mternate personality, with megs and megs of goodies from acro[0ms[1ms[0m    |
-  .        [1mT[0mh[1;30me globe. FTS Distro sitë. Force Distro sitë (big deal[0m)[1m.[0m       :
-      [1;30m               [0;1;37mPrë[0mist[1;30ms of Power World Head-[0mpla[1mcë![0m                    ·
-  ·   [1;30m              [0;1;37mS[0mi[1;30mngle 28.8k node +.61.(0)8.294.27[0m7[1m4[0m                   .[0m
-'
+  [1m┌[0m───[1m [0m [1;30m                                                  [0m [1;30m           [0m [1m [0m───[1m┐[0m
+[1;30m  [0m      [1m [0m [1;30m                                                        [0m  [1m [0m      │
+       [1m [0m [1;30m                                                            [0m [1m [0m     
+           [1m [0m [1;30m                                                     [0m [1m [0m        
+      [1;30m               [0;1;37m   [0m   [1;30m                      [0m   [1m   [0m                     
+  ·   [1;30m              [0;1;37mS[0mi[1;30mngle 28.8k node +.61.(0)8.294.27[0m7[1m4[0m                   .[0m'

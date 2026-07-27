@@ -5,7 +5,7 @@
 # Source SHA-256: d765c64a0acb5002882ef5fe8176fee381f5349bbabe8aec016d171228d049fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EP-FD3.ANS by Epitaph (Fire); released in fire0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Flying Donuts
 # SAUCE Author: Epitaph
 # SAUCE Group: Fire
@@ -29,7 +29,7 @@ Write-Host '
 [1;37;40m [0;1;37;47m ▐[0m            [1;30;47m█▄   ░▐ [0;1;37;47m▀▀    ░▒[0;1;37;40m▀[0m         [1;37;47m [0;1;30;47m░▒▓█▌[0;1;37;47m░░▒[0m    ▀[47m [0;1;47m░▒▓[0m▀    [1;30m▀[0;1;30;47m▒  [0;1;37;47m▀       [0m
 ▐[1;30;47m░[0;1;37;47m▐[0;1;37;40m▄[0m             ▀    ▀                       ▀
 ▀[1;30;47m▒░ [0;1;37;47m▀▀ ░▒▓▓▓▒░          [0;1;30;47m▄▀▀[0m▄
-   ▀                    [47m    [0;40m▌[0m         [1;30;40m(font illiterate: The Flying Donuts)[0m
+   ▀                    [47m    [0;40m▌[0m         [1;30;40m                                    [0m
                        █[47m    [0;40m█▌[0m
 [1;30;40m▒▒▒▒▒▒▒▒▒▒▄[0m          ▄[47m        [0;40m▄[0m
 [1;30;40m░░▒▒░   ░▒░░[0m       [1;37;40m▄[0;1;37;47m▄▀▀▀▀▀▀▀▀▀▀▄[0;1;37;40m▄[0m      [33m░ [0;1;30m░░ ░    ░░░ ░░▒▒▓▓██[0;1;30;47m████████[0;1;30;40m▀▄██▓▓▒▒░░[0m
@@ -50,8 +50,8 @@ Write-Host '
                        [31m▓▓▓ ▓▒░[0m
                        [31m▒▓▒▒▒▓▒[0m
                        [31m░▒▒ ▒▒░[0m
-[33m| [0;35mT[0;33mhe [0;35mF[0;33mlying [0;35mD[0;33monuts | 4 [0;31m░░ ░▒░[0;33m04 578.0878 | S:[0;35mD[0;33monut [0;35mH[0;33mole | Co:[0;35mK[0;33mtulu | [0;35mF[0;33mire [0;35mWHQ [0;33m|[0m
-[1;30mDis ansi by Epitaph    [0;31m░░ ░░[0;1;31;41m░[0;31m░[0;33m| [0;35mA[0;33mrt | a[0;35mR[0;33mt | ar[0;35mT [0;33m|[0m
+[33m  [0;35m [0;33m   [0;35m [0;33m      [0;35m [0;33m          [0;31m░░ ░▒░[0;33m                [0;35m [0;33m     [0;35m [0;33m         [0;35m [0;33m       [0;35m [0;33m    [0;35m    [0;33m [0m
+[1;30m                       [0;31m░░ ░░[0;1;31;41m░[0;31m░[0;33m  [0;35m [0;33m      [0;35m [0;33m      [0;35m  [0;33m [0m
                        [31m░  ░ ░░[0m
                          [31m░ ░░░[0m
                          [31m░   ░[0m

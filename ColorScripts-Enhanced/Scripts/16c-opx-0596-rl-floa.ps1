@@ -5,7 +5,7 @@
 # Source SHA-256: 5cd791307e6425cb20ba6accea1a2c5b36d5e45871eb8feae2746a88ddc59e23
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL!-FLOA.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Float
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -29,5 +29,4 @@ Write-Host '
        [33m▀▀█▄▄[0;37m [0;32m▀▀▄[0;37m [0;33m██ [0;34m█[0;1;34m█[0;34m█▄[0;33m  ▀▀█▄▄▄█ [0;1;34;44m▓[0;1;34;40m███[0;1;34;44m▄[0;34m▄[0;33m ▀▀▓▄▄▄▄▄▄▄▄██▄▄▄▓▀ [0;34m▄█[0;1;34;44m▄▄▄▄[0;1;34;40m████[0;1;34;44m [0m
        [34m█[0;1;34m▄[0;34m▄[0;33m ▀▀█▄▄▄▓ [0;34m▄█[0;1;34;44m▓[0;1;34;40m██[0;1;34;44m▄▄[0;34m▄▄▄▄▄[0;1;34m▄[0;34m▄[0;1;34m▄███[0;1;34;44m▓[0;1;34;40m██[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;34m█[0;1;34;44m▓[0;1;34;40m███[0;1;34;44m▀[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m█ [0m
       [34m▀[0;1;34m▀▀▀[0m        [1;34m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀ [0m
-[32m   [0m          [32m  ░▀[0;37m [0;36m F l o a t [0;37m░░[0;36m M o d d i n g [0;37m░▒[0;36m C r e w[0;32m ▀░[0m
-                               [37m   [0m'
+[32m   [0m          [32m  ░▀[0;37m [0;36m F l o a t [0;37m░░[0;36m M o d d i n g [0;37m░▒[0;36m C r e w[0;32m ▀░[0m'

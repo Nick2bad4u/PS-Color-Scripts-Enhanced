@@ -5,7 +5,7 @@
 # Source SHA-256: b39ae14f993afb2c7ed7048db344324761b67e73b415571fdd26efa969f58422
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: goo-oscillation.ans by mypalGOO (blocktronics); released in blocktronics_block_to_the_future and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: do you feel the vibe ?
 # SAUCE Author: mypalGOO
 # SAUCE Group: blocktronics
@@ -57,12 +57,4 @@ Write-Host '
                                                                             [1;36m▄[0;36m▀[0m
 
 
-                         [1;35mE V E R Y T H i N G  [0m [1;35mS W I N G S[0m
-
-
-
-
-
-
-
-                                                          ANSi[1;30m.[0mmypalGOO^67[1;30m.[0mMMXV[0m'
+                         [1;35mE V E R Y T H i N G  [0m [1;35mS W I N G S[0m'

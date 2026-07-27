@@ -5,7 +5,7 @@
 # Source SHA-256: a0a0897c943aeb0593e3215c9c4f422a719a5857793198dcfdeb639e95034442
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ODB-MTX.ANS by Ol' Dirty Bastard (Shaolin's Finest); released in shao0798 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digital Utopis Matrix
 # SAUCE Author: Ol' Dirty Bastard
 # SAUCE Group: Shaolin's Finest
@@ -37,9 +37,7 @@ Write-Host '
 [34m [0;37m [0;34m   [0;32m▀▀▀[0;34m [0;32m▄[0;1;32;42m ▀▀░[0;34m [0m        [30;43m░[0;1;30;40m▄▄[0;33m▀▀██[0;1;30;43m░[0;33m▄[0;1;30;43m▀[0;33m███[0;1;31;43m░░▓████▒▒▓[0;1;31;40m█████[0;1;31;47m█[0;1;31;40m████████████████████████████[0m
 [1;32;40m  [0m                    [33m▐███[0;1;30;43m▀▀[0;33m▄█████[0;1;31;43m░░▓████[0;1;31;40m██[0;1;31;43m█▒▓[0;1;31;40m██████████████████████████████████[0m
   [1;32mD[0;32migital [0;1;32mU[0;32mtopia [0m     [33m█████████[0;1;31;43m░░░▒▓█[0;1;31;40m███████████[0;1;31;47m██[0;1;31;40m██████████████████████████████[0m
-[1;36;40m  [0;1;30;40mW[0;1;37;40mW[0;1;30;40mWE[0;1;37;40mE[0;1;30;40mEL[0;1;37;40mL[0;1;30;40mLC[0;1;37;40mC[0;1;30;40mCO[0;1;37;40mO[0;1;30;40mOM[0;1;37;40mM[0;1;30;40mME[0;1;37;40mE[0;1;30;40mE   T[0;1;37;40mT[0;1;30;40mTO[0;1;37;40mO[0;1;30;40mO   D[0;1;37;40mD[0;1;30;40mDI[0;1;37;40mI[0;1;30;40mIG[0;1;37;40mG[0;1;30;40mGI[0;1;37;40mI[0;1;30;40mIT[0;1;37;40mT[0;1;30;40mTA[0;1;37;40mA[0;1;30;40mAL[0;1;37;40mL[0;1;30;40mL   U[0;1;37;40mU[0;1;30;40mUT[0;1;37;40mT[0;1;30;40mTO[0;1;37;40mO[0;1;30;40mOP[0;1;37;40mP[0;1;30;40mPI[0;1;37;40mI[0;1;30;40mIA[0;1;37;40mA[0;1;30;40mA[0m
+[1;36;40m  [0;1;30;40m [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m     [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m     [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m     [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m  [0;1;37;40m [0;1;30;40m [0m
 [32m  [0;37m                   [0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mA small pic for Isotone. Hope you can use it.[0m
-[1;30m>> Ol''DirtyBastard[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

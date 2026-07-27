@@ -5,7 +5,7 @@
 # Source SHA-256: 9f41af292d25e184534111a2ab61a1f8d4ed42a47d78f49dbd954c8ed13d83fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MS-COLOR.ANS by emmm esss! (blurrrrrrrrrrrr); released in blur9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: A color shock shocker!
 # SAUCE Author: emmm esss!
 # SAUCE Group: blurrrrrrrrrrrr
@@ -32,13 +32,7 @@ Write-Host '
    [35m|[0m       [35m:[0;37m  [0;35m┌┴──[0;1;34;44m▒▒[0;35m─[0;34m▀▀▀▀▀▀▀[0;1;34;44m▓[0;35m·[0;37m [0;35m∙┘[0;37m  [0;35m│[0;37m  [0;34m▀▀[0;1;34;44m▀▀▀[0;1;34;40m█[0;1;34;44m▒▒▄[0;34m▄[0;1;34m [0;35m┌┘[0;34m▄▄▄[0;1;34;44m▄[0;1;34;40m██████[0;1;34;44m▀▀▒[0;34m▀▀[0;1;34m▒▒[0m [35m┌── ─ [0;37m [0;35m∙[0;37m [0;35m·[0m
    [35m:[0m       [35m|[0;37m  [0;35m [0m           [35m│[0m        [35m  [0;37m  [0;1;34m  ▒ [0;34m▀▀▀▀[0;1;34;44m▀ ░░▀▀▀▀▓▓[0;34m▀▀▀▀[0;1;34;44m▒[0;1;34;40m [0m      [35m|[0;37m [0;35m  [0;37m [0;35m│[0m
    [35m∙[0m       [35m└──┘[0m           [35m└── ─┬───┘[0m             [35m└─ [0;1;34;44m▒[0;35m─┐[0;37m [0;1;35mCol[0;1;35;45mo[0;1;35;40mr Shock [0m [35m└────[0;1;35;45m┘[0m
-   [35m·[0m                           [35m└─┐[0m                    [35m|[0;37m [0;1;35mOps: Exulte[0;30;45md[0m
-                                 [1;35;45m└[0;35m─[0;37m [0;35m─[0;37m [0;35m∙[0;37m  [0;35m·[0m            [35m:[0;37m [0;30;45mB[0;1;35;40mlur M[0;1;35;45me[0;1;35;40mmber Boar[0;1;35;45md[0m
+   [35m [0m                           [35m└─┐[0m                    [35m [0;37m [0;1;35m           [0;30;45m [0m
+                                 [1;35;45m└[0;35m─[0;37m [0;35m─[0;37m [0;35m [0;37m  [0;35m [0m            [35m [0;37m [0;30;45m [0;1;35;40m     [0;1;35;45m [0;1;35;40m         [0;1;35;45m [0m
                                                       [35m∙[0m
-                                                      [35m·[0m
-[37m----------[Tear this shit out unless you want a phunky looking ansi!]-----------[0m
-[37mThis is for Color Shock man.  Exulted, just add whatever else you want.  BTW,[0m
-[37mthis may look like prestige''s logo, but I didn''t even see his when I started [0m
-[37mthis, honest.  Well, you know what to do.  [Apply for BLUR][0m
-
-[37m-mr.sandman[blur^odium][0m'
+                                                      [35m·[0m'

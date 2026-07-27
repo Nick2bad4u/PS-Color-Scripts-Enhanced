@@ -5,7 +5,7 @@
 # Source SHA-256: 0f4851387811f4cbe87964db0e62b4078fa1800a97c59e4fcac909fdca970e2e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HRV_Jack_Grin.ans by harvest (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jack Grin
 # SAUCE Author: harvest
 # SAUCE Group: Lazarus
@@ -32,10 +32,10 @@ Write-Host '
 [34;40m░[0;37;40m [0;34;40m░░  ░[0;37;40m   [0;34;40m░▓▓[0;37;40m    [0;34;40m▒██[0;37;40m  [0;34;40m░   ▒█  ▒[0;37;40m [0;34;40m░░▒▓▒░   ░▓░  ▒▓██░░[0;37;40m  [0;34;40m▒▒░[0;37;40m  [0;34;40m▒▒░░  ░[0;37;40m [0;34;40m░▒[0;37;40m     [0;34;40m▒▓░[0;37;40m  [0;34;40m▒[0m
 [34;40m░░[0;37;40m [0;34;40m▒░[0;37;40m [0;34;40m░░[0;37;40m   [0;34;40m▓░[0;37;40m   [0;34;40m░▒[0;37;40m   [0;34;40m▒▒  ▒▓▒[0;37;40m  [0;34;40m▒   ▓█▓░░   ░▒  ░▒[0;37;40m   [0;34;40m░▓█▓   ▒[0;37;40m    [0;34;40m░[0;1;34;40m    [0;34m▒▓▒▒[0;37m   [0;34m░▓░[0;37m [0;34m▒[0m
 [37m [0;34m░░░▒▒[0;37m      [0;34m▓[0;37m       [0;34m░░    ░░     ░▒ ░       ▒▓[0;37m    [0;34m▒░░[0;37m                 [0;34m▓░░░░[0;37m [0;34m█░[0m
-[37m  [0;34m░  ░█░  [0;1;34mVery tricky to make this treat.. something that started in the[0m    [34m░▓░[0m
-[37m [0;34m░░    ▓ ░[0;1;34mHalloween season slowly made it''s way to Xmas and poped-up in[0m  [34m░░▓▒▒[0m
-[34m▒[0;37m [0;34m░░  ░▓[0;37m  [0;1;34mthe New Year of 2023. Another tribute to the ongoing ANSI[0;34m░░[0;37m     [0;34m░▓░░[0;37m [0;34m░[0m
-[34m░▓[0;37m   [0;34m░░▒[0;37m  [0;1;34mCommunity hanging around the #16c Discord server. •••[0;34m ░░      ░▓▒[0;37m   [0;34m▒▒[0m
+[37m  [0;34m░  ░█░  [0;1;34m                                                              [0m    [34m░▓░[0m
+[37m [0;34m░░    ▓ ░[0;1;34m                                                             [0m  [34m░░▓▒▒[0m
+[34m▒[0;37m [0;34m░░  ░▓[0;37m  [0;1;34m                                                         [0;34m░░[0;37m     [0;34m░▓░░[0;37m [0;34m░[0m
+[34m░▓[0;37m   [0;34m░░▒[0;37m  [0;1;34m                                                     [0;34m ░░      ░▓▒[0;37m   [0;34m▒▒[0m
 [37m [0;34m░▒░▒▒░[0;37m   [0;34m░ ░ ░ ░    ░[0;37m         [0;34m░     ░ ░      ░     ░   ░[0;37m  [0;34m░   ░     ░▒▒░   ░▓▒░[0m
 [37m    [0;34m░[0;37m        [0;34m░▒▓░░[0;37m   [0;34m▒▒[0;37m   [0;34m░░[0;37m [0;34m▒ ░▒[0;37m [0;34m▒▒▒░▒▒[0;37m  [0;34m░[0;37m [0;34m░▒░░[0;37m   [0;34m░░░  ░▒▓▒░░░▒░▒░▒░      ░▒░[0m
 [37m    [0;34m░[0;37m  [0;34m░[0;37m       [0;34m░▓▒░[0;37m  [0;34m░▓▒▒[0;37m   [0;34m░░ ▒▒[0;37m   [0;34m▒▓▒[0;37m  [0;34m░[0;37m  [0;34m░░░[0;37m   [0;34m░    ▒▒[0;37m [0;34m▒░░▒[0;37m            [0;34m░░▒[0m

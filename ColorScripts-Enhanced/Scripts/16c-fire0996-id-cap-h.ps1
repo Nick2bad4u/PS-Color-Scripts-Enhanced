@@ -5,7 +5,7 @@
 # Source SHA-256: f937571b86c06b37605f3b31b7005eb7ac4678cd2ac314221305f17dc5c90df6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ID-CAP_H.ANS by iodine (fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Captain Harlock
 # SAUCE Author: iodine
 # SAUCE Group: fire
@@ -55,5 +55,5 @@ Write-Host '
                                  [1;30;40m▀▀▄▀▀▀▀▀▀▀▀▓▓[0;1;30;47m█[0;1;30;40m████[0;1;30;47m███▓█▓[0m▒[1;30;47m▓█[0m▒▒[1;30;47m▓▄▄▄▄██▄▄▄▄▄▄▓[0m▒░[1;30;47m██[0m
                                     [1;30;40m■[0m       [1;30;40m░░[0m      [1;30;40m▀▀▀▀▀▀▀▀▀▀░░▓▓[0;1;30;47m█[0;1;30;40m██[0;1;30;47m████[0;1;30;40m▓▓▌▀▀▀▀[0m
 [1;34;40m───────────────────────────────────────────────────────────────────────  [0;1;30;40m░░  [0;1;34;40m───[0m
-[1;34;40m [0;1;33;40miodine [0;1;31;40mv.  [0;1;32;40m:  [0;1;36;40mCaptain Harlock by the legendary [0;1;33;40mAkira "Leiji" Matsumoto.[0m
+[1;34;40m [0;1;33;40m       [0;1;31;40m    [0;1;32;40m   [0;1;36;40m                                 [0;1;33;40m                        [0m
 [34m────────────────────────────────────────────────────────────────────────────────[0m'

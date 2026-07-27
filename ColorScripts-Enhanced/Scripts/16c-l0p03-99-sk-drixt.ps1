@@ -5,7 +5,7 @@
 # Source SHA-256: 0bbae79b4ddac1e64b2d73f4a494b59c2b06a5d65623c3a1dfcceadc1486a7bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!DRIXT.ANS by sIMONkING (tHElo0p); released in l0p03_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: drIXTERluDZIK =)
 # SAUCE Author: sIMONkING
 # SAUCE Group: tHElo0p
@@ -38,13 +38,4 @@ Write-Host '
    [32;40m▐[0;37;42m▒▒░░[0;32;40m  [0;37;42m░░░ [0;32;40m [0;37;42m▒▒░░[0m    [37;40m [0;37;42m▒▒▓▓[0;32;40m █[0;37;42m▒▒[0;32;40m▌[0m   [32;40m ▐[0;37;42m▒▒[0;32;40m█  █[0;37;42m▒▒[0;32;40m▌[0m   [1;30;40m▀▀[0;32m █[0;37;42m▓▓ [0;32;40m [0;1;30;40m▄▄▀[0;32m █[0;37;42m▓▓[0;32;40m█ [0;37;42m▒▒░░[0m
    [32;40m▐[0;37;42m░░  [0;32;40m [0;37;42m    [0;32;40m  ▐[0;37;42m░[0;32;40m██▌[0m    [37;42m░░▒▒[0;32;40m▐[0;37;42m░░[0;32;40m█[0m    [32;40m  █[0;37;42m░░[0;32;40m▌  █[0;37;42m░░[0;32;40m▄▄  [0;1;30;40m▀[0;32m ▐[0;37;42m▒▒▒[0;32;40m [0;1;30;42m▓▓[0;1;30;40m▄[0;32m ▐[0;37;42m▒▒[0;32;40m█▌▐[0;37;42m░[0;32;40m██▌[0m
    [32;40m▐[0;37;42m      [0;32;40m▀▀[0m   [32;40m▐███▌[0m    [32;40m██[0;37;42m░░[0;32;40m▐███[0m      [32;40m███▌[0m   [32;40m▀▀██████ █[0;37;42m░░░[0;32;40m▄▄ ▄[0;37;42m░░░[0;32;40m█ ▐███▌[0m
-                  [37;40m   [0m                                  [32;40m▀▀▀█████▀▀[0m
-
-[32;40m  [0;1;30;40mo ile dobrze kojarze to prosiles o kolorki w stylu logoska ''utopia''.[0m
-[1;30m  coz, postanowilem zrobic to w taki sposob, jak masz powyzej. i co ty na to?![0m
-[1;30m  ansi nazwalem ''drIXTERluDZIK'', bo tak jakos mi sie to kojarzy.[0m
-[1;30m  jezeli starczy mi czasu, to zrobie ci jeszcze logosy do bbs''a, bo to co[0m
-[1;30m  mi podeslales jest beznadziejne. pozdrawiam...[0m
-
-[1;30m  simonking/thelo0p[0m
-  [1;30msimon_k@friko.onet.pl[0m'
+                  [37;40m   [0m                                  [32;40m▀▀▀█████▀▀[0m'

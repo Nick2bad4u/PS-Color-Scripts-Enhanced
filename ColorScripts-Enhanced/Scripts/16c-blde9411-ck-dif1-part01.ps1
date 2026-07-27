@@ -5,7 +5,7 @@
 # Source SHA-256: a9612d64b790e17259de812b62d112161c03805c473f8f433b096f20ee602c41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-DIF1.ANS by Chromatik (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Digital Fluid
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -52,6 +52,4 @@ Write-Host '
 
 
 
-[1;32m  h  [0;32mi  [0;1;30ms  ·  v  e  r  y  ·  f  i  r  s  t  ·  b  l  a  d  e  ·  a  n  [0;32ms  [0;1;32mi[0m
-
-'
+[1;32m  h  [0;32mi  [0;1;30ms  ·  v  e  r  y  ·  f  i  r  s  t  ·  b  l  a  d  e  ·  a  n  [0;32ms  [0;1;32mi[0m'

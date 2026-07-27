@@ -5,7 +5,7 @@
 # Source SHA-256: e870f131b4b7e651f439aab65f3ea076a1a52680c70032a78e16b4b1654929e4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ll-darlaakacrystal.ans by lucaslink (lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: darla aka crystal
 # SAUCE Author: lucaslink
 # SAUCE Group: lazarus
@@ -45,9 +45,9 @@ Write-Host '
 [35m▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌[0m
 [35m▌▌▌▌▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀[0;37m [0;35m▀ ▀ ▀ ▀ ▀ ▀ ▀ ▐▐▐▐[0m
 [35m▐▐▐▌[0;37m                                                                        [0;35m▐▌▌▌[0m
-[35m▌▌▌▌  we need to talk about our roomate darla. she gave herself e-coli from ▐▐▐▐[0m
-[35m▐▐▐▌  licking her own butt. now she''s eating my all my DIGESTIVE COOKIES!   ▐▌▌▌[0m
-[35m▌▌▌▌  HOW AM I SUPPOSED TO POOP WITHOUT MY COOKIES?!@                       ▐▐▐▐[0m
+[35m▌▌▌▌                                                                        ▐▐▐▐[0m
+[35m▐▐▐▌                                                                        ▐▌▌▌[0m
+[35m▌▌▌▌                                                                        ▐▐▐▐[0m
 [35m▐▐▐▌[0;37m                                                                        [0;35m▐▌▌▌[0m
 [35m▌▌▌▌▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▐▐▐▐[0m
 [35m▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌[0m

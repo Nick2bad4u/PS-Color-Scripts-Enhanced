@@ -5,7 +5,7 @@
 # Source SHA-256: 6e45a26f149f3587d21f49be8fc2d005d52843be00935870f5483cacf41464ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JDA^ASCI.ANS by Joda (DEranged); released in drg0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ascii colly.
 # SAUCE Author: Joda
 # SAUCE Group: DEranged
@@ -15,15 +15,15 @@
 # Columns: 1-80
 
 Write-Host '
- beware. my ascii colly down there. whee..
- only greets to ascii dudes this time: vermin, darklord, msd, xpozed...
+                                          
+                                                                       
 
 =====[ ▼ ]=====================================================================
 
     [1;30m [0;31m,%S$$$S%, ,%S$$$$$$~$$$$$$S%,[0m
 [31m░░[0;37m [0;31m░[0;1;30m [0;31m$$$$$[0;1;31;41m$[0;31m$$$ $$     $$ $$[0m     [31m$$[0;37m [0;31m░░░░[0;37m [0;31m░░░░░░[0;37m [0;31m░[0;37m [0;31m░[0m
     [1;30m [0;31m$$$$$$$$$ $$[0m     [31m$$ $$[0m     [31m$$[0m
-    [1;30m [0;31m`^²½½½²^'' $$[0m     [31m$$ $$[0m     [31m$$[0m        [1;30minevitable existance[0m
+    [1;30m [0;31m            [0m     [31m     [0m     [31m  [0m        [1;30m                    [0m
 ░S$$[1;30m [0;31m$S%sss%S$ $$[0m     [31m$$ $$[0;1;31m.[0m    [31m$$[0;37m $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$░[0m
 [37m$$$$[0;1;30m [0;31m$$[0m     [31m$$ $$[0m     [31m$$ $$[0;1;31m:..[0m  [31m$$[0;37m $$$$$S$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;30;47m$$[0m$$$$$S$$
 $[1;30;47m$[0m$$ [31m$$[0m    [1;31m.[0;31m$$ $$[0m    [1;31m.[0;31m$$ $$[0;1;31m$::..[0;31m$$[0;37m $$$$$$$$$$$$$$$$[0;1;30;47m$$[0m$$$$$$S▓$$$$$$$$$$$$$$$$$$
@@ -35,7 +35,7 @@ $$$$ [31m$$[0;37m  [0;1;31m..:[0;31m$$ $$[0;37m  [0;1;31m..:[0;31m$$ $$$
      [31m½²^~~~^²½ ½²^~~~^²½s½²^~~~^²½[0m
        [31m    [0m             [31m~[0m
 [37m=====[ ▲ ]=====================================================================[0m
-[37mtook me ten minutes... actually i''m quite satisfied. :)[0m
+[37m                                                       [0m
 [37m=====[ ▼ ]=====================================================================[0m
 
               [1;37m.s[0;1;33m.[0m
@@ -58,5 +58,5 @@ $$$$ [31m$$[0;37m  [0;1;31m..:[0;31m$$ $$[0;37m  [0;1;31m..:[0;31m$$ $$$
      [1;33m░[0m  [1;33m"[0m  [1;33m░░░[0m    [1;33m░░[0m  [1;33m"[0m  [1;33m░░░░░░[0m                     [31m [0m
 
 [37m=====[ ▲ ]===================================================░=================[0m
-[37mi drew this ascii at vermins place..  ok, just the sun. it sure looks corky.[0m
+[37m                                                                            [0m
 [37m=============================================================================== [0m'

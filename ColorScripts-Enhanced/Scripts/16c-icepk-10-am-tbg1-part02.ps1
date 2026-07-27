@@ -5,7 +5,7 @@
 # Source SHA-256: c231f30970fcd20985d2cf837216b2b5eaa6b0e0085b1611844345f6e88e5538
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AM-TBG1.ICE by Amroth (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -53,10 +53,9 @@ Write-Host '
 [34m    ███▓▓▓▒▒▒▒░░░░░▒[0m      [34m░█▓▓▓▓▒▒▒▌▀█▓▓▓░▌██▓▓▓▒▒▒░░░▒▌    ░▓██▓▓▒▌▀▀█▓▓▌[0m
 
 
-                [1;34mSysop: The Gatekeeper / 700 Megs Online[0m
-         [1;34mINC Member Board / INC Dist. Site / 14.4 Dual / No Ratios[0m
-             [1;34mTRWS Member Board / TRWS Dist. Site / iCE Eastern HQ[0m
-                    [1;34mFellony Net / CCi / UPS Dist. Site[0m
-                       [1;34mTCS / Skate Net / Preg Net[0m
-                            [1;34m[212] 796-9628[0m
-                             [1;36mAmroth [0;1;34m[[0;36miCE[0;1;34m][0m'
+                [1;34m                                       [0m
+         [1;34m                                                         [0m
+             [1;34m                                                    [0m
+                    [1;34m                                  [0m
+                       [1;34m                          [0m
+                            [1;34m[212] 796-9628[0m'

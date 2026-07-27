@@ -5,7 +5,7 @@
 # Source SHA-256: 6aa02f1fe6caaafd7e8d33aa46fb0cf56d35940db6ee47b7aa5b81edbb84fd87
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GW-TLP.ICE by GwaH (iCE); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sadness
 # SAUCE Author: GwaH
 # SAUCE Group: iCE
@@ -62,6 +62,5 @@ Write-Host '
  [32m▀░[0m                                            [32m▒[0m                            [32m▒▓▀[0;1;30m [0m
     [32m▀▀▀▄▄▄▄▄▄▄▄▄[0m [32m▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄ ▓▄▄▄▄    ▄▄▄▓▓[0m    [32m▄▄▄▄▄▄▓▄ ▓▀▀[0;1;30m   [0m
                                 [1;30m   [0m [32m▓▀[0m  [32m  [0m    [32m ▀[0m   [32m [0m
-                [32m     [0;37mThe Leech Pitt[0m [32m▒[0m [37mSysBeast :      Dogg[0;32m [0m    [1;30m            [0m
-                     USR 28.8k v.34 [32m░[0m [37mCoMonster: Luke Cage[0m     [1;30m                 [0m
-                     [1;30mThanks to Snaks for the great support[0m'
+                [32m     [0;37m              [0m [32m▒[0m [37m                    [0;32m [0m    [1;30m            [0m
+                                    [32m░[0m [37m                    [0m     [1;30m                 [0m'

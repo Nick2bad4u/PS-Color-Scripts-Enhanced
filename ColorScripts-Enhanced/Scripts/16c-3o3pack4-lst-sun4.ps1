@@ -5,7 +5,7 @@
 # Source SHA-256: fe7016a421ba147e8cdfa665bff08d21d7399442baacad0b1208eea677062457
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LST-SUN4.ANS by soul trader (3o3pack4); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the urban sun part 4 of x
 # SAUCE Author: soul trader
 # SAUCE Group: .
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mnext week:[0m [1;30mhackers?[0m
+[1;30m          [0m [1;30m        [0m
                       ▄▄▄▄▄▄▄▄▄▄▄▄▄     [1;30mwhyyyyyy! for the love of god whyyyyyy[0m
                   ▄[1;47m▄▄▄███████▓░[0m█[1;33;47mlst[0m██▄
                  █[1;47m███████[0;1;40m████[0;1;47m█████▓░[0m███ [1m▄▄▄[0m▄█[1;33;47m   [0m█▄▄▄▄▌          [1;30m\[0m    [1;33m▀[0m

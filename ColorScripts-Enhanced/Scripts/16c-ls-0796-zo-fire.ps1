@@ -5,7 +5,7 @@
 # Source SHA-256: 8a7fd570eff3046c6f0e8c32a2f45339bbe439a5c2d6accddf7f2fe35aedd68d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZO-FIRE.ANS by zardoz (leper society); released in ls-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fire
 # SAUCE Author: zardoz
 # SAUCE Group: leper society
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-freddy the fighting flame!(tm) (fire96 max traven)
+                                                  
                     [36m [0m
             [36m        [0;37m                     [0m
             [1;37m         [0m  [1m  [0m         [31m  [0;1;33;41m░[0;31m▄    [0m
@@ -43,5 +43,4 @@ freddy the fighting flame!(tm) (fire96 max traven)
                   [31m░▀[0;1;32m [0m███[1;32m [0;31m▌[0;37m█[0;1;32m [0;31m▀█░[0;37m ██[0;1;32m [0m███[1;32m [0m███[31m▓█▀[0;1;32m [0;31m▀▓▀▌[0;1;32m [0;31m▓[0;37m ▄[0;1;32m [0;31m▀▌[0;1;32m [0;31m▀[0;1;32m [0m▄ [31m█[0m
                     [37m█▀█▀█[0;31m▀[0;1;30m░[0m█[1;30m░[0m  [31m■[0;37m█▀██▀██▀██[0;31m▒[0;1;32m  [0m█▌[31m▀▓[0;1;32m [0m█[1;32m [0m ██[1;32m  [0m██[1;32m [0m█
                     █▀████▄█ ██ █▀█████▀██ ██▀██▀███ █▀██▀███
-            [1;30m       [0m ████████[1;30m░[0m██[1;30m░[0m██████████[1;30m░[0m█████████[1;30m░[0m████████
-             [1;30m      [0m'
+            [1;30m       [0m ████████[1;30m░[0m██[1;30m░[0m██████████[1;30m░[0m█████████[1;30m░[0m████████[0m'

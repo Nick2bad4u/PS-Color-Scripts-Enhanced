@@ -5,7 +5,7 @@
 # Source SHA-256: a32be257090528cf79e1226cca09cc6adb0db19f4a0ad325b4311b5f1bde4450
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LE-APHIS.ANS by Leonardo (Fire); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Apophis
 # SAUCE Author: Leonardo
 # SAUCE Group: Fire
@@ -40,7 +40,7 @@ Write-Host '
             [1;30m▄▄▄[0m                  [1;30m▀[0m▀▀█▄[1;30m▄[0m   ▄██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▄▄▄▄▄▄▄▄    ▄▀
            [1;30m █▄█[0m                      [1;30m▀[0m▀█▄█▀[1;30m▀[0m                         [1;30m▀[0m▀▀▀▀[1;30m▀[0m
                                        [1;30m▀[0m█[1;30m▀[0m
-  [1mE[0mmbodiment of                         [1;30m▀[0m
+  [1m [0m                                     [1;30m▀[0m
                                            █▀[1m▀▀▀▀▀▀▀█[0m    █▀▀▀▀▀▀▀▀[1;47m▄[0m
   [1md[0missolution,                             █        [1m█[0m    █[1;30m▀[0m       [1;47m█[0m
                                            █[1;30m▀▄[0m [1;30m▄[0m    [1m█[0m    █[1;30m▀[0m       █

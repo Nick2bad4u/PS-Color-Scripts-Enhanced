@@ -5,7 +5,7 @@
 # Source SHA-256: 0dbbad6344082bce07799d7d893e3e5303cc1fb63ecf34d792ba29d2542727b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX-NUMB2.ICE by Apox (iCE Advertisements); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Numb
 # SAUCE Author: Apox
 # SAUCE Group: iCE Advertisements
@@ -36,8 +36,4 @@ Write-Host '
                         [1m [0m           [1;33m░▒▒▒▒▒░[0m
                [1;33m ░[0m       [34m [0m     [1;33m░░[0m     [1;33m░░░░░[0m      [1;33m░░[0m             [1;33m░[0m
                         [1m [0m
-                                     [1;33m░░░░░[0m
-
-
-
-[1;35mthis looks tre trippy in svga[0m'
+                                     [1;33m░░░░░[0m'

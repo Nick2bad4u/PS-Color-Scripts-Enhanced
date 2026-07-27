@@ -5,19 +5,19 @@
 # Source SHA-256: 020be0c432b36e9b4ef4faf435e33a88ff6ba071d27e5456887d039c928a0c08
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: br-alien.ans by Blackrain (silk03); released in silk03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
 Write-Host '
-                    [1m,s%SSSSS%s,.[0m               [1m,s%SSSSS%s,.[0m
+                    [1m            [0m               [1m            [0m
                  [1m,d$Pⁿ°"''`''"°ⁿ4$b,[0m          [1m,d$Pⁿ°"''`''"°ⁿ4$b,[0m
-                [1m,S''  [0;1;32m  ,sas,  [0;1;37m  `Q,[0m        [1m,S''  [0;1;32m  ,sas,  [0;1;37m  `Q,[0m
+                [1m     [0;1;32m         [0;1;37m     [0m        [1m     [0;1;32m         [0;1;37m     [0m
                 [1m$''   [0;1;32m,S$''[0;32m,[0;1;32m`$S,[0;1;37m   `$[0m        [1m$''   [0;1;32m,S$''[0;32m,[0;1;32m`$S,[0;1;37m   `$[0m
                 [1m$,   [0;1;32m$$$,[0;32m`[0;1;32m.$$$[0;1;37m   ,$[0m        [1m$,   [0;1;32m$$$,[0;32m`[0;1;32m.$$$[0;1;37m   ,$[0m
                 [1m`S,  [0;1;32m `ⁿ°"°ⁿ'' [0;1;37m  ,S''[0m        [1m`S,  [0;1;32m `ⁿ°"°ⁿ'' [0;1;37m  ,S''[0m
                  [1m`$S%as,._.,as%S$''[0m          [1m`$S%as,._.,as%S$''[0m
-                  [1m`"°ⁿ4SSSSSPⁿ°"''[0m            [1m`"°ⁿ4SSSSSPⁿ°"''[0m
+                  [1m               [0m            [1m               [0m
                        [1m`$$$''[0m                      [1m`$$$''[0m
                        [35m S[0;1;35m:iS%as,.._[0m        [1;35m_..[0;35m,sa%S;[0;1;35m;S[0m
                     [35m_[0;1;35m.,sY$i::;;;;;i;::;ii;;[0;35m;;;;[0;1;35m$$$$$$Ya,._[0m

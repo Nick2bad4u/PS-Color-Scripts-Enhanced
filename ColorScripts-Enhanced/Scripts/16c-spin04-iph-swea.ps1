@@ -5,7 +5,7 @@
 # Source SHA-256: 6ba4025a7d1d86d40588c43c88a34d376a59134497bb97952eec78eac20374dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IPH-SWEA.ANS by iph (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: iph
 # SAUCE Group: spin
 # SAUCE Date: 19981102
@@ -29,11 +29,7 @@ Write-Host '
 [1;30m  ''[0m4$[1;30m$$┐i_[0m       [1;30m_,d[0m$$$[1;30mP''[0m    [1;30m`'' . .,┌s$[0m$[30;47m$[0;37;40m$[0;1;30;40mg┌,_  , g: |[0m╨[1mⁿ[0m"`[32m┌d$[0;30;42m$$[0;32;40m|i:. [0m     [1;30;40m^"[0mⁿ[1m╨$[0m
 [33m··--[0;1;30m  `~"ⁿ╨ - m#l$$[0m|[1;30m*ⁿ`[0;33m---───·─··─---[0;37m "ⁿ╨ⁿ" [0;33m--··[0;37m   [0;1;37m [0m [1;30m.[0mi[1m$[0;1;30m.[0;33m--──···───[0;37m [0;33m──···[0;1;37m [0;33m-- [0;37mi[0m
 [1;30m [0m               [1;30mi`[0m                                 [1m [0m [1;30m :[0ml[1;30m  [0m                   :
-[34m░░░[0m             [1;30m:[0m    [1m#sweascii - becouse we love it[0m   [1;30m i  [0m               [1m   [0;1;30m .[0m
+[34m░░░[0m             [1;30m [0m    [1m                              [0m   [1;30m    [0m               [1m   [0;1;30m  [0m
                                                        [1;30m:[0m
 _______
-|[1;35m_____[0m|
-|[1;33mascii[0m|
-|[1;35m~~~~~[0m|   [1miph''s hemlagade ascii-på-burk[0m [1m/ minshadesux xsåjagfårvälbä ttramigdär[0m
-|_____|               + att detta var en rip från sweart#11 without permission
-                        ska dom slå mig eller? min blev ju bättre![0m'
+|[1;35m_____[0m|[0m'

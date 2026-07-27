@@ -5,7 +5,7 @@
 # Source SHA-256: f2bba10d7b2334c2327d9335ea3c7570c4f9909fcc7a6c70d3df1a983be9faf5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DP!TATO1.ANS by death parade (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tatoo - allways under pressure!
 # SAUCE Author: death parade
 # SAUCE Date: 19951123
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-          d[1me[0;1;31ma[0;31mt[0;1;30mh parade presents... his first tatoo releas[0;31me[0;1;31m.[0;1;37m.[0m.
+           [1m [0;1;31m [0;31m [0;1;30m                                           [0;31m [0;1;31m [0;1;37m [0m 
 
                                          [31m▄▄[0;1;31m▄▄▄▄  [0;31m▄▄[0;31;41m  [0;1;31;41m▄[0;1;31;40m███████▄[0m
 [1;31m    ▄[0;1;31;41m█[0;1;31;40m██[0;1;31;47m█[0;1;31;40m▄   [0;30;41m▀[0;1;31;41m▄[0;1;31;40m██▄ [0;31m▄[0;1;31;41m▄[0;1;31;40m█▄   [0;31m▄[0;1;31;41m▄▄[0;1;31;40m▄ [0;31m▄[0;1;31m▄█[0;1;31;47m▀[0;1;31;40m███▄▄[0;31m█[0;1;31;41m▒▒▓[0;1;31;40m███▀[0;31m██[0;1;31;41m▓▓[0;1;31;40m████▀▀[0;1;31;41m▀██[0;1;31;40m██▄[0m

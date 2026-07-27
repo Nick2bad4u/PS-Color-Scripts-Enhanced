@@ -5,7 +5,7 @@
 # Source SHA-256: b3681b76699050579b30596ccce971ce78acd85c046910158563f5ccdff831e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aleperez-no_game_over_eng.ans by @AljandroPrez (HPM); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: no game over
 # SAUCE Author: @AljandroPrez
 # SAUCE Group: HPM
@@ -25,10 +25,10 @@ Write-Host '
 [37m████████████████████████████████[0;1;37m█[0m [32m█[0;37m [0;33m█[0;1;33;43m░░░░░▄[0m [1;33;43m▀[0;1;33;40m████████▀[0m [1;35m███████[0;1;35;45m▀▀▀▀▀[0;35m█████████████[0m
 [1;37m────────────────────────────────────────────────────────────────────────────────[0m
 [30m██[0;1;32m╓──────╖[0m [1;32mE1-WINBEE[0m
-[30m██[0;1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32mWELCOME CAPTAIN, WE DON''T HAVE MUCH TIME, WE HAVE TO ELIMINATE THE[0m
-[30m██[0;1;32m≡[0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m≡[0m  [1;32mHUGE CREATURE IN FRONT OF US BEFORE IT REACHES THE BASE... I''M[0m
-[30m██[0;1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║  ALMOST OUT OF AMMO BUT I CAN AMPLIFY ENERGY... IF YOU HAVE THAT TYPE[0m
-[30m██[0;1;32m╚──────╜[0m  [1;32mOF WEAPON... TAKE A POSITION CLOSER TO MY SHIP[0m
+[30m██[0;1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32m                                                                  [0m
+[30m██[0;1;32m [0;1;37m░[0m░[1m░[0m░░[1m░[0;1;32m [0m  [1;32m                                                              [0m
+[30m██[0;1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║                                                                      [0m
+[30m██[0;1;32m╚──────╜[0m  [1;32m                                              [0m
 [32m█████[0;1;37;42m│[0;32m██████████████████[0;1;37;42m▄[0;32m██[0;1;37;42m▄[0;32m██████[0;1;37;42m▄[0;32m███████[0;1;33;42m▄▄[0;32m████████[0;1;36;42m▄[0;32m██[0;1;36;42m▄[0;32m███[0;1;37;42m▀[0;32m████████████████████[0m
 [32m█████[0;1;37;42m│[0;32m████████████████████[0;1;36;42m▄[0;32m████[0;1;37;42m▀[0;32m█[0;1;37;42m▄▄[0;1;36;42m▄▄[0;1;36;40m█[0;1;36;42m▀▀[0;1;33;40m██████[0;1;36;42m▀▀[0;1;36;40m█[0;1;36;42m▄▄[0;1;37;42m▄▄[0;32m█████[0;1;37;42m▄[0;32m█████████████████████[0m
 [32m█████[0;1;37;42m│[0;32m█████▀▀▀▀▀▀▀▀▀▀▀▀▀████[0;1;37;42m▄▄[0;1;37;40m█[0;1;37;42m▀[0;1;36;42m▄[0;1;36;40m█[0;1;36;42m▀▀[0;32m███[0;1;33m███[0;1;37m██[0;1;33m███[0;32m███[0;1;36;42m▀▀[0;1;36;40m█[0;1;36;42m▄[0;1;37;42m▀[0;1;37;40m█[0;1;37;42m▄▄[0;32m██████████████████████[0m
@@ -51,7 +51,7 @@ Write-Host '
 [1;37;40m───────────────────────────────────────┬┬───────────────────────────────────────[0m
 [30m█[0;1;32m╓──────╖[0m [1;32mE1-WINBEE                    [0;1;37m││[0;30m┬[0;1;32m╓──────╖[0m [1;32mCHRONOS[0m
 [30m█[0;1;32m║[0m▓[1m░[0m░[1m░░[0m░[1;32m║[0m   [1;32mCONCENTRATOR ON,           [0;1;37m││[0;30m┬[0;1;32m║[0m [1;36m▀[0;1;33m■■[0;1;36m▀[0m [1;32m║[0m   [1;32mUNDERSTOOD, CONCENTRATING [0;30m┬[0m
-[30m█[0;1;32m≡[0;1;37m░┬░[0m░░[1m░[0;1;32m≡[0m  [1;32mPREPARING THE AMMUNITION    [0;1;37m││[0;30m┬[0;1;32m≡[0m [1;35m■[0;1;33m■■[0;1;35m■[0m [1;32m≡[0m  [1;32mENERGY SHOT AND APPROACHING[0;30m┬[0m
+[30m█[0;1;32m [0;1;37m░┬░[0m░░[1m░[0;1;32m [0m  [1;32m                            [0;1;37m││[0;30m┬[0;1;32m [0m [1;35m■[0;1;33m■■[0;1;35m■[0m [1;32m [0m  [1;32m                           [0;30m┬[0m
 [30m█[0;1;32m║[0m░[1m░[0m░░[1m░[0m▓[1;32m║[0m  [1;32mI HAVE LEFT... ON THE COUNT[0m [1m││[0;30m┬[0;1;32m║[0m [1;36m▄[0;1;33m■■[0;1;36m▄[0m [1;32m║[0m  [1;32mFROM THE RIGHT[0m           [30m┬[0m
 [30m█[0;1;32m╚──────╜[0m  [1;32mOF THREE                    [0;1;37m││[0;30m┬[0;1;32m╚──────╜[0m                           [30m┬┬[0m
 [1;37m█[0m [1;42m══════════════════════[0;32m▀▀[0;37m [0;1;35m▄▄▄[0;35m▄████████[0;37m  [0;1;37;44m░░░[0;1;34;40m██[0;1;37;44m•[0;1;30;40m██████████▀▀[0m ▄▄▄▄████████▄▄▄ [1;30m▀▀██[0m

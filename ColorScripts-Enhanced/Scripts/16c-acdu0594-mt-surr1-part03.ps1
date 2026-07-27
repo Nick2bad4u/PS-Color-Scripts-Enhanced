@@ -5,7 +5,7 @@
 # Source SHA-256: 281b6d2aab3e30ccb25ed1c89278790d7cb31973ea9bc4dbf58e11182307c816
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-SURR1.ANS by Megatron (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Surrealistic Underground
 # SAUCE Author: Megatron
 # SAUCE Group: ACiD Productions
@@ -53,5 +53,4 @@ Write-Host '
                 [34m▀ [0;1m█[0;1;47m▓▓▓▒▒[0m▌[34m▐▌▐[0;1;34;44m░[0;34m█[0;1;34;44m░░░[0;34m█▀▀▀[0m▄███[44m▓▓[0m▄[34m▀▀▀███[0;1;34;44m░░░░[0;34m█▌[0m▐[1;47m▒▒▒▒░░[0m ▀
 [1;30m█▄█▀██▄▀█▀██▄████▄ [0m▀[1;47m▒▒░░░[0m [44m▓[0m▄[34m▀██▀▀[0m▄█[44m▓[0m▀▀ [1;30m▄▄▄ [0m▀▀[44m▓▓[0m▄▄[34m▀  ▀▀▀ [0;1;47m░░░░░[0m▀ [1;30m▄█▀████▀▄ ▄██▀██[0m
 [1;30m [0m▄▄▄▄▄  ▄▄▄▄ ▄▄▄▄▄▄▄▄ ▀▀▀▀▄█[44m▓[0m▄▄[44m▓[0m▀▀ ▄▄ ▄▄ ▄▄▄▄▄ ▀▀[44m▓▓▓▓[0m█▀ ▀▀▀ ▄▄▄▄▄▄▄▄ ▄▄▄▄▄ ▄▄▄
-[1;30m▄▄ ▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄  ▄▄[0m
-'
+[1;30m▄▄ ▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄  ▄▄[0m'

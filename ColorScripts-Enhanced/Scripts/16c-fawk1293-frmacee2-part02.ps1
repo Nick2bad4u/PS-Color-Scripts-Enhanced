@@ -5,7 +5,7 @@
 # Source SHA-256: 6fb51414e71d82c36da0e0d821cbf68ef4930a536a6a7b5c950157edf3a98f4e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FRMACEE2.ANS by Marly Man (fawk1293); released in fawk1293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 48-63
 # Columns: 1-80
 
@@ -22,6 +22,4 @@ Write-Host '
                 [31m▄▀[0;34m▄█▄[0;31m▀▄ ─── ▄▀[0;34m▄▀[0;31m▄[0;34m▀▄[0;31m▀▄ ─── [0;1;33mCyber  Christ [0;31m───────[0m
                  [31m▀▄[0;34m▀[0;31m▄▀ ── ▄▀[0;34m▄▀[0;31m▄▀ ▀▄[0;34m▀▄[0;31m▀▄ ─── [0;1;33mMarly Man [0;31m─────────[0m
                    [31m▀ ── ▄▀[0;34m▄▀[0;31m▄▀ ─── ▀▄▀ ────────────────────────[0m
-                         [31m▀▄▀[0m
-
-               [1;33m...Look For One Of Our Addictive Games Near You!...[0m'
+                         [31m▀▄▀[0m'

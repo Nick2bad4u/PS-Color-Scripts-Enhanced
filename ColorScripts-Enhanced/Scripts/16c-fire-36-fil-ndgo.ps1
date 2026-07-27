@@ -5,7 +5,7 @@
 # Source SHA-256: 995db21caf8e2ed75dc59d72a383a0e1ceddd7d5c0d40d4d57fc28de59eacac3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FIL-NDGO.ANS by filth (F i R E); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: N0iSEY LiNE
 # SAUCE Author: filth
 # SAUCE Group: F i R E
@@ -49,6 +49,4 @@ Write-Host '
                                     [35;40m▀▀▀▀▀▀▀▀▀[0m
                           [35;40m▄[0;1;35;45m░░▒▒▓▓▓[0;1;35;40m█████████████[0;1;35;45m▓▓▓▒▒░░[0;35m▄[0m
 
-                                 [35mC:\>del *.* /y_[0m
-
-                       [35mget dressed: filth412.redbubble.com[0m'
+                                 [35mC:\>del *.* /y_[0m'

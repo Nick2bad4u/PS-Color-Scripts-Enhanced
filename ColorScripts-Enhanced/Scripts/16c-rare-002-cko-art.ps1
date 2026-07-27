@@ -5,7 +5,7 @@
 # Source SHA-256: ee0f779d030144e264abf49cf05dcb689766ed648aff5c1dbc0c0d9c5ff56dd4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CKO-ART.ANS by cuckoo (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: art menu?
 # SAUCE Author: cuckoo
 # SAUCE Group: rare!ascii
@@ -15,25 +15,25 @@
 # Columns: 1-80
 
 Write-Host '
-   [36m       _,┐y%@SÑÑÑS@%y┐,_    [0;37m             [0;1;30m⌐[0m  [1mA r t[0m [1;30m-[0m [1mM e n u[0;1;30m ....[0m
+   [36m         ┐           ┐      [0;37m             [0;1;30m⌐[0m  [1m     [0m [1;30m [0m [1m       [0;1;30m     [0m
    [36m   ,┐@ÑÑ7*┘²°"^^^"°²┘*7Ñ☻@┌,[0;37m   [0m                           [37m             [0m
    [36m  d[0;1;36mÑ[0;36mÑ7''      ,d$b,      `7Ñ[0;1;36mÑ[0;36mb [0;37m  [0;1;35m,.[0m       [1;30m⌐[0m [1m1[0m  [1;30m-[0m  [1mA[0mrt [1m1[0;1;30m... ..   .[0m
 [1;30m: ::[0;36m:Ñ[0;1;36mÑ[0;36mÑ:       l7[0;1;36mÑ[0;36mÑP       :Ñ[0;1;36m☻[0;36mÑ:[0;37m [0;1;35mj[0;35ml[0;1;35mlb.[0m     [1;35m [0m [1;30m⌐[0m [1m2[0m  [1;30m-[0m  [1mA[0mrt[1m 2[0;1;30m... .. .[0m
-   [1;30m [0;36mlÑ[0;1;36m☻[0;36mÑl       `²┘²''      lÑ[0;1;36m☻[0;36mÑl [0;35mjlSSSl[0;1;35mb.[0m   [1;30m:[0m [1;35m [0m [1;30m⌐[0m [1m3[0m  [1;30m-[0m [1m A[0mrt[1m 3[0;1;30m... ..[0m
-   [36m  lÑ[0;1;36m☻[0;36mÑl                lÑ[0;1;36m☻[0;36mÑl[0;37m [0;35mjl[0;1;30mS[0;35m$[0;1;30m$[0;35m$$Sl[0;1;35mb.[0;35m [0;1;35m [0m [1;30m:[0m [1;35m [0m [1;30m⌐ [0;1;37m4[0m  [1;30m-[0m  [1mA[0mrt[1m 4[0;1;30m.. . [0m
-   [36m   lÑ[0;1;36m☻[0;36mÑl              lÑ[0;1;36m☻[0;36mÑl [0;1;30mll[0;35mS$$$$$$$Sl[0;1;35mb.[0m [1;35m [0m [1;30m:[0m [1;35m [0;1;30m ⌐[0m [1m5[0m  [1;30m-[0m  [1mA[0mrt[1m 5[0;1;30m.. [0m
+   [1;30m [0;36m  [0;1;36m [0;36m           ┘          [0;1;36m [0;36m   [0;35m      [0;1;35m  [0m   [1;30m [0m [1;35m [0m [1;30m⌐[0m [1m [0m  [1;30m [0m [1m  [0m  [1m  [0;1;30m      [0m
+   [36m    [0;1;36m [0;36m                    [0;1;36m [0;36m  [0;37m [0;35m  [0;1;30m [0;35m [0;1;30m [0;35m    [0;1;35m  [0;35m [0;1;35m [0m [1;30m [0m [1;35m [0m [1;30m⌐ [0;1;37m [0m  [1;30m [0m  [1m [0m  [1m  [0;1;30m     [0m
+   [36m     [0;1;36m [0;36m                  [0;1;36m [0;36m   [0;1;30m  [0;35m          [0;1;35m  [0m [1;35m [0m [1;30m [0m [1;35m [0;1;30m ⌐[0m [1m [0m  [1;30m [0m  [1m [0m  [1m  [0;1;30m   [0m
    [36m    lÑ[0;1;36m☻[0;36mÑl        [0;1;30m : :[0;36m:ÑÑ[0;1;36mÑ[0;36mÑb▬._[0;1;30m`^"°²┘*7$[0;35m$Sl[0;1;35mb.[0m [1;35m [0m [1;30m: [0;1;35m [0m
-   [36m     `^^`             `^²┘*7ÑÑÑÑS@y┌▬._[0;1;30m`7[0;35m$[0;1;30mS[0;35ml[0;1;35mb.[0m [1;35m [0;1;30m :[0m [1mE[0msc  [1;30m-[0m  [1mB[0mack to[1m M[0main
+   [36m                         ┘         ┌▬  [0;1;30m  [0;35m [0;1;30m [0;35m [0;1;35m  [0m [1;35m [0;1;30m  [0m [1m [0m    [1;30m [0m  [1m [0m      [1m  [0m   
    [36m                              `^²┘*ÑÑ[0;1;36m☻[0;36mÑb [0;37m      [0;1;30m  [0;1;35m [0m
    [36m               _,┐y%@S$$S@%y┐,_    lÑ[0;1;36m☻[0;36mÑl[0m   [1;35m                [0m
    [36m           ,┐@ÑÑ7*┘²°"^^^"°²┘*7Ñb,lÑ[0;1;36m☻[0;36mÑl[0m    [1;35m                [0m [36m,┌┌,[0m
-   [36m          dÑÑ7''                `7ÑÑ[0;1;36m☻[0;36mÑl [0;1;30m:: :[0m                [36mlÑ[0;1;36m☻[0;36mÑl[0m
-   [37m       [0;35md:[0;37m:[0;36mÑ[0;1;36mÑ[0;36mÑ: [0;1;30mS[0;35mSSSSSb[0;37m      [0;36m [0m   [36m:Ñ[0;1;36mÑ[0;36m7l[0m                     [36mlÑ[0;1;36m☻[0;36mÑl  [0m
-   [37m       [0;1;30ml[0;35mb[0;37m [0;36m7Ñ[0;1;36mÑ[0;36mÑ,[0;1;30m`²┘*7[0;35mS[0;1;30ml[0;35m [0;37m     [0;36m   ,7ÑÑl   [0;37m           [0;1;30m  : ::[0;36m lÑ[0;1;36m☻[0;36mÑl[0;1;30m :: :[0m
+   [36m                                   [0;1;36m [0;36m   [0;1;30m    [0m                [36m  [0;1;36m [0;36m  [0m
+   [37m       [0;35m  [0;37m [0;36m [0;1;36m [0;36m   [0;1;30m [0;35m      [0;37m      [0;36m [0m   [36m  [0;1;36m [0;36m  [0m                     [36m  [0;1;36m [0;36m    [0m
+   [37m       [0;1;30m [0;35m [0;37m [0;36m  [0;1;36m [0;36m  [0;1;30m  ┘  [0;35m [0;1;30m [0;35m [0;37m     [0;36m           [0;37m           [0;1;30m      [0;36m   [0;1;36m [0;36m  [0;1;30m     [0m
      [1;30m : ::[0;35mlSb,[0;36m`*Ñ[0;1;36mÑ[0;36mÑ@y┐,.___.,▬┐y@Ñ☻Ñ┘'' _,┐y%@S$$S@%y┐,_    lÑ[0;1;36m☻[0;36mÑl    [0;37m           [0m
    [37m       [0;1;30ml[0;35mS$$b┌,[0;36m`²┘*7ÑÑÑÑÑÑÑÑ7*┘²`,┐@ÑÑ7*┘²°"^^^"°²┘*7Ñb,lÑ[0;1;36m☻[0;36mÑl  [0;37m    [0;1;30m [0m
 [1;30msss...s.. l[0;35mS[0;1;30m$[0;35m$$$$S@[0;1;35m%[0;35my[0;1;35myyyy[0m [1;30m..ss.. [0;36m dÑÑ7''[0;1;30m....sss.s.......[0;36m`7ÑÑ[0;1;36m☻[0;36mÑl[0;1;30m ss....ss..s..sss.[0m
-[1;30mlllllllll 7S$[0;35m$[0;1;30m$[0;35m$$$$$$$$S[0;1;35mP[0m [1;30mllllll:[0;36m:Ñ[0;1;36mÑ[0;36mÑ: [0;1;30mllllllllllllllll[0;36m :Ñ[0;1;36mÑ[0;36m7l [0;1;30mllllllllllllllllll[0m
-[1;30mlllllllllssssssssssssssssslllllll [0;36m7Ñ[0;1;36mÑ[0;36mÑ,[0;1;30m`┘7llllllllll7┘''[0;36m,7[0;1;36mÑ[0;36mÑP[0;37m [0;1;30mlll[ [0;1;37m house [0;1;30m ]lllll[0m
-[1;30mlllllllllllllllllllllllllllllllllb.[0;36m`*Ñ[0;1;36mÑ[0;36mÑ@y┐,.___.,▬┐y@Ñ[0;1;36m☻[0;36mÑ┘''[0;1;30m.llllllllllllllllllll[0m
-[1;30mlllllllllllllllllllllllllllllllllllb▬.[0;36m`²┘*7ÑÑÑÑÑÑÑÑ7*┘²`[0;1;30m.dllllllllllllll[cko]lll[0m'
+[1;30m             [0;35m [0;1;30m [0;35m         [0;1;35m [0m [1;30m       [0;36m  [0;1;36m [0;36m   [0;1;30m                [0;36m   [0;1;36m [0;36m   [0;1;30m                  [0m
+[1;30m                                  [0;36m  [0;1;36m [0;36m  [0;1;30m ┘            ┘ [0;36m  [0;1;36m [0;36m  [0;37m [0;1;30m     [0;1;37m       [0;1;30m       [0m
+[1;30m                                   [0;36m   [0;1;36m [0;36m   ┐       ▬┐   [0;1;36m [0;36m ┘ [0;1;30m                     [0m
+[1;30m                                    ▬ [0;36m  ┘            ┘  [0;1;30m                        [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7dd4fc1de690e7e2fe852b188fd7975f632ba1bddf59e33ce9a0cc3fb8cddcc5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: misfit-aphidtwix.ans by Misfit (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Aphex Twin
 # SAUCE Author: Misfit
 # SAUCE Group: Blocktronics
@@ -47,18 +47,18 @@ Write-Host '
 [37m   [0;1;30m▄▄▄▄▄▄▄▒▒░[0m [1;30m░[0m  [36m▀[0;1;37;46m▀[0;36m▀[0;37m  [0;1;30m░░[0m    [1;30m░░░░░▒▒[0m [1;30m░░░▓▓▓▄▄[0m
   [1;30m▐[0;1;30;47m▓[0;1;30;40m▀▀[0m  [1;30m  [0m                                [1;30m▀▓█[0m
   [1;30m▓[0m [31m▄█▀▀[0;37m [0;31m▀▀[0;37m   [0;31m▀[0m          [31m▀▀▀▀▀▀  ▀▀▀[0;1;30m  [0;31m▀▀▀█▄[0;37m [0;1;30m▓[0m
-  [1;30m▓[0m [31m█▌[0;1;30m  [0;36m  Growing up, the ANSI artist  [0;1;30m  [0;31m▐█[0;37m [0;1;30m▒[0m
-  [1;30m▒[0m [31m▓[0;37m   [0;36mknown as Aphex Twin / Aphidtwix[0;37m   [0;31m▓[0;37m [0;1;30m▒[0m
-  [1;30m▒[0m [31m▒[0;37m   [0;36mwas as much a hero to me as any[0;37m   [0;31m▒[0;37m [0;1;30m░[0m
-  [1;30m░[0m [31m░[0;37m   [0;36mTodd McFarlane,  Jim Lee or Sam[0;37m   [0;31m░[0;37m [0;1;30m░[0m
-  [1;30m░[0m     [36mKieth.   I studied his work and[0;37m   [0;31m░[0m
-       [36m tried to copy  his style like a[0m
-      [36m true fanboy.  I still turn to his[0m
-      [36m  work for inspiration, all these[0;37m   [0;31m░[0m
-        [36m years later, and it is pretty[0;1;30m [0m   [31m░[0m
-[37m    [0;31m░[0;37m  [0;1;30m [0;36m damn cool  to see him drawing[0;1;30m [0m   [31m▒[0;37m [0;1;30m░[0m
-    [31m▒[0;37m    [0;36m again. This one goes out to[0;1;30m  [0m   [31m▒[0;37m [0;1;30m░[0m
-  [1;30m░[0m [31m▓[0m      [36m you, Mr. Ipp!    - mt67 [0;1;30m   [0m   [31m▓[0;37m [0;1;30m▒[0m
+  [1;30m▓[0m [31m█▌[0;1;30m  [0;36m                               [0;1;30m  [0;31m▐█[0;37m [0;1;30m▒[0m
+  [1;30m▒[0m [31m▓[0;37m   [0;36m                               [0;37m   [0;31m▓[0;37m [0;1;30m▒[0m
+  [1;30m▒[0m [31m▒[0;37m   [0;36m                               [0;37m   [0;31m▒[0;37m [0;1;30m░[0m
+  [1;30m░[0m [31m░[0;37m   [0;36m                               [0;37m   [0;31m░[0;37m [0;1;30m░[0m
+  [1;30m░[0m     [36m                               [0;37m   [0;31m░[0m
+       [36m                                [0m
+      [36m                                  [0m
+      [36m                                 [0;37m   [0;31m░[0m
+        [36m                              [0;1;30m [0m   [31m░[0m
+[37m    [0;31m░[0;37m  [0;1;30m [0;36m                              [0;1;30m [0m   [31m▒[0;37m [0;1;30m░[0m
+    [31m▒[0;37m    [0;36m                            [0;1;30m  [0m   [31m▒[0;37m [0;1;30m░[0m
+  [1;30m░[0m [31m▓[0m      [36m                         [0;1;30m   [0m   [31m▓[0;37m [0;1;30m▒[0m
   [1;30m░[0m [31m█▌[0m                                   [31m▐█[0;37m [0;1;30m▒[0m
   [1;30m▒[0m [31m▀█▄▄▄▄▄▄[0;37m [0;31m▄▄▄▄▄░░▓▄▄[0;37m [0;31m▄[0m        [31m▄▄▄░░▄[0;37m [0;31m▄█▀[0;37m [0;1;30m▓[0m
   [1;30m▓▓[0m                                      [1;30m▄▓[0;1;30;47m▒[0m

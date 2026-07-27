@@ -5,7 +5,7 @@
 # Source SHA-256: cbc1febdaddf37bb91a8b69e2fd6d7687fda657f9879fa6f1c6b3c93f906e92e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-TEH2.ANS by Terminator2 (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Eleventh Hour
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -43,7 +43,7 @@ Write-Host '
 [1;30m   [0;1m▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ █▀  █▀▄ ▀▄█ █▀  █▀█ █▄█  █  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1m▀[0m
 
                                                       [1m__[0m_[1m_[0m__ _  _
- [1;34m▌[0m                            [1;34m▐[0m        [34m░[0m     [34m░[0m        [1;37m█ [0;1;36mT[0;36mh[0;1;30me Eleventh Hour [TEH][0m
+ [1;34m▌[0m                            [1;34m▐[0m        [34m░[0m     [34m░[0m        [1;37m█ [0;1;36m [0;36m [0;1;30m                     [0m
 [1;34m▐█▄▄[0m                         [1;34m▄█[0m       [34m▄▓[0m     [1;34;44m░[0;34m▄[0m       [1;37m█ [0;1;36mS[0;36my[0;1;30ms: Grifter [SPeCTRE][0m
 [1;34;44m▓▓[0;1;34;40m█████▄▄▄[0;34m▄[0;1;34m▄[0;34m▄[0m           [34m▄[0;1;34m▄▄▄███▌  [0;34m▀▀[0;1;34;44m░▓▓░[0m     [1;34;44m▓░▓░[0;34m▀▀   [0;1;37m█ [0;1;36mC[0;36mo[0;1;30m''s: ReDMaN </┤CiD>[0m
 [1;30m [0;1;34;44m░[0;1;34;40m▀[0;1;34;44m▓▓▓████▓▓▓░[0;34m▓▒░░░░░▒▓[0;1;34;44m░▓▓[0;1;34;40m██[0;1;34;44m▓▓▓▓[0m    [34m▐[0;1;34;44m▓█▓[0m     [1;34;44m█▒█[0;34m▌[0m     [1;37m█[0m       [1;30mRaD Man </┤CiD>[0m
@@ -60,7 +60,5 @@ Write-Host '
 [1;30m    [0;34m▀[0;1;34;44m▀▓▀[0;34m▓░[0m             [34m░▓▓[0;1;34;44m░░▀[0;34m▀▀    ░░▓▓▓    ▐[0;1;34;44m▓░[0;34m▄▄__ _ [0;1;30m▓ [0;1;36mS[0;36mC[0;1;30maR California Outpost[0m
                                        [34m░    ▀[0;1;34;44m░[0;34m░[0m       [1;30m▒ [0;1;36mF[0;36me[0;1;30mderation Net[0m
 [1;36m─[0;36m─[0;1;30m────────────────────────────────────────── [0;34m▓ [0;1;30m────── ░ ─────────────────────[0;36m─[0;1;36m─[0m
-[1;36mt[0;1;30mhe eleventh hour · 415-855-9657 · 16.8k ds  [0;34m░ [0;1;30m· runnin newest ver. of vision-x[0m
-[1;36m─[0;36m─[0;1;30m───────────────────────────────────────────────────────────────────────────[0;36m─[0;1;36m─[0m
-[1;30mShout Go Out To · ACiD Guys, AE, BE, BK, CN, HL, RM, RN, SO - iCE, TRiBE! And[0m
-                  [1;30mThose That I Missed... Tough Luck! :)[0m'
+[1;36m [0;1;30m                                            [0;34m░ [0;1;30m                                [0m
+[1;36m─[0;36m─[0;1;30m───────────────────────────────────────────────────────────────────────────[0;36m─[0;1;36m─[0m'

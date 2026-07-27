@@ -5,7 +5,7 @@
 # Source SHA-256: cd6da0454c818578b9a347fde6f25924e7c081a1df038c363663a21a05354d12
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Bc-aeron.ans by Bluecalx (aeron-a); released in aeron-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -33,8 +33,4 @@ Write-Host '
              [1;34m``^^"ⁿ┘\P[0m                 [1;34m*ⁿ"└/│$$$[0;1;34;44m$$[0;34m$$[0;1;34;44m$[0;1;34;40m$$$$│b\*┐,,┌*\d$│$$$$$$$[0m
                                              [1;34m`└/│$$[0;34m$$$$[0;1;34m$$$$$$$$$$$$$$$$$$$$$$[0m
                                                  [1;34m`└/│[0;1;34;44m$[0;34m$$$$$[0;1;34m$$$$$$$$$$$$$$$$$│P[0m
-                                                    [1;34m `ⁿ└\4│$$$$$$$$│P*┘ⁿ""` [0m
-
-[1m   "who is this doing this synthetic type of alpha beta psychedelic fuck it."[0m
-
-[1myet another disowned ascii by bluecalx for æeron[0m'
+                                                    [1;34m `ⁿ└\4│$$$$$$$$│P*┘ⁿ""` [0m'

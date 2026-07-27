@@ -5,7 +5,7 @@
 # Source SHA-256: 8983f2ca67d554a404a5b364fa7b9c10d6523374f804c6d838bcf7c089b90ece
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-L.ANS by metal defender (koi/rap/flux/riot/ro); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lunatic logo
 # SAUCE Author: metal defender
 # SAUCE Group: koi/rap/flux/riot/ro
@@ -16,7 +16,7 @@
 
 Write-Host '
                         [1;30;40m█[0;1;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m█[0m
-                      [1;37;40m▄[0;1;30;40m █[0;1;30;47m  another ansi.... fuck! ▀[0;1;30;40m▄▄[0m
+                      [1;37;40m▄[0;1;30;40m █[0;1;30;47m                         ▀[0;1;30;40m▄▄[0m
               [1;37;40m▄▄▄▄█████[0;1;30;40m █[0;1;30;47m i think i never drawn less ▀▀[0;1;30;40m█[0m
          [1;37;40m▄▄█████████[0;1;37;47m▓[0;1;37;40m█▌[0;1;30;40m▐[0;1;30;47m▌quality that thiz ;) hope lat-[0;1;30;40m█[0m
           [1;37;40m████[0;1;37;47m▓[0;1;37;40m████[0;1;37;47m▓▓[0;1;37;40m█[0;37;40m [0;1;30;40m█[0;1;30;47m eriser likes it ;) i think "l"[0;1;30;40m█[0m
@@ -37,4 +37,4 @@ Write-Host '
                  [34;40m▀▀█[0;1;34;44m▒[0;34;40m█▀▀[0m            [34;40m▀▌ ▐▌luna[0;1;34;40mtic▐▌[0m
                     [34;40m█[0;1;34;44m▒[0m                  [34;40m▀ ■▄▄[0m  [1;34;40m■▀[0m
                      [34;40m▀■[0m
-        [30;41m▓▒░lunatic bbs   opped by lateriser  fast art board ░▒▓[0m'
+        [30;41m▓▒░                                                 ░▒▓[0m'

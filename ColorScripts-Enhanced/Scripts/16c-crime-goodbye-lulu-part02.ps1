@@ -5,7 +5,7 @@
 # Source SHA-256: d2224783e0e39a576169064f4e6a24f767b04d20a5c219256831d600f14cee3f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: goodbye lulu.ans by Molly Ringworm (crime); released in crime and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20160125
 # SAUCE Dimensions: 80x74
 # SAUCE Font: IBM VGA
@@ -13,8 +13,8 @@
 # Columns: 1-80
 
 Write-Host '
-                 [1;33mi get more nasty than a backseat of a taxi gets[0m
-                           [1;33m(and i don''t have to confess)[0m
+                 [1;33m                                               [0m
+                           [1;33m                             [0m
 
                                                             [36m▀▀▀▀▓[0m
                    [36m█▓▓▓▓▓▓▓▓[0m                  [36m░░░[0m        [36m▀▀[0;1;37;46m░[0;36m▓▓▓▓▓[0m

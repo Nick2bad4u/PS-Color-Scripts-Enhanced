@@ -5,7 +5,7 @@
 # Source SHA-256: c8e4a05fc924b8f86900b8cca9a9893cb7086e5b03ae3476f46fe172cb462e73
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: aleperez-vomistar_flashparty_22.ans by aleperez (hpm-03); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fuck vomistar
 # SAUCE Author: aleperez
 # SAUCE Date: 20221016
@@ -56,11 +56,4 @@ Write-Host '
 [37m           [0;34m▀▀▄█▀█████████████████████▄[0;1;37m*[0m [1m*[0m [34m▄█████████████████▀▀▄▄▀▀[0m
 [37m               [0;34m▀▀▄█▀███████████████████▄▄███████████████▀▀▄▄▀▀[0m
 [37m                   [0;34m▀▀▀▄███████████████████████████▀██▄▄▀▀▀[0m
-[37m                          [0;34m▀▀▀▀▀▄████████████▄▄▀▀▀▀▀[0m
-
-
-
-[37m    Las ruedas de la justicia giran lentamente pero giran bien.[0m
-
-
-[37m                                                 Sun Tzu, el arte de la guerra.[0m'
+[37m                          [0;34m▀▀▀▀▀▄████████████▄▄▀▀▀▀▀[0m'

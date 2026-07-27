@@ -5,7 +5,7 @@
 # Source SHA-256: e883289256dc341216f28809944b1bb3a4e8d3bec007cf876a48e7681bddec7d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-ENTR2.ANS by riddler (blend productions); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: files for enterprise
 # SAUCE Author: riddler
 # SAUCE Group: blend productions
@@ -24,10 +24,4 @@ Write-Host '
 [37;40m [0;1;30;40m░[0;33;46m     [0;36;40m▄[0;37;40m [0;31;40m   [0;37;40m [0;36;40m▀[0;1;30;46m░[0;36m▄[0;37m [0;36m▄█[0;1;30;46m░[0;36m███▌[0;30;43m█[0;37;40m [0;36;40m▀██[0;1;30;46m░░[0;36m▄[0;37m  [0;1;30m ▄[0;33;46m░░[0;36;43m▓[0;33;46m░[0;36;40m▀[0;37;40m   [0;36;40m▀████▄[0m   [36;40m▄█[0;1;30;46m [0;36m██▀[0;1;30m [0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;46m ░[0;1;30;40m░[0m
  [36m▀[0;1;30;46m▄░[0;36m███▀▀▀[0;37m [0;31m       [0;37m [0;1;30;46m▓░░ [0;36m█▄[0;37m [0m   [36m▀▀▀[0;1;30;46m░▒[0;36m▄[0;30;43m█[0;1;30;40m▀[0;36m▀▌[0;1;30m     [0m [36m▐[0;1;30;46m░░[0;36m█▀███▀▀▀[0;37m [0;1;30m [0m     [36m    [0;37m [0;36m▄[0;1;30;46m [0;36m████[0;1;30;46m▄[0;1;30;40m▀[0m
       [33m    [0;31m          [0;37m [0;1;30m░░[0;36m▀[0m    [37m       [0;36m▀[0;37m   [0m     [36m▄█▀▀[0m                  [37m  [0;36m   [0;37m    [0m
-[37m           [0;1;37m                                [0;36m▀[0m          [37m [0m
-[1;30m  [0m [36m [0;33m1[0;37m [0;36mpornoo[0m
-   [36m [0;33m2[0;37m [0;36mpornoo[0;33m [0m
-   [36m [0;33m3[0;37m [0;36mpornoo[0m
-   [36m [0;33m4[0;37m [0;36mpornoo[0m
-
-   [33m this is for valkyrie and his board enterprise[0;1;30m.[0;33m greets to ville and pekka[0;1;30m.[0m'
+[37m           [0;1;37m                                [0;36m▀[0m          [37m [0m'

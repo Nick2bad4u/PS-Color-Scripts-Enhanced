@@ -5,7 +5,7 @@
 # Source SHA-256: 232df39f52dec2061439d1e32fdc67a93e5863bf3f4971a443fa8e6e4db062a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZF0-POLY.ANS by zfact0r (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Polyester!!
 # SAUCE Author: zfact0r
 # SAUCE Group: glue
@@ -36,5 +36,4 @@ Write-Host '
 [36m ▄[0;1;36;46m▄██▀[0;36m▀ [0;34m▄[0;1;34m▄[0;1;34;44m█▄[0;36m [0;30;41m▓[0;36;40m [0;1;34;44m▓▓[0;1;34;40m▄▄[0;34m▄[0;36m [0;35m▄[0;1;35;45m▄[0;1;35;47m  [0;1;35;45m▀[0;35m▀ [0;34m▄[0;1;34m▄[0;1;34;44m███████[0;1;34;40m▄▄[0;34m▄[0;36m ▄[0;1;36;46m▄██▀[0;36m▀ [0;34m▄[0;1;34m▄[0;1;34;44m▄██████[0;1;34;40m▄▄▄▄[0;1;34;44m████████▄[0;1;34;40m▄[0;34m▄[0;35m ▀[0;1;35;45m▀█[0;1;35;47m░[0;1;35;45m▄[0;35m▄[0m
 [36m▐[0;1;36;46m▐██▌[0;36m▌ [0;34m▐[0;1;34;44m▐[0;1;37;104mH A P P Y[0;34;44m▌[0;34m▌[0;35m▐[0;1;35;45m▐[0;1;35;47m▓░[0;1;35;45m▌[0;35m▌ [0;34m▐[0;1;34;44m▐█[0;1;37;104mB[0;34;44m█[0;37;104mD[0;34;44m█[0;37;104mA[0;34;44m█[0;37;104mY[0;34;44m█▌[0;34m▌[0;36m▐[0;1;36;46m▐██▌[0;36m▌ [0;1;34;44m █[0;1;37;104m P O L Y E S T E R !! [0;34;44m█ [0;35m ▐[0;1;35;45m▐[0;1;35;47m [0;1;35;45m█▌[0;35m▌[0m
 [36m ▀[0;1;36;46m▀██▄[0;36m▄ [0;34m▀[0;1;34m▀[0;1;34;44m▀███████▀[0;34m▀[0;36m [0;35m▀[0;1;35;45m▀[0;1;35;47m▓[0;1;35;45m█▄[0;35m▄ [0;34m▀[0;1;34m▀[0;1;34;44m▀███████▀[0;34m▀ [0;36m▀[0;1;36;46m▀██▄[0;36m▄ [0;34m▀[0;1;34m▀[0;1;34;44m▀██████████████████▀[0;1;34;40m▀[0;34m▀[0;35m ▄[0;1;35;45m▄█[0;1;35;47m▓[0;1;35;45m▀[0;35m▀[0m
-     [36m▀[0;1;36m▀[0;36m  ▄[0m    [34m▀[0;1;34m▀▀▀[0;1;34;44m▀█▄[0;1;34;40m▄▄[0;34m▄[0;35m ▀[0;1;35m▀[0;35m  ▄ [0;34m   ▀[0;1;34m▀▀▀[0;1;34;44m▀█▄[0;1;34;40m▄▄[0;34m▄[0;36m ▀[0;1;36m▀[0;36m  ▄[0;37m   [0;34m▀[0;1;34m▀▀[0;1;34;44m▀██████▀[0;1;34;40m▀▀[0;34m▀[0;37m   [0;35m▄  [0;1;35m▀[0;35m▀[0m
-[37mzfact0r[0;1;30m([0;1;37mglue[0;1;30m)[0m'
+     [36m▀[0;1;36m▀[0;36m  ▄[0m    [34m▀[0;1;34m▀▀▀[0;1;34;44m▀█▄[0;1;34;40m▄▄[0;34m▄[0;35m ▀[0;1;35m▀[0;35m  ▄ [0;34m   ▀[0;1;34m▀▀▀[0;1;34;44m▀█▄[0;1;34;40m▄▄[0;34m▄[0;36m ▀[0;1;36m▀[0;36m  ▄[0;37m   [0;34m▀[0;1;34m▀▀[0;1;34;44m▀██████▀[0;1;34;40m▀▀[0;34m▀[0;37m   [0;35m▄  [0;1;35m▀[0;35m▀[0m'

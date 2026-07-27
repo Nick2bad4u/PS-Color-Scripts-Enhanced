@@ -5,7 +5,7 @@
 # Source SHA-256: 33f13f76be7522b178a9b28d673aa03457e4e71fd93d12a536e7716503813c45
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM-DSTR1.ICE by Lemonade (ice9509a); released in ice9509a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 34-66
 # Columns: 1-80
 
@@ -38,8 +38,4 @@ Write-Host '
     [1;37m█[0;1;37;47m▒[0m     [1m▐█[0;1;47m▌[0;1;40m█[0;1;47m▒[0m     [1m  ██[0;1;47m▓[0m     [1m▐█[0;1;47m▌[0;1;40m█[0;1;47m▒[0m [31m░[0m   [1;37m   █[0;1;37;47m▒[0m     [1m▐█[0;1;47m [0m   [1m▓[0m   [1;47m▌[0m▌   [1m ▄[0;1;47m▓[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m▄░[0m
     [1;47m▓░[0m░   [1m▄█[0;1;47m▌[0m▌[1;47m▓░[0m░   [1m▄▄[0;1;47m█[0m▌[1m█[0;1;47m▒[0m   [1m░▄[0;1;47m█▌[0m▌[1;47m▓░[0m    [1m    [0;1;47m▓░[0m   [1m░▄█[0;1;47m▌[0m▌ [1m ▐█▄▄[0;1;47m▀[0m▀[1m [0m [1m▀[0;1;47m▓[0;1;40m█[0;1;47m▓[0;1;33;40m██[0;1;33;43m▓▓▓[0;1;33;40m█▀[0m
    [1m▄█[0;1;47m▓[0;1;40m████[0;1;47m▀▀[0m▀[1m █[0;1;47m▓[0;1;40m███[0;1;47m▀▀[0m▀▀[1m [0;1;47m▓░[0;1;40m ▄▄[0;1;47m▀▀[0m▀▀[1m █[0;1;47m▓[0;1;40m      ░▄█[0;1;47m▓[0;1;40m ▄▄[0;1;47m▀▀[0m▀▀[1m [0m   [1m▀[0m▀▀     [1m▄▓[0;1;33m█[0;1;33;43m▓▓▒▒▒[0;33m▄[0m
-     [1;37m▄▄[0m  [1m ▄▄▄▀▀▀▀[0m                 [1m▄[0m   [1m▄▄[0m [1m▀▀[0m  [1m▀[0m                [1m ▄█[0;1;47m▓[0;1;33;40m█▀▀ [0;33m▀▀[0;1;33;43m░░░[0;33m▄[0m
-                                                              [1;33m      [0m     [1;33m     [0m
- [1mt[0mhe [1md[0meath [1ms[0mtar [1m/[0m s[1m: m[0meltdown [[1mb[0mlade] and [1mp[0mhyrestorm
- [1mb[0mlade [1mm[0member [1mb[0moard [1m/[0m [1mm[0many [1md[0mistros [1m/[0m 28[1m.[0m8k at 2[1m.[0m4 gigs
- [1ma[0;1;33mnsi by [0;1;37ml[0;1;33memonade of [0;1;37mi[0;1;33mce[0;1;37m [0;1;33m.[0m [1;33m.[0m'
+     [1;37m▄▄[0m  [1m ▄▄▄▀▀▀▀[0m                 [1m▄[0m   [1m▄▄[0m [1m▀▀[0m  [1m▀[0m                [1m ▄█[0;1;47m▓[0;1;33;40m█▀▀ [0;33m▀▀[0;1;33;43m░░░[0;33m▄[0m'

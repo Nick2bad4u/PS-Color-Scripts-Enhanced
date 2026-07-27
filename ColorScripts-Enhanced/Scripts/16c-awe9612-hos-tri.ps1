@@ -5,7 +5,7 @@
 # Source SHA-256: 19f4e76d29abf984addf1bdb8226c616d7ed4563e053ad1d3e7dfece8d9cf9a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HOS-TRI.ANS by Hos (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Trilogy
 # SAUCE Author: Hos
 # SAUCE Group: AWE Lettering
@@ -37,8 +37,6 @@ Write-Host '
 [34m▐▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▌  ▄[0;1;34;44m▄▄█▀[0;34m▀[0;1;34;44m▀[0;34m▄▄▄[0;1;34;44m░░░[0;34m▀ [0;37m▄▓▀▀▀▌ [0;1;34;44m░[0;34m░[0;1;30m▀ ▀▀ ▀▀▀█[0m█▄▀ ▄░▓▓░░▀▄[1;30m▀[0m▓░ [34m▀▀▀[0;1;34;44m░[0;34m▀[0;1;34;44m▌[0;34m▐[0m
 [34m▐░[0m      [36m░░[0m                    [34m▌[0m       [37m▀▌[0m      [34m░[0m           [1;30m▀[0m▀[1;30m▄[0m▄ [1;30m▀▀[0m▀▓░░▐▌[1;30m▀ [0;34m░[0;30;44m▓[0;34;40m▓[0;30;44m░[0;1;34;44m░[0;34m▀▐[0m
                              [34m░▌[0m     [37m▄[0m         [34m░[0m               [1;30m▀[0m▄▀    ▀     [34m░[0;30;44m▓[0m
-                             [34;40m░▌    [0;37;40m▐▌  Trendkill''s [0;1;37;40mTriology    [0;1;30;40m▐[0m▌
+                             [34;40m░▌    [0;37;40m▐▌              [0;1;37;40m            [0;1;30;40m▐[0m▌
                                     ▀                          ▀
-                                      ▀
-
-[1mnote -- Im not sure yet, but trendkill may have ripped me off..  :)[0m'
+                                      ▀[0m'

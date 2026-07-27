@@ -5,7 +5,7 @@
 # Source SHA-256: 7ffe0234edeaef29caa3f32f8382be46bac729638c4da50326120af4d5a66471
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NT-IESUS.ANS by nootropic (iesus); released in legend05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iesus promotion/crucifixion
 # SAUCE Author: nootropic
 # SAUCE Group: iesus
@@ -60,8 +60,7 @@ Write-Host '
  [31ms'' [0;33m$[0;31m&$s[0;33m7[0;31m''[0m          [31m  [0m           [31m.''[0m      [31m`[0m                     [31m$½$7''   [0;33m$[0;30;41m$[0;33;40m$$[0m
 [37;40m [0;31;40m`[0;37;40m [0;31;40ms$¼$$''[0m                                                      [31;40m""""[0m    [31;40m$¼$[0;33;40m$[0m
    [31;40m $[0;30;41m$[0;31;40m$½&&&&&>>>[0;30;41m>[0;31;40m>>>>>≥≥≥≥≥--- -- - i [0;33;40me[0;31;40m [0;1;33;40ms[0;33m U[0;1;31m [0;31ms - -- ---≤≤≤≤≤<<<<<<<[0;30;41m&[0;31;40m&[0;33;40m&[0;31;40m&&[0;33;40m$[0;31;40m$$½[0m
-                                                               [31;40mssss[0m
-                         [31;40mremember kids, satan loves you.[0m      [31;40m S[0;30;41m$[0;31;40m$$[0m
+                                                               [31;40m    [0m
+                         [31;40m                               [0m      [31;40m  [0;30;41m [0;31;40m  [0m
                                                                [31;40m|||l[0m
-                                                              [31;40m :;::[0m
-                                                               [31;40m..∙.[0;37;40m [0;31;40m50 liner-nT~[0m'
+                                                              [31;40m :;::[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 20b06ac29dac60a9be4758cf6302bc1d389e905557024baf486f1a5298ff0427
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%WTNG.ANS by big y3llow man (pHOBIA@!#); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wuTANG (soon whq)
 # SAUCE Author: big y3llow man
 # SAUCE Group: pHOBIA@!#
@@ -26,8 +26,4 @@ Write-Host '
 [30;41m░░[0;31;40m███▌[0;1;30;40m▐[0;1;30;47m▌[0;30;47m▒[0;1;37;47m▒[0m▌[1;30m▐[0;1;30;47m▌[0;30;47m░[0;37;40m█▌ [0;1;30;47m█ [0m██ [1;30m▐[0;1;30;47m▌[0;30;47m░[0;37;40m█▌[0;1;30;40m▐[0;1;30;47m▌[0;30;47m▓[0;37;40m▄▌ [0;31;40m███████████▀▀▀███[0;37;40m  [0;33;40m█▄[0;37;40m [0;33;40m▀██[0;1;33;43m▀████▀▀[0;1;33;40m█[0;1;33;45m█[0;1;33;40m███████[0m  [31m▐█[0;30;41m░[0m
 [31;40m███▀▀▌[0;1;30;40m▐[0;1;30;47m▌[0;30;47m░ [0;37;40m▌[0;36;40m [0;1;30;40m█[0;1;30;47m [0m███▀▀▀▀ [1;30m█[0m███ [1;30m▐[0;1;30;47m▌[0;30;47m░[0;37;40m█▌ [0;31;40m██▌▀█[0;30;41m░░[0;31;40m███[0;37;40m [0;30;47m▓▓[0;37;40m  [0;31;40m███▄[0;37;40m [0;33;40m▀█▄[0;37;40m  [0;33;40m▀██[0;1;33;40m▀[0m  [33m▀█[0;1;33;45m▓[0;1;33;40m█[0;1;33;43m█[0;1;33;40m█[0;1;33;43m█▀[0;1;33;40m▀▓[0m  [31m███[0m
 [30;41m▓▓[0;37;40m     [0;1;30;47m█▄[0m███▀▀        [1;30m▀▀[0m▀▀█████       [30;41m▓▓[0m                [33;40m▀▀▄▄▌[0;37;40m   [0;30;43m▓[0;33;40m▐[0;1;33;43m ▀[0;1;33;40m▀▀[0m  [30;43m▓[0;1;33;40m▒[0m [31m.bym[0m
-                                                           [33m▀[0;37m [0m            [1;33m░[0m
-
-                 [1mwuTANG soon the poffelipoff world headquarter[0m
-
- [1;30mart ·[0m [1;30mmusic · bbs-modding · litrature · and other stuff that phreaks u out!@#[0m'
+                                                           [33m▀[0;37m [0m            [1;33m░[0m'

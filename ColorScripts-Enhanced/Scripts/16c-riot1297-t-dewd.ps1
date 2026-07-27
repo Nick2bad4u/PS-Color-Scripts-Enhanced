@@ -5,7 +5,7 @@
 # Source SHA-256: 38467114fc20850f1820a6ab1ae75a65fb0bc59c605f42f8ca243be071fe871c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T!-DEWD.ANS by .xX[ tERROR ]Xx. (RioT); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: oh a leet riot gubbe logo BITCH!@#$
 # SAUCE Author: .xX[ tERROR ]Xx.
 # SAUCE Group: RioT
@@ -16,18 +16,18 @@
 
 Write-Host '
 
-                              [1;33m.ssS$$Sss.[0m
-                       [1;30msSⁿⁿⁿ[0;1;33ms$$$$$$$SⁿS$$s[0;1;30mⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿSs[0m
-                      [1;30m.$.  [0;33ms[0;1;33m$$$ⁿ ⁿ$"   "$$s [0;1;37mt[0;1;36mERRO[0;36mR [0;1;37mi[0;1;36mN  [0;1;30m.$.[0m
+                              [1;33m          [0m
+                       [1;30m     [0;1;33m              [0;1;30m               [0m
+                      [1;30m     [0;33m [0;1;33m                [0;1;37m [0;1;36m    [0;36m  [0;1;37m [0;1;36m   [0;1;30m   [0m
                       [1;30m`$''  [0;33mⁿ$[0;1;33m$$$$$$$$$$$$$ⁿ [0;1;37md[0;1;36mA [0;1;37mh[0;1;36mAUS![0;36m!  [0;1;30m`$''[0m
-                       [1;30mⁿSsss[0;33mⁿ$$[0;1;33m$$$[0;1;37mπππππ[0;1;33m$$ⁿ[0;1;30msssssssssssssSⁿ[0m
-                              [33m"ⁿⁿS$$[0;1;33mSⁿⁿ"[0m
+                       [1;30m     [0;33m   [0;1;33m   [0;1;37m     [0;1;33m   [0;1;30m               [0m
+                              [33m      [0;1;33m    [0m
                                                                  [33m. . . . . .[0m
                                                                 [33ms$s$s$s$s$s$.[0m
                                                                [33ms$:$:$:$:$:$''$[0m
                                                                [33m$$$$$$$$$$$$$$[0m
                                                                [33m$$$$$$$$$$$$$$[0m
-               [36mh[0;1;36mmm[0;36mm w[0;1;36mhat''[0;36ms t[0;1;36mha[0;36mt g[0;1;36mrou[0;36mp[0;1;30m?? [0;36mm[0;1;36mus[0;36mt be p[0;1;36mrett[0;36my k[0;1;36mew[0;36ml   [0;31m.[0;33m$$$$[0;1;31m$[0;33m$[0;1;31m$[0;33m$[0;1;31m$[0;33m$[0;1;31m$[0;33m$$[0;1;31m$.[0m
+               [36m [0;1;36m  [0;36m   [0;1;36m    [0;36m   [0;1;36m  [0;36m   [0;1;36m   [0;36m [0;1;30m   [0;36m [0;1;36m  [0;36m      [0;1;36m    [0;36m   [0;1;36m  [0;36m    [0;31m [0;33m    [0;1;31m [0;33m [0;1;31m [0;33m [0;1;31m [0;33m [0;1;31m [0;33m  [0;1;31m  [0m
                           [34m.[0m                                   [31m$[0;1;31m$[0;33m$[0;1;31m$[0;33m$[0;1;31m$"""""$$$$$.[0m
                           [34m:[0m                                   [31m$[0;1;31m$$$$''[0;1;37mS$$$S[0;1;31m`ⁿ$$$S[0m
                           [34m:.[0m                                 [1;31m`ⁿⁿⁿⁿ''[0;1;37m$[0;1;30m$[0m$[1m$$$$ [0;1;31m$$$$[0m

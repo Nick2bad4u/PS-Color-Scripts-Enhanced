@@ -5,7 +5,7 @@
 # Source SHA-256: 9df5993f87349f42ed0a9248b0756939f6d4e7e2edf4f2a78f808918ec91318c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JB-DISU.ANS by jab (stream); released in stream02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: haciend el bananas artcompo contrib
 # SAUCE Author: jab
 # SAUCE Group: stream
@@ -38,10 +38,4 @@ Write-Host '
 jab/stream[31m         ▀▀▀[0;1;31m▀▀▀▀▀▀▀[0;1;31;41m▀▀█████[0;1;31;47m▓▓[0m [1m▀▀▀▀████[0;1;47m███▓▓▀  [0m█████▓[32m [0;1;32;42m░░[0;32m▀ [0;1;31;41m▓▓██████▓▓▀[0;31m▀▀▀[0m
 [37mfor haciend el bananas artcompo [0;31m [0;37m [0;31m ▀[0;1;31m▀▀▀▀▀[0;31m▀  ▄▄[0;1;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m▄▄[0;37m  [0;31m▀[0;1;31m▀▀▀[0;31m▀▀░░[0m
 
-[37m--------------------------------------------------------------------------------[0m
-[37mthere was a lack of contributions so the compo wasn''t held. but i got third in[0m
-[37mmodule competition :)[0m
-
-[37mpersonal hi''s to stream members, stream boards'' sysops, malkav, centurion, hube,[0m
-[37mderwydd, kala, defender, ghost rider and keuhko.[0m
-[37mextra great group hi''s to SUPREME VAMPIRIC EVIL. you guys are.. different ;)[0m'
+[37m--------------------------------------------------------------------------------[0m'

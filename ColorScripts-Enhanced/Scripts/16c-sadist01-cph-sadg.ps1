@@ -5,7 +5,7 @@
 # Source SHA-256: 2528c92cf13d90aa73568857234e1b5b561b5f8315ef0ee3220e6bbb46e5eb3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-SADG.ANS by cph (ENGINE); released in sadist01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: guest ansi for sadist pack
 # SAUCE Author: cph
 # SAUCE Group: ENGINE
@@ -19,17 +19,17 @@ Write-Host '
 
 
 
-  [1mHi[0m ppl . As you know , after leaving place of prezident of rIb i started
-  a new project - [1mENGINE[0m . And now i am looking for talented and skillfull
-  artist to join it . If you suppose that your art ( vga \ rip \ ascii \
-  etc) is good enough - contact me at enginehq@hotmail.com ( or just find
-  on #Ansi or #engine ) and send some pieces of your work .
+  [1m  [0m                                                                      
+                  [1m      [0m                                                  
+                                                                        
+                                                                         
+                                                           
 
 
-                                                       cyberpunch / engine
+                                                                          
 
 
-  And now press PgDw to see my guest ansi for SADIST pack .
+                                                           
 
 
 

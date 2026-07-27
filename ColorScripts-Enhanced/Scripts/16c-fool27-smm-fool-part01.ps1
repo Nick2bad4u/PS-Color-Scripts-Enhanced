@@ -5,7 +5,7 @@
 # Source SHA-256: 573877439c060e96d3bf42d7b9a67ee0a293689de5fe563116d17dd9792db34e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: smm-fool.ans by SEL MAR MUPERFAR (F 0 0 L); released in fool27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: NO ENERGY LEFT FOR U
 # SAUCE Author: SEL MAR MUPERFAR
 # SAUCE Group: F 0 0 L
@@ -16,10 +16,10 @@
 # Columns: 1-80
 
 Write-Host '
-[37;40m  [0;1;36;40mI guess we all act the same way anyway. We''re robots made out of bones and[0m
-[1;36;40m   flesh.[0m [1;31mOUR COMPUTERS ARE OUR BRAINS.[0m [1;36mI guess that''s why we always do the[0m
-[1;36m  same thing all the time. We eat sleep drink fuck kill and die. That''s how we[0m
-[1;36m  are all the same. We are FOOL.[0m        [1;36mThis is how we respond to nothingness.[0m
+[37;40m  [0;1;36;40m                                                                          [0m
+[1;36;40m         [0m [1;31m                             [0m [1;36m                                   [0m
+[1;36m                                                                              [0m
+[1;36m                                [0m        [1;36m                                      [0m
   [36m█[0;1;32;46mIAMSFM[0;36m█████████████████████████████████████████████████████████[0;1;32;46mTHISISF00L[0;36m██[0m
 [37m  [0;36m█[0;1;32;46m  [0;36m█████████████████████████████████████████████████████████████████████████[0m
 [37m  [0;36m██████████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████████████████████████████[0m
@@ -53,5 +53,4 @@ Write-Host '
 [37m  [0;36m████████████████████████[0;1;35m [0m [1m▄▄▄▄▄▄[0;1;35m [0m [1m████████[0;1;35m [0m [1m▄▄▄▄▄▄[0;1;35m [0m [36m████████████████████████[0m
 [37m  [0;36m████████████████████████[0;37m  [0;1;37m▄▄▄▄▄▄[0m  [1m████████[0m  [1m▄▄▄▄▄▄[0m  [36m████████████████████████[0m
 [37m  [0;36m██[0;1;32;46mURNOT[0;36m█████████████████[0;1;35m [0m [1m████████████████████████[0;1;35m [0m [36m███████████████[0;1;32;46mHE-HE-HE [0m
-  [36m████████████████████████[0;1;35m [0m [1m████████████████████████[0;1;35m [0m [36m████████████████████████[0m
-'
+  [36m████████████████████████[0;1;35m [0m [1m████████████████████████[0;1;35m [0m [36m████████████████████████[0m'

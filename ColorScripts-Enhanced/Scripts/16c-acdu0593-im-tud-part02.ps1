@@ -5,7 +5,7 @@
 # Source SHA-256: 2df0188679366e5662c92495208ff65a46e25d4cbdc9e6d09ef5280954701be0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-TUD.ANS by Iron Man (acdu0593); released in acdu0593 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 22-71
 # Columns: 1-80
 
@@ -52,10 +52,8 @@ Write-Host '
        [31m█  [0;37m■ ▄ ▀  ▀▄▀▄▄[0;37;47m [0;30;47mi  R  O  N    M  A  N    /┤  C  i  D [0;37;40m▀▀▄▀▄ ▀ ▄ ■[0m
 [1;37;40m──[0;1;36;40m──[0;36m──[0;31m▐█[0;1;31m▌[0;34m───────────────────────────────────────────────────────────────[0;1;34m──[0;36m──[0;1;36m──[0;1;37m──[0m
       [31m█[0;1;31;41m▄█[0m    [1;30;40m▀▀[0m▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
-       [1;31m▀[0;1;36mSysoP[0;36m:[0;35mWHI[0;1;35mTE I[0;35mRE [0;32m<[0;1;32mRAZOR 1911-NEMESiS[0;32m> [0;1;36mCo`S[0;36m: [0;35mBLA[0;1;35mCK I[0;35mRE [0;32m<[0;1;32mRAZOR 1911[0;32m> [0;1;37m█[0m
-      [1;30m█ [0;35mPSYC[0;1;35mHO SL[0;35mASHER [0;32m<[0;1;32mACiD[0;32m>[0;36m■[0;35miR[0;1;35mON M[0;35mAN [0;32m<[0;1;32mACiD[0;32m>[0;36m■[0;1;36mArt-cO[0;36m:[0;35mSKIT[0;1;35mZO KI[0;35mLLER [0;32m<[0;1;32mACiD[0;32m> [0;1;37m█[0m
-      █ [34m60[0;1;34m0 MEG[0;1;37mS O[0;1;34mNL[0;34mINE[0;36m■[0;34mFE[0;1;34mLO[0;1;37mNY [0;1;34mN[0;34mET[0;36m■[0;34mPAR[0;1;34mAM[0;1;37mOU[0;1;34mNT N[0;34mET[0;36m■[0;34m0 D[0;1;34mAY [0;1;37mWA[0;1;34mR[0;34mEZ[0;36m■[0;34m14[0;1;34m.4 [0;1;37mD[0;1;34mUA[0;34mL ST [0;1;37m█[0m
+       [1;31m▀[0;1;36m     [0;36m [0;35m   [0;1;35m    [0;35m   [0;32m [0;1;32m                  [0;32m  [0;1;36m    [0;36m  [0;35m   [0;1;35m    [0;35m   [0;32m [0;1;32m          [0;32m  [0;1;37m█[0m
+      [1;30m█ [0;35m    [0;1;35m     [0;35m      [0;32m [0;1;32m    [0;32m [0;36m■[0;35m  [0;1;35m    [0;35m   [0;32m [0;1;32m    [0;32m [0;36m■[0;1;36m      [0;36m [0;35m    [0;1;35m     [0;35m     [0;32m [0;1;32m    [0;32m  [0;1;37m█[0m
+      █ [34m  [0;1;34m     [0;1;37m   [0;1;34m  [0;34m   [0;36m■[0;34m  [0;1;34m  [0;1;37m   [0;1;34m [0;34m  [0;36m■[0;34m   [0;1;34m  [0;1;37m  [0;1;34m    [0;34m  [0;36m■[0;34m   [0;1;34m   [0;1;37m  [0;1;34m [0;34m  [0;36m■[0;34m  [0;1;34m   [0;1;37m [0;1;34m  [0;34m     [0;1;37m█[0m
       [1;37m█ [0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■ [0;31m4 1 6  [0;1;31mP R I  V A T E [0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■[0;1;33m■[0;33m■ [0;1;37m█[0m
-      [1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-     [32mGREETINGS: [0;1;32mTEMPUS THALES [0;32m<HULK RULES DUDE.:)>-[0;1;32mVISION [0;32m<HEY MAN WHATSUP ?>[0m'
+      [1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: bd2d39de5d6bde3682a6b38dca4f7f409a21523bac39b15b38cc81223b122d21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WD-TOAST.ANS by Weirdo (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -32,8 +32,4 @@ Write-Host '
    [32m███▌█[0;1;32;42m░░[0;32m█▀[0;37m [0;32m▌[0m    [32m█[0m     [1;32;42m░░[0;32m▄▄▄ ▓█▀▀[0;37m [0;32m▌[0;37m [0;32m▀[0m     [32m ▐▀▀▀[0;1;32;42m░[0;32m▀▀   ▄▄█[0;1;32;42m░[0;32m █████▐▀▀▀▀[0m
 [37m  [0;32m▀▌▀▓▓ [0;37m [0;32m▌[0m   [32m▀[0m    [32m▓▀▀[0m         [32m▒[0m    [32m▀[0m        [32m▀[0m        [32m▀▌▀ [0;37m  [0;32m░[0;30;42m▓[0;32;40m  [0m
      [32;40m▒[0;37;40m  [0;32;40m█▀▀[0m       [32;40m▒[0m           [32;40m░[0m
-    [32;40m [0;30;42m▓[0m            [32;40m░[0m
-
-[37;40mhmm,, wheeee, impulse logo.. not requested.. hmm,, i''m running out of req''s![0m
-[37;40mmail me with them, i promise i''ll give it a thought. for spinsisters board toast[0m
-[37;40m(if it still exists)[0m'
+    [32;40m [0;30;42m▓[0m            [32;40m░[0m'

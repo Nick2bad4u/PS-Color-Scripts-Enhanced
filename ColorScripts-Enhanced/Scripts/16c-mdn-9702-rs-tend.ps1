@@ -5,7 +5,7 @@
 # Source SHA-256: 3a5df0cd6d8ca8f6c8eeeff7d1a4dcffb86acb63ee635c1988dbbc63b1b5b50e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-TEND.ANS by rorshack (Maiden Brazil); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the end (brazilian demogroup)
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -27,7 +27,4 @@ Write-Host '
         [1;32;40m█[0m    [1;32;42m▄[0;32m [0;1;30m░[0m  [32m▀[0m    [1;32;42m▄[0m    [1;32;42m▄[0m [1;30m░░[0m [1;32;42m▀[0;32m    [0;1;32;42m░[0m    [32m█    ▀[0m    [32m█[0m    [32m█[0m    [32m█[0m    [1;32;42m░[0;32m░[0m
       [1;30m░[0;32m [0;1;32m█▄[0m   [1;32m▀[0;32m [0;1;30m░░[0m [1;32m█[0m    [1;32m█[0m    [32m█▄[0m       [32m▄█▄[0m       [32m▄[0;1;32;42m░[0m    [32m█ [0;1;30m░░[0;32m [0;1;32;42m░[0;32m▄[0m   [32m▀[0m    [32m█[0m
         [32m [0;1;32m▀▀▀[0;32m▀[0;1;32m█▄▄▄[0;32m▄[0;1;32m█▀▀[0;32m▀[0;1;32m▀█▄[0;32m▄▄[0;1;32m▄[0;32m█▀▀▀▀[0;1;32m▀[0;32m▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;32;42m░[0;32m▄▄▄▄[0;1;32;42m▒[0;32m▀▀▀▀▀▀▀▀▀▀[0m
-                    [1;30m░░[0m                            [1;30m░░[0m        [1;36mrs[0;1;30m<[0;36mm[0;1;37;46ma[0;36miden[0;1;30m>[0m
-                                    [1;36mthe end.[0m
-                              [36mthey are not the end.[0m
-                             [36mthey are the beginning.[0m'
+                    [1;30m░░[0m                            [1;30m░░[0m        [1;36mrs[0;1;30m<[0;36mm[0;1;37;46ma[0;36miden[0;1;30m>[0m'

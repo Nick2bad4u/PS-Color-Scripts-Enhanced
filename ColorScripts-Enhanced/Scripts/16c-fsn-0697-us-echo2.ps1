@@ -5,7 +5,7 @@
 # Source SHA-256: 44623ed56362ef1a38e3ff89b52e52baf875b6c3db02762eb0aa3bc98e8fc6b0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ECHO2.ANS by Rex + Wat0r + Ize (fusion and echo); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: echo
 # SAUCE Author: multiply artists
 # SAUCE Group: fusion and echo
@@ -33,6 +33,4 @@ Write-Host '
 [1;36m     [0;36m▄[0;1;36;46m▄[0;1;36;40m████▌                        [0;36m▄[0;1;36m▄▄ [0m         [1;36m         [0;36m▀[0;1;36;46m▀[0;1;36;40m███▄▄  [0;36m▄[0;1;36m▄[0;1;36;46m▄[0;1;36;40m███▀    [0m
      [1;36m  [0;36m▄[0;1;36;46m▄[0;1;36;40m█▀       [0m       [1;36m       [0m    [1;36;46m▐[0;1;36;40m██[0m          [1;36m            [0;36m▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m██[0;1;36;46m█[0;1;36;40m▌[0;36m▀[0;1;36m▀       [0m
         [1;36m       [0m             [1;36m [0m     [36m▀[0;1;36;46m▀[0;1;36;40m████▀[0m        [1;36m                             [0m
-                                    [36m▀[0;1;36;46m▀[0;1;36;40m▀[0m
-
-[1;30mRemix of the joint between Rex(fusion) and Wator(echo) hope you dont mind[0m [1;30mguys![0m'
+                                    [36m▀[0;1;36;46m▀[0;1;36;40m▀[0m'

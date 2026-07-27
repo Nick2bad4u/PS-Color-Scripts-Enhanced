@@ -5,7 +5,7 @@
 # Source SHA-256: b080f31dd9e408d422547a34441c84d11a2654cb58f32bbf74ee5b4c68fb01e1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HO-EOTS.ANS by Hooptie (ensigm); released in ensigm and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -39,24 +39,16 @@ Write-Host '
 [1;34m▀▀▄▄▄ [0;34m▀▀▀████▀▀ [0;1;34m▄▄▄▄ [0;34m▀▀▀█████▀▀▀ [0;1;34m▄▄▄▄ [0;34m▀▀▀▀▀▀▀ [0;1;34m▄▄▄▄▄ [0;34m▀▀████▀▀▀ [0;1;34m▄ [0;34m▀▀██████▀▀ [0;1;34m▄▄▄▄▄[0m
      [1;34m▀▀▀▄ [0;34m██▌[0;1;34m▄▀▀    ▀▀▀▄ [0;34m██▀ [0;1;34m▄▀▀▀    ▀▀▀▀▀▀▀▀▀[0m     [1;34m▀▀▄▄▄▄▄▄▀▀▀ ▀▀▄ [0;34m███▀ [0;1;34m▄▀▀[0m
           [34m▐█[0m             [34m▐▌[0m                                        [34m▐█▌[0m
-           [34m█[0m              [34m▌[0m     [1;37mEye of the Storm[0m                   [34m▐█[0m
+           [34m█[0m              [34m▌[0m     [1;37m                [0m                   [34m▐█[0m
            [34m▌[0m                      [34m915.833.8942[0m                      [34m█[0m
            [34m▌[0m                                                        [34m▌[0m
-           [34m▌[0m           [1;34mTNC Member Board [0;34m-[0;1;34m/[0;34m- [0;1;34m320 Mb Online[0m           [34m▌[0m
-           [34m█[0m             [1;34mH/P/A/V/C  [0;34m-[0;1;34m/[0;34m-  [0;1;34m0-7 Day Warez[0m              [34m▌[0m
+           [34m▌[0m           [1;34m                 [0;34m [0;1;34m [0;34m  [0;1;34m             [0m           [34m▌[0m
+           [34m█[0m             [1;34m           [0;34m [0;1;34m [0;34m   [0;1;34m             [0m              [34m▌[0m
           [34m▐█[0m                                                        [34m▌[0m
-          [34m▐█▌    [0;1;37mShadow Storm[0m                       [1;37mWire Fashion   [0;34m▐▌[0m
-           [34m▀[0m      [34mEotS SysOp[0m                          [34mCoSysOp[0m      [34m▐█[0m
+          [34m▐█▌    [0;1;37m            [0m                       [1;37m               [0;34m▐▌[0m
+           [34m▀[0m      [34m          [0m                          [34m       [0m      [34m▐█[0m
 [1;34m▀▀▀▀▄▄▄▄ ▄▄▀▀▀▀▀▀▄▄[0m      [1;34m▄▄▄▄▄▄▄▄[0m     [1;34m▄▄▀▀▀▀▀▀▄▀▀▀▀▀▄▄[0m         [1;34m▄▄▀ [0;34m██▌[0;1;34m▀▄    ▄▄▀▀[0m
 [34m███▄▄▄▄ [0;1;34m▀ [0;34m▄▄████▄▄ [0;1;34m▀▀▄▄▀▀ [0;34m▄▄▄▄▄▄ [0;1;34m▀▀▄▀▀ [0;34m▄▄████▄▄▄███▄▄ [0;1;34m▀▀▀▄▄▄▄▀▀ [0;34m▄▄████▄ [0;1;34m▀▄▀▀ [0;34m▄▄█[0m
 [34m████████████████████▄▄▄▄██████████▄▄▄██████▀▀██▀▀▀██████▄▄▄▄▄▄██████████▄▄▄█████[0m
 [1;30m▄▄▄▄ [0;34m▀▀▀▀▀▀▀ [0;1;30m▄▄▄▄▄ [0;34m▀▀████▀▀▀ [0;1;30m▄ [0;34m▀▀██████▀▀ [0;1;30m▄▄▄▄▄▄▀▄▄▄ [0;34m▀▀▀████▀▀ [0;1;30m▄▄▄▄ [0;34m▀▀▀█████▀▀▀[0m
-[34m    [0;1;30m▀▀▀▀▀▀▀▀▀[0m     [1;30m▀▀▄▄▄▄▄▄▀▀▀ ▀▀▄▄▄▄▄▄▄▄▀▀[0m          [1;30m▀▀▀▄▄▄▄▄▄▀▀    ▀▀▀▄▄▄▄▄▄▄▀▀▀[0m
-
-             [1;30mThe "Eye of the Storm" original ANSi Advertisement has[0m
-                     [1;30mbeen brought to you by HOOPTiE of TAG.[0m
-
-[1;30mRaD Man & SharP [ACiD]:  Sorry things didn''t work out better than they did.[0m
-        [1;30mRaistlin [iCE]:  Iridium is absolutely AWESOME!  Keep up the good work.[0m
-[1;30m    Scofflaw [Nemesis]:  Thanks for the invite; I really appreciate it.[0m
-[1;30m  Ben Jammin [CRiMSON]:  Couriers really CAN be a pain in the butt, huh??[0m'
+[34m    [0;1;30m▀▀▀▀▀▀▀▀▀[0m     [1;30m▀▀▄▄▄▄▄▄▀▀▀ ▀▀▄▄▄▄▄▄▄▄▀▀[0m          [1;30m▀▀▀▄▄▄▄▄▄▀▀    ▀▀▀▄▄▄▄▄▄▄▀▀▀[0m'

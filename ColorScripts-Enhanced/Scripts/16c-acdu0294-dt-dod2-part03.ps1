@@ -5,7 +5,7 @@
 # Source SHA-256: d15db438e7785c17c59f9f0325cc323a35e008a657078d354b19ab586ccfccf0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-DOD2.ANS by Dr. Tongue (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Domain of Destruction
 # SAUCE Author: Dr. Tongue
 # SAUCE Group: ACiD Productions
@@ -51,14 +51,14 @@ Write-Host '
                 [31m░▀▀ ░■▀ ░   ▀ ░ ▀  ░  ▀▀▒   ▓▀▀  ░■▀  ░■▀  ▀  ░[0m
                                         [31m░   ▒[0m
 
-           [31mDomain of Destruction [0;1;31m/ [0;31mSysOp: The Hobbit <FND/VNM/WWC>[0m
-[31m    CoSysOps: Spine Crusher, Bigboy, Educated Hormone <GoDs/TDT/RiSC/WWC>[0m
-             [31mWorld Wide Couriers Affiliate [0;1;31m/ [0;31mFoundation Affiliate[0m
-              [31m0-3 Day Warez [0;1;31m/ [0;31m14.4v32bis [0;1;31m/ [0;31m500 Megs Online Space[0m
+           [31m                      [0;1;31m  [0;31m                               [0m
+[31m                                                                         [0m
+             [31m                              [0;1;31m  [0;31m                    [0m
+              [31m              [0;1;31m  [0;31m           [0;1;31m  [0;31m                     [0m
 
                                [31m▄▄▄▓█[0;1;31;41m ░[0;31m▀▀▀▓█[0;1;31;41m░[0;31m▄ ■[0;1;31;41m ░[0;31m▄▄[0m
                            [31m▄■▐▀▀    ▓  ░[0m         [31m▀[0m
-                           [31m▐▓ ANSI[0;1;31m: [0;31m▒ Dr.Tongue <AC[0;1;31mi[0;31mD>[0m
+                           [31m▐▓     [0;1;31m  [0;31m▒              [0;1;31m [0;31m  [0m
                             [31m▒[0m       [31m░  ▒[0m
                             [31m░[0m         [31m▄▓▌[0m      [31m▀ ▄█[0;1;31;41m░[0;31m▄[0m
                                       [31m▌██[0m        [31m▐▀ ■[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 967a7d93498412f7bb7831a1cb97449c8a03ae55a419c43e3fc141e4a1ef7510
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: za-rose.ans by Zaal (Zaal); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rose
 # SAUCE Author: Zaal
 # SAUCE Group: Zaal
@@ -45,13 +45,4 @@ Write-Host '
 [36;40m  [0;33;40m█ █ ▐██ ▄█[0;36;43m▀[0;36;40m  ▄ ▀███ ▐ ███ ▐███ █[0;36;43m▀[0;33;40m▌ ▓██▌▐███▌ [0;31;40m▒▓ ▐[0;33;40m███ ▐██▓[0;31;40m [0;33;40m████ ███ ▐██▓ ███▓[0m
 [31;40m ▐[0;33;41m▀[0;31;40m [0;33;41m▀[0;31;40m▌ [0;33;40m▀[0;33;41m▀▀▀[0;33;40m▀[0;31;40m  [0;33;40m▀[0;33;41m▀▀[0;31;40m▄[0;33;40m▀[0;36;40m▀ ▄▌▐███ ▄█[0;36;43m█[0;36;41m▀[0;33;40m [0;33;41m▀▀[0;31;40m▌ [0;33;41m▀▀▀[0;31;40m▌▒[0;33;41m▀▀▀[0;31;40m▌ ▓█ ▄[0;33;41m▀▀▀[0;31;40m ▐[0;33;41m▀▀[0;31;40m▒ [0;33;41m▀▀▀[0;31;40m▓ [0;33;41m▀▀[0;31;40m▓ ▐[0;33;41m▀▀[0;31;40m▒ [0;33;41m▀▀▀[0;31;40m▒[0m
 [33;40m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31;43m▀▐[0;33;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[33;40m [0;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[37;40m  When[0;1;30;40m  [0mconversion takes place, the  process of revelation occurs in a very
-  simple [1mway - [0ma pe[1mrson is i[0mn need, he [1msuffers, and[0;1;30m  [0mthen s[1momehow the othe[0mr
-  worl[1md opens u[0mp[1m. The[0;1;30m  [0;1;37mmore [0myou are i[1mn[0;1;30m  [0;1;37msuffering an[0md  diff[1miculties and are[0m
-[1m  [0m''de[1msperate'' for God, t[0mhe more He i[1ms going to [0mcome to y[1mour aid, revea[0ml Who
-[1m  [0mHe [1mis and show you [0mthe way out...
-
-[1;36m                         [0;1;37mS[0;1;33meraphim [0;1;37mR[0;1;33mose, [0;1;37mG[0;1;33mod''s [0;1;37mR[0;1;33mevelation [0;1;37mt[0;1;33mo [0;1;37mt[0;1;33mhe [0;1;37mH[0;1;33muman [0;1;37mH[0;1;33meart[0m
-
-[33m                         [0;1;30mansi by Zaal - @yuriyzaal - 14/02/22[0m'
+[33;40m [0;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f134422b8797932f853475a315d013296dc8d5992e624e7601378fe45c3dd2ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CARD4.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -25,10 +25,10 @@ Write-Host '
 [31m    ·[0m                                                             [31m·[0m      [33;41m▒[0m [31m·[0m
                                                                          [31m█▌[0m
 [1;34m─[0;1m╔═ [0;34mcredits + notes [0;1;34m═════[0;34m═══[0;1;34m═[0;34m══════─ ── · ·  ·  ·· ── ──═══════[0;1;34m═[0;34m═[0;1;34m══════[0;1m═[0;31m▐[0;33;41m▒░[0;1m══╗[0;1;34m─[0m
-[1;34m ║ [0;1;30mT[0mRAi[1mNER [0;1;30mB[0mY    [34m: [0;31mTWiN[0m                         [1;30mS[0mOU[1mND  [0;34m: [0;1;30mD[0miR[1mK/[0;1;30mL[0mEGE[1mND    [0;31m█[0;33;41m▓█[0;31m▌ [0;1;34m║[0m
-[1;34m [0;34m║ [0;1;30mM[0mEN[1mU [0;1;30mC[0mOD[1miNG   [0;34m: [0;1;30mS[0mYN[1mEC[0m              [1;30mM[0mEN[1mU [0;1;30mL[0mOG[1mO [0;1;30m& F[0mON[1mT [0;34m: [0;1;30mD[0mREA[1mM [0;1;30mD[0mESi[1mGN    [0;31m▀▀  [0;34m║[0m
-[34m [0;1;34m│ [0;1;30mS[0mOU[1mND [0;1;30mP[0mLAY[1mER  [0;34m: [0;1;30mF[0mUTU[1mRE [0;1;30mC[0mRE[1mW[0m              [1;30mi[0mNT[1mRO [0;1;30mF[0mON[1mT [0;34m: [0;1;30mA[0mMBL[1miN[0m              [1;34m│[0m
-[1;34m │[0m                                       [1;30mA[0mL[1mL [0;1;30mO[0mTH[1mER [0;1;30mG[0mF[1mX [0;34m: [0;1;30mR[0mO[1mY[0m                 [1;34m│[0m
+[1;34m ║ [0;1;30m [0m   [1m    [0;1;30m [0m     [34m  [0;31m    [0m                         [1;30m [0m  [1m    [0;34m  [0;1;30m [0m  [1m  [0;1;30m [0m   [1m      [0;31m█[0;33;41m▓█[0;31m▌ [0;1;34m║[0m
+[1;34m [0;34m║ [0;1;30m [0m  [1m  [0;1;30m [0m  [1m      [0;34m  [0;1;30m [0m  [1m  [0m              [1;30m [0m  [1m  [0;1;30m [0m  [1m  [0;1;30m   [0m  [1m  [0;34m  [0;1;30m [0m   [1m  [0;1;30m [0m   [1m      [0;31m▀▀  [0;34m║[0m
+[34m [0;1;34m│ [0;1;30m [0m  [1m   [0;1;30m [0m   [1m    [0;34m  [0;1;30m [0m   [1m   [0;1;30m [0m  [1m [0m              [1;30m [0m  [1m   [0;1;30m [0m  [1m  [0;34m  [0;1;30m [0m   [1m  [0m              [1;34m│[0m
+[1;34m │[0m                                       [1;30m [0m [1m  [0;1;30m [0m  [1m   [0;1;30m [0m [1m  [0;34m  [0;1;30m [0m [1m [0m                 [1;34m│[0m
 [1;34m [0;34m║[0m                                                                           [34m║[0m
-[34m [0;1;34m║[0m                      [1;30m-G[0;32mREE[0;1;33mTZ [0;1;30mT[0;32mO  [0;1;30mT[0;32mRS[0;1;33mi/[0;1;30mF[0;32mT[0;1;33mH  [0;1;30mR[0;32mAZ[0;1;33mOR [0;1;30m1[0;32m91[0;1;33m1 [0;1;30mT[0;32mD[0;1;33mT  [0;1;30mE[0;32mXTiN[0;1;33mCT[0;1;30m-[0m       [1;34m║[0m
+[34m [0;1;34m║[0m                      [1;30m  [0;32m   [0;1;33m   [0;1;30m [0;32m   [0;1;30m [0;32m  [0;1;33m  [0;1;30m [0;32m [0;1;33m   [0;1;30m [0;32m  [0;1;33m   [0;1;30m [0;32m  [0;1;33m  [0;1;30m [0;32m [0;1;33m   [0;1;30m [0;32m    [0;1;33m  [0;1;30m [0m       [1;34m║[0m
 [1;34m─[0;1m╚═══[0;1;34m══[0;1m═[0;1;34m══════════[0;34m══[0;1;34m═[0;34m═════════── ── · · ·   ─── ──════════[0;1;34m═[0;34m══[0;1;34m═════════[0;1m═[0;1;34m══[0;1m════╝[0;1;34m─[0m'

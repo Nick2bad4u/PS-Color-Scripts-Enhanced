@@ -5,7 +5,7 @@
 # Source SHA-256: 14b4e4502a247d4da28724aab2d576308277f9400f77651a9e78d077b41132de
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KR-KALV2.ANS by kr?!@ (y'know..); released in aidbox01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kalav
 # SAUCE Author: kr?!@
 # SAUCE Group: y'know..
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-  oh, please.. 0h pl33z.. itz one of ''em ansi pics that actually look quite
-  nice, if you watch it in vga mode.. forgive me..            -krash.
+                                                                           
+                                                                     
 [1;30m- ---------------------------------------------------------------------------- -[0m
 
 
@@ -62,6 +62,4 @@ Write-Host '
 [35;40m░[0;30;45m▓[0m                                                                            [35;40m  [0m
                                          [35;40m░[0;30;45m▓[0m
 
-                                          [31;40m░[0;30;41m▓[0m
-
-'
+                                          [31;40m░[0;30;41m▓[0m'

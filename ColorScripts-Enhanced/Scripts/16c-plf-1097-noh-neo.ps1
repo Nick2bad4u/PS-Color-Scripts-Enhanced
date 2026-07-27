@@ -5,7 +5,7 @@
 # Source SHA-256: 35a1be5bbb42e19ef7e84c3025e68671034d37552797a39c32f4b9463029dd35
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOH-NEO.ANS by nOah? (plf-1097); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neospirin
 # SAUCE Author: nOah?
 # SAUCE Date: 19971111
@@ -29,8 +29,4 @@ Write-Host '
 [37m  [0;31m▐▀▀[0m          [1;30m▄[0m▄[1m▄[0;1;47m▄▄█▄▄█▀▀█████████▓▓░░[0m▐[1;47m░░▓▓████████▀▀█▄▄█▄[0;1;40m▄[0m▄▄[1;30m▄[0m           [31m▀▀▌[0m
 [37m  [0;31m▀[0m     [1;30m▄[0m▄[1m▄[0m▄▐[1;47m▄▄████████████▄▐████▌▀▀▀[0m██▐█[1;47m▒▒▓▓███▌▄████████████▓▒[0m▌▄[1m▄[0m▄[1;30m▄[0m       [31m▀[0m
      [37m ░[0;1;37;47m▄███████████████████████▓▓▒▒░░[0m██▄██[1;47m▄▄▄▐███████████████████████▄[0m▒
-     [1;30m [0;1;30;47m▌[0m▀▀░[30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░▀▀[0;1;30;47m▐[0m
-
-[33m      [0;37m  [0;33m  [0m          [1;31mn[0;31mn[0;1;31me[0;31me[0;1;31mo[0;31mo[0;1;31ms[0;31ms[0;1;31mp[0;31mp[0;1;31mi[0;31mi[0;1;31mr[0;31mr[0;1;31mi[0;31mi[0;1;31mn[0;31mn[0;1;31m  [0;31m-[0;1;31m-[0;31m-[0;1;31m [0;31m @[0;1;31m@ [0;31mr[0;1;31mr[0;31ma[0;1;31ma[0;31mg[0;1;31mg[0;31me[0;1;31me[0m
-
- [1;30m  [0m                [1;30msend requests to noah_666@hotmail.com [0m'
+     [1;30m [0;1;30;47m▌[0m▀▀░[30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░▀▀[0;1;30;47m▐[0m'

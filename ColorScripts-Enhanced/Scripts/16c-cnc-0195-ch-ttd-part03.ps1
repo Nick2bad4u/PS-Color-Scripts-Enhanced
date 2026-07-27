@@ -5,7 +5,7 @@
 # Source SHA-256: 175c3363ad09ad3e9f061748be5544b2b4402cc429689cf2e623f30b2881109f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CH-TTD.ANS by Coolhand (CaNCeR Productions); released in cnc-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Thrid Dimension
 # SAUCE Author: Coolhand
 # SAUCE Group: CaNCeR Productions
@@ -36,7 +36,7 @@ Write-Host '
 [34m██████████████████████████████████░████████████████████████████████████████████[0m
 
                  [1;30mA N S I  &  A N D  F O N T  B Y  C O O L H A N D[0m
-                                [1;30m99% oRiGiNAL[0m
+                                [1;30m            [0m
 
       [1m ▄███████████████████▀[0m [1m ▄███████████████████▀[0m  [1m▄███████████████▄ [0m
      [1m▄████[0;1;47m██████[0;1;40m█████████▀[0m  [1;40m▄████[0;1;47m██████[0;1;40m█████████▀[0m  [1;40m▄███████████████████▄[0m
@@ -51,15 +51,15 @@ Write-Host '
             ▀▀▀▀▀▀▀▀▀              ▀▀▀▀▀▀▀▀▀          ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
          [1m    [0m
                   [1;30m    T h e  T h [0mi[1;30m [0mr[1;30m [0;1;37md[0;1;30m  [0;1;37mD[0;1;30m [0mi[1;30m [0mm[1;30m e n s i o n[0m
-                    [1;30m  [0m         [1;30mSy[0msop:[1mBφφg[0mie[1;30m [0mM[1;30man[0m
-                     [1;30m  [0m        [1;30mCφ[0m-Sys[1m:[0;1;30m [0;1;37mCφ[0mφlha[1;30mnd[0m
-                      [1;30m  [0m       [1;30mRu[0mnnin[1mg[0;1;30m [0;1;37mRe[0mnega[1;30mde[0m
-                                [1;30mM[0modde[1md[0;1;30m [0;1;37mto[0;1;30m [0mHel[1;30ml[0m
-                       [1;30m  [0m     [1;30m  [0m NUV[1;30m [0;1;37mEnfφ[0mrecd
-                                 NUP: [1mXxX[0mxXxX[1;30mx[0m
-                                [1;30m7[0m00 M[1megz[0m Onli[1;30mne[0m
-                              [1;30m250[0m Meg [1mTap[0me Ba[1;30mckup[0m
-                              [1;30mPPi[0m 14.[1m4[0m [1mφ[0m USR [1;30m28.8[0m
-                        [1;30m  [0m   [1;30m0-3 [0mWare[1mz[0;1;30m [0;1;37mφ[0;1;30m [0mH/P/[1;30mA/V/C[0m
-                         [1;30m  [0m [1;30m [0m [1;30mQua[0mlity[1;30m [0;1;37mUse[0mrs[1;30m [0mO[1;30mnly![0m
+                    [1;30m  [0m         [1;30m  [0m    [1m    [0m  [1;30m [0m [1;30m  [0m
+                     [1;30m  [0m        [1;30m  [0m    [1m [0;1;30m [0;1;37m  [0m    [1;30m  [0m
+                      [1;30m  [0m       [1;30m  [0m    [1m [0;1;30m [0;1;37m  [0m    [1;30m  [0m
+                                [1;30m [0m    [1m [0;1;30m [0;1;37m  [0;1;30m [0m   [1;30m [0m
+                       [1;30m  [0m     [1;30m  [0m    [1;30m [0;1;37m    [0m    
+                                      [1m   [0m    [1;30m [0m
+                                [1;30m [0m    [1m   [0m     [1;30m  [0m
+                              [1;30m   [0m     [1m   [0m    [1;30m    [0m
+                              [1;30m   [0m    [1m [0m [1m [0m     [1;30m    [0m
+                        [1;30m  [0m   [1;30m    [0m    [1m [0;1;30m [0;1;37m [0;1;30m [0m    [1;30m     [0m
+                         [1;30m  [0m [1;30m [0m [1;30m   [0m    [1;30m [0;1;37m   [0m  [1;30m [0m [1;30m    [0m
                           [1;30m  [0m   [1;30m +[0m1.71[1m4.52[0mi.84[1;30mi3[0m'

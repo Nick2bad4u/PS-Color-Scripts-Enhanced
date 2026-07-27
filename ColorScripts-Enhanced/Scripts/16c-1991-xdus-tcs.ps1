@@ -5,7 +5,7 @@
 # Source SHA-256: 30974e9f32eab3dd653eb355c2edd87aa9a5617f639f745b6d9d7868f146cb95
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XDUS_TCS.ANS by Nautilus (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -44,9 +44,8 @@ Write-Host '
 [34m  [0;1;37m· [0m▀[1;33;47m▀[0;1;33;40m████████████████████████████████████████████████████████████████████[0m█ [1m·[0m
       ▀▀[1;33;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████[0m█
                                                                        ▀▀▀▀█
-        [1;33mæ T[0;1;31mCSN[0;31mET [0;1;33mæ O[0;1;31mOFN[0;31mET [0;1;33mæ L[0;1;31mS[0;31mD [0;1;33mæ 0 [0;1;31mDay [0;31mWarez [0;1;33mæ U[0;1;31mSR H[0;31mST [0;1;33mæ 2[0;1;31m4 Ho[0;31murs/Day [0;1;33mæ[0m
-               [1;33mæ U[0;1;31mltr[0;31maTech Distribution Site [0;1;33mæ S[0;1;31mySo[0;31mp: Thief [0;1;33mæ[0m
-                      [1;33mæ N[0;1;31muP: [0;31mEcstacy [0;1;33mæ [[0;1;31m4o7[0;31m] 339-1996 [0;1;33mæ[0m
+        [1;33m   [0;1;31m   [0;31m   [0;1;33m   [0;1;31m   [0;31m   [0;1;33m   [0;1;31m [0;31m  [0;1;33m    [0;1;31m    [0;31m      [0;1;33m   [0;1;31m    [0;31m   [0;1;33m   [0;1;31m    [0;31m        [0;1;33m [0m
+               [1;33m   [0;1;31m   [0;31m                        [0;1;33m   [0;1;31m   [0;31m         [0;1;33m [0m
+                      [1;33m   [0;1;31m    [0;31m        [0;1;33m   [0;1;31m   [0;31m           [0;1;33m [0m
                                                        [1;30m·[0;36m·∙[0;1;36m∙==≡)Na[0;36mutil[0;1;36mus(≡==∙∙[0;36m·[0;1;30m·[0m
-                                                            [34m-[0;1;34m([0mi[1mCE[0m·[1mTNO''9[0m2[1;34m)[0;34m-[0m
-                                                       [34m"T[0;1;34mhe [0;34mA[0;1;34mssault [0;34mH[0;1;34mas [0;34mB[0;1;34megun![0;34m"[0m'
+                                                            [34m-[0;1;34m([0mi[1mCE[0m·[1mTNO''9[0m2[1;34m)[0;34m-[0m'

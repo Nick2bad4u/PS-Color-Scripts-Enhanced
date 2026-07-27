@@ -5,7 +5,7 @@
 # Source SHA-256: 8ce823a7f346f9a0a24fb3b24e5f1b40bff2fe1c36da9be1c9b2772813c0bc21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-TFUG.ICE by Toon Goon (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-93
 # Columns: 1-80
 
@@ -53,7 +53,4 @@ Write-Host '
 [31m▒▓██▓██████████▓███████▄▄▄   █   ████████▄▄▄▄▄▄▄████████▄▄▄   ██████████████████[0m
 [31m░  ▀░▀▀▓███████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;41m▄[0;31m██████████████████████▓[0m
        [31m▒ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   [0;1mThe Forgotten UnderGround   [0;1;30m▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀█▀▀▀▀▒[0m
-[31m ■▀    ░  [0;1mBreed WS HQ  -  PuC WS HQ  -  FiBRE Site  -  Lapse Member Board [0;31m░[0m
-          [1mShiver Net  -  OuterNet WS Hub  -  RoC  -  VOR Site  -  RADiENT[0m
-                    [1mS: UnderGod  -  2o9/572-0221  -  Co: Tanis[0m
-                              ansi: TooN GooN [iCE][0m'
+[31m ■▀    ░  [0;1m                                                                [0;31m░[0m'

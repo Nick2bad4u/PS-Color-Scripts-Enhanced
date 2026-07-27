@@ -5,7 +5,7 @@
 # Source SHA-256: 9283e59b4b8c382447f7e6eac39c1451936e73c7ee1d3ed86c3928b98c05e5ef
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: T2-DR1.ANS by Terminator2 (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Death Row
 # SAUCE Author: Terminator2
 # SAUCE Group: ACiD Productions
@@ -26,7 +26,7 @@ Write-Host '
 [30;47m█[0;1;30m▀[0;30;47m█████████████████████████████[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀[0m      [33m▀▀[0;1;33m▀▀[0m            [1;30m▀▀▀▀▀▀▀▀▀   ▀▀[0m
 [1;33m▄[0;33m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;33m▄[0;1;30m▄▄▄▄▄▄[0;33m▄[0;1;30m▄[0;33m▄▄ [0;1;30;43m [0m  [1;30;43m░[0m [1;30;43m░[0;33m▄▀[0;1;30;43m [0m [1;30;43m [0m [33m▄▀▀[0;1;30;43m░[0m [1;30;43m [0;33m▄▀[0;1;30;43m [0m [33m▄▄[0;1;30m▄[0;33m▄[0;1;30m▄▄▄▄[0;33m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;33m▄[0;1;33m▄[0m
                               [1;30;43m░[0m  [1;30;43m▒[0m [1;30;43m▒[0m  [1;30;43m░[0m [1;30;43m░[0m [1;30;43m░[0m  [1;30;43m▒[0m [1;30;43m░[0m  [1;30;43m░[0m
-[30;47m█[0;1;30mA TradeMark Of Image Comics  [0;1;30;43m▒[0m  [1;30;43m▓[0m [1;30;43m▓[0m  [1;30;43m▒[0m [1;30;43m▒[0m [1;30;43m▒[0m  [1;30;43m▓[0m [1;30;43m▒[0m  [1;30;43m▒[0m  [1;30mAnd Mark Texeira - (c) 94[0m
+[30;47m█[0;1;30m                             [0;1;30;43m▒[0m  [1;30;43m▓[0m [1;30;43m▓[0m  [1;30;43m▒[0m [1;30;43m▒[0m [1;30;43m▒[0m  [1;30;43m▓[0m [1;30;43m▒[0m  [1;30;43m▒[0m  [1;30m                         [0m
                               [1;30;43m▓[0m  [1;30;43m█[0m [1;30;43m▓[0m  [1;30;43m▓[0m [1;30;43m▓[0m [1;30;43m▓[0m  [1;30;43m▓[0m [1;30;43m▓[0m  [1;30;43m▓[0m
 [1;33m▀[0;33m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀[0;1;30m▀▀▀[0;33m▀▀[0;1;30m▀▀[0;33m▀ [0;1;30;43m▓[0;1;30m▄▀  [0;1;30;43m█[0m  [1;30;43m▓[0m [1;30;43m█[0m [1;30;43m▓[0;1;30m▄▄▀ [0;1;30;43m█[0m  [1;30;43m█[0m [33m▀[0;1;30m▀[0;33m▀▀[0;1;30m▀▀[0;33m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀[0;1;33m▀[0m
 
@@ -43,17 +43,16 @@ Write-Host '
 [34m▓ ▀░   [0;1;30m▀   ▀  ▒   [0;34m▒    ░   [0;1;30m▀▓ ░  ▀   ▀  [0;34m░   ▀▀▓ [0;1;30m▀  ▒    ▀[0m     [34m▀   [0;1;30m▀[0;34m▒   ▀▀▓[0;1;30m▀  ▒[0m
 [34m▒[0m             [1;30m░   [0;34m░[0m         [1;30m▒[0m                 [34m▒    [0;1;30m░[0m               [34m░[0m     [34m▒   [0;1;30m░[0m
 [34m░ [0;1;34m─[0;34m─[0;1;30m─────────────────────── ░ ─────────────[0;34m─[0;1;34m─ [0;34m░ [0;1;34m─[0;34m─[0;1;30m────────────────────[0;34m─[0;1;34m─ [0;34m░ [0;1;34m─[0;34m─[0;1;30m──[0m
-                    [1;30mDeath Row · 413 782 1851 · NUP: nokdaglok[0m
-             [1;30mAddict WHQ · ACiD Outpost · GOTHiC Site · Reality WHQ[0m
-                   [1;30mStormWatch · FanaticNet (WHQ) · ValiantNet[0m
-          [1;30m9600+ · Local Lamers Invite Only! · No Ratio For Cool LD''ers![0m
+                    [1;30m                                         [0m
+             [1;30m                                                     [0m
+                   [1;30m                                          [0m
+          [1;30m                                                             [0m
 [1;34m─[0;34m─[0;1;30m───────────────────────────────────────────────────────────────────────────[0;34m─[0;1;34m─[0m
-[1;30mSysOp''s: Flat Line [Addict/Reality] Maestro [Addict/TRiBE] The Diviner [Addict][0m
+[1;30m                                                                               [0m
 [1;34m─[0;34m─[0;1;30m───────────────────────────────────────────────────────────────────────────[0;34m─[0;1;34m─[0m
-[1;34m  [0;1;30mGeneral Greets Go Out To : ACiD Guys, BAD, CiA, EMPiRE, iCE, TRiBE, etc...[0m
-[1;30m  Personal Greets Go Out To : Ben,Brad,Carl,Chris,Dave,Daesun[sp?],Harvey,John[0m
-[1;30m  Mike,Me,Mike,Myself,Mike,I,Ryan,Scott,Scott,Steve,Steve,AndEveryBodyElse...![0m
+[1;34m  [0;1;30m                                                                          [0m
+[1;30m                                                                              [0m
+[1;30m                                                                              [0m
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
 [1;30mA  N  S  i  &  L  O  G  O  ·  T  E  R  M  I  N  A  T  O  R  2  <  A  C  i  D  >[0m
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30mWhy is it that people read these st00pid lines at the bottom of the screen?  :)[0m'
+[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

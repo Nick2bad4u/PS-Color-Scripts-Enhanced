@@ -5,7 +5,7 @@
 # Source SHA-256: 3f1daa2981ed77ae05f2ddff865e31e05951b5c74ad83d1ec2c9a79f12d149be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-IE1.ANS by Stone Angel (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Illegal Embassy
 # SAUCE Author: Stone Angel
 # SAUCE Group: UNiON
@@ -38,14 +38,14 @@ Write-Host '
 
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-                       [1;37mIllegal Embassy - 513-385-2749[0m
+                       [1;37m                              [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-            SysOp -  RumpelStealskin      SysOps - Sharin-Ryu, Tron
-       2.4 Gigabytes Online     2 USR 21.6 DUALS      Running Oblivion/2
-                    Creators of Intense Art Application Home
-                         Source Code Alliance Drop Site
-                          Paranoia Magazine Drop Site
-                          Cynic Magazine Member Board
+                                                                   
+                                                                        
+                                                            
+                                                       
+                                                     
+                                                     
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-                          Ansi by [1mStone Angel [0;1;30m[[0mUNiON[1;30m][0m
+                                  [1m            [0;1;30m [0m     [1;30m [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

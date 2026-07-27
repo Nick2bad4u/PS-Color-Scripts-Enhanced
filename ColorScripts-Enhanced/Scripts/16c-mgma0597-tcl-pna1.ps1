@@ -5,7 +5,7 @@
 # Source SHA-256: 1e0e923ab5f25df747beaa00999cda6569958a805a7190d9571334390f075819
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TCL-PNA1.ANS by Tical (mgma0597); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -32,5 +32,4 @@ Write-Host '
 [1;33m█[0;1;37m██ [0;1;30m█[0;1;30;47m▄▄▄█[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m██[0;1;30;40m▀▀▀ [0m███▄[47m   [0;40m▄ ▀[0;47m████████[0;1;30;47m▀[0;47m█[0;40m▀[0;47m█[0;40m▄[0;47m██[0;40m▀ [0;31;40m▀▀█▄▓[0m        [37;40m▀   [0;31;40m▄[0;1;31;41m░░░[0;31m██▀[0m
 [1;37m▀▀   [0;1;30m▄▄▄▄▄[0;1;30;47m█[0;1;30;40m▀▀▀▀▀▀▀[0;1;30;47m█[0;1;30;40m▀▀[0;1;30;47m█[0;1;30;40m▓[0;1;30;47m█▓▓░░░░[0m█[1;30;47m░   [0m▀[1;47m░[0m ▄[47m██████[0;40m▀[0;47m█████[0;1;30;47m░░[0;1;37;47m░[0m▀▀   [31m▀▀ ▄ ░░   ▄ ▀▀▀▀    [0;1;30m░[0m
 [1;30;47m▓▓███████▓▓[0;1;30;40m▄▄[0;1;30;47m█████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;47m████████[0;40m░░[0m       [31;40m▄   [0;1;30;40m░ ░░▓▓[0;1;30;47m▓▓▓[0m
-[30m█████████[0;1;30m░░[0;30m█████████████████████████████[0;1;30m░░[0;30m█████████████████████████████████████[0m
-                                                                     [1;35mtical[0;1;33mmagma[0m'
+[30m█████████[0;1;30m░░[0;30m█████████████████████████████[0;1;30m░░[0;30m█████████████████████████████████████[0m'

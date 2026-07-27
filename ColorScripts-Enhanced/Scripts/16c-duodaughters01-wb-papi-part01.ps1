@@ -5,7 +5,7 @@
 # Source SHA-256: f30d651e0ef67fbcbbb15bd8350b468ec33cac44a77688bb4592dce7bcda7c6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WB-PAPI.ans by Wolf Biker (duodaughters01); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20151214
 # SAUCE Dimensions: 80x106
 # SAUCE Font: IBM VGA
@@ -23,7 +23,7 @@ Write-Host '
 
 
 
-           [1;33;40m PAPI ONLY PROGRAMMED ME TO LOVE HIM. AND THEN PAPI LEFT.[0m
+           [1;33;40m                                                         [0m
 [34m████████████████████████████████████████████████████████████████████████████████[0m
 [34m██████████████ ██████████████ ████▀███████████ ████ ████████████████████████████[0m
 [34m███████████ ▄█ █ ██ █▀▄▄ █ ▄█ █ ▄▄▄█ ██ █▀▄▄ █ ▄▄ █ ▄▄▄█ ▄▄ █ ▄▄ █ ▄▄▄██████████[0m

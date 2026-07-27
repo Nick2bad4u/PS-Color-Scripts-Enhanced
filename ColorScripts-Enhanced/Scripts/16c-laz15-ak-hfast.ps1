@@ -5,7 +5,7 @@
 # Source SHA-256: 6a9e1a31e1b316acc74799b1fa1e53dd8a10baac5390824153f0ef09fb0ebf2b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-hfast.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hold fast bbs
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
@@ -41,7 +41,7 @@ Write-Host '
 [1;31m [0;33m$[0;1;31ml [0;33m$[0;1;31m''$[0;33m$ J$7$$$$$$$$$$$$$$$$$:[0;37m   [0;36m.[0;37m       [0;1;36m.      ,[0m     [36m.[0;37m   [0;36m''[0;1;30m            [0;36m/[0m
 [1;31m [0;33m$I[0;1;31m $ l[0;33m$ $$,d$$$$$$$$$$$$$$$P   [0;36m/[0;37m       [0;1;36m`      [0;36m⌐     /[0;37m           [0;36m/[0;37m    [0;36m''[0;1;30m      [0;36m.[0;1;30m`[0m
 [33m $[0;1;31m$ $ l[0;33ml $$$j$jSSj[0;1;31m$$[0;33m$[0;1;31m$[0;33mj$S\SP                  [0;36m''     ''[0;37m     [0;36m.[0;37m     [0;36m`[0m
-[33m l[0;1;31m$ $ [0;33m$: $$P.[0;1;33m┐.dk[0m.[33m`[0;1;31m└''`[0;1;33m,┐d#b[0m    [1mh[0;1;33mOLD [0;1;37mf[0;1;33mAST [0;1;37mb[0;1;33mBS             [0;36m/[0;37m                 [0;1;30m''[0m
+[33m  [0;1;31m    [0;33m       [0;1;33m┐   [0m [33m [0;1;31m└  [0;1;33m ┐   [0m    [1m [0;1;33m    [0;1;37m [0;1;33m    [0;1;37m [0;1;33m               [0;36m [0;37m                 [0;1;30m [0m
 [33m :$[0;1;31m $\[0;33mQ d$7 4[0;1;33m$$$$W[0m   [33m([0;1;33m$$$$$k[0m        [1m+[0;1;33mo[0;1;37m n[0;1;33mITR0N[0m           [36m''[0;1;30m          [0;32m_.,,.[0m
 [33m  $ $ ┐d$$[0;37m [0;32m,[0;1;33m [0;33m4[0;1;33mPj$P[0m  [1;32m\[0m [33m4[0;1;33m$P[0;33mj[0;1;33m$''[0m                 [1;32m,┌%#[0;32m##s┐       [0;1;32m.,┌⌐#$$$$$$$$[0;32mSa.[0m
 [33m  4\7 $$[0;1;31m$[0;33m$[0;37m [0;1;32mJ[0m [1;33m7[0m [1;33ml7[0m [32mj[0;37m [0;1;32m`b[0m [1;33m7[0m [1;33m7''[0;1;32mj[0;32mb   [0;1;32m.d$$b#[0;32ms┐.[0;1;32m    $$$$$$$[0;32m$       [0;1;32m$$$$$$$$$$$$$$$[0;32m$b[0m

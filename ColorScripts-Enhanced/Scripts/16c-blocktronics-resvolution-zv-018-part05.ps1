@@ -5,7 +5,7 @@
 # Source SHA-256: 0c37502097393234b991fe680c2e1b9dcebcb1b3a9c3f12c920897e0f69bbacf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: zv-018.ans by Zerovision (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 166-206
 # Columns: 1-80
 
@@ -49,5 +49,4 @@ Write-Host '
  [34m [0;1;30;47m▓[0;1;30;40m█▌░[0;31m [0;1;31m▄[0;1;31;41m▐▌[0;31m▀ [0;1;31m▄[0;1;31;41m▓▀[0;31m▀ [0;1;30m░▓█[0;1;30;47m▓[0m     I found this pic called 018.jpg and I wanted to draw
  [34m [0;1;30m█▀[0;31m [0;1;31m▄[0;1;31;41m▀[0;31m▀█[0;1;31;41m▓[0;1;31;40m▄[0;1;31;41m▀░[0;31m▀  [0;1;30m  ▀▀▀[0m     it in ansi so all credit to the original artist
  [34m [0;31m [0;1;31m▄[0;1;31;41m▀[0;31m█▄▄█[0;1;31;41m▀░[0;31;45m▓▓[0;1;31;41m ▀▀▀▀▀[0;31m▌[0;1;31;41m▀[0;31m [0;1;31;41m▀[0m [31m■[0;37m whoever you are. I liked your version but mine is[0m
-[37m [0;34m [0;1;30m▄▄▄▄▄░[0;31m▐[0;31;45m█[0;31;40m▀ [0;1;30;40m▄▄▄▄▄▄▄▄▄[0m     better cause I made it ANSi! Respect to the scene.
- [1m [0mzeroVision 67 2oo8[0m'
+[37m [0;34m [0;1;30m▄▄▄▄▄░[0;31m▐[0;31;45m█[0;31;40m▀ [0;1;30;40m▄▄▄▄▄▄▄▄▄[0m     better cause I made it ANSi! Respect to the scene.[0m'

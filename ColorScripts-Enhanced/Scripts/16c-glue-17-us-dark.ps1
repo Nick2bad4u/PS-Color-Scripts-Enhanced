@@ -5,7 +5,7 @@
 # Source SHA-256: 9e93a62cb4f5689d365207972b18e93264b3700131ddea1c9ae7c1822de08eba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DARK.ANS by Rippa + Zfact0r (glue\poly); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dark Promo
 # SAUCE Author: zfact0r\rippa
 # SAUCE Group: glue\poly
@@ -38,4 +38,4 @@ Write-Host '
 [31;40m [0;30;41m▓░░[0;1;31;41m░[0;31m [0;30;44m▓▓░[0;34;40m▄[0;31;40m [0;1;31;41m▄▀[0;31m▀[0;37m [0;34m▄[0;1;34;44m▄█▀[0;34m ▐[0;1;34;44m▐█▄▄░▓▀[0;34m▀[0;37m   [0;34m▀ ▀[0;1;34;44m▒░[0;34m▀[0;1;34;44m░░[0;34m▌[0;37m [0;33m▐[0;1;31;43m▀[0;33m█[0;37m  [0;34m▄[0;30;44mi l l u s t r a t e d[0;31;40m [0;30;43m▓[0;31;40m   [0;1;31;43m░[0;30;43m░▓▓[0m
 [31;40m  [0;30;41m▓▓[0;31;40m [0;1;34;44m▓░[0;30;44m░[0;34;40m▌ [0m    [34;40m▐▀▀[0m    [1;34;44m▀▓▒▒[0;30;44m░[0;34;40m▀▌[0m     [34;40m░[0;30;44m▓░░░[0;34;40m [0;33;40m▬[0;31;40m [0;33;40m■▀[0;37;40m  [0;34;40m▄[0;30;44m░░[0;34;40m▀▀[0;1;34;44m [0;34m▌▄[0;1;34;44m░░[0;34m▀▀▀▄▀▀▌ [0;1;34;44m░░░░[0;34m▀[0;1;34;44m [0;34m▄[0m     [33m░[0;30;43m▓[0m
 [37;40m  [0;34;40m▄ ▀▀[0;30;44m▓▓[0;34;40m▀  [0m     [34;40m▀[0m    [34;40m▐[0;1;34;44m░[0;30;44m░░▓[0;34;40m ▀ ▄[0m     [30;44m▓▓▓[0m        [30;44m▓▓[0;34;40m  ▐▀▀[0m    [34;40m▀[0;37;40m   [0;34;40m▀  [0;30;44m░░░[0;34;40m  ▀▌  ▄▌[0m
-[37;40mzfact0r[0;1;30;40m([0;1;37;40mglue[0;1;30;40m)[0m          [30;44m▓▓[0m                                       [30;44m▓▓▓[0;34;40m [0;37;40mrippa[0;1;30;40m([0;1;37;40mpoly[0;1;30;40m)[0m'
+[37;40m       [0;1;30;40m [0;1;37;40m    [0;1;30;40m [0m          [30;44m▓▓[0m                                       [30;44m▓▓▓[0;34;40m [0;37;40m     [0;1;30;40m [0;1;37;40m    [0;1;30;40m [0m'

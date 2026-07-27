@@ -5,7 +5,7 @@
 # Source SHA-256: c09008c5fec53fe0fdf5e46bbe60b74f8bf95bfda39894c99be2dbcf56c8d6b7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MADNESS.ANS by Soul Trader (dox_9610); released in dox_9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -30,6 +30,4 @@ Write-Host '
          [1;35;45m▓▒▒░[0m     [1;35;45m▒░[0;35m▌[0;1;35;45m▓▒▒░[0m  [1;35;45m▒[0;35m▌[0;1;35;45m▓▒▒[0m    [1;35;45m▒[0;35m▌[0;1;35;45m▓▒▒[0m   [1;35;45m▓▒[0;35m▌[0;1;35;45m▓▒▒░[0m        [1;35;45m▓▒▒[0m    [1;35;45m▓▒▒[0m
          [1;35;45m▓▓▒▒[0m     [1;35;45m▓▒[0;35m▌[0;1;35;45m▓▓▒▒[0m  [1;35;45m▓[0;35m▌[0;1;35;45m▓▓▒[0;35m▄▄▄▄[0;1;35;45m▓[0;35m▌[0;1;35;45m▓▓▒[0m   [1;35;45m▓▓[0;35m▌[0;1;35;45m▓▓▒▒[0;35m▄▄▄▄ ▄▄▄[0;1;35;45m▓▓▒[0m [35m▄▄▄[0;1;35;45m▓▓▒[0m
 
-         [1;30;40m┌────   ── [0m─ ──  [1m─ ·· [0;1;32mi[0;32mLL[0;1;32mu[0;32mS[0;1;32mio[0;32mN[0;1;32ma[0;32mRY M[0;1;32ma[0;32mDN[0;1;32me[0;32mSS [0;1;37m·· ─  [0m── [1;30m── ─────┐[0m
-
-         [1;37mDon[0me.By[1;35m.Lor[0;35md.So[0;1;30mul.Trader.For.The.DoX.ANSi.Gro[0;35mup.7[0;1;35mo3.9[0m41.4[1m49o[0m'
+         [1;30;40m┌────   ── [0m─ ──  [1m─ ·· [0;1;32mi[0;32mLL[0;1;32mu[0;32mS[0;1;32mio[0;32mN[0;1;32ma[0;32mRY M[0;1;32ma[0;32mDN[0;1;32me[0;32mSS [0;1;37m·· ─  [0m── [1;30m── ─────┐[0m'

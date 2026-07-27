@@ -5,7 +5,7 @@
 # Source SHA-256: 7963ae2a1b4debac1751505267ec5ed763b08219c7b3d3fcd4762f4a7024f206
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-RUST1.ICE by Tetanus (ice9606a); released in ice9606a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -32,4 +32,4 @@ Write-Host '
 [31m ░▄[0;1;31;41m░░[0;31m▀▀[0;1;31;41m░░░[0;31m███[0;1;31;41m░░░▒▒▓[0;1;31;40m▀▀  [0;31m▀▀███[0;1;31;41m░░░[0;31m████▀▀ [0m     [31m▀▀█[0;1;31;41m░░ [0;31m▀████[0;1;31;41m░░▒▒▓[0;1;31;40m▀[0;1;31;41m▓▓▒▒[0;31m▀ [0;1;31;41m░░░[0;31m▀   ▀▀[0;1;31;41m░░[0;31m▌[0m
 [31m ▐▌[0m     [31m█▀   ▀▀[0;1;31;41m▒▒▓[0;1;31;40m▌[0m        [31m▀▀▀░[0m               [31m▀[0;1;31;41m▒░[0;31m▀[0m      [1;31m▀▀▌[0m      [31m▐▀[0m         [31m▀[0;1;31;41m░[0m
   [31m▀[0m              [1;31m▀[0;1;31;41m▓[0;1;31;40m▄ ░[0m      [1;30mr   U   s   t[0m      [31m▐▌ [0;1;30mansi by tetanus [ice][0m     [31m▐▌[0m
-[31m   ▀[0m               [1;31m▀▀ ▄ [0;1;30msysOp: corpcow[0m [1;30m& massm[0m [31m▀[0m                            [31m▀[0m'
+[31m   ▀[0m               [1;31m▀▀ ▄ [0;1;30m              [0m [1;30m       [0m [31m▀[0m                            [31m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 86819e4e639e36cdeb7e072d54984b1e8271ca39c57b22aee06f97ecdbe1bb76
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-USE0.ANS by The Night Angel + Avenging Angel (Hieroglyphics); released in hiero-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: I Am A TNA Rip-off
 # SAUCE Author: The Night Angel
 # SAUCE Group: Hieroglyphics
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30mpress alt-d for sauce! thats right.. think yall can fuck me..[0m    [30m heh =][0m
+[30m                                                             [0m    [30m       [0m
                                                                        [30m    [0m
 [34m░░░░░[0m       [34m                   [0m         [34m░░░░░░░░░░░░[0m        [37m░░░   [0;34m░░░░░░░░ [0m
 [34m░░[0m      [37m [0;1;30m▄[0m     [1;30m          [0;34m      [0;1;30m▄[0m▄[1;47m▄██[0;1;40m▄[0;1;30;40m [0m  [34m▓▓▓▓▓▓▓▓▓▓▓░[0;37m     [0;1;30m▄▄[0m▄▓▓░  [34m▓▓▓▓▓▓▓▓░[0m     [32m░[0m
@@ -38,13 +38,4 @@ Write-Host '
 [1;34;47m▀[0;1;34;44m▄[0;34m [0;1;36;46m▀[0;34m▐[0;1;34;47m▄▓[0;1;30;40m [0;34m  [0;37m [0;1;30m   ▀[0m▀▀▀[1;30m▀[0m▒▒▒▒▒[1;30m▄▄[0;36m▀▀▀[0;34m▄[0;1;34;44m▄[0;1;34;47m▓▓▀[0;1;34;44m▄[0;1;34;40m▒[0;1;34;44m░░▒▓▓[0;1;34;47m▓▓▓▓[0;34m▌▀▀▀▀▀[0m    [34m          ▓[0;1;34;47m▓▄[0;1;34;44m▀[0;34m▄▄[0;1;34;47m▓▀[0;34m▓  [0;1;34;47m░▄[0;34m▌[0m
 [1;34;44m▀[0;1;34;47m█[0;34m▄ ▄█[0;1;34;44m▀[0;1;30;40m [0;34m   [0;37m       [0;1;30m      [0;34m [0;1;30m  [0;34m   ▀[0;1;34m▀▀▀[0;34m▀▀▀▀▀      [0m     [34m              ░▓▓▓▓▓▀[0;1;34;44m█[0;1;34;47m█[0;34m░[0;1;36;46m▀[0;36m [0;1;34;47m▓[0;1;34;44m▀[0;34m [0m
 [1;30m▄[0;34m▀[0;1;34;44m▀[0;1;34;40m▒▒[0;34m▀[0;37m [0;34m     [0m            [34m [0;37m [0;34m    [0m          [1;30m      U s e d . .[0m       [34m░░░░░[0;37m [0;34m [0;1;34;44m▀ [0;34m▄ ▄██ [0m
-[1;30m   [0m    [34m     [0m            [34m  [0;37m  [0;34m  [0m                                   [34m       ▀[0;1;34m▒▒[0;1;34;44m▀[0;34m▀ [0;37m [0;34m [0m
-                        [34m  [0;37m  [0;34m  [0;37m [0;34m  [0m
-                         [34m     [0m
-[1;31;41mim overrated?, im [0;1;35;41ma ripoff?,[0;1;31;41m [0;1;36;47mfuck[0;1;37;47m you [0;1;32;47mtoo..[0m                           [34m [0m      [34m   [0m
-[37minspired by every positive motherfucker out there in the scene today, yall know[0m
-[37mwho you are.. [0;30mdee1, catch22, nitrifik, firefx, propane, cryogenic, mr wrong, [0m
-[30mthext, zerovision, mmang, somber, smoke, fever, cleaner, bym, avebm, zed3dee,[0m
-[30mzippy, argon, alla_xul, toot, ansichrist, president, reanim8r, 1986, delicious,[0m
-[30mstc, kitiara, slackzor, zeusII, and a bigass FUCK YOU to all inactive[0m
-[30mmotherfuckers out ther[0m             [30muck![0m'
+[1;30m   [0m    [34m     [0m            [34m  [0;37m  [0;34m  [0m                                   [34m       ▀[0;1;34m▒▒[0;1;34;44m▀[0;34m▀ [0;37m [0;34m [0m'

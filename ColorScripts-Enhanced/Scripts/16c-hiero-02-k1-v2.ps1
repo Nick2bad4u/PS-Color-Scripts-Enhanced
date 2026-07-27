@@ -5,7 +5,7 @@
 # Source SHA-256: b3e4649ba6e62abeea49dbb483dbee5814c2a02eb9e6ca6b0cba255e2df1443f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K1-V2.ANS by Knocturnal (Hieroglyphics); released in hiero-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Vision/2
 # SAUCE Author: Knocturnal
 # SAUCE Group: Hieroglyphics
@@ -33,8 +33,8 @@ Write-Host '
 [37m [0;1;30m  [0;31m█[0;1;30m [0;31m▄█▓▀▀[0;1;30m         [0m   [33m▄▓█▄[0;37m     [0;33m▀ [0;37m  [0;33m▒▒▒▒[0;37m     [0;1;33;43m▀[0m [33m▒[0;37m  [0;1;30m          [0;31m▀▀█▄▄▄▄[0;1;31;41m▄[0;1;31;47m█▓▓▓▓███[0;1;31;41m█[0;31m█[0;1;30m   [0m
    [31m█▌█▓[0m            [33m  ▄[0;37m [0;33m▀▀[0m      [37m               [0;33m░[0m                           [1;31;41m██[0;31m█[0m
    [31m███▒[0m                                                                   [1;31;41m██░[0m
-   [31m█[0;1;31;41m  [0;31m░[0;37m  This box is reserved for Vision/2 information. Any other use[0m    [31m░[0;1;31;41m██▒[0m
-   [31m█[0;1;31;41m░░[0m   than the above specified will result in a penalty of $1000 or   [31m▒[0;1;31;41m██▓[0m
-   [31m█[0;1;31;41m▒▒[0m   life in prison. Your choice. Don''t screw it up.                 [31m▓[0;1;31;41m███[0m
+   [31m█[0;1;31;41m  [0;31m░[0;37m                                                              [0m    [31m░[0;1;31;41m██▒[0m
+   [31m█[0;1;31;41m░░[0m                                                                   [31m▒[0;1;31;41m██▓[0m
+   [31m█[0;1;31;41m▒▒[0m                                                                   [31m▓[0;1;31;41m███[0m
    [31m█[0;1;31;41m▓▓[0m                                          [1;30m                     [0;31m▄▄▄[0;1;31;41m▬[0;31m█[0;1;31;41m▀[0;31m▀[0;1;31;41m▀[0m
    [31m█[0;1;31;41m█[0;1;31;47m▓▀█[0;1;31;41m█▓▓[0;1;31;40m▓▓[0;1;31;41m▒▒░░[0;1;31;40m▒▒[0;31m███████████████████████████████████████████[0;1;31;41m         [0;31m█▄▄[0;30;41mk1.[0m'

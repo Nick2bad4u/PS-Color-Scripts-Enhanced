@@ -5,7 +5,7 @@
 # Source SHA-256: 1b955fc2a52daa5588b418f3049abe54fa784c1e1782f0141d30c12015f2ada4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-MALP.ANS by The Night Angel (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Malpractice
 # SAUCE Author: The Night Angel
 # SAUCE Group: AWE Lettering
@@ -34,8 +34,8 @@ Write-Host '
 [1;30m▄[0;1;30;47m▀[0;1;30;40m█▀███▀ [0;1;37;40mM a l p r a c t i c e  [0;1;34;40m/  [0mm a i n  m e n u                    [1;30m▀  █[0;1;30;47m▄[0;1;30;40m███[0m
 [1;30;40m▀██▀  ▄[0m                                                                [1;30;40m▄[0;1;30;47m▀[0;1;30;40m██▄▀▀ ░[0m
 [1;30;40m▐█▀  ▀█▀ [0;1;36;40ma  [0;36mcommand a    [0;1;36mf  [0;36mcommand f    [0;1;36mk  [0;36mcommand k    [0;1;36mp  [0;36mcommand p  [0;1;30m▀███▀█▄▄▓[0m
-[1;30m█▀ ░[0m     [1;36mb  [0;36mcommand b    [0;1;36mg  [0;36mcommand g    [0;1;36ml  [0;36mcommand l    [0;1;36mq  [0;36mcommand q[0m       [1;30;47m▓[0;1;30;40m██▀[0m
-[1;30;40m██▄▓▐▄   [0;1;36;40mc  [0;36mcommand c    [0;1;36mh  [0;36mcommand h    [0;1;36mm  [0;36mcommand m    [0;1;36mr  [0;36mcommand r[0m      [1;30m▐[0;1;30;47m▄[0;1;30;40m██▌[0m
-[1;30;40m▀████▀   [0;1;36;40md  [0;36mcommand d    [0;1;36mi  [0;36mcommand i    [0;1;36mn  [0;36mcommand n    [0;1;36ms  [0;36mcommand s[0m     [1;30m▄▀ ███[0m
+[1;30m█▀ ░[0m     [1;36m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m         [0m       [1;30;47m▓[0;1;30;40m██▀[0m
+[1;30;40m██▄▓▐▄   [0;1;36;40m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m         [0m      [1;30m▐[0;1;30;47m▄[0;1;30;40m██▌[0m
+[1;30;40m▀████▀   [0;1;36;40m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m             [0;1;36m   [0;36m         [0m     [1;30m▄▀ ███[0m
 [1;30m█▀█[0;1;30;47m▀[0;1;30;40m██▄  [0;1;36;40me  [0;36mcommand e    [0;1;36mj  [0;36mcommand j    [0;1;36mo  [0;36mcommand o    [0;1;36mt  [0;36mcommand t [0;1;30m░▀▀   ▀▀▀[0m
 [1;30m ▀████▀ ─-─────-──────-─-─────-──-───-──────--─────-───-───--──-──( [0;1;36mcommand[0;36m: [0;1;5;37m_ [0;1;30m)[0m'

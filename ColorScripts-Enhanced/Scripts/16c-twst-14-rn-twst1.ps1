@@ -5,7 +5,7 @@
 # Source SHA-256: 86ceff89123da84f8102ae26e5d85b23fbcfd99a21d95bbc9e2531a8a323678a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RN-TWST1.ANS by The Ruiner (twst-14); released in twst-14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -52,11 +52,4 @@ Write-Host '
                [35m▐[0;1;35;45m▐█[0m  [35m█[0;1;35;45m█[0;1;35;40m▄[0;1;35;45m▄[0;1;35;40m▌[0;35m █[0;1;35;45m█[0;35m [0;1;35;45m░ [0m    [34m▐[0m     [34m ▀[0;37m [0;35m▐[0;1;35;45m▐█[0;1;35;40m▌[0m [34m▐[0;1;34;47m▓[0;1;34;40m▀[0;35m▐[0;1;35;45m▐[0;1;35;40m▌[0;35m [0;34m▀[0;1;34m▀▌[0m [35m▄[0;1;35;45m▄█[0;1;35;40m▀[0m      [35m▐[0;1;35;45m▐[0;1;35;40m▌[0m
                 [35m█[0;1;35;47m▓[0;1;35;40m▌[0m [35m▐[0;1;35m▀[0;35m  ▀[0;1;35;45m▀[0;1;35;47m▓[0;1;35;40m▌[0;35m ▀[0;1;35;45m [0m [34m [0m         [35m▄[0;1;35m▄[0;35m▀[0;1;35m▀[0m   [34m ▌[0;37m [0;35m░▓[0;1;35;45m█[0;1;35;40m▀[0;35m  ▄[0;1;35m▄[0;1;35;45m▄█[0;1;35;40m▌[0m  [34m█▓░░[0;37m  [0;1;35;45m █[0m
                [35m▀[0;1;35;45m▀█[0;1;35;40m▀[0m  [34m    [0;35m [0;1;35;45m▐[0;35m░ ▐[0;30;45m░▓▓[0m        [35;40m [0m        [34;40m [0;37;40m  [0;35;40m▐[0;1;35;45m▐█[0;1;35;40m▀▀▀▀▀[0;1;35;45m▓▓[0;1;35;40m▄[0m       [35m▐[0;1;35;45m▐[0;1;35;40m▌[0m
-             [34m               [0;37m [0;35m░[0;30;45m▓[0;35;40m [0;34;40m [0m                 [34;40m▄[0m   [35;40m     [0;1;35;40mrn[0m  [35m▀[0;1;35m▀▀[0;35m▄[0;1;35m▄▄[0;1;37m▄▄[0;35m▀[0;1;35;45m▀█[0m
-          [34m                  [0m    [34m [0m
-
-        [1;37mi haven''t been  ''round much lately,  but now that summer''s here[0m
-        [1mi''ll be drawerin alot more. (i hope) this is an old pic i found[0m
-        [1mlying around. i touched it up a bit and added a font. [0m
-
-        [1mhAPPY sUMMER y''all.[0m                             [1mrUIN[0;1;35m([0;1;37mer[0;1;35m)[0;1;37m >> tHE[0m'
+             [34m               [0;37m [0;35m░[0;30;45m▓[0;35;40m [0;34;40m [0m                 [34;40m▄[0m   [35;40m     [0;1;35;40mrn[0m  [35m▀[0;1;35m▀▀[0;35m▄[0;1;35m▄▄[0;1;37m▄▄[0;35m▀[0;1;35;45m▀█[0m'

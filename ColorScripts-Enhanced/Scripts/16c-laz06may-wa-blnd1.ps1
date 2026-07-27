@@ -5,7 +5,7 @@
 # Source SHA-256: 2c949dede7c3f9f83be4547a81976f907ed048b2f1b2f4eac3872fb146ba6b32
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WA-BLND1.ANS by warpus (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blender
 # SAUCE Author: warpus
 # SAUCE Group: lazarus
@@ -29,11 +29,6 @@ Write-Host '
 [37;40m  [0;34;40m░░[0;30;44m▓[0;34;40m░[0;37;40m [0;32;40m █[0;1;33;42m▄▄▐▓[0;32m  ▄[0;1;32m▄[0;1;32;42m▄[0;1;32;40m▀▀▀ [0;32m ▐[0;1;33;42m▄▐▌[0;1;32;42m▐[0;32m [0;34m░[0;30;44m▓[0;34;40m░  [0;32;40m ▀▀▀▀█▄▄█[0;1;32;42m░░[0;32m [0;34m░[0;30;44m▓[0;34;40m [0;32;40m█[0;1;32;42m▀[0;1;32;40m▄[0;32m█▀█[0;1;32;42m░▓[0;1;32;40m▄▄[0;32m [0;34m░[0;30;44m▓[0;34;40m░[0;32;40m ▄▄▄▄[0;1;32;42m ▄█[0;1;32;40m▀▀[0;32m [0;34m ░[0;30;44m▓▓[0;34;40m  [0m
         [1;33;40m     [0;1;32;40m▐▀▀[0m      [32m [0m                [32m  [0;37m  [0;32m░[0;30;42m▓[0;32;40m [0m        [32;40m█[0;32;42m [0;32;40m▀▀▀▀▀▀▀▀▀[0m
 
-     [32;40m          [0m   [32;40mblender[0;1;32;40m  IT''S BETTER THAN THREE DEAD OTTERS[0m
+     [32;40m          [0m   [32;40m       [0;1;32;40m                                    [0m
                                   [34m [0m
-[1;30m--------[0m
-
-[1;30moldschool warpus style is back.[0m
-
-[1;30mnote: an ansi in which people will be greeted in shall be released in the next [0m
-      [1;30mpack.  i''m not doing it now because it''s 5:30am.  bye :)[0m'
+[1;30m--------[0m'

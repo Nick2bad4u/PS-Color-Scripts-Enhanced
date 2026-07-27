@@ -5,7 +5,7 @@
 # Source SHA-256: 456ccec36b7e901c433601a733ebe6445293d2354ad27552fd20e8c6e80c1071
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SAS!LSD1.ANS by sasAfras (apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lucid sweet dreams
 # SAUCE Author: sasAfras
 # SAUCE Group: apathy
@@ -33,6 +33,6 @@ Write-Host '
                  [1;36;46m░[0m          [1;36m▐[0;1;36;46m▓[0;1;36;40m▌[0m                               [36m▐[0m
                  [36m▐[0m          [1;36m [0;36m▀[0;1;36m [0m                               [36m▐ [0m
                  [36m▐ [0m                                           [36m█[0m
-                 [36m█[0m          [1;30m![0mlogoby[1msasAfras[0mofapathy[1;30m![0m         [36m▐[0;1;36;46m▓[0;36m▌[0m
+                 [36m█[0m          [1;30m [0m      [1m        [0m        [1;30m [0m         [36m▐[0;1;36;46m▓[0;36m▌[0m
                 [36m▐[0;1;36;46m▓[0;36m▌[0m                                           [36m▀[0m
                  [36m▀[0m'

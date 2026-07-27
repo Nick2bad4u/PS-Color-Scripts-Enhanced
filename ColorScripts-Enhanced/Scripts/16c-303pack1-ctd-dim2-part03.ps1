@@ -5,7 +5,7 @@
 # Source SHA-256: f172cd3a068f64e2cccc96e3dea7dbeb70336b45ca3fe1dada60825754afaf16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CTD-DIM2.ANS by Crash Test Dummy ([3o3]art'97); released in 303pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cl. Dimension pic. .. .
 # SAUCE Author: Crash Test Dummy
 # SAUCE Group: [3o3]art'97
@@ -46,11 +46,6 @@ Write-Host '
 
 [1;30m---(cut..cut)-------------------------------------------------------------------[0m
 
-        [1;30mA fishing inspired pic to Claustrophobic Dimension .. =)[0m
-        [1;30mI changed my handle this month . . from[0m [1;30m"Buggie" to [0m
-        [1;30m..?guess?.. =) .. [0m
-
-        [1;30mI''d also like to say hello to these guys ..[0m
-        [1;30mNiBC^3o3, Skylord, pLC, ^red, dbn, vibr8,[0m [1;30mbym, .. [0m
-        [1;30mThat''s it .. laj73r0n !![0m
-        [1;30m//[0;35mCra[0;1;35msh^[0;1;32mtd[0m'
+        [1;30m                                                        [0m
+        [1;30m                                       [0m [1;30m            [0m
+        [1;30m..?guess?.. =) .. [0m'

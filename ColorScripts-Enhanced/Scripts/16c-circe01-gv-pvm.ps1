@@ -5,7 +5,7 @@
 # Source SHA-256: f5aa086e113f4ff591c9356e31062dc14258b81e43a9be5477e2021012e364c6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GV-PVM.ANS by groove (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pvngas
 # SAUCE Author: groove
 # SAUCE Date: 19970803
@@ -29,7 +29,7 @@ Write-Host '
 [1;34m$[0;30;44m$$[0;34;40m$''[0;1;31;40m,$$[0;35m$$[0;1;35m$[0;35m$$,[0;1;34m`[0;34m$''[0;1;35m,d$[0;35m$$[0;1;35m$$''[0;34m╓,[0;1;35m`$[0;1;31;45m$[0;1;35;40m$$$$[0;35m$$[0;1;35m$$bd$$P╜²[0;35m''[0;34m,[0;37m [0;1;31m$[0;1;35m$[0;35m$[0;1;35m$$$[0;35m$[0;1;35m$b,. .[0;34m %S$░$[0;37m [0;1;31m$[0;1;31;45m$[0;1;35;40m$$[0;1;37;40m$$$[0;1;35;40m''[0;34m,$[0;1;34m$[0m
 [1;34m$[0;34m$$$ [0;1;35m$[0;1;31m$$[0;1;35m$$$[0;35m$$$bs[0;1;35md$$P╜²''[0m [34m$$$$ [0;1;35m`²╜╙╜╜╜╜╜''[0;34m««««««`[0;1;30m [0m [1;35m`$[0;1;31;45m$[0;1;35;40m$P╜²''[0;34m ««««d$$[0;30;44m$$[0;34;40m$,[0;1;31;40m`[0;1;35;40m$P[0;1;37;40m╜²''[0;34m,$[0;30;44m$[0;1;34;40m$$[0;34m [0m
 [1;34m$[0;34m$$$ [0;1;35m$[0;1;31;45m$[0;1;35;40m$$$[0;1;31;45m$[0;1;35;40m$b,[0m   [1m`"ⁿⁿ ++ [0;34m [0;1;37m, , .[0m   [1m.[0m    [1m, [0;34m$ [0;1;37m, ++ⁿⁿ"''[0m [34m        [0;37m  [0;34m`²╜Q$$b,,s%S$[0;1;34mP╜²''[0m
-[34mT!T!,[0;1;35m`$$$$$$[0;1;31m$''[0;34m [0;1;37mp[0mungas de [1mv[0milla [1mm[0martelli [34m,$,  [0;1;30m [0;34m                  [0;1;30m  [0;34m `╙╙$$[0;37;44mgroove[0;34;40m  [0m
+[34m     [0;1;35m       [0;1;31m  [0;34m [0;1;37m [0m         [1m [0m     [1m [0m        [34m     [0;1;30m [0;34m                  [0;1;30m  [0;34m  ╙╙  [0;37;44m      [0;34;40m  [0m
 [34;40m!:!:''[0;1;37;40m,$[0;1;35;40m$$[0;1;31;45m$[0;1;35;40m$[0;1;31;40m$$b,, ,[0m     [34m     [0;37m  [0;34m.[0;37m  [0;34m.[0;37m  [0;34m..,d$$$b,..[0;37m  [0;34m.[0m   [34m     [0;37m [0;34m.[0m          [34m)[0;1;34m$,[0m
 [34m:.:''[0;1;37m,$$$[0;1;35mP╜[0;1;31m²''[0m            [34m  [0;37m [0;1;30m        [0m   [34m`²$$$²''[0;1;30m   [0m      [34m  [0m      [34m.[0;37m  [0;34m.[0;37m [0;34m.,d$$[0;1;34m$b,.[0m
 [34m. . [0;1;37m╜²''[0m                [34m  [0m               [34m`!''[0m           [34m [0m              [34m`²[0;1;34m$'' [0m

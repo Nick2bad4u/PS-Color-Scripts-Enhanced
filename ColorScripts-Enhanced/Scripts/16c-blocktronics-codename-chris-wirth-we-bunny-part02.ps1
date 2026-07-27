@@ -5,7 +5,7 @@
 # Source SHA-256: 81d7faf761691c30bb6b6cd917e67eed817003beba8e923dbeb73c826fd17517
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-bunny.ans by Ober + Enzo (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 34-65
 # Columns: 1-80
 
@@ -25,9 +25,9 @@ Write-Host '
                   [1;30m█[0m [1;30m█[0m            [34m [0;1;30m [0;34m [0m              [32m▀[0;1;32;42m▀▀[0;32m▀[0m
                   [1;30m█[0m [1;30m█[0m
                  [1;30m █▄█[0m
-                 [32m [0;1;30m▀[0;1;30;46m▄[0;1;30;40m▀[0m           [1;30m_[0m [1;30manother ansi trip by[0m [1;30menz[0;36mOber[0;1;30m ■[0m [1;30mSHOCKTRONICS[0m
+                 [32m [0;1;30m▀[0;1;30;46m▄[0;1;30;40m▀[0m           [1;30m [0m [1;30m                    [0m [1;30m   [0;36m    [0;1;30m ■[0m [1;30m            [0m
 
-                                                    [1;30mfinished in May 16th 2009[0m
+                                                    [1;30m                         [0m
 
 
 

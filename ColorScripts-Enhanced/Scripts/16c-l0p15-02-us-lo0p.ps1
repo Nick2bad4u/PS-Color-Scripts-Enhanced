@@ -5,7 +5,7 @@
 # Source SHA-256: c364d28a532a8c5c0d84db9f4e6b8530c6ab4f033572d805ccc5c9945ee98d4f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LO0P.ANS by Aesthetic + Simonking (thelo0p); released in l0p15_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: thelo0p logo
 # SAUCE Author: aesthetic^simonking
 # SAUCE Group: thelo0p
@@ -35,5 +35,5 @@ Write-Host '
              [31m▐░[0;37m  [0;31m▀[0m                        [1;30m [0m
              [31m▀[0m
 
-[1;33mlogo''s outline: [0maesthetic/jASPER [5m░[0m
-[1;33mshading.b/g/rest: [0msIMONkING/thelo0p^iMPURe1940 [5m░[0m'
+[1;33m                [0m                 [5m░[0m
+[1;33m                  [0m                             [5m░[0m'

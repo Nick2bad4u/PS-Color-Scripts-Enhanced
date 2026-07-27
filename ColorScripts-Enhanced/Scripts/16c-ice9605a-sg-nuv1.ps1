@@ -5,7 +5,7 @@
 # Source SHA-256: 833c490a87358677d4a561077879e92431ca2af94f65d3b996680259423141d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SG-NUV1.ICE by Snake Grunger (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -23,7 +23,7 @@ Write-Host '
 [37m [0;33m▀▄[0;37m  [0;1;30m▀[0m▀[1;30;47m▄▄[0;1;37;47m ▀[0;1;37;40m▀[0m▀      [1;31;43m▓[0m     [33m▀[0;1;31;43m▐[0;1;31;40m█[0;1;31;47m▀[0;1;31;40m███▄█▀[0m   [1;30m Handle [0m [[1;30m           [0m                ] [33m░▓[0m
 [33m▄[0;37m   [0;33m▀[0;37m  [0;33m▄[0;37m           [0;1;31m▐[0;1;31;47m▓[0;1;31;40m▄[0m    [33m▐[0;1;31;43m▐[0;1;31;47m▌ █[0;1;31;40m▌▐[0;1;31;47m▒▀[0;1;31;40m▌[0m  [1;30m Age [0m [[33m   [0;37m]  [0;1;30mAffils [0m [               ] [33m▒█[0m
 [33m▒      [0;1;30m [0m          [1;31m▄█[0;1;31;47m▄[0;1;31;40m▀▀▀[0m [33m▄[0;1;31;43m▄[0;1;31;40m███▀▀[0m [1;31m▀▀[0m   [1;30m Area Code [0m [[33m   [0;37m]  [0;1;30mShoe Size[0m  [      ] [33m▓▓[0m
-[33m▄   [0;1;30m [0m           [1;31m▀[0m    [33m▄[0;1;31m▄[0;1;31;43m▄[0;1;31;40m▀▀▀[0m [1m▄[0m  [1;47m ▄[0m▄    [1;30m Sex [0m [[33m   [0;37m   ]  [0;1;30mGrade[0m  [             ] [33m▓█[0m
+[33m▄   [0;1;30m [0m           [1;31m▀[0m    [33m▄[0;1;31m▄[0;1;31;43m▄[0;1;31;40m▀▀▀[0m [1m▄[0m  [1;47m ▄[0m▄    [1;30m     [0m  [33m   [0;37m      [0;1;30m     [0m                  [33m▓█[0m
 [33m █▀       [0;1;30m [0m    [33m▄[0;1;31m▄[0m [33m▀[0;1;31m▀[0m [1m▄[0m  [1m▄█▄▀██▄[0m ▀[1;47m▀▄[0m                                          [33m▒█[0m
 [37m [0;33m▀▄▄▀[0;37m      [0;33m▄▄▀[0;1;31m▀[0m ▄[1m▄▌▐██▌▐███▌▐██▌[0m ▐[1;47m [0m▌    3 Users you know with area code.     [33m▓▓[0m
 [37m         [0;33m▄▀[0;37m ▄ ▐[0;1;37;47m▐[0;1;37;40m██[0m [1m▐██▌████▀██▀[0m  ▀      [                                  ] [33m▒█[0m

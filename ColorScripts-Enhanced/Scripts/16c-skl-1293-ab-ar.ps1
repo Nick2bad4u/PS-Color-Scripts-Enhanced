@@ -5,7 +5,7 @@
 # Source SHA-256: 8381d92a0dfec43ae45f4a6180ca1d7ceb2a4def42b25e2ec33a6f0263669605
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-AR.ANS by Abomination (skl-1293); released in skl-1293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -27,10 +27,10 @@ Write-Host '
          [1;30m┌─[0;31m─[0;1;31m─[0m─[1m──    ─[0m─[1;31m─[0;31m─[0;1;30m─────────────────────────[0;31m─[0;1;31m─[0m─[1m─    ───[0m─[1;31m─[0;31m─[0;1;30m─┐[0m
          [1;30m│ [0m┌[1m─[0m                 [31m∩ [0;1;30mÆiR RAiD [0;31m∩[0m                   [1;37m─[0m┐ [1;30m│[0m
          [31m├[0;1;31m┌┤[0m              [31m∩ [0;37m51O [0;1;30m- [0m284 [1;30m- [0m2613 [31m∩[0m                [1;31m├┐[0;31m┤[0m
-         [31m│[0;37m│[0m      [31m∩ [0;1;30mWWIV v4.22 Modded [0;31m∩ [0;1;30mHome of LiGHTnet [0;31m∩[0m      [37m│[0;31m│[0m
-         [1;31m│    [0;31m∩ [0;1;30mSysOp [0;31m: [0;1;30mAce [0;31m∩ [0;1;30mRemote [0;31m: [0;1;30mAbomination [0;31m/ [0;1;30mRyoka [0;31m∩    [0;1;31m│[0m
-         │ [31m∩ [0;1;30mWWIVnet [0;31m/ [0;1;30mORiON WHQ [0;31m/ [0;1;30mWEASnet [0;31m/ [0;1;30mFOXnet [0;31m/ [0;1;30mWARPnet [0;31m∩ [0;37m│[0m
+         [31m│[0;37m│[0m      [31m  [0;1;30m                  [0;31m  [0;1;30m                 [0;31m [0m      [37m│[0;31m│[0m
+         [1;31m│    [0;31m  [0;1;30m      [0;31m  [0;1;30m    [0;31m  [0;1;30m       [0;31m  [0;1;30m            [0;31m  [0;1;30m      [0;31m     [0;1;31m│[0m
+         │ [31m  [0;1;30m        [0;31m  [0;1;30m          [0;31m  [0;1;30m        [0;31m  [0;1;30m       [0;31m  [0;1;30m        [0;31m  [0;37m│[0m
          [1;37m│[0m                                                      [1;37m│[0m
           [1;37m─[0m─[1;31m─[0;31m─[0;1;30m─────────────────────────────────────────────[0;31m─[0;1;31m─[0m─[1m─[0m
 
-                     [1;35m/┤nsi by  [0;1;37mA[0mb[1;35mo[0;35mminat[0;1;35mi[0mo[1mn [[0mS[1;35mK[0;35mi[0;1;35mL[0mL[1m][0m'
+                     [1;35m ┤        [0;1;37m [0m [1;35m [0;35m     [0;1;35m [0m [1m   [0m [1;35m [0;35m [0;1;35m [0m [1m [0m'

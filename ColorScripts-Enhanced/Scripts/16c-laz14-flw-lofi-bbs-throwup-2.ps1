@@ -5,7 +5,7 @@
 # Source SHA-256: b43976c5ff474ae9a51a9ecb54751daca7fdf986ab55ec13b8333cc8d2790f77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: flw-lofi-bbs-throwup 2.ans by Flewid (Lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lofi BBS
 # SAUCE Author: Flewid
 # SAUCE Group: Lazarus
@@ -39,5 +39,5 @@ Write-Host '
   [30m▒[0;1;37m└███▄[0m       [34m░░▒▓▓[0;1;34m▓▓▓[0;35m█████████████████[0;37m    [0;35m███████▀[0;37m   [0;35m▄█████[0;5;35;45mhi[0;1;35;45mhifi[0m  [30m▓[0;1;37m▄██▀[0m
    [35m▄[0;1;35m▄.[0;1;37m▀█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██▀[0m
    [35m·[0;1;35m.▄[0;35m▄[0;37m [0;30m▒▒▒[0;37m                                                    [0;30m▓▓▓▓▓[0;37m [0;30m▓▓[0m
-[37m           [0;1;35m¡[0;35m! [0;1;35mtelnet[0;35m://[0;1;35mlofi.ooo ¡[0;35m! [0;1;35mh[0;35m/[0;1;35mp[0;35m/[0;1;35ma[0;35m/[0;1;35mc[0;35m/[0;1;35mv ¡[0;35m! [0;1;35menigma ½ ¡[0;35m![0;37m [0;35mfsxNet [0;1;35m¡[0;35m![0;37m [0;30m▒[0;37m [0;30m▒▒[0m
+[37m           [0;1;35m [0;35m  [0;1;35m      [0;35m   [0;1;35m          [0;35m  [0;1;35m [0;35m [0;1;35m [0;35m [0;1;35m [0;35m [0;1;35m [0;35m [0;1;35m   [0;35m  [0;1;35m          [0;35m [0;37m [0;35m       [0;1;35m [0;35m [0;37m [0;30m▒[0;37m [0;30m▒▒[0m
 [37m                                                 [0;30;47m█[0m'

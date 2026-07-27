@@ -5,7 +5,7 @@
 # Source SHA-256: 244677463a77f2e4b28ee51b350f13fb209809fee3d431d4dd2c404c8c410380
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-ebol2.ans by Meatpod (ftube000); released in ftube000 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -32,11 +32,4 @@ Write-Host '
                     [34m `[0m       [1;34m [0m  [32m└`[0m   [1;32m$[0;32m;[0;1;32m  $[0;32m;[0;1;32m  [0;32m;[0;1;32m$$[0m   [32m;[0;1;32m$$$[0;32m\[0;1;36m $$$$$$[0;36m.┌[0;37m [0m
                        [1;34m [0m         [1;34m  [0m [32m``[0;1;32m  [0;32m;[0;1;32m$   $$[0;32m;[0m   [32m"`[0;36m.,┌[0;1;36m%│$$$$$P[0;36m''[0m
                  [37me  b  o  l  a  .[0m      [1;32m    [0m           [36m`└[0;1;36m$$$$$P[0;36m''[0m
-                                                         [36m`└[0;1;36mP[0;36m''[0m
-
-[37m[ebola]------------------------------------------------- - - - -- fuck you -----[0m
-
-[37mit says ebola... I did this because I felt like it.  I don''t even fucking[0m
-[37mremember who runs ebola, but fuck it.  and fuck you.[0m
-
-[37mmeatpod[0m'
+                                                         [36m`└[0;1;36mP[0;36m''[0m'

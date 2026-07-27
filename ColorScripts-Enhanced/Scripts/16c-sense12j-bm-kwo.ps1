@@ -5,7 +5,7 @@
 # Source SHA-256: 7a0eacc9a245a55b038c44a2d57cfb76b153d215f28b63636ff93db6f21d34cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM-KWO.ANS by Aesthetic + Avenging Angel (SENSE); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kLOCKwERKoRANGE
 # SAUCE Author: balkan madness(tm)
 # SAUCE Group: SENSE
@@ -40,8 +40,4 @@ Write-Host '
    [1m▓[0;1;47m████▀[0;1;30;47m ▄▄▄[0;1;30;40m█████▀▀▀▀▀▀[0m▀▀             [1;30;47m▀[0;1;37;47m░▓░[0;1;30;47m ▒▒[0;1;30;40m██▒[0m       [1;30m▀[0m▀▀▀▀     ▀▀ [1;30m▄▄▄[0;1;30;47m▓▓[0;1;30;40m▀▀[0m
             [1;30m▄▄▄[0m▄▄[1;30;47m▀▀▀▀█▓▓▓█[0m              [1m░▒[0m                           [1;30;47m▓[0m     ▄▄
    ▌[1;47m▐[0m▐[1;47m████[0m█ [1;30m██[0;1;37;47m▄███▒▒[0;1;30;47m▄[0;1;30;40m▀▀[0;1;30;47m▓▓▓▓▓░░░ [0;30;47mklockwork[0;1;37;47m░[0;30;47m(orange).[0;37;40m█►[0;30;47m►[0;37;40m██▓▓░░ ░░▓▓[0;1;30;47m░▓▓▓▓[0m █[30;47m(kwo)[0m
-                                         [1;37;40m░[0m
-
-   [1mmarking the return of the ansi idiots from the land down under, where[0m
-   [1mwomen glow and men plunder. do you come from the land down under?[0m
-   [1;30miam godlike and god.. fear me, pray to me, and i shall give you a donut[0m'
+                                         [1;37;40m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: d50a4f90c5445f9b30388471435dbbba861accb1b946211884efdc02fb22e47f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-WM1.ANS by Spearfx (The Used Coalition); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wicked Minority
 # SAUCE Author: Spearfx
 # SAUCE Group: The Used Coalition
@@ -48,5 +48,4 @@ Write-Host '
                     [37m  [0;32m▀▀▀▀[0;37m [0;32m█[0;1;32;42m█▓▓░░[0;32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0m      [32;40m░░▓▓█[0;1;32;40m██[0;1;32;42m██[0;1;32;40m████[0;1;32;42m▀▀▀[0;1;32;40m▀[0;32m▀▀▀[0;37m    [0m
                                   [32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0m         [32;40m▀▀[0;1;32;40m▀▀[0;32m▀▀▀[0;37m      [0m
 
-                          [37mW I C K E D  M I N O R I T Y[0m
-    [37mFunk-a-fied(tm) logo by that cool cat spear[fx] of the used coalition[0m'
+                          [37mW I C K E D  M I N O R I T Y[0m'

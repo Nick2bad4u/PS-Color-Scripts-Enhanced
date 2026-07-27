@@ -5,7 +5,7 @@
 # Source SHA-256: 2f285b6244b23c480a48c0872c3001cfc940ac063823a69abac68b8b024aa3cd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-TER01.ANS by Drakula (tsd-1); released in tsd-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 40-83
 # Columns: 1-80
 
@@ -50,7 +50,7 @@ Write-Host '
                                             [31m░█▒[0;34m▲[0;37m│[0m       [31mL[0;34mΘG¡N [0;31m¡[0;34m∩ [0;31mß[0;34mß$[0m        [37m│[0;34m▲[0;1;30m│[0m
                                             [31m▒█[0;1;30m│[0m2[1m│    [0;31mÆ[0;34mPPL¥ [0;31mÆ[0;34m$ [0;31mÆ ∩[0;34mεW [0;31mU[0;34m$εR    [0;1;37m│[0m2[1;30m│[0m
                                              [31m▓[0;1;30m│ [0;1;37m│[0m      [31mß[0;34mεG [0;31mF[0;34mΘR [0;31mT[0;34mHε [0;31m∩[0;34mUP[0m      [1;37m│ [0;1;30m│[0m
-                                             [31m▒[0;1;30m│ [0;1;37m│[0m     [31mL[0;34mεÆVε [0;31mM[0;34m$G [0;31mT[0;34mΘ [0;31mS[0;34m¥$ΘP    [0;1;37m│ [0;1;30m│[0m
+                                             [31m▒[0;1;30m│ [0;1;37m│[0m     [31m [0;34m     [0;31m [0;34m   [0;31m [0;34m  [0;31m [0;34m        [0;1;37m│ [0;1;30m│[0m
                                              [31m░[0;1;30m│[0m8[1m│[0m        [31mC[0;34mHεCK [0;31mF[0;34mΘR [0;31mÆ[0;34mXX[0m      [1;37m│[0m8[1;30m│[0m
                                               [1;30m│[0;34m▼[0;1;30m│[0m           [31mH[0;34mÆ∩G[0;31mU[0;34mP[0m          [1;30m│[0;34m▼[0;1;30m│[0m
                                               [1;30m└─┴────[0m──────[1m─────────═[0;1;30mT[0mS[1;30mD[0;1;37m═───[0;1;30m┴─┘[0m'

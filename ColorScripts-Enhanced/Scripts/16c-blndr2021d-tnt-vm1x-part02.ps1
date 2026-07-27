@@ -5,7 +5,7 @@
 # Source SHA-256: baf9b6512fbddc1f523af68392544b147b6f7d9fcc2110e9265fffbed657161c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt-vm1x.ans by tainted (blocktronics); released in blndr2021d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dirty, classy, bloody glassy!
 # SAUCE Author: tainted
 # SAUCE Group: blocktronics
@@ -54,15 +54,13 @@ Write-Host '
 [37m                          [0;31m█[0;37m  [0;31m▀▀█[0;37m [0;31m▀▀█[0;37m [0;31m█[0;37m [0;31m█[0;37m [0;31m█▀[0;37m   [0;31m▄█▄█▄[0;37m  [0;31m█[0m
 [37m                         [0;31m▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▀[0;37m [0;31m▀▀▀[0;37m   [0;31m▀[0;37m [0;31m▀[0;37m  [0;31m▀▀▀[0m
 
-[37m                                    [0;31missue[0;37m [0;31m#1[0m
+[37m                                    [0;31m     [0;37m [0;31m  [0m
 
-[37m                          [0;1;30mdirty[0m [1;30mclassy[0m [1;30m|[0m [1;30mbloody[0m [1;30mglassy[0m
-
-
-                 [1;31mnocturnal[0m [1;30mm[0m [1;30mi[0m [1;30mx[0m [1;30mo[0m [1;30ml[0m [1;30mo[0m [1;30mg[0m [1;30my[0m   [1;30mm[0m [1;30ma[0m [1;30mg[0m [1;30ma[0m [1;30mz[0m [1;30mi[0m [1;30mn[0m [1;30me[0m [1;30m░░[0m
+[37m                          [0;1;30m     [0m [1;30m      [0m [1;30m [0m [1;30m      [0m [1;30m      [0m
 
 
-                             [1;30mtainted[0m[blocktronics]
-[1;30m--------------------------------------------------------------------------------[0m
+                 [1;31m         [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m   [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m [0m [1;30m░░[0m
 
-           [1;30mgreets to filth, tcf and whazzit - i stole your styles =)[0m'
+
+                             [1;30m       [0m              
+[1;30m--------------------------------------------------------------------------------[0m'

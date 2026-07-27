@@ -5,7 +5,7 @@
 # Source SHA-256: 01d66c2df8aac2aadba5bcdced25e90bb0ad2d01da0ae64a389cf02c5afe8f85
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PLZ-SNS!.ANS by Plazz (Sense); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sense Imagery
 # SAUCE Author: Plazz
 # SAUCE Group: Sense
@@ -42,10 +42,4 @@ Write-Host '
                 [1;30m▀██[0;1;30;46m▄[0;1;30;40m█▀[0m
 
 
--------------------------------------------------------------------------------
-
-this is basically for anyone... if you''re a sense member board, sense head
-quarters, whatever, use it if you want. even if you just have sense art packs
-you''re welcome to use it. not exactly the best in the world
-
-greets to everyone but especially jinx, enzo and charactor zero[0m'
+-------------------------------------------------------------------------------[0m'

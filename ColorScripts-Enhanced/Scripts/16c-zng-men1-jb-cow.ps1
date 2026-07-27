@@ -5,7 +5,7 @@
 # Source SHA-256: 5e3e1aa58c2485eef4b876768669c5648f97a02e696037bd8bc9ad8ca9104b42
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JB-COW.ANS by Jail Bird (zng-men1); released in zng-men1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
 [1;34;44m█▓▓▓▓█▓▓█▓▓▓▓▓▓█[0;1;34;40m▄[0;1;30;40m▀▄[0;36m▀[0;1;36;46m▀██[0;1;36;40m█▀▀[0;1;30;40m▄▄▀[0;1;34;40m▄█▄[0;1;30;40m▀▄[0;36m▀[0;1;36;46m▀[0;1;36;40m█▄▄▄▄█[0;1;36;46m▄[0;1;36;40m█▀[0;1;30;40m▄▀ [0;1;34;40m▀[0;1;34;44m█▓[0;1;34;40m▀ ▀[0;1;34;44m▓█▓█▓▓▓█[0;1;30;40m···the''jb''in my···[0m
 [1;34;44m█▓▓██[0;1;34;40m▀  ▀[0;1;34;44m▓▓██[0;1;34;40m█▀ ▀█▄[0;1;30;40m▀▄[0;36m▀[0;1;30m▄▄▀▀  [0;1;34m▀   ▀▄[0;1;30m▀▄▄[0;36m▀[0;1;36m▀▀▀▀[0;1;30m▄▄▀[0m     [1;34;44m█[0m    [1;34;44m▓█[0;1;34;40m▀▀  ▀▄[0;1;30;40m··header;barb,sf·[0m
 [1;30;40m [0;1;34;44m▓█[0;1;34;40m▀[0m      [1;34;40m▀[0;1;34;44m█▓[0m      [1;34;40m▀▄[0;1;30;40m▀[0m               [1;30;40m▀▀▀▀▀[0m             [1;34;40m▐▌[0m      [1;34;40m▌[0;1;30;40m·vn,doc,tm,r²,··[0m
-[1;30;40m [0;1;34;40m▐▌[0m         [1;34;40m▌[0m                                           [1;34;40m▀[0m     [1;34;40m▐[0;1;30;40m··nf,dm,and all··[0m
+[1;30;40m [0;1;34;40m▐▌[0m         [1;34;40m▌[0m                                           [1;34;40m▀[0m     [1;34;40m▐[0;1;30;40m                 [0m
 [1;30;40m  [0;1;34;40m▀[0m                     [31m▄[0m               [31m▄[0;1;31;41m░ [0;31m▄[0m                 [1;34m▄▀[0;1;30m··the rest I 4got[0m
                      [31m▄▄█[0;1;31;41m░[0;31m▌[0m              [31m▀[0;31;41m [0;1;31;41m░  [0;31m▄[0m         [1;34m▄▀   █▀▀▄   ▄▀▀▄[0m
                    [33m▄█▄[0;31m▀[0;1;31;41m░[0;31m▀[0m                 [31m▀[0;31;41m [0;31;40m█▀[0;33;40m▐▌[0m        [1;34;40m▀▄▄▀    ▀▄▀    █   ▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 075bac548ac4dd4f547e147a1862b2abed6c005d7aaa7377e5b553d325b5a497
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: STC-TLH.ICE by Stone The Crow (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 148-195
 # Columns: 1-80
 
@@ -53,8 +53,4 @@ Write-Host '
 [31;40m  ▒░    ▒░   ▀[0;1;33;41m▓▒[0;1;30;41m░▒[0;31m▓█▒  ▒░  [0;1;30m▒ [0;31m▒░  ▒░  ░▒   ▒ ▒    ▀[0;1;33;41m▓▒[0;1;30;41m░▒[0;31m▓█▒ ░▓▒    ▓[0;33;41m░[0;31;40m▒  ░    ▒▓▒[0m
 [31;40m  ░   [0;1;30;40m░ [0;31m░[0m      [31m▓  ▒▓░  ░[0m     [31m░   ░    ░[0m     [31m░[0m      [31m▓  ▒▓░  ▒░    ▒▓░[0m        [31m▒░[0m
                [31m▒  ░▒[0m                               [31m▒  ░▒   ░[0m     [31m░▒[0m         [31m░[0m
-[31m  [0;1;30m░[0m            [31m░   ░[0m                               [31m░   ░[0m          [31m░[0m
-
-[31m   [0;1;30m∙ A   N   S   i[0m     [1;30mby[0m     [1;30mS   t   o   n   e[0m     [1;30mthe[0m     [1;30mC   r   o   w ∙[0m
-
-      [1;30miCE  i C E[0m     [1;30mi   C   E[0m                  [1;30mi   C   E[0m     [1;30mi C E  iCE[0m'
+[31m  [0;1;30m░[0m            [31m░   ░[0m                               [31m░   ░[0m          [31m░[0m'

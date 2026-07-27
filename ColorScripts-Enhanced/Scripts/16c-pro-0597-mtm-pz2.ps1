@@ -5,7 +5,7 @@
 # Source SHA-256: e40dafca22a41643abc1f832f213ccde7cf421448f455398513a05d86ad108af
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MTM(PZ2).ANS by Mtm (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -27,6 +27,4 @@ Write-Host '
         [1;35;42m█[0;1;35;40m▌[0;1;30;40m░[0m       [1;35;42m█[0;1;35;40m▌[0;1;30;40m░ [0;1;35;42m█[0;1;35;40m▌[0;1;30;40m░[0m     [1;35;42m██[0;1;30;40m░    [0;1;35;40m▐[0;1;35;42m▓▓▓▓██████[0;1;30;40m░   [0;1;35;42m█[0;1;30;40m░   [0;1;35;42m█[0;1;30;40m░[0m     [1;35;42m▓▓▓[0;1;30;40m░[0;1;35;40m▄[0;1;35;42m█[0;1;30;40m░[0m
         [1;35;40m▐[0;1;30;40m░[0m        [1;35;40m▐[0;1;30;40m░  [0;1;35;40m▐[0;1;30;40m░[0m      [1;35;40m▐[0;1;30;40m░[0m      [1;35;40m▀▀[0;1;35;42m▓▓▓██[0;1;35;40m▀▀[0;1;30;40m░    [0;1;35;40m▐[0;1;30;40m░   [0;1;35;40m▌[0;1;30;40m░[0m     [1;30;40m░[0;1;35;40m▀[0;1;35;42m██[0;1;35;40m▀[0;1;30;40m░[0m
          [1;30;40m░[0m         [1;30;40m░   ░[0m       [1;30;40m░[0m      [1;30;40m░░░░░░░░░[0m      [1;30;40m░   ░[0m       [1;30;40m░░░░[0m
-                                                                      [1;37;40m_mTm_[0m
-
-         [1;30;40mT[0mH[1mE [0mG[1;30mROU[0mP [1mT[0mH[1;30mATZ [0mG[1mO[0mN[1;30mNA B[0mLOO[1mOO[0mOOO[1;30mOOOOOOOOOOO[0mOOO[1mOO[0mOOO[1;30mOOOOOOOO[0mOOO[1mW![0m'
+                                                                      [1;37;40m_mTm_[0m'

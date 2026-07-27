@@ -5,7 +5,7 @@
 # Source SHA-256: 486c8ca70b80734b9245948fdb3cb55f8231c6d7bfbb98bdad18980be24dd1b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-GZERO.ICE by Toon Goon (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 32-61
 # Columns: 1-80
 
@@ -36,7 +36,4 @@ Write-Host '
        [34m▌[0m                           [34;47m [0;1m███▀[0;1;47m [0;1m██    [0m▀[1;47m▀[0;1m██▀   [0m▄[1m▄▄  [0;1;47m [0;1m██  [0;1;47m [0;1m███[0;1;47m▄[0;1m███▀▀ [0m▀[1;47m▀[0;1m██[0m
        [34m▌[0m                                [34;47m [0;1m██[0m▄[1;47m▄[0;1m███[0;1;47m [0;1m██   [0m▄[1;47m▄[0;1m████[0;1;47m▄[0;1m██▄[0;1;47m▄[0;1m███▀███▄ [0m▄[1m▄[0;1;47m▄[0;1m█▀[0m
        [34m▌[0m                               ▀[1;47m▀[0;1m██▀▀▀▀[0m▀[1m▀▀▀▀▀▀▀▀▀▀  [0m▀[1m▀▀ [0m▀[1;47m▀[0;1m███[0m▀[1m▀▀▀▀▀▀[0m
-       [34m▀[0m                                                         ▀[1m▀▀▀[0m
-[1m    ground zero - +972-644-1336 - sysops: sharp edg/animal/borzom - wind ehq[0m
-[1msod ihq, trouble makers whq, relic membr, union membr, acid member, ambience ihq[0m
-              TooN GooN <iCE>  -  "It''s da new style in ''95."  -tG[0m'
+       [34m▀[0m                                                         ▀[1m▀▀▀[0m'

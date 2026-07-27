@@ -5,7 +5,7 @@
 # Source SHA-256: 76ed57b8b6bb7f8f93b5c3c3bbe1bad95112f3b884281a9a63fda1e1e763637f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NM-IG.ICE by The Necromancer (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 97-128
 # Columns: 1-80
 
@@ -37,7 +37,7 @@ Write-Host '
              [31m▐ █[0m      [31m▀[0m      [31m▀▀██▀▀[0m                    [31m▀  ▌[0m         [31m▀████▀▀[0m
                [31m▌[0m
 [1m┌───[0m────[1;30m──── ── ─ ·· ·  ·   ·[0m                      [1;30m·   ·  · ·· ─ ── ────[0m────[1m───┐[0m
-│   [34m☼ [0;1;37mT[0;1;31mh[0;31me [0;1;37mI[0;1;31mm[0;31mmortal [0;1;37mG[0;1;31mr[0;31mounds [0;34m☼ [0;1;37m4[0;1;31m1[0;31m6-[0;1;37m8[0;1;31m2[0;31m9-[0;1;37m5[0;1;31m4[0;31m26 [0;34m☼ [0;1;37m1[0;1;31m4[0;31m.4K [0;1;37mD[0;1;31mu[0;31mal [0;1;37mS[0;1;31mt[0;31mandard [0;34m☼ [0;1;37m2[0;1;31m0[0;31m0 [0;1;37mM[0;1;31me[0;31mgs [0;34m☼   [0;37m│[0m
-[1;30m│[0m         [34m☼ [0;1;37mi[0;1;36mC[0;36mE [0;1;37mC[0;1;31ma[0;31mnadian [0;1;37mH[0;1;31mQ [0;34m☼ [0;1;37mT[0;1;31mC[0;31mS[0;1;37mN[0;1;31me[0;31mt [0;34m☼ [0;1;37mS[0;1;31my[0;31msOp: [0;1;37mS[0;1;31mt[0;31mealer [0;1;37mo[0;1;31mf [0;1;37mS[0;1;31mo[0;31muls [0;1;30m[[0;1;37mi[0;1;36mC[0;36mE[0;1;30m] [0;34m☼[0m         [1;30m│[0m
-│                    [34m☼ [0;1;37mA[0mNS[1;30mi [0;1;37mB[0my[1;30m: [0;1;37mT[0mh[1;30me [0;1;37mNec[0mroma[1;30mncer [[0;1;37mi[0;1;36mC[0;36mE[0;1;30m] [0;1;37m''[0m9[1;30m2 [0;34m☼[0m                    [37m│[0m
+│   [34m  [0;1;37m [0;1;31m [0;31m  [0;1;37m [0;1;31m [0;31m       [0;1;37m [0;1;31m [0;31m      [0;34m  [0;1;37m [0;1;31m [0;31m  [0;1;37m [0;1;31m [0;31m  [0;1;37m [0;1;31m [0;31m   [0;34m  [0;1;37m [0;1;31m [0;31m    [0;1;37m [0;1;31m [0;31m   [0;1;37m [0;1;31m [0;31m       [0;34m  [0;1;37m [0;1;31m [0;31m  [0;1;37m [0;1;31m [0;31m   [0;34m    [0;37m│[0m
+[1;30m│[0m         [34m  [0;1;37m [0;1;36m [0;36m  [0;1;37m [0;1;31m [0;31m       [0;1;37m [0;1;31m  [0;34m  [0;1;37m [0;1;31m [0;31m [0;1;37m [0;1;31m [0;31m  [0;34m  [0;1;37m [0;1;31m [0;31m     [0;1;37m [0;1;31m [0;31m      [0;1;37m [0;1;31m  [0;1;37m [0;1;31m [0;31m    [0;1;30m [0;1;37m [0;1;36m [0;36m [0;1;30m  [0;34m [0m         [1;30m│[0m
+│                    [34m  [0;1;37m [0m  [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m  [0;1;37m   [0m    [1;30m      [0;1;37m [0;1;36m [0;36m [0;1;30m  [0;1;37m [0m [1;30m  [0;34m [0m                    [37m│[0m
 [1;37m└───[0m────[1;30m──── ── ─ ·· ·  ·   ·[0m                      [1;30m·   ·  · ·· ─ ── ────[0m────[1m───┘[0m'

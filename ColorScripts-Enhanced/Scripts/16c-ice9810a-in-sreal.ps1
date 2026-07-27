@@ -5,7 +5,7 @@
 # Source SHA-256: 4c89103abde864b94963bd876997ac593739a752616f2bb3c5757127a3f7e00d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-SREAL.ICE by Inazone (iCE Advertisements); released in ice9810a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Surreal
 # SAUCE Author: Inazone
 # SAUCE Group: iCE Advertisements
@@ -39,5 +39,4 @@ Write-Host '
 [1;30;47m░[0m▀[31m▄▄▀▀[0;1;31;41m░▒▓[0;1;31;40m [0m▐[1;47m░[0m  [1;31m▐▌[0m [1;31m▄[0;1;31;41m▓[0;1;31;40m [0m [1;31m [0;1;31;41m▒▓[0m   [31m▀[0;37m [0;31m▐[0;1;31;41m▒[0m ▄▓▒░ [1;30;47m▒░[0m  [1;47m▒░[0m█[1;33;47m░[0m██[1;33;47m░░[0m▀[1;47m░[0m [1;47m▓█▓[0m [1;30m [0m                [1;30;46m▓▓[0;1;30;40m██▄[0m
  [31m▀▀[0;1;31m  [0;31m▀▀▀[0;37m  ▀[0m    [31m▀▀[0;1;31;41m▒[0;31m▄[0;37m  [0;1;31;41m░▒[0m  [31m▀[0m   [1;31;41m░[0m  ▐█▓▒ [1;30m▐[0;1;30;47m▒░[0m  ▐[1;33;47m░▒[0m▌▀█▌[1;30m▒[0m▐▌▐[1;47m▓▒[0m                [1;30m-in[0m [1;30m▀[0m
 
-[1;30m------------------------------------------------------------------------------[0m
-[1;30mthis pic is 100%[0m [1;30mbrain-damaged [0minazone[1;30m originality.  for tainted''s [0m"surreal".[0m'
+[1;30m------------------------------------------------------------------------------[0m'

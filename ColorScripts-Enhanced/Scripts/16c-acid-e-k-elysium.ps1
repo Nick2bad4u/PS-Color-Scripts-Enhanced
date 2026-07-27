@@ -5,7 +5,7 @@
 # Source SHA-256: a01991bf13074cfc9a2adc14a118ec8d593717040a7e66251b85fa60cb218303
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ELYSIUM.ANS by The Malevolent Trickster (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -56,6 +56,6 @@ Write-Host '
 [1;33;41m█▓[0;1;33;40m▄[0;32m▀▀████[0;1;32;42m▀▀[0;32m▀▀ ▄███[0;32;42m [0;32;40m████[0;32;42m [0;1;32;42m▀ [0m [32m█[0;1;32;42m▀[0;32m███████[0;32;42m  [0;1;32;42m▀[0;32m▄  ▀█████▀ [0;1;33m▄[0;1;33;41m▓[0m [32m▀█[0;32;42m [0;1;32;42m▀[0;32m▀[0;1;33m▄▄[0;32m▀█████▀ ▄█[0;32;42m [0;1;32;42m▀[0;32m█ ▄█[0;32;42m [0;1;32;42m▀ [0m
 [1;33;40m───────────────────────────────────────────────────────────────────────────────[0m
 [1;33;40m [0;34m┌────────────[0;1;34m─ ─[0;36m─[0;1;36m─ ─[0;1;37m─ ─  [0;1;33mT  H  E    E  L  Y  S  I  U  M [0;1;37m─ ─[0;1;36m─ ─[0;36m─[0;1;34m─ ─[0;34m───────────┐[0m
-                      [1;31mUS[0;1;37mA/F[0;1;34mLT [0;1;37mS[0mite [1m∞ [0;1;34mT[0;1;35mS[0;35mA[0;1;31mN [0;1;37mS[0mite [1m∞ [0;1;31mRR[0;31m/[0;1;31mINC [0;1;37mS[0mite
-            [1m7[0m00 [1mM[0megs [1mO[0mnline [1m∞ S[0mys[1mO[0mp[1m: S[0mquire [1m∞ C[0melerity [1m: C[0melerity[1mNET[0m
+                      [1;31m  [0;1;37m   [0;1;34m   [0;1;37m [0m    [1m  [0;1;34m [0;1;35m [0;35m [0;1;31m  [0;1;37m [0m    [1m  [0;1;31m  [0;31m [0;1;31m    [0;1;37m [0m   
+            [1m [0m   [1m [0m    [1m [0m      [1m   [0m  [1m [0m [1m   [0m      [1m   [0m        [1m   [0m       [1m   [0m
 [1m [0;34m└────────[0;1;34m─[0;34m─[0;1;34m───[0;34m─[0;1;34m─[0;34m────── [0;1;33m5  0  8  ∙  4  6  8  ∙  7  6  3  6 [0;34m───[0;1;34m─[0;34m─[0;1;34m───[0;34m──[0;1;34m──[0;34m───────┘[0m'

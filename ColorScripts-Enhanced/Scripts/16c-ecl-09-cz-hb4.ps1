@@ -5,7 +5,7 @@
 # Source SHA-256: 95d7a5078a619d838f7aa8f4cffcb007df4d305a8dad6e97ba03442f82950ee8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-HB4.ANS by Cheeze (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -32,7 +32,5 @@ Write-Host '
 ▓[30;47m░░[0;37;40m▓▓[0;30;47m░▒▒[0;37;40m▒░[0;30;47m▓▓[0;37;40m░[0;30;47m▓[0;37;40m   [0;30;47m▓▓[0;37;40m      ░[0;30;47m▓[0;37;40m░░[0;30;47m▓▓▓[0;37;40m         [0;30;47m▓[0;37;40m  ░[0;30;47m▓▓[0;37;40m      [0m        [36;40m░[0;30;46m▓▓[0;36;40m▒[0;30;46m▒▒░[0;36;40m▓[0;1;34;46m░░░▒▒[0;34m▀▀[0m
 [30;47m▒▒▒[0;37;40m▒[0;30;47m▒[0;37;40m▒░[0;30;47m▓▓[0;37;40m   [0m                      [37;40m  [0m   [36;40m░[0m        [30;46m▓[0m    [36;40m░[0;30;46m▓▓[0;37;40m  [0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m▒▒[0;30;46m▒▓[0;36;40m░[0;30;46m▓[0;36;40m▒[0;1;36;46m░[0;1;34;46m [0;36m▀▀[0m
 [37m░[0;30;47m▓[0;37;40m░[0;30;47m▓▓▓▒[0;37;40m▒▒░[0;30;47m▓[0;37;40m░ ░[0;30;47m▓[0m   [30;47m▓[0m   [37;40mhellbound.         [0m                    [36;40m░[0;30;46m▓[0;36;40m░[0m   [36;40m░[0;30;46m▓▓[0;36;40m [0m
-[37;40m      [0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m   [0m       [37;40mop - dark shadow                                           [0m
-[1;30;40m───────────────────────────────────────────────────────────────────────────────[0m
-this logo has been sitting around for about 2 months now, so i finnaly  decided
-to colorize/shade it.. turned out pretty good, *i* think =)                 -cz[0m'
+[37;40m      [0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m   [0m       [37;40m                                                           [0m
+[1;30;40m───────────────────────────────────────────────────────────────────────────────[0m'

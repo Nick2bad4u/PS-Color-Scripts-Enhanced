@@ -5,7 +5,7 @@
 # Source SHA-256: aac052e924703f6c24b72ac5bf596e6df0a6589aca8a5a64487ebd3a8361aa9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NC3-SD2.ANS by Eerie + Neurotic (Neurotic/Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Snake's Domain [j]
 # SAUCE Author: Fire 10/95
 # SAUCE Group: Neurotic/Eerie
@@ -52,7 +52,4 @@ Write-Host '
 [30;40m  [0;1;30;40m░▓[0;30;47m░▒▒▒░[0;37;40m [0;1;30;40m▄[0;30;47m▒▒▒░[0;37;40m [0;30;47m░▒▒▒░[0;37;40m [0;30;47m░▒▒[0;1;30;40m▄[0;30;47m░[0;37;40m [0;30;47m░▒▒▒░[0;37;40m [0;30;47m░▒▒▒░[0;37;40m [0;30;47m░▒▒▒░[0;37;40m [0;30;47m░▒▒▒░[0;37;40m [0;30;47m░▒[0;1;30;40m▄[0;30;47m▒░[0;37;40m [0;30;47m░▒▒▒░[0;37;40m [0;30;47m░▒▒▒░[0;37;40m [0;30;47m░▒▒▒░[0;1;30;40m▓░[0m
 [1;30m    [0;1;30;47m [0;30;47m░░░ [0;37;40m▀[0;37;47m [0;30;47m░░░[0;1;36;47m░[0m [1;36;47m [0;30;47m░░░ [0;37;40m [0;30;47m ░░[0;37;40m▄[0;37;47m [0;37;40m [0;37;47m [0;30;47m░░░ [0;37;40m [0;30;47m ░░░ [0;37;40m [0;30;47m ░░░ [0;37;40m [0;30;47m ░░░ [0;37;40m▀[0;37;47m [0;30;47m░░░ [0;37;40m [0;30;47m ░░░[0;1;36;47m░[0m [1;36;47m [0;30;47m░░░ [0;37;40m [0;30;47m ░░░[0;1;36;47m░[0m
           ▀[1;36m▀[0m▀[1;36m▀▀[0m     [1;36m▀▀[0m▀[1;36m▀[0m▀▀              ▀▀▀▀▀       ▀▀▀▀▀   ▀[1;36m▀▀[0m       ▀[1;36m▀[0m▀[1;36m▀▀[0m
-                         [36ms n a k e '' s   d o m a i n[0m
-[36m  in the 514 ... sops: snake grunger & soul assassin ... acid/legend/flatline[0m
-
-[1;37m  [0;36m  [0;37mAnsi by [0;1;37mNeurotic [0m/ [1mLegend [0mand [1mEerie [0m/ [1mFire [0;1;30m- [0mFont by [1mLord Jazz [0m/ [1mBleach[0m'
+                         [36ms n a k e '' s   d o m a i n[0m'

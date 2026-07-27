@@ -5,7 +5,7 @@
 # Source SHA-256: 014db0d70ad1f5fcac2ab492d5f59c7dafea02ec5afae5dc7d47383c8bea19bb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-DISTO.ANS by insert (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: distortion addy
 # SAUCE Author: insert
 # SAUCE Group: phat studios '97
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[31m  and here''s a 23 liner logo version [0m
+[31m                                     [0m
 [31m-------------------------------------------------------------------------------[0m
                      [33m■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀███████▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
     [32m▄▄▄▄▄▄▄▄■▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36;42m░▒▓█[0;37;40m [0;35;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m                             [33;40m▐█▌[0m
@@ -38,11 +38,9 @@ Write-Host '
 [1m████▀▀▄▄██▓█[0;35m ▐[0;1;35;45m■▓[0;35m [0;1;37m▀▀▀▀▀▀██████████[0m █[1;47m [0m▌[1m▄ [0m█[1;30;47m▒[0;1;37;40m▐███████████▀[0m▄▄▄▄▄▄▄▄▄[1m▀▀▀▀██████ [0;35m▄▄▄▄▄[0m
 [1;37m████████████[0;35m [0;1;35m▐[0;1;35;45m▌▓[0;35m [0;1;37m██████▄▄▄▄▄█████[0m▐[1;47m░[0m▌[1m██▌[0;1;30;47m░[0m█[1m▐███████████[0m▐███▌[1m███████████████ [0;35m▐[0;1;35;45m▓[0;1;37;40m░▄▄[0m
 [1m▀▀▀▀▀▀▀▀▀▀▀[0;35m  [0;1;35;45m■▓▌[0;35m▄▄▄▄▄▄■ [0;1;37m████████[0m▐[1;47m░▒[0;1;40m▐███[0m▐█▌[1m███████████▌[0;1;47m░[0m██[1;30;47m░[0;1;37;40m▐█████████▀▀[0;35m▄▄▄▄[0;1;35;45m■▀[0;1;37;40m ██[0m
-             [35m@distortion@+31-521-321608@op:sfinx@24hz@28k8@kbswhq@[0m
+             [35m                                                     [0m
 
 [31m--------------------------------------------------------------------------------[0m
-[31mdon''t ask me what it is but it''s way cool :)[0m
+[31m                                            [0m
 
-[1;34m--------------------------------------------------------------------------------[0m
-[1;34mcontact me via email: riku99@sci.fi .. but you''ll have to pay for this kinda[0m
-[1;34maddys..[0m'
+[1;34m--------------------------------------------------------------------------------[0m'

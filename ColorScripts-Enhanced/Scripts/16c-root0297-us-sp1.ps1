@@ -5,7 +5,7 @@
 # Source SHA-256: eaedd1ef2f11f6d3a35deb63a608f0a5085ab21d8fa20602c2ca9600e0e72222
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SP1.ANS by Dislogic + Defiant (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sponge
 # SAUCE Author: Dislogic & Defiant
 # Lines: 1-18
@@ -13,7 +13,7 @@
 
 Write-Host '
                                   [1m░[0m
-                                  [1m░[0m              [31mdefiant and dislogic of ROOT[0m
+                                  [1m░[0m              [31m                            [0m
                                   [1;37m▒[0m
 [31m█[0;1;31;41m▄▄█▄[0;31m▀▀ [0;36m▄[0;1;36m▄▄▄[0;1;36;46m██[0;1;36;40m▀▀▀[0;1;36;46m▀[0;1;36;40m██[0;1;37;40m▄▄▄ [0;31m▀█[0;1;31;41m▄▄▄▄▄▄[0;31m█ [0;1;37m▓ [0;1;37;41m [0;1;31;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄██[0m
 [1;31;41m █[0;1;31;47m▓[0;1;31;40m▀ [0;36m▄[0;1;36;46m▄█▓▓▓█[0;1;36;40m▓[0m     [1;36;46m [0;1;36;40m██[0;1;37;40m███▄ [0;31m▀▀▀▀▀▀▀ [0;1;37m▓ [0;31m█[0;1;31;41m██████[0;1;31;47m█[0;1;31;41m█████[0;1;31;47m▓▓[0;1;31;41m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀███[0;1;31;47m███[0;1;31;41m████[0m

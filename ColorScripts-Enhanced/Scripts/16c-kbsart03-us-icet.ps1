@@ -5,7 +5,7 @@
 # Source SHA-256: 67b7665c3644d72bc4a4a5df611f9cec06fba97c4e5d0539de8b8b36ac3ac6ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ICET.ANS by Dyingsoul + Toot (kbsart03); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 19990907
 # SAUCE Dimensions: 80x42
 # Lines: 1-42
@@ -49,8 +49,4 @@ Write-Host '
 [37m       [0;36m                                               ▄[0;1;36;46m▄[0;36m▀                       [0m
 [37m                                            [0;36m        ▄▀▀      [0;37m                   [0m
 [37m                                            [0;36m   ■  ▀          [0;37m                   [0m
-[37m       T        E       A                   [0;36m      [0;37m                           [0m
-
-
-[1;30moutlines by Dyingsoul[0m
-[1;30mshading by Toot.[0m'
+[37m       T        E       A                   [0;36m      [0;37m                           [0m'

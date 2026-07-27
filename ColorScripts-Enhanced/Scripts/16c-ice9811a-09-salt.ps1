@@ -5,7 +5,7 @@
 # Source SHA-256: 53efce751313f0ba368c68f611e4f4ce706c15b780827f00e5264eb57d6dc0db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 09-SALT.ICE by Fluor (Ice Advertisements); released in ice9811a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Salt
 # SAUCE Author: Fluor
 # SAUCE Group: Ice Advertisements
@@ -35,5 +35,4 @@ Write-Host '
  [1;30m░[0m [1;30m▐▌[0m  [1;30m▓  ░ ▐[0;1;30;47m▓▓[0;1;30;40m█▄▀▀▀▄▄[0;1;37;40m [0;1;30;40m▄▀[0m [1;30m▄▄▀▀▀▀ ▀▀█▓▄▄[0m  [1;30;47m▄[0m▀[1;30m▀ ▀▀▀ ▄▄▄██▓▄▄ ▀[0;1;37m▀▀[0m▀[1m▒[0;1;30;47m░▒▓[0;1;30;40m▓▀[0m  [1;30m ▐▌[0m [1;30m▐[0;1;30;47m▀░▓[0;1;30;40m█▌[0m
 [1;30;40m [0m░▄[1;30m▄    ▓[0m [1;30m█▄[0m [1;30m▓▀[0m [1;30m  ▄[0m   [1;30m▄[0m▀[1;30m▀ [0m          [1;30m▀[0m▒[1;30;47m▄[0;1;30;40m▀[0m  [1;30m▄█▀▀ ▄▀▀ ▀▓[0;1;30;47m▓[0;1;30;40m█▌ ▀▀█▄[0m [1m░[0m  [1;30m▀  [0m  [1;30m▄▀▄[0m [1;30m██▀▀[0m
  [1;30m ▀ [0m▀[1;30m▀▄ ░[0m [1;30m ▀[0m [1;30m■[0m   [1;30m▀[0m▀[1;30m [0m [1;30m░ [0;1;37m,.de[0;1;36me1[0;1;31m''s [0;31msalt[0;1;37m [0;1;30m▀[0m    [1;30m▀▄  ▓[0m [1;30m [0;1;30;47m▀[0;1;30;40m▄ ▐[0;1;30;47m▒▓[0;1;30;40m█▄▄ [0m [1;30m ▀▀▄[0m  [1;30m▄▀▀[0m    [1;30m▀[0m
-       [1;30m [0m              [1;30m [0m                     [1;30m▀░[0m  [1;30m ░[0m  [1;30m [0;1;30;47m▄[0;1;30;40m▀ ▀▄  ░░[0m  [1;30m■▓[0m  [1;30;47m▄[0;1;30;40m▀▀ [0m▀[1;30m▀[0m [1;30m▀░░ [0m
-                                                          [1;30m [0m     [1;30m [0m'
+       [1;30m [0m              [1;30m [0m                     [1;30m▀░[0m  [1;30m ░[0m  [1;30m [0;1;30;47m▄[0;1;30;40m▀ ▀▄  ░░[0m  [1;30m■▓[0m  [1;30;47m▄[0;1;30;40m▀▀ [0m▀[1;30m▀[0m [1;30m▀░░ [0m'

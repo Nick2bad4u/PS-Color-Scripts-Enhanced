@@ -5,7 +5,7 @@
 # Source SHA-256: 25420989b0693fb634a74dc3644dad42d4c4704e5bfe692bcd1d96e72262cc36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N-CARLOP.ANS by nail (fire); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: buddy
 # SAUCE Author: nail
 # SAUCE Group: fire
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                [33;40m▄[0m                              [37;40mCarlo Pedersoli[0m
+                                [33;40m▄[0m                              [37;40m               [0m
                             [33;40m▄[0;37;40m [0;33;40m▀▀[0m     [33;40m▄▄██▀▀▀▀▀▀▄▄▄▄[0m            [1;30;40maka[0m Bud Spencer
              [33m■[0m          [33m▄▀[0m        [33m▄██▀▀[0;37m  [0;33m▄▄▄▄▄▄▄▄[0m                 [1;30mOct 31, 1929[0m
             [33m▐[0m         [33m▄█[0;37m  [0;33m■[0m     [33m▄███▄██████████████▄▀█▓▓▓▄▄[0m     [1;30m- Jun 27, 2016[0m

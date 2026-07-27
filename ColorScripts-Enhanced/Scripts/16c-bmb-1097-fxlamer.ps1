@@ -5,7 +5,7 @@
 # Source SHA-256: 63b0d57ae59223a09730a5090cb50ccb16ef28f51ad35fd86da949bc71a2dc60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FXLAMER.ANS by Flux (prbmb); released in bmb-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lamers
 # SAUCE Author: Flux
 # SAUCE Group: prbmb
@@ -25,10 +25,8 @@ Write-Host '
 [34m▀[0;1;34;44m▀[0;1;34;40m▀▀▐[0;1;34;45m░[0;35m▄[0;1;34m ▀▐████▄▄▄[0;1;34;44m▄[0;1;34;40m▀▐█[0;1;34;45m▀[0;1;34;40m▀▀▀▐[0;1;34;45m▓▒[0;35m▄[0;1;34m  [0;34m▀[0;1;34m▀▌[0;34m▄[0;1;34;44m▄[0;1;34;40m   [0;1;34;44m▄[0;1;34;40m██[0;1;34;45m▓▒[0;1;34;40m▄[0;1;34;44m▓█[0;1;34;40m██[0;1;34;45m▄[0m   [1;34;44m▒▓[0;1;34;40m██[0;1;34;45m▀[0;1;34;40m [0;1;34;44m░▓[0;1;34;40m█[0;1;34;45m▓░[0;1;34;40m [0;36m▄[0;1;36;46m░[0;1;36;40m▄▄[0;36m▄[0;1;36m▐████████[0m
              [1;34m [0;34m▀[0;1;34m▀▀[0;35m▀[0m                     [34m▀[0;1;34m▀▐[0;1;34;45m▀[0;1;34;40m▀[0;35m▀[0;1;34m [0;34m▀[0;1;34m▀▐[0;1;34;45m▓▒[0;1;34;40m▄[0;1;34;44m▄[0;1;34;45m▀[0;1;34;40m▀[0;35m▀[0;1;34m [0;34m▄[0;1;34;44m▄▓[0;1;34;40m██[0;1;34;45m▄[0;35m▄[0;1;34m [0;36m▀▀[0;1;36m▐[0;1;36;46m▓▓[0;1;36;40m█[0;1;37;40m██[0;1;36;40m██████[0m
                                                             [1;34m▀▀▌ [0;36m▄[0;1;36m▄[0;1;36;46m▄▀[0;1;36;40m▀[0;1;36;46m█▀[0;1;36;40m▀▀[0;36m▀[0;1;36m▐█[0;1;36;46m█▓▓[0m
-  [1m([0madd lamer[1m)[0m  download list   who wrote?   list ''em   quit       [36m▀[0;1;36m▀ ▌     [0m
+  [1m [0m         [1m [0m                                                     [36m▀[0;1;36m▀ ▌     [0m
                                                               [1m ░[0m [1m░░[0m [1;36m ▀  [0;1;30mfluxbmb[0m
 
 
---
-this is a lamer lister ansi.. it could fit perfectly to prlamerlister, but i''d
-like those new options.. sleepwalker, u listening?!  well, its free anyway..[0m'
+--[0m'

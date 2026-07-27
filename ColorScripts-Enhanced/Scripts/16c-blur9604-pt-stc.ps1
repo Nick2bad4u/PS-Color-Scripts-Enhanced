@@ -5,7 +5,7 @@
 # Source SHA-256: 2fe3e7e82ba00cc49979c8c1dd94fe1a8d86572e7281ae7ae95802b064de0d70
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-STC.ANS by prestige (blur!); released in blur9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Stone Chapel
 # SAUCE Author: prestige
 # SAUCE Group: blur!
@@ -32,6 +32,5 @@ Write-Host '
                [34m ▐[0;1;34;44m▐[0;1;34;46m▓▓▓█[0;1;34;44m▌[0;34m▌[0m   [34m▐[0;30;44m░[0;1;34;44m▐[0;1;34;47m█[0;1;34;40m██[0;34m█▌[0m
                [34m░[0;30;44m▓░[0;1;34;44m▀[0;1;34;40m█[0;1;34;44m█▀[0;34m█▌^pT▐█[0;1;34m███[0;34m██▀[0m   [1;34m.stone.chapel.[0m               [1m [0m
                [34m ▀▀▀▀▀▀▀█▄▄▄[0;1;37;44m░░░[0;34m▀▀▀ ░[0;1;34m.odium.member.board.[0m
-                                      [1;34m.blur.worldhq.[0m            [1;33m  [0m
-                                      [1;34m.408.453.3114.[0m           [1;33m    [0m
-                                 [1;33m [0m                                [1;33m  [0m'
+                                      [1;34m              [0m            [1;33m  [0m
+                                      [1;34m.408.453.3114.[0m           [1;33m    [0m'

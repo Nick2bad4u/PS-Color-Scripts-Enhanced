@@ -5,12 +5,12 @@
 # Source SHA-256: 701353287d255e078fa6bced315f93dbab8dfb763f6fbeb73ae5ac7793b57ff8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: nr-flipx.ans by Nerv (sac-31); released in sac-31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
 Write-Host '
-[1;30m// COLORED VERSiON OF NR-COTU.ASC[0m
+[1;30m                                 [0m
 
                                   [31m ,[0;37m [0;31m  [0;37m    [0;31m,[0m
              [31m,[0m       [31m,[0m          [31m ,[0;37m [0;31m!%s,[0;37m [0;31m,s%![0;37m [0;31m, [0m          [31m,[0m       [31m,[0m

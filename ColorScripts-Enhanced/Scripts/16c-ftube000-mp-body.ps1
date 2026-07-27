@@ -5,7 +5,7 @@
 # Source SHA-256: f38510e5379cf1d830a914b5051ec12a39277a085c034729eededc92cc10cf9d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-body.ans by Meatpod (ftube000); released in ftube000 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -31,9 +31,4 @@ Write-Host '
               [31m [0;1;36m [0;36m;[0;1;36m$$[0;36m,┌[0;1;36my%$$$[0;36m\[0;1;36m$$$$$[0;36m\''[0;1;36m $$$$P[0;36m┘''[0;31m [0;1;36m [0;36m;[0;1;36m$[0;36m;[0;1;36m [0;1;33m````[0;1;34m [0m [1;35m$$ [0;1;33m`[0;1;35m  [0;1;33m`[0;1;35m $$ [0;1;33m````[0;31m [0m
             [33m;[0;31m$$[0;33m;[0;1;36m $$$&*[0;36m┘''`[0;33m.┌.[0;36m`^`[0;33m.┌[0;31md[0;1;36m [0;36m`[0;31m [0;33m.,┌[0;31md[0;33m;[0;31m [0;1;36m $$ [0;33m;[0;31m$$$$ [0;37m [0;1;35m$$ [0;31m$[0;1;35m  [0;31m$[0;1;35m $$ [0;31m$$$[0;33m''[0m
                  [36m`[0m      [33m`/[0;31m$$$$$[0;33m\''[0;31m$$$$$$$$[0;33m''[0;1;36m      [0;33m`²²`[0m     [33m`[0;37m  [0;33m`[0m    [33m²''[0m
-   [1;30mmp.[0m                    [31m [0;33m```[0;31m [0m   [33m`[0;31m└**┘[0;33m`[0m                 [1;37mb o d y   [0mc o u n t
-
-[body count]-------------------------------------------- - - - -- fuck you -----
-
-oh my god... I can''t believe how ugly this is... it''s almost as if I didn''t
-even draw it myself.  let''s just say I didn''t.  eww.[0m'
+   [1;30mmp.[0m                    [31m [0;33m```[0;31m [0m   [33m`[0;31m└**┘[0;33m`[0m                 [1;37mb o d y   [0mc o u n t[0m'

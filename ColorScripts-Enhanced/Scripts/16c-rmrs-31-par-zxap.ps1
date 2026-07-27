@@ -5,7 +5,7 @@
 # Source SHA-256: af76c481192fa9e58873a211802c31aa9e5f9caba3099a1bb02106de8291fcc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: par-zxap.ans by Pariah (Remorse Ascii); released in rmrs-31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: scooby-doo
 # SAUCE Author: Pariah
 # SAUCE Group: Remorse Ascii
@@ -40,8 +40,4 @@ Write-Host '
 [1;36m☻☻☻☻☻☺P'' [0m [34m,d[0;1;34m♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫[0;34mh,[0;37m  [0;1;36m`7h,[0m [1;36m [0;33m,...[0;1;31m..........[0;33m,╓d[0;1;31m$$$$☺[0;33m$;[0;37m [0;33m╜ⁿ`[0;1;34m [0;34m,d[0;1;34m♫♫♫♫♫[0m
 [1;36m☻☻P╜` [0m [34m_,d[0;1;34m♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫♫[0;34mk,[0;37m [0;1;36m `7, [0;33m`7$[0;1;31m☺$$$$$$$$$$$$$$$☺☺[0;33m$P[0;37m [0;1;34m   [0;34m,d[0;1;34m♫♫♫♫♫♫♫[0m
 [1;34m                                        [0;1;36m   [0;1;34m [0;1;36m [0;1;34m [0;33m`ⁿ7[0;1;31m☺☺$$$$$$$$$$☺☺☺[0;33mP''[0;37m [0;1;34m             [0m
-                                    [1;36m          [0m    [33m`"ⁿ[0;1;31mⁿ╨╨╨╨╨ⁿ[0;33mⁿ"``[0;37m                [0m
-
-
-
-                                       [37m [0m'
+                                    [1;36m          [0m    [33m`"ⁿ[0;1;31mⁿ╨╨╨╨╨ⁿ[0;33mⁿ"``[0;37m                [0m'

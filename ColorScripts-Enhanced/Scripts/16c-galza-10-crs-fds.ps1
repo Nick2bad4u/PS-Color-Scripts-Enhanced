@@ -5,7 +5,7 @@
 # Source SHA-256: 043d9482f7f0ee512023c54fd9bc0bcc156b7e384df516873c7ce6a079ca01b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRS-FDS.ANS by Crasher (just-x/galza); released in galza-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: from da dreamspace
 # SAUCE Author: Crasher
 # SAUCE Group: just-x/galza
@@ -35,9 +35,4 @@ Write-Host '
 [1;30;47m▓▒▒▒▒░░[0m██[1;36;47m░░░▒▓▓▓▓[0;1;36;46m███╫╫[0;1;36;40m╫╫[0;36m╫╫[0;37m╫╫╫╫║║$SS%%y[0;1;30myy╫╫b[0;1;37m :╫[0m╫l                           [1;33m    [0m
 [1;30;47m▒▒▒▒░░░[0m███[1;36;47m░░▒▒▒▓▓▓[0;1;36;46m████╫╫╫[0;1;36;40m╫╫[0;36m╫╫╫╫╫[0;37m╫╫╫╫╫╫╫[0;1;30m╫╫╫$b [0;1;37m?╫[0m╫b                  [1;36m    [0m    [1;33m    [0m
 [1;30;47m▒▒░░░[0m████[1;36;47m░░░░▒▒▒▓▓▓[0;1;36;46m█████╫╫╫╫╫[0;1;36;40m╫╫╫[0;36m╫╫╫╫╫[0;37m╫╫╫╫[0;1;30m╫╫$b[0;1;37m ?[0m╫╫$,                [1;36m   /[0m ju[1mst[0;1;33m-x[0m
-[1;30;47m░░░[0m█████[1;36;47m░░░░░▒▒▒▓▓▓[0;1;36;46m██████╫╫╫╫╫╫[0;1;36;40m╫╫╫╫[0;36m╫╫╫╫[0;37m╫╫╫[0;1;30m╫╫$b.[0m`?╫╫b,      [36mby crash[0;1;36mer /[0m/ g[1mal[0;1;33mza[0m
-[1m [0m                                         [1m    [0m               [36m      [0;1;36m    [0m    [1;33m   [0m
-[1m [0m                                                                        [1m     [0m
-[1m [0m                                                                        [1m     [0m
-[1m [0m                                                                        [1m     [0m
-'
+[1;30;47m░░░[0m█████[1;36;47m░░░░░▒▒▒▓▓▓[0;1;36;46m██████╫╫╫╫╫╫[0;1;36;40m╫╫╫╫[0;36m╫╫╫╫[0;37m╫╫╫[0;1;30m╫╫$b.[0m`?╫╫b,      [36mby crash[0;1;36mer /[0m/ g[1mal[0;1;33mza[0m'

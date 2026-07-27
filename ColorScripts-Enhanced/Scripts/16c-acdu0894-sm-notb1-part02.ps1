@@ -5,7 +5,7 @@
 # Source SHA-256: 9e8fe98d4189f3e979e51bcaa4ce406ced10ee19110842cd83397f1f8ce360cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-NOTB1.ANS by Smooth (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Number of The Beast
 # SAUCE Author: Smooth
 # SAUCE Group: ACiD Productions
@@ -49,7 +49,7 @@ Write-Host '
 [31;40m█████████▀▀▀▀▀▀▀▀▀▀████████████████▀▀▀▀▀▀█▓███████████▒▓██████████▀▀▀█████████[0m
 [31;40m▓█▀▀ █[0m                [31;40m▀▀███▀█▌▀[0m           [31;40m▒ ▀ █▓████▓▓▀ ▀▀▀██▀▀[0m           [31;40m▀█▀█[0m
 [31;40m▓▌   █[0m                     [31;40m▐█[0m             [31;40m░   ▐█▓▀[0m                         [31;40m█[0m
-[31;40m█    ▓[0m            [1;31;40m...A[0;31mn  OriGiNaL ANSi by Smooth <ACi[0;1;31mD>...[0m           [35m▄    [0;31m▐▌[0m
+[31;40m█    ▓[0m            [1;31;40m    [0;31m                               [0;1;31m     [0m           [35m▄    [0;31m▐▌[0m
 [31m█    ▒[0m                      [31m▌[0m             [31m░    ▌[0m                [35m▄▄▀▀[0m      [31m▐▌[0m
 [31m█[0m            [35m▄[0m         [31m■    ▓[0m                  [31m▓[0m            [35m▄██▀[0m           [31m▌[0m
 [31m█    ▀[0m         [35m▄[0m        [31m▀▄ ▐▒   ▄▄■    [0;1;30m▄[0;1;30;47m▓[0;1;30;40m▄[0m     [31m▌[0m          [35m▄███▌[0m           [31m▐[0m

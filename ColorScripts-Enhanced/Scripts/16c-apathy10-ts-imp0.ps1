@@ -5,7 +5,7 @@
 # Source SHA-256: 9bff6e16cfb68752cb8286576cfe9a4d3e3bc83ec1d72c0146c8e5c7e704c54a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-IMP0.ANS by Transient (apathy); released in apathy10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Impure
 # SAUCE Author: Transient
 # SAUCE Group: apathy
@@ -37,5 +37,4 @@ Write-Host '
 [1;40m [0m [33m▄[0m [33m▄[0m [1;37m [0m [1;37m [0m [1;33;43m▓[0;1;33;40m▄[0;1;37;40m [0;1;33;43m▓[0m  [33m█[0m  [1;33m▄[0m     [1;33m▄[0m [1;33m▄[0m  [1;30m▀▀█[0;1;30;47m▄▄▒░▒[0m▀▀ [1m▄[0m [1;33m▄[0m [1;33m▄[0m     [1;33m▄[0m  [1;33;43m░[0m  [1;33;40m▄[0m [1;33;40m▄[0m  [1;33;40m▄[0m  [1;33;43m▒[0m [1;37;40m████[0;1;37;47m▓▓▀░▒▓▓▒░[0m
 [1;37;40m [0m [1;33;43m░[0;33m▄[0;1;33;43m▒[0;33m▄[0;1;33m▄[0;1;33;43m░[0;1;33;40m▄[0;33m▄[0;1;33;43m░▓░▒[0m [33m [0;1;33;43m░[0;33m█[0;1;33;43m░▓░░▒[0;1;33;40m▄▄[0;1;33;43m▒░▌[0m [1;37;40m██▄▄▄▄▄▄▄▄███[0m [1;33;43m ░▌▀░ [0;1;33;40m▄[0;1;33;43m░ ▀▓▒[0m  [1;33;43m ▒░▄ ░▀▓ [0m [1;37;40m████[0;1;37;47m▓▓░░[0m▌[1m ▀[0;1;47m▓▒[0m
 [1;47m░[0m▄ [1;33m▀▀▀▀▀▀▀▀▀▀[0m [1;37m▄▄[0m [1;33m▀▀▀▀▀▀▀▀▀▀[0m [1;37m▄█████████████▄[0;1;33m ▀▀▀▀▀▀▀▀▀▀[0m [1;37m▄▄[0m [1;33m▀▀▀▀▀▀▀[0m [1;37m▄███[0;1;37;47m▓▓▓▓░[0m▄[1m░ ▄[0;1;47m▓[0m
-[1;47m░░░▒▒▒▓▓▓▓▓[0;1;40m████████████████████████████████████████████████████████████[0;1;47m▓▓▓▓▄▄▓▒░[0m
-[1;33;40m#[0;1;37;40m% [0;1;33;40mi[0mm[32mp[0;1;37mure : [0;1;33mo[0mp[32mp[0;1;37med [0;1;33mb[0my[1m [0;1;33mj[0me[32me[0;1;37mpee [0;1;33mo[0mf[1m [0;1;33mf[0mi[32mr[0;1;37me [0;1;33mp[0mr[32mo[0;1;37mductions : [0;1;33ma[0mn[32ms[0;1;37mi [0;1;33mb[0my[1m [0;1;33mt[0mr[32ma[0;1;37mnsient [0;1;33mo[0mf[1m [0;1;33ma[0mp[32ma[0;1;37mthy %[0;1;33m#[0m'
+[1;47m░░░▒▒▒▓▓▓▓▓[0;1;40m████████████████████████████████████████████████████████████[0;1;47m▓▓▓▓▄▄▓▒░[0m'

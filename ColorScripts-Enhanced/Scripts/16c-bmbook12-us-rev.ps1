@@ -5,7 +5,7 @@
 # Source SHA-256: f376c92c7288d4918bbdc152e1c0ea5da18d0c24286b3baed0ca76decc9ea4cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-REV.ANS by Avenger + Poti (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: revolution
 # SAUCE Author: ave + poti
 # SAUCE Group: black maiden
@@ -34,6 +34,4 @@ Write-Host '
 [1;30;47m░▐▄[0m▀[1;47m ▓[0;1;36;47m▄▌[0;1;30;47m▄▌[0m▒[1;30;47m▄[0;1;37;47m░[0;1;30;47m▄[0m  [1;30m▄[0m▒ ▀[1;30;47m░[0m█[1;47m▐▀[0m▄ ▐[1;30;47m▓░[0m█[1;47m█▄[0m▄[1;30m▐[0m░░▒[1;30;47m░[0m██[1;30;47mave[0m▄▄[1;30;47m▓▄░[0m██▌▄ █[1;30m▐[0;1;30;47m██[0m▒░[1;30m▌█▀░▓███▄▌▀[0;1;30;47m▀▌[0m█[1;47m▓▓[0m▄▐[1;47m░[0m█
 ░[1;30;47m▄[0m▒[1;30;47m█[0m▐[1;30;47m░[0;1;37;47m█[0m▀[1;30;47m▀▓[0;1;30;40m▐[0;1;30;47m█[0m░░░ ▒▒░[1;30;47m▄▓[0m▌▀█[1;47m▀▌[0;1;30;47m█▀[0m▌[1;47m▐▀[0m▀[1;30m▄▄█▀[0m▐[1;30;47m▓░[0m▌▄██▀ [1;30;47m█[0m▒▒▀██▐▄▐[1;30;47m▓█[0m [1;30m█▌█[0m [1;30m▄▐██[0m░░[1;30m█▄█[0;1;30;47m▄░[0m█[1;47m ▀░░[0m██
 [1;30m▐[0;1;30;47m██▓[0;1;30;40m▐[0;1;30;47m▓[0;1;37;47m░[0m [1;30;47m░░[0m [1;30m█▌[0m [1;30m█[0m [1;30m▐█[0m▐[1;30;47m█[0m▒ ░[1;30;47m▄▓░po[0m▌[1;47m░[0m█▌ [1;30;47m▓▀[0;1;30;40m▌[0;1;30;47m█[0m▒[1;30;47m▄[0m▌██[1m▒▒[0m▌[1;30m▀[0m▒[1;30;47m█[0m▌[1;30;47m░[0m▀ ▀█[1;30;47m░▀[0;1;30;40m▐█▄▄░▓██▌█[0m░[30;47m▓[0;37;40m░[0;1;30;40m█[0;1;30;47m██[0;1;30;40m▄[0;1;30;47m▄[0m█▀▐█▌
-     [1;30m░░[0m [1;30m"[0mrevolution [1;30m-[0m resistance [1;30m-[0m anarch [1m░░[0m y [1;30m-[0m unleashed[1;30m" [0m [1;30m░[0m [1;30m +o: shaitan^srg[0m
-
-[34m   [0m'
+     [1;30m░░[0m [1;30m [0m           [1;30m [0m            [1;30m [0m        [1m░░[0m   [1;30m [0m          [1;30m  [0m [1;30m░[0m [1;30m                [0m'

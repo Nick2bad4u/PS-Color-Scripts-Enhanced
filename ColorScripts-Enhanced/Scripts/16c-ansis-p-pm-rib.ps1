@@ -5,7 +5,7 @@
 # Source SHA-256: bca098e30d2086313a68eaadb33a0f3fe7db4464774bde052d0437e148c32a18
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-RIB.ANS by Paul Muaddib (ansis-p); released in ansis-p and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -47,4 +47,4 @@ Write-Host '
             [31m▌[0m        [1;31m▀▄▄▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▄▄▄▀▄▄▄▄▄▄▀▄▄▄▄▄▄▄▄▀[0;1;30m▓[0m     [31m▐▌[0m
                        [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m       [31m▌[0m
 [31m [0;1;37m┌──[0;1;36m──[0;36m──[0;1;34m──[0;34m── [0;1;37mS[0mys[1mO[0mp[36m: [0;1;37mU[0mriel [1;34m≡ [0;1;37m718[0;36m.[0;1;37m698[0;36m.[0;1;37m1969 [0;1;34m≡ [0;1;37mV[0mi[1mS[0mi[1mON[0;36m-[0;1;37mX [0;1;34m≡ [0;1;37mF[0melony[1mNET [0;34m──[0;1;34m──[0;36m──[0;1;36m──[0;1;37m──┐[0m
-[1;37m └─[0;1;36m─[0;36m─[0;1;34m─[0;34m── [0;1;37mR[0mazor [1m1911 S[0mite [1;34m≡ [0;1;37mHYPE EHQ [0;1;34m≡ [0;1;37mUSR D[0mual [1mS[0mtandard [1;34m≡ [0;1;37m400[0;36m+ [0;1;37mM[0megs [34m──[0;1;34m─[0;36m─[0;1;36m─[0;1;37m─┘[0m'
+[1;37m └─[0;1;36m─[0;36m─[0;1;34m─[0;34m── [0;1;37m [0m     [1m      [0m    [1;34m  [0;1;37m         [0;1;34m  [0;1;37m     [0m    [1m [0m        [1;34m  [0;1;37m   [0;36m  [0;1;37m [0m    [34m──[0;1;34m─[0;36m─[0;1;36m─[0;1;37m─┘[0m'

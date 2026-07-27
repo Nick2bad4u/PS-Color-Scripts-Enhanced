@@ -5,7 +5,7 @@
 # Source SHA-256: 2f3b5e702f9c8dd27b1d3c209e63732b5551f5211ee49ecf0048097fc1b97745
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-PLUS.ANS by {YBERPUNCh (RiB); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: plush logo
 # SAUCE Author: {YBERPUNCh
 # SAUCE Group: RiB
@@ -27,7 +27,7 @@ Write-Host '
      [31m░░░[0m    [1;30m▌[0m    [1;30m▌[0m   [31m░[0m   [1;30;41m░░[0;31m▓▓░░░[0m                              [1;30m▀▀▄▄▄▓▓[0m▒[1;30m▄▄▀▀[0m [31m▄▄[0m
             [1;30m▌[0m   [1;30m▐▌[0m       [1;30m░░[0;31m░░[0m          [1;37mp l U s H[0m           [31m░░░░[0m   [1;30m▀█▓█▀[0m [31m▄▀▀[0m
             [1;30m▀[0m  [1;30m▄▀[0m    [31m░[0m                                     [31m░░░░[0m    [1;30m▐▓▌[0;31m▄▀[0m
-                                [1;37m [0m   [1mrIb norvegian HQ[0m [1m [0m              [1;30m▒[0;31m▐▌[0m
+                                [1;37m [0m   [1m                [0m [1m [0m              [1;30m▒[0;31m▐▌[0m
                                                                     [1;30m░[0;31m  [0m
                                                                     [37m [0;31m [0m
                                                                     [1;30m░[0;31m [0m'

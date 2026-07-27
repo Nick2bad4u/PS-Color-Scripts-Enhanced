@@ -5,7 +5,7 @@
 # Source SHA-256: e1ecb510fdb10106ceb7d6c6e041842dc71b576d9384e94a77dde5d65030085f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-BHEAV.ANS by Baxter (Axial Force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black Heaven Logo
 # SAUCE Author: Baxter
 # SAUCE Group: Axial Force
@@ -25,7 +25,7 @@ Write-Host '
 [1;30m  [0;34m [0;1;34m   [0;34m▐[0;1;34;44m▓[0;34m▓[0m    [34m▐█[0;1;34;44m░▒▓[0;1;34;40m██ [0;34m█ ▄██[0;1;34;44m░▒▓[0;1;34;40m▀ █[0;1;34;44m▓▒░[0;34m█▄▄[0;1;32;44m░[0;34m█▌ [0;31m░[0;1;31;41m░[0;31m▌[0;37m [0;34m███ ▄██[0;1;34;44m░▒▓[0;1;34;40m██ [0;31m██▄  [0;34m▐█[0;1;34;44m░▒▓[0;1;34;40m█▌▀[0m   [1;34m▀[0;35m■[0m
 [1;30m  [0;34m [0m    [1;34;45m▓[0;34m▀▄▄ ▄█[0;1;34;44m░▒▓[0;1;34;40m█▀  [0;34m▄█████▀   [0;1;34m▐█[0;1;34;44m▓▒░[0;34;44m░ [0;1;32;44m▒[0;34m██ [0;31m▐[0;1;31;41m▒[0;31m▌  [0;34m███████[0;1;34;44m░▒[0;1;34;40m▀  [0;31m▐[0;1;31;41m▒▓[0;31m▌  [0;34m██[0;1;34;44m░▒▓[0;1;34;40m█[0m     [1;34;45m▒[0;1;34;40m▌[0m
 [1;30m  [0;34m [0m   [35m▐[0;1;34;45m▒[0m  [34m▀▀▀▀▀▀▀  ▀▀▀▀▀▀[0m       [1;34m▀▀[0;34m▀▀▀▀[0;1;32;44m▓[0;34m▀   [0;1;31;41m▓[0m    [34m▀▀▀▀▀▀▀[0m     [31m▀▀   [0;34m▐██[0;1;34;44m░▒[0;1;34;40m▌[0m    [35m▐[0;1;34;45m░[0m
-[1;30m  [0;34m [0m    [1;34;45m░[0;35m▌[0;37m  [0;1;30m  Going through the tunnel[0;32m▐[0;1;32;42m▒[0m [1;30m  [0m [31m▓[0;1;30mcan you see the light?[0;34m▀▀▀[0;37m  [0;1;34m  [0;35m▄[0;37m [0;35m▀[0m
+[1;30m  [0;34m [0m    [1;34;45m░[0;35m▌[0;37m  [0;1;30m                          [0;32m▐[0;1;32;42m▒[0m [1;30m  [0m [31m▓[0;1;30m                      [0;34m▀▀▀[0;37m  [0;1;34m  [0;35m▄[0;37m [0;35m▀[0m
 [1;30m  [0;34m [0m     [35m■▄▄[0;1;35;45m▓[0;1;35;40m▄    ▄[0;1;35;45m▀▓[0;1;35;40m▌▄[0;1;35;45m▀[0;35m██[0;1;35;45m▀▓▒[0;35m▄[0;37m [0;1;35m ▄[0;1;35;45m▓[0m [1;35m▀[0m [1;35;45m▓[0;32m█[0;1;32;42m▓[0;32m█[0;1;35;45m▓▀[0;1;35;40m▄[0;31m▒   [0;1;35m▄[0;1;35;45m▓[0m [1;35;45m▓▀▓[0;35m███[0;1;35;45m▒[0;35m▄[0;37m [0;1;35;45m▓▀[0;1;35;40m▄[0m    [1;35m▄[0;1;35;45m▀▓[0;1;35;40m▀[0;35m▀[0;1;35m▀[0m
 [1;30m  [0;34m [0m       [35m▐[0;1;35;45m░[0;35m█[0;1;35;45m▓[0m  [35m▐[0;1;35;45m▓[0;35m█[0;1;35;45m▒[0;35m▌[0;1;35;45m▓[0;35m█[0;1;35;45m░[0;35m▀▀[0;1;35;45m▒[0;35m▀▀[0;37m [0;1;35;45m▓[0;35m█[0;1;35;45m▒[0m   [1;35;45m▒[0;35m█[0;35;42m▄[0;1;35;40m▌[0;1;35;45m▒[0;35m█[0;1;35;45m▓[0;1;35;40m▌[0m  [1;35;45m▓[0;35m█[0;1;35;45m▒[0;35m▐[0;1;35;45m▒[0;35m█[0;1;35;45m▒[0;35m▌[0;37m  [0;1;35;45m░[0m [35m▐[0;1;35;45m▒[0;35m█[0;1;35;45m▓[0m [35m▀▄[0;1;35m▐[0;1;35;45m▓[0;35m█[0;1;35;45m▒[0m
 [1;30m  [0;34m  [0m       [35m▀[0;1;35;45m░▒[0m  [35m▐[0;1;35;45m▒░ [0m [1;35;45m░[0;35m▀[0;1;36m▄[0m      [35m▀[0;1;36m▄[0;1;36;46m▓[0m   [35m▀█[0;1;35;45m░[0;36m [0;1;35;45m░ ▒[0m   [1;35;45m▒[0;35m█[0;1;35;45m░[0;35m▌[0;1;35;45m░[0;35m█▀[0m     [35m▐▀█[0;1;35;45m▒[0m    [1;35;45m▒░░[0;35m▌[0m
@@ -38,10 +38,4 @@ Write-Host '
 [1;30m  [0;1;34m [0m [34m▀[0;1;30m [0m     [1;30;46m▓[0;1;30;40m▀   ▐[0;1;30;46m▓[0;1;30;40m█▀[0m  [1;30;46m▓[0;1;30;40m▀[0;1;30;46m▓▒▓[0;1;30;40m▀[0m  [1;30m▀[0;1;30;46m▓[0;1;30;40m▀[0m  [36m [0;1;30;46m▓▒[0;1;30;40m▌[0m  [1;30m▀[0;1;30;46m▓[0m [1;30m▄[0m [1;30;46m▓[0;1;30;40m▀[0m  [36m▀[0;1;30;46m ░▒▓▓[0;1;30;40m█▀[0m [1;30;46m▓[0;1;30;40m▀[0;1;30;46m▓[0m     [1;30m▀[0;1;30;46m▓[0m     [34m▒[0m
 [1;30m  [0m   [34m▀[0;1;30m▄[0;34m▄[0;37m [0;1;30m▄▄■[0m                        [1;30m▐[0;1;30;46m▓[0m                             [1;30m  ■▄[0m [1;30m▄▀[0;34m░[0m
                                                                        [1;30m [0m
--------------------------------------------------------------------------------
-this must be my first request I did, it kinda sucks, but anyway, I didn''t want
-to delete it, so here it is...
-black heaven is already closed... santa ? why did you leave ?.. hmm yeah ok then
-see you in la bush someday :)
-
-nah no quote but greets to every one I know, and every one who knows me[0m'
+-------------------------------------------------------------------------------[0m'

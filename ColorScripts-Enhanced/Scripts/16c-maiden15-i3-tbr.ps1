@@ -5,7 +5,7 @@
 # Source SHA-256: fd9de610914eaf8a07379d39f2940f056b47bccaf4b9417f4ac897250943f34c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: I3-TBR.ANS by islayer (maiden br); released in maiden15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tribute 2 enzo!
 # SAUCE Author: islayer
 # SAUCE Group: maiden br
@@ -34,10 +34,4 @@ Write-Host '
 [37m [0;34m█[0;1;34;44m▀[0;34m█▄[0;35m [0;37m█[0;1;37;47m▐▀▐▄[0m▄ [34m▀▀▀▀▀[0;37m ▀[0;1;37;47m▀[0;1;37;40m▄[0;35m    [0;1;31m [0;33m▀▀█▌[0;1;31m    ▐██████████████▀▀ [0;35m  [0;1;35m▄[0;1;35;45m▀[0;35m▌[0;37m [0;32m█[0;1;32;42m▀▀ [0;32m▀  [0;37m [0;32m▄█[0;1;32;42m▀▌[0;32m█▀[0;37m [0;35m▄[0;1;35;45m██[0;30;45m░[0;1;35;45m▄[0;35m█[0m
 [37m▄▄▄▄▄▄█[0;1;37;47m▀▀▐▀▀[0m█▀▀ ▀[30;47m░░[0;1;37;47m▐▄▄[0m█[1;47m▀[0m▄▄[1m▄[0m [1m▄[0m [33m  [0;1;31m   [0;33m▀[0;1;31m▀▀▀▀▀▀▀▀▀▀▀   [0;35m [0;1;35m▀[0;35m [0;1;35m▀[0;35m▀▀▀[0m       [1;35;45m▄[0;35m▄[0;32m [0;35m▄[0m       [30;45m▓▓▓[0m
              [30;47m▓[0;1;37;47m▐[0;1;37;40m▄[0m [30;47m▓▓█████[0m    [35;40m [0;37;40m  [0;1;37;40m/[0m
-                          [1m" Dê!@ "[0m
-                            [35m [0m
-[1;37mMeu, quando eu comecei essa ansi, eu comecei pensando no estilo do enzo (e0), e [0m
-[1;37mfoi assim que eu acabei ela, usando todas tecnicas que eu aprendi com o enzo![0m
-[1mValeu enzo, voce detona!@[0m
-
-                                          >[1m >> islayer [0mi3[1m [0m([1mislayer@hotmail.com[0m)[0m'
+                          [1m" Dê!@ "[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c6fb08c4569a0c6ff39077282eea6da710c8f3ce2d8f5525dd6db73404e3b4f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RP-CONF.ANS by Raptor (axf-ap-1); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -19,10 +19,10 @@ Write-Host '
       [33m▐[0;1;31;43m░▒[0;1;31;40m▌[0m▀[1;47m▒▓▓██[0m ▀[1;47m░░▒▒▓▓[0;1;40m█▓▀ [0m▐[1;47m░▒▒▓[0;1;40m█[0;1;47m▓▒▒[0m▄▄▄ ▄[1;47m░▒▓[0;1;40m██[0;1;47m▓▒░[0m▀ [1m▀▀[0;1;47m▓▓▒[0m▀▀   [1m▀▀[0;1;47m▒░[0m▀ [1;31m███[0;1;31;43m▓▒░[0m
        [1;31;43m░▒▓[0;1;31;40m▄  [0m▀▀▀■  ▀▀[1;47m▒▒[0;1;40m▀▀    [0m▀[1;47m░▒▓[0;1;40m█[0;1;47m▓▒▒░░[0m▀  ▀▀[1;47m▓▓[0;1;40m█▀[0m▀                 [1;31m▄███[0;1;31;43m█▓▒░[0m
        [33m▐[0;1;31;43m░░▓[0;1;31;40m███■[0m                ▀▀[1;47m▓▒░[0m▀▀                              [1;31m█[0;1;31;43m█[0;1;31;40m█[0;1;31;43m▓▒░[0m
-        [33m█[0;1;31;43m░▓[0;1;31;40m█▌    [0;1;30;40mMa[0;31mI[0;1;31mn [0;1;37mBo[0;1;31mA[0;31mR[0;1;30md F[0;31mi[0;1;31mL[0;31mE[0;1;30mz [0m«» XxXx Filez ■ XxXx MeGz   [1;30mHi!   [0;1;31m▐[0;1;31;43m█▓▒░[0;33m▌[0m
-       [33m▐[0;1;31;43m░▓[0;1;31;40m██[0m          [1;30;40mH[0;1;31;40m/[0;31mP[0;1;31m/[0;31mA [0;1;30mR[0;31mu[0;1;31ml[0;31mE[0;1;30mz [0m«» XxXx Filez ■ XxXx MeGz [1;30mu can see[0;1;31;43m█▓▒░░[0m
-       [33m█[0;1;31;43m░▓[0;1;31;40m██    [0;1;30;40mWi[0;31mN[0;1;31mS[0;1;37muX-[0;1;31m0[0;31ms[0;1;30m/2 S[0;31mt[0;1;31mu[0;31mF[0;1;30mf [0m«» XxXx Filez ■ XxXx MeGz[1;30mthere`re  [0;1;31;43m█▓▒░░[0m
-      [33m▐[0;33;43m [0;1;31;43m░▓[0;1;31;40m██[0m      [1;30;40m(0[0;31m-[0;1;31m3[0;1;37m)d[0;1;31mA[0;31my[0;1;30mz W[0;31ma[0;1;31mR[0;31me[0;1;30mz [0m«» XxXx Filez ■ XxXx MeGz[1;30msome dam  [0;1;31m█[0;1;31;43m█▓▒░[0;33m█[0m
+        [33m█[0;1;31;43m░▓[0;1;31;40m█▌    [0;1;30;40m  [0;31m [0;1;31m  [0;1;37m  [0;1;31m [0;31m [0;1;30m   [0;31m [0;1;31m [0;31m [0;1;30m  [0m              ■             [1;30m      [0;1;31m▐[0;1;31;43m█▓▒░[0;33m▌[0m
+       [33m▐[0;1;31;43m░▓[0;1;31;40m██[0m          [1;30;40m [0;1;31;40m [0;31m [0;1;31m [0;31m  [0;1;30m [0;31m [0;1;31m [0;31m [0;1;30m  [0m              ■           [1;30m         [0;1;31;43m█▓▒░░[0m
+       [33m█[0;1;31;43m░▓[0;1;31;40m██    [0;1;30;40m  [0;31m [0;1;31m [0;1;37m   [0;1;31m [0;31m [0;1;30m    [0;31m [0;1;31m [0;31m [0;1;30m  [0m              ■          [1;30m          [0;1;31;43m█▓▒░░[0m
+      [33m▐[0;33;43m [0;1;31;43m░▓[0;1;31;40m██[0m      [1;30;40m  [0;31m [0;1;31m [0;1;37m  [0;1;31m [0;31m [0;1;30m   [0;31m [0;1;31m [0;31m [0;1;30m  [0m              ■          [1;30m          [0;1;31m█[0;1;31;43m█▓▒░[0;33m█[0m
       [1;31;43m░░▓▓[0;1;31;40m███[0m      [1;30;40mAn[0;31mS[0;1;31mi[0;1;37m/A[0;1;31ms[0;31mC[0;1;30mii A[0;31mR[0;1;31mt [0m«» XxXx Filez ■ XxXx MeGz[1;30merros.   [0;1;31m██[0;1;31;43m██▓▒░[0;33m▌[0m
      [1;31;43m░░▓▓[0;1;31;40m████▌[0m              [1;30;40mM[0;31mu[0;1;31mS[0;31ma[0;1;30mk [0m«» XxXx Filez ■ XxXx MeGz[1;30mTTYL    [0;1;31m▐████[0;1;31;43m█▓▒░ [0m
 [1;31;40m    [0;1;31;43m░▒▒▓[0;1;31;40m█▀[0m▄[1;31m▀▀■[0m         [1;37;47m░[0;1;37;40m▄    [0;1;30;40m»» BLoOdThiRsT BbS ««[0m      [1;37;40m▄[0;1;37;47m░[0m       [1;30;40mrp![0;1;31;40m■▀[0m▄[1;31m▀█[0;1;31;43m▓▒▒░ [0m

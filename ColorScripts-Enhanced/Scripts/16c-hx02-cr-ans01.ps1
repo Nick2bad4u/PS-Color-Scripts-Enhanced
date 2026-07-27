@@ -5,7 +5,7 @@
 # Source SHA-256: cc6c2d2cf5201aebe67e9fd51e45ae1472fb14a071fd5e3f7418aaf1b82ab62f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CR-ANS01.ANS by cORRUPT! (hOAX!); released in hx02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: cORRUPT!
 # SAUCE Group: hOAX!
 # Lines: 1-27
@@ -37,5 +37,4 @@ Write-Host '
                 [33m        [0m                  [34m▀▀▄  [0m      [37m    [0m    [34m▄▀▀[0m
                          [34m█[0;30;44mO[0;34;40m█[0;37;40m [0;34;40mR  B  i  T[0m        [34;40m▀▀▓▄▄[0;37;40m [0;34;40m▄▄▄▄▀▀[0m   [34;40m  [0;32;40m  [0;34;40mZ[0;32;40m  [0;34;40mi[0;32;40m  [0;34;40mN[0;32;40m [0;30;44m E [0m
 
-[1;30;40m-------------------------------------------------------------------------------[0m
-[1;30mHer ye go tHE DiRECTOR!. An Orbitzine 24 liner.[0m'
+[1;30;40m-------------------------------------------------------------------------------[0m'

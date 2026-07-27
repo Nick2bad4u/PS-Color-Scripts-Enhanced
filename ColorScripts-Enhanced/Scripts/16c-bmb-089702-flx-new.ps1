@@ -5,7 +5,7 @@
 # Source SHA-256: db874f12b1e531891a8098dc5aeeeeb1f0a4f5356880ff846f2c9dd00275a671
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FLX-NEW.ANS by flux (bamboosh); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: new user registration
 # SAUCE Author: flux
 # SAUCE Group: bamboosh
@@ -25,14 +25,14 @@ Write-Host '
 [31m▐[0;1;31;41m▓▓██[0;1;31;40m▄[0;31m [0;34m▀▀▀▌[0;1;34m   [0;31m▄▄▄▄▄▄▄▄█[0;1;31;41m░░[0;31m█▄▄▄▄▄███[0;1;37;41m░░  [0;31m███████████████[0;1;31;41m░░░▓▓[0;31m  ▀▀▀████[0;1;33;41m░[0;31m█[0;1;33;41m░░░░[0;31m█[0;30;41m ▐▌ [0;1;37;41m [0m
 [31m  [0;1;31m▀▀▀[0m                [31m    [0m          [1;37m░[0;31m▀▀▀▀▀▀▀▀▀▀███[0;1;31;41m  ░░▓▓▓██[0;1;31;40m▌[0m       [31m▀▀▀▀▀▀[0;30;41m▄[0;31;40m▀[0;30;41m█▀ ░░[0m
    [1;37;40myer handle[0m [31m: [0;1;31mflux[0m   [1;31m [0m                              [1;31m▀▀▀▀▀[0;31m fluxworks [0;30;41m▓[0;31;40m ░[0;30;41m▓[0m    [31;40m [0m
-   [1;37;40mpassword[0m   [31m:[0;37m [0;1;31mxxxx[0m                              [1;30m│[0m
-       [1m [0m [1m└[0m [1mre[0m [31m:[0;37m [0;1;31mxxxx[0m                              [1;30m│[0m  [1mprotocols available  [0m
-[1m   affils    [0m [31m:[0;37m [0;1;31mpsychic release+bamboosh[0m          [1;30m│[0m
-   [1mhomephone  [0;31m:[0;37m [0;1;31m+4732157653[0m                       [1;30m│[0m  [31m[[0;1;37mn[0;31m][0;1;31mone[0m
-   [1mdataphone  [0;31m:[0;37m [0;1;31m+4732157653[0m                      [1m [0;1;30m│[0m  [31m[[0;1;37mz[0;31m][0;1;31mmodem[0m
+   [1;37;40m        [0m   [31m [0;37m [0;1;31m    [0m                              [1;30m│[0m
+       [1m [0m [1m└[0m [1m  [0m [31m [0;37m [0;1;31m    [0m                              [1;30m│[0m  [1m                     [0m
+[1m             [0m [31m [0;37m [0;1;31m                        [0m          [1;30m│[0m
+   [1m           [0;31m [0;37m [0;1;31m           [0m                       [1;30m│[0m  [31m [0;1;37m [0;31m [0;1;31m   [0m
+   [1m           [0;31m [0;37m [0;1;31m           [0m                      [1m [0;1;30m│[0m  [31m [0;1;37m [0;31m [0;1;31m     [0m
    [1mcomputer   [0;31m:[0;37m [0;1;31m486dx2-50 [0m                        [1;30m│[0m  [31m[[0;1;37m.[0;31m][0;1;31m ...[0m
-   [1mclrscr?    [0;31m:[0;37m [0;31m[[0;1;37myEP[0;31m][0;1;31m nOPE[0m                        [1;30m│[0m  [31m[[0;1;37m.[0;31m][0;1;31m ...[0m
-   [1mshortdesc? [0;31m:[0;37m [0;1;31m yEP [0;31m[[0;1;37mnOPE[0;31m][0m                       [1;30m│[0m  [31m[[0;1;37m.[0;31m][0;1;31m ...[0m
-   [1mprotocol   [0;31m:[0;37m [0;1;31m z[0m                                [1;30m│[0m  [31m[[0;1;37m.[0;31m][0;1;31m ...[0m
+   [1m           [0;31m [0;37m [0;31m [0;1;37m   [0;31m [0;1;31m     [0m                        [1;30m│[0m  [31m [0;1;37m [0;31m [0;1;31m    [0m
+   [1m           [0;31m [0;37m [0;1;31m     [0;31m [0;1;37m    [0;31m [0m                       [1;30m│[0m  [31m [0;1;37m [0;31m [0;1;31m    [0m
+   [1m           [0;31m [0;37m [0;1;31m  [0m                                [1;30m│[0m  [31m [0;1;37m [0;31m [0;1;31m    [0m
                                                   [1;30m [0m
 [1;30m─────────────────────────────────────────────────────────────────────────────── [0m'

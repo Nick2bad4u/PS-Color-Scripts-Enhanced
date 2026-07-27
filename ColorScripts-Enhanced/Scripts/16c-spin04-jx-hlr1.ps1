@@ -5,7 +5,7 @@
 # Source SHA-256: bc5bc8a78c2d79dc78bc642469f8eb498ec261602b65bf3fdee83b616ae3dae6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JX-HLR1.ANS by ( jInx ) (n / a); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hlr> hackers lair anskee
 # SAUCE Author: ( jInx )
 # SAUCE Group: n / a
@@ -29,6 +29,4 @@ Write-Host '
 [1m [0m [1;30ms[0;1;37m$.... [0;1;36mⁿ$[0;34m$$$$$$[0;1;34m$[0;1;37m  [0;36m$[0;34m$$s$$[0;1;34m$$ⁿ[0;1;37m [0;36m$[0;34m$$$$$$$[0;1;34m$[0;1;37m  [0;36m$[0;34m$$$$$$$[0;1;34m"[0;1;37m [0;36m$[0;34m$$$$$$$[0;1;34m$[0;1;37m  [0;1;36m$[0;34m$s$$$$$[0;1;37m$ [0;1;30m""$[0m$[1m$[0m
 [1m [0m [1;30mP[0mⁿ$$$[1m$ [0;36ms$[0;34m$$$$$$[0;1;34m"[0;1;37m  [0;36m$[0;34m$$$$$$[0;1;34m$s[0;1;37m [0;36m$[0;34m$$$$$$$[0;1;34mⁿ[0;1;37m  [0;36m$[0;34m$$$$$$$[0;1;34ma[0;1;37m [0;36m$[0;34m$$$$$▐$[0;1;34m$[0;1;37m ▓░█[0;34m▌[0;1;37m▒▓[0;34m▐[0;1;37m lair [0;1;30m$[0mⁿ[1m$[0m
 [1m [0m [1;30m,[0md$$$[1m$ [0;36m$[0;34m$$$$$$$[0;1;34ms[0;1;37m  [0;36m$[0;34m$$$$$$$[0;1;34m$[0;1;37m [0;36m$[0;34m$a$$$$$[0;1;34mq[0;1;37m [0;36m.$[0;34m$$$$$$$[0;1;34m$[0;1;37m [0;36m$[0;34m$$m$$$$[0;1;34m$[0;1;37m  [0;1;36m$[0;34m$$$ⁿ$$$[0;1;37m$ [0;1;30m..$[0ma[1m$[0m
-[1m [0m [1;30m""""""[0;1;37m [0;36m$[0;34m$$$$$[0;1;34m$$$[0;1;37m  [0;36m$[0;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;34mP''[0;1;37m [0;36m$[0;34m$$$$$$$[0;1;34m$[0;1;37m  [0;36m$[0;34m$$$a$$$[0;1;34m$[0;1;37m [0;1;30m"""""[0m
-
-[1m [0m [1m   hacker''s lair      +o>ion   +v>jinx       n1#>46 31 926224[0m'
+[1m [0m [1;30m""""""[0;1;37m [0;36m$[0;34m$$$$$[0;1;34m$$$[0;1;37m  [0;36m$[0;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;34mP''[0;1;37m [0;36m$[0;34m$$$$$$$[0;1;34m$[0;1;37m  [0;36m$[0;34m$$$a$$$[0;1;34m$[0;1;37m [0;1;30m"""""[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: dc3756cf82ecdc84ac8731096abc9a4793ba62a86aa6c3e47dbfeb23a4099b93
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-SKBAD.ANS by Technophreak (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 196-245
 # Columns: 1-80
 
@@ -27,11 +27,11 @@ Write-Host '
 ▄▄▄▄[1m▄    [0m▄▄▄▄▄[1m▄    [0m▄▄▄▄▄[1m▄    [0m▄▄▄▄▄[1m▄    [0m▄▄▄▄▄[1m▄[0m     ▄▄▄▄▄[1m▄[0m     ▄▄▄▄▄[1m▄[0m     ▄▄▄▄▄[1m▄[0m
 ▄▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀[0;1;30;47m▀[0;1;37;40m▄▄[0m▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀[0;1;30;47m▀[0m▄▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀[0;1;30;47m▀[0m▄▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀[0;1;30;47m▀[0m▄▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀▀[0;1;30;47m▀[0m▄▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀▀[0;1;30;47m▀[0;1;37;40m▄[0m▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀▀[0;1;30;47m▀[0;1;37;40m▄▄[0m▄▄[1;30;47m▀[0;1;30;40m▀▀[0m
 
-[1;30;40m   [0;1;37;40mTH[0;1;30;40mi[0;1;37;40mS [0;1;30;40mi[0;1;37;40mS A BLADE PRODUCTION, ARTWORK WAS DONE SOLELY BY TECHNOPHREAK.  TH[0;1;30;40mi[0;1;37;40mS[0m
-[1;37;40m  ANS[0;1;30;40mi i[0;1;37;40mS FROM MY HEAD, AND CAME OUT WELL CONS[0;1;30;40mi[0;1;37;40mDER[0;1;30;40mi[0;1;37;40mNG. [0;1;30;40mi[0;1;37;40mF YOU WANT ME TO DO YOU[0m
-[1;37;40m   AN AD, [0;1;30;40mi[0;1;37;40mT [0;1;30;40mi[0;1;37;40mS 20$, UNLESS [0;1;30;40mi [0;1;37;40mKNOW YOU, OR YOU CAN OFFER ME SOMETH[0;1;30;40mi[0;1;37;40mNG ELSE. [0;1;30;40mi[0m
-[1;30;40m  [0;1;37;40mCAN BE REACHED ON PR[0;1;30;40mi[0;1;37;40mME, [0;1;30;40mi[0;1;37;40mMPER[0;1;30;40mi[0;1;37;40mAL, AND NOW SPEED.. OR ON ETERNAL [0;1;30;40mi[0;1;37;40mNSAN[0;1;30;40mi[0;1;37;40mTY. [0;1;30;40mi[0m
-[1;30;40m   [0;1;37;40mWOULD LOVE TO HEAR FROM YOU... LATER![0m
+[1;30;40m   [0;1;37;40m  [0;1;30;40m [0;1;37;40m  [0;1;30;40m [0;1;37;40m                                                                  [0;1;30;40m [0;1;37;40m [0m
+[1;37;40m     [0;1;30;40m   [0;1;37;40m                                      [0;1;30;40m [0;1;37;40m   [0;1;30;40m [0;1;37;40m    [0;1;30;40m [0;1;37;40m                       [0m
+[1;37;40m          [0;1;30;40m [0;1;37;40m  [0;1;30;40m [0;1;37;40m              [0;1;30;40m  [0;1;37;40m                                    [0;1;30;40m [0;1;37;40m         [0;1;30;40m [0m
+[1;30;40m  [0;1;37;40m                    [0;1;30;40m [0;1;37;40m    [0;1;30;40m [0;1;37;40m    [0;1;30;40m [0;1;37;40m                                  [0;1;30;40m [0;1;37;40m    [0;1;30;40m [0;1;37;40m    [0;1;30;40m [0m
+[1;30;40m   [0;1;37;40m                                     [0m
 ▄▄▄▄[1m▄    [0m▄▄▄▄▄[1m▄    [0m▄▄▄▄▄[1m▄    [0m▄▄▄▄▄[1m▄    [0m▄▄▄▄▄[1m▄[0m     ▄▄▄▄▄[1m▄[0m     ▄▄▄▄▄[1m▄[0m     ▄▄▄▄▄[1m▄[0m
 ▄▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀[0;1;30;47m▀[0;1;37;40m▄▄[0m▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀[0;1;30;47m▀[0m▄▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀[0;1;30;47m▀[0m▄▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀[0;1;30;47m▀[0m▄▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀▀[0;1;30;47m▀[0m▄▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀▀[0;1;30;47m▀[0;1;37;40m▄[0m▄▄▄[1;30;47m▀[0;1;30;40m▀▀▀▀▀[0;1;30;47m▀[0;1;37;40m▄▄[0m▄▄[1;30;47m▀[0;1;30;40m▀▀[0m
 

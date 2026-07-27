@@ -5,19 +5,19 @@
 # Source SHA-256: 207bd8d81f79f89862fd4d4b3afda6d7fa854840c8357f1229281a8cf3a803ab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RA-VD1.ANS by Raptor 709 (irapack4); released in irapack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
 
 [1m  [0;31m░[0m                   [1;30m░[0m        [1;30mVoodoo BBS  ·7o9·364·5743·[0m            [1;30m░    [0;31m█[0m
-[31m  ▒  [0;1;30mRaptor·iRa[0m       [1;30m▒[0m         [1;30mSysgawds:Thoraz & Crash[0m              [1;30m▒    [0;31m▓[0m
-[31m  ▓[0m                   [1;30m▓[0m       [1;30mCo-Sysgawds:Raptor & Pender[0m            [1;30m▓    [0;31m▓[0m
-[31m  █[0m                   [1;30m▒[0m        [1;30mLOTS of files and CD-ROM[0m              [1;30m▓    [0;31m▓[0m
-                      [1;30m░[0m           [1;30mDoorz and Messages[0m                 [1;30m▒    [0;31m▒[0m
-                                [1;30mRunning Renegade 10-05[0m               [1;30m▒    [0;31m▒[0m
-                            [1;30mKewl Origional Ansi art by Raptor[0m        [1;30m░    [0;31m░[0m
+[31m  ▒  [0;1;30m          [0m       [1;30m▒[0m         [1;30m                       [0m              [1;30m▒    [0;31m▓[0m
+[31m  ▓[0m                   [1;30m▓[0m       [1;30m                           [0m            [1;30m▓    [0;31m▓[0m
+[31m  █[0m                   [1;30m▒[0m        [1;30m                        [0m              [1;30m▓    [0;31m▓[0m
+                      [1;30m░[0m           [1;30m                  [0m                 [1;30m▒    [0;31m▒[0m
+                                [1;30m                      [0m               [1;30m▒    [0;31m▒[0m
+                            [1;30m                                 [0m        [1;30m░    [0;31m░[0m
                 [35m░[0m                                                    [1;30m░    [0;31m▒[0m
 [31m █▀▀▀▀▀▀▀▀▀░ ▀▀ [0;35m▒ [0;31m▀▀▀█[0m                                                    [31m░[0m
 [31m █ [0;35;44m███[0;37;40m▓[0;35;40m▓▒[0;35;44m█[0m [31;40m▒ [0;35;44m███[0;35;40m▓[0;37;40m███ [0;31;40m█[0m                    [35;44m██[0;37;40m█[0;35;44m▒▓██[0;35;40m█░■▓[0;37;40m▄[0;35;40m▄[0m                   [31;40m░[0m

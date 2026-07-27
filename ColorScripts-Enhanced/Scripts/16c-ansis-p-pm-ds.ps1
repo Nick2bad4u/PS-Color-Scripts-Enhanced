@@ -5,7 +5,7 @@
 # Source SHA-256: 9202676ea56a9c01c665099fb3c8defb7374e89a06aae54a80a41e779dd0b973
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-DS.ANS by Paul Muaddib (ansis-p); released in ansis-p and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -48,6 +48,4 @@ Write-Host '
 [1;30m░░░░░░░[0m                [1;34m── ▄ ▀▀▀▀▀▀▄▀ ─ █ ▄▀ ─ ▀──█─▐▌──▐▌─▐▌▐▌───█[0m
 [1;30m░░░░░░░░░░░░░[0m           [36m─[0;1;34m▐▌[0;36m──────[0;1;34m▐▐▌[0;36m───[0;1;34m▐▌▐▌[0;36m─────[0;1;34m▐▌ █▀▀▀▀ [0;36m─[0;1;34m▐▌ █ [0;36m──[0;1;34m▐▌[0;36m─[0m
 [1;30m░░░░░░░░░░░░░░[0m           [36m─[0;1;34m▀▄▄▄▄▄▄▄▀▄▄▄▄▀[0;36m──[0;1;34m▀▄▄▄▀[0;36m──[0;1;34m█[0;36m─[0;1;34m▀▄▄▄▀[0;36m──[0;1;34m█[0;36m───[0;1;34m▀▀▀█ [0;36m──[0m
-[1;30m░░░░░░░░░░░░░░[0m            [1;36m────────────────────────────────── [0;1;34m▀▄▄▄▀ [0;1;36m───[0m
-[36m≡ [0;1;37mD[0mark [1mS[0mociety [36m≡ [0;1;37mS[0mys[1mO[0mp[1;36m: [0;1;37mS[0mharp [36m≡ [0;1;37mC[0mo[1;36m: [0;1;37mC[0merebrus [36m≡ [0;1;37mR[0munning [1mP[0mrism [36m≡ [0;1;37m408[0;1;36m.[0;1;37mPRI[0;1;36m.[0;1;37mVATE [0;36m≡[0m
-[36m ≡ [0;1;37mN[0mew [1mU[0mser [1mPW[0;1;36m: [0;1;37mA[0mccess [1mP[0mlea [36m≡ [0;1;37m14[0;1;36m.[0;1;37m4 D[0mual [1mS[0mtandard [36m≡ [0;1;37mANSI[0;1;36m: [0;1;37mP[0maul [1mM[0muad[1;36m''[0;1;37mD[0mib [1;36m[[0mi[1mCE[0;1;36m] [0;36m≡[0m'
+[1;30m░░░░░░░░░░░░░░[0m            [1;36m────────────────────────────────── [0;1;34m▀▄▄▄▀ [0;1;36m───[0m'

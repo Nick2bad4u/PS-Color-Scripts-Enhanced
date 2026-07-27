@@ -5,7 +5,7 @@
 # Source SHA-256: 5a32d03f6df1faf6c3c34a46ae16d73f2167b8769beb913c21345b7f01785a5a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GP-IY.ANS by Gp (rca-19a); released in rca-19a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -31,5 +31,4 @@ Write-Host '
 [1;30m▀█▄[0m
  [1;30;47m▌▐[0;1;30;40m [0m
 [1;30m▐[0;1;30;47m [0;1;30;40m▌[0m
- [1;30m▀█▄[0m
-   [1;30m  [0m'
+ [1;30m▀█▄[0m'

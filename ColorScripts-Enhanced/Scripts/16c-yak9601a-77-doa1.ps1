@@ -5,7 +5,7 @@
 # Source SHA-256: 0cc8f836a159afe3507a36b6a7c0ca8423f8471296c6694f3bff3c3620acc733
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 77-DOA1.ANS by 77 (yak); released in yak9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: doa
 # SAUCE Author: 77
 # SAUCE Group: yak
@@ -49,10 +49,7 @@ Write-Host '
 [37m  [0;1;31;43m █▀[0;33m▀ [0;37m [0;1;31;43m░████[0;33m█[0;1;31;43m███▓[0;33m█[0m   [33m▀[0;1;31;43m▀█████▄[0;33m▄▄[0;1;31;43m ▄██[0;33m█[0m            [33m the yak worldheadquarters [0m
 [37m [0;1;31;43m ██▄▄▄▄█▀▀▀▀░░▀▀▀▀▄▄▄▄███[0;33m█[0;1;31;43m███▄ ▀ ███[0;33m█[0m
 [37m [0;1;31;43m░▀▀▀[0;33m▀▀▀▀[0m          [33m▀▀▀▀▀▀▀[0;37m [0;33m▀▀▀[0;1;31;43m▀▀[0;33m█[0;1;31;43m██▀▀[0;33m█[0m           [33mrunning the newest, coolest[0m
-                                [33m▀▀▀[0m              [33m   [0;37m [0;33mversion of iniquity[0m
+                                [33m▀▀▀[0m              [33m   [0;37m [0;33m                   [0m
 
 
-[33m.end.[0m
-
-[1;30mhey everyone.. toss out a few greets here: wa/ep/wy/ph/sh/lemonzinger and a [0m
-[1;30mspecial greet to vc.  this ''zee completed 13.10.95[0m [1;30mfor a total of 25 mins :)[0m [1;31m!77[0m'
+[33m.end.[0m'

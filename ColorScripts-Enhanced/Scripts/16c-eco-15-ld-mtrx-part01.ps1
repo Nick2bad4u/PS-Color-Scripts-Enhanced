@@ -5,7 +5,7 @@
 # Source SHA-256: 8b2e66edbebac0529bfbc1d1fa1f2d9b948e3b48cf0d0f6c6f64bd65eb3d0373
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-MTRX.ANS by lord dralacle (ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: lord dralacle
 # SAUCE Group: ecolove
 # SAUCE Date: 19990609
@@ -15,11 +15,11 @@
 
 Write-Host '
 
-                                 [32mecolove[0;37m [0;1;30mansi[0m
-                          [1;30mmatrix style ansi gallery [0m
-                 [1;30mby lord draracle [0;1;33;42m ld! [0m [1;30malso known as ld_lor[0m
-              [1;30m''the howard phillips story''[0m [1;30m- a film by ld!ecolove[0m
-                       [1;30mbe looing for ohmygod (omg) emag[0m
+                                 [32m       [0;37m [0;1;30m    [0m
+                          [1;30m                          [0m
+                 [1;30m                 [0;1;33;42m     [0m [1;30m                    [0m
+              [1;30m                           [0m [1;30m                      [0m
+                       [1;30m                                [0m
 
 [1;30m┘-═-─[0m [1;30m+────-[0m [1;30m--──[0m [1;30m─────[0m [1;30m░[0m  [1;30m──+─-─═-[0m [1;30m---[0m [1;30m--[0m [1;30m-[0m [1;30m  --──═─--──-────═-───-─-─+--═──[0m [1;30m─[0m
 
@@ -49,5 +49,4 @@ Write-Host '
 [35m   [0;1;30m [0m            [1m    [0;35m▐██[0;1;35;45m░░[0;35m██[0;1;35;45m░░░[0;35m███▄▄[0;1;31m [0;30m█[0;1;31m   ▀▀█▄▄[0;1;31;43m▓[0;1;31;40m████▀▀▀▄▄████████▌ [0;1;37;40m   [0;1;30;40m   [0m
                 [1m   [0;35m▄[0;1;35;45m░░[0;35m█[0;30;45m   [0;35;40m██[0;1;35;45m░░░░[0;35m██[0;30;45mld![0;35;40m▄▄▄[0;1;31;40m  [0;30m████[0;1;31m ▄▄▄▄█[0;1;31;43m██[0;1;31;40m██████████[0;1;37;40m     [0m
 
- [1;30m─[0m [1;30m──═--+─-─-───-═────-──--─═──--  [0m [1;30m-[0m [1;30m--[0m [1;30m---[0m [1;30m-═─-─+──[0m  [1;30m░[0m [1;30m─────[0m [1;30m──--[0m [1;30m-────+[0m [1;30m─-═- [0m
-'
+ [1;30m─[0m [1;30m──═--+─-─-───-═────-──--─═──--  [0m [1;30m-[0m [1;30m--[0m [1;30m---[0m [1;30m-═─-─+──[0m  [1;30m░[0m [1;30m─────[0m [1;30m──--[0m [1;30m-────+[0m [1;30m─-═- [0m'

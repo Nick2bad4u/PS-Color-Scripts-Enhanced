@@ -5,7 +5,7 @@
 # Source SHA-256: 0f00c5e8a934414188e8bf43e8940ba22b266e27472ed1ff5f3d30c935a2e49c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-ROBOT.ANS by Unknown Comic (blnt0494); released in blnt0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
                          [30;41m▄▄▄▄▄[0m     [30;41m▄[0m  [30;41m▄               ▐[0m
                                          [30;41m▄▄▄      ▄▄[0;30;42m█[0;30;41m▄ ▀[0m
                                                         [30;41m▄[0m
-                                 [1mOf BLuNT[0m
+                                 [1m        [0m
                               [1mP R E S E N T S[0m
 
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 70aae436c0f680805e2b0c582e03d6a022ea7bf48194d212b41ac5d41c81ad75
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-RT01.ANS by Terminal Psychosis (vi-9402); released in vi-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 46-77
 # Columns: 1-80
 
@@ -39,5 +39,5 @@ Write-Host '
      [1;30;40m▐[0;1;30;47m▓▒[0m▌       [1;30m▐[0;1;30;47m▓▒[0m▌    [1;30m▐[0;1;30;47m░ [0;1;37;47m░▒[0;1;37;40m▌[0;1;30;47m▓▒[0m▌   [1;30m▐[0;1;30;47m▓▒[0m▌       [1;30m▐[0;1;30;47m▓▒[0m▌      [1;30;47m▒▓[0;1;30;40m▌    ▐[0;1;30;47m▓▒[0m▌    [1;30m▐[0;1;30;47m░ [0;1;37;47m░▒[0;1;37;40m▌[0m
      [1;30;40m▐[0;1;30;44m█[0;1;30;47m▓[0;1;30;40m▌[0m       [1;30;47m██▓▒[0m   [1;30;40m▄[0;1;30;47m▓▒░ [0;1;37;47m░▒[0;1;37;40m▄[0;1;30;40m▀[0;1;30;47m▒[0;1;30;40m▄  [0;1;30;47m██▓▒[0m       [1;30;47m██▓▒[0m      [1;30;40m▀[0;1;30;47m██[0;1;30;40m▄▄▀▄[0;1;30;47m██▓▒[0m   [1;30;40m▄[0;1;30;47m▓▒░ [0;1;37;47m░▒[0;1;37;40m▄[0m
 
-             [1;37;40mThe Round Tripper ∙ 7o8-741-83o1 ∙ SysOp=> LongShot[0m
+             [1;37;40m                                                   [0m
 [1;37;40m-Tp<Vi>[0m'

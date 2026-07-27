@@ -5,7 +5,7 @@
 # Source SHA-256: 7b481b57b36e06133537b01707c7ce9ba41fca977b3dd60012d351578cce5205
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-LOGI.ANS by anomite (scum); released in scum-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Matrix-login
 # SAUCE Author: anomite
 # SAUCE Group: scum
@@ -41,8 +41,4 @@ Write-Host '
 
 
 
-[1;30m--[0m
-[1;30myou call it ugly, I call it [0mabstract[1;30m. ;)[0m
-
-
-[1;30mFree login matrix.. y3ehaa.. ph34r [0msCum[1;30m, they g1ve aw4y fre3 matrixes.. =)[0m'
+[1;30m--[0m'

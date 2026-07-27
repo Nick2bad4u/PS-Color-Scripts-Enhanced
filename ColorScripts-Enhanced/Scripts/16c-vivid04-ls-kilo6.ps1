@@ -5,7 +5,7 @@
 # Source SHA-256: 9657e4a5f80f44dae0d923a5505498d55a24e7a070c429a326ab0a88b59b9916
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LS-KILO6.ANS by Lord Sith (vivid04); released in vivid04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
@@ -38,6 +38,4 @@ Write-Host '
                           [1;30m▀▀[0;1;30;45m▓[0;1;30;40m▄[0m
 
 
--------------------------------------------------------------------------------
-so how do you like this?  i think it''s okay.. feels a little.. stiff though.
-but hey!  it''s LEGIBLE! :)  -  LS[0m'
+-------------------------------------------------------------------------------[0m'

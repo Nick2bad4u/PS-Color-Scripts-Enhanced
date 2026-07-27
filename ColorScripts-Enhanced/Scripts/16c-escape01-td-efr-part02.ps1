@@ -5,7 +5,7 @@
 # Source SHA-256: da122964024570bac6d2f002ee740cde38d94dcfbe1927105131013a8a6cbcf8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TD-EFR.ANS by The Druid (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -52,11 +52,11 @@ Write-Host '
 [1;37m────────────────────────────────────────────────────────────────────────────────[0m
              [1;37mE  [0;1;36mS  [0;1;37mC  [0;1;36mA  [0;1;37mP  [0;1;36mE    [0;1;37mF  [0;1;36mR  [0;1;37mO  [0;1;36mM    [0;1;37mR  [0;1;36mE  [0;1;37mA  [0;1;36mL  [0;1;37mi  [0;1;36mT  [0;1;37mY[0m
 [1;37m────────────────────────────────────────────────────────────────────────────────[0m
-                              [1;36m≡ [0;1;37mS[0my[1ms[0mO[1mp[0m: [1mT[0mh[1me [0mD[1mr[0mu[1mi[0md [1;36m≡[0m
-                              [1;37mR[0me[1mm[0mo[1mt[0me[1m-[0mS[1my[0ms[1mo[0mp[1m: [0mW[1mi[0mz[1mk[0mi[1md[0m
-                     S[1mt[0ma[1mf[0mf[1m: [0mZ[1me[0mp[1mp[0me[1ml[0mi[1mn[0m, [1mT[0mh[1me [0mI[1mn[0ms[1mo[0mm[1mn[0mi[1ma[0mc[1m, [0mA[1mr[0mm[1ma[0mn[1md[0m
-                             T[1mo[0mt[1ma[0ml[1ml[0my [1mA[0mr[1mt[0m, [1mN[0mo [1mW[0ma[1mr[0me[1mz[0m
-                                    R[1mi[0mS[1mE [0mW[1mH[0mQ
+                              [1;36m  [0;1;37m [0m [1m [0m [1m [0m  [1m [0m [1m  [0m [1m [0m [1m [0m  [1;36m [0m
+                              [1;37m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m  [0m [1m [0m [1m [0m [1m [0m
+                      [1m [0m [1m [0m [1m  [0m [1m [0m [1m [0m [1m [0m [1m [0m  [1m [0m [1m  [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m  [0m [1m [0m [1m [0m [1m [0m
+                              [1m [0m [1m [0m [1m [0m  [1m [0m [1m [0m  [1m [0m  [1m [0m [1m [0m [1m [0m
+                                     [1m [0m [1m  [0m [1m [0m 
 [1m────────────────────────────────────────────────────────────────────────────────[0m
                      [1m(  [0;1;36m5  [0;1;37m1  [0;1;36m6  [0;1;37m)   [0;1;36m9  [0;1;37m3  [0;1;36m1  [0;1;37m-  [0;1;36m3  [0;1;37m6  [0;1;36m7  [0;1;37m0[0m
 [1;37m────────────────────────────────────────────────────────────────────────────────[0m'

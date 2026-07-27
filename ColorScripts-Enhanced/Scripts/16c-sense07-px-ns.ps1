@@ -5,7 +5,7 @@
 # Source SHA-256: 703423ec5a3e21713e0ba9fb9642be611f214c7519fe902c871f437db87787e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PX-NS.ANS by Hexd (sense07); released in sense07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -33,7 +33,4 @@ Write-Host '
 [36;47m  [0;1;36;47m▀▀▀██[0;1;36;46m████▓▒█▒▓█▒▒██████[0;1;36;47m▀▀▀[0;36;47m    [0;37;40m▀▀  [0m
 [37;40m▐[0;30;47m       [0;1;36;47m▀▀▀▀▀▀▀▀▀▀▀▀[0;30;47m▄▄▄▄▄▄▄▄[0;37;40m       [0m
 [37;40m   ▀▀▀[0;30;47m▄▄▄▄▄▄[0;37;40m                        [0m
-[37;40m------------------------------------<[BiTCHiN'']>--------------------------------[0m
-       [37;40malright.. dis be fer ma bbs.. uhkey.. uhm.. jha if ye want sumthin dun..[0m
-       [37;40mden.. email meh.. lensman@rinx.com   uhhhkay.. das awl.. or email me [0m
-       [37;40mon beyond da grave.. 1-4o3-228-i93i  laytah :)[0m'
+[37;40m------------------------------------<[BiTCHiN'']>--------------------------------[0m'

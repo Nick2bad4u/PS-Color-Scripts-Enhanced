@@ -5,7 +5,7 @@
 # Source SHA-256: 7d393ab0775dd41c4bcf6a467ac0410b005a91aa2d156eaae47b8677d16da94c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 1998 - 17 - Joint - WE-CIZB.ANS by multiples (legion); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the city iz burning
 # SAUCE Author: multiples
 # SAUCE Group: legion
@@ -45,17 +45,17 @@ Write-Host '
          [1;34;44m▄[0;34m█[0m      [1;37m░▒▒[0m ▀▀[1;30m▀▀[0m               [1;30m▀[0;1;30;47m▄[0m   [1;30m▀▀[0m▀▀[1;30m▀[0m           █▄
      [1;34m░[0m       ▒▒                                      █                 ▒▒
          ▒        [1mc[0m  [1mi[0m  [1mt[0m  [1my[0m     [1mi[0m  [1mz[0m    ░b  [1mu[0m  [1mr[0m  [1mn[0m  [1mi[0m  [1mn[0m  [1mg[0m          ░[1;30m▀[0m
-      [1;30m▄[0m      [36m▄[0m   [36mops[0;37m [0;36m:[0;37m [0;36mthe[0;37m [0;36mextremist[0m       [36msituated[0;37m [0;36min[0;37m [0;36mthe[0;37m [0;36m418[0m
+      [1;30m▄[0m      [36m▄[0m   [36m   [0;37m [0;36m [0;37m [0;36m   [0;37m [0;36m         [0m       [36m        [0;37m [0;36m  [0;37m [0;36m   [0;37m [0;36m   [0m
       [1;30m▀[0m [36m▄█▀[0m                                                       [36m▀▀▄▄[0;37m  ░ [0;36m░░[0;37m [0;36m░[0m
 [36m▓▓[0;1;33;46m▓[0;36m█▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▓▓[0;1;33;46m░[0;36m▓█[0m
 [36m█[0;1;33;46m░▓[0;36m█▀[0m                             [36moutlines[0;37m [0;36m:[0;37m [0;1;37mfever[0m [36m(legion)[0m             [36m▀▄▄[0;1;33;46m▄▓[0;36m█▌[0m
 [1;33;46m░▒▒[0;36m▌[0m                               [36mshading[0;37m [0;36m:[0;37m [0;1;37meerie[0m [36m(legion)[0m               [36m▀[0;1;33;46m▒▓░[0m
-[36m█[0;1;33;46m░░ [0m                       [36m"legion"[0;37m [0;36mheader[0;37m [0;36m:[0;37m [0;1;37mriddler[0m [36m(awe)[0m                 [1;33;46m░▓[0;36m▀▄[0m
-[36m▐[0;1;33;46m░░[0;36m▌[0m                [36m"city[0;37m [0;36miz[0;37m [0;36mburning"[0;37m [0;36mlogo[0;37m [0;36m:[0;37m [0;1;37mkleenex[0m [36m(awe)[0m                 [36m█[0;1;33;46m▒[0;36m█[0m
+[36m█[0;1;33;46m░░ [0m                       [36m        [0;37m [0;36m      [0;37m [0;36m [0;37m [0;1;37m       [0m [36m     [0m                 [1;33;46m░▓[0;36m▀▄[0m
+[36m▐[0;1;33;46m░░[0;36m▌[0m                [36m     [0;37m [0;36m  [0;37m [0;36m        [0;37m [0;36m    [0;37m [0;36m [0;37m [0;1;37m       [0m [36m     [0m                 [36m█[0;1;33;46m▒[0;36m█[0m
 [36m▄[0;1;33;46m░▒[0;36m█▄▄[0;37m [0;36m▄▄▄▄▄[0;37m [0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▓█▄▄▄▄▄▄▄▄█[0;1;33;46m░[0;36m█▀[0m
 [36m▀▀[0;1;33;46m▓[0;36m█▄   [0m                                                                  [36m▐█▀[0m
-   [36m▀▀█     [0;37m [0;36mthis ansi entitles all legion artists full dcc access to     ▄▀[0m
-      [36m▀ [0m   [36mfull dcc access to thext''s oldwarez cd!!@#  MUAHHAHAHAHHAH![0;37m [0;36m ▀[0m
+   [36m▀▀█     [0;37m [0;36m                                                             ▄▀[0m
+      [36m▀ [0m   [36m                                                           [0;37m [0;36m ▀[0m
         [36m [0m         [36m▄[0m                                            [36m▄▄[0m
                     [36m▀▀▀██[0;37m [0;36m█▓▓[0m                        [36m▄▄▓▓▓▀▀[0;37m [0;36m▀[0m
                            [36m░░[0m'

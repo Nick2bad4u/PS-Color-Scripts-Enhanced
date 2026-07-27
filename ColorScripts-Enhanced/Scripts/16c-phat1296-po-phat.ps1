@@ -5,7 +5,7 @@
 # Source SHA-256: 2a0b4e932d4b1b2a42fce8fbe8e2a50d96a9706f412bb59f6d0920e27db42d6c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-PHAT.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: phat.
 # SAUCE Author: poti.
 # SAUCE Group: phat.
@@ -32,11 +32,10 @@ Write-Host '
 [31;40m░▓[0;33;47m▓[0;31;40m▄[0;1;30;40m    [0;31m▄▓███[0;37;41m    [0;31;40m█████[0;30;41m''[0;31;40mp[0;30;41mhucking [0;31;40mh[0;30;41macking [0;31;40ma[0;30;41mnarchy [0;31;40mt[0;30;41merrorism'' [0;31;40m▓▀░▐████████►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0m
 [31;40m▓▓█[0;1;30;40m ▄▓[0;1;30;47m▓[0;1;30;40m▄▄■▄    [0m      [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m
 [31m▓[0;37m [0;1;30m▄■▀▀[0;1;31;43m▓[0;1;31;40m▄▄[0;1;30;40m▀▀█   [0m
-[31m▌[0;1;30m▐░[0m▄[1;31;47m▀[0m▀[1;31;47m▀▀▀[0m▀[1;31;47m▀[0m▄[1;30m■▌ [0m [31mhi. i''m poti - a new member of phat. don''t have much to say [0m
-[31m▌[0;1;30m▓ [0;1;31m▄ [0m▀ [33m▄ [0;37m▀ [0;1;31m▄ [0;1;30m▓ [0m [31mexcept that trades and requests are always welcome. just[0;37m [0;31me-mail[0m
+[31m▌[0;1;30m▐░[0m▄[1;31;47m▀[0m▀[1;31;47m▀▀▀[0m▀[1;31;47m▀[0m▄[1;30m■▌ [0m [31m                                                            [0m
+[31m▌[0;1;30m▓ [0;1;31m▄ [0m▀ [33m▄ [0;37m▀ [0;1;31m▄ [0;1;30m▓ [0m [31m                                                        [0;37m [0;31m      [0m
 [1;30m▐▀[0;33m▐[0;1;31;43m▐[0;1;31;40m█▌[0;33m▐[0;1;31;43m▓[0;1;31;40m▌[0;33m▐[0;1;31;43m▓[0;1;31;40m█▌[0;1;30;40m▀▌[0m [31mto poti@kaoz.sunshine.de. And now for some greets:[0m
-[37m [0;1;30m▀░[0;1;31;43m░▓[0;1;31;40m▄[0;33m▀[0;1;31m▀▀▄▓█ [0;1;30m▒ [0m [31mall members of phat, bm, srg!fbk, blood, ms, tl, xps, csb, (a),[0m
-[31m░░[0;37m [0;33m▐[0;1;31;43m▐[0;1;31;40m██████▌  [0m [31mmy users and the[0;37m [0;31mgroups we are supporting. thanx for the [0m
+[37m [0;1;30m▀░[0;1;31;43m░▓[0;1;31;40m▄[0;33m▀[0;1;31m▀▀▄▓█ [0;1;30m▒ [0m [31m                                                               [0m
+[31m░░[0;37m [0;33m▐[0;1;31;43m▐[0;1;31;40m██████▌  [0m [31m                [0;37m [0;31m                                        [0m
 [31m▓▓░[0;37m [0;1;31;43m▒▀[0;1;31;40m█████[0m  [31mportrait, Shaitan :) [0m                                     [31m  poti.[0m
-[30;41msha[0;31;40m▄ [0;33;40m▀[0;1;31;43m▓[0;1;31;40m▄█▀[0m [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓█►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►           [0m
-[37;40m   [0m               [37;40m [0m'
+[30;41msha[0;31;40m▄ [0;33;40m▀[0;1;31;43m▓[0;1;31;40m▄█▀[0m [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓█►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►           [0m'

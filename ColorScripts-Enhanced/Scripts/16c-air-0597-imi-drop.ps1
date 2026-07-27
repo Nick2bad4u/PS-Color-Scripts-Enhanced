@@ -5,7 +5,7 @@
 # Source SHA-256: c051fd851efaf188030a724ab1399f3bb565071636056bfcaf346e5e441e6f3e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IMI-DROP.ANS by imani (3o3,surge,twisted); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dr0p
 # SAUCE Author: imani
 # SAUCE Group: 3o3,surge,twisted
@@ -39,6 +39,4 @@ Write-Host '
 [32m$$$$$$$$$$$$$$$$$$$$.[0;1;31m²$nn$$$$$$$$$$$[0;33m$$$╨''[0;1;31md$$$[0;33m$baad$$$''[0;32md$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [32m$$$$$$$$$$$$$$$$$$$$$h[0;1;31m`$$$$$$$$$[0;33m$$$$╨²''[0;1;31md$$[0;33m$$$$$$$$$$''[0;32md$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [32m$$$$$$$$$$$$$$$$$$$$$$h[0;1;31m`╨$$$$[0;33m╨²"`[0;32m,a[0;37m [0;1;31m$$$$[0;33m$$$$$$$$$$$$[0;37m [0;32m$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
-[1;30m-----[cut]----[0m                      [1;31m [0;1;37m [0m             [1m [0m
-
- [1;30mOk..Not a good one.[0m'
+[1;30m-----[cut]----[0m                      [1;31m [0;1;37m [0m             [1m [0m'

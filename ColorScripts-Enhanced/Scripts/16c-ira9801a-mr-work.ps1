@@ -5,7 +5,7 @@
 # Source SHA-256: d0802d11c6e272fd91d7f5bca4cfc326b43bc0f9782e8e56723f56b10b964972
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-WORK.ANS by Mr.Wrong (irato); released in ira9801a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: homework
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: irato
@@ -33,7 +33,5 @@ Write-Host '
    [34m▄[0;1;34m▀[0;34m▀[0;37m  [0;33m▄█[0;1;33;43m░[0;1;33;40m▄[0;33m▄▄▄[0;37m [0;1;33m▄[0;33m▄[0m   [1;34m▀[0;1;34;47m▄[0;1;34;44m▀[0;34m▀ ▄[0;1;34;44m▄[0;1;34;40m▀[0m     [1;34;44m▀[0m         [34m▀[0m      [34m▀[0;1;34;44m▀[0;34m▀▀[0;1;34m▀[0;34m▄[0;37m [0m     [37m [0;34m▀▌[0;37m [0;33m▐▌[0;37m  [0;1;34;44m▓[0;1;30;40m░[0m [33m▐██[0;1;33;43m░▀[0m
 [34m [0m      [33m▀▓░▀▀[0;1;33;43m░[0m  [33m [0m          [1;34m■[0m                             [1;34m▐[0;34m▌[0;1;34m░[0m  [33m▀[0;37m  [0;34m▀[0;37m [0;33m▄▀[0;37m  [0;34m▀[0;37m  [0;33m▄[0;1;33;43m░[0;33m▀▀░▓[0m
 [37m [0m      [33m ░[0m   [1;33m▐[0;33m▌[0m              [1;30m-[0m h o m e w [1;30;47mo[0m r k [1;30m-[0m        [1;34m▀[0;34m▀[0m     [33m [0;37m [0;1;33;43m▀░[0;33m▌[0;1;37mwrng[0m [1;33m░[0;33m▌[0m    [33m░[0m
-           [1;33m■[0;33m▀[0m            [37m418.euh.ouin. admin: xaced[0m              [33m▀▄[0m      [33m▀■[0m
-[1;30m ------------------------------------------------------------------------------ [0m
- [1;30m- [0mJe crois que ce board h/p ne sera jamais online car la setup a saute avec
-   le hd, alors si jamais vous voulez utiliser ce [1m [0mpetit[1m [0mlogo, a votre guise.[0m'
+           [1;33m■[0;33m▀[0m            [37m                          [0m              [33m▀▄[0m      [33m▀■[0m
+[1;30m ------------------------------------------------------------------------------ [0m'

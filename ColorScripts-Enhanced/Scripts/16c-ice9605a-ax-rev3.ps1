@@ -5,7 +5,7 @@
 # Source SHA-256: 27836d753c637a7d47eeb67af81f63e716858e24e17b6a3972996023be25be87
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX-REV3.ICE by apox (iCE); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: argon's revolt
 # SAUCE Author: apox
 # SAUCE Group: iCE
@@ -33,9 +33,4 @@ Write-Host '
 [37;40m           [0;33;40m [0;37;40m    [0;33;40m░[0;30;43m▓[0;33;40m▀█[0;1;33;43m   [0;33m██▓▓▀▀░░ [0m    [33m▀▀▀▓▓▓▓▓▀▀▀[0;37m  [0;33m■[0m            [33m▐▓▒▒▓██[0;33;47m▓▓[0;33;40m██▓▓▀▀▀░ [0m
           [33;40m▄[0;37;40m [0;33;40m  ▀[0m   [33;40m   ▀▀[0;37;40m  [0;33;40m░░[0m       [33;40m  [0m   [33;40m░░░░░[0m         [33;40m▀[0m   [33;40m▄[0m    [33;40m▀[0;37;40m [0;33;40m░░[0;37;40m [0;33;40m▀▀▀▀[0;37;40m  [0;33;40m░░[0m
          [33;40m█▌ [0m                      [33;40m  ■[0m
-          [33;40m▀[0m      [33;40m▄[0m      [33;40m▄[0m      [33;40m▀[0;37;40m [0;33;40m   [0m
-
-
-
-
-                   [33;40mmaestro style font[0;1;37;40m [0;33m:  a[0;1;37m [0;33mp[0;1;37m [0;33mo[0;1;37m [0;33mx[0;37m  [0;33m[  [0;1;33mi  c  e  [0;33m][0m'
+          [33;40m▀[0m      [33;40m▄[0m      [33;40m▄[0m      [33;40m▀[0;37;40m [0;33;40m   [0m'

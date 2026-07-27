@@ -5,7 +5,7 @@
 # Source SHA-256: 382d6c12c16ef9b3f109f5bded3f00cdf40a79373f6c53c145519ccd3dfaa3fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DW-SIH.ANS by DeathWish (Lapse); released in lap-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Souls in Hell
 # SAUCE Author: DeathWish
 # SAUCE Group: Lapse
@@ -37,12 +37,12 @@ Write-Host '
 
                            [1;30m∙[0;1;34mS[0;1;30m∙[0;1;34mO[0;1;30m∙[0;1;34mU[0;1;30m∙[0;1;34mL[0;1;30m∙[0;1;34mS[0;1;30m∙∙[0;1;34mI[0;1;30m∙[0;1;34mN[0;1;30m∙∙[0;1;34mH[0;1;30m∙[0;1;34mE[0;1;30m∙[0;1;34mL[0;1;30m∙[0;1;34mL[0;1;30m∙[0m
 
-             [1;34m7o3-658-9587,2222,22,22  Sysop: Ralgoth - Lord Scarlet[0m
-                                      [1;34mRemote: Widow Maker[0m
+             [1;34m                                                      [0m
+                                      [1;34m                   [0m
 
 
-                [34mX-PRODUCTS WHQ[0m                    [34mNPi DiST SiTE[0m
-                [34miNSANE USHQ[0m                       [34mNokturnal DiST SiTE[0m
+                [34m              [0m                    [34m             [0m
+                [34m           [0m                       [34m                   [0m
 
 
 [34m [0;1;30;47m▄[0m████████████████████████████████████████████████████████████████████████████[1;47m▄[0;1;40m▀[0m

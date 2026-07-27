@@ -5,7 +5,7 @@
 # Source SHA-256: dcef98b177ae9299c6ccbddcd1c7f14bf7f30b59991d4382e1cc94575773d754
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FF-MONST.ANS by Free Fall (Hype Inc.); released in hype-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: " Weird Monster Pic "
 # SAUCE Author: Free Fall
 # SAUCE Group: Hype Inc.
@@ -62,4 +62,4 @@ fF         [34m░[0m    [34m▄▄▓[0;37m  [0;34m░[0;1;30m░[0m    
                    [34m [0m                [34m▐  ▀[0m        [34m■▀[0m     [34m▀[0m             [34m░▒▓▀▀[0m
                                   [34m░▒▓▌  ░[0m                             [34m     ░[0m
                                      [34m▀[0m
-[1;30m [0m                      [1m■[0m median strip ope''d by kirin [1m■[0m'
+[1;30m [0m                      [1m■[0m                             [1m■[0m'

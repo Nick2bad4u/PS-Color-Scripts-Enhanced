@@ -5,7 +5,7 @@
 # Source SHA-256: dbc67e6cc820ad777457ee6b1f9d95f25cfa5a7ef3963dc8010a71ea7025b825
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JC-NEC#6.ANS by Juice (force); released in force-14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Necrospire Logo
 # SAUCE Author: Juice
 # SAUCE Group: force
@@ -53,9 +53,9 @@ Write-Host '
 [34;44m     [0;34;40m▓    ▓[0;34;44m                [0;34;40m▄ [0;1;30;40m▀██▓▓▓▓█[0;1;30;47m▓▒▓[0;1;30;40m█▓▓▓▓██▀ [0;34m▄[0;34;44m          [0;34;40m▐[0;34;44m  [0;34;40m▀   ▀██[0;30;44m·[0;34;40m█  [0;30;44m││|[0;34;40m▌ ▓[0m
 [34;44m [0;34;40m▀[0;34;44m  [0;34;40m▀[0m      [34;40m▀[0;34;44m    [0;34;40m▀  ▀▓[0;34;44m    [0;34;40m▀▀[0;34;44m [0;34;40m▓▄ [0;1;30;40m▀▀▀█████████▀▀▀ [0;34m▄▓[0;34;44m      [0;34;40m▀  ▓▀ ▓▀[0m     [34;40m░▀[0;34;44m [0;34;40m▀ ░▓[0;30;44m││[0;34;40m▌░▒[0m
 
-[34;40mat night; the shattered dreams of a twisted reality, momentary shards, yet each[0m
-[34;40man eternity -  i beg for blindness, aghast at seeing the tortured remains of my[0m
-[34;40mimaginary population rended such.  rest in peace.[0m
+[34;40m                                                                               [0m
+[34;40m                                                                               [0m
+[34;40m                                                 [0m
 [34;40m [0;37;40m░[0m
 [37;40m░[0;1;37;40m▀[0;1;36;40m▀▀▀▀▀▀▀▀[0;1;36;46m▓▀▀▀▓[0;36m▄ [0;1;37m▀[0;1;36m▀▀▀▀▀▀▀▀[0;1;36;46m▓▀▀▀▀▓[0m [1;37;40m▀[0;1;36;40m▀▀▀▀▀▀▀▀[0;1;36;46m▓▀▀▀▀▓[0m [1;37;40m▀[0;1;36;40m▀▀▀▀▀▀▀▀[0;1;36;46m▓▀▀▀▓[0;36m▄ [0;1;37m▀[0;1;36m▀▀▀▀▀▀▀▀[0;1;36;46m▓▀▀▀▓[0;36m▄[0m
 [36m [0;1;37;47m░▄▄▄▄░[0m   [1;36;46m▒[0;36m█[0;1;34;46m░▒[0;36m█[0;1;36;46m▒[0m [1;37;47m░▄▄▄▄░[0m▀▀ ▄▄▄▄▄▄▄[1;47m░▄▄▄▄░[0m   ▄▄▄▄▄▄▄[1;47m░▄▄▄▄░[0m   [1;36;46m░[0;36m█[0;1;34;46m░░[0;36m█[0;1;36;46m░[0m [1;37;47m░▄▄▄▄░[0m   [1;36;46m▒ [0;1;34;46m░▒ [0;1;36;46m░[0m

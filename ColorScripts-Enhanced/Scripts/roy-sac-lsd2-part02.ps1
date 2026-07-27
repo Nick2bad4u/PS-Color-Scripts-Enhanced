@@ -5,7 +5,7 @@
 # Source SHA-256: 7dc02b5ff6267e65ab88ad61fe2a02829701f95b8a2fafc1daed87d6ab2908f3
 # Source License: FAL-1.3
 # Source Attribution: ROY-LSD2.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-91
 # Columns: 1-80
 
@@ -53,5 +53,4 @@ Write-Host '
 [1;31m [0;1;31;43m░░░[0m [1;31;43m▒▒▒[0m [1;31;43m▒▒▒[0m [1;30m█ [0;1;31;43m▒▒▒[0m [1;31;43m▒▒▒[0m  [1;31;43m▒▒▒[0m [1;31;43m▓▓▓[0m [1;31;43m▒▒▒[0m [1;31;43m░░░[0m [1;31;43m▒▒▒[0m [1;31;43m░░░[0m [1;31;43m░░░[0m  [1;31;43m▒▒▒[0m  [1;31;43m░░░[0m [1;31;43m░░░[0m [1;31;43m░░░[0m [1;31;43m▓▓▓[0m [1;30m█ [0;1;31;43m▓▒▒[0m
 [33m [0;1;31;43m   [0;33m▄[0;1;31;43m░░[0;33m▀ [0;1;31;43m░░░[0m [33m▄▄[0;1;31;43m░░[0;33m▀ [0;1;31;43m░░░[0m  [1;31;43m░░░[0m [1;31;43m▒▒▒[0m [1;31;43m░░░[0m [33m███▄██▀ ▀██▄██▀  [0;1;31;43m░░░[0m  [33m▀██▄██▀ ███ [0;1;31;43m▒▒▒[0m [33m▄▄[0;1;31;43m░░[0;33m▀[0m
 [33m [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30m █▄██████████████████████████████████████████████████████████████████████████▄█[0m
-                                                             [1;30mROY <SAC>[0m'
+[1;30m █▄██████████████████████████████████████████████████████████████████████████▄█[0m'

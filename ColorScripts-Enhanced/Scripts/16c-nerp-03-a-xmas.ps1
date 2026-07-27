@@ -5,7 +5,7 @@
 # Source SHA-256: 674cc8f94fb8cb5214b709e4a5cb8d54ffd74693ce7b3a9f0efa35a8ebec7f22
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: A-XMAS.ANS by alecs (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: happy xMAS
 # SAUCE Author: alecs
 # SAUCE Group: nerp
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-      [1;30m░[0m▄   [1;30malecs(@gmx.net)[0m
+      [1;30m░[0m▄   [1;30m               [0m
 ░░░░   ▀█▄     [31m▄▄[0;37m  ░▄[0;1;37m [0m ░░░
 ████▄▄█████▄ [31m■▀▀██▄[0;37m ▀[0;1;37;47m    [0m█
 ████[1m▒▒▒[0m█[1;47m    [0m▄[1m▌[0m  [31m▐[0;1;31;41m░[0;1;37;40m▓[0;1;33;41m▄[0;31m▄[0;37m ▀▓[0;1;37m██[0m
@@ -35,5 +35,4 @@ Write-Host '
 [1m███████▌▄▄▄▄▄▄▄[0m   ▀▀▀░ [1m▀███[0m
 [1m██████████████████▄▄▄[0m  [1m ▐██[0m          [1;30msomebody please use this ansi.[0m
 [1m█▓▓▓▓▓▓████████████▀▀▀[0m  [1m░░░[0m
- [1m░░░░░░░░░░░░   ▀░[0m
-             [1m  [0m'
+ [1m░░░░░░░░░░░░   ▀░[0m'

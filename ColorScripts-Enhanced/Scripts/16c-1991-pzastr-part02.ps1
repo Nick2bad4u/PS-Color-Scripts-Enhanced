@@ -5,7 +5,7 @@
 # Source SHA-256: 1b942f23368cbe961cc668a27ff778bdc5ec54e083bf70360eb69b467e323df4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PZASTR.ANS by Pizza (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 33-62
 # Columns: 1-80
 
@@ -32,11 +32,10 @@ Write-Host '
 │ [1;30m:[0m
 [1;30m│ .[0m             U [1mG [0mi    R [1mU S S i [0mA    H [1mE A D Q U A R T E R [0mS               [1;30m·[0m
 [1;30m│[0m                                                                             [1;30m:[0m
-[1;30m│[0m               R [1mU N N i N [0mG   W [1mi T [0mH   1[1m44o[0mo  [1;30m&  [0m3[1mo[0mo[1m+   [0mM[1mEG[0mZ             [1;30m. │[0m
+[1;30m│[0m                 [1m          [0m      [1m    [0m     [1m   [0m   [1;30m   [0m [1m [0m [1m    [0m [1m  [0m              [1;30m  │[0m
 [1;30m:[0m                                                                           [1;30m: │[0m
                 [1;37mN O   [0mR [1mA T i O [0mS   F [1mO [0mR   [1mL D   [0mC [1mA L L E R [0mS             [1;30m│ [0m│
                                                                             [1;30m│ [0;1;37m│[0m
-                          oo[1m:oo-1o:[0moo W[1mORKTiM[0mE [1;30m[[0mM[1mS[0mK[1;30m][0m                        [1;30m│ [0m│
+                            [1m       [0m    [1m      [0m  [1;30m [0m [1m [0m [1;30m [0m                        [1;30m│ [0m│
                                                                  [1;30m·  ·-+─────┘ [0;1;37m│[0m
-              [1;30m· · +·   ··+─+────────────────[0m─[1;30m────[0m──[1;30m──[0m──[1;30m─[0m──[1m─[0m──[1m───[0m──[1m─[0m──[1m─────────┘[0m
-                                                                      [1mP[0miZ[1;30mZA/[0;1;37mi[0mCE[0m'
+              [1;30m· · +·   ··+─+────────────────[0m─[1;30m────[0m──[1;30m──[0m──[1;30m─[0m──[1m─[0m──[1m───[0m──[1m─[0m──[1m─────────┘[0m'

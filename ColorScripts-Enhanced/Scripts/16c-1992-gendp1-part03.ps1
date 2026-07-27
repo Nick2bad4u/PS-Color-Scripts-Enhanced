@@ -5,7 +5,7 @@
 # Source SHA-256: 05f100aa17a1fab80c2d9e0d87b5c597308dcf60080a8dea49de1293e9acf7fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GENDP1.ANS by Genesis (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 92-135
 # Columns: 1-80
 
@@ -48,9 +48,8 @@ Write-Host '
           [1;30m▀▀ [0;31m▐▌ [0;1;30m█ ▄ ▀▀ [0;31m▐▌ [0;1;31m▀[0;1;31;41m▄▄[0;1;31;40m▀[0m                      [1;30;40m▌▒ ░▐[0m
               [1;31;40m▀ [0;31m▌▀[0;1;31;41m▄[0;1;31;40m▌    ▀[0m                           [1;30;40m▌▓ ▓█[0m
                                                     [1;30;40m▐▓▓█▌[0m
-i[1;30mGH [0mW[1;30mORLD [0mH[1;30mEAD[0mQ[1;30mUARTERS! [0mE[1;30mXCiDE [0mL[1;30mHQ! [0m0[1;30mDAY [0mA[1;30mLL [0mT[1;30mHE [0mW[1;30mAY▐▓██[0m
-[1;30m [0mS[1;30mYSOPS: [0mC[1;30moKe/[0mi[1;30mGH [0m& C[1;30moLd[0mS[1;30mtOnE/[0mi[1;30mGH [0m- R[1;30mUNNING [0mP[1;30mCE[0m     [1;30m▐██[0m
-[1;30m  [0mN[1;30mODE [0m1[1;30m: [0m+[1;30m352-[0mD[1;30mREAM [0mB[1;30mABY [0mD[1;30mREAM : [0mH[1;30mST [0mD[1;30mS [0mv[1;30m.[0m3[1;30m2[0mB[1;30mis[0m     [1;30m█[0m
-[1;30m   [0mN[1;30mODE [0m2[1;30m: [0m+[1;30m358-[0mM[1;30mEMBERS [0mO[1;30mNLY!   : [0mH[1;30mST[0m                [1;30m▌[0m
-                                                     [1;30m▌[0m
-                      [1;30m< ANSI ,80x50'' GENESIS / iCE EURO/iGH >[0m'
+ [1;30m   [0m [1;30m     [0m [1;30m   [0m [1;30m         [0m [1;30m      [0m [1;30m    [0m [1;30m    [0m [1;30m   [0m [1;30m   [0m [1;30m  ▐▓██[0m
+[1;30m [0m [1;30m       [0m [1;30m    [0m [1;30m   [0m   [1;30m   [0m [1;30m     [0m [1;30m   [0m   [1;30m       [0m [1;30m  [0m     [1;30m▐██[0m
+[1;30m  [0m [1;30m    [0m [1;30m  [0m [1;30m    [0m [1;30m     [0m [1;30m    [0m [1;30m       [0m [1;30m   [0m [1;30m  [0m [1;30m [0m [1;30m [0m [1;30m  [0m     [1;30m█[0m
+[1;30m   [0m [1;30m    [0m [1;30m  [0m [1;30m    [0m [1;30m       [0m [1;30m         [0m [1;30m  [0m                [1;30m▌[0m
+                                                     [1;30m▌[0m'

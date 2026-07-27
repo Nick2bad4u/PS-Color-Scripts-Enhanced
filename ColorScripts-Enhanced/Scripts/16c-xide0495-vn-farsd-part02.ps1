@@ -5,7 +5,7 @@
 # Source SHA-256: 890e47a889a4c8e03fcb3920be20b072dc376ead80aafdd6563ae2f542534502
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VN-FARSD.ANS by Venom (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -29,13 +29,13 @@ Write-Host '
 [1;37;40m    [0;1;30;40m███[0;1;30;43m░▒[0;1;30;40m███    ▀███[0;1;30;43m▓░▒▓[0;1;30;40m██▀█[0;1;30;43m▓▓[0;1;30;40m█▄▄▀▀    ██[0;1;30;43m▓▒░ ░▒▓[0;1;30;40m█▌▐██[0;1;30;43m▓░[0;1;30;40m█▌▐█[0;1;30;43m▓▒░▒▓█[0;1;30;40m██ [0;1;30;43m▓▒░  ░▒▓[0;1;30;40m█▌ [0;1;37;40m▐[0m
      [1;30;40m▀▀▀▀▀▀[0m        [1;30;40m▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀ ▀▀▀▀▀▀▀  ▀▀ ▀▀▀▀▀▀▀▀  [0;1;37;40m▐[0m
                                                                                [1;37;40m▐[0m
-                               [1;31;40mSy[0;31mso[0;1;30mp: Spe[0;31mct[0;1;31mre[0m                                  [1;37m▐[0m
+                               [1;31;40m  [0;31m  [0;1;30m      [0;31m  [0;1;31m  [0m                                  [1;37m▐[0m
                                                                                [1;37m▐[0m
-                            [1;31mRu[0;31mnn[0;1;30ming: OBV/2 2[0;31m.3[0;1;31m0ß[0m                               [1;37m█[0m
+                            [1;31m  [0;31m  [0;1;30m            [0;31m  [0;1;31m  [0m                               [1;37m█[0m
                                                                                [1;37;47m▓[0m
                       [1;31;40m96[0;31m00[0;1;30m/14400/19200/28800/38400/5[0;31m76[0;1;31m00[0m                      ▐[1;47m▒[0m
                                                                               █[1;47m░[0m
-                                [1;31;40m8i[0;31m3-[0;1;30mFuCK[0;31m-N[0;1;31mO![0m                                   ▀
+                                [1;31;40m  [0;31m  [0;1;30m    [0;31m  [0;1;31m  [0m                                   ▀
                      [1;30m▄▀██[0m                         [1;30m██▀▄[0m
                    [1;30m▄▀[0m▄▀[1;30m▄▀[0m                         [1;30m▀▄[0m▀▄[1;30m▀▄[0m
                   [1;30m▐▌[0m▐█ [1;30m█[0m                           [1;30m█ [0m█▌[1;30m▐▌[0m

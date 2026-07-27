@@ -5,7 +5,7 @@
 # Source SHA-256: c26bbc76812b3afebe29e90fbdaa82213af07b7855c1b1047188e672bd5f55c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FUSIO.ANS by Ize + Thrasher (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -29,8 +29,6 @@ Write-Host '
             [31m▀[0m       [31m▐▌▐[0;37m  [0;31m▐▀[0m
                      [31m▀▐[0;1;31m░[0;31m■▀[0m      [1;32;41m [0;1;34;41mokay kids,[0;41m [0m
                       [31;40m▐[0;1;31;40m░[0m                                          [1m  [0m
-                      [31m▐[0m          [37mthis is what happens if you don''t feel like[0m
-                      [31m▀[0;1;31m [0m         drawing, and still do. fuck normal colors :)
-                      [31m▀▌[0m                                              [1;37m  [0m
-                                 ps. sorry ize :)                     [1m  [0m
-                                     shiiit, this is ugly.             [1m [0m'
+                      [31m▐[0m          [37m                                           [0m
+                      [31m▀[0;1;31m [0m                                                     
+                      [31m▀▌[0m                                              [1;37m  [0m'

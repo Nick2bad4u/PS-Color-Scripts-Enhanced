@@ -5,7 +5,7 @@
 # Source SHA-256: 8c3e4bf0b0085458f34fe894a1b4949789bb9206a0fc4ac2d0496a167df25a8b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PL-PHAC.ANS by Playdoe (uprise01); released in uprise01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -26,9 +26,7 @@ Write-Host '
               [36m███[0m                      [35m▐▌[0m   [35m▐▌[0m      [35m▐█[0m       [35m▀[0m
               [36m███[0m                       [35m▀[0;37m [0;35m▄[0;37m [0;35m▀[0m        [35m▀█▄[0m    [35m▄[0m
               [36m█[0;1;37;46mL[0;36m█[0;37m [0;1;37mOGIN[0m [1;30m:[0m [1;30m    [0m                            [35m▀[0m
-              [34;46m [0;1;37;46mP[0;36m█[0;37m [0;1;37mASSWERD[0m [1;30m:[0m [1;30m     [0m
+              [34;46m [0;1;37;46m [0;36m█[0;37m [0;1;37m       [0m [1;30m [0m [1;30m     [0m
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mit''s for my board.. me only.. do not fucking rip it![0m
-[1;30mplaydoe[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ec68adc4fe718a1bc42da2ce13149e89577c3ab783440824bf43fd3d4a319612
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-TDU.ANS by hetero; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: THE DIGITAL UNDERGROUND
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -23,12 +23,4 @@ Write-Host '
                   [36m▀ [0;1;30m░[0m            [1;30m░░[0m                [1;30m░[0m                         [1;30m░[0m
 [1;30m─  ── ────[0m─[1;30m──[0m──[1;30m─[0m───────────────────────────────────────────────[1;30m─[0m──[1;30m──[0m─[1;30m──── ──  ─[0m
       [36mT  H  E[0m     [36mD  I  [0;1;36mG  I  T  A  L[0m     [1;36mU  N  D  E  R  G  [0;36mR  O  U  N  D[0m
-[1;30m─  ── ──[0m──[1;30m──[0m───────────────────────────────────────────────────────[1;30m──[0m──[1;30m── ──  ─[0m
-
-                       [36m. ..: SYSOP [0;1;36m:  D[0;1;37mR[0;1;36m. i[0;36mNSANITY :.. .[0m
-                          [36m. ..: FANF[0;1;36mAN LAT[0;36mULiPE :.. .[0m
-
-                       [1;37m· GεNεS[0miS ·  WoR[1;30mLD [0mHEADQUA[1mRTERS[0m
-                       [1m· TdU [0mJAM ·  WoR[1;30mLD [0mHEADQUAR[1mTERS[0m
-                        [1m· R[0miSC ·  EAST[1;30mERN H[0mEADQUARTE[1mRS[0m
-                           · S[1mA[0mC ·  [1;30mUS HEADQ[0mUARTE[1mR[0mS[0m'
+[1;30m─  ── ──[0m──[1;30m──[0m───────────────────────────────────────────────────────[1;30m──[0m──[1;30m── ──  ─[0m'

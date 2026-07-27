@@ -5,7 +5,7 @@
 # Source SHA-256: b6c4e2bac614b2a94979458997efea8eaef8fbf631e02b9310c18faf9b600ee5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DY-CRYPT.ANS by Dynosaw (STX Production); released in stx0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ANSi For The Crypt
 # SAUCE Author: Dynosaw
 # SAUCE Group: STX Production
@@ -17,11 +17,11 @@
 Write-Host '
 
 [1;30;40m────────────────[0m─[1;30m─────[0m─[1;30m──[0m─[1;30m─[0m────[1m─[0m─[1m─[0m─[1m< [0;1;30mGREETS [0;1;37m>[0m─[1m─[0m─[1m─[0m───[1;30m─[0m─[1;30m───[0m─[1;30m──────[0m─[1;30m───────────────[0m
-                          [1;30mSTX- wow.. 2 packs, eh? cool :)[0m
-                  [1;30mP-Chan- we need to get ya on some REAL boards![0m
-                                [1;30mOasis crew- jo0! =][0m
-                             [1;30mCrim- tanks fer da help![0m
-                     [1;30m619- long lost beloved Dyno returns! ta-da![0m
+                          [1;30m                               [0m
+                  [1;30m                                              [0m
+                                [1;30m                   [0m
+                             [1;30m                        [0m
+                     [1;30m                                           [0m
 
 [1;47m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▄[0m
 ▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
@@ -55,7 +55,4 @@ Write-Host '
                                   [1;40m▄[0;1;47m▓▒▒▒░[0m▀▀▀▀     [1;47m▒▒▓[0;1;40m▀▀[0m
                                   [1;40m▀[0;1;47m▒▓▓▓[0;1;40m▄▄[0m        [1;47m▓[0;1;40m▀[0m
                                     [1;40m█[0;1;47m▓[0;1;40m▀[0m         [1;40m▀[0m
-                                    [1;40m█[0m
-
-
-          [1;30;40m- [0;1;31;40mT[0;31mhe [0;1;30mCr[0myp[1mt [0;1;30m- [0;1;31mS[0;31mys[0;1;30mop: Spi[0mri[1mt [0;1;30m- [0;1;31m6[0;31m19[0;1;30m.279.7[0m29[1m0 [0;1;30m- [0;1;31mA[0;31msk [0;1;30m4 da [0mNu[1mP [0;1;30m-[0m'
+                                    [1;40m█[0m'

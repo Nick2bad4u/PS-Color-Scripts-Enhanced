@@ -5,7 +5,7 @@
 # Source SHA-256: da1b023c4e17271bbd4515a589126d8c9482c4fa61b17d9b86f739daa71262f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BP-FOI.ANS by Bigge Pif (DVS); released in dvs-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Forest of Illusion ANSi
 # SAUCE Author: Bigge Pif
 # SAUCE Group: DVS
@@ -57,7 +57,4 @@ Write-Host '
 [1;33m  [0;33m█[0;1;33;43m█▓▌░[0;33m▌  █[0;1;33;43m█▓▌░[0;33m▌    █[0;1;33;43m█▓▌░[0;33m▌    █[0;1;33;43m█▓▌░[0;33m▌  [0;1;33m█   [0;33m█[0;1;33;43m█▓▌░[0;33m▌    █[0;1;33;43m█▓▌░[0;33m▌  █[0;1;33;43m█▓▌░[0;33m▌  [0;1;33m█ [0;33m█[0;1;33;43m█▓▌░[0;33m▌  [0;1;33m█[0m
 [1;33m  [0;33m▐[0;1;33;43m▀█▓[0;33m█▌  ▐[0;1;33;43m▀█▓[0;33m█▌    ▐[0;1;33;43m▀█▓[0;33m█▌    ▐[0;1;33;43m▀█▓[0;33m█▌  [0;1;33m▓ ▓ [0;33m▐[0;1;33;43m▀█▓[0;33m█▌    ▐[0;1;33;43m▀█▓[0;33m█▌  ▐[0;1;33;43m▀█▓[0;33m█▌  [0;1;33m▓ [0;33m▐[0;1;33;43m▀█▓[0;33m█▌  [0;1;33m▓[0m
 [1;33m   [0;33m▀█[0;1;33;43m▀░[0;33m▌   ▀█[0;1;33;43m▀░[0;33m▌[0;1;33m▄▓▀  [0;33m▀█[0;1;33;43m▀░[0;33m▌[0;1;33m▄▓▀  [0;33m▀█[0;1;33;43m▀░[0;33m▌[0;1;33m▓▀   ▀▓[0;33m▀█[0;1;33;43m▀░[0;33m▌[0m     [33m▀█[0;1;33;43m▀░[0;33m▌   ▀█[0;1;33;43m▀░[0;33m▌[0;1;33m▓▀   [0;33m▀█[0;1;33;43m▀░[0;33m▌  [0;1;33m▓[0m
-     [33m▀▀[0;1;33mi[0m     [33m▀▀[0;1;33ml[0m       [33m▀▀[0;1;33ml[0m       [33m▀▀[0;1;33mu[0m         [33m▀▀[0;1;33ms[0m       [33m▀▀[0;1;33mi[0m     [33m▀▀[0;1;33mo[0m       [33m▀▀[0;1;33mn  ▀[0m
-
-                                 [1;37m1[0m.[1;33m8[0;33mo[0;1;30mo.xxx.[0;33mx[0;1;33mx[0mx[1mx[0m
-                               [1ms[0my[1;33ms[0;33mo[0;1;30mp: giant ig[0;33mu[0;1;33ma[0mn[1ma[0m'
+     [33m▀▀[0;1;33mi[0m     [33m▀▀[0;1;33ml[0m       [33m▀▀[0;1;33ml[0m       [33m▀▀[0;1;33mu[0m         [33m▀▀[0;1;33ms[0m       [33m▀▀[0;1;33mi[0m     [33m▀▀[0;1;33mo[0m       [33m▀▀[0;1;33mn  ▀[0m'

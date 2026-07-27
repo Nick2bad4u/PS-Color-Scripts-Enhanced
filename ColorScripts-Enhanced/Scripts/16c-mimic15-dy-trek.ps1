@@ -5,13 +5,13 @@
 # Source SHA-256: 05f73da207e93359c52e268577f61a2cd399a8572331e0275d37430e86526a1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dy-trek.ans by Discyple (mimic15); released in mimic15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-31
 # Columns: 1-80
 
 Write-Host '
                  [1;31m.┌s┐.[0m
-       [1;5;35m$$$$[0m     [1;31m.$[0;1;37m*[0;1;31m$$$.[0m      [35mtea. earl grey. hot![0m
+       [1;5;35m    [0m     [1;31m  [0;1;37m [0;1;31m    [0m      [35m                    [0m
        [1;5;35m$  $    [0;1;31m([0;1;37m|[0;1;31m$[0;33mo[0;1;31m|[0;33mo[0;1;31m$[0;1;37m|[0;1;31m)    [0;35m/[0m
        [1;5;35m$  $[0m     [1;31m~$/-\$~[0m
       [1;5;35m$$ $$[0m      [33m`[0;1;31m┘*└''[0m                                            ||
@@ -29,7 +29,7 @@ Write-Host '
          [33m$$   [0;1;30m$$$$$$$$$$$$l[0m                        [1;30m$$   $$$$$$$$d$$Y[0m
 [1;30m  [0m$$$$┘ [1;31m/$$\ [0m┘g$$$$$$$$$$$$$$g*     *g$$$$        [1;30m$$[0m     [1;30m$$$$$$$$$Y[0m
 [1;30m  [0m$$$`  [1;31m|||    [0m`$$ssssssss$$''         `$$$       [1;30m$$[0m
-[1;30m  [0m$$l     o     k$ss$sssss$l     o     k$$        \
+[1;30m  [0m                                                 
   $$$.         .$$ss$ss$ss$$.         .$$$     |||
   $$$$#┌,...,┐#$$$oxo$xxoo$$$#┌,...,┐#$$$$
   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

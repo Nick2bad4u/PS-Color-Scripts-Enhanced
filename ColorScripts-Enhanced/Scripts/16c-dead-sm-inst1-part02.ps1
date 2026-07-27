@@ -5,7 +5,7 @@
 # Source SHA-256: 07724ea392904b21ec1dd131e2f19e7f9987f6a7a1af3f760570a12f270acdd4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-INST1.ANS by Soundmaster (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 32-69
 # Columns: 1-80
 
@@ -31,9 +31,9 @@ Write-Host '
 [1;32;42m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
 [1;32;42m▓           T [0;30;42m· [0;1;33;42mH [0;30;42m· [0;1;37;42mE       I [0;30;42m· [0;1;37;42mN [0;30;42m· [0;1;37;42mS [0;30;42m· [0;1;37;42mT [0;30;42m· [0;1;37;42mI [0;30;42m· [0;1;37;42mT [0;30;42m· [0;1;37;42mU [0;30;42m· [0;1;37;42mT [0;30;42m· [0;1;37;42mI [0;30;42m· [0;1;33;42mO [0;30;42m· [0;1;32;42mN          ▓[0m
 [1;32;42m▒                                                                              ▒[0m
-[1;32;42m░     S[0;1;33;42mysOp: [0;1;32;42mL[0;1;33;42most [0;1;32;42mS[0;1;33;42moul               [0;1;32;42m4[0;1;33;42m16-[0;1;32;42m4[0;1;33;42m83-[0;1;32;42m0[0;1;33;42m781              [0;1;32;42mA[0;1;33;42mNSi''s [0;1;32;42mG[0;1;33;42malore   [0;1;32;42m░[0m
-[1;32;42m      C[0;1;33;42mo-SysOp: [0;1;32;42mS[0;1;33;42mhadow of [0;1;32;42mD[0;1;33;42meath     [0;1;32;42mR[0;1;33;42munning: [0;1;32;42mV[0;1;33;42menom     [0;1;32;42mN[0;1;33;42mo [0;1;32;42mC[0;1;33;42monventional [0;1;32;42mW[0;1;33;42mares    [0m
-[30;42m░     [0;1;33;42m9600+     └[0;1;32;42m[[0;1;33;42mRAZOR 1911[0;1;32;42m][0;1;33;42m┘         [0;1;32;42mV[0;1;33;42menomNET            [0;1;32;42mR[0;1;33;42megistered [0;1;32;42mU[0;1;33;42mtils.   [0;30;42m░[0m
+[1;32;42m░      [0;1;33;42m      [0;1;32;42m [0;1;33;42m    [0;1;32;42m [0;1;33;42m                  [0;1;32;42m [0;1;33;42m   [0;1;32;42m [0;1;33;42m   [0;1;32;42m [0;1;33;42m                 [0;1;32;42m [0;1;33;42m      [0;1;32;42m [0;1;33;42m        [0;1;32;42m░[0m
+[1;32;42m       [0;1;33;42m         [0;1;32;42m [0;1;33;42m         [0;1;32;42m [0;1;33;42m         [0;1;32;42m [0;1;33;42m        [0;1;32;42m [0;1;33;42m         [0;1;32;42m [0;1;33;42m  [0;1;32;42m [0;1;33;42m            [0;1;32;42m [0;1;33;42m        [0m
+[30;42m░     [0;1;33;42m          └[0;1;32;42m [0;1;33;42m          [0;1;32;42m [0;1;33;42m┘         [0;1;32;42m [0;1;33;42m                   [0;1;32;42m [0;1;33;42m          [0;1;32;42m [0;1;33;42m        [0;30;42m░[0m
 [30;42m▒                                                                              ▒[0m
 [30;42m▓▒░             ░░ ░     ░░░   [0;1;32;42mA[0;1;33;42mNSi: [0;1;32;42mS[0;1;33;42mOUNDMASTER [0;1;32;42m[[0;1;33;42mD[0;1;32;42me[0;1;33;42mAD[0;1;32;42m]   [0;30;42m░░░     ░░      ░░  ░▓[0m
  [30;42m▓▒░   ░░      ░▒▒░▒░   ░▒▒▒▒░      ░░▒▒▒░    ░▒▒░       ░▒▒▒░   ░▒▒░    ░▒▒░░▒▓[0m

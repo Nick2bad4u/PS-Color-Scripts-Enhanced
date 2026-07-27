@@ -5,7 +5,7 @@
 # Source SHA-256: fd956ba096c77dd3a859dde30df268a4e1626ce9815eb65e94dacbdb075e1b12
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SRD-UTTE.ANS by sordid (wOE!); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: utter blasphemy
 # SAUCE Author: sordid
 # SAUCE Group: wOE!
@@ -40,8 +40,8 @@ Write-Host '
     [34m▀▀▀▀▀▀▀▀▀▀▀[0m    [34m▀▀▀▀▀██████▄▄▄▄▄███████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [37m ▀███▄███▀[0m
                           [34m [0m   [37m       [0m                                 [37m▀▀▀▀[0m
 [37m [0;1;30m┌────────────────────────────────────────────────────────────[[0mSORDiD^WOe[1;30m]───┐[0m
- [1;30m│[0m [1;30mHere is a Logo I made.. (Requested.) .. The Pentagram was god damn hard[0m   [1;30m│[0m
- [1;30m│[0m [1;30mTo draw... so.. plz don''t RIP.. [0m                                          [1;30m│[0m
+ [1;30m│[0m [1;30m                                                                       [0m   [1;30m│[0m
+ [1;30m│[0m [1;30m                                [0m                                          [1;30m│[0m
  [1;30m│[0m                                                                           [1;30m│[0m
- [1;30m┌─[[0mRequest?[1;30m] Sjure.. Mail me at Sordid@dark-society.dk[0m                      [1;30m:[0m
+ [1;30m┌─ [0m        [1;30m                                           [0m                      [1;30m [0m
  [1;30m└───────────────────────────────────────────────────────────────────────────┘[0m'

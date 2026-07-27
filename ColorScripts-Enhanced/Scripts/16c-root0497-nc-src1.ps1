@@ -5,7 +5,7 @@
 # Source SHA-256: 8f8deffed83129eed1a4290fa82572f3e7389769e4931e684cab1f0244fbb411
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NC-SRC1.ANS by necrolyte (root graphix); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: that sahourcee
 # SAUCE Author: necrolyte
 # SAUCE Group: root graphix
@@ -36,4 +36,4 @@ Write-Host '
            [31m▐[0;1;31;41m▐████████████▓ [0m    [33mkommandz here..[0m        [36mkommandz here..[0m      [34m█[0;1;34;44m▓██[0m
 [1;37;40mt[0;1;30;40m.[0mransfers  [31m█[0;1;31;41m▓████████████▌[0;31m▌    [0;33mkommandz here..[0m      [36mkommandz here..[0m       [34m▐[0;1;34;44m▐██[0m
             [31m▐[0;1;31;41m▐█▓▀▀▀▀▀▀▀[0;31m▀▀▀▀▀[0m     [33mkommandz here..    [0;36mkommandz here..[0m        [34m▀▀▀▀[0m
-            [31m▀▀▀▀[0m                                   [36mkommandz here..[0m'
+            [31m▀▀▀▀[0m                                   [36m               [0m'

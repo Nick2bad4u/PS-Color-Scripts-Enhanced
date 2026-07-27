@@ -5,7 +5,7 @@
 # Source SHA-256: ebbe76401b1f0f4a02e05d013dc030d27becf352aea36d3b225fe6c65cb0df3a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-EV0L1.ANS by splatt (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: evol #1 .. <yay>
 # SAUCE Author: splatt
 # SAUCE Group: eclipse
@@ -29,5 +29,4 @@ Write-Host '
 [1;34;44m▀░░[0m▀[1m▀[0;1;34;47m▒▓[0;1;34;44m▌[0;30;44m ▄[0;34;40m█[0;34;44m█[0;34;40m▄▄▄▄▄▄▄▄▄▄▄[0;30;44m░[0;34;40m▓▀█[0;30;44m [0;34;47m▓▓▓[0;34;40m▄▄[0;1;37;44m [0;1;34;44m [0;1;37;44m [0;34m▌▀[0;1;34;44m▒[0;34m ▄█▄ [0;1;34;44m░░[0;34m▀[0;1;34;44m░░[0;1;37;44m [0;1;34;44m [0;34m█▄█▀▀  ▄  ▄[0;1;34;44m  [0;30;44m░[0;34;40m▓▀▀▀█▀░░░░░░[0;37;40m [0;34;40m▄▄[0m
 [1;34;44m ░░ [0;34m▄▄[0;1;34;44m▀[0;34m█▄▄▄▄██▄█▄▄████[0;1;35;44m [0;30;44m░[0;34;40m▓▄▄▄▄[0;1;30;40m [0;34m▀▀[0;30;44m▄░[0;34;40m▓▄▄▄[0;1;34;44m░▒[0;34m█[0;1;34;44m▒▒▒▒▒[0;34m▄▄██▄█▄▄▄██▄▄▄  █▄[0;30;44m░[0;34;40m▄▄[0;1;35;44m░░[0;34m█▄▄▄▄▄▄▄▄[0;1;35;44m [0;1;37;44m [0m
 [1;34;44m▒[0;1;34;47m▓[0;1;34;44m▓▒░░[0;34m█[0;1;34;44m░░[0;30;44m░St?░░░░░░░[0;34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;36;44m░[0;1;34;44m░[0;34m▀[0;1;34m░░░░░[0m [34m·■▄ ░░░░▀▀  ▄[0;37m [0;34m   ▄ ▄[0;37m [0;34m▄██▀▀▀▀▀▀▀▀▀[0m
-[30;44m░[0;1;34;44m░░[0;34m▀▀▀▀▀[0m     [30;44m▓▓▓▓▓▓▓[0;37;40m  [0;1;37;40m▀[0;1;36;40m▀▀▀▀[0m [1;35m [0;1;36m▀[0m [1;36m··[0m [34m           [0;37m  [0;34m   [0;37m  [0;34m     [0m            [34m▀[0m
-[34m     [0m                [1;37m                          [0m [1;35m+[0m [1mEVOL    [0;34m             [0;37m [0;34m  [0m'
+[30;44m░[0;1;34;44m░░[0;34m▀▀▀▀▀[0m     [30;44m▓▓▓▓▓▓▓[0;37;40m  [0;1;37;40m▀[0;1;36;40m▀▀▀▀[0m [1;35m [0;1;36m▀[0m [1;36m··[0m [34m           [0;37m  [0;34m   [0;37m  [0;34m     [0m            [34m▀[0m'

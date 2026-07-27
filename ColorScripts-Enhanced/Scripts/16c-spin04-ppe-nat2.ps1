@@ -5,7 +5,7 @@
 # Source SHA-256: 2e445e549f294c57b460b98079ca2ad6f0679a0c857f626705cc8093ee576c2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-NAT2.ANS by purplee (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: purplee
 # SAUCE Group: spin
 # SAUCE Date: 19981201
@@ -16,8 +16,8 @@
 Write-Host '
  [1m.,sMs,,..[0m                     [1;30m_..,,,,,,,,,,,,...________[0m
  [1m`MMMMMMMMMM[0mMMMMMMMMssss[1m*[0m''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''[1;33m,,│││ssssss[0m
-  [1m`MMMMMM*┘''[0m       [1;30m_______.......,,,,,,,,,,,,,sssssssssssssssÑÑÑ[0m [1;33m,│[0m  [1;30mÑÑÑÑÑÑ[0m
-[1m [0m  [1m`[0;30;43m         [0;37;40m   [0;1;30;40m,ñNÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ''[0;1;35;40m░░░░[0m [1;30mÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ''''''[0;1;33m,,│[0m [1;30m'''''''''''' [0m M
+  [1m        ┘ [0m       [1;30m                                             [0m [1;33m │[0m  [1;30m      [0m
+[1m [0m  [1m [0;30;43m         [0;37;40m   [0;1;30;40m                        [0;1;35;40m░░░░[0m [1;30m                  [0;1;33m  │[0m [1;30m       [0m  
 [1m [0m   [30;43m         [0;37;40m   [0;1;30;40mÑÑÑÑÑÑÑÑÑÑ''''''''''''''''''ÑÑÑÑÑ,,,[0m [1;35m░░░░░░[0m [1;30m''''''''''ÑÑÑ''''''[0;1;33m│││[0m [1;30m''''[0;1;33;43m     [0m  M
     [30;43m   [0;1;33;43m,┌s@$@[0;1;36;40ms┐,[0;1;33;40m [0;1;36;40m,┌s@$@s┐,[0m [1;36m,┌s@$[0;1;35ms[0;1;36ms┐,[0m [1;36m,┐,[0m [1;30mÑ[0m [1;36m,/,[0m [1;36m,┌s@[0;1;34m$[0;1;36m@s[0;1;34mç,[0m [1;36m,┌s@$@s┐,[0m [1;36m,[0;1;33;43m┬,   [0m  M
     [1;33;43m  \$$$"""[0;1;36;40m$$[0;34m$[0;37m [0;1;36m$$$[0;31m"""[0;1;36m$[0;34m$[0;1;36m$[0m [31m"""[0;1;36m$$[0;1;35m$[0;31m"""[0;37m [0;1;36m$$$[0m [1;30mÑ[0m [1;36m$$$[0m [1;36m$$$[0;31m"""[0;1;36m$$$[0m [1;36m$[0;1;34mƒ[0;1;36m$[0;31m"[0;1;33m│[0;31m"[0;1;36m$$$[0m [1;36m$[0;1;33;43m$$   [0m  M
@@ -32,18 +32,9 @@ Write-Host '
      [37mm[0;1;33m│[0m   [1;33m││MMMM[0;30;43mMMM[0;1;33;40mMMMMMM│mmmmmmmmmmmmmmmm#│││││││││││[0m [1;33m''[0m       [1;35m░░░░░░[0m      M
      M[1;30m [0;1;33m│││[0m      [1;33;43m   [0m     [1;33m''[0m       [1;33m''''[0m      [1;33m''[0m       [1;33m''''[0m                         M
      M                         [1;36m░░░░░░░░░░░░░░░░░░░[0m                      [1m_,sMMMⁿ[0m
-     Mmmmm,,,,,,,,,,,,,,,,,,,,,,,,,_____________mmmmmmmmmmmmmmmmmmmmmmMM[1mMMMMM''[0m
+                                                                        [1m      [0m
                                                                        [1m''sM*┘''[0m
-                                    [1;33;43m  N[0;1;33;40matural[0m    [36m>>[0m
+                                    [1;33;43m   [0;1;33;40m      [0m    [36m  [0m
 
-[37m(read down)[0m                                                                 [37mppe![0m
-[37m<------------------------------------------------------------------------------>[0m
-
-[37m  [0;1;37mHey purplee is talkin.[0m
-  [1mi just wanna say that this is my first pic to natural.[0m
-  [1mI dont know if i am going to join natural, i dont know.[0m [1mBtw i even[0m
- [1m dont know if the groups name is Natural or Natural/Fluid or[0m
-  [1mFluid :).[0m [1mIf the groups first pack is good, i continue in Naturalwhatever :].[0m
-  [1mSignoff[0m
-  [1mPurplee (ppe) find me on efnet: #sweart[0m
-                          [1mircnet:[0m [1m#thescene[0m'
+[37m           [0m                                                                 [37m    [0m
+[37m<------------------------------------------------------------------------------>[0m'

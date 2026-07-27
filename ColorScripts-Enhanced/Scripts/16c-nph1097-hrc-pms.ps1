@@ -5,7 +5,7 @@
 # Source SHA-256: 8f106f2ff672b8739033c07f8452e251d70c3fb241dee438b58f81591f3f0562
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HRC-PMS.ANS by .s$ hURRICANE $s. (.s$ nITROPHUSION $s.); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .s$ pMS^lOGO^aNSI $s.
 # SAUCE Author: .s$ hURRICANE $s.
 # SAUCE Group: .s$ nITROPHUSION $s.
@@ -35,6 +35,4 @@ Write-Host '
        .[1m..[0m.[1m.[0m..[1m.k[0m/┤[1m|[0m|[1m.ñ¥[0mW[1m.[0ma[1mÑ[0m╤.[1me[0mÑ[1mj¥[0m╛[1m!.[0m..[1m..[0m.[1m.[0m.[1m.[0m   [1;32m|[0m  [1;32m|[0;32m_[0;1;32m_|_[0;32m_[0;1;32m|[0m  [1;32m|[0;32m_[0;1;32m_[0;32m|[0;37m  [0;32m|[0;1;32m__|[0m  [1;32m_[0;32m_[0;1;32m_|[0m
      [32m└[0m                                       [1;32m┘[0m [1;32m`[0;32m-[0;1;32m-[0;32m''[0m     [1;32m`-[0;32m-''[0;37m  [0;1;32m`--[0;32m''[0;37m  [0;32m`-[0;1;32m-''[0m  [1m [0m
      [1;32m$[0;32m,[0;1;32m`$$$[0;32m$,[0;1;32m`$$$[0;32m$,[0;1;32m`$$$[0;32m$,[0;1;32m`$$$[0;32m$,[0;1;32m`$$$[0;32m$,[0;1;32m`$$$[0;32m$,[0;1;32m`$$$[0;32ms, [0;1;32ms$$[0;32m$,[0;1;32m`s,,[0;32ms,[0;1;32m`s,,[0;32ms,[0;1;32m`s,,[0;32ms,[0;1;32m`$[0m
-     [1;32m$[0;32m$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,`[0m
-
-[1;30m-------[cUT^hERE]-------[mY^eMAIL^hURRICANE@hOL.fR]------[hURRICANE''97]-------[0m'
+     [1;32m$[0;32m$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,[0;1;32m`$[0;32m$$$,`[0m'

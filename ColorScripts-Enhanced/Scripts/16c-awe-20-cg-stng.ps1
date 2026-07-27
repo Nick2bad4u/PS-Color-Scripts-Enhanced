@@ -5,7 +5,7 @@
 # Source SHA-256: a9f7b70c7f16547c24b80ab31ad751a222aabded735d50d5a7dca0c844de627a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-STNG.ANS by Cryogenic (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sting
 # SAUCE Author: Cryogenic
 # SAUCE Group: AWE Lettering
@@ -42,13 +42,4 @@ Write-Host '
        [31m▀[0;37m  [0;31m █▀[0;1;31m▒▒░ [0;1;36m░[0m   [32m▄[0;37m  [0;32m▄[0;1;32;42m░[0m  [32m▄▄███▀█▀[0;1;32m▒[0;32m▄[0;37m [0;32m░░[0m   [32m▄[0;1;32;42m▄░[0;32m█▄[0;37m  [0;32m░[0m   [32m▄[0;1;32m▒░[0;32m▄[0;1;32;42m▄░[0;32m [0;37m [0;1;36m░[0m [31m █[0;1;31m▒░[0;31m█▀[0;37m [0;31m▄[0m
       [1;30m   [0m  [31m▓ ██[0;37m  [0;32m  ▄[0;1;32;42m▄░[0;32m▀████[0;1;32m▒▒▒[0;32m▀▀ [0;37m [0;32m█ [0;1;32m░[0;32m   ▄ [0;37m [0;32m▀█[0;1;32m▒░[0;32m▀[0;37m [0;32m▄[0m   [32m  [0;37m [0;32m▓[0;37m [0;32m ▀█▀[0m   [31m▀██[0;37m [0;31m▓   [0m
       [1;30m ░░░[0m [31m░[0;37m [0;31m▓▓[0m     [32m▄▄[0;1;32m▒▒[0;32m▀▀▀[0;1;32m░░░[0m    [32m▓[0m         [32m▓▓[0m     [32m  [0m   [32m░[0m   [32m▓[0;37m [0;1;30m░░░[0m [31m▓▓[0;37m [0;31m░[0;37m [0;1;30m░░[0m
-      [1;30m    [0m [31m [0;37m [0;31m░░[0;37m [0;1;30m░░░ [0;32m  [0;1;32m░░[0m       [1;30m░░[0m [32m░[0;37m [0;1;30mcryoawe[0m [32m░░[0;37m [0;1;30m   ░░░░ [0m [32m [0;37m [0;1;30m [0m [32m░[0;37m [0;1;30m   [0m [31m░░[0m   [1;30m [0m
-
- [1;30mjust a little header for sting''s pics ... i dunno.. im definately outa practice[0m
-[1;30mbut that should get better... =)[0m
-[1;30mwell.. thats enough crap from me.. peace..[0m
-
-[1;30mcryogenic[0m [1;30m- force[0m
-
-[1;30mps. fuck... i forgot.. sting changed his nick like 4 months ago... =)  oh well..[0m
-    [1;30manybody called sting can use this then.. =)[0m'
+      [1;30m    [0m [31m [0;37m [0;31m░░[0;37m [0;1;30m░░░ [0;32m  [0;1;32m░░[0m       [1;30m░░[0m [32m░[0;37m [0;1;30mcryoawe[0m [32m░░[0;37m [0;1;30m   ░░░░ [0m [32m [0;37m [0;1;30m [0m [32m░[0;37m [0;1;30m   [0m [31m░░[0m   [1;30m [0m'

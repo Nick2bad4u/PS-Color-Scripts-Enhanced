@@ -5,7 +5,7 @@
 # Source SHA-256: eb3dc9f12e4a308685d726204bc04624fb00b1c66fd35d15503998f57a722e1f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SU-INVA.ANS by Suhu (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-75
 # Columns: 1-80
 
@@ -29,8 +29,8 @@ Write-Host '
 [1;30;40m  [0;1;30;45m▌[0;1;35;45m▀[0;1;35;40m▄▄▄▄▄▄▄▄▄[0;1;35;45m▀▀[0;1;35;40m▄▄▄▄▄▄▄▄▄[0;1;35;45m▀[0;35m█[0;1;35;45m▀[0;1;35;40m▄▄▄▄▄▄▄▄▄[0;1;35;45m▀[0;1;30;45m▐[0m    [1;30;45m▌[0;1;35;45m▀[0;1;35;40m▄▄▄▄▄▄▄▄▄[0;1;35;45m▀▀[0;1;35;40m▄▄▄▄▄▄▄▄▄[0;1;35;45m▀[0;1;30;45m▄[0;1;35;45m▀[0;1;35;40m▄▄▄▄▄▄▄▄▄[0;1;35;45m▀[0;1;30;45m▐[0m
 [1;30;40m  ▀▀[0;1;30;45m▄▄▄▄▄▄▄▄▄[0;1;30;40m▀▀[0;1;30;45m▄▄▄▄▄▄▄▄▄[0;1;30;40m▀▀▀[0;1;30;45m▄▄▄▄▄▄▄▄▄[0;1;30;40m▀▀    ▀▀[0;1;30;45m▄▄▄▄▄▄▄▄▄[0;1;30;40m▀▀[0;1;30;45m▄▄▄▄▄▄▄▄▄[0;1;30;40m▀ ▀[0;1;30;45m▄▄▄▄▄▄▄▄▄[0;1;30;40m▀▀[0m
 
-                            [1;30;40m◄ i[0;36mN[0;1;36mVALiD  E[0;1;32mNViRoNME[0;32mN[0;1;30mT ►[0m
+                            [1;30;40m◄  [0;36m [0;1;36m        [0;1;32m        [0;32m [0;1;30m  ►[0m
 
-     [1;30mR[0;36mu[0;1;36mnning on V[0;1;32miSioN-X o.[0;32m9[0;1;30m8 ◄► M[0;36mo[0;1;36mdem: Zy[0;1;32mXEL 1496[0;32mE[0;1;30m+ ◄► S[0;36mp[0;1;36meeds: 2[0;1;32m4oo-192[0;32mo[0;1;30mo[0m
-[1;30m  i[0;36mC[0;1;36mE MEMB[0;1;32mER BoA[0;32mR[0;1;30mD ◄► i[0;36mF[0;1;36mTS MEMB[0;1;32mER  BoA[0;32mR[0;1;30mD ◄► L[0;36mA[0;1;36mMEWARE PRoDUCT[0;1;32mIONS MEMBER BoA[0;32mR[0;1;30mD[0m
-      [1;30mA[0;36mN[0;1;36mSi FACTo[0;1;32mRY CoURi[0;32mE[0;1;30mR ◄► E[0;36mP[0;1;36miCAL [0;1;32mDIST[0;32mR[0;1;30mo ◄► J[0;36mE[0;1;36mSKoLA PRoDU[0;1;32mCTioNS DiST[0;32mR[0;1;30mo[0m'
+     [1;30m [0;36m [0;1;36m          [0;1;32m          [0;32m [0;1;30m  ◄►  [0;36m [0;1;36m       [0;1;32m        [0;32m [0;1;30m  ◄►  [0;36m [0;1;36m       [0;1;32m       [0;32m [0;1;30m [0m
+[1;30m   [0;36m [0;1;36m      [0;1;32m      [0;32m [0;1;30m  ◄►  [0;36m [0;1;36m       [0;1;32m       [0;32m [0;1;30m  ◄►  [0;36m [0;1;36m              [0;1;32m               [0;32m [0;1;30m [0m
+      [1;30m [0;36m [0;1;36m        [0;1;32m        [0;32m [0;1;30m  ◄►  [0;36m [0;1;36m     [0;1;32m    [0;32m [0;1;30m  ◄►  [0;36m [0;1;36m           [0;1;32m           [0;32m [0;1;30m [0m'

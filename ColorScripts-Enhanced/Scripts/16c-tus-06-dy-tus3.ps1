@@ -5,7 +5,7 @@
 # Source SHA-256: c9a55bc32059d0434c378450b2466d2676c0151f2070655ba7e28c3af2c363e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dy-tus3.ans by Discyple (tus-06); released in tus-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -14,7 +14,7 @@ Write-Host '
  [1m⌂⌂⌂*┘[0m''[1m$     [0m`└*[1m⌂⌂⌂*┘[0m''[1m$   [0;35m. [0;37m`┘*[0;1;37m⌂⌂⌂*[0m┘''[1m$     `└*⌂⌂⌂*┘''$     [0m`└[1m*⌂⌂⌂*┘''$     [0m`[1m└*⌂⌂⌂[0m
        [1m$  [0m   [36m [0m    [35m┌¬[0;37m  [0;1;37m$  [0m [35m4b[0m         [1;37m$  [0m    [35m┐.[0m      [1;37m$  [0m         [35m.┐[0;37m $[0;1;37m  [0m        [1m [0m
        $[1m  [0mb.[1m [0;36m [0;1;37m    [0;1;35m$$ [0m $[1m  [0mb.[35m`[0;1;37m        [0m $[1m  [0mb.[1m  [0;1;35m$$[0;1;37m     [0m $[1m  [0mb.[1m       [0;1;35m$$[0m $[1m  [0mb.[1m       [0m
-      [1m [0m$[1m  ZZ[0mb.[1m    [0;1;35m$$[0;1;37m  [0m$[1m  ZZb[0m.[1m        [0m$[1m  ZZb[0m.[35m`┘[0;1;37m      [0m_[1m  $$[0mb.[1m     [0;35m\[0;1;35m/[0;1;37m [0mZ[1m  ZZb[0m.[1m     [0m
+      [1m [0m [1m    [0m  [1m    [0;1;35m  [0;1;37m  [0m [1m     [0m [1m        [0m [1m     [0m [35m ┘[0;1;37m      [0m [1m    [0m  [1m     [0;35m [0;1;35m [0;1;37m [0m [1m     [0m [1m     [0m
       [1;34m_______[0;34m__[0;1;31m   [0;35m4/[0;1;31m  [0;34m__[0;1;32m    [0;34m____[0;1;37m    [0;32m [0;37m [0;34m__[0;1;34m_____     [0;1;37m  [0m$[1;34m [0;1;37m XZZZb[0m.[1m     [0m''[35m.[0;37m┌.[0;1;37m    [0m`''[1m┘j [0m
  [1;31m   [0;34m.[0;1;34md$$$$$$$[0;34m$$[0;1;34m$b[0;34m.[0;1;35m [0m [34md[0;1;34m$$[0;34m7[0;1;32m    [0;1;34m$$$[0;34m''[0;1;37m    [0;1;32m [0m [34m$[0;1;34m$$$$$$$[0;34mb┐,,[0;1;37m  [0m\[1m [0m [35m__[0;37m_[0;1;37m [0;36m__[0;1;37m ┌  [0;35m.[0;1;35md7[0m''[1m [0;36m.[0;1;33m┐#SZ[0;36m\[0;1;33m [0;1;37m [0m\
  [34m.┌d[0;1;34m$$$$$$$$$[0;34m$$[0;1;34m$$$[0m  [34m$[0;1;34m7[0;34m`[0;1;32m     [0;1;34m$$[0;34ml[0;1;32m      [0m [34m`└4[0;1;34m$[0;34m  `└*⌂*┘[0;1;37m  [0m''[1m [0;35m.[0;1;35md[0m7''[36m.[0;1;33md$[0;1;37m [0m`.[35md7''[0;36m.[0;1;33m┐$$$$$$$k[0;1;37m  [0m
@@ -33,6 +33,4 @@ Write-Host '
 $[1m [0;1;33m$$[0;36m\.[0;1;33md$j$$$ [0;1;37m.└┘ [0m [1;33m$$$$$b[0;36m.d[0;1;33m\┘*⌂S$$$[0;36m.[0;37m *└''[0;36m.[0;1;33m$$$$7$$$$[0m [1;35m$$[0m [1;33m$$S⌂*┘$$$$$$$$$$$$$$$$$$$$[0m
 $[1m [0;1;33m$$$$7'' $$$.┐dZ[0;1;37m  [0;1;33m$$$$$$$[0;36m$$[0;1;33m [0;35m%s[0;1;33m $$$$b┐┌d$$$7''[0;1;37m [0;1;34m____[0m $$ [36m$$[0;1;33m [0;1;35ms%[0;1;33m [0;36mj/`[0;1;33m└4j$$$$$$$$$$$$$$[0m
 [1;35m$[0;1;37m [0;1;33m$$7'' [0md[1;33m $$$$j$$[0;1;37m  [0;1;33m$$$`\$$[0;36m/`[0;1;33m [0;35m$$[0;1;33m 4j$$$$$$$7'' [0;34m.d[0;1;34m$$$$[0m ^" [36m*⌂[0;1;33m [0m$j[1;33m  [0;1;37m  [0;1;34m4┐.[0;36m`[0;1;33m└Sj$$$$$$$$$$[0m
-[1;35m\[0;1;37m [0;36m\`[0;1;33m   [0m$[1;33m $$7'' [0;36m$$[0;37m [0;36m ___[0;1;33m [0;36m [0;34m_[0;1;34m___[0;1;33m [0m$$b.[1m [0;36m`[0;1;33m^""^[0;36m`[0;37m  [0;34m.d$$[0;1;34m$$$$[0m [32m»¬[0;1;32m ,[0;32m.[0;1;32m [0;1;37m  [0;36m /[0;1;36mb[0;36m.[0;1;37m [0m [1;34m`²*[0;1;37m [0;1;34m.[0;1;33m`"└*S$$$$$[0m
-
- [1mdiscyple[0m([1mscamiss[0m@[1mnetinfo[0m.[1mubc[0m.[1mca[0m)[0m'
+[1;35m\[0;1;37m [0;36m\`[0;1;33m   [0m$[1;33m $$7'' [0;36m$$[0;37m [0;36m ___[0;1;33m [0;36m [0;34m_[0;1;34m___[0;1;33m [0m$$b.[1m [0;36m`[0;1;33m^""^[0;36m`[0;37m  [0;34m.d$$[0;1;34m$$$$[0m [32m»¬[0;1;32m ,[0;32m.[0;1;32m [0;1;37m  [0;36m /[0;1;36mb[0;36m.[0;1;37m [0m [1;34m`²*[0;1;37m [0;1;34m.[0;1;33m`"└*S$$$$$[0m'

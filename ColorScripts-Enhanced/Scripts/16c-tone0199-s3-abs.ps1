@@ -5,7 +5,7 @@
 # Source SHA-256: ac9645f3bd99932e8b492e247b7f3851c32481fb04c93961dc459799c206dcd7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S3-ABS.ANS by seltorn (tone); released in tone0199 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: absurdian
 # SAUCE Author: seltorn
 # SAUCE Group: tone
@@ -46,14 +46,14 @@ Write-Host '
 [1;31;40m  ▐█▌  ▄▄▀▀ ▐█▌  ▄▄▀▀ ▐█▌  ▄█▀  ▀█▄  ▐█▌▐█▌[0m       [1;31;40m▀▀[0m [1;31m▄  ▐██████▌  ▄▄▀▀ ██[0m    [1;31m█[0;1;31;41m▓[0m
 [1;31;40m  ▀▀▀▀▀[0m     [1;31;40m▀▀▀▀▀[0m     [1;31;40m▀▀▀▀▀[0m        [1;31;40m▀▀▀▀▀▀▀▀[0m          [1;31m ▀▀▀▀▀▀▀▀▀▀▀▀[0m     [1;31m▀▀[0m    [1;31m██[0m
 
-[1;33m [0m   [1;33mabsurdian +o unseen fate +xxx.xxx.xx.xx -- tone [0m [1;33member board -- fukk yew![0m
+[1;33m [0m   [1;33m                                                [0m [1;33m                        [0m
 
             [1;33m▄▄▄▄▄[0m
    [31m█▀▀▀[0;37m [0;1;33m█▀▀▀[0m  [1;33m▄▄▄▄▄ [0;31m▀▀▀█[0;37m   [0;1;33manother fine pic by seltorn in 1999. this is for[0m
-[33m [0;37m  [0;31m█[0;37m [0;31m░░[0;37m [0;1;33m▀[0m [1;33m▀▀▀▀[0m [1;33m [0m [1;33m▄▄[0m [31ms3[0;37m [0;31m█[0;37m  [0;33m [0;1;33munseen fate''s absurdian. for pics drop me messa-[0m
+[33m [0;37m  [0;31m█[0;37m [0;31m░░[0;37m [0;1;33m▀[0m [1;33m▀▀▀▀[0m [1;33m [0m [1;33m▄▄[0m [31m  [0;37m [0;31m█[0;37m  [0;33m [0;1;33m                                                [0m
 [33m [0;37m  [0;31m█[0;37m   [0;30;47m▌[0;1;37;47m▐▓▓█[0;1;37;40m██[0m [1;33m▀▀[0m      [31m█[0;1;33m   ge to s3@cd.sysda.kiev.ua.[0m
 [33m [0;37m  [0;31m█[0;37m   [0;30;47m▌[0;1;37;47m▐[0;1;37;40m██▀▀[0;1;37;47m▀[0;30;47m▌[0;1;37;47m░▓[0;1;37;40m██[0m    [31m█[0m
 [33m [0;37m  [0;31m█[0;37m [0;1;31m [0;33m▄[0;30;47m▌[0;1;37;47m▐[0;1;37;45m█▓[0;1;37;40m▄▄[0;1;37;47m▄[0;30;47m▌[0;1;37;47m▓[0;1;37;40m▄[0;1;37;47m▄▓[0;1;37;40m [0;1;31;40m▄[0m  [31m█[0;37m  [0;33m [0;1;33mgreets to: zippy, avenger, shine, poti, soulscr-[0m
-[1;33m [0m  [31m█[0;37m   [0;33m▄[0;1;31m▄▄▄[0m [33m▄[0;1;31m▄▄▄▄ ▄[0m    [31m█[0;37m   [0;1;33meam, lichmistress, savagecow, mre-, sephiroth.[0m
+[1;33m [0m  [31m█[0;37m   [0;33m▄[0;1;31m▄▄▄[0m [33m▄[0;1;31m▄▄▄▄ ▄[0m    [31m█[0;37m   [0;1;33m                                              [0m
    [31m█[0;37m  [0;33m▐[0;1;31;43m▐▓▓[0;1;31;40m█▄▄▄▄▄▄▄[0;1;31;47m▓[0;1;31;40m▌[0;31m░░[0;37m [0;31m█[0m
 [37m   [0;31m█▄▄[0;1;31m [0;33m▀[0;1;31m▀[0;1;31;43m▀[0;1;31;47m▓[0;1;31;40m▀▀[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m▓▓[0;1;31;40m▀▀ [0;31m▄▄▄█[0;37m  [0;1;33m t o n e  a r t   s t u d i o s   i n  1 9 9 9 ![0m'

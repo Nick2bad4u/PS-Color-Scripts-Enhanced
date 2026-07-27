@@ -5,7 +5,7 @@
 # Source SHA-256: f6d1d65efb5037393728c4327a2a775c8a408ddf2e14c1f12502a5ec228f216d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IX-KOG.ANS by Illusion X (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kingdom of Groove
 # SAUCE Author: Illusion X
 # SAUCE Date: 19951025
@@ -43,4 +43,4 @@ Write-Host '
              [34m░[0m   [1;34;44m░[0m [34m▄▀[0;1;34;44m░[0m    [34m▀■▄▄■[0;1;34;44m░[0;34m  ▐▌[0m       [34m ▀▄▄▀ [0m   [1;34;44m░[0m     [34m█  █▄▄▀▀[0m
                   [34m▀▄▄▀[0m       [34m   █▄[0;1;34;44m░[0;34m  [0m                [34m▀▄[0m    [34m▀▀█[0m
                                  [34m▀[0m                     [34m▀▄▄   [0;1;34;44m░[0m
-                            [1mt[0mhe [1mk[0mingdom [1mo[0mf [1mg[0mroove         [34m▀▀▀[0m'
+                            [1m [0m   [1m [0m       [1m [0m  [1m [0m              [34m▀▀▀[0m'

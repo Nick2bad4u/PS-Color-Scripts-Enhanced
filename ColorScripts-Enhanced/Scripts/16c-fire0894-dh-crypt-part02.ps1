@@ -5,7 +5,7 @@
 # Source SHA-256: 505a18ac830abd9894db35488e7047770519db6232359c260944078b732f1824
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-CRYPT.ANS by Donut Hole (fire0894); released in fire0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 33-74
 # Columns: 1-80
 
@@ -49,6 +49,4 @@ Write-Host '
                                                              [1;30;41m█▓▓▒░░        [0;30;41m█[0;31m█[0m
                                                             [1;30;41m█▓▓▒░░░     [0;30;41m▄▄▀[0;31m▀[0m
                                                            [1;30;41m█▓▓▒░░░  [0;30;41m▀ ▀▀[0;31m▀▀[0m
-                                                            [1;30m▀▀[0;31m▀▀▀▀▀    DH[0;1;31m[[0;31mFiRE[0;1;31m][0m
-
-                              [31m· [0;1;31mC[0;31mryptic Real[0;1;31mm [0;31m·[0m'
+                                                            [1;30m▀▀[0;31m▀▀▀▀▀    DH[0;1;31m[[0;31mFiRE[0;1;31m][0m'

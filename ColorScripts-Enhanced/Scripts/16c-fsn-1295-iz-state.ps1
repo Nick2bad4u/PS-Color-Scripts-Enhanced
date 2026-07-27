@@ -5,7 +5,7 @@
 # Source SHA-256: 8f71c74698aa27adafca50501c49dea5f4f961af012d07e4cd5d356ebbfec7ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ!STATE.ANS by ize (fusion); released in fsn-1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: stateofart
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -56,12 +56,11 @@ Write-Host '
               [1;30m               [0m▀▄[1;30m [0m▀█▄█▀[1;30m [0m▀[1;31;47m▒[0;1;31;40m▄[0;1;31;47m█[0;1;31;40m▀[0;1;30;40m [0m▀█[1;30m [0m█▀[1;30m [0m▄▀
 [1;30m               [0m                ▀■▄▄▄■▀[1;31m■▄▄▄■▀[0m■[1;31m▄[0m▄▄■▀
                [1;30m  [0m
-                              [1;31m°Ooo[0m [1;31mS[0mtat[1;31me[0mofar[1;31mt! ooO°[0m
-                             [1;31m°Ooo[0m [1;31m1[0m00% [1;31ma[0mr[1;31mt[0mboar[1;31md[0m [1;31mooO°[0m
-                             [1;31m°Ooo s[0mop:[1;31md[0meut[1;31me[0mriu[1;31mm[0m [1;31mooO°[0m           [1;30m [0m
-                                [1;31m°Ooo[0m [1;31m5[0m40meg[1;31ms[0m [1;31mooO°[0m         [1;30m            [0m
+                              [1;31m    [0m [1;31m [0m   [1;31m [0m    [1;31m       [0m
+                             [1;31m    [0m [1;31m [0m    [1;31m [0m [1;31m [0m    [1;31m [0m [1;31m    [0m
+                             [1;31m      [0m   [1;31m [0m   [1;31m [0m   [1;31m [0m [1;31m    [0m           [1;30m [0m
+                                [1;31m    [0m [1;31m [0m     [1;31m [0m [1;31m    [0m         [1;30m            [0m
                        [1;30m    [0m                             [1;30m [0m  [1;30m [0m
                        [1;30m.▬■▄ [0m                          [1;30m▄■▬.[0m
-                       [1;30m    ▌Ansi by ize▬fusion in 95!▐    [0m
-                       [1;30m.▬■▀[0m                          [1;30m ▀■▬.[0m
-          [1;30m [0m'
+                       [1;30m    ▌           ▬             ▐    [0m
+                       [1;30m.▬■▀[0m                          [1;30m ▀■▬.[0m'

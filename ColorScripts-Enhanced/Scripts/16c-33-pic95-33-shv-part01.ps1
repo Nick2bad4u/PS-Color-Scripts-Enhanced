@@ -5,7 +5,7 @@
 # Source SHA-256: 3ad1e0cca6839b9e1964b74d32a244eb93f2c5c9791218a60fae428e82baf1f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-SHV.ANS by Eerie (Shiver); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shiver Promotional
 # SAUCE Author: Eerie
 # SAUCE Group: Shiver
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-                 this is dedicated to all the eerie wanna-bes.
- [46m [0;1;46meerie presents: an ansi without a header. yea, well, its a shiver promo, so  [0m
- [1;46m if i would have put a shiver logo in the header, and another one in the end  [0m
- [1;46m                   of the ansi, it would have looked lame.                 [0;36m▓[0;36;46m  [0m
+                                                              
+ [46m [0;1;46m                                                                             [0m
+ [1;46m                                                                              [0m
+ [1;46m                                                                           [0;36m▓[0;36;46m  [0m
  [36;40m█[0;35;40m▄[0;1;34;40m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0;36m█[0;35m▄[0;1;34m▄[0m
 [1;34m [0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0;1;37;46m░[0;35;43m█[0;1;34;45m▓[0m
  [1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0;1;37;46m▒[0;35;43m▓[0;1;34;45m▒[0m

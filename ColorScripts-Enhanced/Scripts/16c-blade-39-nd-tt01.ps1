@@ -5,7 +5,7 @@
 # Source SHA-256: d06fd4a000eadb3531a5b3796c6b03318b2d1d1dffe788b6ee39ace84b7f2f1e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ND-TT01.ANS by napalm death (blade productions); released in blade-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: termite terrace
 # SAUCE Author: napalm death
 # SAUCE Group: blade productions
@@ -39,7 +39,4 @@ Write-Host '
 [1;33m ████[0;1;33;43m▓▒░[0m [1;33m▓▓[0;1;33;43m▒░[0;33m▀[0;1;33m▄█████▄[0;33m▀[0;33;43m [0;1;31;43m░▒▒▓▓[0;1;31;40m██[0;1;31;43m███████[0;1;31;40m███[0;1;31;47m▓▓▒▒▒▒░░[0m█▀  [1;33m░[0m [1;33m▐[0;1;33;43m▓[0;1;33;40m░[0;1;30;47m▓[0m
 [1;33m ███[0;1;33;43m▓▒░[0m [1;33m▓[0;1;33;43m▓▒░[0;33m▌[0;1;33m▐███████ [0;33m▄▀[0;30;43m░[0;1;31;43m░▒▓▓[0;1;31;40m███[0;1;31;43m▓[0;1;31;40m█████[0;1;31;47m▓▓▓▒▒░░░[0m█▀[30mdon[0;1;33m░░[0m [1;33m█[0;1;33;43m▓[0;1;33;40m▒[0;1;30;47m▓[0m
 [1;33m ██[0;1;33;43m▓▒░[0m [1;33m▓██[0;1;33;43m▓▒░[0m [1;33m███████ [0;1;31;43m░▒[0;33m▄▄▀▀[0;1;31;43m▓▓[0;1;31;40m██[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;47m▓▓▓▓▓▒▒░[0m▀▀  [1;31m█▌[0;30mr[0;1;33m░nd▐█[0;1;33;43m█[0m [1;30m█[0m
- ------------------------------------------------------------------------------
- this ansi pic is only for release in BLADE, I would like to greet my mentor,
- White Trash aka Scentless Aprentice.. look foward for more art from me.. heh
- I just joined blade the night before the pack was realesed =>[0m'
+ ------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1768f640856ca7ccb36abcd67347cf769967c9542d1b888235da68177379b4f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-TODO.ANS by raiser; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: TOUCHDOWN BBS
 # SAUCE Author: RAiSER
 # SAUCE Group: SAC
@@ -17,11 +17,11 @@
 Write-Host '
 [1;31;40m▄[0;1;30;40m [0;1;31;40m▄▄▄▄▄▄[0;31m▄[0;1;31m▄[0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄[0;31m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m▄[0;1;30m▄[0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;31m▄[0;1;31m▄▄▄▄▄▄[0;1;37m [0;1;31m▄[0m
 [31m▄[0;1;31m▄▄[0;1;37m▄  [0;1;30m▄▄[0;31m▄[0;1;30m▄[0;31m▄▄▄[0;1;31m▄▄[0;1;37m▄ [0;1;30m▄▄[0;31m▄[0;1;30m▄[0;31m▄▄▄[0;1;31m▄▄[0;1;37m▄ [0;1;30m─-──-───────────────────────────────────-──-─ [0;1;37m [0;31m▄[0;1;31m▄▄[0;1;37m▄[0m
-[1;30m▓[0;1;37m  [0;1;31m█[0;1;37m  [0;1;30m▓[0;1;37m        [0;1;31m█[0;1;37m [0;1;30m▓[0;1;37m        [0;1;31m█[0;1;37m I[0;1;31mf[0;1;30m [0;1;31myou''[0;31md[0;1;30m [0;31mlik[0;1;30me to purchase an an[0;31msi[0;1;30m [0;31mfrom[0;1;30m [0;1;31mmy[0;1;30m [0;1;31mo[0;1;37mwn[0;1;30m [0;1;37m [0;1;30m▓[0;1;37m  [0;1;31m█[0m
+[1;30m▓[0;1;37m  [0;1;31m█[0;1;37m  [0;1;30m▓[0;1;37m        [0;1;31m█[0;1;37m [0;1;30m▓[0;1;37m        [0;1;31m█[0;1;37m  [0;1;31m [0;1;30m [0;1;31m    [0;31m [0;1;30m [0;31m   [0;1;30m                   [0;31m  [0;1;30m [0;31m    [0;1;30m [0;1;31m  [0;1;30m [0;1;31m [0;1;37m  [0;1;30m [0;1;37m [0;1;30m▓[0;1;37m  [0;1;31m█[0m
 [1;30m▒[0;1;37m  [0;31m▓[0;1;37m  [0;1;30m▒[0;1;37m  [0;1;31m▀[0;31m▀▀[0;1;30m▓[0;1;37m  [0;31m▓[0;1;37m [0;1;30m▒[0;1;37m  [0;31m▓[0;1;31m▀[0;1;37m   [0;31m▀▀[0;1;37m [0;1;31mtr[0;31my[0;1;30m [0;31mto[0;1;30m [0;31mc[0;1;30montact  my at  the  followin[0;31mg[0;1;30m [0;31mboar[0;1;31mds:[0;1;30m [0;1;37m [0;1;30m▒[0;1;37m  [0;31m▓[0m
 [1;30m░[0;1;37m  [0;1;30m▒[0;1;37m  [0;1;30m░[0;1;37m  [0;1;30m░[0;1;37m [0;31m▀[0;1;37m  [0;1;30m▀[0;1;37m  [0;1;30m░[0;1;37m  [0;1;30m▀[0;31m▀[0;1;30m▀▀▀▀▓[0;1;37m [0;31mCLOS[0;1;30mED SOCIETY  ■  EISERNE FRONT  ■   MY[0;31mSTER[0;1;31mY[0;1;30m [0;1;37m [0;1;30m░[0;1;37m  [0;1;30m▒[0m
 [1;37m   [0;1;30m░[0;1;37m     [0;1;30m▓[0;1;37m [0;31m▀[0;1;30m▓[0;1;37m [0;1;30m▀▄[0;1;37m [0;1;30m▒▀▀▀[0;31m▄▄[0;1;31m▄[0;1;37m  [0;31m▒[0;1;37m [0;1;31mRE[0;31mMEMBER[0;1;30m!  Ansi''s  are always  free [0;31motherw[0;1;31mise[0;1;30m [0;1;37m    [0;1;30m░[0m
-[1;37m   [0;1;30m░[0;1;37m     [0;31m█[0;32m [0;1;37m [0;1;30m▒[0;1;37m  [0;31m█[0;1;37m [0;1;30m▓[0;1;37m        [0;1;31m░[0;1;37m y[0;1;31mou''re[0;1;30m [0;31mlame[0;1;30m or unknown so you m[0;31must[0;1;30m [0;31mpa[0;1;31my[0;1;30m [0;1;31mfor[0;1;30m [0;1;37mit[0;1;30m [0;1;37m    [0;1;30m░[0m
+[1;37m   [0;1;30m░[0;1;37m     [0;31m█[0;32m [0;1;37m [0;1;30m▒[0;1;37m  [0;31m█[0;1;37m [0;1;30m▓[0;1;37m        [0;1;31m░[0;1;37m  [0;1;31m     [0;1;30m [0;31m    [0;1;30m                    [0;31m   [0;1;30m [0;31m  [0;1;31m [0;1;30m [0;1;31m   [0;1;30m [0;1;37m  [0;1;30m [0;1;37m    [0;1;30m░[0m
 [1;37m        [0;31m▀[0;1;31m▀[0;1;37m    [0;31m▀[0;1;31m▀[0;1;37m         [0;31m▀[0;1;31m▀[0;1;37m [0;1;30m─-──-───────────────────────────────────-──-─[0m
 [1;30m░ [0;1;31m▀▀▀▀▀▀[0;31m▀[0;1;31m▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▀[0;31m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31m▀[0;1;30m▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31m▀[0;31m▀[0;1;31m▀▀▀▀▀▀[0;1;37m [0;1;31m▀[0m
         [1;30m░[0m  [1;30m░[0m           [1;30m░[0m         [1;30m░[0m       [1;30m░[0m          [1;30m░[0m

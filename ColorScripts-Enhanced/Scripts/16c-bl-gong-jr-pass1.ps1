@@ -5,7 +5,7 @@
 # Source SHA-256: 872a26b0280f28965c2779b4fd710ce8917edf4ec11561aabdac19fd9a3479ab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_PASS1.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: free password-questionaire.
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,8 +40,4 @@ Write-Host '
 [1;32;42m▀[0;32m▄  [0;1;31m▀▀[0;1;31;47m▓[0;1;31;41m▄▄[0;31m█▄  [0;32m▐[0;1;32;42m▓[0;32m░░░░░[0;1;32;42m▐[0;32m▌[0;1;31m■  [0;1;32m▄[0;1;32;42m▀[0;32m░▄[0m      [1;31m▄[0;1;31;47m▓[0;31m██▄  ▐■▐█▄[0m     [1;32m▄[0;1;32;42m▀▀[0;32m░▀[0m     [1;30m░  ░[0m▓▓▒▒▒░[1;30m░ ░░▒░[0m
 
 
-[1;30m------------------------░----------------------------▒▒--░----------------------[0m
-[1;30man old FS password questionaire-screen. its my old suckin'' style and now this [0m
-[1;30mscreen is free to anyone, who wants to use this ansee.[0m
-[1;30mbut if ya do that, eliminate the "FS" above the password-lines and put ya own [0m
-[1;30mbox-logo in that place - for example...[0m'
+[1;30m------------------------░----------------------------▒▒--░----------------------[0m'

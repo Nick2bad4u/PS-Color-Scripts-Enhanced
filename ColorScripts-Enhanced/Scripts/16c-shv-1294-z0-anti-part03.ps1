@@ -5,7 +5,7 @@
 # Source SHA-256: d18063ed60ca2a5162c59bb58bf3c6568b1ac42c4d075c25682ee66f1edb1be2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Z0-ANTI.ANS by Zer0 (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Anti-Capital
 # SAUCE Author: Zer0
 # SAUCE Group: Shiver
@@ -39,12 +39,12 @@ Write-Host '
 [1;37m▓ [0;1;35;45m▓[0m [1;31;40m▄[0;31m█[0m                       [37m▓▄ [0;1;37;46m▓[0m [1;30;40m▄█ [0;1;30;45m▓[0;1;30;40m▄▄▄█ ▀ [0;35m▓ [0;1;30m▀▀[0m                    [1;30m▒[0m      [31m▒  [0;35m█[0m
 [1;37m▒ [0;1;35;45m▒[0m  [31m▓[0m      [1;30maNTiCaPiToL[0m      ▒  [1;46m▒[0m [1;30;40m▓  ▄ [0;31m▄[0m     [35m▒[0m      [1;30mSpecial Greets   ░[0m      [31m░  [0;35m█[0m
 [1;37m░ [0;1;35;45m░[0m  [31m▒ [0;1;30mS:Lifetime C[0;1;36mS:[0;36mDarq[0;1;30mue  [0m░  [1;46m░[0m [1;30;40m▒  █ [0;34;41m░[0m     [35;40m░[0m
-  [35;40m▓  [0;31;40m░[0m     [1;30;40m502.493[0;1;36;40m.8[0;36m425[0m         [36m█ [0;1;30m░  ▓ [0;34;41m▒[0m     [1;30;40mHadji: Hadji Hadji Ha[0;35mdji [0;1;35mH[0;1;30madji[0m
-  [35m▒[0m      [1;30mRenegade [0;1;36mat [0;36m28.[0;1;30m8k[0m      [36m▓    [0;1;30m▒ [0;34;41m▓[0m   [1;30;40mQuisling: Thanks for [0;35mthe [0;1;35mfr[0;1;30meebie.[0m
-  [35m▒[0m      [1;30m210 megs [0;1;36m1[0;36m00% [0;1;30mart[0m      [36m▓    [0;1;30m░ [0;34;42m█[0m       [1;30;40mVenom: Vga [0;35mgod.. [0;1;35mnuff [0;1;30msaid[0m
-[1;31m░ [0;35m▓    [0;1;30mArt HQ.Vex[0;1;36mt [0;36mD.Ra[0;1;30mve D  [0;1;37m░  [0;36m█    [0;1;30m▒ [0;34;42m▓[0m      [1;30;40mEerie: Ans[0;35mi god[0;1;35m.. [0;1;30mnuff said[0m
-[1;31m▒ [0;1;34;45m░[0m  [1;37;40m░ [0;1;30;40mReality M. [0;1;36;40mT[0;36meklor[0;1;30mdz D [0;1;37m▒  [0;1;32;46m░[0m    [1;30;40m▓ [0;34;42m▒[0m     [1;30;40mLifetime: [0;35mHere[0;1;35m''s y[0;1;30mour ansi! =D[0m
-[1;31m▓ [0;1;34;45m▒[0m  [1;37;40m▒   [0;1;30;40mEmigra D. [0;1;36;40mBl[0;36mank D   [0;1;37m▓  [0;1;32;46m▒[0m [1;30;40m░  █ [0;34;42m░[0m    [1;30;40mStalker[0;35m: So[0;1;35mul C[0;1;30montrol was great![0m
+  [35;40m▓  [0;31;40m░[0m     [1;30;40m       [0;1;36;40m  [0;36m   [0m         [36m█ [0;1;30m░  ▓ [0;34;41m▒[0m     [1;30;40m                     [0;35m    [0;1;35m [0;1;30m    [0m
+  [35m▒[0m      [1;30m         [0;1;36m   [0;36m   [0;1;30m  [0m      [36m▓    [0;1;30m▒ [0;34;41m▓[0m   [1;30;40m                     [0;35m    [0;1;35m  [0;1;30m      [0m
+  [35m▒[0m      [1;30m         [0;1;36m [0;36m    [0;1;30m   [0m      [36m▓    [0;1;30m░ [0;34;42m█[0m       [1;30;40m           [0;35m      [0;1;35m     [0;1;30m    [0m
+[1;31m░ [0;35m▓    [0;1;30m          [0;1;36m  [0;36m    [0;1;30m      [0;1;37m░  [0;36m█    [0;1;30m▒ [0;34;42m▓[0m      [1;30;40m          [0;35m     [0;1;35m   [0;1;30m         [0m
+[1;31m▒ [0;1;34;45m░[0m  [1;37;40m░ [0;1;30;40m           [0;1;36;40m [0;36m     [0;1;30m     [0;1;37m▒  [0;1;32;46m░[0m    [1;30;40m▓ [0;34;42m▒[0m     [1;30;40m          [0;35m    [0;1;35m    [0;1;30m            [0m
+[1;31m▓ [0;1;34;45m▒[0m  [1;37;40m▒   [0;1;30;40m          [0;1;36;40m  [0;36m        [0;1;37m▓  [0;1;32;46m▒[0m [1;30;40m░  █ [0;34;42m░[0m    [1;30;40m       [0;35m    [0;1;35m    [0;1;30m                 [0m
 [1;31m▀ [0;1;34;45m▓[0m [1;37;40m▀▓   [0;1;30;40mJihad D. P[0;1;36;40moi[0;36mson D   [0;1;37m█[0m▀ [1;32;46m▓[0m [1;30;40m▒ ▄▄ [0;1;30;42m [0m       [1;30;40mh[0;35mFaz[0;1;35me: T[0;1;30mhanks for the gif!  [0;1;36m▄▄▄[0;36m▄[0;1;36m▄[0m
 [1;36m [0;31m░[0;1;34;45m█[0m  [1;37;40m▓  [0;1;30;40m░[0m                    [1;37;40m█  [0;1;32;46m█[0m [1;30;40m▓ █  [0;32m▀[0m                                   [1;36m█   [0;33m▄[0m
 [33m [0;31m▒[0;1;34m▀▀ [0;1;37m█  [0;1;30m▒ [0;1;34m▀ [0;34m▀[0m     [1;34m▀ ▀[0;34m▀▀[0;1;34m▀[0;34m▀▀▀[0;1;34m▀ [0m█ [1;32m▀▀ [0;1;30m█ ▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀[1m▀[0m▀[1m▀▀▀[0m▀[1m▀▀[0m▀▀[1;30m▀▀▀▀▀▀▀▀▀▀ [0;1;36m█ [0;33m▀[0;1;30m▀[0;33m▀[0m

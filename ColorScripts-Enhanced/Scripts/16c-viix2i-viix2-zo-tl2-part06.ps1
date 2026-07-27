@@ -5,7 +5,7 @@
 # Source SHA-256: 2148104a714b8c5df53d1a5870a5665185ca21931557c3a6ab8cf0f277ff698e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ViiX2 - zO-tl2.ans by Enzo (viix2i); released in viix2i and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 213-254
 # Columns: 1-80
 
@@ -47,8 +47,4 @@ Write-Host '
  [1;30m▀[0m [1;30m▄▄[0m [1;30m▀[0m   [1;30m█[0m          [1;30;47m██[0m     [1;30m█[0;1;30;47m [0m    [1;30m▀[0m               [1;30m▀▀▀[0m   [1;30m▄[0m [1;30m▀▀▀[0m  [1;30m▀[0;1;30;47m▄[0;1;30;40m█[0m  [1;30m▀█▄[0m  [1;30m▀▄ [0m [35m▀■[0m
         [1;30m■▀▀[0m          [1;30m▒▒[0m      [1;30m▀▄[0m         [35m ░░░░ [0;37m  [0;35m [0m      [1;30m█[0m [1;30m▄[0;1;30;47m▀▀[0;1;30;40m█[0;1;30;47m▄█[0;1;30;40m██▀[0m     [1;30m█[0m
                                 [1;30m▀[0m  [1;30m▄▄[0m                  [1;30m█[0m [1;30m█[0;1;30;47m▄▄[0;1;30;40m    ■[0m
-       [35m[[0;37m [0;35m+o.[0;1;35mmartingan[0m [35m]][0;37m [0;35m] [0m         [35m [0;37m [0;1;30m▀▄[0m               [1;30m▀▀[0m   [1;30m  [0m   [1;30m  enzOmbie.vii[0m
-
-
-
-                 [1;30mFinished someday in oct.2005 at Recife, Brazil.[0m'
+       [35m [0;37m [0;35m   [0;1;35m         [0m [35m  [0;37m [0;35m  [0m         [35m [0;37m [0;1;30m▀▄[0m               [1;30m▀▀[0m   [1;30m  [0m   [1;30m              [0m'

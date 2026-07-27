@@ -5,7 +5,7 @@
 # Source SHA-256: f84f72b24d17258b02e64b6b8c00b4320234565883f2629f3bec94c43f0a0a27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PYX-HH.ANS by pyx (bamboosh); released in bmb-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: helium high
 # SAUCE Author: pyx
 # SAUCE Group: bamboosh
@@ -35,5 +35,4 @@ Write-Host '
                   [36m ▀▀▀█▄▄▄▄[0;37m [0;36m▀▀▀[0m                 [36m▀[0m          [36m▄▄[0;37m [0;36m▀[0m
                           [36m▀▀▀▀▀▀  ▄▄▄▄▄[0m
                                             [36m▀▀[0m
-[37m-----[0m
-[37mpyx@hl.telia.no [0m'
+[37m-----[0m'

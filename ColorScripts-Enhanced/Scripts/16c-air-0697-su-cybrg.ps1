@@ -5,7 +5,7 @@
 # Source SHA-256: 6696491888eb41537aa13756ce3c7001f0033af2bd9589cca3c2775aad15cf1d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SU^CYBRG.ANS by sunday (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: skateshop_thing
 # SAUCE Author: sunday
 # SAUCE Group: air
@@ -30,8 +30,8 @@ Write-Host '
 [1;30m    ∙∙∙:::::%%%%%%%$$bs,._[0m                [1;30m$$$P`   s$$[0m
         [1;30m∙∙:::%%%%%%%%$$$$$S#s,._[0m        [1;30m,d$$P[0m     [1;30m$$;[0m      [1;30m([0;1;32mskate shop[0;1;30m)[0m
            [1;30m∙∙∙:::::%%%%$$$$$$$$$$$S#g#S$$$$P[0m     [1;30ml$$[0m
-                              [1;30m``""ⁿⁿⁿⁿⁿ""`[0m      [1;30m;$$$[0m         [1;30m([0;32mstereo[0;1;30m)[0m
-                                               [1;30m,d$$$[0m         [1;30m([0;32mhennie[0;1;30m)[0m
+                              [1;30m            [0m      [1;30m    [0m         [1;30m [0;32m      [0;1;30m [0m
+                                               [1;30m     [0m         [1;30m [0;32m      [0;1;30m [0m
                                      [1;30m_.,d''    l$$$$$b,.[0m      [1;30m([0;32mwarpus[0;1;30m)[0m
                    [1;30m``""²╩4$$$$$$$$$$$$$P[0m     [1;30m,$$$$$''[0m
                            [1;30m`"²╩4$$$$$$l[0m     [1;30md$$$$$''[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: e7d65dbc748e5a2a4993775697ebbfa056bdee946420827abf134e623aabf0e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-ONE.ANS by Baxter (axf-ap-1); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -25,15 +25,11 @@ Write-Host '
 
 [37m---------middle-----------------------------------------------------------------[0m
 
-[1;35;45m░[0;35m▌[0;37mOneliner goes here of course :)[0m                                            [35m▐█[0m
+[1;35;45m░[0;35m▌[0;37m                               [0m                                            [35m▐█[0m
 
 [37m---------footer-----------------------------------------------------------------[0m
 
 [35m▀██[0;1;35;45m░░[0;35m█▄▄▄▄▄▄▄▄▄[0m       [35m▄▄▄▄▄▄▄▄▄▄[0m                                [35m▄▄▄▄▄▄▄▄▄▄▄▄▄██[0m
 [35m   ▀▀▀▀██[0;1;35;45m░░░░░░░                    ░░░░░░   ░░░░  ░░░     ░░░░░░░░░░░░[0;35m███▀▀▀▀[0m
 
-[37m--------------------------------------------------------------------------------[0m
-[37mI have to change that footer, it kinda sucks :) but anyway ..[0m
-[37mThis ansi will b used for our oneliner ppe ... so don''t use it too :) ..[0m
-
-[37mquote of the day : ''HOLD ON TIGHT'' - lambda =))[0m'
+[37m--------------------------------------------------------------------------------[0m'

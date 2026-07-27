@@ -5,7 +5,7 @@
 # Source SHA-256: 6eb0fd8c6010cb347634aabb200a22ff21c54cd683973e94732e891e65329c2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-AIF.ANS by avenger (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: art in fuck
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -37,4 +37,4 @@ Write-Host '
 [37m [0;34m▀ [0m   [34m▓▓[0m   [31m▀▌[0m         [34m▓[0;36m█[0;37m [0;34m▀▌[0m    [35;41m░[0m              [31;40m▀▌[0m           [34;40m▓[0;37;40m  [0;1;33;44m░▀[0;34m▀[0;37m  [0;1;36m░[0m        [1;34;44m░[0;34m▓[0m
       [34m░░[0m              [36;44m░[0;36;40m▓[0;37;40m  [0;34;40m░[0m    [31;40m▓[0m    [31;40m [0m                      [34;40m░[0m                [34;40m▓░[0m
                        [36;40m░[0m       [31;40m░[0m                                            [34;40m░[0;37;40m  [0;1;33;40m░[0m
-[1;33;40mart in fuck.[0m           [34m░[0m                                                   [31m░[0;32m░[0;1;32m░[0;1;33m░▓[0m'
+[1;33;40m            [0m           [34m░[0m                                                   [31m░[0;32m░[0;1;32m░[0;1;33m░▓[0m'

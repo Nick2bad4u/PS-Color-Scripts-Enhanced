@@ -5,7 +5,7 @@
 # Source SHA-256: 6c3cbe9e446d3170e476026c6d1039abd29fa66a68a06bdfabc79af4cb1cd6b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GTI-SHK2.ANS by gti; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -27,6 +27,4 @@ Write-Host '
 [1;33;47m▓▓▒▒[0;34m  [0;1;34;44m▒[0;34m▀▀░░ [0;1;33m▄[0;1;33;47m▓▓[0;1;33;40m▄[0m▄▄[34m ▀▀  [0;1;33m▄[0;34m [0;1;33;47m▓▓[0;34m ▀██[0;1;34;44m▒[0;34m▀▀░░ [0;37m▄[0;1;33m░░[0;1;33;47m░░▓▓▓▓[0m▄▄[34m ▀█[0;1;34;44m░░[0;34m▀▀ [0;37m▄░░[0;34m [0;1;34;44m░[0;34m [0;1;33;47m░░▓▓[0m▄▄[34m [0;1;34;44m▒[0;34m▀▀[0;1;34;44m▀[0;34m█▄ ▄ [0;1;33;47m▓[0m
 [1;33;47m░░░[0m▓[1;33;47m░[0;34m [0;1;34;44m░[0;34m [0;37m▄▄ [0;34m [0;1;33;47m░░[0;47m▓▓[0;40m▓▓▄▓[0;1;30;47m░[0;1;33;47m░░░▒[0;1;30;47m░░[0;1;33;47m░[0m▄▄[34m [0;1;34;44m░[0;34m [0;1;30;47m░[0m▄▄▄[1;33;47m░░[0;1;30;47m░░░░▄░░[0;1;33;47m░░[0;1;30;47m░[0m▄▄▄▓▓█[1;33;47m░░░[0;47m▓[0;40m▄▄▄██▓▓▓█[0;34;40m [0;1;34;44m░[0;34m [0;1;30;47m▓[0m▄▄▄▄▄[1;33;47m░░[0m
 ███▓█▄▄▄[1;30;47m░░▓▓[0m██[1;30;47m▀▀[0m▒▒[1;30;47m░[0m█[1;30;47m▓▓▓░░[0m██[1;30;47m▓▓[0m [1msHOCk member board[0m █[1;30;47m▀▓▓▓[0m██[1;30;47m▒▒[0m██[1;30;47m▀▀░░[0m█[1;30;47m▓▓▓[0m▄▄▄█[1;30;47m▓[0m█[1;30;47m░░[0m█[1;30;47m░░[0m
-                            ▀[1;30m▀▀[0m▀▀[1;30m▀▀[0m▀[1;30m▀[0m▀▀▀▀▀[1;30m▀[0m▀[1;30m▀[0m▀▀[1;30m▀[0m▀▀
-
-[1m                          [0m'
+                            ▀[1;30m▀▀[0m▀▀[1;30m▀▀[0m▀[1;30m▀[0m▀▀▀▀▀[1;30m▀[0m▀[1;30m▀[0m▀▀[1;30m▀[0m▀▀[0m'

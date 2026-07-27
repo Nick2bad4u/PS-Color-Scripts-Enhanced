@@ -5,7 +5,7 @@
 # Source SHA-256: ae9127af98c7e43cf1343b828270eb8ec2f100f9e4ec1181fcde60133085dd2a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MTM(TNT).ANS by Mtm (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -35,7 +35,7 @@ Write-Host '
                          [1;33m·[0m             [31m▄ [0;1;33m▄█[0;1;37m█[0;1;33m█[0;1;31m█ [0;31m▌[0m
                                         [1;31m▀ [0;1;37m▀[0;1;30m▓[0;1;33m█▄[0;1;31m▀[0m                             [31m▌[0m
 [31m▌[0m                                         [1;30m▓▌[0;1;37m▀[0;1;31m▀▄[0m                             [31m▐▌[0m
-[31m▐▌[0m       [1;30mS[0mY[1mS[0mC[1;30mRE[0mW[1m:[0mP[1;30mSY[0mC[1mH[0mO[1;30m-O[0mT[1mI[0mU[1;30mM M[0mA[1mN[0m        [1;30m▐▓    [0;31m▀[0m                             [1;31;41m░[0m
+[31m▐▌[0m       [1;30m [0m [1m [0m [1;30m  [0m [1m [0m [1;30m  [0m [1m [0m [1;30m  [0m [1m [0m [1;30m   [0m [1m [0m        [1;30m▐▓    [0;31m▀[0m                             [1;31;41m░[0m
 [1;31;40m [0;31m█▌[0m                                  [31m▄   [0;1;30m▓▌[0m                                  [31m▐[0;1;31;41m░[0m
 [1;31;40m [0;31m▐[0;1;31;41m░[0m                                  [1;31;41m  [0;31m▄[0;1;30m▓▌[0m                                   [31m▐[0;1;31;41m░[0m
 [1;31;40m  [0;31m█[0;1;31;41m░[0m                                [1;31;41m  ░░▒[0;1;31;40m▄[0m                                   [1;31;41m░[0;31m▌[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 4dcd3080f70d86a1b6d74d73ee8fcd64ad3221892d3a6c299e29f226b8dd406f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GB-WH#1.ANS by Goblin (Force); released in force-14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: My Wonderful WarHammer BBS logo
 # SAUCE Author: Goblin
 # SAUCE Group: Force
@@ -34,10 +34,6 @@ Write-Host '
 [31;40m    [0;1;33;40m▀███████████████▓▀ [0;31m▄  ■[0m     [31m▀▀[0;1;31;41m░    [0;31m▓▀[0m      [31m▀▀▓▄ [0;35m▓[0;35;45m    [0;35;40m▓   ░   ▄ [0;31;40m▀[0m
 [1;30;40m░  [0;31m░   [0;1;33m▀▀▀█████▓▀▀▀ [0;31m▄[0m     [31m▓ ░▒[0;1;31mgb[0;31m▒░ ▓[0;31;41m [0;31;40m▀▀    [0;1;30;40m░░[0m      [31m■ [0;35m▀▀[0;35;45m    [0;35;40m▄  ▄▄■[0m           [1;30;40m░░[0m
         [31m▀[0m         [31m░[0m        [31m▄[0m      [31m▄▀[0m                     [35m▀▀▀▀[0m
-                             [31m▀  ▀[0m       [1;37mWarHammer BBS [0;1;30m- [0;1;37mWhere the happy folk go[0m
+                             [31m▀  ▀[0m       [1;37m              [0;1;30m  [0;1;37m                       [0m
 
-[1;30m----CUT-AT-THIS-LINE--------------------8<---------------------8<-----------[0m
-                                      Sysop∙ Legend/Force^Xtatic^Deste
-Thanks to Chaotic Prisoner for        Co-sys∙ Goblin/Force^Xtatic
- his cool BOH#3 ANSi tutorial         Phone∙ +612-9879-6261
-(Recognize the colour scheme? :) )    Affils∙ Too many to list in a 25 liner :)[0m'
+[1;30m----CUT-AT-THIS-LINE--------------------8<---------------------8<-----------[0m'

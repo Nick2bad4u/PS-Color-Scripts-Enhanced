@@ -5,7 +5,7 @@
 # Source SHA-256: f4bce939a3fc9c79f52e14e9e6f45acb9a37e2de6e44565adff5cd2b2f83d424
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-ANSI.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-13
 # Columns: 1-80
 
@@ -19,7 +19,4 @@ Write-Host '
 [35m½[0;1;35m½½½½½½½[0;35mWw.[0;1;34m`4$[0;34m$.[0;35m`½[0;1;34m,$$[0;34m7''[0;35m½[0;1;34m `7$$[0;34m$[0;1;35m½[0;1;34m $[0;34m$7''[0;35ms.[0;1;37m [0;1;34m$$$[0;34m7''[0;35m;[0;1;34m,s$[0;34m$$[0;35m`''[0;1;34m$$[0;34m$''[0;37m [0;35m½[0;1;35m½½½½[0;35m½½[0;1;35m½½½½½[0;35m½½[0;1;35m½½[0;35m½7''[0m
 [35m½[0;1;35m½½½½½½½½[0;35m½Xl[0;1;37m [0;1;34m`$$[0;34mss,[0;1;34m$''[0;1;37m [0;35m½½½[0;1;37m [0;1;34m`$²[0;34m$[0;1;34m  $[0;34m$''[0;1;37m [0;35m½½[0;1;37m [0;1;34m$S[0;34mS$s[0;1;34ms$$[0;34mSY''[0;1;34m.s$[0;34m$''[0;1;34m [0m [35m½½[0;1;35m½½½½½[0;35m½[0;1;35m½½½[0;35m½½[0;1;35m½½[0;35m½''[0;1;35m [0m
 [1;35m [0;35m`4½[0;1;35m½½½½½½[0;35m½½S.[0;1;34m`~~²"''[0m [35mOh½[0;1;35m½½½[0;35ms,.__ .sH[0;1;35m½½[0;35mts.[0m   [1;35m..,,,a[0;1;37;45ma[0;35meeyy½½½½½½[0;1;35m½½½½½[0;35m½[0;1;35m½½½[0;35m½[0;1;35m½½[0m
-   [35m`7¼[0;1;35m½½½½½½[0;1;35;45m½[0;1;37;45m½[0;1;35;45m½[0;1;35;40m½½½½½½``²²"''½½½[0;35m½½½½½½½½½½½½½½½[0;1;35m½½½½½½½½½½½½½½½½½½½½½[0;35m½[0;1;35m½½½½[0;35m½[0;1;35m½½[0m
-
-
-[1mAnsi menu header.  Use it if you like, I''m not.[0m'
+   [35m`7¼[0;1;35m½½½½½½[0;1;35;45m½[0;1;37;45m½[0;1;35;45m½[0;1;35;40m½½½½½½``²²"''½½½[0;35m½½½½½½½½½½½½½½½[0;1;35m½½½½½½½½½½½½½½½½½½½½½[0;35m½[0;1;35m½½½½[0;35m½[0;1;35m½½[0m'

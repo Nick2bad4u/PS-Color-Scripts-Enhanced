@@ -5,7 +5,7 @@
 # Source SHA-256: 1af322b87fc50f418d2663c835786fa5c29b51c74d1cc3e85e066115b7e2f4f1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HS-VIO-X.ANS by HellSpawn (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Violator-X
 # SAUCE Author: HellSpawn
 # SAUCE Group: Lapse
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-                             [1;32;42m█▓▒[0m   [32mIf you would like an ansi by HellSpawn    [0;1;32;42m█▓▒[0m
-  [32m░[0m                          [1;32;42m▓▒░[0m   [32mcontact him on Aeon Flux (8oi)298-44o9    [0;1;32;42m▓▒░[0m
-  [32m▒[0m                          [1;32;42m▒░[0;1;30;42m░[0m   [32mor your local SlimeNet Node[0m               [1;32;42m▒░[0;1;30;42m░[0m
+                             [1;32;42m█▓▒[0m   [32m                                          [0;1;32;42m█▓▒[0m
+  [32m░[0m                          [1;32;42m▓▒░[0m   [32m                                          [0;1;32;42m▓▒░[0m
+  [32m▒[0m                          [1;32;42m▒░[0;1;30;42m░[0m   [32m                           [0m               [1;32;42m▒░[0;1;30;42m░[0m
   [32m▓[0m              [32m░[0m           [1;32;42m░[0;1;30;42m░▒[0m         [32m$$Prices Negotiable$$[0m               [1;32;42m░[0;1;30;42m░▒[0m
   [32m█[0m                          [1;30;42m░▒▓[0m                                             [1;30;42m▒▓▓[0m
  [32m▐[0;1;32;42m▄[0;32m▌[0m             [32m░[0m           [1;30;42m▒▓██[0;1;30;40m▄▄▄▄▄▄▄▄ ▄  ▄    ▄[0m     [1;30;40m▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;42m██▓█[0m

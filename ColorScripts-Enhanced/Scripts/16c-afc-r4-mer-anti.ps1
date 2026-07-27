@@ -5,7 +5,7 @@
 # Source SHA-256: 2e395b70521685a14c7aac2be5a5dca12a02e021be7c969f3c4d823ce459a22d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MER-ANTI.ANS by Mercer (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -47,12 +47,12 @@ Write-Host '
 [1;32m██████████████████████████████████████████████████▄[0m▀[47m [0;1;47mα∩s¡ ßµ M≡ΓC≡Γ [0m▀[1;32m▄[0;1;32;47m██████████[0m
 [1;32;40m████████████████████████████████████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄████████████[0m
 
-[1;32;40m [0;1;37;40mY[0;1;36;40mO[0;1;34;40mU [0;1;37;40mW[0;1;36;40mAN[0;1;34;40mT [0;1;37;40mT[0;1;36;40mHI[0;1;34;40mS [0;1;37;40mG[0;1;36;40mU[0;1;34;40mY [0;1;37;40mT[0;1;36;40mO [0;1;37;40mANT[0;1;36;40mI-FRE[0;1;34;40mEZE [0;1;37;40mY[0;1;36;40mOU[0;1;34;40mR [0;1;37;40mREFRI[0;1;36;40mDGERA[0;1;34;40mTOR? [0;1;37;40mN[0;1;36;40mO[0;1;34;40m? [0;1;37;40mT[0;1;36;40mHE[0;1;34;40mN [0;1;37;40mC[0;1;36;40mAL[0;1;34;40mL [0;1;37;40mQU[0;1;36;40mICK[0;1;34;40mLY [0;1;37;40mT[0;1;36;40mO[0m
+[1;32;40m [0;1;37;40m [0;1;36;40m [0;1;34;40m  [0;1;37;40m [0;1;36;40m  [0;1;34;40m  [0;1;37;40m [0;1;36;40m  [0;1;34;40m  [0;1;37;40m [0;1;36;40m [0;1;34;40m  [0;1;37;40m [0;1;36;40m  [0;1;37;40m   [0;1;36;40m     [0;1;34;40m    [0;1;37;40m [0;1;36;40m  [0;1;34;40m  [0;1;37;40m     [0;1;36;40m     [0;1;34;40m     [0;1;37;40m [0;1;36;40m [0;1;34;40m  [0;1;37;40m [0;1;36;40m  [0;1;34;40m  [0;1;37;40m [0;1;36;40m  [0;1;34;40m  [0;1;37;40m  [0;1;36;40m   [0;1;34;40m   [0;1;37;40m [0;1;36;40m [0m
 
 [36m▐█▌ █▌ █ ███ █[0m     [36m███ ██▌ ███ ███ ███ ███ [0;34m·∙■ (90) 2258936[0m
 [1;37;46m░[0m [1;37;46m░[0m [1;37;46m░░[0;36m▌[0;1;37;46m░[0m  [1;37;46m░[0;36m▐ [0;1;37;46m░[0m     [1;37;46m░[0m   [1;37;46m░[0m [1;37;46m░[0m [1;37;46m░[0m [36m▐ [0;1;37;46m░[0m    [36m▐[0;1;37;46m░[0m [1;37;46m░[0m   [1;30;40m·∙■ Open daily 22-07[0m
 [1;37;46m▒▒▒[0m [1;37;46m▒[0;36m▐[0;1;37;46m▒▒[0m  [1;37;46m▒[0;1;36;40m▐ [0;1;37;46m▒[0m [1;37;46m▒▒▒[0m [1;37;46m▒▒[0m  [1;37;46m▒▒[0;36m▌ [0;1;37;46m▒▒[0;1;36;40m· [0;1;37;46m▒▒[0m  [36m▐[0;1;37;46m▒[0;36m▌ [0;1;37;46m▒▒[0m  [36m·∙■ 2400 Bps[0m
 [1;37;46m▓[0m [1;37;46m▓[0m [1;37;46m▓[0m [36m▐[0;1;37;46m▓[0m  [1;37;46m▓[0;1;36;40m· [0;1;37;46m▓[0m   [1;36;40m▌ [0;1;37;46m▓[0m   [1;37;46m▓[0m [1;37;46m▓[0m [1;37;46m▓[0m   [1;37;46m▓[0m   [1;37;46m▓[0;36m▌  [0;1;37;46m▓[0m   [1;34;40m·∙■ SysOp: Midge[0m
 [1;37;46m█[0m [1;37;46m█[0m [1;37;46m█[0m  [1;37;46m█[0m  [1;37;46m█[0m  [1;37;46m█[0m   [1;37;40m▌ [0;1;37;46m█[0m   [1;37;46m█[0m [1;37;46m█[0m [1;37;46m███[0m [1;37;46m███[0m [1;37;46m███[0m [1;37;46m███[0m [1;36;40m·∙■ InvaNet[0m
-[1;36;40m  [0;1;37;40m▐[0m                                      [1;37;40m▌ [0m·∙■ Running under Maximus CBCS v2.0
-                                         [1m∙ ·∙■ Lots of Metallica MODules[0m'
+[1;36;40m  [0;1;37;40m▐[0m                                      [1;37;40m▌ [0m  ■                                
+                                         [1m    ■                          [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e3477ba14ed865181781eb34ca0992b503aeebce9fa86adae28e56d142770e8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DX-ASP.ANS by Drax (karma-05); released in karma-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -42,8 +42,4 @@ Write-Host '
 [32;40m''*  `*$$`  [0m      [32;40m  `$$*`  *''''*  `*$$` [0;37;40m [0m           [37;40m [0m                  [37;40m [0;32;40m `$$*`  *''[0m
 [32;40m   [0m    [32;40m`   [0;37;40m [0m      [32;40m  `[0m    [32;40m      [0m    [32;40m`  [0m             [37;40m [0m                  [32;40m  `[0m    [37;40m   [0m
            [37;40m [0m
-[37;40m--------------------------------------------------------------------------------[0m
-[37;40mOkay the thing at the top is a picture of a comic character, he is like laying[0m
-[37;40mon his back, the picture is of his face, the nose is pointing up, from the left:[0m
-[37;40mhis chin, then his nose, then his eye, then his blue mask to the right, I hope [0m
-[37;40myou can see it =) .. This is yet another ascii by Drax.[0m'
+[37;40m--------------------------------------------------------------------------------[0m'

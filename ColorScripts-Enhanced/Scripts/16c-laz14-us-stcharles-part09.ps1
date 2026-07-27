@@ -5,7 +5,7 @@
 # Source SHA-256: 69e08ea6a02160ddf9f7ed2870c2c9d31f03daa5afd2bb520bca5467b6519f71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-stcharles.ans by Warpus + Mel Farr Suppastar (Lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: St Charles Avenue
 # SAUCE Author: warpus + MFS
 # SAUCE Group: Lazarus
@@ -39,9 +39,9 @@ Write-Host '
                                                                           [1;30m░░░[0m
 
 
-        [1;30mBBS: MindFreeak  SYSOP: Criss Angel 0-3day Magick #: 1(504)MIND-FRK[0m
-        [1;30m2x 16.8k Ringdown Nodes  ■ NUP:crissangel   ■ Mistigris Distro Site[0m
-        [1;30mSauna World Headquarters ■[0m  [1;30mFuel World Headquarters  ■  iCE Euro HQ[0m
+        [1;30m                                                                   [0m
+        [1;30m                         ■                  ■                      [0m
+        [1;30m                         ■[0m  [1;30m                         ■             [0m
 
 
 

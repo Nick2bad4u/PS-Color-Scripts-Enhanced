@@ -5,7 +5,7 @@
 # Source SHA-256: 68182e4123d4c5e5155e9e61d69e97d06b34fe899e65c8e581ff1d39725ea646
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ_LOGOU.ANS by Fastjack (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logout
 # SAUCE Author: Fastjack
 # SAUCE Group: boil
@@ -27,7 +27,7 @@ Write-Host '
    [31;40m▄█▓▓▄[0;1;31;41m░[0;31m▄[0;34;41m░[0;31;40m▄[0;1;31;41m°[0;31m ▀[0;1;31;41m░[0;31m▓▓[0;34;41m░[0;31;40m▀▀▀▀░░  ▀░ ▀▀▀▀▀[0;1;31;41m░░░[0;31m▓▀▀▀░░[0m    [31m▄ ▀▀▀▀▀▀░░▀▀[0;1;31;41m░[0;34;41m░[0;1;31;41m░░[0;31m▀  [0;1;31;41m°[0;31m▀ ▄  [0;1;31;41m░[0;1;37;41m░[0;34;41m░[0;31;40m ▄[0m
 [37;40m [0;31;40m▄▄[0;1;31;41m°[0;31m ▄▀[0;1;31;41m▐▓░[0;31m▀[0;37m [0;31m▄[0;37m [0;31m░░[0;1;37;41m░[0m  [31m▀[0m      [31m▀[0m   [31m▄[0m                                 [31m▄[0m    [31m    [0;1;30m [0;1;31;41m░[0m
 [1;31;41m░[0;1;37;41m░[0;34;41m░[0m     [1;31;41m░[0;31m▌[0m     [31m▐[0;1;37;41m▒[0;31m▌[0m                                                        [31m░[0m
-[31m ▀[0m      [31m░[0;37m [0;31m▀[0m     [31m▀[0;37m [0;33m░ command here  [0;1;33;43m command here [0;33m ░command here[0m
+[31m ▀[0m      [31m░[0;37m [0;31m▀[0m     [31m▀[0;37m [0;33m░               [0;1;33;43m              [0;33m ░            [0m
 
         [31m░[0m
        [31m ▓ [0m                                                                [31m░[0m
@@ -41,4 +41,4 @@ Write-Host '
 
 
 [1;30m----------------░------------------▒▒-----------------------░--------(request)--[0m
-[1;30mthiz''s a[0m [1;30m"logout" font phor hando... I 4got the ? :) sorry.[0m [1;30mfastjack^fdn.boil[0m  [1;30m░[0m'
+[1;30m        [0m [1;30m                                                  [0m [1;30m                 [0m  [1;30m░[0m'

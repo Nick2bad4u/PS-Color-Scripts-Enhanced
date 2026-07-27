@@ -5,7 +5,7 @@
 # Source SHA-256: f93efd8d55ce0cd00187e05231ef4b96680473e12a9ac70544c41bb455df5dfa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LR!-MNU.ANS by late riser ((the 5th..)); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: menu
 # SAUCE Author: late riser
 # SAUCE Group: (the 5th..)
@@ -29,13 +29,12 @@ Write-Host '
 [34m█████████████████▀▀▀▀ [0;1;37m▄▄▄▄▄▄▄█▀▀▀▀▀▀▀[0;34m                                [0;1;37m▀█▄[0;34m [0;1;33m▐[0;1;33;43m▓[0;1;33;40m ▌▐▌[0;34m▐[0m
 [1;37m▄[0;34m ▀▀▀▀▀▀▀▀▀ [0;1;37m▄▄▄▄▄▄█▀▀▀▀[0;34m                  [0;36m %[0;1;36mR[0;36m%[0;34m [0;37mread mails[0;34m        [0m       [1;30m  [0;1;37m [0;1;33m▀▄[0;1;33;43m▓[0;1;33;47m▀▀[0;1;30;47m▓[0m
 [1;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m             [36m%[0;1;36mF[0;36m%[0;37m view files  [0;36m%[0;1;36mS[0;36m%[0;37m status[0m                    [1;30m  [0m ▄█[1;30;47m▒[0m██
-  [36m%[0;1;36mA[0;36m%[0;37m alter flagged files[0;36m %[0;1;36mG[0;36m%[0;37m say g''bye[0m   [36m%[0;1;36mU[0;36m%[0;37m upload warez[0m              [32m▄▌[0;37m▐[0;1;30;47m▒[0m████
-  [36m%[0;1;36mB[0;36m%[0;37m view bulletins[0m      [36m%[0;1;36mJ[0;36m%[0;37m join conf[0m   [36m%[0;1;36mW[0;36m%[0;37m change config[0m           [32m ▐▀[0;37m █████[0;1;30;47m▓[0m
-  [36m%[0;1;36mC[0;36m%[0;37m comment 2 sysop[0m     [36m%[0;1;36mN[0;36m%[0;37m new files[0m   [36m%[0;1;36mZ[0;36m%[0;37m zippy search[0m             [32m█[0;37m █[0;1;30;47m░[0m██[1;30;47m░[0m██
-  [36m%[0;1;36mD[0;36m%[0;37m download ql warez[0m   [36m%[0;1;36mO[0;36m%[0;37m page me[0m     [36m%[0;1;36mReq[0;36m%[0;37m request ascii or ansi[0;32m ▐▌[0;37m▐█████[0;1;30;47m▒[0m█
+  [36m [0;1;36m [0;36m [0;37m                    [0;36m  [0;1;36m [0;36m [0;37m          [0m   [36m [0;1;36m [0;36m [0;37m             [0m              [32m▄▌[0;37m▐[0;1;30;47m▒[0m████
+  [36m [0;1;36m [0;36m [0;37m               [0m      [36m [0;1;36m [0;36m [0;37m          [0m   [36m [0;1;36m [0;36m [0;37m              [0m           [32m ▐▀[0;37m █████[0;1;30;47m▓[0m
+  [36m [0;1;36m [0;36m [0;37m                [0m     [36m [0;1;36m [0;36m [0;37m          [0m   [36m [0;1;36m [0;36m [0;37m             [0m             [32m█[0;37m █[0;1;30;47m░[0m██[1;30;47m░[0m██
+  [36m [0;1;36m [0;36m [0;37m                  [0m   [36m [0;1;36m [0;36m [0;37m        [0m     [36m [0;1;36m   [0;36m [0;37m                      [0;32m ▐▌[0;37m▐█████[0;1;30;47m▒[0m█
   [36m%[0;1;36mE[0;36m%[0;37m enter mail[0m   [32m▄▄▄▄▄▄▄▄▄▄[0;1;37m [0m            [36m%[0;1;36mWho[0;36m%[0;37m who door   [0;32m▄▄▄▄▄▄█▀▀▀▀▀[0;33m [0;37m█[0;1;30;47m░[0m█[1;30;47m▓[0m██▀▀
 [32m▄▄▄▄▄▄▄▄▄▄▄▄█▀▀▀▀▀▀▀[0;37m [0;33m▄▄▄▄▄▄[0;37m [0;32m▀▀▀▀▀▀▀▀▀▀█▄▄▄▄▄▄▄▄▄▄█▀▀▀▀▀▀▀▀▀▀[0;37m [0;33m▄▄▄▄▄▄[0;37;43m░▒[0;33;40m▄█▄▄▄▄▄▄▄▄█[0m
 [33;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄███████▀▀▀▀▀▀▀▀████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄████████████▀▀▀▀▀▀▀▀▀▀███████[0m
 [33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                      ▀▀▀[0m
-[37;40m------------------------------------------------------------[ Late riser ]------[0m
-[37;40mLittle menu .... use it ...[0m'
+[37;40m------------------------------------------------------------[ Late riser ]------[0m'

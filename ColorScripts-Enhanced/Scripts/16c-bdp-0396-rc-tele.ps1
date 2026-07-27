@@ -5,7 +5,7 @@
 # Source SHA-256: df4a2b07ef40ac83bd59faa27c70cfddf5217867ebfb2f16400e73e9422026bc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RC(TELE).ANS by 2_ \~paradise\ ^2 (.boogiE%Woogie.); released in bdp-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .telepathy.
 # SAUCE Author: 2_ \~paradise\ ^2
 # SAUCE Group: .boogiE%Woogie.
@@ -17,7 +17,7 @@
 Write-Host '
 
 
-    [1;34m.(telepathy).[0m [1;34m.[0m     [1;34m  [0m                                             [1;34m·▄[0m
+    [1;34m             [0m [1;34m [0m     [1;34m  [0m                                             [1;34m ▄[0m
                      [1;34m▀[0m              [1;34m░[0m        [1;34m..[0m                          [1;34m■[0m
      [1;34m■▀[0m                   [1;34m▀[0m                               [1;34m▄■ [0m [1;34m▀■▄▀[0m
    [1;34m▄▀[0m    [1;34m  [0m    [1;34m▄▓░[0m [1;34m░[0m [1;34m▀■▄▀[0m      [1;34m▄■▄[0m  [1;34m░[0m [1;34m▄■▀[0m [1;34m▀■ [0m   [1;34m▄■[0m  [1;34m■▄[0m  [1;34m▐▓[0m      [1;34;46m▓[0;1;34;40m▌[0m       [1;34m▄■[0m  [1;34m▄[0m
@@ -28,9 +28,4 @@ Write-Host '
 [1;34m░▒▓▌[0m     [1;34m▐[0;1;34;46m▓[0m  [1;34m▀■▄ ▄▓▀[0m  [1;34m▀■▄▄ ▀■░[0m [1;34m▀■▄[0m [1;34m■▀▄[0m    [1;34m▀▀[0m [1;34m▄[0m      [1;34m ▐[0;1;34;46m▓[0m [1;34m▓▄[0m   [1;34m▐█ ▀█▌[0m  [1;34m▀▓▀[0m      [1;34m▐▌[0m
    [1;34m▀[0m [1;34m▄[0m  [1;34m■▀[0m        [1;34m▀  ░[0m       [1;34m▀[0m     [1;34m ▐▌[0m        [1;34m▀■ ▄[0m  [1;34m▄▀■▄[0m [1;34m ▀■▄▀  [0m [1;34m ▀[0m    [1;34m▀▄[0m   [1;34m▄■▀[0m
                 [1;34m·▄■[0m                [1;34m▀▓▀■▄[0m                   [1;34m.rC(bdp).[0m [1;34m.[0m [1;34m▀▓▀[0m [1;34m [0m
-                                   [1;34m░▀[0m     [1;34m▀[0m                    [1;34m  ░   [0m
-                                                             [1;34m   [0m
-
-
--<fuck>-------------------------------------------------------------------------
- well zarkoff..i hope you don''t find tha font too messy:)..[0m'
+                                   [1;34m░▀[0m     [1;34m▀[0m                    [1;34m  ░   [0m'

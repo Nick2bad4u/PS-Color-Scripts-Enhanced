@@ -5,7 +5,7 @@
 # Source SHA-256: 47cfa6d23fbc0636fbe3ff839371e5fc9136cf7e2bab8831eda763517be81684
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-ICE01.ANS by Mr.Wrong (Fokus fonting); released in fokus02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iCE advertisements
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Fokus fonting
@@ -36,5 +36,5 @@ Write-Host '
 [37m [0;31m [0;34m▄[0;1;34m▄[0;31m [0;34m▐[0;1;34m▒[0;1;35;44m░[0;1;34;44m▒▓[0;1;34;47m▓[0;1;34;44m▌[0;34m▌▐▌[0;31m [0;37m▒[0;1;37m▒[0m▒▒[1;30m▓▓[0;1;30;47m▓▓[0;1;30;40m▄[0;34m░[0;1;34m░[0;34m▀[0;1;34m▀[0;34m▄▀[0;1;34m▀[0;1;34;44m▀█▓[0;1;33;44m░░[0;1;34;44m▄█▄[0;34m▄▀[0;37m░  [0;1;30m▄▄▓▓[0;31m [0;34m░[0;35m░[0;31m [0;1;30;47m▓[0;1;30;40m▄ [0;34m▒▀[0;1;34m▀[0;34m▄▀[0;1;34;44m▀███[0;1;34;40m█▓▓▓[0;1;34;44m▄[0;34m▄▀[0;31m [0;1;30m▄▄▓[0;33m [0m
 [37m [0;1;30m▄▄[0m [34m▀[0;1;34m▀[0;34m▄[0;1;35m░[0;34m▀[0;1;34;44m▀[0;1;33;44m░░[0;1;34;44m▄[0;34m▄[0;1;34;44m▄[0;34m▄[0;37m [0;1;30m▀[0m▀[1;30m▀▄▄▀▀[0m  [34m░[0;37m [0;1;30m▄[0m [34m▀[0;31m  [0;34m▀[0;1;34;44m▒[0;1;34;40m▀[0;1;33;40m░[0;31m [0;34m▄▀[0;37m [0;1;30m▄▄[0;1;30;47m▀[0;1;30;40m█▄[0m▒▒▒[1;30m▄▄▄▄[0;1;30;47m▄[0;1;30;40m█▓[0;34m░[0;1;30m█▄[0m [34m▀[0;31m [0;34m▀[0;1;34;44m▀▓[0;1;34;40m█[0;1;34;44m▀[0;1;34;40m▀[0;1;34;44m▀[0;34m▀[0;37m  [0;1;30m▀[0;1;30;47m▓▓▄[0;1;30;40m▀[0m
 [1;30m▀[0;1;30;47m▄▓[0;1;30;40m▀▀[0m  [35m░[0;34m▀[0;1;34m▀[0;34m▄[0;1;34;44m▓▒[0;34m▄▀[0;31m [0;34m▀[0;31m [0m    [1;30m▀[0;33m  [0m      [34m▀[0;31m  [0;1;34m░[0;31m  [0;34m▄[0;31m [0;33m    [0;1;30m▀▀[0m [1;30m▄▄█▀▀▀[0m     [1;30m▀▄[0m  [34m▀[0;31m [0;34m▐[0;1;34;44m▒[0;34m▀[0;31m [0;34m▄[0;31m [0m   [1;30m▀[0m░░
-  ░[1;30m▀[0m   [34m░[0m   [1;34m▒[0;34m▀▄ [0;1;35msupport[0m [1;30m▀[0m   [1;35myour[0m   [34m░[0;1;35mlocal[0m  [35mi[0;1;35mC[0;1;33mE[0;1;30m▀[0m   [1;35madvertisments[0m [34m▀[0;1;34m░[0m    [1;30mMr[0;35m.[0;1;30mWrong[0m
+  ░[1;30m▀[0m   [34m░[0m   [1;34m▒[0;34m▀▄ [0;1;35m       [0m [1;30m▀[0m   [1;35m    [0m   [34m░[0;1;35m     [0m  [35m [0;1;35m [0;1;33m [0;1;30m▀[0m   [1;35m             [0m [34m▀[0;1;34m░[0m    [1;30m  [0;35m [0;1;30m     [0m
     [1;30m▀[0m      [1;34m░[0m  [34m▄ [0m         [1;35m [0m          [1;35m [0m                           [34m░[0m     [35m([0;1;30mFokus[0;35m)[0m'

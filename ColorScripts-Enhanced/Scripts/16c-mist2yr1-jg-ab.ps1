@@ -5,7 +5,7 @@
 # Source SHA-256: b2b13407d00ea4a5258dc3c2f4692ffbdb03a7aa84130bbc32cc2715c39e6961
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JG-AB.ANS by Jughead (MiSTiGRiS); released in mist2yr1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Abraxas
 # SAUCE Author: Jughead
 # SAUCE Group: MiSTiGRiS
@@ -51,4 +51,4 @@ Write-Host '
 [1;30;40mjughead[0;1;34;40m▀▀▀▀▀▀▀▀▀▀[0m   [1;36m▄▄███[0;1;36;44m▓▓[0;1;34;40m▀▒▀▀[0m            [1;34m▀▀▒▒▀▀▀▀▀▀███[0m [1;32m  [0m   [1;34m▀▓█[0m [1m▄▄▄▄▄[0;1;47m▓▓[0;1;44m▓▓[0m▀▀[1;34m  [0m
 [1;30mmistigris      [0;1;36;46m▒▓▓[0;1;37;46m█[0;1;36;40m█[0;1;37;47m▓[0;1;37;40m█[0;1;36;40m▀▀▀[0;1;32;40m [0;31m▄[0;1;32m [0;34m░[0;1;32m  [0m [1;32m  [0m [1;30mabraxas[0m  [1;32m [0;1;34m░░[0;1;32m    [0m [1;34m█[0;1;34;42m▓▓[0m [1;32m   [0m       [1;47m▓[0;1;40m█[0;1;33;40m██[0;1;34;40m       [0m
 [1;30m            [0;1;37m      [0m     [31m▐██▌[0;1;32m [0;34m [0;1;32m   [0m [1mop: [0;1;33me[0;1;37mverlast[0;1;32m     [0m [1;34m▀██[0m  [1;32m [0m [1m                     [0m
-                        [31m▓█[0;37m  [0;1;33ma[0;1;37mcid ascii head[0m [1mquarters[0m'
+                        [31m▓█[0;37m  [0;1;33m [0;1;37m              [0m [1m        [0m'

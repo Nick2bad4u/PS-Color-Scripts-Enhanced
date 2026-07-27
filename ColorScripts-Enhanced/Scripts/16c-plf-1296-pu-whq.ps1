@@ -5,7 +5,7 @@
 # Source SHA-256: b08ca31845fdd81cc9c1f72b65710070b694d08dc71fd50d2acca7600023402a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PU-WHQ.ANS by puppiluppan (poffelipoff); released in plf_1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: poffelipoff whq
 # SAUCE Author: puppiluppan
 # SAUCE Group: poffelipoff
@@ -25,13 +25,13 @@ Write-Host '
         [34m▐[0;1;34;44m▒[0m   [1;34m█[0m    [1;34m▄[0;1;34;44m▓[0;34m [0;1;34m█[0;34m▀▀[0m   [1;34m█[0;34m▀▀   [0;1;34m█▀[0;34m▀  ▐[0;1;34;44m▒[0;34m▌[0m     [1;34;44m▓[0;34m  ▐[0;1;34;44m▒[0m   [1;34;44m▓[0m    [34m▄[0;1;34;44m▓[0;34m [0;1;34;44m▒[0;34m▀▀[0m   [1;34m█[0;34m▀[0;1;34;44m▒[0m    [31m [0m
        [1;34m▄[0;1;34;44m▓▒[0;1;34;40m▌[0;34m   [0;1;34m▀█▄▄▀[0;34m [0;1;34m▄█[0;34m▌[0m   [1;34m▐▌[0m    [1;34;44m▒▓[0;1;34;40m▄▄█[0;34m [0;1;34;44m▓[0;34m▌[0;1;34m▀▄▄█[0;34m [0;1;34m▐█▄▄[0;1;34;44m▓▒[0;34m▌   [0;1;34m▀█▄▄▀[0;34m [0;1;34m▐▌[0m    [1;34m▐▌[0m      [31m [0m
    [1;33m  [0m                                                                      [31m [0m
-      [1;37mthis board is poffelipoff world head quarter in 1996[0m [1m- puppiluppan.[0m
+      [1;37m                                                    [0m [1m              [0m
 [31m   [0;37m  [0;31m▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄[0;1;37;41m [0;31m▄▄▄▄▄▄▄█▄▄▄▄▄▄▓▄▄▄▄▄[0;1;37m [0;31m▄▄▄▄▓▄▄▄▄▄[0;1;37;41m [0;31m▄▄[0;37m [0;31m [0m
 [37m  [0;31m▄[0;1;31;41m▄▄█▀▀▀[0;31;41m████████[0;1;31;41m▀[0;31;41m█[0;1;31;41m▀▀[0;31;41m█[0;1;31;41m▀▀▓▀[0;31;41m█[0;1;31;41m▀▀[0;31;41m█[0;1;31;41m▀[0;1;30;41m [0;1;31;41m ▀    [0;31;41m██████████████████████████████████[0;1;31;41m▄[0;31m▓[0;31;41m██[0;31;40m▄[0m
 [37;40m [0;31;40m█[0;1;31;41m██[0;1;30;41m [0;31m██[0;1;31;41mpu![0;31m███████████████████████████████████████████[0;1;31;41m░[0;31m████████████████████[0;1;31;41m▀█▄[0;31m█[0m
 [31m▐[0;1;31;41m▐█░[0;31m█████████[0;1;31;41m..poffelipoff!?..[0;41m [0;31;40m███████[0;1;31;41m..what a hell?!.. [0;31m████████████████████[0;1;31;41m█▌[0;31m█[0m
 [31m▐[0;1;31;41m▐▌[0;31;41m█[0;1;30;41m [0;31m████████████████████[0;37;41m      [0;31;40m████████████████████[0;37;41m  [0;31;40m██████████[0;1;31;41m..whq?1..[0;31m████[0;1;31;41m▐▓[0;31m█[0m
-[31m▐[0;1;31;41m▐█[0;31;41m█[0;1;30;41m [0;31m████[0;1;31;41m..art?!..[0;31m███████[0;1;31;41m▄▓▄[0;41m   [0;31;40m███████████[0;1;31;41m..no shit?!..[0;31m███████████████████[0;37;41m  [0;1;31;41m█▌[0;31m█[0m
+[31m▐[0;1;31;41m▐█[0;31;41m█[0;1;30;41m [0;31m████[0;1;31;41m         [0;31m███████[0;1;31;41m▄▓▄[0;41m   [0;31;40m███████████[0;1;31;41m             [0;31m███████████████████[0;37;41m  [0;1;31;41m█▌[0;31m█[0m
 [37m [0;1;31;41m░▀▄[0;1;30;41m [0;31m█████████████████████[0;1;31;41m▀[0;31m███████████████████████████████████████████████[0;1;31;41m▄██▌[0;31m▀[0m
 [37m  [0;31m▀[0;31;41m█[0;1;31;41m▀[0;31;41m██[0;1;31;41m▄[0;31m█[0;1;31;41m▄[0;31;41m████[0;31;40m█[0;31;41m███████████[0;1;31;41m▄[0;31;41m█[0;31;40m██[0;1;37;41m   [0;31m███████████[0;1;31;41m▄[0;31;41m█[0;1;31;41m▄▄▄[0;31;41m█[0;1;31;41m▄[0;31;41m█[0;1;31;41m▄[0;31;41m███████[0;31;40m▓[0;31;41m███[0;1;31;41m░[0;31;41m█[0;1;31;41m▄ ▓▄▄▄██▀▀[0;31m▀▓[0m
       [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

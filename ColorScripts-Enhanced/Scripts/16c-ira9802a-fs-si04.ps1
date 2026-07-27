@@ -5,7 +5,7 @@
 # Source SHA-256: a5ff6e9bf78e97f586806f0d60c56e68517f408b7dee4c058e2a5838c0d66c2d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-SI04.ANS by flying squirrel (irato); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dourze
 # SAUCE Author: flying squirrel
 # SAUCE Group: irato
@@ -31,7 +31,7 @@ Write-Host '
              [34m [0;1;34;44m █▓▄[0;34m▄[0;37m▀▀[0;1;30;47m ▀▀▓▓▀▀▀[0m▀[34m▄[0;1;34;44m▄[0;34m▄[0;37m▀▀[0;1;30;47m▀▀[0m▀▀[1;30;47m▀▀▀▀▀▀▀[0m▀▀▄█[1;30;47m▀▀▀▀[0m▀ ▀[1;30;47m▀[0m▓▓[1;30;47m▀▀[0m▀ [35m [0m
              [34m█[0;1;34;44m▒██▓▒▄▄[0;34m▄▄▄▄▄▄▄▄[0;1;34;44m░▒[0;34m▀▀▀▀[0;1;33m [0m [1;33mm[0;1;37m [0;1;30m  [0;1;37m [0;1;33me[0;1;30m   [0;1;37m [0;1;33mn[0;1;37m [0;1;30m  [0;1;37m [0;1;33mu[0;1;37m [0;1;30m  [0;1;37m [0;1;33m.[0m [1;30m▄▄[0m
              [34m█[0;1;34;44m▀▀▀[0;34m▓[0;1;34;44m▀[0;34m▀▀▀  ▀ [0;1;30m──[0m───[1;36m───[0;1;37m───────────────────[0;1;36m──[0m──[1;30m──[0m [1;30m▓ [0m
-                [1;30m ▄[0m [34m [0;1;30m[[0m1[1m][0mord i.      [1;30m       [0m       [1;30m[[0m.[1m][0msysop. [1;30m░▒[0m
-                [1;30m ▓[0m  [1;30m[[0ml[1m][0mord ii.         [1;30m   ░░[0m     [1;30m[[0m-[1m][0mmain.   [1;30m░[0m
-                [1;30m ▒[0m  [1;30m[[0mb[1m][0mre.                 [1;30m░[0m     [1;30m[[0mg[1m][0moodbye. [1;30m█[0m
+                [1;30m ▄[0m [34m [0;1;30m [0m [1m [0m            [1;30m       [0m       [1;30m [0m [1m [0m       [1;30m░▒[0m
+                [1;30m ▓[0m  [1;30m [0m [1m [0m                [1;30m   ░░[0m     [1;30m [0m [1m [0m        [1;30m░[0m
+                [1;30m ▒[0m  [1;30m [0m [1m [0m                    [1;30m░[0m     [1;30m [0m [1m [0m        [1;30m█[0m
                 [1;30m ░░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓ ■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓ [0m'

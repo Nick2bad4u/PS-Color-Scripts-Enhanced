@@ -5,7 +5,7 @@
 # Source SHA-256: 6fd661e159f277644e9ef1b4e0d36390876c35de93040fb98a6ab8e4b9ae4345
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XBE-DU.ANS by xerobe (bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dark Underground
 # SAUCE Author: xerobe
 # SAUCE Group: bamboosh
@@ -38,11 +38,9 @@ Write-Host '
                       [34m░[0m                                [37m·[0m
 
 
-[1;30m---XX [0;1;32mC[0;32mU[0;1;30mT [0;1;32mT[0;32mH[0;1;30miS [0;1;32mC[0;32mR[0;1;30mAP XX---+---XX [0;1;32mC[0;32mU[0;1;30mT [0;1;32mT[0;32mH[0;1;30miS [0;1;32mC[0;32mR[0;1;30mAP XX---+---XX [0;1;32mC[0;32mU[0;1;30mT [0;1;32mT[0;32mH[0;1;30miS [0;1;32mC[0;32mR[0;1;30mAP XX---+--[0m
+[1;30m      [0;1;32m [0;32m [0;1;30m  [0;1;32m [0;32m [0;1;30m   [0;1;32m [0;32m [0;1;30m               [0;1;32m [0;32m [0;1;30m  [0;1;32m [0;32m [0;1;30m   [0;1;32m [0;32m [0;1;30m               [0;1;32m [0;32m [0;1;30m  [0;1;32m [0;32m [0;1;30m   [0;1;32m [0;32m [0;1;30m           [0m
 
 
-      [1;30m▒ [0;32m■ [0;1;32mR[0;32me[0;1;30mquested [0;1;32mb[0;32my ·[0;37m [0;1;30muhh.. can''t remember [0m                        [1;30m▒[0m
-      [1;30m░ [0;32m■ [0;1;32mC[0;32mo[0;1;30mmment[0m      [32m·[0;37m [0;1;30mi think this logo kicks ass.. [0m               [1;30m░[0m
-      [1;30m░[0m                [32m·[0;37m [0;1;30mhope you like it.. uh .. john doe.... =)[0m     [1;30m░[0m
-
-[1;30m---XX [0;1;32mC[0;32mU[0;1;30mT [0;1;32mT[0;32mH[0;1;30miS [0;1;32mC[0;32mR[0;1;30mAP XX---+---XX [0;1;32mC[0;32mU[0;1;30mT [0;1;32mT[0;32mH[0;1;30miS [0;1;32mC[0;32mR[0;1;30mAP XX---+---XX [0;1;32mC[0;32mU[0;1;30mT [0;1;32mT[0;32mH[0;1;30miS [0;1;32mC[0;32mR[0;1;30mAP XX---+--[0m'
+      [1;30m▒ [0;32m■ [0;1;32m [0;32m [0;1;30m        [0;1;32m [0;32m   [0;37m [0;1;30m                     [0m                        [1;30m▒[0m
+      [1;30m░ [0;32m■ [0;1;32m [0;32m [0;1;30m     [0m      [32m [0;37m [0;1;30m                              [0m               [1;30m░[0m
+      [1;30m░[0m                [32m [0;37m [0;1;30m                                        [0m     [1;30m░[0m'

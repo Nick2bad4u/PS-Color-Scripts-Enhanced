@@ -5,7 +5,7 @@
 # Source SHA-256: 0f271a6ef8ad9f55959658d3f408006cc035867f7c4e64e53ae06c6f6a19c4c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-KAF.ANS by Wat0r + Iceage (Echo & Lazarus); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kafkaesk
 # SAUCE Author: WatOr and Iceage
 # SAUCE Group: Echo & Lazarus
@@ -30,6 +30,4 @@ Write-Host '
 [31m▐█▌▀▀[0;34m █████████▌[0;1;31m [0;1;30m░[0;31m▐[0;31;43m▓▓▓[0;31;40m▌[0;34;40m████▄▄▄▄▄▐██████████▄▄▄▄▄▄▄▄██▌[0;36;40m [0;31;40m▐█▄▄▄▄▄▄▄████[0;34;40m ▐███[0;1;36;44m  [0;1;34;44m [0;1;34;40m█[0;1;34;46m▀[0;1;34;40m█[0;34m [0m
 [36m   [0;34m░▓██████████▌[0;1;31m [0;36m [0;31m▐███▌[0;34m███████▐██▌▄▄▐████████████████▄▄▄▄▄▄[0;36m▄▄▄▄[0;37m [0;31m  ▐█▄ [0;34m▀██[0;1;34;44m░▓[0;1;34;40m███▀[0;34m [0m
      [36m  [0;1;31m   [0;34m      [0;1;31m  [0;31m▐███▌[0m       [34m▐▌  ▐▌[0m                              [31m▀▀[0m
-                 [1;31m      [0m        [34m▀▄▄▀[0m
-
-      [36m--[0;37m kafkaesk [0;36m-- @[0;37mmr4tune, logo by watOr([0;36meCHO[0;37m), and iceage([0;36mlAZARUS[0;37m)[0;36m --[0m'
+                 [1;31m      [0m        [34m▀▄▄▀[0m'

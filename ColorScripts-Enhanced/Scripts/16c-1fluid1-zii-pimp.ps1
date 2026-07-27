@@ -5,7 +5,7 @@
 # Source SHA-256: 78123204efd95cd89d8cb2dc089235c7227f16cfa252ea28800961c00e9f039a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-PIMP.ANS by Zeus II (Fluid); released in 1fluid1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Idle Pimps
 # SAUCE Author: Zeus II
 # SAUCE Group: Fluid
@@ -55,8 +55,4 @@ Write-Host '
           [1;34;44m▓░[0;34m█  ▀[0m     [34m▀▓██▄[0m            [34m    █[0;1;34;44m░░[0;34m▌ ▒      ▀[0;1;34;44m▀ ▄[0;34m▄     ▄███▀ [0m
           [1;34;44m█▓[0;34m█    [0m   [34m▀▀▀▀[0m                  [34m█[0;1;34;44m▒▓[0;34m▌ ░[0m         [34m▀▀█▄▄▄[0;1;31;44m░░[0;34m█▀ ▄▀ [0m
          [34m▄[0;1;34;44m▀█░[0;34m▌       [0m                     [34m█[0;1;34;44m▓▄[0;34m▄[0m               [34m▀▀█▀  ▀[0m
-          [34m ▀▀█▄[0m                         [34m ▄▀▀[0m
-
-                               [34mwww.idlepimps.com[0m
-
-                      [34mno background necessary on this one[0m'
+          [34m ▀▀█▄[0m                         [34m ▄▀▀[0m'

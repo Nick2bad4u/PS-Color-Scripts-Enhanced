@@ -5,7 +5,7 @@
 # Source SHA-256: 0928694c6b13b0e9d80098762710cd839914a95df233eab739da1cf756b388a6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-TRY2.ANS by Boba Fett (glue-09); released in glue-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-30
 # Columns: 1-80
 
@@ -33,10 +33,10 @@ Write-Host '
 [1;33m▀▀▀[0m [1;31m▄▄▄▄▄▄▄▄[0;1;31;41m▓▓▒▒░░[0;31m█████▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;1;30m▄▄[0m [1;30m▄▄[0m [1;30m▄▄[0m [1;30m▄▄[0m  [31m░[0;30;41m▓░[0;31;40m▓███[0;1;33;41m░░▓▓███████████▓▓░░[0;30;41m░[0;31;40m▓░[0;30;41m▓[0m
 [1;31;40m██████▀▀▀▀▀▀▀▀[0m [31m▄[0;37m [0;31m▄[0;1;33m▄[0m [31m▄[0;1;33m▄ ▄[0;1;33;41m▄[0m [1;33;41m▄▄[0m [1;33;41m▄▄[0m [1;33;41m▄▄[0m [1;30;47m░[0;1;37;40m▒[0m █[1m▒[0m █[1m▒[0m [1;30;47m░░[0m [1;30m▄▄[0m [31m░[0;30;41m▓[0;37;40m          [0m            [31;40m░[0;30;41m▓[0m
 [37;40m-(cut)--------------------------------------------------------------------------[0m
-[37;40mHere''s another ansi for my good friend Torrey...  thanks for helping me get this[0m
-[37;40mdamn scene here in 864 on its feet again...  I have a fucking awesome idea for[0m
-[37;40mmy next ansi now...=)  stay tuned.  Same bat time, same bat channel!!![0m
+[37;40m                                                                                [0m
+[37;40m                                                                              [0m
+[37;40m                                                                      [0m
 
-[34;40mbobafett[0;1;34;40mSTRIKESBACK[0;1;36;40m,..[0m
-[1mboba.fett@x-net.net[0m
+[34;40m        [0;1;34;40m           [0;1;36;40m   [0m
+[1m                   [0m
 -(cut)--------------------------------------------------------------------------[0m'

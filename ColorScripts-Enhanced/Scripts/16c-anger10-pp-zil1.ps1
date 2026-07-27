@@ -5,7 +5,7 @@
 # Source SHA-256: 54d0ed0181406ac038660c466d1eddf7beb2d6f0b7a711ddf964d10eb2c258f9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-ZIL1.ANS by pixel_pusher (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: zillion
 # SAUCE Author: pixel_pusher
 # SAUCE Group: anger
@@ -27,6 +27,4 @@ Write-Host '
 [1;34;45m░░[0;1;35;45m    Z        I         L             L          I         O             N   [0;1;34;45m░░[0m
 [1;35;40m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
 [1;35;40m░░=======================  fresh[0;35m:=[0;1;35mp[0;1;35;45mI[0;1;35;40mxel[0;35m+[0;1;35mpu[0;1;35;45m$[0;1;35;40mher[0;35m+[0;1;35manger =========================░░[0m
-[35m░░[0m                                                                            [35m░░[0m
-
-                 [35mheya blazemore..use this for whatever brotha..[0m'
+[35m░░[0m                                                                            [35m░░[0m'

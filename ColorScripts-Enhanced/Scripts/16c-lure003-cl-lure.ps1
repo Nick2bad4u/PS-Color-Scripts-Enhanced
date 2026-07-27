@@ -5,7 +5,7 @@
 # Source SHA-256: c98ec92f34a0b676607a4c1c3c425ddbc9b230d5fdafbabac661cb6705cb1453
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-LURE.ANS by Cleaner (Lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lure
 # SAUCE Author: Cleaner
 # SAUCE Group: Lure
@@ -43,11 +43,4 @@ Write-Host '
                                          [1;30m▄[0;1;37m [0;1;32m▀[0;1;32;42m▓▓▓[0;1;32;40m▀[0;1;30;40m ▄[0m
                 [1mL  [0;1;30m── [0;1;37m U [0;1;30m ──  [0;1;37mR [0;1;30m ── [0;1;37m E[0m    [1;30m▀[0m  [32m▄[0;37m  [0;1;30m▀[0m    [1mA  [0;1;30m──[0;1;37m  N [0;1;30m ──[0m [1m S [0;1;30m ── [0;1;37m i[0m
                                            [1m [0m  [1m [0m
-                                             [32m░[0m                             [1;30m  [0m
-
-
- First ansi in almost 3 years! I started drawing this ansi  under high cannabis
- influence, and  I just finished it  after  smoking a couple  of joints, so  it
- probably  explain the weirdness of the logo... Greetings  to all Lure members!
-
-                                             Cleaner[1;30m([0mLure[1;30m)[0m [1;30m-[0m 10th May 2002[0m'
+                                             [32m░[0m                             [1;30m  [0m'

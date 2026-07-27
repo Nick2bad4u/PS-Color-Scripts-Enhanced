@@ -5,7 +5,7 @@
 # Source SHA-256: f8f02a48014f89873f831d7cd5f2cbee6fb9e6a429ecca8c70304548d6983cfe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AN!DREE2.ANS by aneurysm (1mp4c7); released in impact06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: whoa
 # SAUCE Author: aneurysm
 # SAUCE Group: 1mp4c7
@@ -37,9 +37,4 @@ Write-Host '
 [1;30m   [0m s   [1;30m`+y, [0m     [1;36m`²7$$[0;1;37m$$[0;1;34m$$$$,[0;34m$$$$$$$$$$$$$$$$$$$$[0;1;34m,$$$$[0m$$[36m2²''[0m   [1;30m,y+'' [0m    3
 [1;30m   [0m t     [1;30m`+y, [0m      [1;36m`²7$$[0;1;37m$$[0;1;34m$$,[0;34m$$$$$$$$$$$$$$$$$$[0;1;34m,$$$[0m$$[36m²''[0m   [1;30m,y+''[0m
 [1;30m   [0m i       [1;30m`+y, [0m       [1;36m`²7$$[0;1;34m$$,[0;1;37m$$[0;34m$$$$$$$$$$$$[0;1;37m$$[0;1;34m,$$$[0m2²''   [1;30m,y+''[0m          m
-    a         [1;30m`+y, [0m     [36m [0m             [1;30m     [0m             [1;30m,y+''[0m
-    l           [1;30m`+y,         [0;34ms[0;1;34mo[0;1;30mp: [0;32ma[0;1;32mn[0;1;33me[0murysm, [32mr[0;1;32ma[0;1;33mb[0mies[1;30m    ,y+''[0m              s
-
-
-               hehe// this guys pretty wierd.k thats like a grin. not a line
-in the middle of his face[0m'
+    a         [1;30m`+y, [0m     [36m [0m             [1;30m     [0m             [1;30m,y+''[0m'

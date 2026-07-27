@@ -5,7 +5,7 @@
 # Source SHA-256: 5696ace442b5874d4d493bdf6fabcb05883035b57e7770a1262821a700b22bc3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SO-EACD1.ANS by Somms (ACiD Productions); released in acdu1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Electric Acid
 # SAUCE Author: Somms
 # SAUCE Group: ACiD Productions
@@ -40,8 +40,8 @@ Write-Host '
 [1;30;40m▌[0m  [1;30;40m [0m ▀▀[1m▀▀▀[0;1;30m [0m          [1;37;47m [0;1;37;40m█████████████▄▄[0m     ▀[1;47m▀[0;1;40m██▌[0m        ▀▀[1;47m▀[0;1;40m███████[0m             [1;30;40m▐[0m
 [1;30;40m▌[0m                    ▐[1;47m▐[0;1;40m█████████▀▀[0m         ▐[1;47m▐[0;1;40m▀[0m            ▀[1;47m▀[0;1;40m████▌[0m  yeah, i    [1;30m▐[0m
 [1;30m▌       [0m    4 gigs    [1;47m [0;1;40m█████▀▀[0m             ▀               [1m [0;1;47m [0;1;40m███▌[0m  know this  [1;30m▐[0m
-[1;30m▌[0m          5 nodes     [1;47m [0;1;40m██▀[0m    a n s i   b y   s o m m s    [1;30m [0;1;37;47m [0;1;37;40m██[0m  isn''t my   [1;30m ▐[0m
-[1;30m▌     [0m  many affils     [1;47m [0;1;40m▌[0;1;30;40m [0m a c i d   p r o d u c t i o n s  ▐[1;47m▐[0m   best ansi.  [1;30m▐[0m
-[1;30m▌[0m     running pcboard   [1;30m [0m▀     1       9       9       4     ▀   blow me.     [1;30m▐[0m
+[1;30m▌[0m                      [1;47m [0;1;40m██▀[0m                                 [1;30m [0;1;37;47m [0;1;37;40m██[0m             [1;30m ▐[0m
+[1;30m▌     [0m                  [1;47m [0;1;40m▌[0;1;30;40m [0m                                  ▐[1;47m▐[0m               [1;30m▐[0m
+[1;30m▌[0m                       [1;30m [0m▀                                   ▀                [1;30m▐[0m
 [1;30m▌        [0m                                                                     [1;30m▐[0m
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

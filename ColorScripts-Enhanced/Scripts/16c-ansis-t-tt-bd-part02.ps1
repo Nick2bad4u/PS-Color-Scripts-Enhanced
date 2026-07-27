@@ -5,7 +5,7 @@
 # Source SHA-256: abe338a1659089264a27ddf200d51bed91c80a533a28d5b8107a45f9772449fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-BD.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 37-79
 # Columns: 1-80
 
@@ -33,7 +33,7 @@ Write-Host '
 [35m▄ [0;37m▀▀ [0;1;37m▀ [0;35m▄▄ [0;37m▀▀[0;1;37m▀ [0;35m▌[0;37m▐[0;1;30;47m▓░[0;1;37;47m▒▓[0m▌ [35m█▄ [0;1;30m▀▀ [0;1;37m▀ [0;35m█   █ [0;1;30m▀[0;1;30;47m░[0m [1;37;40m▀ [0;1;30;40m▀▀[0m▀[1;47m░▓[0;1;40m▀ [0;35m█ [0;1;30m▀[0;1;30;47m▒░[0m [1;37;40m▀ [0;35m█▀▄ [0;37m▀[0;1;37m▀ [0;35m▄█▄▄▄▄▀▀▀▀▀▄▄▄▄▄▀[0m
 [35m ▀▀▀▀▀▀  ▀▀▀▀▀▄ [0;37m▀▀▀▀ [0;35m█  ▀▀▀▀▀▀[0m     [35m▀▄▄▄▀▀▀▀▄▄▄▄▀ ▀▄▄▄▄▀▀   ▀▀▀▀[0m
                [35m▀▀▀▀▀▀[0m
-[35m [0;32m▄[0m                            [1;35mT[0;35mempus [0;1;35mT[0;35mhales [[0;1;37mi[0;1;35mC[0;35mE][0m
+[35m [0;32m▄[0m                            [1;35m [0;35m      [0;1;35m [0;35m       [0;1;37m [0;1;35m [0;35m  [0m
 [32m· █ ·[0m            [32m▄▄·▄▀·[0m                    [32m▄· ▄▄[0m       [32m▄▄[0m     [32m▄▄[0m
 [32m ▀▐█ ▄▄[0m        [32m▄▀ ▀█▄[0m      [32m▄▀█▄   ▄█▀▄    · ▄▀▄▄█[0m     [32m█ ▄█  ·█ ▄█[0m     [32m▌[0m
 [32m · █▌ ▀██▄[0m      [32m▀▀▄▄▀█▄   ▄▐▐██   ▐█▌▌▀    ████▀[0m      [32m▐██▌ ·▀▐▌█▌[0m     [32m█[0m
@@ -48,8 +48,8 @@ Write-Host '
                  [32m▀·[0m                                    [32m▐▓▌[0m
                                                         [32m▀[0m
 [40m    [0;1m┌[0m──[1;30m────── [0;1;33mB   O   N   E   R   S[0m        [1;33mD   O   M   A   I   N [0;1;30m─────────┐[0m
-[1;30m    [0m│                          [1;35mS[0;35mysOp: [0;1;35mR[0;35mambone[0m                             [1;30m│[0m
-[1;30m    │[0m       [1;35mINC M[0;35member/[0;1;35mD[0;35mist Site [0;1;35m- UT[0;35m/[0;1;35mEMC D[0;35mist Site [0;1;35m- H[0;35my[0;1;35mPE D[0;35mist Site[0m      [1;30m│[0m
-[1;30m    │[0m         [1;35mP[0;35mhrack [0;1;35mS[0;35mubmissions [0;1;35m- V[0;35miSiON-X [0;1;35mß[0;35meta Site w/ [0;1;35mF[0;35melonyNET[0m        [1;30m│[0m
-[1;30m    │[0m                        [35m1.2 [0;1;35mG[0;35migs [0;1;35m- H[0;35m/P/V/C[0m                           [37m│[0m
+[1;30m    [0m│                          [1;35m [0;35m      [0;1;35m [0;35m      [0m                             [1;30m│[0m
+[1;30m    │[0m       [1;35m     [0;35m      [0;1;35m [0;35m         [0;1;35m    [0;35m [0;1;35m     [0;35m         [0;1;35m   [0;35m [0;1;35m    [0;35m        [0m      [1;30m│[0m
+[1;30m    │[0m         [1;35m [0;35m      [0;1;35m [0;35m           [0;1;35m   [0;35m        [0;1;35m [0;35m            [0;1;35m [0;35m        [0m        [1;30m│[0m
+[1;30m    │[0m                        [35m    [0;1;35m [0;35m    [0;1;35m   [0;35m      [0m                           [37m│[0m
 [37m    [0;1;30m└──────────────── [0;1;33m3  1  4  .  4  3  4  .  8  7  0  6 [0;1;30m───────────────[0m──[1m┘[0m'

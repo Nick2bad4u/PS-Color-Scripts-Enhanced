@@ -5,7 +5,7 @@
 # Source SHA-256: 98aa2095b595caef42615ec025cd777f5fd0d77b0055baa797296b2b6b67d304
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-GOFF.ANS by bizzarro (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: leaving something
 # SAUCE Author: bizzarro
 # SAUCE Group: nerp
@@ -41,10 +41,5 @@ Write-Host '
 [1;30m█[0;33m█[0;1;33;43m▄▄[0;1;37;40m███[0;1;33;43m█▓░[0;33m████████████████[0;1;36;43m▀[0m    [31m░[0m    [37mDaylight has broken into a strange nostalgia[0m
 [1;30;43m▓[0;33m█[0;1;33;43m▓▓▓▓▓[0;33m██▐████████████[0;1;30m▌[0;33m ▐▀▀▀[0;1;30m▄[0;33m  [0;31m░[0m    [37mNight tired candless seem like two lovers[0m
 [33m ▀[0;1;33;43m░░░░░[0;33m██ ░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;1;30;40m▀[0;33m [0;1;30m▐[0;33m    [0;1;30m▌[0m      Melt in an embrace of conspiracy
-[33m  ░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░░[0;30;43m▓[0m                [1;30;40m▀[0;33m [0;1;30m▄[0;33m   [0;31m [0m    [37mBetween us there is this strange chemistry[0m
-[33mbiz[0m         [37m░░░[0m                [31m░[0m    [37mBut would you die for me?[0m
-                                    [37mWould you die for what I''ve longed to be?[0m
-
-                                    [37mWould you die for this?[0m
-
-                                    [1;30m:: Moonspell ::[0m'
+[33m  ░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░░[0;30;43m▓[0m                [1;30;40m▀[0;33m [0;1;30m▄[0;33m   [0;31m [0m    [37m                                          [0m
+[33m   [0m         [37m░░░[0m                [31m░[0m    [37m                         [0m'

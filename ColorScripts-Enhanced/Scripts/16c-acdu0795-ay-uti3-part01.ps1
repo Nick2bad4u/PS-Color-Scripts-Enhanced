@@ -5,7 +5,7 @@
 # Source SHA-256: 6ae15f1ea58a00972b890ee23e12e254394c7421db6d954fee1c3999d351b156
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AY-UTI3.ANS by Asylum (ACiD Productions); released in acdu0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Under The Influence
 # SAUCE Author: Asylum
 # SAUCE Group: ACiD Productions
@@ -17,7 +17,7 @@
 Write-Host '
 [1;30m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄▄▄▄▄[0m [1;30m▄[0m
 [1;30m▓▀[0m [1;30m▄▄[0m▄▄▄  ▄▄▄ ▄▄▄ [1;30m▄▄░▄▄[0m [1;30m▄[0m    [1;30m  look at this crap, this is what happens when[0m [1;30myou[0m
-[1;30m█[0m [1;30;47m▀[0;46m▀▓[0;40m ███ [0;46m▓▀[0;1;47m░[0m ██[1;47m░[0m [1;30m█[0m   [1;30m▓[0m [1;30m░[0m  [1;30m░[0m [1;30m  don''t draw for a month and then do original shit[0m
+[1;30m█[0m [1;30;47m▀[0;46m▀▓[0;40m ███ [0;46m▓▀[0;1;47m░[0m ██[1;47m░[0m [1;30m█[0m   [1;30m▓[0m [1;30m░[0m  [1;30m░[0m [1;30m                                                  [0m
 [1;30m█[0m █[1;47m░[0m█ [1;47m░ ▄[0m [1;47m▄▄▓[0m [1;47m██▓[0m [1;30m▓[0m   [1;30m░[0m    [1;30m▓[0m
 [1;30m█[0m ▀[1;47m▓█[0;1;40m▄[0;1;47m▓██[0m [1m▀[0;1;47m██[0;1;40m▄[0;1;47m███[0m [1;30m▀▀▀▀▓[0m [1;30m█▀▀▀ ▀█[0m                                 [1;30masylum@free.org[0m
 [1;30m█▀[0m    [1m▀▀▀[0m     [1m▀▀▀[0m [1m▀▀▀[0m [1;30m▀▀▀[0m [1m███[0m [1;30m▀▀▀▀ ▀         finger asylum@acid.extern.ucsd.edu[0m

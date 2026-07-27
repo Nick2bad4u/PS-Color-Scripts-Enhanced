@@ -5,7 +5,7 @@
 # Source SHA-256: 6d644a493c13178deec995ce679ba3596168ffa192eed8e7d35e9662eaa439f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: THE_ELK-DEPTHS.ANS by the elk (mist1019); released in mist1019 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the psychedelic depths
 # SAUCE Author: the elk
 # SAUCE Date: 20190920
@@ -34,15 +34,15 @@ Write-Host '
 [38;2;0;171;0;48;2;0;0;0m████████████████████████████████████████████████████████████████████████████████[0m
                                     [38;2;171;0;0;48;2;0;0;0m2[0;38;2;0;171;0;48;2;0;0;0m [0;1;38;2;255;255;87;48;2;0;0;0m0[0;38;2;0;171;0;48;2;0;0;0m 1 [0;1;38;2;87;87;255;48;2;0;0;0m9[0m
 [38;2;0;171;0;48;2;0;0;0m████████████████████████████████████████████████████████████████████████████████[0m
-[38;2;171;0;0;48;2;0;0;0mthe depths are unexplored. the depths contain hidden wisdom.. hidden danger that[0m
-[1;38;2;255;87;87;48;2;0;0;0mwill never be realised. suddenly,  the depths will begin to give up their bounty[0m
-[38;2;171;87;0;48;2;0;0;0mand none will be there to receive the dividends that are revealed. humanity will[0m
-[1;38;2;255;255;87;48;2;0;0;0mnever fully appreciate the scale of the width of the depths;  the scale of their[0m
-[38;2;0;171;0;48;2;0;0;0mheights;  the scale of the exponential curves of the chasms which can never hope[0m
-[1;38;2;87;255;87;48;2;0;0;0mto contain the quiet truths that leak out and float to the surface of that great[0m
-[38;2;0;0;171;48;2;0;0;0mocean. that expanse which can never be measured,can never be replaced,  never be[0m
-[1;38;2;87;255;255;48;2;0;0;0msynthesised or manufactured. the deep prepares to reveal the expanse of the dark[0m
-[1;38;2;255;255;255;48;2;0;0;0mform which writhes and ever flows,  containing all the knowledge of those hidden[0m
+[38;2;171;0;0;48;2;0;0;0m                                                                                [0m
+[1;38;2;255;87;87;48;2;0;0;0m                                                                                [0m
+[38;2;171;87;0;48;2;0;0;0m                                                                                [0m
+[1;38;2;255;255;87;48;2;0;0;0m                                                                                [0m
+[38;2;0;171;0;48;2;0;0;0m                                                                                [0m
+[1;38;2;87;255;87;48;2;0;0;0m                                                                                [0m
+[38;2;0;0;171;48;2;0;0;0m                                                                                [0m
+[1;38;2;87;255;255;48;2;0;0;0m                                                                                [0m
+[1;38;2;255;255;255;48;2;0;0;0m                                                                                [0m
 
               [38;2;171;171;171;48;2;0;0;0mt h e[0m
 

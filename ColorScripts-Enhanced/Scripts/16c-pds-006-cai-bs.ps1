@@ -5,7 +5,7 @@
 # Source SHA-256: 7a9347b2b2538552e1bd4ce83af97f5708170fa30f796fd7688ea5ba831877d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CAI-BS.ANS by caithor (paradise); released in pds-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: brainscan
 # SAUCE Author: caithor
 # SAUCE Group: paradise
@@ -26,7 +26,7 @@ Write-Host '
 [34m      $$$$      $$$$$$$$          $$$$      $$$$$$$$$$$$      $$$$[0m
 [34m      $$$$      $$$$$$$$          $$$$      $$$$$$░$$$$$      $$$$[0m
 [34m      $$$$      $$$$░$$$          $$$$      $$$$$$$$$$$$      ░$$$[0m
-[1;30m,+ⁿ''[0m  [1;34m`"ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ"''`"ⁿⁿ          `"ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ"''""""`"ⁿⁿ      """~[0m  [1;30m~  ''ⁿ+,[0m
+[1;30m    [0m  [1;34m                                                            [0m  [1;30m       [0m
 [1;30m$[0m                                                                         [1;30m$[0m
 [1;30m$   [0m                     [1;33m   b r a i n s c a n[0m                          [1;30m   $[0m
 [1;30m$[0m                                                                         [1;30m$[0m
@@ -36,5 +36,4 @@ Write-Host '
 [37m         [0;34m░$$$      $$$$$$$$      """"$$$$      $$$$$$$$      $$$$[0m    [34m≤[0;1;34mCai![0;34m≥[0m
 [37m         [0;34m$$$$      $$$$$$$$      $$$$$$$$      $$$$$$$$      $$$$[0m
 [37m         [0;34m$$$$      $$$$$$$$      $$$$$$░$      $$$$$$$$      $░$$[0m
-[37m         [0;34m$$$$      $░$$$$$$      $$$$$$$$      $$$$$$$$      $$$$[0m
-[37m         [0;1;34m`"ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ"~`"ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ"''`"ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ"''`"ⁿⁿ      """~[0m'
+[37m         [0;34m$$$$      $░$$$$$$      $$$$$$$$      $$$$$$$$      $$$$[0m'

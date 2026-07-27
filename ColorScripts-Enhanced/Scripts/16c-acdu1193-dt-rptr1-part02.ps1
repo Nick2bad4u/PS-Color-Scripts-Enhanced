@@ -5,7 +5,7 @@
 # Source SHA-256: 32932adf7580d26989ebc8f92657ca399be7f395c8fe8bdbae057cb252075189
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-RPTR1.ANS by Dr Tongue (acdu1193); released in acdu1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 42-73
 # Columns: 1-80
 
@@ -37,8 +37,4 @@ Write-Host '
 [1;33m [0;33m▐[0;1;33;43m░▒▒[0;1;33m▌  ▀[0;1;33;43m▒░[0;33m▄ [0;1;33m▀[0;1;33;43m▒▒░[0;33m▌ [0;1;31;41m▒[0;31m▀▄ [0;1;33m▀[0;33m▐[0;1;33;43m░▒▒[0;33m▌  [0;1;31m▄[0;31m█▄▀   [0;33m▐[0;1;33;43m▒▒░[0;33m▌  [0;1;33m▀[0;1;33;43m█▓▒[0;33m▄    [0;1;33;43m░▒[0;1;33m▌[0;33m▐[0;1;33;43m░░▒[0;33m▌  [0;1;33m▀[0;1;33;43m▒░[0;33m▄ [0;1;33m▀[0;1;33;43m▒░[0m [1;30m░   [0;33m▄[0;1;33;43m░▒[0m
 [33m▄[0;1;33;43m  ░░░[0;33m▄  ▐[0;1;33;43m░  [0;33m▄ [0;1;33;43m░  [0;33m▄ [0;1;31m▄[0;31m■ [0;33m▄[0;1;33;43m  ░░ [0;33m▄  [0;1;31m▀[0;31m■   [0;33m▄[0;1;33;43m ░░  [0;33m▄   ▀▀[0;1;33;43m░░ [0;33m▄▄[0;1;33;43m [0m [33m▄[0;1;33;43m   ░ [0;33m▄  ▐[0;1;33;43m░░ [0;33m▄ [0;1;33;43m [0;33m▄▄▄▄[0;1;33;43m░ ░░[0m
 [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;31m▄[0;31m▄[0;1;31;41m▓[0m [31m▄▄▄▄▄▄▄▄█▄▄██▄▄▄▄▄▄▄▄▄███▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-                    [1;31m▀[0m
-[1;31m  [0mThe Rapture ∞ SysOp: Trickster ∞ Node 1: 306-683-0735 ∞ Node 2: 306-PRI-VATE
-  Renegade v1.0b ∞ SpAMP WHQ ∞ USR 14.4k v.32bis ∞ RiSC Distro Site ∞ 500 Megs
-        [30mThanks to The Retarded Warrior [iCE] for the protection idea. :)[0m
-                         ∞ ANSI By: Dr.Tongue [1;30m[[0mAC[1mi[0mD[1;30m] [0m∞[0m'
+                    [1;31m▀[0m'

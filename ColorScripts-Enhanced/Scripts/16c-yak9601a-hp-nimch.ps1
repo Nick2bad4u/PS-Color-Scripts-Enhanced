@@ -5,7 +5,7 @@
 # Source SHA-256: fa3b9668db38fb04ae008e5a145342fe1251889d8b2275b6b02758694230fe99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HP-NIMCH.ANS by hennifer pantalon (yak); released in yak9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nimrodel female-person
 # SAUCE Author: hennifer pantalon
 # SAUCE Group: yak
@@ -53,5 +53,4 @@ Write-Host '
               [1;30m▐▌[0m  ▐[1m▐████▄[0;1;31m▀■[0m▀[1m▀▀▀▀[0;1;31m▄█■[0;1;37m▐████[0m▐▌                     [1;30m█[0m
               [1;30m▐▌[0m  ▐▌[1m█████▌[0m░[1;31m▀▀▀▀▀[0m░░[1m▄█████[0m▐█           [32mh[0;1;32mENNIFER[0m  [1;30m▌[0m
               [1;30m▐▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-             [1;30m ▀[0m  [1;30m  [0m      [1;30m▒[0m                              [1;30m  [0m
-            [1;30m [0m'
+             [1;30m ▀[0m  [1;30m  [0m      [1;30m▒[0m                              [1;30m  [0m'

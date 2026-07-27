@@ -5,7 +5,7 @@
 # Source SHA-256: 444f5970aebefc30a0e34064a7a369e43a155bff5b2aa1d6579adda721f2028d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 3_BARF.ANS by tricolore / warpus (lazarus); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: laz | clown barf
 # SAUCE Author: tricolore / warpus
 # SAUCE Group: lazarus
@@ -39,7 +39,4 @@ Write-Host '
                        [1;34;47m█▄▄ ░░[0m▄▄▄[1m [0;1;32m▄▄▄[0;1;36m▄▄▄[0;1;37m [0m
                                █
 
-[34m────────────────────────────────────────────────────────────────────────────────[0m
-
-[1;37mi don''t usually go thIS crazy on the coloring... i got carried away. outline[0m
-[1mby warpus...[0m [1mcoloring, additional shaping by myself (tricolore)[0m'
+[34m────────────────────────────────────────────────────────────────────────────────[0m'

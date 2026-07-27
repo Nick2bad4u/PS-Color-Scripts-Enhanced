@@ -5,7 +5,7 @@
 # Source SHA-256: 0959cea5f4e38c113a9d65e979972915e1c3490ad7868aa6fd21772e7581d7be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-HARA.ANS by The Night Angel + Mass Murderer + Mr4tune (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Harakiri
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -41,5 +41,5 @@ Write-Host '
                        [37m░░[0;30;47m▓[0m
 [37;40m [0m           [37;40m▄[0;1;37;47m▄[0m▄                                                 ░[30;47m▓[0m
 [37;40m  [0m         [37;40m▀[0;1;37;47m▀[0m▀░  Mr4tune([1mawe[0m)[1m         : [0;1;30mOrigional Outline [0m    ░[30;47m▓░[0;37;40m▓░[0;30;47m▓[0;37;40m░ ░[0m
-[37;40m   [0m           [37;40m   Mass Murderer([0;1;37;40mice[0m)[1m   :[0m [1;30mAll Shading, touchups [0m  ░[30;47m▓[0m
-[37;40m    [0m          [37;40m░  The Night Angel([0;1;37;40mawe[0m) [1m:[0m [1;30mAdditional Touchups[0m'
+[37;40m   [0m           [37;40m                 [0;1;37;40m   [0m [1m    [0m [1;30m                      [0m  ░[30;47m▓[0m
+[37;40m    [0m          [37;40m░                  [0;1;37;40m   [0m  [1m [0m [1;30m                   [0m'

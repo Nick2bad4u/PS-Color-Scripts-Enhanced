@@ -5,7 +5,7 @@
 # Source SHA-256: 440c970ad31c9d75d8a1e5fedf83ea1d9932e7c5cafdd34478012d030c23954e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-AIA.ANS by sammael (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: auggies in ansi
 # SAUCE Author: sammael
 # SAUCE Group: rile
@@ -38,5 +38,4 @@ Write-Host '
 [1;35;45m██████▄[0;35m▄▄▄[0;36m [0;30;47m▓▓[0;36;40m  [0;1;30;40m [0m▄[1;30m▄▄███▀▀[0m  [1;30m▄[0;1;35m [0;1;37m░░[0;1;35m     [0m▄[1;30m▄▄▄▄█[0m     auggies in ansi... =P
 [1;35;45m████[0;30;45m▄[0;1;35;45m████▄▄[0;1;35;47m▓▓[0;1;35;45m▄[0;35m▄▄▄▄▄▄▄▄▄[0;37m [0;1;30m▀▀▀ [0m [1m▀[0;30mt[0;37m▀[0;1;30m▀▀▀[0;1;30;47m▓▓[0;1;30;40m▀▀▀[0m          put stuff here.
 [1;35;45m█████████████████████░▄▄▄▄▄▄▒▄▄▄▄▄ [0;35m▄▄[0;1;35m [0m
-[1;35;45m░[0;35m███[0;1;35;45m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m██████[0;1;35;45m▀▀▀▀▀[0;35m████████[0;1;35m [0m
-[30mfuck you.  i couldn''t think of anything to put on this line.  sammael@zipcon.net[0m'
+[1;35;45m░[0;35m███[0;1;35;45m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m██████[0;1;35;45m▀▀▀▀▀[0;35m████████[0;1;35m [0m'

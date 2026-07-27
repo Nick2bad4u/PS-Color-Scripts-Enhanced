@@ -5,7 +5,7 @@
 # Source SHA-256: eedb1495be72767b0d4cb0635887ef320529cd4cdee48f43c262fbfa7a9d4e2e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XA-SYNCR.ANS by Xaxisian (mgc-0194); released in mgc-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -53,8 +53,8 @@ Write-Host '
 [1;30m───[0;1;37mS[0;1;30m─────[0;1;37mY[0;1;30m─────[0;1;36mN[0;1;30m─────[0;1;36mC[0;1;30m─────[0;36mH[0;1;30m─────[0;36mR[0;1;30m─────[0;36mO[0;1;30m─────[0;36mN[0;1;30m─────[0;36mI[0;1;30m─────[0;1;36mC[0;1;30m─────[0;1;36mI[0;1;30m─────[0;1;37mT[0;1;30m─────[0;1;37mY[0;1;30m───[0m
 
 [1;30m┌──────────────────────────[0;35mThe[0;1;35mn s[0;1;37muddenly I remem[0;1;35mber[0;35med,[0;1;30m─────────────────────────┐[0m
-[1;30m│[0m                     [1;30mThe l[0;35most [0;1;35mso[0;1;37muls of that dar[0;1;35mk d[0;35mece[0;1;30mmber.[0m                    [1;30m│[0m
-[1;30m│[0m                       [1;30mI d[0;35mrop[0;1;35mped [0;1;37mthe knife in r[0;1;35mepu[0;35mlsi[0;1;30mon,[0m                      [1;30m│[0m
+[1;30m│[0m                     [1;30m     [0;35m    [0;1;35m  [0;1;37m               [0;1;35m   [0;35m   [0;1;30m     [0m                    [1;30m│[0m
+[1;30m│[0m                       [1;30m   [0;35m   [0;1;35m    [0;1;37m              [0;1;35m   [0;35m   [0;1;30m   [0m                      [1;30m│[0m
 [1;30m└─────────────────────────a [0;35mgo[0;1;35mod [0;1;37m& evil mixed em[0;1;35muls[0;35mion[0;1;30m.────────────────────────┘[0m
 
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

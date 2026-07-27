@@ -5,7 +5,7 @@
 # Source SHA-256: 4f61081f7554c4ad41313e352b4e7499aa55afc53ad51ce2147654ec116c2312
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZS-OOPS.ANS by Zerostar (sense12j); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -38,7 +38,4 @@ Write-Host '
 [34m█▓▐  [0;37m [0;34m▀[0;37m [0;34m▬[0;37m   [0;34m ▄█▀[0;37m [0;34m▐▄▀[0;37m  [0;34m▀▀░░▄▄▄ ▀[0m                      [34m▀▀█▄[0;37m   [0;34m ▌[0;37m [0;34m ░▐▌[0;37m [0;34m█████▀▀ ▌░▌░[0m
 [34m▌░▐[0;37m   [0;34m  ▬  ▀▀[0m                                             [34m▀[0;37m [0;34m▄█▄▄▄█▄▄[0;37m [0;34m▀▀[0m    [34m ▌[0;37m [0;34m▌░[0m
 [34m▌ ▐[0m                                                           [34m▀▀[0m           [34m ▀▀[0;37m [0;34m░[0m
-[34m█▄▀[0m                                                                            [34m░[0m
-
-               [32m20 minutes into this ANSI, i realized i was[0m
-               [32mdrawing the word "jasper" instead of "sense" :)[0m'
+[34m█▄▀[0m                                                                            [34m░[0m'

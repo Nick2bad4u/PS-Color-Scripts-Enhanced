@@ -5,7 +5,7 @@
 # Source SHA-256: 2903cb9fc69e4841d5acdd2a3722a8789f1486e879d1f464d29779f2d1a2bfab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SOR-HC.ANS by Spirit of Rage (Zenith); released in zenith03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: High Casualties
 # SAUCE Author: Spirit of Rage
 # SAUCE Group: Zenith
@@ -55,4 +55,4 @@ Write-Host '
 ░[34m██[0;1;34;44m░░▒▒▓▓█[0;1;34;46m▒[0;34;46m▓[0;34;40m▌▓[0;1;34;44m▒▒[0;34m▌▄[0;1;34;44m░[0;1;34;40m▒[0;34m ▀▓  ▒▀ ▄[0;1;34m░░[0m   [34m▄[0m     [1;30mit out yet... bah...[0m
 ░░░░░░░ ░░ ░ [1;34m░░[0;34m  ▒▒  ▓░ ▀  ▀   ▀[0m
 [1;30m1oo% original[0m     [34m░░  ▒░[0m    [34m░░[0m
-[1;30mansi by[0m sor[1;30m([0mzenith[1;30m)[0m     [34m░░[0m'
+[1;30m       [0m    [1;30m [0m      [1;30m [0m     [34m░░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1972b034561cfb3ff58b4910b073fe457e0cdb504ea88bab7229ad7bebf106f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-LG13.ANS by The Knight (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ansi logos pack 13
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel Productions
@@ -32,12 +32,12 @@ Write-Host '
 [1;30;40m░     ░░        ░       ░░  ▀▀▀▀[0m▀[1;33m▀[0m▀▀[1;30m▀▀▀▀       ░   [0m░░            [1;30m░░       ░░   ░[0m
 ░                                                                              ░
 ▒   [1;30m([0m%[1;30m) [0;33mmy mom has a lesbian lover [0m····································· [1;30m([0m%[1;30m)   [0m▒
-▒░  [1;30m([0m%[1;30m) [0;35myou lucky bastard!@#!@# [0m········································ [1;30m([0m%[1;30m)  [0m░▒
+▒░  [1;30m [0m [1;30m  [0;35m                        [0m                                         [1;30m [0m [1;30m   [0m░▒
 ▓▒  [1;30m([0m%[1;30m) [0;1;34msug min kuk snörvel, fikken poppen.... [0m························· [1;30m([0m%[1;30m)  [0m▒▓
-[1;47m░[0m▓  [1;30m([0m%[1;30m) [0;32mschweinefleish und rinderhosen mit kartoffeln [0m·················· [1;30m([0m%[1;30m)  [0m▓[1;47m░[0m
-[1;47m▒[0m▌  [1;30m([0m%[1;30m) [0mAT&F^ ATH0^ ATA^........eh, hello ? help me please! someone ? ·· [1;30m([0m%[1;30m)  [0m▐[1;47m▒[0m
-[1;47m▓[0;1;40m▄  [0;1;30;40m([0m%[1;30m) [0;36mdidn''t your 2400 come with a manual, asswipe ? [0m················· [1;30m([0m%[1;30m)  [0;1;37m▄[0;1;37;47m▓[0m
-[1;37;40m▐[0;1;37;47m█[0m▄ [1;30m([0m%[1;30m) [0;31mi eat ambulances for breakfast, so don''t mess with me..... [0m····· [1;30m([0m%[1;30m) [0m▄[1;47m█[0;1;40m▌[0m
+[1;47m░[0m▓  [1;30m [0m [1;30m  [0;32m                                              [0m                   [1;30m [0m [1;30m   [0m▓[1;47m░[0m
+[1;47m▒[0m▌  [1;30m [0m [1;30m  [0m                                                                 [1;30m [0m [1;30m   [0m▐[1;47m▒[0m
+[1;47m▓[0;1;40m▄  [0;1;30;40m [0m [1;30m  [0;36m                                               [0m                  [1;30m [0m [1;30m   [0;1;37m▄[0;1;37;47m▓[0m
+[1;37;40m▐[0;1;37;47m█[0m▄ [1;30m [0m [1;30m  [0;31m                                                           [0m      [1;30m [0m [1;30m  [0m▄[1;47m█[0;1;40m▌[0m
 [1;40m ▀█[0;1;47m▒[0m▄▄                                                                    ▄▄[1;47m▒[0;1;40m█▀[0;1;33;40m░[0m
 [1;33;40m    [0;1;37;40m▀▀[0m▀▀[1;47m░[0;1;30;47m▄[0m▄[1;30;47m▀▀▓▀[0m█▄[1;30m▄[0m▄[1;30;47m▀█[0;1;30;40m▄[0;1;30;47m█[0;1;30;40m▀▄■▄ [0;1;33;40madd oneliner now ? -y/N- [0;1;30;40m▄■▄▀[0;1;30;47m█[0;1;30;40m▄[0;1;30;47m█▀[0m▄[1;30m▄[0m▄█[1;30;47m▀▓▀▀[0m▄[1;30;47m▄[0;1;37;47m░[0m▀▀[1m▀▀   [0;1;33m░[0m
 [1;33m                                                                               ░[0m'

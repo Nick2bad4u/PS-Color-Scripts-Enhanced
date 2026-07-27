@@ -5,7 +5,7 @@
 # Source SHA-256: f3d8ae29d0d5e3f143518f3425e034a337bbfebd02db2c787ec3a78fb6f74b10
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VOIDJED2.ANS by Jed (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-46
 # Columns: 1-80
 
@@ -52,6 +52,4 @@ Write-Host '
 [1;30m   ▀▀▄▄▀▀ ■▄·   █[0m      [31mCo·S[0;1;31mought [0;1;37mAfter · INC Un[0;1;31mdergr[0;31mound[0;1;30m▐▌[0m         [1;30m▐▌  ▀ ▄▀▀▄▀[0m
 [1;30m  ▄▀▄  ▀▀▀▄▄   ▐█[0m           [1;30m▌[0m                            [1;30m▀▄ ▄[0m       [1;30m▀▄ ▄▄▄▀▀[0m
 [1;30m   ▀▀[0m       [1;30m▀▀▀▀█▄▄[0m        [1;30m▐▌[0m           [1;30m▌[0m                 [1;30m▄▀ ▀▀▀▄[0m     [1;30m▀▄[0m
-                   [1;30m▀▀▀▀▄▄▄▄█▄▄▄▄▄▄▄▄▀▀▀▀█▄▄▄▄▄▄▄▄▀▀▀▄▄▄▀▀▀[0m       [1;30m▀▄▄▄▀▀[0m
-
-                            [1;37m1[0m0[1m/2[0m1[1m/9[0m1[1;30m·[0;1;37mANS[0mi[1;30m·[0;1;37mJED[0;1;30m<[0mAC[1mi[0mD[1;30m>[0m'
+                   [1;30m▀▀▀▀▄▄▄▄█▄▄▄▄▄▄▄▄▀▀▀▀█▄▄▄▄▄▄▄▄▀▀▀▄▄▄▀▀▀[0m       [1;30m▀▄▄▄▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9d3d8e0b2342b408584a0520bf75936883976224b1525f6f969686c8892268de
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-HB2.ANS by cheezey (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hellbound
 # SAUCE Author: cheezey
 # SAUCE Group: eclipse
@@ -17,8 +17,8 @@
 Write-Host '
              ▄ ▄▄▄▄▄▄▄▄            ▄▄▄  ▄
          ▄[1;33;47m░[0m▄█[30;47myes stumpy?[0;37;40m█[0;30;47m-[0;1;33;47m [0;1;37;47m  [0m█[1;33;47m░[0;1;37;47m░░[0m▄▄▄▄▄▄▄
-        ▐█[30;47mNO! you''re HELLBOUND son! [0;1;37;47m░[0;30;47m [0;1;37;47m░░[0m▌  [1;30m┌-─-+-─[0m [1;30mlook![0m [1;30mits a raiguy(c)1996[0m
-         ▀[30;47m░(and you got cheeze on your [0;37;40m█   [0;1;30;40m│[0m
+        ▐█[30;47m                          [0;1;37;47m░[0;30;47m [0;1;37;47m░░[0m▌  [1;30m┌ ─   ─[0m [1;30m     [0m [1;30m                   [0m
+         ▀[30;47m░                            [0;37;40m█   [0;1;30;40m│[0m
             ▀▀▀[30;47m░░head..)[0;37;40m█[0;30;47m-[0;37;40m██[0;30;47m [0;1;33;47m ░[0m█[1;33;47m░░░[0m▀▀▀▀    [1;30m└─>[0;1;33m ▐[0;1;33;47m█[0;1;33;43m▄[0;1;33;40m▄▄▄[0;33m▄[0m
                     [37m▀▀▀▀▀▀▀▀[0m                [1;33m   ▀[0;1;33;47m▓[0;1;33;40m▀█[0;1;33;43m▓░[0;1;33;40m  [0m   ▄▄▄▄▄
          [1;30m [0;1;31mhel[0;31mlbo[0;33mund[0;31m+op[0;1;31m:da[0;31mrks[0;33mhad[0;31mow [0;1;30m░░[0;31m [0;1;30m░  [0m  [33m▄[0;1;31m [0;1;30m░░[0;1;33m ▀▀▀▀▀[0;33m▀[0;1;37m [0;1;33m [0m  ▐[1;33;47m [0;30;47mgod?[0;37;40m█[0;30;47m-[0;1;37;47m░ ░░[0m▄▄▄

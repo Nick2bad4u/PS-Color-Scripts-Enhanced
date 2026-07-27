@@ -5,7 +5,7 @@
 # Source SHA-256: 197e0f5b02e766ba4255424a311d31064df704ecc89c76279855aacde61b84a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PHISH.ANS by Elliz + Eerie + Spirit Of Illusion (Samsara & Legend); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Phish
 # SAUCE Author: Elliz & SOI
 # SAUCE Group: Samsara & Legend
@@ -33,6 +33,4 @@ Write-Host '
 [1;31;41m▓▓░░[0m [33m▐  ░  [0;31m█████[0;1;31;41m░░░[0;31m██ [0;33m▐ ░▀▀ [0;31m█[0m       [31m░[0m       [31m▐▌[0m            [33m▀   ▐ ░▀▀ [0;31m█[0m        [1;31;41m░░[0m
 [1;31;41m░░[0;31m██ [0;33m▐[0m     [31m██[0;1;31;41m░░░▓▓▓░░[0m [33m▀▀░  [0;31m▄█[0m       [31m▓[0m       [31m▐▓[0m             [31m█▌ [0;33m▀▀░   [0;31m█[0m        [31m██[0m
 [31m▓▓▓█ [0;33m▀[0m     [31m█████[0;1;31;41m░░░[0;31m▓▓    ░░██[0m       [31m█[0m       [31m▐▀▀[0m           [31m██▌[0m       [31m▀[0m
-[31m░░░[0m        [31m▀▀▀▀▀▀▀▀░░    ▓▓██▄▄▄[0m                         [31m▀▀▀▀[0m
-                                 [1;37mphish [0;33man [0;1;33melliz[0;33m(samsara)/[0;1;33msoi[0;33m(legend) production[0m
-                                                [33mwith an [0;1;33meerie [0;33mfont!@@!!@#  yes![0m'
+[31m░░░[0m        [31m▀▀▀▀▀▀▀▀░░    ▓▓██▄▄▄[0m                         [31m▀▀▀▀[0m'

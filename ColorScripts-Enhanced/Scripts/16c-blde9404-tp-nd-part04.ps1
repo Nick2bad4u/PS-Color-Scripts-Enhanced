@@ -5,7 +5,7 @@
 # Source SHA-256: 81277b3392708b3254bc40f893dcae37fc8f9c3ed52a75624b82a5746d81e55f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-ND.ANS by Technophreak (blde9404); released in blde9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 118-156
 # Columns: 1-80
 
@@ -48,4 +48,4 @@ Write-Host '
                      [31mr [0;1;31mu [0mn [1mn i n g  0 B L i V i [0m0 [1;31mN [0;1;30m· [0;31m2[0m
                         [31ms [0;1;31my [0ms [1mg o d  :  k a n o [0mb [1;31mi [0;31me[0m
 
-[31m   [0;1;30mANSi by TechnoPhreak  -  A BL/┤DE Production  -  Rockin'' the scene in ''94[0m'
+[31m   [0;1;30m                              ┤                                          [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: cb458383fceafbde50599e8c96adf41748b9532e3d32edaa9217b100986dd3be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LST-LOD1.ANS by soul trader (dox); released in dox_08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lands of defiance
 # SAUCE Author: soul trader
 # SAUCE Group: dox
@@ -16,7 +16,7 @@
 
 Write-Host '
 
-                                                      [1;33mlands of defiance.[0m
+                                                      [1;33m                  [0m
            [35m░[0;30;45m▓[0;1;36;40m  [0;35m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░░░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░░[0;30;45m▓▓[0;35;40m   ▀▀[0;1;36;40m [0;35m▀▀▀▀[0;1;36m [0;35m▀[0;1;35m▀[0;1;36m [0;35m▀▀[0;1;36m [0;35m▀▀[0;1;35m▀[0m   [35m▀[0m            [1;35m▀[0m
     [1;36m█[0;1;36;47m█████[0;1;36;40m███[0;36m█[0m     [35m ▀▀ ▀▀▀▀▀▀▀ [0;1;36m ████████[0;1;36;46m█▀[0;1;36;40m▀▀▀▀▀▀▀▀▓[0;36m░░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░░[0;30;46m▓▓[0;36;40m░[0;30;46m▓[0;1;36;40m  [0;36m░[0;30;46m▓[0m
     [1;37;40m███[0;1;36;47m█████[0;1;36;40m█[0;36m█[0m   [30;45m░[0;35;40m▓█[0;1;35;45m░[0;35m [0;1;36m█[0;1;36;47m█████[0;1;36;40m███[0;36m█[0;1;36m█████████[0;36m█[0;1;36m [0;35m▀[0;1;36m [0;35m▀▀[0;1;35;45m░░[0;1;36;40m █████████[0;36m█[0m
@@ -28,7 +28,4 @@ Write-Host '
                            [35m ▀[0;1;36m [0;1;37m███[0;1;36m██████[0;36m█[0;1;36m [0;35m░[0;30;45m▓[0;35;40m    [0;1;36;40m █████████[0;36m█[0;1;36m [0;35mlst..[0m
                               [1;36m█████████[0;36m█[0;1;36m [0;35m░[0;30;45m▓[0;35;40m    [0;1;36;40m █████████[0;36m█[0;1;36m [0;35m░░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░░[0;30;45m▓[0;1;36;40m [0;35m░[0;30;45m▓[0m
                [35m░[0;30;45m▓[0;35;40m░░[0;30;45m▓▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;1;36;40m █████████[0;36m█[0;1;36m [0;35m▄ ▄▄[0;30;45m░[0;35;40m▓ [0;1;36;40m███████[0;1;36;46m█[0;1;36;40m█[0;36m█[0m
-                            [35m▄[0;1;36m [0;35m▄▄▄▄▄[0;1;35m▄ [0;1;36m ▓[0;1;36;46m▄[0;1;36;40m▄▄▄▄▄▄▄▄█████████[0;30;46m░[0;36;40m▓[0m
-      [1;33;40mnews.. system info...[0m
-
-           [35m([0;1;33mnews[0;35m) [0;1;33mblah, blah, blah, blah,... ehehhehehhe[0m'
+                            [35m▄[0;1;36m [0;35m▄▄▄▄▄[0;1;35m▄ [0;1;36m ▓[0;1;36;46m▄[0;1;36;40m▄▄▄▄▄▄▄▄█████████[0;30;46m░[0;36;40m▓[0m'

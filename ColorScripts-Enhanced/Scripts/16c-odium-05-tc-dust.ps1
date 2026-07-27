@@ -5,7 +5,7 @@
 # Source SHA-256: 83e2012792e4bdda8e457b42f0de55abac3d21d179a86e99af8c094e7d909483
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TC-DUST.ANS by the crow (odium); released in odium-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dust
 # SAUCE Author: the crow
 # SAUCE Group: odium
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m7C(odium)[0m
+[1m         [0m
 
        [33m▄ ▄▄▄▄ ▄▄▄▄▄[0m          [33m▄▄  ▄▄[0m          [33m▄▄▄▄▄▄[0m          [33m▄▄▄▄▄▄[0m
           [33m▐██▌  [0;37m  [0;33m▀█▓▄[0m    [33m▄▓█▀[0m    [33m▀█▓▄[0m    [33m▄▓█▀[0m    [33m▀█▓▄[0m    [33m▄▓█▀ ██ ▀[0;1;33;43m▀▓[0;1;33;40m▄[0m
@@ -34,6 +34,4 @@ Write-Host '
           [1;33m▐██▌[0m    [1;33m▄█[0;1;33;43m▓[0;1;33;40m▀[0m    [1;33m▀▓█▄[0m    [1;33m▄█▓▀[0m    [1;33m▀▓█▄[0m    [1;33m▄█▓▀[0m        [1;33m ██    [0m
        [1;33m▀[0;33m [0;1;33m▀▀▀▀[0;33m [0;1;33m▀▀▀▀▀[0m          [1;33m▀▀▀▀▀▀[0m          [1;33m▀▀▀▀▀▀[0m      [1;33m▀  ▀ ▀▀▀▀▀▀ [0m
 
-[32m                 [0m    [31m [0;37m [0;31m    [0;37m [0;32;41m░[0;30;41md [0;37;40m [0;30;41m U[0;32;41m░[0;37;40m [0;30;41m S [0;37;40m [0;32;41m░[0;30;41mt [0;37;40m [0;30;41m ![0;32;41m░[0m
-
-[1;37;40m [0m                 [1;32mlocated in the 204, operated by [0;1;34mk[0;1;32mu[0;1;36mr[0;1;31mu[0;1;35mp[0;1;33mt[0;1;37m ..[0m'
+[32m                 [0m    [31m [0;37m [0;31m    [0;37m [0;32;41m░[0;30;41md [0;37;40m [0;30;41m U[0;32;41m░[0;37;40m [0;30;41m S [0;37;40m [0;32;41m░[0;30;41mt [0;37;40m [0;30;41m ![0;32;41m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f04e70277a67f039ad4eacd32f9fe04ef81b9de34d82ce4d5f7aa55c6c05d6be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-SPR01.ANS by Mr.Wrong (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Superfiend
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: irato
@@ -34,5 +34,4 @@ Write-Host '
     [32m [0;37m  [0;1;30m▀[0m  [35m▀▄[0;31m▀[0;1;31;41m▀▓[0;1;31;47m▄▓[0;1;31;41m▌[0;31m▌[0;35m▐[0;35;41m▓[0;35;40m▌[0;37;40m░[0;1;30;47m▓░▄▄[0;1;30;40m▀[0m [35m▄▀[0;31m▄[0;1;31;41m▄▀▀[0;31m▀[0;37m [0;33m▄[0;1;33;43m▄[0;33m▄░▄[0;1;33;43m▄█▓▀[0;33m▀[0;31m▄[0;1;31;41m ░▓[0;1;31;43m░[0;33m▄▀[0;1;33;43m▀▓▀[0;33m▀[0;1;35m░[0;35m░▀▄[0;31m▀[0;31;47m▄[0;1;31;41m▓[0;31m▌[0;37m   [0;1;30m▐▌[0m  [32m [0;1;30m▄[0m
             [35m▀[0;31m▀[0;1;31m▒[0;1;31;41m▀▀▓░[0;31m▄[0;35m▀[0;35;41m░[0;35;40m▄[0;37;40m░[0;1;30;40m▀[0m [31m▄[0;37m [0;35m▀[0;31m▄[0;1;31;41m░[0;31m▀▀[0;37m  [0;33m▀[0;1;33;43m░▒▓█▄▀▀[0;33m▀▀[0;37m  [0;31m▀[0;1;31;41m░▓[0;1;31;47m▓[0;1;31;41m▓[0;1;31;43m░[0;31m▌[0;33m▐▀[0;37m     [0;35m▐▌[0;31m▐[0;1;31;41m░[0;31m▀■▄[0;37m [0;1;30m▀[0m
               [35m   [0;31m▀▀▀▀▄[0;37m [0;35m▀[0;37m    [0;31m▐[0;35;41m░[0;35;40m░[0m   [37;40m  [0;33;40m░░▀▀▀  [0;37;40m [0m    [31;40m▐[0;31;47m▄[0;1;31;41m▀[0;31m▀▀▄[0;33m▀[0;37m [0m   [35m▄■▀[0;37m [0;31m▀[0m     [31m▀[0;37m [0;32m       [0m
-             [37m      [0m          [35m▀▄[0m     [37m [0m         [31m▄[0;37m [0;31m▀[0;37m  [0;31m▀[0;37m  [0m                   [32m   [0m
-            [33m-[0;37m [0;31m([0;1;31mSuper[0m [1;30malien sex [0;1;31mFiend[0;31m) [0;33m-[0;37m [0;33m+[0;31mo;[0;37m [0;1;31mQuip[0m [33m-[0;37m  [0;1;30mMr.Wrong[0m / [1;30mGlue[0m'
+             [37m      [0m          [35m▀▄[0m     [37m [0m         [31m▄[0;37m [0;31m▀[0;37m  [0;31m▀[0;37m  [0m                   [32m   [0m'

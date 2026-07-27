@@ -5,7 +5,7 @@
 # Source SHA-256: 4bc7e3bdaa10605951072d1b612e5fc330cd8f2923d51588dc1b345b9eb95866
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PNK-PBST.ANS by phanatik (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: psycho beaver
 # SAUCE Author: phanatik
 # SAUCE Group: lazarus
@@ -25,8 +25,8 @@ Write-Host '
           ▐▄[1m▄[0;1;31m▀█▀▀▀██▀▀▀[0;1;31;43m▓▓[0;1;31;40m█▀▀[0m▄[1;47m▄[0;1;40m█[0m               [1;30m>> [0;1;37muser stats[0m! [1;30m<<[0m
           ▀[1m███▌[0m▐[1;47m▄[0;1;40m█ [0m▄[1;47m░▓[0;1;40m█ [0m▄[1m▄[0;1;47m▄[0;1;40m▌▐█▀[0m
         [34m░[0;30;44m▓[0;37;40m  [0;1;37;40m▀▀ [0;1;37;47m▓▓[0;1;37;40m▀ ▀[0;1;37;47m▓[0;1;37;40m█▌ ▀▀[0m        [1;35m([0;1;31my[0;35m)[0;31met another ansee-screen for me board,[0m
-             [1;31m▐[0;1;31;43m▓[0;1;31;40m▄[0;33m▄[0m                 [1;35m([0mp[35m)[0;1;37msycho beaver[0m. [31mif you can, i''ll appritiate[0m
-        [36m▄▄▀ [0;1;31m▄[0;1;31;47m▓▓[0;1;31;43m░[0;33m▌ [0;36m▄[0m      [34m░[0;30;44m▓[0m       [1;35;40m([0;1;31;40ms[0;35m)[0;31mome art for it. welp, the drawing is pretty[0m
+             [1;31m▐[0;1;31;43m▓[0;1;31;40m▄[0;33m▄[0m                 [1;35m [0m [35m [0;1;37m            [0m  [31m                           [0m
+        [36m▄▄▀ [0;1;31m▄[0;1;31;47m▓▓[0;1;31;43m░[0;33m▌ [0;36m▄[0m      [34m░[0;30;44m▓[0m       [1;35;40m [0;1;31;40m [0;35m [0;31m                                           [0m
 [31m   [0;36m▄▄[0;36;46m [0;1;36;46m▄▓▀[0;36m▌▄ [0;1;31m▀▀▀[0;1;31;43m [0;33m▀ [0;36m▄██▄▄    [0;35m▄[0;1;31;45m▒[0;1;31;40m▄    [0;1;35;40m([0;1;31;40ms[0;35m)[0;31mimple. reminds me of [0;1;37mgoblins IV[0m. =)
  [36m▐████[0;36;46m [0;1;36;46m░[0;36m█▀▐███▄▄▄▀████[0;30;46m░[0;36;40m▓    [0;35;40m▀[0m     [1;35;40m([0;1;31;40mg[0;35m)[0;31mreets goes to mart/kaz/pg/m7m/sb/mentalt/[0m
 [1;37mpn[0;1;37;46mk░░[0m [36m███[0;1;33;46m░[0;36m▄▀███▀▄██▀███▀[0m             [31mriff raff/blutz/civax/ob/ps/phlare/dfuse/[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: c03e5be286f130ec169a76625d3753ec315d601b9a80eca5785d920b5c135e01
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V9-SG.ANS by Vade79 (f1RE); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Spinal Gamma
 # SAUCE Author: Vade79
 # SAUCE Group: f1RE
@@ -37,5 +37,4 @@ Write-Host '
 [1;36;40m░░░░░░░░░░░░░░░░░░░░░░░[0m     [36m░░[0;30;46m▓[0m     [1;31;40m [0m  [1;34m [0m   [1;30m▀[0m      [36m░░[0;1;36m░░░░░░░░[0;36m░[0;37m ▐[0;1;30m▀▀[0m   ▄[1;30;47m▓[0;1;30;40m███▀[0m [1;34m [0;36m░[0;1;36m░░░[0m
      G                A  ▐[1;30m▀[0m            M  ▀  [1;34m░[0m    [34m   [0m   [37mM[0m    [37m  ▄[0;1;30m▄[0m ▀[1;30m▀▀▀▀[0m  A
 
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mphear the shading on the top of the font... i wonder who started that style?  :)[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

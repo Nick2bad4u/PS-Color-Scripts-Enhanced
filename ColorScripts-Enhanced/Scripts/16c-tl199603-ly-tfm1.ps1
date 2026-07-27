@@ -5,7 +5,7 @@
 # Source SHA-256: c693d4d376c2688eec2fd4127cc0c86fed75c3a646cd731691fed8ca6e10e013
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LY-TFM1.ANS by Lysene (Teklordz); released in tl199603 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: TFM
 # SAUCE Author: Lysene
 # SAUCE Group: Teklordz
@@ -35,6 +35,4 @@ Write-Host '
 [36m░[0;37m  [0;36m░[0;37m▄▀█[0;1;31;47m▒░[0m█▀▀ ▄▄▄ [1;34m▀[0m [36m░[0;37m [0;1;34m█[0;1;34;46m▓[0;1;34;40m█[0m [1;34;46m▓▓[0;1;34;40m█[0m [1;34;46m▓[0;1;34;40m██[0m [1;34;46m▓[0;1;34;40m█[0;1;34;46m▓[0m [1;34m██[0;1;34;46m▓[0m [1;34;46m▓[0;1;34;40m██[0m [1;34;46m▓▓[0;1;34;40m█[0m [1;34;46m▓[0;1;34;40m██[0m [1;34;46m▓[0;1;34;40m██[0m [1;34;46m▓[0;1;34;40m█[0;1;34;46m▓[0m [1;34m█[0;1;34;46m▓▓[0m [1;34m█[0;1;34;46m▓[0;1;34;40m█[0m [36m░░[0;37m  [0;36m░[0m   [36m░[0m
 [37m   ▐[0;1;30m [0m▐[1;31;47m▒[0m▀▄▄▄[1;31;47m░▒░░[0m█[1;31;47m░[0m▄▄  [1;34m██▀[0m [1;34m▀██▄██▀[0m [1;34m▀██▄██▀[0m [1;34m▀██[0m [1;34m██▀[0m [1;34m▀█▀[0m [1;34m▀██[0m [1;34m██▀[0m [1;34m▀██▄██▀[0m   [1;33m░[0;1;31mlysene[0;1;33m░[0m
 
-[1;30m     [0m              [1;30m. [0mx [1mX  [0;1;36mT[0m [36mh[0;37m [0;1;30me[0m  [1;36mF[0m [36mi[0;37m [0;1;30ml[0m [1;30mt[0m [1;30mh[0m [1;30my[0m  [1;36mM[0m [36ma[0;37m [0;1;30mc[0m [1;30mh[0m [1;30mi[0m [1;30mn[0m [1;30me[0m  [1mX[0m x [1;30m.[0m
- [1;35mRenegade 10-05[0m  [1mKickass setup[0m  [1;35mCool message conferences[0m  [1mAlternatively themed[0m
-   [1mUp since June, 1995[0m  [1;35mSysop:  Lysene[0m  [1m(702)454-8970 [0m [1;35mcall now, fruitcake![0m'
+[1;30m     [0m              [1;30m. [0mx [1mX  [0;1;36mT[0m [36mh[0;37m [0;1;30me[0m  [1;36mF[0m [36mi[0;37m [0;1;30ml[0m [1;30mt[0m [1;30mh[0m [1;30my[0m  [1;36mM[0m [36ma[0;37m [0;1;30mc[0m [1;30mh[0m [1;30mi[0m [1;30mn[0m [1;30me[0m  [1mX[0m x [1;30m.[0m'

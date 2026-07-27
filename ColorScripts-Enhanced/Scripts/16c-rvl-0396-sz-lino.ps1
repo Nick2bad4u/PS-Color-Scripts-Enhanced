@@ -5,7 +5,7 @@
 # Source SHA-256: 9ea69841f4e4d010b2217e274aa1ce4483482f59d775d24ddbd8cc593c0261ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-LINO.ANS by Seize (RiVAL); released in rvl-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Linoleum
 # SAUCE Author: Seize
 # SAUCE Group: RiVAL
@@ -32,6 +32,4 @@ Write-Host '
       [1;34m [0m        [1;34m [0m    [31m▄▄[0;1;31;41m ▄░[0;31m▄▄▄[0;1;31;41m░▄[0;31m▄▄▄[0;1;31;41m░▄▄▄[0;1;31;40m█[0;1;31;41m▄▄[0;31m▄▄▄▄[0;1;31;41m░▄[0;1;31;40m██[0;1;31;41m▄▄▄▄▄▄▄▒░[0;31m▀[0;1;31msz[0;1;37m [0m
                      [31m▀[0;1;31;41m▀▀▓[0;1;31;40m█████████[0;1;31;41m▓▓▓▒░[0;1;31;40m████████████[0;1;31;41m▓▀▀[0;31m▀▀[0m
                        [31m ▀▀[0;1;31;41m░▀▀▀▓[0;1;31;40m█████[0;1;31;41m█[0;1;31;40m█████████[0;1;31;41m▓▒░[0;31m▀▀▀[0m
-                              [31m▀▀▀▀[0;1;31;41m░▒▀▀▀▀▀░[0;31m▀▀▀▀▀[0m
-
-                      [1;37mlinoleum...opped by leper messiah[0m'
+                              [31m▀▀▀▀[0;1;31;41m░▒▀▀▀▀▀░[0;31m▀▀▀▀▀[0m'

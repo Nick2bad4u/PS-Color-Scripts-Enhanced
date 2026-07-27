@@ -5,7 +5,7 @@
 # Source SHA-256: 1b4bfca39e8c5b5445ab2e8dd802f21aa38015801615dfe4d92f244d46b67b77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSNUA.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fika ! (c)
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
 
 
 
-[1;30m--------░░-░------------------▒----------------------------------------------░▓▓[0m
-[1;30mthe FS newuser-apply screen. it rockz.[0m                            [1;30mjerusalem~boil[0m'
+[1;30m--------░░-░------------------▒----------------------------------------------░▓▓[0m'

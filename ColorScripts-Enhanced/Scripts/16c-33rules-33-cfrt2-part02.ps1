@@ -5,7 +5,7 @@
 # Source SHA-256: 524cd9f0576eefb38d7f1b79ce6c64920d547c5c45a1713b8115009613552e26
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-CFRT2.ANS by Samsara 10/96 (Eerie & Dieznyik); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chronic Farts [j]
 # SAUCE Author: Samsara 10/96
 # SAUCE Group: Eerie & Dieznyik
@@ -63,5 +63,4 @@ Write-Host '
 [31;40m██[0;30;41m░[0;31;40m▓[0;30;41m  [0;31;40m█▄░░[0m     [37;40m  [0m                 [31;40m▄█[0;30;41m░[0;31;40m▓▌▐[0;30;41m░[0;31;40m▓██[0;30;41m░[0;31;40m▓██[0;30;41m░[0;31;40m▓█████[0;1;31;41m░░[0;31m██[0;30;41m░[0;31;40m▓██[0;1;31;41m░░░░[0;31m█[0;37;41m░[0;31;47m▓[0;31;40m▌▌[0;30;41m░[0;31;40m▓[0;37;40m [0;31;40m░[0;30;41m▓[0m
 [30;41m░[0;31;40m▓██[0;30;41m░[0;31;40m▓██[0;30;41m░[0;31;40m▓▄▄▄▄[0m       [31;40m▄▄[0m     [31;40m▄▄▄▄██[0;30;41m░[0;31;40m▓█▀  █[0;30;41m ░[0;31;40m▓██[0m
 [31;40m░[0;30;41m▓░[0;31;40m▓██[0;30;41m░[0;31;40m▓██[0;30;41m░[0;31;40m▓██[0;30;41m░[0;31;40m▓██[0;1;31;41m░░[0;31m█▀▐█[0;1;31m▒[0;31m██[0;37;41m░░[0;31;40m█▌▀▀▀▀      ▓█▀▐█[0;37;40m  [0;31;40mchronic farts.. op''d by fury    [0m
-          [31;40m░░[0;37;40m  [0;31;40m ▐▀[0m        [31;40m▐▀[0;37;40m [0m           [31;40m  [0m
-[31;40mansi by [0;1;31;40meerie[0;31m [0;1;31m              [0;31mfont by [0;1;31mdieznyik[0m'
+          [31;40m░░[0;37;40m  [0;31;40m ▐▀[0m        [31;40m▐▀[0;37;40m [0m           [31;40m  [0m'

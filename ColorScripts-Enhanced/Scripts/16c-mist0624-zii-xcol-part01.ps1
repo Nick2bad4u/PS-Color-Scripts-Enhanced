@@ -5,7 +5,7 @@
 # Source SHA-256: 402894964c53be7ba49726643d9277c899b2528e2f573dac97aa26661f9bfc23
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-XCOL.ANS by Zeus II (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Xibalba - Last Callers
 # SAUCE Author: Zeus II
 # SAUCE Group: Mistigris
@@ -39,10 +39,4 @@ Write-Host '
 [1;30m▄█[0m                                                                           [1;30;42m▓[0;1;30;40m▄[0m
 [1;30m▓▄[0m                                                                           [1;30m▄▓[0m
 [1;30m▒▓[0m [1;30m░[0m                                                                     [1;30m░[0m [1;30m░[0m [1;30m▓▒[0m
-[1;30m░▒░░░[0m [1mn[0m=[35mnew[0;1;37m  d[0m=[35mdownload[0;1;37m  u[0m=[35mupload[0;1;37m  p[0m=[35mpost  [0;1;37mm[0m=[35mmail[0;1;37m  D[0m=[35mdoor[0;1;37m  A[0m=[35machievement[0;37m [0;1;30m░░▒▒░░[0m
-
-
-
-
-
-'
+[1;30m░▒░░░[0m [1m [0m [35m   [0;1;37m   [0m [35m        [0;1;37m   [0m [35m      [0;1;37m   [0m [35m      [0;1;37m [0m [35m    [0;1;37m   [0m [35m    [0;1;37m   [0m [35m           [0;37m [0;1;30m░░▒▒░░[0m'

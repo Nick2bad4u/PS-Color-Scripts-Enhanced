@@ -5,7 +5,7 @@
 # Source SHA-256: 7a24cb561ba581ddb698ef56d92302257ca48486855f526310694027d5562a93
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-BLACK.ANS by insert (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: black hole
 # SAUCE Author: insert
 # SAUCE Group: Phat Studios '97
@@ -47,5 +47,5 @@ Write-Host '
    [31m▐[0;1;31;41m█▒[0;31m░[0;37m [0;34m▀[0;1;34;44m▀▒░[0;34m▀▀▀▀▀[0;37m [0;31m▄▄▄▄▄▄▄▄█[0;1;33;41mh  o  l  e  [0;1;5;33;41m_[0;31m▐███████▄▄▀▀█[0;1;31;41miN[0;31m██▄▄████[0;1;31;41m░▒[0;31m██[0;1;31;41m ▓████▌[0m
      [1;31;41m▐[0;31m█▄▄ [0;37m [0;31m▄[0;1;31m▄[0;1;31;41m▄▄█▓▓░▀[0;31m▄▄▀▀▀███████[0;1;31;41m  [0;31m██████[0;37m  [0;31m▀▀███▀▀[0m      [31m▀▀██████▀▀[0;37m [0;31m▌▐[0;1;31;41m░█[0;1;31;45m▓▓[0;1;31;41m█▌[0;31m█[0m
         [1;31;41m░▀▒[0;31m▀▀▀▀▀▀▀▀[0;37m [0;1;30mdon''t smoke[0m  [31m▀▀▀▀[0m                     [31m▄█▌[0;37m [0;31m▀▀[0;37m [0;31m▀█▐[0;1;31;41m░▀▀▀█▀[0;31m█▌[0m
-              [1;30m- call black hole instead[0m                    [31m▌[0m       [31m▀▀[0;37m  [0;31m▀█▀[0m
+              [1;30m                         [0m                    [31m▌[0m       [31m▀▀[0;37m  [0;31m▀█▀[0m
                                                                         [31m▌[0m'

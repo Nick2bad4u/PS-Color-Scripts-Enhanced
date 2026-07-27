@@ -5,7 +5,7 @@
 # Source SHA-256: 9c09bd6f45cb21c94af2cb1c3ee88e919d2a72a41c4b24b7e4512aca6befb6a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-COA.ANS by splatt (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: corwin of ambah
 # SAUCE Author: splatt
 # SAUCE Group: eclipse
@@ -33,7 +33,4 @@ Write-Host '
                    [1;32;42m [0;1;32;40m███████████████████[0m [36m█[0;1;36;46m▀▀▀[0;36m█[0;37m [0;1;32m████[0;1;32;42m▌[0;32m▌[0;37m  [0;36m▀▀▀▀▀[0m
                    [1;32;42m [0;1;32;40m███[0;1;32;47m██[0;1;32;40m███[0;1;32;42m▀▀[0;1;32;40m█████████▄▄▄▄▄▄▄█[0;1;32;42m▀[0;1;32;40m▀▀▀[0;32m▀[0m
                 [32m▄[0;1;32m▄[0;32m▄█[0;1;32;42m▀▀[0;1;32;40m█[0;1;32;47m▓▓▓[0;1;32;42m▀▀[0;32m▌▀▀▀[0;1;32m▀▀▀▀[0;32m▀▀░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░░[0;30;42m▓[0;32;40m░   [0m
-                   [32;40m▀[0m          [32;40m           [0m
-
-                   [1;36;40m      [0;1;32;40mst[0m [1;32m+[0m [1;36mcorwin of ambah   [0m
-                           [36m [0m'
+                   [32;40m▀[0m          [32;40m           [0m'

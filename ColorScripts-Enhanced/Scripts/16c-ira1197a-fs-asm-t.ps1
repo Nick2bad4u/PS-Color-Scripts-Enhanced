@@ -5,7 +5,7 @@
 # Source SHA-256: 9184476378171c2728a881844eddd3d98a30e3b42635a3cc46e2ca4070663c29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-ASM_T.ANS by Flying Squirrel (Irato); released in ira1197a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: TAP (asm)
 # SAUCE Author: Flying Squirrel
 # SAUCE Group: Irato
@@ -34,8 +34,5 @@ Write-Host '
 [37m`$0$'' `$0$'' `$0$''($ t$$$$$$$²$$$$░`t$$$$$b.$$$l$$$$''$$$l,$ `$0$''_`$0$'' `$0$'' `[0m
 [37m `$''   `$''   `$''  bl`$$$$$|  $$$$.n.   `$$$)$$ $$$$ $$$ $''  `$'':: `$''   `$''[0m
 [37m       ::   ░   ░ `².`$$$$n,l`$$$$`t$$$$$P''dP$. `'',$$'',''   ░   ::     ░    ░[0m
-[37m   ░   ::           `tbannc☺''bcnna²bannncd²bnccd"tan☺²         ::▒[0m
-                                [37m░[0m
-             [37m [0m
-[37mversion ansi/ascii du header de mon tutorial d''assembleur.[0m
-[37mmon second ascii a vie en passant =)[0m'
+[37m   ░                                                             ▒[0m
+                                [37m░[0m'

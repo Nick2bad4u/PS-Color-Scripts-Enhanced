@@ -5,7 +5,7 @@
 # Source SHA-256: 4aa5028b6b6c6c201dc8b7547bae5a66efcf91d0a23a4b02c79412ae5a10d4f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-LFW.ANS by Nirvana (DVS); released in dvs-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lost For Wordz
 # SAUCE Author: Nirvana
 # SAUCE Group: DVS
@@ -41,26 +41,23 @@ Write-Host '
 [1;32;40m [0;1;32;42m▒▒▒▓▓▓████[0;32m█▌▄▄▌[0;32;42m [0;1;32;42m▓▒▓[0;1;32;40m▀  [0;32m▀▀▀▀▀▀[0m                            [32m▀ [0;1;32m▀▀▀[0;1;32;42m▓▓▒▒▒[0;1;32;40m▐[0;1;32;42m░[0;32m▄[0;1;32m▀▀█████[0m
 [1;32m [0;1;32;42m▒▒[0;1;32;40m▀▀▀▀▀▀▀▀▀[0m                                                        [1;32;40m▀▀▀▀[0;32m▄▄[0;1;32m▀▀ █[0m
 
-[32m[[0;1;32mbbs[0;32m][0m                      [1;32ml o s t  f o r  w o r d z[0m                      [32m[[0;1;32mbbs[0;32m][0m
+[32m [0;1;32m   [0;32m [0m                      [1;32m                         [0m                      [32m [0;1;32m   [0;32m [0m
 [32m[[0;1;32mphone[0;32m][0m                    [32m[ [0;1;32m4 o 8 [0;32m] [0;1;32m7 7 8 [0;32m- [0;1;32m3 2 3 3[0m                    [32m[[0;1;32mphone[0;32m][0m
-[32m[[0;1;32mstaff[0;32m][0m                    [1;32ms y s o p [0;32m: [0;1;32mn i r v a n a[0m                    [32m[[0;1;32mstaff[0;32m][0m
-[32m[[0;1;32mstaff[0;32m][0m                     [1;32ms y s o p [0;32m: [0;1;32mo s i r i s[0m                     [32m[[0;1;32mstaff[0;32m][0m
-[32m[[0;1;32mstorage[0m                   [1;32m1 [0;32m. [0;1;32m2   g i g a b y t e s[0m                  [32m[[0;1;32mstorage[0;32m][0m
-[32m[[0;1;32mmodems[0;32m][0m               [1;32mu s r  1 4 [0;32m. [0;1;32m4  s p o r t s t e r[0m               [32m[[0;1;32mmodems[0;32m][0m
-[32m[[0;1;32morigin[0;32m][0m                      [1;32mo r i g i n   w h q[0m                      [32m[[0;1;32morigin[0;32m][0m
-[32m[[0;1;32mguild[0;32m][0m                         [1;32mg u i l d  w h q[0m                        [32m[[0;1;32mguild[0;32m][0m
-[32m[[0;1;32mscum[0;32m][0m                   [1;32ms c u m  m e m b e r  b o a r d[0m                 [32m[[0;1;32mscum[0;32m][0m
-[32m[[0;1;32mstile[0;32m][0m                 [1;32ms t i l e  m e m b e r  b o a r d[0m               [32m[[0;1;32mstile[0;32m][0m
-[32m[[0;1;32mnafta[0;32m][0m                 [1;32mn a f t a  m e m b e r  b o a r d[0m               [32m[[0;1;32mnafta[0;32m][0m
-[32m[[0;1;32mparamount[0;32m][0m                [1;32mp a r a m o u n t  u s h q[0m               [32m[[0;1;32mparamount[0;32m][0m
-[32m[[0;1;32msap[0;32m][0m                     [1;32ms a p  d i s t r o  s i t e[0m                     [32m[[0;1;32msap[0;32m][0m
-[32m[[0;1;32misd[0;32m][0m                     [1;32mi s d  d i s t r o  s i t e[0m                     [32m[[0;1;32misd[0;32m][0m
-[32m[[0;1;32mdvs[0;32m][0m                    [1;32md v s  m e m b e r  b o a r d[0m                    [32m[[0;1;32mdvs[0;32m][0m
-[32m[[0;1;32mnpc[0;32m][0m                     [1;32mn p c  d i s t r o  s i t e[0m                     [32m[[0;1;32mnpc[0;32m][0m
-[32m[[0;1;32mdie[0;32m][0m                     [1;32md i e  d i s t r o  s i t e[0m                     [32m[[0;1;32mdie[0;32m][0m
-[32m[[0;1;32msoftware[0;32m][0m                  [1;32mp c b o a r d  1 5 . 2[0m                   [32m[[0;1;32msoftware[0;32m][0m
+[32m [0;1;32m     [0;32m [0m                    [1;32m          [0;32m  [0;1;32m             [0m                    [32m [0;1;32m     [0;32m [0m
+[32m [0;1;32m     [0;32m [0m                     [1;32m          [0;32m  [0;1;32m           [0m                     [32m [0;1;32m     [0;32m [0m
+[32m [0;1;32m       [0m                   [1;32m  [0;32m  [0;1;32m                     [0m                  [32m [0;1;32m       [0;32m [0m
+[32m [0;1;32m      [0;32m [0m               [1;32m           [0;32m  [0;1;32m                    [0m               [32m [0;1;32m      [0;32m [0m
+[32m [0;1;32m      [0;32m [0m                      [1;32m                   [0m                      [32m [0;1;32m      [0;32m [0m
+[32m [0;1;32m     [0;32m [0m                         [1;32m                [0m                        [32m [0;1;32m     [0;32m [0m
+[32m [0;1;32m    [0;32m [0m                   [1;32m                               [0m                 [32m [0;1;32m    [0;32m [0m
+[32m [0;1;32m     [0;32m [0m                 [1;32m                                 [0m               [32m [0;1;32m     [0;32m [0m
+[32m [0;1;32m     [0;32m [0m                 [1;32m                                 [0m               [32m [0;1;32m     [0;32m [0m
+[32m [0;1;32m         [0;32m [0m                [1;32m                          [0m               [32m [0;1;32m         [0;32m [0m
+[32m [0;1;32m   [0;32m [0m                     [1;32m                           [0m                     [32m [0;1;32m   [0;32m [0m
+[32m [0;1;32m   [0;32m [0m                     [1;32m                           [0m                     [32m [0;1;32m   [0;32m [0m
+[32m [0;1;32m   [0;32m [0m                    [1;32m                             [0m                    [32m [0;1;32m   [0;32m [0m
+[32m [0;1;32m   [0;32m [0m                     [1;32m                           [0m                     [32m [0;1;32m   [0;32m [0m
+[32m [0;1;32m   [0;32m [0m                     [1;32m                           [0m                     [32m [0;1;32m   [0;32m [0m
+[32m [0;1;32m        [0;32m [0m                  [1;32m                      [0m                   [32m [0;1;32m        [0;32m [0m
 
-[1;30m- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
-[1;30mgreetz: void, sap, count zero, keymaster, pale, deft, bleach, osiris, smiley,[0m
-[1;30mcasual, scandal, the whole dvs crew, bishop, nafta, moonbeam, and all the other[0m
-[1;30msmall art groups, you keep the art scene alive.[0m                          [1;30m-ni-[0m'
+[1;30m- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m'

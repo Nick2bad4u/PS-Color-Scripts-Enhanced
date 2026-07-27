@@ -5,7 +5,7 @@
 # Source SHA-256: b1833817b0740a67b83dc349d6d65d1c8c05f2965fc03d445837f1d9a72284fb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UV-WHAT.ICE by Ultra Vires (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 37-83
 # Columns: 1-80
 
@@ -36,22 +36,22 @@ Write-Host '
 [36m  ▀▄[0;34m▀▓▓███▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██▄▄▄▄▄██████▄▄▄▄▓▀[0;36m▄▀[0m
 [36m    ▀▄▄[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▄▄▀[0m
        [36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                                      [1m▐[0;31;47mU[0;1;30;40m▌l[0mt[1mra Vires [0;1;30m∙ [0;1;37m▐[0;34;47mi[0;1;30;40m▌C[0mE [1mTrial Member[0m
+                                      [1m▐[0;31;47m [0;1;30;40m▌ [0m [1m         [0;1;30m  [0;1;37m▐[0;34;47m [0;1;30;40m▌ [0m  [1m            [0m
 
 
              [1;30m·∙-[0m──[1m────── [0;1;30mW[0mh[1mat [0;1;30mT[0mh[1me[0;34m..[0;1;30m?[0m! [1;30m─[0m─[1m─ [0;1;30m4[0m1[1m6[0;34m.[0;1;30m2[0m2[1m2[0;34m.[0;1;30m0[0m9[1m21 ──────[0m─-[1;30m─∙·[0m
-                         [1;30mU[0mS[1mRobotics [0;1;30m1[0m6[1m.8 [0;1;30mD[0mu[1mal [0;1;30mS[0mt[1mandard[0m
-                       [1;30m1[0m.[1m4 [0;1;30mG[0mi[1mgabytes [0;1;30mI[0mB[1mM [0;1;30mS[0mo[1mftware [0;1;30mO[0;1;37mnline[0m
-             [1;30m·∙- P[0mC[1mBoard 1[0m4[1m.5a/E3 [0;1;30mC[0mo[1mmpletely [0;1;30mC[0mu[1mstomized [0;1;30mb[0my [1;36mi[0;1;34mC[0;34mE [0;1;30m─∙·[0m
-                   [1;30mF[0ma[1mlls [0;1;30mH[0me[1mir [0;1;30mt[0mo [1;30mN[0me[1mw [0;1;30mF[0mi[1mles [0;1;30mT[0mr[1memendously [0;1;30mF[0ma[1mst[0m
-                        [1;30mS[0my[1msOps: [0;1;30mU[0ml[1mtra [0;1;30mV[0mi[1mres <[0;1;36mi[0;1;34mC[0;34mE[0;1;30m∙[0mT[1mrial>[0m
-                [1m∙[0m           [1;30mS[0ma[1mvage [0;1;30mM[0ma[1mnticore [0;1;30m<[0mε[1mG0>[0m             [1m∙[0m
-                [1;30m│[0m         [1;30mM[0ma[1mss [0;1;30mD[0me[1mstruction [0;1;30m<[0mE[1mXTiNCT>[0m           [1;30m│[0m
+                         [1;30m [0m [1m         [0;1;30m [0m [1m   [0;1;30m [0m [1m   [0;1;30m [0m [1m      [0m
+                       [1;30m [0m [1m  [0;1;30m [0m [1m        [0;1;30m [0m [1m  [0;1;30m [0m [1m       [0;1;30m [0;1;37m     [0m
+             [1;30m     [0m [1m       [0m [1m       [0;1;30m [0m [1m         [0;1;30m [0m [1m         [0;1;30m [0m  [1;36m [0;1;34m [0;34m  [0;1;30m─  [0m
+                   [1;30m [0m [1m    [0;1;30m [0m [1m   [0;1;30m [0m  [1;30m [0m [1m  [0;1;30m [0m [1m    [0;1;30m [0m [1m           [0;1;30m [0m [1m  [0m
+                        [1;30m [0m [1m      [0;1;30m [0m [1m    [0;1;30m [0m [1m     [0;1;36m [0;1;34m [0;34m [0;1;30m [0m [1m     [0m
+                [1m [0m           [1;30m [0m [1m     [0;1;30m [0m [1m        [0;1;30m [0m [1m   [0m             [1m [0m
+                [1;30m│[0m         [1;30m [0m [1m   [0;1;30m [0m [1m          [0;1;30m [0m [1m       [0m           [1;30m│[0m
                 │                                              │
          [1m∙ [0;1;30m──[0m──[1m─┼─[0m──[1;30m── [0;1;37m∙[0m                                [1;37m∙ [0;1;30m──[0m──[1m─┼─[0m──[1;30m── [0;1;37m∙[0m
                 │ [1;47m▀[0;1;40m▀▀[0m▀[1;30m▀ ▀[0m                              [1;30m▀ ▀[0m▀[1m▀▀[0;1;47m▀[0m │
-                [1;30m│ ▀  A[0ml[1ml [0;1;30ma[0mr[1me [0;1;30mw[0me[1mlcome [0;1;30mt[0mo [1;30ma[0mp[1mply[0;35m, [0;1;30mp[0ma[1mrticularly  [0;1;30m▀ │[0m
-                [1;30m│ ▄ t[0mh[1mose [0;1;30mb[0me[1mlonging [0;1;30mt[0mo [1;30ma[0mn [1;30me[0ms[1mtablished [0;1;30mg[0mr[1moup[0;35m. [0;1;30m▄ │[0m
+                [1;30m│ ▀   [0m [1m  [0;1;30m [0m [1m  [0;1;30m [0m [1m      [0;1;30m [0m  [1;30m [0m [1m   [0;35m  [0;1;30m [0m [1m            [0;1;30m▀ │[0m
+                [1;30m│ ▄  [0m [1m    [0;1;30m [0m [1m        [0;1;30m [0m  [1;30m [0m  [1;30m [0m [1m          [0;1;30m [0m [1m   [0;35m  [0;1;30m▄ │[0m
                 │ [1;47m▄[0;1;40m▄▄[0m▄[1;30m▄ ▄[0m                              [1;30m▄ ▄[0m▄[1m▄▄[0;1;47m▄[0m │
          [1m∙ [0;1;30m──[0m──[1m─┼─[0m──[1;30m── [0;1;37m∙[0m                                [1;37m∙ [0;1;30m──[0m──[1m─┼─[0m──[1;30m── [0;1;37m∙[0m
                 │                                              │

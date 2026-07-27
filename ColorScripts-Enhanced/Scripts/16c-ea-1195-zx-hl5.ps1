@@ -5,7 +5,7 @@
 # Source SHA-256: 83f3fd5ad776c74f5548614b6e78aa1219a0d3bc65e8c68cd518e4ae8fac117c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZX-HL5.ANS by zix (error art); released in ea_1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: highland
 # SAUCE Author: zix
 # SAUCE Group: error art
@@ -47,10 +47,4 @@ Write-Host '
    [1;30m████▀████[0m [1;30m▄▄▄█[0m [1;30m▄███▀████[0m [1;30m████▀████[0m [1;30;47m█[0;1;30;40m███[0m [1;30m▄▄▄▄[0m [1;30m ▄▄▄▄████[0m [1;30m▄██[0;1;30;47m█[0;1;30;40m▀███▄[0m [1;30;47m█[0;1;30;40m███▀███▄[0m [1;30m  [0m
    [1;30m████[0m [1;30m▐███[0m [1;30m▐███▌▀███▄████[0m [1;30m████[0m [1;30m▐███[0m [1;30;47m██[0;1;30;40m██[0m [1;30m▐███▌████[0m [1;30m▐███▌███[0;1;30;47m█[0m [1;30m▐███[0m [1;30;47m█[0;1;30;40m███[0m [1;30m▐███▌[0m
    [1;30m▀▀▀▀ ███▌[0m [1;30m▀▀▀▀[0m [1;30m ▄▄▄ ███▌[0m [1;30m▀▀▀▀ ███▌[0m [1;30m▀▀▀▀▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀ ███▌[0m [1;30m▀▀▀▀▀▀▀▀ [0m
-                   [1;30m ▀▀▀▀▀▀  [0m                                      [1;30m   [0m
-   [1;30m                         °the Greatest board ever°[0m
-
-                     [1;30m °one of the few artboards in sweden°[0m
-                        [1;30m°tons of bbs programs and utils°[0m
-
-[1;30m [0m                           [1;30m°ansipicbyzixoferrorart°[0m'
+                   [1;30m ▀▀▀▀▀▀  [0m                                      [1;30m   [0m'

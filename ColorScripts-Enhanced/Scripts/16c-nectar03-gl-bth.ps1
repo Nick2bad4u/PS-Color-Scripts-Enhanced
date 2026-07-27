@@ -5,7 +5,7 @@
 # Source SHA-256: 1a203e6bc032ed908d448be52001236bede677b93a4319f4f0c2175100641656
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GL-BTH.ANS by grimlock (nectar03); released in nectar03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: grimlock
 # SAUCE Date: 19960302
 # SAUCE Dimensions: 80x22
@@ -32,5 +32,4 @@ Write-Host '
                 [1;30m░[0m     [1;30m░[0m   [1;30m [0m                     [31m▄▄█▀[0m           [1;30m▀[0m
                                                [31m█▓░[0m    [31m░[0m          [1;30m▀[0m [1;30m■[0m
                                               [31m▐█▓[0m    [31m [0m
-                                               [31m▀▀█▄[0;37m [0;31m▀ [0;37m  [0m
-                                                    [37m [0m        [37mGrimlock/Fire[0m'
+                                               [31m▀▀█▄[0;37m [0;31m▀ [0;37m  [0m'

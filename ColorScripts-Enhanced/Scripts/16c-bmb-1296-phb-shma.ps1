@@ -5,7 +5,7 @@
 # Source SHA-256: 8a796cec55803346df2876d942269e3c83b66f0ebf8414207dd3effe0629eb94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PHB-SHMA.ANS by phobic ([-X-] bamboosh [-X-]); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: [ans] shithouse man [ans]
 # SAUCE Author: phobic
 # SAUCE Group: [-X-] bamboosh [-X-]
@@ -20,9 +20,9 @@ Write-Host '
 [34m                  ▄▒▀▀▓[0;37m [0;34m                                  ▀▄▄▄                  [0m
 [34m               ▄▄▀                                            ▀▄▄               [0m
 [34m             ▄▀                                                 ░▒▄             [0m
-[34m           ▄▓ [0m      [37mOuch, I''m ugly as hell...[0m                    [34m░▒▓▄           [0m
-[34m          █[0;37m [0;34m         [0;37mBut hey, phobic drew his first[0;34m               ░▒▓█▌         [0m
-[34m         ▐            [0;37mansi-face ever! that''s a surprise![0;34m           ░▒▓█         [0m
+[34m           ▄▓ [0m      [37m                         [0m                    [34m░▒▓▄           [0m
+[34m          █[0;37m [0;34m         [0;37m                              [0;34m               ░▒▓█▌         [0m
+[34m         ▐            [0;37m                                  [0;34m           ░▒▓█         [0m
 [34m        ▐░                                                           ░▓▌        [0m
 [34m        █ [0m     [37m  [0m                                                     [34m▒█        [0m
 [34m        █ [0m                   [30;43m▓▒[0;33;40m▄[0;1;31;40m▄▄▄[0;1;31;43m▄[0;1;31;40m██████[0;1;31;43m▄▄▄[0;1;31;40m▄▄▄▄[0m                     [34m░█        [0m

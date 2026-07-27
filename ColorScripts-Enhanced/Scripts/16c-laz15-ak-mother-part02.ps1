@@ -5,7 +5,7 @@
 # Source SHA-256: 8e5fe518e6a891dd6c574107d464fbe21b14103362d78c52d552643cf4269733
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-mother.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: glenn is gross
 # SAUCE Author: abstrakt
 # SAUCE Group: lazarus
@@ -30,7 +30,7 @@ Write-Host '
 [37m       [0;1;30m`[0m       [33m`*[0;1;31mj$$$$$$$$$$[0;33m$`''└*Sjj$$$$S*$$[0;1;31m$S[0;33m#s/`   ┘`[0m
 [37m                  [0;33m`└[0;1;31m*$j$$$$$$[0;33m$Ss┐.[0;1;31m  [0;33m`$$`.,[0;1;31m$$$j[0;33mP` [0;1;30m┘[0m`            [31mFOR EMMA[0;1;31m♥[0m
                        [33m`''²└[0;1;31m*⌂S$$$[0;33m$$  ''$ S⌂*┘`[0m
-[37m                                [0;33m```''[0;37m                           [0;30;41mGLENN IS GROSS[0m
+[37m                                [0;33m    [0;37m                           [0;30;41m              [0m
 
 
 

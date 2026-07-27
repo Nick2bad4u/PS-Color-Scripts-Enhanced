@@ -5,7 +5,7 @@
 # Source SHA-256: 229b54fbd5a2f895f8558f69f31d0faa324984d721a86d5824ee05410c2330d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-IRAT.ANS by Mr.Wrong (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: First Logo.
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Irato
@@ -32,6 +32,4 @@ Write-Host '
            [1;30m▐[0m [1;31m▀[0m [31m▀[0;1;31m▀[0;31m▀▀▌▄[0;1;33m░[0m  [1;31;47m░[0;1;31;40m▀[0;1;31;41m▄▓░[0;41m░[0;1;36;41m░[0;1;37;41m░░[0;1;33;41m▀[0;31m▀[0;37m [0;1;30m▄[0m [1;31m░[0m [1;30m▄▄[0m [31m░[0;37m [0;1;30m▄▀▀▐▄▄▄▀▌[0;1;37m▀[0;31m [0;1;30m▄▀▀▄[0;31m  ▌[0;1;30m▄▀[0m
  irato     [1;30m▀▀▀▀▀▄ [0;31m▀[0;37m [0;1;30m▄▄▄▄▄▄[0m  [31m▀▀[0;30;47m▓[0;31;40m▀▀ [0;1;33;40m░[0m [1;30m▌▌▄▄▀ ▌▄▄▌[0m       [1;30m▀▀▀[0m    [1;30m▌[0;31m▀ [0;1;30m█[0m
                  [1;30m▀▀▀[0m      [1;30m▀▀▀▄▄▄▀▄▄▄▌▀[0m    [1;30m▀[0m                 [1;30m▀▀▀[0m
- [1;30m------------------------------------------------------------------------------[0m
- [1;30m-[0m Actually, it''s my 1st "font" & i don''t know why i release it...euh. I think
-   i will work on it for the next pack. (if there is any other).[0m'
+ [1;30m------------------------------------------------------------------------------[0m'

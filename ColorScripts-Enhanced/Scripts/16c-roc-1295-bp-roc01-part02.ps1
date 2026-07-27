@@ -5,7 +5,7 @@
 # Source SHA-256: f343262dc1d798cc062ca3999453522be94d56e4fcb8a9eac820831b56585bfe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BP-ROC01.ANS by Blood Priest (ROC); released in roc-1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ROC & RAT!
 # SAUCE Author: Blood Priest
 # SAUCE Group: ROC
@@ -29,7 +29,7 @@ Write-Host '
       [1;30m▐██[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m████▌[0m▐[1;47m ░░▓▓██▓▓▓▓▓▒▓▒▓▓▓▓▓▒▓█▒▒░[0m█ [1;30m██████[0;1;30;47m▓▓[0;1;30;40m██[0m     [1;30mby[0m
       [1;30m▐██[0;1;30;47m▓▓▓▓▓▓[0;1;30;40m██▌[0m▐██[1;47m░▒▓▓██▓████▓▓▓███▒▀▒░░[0m███ [1;30m███[0;1;30;47m▓▓▓▓▓[0;1;30;40m██[0m     [1;30mThe Prodigy''s[0m
       [1;30m ▓███[0;1;30;47m▓▓▓▓▓▓[0;1;30;40m█▄▄[0m▀▀▀▀▀▀[1;47m▀░[0m██[1;47m▀▀▀░▀▀░[0m█▀▀▀▀▀▀[1;30m▄▄▓█[0;1;30;47m▓▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m████[0m     [1;30mMusic For The[0m
-                                                              [1;30mJilted Generation[0m
+                                                              [1;30m                 [0m
   [32m  [0m      [32m  [0m
 [32m [0;1;30;42m░[0;1;32;42m▒░[0;32m▀[0;1;30m▄▄▀[0;1;30;42m▓░[0;1;32;42m▒░[0;32m▀[0;1;30m▄▄▀[0;1;30;42m▓░[0;1;32;42m▒░[0;32m▀[0;1;30m▄▄▀[0;1;30;42m▓░[0;1;32;42m▒░[0;32m▀[0;1;30m▄▄▀[0;1;30;42m▓░[0;1;32;42m▒░[0;32m▀[0;1;30m▄▄▀[0;1;30;42m▓░[0;1;32;42m▒░[0;32m▀[0;1;30m▄▄▀[0;1;30;42m▓░[0;1;32;42m▒░[0;32m▀[0;1;30m▄▄▀[0;1;30;42m▓░[0;1;32;42m▒░[0;32m▀[0;1;30m▄▄▀[0;1;30;42m▓░[0;1;32;42m▒░[0;32m▀[0;1;30m▄▄▀[0;1;30;42m▓░[0;1;32;42m▒░[0;32m▀[0;1;30m▄▄[0m
  [32m▀[0;1;30m▄▄▀[0m [32m▄[0;1;32;42m░▒[0;32m▀[0;1;30m▄▄▀[0m [32m▄[0;1;32;42m░▒[0;32m▀[0;1;30m▄▄▀[0;32m░▄[0;1;32;42m░▒[0;32m▀[0;1;30m▄▄▀[0m [32m▄[0;1;32;42m░▒[0;32m▀[0;1;30m▄▄▀[0;32m░▄[0;1;32;42m░▒[0;32m▀[0;1;30m▄▄▀[0m [32m▄[0;1;32;42m░▒[0;32m▀[0;1;30m▄▄▀[0;32m░▄[0;1;32;42m░▒[0;32m▀[0;1;30m▄▄▀[0;32m░▄[0;1;32;42m░▒[0;32m▀[0;1;30m▄▄▀[0;32m░▄[0;1;32;42m░▒[0;32m▀[0;1;30m▄▄▀[0;32m░▄[0m
@@ -47,9 +47,4 @@ Write-Host '
           [36m▀[0;1;31m▀▀[0;36m ▀[0m       [1;31m [0m [1;31m▀[0m▄▄  ▄▒[1;30m [0m  [1;31m░▀■[0;36m▀▀[0;1;31m▀▀▀ [0m            [1;31m░▀■[0;36m▀▀[0;1;31m▀▀▀ [0m
                         [1;30m░[0m▀[31;47m■[0;1;37;47m░[0;31;47m■[0;1;37;47m░[0m▀[1;30m░[0m        [1;30m░[0m
                         [31m [0;1;31;47m▄[0;1;37;47m▒[0;1;30;47m░[0m▀[1;30;47m▀[0m█[1;47m░[0m▄▄  [1;30m [0m▄[1;30m░[0m
-                       [1;30m░[0m [31m [0;37m  ▄▀▐▀[0;1;30;47m▀░[0m▀■▀  [1;30m<-sRAT![0m
-
-[1;30mgreets:[0m Rza[1;30m, [0mSrat[1;30m, [0mTrash[1;30m,[0m NMB[1;30m,[0m l3[1;30m, [0mAckman[1;30m,[0m Grifter[1;30m,[0m BG[1;30m,[0m Zealot[1;30m,[0m Marduuk[1;30m,[0m
-        Papa Smurf[1;30m,[0m Meth[1;30m,[0m Chrystalis[1;30m,[0m Xenoc[1;30m,[0m Venom[1;30m, [0mMg, [1;30meveryone else [0m
-        [1;30min [0mROC[1;30m,[0m ROC [1;30mfans, and all [0mBabylonians.
-[1;30mcondolences: [0mBG[0m'
+                       [1;30m░[0m [31m [0;37m  ▄▀▐▀[0;1;30;47m▀░[0m▀■▀  [1;30m<-sRAT![0m'

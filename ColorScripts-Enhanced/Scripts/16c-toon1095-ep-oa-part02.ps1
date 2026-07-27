@@ -5,7 +5,7 @@
 # Source SHA-256: 77ad5ad100cc486599a3908f4ebbff707c577851507c4ad78314a63d14e13429
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EP-OA.ANS by epoxy (tOOn); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ansi?! heh.
 # SAUCE Author: epoxy
 # SAUCE Group: tOOn
@@ -27,9 +27,4 @@ Write-Host '
 
                       [1;30m▀[0m   [1;30m▄[0m
 [1;30m       [0m                  [1;30m▀▓▀[0m
-[1;30m[[0m e n d [1;30m][0m
-[1;30m^^:P had to chuck that in there wO. :p[0m
-[1;30mplease don''t rip anything this pathetic. i''d be more than happy to do you a frE[0m
-[1;30mansi or askii. your choice.             [0m
-[1;30mthe font blows i know. but.. but.. oh well.[0m
-[1;30mgreets too a''77 n'' lemonzinger[0m'
+[1;30m[[0m e n d [1;30m][0m'

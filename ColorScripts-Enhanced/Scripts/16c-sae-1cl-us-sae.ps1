@@ -5,13 +5,13 @@
 # Source SHA-256: 2027abc54dc6dd4f68aa3dcca8c396841cb6291d98580bcb357ae4e3b5374921
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SAE!.ANS by Ellus + M0dium (sae-1cl); released in sae-1cl and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-                                              original, font and shaping: ellus
-[1mSAE kiCkS bUtt!@[0m      [31m░░░░░[0m                   [37mtouchups, coloring, shades: m0dium[0m
+                                                                               
+[1m                [0m      [31m░░░░░[0m                   [37m                                  [0m
                       [31m▒▒▒▒▒[0m     [36m▄ ▐  [0;1;36m■ ■ ▄[0m       [1;33m▄[0m
                       [31m▀▀▀▀▀   [0;36m▄[0m            [1;36m▀▄   [0;1;33m▀█▀   [0;1;30m░░░ ░░   [0;1;36m▄  ■  ▄[0m
 [31m▄▄▄▄▄ ▄▄ ▄▄▄[0m                 [36m▀[0m      [1;30m░░░░ ░   [0;1;36m▌[0m        [31m▄▄   [0;36m▄ ▌[0m         [1;36m▀▀■▄[0m

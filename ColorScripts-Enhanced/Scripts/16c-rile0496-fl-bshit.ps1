@@ -5,7 +5,7 @@
 # Source SHA-256: fd9ff7acd79b5ee70705891a1efbc17633307f5816ad074ea2f91a144eca67f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-BSHIT.ANS by flame (rile); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: bullsh1t emag
 # SAUCE Author: flame
 # SAUCE Group: rile
@@ -32,5 +32,4 @@ Write-Host '
                  [1;30;40m■▀[0m░[1;30m▒░[0;33m [0;1;30m░[0m   [33m ▀[0m    [33m█[0;1;33;43m▓░[0;33m▒ [0;37m [0;35mb u l  l[0;1;35m    s      h        1          t[0m
                    [1;30m▀ [0m             [33m▀▀[0m
 
-[37m--------------------------------------------------------------------------------[0m
-[37mlogo for verbatum man''s emag about the scene, bullshit .. hmmm .. [0;31ms[0;33mh[0;1;33mi[0;1;37mt[0m [1mis g[0;1;33me[0;33mw[0;31md..[0m'
+[37m--------------------------------------------------------------------------------[0m'

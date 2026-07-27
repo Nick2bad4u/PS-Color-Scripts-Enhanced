@@ -5,7 +5,7 @@
 # Source SHA-256: 98194da9b20527fe780aee9ef2ec8e8488074986b0f5d72e05026e98d758f357
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FEVER-04.ANS by fever (ophidiac); released in oph-0013 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: \2_        00 \\\ _2_
 # SAUCE Author: fever
 # SAUCE Group: ophidiac
@@ -41,5 +41,4 @@ Write-Host '
                             [30;43m▀[0;30;47m█[0;30;41m▄[0m   [30;43m▀░ [0;33;41m▓[0;30;43m  ▄▄▄▄▄      [0;33;41m░▓▄[0;30;43m [0;33;41m▄[0;30;43m  [0;33;41m▄▓[0;30;43m▄▄▄▄▄▄▄▄▀[0m
                               [30;43m▀▀▄▄▄▓[0;1;30;40m·bi+products·[0m [30;43m▄▄▄▄▄▄▄[0m
 
-[1;30;40m--------------------------------------------------------------------------------[0m
-[1;30;40mbp''s down, i did this a month or 2 ago[0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

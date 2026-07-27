@@ -5,7 +5,7 @@
 # Source SHA-256: 122924cb838ad2d172da9e2c25b5fe4eab0d6a5df59516a6fd6547791af11029
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OZ#UD!#.ANS by oOze (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Underwherld Dreamhz
 # SAUCE Author: oOze
 # SAUCE Group: Department 38
@@ -25,16 +25,7 @@ Write-Host '
      [32m▐▀[0;1;32;42m▀██▄[0;32m▓[0;1;32;42m██[0;32m▓▓ ▐[0;1;32;42m▓[0;32m██▓  [0;1;32m░░[0;32m [0;1;32;42m█[0;32m▀[0;1;32;42m█[0;32m  ▓▄▄▓▓░ ▐▀[0;1;32;42m█[0;1;37;40m█[0;1;32;42m█[0;32m▄[0;1;32;42m▓[0;1;32;40m█[0;1;32;42m█[0;1;32;40m▓▓[0;1;37;40m▌[0;32m▓[0;1;32;42m▀▓░[0;32m ▀  ▐[0;1;32;42m▓█▀[0;32m▓[0;1;32;42m▓[0;1;32;40m▄[0;1;32;42m█[0;32m▄▄ ▓[0;1;32;42m█[0;32m▌[0;1;32;42m▓▓[0;32m [0m
     [32m■[0;1;32m█▀[0;32m░   ▀[0;1;32m▀▀[0;32m▓■ ▓▀  ▀▀▄   ▓[0;1;32;42m▓█[0;32m░▄[0;1;32;42m▀▐▄█▓[0;32m░■[0;1;32;42m█[0;32m▀[0;1;32;42m░[0;32m [0;1;32m▀▀[0;32m▓[0;1;32m▀▀▓[0;1;37m■[0;32m▄▀  ▀▀▄  [0;1;32;42m▓[0;1;32;40m▀[0;32m  ▀▀▄[0;1;32;42m▓█[0;1;32;40m░[0;32m [0;1;32;42m▄█[0;1;37;40m█[0;1;32;40m░[0;32m▓ [0m
     [32m▀[0m    [1;32m░░[0m     [32m▀[0m      [32m      ▀▀▀   [0;1;37m▀[0;32m  ▀[0m          [32m▀▀[0m     [32m  ▀  ░░    ▀▀▀▀  [0;1;32m▀[0;32m [0m
-                         [32m/mod[0;1;32me[0;1;37m [0;1;32m#underwo[0;1;37mrld_dreams +o lsd[0m
+                         [32m    [0;1;32m [0;1;37m [0;1;32m        [0;1;37m                 [0m
 
 
-[1;35m-------------------------------------------------------------[snipz0r]---------[0m
-
-[1;35m   this here anis is for satan''s bbs...             [0m
-[1;35m  underworld dreams            [0m
-
-
-
-[1m[ooZe''s EOF Lines] #6 whats the easiest way to abuse High Voltage?         [0m
-
-                    [1m>>>EOF<<< call him a farm boy who sleeps with cows >>>EOF<<[0m'
+[1;35m-------------------------------------------------------------[snipz0r]---------[0m'

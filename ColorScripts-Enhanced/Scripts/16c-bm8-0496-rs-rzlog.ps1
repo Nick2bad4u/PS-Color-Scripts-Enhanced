@@ -5,7 +5,7 @@
 # Source SHA-256: 327a7a4aeed80627ac427fa6fb12a1ef6513147a7fa28006bfd2fa9b88622718
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-RZLOG.ANS by RaSCaL (BLACK MAiDEN); released in bm8-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Razor's Edge Login
 # SAUCE Author: RaSCaL
 # SAUCE Group: BLACK MAiDEN
@@ -39,6 +39,4 @@ Write-Host '
    [1;30m■   ░ ▀▓██[0;1;30;47m▓[0;1;30;40m▌[0m█[1;34;47m░▒[0m▄[1;34;47m░▒[0;1;34;40m▀[0;1;30;40m▄▄[0m▀[1;34;47m▓[0m▄[1;34;47m░▒[0;1;34;40m▀[0;1;30;40m▄▄[0m▀[1;34;47m▓[0m▄[1;34;47m░▒[0;1;34;40m▀ [0m█[1;34;47m░▒[0m █[1;34;47m░▒[0;1;30;40m▐▓[0m▐[1;34;47m▒[0;1;34;40m█[0;1;30;40m▐█▓███▀[0m   [1;30m▒[0m  [1;30m▀  ░   [0;1;31;41m▒[0;1;30;47m▄[0;1;30;40m▀[0m  [1;30m■▓■[0m
            [1;30m▀▀██▄▄▄▄▄▄█▓██▄▄▄▄██[0;1;30;47m▓[0;1;30;40m█▄▄▄▄█[0;1;30;47m▓[0;1;30;40m▄▄▄▓▄▄▄██▄▄▄██[0;1;30;47m▓[0;1;30;40m▀▀ [0m    [1;30m░[0m          [1;31m■[0m
 
-[1;30m---[[0mcut[1;30m]------------------------------------------------------------------------[0m
-[1;30mThis one''s for Codey. Hey sorry, but I think you''ve got to change your Login the[0m
-[1;30m4th time. :) Looks quite better than the other.[0m [1;30m---rs°bm![0m'
+[1;30m---[[0mcut[1;30m]------------------------------------------------------------------------[0m'

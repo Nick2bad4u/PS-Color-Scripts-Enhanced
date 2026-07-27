@@ -5,7 +5,7 @@
 # Source SHA-256: 52b32ec5618b28fa9d4c424e7b2a0b707bf5d728dc923f893d396418202d95ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: #M-FFOG.ANS by milkman (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: funeral fog
 # SAUCE Author: milkman
 # SAUCE Group: nh!
@@ -24,7 +24,4 @@ Write-Host '
 [37m  [0;1;34;44m▐[0;1;34;47m▓[0;1;34;44m▄[0m  [34m░[0;30;44m░[0;1;34;44m▀[0;1;34;47m▓[0;34m█[0;37m [0;31m▐█[0;1;33;41m▒[0;30;41m░[0;31;40m▀▀[0m   [34;40m▄▄[0;37;40m  [0;1;30;40m█▄[0;30;41m▓[0;31;40m░[0;1;30;40m░▓▄[0m          [1;30m▄▓ [0m [31m░[0;30;41m▓[0;37;40m [0;31;40m░█[0;30;41m░[0;31;40m▓█[0;1;33;41m░[0;31m▄▄▄▄[0m     [31m▄▄▄▌[0;37m  [0;1;34;44m▀[0;1;34;47m▓▒[0;1;34;44m█[0;30;44m░[0;34;40m░[0m
 [37;40m  [0;34;40m▀[0;1;34;44m▀[0;1;34;47m▓[0;1;34;44m▄[0;34m▄▄[0;37m [0;34m▀▀▀▌[0;30;41m░[0;1;33;41m░░[0;31m▌[0;37m [0;34m▐▀   [0m    [1;30m▐[0m▄   ▀[1;30m▀[0m   ▄[1;30m▄▄▌[0m ▀[1;30m▀[0m [30;41m▓[0;37;40m [0;1;30;40m▄▌[0;34m▐▄ [0;31m░[0;30;41m▓[0;31;40m▀▀▀▀▀▀[0;1;33;41m░░▒ [0;31m█[0;1;33;41m░░[0;31m▓[0;37m  [0;34m▄▐[0;1;34;44m▌▀[0;34m▀[0m
 [37m  [0;34m    ▀▀▀ [0m    [31m▀▀▀[0;34m  ▀  [0m        [1;30m▀█▄ [0m  ▀[1;30m▀▀[0m   [1;30m  [0m [1;30m [0m▀[1;30m▀[0m [34m▀[0m     [34m▀▀▀▌[0;37m  [0;31m▄▄▄[0;1;33;41m  [0;30;41m░[0;31;40m▓░[0;37;40m [0;30;44m░[0;1;34;40m▀▀[0;1;34;44m▀[0;1;34;47m▓[0;1;34;44m▄[0;34m▌[0m
-                  [34m            [0m           [1;30m  [0m          [31m [0m       [34m    [0;31m   [0;37m  [0;30;44m▓[0m
-   [37;40mi finally found the style i like. hope you do. i''m getting those mentaly[0m
-   [37;40mkicks when i''m drawing. well, hereyago catharsis, it''s us against ''em...[0m
-   [37;40mmilkman(nH!)[0m'
+                  [34m            [0m           [1;30m  [0m          [31m [0m       [34m    [0;31m   [0;37m  [0;30;44m▓[0m'

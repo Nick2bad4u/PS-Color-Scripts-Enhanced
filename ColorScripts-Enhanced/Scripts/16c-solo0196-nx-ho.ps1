@@ -5,7 +5,7 @@
 # Source SHA-256: df285dd7a6befbfbee6a7d91df0e3b1155eb0b410b1e4b4ac16f0b62c5c90371
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NX-HO.ANS by Noxious (solo0196); released in solo0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -28,12 +28,9 @@ Write-Host '
   [1;31;43m░[0;33m██▌ [0;1;37m▀▀▀▀[0m [33m ▐████▌[0m [37m▀[0;1;37;47m▀[0;1;37;40m██▀[0m [33m ▐█[0;1;31;43m░[0;33m█[0m          [33m▒▄▄░█▓▀▀▓▀▀[0;1;31;43m▄▀[0;33m▀▀▓█▒█▄▄ ░▄▄▒[0m
   [33m▐█[0;1;31;43m░[0;33m█▄    ▄▄██████▄      ▄███▌[0m  [33m█[0m      [33m▄█[0;1;31;43m░[0m               [33m▓  ▓▀▀[0m [33m░[0;1;31;43m■[0;33m▌[0m
    [33m███████████[0;37m▐[0;33m█[0;37m [0;33m█████████████[0m   [33m▓[0m      [33m▓▌[0m [33mHandle:[0m        [33m      [0m  [33m▐▓[0m
-    [33m▀██▀▐█████▄██████████▄▐██▌[0m   [33m▒[0m     [33m▒█  and all that shit you[0m   [33m▒[0;1;31;43m░[0m
+    [33m▀██▀▐█████▄██████████▄▐██▌[0m   [33m▒[0m     [33m▒█                       [0m   [33m▒[0;1;31;43m░[0m
      [33m▐██▌[0;1;37m▄[0;1;32;42m▒[0;1;37;40m▄▓▄▄░▄▄▄▄[0;1;32;42m░[0;1;37;40m▄[0;1;32;42m░[0;1;37;40m▄▀[0;33m▄███[0m    [33m░[0m      [33m░[0m  [33mput here[0m       [33m      [0m   [33m▐░[0m
       [33m▀██▄[0;1;37m▀▀[0;1;32;42m▒[0;1;37;40m▒[0;1;32;42m■[0;1;37;40m█▒[0;1;32;42m▒[0;1;37;42m▄[0;1;37;40m█[0;1;37;42m■[0;1;37;40m▀▀[0;33mn[0;30;43mx[0;33;40m██▀[0m            [1;31;43m░[0;33m▌[0m                [33m    ▓ [0m  [33m▄█[0m
         [33m ▀██▄▄▄[0;1;37m ▀▀▀[0;33m▄▄███▀▀[0m              [33m▒█▓▄[0;1;31;43m░[0;33m▄[0m     [33m▓[0m   [33m▒▄[0;1;31;43m▒[0;33m▄▄▄░█▀[0;1;31;43m■[0;33m▒▀[0m
              [33m▀▀▀▀▀▀▀▀▀[0m                    [33m▀▀▀▀▒██[0;1;31;43m░[0;33m███░▀▀▀▀▀▀[0m
-[37m-------------------------------------------------------------------------------[0m
-[37mbe a good somal[0;1;37mi[0man and do[1mn[0m''t rip thi[1ms[0m.... well.. [1ma[0msk me.. well.. do[1mn[0m''t both[1me[0mr..
-i''m [1ms[0mure there ain''t a wjole lot[1ma[0m ho brds out there....
-btw: marijua[1mn[0ma [1mi[0ms good to ea[1mt[0m! 3)[1my[0m'
+[37m-------------------------------------------------------------------------------[0m'

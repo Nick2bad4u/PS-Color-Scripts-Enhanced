@@ -5,7 +5,7 @@
 # Source SHA-256: d75e5c5f5e6e2cb0786b667c2db107f190eeef99c1466268a7fb0ab0f91c940d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-NEWS.ANS by baxter (Axial Force); released in axf-037a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: news-screen
 # SAUCE Author: baxter
 # SAUCE Group: Axial Force
@@ -37,12 +37,4 @@ Write-Host '
  [1;32m▀[0;1;32;42m▓▒▒░░ [0;1;33;42m░[0m [1;31m▐[0;1;31;41m▓[0;1;31;40m▄▄[0m     [1;30m.[0m                                       [1;30m|[0m      ▀▀[1;33;47m░[0m█████▀
   [32m▀[0;1;32;42m░░░[0;32m█[0;1;33;42m░[0m           [1;30m: [0m                                      [1;30m|[0m
     [32m▀█[0;1;32;42m░[0;32m  [0m          [1;30m`--    -    -   - - -     - - -  -    --''[0m
---------------------------------------------------------------------------------
-Request by Radicator
-
-well, some more funky ansi''s :) I think this is one of my best ansi''s, hope you
-like it too. If not, I''ll use it on my board ...
-Do not use it on your board, only radicator may use this.
-
-greets to every one :)
-inspiration provided by : Huff & puff ''help me make it''[0m'
+--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9911835f17cd82f7ba812a7562e721be6f8e433a7270fd74d8320b61de26a8c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NO!COLL2.ANS by noches (thelo0p); released in l0p08_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo colly 2
 # SAUCE Author: noches
 # SAUCE Group: thelo0p
@@ -33,7 +33,7 @@ Write-Host '
                        [34m░░[0m
 
 [1;30m--------------------------------------------------------------------------------[0m
-[1;30mncs logo for noches/thelo0p =)[0m
+[1;30m                              [0m
 
 [1m       [0;32m▄[0;1;37m [0;32m ░░  ░░[0m
 [1;37m    [0;32m░░▀[0;1;32;42m▀[0;32m▀[0;1;32m█[0;1;32;42m [0;1;33;42m▄[0;1;37;40m [0;32m▄[0;1;32;42m░░[0;1;30;40m▀[0m
@@ -43,20 +43,4 @@ Write-Host '
 [1m [0;32m▀▄▀[0;1;33;42m [0;1;32;42m▓[0;1;32;40m█████[0;1;33;42m [0;1;37;40m [0;1;32;40m███[0m
 [1m [0;32m▀[0;1;32;42m▀[0;32m▀▄[0;1;32;42m▒[0;1;32;40m██[0;32m▀[0;1;36;46m▀[0;1;36;42m█[0;32m▀▄[0;1;32m█[0;1;32;42m▀[0;1;30;47m▄[0;1;30;40m▄ [0m
 [1m  [0;32m░[0;1;37m [0;32m▀[0;1;32;42m░[0;1;36;42m▀[0;32m▀[0;1;37m [0;32m░░[0;1;37m  [0;32m▀░[0m
-     [32m░░[0m
-
-[1;30mnoches (thelo0p)[0m
-
-[1;30mgreets [0m
-insect[1;30m.[0mpehaz[1;30m.[0mkeepsake[1;30m.szwagier.podo.riddle.cro.simonking.riven.snap.cleaner.[0m
-[1;30mdwarf.slash.zerostar.double dragon.blackjack.threaz.[0mdipswitch[1;30m.tribe.rik-e.[0m
-[1;30mbull.kaiser zero.t-bob.nasone.darkus.azzaro.far.zabora.belgar.kempy.thung.ave.  [0m
-fitzroy[1;30m.thefounder.cru.rodolph.h7.acid.[0m
-
-[1;30mand scene wroclaw : [0m
-
-atom[1;30m.[0mkey-g[1;30m.scorpik.[0mtiges[1;30m.boe.zabora.inferno.szum.[0m
-
-[1;30mcontact[0m
-
-[1;30mnoches@poczta.onet.pl or thelo0p@hotmail.com for request[0m'
+     [32m░░[0m'

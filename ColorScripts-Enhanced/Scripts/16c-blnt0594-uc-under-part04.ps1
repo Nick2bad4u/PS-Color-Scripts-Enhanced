@@ -5,7 +5,7 @@
 # Source SHA-256: 5e2a3a37919ebac6911dbf260e84e02d602af9c5ea784436a2864f7232b5bf4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-UNDER.ANS by Unknown Comic (blnt0594); released in blnt0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 119-162
 # Columns: 1-80
 
@@ -48,7 +48,7 @@ Write-Host '
            [1;30m▐[0m█[1m█[0m█[1;30m▌[0m               [33m1[0;1;31m4[0m.[1m4 V.42 B[0mi[1;31mS[0;33m![0m                [1;30m▐[0m█[1m█[0m█[1;30m▌[0m
            [1;30m▐[0m█[1m█[0m█[1;30m▌[0m     [33m6[0;1;31m2[0m0 [1mMegz of H/P/V/C & ANSiS Onli[0mn[1;31me[0;33m![0m     [1;30m▐[0m█[1m█[0m█[1;30m▌[0m
            [1;30m▐[0m█[1m█[0m█[1;30m▌[0m           [33mR[0;1;31mu[0mn[1mning Latest Visio[0mn[1;31m-[0;33mX[0m           [1;30m▐[0m█[1m█[0m█[1;30m▌[0m
-           [1;30m▐[0m█[1m█[0m█[1;30m▌[0m     [33mV[0;1;31mi[0ms[1mionaries HUB [0;1;35mφ [0;1mBLuNT Distribut[0mi[1;31mo[0;33mn    [0;1;30m▐[0m█[1m█[0m█[1;30m▌[0m
+           [1;30m▐[0m█[1m█[0m█[1;30m▌[0m     [33m [0;1;31m [0m [1m             [0;1;35m  [0;1m               [0m [1;31m [0;33m     [0;1;30m▐[0m█[1m█[0m█[1;30m▌[0m
            [1;30m▐[0m█[1m█[0m█[1;30m▌[0m         [33mS[0;1;31my[0ms[1mOp: Leftist [0;1;35mφ [0;1mCo: Fry [0mG[1;31mu[0;33my[0m        [1;30m▐[0m█[1m█[0m█[1;30m▌[0m
            [1;30m▐[0m█[1m█[0m█[1;30m▌[0m                                             [1;30m▐[0m█[1m█[0m█[1;30m▌[0m
            [1;30m▐[0m█[1m█[0m█[1;30m▌[0m         [1;30mA[0mn[1msi: [0;1;30mU[0mN[1mKNOWN [0;1;30mC[0mO[1mMiC  [0;1;30m([0mß[1mLuNT)[0m        [1;30m▐[0m█[1m█[0m█[1;30m▌[0m

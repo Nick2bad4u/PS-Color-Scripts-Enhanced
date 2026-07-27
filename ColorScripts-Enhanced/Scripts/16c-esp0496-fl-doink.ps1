@@ -5,7 +5,7 @@
 # Source SHA-256: 5a2a570f0fe07c55cb0a704fd5e6e72e2ada0613e8726341f443680b30e6c6a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-DOINK.ANS by fLeA (ESP Productions); released in esp0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: fLeA
 # SAUCE Group: ESP Productions
 # SAUCE Date: 19960323
@@ -36,5 +36,4 @@ Write-Host '
       [1;30m           [0m
         [1;30m   [0m                                                            [1;34m▒[0m
          [1;30m [0m
-         [1;30m  [0m                                                            [1;34m░[0m
-         [1;30m  [0m'
+         [1;30m  [0m                                                            [1;34m░[0m'

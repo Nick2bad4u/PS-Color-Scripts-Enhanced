@@ -5,7 +5,7 @@
 # Source SHA-256: 74c5dfa6209cd9bb9e522542db40484296ccddab5a5f3c36a9d8a0935c85c91b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAY-BOWY.ANS by maytag man (echo); released in soc-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tribute to bowie
 # SAUCE Author: maytag man
 # SAUCE Group: echo
@@ -42,4 +42,4 @@ Write-Host '
   [1mthis an sito wat Or[0m   [1m░▒[0;1;47m░░[0;1;40m██████████████████[0;1;47m▀[0;1;40m▀[0m▀[1m   [0m    [1;32m█▐[0;1;37m [0;1;32m█[0;1;37m [0;1;32m▌█[0;1;37m [0;1;32m▌▌█[0;1;37m [0;1;32m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m
   [1man dthe restof echo[0m     [1m [0m▀▀[1m▒[0;1;47m▀▀[0;1;40m██████████[0;1;47m▀[0;1;40m▀[0m▀[1m  [0m         [1;32m█▐[0;1;37m [0;1;32m█[0;1;37m [0;1;32m▌█[0;1;37m [0;1;32m▌▌█[0;1;37m [0;1;32m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m
                        [1m  [0;1;30m▄[0;1;37m▒▒[0m▄▄▄[1m▒▒▒[0;1;47m▀[0;1;40m▀▀▀▀[0m▌                [1;32m█▐[0;1;37m [0;1;32m█[0;1;37m [0;1;32m▌█[0;1;37m [0;1;32m▌▌█[0;1;37m [0;1;32m▐[0m [1;32m█[0m [1;32m▐[0m [1;32m▌▐[0m [1;32m█[0m
-                         [1m   [0;1;30m▀[0m▀▀▀                        [1;32mmaytagmanofecho-012345[0m'
+                         [1m   [0;1;30m▀[0m▀▀▀                        [1;32m                      [0m'

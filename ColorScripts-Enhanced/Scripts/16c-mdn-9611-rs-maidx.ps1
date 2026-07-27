@@ -5,7 +5,7 @@
 # Source SHA-256: f197a792ca7028d33ee52dd8f7dcfe18468f97c1cd8577c16707e7f663e20370
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-MAIDX.ANS by r0rshack (Maiden Productions); released in mdn-9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: maiden productions logo - brazil!
 # SAUCE Author: r0rshack
 # SAUCE Group: Maiden Productions
@@ -29,7 +29,4 @@ Write-Host '
 [1;30m███[0m [1;47m▓[0m [1;33m████[0m [1;47m▓[0m [1;47m▓[0m [32m██[0;37m [0;1;37;47m▓[0m [1;33m▀████[0m [1;47m▓[0m [32m██[0;37m [0;1;37;47m▓[0m [32m███[0;37m [0;1;37;47m▓[0m [1;33m▀████[0m [1;47m▓[0m [32m██[0;37m [0;1;37;47m▓[0m [1;33m▀█[0;1;33;43m▓[0;1;33;40m██[0m [1;47m▓[0m [32m█▀[0;37m [0;1;37;47m▓[0m [1;33m█████[0m [1;47m▓[0m [32m██[0;37m [0;1;37;47m▓[0m [1;30m█[0m
 [1;30m███[0;1;37m █▄▄▄▄▄▄█[0m [1m█▄▄▄▄██▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄██▄▄▄▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄█▄▄▄▄█ [0;1;30m█[0m
 [1;30m███▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-[1;30m▀▀▀▀▀■▀▀▀▓▀▀▀▀▀▀░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▒▀▀▀▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀[0m
-
-                 what? [1mwe[0m? from [1mbrazil[0m? why do you think that?
-   we''re not a brazilian art group, we''re dental floss salesmen from montana[0m'
+[1;30m▀▀▀▀▀■▀▀▀▓▀▀▀▀▀▀░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▒▀▀▀▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀[0m'

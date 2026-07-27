@@ -5,7 +5,7 @@
 # Source SHA-256: 25d8aa71b3694682390e93ed20b0499e44c8c763ee0521a6a4d959a66fe30873
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-1ST.ANS by big yellow man (guesting); released in sadist01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 1st advent
 # SAUCE Author: big yellow man
 # SAUCE Group: guesting
@@ -45,5 +45,5 @@ Write-Host '
 [1;31;40m████[0;1;31;47m▓[0;1;31;40m███████▄[0;31m▄[0m         [1;30m▄██▀[0m [1;30m██▀[0m [1;30m▄[0m ░░[1;47m▄▌[0;1;33;47m▀▀▌[0;1;37;40m▓[0;1;37;47m█[0m▌ [1;30m▐██▄[0m [1;30m▀▌[0m [1;30m▀▌[0m  [1;30m▄[0m        [31m▄[0;1;31m▄[0;1;31;41m▄[0;1;31;40m█████[0;1;35;40m▓▓[0;1;31;47m▓▓▓[0;1;31;40m█[0m
 [1;31;40m█████[0;1;31;47m▓▓[0;1;31;41m▓▓[0;1;31;47m▓▓[0;1;31;40m████[0;1;31;41m▄[0;1;31;40m▄▄[0;31m▄[0;37m  [0;1;30m█[0m [1;30m▀▌[0m  [1;30m█▄[0m  [1;30m▄▌[0m [1;30m▀[0;1;37;47m▀██▀[0m▀▐[1m▓▓[0m▌ [1;30m█▄[0m [1;30m▀▌[0m  [1;30m▀[0m  [1;30m▀[0m [1;30m█[0m   [31m▄[0;1;31m▄▄[0;1;31;41m▄█[0;1;31;40m█████[0;1;31;41m▓▓██[0;1;31;40m█████[0m
 [1;30;40m────────────────────────────────────────────────────────────────────────────────[0m
- [36m░[0;1;31mfirst advent greeting.. from big yellow man.. guesting in 1:st sadist artpack[0m
+ [36m░[0;1;31m                                                                             [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

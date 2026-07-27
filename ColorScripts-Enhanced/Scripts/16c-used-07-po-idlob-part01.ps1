@@ -5,7 +5,7 @@
 # Source SHA-256: e011043b3bc3d2f8f77b8739be5d6c7c21ac70b21914a132f6fac1e7dced60e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-IDLOB.ANS by portia (used); released in used-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: idle lobster
 # SAUCE Author: portia
 # SAUCE Group: used
@@ -18,7 +18,7 @@ Write-Host '
 [30;42mportia[0;1;33;42mused[0;1;37;42midlobster [0;32m█████[0;1;32;42m░░[0;32m██[0;1;32;42m░░[0;32m███[0;1;32m▒▒[0;30;42m░░[0;32;40m██[0;30;42m░░░[0;32;40m████[0;30;42m░[0;32;40m██████[0;1;32;40m▒▒[0;32m██[0;1;32m▒[0;32m█[0;1;33m▒[0;32m██████[0;32;41m▓▓▓[0;32;40m██[0;32;41m▓[0;32;40m██[0;30;42m░░[0;32;40m█[0;30;42m░[0;32;40m█[0m
 [32;40m░[0;30;42m▓▓[0;32;40m░[0;30;42m▓[0;37;40m [0;32;40m░[0;30;42m▓[0;32;40m░▒▒[0;30;42m▒▓[0;32;40m▒[0;30;42m▒[0;32;40m░[0;30;42m▒▒▓[0;32;40m▒░░▒░[0;30;42m▓[0;32;40m░░[0;1;32;40m▒░░[0;32m░[0;1;32m░[0;32m▒▒▒░▒░▒░░░[0;30;42m▒▓▓[0;32;40m░[0;1;32;40m░[0;30;42m▓▓[0;32;40m░[0;1;32;40m░░[0;32m░[0;37m [0;32m░░[0;1;32m░[0;30;42m▓[0;32;40m░▒[0;30;42m▓[0;32;40m░[0;30;42m▓[0;1;32;40m░[0;32m▒▒▒░▒░░▒[0;37m [0;32m░▒[0;30;42m▓▓[0;32;40m░[0;30;42m▓[0;32;40m░[0m
 
-[32;40m all ans orginal by portia[0m
+[32;40m                          [0m
 
 
                                     [1;34;40m  [0m       [34m  [0m        [31m░[0m
@@ -35,7 +35,7 @@ Write-Host '
                           [1;34m [0m   [1;37m [0m▄[1;34;47m░[0;1;37;47m [0;1;37;40m▀[0m▀▀[1;37m░░[0m
                           [1;30m░[0m  ▀▀po
 
-                   [1;37mtelnet.idledreams.com[0m                      [34m▄▄[0;1;36;44m░░░[0m [34m░░[0m
+                   [1;37m                     [0m                      [34m▄▄[0;1;36;44m░░░[0m [34m░░[0m
                    [1;33midl[0;31mobster  [0m                  [34m░░░░[0;37m [0;34m▄▄[0m        [34m██[0;1;34m▒▒[0m [34m▓▓[0m
                    [1;37mralgoth [0m                       [34m▓▓▓███░░[0m     [34m░░░[0m
                                                    [34m▀▀[0;31;44m▓▓[0;34;40m▀░░[0m

@@ -5,14 +5,14 @@
 # Source SHA-256: 91e025f773d4c3fa92a505fc819e1c0f102104b07a3e2b14e4ac00f5d63e8038
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MC-HH1.ANS by Mr Corruption (fury1094); released in fury1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
                                                      [36m▀[0m
 
-[30mBullet of FEDS has no penis![0m                         [36m▀[0m
+[30m                            [0m                         [36m▀[0m
                                                      [1;36;46m░[0m
                                           [36m▄[0m          [1;36;46m░[0m           [36m▄[0m
                        [34m▄[0m              [34m▄[0m     [36m▄[0m     [34m▄▄▄▄▄▄▄▄    [0;36m▄[0m
@@ -27,18 +27,18 @@ Write-Host '
                [34m▐[0;1;34;44m░░▒▓▓▓▓[0;34m▌[0m           [34m▐[0;1;34;44m▓▓░▒▒▒▒░[0;34m▌ █[0;1;34;44m▒▓▓▒▒░░░░▒▓▓▒░[0;34m▌[0;36m▀▄[0m
                 [34m▀[0;1;34;44m░▓▒▒░░[0;34m▌[0m            [34m▐[0;1;34;44m▓░░▒▓▓[0;34m▀   ▀█[0;1;34;44m▒░▓▓▓▓▓▓▓░[0;34m█▀[0m
                   [34m▀▀▀▀▀[0m              [34m▀▀▀▀▀[0m        [34m▀▀▀▀▀▀▀[0m         [36m▀[0m
-                     [1;30mb0oM b1Tch.. [0;1;37mF[0;1;33mU[0;1;31mR[0;31mY [0;1;30mor something  [0;1;36;46m░[0m
+                     [1;30m             [0;1;37m [0;1;33m [0;1;31m [0;31m  [0;1;30m              [0;1;36;46m░[0m
                                                      [1;36;46m░[0m
                                                      [36m▄[0m
 
-[30mblurr has a cyberstud penis implant!![0m               [36m▄[0m
+[30m                                     [0m               [36m▄[0m
 
 
 
 
-[30mHey asswipe.. wha the fuck are you reading this for? dumb modem geeks!!![0m
-[30mGreets, Tron, blurr, azrael, Hammer, Kyle.. and Kim johnson.. even th[0m
-[30mI hate spelling.. it sucks..[0m
+[30m                                                                        [0m
+[30m                                                                     [0m
+[30m                            [0m
 
 
 

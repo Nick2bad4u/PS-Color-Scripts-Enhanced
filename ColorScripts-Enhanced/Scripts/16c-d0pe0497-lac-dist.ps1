@@ -5,7 +5,7 @@
 # Source SHA-256: b4df5d955a88d0c5461c0ab0b692ffdaa969cde279f44697dc560ebced5d736f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LAC-DIST.ANS by lacaid (dope); released in d0pe0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: distros
 # SAUCE Author: lacaid
 # SAUCE Group: dope
@@ -50,6 +50,4 @@ Write-Host '
                      [1;30m  [0m  [1;30md i s t r o[0;36m [0;37m [0;32m■[0;35m [0;1;30m  [0;32m▄[0;1;30;42m▒[0m [1;30m [0m    [32m·.■▀[0m
                           [37m         [0m    [32m▀■▀[0;1;30m [0m
 
-[1;30m-----[snippy-snippy]--------------------------------------[another distro]------[0m
-[1;30malrite, those two suck, i know. but don''t come bitching to me about it, i alre- [0m
-[1;30mady know..[0m'
+[1;30m-----[snippy-snippy]--------------------------------------[another distro]------[0m'

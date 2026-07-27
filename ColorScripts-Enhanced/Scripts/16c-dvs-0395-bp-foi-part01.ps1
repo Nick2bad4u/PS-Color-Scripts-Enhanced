@@ -5,7 +5,7 @@
 # Source SHA-256: da1b023c4e17271bbd4515a589126d8c9482c4fa61b17d9b86f739daa71262f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BP-FOI.ANS by Bigge Pif (DVS); released in dvs-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Forest of Illusion ANSi
 # SAUCE Author: Bigge Pif
 # SAUCE Group: DVS
@@ -30,8 +30,8 @@ Write-Host '
                                   [34m░  ▒ ▒ ░   [0;1;30m▒ ░[0m
                                      [34m░ ░[0m     [1;30m░[0m
 
-      [1;37ma[0mR[1;34mT[0;34mb[0;1;30mYbIGGEpIFfORdVSpROD.iFyAwANTaNaNSIfROMmEyAcANrEACHmEoNcRIME[0;34mn[0;1;34mE[0mT[1m,[0m
-             [1mo[0mN[1;34mm[0;34mA[0;1;30mHbOARD,514.441.4526,oNtHEwHQ,514.922.4022,oRo[0;34mN[0;1;34mi[0mR[1mC[0m
+      [1;37m [0m [1;34m [0;34m [0;1;30m                                                           [0;34m [0;1;34m [0m [1m [0m
+             [1m [0m [1;34m [0;34m [0;1;30m                                             [0;34m [0;1;34m [0m [1m [0m
 [1;30m▄▓▄▄▓▄▄▓▄▄▄▄▓▄▄▓▄▓▄▄▄▓▓▄▄▄▓▄▄▄▄▓▄▄▄▄▄▓▄▄▄▄▄▄▓▄▄▄▄▓▄▄▄▄▓▄▄▄▄▄▄▓▄▓▄▓▄▄▄▄▓▓▄▄▄▓▄▄▄▓[0m
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m

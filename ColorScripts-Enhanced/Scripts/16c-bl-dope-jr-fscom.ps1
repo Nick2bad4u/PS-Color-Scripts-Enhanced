@@ -5,7 +5,7 @@
 # Source SHA-256: 56eea4f91694d4f093dcd7b96626f3e1081166df109f22d4f779e5c9d7bbe50b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSCOM.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: against authority
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -29,16 +29,15 @@ Write-Host '
 [33m■[0;1;33;43m░[0;33m▓▒▒░▓▓[0;33;47m▓▓▄[0;33;40m█▀▀▀██[0;1;33;43m░[0;33m█▀[0;37m [0;33m░▀▀▀[0;1;37;43m [0;33;47m▄[0;33;40m█▄▐[0;33;47m░▓▓[0;33;40m██▀▀░[0m    [33;40m░░▀[0;1;33;43m ░░[0;33m████▐[0;33;47m▓[0;33;40m▀[0;37;40m [0;33;47m▄▓[0;33;40m▄▐[0;1;33;43m░░░[0;33m█▀▀▀░░[0;37m  [0;33m▀▀░▓██▒░[0;1;33;43m░[0m
 [33m▓▓░[0m   [33m░░▀▀[0;37m [0;33m▐[0m    [33m▀▀▌[0;1;31mfreesi[0;1;37;43md[0;1;31;40me[0;33m▒▒[0;37m  [0;33m░▀▀[0;37m [0;1;31mcommands:[0m  [33m▀▀▀▓[0;33;47m▓▓[0;33;40m█▀▌[0m      [33;40m▐▀▀[0;37;40m [0;33;40m▀[0m         [33;40m■░[0;1;33;43m░[0;33m▓▄[0m
 [33m▓░ [0m        [33m▀░[0m    [33m░[0m                                [33m░░[0m                          [33m░▒[0m
-[33m▒[0;37m [0;33m [0;37m j[0;1;30m conference[0m     ulby[1;30m line[0m         r [1;30mread msg[0m         [33m░[0;37m  user [0;1;30mlist[0m
-[33m   [0;37m f [0;1;30mfile area[0m      top [1;30musers[0m         e [1;30menter msg[0m           agal [1;30mart-galery[0m  [33m░▓[0m
-[33m░[0m   [37mu [0;1;30mupload[0m         w [1;30mwrite stats [0m    cmt [1;30mcomment 2 crew[0m    h8[1;30m hate-door[0m     [33m░░[0m
-    [37md [0;1;30mdownload[0m       v [1;30mview stats[0m      o [1;30moperator page[0m       wall [1;30moneliner [0m
-    z [1;30mzippy scan[0m     who [1;30mis online[0m     web [1;30mpage lister[0m
-    l [1;30mlocate[0m [1;30mfile[0m    [1;30mgroup [0mchat        bbs [1;30mboardlister[0m       bye [1;30mlogoff[0m        [33m░[0m
+[33m▒[0;37m [0;33m [0;37m  [0;1;30m           [0m         [1;30m     [0m           [1;30m        [0m         [33m░[0;37m       [0;1;30m    [0m
+[33m   [0;37m   [0;1;30m         [0m          [1;30m     [0m           [1;30m         [0m                [1;30m          [0m  [33m░▓[0m
+[33m░[0m   [37m  [0;1;30m      [0m           [1;30m            [0m        [1;30m              [0m      [1;30m          [0m     [33m░░[0m
+    [37m  [0;1;30m        [0m         [1;30m          [0m        [1;30m             [0m            [1;30m         [0m
+      [1;30m          [0m         [1;30m         [0m         [1;30m           [0m
+      [1;30m      [0m [1;30m    [0m    [1;30m      [0m                [1;30m           [0m           [1;30m      [0m        [33m░[0m
 
 
 
 
 
-[1;30m░░--░-----------------------------------------------------------(nonsense)------[0m
-[1;30magainst all authority in thiz fucked up world...                  jerusalem~boil[0m'
+[1;30m░░--░-----------------------------------------------------------(nonsense)------[0m'

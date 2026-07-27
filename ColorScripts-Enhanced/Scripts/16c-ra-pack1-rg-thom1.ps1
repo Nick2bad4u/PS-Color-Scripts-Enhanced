@@ -5,7 +5,7 @@
 # Source SHA-256: 1f1f6e7f2a9d5d729dcaa043a4d789e25ad11d27dd7f5731b3cecf3ddb3884ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG-THOM1.ANS by Rage (Rebel Art); released in ra-pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The House of Madness #1
 # SAUCE Author: Rage
 # SAUCE Group: Rebel Art
@@ -31,7 +31,7 @@ Write-Host '
               [1;30m░[0m    [1;30m█[0m       [1;30m ░[0m   [1;30m▓[0m      [1;30m▓[0m        [1;30m░[0m    [1;30m▓[0m    [1;30m░[0m             [1;30mΓ[0mÆ[1mG[0;1;30mε[0m
                 [1;30m█[0m             [1;30m  ▒    [0m   [1;30m▒[0m   [1;30m  [0m              [1;30m▓[0m    [1;30m█[0m  [1m[[0;35mC[0;1;35mΓ[0;35mazy [0;1;35mÆ[0;35mr[0;1;35m╪[0;35ms[0;1;37m][0m
                                         [1;30m░ [0m                        [1;30m░[0m [1m   [[0;31mS[0;1;31mc[0;31mP[0;1;37m][0m
-                                [1;30m [0m               [1;30m           [0m        [1m[[0;1;30mΓεBε£[0m [1;30m/┤Γ╪S[0;1;37m][0m
-               [1;30mThe[0m        [1;30mH[0mo[1mu[0ms[1;30me[0m         [1;30mOf[0m          [31mM[0;1;31ma[0;31md[0;1;31mn[0;31me[0;1;31ms[0;31ms[0m
+                                [1;30m [0m               [1;30m           [0m        [1m [0;1;30m     [0m [1;30m ┤ ╪ [0;1;37m [0m
+               [1;30m   [0m        [1;30m [0m [1m [0m [1;30m [0m         [1;30m  [0m          [31m [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m [0m
                [1;30m───────────── ────────── ─────── ───── ──── ── ─ ·[0m [1;30m·[0m
                [1;30m2   8   [0m3[1;30m   [0;1;37m-[0;1;30m   9   1   [0m2[1;30m   [0;1;37m3[0m'

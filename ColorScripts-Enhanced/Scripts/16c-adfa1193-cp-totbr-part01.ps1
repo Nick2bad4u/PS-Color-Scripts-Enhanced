@@ -5,12 +5,12 @@
 # Source SHA-256: 6759a91a7f5ee005a9b783527bb4e4b59734fbf54538e3b4c519d9efbb6a9697
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CP-TOTBR.ANS by Capn Pugwash + Acid Trooper (adfa1193); released in adfa1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
-                                 [1;31mCap''n Pugwash[0m
+                                 [1;31m             [0m
 
                        [31m▀▀▄ [0;1;31m▀▀▄ [0;1;33m▀▀▀ [0;1m▀▄   ▀▀▀ [0;1;33m▀▀▀▄ [0;1;31m▀▀▀ [0;31m▀▄[0m
                        [31m█▀▀ [0;1;31m█▄▀ [0;1;33m█▀    [0;1m▀▄ █▀  [0;1;33m█  █  [0;1;31m█    [0;31m▀▄[0m
@@ -21,7 +21,7 @@ Write-Host '
 
               [1;30m▄▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0m            [36mW[0;1;36mh[0;1mat [0;36mi[0;1;36ms [0;36mi[0;1;36mn[0;1mevitab[0;1;36ml[0;36me i[0;1;36ms [0;36mt[0;1;36mh[0;1my [0;36mD[0;1;36me[0;1msti[0;1;36mn[0;36my,[0m
             [1;30m▄▀ ▄▄▄▄▄▄▄▄▄▄▄▄▄ ▀▄[0m              [36mT[0;1;36mh[0;1my [0;36md[0;1;36me[0;1ma[0;1;36mt[0;36mh a[0;1;36mn[0;1md [0;36mt[0;1;36mh[0;1my [0;36mR[0;1;36me[0;1mbir[0;1;36mt[0;36mh.[0m
-          [1;30m▄▀ ▄▀[0m             [1;30m▀▄ ▀▄[0m     [36mF[0;1;36mo[0;1mr [0;36mt[0;1;36mh[0;1mo[0;1;36ms[0;36me o[0;1;36mf [0;36mT[0;1;36mh[0;1me [0;36mO[0;1;36mr[0;1md[0;1;36me[0;36mr o[0;1;36mf [0;36mt[0;1;36mh[0;1me [0;36mB[0;1;36ml[0;1ma[0;1;36mc[0;36mk R[0;1;36mo[0;1mbe[0;36m,[0m
+          [1;30m▄▀ ▄▀[0m             [1;30m▀▄ ▀▄[0m     [36m [0;1;36m [0;1m  [0;36m [0;1;36m [0;1m [0;1;36m [0;36m   [0;1;36m  [0;36m [0;1;36m [0;1m  [0;36m [0;1;36m [0;1m [0;1;36m [0;36m   [0;1;36m  [0;36m [0;1;36m [0;1m  [0;36m [0;1;36m [0;1m [0;1;36m [0;36m   [0;1;36m [0;1m  [0;36m [0m
          [1;30m█▒░█ [0;31m▄███▄[0m     [31m▄███▄ [0;1;30m█░▒█    [0;36mW[0;1;36mh[0;1mo [0;36md[0;1;36mo[0;1mst [0;36mh[0;1;36ma[0;1mve[0;1;36mt[0;36mh p[0;1;36mo[0;1mw[0;1;36me[0;36mr o[0;1;36mv[0;1mer [0;36ml[0;1;36mi[0;1mfe [0;36ma[0;1;36mn[0;1md [0;36md[0;1;36me[0;1ma[0;1;36mt[0;36mh,[0m
         [1;30m█▒░█   [0;31m▀██[0;1;31;41m▄[0;31m█   █[0;1;31;41m▄[0;31m██▀   [0;1;30m█░▒█[0m            [36mN[0;1;36mo[0;1mthi[0;1;36mn[0;36mg i[0;1;36ms [0;36mi[0;1;36mn[0;1mevitab[0;1;36ml[0;36me.[0m
          [1;30m█▒░█    [0;31m▀▀▀   ▀▀▀    [0;1;30m█░▒█[0m                          [34mC[0;1;34ma[0;36mp[0;1;36m''[0;1mn [0;34mP[0;1;34mu[0;36mg[0;1;36mw[0;1mash [0;1;30m[[0mA[1mDF[0mA[1;30m][0m

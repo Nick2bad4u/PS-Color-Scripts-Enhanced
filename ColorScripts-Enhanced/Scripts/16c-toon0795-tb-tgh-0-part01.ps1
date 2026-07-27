@@ -5,7 +5,7 @@
 # Source SHA-256: fa2a3a85e887556d888d737fbad2f0fb7fc6cb4796874f2a19b2ba8a0ce1c5f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TB!TGH!0.ANS by Tribe & Green Hornet (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fluxland
 # SAUCE Author: Tribe & Green Hornet
 # SAUCE Group: Toon
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1m   The Green Hornet <Dark Illustrated>[0m      [1;30mand[0m      [1mTribe <Toon>[0m
+[1m                                      [0m      [1;30m   [0m      [1m            [0m
 
 
                 [1;30mP[0m       [1;30mR[0m       [1;30mE[0m       [1;30mS[0m       [1;30mE[0m       [1;30mN[0m       [1;30mT[0m

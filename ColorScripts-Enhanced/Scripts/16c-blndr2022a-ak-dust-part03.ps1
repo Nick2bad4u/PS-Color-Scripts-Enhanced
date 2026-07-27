@@ -5,7 +5,7 @@
 # Source SHA-256: 21e1f43cd71c90bf3df93dec8b814db296b0df05de0b8ea8fc7a48064b7cd842
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ak-dust.ans by abstrakt (blndr2022a); released in blndr2022a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: abstrakt
 # SAUCE Date: 20220123
 # SAUCE Dimensions: 80x101
@@ -31,5 +31,4 @@ o∙∙ ∙.∙     _.,`$$$$$$$$$`      d$$P    l$$l l$$$$.       l$$$:         
  °.[1;30m Y[0m$$$$$$$S#$$$$$$$$[1;30mX$[0m$$$$$$P`          [1;30m$[0m$$$$. [1;30m`4[0m$$$$$$$$$$4$$$S%4$$$$P  ∙°.∙°
 .∙∙∙[1;30m 4$[0m$$$$$$$$$$$$$$P [1;30m$[0m$$$jP`    [1mdust[0m    [1;30m`4[0m$$$$$$$$$$$$$$$$A.[1;30m`4[0m$$$$$jP''  ∙∙∙∙∙.
       [1;30m`4$[0m$$$$$$$$$jP`  [1;30m''²[0m²`     [1mis crack[0m    [1;30m`└*[0m$$$$S*[1;30m''`└*S[0mSS⌐''  [1;30m`''[0m└┘`
-        [1;30m`''┘*⌂⌂[0m⌂*┘`
-[1;30m.[0m                                                                     [1;30mabstrakt[0m [1;30m,[0m'
+        [1;30m`''┘*⌂⌂[0m⌂*┘`[0m'

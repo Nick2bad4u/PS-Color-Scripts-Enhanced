@@ -5,7 +5,7 @@
 # Source SHA-256: d6b345b7febd20ff16245db4cfff781a7d38f2fb6ede0791216dcb9800cfdcd9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TR-ASLM.ANS by Trippah (Apoc.Vis!); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the.asylum!
 # SAUCE Author: Trippah
 # SAUCE Group: Apoc.Vis!
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30mthis ansi is from australia, where the finest art in the world is produced! :}[0m
+[30m                                                                              [0m
                   [1;34m▄▓▄▄▄[0m [1;34m▄▄[0m [1;34m▄[0m     [1;30m [0;36m▄[0;1;34m▄▄▓▄[0m [1;34m▄[0m    [30;47m██[0;36;40m▄[0;1;34;40m▄▄▄▓▄[0m
               [1;30m░[0m [1;30m░░[0;1;30;46m▓[0;1;34;46m █[0;1;34;40m▄▄▄▓▄▄[0;1;34;46m▓▀▀▀█[0m [1;30m▐[0;1;30;46m░[0;1;34;46m  ▐[0;1;34;40m▌[0m   [1;30m░░[0m [36m▐[0;1;30;46m░[0;1;34;46m  █[0m [1;30;46m▒[0;1;34;46m▀▀[0;1;34;40m▓[0;1;34;46m█[0;1;34;40m▄[0m
                   [1;30;46m█▄▄[0;1;34;46m ▓[0m [1;30;46m░[0;1;34;46m█[0m [1;30;46m▓░[0;1;34;46m  [0;1;34;40m▓[0m [1;30m▀▀[0;36m▀[0;1;30;46m░[0;1;34;40m█■▄[0m     [1;30;46m░▒░ [0;1;34;46m█[0m [1;30m█[0;1;30;46m▓▄[0;1;34;46m ▓[0;1;34;40m░░[0m [1;34m░[0m [1;34m░[0m
@@ -39,18 +39,12 @@ Write-Host '
                                                               [34m░░[0m
 [34m▌ █ ▐█ [0;36;44m      [0;34;40m▓▓[0;36;44m       the asylum bulletin board system        [0;34;40m▓▓[0;36;44m          [0;37;40m [0;34;40m▓▌[0;37;40m [0;34;40m▌[0m
              [34;40m░░[0m
-             [35;40m   [0m     [1;35;40ms[0;35mops[0;1;35m  [0;1;30m-[0;1;35m  s[0;35mike,[0;1;35m k[0;35mriz,[0;1;35m p[0;35meter_[0;1;35mg[0;35marrett[0m
+             [35;40m   [0m     [1;35;40m [0;35m   [0;1;35m  [0;1;30m [0;1;35m   [0;35m    [0;1;35m  [0;35m    [0;1;35m  [0;35m     [0;1;35m [0;35m      [0m
 
 
 
-                 [1;30m       [0m     [1;41mf[0;1;30;40mill [0;1;37;41mb[0;1;30;40mlabs [0;1;37;41mh[0;1;30;40mere.[0m
+                 [1;30m       [0m     [1;41m [0;1;30;40m    [0;1;37;41m [0;1;30;40m     [0;1;37;41m [0;1;30;40m    [0m
 
 
 
-[1;30m--(snip)---------------------------------------------------------------(snip)--[0m
-
- [1;30mthere'' ya man.. you cant give me shit for this ansi cos its 4am in the mornin[0m
- [1;30mand im not stoned.[0m
- [1;30mps. this will prolly be released in the second pack of synthetic but i dont[0m
-[1;30m     think you(sike) will not find it here, so here it is on the av pack![0m
-[1;30m     so keep that in mind.. im leaving av... [0m'
+[1;30m--(snip)---------------------------------------------------------------(snip)--[0m'

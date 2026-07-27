@@ -5,7 +5,7 @@
 # Source SHA-256: 5f808a444c3ca62490f4f9f4b4e8968c65daa692b1f0b3a96d1ca38057ea75fe
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FREES.ANS by jerusalem (boil); released in bl_omann and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: schimmel an den w?nden
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,4 +40,4 @@ Write-Host '
       [31m░░░ [0;37m [0;31m░░░░[0;37m [0;31m ░░[0;37m [0;31m░░░[0m       [34m▀▀▌ ▀[0;36;44m▀▀▌[0;34;40m▀[0m         [31;40m░░░[0;37;40m [0;31;40m▀[0;33;40m▀▀[0;31;40m▀[0;37;40m [0;31;40m░░░[0m
 
 
-[1;5;33;40m▐▐▌[0m [36mfreeside matrix. don''t rip that glowing stuff, man![0m'
+[1;5;33;40m▐▐▌[0m [36m                                                   [0m'

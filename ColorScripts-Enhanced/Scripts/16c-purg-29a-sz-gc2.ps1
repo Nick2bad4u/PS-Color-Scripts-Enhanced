@@ -5,7 +5,7 @@
 # Source SHA-256: 26d5b42c88c7a93368488788a8c6ee2ecc238c0e9d903372d880c7a01097fd3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SZ-GC2.ANS by Slackzor (purg-29a); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -33,12 +33,4 @@ Write-Host '
 [1;37;44m       [0;34m███▄▄▄▄███▌[0;36m▄[0;37m   [0;1;36m▀[0;1;37;46m     ▀      [0;36m▄▄▄▄▄[0;1;37;46m [0;36m██[0;1;37;46m   [0;1;36;46m░▒[0;1;36;40m█▀[0;34m▄▄███████████[0;1;32;44m[[0;1;36;44m.......[0;1;32;44m][0;34m████████[0m
 [1;37;44m        [0;34m█████████▄[0;37m [0;1;36;46m▒▒[0;1;36;45m█[0;1;36;40m▄[0m [35m▀[0;36m▀████████████████████[0;35m█▀[0;34m▄███████████████████████████████[0m
 [34m▀▀▀▀█▀▀▀▀██▀▀██▀██▌[0;36m██[0;1;36;46m░▓[0;1;36;45m██[0;1;36;40m▄[0m [36m▀▀█[0;37;46m ▀[0;36;40m████[0;1;37;46m░▒▓▒[0;1;37;47m░[0;46m▀▀[0;36;40m▀[0;35;40m▀[0;37;40m  [0;34;40m▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[34;40m██████████████████▌[0;1;33;40m▓▓[0;36m██▓▓▓[0;1;36;45m██[0;1;36;40m▄▄[0m [35m▀[0;36m▀▀▓▓▓▓▀▀[0;35m▀▀[0;37m [0;1;30m▄▄██[0;34m▐██▐█▄[0;1;37;44m grindcore// [0;34m▓▓▒▓▒▒░░▒░░[0;30;44m█[0;34;40m░░[0m
-[1;36;40m                                                                                [0m
-  [1;36mremix of a remix by Arlequin original pic by otium man.[0m
-
-  [1;30mthis pic was remixed some time ago and never released anywhere, although part[0m
-  [1;30mof it will appear in the circe group joint :) but since i haven''t released it[0m
-  [1;30manywhere else, i decided to go ahead and do so.[0m
-[1;30m  i haven''t had much time to draw this month due to school starting back, and [0m
-  [1;30mme getting a job.. i''m sorry!@#$%&  oh yeah.. draw for grindcore :)[0m'
+[34;40m██████████████████▌[0;1;33;40m▓▓[0;36m██▓▓▓[0;1;36;45m██[0;1;36;40m▄▄[0m [35m▀[0;36m▀▀▓▓▓▓▀▀[0;35m▀▀[0;37m [0;1;30m▄▄██[0;34m▐██▐█▄[0;1;37;44m grindcore// [0;34m▓▓▒▓▒▒░░▒░░[0;30;44m█[0;34;40m░░[0m'

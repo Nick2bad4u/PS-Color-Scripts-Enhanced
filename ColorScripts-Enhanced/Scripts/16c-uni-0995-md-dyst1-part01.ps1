@@ -5,7 +5,7 @@
 # Source SHA-256: 01b0b33b16c641fdeeb287220004430547efcbdd0ea94af6b48094265c7f5737
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-DYST1.ANS by Mass Delusion (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Terminally Nothing's DYSTOPIA!
 # SAUCE Author: Mass Delusion
 # SAUCE Group: Union
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30mthere once was a k0w, and h3 was w1se.  then he kicked your ass and ate you.[0m
+[30m                                                                            [0m
 [1;30m▄  ▄  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄[1;30m▄[0m▄▄[1m▄  m[0mass [1md[0melusion . [1mu[0mnion
 
 [1;36m██▌[0m            [1;36m▄████████████[0;1;36;46m▓[0;1;36;40m█[0m         [1;36;40m▄▄███████████████[0;1;36;46m ░    [0;36m█[0m

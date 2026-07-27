@@ -5,7 +5,7 @@
 # Source SHA-256: 116590d3afc919e243af16aaf9a076684470efd8a684d381002c6ec609892ad0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ATLS#P&R.ANS by Rage + Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 31-62
 # Columns: 1-80
 
@@ -39,6 +39,4 @@ Write-Host '
        [1;37;40m▐[0;31m█▓[0;1;30m▌ [0;1;37m▐[0;31m██[0;1;30m▌  [0;1;37m▐[0;31m█▓▒[0;1;30m▌ [0;1;37m▐[0;31m█▓▒░░   [0;1;37;41m▌[0;31m█▓[0;1;30m▌ [0;1;37m▐[0;31m██[0;1;30m▌[0;1;37m▐[0;31m██[0;1;30m▌  [0;1;37;41m▌[0;31m█[0;1;30m▌ [0;1;37m▐[0;31m█▓▒[0;1;30m▌ [0;1;37m▐[0;31m█▓▒[0;1;30m▌  ▀[0;1;30;41m▄[0;31m▒▓█[0;1;30;41m▄[0;1;30;40m▌[0m
         [1;30;40m▀▀   ▀▀   ▀▀▀▀▀  ▀▀▀▀▀▀▀▀ ▀▀   ▀▀ ▀▀▀   ▀▀  ▀▀▀▀▀  ▀▀▀[0m     [1;30;40m▀▀▀[0m
 
-           [1;37;40m+358[0;1;36;40m-(9)[0;36m81-8177311 [0;1;31m♦ [0;1;37mOpe[0;1;36mn 2[0;36m4h/day [0;1;31m♦ [0;1;37mV.[0;1;36m32[0;36mbis [0;1;31m♦ [0;1;37mPcB[0;1;36moar[0;36md 15.1[0m
-
-[36m   [0;1;37mL[0;1;36mo[0;36mts [0;1;37mo[0;1;36mf [0;1;37mD[0;1;36mE[0;36mMOS [0;1;37ma[0;1;36mn[0;36md [0;1;37mMO[0;1;36mDU[0;36mLES [0;1;31m♦ [0;1;37mSy[0;1;36msO[0;36mp: [0;1;35mCruiser [0;1;31m♦ [0;1;37mAn[0;1;36msi [0;36mby: [0;1;32mRage [0;1;37ma[0;1;36mn[0;36md [0;1;32mPAZ [0;1;33m[BTG][0m'
+           [1;37;40m+358[0;1;36;40m-(9)[0;36m81-8177311 [0;1;31m♦ [0;1;37mOpe[0;1;36mn 2[0;36m4h/day [0;1;31m♦ [0;1;37mV.[0;1;36m32[0;36mbis [0;1;31m♦ [0;1;37mPcB[0;1;36moar[0;36md 15.1[0m'

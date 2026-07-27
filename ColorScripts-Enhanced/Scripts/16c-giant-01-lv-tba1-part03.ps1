@@ -5,7 +5,7 @@
 # Source SHA-256: b134fbe41dd64bc00ece5e0af89466b130e03862e22a539da74be4aa84b79725
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LV-TBA1.ANS by Liquid Vision (giant-01); released in giant-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 96-127
 # Columns: 1-80
 
@@ -29,16 +29,13 @@ Write-Host '
 ▓▄  T   H   E        B   L   A   C   K        A   L   L   I   A   N   C   E  ▄▓
 [1;30m▄▄[0m▄[1;30m▄▄▄[0m▄ [1;30m▄[0m▄▄[1;30m▄[0m▄ ▄▄  [1;30m▄[0m        ▄           ▄       ▄     ▄▄  ▄[1;30m▄[0m▄ ▄▄▄[1;30m▄[0m▄▄▄[1;30m▄[0m▄ ▄[1;30m▄▄▄[0m▄[1;30m▄▄▄[0m
 [1;30m▓▄▀▀[0m                                                                    [1;30m▀[0m  [1;30m▀▀▄▓[0m
-[1;30m▒▌▀[0m          [1;30mSysop: Fulcrum[0m [1;30m [0m.. [1;30mCo-Sysop: The Joker [0m..[1;30m 0-5 Day Shit[0m          [1;30m▐▒[0m
+[1;30m▒▌▀[0m          [1;30m              [0m [1;30m [0m   [1;30m                    [0m  [1;30m             [0m          [1;30m▐▒[0m
 [1;30m░ ▓[0m                     [1;30mRunning Vision-X[0m .. [1;30m512-388-3210[0m                      [1;30m░[0m
  [1;30m▓▀▄[0m                                                                          [1;30m [0m
 [1;30m ▒▀▀▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀▀[0m [1;30m▀▀▀[0m [1;30m▀▀[0m  [1;30m▀▀[0m   [1;30m▀[0m     [1;30m▀[0m      [1;30m▀[0m            [1;30m▀[0m          [1;30m [0m  [1;30m░[0m
  [1;30m░[0m
-[1m▄[0m▄[1;30m▄▄    [0;1;37m▄[0m▄[1;30m▄▄ ▄▄ This has been a Liquid Vision production released under GiANT.[0m
-[1;30m [0;1;30;47m░▒[0;1;30;40m▌[0m     [1;30;47m░▒[0;1;30;40m▌ ▒  If you wanna [0mPURCHASE* [1;30man ansi from me, I can be reached (reg-[0m
-[1;30m [0;1;30;47m▒▓[0m  [1;30m▓   [0;1;30;47m▒▓[0m  [1;30m▓  ularly) on Carpet Cleaners, Harvest Moon, Sushi Bar Z, Huma,[0m
-[1;30m [0;1;30;47m▓█[0m [1;30m▄█   [0;1;30;47m▓█[0m [1;30m▄█  or via the infomation super highway at john_lv@matrix.eden.com[0m
-[1;30m▄███▓█▄ ▄█▓██▀ *I take PAYING requests ONLY. No money, NO ansi! Also, I get the[0m
-                [1;30mmoney before I start a thing. Money up front or no ansi![0m
-
-[1m [0m'
+[1m▄[0m▄[1;30m▄▄    [0;1;37m▄[0m▄[1;30m▄▄ ▄▄                                                               [0m
+[1;30m [0;1;30;47m░▒[0;1;30;40m▌[0m     [1;30;47m░▒[0;1;30;40m▌ ▒               [0m          [1;30m                                       [0m
+[1;30m [0;1;30;47m▒▓[0m  [1;30m▓   [0;1;30;47m▒▓[0m  [1;30m▓                                                              [0m
+[1;30m [0;1;30;47m▓█[0m [1;30m▄█   [0;1;30;47m▓█[0m [1;30m▄█                                                                [0m
+[1;30m▄███▓█▄ ▄█▓██▀                                                                 [0m'

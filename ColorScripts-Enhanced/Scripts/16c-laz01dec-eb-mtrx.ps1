@@ -5,7 +5,7 @@
 # Source SHA-256: 9a64277ed5c5448db7d7245a3a5140cf1a55241877f97bf93c77e2cace69aafa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EB-MTRX.ANS by eiht ball (lazarus); released in laz01dec and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: matrix
 # SAUCE Author: eiht ball
 # SAUCE Group: lazarus
@@ -41,11 +41,6 @@ Write-Host '
 [1;34;44m░░   [0;34m▄[0;1;34;44m [0;34m▄▄▀[0;1;34m▀▀███[0;1;34;44m▄▄▄▄[0;34m▄▄▄▄█[0;1;34;44m▄[0;1;34;40m█████[0;1;34;44m▓▒░[0;34m▀[0;37m [0;1;30;47m▓░[0m███████████████████████████████████████████
 [1;30m▄▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▄▄[0m
 
-   [1msee that matrix up there ^^ its yours, whoever wants it .. it was for a board[0m
-[1mthat I was gunna set up, but I never did, so if you want it, take it..[0m
-[1m--[0m
-   [1mif you want an ansi from me[0m ([1mdunno why you would[0m)[1m too bad, I don''t do        [0m
-[1mrequests, reason being that I usually forget to draw them, and I hate the hastle[0m
-[1mWhen i finish a pic, ill be on irc, giving it away.. you can email me, and I    [0m
-[1mwill most likely do it. but dont ask on irc please.[0m
-                                [1meiht ball .. mteskey@ebtech.net[0m'
+   [1m                                                                             [0m
+[1m                                                                      [0m
+[1m--[0m'

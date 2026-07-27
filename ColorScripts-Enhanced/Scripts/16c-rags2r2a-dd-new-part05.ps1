@@ -5,7 +5,7 @@
 # Source SHA-256: 38b002a9817650fbef5adf55e7f9830aa7bc74ac32e804f9182b2c47f77e2044
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-NEW.ANS by DD (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "DeeplyDisturbed ... rICH b0Y!"
 # SAUCE Author: DD
 # SAUCE Group: .rAGS 2 rICHES.
@@ -39,7 +39,7 @@ Write-Host '
        [1m■[0m [1;36m ▄[0;36m▄[0m                [1;30m▀▀▀▀▓▄▄▄▄[0m           [1;30m▄▄▀▀[0m
             [1;36m▀[0;1;37m▀[0;1;36m▀[0;36m▀[0;1;36m▄[0;1;37m▄[0;1;36m▄[0;36m▄▄[0m                [1;30m▀▀▀▀▀▀▀▀▀▀[0m
                      [1;36m▀▀[0;1;36;46m▄[0;1;36;40m▄[0;1;37;40m▄[0;36m▄[0m
-   [1;30mart by [0;1;37mDeeply disturbed[0;1;30m with some help and a boot up the ass from Snake G.[0m
+   [1;30m       [0;1;37m                [0;1;30m                                                   [0m
                    [36m▀[0;1;30m [0;1;36m▀▀▀[0;1;36;46m▀[0;1;36;40m▄[0;1;37;40m▄[0;1;36;40m▄[0m
                             [36m▀[0;1;36m▀[0;1;37m▀[0m
 

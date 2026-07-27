@@ -5,7 +5,7 @@
 # Source SHA-256: e4bbdf2dfb922fe3d46d8f3a79bd43026ba1af21ca497d6c3d99fdbec2bdc4aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LM-CAS1.ICE by Lemonade (iCE); released in ice9511a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Castrau...
 # SAUCE Author: Lemonade
 # SAUCE Group: iCE
@@ -40,9 +40,4 @@ Write-Host '
 [37m  [0;1;35m▀[0;1;35;45m▓[0;1;35;40m▄[0m  [1;35m▄[0;1;35;45m▓▓[0;1;35;40m▌[0;35m [0;1;35m▐[0;1;35;45m▒[0;35m  [0;1;35;45m▒[0;1;35;40m   [0;35m [0;1;35m▐[0;1;35;45m▓[0;1;35;40m▌▐[0;1;35;45m▒▓▒[0;1;35;40m▌[0;1;35;45m▓▓[0;1;35;40m▌[0;35m   [0;1;35;45m▓▓▓▓[0;1;35;40m▌[0;35m [0;1;35m▐[0;1;35;45m▒[0;35m  [0;1;35m▐[0;1;35;45m▓▓[0;1;35;40m▄[0;1;35;45m▓▓[0;1;35;40m▌▐[0;1;35;45m▒▒[0;35m  [0;1;35m▐[0;1;35;45m▒[0;35m [0;1;35m▐[0;1;35;45m▓▒▓[0;1;35;40m▌[0;1;35;45m▓▓[0;1;35;40m▄[0;1;35;45m▓▓▓[0;1;35;40m▐[0;1;35;45m▒▓[0;1;35;40m▌[0;35m [0;1;35m▐[0;1;35;45m▓[0;35m  [0m
 [37m [0;1;35m░░▒[0m [1;35m▀▀[0;35m [0;1;35m▀▀▀[0m [1;35;45m▓[0;1;35;40m▌[0;35m [0;37m [0;35m [0;1;35;45m▓[0;1;35;40m▄[0m [1;35m▄[0;1;35;45m▓[0;1;35;40m▀[0m [1;35m▀[0;1;35;45m▓▓▓[0;1;35;40m▀▀▀▀[0m [1;35m▄▀▀[0m [1;35m▀▀▀[0m [1;35;45m▓[0;1;35;40m▌[0;35m   [0;1;35m▀▀[0;1;35;45m▓▓[0;1;35;40m▀▀[0;1;35;45m▓▓[0;1;35;40m▀[0;35m [0;37m [0;1;35;45m▓[0;1;35;40m▌[0;35m [0;1;35m▀[0;1;35;45m█▓▓[0;1;35;40m▀ ▀[0;1;35;45m▓▓[0;1;35;40m▀▀[0;1;35;45m▓▓[0;1;35;40m▀[0;35m [0;37m [0;1;35;45m▓[0;1;35;40m▌[0;35m  [0m
    [1;35m░[0m       [35m  [0;1;35m▀[0m   [1;35m ▀▀▀  [0m  [1;35m ▀[0m     [1;35m▐▌[0m      [35m  [0;1;35m▀[0m     [35m   [0;37m  [0;1;35m▀ [0m [35m  [0;1;35m▀[0m   [1;35m▀[0m    [35m   [0m     [35m  [0;1;35m▀[0m
-                        [1m3[0m  O  1  [1;35m▀[0m-   [1m8[0m  9  8  -  [1m4[0m  O  8  8
-              PCLink, Comic Book Network, Host of the Anime Network
-     [1m [0m     Sysop : [1mE[0mvil [1mR[0mesolution  ..  CoSysop :  [1mT[0merminally [1mN[0mothing
-
-                            [1;33mAnsi by [0;1;37mL[0;1;33memonade of [0;1;37mi[0;1;33mCE[0m
-      [1mG[0mreets[1m:[0m [1mC[0mold N [1mU[0mgly, [1mA[0mpocalypse-X, [1mS[0myntax [1mE[0mrror, [1mA[0mmorphis, and [1mT[0mical.[0m'
+                        [1m3[0m  O  1  [1;35m▀[0m-   [1m8[0m  9  8  -  [1m4[0m  O  8  8[0m'

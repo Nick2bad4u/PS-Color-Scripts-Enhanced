@@ -5,7 +5,7 @@
 # Source SHA-256: 947c5294240cc5fa17d652fb4affb6e87a82d94824886994576288773567c14e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PE!BX.ANS by Phony Eye (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bitch X
 # SAUCE Author: Phony Eye
 # SAUCE Group: AWE Lettering
@@ -17,7 +17,7 @@
 Write-Host '
             [35m   [0m
     [35m     ▄▄▄[0m                                 [35m   [0m                            [34m  [0m
-[35m      ▄█[0;1;35m▀[0;35m▀   ▄▄▄▄▄[0m          [35m░[0;30;45m▓[0m     [36;40mpanasynx Bitch  [0m    [35;40m  [0;37;40m  [0;1;35;45m▐[0;1;35;40m▄[0m   [35m▄[0;1;35m▄[0;35m [0m
+[35m      ▄█[0;1;35m▀[0;35m▀   ▄▄▄▄▄[0m          [35m░[0;30;45m▓[0m     [36;40m                [0m    [35;40m  [0;37;40m  [0;1;35;45m▐[0;1;35;40m▄[0m   [35m▄[0;1;35m▄[0;35m [0m
     [35m    ▄[0;1;35m▄[0;1;35;45m█[0;1;35;40m▀▀[0;35m▀   ▄▄▄[0;1;35m▄▄[0;35m█▀▀▀ [0;37m [0;35m  [0m    [36m              [0m       [35m▀[0m      [35m ▀[0;1;35m▀▀[0;1;35;45m▀█▄[0;1;35;40m▄▄[0;35m▄[0;37m [0;35m▄[0;1;35;45m▄[0;35m▄[0m
       [35m ▀▀ ▄[0;1;35m▄▄[0;1;35;45m▄[0;1;35;47m▀▀▓[0;1;35;45m█▀[0;1;31;45m [0;35m▀[0m       [35m [0m    [35m    [0m     [35m     [0m                     [35m▀[0;1;35;45m▀[0;1;35;47m▓▓[0;1;35;45m▄██▀[0;35m▀[0m
 [37m [0;34m█[0;1;34;44m░░[0;34m██[0;37m [0;35m▄[0;1;35;45m▄█[0;1;35;47m█▓▌▀ ▐[0;1;35;45m█▌[0;1;31;45m [0;35m▌[0;34m   [0m     [34m▄[0;1;34m▄▄[0;34m▄[0;37m [0;35m    [0;37m [0;34m▐[0;1;34;44m  [0;34m██[0;37m [0;35m [0m            [34m▐████[0;1;34;44m  [0;34m [0;35m▐[0;1;35m▄▄[0;35m▄▐[0;1;35;45m▐██▀[0;35m▀  [0m
@@ -34,21 +34,6 @@ Write-Host '
 [37;40m  [0;30;44m░[0;34;40m▓[0;1;34;44m░[0;34m▌▀[0;1;34m▀[0;34m▀ [0;37m [0;35m [0;37m [0;35m▀[0;1;35m▀▀[0m   [34m▄[0;1;34;44m▄█▀█[0;1;34;47m▓▓[0;1;34;44m█▀[0;1;34;40m▀▀[0;34m▀   [0;37m [0;34m▀▀[0;1;34m▀[0;1;34;44m▀█▄[0;1;34;40m▄▄▄[0;1;34;44m▄█▀[0;1;34;40m▀▀[0;34m▀ [0;35m▄[0;1;35m▄[0;1;35;45m▄[0;1;35;47m▀[0;1;35;45m█▄[0;35m▄[0;37m  [0;34m▀[0;1;34;44m▀██[0;1;34;46m▀[0;1;34;44m█[0;34m█  [0;37m [0;34m █▄    [0m
 [37m  [0;34m░[0;30;44m▓[0;34;40m      [0;37;40m [0;34;40m [0;37;40m [0;34;40m▄[0;1;34;40m▄▄▄[0;1;34;44m▄[0;1;34;40m███[0;1;34;44m▌[0;34m▌[0;1;34;44m▐▀[0;34m▀[0;37m [0;34m        [0m     [34m▀[0;1;34;44m▀██▄[0;34m▄  [0;35m▀█[0;1;35;45m▀[0;1;35;47m█▄ ░▓[0;1;35;45m▓░[0;35m▌ [0;37m [0;34m▐[0;1;34;44m▐[0;1;34;46m▓▓[0;1;34;44m▓░[0;34m▌[0;37m  [0;34m  [0m
 [37m  [0;34m [0m              [35m     [0;37m [0;1;34;44m▐[0;34m▌[0m    [1;30mP[0;1;30;41mh[0;1;30;40monyEye[0;34m   [0;37m [0;34m▐[0;1;34;44m▐█▓░[0;34m▌  [0;35m▐[0;1;35;45m ▐▀█[0;1;35;47m▓[0;1;35;45m█▀[0;35m▀[0;34m   [0;35m         [0;34m [0m
-    [34mBitch X[0;37m [0;34mVer[????][0;35m [0;37m [0;1;34m▐[0;34m▀[0m    [1;30m^[0m          [34m▄[0;1;34;44m▄█▀[0;1;34;40m▀[0;34m▀[0;37m  [0;35m▄█[0;1;35;45m ▀[0;35m▌▀▀░[0;30;45m▓[0m        [1;30;40mAwe/Cia[0m
+    [34m       [0;37m [0;34m         [0;35m [0;37m [0;1;34m▐[0;34m▀[0m    [1;30m [0m          [34m▄[0;1;34;44m▄█▀[0;1;34;40m▀[0;34m▀[0;37m  [0;35m▄█[0;1;35;45m ▀[0;35m▌▀▀░[0;30;45m▓[0m        [1;30;40m       [0m
           [35m          [0;34m   [0;1;34m▀[0;34m    [0m         [34m██ ▀[0m     [35m   [0;34m   [0;35m▌[0m       [1;30mGreets to Squish[0m
-[1;30m          [0;35m          [0m                                [35m▀[0m              [35m   [0m
-          [35m             [0m
-
-
-
-
-
-
-                                               [34m [0m
-                                               [34m [0m
-
-
-
-
-                                                           [34m [0m
-                                [34m [0m'
+[1;30m          [0;35m          [0m                                [35m▀[0m              [35m   [0m'

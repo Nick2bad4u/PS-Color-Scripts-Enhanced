@@ -5,7 +5,7 @@
 # Source SHA-256: 189a3fe74cc26e694afa4e0eedc7f7433b726b65e52a1701274c19d3ae45e9b5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JS-ICE1.ANS by John Shafter (void1193); released in void1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -47,5 +47,4 @@ Write-Host '
 [34;40m█████[0;34;44m [0;34;40m███████████████[0;34;44m                 [0;34;40m███  ▀██████████████████████ ▄▄█[0;34;44m          [0m
 [34;40m█████[0;34;44m                                 [0;34;40m████   ▀██████████████████▀ ▄█[0;34;44m            [0m
 [34;40m█████[0;34;44m                                  [0;34;40m█████▄   ▀▀▀▀▀▀▀▀▀▀▀▀▀   ▄█[0;34;44m              [0m
-[34;40m██████[0;34;44m                                               [0;34;40m█[0;34;44m                          [0m
-     [1;30;40mJohn Shafter/93[0m'
+[34;40m██████[0;34;44m                                               [0;34;40m█[0;34;44m                          [0m'

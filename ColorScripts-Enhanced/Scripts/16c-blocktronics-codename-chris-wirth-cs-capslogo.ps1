@@ -5,7 +5,7 @@
 # Source SHA-256: 78dc761bc0435c1008f7c354a635fd8568ad33da148fd4e7ec697e34badcb75d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cs-capslogo.ans by Capsone (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -40,5 +40,5 @@ Write-Host '
                                  [33m▀▀[0m     [33m▓░░██ ████[0;1;37;43m▒▒[0;33m██████████▓[0m
                                          [33m░░[0m       [1;37m░░[0m
 
-                  [1m ░[0;36m [0;1;35mC[0;1;32mA[0;1;36mP[0;1;31m$[0;1;30m - bl░cktr░nics[0;36m [0;1;30mansi rudebwoys ░[0;36m [0;1;30m2OO9[0;36m [0;1;37m░[0m
-                   [1;32m [0;1;37m░[0;36m [0;1;30mall rights reserved ░ all biters served[0;36m [0;1;37m░[0m'
+                  [1m ░[0;36m [0;1;35m [0;1;32m [0;1;36m [0;1;31m [0;1;30m     ░    ░    [0;36m [0;1;30m               ░[0;36m [0;1;30m    [0;36m [0;1;37m░[0m
+                   [1;32m [0;1;37m░[0;36m [0;1;30m                    ░                  [0;36m [0;1;37m░[0m'

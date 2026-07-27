@@ -5,7 +5,7 @@
 # Source SHA-256: 569b010837f6ac3f7832c3a661ed191c595415c378ff72ac59a688220291b7ba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ZONE1.ANS by Avenging Angel + Spear (27inch05); released in 27inch05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-41
 # Columns: 1-80
 
@@ -43,10 +43,4 @@ Write-Host '
 [37m [0;1;32;46m▀█[0;36m▄[0m        [36m   [0;1;32m▓[0;1;32;46m████▀[0;36m▀▀[0m        [1;32;46m███[0;36m  ▄▄█[0;1;32;46m▓▓[0;36m  [0;1;36m▒[0;1;32;46m▓▓[0;36m  [0;1;32m▀▀▀▀▀▀▀[0;36m▀[0m
 [37m  [0;1;32;46m▀█[0;36m▄[0m       [36m  [0;1;32m▒▓▓▓▓▓[0;36m    [0;1;32;46m ▓██▄[0;1;32;40m▄▄███[0;36m  ▀▀▀[0;1;32;46m▒▒[0;36m▄  ▀▀▀[0m
 [37m    [0;36m▀▀▄▄[0;37m    [0;36m  [0;1;32m▒▒▒▒▒[0m          [36m▀[0;1;32m▀▀▀▀[0;1;32;46m▀[0;36m█▄▄▄  ▀▀[0m
-                                      [36m▀▀[0m
-
-
-               [1mSinister X''s Outzone. Live it and and love it baby.[0m
-
-
-[34m   A little slice of ANSi heaven. Another joint 27" product. avgspe0. Help us.[0m'
+                                      [36m▀▀[0m'

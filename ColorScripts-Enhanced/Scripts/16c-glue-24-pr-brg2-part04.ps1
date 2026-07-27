@@ -5,7 +5,7 @@
 # Source SHA-256: 5d711577bfaa33e6d4a4cc1dbd3d85b9b7511a75e31e8261171951fe096c21ee
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pr-brg2.ans by propane (glue-24); released in glue-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: borgasm #2
 # SAUCE Author: propane
 # SAUCE Date: 19990730
@@ -42,17 +42,4 @@ Write-Host '
 
 
 
-[37m-------------------------------------[0;1;37m[alt-y][0m------------------------------------
-
-
-Well, the reason this ansi has turned out so well is because of all the help
-i''ve been getting from kitiara, she kicks ass at ansi, and now  she''s trying to
-help me get good, so big thank you to kitiara , if you don''t know who she is
-your stupid....
-
-[1mbtw this ansi has took longer then anything i''ve EVER drawn, i''ve redid it tons[0m
-[1mof times, but i''m happy with the finished product, i dunno how many hours it  [0m
-[1mtook exactly, but lets just say i''ve been drawing on it almost every day for[0m
-[1mthe last month[0m
-
-                                         propane.glue[0m'
+[37m-------------------------------------[0;1;37m[alt-y][0m------------------------------------[0m'

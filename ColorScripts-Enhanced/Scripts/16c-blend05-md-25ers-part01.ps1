@@ -5,7 +5,7 @@
 # Source SHA-256: ea126fbe920265bc40f0915308030f09772bd3888c83dbe6de49158ece13190d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-25ERS.ANS by mendator (blend); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 25 - liners
 # SAUCE Author: mendator
 # SAUCE Group: blend
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
- -( diabolical rites main menu - for baphomet )--------------------------------
+                                                                               
 
        [1;30m ▄▄▄[0m                             [1;30m    [0m                  [1;30m   [0m
     [1;30m▄█████[0;1;30;41m▓[0;31m░[0;1;30m██████▄[0m [1;30m░[0m [1;30m░ ░░▒▒▒▓▓▓▓██▌██▌█▌▌▌ [0mdiabolical rites[1;30m ▌▌█▌██▌█████▄▄▄[0m
@@ -30,15 +30,12 @@ Write-Host '
     [1;30m  [0;1;31m▀[0;31m▌[0m   [31m▀[0;37m [0;31m▄[0;1;31m▄[0m [31m▐[0;1;30;41m░[0;1;31;40m▒[0;31m▌[0m      [31mf[0;1;30m.[0mmenu command here  [31m░[0m     [31ms[0;1;30m.[0mmenu command here [1;31m░[0m   [1;30m█▓[0m
     [1;30m░░[0m    [31m▌[0m   [31m▀[0;1;31;41m▓[0;1;31;40m▒[0;1;31;41m░░[0;1;31;40m▒▄[0;1;31;41m▀[0;31m▀[0;1;30m [0m  [31mg[0;1;30m.[0mmenu command here        [31mt[0;1;30m.[0mmenu command here [1;31m░[0m [1;30m░[0m [1;30m█▓[0m
     [1;30m░▒[0m    [1;31m▌[0m    [31m▐[0;1;31;41m█▓▓▓▀[0;1;30;40m  [0m   [31mh[0;1;30m.[0mmenu command here        [31mu[0;1;30m.[0mmenu command here   [1;30m░[0m [1;30m▓▓[0m
-    [1;30m▒▒[0m    [1;31m▌[0m [1;30m [0m   [1;31;41m▐█▀[0;31m▀ [0;1;30m  [0m   [31mi[0;1;30m.[0mmenu command here     [1;30m░[0m  [31mv[0;1;30m.[0mmenu command here   [1;30m▒[0m [1;30m▓[0m░
-    [1;30m▒▓[0m [31m [0;37m  [0;1;31;41m▌[0;1;31;40m░[0m    [31m▐[0;1;31;41m▌[0m        [31mj[0;1;30m.[0mmenu command here     [1;30m▒[0m  [31mw[0;1;30m.[0mmenu command here     [1;30m▒▓[0m
+    [1;30m▒▒[0m    [1;31m▌[0m [1;30m [0m   [1;31;41m▐█▀[0;31m▀ [0;1;30m  [0m   [31m [0;1;30m [0m                      [1;30m░[0m  [31m [0;1;30m [0m                    [1;30m▒[0m [1;30m▓[0m░
+    [1;30m▒▓[0m [31m [0;37m  [0;1;31;41m▌[0;1;31;40m░[0m    [31m▐[0;1;31;41m▌[0m        [31m [0;1;30m [0m                      [1;30m▒[0m  [31m [0;1;30m [0m                      [1;30m▒▓[0m
     [1;30m▒[0m░[31m░▀ [0;37m [0;31m▐░[0;37m [0;31m▐[0;1;31m▄[0;31m  ▌[0m        [31mk[0;1;30m.[0mmenu command here     [1;30m▒[0m  [31mx[0;1;30m.[0mmenu command here     [1;30m▒▒[0m
     [1;30m▓[0m░  [31m▀[0;1;31m▒▄▄[0;31m▌░[0;1;31m▌[0m   [1;30m░░[0m      [31ml[0;1;30m.[0mmenu command here     [1;30m░[0m  [31my[0;1;30m.[0mmenu command here     [1;30m▒░[0m
-    [1;30m▓█[0m  [31m ▐[0;1;31m▀[0;31m▀[0;37m [0;31m▄[0m            [31mm[0;1;30m.[0mmenu command here        [31mz[0;1;30m.[0mmenu command here     [1;30m░░[0m
+    [1;30m▓█[0m  [31m ▐[0;1;31m▀[0;31m▀[0;37m [0;31m▄[0m            [31m [0;1;30m [0m                         [31m [0;1;30m [0m                      [1;30m░░[0m
     [1;30m██[0m [1;31m▀[0;31m▌[0;37m [0;31m░▌[0m   [1;30m░[0m                                                           [1;30m  ░░[0m
     [1;30m▐[0m▒[1;30m▌[0m           [1;30m+o baphomet [0m                                     [31m░░[0m       [1;30m ░[0m
      [1;30m▀██▄▄[0m
-       [1;30m▀▀▀██[0;1;30;41m▓▓[0;1;30;40m██████[0m▒▒[1;30m██████▓▓▓▓▒▒▒▒▒░░░░░░  ░░   ░       mendator(blend)      [0m
-
- -( nocturnal desire main menu - for catharsis )-------------------------------[0m
-'
+       [1;30m▀▀▀██[0;1;30;41m▓▓[0;1;30;40m██████[0m▒▒[1;30m██████▓▓▓▓▒▒▒▒▒░░░░░░  ░░   ░       mendator(blend)      [0m'

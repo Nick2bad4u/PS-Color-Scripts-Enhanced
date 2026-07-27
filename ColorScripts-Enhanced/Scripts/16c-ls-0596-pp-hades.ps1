@@ -5,7 +5,7 @@
 # Source SHA-256: d8f30635be686f6dd906b91d359d9e1d46e173489a6c60ebf6ee7d6dd5c4df20
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-HADES.ANS by phorce phed (leper society); released in ls-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hades
 # SAUCE Author: phorce phed
 # SAUCE Group: leper society
@@ -36,7 +36,7 @@ Write-Host '
 [30;40mpp[ls[0;31;40m▀███[0;35;44m▒[0;31;40m██▄▄▄█[0;30;40mpp[0;33;47m▒[0m [34;40m▓▓▓▒ [0;37;40m▐[0;33;40m▌[0;30;40mp[0;32;40m▄▄ [0;34;40m▀▀▀ [0;31;40m▄▄[0;30;40mpp[[0;31;40m▀█▄[0;30;40mp[0;34;40m▀▀▀[0;31;40m▄█▓[0;30;40mp[0;32;40m▄ [0;34;40m▀▀█[0;34;44m [0;1;34;44m░[0;34m▄▄[0;30mpp[0;31m▀█[0;30mp[0;32m▀[0;33m▀ [0;30mp[0;34m▄▄█▀▀[0;30mp[0;31m▄▄▀[0;30mp[0m
 [30mpp[ls]pp[0;31m▀[0;31;44m▓[0;31;40m▀▀▀▀[0;30;40mpp[[0;33;47m▓[0;31;40m▀ [0;34;40m░░▒▄ [0;33;47m▓[0;30;40mpp[[0;36;40m▀[0;33;47m▓▒[0;37;40m▄▄[0;31;47m░[0;37;40m▀[0;31;40m▀[0;31;47m▒▓[0;31;40m▄▄█▀[0;30;40mp[0;37;40m▄[0;37;41m▓▒░[0;31;40m█▀[0;30;40mpp[0;36;40m▀[0;33;47m░▒[0;37;40m▄▄[0;31;40m▄▄▄▄██▀[0;30;40mp[0;36;47m▀[0;37;41m▓▒[0;37;40m▄[0;33;40m▄[0;37;40m▄[0;31;40m▄▄██▀[0;30;40mpp[[0m
 [30;40mpp[ls]pp[[0;31;40m█[0;30;40mpp[ls][0;32;40m▄[0;36;40m▀ [0;34;40m░▒[0;36;40m░[0;34;40m░ [0;32;40m▐[0;37;40m▌[0;30;40mpp[ls[0;33;40m▀▀[0;37;40m▀[0;30;40mpp[l[0;31;40m▀▀▀[0;30;40mpp[0;33;40m▀[0;37;40m▀[0;30;40mp[0;31;40m▀[0;30;40mpp[ls]p[0;33;40m▀[0;37;40m▀[0;33;40m▀[0;37;40m▀▀[0;31;40m▀▀▀[0;30;40mpp[0;37;40m▀▀[0;30;40mp[0;37;40m▀[0;33;40m▀▀▀▀▀[0;30;40mpp[ls][0m
-[30;40mpp[ls]pp[ls]pp[[0;1;33;40m▒  [0;34m▓▓░▒ [0;32m▄▀[0;30mpp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[0;1;30mpp[0;30m[l[0m
+[30;40m               [0;1;33;40m▒  [0;34m▓▓░▒ [0;32m▄▀[0;30m                                                  [0;1;30m  [0;30m  [0m
 [30mpp[ls]pp[ls]pp[[0;1;37m█▄ [0;34m▀██▓ [0;1;33m▓[0;30mpp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[0;1;30m[ls][0;30mp[0m
 [30mpp[ls]pp[ls]pp[l[0;1;37m███▄ [0;34m▀ [0;1;37m█[0;30mpp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]p[0m
 [30mpp[ls]pp[ls]pp[ls][0;1;37m▀▀█▄▄[0;1;33m█[0;1;37m▌[0;30mpp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls]pp[ls][0m

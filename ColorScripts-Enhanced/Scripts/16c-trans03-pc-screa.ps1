@@ -5,7 +5,7 @@
 # Source SHA-256: e7acefae65a25865bd79b51114e1a6546f1fcd91abbd76f4874b1cae5d873888
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-SCREA.ANS by Proctologist (Transmission); released in trans03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fReAk 0uT!!
 # SAUCE Author: Proctologist
 # SAUCE Group: Transmission
@@ -41,14 +41,14 @@ Write-Host '
 [1;31m$$$$$$$$[0m            [1m`ⁿT$$[0;1;47m$[0;1;40m$$$$[0mS,.[1m`°ⁿⁿⁿⁿⁿ°`   [0;1;31m_.,[0;31mg[0;1;31m#[0;31mS[0;30;41m$[0;31;40m$$$$[0;1;31;40m$[0;31mS[0;1;31m#g[0;31m#[0;1;31m$[0;31m$$$$$$$$$$PⁿⁿT$[0;1;31mg[0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>--[0m
-[1;30mThis was originally a windows icon I drew.  I Screen Thief''d it to a bmp, then[0m
-[1;30mI[0m [1;30mconverted it to ansi.  After that I went through it changing it everything to[0m
-[1;30meither $, g, and ⁿ.  Then I just fixed it up a little, and tada!  Instant cool[0m
-[1;30mpic! :)[0m  [1;30mI think I''ll do this more often. :)  BTW, download[0m [1;30mmyicons.zip and[0m
-[1;30mmyicons2.zip to check out[0m [1;30mmy icon work.[0m                                 [1;30m [0m
-[32mIf anybody out there has an old shitty ansi drawing program full of bugs[0;37m [0;32mcalled[0m
-[32mThe Brush...I need it...BAD.[0;37m  [0;32mIf you have it or know where to get it PLEASE[0m
-[32mlet me know somehow so I can convert more bmp''s to ansis.  Other programs just[0m
-[32mdon''t do it properly.[0m
+[1;30m                                                                              [0m
+[1;30m [0m [1;30m                                                                             [0m
+[1;30m                                                                              [0m
+[1;30m       [0m  [1;30m                                                  [0m [1;30m               [0m
+[1;30m                         [0m [1;30m             [0m                                 [1;30m [0m
+[32m                                                                        [0;37m [0;32m      [0m
+[32m                            [0;37m  [0;32m                                             [0m
+[32m                                                                              [0m
+[32m                     [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

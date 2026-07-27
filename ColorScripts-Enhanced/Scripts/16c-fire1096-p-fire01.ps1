@@ -5,7 +5,7 @@
 # Source SHA-256: 0a18dad198b7ae16f8df4239ded153b2cb58c43fe37aa4b79fc10b37512e35e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P-FIRE01.ANS by Panacea (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fire Promotional
 # SAUCE Author: Panacea
 # SAUCE Group: fire
@@ -35,7 +35,7 @@ Write-Host '
      [37m [0;31m▄█[0;31;47m▄[0;37;41m▓▓[0;37;40m▀▀  [0m   [37;40m▀    ▀▀▀▀█[0;1;37;47m▀[0m▄[31m░[0;37m  ▄▀▐[0;1;37;47m▓▄[0m█[31;47m▀██[0;31;40m▓▀▀▀[0;1;31;41m▀[0;31m▀[0;37m [0;31m▄[0;1;31;41m▄[0;31m▄[0;37;41m░[0;31;47m▓[0;37;40m▀▀▀▀▀[0;31;47m▄[0;37;41m░[0;31;47m▓█[0;31;40m▄▄▄▄[0;1;31;40m▄[0;1;31;41m▄▄██▀[0;31m█▌[0m
    [37m [0;31m▄▀▀[0m                      [31m▀▓[0;1;31;41m▄[0;31m▄[0;37m  ▄█▀▀▀[0m          [31m▀[0;37m     [0m     [37m     [0;31m▀▀▀▀▀▀█▄▄ [0m
    [31m▀[0;1;31;41m▀[0;31m▀[0m                        [37m [0;31m▀[0;37m [0m                                        [31m▀[0;1;31;41m▀[0;31m▀[0m
-       [1;30m"[0mIt like gets stuff stuck in it real easily[1;30m" -[0mGod among Lice
+       [1;30m [0m                                          [1;30m   [0m              
 
 
 
@@ -46,5 +46,4 @@ Write-Host '
                                  ▄
 
 
-                                 ▄[0m
-'
+                                 ▄[0m'

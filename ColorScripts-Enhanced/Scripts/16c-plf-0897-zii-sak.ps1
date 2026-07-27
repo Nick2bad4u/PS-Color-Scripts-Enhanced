@@ -5,7 +5,7 @@
 # Source SHA-256: b243c6c57120c5372ca7deac5f48fe941b463be52938322d6160476ba8f6a132
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-SAK.ANS by Zeus II (Lesbisk bastu AB); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Present till supergruppen plf
 # SAUCE Author: Zeus II
 # SAUCE Group: Lesbisk bastu AB
@@ -18,8 +18,8 @@ Write-Host '
 
 
 
-               Nä alltså, jag blev så förbannad rörd när jag såg det
-          senaste plf packet att jag bara måste sätta mej å rita en liten sak.
+                                                                    
+                                                                              
 
 
 
@@ -33,16 +33,10 @@ Write-Host '
                              [34m▀[0;1;34m░[0;34m▄▄▀[0;1;34m▀▀[0;1;34;44m▀[0;1;34;47m██[0;1;34;44m█[0;34m█    [0m
                                  [34m▀▀▀▀▀[0m
 
-        [37mDessutom tänkte jag inkludera något sällsynt:[0m
+        [37m                                             [0m
 
 
                                  [33m░▄▄[0;1;33m▄[0;1;37m▄[0m
                             /->       [33m▀▀[0;1;33m▀▀▄[0;33m▄▄[0;1;37m▄[0;1;33m▄[0m
                            |                   [33m▀[0m
-                          [37m|[0m
-                         [37mhårstrå från tasmansk pungvarg[0m
-                   [37m mycket sällsynt (om inte utdött) pungdjur [0m
-
-
-
-                   [37mFrån Zeus II till alla mina plf vänner.[0m'
+                          [37m|[0m'

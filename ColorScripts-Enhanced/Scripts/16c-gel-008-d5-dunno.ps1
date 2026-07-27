@@ -5,7 +5,7 @@
 # Source SHA-256: 6f8f041554266d3822a4e37d2273477c09a101eeee99a20a429f25d1df137753
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D5-DUNNO.ANS by dee five (gel); released in gel-008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ???... free for anyone =)
 # SAUCE Author: dee five
 # SAUCE Group: gel
@@ -44,8 +44,8 @@ Write-Host '
                                                                  [36m [0m
 [1;37m--------------------------------------------------------------------------------[0m
 
-[1;37mim not telling anyone what this is supposed to be... maybe an ad for some bbs[0m
-[1;37mi dunno... [0m
+[1;37m                                                                             [0m
+[1;37m           [0m
 
 
   [1m/\[0;1;33m--[0;33m-[0;1;33m-[0;1;37m/\/\[0;1;33m__[0;1;37m/\[0;1;33m__[0;1;37m/\[0;1;33m__[0;33m_[0;1;33m_[0;1;37m/\[0;1;33m__[0;33m_[0;1;37m/\/\[0;1;33m__[0;33m_[0m

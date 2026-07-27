@@ -5,7 +5,7 @@
 # Source SHA-256: 87cff8c1f482a39e4148f3851958be77108c4b0e55753e33b895b4a44566c3aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-WODS.ANS by Keetar + Sephiroth (Sadist); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Glade
 # SAUCE Author: Keetar&Sephiroth
 # SAUCE Group: Sadist
@@ -55,7 +55,7 @@ Write-Host '
 
 
 
-[31m░░[0;1;34m Keetar made the bottom pic and font with the nice background with the[0m
-[1;34m   mountains etc, and Sephiroth was working on the upper dragon simultaneously[0m
-  [1;34m So we merged em together since we though they''d look good together as a[0m
-[31m░░[0;1;34m joint. Done somewhere between 2000 and 2005:>.[0m'
+[31m░░[0;1;34m                                                                      [0m
+[1;34m                                                                              [0m
+  [1;34m                                                                        [0m
+[31m░░[0;1;34m                                               [0m'

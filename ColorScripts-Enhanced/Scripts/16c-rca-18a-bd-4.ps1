@@ -5,7 +5,7 @@
 # Source SHA-256: 758625a440939a4881ea107db497e56fafe7806f6a5a6e25969a27745b5ccd37
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BD-4.ANS by Blue Devil + Kitiara (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -44,16 +44,11 @@ Write-Host '
 [1;37m██▀▀[0m    [1mkit![0m                                                  [1;33m▐[0;1;33;43m░[0;33m███▄[0;37m░░ [0;33m▄█[0;37m [0;33m▄▄[0;37m [0;33m▀▀█[0m
 [1;37m▀[0m                         [1;34mHowl At the Moon[0m                     [1;33;43m░[0;33m██▀[0;37m▒░[0;33m▐█▀▀[0;37m [0;33m▐▀▀[0;37m  [0;33m▀[0m
                                                                [1;33m▐[0;1;33;43m░[0;33m▌[0;37m░ [0;1;33;43m░[0;33m█▄██▄[0m
-              [1;34mI look into the nite sky and see the full moon.[0m   [1;33m▀[0;33m▄▄████[0;1;30;43m░[0;33m▀▀[0m     [33m░[0m
-              [1;34mI ponder the dances of glittering light that are[0m  [1;33m▐[0;1;33;43m░[0;33m█[0;1;30;43m░░[0;33m█▄[0;37m [0;33m░[0m     [33m░░[0m
-              [1;34mreflected upon it.[0m [1;34mI see images of daydreams come[0m [1;33m▐[0;1;33;43m░[0;33m███▌░[0m        [33m░[0m
-              [1;34mto life. A menagerie of entertainment is beset [0m   [1;33m▀[0;1;33;43m▒░[0;33m█▄░░[0m    [33m░[0m
-              [1;34mbefore me.[0m [1;34mI see great images of past battles and[0m  [1;33;43m▒░[0;33m█[0;1;30;43m░[0;33m▄[0;37m [0;33m░[0;37m [0;33m░▒░[0m
-              [1;34mgreat destruction. I also see the creation of the[0m    [1;33;43m▒░[0;33m████▄▄░▒░[0m
-              [1;34muniverse and how glorious and grand it is.[0m [1;34mThen [0m      [1;33m▀▀[0;33m▀▀▀█[0;1;30;43m░░[0;33m█▄▄▄[0m
-              [1;34msuddenly I am overwhelmed by a inclanation to[0m                 [33m▀▀▀█[0m
-              [1;34mHowl at the Moon and celebrate the spirits of nature[0m
-              [1;34mthat have graced me.[0m
-
-
-                                   [1;34mBlueDevil/03/25/98[0m'
+              [1;34m                                               [0m   [1;33m▀[0;33m▄▄████[0;1;30;43m░[0;33m▀▀[0m     [33m░[0m
+              [1;34m                                                [0m  [1;33m▐[0;1;33;43m░[0;33m█[0;1;30;43m░░[0;33m█▄[0;37m [0;33m░[0m     [33m░░[0m
+              [1;34m                  [0m [1;34m                              [0m [1;33m▐[0;1;33;43m░[0;33m███▌░[0m        [33m░[0m
+              [1;34m                                               [0m   [1;33m▀[0;1;33;43m▒░[0;33m█▄░░[0m    [33m░[0m
+              [1;34m          [0m [1;34m                                      [0m  [1;33;43m▒░[0;33m█[0;1;30;43m░[0;33m▄[0;37m [0;33m░[0;37m [0;33m░▒░[0m
+              [1;34m                                                 [0m    [1;33;43m▒░[0;33m████▄▄░▒░[0m
+              [1;34m                                          [0m [1;34m     [0m      [1;33m▀▀[0;33m▀▀▀█[0;1;30;43m░░[0;33m█▄▄▄[0m
+              [1;34m                                             [0m                 [33m▀▀▀█[0m'

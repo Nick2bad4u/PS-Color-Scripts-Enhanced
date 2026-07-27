@@ -5,7 +5,7 @@
 # Source SHA-256: cd561f77f199c1f52ace757666551a926f278619673370f82c548afb2e794dab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-SIXTH.ANS by ize (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the sixth sense
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -35,5 +35,5 @@ Write-Host '
        [30;43m▓[0;1;31;40m▀▀▀▀▀[0;33m▀[0;32m ▄[0;1;32m▄▄▄▄▄[0;1;32;42m▄[0;1;32;40m██[0;1;36;40m██[0;1;32;40m████▄[0m [1;35m▀▀[0m [32m▄[0;1;32m▄▄[0;1;32;42m▄[0;1;32;40m██[0;1;36;40m██[0;1;32;40m██▄▄▄[0m [33m▀[0;1;35m▀▀▀[0;1;35;43m▀█[0;1;35;47m█▓▓█[0;1;35;43m▀[0;1;35;40m▀▀▀[0;33m▀[0m    [35mtr[0;1;35mahm[0;1;31ma![0m
        [32m▄[0;1;32m▄[0;1;32;42m▄[0;1;32;40m███████[0;1;32;47m▓▓[0;1;32;40m██████[0;1;36;40m█[0;1;32;40m██████████████████[0;1;36;40m█[0;1;32;40m████[0;1;32;42m▓▒░[0;32m▄▄▄▄▄▄▄▄▄▄[0;37m [0;32m▄[0m     [32m▄[0m
                         [1;36m ▀▀▀[0m  [1;32m└┬─[0;1;36m──[0;1;32m-─[0m [1;32m-[0m  [1;32m-[0m
-                         [1;32m-[0m [1;32m─[0m [1;32m-─[0;1;36m┤[0;1;32m t[0;1;36mhe[0;1;32m s[0;1;36mi[0;1;32mxth se[0;1;36mnse[0m [1;36m─[0;1;32m-[0;1;36m-[0m [1;32m-[0m  [1;32m-[0m
+                         [1;32m [0m [1;32m─[0m [1;32m ─[0;1;36m┤[0;1;32m  [0;1;36m  [0;1;32m  [0;1;36m [0;1;32m      [0;1;36m   [0m [1;36m─[0;1;32m [0;1;36m [0m [1;32m [0m  [1;32m [0m
                                [1;36m└[0;1;32m─[0;1;36m─[0;1;32m-─[0m [1;32m-[0m  [1;32m─[0m  [1;32m-[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1d454f08c123835adfdf8f32ff0c7418a7f095e552ec3084533339357424babc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PLNT.ANS by Hennifer + Illogic + The Silent Killer + Neophyte (lazarus); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: planets 4-way
 # SAUCE Author: hen/ill/tsk/yt
 # SAUCE Group: lazarus
@@ -37,11 +37,5 @@ Write-Host '
             [37;40m░░░░[0m               [34;40m░▒[0;31;44m░░[0;34;40m▀▀▄▄▄██▓[0;30;44m░[0;31;40m░[0;30;44m▓[0m
                              [34;40m▄▄[0;31;44m░░▒▒[0;34;40m▓[0;30;44m░░[0;34;40m▓▒[0;30;44m▒▓[0;34;40m░[0m
                       [34;40m░░[0m   [34;40m░░░░[0;31;40m░░[0;34;40m░[0;30;44m▓▓[0;34;40m░░[0;30;44m▓[0m
-                                         [1;33;40mhen/ill/tsk/yt[0m
-                          [34m░[0;30;44m▓▓▓[0;34;40m░░[0;30;44m▓▓[0;34;40m░[0;30;44m▓[0m
-
-
-
-[1;30;40mHEN> i said it needed red and yellow.  they thought i was cRAZY!@#  but i KNEW[0m [1;30m [0m
-[1;30m     red and yellow were the ONLY WAY!#$%  THEY MOCKED ME.  WELL I SHOWED THEM!![0m
-     [1;30mAHAHHAHAhhahahhahHAHAAEH!HH$HT$>T>!>#>rg!bGtcasg,,..[0m'
+                                         [1;33;40m              [0m
+                          [34m░[0;30;44m▓▓▓[0;34;40m░░[0;30;44m▓▓[0;34;40m░[0;30;44m▓[0m'

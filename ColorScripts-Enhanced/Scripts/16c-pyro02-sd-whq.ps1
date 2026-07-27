@@ -5,7 +5,7 @@
 # Source SHA-256: 1aed01455eb4636d6d514c61ebc64d5e2e2e8e57719c78d56e91d0941f2adf20
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-WHQ.ANS by SHADDOW DWELLER (PYRO); released in pyro02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ACHERON BBS
 # SAUCE Author: SHADDOW DWELLER
 # SAUCE Group: PYRO
@@ -38,5 +38,4 @@ Write-Host '
 [32m██▌[0;37m [0;32m▒[0;37m [0;32m█[0;1;36;42m░[0;32m██[0;37m [0;32m▐███[0;37m [0;32m░[0;37m  [0;32m■[0;37m [0;32m░[0;37m [0;32m  ░[0;37m [0;32m░[0;37m  [0;32m▒[0;37m [0;32m░████[0;37m [0;32m█[0;37m [0;32m▐██ [0;37m  [0;32m██▄[0;37m  [0;32m░[0;37m  [0;32m░[0;37m [0;32m▐[0;37m [0;32m░[0;37m [0;32m██▒ ██▄[0;37m  [0;32m█[0;37m  [0;32m██[0;1;36;42m▒[0;32m█[0m   [32m▒[0m
 [32m██[0;37m [0;32m▒▒[0;37m [0;32m█[0;1;36;42m [0;32m██[0;37m  [0;32m███▌[0;37m [0;32m▄█[0;37m [0;32m░[0;37m [0;32m ■▄ ░[0;37m [0;32m▒[0;37m [0;32m░[0;37m  [0;32m████[0;37m [0;32m█▌ ███ [0;37m  [0;1;36;42m ▒[0;32m█[0;37m  [0;32m░[0;37m  [0;32m▐█[0m   [32m███▒[0;37m [0;32m▀██▄[0m   [32m██[0;1;36;42m░[0;32m█[0m
 [32m█▌ ▒▓[0;37m [0;36;42m [0;1;36;42m [0;32m██[0;37m [0;32m▒▐███▐█▌░[0;37m [0;32m ■ ▐█▄[0;37m  [0;32m░▒[0;37m  [0;32m████[0;37m [0;32m██[0;37m [0;32m▐█[0;1;36;42m░[0;32m█ [0;37m [0;32m████[0;37m  [0;32m ▐█▌[0;37m [0;32m░[0;37m [0;32m███▓[0;37m [0;32m▒▐█[0;1;36;42m [0;32m█[0;37m [0;32m░[0;37m [0;32m████[0;37m [0;32m░[0m
-[32m█[0;37m [0;32m▒▓▓[0;37m [0;32m████[0;37m [0;32m▓[0;37m [0;32m███▌█[0;37m [0;32m░[0;37m [0;32m░ ░ ███▄[0;37m [0;32m▒▒[0;37m [0;32m████[0;37m [0;32m██▌[0;37m [0;32m████[0;37m  [0;32m████[0;37m [0;32m▐██[0;37m [0;32m░▒[0;37m [0;32m████[0;37m [0;32m▒ █[0;1;36;42m░[0;32m█[0;37m [0;32m▒[0;37m [0;32m████[0;37m [0;32m▒[0m
-     [32m+61 7 3256 0758[0;37m  [0;32mpyro[0;37m [0;32mwhq  acid agora[0;37m  [0;32mfire aust hq [0;37m [0;32mtiny toons aust[0;37m [0;32mhq[0m'
+[32m█[0;37m [0;32m▒▓▓[0;37m [0;32m████[0;37m [0;32m▓[0;37m [0;32m███▌█[0;37m [0;32m░[0;37m [0;32m░ ░ ███▄[0;37m [0;32m▒▒[0;37m [0;32m████[0;37m [0;32m██▌[0;37m [0;32m████[0;37m  [0;32m████[0;37m [0;32m▐██[0;37m [0;32m░▒[0;37m [0;32m████[0;37m [0;32m▒ █[0;1;36;42m░[0;32m█[0;37m [0;32m▒[0;37m [0;32m████[0;37m [0;32m▒[0m'

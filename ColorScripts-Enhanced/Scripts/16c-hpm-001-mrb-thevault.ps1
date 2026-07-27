@@ -5,7 +5,7 @@
 # Source SHA-256: 0ceaee19ca5cad44834004a9ed6ba582bc3537e90bb4220afab4958365125979
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mrb - TheVault.ans by Mr.R0b070 (HPM); released in hpm-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Vault
 # SAUCE Author: Mr.R0b070
 # SAUCE Group: HPM
@@ -17,9 +17,9 @@
 
 Write-Host '
 
-[31m  THE VAULT BBS[0;37m                                [0;31mHERMANAS DEL PERRO MAGNETICO WHQ[0m
-[37m  [0;31mTHEVAULTBBS.DDNS.NET:2323[0;37m               [0;31mTHE FUTURE WILL BE BROADCASTED BY BBS[0m
-[37m  [0;31mHOSTED BY[0;37m [0;31mDON EPI & DON ROLO[0;37m                              [0;31mREAL CYBERPUNK[0;37m [0;31m24/7[0m
+[31m               [0;37m                                [0;31m                                [0m
+[37m  [0;31m                         [0;37m               [0;31m                                     [0m
+[37m  [0;31m         [0;37m [0;31m                  [0;37m                              [0;31m              [0;37m [0;31m    [0m
 
 
 

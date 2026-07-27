@@ -5,7 +5,7 @@
 # Source SHA-256: 09d0eed89ea5cf4dffa068cfc0e81a339e0c4731855f64ca439699175cc9a1ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-SKF69.ANS by Eerie (Fire); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Skullfish
 # SAUCE Author: Eerie
 # SAUCE Group: Fire
@@ -15,11 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-eerie-mc [1;31mfire[0m
+         [1;31m    [0m
 
 
 
-swallow me, all of me, oh, EAT ME LOVE
+                                      
 [1m███████████████████████████████████████████████████████████████████████████████[0m
 [1m█████████████████████████▀▀▀▀[0m            [1m▀▀▀▀▀▀████████████████████████████████[0m
 [1m████████████████████▓▀  [0;1;30m░▄▄▓▄▄▓ ▄[0m       [1;30m░  ▓▄ ▄▄░   [0;1;37m▀▀█████████████████████████[0m
@@ -41,5 +41,4 @@ swallow me, all of me, oh, EAT ME LOVE
 [1;37m████████████████▌ [0;1;30m▓█   [0;31m▄   ▀ ▀[0m        [31m█▓▀  +▄[0m
 [1;37m█████████████████▄ [0;1;30m▐█[0m            [31m■▀ ▀  ░ ■[0m
 [1;37m█████████████▓▓▓▀░   [0;1;30m▀[0m
-             ░░░
-this will probably turn into a stat screen or a matrix.  who knows.[0m'
+             ░░░[0m'

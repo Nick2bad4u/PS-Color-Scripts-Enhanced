@@ -5,7 +5,7 @@
 # Source SHA-256: 1489cae70daa7beec5b7ffebccc90a0a7743ea0caca1da4a7a7127e709266875
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR-SYRUP.ANS by Primal Rage (Axf/Xeed); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Syrup Logo
 # SAUCE Author: Primal Rage
 # SAUCE Group: Axf/Xeed
@@ -33,6 +33,4 @@ Write-Host '
  [34m█▓██[0;37m [0;34m████[0;37m [0;31m████[0;37m [0;33m████[0;37m [0;35m█▓██[0;37m [0;35m████[0;37m [0;36m██▓█[0m       [33m [0;1;30m▄[0;1;30;47m█▓[0;1;30;40m█▀█▄[0;33m [0;1;30m▄▀[0;1;30;47m▓[0;1;30;40m▀▄▄[0m   [1;30m▀[0m [1;30m█[0;1;30;47m▓[0;1;30;40m▄[0m    [1;30m▀█▓▄[0m
  [34m█▓██[0;37m [0;34m████[0;37m [0;31m██▓█[0;37m [0;33m████[0;37m [0;35m█▓██[0;37m [0;35m██▓█[0;37m [0;36m██▓█[0m       [1;30m▐[0;1;30;47m▓[0;1;30;40m▓█ [0m  [1;30m ▀▓▓▄▄[0m  [1;30m█▄[0m  [1;30m▐▓█▌[0m     [1;30m▐█[0;1;30;47m▓[0;1;30;40m▌[0m
  [34m▀▓██▄██▓▀[0;37m [0;31m██▓█[0;37m [0;33m████[0;37m [0;35m▀▓██▄██▓▀[0;37m [0;36m██▓█[0m        [1;30m▀▓▌[0m      [1;30m▀[0m  [1;30m  [0m    [1;30m▀█▀[0m     [1;30m▄██▀[0m
-[31m▄▄▄▄[0;37m  [0;31m▄▄▄▄▄██▓▀[0;37m [0;33m▀▓██▄[0;35m [0;1;32m [0;33m▄▄[0;32m▄[0;36m▄▄[0;37m [0;35m [0;36m▄██▓▀[0m          [1;30m▀      [0m               [1;30m▀▀▀[0m
-                         [1;30m [0m
-              [1;30m[[0m [1;30mAnsi by [0;1;37mPrimal Rage[0m [1;30mof[0m [1m-AXF-[0m [1;30mand[0m [1mXeed[0m [1;30mand[0m [1mFutura[0m [1;30m][0m'
+[31m▄▄▄▄[0;37m  [0;31m▄▄▄▄▄██▓▀[0;37m [0;33m▀▓██▄[0;35m [0;1;32m [0;33m▄▄[0;32m▄[0;36m▄▄[0;37m [0;35m [0;36m▄██▓▀[0m          [1;30m▀      [0m               [1;30m▀▀▀[0m'

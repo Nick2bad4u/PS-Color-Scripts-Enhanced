@@ -5,7 +5,7 @@
 # Source SHA-256: 3861581c9070c2621b5bafe0a7235f6e59cdd09eac8e4dc4b75c7ad09dfcb827
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-MIN1.ANS by The Avenging Angel (force); released in force-23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ministry
 # SAUCE Author: The Avenging Angel
 # SAUCE Group: force
@@ -39,9 +39,4 @@ Write-Host '
 [34;40m▐[0;1;34;44m░░░▓▓▓[0;1;34;40m██████████[0;1;34;44m▄[0;34m▄[0;37m [0;1;34m [0;36m▀[0;1;36m▀[0;36m▄[0;1;36m▀[0;36m▀[0;37m [0;34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;40m██████[0;1;34;44m▀[0;34m▀▄[0;1;34;44m▄[0;1;34;40m████████████[0;1;34;47m███[0;1;34;40m█████[0;1;34;44m▀[0;34m▀[0;1;34m [0m            [31m▐[0m
 [34m▐[0;1;34;44m   ░░░▓▓▓[0;1;34;40m██████████[0;1;34;44m▄[0;1;34;40m▄[0;34m▄ [0;1;34m▄[0;1;34;44m▄[0;1;34;40m█████[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀▄[0;1;34m▄[0;1;34;44m▄[0;1;34;40m██████████████[0;1;34;44m▀[0;1;34;40m▀▀▀▀[0;34m▀[0;1;34m   [0m           [31m        [0m
 [1;34m [0;34m▀▀▀▀▀▀▀[0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀▀[0;1;34m    [0;34m▀[0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;1;34m   [0m            [1;30m   [0m [1;30mAve_Angel[0m fOrce
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mthis is for Minister Of light''s board [0mministry of the fools[1;30m, requests at:[0m
-dramax0r@hotmail.com[1;30m ..[0m [1;30mgreets to: [0mCryo, rzicus, terrOr 1O8, tremOr, image,
-                                   rippa, taintedx, chr0nix, d_Skwerl, Syndrome,
-                                   minister,(you owe me 1), cyanide, platoonim
-                                   and any felt out person....[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

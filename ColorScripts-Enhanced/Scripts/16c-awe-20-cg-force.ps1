@@ -5,7 +5,7 @@
 # Source SHA-256: 50dcb5e78b94de17ecd50ddbec041837b7227aaf9b945313b1eacdb5e773a332
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-FORCE.ANS by Cryogenic (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Force Promotional
 # SAUCE Author: Cryogenic
 # SAUCE Group: AWE Lettering
@@ -39,9 +39,4 @@ Write-Host '
    [1;30m  [0m    [32m ▓▓[0;37m [0;1;30m▀[0;32m▀[0;1;30;42m▄░[0m [32m [0;37m [0;32m ░[0;37m  [0;35m░░[0;37m [0;32m▓▓ [0m   [37m  [0;35m░[0;37m  [0;1;32;42m░▀[0;32m▀▓[0m   [35m░░[0m    [35m░░[0;37m [0;32m▓▓[0;37m [0;35m░[0;37m  [0;32m ▄[0;1;30;42m░[0;32m▀[0;1;32;42m░[0;32m▄[0;37m   [0;35m░░[0;37m [0;32m▄[0;37m [0;32m ▄ [0;37m [0;36m░░[0m
 [1;30m░░    [0m    [32m░░[0;37m [0;32m [0m   [1;30m▄[0;1;30;42m░[0;32m    [0m    [1;30;42m░[0;1;32;40m▒[0;32m▄ ▀[0m      [32m▓▓[0;37m [0;32m░[0m      [32m░░[0m    [1;32;42m▄[0;1;32;40m▒░[0m [1;30m▄[0m [1;30m▀[0;32m▀[0;37m  [0;32m▓▓[0m     [32m▄[0;1;32;42m▄[0;32m▄[0;1;32m▒[0;32m▀[0m
 [1;30m░░░░░░░░░[0m    [1;30m░░░[0m    [1;30m░░░░░░[0m [1;30m▀[0;1;32m░[0m  [1;30m░░░░░░[0m [32m░░[0m   [1;30m░░░░[0m    [1;30m░░[0m [1;30;42m▄[0;32m▀▀[0m   [1;30m░░░[0m [32m░░[0;37m [0;1;30m░░[0;32m [0;1;30m▀[0;32m▀▀[0;37m [0;1;32m░[0m [1;30m░░░░[0m
-                                                    [1;30m▀[0m
-[1;30m  okies... this is just a little force logo.. i dunno.. this last 3 months ive [0m
-[1;30monly done 3 logos.. which, normally, is what id do in 1 week... by bitchass mom[0m
-[1;30mhas taken my modem.. so im sorta pissed... =)[0m
-[1;30moh well.. needless to say ill be back some time.. =)[0m
-[1;30mcryogenic -- force[0m'
+                                                    [1;30m▀[0m'

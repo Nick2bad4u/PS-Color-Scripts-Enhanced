@@ -5,7 +5,7 @@
 # Source SHA-256: b23da0dfd17ba5d165e4d45dd0c9e7bfcdba0eaa1386a092df89b7e3e085119c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw_ENZOKNIGHT.ANS by binary walker (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: enzO Knight
 # SAUCE Author: binary walker
 # SAUCE Group: blocktronics
@@ -29,9 +29,9 @@ Write-Host '
 [37m         [0;32m█[0;1;32;42m▀█[0;32m▌▄  the great  ▄    ▄▄▀[0;37m      [0;32m████[0;37m           [0;1;31m▀[0;1;35m▄[0m▀[1;35m▄[0;1;31m▀[0m
           [32m▀▀[0;1;32;42m▀[0;32m█  E N Z O !   ▀▀▀▀ ▄▄▀[0;37m                     [0;1;35m▐[0;1;35;43m▀[0;1;35;40m▌  [0m< avg is happy!
                               [32m▀▀▀ ▄▄▀                   [0;34m▄[0;1;31m▀ ▀[0;34m▄[0m
-[37m                [0;1;30mBlocktronic''s        [0;32m▀[0m
-[37m                       [0;1;30mfirst[0m
-                        [1;30mKnight ![0m
+[37m                [0;1;30m                     [0;32m▀[0m
+[37m                       [0;1;30m     [0m
+                        [1;30m        [0m
 
 
 

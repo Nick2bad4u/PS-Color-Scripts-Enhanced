@@ -5,7 +5,7 @@
 # Source SHA-256: 24c2ac49976059edc63e1163406233a0d5381427a7bc08cd534b0adedeaa4be4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WE-HSPIC.ANS by Phlare + Dfuse (.%(sHADe)%.); released in shade001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pHLARE&dFUSE: Higher Sense Login
 # SAUCE Author: 0  No. 1    0      0
 # SAUCE Group: .%(sHADe)%.
@@ -47,9 +47,8 @@ Write-Host '
 [32;40m   [0m       [32;40m░▀▀■▄ [0;34;40m▀▀  ▀[0;34;44m [0;1;34;44m▓[0;34m▀  ▄▓█[0;34;44m [0;1;34;44m░[0;34m█▄ [0;32m▀ [0;34m▀▓██▄ [0;32m▀█[0;1;33;42m▐▓▀ [0;32m▀▀ [0;34m▄▄▓ [0;32m▀▀▀▀ [0;34m▄▄▄█▀░[0m   [37m [0m      [34m▄[0m
 [37m  [0;34m▀■[0m             [34m■▀[0m      [34m■ ▀▀[0;34;44m [0;1;34;44m▀[0;34m▓▀ ■▄ ░▀▀  [0;32m░▀█[0;1;33;42m░ [0m  [34m▀▓██▀▀ ▀▓██▓▀▀ ■▄[0m        [34m■ [0m
      [34m░▄█▀[0m               [34m▀[0m      [34m░[0m           [32m▄■▀[0;37m [0;34m■▀[0;37m [0;34m░[0m       [33m  [0;34m░[0;33m  [0;37m       [0;34m░▀█▄[0;37m [0m
-     [34m▓[0;1;34;44m▓[0m  Original VGA [1m+ [0mAll Ansee Garbage [1m+[0m [1m''[0mSense[1m''-[0mLogo [1m:[0m dFUSE!SHADe   [1;34;44m░[0;34m█[0m
-     [34m█[0;1;34;44m░[0m  All Colors [1m+[0m The Shading [1m+[0m Ideés [1m+[0m [1m''[0mHigher[1m''-[0mLogo [1m:[0m pHLARE!SHADe [34m█▓[0m
+     [34m▓[0;1;34;44m▓[0m               [1m  [0m                  [1m [0m [1m [0m     [1m  [0m     [1m [0m               [1;34;44m░[0;34m█[0m
+     [34m█[0;1;34;44m░[0m             [1m [0m             [1m [0m       [1m [0m [1m [0m      [1m  [0m     [1m [0m              [34m█▓[0m
       [34m▀█▄░[0;37m [0;1;30m         [0m                                      [33m     [0;37m        [0;34m▄█▀░[0m
      [34m■[0m                                                        [33m   [0;37m     [0;33m  [0m    [34m■[0m
-    [34m▀[0m                                                             [33m  [0;37m     [0;33m   [0;37m [0;34m▀[0;37m  [0m
-[37m         [0m'
+    [34m▀[0m                                                             [33m  [0;37m     [0;33m   [0;37m [0;34m▀[0;37m  [0m'

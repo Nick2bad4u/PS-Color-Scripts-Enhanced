@@ -5,7 +5,7 @@
 # Source SHA-256: cab40760a26e10bd72d245bb515560ab481c7575be6d393b92a6881f6bd65e4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-LOGN2.ANS by Proctologist (Transmission); released in trans03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: zoot!
 # SAUCE Author: Proctologist
 # SAUCE Group: Transmission
@@ -34,20 +34,14 @@ Write-Host '
                               [31mp[0;1;31mC[0m  [32m,d[0;1;30m$$$$$$$$$$$$P''[0m [32m`b[0;1;32m,[0;32m [0m
                             [1;32m`∙[0;32m..[0;1;32m+[0;32m°[0;1;30m   `^^^^^^^^` [0m   [32m.[0;1;32m''[0;32m [0;1;32m`[0;32m∙ [0;1;32m·[0m [1;32m''[0m
                                [30;41m▓▒░   logon    ░[0;37;40m  [0;1;32;40m·[0m
-                                     [33mapply[0m
-                                     [33mcheck[0m
-                                  [33mmember list[0m
-[37m [0;1;30m [0m                                   [33mleave [0m
+                                     [33m     [0m
+                                     [33m     [0m
+                                  [33m           [0m
+[37m [0;1;30m [0m                                   [33m      [0m
 
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>--[0m
-[1;30mCool, it''s spewing green stuff.  I''ll let you decide what exactly the green     [0m
-[1;30mstuff is. :)  It''s one of the last ones that Pestiferous needs for his board.[0m
-[1;30mPestiferous> Gimme more requests. :)[0m
+[1;30m                                                                                [0m
+[1;30m                                                                             [0m
+[1;30m                                    [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
-            [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m
-
-[1;30mAll requests are [0;32mfree[0;1;30m no matter how big![0m  [1;30mYou want one...just ask.  The only[0m
-[1;30mproblem is I don''t have an[0m [1;30memail address.  Contact me on Pestiferous''s board,[0m
-[1;30mCaustic at 403-280-4542.[0m  [1;30mI mainly do logos, sometimes with a litle pic in it [0m
-[1;30mbutt I WILL attempt to try whatever I have requested.  [0m
-[1;30mSoooo...bring''em on[0m [1;30mfolks![0m'
+            [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

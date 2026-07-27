@@ -5,7 +5,7 @@
 # Source SHA-256: a92e1af2797978369f471b552c3ee5cdecfe31882b64e9015c62c281833f8c31
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-BRZL.ANS by Avenging Angel (jasper07); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -33,6 +33,6 @@ Write-Host '
 
 
 
-    [1;30menzo.. dopie.. this is for you guys..[0m
-    [1;30mi dont usually do requests, i draw what[0m
+    [1;30m                                     [0m
+    [1;30m                                       [0m
     [1;30mi want.. =][0m'

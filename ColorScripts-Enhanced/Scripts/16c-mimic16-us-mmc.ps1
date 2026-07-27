@@ -5,7 +5,7 @@
 # Source SHA-256: 9755b1fd3b5c0c263c1a1c9e768d6093e853988ff37cbaca995f24a820916c24
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-mmc.ans by H7 + Polygon (mimic16); released in mimic16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
@@ -56,5 +56,4 @@ $$$$$$b        [36md$i[0;1;32m  [0m`''┘[1m*\$[0m⌂┌, [1;32md$$$[0;1;
       [1;32m    [0;36m)[0;1;32m$$$k[0m    [36m4[0m         [1;37my 2 k[0m         [1m .d$$$$$$⌂┌.[0;31m''`[0;1;37m.⌂Y$$$$⌂.[0m  [31m''[0m
       [36m   d7┘"[0;1;32m`  [0m   [36mdk.[0m       [37m             [0;1;37m  4$$$$$$$$$$''d$$$$$$$$$l[0m
        [36m.\`   [0;1;32m  _.[0;36m,d$$$/[0m      [37m             [0;1;37m   `''''┘┘²²┘┘⌂ ⌂⌂$$$$$$$$$[0m
-    [1;32m            `''┘4$[0;36m$7[0m
-       [37m   [0m'
+    [1;32m            `''┘4$[0;36m$7[0m'

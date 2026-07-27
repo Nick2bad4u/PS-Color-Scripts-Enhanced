@@ -5,7 +5,7 @@
 # Source SHA-256: a291cf335edb2ab116a0337d290b63978f9a3ba95d8328cff932b3213a96ebe0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OB-ERROR.ANS by oddball (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Error Emag
 # SAUCE Author: oddball
 # SAUCE Group: lazarus
@@ -32,12 +32,6 @@ Write-Host '
      [36m▀▀██▄▄▄▄▄▄▄█[0;1;36;46m [0;36m▀▀▀[0m         [34m██[0;1;34;44m▒▒▄▄▄▄▄▄▄▄[0;1;34;40m█████[0;1;34;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m██[0m
                               [30;44m░[0;34;40m▓[0;1;34;40m▒[0;1;34;44m░░▀▀▀▀▀▀[0;34m█████▀▀▀▀▀▀ [0m
                               [30;44m▒[0;34;40m▒▀▀▀▀[0m
-                              [34;40m░[0;30;44m▓[0;34;40m [0m   [1;37;40merror emag. [0m
+                              [34;40m░[0;30;44m▓[0;34;40m [0m   [1;37;40m            [0m
                                [34m   [0m
-[37m<cut/klipp])--------------------------------------------------------------------[0m
-
-[37m uhm.. this one''s for my emag called [0;1;37merror[0m.
- if you want to join / contribute with art/articles/anythingelsethatwouldsuita-
- artscenemag just email me at [1mob_shad@hotmail.com[0m
- (that goes for requests aswell).
- anyway.. enjoy this pack.[0m'
+[37m<cut/klipp])--------------------------------------------------------------------[0m'

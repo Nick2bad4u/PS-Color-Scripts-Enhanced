@@ -5,7 +5,7 @@
 # Source SHA-256: 89c6dff0e9f8f93f2146cddac4f2631418761a4fd5f3af152f3b85d6fd776aa1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-ABX0.ANS by Transient (apathy); released in apathy12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Abraxas
 # SAUCE Author: Transient
 # SAUCE Group: apathy
@@ -29,7 +29,7 @@ Write-Host '
          [36m▀▀▀▀▀▀▀▀█[0;1;37;46m▀[0;36m▄[0;1;32m [0;32m▀[0;36m▐█[0;1;37;46m■[0;36m▌ [0m     [36m▀▀[0;1;36;46m░▒[0;36m▄▄▄▄▄▄▄[0;1;36;46m░░░[0;1;37;46m▓▀[0;36m▀[0m    [36m▀[0;1;36;46m▒▓▀[0;1;37;46m▄▄░[0;1;36;46m▒░░░[0;1;37;46m▄▄░[0;36m█▀▀[0m
            [1;37ma[0;1;33mb[0;1;37mx![0m  [1;37m ▀█[0;1;36;46m░[0;36m▄[0;1;36;46m■▀░[0m [1;36;40ma[0;36mb[0;1;37mr[0;1;36ma[0;1;37mxa[0;1;36ms[0;1;37m [0m  [36m▀▀[0;1;36;46m▒▀█▀[0;1;37;46m░░[0;36m▀▀[0;37m    [0m  [37m     [0;36m▀▀▀▀▀[0;1;36;46m░[0;36m▀▀[0m
                     [36m▀▀▀▀[0;37m [0m [1;36mo[0;36mp[0;1;37mp[0;1;36me[0;1;37md:[0m      [36m ▀[0;1;36;46m░[0;1;37;46m▒[0;36m▀ [0;37m  Ha[0;1;37mppy [0;1;32mBirt[0;32mhday [0m
-                     [1;37m │[0m  [1;37m-[0;1;36me[0;36mv[0;1;37me[0;1;36mr[0;1;37mla[0;36ms[0;1;37mt-[0m   [1;37m|[0;36m▐[0;1;37;46m▒▓[0;36m▌ [0m  [37mAp[0;1;37mathy[0;1;32m, yu[0;32mr won[0m
-                [32m [0m     [1;37m|[0m   [1;36ma[0;36mn[0;1;37ms[0;1;36mi[0;1;37m:[0m       [36m▐[0;1;36;46m▄▓[0;1;37;46m▐▌[0;36m [0m  [37mye[0;1;37mar o[0;1;32mld!.[0;32m ;) .[0m
+                     [1;37m │[0m  [1;37m [0;1;36m [0;36m [0;1;37m [0;1;36m [0;1;37m  [0;36m [0;1;37m  [0m   [1;37m [0;36m▐[0;1;37;46m▒▓[0;36m▌ [0m  [37m  [0;1;37m    [0;1;32m    [0;32m     [0m
+                [32m [0m     [1;37m [0m   [1;36m [0;36m [0;1;37m [0;1;36m [0;1;37m [0m       [36m▐[0;1;36;46m▄▓[0;1;37;46m▐▌[0;36m [0m  [37m  [0;1;37m    [0;1;32m    [0;32m     [0m
                       [1;37m│[0m   [1;36mt[0;36mr[0;1;37mansi[0;36me[0;1;37mnt![0m   [36m▀[0;1;36;46m▀[0;1;37;46m▀[0;36m▀[0m
                       [1;37m└───--─--─-─--─-┘[0m'

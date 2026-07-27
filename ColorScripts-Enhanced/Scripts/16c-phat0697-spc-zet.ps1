@@ -5,7 +5,7 @@
 # Source SHA-256: 0714160fa10b2043c7bb62288a93917df78bf165dbc76801f9c0e110088255d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPC!ZET!.ANS by spice (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ..zeT!
 # SAUCE Author: spice
 # SAUCE Group: Phat Studios '97
@@ -40,7 +40,4 @@ Write-Host '
 [37m  [0;1;34m░[0m     [1;34m▀[0;36m  [0;1;34m░[0m                       [33m▀[0;36m    [0;33m▄[0;36m [0;33m▄▄▄▄[0;1;33;43m░░▒▒▓▓▓[0;1;33;40m▀▀▀[0;33m  [0m
 
 
-[1;30m------------------------░-------░--------------------------------------░--------[0m
-[1;30m/one day, I got the idea to built up a bbs.. ..I named it zEt!.. ..but I only[0m
-[1;30m/have[0m 1 user[1;30m.. :''(( ..but since it is only a very little system, I don''t need[0m
-[1;30m/any users!![0m'
+[1;30m------------------------░-------░--------------------------------------░--------[0m'

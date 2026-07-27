@@ -5,7 +5,7 @@
 # Source SHA-256: b5d84adf40f5a5550bc08ed67adeb2e97424859478a4dd652c1befb1eb590eda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-ZC2.ANS by The Stalker (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 47-66
 # Columns: 1-80
 
@@ -23,9 +23,9 @@ Write-Host '
       [33m▀[0;1;33;43m░▒░[0;33m▀ ▀█[0;1;33;43m░▒░[0;33m▀ [0;1;33;43m░░[0;33m▄▐ [0;1;33;43m░[0;33m▀ TS ▀█[0;1;33;43m░▒░[0;33m▀ [0;1;33;43m░░[0;33m▄▐ [0;1;33;43m░[0;33m▀ ▐  ▀[0;1;33;43m░[0m  [1;33;43m░▒░░[0m [33m▀█[0;1;33;43m░▒░[0;33m▀ [0;1;33;43m▓[0m  [31m▀[0;1;31;41m░[0;31m▀[0m
 
 
-      [1;32m▄[0;1;32;42m▓[0m       [1;32;42m▓[0;1;32;40m▄    [0;1;30;40mG[0moP [1;30mW[0morld [1;30mH[0meadQuarters · [1;30mU[0mPSNet [1;30mW[0morld [1;30mH[0meadQuarters
-     [1;32m▐[0;1;32;42m▒▓[0;1;32;40m▌[0m     [1;32;40m▐[0;1;32;42m▒▓[0;1;32;40m▌   [0;1;30;40mM[0mCi [1;30mN[0met [1;30m3[0m12 [1;30mN[0mode · [1;30m4[0m20 [1;30mM[0megs [1;30mO[0mnline · [1;30m1 G[0mig [1;30mO[0mffline
-      [1;32m▀[0;1;32;42m▒░[0;32m▀   ▀[0;1;32;42m░▒[0;1;32;40m▀[0m      [1;30;40mC[0moSysOps æ [1;30mT[0mhe [1;30mR[0mai [1;30mM[0master æ [1;30mB[0moomer æ [1;30mT[0marrasque
-           ▄▄▄                [1;30mS[0mysOp æ [1;30mO[0mdin · [1;30mN[0mUP æ [1;30mT[0mRADING
-         ▄[1;47m░[0m▐[1;47m░[0m▀[1;47m░[0m       A Stalker Production in Coordination with Havok
+      [1;32m▄[0;1;32;42m▓[0m       [1;32;42m▓[0;1;32;40m▄    [0;1;30;40m [0m   [1;30m [0m     [1;30m [0m              [1;30m [0m      [1;30m [0m     [1;30m [0m           
+     [1;32m▐[0;1;32;42m▒▓[0;1;32;40m▌[0m     [1;32;40m▐[0;1;32;42m▒▓[0;1;32;40m▌   [0;1;30;40m [0m   [1;30m [0m   [1;30m [0m   [1;30m [0m      [1;30m [0m   [1;30m [0m    [1;30m [0m        [1;30m   [0m   [1;30m [0m      
+      [1;32m▀[0;1;32;42m▒░[0;32m▀   ▀[0;1;32;42m░▒[0;1;32;40m▀[0m      [1;30;40m [0m          [1;30m [0m   [1;30m [0m   [1;30m [0m        [1;30m [0m        [1;30m [0m        
+           ▄▄▄                [1;30m [0m       [1;30m [0m      [1;30m [0m     [1;30m [0m      
+         ▄[1;47m░[0m▐[1;47m░[0m▀[1;47m░[0m                                                      
          ▀  ▀ ▀[0m'

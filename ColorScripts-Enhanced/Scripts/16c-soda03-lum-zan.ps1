@@ -5,7 +5,7 @@
 # Source SHA-256: 0156ce84ad24fd2e3abd80ca31bc13a00e7b8b1f33c7bcd9f88cef8e1f78ac2b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LUM-ZAN.ANS by lumin`tor (sodapop); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: lumin`tor
 # SAUCE Group: sodapop
 # SAUCE Date: 19990418
@@ -37,9 +37,4 @@ Write-Host '
 [33m▄▄[0;1;31m▄▄▄▄[0;1;37m▄▄[0;1;31m▄▄[0;33m▄▄▄[0;32;41m░░▒[0;32;40m▌[0;1;31;40m  [0m           [1;30mz[0m [1;30ma[0;1;37m [0;1;30mn d u r a 1 9 9 9[0m       [1m [0;1;30m▄[0m▄█[1;47m▓▓[0m▌▄▀    [1mQUIT[0;1;5m_[0m
 [33m▀[0;1;31;43m░░▒▒▀[0;1;31;40m▀▀[0;33m▀█▄[0;33;41m▓▓▒▒[0;31;40m▀[0;1;31;40m [0m [1;30m▐[0;1;30;47m░[0;1;37;47m░░▒▒░░[0m█[1;30m▄▀[0;1;30;47m▓▒░[0;1;37;47m  ░░░▒▒▒▓▓▓[0;1;37;40m█████[0;1;37;42m▓▓[0;1;37;40m█████[0m█[1;30m█░[0m█[1;47m▄█[0;1;40m██[0m█▀▄
 [1m▄▄▄[0;1;31m▄▄▄[0;1;31;41m▒▒[0;1;31;43m▒▒░[0;33;41m▒[0;31;40m█▀[0;37;40m   [0;1;30;40m▄▀[0m▀▀████[1;30;47m░▒▓[0;1;30;40m▄[0;1;37;40m [0;1;30;40m█[0;1;30;47m▄[0;1;37;47m    ░░░▒▒▒▓▓▓[0;1;37;40m███████[0m█[1;30;47m▄[0m▀[1;30m▀[0;1;37m  [0;1;30m▀[0;1;37;47m▀[0;1;37;42m▓▓[0;1;37;47m▄[0m▄██████▄▄▄▄▄▄▄▄▄▄
-[1;31;41m▀▀▀▀▀[0;31m█████▀▀[0;37m [0;31m░░[0;1;30m▄[0;1;30;47m▀[0m█[1;47m░░[0m█▄▄▄▄▄▄▄▄▄[1;30m▄▄▀▀[0m▀▀▀▀[1;30;47m  [0m████████[1;30;47m░▒▓[0;1;30;40m▀▀[0;1;37;40m [0;1;30;40m▄▄[0;1;30;47m▓▓[0;1;30;40m▄[0;1;37;40m [0;1;30;40m▀[0m▀▀[1;47m▀▀▀[0;1;40m████████[0;1;47m▓▓▒▒░[0;1;37;47m░[0m
-
-[1;30mSquint asked me to do a login. Ok i said. Then he asked me that have i made[0m
-[1;30mlogins before. I said "Jeah I''ve made some", tho, I think i forget to tell him[0m
-[1;30mthat I made my last login 3 years a go and it sucked, it realy did. This is [0m
-[1;30mbest login I''ve made, so bite me.[0m -luminator of soda[1;30mpop[0m family[0m'
+[1;31;41m▀▀▀▀▀[0;31m█████▀▀[0;37m [0;31m░░[0;1;30m▄[0;1;30;47m▀[0m█[1;47m░░[0m█▄▄▄▄▄▄▄▄▄[1;30m▄▄▀▀[0m▀▀▀▀[1;30;47m  [0m████████[1;30;47m░▒▓[0;1;30;40m▀▀[0;1;37;40m [0;1;30;40m▄▄[0;1;30;47m▓▓[0;1;30;40m▄[0;1;37;40m [0;1;30;40m▀[0m▀▀[1;47m▀▀▀[0;1;40m████████[0;1;47m▓▓▒▒░[0;1;37;47m░[0m'

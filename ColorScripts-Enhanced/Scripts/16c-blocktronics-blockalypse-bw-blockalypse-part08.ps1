@@ -5,7 +5,7 @@
 # Source SHA-256: 4892399de5ed643aa4e6b900c597815eb9d4006faf421ff09f0210322b467b05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw_blockalypse.ans by Binary Walker (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20140121
 # SAUCE Dimensions: 80x355
 # SAUCE Font: IBM VGA
@@ -35,8 +35,8 @@ Write-Host '
   [33m▀▄[0;37m  [0;31m▀█▀[0;1;31;41m▀[0;41m▒▒[0;31;40m█[0;1;30;40m ▐▌[0;1;37;40m▄[0;1;30;40m   [0;1;37;40m▀[0;1;30;40m [0;1;37;40m▀[0;1;30;40m   [0;1;37;40m▄[0;1;30;40m▓[0m
   [33m▄[0m     [31m▀▄▄[0;37m [0;31m▀▄[0;1;30m ▀[0m▓[1;30m [0;1;37m█[0;1;30m [0;1;37m▄[0;1;30m [0;1;37m█[0;1;30m [0;1;37m█[0;1;30m▄[0m▀[1;30m▄[0m                     [33mG[0;35mreetings[0;1;33m :[0m
   [33m██[0m           [1;30m  ▀█▓[0m▀[1;30m▓[0m▀[1;30m▓▀▄▀[0m
-  [33m█▓[0m             [1;30m  ▀▀▀ ▀▀[0m                [35m [0;33mt[0;35mo [0;33ma[0;35mll [0;33mb[0;35m7 [0;33mM[0;35members [0;33ma[0;35mll [0;33ma[0;35mround[0m
-[37m  [0;33m▓▒[0m                                       [35m [0m     [33mt[0;35mhe [0;33mG[0;35mlobe ![0m
+  [33m█▓[0m             [1;30m  ▀▀▀ ▀▀[0m                [35m [0;33m [0;35m  [0;33m [0;35m   [0;33m [0;35m  [0;33m [0;35m       [0;33m [0;35m   [0;33m [0;35m     [0m
+[37m  [0;33m▓▒[0m                                       [35m [0m     [33m [0;35m   [0;33m [0;35m      [0m
 [37m  [0;33m▒░[0m
 [37m  [0;33m░[0m            [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
          [1;30m  ▄▓▓▀▀▀  ▄▓▓███▀▀███▓▒ [0;31m▀[0;1;31;41m▀█[0;1;31;40m [0;1;30;40m▄▄    [0;35mTHIS [0;1;33mA[0;35mNSI W[0;1;33mA[0;35mS M[0;1;33mA[0;35mDE BY[0m
@@ -53,7 +53,7 @@ Write-Host '
 [37m   [0;1;30m░▒[0m                                           [1;30m░░ [0;1;37m▀▀  [0;1;30m░ ░[0m
   [1;30m▄▓▓▄[0m
    ▒[1;47m▄[0;1;30;40m.  _______________________[0m
-  [1;31m▀▄[0;35m▄[0;37m [0;1;30m°([0;36mHey! did you missed me?[0;1;30m)[0m
+  [1;31m▀▄[0;35m▄[0;37m [0;1;30m  [0;36m                       [0;1;30m [0m
    [35m▐█▌[0;37m  [0;1;30m\__[0m [36m-avg[0;37m [0;1;30m_____________/[0m
     [32m█[0;1;31m▀[0m     [1;30m(_____)[0m
    [1;33m▀[0;32m▐[0;1;33m▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 337422a2b6903c78a9ac654597c576b3374e6844ef68dd15b9549cce61b5c602
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SYL-SNTX.ANS by Sylvao (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Syntax 2012
 # SAUCE Author: Sylvao
 # SAUCE Group: Fire Dream
@@ -60,4 +60,4 @@ Write-Host '
                    [34m▀[0m                                                [1;32m▀[0;1;33;42m▀[0;1;32;40m▀[0m
 [1;37;40m▄▄▄▄▄[0;1;33;40m▄▄▄▄[0;1;37;40m▄[0;1;33;40m▄▄▄▄[0;1;37;40m▄[0;1;33;40m▄▄▄▄▄▄▄▄▄[0;1;35;40m▄[0;1;33;40m▄▄[0;1;35;40m▄▄▄▄[0;35m▄[0;1;35m▄▄▄[0;35m▄▄▄▄[0;1;35m▄[0;35m▄▄▄▄[0;1;35m▄▄▄[0;35m▄[0;1;35m▄▄▄▄[0;1;33m▄▄[0;1;35m▄[0;1;33m▄▄▄▄▄▄▄▄▄▄[0;1;37m▄[0;1;33m▄▄▄▄[0;1;37m▄[0;1;33m▄▄▄[0;1;37m▄▄▄▄▄▄[0m
 
-         [1;30m· - ■ FiRE dReaM ■ - · · - ■ http://sylvao.untergrund.net ■ - ·[0m'
+         [1;30m    ■            ■         ■                              ■    [0m'

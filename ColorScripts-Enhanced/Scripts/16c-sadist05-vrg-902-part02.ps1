@@ -5,7 +5,7 @@
 # Source SHA-256: c137fc30c47978cdfe0a263e3f8a0ad6134540438daed7e7a4de38ebe0119b97
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VRG-902.ANS by vaRgr (Sadist); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sexxi boi
 # SAUCE Author: vaRgr
 # SAUCE Group: Sadist
@@ -39,11 +39,11 @@ Write-Host '
 [32;47m▒██░▒▓▒▓███[0;32;40m▀▀▀▀▀▀[0m                                                 [30;47m██[0;1;30;47m██▐█▄▀░▄█[0;30;47m   [0m
 [32;47m▓█▓[0;30;47m▄[0;32;40m▀▀▀[0m                         [1;30;40mmother north[0m                          [1;30m▀[0;1;30;47m▄█▓▌▓[0;30;47m    [0m
 [32;47m▓█[0m                                                                      [1;30;47m██▀▐[0;30;47m  ▄▄[0m
-[32;47m█[0m                        [30;40mth[0;1;30;40mthe forest is our throne[0m                      [1;30m▀▀▀[0m
+[32;47m█[0m                        [30;40m  [0;1;30;40m                        [0m                      [1;30m▀▀▀[0m
 
 
 
-  [1;30mvaRgr[0m [1;30m-SADIST-[0m
+  [1;30m     [0m [1;30m        [0m
 
 
                     [30m█[0m

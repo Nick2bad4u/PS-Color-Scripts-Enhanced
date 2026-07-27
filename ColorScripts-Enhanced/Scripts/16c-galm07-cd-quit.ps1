@@ -5,7 +5,7 @@
 # Source SHA-256: 4ef4ccd405f88334ab9755d2914ba0758377946bab17d341efc34b92669373cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CD-QUIT.ANS by Cd_ (galm07); released in galm07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -25,10 +25,4 @@ Write-Host '
 [37m  [0;36m   └$$$$$$$$"$$$$$[0;1;36m$$[0;36m$$  $$$$$$$$$┴$$$$$$$$$  [0;35m$[0;36m$$$$$$$$  [0;35m$[0;36m$$$$$$$$[0m
 [37m  [0m             [36m$$$$$$$$$[0m           [36m"""""""""  ~~~~~~~~~[0m
 [37m  [0m             [36m~''°ⁿ┘*l$┤[0m              [37m [0m                            [1;30m<cD/ACiD>[0m
-                       [36m~[0m       [33m> quit[0m
-[37m  [0m                             [33mremote closed connection...[0m
-
-
-[37m [0m                     [1;30m.. havn''t been drawing for ages now guess this one[0m
-                         [1;30mpretty much sucks.. oh yeah for my homie j0cke''s[0m
-                         [1;30mGALM! artpack... looking forward to it![0m'
+                       [36m~[0m       [33m> quit[0m'

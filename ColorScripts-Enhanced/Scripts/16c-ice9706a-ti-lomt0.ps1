@@ -5,7 +5,7 @@
 # Source SHA-256: 2c9078a637b1610208adb62813fd31065f98f6e95240f6d1188941dc9922a972
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-LOMT0.ICE by Trip (ice9706a); released in ice9706a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -52,11 +52,4 @@ Write-Host '
 [1;30m██[0m              [1;30m ██[0;1;31m [0;31m▒[0;1;31;43m░[0;1;31;40m███[0;1;31;47m▓[0;1;31;40m█▓▓██▌[0;1;31;47m▓[0;1;31;40m█▐██▓█[0;1;31;43m██[0;1;31;40m███▀ ▄▄[0;1;31;47m▓[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0m    [1;31m▀▀[0;31m▀[0m     [31m▐▀[0;37m  [0;31m█████▌▄▓▓▓░░[0m
 [1;30m██[0m              [1;30m ██[0;1;31m ░[0;1;31;43m▓[0;1;31;40m█▒[0;1;31;47m▓▓[0;1;31;41m▒[0;1;31;40m [0;1;31;47m▓[0;1;31;40m█▓[0;31m▌[0;1;31;47m▓▓[0;31m▌[0;1;31;47m▓█[0;1;31;40m▓▒[0;1;31;47m▓[0;1;31;40m███▀ ▄[0;1;31;47m▒[0;1;31;40m█[0;31m▀[0;37m [0;31m▄[0;1;31m▄[0;1;31;41m▄▀[0;1;31;40m▀[0;31m▀[0m       [31m ▀███▄██▀█▄██▄▄[0m
 [1;30m██[0m              [1;30m ██[0;1;31m ░[0;1;31;47m▓[0;1;31;40m▓[0;31m▒[0;1;31;47m▒▓[0;31m▌▒[0;1;31;47m▓▓[0;1;31;40m▓ [0;1;31;47m▓▒[0;1;31;40m▌[0;31m▐[0;1;31;47m▒[0;1;31;40m█░[0;31m█[0;1;31;47m▓▓[0;1;31;40m█ ░[0;1;31;47m█▓[0;1;31;40m▌[0m [31m░[0;1;31m▓▓[0;31m▒[0m      [31m▄▄▐████[0;1;31m▒▒[0;31m███▌▀███▌▀▄[0m
-[1;30m██[0m trip(iCE)    [1;30m ██[0;1;31m ░[0;1;31;47m▓[0;1;31;40m░ [0;1;31;47m░[0;1;31;40m▒ [0;31m▓[0;1;31;47m▒▓[0;1;31;40m▒ [0;1;31;47m▓░[0;1;31;40m▒ [0;1;31;47m░▓[0;1;31;41m▌[0;1;31;40m [0;1;31;41m▐[0;1;31;47m▒▓[0;1;31;40m ▒▓▓░[0m [31m░[0;1;31m░░[0;31m░[0;37m  [0;31m ▀█████[0;1;31m▒▒[0;31m████▀▀   ▄█▄▐██[0m
-
-
-
-[37myep, this ansi is a big time lord jazz wanna be ansi. i haven''t drawn in 2 [0m
-[37mmonths. sue me. picture taken from Fan Magazine #21, page 27. i drew some spikes[0m
-[37mfor it, but they sucked. anyway. this was just something to warm up. bye.[0m
-[37mtrip (iCE) // trip@ice.org // iCE Advisory Council[0m'
+[1;30m██[0m trip(iCE)    [1;30m ██[0;1;31m ░[0;1;31;47m▓[0;1;31;40m░ [0;1;31;47m░[0;1;31;40m▒ [0;31m▓[0;1;31;47m▒▓[0;1;31;40m▒ [0;1;31;47m▓░[0;1;31;40m▒ [0;1;31;47m░▓[0;1;31;41m▌[0;1;31;40m [0;1;31;41m▐[0;1;31;47m▒▓[0;1;31;40m ▒▓▓░[0m [31m░[0;1;31m░░[0;31m░[0;37m  [0;31m ▀█████[0;1;31m▒▒[0;31m████▀▀   ▄█▄▐██[0m'

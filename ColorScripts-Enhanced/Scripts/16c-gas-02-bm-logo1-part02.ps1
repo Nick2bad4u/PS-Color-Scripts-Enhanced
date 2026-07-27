@@ -5,7 +5,7 @@
 # Source SHA-256: 6094f96a1c8a84e0a79485a918fb4e5f7146f9078db7d16bd385d6fa7abcf315
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM-LOGO1.ANS by biomass (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo collection #1
 # SAUCE Author: biomass
 # SAUCE Group: gas
@@ -34,14 +34,4 @@ Write-Host '
 [31m ²$$$$$$l   l$$$$$$²  [0m           [31m  l$$$$$$²    ²$$$$$$l   l$$$$$$²  [0m
 [31m   `"²╙@$a╖a$@╜²"''    [0m           [31m╖a$@╜²"''        `"²╙@$a╖a$@╜²"''    [0m
 
-[37m<==[0;1;37;47m░[0m bla [1;47m░[0m====================================================================>
-
- i''m new to gas and i usually get 5-10 works each pack, just that this time i
- included 13 (more??) works for the first wArp pack and i want to to rox0r, so
- i hope you like these. find me as [biOmass], biOmass_ or biOmass0r on the irc
- (#ansi) or e-maily me on amalyao@shum.cc.huji.ac.il... byebye. greeting0rs:
-
- tribal: colly sucks, right? :)
- mrmadness: stop bugging me.
-
- sorry, i left all the other greets for the wArp pack. bye![0m'
+[37m<==[0;1;37;47m░[0m bla [1;47m░[0m====================================================================>[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 758a8089faecf5eb4ac9103e0cb3d5aad38899570af2c2ea6ce737ccc9581560
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-PC.ANS by rorshack (Maiden Brazil); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: free stuffo
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -15,19 +15,19 @@
 # Columns: 1-80
 
 Write-Host '
-[36mThis time was hard to make a free thing, due to my increasing lack of free[0m
-[36mtime. But here it is, some free pic for you to use in your BBS, your PPE, your[0m
-[36mBBS modification program, whatever. Use as you wish, it is free to everyone.[0m
+[36m                                                                          [0m
+[36m                                                                              [0m
+[36m                                                                            [0m
 
-[1;36mRemember!![0;36m Do not modify it, do not strip my handle of it.[0m
+[1;36m          [0;36m                                                [0m
 
-[36mKinda simple, but at least, 100% original. :)[0m
+[36m                                             [0m
 
-[36mRegards![0m
+[36m        [0m
 
-[36m- [0;1;36mRorshack[0m
-  [36mrorshack@sili.com.br[0m
-[37m  [0;36mhttp://maidenbr.home.ml.org[0m
+[36m  [0;1;36m        [0m
+  [36m                    [0m
+[37m  [0;36m                           [0m
 
                                              [37m▄▄▄▄▄[0m   [37mrorshack         ▄▄[0;1;37m▄[0m▄▄
                             ▄▄▄▄▄[1m▄[0m▄▄▄█████████████▌[1;30m▐▄([0;1;37mmaiden[0;1;30m)[0;1;37m▄▄▄▄[0;1;37;47m▓▀▀▀[0m███████▄

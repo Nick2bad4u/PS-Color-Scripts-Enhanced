@@ -5,7 +5,7 @@
 # Source SHA-256: 5a8d5d88d5b1255cb23f0887da4ef5bcca3e294fffe0ade5c8172fe1c28f1044
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-CDX.ANS by Surfer Boy (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 198-236
 # Columns: 1-80
 
@@ -35,9 +35,9 @@ Write-Host '
          [1;30;40m█[0m                                                           [1;30;40m█[0m
          [1;30;40m█[0m                                                           [1;30;40m█[0m
          [1;30;40m█[0m                        [1;37;40m· [0mC[1;30mODE-X [0;1;37m·[0m                         [1;30m█[0m
-         [1;30m█[0m                       S[1;30mYSOP: [0mC[1;30mODEX[0m                        [1;30m█[0m
-         [1;30m█[0m                              T[1;30mHE [0mB[1;30mEAF[0m                     [1;30m█[0m
-         [1;30m█[0m                              0[1;30m-3 [0mD[1;30mAY IBM[0m                  [1;30m█[0m
+         [1;30m█[0m                        [1;30m      [0m [1;30m    [0m                        [1;30m█[0m
+         [1;30m█[0m                               [1;30m   [0m [1;30m   [0m                     [1;30m█[0m
+         [1;30m█[0m                               [1;30m   [0m [1;30m      [0m                  [1;30m█[0m
          [1;30m█[0m                              0[1;30m-3 [0mA[1;30mMIGA[0m                    [1;30m█[0m
          [1;30m█[0m                                                           [1;30m█[0m
          [1;30m█[0m                       N[1;30mODE [0m1[1;30m: (714) 5[0;1;37m3[0m37[1;30m- 6[0m24[1;30m4[0m            [1;30m█[0m

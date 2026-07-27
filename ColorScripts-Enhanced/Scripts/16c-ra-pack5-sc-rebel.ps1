@@ -5,7 +5,7 @@
 # Source SHA-256: ab268089d8cb01c3254e0cd33fa58cd9cd75201caa51b669ee86c53db5e4dc9f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-REBEL.ANS by scrye (sense (RA guest)); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rebel arts promo
 # SAUCE Author: scrye
 # SAUCE Group: sense (RA guest)
@@ -36,11 +36,4 @@ Write-Host '
 
 [37;40m────────────────────────────────────────────────────────────────────────────────[0m
 
-[1;30;40m-- 8< Here .. ------------------------------------------------------------------[0m
-
-[1;30mWhelp, this  would be my guest submission to Rebel Arts Package #5 .. Rage asked[0m
-[1;30mme nicely to Guest  in his pack,  so I did .. :)[0m [1;30mGreets to Everyone  in #Zenith,[0m
-[1;30m#Sense,  and  anyone  else   who  thinks they  deserve it ..  :) BIG  greets  to[0m
-[1;30mProcto,  Enzo, TaintedX,  Rage,  and of  Course, Zero  Vision  and Cyber Phreak.[0m
-
-                                                      [1;30m-Scrye S. Shiatzu [SeNSE][0m'
+[1;30;40m-- 8< Here .. ------------------------------------------------------------------[0m'

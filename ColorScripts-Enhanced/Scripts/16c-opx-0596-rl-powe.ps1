@@ -5,7 +5,7 @@
 # Source SHA-256: d2902c3b9f01beee825c2e576fdfd2b6f174f6ba6ab5c48cad163d40cff93024
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL!-POWE.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flower Power
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1mHi[0;1;32mg[0;32mh[0;1;32m u[0;32mp[0;1;32m on th[0;32me[0;1;32m highes[0;32mt [0;1;32man[0;32md[0;1;32m bigges[0;32mt[0;1;32m mountain[0;32ms[0;1;32m o[0;32mn[0;1;32m eart[0;32mh[0;1;32m, grow[0;32ms[0;1;32m th[0;32me[0;37m [0;1;37mopium[0m [1;32mflow[0;32mer..[0m
+[1m  [0;1;32m [0;32m [0;1;32m  [0;32m [0;1;32m      [0;32m [0;1;32m       [0;32m  [0;1;32m  [0;32m [0;1;32m       [0;32m [0;1;32m         [0;32m [0;1;32m  [0;32m [0;1;32m     [0;32m [0;1;32m      [0;32m [0;1;32m   [0;32m [0;37m [0;1;37m     [0m [1;32m    [0;32m    [0m
 [37m [0;34m▄▄▄[0;1;34;44m░[0;34m▄▄▄▄▄[0;1;34;44m▀▓[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄[0;1;34;44m░[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄[0;1;34;44m▓[0;34m▄▄[0;1;34;44m░[0;34m▄▄▄▄▄▄[0m
 [1;34;44m░▄▓█▄▄[0;1;34;40m██[0;1;34;44m▓[0;1;34;40m██████[0;1;34;44m▓[0;1;34;40m█████[0;1;34;44m▓[0;1;34;40m██[0;1;34;44m▓[0;1;34;40m██████████████████████[0;1;34;44m▓[0;1;34;40m███[0;1;34;44m▓[0;1;34;40m██████████[0;1;34;44m▓[0;1;34;40m██[0;1;34;44m▓[0;1;34;40m█████[0;1;34;44m▒[0;1;34;40m███[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m▄░[0m
 [1;34;44m▓[0;1;34;40m█████████████████[0;1;34;44m▓[0;1;34;40m█████████████[0;1;34;44m█[0;1;34;40m███████████[0;1;34;44m▓[0;1;34;40m████████[0;1;34;44m▓[0;1;34;40m████████████████████████[0;1;34;44m▒[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 76805ddcf4b8ff13c69ef2adfb04c3ab0c34dcfab24e283d14cfe60a632ea8f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ENDR1.ANS by Scrye + Taintedx (SeNSE : Zenith); released in sense10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Scrye's very first Spawn pic!@#$!@
 # SAUCE Author: Multiple Artists
 # SAUCE Group: SeNSE : Zenith
@@ -36,17 +36,4 @@ Write-Host '
    [1;30m([0;1;37m![0;1;30m) [0mMenu Option                    [33m  [0;1;30m▐[0;1;31;41m░▒██▓▓██▀███[0;1;31;47m▓[0;1;31;41m█▌[0;31m▌[0;37m [0;33m    [0m
    [1;30m([0;1;37m![0;1;30m) [0mMenu Option                    [33m  [0;1;30m░[0;1;30;41m░[0;1;31;41m░▓▓▓██▄[0;31m▄[0;1;31;41m▄▓███[0;31m█░[0;37m  [0;33m  [0;1;30m([0;1;37mENDOR MENU NAME[0;1;30m)[0m
    [1;30m([0;1;37m![0;1;30m) [0mMenu Option                    [33m  [0;37m [0;1;30m▄[0;31m▐[0;1;31;41m▒▓███▄[0;31m▄[0;1;31;41m▄▓▓[0;1;31;47m▓[0;1;31;41m█[0;31m▒░░▄[0;37m [0;33m  [0m
-                                      [33m   [0;1;30m▐[0;1;30;41m░[0;1;31;41m░▓▓██▄ ░▒▒▓█[0;31m▓░▒▓[0;1;31;41m▄[0;31m▄[0;37m [0m
-[1;30m-- This is for Dopie''s Board, Endor, and Dopie only! ---------------------------[0m
-[1;30mOutline/Shading: Scrye[SeNSE][0m              [1;30mBG/Shading Fix-ups: Tainted X[Zenith][0m
-
-
-
-
-
-
-
-
-
-
-                                                                               [1;30m [0m'
+                                      [33m   [0;1;30m▐[0;1;30;41m░[0;1;31;41m░▓▓██▄ ░▒▒▓█[0;31m▓░▒▓[0;1;31;41m▄[0;31m▄[0;37m [0m'

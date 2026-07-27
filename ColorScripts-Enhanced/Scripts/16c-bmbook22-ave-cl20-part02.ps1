@@ -5,7 +5,7 @@
 # Source SHA-256: fda7a6339557f7cfc779e5048137c9d531d1cee112a7ed25fc8cbb52b27cc68f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-CL20.ANS by avenger (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logo collection #20
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -43,13 +43,4 @@ Write-Host '
                                [34m ▀█▀▀▀[0m                                  [1;30m▓▓▓[0m
                                [34m▄[0;1;34;44m▄[0;1;34;46m▀[0;1;34;40m▄[0m [34m▄[0;1;34m█▄[0m
                                [34m▀█[0;1;34;44m▀[0;34m▀[0;37m  [0;34m▀[0;37m [0;34m▄[0m
-                            [34m▄█[0m          [34m▀[0;1;34m▀[0;34m▄[0;1;34m▄[0;34m▓▓▓[0m
-[1;33mpresent logo cluster #751 [0;33mstarring avenger, zippy and somber and a [0m
-[33mcouple of logos..[0m
-
-[33mavenger@blackmaiden.de[0;37m [0;33m#[0m
-
-
-
-
-   [37m [0m'
+                            [34m▄█[0m          [34m▀[0;1;34m▀[0;34m▄[0;1;34m▄[0;34m▓▓▓[0m'

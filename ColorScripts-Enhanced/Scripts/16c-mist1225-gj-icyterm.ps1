@@ -5,7 +5,7 @@
 # Source SHA-256: a62ed259af9aceb0829f50a454586101cba075902e447b4ea2832130b7ca1568
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GJ-ICYTERM.ANS by grymmjack (MiSTiGRiS); released in mist1225 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: icy term
 # SAUCE Author: grymmjack
 # SAUCE Group: MiSTiGRiS
@@ -34,8 +34,4 @@ Write-Host '
                                 [1;32;42m▄[0;1;32;40m  ▒ [0;32m▀ [0;1;32;42m▄[0;32m▀[0;1;32m▄ ▒ [0;1;32;42m▄[0;1;32;40m [0;1;32;42m▄[0m
                                 [1;32;40m█  ██[0;1;32;42m▒[0;1;32;40m █ █ █ █ █[0m
 [1;32;40m [0m
-                                    [1;5;31;40m█[0;1m v[0;1;33m0[0;32m.[0;1;31m4[0;32m.[0;1;35m2[0m
-[1;35m [0m
-[1;35m [0m
-[1;35m [0m
-[1;35m [0m'
+                                    [1;5;31;40m█[0;1m v[0;1;33m0[0;32m.[0;1;31m4[0;32m.[0;1;35m2[0m'

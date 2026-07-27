@@ -5,7 +5,7 @@
 # Source SHA-256: 57ff70a4ccbaa8dcea6d929224f10ad25832c10fa338de81ad8d0fe6d27fe9a2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-RGNCY.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 49-98
 # Columns: 1-80
 
@@ -52,10 +52,10 @@ Write-Host '
                         [37m▓▓[0;35m──[0;31m─[0;1;30m─ E[0;31mN[0;35mtROPY DiStRO... [0;37m▓▓[0m
                         [37m▓▒[0;35m───[0;31m─[0;1;30m─ F[0;31mF[0;35mi WHQ.....[0m     [37m▓▒[0m
                         [37m▓▓[0;35m────[0;31m─[0;1;30m─ i[0;31mC[0;35mE MEM. BOARD..[0;37m▓▓[0m
-                        [37m▒▓[0;35mSYSOP-HAStER(iCE/FiRE) [0;37m▒▓[0m
-                        [37m▒▒[0;35mCoSYSOP-PROXIMILY(iCE) [0;37m▒▒[0m
+                        [37m▒▓[0;35m                       [0;37m▒▓[0m
+                        [37m▒▒[0;35m                       [0;37m▒▒[0m
                         [37m▓▒[0m      [35mtALEN[0m            [37m▓▒[0m
-                        [37m▒▒  [0;35mWiNtER MUtE(FFi/FiRE [0;37m▒▒[0m
+                        [37m▒▒  [0;35m                     [0;37m▒▒[0m
                         [37m░▒[0m                       [37m░▒[0m
                         [37m░░[0m                       [37m░░[0m
                          [37m░[0m                        [37m░[0m

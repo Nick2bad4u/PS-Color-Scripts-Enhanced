@@ -5,7 +5,7 @@
 # Source SHA-256: 7a3991ab264c7f0888d7ec12c345c8f291bed02b812835d52b819ed932906232
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-HELL.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -53,8 +53,8 @@ Write-Host '
                       [1;30m▓█[0m            [32m▒[0m     [32m░[0m      [1;30;42m▀[0;32m▓▒[0m
                       [1;30m▓▓ V[0;32mi[0;1;32mRtUAL    [0;32m░[0m           [32m▐▒[0;1;30;42m▄[0m
                       [1;30;40m▓▒[0;1;31;40m───H·E·L·L·· ·   ·[0m      [32m▓[0;1;30m▓▒[0m
-                      [1;30m▒▒ S[0;32mY[0;1;32mSOP-CHAR[0;32mO[0;1;30mN [0;32m[FiDELiS] ░[0;1;30m▒▒[0m
-                      [1;30m▒░M[0;32mi[0;1;32mSC SHit,WARES,ARt,H/P[0;32m/[0;1;30mA▒░[0m
+                      [1;30m▒▒  [0;32m [0;1;32m        [0;32m [0;1;30m  [0;32m          ░[0;1;30m▒▒[0m
+                      [1;30m▒░ [0;32m [0;1;32m                     [0;32m [0;1;30m ▒░[0m
                        [1;30m░  [0;1;32m24oo-14oo[0m            [32m░ ░[0;1;30m░[0m
                       [1;30m░[0m                          [1;30m░[0m
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 1445d6b5000e9350a487bc50e1df34cae26bbc877173ddf8b6e6aae77a2c1b4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dy1-pen.ans by Discyple (clit-63); released in clit-63 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -29,6 +29,6 @@ Write-Host '
                              [35m┌s##s┐.$$$$$$b. :$┴$: $$ [0;1;30m└*.[0m
                            [35m,$$┘""└$$$$   ,$$ l$ $l $$#%s¬.[0;1;30m`[0m
                            [35m$$  [0;1;30mdb.  [0;35m$$$$$*┘`:$$s$$:$$``^Y$l[0m
-         [1;30mCRAB CRAB CRAB CR [0;35m$$  [0;1;30m└┘'' [0;35m$$$ `$b. l$: :$l$$..┌d$l [0;1;30mAB CRAB CRAB[0m
+         [1;30m                  [0;35m    [0;1;30m└┘  [0;35m                    ┌    [0;1;30m            [0m
                            [35m`$b┐..┌$$$$ [0;1;30mb.[0;35m`$b$$ [0;1;30m. [0;35m$$ΦΦΦ⌂*┘''[0m
                              [35m`²┴┴²` ~~ [0;1;30m```[0m       [35m~~[0m'

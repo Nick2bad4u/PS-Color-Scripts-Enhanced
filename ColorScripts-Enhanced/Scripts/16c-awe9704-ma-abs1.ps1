@@ -5,7 +5,7 @@
 # Source SHA-256: 67f7366b1408abf33a5949ebc8c8de26563aad6e09ae02bcec6c6a53891d5477
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-ABS1.ANS by Mass Murderer (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ABS
 # SAUCE Author: Mass Murderer
 # SAUCE Group: AWE Lettering
@@ -34,5 +34,4 @@ Write-Host '
 [1;37m▐[0;1;37;47m░░[0m███▌ [32m▐███[0;1;32;42m░[0;32m▄[0;1;30m ▀█[0;1;30;47m▓[0m▒[1;30;47m▓░[0m▓[1;30;47m░[0m█▄  ▐█[1;47m░[0;1;30;47m░░░▓▓▓[0;1;30;40m█▀ [0;32m▄█▀[0;35m [0;32m▀▌[0;37m [0;1;37m▐[0;1;37;47m░░  [0m█▌▐[1;30;47m░░░░░▓▓▓[0;1;30;40m█▀ [0;32m▄[0;1;32;42m░░░[0;32m█▌[0;37m ▐[0;1;37;47m▒▒▒▓▓[0;1;37;40m▌[0m
  ▀██▀ ▀▄ [32m▀▀▀██▀[0;37m [0;1;30m▄███[0;1;30;47m▓[0m▒[1;30;47m▓▒░[0m▌  ▀[1;30;47m░▓▓▓[0;1;30;40m███▄[0m [32m▀[0;1;32;42m▀[0;32m▀▀[0;35m [0;32m▀[0;37m ▄█[0;1;37;47m    [0m▀  ▀█[1;30;47m▓▓[0;1;30;40m▀███▄[0m [32m▀▄█▀▀▀[0;37m ▄█[0;1;37;47m░░░▒[0;1;37;40m▀[0;32m ▄[0m
 [32m█▄▄[0;37m ▀ ▀▀███▄▄▄▐[0;1;30;47m░▓[0;1;30;40m███▀ ▀▀[0m [32m▄[0;37m [0;32m▄[0;37m  [0;1;30m▀ ▀███[0;1;30;47m▓░[0m▌▄▄▄[1;47m░░░[0m▀▀ ▀ [32m▄▄▌▄[0;37m [0;1;37m [0m▀▬ [1;30m▄██[0;1;30;47m▓░[0m▌▄▄▄▓[30;47m░[0;37;40m▓▀▀▀▀[0;32;40m ▄▄██[0m
-[32;40m▀▀▀▀▀▀▀[0;37;40m     ▐▀[0;1;37;40m  [0m [1;30m▀[0m   [32m ▀▀▀▀▀▀▀▀▀[0;37m [0;32m▀[0;37m  [0;1;30m▀[0m [1m  [0m▀▌ [1m░░░[0;35m [0;32m▀[0;35m [0;32m▀▀▀▀▀▀▀▀▀[0;35m [0;37mmassm([0;1;37maWE[0m)░[30;47m▓[0;37;40m░ [0;32;40m▀▀▀▀▀▀▀▀[0m
-                                                                  [1;37;40m [0m'
+[32;40m▀▀▀▀▀▀▀[0;37;40m     ▐▀[0;1;37;40m  [0m [1;30m▀[0m   [32m ▀▀▀▀▀▀▀▀▀[0;37m [0;32m▀[0;37m  [0;1;30m▀[0m [1m  [0m▀▌ [1m░░░[0;35m [0;32m▀[0;35m [0;32m▀▀▀▀▀▀▀▀▀[0;35m [0;37mmassm([0;1;37maWE[0m)░[30;47m▓[0;37;40m░ [0;32;40m▀▀▀▀▀▀▀▀[0m'

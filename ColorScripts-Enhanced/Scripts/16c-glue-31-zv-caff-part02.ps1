@@ -5,7 +5,7 @@
 # Source SHA-256: 839f3a3e3b250ca839d17c91adadce49c18aef7850bbb7bc8262df3b391f7fc5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Zv-caff.ans by zeroVision (GLUE); released in glue-31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: caffeine
 # SAUCE Author: zeroVision
 # SAUCE Group: GLUE
@@ -38,9 +38,9 @@ Write-Host '
    [1;30m▒ [0m    [1;30m▐[0m   [1;30m▀█▓▄▄▄█▀▌░[0m [1;30m▀[0m [1;30m▀▀[0;1;30;46m▓[0;1;30;40m▀▀▀[0m    [1mC A F F E I N E[0m
    [1;30m░[0m           [1;30m░▀▀▀ [0m                        [1;30m+o blooz[0m
 [1;30m--------------------------------------------------------------------------------[0m
-[1;30myeah,yeah,i know it''s extremely cheesy but i had this picture lying on my hard[0m
-[1;30mdrive and i couldn''t think of what to do with it. Sorry Blooz, i''ll draw you [0m
-[1;30msomething better. [0m [1;30m                         [0m
+[1;30m                                                                              [0m
+[1;30m                                                                             [0m
+[1;30m                  [0m [1;30m                         [0m
 
     [1;30m    [0m  ▄▄[1;47m░▓[0;1;40m▄[0m          [1m▄▄[0m
          ▀▀▀▐[1;47m▒[0m▀[1m▀[0;1;33m▄[0m    [1;33m▄[0m ▀[1;47m▒[0;1;40m▀[0m [1m▀▀[0;1;47m▒[0m▄

@@ -5,7 +5,7 @@
 # Source SHA-256: 08ef2be2b213209220a850697cfe25540bd2b8d88a80710dbfa0a077fae05de2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ESS!AAAA.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Essence's Stats
 # SAUCE Author: Essence
 # SAUCE Group: rARE!ASCii
@@ -23,8 +23,8 @@ Write-Host '
  [34m:[0;32m:i[0;1;32m▓$[0;32m$,[0;1;32m [0;34m`+[0;37m [0;34m#╝[0;1;34m''[0;32m,$[0;1;32m$[0;32m$:[0;37m [0;32m:$[0;1;32m$[0;32m$, [0;34m`÷[0;37m [0;34m#╝[0;1;34m''[0;32m,$[0;1;32m$[0;32m$:[0;34m [0;32ml$[0;1;32m$[0;32m$,[0;37m [0;34m`*[0;37m [0;34m#╝[0;1;34m''[0m,[1;33m$$[0;1;37m$[0m:[1;30m''[0;34mi∙[0;37m [0;1;37mYears Art[0m 2
 [34m∙l[0;1;32m [0;32m`╚$[0;1;32m$$[0;32m#b,_[0;37m [0;32m░-╩╩[0;1;32m╩[0;32m²''[0;1;37m∙[0m [32m`$[0;1;32m$$#[0;32mg,_[0;1;34m  [0;32m-╩[0;1;32m╩[0;32m╩''[0;1;30m·∙[0m [32m`$$[0;1;32m$[0;32m#y,_[0;33m [0;1;31m [0m-╩[1m╩╩²[0m'' [34m:[0;37m  [0;1;37mGroups[0m    rARE!ASCii
 [34m;I[0;37m [0;32mi$[0;1;32m$[0;32ml"``[0;1;30m_[0m [32m_[0;1;32m_[0;32m.[0;1;32m,[0;32m┌g:∙[0;1;32m:[0;1;37mg[0;1;33mg[0;1;32my[0;32m``^"╩╩╩#[0;1;32m$ÿ[0;32mgi[0;1;30m;:;[0;32mg[0;1;32mgy[0;32m``^"╩╩╩#[0;1;32m$ÿ[0;32mg,[0;37m [0m   [34m·[0;37m           Remorse[0m
-[34miS[0;37m [0;32mS[0;1;32m$[0;1;33m$[0;1;37m$[0;1;32mS[0;32m$$$[0;1;32m$[0;32m$[0;1;30m$[0;32m$[0;1;32m$[0;32m$[0;1;30m$[0;32mli;[0;1;33mi[0;1;32mIS$S$$SSS$$[0;1;37mS[0;1;33m$[0;32m$l[0;1;30m:|[0;32miI[0;1;32mS▒S$$$SS[0;1;33m$$[0;1;37mS[0;1;32m$[0;32m$l,[0;37m [0;34m∙[0;37m  [0;1;37mDoingz''[0m   Art[1;30m/[0mCode
+[34m  [0;37m [0;32m [0;1;32m [0;1;33m [0;1;37m [0;1;32m [0;32m   [0;1;32m [0;32m [0;1;30m [0;32m [0;1;32m [0;32m [0;1;30m [0;32m   [0;1;33m [0;1;32m           [0;1;37m [0;1;33m [0;32m  [0;1;30m  [0;32m  [0;1;32m ▒      [0;1;33m  [0;1;37m [0;1;32m [0;32m   [0;37m [0;34m [0;37m  [0;1;37m       [0m      [1;30m [0m    
 [1;34mI[0;34m$[0;37m [0;32m╝²ⁿ""[0;1;32m^[0;1;30m^[0;32m~~[0;1;32m`[0;32m`[0;1;30m`[0;32m`^[0;1;30m"²╩[0;32m╩[0;1;32m╝²ⁿ""^^[0;32m~[0;1;32m~``[0;32m``^"²[0;1;30m╩[0;32m┴╝²ⁿ[0;1;32m""^[0;32m^~[0;1;32m~``[0;32m``^[0;1;32m"[0;32m²╩[0m              [37mMusician[0m
-[1;34m$$,┬[0;34mgg%%####SSSS#%g┬┬┬gg%%####SIli;:∙[0;37m  [0;34m·[0m                    [1;37mBoard     [0mThe Legend
+[1;34m   ┬[0;34m               ┬┬┬               [0;37m  [0;34m [0m                    [1;37m          [0m          
 [1m$[0;1;34m$$╝ⁿ[0;34m²""[0;1;34m^^[0;34m~~``[0;1;34m`[0;34m`^"²╩╩╝ⁿ²""^^~~```[0;37m  [0;34m``[0m      [34m`[0m               [37m+31(0)299-672220  v34[0m
                                                            [37m+31(0)299-672282 iSDN[0m'

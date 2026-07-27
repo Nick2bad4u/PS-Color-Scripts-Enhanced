@@ -5,7 +5,7 @@
 # Source SHA-256: 4d91e2ef4df8b14e6ccd0b46583a881f4ef47abd41160902b4acbbe2746fadb0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-happybdaymum.ans by avg (blocktronics); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Happy Birthday, Mum!
 # SAUCE Author: avg
 # SAUCE Group: blocktronics
@@ -44,11 +44,4 @@ Write-Host '
  [31m█▌[0;37m [0;31m▓▓[0;35m░░[0m
 [31m▐▌[0;37m [0;31m▒▒[0;37m [0;35m■[0m
 [31m▒[0;37m    [0;35m·[0m
-[37m  [0;35m░░[0;30mPORTRAITS OF CUNTS WHO DON''T KNOW I EXIST... - AVG_[0m
-
-
-
-
-
-
-[37m                                           [0;1;34mHappy Birthday Mum. Love your son.[0m'
+[37m  [0;35m░░[0;30m                                                   [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 94767b6979ba270f4e3432a8ab8b6aed0eba5717684d362b4347d33ca812455a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KM-HIGH1.ANS by King Midas (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Higher Grounds
 # SAUCE Author: King Midas
 # SAUCE Group: ACiD Productions
@@ -36,12 +36,10 @@ Write-Host '
 
 [1;30;40m▄[0;36m▄[0;1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m▄[0;1;30m▄[0m
 
-                                [1;30mH[0;1;37mHigher Grounds[0;1;30ms[0m
+                                [1;30m [0;1;37m              [0;1;30m [0m
                                 [1;30m1[0;1;37m1-305-927-7801[0;1;30m1[0m
-                     [1;30mD[0;1;37mDa Crew [0m≡ [1mSleepWalker [0m≡ [1mHell Raiser[0;1;30mr[0m
-[1;30m B[0;1;37mBad Member Board [0m≡ [1mREM Distro [0m≡ [1mNiTRO Distro [0m≡ [1mFAWK Distro [0m≡ [1mWeapon X Distro[0;1;30mo[0m
-                      [1;30mD[0;1;37mDa NeTs [0m≡ [1mValiant Net [0m≡ [1mStatic Net[0;1;30mt[0m
+                     [1;30m [0;1;37m        [0m  [1m            [0m  [1m           [0;1;30m [0m
+[1;30m  [0;1;37m                 [0m  [1m           [0m  [1m             [0m  [1m            [0m  [1m               [0;1;30m [0m
+                      [1;30m [0;1;37m        [0m  [1m            [0m  [1m          [0;1;30m [0m
 
-[1;30m▀[0;36m▀[0;1;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▀[0;1;30m▀[0m
-                     ANSi by King Midas of ACiD Productions
-              Remember folks, Yoda Con 94! 1-800-788-0567 #342  ![0m'
+[1;30m▀[0;36m▀[0;1;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▀[0;1;30m▀[0m'

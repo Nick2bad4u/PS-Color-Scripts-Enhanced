@@ -5,7 +5,7 @@
 # Source SHA-256: f50c20f36368d012956487c82b98af22c4427c81f3e63522a7a82f42d1e01f92
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-YLLE.ANS by Zeus II (Blocktronics); released in blocktronics-67rpm and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kaldolmar och Kalsipper
 # SAUCE Author: Zeus II
 # SAUCE Group: Blocktronics
@@ -54,5 +54,4 @@ Write-Host '
 [1m  [0;32m▄▄▄███[0;1;37;42m░░░▒▒▒▒▒▒▒▒▒▒▒░░░░[0;32m██[0;1;37;42m░░░░░░[0;32m████[0;1;37;42m░░░░░░[0;32m██████████▓▀[0;1;31m▄▀▀█▄[0;32m▀▀████▓▓▓▓███████[0m
 [1;37m  [0;32m█[0;1;37;42m░░░░░▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░[0;32m█[0;1;37;42m░░░░░░░░[0;32m██████████▓▓██▄▄▄▄█▄▄[0;1;31m▀▀[0;32m █████[0;1;37;42m░░░░░░░[0;32m██[0m
 [1;37m  [0;32m███[0;1;37;42m░░░░░░░░░░░░░░░░[0;32m█████[0;1;37;42m░░░░░░░░░░[0;32m█████████▓▓▓▓▓███▀▀▀███████▄████████[0;1;37;42m░░░░░[0;32m█[0m
-[1;37m  [0;32m███▀▀▀██▄▄█[0;1;37;42m░░░░░░░░░░░░░░░[0;32m██████▀▀▀▀▓▓▓▓▓▓▓▓▓▓█████████▄▄▄██████████████[0;1;37;42m░░░░[0m
-[1m [0;32m Kåldolmar[0m                           [32moch[0m                            [32mKalsipper[0m'
+[1;37m  [0;32m███▀▀▀██▄▄█[0;1;37;42m░░░░░░░░░░░░░░░[0;32m██████▀▀▀▀▓▓▓▓▓▓▓▓▓▓█████████▄▄▄██████████████[0;1;37;42m░░░░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 075b608c4124e448670eb65ec9b279feaeedca091d9386b69f71cf9ce8228355
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-FOUT.ANS by shot; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -20,9 +20,9 @@ Write-Host '
            [1;30;40m▀▀▀▀▀█ [0;1;36;40m▄█████▄ [0;36m▄[0;1;36;46m░▒▓█[0;1;36;40m██▄ ████████▄ ▀[0;1;36;46m▓▒░[0;36m█████▀ [0;1;36m▄███████▀ [0;1;30m▄█[0m
                 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▀[0m
 [1;30m [0m┌─────────[1;30m──[0m──[1;30m──────[0m────────[1;30m─[0m─[1;30m─  ─[0m──[1;30m─[0m─  [1;30m─ [0m─  · [1;30m·[0m·  ·
-   [1;30mR[0mαΓ[1;30mio[0m:                   [1;30mD[0mα[1;30mil[0my:                     RΣs[1;30mΓ[0mzΣ[1;30mi[0mΓ:
+   [1;30m [0m  [1;30m  [0m                    [1;30m [0m [1;30m  [0m                          [1;30m [0m  [1;30m [0m  
               [1;30m· [0m· [1;30m· [0m·· [1;30m· [0m─[1;30m─  [0m─ [1;30m─   ─[0m────[1;30m──[0m─[1;30m─[0m─[1;30m─[0m──────[1;30m──[0m───────[1;30m──[0m────[1;30m───[0m──────[1;30m──[0m┘
-   α[1;30mk[0mΓl[1;30m.[0mG[1;30mr[0mσu[1;30mp[0m:                               α[1;30mk[0mΓl[1;30m.[0mA[1;30mr[0mΣα:
+    [1;30m [0m  [1;30m [0m [1;30m [0m  [1;30m [0m                                 [1;30m [0m  [1;30m [0m [1;30m [0m   
  └───[1;30m───[0m─[1;30m─[0m───────[1;30m───────[0m───[1;30m─[0m─[1;30m──[0m─[1;30m────[0m───  [1;30m─ [0m──[1;30m─ [0m─  [1;30m· [0m·[1;30m· [0m·
 [1;30m█[0;1;30;46m▓▒░[0;1;36;46m░▒▓█[0;1;36;40m▀  ──[0;1;30;40mThe Outdoor BBS[0;1;36;40m──  ▀[0;1;36;46m█▓▒░[0;1;30;46m░▒▓[0;1;30;40m██[0;1;30;46m▓▒░[0;1;36;46m░▒▓█[0;1;36;40m▀ ──[0;36m──[0;1;30m── [0;36m·[0;37m·[0;1;37m·[0m·[36m· [0;1;30m──[0;36m──[0;1;36m── ▀[0;1;36;46m█▓▒░[0;1;30;46m░▒▓[0;1;30;40m█[0m
 [1;30;41m█[0;1;30;46m▓▒░[0;1;36;46m░[0m                               [1;36;46m░[0;1;30;46m░▒▓[0;1;30;41m██[0;1;30;46m▓▒░[0;1;36;46m░[0m                             [1;36;46m░[0;1;30;46m░▒▓[0;1;30;41m█[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 8dad49b714e1dd5959615994ceeb8eddc2914c00e77acd93b0e7cf845b9a3196
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SM-SON.ANS by S.a.n. Man (RiGOR); released in rgr-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Swamps of Nyissa
 # SAUCE Author: S.a.n. Man
 # SAUCE Group: RiGOR
@@ -43,22 +43,22 @@ Write-Host '
     [1;30m     [0m s[1;30m   W   A   M   P   S    [0mo[1;30m   F    [0mn[1;30m   Y   S   S   I   A [0m
 
 
-                                s[1;30mysop: Zit[0mh
-                              1[1;30m.4 Gigs Onlin[0me
-                              2[1;30m+ Gigs Offlin[0me
-                           3[1;30m0min - 1hr Art Pack[0ms
-                               0[1;30m-3 day Ware[0mz
-                              t[1;30mOO MANY AFFILZ[0m!
+                                 [1;30m         [0m 
+                               [1;30m             [0m 
+                               [1;30m             [0m 
+                            [1;30m                   [0m 
+                                [1;30m           [0m 
+                               [1;30m              [0m 
 [1;30m                               [0m 5[1;30m16-SoN-1212[0m
-                                                       [1;30msm.rigor (c)[0m
+                                                       [1;30m            [0m
 
 
 
 [1;30m----[0m
 [1;30m  [0m
-[1;30mS.A.N. MAN (one and ONLY!) .... Hmmm what the hell is that you say? I have no[0m
-[1;30mfucken idea... It just came out!  Tell me what ya think of it. By the way,[0m
-[1;30mBig Ups'' goes to my Homeyz in [0;31mRiGOR[0;1;30m and To all the [0;31mMD[0;1;30m''s out there! [0m
+[1;30m                                                                             [0m
+[1;30m                                                                          [0m
+[1;30m                              [0;31m     [0;1;30m                [0;31m  [0;1;30m              [0m
 
-[1;30m                     [0;31m"KEEP THE JAM LIVE IN THE YEAR ''95!!!"[0m
+[1;30m                     [0;31m                                      [0m
                        [1;30m      [0m   ...Peace...[0m'

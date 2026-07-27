@@ -5,7 +5,7 @@
 # Source SHA-256: 9da7900413954203f9a2a2b612e885f75e96316c438767b4f70bebde48bfc7db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-BLEND.ANS by Stereo (blndr015); released in blndr015 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -36,21 +36,4 @@ Write-Host '
          [33;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
                 [1;30;40m▓▓▓▓▓▓▓[0m                                        [1;30m▓▓▓▓▓▓[0m
                 [1;30m▓▓▓▓▓▓▓[0m                                        [1;30m▓▓▓▓▓▓[0m
-                [1;30m▓▓▓▓▓▓▓[0m                                        [1;30m▓▓▓▓▓▓[0m
-
-
-[1;30mOK THIS IS SANTA RIDING HIS SKATEBOARD LIKE A CAT WOULD.. .. HIS FACE LOOKS LIKE[0m
-
-[1;30mIT DOES BECUASE HE JUST STUCK IT DOWN THE SEWER.. AND I GUESS THE SEWER HAD SOME[0m
-
-[1;30mTOXIC STUFF IN IT..[0m
-
-                    [1;30mAND THAT THING THAT IS STICKING OUT FROM HIS BUTT.. I DON''T[0m
-[1;30mKNOW WHAT IT IS.. OR DO I WANT TO :)..[0m
-
-
-                [1;30mHOLY SHIT.. I''M WRITING ALL OVER THE PLACE.. I THINK I''M DRUNK..[0m
-[1;30mEMAIL ME.. STEREO@SKATESHOP.XG.COM.. [0m
-[1;33mHEY.. WTF IS THAT YELLOW THING UP THERE?!?!?[0m
-
-[1mSTEREO [L4CIDU5!!!] [0m'
+                [1;30m▓▓▓▓▓▓▓[0m                                        [1;30m▓▓▓▓▓▓[0m'

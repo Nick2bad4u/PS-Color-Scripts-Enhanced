@@ -5,7 +5,7 @@
 # Source SHA-256: 5137fd5b48d758a9fa95e9ff43880d50d12552f01b7e9c471037e4ddc480452c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NS-C0000.ANS by ansichrist (The Used Coalition); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo colly
 # SAUCE Author: ansichrist
 # SAUCE Group: The Used Coalition
@@ -15,7 +15,7 @@
 
 Write-Host '
                       [32m            ▀▀[0;1;32;42m░[0;1;33;42m░[0;32m▄■  ■▀▀▓[0;1;32;42m░[0;1;33;42m░[0;32m▌[0m             [32m [0m
-                      [1;33me[0;1;37mlectronic pictures.. .[0;32m░ ▀▀■[0m           [32m  [0m
+                      [1;33m [0;1;37m                      [0;32m░ ▀▀■[0m           [32m  [0m
 [1;30m-------------------------------------------------------------------------------[0m
 [35m░[0;30;45m▓░[0;35;40m▓[0;1;35;45m░▓[0;1;35;40m▌▌▌[0m [1mnews [0;1;35mfor[0;1;37m tarot[0m
 
@@ -34,7 +34,7 @@ Write-Host '
                [32m:.[0;37m [0;32m.[0;37m [0;32m▐[0;1;37;42mN[0;32m▌[0;1;37mews... . [0m               [32m░░░[0m       [32m▀▀■[0;1;33m  [0;32m▀▓▀[0m   [1;33m░[0m
                                                                [32m░[0m
 [1;30m--------------------------------------------------------------------------------[0m
-[35m░[0;30;45m▓░[0;35;40m▓[0;1;35;45m░▓[0;1;35;40m▌▌▌[0m [1mon welfare [0;1;35mfor[0;1;37m rippa [0;1;30m(i was viewing some dd''s logos... =)[0m
+[35m░[0;30;45m▓░[0;35;40m▓[0;1;35;45m░▓[0;1;35;40m▌▌▌[0m [1m           [0;1;35m   [0;1;37m       [0;1;30m                                    [0m
 [32m                      [0m                     [32m                                  [0m
 [32m         [0;33m░[0;32m            [0m                     [32m ▄▄░░                             [0m
 [32m  [0;33m░[0;32m [0;33m▄ ■░[0;32m [0;33m▓▄[0;32m  [0;33m░▄[0;32m         [0m          [32m [0m       [32m ▐█▓▓░[0;1;30m▄■[0;32m                           [0m
@@ -57,9 +57,9 @@ Write-Host '
 [33m░░▓[0;1;37m      [0m░[1m     [0m░░[1;30m▀[0m▀▓▓[1;47m░[0m▓[1;30m▀[0m░▓▓█[1;47m░[0m█▓░[1;30m░[0;1;37m [0;33m▀▓▓[0;1;33;43m▀░░[0;33m▄▄[0;1;37m      [0m░[1;30m▀▀▄▓[0;1;37m [0;33m▀[0;1;33;43m▓[0;33m▓░[0;1;37m [0;1;30m▀[0m▓▓[1;47m░░[0m▓▀▀▀▓▓▓[1;30m▀[0m
 [32m  [0;33m░[0;32m                [0;37m░░[0;32m [0;37m░[0;32m [0;37m░░░[0;32m   [0;37m░░[0;32m   [0;33m░░▓▓▓[0;1;33;43m░▓░░[0;33m▄▄▄■[0;32m [0;1;30m■▀[0;32m [0;1;30m░[0;32m  [0;33m▓[0;1;33;43m░[0;33m▀▀░[0;37m░░[0;32m  [0;37m░[0;32m   [0;37m░░░[0;32m [0m
                                      [33m░░░▓▓▓░░░[0m         [33m░▓[0m
-[1;37m\\\on welfare. operated by rippa. [0m      [33m░░░[0m             [33m░[0m
+[1;37m                                  [0m      [33m░░░[0m             [33m░[0m
 [1;30m--------------------------------------------------------------------------------[0m
-[35m░[0;30;45m▓░[0;35;40m▓[0;1;35;45m░▓[0;1;35;40m▌▌▌[0m [1mstatic promo. [0;1;30m(a finnish demogroup. i''m vga-graphician in static)[0m
+[35m░[0;30;45m▓░[0;35;40m▓[0;1;35;45m░▓[0;1;35;40m▌▌▌[0m [1m              [0;1;30m                                                   [0m
 
 [1;33m██[0;1;37m█████████████████████████▓▀▀▀[0;1;33m ▄▄▄▄[0;1;37m▄▄ ▀▀▀▓█████████▓░[0m▄▄░▓██████████████████▓░░
 [1m████████████████████████▓▀[0;1;33m ▄▄[0;1;33;43m▓▓[0;1;33;40m█▀▀▀██[0;1;37;40m████▄▄[0m [1m▀▓███████[0m░▓██▐█[1;47mstatic. 2ooo.[0m█████▓░

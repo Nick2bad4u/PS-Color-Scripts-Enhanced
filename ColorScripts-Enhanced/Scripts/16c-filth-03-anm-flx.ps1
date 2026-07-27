@@ -5,7 +5,7 @@
 # Source SHA-256: becffb8275103f13b90ff4f49fea3e77733b88ed27eda658c390e660295a9bba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ANM-FLX.ANS by anOmite (filth); released in filth-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fLUX
 # SAUCE Author: anOmite
 # SAUCE Group: filth
@@ -34,8 +34,8 @@ Write-Host '
     [1;30m▀[0;1;30;47m▓▓░  ▄[0;1;30;40m▀[0;32m [0m        [31m▀▀▀[0;32m      ▀▀▀   [0m    [1;30m▀[0m▀
       [1;30m ▀▀ [0m
 [32m─────────────────────────────────────────────────────────────────────────────── [0m
-[32mmail me at insane@fix.no for requests or something..[0m
-[32muhm.. I really like this one. =)[0m
-[32mflux is a new group started by genious and loaded. uh....[0m
+[32m                                                    [0m
+[32m                                [0m
+[32m                                                         [0m
 
 [32m-anm[0m'

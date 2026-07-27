@@ -5,7 +5,7 @@
 # Source SHA-256: f57fcc507bf0f2cdd5beab94a91d53b789d2e631c5f168dfb53402d8634a6239
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IZ-BEST!.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: surprise!
 # SAUCE Author: ize
 # SAUCE Group: fusion
@@ -32,8 +32,4 @@ Write-Host '
                neat border ->  [1;30m▀▄[0m  [1;31;43m▓▓▒░[0m [1;30m▄▀▀▀▀[0m      [1;30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
                                  [1;30m▀▄[0m [1;31;43m▓▓[0m  [1;30m█[0m          [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m
                                   [1;30m▀▄▄▄▄▀[0m     sh -> [1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m
-                                                   [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
-
-     wow I did these ansis about 2 years ago.. I really sucked ;) .. hmm
-        they were never released (!) so I''ll release them now instead
-           I mean just check that shading! or the fire (?) WOW![0m'
+                                                   [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m'

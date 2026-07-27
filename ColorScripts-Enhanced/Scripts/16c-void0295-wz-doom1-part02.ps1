@@ -5,7 +5,7 @@
 # Source SHA-256: 4756d236c1dd4c2c4b2f17d547948a3d8fcc3ad0ec0f925eac9f506ecbb579a5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WZ-DOOM1.ANS by Weazel (VOiD); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Doomsday
 # SAUCE Author: Weazel
 # SAUCE Group: VOiD
@@ -46,5 +46,4 @@ Write-Host '
 [1m  [0;31m▄[0;1;31;41m░▒[0;31m▄ ▀[0;1;31m▀[0;1;31;41m▓▒[0;1;31m▀▄[0;1m▀██████ [0;31m██▌[0;1m▐▌[0;31m▐██[0;1m▐[0;31m▐██▌[0;1m▀ [0;31m███▌[0;1m▌[0;31m▐████▌[0;1m▐[0;31m▐███▌[0;1m▀▄[0;31m▀███▌[0;1m▐██████████████████[0m
                       [31m▀█▄ █▀   ███▄████ ▄██████ ▐████▄■  ▀█▌[0m
                         [31m▀▀[0m      [31m▀████▀    ▀▀███▌♦▀███▀    ▐[0m
-                                             [31m▀█▀[0m
-        Hi''s -n- Ho''s to Ryan,Shi_One,Mr.Muff,Incinerator,Grimace,Turtle[0m'
+                                             [31m▀█▀[0m'

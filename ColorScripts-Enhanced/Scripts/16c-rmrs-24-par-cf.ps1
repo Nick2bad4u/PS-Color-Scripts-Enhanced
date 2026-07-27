@@ -5,7 +5,7 @@
 # Source SHA-256: a2dcbb55dc0616df96ab7545e9019b71d05ee44b23c93bf0b94e13ebb2829d3a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-CF.ANS by Pariah (rmrs-24); released in rmrs-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Company Flow
 # SAUCE Author: Pariah
 # SAUCE Date: 19980606
@@ -34,5 +34,4 @@ Write-Host '
   [1m [0;1;36m [0;1;37m [0m                                                    [1;36m           [0m
 
   [1m    [0m                                                [1;36m              [0m
---------------------------------------------------------------------------------
-[1mCOMPANYFLOW[0m![1m  [0mkeeping it short and fat like Joe Pesce, God bless me[1m  ([0mc[1m)PAREYEAH[0m'
+--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a3835d9f99f322a91a790928d7c701c9a95f8d8deb9acff9dc7984b1217de225
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-HEMP2.ANS by catch22 (glue); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the hemp gate
 # SAUCE Author: catch22
 # SAUCE Group: glue
@@ -40,17 +40,4 @@ Write-Host '
 [34m▐[0;1;34;44m▐█▀[0;34m█▀▌▀█[0;1;34;44m▒▓██████████[0;1;34;47m▓▓▒▒░░▒▒▓▓[0;1;34;44m████████▓▓[0m   [1;30;47m▒░[0m███ [1;47m [0m█[1;47m▒▒▒[0;1;40m▌[0m▐[1;47m░[0m███▌▀██[1;30;47m░[0m▌[1;30m  ▀▀░░[0;31m  [0;1;31;41m█▓░  [0m
 [34m ▀▀▀   ▐█[0;1;34;44m░▒▓███▓▓██[0;1;34;47m▓▓▒▒░░  ░░▒▒▓▓[0;1;34;44m█████▓▓[0;1;34;40m█[0m    ▀[1;30;47m░░[0m▌  ▀█[1;47m░░[0m  ▀██▀   ▀▀        [1;31m█[0;1;31;41m▓░ [0;1;31;40m▒▒[0m
 
-[1;36m---------[0m
-[1;36mfor the hemp gate, which is internal''s board.  whhoOOO two crazy devil guys this[0m
-[1;36mmonth!  wow, i''ve drawn a shitload today,. like 3 ansis!  but it''s a sunday and[0m
-[1;36mit''s raining so it''s not like i could go outside and do anything neat.  all i [0m
-[1;36mcan do is sit here and draw ansi.  tv sucks, i don''t feel like reading or [0m
-[1;36manything,. i could call up women.  but i don''t have any phone numbers,. ugh.[0m
-[1;36mi need a woman.  anyways, i like drawing ansi.  i love it infact, so there.  [0m
-[1;36mi think i''ll dye my hair black.  like really black.  and spike it up really[0m
-[1;36mhigh,. then i can look punk.  yeah that sounds cool., sort of.  not really.[0m
-[1;36mugh, it sucks.[0m
-
-[1;36mHI GRINDKING!!@!#$[0m
-
-                                                                [1;36m-stickyMAN catch[0m'
+[1;36m---------[0m'

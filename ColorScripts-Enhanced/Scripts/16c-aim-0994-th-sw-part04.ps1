@@ -5,7 +5,7 @@
 # Source SHA-256: e4a12ecd6b6da2bb8a22b63f333c08a41aa14707382f408288dd818f0c8a40f8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-SW.ANS by TH/LP (AiM); released in aim-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Shadow World BBS ANSi
 # SAUCE Author: TH/LP
 # SAUCE Group: AiM
@@ -53,9 +53,8 @@ Write-Host '
 [1m   │  [0m│  [1;30m│[0m      [1;30m 0[0m-3 [1mDay WareZ [0m [1m■[0m  [1mv32bis  ■  v42bis[0m  [1m■[0m  vF[1;30mC [0m [1;30m [0m  [1;30m│  [0m│       [1m│[0m
 [1m   └[0m─[1;30m─│─[0m─[1m─────────────────────────────────────────────────────────[0m─[1;30m─│─[0m─[1m─────┘[0m
 [1m   ┌───[0m─[1;30m─[0m│[1;30m─[0m─[1m────────────────────────────────────────────────────[0m─[1;30m│[0m─[1m─────────┐[0m
-[1m   │  [0;1;30m│  │[0;1;37m  [0;1;30m [0m       [1;30mS[0mha[1mde Net  ■  OiA  ■  Misery Netwo[0mrk[1;30ms[0;1;37m      [0;1;30m  │  │[0m       [1;37m│[0m
+[1m   │  [0;1;30m│  │[0;1;37m  [0;1;30m [0m       [1;30m [0m  [1m        ■       ■              [0m  [1;30m [0;1;37m      [0;1;30m  │  │[0m       [1;37m│[0m
 [1;37m   └[0m─[1;30m─[0m│[1;30m─[0m─[1m─────────────────────────────────────────────────────────[0m─[1;30m─[0m│[1;30m─[0m─[1m─────┘[0m
       [1m└─[0m─[1;30m┘[0m                                                       [1;30m└[0m─[1m─┘[0m
 [1;30m   [0m
-                                               [1;30m/┤NSí Pic [0m [1;30mby[0m [34mT[0;1;34mhr[0;1;37mes[0mho[1;30mld [[0;31mA[0;1;31mi[0;31mM[0;1;30m][0m
-                                                     [1;30mFont by[0m [1;34mLo[0;1;37mrd [0mP[1;30mri[0;1;31mme[0m [1;30m[[0;34mA[0;1;34mi[0;34mM[0;1;30m][0m'
+                                               [1;30m ┤        [0m [1;30m  [0m [34m [0;1;34m  [0;1;37m  [0m  [1;30m    [0;31m [0;1;31m [0;31m [0;1;30m [0m'

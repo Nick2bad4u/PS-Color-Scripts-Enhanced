@@ -5,7 +5,7 @@
 # Source SHA-256: eb71d97f8ac86845a6a1541d47cbb90c86d2c3ffcc21cb09323de55d5ae5f74d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BLC2ACID.ANS by Tank (ansis-b); released in ansis-b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 32-56
 # Columns: 1-80
 
@@ -33,4 +33,4 @@ Write-Host '
 [34m   [0;1;34m▀[0;1;34;44m▓▒▒[0;34m████▀  [0;1;34m▀[0;1;34;44m█▒░[0;34m██▀  [0;1;34m▄[0;1;34;44m▓▒[0m   [34m██▄  [0;1;34m▀[0;1;34;44m█▒░[0;34m██▀  [0;1;34m▀[0;1;34;44m▒░[0;34m▄▀ [0;1;34m▀[0;1;34;44m▓▒▒[0;34m▀███  [0;1;34;44m▓▒[0m      [1;34;40m▀[0;1;34;44m▓▒[0;34m█████▌[0m
                                                                    [1;34m▄▄ [0;34m▀▀ ▐██[0m
 [34m    [0;1;33mS[0mysO[1mp: [0;1;32mThe [0;32mOr[0;36mder[0;1;36mly  [0;1;33mN[0mumb[1m:[0;1;30m([0;1;31m7[0;31m1[0;1;31m3[0;1;30m)[0;1;31m4[0;31m9[0;1;31m3[0;1;30m-[0;1;31m0[0;31m24[0;1;31m2   [0;1;33mS[0mpee[1md: [0;1;32m24[0;32m00-[0;36m960[0;1;36m0+[0m     [1;34m▐[0;1;34;44m▓▒[0;34m▄▄▄██▌[0m
-             [1;33mR[0mun[1mnin[0;1;32mg: [0;32mVel[0;36moci[0;1;36mty[0m      [1;33mN[0mU[1mP[0;1;32m: [0;32mTe[0;36mlc[0;1;36mom[0m                      [1;34m▀▀[0;34m▀▀▀[0m'
+             [1;33m [0m  [1m   [0;1;32m   [0;32m   [0;36m   [0;1;36m  [0m      [1;33m [0m [1m [0;1;32m  [0;32m  [0;36m  [0;1;36m  [0m                      [1;34m▀▀[0;34m▀▀▀[0m'

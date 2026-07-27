@@ -5,7 +5,7 @@
 # Source SHA-256: f0ea26744dbcc8d56aa788b689e1c796bc8c1c0c81b9811dcec782d4fc3103c0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: U7-LYNX.ANS by undertaker (poffelipoff); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lYNX bABY!@@
 # SAUCE Author: undertaker
 # SAUCE Group: poffelipoff
@@ -45,14 +45,4 @@ Write-Host '
 
 [37;40m-//- CUT ---- <LYNX> -- @ mSO   [0m
 
-[37;40m*// mSO:[0m
-    [37;40mshiiit, the  color sheme fucked up..[0m
-    [37;40mwell. i got some english to study [0m
-    [37;40mso i got to go..  background + chic[0m
-    [37;40mdone in a rush.. sorry :)   [0m
-
-[37;40m*// no freebies baby -- trades![0m
-
-[37;40m*// super secret email: johans@mindless.com[0m
-
-[37;40m*// undertaker < poffelipoff >    [0m'
+[37;40m*// mSO:[0m'

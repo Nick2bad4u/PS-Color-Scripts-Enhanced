@@ -5,7 +5,7 @@
 # Source SHA-256: 999982e98fa9c473eff14008634f1e33713fc9580ac71e8d264ee2e0dd354e99
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IV-UF.ANS by iNNeR vIsIOn (Spastic Productions); released in spas0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Unseen Fate
 # SAUCE Author: iNNeR vIsIOn
 # SAUCE Group: Spastic Productions
@@ -47,6 +47,4 @@ Write-Host '
                  [35m [0m        [35m▓[0;1;35;45m▒[0;35m▓ ▀[0;37m [0;35m▓[0;1;35;45m▒[0;35m▓▄▓ [0;37m [0;35m▓[0;1;35;45m▒[0;35m▓[0;37m [0;35m▀[0;37m [0;35m▓[0;1;35;45m▒[0;35m▓[0;37m [0;35m▀[0m
               [35m [0;37m [0;1;35m▀[0m [1;35m▄▓▄[0m  [35m░[0;37m  [0;35m▒[0;1;35;45m░[0;35m▒▀[0;37m  [0;35m▒[0;1;35;45m░[0;35m▒[0;37m [0;35m▒[0;37m  [0;35m▒[0;1;35;45m░[0;35m▒[0m   [35m▒[0;1;35;45m░[0;35m▒▀[0m   [35m░[0;37m  [0;1;35m▄▓▄[0m [1;35m▀[0m
                [1;35m■[0m   [1;35m▀[0;35m░[0;37m [0;35m░▒░[0;37m [0;35m░▀░[0m   [35m░▀░[0;37m [0;35m░[0;37m  [0;35m░▀░[0m   [35m░▀░ ▓[0;37m [0;35m░▒░[0;37m [0;35m░[0;1;35m▀[0m   [1;35m■[0m
-                       [35m░[0m                            [35m░[0m
-
-                   [1;30m        [0m      [1;30mSysop: Pale[0m'
+                       [35m░[0m                            [35m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2a9d2f5b0fef7ede8cbf8683a683fe8f57dd06da93c98bff6107b4a3045c023f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: misfit-blocked.ans by Misfit (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cracked
 # SAUCE Author: Misfit
 # SAUCE Group: Blocktronics
@@ -44,9 +44,9 @@ Write-Host '
 ▄▄▄▄▄▄▄▄▄███▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄███████▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30;47m    [0m
 ████████████████████████████████████████████████████████████████████████████████
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-      [33mBLOCKTRONICS - "The World''s Squarest Computer Art Group Since 1918"[0m
+      [33m                                                                   [0m
 
-                             [33mHumble brag by Misfit.[0m
+                             [33m                      [0m
 
                                    [30m..[0m
 

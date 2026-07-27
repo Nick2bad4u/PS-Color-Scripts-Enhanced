@@ -5,13 +5,13 @@
 # Source SHA-256: 73fe7dd5388f27b472a507e36c94a50b89fde00c4258e31eae0f5a5fe8359b61
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PZCP!OM.ANS by Otium Man (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
 Write-Host '
 
-                       [34m$ⁿⁿⁿⁿⁿⁿ$a.[0m                [34ms$$$ⁿⁿⁿ$a,[0m
+                       [34m          [0m                [34m          [0m
           [34ms$ⁿⁿⁿⁿⁿⁿⁿⁿ$ $ [0;1;35m$$$$[0;35m$$a[0;34m`$$[0m          [34m,s$$$''[0;1;35m,ss[0;35mS$P [0;34m$$[0m
 [34m    s$ⁿ°°$ⁿ''[0;1;35m$$[0;35m$$$$$$[0;34m`$ [0;1;35m$$$$$$$$[0;35m$ [0;34m$[0m       [34m,s$ⁿ°[0;1;35m,sS$$$$$[0;35m$ [0;34m$$[0m
 [34m   $P[0;1;35m,sS[0;35m$a[0;1;35m$$$$$$$$$[0;35m$$ [0;1;35m$$$$ⁿ°°ⁿ$[0;35m$[0;1;34;44m░[0;34m$    s$$ⁿ°[0;1;35m,sS$$$$$$$[0;35m$ [0;34m$$[0m
@@ -27,6 +27,5 @@ Write-Host '
            [34m$a[0;1;35m`$$$$[0;35m$$[0;34m`$$$a[0;1;35m`°ⁿ$[0;35m°[0;34m,$''[0m           [34m$ [0;1;35m$$[0;1;35;45m▒[0;1;35;40m$[0;35m$ [0;34m$a[0;1;35m`[0;35m° [0;34m$ [0;1;35m$$[0;35m$ [0;1;35m`$$$[0;35mSssS[0;1;35m$$[0;35m$''[0;34m,$$[0m
             [1;34;44m▒[0;34ma[0;1;35m`$$[0;1;35;45m░[0;1;35;40m$$[0;35m$sa.[0;34m`$$$s$''[0m             [34ma[0;1;35m`$$$S[0;35mⁿ[0;34m,$`$$$$a[0;1;35m`$[0;35m$ [0;34m$a[0;1;35m`°ⁿ$$$ⁿ[0;35m°[0;34m,sS''[0m
              [34m$a[0;1;35m`$$$$$$[0;35m''[0;34m,$[0m                   [34m`$assS$''[0m      [34m$a[0;1;35m`[0;35m$ [0;34m$ $$$asS$$ⁿ''[0m
-              [34m$a[0;1;35m`$$$''[0;34m,$$[0m        [1;35mp [0;35mr o z a [0;1;35mc[0m                [34m$a[0;35m`[0;34m,$ otium man`97[0m
-              [34m$ⁿ[0;1;35m,$''[0;34m,$$''[0m                                     [34m`$$''[0m
-              [34m`$ssS''[0m       [1;35ma [0;35mn d  u  k n o w  i [0;1;35mt[0m'
+              [34m  [0;1;35m     [0;34m   [0m        [1;35m  [0;35m        [0;1;35m [0m                [34m  [0;35m [0;34m               [0m
+              [34m$ⁿ[0;1;35m,$''[0;34m,$$''[0m                                     [34m`$$''[0m'

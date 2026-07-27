@@ -5,7 +5,7 @@
 # Source SHA-256: 65b9c83d33ea9997f216670d0427c4ba9179346ca6f41c9fc6dfc10548bf407a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mp-son.ans by Meatpod (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-40
 # Columns: 1-80
 
@@ -33,20 +33,4 @@ Write-Host '
                         [31m [0;33m```[0;31m [0m   [31m [0m          [31m      [0;33m`[0;31m└?$$b┐[0;33m.__.,[0;31m┌d$[0;33m''[0;31m   [0;33m```[0;31m    [0;33m``[0;1;31m   [0m
        [1ms t a t e [0;1;33mo f[0;1;37m n e r v o u s n e s s[0m    [1;31m     [0;31m  [0;33m`[0;31m"└*?$$$P┘[0;33m''[0;31m             [0;1;30mmp.[0m
 
-[cut here]-8X-------------------------------------------------------------------
-
-hmm... let''s see... dah dah dah, who is this for? oh yes. revolve. revolution?
-i forget the way you spell your handle. at any rate, this is for you, dougie.
-
-state of nervousness. i thought about using colors that would make a person
-feel nervous just looking at it, but then I thought that would be wack. they''ll
-feel nervous anyway. for your reading pleasure (mostly scott''s), here is a
-comic:
-
-"[1mbefore I had these good eyes, I had eyes that weren''t so good.[0m"
-"[1mI have good eyes.[0m"
-                                              [30mgive me a tickle, man![0m
-[37mnot laughing? don''t worry.[0m
-[37mpeace to all those involved.[0m
-
-[37mmeatpod[0m'
+[cut here]-8X-------------------------------------------------------------------[0m'

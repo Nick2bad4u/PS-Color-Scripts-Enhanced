@@ -5,7 +5,7 @@
 # Source SHA-256: 3eb13e18553beb98ef11bf2ceaf151cbb9eb1043596f1183beaee8f35c5ea816
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CUAL.ANS by El ReVueLTa (C.L.S); released in cls-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: (Cu l hay?                   (MENU)
 # SAUCE Author: El ReVueLTa
 # SAUCE Group: C.L.S
@@ -16,12 +16,12 @@
 
 Write-Host '
       [1;30maNSi por[0m       [1;34m┌───────────────────────────────────┐[0m
-[1;30mEl ReVueLTa / C.L.S  [0;1;34m│[0m        [1;33mE[0;1;31ml [0;1;33mN[0;1;31mo[0;31mmbre [0;1;33md[0;1;31me[0;31ml [0;1;33mM[0;1;31me[0;31mnu[0m         [1;34m│[0m
+[1;30m                     [0;1;34m│[0m        [1;33m [0;1;31m  [0;1;33m [0;1;31m [0;31m     [0;1;33m [0;1;31m [0;31m  [0;1;33m [0;1;31m [0;31m  [0m         [1;34m│[0m
 [1;34m  [0;32m┌──────────────────[0;1;30m┴[0;32m───────────────────────────────────[0;1;30m┴[0;32m──────────────────┐[0m
 [32m  │[0m                                                                         [32m│[0m
-[32m  │    [0;1;37mAcá adentro van las  opciones que se te canten.[0m                      [32m│[0m
-[1;34m┌─[0;1;30m┤   [0;1;37mYo lo uso para elegir una cancion para pedir chat con el COMBADGE.PEX [0;1;30m├─[0;1;34m─[0m
-[1;34m│ [0;32m│[0m                                       [1;37m(Borrá este texto feo!)[0m           [32m│[0m
+[32m  │    [0;1;37m                                               [0m                      [32m│[0m
+[1;34m┌─[0;1;30m┤   [0;1;37m                                                                      [0;1;30m├─[0;1;34m─[0m
+[1;34m│ [0;32m│[0m                                       [1;37m                       [0m           [32m│[0m
 [1;34m│ [0;32m│[0m                                                                         [32m│  [0;1;34m│[0m
 [1;34m│ [0;32m└─────────────────────────────────────────────────────────────────────────┘  [0;1;34m│[0m
 [1;34m│[0m                                                                              [1;34m│[0m

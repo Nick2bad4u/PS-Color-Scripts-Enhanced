@@ -5,7 +5,7 @@
 # Source SHA-256: e13bf45c11eab5b256d931ee6bc2753bd6f853618bfc4b1db38cacc42afe6cda
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UM-MLTDN.ANS by Umbro (pois0794); released in pois0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-88
 # Columns: 1-80
 
@@ -34,7 +34,7 @@ Write-Host '
 ██████▌▐██████ ██████[1;30m▐██▀ [0m██████[1;30m▐█▀ [0m██████ ██████[1;30m▐█   [0m▀█▄ [1;30m█▀   [0m▐[1;30m▐██▌[0m▌ ▐████▌ [1;30m█[0m▐
 
 
-   [1;30mAnsi b[0my Umbr[1mo (c) ''94  -  POiSON P[0mroDuc[1;30mTionS[0m
+   [1;30m      [0m      [1m                      [0m     [1;30m     [0m
 
 
 
@@ -43,7 +43,7 @@ Write-Host '
 
                                     [1;34mT[0;34m.[0;1;34mL[0;34m.[0;1;34mM[0m
 
-          [1;34m▲[0;34m▼ [0;1;37m612∙881∙2390 [0;1;34m▼[0;34m▲ [0;1;37m1OOo Megabytes [0;1;34m▲[0;34m▼ [0;1;37mSysop . Culture Vain [0;1;34m▼[0;34m▲[0m
-              [1;34m▼[0;34m▲ [0;1;37mCoSysop . The Guyver [0;1;34m▲[0;34m▼ [0;1;37mSabrE Distrobution Site [0;1;34m▼[0;34m▲[0m
-                 [1;34m▲[0;34m▼ [0;1;37mRaid Distrobution Site [0;1;34m▼[0;34m▲ [0;1;37mWwc Member Board [0;1;34m▲[0;34m▼[0m
-                     [1;34m▲[0;34m▼ [0;1;37m187 North HQ [0;1;34m▼[0;34m▲ [0;1;37mPOiSON Distro Site [0;1;34m▼[0;34m▲[0m'
+          [1;34m▲[0;34m▼ [0;1;37m             [0;1;34m▼[0;34m▲ [0;1;37m               [0;1;34m▲[0;34m▼ [0;1;37m                     [0;1;34m▼[0;34m▲[0m
+              [1;34m▼[0;34m▲ [0;1;37m                     [0;1;34m▲[0;34m▼ [0;1;37m                        [0;1;34m▼[0;34m▲[0m
+                 [1;34m▲[0;34m▼ [0;1;37m                       [0;1;34m▼[0;34m▲ [0;1;37m                 [0;1;34m▲[0;34m▼[0m
+                     [1;34m▲[0;34m▼ [0;1;37m             [0;1;34m▼[0;34m▲ [0;1;37m                   [0;1;34m▼[0;34m▲[0m'

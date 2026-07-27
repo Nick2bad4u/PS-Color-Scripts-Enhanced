@@ -5,7 +5,7 @@
 # Source SHA-256: c29ad13466cd59383ddc36394b024bf9af185a4577335667939eede442da9bb0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW_BD.ANS by black weasel (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BD: "make your brain feels damaged"
 # SAUCE Author: black weasel
 # SAUCE Group: boil
@@ -39,17 +39,16 @@ Write-Host '
     [1;31m▄▄[0;31m▄  ▀[0;1;31;41m▀[0;1;31;47m▓▓[0;1;31;41m▄[0;31m▄[0;37m [0;31m▄[0;1;31;41m▄[0;1;31;47m▓▓▓[0;1;31;41m▀[0;31m█▀▐▓▓▓░░░[0;37m  [0;1;31m░[0;1;31;41m▓▓▓▀[0;31m▀▀[0m         [31m▐[0;1;31;47m▓▓█[0;31m▌ [0;1;31;47m▓▓[0;1;31;41m▄[0;31m▄[0;37m [0;34m▐[0m       [34m▀▀   [0m
     [1;31;47m▓▓▓[0;1;31;41m█▄[0;31m▄▐[0;1;31;41m▐▓▓[0;31m▓▐[0;1;31;47m▓[0;1;31;41m▀[0;1;31;40m▀[0;31m▀▀  ▄██[0;1;31m▒▒[0m      [1;31m░░░[0m             [1;31;41m▓▓▓[0;31m▓    ▀▌[0m   [36m([0;35mbw_[0;36m)[0m   [34m▀▌ [0m
        [31m     ░░░[0m                                   [1;31m░░░[0;31m░[0m
-[35m::[0;36mgreets out to:[0m
-[36m  aqua, [0;35massign,[0;36m avenger,[0;35m blade, [0;36mblaze, [0;35mbizzarro, [0;36mbuster, [0m
-[36m  [0;35mcaynan,[0;36m cyberd, [0;35mcirion, [0;36mdrynwhyl, [0;35mdv8,[0;36m eerie,[0m
-[36m  [0;35mfastjack,[0;36m faXe, [0;35mjerusalem,[0;36m jey,[0;35m junk, [0;36mkyp, [0;35mlate riser,[0;36m leonardo, [0m
-[36m  [0;35mlord chaos,[0;36m milkman, [0;35mmr4tune,[0;36m nail, [0;35mnemo, [0;36mnoize,[0;35m outraider, [0;36mpandur,[0;35m phonyeye,[0m
-[35m [0;36m poti, [0;35msamurai,[0;36m scope, [0;35mshadow,[0;36m shaft,[0;35m shaitan,[0;36m spice,[0;35m spock,[0m
-[35m  [0;36mthe unsconsciousness,[0;35m tricycle, [0;36mtoot, [0;35muniverse, [0;36mwarhawk[0m
+[35m  [0;36m              [0m
+[36m        [0;35m       [0;36m         [0;35m        [0;36m       [0;35m          [0;36m        [0m
+[36m  [0;35m       [0;36m         [0;35m        [0;36m          [0;35m    [0;36m       [0m
+[36m  [0;35m         [0;36m       [0;35m          [0;36m     [0;35m       [0;36m     [0;35m           [0;36m           [0m
+[36m  [0;35m           [0;36m          [0;35m        [0;36m       [0;35m      [0;36m      [0;35m            [0;36m       [0;35m          [0m
+[35m [0;36m       [0;35m        [0;36m        [0;35m       [0;36m       [0;35m         [0;36m       [0;35m       [0m
+[35m  [0;36m                     [0;35m           [0;36m      [0;35m          [0;36m       [0m
 
 [36m         ____                           __/\__           ____ ___        .[0m
 [36m  ______/  .__ ________       ______    \ ss /    ______/  _//__/ --/\__/----.[0m
 [36m  \    /_______\\     /_______\__  /_cLS/____\ __ \\   /  /___               |_[0m
 [36m ss\   ______ ___.   ___  ______/ __    _____/_____\   \     /sss  ([0;35mboil[0;36m)    _/[0m
-[36m """\__________\"\  /"""\________/""\\__________________\  //""""           _|[0m
-[36m   [0;1;33m_black weasel[0;36m  \/  ([0;35mboil[0;36m)            [0m   [36m              \// [0;35mbw_[0;1;33m@[0;35mgmx.net[0;36m ?--\-[0m'
+[36m """\__________\"\  /"""\________/""\\__________________\  //""""           _|[0m'

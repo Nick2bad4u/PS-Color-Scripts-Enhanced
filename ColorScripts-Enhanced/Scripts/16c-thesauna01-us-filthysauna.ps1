@@ -5,7 +5,7 @@
 # Source SHA-256: e1c325c619863a55212b550cc3d29886c290413c3796d286fba49eb8c4d8fa27
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-filthysauna.ans by Filth + Avenging Angel (sauna); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: filthy sauna
 # SAUCE Author: avg + fil
 # SAUCE Group: sauna
@@ -50,7 +50,4 @@ Write-Host '
         [1;34m▀▀[0;1;34;44m▀▀▀▀[0;1;34;40m▀        [0;1;30;40m·[0;1;34;40m▀[0m█[1;34;47m■[0m▄    ▄[1;47m  [0m▀[1;30m▀▀▀▀[0m   ▀[1;47m ■[0m▄▄▄▄▄▄██[1;34;44m▀[0;1;34;40m▀▀[0;34m▀▀▀▀[0m
 [37m                         [0;1;30m■[0m▀███[1;47m   [0m▀[1;30m▀[0m         [1;30m▀[0m▀[1;47m  [0m████▀[1;30m▀[0m
                            [1;30m▀[0m▀[1;30;47m▄▄[0m▀               [1;30m▀▀▀▀[0m
-                                                     [31m5 4 U N 4 -[0m
-
-
-[37m                              [0;31mANSI BY[0;1;34m [0;31mFILTHY VAG[0m'
+                                                     [31m5 4 U N 4 -[0m'

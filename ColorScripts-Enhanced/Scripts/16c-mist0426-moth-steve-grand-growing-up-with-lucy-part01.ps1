@@ -5,7 +5,7 @@
 # Source SHA-256: 6b0fc32a608379b2e9f2c5b5e6c2a07a67ddf24d181a32aa5d423cedb11ed0de
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MOTH-STEVE_GRAND-GROWING_UP_WITH_LUCY.ANS by Moth (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Growing Up With Lucy
 # SAUCE Author: Moth
 # SAUCE Group: Mistigris
@@ -29,8 +29,8 @@ Write-Host '
 [37;40m            [0;35;40m■[0;37;40m [0;35;40m■[0;37;40m   [0;35;40m■■■[0;37;40m    [0;35;40m▀[0;37;40m    [0;35;40m■[0;37;40m   [0;35;40m■[0;37;40m         [0;35;40m▀■■■■[0;37;40m   [0;35;40m■■■[0;37;40m    [0;35;40m■■■[0;37;40m    [0;35;40m▀[0m
 
 
-[37;40m                           [0;1;33;40mHow to Build an Android[0m
-                             [1;33min Twenty Easy Steps[0m
+[37;40m                           [0;1;33;40m                       [0m
+                             [1;33m                    [0m
 
 
 

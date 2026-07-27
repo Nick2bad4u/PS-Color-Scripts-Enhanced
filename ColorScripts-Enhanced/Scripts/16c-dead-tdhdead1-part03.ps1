@@ -5,7 +5,7 @@
 # Source SHA-256: c8fb5ec4a9919adbe25d831840451fa78ddcf4f0ce9224175dfb7343a4d02db5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TDHDEAD1.ANS by Manslaughter (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 99-135
 # Columns: 1-80
 
@@ -35,14 +35,14 @@ Write-Host '
               [31m█▓▓░▓   ▓░▒▓█ █▓▓▓▓▓█ █▓▓▓▓▓▓█  █▓▓▓▓▓▓▓▓▓▓▓█  █▓▒▒▓█[0m
               [31m█▓▓░▓   ▓░▒▓█ ▀█████▀ ▀██████▀  ████████████   ██████[0m
 
-                              [1;37mANSI:MANSLAUGHTER:DeAD[0m
+                              [1;37m                      [0m
 
                              [31m┌──[0;1;31m──────[0;1;37m─────[0;1;31m─────[0;31m──┐[0m
-                             [31m│    [0;1;37mTHE DARK HALF   [0;31m│[0m
-                             [1;31m│[0;1;37mSysop: Shadow Knight[0;1;31m│[0m
-                             [1;37m│   Cosys: Jaelithe  │[0m
+                             [31m│    [0;1;37m                [0;31m│[0m
+                             [1;31m│[0;1;37m                    [0;1;31m│[0m
+                             [1;37m│                    │[0m
                              [1;37m│    510-658-2746    │[0m
-                             [1;37m│    Nup: Warlock    │[0m
-                             [1;31m│   [0;1;37mRunning Prism    [0;1;31m│[0m
-                             [31m│[0m     [1;37mPrism Net[0m      [31m│[0m
+                             [1;37m│                    │[0m
+                             [1;31m│   [0;1;37m                 [0;1;31m│[0m
+                             [31m│[0m     [1;37m         [0m      [31m│[0m
                              [31m└───[0;1;31m─────[0;1;37m────[0;1;31m─────[0;31m───┘[0m'

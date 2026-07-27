@@ -5,7 +5,7 @@
 # Source SHA-256: ffa403c84d16c24257d08d3728530ce1b22a6595f5d35c40cdde162e35e3c366
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!SHELL.ANS by sIMONkING (thelo0p); released in l0p18_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: shellzone
 # SAUCE Author: sIMONkING
 # SAUCE Group: thelo0p
@@ -33,7 +33,4 @@ Write-Host '
 [1;30;40m [0;1;33;40m░░[0;33m▀▀▀▀▀[0;1;30m [0;33m▐[0;1;33;43m▀▀▀[0;33m [0;1;30m [0;33m░▀▀▀ [0;1;30m▓▓[0;33m ░▀▀▀▀▀[0;1;30m [0;33m▀[0;1;33;43m▀▀▀[0;33m ▀[0;1;33;43m▀▀▀[0;33m▓▓▓▀▀▀▀▀ [0;1;30m█▄[0;33m [0;1;33m▀[0;1;33;43m▀▀[0;1;33;40m▀[0;33m [0;1;30m▄█[0;33m▐[0;1;31;43m▀▀▀[0;33m▌[0;1;30m▀[0;33m ▀▀▀▀[0;1;30m ▀▄[0;33m ▀▀▀▀▀▀ [0m
 [33m     [0;1;30m▀▀▀▀[0;33m ░░░ [0;1;30m [0;33m  [0;1;30m▀▀▀▀▀[0;33m   [0;1;30m▀▀▀▀▀[0;33m  [0;1;30mshe[0;33mll[0;1;30mzone[0;33m  [0;1;30m▀▀▀▀▀▀▀▀[0;33m    [0;1;30m▀▀▀[0;33m ░░░ [0;1;30m▀▀▀▀▀▀▀  ▀▀▀▀▀▀[0;33m  [0m
 [37m                                                                                [0m
-[1;30m-----------------------------------------------------------------/cuthere/-----[0m
-[1;30mshading/outlines/bg by simonking/thelo0p[0m
-[1;30mrequested by crg/?[0m
-[1;30mcontact: simonking@poczta.onet.pl[0m'
+[1;30m-----------------------------------------------------------------/cuthere/-----[0m'

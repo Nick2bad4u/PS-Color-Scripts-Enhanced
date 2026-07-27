@@ -5,7 +5,7 @@
 # Source SHA-256: f36c555aaf4bf204fa98ec887354b7785170604564a1cc73e9a0e86f92fff828
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NOCHDAN1.ANS by Noches (sense10j); released in sense10j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: danonekrue
 # SAUCE Date: 20020803
 # SAUCE Dimensions: 80x23
@@ -27,11 +27,4 @@ Write-Host '
 [1;37m [0;1;30;47m▀[0;1;30;40m▄[0;1;37;40m   [0m▀[1m▀▀[0;1;30m▀[0;34m  [0;1;37m [0;1;37;47m███[0m▀[1m [0;34m    [0;1;37m   [0;1;30m▒[0;1;37m▓▓▓▓[0m                  [34m▄[0;1;34;44m▄[0;34m▄[0m   [34m   ▐[0;37m [0;34m▄█[0;1;34;44m▄[0;34m▄[0m
 [1;37m [0;34m   [0;1;34;44m▄[0;34m▄   ▄ [0;1;30m [0;34m [0;1;30m  [0;1;37m [0;34m        [0;1;37m [0;1;30m▒▒▒▒▒[0m                   [34m▀ [0;37m  [0;34m█▄▒[0;37m [0;34m▐ ▀[0;1;34;44m▀▀[0;34m▀[0m
 [34m    [0;1;30m    [0;34m▀[0;1;34;44m▀[0;34m▀             [0m                       [34m        █ ▐[0m
-    [1;30m    [0;34m         [0m    [34m                                  [0;1;34;44m▄ [0;34m▀[0m
-[1;30m     [0m   [34m [0;37m [0;34m [0m
-[1;30m [0m
-[1;30mnoch here >phz yo[0m
-[1;30mdanone no.3  soon send your guest a s c i i[0m
-
-[1;30mremixme.[0m [1;30m      [0m
-[1;30m [0m           [1;30m  [0m'
+    [1;30m    [0;34m         [0m    [34m                                  [0;1;34;44m▄ [0;34m▀[0m'

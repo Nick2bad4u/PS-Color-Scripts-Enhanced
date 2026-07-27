@@ -5,12 +5,12 @@
 # Source SHA-256: cb1b0543590b1274817f97de7de93a93827a2005a25fb208d9e9364c96435004
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dr-masc.ans by Dr Shizuma (mimic25); released in mimic25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
 Write-Host '
-    [1;30m   [0;1;37m [0;1;30mll[0;35mlllllllll[0;37m [0;1;30m ;[0m          [1;30m   . [0m               [1;30m [0;32m .[0m       [1;30m /[0m  [1;30m [0m     [32m.[0;37m  [0;1;30m [0m   [1;30m,[0m
+    [1;30m   [0;1;37m [0;1;30m  [0;35m         [0;37m [0;1;30m  [0m          [1;30m     [0m               [1;30m [0;32m  [0m       [1;30m  [0m  [1;30m [0m     [32m [0;37m  [0;1;30m [0m   [1;30m [0m
     [1;30m  ;[0m [33ml$[0;1;31m$$$$$$$$$[0m [1;30m [0;33m:.[0;1;30m..∙∙∙∙ [0m                      [1;33m [0;1;30m [0m [1;33mb,[0m    [1;30m.[0;1;32m, ,[0m [1;30m [0m  [32m.d[0;37m [0;1;33m;[0;1;30m,  [0;1;33m_[0;1;32m,[0;32md[0m
 [33m..[0;1;30m--∙` [0m [33m;$[0;1;33m$$$$[0;1;37m$$$$[0;1;31m$[0m      [1;31m__..,,  [0;1;30m   ;[0m               [1;33m [0m [1;30m=[0;32m$[0;1;33m$[0;1;37mb,[0;1;30m=[0;1;33m,\$[0;1;30m=[0;1;37m$b[0;1;33ml[0;1;30m=[0;1;32m,[0;1;33md[0;32m$[0;1;30m=[0;1;33md$$$[0;32m$$l[0;1;30m=[0m
     [1;31m,¬[0;1;33msS$[0;1;37m$$$$$$$$$[0m$[33m.\$[0;1;31m$┼┼$$$[0;1;33m$$[0;1;31m$[0;1;37m [0;1;30m __[0;33m.;[0;37m [0;35ml,[0;33m.[0;37m  [0;1;30m ;.[0;33m.[0;1;30m∙∙∙[0m [1;37m [0;1;33m [0m  [32m;[0;1;33m$[0;1;37m$$$$[0;1;32m$[0;1;33m$ $$$v$$[0;32m$[0;1;32m [0;1;33m$[0;1;32m$[0;32ml[0;1;30m`[0m   [32m,[0m

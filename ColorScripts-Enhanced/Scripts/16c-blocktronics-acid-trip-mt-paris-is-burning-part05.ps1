@@ -5,7 +5,7 @@
 # Source SHA-256: 762d354f79865165fba5f360dc6735835af9c95c8afb7d9cec3cdb57fa43686c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: mt-paris_is_burning.ANS by Misfit (ACiD Productions); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Paris is Burning
 # SAUCE Author: Misfit
 # SAUCE Group: ACiD Productions
@@ -42,19 +42,19 @@ Write-Host '
 
                    [1mB L O C K T R O N I C S [0mW O R L D T O U R
 
-             [1;30m"[0;31mParis is Burning[0;1;30m"[0;31m by James Bodie [0;1;30m/[0;31m Misfit[0;37m [0;1;30m[[0;31mACiD [0;1;30m-[0;31m B7[0;1;30m][0m
+             [1;30m [0;31m                [0;1;30m [0;31m                [0;1;30m [0;31m       [0;37m [0;1;30m [0;31m     [0;1;30m [0;31m   [0;1;30m [0m
 
-                      [1;30mfor Demosplash 2013 - Pittsburgh, PA[0m
-
-
+                      [1;30m                                    [0m
 
 
 
-                            [31mwww[0;1;30m.[0;31mbodhitreestudio[0;1;30m.[0;31mcom[0m
 
-[37m                             [0;31mwww[0;1;30m.[0;31mblocktronics[0;1;30m.[0;31morg[0m
 
-[37m                             [0;31mwww[0;1;30m.[0;31msixteencolors[0;1;30m.[0;31mnet[0m
+                            [31m   [0;1;30m [0;31m               [0;1;30m [0;31m   [0m
+
+[37m                             [0;31m   [0;1;30m [0;31m            [0;1;30m [0;31m   [0m
+
+[37m                             [0;31m   [0;1;30m [0;31m             [0;1;30m [0;31m   [0m
 
 
 

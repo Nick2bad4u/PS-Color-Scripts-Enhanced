@@ -5,7 +5,7 @@
 # Source SHA-256: 8376e8a3d4a236407d78cb23976e3c98693ab220b860e56e234462f191ae4e17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: U7%NOCT_.ANS by _undertaker (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nocturnal desire
 # SAUCE Author: _undertaker
 # SAUCE Group: fusion
@@ -43,22 +43,7 @@ Write-Host '
 
 ░░
 
-[1mnotes ''n'' so:[0m
-thanx for that cool  ascee <g>
-no really, it was pretty nice with that BIG ''u''..
---
-baphomets  [1mnocturnal desire[0m   .. wanna have your own ansi/23liner/logo?
-email me @: [1mjohan.soderberg@gotland.mail.telia.com[0m
-i don''t take so "much" free requests anymore.
-buy one for some bucks, or draw me something
-for my board > [1mthe outpost[0m
-
-              [1m  [0m
-[1m!READ!READ![0m   [1m  [0m
-
-all you who hasn''t got your logos, pics, 23liners , whatever..
-you gotta wait some more cuz i am fucking lazy, and i got that
-school thingy to think about to. i''ve picked out the best
-logos ''n'' stuff that i drew this month cuz i wanted to do a
-good release, not a such lame one like the april pack <g>
-so hold out , you''l get your stuff--[0m'
+[1m             [0m
+                              
+                                                 
+--[0m'

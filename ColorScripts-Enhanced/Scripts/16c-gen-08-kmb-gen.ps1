@@ -5,7 +5,7 @@
 # Source SHA-256: 2ea4e6b66ef3e8afc58b810bd8b3f2877575447051d2208187e2274ce6de9826
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: kmb-gen.ans by Kumb4 (gen-08); released in gen-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -40,9 +40,4 @@ Write-Host '
 [32m░[0;30;42m▓[0;32;40m░[0;37;40m [0;32;40m░[0;30;42m▓[0;37;40m [0;30;42m▓░[0;32;40m▓[0;30;42m░[0;32;40m█[0;1;36;42mG[0;32m█ [0;36menuine   [0m       [31m▀▀[0m           [33m  [0m
                            [32m▀[0;31m▀[0m
 
-[1;37m--(KAT)--[0m
-
-[1mWell my first release in my first group EVER , very exciting for me , I hope [0m
-[1myou like my style and I take requests + commentz at [0;1;33mKumba_28@yahoo.com[0m [1m.[0m
-[1mBig thanku`z to ZEROVISION & ARGON & CATCH22 for their help and tips ,10x Guyz ![0m
-[1mAnd to the Genuine crew Ofcuz ...[0m [1mMay we rock on 2000[0m'
+[1;37m--(KAT)--[0m'

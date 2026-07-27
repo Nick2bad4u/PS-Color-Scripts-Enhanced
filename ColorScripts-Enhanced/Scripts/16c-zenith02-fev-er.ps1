@@ -5,7 +5,7 @@
 # Source SHA-256: 1dc00d353c28667203eed33a9bf7f965d082670685a0d94c736f9c4dac4091f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FEV-ER.ANS by Fever (Zenith); released in zenith02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fluph BBS
 # SAUCE Author: Fever
 # SAUCE Group: Zenith
@@ -39,6 +39,4 @@ Write-Host '
 [1;30m [0m [1;34m█[0m [1;34m ▄■[0m  [1;34m█▓[0m  [1;34m▐█[0m  [1;34m█[0;1;34;47m▓[0;1;34;40m▌▐▌[0m     [30;41m▄[0;1;31;40m█[0;1;31;47m███[0;1;31;40m██▄▄▄███[0;1;31;47m▓▓█[0;1;31;40m▀[0m     [1;34m▐[0m [1;34m█[0m  [1;34m█▓[0m  [1;34m█▌[0m  [1;34m███[0;1;34;47m▓[0;1;34;40m▄▀[0;1;34;47m█▄▀▀[0;1;34;40m█▄▄▄[0m
  [1;34m▐▌[0m     [1;34m▐▓[0m   [1;34m█[0m  [1;34;47m█▓[0;1;34;40m█[0m [1;34m█▌[0m    [31m▐[0;1;31;41m▓[0;1;31;40m█[0;1;31;47m████[0;1;31;40m██▄▄▄██████[0m     [1;34m▐▌[0m [1;34m█[0m  [1;34m█▓[0m [1;34m█▌[0m   [1;34m█▌█[0;1;34;47m▒[0;1;34;40m▓[0m [1;34m▀▀[0;1;34;47m█▄▄░▀▀▀▀▀[0m
  [1;34m▐▌[0m [1;34m▄▄▀[0m [1;34m▐[0m [1;34m░▌▐▌[0m [1;34m█[0;1;34;47m░▐[0;1;34;40m▌[0m [1;34m█[0m      [1;31;41m░▓[0;1;31;40m██[0;1;31;47m████[0;1;31;40m████████▌[0m      [1;34m▌[0m [1;34m▐▌[0m [1;34m▐[0m [1;34m▐█ [0m   [1;34m▐▓[0m [1;34m█[0;1;37;44m░[0;1;34;40m▓[0m    [1;34m▀▀[0;1;34;47m▓▓▓▓▓[0m
-  [1;34m▌[0m [1;34m▀[0m    [1;34m▐█[0m [1;34m▐[0m [1;34m▐[0;1;34;47m▌░[0;1;34;40m▓[0m [1;34m▐▓[0m      [31m▐[0;1;31m█████[0;1;31;45m█████[0;1;31;40m█████[0m       [1;34m█[0m  [1;34m█[0m  [1;34m▄▀[0m      [1;34m█▌[0m [1;34m█[0;1;37;44m░[0;1;34;40m▓[0m [1;34m ▓▄▄[0m   [1;34m▀▀[0m
-
- Original textmode drawing for phluph bbs[0m'
+  [1;34m▌[0m [1;34m▀[0m    [1;34m▐█[0m [1;34m▐[0m [1;34m▐[0;1;34;47m▌░[0;1;34;40m▓[0m [1;34m▐▓[0m      [31m▐[0;1;31m█████[0;1;31;45m█████[0;1;31;40m█████[0m       [1;34m█[0m  [1;34m█[0m  [1;34m▄▀[0m      [1;34m█▌[0m [1;34m█[0;1;37;44m░[0;1;34;40m▓[0m [1;34m ▓▄▄[0m   [1;34m▀▀[0m'

@@ -5,21 +5,21 @@
 # Source SHA-256: e1c3fe6587f87d2f1fcc34b7d4230fc95035ad8075f99b4990cdb2f2882f8431
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TP-ENIGM.ANS by Technophreak (blde9407); released in blde9407 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 99-143
 # Columns: 1-80
 
 Write-Host '
 ▀■ [1;30mT[0mP''[1;30ms G[0mr[1me[0met[1;30mz: ■▀[0m
-[1;30mM[0min[1mdCrime: Shit, we are havin fun now![0m
-[1;30mS[0mou[1ml Seeker: Killer ANSi''s...[0m
-[1;30mF[0men[1mric: Keep workin doode![0m
-[1;30mC[0mor[1mruption: Hey man...[0m
-[1;30mE[0mmp[1m: Join us, its your destiny...:)[0m
-[1;30mF[0mfe[1mj: Keep coding man....[0m
-[1;30mJ[0man[1mzic Darkness: Nice lit, keep up the fine job.[0m
-[1;30mM[0mor[1mpheus: Thanx for the support![0m
-[1;30mA[0mll [1mthe other cool guys, cya around...[0m
+[1;30m [0m  [1m                                   [0m
+[1;30m [0m  [1m                          [0m
+[1;30m [0m  [1m                       [0m
+[1;30m [0m  [1m                   [0m
+[1;30m [0m  [1m                                [0m
+[1;30m [0m  [1m                      [0m
+[1;30m [0m  [1m                                             [0m
+[1;30m [0m  [1m                             [0m
+[1;30m [0m   [1m                                  [0m
 
 
 
@@ -39,18 +39,18 @@ Write-Host '
 
    [1mE[0m       N       [1mi[0m       G       M       A
    [1m[.4.0.8.]..4.8.4..2.0.5.8. / S[0mysOp [1m: [0mRyunosuke
-[1mAf[0mfiliations [1m-[0m
-[1m   A[0mlive Distribution Site [1m/ Blade [0mDistribution Site [1m/ C[0mrisis Distribution Site
-   [1mD[0moA Distribution Site [1m/ G[0maT Distribution Site [1m/ R[0mEM Distribution Site
-   [1mV[0misual Insanity Western Headquarters [1m/ I[0mnsomania Distribution Site
-   [1mB[0mlur Distribution Site [1m/ A[0mpex United States Headquarters [1m/ T[0mSC Western HQ
-   [1mU[0mnited Programmers Alliance Temp. WHQ [1m/ R[0madian United States Headquarters
-[1mNe[0mtworks [1m-[0m
-[1m   M[0malicious Revelation Int''l WHQ [1m[[0m385:10/0[1m] / I[0mnfinet Int''l Node [1m[[0m69:400/351[1m][0m
-[1m   Q[0muantumNet Node [1m[[0m7:408/0[1m] / D[0miehard Youth Net Node [1m[[0m99:408/0[1m][0m
-[1m   S[0mtaticNet Node [1m[[0m92:100/102[1m][0m
+[1m  [0m           [1m [0m
+[1m    [0m                       [1m        [0m                  [1m   [0m                       
+   [1m [0m                     [1m   [0m                     [1m   [0m                    
+   [1m [0m                                    [1m   [0m                          
+   [1m [0m                      [1m   [0m                               [1m   [0m             
+   [1m [0m                                     [1m   [0m                                
+[1m  [0m       [1m [0m
+[1m    [0m                              [1m [0m        [1m     [0m                  [1m [0m          [1m [0m
+[1m    [0m               [1m [0m       [1m     [0m                      [1m [0m        [1m [0m
+[1m    [0m              [1m [0m          [1m [0m
 
 
 [1;30m─ ──  ────────────────────[0m                                   [1;30m─────────────  ── ─[0m
-[31mUN[0;35mi[0;31mON [0;1;30mb[0my [1;30mT[0mechnoPhreaK                                 ([1;30mc[0m)[31mBL[0;35m/┤[0;31mDE [0;1;30mP[0mroductions [31m1994[0m
+[31m  [0;35m [0;31m   [0;1;30m [0m  [1;30m [0m                                             [1;30m [0m [31m  [0;35m ┤[0;31m   [0;1;30m [0m           [31m    [0m
 [1;30m─ ──  ────────────────────────────────────────────────────────────────────  ── ─[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a50303f37f23b74ae079eb99dfea6a5afe7a2a638d307127bf5db942b3da2d44
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KM-SKEL.ICE by King Midas (ice-9406); released in ice-9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 185-232
 # Columns: 1-80
 
@@ -51,9 +51,9 @@ Write-Host '
 [1;30m▐[0;1;30;47m▌[0m██████[1;30;47m▄[0m▀[1;30m▀░ [0m█▌▐ █ [1;30m░▀[0;1;30;47m▄[0m████[1;30;47m▐[0;1;30;40m▌  [0;1;33;40m░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░[0m
 [1;33;40m [0;1;30;40m▀[0;1;30;47m▄[0m█[1;30;47m▄[0m▀[1;30m▀  ░▒▓[0m▐█ ▐ ▐▌[1;30m▓░ ▀[0;1;30;47m▄[0m█[1;30;47m▄[0;1;30;40m▀[0m
 [1;30;40m   ▀   [0;1;37;40m▄█▄ [0;1;30;40m░░[0m▀▀  ▀[1;30m░░ [0;1;37m█▄ [0;1;30m▀   Yo, whassup all. I''ll spare the greets, cause I am[0m
-       [1;37m▐█▌▐▌▄ ▄ ▄ ▄▐▌█▌[0m     [1;30mrunning low on time. Anyhow, if you wanna ansi,[0m
-        [1;37m▀   ▀ ▀ ▀ ▀  ▀[0m      [1;30m(yes you have to pay you po folk) then you can call[0m
+       [1;37m▐█▌▐▌▄ ▄ ▄ ▄▐▌█▌[0m     [1;30m                                               [0m
+        [1;37m▀   ▀ ▀ ▀ ▀  ▀[0m      [1;30m                                                   [0m
 █████ ███ █      █ ███ ███  [1;30mme, or get someone on internet to mail me. My vmb[0m
-▀ █ ▀ █ █ █      █ █ ▀ █ ▀  [1;30mis still up, but don''t call because a certain[0m
-[1;30m  [0m█   █▄▀ █ er.. █ █ ▄ █▀   [1;30mperson hacked it.. cough cough Absolute Zero cough[0m
+▀ █ ▀ █ █ █      █ █ ▀ █ ▀  [1;30m                                             [0m
+[1;30m  [0m█   █▄▀ █      █ █ ▄ █▀   [1;30m                                                  [0m
 [1;30m  [0m█   █ █ █      █ ███ █▄█      [1;30m.. Yeah sure Craig I believe you...  ;)[0m'

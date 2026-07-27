@@ -5,13 +5,13 @@
 # Source SHA-256: 526ceddfdeb7b434db05331adca8570b85bf166c8c8e258298d122abb3388a8d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PD-TSS2.ANS by Pd (phar0796); released in phar0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
 Write-Host '
 
-                     [31;44mw[0;1;31;44me[0;1;35;44ml[0;33;44mi[0;36;44mk[0;32;44me[0;1;32;44mt[0;1;35;44mh[0;1;33;44me[0;1;37;44mt[0;1;36;44mr[0;35;44mi[0;31;44mp[0;1;31;44mp[0;36;44my[0;33;44ms[0;1;34;44mt[0;32;44mu[0;31;44mf[0;1;31;44mf[0m
+                     [31;44m [0;1;31;44m [0;1;35;44m [0;33;44m [0;36;44m [0;32;44m [0;1;32;44m [0;1;35;44m [0;1;33;44m [0;1;37;44m [0;1;36;44m [0;35;44m [0;31;44m [0;1;31;44m [0;36;44m [0;33;44m [0;1;34;44m [0;32;44m [0;31;44m [0;1;31;44m [0m
 
                     [36m▄▓█▄ ▄[0;1;36;46m░░[0;36m█████████▄ [0;32m     [0m
                      [36m▀▀▄[0;1;36;46m░▒░▒▄[0;36m▓▓▓▓▓▄███▌[0;32m▄██▀▀█[0;1;33;42m▄▄[0;32m▄[0m

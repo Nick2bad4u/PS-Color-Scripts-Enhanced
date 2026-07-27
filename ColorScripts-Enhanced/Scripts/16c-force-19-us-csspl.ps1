@@ -5,7 +5,7 @@
 # Source SHA-256: 741a4d2709dc434bf24aed6d62284ad07a0eb088fcdd4f460dfd307f72835fe5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US!CSSPL.ANS by Rzarector + Dangermouse (force); released in force-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cesspool
 # SAUCE Author: rz & dm!
 # SAUCE Group: force
@@ -39,11 +39,4 @@ Write-Host '
 
 
 
-[1;30m+------------------------------------------------------------------------------>[0m
-
-  [1;30mthis ansi is for aspyre''s "Cess Pool".[0m
-
-[1;30m  [0m [1;30mrzarectOr: font + shading[0m
-[1;30m  [0m [1;30mdangermouse: baCkground[0m
-
-  [1;30mlike to thank dangermouse for his help on the baCkground..[0m  [1;30m-rz![0m'
+[1;30m+------------------------------------------------------------------------------>[0m'

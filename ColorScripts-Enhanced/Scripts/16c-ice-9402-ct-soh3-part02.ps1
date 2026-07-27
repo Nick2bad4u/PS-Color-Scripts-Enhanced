@@ -5,7 +5,7 @@
 # Source SHA-256: 6939ab5af4fde209880b6efcb14c3800a1328609db1319c0aa989fb80c19eb68
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-SOH3.ICE by Cephalon Tsurphr (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 41-90
 # Columns: 1-80
 
@@ -55,8 +55,8 @@ Write-Host '
                                         [31m■[0m            [31m▒▓[0m
                                                     [31m■▀[0m
   [1;30m┌─────────────────────────────────────────────────────────────────────────┐[0m
-[1;30m  │ [0;31m[[0;1;31m3[0;31mo5][0;1;31m3[0;31m6o-[0;1;31mo[0;31m575 [0;1;31m¬[0;31m⌐ [0;1;31mS[0;31mysOps: [0;1;31mD[0;31mevil''s [0;1;31mS[0;31mpawn [[0;1;31mi[0;31mCE] [0;1;31m¬[0;31m⌐ [0;1;31mT[0;31mrixter [[0;1;31mi[0;31mCE] [0;1;31m¬[0;31m⌐ [0;1;31mS[0;31mlim   [0;1;30m│[0m
-[1;30m  │ [0;31m[[0;1;31mA[0;31mssault/[0;1;31mL[0;31mupus] [0;1;31m¬[0;31m⌐ [0;1;31mT[0;31mhe [0;1;31mD[0;31mark [0;1;31mH[0;31malf [[0;1;31mA[0;31mssault] [0;1;31m¬[0;31m⌐ [0;1;31mD[0;31memon [0;1;31mS[0;31mlayer [[0;1;31mC[0;31mhaos/[0;1;31mR[0;31miot] [0;1;30m│[0m
-[1;30m  │ [0;1;31m2[0;31m4 [0;1;31mv[0;31marious [0;1;31ma[0;31mffiliations [0;1;31m¬[0;31m⌐ [0;1;31mC[0;31mCiNet,[0;1;31mV[0;31maliantNet,[0;1;31mA[0;31mssaultNet,[0;1;31mT[0;31mFNet,[0;1;31mG[0;31mripNet   [0;1;30m│[0m
-[1;30m  │ [0;1;31mB[0;31moasting [0;1;31mt[0;31mhe [0;1;31ml[0;31margest [0;1;31mA[0;31mNSI/[0;1;31mV[0;31mGA [0;1;31mC[0;31mollection [0;1;31mt[0;31mhis [0;1;31ms[0;31mide [0;1;31mo[0;31mf [0;1;31mt[0;31mhe [0;1;31mM[0;31mississippi!  [0;1;30m│[0m
+[1;30m  │ [0;31m [0;1;31m [0;31m   [0;1;31m [0;31m   [0;1;31m [0;31m    [0;1;31m [0;31m⌐ [0;1;31m [0;31m       [0;1;31m [0;31m       [0;1;31m [0;31m      [0;1;31m [0;31m    [0;1;31m [0;31m⌐ [0;1;31m [0;31m        [0;1;31m [0;31m    [0;1;31m [0;31m⌐ [0;1;31m [0;31m      [0;1;30m│[0m
+[1;30m  │ [0;31m [0;1;31m [0;31m       [0;1;31m [0;31m      [0;1;31m [0;31m⌐ [0;1;31m [0;31m   [0;1;31m [0;31m    [0;1;31m [0;31m     [0;1;31m [0;31m        [0;1;31m [0;31m⌐ [0;1;31m [0;31m     [0;1;31m [0;31m       [0;1;31m [0;31m     [0;1;31m [0;31m     [0;1;30m│[0m
+[1;30m  │ [0;1;31m [0;31m  [0;1;31m [0;31m       [0;1;31m [0;31m            [0;1;31m [0;31m⌐ [0;1;31m [0;31m      [0;1;31m [0;31m          [0;1;31m [0;31m          [0;1;31m [0;31m     [0;1;31m [0;31m         [0;1;30m│[0m
+[1;30m  │ [0;1;31m [0;31m        [0;1;31m [0;31m   [0;1;31m [0;31m       [0;1;31m [0;31m    [0;1;31m [0;31m   [0;1;31m [0;31m          [0;1;31m [0;31m    [0;1;31m [0;31m    [0;1;31m [0;31m  [0;1;31m [0;31m   [0;1;31m [0;31m             [0;1;30m│[0m
 [1;30m  └──[ansi by c.t of ice]───────────────────────────────────────────────────┘[0m'

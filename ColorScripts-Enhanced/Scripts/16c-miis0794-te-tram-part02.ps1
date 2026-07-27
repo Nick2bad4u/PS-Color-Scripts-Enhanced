@@ -5,7 +5,7 @@
 # Source SHA-256: f9e754a9d66621c3335351112758d00e4711b99e947a23c8386d96bd63b14fa2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-TRAM.ANS by The Exorcist (MiiS); released in miis0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tramontane
 # SAUCE Author: The Exorcist
 # SAUCE Group: MiiS
@@ -37,16 +37,14 @@ Write-Host '
 [40m [0;1;30;40m█[0;1;30;47m▓[0m [1;30;40m▄▀[0m▀[1;30m▀[0m▀[1m▀▀▀▀[0m▀▀[1;30m▀▀[0m▀[1;30m▀[0;1;37m▀▀▀▀[0m▀[1m▀[0m▀[1m▀▀▀▀▀▀[0m▀▀▀▀[1;30m▀[0m▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀[0m▀▀[1m▀▀▀[0m▀[1m▀▀▀[0m▀[1m▀▀[0m▀[1m▀[0m▀[1;30m▀[0m▀[1;30m▀▀[0m▀▀[1m▀▀▀▀[0m▀[1;30m▀[0m▀[1;30m▀▄ [0;1;30;47m  [0m
 [1;30;40m [0;1;30;47m▓▓[0m [1;30;40m▓[0m                              [1;30;40mT[0;36mr[0;1;36mamonta[0;36mn[0;1;30me[0m                              [1;30m▓ [0;1;30;47m░░[0m
 [1;30;40m [0;1;30;47m▓▒[0m [1;30;40m▒[0m                         [1;30;40m·[0;36m∙[0;1;36m■ [0;36mAffiliations [0;1;36m■[0;36m∙[0;1;30m·[0m                         [1;30m▒ [0;1;30;47m▒▒[0m
-[1;30;40m [0;1;30;47m▒▒[0m [1;30;40m░[0m                [1;30;40mH[0;36m/[0;1;36mP/C/A/V [0;36mφ [0;1;36mInformation and Music Fil[0;36me[0;1;30ms[0m               [1;30m░ [0;1;30;47m▓[0;1;30;40m█[0m
-[1;30;40m [0;1;30;47m░░[0m               [1;30;40mP[0;36mE[0;1;36mNiS World Head Quarters [0;36mφ [0;1;36mßGΓ Member Boa[0;36mr[0;1;30md[0m               [1;30m▀[0;1;37m▄[0m
-[1;37m [0;1;30;47m░[0m▀            [1;30mN[0;36mE[0;1;36mUROSiS Distribution Site [0;36mφ [0;1;36mKRONíCK Member Boa[0;36mr[0;1;30md[0m             [1;37;47m▓▓[0m
-[1;37;40m ▄[0;1;37;47m▓[0m            [1;30;40mH[0;36mC[0;1;36mH Distribution Site [0;36mφ [0;1;36mCYANiDE Distribution Si[0;36mt[0;1;30me[0m             [1;37;47m▒▒[0m
-[1;37;40m [0;1;37;47m▓▓[0m    [1;30;40mW[0;36me[0;1;36mapon-X Distribution Site [0;36mφ [0;1;36mDesolation Registration Home & Suppo[0;36mr[0;1;30mt ░ [0;1;37;47m░░[0m
+[1;30;40m [0;1;30;47m▒▒[0m [1;30;40m░[0m                [1;30;40m [0;36m [0;1;36m        [0;36m  [0;1;36m                         [0;36m [0;1;30m [0m               [1;30m░ [0;1;30;47m▓[0;1;30;40m█[0m
+[1;30;40m [0;1;30;47m░░[0m               [1;30;40m [0;36m [0;1;36m                        [0;36m  [0;1;36m              [0;36m [0;1;30m [0m               [1;30m▀[0;1;37m▄[0m
+[1;37m [0;1;30;47m░[0m▀            [1;30m [0;36m [0;1;36m                         [0;36m  [0;1;36m                  [0;36m [0;1;30m [0m             [1;37;47m▓▓[0m
+[1;37;40m ▄[0;1;37;47m▓[0m            [1;30;40m [0;36m [0;1;36m                    [0;36m  [0;1;36m                       [0;36m [0;1;30m [0m             [1;37;47m▒▒[0m
+[1;37;40m [0;1;37;47m▓▓[0m    [1;30;40m [0;36m [0;1;36m                         [0;36m  [0;1;36m                                    [0;36m [0;1;30m  ░ [0;1;37;47m░░[0m
 [1;37;40m [0;1;37;47m▒▒[0m [1;30;40m░[0m                           [1;30;40m·[0;36m∙[0;1;36m■ [0;36mNetworks [0;1;36m■[0;36m∙[0;1;30m·[0m                           [1;30m▒ [0;1;30;47m  [0m
-[1;30;40m [0;1;37;47m░░[0m [1;30;40m▒[0m       [1;30;40mW[0;36mW[0;1;36mIVNet [0;36mφ [0;1;36mInsanity Net [0;36mφ [0;1;36mIce Net [0;36mφ [0;1;36mDark Net [0;36mφ [0;1;36mEscape N[0;36me[0;1;30mt[0m       [1;30m▓ [0;1;30;47m  [0m
-[1;30;40m [0;1;30;47m  [0m [1;30;40m▓[0m                    [1;30;40mD[0;36me[0;1;36math Row Net [0;36mφ [0;1;36mCoalition N[0;36me[0;1;30mt[0m                     [1;30m█ [0;1;30;47m  [0m
+[1;30;40m [0;1;37;47m░░[0m [1;30;40m▒[0m       [1;30;40m [0;36m [0;1;36m      [0;36m  [0;1;36m             [0;36m  [0;1;36m        [0;36m  [0;1;36m         [0;36m  [0;1;36m        [0;36m [0;1;30m [0m       [1;30m▓ [0;1;30;47m  [0m
+[1;30;40m [0;1;30;47m  [0m [1;30;40m▓[0m                    [1;30;40m [0;36m [0;1;36m            [0;36m  [0;1;36m           [0;36m [0;1;30m [0m                     [1;30m█ [0;1;30;47m  [0m
 [1;30;40m [0m██ [1;30m█[0m                                                                      [1;30m█ [0m██
  ██▄ [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m▄██
-  ▀[47m                                                                          [0;40m▀[0m
-
-                  [36;40m(c) 1994 The Exorcist for MiiS Productions.[0m'
+  ▀[47m                                                                          [0;40m▀[0m'

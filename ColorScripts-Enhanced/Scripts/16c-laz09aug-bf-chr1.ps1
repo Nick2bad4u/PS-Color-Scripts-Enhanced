@@ -5,7 +5,7 @@
 # Source SHA-256: 7cafe03ee20b16dc356da7f37c7bc5d5aa3d182a4b3dbd953186ee7a930e0f5c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-CHR1.ANS by bobafett! (lAZARUS sTUDIOS!); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "CHROME, A FUTURE..."
 # SAUCE Author: bobafett!
 # SAUCE Group: lAZARUS sTUDIOS!
@@ -35,5 +35,5 @@ Write-Host '
                      l i f e   c a n n o t   b e   r e a l
 
 [1;30m--------------------------------------------------------------------------------[0m
-Logo for the future of the art scene... figure it out yourself...
+                                                                 
 [1;30m--------------------------------------------------------------------------------[0m'

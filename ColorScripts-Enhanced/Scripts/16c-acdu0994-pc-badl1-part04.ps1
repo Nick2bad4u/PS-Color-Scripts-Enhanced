@@ -5,7 +5,7 @@
 # Source SHA-256: aa81a3debfce9f5df1a58ae711376b6e5f71c1baf4e4f9cea0c11c6a12f69c80
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-BADL1.ANS by P-Chan (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The BadLands
 # SAUCE Author: P-Chan
 # SAUCE Group: ACiD Productions
@@ -37,15 +37,15 @@ Write-Host '
 [1;30;40m    █[0;1;30;47m▓[0;1;30;40m██[0m                      [32m1-4[0;1;32m08-[0;1;37m268[0;1;32m-4[0;32m251[0m                      [1;30m██[0;1;30;47m█[0;1;30;40m█[0m
 [1;30;40m    █[0;1;30;47m▓[0;1;30;40m██[0m                [32mSysO[0;1;32mp: So[0;1;37multaker [0;1;32m<UiD [0;32mPREZ>[0m               [1;30m████ [0;32m▀[0m
     [1;30m████[0m                  [32mCo-Sy[0;1;32ms: Mi[0;1;37mdnigh[0;1;32mt Sh[0;32madow[0m                 [1;30m████[0m
-[34m    [0;1;30m████[0m                [32mCo-Sy[0;1;32ms: Sh[0;1;37marp <AC[0;1;32miD/La[0;32mnce2>[0m               [1;30m██[0;1;30;47m█[0;1;30;40m█[0m
+[34m    [0;1;30m████[0m                [32m     [0;1;32m     [0;1;37m       [0;1;32m     [0;32m     [0m               [1;30m██[0;1;30;47m█[0;1;30;40m█[0m
     [1;30;40m████[0m                [32m28.8k [0;1;32mDua[0;1;37ml Std. - [0;1;32m3.50 [0;32mGigZ[0m               [1;30m████[0m
     [1;30m████[0m                  [32miBM[0;1;37m [0;1;32m0-2 [0;1;37mDay El[0;1;32mite F[0;32miles[0m                 [1;30m████[0m
 [1;30m    ████[0m                  [32mNewe[0;1;32mst[0;1;37m [0;1;32mV[0;1;37m-X w/ Fe[0;1;32mlony[0;32mNET[0m                 [1;30m████ [0;32m▄[0m
 [34m    [0;1;30m████[0m                                                          [1;30m██[0;1;30;47m▓[0;1;30;40m█ [0;32m▀[0m
-[34m    [0;1;30m█[0;1;30;47m▓[0;1;30;40m██[0m  [32mACiD [0;1;32mAffil[0;1;37miate - [0;1;32mRSM D[0;32mistro[0m    [32mBGR[0;1;37m [0;1;32mDis[0;1;37mt - JÆH[0;1;32möV W[0;32mestHQ[0m  [1;30m██[0;1;30;47m▓[0;1;30;40m█ [0;1;32;42m░[0m
-[1;34;40m    [0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0m  [32mLance[0;1;32mlot-][0;1;37m[ Dist [0;1;32m- TiA[0;32m Dist[0m    [32mUiD[0;1;37m [0;1;32mSeni[0;1;37mor BB[0;1;32mS - S[0;32mRiNET[0m  [1;30m██[0;1;30;47m▓[0;1;30;40m█ [0;1;32;42m▒[0m
-[1;34;40m    [0;1;30;40m█[0;1;30;47m▒[0;1;30;40m██[0m  [32mH/P/A[0;1;32m/C Fi[0;1;37mles - [0;1;32mUnReal[0;32m Dist[0m    [32mFURY[0;1;32m Di[0;1;37mst - SH[0;1;32mIVER[0;32m Dist[0m  [1;30m██[0;1;30;47m▒[0;1;30;40m█ [0;1;32;40m▄[0;1;34;40m  [0;32m■▀[0m
-[34m    [0;1;30m█[0;1;30;47m▒█[0;1;30;40m█[0m  [32mDaS S[0;1;32mite -[0;1;37m GaNjA [0;1;32mWeste[0;32mrn HQ[0m    [32mEvol[0;1;32mutio[0;1;37mn Mag [0;1;32mWest[0;32m H.Q.[0m  [1;30m██[0;1;30;47m▒[0;1;30;40m█ [0;1;32;42m▓[0;1;32;40m▄[0m
+[34m    [0;1;30m█[0;1;30;47m▓[0;1;30;40m██[0m  [32m     [0;1;32m     [0;1;37m       [0;1;32m     [0;32m     [0m    [32m   [0;1;37m [0;1;32m   [0;1;37m       [0;1;32m    [0;32m     [0m  [1;30m██[0;1;30;47m▓[0;1;30;40m█ [0;1;32;42m░[0m
+[1;34;40m    [0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0m  [32m     [0;1;32m     [0;1;37m       [0;1;32m     [0;32m     [0m    [32m   [0;1;37m [0;1;32m    [0;1;37m     [0;1;32m     [0;32m     [0m  [1;30m██[0;1;30;47m▓[0;1;30;40m█ [0;1;32;42m▒[0m
+[1;34;40m    [0;1;30;40m█[0;1;30;47m▒[0;1;30;40m██[0m  [32m     [0;1;32m     [0;1;37m      [0;1;32m      [0;32m     [0m    [32m    [0;1;32m   [0;1;37m       [0;1;32m    [0;32m     [0m  [1;30m██[0;1;30;47m▒[0;1;30;40m█ [0;1;32;40m▄[0;1;34;40m  [0;32m■▀[0m
+[34m    [0;1;30m█[0;1;30;47m▒█[0;1;30;40m█[0m  [32m     [0;1;32m     [0;1;37m       [0;1;32m     [0;32m     [0m    [32m    [0;1;32m    [0;1;37m      [0;1;32m    [0;32m     [0m  [1;30m██[0;1;30;47m▒[0;1;30;40m█ [0;1;32;42m▓[0;1;32;40m▄[0m
 [1;34;40m    [0;1;30;40m█[0;1;30;47m░█[0;1;30;40m█[0m  [32mBLAZE[0;1;32m Dist[0;1;37m. - UF[0;1;32mT Dist[0;32mro[0m       [32mKTS[0;1;37m [0;1;32mDis[0;1;37mt - LS [0;1;32mDist[0;32m Site[0m  [1;30m██[0;1;30;47m░[0;1;30;40m█ [0;1;32;42m▓▒░░[0;32m▄▄[0;34m [0;32m▄[0;37m [0m
 [34m    [0;1;30m▐[0;1;30;47m░▀[0;1;30;40m█▌[0m                                                        [1;30;40m▐[0;1;30;47m█▀░[0;1;30;40m▌[0;32m▐[0;1;32;42m▒[0;32m▀▀[0m
      [1;30m▀[0;1;30;47m█▄█[0;1;30;40m▄[0m                   [32mNo[0;1;37m [0;1;32mNuP[0;1;37m/No L[0;1;32moc[0;32mals[0m                   [1;30m▄█[0;1;30;47m▄[0;1;30;40m▀▀[0;32m▄▀[0;1;32;42m░▒[0;32m▄[0m
@@ -57,11 +57,7 @@ Write-Host '
              [37m ─────────────────────────────────────────────────[0m [32m▀[0m
 
                                                                 [32m▄[0m
-                                [37m.┤NSi: P-chan[0m
-                              [37mFont: Terminator2[0m
+                                [37m ┤           [0m
+                              [37m                 [0m
 
-                           [37m1 0 0 %   O R i G I N A L[0m
-
-                [37mGreetz: SO,RM,BE,LD,TK,DY, and all you ACiD fools.[0m
-
-                     [37mYeah, yeah...the hand is wrong..sue me[0m'
+                           [37m1 0 0 %   O R i G I N A L[0m'

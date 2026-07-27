@@ -5,7 +5,7 @@
 # Source SHA-256: 63cfa28e4b897b67df8f493975cf45c6eecb82161fea3d93eb96de46b898d25f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL4END.ANS by Free Fall + Red Death (blndr022); released in blndr022 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-45
 # Columns: 1-80
 
@@ -21,8 +21,8 @@ Write-Host '
 [31m█[0;37m [0;1;37m▐█████▓▀▄▄▄▄███▀▀▀[0m  [1m▐█████▓█▄[0m    [1m▀▀▀▀▄▄▄▄  [0m [1m▄███▓█▀[0m  [1m   [0m [1m▀▀▀███▄▄▄▄▀▓█████▌[0m
 [1m ▄████▀▀▀▀[0;31m▄▄▄▄▄▄[0;37m [0;1;37m░░░[0m [1m▄▀▀▀▀▀█████▄ ░░░░░[0m [31m▄▄▄[0;1;37m▀▀▀▀▀▀▀[0m  [1m(n)[0;31m▄▄▄[0;37m [0;1;37m░░░[0m [31m▄▄▄▄▄[0;37m [0;1;37m▀▀▀▀████▄ [0m
 
-   [34m░[0m               [1;30m░░░ [0;1;37mtopic:  [esc] from alcatraz in fear [0;1;30m░░░[0m
-   [34m▒[0m                    [1;30m(Vx GaS JuST KiLLED ALL, FEAR iT)[0m      [1m▓▓[0m          [1;33m▓▓[0m
+   [34m░[0m               [1;30m░░░ [0;1;37m                                    [0;1;30m░░░[0m
+   [34m▒[0m                    [1;30m                                 [0m      [1m▓▓[0m          [1;33m▓▓[0m
    [34m▓[0m                   [32m▄▄▄[0m                        [32m▄[0m            [1;37m▒▒[0m     [1;30m ░░░[0m▄
    [34m▒[0m                  [32m▀[0;1;33;42m░[0;1;32;42m░▄▄░[0;32m▄▄[0m     [33m▄▓▓▒▒▓▓▄[0m   [32m▄[0;1;33;42m░▒▓[0;32m▌[0m      [34m░[0m     [1;37m░░[0;1;33m [0m      ▄█▓▒░
    [34m░[0m       [1;37m░[0m            [32m▀█[0;1;33;42m▓[0;1;32;42m█[0;1;33;42m▄[0;1;32;42m▄[0;1;33;42m░[0;32m▄[0;33m ▄████▀▀▀[0;33;41m▓▓[0;33;40m█▄[0;32;40m▀█[0;1;32;42m▄▀[0;32m▀[0m       [34m▒[0m         [1;30m░░░[0m▄████[33m [0;1;33m [0m
@@ -53,4 +53,4 @@ Write-Host '
 [33;45m▓▓▓[0;33;40m▒▒▓▓[0;33;45m▓▓▒▒░░▓▓[0;33;40m██[0;33;45m▓▓▓▓[0;33;40m████████[0;33;42m▄▄[0;33;40m████████████████████████████[0;37;40m ██[0;1;37;47m░░░░░░[0m██ ██▀[33m▄█░[0;1;30m░[0m
  [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 
-[1;30m  [0m                [1;30m░░░ [0mansi by free fall and red death [1;30m░░░[0m'
+[1;30m  [0m                [1;30m░░░ [0m                                [1;30m░░░[0m'

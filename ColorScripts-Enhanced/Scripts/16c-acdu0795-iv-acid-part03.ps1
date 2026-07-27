@@ -5,7 +5,7 @@
 # Source SHA-256: 4ddd50f6dadc85d3ca19958cba37b7f3d695df9031bab29139435e429a90b3cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IV-ACID.ANS by Inner Vision (ACiD Productions); released in acdu0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "Need I Say More?!?"
 # SAUCE Author: Inner Vision
 # SAUCE Group: ACiD Productions
@@ -36,5 +36,4 @@ Write-Host '
 [1;30m░[0m        [1;30m     [0m    [1;30m   [0;1;37m"[0;1;30m  [0mN e e d  i  s a y  m o r e ? ! ?  [1m"[0m                    [1;30m░[0m
 [1;30m▒[0m [1;30m              [0m                                                               [1;30m▒[0m
 [1;30m▓▀▄ [0m   [1;30m [0m       [1;30m  [0m                                                           [1;30m ▄▀▓[0m
-[1;30m▀▀▀▀[0m [1;30m▀▀  ▀[0m   [1;30m▀[0m  [1;30m▀▀▀▀▀▀[0m  [1;30m▀[0m  [1;30m▀▀▀▀▀[0m  [1;30m▀[0m  [1;30m▀▀[0m [1;30m▀▀[0m  [1;30m▀[0m  [1;30m▀▀▀▀▀[0m  [1;30m▀[0m  [1;30m▀▀▀[0m  [1;30m▀[0m   [1;30m▀[0m   [1;30m▀  ▀▀[0m [1;30m▀▀▀▀[0m
-T[1;30mhis [0mA[1;30mnsi [0mW[1;30mas [0mD[1;30mrawn [0mB[1;30my [0mI[1;30mnner [0mV[1;30mision [0mW[1;30merdemup - [0mG[1;30mreets[0m:[1;30m [0mA[1;30mzrael, [0mT[1;30mek, [0mA[1;30mcid, [0mM[1;30md [0mi[1;30mce[0m'
+[1;30m▀▀▀▀[0m [1;30m▀▀  ▀[0m   [1;30m▀[0m  [1;30m▀▀▀▀▀▀[0m  [1;30m▀[0m  [1;30m▀▀▀▀▀[0m  [1;30m▀[0m  [1;30m▀▀[0m [1;30m▀▀[0m  [1;30m▀[0m  [1;30m▀▀▀▀▀[0m  [1;30m▀[0m  [1;30m▀▀▀[0m  [1;30m▀[0m   [1;30m▀[0m   [1;30m▀  ▀▀[0m [1;30m▀▀▀▀[0m'

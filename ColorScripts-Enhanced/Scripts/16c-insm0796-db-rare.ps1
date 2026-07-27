@@ -5,7 +5,7 @@
 # Source SHA-256: 57e3597dff58cd28c9d5db50c4fc65aa31bcf3aeb4279875a44dc4304c3a0b8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DB`RARE.ANS by Drunken Basterd (insomnia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Rare Earth
 # SAUCE Author: Drunken Basterd
 # SAUCE Group: insomnia
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTH[0m
-[1;30mRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTH[0m
+[1;30m   [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m    [0m
+[1;30m   [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m       [0m [1;30m    [0m
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30m█[0;35m██████████■███████████████████████████████████████████████████████████████████[0;1;30m█[0m
 [1;30m█[0;35m█████████▌[0;32m░[0;1;37m▄▄[0;1;32m▄▄▄[0;32m▄▄▄▄▄▄▄ [0;35m■[0;1;37m▄▄[0;1;32m▄▄▄[0;32m▄▄▄▄▄▄▄  [0;1;37m▄▄[0;1;32m▄▄▄[0;32m▄▄▄▄▄▄▄  [0;1;37m▄▄▄[0;1;32m▄▄[0;32m▄▄▄▄▄▄▄[0;35m▐████████████[0;1;30m█[0m
@@ -35,6 +35,4 @@ Write-Host '
 [1;30m█[0;35m█▌[0;32m░█████ ▀█████ [0;35m▄[0;32m▐█████[0;35m▐ [0;32m█████░[0;35m▐ [0;32m█████░[0;35m▐██████████ [0;32m█████ [0;35m▀███ [0;32m█████░[0;35m· [0;32m█████░[0;35m▐█[0;1;30m█[0m
 [1;30m█[0;35m█▌[0;32m░█████▄▄█████▌[0;35m█[0;32m▐█████▄▄█████░[0;35m▐▌[0;32m█████░[0;35m▐██████████▌[0;32m█████░ [0;35m███ [0;32m█████░ [0;35m■[0;32m█████░[0;35m▐█[0;1;30m█[0m
 [1;30m█[0;35m██▄▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄██▄▄▄▄▄▄▄███████████▄▄▄▄▄▄▄████▄▄▄▄▄▄██▄▄▄▄▄▄██[0;1;30m█[0m
-[1;30m█[0;1;30;45m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;40m█[0m
-[1;30;40mRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTH[0m
-[1;30mRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTHRAR[0mE[1;30mARTH[0m'
+[1;30m█[0;1;30;45m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;40m█[0m'

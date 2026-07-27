@@ -5,7 +5,7 @@
 # Source SHA-256: 2107a449ab1f3c3d8dd747c6e7fa5ba8bbe15fb51579cefd3a21e07c40f7a480
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DIET.ANS by Apox + Crayon (Apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Diet Cola
 # SAUCE Author: Apox/Crayon
 # SAUCE Group: Apathy
@@ -29,6 +29,4 @@ Write-Host '
 [37m   [0;1;30m▄[0m [1;30m▀▀▀▀▀[0m     [1;33;43m   ░░[0m    [1;33;43m▓▓▓▒▒[0m                     [1;30m▀▀▀▀[0m         [33m▀[0;37m [0;33m▄[0m   [33m▄[0;37m  [0;33m▀[0m
 [37m  [0;1;30m█▌[0m           [1;33;43m     [0m    [1;33;43m▒▒▒░░[0m [1;33mo l a ▓▒░[0m
    [1;30m▀[0m [1;30m▄[0m       [1;30m▄[0m [33m░▓███▄[0;37m  [0;33m▄[0;1;33;43m░░░[0;33m█▌[0m                  [37mtry to come up with a background[0m
-         [1;30m▀[0m      [33m░[0;37m [0;33m▀▀▀▀▀▀▀▀[0m                       [37mim[0;1;33m [0mstumped...
-   [33mlogo by apox[0;1;33m<[0;33mapathy[0;1;33m>[0m
-  [1;30m [0;33mand crayon[0;1;33m<[0;33mapathy[0;1;33m>[0m   [1;30m                       [0m'
+         [1;30m▀[0m      [33m░[0;37m [0;33m▀▀▀▀▀▀▀▀[0m                       [37mim[0;1;33m [0mstumped...[0m'

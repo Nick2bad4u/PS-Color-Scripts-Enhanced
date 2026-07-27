@@ -5,7 +5,7 @@
 # Source SHA-256: fe8256f4edc3b4e68bce899bd3e6a3dc0a8fcd2bbc5f356ef77bfd8f88e4c0ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TO.ANS by Snowball + Lemonizer (E c o l o v e); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Black and White dancing together!
 # SAUCE Author: Snowball Lemonizer
 # SAUCE Group: E c o l o v e
@@ -48,5 +48,4 @@ Write-Host '
      [1;30ml e m  [0m  [31m▄[0;33m▄[0;1;33;43m▄██▄[0;33m█[0;1;33;43m▄▄▄[0;33m▄[0;1;30m [0;1;37;47m▓[0;1;37;41m▓▓[0;1;37;47m█[0;1;37;40m▌[0m [33m▀[0;1;30m [0m
      [1;30mo n 4 4 ! [0;33m█[0;1;37m██[0;1;33;43m█▌[0;33m▌[0;1;33;43m░█[0;1;37;40m█[0;1;33;43m▌[0m [1m▀█[0;1;41m░░░[0;1;40m█[0m       [1;30mLemonizah:[0m [1;30mL o g o [0m
                 [1;30m▀[0;33m▀[0;31m▐[0;33m▌[0;1;30m ▐[0;33m▀[0;1;33;43m░[0;33m▀[0;31m▌[0;1;37m▐[0;1;37;41m▓▓▓▓[0;1;37;40m█[0m       [1;30mSnowball : R e s t [0m
-     [1;30m░░░░░░░░░░ [0m   [33m [0;37m  [0;1;30m▄[0;1;33;43m▄[0;33m▄[0;37m  [0;31m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0m
-'
+     [1;30m░░░░░░░░░░ [0m   [33m [0;37m  [0;1;30m▄[0;1;33;43m▄[0;33m▄[0;37m  [0;31m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0m'

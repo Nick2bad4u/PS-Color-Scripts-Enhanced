@@ -5,25 +5,25 @@
 # Source SHA-256: ffe096b577b34f49599d908fe5ba2de38bf469127d948cf79519cee31cb1090c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LB-MEM.ANS by Lady Blue + Kitiara (rca15-a); released in rca15-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-37
 # Columns: 1-80
 
 Write-Host '
 
 
- [1;33mWe all watched as, demurely, you took your place [0m
-   [1;33min this cruel and demanding world, [0m
-   [1m [0;1;33mas you lived out every fantasy of every little girl.[0m
- [1;33mYou captivated some of us with your beauty and unerring style, [0m
-  [1m [0;1;33mand others with your charity, your compassion beyond denial. [0m
- [1;33mWe admired your deep devotion to your children and ours as well, [0m
-[1;33m   reaching out to those less fortunate, stigmas and barriers you did dispel. [0m
-[32m▌[0;1;33mYou overcame such adversity, most that we could never bear, [0m      [1m [0m    [1;33m  [0m
-[32m▌[0;1;33m     and we added to your pain and your sorrow, [0m
-[32m▐[0;1;33m       though in our ignorance, we were not aware. [0m
-[33m■[0;33;42m▀[0;1;33;40m  In a senseless moment of tragedy  you were taken, you were gone,[0;1;32;40m▄■[0m
-[1;33m  [0;33;42m▒[0;1;33;40m             but forever, in the heart of all of us,[0m         [32m▄[0;1;32;42m█▀▓[0;1;32;40m▄[0m
+ [1;33m                                                 [0m
+   [1;33m                                   [0m
+   [1m [0;1;33m                                                    [0m
+ [1;33m                                                               [0m
+  [1m [0;1;33m                                                             [0m
+ [1;33m                                                                 [0m
+[1;33m                                                                              [0m
+[32m▌[0;1;33m                                                            [0m      [1m [0m    [1;33m  [0m
+[32m▌[0;1;33m                                                [0m
+[32m▐[0;1;33m                                                   [0m
+[33m■[0;33;42m▀[0;1;33;40m                                                                  [0;1;32;40m▄■[0m
+[1;33m  [0;33;42m▒[0;1;33;40m                                                    [0m         [32m▄[0;1;32;42m█▀▓[0;1;32;40m▄[0m
    [32m▐▌[0m    [37m           [0;1;33myour memory lives on and on...[0m  [1;32m▄[0m          [32m▄[0;1;32;42m▐[0;1;32;40m▌[0;32m▐[0;1;32;42m▒▓[0;1;32;40m▌[0m
     [33;42m▒[0m                                              [1;32;42m█[0;32m▀[0;1;32;42m▒░[0;32m▄▄[0m      [32m▓[0;1;32;42m█[0m [32m▓[0;1;32;42m░▒▓[0m
      [33;42m▒[0;33;40m▄■[0m                           [1;32;40m▄▌[0m     [1;33m~LB[0m     [1;32m▐[0;1;32;42m▓█[0;32m▄▀[0;1;32;42m░[0;32m▓██▄[0;37m  [0;32m▐[0;1;32m▀[0;33m■[0;32m▓[0;1;32;42m░▒▓[0;1;32;40m▌[0m

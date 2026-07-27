@@ -5,7 +5,7 @@
 # Source SHA-256: 044f65851d8baa1949436feb88142a4f41ce9ba7899993c069b3b6f1afb301a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-FG1.ANS by Boba Fett (lAZARUS STUDIOS!); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tHE fISH gARDEN!?
 # SAUCE Author: Boba Fett
 # SAUCE Group: lAZARUS STUDIOS!
@@ -39,11 +39,11 @@ Write-Host '
 [1;32;42m░ [0;32m▄[0;37m [0;1;32m▀[0m [32m▄▀[0m   [1;33m([0;1;32mX[0;1;33m)[0m [1;33mC[0;1;32mom[0;32mmand?[0m   [1;33m([0;1;32mX[0;1;33m)[0m [1;33mC[0;1;32mom[0;32mmand?[0;37m   [0;1;33m([0;1;32mX[0;1;33m)[0m [1;33mC[0;1;32mom[0;32mmand?[0m   [1;33m([0;1;32mX[0;1;33m)[0m [1;33mC[0;1;32mom[0;32mmand?[0;37m [0;32m▀▄▄▄[0;1;32m▀[0;1;32;42m▓[0;1;33;40m▀[0;32m [0;35m▀[0;1;35;45m░[0;35m▌[0m
 [1;32;42m [0;1;33;42m░[0;1;32;42m▄█[0;1;32;40m▄▄[0;1;33;40m▄▄[0m [1;32m▄[0;1;33m▄[0m                                                  [1;31m▄▄[0;1;35m▄▄[0m    [32m█[0;1;33;42m▀░ [0;32m█[0;37m [0;1;35m▄[0;1;31m█▌[0;35m▐[0;1;35;45m░[0m
 [1;30;40m--------------------------------------------------------------------------------[0m
-This ansi was done for the FISH GARDEN compo in hopes that yours truly, Boba F.
-could win an 888 # for the most deserving Power of the Darkside bbs.  Then,
-everyone could call that said, "If only you had an 888!"
+                                                                               
+                                                                           
+                                                        
 
-   This ansi was done in FruitShade (tm) (C) Lazarus studios 1997.  w00t!
+                                                                         
 
-  Boba Fett / Lazarus / call pOD, +01-(864)-639-1007 / boba.fett@x-net.net
+                                                                          
 [1;30m--------------------------------------------------------------------------------[0m'

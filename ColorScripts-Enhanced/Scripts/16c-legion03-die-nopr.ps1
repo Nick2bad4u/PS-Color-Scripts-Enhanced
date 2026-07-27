@@ -5,7 +5,7 @@
 # Source SHA-256: 82934a91335fe46b06ae9f588945862f4381d41e9715a319e5af2d85f3a36c4a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DIE-NOPR.ANS by dieznyik (the legion); released in legion03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nopr
 # SAUCE Author: dieznyik
 # SAUCE Group: the legion
@@ -37,15 +37,4 @@ Write-Host '
     [1;33;40m▐[0;1;37;40m██[0;1;33;40m█[0;1;37;40m██[0;1;33;40m█[0;1;33;47m▌[0m█▓               [31m▀▀[0;30;41m░[0;31;40m▓█[0;1;33;41m  [0;1;31;41m░[0;33;41m▀[0;1;33;41m▀▀▀[0;1;33;43m▀[0;1;33;40m███[0;1;37;40m█[0;1;33;40m█[0;1;37;40m█[0;1;33;47m██▓░▓[0;1;33;40m███[0;1;33;43m▀[0;1;33;41m▀▀▀▀▀[0;33;41m▀░░[0;1;33;41m [0;1;31;41m░░[0;31m██▌▀ ░[0m
     [1;33m▐█[0;1;33;43m▀[0;1;33;41m▀▀[0;33;41m▀[0;1;31;41m░[0;31m█[0;31;47m▄[0;37;41m▓[0;37;40m▌ [0m             [37;40m   [0;31;40m░[0;30;41m▓[0;31;40m▀▀████[0;37;41m░░[0;31;40m███[0;1;31;41m ░░[0;31m█[0;33;41m░░[0;31;40m██████[0;37;41m░[0;31;40m████[0;1;31;41m░░[0;31m█▀▀▀[0m
      [31m▀[0;30;41m░[0;1;31;41m░[0;41m░[0;31;40m█[0;30;41m░[0;31;40m▓▀▀[0;37;40m  [0m                       [31;40m▀▀▀▀█████████[0;30;41m░[0;31;40m▓▀▀▀▀▀▀[0m
-       [31;40m▀▀░[0;30;41m▓[0m
-
-[37;40moh gosh! back after a year of solitary drawing. i''ve got a ton of stuff in [0m
-[37;40mstock, but only certain pieces seem finishable. yuck. anyways, to those who[0m
-[37;40mknew me before: i am a completely different person! reborn! i spent my ansi [0m
-[37;40mcareer in a mid-adolescent depressive cycle, but i''m over that now. i found[0m
-[37;40mmy calling. so, w3rd! itz no problem at all![0m
-
-[37;40mexpect monthly appearances here in legion -- unless i become too pre-occupied[0m
-[37;40mwith uhm... ''tingz''. [0m
-
-[37;40mdieznyik. [0m'
+       [31;40m▀▀░[0;30;41m▓[0m'

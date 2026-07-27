@@ -5,7 +5,7 @@
 # Source SHA-256: 8e6fa950b6acb83c6bcdb9faf21a4a0cf7577a0ba39a7380040e089e24c2e35b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PH-FSN.ANS by Pharcyde (fsn-0995); released in fsn-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 40-69
 # Columns: 1-80
 
@@ -34,9 +34,9 @@ Write-Host '
 [1;30m  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
                                [1mf  [0mU  S  i  O  [1mN[0m
                                 [1m[[0m46]304-67823[1m6[0m
-                    [1mr[0munning on 28800 v.34 and with 1.6 gig[1ms[0m
-                 [1mFUSION [0mworldheadquarters and [1mZORN [0mdistro site
-                              [1mw[0manted more affil[1ms[0m
+                    [1m [0m                                     [1m [0m
+                 [1m       [0m                      [1m     [0m           
+                              [1m [0m                [1m [0m
 
-                                   SYSOP [1mReX[0m                          PH^fSN
+                                         [1m   [0m                                
   [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

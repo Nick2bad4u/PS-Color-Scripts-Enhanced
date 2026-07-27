@@ -5,7 +5,7 @@
 # Source SHA-256: db6fde40b1f675a8d160dd3a6283aead407031889681b594112bc9c83d2eeddb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AZ-GLUE.ANS by Azrael + Axitious + Twotone (ACiD Productions); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Glue
 # SAUCE Author: Azrael
 # SAUCE Group: ACiD Productions
@@ -46,5 +46,4 @@ Write-Host '
 [31m▐█████████████▌[0;37m▐▓▀▀▀ [0;31m▄▄▄███▀▀[0;37m ▄[0;1;37;47m░  [0m██[1;47m░▒▓▓[0;1;30;40m [0;1;30;47m░░▒▒▓▓[0;1;30;40m█▓▄ [0;31m▀▀████▄▄[0;37m [0;1;30m▀▀▀▓▌[0;31m▐█████████████▌[0m
 [1;37m [0;31m▀▀▓██████████▀▄▄▄██▀▀▀▀[0;37m ▄▄▄████▀█[0;1;37;47m░[0m█[1;47m░▒▒▓[0;1;30;40m [0;1;30;47m░░▒▒▓▓▓[0;1;30;40m███▓▄▄▄[0m [31m▀▀▀▀██▄▄▄▀██████████▓▀▀[0m
 [1;37;47m░[0m█▄▄▄▄ [31m▀▀▀▀▓███▀▀ [0;37m▄▄▄[0;1;37;47m░ [0m▀████████████[1;47m░▒▒▒[0;1;30;40m [0;1;30;47m░░▒▒▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m███████ █▓▄▄▄[0m [31m▀▀███▓▀▀▀▀[0;37m [0;1;30m▄▄▄▄▓█[0m
-[1;37;47m▒░[0m█[1;47m░[0m██▀██[1;47m░[0m▄▄ [31m▀[0;37m ▄[0;1;37;47m░[0m█▀███████▀ ██▀██[1;47m░[0m███[1;47m░▒▒[0;1;30;40m [0;1;30;47m░░▒▒▓▓▓▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m█▌▐█████▓▄[0m [31m▀[0;37m [0;1;30m▄▄▓█████▀███[0m
-[1;37mG ·[0m [1mL[0m [1m·[0m [1mU[0m [1m·[0m [1mE[0m [1m· (714) XXX-XXXX ansi by: azrael, hair by: axitious, font: twotone[0m'
+[1;37;47m▒░[0m█[1;47m░[0m██▀██[1;47m░[0m▄▄ [31m▀[0;37m ▄[0;1;37;47m░[0m█▀███████▀ ██▀██[1;47m░[0m███[1;47m░▒▒[0;1;30;40m [0;1;30;47m░░▒▒▓▓▓▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m█▌▐█████▓▄[0m [31m▀[0;37m [0;1;30m▄▄▓█████▀███[0m'

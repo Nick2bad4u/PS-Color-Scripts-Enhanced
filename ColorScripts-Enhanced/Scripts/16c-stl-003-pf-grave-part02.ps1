@@ -5,7 +5,7 @@
 # Source SHA-256: 0783e019594ca9f39c56037eab74c97a4107e3b35ab040cb227bb199fad1832a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PF-GRAVE.ANS by Pfezzyo (Stile Productions 95); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Graveyard Logo
 # SAUCE Author: Pfezzyo
 # SAUCE Group: Stile Productions 95
@@ -54,12 +54,12 @@ Write-Host '
 [1;30m░[0m     [1;30m▒[0m   [1;30m  [0;1;30;43m▓▒▓[0;1;30;40m▌ [0;1;30;43m▓▒[0m [1;30m▐[0;1;30;43m▒░[0;33m▐▌[0;1;30;43m░[0;33m█     [0;1;30m░▒▓▒░  ▓[0;1;30;47m▓[0;1;30;40m░ ░▒▓[0;1;30;47m░[0;1;37;47m▒░[0;1;30;47m░[0m   [1;47m░▒█▓▒░[0m  [1m▄▌ [0;1;47m▒▓█▒[0;1;40m  [0m  [1;30m▒[0m      [1;30m░[0m
 [1;30m■ ■■▄■▓▄■■▄▄▄■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░■▄▄▄▄▄▄▄▄▄▄▄▄▄▄■▒■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■▓▄■▄■■ ■[0m
 [1;30m░[0m                                                                              [1;30m░[0m
-[1;30m▒[0m                        [32m       [0;37m [0;1;32mT[0;32mhe [0;1;32mG[0;32mraveYard[0;37m     [0m            [32m [0m               [1;30m▒[0m
+[1;30m▒[0m                        [32m       [0;37m [0;1;32m [0;32m   [0;1;32m [0;32m        [0;37m     [0m            [32m [0m               [1;30m▒[0m
 [1;30m▓[0m                                                                              [1;30m▓[0m
-[1;30m█[0m                           S[1;30mysop -[0m [1;32mT[0;32mhe[0;1;30m [0;1;32mG[0;32mravedigger[0m                            [1;30m█[0m
+[1;30m█[0m                            [1;30m      [0m [1;32m [0;32m  [0;1;30m [0;1;32m [0;32m          [0m                            [1;30m█[0m
 [1;30m█[0m                                                                              [1;30m█[0m
-[1;30m█[0m              N[1;30mode [0m1[1;30m [0m [1;32m+4[0;32m6-[0;1;32m8[0;32m-[0;1;32mX[0;32mxxxxxx[0;37m [0;1;30m\[0m [1;32mU[0;32mSRobotics [0;1;32mv[0;32m.34 [0;1;32m3[0;32m3k6 [0;37mb[0;1;30mps.[0m               [1;30m█[0m
-[1;30m▓[0m              N[1;30mode [0m2[1;30m  [0;1;32m+4[0;32m6-[0;1;32m8[0;32m-[0;1;32mX[0;32mxxxxxx[0;37m [0;1;30m\[0m [1;32mU[0;32mSRobotics [0;1;32mv[0;32m.34[0;37m [0;1;32m2[0;32m8k8 [0;37mb[0;1;30mps.[0m               [1;30m▓[0m
-[1;30m▒[0m              N[1;30mode [0m3[1;30m  [0;1;32m+4[0;32m6-[0;1;32m8[0;32m-[0;1;32mX[0;32mxxxxxx[0;37m [0;1;30m\[0m [1;32mU[0;32mSRobotics [0;1;32mv[0;32m.34[0;37m [0;1;32m2[0;32m8k8 [0;37mb[0;1;30mps.[0m               [1;30m▒[0m
+[1;30m█[0m               [1;30m    [0m [1;30m [0m [1;32m  [0;32m  [0;1;32m [0;32m [0;1;32m [0;32m      [0;37m [0;1;30m [0m [1;32m [0;32m          [0;1;32m [0;32m    [0;1;32m [0;32m    [0;37m [0;1;30m   [0m               [1;30m█[0m
+[1;30m▓[0m               [1;30m    [0m [1;30m  [0;1;32m  [0;32m  [0;1;32m [0;32m [0;1;32m [0;32m      [0;37m [0;1;30m [0m [1;32m [0;32m          [0;1;32m [0;32m   [0;37m [0;1;32m [0;32m    [0;37m [0;1;30m   [0m               [1;30m▓[0m
+[1;30m▒[0m               [1;30m    [0m [1;30m  [0;1;32m  [0;32m  [0;1;32m [0;32m [0;1;32m [0;32m      [0;37m [0;1;30m [0m [1;32m [0;32m          [0;1;32m [0;32m   [0;37m [0;1;32m [0;32m    [0;37m [0;1;30m   [0m               [1;30m▒[0m
 [1;30m░[0m                                                                              [1;30m░[0m
-[1;30m■[0m                [1;30m[[0m├\[1;30mnsi[0m ß[1;30my[0m [1;32mP[0;32mfezzyo[0;37m o[0;1;30mf [0mS[1;30mtile [0mP[1;30mroductions [0m1[1;30m995][0m                  [1;30m■[0m'
+[1;30m■[0m                [1;30m [0m├ [1;30m   [0m  [1;30m [0m [1;32m [0;32m      [0;37m  [0;1;30m  [0m [1;30m     [0m [1;30m           [0m [1;30m    [0m                  [1;30m■[0m'

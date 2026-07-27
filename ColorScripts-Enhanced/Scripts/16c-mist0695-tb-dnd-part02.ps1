@@ -5,7 +5,7 @@
 # Source SHA-256: 8f2572680b8d789ab15ee3bfad85aa1693d31a1bbbb8f60b82e8bbe6edee1219
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TB!DND.ANS by Tribe (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Drunk and Disorderly
 # SAUCE Author: Tribe
 # SAUCE Group: MiSTiGRiS
@@ -16,9 +16,9 @@
 
 Write-Host '
                         [33m■▄ █■▄■  [0;34m▀█[0;1;30;44m░[0;34m█[0;1;30;44m░[0;34m▐█[0;1;30;44m▀ [0;34m▀   [0;33m■▄■█■▄■[0m          [1;30mand Equinox.[0m
-[1;30m [0;1;37m"Oh Fuck! It''s an afro [0;33m▀[0;1;30;43m▒[0;33m▌▄▐[0;1;30;43m▒░[0m   [34m▐█[0;1;30;44m░[0;34m█▐[0;1;30;44m▀░[0;34m▌    [0;1;30;43m▒░[0;33m▌▄▐[0;1;30;43m▒░[0m          [1;30;40mThe ansi''s HIS.[0m
-[1;30;40m  [0;1;37;40mwithout a face! Shit!  [0;33m▀▐[0;1;30;43m░[0;33m■▀[0m     [34m▀██▐█▀[0m      [33m▀■[0;1;30;43m░[0;33m▌▀[0m
-[33m  [0;1;37mI think it''s gonna eat[0m           [1;37m▄▄[0;34m▀[0;1;37m■[0;1;37;46m▓[0;1;37;40m▄[0m
+[1;30m [0;1;37m                       [0;33m▀[0;1;30;43m▒[0;33m▌▄▐[0;1;30;43m▒░[0m   [34m▐█[0;1;30;44m░[0;34m█▐[0;1;30;44m▀░[0;34m▌    [0;1;30;43m▒░[0;33m▌▄▐[0;1;30;43m▒░[0m          [1;30;40m               [0m
+[1;30;40m  [0;1;37;40m                       [0;33m▀▐[0;1;30;43m░[0;33m■▀[0m     [34m▀██▐█▀[0m      [33m▀■[0;1;30;43m░[0;33m▌▀[0m
+[33m  [0;1;37m                      [0m           [1;37m▄▄[0;34m▀[0;1;37m■[0;1;37;46m▓[0;1;37;40m▄[0m
 [1;37;40m  me!!!"[0m                         [1;37;40m▄[0;1;37;46m▓[0;1;37;40m█[0;1;37;46m▓▓[0;1;37;40m▌█[0;1;37;46m▓▓[0;1;37;40m▄[0m                        [1;30;40mtb!Mistigris[0m
 [1;30;40m▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄   ▄▄▄   ▄▄ [0;1;37;40m▀▀[0;1;37;46m▒[0;1;37;40m▀▐▀[0;1;37;46m▒[0;1;37;40m▀ [0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30;40m▄▄ ▄▄▄▄▄▄▄[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄▄▄▄ ▄▄▄[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;42m▓[0;1;30;40m▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
@@ -49,19 +49,19 @@ Write-Host '
 
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30;40m--------------------------------------------------------------------------------[0m
-[1;30;40mWell, I never get the chance to thank all the people who have inspired me in the[0m
-[1;30;40mansi area today.[0m
-[1;30;40mPeople who have inspired me:[0m
-[1;30;40mCarnifex.Spaceman Spiff.Ravage Bias.Incubus.Eeire.Scrupulous.Green Hornet.Cthulu[0m
-[1;30;40mToon.Xeryrus.Shamanize.Dark Force.Lord Jazz.Chromatik.Young.Acidic Soap.Jazz.[0m
-[1;30;40mNitnatsnoc.Maverick.and all the other artists out there![0m
+[1;30;40m                                                                                [0m
+[1;30;40m                [0m
+[1;30;40m                            [0m
+[1;30;40m                                                                                [0m
+[1;30;40m                                                                             [0m
+[1;30;40m                                                        [0m
 
-[1;30;40mGreets:[0m
-[1;30;40mAll of the above.[0m
-[1;30;40mDark:  The group that inspired me most.  Dark spelled backwards is Krad! :)[0m
-[1;30;40mMistigris:  Thanks for letting me in guys![0m
-[1;30;40mCreep: Good luck[0m
-[1;30;40mFuri: Thanks for Toon.  and Good luck! :)[0m
-[1;30;40mand all the other groups out there today who are letting artists get known.[0m
+[1;30;40m       [0m
+[1;30;40m                 [0m
+[1;30;40m                                                                           [0m
+[1;30;40m                                          [0m
+[1;30;40m                [0m
+[1;30;40m                                         [0m
+[1;30;40m                                                                           [0m
 
 [1;30;40m------------------------------------------------------------------tb!mistigris--[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 136b8ee88093b19f5e2efc7bbf798b3540c29cc74b5ce7be272d571ce645260a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XU-DWZ1.ANS by Xanadu (hr09-94); released in hr09-94 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 48-93
 # Columns: 1-80
 
@@ -50,9 +50,9 @@ Write-Host '
                     [37;40m▄▄▄▄██▀   ██▌ ▐██ ███▐████ ███▀▀[0m      [37;40m██[0m
            [37;40m▄▄▄▄▄▄████████████ ███████ ███ ▀███ █████[0m      [37;40m██[0m
                                                           [37;40m█[0m
-              [31;40m«[0;37;40m» [0m       [37;40mSysop[0;31;40m: [0;37;40mXanadu[0m           [37;40m«[0;31;40m»[0m        [37;40m█[0m
+              [31;40m [0;37;40m  [0m       [37;40m     [0;31;40m  [0;37;40m      [0m           [37;40m [0;31;40m [0m        [37;40m█[0m
             [31;40m«[0;37;40m»   486[0;31;40m/[0;37;40m66 [0;31;40m«[0;37;40m» 14[0;31;40m.[0;37;40m4 «[0;31;40m»[0;37;40m HR Dist[0;31;40m/[0;37;40mMemb   «[0;31;40m»[0m      [37;40m█[0m
               [31;40m«[0;37;40m»  9 [0;31;40mo [0;37;40m8  [0;31;40m«[0;37;40m»  5 2 2  «[0;31;40m»[0;37;40m [0;31;40mo[0;37;40m 3 5 3  «[0;31;40m»[0m        [37;40m█[0m
                                                           [37;40m▌[0m
                                                           [37;40m▌[0m
-                                                          [37;40m▌[0;31;40mXa[0;37;40mnadu [[0;31;40mH[0;37;40mR[0;31;40m][0m'
+                                                          [37;40m▌[0;31;40m  [0;37;40m      [0;31;40m [0;37;40m [0;31;40m [0m'

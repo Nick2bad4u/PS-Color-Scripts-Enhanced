@@ -5,7 +5,7 @@
 # Source SHA-256: a27a83a8c6df81bc85bbdb2b5f0e1d396dae69b43ae9819d8f99a06ea1670bab
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-ICEB1.ANS by burps (bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the ice box
 # SAUCE Author: burps
 # SAUCE Group: bleach
@@ -19,7 +19,7 @@ Write-Host '
 [1;40m [0;36m■▄▓■▀▓▄ ▄■▄▓▄ ░▄▓▀■▄ ▓▄■▀▄▓▄ ▓▄■▄▓ ▄■▓▄▀▄▓ ▄■ ▄ ▓▄▄▓■▓▄■ ▄▓ ▄▓ ▓ ▄▄░  ▄▓▄ ▓▄■[0;36;40m  [0m
 [36;40m ▓▀ [0;35m▄    ▄  [0;36m░ [0;35m▄  [0;36m▒ [0;35m▄    ▄  [0;36m░ [0;35m▄    [0;36m░█  ▀   ░   ▀  ░    ░    ░  ▒▀ [0;35m▄    ▄    [0;36m▒  █[0;36;40m [0m
 [36;40m ▒  [0;35m▐[0;1;35;45m▓[0;1;35;40m▄  [0;35m▐[0;1;35;45m▓[0;1;35;40m▄  [0;35m▐[0;1;35;45m▓[0;1;35;40m▄  [0;35m▐[0;1;35;45m▓[0;1;35;40m▄  [0;35m▐[0;1;35;45m▓[0;1;35;40m▄  [0;35m▐[0;1;35;45m▓[0;1;35;40m▄   [0;36m▓   [0;1;30mbs rocks :) again with [0;36m░  [0;35m▐[0;1;35;45m▓[0;1;35;40m▄  [0;35m▐[0;1;35;45m▓[0;1;35;40m▄  [0;36m░  ▓[0;36;40m [0m
-[36;40m ░   [0;1;35;45m░[0;35m▌   [0;1;35;45m▒[0;35m▌   [0;1;35;45m▒[0;35m▀█▄ [0;1;35;45m░[0;35m▀█▄ [0;1;35;45m▒[0;35m▀█▄ [0;1;35;45m▒[0;35m▌   [0;36m▒  [0;1;30ma fuckin'' shit ansi. you    [0;1;35;45m░[0;35m▌   [0;1;35;45m▒[0;35m▀█▄   [0;36m▒[0;36;40m [0m
+[36;40m ░   [0;1;35;45m░[0;35m▌   [0;1;35;45m▒[0;35m▌   [0;1;35;45m▒[0;35m▀█▄ [0;1;35;45m░[0;35m▀█▄ [0;1;35;45m▒[0;35m▀█▄ [0;1;35;45m▒[0;35m▌   [0;36m▒  [0;1;30m                            [0;1;35;45m░[0;35m▌   [0;1;35;45m▒[0;35m▀█▄   [0;36m▒[0;36;40m [0m
 [36;40m     [0;35m█■[0;1;35;45m▄[0;35m▄ [0;1;35;45m░[0;35m▌   [0;1;35;45m░[0;35m▄   [0;1;35;45m░[0;35m▌ ▀▌[0;1;35;45m░[0;35m    [0;1;35;45m░[0;35m■[0;1;35;45m▄[0;35m▄ [0;36m░   [0;1;30mcan order your ansi now.   [0;35m█■[0;1;35;45m▄[0;35m▄ ▀▄▄    [0;36m░[0;36;40m [0m
 [36;40m ■   [0;35m▓ ▐[0;1;35;45m▓[0;35m▌▐▌ ▄ ▐▌ ▄ ▐▓▄■ █▌ ▄ ▐ ▐[0;1;35;45m▓[0;35m▌  [0;1;30mcatch me in #ansi, #bleach,  [0;35m▓ ▐[0;1;35;45m▓[0;35m▌  ▐[0;1;35;45m▒[0;35m▌[0;35;40m    [0m
 [35;40m [0;36m▒   [0;35m▄█[0;1;35;45m░[0;35m▀▀▄█[0;1;35;45m░[0;35m▀▀▄█[0;1;35;45m░[0;35m▀▀▐▌  ▐[0;1;35;45m░[0;35m█[0;1;35;45m░[0;35m▀▀▄■▐[0;1;35;45m░[0;35m▀   [0;1;30mat cow@infoboard.be or [0;36m■▄   [0;35m▄█[0;1;35;45m░[0;35m▀▀▄█[0;1;35;45m░[0;35m▀▀[0;35;40m    [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 2df0188679366e5662c92495208ff65a46e25d4cbdc9e6d09ef5280954701be0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-TUD.ANS by Iron Man (acdu0593); released in acdu0593 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
 
 
 
-                         [1m* /[0;1;35m┤C[0;35miD PRODUCTIONS PRESE[0;1;35mNT[0;1;37mS *[0m
+                         [1m   [0;1;35m┤ [0;35m                    [0;1;35m  [0;1;37m   [0m
 
 
 [1;37m──[0m──[1;30m────────────────────────────────────────────────────────────────────────[0m──[1m──[0m
@@ -28,5 +28,4 @@ Write-Host '
                       [31m▀   [0;37m▄[0;1;33;47m▄[0;1;33;43m▓▓▓▓▓▓[0;1;37;47m░[0m ▄[1;33;47m▄[0;1;33;43m▓▓▓▓▓[0;1;33;47m [0m [1;33;47m [0;1;33;43m▓▓▓▓▓[0;1;33;47m▄[0m▄ [31m▀[0m
                         [37m▄[0;1;33;47m▄[0;1;33;43m▓▓▓▓▓▓[0;1;33;47m▀[0m▀▄[1;33;47m▄[0;1;33;43m▓▓▓▓▓▓▓[0;1;30;47m░[0m [1;30;47m░[0;1;33;43m▓▓▓▓▓▓▓[0;1;33;47m▄[0m▄
                        ▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀
-[1m──[0m──[1;30m────────────────────────────────────────────────────────────────────────[0m──[1m──[0m
-'
+[1m──[0m──[1;30m────────────────────────────────────────────────────────────────────────[0m──[1m──[0m'

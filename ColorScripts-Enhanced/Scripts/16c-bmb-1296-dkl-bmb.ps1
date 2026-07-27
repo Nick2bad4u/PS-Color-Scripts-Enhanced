@@ -5,7 +5,7 @@
 # Source SHA-256: d14bd8ad6fdb2257f9cee0e744307981cb931b067916824b4fdb0426f9505d2c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DKL-BMB.ANS by Darklord (Bamboosh); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bamboosh
 # SAUCE Author: Darklord
 # SAUCE Group: Bamboosh
@@ -22,6 +22,4 @@ Write-Host '
  [36m    [0m   [1;30m▀▓██▄[0m [35m [0;35;44m██[0;35;40m███[0m   [36;40m█[0;1;36;46m▄▓▄[0;36m█[0;37m  [0;36m▀[0;1;36;46m  [0;36;47m▓[0;37;40m  [0;1;36;46m    [0;36;47m▓[0m   [1;36;46m ▄▓▄ [0m [35m█████[0m   [1;36;46m ▄▓▄ [0;1;30;40m ▐████▓▀[0m
 [36m [0;37m [0;36m   [0;37m       [0;1;30m▓▀[0m [35m█[0;1;35;45m▓▄[0;35m█[0;35;44m█[0m   [36;40m██[0;1;36;46m▀[0;36m██[0;35m █▄▄[0;37m [0;36m▀[0;37m  [0;1;36;46m ▄▓▄ [0m   [1;36;46m  ▀  [0m [35m█[0;1;35;45m▓▄[0;35m██[0m   [1;36;46m  ▀  [0m [1;30m▀▓█▀[0m
 [36m [0;37m [0;36m   [0m   [37m    [0m   [35m▀▀▀▀▀[0;37m   [0;36m████[0;36;47m▓[0;37;40m [0;35;40m█[0;1;35;45m▓▄[0;35m██[0;37m  [0;1;36;46m  ▀  [0m   [36m▀▀▀▀▀[0;37m [0;35m▀▀▀▀▀[0m   [1;36;46m    [0;36;47m▓[0m
-[36;40m [0;37;40m [0;36;40m   [0;37;40m  [0;36;40m▀ ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37;40m [0;35;40m▀▀▀▀▀[0;37;40m  [0;36;40m▀▀▀▀▀[0;37;40m [0;36;40m▀[0;37;40m [0;36;40m▀▀[0;37;40m [0;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[37;40m    [0m    [37;40mOk, this logo is''nt the best you''ve seen, but still, it''s not[0m
-[37;40m                   [0m          [37;40mTHAT bad! --darklord[0m'
+[36;40m [0;37;40m [0;36;40m   [0;37;40m  [0;36;40m▀ ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37;40m [0;35;40m▀▀▀▀▀[0;37;40m  [0;36;40m▀▀▀▀▀[0;37;40m [0;36;40m▀[0;37;40m [0;36;40m▀▀[0;37;40m [0;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

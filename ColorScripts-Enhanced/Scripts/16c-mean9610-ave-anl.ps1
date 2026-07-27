@@ -5,7 +5,7 @@
 # Source SHA-256: 53c0862d25fe2249ac045fbe1b8a64284ffa618b9fad5de711a12f6abe55acb2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-ANL.ANS by avenger (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: animal ansi :)
 # SAUCE Author: avenger
 # SAUCE Date: 19961031
@@ -28,6 +28,4 @@ Write-Host '
 [1;44m▐█[0;1;45m█[0;1;44m▓[0m      [1;47m▐[0;1;40m██[0;1;44m▓[0;1;40m [0m▄[1;47m▄▓[0;1;40m█▀[0m      [1;44m░██▓[0m [1;44m▐███[0m [1;44m░██▓[0m     ▀[1m▀▀▀[0m   [1;44m▐██▓[0m [1;44m▐███[0m     [1;47m▐[0;1;44m██[0;1;40m▀▀[0m [1;44m▐███[0m
 [1;47m▐[0;1;45m██[0;1;44m█[0;1;40m▌[0m   ▄[1m▄[0;1;47m▄[0;1;40m████▄[0m▀[1m▀▀[0m       [1;44m▐███[0m [1;44m▐███[0m [1;44m▐███[0m            [1;44m▐███[0m [1;44m▐█[0;1;47m▓▓[0;1;40m▄[0;34m [0;37m▀[0;1;37m▀[0m      [1m▀█[0;1;44m███[0;1;40m▌ [0m
 ▀[1;47m▀[0;1;44m▓▓[0;1;40m▀[0m▄[1;47m▄[0;1;40m███▀▀▀▀[0;36m     [0m       [1;37;44m▐███[0m      [1;44m▐███[0m            [1;44m▐███[0m [1;44m▐[0;1;40m▀▀[0;30;47m▓▓[0m            [1;37;40m▀▀█▄[0m
-  [1m▀[0;35m  [0;1;37m [0m▀[1m▌[0;30;47m▓▓[0m   [36;40m       [0m      [30;47m█▓▓▓[0m                                      [1;37;40m..ave[0m    [1m [0m
-             [36m       [0m
-    [37mthis is an official distribution site of [0;1;37manimal / sac ^ hymen ^ hx![0m'
+  [1m▀[0;35m  [0;1;37m [0m▀[1m▌[0;30;47m▓▓[0m   [36;40m       [0m      [30;47m█▓▓▓[0m                                      [1;37;40m..ave[0m    [1m [0m'

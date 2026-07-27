@@ -5,7 +5,7 @@
 # Source SHA-256: 77aff52289926c0b22f224b009eca1f603ae02453b90534a98ade7bfa064be36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SS-FB.ANS by Soul Seeker (blde9404); released in blde9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -29,26 +29,26 @@ Write-Host '
 [1;30;40m  ▀[0;1;30;44m▄[0;34m█[0;1;34;44m▀[0;34m█[0;1;30;44m▀[0;1;30;40m▄[0m       [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m            [1;30;40m▀[0;1;30;44m▄[0;34m█[0;1;34;44m▀[0;34m█[0;1;30;44m▀[0;1;30;40m▄[0m       [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30;40m    ▀▀[0;1;30;44m▄▄[0;1;30;40m▀[0m                                  [1;30;40m▀▀[0;1;30;44m▄▄[0;1;30;40m▀[0m
 
-     [1;30;40m- I found this phat ass hip-hoppin pic on the "Gin & Juice" Single -[0m
-[1;30;40m Colossus [ViCE] - Whass ya name foo!./.Get ViCE going!!!!!!!..................[0m
+     [1;30;40m                                                                    [0m
+[1;30;40m                                                                               [0m
 [1;30;40m MindCrime [BLADE] - What a fucking pack!!!!!!!!!..............................[0m
-[1;30;40m Corwin of Amber [ACiD] - Sorry I am soooo annoying............................[0m
+[1;30;40m                                                                               [0m
 [1;30;40m Equinox [HCH/EMPiRE] - Waiting on that Lit....................................[0m
-[1;30;40m ShaMan [VSW] - I don''t know, ask Corwin if you are in.........................[0m
-[1;30;40m Napalm [CiA/P∩A] - Whats up pal?...I have to call your board sometime!........[0m
-[1;30;40m Beastie [ACiD] - Hmmmm Affiliation WHORE...Me? ;).............................[0m
-[1;30;40m Special Ed/Nitrous [iCE] - What happend to your board?  On vacation?..........[0m
-[1;30;40m Janzik Darkness [CiA/DHSE] - Whats up?  Why you been avoiding me?.............[0m
-[1;30;40m TechnoPhreak [BLADE/SCaR] - Nice Spawn, should have put "BLADE" on it ;)......[0m
-[1;30;40m Killean [TRiBE] - Damn, maybe I should stay with Renegade.....................[0m
-[1;30;40m BLADE - Dudes, where are some of you???  You are gonna get booted.  Call EI!..[0m
+[1;30;40m                                                                               [0m
+[1;30;40m                                                                               [0m
+[1;30;40m                                                                               [0m
+[1;30;40m                                                                               [0m
+[1;30;40m                                                                               [0m
+[1;30;40m                                                                               [0m
+[1;30;40m                                                                               [0m
+[1;30;40m                                                                               [0m
 [1;30;40m SPLaT - I still need that courier dudes.......................................[0m
-[1;30;40m MAD - Same thing with you guys, send up a courier.............................[0m
-[1;30;40m TDWP - Been slow lately...Too many releases at once...slow down a few a month.[0m
-[1;30;40m HCH - Keep up the good text files, and don''t listen to any bad criticism......[0m
+[1;30;40m                                                                               [0m
+[1;30;40m                                                                               [0m
+[1;30;40m                                                                               [0m
 [1;30;40m CiA - No hard feelings.  Keep the art up......................................[0m
-[1;30;40m ViP - Wow, when you lose contact, you really lose it don''t ya...Sorry guys....[0m
-[1;30;40m Vi - Guys, when I lost contact with PFANet, I lost you...Give Ravenhill a call[0m
+[1;30;40m                                                                               [0m
+[1;30;40m                                                                               [0m
 [1;30;40m [0;1;37;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;37;40m ██████████████████████████████████████████████████████████████████████████████[0m
 [1;37;40m ██████████████████████████████████████████████████████████████████████████████[0m

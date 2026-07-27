@@ -5,7 +5,7 @@
 # Source SHA-256: b41b3962e3165eb5fa99686eef9d68a14782e21716cbce2408aaddc28cb2dce6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: U7%GRAPE.ANS by _undertaker (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: grape
 # SAUCE Author: _undertaker
 # SAUCE Group: fusion
@@ -42,12 +42,7 @@ Write-Host '
 
 [37m░░░               [0m
 [37m   [0m
-[1;37mnotes ''n'' so:[0m
-milkman, add commands and stuff, didn''t have the time
-to do that stuff, hope it is GOOd .. and juicy ;))
---
-some menu for milkman''s  [1mgrape[0m.. wanna have your own ansi/23liner/logo?
-email me @: [1mjohan.soderberg@gotland.mail.telia.com[0m
-i don''t take so "much" free requests anymore.
-buy one for some bucks, or draw me something
-for my board > [1mthe outpost[0m'
+[1;37m             [0m
+                                                     
+                                                  
+--[0m'

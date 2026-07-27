@@ -5,7 +5,7 @@
 # Source SHA-256: 213ab9d683320b7a4bccf5f2274e9920889dec16b5d5bc5d0338cec1f53a4f3a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 074-KERM.ANS by lemon1zer (e c o l o v e(ecl)); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kermit de kikker
 # SAUCE Author: lemon1zer
 # SAUCE Group: e c o l o v e(ecl)
@@ -31,9 +31,4 @@ Write-Host '
      [33m  144   [0;32m▀▀▄ [0;33m░░░[0;32m  [0;33m██▓[0;32m ▀[0;1;33;42m▀▀▄[0;32m▄  [0;33m░░░░[0;32m      ▄▀▀[0m       [32m▀▀   [0;1;30m▀[0;32m█[0;1;33;42m▄▀▀[0;32m [0;1;30m▀[0;32m▀[0;1;33;42m▀░▄[0;32m▄[0;1;33;42m▄▓▓[0;32m▌ [0m
                  [37;43m░▓[0;37;40m█[0;32;40m  [0;33;40m███[0;32;40m [0;33;40m▄▄[0;32;40m [0;1;30;40m▀[0;32m▀▀▄▄[0m        [33m▄▄▄[0;37;43m░[0;32;40m  [0;33;40m██[0;32;40m  [0;33;40m██[0m      [1;30;40m▀[0m       [1;30m▀[0;32m▀▀█[0;1;33;42m░░[0;32m [0m
      [33m▀[0;32m  [0;33m▀[0m   [33m▀▀[0;32m [0;33m▀▀█[0;37;43m [0;33;40m█▀▀▀▀▀▀▓▓▀[0m      [1;30;40m▀[0;32m  [0;33m   ▀█[0;37;43m░[0;37;40m██[0;33;40m▀▀██▀▀▓▓▀[0;32;40m [0;33;40m  ▀▀▀[0m    [33;40m▀[0m
-                          [33;40m░░[0m                        [33;40m░░[0m
-             [1;31;40m [0m                                   [33m [0;1;30m [0m
-<<144>> i hope you know this frog?!? :)_
-        i made this because i was kinda downn and had no inspiration at all
-        and yes it says kirmit and not kermit, because i want it this way!
-        bye bye ..[0m'
+                          [33;40m░░[0m                        [33;40m░░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 63fb0ea211551f0ec7e0fa4f6ef95ae318750cc99c2f8c598bdbe9e1d74fe58c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VC-MOON.ANS by Voice (bm-pack1); released in bm-pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-99
 # Columns: 1-80
 
@@ -39,15 +39,15 @@ Write-Host '
 [34m░▒░[0m        [37m█[0;1;30m░░[0m     [1;30m░ ░[0m          [1;30m░░[0m     [1;30m░ ░   ░    ░ ░ ░    ░    ░░    ░ [0m█    [34m░░░[0m
 [34m░░░[0m        [37m█[0m                                                            [37m█[0m     [34m░▒[0m
 [34m░▒[0m         [37m█[0m                                                            [37m█[0m     [34m░▒[0m
-[34m░░[0m         [37m█[0m       [35m"D[0;1;35mi[0;35ms[0;1;35mi[0;35mnt[0;1;35mi[0;35mgrat[0;1;35mi[0;35mon - balls of f[0;1;35mi[0;35mre l[0;1;35mi[0;35mne the wall[0m        [37m█[0m     [34m░▒[0m
-[34m▒░[0m         [37m█[0m        [35mBra[0;1;35mi[0;35mn-dead, destroyed, ha[0;1;35mi[0;35mled by nat[0;1;35mi[0;35mons[0m            [37m█[0m     [34m░░[0m
-[34m░░[0m         [37m█[0m        [35mCr[0;1;35mi[0;35mppl[0;1;35mi[0;35mng, crumbl[0;1;35mi[0;35mng, fall[0;1;35mi[0;35mng to dust[0m               [37m█[0m     [34m░░[0m
-[34m░[0m          [37m█[0m        [35mThe stream stops flow[0;1;35mi[0;35mng[0m                            [37m█[0m      [34m░[0m
-[34m░[0m          [37m█[0m                    [35m- [0;1;35mi[0;35mnterrupted by Heaven -[0m               [37m█[0m      [34m░[0m
-[34m░[0m          [37m█[0m        [35mWater decay[0;1;35mi[0;35mng, evanescence of the wont[0m             [37m█[0m
-[34m░[0m          [1;30;47m░[0m        [35mRemembrance [0;1;35mi[0;35mnsane...[0m                               [1;30;47m░[0m      [34m░[0m
+[34m░░[0m         [37m█[0m       [35m  [0;1;35m [0;35m [0;1;35m [0;35m  [0;1;35m [0;35m    [0;1;35m [0;35m               [0;1;35m [0;35m    [0;1;35m [0;35m           [0m        [37m█[0m     [34m░▒[0m
+[34m▒░[0m         [37m█[0m        [35m   [0;1;35m [0;35m                     [0;1;35m [0;35m          [0;1;35m [0;35m   [0m            [37m█[0m     [34m░░[0m
+[34m░░[0m         [37m█[0m        [35m  [0;1;35m [0;35m   [0;1;35m [0;35m          [0;1;35m [0;35m        [0;1;35m [0;35m          [0m               [37m█[0m     [34m░░[0m
+[34m░[0m          [37m█[0m        [35m                     [0;1;35m [0;35m  [0m                            [37m█[0m      [34m░[0m
+[34m░[0m          [37m█[0m                    [35m  [0;1;35m [0;35m                      [0m               [37m█[0m      [34m░[0m
+[34m░[0m          [37m█[0m        [35m           [0;1;35m [0;35m                           [0m             [37m█[0m
+[34m░[0m          [1;30;47m░[0m        [35m            [0;1;35m [0;35m        [0m                               [1;30;47m░[0m      [34m░[0m
 [34m░[0m          [1;30;47m▒[0m                                                            [1;30;47m▒[0m      [34m░[0m
-           [1;30;47m▓[0m                   [35mand all the Horror of Goodness."[0m         [1;30;47m▓[0m
+           [1;30;47m▓[0m                   [35m                                [0m         [1;30;47m▓[0m
            [1;30;47m█[0m                                                            [1;30;47m█[0m
            [1;30;40m▓[0m                                                            [1;30;40m▓[0m
            [1;30;40m▒[0m                        [35m∙ -VO[0;1;35mi[0;35mCE- ∙[0m                         [1;30m▒[0m
@@ -56,7 +56,7 @@ Write-Host '
 [1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;36;46m                                                                         [0;1;37;46m░░▒▒▓▓█[0m
 [1;37;46m [0;1;30;46m▀[0;1;30;40m▀▀▀▀▀▀[0;1;30;46m▄     [0;1;36;46m100% Original          [0;1;37;46mGreetz to:                          ░░▒▒▓▓█[0m
-[1;37;46m     [0;1;30;40m█ [0;1;30;46m [0;1;30;40m█ [0;1;30;46m    [0;1;36;46m<Seal Of Quality>      [0;1;37;46mFiReBaLL, Last V8, Mr InCogNito,    ░░▒▒▓▓█[0m
+[1;37;46m     [0;1;30;40m█ [0;1;30;46m [0;1;30;40m█ [0;1;30;46m    [0;1;36;46m                       [0;1;37;46m                                    ░░▒▒▓▓█[0m
 [1;37;46m   [0;1;30;46m▀[0;1;30;40m▀▀▀▀▄ [0;1;30;46m                           [0;1;37;46mCoke, TΣX, and all the others...    ░░▒▒▓▓█[0m
 [1;37;46m     [0;1;30;40m█ [0;1;30;46m [0;1;30;40m█ [0;1;30;46m                                                               [0;1;37;46m░░▒▒▓▓█[0m
      [1;30;40m█  ▄ \/()i[E[0m                                             [1;30;40m-═-═- November ''94[0m'

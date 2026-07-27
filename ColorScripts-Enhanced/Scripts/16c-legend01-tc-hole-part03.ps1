@@ -5,7 +5,7 @@
 # Source SHA-256: 609fa26ea4033aab8d629c3680b2ab9b8591d283f038f423f1e50a25bb8a21b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TC-HOLE.ANS by The Clone (Legend); released in legend01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hole
 # SAUCE Author: The Clone
 # SAUCE Group: Legend
@@ -49,6 +49,6 @@ Write-Host '
 [1;30m   [0;1;37;47m▓▓▒▒[0m [36m▀■▄[0;36;42m▒░[0;30;42m■[0;32;40m▓[0;32;47m█▓[0;37;40m [0;1;37;40m▄▄ [0;36m▀[0;32m▀▀▀[0;32;47m▓[0;37;40m [0;1;37;47m▓▓[0m▄▄▄ [30;42m▄[0;36;40m▀[0;30;42m▄[0;36;40m▀▀■[0;1;37;40m▄[0m▄[1;30m▄[0;1;30;47m▓[0m [36m▀▀[0;30;42m▄[0;1;32;42m░░[0;30;42m■░[0;37;40m [0;1;37;47m▓▓[0m▄▄▄ [36m▀[0;32m▀▀[0;36m■▄[0;36;42m▓▒░[0;30;42m■[0;1;32;40m▀[0;32m▀[0;1;32m▀ [0;1;30;47m▒▒▓▓[0m
 [1;30m   [0;1;37;47m▒▒░░[0m█[1;30;47m░[0m▄[1;30m▄ [0;36m▀[0;32m▀▒▀[0;32;47m▓[0;37;40m [0;1;37;47m▓▓▒▒░░[0m▄▄[1m▄[0;1;47m▒▒░░[0m█[1;47m░░[0m█[47m    [0;1;30;47m░[0;1;30;40m▀ [0;32m▄[0;1;32m▄[0;32m▄[0;1;32m▄▄ [0m▄ [30;42m▄▐[0;1;37;40m▐[0;1;37;47m▒▒░░[0m█[1;47m░░[0m█▄▄▄▄▄▄▄[1;30;47m░░ ░░▒▒[0m
 [1;30m  [0;1;37m▀▀[0m▀▀▀▀[1;30;47m▒[0m▀▀[1;30m▀▀ [0;32m░  [0;1;37m▐▀[0m▀▀▀▀▀▀[1;30;47m░[0m▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀[1;30m▌[0;32m▐[0;36;42m░[0;1;32;42m░▒▓[0;1;32;40m▌[0m▀ [1;32m■ [0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;30;47m░[0m▀[1;30m▀[0m
-[1;30m [0mansi[1;30m?[0morsomecheapimmitation[1;30m??..[0myoujudgeit[1;30m! [0;36m▀[0;36;42m░[0;1;32;42m░▒▓[0;1;32;40m▀ [0mThe Clone[1;30m.[0mof[1;30m.[0mTheUnchained[1;30m!!..[0m
-[1;30m   ...[0myoufindthefreakin800numba[1;30m,[0mthengiveittome[1;30m.. [0mpenguinmonthlywannabesite[1;30m..[0m
+[1;30m [0m    [1;30m [0m                     [1;30m    [0m          [1;30m  [0;36m▀[0;36;42m░[0;1;32;42m░▒▓[0;1;32;40m▀ [0m         [1;30m [0m  [1;30m [0m            [1;30m    [0m
+[1;30m      [0m                         [1;30m [0m              [1;30m   [0m                         [1;30m  [0m
 [1;30m [0m▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0m'

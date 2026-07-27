@@ -5,7 +5,7 @@
 # Source SHA-256: b5d4baa72edfbaf160007e9ba68e188e0e88c695c72e8e4bd116a3b1b53a4075
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PP-ECKS.ANS by phorce phed (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ecks
 # SAUCE Author: phorce phed
 # SAUCE Group: leper society
@@ -34,5 +34,4 @@ Write-Host '
 [35m ▄▄▄▄▄▄▄▄▄▄[0;1;33;45m▄▄[0;1;33;43m▒[0;1;33;46m▓▓[0;1;33;42m▓[0;35m█  █[0;1;33;46m▒▒[0;1;33;42m▓[0;35m█▄▄▄▄▄▄▄▄▄▄▄ █[0;1;33;43m░[0;1;33;46m▒[0;1;33;42m▒[0;35m█ [0;1;30m█ [0;35m█[0;1;33;46m▓▒[0;1;33;42m░[0;1;33;44m▓[0;1;33;43m░[0;1;33;46m▒[0;1;33;44m▓[0;1;33;45m█[0;1;33;44m░[0;1;33;43m░[0;1;33;46m▒[0;1;33;44m░[0;35m█ ▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33;45m▄▄[0;1;33;46m▓[0;1;33;44m▒[0;1;33;45m▌[0;35m▌[0m
 [35m █[0;1;33;43m░[0;1;33;46m▒▓[0;1;33;45m█[0;1;33;42m▓[0;1;33;45m█[0;1;33;46m░[0;1;33;43m▓▒[0;1;33;46m░[0;1;33;43m▓░[0;1;33;45m▀▀[0;35m▀ [0;1;30m▄ [0;35m█[0;1;33;44m░[0;1;33;45m█[0;1;33;46m░▓[0;1;33;44m▒[0;1;33;46m▓[0;1;33;45m█[0;1;33;46m▒[0;1;33;44m▓[0;1;33;46m▒[0;1;33;44m▒[0;1;33;43m▒▓░[0;35m█ █[0;1;33;44m░[0;1;33;43m░[0;1;33;46m▒[0;35m█ [0;1;30m█ [0;35m█[0;1;33;43m▓[0;1;33;45m█[0;1;33;46m▒[0;1;33;45m██[0;1;33;46m░[0;1;33;44m░[0;1;33;45m█[0;1;33;46m▓[0;1;33;43m▓░[0;1;33;45m█[0;35m█ [0;35;45m [0;1;33;44m▒[0;1;33;46m▓[0;1;33;45m█[0;1;33;46m▒[0;1;33;44m▓[0;1;33;45m█[0;1;33;44m▒[0;1;33;45m█[0;1;33;46m▒[0;1;33;44m▓[0;1;33;45m█[0;1;33;44m▒[0;1;33;43m▒▓░[0;1;33;42m░[0;35m█[0m
 [35m ▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;30m▄▄█▓ [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀ [0;1;30m█ [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;30m▄[0m
-[1;30m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓  pp  ▀▀[0m
-[1;30m [0;30m(c) phorce phed [leper society] mcmcxvi - triple-a sucks :)[0m            [1;30m[ls][0m'
+[1;30m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓  pp  ▀▀[0m'

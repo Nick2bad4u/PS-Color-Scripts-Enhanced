@@ -5,19 +5,19 @@
 # Source SHA-256: 4f5ae689407548e6eaa906fb1a5fcfc7b2e3d9989ce158f4afed815f6f698307
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: po-pb01.ans by Portia (equate01); released in equate01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 189-219
 # Columns: 1-80
 
 Write-Host '
-[1;36mthe most beautiful in the world, is quickly becoming the most tainted [0m
-[36m         [0m                 [36minocence is lost in the tip of a needle ,, [0m
-                          [36mthe steel of a 9mm ...[0m
-                  [37mprettybullitz..[0;1;31mexperience[0m
-[1mprettybulltz[0m [1mthe peice of art work you have[0m
-[1mjust seen was created by pOrtia it is totaly[0m
-[1morginal[0;1;33m [0;1;34m,,,,,,,,,,,[0m       [1;36mportia_goat13@hotmail.com[0m    [1;34m░░░  [0m
-                      [35m   [0;37m [0;35mlove goes out to danielle, karyn sarah[0;37m [0;35mand louise[0m
+[1;36m                                                                      [0m
+[36m         [0m                 [36m                                           [0m
+                          [36m                      [0m
+                  [37m               [0;1;31m          [0m
+[1m            [0m [1m                              [0m
+[1m                                            [0m
+[1m       [0;1;33m [0;1;34m           [0m       [1;36m                         [0m    [1;34m░░░  [0m
+                      [35m   [0;37m [0;35m                                      [0;37m [0;35m          [0m
 
 
 
@@ -36,7 +36,5 @@ Write-Host '
                   [36m  [0;1;30;46m█▄▒░[0;36m███[0;1;30;46m░░[0;1;32;46m░[0;30;46mpo[0;1;36;40m▒[0;36m [0;37m [0;36m ▀█[0;1;32;46m▄▓▓░[0;1;30;46m░[0;36m██[0;1;30;46m▓▄▄[0;1;30;40m▀[0;36m  [0m
                     [1;30m  ▀[0;1;30;46m▓▄░[0;36m█▀▀▀░░[0;30;46m▓[0m     [36;40m▀▀[0;1;32;46m░[0;1;30;46m░[0;1;30;40m▓[0;1;30;46m▄[0;1;30;40m▀▀[0;36m   [0m
                        [36m      [0m   [36m [0m        [36m [0;37m [0;36m   [0m
-[30;46m████[0;36;40m [0m                 [30;46mportia[0;37;40m [0;1;36;40mansi arrangments   [0m
-    [30;46m███[0m               [36;40mooo [0m
-
-                                  [35;40m       [0m'
+[30;46m████[0;36;40m [0m                 [30;46m      [0;37;40m [0;1;36;40m                   [0m
+    [30;46m███[0m               [36;40mooo [0m'

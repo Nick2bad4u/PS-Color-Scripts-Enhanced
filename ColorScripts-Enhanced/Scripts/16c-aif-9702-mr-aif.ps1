@@ -5,7 +5,7 @@
 # Source SHA-256: 2c91678a6c351fc07bf31549f4d6857da5e685740b4e26ac7ab4b48b97eaf847
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-AIF.ANS by .,s$(minotaur)$s,. (.,s$(CSF)$s,.); released in aif-9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: " aif logo "
 # SAUCE Author: .,s$(minotaur)$s,.
 # SAUCE Group: .,s$(CSF)$s,.
@@ -33,15 +33,11 @@ Write-Host '
 [1;32;42m▌[0;32m ▄[0;1;32m█[0;1;32;42m▄[0;32m▄[0;37m [0;36m▀█[0;1;36;46m ▀▀███████▄▄[0;36m▄▄▄█[0;1;36;46m▄███▌[0;36m█▌ [0;35m▐█[0;1;35;45m▐██▀▀▀▀▀[0;35m█▀▀  [0;37m██[0;1;37;47m██████▌[0m█▌[32m  [0;37m▀█[0;1;37;47m▀█████▀[0m█▌[1;32m [0;32m█[0;1;32;42m▀[0;1;32;40m█[0;1;32;42m▄▄[0;32m▌[0;1;32;42m▐[0m
 [36m          ▀▀▀▀▀▀▀▀▀▀▀[0;1;36;46m▀▀▀▀▀▀▀▀[0;36m█  [0;35m▀▀▀▀▀▀[0m    [30;42m█▓▓[0;37;40m  [0;1;35;47m░[0m█[1;47m▐██▀▀▀▀[0;1;35;47m░[0m▀[32m   [0;37m▐[0;1;35;47m░[0;1;37;47m▐▀▀▀[0m█▀[32m [0m
 [37m  [0;30m    [0;32m [0;1;30m▄[0;32m [0m             [30m   [0;32m  [0;37m [0;36m▀▀▀▀▀[0;37m [0;1;33;47m [0;1;33;43m▓█▄▄ [0;33m░░[0m       [37m▀▀▀▀▀[0m    [1;33m   [0m ▀▀▀▀     [1;30m [0m [32m [0;1;30m▄[0;32m [0m
-[37m  [0;30m    [0;1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0m    [36mART iN FUCK!@!#[0;32m     [0;37m▐[0;1;33;47m▐[0;1;33;43m█[0;33m▐[0;1;33;43m▀▀[0;33m▌[0;37m  [0;32m minotaur[0;1;32m[[0mcsf[1;32m][0m   [1;33m  [0;1;30m    [0m      [1;30m [0m [1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0m
+[37m  [0;30m    [0;1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0m    [36m               [0;32m     [0;37m▐[0;1;33;47m▐[0;1;33;43m█[0;33m▐[0;1;33;43m▀▀[0;33m▌[0;37m  [0;32m         [0;1;32m [0m   [1;32m [0m   [1;33m  [0;1;30m    [0m      [1;30m [0m [1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0m
   [30m       [0m             [30m             [0;1;33m░░[0;30m    [0m          [1;30m   [0m     [1;33m   [0;1;30m [0m         [30m   [0m
                                [37m▐[0;1;33;47m▐[0;1;33;40m███[0;1;33;43m▄▄ [0;33m▓░░[0m          [1;30m   [0m    [1;30m [0;1;33m  [0;1;30m [0m
                               [1;33m [0;1;33;47m [0;1;33;40m██████[0;1;33;43m▌[0;33m▌[0m            [1;30m   [0m    [1;30m [0;1;33m   [0m
                               ▐[1;33;47m▐[0;1;33;40m██▌[0;1;33;43m▀▀  [0m              [1;30m  [0m    [1;30m  [0;1;33m  [0m
                                [1;33m░░▓[0m
                                  [1;33m░[0m
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30m- AiF[0m [1;30m= ART iN FUCK ( FUCK GROUP ART DiViSiON ) [0m
-[1;30m- i DONT KNOW WHAT THAT YELLOW-BROWN-GRAY SPOTS MEAN , BUT FUCK![0m
-[1;30m- minotaur@nitnet.com.br ( [0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: 053fd85cfaffc20321fbbecdac36c4bbed9607d9f7f5de75844dad7f891b1a04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: _COVER.ANS by Mist (spr_06); released in spr_06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
 Write-Host '
-[1;30;47m▄[0m  [1;31mspiral #6[0m   [1;30;47m▄[0m [1;36ma[0mnsi [1;36ma[0mrt [1;36mw[0mykonal [1;36mm[0mist/[1;36ms[0mpiral+[1;36mm[0mo0nflow [1;36m■▀ [0m■▀[1;30m ■▀[0m [1;30m ░[0m    [33m▀▀▀▀[0;37m [0;33m [0m
+[1;30;47m▄[0m  [1;31m         [0m   [1;30;47m▄[0m [1;36m [0m    [1;36m [0m   [1;36m [0m       [1;36m [0m    [1;36m [0m      [1;36m [0m        [1;36m■▀ [0m■▀[1;30m ■▀[0m [1;30m ░[0m    [33m▀▀▀▀[0;37m [0;33m [0m
 [1;30m▓ [0m             [1;30m▓[0m [1;31;41m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [1;30m▒[0;31m [0;1;31;41m░░░░░░░░░░░░[0m
 [1;30m▒ [0m  [1;34mstyczen[0m    [1;30m▒[0m [31m█████████████████████████████████████[0;1;31;41m  ▄▄[0;31m█████[0;37m [0;1;30m▄▓[0m [31m██[0;1;31;41m ▄▄[0;31m█[0;1;31;41m▄[0;31m█████[0m
 [1;30m░ [0m  [1;34m2 0 0 2[0m    [1;30m░[0m [31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▀▀▀▀[0;37m [0;1;30m▄[0m [1;30m▄ [0;1;34m [0;34m▄[0;1;34m [0;1;30m▄[0m [31m▀▀▀▀▀▀▀▓▓▓[0m
@@ -34,4 +34,4 @@ Write-Host '
 [1;33;43m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [33m▓██[0;1;33;43m░[0m [1;33;43m░░░░[0m
 [33m█████████████████████████████████████████████████████████████████████[0;37m [0;33m▓██[0;1;33;43m░[0m [33m████[0m
 [33m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37m [0;33m▓██[0;1;33;43m░[0m [33m▓▓▓▓[0m
-[1;30m(c)[0m [1;36ms[0mpiralne [1;36mp[0mrodukcje [1;36m2[0m0o[1;30m2[0m     [1;30m|[0;1;36mk[0mod[1;30m - [0;1;36mn[0mostre[1;30m|[0m     [1;36ms[0mpiral - [1;36mm[0mike [1;36mw[0mith [33m▓██[0;1;33;43m░[0m [1;36mm[0mist[0m'
+[1;30m   [0m [1;36m [0m        [1;36m [0m         [1;36m [0m  [1;30m [0m     [1;30m [0;1;36m [0m  [1;30m   [0;1;36m [0m     [1;30m [0m     [1;36m [0m        [1;36m [0m    [1;36m [0m    [33m▓██[0;1;33;43m░[0m [1;36m [0m   [0m'

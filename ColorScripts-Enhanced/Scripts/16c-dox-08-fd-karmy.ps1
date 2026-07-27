@@ -5,7 +5,7 @@
 # Source SHA-256: 2c7e15b5150a696054335ede77187b02a8aa98115b896d5c1edd6bae3cefbf7a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FD-KARMY.ANS by flood/chef (dox); released in dox_08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: killarmy logo
 # SAUCE Author: flood/chef
 # SAUCE Group: dox
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m [0;1;36mChef[0;1;30m@[0;36mdox[0;1;30m [0m
+[1;30m [0;1;36m    [0;1;30m [0;36m   [0;1;30m [0m
 
 
 
@@ -32,8 +32,4 @@ Write-Host '
            [46m▒[0;36;40m█[0;1;36;46m█████▓▓▓▓▓[0;36m█[0;1;30;46m░░[0m [1;30m██▐[0m [1;36;46m████████[0;36m██[0;1;34;46m▀[0;36m██[0;37m  [0;1;30m▐▀[0m   [36m█[0;1;30;46m░[0;36m█[0;1;36;46m██▄[0;36m█[0;1;36;46m    [0;46m░░[0m           [1;30;40m■[0m  [1;30m▐▌[0m
           [46m░▒░[0;36;40m█[0;1;36;46m████[0;1;37;40m██[0;1;36;46m████[0;1;30;46m░▒[0m  [1;30m▄[0m   [36m██[0;1;36;46m██[0;1;37;40m██[0;1;36;46m██░░[0;46m░░[0;40m     [0;36;40m▄[0;1;30;46m░▒[0;1;36;46m░░██[0;36m█▀▀▀▀▀[0m              [1;30m▀■▀[0m
                  [1;36;46m█████▄▄[0;36m██[0;1;30;46m░[0m     [1;30;46m░[0;36m██[0;1;36;46m▀▀█▒▓▓██[0;36m█[0;1;30;46m░░[0m [36m■▀[0;37m [0m
-                         [36m▀█▌[0m        [36m▀▀▀▀▀▀▀█[0;37m  [0m
-
-                                [37m% killarmy %[0m
-                          [37m [0m   [37m Chef''s kitchen         [0m
-                                [37m [0m'
+                         [36m▀█▌[0m        [36m▀▀▀▀▀▀▀█[0;37m  [0m'

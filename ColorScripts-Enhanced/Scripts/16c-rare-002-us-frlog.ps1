@@ -5,7 +5,7 @@
 # Source SHA-256: 559fa0b6b39e39a9c475836b8646f4965a24fa176b4a20f35210ff434733f0ce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FRLOG.ANS by Square + Cuckoo (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: final refuge login
 # SAUCE Author: cuckoo vs. square
 # SAUCE Group: rare!ascii
@@ -26,22 +26,18 @@ Write-Host '
 [1;31m$$$$l'',[0;33mdl*╚°`[0;1;30m_[0m▬╥[1;30mg[0mg[1;30m╓,[0;33m`T[0;1;31m|lS[0;33ml   [0;1;30m''7[0;1;33m$[0;33mb,[0;1;30m`7b.[0;1;33m` [0;1;30m%@S$$$S@%@yyy ┘┘┘┘ yyy @@$$$$$$ yyyyys $[0m
 [1;31m$$$Sl[0;33mll`[0;1;30m.[0m╖g@[34mT`[0;1;37m*[0;1;34m''l[0;34m$[0;37mY[0;1;30m''[0;33m,[0;1;31ml$Sl[0;33ml :    [0;1;30m`[0;33m7b,[0;1;30m`^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^ ^^┘7$ yy[0m
 [1;31m$$Sl[0;33mS$l,[0;1;30m`°[0m²[1;30m╨[0m╩[34m╩[0;1;34m╚ⁿ[0;34m°[0;1;30m''[0;33m,d[0;1;31ml$$SS[0;33ml :  [0;1;30mb[0;33m,  [0;1;30m`[0;33m$   :[0m                                    [1;30m$ $$[0m
-[1;31m$$Sl&[0;33mS[0;1;31m$$lS[0;33m@%%%%@S[0;1;31mll&$$Sl[0;33ml:   .d''   [0;1;33m`[0m    [1;34m [0m┌[1m■[0m Final[1;34m [0mRefuge[1;34m [0mLogin [1m■-[0m-[1m [0m         [1;30m$yy[0m
+[1;31m     [0;33m [0;1;31m    [0;33m       [0;1;31m       [0;33m           [0;1;33m [0m    [1;34m [0m┌[1m■[0m      [1;34m [0m      [1;34m [0m      [1m■ [0m [1m [0m         [1;30m   [0m
 [1;31m$$$Sl[0;33m:l[0;1;31mS$$$$$$$$$$$$$$SS[0;33ml   [0;1;30m.''[0m      [1;30m`[0;33m┌,[0m                                     [1;30mSSS[0m
 [1;31m$S$$Sl[0;33m:l[0;1;31mS$$$$$$$$$$$$Sl[0;33ml:[0m       [33m,[0;1;30m7   [0;1;33m$[0;33ml[0m                                     [1;30ml ss[0m
-[1;31ml$$$$S[0;33ml:[0;1;31mlS$$$$$$$$$$$SS[0;33ml   :   [0;1;30md[0;33m`   [0;1;30m,[0;33m┘[0;1;30m''[0m     [1mname: [0mGekke henky               [1;30m| ||[0m
+[1;31m      [0;33m  [0;1;31m               [0;33m        [0;1;30m [0;33m    [0;1;30m [0;33m┘[0;1;30m [0m     [1m      [0m                          [1;30m    [0m
 [1;31mSSll|[0;33mS:[0;1;31mlllS$$$$$$$$$$S[0;33ml:   :   [0;1;30m`[0;33mb.  [0;1;30m`.[0;33m_[0m     [1;37mpassword:[0m ■■■■                  [1;30m:...[0m
 [1;31m$$$$$$$$$$$$$$$$$$$$S[0;33ml''   :[0m           [33m`b[0m                                     [1;30m::.[0m
 [1;31m$$$$$$$$$$$$$$$$$$Sl[0;33ml''[0m      [1;30m,[0;1;33md''[0;1;30m`  [0;33m:   d`[0m    [1;37mgroup:[0m rare!ascii               [1;30m. :[0m
 [31m.,[0;1;31m▬[0;31m, [0;1;31m``°╝7S$$$$$$SS[0;33ml''[0m      [1;30m+''   [0;33m:[0m     [1;33m`[0m     [1mconnect: [0m36600
-[31m╚²[0;1;31m°[0;31mⁿ[0;1;31ml[0;31m$[0;1;31mS[0;31m*- [0;1;31mSS$$SSll[0;33m7''   .   [0;1;30m,[0m     [33m:[0m          [1;37mtotal calls:[0m 145                 [1;30m.[0m
+[31m╚ [0;1;31m [0;31m [0;1;31m [0;31m [0;1;31m [0;31m   [0;1;31m        [0;33m         [0;1;30m [0m     [33m [0m          [1;37m            [0m                     [1;30m [0m
 [31mⁿⁿⁿ[0;1;31m²[0;31m°[0;1;31m`_.▬dS$$SS[0;33ml7''[0m     [33m::   [0;1;33m+   [0;33m:[0m
 [1;31m$$$$$$$$$$$Sl[0;33ml7''[0m             [1;33m,[0m
 [1;31m$$$$$$$SSl[0;33ml7└''[0m
 
 
-                   [1;30m┌ first joint by square & cuckoo ! [0m
-                     [1;30mthis one is for alvak''s board called[0m
-                     [1;30mfinal refuge.. take a look at it.. [0m
-
-                     [1;30mbye, square & cuckoo - rare!ascii[0m'
+                   [1;30m┌                                  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a7109c87a5a90c42929393e394a67b9553769dd3e636f71679c483cc105d46de
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TH-LL.ANS by Thrasher-Rem (rem-0894); released in rem-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -51,11 +51,11 @@ Write-Host '
 [31m [0;1;37m/│NSi:[0m                                                          [31m▀[0m
 [31m [0;1;37mT├┤/REM[0m       [34m▄▄▄[0;1;34m▄▄ ▄  ▄   [0;1;37m▄   LUCiFER''S  LAiR    ▄    [0;1;34m▄  ▄  ▄▄[0;34m▄▄▄[0m
                [34m█[0m                                                  [34m█[0m
-               [1;34m█  [0;1;37m1.2 GiGS ONLiNE[0m              [1;37mSiSOP - LUCiFER    [0;1;34m█[0m
-               [1;34m▄  [0;1;37mViLE NET[0m                     [1;37mCO    - THRASHER   [0;1;34m▄[0m
-                  [1;37mDUi NET[0m
-               [1;34m▀  [0;1;37mAoTe NET[0m                                        [1;34m▀[0m
-                  [1;37mREM DiST SiTE[0m
+               [1;34m█  [0;1;37m               [0m              [1;37m                   [0;1;34m█[0m
+               [1;34m▄  [0;1;37m        [0m                     [1;37m                   [0;1;34m▄[0m
+                  [1;37m       [0m
+               [1;34m▀  [0;1;37m        [0m                                        [1;34m▀[0m
+                  [1;37m             [0m
                [1;37m▀[0m                                                  [1;37m▀[0m
 
                                  [1;32m█▀█ █▀▄ ▄█ █▄ ''94[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 6d5e949c167c2924606d8030d57c290439155ccba1ea0dff182b7668967e2189
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CEN.ANS by Cain + Cd_ (tus-02); released in tus-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -26,12 +26,6 @@ Write-Host '
                [1;35m` , [0;34m [0;35m l$$$/`[0;34m  [0;36m/[0m     [35m`└?$$$[0;1;35;45m$[0;35m$&*┐,,._`''XX,[0m       [1;35mo[0m     [1;35m■[0m
                   [1;35m,[0;34m [0;35m ;[0;1;35m$[0;35m/`l[0;34m   [0;35m  [0;36m/[0m       [35m`''└*&$$$$/` [0;1;35mo[0;35m  XXX  XX  [0;1;35m.[0m
                   [1;35m,[0;35m . `  [0;1;35m:[0;35m [0;1;35m-[0m                 [35m`└l[0m    [1;35m.[0;35m X[0m    [35mX [0;1;35m.[0m
-                [1;35m ,[0;35m ` [0m    [1;35m [0;34m  [0m    [31mcen.[0m                 [35mX[0;1;35;45mX[0;35mX[0m       [34m  [0;35m<cD[0;1;37m![0;35mcn>[0m
+                [1;35m  [0;35m   [0m    [1;35m [0;34m  [0m    [31m    [0m                 [35m [0;1;35;45m [0;35m [0m       [34m  [0;35m   [0;1;37m [0;35m   [0m
                 [1;35m  [0;35m   [0m                                [35m''X   XX[0m
-                                                          [35mX''[0m
-
-                         [37moriginal ascii by: ca1n.[0m
-                        [37m   [0;34m [0;37m won a compo on efnet[0m
-
-                         [37mcolored and remixed by cD_[0m
-                             [37mon request from ca1n.[0m'
+                                                          [35mX''[0m'

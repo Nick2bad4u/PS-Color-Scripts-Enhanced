@@ -5,7 +5,7 @@
 # Source SHA-256: ad25f2f5bf877bf1f2fdd2910c2051e7110edf3e407fe176171216e45d09d961
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2M-FLUPH.ANS by 2mStone (RioT Productions); released in riot0698 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fluph
 # SAUCE Author: 2mStone
 # SAUCE Group: RioT Productions
@@ -38,8 +38,4 @@ Write-Host '
 [35;40m█████[0;35;47m▓▓[0;35;40m████████ [0;1;31;40m [0;1;31;43m▒[0;1;31;40m▄     ▄[0;1;31;43m▓[0;1;31;40m███[0m
 [35m███████████████ [0;37m [0;1;31m████▄▄█[0;1;31;43m▓[0;1;31;40m████[0m          [1;30m+o: fobeeuh[0m
 [1;30m2m[0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mFobeeuh asked a bunch of us for some screens that had fluph on them, so here''s [0m
-[1;30mmy contribution.... =][0m
-[1;30mI do free requests, so send them to me at 2mStone@approach.net[0m
-[1;30mGreets: fobeeuh, rash, and tung-lo[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b4d96f06162158c9bcebf1d9fa02657910c86c749dae6eb6467f20f139577280
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RAWAPP.ANS by raw staff (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: raw application
 # SAUCE Author: raw staff
 # SAUCE Date: 19970405
@@ -29,10 +29,8 @@ Write-Host '
  [30;45m▒▒▓[0;37;40m [0;1;36;46m▐███████▀[0m      [36m ▄[0;1;36m▄▄[0;1;36;46m▄████████▄[0;36m▄[0;37m [0;30;45m▓▒▒[0;37;40m  past affils [0;1;30;40m.......................... [0m
  [35m░[0;30;45m▓[0;37;40m  [0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;1;37;40m raw97[0m [36m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m  [0;35;40m░[0;30;45m▓[0;37;40m  current affils [0;1;30;40m....................... [0m
 
-Now in 4 lines, describe why you want to join raw.. and some stuff bout yerself
+                                                                               
 [1;30m................................................................................[0m
 [1;30m................................................................................[0m
 [1;30m................................................................................[0m
-[1;30m................................................................................[0m
-
-  .  .. send this to me at orgkaos, irc as c3_ or at la@speednet.com.au ..  .[0m'
+[1;30m................................................................................[0m'

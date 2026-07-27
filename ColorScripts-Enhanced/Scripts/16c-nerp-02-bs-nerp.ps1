@@ -5,7 +5,7 @@
 # Source SHA-256: cea8038bd2d12be1980a3793013f2928b505931d3c4553d46bd962617a92986b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-NERP.ANS by burps (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nerp guest
 # SAUCE Author: burps
 # SAUCE Group: nerp
@@ -31,7 +31,4 @@ Write-Host '
 [36;40m▓██▄▌ [0;1;37;47m▓[0;1;37;44m▓[0;1;37;40m█▄  [0;36m▓▀  [0;1;37;47m▓[0;1;37;44m▓[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m [0;36m▐▌ [0;1;37m▀[0;1;37;47m▓[0;1;37;40m▓▀[0;1;37;47m▄[0;1;37;40m▄▄▄▄▄▄ [0;36m▀ [0;1;37;47m▓[0;1;37;44m▓[0;1;37;40m█▄ [0;36m▐[0;1;36;46m░[0;36m▄▌  ▄▄   [0;1;37;47m▓[0;1;37;44m▓[0;1;37;40m█▄[0;1;37;47m▓[0;1;37;40m▄▄▄▄[0;1;37;47m▓[0;1;37;44m▓[0;1;37;40m█[0;1;37;47m▌[0m▌ [36m▐[0;1;37;46m░░[0;36m██▀[0;34;46m░[0;36m█▄▌[0;36;40m [0m
 [36;40m▄██[0;34;46m░[0;1;37;40m ▐▌▀[0;1;37;47m▓[0;1;37;40m▌ [0;36m▐[0;1;36;46m░[0;36m▌ [0;1;37m▐██▀▌ [0;36m▄▓▄▄  [0;1;37m▀▀▀[0;1;37;44m▓[0;1;37;40m█▄[0;1;37;47m▓[0;1;37;40m▌  ▐▓▌▀▌ [0;36m▄█[0;1;36;46m▄▌▄░[0;36m▓▀  [0;1;37m▐████▀[0;1;37;47m▓▓[0;1;37;40m█▄█▀▀  [0;36m▄██[0;1;36;46m▄▄[0;1;36;40m█[0;1;36;46m▄▌▄[0;36m█▓[0;36;40m [0m
 [36;40m▐[0;1;36;46m░░[0;36m▄▄▄   ▄▄█▄ [0;1;37m░▓[0;1;37;47m▓▀▓[0;1;37;40m [0;36m▐█[0;1;36;46m▄[0;1;36;40m█[0;1;36;46m▄░[0;36m▀▌▄▄▄   ▄▓▄  ▄▄▄▓[0;1;36;46m▐[0;1;36;47m▓▓[0;1;36;40m██[0;1;36;46m▄[0;36m▀▌ [0;1;37m░▓▀▐[0;1;37;47m▓[0;1;37;40m  [0;36m▄▄   ▄▄▓█▀[0;1;36;46m▐[0;1;36;40m███[0;1;36;47m▓▓[0;1;36;40m██[0;1;36;46m▌[0;36m▌[0;36;40m [0m
-[36;40m ▀▀[0;1;36;47m▓[0;1;36;46m▌[0;36m▀▓[0;1;36;46m░▄[0;1;36;40m█[0;36m▀▐[0;34;46m░[0;36m▄    ▄▄[0;1;36;46m░▓[0;1;36;40m▀[0;1;36;47m▓▓[0;1;36;40m▀▀██[0;1;36;46m▓▄▄[0;36m█[0;34;46m░[0;1;36;46m░[0;36m▀█▓▀▐▀[0;1;36;46m▐▄[0;1;36;40m█▀▀▐█[0;1;36;46m▀[0;34;46m░[0;1;37;46m░[0;36m ▄▄   [0;1;36m▄[0;1;36;46m▄▓[0;34;46m░[0;36m▀█[0;1;36;46m░░[0;36m▀▀▐[0;1;36;46m░▓[0;1;36;40m█[0;1;36;46m▓[0;1;36;40m▀██▀[0;1;36;46m░[0;36m▀[0;36;40m  [0m
-[36;40m                                                                                [0m
-[36;40m                                                                                [0m
-[36;40m                      [0;1;34;40mnerp - burps for nerp (guest) - nerp                      [0m'
+[36;40m ▀▀[0;1;36;47m▓[0;1;36;46m▌[0;36m▀▓[0;1;36;46m░▄[0;1;36;40m█[0;36m▀▐[0;34;46m░[0;36m▄    ▄▄[0;1;36;46m░▓[0;1;36;40m▀[0;1;36;47m▓▓[0;1;36;40m▀▀██[0;1;36;46m▓▄▄[0;36m█[0;34;46m░[0;1;36;46m░[0;36m▀█▓▀▐▀[0;1;36;46m▐▄[0;1;36;40m█▀▀▐█[0;1;36;46m▀[0;34;46m░[0;1;37;46m░[0;36m ▄▄   [0;1;36m▄[0;1;36;46m▄▓[0;34;46m░[0;36m▀█[0;1;36;46m░░[0;36m▀▀▐[0;1;36;46m░▓[0;1;36;40m█[0;1;36;46m▓[0;1;36;40m▀██▀[0;1;36;46m░[0;36m▀[0;36;40m  [0m'

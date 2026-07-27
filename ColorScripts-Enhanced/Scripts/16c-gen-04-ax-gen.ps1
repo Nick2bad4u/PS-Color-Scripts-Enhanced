@@ -5,7 +5,7 @@
 # Source SHA-256: b003a075637f13bdbd4b44e2af9e8a9ef348355c65f2cf833163a5033c2ccfde
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ax_gen.ans by Alla Xul (gen-04); released in gen-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -32,14 +32,4 @@ Write-Host '
                 [1;30m▐███[0;1;30;47m▒[0;1;30;40m▌ [0m  [34m   [0m            [1;30m▀▀  ▀▀▀  ▀▀▐███▌ ▀■[0m        [1;30m▀▀▐▓▓▓▓  ax[0m
             [1;30m▀■■▀▀▀▀▐██  ░░░[0m
                                           [1;30mu[0m     [1;30mi[0m
-                               [1;30mg[0m  [1;30me[0m   [1;30mn[0m             [1;30mn[0m   [1;30me[0m
-
-               [1;30mWHAT? ....insanelike laughter echoed between all[0m [1;30mcorners[0m
-                 [1;30m it repeatedly exploded in among the, not so long[0m
-                  [1;30mago, comfortable men. the avatar of battle itself,[0m
-                  [1;30mlaughing, slashing, in extacy! drinking the blood of[0m
-                 [1;30m  salagnated, masterless dog spirits ...cosuming[0m
-                [1;30m barriers, unpredictable havoc ...chaos on all planes!!![0m
-
-                                    [30mflesh to ashes[0m
-                                    [30mfilth to dust[0m'
+                               [1;30mg[0m  [1;30me[0m   [1;30mn[0m             [1;30mn[0m   [1;30me[0m'

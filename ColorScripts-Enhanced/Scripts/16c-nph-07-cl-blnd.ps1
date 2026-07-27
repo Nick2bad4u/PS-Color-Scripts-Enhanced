@@ -5,7 +5,7 @@
 # Source SHA-256: 29680537558fc9c0bb00c615dc5c41847fc8527ca9d0b1849465862af85f42ad
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-BLND.ANS by Cleaner (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Blender 2000
 # SAUCE Author: Cleaner
 # SAUCE Group: Nitrophusion
@@ -39,5 +39,4 @@ Write-Host '
         [1;30m  ▀[0m [1;30m■[0m█[1;30m [0;1;37;47m░░▒░░▒▒▓▓▒▒░░▒▒[0m █       [1;30m░[0m      [1;30m░[0m          [1;30m░[0m   [1;30m    ░[0m
              █[1;30m [0;1;37;47m▒▒▓▒▒▓▓██▓▓▒▒▓▓[0m █  [1;30m┌[0m B [1;30m┌[0m [36mL[0;1;37m [0;1;30m┌[0m [1;36mE[0m [1;30m┌[0m [1;36mN[0m [1;30m┌[0m [1;36mD[0m [1;30m┌[0m [36mE[0;37m [0;1;30m┌[0m R[1;30m   ┌ [0;36m2[0;37m [0;1;30m┌ [0;1;36m0[0m [1;30m┌ [0;1;36m0[0m [1;30m┌[0m [36m0[0m
 [1;30m            [0m █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-[1;30m∙──[0;36m[[0;37ma[0;1;37mNS[0mi by[1;30m [0mc[1mLEANE[0mr[36m/[0;37mn[0;1;37mITROPHUSIO[0mn[36m][0;1;30m─-──∙───-──────----─∙───[0;36m[[0;37mo[0;1;37m8[0;36m/[0;1;37m07[0;36m/[0;1;37m9[0m9[36m][0;1;30m∙-─[0;36m[[0;37mo[0;1;37m1[0;36m:[0;1;37m0[0m4[36m][0;1;30m──∙[0m
-'
+[1;30m∙──[0;36m[[0;37ma[0;1;37mNS[0mi by[1;30m [0mc[1mLEANE[0mr[36m/[0;37mn[0;1;37mITROPHUSIO[0mn[36m][0;1;30m─-──∙───-──────----─∙───[0;36m[[0;37mo[0;1;37m8[0;36m/[0;1;37m07[0;36m/[0;1;37m9[0m9[36m][0;1;30m∙-─[0;36m[[0;37mo[0;1;37m1[0;36m:[0;1;37m0[0m4[36m][0;1;30m──∙[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: dd5d3a9ca8082400085e19167c5f945df9a57550ae80ef6f14c6604b3dfe7fb3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: V9-CRYPT.ANS by Vade79 (f1RE Productions); released in fire0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Crypt
 # SAUCE Author: Vade79
 # SAUCE Group: f1RE Productions
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m░[0m   [1;30m [0m   The Crypt[1;30m  [0m ▄  [1;30m▬[0m       [1;30m [0mSys Opzorator  [1m-[0m  Nail[f1RE]  [1m/[0m  ANSi by Vade79[1;30m [0m
+[1;30m░[0m   [1;30m [0m            [1;30m  [0m ▄  [1;30m▬[0m       [1;30m [0m               [1m [0m              [1m [0m                [1;30m [0m
 [1;30m▓▄■[0m [1;30m▄[0m [1;30m─-──-─────---[0m ▐[1;33;47m▄[0m▄  [1;30m▀█▄▄▄[0m [1;30m─-────────-─--[0m [1;30m░░░ ─ ▄ ─ ▄▄ ────[0m [1;30m■[0m  [1;30m▄▄▌─[0m ▀ ▄▄ [1;30m───[0m
 ░[1;30m▌[0m [1;30m▀[0m▒[1;30m▀[0m▄▄   [1m [0m▄[1m▌[0m   [1m [0m ▄[1;33;47m▄▓▌[0m▌[1;30m ▐▄[0;1;30;47m▄[0;1;30;40m▀[0;1;30;47m▓██[0;1;30;40m▌▄[0m▄   [1;30m░░▓▓[0m    [1;30m▓▓█ ▀▀▀ [0m ▄[1;33m▄▄▄▄[0m  [1;33mv9-[0m  [1;30m [0;35m▄[0;37m [0;1;30m▀█▄[0m  ▀[1;33;47m■▄[0m▄
  [1;30m▄[0m▒[1;30m▄[0m▓[1;47m ░░[0m▀  [1m▒▀█▄▄[0;1;33m▄[0;1;33;47m▄███▀[0m▀ [1;30m▄▓▀[0m▒▒[1;30m▌[0m▀[1;30;47m▀▓[0;1;37;40m▒[0m▄[1;47m░░[0m▄▄  [1;30m░[0m  ░░  ▄[1m▄[0;1;47m▄███[0;1;33;40m█[0;1;33;47m██[0;1;33;40m▀[0;1;33;47m▀█[0;1;33;40m▀[0m   [35m░[0;30;45m▓[0;37;40m [0;1;35;40m░[0;1;35;45m▀[0;35m▀[0;37m [0;1;30m▐█▓░[0m ▐[1;33;47m▐[0;1;33;40m▌[0m▀

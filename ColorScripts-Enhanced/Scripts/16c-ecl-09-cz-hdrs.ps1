@@ -5,7 +5,7 @@
 # Source SHA-256: 3a42f7894661ee411b3cff19459139cd4be3dbcadfa38344c7f2e658c2118952
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CZ-HDRS.ANS by Cheeze (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -18,7 +18,7 @@ Write-Host '
  [33m▀█▄▀[0;1;31;43m▀▌[0;33m▌▐[0;1;31;43m▐▓▀[0;33m▀▄[0;1;31;43m▄▀[0;33m▀[0;37m  █[0;1;37;47m░[0m░ ░░ █[1;47m░[0m░ ██░ ▀▀  ▀  █[1;47m░[0m░ ▄▄     ▄▄   date:
 [1;47m▄[0;1;40m▄[0m▄ [33m▀ ▀[0;1;31;43m [0;33m [0;1;31;43m░░[0;33m░▀▀[0;37m ▄▄[0;1;37m [0m █[1;47m▄[0;1;40m▄▄▄[0m▄ █[1;47m░[0m░ ██░ [33m█[0;1;31;43m▄[0;1;31;40m▄[0;33m▄[0;37m ▄[0;1;37m▄[0;1;37;47m▄[0m█ ▄[1;47m▄[0m█  ▀  █[1;47m░[0m░  (### of ###) re:
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30m(cut this) a header. in the spirit of halloween. enjoy, meester iceage. =) [0;1;36m [0;1;30m-cz[0m
+[1;30m                                                                           [0;1;36m [0;1;30m   [0m
 
 
 [1;33m███[0;1;37m██[0;1;37;47m█████▓▓▀[0;1;37;40m▀[0m▀[34m ▄▄▄ [0;37m▀[0;1;37m▀▀[0;1;37;47m▀[0;1;37;40m███████████████████████[0;1;37;47m████[0;1;37;40m████████████████████████████[0m
@@ -30,9 +30,7 @@ Write-Host '
 ▌[36m▐[0;1;34;46m▒▒▓[0;34m▌[0;37m▐[0;1;37m▀[0m▀[34m ▐[0;1;34;44m▓▓▓▓▓▓█▀[0;34m▀[0;1;34;44m▀█▌[0;34m▌[0;37m░░[0;1;37m [0;34m █[0;1;34;44m   [0;34m▀▀▀[0;1;34;44m░[0;34m▌▄ [0;37m▀[0;34m ▐[0;1;34;44m▐[0;1;34;47m▓▓[0;34m▀ [0;37m▄[0;1;37;47m▒▓▓[0;1;37;40m▀▀[0m▀[1m           [0m  ▀[1m▀▀[0;1;47m▀███████[0;1;40m█[0m
 [1m [0;34m [0;1;34;46m░░▒▒[0;1;34;40m▄[0;34m▄▀[0;1;34m▀[0;34m▀   ▀[0;1;34m▀▀[0;1;34;44m▀█▄██[0;34m█  ▄▄▀▀ [0m        [34m▀[0;1;34m▀▀[0;1;34;44m▀[0;1;34;47m▓▒[0m▌[34m [0;37m▐▀[0m                       [37m ▀[0;1;37;47m▀[0;1;37;40m█████[0m
 [34m  [0;1;36m░[0;36m▀▀[0;34m  [0m             [34m▀[0;1;34m▀[0;1;34;44m▀▀[0;34m▀ [0m              [34m   [0;37m▀[0;1;34;47m░[0;34m [0m   [37m   L  E  E  C  H [0;34m [0;37m![0m     [37m▐[0;1;37;47m▐[0;1;37;40m█[0;1;37;47m▀[0;1;37;40m▀[0m▀
-[34m [0;36m▐▌[0;34m [0;37msilk filelistings[0;34m  [0;37m..[0;34m  [0;37m<[0;1;37mbasenamehere[0m>   ▐▌[34m  [0;37m                [0m         [37m▀▀[0m
+[34m [0;36m▐▌[0;34m [0;37m                 [0;34m  [0;37m  [0;34m  [0;37m [0;1;37m            [0m    ▐▌[34m  [0;37m                [0m         [37m▀▀[0m
 [34m  [0;36m▀[0;34m [0;36m▄[0;34m [0m                                  [37m▄[0m   [37m▀[0m
 
-[1;30m8< - cut here-----------------------------------------------------------------[0m
-[1;30mthere you go =) .. the ''LEECH!'' thing up  there  is to be added in when someon[0m
-[1;30mflags a file.. if you need any help, lemme know.. [0m                         [1;30m -c[0m'
+[1;30m8< - cut here-----------------------------------------------------------------[0m'

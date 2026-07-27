@@ -5,7 +5,7 @@
 # Source SHA-256: 16caf3f0b04b181210d10db39d731edc34f1ed35ce51d95c38ab74ba23c20093
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K0-HUMA.ANS by k0rpse (TOXiC); released in toxic-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hUMA
 # SAUCE Author: k0rpse
 # SAUCE Group: TOXiC
@@ -51,13 +51,4 @@ Write-Host '
              [31m▐[0;1;31;41m▐[0;1;31;40m█▌[0m       [31m▐[0;1;31;41m▐[0;1;31;40m█[0m            [1;31;41m [0;1;31;40m█▌[0m               [31m▐[0;1;31;41m▐[0;1;31;40m█[0m
               [31m▀[0;1;31;41m▀[0;1;31;40m▄[0m       [31m▀[0;1;31m▀[0m              [31m▀[0;1;31m▀[0m               [31m▀[0;1;31m▀[0m
                    [31m▀[0;1;31m▀[0m                       [31m▀[0;1;31m▀   [0;31m▄[0;1;31;41m▄[0;1;31;40m█▄ [0;31m▀[0;1;31m▀[0m
-[1;30m-eof-[0m                                             [31m▀[0;1;31m▀[0m
-
-[1;31m  [0;1;37m=( '' tis a sad day today. My board is gonna be shutdown till i can get some[0m
-[1m money to keep it up.. SO.. i no longer can afford to do freebies :(.. so i''m[0m
-[1m  Charging.. 5 bux for something like this.. 10 bux for a bigger one. i hate[0m
-[1m haveing to charge cuz i only like to do it for phun.. bleh :( I Need the cash[0m
-[1m cuz i''m moveing and the cost to move a line from one house to another is over[0m
-[1m 100 bux.. but after i get the board up =) it will be its free price once again[0m
-                                             [1mthe dood,[0m
-                                                    [1mkorpse,toxic[0m'
+[1;30m-eof-[0m                                             [31m▀[0;1;31m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: f2c29aa04dde49eea3c8d0c5a7a37c463eb12a6b27ff2592ebb8ee93ce8c6ffc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-ESNC1.ANS by Shatter Shot (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Essence
 # SAUCE Author: Shatter Shot
 # SAUCE Group: Shiver
@@ -29,7 +29,7 @@ Write-Host '
 [1;30;44m   ▀[0m     █████[1;47m░░▒▒▓▓▓[0m  [1;47m      [0m  [1;47m      [0m     [1;30;44m▀█▀█[0m   [1;30;40mthe SHiVER and AiM members[0m
 [1;30;44m▄  ▀[0m [1;30;40mAnsi:[0m  [1;30mS H A T T E R S H O T[0m         [1;30;44m████[0m
 [1;30;44m    [0m   [1;30;40m [0m    [1;30m [0m  [1;30m[[0m [1;30mS H I V E R ][0m [1;30m [0m          [1;30;44m██▀█[0;1;30;40m [0m
-[1;30;44m█  █[0m [1;30;40mPhont: A R C H A N G E L  [ A i M ][0m  [1;30;44m▀███[0m
+[1;30;44m█  █[0m [1;30;40m                                   [0m  [1;30;44m▀███[0m
 [1;30;44m█████▀▀▀▄▄▄▄ ▀▀ ▄ ▀ ▀▄  ▀          ▄▄██▀████████▄▄▀▀ ▀  ▀▀▀▄▄▄▀▀█▄▄ ▄▀▄██████▀█[0m
 
 [1;34;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

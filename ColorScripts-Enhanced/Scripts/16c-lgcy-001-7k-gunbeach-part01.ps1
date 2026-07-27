@@ -5,7 +5,7 @@
 # Source SHA-256: ea6a1b294238808c98266f7df4cc0c6c8e82d3a5a1399520e9b01efbd0c69c9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 7k-gunbeach.ans by The Knight (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Gun Beach
 # SAUCE Author: The Knight
 # SAUCE Group: Legacy Krew
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[37;40m [0;1;30;40mSo this ansi doesn''t have a header, footer, or decent logo. See if i care.[0m
+[37;40m [0;1;30;40m                                                                          [0m
 
                                      [31m▄▄[0;1;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
                           [1;35m [0;31m   ▄▄▄███████████████████████▄[0;1;35m▄▄▄▄[0m

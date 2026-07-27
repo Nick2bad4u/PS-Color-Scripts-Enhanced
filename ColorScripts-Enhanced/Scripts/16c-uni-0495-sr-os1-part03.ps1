@@ -5,7 +5,7 @@
 # Source SHA-256: de519d84c109bfaf17067fc18f181cb7ce2ddcb1dbce991295fd0be38e9e0855
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SR-OS1.ANS by Streaker (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Other Side
 # SAUCE Author: Streaker
 # SAUCE Group: READ THE INI FILE
@@ -58,5 +58,4 @@ Write-Host '
 ▀[1;30m▀[0;1;37m▀▀[0m▀[1;30m▀▀[0m▀[1m▀[0m▀▀▀▀  ▀▀▀▀▀▄ [31m▒ [0;1;30m█ [0m▀▀▀ [1m█ [0;31m▒ [0;1;30m█ [0m▀▀▀ [1;30m░[0;1;37m█ [0;31m▒ [0;1;37m█ ▄▄▀ [0;31m▄▀ [0;1;30m█░[0m█ [31m▒  [0;1;30m█[0m     ▀▀[1;30m▀[0m▀▀▀[1;30m▀▀[0m▀[1;30m▀[0m▀[1;30m▀▀[0m
 [1;37m▀▀[0m▀[1;30m▀[0;1;37m▀[0;1;30m▀[0;1;37m▀[0m▀▀[1m▀[0m▀▀ ▄[1;30m▀[0m▀▀[1;30m▀[0m▀▀  [31m▓ [0;37m█  ▄▀[0;1;30m▀▀ [0;31m▓ [0;1;30m▀▀[0m▀▀▀▄▀[1;30m█ [0;31m▓ [0;37m▀▀ [0;31m▄ ▀ [0;37m▄[0;1;30m▀   [0m█ [31m▀▄ [0;1;30m▀▀[0m▀[1;30m▀[0m▀▀[1;30m▄ [0m▀▀[1;30m▀[0m▀▀[1m▀▀[0;1;30m▀[0m▀▀
 [1m▀[0m▀▀▀[1m▀[0;1;30m▀▀[0m▀▀▀ ▄▀  [31m▀▀▀▀▀▀▀ [0;37m▄[0;1;30m▀▄▀  [0;31m▀▀▀▀▀▀▀▀[0;1;30m▄▀[0m▄[1;30m▀ [0;31m▀▀▀▀▀ [0;1;30m▄▄▀[0m▀  [1;30m▀[0m▀  [1;30m▀▄▄ [0;31m▀▀▀▀▀  [0;1;30m▀▄ ▀[0m▀[1;30m▀[0;1;37m▀[0m▀[1;30m▀[0m▀[1;30m▀[0m
-▀[1m▀[0m▀▀▀[1m▀▀[0m▀▀ ▀▀▀[1;30m▀▀▀[0m▀[1;30m▀[0m▀▀[1;30m▀[0m▀▀ ▀▀▀[1;30m▀▀[0m▀▀[1;30m▀[0m▀▀[1;30m▀[0m▀[1;30m▀ [0m▀▀▀[1;30m▀[0m▀▀▀[1;30m▀▀▀   ▀[0m▀[1m▀[0;1;30m▀▀[0;1;37m▀[0m▀   [1;30m▀▀[0m▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀[0m▀▀▀▀[1m▀[0m▀▀▀
- [1;30m.[0mo[1mO  t[0mH[1;30mE [0;1;37moT[0mHE[1;30mR [0;1;37ms[0mID[1;30mE! [0;1;37ma[0mN[1;30mSI [0;1;37mpR[0mO[1mD[0mUC[1;30mT[0mI[1;30mON [0;1;37mb[0mY [1msT[0mRE[1;30mA[0mK[1;30mER! [0;1;37m([0mc[1;30m) [0;1;37mc[0mOP[1;30mY [0;1;37mr[0mIG[1;30mHT [0;1;37m19[0m9[1;30m4[0m-5[1;30m!  [0;1;37mO[0mo[1;30m.[0m'
+▀[1m▀[0m▀▀▀[1m▀▀[0m▀▀ ▀▀▀[1;30m▀▀▀[0m▀[1;30m▀[0m▀▀[1;30m▀[0m▀▀ ▀▀▀[1;30m▀▀[0m▀▀[1;30m▀[0m▀▀[1;30m▀[0m▀[1;30m▀ [0m▀▀▀[1;30m▀[0m▀▀▀[1;30m▀▀▀   ▀[0m▀[1m▀[0;1;30m▀▀[0;1;37m▀[0m▀   [1;30m▀▀[0m▀[1;30m▀[0m▀[1;30m▀▀▀▀▀▀[0m▀▀▀▀[1m▀[0m▀▀▀[0m'

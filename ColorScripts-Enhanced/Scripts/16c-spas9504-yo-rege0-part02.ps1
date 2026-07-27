@@ -5,7 +5,7 @@
 # Source SHA-256: 78b49346bef4092784ef3e3ff15274a364f36bce85fa4f375433221f3307b9e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: YO-REGE0.ANS by Young (Spastic Studios); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Regency
 # SAUCE Author: Young
 # SAUCE Group: Spastic Studios
@@ -41,7 +41,7 @@ Write-Host '
        [1;30m▓  ▒[0m! T H E  R E G E N C Y [1;30m▒[0m-  O P :  H A L A S T E R ! [1;30m░  ▓[0m
        [1;30m▀▓▄▓▄▄▄▄▄▓▄▄▄▄▓▄▄▄▄▓▄▄▄▄▓▄▄▓▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▓▄▄▄▓▄▀[0m
           [1;30m▒[0m          [1;30m░    ▓[0m      [1;30m▀▓[0m         [1;30m░[0m           [1;30m░[0m       [1;30m▒[0m
-[1;30m young "calling me an anime artist was a big mistake" of spastiC 100% original[0m
+[1;30m                                                                              [0m
 
 [1;35m-------------------------------------------------------------------------------[0m
 
@@ -54,6 +54,6 @@ Write-Host '
 [1;30m    [0;33m█[0;37;43m░[0;33;40m█▓ [0;1;30;40m■▀ ▒ [0;33m█[0;37;43m░[0;33;40m█▓ [0;37;43m░[0;33;40m██▄[0;1;30;40m▒[0;33m█[0;37;43m░[0;33;40m█▓ ▀██[0;1;30;43m░[0;33m▀[0;1;30m▒[0;33m█[0;37;43m░[0;33;40m█▓ ██[0;1;30;43m░[0;33m▄[0;1;30m▒[0;33m█[0;37;43m░[0;33;40m█▓ [0;37;43m▓[0;33;40m█▀[0;1;30;40m▒ [0;33m█[0;37;43m░[0;33;40m█▓ [0;37;43m░[0;33;40m█[0;1;30;43m░[0;33m▀[0;1;30m▒ [0;33m█[0;37;43m░[0;33;40m█▓ [0;1;30;40m▓yO ░[0m
 [1;30;40m    ■[0;33m▀▀▓ [0;1;30m░  ░ ░[0;33m▀▀▓▀▀▀▀ [0;1;30m░ [0;33m▀▀▓▀▀▀▀  [0;1;30m░ [0;33m▀▀▓▀▀▀▀ [0;1;30m░ [0;33m▀▀▓ ▀  [0;1;30m░  [0;33m▀▀▓▀▀▀  [0;1;30m░  [0;33m▀▀▓ [0;1;30m▒[0m
 
-              [1;30mlame excuse of a bonus logo by yOung of spastiC[0m
+              [1;30m                                               [0m
 
 [1;35m-------------------------------------------------------------------------------[0m'

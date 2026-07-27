@@ -5,7 +5,7 @@
 # Source SHA-256: 0310396b919e0c8e360874b528668f8e685261a3fddd833bb28ccf2014af6190
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CT-SKELR.ANS by cool 't (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: skeletal remains
 # SAUCE Author: cool 't
 # SAUCE Group: READ THE INI FILE
@@ -60,8 +60,4 @@ Write-Host '
 [30;41m▓▓▓▓▓▓▓▓▓[0;1;30;40m▄  [0;30;41m▓▓▓▓▓▓▓▓▓▓[0;37;40m [0;30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m [0;30;41m▓▓▓▓▓▓▓▓▓▓▓[0;37;40m [0;30;41m▓▓▓▓▓▓[0;37;40m [0;30;41m▓▓▓▓▓▓▓▓▓▓▓[0;37;40m [0;30;41m█[0;1;30;40m▀▀[0;30;41m▓▓▓▓▓▓▓▓[0;37;40m [0m
 [30;41m▒▒▒▒▒▒▒▒▒▒▒[0;37;40m [0;30;41m▒▒▒▒▒▒▒▒▒▒[0;37;40m [0;30;41m▒▒▒▒▒▒▒▒▒▒▒▒▒[0;37;40m [0;30;41m▒▒▒▒▒▒▒▒▒▒▒[0;37;40m [0;30;41m▒▒▒▒▒▒[0;37;40m [0;30;41m▒▒▒▒▒▒▒▒▒▒▒[0;37;40m [0;30;41m▀▒▒▒▒▒▒▒▒▒▒[0;37;40m [0m
 [30;41m░░░░░[0;31;40m▀[0;30;41m░░░░░[0;37;40m [0;30;41m░░░░░░░░░░[0;37;40m [0;30;41m░░░░▄░░░▄░░░░[0;37;40m [0;30;41m░░░░░▄░░░░░[0;37;40m [0;30;41m░░░░░░[0;37;40m [0;30;41m░░░░░▄░░░░░[0;37;40m [0;30;41m░░░░░░░░░░░[0;37;40m [0m
-[31;40m▀▀▀▀▀  ▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀ ▀▀▀[0;30;41m▄██[0;31;40m▀[0;30;41m██[0;31;40m▀▀▀[0;30;41m▄█▄▄▄▄▄[0;37;40m [0;30;41m▄▄▄▄▄[0;37;40m [0;30;41m▄▄▄▄▄▄[0;37;40m [0;30;41m▄▄▄▄▄██▄▄▄▄██▄▄▄▄▄▄▄▄▄█[0;37;40m [0m
-[1;30;40m[[0mASK[1;30m] [0mSOM EONE  -∙-  [1m14[0m.[1m4 [0mUSR Sportster  -∙-  96oo[1;30m+ [0mOnly[1;30m!  [0m-∙-  [1mOBV[0m/[1m2 [0mßeta Site
-[1mNUP[0m: [1;33mDEADPOOL  [0m-∙-  SysOp[1;30m: [0mBrimstone[1;30m, [0mCoSysOp[1;30m: [0mThe Shaman  -∙-  525 Megs Online
-                -∙-  DREADLoC[1;30m, [0mMiiS[1;30m, & [0mFiDELiS Distributors  -∙-
-           -∙-  Offering COL2([1mWHQ[0m)[1;30m, [0mThunder[1;30m, [0mand Impact Networks  -∙-[0m'
+[31;40m▀▀▀▀▀  ▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀ ▀▀▀[0;30;41m▄██[0;31;40m▀[0;30;41m██[0;31;40m▀▀▀[0;30;41m▄█▄▄▄▄▄[0;37;40m [0;30;41m▄▄▄▄▄[0;37;40m [0;30;41m▄▄▄▄▄▄[0;37;40m [0;30;41m▄▄▄▄▄██▄▄▄▄██▄▄▄▄▄▄▄▄▄█[0;37;40m [0m'

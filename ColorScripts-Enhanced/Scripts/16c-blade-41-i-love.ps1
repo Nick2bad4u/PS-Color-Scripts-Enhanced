@@ -5,7 +5,7 @@
 # Source SHA-256: 4119f00901bd65bf0d7ae127538cc554104afab0058786e144d14cdb9fa97375
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: I!-LOVE.ANS by internal stalkwhoree (blade productions); released in blade-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: love@)$(*
 # SAUCE Author: internal stalkwhoree
 # SAUCE Group: blade productions
@@ -31,8 +31,4 @@ Write-Host '
        [1;31m▐[0;1;31;47m▓[0;1;31;43m█ [0;33m▀▌[0m    [33m▄[0;1;31;43m▄▄[0;1;31;40m█[0;1;31;43m▄[0;1;31;40m▄[0;33m▐[0m    [33m▐[0;1;33;41m▐▓░░[0;31m▌[0;33m▐ [0m      [33m▐[0;1;31;43m▓▓[0;33m▌[0m      [33m▐[0;1;31;43m█▄▐[0;33m▌[0;37m [0;33m [0;1;31;43m▐▐[0;33m█[0m        [33m▄█[0;1;33;43m▓[0;33m█▀[0;37m [0;32m   [0m
        [33m▐[0;1;31;43m█[0;33m▀   [0m   [31m▀▀▀▀▀▀▀▀▀▀▀▀[0;33;41m░▓▓[0;33;40m▀▀██▀[0m     [33;40m▄[0;1;31;43m▄██▄[0;33m▄[0;37m  [0;33m▄▄[0;1;31;43m▄█▀[0;33m▀▀▀[0;37m  [0;1;31;43m▐▐[0;33m█[0m         [33m█[0;1;33;43m█[0;33m█[0;37m [0;32m    [0m
         [33m▀ [0;37m  [0;33m [0m               [33m▀▀▀▀  ▀▀▀[0m    [33m▀[0;1;33;43m▀[0;1;31;47m▓[0;1;33;43m█[0;1;31;43m█▀[0;33m▀▀▀▀▀▀[0m     [33m▀[0;1;31;43m▐█[0;33m▄[0;37m [0;33m▀▀▀▀▀▀▀▀▀▀▀[0;37m  [0;33m  ▄[0m
-                                           [33m▀[0;1;37;43m▀[0;33m▀[0m            [33m▄[0;1;31;43m▓[0;33m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;35mlove is 31337[0m
-
-
-                                        [1;36mi [0mlove[1;36m vanessa[0m'
+                                           [33m▀[0;1;37;43m▀[0;33m▀[0m            [33m▄[0;1;31;43m▓[0;33m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

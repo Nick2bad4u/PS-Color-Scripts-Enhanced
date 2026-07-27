@@ -5,7 +5,7 @@
 # Source SHA-256: 12d3eeeb58328236e012f6c92dfc09f0204c61f8abeadce53125dd32b9f60bd0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RMK-AMI.ANS by Rumik (smr-05); released in smr-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-22
 # Columns: 1-80
 
@@ -28,6 +28,4 @@ Write-Host '
          [35m▓██[0;1;34;45m░[0;35m▄▐██[0;1;36;45m░▒▓[0;35m ▓██[0;1;34;45m░[0;35m▀▌▀[0;1;36;45m░░░░▒▓▓[0;35m▐[0;1;36;45m▓▒░[0;1;34;45m░[0;35m▌[0m
         [35m▐██[0;1;34;45m░▒▒[0;35m▐▓██[0;1;36;45m░░[0;35m▌██[0;1;34;45m░▒[0m [35m▐[0;37m [0;35m████[0;1;36;45m░░▒[0;35m▐[0;1;36;45m▒░[0;35m█[0;1;34;45m░[0m
         [35m▐[0;1;34;45m░░▒▒▓[0;35m ▓▓█[0;1;36;45m░[0;35m█▀[0;1;34;45m░░▒▓[0;35m▌[0;37m  [0;35m▐▓▓██[0;1;36;45m░[0;35m█▀[0;1;36;45m░ [0;1;34;45m░▒[0m
-        [35m▀▀▀▀▀▀rmk[0m    [35m▀▀▀▀▀am>   [0m   [35m▀[0;1;34;45m░░▒▓[0;35m▄  [0m
-
-                        [35m  [0m'
+        [35m▀▀▀▀▀▀rmk[0m    [35m▀▀▀▀▀am>   [0m   [35m▀[0;1;34;45m░░▒▓[0;35m▄  [0m'

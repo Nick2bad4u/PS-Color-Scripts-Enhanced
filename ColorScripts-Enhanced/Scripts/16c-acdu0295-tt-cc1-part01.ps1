@@ -5,7 +5,7 @@
 # Source SHA-256: c607995bc69f99258f13a259c02418162d3da258c7b7a5ed4954c3fe481aa436
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-CC1.ANS by Twisted Terrorist (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cat's Cradle
 # SAUCE Author: Twisted Terrorist
 # SAUCE Group: ACiD Productions
@@ -20,11 +20,11 @@ Write-Host '
 [1;30m▄   [0m▄[35;47m░[0;37;40m▄▓▀▀▄▄▄▓▀[0;35;47m░[0;37;40m▄[0m        [1;30;40m▄▓[0m                           [1;30;40m▄ ▄▄    ▄[0m            [1;30;40m▄  ▄▓[0m
 ▄▀▀▀▓[35;47m▒░[0;37;40m▌■▀[0;1;30;40m▄▄ [0m▐▓[35;47m▒░[0;37;40m█▀▀▀▀▄  [0;1;30;40m·  [0mTwisted Terrorist [[1m/┤CiD[0m]  [1;30m▀▓▀■ ▀▓▓▀    ▀[0m      [1;30m▓▀  ▒[0m
 [1;30m▄ ▄▓ [0;35;47m░ [0m [1;30;40m▄▀▓▓▀ [0;35;47m▒░[0;37;40m▌ [0;1;30;40m■▓▄[0m     [1;30;40m■▀[0m      [1;30;40m▀▓[0m                [1;30;40m▀■[0m                         [1;30;40m░[0m
-[1;30;40m▓▀▄[0;1;30;47m▓[0m [1;30;47m [0;1;37;47m░[0m [1;30;47m▓[0;1;30;40m▓ ▒  [0;35;47m░ [0m  [1;30;40m▀▒[0m     Argh, with all the shit I got going on I couldn''t
-  [1;30m■[0;1;30;47m█[0m [1;37;47m░▒[0m [1;30;40m▐▓ ░  [0m█[1;47m░[0m [1;30;47m▓[0m [1;30;40m░   [0mreally work on my artwork this month (job, girlfriend
- [1;30m▄▓▄ [0;1;37;47m▒▓[0m [1;30;40m■▓▄ ■ [0;1;37;47m░▒[0m        school, etc.) so you won''t be seein'' me in a while,
-[1;30m▒▓ [0;1;30;47m▓[0m [1;37;47m▓█[0m [1;30;40m▄▀▀▄  [0;1;37;47m▒▓[0m [1;30;47m▓[0;1;30;40m▄[0m            oh well. Shit happens!                          [1;30m░[0m
-[1;30m▀▀▓ [0m▐[1;47m▒▓[0m     [1;30;40m▄ [0;1;37;47m░▒[0m▌[1;30m▀▓▀    [0mThis ansi is 097% non-fart, it smells good though.     [1;30m▒[0m
+[1;30;40m▓▀▄[0;1;30;47m▓[0m [1;30;47m [0;1;37;47m░[0m [1;30;47m▓[0;1;30;40m▓ ▒  [0;35;47m░ [0m  [1;30;40m▀▒[0m                                                      
+  [1;30m■[0;1;30;47m█[0m [1;37;47m░▒[0m [1;30;40m▐▓ ░  [0m█[1;47m░[0m [1;30;47m▓[0m [1;30;40m░   [0m                                                     
+ [1;30m▄▓▄ [0;1;37;47m▒▓[0m [1;30;40m■▓▄ ■ [0;1;37;47m░▒[0m                                                           
+[1;30m▒▓ [0;1;30;47m▓[0m [1;37;47m▓█[0m [1;30;40m▄▀▀▄  [0;1;37;47m▒▓[0m [1;30;47m▓[0;1;30;40m▄[0m                                                            [1;30m░[0m
+[1;30m▀▀▓ [0m▐[1;47m▒▓[0m     [1;30;40m▄ [0;1;37;47m░▒[0m▌[1;30m▀▓▀    [0m                                                       [1;30m▒[0m
 [1;30m [0m▀▄▓▀█[1;47m▒[0m▌ [1;30m▓▄  [0m▐█[1;47m░ [0m▄▄▀                                                   [1;30m▄[0m      [1;30m▄▓[0m
 [1;30m ▄ [0m▀▓[47m [0;40m█[0;1;47m░[0m [1;30;40m▀[0;1;30;47m▓[0;1;30;40m▀ [0m█[1;47m░[0m█[47m [0;40m▓ [0;1;30;40m▄▀█▄▄ ▓▓▄ ■  ■▓▄[0m          [1;30;40m▀▓▓▀▀  ▀  ▀[0m        [1;30;40m▀■[0m     [1;30;40m▓▀▀  ■▄▀▀[0m
 [35m▄ [0;1;30m▀  [0m▀[1;47m░░[0m▌   ▐[1;47m░░[0m▀ ▒                 [35m▄[0m                             [35m▄[0m

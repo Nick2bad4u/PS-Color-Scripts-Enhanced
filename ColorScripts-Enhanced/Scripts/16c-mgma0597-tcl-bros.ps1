@@ -5,7 +5,7 @@
 # Source SHA-256: 53ee55cba04dc9bde6914c20b8d8eb4b22099f7e3a7a8f66bcef254852322eca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TCL-BROS.ANS by Tical (mgma0597); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -34,6 +34,6 @@ Write-Host '
 [1;34;40m██▄ [0;1;30;40m▀[0;1;30;43m▄[0;33m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33m▄[0;1;37m▄ [0;30;43m▓[0m [1;34;47m▒░▒▒▓[0;1;34;40m█▄ [0m▀[43m▓░  [0;33;40m▄▄▄▄▄██▌ ▄█▀ [0;31;40m▄█▓▄████▀▀▀ ▄▄██▀[0m [31;41m█[0m
 [37;44m██[0;1;34;40m██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄[1;34;47m░[0m█[1;47m▄▄[0m██[1;34;47m▓[0;1;34;40m█▄▄[0;34m▄ [0;33m▀▀▀[0;33;43m [0;33;40m███▓▄▀▀ [0;34;40m▄▄ [0;31;40m▀▀▀▀ ▄ ▄▄██[0;1;31;41m░[0;31m▀▀ ▄[0;31;41m██[0m
 [37;40m────────────────────────────────────────────────────────────────────────────────[0m
-[37;40m [0;36;40mthis is my first shaded ansi EVER.  it suck, but you should feel pr[0;1;37;44mo[0;36mud you got[0m
-[36m it.  =)  i might try more of these, but damn. that was hard work.   [0;1;35mtical[0;1;33mmagma[0m
+[37;40m [0;36;40m                                                                   [0;1;37;44m [0;36m          [0m
+[36m                                                                     [0;1;35m     [0;1;33m     [0m
 ────────────────────────────────────────────────────────────────────────────────[0m'

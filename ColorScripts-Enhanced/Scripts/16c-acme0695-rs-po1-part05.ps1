@@ -5,7 +5,7 @@
 # Source SHA-256: f73be9f7fe21cc92607ddd707cfd5a86956ee83e330919530402f90d1e4de1ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS!PO1.ANS by rusty! (acme!); released in acme0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: point omega!
 # SAUCE Author: rusty!
 # SAUCE Group: acme!
@@ -32,23 +32,15 @@ Write-Host '
 
 
 
-                          [31m [0;37m  [0;31m  [0;1;37m≡[0;1;31m≡[0;31m point omega [0;1;31m≡[0;1;37m≡[0m
-                        [1m  [0m [31m [0;1;37m≡[0;1;31m≡[0m [31mmodded[0;37m [0;31mobv² 2.25![0;37m [0;1;31m≡[0;1;37m≡[0m [1m  [0m
+                          [31m [0;37m  [0;31m  [0;1;37m [0;1;31m [0;31m             [0;1;31m [0;1;37m [0m
+                        [1m  [0m [31m [0;1;37m [0;1;31m [0m [31m      [0;37m [0;31m          [0;37m [0;1;31m [0;1;37m [0m [1m  [0m
                              [1m≡[0;1;31m≡[0;31m 96oo-144oo[0;37m [0;31mbaud[0;37m [0;1;31m≡[0;1;37m≡[0m
-                     [31m      [0m     [1;37m≡[0;1;31m≡[0;31m acme whq [0;1;31m≡[0;1;37m≡[0;31m  [0m
-                              [1;37m≡[0;1;31m≡[0m [31mwicked distro[0;37m [0;1;31m≡[0;1;37m≡[0m
-                               [1m≡[0;1;31m≡[0m [31msmash dist.[0;37m [0;1;31m≡[0;1;37m≡[0m
-                            [1m≡[0;1;31m≡ [0;31marmageddon distro[0;37m [0;1;31m≡[0;1;37m≡[0m
-                          [1m≡[0;1;31m≡[0;31m overlord:[0;37m [0;31mrusty[0;37m [0;1;31m≡[0;1;37m≡[0m
-                        [1m≡[0;1;31m≡[0m [31mcooverlord: shadowhawk [0;1;31m≡[0;1;37m≡[0m
-                         [1;31m [0m        [1m≡[0;1;31m≡[0m [31m  cryptic blood[0;37m [0;1;31m≡[0;1;37m≡[0m
-                             [31m [0;1;37m≡[0;1;31m≡[0;31m nup : reject[0;37m [0;1;31m≡[0;1;37m≡[0m
-                          [31m    [0;1;37m≡[0;1;31m≡[0m [31m2i5.536.6447[0;37m [0;1;31m≡[0;1;37m≡[0m
-
-
-                             [31m [0;37m                    [0m
-
-                  [37m                                       [0m
-                  [37m                                          [0m
-
-                              [1;37m [0m'
+                     [31m      [0m     [1;37m [0;1;31m [0;31m          [0;1;31m [0;1;37m [0;31m  [0m
+                              [1;37m [0;1;31m [0m [31m             [0;37m [0;1;31m [0;1;37m [0m
+                               [1m [0;1;31m [0m [31m           [0;37m [0;1;31m [0;1;37m [0m
+                            [1m [0;1;31m  [0;31m                 [0;37m [0;1;31m [0;1;37m [0m
+                          [1m [0;1;31m [0;31m          [0;37m [0;31m     [0;37m [0;1;31m [0;1;37m [0m
+                        [1m [0;1;31m [0m [31m                       [0;1;31m [0;1;37m [0m
+                         [1;31m [0m        [1m [0;1;31m [0m [31m               [0;37m [0;1;31m [0;1;37m [0m
+                             [31m [0;1;37m [0;1;31m [0;31m             [0;37m [0;1;31m [0;1;37m [0m
+                          [31m    [0;1;37m≡[0;1;31m≡[0m [31m2i5.536.6447[0;37m [0;1;31m≡[0;1;37m≡[0m'

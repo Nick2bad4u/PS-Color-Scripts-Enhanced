@@ -5,7 +5,7 @@
 # Source SHA-256: cde711165dcd4b1aaba0bfb0eec2a47c13cfef1ce74a89006202074ed761ec0e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SAS-FACE.ANS by Sassafras (gRAPE aSSkEY); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sin City Screen
 # SAUCE Author: Sassafras
 # SAUCE Group: gRAPE aSSkEY
@@ -48,7 +48,7 @@ Write-Host '
                          [1;31m²²aaa²²²²$$$a$$$$$a$$$²²²²aaa²²[0m [1;33m∙[0;1;31msa[0;1;33m.[0;1;31mgrp[0m
                             [1;30m [0m [1;31m²²²²aaa²²$$$²²aaa²²²²[0m [1;30m [0m
 
-                 [1;34mThis is for my board [0mSIN CITY[1;34m ... Draw me sumfin[0m
-                               [1;34m if ya want ....[0m
+                 [1;34m                     [0m        [1;34m                   [0m
+                               [1;34m                [0m
 
 [1m..,-*''^`*-,..,-*''^`*-,..,-*''^`> sassafras.grape <''^`*-,..,-*''^`*-,..,-*''^`*-,..,[0m'

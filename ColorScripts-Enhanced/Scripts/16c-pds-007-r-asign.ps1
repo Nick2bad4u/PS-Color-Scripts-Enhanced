@@ -5,7 +5,7 @@
 # Source SHA-256: 6b50259f8967405a2e3fe6966f92bbf9d2492f007718c7d1e57b11e15a76f4a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: R@ASIGN.ANS by rumble (parad!se); released in pds-007 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: autosign logotype
 # SAUCE Author: rumble
 # SAUCE Group: parad!se
@@ -23,11 +23,9 @@ Write-Host '
  [1;30;47m▓[0m [1;31;45m█▒░▓[0;1;31;40m▀▀▀▀▀ [0;1;31;45m▓░▓█[0;1;31;40m▀▀▀▀▀ ▀▀▀▀▀[0;1;31;45m▓▒░▒[0m [1;31;45m█▒░▓[0;1;31;40m▀▀▀▀▀ [0;1;31;45m▓▒░▒[0;1;31;40m▀▀▀▀▀ [0;1;31;45m█▓▒▓[0m [1;31m▀▀▀▀▀[0;1;31;45m▓▒▓█[0m [1;31;45m█▒░▓[0m [1;31m▀▀▀▀ [0;1;30m█[0m
 [1;30m █▄▄▄▄▄▄█▀▀█▄▄▄▄▄▄█▀▀▀▀▀▀▀█▄▄▄▄▄▄▄▄▄▄▄█▀▀█▄▄▄▄▄▄█▀▀█▄▄▄▄▄▄█▀▀█▄▄▄▄▄▄▄▄▄▄▄█▀▀▀▀▀[0m
 
-[1;30m [0mCurrent Color [1;34m■■  [0mUse arrows to move, [1;31mESC [0mto exit, and change colors with TAB
+[1;30m [0m              [1;34m■■  [0m                    [1;31m    [0m                                   
  ─────────────────────────────────────────────────────────────────────────────
 
 
 
-[1;30m----------------------------------------[0m
-[1;33mI hate the colors, but this was intended for a ppe, coded by[0m
-[1;33mmainstream, pie #1 sellout! fux to him![0m'
+[1;30m----------------------------------------[0m'

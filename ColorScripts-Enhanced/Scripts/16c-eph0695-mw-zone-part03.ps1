@@ -5,7 +5,7 @@
 # Source SHA-256: 1894904c8bbca22e01401341ddc0bd4c76840c334d792fa909fa37335d5145c8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-ZONE.ANS by Muddy Waters (eph0695); released in eph0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 67-115
 # Columns: 1-80
 
@@ -34,27 +34,27 @@ Write-Host '
           [1;34;40m [0m        [1;34;46m [0m                                                    [1;34;46m░[0m
           [1;34;40m [0m        [36m▌[0m                                                    [36m▌[0m
 
-[36m7[0;1;34mo[0;34mo [0;36mM[0;1;34mE[0;34mG [0;36mP[0;1;34mU[0;34mR[0;1;30mE [0;36mP[0;1;34mD[0;1;30m·°[0m                                          [1;30m°[0m [36m1[0;1;34m.[0;34m4 [0;36mG[0;1;34mi[0;34mg[0;1;30ms [0;36mO[0;1;34mf[0;34mf[0;1;30mline·°[0m
+[36m [0;1;34m [0;34m  [0;36m [0;1;34m [0;34m  [0;36m [0;1;34m [0;34m [0;1;30m  [0;36m [0;1;34m [0;1;30m  [0m                                          [1;30m [0m [36m [0;1;34m [0;34m  [0;36m [0;1;34m [0;34m [0;1;30m  [0;36m [0;1;34m [0;34m [0;1;30m      [0m
 
 
 [36m [0m
 [36m▀▀▀[0;1;34m▀▀[0;34m▀▀[0;1;30m▀[0;34m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;1;30m▀[0;34m▀▀[0;1;34m▀▀[0;36m▀▀▀[0m
 
 
-  [36mH[0;1;34me[0;34ma[0;1;30md [0;36mE[0;1;34ms[0;34mc[0;1;30mapee: [0;36mW[0;1;34ma[0;34mc[0;1;30mko[0m
-  [36mF[0;1;34mi[0;34ml[0;1;30me [0;36mE[0;1;34ms[0;34mc[0;1;30mapee: [0;36mN[0;1;34me[0;34mm[0;1;30mesis[0m
-  [36mA[0;1;34mn[0;34ms[0;1;30mi [0;36mE[0;1;34ms[0;34mc[0;1;30mapee:[0m [36mM[0;1;34mu[0;34md[0;1;30mdy [0;36mW[0;1;34ma[0;34mt[0;1;30mers[0m
+  [36m [0;1;34m [0;34m [0;1;30m  [0;36m [0;1;34m [0;34m [0;1;30m      [0;36m [0;1;34m [0;34m [0;1;30m  [0m
+  [36m [0;1;34m [0;34m [0;1;30m  [0;36m [0;1;34m [0;34m [0;1;30m      [0;36m [0;1;34m [0;34m [0;1;30m    [0m
+  [36m [0;1;34m [0;34m [0;1;30m  [0;36m [0;1;34m [0;34m [0;1;30m     [0m [36m [0;1;34m [0;34m [0;1;30m   [0;36m [0;1;34m [0;34m [0;1;30m   [0m
 
-[36m"Y[0;1;34me[0;34ms[0;1;30m, we finally escaped that crazy house!"[0m
+[36m  [0;1;34m [0;34m [0;1;30m                                       [0m
 
-[36mG[0;1;34mr[0;34me[0;1;30mets go out to:[0m [36mW[0;1;34ma[0;34mc[0;1;30mko: [0;36mH[0;1;34mm[0;34mm, [0;1;30mMaybe thats about 2 years NR:).[0m
-[36mT[0;1;34mo[0;34mn[0;1;30my [0;36mL[0;1;34mi[0;34mt[0;1;30mtle: [0;36mY[0;1;34mO[0;34mU [0;1;30mHAVE TO "ISOLATE" THOSE ABBS![0m
-[36mT[0;1;34mV[0;34mO[0m [36mK[0;1;34mi[0;34mD[0;1;30mS: [0;36mR[0;1;34mo[0;34mc[0;1;30mk On!!!  When will I get some new Ghostwriter??!!  [0m
-[36mA[0;1;34mn[0;34my[0;1;30mone [0;36mI[0;1;34m''v[0;34me[0m [36mM[0;1;34mi[0;34ms[0;1;30msed: [0;36mT[0;1;34mo [0;34ma[0;1;30mll the brave Timothys, Petite Dannon[0m [1;30mwould like to[0m
-[1;30msay: Have a good[0m [1;30mday![0m
+[36m [0;1;34m [0;34m [0;1;30m              [0m [36m [0;1;34m [0;34m [0;1;30m    [0;36m [0;1;34m [0;34m   [0;1;30m                               [0m
+[36m [0;1;34m [0;34m [0;1;30m  [0;36m [0;1;34m [0;34m [0;1;30m     [0;36m [0;1;34m [0;34m  [0;1;30m                             [0m
+[36m [0;1;34m [0;34m [0m [36m [0;1;34m [0;34m [0;1;30m   [0;36m [0;1;34m [0;34m [0;1;30m                                                   [0m
+[36m [0;1;34m [0;34m [0;1;30m    [0;36m [0;1;34m  [0;34m [0m [36m [0;1;34m [0;34m [0;1;30m     [0;36m [0;1;34m  [0;34m [0;1;30m                                    [0m [1;30m             [0m
+[1;30m                [0m [1;30m    [0m
 
-[36mS[0;1;34mu[0;34mp[0;1;30mer-dee-duper greets: [0;36mB[0;1;34ma[0;34mr[0;1;30mney: [0;36mI [0;1;34mr[0;34mi[0;1;30mpped everyone INCLUDING YOU now!!!  [0m
-[36mT[0;1;34mh[0;34ma[0;1;30mt[0m [36ml[0;1;34mi[0;34mt[0;1;30mtle[0;1;34m [0;36mg[0;1;34mu[0;34my[0;1;34m [0;36mI[0;1;34m [0;36ma[0;1;34ml[0;34mw[0;1;30mays[0;1;34m [0;36mb[0;1;34me[0;34ma[0;1;30mt[0;1;34m [0;36mu[0;1;34mp[0;34m: [0;36mH[0;1;34me[0;34my [0;1;30mman!  Stop playing that damn harmonica!!![0m
+[36m [0;1;34m [0;34m [0;1;30m                     [0;36m [0;1;34m [0;34m [0;1;30m     [0;36m  [0;1;34m [0;34m [0;1;30m                                    [0m
+[36m [0;1;34m [0;34m [0;1;30m [0m [36m [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;36m [0;1;34m [0;34m [0;1;34m [0;36m [0;1;34m [0;36m [0;1;34m [0;34m [0;1;30m   [0;1;34m [0;36m [0;1;34m [0;34m [0;1;30m [0;1;34m [0;36m [0;1;34m [0;34m  [0;36m [0;1;34m [0;34m  [0;1;30m                                         [0m
 
 
 [36m▀▀▀[0;1;34m▀▀[0;34m▀▀[0;1;30m▀[0;34m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀[0;1;30m▀[0;34m▀▀[0;1;34m▀▀[0;36m▀▀▀[0m'

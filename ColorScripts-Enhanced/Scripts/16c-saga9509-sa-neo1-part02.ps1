@@ -5,7 +5,7 @@
 # Source SHA-256: 29485c2b828cc9dfc42c7eb7a52a75601ed16b4b71d9351670da558c512ad083
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-NEO1.ANS by Stone Amnesia (Saga); released in saga9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Neo Nacho
 # SAUCE Author: Stone Amnesia
 # SAUCE Group: Saga
@@ -42,11 +42,4 @@ Write-Host '
                   [1;30m [0;1;35m█[0;1;30m  [0m [35m█[0;1;30;45m░░[0;35m█[0;37m  [0;35m▄██[0;1;30;45m░░[0;35m█[0;37m  [0;35m█[0;1;30;45m░░[0;35m█[0;1;30m [0m [1;30m [0;35m█[0;1;30;45m░░[0;35m█[0;1;30m [0m [35m▀[0;1;30;45m░[0;35m█▄[0;1;30m [0;35m▄██▀[0;37m [0;35m█[0;1;30;45m░░[0;35m█[0m   [35m█▀▀[0;37m  [0;35m▀▀▀▄▀▀▀[0m
                   [1;30m  [0m [35m▄█▀▀▀[0;37m  [0;35m▀[0m   [35m▀▀█[0;37m [0;1;35m▓▄[0;35m▀▀▀▀▀▀▀▀▀[0;1;30m  [0m     [35m▀[0m   [35m▄▀▀▀[0m    [35m▀[0m       [1;30m  [0m
                    [35m▄▀[0;1;30m [0m            [1;30m [0m [1;35m▀[0m                   [1;30m [0;35m▀■▄[0;1;30m [0m           [1;35m▄▓▄[0m
-                   [35m■▄[0;1;30m  [0m                                                  [1;35m▀[0m
-
-                      [1;30mStone(d) Amnesia[0m [1;30m·[0m  [1;30mSaga Studios[0m
-[1;30m           Presented in THX dolbi sterio for the hearing impaired[0m
-
-  [1;30mwerd to: Ellis Dee, Betrayer, Kid Krylon, K-os, Sabotage, the rest of my[0m
-[1;30m           Saga boys, etc... if i am cool with you, then you are werded...[0m
-[1;30m  special ansi werdup to: Mr Deaththreat for all the great times..........[0m'
+                   [35m■▄[0;1;30m  [0m                                                  [1;35m▀[0m'

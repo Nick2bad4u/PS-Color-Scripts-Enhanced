@@ -5,7 +5,7 @@
 # Source SHA-256: bd0c0d3f13e9644bf846655cf44231da8b57185ec6816bf57b35c8bcc1a85e7d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GUN-DAM1.ANS by Gunthar (FiRE); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Damned
 # SAUCE Author: Gunthar
 # SAUCE Group: FiRE
@@ -38,6 +38,4 @@ Write-Host '
 [1;31m████████▀█████[0;1;31;41m▓[0;1;31;40m [0;34m░[0;1;31;41m▒[0m [1;31m [0;31m▐[0;1;31;41m░░ [0;31m▌░[0;37m [0;1;31m▀▀█[0;1;31;41m█[0;1;31;40m██[0;1;31;41m▓[0;1;31;40m▄▄▄[0;31m▄[0;1;31m ▄[0;31m▄▄[0;1;31m [0;31m▄▄[0;1;31;41m▓▓[0;1;31;40m███▀▀ [0;31m▄▄░[0;1;31m [0m [34m░[0;37m [0;1;31;41m▒▓▓[0;1;31;40m█████▌[0;31m▐[0;1;31;41m▓████████[0m
 [1;31m█[0;1;31;41m▓[0;1;31;40m██████▌ █████[0;1;31;41m▓[0;1;31;40m [0;31m▐▌[0;37m [0;31m▐[0;1;31;41m▒[0;31m▌[0;1;31m [0;31m▄[0;1;31;41m▒░[0;31m░[0m   [1;31m▀▀█[0;1;31;41m█[0;1;31;40m██▄ [0;30;41m▓[0;1;31;40m ▄[0;1;31;41m▒▓[0;1;31;40m██▀▀[0m [1;31m   [0;31m▐[0;1;31;41m░░[0;31m▌[0m   [1;31;41m▓[0;1;31;40m███████[0;1;31;41m▓[0;31m░[0;1;31;41m▒▓▓███████[0m
 [1;31m██████████ [0;31m▀[0;1;31;41m▓[0;1;31;40m███[0;31m▌▐[0;1;31;41m▓[0m [1;31m [0;1;31;41m▒[0;1;31;40m [0;31m▐[0;1;31;41m▓█▓[0;1;31;40m    [0;31m▄[0;1;31m  [0m  [1;31m▀ ▀█▀▀▀[0m   [1;31m [0;31m▄▌[0;1;31m  [0;1;31;41m▓▓▒▒[0;31m▌[0;32m░░[0;1;31m▐████████▌ [0;31m▄[0;1;31;41m▓▓▓▓████[0;1;31;40m█[0m
-[1;31m████[0;1;31;41m▓[0;1;31;40m███████▄[0;1;31;41m▓▓[0;1;31;40m█▌▐[0;1;31;41m▓[0m [31m░[0;1;31;41m▓[0m [1;31;41m▓█[0;1;31;40m█[0;1;31;41m█[0;31m▌░[0;37m [0;1;31m [0;31m▄[0;1;31;41m░▒[0;31m▄▄▄▄[0;37m  [0;31m░[0;37m  [0;1;31;41m░▒▒▒░[0;31m░[0;37m [0;1;31;41m▓[0;1;31;40m███[0;1;31;41m▓[0;31m▌[0;1;31m [0m [1;31;41m▓[0;1;31;40m████████▌[0;31m▐[0;1;31;41m▒▓▓▓▓▓▓▓▓▓[0m
-
-// THIS ANSI MATRIX IS FOR SKREWDRIVER''S BBS ''THE DAMNED'' ONLY!  YOU NO USE! //[0m'
+[1;31m████[0;1;31;41m▓[0;1;31;40m███████▄[0;1;31;41m▓▓[0;1;31;40m█▌▐[0;1;31;41m▓[0m [31m░[0;1;31;41m▓[0m [1;31;41m▓█[0;1;31;40m█[0;1;31;41m█[0;31m▌░[0;37m [0;1;31m [0;31m▄[0;1;31;41m░▒[0;31m▄▄▄▄[0;37m  [0;31m░[0;37m  [0;1;31;41m░▒▒▒░[0;31m░[0;37m [0;1;31;41m▓[0;1;31;40m███[0;1;31;41m▓[0;31m▌[0;1;31m [0m [1;31;41m▓[0;1;31;40m████████▌[0;31m▐[0;1;31;41m▒▓▓▓▓▓▓▓▓▓[0m'

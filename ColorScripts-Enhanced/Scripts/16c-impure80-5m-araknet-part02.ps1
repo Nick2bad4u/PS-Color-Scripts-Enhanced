@@ -5,7 +5,7 @@
 # Source SHA-256: 4de2ac70001b04db153112c50b69e29a3831d5ff13bbc10feb0d34c7f0bda26a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5m-araknet.ans by SMOOTH_ (impure80); released in impure80 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: SMOOTH_
 # SAUCE Date: 20210830
 # SAUCE Dimensions: 80x55
@@ -37,5 +37,4 @@ Write-Host '
 [37;40m                ..: $$$ :::  "$$$ $$$$eeeeee$$$ ::::: $$$ :::.  `::"[0m
 [37;40m                  . $$$ :::   !!! !!!       !!!       $$$ .[0m
 [37;40m                    !!!       '''''' ''''''  :::  ''''''       !!![0m
-[37;40m                    ''''''                               ''''''[0m
-[37;40m                            *··< 5moOth / iMPURE >··*[0m'
+[37;40m                    ''''''                               ''''''[0m'

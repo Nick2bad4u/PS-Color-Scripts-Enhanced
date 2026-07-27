@@ -5,7 +5,7 @@
 # Source SHA-256: 5cc3371e4b5d093ed85e60a3b6fd9a4d6f85ab37c4e26132ad2c9deeffe98540
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M!HR.ANS by Mice (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Head Rush
 # SAUCE Author: Mice
 # SAUCE Group: Samsara
@@ -18,13 +18,13 @@ Write-Host '
 
 
 
-             ,sSTSs,
-STSs,  _.,yySy²ITS$$
+                    
+                    
 TITS$!$$$$$$$$Sy²T$'' [1myyS²""[0m   [1myyS²"^SyS²"^SyyS²""[0m
-liS$z$$$$$$$$$²"$''  [1m $$yssssss$$y[0m   [1m$$y[0m   [1m$$$yssssssyyy[0m
+                    [1m             [0m   [1m   [0m   [1m             [0m
 "²''y$$$  `$$$$  $[1;30m─-────-───[0;1;37myss$$$[0;1;30m─-─[0;1;37m$$$[0;1;30m───[0;1;37m$$$[0;1;30m-───[0;1;37myss$$$[0m
-    "²$$  .`$''. $[1m [0m [1m>>[0m better run, run more and faster!@! [1m>>[0m
-mice   "²yyy$yyS²[1m [0mz
+                 [1m [0m [1m  [0m                                    [1m  [0m
+                 [1m [0m 
     [1;30m  [0m  z `^"²d$b   ` .
      ,        `²''
 
@@ -32,8 +32,8 @@ mice   "²yyy$yyS²[1m [0mz
 
 
                                   [1;34my[0m
-[1;34my[0m          [1;34m!a,[0m     [34m  [0m      [1;34my[0m        [1;34my,[0m   [1;34my,      _yyy,[0m       [1;34m    y[0m          [1;34my[0m
-[34myy [0;1;34;44m░[0;1;34;40myy''[0;34m     [0;1;34m$[0;1;34;44m░[0;34m$        [0;1;34my$²$$[0;34m     [0;1;34m$y[0;34m $[0;1;34;44mSS[0;34my [0;1;34m$$[0;34mb,    [0;1;34m$[0;1;34;44mTT[0;34m$$ $[0;1;34myyy[0;34m      [0;1;34m$[0;1;34;44m![0;34my   [0;1;34m  ,ya![0;34m [0m
+[1;34m [0m          [1;34m   [0m     [34m  [0m      [1;34m [0m        [1;34m  [0m   [1;34m             [0m       [1;34m     [0m          [1;34m [0m
+[34m   [0;1;34;44m░[0;1;34;40m   [0;34m     [0;1;34m [0;1;34;44m░[0;34m         [0;1;34m     [0;34m     [0;1;34m  [0;34m  [0;1;34;44m  [0;34m  [0;1;34m  [0;34m      [0;1;34m [0;1;34;44m  [0;34m    [0;1;34m   [0;34m      [0;1;34m [0;1;34;44m [0;34m    [0;1;34m      [0;34m [0m
 [34m$$b,[0;1;34;44m$$[0;34mb,    [0;1;34m`[0;34m$$        [0;1;34m`$[0;34my$$     [0;1;34m$$[0;34m,`$$$ [0;1;34m$[0;1;34;44m░[0;34m$$,   [0;1;34m`$[0;34m$$$ $$[0;1;34m$$,[0;34m     [0;1;34m$$[0;34m$   [0;1;34m ,$[0;1;34;44m##[0;34m$ [0m
 [34m$$$$ $$$     [0;1;34m$[0;34m$b        [0;1;34m$$[0;34m$$     [0;1;34m`$[0;34m$ $$$b[0;1;34m`[0;34m$$$$   [0;1;34m `$[0;34m$$b`$$$$,   [0;1;34m,$[0;34m$²   [0;1;34m,$$[0;34m$$[0;1;30m''[0;34m [0m
 [1;34m$[0;34m$$$ `$$     [0;1;34m$[0;1;34;44m$$[0;34mS,      [0;1;34m`[0;1;34;44m$$[0;34m$,    [0;1;34my$[0;1;34;44m▒[0;34ms`$$$ $$$$,    [0;1;34m`[0;34m$$$ $$$$$  [0;1;34md$[0;34m$$   [0;1;34m,$[0;1;34;44m▓[0;34m$$[0;1;30m''[0;34m  [0m

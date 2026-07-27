@@ -5,7 +5,7 @@
 # Source SHA-256: 4e88d42d642298d76b838b9abb807fda41312664b32df7b26f949da5a28e3c46
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M-TDD.ANS by mouse (ORBiT); released in orbit03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Dark Domain
 # SAUCE Author: mouse
 # SAUCE Group: ORBiT
@@ -60,8 +60,6 @@ Write-Host '
 [1;40m   ▄▀▀▀▀[0m                       [1;40m▄███▀▀▀    ▄███▀▀▀▄▄██▄   ▀█ █▀ ▄█████▄   ██▀   ▀[0m
 [1;40m  ■[0m                          [1;40m▄▀▀▀[0m       [1;40m▄▀▀▀   ▀████▀[0m        [1;40m▄█▀▀[0m     [1;40m■ ▀  m[0mo[1;30muse[0m
                             [1;37m■[0m          [1;37m■[0m         [1;37m▀▀[0m        [1;37m.▀[0m              [1;30mORB[0mi[1;30mT[0m
-[1;30m Short Stat Summary: ORBiT Distro/Member, CiA Member, VOiD Distro/Member (or[0m
-[1;30m former now I guess), iNFiNiTY Distro/Member, S: Dark Apprentice & Dark Elf[0m
-[1;30m────────────────────────────[0m([1;30m-[0;1;37m2[0;1;30m-[0;1;37mi[0;1;30m-[0;1;37m7[0;1;30m-[0m)[1;30m-[0;1;37m8[0;1;30m-[0;1;37m9[0;1;30m-[0;1;37m3[0;1;30m-[0m-[1;30m-[0;1;37m4[0;1;30m-[0;1;37m7[0;1;30m-[0;1;37m4[0;1;30m-[0;1;37m7[0;1;30m─────────────────────────[0m
-[1;30m This is my first pic ... my rendition of Jesper Myrfors'' ATOG, a Magic: The[0m
-[1;30m Gathering card by Wizards of the Coast ... with MANY changes made, of course.[0m'
+[1;30m                                                                            [0m
+[1;30m                                                                           [0m
+[1;30m────────────────────────────[0m([1;30m-[0;1;37m2[0;1;30m-[0;1;37mi[0;1;30m-[0;1;37m7[0;1;30m-[0m)[1;30m-[0;1;37m8[0;1;30m-[0;1;37m9[0;1;30m-[0;1;37m3[0;1;30m-[0m-[1;30m-[0;1;37m4[0;1;30m-[0;1;37m7[0;1;30m-[0;1;37m4[0;1;30m-[0;1;37m7[0;1;30m─────────────────────────[0m'

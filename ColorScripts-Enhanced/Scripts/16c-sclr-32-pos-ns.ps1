@@ -5,7 +5,7 @@
 # Source SHA-256: 20c28f045f26fb003c93a242b943ab8747f22ef749c4445edb76fe8b8b58344e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pos!ns.ans by Poise (Secular); released in sclr-32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ansichrist
 # SAUCE Author: Poise
 # SAUCE Group: Secular
@@ -34,7 +34,5 @@ Write-Host '
        [34m ▒▓[0;37m [0;34m▒▓▓█[0;36m █[0;1;36;46m█[0;1;36;40m▓█[0;36m ▀▓▓ [0;34m▓███▄[0;36m ▀[0;1;36;46m▀███▄▄[0;36m███[0;1;36;46m▀▀▀[0;36m▀▀▀▀▀ [0;34m▄▄▄▄▓▓▓███████▓[0;37m [0;1;34;44m░[0;34m█[0;37m  [0;34m▓[0;37m [0;1;30mpOs![0m
               [36m         [0m          [36m▀▀[0;1;37;46m▀▀[0;1;36;46m▀██▄[0;36m▄▄▄ [0;34m            [0;37m▄ [0;34m  [0m
       [1;37m.ansichrist [0m           ▒▀▀▀▀    [36m▀▀▀▀[0;1;36;46m▀▀[0;36m████▄▄▄ ▄[0m     [37m [0m
-      [1;30mprobably one of the[0m    ▐                           ▌
-      [1;30mbest ansi mastah.  [0m   ▄▐▄▄▄▄▄▄▄▒▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌▒▒▒ ▒
-
-          [1;30mim too lazy to prove that i''ve learned it at shaolin temple.[0m'
+      [1;30m                   [0m    ▐                           ▌
+      [1;30mbest ansi mastah.  [0m   ▄▐▄▄▄▄▄▄▄▒▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌▒▒▒ ▒[0m'

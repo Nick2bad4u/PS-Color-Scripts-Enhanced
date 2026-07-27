@@ -5,7 +5,7 @@
 # Source SHA-256: 5408089c87ea863a3de869f8d70f343c9812260d7e729335aaae72617af675b4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2M-SHCOL.ANS by 2much4u (RioT Productions); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: A short colly
 # SAUCE Author: 2much4u
 # SAUCE Group: RioT Productions
@@ -15,13 +15,13 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mThis here is a SHORT colly. Basically, I ran outta time and only had two screens[0m
-[1;30mdone... BFH right? I do requests, so mail em to me <or use the request generator[0m
-[1;30mand mail it''s out put to me> at: turbine@geocities.com[0m
-[1;30mHAPPY HOLIDAYS!!![0m
+[1;30m                                                                                [0m
+[1;30m                                                                                [0m
+[1;30m                                                      [0m
+[1;30m                 [0m
 [1;30m--------------------------------------------------------------------------------[0m
 
-[1;30mEV[0;1;30;47mi[0;1;30;40mL MODD[0;1;30;47mi[0;1;30;40mNG [0;1;30;47mi[0;1;30;40mNCORPORATED?[0;1;30;47m![0;1;30;40m??[0m
+[1;30m  [0;1;30;47m [0;1;30;40m      [0;1;30;47m [0;1;30;40m   [0;1;30;47m [0;1;30;40m            [0;1;30;47m [0;1;30;40m  [0m
           [1;30m\[0m
      [1;30m    [0m   [34m███████████████████████████████████████████████████████[0m
             [34m██[0;34;46m▓▓[0;34;40m████▀▀▀▀▀▀▀█████▀▀▀▀██▀▀[0;31;40m▄▄▄[0;34;40m▀█▀[0;31;40m▄▄▄[0;34;40m▀▀████████████████[0m
@@ -38,7 +38,7 @@ Write-Host '
             [34;40m███████▄▄▄▄▄▄▄▄▄███▄▄▄▄▄██▄▄▄███████▄▄▄█████▄██████████[0m
 
 
-[1;30;40mKinda shitty. Aw well, fuq it! Fer da EMi krew.[0m
+[1;30;40m                                               [0m
 [1;30m--------------------------------------------------------------------------------[0m
 
 
@@ -60,5 +60,5 @@ Write-Host '
                                             [32m▓▓[0;37m  [0;32m▓ ▒[0m      [32m▓▒▒ ▒[0m
                                                  [32m▓[0m        [32m▓▓  [0m
                                                            [32m▓[0m
-[1;30mThis is for ''BoiNK'', CyberBob''s group...[0m
+[1;30m                                        [0m
 [1;30m--------------------------------------------------------------------------------[0m'

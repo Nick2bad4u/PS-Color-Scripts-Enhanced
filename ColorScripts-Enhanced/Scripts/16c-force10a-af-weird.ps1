@@ -5,7 +5,7 @@
 # Source SHA-256: 64e18f43c6cdbd53323c0b97a37b3c20de63ea2596965614de61b740c60f0ca5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-WEIRD.ANS by Adolf (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fORCE Logo
 # SAUCE Author: Adolf
 # SAUCE Group: fORCE
@@ -35,6 +35,4 @@ Write-Host '
 [1;37;40m▄█▄▄▄▄▄[0m [31m ▀[0;31;45m▓▓▓▓▓▓▓▓▓███[0;31;40m▀ [0;37;40m [0;31;40m  ▀▀▀▀  [0;37;40m [0;31;40m ▀[0;31;45m▓▓██[0;31;40m▌[0;31;45m██▓▓[0;31;40m▀▀ ▀[0;31;45m▓▓▓▓███[0;31;40m▀▄[0;31;45m▓▓▓▓▓▓▓▓[0;31;40m▌[0;32;40m▀[0m     [1;37;40m▄[0m
  [1m▀[0m    [1m▀█▄[0m [31m ▀▀[0;31;45m██████[0;31;40m▀▀ [0;37;40m [0;1;37;40m▄██▄▄▄▄▄▄█▄▄[0m [31m  ▀▀     [0m   [31m  ▀▀▀▀  [0;37m [0;31m ▀▀[0;31;45m▓███[0;31;40m▀▀ [0;37;40m [0;1;37;40m█▀▀▀▀█▀[0m
  [1m [0m      [1m▀█▄▄[0m [31m      [0;37m [0;1;37m▄▄█▀[0m          [1m▀▀█▄▄▄▄█▀▀▀▀▀█▄▄▄▄▄▄▄██▄[0m  [31m    [0;37m [0;1;37m▄▄█▀[0m
-           [1m▀▀▀▀▀▀▀▀▀▀[0m                                    [1m▀▀▀▀▀▀▀▀▀[0m
-                [1mThis one is prolly the most weeerdezt[0m [1mpic to[0m
-                      [1m   date for me...... Æd0lƒ![0m'
+           [1m▀▀▀▀▀▀▀▀▀▀[0m                                    [1m▀▀▀▀▀▀▀▀▀[0m'

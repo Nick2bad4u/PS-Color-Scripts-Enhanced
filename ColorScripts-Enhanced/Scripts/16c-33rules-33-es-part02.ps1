@@ -5,7 +5,7 @@
 # Source SHA-256: 0857664b96fd13a54b9b7690af29d74f654258bfd28777c7b04b6793d952df64
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-ES.ANS by Integrity 06/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eternity's Salvation
 # SAUCE Author: Integrity 06/95
 # SAUCE Group: Eerie
@@ -29,7 +29,7 @@ Write-Host '
             [1;30m█  ░▒[0m            [1;31m▐█▀██████████[0;1;31;47m▓[0;1;31;40m███████▌  [0;1;30;40m░▐▌[0m     [1;30;40m▐▌[0m        [1;30;40m▀[0m▀▀   [1;30m▄█[0m
          [1;37m▄   [0;1;30;47m▓[0m  [1;30;40m░[0m            [1;31;40m▐█[0;1;31;47m▓▒[0;1;31;40m▄▀██▀▄[0;1;31;47m▓▓[0;1;31;40m█████████▌  [0;1;30;40m▒[0;1;30;47m▓[0m       [1;30;47m▓[0m  [1;37;40m▀▄[0m        [1;30;40m▄██[0;1;30;47m▓[0m
               [1;30;40m█[0m               [1;31;40m██[0;1;31;47m▓▓[0;1;31;40m▌  [0;1;31;47m▓▓[0;1;31;40m███████████▌  [0;1;30;40m░█[0m       [1;30;40m▓ [0;1;37;40m■[0m        [1;30;40m▄███[0;1;30;47m▓▒[0m
-elastica[1;33m![0melastica[1;33m![0melastica[1;33m![0melastica[1;33m![0melastica[1;33m![0melastica[1;33m![0melastica[1;33m![0melastica[1;33m![0melastic
+        [1;33m [0m        [1;33m [0m        [1;33m [0m        [1;33m [0m        [1;33m [0m        [1;33m [0m        [1;33m [0m        [1;33m [0m       
 
               [31m░ ▄[0;1;31m▄[0m                                       [1;31m░ [0;1;37m▄▄[0m
              [31m▓▀░▐[0;1;31;41m▓[0;31m░  [0;1;30mso what if its unreadable?!  [0;31m░▄[0;1;31m▀ ■▄[0;1;31;41m▓[0;1;31;40m▀░[0;1;37;40m▐▓░[0m
@@ -47,13 +47,13 @@ elastica[1;33m![0melastica[1;33m![0melastica[1;33m![0melastica[1;33m![0m
                                   [31;40m▀▓░  [0;1;33;41m░[0;31m▀    [0;1;37m░  [0;31m▀▓▄■▀[0m       [31m▀ [0;1;31m■▄[0m     [1;33;41m░[0;31m▓[0m
                   [1;31ms    [0;1;33ma    l    v  [0;31m▀ [0;1;33ma    t    i[0;31m░   [0;1;33mo    n[0m     [1;31;47m▓[0m  [1;31;40m▄▀[0m
                                                                  [1;31;40m▀[0m
-             [1;37;40meternity''s salvation [0;1;30;40m.. [0mops: airborn / darnoc / iceman
-   ice / rival / emerge / nrk / npc / end / staff / queso / firm / mor / nuc
-                nue / asia / blunt / atp / hatred / wicked / aws
+             [1;37;40m                     [0;1;30;40m   [0m                              
+                                                                            
+                                                                
 
-                [1;34m▄▄[0;1;34;47m▓[0;1;34;40m▓▀▓▄[0m     [1;37;40mThis ansi was entirely done by Eerie from Integrity[0m
-              [1;34;40m▄▓▀▀ [0;34m▒[0;1;34;44m░▓[0;1;34;47m▓[0;1;34;40m▌   [0;1;30;40mi have no more money. i have no more time. sometimes[0m
-       [1;34;40m▄[0;1;34;47m▒▓[0;1;34;40m▄  ▓▀   [0;31m▄▄▄▄▄▄[0m     [1;30mi tell myself i should have been smarter. bah. who[0m
+                [1;34m▄▄[0;1;34;47m▓[0;1;34;40m▓▀▓▄[0m     [1;37;40m                                                   [0m
+              [1;34;40m▄▓▀▀ [0;34m▒[0;1;34;44m░▓[0;1;34;47m▓[0;1;34;40m▌   [0;1;30;40m                                                    [0m
+       [1;34;40m▄[0;1;34;47m▒▓[0;1;34;40m▄  ▓▀   [0;31m▄▄▄▄▄▄[0m     [1;30m                                                  [0m
       [1;34m▓[0;1;34;47m█▓[0;1;34;40m█▀▄▀ [0;31m▄▄█[0;31;47m▓[0;31;40m████[0;1;31;41m░▒░[0;31m▄[0m      [1;30mcares. sarcastic toaster has changed its number[0m
 [1;30m    [0;1;34;44m▒▓▓[0;1;34;40m█▀▄■ [0;31m▄▀▀▀▀▀▀▀▀██[0;1;31;41m░[0;31m█[0;1;31;41m░[0;31m▌[0m     [1;30mand location cuz i''m gonna get my line down. so[0m
 [1;30m   [0;34m▀[0;1;34;44m░▒▓[0m [1;34;40m▓▀   [0m▄[1;47m░[0m▄ [33m▀■ [0;37m▄   [0;31m▀▀▀[0m       [1;30mfrom now young runs it, and the new number is[0m

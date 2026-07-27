@@ -5,7 +5,7 @@
 # Source SHA-256: a5eec491ccff991e4fac1f4321960c6044d6fa92ac21b79410c3f5800b1d465e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: k1-sense.ans by Knocturnal (blocktronics_blockfury); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 168-208
 # Columns: 1-80
 
@@ -44,10 +44,4 @@ Write-Host '
 [35m [0;37m   [0;1;30m   ▓▄█▄▄█▄▓▓▄▄█▄▒  [0m      [1;31m■▒[0;1;31;41m▓[0;1;31;47m▀[0;1;31;40m██[0;1;31;41m▓[0;31m [0;1;31m [0;31m▄░  [0;1;30m ▄▄█▄█▌▄█▄[0m         [1;30m▄▄▄██▄▐▓▓█▄▄█▒[0m
 [31m [0;1;30m [0m   [1;30m   [0m                     [31m [0;1;31m▒[0;1;31;47m░▐[0;1;31;40m███[0;31m▄  [0;1;31;41m▒[0;31m▓[0m
 [1;31m [0m      [1;30m  ▀▓▓█[0m▒▒▒[1;30m█▓▓▀[0m          [36m [0;31m▀[0;1;31;41m▀[0;1;31;47m▄▓▓█[0;1;31;41m▀[0;1;31;40m█▓[0;31m▀[0;37m    [0;1;30m▓[0m▒▒▒▒[1;30m█ [0m          [1;30m ▓▓█[0m▒▒▒[1;30m█[0m▒[1;30m█▓▒[0m [1;30mk1[0m
-[1;31m [0m           [1;30m░░░░░ [0m              [36m  [0;31m▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m▌[0;31m▀   [0;37m    [0;1;30m░░░ ░[0m              [1;30m░░░░ ░░[0m
-
-
- [1;30mthis was originally drawn for sense''s final pack, which never saw the light.[0m
- [1;30mstarted in 2007 and finished in 2013. it''s a bit dated but at least it will[0m
- [1;30msee a release.[0m [1;30mstill dedicated to the best group that persevered through the[0m
- [1;30mdarker days of ansi. and[0m [1;30mnow i have a block fury sub, hoorah. -k1.[0m'
+[1;31m [0m           [1;30m░░░░░ [0m              [36m  [0;31m▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m▌[0;31m▀   [0;37m    [0;1;30m░░░ ░[0m              [1;30m░░░░ ░░[0m'

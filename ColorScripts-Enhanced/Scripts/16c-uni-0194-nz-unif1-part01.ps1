@@ -5,7 +5,7 @@
 # Source SHA-256: 44e4f4d4525c2d83886d39a6b11fe530f6e7212b1642da4a6445e461afb99f05
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-UNIF1.ANS by Nailz (uni-0194); released in uni-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -40,9 +40,9 @@ Write-Host '
 [1;30;40m██████████████████████████████████▄[0;1;34;40m▀▀[0;1;30;40m▄██████████████████████████████████████████[0m
 [1;30;40m████████████████████████████████████████████████████████████████████████████████[0m
 [1;30;40m────────────────────────────────────────────────────────────────────────────────[0m
-        [1;30;40mGreets : GenoCide : Thanks for all the help with this ANSi.[0m
+        [1;30;40m                                                           [0m
 [1;30;40m────────────────────────────────────────────────────────────────────────────────[0m
-[1;30;40m    NZ-UNIF1.ANS  │  An Ansi By Nailz And UNiON(c) Productions December 1993[0m
+[1;30;40m                  │                                                         [0m
 [1;30;40m────────────────────────────────────────────────────────────────────────────────[0m
 
 

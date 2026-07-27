@@ -5,7 +5,7 @@
 # Source SHA-256: 66087d2d6469d9aa37de7746902371424c192a1b36fbded763b2a9b1e17d51b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-CC.ANS by Superfly (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-86
 # Columns: 1-80
 
@@ -29,7 +29,7 @@ Write-Host '
 [36;46m█████████████████████████████████████[0;1;30;40m░░░░░░[0;36;46m████████████████████████████████████[0m
 [36;46m██████████████████████████████████████[0;30;46m▀▀▀▀[0;36;46m█████████████████████████████████████[0m
 [36;46m███████████████████████████████████████████████████████████████████████████████[0m
-[1;36;46m▀[0;36;46m█[0;1;36;46m▄▀▄▀[0;1;36;40mANSiBy Süpeτƒlÿ [[0;1;37;40mD[0;31mo[0;1;37mPE[0;1;36m]  φ  Hairstyle inspired by Nightbreed [[0;1;37mHAVOK[0;1;36m][0;1;36;46m▀▄▀▄[0;36;46m█[0;1;36;46m▀[0m
+[1;36;46m▀[0;36;46m█[0;1;36;46m▄▀▄▀[0;1;36;40m                 [0;1;37;40m [0;31m [0;1;37m  [0;1;36m                                        [0;1;37m     [0;1;36m [0;1;36;46m▀▄▀▄[0;36;46m█[0;1;36;46m▀[0m
 
 
                        [32m▄[0;1;32;42m▄[0;1;32;40m▀[0;1;32;42m▀[0;1;32;40m▄[0;32m▐[0;1;32m█ [0;32m▐[0;1;32m█[0;32m▐[0;1;32m█[0;1;32;42m▀[0;1;32;40m▄ [0;30;42m▀[0;1;32;42m▄[0;1;32;40m▀[0;1;32;42m▀[0;1;32;40m▄[0;32m▐[0;1;32m█ [0;32m▐[0;1;32m█[0;32m▐[0;1;32m█ [0;32m▄[0;1;32;42m▄[0;1;32;40m▀[0;1;32;42m▀[0;1;32;40m▄[0m
@@ -48,8 +48,8 @@ Write-Host '
 
                           [1;30m──[0m──[1m── [0;1;32m8[0;32m1[0;1;30m5-398-90[0;32m3[0;1;32m0 [0;1;37m──[0m──[1;30m──[0m
 
-         [1;30m──[0m──[1m── [0;1;32mD[0;32mo[0;1;32mPE [0;1;30mCentral [0;32mH[0;1;32mQ [0;1;30mφ [0;1;32mG[0;32ma[0;1;30mNjA Member Boa[0;32mr[0;1;32md [0;1;30mφ [0;1;32mH[0;32mA[0;1;30mSH Dist[0;32mr[0;1;32mo [0;1;37m──[0m──[1;30m──[0m
+         [1;30m──[0m──[1m── [0;1;32m [0;32m [0;1;32m   [0;1;30m        [0;32m [0;1;32m  [0;1;30m  [0;1;32m [0;32m [0;1;30m              [0;32m [0;1;32m  [0;1;30m  [0;1;32m [0;32m [0;1;30m       [0;32m [0;1;32m  [0;1;37m──[0m──[1;30m──[0m
 
             [1;30m──[0m──[1m── [0;1;32mC[0;32mi[0;1;30mP N[0;32me[0;1;32mt [0;1;30mφ [0;1;32mP[0;32mF[0;1;30mA N[0;32me[0;1;32mt [0;1;30mφ [0;1;32mG[0;32mT[0;1;30mCM N[0;32me[0;1;32mt C[0;32me[0;1;30mntral Outpo[0;32ms[0;1;32mt [0;1;37m──[0m──[1;30m──[0m
 
-       [1;30m──[0m──[1m── [0;1;32m0[0;32m-[0;1;30m10 Day War[0;32me[0;1;32mz [0;1;30mφ [0;1;32mN[0;32mo [0;1;30mRatios/[0;32mL[0;1;32mD [0;1;30mφ [0;1;32mN[0;32mo [0;1;30mN[0;32mU[0;1;32mP [0;1;30mφ [0;1;32m-[0;32m1 [0;1;30mMonth Ar[0;32mt[0;1;32ms [0;1;37m──[0m──[1;30m──[0m'
+       [1;30m──[0m──[1m── [0;1;32m [0;32m [0;1;30m          [0;32m [0;1;32m  [0;1;30m  [0;1;32m [0;32m  [0;1;30m       [0;32m [0;1;32m  [0;1;30m  [0;1;32m [0;32m  [0;1;30m [0;32m [0;1;32m  [0;1;30m  [0;1;32m [0;32m  [0;1;30m        [0;32m [0;1;32m  [0;1;37m──[0m──[1;30m──[0m'

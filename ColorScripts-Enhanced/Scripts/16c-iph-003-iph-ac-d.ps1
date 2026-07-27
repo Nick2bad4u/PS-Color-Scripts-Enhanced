@@ -5,7 +5,7 @@
 # Source SHA-256: 8645c41a969872a0f101b32ae7b0fe25165be1babee04f10d9589fd28a54e241
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IPH-ACнD.ANS by Interphaze (iph-003); released in iph-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -32,9 +32,4 @@ Write-Host '
 [1;30m$$$[0m$[1m$[0m$$[1;30m$$$$$$$$'',$$$$$[0;1;37m$[0m$[1;30m$$$$$$$$$ $$$$$#s,.s#S$s .sss#S$$ [0;31mi [0;1;30m$s_[0;31m"╜''[0;1;30m,$$$$$i,[0m
 [1;30m$$$$[0;1;37m$[0m$$[1;30m$$$$$$'',$$$$$[0m$[1m$[0m$$[1;30m$$$$$$$$$ $$$$$$$$$$$$[0;1;37m$[0m$[1;30m$,`$$$$$$ [0;1;31m; [0;1;30m$$$S#s$$$$$$$$s.[0m
 [1;30mV$$$$$$$$$$'',$$$$$$$$$$$$$$$$$$$$ $$$$$$$$$$$[0m$[1m$$[0m$[1;30m$ $$$$$$ [0;1;31m. [0;1;30m$$$$$$$$$$$$$$$$s._[0m
----------· ---------------------- ---------------- ------- --------------------
-A big thnx to "Calle" who drawed the original Acid on paper, and left it free
-over to me, thanx once again Calle, plz make me some more High-Spirit Grafitti
-on pap. so we can deal with it on the comp.
-
-Conversation/ascii by: iNTERPHAZER in late 1997[0m'
+---------· ---------------------- ---------------- ------- --------------------[0m'

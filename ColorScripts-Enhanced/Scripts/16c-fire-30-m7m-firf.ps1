@@ -5,7 +5,7 @@
 # Source SHA-256: f1c8b2504f5edc685d163914bdd5a907b71e37acdf9579b4e81045eaf6e9eef9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: M7M-FIRF.ANS by Metal Militia (fire); released in fire-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fire Promotional
 # SAUCE Author: Metal Militia
 # SAUCE Group: fire
@@ -33,6 +33,4 @@ Write-Host '
      [1;30m `╩&$$b┐,,┌d[0m  $$$l     :$$$$$$$$$$$         :Y$$7"^^^^^^`   [1;35mb┐[0;35m,,┌[0;1;35md$[0;35m$&╩`[0;1;35m [0m
      [1;30m     `^"""^`[0m  l$$$²²²  `^"4$$$l┘"^`           `^^^^^^"4$b.  [35m`[0;1;35m^""[0;35m"^`[0;1;35m     [0m
                    :$$$:       :$$$:[1;30m [0m                     `└*┘''
- [1;30m----[0m               ┘"^`       `^"└ [1;30m [0m                             m7m[36m([0;1;33mspies[0;36m)[0m
-[37m [0;1;30mfire grfx ,props. [0m
-[1;30m [0m                                       [1;30m [0m'
+ [1;30m----[0m               ┘"^`       `^"└ [1;30m [0m                             m7m[36m([0;1;33mspies[0;36m)[0m'

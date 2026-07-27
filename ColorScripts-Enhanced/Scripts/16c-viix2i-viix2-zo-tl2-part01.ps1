@@ -5,7 +5,7 @@
 # Source SHA-256: 2148104a714b8c5df53d1a5870a5665185ca21931557c3a6ab8cf0f277ff698e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ViiX2 - zO-tl2.ans by Enzo (viix2i); released in viix2i and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -18,9 +18,9 @@ Write-Host '
 
 
 
-                                  [1;35m_enzOmbie[0;35m.vii[0m
+                                  [1;35m         [0;35m    [0m
 
-                               [1;32m  [0;35m .finalChapter[0m
+                               [1;32m  [0;35m              [0m
 
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 10dc60452bbfa3b53228a4df8d02bc44fad03aa24f459ef0f4f59eec04a16a9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: dy1-cum.ans by Discyple (clit-63); released in clit-63 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -32,8 +32,4 @@ Write-Host '
 [35m$$$$$$$. [0;33m:[0;1;31m$$$$$$$$$$$$[0;33m:   [0;35m$$P┴*$│║║║║│$S⌂┘`[0m        [33mb.`Y[0;1;31m$$$$$$$$$$$$[0;33m, [0;35m`S#%%%%%%#[0m
 [35m$$$$$$$.  [0;33m$[0;1;31m$$$$$$$$$$$[0;33ml   [0;35ml''[0m                 [1;31m`   ^"²┘[0;33mb `$[0;1;31m$$$$$$$$$$[0;33ml  [0;35ml$$$$$$$$[0m
 [35m$$$$$$$:  [0;33m│[0;1;31m$$$$$$$$$$$[0;33m┤[0m        [1;31m,,.___..,,┌⌐s#SSSS#%s¬┐,._$$$$$$$$$$[0;33m$  [0;35m:$$$$$$$$[0m
-[35m$$$$$$$l  [0;33ml[0;1;31m$$$$$$$$$$$[0;33ml  [0;35m`    [0;1;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;33mP  [0;35m.$$$$$$$$[0m
-
-[1;5;33mTHIS ASCII IN NO WAY REPRESENTS MYSELF OR CAIN[0m
-[1;33mnor is there any hidden text..[0m
-[1;33mDYONE[0m'
+[35m$$$$$$$l  [0;33ml[0;1;31m$$$$$$$$$$$[0;33ml  [0;35m`    [0;1;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;33mP  [0;35m.$$$$$$$$[0m'

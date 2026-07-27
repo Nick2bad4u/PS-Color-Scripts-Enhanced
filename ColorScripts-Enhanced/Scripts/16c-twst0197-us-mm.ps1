@@ -5,7 +5,7 @@
 # Source SHA-256: 06664bd26ed3b57ef74d679dd253e56bfe9d0df163cb10e8c7a6ff6d8223b3a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-MM.ANS by Bad Mojo + Putrid Carcass (twisted); released in twst0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mm ascii
 # SAUCE Author: bM and pC
 # SAUCE Group: twisted
@@ -35,7 +35,7 @@ Write-Host '
 [36m$[0;1;36m$$[0;36m$²""²$s [0;1;34m"$$░[0;34m$$$$[0;37m [0;1;31m,d$$$$$,`²S$$[0;33m$²''[0;1;31m,dI"$$$b[0m [34m$,`$$$[0;1;34m$"[0;31m,$$[0;1;33;41m$[0;1;33;40m$$$4a[0;1;37;40ma[0;1;33;40maa[0;1;37;40ma[0;1;33;40maa[0;1;37;40ma[0;1;33;40maa[0;1;37;40ma[0;1;33;40maaa[0;1;37;40ma[0;1;33;40maa$$[0m
 [36m`²²''[0;1;30m,SSs,_.s[0;1;34m`$[0;34m$$$$;[0;33m,$[0;1;31m"II$$$$$sa,.asS$$i, "$$b[0;34m`$,`$[0;1;34m$''[0;31m,$$[0;1;33;41m$[0;1;33;40m$[0;1;37;40m$[0;1;33;40m$$[0;1;37;40m$$[0;1;33;40m$[0;1;37;40m$[0;1;33;40m$$$[0;1;37;40m$[0;1;33;40m$$[0;1;37;40m$$[0;1;33;40m$[0;1;37;40m$[0;1;33;40m$$[0;1;37;40m$$[0;1;33;40m$[0;1;37;40m$[0m
 [1;30;40mSssS[0m$$$$$$$[1;30m$[0m [34m$[0;1;34m$[0;34m$$$[0;33m,$''[0;1;31mii ,a$$$$SSS$$$$$$$i a$$,[0m`[34m$s[0;1;34m$[0;34m$[0;37m [0;1;30m--------------[0m-[1;30m-[0m-[1;30m [0;1;31m    [0;1;30m [0m-[1;30m----[0m
-[1;30m$[0m$$$$$$$$$$[1;30m$ [0;34m$[0;1;30m$[0;34m$$[0;33m $$[0;1;31m    $[0m$²''[1;30m.[0m,ss[1mmmma[0ms,[1;30m.[0;1;31m`²$$$$;[0m [1;30m$[0;34m$$S[0;37m  ascii was origianlly done[0m
+[1;30m [0m          [1;30m  [0;34m [0;1;30m [0;34m  [0;33m   [0;1;31m     [0m   [1;30m [0m   [1m    [0m  [1;30m [0;1;31m       [0m [1;30m [0;34m   [0;37m                           [0m
 [1;30m$[0m$$$$$$$$$$[1;30m$,`[0;34m$$$[0;33m $$[0;1;31mi,i $[0m$,_`[1;30m²$[0;1;37m$$$$[0m$[1m$[0;1;30m²[0m" [1;31m,$$$$$[0m [34m$[0;1;30m$[0;34m$[0;1;34m''[0m by pc, and was fixed up by
 [1;30m$[0m$$$$$$$$$$$[1;30m$,[0;34m`[0;1;30m$[0;34m$[0;33m $$[0;1;31mIaI$a$$[0mSso,[1;30m`[0;1;37m""[0m"[1;30m''[0;1;31m,mM$$$$$$$;[0;34m,$''[0;36m [0;37m bad mojo.[0m
 [1;30m$[0m$$$$$$$$$$$$[1;30m$ [0;34m$[0;1;30m$[0;33m `$$[0;1;31m$$$$$$$$S²²""²²S$$$$$$$$''[0m [34m$[0;1;30m$[0m

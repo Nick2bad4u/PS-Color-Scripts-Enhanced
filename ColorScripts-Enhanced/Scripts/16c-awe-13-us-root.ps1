@@ -5,7 +5,7 @@
 # Source SHA-256: 19e609b2401e06e0f0051cc8d62dd8cfd2d3ca306a40c07b688765df084ea53b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ROOT.ANS by The Night Angel + Static Addiction (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Root Promotional
 # SAUCE Author: Multiple Artists
 # SAUCE Group: AWE Lettering
@@ -47,6 +47,5 @@ Write-Host '
 [1;30;40m  ▐▌    ▐▌ █▌  ▀▀▀▀ ▀[0;1;30;47m▄[0;1;30;40m████▀[0m        [1;30;40m▐▀▀▀▀▀▀[0m              [1;30;40m▀ ▐█ ▐▌  ▀  ▐▌░░▓▓░░░░[0m
 [1;30;40m░░ ▀  ▄▄▀ ░ ▀  ░░░░░░[0m      [1;30;40m░░░░░░░ ▀ ░░░░░░░░░░░░░░ ░░░░░ ▀ ░ ▀ ░ ▄▄▀   ░░[0m
 
-           [1;30;40mansi by static addiction (root) and the night angel (awe)[0m
-[1;30;40m--[0m
-[1;30;40mnote: that was mostly done by static though. he''s getting better! :)[0m'
+           [1;30;40m                                                         [0m
+[1;30;40m--[0m'

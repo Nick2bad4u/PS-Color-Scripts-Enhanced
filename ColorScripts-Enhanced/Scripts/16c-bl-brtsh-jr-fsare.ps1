@@ -5,7 +5,7 @@
 # Source SHA-256: 3b4a4e9db992aa4069125ad757caf897e555e4a6f93e4081160b5c9a6fb92077
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSARE.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FS:: lila-k area
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -40,5 +40,4 @@ Write-Host '
 
 
 
-[1;30m-------------------------------------------------------------------(lila-k)-----[0m
-[35mFS:: kiss a wookie and feel fuzzy. do not lila this.[0m              [35mjerusalöm°böil[0m'
+[1;30m-------------------------------------------------------------------(lila-k)-----[0m'

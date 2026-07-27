@@ -5,7 +5,7 @@
 # Source SHA-256: e63a15498838adcbd9ea7f1d20f4f6cc9fc206c24418e5c78896ae30945d7dbf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HF-RED.ANS by Hanzo The Fiend (cnc-0694); released in cnc-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-99
 # Columns: 1-80
 
@@ -57,5 +57,5 @@ Write-Host '
        [1;34m▌█   ▄█  ▌█  ▐▌█ ▌█   ▄█ ▌█ ▌█[0m
        [1;36m▀██▄ ▌█  ▌█   ▌█ ▀██▄ ▌█ ▌█ ▌█[0m
          [1;37m▀███▀  ▀█   ▀█   ▀███▀ ▀█ ▀█[0m
-                                                          [1;37mA[0mn[1;30msi By[0m
-      [1;37mC[0mo[1;30mpyrights [0;1;37m1[0m9[1;30m94 [0;1;37mC[0ma[1;30mNCeR [0;1;37mP[0mr[1;30moductions[0m            [1;37m╠-[0m┤/[1;30m┤/\/Z() The Fiend[0m'
+                                                          [1;37m [0m [1;30m     [0m
+      [1;37m [0m [1;30m         [0;1;37m [0m [1;30m   [0;1;37m [0m [1;30m     [0;1;37m [0m [1;30m         [0m            [1;37m╠ [0m┤ [1;30m┤                [0m'

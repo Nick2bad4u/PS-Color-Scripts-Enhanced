@@ -5,7 +5,7 @@
 # Source SHA-256: 31d6867e4668fa3469311943b14595ecb0b346b8c26f0cca24ca62562ca946a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: E0-PROFL.ANS by enzo (Cia Productions); released in mdn-9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Profile v1.0b
 # SAUCE Author: enzo
 # SAUCE Group: Cia Productions
@@ -15,18 +15,16 @@
 # Columns: 1-80
 
 Write-Host '
-[1;33mIt''s a dalmatian?[0m  [1;32mIt''s Mickey?[0m [1m It''s a panda?[0m
+[1;33m                 [0m  [1;32m            [0m [1m              [0m
                   [1;30m   [0m                            ▄[1m▄▄▄[0;1;33m▄[0m ▄[1m▄[0m      ▄[1m▄▄▄[0;1;33m▄[0m ▄[1m▄▄▄▄[0m
                [1;30m▄▄██▄[0m     [1;30m▄[0;1;30;47m██[0;1;30;40m▄▄[0m                  ▐[1;47m▐█[0m ▐[1m█▌[0m▐[1;47m▐[0;1;40m█▀▀[0;1;47m▀[0;1;33;40m█[0m  ▄[1m▄[0;1;47m▄[0;1;40m█▌[0m█[1m█[0m ▐[1;47m▐[0;1;33;40m▌[0m
               [1;30m▐██▀[0m▄[1m▄[0;1;47m▄[0;1;40m████▄[0;1;33;40m▄[0;1;30;40m▀[0;1;30;47m▓▓[0;1;30;40m▌[0m  [1;30m [0m               █[1m█▀▀▀[0m  █[1m█▌[0m ▐[1;47m▐[0;1;40m▌[0m▐[1;47m▐[0;1;40m█▌[0m  ▀[1m▀[0m █[1;47m█[0m
 [1;30menzo!?  [0m   [34m    [0;1;30m▀▀[0m▐[1;47m▐[0;1;40m█[0;36m  [0;1;37m█▀▀██[0;1;33m▌[0;1;30m▀▀[0m                   ▀[1m▀▀▀▀▀▀▀▀▀[0m  ▀[1m▀[0m ▀[1m▀▀▀▀▀▀▀▀▀[0m    [1;30m  [0m
 [1;36m██[0;1;37m█[0;1;37;47m█▀[0;1;37;40m▀[0m▀ [34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;40m███[0;1;34;44m▌[0;34m▌[0;37m▐[0;1;37;47m█[0;1;37;40m██▄▄█▄▄███▌[0;34m▐[0;1;34;47m▓█[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀ [0;37m▄[0;1;37;47m▄[0;1;37;40m▀█▀[0m [34m   [0;37m [0;1;30m-+--[0m [1;30m---[0m [1;30m---[0m [1;30m--[0m [1;30m--[0m [1;30m--[0m ▀[1m▀[0m [1;30m--+- - [0m
 [1m███[0;1;47m▌[0m▌ [1;34m [0;34m▐[0;1;34;44m▐[0;1;34;40m██[0;1;34;47m▓▓[0;1;34;40m██[0;34m█ [0;37m▀[0;1;37m▀[0;1;37;47m▀[0;1;37;40m█▄▄█▀█▀▀  [0;1;36;40m▄[0;34m  [0;33m    [0;37m ▀[0;1;37m▀[0m        [36mnick[0;37m ([0;1;37menzo[0m)[1m [0;36mnick[0;37m [0;36mabv[0;37m ([0;1;37me0[0m)
-[1m███[0;1;47m█▄[0m▄[1;34m  [0;34m▀[0;1;34;44m▀[0;1;34;40m████[0;1;34;44m▀[0;1;34;40m▀[0;34m▀[0;36m▄▄[0;1;36m▄[0;1;37m [0m▀[1m▀▀ [0;1;36m▄▄[0;1;36;46m███[0;1;36;40m▌[0;33m    [0m   [1;30m █[0m        [36mage [0;37m([0;1;37m17[0m) [36msex [0;37m([0;1;37mmale[0m)
+[1m███[0;1;47m█▄[0m▄[1;34m  [0;34m▀[0;1;34;44m▀[0;1;34;40m████[0;1;34;44m▀[0;1;34;40m▀[0;34m▀[0;36m▄▄[0;1;36m▄[0;1;37m [0m▀[1m▀▀ [0;1;36m▄▄[0;1;36;46m███[0;1;36;40m▌[0;33m    [0m   [1;30m █[0m        [36m    [0;37m [0;1;37m  [0m  [36m    [0;37m [0;1;37m    [0m 
 [1m███[0;1;47m█▀[0;1;40m▀[0m▀[1;34m [0;34m▄[0;1;34m▄▄[0;1;34;44m▄[0;1;34;40m██[0;1;34;44m [0;36m █[0;1;36;46m░░▄█████[0;1;36;47m██[0;1;36;46m▀[0;1;36;40m▀[0;36m▀[0;33m    [0m   [33m [0;1;30m [0;1;30;47m█[0m        [36morigin[0;37m [0;36mlocal[0;37m ([0;1;37mdisney[0;1;33m [0;1;37mstudios[0m)
 [1m███[0;1;47m▌[0m▌[1;34m [0;34m▐[0;1;34;44m▐[0;1;34;40m██████[0;1;34;44m▌[0;34m▌[0;36m▀▀[0;1;36m▐[0;1;36;46m███[0;1;36;47m█[0;1;36;46m█[0;1;36;40m██[0;1;36;46m▌[0;36m▌[0;33m      [0;37m [0;33m [0;37m  [0;1;30m▄[0;1;30;47m░[0m▄       [36mwhat-i-draw [0;37m([0;1;37mansi[0m)
 [1m███[0m█[1;34m  [0;34m█[0;1;34;47m█▓▓█▓[0;1;34;40m██[0;1;34;44m▌[0;34m▌[0;37m [0;34m [0;36m▀[0;1;36;46m▀██[0;1;36;40m█▀▀▀[0;36m▀ [0;33m       [0;37m  [0;1;30m▐[0;1;30;47m▌[0;1;37;47m░░[0m▌      [36meditor [0;37m([0;1;37munreg''d aciddraw[0m)
 [1m███[0;1;47m▌[0m▌[1;34m [0;34m▐[0;1;34;44m▐[0;1;34;40m█[0;1;34;47m▓[0;1;34;40m████[0;1;34;44m▀[0;34m▀[0;1;37m▄[0m▄ [31m▄[0;1;31m▄▄▄▄[0;1;31;41m▄[0;1;31;40m█[0;1;31;47m▓[0;31m [0;33m    [0;30;47m██[0;33;40m [0m   [1;30;40m▀[0m▀▀       [36maffilz[0;37m ([0;1;37mcia[0m·[1msociety[0m·[1mmaidenbr[0m)[1m   [0m
-[1m██[0;1;47m██▄[0m▄[1;34m [0;34m▀[0;1;34;44m▀[0;1;34;40m████[0;1;34;44m▄[0;34m▄[0;1;37m▀[0;1;37;47m█[0m▌[31m▐[0;1;31;41m▐[0;1;31;40m██▀██[0;1;31;47m▓▓[0;30;47m▓▓[0;33;40m [0m         [1;30;40m   [0m      [36mfav artists [0;37m([0;1;37mwator[0m·[1mnapalm[0m)[1m   [0m
-        [1;34m   [0;34m    [0m   [31m          [0m                    [36mwords [0;37m([0;1;37mmangue beat''s alive[0m)
-      [1;30m([0min order, me and my eleet mouse[1;30m)[0m                             [1;36m  [0;1;37m    [0m'
+[1m██[0;1;47m██▄[0m▄[1;34m [0;34m▀[0;1;34;44m▀[0;1;34;40m████[0;1;34;44m▄[0;34m▄[0;1;37m▀[0;1;37;47m█[0m▌[31m▐[0;1;31;41m▐[0;1;31;40m██▀██[0;1;31;47m▓▓[0;30;47m▓▓[0;33;40m [0m         [1;30;40m   [0m      [36mfav artists [0;37m([0;1;37mwator[0m·[1mnapalm[0m)[1m   [0m'

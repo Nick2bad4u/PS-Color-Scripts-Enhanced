@@ -5,7 +5,7 @@
 # Source SHA-256: 82e57cadcc48e2ae962e7ffb88a63227d1e6a314646b1fd180298b68f6ad7e93
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-4c1d.ans by Filth + Alpha King (blocktronics); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: acid
 # SAUCE Author: fil ak
 # SAUCE Group: blocktronics
@@ -39,7 +39,7 @@ Write-Host '
       [1;35m██████▄▄▄▄▄▄████  [0;1;32m████████[0;1;32;41m▒▒▀[0;1;35;41m [0;35m   [0;1;35m▄▄████████████████  [0;1;35;41m     [0;31m▓▓▓▀[0;1;35m   ▄▄█[0m
       [1;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;32m▀████[0;1;32;45m▀[0;1;32;41m▓[0;1;32;40m█[0;1;35;41m  [0;31m▀▀[0;35m   [0;1;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0;31m▓▓▓▀▀[0m     [1;35m▀▀▀▀▀[0m
       fil + ak           [1;32;41m▓[0;1;32;40m█[0;1;32;41m▀▒[0;1;35;41m [0;1;32;41m░░[0;31m▀[0m
-                          [1;32;41m░[0;1;35;41m [0;1;32;41m▄[0;1;35;41m [0m     [1;35mANOTHER CHRiSTMAS iN DiSGUiSE[0m [1;35m░░[0m    [1;35m░░[0m
+                          [1;32;41m░[0;1;35;41m [0;1;32;41m▄[0;1;35;41m [0m     [1;35m                             [0m [1;35m░░[0m    [1;35m░░[0m
                           [1;35;41m   [0m
 
 

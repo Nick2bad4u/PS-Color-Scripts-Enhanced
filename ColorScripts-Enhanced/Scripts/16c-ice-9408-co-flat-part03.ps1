@@ -5,7 +5,7 @@
 # Source SHA-256: bd08899e3eabe2bdce365482d5a01b2ce19c65fe7d19a4b6802a232fc90ecec4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-FLAT.ICE by Cooly (ice-9408); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 81-123
 # Columns: 1-80
 
@@ -41,15 +41,4 @@ Write-Host '
 [1;33m ▐[0;1;33;41m▓[0;1;33;40m▌[0m         [1;33;40m▄████[0;1;33;47m▓[0;1;33;40m▀▐[0;1;33;41m▓[0;1;33;40m▌   ▐[0;1;33;47m▒[0m▌[1;33m  ▐[0;1;33;41m▓[0;1;33;40m▌[0m     [1;33;40m░▒▄▄████[0;1;33;47m▒[0;1;33;40m▀▐[0;1;33;41m▓[0;1;33;40m▌  ▐[0;1;33;41m▓[0;1;33;40m▌ █[0;1;33;47m▒[0m▌[1;33m   ▐[0;1;33;41m▓[0;1;33;40m▌[0m     [1;33;40m▐[0;1;33;41m▓[0;1;33;40m▌ ▄[0;1;33;47m▓▒[0m
 [1;33m░▒█[0m           [1;33m▀▀█[0;1;33;47m▓[0m▀[1;33m  [0;1;33;41m▓[0m     [1;33;47m▓[0m    [1;33;41m▓[0m          [1;33;40m▀▀█[0;1;33;47m▓[0m▀ [1;33m [0;1;33;41m▓[0m    [1;33;41m▓[0m  [1;33;40m▐[0;1;33;47m▓[0m    [1;33;40m▀▀██[0;1;33;47m▓[0;1;33;40m▀ ░▒[0;1;33;41m▓[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m▀▀[0m
 
-                    [33mR[0m     [1;33mE[0m      [1;33mA[0m      [1;33mL[0m     [1;33mI[0m     [1;33mT[0m     Y
-
-                       [33mF[0;1;33mlatlined [0;33mR[0;1;33meality - (613)521-7366[0m
-
-             [1;33mStaff: Stone Angel (local) Nailz (remote) Neurotic (co)[0m
-
-     [1;33m-/- [0;33mB[0;1;33mlur WHQ - Union WHQ! - Dark Dist - Nation Dist - Pursuit Dist -/-[0m
-         [1;33mNokturnal CanHQ - Catharsis NHQ - Corruption Member - Terbium[0m
-[1;33m   -/- [0;33mD[0;1;33meadly Force Member - Fivre Canadian Spoon - Union Net - Prime Net -/-[0m
-
-           [1;33m-\- [0m1 [1;33m0 0  Original Ansi by [0;33mCOOLY[0;1;33m of [0mICE[1;33m Productions ! -/-[0m
-[1;33m            [0m     [1;33mYet Another wirdo quality art by da cool man ![0m'
+                    [33mR[0m     [1;33mE[0m      [1;33mA[0m      [1;33mL[0m     [1;33mI[0m     [1;33mT[0m     Y[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 28773661b0c6bafd95d4bd7ef1b3bb2d97bccf1be5506f0e0454e53ecf4bcb39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 32-PAN.ANS by ezy (fusion\fluid); released in fld9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: . .pancake!.. .
 # SAUCE Author: ezy
 # SAUCE Group: fusion\fluid
@@ -33,7 +33,5 @@ Write-Host '
          [32m▀[0;1;32m▀[0;1;32;42m▀[0;1;32;40m██████[0;1;32;42m▓▓[0;1;32;40m█[0;1;36;40m██▌[0;1;35;45m▐[0;1;35;43m███[0m [1;32;42m░ [0;30;42m░[0;1;32;42m [0m [1;33;43m████[0;1;32;40m▌[0m   [32m▀[0;1;32;42m▀███[0;1;32;47m▓[0;1;32;40m▄▄▄▄▄[0m [33m▀[0;1;37m▀▀▀[0m  [32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0m      [1;32;40m▄[0m
               [32m▀[0;1;32m▀▀[0;1;32;42m▀[0;1;32;40m█████▌[0;1;35;45m▐[0;1;35;43m███[0m [30;42m  ▒░[0m           [32;40m▀[0;1;32;40m▀[0;1;32;42m▀██[0;1;32;47m▓▓[0;1;32;42m██[0;1;32;47m▓[0;1;32;42m██[0;1;36;40m█▄[0;1;32;40m▄[0m [1;32m▄[0m  [1;36m▄[0;1;32m▄[0m
 [1merr...[0m                       [30;42m ░▓▒[0m
-[1;37;40mwella, this one goes[0m [1mto[0m      [30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0m     [1;32;40m.[0m [1;32m.p[0;1;33ma[0;1;32mnca[0;1;33mke![0;1;32m..[0m [1;32m.[0m
-[1mdarklord .. not my best one[0m  [32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0m
-
-[1;37;40mone more thing, i really did get some awsome inspiration by [0;1;33;40mize[0;1;37;40m .. this pack![0m'
+[1;37;40m                    [0m [1m  [0m      [30;42m▓[0;32;40m░[0;30;42m▓[0;32;40m░[0m     [1;32;40m [0m [1;32m  [0;1;33m [0;1;32m   [0;1;33m   [0;1;32m  [0m [1;32m [0m
+[1m                           [0m  [32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e4584d812583a1ff233e465054c409fc619e265fe9cbb19cf5da25c80929be74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-PD.ANS by minotaur (mAidEN bRAZil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pd bbs logo
 # SAUCE Author: minotaur
 # SAUCE Group: mAidEN bRAZil
@@ -37,8 +37,4 @@ Write-Host '
                   [1;31m█[0;1;37m██[0;31m█   [0;1;37m██[0;1;32;42m█[0m  [1;31m▐█[0;31m█  [0;31;42m [0;1;32;42m██▌[0;32m▄▄▄[0;1;33;42m░░[0;32m▀▀▀[0m     [1;37m██[0;1;31;41m▌[0;31m▌ [0;34m░░[0m                    [37m░[0m
                  [1;31m▀▀█[0;1;31;41m▄[0;31m▄[0m       [1;31m▄██[0;31m█[0m              [1;31m▄▄▄▄██[0;1;31;41m▀[0;31m█▓▓░░[0m
                     [1;31m▐▀[0;1;31;47m▓▓[0;1;31;40m█▀▀▀██[0;1;31;47m▓▓▓[0;1;31;41m█[0;1;31;40m██[0;1;31;41m▄[0;1;31;40m▄[0;31m▄  [0;1;31m▄▄[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;41m▀[0;1;31;40m▀[0;31m▀[0m
-                                    [1;31m▀▀▀▀▀[0;31m▀[0m
-
-
-[35mhMM i fORGOT sYSOP''S nAME aND bBS nAME , bUT cALL iT! ( aH , i fORGOT tHE[0m
-[35mpHONE nUMbAH tOO!! =)[0m'
+                                    [1;31m▀▀▀▀▀[0;31m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: fc33cc891786b90bf3ed5057701a6eabb4b6a94e64c656335dca382d03c29acd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ungenannt_autumnharvester.ANS by ungenannt (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: autumn harvester
 # SAUCE Author: ungenannt
 # SAUCE Group: blocktronics
@@ -61,7 +61,7 @@ Write-Host '
 [1;33;43m██▀▀▀[0;33m██[0;33;43m█[0;33;40m███[0;1;33;43m▄ ▄▄▄▄▄▄░░░░░░[0;33m███████[0;1;33;43m▀▀▀▀▓▓▓▓▄▄▄[0;33;43m███[0;33;40m████[0;1;33;43m▀▀▀▀▀▀[0;33m██[0;1;33;43m▄▄▄▄▓▓▓▓▀▀▀▀▀▀▄▄▄▄▄[0;33m▓▓[0m
 [1;33;43m  ▄▄▄▄▓▓▓▓▓▒▒░░░░[0;33;43m [0;1;33;43m▀▀▀▀▀▀▀[0;33;43m [0;1;33;43m░░░[0;33;43m             [0;1;33;43m▀▀▀▀▀▀▀[0;33;43m    [0;1;33;43m▀▀▀▀▀[0;33;43m [0;1;33;43m▄▄▄▄█████▄▄▄▄▄[0;33m██[0;33;43m  [0;1;33;43m▀░[0m
 [1;33;43m▀▀▀▄▄▄▄▄███▄▄▄▄[0;33;43m [0;1;33;43m▀▀▀▀▀▀[0;33;43m [0;1;33;43m▀[0;33;43m       [0;1;33;43m▀▀▀[0;33;43m [0;1;33;43m▀▀▀▀▀▀▓▓▓▓▓▓▓▓▒░░░[0;33;43m [0;1;33;43m░░[0;33;43m [0;1;33;43m░░[0;33;43m      [0;1;33;43m░░░░▒▓▓▓▓▓▓▓▓▓[0m
-[33mautumn harvester [0;35mreap what you sow[0;37m                                    [0;35mungenannt[0m
+[33m                 [0;35m                 [0;37m                                    [0;35m         [0m
 
 
 [37m                                                                           [0;30m█[0m'

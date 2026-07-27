@@ -5,7 +5,7 @@
 # Source SHA-256: b87d6fa10ef7a882ba403bd0d03fb788dfbfb02ba29a182301c4367bb056fea5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WZ-DARK1.ANS by Weazel (VOiD); released in void0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Darkness
 # SAUCE Author: Weazel
 # SAUCE Group: VOiD
@@ -39,9 +39,4 @@ Write-Host '
 [30m█▄███■███▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;33mS[0;31my[0;1;30msOp: Night Angel.CoSysOp: Bo[0;31mn[0;33mo [0;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████▌[0;31m░[0m
 [30m████▌[0;31m░[0;30m▐██ [0;33m+[0;31m3[0;1;30m2-16-657o29 ■ +32-16-65o554 ■ +32-16-65o555 ■ +32-16-65o5[0;31m5[0;33m6 [0;30m█████▄[0m
 [30m█████▄███▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄    [0;33m1[0;31m.[0;1;30m5 gi[0;31mg[0;33ms    [0;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█████▀[0m
-[30m████████████████████████████████ [0;33mP[0;31mr[0;1;30moBoard v2.[0;31mo[0;33m1 [0;30m████████████████████████████▌[0;31m░[0m
-
-
-                 [1;30mSorta Origeenal Ansi by Weazel.VOiD Produkshunz[0m
-
-     [1;30mHi''s And Ho''s goin out to Veks.VOiD,Grimace.VOiD,The Egyptian Evenger.[0m'
+[30m████████████████████████████████ [0;33mP[0;31mr[0;1;30moBoard v2.[0;31mo[0;33m1 [0;30m████████████████████████████▌[0;31m░[0m'

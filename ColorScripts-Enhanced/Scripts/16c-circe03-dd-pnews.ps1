@@ -5,7 +5,7 @@
 # Source SHA-256: 9394d5b4e9e8d077c3724831607f03e46c7d774223e4f099cbf9da9f5dbcd591
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-PNEWS.ANS by Diamond Darrell (Circe Argentina); released in circe03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "Poe's Land News"
 # SAUCE Author: Diamond Darrell
 # SAUCE Group: Circe Argentina
@@ -26,9 +26,4 @@ Write-Host '
 ▄[1m▓▓▀▀▀▀ [0m▀[1m▀ ▀▀▀▀▀[0;1;33m▀▀██[0;1;32m██▀▀▀▀▀▀░░[0;1;37mland[0m [1;32m▀▀▀▀▀▀▀▀▀[0;1;33m▀▓██[0;1;32m██▄▄▄███▀ [0;1;30m [0;1;34m   [0;1;31m░░░   [0m░░▀▀▀[1;30m▀[0m▀[1;30m▀▓▓▄[0m
 ██                    [1m ░░ ░    N O T i C i A S[0m   [1m  [0m   [1;32m [0;1;32;42m██▒[0m                   [1;30m██[0m
 ▓[30;47m░[0m                                                                           [1;30;40m▓▓[0m
-[30;47m▓▓[0;37;40m  [0;1;37;40m   [0m                                                                      [1;30m░░[0m
-                                                                             [1;30m  [0m
-                                                                             [1;30m  [0m
-                                                                             [1;30m  [0m
-
-                                                                             [1;30m  [0m'
+[30;47m▓▓[0;37;40m  [0;1;37;40m   [0m                                                                      [1;30m░░[0m'

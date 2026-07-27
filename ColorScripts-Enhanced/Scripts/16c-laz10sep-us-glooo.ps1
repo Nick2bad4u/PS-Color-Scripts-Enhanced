@@ -5,7 +5,7 @@
 # Source SHA-256: 25d95a0919bc495888a4e44ff6d6f2e3b6a3bdbb1082beeb3c8ee32b1a4b772c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-GLOOO.ANS by Grind King + Spear + Tricolore + Catch 22 (lazarus); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: GLUE!@#
 # SAUCE Author: multiple artists
 # SAUCE Group: lazarus
@@ -37,15 +37,4 @@ Write-Host '
 [31;40m▌░[0;30;41m▓[0;31;40m░[0;30;41m▓▓[0;37;40m  [0;1;37;40m▀█[0;1;36;46m▒▒░[0;36m▄▄▄[0;32m▐[0;36;42m▄▓▓▒[0;32;40m▌[0;37;40m [0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░  ░[0;30;41m▓[0;37;40m [0;31;40m░░ ▌░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;34;40m ▐▀▀█[0;1;34;44m▀█▀▀[0;34m▀▄▐[0;1;34;44m █[0;1;34;47m▒▒[0;1;34;44m███▓▒░░[0;34m██▌▌▐[0m
 [31m▀[0m        [30;46m▓▓[0;36;40m▀▀▀[0;1;36;46m [0;36m▄███▀▀[0m                 [31m  ▀[0m         [34m▀▀▄▄███[0;1;34;44m▐▀▀▀▀▀▀[0;34m█▀▀▌[0;37m          [0m
                                                                [34m    [0;37m          [0m
-[1;30m--------------------------------------------------------------------------------[0m
-[1;30mthis joint ansi was created by the following artists in one swift irc cram[0m
-[1;30msession:[0m
-[1;30m          - grindking(laz), font outline [0m
-[1;30m     [0m     [1;30m- spear(laz/glue), colouring[0m
-[1;30m     [0m     [1;30m- tricolore(laz), glue bottle[0m
-[1;30m     [0m     [1;30m- catch22(glue), background [0m
-
-[1;30mreason: well DUH.. we were bored like any other reason you would draw a 4 [0m
-        [1;30mperson joint.[0m
-
-[1;30mmusic involved: gk - josh wink, sp - prodigy, tri - orb, c22 - rhythm collision[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

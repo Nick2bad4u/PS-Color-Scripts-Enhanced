@@ -5,7 +5,7 @@
 # Source SHA-256: d532dd53b220587aa474c534185f4ef56050f96a9578ff5a8a6a05cabb04811b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FLATS.ANS by The Knight + Burps (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: flatscan matrix
 # SAUCE Author: the knight & burps
 # SAUCE Group: fuel
@@ -37,10 +37,4 @@ Write-Host '
 [1;30;40m▀▀▀▀[0m [31m▄▄▄▄▄▓▓▀▀[0;37m  [0;1;30m▄▀[0m [31m▄▀ ▄ [0;1;30m▓▓██[0;1;30;47m▓░░▒▓[0;1;30;44m█[0;1;30;40m██ [0;34m▄▄[0;1;34;44m▒▒▒[0;1;30;40m [0;31m▄▄▄[0;1;35;41m▐▌[0;1;30;40m.[0m.[1m%[0m.[36m.[0;1;36mcommand[0;36m.[0;37m.[0;1;37m%[0m.[1;30m.[0;1;35m░[0;1;35;47m ▄[0;1;35;41m▓▒ [0;31m▌ ░░ [0;1;30m░ ▓[0;35m▐[0m
 [31m▀▀▀▀▀▀▀[0;1;30m▄▄▄▄▄▀▀[0;31m░ ▄▐▀▄█[0;1;31;41m▄[0;1;30;41m░░[0;1;30;40m▄▄▄ █▀[0;1;30;47m▄░▒▓▓█[0;1;30;40m  [0;31m▄▄▄▄▄[0;1;31;41m▀[0;1;35;41m ▄█▌[0;1;30;40m.[0m.[1m%[0m.[36m.[0;1;36mcommand[0;36m.[0;37m.[0;1;37m%[0m.[1;30m.[0;31m [0;1;35;47m▓[0;1;35;41m██▓ [0;31m▌░▒▒░   ░[0m
 [1;30m████▀▀▀▀[0;1;31m [0;31m▄▄▄▄▀▀▄▄[0;1;31;41m░░[0;1;30;41m░░▒▒▒▓▓[0;1;30;40m███ ▄[0;1;30;47m▄ ░▒▓[0;1;30;40m [0;31m░[0;1;31;41m░░[0;31m█▒[0;1;35;41m  ▐[0;1;35;47m▓▄[0;1;35;41m█[0;31m▄[0;1;35m [0;31m                [0;1;35;47m▒▓[0;1;35;41m█  [0;31m ▒▓▓[0;1;31;41m░░[0;31m█▄▒[0m
-[31m▄▄▄▄▄▀▀▀▀█▓▓▓[0;1;31;41m▓▓▒▒[0;1;30;41m░░▒▒▓▓▓[0;1;30;40m███[0;1;30;44m▓▓[0;1;30;40m█▌ ▀[0;1;30;47m▄▒[0;1;30;40m▌ [0;31m▒[0;1;31;41m▒▒[0;31m█░[0;1;31;41m░░[0;1;35;41m ▀▀[0;1;35;40m███[0;1;35;41m▄▄▄▄[0;31m█[0;1;35;41m▄▄[0;31m▄▄▄▄█[0;1;35;41m▀█[0;1;35;47m▄[0;1;35;41m█▀▀ [0;31m▀ ░▓[0;1;31;41m░▄███▄[0;31m▓[0m
-[31m                                                                               [0m
-[37m                                                                               [0m
-[1;30mhmm... drawing crap that makes sense at some point is harder than i thought.   [0m
-[1;30mthis matrix is for acolyte''s flatscan and has been brought to you by the knight [0m
-[1;30mand burps, both of fuel productions.[0m
-'
+[31m▄▄▄▄▄▀▀▀▀█▓▓▓[0;1;31;41m▓▓▒▒[0;1;30;41m░░▒▒▓▓▓[0;1;30;40m███[0;1;30;44m▓▓[0;1;30;40m█▌ ▀[0;1;30;47m▄▒[0;1;30;40m▌ [0;31m▒[0;1;31;41m▒▒[0;31m█░[0;1;31;41m░░[0;1;35;41m ▀▀[0;1;35;40m███[0;1;35;41m▄▄▄▄[0;31m█[0;1;35;41m▄▄[0;31m▄▄▄▄█[0;1;35;41m▀█[0;1;35;47m▄[0;1;35;41m█▀▀ [0;31m▀ ░▓[0;1;31;41m░▄███▄[0;31m▓[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: bcb3e45af74ab0a7469dd69a8334073561420173dd8dfd0cd7dec0d1b79c9a5c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ASP_SOC.ANS by aspyre (air); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: society emag PIC!!!
 # SAUCE Author: aspyre
 # SAUCE Group: air
@@ -39,4 +39,4 @@ Write-Host '
 [33m§$$$$[0;31m$$$s_   ''"  [0;33m.[0;31m,s,[0;33m.  [0;37m$$$[0;1;37m$$[0m$[1m$[0m$$[1m$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m$[1m$[0m$[1m$[0m$   $$[1m$   [0m$   $[1m$[0m
 [33m$√╟╢$$$[0;31m$$$$bπm,._[0;33m`²$²[0;31m'' [0;33m,s,[0;37m`²$$[0;1;37m$[0m$[1m$[0m$[1m$[0m$$[1m$$$$$$$$$$$$$$$$$$$$$$$$[0m$$[1m$[0m$SsS$[1m$[0m$s[1m, '' [0m,s$$
 [33m$$$░¶$$[0;31m$$[0;33m$$$[0;31m$$$s,_,s$[0;33m$$$²''[0;37m,s$$$[0;1;37m$[0m$[1m$[0m$$[1m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m$[1ms[0mss$[1m7ⁿ''[0m
-░        ░       ░   <<_+  s[1mO[0mc[1mi[0mety 97 + we breathe a[1mi[0mR  +_>>  ░        ░[0m'
+░        ░       ░          [1m [0m [1m [0m                     [1m [0m         ░        ░[0m'

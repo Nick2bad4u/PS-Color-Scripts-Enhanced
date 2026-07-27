@@ -5,7 +5,7 @@
 # Source SHA-256: 4cb7ef2462516f22428c22b379d6254bd087a94a67386093d566d802fe7424c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: B!LO0P.ANS by bULL/iPC^sIMONkING (thELo0p); released in l0p03_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: l0p-hiphop =)
 # SAUCE Author: bULL/iPC^sIMONkING
 # SAUCE Group: thELo0p
@@ -38,18 +38,4 @@ Write-Host '
                              [34m▓▄▄▄▄▄▄████[0;1;34;44m▄[0;34m█[0;37m  [0;1;37m▓▓▒▒[0m
                              [34m░▒▒▒▓▓▓[0;1;34;44m░░▓▓[0;34m▀[0;37m  [0;1;37m▒▒▒░░[0m
                               [34m░░░░░░░░[0m   [1;37m░░░░░░░[0m
-                                             [1m░░░[0m
-
-
-[1mupsasa... maly joint w wykonaniu bull''a/ipc i moim (sK!).[0m
-[1mkto za co odpowiedzialny?[0m
-[1mbull za kontury w ascii (font i hiphopowiec w tle), ja za kolory, cienie i[0m
-[1mwhite tlo ;). minimalnie zmienilem kontury, dotyczy zwlaszcza czcionki.[0m
-
-[1mczekam na wasze reakcje dotyczace jednych z pierwszych w polsce tego typu[0m
-[1mprzedsiewziec (jointow). czy podoba wam to co robimy w thelo0p (003)?[0m
-
-[1mz powazaniem,[0m
-
-[1msimonking/thelo0p[0m
-[1msimon_k@friko.onet.pl[0m'
+                                             [1m░░░[0m'

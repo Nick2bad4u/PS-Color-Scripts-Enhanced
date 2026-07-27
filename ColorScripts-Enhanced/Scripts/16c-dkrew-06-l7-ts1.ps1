@@ -5,7 +5,7 @@
 # Source SHA-256: c0469bc3286a39885e6abd1c74195129f5c19b936fafdc7c956b2577d8df934e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: L7-TS1.ANS by Lancelot (Dead Krew); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tha s0urce.
 # SAUCE Author: Lancelot
 # SAUCE Group: Dead Krew
@@ -38,10 +38,4 @@ Write-Host '
 [1;30m▒[0m    [1;30m░[0m               [34m( [0;1;31m613[0;34m ) [0;1;31m741[0;34m [0;1;31m8236[0m      [1;30m░[0m [34m█[0m                 [1;30m░[0m            [1;30m▒[0m  [1;30m░[0m
 [1;30m░[0m        [1;30m░[0m       [1;30m░[0m      [1;30m░[0m             [1;30m░[0m      [34m▌[0m          [1;30m░[0m                   [1;30m░[0m
      [1;30m░[0m                        [1;30m ░[0m           [1;30m░[0m                   [1;30m░[0m               [1;30m░[0m
-[1;30m--------∙·.[0m
-       [1;30mlet''s see[0m [1;30m... I obviously did this for [0;1;37mtha s0urce[0;1;30m ([0mft[1;30m''s brd) I sent[0m
-[1;30m       it to him awhile ago, see what he would do with the shading and all[0m
-[1;30m       and I never heard from [0;1;37mflight[0;1;30m or the ansi again...[0m [1;30mmaybe one day we[0m
-[1;30m       will all  see this logo again with [0;1;37mft[0;1;30m''s shading ... still up to it?[0m
-
-                [1;30m [0m  [1;30m"dead krew productionz... we out, we out"[0m'
+[1;30m--------∙·.[0m'

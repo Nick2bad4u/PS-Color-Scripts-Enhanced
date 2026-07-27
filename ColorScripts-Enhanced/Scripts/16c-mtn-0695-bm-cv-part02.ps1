@@ -5,7 +5,7 @@
 # Source SHA-256: 2bc99129a4952edc4c6bac58992b87d4c9abf5a5375d6587792dfe76b7c9cfb9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM!CV.ANS by blIndman (READ THE INI FILE); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Convulsion
 # SAUCE Author: blIndman
 # SAUCE Group: READ THE INI FILE
@@ -39,7 +39,7 @@ Write-Host '
 [30;43m░░      ░[0;37;40m [0;37;43m▒░       [0;30;43m░       [0;37;43m░ [0;33;40m████[0;37;43m    [0;30;43m░▒░░░   ░░   ░[0;37;40m [0;30;43m▓▒░ ░        ░ ░▒[0;33;40m▌▐[0;33;43m  [0;30;43m░░   ░▒[0m
 [30;43m░        ░[0;33;40m▄[0;33;43m [0;37;43m░      [0;30;43m░                 ░  ░         [0;33;40m▄[0;30;43m▒▒░░           ░ ░▒[0;33;40m▄[0;33;43m [0;30;43m░░     ░[0m
 [1;30;40m■■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■■[0m
-[1;30;40mmarvel comics (tm)![0m
+[1;30;40m                   [0m
 [1;30m   ░[0m
                          [1;30m▒[0m      [1;30m░[0m                                       [1;30m░[0m
 [1;30m   ▒    ▒[0m               [1;30m▄▓▄▄   ▄▓▄▄ ▄▄▓▄▄▄▄▄[0m                  [1;30m▒[0m         [1;30m▒    ▒[0m
@@ -56,8 +56,4 @@ Write-Host '
 [1;30m  ▓▄▄▄▄▄▀ ▓▄▄▄▄ ■▀  ■▀ ▄▒ ▀▄ ▀ ▄▀ ▓▄▄▄▄▄▀▀▓▄▄▄▄▄▀▓▀▄▄▄  ■▀ ▄▀ ▀▄▄▄▄▓■▀  ■▀ ▄▀[0m
 [1;30m  ▒[0m       [1;30m▒   ▓▀▀▀▀▀▀▀▀ ░   ▀▀▀   ▒    ▓  ░[0m      [1;30m░    ▓▀▀▀▀[0m        [1;30m▒▀▀▀▀▀▀▀[0m
               [1;30m░[0m                                                    [1;30m░[0m
-                                       [1;30m░[0m
-
-
-      [1mstaff [0;1;30m/ [0;1;37mYpsilon[0;1;30m, [0;1;37mPunisher[0;1;30m, [0;1;37mDr[0;1;30m. [0;1;37mP[0;1;30m, [0;1;37mCatonica[0;1;30m, [0;1;37mBear[0;1;30m, [0;1;37mNightbreed[0;1;30m, [0;1;37mDivine[0m
-           [1m1[0;1;30m.[0;1;37m7 gigs online [0;1;30m/ [0;1;37m3 blazing 28k8 nodes [0;1;30m/ [0;1;37m486 netware power[0m'
+                                       [1;30m░[0m'

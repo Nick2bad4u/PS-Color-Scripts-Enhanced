@@ -5,7 +5,7 @@
 # Source SHA-256: 7664293d963a03711527ee199243f3aab8105962fd4317b2751ee3212963482a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FU-CF3.ANS by Fury (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chronic Farts
 # SAUCE Author: Fury
 # SAUCE Group: AWE Lettering
@@ -35,20 +35,5 @@ Write-Host '
 [1;30;40m▀[0;35m▀▀█████████▀▀▀▄▄▓[0;30;45m░░[0;1;35;45m░░▓▓[0;1;35;40m███████████████████[0;1;35;47m▓▓▓▓░░▓▓▓▓▓[0;1;35;40m█▄▀█████[0;1;37;40m▌[0;31m▐[0;1;31;41m▐██████[0;1;31;47m▓▓[0;1;31;41m███████[0m
 [31m     [0;1;30m▀[0;35m▀▀▀[0;31m       [0;37m [0;30;45m▓▓[0;35;40m░[0;30;45m▓[0;35;40m▓[0;1;35;45m░▓▓[0;1;35;40m██████████████████████[0;1;35;47m▓▓[0;1;35;40m▓▓▓▓▀▀▄█▄▄▀▀▀[0;1;37;40m▌[0;31m▐[0;1;31;41m▐██████[0;1;31;47m▓▓[0;1;31;41m██████▀[0m
 [1;30;40m────────────────────────────────────────────────[0;1;35;40m ░░░░ [0;1;30;40m──────────────────────────[0m
-[1;30;40mChronic Farts, run[0m [1;30mby Fury..  Coming soon to 419 (Well, in a couple months :))[0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
-[1;30m-- Ansi (c) Fury of AWE Enterprises..[0m
-
-
-
-
-
-[1;30m-- This pic took me 15 minutes :) spiif eh? though soo :)[0m
-
-[1;30m-- Its for crhonic farts, so..  dont use it,.. [0m
-[1;30m  [0m
-[1;30m-- This was taken out of Spawn #1 :) Woo..   [0m
-
-[1;30m-- Want a pic like this, or a spiff phont?  Well, email me at[0m
-
-                                             [1;30m:: mike.hall@sylvania.sev.org ::[0m'
+[1;30;40m                  [0m [1;30m                                                           [0m
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m'

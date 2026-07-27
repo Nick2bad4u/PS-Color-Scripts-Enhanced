@@ -5,7 +5,7 @@
 # Source SHA-256: ef1a020f2184f35d0a5ee8cdecc884cc5f03dde41b454883692f9b03f39103c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-SEX1.ANS by The ExtremisT (kereva); released in ira9801a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: le sexe selon thext
 # SAUCE Author: The ExtremisT
 # SAUCE Group: kereva
@@ -39,16 +39,13 @@ Write-Host '
 [1;31m▐[0;1;31;47m▓[0;1;31;43m▓▓▒▓▓▓▒▓[0;1;31;40m▌[0;35m▐[0;1;35;45m▄▄[0;35m▄[0;1;31m▀[0;1;31;47m▓[0;1;31;43m▓▒▒▒░░░▒▒[0;1;31;40m▌[0;35m▐[0;1;35;45m▐█████████████████████████████[0;35m█ [0;31m▓▌[0;35m▒▓[0;1;35;45m░██▄[0;35m▄[0;1;31m▀▀[0;35m▄▄[0;1;31m▀▀▄▄[0;35m▀[0;1;35;45m [0;1;37;40m [0m
 [1;31;40m▐[0;1;31;47m▓[0;1;31;43m▓▓▒▒▒▒▒▓[0;30;47m█[0;35;40m▀[0;1;35;45m▀█▀[0;35m▀[0;30;47m█[0;1;31;47m▓[0;1;31;43m▓▒▒▒░░░▒▒[0;1;31;40m▌[0;35m▐[0;1;35;45m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m█ [0;31m░▀▄[0;35m▀[0;1;35;45m▀▀▀▀▀[0;35m██[0;1;35;45m▀▀[0;35m██▄▄█[0;1;35;45m [0;1;37;40m [0m
 [1;35;40m                                                                                [0m
-[1;37;40mRencontre Chaudes et Excitantes[0;33m [0;1;5;33m1-900-451-1900[0m  Rencontre Chaudes et Excitantes
-         Ligne de rencontre pour 18 ans et plus à la grandeur du Canada
+[1;37;40m                               [0;33m [0;1;5;33m              [0m                                 
+                                                                       
 [1m                                                                                [0m
-[1;31m      Hommes, femmes, gais, bis, lesbiennes, couples, tous sont bienvenus!      [0m
+[1;31m                                                                                [0m
 [1;37m                                                                                [0m
-[31m                           ouvert [0;1;31m24[0;31m/[0;1;31m24[0;31mhrs, [0;1;31m7[0;31m/[0;1;31m7[0;31m jours                           [0m
-[31m                            3.99$/minutes [0;1;31mseulement[0;31m                             [0m
+[31m                                  [0;1;31m  [0;31m [0;1;31m  [0;31m     [0;1;31m [0;31m [0;1;31m [0;31m                                 [0m
+[31m                                          [0;1;31m         [0;31m                             [0m
 [1;37m                                                                                [0m
-[1;37m  [0;1;33m                 [0;1;37mSexxx xxx [0;1;31m- [0;1;37mRencontres sexuelles épanouies                   [0m
-[1;5;33m                                011-592-572-047                                [0;31m [0m
-[31m                            [0;1;31mI[0;31mnterurbains [0;1;31ma[0;31mpplicables                            [0m
-[31m                        [0;1;31mMoins[0;31m [0;1;31mde[0;31m [0;1;31m0[0;31m.[0;1;31m87$[0;31m/[0;1;31mminute[0;31m [0;1;31mseulement[0;31m!                        [0m
-[1;37m                                                                                [0m'
+[1;37m  [0;1;33m                 [0;1;37m          [0;1;31m  [0;1;37m                                                 [0m
+[1;5;33m                                011-592-572-047                                [0;31m [0m'

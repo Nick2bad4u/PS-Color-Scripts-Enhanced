@@ -5,7 +5,7 @@
 # Source SHA-256: 0cab42a44c968a1c4e63584870c56da7eb28c3cbad12d7a6a266a1c28d512c64
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VD-DOP.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-98
 # Columns: 1-80
 
@@ -45,7 +45,7 @@ Write-Host '
 [1;30;44m█▓▓▒▒░░░░  █[0m       [1;30;44m█▓▓▒▒░░ █[0m       [1;30;44m█▓▓▓▒▒░ █[0m    [1;30;44m█▓▓▓▓▒█[0m [1;30;44m█░░   █[0m  [1;30m█[0;1;30;44m▓▓▓▓▒▒▒░░[0;34m██[0;1;30m█[0m
 [1;30;44m█▓▓▓▒▒░░░▄█[0m         [1;30;44m█▓▓▒▒░█[0m         [1;30;44m█▓▓▓▒▒█[0m     [1;30;44m█▓▓▓▓▓█[0m  [1;30;44m█░░▄▄▄█[0m  [1;30m█[0;1;30;44m▓▓▓▓▒▒▒░░[0;1;30m█[0m
 
-[1;30m[[0;33mBL[0;1;30ma[0;33mDE M[0;1;30member [0;33mB[0;1;30moard]    ▄[0m       [1;30m▄[0m        [1;30m▄[0m      [1;30m▄[0m      [1;30m▄[0m
+[1;30m [0;33m  [0;1;30m [0;33m    [0;1;30m      [0;33m [0;1;30m         ▄[0m       [1;30m▄[0m        [1;30m▄[0m      [1;30m▄[0m      [1;30m▄[0m
 [1;30m[{[0;1;34mSCUD[0;1;30m} [0;1;34mM[0;1;30member][0m       [1;30m▄[0;1;30;44m▀▄▀[0m    [1;30m▄[0;1;30;44m▀[0;34m▀[0m      [1;30m▄[0;1;30;44m▀[0;34m▀ [0;1;30m▄   [0;1;30;44m█[0;34m█    [0;1;30m▄[0;1;30;44m▀[0;34m▀[0m
 [1;30m[[0;34mOP[0;1;30mi[0;34mUM S[0;1;30mite][0m        [1;30m▄[0;1;30;44m▀[0;34m▀ [0;1;30;44m█[0;34m█  [0;1;30m▄[0;1;30;44m▀[0;34m▀[0m      [1;30m▄[0;1;30;44m▀[0;34m█  [0;1;30;44m█[0;34m█   [0;1;30;44m█[0;34m█  [0;1;30m▄[0;1;30;44m▀[0;34m▀[0m
 [1;30m[[0m418[1;30m.[0m681[1;30m.[0m1974[1;30m][0m     [1;30;44m█[0;34m█   [0;1;30;44m█[0;34m█ [0;1;30m█[0;34m█ [0;1;30m▄[0;1;30;44m▀[0m   [1;30m▄[0;1;30;44m▀[0;34m▀[0;1;30;44m█[0;34m█  [0;1;30;44m█[0;34m█ [0;1;30m▄[0;1;30;44m▀▄[0;34m█ [0;1;30m█[0;34m█ [0;1;30m▄[0;1;30;44m▀[0m
@@ -57,5 +57,5 @@ Write-Host '
                  [1;30m█▀▀▄ █▀█ █▄▀ ▄▀▀ █▀█ █▀▀▄ ▀█▀ ▀ ▄▀▀▄ █▄ █[0m
                  [1;30m█▀▀  █▄▄ █   ▀▄▄ █▄▄ █▀▀   █  █ ▀▄▄▀ █ ▀█[0m
 
-[1;30m  [0;1;34;44m "I''m a sound in mind who fight for his soul!"  -Bram Stoker''s DRACULA- [0m
-[1;30m  [0;1;34;44m It have no meanning...  │ ANSi by [VLAD] │ ≡ASTEK≡ │        │ 10.08.93 [0m'
+[1;30m  [0;1;34;44m                                                                        [0m
+[1;30m  [0;1;34;44m                         │                │         │        │          [0m'

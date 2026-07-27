@@ -5,7 +5,7 @@
 # Source SHA-256: 11e67de95cebe827aad54be140fca02ee4a9907787f64d68850570db83c9ee12
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CE-TAS1.ANS by Cerebrus (acdu1193); released in acdu1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 115-160
 # Columns: 1-80
 
@@ -31,27 +31,27 @@ Write-Host '
 [1;30;40m.[0m      [1;37;47m▒░[0m [35m▀[0;1;35m▀▀▀[0;35m▀ [0;1;30;47m██[0m        [1;37;47m▒░[0m [35m▀[0;1;35m▀▀▀[0;35m▀ [0;1;30;47m██[0m   [1;37;47m▓▒[0m [35m▀[0;1;35m▀▀▀[0;35m▀ [0;1;30;47m██[0m [1;37;47m▒░[0m [35m▀▀[0;1;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35m▀[0;1;30m▄[0;1;30;47m██[0;1;30;40m▀[0m
 :      [1;47m░ [0;1;30;47m░▒▓██████[0m        [1;37;47m░ [0;1;30;47m░▒▓██████[0m   [1;37;47m▒░[0;1;30;47m░▒▓██████[0m [1;37;47m░[0;1;30;47m░▒▓███████████████████[0;1;30;40m▀[0m
 |
-[1m│[0m                       [1mThe Armageddon Support BBS[0m
+[1m│[0m                       [1m                          [0m
 [1m├───-[0m-- -  [1;30m-  -[0m
-[1;37m│ ToXiCNeT [0;1;30m· [0;1;37mH[0myperN[1;30met [0mH[1;30most · DementiaNet Host · TCSNet Host · CCi Net[0m
-| [1mMobNet [0;1;30m· [0;1;37mP[0mhalcon [1;30mS[0mk[1;30mism Net · F/X Net Host · ValiantNet · NonNet HQ[0m
+[1;37m│          [0;1;30m  [0;1;37m [0m     [1;30m   [0m [1;30m                                              [0m
+  [1m       [0;1;30m  [0;1;37m [0m       [1;30m [0m [1;30m                                               [0m
 :
-[1;30m. [0;1;37mACiD [0mMe[1mm[0mber B[1;30mBS · iCE Member BBS · VGANSi Temp. WHQ · CORE Member BBS[0m
-[1;30m· [0;1;37mOpt[0mi[1mk [0mNerve [1;30mFa[0mn [1;30mClub HQ · Lancelot ][ Distsite/Member BBS[0m
-[1;30m  [0;1;37mBe[0me[1mr[0mWare [1;30mU[0mt[1;30mils Alphasite · RAM Dist Site · MiR WHQ[0m
+[1;30m  [0;1;37m     [0m  [1m [0m     [1;30m                                                        [0m
+[1;30m  [0;1;37m   [0m [1m  [0m      [1;30m  [0m  [1;30m                                         [0m
+[1;30m  [0;1;37m  [0m [1m [0m     [1;30m [0m [1;30m                                       [0m
 
-                               [1;37mR[0;1;35mu[0;35mnning [0;1;37mR[0;1;35me[0;35mnegade[0m
-                        [1;37mC[0;1;35my[0;35mber[0;1;37mA[0;1;35mr[0;35mtists/[0;1;37mC[0;1;35mr[0;35miminals [0;1;37mW[0;1;35me[0;35mlcome[0m
-                          [1;37mNO WAREZ[0;35m; [0;1;37mT[0;1;35me[0;35mxt/[0;1;37mV[0;1;35mi[0;35mrii only![0m
-                         [1;37mN[0;1;35mo[0;35m: [0;1;37mL[0;1;35ma[0;35mmers/[0;1;37mL[0;1;35mo[0;35mcals/[0;1;37mR[0;1;35ma[0;35mtios/[0;1;37mN[0;1;35mu[0;35mp[0m
-     [1;35mO[0;35m-[0;1;35m3O [0;35msec msgs [0;1;35m■ O[0;35m-[0;1;35m3O [0;35mday users [0;1;35m■ O[0;35m-[0;1;35m3O [0;35mday hardware [0;1;35m■ O[0;35m-[0;1;35m3O [0;35mday ansis[0m
-     [1;35m25OO[0;35m+ [0;1;37mT[0;1;35me[0;35mxt [0;1;37mF[0;1;35mi[0;35mles / [0;1;35m6OO[0;35m+ [0;1;37mD[0;1;35mo[0;35mcumented [0;1;37mV[0;1;35mi[0;35mrii / [0;1;35m3OO[0;35m+ [0;1;37mC[0;1;35mr[0;35macks / [0;1;35m1OOO[0;35m+ [0;1;37mA[0;1;35mn[0;35msis[0m
+                               [1;37m [0;1;35m [0;35m      [0;1;37m [0;1;35m [0;35m      [0m
+                        [1;37m [0;1;35m [0;35m   [0;1;37m [0;1;35m [0;35m      [0;1;37m [0;1;35m [0;35m        [0;1;37m [0;1;35m [0;35m     [0m
+                          [1;37m        [0;35m  [0;1;37m [0;1;35m [0;35m   [0;1;37m [0;1;35m [0;35m         [0m
+                         [1;37m [0;1;35m [0;35m  [0;1;37m [0;1;35m [0;35m     [0;1;37m [0;1;35m [0;35m     [0;1;37m [0;1;35m [0;35m     [0;1;37m [0;1;35m [0;35m [0m
+     [1;35m [0;35m [0;1;35m   [0;35m         [0;1;35m■  [0;35m [0;1;35m   [0;35m          [0;1;35m■  [0;35m [0;1;35m   [0;35m             [0;1;35m■  [0;35m [0;1;35m   [0;35m         [0m
+     [1;35m    [0;35m  [0;1;37m [0;1;35m [0;35m   [0;1;37m [0;1;35m [0;35m      [0;1;35m   [0;35m  [0;1;37m [0;1;35m [0;35m         [0;1;37m [0;1;35m [0;35m      [0;1;35m   [0;35m  [0;1;37m [0;1;35m [0;35m       [0;1;35m    [0;35m  [0;1;37m [0;1;35m [0;35m   [0m
 
-                   [1;37mS[0;1;35my[0;35ms[0;1;37mG[0;1;35mo[0;35mds: [0;1;37mT[0;1;35mh[0;35me [0;1;37mL[0;1;35mo[0;35mrd [0;1;37mG[0;1;35mo[0;35md [0;1;37mX[0;1;35me[0;35mrobe [ACiD/CORE][0m
-                  [1;37mT[0;1;35mh[0;35me [0;1;37mN[0;1;35me[0;35mcromancer [iCE] / [0;1;37mE[0;1;35mx[0;35mile [ACiD/PARA][0m
-                      [1;37mT[0;1;35me[0;35mchnical [0;1;37mE[0;1;35mx[0;35mperts: [0;1;37mR[0;1;35mi[0;35mch / [0;1;37mL[0;1;35mu[0;35mcifuge[0m
+                   [1;37m [0;1;35m [0;35m [0;1;37m [0;1;35m [0;35m    [0;1;37m [0;1;35m [0;35m  [0;1;37m [0;1;35m [0;35m   [0;1;37m [0;1;35m [0;35m  [0;1;37m [0;1;35m [0;35m                [0m
+                  [1;37m [0;1;35m [0;35m  [0;1;37m [0;1;35m [0;35m                  [0;1;37m [0;1;35m [0;35m               [0m
+                      [1;37m [0;1;35m [0;35m        [0;1;37m [0;1;35m [0;35m       [0;1;37m [0;1;35m [0;35m     [0;1;37m [0;1;35m [0;35m      [0m
 
                              [1;37mN[0;1;35mo[0;35mde 1: [0;1;35m215[0;35m-[0;1;35m469[0;35m-[0;1;35m9499[0m
-                             [1;37mN[0;1;35mo[0;35mde 2: [0;1;35m215[0;35m-TOO-POOR[0m
+                             [1;37m [0;1;35m [0;35m      [0;1;35m   [0;35m         [0m
 
 [35;47m [0;1;30;47m░▒▓████[0;1;30;40m███████▌▌▌▐  ▌ [0;1;37;40mC[0;36me[0;1;34mr[0;34me[0;1;30mbr[0mu[1ms [0;1;30mof <[0m/┤C[1mi[0mD[1;30m> [0;1;37mP[0mr[1;30moductio[0mn[1ms [0;1;30m▐  ▌▐▐▐████████████[0;1;30;47m▓▒░ [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 740595daba2a5c19aeffd6100824e36eb7f4336c6002316c5844a904452435dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-T4.ANS by avenger (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: trauma
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -36,6 +36,4 @@ Write-Host '
     [1;33m░[0;33;41m█[0;31;40m▌[0m     [31;40m▓ [0m   [31;40m▌[0;37;40m  [0;31;40m██[0;1;31;41m ░[0m   [31m████[0;34m▌[0m         [31m█[0;33;41m▓░[0;34;40m▓[0;31;40m██[0;1;33;41m░[0m  [31m▄▄▄[0;1;31;41m▄▄░[0;31m███▀▀▀▐[0;1;33;41m░[0;31m█[0;1;33;41m▄█[0;35m░[0;31m▐███▓▐[0;35;41m▄[0;1;35;45m [0;1;33;45m░▓[0m
    [1;33m░[0;1;33;41m░[0;33;41m█[0m      [31;40m▌   ▄▌░[0;37;40m [0;31;40m█[0;1;31;41m░▄▌[0m   [31m▀▐██[0;34m▌[0m         [31m█[0;33;41m▐▄[0;34;40m░[0;31;40m███▄█[0;33;41m░░[0;31;40m▀█▄▄▄████░[0;1;33;41m░▓[0;1;33;40m▀[0;1;33;41m██[0;35m▌[0;31m▄████[0;35m▐[0;1;35;45m [0;35;41m▀[0;33;45m [0;1;33;45m█[0m
     [33m▀▀█▀[0;31m   ▄▌ [0;37m [0;31m░▓[0m   [1;31;41m░▓█[0;31m▌[0;37m [0;31m░▓████▄░[0m        [33;41m▄[0;37;43m [0;1;33;41m░[0m [31m██▐[0;33;41m▄[0;1;33;41m░[0;33;41m█[0;31;40m▌█████████░▄[0;1;33;40m▄▄[0;1;33;41m█[0;1;37;40m█[0;35m▌[0;31m█[0;32;41m ░░[0;31;40m█▐[0;35;41m▀▐[0;1;33;45m ▀[0m
-[34m     [0m       [31m▀[0;37m [0;31m [0;37m [0;31m░[0m      [31mave_ ▀▀▀▐█[0;33;41m▄▄▄[0;37;43m     [0;1;33;41m░░▓[0;1;33;40m░[0;31m██▄▄▄▄██[0;1;31;41m░░░[0;31m█████▓▀[0;1;33m▀▀[0;35m▀[0;31m▄████[0;37m [0;31m██▄▄█▄[0m
-
-[36mfuck[0;31m.[0;33m this looks like[0;37m [0;33ma bad flame-ripoff[0m'
+[34m     [0m       [31m▀[0;37m [0;31m [0;37m [0;31m░[0m      [31mave_ ▀▀▀▐█[0;33;41m▄▄▄[0;37;43m     [0;1;33;41m░░▓[0;1;33;40m░[0;31m██▄▄▄▄██[0;1;31;41m░░░[0;31m█████▓▀[0;1;33m▀▀[0;35m▀[0;31m▄████[0;37m [0;31m██▄▄█▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e1117ddde7bf51a15b6e7b02a60a42124a4519202499d5a0603cdcde7ac777cc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PSY-HLB!.ANS by [lord.autopsy] (aif); released in aif-9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hellbound logo
 # SAUCE Author: [lord.autopsy]
 # SAUCE Group: aif
@@ -30,7 +30,7 @@ Write-Host '
      [1;30m█▄▄▄▄▄█[0;1;37m                   [0m       [1;30m▀[0m         [1;30m▀[0m              [1;30m▄[0m
      [1m    [0m                             [1;30m▀[0m         [1;30m▀[0m              [1;30m▄[0;1;37m [0m
 [1m [0;1;33m▄[0m [1;33m▄[0m [1;33m▄[0m [1;33m▄[0m [1;33m▄[0m [1;33m▄[0;1;37m [0;1;33m▄[0;1;37m      [0m [1m [0m                [1;30m▀[0m [1m [0m
- [1;33m█[0;1;37m ▄▄▄ [0;1;33m▀[0;1;37m ▄▄▄ [0;1;33m█[0m   [1;30m+o:[0m [1mdark murder[0m  , [1;30m+v:[0m [1mlord autopsy[0m
+ [1;33m█[0;1;37m ▄▄▄ [0;1;33m▀[0;1;37m ▄▄▄ [0;1;33m█[0m   [1;30m   [0m [1m           [0m    [1;30m   [0m [1m            [0m
 [1m [0m [1m▄█▀█▄ ▄[0;1;47m▓[0;1;40m [0;1;47m█[0;1;40m▄  [0m/  [1mhpavc , pure art , drugs and more..[0m    [1m   [0;1;30m▄[0;1;37m [0;1;30m▀ ▄[0m     [1;30m▄[0m [1;30m▀[0m [1;30m▄[0m
  [33m▄[0;37m [0;1;37m█[0;1;37;47m▓[0;1;37;40m█   [0;1;37;47m███[0;1;37;40m [0;33m▄[0;1;37m  [0m     [1m+55-11-2744613[0m [1m(half time)[0m          [1m [0;1;30m▀[0m       [1;30m▀[0m [1;30m▀[0m  [31m [0;37m  [0;1;37m [0m [1;30m▄[0;1;37m [0m
  [33m█▄▄▄▄▄█▄▄▄▄▄█[0;1;37m  [0m                                         [1;30m▀[0;1;37m [0;31m▄██▀███▄[0;1;37m [0;31m▄███▀[0;1;37;41m [0;31m█▄[0;37m [0;1;37m [0m
@@ -38,6 +38,4 @@ Write-Host '
 [1m   [0;33m▀▀▀▀▀▀▀▀▀[0m       [37m       [0m                              [37m\ [0;33m▀██▀▀▀▀▀▀▀▀▀▀▀▀▀██▀[0m
 [33m [0;1;37m          [0m                                                [33m██[0;33;47m█[0;33;40m█▓███████████▓[0m
 [1;37;40m  [0m [1m        [0m                                                  [33m▀▀▀▀▀[0;1;30;43m▄▄▄▄[0;33m▀▀▀▀[0m
-[1;37m8<[0m_[1mcut here[0m_____________________________________________________________________
-
-               [1m            [0m'
+[1;37m8<[0m_[1mcut here[0m_____________________________________________________________________[0m'

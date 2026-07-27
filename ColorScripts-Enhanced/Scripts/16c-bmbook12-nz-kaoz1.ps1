@@ -5,7 +5,7 @@
 # Source SHA-256: 43827050a7410568b5bf48f156fca57a3609dfc5d08810204a84d73a6ebe5501
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NZ-KAOZ1.ANS by noize (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kaoz
 # SAUCE Author: noize
 # SAUCE Group: black maiden
@@ -41,5 +41,4 @@ Write-Host '
 
 
 
-[31m░░----[0;37m [0;31mkaoz misc-flat-screen[0m
-       [31mfor poti[0m'
+[31m░░    [0;37m [0;31m                     [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3a055256a788c16b0bd9d06087c4f76d1b05a2fae49d564735477427eba8b932
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN-DOTS1.ANS by Synergy (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -55,8 +55,8 @@ Write-Host '
   [1;30m──[0;34m──[0;1;34m──[0;1;36m──[0m         [1;30mM[0mo[1mdem: [0;1;30mH[0;1;37mayes [0;1;30mO[0;1;37mptima [0;1;32m28.8 [0;1;30mMe[0mgg[1mage: [0;1;30m6[0;1;37m70 [0;1;30mM[0;1;37megs[0m         [1;36m──[0;1;34m──[0;34m──[0;1;30m──[0;1;37m·[0m
 
             [1;30m┌─────[0;34m─────────[0;1;34m───────[0;1;36m────[0;1;37m────[0;1;36m────[0;1;34m───────[0;34m─────────[0;1;30m─────┐[0m
-[1;30m  [0;34mS[0;1;34mt[0;1;30mrict[0;1;34ml[0;34my  [0;1;30m│    [0;32mA    [0;1;32mb    [0;1;30ms    o    l    u    t    e   [0;1;32ml    [0;32my[0m     [1;30m│  [0;34mS[0;1;34mt[0;1;30mrict[0;1;34ml[0;34my[0m
+[1;30m  [0;34m [0;1;34m [0;1;30m    [0;1;34m [0;34m   [0;1;30m│    [0;32m     [0;1;32m     [0;1;30m                             [0;1;32m     [0;32m [0m     [1;30m│  [0;34m [0;1;34m [0;1;30m    [0;1;34m [0;34m [0m
             [37m│[0m                                                      [37m│[0;1;37m·[0m
 [1;37m   [0;1;34mA[0;1;30mrt  [0;1;34m& [0m. [1;36m│[0m                         [32m─[0;31mNO[0;32m─[0m                         [1;36m│   [0;1;34mA[0;1;30mrt  [0;1;34m&[0m
             │                                                      │
-  [34mM[0;1;34me[0;1;30mssag[0;1;34me[0;34ms  [0;1;30m│[0m      .       [32mR    [0;1;32ma    [0;1;30mt    i    [0;1;32mo    [0;32ms[0m          [37m·   [0;1;30m│  [0;34mM[0;1;34me[0;1;30mssag[0;1;34me[0;34ms[0m'
+  [34m [0;1;34m [0;1;30m    [0;1;34m [0;34m   [0;1;30m│[0m              [32m     [0;1;32m     [0;1;30m          [0;1;32m     [0;32m [0m          [37m    [0;1;30m│  [0;34m [0;1;34m [0;1;30m    [0;1;34m [0;34m [0m'

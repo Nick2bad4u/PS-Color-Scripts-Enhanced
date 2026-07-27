@@ -5,7 +5,7 @@
 # Source SHA-256: 7453ec7b541c944604ad8b8cb905863ae0bccd0abb38ab960b1304aece08bd79
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL-HUMA.ANS by Crime Lord (ACiD Productions); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Huma
 # SAUCE Author: Crime Lord
 # SAUCE Group: ACiD Productions
@@ -44,11 +44,4 @@ Write-Host '
 [1;30m███████████████▓ [0m  [1;30m [0m    SysOp - Lord Jazz . 619/485/6741      [1;30m▓████████████████[0m
 [1;30m█████████████▓▒ [0m   [1;30m [0m     ACiD Member Board . Bleach WHQ        [1;30m▒▓██████████████[0m
 [1;30m▓██▓████████▓▒[0m     [1;30m [0m Runnin da d0pest, pHaTest Obv/2 around     [1;30m▒▓████████████▓[0m
-[1;30m▀▒▓███████▓▒░[0m      [1;30m [0m                                             [1;30m░▒▓█████████▓▀[0m
-                   [1;30m [0m
-[1;30mGreets:[0m [1;30mRadMan, Lord Jazz, my Huma friends, the Extortion Crew,[0m [1;30mthe ACiD Crew,[0m
-[1;30mTWZ Crew, Matrix, Oddball, The Legend, Wishbone, N&S! (A.K.A. Vikas), The Man, [0m
-[1;30mthe N0D0RI0 Crew, Whitney HS, and to all the hoochies out there: Theeeze Nutz![0m
-[1;30m [0m
-[1;30m    Ansi by [0mCrime Lord[1;30m for [0mAC[1mi[0mD[1;30m Productions ''95 - 100% Original and All Good [0m
- [1;30m    [0m    [1;30mPoem taken from J.R.R. Tolkien''s "The Fellowship of the Ring"[0m'
+[1;30m▀▒▓███████▓▒░[0m      [1;30m [0m                                             [1;30m░▒▓█████████▓▀[0m'

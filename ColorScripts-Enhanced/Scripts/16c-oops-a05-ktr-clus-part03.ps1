@@ -5,7 +5,7 @@
 # Source SHA-256: dc52d8b72348e2b10de0c7d4055a87656690c89b89aa2d6483f5005ba80b5ce4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KTR-CLUS.ANS by keetar (oops!a); released in oops_a05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cluster #1 in oOps
 # SAUCE Author: keetar
 # SAUCE Group: oops!a
@@ -42,10 +42,7 @@ Write-Host '
                    [34m,d$[0;1;34m$a$[0;34m$$$$$[0;1;34m,[0m$[1m$$[0m$$ ,$[1m$[0m$P[34m [0;1;34m''[0m.,a$$ⁿ''[1;34m,$[0;34m$[0;1;34m$a[0;34m$$$¢ⁿ°^[0;37m  [0;34m~[0m
                  [34m~ ~^ⁿ¢$¢ⁿ°^~ⁿ#,[0;37m`ⁿ¢''[0;34ma,[0;37m`ⁿ¢ⁿ°[0;34m,a##a,~ ~^ⁿ¢ⁿ^~≈ [0;37m [0m
                        [34m''[0m        [34m~ⁿ#ⁿ°~^ⁿaⁿ°^~[0m
-          [1;30m     [0m                         [34m''[0m                     [34mKeEtAr[0;1;37m![0;34m<[0;1;37moOpS!a[0;34m>[0m
-                       [1;30m.[0m [1;30m..::[0m [34mTH[0;1;34mE [0;1;37miLL[0;1;34mi[0;34mGAL[0;37m [0;34mS[0;1;34mY[0;1;37mST[0;1;34mE[0;34mM[0;37m [0;1;30m::..[0m [1;30m.[0m
+          [1;30m     [0m                         [34m [0m                     [34m      [0;1;37m [0;34m [0;1;37m      [0;34m [0m
+                       [1;30m [0m [1;30m    [0m [34m  [0;1;34m  [0;1;37m   [0;1;34m [0;34m   [0;37m [0;34m [0;1;34m [0;1;37m  [0;1;34m [0;34m [0;37m [0;1;30m    [0m [1;30m [0m
 
-[1;30m--------------------------------------------------------------------------------[0m
-greet''s : Lint, alla xul, zendel, spook, lord evil & mSO
-
-deliver from[1;42m Ke[0;32mEtar[0;1;5;37m_[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

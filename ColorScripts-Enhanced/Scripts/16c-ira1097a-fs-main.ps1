@@ -5,7 +5,7 @@
 # Source SHA-256: fe4511b3a3d09625e90e256bc16d73ade47884e0e856eccb64d71a97c894500d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FS-MAIN.ANS by Flying Squirrel (Irato.); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: (fZ) - Main Menu
 # SAUCE Author: Flying Squirrel
 # SAUCE Group: Irato.
@@ -21,11 +21,11 @@ Write-Host '
    [35m▐[0;1;35;45m▐█▓▒[0;35m▀[0;1;30m▄▄▄[0;35m▀[0;1;35;45m ▒██[0;35m▀[0;1;30m [0;35m▀[0;1;35;45m█▄[0;35m█[0;1;30m █[0;1;30;47m█▓[0;1;30;40m█▌[0m▐[1;47m▒░[0m▌[1;47m▒[0m▌[1;47m▒[0m▌[1;47m▒░[0m▀[1;47m▒[0m▌[1;47m▒▒[0m▌[1;47m░░[0m▌[1;47m▒[0m▌[1;30m▐[0;1;30;47m▒[0;1;30;40m███[0;1;30;47m▓[0;35m █[0;1;35;45m▄██████▒[0;35m█▀[0;1;30m▄▄▄[0;35m▀█[0;1;35;45m██▌[0;35m▌[0m
    [35m█[0;1;35;45m███▄[0;35m█[0;1;30m  [0m   [35m▀▀[0;1;35;45m ▀[0;35m▄[0;1;35;45m░▀[0;35m█▀[0;1;30m   ▀██ [0;1;37;47m░ [0m [1;47m░[0m [1;47m░[0m [1;47m░ [0m [1;47m░[0m [1;47m░░[0m [1;30;47mfS[0m [1;47m░[0;1;30;40m █[0;1;30;47m█[0;1;30;40m▀    [0;35m▀█[0;1;35;45m▒▓█▀[0;35m█▀▀[0m   [1;30m  [0;35m█[0;1;35;45m▄██▓[0;35m█[0m
 [1;30m  [0;35m▐[0;1;35;45m▐█▓▓█▌[0;35m▌[0m             [1;30m [0m                             [1;30m      [0;35m▀█[0;1;35;45m [0;35m▀[0m       [35m▐[0;1;35;45m▐████▌[0;35m▌[0m
-   [35m▀[0;1;35;45m ▀▒▀[0;35m█[0;1;30m  [0;1;32mPut your menu header informations in this area[0;32m.[0;37m  [0;35m▐▌[0;37m  [0;32m-irat-[0;1;30m [0;1;35;45m ▒▓▀ [0;35m▀[0m
+   [35m▀[0;1;35;45m ▀▒▀[0;35m█[0;1;30m  [0;1;32m                                              [0;32m [0;37m  [0;35m▐▌[0;37m  [0;32m      [0;1;30m [0;1;35;45m ▒▓▀ [0;35m▀[0m
    [1;30m█▄▄[0;35m▀▀[0;1;30m   [0;1;32mor whatever that you can think about[0;32m.[0;1;32m no matter[0;35m ▄[0;1;35;45m▒[0;35m▀[0;1;35;45m▓[0;35m▄[0;1;30m [0;32m(o0)[0;1;30m   [0;35m▀▀[0;1;30m▄▄▀ [0m
    [1;30m█[0;1;30;47m▓▒▓[0;1;30;40m█[0m   [1;30m_______________________________________________[0;35m ▀[0;1;35;45m░▓[0;35m▀▀[0;1;30m ____[0;1;37m  [0;1;30m █[0;1;30;47m▓▓[0;1;30;40m▌[0;1;37;40m▐[0m▄
 [1;30m [0m▄[1;47m░[0m▄[1;30m▀[0;1;30;47m▓[0;1;30;40m█▀  [0;1;37;40m [0m                                                      [1m      [0;1;30m ▐█[0;1;30;47m▓[0;1;30;40m▄[0m▀▌
-[1;30m  [0m▀▀[1;30m▄[0;1;30;47m▒▓[0;1;30;40m█  [0;1;37;40m [0;1;35;40mAnd your menu commands in this one[0;35m.[0;1;35m Got it[0;35m?[0;1;30m [0;35m;)[0m             [1;30m  █[0;1;30;47m▓▒▓[0;1;30;40m█[0m
+[1;30m  [0m▀▀[1;30m▄[0;1;30;47m▒▓[0;1;30;40m█  [0;1;37;40m [0;1;35;40m                                  [0;35m [0;1;35m       [0;35m [0;1;30m [0;35m  [0m             [1;30m  █[0;1;30;47m▓▒▓[0;1;30;40m█[0m
 [1;30m   █[0;1;30;47m▓▓[0;1;30;40m█▌[0m   [1m                                           [0m                [1;30m  ▀[0m▄[1;30m▀[0;1;30;47m▓[0;1;30;40m█[0m
    [1;30m▐[0;1;30;47m▓▒▓[0;1;30;40m█[0m   [1;30m%[0;1;37ma[0m% [1mcommand[0m.[1;30m·········· %[0;1;37mf[0m% [1mcommand[0m.[1;30m········· %[0;1;37mk[0m% [1mcommand[0m.    [1;30m [0;1;37;47m░▒[0;1;30;40m █[0m
    [1;30m█[0;1;30;47m▓▓[0;1;30;40m▀▀[0m▄[1;30m  %[0;1;37mb[0m% [1mcommand[0m.[1;30m·········· %[0;1;37mg[0m% [1mcommand[0m.[1;30m········· %[0;1;37ml[0m% [1mcommand[0m.    [1;30m█▄▄[0;1;30;47m▓[0;1;30;40m█[0m
@@ -40,12 +40,12 @@ Write-Host '
 
 [34m──────[0;1;34m───[0;1;36m──────[0;1;34m───[0;34m─────────────[0;1;34m──[0;1;36m─[0;1;34m──[0;34m───[0;1;34m──[0;34m─────────[0;1;34m──[0;1;36m─────[0;1;34m──[0;34m───────[0;1;34m───[0;1;36m────[0;1;34m──[0;34m─────[0m
 
-[37mi drew this ansi for atomik punk [0;1;30m[[0mfreak zone[1;30m].[0m i actually[1;30m,[0m don[1;30m''[0mt know if he[1;30m''[0mll
-use it [1;30m''[0mcause i[1;30m''[0mm describing the pic as i am finishing it[1;30m.[0m
+[37m                                 [0;1;30m [0m          [1;30m  [0m           [1;30m [0m    [1;30m [0m            [1;30m [0m  
+       [1;30m [0m       [1;30m [0m                                         [1;30m [0m
 
-why didn[1;30m''[0mt you think about it[1;30m,[0m you brainless creature[1;30m!?[0m [36m=)[0m
+        [1;30m [0m                    [1;30m [0m                       [1;30m  [0m [36m  [0m
 
-[37mi tried to shade the way halaster does[0;1;30m..[0m i don[1;30m''[0mt have the style yet but i guess
-it[1;30m''[0ms coming [36m:][0;37m [0;1;30m[[0mwell[1;30m,[0m not really but i hope it[1;30m''[0ms coming [36m=)[0;1;30m][0m
+[37m                                      [0;1;30m  [0m      [1;30m [0m                                
+  [1;30m [0m         [36m  [0;37m [0;1;30m [0m    [1;30m [0m                         [1;30m [0m         [36m  [0;1;30m [0m
 
 [34m─────[0;1;34m───[0;1;36m────[0;1;34m──[0;34m───────[0;1;34m──[0;1;36m─────[0;1;34m──[0;34m─────────[0;1;34m──[0;34m───[0;1;34m──[0;1;36m─[0;1;34m──[0;34m─────────────[0;1;34m───[0;1;36m───────[0;1;34m──[0;34m──────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b84e0e02e066f31191cf5d3a5f797c99e5dbd72f0ef65d26452a1cff17b91b79
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-PRAY1.ANS by chromatik (Blade Productions); released in blde9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: prayer! coming soon!
 # SAUCE Author: chromatik
 # SAUCE Group: Blade Productions
@@ -57,10 +57,4 @@ Write-Host '
               [33;40m▐▓▀[0m    [33;40m▀░▀▀▓▀██[0;1;33;43m [0;33m█▓▄▀▀▐▓██▌■▓▀[0m [33m▀░▀▀▓███[0;33;47m▓[0;33;40m ▒ ▄▓█▀[0m
               [33;40m▀[0m              [33;40m▀▀▓ [0m  [33;40m██▓▀▀▀[0m          [33;40m▀▀ █▀▀▒[0m
                                [36;40m [0m [33;40m■▀[0m
-                          [1;30;40m`[0m  [1;37;40mp[0m  [1mr  a  y[0m  [1me[0m  [1mr[0m  [1;30m''[0m
-
-                      [1;30m`[0;36ms[0;1;36my[0msop ... [1mchromatik[0m [33m[[0;1;33mblade[0;33m][0;37m ...[0m
-
-                 [1;30m`[0;1;37mc[0moming [1ms[0moon [1mt[0mo [1mt[0mhe [1m9[0m08 [1ma[0mrea [1mc[0mode [1mn[0mear [1my[0mou[1;30m''[0m
-
-                  [1;30m100percent[0m [1;30morig ansi by chromatik [blade][0m'
+                          [1;30;40m`[0m  [1;37;40mp[0m  [1mr  a  y[0m  [1me[0m  [1mr[0m  [1;30m''[0m'

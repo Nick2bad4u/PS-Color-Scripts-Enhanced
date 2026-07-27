@@ -5,7 +5,7 @@
 # Source SHA-256: da9ea768d9e4c47076fceedd4dd943df52abe7db8244c6045cf91cc389e9e1a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HRV_REvoke.ans by harvest (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: REvoke
 # SAUCE Author: harvest
 # SAUCE Group: Lazarus
@@ -39,18 +39,18 @@ Write-Host '
 [34m░░░░░░░░░▒▒▒▒▒[0;36m░▒▒▒[0;37m   [0;36m░█[0;37m     [0;36m░[0;37m                      [0;36m░[0;37m     [0;36m█░   ▒▒▒░[0;1;34;44m▒▒▓▓▓▒░▒▒▒▒▒▒▒[0m
 [34m░░░░░░▒▒▒[0;36m░▒▒▒░[0;37m [0;36m■[0;37m [0;36m■[0;37m  [0;36m░▓[0;37m    [0;36m░      [0;1;36mREvoke - 2KII       [0;36m░[0;37m    [0;36m▓░  ■[0;1;36m   [0;36m░▒▒▒░[0;1;34;44m▒▓▓▒░▒▒▒▒[0m
 [34m░░░▒▒▒[0;37m [0;36m░░[0;37m                                                       [0;1;36m■[0m      [36m░░[0;37m [0;1;34;44m▒▓▓░▒▒[0m
-[34m░▒▒[0;37m [0;36m░[0;37m [0;1;36m•[0;36m▓[0;37m  [0;1;34mSo here it is a challenge i took up to convert my Evoke 2022[0;36m  ▓[0;1;36m•[0;36m ░ [0;1;34;44m▒▓░[0m
-[34m▒[0;37m  [0;36m▒[0;1;36m•[0m [36m▒[0;37m   [0;1;34mentry in the pixel graphics compo to an ANSi piece.            [0;36m▒[0;37m [0;1;36m•[0;36m▒[0;37m  [0;1;34;44m▒[0m
-  [36m▓[0;1;36m♦[0m [36m▒■   [0;1;34mThe original effort still lives in the 80x25 char space but[0m    [36m■▒[0;37m [0;1;36m♦[0;36m▓[0m
-[37m [0;36m▒░[0;37m [0;36m▒[0;37m [0;36m■[0;37m   [0;1;34mi decided to extent it a bit in proper ANSi style a see where[0m  [36m■[0;37m [0;36m▒[0;37m [0;36m░▒[0m
+[34m░▒▒[0;37m [0;36m░[0;37m [0;1;36m [0;36m▓[0;37m  [0;1;34m                                                            [0;36m  ▓[0;1;36m [0;36m ░ [0;1;34;44m▒▓░[0m
+[34m▒[0;37m  [0;36m▒[0;1;36m [0m [36m▒[0;37m   [0;1;34m                                                               [0;36m▒[0;37m [0;1;36m [0;36m▒[0;37m  [0;1;34;44m▒[0m
+  [36m▓[0;1;36m [0m [36m▒■   [0;1;34m                                                           [0m    [36m■▒[0;37m [0;1;36m [0;36m▓[0m
+[37m [0;36m▒░[0;37m [0;36m▒[0;37m [0;36m■[0;37m   [0;1;34m                                                             [0m  [36m■[0;37m [0;36m▒[0;37m [0;36m░▒[0m
 [36m ▒[0;1;36m♥[0m [36m▒[0;37m [0;36m■░[0;37m  [0;1;34mit might go...[0m                                                [36m░■[0;37m [0;36m▒[0;37m [0;1;36m♥[0;36m▒[0m
 [36m░░▐[0;1;36m♦[0;36m▓[0;37m [0;36m▓▒[0;37m                                                                [0;36m▒▓[0;37m [0;36m▓[0;1;36m♦[0;36m▌[0;37m [0;36m░[0m
-[36m▒[0;37m  [0;36m▌▓[0;34m [0;36m▐▓░[0;34m     [0;1;30moriginal[0;1;34m [0;1;36m••[0m https://demozoo.org/graphics/311666/         [36m░▓▌[0;37m [0;36m▓▐[0;37m  [0;36m▒[0m
+[36m▒[0;37m  [0;36m▌▓[0;34m [0;36m▐▓░[0;34m     [0;1;30m        [0;1;34m [0;1;36m  [0m                                              [36m░▓▌[0;37m [0;36m▓▐[0;37m  [0;36m▒[0m
 [36m▓[0;37m  [0;36m▌[0;37m [0;36m▓[0;37m [0;36m▌█[0;37m                                                              [0;36m█▐[0;37m [0;36m▓[0;37m [0;36m▐[0;37m  [0;36m▓[0m
-[36m█[0;37m  [0;1;36m▒[0m [36m▓[0;37m [0;36m▌▒[0;37m [0;1;34mStill a long way to go in the textmode artistry realm so[0m [1;34mi[0m   [36m▒▐ ▓[0;37m [0;1;36m▒[0m  [36m█[0m
-[36m█[0;37m  [0;1;36m█[0m [36m▓[0;37m [0;36m▐░[0;37m [0;1;34mwant to thank every one keepin'' the art scene going in 2022[0m  [36m░▐ ▓[0;37m [0;1;36m█[0;34m  [0;36m█[0m
+[36m█[0;37m  [0;1;36m▒[0m [36m▓[0;37m [0;36m▌▒[0;37m [0;1;34m                                                        [0m [1;34m [0m   [36m▒▐ ▓[0;37m [0;1;36m▒[0m  [36m█[0m
+[36m█[0;37m  [0;1;36m█[0m [36m▓[0;37m [0;36m▐░[0;37m [0;1;34m                                                           [0m  [36m░▐ ▓[0;37m [0;1;36m█[0;34m  [0;36m█[0m
 [36m█[0;37m  [0;36m▌[0;37m [0;36m█[0;37m [0;36m▌░[0;37m                                                              [0;36m░[0;37m [0;36m▌█[0;37m [0;36m▐[0;37m  [0;36m█[0m
-[36m█[0;37m  [0;1;36m█[0m [36m▓[0;37m [0;1;36m█[0;36m░[0;37m  FiRE[0;34m  [0;1;34m•[0;34m  [0;37mHPM  [0;1;32m•[0;34m  [0;37miMPURE  [0;1;35m•[0;34m  [0;37mLAZARUS  [0;1;31m•[0;34m  [0;37mMiSTiGRiS  [0;1;33m•[0;34m  [0;37m#16c[0;1;36m  [0;36m░[0;1;36m█[0m [36m▓[0;1;36m █[0m  [36m█[0m
+[36m█[0;37m  [0;1;36m█[0m [36m▓[0;37m [0;1;36m█[0;36m░[0;37m      [0;34m  [0;1;34m [0;34m  [0;37m     [0;1;32m [0;34m  [0;37m        [0;1;35m [0;34m  [0;37m         [0;1;31m [0;34m  [0;37m           [0;1;33m [0;34m  [0;37m    [0;1;36m  [0;36m░[0;1;36m█[0m [36m▓[0;1;36m █[0m  [36m█[0m
 [36m█[0;37m  [0;1;36m▓[0m [36m▒[0;37m [0;1;36m█[0;36m░[0;37m [0;36m░[0;37m     [0;36m░[0;37m                                             [0;36m■░■    ░[0;37m [0;36m░[0;1;36m█[0m [36m▒[0;37m [0;1;36m▓[0m  [36m█[0m
 [36m▒[0;37m  [0;36m▌▒[0;37m [0;1;36m▐[0m [36m░[0;37m [0;36m▒[0;37m  [0;36m■[0;37m [0;36m▒[0;37m [0;36m■[0;37m              [0;36m■[0;37m         [0;36m■[0;37m       [0;36m■[0;37m         [0;36m■[0;37m [0;36m■[0;37m [0;36m▒[0;37m    [0;36m▒[0;37m [0;36m░[0;37m [0;1;36m▌[0m [36m▒▐[0;37m  [0;36m▒[0m
 [36m░[0;37m [0;36m▐[0;37m [0;36m▒[0;37m [0;36m■[0;37m [0;36m░[0;37m  [0;36m▒■[0;37m [0;1;36m■[0m [36m▒■[0;37m [0;36m■[0;37m             [0;36m■[0;37m                        [0;36m■[0;37m [0;36m■[0;37m [0;36m■▒■[0;37m  [0;36m■▒[0;37m  [0;36m░[0;37m [0;36m■[0;37m [0;36m▒[0;37m [0;36m▌[0;37m [0;36m░[0m

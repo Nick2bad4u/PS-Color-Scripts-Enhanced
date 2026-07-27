@@ -5,7 +5,7 @@
 # Source SHA-256: 8875ab21af48d43dd314048c500da38727e9fe07f23e4f54a4c7d28bf106b5e8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2m-EMOTEevoke.ans by Mattmatthew (blocktronics_blockfury); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 299-348
 # Columns: 1-80
 
@@ -51,7 +51,7 @@ Write-Host '
 [1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;30m$$$$$$$$$$$$$$$$[0;1;36m█▀[0;1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$▀█$$$$$$$$$$$$$$[0m
 [1;30m$$$$$$$$$$$$$$$$[0;1;33m█[0;1;30m$$$$$$$$$$$$$$$[0mww[1mw.[0;1;35mm[0;1;36ma[0mt[1;33mt[0mmat[1mt[0;1;33mh[0mew.[1mc[0;1;36mo[0mm[1;30m$$$$$$$$$$$$$$[0;1;33;47m [0;1;30;40m$$$$$$$$$$$$$$[0m
-[1;30;40m$$$$$$$$$$$$$$$$[0;1;37;40m█[0;1;30;40m$$[0;1;35;40m#[0mma[1mt[0;1;36mt[0mmat[1;33mt[0mh[1;33me[0mw[1;30m$[0;1;36m#[0;1;37md[0migita[1;35ml[0misnot[1;33mde[0mad[1;30m$[0m#blo[1;36mc[0;1;37mk[0;1;33mtr[0mon[1;35mi[0mcs[1;30m$$[0;1;33;47m▒[0;1;30;40m$$$$$$$$$$$$$$[0m
+[1;30;40m                [0;1;37;40m█[0;1;30;40m  [0;1;35;40m [0m  [1m [0;1;36m [0m   [1;33m [0m [1;33m [0m [1;30m [0;1;36m [0;1;37m [0m     [1;35m [0m     [1;33m  [0m  [1;30m [0m    [1;36m [0;1;37m [0;1;33m  [0m  [1;35m [0m  [1;30m  [0;1;33;47m▒[0;1;30;40m              [0m
 [1;30;40m$$$$$$$$$$$$$$$$[0;1;35;47m▒[0;1;30;40m$$$$$$$$$$$$$$$[0mww[1;33mw[0m.[1;36mb[0;1;35ml[0;1;33mo[0mck[1;36mtr[0mo[1;33mn[0mic[1;35ms[0m.o[1;33mr[0mg[1;30m$$$$$$$$$$$$$[0;1;36;47m▒[0;1;30;40m$$$$$$$$$$$$$$[0m
 [1;30;40m$$$$$$$$$$$$$$$$█▄$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;36;40m▄█[0;1;30;40m$$$$$$$$$$$$$$[0m
 [1;30;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

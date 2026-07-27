@@ -5,7 +5,7 @@
 # Source SHA-256: 0fc2b15fa6166df9ace12b75a1eaa3c55adc1081322a2cc502501c9a1919832a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-AOD.ANS by minotaur (maiden^brazil); released in mdn-9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: angel of death , someone requested
 # SAUCE Author: minotaur
 # SAUCE Group: maiden^brazil
@@ -38,9 +38,4 @@ Write-Host '
 [1;37;41mang[0;1;37;40melofdeath![0m [31m▀[0;37m  [0;1;30m█▄[0m [33m▀▀▄[0m     [33m▀▀[0m     [33m▄▀▀[0;37m [0;1;30m▄█[0m   [31m▐[0;1;31;41m▄[0;31m▄▄▄▄█[0;1;31;41m▄██▌[0m  [1;36m▀████[0;1;36;46m▌ [0;36m█[0;1;36;46m [0;36m▌[0;37m [0;31m▐[0;1;31;41m▄  [0;1;33;41m░░▓▓███▌[0m
 [1;31;41m▐▄▄[0;31m██▄▄▄▄▄[0m        [1;30m▀▀█▄▄[0m  [33m▀[0m       [33m▀[0m   [1;30m▄█▀[0m   [31m▄[0;1;31;41m▄██▄▄▄██▌[0;31m▀▀[0;37m [0;1;36m▐▄██[0;1;36;46m█▀ [0;36m▀▀[0;1;36;46m [0;36m▀[0;1;36m [0m [31m█[0;1;31;41m█  [0;31m█[0;1;33;41m  ▓▓▓▌[0m
 [1;31;41m▐█████▄▄▄▄▄[0;31m█[0;1;31;41m░░[0;31m███▄▄[0m   [1;30m▀▀▀▀▀▀▀[0m  [1;30m▀▀▀▀▀▀▀[0;31m  ▄▄█[0;1;31;41m▀▀▀▀▀[0;1;31;40m████[0;1;31;41m▌[0m [1;30m▄[0m▄[1;36m▐[0m [1;36m▓▓▌[0m▄ ▄▄[1;30m▄▄[0m  [31m█[0;1;31;41m▓  [0;31m███[0;1;33;41m░░░[0;31m█[0m
-[37m-----------------[0m                                         [1;36m░░[0m
-someone requested this screen
-to me , but i dont remember who
-so this is free , use if you want ...
-
-minotaur[0m'
+[37m-----------------[0m                                         [1;36m░░[0m'

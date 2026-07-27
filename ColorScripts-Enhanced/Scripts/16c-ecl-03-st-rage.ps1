@@ -5,7 +5,7 @@
 # Source SHA-256: 1059e410dfcbb7a5fabb9248125b5d58e9c0a773f5ee712d683113e35df2ff1d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ST-RAGE.ANS by splattie (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: rage against my butt
 # SAUCE Author: splattie
 # SAUCE Group: eclipse
@@ -30,8 +30,4 @@ Write-Host '
  [1m [0;1;36m [0m▀[1m▀▀[0;1;35m▀▀[0;1;31m [0;1;36m▀▀[0m              [1;30m▀[0m       [1;31m████[0;1;31;47m▓▓[0;1;31;40m [0m     [1;31m ▀▀▀▀[0m   [1;31;47m▓▓[0;1;31;40m██[0m    [1;30m [0m         [1;30m▀▀[0m
 [35m   [0;1;30m [0;1;37m  [0;1;30m [0;1;35m [0;1;31m  [0;35m    [0m           [1;30m [0m       [1;31m▐[0;1;31;47m█▓▓▒[0m▌            [1;31m [0m▐[1;31;47m▒▒▓[0;1;31;40m▌[0m
      [1;31mxx[0m [1;31m.[0;31m.[0;1;31mx[0;31mxx.. [0;1;37mrAGE[0m [31m.x.[0m         [1;31m ▀▀[0m▀[1;31;47m░[0;1;37;47m▒[0;1;37;40m▄[0;1;31;40m [0m          [1m▄[0;1;47m▒[0;1;31;47m░[0m▀[1;31m▀ [0m
-                                      [1;30m▀[0m▀[1m▀▀[0m [1;31m [0;1;36m▄▄[0;1;37m▄[0;1;31m  [0;1;37m ▀▀[0mst?[1;31m   [0m
-                                             [1;36m [0m
-                                             [1;36m [0m
-                                             [1;36m [0m
-                                             [1;36m  [0m'
+                                      [1;30m▀[0m▀[1m▀▀[0m [1;31m [0;1;36m▄▄[0;1;37m▄[0;1;31m  [0;1;37m ▀▀[0mst?[1;31m   [0m'

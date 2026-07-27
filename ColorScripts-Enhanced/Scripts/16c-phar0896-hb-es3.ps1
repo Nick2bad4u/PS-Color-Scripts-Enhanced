@@ -5,7 +5,7 @@
 # Source SHA-256: 79381c9dd13d14ba672aa5598a2c42525e7f5acdf4bbe975c65a501f342a3c13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HB!ES3.ANS by Hatebreed (PHaR); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Evolution Systems
 # SAUCE Author: Hatebreed
 # SAUCE Group: PHaR
@@ -40,10 +40,4 @@ Write-Host '
 [40m  █[0;1;30;47m░▒[0m█ █[1;30;47m░▒[0m█   █[1;30;47m░▒▒[0m█   █[1;30;47m░▒[0m█ █[1;30;47m░▒[0m█      █[1;30;47m░▒[0m█      █[1;30;47m░▒[0m█ ▄[1;30;47m░▒[0m▄ █[1;30;47m▒░[0m█ █ █[1;30;47m░▒[0m█ █[1;30;47m░▒[0m█ █[1;30;47m░▒[0m█
   █[1;30;47m▒▓[0m█ █[1;30;47m▒▓[0m█   █[1;30;47m▒▓▓[0m█   █[1;30;47m▒▓[0m█ █[1;30;47m▒▓[0m█      █[1;30;47m▒▓[0m█      █[1;30;47m▒▓[0m█ █[1;30;47m▒▓[0m█ █[1;30;47m▓▒[0m█ █ █[1;30;47m▒▓[0m█ █[1;30;47m▒▓[0m█ █[1;30;47m▒▓[0m█
   █[1;30;47m▓█ [0;1;30;40m [0;1;30;47m ▓█[0m█   █[1;30;47m▓██[0m█   █[1;30;47m▓█ [0;1;30;40m [0;1;30;47m ▓█[0m█      [1;30;47m ▓█[0m█      [1;30;47m ▓█[0m█ [1;30;47m ▓█[0m█ █[1;30;47m█▓[0m█ █ █[1;30;47m▓█[0m█ █[1;30;47m▓█ [0;1;30;40m [0;1;30;47m ▓█[0m█
-  ▀[1;30;47m▀▀ [0m▄[47m [0;1;30;47m▀▀[0m▀   ▀[1;30;47m▀▀▀[0m▀   ▀[1;30;47m▀▀ [0m▄[47m [0;1;30;47m▀▀[0m▀      ▀[1;30;47m▀▀[0m▀      ▀[1;30;47m▀▀[0m█▄█[1;30;47m▀▀[0m▀ █[1;30;47m▀▀[0m█ █ █[1;30;47m▀▀[0m█ ▀[1;30;47m▀▀ [0m▄[47m [0;1;30;47m▀▀[0m▀
-
-                          [1;30mC[0mu[1mstom[0m [1mWorld[0m [1mGroup[0m [1mServer[0m
-                                [1miMAGE[0m [1mDiSTROS[0m
-                              [1;30m6[0m n[1modes[0m [1mringdown![0m
-                               [1;30m1[0m2 [1mGigs[0m [1monline[0m
-                                  [1;30mF[0mr[1mee[0m [1mCD''s[0m'
+  ▀[1;30;47m▀▀ [0m▄[47m [0;1;30;47m▀▀[0m▀   ▀[1;30;47m▀▀▀[0m▀   ▀[1;30;47m▀▀ [0m▄[47m [0;1;30;47m▀▀[0m▀      ▀[1;30;47m▀▀[0m▀      ▀[1;30;47m▀▀[0m█▄█[1;30;47m▀▀[0m▀ █[1;30;47m▀▀[0m█ █ █[1;30;47m▀▀[0m█ ▀[1;30;47m▀▀ [0m▄[47m [0;1;30;47m▀▀[0m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 2d411c4867ff976952085210169b30b3077f5778d2b8ff7ef50aeb9ebf0efcb4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!Z-HACI.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hacienda-logoi
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
@@ -38,6 +38,4 @@ Write-Host '
 
 
 
-[1;30m--------------------------------------------------------------------------------[0m
-
-[1;30mfor trc! who is really kewl in my eyes :)[0m'
+[1;30m--------------------------------------------------------------------------------[0m'

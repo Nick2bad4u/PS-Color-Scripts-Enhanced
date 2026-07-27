@@ -5,7 +5,7 @@
 # Source SHA-256: 8637456e61704a3c4968d02dd1966b010c2a23034462eef676d4a5930f727720
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-SKYL.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SKYLIGHT
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -30,8 +30,8 @@ Write-Host '
      [1;30;40m░░░░[0m            [1;37;47m░░░░░░░░▒▒▒▒▒▒▒░░░░[0m     [1;30;40m░░   [0m▀[1;30;47m░░░░░░░[0m█   [1;30m░ [0;1;36;46m▒░░░[0m    [1;30;40m░  [0;36m▀[0;1;36;46m░░░[0m
 [1;30;40m░░░░░    ░░░░░[0m               [1;37;47m░░░░░░░[0m     [1;30;40m░░░░░  ░░   [0m▀▀▀▀▀▀█    [36m▀▀▀▀[0m     [1;30m░   [0;36m▀▀[0m
                      [1;30m░[0m                                          [1;37m▄[0;1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[1;30mANSI BY HETERO ·LKCC·  --<  SUPERIOR ART CREATIONS !  >-- -  ·   [0;1;36m▀[0;1;36;46m▓[0;1;36;40m▀▀▀▀▀▀▀▀▀█▀[0m
-[1;36;40m   [0;1;30;40mGREETS TO ROY, RAISER, KAETHE, STONE, COSMIC BABY ...[0m      [1;30;40m░[0m     [1;30;40m░ [0;1;36;46m▓▓[0;1;36;40m▄ [0;1;30;40m░[0m
+[1;30m                                                                 [0;1;36m▀[0;1;36;46m▓[0;1;36;40m▀▀▀▀▀▀▀▀▀█▀[0m
+[1;36;40m   [0;1;30;40m                                                     [0m      [1;30;40m░[0m     [1;30;40m░ [0;1;36;46m▓▓[0;1;36;40m▄ [0;1;30;40m░[0m
 [1;30;40m░░[0m                                                         [1;30;40m░░░░░    ░ [0;1;36;46m▓▒▒░[0m
 [1;30;40m▄▄▄▄▄▄▄▄[0m▄▄▄▄▄▄▄▄▄▄▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄▄    [1;36;46m▒▒░░[0m [1;30;40m▄▄▄▄[0m
              [1;30;40m.[0m                                                      [36m▀[0;1;36;46m░░░░░[0m
@@ -39,9 +39,9 @@ Write-Host '
 [1;36;40m [0;1;30;40m·  ·   · [0m─ [1m-┼[0m── [1;30m─[0m       [1;30m··[0m     [1;30m·[0m                                   [1;30m░   [0;36m▀▀[0m
                [36mL K [0;1;36mC C   W [0;1;37mO R L D   H E A D Q U A [0;1;36mR T E [0;36mR S[0m
              [1;30m:[0m
-                     [1;30m++ [0mHO[36mTLINE GERMAN HEADQUARTE[0;37mRS [0;1;30m++[0m
-          [1;30m++ [0mNE[36mON DIST SI[0;37mTE [0;1;30m++ [0mTM[36mD DIST SI[0;37mTE [0;1;30m++ [0mFA[36mTAL DIST SI[0;37mTE [0;1;30m++[0m
+                     [1;30m   [0m  [36m                       [0;37m   [0;1;30m  [0m
+          [1;30m   [0m  [36m          [0;37m   [0;1;30m   [0m  [36m         [0;37m   [0;1;30m   [0m  [36m           [0;37m   [0;1;30m  [0m
              [1;30m.[0m
-                                [1;30mSY[0mSOP: STO[1;30mNE[0m
+                                [1;30m  [0m        [1;30m  [0m
 
 [1;30m▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀▀▀▀▀▀▀[1;30m▀▀▀▀▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 321ea2f716baef62097226d627a8e941462ed54f80f337ca1cdf1cdaa7131f3b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: $H-CARLO.ANS by Shinigami (.%.AXss.%. -97); released in axss-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: A Logo for a coder.
 # SAUCE Author: Shinigami
 # SAUCE Group: .%.AXss.%. -97
@@ -30,17 +30,16 @@ Write-Host '
                        [1;30m`''''::::::::::::::::::::::::::::::::''''`[0m
                             [1;30m`'''':::::::::::::::::::::''''``[0m
    [1;30mHe''s big and bad,[0m              [1;30m`'''':::::::::::''`[0m
-   [1;30mand he''s HERE :)![0m                   [1;30m`::::::''[0m
+   [1;30m                 [0m                   [1;30m        [0m
                                 [1;30m.:;''`''∙[0m [1;30m`:::''[0m
                                 [1;30m::[0m  [1;30m`∙''[0m [1;30m.::''[0m
                                 [1;30m`::.[0m  [1;30m.:::''[0m
                                   [1;30m`::::''`[0m
 
 [1;30m─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-[0m
-  [30;45mN[0;34;40mame[0;35;40m: [0;30;45mA[0;34;40m Logo for a coder.[0m             [30;45mB[0;34;40my[0;35;40m: [0;30;45mS[0;34;40mhinigami//AXss[0m              [30;45m1[0;34;40m997[0;5;34;40m_[0m
+  [30;45m [0;34;40m   [0;35;40m  [0;30;45m [0;34;40m                  [0m             [30;45m [0;34;40m [0;35;40m  [0;30;45m [0;34;40m              [0m              [30;45m [0;34;40m   [0;5;34;40m [0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
 
-  [1;35mJ[0;35mu[0;34mzzed [0;1;35ma[0;34m [0;1;35ml[0;35mi[0;34ml'' [0;1;35mp[0;35mi[0;34mc [0;1;35mI[0;34m [0;1;35mm[0;35ma[0;34mde [0;1;35mf[0;35mo[0;34mr [0;1;35ma[0;34m [0;1;35mc[0;35me[0;34mwl [0;1;35mf[0;35mr[0;34miendly [0;1;35mc[0;35mo[0;34mder [0;1;35mI[0;34m [0;1;35mk[0;35mn[0;34mow, [0;1;35mm[0;35me[0;34mbbe [0;1;35mo[0;35mn[0;34me [0;1;35md[0;35ma[0;34my [0;1;35mh[0;35me[0m
-[37m  [0;1;35mw[0;35mi[0;34mll [0;1;35mc[0;35mo[0;34mde [0;1;35mm[0;35me[0;34m [0;1;35ms[0;35mu[0;34mmtin [0;1;35m;[0;35m)[0;34m. [0;1;35mL[0;35m8[0;34merz.[0m
-                                                      [37m  [0m    [1;35m$[0;34m [0;35mh[0;34m í ∩ í Ç /┤ m ì[0m
-                             [1;30mI command the Devil...[0m'
+  [1;35m [0;35m [0;34m     [0;1;35m [0;34m [0;1;35m [0;35m [0;34m   [0;1;35m [0;35m [0;34m  [0;1;35m [0;34m [0;1;35m [0;35m [0;34m   [0;1;35m [0;35m [0;34m  [0;1;35m [0;34m [0;1;35m [0;35m [0;34m   [0;1;35m [0;35m [0;34m       [0;1;35m [0;35m [0;34m    [0;1;35m [0;34m [0;1;35m [0;35m [0;34m    [0;1;35m [0;35m [0;34m    [0;1;35m [0;35m [0;34m  [0;1;35m [0;35m [0;34m  [0;1;35m [0;35m [0m
+[37m  [0;1;35m [0;35m [0;34m   [0;1;35m [0;35m [0;34m   [0;1;35m [0;35m [0;34m [0;1;35m [0;35m [0;34m     [0;1;35m [0;35m [0;34m  [0;1;35m [0;35m [0;34m    [0m
+                                                      [37m  [0m    [1;35m$[0;34m [0;35mh[0;34m í ∩ í Ç /┤ m ì[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: e8d1450c2d92916648f4e51dee656d69386849ae7aaff6a0a1c5bd63ca122c06
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-HAZRD.ANS by Droopy (HRg); released in hrg-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Hazard Area
 # SAUCE Author: Droopy
 # SAUCE Group: HRg
@@ -41,6 +41,6 @@ Write-Host '
                                        [1;32m▀▀[0;1;32;42m░[0;1;32;40m▀▀[0m
 
 [1;33m────────────────────────────────────────────────────────────────────────────────[0m
-[1;33mthis is the ultimate DUMP-Radiation design![0m
-[1;33mtotally done by droopy[0m
+[1;33m                                           [0m
+[1;33m                      [0m
 [1;33m[21/O3/97][0m'

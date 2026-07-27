@@ -5,7 +5,7 @@
 # Source SHA-256: 16532bce0a12994d352396e2db13bb6853ebf096e03286d18c9225eaaeac217d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-BLAD1.ANS by Chromatik (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Blade Advertisement
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -40,12 +40,12 @@ Write-Host '
 [1;30m  [0;1;31mp   [0;1;30m▐[0;1;30;47m▒[0;1;30;40m▌  [0;1;31;40mr[0m       [1;31;40mo[0m     [1;30;40m░ [0;1;31;40md[0m       [1;31;40mu[0m      [1;31;40mc[0m      [1;31;40mt    [0;1;30;40m░ [0;1;31;40mi[0m      [1;31;40mo[0m      [1;31;40mn[0m      [1;31;40ms[0m
 ▄▄[1;30m▄[0m▄[1;30m▄ █[0;1;30;47m▓█[0m [1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
        [1;30;40m▀[0m                                              [1;30;40m░[0m
-[1;30;40mI hope this pic is good enough to get me as an official member of Blade. ....[0m
-        [1;30;40m· Mindcrime : I''m sorry. I''m not like that at all.. I was so desperate.[0m
-        [1;30;40m· Darkfyre : Friend, as always... BTW, who''s this DX guy? =)[0m
-        [1;30;40m· Wildfire : Progamming genius. =)[0m
-        [1;30;40m· Colossus : Always there when my computer messes up...[0m
-        [1;30;40m· Whiplash : I can still kill you in tennis... ? =)[0m
-[1;30;40mAck ... too many greets can be annoying, I''ll stop now.[0m
+[1;30;40m                                                                             [0m
+        [1;30;40m                                                                       [0m
+        [1;30;40m                                                            [0m
+        [1;30;40m                                  [0m
+        [1;30;40m                                                       [0m
+        [1;30;40m                                                   [0m
+[1;30;40m                                                       [0m
 
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀▀[0m'

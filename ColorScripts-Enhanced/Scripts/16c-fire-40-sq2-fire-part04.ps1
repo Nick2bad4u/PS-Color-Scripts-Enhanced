@@ -5,7 +5,7 @@
 # Source SHA-256: 721ded0dbab0b047ebf63727be5e621235ef55629de81ae864c7bb763096d423
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SQ2-FIRE.ANS by sq2 (fire-40); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fire #40 30th anniversary
 # SAUCE Author: sq2
 # SAUCE Date: 20240707
@@ -60,5 +60,4 @@ Write-Host '
                                   [31m░▒▒▓█ ▄▄▄████▌[0m     [31m▐████▌[0m     [31m▐▒░   ░░[0m
                                    [31m░▒▓▓▓██▀▀███[0m      [31m▀▀▀[0m      [31m░▒░░[0m
 [37m  [0;1;30msq2[0m                               [31m░░▒▒[0m     [31m▐▌[0m      [31m▄ ░░▀ ░░[0m
-[37m  [0;31mfire[0;1;30m [0;31m#40[0m                                   [31m▐   ░░[0m
-[1;30m  [0;31m30th anniversary[0m'
+[37m  [0;31mfire[0;1;30m [0;31m#40[0m                                   [31m▐   ░░[0m'

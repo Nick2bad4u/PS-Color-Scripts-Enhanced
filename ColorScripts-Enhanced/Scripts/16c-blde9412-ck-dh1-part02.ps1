@@ -5,7 +5,7 @@
 # Source SHA-256: 5cfafacaa2b1275a1e30ab107f1d63258b13f66eab89cf6fc281774c43a906c2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-DH1.ANS by Chromatik (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Disposable Heros
 # SAUCE Author: Chromatik
 # SAUCE Group: Blade Productions
@@ -61,5 +61,4 @@ Write-Host '
 [32m█████▓█████████[0;33;42m░░░[0;32;40m█▓██[0;1;30;40m▓[0;32m████████▓██[0;1;30;42m░[0;32m████████████████[0;33;42m░[0;32;40m█▓█▓[0;1;30;42m░[0;32m██████████████████████[0m
 [1;30m▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄[0m
 [1;30m▓[0m    [1;30mc a▒r t o o n - s t y l e - g▒r i f t e r - b y :[0m C h r o m a t[1;30m▓[0mi k      [1;30m▓[0m
-[1;30m▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▒▀▀░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀[0m
-'
+[1;30m▒▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▒▀▀░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀[0m'

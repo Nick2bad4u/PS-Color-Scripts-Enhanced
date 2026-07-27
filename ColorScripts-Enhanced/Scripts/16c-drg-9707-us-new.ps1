@@ -5,7 +5,7 @@
 # Source SHA-256: 65c8b719b2e383e425f129fc83a1ad37bc428f1bb61b91f50826ca35e51f4291
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-NEW.ANS by Joda + Flux (drg&pr); released in drg-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: joint. new. privat, dont touch.
 # SAUCE Author: flux&joda
 # SAUCE Group: drg&pr
@@ -29,9 +29,4 @@ Write-Host '
 [1;31;41m░[0;31m█[0;1;31;41m▀[0;31m██▀█▀[0;30;41m▓[0;31;40m▌[0;37;40m    [0;34;40m  ▄▄▄▐[0;1;37;44m░[0;34m [0;37m▐█[0;31;47m░░[0;37;40m██[0;1;37;47m░░[0m█▀[31m░▀▀[0;31;47m▓▓░░[0;1;34;47m [0m▄▄▄██████▀ [31m▀████[0;37m▀▀▐[0;30;47m░░[0;37;40m█[0;30;47m░[0;37;40m▄[0;1;32;40m▀▀[0;1;32;47m█[0;1;37;40m▌[0m [31m▐██[0;1;31;41m▀[0;31m██[0;1;31;41m░[0;31m█▄▐[0;36m [0m
 [31m██▌▀▀▀▀▀▀▀▀[0;37m [0;31m▀[0;37m [0;34m▀▀▀▐▀▀▀[0;37m ▀▐▀▀▀ [0;1;37m░░[0m [34m      [0;37mfx[0;30;47m▓▓[0;37;40m▀▀▀▀▀[0;30;47m▓▓[0;34;40m   [0;31;40m░░[0;37;40m    ▀▀▀▀▀▀▐[0;30;47m░[0;37;40m▄ [0;1;37;40m▀[0m [36m [0;31m▀▀▀▀▀▀[0;37mjda[0m
                        [37m▐[0m
-                       [37m▀[0m
-                                                [34m    [0m
-[37m  original font by flux \\ pr              [0m
-[37m  minor touchups, some coloring by joda \\ drg[0m
-[37m  the colors didnt match my board so i started recoloring when i[0m
-[37m  thought this could be a small joint. thanx anyway flux.. :)[0m'
+                       [37m▀[0m'

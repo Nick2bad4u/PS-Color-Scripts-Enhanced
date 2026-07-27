@@ -5,7 +5,7 @@
 # Source SHA-256: 0ad8fde1c53b4cd53e205f20a812bbbd5e652fe097523440879dbc4ec6171e5a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VJ-SESTA.ANS by El V~jino! (org%nic); released in pst-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mmm, nachos...
 # SAUCE Author: El V~jino!
 # SAUCE Group: org%nic
@@ -32,14 +32,14 @@ Write-Host '
      [1;30m▒[0m [1;33m▓▄▄▄[0;30;47m█[0;33;40m▀▀[0;1;33;40m▄▄█▀ ░[0;30;47m█[0;1;33;40m█ ▀█▄▄  [0;30;47m█[0;1;33;40m▄▄▄░▄▄▄[0;30;47m█[0;33;40m▀▀[0;1;33;40m▄▄█▀ ░[0;30;47m█[0;1;33;40m█ ▀█▄▄  [0;30;47m█[0;1;33;40m██[0;30;47m█[0;1;33;40m█▄▒[0m [1;30;40m█▌[0;31m▐[0;1;31;41m [0;41m░[0;1;31;41m     [0;31m█[0m  [1;30m█[0m
      [1;30m▓▄▄▄[0;1;33m ▀▀▀▀▀ [0;1;30m▄▄ [0;1;33m ▀▀ [0;1;30m▄▄[0;1;33m ▀▀▀▀▀ [0;1;30m▄▄▄[0;1;33m ▀▀▀▀▀ [0;1;30m▄▄[0;1;33m ▀▀▀ [0;1;30m▄▄[0;1;33m ▀▀▀▀▀█▄█▄░[0m [1;30m▀[0;1;32m [0;41m▒[0;1;31;41m      [0;31m█[0m [1;30m █[0m
         [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄▄▄▄▄  [0;1;31;41m [0;41m▓[0;1;31;41m     [0;31m█ [0;1;30m █[0m
-       [33mc[0;36mome to [0;1;33msiesta[0;36m, where the señors are lazy,[0m            [1;30m▐▌[0;31m▐[0;1;31;41m      [0;31m▀[0;1;30m ▄▀[0m
-       [36mthe señoritas are [0;1;31mspicy[0;36m and the chilis are[0;1;30m [0m         [1;30m▄▄▀[0;31m▄[0;1;31;41m     [0;31m▀[0;1;30m ▄▀[0m
+       [33m [0;36m       [0;1;33m      [0;36m                            [0m            [1;30m▐▌[0;31m▐[0;1;31;41m      [0;31m▀[0;1;30m ▄▀[0m
+       [36m                  [0;1;31m     [0;36m                   [0;1;30m [0m         [1;30m▄▄▀[0;31m▄[0;1;31;41m     [0;31m▀[0;1;30m ▄▀[0m
        [36mdamned [0;31mhot[0;36m! [0;1;33msiesta[0;36m![0m [36mph#. 03 5968 3880![0m    [1;30m■▄▄▄▄ ▄▄▀▀[0;31m▄▄[0;1;31;41m     [0;31m▀[0;1;30m ▄▀ [0m
                                                   [1;30m▀▄ [0;31m■▄▄▄[0;1;31;41m      [0;31m▀▀[0;1;30m ▄▀ [0m
 [1;30mel vejiño![0m                                         [1;33m [0;1;30m▀[0;1;33m [0;1;30m▄▄[0;31m▀▀▀▀[0;1;30m▄▄▄▀▀▀  [0m
                                                       [1;33m  [0;1;30m▀▀▀▀[0m
 [1;30m------------------------------------------------------------------------------- [0m
-[1;30malright rippa if this doesn''t prove to you i suck at ansi nothing will.[0m
-[1;30mgreetings fly out in all directions and hit trippah, nuttah and stannah smack[0m
-[1;30mbang in the middle of the head![0m [1;30mcall siesta if you''re rich ;) deathstroke''s bbs[0m
+[1;30m                                                                       [0m
+[1;30m                                                                             [0m
+[1;30m                               [0m [1;30m                                               [0m
 [1;30m------------------------------------------------------------------------------- [0m'

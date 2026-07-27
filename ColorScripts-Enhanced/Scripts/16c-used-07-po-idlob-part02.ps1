@@ -5,7 +5,7 @@
 # Source SHA-256: e011043b3bc3d2f8f77b8739be5d6c7c21ac70b21914a132f6fac1e7dced60e2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-IDLOB.ANS by portia (used); released in used-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: idle lobster
 # SAUCE Author: portia
 # SAUCE Group: used
@@ -15,9 +15,9 @@
 # Columns: 1-80
 
 Write-Host '
-                          [31mdont eat lobster[0m
-                 [1;34m  [0;1;33m3.5[0;1;34m [0m   [1;37mits kind of shit but who cares[0m
-                 [1;34m  [0;1;33m2.0[0m    [34mportia of used[0m
+                          [31m                [0m
+                 [1;34m  [0;1;33m   [0;1;34m [0m   [1;37m                              [0m
+                 [1;34m  [0;1;33m   [0m    [34m              [0m
 
                           [1;37m▄░[0m
              [1;37m▄[0;1;33m▄[0m [1;33m▀[0m        [1;37m▀[0;1;37;44m▓[0;1;37;40m▓▀[0m     [31m▄▄[0m                                     [1;33m░[0m

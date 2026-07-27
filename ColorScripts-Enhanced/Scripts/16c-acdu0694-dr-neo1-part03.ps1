@@ -5,7 +5,7 @@
 # Source SHA-256: 1fb2b13efd651e4e83593e871733f55e33155424aa0d3273feff6266b83f2a1a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-NEO1.ANS by Duster (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Neo Tokyo
 # SAUCE Author: Duster
 # SAUCE Group: ACiD Productions
@@ -52,9 +52,9 @@ Write-Host '
 [1;30m██████▐▐ ▐   ▐[0m                                                    [1;30m▌  ▌ ▌▌██████[0m
 
  [36mNEO TOKYO - +32-(0)50-620112 [ZYXEL 19.2K] - +32-(0)50-625717 [USR 16.8K DUAL][0m
-[36m 6.6 GIGS - DEMO / SOUND / PROGRAMMING FILES - ACiD PRODUCTIONS! EUROPEAN AGORA[0m
-[36m    BLADE EURO HQ - DIE BHQ - EUROPEAN TECHNOLOGY BHQ - RADICAL RHYTHMS BHQ[0m
-[36m X-TRAKKER SUPPORT SITE - BLACK DESIGN - DELUSION - REMEDY - SOFTWARE CREATIONS[0m
-       [36mGAME BYTES MAGAZINE - LANCELOT II MAGAZINE - APOGEE - ID SOFTWARE[0m
-                            [36mSYSOP: TASMANIAC <ACiD>[0m
+[36m                                                                               [0m
+[36m                                                                           [0m
+[36m                                                                               [0m
+       [36m                                                                 [0m
+                            [36m                       [0m
 [1;30m██████▐▐ ▐   ▐[0m                                                    [1;30m▌  ▌ ▌▌██████[0m'

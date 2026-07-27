@@ -5,7 +5,7 @@
 # Source SHA-256: 0b2dba3da8ef7436c4445aec82ac2aad176d0aad24ef42a0d3312d874d247b22
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_HEFTI.ANS by jerusalem (boil); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: boil promotion +o7+
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -43,7 +43,7 @@ Write-Host '
     [31;40m██[0m
     [33;41m▒▒[0m
     [35;43m▒▒[0;31;40m [0m
-    [1;35;46m▒▒[0;31m [0;37m [0;32mjubilate! boil brings "heavenly heftism" right to your screen![0m
-    [1;33;46m▒▒[0m  [32menjoy the artwork, sceners!...[0m
+    [1;35;46m▒▒[0;31m [0;37m [0;32m                                                              [0m
+    [1;33;46m▒▒[0m  [32m                              [0m
     [1;33;46m██[0m
     [1;31m░░[0m'

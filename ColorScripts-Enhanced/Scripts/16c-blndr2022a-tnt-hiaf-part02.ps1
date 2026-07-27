@@ -5,7 +5,7 @@
 # Source SHA-256: 854167f937c2e075e317355008a4152b69a6d736d4764f8e41e9b508ae4835f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt-hiAF.ans by tainted (blocktronics); released in blndr2022a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mindblender
 # SAUCE Author: tainted
 # SAUCE Group: blocktronics
@@ -36,9 +36,9 @@ Write-Host '
                                                          █▌▐▌ [1;30m▀▀▀▀▀▀▒▒[0m
 [1;30m▀[0m [31m▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0;37m [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m ▐▌█ [1;30m▀▀▀▀▀▄▄▄[0m  [1;30m▀▀▀[0m  [1;30m▀░░░[0m
 [1;30m─[0m [31m▓[0;37m [0;1;31;41m▄[0m   [1;31;41m▄[0m [1;31;41m▄[0m [1;31;41m▄[0m [1;31;41m▄[0;31m▀▀[0;37m [0;31m▓[0;37m [0;1;30m────────────────────────────────────────────────────────────[0m
-  [31m▒[0;37m [0;1;31;41m▀[0m   [1;31;41m▀[0m [1;31;41m▀[0m [1;31;41m▀[0m [1;31;41m▀[0;31m▀[0;37m  [0;31m▓[0;37m   [0;1;37mWarpus decides to smoke some of Tainteds new strain.[0m
+  [31m▒[0;37m [0;1;31;41m▀[0m   [1;31;41m▀[0m [1;31;41m▀[0m [1;31;41m▀[0m [1;31;41m▀[0;31m▀[0;37m  [0;31m▓[0;37m   [0;1;37m                                                    [0m
 [1;30m─[0m [31m░[0;37m [0;31m▀▀▀[0;37m [0;31m▀[0;37m  [0;31m▀[0;37m  [0;31m▀▀▀[0;37m [0;31m░[0;37m [0;1;30m────────────────────────────────────────────────────────────[0m
-    [1mCH67[0m [1mN[0m [1mE[0m [1mW[0m [1mS░[0m   in related news, tainteds new ''space weed'' hopes to be
-     [1;31mBREAKING!!![0m    available to the general public sometime by mid 2022.
+    [1m    [0m [1m [0m [1m [0m [1m [0m [1m ░[0m                                                         
+     [1;31m           [0m                                                         
                          [1;30m░ L  A  Z  A  R  U  S   N  E  T  W  O  R  K[0m
                                                                                [1;30m░[0m'

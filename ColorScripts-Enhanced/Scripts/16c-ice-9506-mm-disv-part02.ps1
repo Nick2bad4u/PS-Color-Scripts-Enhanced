@@ -5,7 +5,7 @@
 # Source SHA-256: 170768d7b42503c6f456e33594edfda5f8bd7a240001d68ecdf69b926c2029f6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MM-DISV.ICE by Magnetic M (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 36-69
 # Columns: 1-80
 
@@ -41,6 +41,6 @@ Write-Host '
 [1;37;46m▀[0;1;37;40m██[0;1;37;46m▄[0;1;37;40m▄[0;1;36;40m▄[0;36m▄  ▀[0;1;36m▀[0;1;37;46m▀[0;1;36;40m█▀[0;36m▀  ▄[0;1;36m▄▄[0;1;37;46m▄[0;1;37;40m██████████████████████[0;1;37;46m▄[0;1;36;40m▄[0;36m▄▀[0;1;36;46m▀█▄[0;1;36;40m▄[0;1;37;40m▄▄▄[0;1;37;46m▄[0;1;36;40m███[0;1;36;46m▄[0;36m▄ [0;37m▄[0;1;37m▄▄[0;1;37;46m▄[0;1;37;40m██████████[0;1;36;40m██[0;1;36;46m▀[0;36m▀[0m
 [36m ▀[0;1;37m▀[0;1;37;46m▀[0;1;36;40m█████████████████[0;1;37;40m███████████████████████████[0;1;36;46m███[0;1;36;40m█████████[0;1;37;40m████████████[0;1;37;46m▀[0;1;37;40m▀[0;1;36;40m▀[0;36m▀[0m
       [36m▀[0m                                          [36m▀[0m          [37m▀[0m
-[37m  ▄[0m           [1;36m. iodin[0;1;37me''s . disembodied voices . [0;1;36m7[0;36m1[0;1;36m8-279-2766 [0;1;37m.[0m
+[37m  ▄[0m           [1;36m       [0;1;37m                           [0;1;36m [0;36m [0;1;36m           [0;1;37m [0m
 [1;37m [0m▀[1;47m▀[0m▀
-  [1;30m-──[catch me as "magneticm" on irc or mail me at magnetic.m@sserv.mba.org[0m'
+  [1;30m ──                                                                      [0m'

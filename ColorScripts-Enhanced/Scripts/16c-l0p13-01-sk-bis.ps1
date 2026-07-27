@@ -5,7 +5,7 @@
 # Source SHA-256: b6be40825cad98b5d4b5fd3673116668ce2e724bfc48275b184deebf429de2c9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!BIS.ANS by sIMONkING (thelo0p); released in l0p13_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: blood island
 # SAUCE Author: sIMONkING
 # SAUCE Group: thelo0p
@@ -37,9 +37,4 @@ Write-Host '
      [31;40m░[0;1;31;41m░░[0;31;42m▓▓[0;37;40m [0;31;40m▐[0;1;31;41m░░░░[0;31m▄[0;1;31;41m▄░░░░ [0;31m▓[0;1;31;41m [0;31;42m▓▓[0;37;40m [0;31;40m░▄[0;1;31;41m▒▒▒░░▒[0;31m▀░▀[0;1;31m▌[0;1;31;41m██▓▒[0;31m▀[0;1;31m▌[0;31m░▀[0;1;31;41m░░░░[0;31m░▐▀[0;1;31;41m▒▒▒▒[0;31m▓[0;1;31;41m░░░░[0;31m▄░▄[0;31;42m▓▓▓▓[0;1;31;41m [0;31m▓[0m
     [31m░[0;1;31;41m▒▒▒░░[0;31m░▐[0;1;31;41m▒▒▒▒▓▓▒▒▒▒[0;31m▀░[0;1;31m▀[0;1;31;41m▄ ░░▒▓▓▓▒▒[0;31m▐[0m   [1;31m▀[0;31m░░░[0;37m  [0;31m▀[0;37m [0;31m░[0;1;31;41m▒▒▒▒[0m [1;31m▀ [0;31m░░░[0;1;31m▐[0m [31m░▀[0;1;31;41m▒▒▒▓▓▒░░░░[0;31m░[0m
      [31m▀[0;1;31m▌[0;31m▓▓[0;1;31;41m▒[0;31m░[0;1;31m▐[0;31m░▀[0;1;31m▀▀[0;1;31;41m██▓[0;1;31;40m▀[0;31m▀░[0m   [31m░[0;1;31m▀▌[0;31m▓▓[0;1;31m▀▀[0;31m▀[0;1;31m▌[0;31m░▀[0m            [31m░░░░ [0m    [1;31m [0;31m▀[0m   [31m░▀[0;1;31m▌▀▀[0;31m▓▓▀▌[0;37m [0;1;30msK!l0p[0m
-      [31m▀░░[0;37m  [0;31m▀[0m     [31m░░[0m       [31m▀[0;37m      [0;31m▀[0m                              [31m▀░[0;37m [0;31m░░[0;37m [0;1;31m▀[0;31m [0m
-
-
-   [1;30mansi done special for xzip/impure[0m
-   [1;30mby simonking/thelo0p^impure[0m
-   [1;30mcontact: simonking@poczta.onet.pl[0m'
+      [31m▀░░[0;37m  [0;31m▀[0m     [31m░░[0m       [31m▀[0;37m      [0;31m▀[0m                              [31m▀░[0;37m [0;31m░░[0;37m [0;1;31m▀[0;31m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 63a7b23e79ba07f2824a5a502c78050cb68333ccb47c73e14fbec5ce23f0f947
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: (M!)CLOS.ANS by m0! (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: free "closed board"
 # SAUCE Author: m0!
 # SAUCE Group: phat studios '97
@@ -36,9 +36,4 @@ Write-Host '
   [33m▀▀▀[0;1;33;43m░░[0;33m▄░ ▄█▀▀▀█▌[0;36m▐[0;1;37;46m▓[0;1;36;46m░[0;36m▌[0;33m▐[0;1;33;43m░░[0;33m█████[0;1;33;43m░░[0;33m█▀   ░░▀[0;1;33;43m░░[0;33m██████[0;1;33;43m░░[0;33m▀░░  ▀█[0;1;33;43m░░░[0;33m▌[0;36m▐[0;1;37;46m▓[0;1;36;46m░[0;36m▌[0;33m▐[0;1;33;43m░░[0;33m▄▄[0;1;33;43m░░[0;33m▄░▄█[0;1;33;43m░░░[0;33m▀[0m
        [33m▀▀▀▀[0m     [33m▀ [0;36m▀▀▀ [0;33m▀[0m     [33m▀▀▀██▄▄▄▄▄██▀▀▀    ▀▀█▄▄▄▄██▀   [0;36m▀▀▀    [0;33m▀▀▀▀▀▀▀▀[0m
 
-[1;30m-(cut)--------------------------------------------------------------------------[0m
-[1;30mMhhmmm... I''ve used this ansi in my board. Since my board has changed to a[0m
-[1;30mlegal art/demo/sound/source oriented bbs, I have no longer use for this one.[0m
-[1;30mUse it - and spritz...[0m
-[1;30mPS: if you don''t know WHAT that ansi is for ... flush yourself in the toilet...[0m
-[1;30mwant your own? - acid@megatec.de[0m'
+[1;30m-(cut)--------------------------------------------------------------------------[0m'

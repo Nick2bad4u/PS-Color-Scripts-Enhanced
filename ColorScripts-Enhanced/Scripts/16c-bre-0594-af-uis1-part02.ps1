@@ -5,7 +5,7 @@
 # Source SHA-256: c3586ef7a4021c8eefdb872576e8a17ededdd66dface61ef5889485f7c479657
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-UIS1.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 45-84
 # Columns: 1-80
 
@@ -44,9 +44,7 @@ Write-Host '
              [1;30;40m▐[0;1;30;47m▓▓▓▓[0m
 
                              ┌[1;30m─[0mU[1;30mp [0mI[1;30mn [0mS[1;30mmoke[0m─[1;30m┐[0m
-                            [1;30m┌┴([0m6[1;30mi3)[0mY[1;30mAA-[0mR[1;30miTE┴[0m┐
+                            [1;30m┌┴ [0m [1;30m   [0m [1;30m   [0m [1;30m   ┴[0m┐
                           [1;30m┌[0m─[1;30m┴[0mS[1;30mys[0mO[1;30mp : [0mS[1;30min-[0mJ[1;30min┴[0m─[1;30m┐[0m
-                          ├I d[1;30munno [0mt[1;30mhe [0mr[1;30mest [0m:[1;30m([0m┤
-                          └[1;30m──[0m───[1;30m───[0m─[1;30m──[0m──[1;30m─[0m─[1;30m─[0m──[1;30m─┘[0m
-[1;30m [0;1;36mGl[0;36mame[0;1;30ms and Valis 3 are TradeMarks of RenoVation Products. [0;1;36mPi[0;36mccy [0;1;30mfrom MegaPlay[0m
-[1;36mMa[0;36mrch[0;1;30m/April 1991, Page 25, [0;1;36mTo[0;36mp le[0;1;30mft-hand corner. [0;1;36mI h[0;36madt[0;1;30ma make up the helmet tho[0m'
+                          ├   [1;30m     [0m [1;30m   [0m [1;30m    [0m [1;30m [0m┤
+                          └[1;30m──[0m───[1;30m───[0m─[1;30m──[0m──[1;30m─[0m─[1;30m─[0m──[1;30m─┘[0m'

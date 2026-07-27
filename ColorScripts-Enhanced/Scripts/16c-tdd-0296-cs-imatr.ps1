@@ -5,7 +5,7 @@
 # Source SHA-256: 888d47684b89c0148166dd99bd6d187bd12794ef9467991544ce17f31a45b419
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CS-IMATR.ANS by casper (the dirty dozen); released in tdd-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: intentional misuse matrix
 # SAUCE Author: casper
 # SAUCE Group: the dirty dozen
@@ -31,11 +31,9 @@ Write-Host '
 [1;47m░░░░[0m [1;31;41m░[0m    [1;33;47m▒▓[0;1;33;40m▌ [0;36m▄█████▄ ▀ ▄[0;37m [0;36m▀ ▄[0;1;34m [0;1;30;44m  [0;1;37;44menter yer ass for misuse  [0;33m [0;1;33m     [0m
 [1;47m░░░░░[0m    [1;33;47m▒▒▓▓[0m [36m▀▓██▄▀[0;1;33m [0;36m■ ▓   ▓ [0;1;34m  [0;1;30m apply yer ass for misuse [0;1;34m  [0;1;33m [0m
 [1;47m░░░░░░[0m  ▐[1;33;47m░▒▒▓▓[0m [36m▀█▓██▓■▄ [0;37m [0;36m■▄▓▄[0;1;34m   [0;1;30mcheck yer ass for misuse[0;1;34m   [0;1;33m [0m
-[1;47m░[0m█[1;47m░░░░[0m▄ [1;47m░[0m█[1;33;47m░▒▒▓▓[0m [36m▀▓██▄▄▄  ▀▄ [0;1;33m [0;36m [0;1;34m [0m [1;30mannoy the shit out of er[0;1;34m   [0;1;33m [0m
+[1;47m░[0m█[1;47m░░░░[0m▄ [1;47m░[0m█[1;33;47m░▒▒▓▓[0m [36m▀▓██▄▄▄  ▀▄ [0;1;33m [0;36m [0;1;34m [0m [1;30m                        [0;1;34m   [0;1;33m [0m
 [1;47m░[0m██[1;47m░░░░░░ [0;1;33;47m░░▒▒▓▓[0m [36m▀▓███▄▓▄▄[0;37m [0;36m [0;1;33m [0;36m [0;1;34m [0m [1;30mleave intentional misuse[0;1;34m  [0;1;33m  [0m
 [1;47m░ [0m█[1;47m░░[0m▀ █[1;47m░  [0;1;33;47m░░▒▒▓▓[0;1;33;40m▄ [0;36m▀███ ▓[0;1;33m [0;36m▀▀▄ [0;37m  [0;36m▄■[0m
 [37m [0;1;37;47m [0m▀ ▄ █[1;47m░░░ [0m█[1;33;47m░░▒▒▓▓▓[0;1;33;40m▄ [0;36m▓███▄[0m   [36m ▀▀[0m
 [37m█ [0;1;37;47m░[0;36m·[0;1;33m [0m▀ [1;47m░[0m█ [1;33;47m░░░▒▒▓[0;1;33;40m▀▀ [0;36m▄▄█▓█▄▀[0m   [36m [0m
-                 [36m▀[0;37m [0;36m▄[0;37m  [0;36m▀▄[0;37m [0;36m▀[0m   [36m [0m
-[36m                                                                       [0m
-[37m [0;33m      [0m'
+                 [36m▀[0;37m [0;36m▄[0;37m  [0;36m▀▄[0;37m [0;36m▀[0m   [36m [0m'

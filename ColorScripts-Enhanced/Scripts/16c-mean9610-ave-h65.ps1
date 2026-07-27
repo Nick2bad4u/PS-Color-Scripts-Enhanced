@@ -5,7 +5,7 @@
 # Source SHA-256: c2a1735466e66fd81dd3bf8e8cdc036a4396c3aff66a1c346abce87374360f16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-H65.ANS by avenger (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hazard/2 #65
 # SAUCE Author: avenger
 # SAUCE Date: 19961031
@@ -32,7 +32,7 @@ Write-Host '
            [36m░░▓▓░░[0;37m [0;36m░[0;37m  [0;30;42m▓[0m       [30;42m▄▄▄▄▄ ░░[0m    [30;42m█▓▓[0m     [32;40m▀▀▀▀[0;30;42m▄ [0;32;40m▄▄▄[0;1;32;40m▒[0;32m▀[0;37m [0;35m▄[0;1;35;45m▄████▌[0;1;35;40m▀▄[0m
              [36m░░[0m                    [30;42m▓▓[0m   [1;37;40m░░[0m            [30;42m█▓▓[0;35;40m▄[0;1;35;40m▄▄[0;1;35;45m▄███[0;1;35;47m▄▓[0;1;35;45m█▌[0m [1;35m▐█[0m
                                       [1m░░▓▓░░[0m          [30;42m█[0m    [1;35;40m▄▄ ▄█▄██▄[0m [1;35m▀[0m
-                  [1m   [0m  [1mpHUNK logo - the ░░[0m [1mone and ugly[0m         [1;35m▄■▀[0m
+                  [1m   [0m  [1m                 ░░[0m [1m            [0m         [1;35m▄■▀[0m
                                                               [1;35m▄▀ [0m
                                                              [1;35m▐▌[0m
                                                               [1;35m▀ ▄[0m

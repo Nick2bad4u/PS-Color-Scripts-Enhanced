@@ -5,7 +5,7 @@
 # Source SHA-256: 60f0fa3d66125bda3598c5d6f44bfd14d54d6fd55446cc1b13e1fa9be4734ddb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB_B!Q.ANS by Sticky Baboon (TATOO); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The march of the black Queen
 # SAUCE Author: Sticky Baboon
 # SAUCE Group: TATOO
@@ -54,13 +54,13 @@ Write-Host '
  [1;30m▄▀▀▀▀▀[0m        [1;30m▀▀▀▄[0;1;30;45m▀[0;35m█[0;1;30;45m▄[0;35m▀[0;1;30;45m▀[0;35m▀[0;1;30;45m▀[0;1;30;40m█▀▓▄▄[0m       [1;30m▄▀▀▀[0m [1;30m▀▄▀▀▀▓▀▀▀[0m         [1;30m▒▀▀▀[0m             [1;30m▀█[0m
 [1;30m▓[0m      [1;30m·[0m         [1;30m▄▀[0;1;30;45m▐[0;1;30;40m▓[0m  [35m█ █[0;1;30m▓[0m                     [1;30m▒[0m                             [1;30m▐▌[0m
 [1;30m█[0m       [1m▄▀▀▀▀▀[0;1;47m▓[0m    [35m▌[0;1;30m▒[0m  [35m▓[0;37m [0;35m▓[0;1;37mS[0mti[1;30mcky baboon · TATOO[0m [1;30m· pure 100% ansis · 1[0m95[1m5[0m      [1;30m█[0m
-[1;30m█[0m  ·    [1m▀▄▄[0m▄  [1;47m▓[0m      [1;30m▒[0m [35m▓[0;37m [0;35m▒[0;1;30m▓[0m [1mD[0mis[1;30mt[0m [1;30msite - Satan''s hideout bbs 972-8-349[0m67[1m8[0;1;30m [0m     [1;30m▓█[0m
+[1;30m█[0m       [1m▀▄▄[0m▄  [1;47m▓[0m      [1;30m▒[0m [35m▓[0;37m [0;35m▒[0;1;30m▓[0m [1m [0m  [1;30m [0m [1;30m                                    [0m  [1m [0;1;30m [0m     [1;30m▓█[0m
 [1;30m▐░[0m          [1;47m▒[0m [1;47m▒[0m [1m▀▀▄[0m [1;30m▐▌[0m [35m▓[0;37m [0;35m░[0;1;30m▓[0m     [1mC[0mal[1;30ml now and order ansi ![0m [1;30mc''ya g[0muy[1ms[0m          [1;30m▀[0m
  [1;30m█[0m      ▀▀▀▀  [1;47m░[0m  ▄▀[1;30m▐▌[0m  [35m▒[0;37m [0;35m░[0;1;30m▒[0m                     [1;30m░[0m                              [1;30m▓[0m
 [1;30m█[0m [1;30m [0m  [1;30m▄[0m    ■  [1;30m▄▄[0m▀▀   [1;30m▓[0m  [35m▒[0;37m  [0;1;30m░[0m               [1;30m▓▄[0m                                   [1;30m▄[0m
  [1;30m▀▀▀▓▄▄▄▄▄▀▀▓[0m  [1;30m▀▄▄▄▓▄▄▀[0;35m▒[0;1;30m▄▌░▐▄▄▄▄▄▄▄▄▄▄▓▀▀▀[0m [1;30m▀▀▄▄▓[0m   [1;30m▄▄▄▄[0m [1;30m▀[0m [1;30m▄█▄▄▀[0m [1;30m▄[0m [1;30m▄▄▄▄[0m   [1;30m▄▄▄▀▀▀▄[0m
                        [35m▒[0;37m  [0;1;30m░[0m [1;30m▀[0m                   [1;30m▓▀▀[0m       [1;30m█[0m    [1;30m▀[0m      [1;30m▀▀▀[0m
-                       [35m▒[0;37m  [0;1;30m░[0m                     [1;30m▒[0m         [1;30m▓[0m      [1;35mS[0;35mt[0;1;30micky babo[0;35mo[0;1;35mN[0m
+                       [35m▒[0;37m  [0;1;30m░[0m                     [1;30m▒[0m         [1;30m▓[0m      [1;35m [0;35m [0;1;30m         [0;35m [0;1;35m [0m
                        [35m░[0;37m  [0;1;30m░[0m                     [1;30m░[0m         [1;30m▒[0m
                        [35m░[0m                                  [1;30m░[0m
                        [35m░[0m                                  [1;30m░[0m

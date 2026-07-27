@@ -5,7 +5,7 @@
 # Source SHA-256: 3ad0f1f42fa3ea926de522d34fdb276b6e5caf82a83b21de8f652c856b19570a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MTH-AFM.ANS by Methane (purg-13); released in purg-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -26,7 +26,7 @@ Write-Host '
 [33m▀[0;37m [0;1;30m▐▌▀[0;1;30;46m█[0;1;30;40m▀▓▀██▄▀[0m [1;30;46m▓[0;1;30;40m▀▀▀▀▀▀▄▐▌▄[0;1;30;46m▓[0m [1;30m▀█[0m  [33m░[0;30;43m▓[0;37;40m [0;1;30;40m▀[0;1;30;46m▓[0m [1;30m▀██[0m [36m [0;1;30m█▀[0;1;30;46m▓[0;1;30;40m▀▀▀▀████[0;1;30;46m▓[0;1;30;40m▀▀[0m [1;30m█▓[0m             [33m░[0;30;43m▓[0m
 [37;40m  [0;1;30;40m▀▄[0m [1;30m▓[0m [1;30m▒[0m  [1;30m▐▌▀■[0m    [1;30m▀[0m  [1;30m  ▀▄▓[0m  [1;30m▐▌▄ [0m   [1;30m▐▌[0m [1;30m▐[0m   [1;30m█▀▀ [0m   [1;30m ▀█ [0m [1;30m░░[0m [1;30m▐▒▄  putwhateverhere  [0m
      [1;30m▒[0m [1;30m░[0m [1;30m [0m            [1;30m   ▒ [0m  [1;30m▀[0m [1;30m  [0m   [1;30m▀▄▀[0m   [1;30m▐▌[0m [1;30m [0m   [1;30m▐▌░▌ ▄[0m  [1;30m ░[0m [1;30m  sorryitsnotpurple[0m
-     [1;30m░[0m   [1;30ma f t[0m [1;30me[0m [1;30mr[0m [1;30mm a t h[0m     [1;30m░░[0m          [1;30m▀▄[0m    [1;30m█[0m [1;30m░▀▀[0m        [1;30mandgreenirememberd[0m
-                         [1;30m░[0m                   [1;30m▀[0m [1;30m▄▀[0m             [1;30mjustasifinishedit.[0m
-                                   [1;30m  [0m                         [1;30mbtwits''tna''style. [0m
+     [1;30m░[0m   [1;30m     [0m [1;30m [0m [1;30m [0m [1;30m       [0m     [1;30m░░[0m          [1;30m▀▄[0m    [1;30m█[0m [1;30m░▀▀[0m        [1;30m                  [0m
+                         [1;30m░[0m                   [1;30m▀[0m [1;30m▄▀[0m             [1;30m                  [0m
+                                   [1;30m  [0m                         [1;30m                  [0m
                                                               [1;30munf.[0m'

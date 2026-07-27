@@ -5,7 +5,7 @@
 # Source SHA-256: 597ad6699aa8d2ff2fa294796c96889bb4f85eef762184418e6f9ced7787b283
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SE-FALLN.ICE by Sharp Edge + Sharpy (iCE); released in ice9709a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fallen Empires
 # SAUCE Author: Sharp Edge
 # SAUCE Group: iCE
@@ -33,6 +33,4 @@ Write-Host '
     [31;40m  [0;37;40m  [0;1;33;40m░[0;33m▀[0;32m▀[0m             [1;31m▀[0m          [1;34m▄▄[0m [1;34m▄[0;1;32m▀[0;1;37m▀[0m    [1;34m▄[0;1;37m▀[0;33m [0;37m ▀[0m    [33m▄[0;1;34m ▄▄▄[0;1;34;43m▒░▒░▒▒░▒▓[0;1;33;40m░[0;33m▄[0;37m▄  [0;1;30m▀[0;33m▀[0;1;33m [0m
      [1;34m▄[0;33m▄[0;1;34;44m▒[0;34m▄[0;1;34m▄[0;33m [0;1;34m▄[0;36m▄[0;1;34;43m▓[0;34m▄[0;1;34m▄ ▄▄[0;1;34;44m▒[0;1;34;40m▄  [0;34m▄[0;1;34;43m▓[0;1;34;40m▄▄ ▄▄[0;33m▄[0;1;34;43m░[0;33m▄  [0;1;34m▄[0m▄[1;34;43m▓▓[0;1;34;40m██[0;1;34;44m▓[0;1;34;40m▄[0;34m▀[0;1;34m▀[0;1;34;43m▓▒░[0;33m▄[0;1;34m▄▄[0;1;34;43m░[0;1;34;40m█[0;1;34;43m▓▓[0;1;34;40m█▄▄[0;1;34;43m░▒▒[0;1;34;40m▀[0;33m▀[0;1;34m▄[0;1;34;43m▓▓▓[0;1;34;40m▓█[0;1;34;43m▓░[0;1;34;40m▀[0;33m▓▀■[0m
             [33m ▀[0;1;34;43m▓[0m▀[1;34m▀[0;33m [0;34m▀░▀[0;1;34m▀[0;34m▓[0;1;34m▀▀▀▀[0;1;34;43m▓[0;34m▀[0;1;34m▀[0;1;34;44m▓[0;1;34;43m▒[0;1;33;43m░[0;1;34;43m░▒▓[0;1;34;44m▓[0;1;34;40m█▄[0;1;34;44m▓▓[0;1;34;43m░▒▓▓▒▒▓[0;1;34;40m█[0;1;34;43m▓▒[0;1;33;43m░[0;1;34;40m▀▀▀[0;1;34;43m▓░▒░[0;1;34;40m▀[0;33m [0;1;34m▀[0;1;34;43m▒▓[0;36m▀[0;34m▀[0;37m  [0;1;34m▀[0m      [1;33m [0m
-     [1;30mE   M   P   I   R   [0;1;33mE[0;1;30m   S [0m       [1;34m▀[0;34m░[0;37m▀[0;36m▀[0;1;34;44m░[0;1;34;40m▄[0;1;34;43m░[0;34m▄[0m          [1;34m▀[0m                 [1;33m  [0m
-[1;32m  [0m    [1;32m·[0m [1;30mlogo [0;1;32mF[0;1;30mrom the crypt by sh[0;1;32mA[0;1;30mrpy [0;1;32m-[0;1;30m a.k.a sha[0;1;32mR[0;1;30mp edge, an u[0;1;32mZ[0;1;30mi wildeo [0;1;32m·[0m
-[1;30m       [0m          [1;30m" Oh my god, its the funky shit! " - bboys [0m'
+     [1;30mE   M   P   I   R   [0;1;33mE[0;1;30m   S [0m       [1;34m▀[0;34m░[0;37m▀[0;36m▀[0;1;34;44m░[0;1;34;40m▄[0;1;34;43m░[0;34m▄[0m          [1;34m▀[0m                 [1;33m  [0m'

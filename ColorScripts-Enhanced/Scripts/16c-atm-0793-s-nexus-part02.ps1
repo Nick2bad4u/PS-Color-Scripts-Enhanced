@@ -5,7 +5,7 @@
 # Source SHA-256: be3f3d20d4970ef0a82875087d15fcbef2bf0f42a8b74bdcf2ed5e7af68af0d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: S-NEXUS.ANS by Surface (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 38-79
 # Columns: 1-80
 
@@ -41,14 +41,14 @@ Write-Host '
 [31m ▀[0;31;45m████████[0;31;40m▀[0m     [31;40m▀[0;31;45m██████████[0;31;40m▀ ▀[0;31;45m███████████[0;31;40m▀ █[0;1;31;45m░░░░░[0;31m█▀[0m     [31m▀█[0;1;31;45m▓▓▓▓▓[0;31m██[0;1;31;45m░[0;31m█ █[0;1;31;45m▒[0;31m█[0m     [31m▄[0;31;45m█[0;1;31;45m▒[0;31m█[0m
                   [1;35m([0;1;36m301[0;1;35m)[0;1;36m608[0;1;35m-[0;1;36m2137[0m             [31m▀▀▀▀▀[0m         [31m▀████▀█[0;1;31;45m░▒[0;31;45m█[0;1;31;45m▒▒[0;31m█   ▄[0;31;45m█[0;1;31;45m▒▒[0;31;45m█[0;31;40m▀[0m
                                                                  [31;40m▀▀▀▀▀  ▄[0;31;45m█[0;1;31;45m▒▒[0;31;45m█[0;31;40m▀[0m
-[31;40m   [0;1;33;40m24 hrs/day 7days/week[0m                         [1;32;40mHQ of -=The Guild=-[0m     [31m▀▀▀[0m
-      [1;33mMessages/files/doors/everything[0m                [1;32mIBM and MAC software[0m
-        [1;33mWWIVNet[0;1;32m∙[0;1;33mCaffNet[0;1;32m∙[0;1;33mStormNet[0;1;32m∙[0;1;33mThoughtNet[0m      [1;32mSysop:[0m
-        [31mShareware programmers wanted[0m                 [1;32mBlackhawk[0m
-      [1;33mBuisness and Pokitical interrests[0m          [1;32mRemotes:[0m
-[1;32m  [0;1;33mSports and OutDoor games ([0;1;34mp[0;31ma[0;1;34mi[0;31mn[0;1;34mt[0;31mb[0;1;34ma[0;31ml[0;1;34ml[0;1;33m)[0m               [1;32mWraith[0;1;36m∙[0;1;32mPredator[0;1;36m∙[0;1;32mJobu[0m
-      [1;33mRavers and Party Freaks[0m                                [1;32mFloyd[0m
-        [1;33mSysops and Sysop support groups[0m          [1;32mWWIVNet @3102[0m
-        [1;33mOnliners and Doors Supporting groups[0m
-     [1;33mAnyone with a Brain......[0m                               [1;34mSurface[0;1;33m∙[0;31mATOM[0;1;33mi[0;31mC[0m
+[31;40m   [0;1;33;40m                     [0m                         [1;32;40m                   [0m     [31m▀▀▀[0m
+      [1;33m                               [0m                [1;32m                    [0m
+        [1;33m       [0;1;32m [0;1;33m       [0;1;32m [0;1;33m        [0;1;32m [0;1;33m          [0m      [1;32m      [0m
+        [31m                            [0m                 [1;32m         [0m
+      [1;33m                                 [0m          [1;32m        [0m
+[1;32m  [0;1;33m                          [0;1;34m [0;31m [0;1;34m [0;31m [0;1;34m [0;31m [0;1;34m [0;31m [0;1;34m [0;1;33m [0m               [1;32m      [0;1;36m [0;1;32m        [0;1;36m [0;1;32m    [0m
+      [1;33m                       [0m                                [1;32m     [0m
+        [1;33m                               [0m          [1;32m             [0m
+        [1;33m                                    [0m
+     [1;33m                         [0m                               [1;34m       [0;1;33m [0;31m    [0;1;33m [0;31m [0m
                   [1;35m([0;1;36m301[0;1;35m)[0;1;36m608[0;1;35m-[0;1;36m2137[0m'

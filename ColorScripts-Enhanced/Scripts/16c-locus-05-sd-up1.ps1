@@ -5,7 +5,7 @@
 # Source SHA-256: 97e3f430f6b847aea2074d1f08363430af2030231ef9a013934c196721d5494f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-UP1.ANS by Sudden Massacre (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -32,5 +32,4 @@ Write-Host '
 [37m  ▀▀[0;1;37;47m▀[0m█▄ [31m▀███[0;1;31;41m▀▀█████▀▀[0;31m█████▀[0;37m ▄██▀▀[0m                               [32m▀[0;1;32m▀[0;32m▀[0m
       [37m▀▀▄ [0;31m▀███[0;1;31;41m▀▀▀▀▀[0;31m████▀▀[0;37m ▄▀▀[0m
             [31m▀▀▀███▀▀▀[0m
-[34m--------------------------------------------------------------------------------[0m
-[34mi was bored and i fiddled around with thedraw and finished up with this..[0m'
+[34m--------------------------------------------------------------------------------[0m'

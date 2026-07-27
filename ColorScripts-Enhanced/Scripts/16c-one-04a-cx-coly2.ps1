@@ -5,7 +5,7 @@
 # Source SHA-256: a309cca3536cb8a2e1f160b99a8c1c7a808aed9a8957f01e85b953d955be6336
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CX-COLY2.ANS by Cyrix (One); released in one-04a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Collection #2
 # SAUCE Author: Cyrix
 # SAUCE Group: One
@@ -23,7 +23,7 @@ Write-Host '
  == [1mcx-scene.ans[0m == [1mrequest[0m == [1mmAce[0m ===========================================
 [1;30m/////-----/////-----/////-----/////-----/////-----/////-----/////-----/////-----[0m
                                                  [1;30m▄[0m  [1;30m▄[0m
-              [1;30m+-scene electronic magazine-+[0m [1;30m■[0m [1;30m▀[0m        [1;30m▀[0m [1;30m▄[0m
+              [1;30m                             [0m [1;30m■[0m [1;30m▀[0m        [1;30m▀[0m [1;30m▄[0m
          ▄▀▀▀▀▀▀▀▀▀▄  ▄▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀ ▀ [1;30m▀[0m   ▀▀▀▀▀▀▀▀▀▀  [1;30m■[0m ▀▀▀▄
         █[1;30m ▄[0;1;30;46m▓[0;1;30;40m▓▀▀▀█[0;1;30;46m▓[0;1;30;40m▄ [0m▀▀ [1;30m▄[0;1;30;46m▓[0;1;30;40m█▀▀▀▓[0;1;30;46m▓[0;1;30;40m▄ ▄[0;1;30;46m▓[0;1;30;40m█▀▀▀[0;1;30;46m▓▒▓[0;1;30;40m █[0;1;30;46m▓[0;1;30;40m▄▀▀▀[0;1;30;46m▓[0;1;30;40m█▄▄▓▄[0;1;30;46m▓[0;1;30;40m▀▀▀█[0;1;30;46m▓[0;1;30;40m▓ [0m█
         █[1;30m ▀[0;1;30;42m▓▓[0;1;30;40m▄▄▄▄▄ [0;1;37;40m [0;1;30;40mcx[0m [1;30;42m▓▓▓[0;1;30;40m  ▀[0;1;30;42m▓▓[0;1;30;40m▀ [0;1;30;42m▓▓▓[0m   [1;30;42m▓▓▓[0;1;30;40m ▀[0;1;30;42m▓▓[0;1;30;40m▄ ▀[0;1;30;42m▓▓[0;1;30;40m▄ ▄ [0;1;30;42m▓[0m    [1;30m▀▀ [0m█
@@ -56,11 +56,4 @@ Write-Host '
 
 [1;30m-----/////-----/////-----/////-----/////-----/////-----/////-----/////-----////[0m
  ==============================================================================
-[1;30m/////-----/////-----/////-----/////-----/////-----/////-----/////-----/////----[0m
-
-   [1mgreets[0m  xavii, ironghost, toth, haji, pyro, straka, troll, formaldehyde
-           primo, vermillion, desync, empirion, mace, grimreaper, everyone
-
-   [1mif you''d like a logo by me, you can find me on emi, soh, utb, ior, irc[0m
-   [1mas [0mcyrix_ [1min #ansi, #cta, or  #chicago-traders, or mail me at my ereet[0m
-   [1memail address: [0mmichael.mathieu@115-858.mxl.fidonet.org[0m'
+[1;30m/////-----/////-----/////-----/////-----/////-----/////-----/////-----/////----[0m'

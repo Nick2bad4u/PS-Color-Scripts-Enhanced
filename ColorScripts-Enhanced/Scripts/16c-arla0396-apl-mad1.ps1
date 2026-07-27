@@ -5,7 +5,7 @@
 # Source SHA-256: 876964d4228e4426556d5213d592a4fa7ac3de07bea8e8c323f17e9ca484836e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: APL-MAD1.ANS by apollo (arla/sense/kmd/pus); released in arla0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: madness
 # SAUCE Author: apollo
 # SAUCE Group: arla/sense/kmd/pus
@@ -60,6 +60,6 @@ Write-Host '
 [35m██[0;37m [0;35m█[0;1;34;45m████▓██[0;35m█[0;37m [0;35m██[0;37m [0;1;34;45m░▓██▓███[0;35m█[0;37m [0;35m██[0;37m [0;1;34;45m░█▓█▓██▓[0;35m█[0m   [1;30m│[0m [1;30m░░[0m [36mm[0;1;32mA[0;36mdness [0;1;30m░░░░░[0;36m g[0;1;32mO[0;36md : detr[0;1;32mO[0;36mit [0;1;30m░░░░░░[0m
 [35m██[0;37m [0;1;34;45m■▀▀█▓█▀▀▒[0;35m▌██[0;37m [0;35m█[0;1;34;45m▀▀▀▀▀▀▀■[0;35m▌██[0;37m [0;35m█[0;1;34;45m▀▀▒▀▀▀▀[0;35m█▌[0;37m  [0;1;30m└──────────────────────────────────────[0m
 [35m██[0;37m [0;35m█[0;1;34;45m░[0;35m████[0;1;34;45m░[0;35m██▌██[0;37m [0;1;32m▄▄▄▄▄▄▄▄▄[0;35m ██[0;37m [0;1;32m▄▄▄▄▄▄▄▄▄[0;35m [0;37m [0;35m [0m      [1;30m┌────────────────────────────────[0m
-[35m██▄███[0;1;34;45m░[0;35m█████▌██▄▄▄▄▄▄▄▄▄▄ ██▄▄▄▄▄▄▄▄▄▄ [0m        [1;30m│[0m [1;30m░[0m [36mp[0;1;32mU[0;36mssy[0;37m [0;36mmbr[0;37m [0;1;30m░░░░░░░░░░░░░░░░░░░[0m
+[35m██▄███[0;1;34;45m░[0;35m█████▌██▄▄▄▄▄▄▄▄▄▄ ██▄▄▄▄▄▄▄▄▄▄ [0m        [1;30m│[0m [1;30m░[0m [36m [0;1;32m [0;36m   [0;37m [0;36m   [0;37m [0;1;30m░░░░░░░░░░░░░░░░░░░[0m
 [35m██▄▄[0;37m [0;35m▄▄▄▄▄ [0;1;32m▄[0;35m ▄▄▄▄[0;37m [0;35m███████▌▄▄▄▄[0;37m [0;35m███████▌[0m        [1;30m└────────────────────────────────[0m
   [35m██▄██▀▀▀ [0;1;32m▀[0m   [35m██▀▀▀▀▀▀▀▀[0m   [35m██▀▀▀▀▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: ce7df4be9e18b82831ead812ab73659a17cc36dfd641f3c385c9cf7e515d043b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ-MANG.ANS by Dizzy (sadist02); released in sadist02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 95-142
 # Columns: 1-80
 
@@ -44,17 +44,11 @@ Write-Host '
       [31m▄▓▀[0;1;37;41m░[0;31m▀▀▀▀░[0m        [31m▀▓[0;1;37;41m░▒[0;31m▀[0m       [1;30m▀▀▀[0m [31m▀█▀[0m               [31m▀[0m    [31m▀▀█[0;1;37;41m░░[0;31m▓▒░ [0m
                           [1;37;41m░[0m                                 [31m ▄▄▀[0;37m [0;31m▀▓[0m
                                                             [31m▐▓▀[0m
-        [1;30moutlines made by idlan ... shading by Dizzy. [0m        [31m▒[0m
-        [1;30mit was a missunderstanding, i tought i was the one[0m   [31m░[0m
-        [1;30mto shade the pic.. but then idlan also did it herself[0m
-        [1;30mso ... we tought we could bring both of the pics just[0m
-        [1;30mfor fun.. btw on the logo i did the oulines and she[0m
-        [1;30mmade a own shaded version on her pic and i shaded this one.[0m
+        [1;30m                                             [0m        [31m▒[0m
+        [1;30m                                                  [0m   [31m░[0m
+        [1;30m                                                     [0m
+        [1;30m                                                     [0m
+        [1;30m                                                   [0m
+        [1;30m                                                           [0m
 
-        [1;30m- [0mDizzy 1999
-
-
-
-
-
-[1;30m        [0m  [34m                         [0;1;30m                   [0m        [1;30m                  [0m'
+        [1;30m- [0mDizzy 1999[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4dbb788f93a6da0164658bfe427808f3a9b748dca726d4b2f63defe58a635765
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-jasp2.ans by Spear (jasper08); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -16,7 +16,7 @@ Write-Host '
 
      [31m ▄[0m     [1;31m▄[0;31m▄ [0;37m [0;31m ▀[0m
      [31m  ▄[0;37m [0;1;31m▄[0;1;31;41m▀[0;31m▀[0m
-      [31m▄[0;37m [0;1;31;41m▐▌[0;31m▌[0m                    [31mJASPER 2002[0;37m [0;31mSPEAR[0m
+      [31m▄[0;37m [0;1;31;41m▐▌[0;31m▌[0m                    [31m           [0;37m [0;31m     [0m
     [31m▄[0;1;31;41m▄[0;31m▌▐[0;1;31;41m▄▀▄[0;31m▄[0m       [31m░ [0m                                                   [37m▀[0m
 [37m   [0;31m▐[0;1;31;41m▐▓▄[0;31m▄[0;1;31;41m ▀[0;1;31;47m▄▀[0;1;31;41m▄[0;31m▄▄[0m    [31m▓[0m     [31m▀[0m           [31m▄[0m       [31m▀ [0m        [31m▀[0;36m [0m      [36m [0;31m▄[0m    [1;33m▀[0m    ▀▄
 [1;33m ▄[0m  [31m▀[0;1;31;41m▀[0;1;31;47m██[0;1;31;41m▄[0;31m▄█[0;1;31;41m▀▀[0;1;31;47m█[0;1;31;41m▄ [0;31m█▄▄█[0m     [31m█[0m    [36m [0;31m▌▄[0m     [31m▀▄[0;37m [0;31m▄▀[0m      [31m▄ [0m    [31m░[0m          [31m▀[0;1;31;41m▀[0;31m▄[0;1;31m▄[0m [1;33m▀[0;1;37m▄[0m  [1;33m▐[0;1;33;47m▄[0m▄
@@ -42,6 +42,4 @@ Write-Host '
             [32m▀[0m       [1;30m▐▌[0;32m▐[0;1;32;42m▀[0;32m▀▐██▀[0;37m [0m    [1;30m  [0;32m▀██▌[0m     [32m▐█▀[0;37m  [0;32m   ▐▌[0;37m   [0;32m  [0;1;30m ▀▄[0;32m▀[0;1;32;42m▀▒▓▌[0;32m▌[0m
        [32m  [0m         [1;30m ▄[0m▀[32m▄[0;1;32m▀[0;32m [0;37m [0;32m █▌ [0;37m  [0m     [37m [0;1;30m [0;32m▀▀▄ [0;37m  [0;32m▄▀[0m    [32m [0;37m  [0;32m ▀[0;37m  [0;32m  [0;1;30m  [0m [1;30m▐▌[0;32m▐[0;1;32;42m▐▀[0;32m▀[0m
              [1;30m   [0m [1;30m▀[0;32m ▀[0m      [32m ▀ ▄[0;37m [0m        [1;30m [0m  [32m▀ [0m          [32m ▀  [0;37m [0;32m  [0;1;30m▄▀[0;32m▄▀[0;1;32m▀[0m
-               [1;30m [0m           [32m [0;37m   [0;32m   [0m    [32m [0m                    [32m▀[0m
-
-               [32mNo, I still can''t shade. Yes, this is rastafunk.[0m'
+               [1;30m [0m           [32m [0;37m   [0;32m   [0m    [32m [0m                    [32m▀[0m'

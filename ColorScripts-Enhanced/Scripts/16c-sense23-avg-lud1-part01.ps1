@@ -5,12 +5,12 @@
 # Source SHA-256: b63720c81f26366e3e56c2bf1c074a14d68af4a7eca3ceec26a0c1c5d9933735
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-LUD1.ANS by Avenging Angel (sense23); released in sense23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
-                    [1;30mavenging angel - 2005 sense imagery[0m
+                    [1;30m                                   [0m
 
 
 

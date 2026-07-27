@@ -5,7 +5,7 @@
 # Source SHA-256: d3a3f31be7045e647aa473222d627d70fa82e7926fa08115d3ba2be8fa903924
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D1_GLUE4.ANS by Dissonance (Hieroglyphics); released in hiero-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Glue
 # SAUCE Author: Dissonance
 # SAUCE Group: Hieroglyphics
@@ -36,5 +36,4 @@ Write-Host '
 [37m   [0;31m [0;1;31m▒▒[0m▀█[30;47m ■[0;1;37;47m▀▀ ▄▄ [0;1;33;40m▒▒▒[0;1;33;47m [0;1;37;47m▄▄[0;1;37;40m▒[0;1;36;44m▒▒░[0;35m  [0m   [33m▀ [0;37m [0;33m▀[0m   [35m [0;30;45m█▀█[0;37;40m [0;30;47m▀[0;1;37;47m███[0;30;47m    [0;1;33;40m▒▒▒[0;31;47m▄[0;30;47m▄[0;37;40m  [0;33;40m▄[0;31;40m▄ [0m    [1;30;40m▀▀[0;1;30;47m▄██[0m [31m [0;33m  [0m
 [37m   [0;31m ▀███▄[0;37m▀▀[0;30;47m█[0;37;40m▀▀▀▀[0;1;30;47m▄▄▄▄[0;1;37;47m▀▀ [0;30;47m▀[0;30;45m▄[0;35;40m█▄▄[0;31;40m░░░░░░░░░[0;35;40m▄[0;30;45m▀  █[0;37;40m [0;30;47m   [0;37;40m  [0;30;47m▄[0;30;41m▀[0;30;47m▄▄[0;37;40m  [0;1;31;40m▀[0;33m [0;31;43m▀[0;31;40m▄[0;33;40m▀▀[0;31;40m ░████[0m     [31;40m [0;33;40m  [0m
 [37;40m   [0;31;40m   [0m       [37;40m      [0;1;30;40m▀▀  [0;1;37;40m [0m   [35m▀▀[0;30;45m▄[0;35;40m█████[0;31;45m▀[0;30;45m▄[0;35;40m▀[0;30;45m▄[0;35;40m▄[0m    [31;40m▄[0;37;40m [0;1;31;40m▄[0;31m [0;30;41m▀[0;37;40m [0;30;41m█[0;31;40m░[0;33;40m▄[0;30;41m▀▄[0;1;33;40m [0;33m▀▀[0;31m░█  [0;37m  [0;31m▄▄[0;37m  [0;1;36mDee1[0m
-                             [34m [0;1;30m░[0;34;46m▄[0;34;40m█[0;34;45m▓[0;34;40m    [0m    [31;40m▀[0;37;40m  [0;31;40m▀[0;37;40m [0;31;40m [0;30;41m▄[0m   [30;41m▄[0;37;40m [0;33;40m▀[0m    [31;40m  [0;37;40m [0;31;40m▀ [0m
-                                 [34;40m   [0m'
+                             [34m [0;1;30m░[0;34;46m▄[0;34;40m█[0;34;45m▓[0;34;40m    [0m    [31;40m▀[0;37;40m  [0;31;40m▀[0;37;40m [0;31;40m [0;30;41m▄[0m   [30;41m▄[0;37;40m [0;33;40m▀[0m    [31;40m  [0;37;40m [0;31;40m▀ [0m'

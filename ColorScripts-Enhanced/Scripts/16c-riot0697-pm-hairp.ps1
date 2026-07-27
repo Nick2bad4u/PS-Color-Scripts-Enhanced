@@ -5,7 +5,7 @@
 # Source SHA-256: 619d1ee89815d5550e970e824ac8bec12086e4ac6f2e489cc4c8bdae98499f29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-HAIRP.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
    [1m,[0m
 [1;34m.`,[0;1;37m`;. [0m
   [1;34m`o$o[0;34m«[0m                      [35m0-10 day War[0;1;35mez  619[0;1;31m-521-00[0;35m*[0;1;35m*[0m
-  [1;34md$[0;34m:[0;1;34m$[0;34mb[0m                              [35mNU[0;1;35mP: [0;35mlA[0;1;35mM[0;35meRz[0m
+  [1;34m  [0;34m [0;1;34m [0;34m [0m                              [35m  [0;1;35m   [0;35m  [0;1;35m [0;35m   [0m
 [37m  [0;1;34m''$[0;34m:[0;1;34m$[0;34m:[0m
    [1;34m$$[0;34m$[0m                           [1;34m`$[0;34m''[0m            [1;34m^_[0m [1;34m.[0m [1;34m,.$[0;34m$$[0m
 [37m  [0;1;37m`o$[0;34m²[0m                           [1;37m$$[0m$            [1;34m$[0;1;37m:[0m$[34mº''[0;1;34m [0m  [1;34m$[0;34m$[0;37m$[0;34m,[0;37m [0;1;31m¿[0;31mpm[0;1;31m¡[0m       [1;34m$[0;1;37m$[0m$
@@ -28,8 +28,8 @@ Write-Host '
     [34m$[0;37m$[0m     [1;34m$[0;34m&[0m       [1;34m$$$[0m   [1;34m$[0;34m$$[0;37m  [0;1;34m$[0;34m$$[0;37m  [0;1;34m$$[0;34m$[0m         [1;34m$[0;34m!$[0m        [1;34m$[0;34m$$[0m   [1;34m$$[0;34m$ús«[0;37m [0;1;34m$[0;34m!$[0;37m  [0;1;34m $[0;34m$[0m
    [1;37m$[0m$     $          [1m`º[0m$[1m''^~[0m$! [1m`º[0m~''  [1m`[0m~''         [1m,[0mº''       [1mú[0m²^    [1m`[0m~²²   [1m`²[0m²  [1m `[0m²
   [1m [0mº''    [1m`[0m²            `  ''                    [1m`[0m.''
-                         [36m.[0;37m [0;34m15 Gigs[0;35m [0;1;34mof the lat[0;34mest shit[0;37m [0;36m.[0m
-                          [36m......[0;34m Hack[0;1;34mer   HP[0;34mAV[0;37m [0;35m [0;36m......[0m
-                           [36m...[0;37m [0;34m12 CD[0;1;34mROMs On[0;34mline[0;37m [0;36m.....[0m
-                            [36m....[0;37m [0;34mWar[0;1;34mlock Di[0;34mst[0;37m [0;36m......[0m
+                         [36m [0;37m [0;34m       [0;35m [0;1;34m          [0;34m        [0;37m [0;36m [0m
+                          [36m      [0;34m     [0;1;34m       [0;34m  [0;37m [0;35m [0;36m      [0m
+                           [36m   [0;37m [0;34m     [0;1;34m       [0;34m    [0;37m [0;36m     [0m
+                            [36m    [0;37m [0;34m   [0;1;34m       [0;34m  [0;37m [0;36m      [0m
                              [36m......................[0m'

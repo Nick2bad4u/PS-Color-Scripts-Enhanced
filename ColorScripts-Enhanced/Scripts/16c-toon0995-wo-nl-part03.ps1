@@ -5,7 +5,7 @@
 # Source SHA-256: 1bbfd409afd2fd282b2831a21d938107ce47e30f7e4150e97f17d584a1dd151d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-NL.ANS by Wat0r + Narcosis (toon); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: neverland ad
 # SAUCE Author: watOr/narcosis
 # SAUCE Group: toon
@@ -31,12 +31,4 @@ Write-Host '
       [34mjoinez toon![0m         [35m▄[0m   [35m▀[0;37m [0;34m▓[0m     [34m▄[0m   [35m▓[0;37m  [0;34m▒[0;37m  [0;35m▄[0;1;35;45m░[0;35m▄[0;37m [0;34m ▄[0;37m  [0;35m▓ ▀[0;34m▄[0;34;47m▓[0;34;40m▄[0m   [35;40m  ░ ▀[0;37;40m [0;35;40m▄▓▄[0;37;40m [0;35;40m░[0m
       [34;40mdumpez grip![0m           [35;40m▓[0m   [34;40m▒[0;37;40m  [0;35;40m░[0;37;40m [0;34;40m▀[0;34;47m▓[0;34;40m▀[0m    [34;40m▄▓▀[0;37;40m [0;35;40m ▀ [0;1;30;40m░[0;34m▄▓▀[0;1;30mqu[0;35m▄[0;1;30mit[0;34m▀[0;1;30mgri[0;35m░[0;1;30mp[0;35m░[0;1;30m![0m  [35m [0;37m [0;35m▒ [0;37m [0;35m░ [0m
                                [35m░[0m              [34m▀[0m       [34m▒[0m           [34m [0m    [35m [0;37m [0;35m░[0m
-                                                      [34m░[0m
-
-
-                                [1;30m" Neverland "[0m
-          [1;30m(but I think PeterPan put it better with Never-Neverland)[0m
-
-
-
-  [1;30m... fontby[0mNarcosis[1;30mandoriginalansiby[0mwatOr[1;30mbothof[0mtoon[1;30mproductions[0m1995(c)[1;30m ...[0m'
+                                                      [34m░[0m'

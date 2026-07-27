@@ -5,7 +5,7 @@
 # Source SHA-256: 042dcc949c95b80e65c46eddf6ac90c284559cb81f92952ea3ef886e0a8df329
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-PR2.ANS by Abomination (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Packaged Rebellion
 # SAUCE Author: Abomination
 # SAUCE Group: Union
@@ -57,11 +57,11 @@ Write-Host '
 [36m███████████████ [0;1;36m█▀ [0;36m░█[0m                                     [36m█░ [0;1;36m▀█ [0;36m████████████████[0m
 [36m█[0;1;37;46mClive Barker->[0m [1;36;40m█ [0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;36m█ [0;36m█[0;1;37;46mis a neeto guy [0m
 [36m███████████████ [0;1;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;36m████████████████[0m
-[36;46m [0;1;36;46mHmm.. It is the first abom ansi in over a month. WHUT IS GOIN ON?!hMPH, ah wel [0m
-[1;36;46m cheggout terbium4 at a computer near you, and i''m stilll gina produce some art[0;36m█[0m
-[36m█[0;1;36;46mso don''t be thinkin'' i''m leavin da scene biznatchez from hell. aight, greetZzz [0m
-[36m█[0;1;36;46mWuZUPZ: [0;1;37;46masss delusion :), neurotica, ulyssez, nailz, quisling, k-spiff, termy2 [0m
-[1;37;46m asylum, cheese grater, acidflash <hi!>, lord jazz < don''t know you, BUT i have [0m
-[36m█[0;1;37;46mheard y0uZZ a keen0 guy. >, black lightning, flood, jello, the poZE at uNION & [0m
-[36m█[0;1;37;46mto the terbium crew95 (wuzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzup aCER!)[0;36m█[0m
+[36;46m [0;1;36;46m                                                                               [0m
+[1;36;46m                                                                               [0;36m█[0m
+[36m█[0;1;36;46m                                                                               [0m
+[36m█[0;1;36;46m        [0;1;37;46m                                                                       [0m
+[1;37;46m                                                                                [0m
+[36m█[0;1;37;46m                                                                               [0m
+[36m█[0;1;37;46m                                                                              [0;36m█[0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

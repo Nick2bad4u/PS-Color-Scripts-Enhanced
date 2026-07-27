@@ -5,7 +5,7 @@
 # Source SHA-256: 125f474bdfc2afac370b27e5c5afe912d1368d8c4abd7567746da8edd9c225a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PZ-E2.ANS by Pzyko (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Earth/2
 # SAUCE Author: Pzyko
 # SAUCE Group: AWE Lettering
@@ -31,10 +31,10 @@ Write-Host '
 [36;40m  ▀░   ▀[0m       [36;40m▀[0;30;46m▓[0m            [36;40m▀▀░▄  ░[0;30;46m▓[0m [36;40m▀▀   ░  [0;34;40m▀ [0;30;46m░[0;36;40m▓▀▀▀    [0;1;34;40mpz[0m      [36m▀    ▐   [0;30;46m▓[0;36;40m▐▀[0m
                                               [36;40m░[0;30;46m▓[0m                      [36;40m▀[0m
 
-[36;40m   [0;34;40mwow. this was probably my last request. i wont be taking anymore requests.[0m
-[34;40m  i also wont do any requests some one has already requested from ME. if[0m
-[34;40m  there is any. i will continue doing some art, but it will be for who I[0m
-[34;40m  want to and what I want to draw. blah. if you want an ansi from me, you[0m
-[34;40m  prolly wont. goodbye.[0m
+[36;40m   [0;34;40m                                                                          [0m
+[34;40m                                                                        [0m
+[34;40m                                                                        [0m
+[34;40m                                                                         [0m
+[34;40m                       [0m
 
              [37;40m<<<[0;1;34;40m_pzyko[0m'

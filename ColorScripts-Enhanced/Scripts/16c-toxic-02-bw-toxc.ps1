@@ -5,7 +5,7 @@
 # Source SHA-256: 4a3a2d5033fb56c82b296f6d3a3276afa0e34f02507eb9865c6f3c06876a9eaf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BW-TOXC.ANS by balls wilson? (toxic?); released in toxic-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: i joined toxic!
 # SAUCE Author: balls wilson?
 # SAUCE Group: toxic?
@@ -55,9 +55,4 @@ Write-Host '
 [34m██████████▓▓▄[0;37m  [0;34m▀▓████████████████▄ [0;1;30m░[0;1;33m [0;34m ▐███████████████▀[0;37m  [0;34m▄██████████████████████[0m
 [34m████████████▓▓[0m   [34m██████████████████▄  ██████████████▀[0;37m  [0;34m▄████████████████████████[0m
 [34m█████████████▓▓[0;37m  [0;34m▐███████████████▓▓▀▀██████████████[0m   [34m██████████████████████████[0m
-[34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [34m▀▀▀▀▀▀▀▀▀▀▀[0m         [34m▀▀▀▀▀▀▀▀▀▀▀ [0;37m [0;34m▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;37;47m balls wilson [0;30;47m-- [0;1;37;47mtoxic [0;30;47m                                                         [0m
-
-[37;40m i guess this is my first toxic pic..   its the only one because well they have [0m
-[37;40m been asking me to join and well i never  had  the  time  to  really answered i [0m
-[37;40m finally did and well.. here i am. i hope to like uh..  be cool in toxic..  err [0m'
+[34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m     [34m▀▀▀▀▀▀▀▀▀▀▀[0m         [34m▀▀▀▀▀▀▀▀▀▀▀ [0;37m [0;34m▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

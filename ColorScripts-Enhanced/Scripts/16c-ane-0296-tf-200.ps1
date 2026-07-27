@@ -5,7 +5,7 @@
 # Source SHA-256: e3930fa06ff1ca650fa4308e7be8e6e7c63c6adfd89e3ca3e5d3741e698a712e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TF-200.ANS by The fool (.;:Anemia:;.); released in ane-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 200 Proof
 # SAUCE Author: The fool
 # SAUCE Group: .;:Anemia:;.
@@ -51,7 +51,4 @@ Write-Host '
 [34m [0;37m▓▄▄▄█[0m   [37m█[0m    [37m█  [0;32m  [0;37m█[0m    [37m█[0m    [37m█[0m   [37m█   █[0m   [37m█[0m   [37m█[0m    [37m█[0m    [37m█[0m    [37m█[0m    [37m█   █[0m   [37m█[0m
 [34m [0;37m█▀  ▄▄▄▄▓ [0m   [37m█[0m    [37m█[0m    [37m▓[0m    [37m█[0m   [37m▀  ▄█[0m   [37m▀  ▄█    █[0m    [37m█    █[0m    [37m█   █▄▄▄█[0m
 [34m [0;37m█   █   ▓[0m    [37m█[0m    [37m█[0m    [37m█[0m    [37m█[0m   [37m█▀▀▀█[0m   [37m█   █    █[0m    [37m█    █[0m    [37m█[0m   [37m▄█    [0m
-[34m [0;37m█▄▄▄▄▄▄▄██▄▄▄▄▄▄▄█▀█▄▄▄▄▄▄▄▓█▄▄▄█[0m   [37m█▄▄▄█▄▄▄██▄▄▄▄▄▄▄███▄▄▄▄▄▄▄██▄▄▄▓[0m
-[1;37m       [0m     [1msometimes, a bigger fro is all the proof we need.. [0m
-
-[1;30m [0m [1;30man5i concieved and drawn by the fool of anemia (c)1996 ravensky[0m [1;30mstudios.[0m'
+[34m [0;37m█▄▄▄▄▄▄▄██▄▄▄▄▄▄▄█▀█▄▄▄▄▄▄▄▓█▄▄▄█[0m   [37m█▄▄▄█▄▄▄██▄▄▄▄▄▄▄███▄▄▄▄▄▄▄██▄▄▄▓[0m'

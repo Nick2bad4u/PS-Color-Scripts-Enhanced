@@ -5,7 +5,7 @@
 # Source SHA-256: e49fc2b5d54b3194885a98face1d8f46d01b2a4907eaa132d0fb22c94dee29f4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: nf-ape.ans by Necrofiliac (Fuel); released in fuel21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Ape
 # SAUCE Author: Necrofiliac
 # SAUCE Group: Fuel
@@ -47,6 +47,4 @@ Write-Host '
 [38;2;119;55;81;40m██   █[0m        [38;2;119;55;81;40m▐█[0;38;2;119;55;81;48;2;51;38;57m▀  [0;38;2;119;55;81;40m██[0;38;2;119;55;81;48;2;51;38;57m██[0;38;2;119;55;81;40m▀▀▀[0m     [38;2;119;55;81;40m▀▀[0;38;2;119;55;81;48;2;51;38;57m██████[0;38;2;119;55;81;40m█▌[0m         [38;2;119;55;81;48;2;51;38;57m████[0m
 [38;2;119;55;81m █▀[0m                               [38;2;119;55;81m▀[0;38;2;119;55;81;48;2;51;38;57m████[0m          [38;2;119;55;81;40m▐[0;38;2;119;55;81;48;2;51;38;57m███[0;38;2;119;55;81;40m▀[0m
 [38;2;119;55;81;40m ▌[0m                                  [38;2;119;55;81;48;2;51;38;57m██[0m           [38;2;119;55;81;40m▀[0;38;2;119;55;81;48;2;51;38;57m█[0;38;2;119;55;81;40m▀[0m
-                                    [38;2;119;55;81;40m▄[0m
-
-[37;40m [0;38;2;51;38;57;40m-= ansi made by necrofiliac.fuel (c) 2017 =-[0m'
+                                    [38;2;119;55;81;40m▄[0m'

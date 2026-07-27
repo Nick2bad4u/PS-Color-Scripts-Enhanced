@@ -5,7 +5,7 @@
 # Source SHA-256: afe9fc4cb557d1aa7600c80b0b6d2505c27e729efdc751764afa870e83ab2e5f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wa-chq.ans by warpus (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: CHQ
 # SAUCE Author: warpus
 # SAUCE Group: Legacy Krew
@@ -51,6 +51,6 @@ Write-Host '
 
 
 
-                             [1;31mCHQ[0m [1;31mSIGNAL TERMINATED[0m
+                             [1;31m   [0m [1;31m                 [0m
 
                                     [30mdsdfsdf[0m       [30m▒▒▒▒▒[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 9faa48ad7caa5a9dbda6881398e6f4cf0e70cce4a07a5f396f2202d904ceaadc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ODD-MISTCHRISTMAS.ANS by Odd (Mistigris); released in mist1219 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Happy Christmas
 # SAUCE Author: Odd
 # SAUCE Group: Mistigris
@@ -17,7 +17,7 @@
 
 Write-Host '
 
-                         [1;33mHappy [0;1;32mC[0;1;31mh[0;1;32mr[0;1;31mi[0;1;32ms[0;1;31mt[0;1;32mm[0;1;31ma[0;1;32ms[0;1;33m and [0;1;37mHanukkah[0m
+                         [1;33m      [0;1;32m [0;1;31m [0;1;32m [0;1;31m [0;1;32m [0;1;31m [0;1;32m [0;1;31m [0;1;32m [0;1;33m     [0;1;37m        [0m
                                                           [33;103m▒░[0m
 [37m                                                         [0;33;103m▒░[0;1;33m██[0m
 [37m                              [0;1;30m▒[0m                       [33;103m▒▒░[0;1;33m█████[0;33;103m░░[0m

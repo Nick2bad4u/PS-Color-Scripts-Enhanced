@@ -5,7 +5,7 @@
 # Source SHA-256: 19d4319914cf29dddfe08cb97bc8be667ff51a26fe866acd647b757f7c3fee5d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LO0P.ANS by Simonking + Avenger (join); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: thelo0p
 # SAUCE Author: aveger^simonking
 # SAUCE Group: join
@@ -29,9 +29,4 @@ Write-Host '
 [1;30;47m▓[0;1;30;40m▄[0;1;30;47m▓▓[0;1;30;40m▀[0m  [33m▄[0;1;30m▀[0m [1;33m■▄[0m  [1;30m▀[0m [1;30m██[0;1;30;47m▓▓[0;1;30;40m█▌[0m   [33m▀▀[0;1;33;43m▀▀▀▓▓███▀▀▀[0;33m▀▀[0;37m  [0;1;30m▄█[0;1;30;47m▓▓▓▓[0;1;30;40m▄▄[0m    [33m▀█[0;1;33m▀[0;33m▀[0;1;30m▀[0;33m▄[0;37m  [0;1;30m▄█  ██[0;1;30;47m▓▓[0;1;30;40m█[0m  [1;30m▐█ aVE[0m
 [1;30m███[0m   [33m▐[0;1;33m▌[0m  [33m [0;1;33m▐[0;33m▌[0;37m [0;1;30m▀▄[0;1;30;47m▓▓▒▒▓▓[0;1;30;40m█▄▄[0m     [33m▀▀▀▀▀[0m    [1;30m▄▄▀[0m [1;30m█▓▓▓▓███[0;1;30;47m▓▓[0m [1;30m▐[0;33m▌[0m   [1;30m▐[0;33m▌[0;1;30m▐█[0;1;30;47m▓▓[0;1;30;40m█[0m [1;30m▀[0m      [1;30m▓[0m
 [1;30m░[0m [1;30m▀▄[0m   [1;33m▀[0;33m▄▄[0;1;30m▄[0;33m▀[0;37m [0;1;30m░[0m [1;30m▐▌[0m  [1;30m▀[0;1;30;47m▓[0;1;30;40m█  █[0;1;30;47m▓▓[0;1;30;40m▄▄▄▄▄  ░░░ ░  [0m [1;30m▄[0m [1;30m▒▒▒▒[0m   [1;30m██▌[0m [1;30m▀[0;33m▄▄[0;1;30m▄▀[0m [1;30;47m▓▓▒▒▓[0m [1;30m░[0m      [1;30m▒[0m
-                      [1;30m▀▀▀▀▀▀[0m [1;30m▀▀▀[0m        [1;30m▄▀[0m   [1;30m░░░[0m     [1;30m▀▀▄[0m                  [1;30m░[0m
-
-
-[1;30moutlines: avenger/black maiden[0m
-[1;30mcolored+an outlines: simonking/thelo0p[0m
-[1;30m(c)thelo0p 009[0m'
+                      [1;30m▀▀▀▀▀▀[0m [1;30m▀▀▀[0m        [1;30m▄▀[0m   [1;30m░░░[0m     [1;30m▀▀▄[0m                  [1;30m░[0m'

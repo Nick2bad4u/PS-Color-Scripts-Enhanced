@@ -5,7 +5,7 @@
 # Source SHA-256: 62d2e722082872431b59c174208a74530331bed8e7b1ca8a22c41b7275b03cb8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-VOS.ANS by Marauder (fos-0795); released in fos-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 71-101
 # Columns: 1-80
 
@@ -38,6 +38,4 @@ Write-Host '
 
                       [1;30mV i [0ms i o [1mn[0m [1ms[0m   [1mo f[0m   [1mS a[0m [1mc[0m r i f i [1;30mc[0m [1;30me[0m
                             [1;30mS y[0m s O [1mp : H e [0ma t w a [1;30mv[0m [1;30me[0m
-                              [1;30m6 0[0m 4 . [1m2[0m [1m7[0m [1m5[0m . 8 2 [1;30m6[0m [1;30m9[0m
-
-                              [1;33m                         [0m'
+                              [1;30m6 0[0m 4 . [1m2[0m [1m7[0m [1m5[0m . 8 2 [1;30m6[0m [1;30m9[0m'

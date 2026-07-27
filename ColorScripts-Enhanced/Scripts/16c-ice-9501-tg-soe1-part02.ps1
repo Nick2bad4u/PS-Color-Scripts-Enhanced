@@ -5,7 +5,7 @@
 # Source SHA-256: 02f0266aef058c0b72240eaf3c7537ada65a1e31a4d3ee4b05ca2396b5c8dbdb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-SOE1.ICE by Toon Goon (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 25-58
 # Columns: 1-80
 
@@ -35,12 +35,11 @@ Write-Host '
 [35m█▌▐████▄▄▄▄▄ [0m▀[1m▀▀▀▀[0;1;47m▀[0;1m████ [0;35m▄▄▄▄▄▄▄▄▄█▄ [0m▀[1m▀▀ [0m▀[1;47m▀[0;1m███ [0;35m████████ [0m▀[1m▀▀▀▀▀▀▀▀▀▀ [0;35m▄█████ [0;36m▀[0;1;36;46m▀[0;1;36m██▀[0m
 [35m▀▄███████████████▄ [0m▀[1m▀▀ [0;35m▄██████[0;31;45m▀▓■ ▄▄[0;35m████ [0m▀[1m▀▀▀ [0;35m███▀  ▀████████████[0;45m ansi [0;35m███▄▄▄▄▄█[0m
 [35m███████████████████████████████[0;31;45m▌[0;35m██████████████████▄▄█▀[0;30;45m■[0;35m█████████████████████████[0m
-[35m█[0;45m  created by toon goon <[0;1;45mice[0;45m> for warner brothers animation studios.  coming  [0;35m██[0m
+[35m█[0;45m                        [0;1;45m   [0;45m                                                  [0;35m██[0m
 [45m       [0;35m█[0;45m soon to a television near you!  :) [0;35m████████████████████████▄███████████[0m
 [35m██[0;1;35;45m▀  ▄▄▄▄▄▄ [0;35m█████████████████████████████████████████[0;1;35;45m▄▄▄[0;35m███████████ ████████████[0m
 [35m▀██[0;1;35;45m ▀██████▀ [0;35m██▀█▀  ▀███████████▀██[0;1;45m░▄▄ [0;35m█▄██████████[0;1;35;45m█▄███▀[0;35m█▀ ▐▀▀▀ ▀█ ███[0;1;45m ▄[0;1;35;45m▄▄▄░[0;35m███[0m
 [35m    ▀▀▀▀▀▀▀▀    █[0m     [35m▀▀██▀██▀▀ ▀██[0;1;45m▀▀[0;35m▀▀ ▀▀█ ▀▀██[0;1;35;45m▀ ▀▀▀[0;35m█▀▀▀   ▐[0m     [35m█  ██[0;1;35;45m█████▓█▄[0;35m█[0m
 [35m▄█[0;1;33;45m▄[0;35m▄[0m           [35m▐█▌[0m         [35m▌[0m              [35m▌[0m      [35m█▀[0m               [35m▌   ▀█[0;1;35;45m▀███████[0m
  [35m▀▀[0m            [35m███[0m         [35m▌[0m        [35m▄[0;1;35;45m▄█[0;1;35;47m▓[0;1;35m▄[0m        [35m▌[0m     [35m■▄[0m         [35m▌[0m     [35m▀▀█[0;1;35;45m▀▀▀▀[0;35m█[0m
-                [35m▀[0m                    [35m▀[0;1;35m▀▀[0m         [35m▌[0m                           [35m▀▀▀[0m
-'
+                [35m▀[0m                    [35m▀[0;1;35m▀▀[0m         [35m▌[0m                           [35m▀▀▀[0m'

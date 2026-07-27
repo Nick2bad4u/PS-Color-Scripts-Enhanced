@@ -5,7 +5,7 @@
 # Source SHA-256: 2cdf5c1c97595b4cbf767f6f1be761ddcd80272480f877dad90e312a79c3c03d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: N!Z-ERDE.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: erde-screen
 # SAUCE Author: noize
 # SAUCE Group: phat studios '97
@@ -22,7 +22,7 @@ Write-Host '
 [31m░[0m      [1;37m [0m        [1mi[0m                     [1;30;41m░░[0m [1m▄[0;1;33;47m░[0m▀ [31m▄▄▀[0;34m ████▓▓▓▓▓▒▒▒▒░[0m      [34m░▒▓▓▒▒▒▒[0;37m  [0;31m░[0m
 [31m░[0m      [1;37m [0m        [1mc[0m                     [31m▀▀[0;1;33m▐[0;1;37m▒[0m  [31m▀▀▀[0;34m ██▓▓▒▒░░░[0m   [32m  [0m             [34m░░░[0;1;30m [0m
        [1m [0m        [1ma[0m            [1;30m░[0m    [1;30m░░[0m [1m░░▒[0;1;33m▓[0;1;37;47m▓[0;34m [0;1;37m▒░░ [0;34m▓[0;1;30m░[0;34m▒▒▒░░[0;37m [0;32m▄[0m    [32m▓▒░[0m               [34m░[0m
-       [1;37m [0m        [1mt[0m                     [31m▄▄[0;37m [0;1;37m▒[0;1;33m▌[0;34m    ▒▒▒░░[0;37m  [0;32m▓▓░▄▄[0;1;32;42m▒▒[0;32m░░ [0;30mfuck amerika[0m
+       [1;37m [0m        [1m [0m                     [31m▄▄[0;37m [0;1;37m▒[0;1;33m▌[0;34m    ▒▒▒░░[0;37m  [0;32m▓▓░▄▄[0;1;32;42m▒▒[0;32m░░ [0;30m            [0m
                 [1;37mi[0m                     [1;30;41m░[0;31m▓[0;37m [0;1;37m░[0;1;33m▀[0;1;33;47m░[0;1;37;40m▄[0;34m ▀▒░░[0m   [32m▓▓[0;1;32;42m░░[0;32m░░░▓▓ [0;34m   [0m
                 [1;37mo[0m                     [1;30;41m░[0;31m▓[0;37m [0;1;37m░[0;34m [0;31m▄[0;34m [0;37m▀▀▄▄▄[0;34m [0;37m  [0;32m▀▀▀[0;37m [0;32m▒▒[0;37m [0;30mdie my darling[0m
       [1;36m░[0m      [1;36m░[0m [31m-[0;1;37;41mn[0;31m──►[0;37m [0;1;36m░░░░░░▒▒▒▓▓▓▓▓▓█[0m [31m▓[0;30;41m░[0;37;40m [0;1;37;40m░[0;34m [0;31m▓▓[0;34m ░  [0;37m ▀▀▀▄▄▄▄[0m             [30mdie[0m
@@ -38,7 +38,4 @@ Write-Host '
 
 
 
-[1;30;40m--------------------------------------------------------------------------------[0m
-
-[1;30mdid this for a lame shareware dude in ansi.ger. he didn''t even say thank you.[0m
-[1;30mbut i''ll go on being friendly too lame dudas ...[0m'
+[1;30;40m--------------------------------------------------------------------------------[0m'

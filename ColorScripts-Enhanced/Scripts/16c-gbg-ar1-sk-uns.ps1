@@ -5,7 +5,7 @@
 # Source SHA-256: 5770582267c5832573081ace935dcd7314b9ff50accfa5a49ae65eded07c4517
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK-UNS.ANS by SiKE (tRASH.tELEPATHy); released in gbg-ar1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: uNSANiTy BBSLoGo!?
 # SAUCE Author: SiKE
 # SAUCE Group: tRASH.tELEPATHy
@@ -30,12 +30,4 @@ Write-Host '
 [1;30m$$$$$$$$$$²°"°²$$$$$$bs.sd$$$$$$$$$$$$$$$bss.ssd$$$$$$$$$$$$²°"°²$$$$²''[0;1;37m    [0;1;30m`t$''[0m
 [1;30m"²t$$$$$$$bs.sd$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$°$$bs.sd$S²''[0m
 [1m   [0;1;30m"tS$$$$$$$$$$$$$$SS²''[0;1;37m    [0;1;30m`''[0;1;37m   [0;1;30m`°S$$$$S²°`²S$$$$$$$$S²''[0;1;37m [0;1;30m`S$$$St²''[0m
-[1m           [0;1;30m`°²°''[0;1;37m                    [0;1;30m²S²''[0m
-[1m [0m                                            [1;30m+o : [0m [1;30mwintamute^![0m
-[1m [0m
-[1m [0m
-[1m [0m
-[1m [0m
-[1m [0m
-[1m [0m
-[1m [0m'
+[1m           [0;1;30m`°²°''[0;1;37m                    [0;1;30m²S²''[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: b78b0ea64d2f0499b546d4e14918fa7a11330975c14615c761914eb331377ebf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MB-VOS.ANS by Morbius (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Visions Of Sacrifice
 # SAUCE Author: Morbius
 # SAUCE Group: Legend
@@ -23,7 +23,7 @@ Write-Host '
 
 
 
-[1m  [0;1;30m▀ ▀  [0m   [1;30m· the last shitty morbius chapel ansi you''ll[0m [1;30mever see ·[0m  [1;30m ▄[0m  [1;30m▀[0m [1;30m▀[0m
+[1m  [0;1;30m▀ ▀  [0m   [1;30m                                            [0m [1;30m          [0m  [1;30m ▄[0m  [1;30m▀[0m [1;30m▀[0m
 [1;30m▀[0m      [1;30m░[0m           [1;30m   [0m                ■▀                     ▄■ ░  [1;30m■[0m  ▄▌   [1;30m▀[0m
  ▄▓[1;30;47m■▄▄[0m▄▄▄▄▌     ░      ▄▌   ░       ▄▌[1;30m░[0m         ▄▌       ▄▄▓[1;30;47m▄■[0m▀█▓▄▄▄[1;30;47m■▄▐▄[0m▄ [1;30m░  ░[0m
 ▐▀░▀▀[1;30;47m▀▀[0;1;37;47m░[0m▀[1m▀   [0m▄ ▀▓▄▄▄▓[1;30;47m■▄▄[0m▌  ▀▓[47m [0;40m▄▄▄▀█[0;1;30;47m▄■[0m▌[1;30m░[0m■▀█▄▄▄█[47m [0;1;30;47m▄▄[0m▌  ▀▀▓[1;30;47m▄■[0m ▓[1;30;47m██▌[0m [1;30;47m■▄█▌[0m  ▀[1;30;47m▀██▒[0m▄

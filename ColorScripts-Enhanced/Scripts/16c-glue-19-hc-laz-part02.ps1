@@ -5,7 +5,7 @@
 # Source SHA-256: 4980857bb863fa8594ba856daaf60d5a94cd1303547c5c989164811d7c993569
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HC-LAZ.ANS by hachi (glue); released in glue-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lazarus
 # SAUCE Author: hachi
 # SAUCE Group: glue
@@ -47,10 +47,4 @@ Write-Host '
 [1;30m██▀[0;36m [0;31m████[0;1;31;41m [0;35m [0;31m▀▀▀[0;36m [0;31m▄▄▄▄▄▄▄[0;36m [0;31m▀█[0;36m [0;31m██▌[0;36m [0;1;30m▀[0;36m [0;31m▀[0;36m [0;31m▄▄▄▄▄▄[0;36m  [0;31m████[0;36m [0;1;30m█[0;1;30;47m▄░[0;36m [0;31m▄▄█▀██▀▀[0;36m [0;1;30m▄[0;36m [0;31m▄▄██▌[0;36m [0;31m▄▄▄▄▄█████▀▀[0;1;30m░[0m
 [1;30m▀[0;36m [0;31m▄██▀█▄▄▄████████[0;1;31;41m░░▒░[0;36m [0;31m█▌▐▀▄▄█████████▓░[0;1;30m▌[0;31m▐███▌[0;1;30m▐█[0;1;30;47m▓[0;36m [0;31m██████▄[0;36m [0;1;30m▀[0;35m [0;31m▄████ ▐█████▀▀▀[0;36m [0;1;30m▄▄▄[0;1;30;47m▓[0m
 [35m [0;31m▐███████▀▀▀▀▀▀[0;35m [0m     [31m▀░██[0;36m [0;31m██▓▀▀▀▀▀[0m    [31m  [0;37m  [0;31m███▓[0;36m  [0;1;30m░[0;36m  [0;31m▀▀██████████▀[0;36m  [0;31m▀▀[0;36m [0m
-[35m  [0;31m▀▀▀[0;35m [0m               [31m█▓██▌[0;37m [0;31m ░[0m                [31m░[0m          [31m▀▀▀▀▀[0;36m  [0;31m([0;1;37mlazarus[0;31m)[0;35m       [0m
-
-[37mwell, hopefully no one will see this ansi with the font not shaded, but I am[0m
-[37mwaiting on grindKing to shade it, and well we all know how good he is with [0m
-[37mdeadlines.. **coughDOODLEcough**            [0m
-                                 [37m          [0m
-                                 [37m                [0m'
+[35m  [0;31m▀▀▀[0;35m [0m               [31m█▓██▌[0;37m [0;31m ░[0m                [31m░[0m          [31m▀▀▀▀▀[0;36m  [0;31m([0;1;37mlazarus[0;31m)[0;35m       [0m'

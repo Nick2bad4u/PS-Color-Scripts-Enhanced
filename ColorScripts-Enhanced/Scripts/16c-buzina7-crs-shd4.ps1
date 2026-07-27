@@ -5,7 +5,7 @@
 # Source SHA-256: 60a1431c3d73ef984fdb5da261f5c52c9260080c4689820ff2744fc75e1c69d3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRS-SHD4.ANS by Crasher + Shadow (galza); released in buzina7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: eye
 # SAUCE Author: shadow [buzined crs]
 # SAUCE Group: galza
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;33mYi│Y│$$YYY$├$YY$$$┤ZYYZ$│$Fj$YY$\└?$Y$↕↕S$ZYiYZZ$│$$$YY$$YY│Z$Y$$YYZZ$$$Z│$YYiii[0m
+[1;33m  │ │      ├      ┤     │        └    ↕↕         │         │             │      [0m
 [1;33m$YYiY$$$│L`?$Y$$┘+S$$ZY$L`└?$$YE   ?7 _ ┐`└$YZ$$┘"`"└$$Y$$ZY$$L`?$Z$↕²''jZ$│ZYYiY[0m
 [1;33m$│$Y$┘²└?$: ?$$''─. `$└?│$:  `$└?L, '' ∙─┐├  ?²┘$L  ∙┤│ 3$│$F``?$  ?''  ,$Z$$$$ZYY│[0m
 [1;33m''?$$''│─ jF , └$┐└┬∙ ''  ?7 ─┐ ''. `"²+, ''└ . ''∙┐ ? ┌ : ,$$Z$i  j''┌ '' ┘ $$F``"?$$│''[0m
@@ -39,10 +39,4 @@ Write-Host '
 [1;33mL$│$$: j :│└∙ i$$$b┐$$L. `?$F ┐  , i$L │ `┐j$l  ,$''  i$$L,┐y+`┌ i$$L  ?$$i ,J$i[0m
 [1;33m$$Y$$L $L,  ,d$$$Y$$$$┘` ,d$l  ,f  j$$i  ,d$$$  $$s┐s$$$$$E ┐ ,┐$$│$i j$│Fj$$│$│[0m
 [1;33mYY$│Z$L?$$$$ZZ$│$$Z$7,┌sS$$│$L ?$sd$Z$F,d$$$│$L ?$$$$$$ZZ$$$┐ $$ZZ$$Fj$$Z$$$ZZZZ[0m
-[1;33miiYYZZ$$$│ZZYZZ$$ZZ$$$$ZYYZZ$$L$$Z$Z│$$$ZYY└$$$$d$$┘$│ZYYZ$Z$j$ZYYZ$i$ZYYZ$│shd.[0m
-
-
-
-
-                              [1;30moriginal by Shadow[0m
-[1;30m [0m                             [1;30mbuzined by Crasher[0m'
+[1;33m         │                          │      └       ┘ │                     │    [0m'

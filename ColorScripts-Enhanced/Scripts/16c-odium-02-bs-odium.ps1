@@ -5,7 +5,7 @@
 # Source SHA-256: 4966088ca2af34a3bfb7fedf449f29884452d5643ce3d2ffc78026d12d72fc63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-ODIUM.ANS by burps (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: odium
 # SAUCE Author: burps
 # SAUCE Group: odium
@@ -31,8 +31,4 @@ Write-Host '
 [1;37;40m        [0;1;32;40m█[0;36m█[0;30;46m█[0;36m░[0;30;46m▄░[0;36m█[0;1;32;46m▐▌[0;30;46m▐[0;36m░ █[0;1;32;46m█[0;30;46m▐▌[0;1;32;46m▐▌[0;36m█[0;30;46m▄[0;36m [0;30;46m█[0;36m [0;30;46m▌[0;1;32;46m▐▌[0;1;32;40m█[0;36m█▄▄[0;30;46m██[0;36m ▀[0;30;46m▄[0;36m█▓[0;30;46m▄█[0;36m░▐█[0;1;32;46m▐▌[0;30;46m▐█[0;36m ▀█[0;1;32;46m█[0;36m█░▀█[0;1;32;46m█[0;36m█[0;30;46m▐▄[0;36m░█[0;1;32;46m█[0;1;37;40m           [0m
 [1;37;40m       [0;1;32;40m▐[0;1;32;46m▌[0;30;46m▐███▄[0;36m█[0;1;32;46m▀[0;36m█[0;30;46m█▀[0;36m█[0;1;32;46m▐▌[0;36m█[0;30;46m▀[0;36m█[0;1;32;46m▀[0;36m█▄ [0;30;46m▀[0;36m▄█[0;1;32;46m█▐[0;1;32;40m▌▀[0;1;32;46m▄▄▄[0;36m██[0;30;46m▀▀▀[0;36m [0;30;46m█[0;36m [0;30;46m▀▀[0;36m█[0;1;32;46m█[0;36m█▓[0;30;46m▀▀[0;36m█[0;1;32;46m▐▌[0;36m▄ ▐[0;1;32;46m▐▌[0;36m█[0;30;46m██[0;36m▄█[0;1;32;46m▐[0;1;32;40m▌          [0m
 [1;32;40m       ▀[0;1;32;46m▄▄▄[0;36m█[0;30;46m▀▀▀▀[0;36m█[0;1;32;46m▄▄[0;1;32;40m█▀ ▀█[0;1;32;46m▄▄▄▄▄▄▀▀[0;36m██[0;1;32m█   ▓▀▀▀█[0;1;32;46m▄▄▄▄▄[0;1;32;40m▀▀▀[0;1;32;46m▄▄▄[0;1;32;40m▓▀▀▀▀[0;1;32;46m▄▄[0;1;32;40m█▀[0;1;32;46m▄[0;36m██[0;1;32;46m▄▄[0;1;32;40m▀           [0m
-[1;32;40m          ▓▀▀▀▀▀▀▀          ▀▀[0;1;32;46m▄▄[0;1;32;40m▀▀                              ▀▀▓             [0m
-[1;32;40m                                                         [0;1;30;40mbs!odium               [0m
-[1;30;40m                                                                                [0m
-[1;30;40m                   i''m fuckn only 3 stupid logo''s this month.                   [0m
-[1;30;40m                      next month some kick-ass pics, gaz!                       [0m'
+[1;32;40m          ▓▀▀▀▀▀▀▀          ▀▀[0;1;32;46m▄▄[0;1;32;40m▀▀                              ▀▀▓             [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 28549b8481d782304c758e6f7b7e41544cfbf12a3af60d8bf0ab4e215c514cb9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LQ!RBLAR.ANS by Liquid (ra-pack5); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -24,15 +24,15 @@ Write-Host '
 [1;31m`"└S[0;31m$[0;31;43m$[0;31;40m$$:[0;1;31;40m `?[0;31m$$$$$P [0;37m  [0;1;31m?$[0;31m$$Ss[0;1;31m. ,sS[0;31m$;[0;1;31md$[0;31m$$[0;31;43m$[0;31;40m$$$s[0;1;31;40ms$[0;31m$$$$S[0;1;31m  ?$[0;31m$$Ss[0;1;31m. ,sS[0;31m$;[0;1;31m  d$[0;31m$$[0;31;43m$[0;31;40m$$l [0m
     [1;31;40m~ⁿ[0;31mSl[0;1;31m    ?[0;31mSⁿ"''[0m      [1;31m`ⁿ[0;31mS$$$$$P''[0;1;31m,`"[0;31m└S$$$$$$$$$ⁿ''[0m     [1;31m`ⁿ[0;31mS$$$$$P''[0m   [1;31m`"└[0;31mS$Sⁿ''[0m
 [31m⌐      [0;1;31m''[0;31m              ¬[0m      [1;31m,sS$[0;31m;[0m             [1;31m,sS$[0;31m$$$Ss.[0m
-[31m booo.... L[0;1;37mi[0;31mqu[0;1;37mi[0;31md here, [0;1;31m''SssS$$[0;31m$$l''[0m      [1;31m?$Ss.,sS[0;31m$$$$$$[0;31;43m$[0;31;40m$$:[0m    [1;31;40m?$$$[0;31mSs.[0m
+[31m           [0;1;37m [0;31m  [0;1;37m [0;31m        [0;1;31m       [0;31m    [0m      [1;31m        [0;31m      [0;31;43m [0;31;40m   [0m    [1;31;40m    [0;31m   [0m
 [31m sucky asc[0;1;37mii[0;31m.. but [0;1;37mi[0;31m [0;37m [0;31m [0;37m [0;1;31m;$[0;31m$$$$$$;[0m       [1;31m`l[0;1;31;43m$[0;31m$$$$$$ⁿ[0;1;31mⁿ$[0;31m$$$$$l[0m    [1;31m`l$[0;31m$[0;31;43m$[0;31;40m$$;[0m
 [31;40m just felt l[0;1;37;40mi[0;31mke try[0;1;37mi[0;31mng [0;37m  [0;1;31ml[0;31m$$$$$$l.[0m      [1;31m :$[0;31m$$$$$:  [0;1;31m:$[0;31m$$$$;[0m     [1;31m:$[0;31m$$$$l[0m
-[31m one of my ansi fonts[0;37m [0;31m [0;37m  [0;1;31m;$[0;31m$$[0;31;43m$[0;31;40m$$$Ss.[0m    [1;31;40m .$[0;31m$$$$$$s[0;1;31ms$[0;31m$$$$S [0;1;31m.sSs..$[0;31m$$$$;[0;1;31m.sSs.[0m
-[31m with asc[0;1;37mii[0;31m.. d[0;1;37mi[0;31mdn''t [0;37m [0;31m [0m   [1;31ml[0;31m$$$$$$$$$b[0m   [1;31m  l[0;31m$$$$$$$$$$$ⁿ'' [0;1;31m■s[0;1;31;43ms[0;1;31;40msss-l[0;31m$$$$[0;1;31m-sssss■[0m
+[31m                     [0;37m [0;31m [0;37m  [0;1;31m  [0;31m  [0;31;43m [0;31;40m      [0m    [1;31;40m   [0;31m       [0;1;31m  [0;31m      [0;1;31m       [0;31m     [0;1;31m     [0m
+[31m         [0;1;37m  [0;31m    [0;1;37m [0;31m     [0;37m [0;31m [0m   [1;31m [0;31m          [0m   [1;31m   [0;31m              [0;1;31m■ [0;1;31;43m [0;1;31;40m     [0;31m    [0;1;31m      ■[0m
 [31m turn out TOO bad... [0;37m [0;31m [0;37m  [0;1;31m :$[0;31m$$[0;31;43m$[0;31;40m$$$$$$l[0;37;40m  [0;1;31;40m  :$[0;31m$$$$$$$$$$[0;1;31mb.[0m  [1;31m''ⁿSⁿ''`;$[0;31m$$l''[0;1;31m`ⁿSⁿ`[0m
 [31m ah well, requests:[0m   [31m [0m   [1;31ml[0;31m$$$$$[0;1;31m''?[0;31m$$$$;[0;37m [0;1;31m  l[0;31m$$$$$$$$$$$$S[0;1;31ms. [0m     [1;31m;$[0;31m$$:[0m
 [31m [0;1;31m bobby[0;1;37m_[0;1;31msaylor[0;1;37m@[0;1;31m  [0;31m      [0;37m [0;1;31m,sS[0;31m$$$$$;[0;1;31m $[0;31m$$$l [0;1;31m,sS[0;31m$$$$$$[0;1;31m:$[0;31m$$$$$$$;[0m     [1;31ml[0;31m$$$l[0m
 [37m [0;1;31mcmpd[0;1;37m.[0;1;31mm[0;1;37mi[0;1;31mndsync[0;1;37m.[0;1;31mcom[0m      [1;31md$[0;31m$$$$$$l[0;1;31m $[0;31m$$$;[0;1;31m d[0;31m$$$$$$$l[0;1;31m l[0;31m$$$$[0;31;43m$[0;31;40m$$l[0m   [1;31;40m,sS[0;31m$$[0;31;43m$[0;31;40m$; [0m
 [31;40m└                     ┘[0;37;40m [0;1;31;40m`"└[0;31mS$$$$:[0;1;31m l[0;31m$$l''[0;1;31m `"└S[0;31m$$$$:[0;1;31m `?[0;31m$$$$$P [0m   [1;31md$[0;31m$$$$$l [0m
-                            [1;31m~ⁿ[0;31mSP [0;1;31m ;$[0;31mSⁿ[0m      [1;31m~ⁿ[0;31mSl[0;1;31m    ?[0;31mSⁿ"''[0m     [1;31m`"└[0;31mS$Sⁿ''[0m
+                            [1;31m  [0;31m   [0;1;31m   [0;31m  [0m      [1;31m  [0;31m  [0;1;31m     [0;31m    [0m     [1;31m  └[0;31m     [0m
                               [1;34m [0;1;31m''  ''"[0m          [1;31m ''[0m   [1;31m  [0m'

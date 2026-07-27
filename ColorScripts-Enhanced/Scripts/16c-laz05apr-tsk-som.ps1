@@ -5,12 +5,12 @@
 # Source SHA-256: 093fdab7f97ab2f3ae7bf32d065fc97d0fb40287236bf2d1a5f3cd5f0cce7180
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-SOM.ANS by The Silent Killer (laz05apr); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-18
 # Columns: 1-80
 
 Write-Host '
-[36m   [0m        [36mLet''s have a big FUCK YOU to the guy that hates my ansis![0m
+[36m   [0m        [36m                                                         [0m
 
                  [1;37m▄▄▄▄▄▄[0m         [1m▄▄▄▄▄▄[0m        [1m▄▄▄▄▄   ▄▄▄▄▄[0m
               ▄[1;47m▄▄▓▓[0;1;40m█████[0;1;36;40m█▄[0m   ▄[1;47m▄███[0;1;40m█████[0;1;36;40m█▄[0;1;37;40m  [0m▄[1;47m▄[0;1;40m█[0;1;47m▓[0;1;40m████[0;1;36;40m█▄[0;1;37;40m███████[0;1;36;40m█▄[0m
@@ -24,6 +24,4 @@ Write-Host '
 [1;36;40m███[0;1;36;46m▀ [0;36m▌[0;1;37m   [0;1;37;47m ▄[0;1;37;40m██▀[0m▀[1;47m▀[0;1;40m███ [0m▄ [1m [0m▄[1;47m ▄[0;1;40m█[0;1;47m▓[0;1;40m█ [0m▐[1;47m▐[0;1;40m█▄  [0m▄[1;47m▄[0;1;40m██[0;1;47m▓[0;1;40m▌ [0;1;47m [0;1;40m██  [0;36m▀██▄▄▄█[0;1;36;46m░[0;36m█[0;1;37m  [0;1;37;47m ▄[0;1;37;40m██▀[0m▀[1;47m▀[0;1;40m███  [0;1;36;40m [0;36m▐[0;1;36;46m  ▀▀▀[0;1;36;40m██[0m
         ▐[1;47m▐[0;1;40m█[0;1;47m▓[0;1;40m▌  [0m▐[1;47m▐[0;1;40m█[0;1;47m▓[0;1;40m▌[0m▐[1;47m ▄▄[0;1;40m███▀  [0;1;47m ▀▀[0;1;40m█████[0;1;47m▓▓[0;1;40m▀ [0m▐[1;47m▐▓[0;1;40m█[0m        [1m    [0m▐[1;47m▐[0;1;40m█[0;1;47m▓[0;1;40m▌  [0m▐[1;47m▐[0;1;40m█[0;1;47m▓[0;1;40m▌[0m
          [1;47m ▀[0;1;40m██▄[0m▄[1;47m▄[0;1;40m███ [0m▀▀▀[1m▀[0m        ▀▀▀[1m▀▀▀   [0m▄[1;47m ▀[0;1;40m██  [0m       [1m    [0;1;47m ▀[0;1;40m██▄[0m▄[1;47m▄█[0;1;40m██  [0;1;36;40mTsk[0m
-          ▀▀[1;47m▀▀[0;1;40m██▀▀[0m                         [1m    [0m       [1m      [0m▀▀[1;47m▀▀[0;1;40m██▀▀[0m
-             [1m    [0m                                      [1m      [0m
-                                                       [1m          [0m'
+          ▀▀[1;47m▀▀[0;1;40m██▀▀[0m                         [1m    [0m       [1m      [0m▀▀[1;47m▀▀[0;1;40m██▀▀[0m'

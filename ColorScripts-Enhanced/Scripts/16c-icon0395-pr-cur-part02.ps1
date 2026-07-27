@@ -5,7 +5,7 @@
 # Source SHA-256: db802164e1b2d8fb7aaea5463a9929d22f502f0a98a2adaad14978affd5305ca
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PR-CUR.ANS by Prism (Icon); released in icon0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: White Insanity's Board
 # SAUCE Author: Prism
 # SAUCE Group: Icon
@@ -37,9 +37,9 @@ Write-Host '
 [1;30;41m▒░░░▒░▓▓░▒▒░▒▓▓▒▓[0;1;30;45m▌ ▀[0;1;30;41m▓▒▒[0;1;30;40m█[0;1;30;41m░▒▓[0;1;30;40m█[0;1;30;45m   [0;1;30;40m█[0;1;30;41m▒▒[0;1;30;40m█[0;1;30;41m▓▒░▒▒▒▓[0;1;30;40m█[0;1;30;41m▒▐░░░▒▒[0;1;30;40m█[0;1;30;41m▓▒░░░▒▒▄▓▒▓[0;1;30;45m▄[0;1;30;40m█[0;1;30;41m▄▄▒▒▒▒▐▌▒▓[0;1;30;40m█[0;1;30;45m▐[0;1;30;41m▌▒░▒[0m
 [1;30;41m▓▓▒▒▓[0;1;30;45m▀▀[0;1;30;41m▓▒▒▒▒▓[0;1;30;40m█[0;1;30;41m▓▓[0;1;30;40m█[0;1;30;45m   ▀[0;1;30;41m▓▓▓▓▓▓[0;1;30;45m█   [0;1;30;40m█[0;1;30;41m▓▓[0;1;30;45m▀▀[0;1;30;41m▓▓▓▓▓▓[0;1;30;45m▐[0;1;30;41m▓[0;1;30;40m█[0;1;30;41m▓▒▒▒▓[0;1;30;45m▀▀[0;1;30;41m█▓▓▒▓▓[0;1;30;40m█[0;1;30;41m▓▓▒▒▒▒▓█▓▓▓[0;1;30;45m▀[0;1;30;40m█[0;1;30;41m▓▓[0;1;30;40m█[0;1;30;45m ▀[0;1;30;41m▓▓▒[0m
 [1;30;45m ▀▀▀    ▀▀▀▀  ▀▀      ▀▀▀▀▀     ▀    ▀▀▀▀  ▀  ▀▀▀    ▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀    ▀▀[0m
-[1;31;45m  [0;1;37;45m      [0;1;35;45m sicks · ooh · fore · fore · sicks · ooh · ooh · ate · won · to         [0m
-[1;30;45m░[0;1;35;45m            Icon, Roc, Nimbus, Cia, Crime, Recoil, Paw, and yer mom           [0;1;30;45m░[0m
-[1;30;45m▒░[0;1;35;45m                          Op  :    White Insanity                           [0;1;30;45m░▒[0m
+[1;31;45m  [0;1;37;45m      [0;1;35;45m                                                                        [0m
+[1;30;45m░[0;1;35;45m                                                                              [0;1;30;45m░[0m
+[1;30;45m▒░[0;1;35;45m                                                                            [0;1;30;45m░▒[0m
 [1;30;45m▓▒░░[0;1;35;45m                                                                        [0;1;30;45m░░▒▓[0m
-[1;30;45m▓▓▒▒░░[0;1;35;45m         ps : if you can''t read the font, then you like, suck       [0;1;30;45m░░▒▒▓▓[0m
+[1;30;45m▓▓▒▒░░[0;1;35;45m                                                                    [0;1;30;45m░░▒▒▓▓[0m
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

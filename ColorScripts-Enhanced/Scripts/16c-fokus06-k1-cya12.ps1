@@ -5,7 +5,7 @@
 # Source SHA-256: 805a5fdedeef9673878c45d310f09ca9b5b054854bceb5eb1ad048d21b806abc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K1-CYA12.ANS by knocturnal (Fokus); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: c y a n
 # SAUCE Author: knocturnal
 # SAUCE Group: Fokus
@@ -35,7 +35,4 @@ Write-Host '
 [37m [0;34m██▀[0;36;44m [0;1;34;44m █[0;1;34;47m▀  [0;44m▄[0;34;40m [0m    [1;31;43m█[0;1;31;47m▓▓[0;1;31;43m█[0;33m█[0;1;31;43m  [0;33m▀[0;1;31;43m ▐▄[0;1;31;47m█▄▄▄[0;1;31;43m█▀[0;1;31;40m▀[0;33m▀▀[0m   [34m▄▄[0;37m  [0;33m▀[0;1;31m▀[0;1;31;43m▀[0;33m█[0;1;31;43m▄[0;33m▄████▄[0;1;31;43m▄[0;33m█[0;1;31;43m▀[0;1;31;40m▀[0;33m▀[0;37m [0;34m▄[0;32;44m▓[0;1;32;40m▒[0;1;32;42m▄[0;32m▄[0;34m  [0;37m   [0;33m▀▀▀█[0;1;31;43m███[0;33m█▄[0m
 [37m [0;34m███▌▀█[0;1;34;44m▀[0;1;34;47m▄▄[0;1;34;44m█▀[0m    [33m▀▀▀▀███▌ ███▀▀[0m      [34m▄▄[0;1;34;44m ▄[0;1;34;40m▓▒[0;34m▄[0m    [33m▀████[0;1;31;43m▬[0;33m█▀[0m   [34m▄[0;1;34m▄[0;1;34;44m▄▓[0;34m▀[0;1;34;44m▀[0;1;34;47m▄[0;1;34;44m█▄[0;1;34;40m▄[0;34m▄[0m     [33m▓▓▓▓▓▓[0m
 [32m [0;34m▓▓▓▌  ██[0;1;34;44m▄▄ [0;34m█[0m   [34m█▌ [0m     [32m [0m   [30;44m▓[0;34;40m░░[0;30;44m▓[0;34;40m  █[0;1;34;44m▄▄▀[0;34m▀▀▄[0;1;34;44m   [0;34m▌[0m    [33m▐██▌[0;37m   [0;34m█[0;1;34;44m█[0;1;34;47m  ▐[0;1;34;44m░[0;34m▌  ▀[0;1;34m▀▓▓▓▓[0;34m█[0m
-     [32m [0;37m  [0;34m   [0;36m [0m    [34m   [0;36m  [0m              [1;34m▀▀[0m                   [1;34m        [0m
-[32m                                                                                [0m
-[1;33m [0m    [32m    [0m   [32m [0m
-[37m  [0;1;33m [0m  [32m        [0m'
+     [32m [0;37m  [0;34m   [0;36m [0m    [34m   [0;36m  [0m              [1;34m▀▀[0m                   [1;34m        [0m'

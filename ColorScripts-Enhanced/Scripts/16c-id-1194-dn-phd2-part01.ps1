@@ -5,7 +5,7 @@
 # Source SHA-256: 897b15b425b091ec94b92b32d438a0053856fb6a763fd2abb4f37c76bbc57418
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DN-PHD2.ANS by Dragon (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, scaling, or background-space stripping; split only into contiguous source-row ranges at manually reviewed composition boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Phantasmial Dillusions
 # SAUCE Author: Dragon
 # SAUCE Group: iDENTiTY
@@ -44,5 +44,4 @@ Write-Host '
                           [1;34m▀[0m     [1;34m▄▀ ▀▄  █[0m     [1;34m▀  ▄▀▄[0m
                                [1;34m█    ▀ ▄▀   ▀▄[0m
                                               [1;34m▀▄[0m
-                                             [1;34m▄▄▀[0m
-'
+                                             [1;34m▄▄▀[0m'

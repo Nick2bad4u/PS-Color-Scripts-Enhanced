@@ -5,7 +5,7 @@
 # Source SHA-256: 07172e0ce327c6a8cd967633a3d825bc69e9a65beaf233f4049a16c03853b256
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-MUT1.ANS by Dark Horizon (fos-0196); released in fos-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
@@ -27,6 +27,4 @@ Write-Host '
 [34m▓[0;34;44m [0;1;34;44m██████▌[0;34m█ ▒▓▓▒▓ █[0;1;34;44m▐██████ [0;34m▌▐[0;34;44m [0;1;34;44m████▓█▌[0;34m█ ▒░▒▒ ▓█[0;1;34;44m▐███▓██[0;34m█▌ ▀█[0;1;34;44m▀▀▀▓▀█[0;34m█ ░ █[0;1;34;44m▐██████ [0m [34m▒▒▒[0m
 [34m ▓[0;1;34;44m▐▓█▌▐██[0;34m█▓ ░░░░▐█[0;1;34;44m█▓███▓▌[0;34m▓  ▓[0;1;34;44m▀▓█████[0;34m█▌ ░░░▒▐█[0;1;34;44m██▓███▌[0;34m▓  ░    ▓▀▓▀▀ ▐█[0;1;34;44m█▓███▓▌[0;34m▓ ░▒▓[0m
 [1;34mdh[0;34m▀█[0;1;34;44m▀▀ ▀▀▌[0;34m█   ░ █[0;1;34;44m▐▀▀▀▀▀[0;34m▓▀  ░ ▀█[0;1;34;44m▀▀▀▀▀█▄[0;34m▄   ▄[0;1;34;44m▄█▀▀▀[0;34m█[0;1;34;44m▀[0;34m█▀[0m              [34m█[0;1;34;44m▐▀▀▀[0;34m▓[0;1;34;44m▀[0;34m▓▀   ░░[0m
-[34m░ ░    ▀▀▀▀▀   ▀▀▀▀[0m                [34m▀▀▓▀█▓█▀▀▀▓[0m          [34m░[0m        [34m▀▀▀▀[0m
-[34m   [0;1;34mMinistry uv thekla φ 612-xXx-XxXx φ sysop: Victor φ running cheese and grits[0m
-                       [1;34mansee: dark horizon f0s-fracture[0m'
+[34m░ ░    ▀▀▀▀▀   ▀▀▀▀[0m                [34m▀▀▓▀█▓█▀▀▀▓[0m          [34m░[0m        [34m▀▀▀▀[0m'

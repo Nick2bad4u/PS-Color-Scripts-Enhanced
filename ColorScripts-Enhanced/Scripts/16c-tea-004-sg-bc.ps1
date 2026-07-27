@@ -5,7 +5,7 @@
 # Source SHA-256: 298110c7ba77514dd5f4a804afce915513833dacaeee1e3870a7dfaed3e05b36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SG-BC.ANS by Sonofagun (TEA!); released in tea-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bird's Cage
 # SAUCE Author: Sonofagun
 # SAUCE Group: TEA!
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m       [0;35m [0;1;30m    [0;1;35ms[0;35mg[0;1;30m-bc.ans - aonehundredpercentsonofaguncreation/TEA19[0;35m9[0;1;35m5[0;1;30m [0m
+[1;30m       [0;35m [0;1;30m    [0;1;35m [0;35m [0;1;30m                                                   [0;35m [0;1;35m [0;1;30m [0m
 [1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;31;43m███████████████████████████████████████████████████████████████████████████▓▓▓▒[0m
 [1;31;43m███[0;1;30;40m█░░░░░░░░░░░░░░░ [0;1;31;43m██████████████████▓███▓▓████████████████████████████████▓▓▓[0m
@@ -58,6 +58,4 @@ Write-Host '
 [1;34m▐[0;1;34;44m▒▓[0m  [34m [0;1;34;44m▒▒▓[0;1;34;40m▌[0m [1;34;44m▒▒▓[0;1;34;40m▌[0;1;34;44m▓▒▓[0;1;34;40m▌[0;34m▐[0;1;34;44m▒▒▓[0m  [1;34;44m▓▓▒[0;1;34;40m▌▐[0;1;34;44m▒▒▓[0m  [1;34;44m▒▓▓[0;1;34;40m▌[0m    [1;34m▐[0;1;34;44m▒▓[0m   [1;34;44m▒▓[0;1;34;40m▌[0;34m▐[0;1;34;44m▒▒▓[0m  [1;34;44m▓▓▒[0;1;34;40m▌▐[0;1;34;44m▒▓[0m   [1;34;44m▒▓[0;1;34;40m▌▐[0;1;34;44m▓▒[0;34m▌ [0;1;34m▐[0;1;34;44m▒[0;1;34;40m▌[0m
  [1;34m▀[0;1;34;44m▓[0;1;34;40m▌ ▐[0;1;34;44m▓▓[0;1;34;40m▀[0m  [1;34m▐[0;1;34;44m▓[0;1;34;40m█[0m [1;34m▐[0;1;34;44m▓[0;1;34;40m█ [0m [1;34m▀[0;1;34;44m▓▓█[0m [1;34m▐[0;1;34;44m▓▓[0m  [1;34m▀[0;1;34;44m▓▓█[0m [1;34m▐[0;1;34;44m▓▓[0m      [1;34m▀[0;1;34;44m▓[0;1;34;40m▌ ▐[0;1;34;44m▓▓[0m  [1;34m▀[0;1;34;44m▓▓█[0m [1;34m▐[0;1;34;44m▓▓[0m  [1;34m▀[0;1;34;44m▓[0;1;34;40m▌ ▐[0;1;34;44m▓▓[0m  [1;34m▀[0;1;34;44m▓▓[0m [1;34m▐[0;1;34;44m▓[0m
    [1;34m▀[0;36m■[0;1;34m▀▀[0m    [1;34m ▀[0m   [1;34m▀[0m     [1;34m▀▀▀[0;36m■[0;1;34m▀ [0m    [1;34m▀▀▀[0;36m■[0;1;34m▀[0m         [1;34m▀[0;36m■[0;1;34m▀▀[0m     [1;34m▀▀▀[0;36m■[0;1;34m▀  [0m   [1;34m▀[0;36m■[0;1;34m▀▀[0m     [1;34m▀[0;36m■[0;1;34m▀  [0m
-[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[35m  [0;1;35m3[0;35m.[0;1;30m5 [0;1;35mG[0;35mB [0;1;35mH[0;35mD [0;1;35mO[0;35mN[0;1;30mLINE   [0;1;35m4[0;1;30m [0;1;35mG[0;35mB[0;1;30m [0;1;35mD[0;35mA[0;1;30mT [0;1;35mO[0;35mN[0;1;30mLINE   [0;1;35m2[0;35m*[0;1;30mV34 [0;1;35m2[0;35m8[0;1;30mk8 [0;1;35mN[0;35mO[0;1;30mDES  [0;35m [0;1;35m2[0;35m*[0;1;30m64 [0;1;35mK[0;35mB[0;1;30mIT [0;1;35mI[0;35mS[0;1;30mDN [0;1;35mN[0;35mO[0;1;30mDES[0m
-[1;30m           [0;35m   [0;1;35mS[0;35mT[0;1;30mAFF:[0;35m   [0;1;35mS[0;35mW[0;1;30mAYZE  [0;35m [0;1;35mS[0;35mI[0;1;30mR[0;35m [0;1;35mM[0;35mI[0;1;30mCHAEL   [0;1;35mJ[0;35mO[0;1;30mHN [0;1;35mD[0;35mO[0;1;30mE  [0;35m [0;1;35mS[0;35mT[0;1;30mEVE[0m'
+[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 164883d6134dd7f5fb00c78fdab59e826e1a439c45a61c474d1293abc24c901b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PUBLIC.ANS by Cephyr (cep-0396); released in cep-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -30,6 +30,6 @@ Write-Host '
 [34m    [0;37m■ [0;1;37mP [0mU [1;30mB L I C [0;1;30;47m▓▓▒[0m [1;30;47m██▓[0m [1;30;47m█▓▓[0m [1;30;40m▀▀▀ [0;1;30;47m███[0m [1;30;40m▓[0;1;30;47m██[0m [1;30;47m█▓▓[0m [1;30;40m▀▀▀ ▀▀▀ [0;1;30;47m▓▓▒[0;1;30;40m▀▀▀▀ E N E [0mM [1mY [0m■
     [34m▀▀  ▀ [0;1;34m▀▀ ▀▀▀[0;36m▀ [0;1;30m▓[0;1;30;47m▓[0;1;30;40m▌[0;36m░[0;1;30;46m▓[0;1;30;47m██[0m [1;30;47m███[0m [36m▀▀[0;1;36m▀ [0;1;30m▓[0;1;30;47m█[0;1;30;40m▌ [0;1;30;46m▓[0;1;30;47m██[0m [1;30;47m███[0m [1;36;40m▀[0;36m▀▀[0;1;34m▀▀ ▀ [0;1;30m▓[0;1;30;47m▓[0;1;30;40m▌ [0;1;30;46m▓[0;1;30;47m██[0m [1;34;40m▀▀ ▀▀▀▀ [0;34m▀  ▀▀[0m
                 [35m■  [0;1;30m▀▀▀▀▀  ▀▀[0m       [1;30m▀▀▀▀▀  ▀▀[0m           [1;30m▀▀▀▀▀  [0;35m▀[0m
-        [1;36mP[0;36mU[0;37mB[0;1;30mLiC EnEMY bbS [0;1;34m■ [0;1;30mtONz of 0-7 DAY old PC-WaREZ / X-RAtED / [0mP[36mC[0;1;36mB[0m
-         [1;36mR[0;36mU[0;37mN[0;1;30mNiNG PC-bOARd 15.21 REG [0;1;34m■ [0;1;30mStAff: PUBLiC ENEMY / LUMBERJ[0mA[36mC[0;1;36mK[0m
-            [1;36mm[0;36mG[0;37mE [0;1;30mDiStRO-SitE [0;1;34m■ [0;1;30m3 liNES [0;1;34m■ [0;1;30m1 ANALOG V.FC [0;1;34m■ [0;1;30m2 iSDN 6[0m4[36mk[0;1;36mB[0m'
+        [1;36m [0;36m [0;37m [0;1;30m              [0;1;34m■ [0;1;30m                                         [0m [36m [0;1;36m [0m
+         [1;36m [0;36m [0;37m [0;1;30m                        [0;1;34m■ [0;1;30m                             [0m [36m [0;1;36m [0m
+            [1;36m [0;36m [0;37m  [0;1;30m            [0;1;34m■ [0;1;30m        [0;1;34m■ [0;1;30m              [0;1;34m■ [0;1;30m        [0m [36m [0;1;36m [0m'

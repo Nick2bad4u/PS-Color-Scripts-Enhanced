@@ -5,7 +5,7 @@
 # Source SHA-256: 6e338a66211397f57984c847346b7ba24e0afc544450e69173e594cf927dc84c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-&CL.ANS by avenger (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: double ampersand
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -36,7 +36,7 @@ Write-Host '
 [40m [0;31;40m   ave_[0;37;40m  [0;37;41m▐█▌[0m   [37;41m▐[0;1;37;47m░░[0;41m████[0;31;40m▓ [0;37;40m [0;1;36;40m███[0;31m▓░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░░░[0;30;41m█[0m       [37;40m [0;1;31;40m░▄▌[0;36m▓░[0;37m [0;31m▐[0;37;41m█[0;1;37;47m▄ [0;41m██[0;1;47m░[0;41m▌[0m   [41m▐█▌[0m
                 [41m▐[0;1;47m██░░[0;41m██▄[0;31;40m▄[0;37;40m [0;32;40m▀▀[0;1;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;36;42m▀▀[0;1;36;40m█▄▄▄[0;36m▄▄▄▄▄▌[0;1;36m▀[0m [31m▐[0;1;37;47m▐█▌▄[0;41m██▌[0m
                           [34;40m                            [0m
-[37;40m  [0;1;31;40m     [0m                        [1;31mampersand[0;36m [0;35m+o[0;1;31m [0;35m333  [0m
+[37;40m  [0;1;31;40m     [0m                        [1;31m         [0;36m [0;35m  [0;1;31m [0;35m     [0m
 
 [37m [0;34m--[0;1;37mscroll down[0;34m------------------------------------------------------------------[0m
 
@@ -54,5 +54,5 @@ Write-Host '
                          [31;40m$$$[0;37;40m [0;1;37;40m::$ad²[0m"^     [1;36mba[0;1;37ma[0ma,
                          [30;41m$$[0;31;40m$aa[0;37;40m [0;1;37;40m::[0m          [1;36ml&[0;1;37m&&[0m&
                         [31m:$[0;30;41m$$$[0;31;40m$$aal::  [0m
-                       [31;40m:ll$$[0;30;41m$$$$[0;31;40m$:  [0;37;40m [0;1;33;40mampersand [0;1;37;40m+o eerie[0m
+                       [31;40m     [0;30;41m    [0;31;40m    [0;37;40m [0;1;33;40m          [0;1;37;40m        [0m
                         [31m::[0m'

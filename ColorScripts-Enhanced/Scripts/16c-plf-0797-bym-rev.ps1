@@ -5,7 +5,7 @@
 # Source SHA-256: 894eed384232c8bd22a5ce6d9763bedd018db88ba85a03f0fc0330a7b41ffb95
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM-REV.ANS by big yellow man (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: reverse
 # SAUCE Author: big yellow man
 # SAUCE Group: phobia
@@ -31,6 +31,4 @@ bym[1;34m [0;34m▓[0;1;34;44m▐[0;1;34;40m█▄█[0;1;34;47m▓▓[0;1
 [1;30;47m█▌[0;1;37;47m█[0m▄▄▄ [1;34m [0;34m█[0;1;34m██[0;1;34;46m▌[0;1;34;40m  [0;34m▐[0;1;34;44m▐[0;1;34;46m▌[0;36m▌[0;1;34m [0;1;30m█[0m█▄         ▄▄█[1;47m██▄ [0;1;30;40m▄▄▄▄▄[0m▄▄▄[1;30;47m [0;1;37;47m▄▄[0;1;30;47m ▀[0;1;30;40m▄▄[0m    [34m▀▀[0;1;34m▀[0m   ▄▄▄▄▄   [34m▀▀▀[0;1;34m▀  [0m▄█[1;34m [0m
 [1;30;47m█▄▄▄▄▄[0m▌[1;34m [0;34m▐[0;1;34;44m▐█[0;1;34;46m█[0;36m▌[0;1;34m [0;34m [0;1;34;44m [0;1;34;46m█[0;36m█[0;1;34m [0;1;30m▐[0m▒[1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30;40m▄▄▄[0m▄▄▄▄█[1;47m▀▀▀▀▀[0m██▄▄▄▄█[1;47m▀▀▌[0m
 ───────────── [34m▐[0;1;34;44m▐[0;1;34;46m▌[0;36m▌[0;37m ──────────────────────────────────────────────────────────── [0m
-[37m [0;30;47mR[0;37;40m  e░░ v  [0;1;37;40m [0me [34m█[0;1;34m█[0;1;34;46m [0m  r   s   e    - installation [▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░]
-           [1;34m            [0m
-   (c) xenion 1997 all rights reserved[0m'
+[37m [0;30;47mR[0;37;40m  e░░ v  [0;1;37;40m [0me [34m█[0;1;34m█[0;1;34;46m [0m  r   s   e    - installation [▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░][0m'

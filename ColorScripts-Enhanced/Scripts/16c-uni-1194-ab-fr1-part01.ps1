@@ -5,7 +5,7 @@
 # Source SHA-256: f3a62f9c1ea91351d89b239469ddd9960d25b60322c7c5cbc1963dd5e1529db6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-FR1.ANS by Abomination (Union); released in uni-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Flatlined Reality
 # SAUCE Author: Abomination
 # SAUCE Group: Union
@@ -15,11 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-   [1;30mAbom Presents: How to Ruin a Cool Ansi With Lame Messages About Neurotic..[0m
+   [1;30m                                                                          [0m
                                     [1;30mor[0m
-              [1;30mHow to Ruin a Cool Ansi With A Lame Header and Font[0m
+              [1;30m                                                   [0m
 [1;30m────────────────────────────────┬──────────────────┬────────────────────────────[0m
-               [34m▄▄▄▄░[0m            [1;30m│[0mYawn. I''m going to[1;30m│    october 7th.. 1994..[0m
+               [34m▄▄▄▄░[0m            [1;30m│[0m                  [1;30m│                        [0m
 [1;30m    [0;34m░[0m     [34m▄▄█▓[0;1;34;44m░░░░░[0;34m▄ ░ ▄▄▄[0m      [1;30m│[0mthe aerosmith con-[1;30m│ [0;1;31;42m█[0;1;32;44m▓▒░  [0;34;45m▓▒░[0;35;43m█▓▒░ [0;1;33;43m░▒▓█[0;1;33;47m▓▒░ [0;42m▓▒[0;1;32;42m▒[0;1;32;44m▒[0m
 [1;32;40m    [0;34m▒ ▄▄[0;1;34;44m░░[0;34m▀▀[0;1;34;44m▒░░[0;34m██▄[0;1;34;44m░[0;34m▌░▄[0;1;34;44m░[0;34m▄▄▀▀▄░   [0;1;30m│[0mcert tomorrow!free[1;30m│ [0;1;31;42m▓[0;1;32;45m█[0;1;32;44m▓▒[0;34m▀▀▀[0;35m▀▀▀▀▀[0;33;45m▀[0;33;40m▀▀[0;1;33;40m▀▀█[0;35;41m▓▒░[0;37;41m▒░[0;1;32;46m▓[0;1;32;45m█[0;1;32;44m▓[0m
 [1;32;40m [0;34m░ ▄[0;1;34;44m░[0;34m▀▀[0;1;34;44m▒[0;34m▀[0;1;34;44m░[0;34m▀▀▀▀[0;35m▄▄▄[0;1;35;45m░[0;34m▀▄▀[0;1;34;44m░[0m [35m▄ [0;34m▀▄[0;1;34;44m░░[0m   [1;30;40m│[0mtickets so suck my[1;30m│ [0;1;31;42m▒[0;1;32;42m▓[0;1;32;46m█[0m [32m▄[0;1;31;41m▒[0;33;45m█[0;33;40m▌[0;31;40m▀[0;1;31;41m▒[0;33;45m█[0;1;31;40m▄ [0;32m▄[0;33;45m▒[0;35;41m▒[0;35;40m▌[0;1;32;40m▀[0;1;30;40m▀[0;31m▀[0;37m▀[0;37;41m▓▒[0;1;32;46m▒[0;1;32;42m▓[0;1;32;46m█[0m
@@ -32,7 +32,7 @@ Write-Host '
 [35;40m   ░   [0;1;31;43m▓[0;1;31;40m█▄▀▀▀▀▀▀▀▀▀▄[0;1;31;43m▓▓[0m     [35m░    [0;1;30m│[0miN uNION, mY aLLLL[1;30m│ [0;1;31;46m▒[0;33;41m▓[0;35;42m▓[0m [33;41m▓[0;33;45m░[0;1;35;41m░[0;31m▌ [0;1;34;42m█[0;1;31;41m▓[0;33;45m▓[0;33;40m▌[0;1;34;42m░[0;33;45m█░[0;35;40m▌[0;1;34;40m▄[0;1;34;44m▓[0;1;31;46m▓[0;33m▀ [0;1;33;46m░[0;1;32;46m▒[0;32;46m█[0;35;42m▓[0m
         [1;31;40m▀[0;1;31;43m▓[0;1;31;40m█▄[0;31m▀▓▄[0;1;31;41m░[0;31m▀[0;1;31m▄█[0;1;31;43m▓[0;1;31;40m▀[0m           [1;30;40m│[0mtime friend mD,nC,[1;30m│ [0;1;31;46m░[0;33;41m█[0;35;42m█[0;35;40m▄▄[0;31;40m▄[0;33;40m▄▄[0;35;40m▄▄[0;31;40m▄[0;33;40m▄▄▄[0;1;33;40m▄▄▄▄▄▄[0m▄[1;33;46m▓▒[0;1;32;46m▓[0;32;46m█[0;35;40m█[0m
 [1;34;40mF[0;34mREE[0;1;34mF[0;34mALL  [0;1;31m▀[0;1;31;43m▓▓[0;1;31;40m▄▄▄█[0;1;31;43m▓[0;1;31;40m▀ [0m<-<[1mneurotic[0m>[1;30m│[0mpNAkY,iNkY,KsPiFY,[1;30m│ [0;1;31;46m░[0;1;31;41m▓[0;35;42m▓[0;35;41m▓[0;33;41m░▒[0;35;43m░▒▓█▓▒░[0;33;40m▄[0;1;33;43m░▒▓█[0;1;33;47m▓▒░[0;1;33;46m▒▒[0;1;32;40m█[0;32;46m█[0;35;42m▓[0m
-             [1;31;40m▀▀▀[0m                [1;30;40m│[0mmT,pMK,sEXy,uLyZyZ[1;30m│    crazy mad shit by mt[0m
+             [1;31;40m▀▀▀[0m                [1;30;40m│[0m                  [1;30m│                        [0m
 [1;30m────────────────────────────────┴──────────────────┴────────────────────────────[0m
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒

@@ -5,7 +5,7 @@
 # Source SHA-256: ec0fc35e4f31bfb8c032d087e2bd6af44b2df0a50a594121ade5afdf3004943f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-i.ans by filth (bL0CKtRONiCS); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iCEtR0NiCS!
 # SAUCE Author: filth
 # SAUCE Group: bL0CKtRONiCS
@@ -49,9 +49,8 @@ Write-Host '
             [1;33m▀[0m [1;33m█[0;1;33;43m▓▌[0;1;33;40m▀█[0m░          [33m▓▄▓[0;1;33m███[0;1;37m▌▐▄▀ ▀        ▌▀▀ ▐       ■▀     ▄ ▀■ ▄■▀[0m
             [1;33;43m░░[0;33m▄▄[0;37m [0;33m▀[0;37m            [0;33m▀[0;1;33;43m■▄▀[0;1;33;40m▐█▄▄▄█[0m
              [33m█[0;1;33;43m░[0;1;33;40m█[0m                 [1;33m▀████▀░[0m   [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-             [33m█[0;1;33;43m [0;1;33;40m▌[0m                  [1;33m▓█[0;1;37m█[0m      [1;30m0Ri6iN41 C0PY2i6H7 iNF2iN63M3N7[0m
+             [33m█[0;1;33;43m [0;1;33;40m▌[0m                  [1;33m▓█[0;1;37m█[0m      [1;30m                               [0m
               [33m█[0;1;33;43m▓[0m                 [1;33m▐█[0;1;37m█[0m       [1;30mB20U6H7 70 Y0U BY 7H3  NiN37i35[0m
                [1;33;43m▐[0m                 [1;33m█[0;1;37m█[0m
-                [1;33m▌[0m               [1;33m▐█[0m        [36mf[0;30;46mi[0;36;40mlth[0;1;36;40m [0;1;37;40m* [0;1;34;40mi[0;36mC[0;1;36mE[0;1;37mtR0N[0;1;36mi[0;36mC[0;1;34mS[0;1;36m [0;1;37m* [0;1;36mwinter[0;1;37m *[0;36m [0;1;36m2O22[0m
-                                [1;33m█[0m
-                                       [1;30mgreets from the future to: tempus thales[0m'
+                [1;33m▌[0m               [1;33m▐█[0m        [36m [0;30;46m [0;36;40m   [0;1;36;40m [0;1;37;40m  [0;1;34;40m [0;36m [0;1;36m [0;1;37m    [0;1;36m [0;36m [0;1;34m [0;1;36m [0;1;37m  [0;1;36m      [0;1;37m  [0;36m [0;1;36m    [0m
+                                [1;33m█[0m'

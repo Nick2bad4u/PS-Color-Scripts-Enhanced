@@ -5,7 +5,7 @@
 # Source SHA-256: ae371591df58c05285076f2dd231e7f0857cc3479691293af93e8a57256c3daf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MCACD2MS.ANS by Mysterio (acdu0992); released in acdu0992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 96-143
 # Columns: 1-80
 
@@ -52,9 +52,9 @@ Write-Host '
 [1;30;40m██████████████████▀▀▀▀▀▀▀▀▀▀▀▀[0m                 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀████████████████████[0m
 [1;30;40m█▀[0m                                                                            [1;30;40m▀█[0m
 [1;30;40m▌  [0;1;37;40m▄▄──────[0m───[1m──[0m──────[1m─[0m─────────[1m─[0m──[1;30m──[0m──[1;30m─────[0m─[1;30m───────  ─────[0m      [1;30m───[0m       [1;30m─   ▐[0m
-[1;30m  [0;1;37m▐    [0mMedieval Crypt [1;30m■ [0m[214]·242·2954 [1;30m■ [0mViSiON-X w/ FelonyNET [1;30m■ [0mCCi Node
-  [1m▌[0m      HST Dual Standard [1;30m■ [0m2 Nodes [1;30m■ [0m1.1  Gigs [1;30m■ [0mAPEX HQ [1;30m■ [0mRAZOR 1911
-  ▌       AMX Affiliate Site [1;30m■ [0mAPEX Courier HQ [1;30m■ [0mGen-X Free Tapes Site
-  ▐           LTD Distribution Site [1;30m■ [0mLD Callers Only [1;30m■ [0m96oo+ Only
+[1;30m  [0;1;37m▐    [0m               [1;30m■ [0m               [1;30m■ [0m                      [1;30m■ [0m        
+  [1m▌[0m                        [1;30m■ [0m        [1;30m■ [0m          [1;30m■ [0m        [1;30m■ [0m          
+  ▌                          [1;30m■ [0m                [1;30m■ [0m                     
+  ▐                                 [1;30m■ [0m                [1;30m■ [0m          
    ▀▀──────[1;30m──[0m───[1;30m─────[0m──[1;30m────────[0m─[1;30m─────────[0m─[1;30m──   ─────[0m      [1;30m──[0m          [1;30m─[0m
-                  ([1mc[0m) [1mMy[0mst[1;30merio <[0mA[1mCi[0mD[1;30m> [0;1;37mProd[0muct[1;30mions ■ [0;1;37m1[0m6[1;30m''[0;1;37mo[0m8[1;30m''[0;1;37m9[0m2 [1;30m■[0m'
+                   [1m [0m  [1m  [0m  [1;30m      [0m [1m  [0m [1;30m  [0;1;37m    [0m   [1;30m     ■ [0;1;37m [0m [1;30m [0;1;37m [0m [1;30m [0;1;37m [0m  [1;30m■[0m'

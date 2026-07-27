@@ -5,7 +5,7 @@
 # Source SHA-256: 896391f3021499bfc7ee85d934b87640ca3344e941a2b9aeba6f2e7a8d81dfe0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-FM1.ANS by Spearfx (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fuck Monkey
 # SAUCE Author: Spearfx
 # SAUCE Group: Hieroglyphics
@@ -34,6 +34,4 @@ Write-Host '
                    [31m▀[0;37m   [0;1;33m▓[0m   [1;33m█[0m  [1;31;41m▄▄[0m [1;31;41m▀[0;31m█[0;37m  [0;36m░░▓▓▓██[0;37m  [0;1;31;41m [0m [31m▀ [0;37m [0;1;30;47m▒[0m [1;30m▒[0m   [1;30;47m▓[0m
                        [1;33m░[0m   [1;33;47m▒[0m  [1;31;41m▓▓[0;31m▄▄▄[0;37m  [0;36m░░░░░[0m    [1;31;41m▓█[0;1;31;47m▓[0m  [1;30m▄[0m [1;30m░[0m   [1;30m▄[0m
                            ▄  [31m▀▀[0;37m [0;31m██[0m        [31m░▒▓▓[0;1;31;41m▓▓[0m        ▀
-                       [1;33m░[0m                      [31m▀▀▀[0m
-
-                              [1;35mFUCKMONKEY [0m [1;35m- SPEARFX - HG[0m'
+                       [1;33m░[0m                      [31m▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 64f1708204c58621a3a661f2a26e76f59476f2c2d2c264d521ae5407ef6626ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZI-SF.ANS by Zippo (eph0795); released in eph0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 45-68
 # Columns: 1-80
 
@@ -21,14 +21,14 @@ Write-Host '
  [31m [0;1;31m▄[0;1;31;41m░[0;1;30;41m■[0;1;31;41m░[0;31m [0;33m▐▌[0;31m████[0;32;41m░[0m  [31;40m [0m    [31;40m████[0;32;41m░[0m [31;40m████[0;32;41m░[0m [1;31;41m▓▀[0;31m██[0;32;41m░[0m [31;40m████[0;31;42m▓[0m [1;31;41m▓▀[0;31m██[0;31;42m▓[0m [31;40m████[0;31;42m▓[0m [31;40m████[0;32;41m░[0m [1;31;40m▄▄[0;31m▄▄▄[0m [1;31;41m▒[0;31m███[0;31;42m▓[0m
  [1;31;40m▐[0;1;31;41m▓▒░[0;1;30;41m■[0;31m▌[0;33m▓ [0;31m████[0;32;41m░[0m [33;40m     [0m [31;40m████[0;32;41m░[0m [31;40m████[0;32;41m░[0m [1;31;41m▒[0;31m███[0;32;41m░[0m [31;40m████[0;32;41m░[0m [1;31;41m▒[0;31m██[0;32;41m ░[0m [31;40m███[0;32;41m ░[0;31;40m▄████[0;32;41m▒[0;32;40m [0;1;31;41m▓[0;31m███[0;32;41m░[0m [1;31;41m░[0;31m███[0;32;41m░[0;33;40m [0m
   [31;40m▀[0;1;31;41m░[0;30;41m■[0;31;40m▀[0;33;40m ▓▌[0;31;40m████[0;32;41m▒[0m [1;30;40m      [0;31m████[0;32;41m▒[0m [31;40m████[0;32;41m▒[0;31;40m▀[0;1;31;41m░[0;31m███[0;32;41m▒[0m [31;40m████[0;32;41m▒[0;31;40m▀[0;1;31;41m░[0;31m███[0;32;41m▒[0m [31;40m████[0;32;41m▒[0m [31;40m▀▀▀▀[0;32;40m▀[0m [1;31;41m▒[0;31m███[0;32;41m▒[0;31;40m▀████[0;32;41m▒[0m
-            [32;40m [0m           [32;40m          [0m  [32;40m [0m                               [1;30;40mzi.eph[0m
+            [32;40m [0m           [32;40m          [0m  [32;40m [0m                               [1;30;40m      [0m
                      [1;31;40m┌[0;1;30;40m [0m                                 [1;32;40m┐[0m
-                     [31m│[0;1;30m [0;1;31ms[0;31mt[0;1;30mrawberry fields ■[0m [1;30m7o5∙726∙45[0;32m9[0;1;32m5[0m [32m│[0m
-                     [1;30m│ [0;1;31mE[0;31mu[0;1;30mphoria WHQ² ■ k0de member si[0;32mt[0;1;32me[0;1;30m │[0m
+                     [31m│[0;1;30m [0;1;31m [0;31m [0;1;30m                ■[0m [1;30m          [0;32m [0;1;32m [0m [32m│[0m
+                     [1;30m│ [0;1;31m [0;31m [0;1;30m            ■               [0;32m [0;1;32m [0;1;30m │[0m
             [1;31m──[0;31m─[0;1;31m─[0;31m──[0;1;30m─[0;31m─[0;1;30m─┘ [0;1;31mm[0;31ma[0;1;30myhem site ■ art packs / e-ma[0;32mg[0;1;32ms[0m [1;30m└─[0;32m─[0;1;30m─[0;32m──[0;1;32m─[0;32m─[0;1;32m──[0m
             [1;31m──[0;31m─[0;1;31m─[0;31m──[0;1;30m─[0;31m─[0;1;30m─┐[0m [1;31mr[0;31mu[0;1;30mnning renegade 1o-o5 & fd 2.[0;32mo[0;1;32m2[0;1;30m ┌─[0;32m─[0;1;30m─[0;32m──[0;1;32m─[0;32m─[0;1;32m──[0m
-                     [1;30m│[0m [1;31mr[0;31ma[0;1;30mvenskies net whq ■ local bas[0;32me[0;1;32ms[0m [1;30m│[0m
-                     [31m│[0m [1;31ms[0;31my[0;1;30msop : the f00l [Euphoria/k0d[0;32me[0;1;32m][0m [32m│[0m
+                     [1;30m│[0m [1;31m [0;31m [0;1;30m                 ■          [0;32m [0;1;32m [0m [1;30m│[0m
+                     [31m│[0m [1;31m [0;31m [0;1;30m                            [0;32m [0;1;32m [0m [32m│[0m
                      [1;31m└[0;1;30m [0m                                 [1;32m┘[0m
 [1;30m ───────────────────────────────────────────────────────────────────────────── [0m
    [1ma[0m n o t h e r   a n s i   a d d   b y   z i p p o   o f   e u p h o r i [1ma[0m

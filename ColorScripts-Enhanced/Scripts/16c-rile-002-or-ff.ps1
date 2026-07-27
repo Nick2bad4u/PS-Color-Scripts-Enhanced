@@ -5,7 +5,7 @@
 # Source SHA-256: fd2d7bde80b8a03722e656e6378c058147b27001e1fde7e16dba2cb2e75bb093
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: OR-FF.ANS by outraider (rile); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: funfair
 # SAUCE Author: outraider
 # SAUCE Group: rile
@@ -31,10 +31,4 @@ Write-Host '
 [1;36;46m▐[0;1;37;46m██[0;1;36;46m███▓▓▓[0;36m█████[0;34m█[0;37m  [0;31m█[0;1;33;41m▀[0;1;33;43m▀▓[0;1;33;40m████[0m   [30;44m▓▓[0;37;40m [0;35;40m          [0;30;45m▓[0;1;31;45m░░░[0m             [31m▀[0;33;41m░[0;31;40m▄[0;37;40m [0;31;40m▀▀▐[0;1;33;43m░[0;33;41m▓[0;31;40m▄▄[0;37;40m [0;31;40m▀▀▀[0;30;41m▓▓[0m
 [1;36;46m░▐▀▀▀▀▀▀[0;36m█▌███[0;34;46m░▓[0;30;44m▓[0;37;40m [0;1;33;40m     [0m     [36m▐[0;34m█[0;30;44m▓[0;35;40m     [0m       [36;45m░[0;35;46m▓[0;35;40m█[0m    [35;40m▐[0m        [31;40m ░[0;30;41m▓[0;31;40m▀▀▄▄[0;37;40m  [0;30;41m▓▓[0;31;40m▀▀▀▀[0m
 [37;40m  [0;30;45m▓▓▓▓[0m    [36;40m████[0;34;46m▀▀░[0;36;44m▓[0;36;40m██████[0;34;46m░[0;36;44m▓[0;34;46m▄▄▓[0;35;40m   [0;1;32;40mF[0;36mun[0;1;32mF[0;36mair[0m   [35m▀▀▀▀▀▀▀▀[0m        [31m  [0m   [31m░[0;30;41m▓[0;31;40m▀▀▀▄▄[0m   [31;40m [0;37;40m [0;31;40m [0m
-                [30;44m▓▓[0m          [35;40m [0m    [1;30;40mWAVE[0m                      [31m     [0m       [31m▀▀[0;37m  [0;30;41m▓[0m
-                                                               [31;40m      [0m
-[1;30;40myumm. this ansi won a[0m [1;30mcompo on #compo :)[0m
-[1;30mword to napalm death and txilion, you should have won the compo mates.[0m
-[1;30mthe runner-up was pcarcass.[0m
-outraider
-[1;30mdaniel[0m'
+                [30;44m▓▓[0m          [35;40m [0m    [1;30;40mWAVE[0m                      [31m     [0m       [31m▀▀[0;37m  [0;30;41m▓[0m'

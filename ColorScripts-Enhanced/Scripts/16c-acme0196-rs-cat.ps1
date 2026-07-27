@@ -5,7 +5,7 @@
 # Source SHA-256: 73db7b13b32086340037e29540a142d2aa71a7f1447fb650cd8950643e581a14
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-CAT.ANS by rusty (acme); released in acme0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ansi for cat<acid>
 # SAUCE Author: rusty
 # SAUCE Group: acme
@@ -35,21 +35,19 @@ Write-Host '
 [1;30m▓▀▀▀▀■▀▀▀▀▀■█■▀▀▀■▄[0;1;31m [0;1;30m▄[0;31m▀[0;1;31;41m░▒▓[0;1;31;40m█▄[0m [31m▀▀[0;1;31m▀[0;31m▀[0;37m  [0;1;31m▄████[0;1;31;43m▀▓▒░[0;33m▀▀[0;1;31m [0;1;30m▄▀[0;1;31m    [0;1;30m▓[0;1;31m  [0m  [1;30m▓[0m       [1;30m▓[0m [1;30m▄▓[0m      [1;30m▓[0m   [1;30m▓[0m
 [1;30m ▄▄▄[0m [1;30m▓▄▄▄▄▄▄▓▄▄▄▄▄▓[0m [1;30m▓▄▄[0;1;31m [0;31m▀▀▀[0;1;31;41m░▒[0;31m▄▄[0;1;31m▄[0;31m▄[0;1;31m█[0;1;31;43m▓▒[0;33m▀▀▀▀[0;37m [0;1;30m▄▄▄▀▓▄▄[0m [1;30m▄▄▄▄▄▓[0m [1;30m▄▄▄▄▓[0m [1;30m█▄▄▄▄▄▄▄▄▄█[0m [1;30m▄▄▄▄▄▓[0m
 [1;30m▓▄▄▀▓ ▄            [0m    [1;31m                [0m          [1;31m [0m                       [1;30m▄ ▓▀▄▄▓[0m
-  [1;30m▓[0m [1;30m▒[0m [1;30m░[0m     [1mt[0;1;36mhis truly snafuu..  i don''t know how much more shit[0m [1;36mi[0m [1;36m   [0m   [1;30m░[0m [1;30m▒[0m [1;30m▓[0m
-[1;30m▓[0m [1;30m▒[0m   [1;30m▀[0m     [1mi[0;1;36m can cram into this damn ansi but hell, looks like i got[0m    [1;30m▀[0m   [1;30m▒[0m [1;30m▓[0m
-  [1;30m▓[0m [1;30m▒[0m [1;30m░[0m     [1m3[0;1;36m windows to fill up, may as well use em all...:)[0m            [1;30m░[0m [1;30m▒[0m [1;30m▓[0m
+  [1;30m▓[0m [1;30m▒[0m [1;30m░[0m     [1m [0;1;36m                                                   [0m [1;36m [0m [1;36m   [0m   [1;30m░[0m [1;30m▒[0m [1;30m▓[0m
+[1;30m▓[0m [1;30m▒[0m   [1;30m▀[0m     [1m [0;1;36m                                                        [0m    [1;30m▀[0m   [1;30m▒[0m [1;30m▓[0m
+  [1;30m▓[0m [1;30m▒[0m [1;30m░[0m     [1m [0;1;36m                                                [0m            [1;30m░[0m [1;30m▒[0m [1;30m▓[0m
 [1;30m▓[0m [1;30m▒[0m   [1;30m▀[0m                                                                  [1;30m▀[0m   [1;30m▒[0m [1;30m▓[0m
-  [1;30m▓[0m [1;30m▒[0m [1;30m░[0m     [1mi[0;1;36m''ll make it clear one last time..:)  this is fer [0m           [1;30m░[0m [1;30m▒[0m [1;30m▓[0m
-[1;30m▓[0m [1;30m▒[0m   [1;30m▀[0m     [1mc[0;1;36mat<acid>[0m [1;36mand cat<acid> only...  if you are not him then [0m    [1;30m▀[0m   [1;30m▒[0m [1;30m▓[0m
-  [1;30m▓[0m [1;30m▒[0m [1;30m░[0m     [1md[0;1;36mon''t touch it cause he unbanned me from #acid and i dunno[0m  [1;36m [0;1;30m░[0m [1;30m▒[0m [1;30m▓[0m
-[1;30m▓[0m [1;30m▒[0m   [1;30m▀[0m     [1mw[0;1;36mhy i was banned, but he get the ansi, damnit![0m               [1;30m▀[0m   [1;30m▒[0m [1;30m▓[0m
+  [1;30m▓[0m [1;30m▒[0m [1;30m░[0m     [1m [0;1;36m                                                 [0m           [1;30m░[0m [1;30m▒[0m [1;30m▓[0m
+[1;30m▓[0m [1;30m▒[0m   [1;30m▀[0m     [1m [0;1;36m        [0m [1;36m                                               [0m    [1;30m▀[0m   [1;30m▒[0m [1;30m▓[0m
+  [1;30m▓[0m [1;30m▒[0m [1;30m░[0m     [1m [0;1;36m                                                         [0m  [1;36m [0;1;30m░[0m [1;30m▒[0m [1;30m▓[0m
+[1;30m▓[0m [1;30m▒[0m   [1;30m▀[0m     [1m [0;1;36m                                             [0m               [1;30m▀[0m   [1;30m▒[0m [1;30m▓[0m
   [1;30m▓[0m [1;30m▒[0m [1;30m░[0m                                                                  [1;30m░[0m [1;30m▒[0m [1;30m▓[0m
 [1;30m▓[0m [1;30m▒[0m [1;30m▄[0m [1;30m▀[0m                                                                  [1;30m▀[0m [1;30m▄[0m [1;30m▒[0m [1;30m▓[0m
 [1;30m▒[0m [1;30m▄▄▄██▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀██▄▄▄[0m [1;30m▒[0m
- [1;30m▓▓▀▀ ▀▀[0m [1;30m▀[0m  [36mholy gray border batman! yeah, it''s dark and gritty.. :)[0;37m  [0;1;30m▀[0m [1;30m▀▀[0m [1;30m▀▀▓▓[0m
- [1;30m▀[0m  [36mwow, w/ some work, i could truly be da ansi man.  cut out all this cyan[0;37m [0;1;37m  [0;1;30m▀[0m
+ [1;30m▓▓▀▀ ▀▀[0m [1;30m▀[0m  [36m                                                        [0;37m  [0;1;30m▀[0m [1;30m▀▀[0m [1;30m▀▀▓▓[0m
+ [1;30m▀[0m  [36m                                                                       [0;37m [0;1;37m  [0;1;30m▀[0m
  [1;30m▀▓▄▄▄[0m [1;30m▄▄▄[0m [1;30m▄▄[0m [1;30m▄[0m  [36mtype and use this damn thing!!  for: cat<acid>[0;37m [0;1;30m▄[0m [1;30m▄▄[0m [1;30m▄▄▄[0m [1;30m▄▄▄▓▀[0;1;37m  [0m
     [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m  [1mrs![0m
-[1;30m-[0m-[1m<eof>[0m-[1;30m-[0m
-[1;30mt[0mh[1mis is by rs!<acme>!#$%%^#!  whoa...rusty dr[0mew agai[1;30mn.[0m
-[1;30m-[0m-[1m<eof for real this time.[0m>-[1;30m-[0m'
+[1;30m-[0m-[1m<eof>[0m-[1;30m-[0m'

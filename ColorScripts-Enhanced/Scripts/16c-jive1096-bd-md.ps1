@@ -5,7 +5,7 @@
 # Source SHA-256: f19102cd851ba608a7a9cf500a7aec6b238f82f2e6b5747470c469587b356842
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BD-MD.ANS by Blood (jive1096); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: M.D.
 # SAUCE Author: Blood
 # Lines: 1-23
@@ -32,5 +32,4 @@ Write-Host '
                      [34m▀▀██████████▀ [0;35m█[0;1;35m█▀▀[0;35m▄ ▀[0;1;35m██ [0;34m▀██████████▀▀[0m
                          [34m▀▀████▓░ [0;35m▀[0;1;35m▄▄█████▄▄▀ [0;34m░▓████▀▀[0m
                               [34m▀ [0;35m▄[0;1;35m▄███████████[0;35m▄[0;1;35m▄ [0;34m▀[0m
-                                 [35m▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                         [1;30manse by blood of [0mJiVE [1;30mstudios[0m'
+                                 [35m▀▀▀▀▀▀▀▀▀▀▀▀[0m'

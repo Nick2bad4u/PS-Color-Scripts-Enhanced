@@ -5,7 +5,7 @@
 # Source SHA-256: caa6900fa3bc39e5d12aa7165ebc603d973718e7d2a8e724df8525208679b504
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LD-PM1.ANS by Lord Jazz (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Perpetual Motion
 # SAUCE Author: Lord Jazz
 # SAUCE Group: ACiD Productions
@@ -54,8 +54,8 @@ Write-Host '
 [1;30;40m░ ▓▀▓▀ [0;1;37;47m░ [0;1;30;47m▀▒[0m  [1;30;47m ▀▓░[0m  [1;30;47m░▀░[0;1;37;47m░[0m ░▀▀▀▓▄[1;47m▓▄[0;1;30;47m▀░[0m [1;30;47m░▀▓░[0m [1;30;40m▓▀▀▀▀ [0m▀▀▓[1;30;47m░[0;1;30;40m▒ [0m▀▀▀▓▄[1;30;47m░▀▓░[0m [1;37;47m▒▄[0;1;30;47m▀░[0m  [1;37;47m░▄[0;1;30;47m▀░[0m [1;30;40m▓▀▓▀[0m
 [1;30;40m░ ██[0;1;30;47m▓[0;1;30;40m█ ▄▄▄▄▄[0m      ▀▀▀[1m▀▀[0m     [1;30m░ ░[0m         [1;30m▒ ░[0m       [1;30m░[0m      [1;30m░ ░[0m       ▀[1m▀▀▀[0m▀ [1;30m▓█[0;1;30;47m▓[0;1;30;40m█ ░[0m
 [1;30;40m▒ ▀▓[0;1;30;47m▒▀[0;1;30;40m▓▀▓▀[0;1;30;47m▓[0;1;30;40m▓▒░  [0mperpetual motion [1;30m.. [0;36m1 [0;37m∙ [0;36m4 1 6 [0;37m∙ [0;36m2 6 7 [0;37m∙ [0;36m6 1 3 9  [0;1;30m░▒▓██▀[0;1;30;47m▓▀[0;1;30;40m█▄[0;1;30;47m▒▓[0m [1;30;40m▒[0m
-[1;30;40m▒ ▓ [0mphunktified s''awps [1;30m.. [0;36mSwindler [0;37m[[0;36maCId[0;37m∙[0;36mbLADe[0;37m∙[0;36msTAIn[0;37m] [0;1;30m& [0;36mRavage Bias [0;37m[[0;36mdARk[0;37m]  [0;1;30m▒ ▓[0m
-[1;30m▓ ░ [0msponsoring [1;30m.. [0;36mACiD[0;37m∙[0;36mBLADE[0;37m∙[0;36mDARK[0;37m∙[0;36mTEKLORDZ[0;37m∙[0;36mILLNESS[0;37m∙[0;36mAGORANET[0;37m∙[0;36mSPEEDNET[0;37m∙[0;36mIFXNET [0;1;30m▓ ▒[0m
+[1;30;40m▒ ▓ [0m                   [1;30m   [0;36m         [0;37m [0;36m    [0;37m [0;36m     [0;37m [0;36m     [0;37m  [0;1;30m  [0;36m            [0;37m [0;36m    [0;37m   [0;1;30m▒ ▓[0m
+[1;30m▓ ░ [0m           [1;30m   [0;36m    [0;37m [0;36m     [0;37m [0;36m    [0;37m [0;36m        [0;37m [0;36m       [0;37m [0;36m        [0;37m [0;36m        [0;37m [0;36m       [0;1;30m▓ ▒[0m
 [1;30m▓─░───░────────────────░─░──────────────────────────────────────────░───────░─▓[0m
-[1;30m.. ansi by Lord Jazz<[0;1;32mA[0;32mCID[0;1;30m> .. perpetual motion! .. oneHUNDREDpercentOriginal ..[0m
+[1;30m                     [0;1;32m [0;32m   [0;1;30m                                                      [0m
 [1;30m──────░─────────────────────────────────────────────────────────────░──────────[0m'

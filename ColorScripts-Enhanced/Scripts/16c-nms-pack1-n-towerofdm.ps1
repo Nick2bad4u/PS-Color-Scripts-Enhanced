@@ -5,7 +5,7 @@
 # Source SHA-256: 4de05e1f6d4d4d4fae2eef4e5e6479eddae860e8ebc1d38207aba336c9a4a47e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: n(_towerofdm.ans by nemesulku (acid rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Tower of Darkmoon
 # SAUCE Author: nemesulku
 # SAUCE Group: acid rain
@@ -31,9 +31,9 @@ Write-Host '
                                                         .        [1;30m▐████▌[0m  .
 [1;30m:::::::::::::[0m 2nd floor:[1;36m [0;1;30m■[0;1;36m [0;1;37mCabinet [0;1;30m::::::::::::::::::::::::::::: ▄█▓██ ::::::::[0m
                      [1;30m.[0m   [1;30m■[0;1;36m [0;1;37mBedroom[0m          [1m.[0m                     [1;30m████ [0m   .
-         [1;30m.[0m               [1;30m■[0;1;36m [0;1;37mArt Gallery  [0;1;30m.[0m       [1m.[0m       .      [1;30m  [0m [1;30m██[0;1;33m░[0;1;30m█[0m       .
+         [1;30m [0m               [1;30m■[0;1;36m [0;1;37m             [0;1;30m [0m       [1m [0m              [1;30m  [0m [1;30m██[0;1;33m░[0;1;30m█[0m        
                    [1m.[0m     [1;30m■[0;1;36m [0;1;37mTea Room[0m       .                [1m.[0m      [1;30m████[0m   [1m.[0m
-[1;30m.[0m            [1;30m.[0m           [1;30m■[0;1;36m [0;1;37mHearthroom [0;1;30m.[0m                        .  [1;30m██▓█ [0m      [1;30m [0m.
+[1;30m [0m            [1;30m [0m           [1;30m■[0;1;36m [0;1;37m           [0;1;30m [0m                           [1;30m██▓█ [0m      [1;30m [0m 
                      .   [1;30m■[0;1;36m [0;1;37mTearoom[0m        [1m.[0m       [1m.[0m              [1;30m ████[0m
                                       [1m.[0m                 .        [1;30m▐▓███▌[0m   [1;30m [0;1;37m.[0m
 [1;30m::::::::::::: [0m1st floor:[1;36m [0;1;30m■[0;1;36m [0;1;37mMain Exit [0;1;30m::::::::::::::::::::::::::::▐███▓▌ :::::::[0m

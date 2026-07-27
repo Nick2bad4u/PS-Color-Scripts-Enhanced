@@ -5,7 +5,7 @@
 # Source SHA-256: 7c77527450015ab85cbebe944eeb29b04874b9887b9b32a9cda55f71c6e90cb0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BM!WC.ANS by blIndman (READ THE INI FILE); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Wicked City
 # SAUCE Author: blIndman
 # SAUCE Group: READ THE INI FILE
@@ -35,7 +35,7 @@ Write-Host '
 [1;30;40mo   [0;33m▀[0;30;43m▓[0;37;40m [0;36;40m▀[0;33;40m▄[0;30;43m▒░░ ▒[0;33;40m▀▀▀▀▀ [0;30;43m██▓▓▒░▒▒░░░ [0;33;40m▄▄▄▄▄▄    ▀▀▀▀▀[0;33;43m  [0;30;43m░░░   ░▒▓▓[0;33;40m▄[0;36;40m▀[0;1;36;40m▄█▄██▀ █▀[0;33m▄[0;1;36m▀[0;1;36;46m▓[0;1;36;40m▌[0;33m▄[0;33;43m [0;30;43m░░▒▓[0m
 [1;30;40mn / !bm [0;33m▀▀▀[0m     [30;43m▓▓▓▓▒▒▒░▒▒░░░      ░░░▒▒[0;33;40m▄▄▄▄▄▄[0m      [33;40m▀▀[0;30;43m░░░▒▓▓▓▓[0;37;40m [0;1;36;40m▀█ [0;33m▄▌▄[0;30;43m░▒[0;33;40m▄[0;1;36;40m▀[0;33m▄[0;33;43m [0;30;43m░░▒▓█[0m
 [1;30;40m▄▄▄[0m▄[1;30m▄[0m▄[1m▄▄[0m▄[1m▄▄[0m▄[1m▄[0m▄▄[1;30m▄▄[0m▄▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄[1;30m▄[0m▄[1m▄▄[0m▄[1m▄[0m▄▄[1m▄▄[0m▄▄[1m▄[0m▄[1;30m▄▄▄[0m▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄[0m
-[1;30mpic from breed (tm)[0m
+[1;30m                   [0m
            [1m▄[0m▄[1m▄[0m▄     [1;30m▄▄▄▄ ▄▄▄▀▀▀▄▄▄▄▄    ▄▄▄▄▄▀▀▀▀▀▄  ▄▄▄▄▄▄    ▄▄▄▄▄▄[0m
         [1m▄▄▀ [0;1;36m▄▄ [0;1;37;47m▀[0m [1;30m▄[0m▄[1;30m▀ [0;1;36m▄▄ [0;1;30m▀ [0;1;36m▄▄▄▀ ▄▄▄▄ [0;1;30m▀▄▄▀ [0;1;36m▄▄  ■▀[0;1;36;46m██[0;1;36;40m▄ [0;1;30;40m▀▀ [0;1;36;40m▄▄▄▄ [0;1;30;40m▀▄▄▀ [0;1;36;40m▄▄▄▄ [0;1;30;40m▀▄[0m
       [1m▄▀ [0;1;36m▄▄[0;1;36;46m██▓[0m [1;30m█[0m▀ [1;36m▄▄[0;1;36;46m██▓[0m [1;36m▄[0;1;36;46m██▓[0m [1;36m▄[0;1;36;46m██[0;1;36;40m▀▀[0;1;36;46m█▓[0;1;36;40m▄ ▄▄[0;1;36;46m██▓[0m    [1;36m▐[0;1;36;46m█▓▒[0m [1;36m▄[0;1;36;46m██[0;1;36;40m▀▀[0;1;36;46m██[0;1;36;40m▄  ▄[0;1;36;46m█▓[0;1;36;40m▀▀[0;1;36;46m██[0;1;36;40m▄ [0;1;30;40m█[0m
@@ -60,8 +60,4 @@ Write-Host '
                    [1;30;40m▐▌[0;36m▐[0;36;46m [0;1;30;46m░▒[0m   [36m▄[0;1;30;46m▒░[0;36m▌ [0;1;30m▄▄   [0;36m▐[0;36;46m [0;1;30;46m░[0;36m▌ ▐[0;1;30;46m░[0;1;36;46m░ [0m [36m▐[0;36;46m [0;1;30;46m░▒[0m  [36m▐[0;1;30;46m░ [0;36m▌[0;1;37m▐[0m▌
                     [1;30m█ [0;36m▀[0;1;30;46m▒▓█[0;1;30;40m▄[0;1;30;46m█▓▒[0;36m▀[0;1;30mbm▐[0;1;30;46m▒▓[0m [1;30m█ [0;36m▀[0;1;30;46m▒▓[0;1;30;40m▄[0;1;30;46m▓▒░[0;36m▌  ▀[0;1;30;46m▒▓▓[0;1;30;40m▄[0;1;30;46m▓▒░[0m [1;47m▄[0m
                      [1;30m▀▄ ▀▀▀▀ ▄ ▀▄[0;1;30;46m▓[0;1;30;40m▀ ▄▀▀▄ ▀▀▀[0;36m▀▀ [0;1;30m▄▀[0m▄[1;30m▄ ▀▀[0;36m▀▀ [0;1;37m▄▀[0m
-                       [1;30m▀▀▀▀▀▀ ▀▄▄▄▄▀    ▀▀▀▀▀▀▀    ▀[0m▀[1m▀[0m▀[1m▀▀[0m
-
-                           [1;30mstaff \ boozer / lizzard \[0m
-        [1;30m3.5 gig of pc games/hq porno/hack/phreaks/drugs/virus/music[0m
-                   [1;30mthe Swedish infomania distrobution site[0m'
+                       [1;30m▀▀▀▀▀▀ ▀▄▄▄▄▀    ▀▀▀▀▀▀▀    ▀[0m▀[1m▀[0m▀[1m▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 21d55580f086b4989bbd7578d181fc95c81d6c564c481e990ed07dbe499e6d16
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-NJ.ANS by Spear + The Knight (Fuel/Blend); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Neo Jello
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Fuel/Blend
@@ -42,12 +42,4 @@ Write-Host '
 [37m [0;32m▌[0m     [32m░[0;1;32;42m▐[0;32m░[0m    [32m▀[0;1;32;42m▀[0;32m▀[0m   [1;31m    [0;33m▀[0;1;31m▀▀▀▀▀[0;33m▀[0;1;31m    [0m [1;32m [0;32m▀[0m      [1;32;42m ▀[0;1;32;40m█[0m         [1;32;42m ▀[0;1;32;40m▌▌[0;32m▀[0m
       [32m [0;1;32;42m░▀[0;32m▌[0m                                   [32m▀[0m           [32m▀[0;1;32m [0;32m▌[0m
         [32m▀[0m                                                 [32m▄[0;1;32;42m [0;1;32;40m▄[0m
- [1;32m [0;1;37mthe[0;1;32m [0;1;37mknight[0;1;32m [0mof [1mfuel[0m did outlines + shading + green shit   [32m▀[0m
-[37m  [0;1;37mspear[0m of [1mblend[0m did hair shading and the blue logo
-
-
-: joint matrix, pic, login, menu, ......unggh.....*thing* ...for neo jello ....
-: uhm, this turned out to be a joint of some sort for a guy i met on irc, that
-: was like, worshipping me... weird.. first time that ever happened to me.
-: here you go mrplastik, you only asked for the simplest of things, a logo,
-: which is way cooler than other -draw-a-pic-for-my-board- people do.[0m'
+ [1;32m [0;1;37m   [0;1;32m [0;1;37m      [0;1;32m [0m   [1m    [0m                                       [32m▀[0m'

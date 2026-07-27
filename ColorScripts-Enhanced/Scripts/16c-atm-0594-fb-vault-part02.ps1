@@ -5,7 +5,7 @@
 # Source SHA-256: 22d6a07094de8fe918444c745b367a800311421e6aacdd37c9f5fcfc3ff4d876
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FB-VAULT.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 46-89
 # Columns: 1-80
 
@@ -43,14 +43,13 @@ Write-Host '
              [1;30;40m▐[0;1;30;47m█▄[0;1;30;40m▌▐[0;1;30;47m▄█[0;1;30;40m▌ ▐██[0;1;30;47m▀[0;1;30;40m█▌  ▐██[0;1;30;47m▀[0;1;30;40m█▌ ▐[0;1;30;47m▀▄[0;1;30;40m▌▐[0;1;30;47m▀[0;1;30;40m█▌ ▐█[0;1;30;47m▄█[0;1;30;40m█▌ █[0;1;30;47m▄[0;1;30;40m██ ▐█[0;1;30;47m█▀[0;1;30;40m█▌[0m
               [1;30;40m▀[0;1;30;47m█▀[0;1;30;40m█[0;1;30;47m█[0;1;30;40m▀  ████▀    ▀████  ▀[0;1;30;47m▀[0;1;30;40m███▀  ███[0;1;30;47m▀[0;1;30;40m▀▄[0;1;30;47m▀[0;1;30;40m███▌ ██[0;1;30;47m▀[0;1;30;40m█▀[0m
                 [1;30;40m▀▀[0m     [1;30;40m▀▀[0m        [1;30;40m▀▀[0m     [1;30;40m▀▀[0m     [1;30;40m▀▀ ▀▀▀▀▀    ▀▀[0m
-                                   [1;37;40mT[0mh[1;30me [0;1;37mV[0ma[1;30mult[0m
+                                   [1;37;40m [0m [1;30m  [0;1;37m [0m [1;30m   [0m
                         [1;36mN[0;1;34m1[0;34m: [0;1;37m1[0;1;30m-[0;1;37m5[0mO[1;30m3-[0;1;37m6[0m4[1;30m1-[0;1;37m5[0m9[1;30m2O ([0;1;34m9[0;34m6O[0;1;30mO-[0;1;34m1[0;34m4.4[0;1;30mk)[0m
                         [1;36mN[0;1;34m2[0;34m: [0;1;37m1[0;1;30m-[0;1;37m5[0mO[1;30m3-[0;1;37m6[0m7[1;30m1-[0;1;37m9[0m3[1;30m15 ([0;1;34m9[0;34m6O[0;1;30mO-[0;1;34m2[0;34m1.6[0;1;30mk)[0m
                         [1;36mN[0;1;34m3[0;34m: [0;1;37m1[0;1;30m-[0;1;37mB[0mE[1;30mH-[0;1;37mE[0mR[1;30mE-[0;1;37mS[0mO[1;30mON ([0;34m??????????[0;1;30m)[0m
                                      [1;33m1 [0;1;30mG[0mi[1;33mg[0m
-                                   [1;33mA[0mm[1;30miga/I[0mB[1;33mM[0m
-                                 [1;33mD[0me[1;30mlerium US[0mH[1;33mQ[0m
-                                    [1;33mP[0mo[1;30mW W[0mH[1;33mQ[0m
-                                [1;33mT[0mr[1;30manquility W[0mH[1;33mQ[0m
-                                  [1;37m/[0;1;33m┤[0;1;31mT[0;31mOMi[0;1;30mC Site[0m
-                                   [35mMAU[0;1;35mi [0;1;30mSite[0m'
+                                   [1;33m [0m [1;30m     [0m [1;33m [0m
+                                 [1;33m [0m [1;30m         [0m [1;33m [0m
+                                    [1;33m [0m [1;30m   [0m [1;33m [0m
+                                [1;33m [0m [1;30m           [0m [1;33m [0m
+                                  [1;37m [0;1;33m┤[0;1;31m [0;31m   [0;1;30m      [0m'

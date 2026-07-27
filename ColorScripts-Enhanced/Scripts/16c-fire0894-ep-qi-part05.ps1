@@ -5,7 +5,7 @@
 # Source SHA-256: 7cc6bad03a5f53cbe840724824477713a8be03d26e25d7809d804f7f74ec37d2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EP-QI.ANS by Epitaph (fire0894); released in fire0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 170-202
 # Columns: 1-80
 
@@ -39,7 +39,5 @@ Write-Host '
 
 
 
-                              [1;30m.·[0;1;37mQ[0mu[1;30mantum [0mI[1mn[0mv[1;30masion·.[0m
-                              [1;30m.·[0m4[1mo[0m4[1;30m·.·928[0m·[1m.[0m·[1;30m1925·.[0m
-                             [1;30m.·Sy[0ms[1mO[0mp[1;30m: Blac[0mk R[1;30mazor·.[0m
-                              [1;30m.·An[0ms[1mi [0;1;30mby: ep[0mi[1mT[0ma[1;30mph·.[0m'
+                              [1;30m  [0;1;37m [0m [1;30m      [0m [1m [0m [1;30m       [0m
+                              [1;30m.·[0m4[1mo[0m4[1;30m·.·928[0m·[1m.[0m·[1;30m1925·.[0m'

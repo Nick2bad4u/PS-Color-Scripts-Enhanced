@@ -5,7 +5,7 @@
 # Source SHA-256: 172d728b3f45e3fa3a64397b9a5553e15eaaa92357487785eb53e7bdde979e94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cat-SKULLVORTEX.ANS by Knocturnal + Catbones (ACiD Productions); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Skull Vortex
 # SAUCE Author: Catbones
 # SAUCE Group: ACiD Productions
@@ -60,7 +60,4 @@ Write-Host '
 [31m██▓▓▒░ ░░ [0;1;31;41m▒▓[0;31m█▒▒▒░░░░   ░░▓██▒░ ░[0;37m▀[0;37;47m [0;1;30;47m░░▒▒▓[0;1;30;40m██▓▓▓▓████▀  [0;31m▀ ▄▀ ▀▄▀ █▄██▓▓▒░░░░░░▓░░░░░[0m
 [31m█▒▒▒▒░░░░ [0;1;31;41m▒▓[0;31m█▒░░░░[0;37m      [0;31m░▒██░[0;37m      ▀▀[0;37;47m [0;1;30;47m░▒▓[0;1;30;40m█[0m░[1;30m█▀▀▀   [0;31m■ ▀▄[0;30m█[0;31m▄▀▄▀██▓▓▓▒░░░░░░░░░░░░░░░[0m
 [31m▓[0;37m         [0;1;31;41m░▓[0;31m█[0;37m            [0;1;31;41m▒░[0;31m█[0;37m                  [0;31m▄ ▀ ▄ ▀▄ ▄▀█▓▓▓▒░░░░░░░░░░░░░░░░░░[0m
-[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-
-[30m [0;31mANSi by Catbones[0;34m<[0;31mAC[0;1;31mi[0;31mD[0;34m>[0;37m                                           [0;31mNovember 2013[0m
-[34m [0;31mLogo by Catbones [0;1;30m+[0;31m K1[0;37m                                   [0;31mblocktronics[0;34m.[0;31macid[0;34m.[0;31mtrip[0m'
+[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m'

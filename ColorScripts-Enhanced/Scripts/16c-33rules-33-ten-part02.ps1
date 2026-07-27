@@ -5,7 +5,7 @@
 # Source SHA-256: 990d44541b5c773a3af1524ba5218d198ac664eb3db5ae43491279d25fc08138
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 33-TEN.ANS by Mistigris 11/94 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Eternal Nightmare
 # SAUCE Author: Mistigris 11/94
 # SAUCE Group: Eerie
@@ -62,6 +62,4 @@ Write-Host '
 
          [1;30;40mt  [0;31mh  [0;33me[0m     [36me  t  e  r  n  a  l[0m     [36mn  i  g  h  t  m  [0;33ma  [0;31mr  [0;1;30me[0m
                     [1;30m1  [0;31m(  [0;33m5  [0;36m1  4  )  w  h  o  -  c  [0;33ma  [0;31mr  [0;1;30me[0m
-[1;30m   s  [0;31my  [0;33ms  [0;36mo  p  :[0m     [36mo  g  r  e[0m     [36m(  u  n  i  o  n[0m     [36ml  o  s  [0;33me  [0;31mr  [0;1;30m=)[0m
-
-[1;30m100% original bitch![0m                [1;30maphex who?[0m                 [1;30meerie[mistigris][0m'
+[1;30m   s  [0;31my  [0;33ms  [0;36mo  p  :[0m     [36mo  g  r  e[0m     [36m(  u  n  i  o  n[0m     [36ml  o  s  [0;33me  [0;31mr  [0;1;30m=)[0m'

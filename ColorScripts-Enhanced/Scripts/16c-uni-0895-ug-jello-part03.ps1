@@ -5,7 +5,7 @@
 # Source SHA-256: 2059673ff336de477774332b663d98981846588a3c2f92fd5d543594d53dd180
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UG-JELLO.ANS by Number 28 + Peak Velocity (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Jello Insanity
 # SAUCE Author: Union Group Prod.
 # SAUCE Group: Union
@@ -55,8 +55,4 @@ Write-Host '
 [1;30m████████████████████████▄█████████████████████████████████████████████▀▀ ▄▄████[0m
 [1;30m█████████████████████████████▄▀▀██████████████████████████████████▀▀░▄▄████████[0m
 [1;30m██████████████████████████████████▄░▀▀▓███████████████████████▀▀▄▄█████████████[0m
-[1;30m------------------------------------------------------------------------------- [0m
-
-      [1mjello insanity[0m [1;34m-[0m so outstandingly ereet, we don''t even need a font.
-
-           [1;30m   ansi by pv, with some shading and other junk by #28.[0m'
+[1;30m------------------------------------------------------------------------------- [0m'

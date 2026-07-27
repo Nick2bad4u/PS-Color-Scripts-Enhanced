@@ -5,7 +5,7 @@
 # Source SHA-256: 9fedbb2821abe3d321f932a31371341be9a5105e552ae46d376dbe1db48e222e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-GROX.ANS by Trip (thst0895); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -53,7 +53,4 @@ Write-Host '
 [1;30m█████████████▓▒░    ▐[0m░░░░░[1;30;47m▓▒░░░[0m██████[1;30;47m░░░░▒▒▓[0m░[1;30;47m▓[0m░░░▒▒[1;30;47m▓▓▒▒░[0m    [1;30m░▒▓█████████████████[0m
 [1;30m██████████████▓▒░    [0m░░░░[1;30;47m▓▒░░░[0m████████[1;30;47m░░░░▒▒▓[0m░░░░▒░[1;30;47m▓▒▒[0m     [1;30m░▒▓██████████████████[0m
 [1;30m███████████████▓▒░   ▐[0m░░░░[1;30;47m▒▒░░░[0m██████[1;30;47m░░░░▒▒▓[0m░░░░▒[1;30;47m▓▓▓▒[0m     [1;30m░▒▓███████████████████[0m
-[1;30m███████████████▓▒░[0m         ▀▀▀▀▀▀▀▀▀▀▀                   [1;30m░▒▓████████████████████[0m
-
-
- Man, ona deze dayz I gotta start puttin bodiez on theze headz...[0m'
+[1;30m███████████████▓▒░[0m         ▀▀▀▀▀▀▀▀▀▀▀                   [1;30m░▒▓████████████████████[0m'

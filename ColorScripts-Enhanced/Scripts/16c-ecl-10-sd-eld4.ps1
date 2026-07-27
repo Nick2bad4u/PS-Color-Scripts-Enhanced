@@ -5,7 +5,7 @@
 # Source SHA-256: 171b4c67b2db35dd3637980e31ffa424d7cc42cb6dabf72b1ac26d8d31fab6db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-ELD4.ANS by sirDEAD (awe); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eldorado!
 # SAUCE Author: sirDEAD
 # SAUCE Group: awe
@@ -30,6 +30,4 @@ Write-Host '
 [1;33m   [0;1;30m   [0;35m▀▀▐[0;1;35;45m░[0;35m▄▄▄[0;1;33m [0;33m▀▀▀████▄▄▄▄▄[0m      [35m███[0;37m [0;33m▓███▓[0;30;43m░[0;37;40m [0;35;40m▀█▄▄▄[0;37;40m [0;33;40m▀▀▀████▄▄▄▄▄[0;37;40m  [0;30;43m░[0;33;40m▓████[0;37;40m [0;35;40m▀[0;1;35;45m░▓▓▓▓[0;35m▌[0m
 [1;33m  [0;1;30m ░░▓▓▄[0m▄[1;33m [0;35m▀[0;1;35;45m░░░░░[0;35m▄▄▄▄[0;37m [0;33m▀▀▀▀▀[0;37m [0;35m░░[0;30;45m▓[0;35;40m░[0;30;45m▓░[0;35;40m██[0;37;40m [0;33;40m▀▀▀▀▀▀▀[0;37;40m [0;35;40m██[0;35;47m▓[0;37;45m░[0;35;47m▓[0;35;40m██▄▄▄▄[0;37;40m [0;33;40m▀▀▀▀▀[0;37;40m  [0;33;40m▀▀▀▀▀▀▀[0;37;40m [0;1;35;45m░░░░[0;35m▀[0m
 [1;33m     [0;1;30m░░[0;30;47m▓[0;1;30;47m▓[0;1;30;40m▌[0;1;33;40m [0;35m▐[0;1;35;45m░░░░░░░░[0;35m█▌▌▐▌▌▐▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;35;40m▓█████████████[0;37;45m░[0;35;47m░[0;37;45m▓[0;35;47m░▓[0;37;45m░[0;35;47m▓[0;35;40m███████████[0;1;35;45m░[0;35m██[0;1;35;45m░░░░░[0;35m▀▀▀[0m
-[1;33m       [0;1;30m░░[0;1;33m  [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▄▄▄[0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;33m       [0m    --[35m [0;37msirdeath ([0;1;37mAWE[0m) 1996      [32m    [0m        [1;30m [0m
-       [35m          [0m'
+[1;33m       [0;1;30m░░[0;1;33m  [0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▄▄▄[0;35m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

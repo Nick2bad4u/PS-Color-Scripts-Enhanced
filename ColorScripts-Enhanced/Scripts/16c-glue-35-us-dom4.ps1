@@ -5,7 +5,7 @@
 # Source SHA-256: 628b697263c35d4f37e1fa104315b406b8c5e957031d7640d4bf50d5326b6912
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DOM4.ANS by Grymmjack + Liquid (GLUE); released in glue-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the dominion
 # SAUCE Author: liquid(lQ)&grymmjack
 # SAUCE Group: GLUE
@@ -28,9 +28,4 @@ Write-Host '
 [37;40m  [0;1;36;40m  [0;1;31;40m  ▐▌[0m                                                                  [1;31m  ▐▌[0m
 
 
-[1;30m-8<----------------------------------------------------------------------------[0m
-
-this logo was a product of a virtual joint done by liquid and i. he did the
-most part of the logo and i had just basically touched up what i thought was
-not ''cool'' looking to me.. he did most of it though. phear the bottom of that n
-and the purple stuff he drew =][0m'
+[1;30m-8<----------------------------------------------------------------------------[0m'

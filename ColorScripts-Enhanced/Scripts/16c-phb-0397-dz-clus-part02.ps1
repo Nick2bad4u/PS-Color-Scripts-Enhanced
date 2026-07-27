@@ -5,7 +5,7 @@
 # Source SHA-256: d726f1943559772bbc88874fe64307d065dc8ea37df992c8037d0f7cbfe8238d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DZ!-CLUS.ANS by dezeit (phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: clustah
 # SAUCE Author: dezeit
 # SAUCE Group: phobia
@@ -25,20 +25,19 @@ Write-Host '
               [32m  [0;37m [0;1;32m,d$[0;32m$$$$$$$$$$$[0;1;31m [0;31m,s$$$ $$$$$ ,s$$$ $$$$$[0;32m $$$$$$$$$$$$s  [0m
               [32m [0;1;32m,d$[0;32m$$$$  $$  $$$[0;1;31m [0;31mi$$$$ $$$$$ i$$$$ $$$$i[0;32m $$$ [0;1;32m [0;32m$$  $$$$$s [0m
              [1;32m,d$[0;32m$$$$$$$$$$$$$$$,[0;31m`²dS$$$$$$$ `²d½$$$½b²''[0;32m,$$$$$$$$$$$$$$$$s,[0m
-       [32m [0;1;32m,s$$$$$[0;32m$$$$$ [0;1;31moOps![0;32m d$$$$$ssssssssssssssssssssss$$$$ [0;1;31maSCii[0;32m d$$$$$$$$s,  [0m
+       [32m [0;1;32m       [0;32m      [0;1;31m     [0;32m                                  [0;1;31m     [0;32m              [0m
        [1;32msS$[0;32m$$$$$$$b$d²²²²²²²²²²$$$²²²²²²²²²$$$²²²²²²²²²$$$²²²²²²²²²''$$$$$$$$$$$[0;1;32ms[0m
        [1;32m`²S$[0;32m$$$$S$$d''[0;1;31m.gS7"""3Sy,[0;32m"[0;1;31m.gS7"""3Sy,[0;32m"[0;1;31m.gS7"""3Sy,[0;32m"[0;1;31m.gS7"""$3Ss,[0;1;37m [0;32m$$$$$$[0;1;32m$$P[0;32m [0m
        [32m   [0;1;32m`²S$d[0;32m$$$ [0;1;31mi$$$[0;1;32m ;l;[0;31m [0;1;31m$$$l$$$[0;31m [0;1;32m;l;[0;31m [0;1;31m$$$l$$$[0;31m [0;1;32m;l;[0;31m [0;1;31m$$$,$$$[0;31m [0;1;32m;$;[0;32m;;;;;d$S$$$$[0;1;32m$P[0m
            [1;32m.,s$[0;32m$$$ [0;1;31m²²²²[0;31m [0;1;32ms$s[0;31m [0;1;31m²²²^²²² [0;1;32ms$s[0;1;31m ²²²^²²² [0;1;32ms$s[0;1;31m ²²²^²²²²²²²²$$$$ [0;32m$$S$$$$[0;1;32mb,[0m
        [32m  [0;1;32m,d$[0;32m$$$$S$ [0;31m$$$$ [0;32m;K;[0;31m $$$$$$$ [0;32m;K;[0;31m $$$$$$$ [0;32m;K;[0;31m $$$$$$$ [0;32m;$;[0;31m $$$$[0;1;31m [0;32m$$$$$$$$$[0;1;32mb[0m
        [32m  [0;1;32m$$$[0;32m$$$S$$s.[0;31m`²Sbs..sdSb''`²Sbs..sdSb''$$$a..,sdS''[0;32m;[0;31m`²Sbs..sdSb''[0;32m,$$$$$$$$$$[0m
-       [32m  [0;1;32m`S$$$$[0;32m$$$$$$ssssssssssS$Ssssssssss[0;37m [0;31m$$$[0;1;37m [0;32mssssssS$Sssssssssss;$$$$$$$$$S[0;1;32m²[0m
+       [32m  [0;1;32m      [0;32m                            [0;37m [0;31m   [0;1;37m [0;32m                              [0;1;32m [0m
     [32m   [0m    [1;32m`"²4$$$[0;32m$$$$$$$$$$$$$$$$$d[0;1;32m²$[0;32m$$$$dsssssb$[0;1;32m$$$$$[0;32m$$$$$$$$$$$$$$$$$$S²²''[0m
                   [1;32m`"""²²d[0;32m$S$$$$$P²"[0;37m [0;32m [0;1;32m`7$[0;32m$S$$$$$$[0;1;32m$$$$4²$$[0;32m$$$$$$$S$$$$$P"''[0m
                                        [1;32m`²S$$$$$$$7²''[0m [32m [0;1;32m`$$$[0;32m$$$$$$S$S"'' [0m
                                         [32m  [0;1;32m`"²O²"''[0m      [1;32m`$$$$$S7²"''[0m
                                                          [1;32m`"²"''[0m
 
-[1;34m  ,$$b,[0m   [1;34m,$$b,[0m   [1;34m,$$b,[0m   [1;34m,$b Title: Serial Ascii  d$b,[0m   [1;34m,$$b,[0m   [1;34m,$$b,[0m   [1;34m,$$b,[0m
-[1;34m,d$'' `$b,d$'' `$b,d$'' `$b,d$''  Requested: NO[0m          [1;34m`$b,d$'' `$b,d$'' `$b,d$'' `$b[0m
-'
+[1;34m       [0m   [1;34m     [0m   [1;34m     [0m   [1;34m                             [0m   [1;34m     [0m   [1;34m     [0m   [1;34m     [0m
+[1;34m,d$'' `$b,d$'' `$b,d$'' `$b,d$''  Requested: NO[0m          [1;34m`$b,d$'' `$b,d$'' `$b,d$'' `$b[0m'

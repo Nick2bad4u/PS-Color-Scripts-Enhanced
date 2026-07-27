@@ -5,7 +5,7 @@
 # Source SHA-256: 30cd5f3b6ffcd13abb3a4eccc14eac485f9c164fb449a6707070d653c2253a0e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DH-ST.ANS by Donut Hole (Fire); released in fire1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sarcastic Toaster
 # SAUCE Author: Donut Hole
 # SAUCE Group: Fire
@@ -48,5 +48,5 @@ Write-Host '
  [1;30;40m   ▀▄▄▄▄▄▄▀▀▀[0m [1;30;40marcastic[0m    [1;30;40m▄▄▄▀[0m [1;30moaster [0;33m  [0m [1;30m▀[0m    [33m▀█▓▄▌[0m  [1;31;43m▓▒░  [0;1;30;43m▓▄▄ ▀[0;1;31;43m [0;1;30;43m▓ [0;1;31;43m  [0;1;30;43m▓[0;1;31;43m [0;1;30;43m▓▄ [0;1;31;43m   [0;1;30;43m░▒▓[0m
                       [33m  [0m                [33m [0m        [33m▀▀[0m   [1;31;43m▓▒░  [0;1;30;43m▒[0;1;31;43m  [0;30;43m [0;1;30;43m▒[0;1;31;43m [0;1;30;43m▒ ▒▒ [0;1;31;43m [0;1;30;43m▒  [0;33m█[0;1;31;43m  [0;1;30;43m░▒▓[0m
 ACE WHQ · MUM WHQ · Krasch WHQ · Mistigris WHQ ·      [1;31;43m▓▒░  [0;1;30;43m░[0;1;31;43m   [0;1;30;43m░[0;1;31;43m [0;1;30;43m░  [0;1;31;43m [0;1;30;43m░ ▒▄▄▄[0;1;31;43m [0;33m█[0;1;30;43m░▒▓[0m
-    Relic Member Board · Fire Distro Site ·           [1;31;43m▓▒░                    [0;1;30;43m░▒▓[0m
-              ÜRS MEmber Board                        [1;31;43m▓▒░ [0;30;43mANSi by Donut Hole[0;1;30;43m ░▒▓[0m'
+                                                      [1;31;43m▓▒░                    [0;1;30;43m░▒▓[0m
+                                                      [1;31;43m▓▒░ [0;30;43m                  [0;1;30;43m ░▒▓[0m'

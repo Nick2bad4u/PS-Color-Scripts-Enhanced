@@ -5,7 +5,7 @@
 # Source SHA-256: 4fc1c7b6674570cd739892b6eaddfd697c8e8fabd8f0f580caec6a0d7a1631f5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PN-PX1.ICE by Pnakotic (iCE); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Project X
 # SAUCE Author: Pnakotic
 # SAUCE Group: iCE
@@ -53,8 +53,8 @@ Write-Host '
           [31m▄[0m                        [1;37m         [0m         [31m▀[0m                 [31m▓█[0;1;31;41m░[0m
                                    P[1mroject [0mX                      [31m█[0;1;31;41m░[0m        [33m▀ [0m
    [35m░[0m                                                                       [35m [0m
-[35m [0m  [35m▒[0m          [37ms[0;1;37mys: [0mn[1mYc [0mk[1mId [0m/[1m [0mA[1mnimal [0m/[1m [0mS[1mliver[0m C[1mut [0m─[1m─[0m─[1m [0mc[1mosys: [0mC[1mooly[0m          [35m [0m [31m█[0;1;31;41m░[0m
-[35m [0m  [35m▓[0m [37mc[0;1;37mornucopia [0mo[1mf [0mc[1mosmic [0mv[1mibes [0m(a[1mffils) [0ma[1mnd [0me[1mntity [0me[1mnhancing [0ma[1muras [0m(n[1mets)[0m [35m░[0m [1;31m  [0m
+[35m [0m  [35m▒[0m          [37m [0;1;37m    [0m [1m   [0m [1m   [0m [1m [0m [1m      [0m [1m [0m [1m     [0m  [1m   [0m─[1m─[0m─[1m [0m [1m      [0m [1m    [0m          [35m [0m [31m█[0;1;31;41m░[0m
+[35m [0m  [35m▓[0m [37m [0;1;37m          [0m [1m  [0m [1m      [0m [1m     [0m  [1m       [0m [1m   [0m [1m      [0m [1m         [0m [1m     [0m  [1m    [0m [35m░[0m [1;31m  [0m
 [35m▐[0m  [35m█░[0m                    [37ms[0;1;37mpiritual [0ml[1mink: [0m+9[1m72[0m 3 9[1m676357[0m                   [35m ▒[0m  [35m [0;37m [0m
 [35m▐ ▄[0;1;35;45m░[0;35m▓ [0m                                                              [35m░[0m  [35m■ [0m [35m▄▓ ▀ [0;37m [0m
 [1;35;45m ■▀▒░[0;35m▌ ░[0m              [37ma[0;1;37mnsi [0mb[1my [0mP[1mnakotic [0mo[1mf [0mi[1mCE [0m─[1m─[0m─[1m [0m1[1m0[0m 0[1m2[0m 9[1m4[0m        [35m■ ▒[0m   [35m▄[0;1;35;45m▄░■[0;35m█▄▄[0;37m [0m

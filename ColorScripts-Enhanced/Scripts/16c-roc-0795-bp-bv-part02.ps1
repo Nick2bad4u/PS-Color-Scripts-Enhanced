@@ -5,7 +5,7 @@
 # Source SHA-256: 763421883ab23048869e19d7efab285147a3321faf9c04d619b1c1ef8508b76a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BP-BV.ANS by Blood Priest + Silver Rat (ROC); released in roc-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bottled Violence
 # SAUCE Author: Blood Priest & SR
 # SAUCE Group: ROC
@@ -24,9 +24,4 @@ Write-Host '
                           [1;31m▐[0;1;31;41m    [0;31m▓[0;1;30m▄[0;1;30;41m▀▒░[0;1;30;40m▀[0;1;30;41m██[0;1;30;40m█▌▓[0;1;30;41m▒▒░░[0;31m█[0;1;31;41m░ ▒[0m
                            [1;31;41m░   [0;31m█[0;33;41m [0;1;30;41m░▒[0;1;30;40m▌▄[0;1;30;41m█▓[0;1;30;40m█▓[0;1;30;41m█▓░▄░[0;31m██[0;1;31;41m [0;31m▌[0;37m [0m
                            [1;31;41m  ░[0;31m▀█[0;1;30;41m░[0;33;41m [0;1;30;41m░▀▓[0;1;30;40m▀▀[0m [1;30m▀▀[0;1;30;41m▒▓░[0;33;41m [0;1;31;41m   [0m
-                           [31m    ▀▀▀[0m       [37m       [0m
-[37m  [0;31m    [0m                      [1;31m- bottled violence -[0m
-[1;31m  [0m                kill a government agent and win a cookie!
-                                703-PRI-VATE
-
-                      [1m   [0martist[1m [0m:[1m blood priest [0m[[1mROC[0m][0m'
+                           [31m    ▀▀▀[0m       [37m       [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 4fdefa593e6a8f124edfe65f0ef79997bcdde787f7f2f5608f7d0bb4ed83e6d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GODFATHER-GHOSTNET.ANS by The Godfather (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: GhostNet
 # SAUCE Author: The Godfather
 # SAUCE Group: Mistigris
@@ -38,5 +38,4 @@ Write-Host '
   [1;30m▀▄[0;1;36m▀▄  [0;1;30m▀▀▀[0m   [1;36m█[0;32m  [0;1;36m▌[0;31m  [0;1;36m▒[0;31m [0;1;36m▀▄[0;1;31m    [0;1;36m▄▀[0;31m  [0;1;30m▀▄▄▄▄▀[0;32m  [0;1;36m▄▓▌█[0;31m  [0;1;36m▒[0;31m   [0;1;36m▒[0;31m  [0;1;36m█▒[0;31m  [0;1;36m▀█▄[0;31m  [0;1;36m▀▄▄▄▄▄▄░[0;31m [0;1;36m█░[0;31m [0;1;30m▐[0m
     [1;30m▀▄[0;1;36m▀▄▄▄▄▓▒░[0;36m [0;1;30m▄▌[0;1;36m█▓▒░[0;1;30m▐▄[0;1;31m [0;1;36m▀▀▀▀[0;1;30m ▄▌[0;1;36m▄▄▄▄▄▄▄▄▓▒░[0;1;32m [0;1;36m█▓▒▓[0;1;31m   [0;1;36m░▄▄█▓[0;31m [0;1;30m█▄[0;36m [0;1;36m▀█▄▄▄▄▄▄▄▄▄▄█[0;1;31m [0;1;30m▄█[0m
 
-   [1;30m01100111 01100101 01110100 00100000 01100111 01101000 01101111 01110011[0m
-[1;30m   01110100 01100101 01100100 .....[0;36m [0;1;31;41mAn Underground WWIVnet and FTN Network[0m'
+   [1;30m01100111 01100101 01110100 00100000 01100111 01101000 01101111 01110011[0m'

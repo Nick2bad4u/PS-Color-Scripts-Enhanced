@@ -5,7 +5,7 @@
 # Source SHA-256: 712894cc70d51ace73e825076f3507af15bcbaf233ffb6663c942c6dec4abd0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-TO99.ANS by Dyingsoul + Colloss (kibosh); released in kbsart02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: TakeOver 99
 # SAUCE Author: DyingSoul & cLs
 # SAUCE Group: kibosh
@@ -58,9 +58,5 @@ Write-Host '
 [1;31;40m███████████████████████[0;1;31;43m▌[0;33m▌[0;1;31;43m [0;1;31;40m█[0;33m█▐[0;1;31;43m▐[0;1;31;40m██████████████████████████████████[0;1;31;43m▌[0;33m▌▐[0;1;31;43m▐[0;1;31;40m██[0;33m█[0;1;31m [0;33m▌█[0;1;31m██████[0m
 [1;31m░░░░░░░░░░░░░░░░░░░░░░░[0;33m░░░[0;1;31m░[0;33m░░░[0;1;31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;33m░░░░[0;1;31m░░[0;33m░░░░[0;1;31m░░░░░░[0m
 
-[1;30m100% original[0m
-[1;30m--------------------------------------------------------------------------------[0m
-   [1mmighty[0;1;30m [0;1;37moutlines[0;1;30m: [0;1;37mColloss[0m [1;30m([0;1;37mKibosh[0;1;30m)[0m
-   [1moutlines[0;1;30m [0;1;37mruined[0;1;30m by [0;1;37mcrappy[0;1;30m [0;1;37mshading[0;1;30m: [0;1;37mDyingSoul[0m [1;30m([0;1;37mKibosh[0;1;30m)[0m
-   [1mheader[0;1;30m by [0;1;37mTaintedX[0;1;30m ([0;1;37mSeven[0;1;30m)[0;1;37m [0;1;30mand[0;1;37m DyingSoul[0m [1;30m([0;1;37mKibosh[0;1;30m)[0m
-   [1mtakeover logo[0m [1;30m:[0m [1mColloss[0m  [1;30m([0;1;37mKibosh[0;1;30m)[0m'
+[1;30m             [0m
+[1;30m--------------------------------------------------------------------------------[0m'

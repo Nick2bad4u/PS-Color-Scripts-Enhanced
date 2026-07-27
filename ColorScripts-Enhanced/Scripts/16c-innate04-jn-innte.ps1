@@ -5,7 +5,7 @@
 # Source SHA-256: 08aa69d8c71930722c7c1dae25ac41fc90661a85646e3d176b579c2fdcc3d5a0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JN-INNTE.ANS by Jashiin (Mimic Productions); released in innate04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Jashiin
 # SAUCE Group: Mimic Productions
 # SAUCE Date: 20031008
@@ -49,7 +49,5 @@ Write-Host '
 
 
 
-jashiin/mimic
-08.10.2003
-
-innate. all letters present, believe it or not.[0m'
+             
+08.10.2003[0m'

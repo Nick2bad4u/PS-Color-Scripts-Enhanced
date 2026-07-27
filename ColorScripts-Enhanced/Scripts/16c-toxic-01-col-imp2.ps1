@@ -5,7 +5,7 @@
 # Source SHA-256: a05971df3e846fca4d2e1b4c46caef8d85ea785593467f373ff990804d6a660b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: COL-IMP2.ANS by colorblind (tOxic); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: impure
 # SAUCE Author: colorblind
 # SAUCE Group: tOxic
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30mthis dood is one fucking krad homeb0y![0m
+[1;30m                                      [0m
 
                         [1;30m░[0m         [1;30m░░░[0m   [1;30m░[0m             [1;30m░░░░░[0m
                       [1;30m░[0m    [1;30m░░░░░[0m            [1;30m░[0m      [1;30m░░░▒▒░[0m    [1;30m░░░[0m
@@ -54,5 +54,5 @@ Write-Host '
                          [1;30m▄██[0;1;30;47m▓[0;1;30;40m███▄▄ [0;1;34;40m▀▀[0;1;34;47m▓[0;1;34;40m█▌[0m [1;34m▐▀▀[0m ▄[1;30m▄███[0;1;30;47m▓▓█[0;1;30;40m▄[0m
                         [1;30m▐[0;1;30;47m▓▓[0;1;30;40m████[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓░[0m▄▄[1m▄[0;34m [0;37m ▄▄█[0;1;30;47m▒▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m███[0;1;30;47m▓[0;1;30;40m█▌[0m
 [1;30m------------------------[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀[0m▀ [1;30m--[0m ▀[1;30m▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m-------------------------[0m
-    impure .. its run by jeepee([1;33mfire[0m) n stuff .. call it .. ansi: cOl([1;33mtOxic[0m)
+                                [1;33m    [0m                                  [1;33m     [0m 
 [1;30m--------------------------------------------------------------------------------[0m'

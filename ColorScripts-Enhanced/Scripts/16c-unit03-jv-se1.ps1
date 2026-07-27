@@ -5,7 +5,7 @@
 # Source SHA-256: 8528656600b313521a87f897a3286ec4845469f6edf2f213505765ead0e4d466
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JV-SE1.ANS by jeeves (UNiT Productions); released in unit03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: alien
 # SAUCE Author: jeeves
 # SAUCE Group: UNiT Productions
@@ -31,7 +31,7 @@ Write-Host '
 [36m$[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m [0;1;34m$[0;1;34;44m▒[0;1;34;40m$$ [0;36m$[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m  $[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0;36m $[0;1;30m  [0;1;36m$[0m
 [36m`$$[0;1;36m$[0;36m $$[0;1;36m$''[0;1;34m,[0;36m`$$[0;1;36m$[0;36m $$$[0;1;36m$[0;36m $$$[0;1;36m$[0;36m $$$[0;1;36m$[0;36m $$$[0;1;36m$[0;36m [0;1;34m$$$$b[0;36m`$$[0;1;36m$[0;36m $$[0;1;36m$''[0;1;34m,,[0;36m`$$[0;1;36m$[0;36m $$[0;1;36m$''[0;36m $$$[0;1;36m$[0;36m $$$[0;1;36m$[0;36m `$$[0;1;36m$[0;36m $$$[0;1;36m$[0m
 [1;34mb[0;36m`²QgD[0;1;36m²''[0;1;34md$b[0;36m`²Qy$$$[0;1;36m$[0;36m $$$[0;1;36m$[0;36m $$$[0;1;36m$[0;36m $$$[0;1;36m$[0;36m [0;1;34m$$$$$b[0;36m`²QyD[0;1;36m²''[0;1;34md$$b[0;36m`²QyD[0;1;36m²''[0;1;34md[0;36m $$$[0;1;36m$[0;36m $$$[0;1;36m$[0;36m [0;1;34mb[0;36m`²Qy$$$[0;1;36m$[0m
-[1;34;44m$[0;1;34;40m$$pqq$$$$$$$yyyyyq$yyyy$yyyy$yyyy$$$[0;1;34;44m$[0;1;34;40m$$$$$yyy$$$$$$$$yyy$$$$yyyy$yyyy$$$$yyyyyy[0m
+[1;34;44m [0;1;34;40m                                    [0;1;34;44m [0;1;34;40m                                          [0m
 [1;34;40m$$$$$$$$$$[0;1;34;44m$[0;1;34;40m$$$$[0;1;34;44m▓[0;1;34;40m$$$$$$$$$P²²²"^^^"^"^"^"^"^"^"^"^"²²²Q$$$$$$[0;1;34;44m░[0;1;34;40m$$$$$$$$$$$$$$$$$$$[0m
 [1;34;40m$$$yyyyyyy$$$$$$$$$$$$$$''[0m [1;34m [0;1;36mS[0;36mtar[0;1;37m''[0;36ms[0;1;34m [0;1;36mE[0;36mnd[0;37m [0;1;37m%[0m [1;36mS[0;36muK[0;1;37m^[0;1;36mT[0;36mit[0;1;37m^[0;1;36mR[0;36maww[0;1;34m  `$$$$$$$$$[0;1;34;44m$[0;1;34;40m$$$$$$[0;1;30;40m[[0mjV[1;30m![0mUN[1mi[0mT[1;30m][0m
 [1;30;44m░░░░░░░░░░░░░░░░░░░░░░░░[0;1;34;40m,[0m [1;36m+[0;36mo [0;1;36mS[0;36mpike[0;1;34m [0;1;37m%[0;1;34m [0;1;36mP[0;36mhat[0;1;34m [0;1;36mW[0;36mWiV[0;1;34m [0;1;36mS[0;36metup[0;37m  [0;1;34m,[0;1;30;44m░░░░░░░░░░░░░░░░░░░░░░░░░[0m

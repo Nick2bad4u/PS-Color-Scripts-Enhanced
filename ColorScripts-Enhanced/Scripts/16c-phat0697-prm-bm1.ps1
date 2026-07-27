@@ -5,7 +5,7 @@
 # Source SHA-256: 415f21b609cd59d4550f9777ddcd6e13b9c8d430b5146b0f1d9a5673dbb6fef4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PRM-BM1.ANS by primemo{er (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: black!market login matrix
 # SAUCE Author: primemo{er
 # SAUCE Group: Phat Studios '97
@@ -39,6 +39,4 @@ Write-Host '
 [30;41m  [0;37;41m ▐[0;1;37;47m▐█▓ [0;41m▌[0;30;41m      ██[0;33;40m▐[0;1;31;43m    ▐[0;1;31;40m███▌[0;30;41m▌[0;1;33;41m [0;30;41m [0;37;41m▀[0;1;37;47m▀[0;41m▀[0;31;40m█[0;1;33;41m     [0;31m████████[0;30;41m ░[0;31;40m▓[0;1;33;41m [0;31;41m▀[0;31;40m██[0;37;41m ▐[0;1;37;47m █▌[0;41m▌[0;30;41m [0;35;41m [0;30;41m  [0;31;40m███▒  [0;37;40m page[0;31;40m [0;37;40mop[0m
 [30;41m [0;37;41m▄[0;1;37;47m ▄█▀ [0;41m▀ [0;30;41m    ▄██[0;33;40m▄[0;1;31;43m    ░[0;1;31;40m██[0;1;31;43m▒[0;1;31;40m█[0;30;41m█[0;31;40m▓[0;1;33;41m  [0;31m███[0;1;33;41m [0;1;37;41m [0;41m░[0;31;47m▓[0;1;37;41m  [0;30;41mprm^phat     [0;37;41m  ▄[0;1;37;47m ▐▓█ [0;41m [0;30;41m   [0;31;41m▀▀[0;30;41m░[0;31;40m░   [0;37;40mgoodbye[0m
 
-[37;40m------------------------------------------------------------------------------- [0m
-[37;40mlogin matrix for my (still offline) board black!market. (c) phat studios 1997[0m
-[37;40m   http://www.phat-studios.org / #ansi.de (efnet) / htw8136@htw-dresden.de[0m'
+[37;40m------------------------------------------------------------------------------- [0m'

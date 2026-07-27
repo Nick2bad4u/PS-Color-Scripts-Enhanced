@@ -5,7 +5,7 @@
 # Source SHA-256: fda1c89e30b371bf789ba10501edc966e672356c89049b76d427b7bb3682da3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JZ-PF.ANS by Jaz (quad-p); released in quad1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pink floyd
 # SAUCE Author: Jaz
 # SAUCE Group: quad-p
@@ -30,6 +30,4 @@ Write-Host '
          [36m▄[0;1;30;46m▒[0;36m▄[0m                                              [36m▄[0m
           [36m▀[0m               [36m▄[0;1;30;46m▓[0;36m▄[0m          [36m▄[0m                 [36m▄[0;1;30;46m░[0;36m▄[0m      [36m▄[0;1;30;46m▓[0;36m▄[0m
                            [36m▀[0m          [36m▄[0;1;30;46m▓[0;36m▄[0m                 [36m▀[0m        [36m▀[0m
-                                       [36m▀[0m
-
-           [1;30m[[0m [1;36m.[0;36m.[0;37m [0;1;37ma[0mn [1ma[0mnsee [1md[0medicated [1mt[0mo 1 [1mo[0mf [1mt[0mhe [1mb[0mest [1mb[0mands [1me[0mver [36m.[0;1;36m.[0m [1;30m][0m'
+                                       [36m▀[0m'

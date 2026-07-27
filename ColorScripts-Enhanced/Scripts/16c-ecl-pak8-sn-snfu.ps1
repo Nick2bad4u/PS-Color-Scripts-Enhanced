@@ -5,7 +5,7 @@
 # Source SHA-256: 28c6914c18156729286dc56b7a7586527dab0f4510d088e80beb03381526c938
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SN!SNFU.ANS by S S s nowball (ecolove); released in ecl-pak8 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Don't have a cow (snfu?)
 # SAUCE Author: S S s nowball
 # SAUCE Group: ecolove
@@ -37,6 +37,4 @@ Write-Host '
 [1;32;42m▒▓▓█▀ ▀█▓▌█▓▒░[0;32m▌[0;1;33m [0;33m▐█▀[0;1;33m   [0;1;30;47m▓░[0m▄▄▄  ▄▄▄▄█▀▀█[1;47m▄▄[0m█[1;47m▄▄██▀ ▀█████▌  ▐██████▌██████▀▀██▌ [0m [1;31m▀█[0m [32m▐[0m
 [1;32;42m░▀▀▀▀ ▀▀▀▌▀▀▌░[0;32m▌[0;1;33m [0;33m▐[0;1;33;43m░[0;33m▄[0;1;33m   [0;1;30m█[0;1;30;47m▒[0m▀[1;33m  ▄▌[0m█[1;47m▀▀▀[0m█▄▄█[1;47m▀[0;1;40m█[0m████[1;47m▀▀ ▀▀▀▀▀▀▀   ▀▀▀▀▀▀▌▀▀▀▀▀▀  ▀▀▀[0m██▄▄ [32m▀[0m
                  [33m▀[0;1;33;43m▒▓[0;1;37;40m█▄▄[0;1;33;40m▄▄██▀[0m   ▀▀▀▀▀▀      [34m [0;37m ▀▀▀▀▀▀▀▀▀▀▀[0m        [37m▀▀▀▀▀▀▀▀[0m
-                    [1;37m▀▀[0;1;33m▀▀▀[0m
-[1;30mDon''t have a cow, bcoz when you do he might get very mad[0m
-[1;30mjust like this one over here....You can watch this ansi at Lost dimension[0m'
+                    [1;37m▀▀[0;1;33m▀▀▀[0m'

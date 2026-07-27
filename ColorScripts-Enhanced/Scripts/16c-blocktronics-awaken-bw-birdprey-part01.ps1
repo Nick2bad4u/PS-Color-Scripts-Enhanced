@@ -5,12 +5,12 @@
 # Source SHA-256: cfb6a6d41270be63aa38683cda0c84fbd1872d306ff04eefd551c2eb0cc46885
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bw-birdprey.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
 Write-Host '
-      [1;30m▄[0m [1;30m Welcome to another Mindrollercoaster Ansi[0m [1;30mdone[0m [1;30mby bw! of b7[0m [1;30m▄[0m
+      [1;30m▄[0m [1;30m                                          [0m [1;30m    [0m [1;30m            [0m [1;30m▄[0m
 
 
 

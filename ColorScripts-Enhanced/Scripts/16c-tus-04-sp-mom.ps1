@@ -5,7 +5,7 @@
 # Source SHA-256: 1f21e345848fe73165a69e38239fd0dc5d212a1c9dc8b37b1526f5c42a5e2609
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sp-mom.ans by Spinsane (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -34,6 +34,4 @@ Write-Host '
 [37m:::::: [0;34m:[0;1;37m [0;1;33;41m░░░░[0;1;37;40m [0;34m|::::|[0;1;37m [0;1;33;41m▒▒▒▒[0;1;37;40m        [0;1;33;41m▓▓▓▓[0;34m|[0;33;41m♥♥[0;34;40m|[0;1;33;41m████[0;34m_____│__[0;1;37m [0;1;32ml$$$$$$$$$$[0;32m4$$$!!@@!!$$$$$[0m
 [37m::::::::[0;1;37m [0;1;33;41m░░░░[0;34m::::::::[0;1;33;41m▒▒▒▒[0;34m::::::::[0;1;33;41m▓▓▓▓[0;34m::::[0;1;33m█[0;1;33;41m███[0;34m:::::::::[0;1;32m:$$$$$$$$$$$$[0;32mY$$[0;1;32;42m$S?:[0;32m▓▓▒$$$[0m
 [1;37m         [0;1;33;41m░░░░[0;1;37;40m        [0;1;33;41m▒▒▒▒[0;1;37;40m        [0;1;33;41m▓▓▓▓[0;1;37;40m    [0;1;33;41m████[0;1;37;40m          [0;1;32;40m`''ⁿ*SS$$$$$$$[0;32mY?$$$$$$$$$$[0m
-[1;37m-------------------------------------------------------------------(24 lined!)--[0m
-[1;37mFOR MOM - TONY THE FINGER 2001 / CAN''T HEAR YOU SCREAM WHEN I''M IN BACK OF YOUR[0m
-[1mMOUTH! I SHINING GO TEAM NOCHES, DORRITOS FROM POLAND![0m'
+[1;37m-------------------------------------------------------------------(24 lined!)--[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 98100c7a0c818693e09c873250c9f5f3b74d7a51e27bb1e3fa2bc1cda7321106
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SH-ACID2.ANS by Tracer (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -42,5 +42,4 @@ Write-Host '
                            [31m░[0m     [31m▒▒[0m
                                  [31m░▒[0m
                                   [31m▒[0m
-                                  [31m░[0m
-'
+                                  [31m░[0m'

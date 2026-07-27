@@ -5,7 +5,7 @@
 # Source SHA-256: 17ae343f40b4c351c8714e623cb0a842e30d9f9567ecfcc067b5c9b7a33a7c7a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNT-AUP2.ANS by tainted (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: acid underworld promo 2
 # SAUCE Author: tainted
 # SAUCE Group: fire
@@ -48,11 +48,8 @@ Write-Host '
                     █▄█ █ █ █▄█ ██▀ █▀▄ █▐▌█ █▄█ █▀▄ █▄▄ █▄█ ▌ ▓▀███▓░
                                   ▀      ▀▀  [1;30m▌[0m ▄░  ▀▄▐ ▌     ▄▀▌ ▐[1;30;47m▄[0m▀
                                       ▐▌▌ ▌    ▀░     ▀       ▀ ▀
-                                       ▀  ▌        [1;30mtnt[fire][0m
+                                       ▀  ▌        [1;30m         [0m
                                           ▌
                                           [1;30m▌[0m
 
-                   [1;30ma  c  i  d[0m     [1;30mu  n  d  e  r  w  o  r  l  d[0m [1;30m░░[0m
-
-                               [1;30macidunderworld:31337[0m
-                                 [1;30mop: hawk hubbard[0m'
+                   [1;30ma  c  i  d[0m     [1;30mu  n  d  e  r  w  o  r  l  d[0m [1;30m░░[0m'

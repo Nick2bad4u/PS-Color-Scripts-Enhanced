@@ -5,7 +5,7 @@
 # Source SHA-256: 606bbfd34eca71c154ef6cfe7bad903d527cee0238cdd5f0044010e0f5c283ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XS-AMB1.ANS by Excess (AMBUSH); released in amb-0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: AMBUSH Logo 1
 # SAUCE Author: Excess
 # SAUCE Group: AMBUSH
@@ -33,5 +33,5 @@ Write-Host '
 [1;30m■▄■▀▓ [0;1;36m░[0m [1;30m▄■▄▄■▀[0m          [1;30m▓[0m [1;36m░[0m [1;30m█[0m  [1;30m▀■▄■▀▓[0m [1;36m░[0m  [1;30m▄■▓[0m [1;36m░[0m   [1;36m░[0m  [1;30m▄▄▓[0m [1;36m░[0m [1;30m▄■▀▓[0m [1;36m░[0m [1;30m▓[0;36mxs!amb.ovt[0;1;30m▓[0m [1;36m░[0m
     [1;30m▀■▄■▀ [0m              [1;30m▀■▄■▀[0m       [1;30m▀■▄■▀[0m  [1;30m▀■▄■▀■▄■▀[0m  [1;30m▀■▄■▀[0m  [1;30m▀■▄■▀[0m          [1;30m▀■▄■[0m
 
-                [1mA[0;1;36m.[0;36mR[0;1;30mT[0;36m [0;1;37mM[0;1;36m.A[0;36mNI[0;1;30mACS[0;36m [0;1;37mB[0;1;36m.O[0;36mOST[0;1;30mING[0;36m [0;1;37mU[0;1;36m.[0;36mP [0;1;36mT[0;36mH[0;1;30mE[0;36m [0;1;37mS[0;1;36m.[0;36mCE[0;1;30mNE[0;36m [0;1;36mL[0;36mI[0;1;30mKE[0;36m [0;1;37mH[0;1;36m.[0;36mE[0;1;30mLL[0m
-                         [1;30m [0m    [1;36m■[0;1;30m [0;1;36mW[0;36mOR[0;1;30mLD [0;1;36mHEA[0;36mDQUA[0;1;30mRTER[0m [1;36m■[0m'
+                [1m [0;1;36m [0;36m [0;1;30m [0;36m [0;1;37m [0;1;36m  [0;36m  [0;1;30m   [0;36m [0;1;37m [0;1;36m  [0;36m   [0;1;30m   [0;36m [0;1;37m [0;1;36m [0;36m  [0;1;36m [0;36m [0;1;30m [0;36m [0;1;37m [0;1;36m [0;36m  [0;1;30m  [0;36m [0;1;36m [0;36m [0;1;30m  [0;36m [0;1;37m [0;1;36m [0;36m [0;1;30m  [0m
+                         [1;30m [0m    [1;36m■[0;1;30m [0;1;36m [0;36m  [0;1;30m   [0;1;36m   [0;36m    [0;1;30m    [0m [1;36m■[0m'

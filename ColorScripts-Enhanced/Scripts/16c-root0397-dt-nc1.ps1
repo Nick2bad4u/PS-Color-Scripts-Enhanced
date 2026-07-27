@@ -5,7 +5,7 @@
 # Source SHA-256: ae1f53d4975f0e367ccc9de454382b3b2e7508fcbac15470ac65f21485ed874e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-NC1.ANS by Defiant (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: No Control
 # SAUCE Author: Defiant
 # Lines: 1-32
@@ -33,9 +33,9 @@ Write-Host '
 [32m [0;31m▄  ▐▀▀[0m     [37muserlisting   [0;1;30m░▒██▓▓▓█▀▀▀▀[0m▀ ▄████[1;30m█▀▀▀[0;1;30;47m█[0;1;30;40m▓[0;1;30;47m▄▄[0;1;37;47m▀▀▀[0;1;37;40m█[0m███  [1;30m░▓▓▀[0m▀  [32m▒ ▐▀[0;1;32;42m░[0;32m▄▌ ▒[0m
                            [1;30m▀▀ ░░░   [0m▀ ▀▀▀▀[1;30m▀[0m       [1;30m░░  ▀[0m▀▀▀         [32m■▀░   [0;1;32;42m▀[0;32m▀  ░[0m
 
-      [1;33mInfusium[0m                [1;33;44m [0;1;34;44msystem-op [0m                 [1;30;40mM[0m      [1;30;40m02-10-97[0m
-      [1;33;40mDefiant[0m                 [34mpriviledged user[0m            [1;30mM[0m      [1;30m01-04-97[0m
-      [1;33mBlah[0m                    [34mblah[0m                        [1;30mF[0m      [1;30m02-05-97[0m
+      [1;33m        [0m                [1;33;44m [0;1;34;44m          [0m                 [1;30;40m [0m      [1;30;40m        [0m
+      [1;33;40m       [0m                 [34m                [0m            [1;30m [0m      [1;30m        [0m
+      [1;33m    [0m                    [34m    [0m                        [1;30m [0m      [1;30m        [0m
 
 [1;30m [0;31m▄  [0;32m░[0;30;42m▓[0m [32;40m▐[0;1;32;40m▄ ▄[0m
 [1;32;40m   [0;31m▄▄  [0;32m▀   [0;31m▄▄▄[0;1;31;41m▄▄[0;31m▄▄▄ [0;32m░ [0;31m▐[0;1;31;41m▄[0;31m▄ ░[0m     [1;30m░  [0;32m░[0m                 [32m░    [0;1;32m▄[0m      [32m░[0;30;42m▓[0m   [31;40m▄▄ [0;32;40m░  [0;31;40m▄▄[0;1;31;41m▄[0m

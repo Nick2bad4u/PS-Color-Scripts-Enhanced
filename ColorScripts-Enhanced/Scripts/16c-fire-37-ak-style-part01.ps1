@@ -5,7 +5,7 @@
 # Source SHA-256: ceeeaddeef429633a42fa1556cd8cf6f8caec57a161c678012810074740c6011
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-STYLE.ANS by abstrakt (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: citystars
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -16,7 +16,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;38;2;87;87;87;48;2;0;0;0mabs[0;38;2;171;171;171;48;2;0;0;0m♦[0;1;38;2;87;87;87;48;2;0;0;0mfire[0m                          [1;38;2;87;87;87;48;2;0;0;0momega[0;38;2;171;171;171;48;2;0;0;0mΩ[0;1;38;2;87;87;87;48;2;0;0;0mstyle[0m                         [1;38;2;87;87;87;48;2;0;0;0mascii[0;38;2;171;171;171;48;2;0;0;0m♥[0;1;38;2;87;87;87;48;2;0;0;0m2023[0m
+[1;38;2;87;87;87;48;2;0;0;0m   [0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;87;48;2;0;0;0m    [0m                          [1;38;2;87;87;87;48;2;0;0;0m     [0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;87;48;2;0;0;0m     [0m                         [1;38;2;87;87;87;48;2;0;0;0m     [0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;87;48;2;0;0;0m    [0m
 
 
 [1;38;2;255;255;87;48;2;0;0;0m>,[0;38;2;171;171;171;48;2;0;0;0m  [0;1;38;2;255;255;87;48;2;0;0;0m.⌐[0;38;2;171;171;171;48;2;0;0;0m   [0;1;38;2;255;255;87;48;2;0;0;0m.┌s.[0;38;2;171;171;171;48;2;0;0;0m   [0;1;38;2;255;255;87;48;2;0;0;0m.┌s[0m      [1;38;2;255;255;87;48;2;0;0;0m.┌⌐\`[0;38;2;171;171;171;48;2;0;0;0m    [0;1;38;2;255;255;87;48;2;0;0;0m.⌐\p.[0;38;2;171;171;171;48;2;0;0;0m   [0;1;38;2;255;255;87;48;2;0;0;0m.[0m        [1;38;2;255;255;87;48;2;0;0;0m.,┌¬.[0m              [1;38;2;255;255;87;48;2;0;0;0m.┌s\⌐,  ¬,[0m

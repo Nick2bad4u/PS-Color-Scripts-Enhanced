@@ -5,7 +5,7 @@
 # Source SHA-256: 006685350509a79448a9ab76c3bd870e682ce04a79c32ae4f6c9623a2fc47f13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PD-US.ANS by Paradox (Maiten1); released in m1-9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Unearthly Shadows
 # SAUCE Author: Paradox
 # SAUCE Group: Maiten1
@@ -35,4 +35,4 @@ Write-Host '
           [1;30m▐▌[0m             [31m▀████▄   [0;1;30m▌[0;31m████▀[0;37m  [0;1;30m▄▄██[0;1;30;47m▀▀[0;1;30;40m███▄[0m [1;30m▄█[0;1;30;47m▀▀▀▀▀█[0;1;30;40m▄[0m ██[1;30;47m█[0m [1;30m▄[0;1;30;47m██▀▀▀▀▀██[0;1;30;40m█▄[0m
            [1;30m█[0m               [31m▀▀███▌ [0;1;30m▀▄▄▓▀[0m   [1;30m▐██[0;1;30;47m     [0;1;30;40m██[0m [1;30m█[0;1;30;47m▌▓▒░[0m███[1;30m█▌[0m▐[1;30;47m▐[0;1;30;40m█[0m [1;30m▐█[0;1;30;47m▄[0m█████[1;30;47m▄██[0;1;30;40m▌[0m
                              [1;30m▄[0;31m▀[0;1;30m▄▄▓▄[0m        [1;30m███[0;1;30;47m▄▄▄[0;1;30;40m███▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                              [1;30m▀▓▀▀[0m          [1m [0m        [1mu[0;1;31mn[0;31mearthly sh[0;1;30mado[0;31mw[0;1;31ms[0;1;37m.[0m'
+                              [1;30m▀▓▀▀[0m          [1m [0m        [1m [0;1;31m [0;31m          [0;1;30m   [0;31m [0;1;31m [0;1;37m [0m'

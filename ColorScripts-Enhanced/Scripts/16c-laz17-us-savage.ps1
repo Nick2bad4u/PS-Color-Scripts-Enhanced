@@ -5,7 +5,7 @@
 # Source SHA-256: 63693775c73efadcba48c64cfb38bb07e3382575f387e43f0b58a2c75168b1d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-savage.ans by Warpus + Nitron (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: ode to savage jr 1 & 2
 # SAUCE Author: nitron & warpus
 # SAUCE Group: LAZARUS
@@ -34,7 +34,7 @@ Write-Host '
 [1;31m        [0;1;37m▀▄[0;31m    [0;30;46m█[0;1;30;40m▀[0m▄[1;30m                [0;30;46m█[0;1;30;40m■[0;1;37;40m▒ ▀▄[0;1;30;40m   [0;30;46m█[0;1;30;40m▀[0;1;37;47m▐[0;1;37;40m▌          ▀▄[0m              [1;30m▀▄ [0;1;37m▓[0m
 [1;31m          [0;1;37m▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▓▓▓▓▓▓▓[0m▀[1m   ▀▀▀▓▓▀             ▀▀▀▀▀▀▀▀▀▀▓▓▓▓▓▓[0;1;47m▄[0;1;40m▀[0m
 
-               [1mSAVAGE BABY CREATION SERVICES   [0;1;31mBUY ONE GET ONE FREE[0m
+               [1m                                [0;1;31m                    [0m
 
 
 
@@ -60,5 +60,5 @@ Write-Host '
 [1;32m       [0;1;37m▀▄[0;31m    [0;5;30m█[0m▀▄[1m                [0;5;30m█[0;1;30m■[0;1;37m▓ ▀▄[0;1;30m   [0;5;30m█[0;1;30m▀[0;1;37;47m▐[0;1;37;40m▌          ▀▄[0;1;30;40m               [0;30;46m█[0;1;30;40m■[0;1;37;47m▓[0m
 [1;32m         [0;1;37m▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀             ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 
-                            sAVAGE 241[1;30m PIZZA & BABIES[0m
+                                      [1;30m               [0m
 [1;30m              [0;30;47m█[0m'

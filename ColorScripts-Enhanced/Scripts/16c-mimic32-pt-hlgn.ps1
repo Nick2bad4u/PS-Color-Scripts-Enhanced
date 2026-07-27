@@ -5,7 +5,7 @@
 # Source SHA-256: 63d42a8be8e9e7d12c4cbcfc67e06770a7d4c3bde1ae8b22607c39567cbf2f04
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pt-hlgn.ans by Produkt (mimic32); released in mimic32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -29,8 +29,8 @@ Write-Host '
              [35m,┌s%%s┐, `4[0;1;35mSS[0;35m%%[0m         [36m.''   .┌d7   `````   ```[0m
             [35mdS7┘''''└4[0;1;35mS[0;35mb  l7''`[0m         [36ml  .d$[0;1;36m$[0;36m$l[0m
 [35m ,   ,  ,▬┌d[0;1;35mS[0;35m7[0m      [35m4[0;1;35mS[0;35mb┐db┐▬┌s%%s┐.  [0;36m   l$$[0;1;36m$$$[0;36mb┐▬.[0m
-[35m %   %  %[0;1;35m%SSS[0;35mb   %% dS[0;1;35mSSSSS[0;35m7┘└4[0;1;35mSS[0;35mS│/┐.[0;36m ``^┘4$$[0;1;36m$$$$[0;36m├/.   [0;37m halogen/camo.[0m
+[35m         [0;1;35m    [0;35m         [0;1;35m     [0;35m ┘└ [0;1;35m  [0;35m │ ┐ [0;36m    ┘   [0;1;36m    [0;36m├     [0;37m              [0m
 [35m ^   ^  ^^''4[0;1;35mSS[0;35mb┐▬▬┌d$$7''^lSb┐┌d[0;1;35mSS[0;35m7''```[0m      [36m`4$[0;1;36m$$$$$[0;36ml[0m
-            [35m4S[0;1;35mSSSSSS[0;35mS7 . `4S[0;1;35mSSSS[0;35m7  %%[0m         [36m4[0;1;36m$$$$$[0;36m$[0m
+            [35m  [0;1;35m      [0;35m        [0;1;35m    [0;35m     [0m         [36m [0;1;36m     [0;36m [0m
              [35m`''┘**└''`  l/  `''└└''`    [0m         [36ml[0;1;36m$$$$$[0;36m$[0m
                        [35m``[0m                     [36m```````[0m'

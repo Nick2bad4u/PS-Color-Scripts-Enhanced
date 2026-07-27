@@ -5,7 +5,7 @@
 # Source SHA-256: 56aa3833ea6b8f2fe9d986ec023af5b7ef62e1ad45c0a9985710bdb80b13d9a1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-TIC1.ANS by boba fett (lAZARUS!); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: TIC!
 # SAUCE Author: boba fett
 # SAUCE Group: lAZARUS!
@@ -39,9 +39,9 @@ the intestinal catacombs... . ... .  BF-lAZ·rCa   [1;33m▄▀[0;1;33;42m▀�
 [1;31;41m▓▓▓░░[0;1;32;40m [0mcommand? (_[1;32m [0m)[1;32m    [0m [31m▀[0;1;31m▀[0;31m█[0;30;41m░[0;31;40m░[0;30;41m▓[0;37;40m [0;1;33;40m░░▓▓[0;1;33;41m▀[0;1;33;40m▀▀▀[0;31m▀[0;37m [0;1;32m▄[0m [1;32;42m░▓▀▓▓▄[0;30;41m▓░[0;31;40m▓██▀▀[0;37;40m [0;1;37;40m▄▄[0;1;33;40m▄▄[0;1;33;41m█▓░░[0;31m▄▄▄[0;1;31m▄[0m [1;32m▀▀▀██[0;1;32;42m▓▓░░░[0m
 [1;31;41m░░░ ░░▓▓▓[0;1;31;40m▄▄▄[0m         [31m▄[0;1;31m▄[0m   [31m░[0;30;41m▓[0m     [1;33;40m░░[0m  [1;32m░░▓▓█▀[0m [32m▀[0;1;32m▀[0;1;32;42m ▀▀[0m [31m░░▐[0;37m [0;1;37m▄██[0;1;33m███[0;1;33;41m▓▓░░░░[0;31m█[0;1;31;41m░░▓▓█[0;1;31;40m▄▄[0m [1;32m▀[0;1;32;42m▒░  [0m
 [1;30;40m--------------------------------------------------------------------------------[0m
-Welcome to the end of another Boba Fett ansi.  Here is a new style I have been
-trying lately.  Kind of gutsy don''t you think?  Well, here is a menu template
-for the Intestincal Catacombs that damn near took me 4 hours...  Just remember,
+                                                                              
+                                                                             
+                                                                               
 
-Boba Fett, mastering fruitiness in his night off...=)
+                                                     
 [1;30m--------------------------------------------------------------------------------[0m'

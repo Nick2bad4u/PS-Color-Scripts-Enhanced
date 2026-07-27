@@ -5,7 +5,7 @@
 # Source SHA-256: fc289f01eb56ccf0bdba9ae552e5230c04095520da3e325b4d6cfce4720de9a7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-WM.ANS by Simonking + Avenger (black maiden^thelo0p); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wm
 # SAUCE Author: avenger^simonking
 # SAUCE Group: black maiden^thelo0p
@@ -16,7 +16,7 @@
 
 Write-Host '
 a[1;30mve[0m.b[1;30mlack[0m_m[1;30maiden[0m                                                  ▄▄[1;30m▄[0m▀▀▀[1;30m▀▀▀[0m
-s[1;30mimon[0mk[1;30ming[0m.t[1;30mhe[0m_l[1;30mo0p[0m                                            ▄[1;30m▄[0m▀[1;30m▀[0m
+ [1;30m    [0m [1;30m   [0m  [1;30m  [0m  [1;30m   [0m                                            ▄[1;30m▄[0m▀[1;30m▀[0m
                                                             [1;30m▄▀[0m
                                                            [1;30m▄[0;1;30;47m▓[0m
                                [36m░▓▄[0m                    [36m░[0m    [1;30;47m▒[0m

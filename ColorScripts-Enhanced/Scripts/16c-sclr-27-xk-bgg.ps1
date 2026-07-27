@@ -5,7 +5,7 @@
 # Source SHA-256: 023a17946b36ba4f900be58216a3a095d43db2a729a135512ad17061dda40151
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: XK!BGG!.ANS by xk (secular); released in sclr-27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "boo-ga-ga! ;))))"
 # SAUCE Author: xk
 # SAUCE Group: secular
@@ -32,7 +32,7 @@ $$$$:[1m $$$│ [0m$┼┼7[1m .┼$$│$$$''[0m_d$$┼┘ [1mj$$''$$$b.__,
 [1;30m ► ► ► ► ► ► ► ► ► ► ► [0;1;37m ```:$$$'' [0;1;30m ► ► [0;1;37m j$$''[0;1;30m/[0;1;37m ,$$$7'' [0;1;30m.. [0;1;37m ?$$.[0;1;30m  ► ► ► ► ► ► ► ► ► [0m
 [32m------------------------[0;1;30m▼[0;32m-[0;1;37m $$$│ [0;32m----[0;1;37m .┼$$'' [0m [1m:$$$'' [0;32m----[0;1;37m ,$$$:  [0;32m------------------[0m
 [33m------------------------[0;1;30m▼[0;33m-[0;1;37m └$$$b.__.d$┼$Q$Q┬$$$│ [0;33m---[0;1;37m _d$$$$│ [0;33m-------------------[0m
-[37msssssssssssssssyyyyyyy [0;1;37m [0;1;30m▼[0;1;37m  [0m [1m`?┼$$$┼↕┘~ [0m_[1m `$$┼$$$b,.,d$┼7''$$║  [0ms[1m [0mk[1m [0me[1m [0mt[1m [0mc[1m [0mh[1m [0m-[1m [0m-[1m [0m-
+[37m                       [0;1;37m [0;1;30m▼[0;1;37m  [0m [1m  ┼   ┼↕┘  [0m [1m    ┼         ┼    ║  [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m 
 [1m,,,,,,,,,,,  [0m.d$$$$$$$[1m  [0;1;30m▼[0;1;37m  [0m$y,_[1m```[0m_,┬#$''[1m ,$$:`?j┼┼$$K~  ┘''''~  [0m-[1m [0m-[1m [0m-[1m [0m-[1m [0m-[1m [0mr[1m [0mo[1m [0mx[1m [0mx
 [1m$$$$$$$$7''[0;1;30m  [0m┴┴┴┴┴┴┴┴┴┴[1m  [0;1;30m▼[0;1;37m  [0m┴┴┴┴┴┴┴┴┴┴''[1m .d$$''_┬%Q┼$S↕S$$b_[0;1;30m`''SSS*┘''`[0;1;37m___[0;1;30m`''└SSSSSSSS[0m
 [1;30m.....[0;32m [0;1;37m7''[0;1;30m.db.[0;32m ∙┬┬┬┬┬┬┬┬┬┬┬┬┬   ┬┬┬ [0;1;37m_,┬#$$$'',$$$7''[0;32m_▬┬┬┬[0;1;37m ?$$ [0;32m┬∙[0;1;37m _┬%Q┼$S$┼$b_ [0;32m┬┬┬┬┬┬[0m
@@ -51,4 +51,4 @@ $$$$:[1m $$$│ [0m$┼┼7[1m .┼$$│$$$''[0m_d$$┼┘ [1mj$$''$$$b.__,
 [1;30m$$$$$$$$$$$$$$$$$$$b.[0m   [1;30m▼[0m  $$$$$$$$$$$$$$$$$  [1;30m▲[0m  [33m$$$  [0;1;30m▲[0m   .d$$$$$$$$$$$$$$$$$yyy
 [1;30m┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴[0m  [1;30m▼[0m  ┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴  [1;30m▲[0m  [33m┴┴┴  [0;1;30m▲[0m  ┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴┴
 [32m--------------------------------------------------------------------------------[0m
-[1;30mmuziq: úáα¿¬ ¬α¿τÑóß¬¿⌐ - ¡á ¡áαáσ...[0m'
+[1;30m                      ⌐              [0m'

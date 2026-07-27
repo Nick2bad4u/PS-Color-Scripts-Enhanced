@@ -5,13 +5,13 @@
 # Source SHA-256: 9ebc3b090a73ccc0892fded1e018f92ffb46bdc09311e391113f5f239761c6ea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: frx-lag1.ans by ferrex; released in sac-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
 
-[1m        [0m            [1mANSi BY FERREX OF SUPERIOR ART CREATIONS                   [0m
+[1m        [0m            [1m                                                           [0m
 
                     [1;30m       [0;1;37m▄[0;1;30m                [0;1;37m▄■[0m
               [1;30m    [0m▄[1;30m  [0m░▄▄[1;36m▄█▀[0;1;30m             [0;1;36m░▄▄[0;1;37m▓[0;1;30m   [0;1;36m▄[0;1;30m            [0;1;37m▄[0m

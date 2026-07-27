@@ -5,7 +5,7 @@
 # Source SHA-256: 89586c3a023e3ac9f5e28f5dff982b014a8e5e3496b17656f156a3bbc2bb5b35
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-XRAID.ANS by abstrakt (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: made to raid
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -19,7 +19,7 @@ Write-Host '
                                       [1;37;40m.,▬┌┐▬,.[0m
        [32mj[0;1;32mb[0m                          [1m,4$j$S↕↕↕Sj$b.[0m
        [32mY$[0;1;32mb[0m                        d[1m$7`[0m        [1m`$$.[0m   [1;32m.[0m
-     [32m,[0;1;32m  [0;32m$[0;1;32m$b[0m                  [32mj[0;1;32m$  [0m:$[1m$;  [0mmade to[1;32m [0;1;37ml$$  [0;32mj[0;1;32ml[0m
+     [32m [0;1;32m  [0;32m [0;1;32m  [0m                  [32m [0;1;32m   [0m  [1m    [0m       [1;32m [0;1;37m     [0;32m [0;1;32m [0m
      [32m4b[0;1;32m.[0;32m`4[0;1;32m$$.[0m                [32m$[0;1;32m$;  [0mY[1m$$.[0;1;32m  [0mraid[1m   $$P[0m [32m:$[0;1;32m$[0m
       [32m4[0;1;32m$$[0;32m$$[0;1;32m$$,[0m              [32m:[0;1;32m$$l   [0m└Q[1m$┐,.__.,┌d$P[0m   [32ml[0;1;32m$b.[0m
        [32m`4[0;1;32m$$$[0;32m$[0;1;32m$$┐[0m            [32ml[0;1;32m$$$:    [0m`''└*Q[1m$$7*┘`[0m     [32m$[0;1;32m$$┐[0m

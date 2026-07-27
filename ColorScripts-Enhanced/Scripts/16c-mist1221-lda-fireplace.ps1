@@ -5,7 +5,7 @@
 # Source SHA-256: 125309b96b487ba371e4314c0382b75adc4cd043df683ad1171453f35ce8b09d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LDA-FIREPLACE.ANS by LDA (Mistigris); released in mist1221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fireplace
 # SAUCE Author: LDA
 # SAUCE Group: Mistigris
@@ -36,8 +36,4 @@ Write-Host '
 [37m               [0;31m░  ░░░[0;37m  [0;31m░▀[0;37m  [0;31m██[0;37m  [0;31m███[0;37m  [0;31m███[0;37m  [0;31m███[0;37m  [0;31m███[0;37m  [0;31m█▓▓[0;37m  [0;31m▀▀░░[0;37m    [0;31m░[0m
 [37m               [0;31m▒▒▒▒▓▓▄▄▄▄[0;37m       [0;31m░░[0;37m  [0;31m░░░[0;37m  [0;31m░░░░[0;37m  [0;31m░░░[0;37m    [0;31m░░[0;37m [0;31m▄▄▄▄▒▒▒▒[0m
 [37m             [0;31m░░░░▀▀▀▀▓▓▓▓▓▓▓▓▓██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▓▓▓▓▓▓▓██▓▓▓▀▀φlda[0m
-[37m                         [0;31m▀▀▀▀▀▓▓▓▓▓▓▓▓▓▓███████████▀▀▀▀▀▀▀[0m
-
-
-
-[37m                       [0;30madded at the last minute for textiness...  ilu burpy[0m'
+[37m                         [0;31m▀▀▀▀▀▓▓▓▓▓▓▓▓▓▓███████████▀▀▀▀▀▀▀[0m'

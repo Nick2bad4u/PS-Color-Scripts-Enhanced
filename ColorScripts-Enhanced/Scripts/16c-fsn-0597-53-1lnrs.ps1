@@ -5,7 +5,7 @@
 # Source SHA-256: 671602d80e091d1e966ed5af25f66097118595da2b07f455edbcafe8335d688e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 53-1LNRS.ANS by Senile (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -35,5 +35,4 @@ Write-Host '
 [31m [0;37m█████▄▄▄▄▄[0m                             [1;30m▀▀▀▀▀▀▀▀▀▀▌[0m   [1;30m▀▀▌[0m         [1;30m▀▀▀▀▀▀▌ ▀▀▀▀▀▓[0m
 ▀▀▀▌▀
 
-[35m------------------------------------------------------------------(o)(o)--------[0m
-[35mhere''s the oneliner screen.. it took LONG!@ .. senile[0m'
+[35m------------------------------------------------------------------(o)(o)--------[0m'

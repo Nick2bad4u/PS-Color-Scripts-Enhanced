@@ -5,14 +5,14 @@
 # Source SHA-256: 1835bd333011a18bfce94404a2f22e83e5d0e97266969d60b30d1bd6fa598786
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-BANR.ANS by Acid Brain (df-0002); released in df-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-19
 # Columns: 1-80
 
 Write-Host '
                                                                      [35m.[0m
                                                                      [35m·[0m
-     [32m░[0m              [1;32;42m»[0;32m▒tHE bEST b[0;1;32;42mO[0;32mARD oVER THE f[0;1;32;42mU[0;32mCKING [0;1;32;42me[0;32mARTH!«[0m        [35m·[0m
+     [32m░[0m              [1;32;42m [0;32m▒          [0;1;32;42m [0;32m              [0;1;32;42m [0;32m      [0;1;32;42m [0;32m      [0m        [35m [0m
                                                                      [35m·.·.·.·.·.[0m
 [35m·.[0m                           [36m░[0m          [1;36m_/\[0m             [36m__[0;1;36m_____ _ _  [0;36m_ [0;1;36m__[0m      [35m°[0m
 [35m·°   [0;36m__  _  ____[0;1;36m__[0m                   [36m__[0;1;36m/   \[0;36m_[0m          [1;36m/[0m                       [35m.[0m
@@ -25,6 +25,6 @@ Write-Host '
        [1;36m_  [0;36m_ __[0;1;36m___/___[0;36m_/\_____/[0;1;36m_/\[0;36m/[0m         [1;36m\/    [0;36m\  _/ [0;35m-aB![0;1;30m[d[0mV[1mL/f[0mR[1;30mC][0m         [35m.·°[0m
                                                   [36m\/[0m
                                                  [1;30m. .[0m
-[36m░[0m     [1;31;41mr[0;31mULER: [0;1;31;41md[0;31mEE jAY jONNAS w[0;1;31;41mA[0;31mY[0m                   [1;30m|[0m
+[36m░[0m     [1;31;41m [0;31m      [0;1;31;41m [0;31m               [0;1;31;41m [0;31m [0m                   [1;30m [0m
                                                 [1;30m\___/[0m            [32m░[0m
                                [36m░[0m'

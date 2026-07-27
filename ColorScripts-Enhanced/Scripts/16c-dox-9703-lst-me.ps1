@@ -5,7 +5,7 @@
 # Source SHA-256: d7c25e2748ff6951e9857a69815563411a15b41f4db47ec8b921f80f4879d025
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LST-ME!.ANS by soul trader (dox); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 1 pizza 100 tokens $ 35.00!
 # SAUCE Author: soul trader
 # SAUCE Group: dox
@@ -16,7 +16,7 @@
 
 Write-Host '
              [1;30m              [0m
-                    [36m▄[0;1;36;46m▄[0;1;36;40m█[0m                [1;30mlst! (yeah!, why? because i love you)[0m
+                    [36m▄[0;1;36;46m▄[0;1;36;40m█[0m                [1;30m                                     [0m
            [36m▄[0;1;36m▄[0;1;36;46m▄[0;1;36;40m█████████ [0;1;30;40m  [0;1;36;40m  ░ [0;1;32;40m▄▄[0;1;36;40m [0;32m▄[0;1;32m▄[0;1;32;42m▄[0;1;32;40m▓▄▄[0;1;36;40m  [0;1;32;40m [0m
       [32m░[0;30;42m▓░[0;1;32;40m▄[0;1;36;40m [0;36m▐[0;1;36;46m▐[0;1;36;40m█[0;1;37;40m██[0;1;36;40m███████ [0;1;30;40m  [0;1;36;40m [0;36m█[0;1;36;47m▓[0;1;36;40m▄▄▄▄▄▄▄▄ [0;1;32;40m▀█▄  [0m
        [32m▀[0;1;32m▀[0;1;36m [0;36m░[0;30;46m▓░[0;1;36;40m██████████ [0;1;30;40m [0;1;36;40m  [0;36m█[0;1;36m██████████▌[0;1;32m ▄ [0m     [32m▀[0;1;32m▀[0m
@@ -30,8 +30,4 @@ Write-Host '
            [32m▀[0;1;32m▀[0;1;36m  [0;36m░[0;30;46m▓░[0;1;36;40m█████████[0m    [1;36;46m █[0;1;36;40m█████████▌[0;36m█[0;1;36m██████[0m    [36m█[0;1;36m██████████▀▀[0m
         [30m  [0;32m░[0;30;42m▓░[0;1;32;40m█▄▄[0;1;36;40m   [0;36m▀[0;1;36m▀▀▀▀▀[0;1;36;46m▀[0;1;36;40m█▄▄▄▄[0;1;36;46m▄[0;1;36;47m▓[0;1;36;40m▀▀▀▀▀▀▀▀ [0;1;32;40m▄▄[0m [32m▄[0;1;32m▄[0;1;36m [0;36m▀[0;1;36;47m▓[0;1;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;32;40m▄▄█▀[0m
                [32m▀[0;1;32;42m▀[0;1;32;40m█▀[0;32m▀[0;1;32m▀▀[0;1;32;42m▀[0;1;32;40m▓▄[0;1;36;40m  [0m     [1;36m░ [0;1;32m█▀[0;32m▀[0;1;32m▀[0;1;32;42m▀[0;1;32;40m▓▀▀▀ [0;32m░[0;30;42m▓░[0;1;32;40m█[0;1;36;40m ░[0;32m   ▀[0;1;32m▀[0;1;32;42m▀[0;1;32;40m▓▀[0;32m ▀[0;1;32m▀▀[0;1;32;42m▀[0;1;32;40m▓▀[0m
-                                [1;36m [0m       [1;32m  [0m    [32m▀[0;1;32m▓▄[0;32m [0;1;32m▄▓ [0m  [1;32m    [0;1;36m [0;32m░[0;30;42m▓░[0;1;32;40m▀[0m
-
-
-
-[1;30m     [0m'
+                                [1;36m [0m       [1;32m  [0m    [32m▀[0;1;32m▓▄[0;32m [0;1;32m▄▓ [0m  [1;32m    [0;1;36m [0;32m░[0;30;42m▓░[0;1;32;40m▀[0m'

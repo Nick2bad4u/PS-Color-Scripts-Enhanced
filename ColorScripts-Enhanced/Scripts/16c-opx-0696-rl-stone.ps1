@@ -5,7 +5,7 @@
 # Source SHA-256: 53f364b279596ec616187e01547b3b2cd08d9b978d871bcf192eca24e1386cb9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-STONE.ANS by Rawlock (Opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Stoned Courering
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -33,8 +33,4 @@ Write-Host '
 [36m  [0;32m [0;1;33m [0m▀  [1m▀▀▀▀▀▓▄[0;36m [0m    [37m ▀[0;1;37m▀[0m [32m  [0;37m ▀[0;1;37m▀▀▀▀▀▀[0m       ▀[1m▀   ▀▀[0m        ▀[1m▀▀▀▀▀▀[0m       ▀[1m▀▀▀▀▀▀[0m
  [36m    [0m        [36m [0;1;37m▀■▄[0;36m [0;1;37m▄■▀[0;1;30m [0;1;37m▀[0m [1m▄[0m [1;30mh [0ms t [1mO[0m n e d   c [1mO[0m u r e r i n g[1m .[0m [1m.[0m [1m.[0m
               [1;30m      [0m      [1m■[0m      [36m [0;37m▄[0;36m [0;37m  [0m
-               [36m [0m           [37m▀[0;36m [0;1;37m▄[0m ▄ ■     [1;30mi[0m
-         [36m [0;37m [0;36m [0;1;30m [0m
-             [1;30m [0m                        [1;30m [0m
-         [36m [0m                            [37m [0m
-          [1;34m    [0m'
+               [36m [0m           [37m▀[0;36m [0;1;37m▄[0m ▄ ■     [1;30mi[0m'

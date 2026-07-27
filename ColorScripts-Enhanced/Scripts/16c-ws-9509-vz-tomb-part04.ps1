@@ -5,7 +5,7 @@
 # Source SHA-256: afa07eaf9832476d6961a1826c26015a917af1fc16158a50bcae9795131ffbe8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VZ-TOMB.ANS by voiz (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: tombstone
 # SAUCE Author: voiz
 # SAUCE Group: READ THE INI FILE
@@ -55,13 +55,4 @@ Write-Host '
               S    [1;31m▀▓[0m  T    [1;31m▒[0m   O     [1;31m▒[0m  N  [1;31m▒[0m     E  [31m▀▀▀[0m      [1;31m▒[0m
                     [1;31m▒[0m       [1;31m░[0m         [1;31m░[0m     [1;31m░[0m                 [1;31m░[0m
                     [1;31m░[0m                 [1;31m░ [0m    [1;31m░[0m                 [1;31m░[0m
-                    [1;31m░[0m   [1m1 - 4 i 8 - 6 5 9 -[0m [1m3 5 2 5[0m
-
-
-                         [1m    [0m [1;30m@[0;1;37m [0;1;31mT[0;1;37mombston[0;1;31me[0m [1;30m@[0m
-       [1m [0m                  [1m [0;1;30m@[0;1;37m [0;1;31ma[0;1;37mwp: nitr0 <grip[0;1;31m>[0m [1;30m@[0m
-      [1m  [0;1;30m@[0;1;37m [0;1;31mc[0;1;37mo-awps:[0m [1msynth <mist>, pink lincoln, the extremist <mist[0;1;31m>[0m [1;30m@[0m
-[1;31m [0m                   [1m    [0;1;31m%[0;1;37mart[0;1;31m%[0;1;37mart[0;1;31m%[0;1;37mart[0;1;31m%[0;1;37mart[0;1;31m%[0;1;37mart[0;1;31m%[0;1;37mart[0;1;31m%[0;1;37mart[0;1;31m%[0m [1m [0m
-                        [1;30m@[0m [1;31mb[0;1;37mest 4i8 renegade confi[0;1;31mg[0;1;37m [0;1;30m@[0m
-                            [1m   [0;1;30m@[0;1;37m [0;1;31mm[0;1;37malicene[0;1;31mt[0;1;37m [0;1;30m@[0m
-                           [1;30m@[0m [1;31mG[0;1;37mRiP[0m [1mmembah boar[0;1;31md[0;1;37m [0;1;30m@[0m'
+                    [1;31m░[0m   [1m1 - 4 i 8 - 6 5 9 -[0m [1m3 5 2 5[0m'

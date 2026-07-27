@@ -5,7 +5,7 @@
 # Source SHA-256: d67ad48f756994807709941f08b8339c84b343bda844305605c22f1af83aff75
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TUM-TOIL.ANS by The Upright Man (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Toil
 # SAUCE Author: The Upright Man
 # SAUCE Group: Remorse Productions
@@ -33,8 +33,4 @@ Write-Host '
 [1mtoil [0m   :[1m$$$[0;1;47m$[0;1;40mb┌,[0;31m.,┐[0;1;37m$$$7`Y$$$$[0mb[1m.d$$$$│[0;1;41m$[0;1;40m$[0;31m$[0;1;37m│[0;31m│$[0;1;37m$[0;1;31m$[0;31m$[0;1;31m7''`[0m  [31m.[0;1;37m┐p[0;31m┌.[0m     [31m`''└*$│$$$$$$$$$[0;1;37m$`[0m
          `*[1m│$$$$$$$$│''[0m   [1m`Y$$$ƒ[0;31m└ⁿ''``[0m      [31m`[0;1;31m''4`[0m     [1m$[0;1;41m$[0;1;40m^[0;31mY[0;1;37m$b[0;31m.[0m         [31m`''└*$│$$[0;1;37m$:[0m
             `''²┘┘[1mⁿ''`[0;1;31m [0m      [31m`[0;1;31m4[0;1;37m''[0m                     [1m`Y[0;31m$.[0;1;37m`Y[0;31m$[0;1;37mb[0m              [31m`[0;1;37m''┘ [0m
-                                                     [1m [0m   [1m`*''[0m
-uhm. i accidentally did this for serial2n thinking that discofunk ran toil.
-oh well. i like it. and it''s a PRESENT!
-                                                               -The Upright Man
-                                                                 [Remorse 1981][0m'
+                                                     [1m [0m   [1m`*''[0m'

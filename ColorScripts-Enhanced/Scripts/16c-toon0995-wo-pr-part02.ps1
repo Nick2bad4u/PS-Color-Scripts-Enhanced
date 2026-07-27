@@ -5,7 +5,7 @@
 # Source SHA-256: 27935fa245936ac9c25667ab95d6d0280ef752ce6cc8a91347c544b321733681
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WO-PR.ANS by watOr (toon); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pirhana ad
 # SAUCE Author: watOr
 # SAUCE Group: toon
@@ -61,6 +61,4 @@ Write-Host '
 [34m█    █▀▀▀▀█ [0m   [34m█▀▀▀▀▀    █    █    █    █░   █▀▀▀▀▀   ░███████▄█████████████████[0m
 [34m█    █▀▀▀▀█[0m    [34m█    █   ░█    █    █    █    █    █    █████▄███████████████████[0m
 [34m█░   █    █[0m   [34m░█░   █    █    █░   █    █    █░   █    █████████████████████████[0m
-[34m█    █   ░█[0m    [34m█    █    █    █    █    █    █    █    █████████████████████████[0m
-
-     [34mjoin the adventure ... call up piranha today! toony 813 distro site[0m'
+[34m█    █   ░█[0m    [34m█    █    █    █    █    █    █    █    █████████████████████████[0m'

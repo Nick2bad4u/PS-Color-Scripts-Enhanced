@@ -5,7 +5,7 @@
 # Source SHA-256: db112f2bbe35a49cf1419c00a85feeb6bebabc2220c21a95ed3ce15b1657f3cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-SOME.ANS by Maeve Wolf (REV.SM!); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Somewhere Else
 # SAUCE Author: Maeve Wolf
 # SAUCE Group: REV.SM!
@@ -52,14 +52,12 @@ Write-Host '
        [1;30m▀▀▀▀▀▓ ▀▀▓ [0m▀▀ [1;30m▄▄▒ [0m█████  █████[1;30m▒[0m█████▄■[1;30m▓▄▄▄ [0m█████     [1;30m▓ [0m█████▄■ [1;30m▄▄▄█▀[0m
                 [1;30m▀▀▀▀▀▀ ▓▄▄▄▄▄▄▄▓▄▄▄▄▄▓▄▄▄▄▄▄▄█  █▓▄▄▄▄▄▄█▀■▄█▄▄▄▄▄▄▄▄█▀[0m
               S   O   M   E   W   H  [1;30m▒[0mE   R   E      E   L   S   E
-[1;30m∙SomeWhereElse∙oPS:BlackArtist[HTC]∙HereticsSite∙Art∙Coding∙BloodNet34:700/2∙[0m
+[1;30m                                                                             [0m
 +  [1m∙  [0m6  [1m∙  [0m1  [1m∙  [0m-  [1m∙  [0m7  [1m∙  [0m-  [1m∙  [0m3  [1m∙  [0m3  [1m∙  [0m4  [1m∙  [0m8  [1m∙  [0m6  [1m∙  [0m8  [1m∙  [0m8  [1m∙  [0m9
-               [1;30m∙1oo%∙Original∙ANSi∙by∙Maeve∙Wolf∙^∙REV∙SM!∙[0m
+               [1;30m                                            [0m
 [1;30m--CutHere8<---------------------------------------------------------------------[0m
-       [1;30m(Isn''t it pathetic how every ansi has to have greets nowadays? =)[0m
-[1;30m Peer Pressure 205kPa Greets to: Heretics(DemoGroupInOz)■T_Nothing■InnerVision■[0m
-[1;30m Nivenh■Argon■Jazz■SinnedSoul■(I''mTryingToRememberWho''sCoolToMeOnIRC =)■Prism■[0m
-                             [1;30m■Azrael■Cat■Blendz!■[0m
-                    [1;30m■LastButNotLeast:Robinhood/Lion_king:ILYR!=P■[0m
-                        [1;30m...Somebody buy me a scanner...[0m
-                           [1;30m`The Truth is out there''[0m'
+       [1;30m                                                                 [0m
+[1;30m                                                        ■         ■           ■[0m
+[1;30m       ■     ■    ■          ■                                         ■     ■[0m
+                             [1;30m■      ■   ■       ■[0m
+                    [1;30m■                                           ■[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7eae9a5188ca4fb952bbf7372533bb5eb245e6ccfdf108fd032a5ff30d8213ae
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GH-CHAOS.ANS by Ghent (Lapse); released in lap-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chaos AD
 # SAUCE Author: Ghent
 # SAUCE Group: Lapse
@@ -39,14 +39,4 @@ Write-Host '
             [31m▄▀[0;1;30m▒░[0;31m■ [0;1;30m░▄▀[0;33m░[0;1;30;41m▒[0;31m▌[0;1;30m░  ░▒[0;31m■[0;1;30;41m▓[0;33m░[0;1;30;41m▒[0;31m■[0;1;30m▒[0;1;30;41m░░▒▓▓▀[0;31m▌·[0;1;30m▒▓█[0;33m░[0;34m▀[0;1;34;44m▀[0;34m▀[0m        [34m■▀[0m
             [1;30;41m░[0;31m▌[0;1;30m▓▒[0;31m·[0;1;30m░█[0;33m░░ [0;1;30;41m░░[0;31m▄[0;1;30m░░▒▓[0;31m·[0;1;30;41m▓[0;33m░[0;1;30;41m░[0;31m·[0;1;30m▓▒[0;31m▀▌▀▀[0;1;30m░[0;31m▄▄[0;1;30m▄▀[0;33m░[0;34m■▀[0m          [34m·[0m
             [34;41m [0;1;30;41m░░▒▒▓▓[0;33m░  [0;33;41m [0;1;30;41m░░▒▒▓▓▓█[0;33m░[0;33;41m [0;1;30;41m░░▒▒▓▓▓▄[0;1;30;40m▀▀[0;33m░░[0m
-              [33m░░░░░░    ░░░░░░░░  ░░░░░░░░░[0m
-
-
-
-           [1;33mC[0;1;31mh[0;31ma[0;1;30mos AD · SysOp''s: Apocolypse, Seleriquis · (317)359-8[0;31m8[0;1;31m0[0;1;33m9[0m
-         [1;33m1 [0;1;31mG[0;31mi[0;1;30mgabyte · CiS WHQ · PCBoard v15.1 · illNet · 0-15 Day Wa[0;31mr[0;1;31me[0;1;33ms[0m
-          [1;33mA[0;1;31ml[0;31ml [0;1;30mLocals Banned · 317 Blackout · 9600+ Only · NUP Enfor[0;31mc[0;1;31me[0;1;33md[0m
-
-
-
-           [1;35ma[0;35mn[0;1;30msi: ghent/lapse · "patience" -gnr · starnet@xmission.c[0;35mo[0;1;35mm[0m'
+              [33m░░░░░░    ░░░░░░░░  ░░░░░░░░░[0m'

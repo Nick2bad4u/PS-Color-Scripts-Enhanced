@@ -5,7 +5,7 @@
 # Source SHA-256: c526fffcdc35f0c45472d6d97d804ccb796352de5298ce0a6ff40b7e2a813f40
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RIV!NICO.ANS by Riven (Thelo0p); released in l0p05_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nico zabojca? 8)
 # SAUCE Author: Riven
 # SAUCE Group: Thelo0p
@@ -35,9 +35,6 @@ Write-Host '
       ▐     [33m▀[0;37m  [0;1;30m         [0m  [35m  [0;1;30m   [0;33m▀[0;1;33m [0;35m [0;1;30m ░░[0m [1;30m▀░░[0;1;33m  [0;33m■▀▀ [0;31m       ▀[0;33m▄[0;31m   [0;30m [0;1;30m      [0m        [1;30m▌ [0m
       ▐  [1;30m [0m      [35m  [0m   [31m  [0m      [33m    [0m    [1;30m░░ [0m     [1;30m     [0m               [1;30m [0m        ▌[1;30m [0m
       ▐                                                                   ▌
-              [1ma[0mNSI [1ma[0mRT [1md[0mESIGN: [1mr[0mIVEN/[1mt[0mHELo0P ([1mr[0mIVENG@[1mp[0mOCZTA.[1mo[0mNET.[1mp[0mL)
-           [1md[0mATE, [1mt[0mIME & [1mp[0mLACE: [1m3[0m1.[1mo[0m1.[1m2[0mooo, [1m1[0m7:[1mo[0m7pm, [1mv[0mARSOVIA, [1mp[0mOLONIA
-───────────────────────────────────────────────────────────────────────────────
-
-[1;30m        [0m
-[1;30m        [0m'
+              [1m [0m    [1m [0m   [1m [0m       [1m [0m     [1m [0m        [1m [0m      [1m [0m      [1m [0m    [1m [0m  
+           [1m [0m     [1m [0m      [1m [0m      [1m [0m  [1m [0m  [1m [0m     [1m [0m  [1m [0m     [1m [0m         [1m [0m      
+───────────────────────────────────────────────────────────────────────────────[0m'

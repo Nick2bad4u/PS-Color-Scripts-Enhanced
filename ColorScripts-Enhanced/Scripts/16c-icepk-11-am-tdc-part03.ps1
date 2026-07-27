@@ -5,7 +5,7 @@
 # Source SHA-256: 8fea3f9a18e096f35a15e4e0d60552061d32313589c8d5c0855612614461c4d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AM-TDC.ICE by Amroth (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 101-150
 # Columns: 1-80
 
@@ -46,16 +46,16 @@ Write-Host '
      [32m░[0m                  [1;30m▀ ▀ ▀  ▀ ▀ ▀ ▀  ▀ ▀ ▀ ▀ ▀ ▀ ▀[0m
                               [[1m7O8[0m] [1m394 [0m- [1m13O1[0m
                  ▄[1;30m▄[0m                                      ▄[1;30m▄[0m
-                [1;30m▌[0m■[1;30m■   [0;1;37m[[0;1;33mi[0;1;31mCE[0;31m] N[0;1;30morthern HQ / Membe[0;31mr B[0;1;31moa[0;1;33mr[0;1;37md   [0m■[1;30m■▐[0m
+                [1;30m▌[0m■[1;30m■   [0;1;37m [0;1;33m [0;1;31m  [0;31m   [0;1;30m                  [0;31m   [0;1;31m  [0;1;33m [0;1;37m    [0m■[1;30m■▐[0m
                 [1;30m▓[0m▐[1;30m▌[0m           [1;37mM[0;1;33mA[0;1;31mLi[0;31mCe [0;1;30mDis[0;31mt. [0;1;31mSi[0;1;33mt[0;1;37me[0m          ▐[1;30m▌▓[0m
                 [1;30m▓[0m▐[1;30m▌[0m             [1;37mP[0;1;33ml[0;1;31mat[0;31min[0;1;30mu[0;31mm [0;1;31mN[0;1;33me[0;1;37mt[0m             ▐[1;30m▌▓[0m
-                [1;30m▒[0m▐[1;30m▌[0m       [1;37mC[0;1;33my[0;1;31mbe[0;31mrCr[0;1;30mime Intern[0;31mati[0;1;31mon[0;1;33ma[0;1;37ml[0m       ▐[1;30m▌▒[0m
+                [1;30m▒[0m▐[1;30m▌[0m       [1;37m [0;1;33m [0;1;31m  [0;31m   [0;1;30m          [0;31m   [0;1;31m  [0;1;33m [0;1;37m [0m       ▐[1;30m▌▒[0m
                 [1;30m▒[0m▐[1;30m▌[0m          [1;37mM[0;1;33me[0;1;31mrC[0;31mury [0;1;30mDis[0;31mt. [0;1;31mSi[0;1;33mt[0;1;37me[0m          ▐[1;30m▌▒[0m
-                [1;30m░[0m▐[1;30m▌[0m         [1;37mO[0;1;33mb[0;1;31mli[0;31mvio[0;1;30mn\2 Be[0;31mta [0;1;31mSi[0;1;33mt[0;1;37me[0m         ▐[1;30m▌░[0m
-                [1;30m░[0m▐[1;30m▌[0m         [1;37mN[0;1;33mi[0;1;31mtr[0;31mo N[0;1;30met Centr[0;31mal [0;1;31mH[0;1;33mu[0;1;37mb[0m        ▐[1;30m▌░[0m
-                [1;30m░[0m▐[1;30m▌[0m        [1;37mU[0;1;33mS[0;1;31mR [0;31m16.[0;1;30m8 dual s[0;31mtan[0;1;31mda[0;1;33mr[0;1;37md[0m        ▐[1;30m▌░[0m
+                [1;30m░[0m▐[1;30m▌[0m         [1;37m [0;1;33m [0;1;31m  [0;31m   [0;1;30m      [0;31m   [0;1;31m  [0;1;33m [0;1;37m [0m         ▐[1;30m▌░[0m
+                [1;30m░[0m▐[1;30m▌[0m         [1;37m [0;1;33m [0;1;31m  [0;31m   [0;1;30m        [0;31m   [0;1;31m [0;1;33m [0;1;37m [0m        ▐[1;30m▌░[0m
+                [1;30m░[0m▐[1;30m▌[0m        [1;37m [0;1;33m [0;1;31m  [0;31m   [0;1;30m        [0;31m   [0;1;31m  [0;1;33m [0;1;37m [0m        ▐[1;30m▌░[0m
                  ▐[1;30m▌[0m           [1;37mO [0;1;31m- [0;31m1 d[0;1;30ma[0;31my f[0;1;31mil[0;1;33me[0;1;37ms[0m            ▐[1;30m▌░[0m
-                 ▐[1;30m▌[0m         [1;37mS[0;1;33my[0;1;31mso[0;31mp - [0;1;30mMorbi[0;31md A[0;1;31mng[0;1;33me[0;1;37ml[0m         ▐[1;30m▌[0m
-                 ■[1;30m■[0m           [1;37m7[0;1;33m1[0;1;31m5 [0;31mMeg[0;1;30ms On[0;1;31mli[0;1;33mn[0;1;37me[0m            ■[1;30m■[0m
+                 ▐[1;30m▌[0m         [1;37m [0;1;33m [0;1;31m  [0;31m    [0;1;30m     [0;31m   [0;1;31m  [0;1;33m [0;1;37m [0m         ▐[1;30m▌[0m
+                 ■[1;30m■[0m           [1;37m [0;1;33m [0;1;31m  [0;31m   [0;1;30m    [0;1;31m  [0;1;33m [0;1;37m [0m            ■[1;30m■[0m
                  ▀[1;30m▀[0m                                      ▀[1;30m▀[0m        [1;37mA[0;1;36mM[0;36mR[0;1;34mO[0;34mTH [[0;1;34mi[0;36mC[0;1;36mE[0;1;37m][0m
                                                                    [34m▀▀▀[0m     [34m▀[0m'

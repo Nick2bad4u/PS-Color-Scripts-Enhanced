@@ -5,7 +5,7 @@
 # Source SHA-256: 6af4903c2c77c7ff00be4d6d2bf523641af9e758d66f2a4714f7c34bb01bdda8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-DANK1.ANS by Teflon + Somberlain + Firehead (Hieroglyphics); released in hiero-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dank
 # SAUCE Author: Multiple Artists
 # SAUCE Group: Hieroglyphics
@@ -37,9 +37,4 @@ Write-Host '
   [34m█[0;1;30m [0m [1;36;46m███▄[0;1;36;40m▄[0;36m▄[0;1;36m▀▀[0;36m▀[0;34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;46m▓▓░░[0m         [34m▄[0m    [34m▄[0m           [34m▄▄[0;37m [0;1;30ms666[0m     [34m▄[0m    [34m▄▄█[0;37m [0;36m▀[0;1;36m▀[0;36m▄[0;1;36m███[0;1;36;46m▄[0;36m▄[0;37m [0;1;34;44m▒[0m
   [34m▀▀▄▄▄▄▄[0;1;34m▄▄[0;1;34;44m▄█[0;1;34;47m█[0;1;34;46m▀▓▓[0;1;34;40m█[0;1;34;47m█[0;1;34;46m▓▓[0m [34m▄▌[0;1;34;44m▄▄[0;34m█[0;37m [0;34m░▓█▐[0;1;34;46m▀▓[0;34m█[0;1;30m [0;1;34;44m▒[0;34m▓░[0;37m [0;34m█[0;1;34;44m▄[0;34m▓▓[0;37m [0;34m█▀[0;1;34;44m▀▓[0;1;30;40m [0;34m▄[0;1;34;44m░▓[0;34m▌░▓[0;37m [0;34m█[0;1;34;47m▓[0;1;34;46m▀[0;1;34;40m▄[0;1;34;44m▄ [0;34m▓▓▀▀[0;37m   [0;36m [0;1;30m▀[0;36m▀[0;1;36m▀[0;1;37m▀[0m  [1;34;44m▓[0m
    [34m░▒▓[0;1;34;44m░▓▀[0;1;34;40m▀▀▀▀▀▀▀▀[0;1;34;44m▀[0m [34m▀[0;1;34m▀[0m [34m▀▀[0;1;34;44m▀▓[0;34m▀▀▀▀[0;37m  [0;34m▀▀[0;37m [0;34m█▀▀[0;37m [0;34m▀▀[0;1;34;44m▓▒[0;34m▀▀▀[0;37m [0;34m▄▄[0;37m [0;34m▀▀█[0;1;34;44m▀[0;34m▀▀[0;37m  [0;34m▀[0;1;34m▀▀[0m [1;34;44m░▓[0;34m▀[0;37m [0;34m▐[0;37m  [0;34m░▓[0;1;34;44m░  [0;34m▀█[0;1;34;44m▄[0;1;34;46m█[0m
-  [34m░[0m                 [34m░░[0m       [34m▀[0;1;34m▀[0;36m▀[0;1;36m▀[0m            [34m▀[0m         [34m░░[0;37m [0;34m▀[0m
-
-
-[1;30mOriginal outline by Teflon[0m
-[1;30mShading by Somberlain (GLUE)[0m
-[1;30mReshaped and backgrounded by Firehead(hg)[0m'
+  [34m░[0m                 [34m░░[0m       [34m▀[0;1;34m▀[0;36m▀[0;1;36m▀[0m            [34m▀[0m         [34m░░[0;37m [0;34m▀[0m'

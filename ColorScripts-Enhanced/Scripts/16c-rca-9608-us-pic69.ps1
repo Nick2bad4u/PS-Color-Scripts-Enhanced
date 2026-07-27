@@ -5,7 +5,7 @@
 # Source SHA-256: fee26936a498e422ec9ec5ebb5d148f41d050d32a2185ac4fb2801f504867f8f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PIC69.ANS by Giger + Mr Yuck (RcA); released in rca-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 69?!@#?
 # SAUCE Author: We
 # SAUCE Group: RcA
@@ -34,7 +34,4 @@ Write-Host '
           [30;40m [0;30;45m▒▒▒▒▒▒▒▒[0;37;40m [0;32;40m█[0;1;30;42m░░[0;32m████▀▀[0;1;32;42m░░[0;32m▀ [0;35m░▄▓[0;32m [0;1;30;42m░░[0;1;32;42m░[0;32m████ ▀█████▄████▀▀ [0;1;33m [0;30;42m▓[0;32;40m▐█[0;1;32;42m░░[0;32m▌[0;30;45m█▒▒▒▒▒▒▒[0m
           [30;40m [0;30;45m▓▓▓▓▓▓▓▓[0;30;40m [0;32;40m ▀[0;30;42m░[0;32;40m█[0;1;32;42m░░[0;32m█▄▄[0;1;33m [0;35m  ▀▀[0;1;31;45m░░[0;35m▄▄▄▄▄▄▄▄▄[0;1;31;45m░░[0;35m▄▄[0m    [30;42m▓▓[0;32;40m ░[0;30;42m▀[0;32;40m▄▄[0;1;32;42m░░[0;32m██▀ [0;30;45m▓▓▓▓▓▓▓▓[0m
           [30;40m           [0;32;40m  ▓▀▀[0;30;42m░░[0;32;40m████[0;30;42m░[0;32;40m▄▄░[0;35;40m ▀▀▀▀▀▀▀▀▀░[0;32;40m ▄▄[0;30;42m░░[0;32;40m█[0;30;42m░[0;32;40m██[0;30;42m░[0;32;40m▀▀▀▀▀▀ [0;30;45m██████████[0m
-         [30;40m                [0;32;40m [0;30;42m█▓▓[0;32;40m▀▀[0;30;42m▓▓[0;1;30;42m░░[0;32m██[0;30;42m░[0;32;40m█[0;30;42m▀▀▀░■▀▀▀[0;32;40m███[0;30;42m▓[0;32;40m▀▀▀ [0;30;45m███████████████████[0m
-        [30;40m [0m                  [1;37;40mpedo[0;1;36;40mphi[0;36mlia [0;1;32min ca[0;32mndy[0;36mla[0;1;36mnd[0m
-               [1;36mop: mr. yuck logo outline: mr. yuck shaded by:[0m [1;36mgiger[0m
-                      [1;32mthis has been an rca production ''96[0m'
+         [30;40m                [0;32;40m [0;30;42m█▓▓[0;32;40m▀▀[0;30;42m▓▓[0;1;30;42m░░[0;32m██[0;30;42m░[0;32;40m█[0;30;42m▀▀▀░■▀▀▀[0;32;40m███[0;30;42m▓[0;32;40m▀▀▀ [0;30;45m███████████████████[0m'

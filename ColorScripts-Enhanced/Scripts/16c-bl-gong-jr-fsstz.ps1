@@ -5,7 +5,7 @@
 # Source SHA-256: 2cde12c9dfd4277b531fd4d545cf062565abe8021079963a3e060410d503ba60
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JR_FSSTZ.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: FS shizo userstatz
 # SAUCE Author: jerusalem
 # SAUCE Group: boil
@@ -30,15 +30,14 @@ Write-Host '
             [33m▐▓▓▓▀▀▀▀[0m            [33m░░░[0m             [1;30m [0;33m░░[0m
             [33m░░░[0m
       [1;37mu[0ms[1;30mer.........:[0m                      [1;30m  [0;1;37mb[0ma[1;30mud rate....:[0m
-[33m░░░[0;37m [0;33m░ [0;1;37ml[0mo[1;30mcation.....:[0m                        [1my[0mo[1;30mur upload..:[0m
-      [1ms[0me[1;30mcurity.....:[0m                        [1my[0mo[1;30mur ul kb...:[0m
-      [1mb[0mi[1;30mrthday.....:[0m                        [1my[0mo[1;30mur download:[0m
-      [1mt[0mo[1;30mtal calls..:[0m                        [1my[0mo[1;30mur dl kb...:[0m
-      [1mf[0mi[1;30mrst call...:[0m                        [1mb[0my[1;30mte ratio...:[0m
-      [1mm[0ms[1;30mg posted...:[0m                        [1mf[0mi[1;30mle ratio...:[0m
+[33m░░░[0;37m [0;33m░ [0;1;37m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
+      [1m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
+      [1m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
+      [1m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
+      [1m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
+      [1m [0m [1;30m            [0m                        [1m [0m [1;30m            [0m
 
 
 
 
-[1;30m-------░░------------------------------░----------------------------------------[0m
-[1;30mthe FS userstats. schizo eyes lookin'' at yar fuckin'' personality![0m'
+[1;30m-------░░------------------------------░----------------------------------------[0m'

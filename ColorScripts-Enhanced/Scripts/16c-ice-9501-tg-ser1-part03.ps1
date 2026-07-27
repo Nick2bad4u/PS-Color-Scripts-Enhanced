@@ -5,7 +5,7 @@
 # Source SHA-256: ffb59db82d0080cfda4fe5c273a409e4e73b044a9dd0594bbcfd00189aeab165
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-SER1.ICE by Toon Goon (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 74-113
 # Columns: 1-80
 
@@ -33,7 +33,7 @@ Write-Host '
 [32m████████[0;1;33;42m▄[0;1;32;42m█████▄[0;32m█████████████ [0;1;32m▄▄██[0;32m▄[0;32;42m  [0;32m██[0;32;42m [0;32m█▀[0;34m▄▄███████████▄▄[0;32m▀[0;34m▄██████████████████████[0m
 [34m▄▄▄[0;32m▀▀▀▀▀▀[0;1;42m▀▀[0;1;32;42m▀▀▀[0;32m███████████████ [0;1;32m███[0;1;32;42m█▄█[0;32m██▀[0;34m▄████████████████████████████████████████[0m
 [34m█████████▄▄▄▄▄▄▄[0;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▄[0;1;32m▀██[0;1;32;42m█[0;1;32m█▀[0;34m▄██████████████████████████████████████████[0m
-[30;44m  It''s been 1 year this month[0;34m███▄[0;1;32m▀▀[0;34m▄████[0;30;44msince i came outta ice trial.  cool.[0;34m████[0m
+[30;44m                             [0;34m███▄[0;1;32m▀▀[0;34m▄████[0;30;44m                                    [0;34m████[0m
 [34m███[0;1;34;44m▄▄▄[0;34m██████████████████████████████████████████████████████████████████████████[0m
 [34m██[0;1;34;44m█[0;1;34;46m▄█[0;1;34;44m██[0;34m█████████████████████████████████████████████████████████████████████████[0m
 [34m███[0;1;34;44m▀▀▀[0;34m█████████████████████▀▀▀██████████████████████████████████████████████████[0m
@@ -46,7 +46,4 @@ Write-Host '
 [34m███████▄▄▄▄▄█▀ [0;1;47m [0;1m██ [0;34m▀ [0m▄[1;47m▄[0;1m███ [0;34m██ [0m▀[1m▀▀▀[0m▀[1m▀▀▀▀▀▀▀▀▀▀ [0m█[1m██ [0;1;47m [0;1m███[0m▀[1m▀▀ [0;34m▄▄▄▄ [0;1;47m [0;1m██  [0;34m██ [0m▄[1;47m▄█[0;1m▀ [0;34m████[0m
 [34m█████████████ [0m▀[1m▀▀▀▀▀▀▀▀▀▀ [0;34m▄████████████[0;1;34;44m▀██[0;1;34;46m▄[0;1;34;44m▀[0;34m█▄▄▄▄ [0m▀[1m▀▀▀ [0;34m███████ [0;1;47m [0;1m██ [0;34m▄██▄▄▄▄▄█████[0m
 [34m██████████████████████████████████████████████████████████████ [0m▀[1m▀▀ [0;34m█████████████[0m
-[34m████████████████████████████████████████████████████████████████████████████████[0m
-[1;44m Serenity  -  1.204.774.2326  -  Mostly Art / Alot Of Files / Moderately Boofy! [0m
-[1;44m365-730 Day Files / Half A Node / 1 Gig /Distro / Nets / The Usual Boofy Schtuff[0m
-[1;44m                            Ansi by TooN GooN <[0;44mi[0;1;44mCE>                             [0m'
+[34m████████████████████████████████████████████████████████████████████████████████[0m'

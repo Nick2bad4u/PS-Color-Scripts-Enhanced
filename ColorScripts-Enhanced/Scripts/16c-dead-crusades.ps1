@@ -5,7 +5,7 @@
 # Source SHA-256: 6d16223dc062f6d673ad13a7c83e0137cde0d00c0a692de936adcd233ba2d1b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRUSADES.ANS by Mysterio (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -58,5 +58,5 @@ Write-Host '
 [1;37;47m░[0;1;30;45m▒▒[0;1;37;47m░[0;30m█████[0;1;37;47m▒[0;1;30;45m░░[0;1;37;47m▒[0;30m█[0;1;37;47m░[0;1;30;45m▒▒[0;1;37;47m░[0;30m██[0;1;37;47m░[0;1;30;45m▒▒[0;1;37;47m░[0;30m█[0;1;37;47m░[0;1;30;45m▒▒▓▓▓▒▒[0;1;37;47m░[0;30m█[0;37m▄[0;1;30;47m▄▄[0m▄▄[1;30;47m▄[0;1;30;45m▓▓[0;1;37;47m░[0;30m█[0;1;37;47m░[0;1;30;45m▒▓[0;1;37;47m░[0;30m┘[0;1;37;47m░[0;1;30;45m▓▒[0;1;37;47m░[0;30m█[0;1;37;47m░[0;1;30;45m▒▓▓▓▒[0;1;37;47m░[0;30m█[0;1;37;47m░[0;1;30;45m▒▒[0;1;30;47m▄▄▄[0m▄[30m▀[0;37m▄[0;1;30;47m▄▄[0m▄▄[1;30;47m▄[0;1;30;45m▓▓[0;1;37;47m░[0m
 [1;37;47m░[0;1;30;45m▓▓[0;1;37;47m░[0;30m█████[0;1;37;47m░[0;1;30;45m▒▒[0;1;37;47m░[0;30m█[0;37m▀[0;1;30;47m▀▀[0m▀[30m██[0;37m▀[0;1;30;47m▀▀[0m▀  ▀[1;30;47m▀▀▀▀▀[0m▀ [30m█ [0;37m▀[0;1;30;47m▀▀▀▀▀[0m▀[30m██[0;37m▀[0;1;30;47m▀▀[0m▀[30m┘[0;37m▀[0;1;30;47m▀▀[0m▀[30m█[0;37m▀[0;1;30;47m▀▀▀▀[0m▀[30m██[0;37m▀[0;1;30;47m▀▀▀▀▀[0m▀[30m▀▀[0;37m▀[0;1;30;47m▀▀▀▀▀[0m▀[30m┘[0m
 [30m [0;37m▀[0;1;30;47m▀[0;1;30;45m▓[0;1;30;47m▄[0m▄▄▄▄[1;30;47m▄[0;1;30;45m▓[0;1;30;47m▀[0m▀   [1mI[0mN[1;30mC [0;1;37mC[0ma[1;30mnadia [0;1;37mC[0mo[1;30murier [0;1;37mH[0mQ [1m─[0m↔[1;30m─ [0;32mRun[0;1;32mning V[0;1;37miSiOn-[0;1;32mX Ver.O[0;32m.91[0m
-[32m   [0;37m▀[0;1;30;47m▀[0;1;30;45m█[0;1;30;40m█[0;1;30;45m██[0;1;30;47m▀[0m▀        [31mS[0;1;31mtaff[0;31m: [0;1;34mThe Unforgiven [0;1;36m[[0;36mINC[0;1;36m][0;1;30m·[0;1;34mQuick Silver [0;1;36m[[0;36mINC[0;1;36m][0m
-     ▀▀▀▀       [1;34mElectric Element [0;1;36m[[0;36mINC[0;1;36m][0;1;30m·[0;1;34mCrash Impact[0;1;30m·[0;1;34mDark Spyre [0;1;36m[[0;36mINC[0;1;36m][0m'
+[32m   [0;37m▀[0;1;30;47m▀[0;1;30;45m█[0;1;30;40m█[0;1;30;45m██[0;1;30;47m▀[0m▀        [31m [0;1;31m    [0;31m  [0;1;34m               [0;1;36m [0;36m   [0;1;36m [0;1;30m [0;1;34m             [0;1;36m [0;36m   [0;1;36m [0m
+     ▀▀▀▀       [1;34m                 [0;1;36m [0;36m   [0;1;36m [0;1;30m [0;1;34m            [0;1;30m [0;1;34m           [0;1;36m [0;36m   [0;1;36m [0m'

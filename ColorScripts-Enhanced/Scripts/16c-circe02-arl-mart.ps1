@@ -5,7 +5,7 @@
 # Source SHA-256: 65daa1b3e257ce6c8b4644ea885088da3faac816cb39bec28844ba98a75ffc37
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARL-MART.ANS by Arlequin (circe02); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -24,12 +24,12 @@ Write-Host '
 [1;36;46m███▌▀▀[0;36m▌▀▀[0;1;30m  [0;31m [0;1;30m▄[0;36m [0;35m▀▐█[0;1;35;45m▀▀[0;1;35;47m▒▄[0;1;35;45m▀[0;35m▀ [0;1;35;45m▀█[0;1;35;47m▓▓[0;1;35;45m█[0;1;35;47m▀▓▓[0;1;35;45m▓▌[0;35m█[0;31m [0;32m▀▐[0;1;32;42m▀▀[0;32m▀▀▄[0;1;32m█[0;32m▌▐[0;1;32;42m█[0;32m▌[0;37m █ ▀[0;1;37;47m░▀[0m▌▀▀▀▀▀▀  Misterius Art
 [1;36;46m▀[0;36m▌▀▀[0;1;30m ▄▄▄[0;1;30;47m▓▓[0;1;30;40m█[0m [1;30m▀▀[0m     [35m▀▀▀▀▀ ▀▀▐[0;1;35;45m▀▀[0;35m▀[0;1;35;45m█▀[0;35m▌▀   [0m   [32m▀▀[0;31m [0;32m▄[0;1;32;42m█[0;32m▌[0;31m [0;37m▐▀▀▀[0m
 [36m▓[0;1;30m ▄[0;1;30;47m█▀▄[0;1;30;40m▀▀[0m                    [35m  ▀▀ [0m   [35m    [0m   [32m▀▀[0;31m  [0;37m   [0m             [1;37m[[0mBBS[1m][0;1;32mlister[0m   [1;32m  [0m
-[36m▌[0;1;30m▐[0;1;30;47m░▐[0m    [1m[[0mX[1m][0;1;32mpert mode       [0;1;37m[[0mJ[1m][0;1;32moin conference   [0;1;37m[[0mZ[1m][0;1;32mippy search [0m [1m[[0mDIS[1m][0;1;32mtro lister[0m
-[36m▌[0;1;30m█[0;1;30;47m▒[0;1;30;40m▌[0m    [1m[[0mO[1m][0;1;32mverdoze Murk    [0;1;37m[[0mF[1m][0;1;32mile area list    [0;1;37m[[0mFL[1m][0;1;32mag files   [0m [1m[[0mMEM[1m][0;1;32mber list  [0m
- ▓[1;30;47m▓[0m     [1m[[0mM[1m][0;1;32mono/color       [0;1;37m[[0mB[1m][0;1;32mulletins         [0;1;37m[[0mW[1m][0;1;32mYour info!  [0m [1m[[0mBYE[1m] [0;1;32mfast bye [0m
-[1;30m▐▀▄▄[0m    [1m[[0mT[1m][0;1;32mrans.protocol   [0;1;37m[[0mD[1m][0;1;32mownload files    [0;1;37m[[0mUSER[1m][0;1;32mlist     [0;1;30m [0;1;37m[[0mG[1m][0;1;32mreat bye    [0m
-[1;30m █[0;1;30;47m▀[0m▓[1;30;47m▓[0m   [1m[[0mE[1m][0;1;32mnter messy      [0;1;37m[[0mU[1m][0;1;32mpload files      [0;1;37m[[0mONE[1m][0;1;32mliner     [0m [1m[[0mREQ[1m][0;1;32mest a file[0m
-[1;30m▐▄▀▀[0m    [1m[[0mR[1m][0;1;32mead messy       [0;1;37m[[0mL[1m][0;1;32mocate files      [0;1;37m[[0mLAS[1m][0;1;32mt callers [0m           [1;30m▄▄[0m
+[36m▌[0;1;30m▐[0;1;30;47m░▐[0m    [1m [0m [1m [0;1;32m                [0;1;37m [0m [1m [0;1;32m                 [0;1;37m [0m [1m [0;1;32m            [0m [1m [0m   [1m [0;1;32m          [0m
+[36m▌[0;1;30m█[0;1;30;47m▒[0;1;30;40m▌[0m    [1m [0m [1m [0;1;32m                [0;1;37m [0m [1m [0;1;32m                 [0;1;37m [0m  [1m [0;1;32m           [0m [1m [0m   [1m [0;1;32m          [0m
+ ▓[1;30;47m▓[0m     [1m [0m [1m [0;1;32m                [0;1;37m [0m [1m [0;1;32m                 [0;1;37m [0m [1m [0;1;32m            [0m [1m [0m   [1m  [0;1;32m         [0m
+[1;30m▐▀▄▄[0m    [1m [0m [1m [0;1;32m                [0;1;37m [0m [1m [0;1;32m                 [0;1;37m [0m    [1m [0;1;32m         [0;1;30m [0;1;37m [0m [1m [0;1;32m            [0m
+[1;30m █[0;1;30;47m▀[0m▓[1;30;47m▓[0m   [1m [0m [1m [0;1;32m                [0;1;37m [0m [1m [0;1;32m                 [0;1;37m [0m   [1m [0;1;32m          [0m [1m [0m   [1m [0;1;32m          [0m
+[1;30m▐▄▀▀[0m    [1m [0m [1m [0;1;32m                [0;1;37m [0m [1m [0;1;32m                 [0;1;37m [0m   [1m [0;1;32m          [0m           [1;30m▄▄[0m
 ░░[1;30m▄▄▄[0;1;30;47m▓▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄[0;36m  [0;1;32m       [0m                 [1;32m   [0;36m [0;37m░░[0;36m            [0m         [1;30m▄▄ [0;1;30;47m▄[0m
 [1;30m▀▀▀▀[0m▀▀[1;30m▀▌▀▀▀▀▀▀▐[0;1;30;47m▄▓▓[0m▒[1;30m█▓▓▓█[0;1;30;47m▄▄▄▄▄[0m▓▓▓[1;30m█[0;1;30;47m▄▄[0;1;30;40m███[0m░░░[1;30m█[0;1;30;47m▄[0;1;30;40m███[0m▒▒[1;30;47m▓▓[0;1;30;40m▀█▄▄▄▄▄▄▄▄▄▄▄▄▌▄▄▄▄▄▄ [0;1;30;47m▓[0m
 [1;30m▐[0;1;30;47m▀[0;1;30;40m▓[0m                                    [1;30m  [0m        [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: d5068535f551f4b8f18279e17adb57405458897cf4ef925d9b5221d89314ad42
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PE-DGT2.ANS by Public Enemy (fad0593); released in fad0593 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
 Write-Host '
-                                                               [1;34m<FaD tm. May ''93>[0m
+                                                               [1;34m                 [0m
 
 
 
@@ -47,9 +47,8 @@ Write-Host '
                          [1;32m▀▄ [0;32m▀▀▀▀ [0;1;32m▄▄▄▄▀▄▄▄▄ [0;32m▀▀▀▀ [0;1;32m▄▀[0m
                            [1;32m▀▀▀▀▀▀[0m         [1;32m▀▀▀▀▀▀[0m
 [1;32m [0m──────────────────────────────────────────────────────────────────────────────
-    [1mDigital Ghost Town [0m─[1;30m/[0m─ [1m6o4.983.o198 [0m─[1;30m/[0m─ [1mSysOp: Techno Trip [0m-[1;30m/[0m- [1m24oo Baud[0m
-         [1m13o Megz Online [0m─[1;30m/[0m─ [1mFreelancing Artistic Designers Distro Site[0m
-        [1mTelegard 2.7 [0m─[1;30m/[0m─ [1mNup: None Presently [0m─[1;30m/[0m─ [1mCo-SysOp Public Enemy[0m
-                        [1mAnzi by Public Enemy <FAD> o5.o2.93[0m
-[1m [0m──────────────────────────────────────────────────────────────────────────────
-                                                       [1mDigital Ghost Town (tm)[0m'
+    [1m                   [0m─[1;30m [0m─ [1m             [0m─[1;30m [0m─ [1m                   [0m [1;30m [0m  [1m         [0m
+         [1m                [0m─[1;30m [0m─ [1m                                          [0m
+        [1m             [0m─[1;30m [0m─ [1m                    [0m─[1;30m [0m─ [1m                     [0m
+                        [1m                                   [0m
+[1m [0m──────────────────────────────────────────────────────────────────────────────[0m'

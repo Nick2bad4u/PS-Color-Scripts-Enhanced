@@ -5,7 +5,7 @@
 # Source SHA-256: e87970d7a72abc73cc2199f33ba0821e7282e00ff1f0b48e5a37f7340996d7b6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TG-ELX1.ICE by TooN GooN (iCE); released in ice9503a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Elixir
 # SAUCE Author: TooN GooN
 # SAUCE Group: iCE
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[30mThe usual greets: MagneticM, Syntax, Gwar, Gman, Tempus, Slothy and all of iCE..[0m
+[30m                                                                                [0m
 [1;42m tg[iCE][0;32m██[0;1;42m [0;32m█████▀▀▄▄▄▄[0;1;33m▀▀▀▀▄▄▄[0;32m▀▀████████▌ [0;1;33m▐████████▌[0;32m▐▀▀[0;1;33m▄▄ ▀█▀▀▄▄▄▀▄███▀▀▀▀▀██████[0m
 [32m██████████[0;1;42m  [0;32m███▄██████▀▀▀▀▄▄[0;1;33m▀▀█▄▄[0;32m▀█████▌ [0;1;33m▐████████ ▄███▄██▄████ ▀▀▄▄▄███████████[0m
 [32m███▀[0;30;42m■[0;32m▄███[0;1;42m  [0;32m██[0;1;42m [0;32m████▀▀[0;1;33m▄▄████▄▄▄[0;32m▀ [0;1;33m███▄[0;32m▀███  [0;1;33m████████ ████████████ ▄████████████████[0m

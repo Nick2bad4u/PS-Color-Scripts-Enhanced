@@ -5,7 +5,7 @@
 # Source SHA-256: dc126ed9ce28118e7f3af6f77fd1cb5d3c2f000480436cbe911ff374a1d4434f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL-OPOST.ANS by Rawlock (Opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Outpost
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -16,7 +16,7 @@
 
 Write-Host '
                       [34m▄[0;1;34;44m▄[0;1;34;40m▀▀[0;34m ▓[0m
-[1;30mansi by[0m [1;30mrawlock! opx[0m [1;34;44m ▓[0m  [34m▀[0;37m [0;34m [0;37m ▄▄▓▀[0;1;30m .outpost. /T\empest[0m [1;30mbbs software . . .[0m ▄▄▓▀
+[1;30m       [0m [1;30m            [0m [1;34;44m ▓[0m  [34m▀[0;37m [0;34m [0;37m ▄▄▓▀[0;1;30m                    [0m [1;30m                  [0m ▄▄▓▀
 [1;30m▄▄[0m ░ [1;30m▄▄▄▄▄▓▄▄▄▄▄▄▄▄▓▄ [0;34m▀[0;1;34m▀■[0m ▀[1;47m░▄▄▓ [0m [1;30m▄[0m  [1;30m▄▄▄ ▄▄▄  ▄  ▄▓▄ ░ ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄[0m ▀[1;47m░▄▄▓ [0m [1;30m▄[0m
 [34m▄▄▄▄▓▄▄▄▄▄▄▄▄ [0;1;30m▀[0;34m ▄▄▄▄▄▄▄[0;1;34;44m░[0;34m█▀[0;37m  [0;1;37;47m [0;1;37;40m█[0;1;37;47m█[0m█ [34m▄▄[0;1;34;44m░[0;34m▄▄▄▄▄▄▓▄[0m   [34m▄▄▄▄▄▄▄▄▄▄ [0;37m  [0;34m▄▄▄▄▄▄▄▄▄[0;37m   █[0;1;37;47m█▓[0m█▄▄
 [34m█[0;1;34;44m▓▀[0;34m█▀▀[0;37m ▄▄ [0;34m▀▀[0;37m [0;32m▄▓▄[0;37m [0;34m▀[0;37m ▄  ▄ [0;34m█ [0;37m▀▀█[0;1;37;47m██[0m█▄▄ [34m▀▀[0;37m ▄▄ [0;34m▀▀[0;37m [0;32m▄[0;1;32;42m▓[0;32m▄[0;34m ▀[0;1;34m▀[0m ▄▄ [34m▀▀[0;37m [0;32m▄[0;1;32;47m░[0;32m▄[0;37m [0;34m▀▀[0;37m ▄▄ [0;34m▀[0;1;34m▀[0m ▀▀█[1m▀▓▀[0m [34m▄[0m
@@ -32,9 +32,6 @@ Write-Host '
 [1;30m▀[0;32m▀[0;1;32;42m▀[0;1;32;47m▓[0;1;32;40m▀[0m [1;30m▀▀▀▀ ▀ ▀▀▀▀[0m [1;30m▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m   [1;30m▀▀▀[0m  [1;30m  ▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓rl![0m░[1;30m▀▀[0m▀[1;30m▀[0;1;30;47m▓[0m
           [1;30m  ▀■▄ ■▀[0m     [1;30m▄[0m    [1;30m▄[0m mAStER[1;30m:[0m iRONNUkE!     [1;30m▀[0m [1;30m■[0m
         ░       [1;30m  [0m
-       [1m  [0mcREW[1;30m:[0m [1mzER0![0;1;30m/[0mm22, [1miNjECtOR j[0;1;30m/[0mpWA[1;30m^[0msR!, [1mrAGMAN[0m, [1mnEWT[0m, [1mwiREFiRE[0m
-          [1m      [0m  [1;30m  [0mmAjOR tRADERS[1;30m:[0m [1msTONEcOLD[0m, [1mrAVAGER[0;1;30m  [0m
-       ░ [1;30m▀[0m                       [1;30m▓ [0m                                 [1;30m▀[0m   ░
-          Node #[1m1[0m +46[1;30m-[0m([1mX[0m)XX[1;30m-[0mXXXXXX[33m [0;37mVFC  Node #[0;1;37m2[0m +46[1;30m-[0m([1mX[0m)XX[1;30m-[0mXXXXXX[33m [0;37mV34+[0m
-    [37m  [0;1;30m   [0m Node #[1m3[0m +46[1;30m-[0m([1mX[0m)XX[1;30m-[0mXXXXXX[33m [0;37mV34  Node #[0;1;37m4[0m +46[1;30m-[0m([1mX[0m)XX[1;30m-[0mXXXXXX[33m [0;37mVFC  [0m
-[1;30m [0m'
+       [1m  [0m    [1;30m [0m [1m     [0;1;30m [0m     [1m          [0;1;30m [0m   [1;30m [0m     [1m      [0m  [1m    [0m  [1m        [0m
+          [1m      [0m  [1;30m  [0m             [1;30m [0m [1m         [0m  [1m       [0;1;30m  [0m
+       ░ [1;30m▀[0m                       [1;30m▓ [0m                                 [1;30m▀[0m   ░[0m'

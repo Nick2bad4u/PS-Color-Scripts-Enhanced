@@ -5,7 +5,7 @@
 # Source SHA-256: 7c7783a678d9770321802f1cbf2b869f993da165fc6348a6986dbeb5429bd071
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TXT-LC1.ANS by The Textorcist (std); released in std-1203 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Elixir (LC SCREEN)
 # SAUCE Author: The Textorcist
 # SAUCE Group: std
@@ -31,10 +31,4 @@ Write-Host '
              [32m▓▓[0;1;33;42m▓[0;32m█   [0;1;32m░[0;32m▀[0;1;33;42m▓█[0;1;32;40m▓▓[0;1;33;42m░▒▓[0;1;33;40m▀▀▀▀▀▀[0;1;33;42m██[0;1;33;40m▓[0;1;32;40m▀[0;32m [0;1;30m ▄[0;1;30;42m▓[0;1;30;43m▓[0;1;30;40m▀[0m▒▒[1;30m▄ [0m░[1;30;42m▒[0;1;30;40m▀[0;1;30;42m▓[0m░[1;30;42m▒▓[0;1;30;40m▌ [0;1;30;42m▓▓[0;1;30;40m  [0m░[1;30;42m▓▓[0;1;30;40m▀[0m░░[1;30;42m▓▓[0m░░[1;30m▄▓▓[0;1;30;42m▒▓[0;1;30;40m▄[0m
             [32m▒▒░▓▓▓    ▀[0;1;33;42m▓▓[0;1;33;40m▓▄[0;32m    [0;1;33m▄▄▄▓▓▀[0;1;32m▀[0;32m  [0;1;30m▐[0;1;30;42m▒[0;1;30;40m▌   [0m░[1;30m▀ [0m▒[1;30;42m▓[0;1;30;40m ▄█[0m░[1;30;42m▒▓[0;1;30;40m ▐[0;1;30;42m▒[0;1;30;40m▌ ▓[0;1;30;42m▒[0;1;30;40m▄▄[0;1;30;43m▓[0;1;30;40m▀▐[0;1;30;42m▒[0;1;30;40m▀[0m [1;30m▀[0;1;30;42m▓[0;1;30;40m▄▄[0m [1;30m▀[0;1;30;43m▓[0m
                 [32m▒▒▒[0m     [32m▀[0;1;33;42m▒▒[0;32m██[0;1;33;42m░░▓▓▀[0;1;33;40m▀[0;32m▀    [0;1;30m ▀[0;1;30;42m▓[0;1;30;40m▄  ▄[0;1;30;42m▓▒▒[0;1;30;40m▀▀▀[0;1;30;43m▓[0;1;30;40m▌▐[0;1;30;42m▒[0;1;30;40m▄▄[0;1;30;42m▒▓[0;1;30;40m ░[0;1;30;42m▓[0;1;30;40m▄   [0m [1;30;42m▒[0;1;30;40m▌[0m [1;30m▄ [0m [1;30m▀[0;1;30;42m▓▓[0m
-                           [32m▀▀▀▀[0;1;30mtxt[0m      [1;30m   ▀[0;1;30;43m▓[0m▒▒[1;30m▀▀    ▒▒  ░░▒[0;1;30;42m▓[0;1;30;40m▓▓▄▀▀[0m▒▒ [1;30m▐[0;1;30;42m▓[0m [1;30m▀[0;1;30;42m▓▓[0;1;30;40m▄[0;1;30;42m▒[0;1;30;40m▀[0m
-
- [1;30m ----cut it here and change whatever you need to----[0m
-
-[1;33m [0;1;30m this is one exclusively for my homeslice sociopath (see the elixir thingy?) :)[0m
-[1;33m [0m     [1;30mhope it works for what he needs it for.. hi''s to spread the disease.[0m
-[1m [0m          [1;30mspecial greet to the one and only avenging angel (27inch)[0m'
+                           [32m▀▀▀▀[0;1;30mtxt[0m      [1;30m   ▀[0;1;30;43m▓[0m▒▒[1;30m▀▀    ▒▒  ░░▒[0;1;30;42m▓[0;1;30;40m▓▓▄▀▀[0m▒▒ [1;30m▐[0;1;30;42m▓[0m [1;30m▀[0;1;30;42m▓▓[0;1;30;40m▄[0;1;30;42m▒[0;1;30;40m▀[0m'

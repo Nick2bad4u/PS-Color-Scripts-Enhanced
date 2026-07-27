@@ -5,7 +5,7 @@
 # Source SHA-256: 6aa7eff6119615dae36a37a91610683cf8c58c290e9ad3971d06ce040acc9af2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HT-DSTR.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DESERT STORM
 # SAUCE Author: HETERO
 # SAUCE Group: LKCC
@@ -25,7 +25,7 @@ Write-Host '
 [32m░  [0;1;33;43m▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▄▄   ▄[0;1;33;43m▒▒▒[0m [1;33;43m▓▓[0;1;33;40m▄  [0;32m░   [0;1;33m▀[0;1;33;43m▓▓▓[0;1;33;40m▄  [0;1;30;40m░ [0;32m░░  [0;1;33m▄▀ [0;1;33;43m▓▓[0m [1;30;40m░   [0;1;33;40m▄▄[0;1;33;43m▓[0;1;33;40m▄ ▀[0;1;33;43m▓[0m   [1;33;40m▄ [0;32m░   [0;1;33;43m▓▓▓▒[0m
 [32m░ [0;1;33m█[0;1;33;43m▓[0;1;33;40m▀▀  ▀▀[0;1;30;40m▄[0;1;33;43m▓▓▓▓▓▓▓▒▒▒[0;1;33;40m▀  ▀[0;1;33;43m▓▓▓[0;1;33;40m▄▄[0;1;33;43m▓▓[0;1;33;40m▄  ▀[0;1;33;43m▓▓▓[0;1;33;40m▄▄▄▄▄[0;1;33;43m▓[0;1;33;40m▀  ▄[0;1;33;43m▓▓[0;1;33;40m▄  [0;32m░░ [0;1;33m▀[0;1;33;43m▓▓▓[0;1;33;40m▄  ▄[0;1;33;43m▓[0m [1;30;40m░[0;32m░ [0;1;33m▄[0;1;33;43m▓▓▓▓[0m  [1;30;40m░[0m
 [1;30;40m▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄ [1;33m▀▀▀▀ [0m▄▄[1;30m▄[0m▄▄ [1;33m▀▀[0;1;33;43m▓▓▓▓[0;1;33;40m▀ [0m▄▄  [1;33m▀▀▀▀▀  [0m▄ [1;33m▀▀▀[0;1;33;43m▓▓[0;1;33;40m█▀ [0m▄▄▄  [1;33m▀[0;1;33;43m▓▓▓▓[0;1;33;40m▀ [0m▄ [1;33m▀[0;1;33;43m▓▓▓▓[0m ▄▄▄
-                                                                        [1;33mH[0mETERO
+                                                                        [1;33m [0m     
                                                                         [1;30m·LKCC·[0m
 
 [1;30m    [0;1;37m┌──[0m──[1m──[0m───[1m─[0m───[33m──[0;37m──[0;33m────────────────────────────────────[0;37m──[0;33m──[0;37m───[0;1;37m─[0m───[1m──[0m──[1m┐[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 2ce85227c921307b91b3a3cc4d94c43c66e8569482084e50d120ce2c6c66344e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-SPOOF.ANS by the knight (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: spoof matrix
 # SAUCE Author: the knight
 # SAUCE Group: fuel productions
@@ -38,14 +38,4 @@ Write-Host '
 [1;34;44m██▒▒░[0;1;34;40m [0;36m$[0;1;30m         ▄ ▄▄[0m▄▓[1m░ [0;36m  [0;34m▄▄[0;37m▀▀[0;34m▄ [0;33m▄[0;1;31;43m▄[0;34m [0;33m▀[0;1;31m▀[0;1;31;43m▀[0;1;31;40m█[0;33m█[0;34m ▄[0;35m▄░[0;1;34;44m ░░[0;34m▀[0;1;34;44m▄▄▄████[0;1;34;40m█[0;1;34;44m▄ [0;34m▄[0;35m▀▄[0;34m▐[0;1;34m█[0;1;34;44m▄[0;1;34;40m██[0;1;34;44m▀▀▄[0;1;34;40m█████████[0;1;34;47m▒▒[0m
 [1;34;44m▓▓░░░[0;34m▄▄▄[0;30;44m▓▓[0;34;40m▄▄▄▄█▄▄▄[0;1;34;44m░░[0;34m▄[0;1;37m  [0;36m'' [0;34m▄[0;1;34;44m░░[0;30;44m░░[0;34;40m██▄[0;33;40m▀[0;1;31;40m▄█▀▄[0;33m▄▀[0;34m▐█[0;35m▌[0;34m█[0;1;34;44m▄▄[0;1;34;40m█████[0;1;34;47m▓▓[0;1;34;40m████▀[0;1;34;44m▌[0;34m█▄█[0;1;34m████████████████[0;1;34;47m░░[0m
 [1;34;44m▒▒▄▄  ▓▓▄▄░░▓▓▓▓▓▓▓▓▀[0;1;37;40m [0;34m▄▄█[0;1;34;44m▄▓▓[0;1;34;40m██[0;1;34;44m▄[0;34m█▄[0;33m▀▀[0;34m [0;1;31m▀[0;33m▀[0;34m▄█[0;1;34;44m [0;34m█▀▄[0;1;34;44m▀[0;1;34;40m█[0;1;34;47m▓[0;1;34;40m█[0;1;34;47m▓▓▒░░▒▓[0;1;34;40m██[0;1;34;44m█▄▄▄[0;1;34;40m█[0;1;34;44m▀[0;1;34;40m██[0;1;34;47m▓[0;1;34;40m██[0;1;34;47m▓▓[0;1;34;40m██[0;1;34;47m▓▓▓▒▒▒  [0m
-[1;34;44m░░▀[0;1;34;40m█[0;1;34;47m▓▓▒▒▓[0;1;34;40m█[0;1;34;44m▒▒[0;1;34;40m█████[0;1;34;44m▀[0;1;34;40m█[0;1;34;44m▄[0;1;34;40m▄███████[0;1;34;47m▓▓[0;1;34;40m███[0;1;34;44m▄▄▄▄▄▄[0;1;34;40m██[0;1;34;44m█▄▄▄███[0;1;34;40m██[0;1;34;47m▓▒▒▓[0;1;34;40m██[0;1;34;44m██████[0;1;34;40m██[0;1;34;44m▀[0;1;34;40m█████████████[0;1;34;47m▒▒[0m
-
-what are you talking about[1;30m [0;1;37mspoof[0;1;30m [0mis [1mall ascii[0m!?
-[1;30mthat''s just fucking downright racist behavior dude!... [0m
-[1;30muhwell... they shouldn''t have asked me in the first place then.... and i [0m
-[1;30mshouldn''t have wasted my time trying...[0m
-
-[1;30mthis is my second ascii attempt ever.. i think i''m gonna give it up..[0m
-
-
-                                                              [1;30mthe knight / fuel[0m'
+[1;34;44m░░▀[0;1;34;40m█[0;1;34;47m▓▓▒▒▓[0;1;34;40m█[0;1;34;44m▒▒[0;1;34;40m█████[0;1;34;44m▀[0;1;34;40m█[0;1;34;44m▄[0;1;34;40m▄███████[0;1;34;47m▓▓[0;1;34;40m███[0;1;34;44m▄▄▄▄▄▄[0;1;34;40m██[0;1;34;44m█▄▄▄███[0;1;34;40m██[0;1;34;47m▓▒▒▓[0;1;34;40m██[0;1;34;44m██████[0;1;34;40m██[0;1;34;44m▀[0;1;34;40m█████████████[0;1;34;47m▒▒[0m'

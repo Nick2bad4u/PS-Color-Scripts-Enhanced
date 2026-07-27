@@ -5,7 +5,7 @@
 # Source SHA-256: 3fb7614da269783d5ed6f1f8d7abad9e501edd252da90b4d1e25af271f8f3ec4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-SB.ANS by Multiple Artists (blade/lazurus); released in blade-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: simply bliss (gj[BLDE]+ill[LAZ])
 # SAUCE Author: Multiple Artists
 # SAUCE Group: blade/lazurus
@@ -31,5 +31,4 @@ Write-Host '
             [1;34;44m███▌[0m ▀[1;47m▀██[0;1;33;40m██[0;1;37;47m▄[0;1;37;40m█▄[0m▄ [1;31m▀▀[0;1;31;41m▓[0;1;31;40m▄░[0;31m▀ [0;1;37;47m███████▀[0;1;37;40m▀▀[0m▀ [1;47m█[0;1;40m▄[0;1;47m▓[0;1;40m▀[0m▀[34m▄[0;1;34m▄▄▄▄[0;1;34;44m▄██████▓[0;34m░[0m
             [1;34;44m█[0;1;34;47m▓[0;1;34;44m██▄[0;34m▄ [0;37m▀[0;1;37m▀▐[0;1;37;47m▀████[0;1;33;40m██[0;1;37;47m▄[0;1;37;40m▄[0m▄ [1;47m▄▓▓▀[0;1;40m▀▀▀[0m▀ [34m▄░[0;37m▀[0;1;37m▀▀[0m▀[34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;47m▓▓▒▓█▓▓█[0;1;34;44m█████▌[0m
             [1;34;47m▓▒▓▓[0;1;34;44m████▄[0;1;34;40m▄[0;34m▄ [0;37m▀[0;1;37m▀▀▀▀▀[0;1;37;47m▀███▄[0;1;37;40m▄[0m▄ ▄ [1;34;44m▄░▓█[0;1;34;47m▓▓[0;1;34;44m███████[0;1;34;47m▓[0;1;34;44m████████▓▀[0;34m▀[0m
-             [37m░[0m
-                                      [1;37mbliss[0m'
+             [37m░[0m'

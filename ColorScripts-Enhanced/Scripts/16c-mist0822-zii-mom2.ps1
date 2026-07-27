@@ -5,7 +5,7 @@
 # Source SHA-256: f9431f896b28f29846b69a53f211a38963b6419ac439d0c88b2074e2e779ae94
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-MOM2.ANS by Zeus II (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Menu for Monero BBS
 # SAUCE Author: Zeus II
 # SAUCE Group: Mistigris
@@ -39,5 +39,4 @@ Write-Host '
 [37m [0;32m░[0;37m  [0;32m▓[0;37m                                                                      [0;32m▒[0m
 [37m [0;32mZ[0;37m [0;36m░[0;32m█▄[0;1;30m▀▄▄▄▄[0m                                                           [1;30m▄▄▄▀[0;32m▄▓[0;36m░[0;37m [0;32m░[0m
 [37m [0;32mI[0;37m [0;36m▒[0;32m█[0;37m [0;32m▀▀▄▄[0;1;30m▀▀▀▄▄▄▄[0m                                           [1;30m▄[0m  [1;30m▄▄▄▄▀▀[0;32m▄▄▄▀▀[0;37m [0;32m█[0;36m▒[0m
-[37m [0;32mI[0;37m [0;36m█[0;36;42m▄▄▄▄▄▄▄▄▄[0;1;32;46m▀▀▀▀▀▀▀▀▀[0;36;42m▄▄▄[0;1;32;46m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36;42m▄▄[0;1;32;46m▀▀▀▀▀▀▀▀▀▀[0;36;42m▄▄▄▄▄▄▄▄▄▄▄[0;36;40m█[0m
-[37;40m  [0;1;30;40mHave an ANSI request? Hit me up on Twitter @Zeus_II or kasslerborr@gmail.com[0m'
+[37m [0;32mI[0;37m [0;36m█[0;36;42m▄▄▄▄▄▄▄▄▄[0;1;32;46m▀▀▀▀▀▀▀▀▀[0;36;42m▄▄▄[0;1;32;46m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36;42m▄▄[0;1;32;46m▀▀▀▀▀▀▀▀▀▀[0;36;42m▄▄▄▄▄▄▄▄▄▄▄[0;36;40m█[0m'

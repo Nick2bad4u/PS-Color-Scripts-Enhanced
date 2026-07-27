@@ -5,7 +5,7 @@
 # Source SHA-256: a5bedfa96a71c16c4154298379d5ee8de4642ec63b8ea8dcae07fb649fc7c351
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MO-SAUC.ANS by Magnatop (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-16
 # Columns: 1-80
 
@@ -21,7 +21,4 @@ Write-Host '
 [1;37;47mmO[0;30;47m░░[0;37;40m███[0m   [35;40m▀▀▀[0;1;31;45m░░[0;35m▄  [0;1;31m [0m  [35m▀[0;1;31;45m░░[0;30;45m▓[0;35;40m [0;37;40m [0;35;40m▀▀▀▀▀[0m   [35;40m▀[0m     [30;45m▓[0;35;40m▀▀▀▀▀▀▀▀▀▀ ▀▀▀[0;30;45m▓[0;35;40m█[0;1;31;45m░[0;35m▄▄██████[0;30;45m▓[0;37;40m [0m    [30;47m▓[0;1;30;47m▄[0m█[30;47m▓[0;37;40m  █[0m
 [30;47m░▒▒▒░░[0;37;40m▀[0;30;47m░░░░▓[0m      [1;31;40m [0m                                                      ▀[30;47m▓[0;37;40m▌  ██[0m
 [30;47m█▓▓▓[0;37;40m  [0;30;47m▓[0;37;40m██▀▀▀▀▀▀▀▀▀▀▀▀▀██[0;30;47m░▓▓[0m                       [37;40m  ▀  ▀▀ ▀[0;30;47m▓░░[0;37;40m▀▀▀▀▀▀▀▀▀▀▀▀[0m
-      [30;47m▓▓▓[0m             [30;47m▓▓[0m
-                        [1;31;40mauthor[0m [35m;[0m              [35m [0m
-                         [1;31mgroup[0m [35m;[0m              [35m [0m
-                         [1;31msauce[0m [35m;[0m              [35m [0m'
+      [30;47m▓▓▓[0m             [30;47m▓▓[0m'

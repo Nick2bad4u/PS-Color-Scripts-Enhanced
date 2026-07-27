@@ -5,7 +5,7 @@
 # Source SHA-256: f2e750aa39aacde65fc6d8edb312b53ad7c1845e8bc5b9a053dcbbc873ceadff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IMPACID2.ANS by Sonic (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 29-54
 # Columns: 1-80
 
@@ -30,9 +30,9 @@ Write-Host '
             [1;33;43m▌    ▄█[0;1;33;40m▄[0m                             [1;33;40m▀[0;1;33;43m▄▄ ▀[0;1;33;40m▄  ▄▄▀[0m
            [1;33;40m█▀▀▀▀▀[0m                                   [1;33;40m▀▀▀▀▀[0m
 
-       [35mS[0;1;35mysOp[0;35ms[0;1;30m·[0;33mM[0;1;33mara Jad[0;33me[0;1;30m·[0;33mB[0;1;33moba Fet[0;33mt [0;1;30m■ [0;35mC[0;1;35moSysOp[0;1;30m·[0;33mH[0;1;33mavo[0;33mk [0;1;30m■ [0;35m2 [0;1;35mNode[0;35ms [0;1;30m■ [0;35m1[0;1;35m.65 gi[0;35mg[0m
+       [35m [0;1;35m    [0;35m [0;1;30m [0;33m [0;1;33m       [0;33m [0;1;30m [0;33m [0;1;33m       [0;33m  [0;1;30m■ [0;35m [0;1;35m      [0;1;30m [0;33m [0;1;33m   [0;33m  [0;1;30m■ [0;35m  [0;1;35m    [0;35m  [0;1;30m■ [0;35m [0;1;35m      [0;35m [0m
               [35mH[0;1;35mST Nod[0;35me[0;1;30m·[0;33m8[0;1;33m18[0;33m.[0;1;33m241[0;33m.[0;1;33m458[0;33m2 [0;1;30m■ [0;35mv[0;1;35m32 Nod[0;35me[0;1;30m·[0;33m8[0;1;33m18[0;33m.[0;1;33m241[0;33m.[0;1;33m564[0;33m3[0m
-[33m    [0;35m9[0;1;35m600[0;35m+ [0;1;30m■ [0;35mR[0;1;35munning Celerity/CelerityNE[0;35mT [0;1;30m■ [0;35mA[0;1;35mnd plenty of Philes On-Line[0;35m![0m
+[33m    [0;35m [0;1;35m   [0;35m  [0;1;30m■ [0;35m [0;1;35m                          [0;35m  [0;1;30m■ [0;35m [0;1;35m                           [0;35m [0m
 
-                               [35mA[0;1;35mNS[0;35mi[0;1;30m·[0;33mS[0;1;33moni[0;33mc[0;1;30m·<[0mAC[1mi[0mD[1;30m>[0m
+                               [35m [0;1;35m  [0;35m [0;1;30m [0;33m [0;1;33m   [0;33m [0;1;30m  [0m  [1m [0m [1;30m [0m
 [30m█[0m'

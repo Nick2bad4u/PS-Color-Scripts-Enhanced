@@ -5,7 +5,7 @@
 # Source SHA-256: 61bbc146c9f3d26e1cefd3385da4edb1bb8ffd041b96d52ebb5c4db0dd934651
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVG-DS.ANS by Avenging Angel (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dark Sorrow
 # SAUCE Author: Avenging Angel
 # SAUCE Group: Hieroglyphics
@@ -32,5 +32,4 @@ Write-Host '
                  [1;34;47m▓[0;1;34;44m▄[0;34;47m▒[0;37;40m [0;1;37;41m▒[0;1;31;41m▄[0;1;31;47m▓[0m [1;35m░[0;1;31m▐[0;1;31;47m██[0;31m▌[0;1;37;41m▒[0;1;31;41m▄[0;1;31;47m▓[0m [34;47m▒[0;1;37;47m▀[0m [1;41m▒[0;1;31;41m▄█[0;1;37;41m▒[0;1;31;41m▄[0;1;31;47m▓[0m [1;34;44m█▄[0;34;47m▒[0;1;37;47m▀[0m [1;41m▒[0;1;31;41m▄[0;1;31;47m▓[0m [1;35;45m▀[0m [1;41m▓░[0;1;31;47m▓[0m [1;30mavg          [0m  [1;34m [0m
                  [1;34;47m░▀[0;34;47m▓[0;37;40m [0;1;37;41m░[0;1;31;47m▀░[0;1;31;40m▄▄[0;1;31;41m█▀[0;31m▀[0;37m [0;1;37;41m░[0;1;31;47m▀░[0m [34;47m▓░[0;1;30;40m   [0m [1;41m░[0;1;31;47m▀░[0m [1;34m█▓[0;34;47m▓░[0;37;40m [0;1;37;41m░[0;1;31;47m▀░[0m [1;35m░[0m
                  [1;30m▄[0;33m▄[0;1;37m▄▄▄[0;1;33m▄▄▄[0;1;37m▄[0;1;33m▄[0;1;37m▄[0;33m▄[0;1;37m▄[0;33m▄▄[0;1;30m▄[0m [1;34;44m▄[0;34;47m▒[0;1;34;40m [0;1;30;40m▄[0;33m▄[0;1;31m▄[0;1;30m▄▄▄[0;34m [0;1;34;47m▓[0;1;34;44m█▄[0;34;47m▒[0;37;40m [0;1;30;40m▄[0;33m▄[0;1;37m▄[0;1;31m▄[0;33m▄[0;1;30m▄▄▄▄[0m
-               [1;33m                   [0;1;34m▓[0;34;47m▓[0;1;34;40m [0;1;30;40m      [0;34m [0;1;34;47m░▀[0;1;34;40m▓[0;34;47m▓[0m
-               [1;33;40m                   [0m          [1;34m [0m'
+               [1;33m                   [0;1;34m▓[0;34;47m▓[0;1;34;40m [0;1;30;40m      [0;34m [0;1;34;47m░▀[0;1;34;40m▓[0;34;47m▓[0m'

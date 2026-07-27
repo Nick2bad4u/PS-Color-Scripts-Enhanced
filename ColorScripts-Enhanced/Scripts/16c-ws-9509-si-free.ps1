@@ -5,7 +5,7 @@
 # Source SHA-256: fbb77b1a305bb9eacf7c9a556e2f4f5c4150601f08976ebba6307da2e6f50acd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SI-FREE.ANS by soul survivor (ws-9509); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: free ansi
 # SAUCE Author: soul survivor
 # SAUCE Date: 19950904
@@ -55,7 +55,4 @@ Write-Host '
 
 [1;35m████████████████[0;1;35;45m▓[0;1;35;40m███████████████████████████████████[0;1;35;45m▒[0;1;35;40m█████████████████████████[0;1;35;45m▓[0m
 [1;35m████[0;1;35;45m▓[0;1;35;40m███████████████████████████████[0;1;35;45m▓[0;1;35;40m███████████████[0;1;35;45m▓[0;1;35;40m██████████████████████████[0m
-[1;35;45m▀▀▀▀▒▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀▀▀▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀[0m
-
-                           [1;44mp[0;1;40mic by soul survivor^warner[0m
-                           [1;44mt[0;1;40mouchups by cool t^warner[0m'
+[1;35;45m▀▀▀▀▒▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀▀▀▀▀▀▀▀▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀[0m'

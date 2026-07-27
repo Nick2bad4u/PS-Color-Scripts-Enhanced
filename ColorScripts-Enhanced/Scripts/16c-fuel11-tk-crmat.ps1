@@ -5,7 +5,7 @@
 # Source SHA-256: 0ba8bd7cdebc7bb044de651551c5cda3d0c1f8a4eae431d89c14ca6a7da010ec
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TK-CRMAT.ANS by The Knight (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Crypt matrix
 # SAUCE Author: The Knight
 # SAUCE Group: Fuel
@@ -36,10 +36,4 @@ Write-Host '
  [31m▌[0;30;41m░[0;1;37;41m [0;31m▄▀▀█[0;30;41m░[0;31;40m [0;35;40m▄█▀[0;37;40m  [0;35;40m░▄▌[0m      [32;40m▓▄▓[0;1;32;42m░[0;32m▄[0;1;32;42m▒[0;32m▄▄▓▄▄▓[0m      [35m▐▄░[0;37m  [0;35m▀█▄[0;31m [0;30;41m░[0;31;40m█▀▀▄[0;1;37;41m [0;30;41m░[0;31;40m▐[0;37;40m ▓[0;31;40m■[0;37;40m ░▀▀▓▄▓▓[0;1;37;47m░[0m▀▀░  [1;47m░[0m▀
  [31m▀▀[0;30;41m▒[0;1;31;41m░▓▒░[0;31m█▀[0m       [1;35;45m░[0m        [32m▀▀[0;1;32;42m▒▀▀▀[0;32m▀▀[0m        [1;35;45m░[0m       [31m▀█[0;1;31;41m░▒▓░[0;30;41m▒[0;31;40m▀▀[0;37;40m▄▄ ▄▄░  ▀ ▀▀ ▄▄ ▄▄[0;1;37;47m░[0m▀
      [31m█▄▐[0m          [1;35;45m░[0;35m▄[0m                    [35m▄[0;1;35;45m░[0m          [31m▌▄█[0;37m [0;31m▄[0;37m [0;31m▄ [0;37m ▀▀▄▓[0;1;37;47m▓[0;1;37;40m▌[0m░  [1m▐[0;1;47m░[0m█[1;47m▒[0m▀▀▓▓░
-       [31m▐[0m           [35m▀░[0;37m    [0;35m▄▄[0;1;35;45m░▒▓[0;35m▄[0;1;35;45m▒░[0;35m▄▄[0;37m    [0;35m░▀[0;37m tk[0;1;37m([0mfuel[1m)[0m  [31m▌[0m   [30;41m░[0;31;40m▀▀▀[0;37;40m ▀▄▄[0;1;37;47m█[0;1;37;40m▀[0;1;37;47m▀[0m█▄ ▀[1m▀[0;1;47m█▄[0m▀ ░░
-
-: cut here
-
-: this wasn''t a requested ansi, but just a token of appreciation towards nail
-: of fire and mean scheme. hope you like this nail, and that you can find some
-: use for it.. 100% original shit drawn by [1mthe knight[0m of [1mfuel[0m in 1997[0m'
+       [31m▐[0m           [35m▀░[0;37m    [0;35m▄▄[0;1;35;45m░▒▓[0;35m▄[0;1;35;45m▒░[0;35m▄▄[0;37m    [0;35m░▀[0;37m tk[0;1;37m([0mfuel[1m)[0m  [31m▌[0m   [30;41m░[0;31;40m▀▀▀[0;37;40m ▀▄▄[0;1;37;47m█[0;1;37;40m▀[0;1;37;47m▀[0m█▄ ▀[1m▀[0;1;47m█▄[0m▀ ░░[0m'

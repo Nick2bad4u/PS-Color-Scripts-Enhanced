@@ -5,7 +5,7 @@
 # Source SHA-256: 23c6178a281d13ea8c3a233e3565b1262c691a50cdbc5ff00ce0707cfeff0280
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TLTA@XPL.ANS by Timeless + The Avenger (ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: explizit
 # SAUCE Author: tl/ta
 # SAUCE Group: ecolove
@@ -30,7 +30,4 @@ Write-Host '
    [35m█[0;1;35;45m▐███▌[0;35m█[0m             [35m█[0;1;35;45m░░ [0;35m███ ▐[0;1;35;45m▐██▌[0;35m█[0m                   [35m███████[0m       [35m▄█[0;1;35;45m███▀[0;35m██[0m
 [35m  ▄[0;1;35;45m▄▓▓▒▀[0;35m▀[0m             [35m▐█[0;1;35;45m▄[0;35m█[0;1;35;45m▀[0;35m█[0;1;35;45m▄[0;35m▌ ▐█[0;1;35;45m█▓▓[0;35m█[0m                    [35m▀▀█████▄  ▄▄▄[0;1;35;45m  ▀[0;35m██▀▀[0m
    [35m░░░ [0m               [35m▀▀▀▀▀▀▀▀▀▀[0;1;35m▀▀▀[0;1;35;45m▀[0;35m▀[0m                        [35m▀▀▀█████▀▀[0m
-                        [35m▀ ▄ ▀[0m    [35m▀[0m
-           [1;30m                                        [0m
-
-              [1m explizit[0m: respect to the ones that passed away[0m'
+                        [35m▀ ▄ ▀[0m    [35m▀[0m'

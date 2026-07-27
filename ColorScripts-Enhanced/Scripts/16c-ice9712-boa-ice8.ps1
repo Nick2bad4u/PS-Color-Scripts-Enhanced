@@ -5,7 +5,7 @@
 # Source SHA-256: 3ac293002355aed6c11ca563870c94dafb4ccefb4581a8d1d7715280bdc93be6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BOA-ICE8.ICE by BoA (iCE); released in ice9712 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: iCE.98
 # SAUCE Author: BoA
 # SAUCE Group: iCE
@@ -16,7 +16,7 @@
 
 Write-Host '
            [1;30m·─∙░∙───────────────────∙─∙───────────────────∙░∙─·[0m
-              ░[1;30m·[0;1;37m19[0;1;30m·───·[0;1;37min[0msa[1;30mne.[0;1;37mcr[0mea[1;30mtors.[0;1;37men[0mte[1;30mrprise·────·[0;1;37m98[0;1;30m·[0m░
+              ░[1;30m [0;1;37m  [0;1;30m ─── [0;1;37m  [0m  [1;30m   [0;1;37m  [0m  [1;30m     [0;1;37m  [0m  [1;30m       ──── [0;1;37m  [0;1;30m [0m░
      [1;30m·─∙─────[0m∙[1m░[0m∙[1;30m─[0m∙[1m░[0m∙[1;30m─∙──────────────∙──────────────∙─[0m∙[1m░[0m∙[1;30m─[0m∙[1m░[0m∙[1;30m─────∙─·[0m
      [1;30m░  [0m░░  [1m░ ▒░ ░▒ ░ ░░ ░▒▒▓█▄▄▄▄▄▄ ▄▄▄▄▄▄█▓▒▒░ ░░ ░ ▒░ ░▒ ░  [0m░░  [1;30m░[0m
        [1;30m▄ ▄▄ ▄ [0;1;37m▓▒░▒▓ [0;1;30m▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;37m▓▒░▒▓ [0;1;30m▄▄▄▄▄▄ ▄▄ ▄[0m
@@ -34,5 +34,5 @@ Write-Host '
       [1;30m▀ ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;30;42m░[0;32;40m▒░[0;30;42m▒[0;32;40m▓ [0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;30;44m░▒[0;34;40m░[0;30;44m▒░[0;34;40m [0;1;30;40m▀▀▀ ▀▀ ▀[0m
      [1;30;40man officially  [0m [32m░  ░░  ░ [0;30;42m▒[0;32;40m░ ░▒ ░░ ░[0;30;42m▒▒░[0;32;40m█▀▀▀▀ [0;34;40m▀▀▀▀█[0;30;44m░▒[0;34;40m▒░ ░░ [0;30;44m▒▓[0;34;40m ░[0;30;44m▒[0;34;40m ░  ░░  ░[0m
      [1;30;40mlicensed product [0m  [1;30;40m·─∙──[0;32m∙░∙[0;1;30m─[0;32m∙░∙[0;1;30m───────────∙─∙───────────[0;34m∙░∙[0;1;30m─[0;34m∙░∙[0;1;30m──∙─·[0m
-     [1;30mof the iCE Logomafia(tm)[0m [32m░  ─ [0;1;30mrock[0;32m.[0;1;30mn[0;32m.[0;1;30mroll logo by boa[0;34m.[0;1;30mice [0;34m─  ░[0m
+     [1;30m                        [0m [32m░  ─ [0;1;30m    [0;32m [0;1;30m [0;32m [0;1;30m                [0;34m [0;1;30m    [0;34m─  ░[0m
      [1;30mresistance is futile[0m  [1;30m·─∙[0;32m░∙[0;1;30m────────────────∙────────────────[0;34m∙░[0;1;30m∙─·[0m'

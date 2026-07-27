@@ -5,7 +5,7 @@
 # Source SHA-256: 502c734ddb59e2e78d1863907a198a9aa53f80198c814a6f8ca7631124d0a7a8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-DM1.ANS by Boba Fett (laz07jun); released in laz07jun and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-36
 # Columns: 1-80
 
@@ -31,18 +31,6 @@ Write-Host '
 [34m░[0;30;44m▓[0m         [1;37;40m                  [0;36m░░░[0;34m ░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m▀[0;37;40m [0;33;40m▄▄▐▀[0;1;33;43m░[0;33m▀▄[0;1;33;43m░[0;33m▄▀[0;1;33;43m░[0;33m▀▀▀[0m        [33m▀█[0;1;33;43m░[0;33m▄[0;1;33;43m░[0;33m▀[0;1;33;43m▀[0;33m▌▀▓▀[0;1;33;43m▀▓░[0;33m▀[0;37m [0;1;33;43m░[0;33m▌[0m
             [1;37m                  [0m        [33m▀▀[0;1;33;43m▀[0;33m▀   [0;37m [0;33m▀[0;37m [0;33m   [0m          [33m▀[0;1;33;43m▀▓[0;33m▀▄[0;1;33;43m░[0;33m▄▀[0;1;33;43m░░[0;33m▀▄[0;1;33;43m░▓▄[0;33m▐[0;1;33;43m░[0m
            [1m                  [0m        [33m▐[0;1;33;43m▄░[0;33m▄   [0;37mcommands here      [0;1;33;43m░[0;33m [0;37m [0;33m▀[0;37m [0;33m▐▌[0;1;33;43m░[0m   [1;33m▀[0m [33m█▐[0m
-[34m░[0;30;44m▓[0m                               [34;40m░[0;30;44m▓[0;34;40m░[0;37;40m [0;33;40m▀▀▄▄[0;1;33;43m░[0m [33m  [0;37m  [0;33m  [0;37m  bitch!@%!&! [0;33m▐▌[0;37m  [0;33m▄▀ ▐▌[0m   [33m▐▌[0m
+[34m░[0;30;44m▓[0m                               [34;40m░[0;30;44m▓[0;34;40m░[0;37;40m [0;33;40m▀▀▄▄[0;1;33;43m░[0m [33m  [0;37m  [0;33m  [0;37m              [0;33m▐▌[0;37m  [0;33m▄▀ ▐▌[0m   [33m▐▌[0m
 [30;44m░[0;34;40m▓░[0;30;44m▓[0;1;37;40mbobafett! / lAZ![0m           [34m░[0;30;44m▓░[0;34;40m▓▓░[0;37;40m [0;33;40m▀[0;1;33;43m▀[0;33m▀▄[0;1;33;43m▄[0;33m▄    [0m                [33m▀■[0;37m [0;33m   [0;37m [0;33m▀[0;34m [0;33m▄[0;37m [0;33m▀[0m
-[1;30m---<[0;1;37msplice it here![0;1;30m>------------------------------------------------------------[0m
-
-[1mw000!  Here I am in lazarus...[0m  [1mThanx to Hennifer and Grind King for allowing me[0m
-[1ma chance to show you guys what I''m made of.  [0m
-
-[1mgreetz: Sadistic Intent, Nuitari, Kitiara, Star Lord, Discyple, TNA, Fluor,[0m
-[1mCyber God, Lowkey, Dr. Freeze, aOh, The Knight, Thrasher, and other ppl, but[0m
-[1mI am too tired to name them...[0m
-
-[1mboba fett[0m
-[1mboba.fett@x-net.net[0m
-
-[1m(864)-639-1007 = my bbs, the Power of the Darkside bbs...[0m'
+[1;30m---<[0;1;37msplice it here![0;1;30m>------------------------------------------------------------[0m'

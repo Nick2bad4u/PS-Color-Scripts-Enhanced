@@ -5,7 +5,7 @@
 # Source SHA-256: 0f1b7dd6d4e383fdecdc8e68e6abc27dc01742b7a47e1fb8b7141dde4a1328e9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZII-21CO.ANS by Zeus II (Opium); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chat Off for ITC 2.1
 # SAUCE Author: Zeus II
 # SAUCE Group: Opium
@@ -33,5 +33,4 @@ Write-Host '
 [31m██████▓█████████████▄[0;37m ▐▒▄ ▐▓[0;1;37;47m░▒[0m [1;47m░[0m▌[31m▄▄██████████████[0;30;41m░[0;31;40m▄    [0;37;40m [0m    [32;40m ▄[0;1;30;42m▒▒[0;32m▄[0m     [1;30m▐[0;1;30;42m▓▓▓[0;32m▌[0;37m  [0;1;30m [0m
 [31m█▀ ▀████████████████▄[0;37m▐ ▀[0;1;30;47m▒[0m▌ ▀[1;30;47m░[0;1;37;47m▒[0m▌ [31m▄█████████████[0;30;41m░[0;31;40m███▀▀ [0m     [37;40m  [0;32;40m▀[0;37;40m▄[0;32;40m▀■[0m     [32;40m [0;1;30;42m▓▓▓▒[0m     [1;30m▄[0m
 [31m██▄█▀██▄█████████████▄[0;37m▀[0;31m▄▄[0;37m▀[0;31m▄█▄[0;37m▀[0;1;37;47m░[0m [31m█████[0;30;41m░░░[0;31;40m████[0;30;41m░[0;31;40m█▀██   [0m      [37;40m ▀█[0;1;37;47m░[0m▓[32m▐▀[0m    [1;30m█[0;1;30;42m▓▓▓▒▒[0m  [1;30m▄▄[0m
-[31m███████████████[0;30;41mZeus II art ''96[0;31;40m▄███████[0;30;41m░[0;31;40m███[0;30;41m░░░▒[0;31;40m▌    [0m      [37;40m▄[0;1;37;47m░[0m▄[32m [0;37m▀[0;32m▄ [0m   [1;30m▄█[0;1;30;42m▓▓▓▓▒▒[0;32m▌[0;37m [0;1;30m▐[0;1;30;42m▓[0;1;30;40m█[0m
-'
+[31m███████████████[0;30;41mZeus II art ''96[0;31;40m▄███████[0;30;41m░[0;31;40m███[0;30;41m░░░▒[0;31;40m▌    [0m      [37;40m▄[0;1;37;47m░[0m▄[32m [0;37m▀[0;32m▄ [0m   [1;30m▄█[0;1;30;42m▓▓▓▓▒▒[0;32m▌[0;37m [0;1;30m▐[0;1;30;42m▓[0;1;30;40m█[0m'

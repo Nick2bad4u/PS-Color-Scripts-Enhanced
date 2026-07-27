@@ -5,7 +5,7 @@
 # Source SHA-256: ee85a81a550116da045765410546b24a3b4ab3b855fc9b8d8ed5d640f5efec95
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PV-ECLL0.ANS by Pure Voltage (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Eclipse Couriers WHQ logo
 # SAUCE Author: Pure Voltage
 # SAUCE Group: MiSTiGRiS
@@ -30,5 +30,4 @@ Write-Host '
 [1;30m    [0;1;37mC[0m         [1;37mO[0m         [1;37mU[0m         [1;37mR[0m         [1;37mI[0m         [1;37mE[0m         [1;37mR[0m         [1;37mS[0m
 [1;30m▄█[0;1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀▓▓████▄▄▄▄▄▄▄▄[0m                [1;30;40m▄▄█▀[0m                       [1;30;40m▄▄▄[0;1;30;47m▓[0;1;30;40m▀▀▀[0;1;30;47m▓▓▒[0m▄▄
 [1;30m▓[0;1;30;47m▒[0m▄[1;30m░[0m        [1;30m▄▄[0m        [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▓▓██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m        [1;30m▀▀[0m        [1;30m░▀[0;1;30;47m█▒[0m
- [1;30;40m▀▀[0;1;30;47m▄▒░[0m▄▄[1;30m▄[0;1;30;47m▓[0;1;30;40m▀▀▀[0m                      [1;30;40m▄█▀▀[0m                 [1;30;40m▀▀▀▀▀▀▀▀█████▓▄▄▄▄▄▄▄[0;1;30;47m█▓[0;1;30;40m▀[0m
-                                                              [30mPv Mistigris[0m'
+ [1;30;40m▀▀[0;1;30;47m▄▒░[0m▄▄[1;30m▄[0;1;30;47m▓[0;1;30;40m▀▀▀[0m                      [1;30;40m▄█▀▀[0m                 [1;30;40m▀▀▀▀▀▀▀▀█████▓▄▄▄▄▄▄▄[0;1;30;47m█▓[0;1;30;40m▀[0m'

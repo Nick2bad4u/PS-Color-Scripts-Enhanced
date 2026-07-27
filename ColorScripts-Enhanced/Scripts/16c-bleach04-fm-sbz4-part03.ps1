@@ -5,7 +5,7 @@
 # Source SHA-256: 12b268fbafe5e6c3cc76af50e08b3952b74ff60dadf0ed67eb041638875876d8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FM-SBZ4.ANS by flood myth (bleach); released in bleach04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sushi bar z
 # SAUCE Author: flood myth
 # SAUCE Group: bleach
@@ -43,9 +43,9 @@ Write-Host '
 [1;30;41m▓▓▓▓▓▓[0m [1;37;40m▀▄[0;1;31;40m▀[0;1;31;41m▒▒░░░ [0;1;37;41m    ▀▀▀ [0;31;45m▓▓▓▓[0;1;37;40m [0;31;45m▓▒▒▒▒▒▒▒░░[0;35;40m▄[0;31;45m░░▒▒▒▒▒▒▒▒[0;1;37;40m [0;31;45m▓▓▓▓[0;1;37;41m ▀▀▀     [0;1;31;41m░░░▒▒[0;1;31;40m▀[0;1;37;40m▄▀[0m [1;30;41m▓▓▓▓▓▓[0m
 [1m▄▄▄▄▄▄▄▄[0;1;31m [0;1;37m▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀[0m [1;37m▄▄▄▄▄▄▄▄[0m
            [1;30m    [0m
-             [1;30m    [0m  [31msewzhee baa zee[0;1;31m,[0;31m hawze o[0;1;31m''[0;31m da riceing sahn[0;1;31m.[0m
-               [1;30m  [0;31m [0;1;31m([0;31mseex[0;1;31m-[0;31mwan[0;1;31m-[0;31mnine[0;1;31m)[0;31mfow[0;1;31m-[0;31mtree[0;1;31m-[0;31mate[0;1;31m,[0;31m oh[0;1;31m-[0;31mwan[0;1;31m-[0;31mwan[0;1;31m-[0;31mfow[0;1;31m.[0m
-                [1;31m([0;31mseex[0;1;31m-[0;31mwan[0;1;31m-[0;31mnine[0;1;31m)[0;31mfow[0;1;31m-[0;31mtree[0;1;31m-[0;31mate[0;1;31m,[0m [31mtoo[0;1;31m-[0;31mate[0;1;31m-[0;31msefan[0;1;31m-[0;31mnine[0;1;31m.[0m
-[31mjokah tahken flom covah of [0;1;31m"[0;31mbatmahn mahsk ahf da phahntahsim[0;1;31m"[0;31m movie comeec book[0;1;31m.[0m
-[31m [0m                    [31mahnsee [0;1;31m-[0;31m frood meeth[0;1;31m,[0;31mjury1995[0;1;31m.[0;31mbreach[0;1;31m.[0m
+             [1;30m    [0m  [31m               [0;1;31m [0;31m        [0;1;31m [0;31m                [0;1;31m [0m
+               [1;30m  [0;31m [0;1;31m [0;31m    [0;1;31m [0;31m   [0;1;31m [0;31m    [0;1;31m [0;31m   [0;1;31m [0;31m    [0;1;31m [0;31m   [0;1;31m [0;31m   [0;1;31m [0;31m   [0;1;31m [0;31m   [0;1;31m [0;31m   [0;1;31m [0m
+                [1;31m [0;31m    [0;1;31m [0;31m   [0;1;31m [0;31m    [0;1;31m [0;31m   [0;1;31m [0;31m    [0;1;31m [0;31m   [0;1;31m [0m [31m   [0;1;31m [0;31m   [0;1;31m [0;31m     [0;1;31m [0;31m    [0;1;31m [0m
+[31m                           [0;1;31m [0;31m                                [0;1;31m [0;31m                  [0;1;31m [0m
+[31m [0m                    [31m       [0;1;31m [0;31m            [0;1;31m [0;31m        [0;1;31m [0;31m      [0;1;31m [0m
                   [1;31m"[0;31m t h e  t r u t h  i s  o u t  t h e r e [0;1;31m"[0m'

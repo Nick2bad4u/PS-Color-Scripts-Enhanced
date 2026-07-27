@@ -5,7 +5,7 @@
 # Source SHA-256: 61778700ff3c56b100461efa4e39bc6e2f662c001bb8bd97ab675146de0e0f8d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: pn-bowl.ans by Pandur (blocktronics_space_invaders); released in blocktronics_space_invaders and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 94-137
 # Columns: 1-80
 
@@ -52,5 +52,5 @@ Write-Host '
       [1;30m▒[0m       [1;30m▒▒[0;32m▀▄[0;1;34m  [0;32m█[0;1;34m [0;32m▒▒[0;1;30;42m▄[0;1;30;40m▀[0m  [1;30m    [0;30m [0;37mb u g g y[0;1;30m [0;30m  [0;32m░░[0m                  [1;34m  [0;1;30m▄▀[0m
               [1;30m░░  [0;1;34m  [0;32m▓[0;1;34m [0;1;30m▒▒[0m    [1;30m    [0m     o w l[1;30m [0m  [1;30m░░[0m
                     [32m░[0;37m [0;1;30m░░[0m
-[1;30mSAUCE00buggy owl[0m                          [1;30mpandur[0m
+[1;30m                [0m                          [1;30m      [0m
 [1;30m  20130809%u  ☺☺[0m'

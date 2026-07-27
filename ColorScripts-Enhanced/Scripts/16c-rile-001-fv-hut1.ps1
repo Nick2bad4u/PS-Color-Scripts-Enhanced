@@ -5,7 +5,7 @@
 # Source SHA-256: 899a12570054427a43fd3754c80825802bce4d345feec9ad2f760c07b19f48c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FV-HUT1.ANS by fe v  e   r (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the fuzz hut
 # SAUCE Author: fe v  e   r
 # SAUCE Group: RILE
@@ -38,10 +38,4 @@ Write-Host '
                [30;42m▄[0;37;40m [0;30;42m▀[0;37;40m [0;30;42m▀ ▀[0;1;32;42m▐▀[0;30;42m▄[0m   [30;46m▌▄[0m            [30;46m▌█[0m        [30;42m▄[0;1;32;42m▀▓▓▄[0;30;42m▄[0;30;47m█[0;30;42m▀[0;30;47m█[0;37;40m  [0;30;46m▄  [0;1;31;46m▄░░▀[0;1;31;47m█[0;1;31;46m█▌[0;30;46m▐[0;30;47m█[0;37;40m  [0;30;46m▀[0;37;40m [0;30;46m▄[0m
                     [30;42m▄▄[0m                 [36;40m░[0;30;46m▓▀▐[0m         [30;47m█[0;37;40m [0;30;42m▄▄▄▄▄[0;37;40m [0;30;42m▀[0;37;40m [0;1;32;42m░░[0;30;42m▀[0;30;46m▄▄▄▌ [0;1;31;46m▀[0;30;46m  [0;30;47m█[0;37;40m [0;30;46m▄▐ ▐[0m
                             [30;46m▌[0m           [30;46m▌[0;1;31;46m░[0;30;46m▐[0m          [30;42m▄[0;1;32;40m▀[0;30;42m▀[0;1;32;40m▄[0;30;47m█[0;30;42m█▄▄▐[0;37;40m [0;30;42m▄[0;1;32;42m▀█▄▄[0;30;42m▀▀▀[0;30;47m█[0;30;46m▄[0;30;42m█▄▐[0;30;46m▌▄[0m
-                            [30;47m█[0;30;46m ▀[0m        [30;46m▀ ▄[0m            [1;32;40m ▄[0;30;42m█▄[0;1;32;40m▀[0;32m░[0;30;42m▓▀[0;1;32;40m▄▄[0m  [30;42m▄▄▄▄[0m   [30;42m▀[0;37;40m [0;30;42m▄[0;30;47m█[0m
-
-[37;40mhere[0;1;30;40m''[0ms a semi abstract anslien going out to muh bro [36mflame[0;37m and [0;1;30mthe fuz hut.[0m
-greetings and salutations to [1;30m:[0m [36mflame[0;1;30m.[0;36mdieznyik[0;1;30m.[0;36mtsk[0;1;30m.[0;36mtna[0;1;30m.[0;36mfilth[0;1;30m.[0;36mcheeze[0;1;30m.[0;36mmonk[0;1;30m.[0;36mmadball[0m
-[1;30m.[0;36mempty[0;1;30m.[0;36mpariah[0;1;30m.[0;36mlago[0;1;30m.[0;36mmagnatop[0;1;30m.[0;36mnapalm[0;1;30m.[0;36mjulian[0;1;30m.[0;36mfilth[0;1;30m.[0;36mcain[0;1;30m.[0;36mrust[0;1;30m.[0m and everyone else[1;30m.[0m
-sorry i know i probably left someone out[1;30m.[0m i don[1;30m''[0mt greet often [1;30m,[0m oh well[1;30m.[0m
-email[1;30m:[0m feverrile[1;30m@[0mgeocities[1;30m.[0mcom[0m'
+                            [30;47m█[0;30;46m ▀[0m        [30;46m▀ ▄[0m            [1;32;40m ▄[0;30;42m█▄[0;1;32;40m▀[0;32m░[0;30;42m▓▀[0;1;32;40m▄▄[0m  [30;42m▄▄▄▄[0m   [30;42m▀[0;37;40m [0;30;42m▄[0;30;47m█[0m'

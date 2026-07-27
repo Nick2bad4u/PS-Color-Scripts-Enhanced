@@ -5,7 +5,7 @@
 # Source SHA-256: e277a088e56bd13577cf2661d7b66ab71da5da49bbce9a47f7e435f0855bf465
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tk-deadline2017.ans by the knight (FUEL); released in fuel24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Deadline 2017
 # SAUCE Author: the knight
 # SAUCE Group: FUEL
@@ -61,5 +61,5 @@ Write-Host '
 
               [37m [0;30m   [0;1;30m···[0;1;37m··[0;1;30m··[0;1;37mW[0;1;30m·[0;1;37mE[0;1;30m··[0;1;37m·[0;1;30m·[0;1;37mR[0;1;30m·[0;1;37mE[0;1;30m·[0;1;37mS[0;1;30m·[0;1;37mP[0;1;30m·[0;1;37mE[0;1;30m·[0;1;37mC[0;1;30m·[0;1;37mT[0;1;30m·[0;1;37m·[0;1;30m··[0;1;37mA[0;1;30m·[0;1;37mN[0;1;30m·[0;1;37mS[0;1;30m·[0;1;37mI[0;1;30m·[0;1;37m··[0;1;30m···[0m
 
-[30m  [0;1;30mno 2000 lines, no convert, no monkey business, just plain honest ansi blocks[0m
+[30m  [0;1;30m                                                                            [0m
                                                                                [1;30m.[0m'

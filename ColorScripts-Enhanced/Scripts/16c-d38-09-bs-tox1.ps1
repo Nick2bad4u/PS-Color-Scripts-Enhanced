@@ -5,7 +5,7 @@
 # Source SHA-256: 4027491f5d80a21ca7712814a0b9c5b828fefdb5e4113951da07854b27c5bb2f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BS-TOX1.ANS by sod off (department 38); released in d38-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: someone best pay me for this :)
 # SAUCE Author: sod off
 # SAUCE Group: department 38
@@ -27,8 +27,4 @@ Write-Host '
 [37m [0;1;30m▀▐█▄▄[0m    ▀▀▀  [1;30m ▀▌▄▄██▌[0m    [1;30m▄░██▀[0m [1m▐██[0;1;47m░[0m▀  [30;45m▒[0;35;40m▄█▀▀▀▀▀▐▀▀▀▀▐[0;30;45m░[0;35;40m▀▀▀▀▐[0;1;31;45m▀█▀░[0;35m█▀▀▀▐[0;1;31;45m▀[0;1;31;40m█[0;1;31;45m▄ [0;35m▄[0;37m░[0m
     [1;30m▌▀ ■[0m   [1;30m▓▄▄▄███▀▌▀[0m   [30;42m▓[0;37;40m  [0;1;30;40m▐▄▄ [0m   [1m▀▄[0m   [36m─--─[0;1;36m─--[0;36m-[0;37m [0;35m▐▌[0;36m-─-[0;35m▐[0;31m▌[0;36m-──- [0;35m▀▀▀▀[0;30;45m▓[0;37;40m [0;36;40m─--[0;37;40m [0;35;40m▀▀▀[0;1;31;45m▀[0;35m▌[0;37m [0m
             [1;30m▐▀▀   [0m [1;30m▄[0m [1;30m    [0m [1;30m    [0m          [36m [0;33mt[0;1;33moxic[0m  [30;45m▓[0;35;40m▀[0;37;40m [0;31;40m▄[0;37;40m [0;31;40m▀[0;37;40m  [0;33;40mo[0;1;33;40mver d o s   e[0;36m [0;37m [0;35m▄[0;37m [0;30;45m█[0;37;40m     [0m
-                                   [36;40m [0;37;40m [0;36;40m-[0;37;40m [0;36;40m─────---──- [0;37;40m  [0;36;40m--[0;1;36;40m-──--[0;36m---───-----[0;37m  [0m
-[37m>> Merlin requested it...[0m                                          [37m   [0m
-   [37mhe was gonna pay me for it but then he changed his mind after i''d drawn it[0m
-   [37mso hmmm... hassel him if he uses it on his board[0m
-   [37mjust another example i guess...   [0m'
+                                   [36;40m [0;37;40m [0;36;40m-[0;37;40m [0;36;40m─────---──- [0;37;40m  [0;36;40m--[0;1;36;40m-──--[0;36m---───-----[0;37m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 7fd886da9dae0158f734298e5e9fa9b7e630a8b0f33aae811b27373feec471cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CL!-FRC0.ANS by Cleaner (Uprise); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Force^Logo
 # SAUCE Author: Cleaner
 # SAUCE Group: Uprise
@@ -37,5 +37,4 @@ Write-Host '
   [1;30m  [0m  [1;30m▒[0m     [1;30m░[0m           ▀▀▀▀▀            [1;30m░[0m     [1;30m▒[0m    [1;30m▓[0m    [1;30m ░[0m [1;30m [0m    [1;30m▒[0m   [1;30m░[0m      [1;30m▒[0m
       [1;30m░[0m                                        [1;30m░[0m    [1;30m▒[0m     [1;30m [0m      [1;30m░[0m          [1;30m░[0m
                                                     [1;30m░[0m
-[1;30m-----[0m
-[1;30mThis is my new ansi for force, finished by a deep august night... [0m      [1;30mcleaner.[0m'
+[1;30m-----[0m'

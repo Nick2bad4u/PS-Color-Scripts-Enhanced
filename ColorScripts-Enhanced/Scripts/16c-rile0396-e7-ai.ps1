@@ -5,7 +5,7 @@
 # Source SHA-256: 15fdcca4ce992d9a30f4b2ac4a6c47e9f5309bc3f0fa02db96a3bbba821a9f9b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: E7-AI.ANS by Vertigo (Rile); released in rile0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Abstract Illusions
 # SAUCE Author: Vertigo
 # SAUCE Group: Rile
@@ -53,5 +53,5 @@ Write-Host '
 [34;44m [0;1;34;44m███████████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄  ▄ [0;30;44m [0;1;34;44m [0;30;44m                   [0;34;40m▄[0;30;44m     [0;34;40m▓▀[0;30;44m       [0;34;40m▀[0m
 [30;44m [0;1;34;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀  ▀[0;30;44m                       [0;34;40m▄░[0m
 [30;44m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-                    [1;34;40m        [0m    [34m4[0;1;34mbstract[0;34m1[0;1;34mllusions[0m
-                             [1;34m  [0m   [34mA[0;1;34mwp[0;34m■[[0;1;34mCr[0;34m][0;1;34meator[0m'
+                    [1;34;40m        [0m    [34m [0;1;34m       [0;34m [0;1;34m        [0m
+                             [1;34m  [0m   [34m [0;1;34m  [0;34m■ [0;1;34m  [0;34m [0;1;34m     [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 077ae3533812aaff4c3c64a6ec692707b4cb66909983602eacc4d38ce7291a49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MW-BSKLL.ANS by MoonWalkeR (Y' Dont know); released in nland-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Bad Skull
 # SAUCE Author: MoonWalkeR
 # SAUCE Group: Y' Dont know
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                         [31m   [0;37m  [0;31mAns[0;1;31mi[0;31m [0;1;31mb[0;1;33my Moon[0;1;31mWal[0;31mkeR[0m
+                         [31m   [0;37m  [0;31m   [0;1;31m [0;31m [0;1;31m [0;1;33m      [0;1;31m   [0;31m   [0m
 
                                   [1;30m▄▄▄▄▄▄▄▄▄▄▄▄[0m
                          [1;30m▄▄▄[0;1;30;43m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;40m▄▄▄[0m
@@ -49,6 +49,4 @@ Write-Host '
                               [33m█[0;1;31;43m ▒▀▀██▀▀██▀▀██▀▀▓ ░ [0m
                               [33m█[0;37;43m▒[0;33;40m█[0;37;43m▒▓[0;33;40m█[0;37;43m▒▓▒[0;33;40m█[0;37;43m▒▓▒[0;33;40m█[0;37;43m▒▓▒[0;33;40m█[0;37;43m▒[0;33;40m█[0;37;43m▒[0;33;40m█[0m
                               [33;40m█[0;37;43m▓[0;33;40m█[0;37;43m▓▒[0;33;40m█[0;37;43m▓▒▓[0;33;40m█[0;37;43m▓▒▓[0;33;40m█[0;37;43m▓▒▓[0;33;40m█[0;37;43m▓[0;33;40m█[0;37;43m▓[0;33;40m█[0m
-                               [33;40m▀[0;37;40m [0;33;40m▀▀[0;37;40m [0;33;40m▀▀▀[0;37;40m [0;33;40m▀▀▀[0;37;40m [0;33;40m▀▀▀ ▀ ▀[0m
-                                              [33;40m    [0m
-                                                [33;40m [0m'
+                               [33;40m▀[0;37;40m [0;33;40m▀▀[0;37;40m [0;33;40m▀▀▀[0;37;40m [0;33;40m▀▀▀[0;37;40m [0;33;40m▀▀▀ ▀ ▀[0m'

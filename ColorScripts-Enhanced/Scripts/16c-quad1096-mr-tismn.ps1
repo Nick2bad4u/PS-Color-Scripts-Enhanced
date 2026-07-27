@@ -5,7 +5,7 @@
 # Source SHA-256: 19e73e5692630acad3760ffb9ccdb01b4a21bbf4d0d3cf0dafe72066cb46cf39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-TISMN.ANS by mithrandir (quad-p); released in quad1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tis Menu Template
 # SAUCE Author: mithrandir
 # SAUCE Group: quad-p
@@ -24,8 +24,8 @@ Write-Host '
 [37m [0;33;42m░[0;1;30;42m▒▓▓▒[0;1;32;42m▓[0m [33;42m▓[0;1;30;42m▒▓▓▒[0;1;32;42m▓[0m [33;42m▒[0;1;30;42m░▒▒▒░[0;1;32;42m▒[0m [33;42m▓[0;1;30;42m▒▓▓▒[0;1;32;42m▒[0m [33;42m▒[0;1;30;42m▒▓▓▒[0;1;32;42m▓[0m                            [33m ▄[0m     [33m░[0m      [33m▄ [0m
 [37m [0;32;42m█[0;1;30;42m▓[0;1;30;40m██[0;1;30;42m▓[0;1;32;42m█[0m [33;42m▒[0;1;30;42m▓██▓[0;1;32;42m█[0m [33;42m░[0;1;30;42m▒▓▓▓▒[0;1;32;42m▓[0m [33;42m▒[0;1;30;42m▓██▓[0;1;32;42m▓[0m [33;42m░[0;1;30;42m▓██▓[0;1;32;42m█[0m                              [33m▀▓[0;1;33;43m░[0m      [33m▄▓[0;1;33;43m░[0;33m [0m
 [37m [0;32;42m█[0;32;40m█[0;1;30;42m▀▀[0;32m█[0;1;32;42m█[0m [33;42m░[0;32;42m█[0;1;30;42m▀▀[0;1;37;42m [0;1;32;42m█[0m [32m█[0;1;30;42m▓███▓[0;1;32;42m█[0m [1;32;42m░[0;32m█[0;1;30;42m▀▀[0;32m█[0;1;32;42m█[0m [32m██[0;1;30;42m▀▀[0;32m█[0;1;32;42m█[0m                                 [33m▀ ■▀[0;37m [0;33m▀[0m   [33m▓[0m
-[37m [0;32m▀▀[0;1;32m▀[0;32m▀[0;1;32m▀▀[0;32m▀[0;32;42m█[0;1;32;42m▄[0;32;42m█[0;1;32;42m▄▄█[0m [33;42m░[0;1;37;42m [0;1;30;42m▀▀▀[0;32;42m█[0;1;32;42m█[0m [1;32;42m▒[0;32m█[0;1;32;42m▄[0;32m█[0;1;32;42m▄█[0;32m▀▀▀[0;1;32m▀[0;32m▀[0;1;32m▀▀[0m   fuck.. I''m sure that you picked     [33m░[0;37m  [0;33m█[0m
-    [33m█[0m        [32m█[0;37m [0;32m█[0;32;42m█[0;1;32;42m▄[0;32m█[0;1;32;42m▄▄█[0m [1;32;42m▓[0m        these new bbs colors knowing that I just      [1;33;43m░[0m
+[37m [0;32m▀▀[0;1;32m▀[0;32m▀[0;1;32m▀▀[0;32m▀[0;32;42m█[0;1;32;42m▄[0;32;42m█[0;1;32;42m▄▄█[0m [33;42m░[0;1;37;42m [0;1;30;42m▀▀▀[0;32;42m█[0;1;32;42m█[0m [1;32;42m▒[0;32m█[0;1;32;42m▄[0;32m█[0;1;32;42m▄█[0;32m▀▀▀[0;1;32m▀[0;32m▀[0;1;32m▀▀[0m                                       [33m░[0;37m  [0;33m█[0m
+    [33m█[0m        [32m█[0;37m [0;32m█[0;32;42m█[0;1;32;42m▄[0;32m█[0;1;32;42m▄▄█[0m [1;32;42m▓[0m                                                      [1;33;43m░[0m
     [33m█[0;37m mr-qdp [0;32m█[0;1;32m▄[0;32m▄[0;1;32m▄[0;32m▄▄[0;1;32m▄[0;32m▄[0;1;32m▄▄[0;1;32;42m█[0m    can''t mix them decently... =)                     [33m▓[0m
    [33m▐▓[0m                                                                         [33m█[0m
    [33m▓▓▒[0;37m  [0m                                                                      [1;33;43m░[0m
@@ -33,6 +33,4 @@ Write-Host '
 [33m   [0;37m [0;33m▓[0m                                                                         [1;33;43m░[0m
 [33m   [0;37m [0;33m█[0;37m [0;33m   [0m                                                                     [1;33;43m▒[0m
 [33m   [0;37m [0;33m█▓   [0m                                                                     [1;33;43m▓[0m
-[33m   [0;37m [0;33m█▄▓▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄[0;1;33m▄[0;33m▄▄▄▄▄▄▄[0;1;33m▄[0;33m▄▄▄▄[0;1;33m▄[0;33m▄▄▄[0;1;33m▄[0;33m▄▄[0;1;33m▄[0;33m▄[0;1;33m▄[0;33m▄[0;1;33m▄▄[0;33m▄[0;1;33m▄█▀[0m
-[33m          [0m
-[33m         [0m'
+[33m   [0;37m [0;33m█▄▓▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄[0;1;33m▄[0;33m▄▄▄▄▄▄▄[0;1;33m▄[0;33m▄▄▄▄[0;1;33m▄[0;33m▄▄▄[0;1;33m▄[0;33m▄▄[0;1;33m▄[0;33m▄[0;1;33m▄[0;33m▄[0;1;33m▄▄[0;33m▄[0;1;33m▄█▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 65b0b2113e2d431c613a119e549891e529b5b2599b38f2b865cad9ea35e5482a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WE-FUCKU.ANS by Velodrome + Cryogenic + Aesthetic (sense15j); released in sense15j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
@@ -38,9 +38,6 @@ Write-Host '
 [1;34;44m▒[0;34m▓[0;1;34;44m▒[0;1;33;40m [0;34m [0;1;33m ▓ [0;34m░░▓█▓[0;1;34;44m░░[0;34m▓[0;1;34;44m░[0;34m▓▓▓▒░[0;1;33m  [0;34m▓▄▄█[0;1;34;44m░▒░[0;1;33;40m ░ [0;34m█▓[0;1;33m   ░ [0;1;34;44m░░[0;34m▒▓▀[0;1;33m  ▓█▓  [0;1;34;44m░░[0;34m▄[0;1;33m   [0;1;37m▀▀[0;1;33m▀ ░░░░░  ▀[0;1;37;42m█[0;1;33;40m█[0;1;37;42m▀[0;1;33;40m█▀  ▀▀[0m
 [34m▓░[0;1;34;44m░[0;34m▓█[0;1;33m ▒   [0;34m░▓░▓▓░▓▓░░[0;1;33m    [0;34m▒▓█▓█[0;1;34;44m░[0;34m█[0;1;33m ░ [0;34m█▓█▓▓[0;1;33m  [0;34m▓▓ ▒ [0;1;33m  ░▓░  [0;34m▓[0;1;34;44m▓▓[0;1;34;40m▓▄[0;34m▄▓[0m           [1;37;42m▀[0;1;33;40m▓▒  [0;1;34;44m▒▒[0;34m▓[0;1;34;44m░[0m
 [34m▒░▓▒▓[0;1;33m ░    [0;34m░[0;1;33m [0;34m▒▒[0;1;33m [0;34m░[0;1;33m [0;34m░[0m     [34m░░▓▒▓█▓[0;1;33m   [0;34m▓▒▓░░[0;1;33m  [0;34m▓░ ░[0;1;33m    ░   [0;34m░[0;1;34m▒▒░[0;34m▓[0;1;34m▒[0;34m░[0;1;33m [0;34m █▓██▓[0;1;34m▒[0;1;34;44m░[0;34m▓[0;1;33m  ▒░  [0;34m▓▓▒▓[0m
-[34m░[0;1;33m [0;34m░ ░[0m        [34m░░[0m           [34m▒░░▓▒[0;1;33m   [0;34m▒░░░[0;1;33m   [0;34m▒[0;1;33m [0;34m [0;1;33m  [0;1;37m fuck?![0;1;33m [0;34m░░[0;1;34m [0;34m░░[0;1;33m  [0;34m▓▓░▓▓░[0;1;34m░[0;34m▓▒ [0;1;33m ░[0m   [34m░░[0;37m [0;34m░[0m
+[34m░[0;1;33m [0;34m░ ░[0m        [34m░░[0m           [34m▒░░▓▒[0;1;33m   [0;34m▒░░░[0;1;33m   [0;34m▒[0;1;33m [0;34m [0;1;33m  [0;1;37m       [0;1;33m [0;34m░░[0;1;34m [0;34m░░[0;1;33m  [0;34m▓▓░▓▓░[0;1;34m░[0;34m▓▒ [0;1;33m ░[0m   [34m░░[0;37m [0;34m░[0m
                           [34m░[0;1;33m  [0;34m▒░[0;1;33m   [0;34m░[0;1;33m  [0;34m░[0;1;33m   [0;34m░[0m               [34m    ░░ ▒   ░[0m       [34m░░[0;1;33m [0;34m░[0m
-                             [34m░ [0;37m  [0;34m  [0m                         [34m    ░   [0m        [34m [0;37m  [0;34m░[0m
-
-      [37moutlines by [0;1;37mcryogenic.  [0mtouchups and shades by [1mvelo [0mand [1maes[0m [[1mFSOA[0m]
-            [1;30mfsoa :: finding a clitoris no matter how well hidden.[0m'
+                             [34m░ [0;37m  [0;34m  [0m                         [34m    ░   [0m        [34m [0;37m  [0;34m░[0m'

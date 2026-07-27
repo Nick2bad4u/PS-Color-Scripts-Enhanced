@@ -5,7 +5,7 @@
 # Source SHA-256: 02973d07a5778639cb5aa11bbef4d754d48f261b49abcb431aaa1fe1c09035a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IO-SENSE.ANS by ImoDium (Glue); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sense Logo
 # SAUCE Author: ImoDium
 # SAUCE Group: Glue
@@ -15,8 +15,8 @@
 # Columns: 1-80
 
 Write-Host '
-[1m[13:34] <Scrye> Kewl.. do you think you could do onethat says SENSE. I''de like t[0m
-[1mo have you as a guest in one of our packs.. :)[0m
+[1m                                                                                [0m
+[1m                                              [0m
 
 
       [1;31m▄▄▄[0;1;31;47m▓[0;1;31;41m▀▀[0;1;31;40m█▄▄▄[0m

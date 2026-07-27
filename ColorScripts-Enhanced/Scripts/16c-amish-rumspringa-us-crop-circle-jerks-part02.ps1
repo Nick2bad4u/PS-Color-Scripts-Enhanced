@@ -5,7 +5,7 @@
 # Source SHA-256: ffb69fdf3b0006f5c09db987b6090fc9ec5fecd31956ff15e637b99a446b3f5f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-crop-circle-jerks.ans by Filth + Misfit (amish); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: crop circle jerks
 # SAUCE Author: filth & misfit
 # SAUCE Group: amish
@@ -52,11 +52,4 @@ Write-Host '
 [1;33m ███[0m     [1;33m██▌███ █████▄  ███▄   ▐██▌▀████▀▀ ██▄  ███   ▄▄▄██▌██  ▀██ ▀▀  ▄▄▄███▀[0m
 [1;33m  ▀███▄▄███▌ ▀█ [0;1;33;43m▓▓[0;1;33;40m ▀███▄ ▀█████ ██▌[0m         [1;33m▀████▀ ▄████▀▀▀ ▀▀[0m        [1;33;43m▓▓▓[0;1;33;40m█▀▀▀[0m
 [1;33;40m    ▀█████▀[0m          [1;33m▀▀[0m         [1;33m██▌ [0m             [1;33m▄██▀[0m
-                                                [1;33;43m▓▓[0;1;33;40m▀[0m
-
-
-                                [33mWILD IN THE WHEAT[0m
-
-                                     [33mRUNNING[0m
-
-                                        [33mRUNNING[0m'
+                                                [1;33;43m▓▓[0;1;33;40m▀[0m'

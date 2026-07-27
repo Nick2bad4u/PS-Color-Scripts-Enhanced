@@ -5,7 +5,7 @@
 # Source SHA-256: ce634c2b0e7187d6376ba8532e54562785527e69db2a948e835120ceb7c28595
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-IC.ANS by Bad Foundation (avpack04); released in avpack04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -38,7 +38,7 @@ Write-Host '
 [1;34;40m   ██[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;34;40m███▄ ▀▀[0;1;34;44m▓▓▓[0;1;34;40m█[0m
 [1;34;40m▄▄█████████████████████████████████████████████████████████████████████████▄▄▄▄▄[0m
 [34m▄▄▄▄▄▄▄ ▄ · ·[0m                                                      [34m· · ▄ ▄▄▄▄▄▄▄[0m
-[34m█[0m            [1;35m▄███▄[0m       [1;37mS[0mY[1;34mS[0;34mG[0;1;37mo[0mD[34mZ[0;35m: [0;1;37mT[0mh[1;34me [0;1;37mA[0mn[1;34mi[0;34mm[0;1;37ma[0ml[1;34m, [0;1;37mB[0ma[1;34md [0;1;37mF[0mo[1;34mu[0;34mn[0;1;37md[0ma[1;34mt[0;34mi[0;1;37mo[0mn                   [34m█[0m
+[34m█[0m            [1;35m▄███▄[0m       [1;37m [0m [1;34m [0;34m [0;1;37m [0m [34m [0;35m  [0;1;37m [0m [1;34m  [0;1;37m [0m [1;34m [0;34m [0;1;37m [0m [1;34m  [0;1;37m [0m [1;34m  [0;1;37m [0m [1;34m [0;34m [0;1;37m [0m [1;34m [0;34m [0;1;37m [0m                    [34m█[0m
 [34m█[0m           [1;35m█[0;1;35;45m▓▒▒░░[0;35m█[0m       [1;37mR[0me[1;34mM[0;34mo[0;1;37mT[0mE[35m: [0;1;37mS[0me[1;34ml[0;34mf[0m                                         [34m█[0m
 [34m▓[0m           [1;35m▀[0;1;35;45m▓▒░░[0;35m█▀[0m                                                            [34m▓[0m
 [34m▓[0m             [35m▀▀▀  [0;1;35m▄▄[0m                          [1;35m▄▄[0m                              [34m▓[0m
@@ -58,5 +58,5 @@ Write-Host '
 [34m▓ [0;35m▐[0;1;35;45m▒▒[0;35m▄[0m       [1;35m▐[0;1;35;45m▒░ [0m   [35m▐[0;1;35;45m▒▒[0;35m▄ [0;1;35m▀[0m     [1;35;45m▒▒[0;1;35;40m▄   [0;1;35;45m░▒[0m [1;35;40m▐[0;1;35;45m▒░ [0m     [1;35;40m▐[0;1;35;45m▒░ [0m  [1;35;45m▒▒[0;1;35;40m▄   [0;1;35;45m░▒[0;35m▐[0;1;35;45m░▒[0;1;35;40m▀   [0;1;35;45m▓▒░[0m      [34m▓[0m
 [34m▓  [0;35m▀[0;1;35;45m▒▒░░[0;35m▄▄█▀ [0;1;35m▐[0;1;35;45m░ [0;35m▀   ▀▀[0;1;35;45m▒▒░░[0;35m▄▄█▀ ▀[0;1;35;45m▒░░[0;35m▄▄██ [0;1;35m▐[0;1;35;45m░ [0;35m▀[0m     [1;35m▐[0;1;35;45m░ [0;35m▀  ▀[0;1;35;45m▒░░[0;35m▄▄█[0;1;35m▌ [0;1;35;45m░[0;35m▌    ▐[0;1;35;45m░[0;35m█[0m      [34m▓[0m
 [34m█[0m     [35m▀▀▀▀    ▀[0m         [35m▀▀▀▀[0m     [35m▀▀▀▀ ▀  ▀[0m        [35m▀[0m      [35m▀▀▀▀   ▀[0m      [35m▀[0m       [34m█[0m
-[34m█[0m               [34m------> [0;1;37mA[0mN[1;34mS[0;34mI [0;1;37mB[0mY [1mB[0mA[1;34mD [0;1;37mF[0mO[1;34mU[0;34mN[0;1;37mD[0mA[1;34mT[0;34mI[0;1;37mO[0mN [1m/[0mA[1;34mV[0;34m![0;1;37m! [0;34m<--------[0m                 [34m█[0m
+[34m█[0m               [34m        [0;1;37m [0m [1;34m [0;34m  [0;1;37m [0m  [1m [0m [1;34m  [0;1;37m [0m [1;34m [0;34m [0;1;37m [0m [1;34m [0;34m [0;1;37m [0m  [1m [0m [1;34m [0;34m [0;1;37m  [0;34m         [0m                 [34m█[0m
 [34m█▄▄▄▄▄▄ ▄ · ·[0m         [1;37mF[0mo[1;34mn[0;34mt [0;1;37mI[0mn[1;34ms[0;34mp[0;1;37mi[0mr[1;34me[0;34md [0;1;37mB[0my [1mW[0ma[1;34mr[0;34mc[0;1;37mh[0mi[1;34ml[0;34md [0;1;37m/[0mS[1;34mh[0;34mi[0;1;37mv[0me[1;34mr[0m             [34m· · ▄ ▄▄▄▄▄█[0m'

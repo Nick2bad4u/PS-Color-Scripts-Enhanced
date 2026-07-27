@@ -5,7 +5,7 @@
 # Source SHA-256: d598a2227b288c1d13e030d0b923dfa71ae164bf262c201ed42edbdfac40dee0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EX-GUEST.ANS by exocet (ecolove); released in ecl-pak7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: pen15 guest ansi!
 # SAUCE Author: exocet
 # SAUCE Group: ecolove
@@ -40,11 +40,4 @@ Write-Host '
          [1;30m█▄▄▄▄▄[0m     [1;30m▄▄▄▄▄[0m         [1;30m▄[0m                   [1;30m▄▄▄▄▄[0m [1;30m▄▄█[0m
 
 
-[1;30m---( knip hier! 8< )----------------------------------------------------------- [0m
-
- [1;30mmade by exocet of ecolove (c) 1998  ... guest release for pEN15!!!!![0m
-
- [1;30mgreets go to: dirt bag, silence, gromit, the avenger, gloomy, timeless...[0m
- [1;30mand ofcourse to all you dickheads... whahah... ;)[0m
-
- [1;30mfanmail ;) ->   exocet@dds.nl[0m'
+[1;30m---( knip hier! 8< )----------------------------------------------------------- [0m'

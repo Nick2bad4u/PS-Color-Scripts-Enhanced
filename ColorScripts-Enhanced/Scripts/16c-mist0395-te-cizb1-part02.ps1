@@ -5,7 +5,7 @@
 # Source SHA-256: 8f954b879730ac91b88d79b46d9f7e70dd680d868eac1c109d9efddd1fd291c4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TE-CIZB1.ANS by The ExtremisT (m1st1gr1s); released in mist0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: City iZ Burning! 418.841.3410
 # SAUCE Author: The ExtremisT
 # SAUCE Group: m1st1gr1s
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                               [1;30;40m-[0m-[1m+ welcome on +[0;1;31m-[0;31m-[0m
+                               [1;30;40m [0m [1m              [0;1;31m [0;31m [0m
 
 [37m▄███▄ █▀ ██    ▄██[0;1;30;47m▄[0m █    [1;30;47m░[0m [1;33;40m▀███[0;1;33;47m█[0;1;33;40m▀█    [0;1;30;40m▄▀[0m     ██ ██ █▀█[47m [0;1;47m░[0m▄ ▄███▄ █▀ ▄███▄ ▄███▄
 █ ███ █ ▀████▄ █▀▄█ █   [1;30m▐[0;1;30;47m▓[0;1;30;40m▄ [0;1;33;40m▐█▀ ▐▌   [0;1;30;40m▐[0;1;30;47m▓[0m▄     ██ ██ █ [1;47m░▒▓▒[0m ███ █ █░ █ ███ █ ███
@@ -26,18 +26,7 @@ Write-Host '
                     [37;40m█[0m                                                 [37;40m░[0m      [37;40m█[0m
 [37;40m ██[0;30;47mCity i[0;1;33;47mZ [0;30;47mBurning[0;37;40m█[0;1;37;47m░▀[0m▀[1;30m▀ [0;1;30;47m                                       [0m█████████████[1;47m░▀[0m▀[1;30m▀[0m
                     [1;30m▀[0m                                                        [1;30m▀[0m
-                         [1;30m-[0m-[1m+ m1st1gr1s member board +[0;1;31m-[0;31m-[0m
-                          [1;30m-[0m-[1m+ requiem member board +[0;1;31m-[0;31m-[0m
+                         [1;30m [0m [1m                          [0;1;31m [0;31m [0m
+                          [1;30m [0m [1m                        [0;1;31m [0;31m [0m
 
-                              [1;30m-[0m-[1m+ 418.841.3410 +[0;1;31m-[0;31m-[0m
-
-                          [1;30m-[0m-[1m+ SysOp: The Extremist +[0;1;31m-[0;31m-[0m
-
-                               [1;30m-[0m-[1m+ CoSysOps: +[0;1;31m-[0;31m-[0m
-                              [1;30m-[0m-[1m+ Blender Head +[0;1;31m-[0;31m-[0m
-                             [1;30m-[0m-[1m+ Shattered Soul +[0;1;31m-[0;31m-[0m
-
-                [1;30m-[0m-[1m+ people from old and new schools welcomed +[0;1;31m-[0;31m-[0m
-
-            [37m"we shall meet in the place where there is no darkness"[0m
-                                   [37m-O''Brien in 1984, George Orwell[0m'
+                              [1;30m-[0m-[1m+ 418.841.3410 +[0;1;31m-[0;31m-[0m'

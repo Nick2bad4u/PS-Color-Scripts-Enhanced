@@ -5,7 +5,7 @@
 # Source SHA-256: 3198b37a01374ad8968f07b4181ddd539599ee151499b3472c69c841ded2db63
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FD-CIT.ICE by Final Descendant (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -52,11 +52,9 @@ Write-Host '
 [1;30m░▒▓██████████████████████████████████████████████████████████████████████████▓▒░[0m
 
                  [1;30mS[0mys[1mop .[0m.......................[1m. Deadman (s[0me)[1;30mX[0m
-                 [1;30mA [0mC[1mosysop .[0m...................[1m. Tempis Sca[0mle[1;30ms[0m
-                 [1;30mS[0mtu[1mffy Things .[0m.................[1m. iCE Cent[0mra[1;30ml[0m
-                 [1;30mN[0mum[1mber .[0m.......................[1m. 305/POT.S[0mEX[1;30m![0m
+                 [1;30m  [0m [1m        [0m                   [1m            [0m  [1;30m [0m
+                 [1;30m [0m  [1m            [0m                 [1m          [0m  [1;30m [0m
+                 [1;30m [0m  [1m     [0m                       [1m           [0m  [1;30m [0m
                  [1;30mS[0miz[1me .[0m............................[1m. God Kn[0mow[1;30ms[0m
-                 [1;30mO[0mri[1mentation .[0m...................[1m. Jesus Kn[0mow[1;30ms[0m
-                 [1;30mS[0mpe[1med .[0m..........................[1m. Hell Kn[0mow[1;30ms[0m
-
-     [35mA [0;1;37mF[0min[1;30mal [0;1;37mDe[0msc[1;30mendant [0;35mand [0;1;37mi[0mC[1;30mE [0;1;37mSt[0mud[1;30mios [0;1;37mPr[0mod[1;30muction [0;1;35m([0;35mc[0;1;35m)[0;35m1994 on February 2nd[0;1;35m.[0m'
+                 [1;30m [0m  [1m          [0m                   [1m          [0m  [1;30m [0m
+                 [1;30mS[0mpe[1med .[0m..........................[1m. Hell Kn[0mow[1;30ms[0m'

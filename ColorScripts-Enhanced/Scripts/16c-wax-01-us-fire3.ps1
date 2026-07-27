@@ -5,7 +5,7 @@
 # Source SHA-256: 34ab5b461d939091898c6ada39010a868d8fd0db36fb2fe9cb685d0c53ca01fd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FIRE3.ANS by Drax + Rad (wax-01); released in wax-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -29,9 +29,9 @@ Write-Host '
 [1m      [0;1;30m   :▓$$[0;1;37m [0;31mⁿⁿ[0;1;30m.╖[0;1;37m [0;31m,.. [0;1;30m`▓$$d$$$$ss$$$$$²²²²'''''' ▓$$'' ,gg╖▓$$$bsss╖,. .,╓s$?''[0m
 [1m      [0;1;30m bad$$$d$$$$[0;1;37m [0;1;31m$[0;1;31;41m$[0;31m$$[0;1;30m $$$$"""''[0;1;37m  [0;1;30m      [0;1;37m      [0;1;30m;$$; j`  jh,``''"°ⁿ²T$$$$P²`[0m
 [1m      [0;1;30m ''" [0;1;37m  [0;31m,,,,[0;1;37m   [0;31m⌡⌡⌡⌡[0;1;30m ''''''''[0;1;37m [0;31m⌡ⁿⁿⁿ  `` [0;1;37m        [0;1;30m;$$, `&s''`$$[0;1;37m        [0m
-[1m            [0;1;31m$[0;1;31;41m$[0;31m$ [0;1;37mfinally f1r3 .. #30.           [0;1;30m''┴▓bg╥gd$7''[0;1;37m _rad[0mFIRE> [1moutline[0m
-[1m            [0;31m''?[0;30;41m$[0;31;40mgggg⌠⌠⌠  ⌠g    g   [0;1;37;40m             [0;1;30;40m    ````   [0;1;37;40m  drax[0mWAX> [1mtouchups[0m
-                [31m``[0m                                                   [1;37mbackground[0m
-                                                                     [1mcolors[0m
+[1m            [0;1;31m [0;1;31;41m [0;31m  [0;1;37m                               [0;1;30m ┴▓  ╥     [0;1;37m     [0m      [1m       [0m
+[1m            [0;31m  [0;30;41m [0;31;40m    ⌠⌠⌠  ⌠         [0;1;37;40m             [0;1;30;40m           [0;1;37;40m      [0m     [1m        [0m
+                [31m  [0m                                                   [1;37m          [0m
+                                                                     [1m      [0m
 
 [1m-----------------[0m [1m-------------------------------------------------------------[0m'

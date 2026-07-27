@@ -5,7 +5,7 @@
 # Source SHA-256: 153464196c6f08ff8ae6ee27d0fcaf35fd49c9dceef112fa7b6eb5f02dcd31cf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CK-SE1.ANS by chromatik (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: savage exile
 # SAUCE Author: chromatik
 # SAUCE Group: Blade Productions
@@ -43,6 +43,6 @@ Write-Host '
 [37m█[0;1;37m█▄█▀[0m█  ▀▀[1;47m▀▀[0m▀▀▄[33m  █[0;1;31;43m▐[0;1;31;47m▓[0;1;31;43m█[0;33m█[0m [33m ▄[0;1;31;43m■[0;33m█[0;1;31;43m▄▓[0;33m█[0;1;31;43m▓[0;1;31;47m▓[0;1;31;43m▓█[0;33m█ [0m [33m █▀▀ █[0;1;31;43m█[0;1;31;47m▓[0;1;31;43m▓[0;33m█ █[0;1;31;43m▐[0;1;31;47m▓[0;1;31;43m▓[0;33m█[0m [33m█[0;1;31;43m▀▀[0;33m█▀▀[0;1;31;43m▀▐[0;1;31;47m▓[0;1;31;43m█[0;33m█[0m [33m ▄[0;1;31;43m■[0;33m█[0;1;31;47m▓[0;1;31;43m▓[0;33m▀ █▀▀▀ [0;37m [0m
 [1;30m────────────[0m [1;37m▀▓[0m▀ [33m▐█[0;1;31;43m█▀[0;33m█▓[0;1;30m─[0;33m▀▀▓▀▀[0m [1;31;43m ▓[0;1;31;47m▓[0;1;31;43m█[0;33m█▀ [0;1;30m─[0m▄▄[1m█[0m [33m▐[0;1;31;43m▀[0;1;31;47m▓[0;1;31;43m▀[0;33m█▓▐[0;1;31;43m▀[0;1;31;47m▓[0;1;31;43m▀[0;33m█▓▀[0m [1;30m─── [0;33m▐█[0;1;31;43m█▀[0;33m█▓ ▀▀▓▀▀ [0m [33m▄▄[0;1;31;43m▄[0;33m▄[0;1;30m─[0m
 [1;31ms[0;33m [0;1;31ma[0;33m [0;1;31mv a[0;33m [0;1;31mg e[0;33m . . .■▀▀▀[0;1;30mop.critical[0;33m▀▀[0;1;30mill[0m█[1m█▓█▄[0m [33m▀▀[0;1;30musio[0;33m▀▀[0;1;30mn.darkmem[0;33m■▀▀▀[0;1;30mber.board[0;33m▓[0;1;31;43m▀[0;33m▀█▀█[0;37m [0m
-[33m. . . [0;1;31me[0;33m [0;1;31mx i[0;33m [0;1;31ml[0;33m [0;1;31me[0;33m ![0m [1;30mdemo.sound.art.warez[0m█[1m█▀█▀█[0m▓▀[1;30m.mags.programming.muchmuchmor[0;33m▀▀▀[0;1;30me[0m
+[33m      [0;1;31m [0;33m [0;1;31m   [0;33m [0;1;31m [0;33m [0;1;31m [0;33m  [0m [1;30m                    [0m█[1m█▀█▀█[0m▓▀[1;30m                             [0;33m▀▀▀[0;1;30m [0m
 [1;30m──────────────────────────────────[0m [1;37m▄▓[0m▄ [1m■[0m▀▀▀▀  [1;30m─────────────────────────────────[0m
-[1;30m...[0m [1;30morig.ansi.by.ck.blade.1995.[0m     [1;37m▀[0m'
+[1;30m   [0m [1;30m                           [0m     [1;37m▀[0m'

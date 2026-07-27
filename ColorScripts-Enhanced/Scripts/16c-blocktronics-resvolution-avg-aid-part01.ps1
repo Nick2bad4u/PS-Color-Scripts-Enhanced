@@ -5,7 +5,7 @@
 # Source SHA-256: fa91d87c0d13938f31dc04cb2d030682970ac75d3dcb4b3aacfe81fa3ff0887e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: avg-aid.ans by Avenging Angel (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-38
 # Columns: 1-80
 
@@ -13,15 +13,15 @@ Write-Host '
 
 
 
-                [1;32mWARNING! YOU ARE ABOUT TO VIEW AN [0;1;35mORIGINAL [0;1;32mANSI[0;1;35m![0m
+                [1;32m                                  [0;1;35m         [0;1;32m    [0;1;35m [0m
 
 
 
 
-       [1;35mORIGINAL:[0m [35ma work that is a new creation by an artist as opposed to[0m
-                 [35mthat which[0;37m [0;35mis copied or reproduced in another work.[0m
+       [1;35m         [0m [35m                                                        [0m
+                 [35m          [0;37m [0;35m                                        [0m
 
-                 [37mblah blah blah..[0m
+                 [37m                [0m
 
 
 

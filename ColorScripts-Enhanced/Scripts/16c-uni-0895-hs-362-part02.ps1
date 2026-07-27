@@ -5,7 +5,7 @@
 # Source SHA-256: 1e97ae4df30fb95f40b06dc18627aabaa330d94d2870ffcfdf630824cf43117d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HS-362.ANS by 666 AKA HellSpawn (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: 36 Chambers
 # SAUCE Author: 666 AKA HellSpawn
 # SAUCE Group: Union
@@ -37,7 +37,7 @@ Write-Host '
 [32m█ ▀▓▀[0m                          [34m■▒[0m            [1;37m▀[0;1;37;47m▓▒░░[0m█▓▀██▀▄[1;47m░[0m██▄▄ [1;30m▀■  [0;33m▒ ▀▀ ▄▓[0;1;30;43m░░▒▓[0;1;30;40m▀▀[0m
 [32m▓  ▒    [0;1;30m36 chambers.. wow.. 36? [0;34m░[0m                [37m▀▀▒  ▄[0;1;37;47m▒░[0m▓▀▀ [1;47m░░[0;41m▓[0;40m▄▄[0m        [33;40m▀▀[0m
 [32;40m█  ░    [0;1;30;40m305-437-2310..[0m                             ░    ▀   ▀▀▀▀▀▄▓▀█▄▄▄▄▀▀■ [1;30m▓[0m
-[1;32;42m░[0;32m▌[0m      [1;30mevery caller gets their own fat chick to whip..[0m           ▒         [1;30m▀▒[0m
-[1;32;42m▒░[0m      [1;30;40mMister Od. Bastard starring as The Sysop..[0m                ░          [1;30m░[0m
+[1;32;42m░[0;32m▌[0m      [1;30m                                               [0m           ▒         [1;30m▀▒[0m
+[1;32;42m▒░[0m      [1;30;40m                                          [0m                ░          [1;30m░[0m
 [1;32;42m▓▒[0;32m▌[0m
-[1;32;42m█[0;32m▀[0m      [1;30mAnsi by Hs.union -[0m'
+[1;32;42m█[0;32m▀[0m      [1;30m                  [0m'

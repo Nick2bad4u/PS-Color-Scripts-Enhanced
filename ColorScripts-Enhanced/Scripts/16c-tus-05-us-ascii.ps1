@@ -5,7 +5,7 @@
 # Source SHA-256: ede8be85ac068c681553c6d9d36a5067b4ed5e2ac1913313ff7d6b927a96bfc7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ASCII.ANS by Prizm + Discyple (tus-05); released in tus-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
@@ -36,8 +36,8 @@ Write-Host '
                                                               [36m$$[0m   [36m `$$$[0;37m  [0;36m$$    [0m
 
 
-      [1;37masciiscene.org  - drugs, guns, violence, and sex[0m
-[1m   [0;1;36m;[0m  [1mand let''s not forget ice[0m
+      [1;37m                                                [0m
+[1m   [0;1;36m [0m  [1m                        [0m
    [1;36m;[0m                    [1;36m ;[0m
 [1;36m...;..[0m$$                 [1;36m;[0m
   $[1;36m;[0m    $$$              [1;36m;[0m
@@ -47,9 +47,4 @@ Write-Host '
        $$$$$$  [1;33m4[0;1;37m$$[0;1;33m$$[0m [1;33m`$$$$[0m
                    [1;33m  $$[0m  [1;36m.[0m
             [1;36m;[0m     [1;33m   [0m    [1;36m.[0m
-          [1;36m..;..[0m          [1;36m.[0m
-         cli[1;36m;[0mk here or in ten seconds you will automatically
-         be transported to bible collegeOFKDJZOFKSDLKFF
-
-
-   [1mprizm[0m/[1mdiscyple[0m'
+          [1;36m..;..[0m          [1;36m.[0m'

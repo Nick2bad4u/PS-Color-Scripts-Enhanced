@@ -5,7 +5,7 @@
 # Source SHA-256: 629f1624e3b9d48b17a00c6131eb0bf63eaec9c07769eb5ff6c02358dff66c5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR_ANARC.ANS by Grim Reaper (Mistigris); released in mist0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Captain Anarchy
 # SAUCE Author: Grim Reaper
 # SAUCE Group: Mistigris
@@ -16,7 +16,7 @@
 
 Write-Host '
                             [1m·[0;30;44m           [0m
-[30;40m C[0;1;37;40mCaptain Anarchy[0m           [30;44m             [0m                       [1;37;40mwoo hoo![0m
+[30;40m  [0;1;37;40m               [0m           [30;44m             [0m                       [1;37;40m        [0m
                            [1;34;44m               [0m
                        [1;34;44m     [0;1;32;41m    [0m   [1;32;41m      [0;1;34;44m     [0m
                      [1;34;44m   [0;1;32;41m       [0m     [1;32;41m         [0;1;34;44m   [0m
@@ -35,6 +35,6 @@ Write-Host '
                      [30;44m       [0;1;32;41m             [0;1;34;44m          [0m
                           [30;44m                 [0m
                             [30;44m             [0m
-[30;40m [0;1;37;40mfear this scum![0;30mst scum![0m     [30;44m           [0m              [1;37;40myou shall all perish..[0m
+[30;40m [0;1;37;40m               [0;30m        [0m     [30;44m           [0m              [1;37;40m                      [0m
                               [30;44m         [0m
                                [30;44mgr     [0m'

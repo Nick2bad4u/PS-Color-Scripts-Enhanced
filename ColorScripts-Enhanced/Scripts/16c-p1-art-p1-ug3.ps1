@@ -5,7 +5,7 @@
 # Source SHA-256: 4a4525961ee78cb8ccaa9707d5e708eddf84e0aba1b776b5e2a30ec7e2651502
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-UG3.ANS by Prisoner#1 (Fire); released in p1-art and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Undergrown Logo
 # SAUCE Author: Prisoner#1
 # SAUCE Group: Fire
@@ -20,7 +20,7 @@ Write-Host '
 [1;36m   hip E-mag, featuring   [0;34m█ [0;37m█▀ [0;1;30m▄▀▀▄ [0m▀█ [1;30m▄▀▀■ [0m█[30;47m29¢[0;37;47m█[0;37;40m [0;34;40m█   [0;1;36;40mstamped officially with[0m
 [1;36;40m   the incredible 33rie   [0;34m█ [0;37m█ [0;1;30m▐▌   █▄▄█▌▄▀ [0m██[30;47mUSA[0;37;47m█[0;37;40m [0;34;40m█   [0;1;36;40ma Herman da Vermin seal[0m
 [1;36;40m   of Relic & Mistigris   [0;34m█ [0;37m██▄[0;1;30m▀■▄▐█████▌ [0m███████ [34m█   [0;1;36mof approval, curtesy of[0m
-[1;36m   fame and pHUNK, with   [0;34m█ [0;37m███ [0;1;30m██▀[0;1;37m▄[0;1;30m▐[0;1;37m■[0;1;30m██[0;1;37m∙[0m▐[30;47mHerman[0;37;47m█[0;37;40m [0;34;40m█   [0;1;36;40mprisonernumberone, that[0m
+[1;36m                          [0;34m█ [0;37m███ [0;1;30m██▀[0;1;37m▄[0;1;30m▐[0;1;37m■[0;1;30m██[0;1;37m [0m▐[30;47m      [0;37;47m█[0;37;40m [0;34;40m█   [0;1;36;40m                       [0m
 [1;36;40m   interviews, and ansi   [0;34m█ [0;37m████ [0;1;30m▀█[0;1;37m▐▐[0;1;30m▐██▌[0m▐█[30;47m''da[0;37;47m███[0;37;40m [0;34;40m█   [0;1;36;40mevil mo'' fo of Acid and[0m
 [1;36;40m   reviews, Sonic Youth   [0;34m█ [0;37m█████▌ [0;1;37m▌▌▌[0;1;30m█▀ [0m█[30;47mVermin █[0;34;47m█[0;34;40m   [0;1;36;40mFiRE.  Latitudes, money[0m
                           [34m█ [0;37m██████▄▀[0;1;37m▀ [0m▄▄█████████ [34m█[0m

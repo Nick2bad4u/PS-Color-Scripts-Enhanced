@@ -5,7 +5,7 @@
 # Source SHA-256: 60b3b6fb40f927e469a391018328ad49ebaf942843898ebd557c1b7fb326ccf6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KN!RZAP.ANS by Kenetic <KN!> (Ecolove (guest)); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Raf-Zap
 # SAUCE Author: Kenetic <KN!>
 # SAUCE Group: Ecolove (guest)
@@ -21,7 +21,7 @@ Write-Host '
   [[1;30mc[0m][1;30m Multicode   [0m [1;30m:[0;33m|[0;1;31mS [0;33ml[0;1;31m&[0ml[33m:l:[0;1;33ml[0m [1;31ml$$$$$$$$$[0;33m$Sg▬.[0;1;30m`°[0;33m╚T$$il&[0;1;33mb▬[0;33mg%S$&[0;1;33m$$P*╝°`[0;33m.▬π,[0;37m [0;1;30m:[0;33ml[0;1;33m|[0;1;30m''[0m
                     [1;30m:[0;33ml,|[0;1;31m&|[0;33m:|l[0;1;33mi[0;33m∙[0;1;31m:[0;33m*╝ⁿ²ⁿ╚*T&[0;1;31m$$$$$[0;33m$%▬.`ⁿTi$$$[0;1;33m$P*╝°`[0;33m.▬yS$$[0;1;31ml|l[0;33m&g[0;1;30m`[0;1;33m|[0;1;30m''[0m
   [1;30mCode[0m:[1;30m BaSS     [0m   [1;31m [0;1;30m`[0;33m|[0;1;30mb[0;33m"`,$[0;1;30m:[0;1;33m:[0;33m:|il[0;1;31m&$$S@[0;33mg,_°╚T[0;1;31m$$&lS[0;33m&i.`°[0;1;33mⁿ°`[0;33m.▬gS$[0;1;31m$$$[0;33m$P*╝ⁿ╚T$i[0;37m [0;1;30m [0m
-  [1;30mDesign[0m:[1;30m Kenetic[0m   [1;31m  [0;1;30m_[0;33m,s[0;1;31mSi[0;33mi[0;1;31m [0;33m:[0;1;31m:l&$[0;33m&P╝ⁿ╚Tl$Sy,`T$[0;1;31m&il&$[0;33mS%y[0;1;31m%S[0;33m&iP*╝ⁿ°`.▬g%y,|iS[0;1;30m:[0m
+  [1;30m      [0m [1;30m        [0m   [1;31m  [0;1;30m [0;33m  [0;1;31m  [0;33m [0;1;31m [0;33m [0;1;31m    [0;33m  ╝ ╚         [0;1;31m     [0;33m   [0;1;31m  [0;33m    ╝    ▬       [0;1;30m [0m
                     [1;31m  [0;1;30m`[0;33m°^[0;34m_[0;1;34m_[0;1;30m`[0;33m":i[0;1;31mlK[0;33mNl[0;1;31m  [0;34ms,[0;1;31m  [0;33m`°ⁿ╚T,`╚T$[0;1;31mS&$$P&[0;33mlSy▬╓y%S$$[0;1;31m$$Pl&i[0;33ml|[0;1;30m     [0m
        [34m          [0;1;34m_.,▬s[0;34m%[0;1;34mS[0;34m$$$$b,[0;33m`$[0;1;31m$$[0;33mS,[0;1;31m [0;34m`ⁿ*[0;1;34myS[0;34mⁿ[0;1;31m   [0;33m `[0;1;31m  [0;33mT[0;1;31milP$&l$[0;33m$╚╝ⁿ"^``└7[0;1;31m|idS[0;33m&l[0;1;31m [0m
         [1;34m _[0;34m,▬s%S$$$P*╝²°`,d$$P''[0;33m i&[0;1;31m$$$[0;33m$S%y╖▬▬gS$Sy, l[0;1;31m&$$$$[0;33m$l[0;1;31m  [0;34m+▬[0;1;34ms*[0;34mⁿ[0;1;31m  [0;33m,d[0;1;31m&i[0;33m&l[0;1;31m  [0m
@@ -34,14 +34,11 @@ Write-Host '
    [36m,d[0;1;34m$[0;34m$$$$P╝²°°ⁿ╚*TS$[0;36m$[0;1;34mb[0;36m▬[0;1;34m,_`╚[0;34mT$$Sy╖▬[0;1;34m▬╓[0;34my[0;1;34mS[0;34m$[0;1;34m$P[0;34m╝$$$[0;1;34m,[0;34m `$$l[0;1;34m$[0;36mb,[0;34m          [0;36m,d[0;1;34m$$[0;34mP [0;1;30m  [0m
    [36m`"²[0;1;34mⁿ[0;36m°[0;1;34m`[0;34m          `°²╚*T$Ss, [0;1;34m`[0;34m^°²╨╨²°^`   `[0;1;34m°[0;34m╩[0;1;34mⁿ'',[0;34m$$:╚T[0;1;34m$[0;36m$[0;1;34mS%[0;34mg[0;1;34m╥[0;34m╥s%[0;1;34mS[0;34m$[0;1;34m$P[0;34m╝'' [0;1;30m    [0m
                    [34m                 [0m           [1;34md[0;34m$[0;1;34m$[0;34m&[0m    [1;34m`[0;34m^[0;1;34m°²[0;34m╨╨²°^`   [0m
-                          [34m       [0m              [36m&[0;1;34m$[0;34m$l  [0;37m»[0;1;30m> Kenetic[0m![34m   [0m
+                          [34m       [0m              [36m [0;1;34m [0;34m    [0;37m [0;1;30m         [0m [34m   [0m
 [37m.[0m                                              [36m`°[0;1;34m"`[0m
 |--- --  -     -
-| [1;30mRaf-zap, THE scene-protocol...[0m
-: [1;30mIt r0ks, BaSS you''re the best. Uploading, downloading AND chatting! with an[0m
-∙ [1;30mamazing high cps...[0m
-  [1;30mThnx goes out to essence for helping me with the coloring of that face.[0m
-·
-  [1;30mContacting me: Evidence +31-(0)76-5938027 (isdn/28k8) 3 nodes[0m
-                 [1;30mKenetic@concepts.nl[0m
-                 [1;30mUndernet: #nlcoders[0m'
+  [1;30m                              [0m
+  [1;30m                                                                           [0m
+  [1;30m                   [0m
+  [1;30m                                                                       [0m
+·[0m'

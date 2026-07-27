@@ -5,7 +5,7 @@
 # Source SHA-256: f2aaec1c08c4f36ff4e4658b7f1da0b7d3199f02c718425d4b81a917aec8073e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IN-AREA1.ICE by Incubus (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 78-125
 # Columns: 1-80
 
@@ -34,10 +34,10 @@ Write-Host '
       [1mS[0mys[1mA[0mwps[1m: A[0mstaroth                      [31m■[0m         [1;31m▄[0;1;31;41m▀[0;31m▀[0m         [1;31m▀[0;31m■ [0;1;31m▄▄[0;31m▄▄▄ [0;1;31m■ ·[0m
                [1mT[0mhanos                         [31m▀▄▄  [0;1;31m▄[0;31m▄[0;1;31;41m▀░[0;31m▀[0m       [1;31m▄▄[0;31m▄[0;1;31;41m▀▀[0;31m▀▀▀[0m
                                                  [31m▀▀▀▀[0m        [1;31m■▀[0;31m▀[0m
-        [1mR[0munning [1mPCB[0moard v[1m15[0;1;30m.[0;1m2[0m
-[1m C[0mi[1mA M[0member [1mB[0moard[1;30m, [0;1mRAID M[0member [1mB[0moard
-     [1mHOSTILE S[0menior [1mM[0member [1mB[0moard
-  [1mI[0mnterpol [1mA[0mffiliate[1;30m, [0;1mD[0mo[1mD A[0mffiliate
+        [1m [0m       [1m   [0m      [1m  [0;1;30m [0;1m [0m
+[1m  [0m [1m   [0m      [1m [0m    [1;30m  [0;1m      [0m      [1m [0m    
+     [1m         [0m      [1m [0m      [1m [0m    
+  [1m [0m        [1m [0m        [1;30m  [0;1m [0m [1m   [0m        
       [1m750[0m+ [1mM[0megs[1;30m, [0;1m0[0m-[1m2 D[0may [1mW[0marez                    [1m▄▄▄███▄▄▄[0m
                                                 [1;36m▄[0;1m▀[0;1;47m▄[0;1m▀[0;1;36m▄[0;36m▄▄[0;1m▀▄▀▀█[0m▄
                  [1;30m■[0m        [1;34mC[0;34mall it...[0m           [1;36m▐█[0;36m▌▄[0;1;36;46m█[0;1;36m███[0;1;36;46m▄[0;36m▄[0;1m▀▄▐█[0m▌
@@ -49,7 +49,7 @@ Write-Host '
 [30mi CCC EEE[0m       [1;30m▐    ▌ [0;1;31m▀█▄ [0;31m▀[0;1;31;41m▀[0;1;31m█████████████████[0;1;31;41m▀ [0;31m▀▄[0;1;31m█▄█[0;1;31;41m▀▀[0;31m▀   [0;30mONiON Makes me cry..[0m
 [30mwhoa..[0m          [1;30m▐[0m     [1;30m▀   [0;1;31m▀▀ [0;31m▀[0;1;31;41m▀▀[0;1;31m███████████[0;1;31;41m▀▀[0;31m▀▀▄█[0;1;31;41m▀[0;31m▀▀▀[0m▄[1m▄    [0;30mACiD Makes me trip..[0m
 [30mblack on black[0m          [1;30m▀ ▀▄    [0;31m▀▀▀[0;1;31;41m▀▀▀▀[0;31m█▀▀▀[0m        ▀[1;47m ▀[0;1m▄    [0;30mShiver.. uhh...[0m
-[30mascii art..[0m     [1;30m▀[0m           [1;30m█[0m                        ▀▀[1;47m▀[0;1m▄▄ [0;30mVOR.. uhh...[0m
+[30m           [0m     [1;30m▀[0m           [1;30m█[0m                        ▀▀[1;47m▀[0;1m▄▄ [0;30m            [0m
                [1;30m▄[0m       [1;30m▀ [0m▄▄                             ▀█[1;47m▀[0;1m▄[0;1;36m▀▄▄[0;30mC.. uhh...[0m
               [1;30m▌[0m       [1;30m▒[0;1;30;41m▀[0;1;30m▓ [0m▀[1;30;47m▀█[0;1;30m▄[0m▀▄▄▄     [1m▄▄[0m               [1;30m▀▄ [0;36m▄█▄[0;1;36;46m▀[0;1;36m▀[0;30mN.. is broken?[0m
 [1;33mA[0;1;32mn[0;32msi b[0;1;30my[0m      [1;30m▐▌[0m      [1;30m▀█[0;1;30;41m▀▄[0;1;30m░[0m▀▐██[1;30;47m▀[0m▄█[1;30;47m▀▀█▄[0;1m▄█[0;1;47m▀[0;1;30m▄[0m▀[1m▄[0m▀[1;30m▀[0m           [1;30m▀▄[0;36m▀[0;1;36;46m▀█▄[0;36m▄[0;1;36m▀[0;36m▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 7b05a5bb50e1100f2256d190a0b6497b275d3c4757b1ccf6dfe8a87475400c3e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GD-NGLND.ANS by Grateful Dead (RAiD); released in raid1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Neo Graceland
 # SAUCE Author: Grateful Dead
 # SAUCE Group: RAiD
@@ -48,13 +48,11 @@ Write-Host '
 
 [32m▄[0;1;32m▄[0;32m▄[0;1;32m▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;32m▄▄▄▄▄▄▄[0m  [1;32m▄▄▄[0m    [1;32m▄▄[0m   [1;32m▄[0m    [1;32m▄[0m    [1;32m▄[0m [1;32m▄[0m        [1;32m▄▄[0m [1;32m▄▄▄▄▄▄▄[0m  [1;32m▄▄▄▄▄▄[0;32m▄[0;1;32m▄[0;32m▄[0;37m [0m
 [32m▓[0m                                                                             [32m▓[0;37m [0m
-[32m▒[0m [32mNeo-GraceLand . (604)325-8116[0m [32m.[0m [32mPiNiON Zine World HQ . SysOp: Magik Elvis[0m   [32m▒[0;37m [0m
-[32m░[0m [32mCo''Sop: Lord Drahkar[0m [32m. Beattle . Evil Iggy .[0m [32m3OO Megz Online . Psycho Net[0m   [32m░[0;37m [0m
-[32m▄[0m [32mtAB Net . FiSH Net[0m [32m. 0-7[0m [32mDay Warez . Featuring a wide variety of art paks[0m   [32m▄[0;37m [0m
-[32m▀[0m  [32mLocal LiNK Support[0m   [32m.[0m   [32mMiSTiGRiS Member Board[0m   [32m. ░[0m [32mLocal[0m [32mLiNK[0m [32mSuport[0m    [32m▄[0;37m [0m
+[32m▒[0m [32m                             [0m [32m [0m [32m                                         [0m   [32m▒[0;37m [0m
+[32m░[0m [32m                    [0m [32m                       [0m [32m                            [0m   [32m░[0;37m [0m
+[32m▄[0m [32m                  [0m [32m     [0m [32m                                                [0m   [32m▄[0;37m [0m
+[32m▀[0m  [32m                  [0m   [32m [0m   [32m                      [0m   [32m  ░[0m [32m     [0m [32m    [0m [32m      [0m    [32m▄[0;37m [0m
 [32m░[0m      [32m░[0m                   [32m░[0m                [32m░[0m          [32m▒[0m           [32m░[0m          [32m▓[0;37m [0m
 [32m▓▀▀▀▀▀▀▒▀▀▀ ▀ ▀▀▀▒▀▀▀[0m  [32m▀▀▀▀▒▀▓▀ ▀▀[0m  [32m▀▀▀[0m  [32m▀[0m [32m▀▒[0m [32m▀[0m [32m▀[0m  [32m▒▀▀▀▀[0m  [32m▀▀ ▀▀▀▀▀▓▀[0m [32m▀[0m [32m▀[0m  [32m▀▀[0m [32m▀▒[0;37m [0m
-[32m [0m [1;30mThis 100% Origi[0;32m░[0;1;30mal ANSi was[0;32m▒[0;1;30mmade by noneother tha[0;32m░[0m [1;30mRAiDsman[0m [1;30mGrat[0;32m▒[0;1;30mful Dead[0m   [32m░[0;37m [0m
-[1;30myou can reach this lazy bum o[0;32m░[0m [1;30mhis extremely slow InterNet Account[0;32m░[0m
-[1;30mGrateful.Dead@f883.n153.z1.fidonet.org . ok thats all me thinks go ahead and [0m
-[1;30mcontact me if ya want something no-one else has.  RAiD Productions''94[0m'
+[32m [0m [1;30m               [0;32m░[0;1;30m           [0;32m▒[0;1;30m                     [0;32m░[0m [1;30m        [0m [1;30m    [0;32m▒[0;1;30m        [0m   [32m░[0;37m [0m
+[1;30m                             [0;32m░[0m [1;30m                                   [0;32m░[0m'

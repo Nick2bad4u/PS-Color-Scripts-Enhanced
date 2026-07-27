@@ -5,7 +5,7 @@
 # Source SHA-256: bfd881bf778a53c1626293cb98aad883ad6f50d1cd7fd81bd0b738634c19ceb3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AA-BH.ICE by Aada (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-89
 # Columns: 1-80
 
@@ -52,7 +52,7 @@ Write-Host '
       [31m▀[0m                                                                 [31m▀[0m
 [31m    ▀▄[0;1;33;41m▄[0m [31m▀[0;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37mB[0;1;33mla[0;1;31mzi[0;31mng [0;1;37mH[0;1;33me[0;1;31ml[0;31ml[0;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m▀▄[0;1;33;41m▄[0m [31m▀[0m
      [1;33;41m▒▓▄[0m [1;30;40m▓[0m         705-734-0725  705-835-6960  14.4K v32bis          [1;30m▓ [0;1;33;41m▒▓▄[0m
-     [1;30;40m▐[0;1;30;47m▓[0m▌ [1;30m▒ [0m[YAM] Distribution Site      CyberCrime International Net [1;30m▒ ▐[0;1;30;47m▓[0m▌
-      [1;30;47m░[0m  [1;30;40m░ [TRiNiTY] Canadian HQ[0m        [1;30;40mPlatinum Network[0m             [1;30;40m░  [0;1;30;47m░[0m
-         [1;30;40m░ The Evolution Network WHQ    ANSI by AADA·iCE/TS[0m          [1;30;40m░[0m
+     [1;30;40m▐[0;1;30;47m▓[0m▌ [1;30m▒ [0m                                                          [1;30m▒ ▐[0;1;30;47m▓[0m▌
+      [1;30;47m░[0m  [1;30;40m░                      [0m        [1;30;40m                [0m             [1;30;40m░  [0;1;30;47m░[0m
+         [1;30;40m░                                                 [0m          [1;30;40m░[0m
          [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

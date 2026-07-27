@@ -5,7 +5,7 @@
 # Source SHA-256: 4e2f27056b93e4343c9d11a5644453cd314b3d90d9f67206ca46d4479a35899f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-FNGS.ANS by Nevermind (READ THE INI FILE); released in xide0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Fringes
 # SAUCE Author: Nevermind
 # SAUCE Group: READ THE INI FILE
@@ -53,8 +53,4 @@ Write-Host '
   [1;34m [0;1;37;47m▒[0m███[1;47m▒[0m [1;34m   [0m [1;47m▒[0m██[1;47m [0m▄▄▄██[1;47m░[0;1;40m▀[0m    [1;47m▒[0m██[1;47m▒[0m    [1;47m▒[0m████████[1;47m [0m█[1;47m▒[0m ████▄ [1m■[0m▄▄▄[1m■[0m  [1;47m▒[0m██[1;47m▄[0m [1m■[0m▄▄▄[1m■[0m▀███▄
   [1;34m [0;1;37;47m▓[0m███[1;47m▓[0m  [1;34m [0m  [1;47m▓[0m██[1;47m▒[0;1;40m▀▀▀[0;1;47m▒[0m█[1;47m▒[0m     [1;47m▓[0m██[1;47m▓[0m    [1;47m▓[0m██[1;47m▓[0;1;40m▀[0;1;47m▄[0m███[1;47m [0m█[1;47m▓[0m [1;47m▄[0m████████[1m▌[0m   [1;47m▓[0m██   [1m▐[0m████████[1;47m▄[0m
   [1m▐[0;1;47m▌[0m███[1;47m▐[0;1;40m▌[0m [1;34m [0m [1m▐[0;1;47m▌[0m██[1;47m▓[0;1;40m▌[0m  [1m▐[0m██[1;47m▓[0m   [1m▐[0;1;47m▌[0m██[1;47m▐[0;1;40m▌[0m  [1m▐[0;1;47m▌[0m██[1;47m▐[0;1;40m▌[0m [1m▀[0;1;47m▄[0m█[1;47m [0m█[1;47m▐[0;1;40m▌[0m [1m▀[0;1;47m▄▄[0m██[1;47m ▄▄[0m   [1m▐[0;1;47m▌[0m████▌ [1m▀[0;1;47m▄ [0m██[1;47m▄▄[0;1;40m▀[0m
-[1;34m [0;1;37m■▀▀▀▀▀▀▀■[0;1;34m [0;1;37m■▀▀▀▀▀▀■■▀▀▀▀▀■■▀▀▀▀▀▀■■▀▀▀▀▀▀▀■■▀▀▀▀▀▀■[0m  [1m▀▀▀[0m    [1m■▀▀▀▀▀▀▀■[0m  [1m▀▀▀[0m  [1m  [0m
-
-[1m                            [0m        [1mFRINGES[0m      [1m            [0m
-
-                              [1m    [0m [1mOBV/2 WHQ[0m'
+[1;34m [0;1;37m■▀▀▀▀▀▀▀■[0;1;34m [0;1;37m■▀▀▀▀▀▀■■▀▀▀▀▀■■▀▀▀▀▀▀■■▀▀▀▀▀▀▀■■▀▀▀▀▀▀■[0m  [1m▀▀▀[0m    [1m■▀▀▀▀▀▀▀■[0m  [1m▀▀▀[0m  [1m  [0m'

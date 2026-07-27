@@ -5,7 +5,7 @@
 # Source SHA-256: 26f3a4124130b07ef81c0c22467f03359e9391afdcb43d8747dab5dc9ca76b21
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DT-DOH1.ANS by DEFIANT (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: DOH
 # SAUCE Author: DEFIANT
 # SAUCE Group: SAMSARA
@@ -32,9 +32,9 @@ Write-Host '
                                      [1;30m░░[0m
 
 
-                                   [1;30mdefi[0man[1mt[0m
+                                   [1;30m    [0m  [1m [0m
                                      [1;30mof[0m
-                                   [1;30msamsar[0ma
+                                   [1;30m      [0m 
 
 
         [1;33m░░[0m                                                  [33m▐▄[0m      [1;37m▄▓░░[0m

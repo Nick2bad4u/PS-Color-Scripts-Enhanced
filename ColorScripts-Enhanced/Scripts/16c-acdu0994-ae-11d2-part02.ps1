@@ -5,7 +5,7 @@
 # Source SHA-256: b6b1e0dffbc9fc65ccbd14ac72c8b9c73ec0919dad6cfc14ba77afcf623560bf
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AE-11D2.ANS by Alter Ego (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Eleventh Dungeon Two
 # SAUCE Author: Alter Ego
 # SAUCE Group: ACiD Productions
@@ -54,10 +54,10 @@ Write-Host '
 [31m    ▀▀▀▀[0m      [31m▀▀   ▀▀▀ ▀▀   ▀ ▄▀   ▀▀▀    ▀▀▀  ▀▀▀ ▀▀   ▀▀▀▀   ▀▀▀▀    ▀▀▀[0m
                           [31m▄ ▄▀[0m
                          [31m▀▀▀[0m
-                   [37mSysOps[0;1;30m: [0;1;37mReDMaN [0;1;30m<[0;1;37mACiD[0;1;30m> [0mand [1mSmooth [0;1;30m<[0;1;37mACiD[0;1;30m>[0m
-               [1;37mNode 2[0;1;30m: ([0mCOM[1;30m)[0mING[1;30m-[0mSOON    [1mNode 11[0;1;30m: ([0m415[1;30m)[0m493[1;30m-[0m8438
+                   [37m      [0;1;30m  [0;1;37m       [0;1;30m [0;1;37m    [0;1;30m  [0m    [1m       [0;1;30m [0;1;37m    [0;1;30m [0m
+               [1;37m      [0;1;30m   [0m   [1;30m [0m   [1;30m [0m        [1m       [0;1;30m   [0m   [1;30m [0m   [1;30m [0m    
 
-                      [1;30m" [0mIf you like this ansi, good. [1;30m"[0m
+                      [1;30m  [0m                             [1;30m [0m
 [1;30m· ─────────────────────────────────────────────────────────────────────────── ·[0m
-            First Original Ansi by Alter Ego [1;30m<[0;1;37mACiD[0;1;30m>  ([0mRemember me?[1;30m)[0m
+                                             [1;30m [0;1;37m    [0;1;30m    [0m            [1;30m [0m
 [1;30m· ─────────────────────────────────────────────────────────────────────────── ·[0m'

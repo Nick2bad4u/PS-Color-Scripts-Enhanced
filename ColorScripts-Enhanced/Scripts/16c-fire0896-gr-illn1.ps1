@@ -5,7 +5,7 @@
 # Source SHA-256: 7c3190639c15c92a052389cd498ae7ad47548f79863e45be49fedb98581bc733
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-ILLN1.ANS by Gunthar (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Illness
 # SAUCE Author: Gunthar
 # SAUCE Group: fire
@@ -31,10 +31,7 @@ Write-Host '
 [31m▀░[0;1;31m▄▄▄[0;1;31;41m▓ [0;31m▓░  [0;1;30m■  ▀▀▐███▌    ░ ███▓▀████▄███▓░ ▀▀▀▀[0m     [1;30m███▓▄███▓[0m             [31m░[0;30;41m▓[0m  [31;40m▄[0m
 [1;31;41m▀▀[0;1;31;40m▀[0;1;31;41m░░[0m    [1;30;40m░ ▄    ███▓ [0;31m░░[0m             [1;30m▀▀▀▀    ▄■   ░░  ▀▀▀▀   ░  [0;31m░[0;30;41m▓[0m
 [31;40m▌ ▀█▓░[0;30;41m▓[0m         [1;30;40m▀▀▀▀[0m
-[31m▓■[0m        [30;41m▓[0;1;31;41m░░[0;31m░[0;30;41m▓[0m [31;40m░ [0;37;40m. ..  [0;1;37;40mp[0mrofessional [1mb[0mulletin [1mb[0moard [1mm[0modifications and [1mu[0mtilities
+[31m▓■[0m        [30;41m▓[0;1;31;41m░░[0;31m░[0;30;41m▓[0m [31;40m░ [0;37;40m      [0;1;37;40m [0m            [1m [0m        [1m [0m     [1m [0m                 [1m [0m        
 [31m░[0m          [30;41m▓[0;31;40m░[0m
 
-[1;30;40m---[0m// [1;31mcut [0m//[1;30m-------------------------------------------------------[0m// [1;31mcut [0m//[1;30m---[0m
-
-join up with illness .. we''re lookin for new members with some creative talent!
-and hook up confusion net..the latest pack is on a board near you: CONNET??.ZIP[0m'
+[1;30;40m---[0m// [1;31mcut [0m//[1;30m-------------------------------------------------------[0m// [1;31mcut [0m//[1;30m---[0m'

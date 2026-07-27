@@ -5,7 +5,7 @@
 # Source SHA-256: 436373b13eebd7243247c32918cd57377e7f430dac7b7d58a51f9bfdddd3e1e5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PHL-MIKE.ANS by _pHL (HRg); released in hrg-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: farewell my friend. I miss you.
 # SAUCE Author: _pHL
 # SAUCE Group: HRg
@@ -39,5 +39,4 @@ Write-Host '
  ▄[30;47m   [0;1;31;47m░▒▒░[0;30;47m  ▐[0;1;37;40m▐[0;1;37;47m▓░ [0;30;47m▄▄  [0;37;40m▌[0;30;47m█[0;35;40m▐[0;1;37;45m▐[0;1;37;40m█████████████▄██[0m
 ▄[30;47m     [0;1;31;47m░░   [0;30;47m ▀[0;1;37;40m▀[0;30;47m▄▀█[0;1;37;40m▀[0;30;47m▄▄[0;1;34;40m [0;35m▄[0;1;37;45m▄[0;1;37;40m██████████████[0;1;36;40m██[0;1;37;40m▌[0m  [1m [0m
 ▐▀▀▀▓[30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▓▀█[0;30;47m   [0;37;40m███[0;1;31;40m [0;35m▄[0;1;37;45m▄[0;1;37;40m███[0;1;37;45m▓▓▓▓[0;1;37;40m▀▀▐██████[0;1;36;40m█[0;1;36;46m▀[0;1;37;40m▀ PhL![0m
-▀   ░[30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░ ▐[0m   [37;40m     [0;1;37;40m [0m [1m [0m [35m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;1;37;40m    [0m [1m [0m   [36m▀[0m
-         [37m  [0m'
+▀   ░[30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░ ▐[0m   [37;40m     [0;1;37;40m [0m [1m [0m [35m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;1;37;40m    [0m [1m [0m   [36m▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 04aa5362553bbfd74e3c2065682e2657fc694bc42ef10247dc0f8bffb68090c3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BA-CHAM.ANS by Blue Apache (Apocalyptic Visions); released in avpack09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chameleon
 # SAUCE Author: Blue Apache
 # SAUCE Group: Apocalyptic Visions
@@ -18,7 +18,7 @@ Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [1;30m▓  ▄    ▀[0m    [1;30m▄▄▄[0;36m [0;1;30m░ ▓▄▄▄       [0;30m dontchya love[0;1;30m ▓[0;36m [0;1;30m [0;1;36m█[0;36m [0;1;30m▄▄▄▄▓▀▀▀▀▀▀█▀▀▀▀▀▀▓▀▀█  ▒[0m
 [1;30m▀▀▀▀[0;1;36m▄[0;1;36;46m▓[0;1;36;40m▀[0;36m▀[0;1;36;46m░[0;36m▄ [0;1;36m█[0;36m [0;1;30m▓▄▄▄█ █[0;36m  [0;1;30m▒▄▄█▀▀▀▀[0;30m all this     [0;1;30m ▒▄▄[0;1;36m▐▌[0;36m  [0;1;30m▒[0m        [1;30m▀▀▀▀▀█[0;36m [0;1;30m█ ▀▀ [0;36m [0;1;30m▀█▀█[0m
-   [1;36m█[0m     [36m▀ [0;1;36m▐▌[0m    [1;30m▀▀▀[0m      [30mtwisty bullshit?[0;1;36m▄▄▄[0;36m [0m   [1;36;46m▓[0;36m  [0;1;30m▀[0;36m [0;1;36m▄▄▄[0;36m [0m   [36m       [0;1;30m▀▀▀▀▀▀▀▀[0;36m [0;1;30m▓[0m
+   [1;36m█[0m     [36m▀ [0;1;36m▐▌[0m    [1;30m▀▀▀[0m      [30m                [0;1;36m▄▄▄[0;36m [0m   [1;36;46m▓[0;36m  [0;1;30m▀[0;36m [0;1;36m▄▄▄[0;36m [0m   [36m       [0;1;30m▀▀▀▀▀▀▀▀[0;36m [0;1;30m▓[0m
   [1;36m▐[0;1;36;46m▓[0m        [1;36;46m▓[0;36m  [0;1;36m▄▄▄[0m   [36m [0;1;36m▄▀▀▀[0;36m▌ [0;1;36m▐▌▄▀▀[0;36m▄[0;1;36m▀▀[0;36m▀▄  [0;1;36m▄▀[0;36m   ▀[0;1;36;46m▒[0;36m  ▐[0;1;36;46m▒[0;36m [0;1;36m▄▀[0;36m   [0;1;36;46m▒[0;36m▄   [0;1;36m▄▀▀▀[0;36m▄  [0;1;36m▐▌▄▀▀[0;36m▄ [0;1;30m▒▀[0m
 [32m [0;1;32m [0;32m▄▒▒▒▓▓[0;1;32;42m░▒[0;1;32;40m▄▄[0;1;36;40m▐[0;36m▄[0;1;36m▀[0m   [1;36;46m▓[0;36m▄ [0;1;36;46m▓[0m    [36m█  [0;1;36;46m▓[0m   [36m▐▌  [0;1;36;46m▒[0;36m▌ [0;1;36m▐[0;1;36;46m▓[0;36m  ▄[0;1;36;46m░[0;36m▀[0m   [1;36;46m░[0;36m [0;1;36m▐[0;1;36;46m▓[0;36m  ▄[0;1;36;46m░[0;36m▀  [0;1;36m▐[0;1;36;46m▓[0m    [1;36;46m░[0;36m  [0;1;36;46m▓[0m   [36m▐▌[0;1;30m░[0m
 [1;32m [0;32m░▒▒▓▓▓[0;1;32;42m░▒▓█▓▒▒▒[0;32m▄▄▄[0;36m ▓▌▐[0;1;36;46m░[0m   [36m▓▌ [0;1;36m▐[0;36m▌[0m   [1;36;46m░[0m   [36m▓  [0;1;36;46m░[0;36m▀▀[0m   [36m▄  ▐▌ [0;1;36;46m░[0;36m▀▀[0m   [36m▄ ▐▌[0m    [36m▐▌ ▐▌ [0;1;30m░[0;36m ▓[0m
@@ -35,5 +35,4 @@ Write-Host '
 [1;32;42m▓░[0;32m▒▒▄▀▀▀[0;1;32m▄▄[0;32m▄▄▒▓▓[0;1;32;42m░░▒[0;1;32;40m▄▄▄▄▄▄[0;32m▀▀▀▀▀▀[0m   [1;30m▀▀▓▀▀█ [0m [1;30m▄[0m  [1;30m█▀█▀▒[0m  [30min there }8-)[0m          [1;30m█[0m [1;30m█[0m [1;30m█[0m
 [1;32;42m▒▒▒░░▒▒▒▒░░░▒▒▒▒▒▓▓▓▓▓▓▒▒▒[0;1;32;40m▀▀[0;1;31;40m   [0;1;30;40m█▀▀[0;34m    [0;1;30m▓▀▀▀ [0m [1;30m█[0m [1;30m▀ ░ ▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀[0m [1;30m█[0m [1;30m█[0m
 [1;32;42m░░▒▒▒▒▓▓▒▒▒▒▓[0;1;32;40m▀▀▀▀▀▀▀▀[0m    [1;32m [0m     [1;30m▓▄▄▄█▀▀▀▀▀▀▀[0;1;31m [0;1;30m█[0m [1;30m▀▀▀[0m [1;30m▀ [0;1;31m [0;1;30m [0m [1mmain.menu[0m [1;30m   ▒ ▒▀▀▀█▀▀[0m [1;30m█[0m
-[32m▀[0;1;32m▀▀▀▀[0;30mno,its not a real board...[0;1;30m▒[0m            [1;30m▀▀▀▀▀▀▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓ ░ █▄▄▄▄▄█[0m
-     [30mi just felt like drawing a lizard head and i needed a name...[0m'
+[32m▀[0;1;32m▀▀▀▀[0;30mno,its not a real board...[0;1;30m▒[0m            [1;30m▀▀▀▀▀▀▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓ ░ █▄▄▄▄▄█[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3a26822ac39a00402fb333a82a435594795d4049f8d1b0356ee82f0ecb9869ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FL-ALLEY.ANS by flame (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: dark alley
 # SAUCE Author: flame
 # SAUCE Group: RILE
@@ -33,8 +33,4 @@ Write-Host '
             [1;30m▀[0;1;30;47m▓▓[0m▒[1;30m▄[0m                         [36mde sade.[0m    [1;30m▀█▌[0m [1;30m█[0m░[1;30m▀░░[0m       [1;30m         [0m
                [1;30m▀▀▀▒[0m  [1;30m▄▄[0m                            [1;30m ▄█▌ [0m [1;30m▐█▌[0m
                                                           [1;30m▒[0m
-[34m────────────────────────────────────────────────────────────────────────────────[0m
-[36mthis is for a local board in my area code.  anyways, i drew it because i was [0m
-[36mkinda board.  [0m
-
-[36m- flame of the rile style.[0m'
+[34m────────────────────────────────────────────────────────────────────────────────[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 98416d9fb57c43d04bfc7c660d7758b1f914a19ffdff218ca55ff5d1e4db5688
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-EP1.ANS by Boba Fett + Hc (soc-04); released in soc-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-32
 # Columns: 1-80
 
@@ -33,12 +33,4 @@ Write-Host '
 [1;33m███[0m [1;36;46m ░░░[0;36m█[0;1;36;46m░░▓██[0;1;37;46m██[0;1;36;46m███[0;36m██[0;1;36;46m██[0;36m█[0;1;36;46m█░░[0;36m█[0;1;36;46m░[0;1;30;40m█[0m [1;30;46m█[0;1;30;40m▀▀[0m [1;31m▄[0;1;33m▄▄[0;1;37m██[0;1;33m▀▀▀▌[0;1;31m▄[0m [1;36;46m███████████████████████▀▀▀▀ [0;36m▀▀▀▀▀[0m
 [1;33m███[0m [1;36;46m░[0;36m█████████[0;1;36;46m██[0;36m█████████████[0;1;30m█[0m   [1;30m▄[0m   [1;31m▄[0;1;33m▄▄[0;1;31m▀[0;1;33m▀▀█▀[0m [1;36;46m██[0;1;37;40m███[0;1;36;46m█[0;1;37;40m█[0;1;36;46m██[0;1;37;40m██[0;1;36;46m███████▀▀ [0;36m▀▀▀[0;31m▄[0;1;31m▄▄▄[0;1;31;41m▄████[0;1;31;40m [0m
 [1;33;40m█[0;1;37;40m██[0m [1;36;46m█▄[0;36m█[0;1;36;46m▄▄[0;36m█[0;1;36;46m▄[0;36m███[0;1;36;46m▄▄ [0;36m█████████████[0;1;30;46m▀▀▀[0;36m█[0;1;30;46m▀[0;1;30;40m▄▄[0m         [1;36;46m████████████████▀[0;36m█▀[0;31m▄[0;1;31m▄[0;1;31;41m▄██████[0;1;33;41m█████[0m
-[1;30m-([0mCUT[1;30m)--------------------------------------------------------------------------[0m
-
-[1;33mBF SEZ[0;1;37m: Here is for my good friend Darkmoon and her bbs ONLY, Empty Playground[0m
-[1mchrome canadian hq site.  Darky you better get EP rolling...=)[0m
-
-[1;33mHC SEZ[0;1;37m: I don''t even know Darkmoon.  I just know bf hated the shading on this so[0m
-[1;37mI shaded it for his punk-ass...=)[0m
-
-[1m             ...CHROME dropping it in the one nine nine seven...[0m'
+[1;30m-([0mCUT[1;30m)--------------------------------------------------------------------------[0m'

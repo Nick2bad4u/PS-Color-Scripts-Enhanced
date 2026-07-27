@@ -5,7 +5,7 @@
 # Source SHA-256: 94385d2388a1961c10cc157e5da5f975ec3fd2ca3dae4bf0634b51bb50f5682d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-ENTR1.ANS by Misfit (apathy06); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Entropy matrix
 # SAUCE Author: Misfit
 # SAUCE Date: 19960117
@@ -35,10 +35,8 @@ Write-Host '
 [1;37;40m▀▀▀▀[0m▀▀ ▀ [33m▀▀[0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀▀[0;37m [0;1;31m▀▀▀▀▀▀[0m
 [1;30;47m░[0m▀▀▀▀[1;30m▀[0m▀▀▀[1;30m▀▀[0m▀▀[1;30m▀▀▀▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓▀▓▀▀▀▀  ▀▀▀▀▀▀▀▀▀ ▓▀▀▀▀▀▀▀▓[0m
 [1;30;47m▒[0m [1;30m▒░░[0m [1;30m░[0m    [1;30m░[0m                                                                 [1;30m░[0m [1;30m█[0m
-[1;30;47m▓[0m [1;30m░[0m             [1;30m [0mall matrix commands and shit go in here..                   [1;30m░[0m [1;30;47m▓[0m
+[1;30;47m▓[0m [1;30m░[0m             [1;30m [0m                                                            [1;30m░[0m [1;30;47m▓[0m
 [1;30;47m▓[0m [1;30m░[0m                                                                [1;30m░[0m   [1;30m░░[0m  [1;30m░░▒[0m [1;30;47m▒[0m
 [1;30;40m█▄▄▄▓▓▄▄▄▄▄▄▄▄▄▄▄▄▄▓  ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄[1;30m▄▄▄[0m▄[1;30m▄▄▄[0m▄▄[1;30m▄▄▄[0m▄▄▄[1;30m▄[0m▄▄▄▄▄[1;30;47m░[0m
                                                                                [1;30m [0m
-[1;30m---(snip)-----------------------------------------------------------------------[0m
-[1;30mthis matrix is for point man''s board entropy ONLY. he paid for it, so don''t rip [0m
-[1;30mhim and me off by stealing it.. if you want one, $5. misfit@arena.leba.net .. k?[0m'
+[1;30m---(snip)-----------------------------------------------------------------------[0m'

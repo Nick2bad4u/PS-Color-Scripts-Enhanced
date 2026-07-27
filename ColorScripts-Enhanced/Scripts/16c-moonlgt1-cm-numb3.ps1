@@ -5,7 +5,7 @@
 # Source SHA-256: 66b8903afc1f0274e840be0b4b856fa45a95d5bed4d4dd47b811a5499b4de7d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CM-NUMB3.ANS by cheezey munkey (moOnlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: comfterably number (#3)
 # SAUCE Author: cheezey munkey
 # SAUCE Group: moOnlight
@@ -16,7 +16,7 @@
 
 Write-Host '
 
-                      [1;36m..xx<<  [0;1;32mc[0;36momfterably [0;1;32mn[0;36mumb  [0;1;36m>>xx..[0m
+                      [1;36m        [0;1;32m [0;36m           [0;1;32m [0;36m     [0;1;36m      [0m
                     [1;36;41m [0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31;41m [0m
                     [1;35;41m░[0m [1;35;46m░▄▄▄▄██▄[0;1;35;40m██[0;1;35;46m▓▄▄▄[0;1;35;43m▓▒▓[0;1;35;40m█[0;1;35;46m▄▄[0;1;35;40m████[0;1;35;46m▄[0;1;35;40m███[0;1;35;46m▄▄[0;1;35;40m██ [0;1;35;41m [0m
                     [1;35;41m [0m [1;35;46m▒[0;1;35;40m██▀▀ [0;1;34;40m▄▄▄▄▄▄ [0;1;35;40m▀▀[0;1;35;43m▓[0;1;35;40m█▀▀ [0;1;34;40m▄▄▄▄▄▄  [0;1;35;40m▀███ [0;1;35;41m [0m

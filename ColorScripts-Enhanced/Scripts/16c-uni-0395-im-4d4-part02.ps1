@@ -5,7 +5,7 @@
 # Source SHA-256: 0da22c1f864af928606733d515a486797f5502b9ce0642dd653e2c397de4ebf9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-4D4.ANS by Imodium + Number 28 (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 46-95
 # Columns: 1-80
 
@@ -44,9 +44,9 @@ Write-Host '
       [1;30m░▒▓▓███▀▀[0m                                            [1;30m░   ▀▀▀▀▀[0;1;30;42m▒[0;1;30;40m█▄▄▄▄▄▄[0;1;30;43m░[0;33m▀▀█[0m
 [33m    [0;1;30m░▒▓▀▀▀[0m                                                 [1;30m░[0m                [1;30;43m▒[0;1;30;40m▀▀▄[0m
 [1;30;40m▄▀▀▀[0m                                                                        [1;30;40m▒[0m
-                  because sometimes a little cold is good for you..         [1;30m░[0m
+                                                                            [1;30m░[0m
 
-                         [1;30mit''s an "f": use your imagination[0m             [1;37m▄[0;1;37;47m▒▀[0m█[47m [0;1;30;47m▄[0;1;30;40m▄[0m
+                         [1;30m                                 [0m             [1;37m▄[0;1;37;47m▒▀[0m█[47m [0;1;30;47m▄[0;1;30;40m▄[0m
                                                                       [1;37;40m▐[0;1;37;47m▓░░   [0;1;30;47m▓[0m▒
    [1m▄▄▄▄[0;1;47m▓ [0;1;30;47m▀[0m▒[1;30m▄▄░[0m                       [1;30m▄▄▄▄[0m▄[1;30m▄[0m▄[1m▄▄ ▄[0m                       [1m▀▒[0m▄█[1;30;47m░░[0;1;30;40m▓▀[0m
 [1;37;40m▄▓[0;1;37;47m▀▀░[0;1;30;47m░[0m█████[1;30;47m░▀▀█[0;1;30;40m▄ ░ [0;1;37;40m▄▄▄▓[0;1;37;47m▀▀ [0;1;37;40m▒[0m█[1;30;47m░░▀▓[0m▄▄  [1;30m▐█[0;1;30;47m▄░░░ [0m███[1;47m▀░▀▀▓[0;1;40m▄▄    ▄ ▄▓[0m██[1;30;47m▀[0m▄[47m  [0;1;30;47m▀░░[0;1;30;40m▄▄ [0m▀▀[1;30m▀[0;31m▄▄[0;1;31m▒[0m
@@ -58,5 +58,5 @@ Write-Host '
 [1;31;41m▒[0;31m▄▄▄▄▄▄▄▄▄▄▄▄███[0;31;41m [0;31;40m█[0;31;41m [0;1;31;41m░░▒[0;1;33;41m░[0;1;31;41m▒░░ ░           [0;35;41m░    [0;31;40m▄▄▄▄▄▓▄▄▄▄[0;1;31;41m░░░[0;31m█▄▄▄▄▄██████[0;30;41m░░░░[0;31;40m███[0;35;41m░[0;31;40m█[0;35;41m░[0m
 [1;31;41m░░░   ░  [0;35;41m░[0;1;31;41m░░[0;35;41m░░     [0;31;40m█[0;31;41m  [0;1;31;41m░   ░▒░            ░░    ░                           [0;35;41m░░░[0;1;35;41m░[0m
 [1;30;40m-------------------------------------------------------------------------------[0m
-                               [1;37;40mfour degrees [0m([1m4°[0m)
+                               [1;37;40m             [0m [1m  [0m 
                                [1m#: [0m([1m7O8[0m) [1m437 65O4[0m'

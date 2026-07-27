@@ -5,7 +5,7 @@
 # Source SHA-256: c17da442ed27c955e894abb0cef86f9847f86bd904641955fb129a6c26e60e6a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 16_ADIOS.ANS by Dieznyik (Klexikal); released in k-sztuka and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: Dieznyik
 # SAUCE Group: Klexikal
 # SAUCE Date: 19990415
@@ -14,7 +14,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;31mthis is my sig [0m                                                      [1;31mnot a skull[0m
+[1;31m               [0m                                                      [1;31m           [0m
 
 [30;43m        [0;33;40m███████[0;34;43m║[0;1;34;43m║[0;36;43m║║[0;1;34;43m║[0;34;43m║[0;33;40m█████████[0;31;43m ║[0;33;40m██████████[0;36;43m░░▀▀▀██[0;1;36;46m▀▀▓▓█[0;1;36;47m▄▐[0;1;36;46m█▌▀███[0;1;36;47m▀[0;1;36;46m█▄ [0;36;43m██▄[0;33;40m█████████[0;31;43m░░[0m
 [33;40m███████████████[0;34;43m║[0;1;34;43m║[0;36;43m║║[0;1;34;43m║[0;34;43m║[0;33;40m█[0;30;43m [0;33;40m████████[0;31;43m║[0;33;40m███████[0;36;43m     [0;33;40m█████[0;36;43m▀███[0;1;36;46m▀████[0;36;43m██[0;1;36;46m▀█[0;1;36;47m▌░[0;1;36;46m█▌[0;36;43m███▌[0;33;40m██████████[0m
@@ -34,15 +34,4 @@ Write-Host '
 [33;40m███████████████[0;34;43m│[0;1;34;43m│[0;36;43m││[0;1;34;43m│[0;34;43m│[0;33;40m██████████[0;31;43m│[0;33;40m████████████████████████████[0;36;43m■▀[0;33;40m██████████████████[0m
 [33;40m███████████████[0;34;43m│[0;1;34;43m│[0;36;43m││[0;1;34;43m│[0;34;43m│[0;33;40m██████████[0;31;43m│[0;33;40m████████████████████████████████████████████████[0m
 [33;40m███████████████[0;34;43m│[0;1;34;43m│[0;36;43m││[0;1;34;43m│[0;34;43m│[0;33;40m██████████[0;31;43m│[0;33;40m████████████████████████████████████████████████[0m
-[33;40m███████████████[0;34;43m│[0;1;34;43m│[0;36;43m││[0;1;34;43m│[0;34;43m│[0;33;40m██████████[0;31;43m│[0;33;40m████████████████████████████████████████████████[0m
-
-[1;35;40muntil we next meet again -- live long and prosper. channel your creative  [0;1;31;40m   [0;1;34;40m/[0;1;36;40m.[0;1;34;40m\[0m
-[1;35;40mforces into pods of cohesive and positive thought. input 1 output 10![0m
-
-
-
-[1;34mthis is my contribution to the universal eschaton of krad eliteness. [0m
-
-[1;32mthnx 4 viewing... reach me at dieznyik@hotmail.com [0m
-
-plur / phear[0m'
+[33;40m███████████████[0;34;43m│[0;1;34;43m│[0;36;43m││[0;1;34;43m│[0;34;43m│[0;33;40m██████████[0;31;43m│[0;33;40m████████████████████████████████████████████████[0m'

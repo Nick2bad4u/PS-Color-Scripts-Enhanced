@@ -5,7 +5,7 @@
 # Source SHA-256: a4aef6e3c480e5b934911d8dbd307af71499699f0660f81aff7b1ffc3044d639
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-253.ANS by propane (sense12j); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: propane 25liner
 # SAUCE Author: propane
 # SAUCE Date: 20030130
@@ -39,4 +39,4 @@ Write-Host '
 [32m█[0;1;32;42m▒░[0m [1;30m█[0;1;30;47m▓[0;1;30;40m█[0m [1;30m████[0;1;30;47m▓▓▓[0;1;30;40m████[0m [1;30m█[0;1;30;47m▓[0;1;30;40m█▌[0;32m▐[0;1;32;42mppe[0;32m███████[0;1;32;42m░░░░░░░░░░░░[0;32m████████▌[0;1;30m▐[0;1;30;46m▓[0;1;30;40m██[0m [1;30m████[0;1;30;46m▒▒[0;1;30;40m█████[0m [1;30;46m▓[0;1;30;40m██[0m [32m█[0;1;32;42m░░[0m
 [1;32;42m░░[0;32m█▌[0;1;30m▐██[0m [1;30m███████████▌▐███[0m [32m████████████████████▀█[0;1;32;42m▒▒▒▒[0;32m████[0;37m [0;1;30m███▌▐███[0;1;30;46m▓▓▓[0;1;30;40m█████[0m [1;30m███[0m [32m█[0;1;32;42m▒[0;32m█[0m
 [32m▓█[0;37m  ░░░ ░░░░░░░░░░░░ ░░░░ [0;1;32m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m ░░░░ ░░░░░░░░░░░ ░░░ [32m▄▄█[0m
-[32m█▄■[0;1;32;42mYet[0;32m another propane 25 liner, drawn in January, 2003, for [0;1;33mSENSE[0;1;37m Imagery[0m [32m■▄▄▄█[0m'
+[32m█▄■[0;1;32;42m   [0;32m                                                       [0;1;33m     [0;1;37m        [0m [32m■▄▄▄█[0m'

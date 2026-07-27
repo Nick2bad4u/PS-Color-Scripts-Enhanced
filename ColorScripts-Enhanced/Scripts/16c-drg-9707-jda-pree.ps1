@@ -5,7 +5,7 @@
 # Source SHA-256: 7189ec3250a2025a750271769cf2d7e2f9da792ef4d652a48acfe2dbd729beba
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JDA-PREE.ANS by joda (deranged); released in drg-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: some screen for some viewer
 # SAUCE Author: joda
 # SAUCE Group: deranged
@@ -27,13 +27,13 @@ Write-Host '
 [1;31;40m [0m       [35m████░       ▐███▌ ▀███▌ [0;1;35;45m░[0;35m███ [0;37m▄[0;35m ░    ▐███▌ ▐███▌ ▐███▌ ▐███▌[0m        [37m▐▌[0m
 [1;30m [0;1;37m░░▄▄[0m [30;45m▓[0;35;40m░[0;30;45m░[0;35;40m██[0;1;35;45m [0;35m [0;30;47m▓[0;37;40m▄[0;30;47m░[0;37;40m▀▀▀[0;35;40m ░▀▐██▄███▀[0;30;45m▓[0;35;40m░▓███ [0;30;47m▓[0;37;40m░[0;35;40m    [0;30;45m▓[0;35;40m░▀[0;30;45m░[0;35;40m██▄▄██▀ [0;30;45m▓[0;35;40m░▀███▄██▌▀░[0;37;40mjda[0;1;30;40m([0mdrg[1;30m)[0m█▌
    [1m█[0m                                                                       █▌
-  ▐▌  z[1;30mhit[0m k[1;30mommandz [0mo[1;30mr [0ma[1;30mnything [0ml[1;30mike [0mt[1;30mhat [0mh[1;30mere..... [0m                       [1;30;47m░[0m░
-  ▐▌  z[1;30mhit[0m k[1;30mommandz [0mo[1;30mr [0ma[1;30mnything [0ml[1;30mike [0mt[1;30mhat [0mh[1;30mere.....[0m                       [1;30m▐[0;1;30;47m▒[0m
-  ▐▌  z[1;30mhit[0m k[1;30mommandz [0mo[1;30mr [0ma[1;30mnything [0ml[1;30mike [0mt[1;30mhat [0mh[1;30mere.....[0m                       [1;30m▐[0;1;30;47m▓[0m
-  [1;30;47m░[0m░  z[1;30mhit[0m k[1;30mommandz [0mo[1;30mr [0ma[1;30mnything [0ml[1;30mike [0mt[1;30mhat [0mh[1;30mere.....[0m                       [1;30m▐▌[0m
-  [1;30;47m▒[0m   z[1;30mhit[0m k[1;30mommandz [0mo[1;30mr [0ma[1;30mnything [0ml[1;30mike [0mt[1;30mhat [0mh[1;30mere.....[0m                       [1;30m▐▌[0m
-  [1;30;47m▓[0m   z[1;30mhit[0m k[1;30mommandz [0mo[1;30mr [0ma[1;30mnything [0ml[1;30mike [0mt[1;30mhat [0mh[1;30mere.....[0m                       [1;30m▐▌[0m
- [1;30m▐▌[0m   z[1;30mhit[0m k[1;30mommandz [0mo[1;30mr [0ma[1;30mnything [0ml[1;30mike [0mt[1;30mhat [0mh[1;30mere.....[0m                      [1;30m░[0;1;30;47m█[0;1;30;40m▌[0m
+  ▐▌   [1;30m   [0m  [1;30m        [0m [1;30m  [0m [1;30m        [0m [1;30m    [0m [1;30m    [0m [1;30m         [0m                       [1;30;47m░[0m░
+  ▐▌   [1;30m   [0m  [1;30m        [0m [1;30m  [0m [1;30m        [0m [1;30m    [0m [1;30m    [0m [1;30m        [0m                       [1;30m▐[0;1;30;47m▒[0m
+  ▐▌   [1;30m   [0m  [1;30m        [0m [1;30m  [0m [1;30m        [0m [1;30m    [0m [1;30m    [0m [1;30m        [0m                       [1;30m▐[0;1;30;47m▓[0m
+  [1;30;47m░[0m░   [1;30m   [0m  [1;30m        [0m [1;30m  [0m [1;30m        [0m [1;30m    [0m [1;30m    [0m [1;30m        [0m                       [1;30m▐▌[0m
+  [1;30;47m▒[0m    [1;30m   [0m  [1;30m        [0m [1;30m  [0m [1;30m        [0m [1;30m    [0m [1;30m    [0m [1;30m        [0m                       [1;30m▐▌[0m
+  [1;30;47m▓[0m    [1;30m   [0m  [1;30m        [0m [1;30m  [0m [1;30m        [0m [1;30m    [0m [1;30m    [0m [1;30m        [0m                       [1;30m▐▌[0m
+ [1;30m▐▌[0m    [1;30m   [0m  [1;30m        [0m [1;30m  [0m [1;30m        [0m [1;30m    [0m [1;30m    [0m [1;30m        [0m                      [1;30m░[0;1;30;47m█[0;1;30;40m▌[0m
  [1;30m▐▌[0m                                                                      [1;30m░▓▌[0m
 [1;30m░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░░             [0m                    [1;30m░▓▌[0m
  [1;30m                     [0m             [1;30m░░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓░░[0m'

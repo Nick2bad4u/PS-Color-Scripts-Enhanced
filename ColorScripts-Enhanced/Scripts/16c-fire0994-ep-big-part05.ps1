@@ -5,7 +5,7 @@
 # Source SHA-256: 748950e158b1b8675f8881d04c3570df51fa9f71d228c023c80bc784998ab8be
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EP-BIG.ANS by Epitaph (fire0994); released in fire0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 170-217
 # Columns: 1-80
 
@@ -44,17 +44,8 @@ Write-Host '
 [1;30;42m░░░░░░ ░ ░ [0;32m▀▀▀▀▀[0m                [1;30;42m▓▓[0;1;30;40m▀[0m     [1;30;42m░░▒▒▒[0m    [1;30;42m▒▓[0m   [1;30;42m▒▒[0m      [1;30;40m▀[0;1;30;42m▓[0;1;30;40m▀[0m       [1;30;42m▒▒[0m
                                                  [1;30;42m▓[0m     [1;30;42m▓[0;1;30;40m▌[0m               [1;30;42m▒▒[0m
                                                        [1;30;40m▐▌[0m               [32m▐[0;1;30;42m▒[0m
-                          [1;30;40mt[0mt[1mthe.B*g.Fuck*ng.Secret[0mt[1;30mt[0m                     [1;30;42m▓[0;1;30;40m▌[0m
+                          [1;30;40m [0m [1m                      [0m [1;30m [0m                     [1;30;42m▓[0;1;30;40m▌[0m
                                [1;30;40m4[0m4[1m4o4.977.348O[0mO[1;30mO[0m                          [1;30m▐▌[0m
-                             [1;30mS[0mS[1mSysOp: Dr. Mirage[0me[1;30me[0m                        [1;30;42m█[0m
-                             [1;30;40mA[0mA[1mAnsi by: Epitaph[0mh[1;30mh[0m
-                                                                         [1;30;42m██[0m
-              [1;37;40mWell, [0;1;31;40ms[0;1;35;40mh[0;1;33;40mi[0;1;32;40mt[0;1;37;40m.  I was pressed for time on this one, so I''ll[0m
-              [1;37;40mjust have to put it in the next pack, too, with the rest[0m
-              [1;37;40mof the extra stats that you never read.[0m
-
-                   [1;37;40m...but for now, just call the damn board.[0m
-
-[1;30;40mWhatdafuckisup''s go to: DH, HAL, FK, VE, SH, SF, AR, HQ, Punk, everybody in Fire[0m
-[1;30;40m(again), and everybody else and their mothers.  And thanks to Halaster for that[0m
-[1;30;40mcool font.[0m'
+                             [1;30m [0m [1m                 [0m [1;30m [0m                        [1;30;42m█[0m
+                             [1;30;40m [0m [1m                [0m [1;30m [0m
+                                                                         [1;30;42m██[0m'

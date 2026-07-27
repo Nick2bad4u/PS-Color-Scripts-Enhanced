@@ -5,7 +5,7 @@
 # Source SHA-256: 883d53c260322acd3f62c49cd4121409cc8f8db16ca2b74108092e9784495ccc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: EN-DKBBS.ANS by Enigma (myst9504); released in myst9504 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 35-63
 # Columns: 1-80
 
@@ -27,15 +27,15 @@ Write-Host '
       [1;30;40m█[0m     [1;30;42m▓[0m [1;30;40m▀▄[0m       [1;30;42m▓[0m  [1;30;42m▓[0m [1;30;40m░   ░  [0;1;30;42m▓[0m [1;30;40m░[0m      [1;30;42m▓[0m  [1;30;42m▒[0m       [1;30;42m▓[0m  [1;30;42m▓[0m   [1;30;40m░  [0;1;30;42m▓[0m      [1;30;40m█[0m
       [1;30;40m█[0m     [1;30;40m▀  ▀[0m       [1;30;40m▀  ▀[0m        [1;30;40m▀[0m         [1;30;40m▀▀░[0m       [1;30;40m▀  ▀[0m      [1;30;40m▀[0m      [1;30;40m█[0m
       [1;30;40m▓[0m                                                                [1;30;40m▓[0m
-       [1;30;40m▒[0m                       [1;30;40m''oP^L[0;32mu[0;1;32mC[0;1;33mi[0;1;32mF[0;32mE[0;1;30mRS_FEAR[0m                      [1;30m▒[0m
-        [1;30m░[0m                   [1;30mCo''oPz_W[0;32mÆ[0;1;32mR[0;1;33mC[0;1;32mH[0;32mi[0;1;30mLD_ENBaLMeR[0m                 [1;30m░[0m
-                                 [1;30mo-3 [0;1;32md[0;1;33ma[0;1;32my [0;1;30mwarez[0m
-                                 [1;30mno [0;32ms[0;1;32mh[0;1;33ma[0;1;32mr[0;32me[0;1;30mware[0m
-                                   [1;30mn[0;32mo [0;1;33mn[0;1;32me[0;32mt[0;1;30ms[0m
-                                 [1;30msom[0;32me [0;1;33md[0;1;32mo[0;32mo[0;1;30mrs[0m
-                            [1;30mno bulls[0;32mh[0;1;32mi[0;1;33mt[0;1;32m, [0;1;30mjust warez[0m
-                       [1;30mcall 2 day fe[0;32mr [0;1;33ma[0;1;32ml[0;32ml [0;1;30myer warez needz[0m
-                                [1;30miTS/[0;32mP[0;1;32mR[0;1;33mi[0;1;32m.[0;32mV[0;1;30mATE[0m
+       [1;30;40m▒[0m                       [1;30;40m     [0;32m [0;1;32m [0;1;33m [0;1;32m [0;32m [0;1;30m       [0m                      [1;30m▒[0m
+        [1;30m░[0m                   [1;30m        [0;32m [0;1;32m [0;1;33m [0;1;32m [0;32m [0;1;30m           [0m                 [1;30m░[0m
+                                 [1;30m    [0;1;32m [0;1;33m [0;1;32m  [0;1;30m     [0m
+                                 [1;30m   [0;32m [0;1;32m [0;1;33m [0;1;32m [0;32m [0;1;30m    [0m
+                                   [1;30m [0;32m  [0;1;33m [0;1;32m [0;32m [0;1;30m [0m
+                                 [1;30m   [0;32m  [0;1;33m [0;1;32m [0;32m [0;1;30m  [0m
+                            [1;30m        [0;32m [0;1;32m [0;1;33m [0;1;32m  [0;1;30m          [0m
+                       [1;30m             [0;32m  [0;1;33m [0;1;32m [0;32m  [0;1;30m               [0m
+                                [1;30m    [0;32m [0;1;32m [0;1;33m [0;1;32m [0;32m [0;1;30m   [0m
 [1;32m──[0;1;30m─[0;1;32m──[0;1;30m──[0;1;32m─[0;1;30m──[0;32m─[0;1;32m─[0;32m─[0;1;30m─[0;1;33m─[0;1;32m─[0;32m─[0;1;30m──[0;1;33m─[0;1;32m─[0;1;33m─[0;1;30m─[0;32m─[0;1;32m─[0;1;30m─[0;1;33m─[0;1;30m─[0;1;32m─[0;1;33m─[0;1;32m────[0;1;33m─[0;1;32m─[0;32m─[0;1;33m─[0;1;32m─[0;32m─[0;1;32m───[0;1;30m─[0;1;32m───[0;1;33m─[0;1;30m─[0;32m─[0;1;32m────────[0;1;33m─[0;32m─[0;1;33m─[0;1;32m──[0;1;33m─[0;1;32m─[0;32m─[0;1;33m─[0;1;30m─[0;1;32m─[0;1;33m─[0;32m─[0;1;32m─[0;32m─[0;1;32m─[0;32m─[0;1;33m─[0;1;32m─[0;32m─[0;1;33m─[0;1;32m─[0m
-                           [1;33mA[0;1;32mN[0;32mS[0;1;30mi Bi ENiGMA <MYST[0;32mi[0;1;32mC[0;1;33m>[0m
+                           [1;33m [0;1;32m [0;32m [0;1;30m                 [0;32m [0;1;32m [0;1;33m [0m
 [1;32m──[0;1;30m─[0;1;32m──[0;1;30m──[0;1;32m─[0;1;30m──[0;32m─[0;1;32m─[0;32m─[0;1;30m─[0;1;33m─[0;1;32m─[0;32m─[0;1;30m──[0;1;33m─[0;1;32m─[0;1;33m─[0;1;30m─[0;32m─[0;1;32m─[0;1;30m─[0;1;33m─[0;1;30m─[0;1;32m─[0;1;33m─[0;1;32m────[0;1;33m─[0;1;32m─[0;32m─[0;1;33m─[0;1;32m─[0;32m─[0;1;32m───[0;1;30m─[0;1;32m───[0;1;33m─[0;1;30m─[0;32m─[0;1;32m────────[0;1;33m─[0;32m─[0;1;33m─[0;1;32m──[0;1;33m─[0;1;32m─[0;32m─[0;1;33m─[0;1;30m─[0;1;32m─[0;1;33m─[0;32m─[0;1;32m─[0;32m─[0;1;32m─[0;32m─[0;1;33m─[0;1;32m─[0;32m─[0;1;33m─[0;1;32m─[0m'

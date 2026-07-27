@@ -5,7 +5,7 @@
 # Source SHA-256: 078080e08e9113f73da851c08494ec2618d62869402e8ab47306da4410657ca2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-evk.ans by Simonking + Ceelow + Ansichrist + Avenging Angel (sense24); released in sense24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 29-55
 # Columns: 1-80
 
@@ -36,4 +36,4 @@ Write-Host '
                [1;33moutline > simonking [thelo0p][0m       [31m■▄▓██▓[0;1;31;41m▒[0m [1;34;44m▒[0m    [1m██[0m [1m██[0m ▄▄ [1m█[0;1;47m▄[0m
                [1;33mcolroin > ceelow    [thelo0p][0m         [31m▀[0;1;31m▒▒[0;31m█[0;1;31;41m░[0;31m▌[0;1;34;44m░[0m    [1;30;47m▄[0;1;37;47m█[0;1;37;40m░[0;1;37;47m▓▀[0m [1;47m▒▒[0m [1m▓[0;1;30;47m▄[0m
                [1;33mfont    > ansichrist [sense][0m            [31m▀▀[0;1;33;41m░[0;31m▌[0;34m▒[0m     [37m▀▀▀   ▀▀▀[0m
-               [1;33mblend   > avg[0m        [1;33m[sense][0m             [1;33m  [0;31m▀▄[0m'
+               [1;33m             [0m        [1;33m       [0m             [1;33m  [0;31m▀▄[0m'

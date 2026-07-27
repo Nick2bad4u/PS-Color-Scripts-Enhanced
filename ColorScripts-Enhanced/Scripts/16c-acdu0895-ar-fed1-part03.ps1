@@ -5,7 +5,7 @@
 # Source SHA-256: 1b75adf9a478c7e78fc95877ae517db700d63b2d468e1c459c88afca955b788d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AR-FED1.ANS by Actraiser (acdu0895); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Federation
 # SAUCE Author: Actraiser
 # SAUCE Date: 19950805
@@ -56,4 +56,4 @@ Write-Host '
 [37m  [0;31m▀[0;1;31;41m░▀▀▒▐[0;1;31;40m█[0;1;31;41m▌▀[0;1;31;40m████[0;1;31;41m▀▒[0;1;31;40m██[0;1;31;41m▀[0;1;31;40m██[0;1;31;41m▌░[0m          [31m0-7 Day Warez[0m        [31m▐[0;1;31;41m░[0;1;31;40m██[0;1;31;41m▀[0;1;31;40m███████[0;1;31;41m▀▀[0;1;31;40m███[0;1;31;41m▄[0;1;31;40m█[0;1;31;41m▀░[0;31m▀[0;1;31m▀[0;31m█ [0m
      [31m▀▀[0;1;31;41m░▀▓▄[0;1;31;40m█[0;1;31;41m▌▀[0;1;31;40m█[0;1;31;41m▓▄▄[0;1;31;40m██[0;1;31;41m▓▀[0;31m█▀[0m          [31m[###]$(^-#(^^[0m     [37m  [0;31m  ▀[0;1;31;41m ▀▓[0;1;31;40m█[0;1;31;41m▀▀▓[0;1;31;40m█[0;1;31;41m▄[0;1;31;40m█[0;1;31;41m▄▒▀▀░▀[0;31m█▀[0m    [31m■[0m
         [31m▀[0;1;31;41m░▀▀▒ [0;31m▀[0;1;31;41m░▀▀▀ [0;31m▀▀[0m                                    [31m▀▀▀▀▀█[0;1;31;41m░▀▀[0;31m█▀▀[0m    [1;31m■[0m    [31m▀[0m
-[31mA [0;1;31m¡¡[0;31m%%100%%[0;1;31m!![0;31m oh[0;1;31m-[0;31mRIDGE[0;1;31m-[0;31muh[0;1;31m-[0;31mNOEL AnSi[0;1;31m.....[0;31m [0;1;31m....[0;31m [0;1;31m...[0;31m [0;1;31m..[0;31m [0;1;31m.[0;31m  [0;1;31m.[0;31m by AcTrAiSeR <ac[0;1;31m│[0;31md> [0;1;31m:)[0m'
+[31m  [0;1;31m  [0;31m       [0;1;31m  [0;31m   [0;1;31m [0;31m     [0;1;31m [0;31m  [0;1;31m [0;31m         [0;1;31m     [0;31m [0;1;31m    [0;31m [0;1;31m   [0;31m [0;1;31m  [0;31m [0;1;31m [0;31m  [0;1;31m [0;31m                 [0;1;31m│[0;31m   [0;1;31m  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 69334d79f33d02af5c4b7d3bf69f81016c17ef578aad04d34b5e4480a1e9a2d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-ot3.ans by Knocturnal + Enzo + Podsi (27inch08); released in 27inch08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 32-57
 # Columns: 1-80
 
@@ -33,6 +33,4 @@ Write-Host '
                 [1;30m▒[0;32m  ▌ [0;1;30m ▀[0;32m   [0;1;32;42m▀[0;32m▀[0m                   [1;30m▀▄[0;32m ▀▀█   [0;1;30m▀[0m           [1;30m█[0;32m  [0;1;32;42m▒[0;32m█▒[0m
                          [32m▀[0m                       [1;30m██[0;32m  █[0m             [1;30m ▒[0;32m ▄█▀[0m
                                                    [1;30m█[0;32m  ▌[0m              [32m▀[0m
-                                                    [1;30m▒[0m
-                                            [36m  [0m            [1;30mansi combo by[0m
-                                              [36m   [0;1;30m   [0mknocturnal[1;30m,[0m enzO[1;30m and [0mpodsi[1;30m _[0m'
+                                                    [1;30m▒[0m'

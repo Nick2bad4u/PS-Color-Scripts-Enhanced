@@ -5,7 +5,7 @@
 # Source SHA-256: e18d5e6492168fa435c8cc3e733736485963887d172c0be831c0eab56048b1fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UNS-FIRE.ANS by Unsane (Fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Fire Promotional Logo
 # SAUCE Author: Unsane
 # SAUCE Group: Fire
@@ -34,5 +34,5 @@ Write-Host '
 [36m──┴──┐[0m                                   [31m▀██[0;1;37;41m▀▄▄ [0;31m████████[0;1;37;41m░▄▄[0;31m█▀[0m        [36m┌──-<>-─┴-─[0m
      [36m└─[0;1;36m>>>[0m [1munsane [0;31m>[0;37m [0;1;33mfIRE[0m [1;36m<<<[0;36m─+┐[0m   [31m▀█▀[0;37m [0;31m▀▀▀▀▀▀▀█[0;1;37;41m▀▀██▄▄▄▄▓█▀▀[0;31m█▀[0m         [36m:[0m
                               [36m:[0;37m  [0;31m░[0;30;41m▓[0;31;40m█[0m        [31;40m   ▀▀▀▀█[0;1;37;41m▀▀▀[0;31m██▀[0m         [36m┌─┘          [0m
-    [1;31munsane@0wned.org [0;1;36m<<<[0;36m── ░ ─┤[0m    [31m [0m                               [36m:[0m
+    [1;31m                 [0;1;36m   [0;36m── ░ ─┤[0m    [31m [0m                               [36m [0m
                               [36m└───[0;1;36m>>>[0m [1mrequests ignored[0m [1;36m<<<[0;36m─--─-─+──┘[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 1856ef9bb1a2f575e213fa0795b117bc823015c7383ce00489727aa5f39dca9d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CPH-COL4.ANS by {YBERPUNCh (RiB); released in rib-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: {YBERPUNCh
 # SAUCE Group: RiB
 # SAUCE Date: 19971210
@@ -38,7 +38,7 @@ Write-Host '
                [1;30m▀▀█████▄█████▌█▄▄▄[0;1;30;43m▓▓[0;1;30;40m▄▄▄▄▄▄[0m               [1mcommand[0m      [1mcommand[0m
              ░░[1;30;47m▓▓[0;1;30;40m██▌███▓▓█[0;1;30;43m▓▓[0;1;30;40m▌████▄███▀███▌[0m              [1mcommand[0m      [1mcommand[0m
                ░░  [1;30m▌[0m   [1;30m░░ [0m   [1;30m▀▀[0m [1;30m [0m   [1;30m   [0m [1;30m▀[0m          [1;30m   [0m  [1mcommand[0m      [1mcommand[0m
-                   [1;30m▌[0m                              [1;30m   [0m   [1mcommand[0m      [1mcommand[0m
+                   [1;30m▌[0m                              [1;30m   [0m   [1m       [0m      [1m       [0m
        [1mb[0m R a I [1mn[0m   [1;30m▌[0m  [1mC[0m o M [1ma[0m    [1mM[0m a I [1mN[0m   [1mm[0m e N [1mu[0m
 
 [1;35;45m░▀▀▒▀▀▓██▓▓▀░▄[0;35m▀[0;1;35m▀[0;35m▀[0;1;35m▀[0;1;35;45m▀[0;1;35;40m██▄▄▄▄[0;1;35;45m▌[0;1;35;40m▄▄▄▄██[0;1;35;45m▀[0m▀▀[1m▀[0m [35m▀[0;1;35;45m░[0;35m█[0;1;35;45m▀[0;35m▄▄▄▄█[0;1;35;45m▓██▓▓▀[0;35m█████[0;1;35;45m░[0;35m█[0;1;35;45m▄[0;35m▀▀[0;1;35m▀[0;35m▄[0;1;30;45m▒░░[0;35m█[0;1;35;45m░▄▄[0;1;30;45m▀▄[0;35m█[0;1;35;45m{Ph?![0m

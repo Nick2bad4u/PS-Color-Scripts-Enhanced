@@ -5,7 +5,7 @@
 # Source SHA-256: bd7b9eb360ee6027a8032e034062e9c18a01a1f1bd183d5a5543f11e3e3bbf57
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DFT-LAM.ANS by draft (venom); released in venom-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Lamerton
 # SAUCE Author: draft
 # SAUCE Group: venom
@@ -36,10 +36,4 @@ Write-Host '
   ▀    [1;30;47m▒[0m    [1;30;45m▄[0m  [1;30m▒▒[0m [1m█[0m   [1;30m▓[0m    [1;30m▓[0m [1;30m [0m  [1m█[0m   [1;30m▄▄▄▄▄▓ [0m   ▄ [35m▐ [0;37m▄[0;1;37m█▄▄[0m▄[35m [0;37m▄[0;1;37m▄[0m   [1;30m       █▀  [0m    ▄
 [1;30m ░░░ ▄▄▓▄▄▄▄  [0m ▄▄▄[1m█[0m ▄ [1;30m█▄▄▄▄▓[0m [1;30m░░[0m ▄        [1;30m▒[0m         ▀     [1;30m▓▄▄░[0m  [1;30m▄[0m [1;30m▄▄▄▓[0m  [1;30m░░░░[0m
                   ▀   [1;30m▓[0m             [1;30m░░░░[0m [1;30m▒[0m      [1;30m▀▀▀▀[0m     [1;30m█[0m          [1;30m▓[0m  [1;30m░░░░[0m
-                      [1;30m▄[0m             [1;30m░░░░[0m
-
-                [1;30mi hate this but wn likes it for some reason -[0m
-[1;30m [0m               [1;30mergo - it''s here for your viewing unpleasure.[0m
-                 [it''s for my old dead bbs called lamerton]
-
-                       [1;30m [0m'
+                      [1;30m▄[0m             [1;30m░░░░[0m'

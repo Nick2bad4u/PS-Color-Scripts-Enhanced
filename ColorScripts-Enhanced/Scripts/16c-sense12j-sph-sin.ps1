@@ -5,7 +5,7 @@
 # Source SHA-256: 04569cf0343ab00c74395805c99091b46b5a40d739a4243153cd0f83aa6cbccd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPH_SIN.ANS by Sephiroth (Jasper); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Epitome of darkness
 # SAUCE Author: Sephiroth
 # SAUCE Group: Jasper
@@ -41,8 +41,8 @@ Write-Host '
 [37m [0;1;30m▀sph▀[0m                            [1;30m▀[0m [1;33m      [0;32m [0;1;30m░[0m   [1;33m [0;1;30m▀[0;32m [0;1;33m [0;1;30m▀[0;32m   [0;1;30m▀░░░[0m ░▀[31m░░[0;37m [0;31m░▀▀[0;1;31m░[0m [1;30m░[0;31m▀▀[0;37m [0;31m░[0;37m  [0;1;33m░[0m
 
 [1;30m-----[0m
-[1;30mGreets to Aesthetic, Avenging angel, Portia, Zerostar, Velodrome and Propane[0m
-[1;30m(Sense). Also captainhood, enzo, keetar, vargr and the rest of the people who[0m
-[1;30mare my friends and brothers.[0m
-[1;30mTo the person this ansi is for; may you burn eternally in hell.[0m
+[1;30m                                                                            [0m
+[1;30m                                                                             [0m
+[1;30m                            [0m
+[1;30m                                                               [0m
 [1;30m--[0m'

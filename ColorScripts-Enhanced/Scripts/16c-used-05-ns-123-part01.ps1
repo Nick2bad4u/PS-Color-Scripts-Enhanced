@@ -5,7 +5,7 @@
 # Source SHA-256: c5d692fdf7bf3ab6bb329d0e016fa7b5ac6024b0cbfbf7f0bd262a81332968c1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NS-123.ANS by ansichrist (used coalition); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: showing my skills... or not.
 # SAUCE Author: ansichrist
 # SAUCE Group: used coalition
@@ -31,10 +31,10 @@ Write-Host '
 
 
 
-   [1;30mwell,[0m [1;30mnew colly, new shadingstyle, few original pics, and some other shit.[0m
- [1;30m  i''m gonna start working, so i wont have so much time for ansi anymore...[0m
-   [1;30mi''ll try to draw as much as possible, but... hope you enjoy this colly... [0m
-                         [1;30m- ansichrist[0m [1;30m(aivomato@n2.com)[0m
+   [1;30m     [0m [1;30m                                                                    [0m
+ [1;30m                                                                          [0m
+   [1;30m                                                                          [0m
+                         [1;30m            [0m [1;30m                 [0m
 
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 97a04403378fad997cccd76821179fbb7a1c100ec623c6cc183dc0fd0fc6078a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-RAGE2.ANS by Primordial Chowder (mpir0494); released in mpir0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 131-171
 # Columns: 1-80
 
@@ -44,10 +44,4 @@ Write-Host '
       [1;35m███[0;1;35;45m▓[0m        [1;37;40m▐[0;1;37;47m▒▒▓▓▓[0;1;37;40m▌   [0;1;35;45m███▓[0m         [1;35;45m▓███[0m  [1;35;45m███▓[0m ▄▄███[1;30;47m░░[0m█[47m [0;40m█  [0;1;35;40m███[0;1;35;45m▓[0m [1;37;47m▓▓▓▓▒░[0m▀
       [1;35m███▀[0m         [1;37m▀[0;1;37;47m▓▓▓▓▓[0;1;37;40m▄  [0;1;35;45m███[0;1;35;40m▀[0m         [1;35;40m▀███  █[0;1;35;45m██[0;1;35;40m▀ [0m██[1;30;47m░ ░ [0m█▀▀   [1;35m███▀ [0m▀[1;47m▓[0m▀▀
 
-    [35mr    [0;1;35ma    g    e[0m          [1;35mp    h    o    s    p    h    o    r    u    [0;35ms[0m
-
-[35mA really phat phunky phresh phosphorus board coming soon to a computer near you.[0m
-
-[35mThanks to Ronin [iCE] for the neat poem, "Rage", and Dark Deception [iCE] for[0m
-[35mthe cool fonts (which I DID find an ansi for!).[0m
-[35mThis here ansi was drawn (somewhat regretfully) by primordial chowder [Empire].[0m'
+    [35mr    [0;1;35ma    g    e[0m          [1;35mp    h    o    s    p    h    o    r    u    [0;35ms[0m'

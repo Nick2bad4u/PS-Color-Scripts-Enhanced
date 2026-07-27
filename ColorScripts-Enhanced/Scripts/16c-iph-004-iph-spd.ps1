@@ -5,7 +5,7 @@
 # Source SHA-256: 3408b84f15aa8e9fc4a73db608ed8ac9ec3585a05cbf1d6fcc38730568ab3cc8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IPH-SPD.ANS by Interphaze (iph-004); released in iph-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -29,5 +29,4 @@ Write-Host '
 [1;30m $$$[0m$$[1m$$[0m$$[1;30m$$$$$ [0;35mii$$$[0;1;35m$ [0;35miii:[0;1;35m$$ [0;1;30mⁿ[0;35m,$$$$[0;1;35m$$ [0;35miii:[0;1;35m$$ [0;1;30mⁿ[0;35m,$$$[0;1;35m$$$ [0;35m$$:$[0;1;35m$$ [0;1;30mⁿ[0;35m,i$$$$$[0;1;35m$ [0;1;30m$[0m$$$[1;30m$$$[0m
 [1;30m ....[0m     [1;30m...   [0;35mi$$$$$ iiii[0;1;35mi$ss[0;35m$$$$$$[0;1;35m'' [0;35miiii[0;1;35mi$ss[0;35m$$$$$[0;1;35m$'' [0;35m$$$$[0;1;35m$$ss[0;35m$$$$$$$$   [0;1;30m...[0m
      [1;30m....[0m       [35m$$$$$$ `ⁿV$$$$$$$$Vⁿ''[0;1;30m..[0;35m`ⁿV$$$$$$$$Vⁿ'' [0;1;30m.[0;35m`ⁿV$$$$$Vⁿ"V$$$$b.  [0;1;30m..[0m
-[1;30m   ...    ..    ...[0m     [1;30m..[0m      [1;30m.   ...    ....  ...   ....    ..  .  [0;35m`ⁿ'' [0;1;30m.. ..[0m
-[1;30m  ..  .....  ..  [0;32mπ [0;1;32ma [0;32mπ  [0;1;30m..  [0;32mπ [0;1;32mnd [0;32mπ   [0;1;30m.  [0;32mπ [0;1;32mfl [0;32mπ [0;1;30m. [0;32mπ [0;1;32mo [0;32mπ  π [0;1;32mw [0;32mπ [0;1;30m. [0;32mπ [0;1;32mers [0;32mπ    [0;1;30m..[0m'
+[1;30m   ...    ..    ...[0m     [1;30m..[0m      [1;30m.   ...    ....  ...   ....    ..  .  [0;35m`ⁿ'' [0;1;30m.. ..[0m'

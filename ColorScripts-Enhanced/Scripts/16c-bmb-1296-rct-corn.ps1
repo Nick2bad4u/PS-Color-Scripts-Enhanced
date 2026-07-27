@@ -5,7 +5,7 @@
 # Source SHA-256: fe5db93e6fea2777505e48f597858576b7a47e328ec24bd7f5abb315e56f1c58
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RCT-CORN.ANS by React (Bamboosh); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Corn
 # SAUCE Author: React
 # SAUCE Group: Bamboosh
@@ -37,5 +37,5 @@ Write-Host '
 [1;30;40m▄[0;1;30;45m▀░[0;35m█[0;1;30;45m▐[0;35;47m█[0;35;40m██[0;1;30;45m░▀[0;1;30;40m▄▄[0;1;30;45m▀▒[0;35m█[0;1;35;45m░[0;35m████[0;35;47m█▀▀░  [0;37;40m█[0;1;37;47m▐▓▀░▀[0;1;30;47m [0m█[1;30;47m░[0;1;30;40m█[0;35;47m▄▄[0;37;45m░ [0;1;30;45m▐[0;1;30;40m▌[0;36m [0;1;30m█[0;35;47m▓[0;35;40m██[0;35;47m███▓▀[0;1;30;40m█[0;35;47m▀▀▀[0;1;30;40m█[0m [1;30m█[0;1;30;47m░[0;35;47m   [0;1;37;47m░▄▓▄ [0;35;47m     [0;1;30;47m░▄▄[0;1;30;40m▀[0;1;30;47m▄[0;1;30;40m▀[0;36m▐[0m
 [1;30m ▀[0;1;30;45m▌[0;1;35;45m▄▒[0;35m█████[0;1;30;45m░[0;35m█[0;1;35;45m░▄█▓▄[0;35m█[0;1;30;45m▄[0;1;30;47m▀░[0m██████[1;47m▀░[0;1;30;47m   [0;35;47m░▄[0;35;40m██[0;1;35;45m▄▓▄[0;45m░[0;35;47m▀[0;1;30;40m█[0;36m [0;1;30m▐[0;1;30;47m▓ [0m██████[1;30;47m░▀▄░▐[0;1;30;40m▌▀[0;1;30;47m▄░[0;35;47m  [0;1;37;47m▀▓█▌[0;1;30;47m  ░▄▄[0;1;30;40m▀▀[0;36m     ·[0m
 [1;37m  [0;1;30m██▀▀▀▀▀▀▀▀▀▀▀▀▀██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌ ▀▀▀▀▀▀▀▀▀▀          [0m
-[1;30m  ▐▌             ▐▌                      ▐▌.[0;36ma[0;1;30mnsi.[0;36mb[0;1;30my.[0;36mr[0;1;30meact.[0;36mo[0;1;30mf.[0;36mb[0;1;30mamboosh.[0;36m4[0;1;30m.[0;36mc[0;1;30morn.[0m
+[1;30m  ▐▌             ▐▌                      ▐▌ [0;36m [0;1;30m    [0;36m [0;1;30m  [0;36m [0;1;30m     [0;36m [0;1;30m  [0;36m [0;1;30m        [0;36m [0;1;30m [0;36m [0;1;30m    [0m
   [1;30m· [0m              [1;30m▌[0m                      [1;30m ▌[0m'

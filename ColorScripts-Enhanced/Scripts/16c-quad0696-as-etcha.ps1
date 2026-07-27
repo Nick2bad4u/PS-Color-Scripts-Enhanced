@@ -5,7 +5,7 @@
 # Source SHA-256: f3fac8d81e3c9b71da359a363167e70fedbb17d9b429f077f89ff29291c58b6d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AS-ETCHA.ANS by Assassin ([Quad-P]); released in quad0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Etch`a'sketch Quad-P logo
 # SAUCE Author: Assassin
 # SAUCE Group: [Quad-P]
@@ -35,5 +35,4 @@ Write-Host '
 [1;34;40m▄▄▄▄▄▄ ▄▄▄▄▄▄[0;34m▄ ▄▄▄▄▄▄[0;1;33m█[0;1;33;41m [0;1;31;41m [0;1;33;41m        [0;1;30;41m [0;1;33;41m [0;1;30;41m░ ▒[0;1;33;41m [0;1;33;40m█[0;1;34;40m▄▄▄▄▄▄▄[0;34m [0;1;34m▄▄▄▄▄▄▄[0m [1;34m▄▄▄▄▄▄▄[0m [1;34m▄▄▄▄[0;36m▄▄▄[0;37m [0;36m▄▄▄▄▄[0;1;36m▄▄ ▄[0m
 [1;34m▀▀▀▀▀▀ ▀▀▀▀▀▀[0;34m▀ ▀▀▀▀▀▀[0;1;33m█[0;31m████████[0;1;30;41m  ░[0;31m█[0;1;30;41m▒[0;31m█[0;1;30;41m▓[0;31m█[0;1;33;42m▓[0;1;34;40m▀▀▀▀▀▀▀[0;34m [0;1;34m▀▀▀▀▀▀▀[0m [1;34m▀▀▀▀▀▀▀[0m [1;34m▀▀▀[0;36m▀▀▀▀[0;37m [0;36m▀▀▀▀[0;1;36m▀▀▀[0m [1m▀[0m
 [1;34m██ ███████[0;34m [0;1;34m██[0;1;34;44m     [0;34m ██[0;1;33;41m█ [0;1;30;41m [0;1;33;41m   [0;1;30;41mas ░[0;1;33;41m [0;1;30;41m▒[0;1;33;41m [0;1;30;41m▓ ▓[0;1;33;41m [0;1;33;42m▒[0;1;34;40m███[0;34m [0;1;34m███████[0;34m [0;1;34m███████[0;34m [0;1;34m███[0;1;34;46m█▀  [0;34m [0;36m█████[0;1;36;46m▄[0;1;36;40m█[0;34m [0;1;36m███[0;1;37m██[0m
-[34m [0;1;34m"We''re phucked in"[0;34m  [0;1;33;41m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33;42m░[0;34m [0;1;36m [0;1;34m-"original done on a[0;36mn[0;1;34m [0;36metch`a''s[0;1;36mketch"[0;1;37m- [0;34m [0m
-[34m [0;1;34m"the..b r a i n[0;34m [0;1;34ms"[0;34m                     [0;1;34m       .  a  s  s  [0;36ma[0;1;34m  [0;36ms[0;1;34m  [0;36ms[0;1;34m  [0;36mi[0;1;34m  [0;1;36mn[0;1;34m  [0;1;36m.[0;34m   [0m'
+[34m [0;1;34m"We''re phucked in"[0;34m  [0;1;33;41m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33;42m░[0;34m [0;1;36m [0;1;34m-"original done on a[0;36mn[0;1;34m [0;36metch`a''s[0;1;36mketch"[0;1;37m- [0;34m [0m'

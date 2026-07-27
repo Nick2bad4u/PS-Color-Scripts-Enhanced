@@ -5,7 +5,7 @@
 # Source SHA-256: e28175e2f94cd05836d86e6e85f4187712d9010365d83501a13c9975f6067b77
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-ENZO.ANS by rorshack (Maiden Brazil); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: enzo enzimas ferrari da silva jr.
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -33,7 +33,6 @@ Write-Host '
 [1;30m────────────────────[0m [33m▀[0;1;31;43m▀[0;1;37;40m█[0;1;31;43m██████[0;1;31;47m▓▒[0;1;31;40m▀[0m [1;30m─────────────────────────────────────────────[0m
                        [1m▐[0;33m▀▀[0;1;31m▀▀▀▀[0m ░   Parabéns ENZO, por viver!
                        [1m▐[0m
-                                   E parabéns CLAUDIA RAIA, por parir um
-                       [1m▀[0m           menino täo cuti-cuti assim! :)
-[1;30m───────────────────────────────────────────────────────────────────────────────[0m
-  Homenagem bem-humorada de [1mRorshack[0m a [1mEnzo[0m, o melhor ansi artist de Recife.[0m'
+                                                                        
+                       [1m▀[0m                                         
+[1;30m───────────────────────────────────────────────────────────────────────────────[0m'

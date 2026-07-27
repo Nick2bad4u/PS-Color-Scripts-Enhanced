@@ -5,7 +5,7 @@
 # Source SHA-256: 25f2b635441cdd36898713cbcd01fa755d529763f078df6632238302db4ecd13
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SL-SAC3.ANS by strikeligt; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 31-59
 # Columns: 1-80
 
@@ -37,5 +37,4 @@ Write-Host '
     [1;30m░[0;32m ▀▄▄[0;37m  [0;1;30m░░░░▒▓[0m [1;30;42m░[0;32m██[0;1;32;42m░▒[0;1;32;40m▌[0m [1;30m░[0m [1;32m▐[0;1;32;42m▒░[0;32m██[0;1;30;42m░[0m  [1;30m░▒▒▓[0m   [1;30;42m░░ [0;32m██[0;37m [0;1;30m░[0;32m ▀[0;1;30;42m░░[0;32m███[0;1;30;42m░[0;32m▌[0;37m  [0;1;30m▒▓[0m  [1;30;42m░[0;32m████[0;1;33;42m░[0;1;32;40m▌[0;1;30;40m░[0m
      [1;30m░░[0m [32m▀██▄▄[0m   [32m▄[0;1;30;42m░ [0;32m██[0;1;36;42m░[0;1;32;40m▀[0m [1;30m░░░[0m [1;32m▀[0;1;32;42m░░[0;32m██[0;1;30;42m░[0;32m▄[0m   [32m▄▄██▀[0;37m [0;1;30;42m░░[0;32m██[0;37m [0;1;30m░░[0m [32m▀[0;1;30;42m░░ [0;32m████▄▄█████[0;1;32;42m░░[0;1;32;40m▀[0m [1;30m░[0m
        [1;30m░░[0m [32m▀▀█████▀▀[0;1;32m▀[0m  [1;30m░░░░░░░[0m  [1;32m▀[0;32m▀▀█████▀▀[0m     [32m▀▀█▄■[0;1;30m░░[0m [32m ▀▀▀██████▀▀[0;1;32m▀[0m  [1;30m░░[0m
-         [1;30m░░░[0m     [1;30m░░░░░░[0m                           [32m [0;37m  [0;1;30m░░░░[0m       [1;30m░░░░░[0m
-           [1;30m [0m               [1;30mS[0mu[36mp[0;1;36me[0;1;33mr[0;1;37mior Art Crea[0;1;33mt[0;1;32mi[0;1;36mo[0;1;34mn[0;34ms[0m'
+         [1;30m░░░[0m     [1;30m░░░░░░[0m                           [32m [0;37m  [0;1;30m░░░░[0m       [1;30m░░░░░[0m'

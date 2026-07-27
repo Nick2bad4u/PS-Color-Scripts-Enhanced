@@ -5,7 +5,7 @@
 # Source SHA-256: 16f582a97d66869fbd782019744352c597dc16132e8f7b72667e5ac2a57e2b09
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SUI-CROS.ANS by SuiCyco (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Nice Dreamz
 # SAUCE Author: SuiCyco
 # SAUCE Group: Driven
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;30m ░[0m         [34m▒[0m                                                                 [1;30m░[0m
-[1;30m ▒░[0m        [34m░[0m                                  [1;37mT[0;35me [0;1;37mv[0;1;35me[0;35mo [0;1;37me[0;35mn [0;1;37me[0;35ml [0;1;37mo[0;1;35mtr[0;35mo [0;1;37mla[0;1;35md[0;35mo!¡![0m     [1;30m░▒[0m
+[1;30m ▒░[0m        [34m░[0m                                  [1;37m [0;35m  [0;1;37m [0;1;35m [0;35m  [0;1;37m [0;35m  [0;1;37m [0;35m  [0;1;37m [0;1;35m  [0;35m  [0;1;37m  [0;1;35m [0;35m    [0m     [1;30m░▒[0m
 [1;30m ▓▒░[0m                                                                       [1;30m░▒▓[0m
 [1;30m █▓▒░▄[0m                                                                   [1;30m▄░▒▓█[0m
 [1;30m ███████████████████████████[0;1;30;45m▓[0;1;30;40m█████████████████████████████████████████████████[0m
@@ -39,7 +39,7 @@ Write-Host '
 [1;30;40m █▓▒░▀[0m                                                                   [1;30;40m▀░▒▓█[0m
 [1;30;40m ▓▒░[0m                          [1;37;40mT[0;1;35;40mh[0;35me  [0;1;37mV[0;1;35mP[0;35mA  [0;1;37mWi[0;1;35m$Hi[0;35mNG  [0;1;37mU[0;1;35m.[0;35m..[0m                      [1;30m░▒▓[0m
 [1;30m ▒░[0m                                                                         [1;30m░▒[0m
-[1;30m ░[0m                                [1;37m"N[0;1;35miC[0;35mE  [0;1;37mDR[0;1;35mΣÆ[0;35mMz"[0m                             [1;30m░[0m
+[1;30m ░[0m                                [1;37m  [0;1;35m  [0;35m   [0;1;37m  [0;1;35m  [0;35m   [0m                             [1;30m░[0m
 [1;30m ·[0m                                                                           [1;30m·[0m
 
                                                                             [1;37m▄[0;1;37;47m█[0m

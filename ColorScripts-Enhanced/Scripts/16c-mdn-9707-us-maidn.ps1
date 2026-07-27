@@ -5,7 +5,7 @@
 # Source SHA-256: 6926777ae8cdd01908dc5b61e515fd8c52607a3d486d416d71cd24373e36593f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-MAIDN.ANS by Rorshack + Minotaur (Maiden Brazil); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: It reads 'maiden'.
 # SAUCE Author: minotaur + rorshack
 # SAUCE Group: Maiden Brazil
@@ -42,10 +42,4 @@ Write-Host '
  [1;30m▀[0m [1;31;41m▓▓▓▓░░[0;31m██[0;1;35;41m░░▓▓█████[0;1;35;47m▓▒[0;41m▄[0;1;35;41m▄▄[0;31m█▄▄▄▄▄[0m      [1;33m▀▀▀▀▀[0m  [31m▄▄▄█[0;1;37;41m▄[0;31m█[0;37m  [0;1;37m█[0;1;33m█[0m [35m▐[0;1;35;45m▓[0;1;35;40m▄[0;35m▄[0;1;35;45m█[0;35m▌[0;37m [0;1;33m██[0m [1;30m▐[0m  [1mcolors[0m  [1;30m▒█[0m
 [1;31m░░[0;1;37m░[0;1;37;41m▓[0;1;37;40m██[0;1;31;41m█▓░░[0;31m██[0;1;35;41m░░▓▓█████████████▄▄[0;1;37;41m▄▄[0;31m██▄▄▄▄▄    █[0;1;37;41m███▌[0;31m▌[0;37m [0;1;37m▐█▌[0m [1m█[0;1;35;45m█[0;35m▀▀[0;37m [0;1;33m ▐█▌[0m  [1mget sick.[0m [1;30m▓█[0m
  [1;30m▄[0m [1m▀▀▀[0;1;31m▀▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m  [0;1;37m██[0;1;33m [0m   [1;33m▄▄▄█▀▀[0m  [1;30m▄▄▄▄▄▄▄▄▄▄▄██[0m
- [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1m▐██▄▄[0;1;33m█▀▀ [0m    [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0m
-
-                          [1;30mBetter viewed in 132x80 mode[0m
-
-        [1;30mBy [0mminotaur[1;30m (original font) and [0mrorshack[1;30m (colors and background)[0m
-
-                             [1;30mBoth of [0mmaiden brazil[1;30m.[0m'
+ [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1m▐██▄▄[0;1;33m█▀▀ [0m    [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: c725fbce0c27fcbf255121c44577b92da8fe43f54021911a2c27da4180e2f345
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-FLY.ANS by Simonking + Slackzor (thelo0p); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fly, fly... =)
 # SAUCE Author: slackzor^simonking
 # SAUCE Group: thelo0p
@@ -57,5 +57,5 @@ Write-Host '
   [36m▀■[0m        [1;30m     [0m
 
 
-   [1mo[0mutline[1;30ms[0m ► [1;44mslackzor[0m
-   [1ms[0mhadin[1;30mg[0m,[1mt[0mouchup[1;30ms[0m,[1mf[0mont[1;30ms[0m ► [1;44msimonking[0m [1m(simonking@poczta.onet.pl)[0m'
+   [1m [0m      [1;30m [0m ► [1;44m        [0m
+   [1m [0m     [1;30m [0m [1m [0m      [1;30m [0m [1m [0m   [1;30m [0m ► [1;44m         [0m [1m                          [0m'

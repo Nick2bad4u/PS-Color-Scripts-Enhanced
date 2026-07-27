@@ -5,7 +5,7 @@
 # Source SHA-256: 0df1c11d210136e03175c2116afeb36b9ed242eb3c342383041b6c27ab396a6c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: tnt-w1zr.ans by tainted (blocktronics); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: wizards rainbow bbs
 # SAUCE Author: tainted
 # SAUCE Group: blocktronics
@@ -47,12 +47,12 @@ Write-Host '
                         [1;36mw[0;36m i z a r d s   [0;1;37mr[0m a i n b o w [1;30m░░[0m
      w[1;30m   [0mi[1;30m   [0mz[1;30m   [0ma[1;30m   [0mr[1;30m   [0md[1;30m   [0ms[1;30m   [0mr[1;30m   [0ma[1;30m   [0mi[1;30m   [0mn[1;30m   [0mb[1;30m   [0mo[1;30m   [0mw[1;30m   .   [0mc[1;30m   [0mo[1;30m   [0mm
                                   323[1;30m.[0m436[1;30m.[0m5249
-                             [1;30mBlack Country Rock WHQ[0m
-                         [1;30mArakNet / SpookNet / AgoraNet[0m
+                             [1;30m                      [0m
+                         [1;30m                             [0m
 
-                              [1;30mOnline until the End[0m
+                              [1;30m                    [0m
 
-                             [1;30mSysop: Dark Rebellion[0m
+                             [1;30m                     [0m
 
 
                                                                                [1;30m░[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 39848d81a42d97a01021930a6c34b288ee8c3ea226fc180a2b4b9cc3797aa7b9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BF-MALP1.ANS by Boba Fett (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Malpractice
 # SAUCE Author: Boba Fett
 # SAUCE Group: lazarus
@@ -36,14 +36,14 @@ Write-Host '
                  [1;32m [0m   [1;32m▐▌[0m                                         [1;33m▐[0m  [1;31m▀[0;31m▀▀[0m
                  [37m  [0;1;32m■[0m [1;32m▀[0m                                           [1;33m▀[0m [1;33m■[0m
 [1;30m--------------------------------------------------------------------------------[0m
-Here is the malpractice ansi I promised frgnfrz of awe... sorry it took so long,
-but I have had money problems, therefore working more...  I like the lazarus
-fruitiness of this ansi.
+                                                                                
+                                                                            
+                        
 
-                                                           [1mbobafett![0;1;32m>>[0;1;37mlAZ[0;1;32m/[0;1;37mrCa[0;1;32m.[0m
-                                                           boba.fett@x-net.net
+                                                           [1m         [0;1;32m  [0;1;37m   [0;1;32m [0;1;37m   [0;1;32m [0m
+                                                                              
 
-Contact me on The Power of the Darkside or by e-mail for an ansi.  Trade *ONLY*.
-pOD is the phattest bbs in all of 864, (864)-639-1007.  Call today.  Full access
-on your first mind boggling call.
+                                                                                
+                                                                                
+                                 
 [1;30m--------------------------------------------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 607894910df2b980426e95e998d794023d114aefc0600d4b7d5fa260f079e86b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CG-USED2.ANS by cryogenic (The Used Coalition); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: used
 # SAUCE Author: cryogenic
 # SAUCE Group: The Used Coalition
@@ -35,8 +35,5 @@ Write-Host '
                                  [1;31m▄█▄[0m [33m▀████▀[0;37m [0;1;31m▄██▀[0m
                                   [1;31m▀█[0;1;37;41m░[0;1;31;40m▄[0m [33m▀▀[0;37m [0;1;31m▄██▀[0m
                                   [1;31m  ▀██▄▄██▀[0m
-       [1;30mavg / propane - told you so..[0m  [1;31m▀[0;1;31;47m▄▓[0;1;31;40m▀[0m
-                                      [1;31m▀██▀ [0m
-                                       [1;31m  [0m
-                                        [1;31m [0m
-                                        [1;31m [0m'
+       [1;30m                             [0m  [1;31m▀[0;1;31;47m▄▓[0;1;31;40m▀[0m
+                                      [1;31m▀██▀ [0m'

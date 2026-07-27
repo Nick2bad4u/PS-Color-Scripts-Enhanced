@@ -5,7 +5,7 @@
 # Source SHA-256: f619dc363fccc0ec5d3e8316df1a502c0f90d211106ad755afe34db3724e8113
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NC3-SO1.ICE by iCE 02/95 (Neurotic/Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Suboceana [j]
 # SAUCE Author: iCE 02/95
 # SAUCE Group: Neurotic/Eerie
@@ -47,10 +47,4 @@ Write-Host '
 [1;46m░▒[0;1;40m██████[0;1;46m░[0m         [1;46m▒[0m         [1;40m▐▌[0m        [1;46m░[0m             [36m▐[0;1;37;46m█[0;1;37;40m████[0;1;37;46m▒[0m   [36m▐[0m     [1;37;46m░[0;1;37;40m█████████[0;1;37;46m░[0m
 [1;46m░░▀▀▀[0;1;40m█[0;1;46m▀▀[0;36m█▌[0m       [36m▄[0;1;37;46m░░▀▀▀[0;36m▌   ▄[0;1;37;46m▀░[0;36m▄[0m       [36m▌[0m            [1;37;46m░ ▀▀▀▀▀░ ▀▀░[0m     [1;37;46m░▀▀▀▀▀░▀▀▀░[0m
 
-                    [1;30m{[0;36m#[0;1;30m}    [0;1;37ms  u  b  o  c  e  a  n  a    [0;1;30m{[0;36m#[0;1;30m}[0m
-                        [36mopening soon in da fo-one-eight[0m
-                              [36mops = young[relish][0m
-
-[1;37m [0m    [1;36m     [0;36mjoint ansi courtesy of [0;1;37mNeurotic [0;1;30m[[0;36mi[0;1;37mCE[0;1;30m] [0;36mand [0;1;37mEerie [0;1;30m<[0;1;37mSpast[0;36mi[0;1;37mc[0;1;30m>[0m
-[36m    send [0;1;36m$20[0;36m to [0;37mjason p[0;36m [0;1;30m/[0;36m [0;37mpo box 215[0;36m [0;1;30m/[0;36m [0;37morleans, ontario[0;36m [0;1;30m/[0;36m [0;37mk1c 1s7[0;36m [0;1;30m/[0;36m [0;37mcanada[0m
-[36m    [0m    [36mif j00 want an ereet [0;1;36mNeurotic[0;36m ansi. I''m cheaper than [0;1;36mEerie[0;36m. :)[0m'
+                    [1;30m{[0;36m#[0;1;30m}    [0;1;37ms  u  b  o  c  e  a  n  a    [0;1;30m{[0;36m#[0;1;30m}[0m'

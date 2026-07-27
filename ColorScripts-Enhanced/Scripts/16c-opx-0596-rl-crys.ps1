@@ -5,7 +5,7 @@
 # Source SHA-256: 34d75fb7f345a7b92f1c7a87218a6679e811f7e065072c2aafb58c033b570520
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL!-CRYS.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Crystal Tower
 # SAUCE Author: Rawlock
 # SAUCE Group: Opium
@@ -33,6 +33,4 @@ Write-Host '
 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;34m█[0;1;34;44m██░[0;34m█▄▄▄▄▄█[0;1;34;44m▓▄▄▄███▀[0;34m█▄[0;37m [0m
 [1;34;44m ▀▀█▀▓▄▄▄▄████████████████████████[0;1;34;40m▀[0;1;34;44m███████████████████████████▄▄▄██████████▓▒[0;34m█[0;37m [0m
 [1;37m [0;1;34;44m░██████▓▓███████████████████████[0;1;34;40m▄▓▄[0;1;34;44m██▀█▀▀▓████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀░[0;34m█[0m
-[1;37m [0;34m▀▀▀▀█[0;1;34;44m▀▀▀ [0;34m▀▀▀▀▀▀█[0;1;34;44m▀▀▀▀[0;34m████▀▀▀▀▀█[0;1;34;44m▀▀▀▀▀▀▀▀▒░[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m           [36m [0;34m▀▀▀[0m
-[36m [0;37m         [0m                       [1;34m [0m
-                       Ansi Made By Rawlock / Opx[0m'
+[1;37m [0;34m▀▀▀▀█[0;1;34;44m▀▀▀ [0;34m▀▀▀▀▀▀█[0;1;34;44m▀▀▀▀[0;34m████▀▀▀▀▀█[0;1;34;44m▀▀▀▀▀▀▀▀▒░[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m           [36m [0;34m▀▀▀[0m'

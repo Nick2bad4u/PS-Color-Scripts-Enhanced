@@ -5,7 +5,7 @@
 # Source SHA-256: ce402739ec134db0f2dbfa5c3dfee07f2ecaefc154bb6be246ed8d1df528a936
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: grk-soli.ans by Griskokare (impure69); released in impure69 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20180619
 # SAUCE Dimensions: 80x48
 # SAUCE Font: IBM VGA
@@ -57,6 +57,4 @@ Write-Host '
                            [31m   │$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
                            [31m   │$$$$$$$$$$$$$$$$$$$$$$$$$$$▒[0m
                            [31m   │$$$$$$$$$$$$$$$$$$$$$$$▒$▒▒▒[0m
-                             [31m ''''''''''''''""""""°°°°°°²²²²²┘┘┘┘┘[0m
-
-                      [31m+[0;37m greetings to [0;33mfartsiders[0;37m and associates [0;31m+[0m'
+                             [31m ''''''''''''''""""""°°°°°°²²²²²┘┘┘┘┘[0m'

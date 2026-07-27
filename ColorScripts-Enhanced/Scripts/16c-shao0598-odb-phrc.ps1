@@ -5,7 +5,7 @@
 # Source SHA-256: c723d8e8b4d193a524f937f781e41ca62089af83323f7f8b60717d26cf6ef1a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ODB-PHRC.ANS by Ol' Dirty Bastard (Shaolin's Finest); released in shao0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Phriction Logo
 # SAUCE Author: Ol' Dirty Bastard
 # SAUCE Group: Shaolin's Finest
@@ -40,7 +40,7 @@ Write-Host '
 [1;34;44m▒░░[0;34m██[0;1;34;44m [0;34m█[0;30;44m▓[0;34;40m████▐██[0;1;34;44m░░[0;34m█▓▐███▌▐███▌[0;30;44m░[0;34;40m▌████[0;30;44m░[0;34;40m██[0;1;34;44m░░[0;34m█▌[0m    [34m▐█▌████▀▀▀█▄████[0;30;44m▓[0;34;40m████▐██[0;1;34;44m░[0;34m█[0;1;34;44m░░░[0;34m██[0;1;34;44m░░▒[0m
 [1;34;44m░ [0;34m██▀▀██▄███[0;30;44m░[0;34;40m██████▄███[0;30;44m░[0;34;40m███████▄███▄███[0;1;34;44m░░[0;34m█▄▄▄▄███▄▄████████████▄███[0;30;44m░[0;34;40m██████▀████[0;1;34;44m░[0m
 [34m██[0;1;34;44m░░ [0m                                                                     [34m▀██[0;1;34;44m░[0;34m██[0m
-[34m███[0;1;34;44m░ [0;34m▌[0m             [1;30mP[0;1;37mP[0;1;30mPH[0;1;37mH[0;1;30mHR[0;1;37mR[0;1;30mRI[0;1;37mI[0;1;30mIC[0;1;37mC[0;1;30mCT[0;1;37mT[0;1;30mTI[0;1;37mI[0;1;30mIO[0;1;37mO[0;1;30mON[0;1;37mN[0;1;30mN   E[0;1;37mE[0;1;30mEM[0;1;37mM[0;1;30mMA[0;1;37mA[0;1;30mAG[0;1;37mG[0;1;30mG[0m              [34m▐[0;1;34;44m░▒░[0;34m█[0m
+[34m███[0;1;34;44m░ [0;34m▌[0m             [1;30m [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m     [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m  [0;1;37m [0;1;30m [0m              [34m▐[0;1;34;44m░▒░[0;34m█[0m
 [34m█[0;1;34;44m ░▒░[0;34m█[0m                                                                     [34m █[0;1;34;44m░░[0;34m█[0m
 [34m▐[0;1;34;44m░▒▓▒░[0;34m▌[0m                                                                    [34m  █[0;1;34;44m░░[0m
 [1;34;40m▒[0;34m█[0;1;34;44m░░░[0;34m█[0m                                                                     [34m  ▀█[0;1;34;44m░[0m
@@ -56,6 +56,6 @@ Write-Host '
 
 [1;30m--------------------------------------------------------------------------------[0m
 [1;33mhey![0m
-[1;33msorry, nothing much from me this month.. reason? those damn things we call exams[0m
-[1;33moh well.. expect more next month..[0m
+[1;33m                                                                                [0m
+[1;33m                                  [0m
 [1;33m!odb[0m'

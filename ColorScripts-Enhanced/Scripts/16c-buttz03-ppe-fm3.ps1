@@ -5,7 +5,7 @@
 # Source SHA-256: 871e7497ce67a46d87085502a579782082a119bd13d747274c0a0187decf9af8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PPE-FM3.ANS by Propane (buttz03); released in buttz03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -31,6 +31,5 @@ Write-Host '
  [31m   [0;37m  [0;1;30m▀▄[0m    [31m       [0m   [1;30m▀▄[0m              [1;30m▀▓[0m [1;30m▀▀▀[0;1;30;46m▄▄▄▓▓▓[0;1;30;40m▀▀[0m [1;30m▄▀[0m [1;30m░[0m      [1;30m░[0m        [1;30m▄▀  [0m
 [1;30m [0m       [1;30m▀▄[0m              [1;30m▀[0m [1;30m▄[0m            [1;30m░[0m        [1;30m▓▓▓░░[0m   [1;30m▒ [0m            [1;30m▄[0m
 [1;30m ▀▀[0;36m▀[0;1;30m▀▀[0;36m▀[0;1;30m▀▀▀▀▀[0;36m▀▀▀▀▀▀[0;1;30m▀▀▀[0;36m▀[0;1;30m▀▀▀▀▀▀▀[0;36m▀▀▀▀▀▀▀▀[0;1;30m▀▀▀▀▀[0;36m▀▀▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▓▀▀[0;36m▀[0;1;30m▀[0;36m▀[0;1;30m▀[0;36m▀[0;1;30m▀▀ ▀[0;36m░░░[0;1;30m▀▀[0;36m▀[0;1;30m▀ ▀[0;36m▀[0;1;30m▀▀[0m
-[1;30m█[0m [1;30m [0m [1;30mIntro[0m               [1;30mArticles [0m               [1;30mlast words[0m              [1;30mbye![0m   [1;30m░[0m
-[1;30m█▄[0;36m▄▄▄▄▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄▄▄[0;36m▄[0;1;30m▄[0;36m■[0;1;30m▄▄▄▄[0;36m░░[0;1;30m▄▄▄[0;36m▄[0;1;30m▄▄▄▄▄▄  ▄[0;36m▄[0;1;30m [0;36m▄[0;1;30m ▄ ▄ [0;36m▄▄[0;1;30m▄ [0;36m▄[0;1;30m▄▄   [0;36m▄[0;1;30m▄ ▄▄[0;36m▄▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m▄▄▄[0;1;30m▄█[0m
-[1;30m [0m'
+[1;30m█[0m [1;30m [0m [1;30m     [0m               [1;30m         [0m               [1;30m          [0m              [1;30m    [0m   [1;30m░[0m
+[1;30m█▄[0;36m▄▄▄▄▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄▄▄[0;36m▄[0;1;30m▄[0;36m■[0;1;30m▄▄▄▄[0;36m░░[0;1;30m▄▄▄[0;36m▄[0;1;30m▄▄▄▄▄▄  ▄[0;36m▄[0;1;30m [0;36m▄[0;1;30m ▄ ▄ [0;36m▄▄[0;1;30m▄ [0;36m▄[0;1;30m▄▄   [0;36m▄[0;1;30m▄ ▄▄[0;36m▄▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m▄▄▄[0;1;30m▄█[0m'

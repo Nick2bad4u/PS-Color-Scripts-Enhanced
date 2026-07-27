@@ -5,7 +5,7 @@
 # Source SHA-256: a1f040bfe3229e35b20e6a87ecb50f1dac43a250fca3023964880921b60b5124
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BZ-CHARI.ANS by biozard (ambush); released in amb-0003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: chariguana.
 # SAUCE Author: biozard
 # SAUCE Group: ambush
@@ -27,7 +27,7 @@ Write-Host '
    [1;30m░ ░░[0;1;31m   ▀██[0;1;31;47m▓[0;1;31;40m▒ ▐[0;1;31;41m▓[0;1;31;40m█▌ [0;1;31;47m▓[0;1;31;40m██▄▄▄[0;1;31;41m▒[0;31m▀▀[0m   [1;31m▄■ [0m [1;30m [0m     [32m▄▓▓▀▀▀▀ [0m     [32m▀▓▀[0m   [1;30m    [0m [32m▀▀▀▓▄[0;37m [0;1;30m  [0m
   [1;30m░░[0;1;31m  [0;1;30m░[0;1;31m     ▀▓  [0;1;31;47m▓[0;1;31;40m███▄ ▀[0;1;31;47m▓[0;1;31;40m██▀[0m    [1;31m▐▄▓[0m   [1;30m [0m   [32m■▀[0m    [1;30m         [0m [32m  [0;1;30m    [0m  [1;30m           [0m
     [1;30m░░ [0m     [1;31m   ▐[0;1;31;47m▓▓[0;1;31;40m███▀  ▀▌[0m      [1;31m▀[0m▄[1m■[0;1;31m [0m [1;30m    [0m          [1;30mdetroit city.[0m
-       [1;33m▒[0;1;33;41m▒[0;1;30;40m▄[0m   [1;31m   ▀▀▀ ▄▄[0m             [1;30m [0m [1;30m   [0m  [1;30m  [0m [1;30mhardcore art secrets online.[0m
+       [1;33m▒[0;1;33;41m▒[0;1;30;40m▄[0m   [1;31m   ▀▀▀ ▄▄[0m             [1;30m [0m [1;30m   [0m  [1;30m  [0m [1;30m                            [0m
         [1;30m▀[0;1;30;47m▓█[0;1;30;40m▄[0;1;31;40m   ▄[0;1;31;47m▓[0;1;31;40m█▄▄[0;1;30;40m▓[0;1;31;40m▀[0;1;31;47m▓[0;1;31;40m▌  [0;1;30;40m          [0m [1;30m  [0m    [1;30mmarighuana trading a domicilio.[0m
            [1;30m▀▀■[0;1;31m ▀▀▀▀█▌[0;1;30m▓[0;1;31m▀[0;31m▓[0;1;31m  [0;1;30m [0m   [1;30m      [0m [1;30m   [0m  [1;30mall dayz from 23/07 [argie time].[0m
               [1;31m▐[0;1;31;47m▓[0;1;31;40m██▄ ▀■ [0m   [1;30m [0m   [1;30m      [0m [1;30m [0m [1;30m  [0m  [1;30mda numbah! [+54-(0)1-254-0099].[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: d80f3fff139435a5553926f52da34d7e7f8e9d231e9f3bd473a8bf5c3d5b3c43
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: cl!-67.ans by Cleaner (blocktronics_space_invaders); released in blocktronics_space_invaders and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-50
 # Columns: 1-80
 
@@ -53,9 +53,8 @@ Write-Host '
           [35m█  ▀ █[0m           [1;37mBLOCKTRONICS[0m [31m67[0m         [1;37m ▀ ▀  ▀[0m   [1m▀[0m
      [35m ██  █  █ █[0;37m  [0;1;30m [0;1;33m▌▌[0;1;37m▌▌▌[0;1;33m▌[0m
      [35m░██  █  █ █[0;37m  [0;1;30m [0;1;33m▌▌[0;1;37m▌▌▌[0;1;33m▌[0;1;30m [0m TEXTMODE LABORATORIES
-     [35m░██  █  █ █[0m           [37mMADE WITH ALIEN TECHNOLOGY![0m
+     [35m░██  █  █ █[0m           [37m                           [0m
      [35m░██  █  █ █[0;37m   [0;1;33m▌▌[0;1;37m▌▌▌[0;1;33m▌[0m
      [35m░██  █    ▀[0m          [1;30m [0mANSI DRAWN BY[1;30m [0;1;37mCLEANER[0m [1;41m▀▀▀[0m
      [35m░░   ▄ ░░ ▄[0;37m   [0;35m [0;1;30m [0m  [1;30m [0m   JULY [1m+[0m AUGUST [1m2013[0m
-             [1;30m    [0m  [1;33m▌▌[0;1;37m▌▌▌[0;1;33m▌[0m
-                           [1;30mMMXIII[0m'
+             [1;30m    [0m  [1;33m▌▌[0;1;37m▌▌▌[0;1;33m▌[0m'

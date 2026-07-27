@@ -5,7 +5,7 @@
 # Source SHA-256: e58bec5321d3f42536311ee422eff438974d83ad81a291985473af50e52deb1e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-CORE.ANS by Crayon + Tarot (nerp/lazarus); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: core
 # SAUCE Author: tarot/crayon
 # SAUCE Group: nerp/lazarus
@@ -28,6 +28,4 @@ Write-Host '
 [34;47m▓[0;34;40m▌   ░[0;30;44m░[0;34;40m▀[0m   [34;40m▀███████[0;32;44m░░[0;30;44m▓[0;34;40m [0;31;40m [0;34;40m ▀[0;35;44m█[0;1;35;45m░▒▒[0;35;44m█▓▓▒▒░░[0;34;40m█▄▐█▀[0m   [32;40m▐[0;32;44m█▓▓▓▓[0;34;40m▌[0m             [35;40m▐[0;35;44m▓▓▓[0;35;40m▌▀▐▓▀▀▀█[0;1;35;45m▐[0m
 [34m▀█▄ ▄██[0;30;44m▓[0m   [30;44m▓░[0;34;40m▌▀▀▀▀▀▀▀  [0;31;40m   [0;30;45m▓▓[0;34;40m▀[0;35;40m▀▀[0;35;44m▒▒░░[0;34;40m██▀▀▀[0m      [32;40m▀[0;32;44m█[0;1;32;42m▒▒░[0;32m▄[0m             [35m▐▀▀[0;34m [0;35m▌[0;34m [0;35m░▌[0m   [35m▐▌[0m
 [34m    ▌ ▐[0;1;34;44m▄[0;34m▄▄▄█▀■[0m                                    [32m▀▀▀[0m                [35m▀▀▀█▄▄[0;34m [0;35m▀[0;34m [0m
-    [34m▀▀▀[0m        [31m [0m
-
-[34mshapez by tarot[0m                                                 [34mshadez[0;37m [0;34mby[0;37m [0;34mcrayon[0m'
+    [34m▀▀▀[0m        [31m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3036930815389af327cf08f260194b8c9bbb2cd8df91e646f31478556903a87a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-B6.ANS by Spear + Toot (27inch03); released in 27inch03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -51,4 +51,4 @@ Write-Host '
 [1;30;40m▀▀██  ▀▀▀[0m  [1;30m▀▀█▄[0m    [1;30m▄█▀▀[0m    [1;30m▀▀███▄[0m [1;30m▀▀▄██▀▀ ▄███▀▀▀▀██▄[0m  [1;30m▀▀███▄[0m         [1;30m▄██▀▀[0m  [1;30m▀▀█[0m
     [1;30m▀ [0m         [1;30m▀[0m  [1;30m▄▀[0m           [1;30m▀█▄[0m [1;30m▄▀ [0m [1;30m ▄█▀▀[0m        [1;30m▀▀▄[0m    [1;30m▀▀█[0m       [1;30m▄▀[0m
                                  [1;30m▀ [0m   [1;30m▀▀[0m                    [1;30m▀[0m                  [1;30m▄[0m
-       [1;30m    TOOT[0m                [1;30mB L A C K  6   B B S   [0m          [1;30mSPEAR[0m        [1;30m ▄[0m'
+       [1;30m        [0m                [1;30m                       [0m          [1;30m     [0m        [1;30m ▄[0m'

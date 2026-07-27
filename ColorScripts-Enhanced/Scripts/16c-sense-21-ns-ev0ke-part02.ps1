@@ -5,7 +5,7 @@
 # Source SHA-256: 4676f1789df87e63b2ee46b80965bb5be58236d3cfe16f85a25459623c246509
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NS-EV0KE.ANS by ansichrist (sense); released in sense-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: evoke sub
 # SAUCE Author: ansichrist
 # SAUCE Group: sense
@@ -44,7 +44,4 @@ Write-Host '
 [31;40m██████████████████████ [0;34;40m█▐██████████████████████[0;37;40m [0;31;40m█▌█[0;1;37;47m [0;1;37;40m▄[0;1;37;41m▄[0;1;37;47m▀[0;31m▀[0;1;37;47m▀[0;1;37;40m▄[0;1;37;41m▄[0;1;37;47m▀[0;31m [0;1;37;47m▀[0;1;37;40m▄[0;1;37;41m▄[0;1;37;47m▀[0;31m [0;37;41m▀[0;1;37;40m▀▀[0;1;37;47m▀[0;31m [0;30;41m░[0;31;40m████████[0m
 [31;40m██████████████████████[0;37;40m [0;34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37;40m [0;31;40m█▌██▄▄▄▄█▄▄▄▄█▄▄▄▄████▄█████████[0m
 [31;40m██████████████████████ [0;34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37;40m [0;31;40m█▌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30;40mmy evoke 2004 textmode compo ansi... too bad i made some mistake in my email[0m
-[1;30;40mwhen submitting, so this wasn''t in the compo... well, maybe i just gotta change[0m
-[1;30;40mthe 4 to 5 so they can use this as a promo next year or something... =)[0m'
+[31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

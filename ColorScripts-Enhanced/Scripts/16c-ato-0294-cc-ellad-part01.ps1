@@ -5,7 +5,7 @@
 # Source SHA-256: a32418cb6e6abaf4786a8df2b371728a3bae88e686e607a280b023d611e15b51
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CC-ELLAD.ANS by Cosmic Catalyst (ato-0294); released in ato-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-42
 # Columns: 1-80
 
@@ -28,9 +28,9 @@ Write-Host '
 
          [1;30;40m───────[0m───═════[1m═════  [0;34mA[0;1;34mT[0;1;36mOMiC [0;34mP[0;1;34mR[0;1;36mODUCTiONS  [0;1;37m═════[0m═════───[1;30m───────[0m
 
-           [34m■ [0;1;37mi[0mF [1mY[0mO[1;30mU [0;1;37mW[0mA[1;30mNT [0;1;37mA[0mN [1mA[0mT[1;30mOMiC [0;1;37mA[0mN[1;30mSi [0;1;37mC[0mO[1;30mNTACT [0;1;37mA[0mN[1;30mY [0;1;37mM[0mE[1;30mMBER [0;1;37mO[0mR [1mS[0mi[1;30mTE [0;34m■[0m
-         [34m■ [0;1;37mT[0mH[1;30miS [0;1;37mA[0mD [1mi[0mS [1mA[0mN [1mO[0mR[1;30miGiONAL [0;1;37mA[0mN[1;30mSi [0;1;37mA[0mN[1;30mD [0;1;37m([0mc[1;30m) [0;1;37mO[0mF [1mA[0mT[1;30mOMiC [0;1;37mP[0mR[1;30mODUCTiONS [0;34m■[0m
-                       [34m■ [0;1;37m"T[0mH[1;30mEY [0;1;37mA[0mR[1;30mEN''T [0;1;37mF[0mR[1;30mEE [0;1;37mA[0mN[1;30mYMORE.." [0;34m■[0m
+           [34m■ [0;1;37m [0m  [1m [0m [1;30m  [0;1;37m [0m [1;30m   [0;1;37m [0m  [1m [0m [1;30m     [0;1;37m [0m [1;30m   [0;1;37m [0m [1;30m      [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m     [0;1;37m [0m  [1m [0m [1;30m   [0;34m■[0m
+         [34m■ [0;1;37m [0m [1;30m   [0;1;37m [0m  [1m [0m  [1m [0m  [1m [0m [1;30m        [0;1;37m [0m [1;30m   [0;1;37m [0m [1;30m  [0;1;37m [0m [1;30m  [0;1;37m [0m  [1m [0m [1;30m     [0;1;37m [0m [1;30m          [0;34m■[0m
+                       [34m■ [0;1;37m  [0m [1;30m   [0;1;37m [0m [1;30m     [0;1;37m [0m [1;30m   [0;1;37m [0m [1;30m         [0;34m■[0m
 
 
                                                                 [1;33m▄▄▄▄▄▄▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: da8848b97b70c45356e6da0fbbcff0d94bafc0e3a4806578f4ef24fcd7ee875f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: Avg-fm10.ans by avenging angel (lure); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: fuck monkey 10
 # SAUCE Author: avenging angel
 # SAUCE Group: lure
@@ -34,5 +34,4 @@ Write-Host '
            [1;30m▀[0m  [34m ▀▀▀▀[0;37m [0;1;30m [0;1;37;47m▀████[0;1;37;40m▓▓[0;1;37;47m▒▒ [0;1;30;40m █[0;1;37;47m▓▓█[0;1;37;40m█[0;1;37;47m█▀[0;1;37;40m▀▀[0;1;30;47m▄▄[0;1;30;40m▄[0;1;30;47m▓[0;1;30;40m▀[0m [34m  [0;37m▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m██▀█▄██▀[0m▀▀[1;30m▄[0m  [34m▀▀[0;1;30m▄▄[0m [1;30m▀[0m
         [1;30m  [0m [1;30m▀▀▀▀▀[0;1;30;47m▓▓▓[0;1;30;40m▄▄▄[0;1;30;47m▄[0;1;37;40m▀▀[0;1;37;47m▀██▓▓[0m▀ [1;30m▀▀▄▄▄▄[0;1;30;47m▓▓▓[0;1;30;40m▀▀[0m  [34m  [0;37m [0;1;37m░▓▓▓▓[0;1;37;47m▀[0;1;37;40m▀▀▀[0;1;30;47m▄[0;1;30;40m▄▄▄[0;1;30;47m▓[0;1;30;40m▀▄▄[0;1;30;47m▓▓[0;1;30;40m▀▀[0m  [1;30mavg_[0m
         [1;30m░░░░░░  [0m     [1;30m▀▀▀▀█▄[0m    [1;30m▀▀▀▀▀[0m            [1;30m▄▄▄▄[0;1;30;47m▓▓▓[0;1;30;40m▀▀▀█▄[0m [1;30m▀▀▀[0m    [1;30m ░░░░░░[0m
-                           [1;30m▀[0m                          [1;30m▀▀▀[0m
-                                f[1muck[0;1;30m [0mm[1monkey[0;1;30m 10![0m'
+                           [1;30m▀[0m                          [1;30m▀▀▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 168679eaab259eed266762e95c6ba8ac4b5e2bbd5b6587dc89c382ea4ed1d520
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HYDROGEN.ANS by The Malevolent Trickster (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 40-66
 # Columns: 1-80
 
@@ -24,9 +24,9 @@ Write-Host '
 [1;37;40m █[0;1;31;41m▓[0;1;37;41m▄[0;1;37;40m▀[0m         [1;37;47m█[0;1;31;41m▓[0;1;37;41m▄[0;1;37;40m▀[0m         ▀    [1;30;47m░[0;1;31;41m▒[0;41m▄[0;40m▀[0m              [40m▀[0;41m▄[0;1;31;41m▒▒▓[0;1;31;47m▄[0;1;31;41m▒▒[0;41m▄[0;40m▀[0m      [1;40m▀  [0;1;47m▓[0;1;31;41m▓[0;1;37;41m▄[0;1;37;40m▀[0m
 [1;37;40m █▀[0m           [1;37;47m█[0;1;37;40m▀[0m                [1;30;47m░[0m▀                  ▀[41m▄▄▄▄[0;40m▀[0m           [1;47m▓[0;1;40m▀[0m
 
-[1;40m [0;1;30;40m░▒▓█   ·[0m∙[1m- V[0miSiON-[1mX B[0meta [1mS[0mite  [1mF[0melony[1mNET M[0member   [1mR[0mR[1m/I[0mNC [1mD[0mist [1mS[0mite [1m-[0m∙[1;30m·    █▓▒░[0m
-[1;30m ░▒▓█   ·[0m∙[1m- i[0mCE[1m/T[0mNO [1mD[0mist [1mS[0mite   [1mF[0miRM [1mD[0mist [1mS[0mite   [1m4[0m00 [1mM[0megs   [1mU[0mSR HST [1m-[0m∙[1;30m·    █▓▒░[0m
-[1;30m ░▒▓█[0m       [1;30m·[0m∙[1m- S[0mysOp[1m: L[0mo[1mRD N[0mu[1mKE   C[0moSysOp[1m: T[0mhe [1mS[0milent [1mA[0mssasin [1m-[0m∙[1;30m·[0m         [1;30m█▓▒░[0m
+[1;40m [0;1;30;40m░▒▓█    [0m [1m   [0m      [1m   [0m    [1m [0m     [1m [0m     [1m     [0m        [1m [0m [1m  [0m   [1m [0m    [1m [0m    [1m [0m [1;30m     █▓▒░[0m
+[1;30m ░▒▓█    [0m [1m   [0m  [1m  [0m   [1m [0m    [1m [0m      [1m [0m    [1m [0m    [1m [0m      [1m [0m   [1m [0m      [1m [0m       [1m [0m [1;30m     █▓▒░[0m
+[1;30m ░▒▓█[0m       [1;30m [0m [1m   [0m    [1m   [0m [1m    [0m [1m      [0m      [1m   [0m   [1m [0m      [1m [0m       [1m [0m [1;30m [0m         [1;30m█▓▒░[0m
                  [1;30m·[0m∙[1m- [0;5;30m6[0;1m6[0;5;30m4 [0;1m1  3  -  5  2  3  -  7  6  7  1 -[0m∙[1;30m·[0m
 
             [1;33m▄▀▀▀▀▀▀▀▀▄ ▄▀▀▀▀▀▀▀▀▄▀▀▀▀▄   ▄▀▀▀▀▀▀▀▀▄▄▀▀▀▀▀▀▀▀▄▄▀▀▀▀▀▀▀▀▀▄[0m

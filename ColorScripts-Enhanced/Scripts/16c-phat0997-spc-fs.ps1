@@ -5,7 +5,7 @@
 # Source SHA-256: f200f0cc33f31a533f26e9e588c6a59cec492e2ba83743f2f950574ad839df39
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SPC!-FS.ANS by spice (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: go!#7: freeside
 # SAUCE Author: spice
 # SAUCE Group: Phat Studios '97
@@ -38,8 +38,4 @@ Write-Host '
 [37m  [0;36m▀[0;37m [0;36m▄[0;37m [0;36m▀[0;37m [0;36m▀[0m   [35m▄[0;37m [0;35m▄[0;1;35;45m░[0;35m▄▄[0;1;35;45m▄[0;35m█▄▀▀▀▀[0;37m  [0;35m▀[0;37m                                  [0m
 [37m               [0;35m▀[0;37m  [0;35m▀▀[0;37m                                          [0m
 
-[1;30m▼▼[0m
-[1;30mfor the freeside +o by fastjack^boil....[0m
-[1;30mfasty: don''t use the compo-version, I forgot my sig on it..[0m
-
-[1;30mI know, this will not make the 1st place in GO!#7 - I know alecs ansi.. :)[0m'
+[1;30m▼▼[0m'

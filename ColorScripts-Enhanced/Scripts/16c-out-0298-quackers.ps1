@@ -5,16 +5,16 @@
 # Source SHA-256: 713b23f3dd75fe0062ca919c52d41fb6da1679f4172fbf8763b72d358e505143
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: QUACKERS.ANS by Sandy Chidester (out-0298); released in out-0298 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-20
 # Columns: 1-80
 
 Write-Host '
-[1m@NOMORE[0m
+[1m       [0m
                          [31m╔═╗ ╗ ╔ ╔═╗ ╔═╗ ╗╔  ╔═╗ ╦╗  ╔╗[0m
                          [31m║ ║ ║ ║ ╠═╣ ║   ╠╩╗ ╠═  ╠╩╗ ╚═╗[0m          [1;5m.[0m
             [1m☼[0m            [31m╚═\ ╚═╝ ╝ ╚ ╚═╝ ╝ ╚ ╚═╝ ╝ ╚ ╚═╝[0m
-                     [1m.[0m      [1mestablished March, 1993   [0;1;5m☼[0m       [1;5m.[0m
+                     [1m [0m      [1m                          [0;1;5m [0m       [1;5m [0m
                 [1;5m☼[0m                [1;5m☼[0m     [1m.[0m      [1;5m☼[0m             [1;5m☼[0m
            [1m.[0m              [1m.[0m                           [1;5m☼[0m
                                [32m▄[0;33;42m▄[0;32m██▄    [0;1;5m☼[0m       [1m.[0m           [1;5m☼    ☼[0m
@@ -27,6 +27,6 @@ Write-Host '
                  [1m████████████████[0;33m███[0;33;47m           [0;1m▄████████████████[0m
                  [1m███████████████████████████████████████████████[0m
 
-              [1;36mThanks for visting and we hope you enjoy your stay![0m
-                             [32mscreen by Becky Zec[0m
+              [1;36m                                                   [0m
+                             [32m                   [0m
 [1m216-252-0743[0m                                                 [1m216-252-5139[0m'

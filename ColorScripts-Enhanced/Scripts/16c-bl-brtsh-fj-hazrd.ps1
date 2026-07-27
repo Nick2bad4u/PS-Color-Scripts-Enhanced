@@ -5,7 +5,7 @@
 # Source SHA-256: 8515094fde9c0e999fd4a4d262c072ef29f7c3b54d91179c54ceaee45f6eab37
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FJ_HAZRD.ANS by fastjack (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hazard/2:: rauschbeben
 # SAUCE Author: fastjack
 # SAUCE Group: boil
@@ -41,6 +41,4 @@ Write-Host '
 
 
 [1;30m---------------------------------------------------------(lippen!)--------------[0m
-...und nun laßt uns alle singen, ihr kinder dieser welt,         [1;30mfastjack^boil[0m [1;30m░[0m
-                 ...denn wer weiß wie lange
-                            ...dieser geile rausch noch anhält...[0m'
+                                                                 [1;30m             [0m [1;30m░[0m'

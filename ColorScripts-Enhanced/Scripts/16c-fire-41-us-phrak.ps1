@@ -5,7 +5,7 @@
 # Source SHA-256: e4c062912f7706cf665212e106d0d01faed280b204867b0bb865e9138c12fc9c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-PHRAK.ANS by Tainted + Abstrakt (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: phrack magazine
 # SAUCE Author: tainted / abstrakt
 # SAUCE Group: fire
@@ -39,7 +39,7 @@ Write-Host '
 [37m   [0;35m.[0;1;31m `¬$$[0;31m$[0;1;31m [0ml  [35m;[0;37m  [0;1;31m.[0;31md[0;1;31m$$I [0;1;30m$[0;1;31m  [0;31m:[0;1;31m$$[0;31m$[0;1;31m $[0;31m$[0;1;31m$ [0;1;30m$[0;1;31m [0;35ml  [0;31ml[0;1;31m$[0;31m$[0;1;31m$ [0m;[1;30m:[0;1;31m [0;35ml.[0;1;31m   [0;1;30m`²²''[0m  [35m\''[0;1;31m [0;1;30m,..[0m┌j''
  [1;35m,d[0;35m$7[0;1;31m i$[0;31m$[0;1;31ml [0mI[1;31m  [0;35mi  [0;1;31m:$$$l [0;1;30m$[0;1;31m  [0;31m.$$$[0;1;31m [0;31m$[0;1;31m$[0;31mT[0;1;31m [0;1;30m$[0;1;31m [0;35m$  [0;31m$$[0;1;31m$[0;31m$[0;1;31m [0;1;30ml''[0;1;31m [0;35m└'' ._[0;1;31m         [0;1;30m`²[0m²''
  [1;35m`[0;35m└''  [0;1;31mi$$l [0;1;30m$[0;1;31m  [0;35ml   [0;31m$[0;1;31m$$[0;31m|[0;1;31m [0;1;30m7[0;1;31m [0;35m.[0;37m [0;31m`ⁿ[0;1;31m` [0;31m$$l[0;1;31m [0;1;30m7[0;1;31m [0;35m└  [0;31m$$$l[0;1;31m [0;1;30mY[0m
-    [35m,[0;1;31m [0;31ml$[0;1;31m$i [0;1;30m$[0;1;31m  [0;35m$;  [0;1;31m$[0;31m$[0;1;31m$: [0;1;30m`[0;31m [0;35m;    [0;37m.[0;31m`ⁿ[0;1;31m'' [0;1;30m''[0;35m    [0;31m`ⁿ┘''[0;1;31m     phrack[0;31m_magazine[0m
+    [35m [0;1;31m [0;31m  [0;1;31m   [0;1;30m [0;1;31m  [0;35m    [0;1;31m [0;31m [0;1;31m   [0;1;30m [0;31m [0;35m     [0;37m [0;31m  [0;1;31m  [0;1;30m [0;35m    [0;31m  ┘ [0;1;31m           [0;31m         [0m
 [37m   [0;35m┘''[0;1;31m [0;31m$[0;1;31m$[0;31m$[0;1;31m; [0;1;30m7[0;1;31m  [0;35m$l  [0;31m$[0;1;31m$[0;31m$:[0;1;31m   [0;35m┘  [0;1;30m┘[0m''  [1;30m.[0mj''[1;31m     [0;1;30m,..┌[0mj''
   [1;35m`[0m   [31m$$$[0;1;31m. [0;1;30m`[0;1;31m  [0;35m$l  [0;31mY$$''[0;37m       [0;1;30m.┌\[0m''       [1;30m`²[0m²''
   [35m┌[0;37m   [0;31m`ⁿ°[0;1;31m     [0;35m`[0;1;31m    [0;31m~[0;1;30m.[0mj''

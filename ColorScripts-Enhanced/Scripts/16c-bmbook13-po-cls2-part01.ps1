@@ -5,7 +5,7 @@
 # Source SHA-256: a94b41df1bea8befdeba2d655971d8916bb13366dbcf7188ba7070f60eb45cb5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-CLS2.ANS by poti (black(SONIC)maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: logocluster #2
 # SAUCE Author: poti
 # SAUCE Group: black(SONIC)maiden
@@ -17,11 +17,11 @@
 Write-Host '
  [1m┌─────■ " logocluster #2 " by poti [0m·────────────────────────────────────────┌┌
 
-         to make a long story short: sorry for that little amount of logos
-         in this pack but my last days of school were busy^2. especially the
-         exams which were really like ?&$!#? ! .§  ..%    ...&      ......?
+                                                                          
+                                                                            
+                                                                           
 
-         contact me for any reason at kesseler@metronet.de
+                                                          
 
  [1m┌─────■ " icebreaker " for catharsis [0m·──────────────────────────────────────┌┌
 
@@ -46,7 +46,6 @@ Write-Host '
 [31m ░ [0;1;31;41m▓[0;31m [0;1;30m▀▀[0m   [31m▄[0;1;31m▄[0;31m  ▄[0;1;31m█[0;1;31;45m▓[0;1;31;41m▄[0;31m▄▄ [0;1;30m▀ [0;31m ▄[0;1;31m▄[0;1;31;41m▄▀[0;31m▀▀▌  [0;37m [0;31m▀[0;1;31m▀▀[0;1;31;41m▀[0;31m▌[0m                                        [1;36m [0m
 [31m   ▐▓ ▀▀[0;1;31m▀[0;1;31;41m▀█▓▄█▀[0;1;31;40m▀[0;31m▀  [0;1;31m▀[0;31m▀[0;1;31;41m░▀▓█[0;1;31;45m▓[0;1;31;41m▀[0;31m   ▀   [0m    [31m▀[0;37m [0;31m [0m                                      [36m [0m
 [31m  ▄[0;1;31;41m░[0;31m      ▀▐[0;1;31;41m▓[0;31m▀  ░      ▐[0;1;31;41m▀░[0;31m       [0m
-[37m [0;1;31micebreaker +o: catharsis[0;31m▀▌[0m
+[37m [0;1;31m                        [0;31m▀▌[0m
 
-[37m [0;1;37m┌─────■ " sargahd " for shaitan/bonewood/junk [0m·─────────────────────────────┌┌[0m
-'
+[37m [0;1;37m┌─────■ " sargahd " for shaitan/bonewood/junk [0m·─────────────────────────────┌┌[0m'

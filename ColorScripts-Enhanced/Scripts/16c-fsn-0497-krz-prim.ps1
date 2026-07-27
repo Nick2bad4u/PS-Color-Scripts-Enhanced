@@ -5,7 +5,7 @@
 # Source SHA-256: 35d6133170b2152a4f1a33591c85b261ca2c3f3fa89c93faa3adb15e0af76eff
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KRZ-PRIM.ANS by krazie (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: prime!
 # SAUCE Author: krazie
 # SAUCE Group: fusion
@@ -28,6 +28,4 @@ Write-Host '
              [1;32;42m░[0;32m▌[0;31m▐[0;1;31;41m▐[0;1;31;40m█▌[0m [32m▄▄[0;37m [0;1;31m▀[0m [31m▀[0;1;31m▀[0;1;36m [0;32m▄▀[0;1;31;42m░[0;1;32;42m░[0;35m [0;31m▀[0;1;31m▀▀[0m [31m▀[0;1;31m▀[0;1;36m [0;31m▀[0;1;31m▀[0m  [31m▀[0;1;31m▀▀  [0;1;32m  [0m [31m▀[0;1;31m▀▀▀▀▀[0;1;31;41m▀[0;1;31;42m███[0;1;31;40m▀[0m [32m▀▌[0m
              [32m▐█[0;37m [0;31m▀[0;1;31m▀▀[0m [32m▀[0;1;32;42m░[0;32m▀█[0;1;32;42m░[0;32m█▄█[0;1;32;42m░[0;32m▌[0;37m [0;32m▀▀ [0;1;36m [0;32m▄[0;1;32;42m░[0;31;42m░[0;32;40m█▄██[0;31;42m░[0;1;32;42m░[0;32m▄▄▄▄▄[0;1;32;42m░[0;32m███[0;1;32;42m░[0;32m▄[0;32;46m▓[0;32;40m▄▄▄[0;37;40m   [0;32;40m▄▄[0;1;32;42m░[0;32m▀[0m
               [32m▀█[0;1;32;42m░░[0;32m█▄[0m    [32m▀▀▓▀[0;37m  [0;32m▀[0;31;42m░[0;1;32;42m░[0;32m▄▄[0;37m [0;32m▀▀█▀[0;1;32;42m░░  prime![0;32m█[0;1;32;42m░[0;1;34;42m░[0;1;32;42m░[0;32m█▀[0;31;42m░[0;32;40m▀[0;37;40m [0;32;40m ▄▀▀[0;1;32;40m▀[0m
-                [32m▀[0;1;32m▀[0;32m     [0m       [32m  [0;1;32m▀[0;32m▀▐▀[0m      [32m [0;1;32m▀[0;32m▀▀▀[0;1;32;42m░[0;32m▀▀▀▀[0m      [32m░░ [0m
-                                                 [1;30m [0m
-          [1;30mwell., this1 is for weirdo''s board, Prime..[0m  [1;30mgive it a call.[0m [1;30m;)[0m'
+                [32m▀[0;1;32m▀[0;32m     [0m       [32m  [0;1;32m▀[0;32m▀▐▀[0m      [32m [0;1;32m▀[0;32m▀▀▀[0;1;32;42m░[0;32m▀▀▀▀[0m      [32m░░ [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 88f0d017fc68083865da479810fd7fe5642608bc21d3880de08bfdcca65c69a4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: I3-HMP.ANS by islayer (i3) (maiden); released in maiden15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: hemp header
 # SAUCE Author: islayer (i3)
 # SAUCE Group: maiden
@@ -29,9 +29,4 @@ Write-Host '
 [36;40m▒░░░░[0;37;40m [0;36;40m░░░[0m   [36;40m░[0m                    [1;35;40m▀[0;35m▄▀▀[0m           [37m     [0;1;36;46m▄[0;36m▄[0m      [35m▀▀[0;30;45m░[0;35;40m▓[0;30;45m▓[0;37;40m [0m
                    [36;40m [0m             [35;40m▐ [0;1;37;40m h:e:m:p  [0m                  [30;45m▓[0;35;40m░[0m
                                  [35;40m▐  [0;1;37;40muse it![0m
- [36m  [0m                              [35m▀[0m
-
-
-
-
-[1;30m>> > islayer@hotmail.com[0m [1;30m(requests)[0m'
+ [36m  [0m                              [35m▀[0m'

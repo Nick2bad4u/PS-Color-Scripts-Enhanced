@@ -5,7 +5,7 @@
 # Source SHA-256: c0b015fb1f94f9bb6354aeb7067b643b5fe635afc855dcb38ab3ebed769cda02
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-MARRO.ANS by sad (fuel); released in fuel19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: transfer statistics
 # SAUCE Author: sad
 # SAUCE Group: fuel
@@ -41,5 +41,4 @@ Write-Host '
 [36m [0;1;37;47m▐▀[0m▌[36m [0;1;37;47m░[0m█▄[1;47m▀▌[0m▌[36m   [0;1;37;47m▐▀[0m▌▐[1;47m░  ▀[0m▌▐[1;32;47m░[0;1;31;47m [0;1;37;40m▄[0m▄[36m [0;1;37m▐[0;1;37;47m░[0m█▌[1;47m░▀[0m▌[36m   [0;1;37;47m░▀[0m▌[1m▄[0m▄▄[36m [0;1;37;47m▐▀[0m▌   [36m  ▐▌[0;1;33;46m░░[0;36m▀[0m        [36m ▀▀▌[0;1;33;46m░░[0;36m▀[0m
 [37m ▀[0;1;32;47m░[0m█[1;47m [0m█▀[1;47m░[0;1;32;47m [0m█   ▐[1;47m [0m█ [1;47m [0m█▌[1;47m░ [0m [1;47m  [0m▌▀[1;47m░[0m█[1;47m [0;1;32;47m [0m▀[1;47m [0;1;32;47m░[0m▌▀▀  ▀[1;47m ░ [0;1;32;47m [0m▀[1;32;47m░[0;1;37;47m ░[0m  [1;31m  t  r  a  n  s  f  e  r[0m
 
--------------------------------------------------------------------------------
-free ansi - use it on your board ! sad%leuf%snoitcudorp%79[0m'
+-------------------------------------------------------------------------------[0m'

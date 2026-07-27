@@ -5,14 +5,14 @@
 # Source SHA-256: 1254f9d032d09744adcfa3967c282ac269a0b93c6fe643623f91a0fba9c8a0a3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: R!COREWB.ANS by The Riddler (jive1196); released in jive1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Core logo
 # SAUCE Author: The Riddler
 # Lines: 1-21
 # Columns: 1-80
 
 Write-Host '
-[1;30mansiby[0mtheriddler[1;30mof[0mjive[1;30m!?[0m
+[1;30m      [0m          [1;30m  [0m    [1;30m  [0m
 
 
 
@@ -29,7 +29,4 @@ Write-Host '
      [1;32;42m [0;1;37;42m░▒░░[0;1;32;42m [0m [1;30m░[0m    [1;42m░░[0;1;32;42m  [0;1;37;42m░░░[0;1;32;42m   [0;1;37;42m░░[0m [1;30m░[0m  [1;33m▀[0;1;33;42m▓▓▓▒▒[0;1;33;40m▄[0;1;37;40m▀[0;1;37;42m▓██[0;1;37;40m░[0;1;37;42m█[0;1;37;40m░[0m    [32m█[0;1;32;42m█▄▄▄[0;32m█░[0;1;37m█[0;1;37;42m▓▓▒▒▒[0;1;37;40m▄▄[0;32m▄▄▄[0;1;37;42m▄▒▒░[0;32m█[0;1;37;42m░[0m
      [32m▐[0;1;37;42m▒▓▒▒[0;1;32;42m [0;32m▌[0m    [37m [0;1;37;42m▒▒░░▒▒▒░░░▒▒[0;1;37;40m░[0m   [1m [0;1;33m▐[0;1;33;42m██▓▓▓[0;1;33;40m▌[0;1;37;40m▐█░ █░[0m    [1;32;42m▀▀▀▀▀░[0;1;37;40m █▀[0;1;37;42m█▓▓▓[0m    [1m▄▄▄▄▄[0;32m▄[0;1;37m▄[0m
       [1;42m▓█▓▓▓▓[0;1;40m░c [0m [1m▐[0;1;42m▓▓▒▒▓[0;1;40m▌▐[0;1;42m▒▒▒▓▓[0;1;40m▌[0;1;33;40mo[0m [1m [0;1;33m▄█▀▀▄█▀[0;1;37m▄█░  █░r[0m          [1m▐█ ▀▀█▌e[0m  [1m▐██[0;1;42m█▓▒[0;1;40m▌[0m
-     [1m░░░▀▀▀██▄▄▄██▀▀▀░[0m   [1m▀▀▀█[0;1;33m█[0;1;37m▄[0;1;33m▄█▄▄▄█▀░░[0;1;37m██▄▄▄▄░ [0m          [1m  ▀▀▀██▄▄▄██▀▀▀░ [0m
-
-
-               [1m  dammit, i wanted some cash for this one...[0m'
+     [1m░░░▀▀▀██▄▄▄██▀▀▀░[0m   [1m▀▀▀█[0;1;33m█[0;1;37m▄[0;1;33m▄█▄▄▄█▀░░[0;1;37m██▄▄▄▄░ [0m          [1m  ▀▀▀██▄▄▄██▀▀▀░ [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: dc52d8b72348e2b10de0c7d4055a87656690c89b89aa2d6483f5005ba80b5ce4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KTR-CLUS.ANS by keetar (oops!a); released in oops_a05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cluster #1 in oOps
 # SAUCE Author: keetar
 # SAUCE Group: oops!a
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-  keetar man... that''s my style..
+                                 
 
                                [1;30m.[0m               [36m  a°ⁿa.[0m
                                [1;30m [0m                [36m''   $i[0m
@@ -37,7 +37,6 @@ Write-Host '
 [36m  ,a$ⁿⁿ°ⁿ$[0;1;36m$$$[0;1;37m$[0;36m$$¢°   [0m      [36m    [0;1;30m.[0;36m [0;1;30m.[0;36m     [0m      [36m  °[0m     [36m`ⁿaⁿ  `^ⁿ[0;1;36m$$[0;36m,    [0m
 [36m  i$      [0;1;36m `ⁿ[0;36mⁿ''  [0m        [1;30m.............. ..[0;1;37m [0;1;30m.[0m [36m_.''[0;37m [0;36m [0m        [36m     [0;1;36m$i[0;36m    [0m
 [36m  `ⁿa,. _[0;37m [0;1;37m  [0;1;30m. ...........:.....:.:......[0m                  [36m_ .,[0;1;36maⁿ[0;36m`    [0m
-                         [1;30m:[0m     [1;30m: :[0m   [1;30m  :[0m    +ooo[30;46m [0;1;32;46mZen[0;1;32;40md[0;32mel[0;37m [0;1;36m [0m
+                         [1;30m [0m     [1;30m   [0m   [1;30m   [0m        [30;46m [0;1;32;46m   [0;1;32;40m [0;32m  [0;37m [0;1;36m [0m
                          [1;30m:.....:.:[0m   [1;30m  :[0m
-                               [1;30m:.......:[0m
-'
+                               [1;30m:.......:[0m'

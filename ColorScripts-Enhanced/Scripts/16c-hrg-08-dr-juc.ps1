@@ -5,7 +5,7 @@
 # Source SHA-256: 17a64962cea0424ee30207c0ffbfae040e9bbc3bb9a5efc3505327161bcb37ac
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-JUC.ANS by Droopy (HRg); released in hrg-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Juc logo
 # SAUCE Author: Droopy
 # SAUCE Group: HRg
@@ -34,16 +34,11 @@ Write-Host '
 [1;32;47m▒▒▒▒▒[0m▄[1;30m ▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀ [0m▄[1;32;47m▒[0m▄[1;30m ▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀ [0m▄[1;32;47m▒[0m▄[1;30m ▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀ [0m▄[1;32;47m▒▒▒▒▒▒▒[0m
 [1;32;47m░░░░░░░░[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;32;47m░░░░░░░[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;32;47m░░░░░░░[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;32;47m░░░░░░░░░░[0m
                               [1m [0m                 [1m [0m
-    [36m  [0m      [36mf   u   c   k   i   n   g      f   l   u   o   r   a [0;1;37m [0m             [1m [0m
+    [36m  [0m      [36m                                                     [0;1;37m [0m             [1m [0m
                                       [1m [0m             [1m [0m
 
 [1;36m────────────────────────────────────────────────────────────────────────────────[0m
-[1;36mnew age (tm)[0m
-[1;36mdone especially for JAZZzz Family with [0;1;31mLOVE[0;1;36m![0m
-[1;36mtotall gfx by droopy/hrg[0m
-[36m[o2/o9/97][0m
-
-[36mp.S. jazz, i[0;37m [0;36mcan make an nfo file featuring this style![0m
-     [36mand if you want me to remake this - just say, ok? ok.........[0m
-
-     [36m-droopy[0m'
+[1;36m            [0m
+[1;36m                                       [0;1;31m    [0;1;36m [0m
+[1;36m                        [0m
+[36m[o2/o9/97][0m'

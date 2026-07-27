@@ -5,7 +5,7 @@
 # Source SHA-256: 40feb47b9feab49582b7581920f3905d20f6562dd93679dcb79dbe2b88f52d8e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BYM%MSG.ANS by big y3llow man (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: msg menu font@!.
 # SAUCE Author: big y3llow man
 # SAUCE Group: pHOBIA@!
@@ -32,6 +32,6 @@ Write-Host '
            [30;44m▓▓▓[0;37;40m [0;34;40m█▄[0;37;40m [0;35;40m ▀▀[0;31;45m░[0;35;40m█[0;1;33;45m░░[0;35m [0;34m▀[0;35m ▐[0;31;45m░[0;35;40m█[0;37;40m [0;35;40m ▐[0;1;35;45m▌[0;31;45m░[0;35;40m▌[0;34;40m▄[0;37;40m [0;35;40m▀▀[0;1;35;45m ▌░░[0;35m▄▄[0;1;35;45m▐▀░[0;35m ▀[0;1;35;45m░▀██▄░░[0;35m▄▄[0;1;35;45m▄▌[0;35m█ [0;34m▌[0;30;44m▓▓[0m
      [1;30;40m░[0m             [35m▐▀▀[0;30;45m▄[0;35;40m▀▀▀  █[0;1;35;45m▀[0;35m█  █[0;1;35;45m▀[0;35m█ [0;34m▐█▄▄[0;35m  ▀█[0;31;45m░░[0;1;35;45m▐[0;35m█ [0;34m▄▌[0;35m ▀▀▀▀█[0;31;45m░░[0;1;35;45m▀▀ [0;35m [0;1;30m@bym░░[0m
                                       [1;36;44m░[0;34m▌[0;37m  [0;35m ▀▀▀▀[0m    [34m▀▌▀[0;1;34;44m▀▀[0;35m    ▀▌ [0;37m [0m
-      [37mmsg menu requested by [0;1;33mdezeit[0m@!,[1;33m [0m [34m▀[0;37m  [0;1;30m░░░[0m        [1;30m░[0m
-       [1;30mansee by big yellow man@:!:     [0m
+      [37m                      [0;1;33m      [0m   [1;33m [0m [34m▀[0;37m  [0;1;30m░░░[0m        [1;30m░[0m
+       [1;30m                                [0m
                         [1;30m░[0m  [1;30m░[0m'

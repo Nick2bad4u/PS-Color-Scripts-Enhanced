@@ -5,7 +5,7 @@
 # Source SHA-256: 07291add7f18b33fa619a481700ce47dc525c57b364207874fba6687a580e33f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: A-DRONE.ANS by alecs (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: drOne
 # SAUCE Author: alecs
 # SAUCE Group: nerp
@@ -40,5 +40,4 @@ Write-Host '
 
 
 
-[35;40m─────[0;30;45m▓[0;35;40m─────────────────────────────────────────────────────────────────────────[0m
-[1;33;40mget your own mix of ansicodes.. [0;36malecs@gmx.net[0m'
+[35;40m─────[0;30;45m▓[0;35;40m─────────────────────────────────────────────────────────────────────────[0m'

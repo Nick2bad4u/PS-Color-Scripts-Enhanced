@@ -5,7 +5,7 @@
 # Source SHA-256: 8945981df9d386abe6cf4968bd18dd87f6cc84fff39ae4dd0004f084d7ba75da
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-SHOG.ANS by raiser; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 101-150
 # Columns: 1-80
 
@@ -44,19 +44,19 @@ Write-Host '
 [1m                  [0;1;30m [0;35m▀[0;1;30m [0;1;37m          [0m [1;30m [0;35m▀▄[0;1;35;45m▒[0;1;30;40m   [0;1;37;40m [0;1;30;40m [0;1;35;45m▓[0;1;30;40m [0;1;37;40m                         [0;1;30;40m       [0m [1;35;45m▓[0;1;30;40m  [0m
 [1m                                  [0;1;30m [0;1;35;45m▓[0;1;37;40m                               [0;1;30;40m  [0;1;35;40m▄[0m [1;30m     [0m [1;30m [0m
 [1m                                         [0;1;35m·[0;1;37m                         [0;1;30m [0;1;35m▀■[0;1;30m [0;1;37m         [0m
-[1;37m                    [0;1;30m [0mTHE[1;30m [0mOFF[1mi[0mC[1mi[0mAL[1;30m [0mAPPL[1mi[0;1;35mC[0mA[1;35mTi[0mO[1;35mN[0;1;30m [0mS[1mi[0mTE[1;30m [0mOF[1;30m [0mSAC[1;30m [0;1;37m                      [0m
+[1;37m                    [0;1;30m [0m   [1;30m [0m   [1m [0m [1m [0m  [1;30m [0m    [1m [0;1;35m [0m [1;35m  [0m [1;35m [0;1;30m [0m [1m [0m  [1;30m [0m  [1;30m [0m   [1;30m [0;1;37m                      [0m
 [1;37m                                                                                [0m
-[1;37m                                 [0;1;30m [0mADM[1mi[0mN[1m:[0;1;30m [0mCYZ[1m                                    [0m
+[1;37m                                 [0;1;30m [0m   [1m [0m [1m [0;1;30m [0m   [1m                                    [0m
 [1m                                                                                [0m
-[1m                    [0m [1;30m   [0m [1;30m [0mL[1mi[0mQU[1mi[0mD[1;30m [0;1;37m·[0;1;30m [0mWORLD[1;30m [0mHEADQUARTERS [1m                          [0m
-[1m               [0mSUPER[1mi[0mOR[1;30m [0mART[1;30m [0mCREAT[1mi[0mONS[1;30m [0;1;37m·[0;1;30m [0mAPPL[1mi[0mCAT[1mi[0mON[1;30m [0mHEADQUARTERS[1;30m [0;1;37m               [0m
+[1m                    [0m [1;30m   [0m [1;30m [0m [1m [0m  [1m [0m [1;30m [0;1;37m [0;1;30m [0m     [1;30m [0m             [1m                          [0m
+[1m               [0m     [1m [0m  [1;30m [0m   [1;30m [0m     [1m [0m   [1;30m [0;1;37m [0;1;30m [0m    [1m [0m   [1m [0m  [1;30m [0m            [1;30m [0;1;37m               [0m
 [1;37m                               [0;1;30m [0;1;37m     ...                                       [0m
 
- GREET[1mi[0mNGS TO THE FOLLOW[1mi[0mNG GUYS[1m:[0;1;30m [0mROY[1m,[0;1;30m [0mHETERO[1m,[0;1;30m [0mMONSTER[1;30m [0;1;37m-[0;1;30m [0mWELCOME [1mi[0mN[1;30m [0mSAC[1m,[0;1;30m [0mSYNEC[1;30m [0m
-  V[1mi[0mNCENT[1m,[0m DREAM DESiGN[1m,[0m BACCHUS[1m,[0m G[1mi[0mOVANNi[1m,[0m THOM[1m,[0m XT 7[1m,[0m D[1m:[0mA[1m:[0mD [1m''[0mN[1m''[0m THE DA REST
+      [1m [0m                 [1m [0m       [1m [0;1;30m [0m   [1m [0;1;30m [0m      [1m [0;1;30m [0m       [1;30m [0;1;37m [0;1;30m [0m        [1m [0m [1;30m [0m   [1m [0;1;30m [0m     [1;30m [0m
+   [1m [0m     [1m [0m             [1m [0m        [1m [0m  [1m [0m      [1m [0m     [1m [0m     [1m [0m  [1m [0m [1m [0m  [1m [0m [1m [0m            
                                [1;30m [0m
-[1mS[0m [1;30ms[0m.\[1;30mc posse...[0m                [1;30m [0m      [1m.\[0m                                      [1mC[0m
+[1m [0m [1;30m [0m  [1;30m          [0m                [1;30m [0m      [1m  [0m                                      [1m [0m
 
 [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▀[0;34m▀[0;1;34m▀▀[0;34m▀[0;1;34m▀▀▀▀▀▀▀▀▀▀▀[0;35m▀[0;1;34m▀▀[0;35m▀[0;1;34m▀[0;35m▀▀▀▀▀▀▀ ▀▀ ▀[0;1;37m                                [0m
-[1;37m                    [0;35m·[0;1;37m [0;35mANSi[0;1;37m [0;35mB[0;1;34mY[0;1;37m [0;1;34mRAi[0;34mS[0;1;34mE[0;34mR[0;1;37m [0;34mOF[0;1;37m [0;34mS.\[0;1;34mC[0;1;37m [0;1;34mPRO[0;35mD[0;1;34mU[0;35mCTiONS[0;37m [0;35m·[0m
+[1;37m                    [0;35m [0;1;37m [0;35m    [0;1;37m [0;35m [0;1;34m [0;1;37m [0;1;34m   [0;34m [0;1;34m [0;34m [0;1;37m [0;34m  [0;1;37m [0;34m   [0;1;34m [0;1;37m [0;1;34m   [0;35m [0;1;34m [0;35m      [0;37m [0;35m [0m
 [1;37m                               [0;35m▄ ▄▄ ▄▄▄▄▄▄▄[0;1;34m▄[0;35m▄[0;1;34m▄▄[0;35m▄[0;1;34m▄▄▄▄▄▄▄▄▄▄▄[0;34m▄[0;1;34m▄▄[0;34m▄[0;1;34m▄[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m [0m'

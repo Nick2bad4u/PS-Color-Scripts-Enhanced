@@ -5,7 +5,7 @@
 # Source SHA-256: dc52d8b72348e2b10de0c7d4055a87656690c89b89aa2d6483f5005ba80b5ce4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KTR-CLUS.ANS by keetar (oops!a); released in oops_a05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: cluster #1 in oOps
 # SAUCE Author: keetar
 # SAUCE Group: oops!a
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-          +oooh yehe.. To the [1;32;46mZ[0;1;36;40men[0;1;32;40md[0;32mel[0;37m of gulp... cool font i think[0m
+                              [1;32;46m [0;1;36;40m  [0;1;32;40m [0;32m  [0;37m                             [0m
 
 [1;30m--------------------------------------------------------------------------------[0m
                          _.,a@$a,._    .
@@ -52,9 +52,8 @@ $[1m½²½[0m$$$@a,[34m ~^°ⁿⁿ°~ [0;37m_.,a@S[0;1;37m$[0m$a,[34m $$$
 [1;37m½$[0m$¢ⁿ°^~[34m,i$$[0;1;34m½[0;34m$$$$$ⁿ^~  _.,a@$$[0;1;34m½$$$½[0;34m¢ⁿ'' ,a$Sa$$$$$$$$$¢''[0m       [34mⁿ¢$[0;1;34m½[0;1;34;44m$[0;1;34;40m$½[0;34m$$$$$¢''[0m
 [37m¢$''  [0;34m [0;37m [0;34m,$$[0;1;34m½$[0;34m$$$$$$a,a@S$$$$$[0;1;34m½$½[0;34m$¢ⁿ'' [0m   [34m~^°ⁿ¢S$$$$¢ⁿ^[0m             [34m^ⁿ¢[0;1;34m½½½[0;34m$¢'' [0m
 [37m.°   [0;34m .S$[0;1;34m½$[0;34m$$$$$$$$$$$$$$[0;1;34m½$½[0;34m$¢ⁿ~[0m           [34m   ~^ⁿ''[0m                   [34m~ⁿ[0m
-[37m`[0m     [34m$$[0;1;34m½[0;1;34;44m$[0;1;34;40m½[0;34m$$$$$$$$$$$$¢ⁿ°~[0m          [1;37m ascii by [0;34mKeEtAr[0;1;37m_[0;1;34m<[0;1;37moOps!ascii97[0;1;34m>[0m
+[37m [0m     [34m  [0;1;34m [0;1;34;44m [0;1;34;40m [0;34m                [0m          [1;37m          [0;34m      [0;1;37m [0;1;34m [0;1;37m            [0;1;34m [0m
 [1;30m.....[0m [34mⁿ$$[0;1;34m½$½[0;34m$$$$$$$¢ⁿ^[0;1;30m..........................................................[0m
        [34m ⁿ¢$[0;1;34m½$½[0;34m$$¢ⁿ''[0m
            [34m°ⁿ^~[0m
-[1;30m--------------------------------------------------------------------------------[0m
-'
+[1;30m--------------------------------------------------------------------------------[0m'

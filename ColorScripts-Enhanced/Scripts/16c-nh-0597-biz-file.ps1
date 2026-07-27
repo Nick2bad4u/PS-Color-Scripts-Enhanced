@@ -5,7 +5,7 @@
 # Source SHA-256: 274c9897b4199b87afde47f2ac2c2cdf0c966d9c3749c7a3d450cec8d9a0d710
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BIZ-FILE.ANS by bizzarro (nH!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: "kladd" for funeral fog..
 # SAUCE Author: bizzarro
 # SAUCE Group: nH!
@@ -28,5 +28,5 @@ Write-Host '
         [34m▀[0;37m [0;1;34m [0;34m■[0;1;34m  [0;34m▄[0;1;34m [0m [34m▀[0m       [1;34m   [0m
 
 [34m________________________________________________________________________________[0m
-[1;34m-[0m [ [1mHär är den file-lister-kladd-ansin du ville ha.. Hoppas den duger.. Bye![0m ] [1;34m-[0m
+[1;34m [0m   [1m                                                                        [0m   [1;34m [0m
 [34m--------------------------------------------------------------------------------[0m'

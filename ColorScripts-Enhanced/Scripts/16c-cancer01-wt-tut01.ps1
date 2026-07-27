@@ -5,7 +5,7 @@
 # Source SHA-256: 1c6750c8807138b58ca2d1a0e3b8195966ae2b3e9bf1e0bbb24e7d4477f292dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WT-TUT01.ANS by White Trash (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Logo Tutorial
 # SAUCE Author: White Trash
 # SAUCE Group: Cancer
@@ -15,11 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-white trash [cancer] presents..
+                               
 
-how to make a wicked white trash font.. :) (start ego)
+                                                      
 
-First you start out with the basic shape of the ansi..
+                                                      
 
 
  ██████▀        ██████  ██████ ██████▀▀██████ ██████▀▀██████ ██████▀▀██████
@@ -35,10 +35,10 @@ First you start out with the basic shape of the ansi..
  ██████  ██████ ██████  ██████ ██████  ██████ ██████  ██████ ██████  ██████
  ██████▄▄██████ ██████▄▄██████ ██████▄▄██████ ██████▄▄██████ ██████▄▄██████
 
- then you have to decide on what colors you want.. for this excersize
- we will use blue and purple..
+                                                                     
+                              
 
-  then you just totally kick ass and bust out with the funky ld! style font..
+                                                                             
 
    [1;35m▌[0m      [1;35m▄■·[0m   [1;35m■▄[0m    [1;35m·■▄ [0m                                  [1;35m·■▄▄▄▄▄[0m
    [1;35;45m█[0;1;35;40m▄  ▄█▀[0m       [1;35m▐█▄▄[0m  [1;35m▄ ████▄▄[0m [1;35m■▄[0m [1;35m▄█[0;1;35;47m▓[0;1;35;40m█▀██▀[0;1;35;47m▓▓[0;1;35;40m█▀[0m  [1;35m▄███[0;1;35;47m▓[0;1;35;40m▀▀██▄[0m  [1;35m▄[0m [1;35m█▓▀[0;1;35;47m▓▓[0;1;35;40m█▀██[0;1;35;47m▓▓[0;1;35;40m▄[0m [1;35m▄[0m
@@ -56,7 +56,4 @@ First you start out with the basic shape of the ansi..
            [1;34m░█[0;1;34;44m▓[0;1;34;40m▌[0m   [1;34m·[0m    [1;34m░[0m            [1;34m░[0m [1;34m█[0;1;34;44m▓[0;1;34;40m▀▀▀[0m [1;34m·■▄▓▀▀▄[0m  [1;34m░▀▀▀▀▀[0m  [1;34m░▀▀[0m [1;34m▄▄▀▀▀▓▀▀▀▀[0m
             [1;34m▐▓▄ [0m [1;34m■ [0m    [1;34m░[0m         [1;34m■▄[0m  [1;34m▐▓▌[0m       [1;34m░[0m    [1;34m▀▄▄[0m [1;34m░▄▄▄■[0m [1;34m▀▀[0m      [1;34m░[0m
              [1;34m▀▓█▀[0m                   [1;34m▀▀[0m
-              [1;34m░[0m    linux users group of slovinia
-                        logo: white trash [think]
-
-   i hope you all learned from this wonderful tutorial.. :)[0m'
+              [1;34m░[0m                                 [0m'

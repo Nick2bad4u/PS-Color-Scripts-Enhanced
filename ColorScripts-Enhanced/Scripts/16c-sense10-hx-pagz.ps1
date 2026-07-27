@@ -5,7 +5,7 @@
 # Source SHA-256: ecc1b2d007d961131e00167ec85f5e552fa860a0b8f2c8b84e451b81b9fa1c7f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: HX-PAGZ.ANS by HeXD (SeNSe); released in sense10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pagz, man!
 # SAUCE Author: HeXD
 # SAUCE Group: SeNSe
@@ -36,5 +36,4 @@ Write-Host '
 [34m$ba,.,ⁿ°~°ⁿ?$[0;37m [0;33m$$$[0;1;34m [0;33m`°''[0;37m [0;33m$$$bd$$$[0;37m [0;33m$$$[0;37m [0;33mⁿ?b[0;34m`$P''[0;33m,dP''[0;34mdⁿ?$$$$$$$$$$Pⁿ°~°ⁿ?$$$$$$$$$$.[0;1;34m`?$[0m
 [34m$$$$''[0;1;34m,d$$$b.[0;34m`[0;37m [0;33m$$$[0;37m [0;34mbad[0;1;34m [0;33m$$$[0;37m  [0;33m$$$[0;37m [0;33m$$$badP[0;34m,ⁿ[0;33m,d$$b.,a[0;37m [0;34m$$$$$$$$$''[0;1;34m,d$$$b.[0;34m`$$$$$$$$$$ba,[0m
 [34m$$$$[0;1;34m $$$$$$$ [0m [1;33m"""[0m [34m$$$[0;37m [0;1;33m"""[0m  [1;33m"""[0m [1;33m""""""''[0;34mⁿ[0;37m [0;1;33m"""""""''[0m [34m$$$$$$$$$[0;1;34m $$$$$$$ [0;34m$$$$$$$$$$$$$[0m
-[34m$$$$.[0;1;34m`?$$$P''[0;34m,[0;37m [0;1;37m$$$[0m [34m$$$[0;37m [0;1;37m$$$[0m  [1m$$$[0m [1m$$$$$$$[0m  [1m$$$$$$$$[0m [34m$$$$$$$$$.[0;1;34m`?$$$P''[0;34m,$$$$$$$$$$$$$[0m
-[34m$$$$$ba,.,ad$baaad$$$baaadbaaadaaaaaaadbaaaaaaaad$$[0;1;34maK[0;34m$$$$$$ba,.,ad$$$$$$$$$$$$$$[0m'
+[34m$$$$.[0;1;34m`?$$$P''[0;34m,[0;37m [0;1;37m$$$[0m [34m$$$[0;37m [0;1;37m$$$[0m  [1m$$$[0m [1m$$$$$$$[0m  [1m$$$$$$$$[0m [34m$$$$$$$$$.[0;1;34m`?$$$P''[0;34m,$$$$$$$$$$$$$[0m'

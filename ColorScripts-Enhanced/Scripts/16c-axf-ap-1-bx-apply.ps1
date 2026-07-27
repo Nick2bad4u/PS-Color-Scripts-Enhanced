@@ -5,7 +5,7 @@
 # Source SHA-256: 1f8ba8ec1d252fac90cdfec5b47bc18ef213bd513234ed93121967b1938c2af4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BX-APPLY.ANS by baxter (axial force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Main menu for apply-prog
 # SAUCE Author: baxter
 # SAUCE Group: axial force
@@ -35,11 +35,4 @@ Write-Host '
      [37;40m█[0;1;37;47m      ░   ░ [0m▄[34m▀[0;1;34;44m▓▒░▒░▒[0;1;34;40m▀[0m▄█[31;47m░[0;37;40m███ [0;1;34;44m▓▒░[0;31;44m▀[0;1;31;41m▒[0;31;44m▄▀[0;1;34;44m░[0;1;35;40m [0m█[31;47m [0;1;37;47m░    [0m▄▄▄▄▄▄▄▄▄▄▄▄█[1;47m ░[0;30;47m      [0;1;37;47m▓▌[0;30;47m [0m
      [37;40m█[0;1;37;47m         [0;31;47m░[0;1;37;47m  [0m██▄▄[1;47m░░[0m▄▄███[1;47m░[0m███▄[1;34m▀[0;1;34;44m▓▒░░░▒[0;1;34;40m▀[0m▄█[31;47m░[0;1;37;47m    ░[0;30;47m            [0;1;37;47m░ [0;30;47m    [0;1;37;47m ▄▓▀[0m█[30;47m [0m
      [37;40m▀[0;1;37;47mbX[0m██████████▓▓████[31;47m░[0;37;40m███████[0;1;37;47m░[0m██▄▄▄▄▄▄█████████[1;47m░[0m███████████████[1;47m▀▀▀[0m███[30;47m [0;37;40m▀[0m
-[1;30;40m-------------------------------------------------------------------------------[0m
-The idea behind this one wasn''t that bad, but the final result sucks, it should
-have been used in our apply-generator, but was never used, because of troubles
-etc etc .. so here it is, if you should like it, just use it ...
-
-greets: devilman, the fantasy, iron eagle, rackteer, ...
-
-quote: ''disco babe ? disco babe !''[0m'
+[1;30;40m-------------------------------------------------------------------------------[0m'

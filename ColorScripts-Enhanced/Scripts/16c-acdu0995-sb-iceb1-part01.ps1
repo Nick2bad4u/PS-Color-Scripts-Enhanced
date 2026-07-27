@@ -5,7 +5,7 @@
 # Source SHA-256: 7f9dea9dc66272957b599f8e59c1bdddb8e0dccfe0c2b16fefeaa2ac98a6b907
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-ICEB1.ANS by Spellbinder (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Ice Box
 # SAUCE Author: Spellbinder
 # SAUCE Group: ACiD Productions
@@ -35,9 +35,9 @@ Write-Host '
 [34mi forgott.[0m   [1;31;41m▓[0;1;31;40m▄[0;31m▄[0m               [31m▀[0;1;31;41m▀[0;31m▄[0;37m [0;1;31m▄[0m         [1;31m▐[0;1;31;41m▒[0;31m▀[0m    [1;31m▀[0;1;31;41m▄[0;31m▄[0m      [1;31m▐[0;31m▌[0m     [1;31m▄[0;1;31;41m▀[0;31m▀[0m
 [34m-->           [0;31m▀[0;37m  [0;1;31m▄[0m              [1;31m▄[0m [31m▀[0;37m [0;1;31m■[0m      [31m▄[0;37m [0;31m▀[0;37m [0;33mp r o d.[0;37m [0;31m▀[0;37m  [0;31m■[0;37m [0;1;31m▀▀[0;31m▄[0m   [31m■[0;1;31m  [0m
 [34m              [0m     [1;31m▀[0;1;31;41m▓[0;1;31;40m▄[0;31m▄[0m        [1;31;41m░[0;1;31;40m▀[0m     [1;31m▀[0m  [31m▀[0m                       [31m▀[0m
-                     [31m▀[0m    [31m▄[0m                           [33mprizant ansee 4 icebox.[0m
-      [1;36;46m░[0m                                                [33m kontact emaeyl:[0m
-      [1;36;46m▓[0m     [36m▄▄[0;1;30m▄[0m     work time[1;30m:[0m [1m84[0mmin[1;30m.[0m              [33msbinder@acid.extern.ucsd.edu [0m
+                     [31m▀[0m    [31m▄[0m                           [33m                       [0m
+      [1;36;46m░[0m                                                [33m                [0m
+      [1;36;46m▓[0m     [36m▄▄[0;1;30m▄[0m              [1;30m [0m [1m  [0m   [1;30m [0m              [33m                             [0m
      [1;36m▄█▄[0;36m▄█[0;1;32;46m      [0;36m█[0;1;30;46m▀[0;36m▄[0;1;30m▄[0m   [1m1oo[0;1;30m%[0m [1mori[0mginal[1;30m.[0m    [36m▄▄▄██[0;1;30;46m▀▀[0;36m▄▄[0;1;30m▄[0m    [33mor #acid. bey dewd.[0m
 [36m▄▄[0;1;32;46m    [0;1;36;46m█[0;1;32;46m   [0;36m██[0;1;32;46m         [0;1;30;46m▀[0;36m▄[0;1;30m▄[0m            [36m▄▄▄█████████████[0;1;30;46m▀▀[0;36m▄▄[0;1;30m▄[0m              [36m ▄▄██[0;1;30;46m▀[0;36m▄[0;1;30m▄[0m
 [1;32;46m     [0;36m█[0;1;36;46m▓[0;36m██████████████[0;1;32;46m    [0;1;30;46m▀[0;36m▄[0;1;30m▄[0;36m    ▄▄▄████████████▀█████████[0;1;30;46m▀▀▀[0;36m▄▄[0;1;30m▄[0;36m    ▄▄▄█████████[0;1;30;46m▀[0m

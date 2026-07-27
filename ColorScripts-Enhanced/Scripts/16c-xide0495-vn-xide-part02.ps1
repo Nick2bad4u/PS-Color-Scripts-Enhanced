@@ -5,18 +5,18 @@
 # Source SHA-256: 5d6847bc1b2230937b9122dfc5eeb01f82af63e2f83621712b2229be67745f53
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VN-XIDE.ANS by Venom (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 44-75
 # Columns: 1-80
 
 Write-Host '
 [1;30m██▌[0m                               [1;37mG[0mr[1;34me[0;34me[0;1;30mtz[0m                                     [1;30m▐██[0m
 [1;30m██▌[0m               [1;30m─   ─  ── ───────────────────── ──  ─   ─[0m                  [1;30m▐██[0m
-[1;30m██[0m               [1;31mM[0;31mi[0;1;30mlan ─ Hey wheres my ANSi''S[0m                                 [1;30m██[0m
-[1;30;47m█[0;1;30;40m█[0m               [1;31;40mD[0;31ma[0;1;30mrk [0;1;31mH[0;31mo[0;1;30mrizon ─ News Paper Steeling is Cool![0m                  [1;30m██[0m
-[1;30;47m▓[0;1;30;40m█[0m               [1;31;40mE[0;31ml[0;1;30mlegan ─ Thanks for the H.Q.[0m                                [1;30m██[0m
-[1;30;47m█[0;1;30;40m█[0m               [1;31;40mD[0;31mr[0;1;30maco ─ I Need to Make More VGA''s[0m                            [1;30m█[0;1;30;47m▓[0m
-[1;30;47m▓[0;1;30;40m█▌[0m              [1;31;40mM[0;31mu[0;1;30mad''[0;1;31mD[0;31mi[0;1;30mb ─ Demos are cool![0m                                   [1;30m██[0m
+[1;30m██[0m               [1;31m [0;31m [0;1;30m    ─                     [0m                                 [1;30m██[0m
+[1;30;47m█[0;1;30;40m█[0m               [1;31;40m [0;31m [0;1;30m   [0;1;31m [0;31m [0;1;30m      ─                             [0m                  [1;30m██[0m
+[1;30;47m▓[0;1;30;40m█[0m               [1;31;40m [0;31m [0;1;30m      ─                    [0m                                [1;30m██[0m
+[1;30;47m█[0;1;30;40m█[0m               [1;31;40m [0;31m [0;1;30m    ─                          [0m                            [1;30m█[0;1;30;47m▓[0m
+[1;30;47m▓[0;1;30;40m█▌[0m              [1;31;40m [0;31m [0;1;30m   [0;1;31m [0;31m [0;1;30m  ─                [0m                                   [1;30m██[0m
 [1;30;47m▓▓▒[0m              [1;31;40mM[0;31mA[0;1;30mGiC - ''Sup all[0m                                            [1;30m▐█[0;1;30;47m▓[0m
 [1;30;47m▓▒░[0m▌                                                                         [1;30;47m▒▓▓[0m
 [1;30;47m▒[0m█▀                                                                         ▐[1;30;47m░▒▓[0m

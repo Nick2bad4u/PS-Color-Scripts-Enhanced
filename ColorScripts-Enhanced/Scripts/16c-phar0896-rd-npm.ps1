@@ -5,7 +5,7 @@
 # Source SHA-256: 7b7eadb6efb0b10139f68e4093901e29ed21dc8a54cbb133f07ec91953dced8d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD!NPM.ANS by RaBiD DoCToR (PHaR); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: NaPaLM
 # SAUCE Author: RaBiD DoCToR
 # SAUCE Group: PHaR
@@ -43,6 +43,6 @@ Write-Host '
             [33m▄[0;37m [0;31m▀▀[0;33m▀[0;35m [0;31m▀[0;33m▀[0;31m█▒[0;35m [0m                              [37m [0;31m░░[0;37m        [0m
 
 [37m-----[NPM ANSi]-----------------------------------------------------------------[0m
-[1;34m [0mMy OoS font once again, this time with NPM colors. For fLeA''s BBS, Napalm.
+[1;34m [0m                                                                          
 --------------------------------------------------------------------------------
 ----------------------------------------------------------------------[EoF]-----[0m'

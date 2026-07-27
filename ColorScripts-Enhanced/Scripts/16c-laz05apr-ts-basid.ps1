@@ -5,7 +5,7 @@
 # Source SHA-256: bfc6bbb160ed26758cc156076f7bd6082760d861fd86deddc10a5e66a6479942
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-BASID.ANS by transient (lazarus); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the rebels basid.
 # SAUCE Author: transient
 # SAUCE Group: lazarus
@@ -37,11 +37,9 @@ Write-Host '
 [31m░░░░░░▒▒▒▒▒▒▒▓▓██▄▄[0m     [35m▀▀▀▄▄▄[0m                         [1;35m▄▄█▀█▀▀█▀█▀▀█▄[0m [1;35m▀█▄[0;1;31m█[0m█[1m██[0m [1;36m▐▌[0m
                    [31m▀▀▀▀▄▄▄[0m    [35m▀▀▀■■■■■■■■■■■······[0m [1;35m▄▄█▀█▀█[0;35m████[0;1;35m█▀█▀▀█▄[0;1;31m███[0;1;37m█[0;1;31m▀▀[0m  [1;36m██[0;36m█[0m
 [36m░░░░░░░░░░░░░░░░▒▒▓▓█▄▄▄[0m  [31m▀▀▀▀▄▄▄■■■■■■■■■■■········[0m [1;35m█[0;35m██[0;1;35m▀█▀█▀▀[0;1;31m█▀█[0m  [1;31m██▀▀[0m  [1;36m▄▄██▄[0;36m██[0m
-[34mwhat i think isn''t important, what i love isn''t important, what is imporant? me.[0m
-[32mcomtemplate, love, and all, and love, and all,.[0;34mlove me, all, love me, girl, for-[0m
-[32mever. forever.[0;34mmove on through, [0;36mblank,[0;31mshot[0;35mblank....[0;33mtime to brake[0;37m,just can''t trees[0m
+[34m                                                                                [0m
+[32m                                               [0;34m                                 [0m
+[32m              [0;34m                 [0;36m      [0;31m    [0;35m         [0;33m             [0;37m                 [0m
 
 [37m█▀[0m [37m█▄▄█[0m  [37m█▀▀[0m  [37m█▀▀▀▀▀[0m [37m██[0m      [37m█▀▀[0m   [37m▀▀▀[0m  [37m█[0m     [37m█▀▄[0m   [37m▄[0m   [37m▀▄▄[0m  [37m█[0m [37m▄▀▄▀[0m    [37m█[0m  [37m█[0m   [37m█ [0m
-[37m█[0m  [37m█[0m  [37m█[0m  [37m█[0m [37m▀[0m  [37m█[0m        [37m▀▀▀[0m   [37m█[0m [37m▄[0m   [37m█[0m    [37m█▄▄[0m   [37m█[0m    [37m█[0m [37m▄[0m  [37m█[0m [37m▀▀[0m  [37m█[0m  [37m▀▄▄[0m   [37m▄[0m  [37m▀▄[0m  [37m▄ [0m
-                                                                              [37m  [0m
-   [37mt h e [0m       [37mre[0m  [37mb[0m    [37me[0m   [37mkj[0m  [37ms[0m     [37mb[0m [37mase[0m  [37m 124 [0m'
+[37m█[0m  [37m█[0m  [37m█[0m  [37m█[0m [37m▀[0m  [37m█[0m        [37m▀▀▀[0m   [37m█[0m [37m▄[0m   [37m█[0m    [37m█▄▄[0m   [37m█[0m    [37m█[0m [37m▄[0m  [37m█[0m [37m▀▀[0m  [37m█[0m  [37m▀▄▄[0m   [37m▄[0m  [37m▀▄[0m  [37m▄ [0m'

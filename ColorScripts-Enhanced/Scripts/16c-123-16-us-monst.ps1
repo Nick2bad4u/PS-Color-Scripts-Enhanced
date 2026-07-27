@@ -5,12 +5,12 @@
 # Source SHA-256: 30347191282e6ea2510fc90765128356995409ce312d6a7de588b42a14db5bce
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-monst.ans by Abstrakt + Jashiin (123-16); released in 123-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-48
 # Columns: 1-80
 
 Write-Host '
-[1;32m_[0;1;37m [0;1;30mmmmm[0m  [1;30mmm   m[0m   [1;30mmONSTER!![0m                \j$    [1;30m_[0m    \j$$$$__
+[1;32m [0;1;37m [0;1;30m    [0m  [1;30m      [0m   [1;30m         [0m                       [1;30m [0m            
 [32m$[0;37m [0;36m$[0;32m [0m                                     [37m\/$$[0m           [37m\j$$j/[0m
 [1;32m$[0m [36m$[0;32m [0m                                    [37m__$$$__[0m        [37m\/$$/[0m
 [1;32m$[0m [1;36m$$[0m                              \     __$$j/  [1;30m/[0m      $$$$\/
@@ -34,8 +34,8 @@ $_$$$b.                      [32m/[0;1;32m\  [0m   j/ _$$$$$  [35m__ [0;37m
                       [1;30m$$$$[0m  [1;30m$$[0m  [1;30mE[0m [1;30mR[0m    [32m`"[0;37m [0;1;37m^^[0m      [1m\j[0m    [32m __.[0m
             [36m   [0m       [1;30m  $$[0m  [1;30m$$[0m
 
-    happy halloween boys and girls
-    from the jakarta bins shit ascii
+                                  
+                                    
              ^^^^^^^^^^^^^^^^^
 
 
@@ -44,8 +44,8 @@ $_$$$b.                      [32m/[0;1;32m\  [0m   j/ _$$$$$  [35m__ [0;37m
 
 
 
-                                                   trick or treat
-                  d$$$b                     [36md$$$b[0m         [37mbEEEY4TCH[0m
+                                                                 
+                                            [36m     [0m         [37m         [0m
                  [37m([0;1;37mO[0m$$$[1mO[0m)                   [36m.$[0;1;36mX[0;36m$$[0;1;36mX[0m
                   $$[31mo[0;37m$$[0m                     [36m$$[0;31m||[0;36m$[0m
                   [37m$$$$$$$$$$[0m              [36md$$$$$$$$$$$$o,[0m
@@ -55,6 +55,4 @@ $_$$$b.                      [32m/[0;1;32m\  [0m   j/ _$$$$$  [35m__ [0;37m
                  [37m$$$$$$$  [0;1;35m$$[0;35m$[0m             [36m$$$^`$$[0m
                 [37mj$$$$$$$:[0m                 [36m$$l[0;37m  [0;36m$$[0m
                 [37m$SQ$$$$$;[0m                 [36m$$$[0;37m  [0;36m$$[0m
-                    [37m`^ `[0m                  [36m$$$b.$$s.[0m
-
-              [37mjashiin[0m                        [37mabstrakt[0m'
+                    [37m`^ `[0m                  [36m$$$b.$$s.[0m'

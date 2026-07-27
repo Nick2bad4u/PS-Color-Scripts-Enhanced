@@ -5,7 +5,7 @@
 # Source SHA-256: d02c858a4228c75ec00dcf5d57ee1e327762f69a6059853181ee1f39866e469d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-ZOOK3.ANS by Gradius (spastique); released in spas1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: zook!
 # SAUCE Author: Gradius
 # SAUCE Group: spastique
@@ -52,10 +52,4 @@ Write-Host '
      [1;30m▀▌[0;1;31m▐[0;1;31;41m▓[0;31m▌[0;1;30m▐[0;1;30;47m▒▒[0;1;30;40m▄[0;1;30;47m▒▒▒▒▒▒▒[0;1;30;40m▀[0m  [1;30m▀[0;1;30;47m▒▒▒▒▒▒[0;1;30;40m▄[0;1;30;47m▒▒▒▒▒▒[0;1;30;40m▀[0m   [1;30m▀[0;1;30;47m▒▒▒▒▒▒[0;1;30;40m▄[0;1;30;47m▒▒▒[0;1;30;40m▄[0;1;30;47m▒▒[0;1;30;40m▀[0m [1;30m▄[0;1;30;47m▒▒[0;1;30;40m▀░ ▀[0;1;30;47m▒▒[0;1;30;40m▄[0m [1;30m▀[0;1;30;47m▒▒▒▒▒▒[0;1;30;40m▄[0m
        [31m░▐▌▄[0m                     [37mtherageiscontained[0m         [1;30m▀[0;1;30;47m░░[0m▄▄[1;30;47m░░[0m▀  ▀[1;30;47m░░░░░[0;1;30;40m▀[0m
       [31m [0;37m [0;31m ▌ [0m
-        [31m  [0m                       [1;33m [0m 215[1m-[0m757[1m-[0m5625
-                                   [1mspasti[0mque[1mwhq[0m
-                                   [1m  haz[0mee[1mhq[0m
-                                [1msyso[0mp,gr[1madius[0;1;33m([0;1;37ms[0mpa[1ms[0;1;33m)[0m
-                           [1mcosysop,t[0mhewi[1mzard[0;1;33m([0;1;37mspasfounder[0;1;33m)[0m
-
-[1;30m [0m                         [1;30mansi by gradius[0;1;33m([0;1;30mspastic[0;1;33m) [0;1;30moct ''95[0m'
+        [31m  [0m                       [1;33m [0m 215[1m-[0m757[1m-[0m5625[0m'

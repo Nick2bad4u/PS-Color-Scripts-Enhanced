@@ -5,7 +5,7 @@
 # Source SHA-256: 1d5826c4bd7fcab33f4f5cbc2d9ada1b669ec1015e9cbbf5a8b982b78425eb0a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PO-XPS!.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: xpress.
 # SAUCE Author: poti.
 # SAUCE Group: phat.
@@ -37,11 +37,7 @@ Write-Host '
                [32m▐[0;1;32;42m▓[0;1;32;40m▄[0m ▀▀[1;47m▀[0m█▄ [1;32m▀▀▀[0m ▄█[1;47m▀[0m▀▀ [1;32m█[0;1;32;42m▌[0;32m█▓[0;37m▐█[0;1;37;47m▀ [0m█[1;47m▐[0;1;40m▌[0m [1m▀[0m [31m▄[0;1;37;41m▀[0;1;31;41m▄▄▄[0;1;31;40m█[0;1;31;41m▄▄[0;1;31;40m█[0;1;31;41m▄[0;1;31;40m▌[0m
            [32m   ▐[0;1;32;42mpo▀▀█[0;1;32;40m▄▄[0m ▀▀▀▀▀▀▀ [1;32m▄▄[0;1;32;42m█▀▀[0;32m██▌[0;37m [0;1;37m▀[0;1;37;47m▄█[0;1;37;40m▀▀[0m [31m▄[0;1;31;41m ▄▓[0;1;31;40m████[0;1;31;41m▓▓[0;1;31;40m█▓▀ [0m
              [32m▀▀▀ [0;1;32m [0m [1;32m [0m                                  [1;31m▓░[0m
-[1m [0m               [32m  [0;37m [0;1;32m [0m  [1m" the phunky side of modding "[0m  [1;31m░[0m
+[1m [0m               [32m  [0;37m [0;1;32m [0m  [1m                              [0m  [1;31m░[0m
                 [32m [0;37m  [0;1;32m [0m
 
-[1;30m------------------------------------------------------------------------------- [0m
-[1;30mthis one''s for my first affiliation - the australian moddin-crew ''xpress''. [0m
-[1;30mI was very bored that very day and decided to do something colorful and it[0m
-[1;30msimply turned out like that :) thanx to the organizers and other members in[0m
-[1;30mxpress and to all our fans <g> [0m'
+[1;30m------------------------------------------------------------------------------- [0m'

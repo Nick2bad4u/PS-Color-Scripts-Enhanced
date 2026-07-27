@@ -5,7 +5,7 @@
 # Source SHA-256: 1a7d388609c595f72cb67fc31e5e19ed461312c4318bc6c6fea6312f5c56b041
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DKY-KMZ.ANS by .dky. (.nitrophusion.); released in nph0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: .kromozome placid logo.
 # SAUCE Author: .dky.
 # SAUCE Group: .nitrophusion.
@@ -33,9 +33,5 @@ Write-Host '
      [36m░  [0;34m▐▒[0;1;34;44m░░[0;34m▌ k ▀[0;1;34;44m▀▄██[0;1;34;47m▓▓[0;1;34;44m██[0;34m▀   ▄[0;1;34;44m▄█▓▒[0;34m▌   m   ▀[0;1;34;44m▀▄██[0;1;34;47m▓▓[0;1;34;44m██[0;34m▀ █[0;1;34;44m███▓▒[0;34m▌ z[0;36m░  [0;34m█[0;1;34;44m███▓▒[0;34m▌[0m
        [34m▄[0;1;34;44m▄▓▓▒░[0;34m▄    ▀▀[0;1;34;44m▀▀▀▀[0;34m▀   █[0;1;34;44m▄█▓▓▒░[0;34m▄    ▄▄  ▀▀[0;1;34;44m▀▀▀▀[0;34m▀   █[0;1;34;44m████▄[0;34m▄▄    █[0;1;34;44m████▄[0;34m▄[0m
 [34m ▀   ▀▀▀▀▀▀▀▀▀▀ ▀▀░   ░░ ▀ ▀▀▀▀▀▀▀▀▀▀ ▀▀░▀[0m      [34m░░[0m     [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀[0m
-     [1;36m- [0;1;34;44mkromozome[0m [1;36;40m- [0;34mbringing music to its inner perfection [0;1;36m- [0;1;34;44mgenetic labz[0m [1;36;40m-[0m
-[1;36;40m [0;34m▄  ▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄ ▄[0m
-
-        [1;30m<< ..unlike bird songs, undahwatah songs are very long.. >>[0m
-[1;30m<< 6 to 30 minutes, and they''re strong together without pauses between them. >>[0m
-[1;30m  << they''re probably the longest, loudest, and slowest songs in nature. >>[0m'
+     [1;36m  [0;1;34;44m         [0m [1;36;40m  [0;34m                                       [0;1;36m  [0;1;34;44m            [0m [1;36;40m [0m
+[1;36;40m [0;34m▄  ▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄ ▄[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 5fdb413e2b25af6c460b0d5de26e89c2d8a70af8fc031bb7413b78c872349a36
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MD-PALAC.ANS by Mendator (Stile prod.); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Palace of Darkness
 # SAUCE Author: Mendator
 # SAUCE Group: Stile prod.
@@ -26,14 +26,12 @@ Write-Host '
         [1;30m▀■▄■▀[0m       [1;30m▐▌[0m [1;30m▐▌[0m          [1;30mof [0;35mDarkness[0m
                      [1;30m▀■▀[0m
 
-                        [1;35mS[0;35mYSOP[0;1;30m:[0;1;37m [0;1;35mH[0;35mANDO[0;1;30m^[0;1;35mP[0;35miE[0;1;30m^[0;1;35mN[0;35mLD[0;1;30m^[0;1;35mW[0;35mOCD[0;1;30m^[0;1;35mD[0;35mYNAMO[0;37m [0m                [1;37m     [0m
-                     [1;35mC[0;35mOSYSOPS[0;1;30m:[0;1;37m [0;1;35mA[0;35mNTiALiAS[0;1;30m^[0;1;35mP[0;35miE[0;1;37m [0;1;30m/[0;1;37m [0;1;35mO[0;35mDiN[0;1;30m^[0;1;35mP[0;35miE[0;1;37m [0m               [1m     [0m
-                    [1;35mS[0;35mALESMANS[0;1;30m:[0;1;37m [0;1;35mP[0;35mURE [0;1;35mM[0;35mAGiC[0;1;30m^[0;1;35mW[0;35mOCD[0;1;37m [0;1;30m/[0;1;37m [0;1;35mD[0;35miZMAN[0;1;30m^[0;1;35mD[0;35miZ[0m
+                        [1;35m [0;35m    [0;1;30m [0;1;37m [0;1;35m [0;35m    [0;1;30m [0;1;35m [0;35m  [0;1;30m [0;1;35m [0;35m  [0;1;30m [0;1;35m [0;35m   [0;1;30m [0;1;35m [0;35m     [0;37m [0m                [1;37m     [0m
+                     [1;35m [0;35m       [0;1;30m [0;1;37m [0;1;35m [0;35m        [0;1;30m [0;1;35m [0;35m  [0;1;37m [0;1;30m [0;1;37m [0;1;35m [0;35m   [0;1;30m [0;1;35m [0;35m  [0;1;37m [0m               [1m     [0m
+                    [1;35m [0;35m        [0;1;30m [0;1;37m [0;1;35m [0;35m    [0;1;35m [0;35m    [0;1;30m [0;1;35m [0;35m   [0;1;37m [0;1;30m [0;1;37m [0;1;35m [0;35m     [0;1;30m [0;1;35m [0;35m  [0m
                                    [1;37m                                           [0m
-                        [1;35mP[0;35mROViDENCE [0;1;35mM[0;35mEMBERBOARD[0;1;30m^[0;1;35mN[0;35mORDLAN[0;32m [0;1;35mH[0;35mQ[0;32m [0m             [32m       [0m
+                        [1;35m [0;35m          [0;1;35m [0;35m          [0;1;30m [0;1;35m [0;35m      [0;32m [0;1;35m [0;35m [0;32m [0m             [32m       [0m
 
                     [37m   [0;1;30m■[0m [1;36mN[0;36mode[0;1;36m [0;36m#[0;1;36m1[0m [1;30m■[0m [1;30m+[0;1;36m4[0;36m6[0;1;30m-[0;1;36m1[0;36m1[0;1;30m-[0;1;36m1[0;36m22953[0;1;37m [0m [1;30m■[0;1;37m [0;1;36m2[0;36m8[0;1;30mk[0;1;36m8[0m [1;30m■[0m
                        [1;30m■[0m [1;36mN[0;36mode[0;1;36m [0;36m#[0;1;36m2[0m [1;30m■[0m [1;30m+[0;1;36m4[0;36m6[0;1;30m-[0;1;36m1[0;36m1[0;1;30m-[0;1;36m1[0;36m6[0;1;30m/[0;1;36m1[0;1;30m-[0;1;36m9[0;36m6[0;1;37m [0;1;30m■[0;1;37m [0;1;36m2[0;36m8[0;1;30mk[0;1;36m8[0m [1;30m■[0m
-                       [1;30m■[0m [1;36mN[0;36mode[0;1;36m [0;36m#[0;1;36m3[0m [1;30m■[0m [1;30m+[0;1;36m4[0;36m6[0;1;30m-[0;1;36m1[0;36m1[0;1;30m-[0;1;36mS[0;36mOON[0;1;30m![0m [1m [0m [1;30m■[0;1;37m [0;1;36m2[0;36m8[0;1;30mk[0;1;36m8[0m [1;30m■[0;1;37m [0m
-
-                 [1;30mAnsi by [0;36mMendator[0;1;30m of [0;36mStile[0;1;30m Productions in 1996![0m'
+                       [1;30m■[0m [1;36mN[0;36mode[0;1;36m [0;36m#[0;1;36m3[0m [1;30m■[0m [1;30m+[0;1;36m4[0;36m6[0;1;30m-[0;1;36m1[0;36m1[0;1;30m-[0;1;36mS[0;36mOON[0;1;30m![0m [1m [0m [1;30m■[0;1;37m [0;1;36m2[0;36m8[0;1;30mk[0;1;36m8[0m [1;30m■[0;1;37m [0m'

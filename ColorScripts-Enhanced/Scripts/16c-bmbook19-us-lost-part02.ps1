@@ -5,7 +5,7 @@
 # Source SHA-256: f94d51f0b7f4b3e2427ad7d4bfdec20207292d1103b7a767848586d0990c4c0d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: us-lost.ans by Shine + Kyp + Prosthesis (black maiden.glue); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lost paradize
 # SAUCE Author: shine.kyp.prst
 # SAUCE Group: black maiden.glue
@@ -48,5 +48,4 @@ Write-Host '
 [35m ▀[0;1;35;45m▀█▀█▄[0;35m▄ [0;33m▀■█[0;1;33;43m▓▓░[0;33m▄▀[0;1;30m■[0m     [1;30m▀[0;33m ▀[0;1;33;43m▀███▀█▄[0;33m▄  ▄ ▄■▀▄[0;1;33;43m▄██▀▀[0;33m▀▀▀█[0;1;33;43m████[0;1;33;40m█▄▀■▄▄▄■█[0;1;33;43m█[0;1;37;40m█[0;1;36;40m██[0;1;33;43m██▀[0;33m▀[0;1;33m▄[0m
 [35m [0;1;35;45m░▓[0;35m▀■[0;1;35;45m▀███[0m    [33m▀▀▀  [0;1;33;43m░▓█[0m   [33m█[0;1;33;43m█▀[0;33m▀▀▀■[0;1;33;43m ▀[0;33m▄▄[0m   [33m▀[0;1;33;43m██▀[0;33m▀▀▀[0m    [1;33;43m░▒▓██████[0;1;33;40m███[0;1;33;43m███████[0;1;33;40m██■▀[0m
 [35m  ▀[0;1;35;45m▀[0;35m▄[0m                            [33m ▀▀[0;1;30m▀[0;33m ▀▀[0m           [33m▀[0;1;33m▀■▄▀▀■■[0;1;33;43m▓▓▓[0;1;33;40m■■▀▀▓▓▀[0m
-      [35m▀[0m    [1;33mshine[0;1;37mbm[0m (pic and lit) [1;36m*[0m [1;33mkyp[0;1;37mbm[0m (sphere)       [33m▀▀  ▄▄[0m    [33m▄[0;1;30m▄[0m   [1;30m▄[0m
-           [1;33mprosthesis[0;1;37mglue[0m (logo and background)[0m'
+      [35m▀[0m    [1;33m     [0;1;37m  [0m               [1;36m [0m [1;33m   [0;1;37m  [0m                [33m▀▀  ▄▄[0m    [33m▄[0;1;30m▄[0m   [1;30m▄[0m'

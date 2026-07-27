@@ -5,7 +5,7 @@
 # Source SHA-256: 24658fdd331525fc6acf46773b135ec8e485afe3218602b49fdd5e468bf719cd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AF-NL1.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
@@ -13,14 +13,14 @@ Write-Host '
 [1;30m┌─────────────────┬───────────────────────────────────────────────────────────┐[0m
 [1;30m│[0m     [34m█ ▄▄[0;1;37m▄▄[0;34m▄▄    [0;1;30m│ [[0mA[1;30mF-[0mN[1;30mL[0m1[1;30m.[0mA[1;30mNS] [[0m1[1;30m5618 [0mB[1;30mytes] [[0m0[1;30m3[0;1;37m∙[0m3[1;30m0[0;1;37m∙[0m1[1;30m994] [[0mN[1;30mever [0mL[1;30mand][0m      [1;30m│[0m
 [1;30m│    [0;1;37m▐[0;1;37;44m▀[0;34m▌▐[0;1;37;44m▌[0;34m▀▀[0m      [1;30m│  [0mG[1;30mreetz :[0m                                                 [1;30m│[0m
-[1;30m│    [0;1;37;44m▌[0;34m▀█ [0;1;37;44m▌[0;34m█▄▄[0m     [1;30m│ [0;1;36mTh[0;36me Ni[0;1;30mght Prowler : Aren''t I a nice guy?[0m                  [1;30m│[0m
-[1;30m│   [0;34m▐[0;1;37;44m▌[0;34m██▌▀▌[0m       [1;30m│ [0;1;36mNa[0;36mil[0;1;30mz : UNiON Requests are low, so I just did this...[0m     [1;30m│[0m
-[1;30m│  [0;34m▄[0;1;37;44m▀[0;34m█▀██▄[0m        [1;30m│ [0;1;36mNe[0;36muro[0;1;30mtic : Your board has so many ANSis, what about me :) │[0m
+[1;30m│    [0;1;37;44m▌[0;34m▀█ [0;1;37;44m▌[0;34m█▄▄[0m     [1;30m│ [0;1;36m  [0;36m    [0;1;30m                                  [0m                  [1;30m│[0m
+[1;30m│   [0;34m▐[0;1;37;44m▌[0;34m██▌▀▌[0m       [1;30m│ [0;1;36m  [0;36m  [0;1;30m                                                 [0m     [1;30m│[0m
+[1;30m│  [0;34m▄[0;1;37;44m▀[0;34m█▀██▄[0m        [1;30m│ [0;1;36m  [0;36m   [0;1;30m                                                     │[0m
 [1;30m│ [0;34m▀▀[0m     [34m▀▀[0m       [1;30m│ [0;1;36mTh[0;36me Ju[0;1;30mdge : Make it so :)[0m                                 [1;30m│[0m
-[1;30m│[0m        [34m▀[0m        [1;30m│ [0;1;36mGe[0;36mnoC[0;1;30mide & [0;1;36mTh[0;36me Lo[0;1;30mon : SCHleever SCHliver SCHlong SCHvisors│[0m
-[1;30m│·[0;36m∙[0;1;36m-Ac[0;36midF[0;1;30mlash[0m     [1;30m│ [0;1;36mDa[0;36miry [0;1;30mQueen : Hey lamer, how''s iDioM.. Fuck You...[0m        [1;30m│[0m
-[1;30m│·[0;36m∙[0;1;36m-[B[0;36mree[0;1;30md Trial] │ [0;1;36mHo[0;36mun[0;1;30md : So, what group next? I''m coming too <grin>[0m        [1;30m│[0m
-[1;30m│·[0;36m∙[0;1;36m-[U[0;36mNiO[0;1;30mN Trial] │ [0;1;36mSi[0;36mlen[0;1;30mce Screams : Ego Boost ;) Ultima 8 Speech Pack NOW :)│[0m
+[1;30m│[0m        [34m▀[0m        [1;30m│ [0;1;36m  [0;36m   [0;1;30m      [0;1;36m  [0;36m    [0;1;30m                                         │[0m
+[1;30m│ [0;36m [0;1;36m   [0;36m   [0;1;30m    [0m     [1;30m│ [0;1;36m  [0;36m    [0;1;30m                                            [0m        [1;30m│[0m
+[1;30m│ [0;36m [0;1;36m   [0;36m   [0;1;30m         │ [0;1;36m  [0;36m  [0;1;30m                                              [0m        [1;30m│[0m
+[1;30m│ [0;36m [0;1;36m   [0;36m   [0;1;30m         │ [0;1;36m  [0;36m   [0;1;30m                                                     │[0m
 [1;30m└─────────────────┴───────────────────────────────────────────────────────────┘[0m
 
                                                                      [1;37;47m▓[0m

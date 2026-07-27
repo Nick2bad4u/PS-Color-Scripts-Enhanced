@@ -5,7 +5,7 @@
 # Source SHA-256: b5258f8882bbb70b609c1e5540b648ee10966e2798daf56b2b604fd0f4e120d1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MIDJET.ANS by Formaldehyde (blndr039); released in blndr039 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-33
 # Columns: 1-80
 
@@ -32,13 +32,4 @@ Write-Host '
 [1;34;40m██████████▌[0;33m▐█████[0;1;31;43m░░[0;33m████▄▄███[0;1;31;43m [0;33m████▄[0;1;31m▀[0;33m▄████▀[0;1;31m▄▀[0;33m▄█[0;1;31;43m░[0;33m█▄[0;1;31m▀▀[0;33m▄█[0;1;31;43m░[0;33m██▀▀███[0;1;31;43m░░[0;33m█▀ ▀███▌[0;1;34m▐██[0;1;34;44m▓[0;1;34;40m██████[0m
 [1;34;44m▓▓[0;1;34;40m██████[0;1;34;44m▓[0;1;34;40m██▄[0;33m▀█▄▄██████[0;1;31;43m░░[0;33m███[0;1;31;43m░░[0;33m█▀▀▄██[0;1;31;43m░[0;33m█[0;1;31;43m░░[0;33m██▄██[0;1;31;43m░░[0;33m███[0;1;31;43m░░[0;33m████[0;1;31;43m░[0;33m██[0;1;31;43m░░[0;33m███[0;1;31;43m░[0;33m▄███▀[0;1;34m▄███████[0;1;34;44m▓▓█[0m
 [1;34;40m███████[0;1;34;44m▓[0;1;34;40m█████▄▄[0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34m▄▄███[0;1;34;44m▓[0;1;34;40m████████[0m
-[1;34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-[1;30;40m-- end n'' stuff[0m
-
-[1;30mWORD!#% ok.. here is the story., in canada, midgets are only allowed to wrestle[0m
-[1;30mon logs.., so that is what our 2 little friends are doing, and good thing there[0m
-[1;30maren''t refs allowed on logs, or else bobby would get disqualified for his super[0m
-[1;30mwrench!@# and of course canada puts flagpoles in the middle of lakes.. but the[0m
-[1;30mflags are automatically inversed.. it has something to do with the lake water..[0m
-
-[1;30m-formaldehyde (effowe)[0m'
+[1;34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

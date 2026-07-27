@@ -5,7 +5,7 @@
 # Source SHA-256: 93ee480cfc05919727829601a9f7cbc426e623fccf4596c6d17358cbe7558413
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BL-GOLD1.ANS by Blind Enemy (Back to Basix); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: GOLDEN iMAGE - LOGiN #1
 # SAUCE Author: Blind Enemy
 # SAUCE Group: Back to Basix
@@ -58,5 +58,4 @@ Write-Host '
       [36m░[0m   [1;36;46m░░[0;36m▒▒▓▓██▓█▓▓[0;37m [0;36m▓▓[0;37m [0;36m▓▓[0;37m [0;36m▒[0m          [36m░▒▒▒▒[0;37m [0;36m▓▒▓▓[0;37m [0;36m▓▓▓[0;1;36;46m░[0;36m▓[0m   [1;36;46m░[0m     [33m░[0m
         [36m▒[0;37m  [0;1;36;46m░[0;36m▓▒▒▓▓▓▒[0;37m [0;36m▓▓[0m     [36m▒[0m        [36m░[0;37m [0;36m░[0;37m [0;36m░░░[0m    [36m▓▒[0m     [36m▓░[0m         [33m  [0m
           [1;36;46m░[0;36m▓[0m      [36m▓[0;37m  [0;36m [0m     [36m░[0m              [36m░[0m     [36m▒[0m
-       [36m░[0m             [36m [0m             [36m░[0m           [36m▒[0m       [36m░[0m
-                                       [36m           [0m                [33m [0m'
+       [36m░[0m             [36m [0m             [36m░[0m           [36m▒[0m       [36m░[0m'

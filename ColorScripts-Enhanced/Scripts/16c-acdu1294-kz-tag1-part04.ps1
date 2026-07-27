@@ -5,7 +5,7 @@
 # Source SHA-256: e4394b1bf15826b5810a6ef8e5d152283deb0d33cd2c847e42506e4b2751d9e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KZ-TAG1.ANS by Kamikazee (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Assassin's Guild
 # SAUCE Author: Kamikazee
 # SAUCE Group: ACiD Productions
@@ -59,5 +59,5 @@ Write-Host '
 [31m▓████▌[0;37m [0;31m▐[0;1;31;41m▒▓▒▒░[0;31m▄[0;1;31m▀▓[0;1;31;41m▒▒▓[0;1;31;40m▀[0m  [31m▀█▓▀█[0;1;31;41m░▒▓[0;1;31;40m▀[0m  [31m▀███[0;1;31;41m░░[0;31m▀▀[0;1;31;41m░[0;31m▀[0;37m [0;1;31;41m▒▓▒[0;31m▀[0;1;31;41m░[0;31m█▀▒[0;37m [0;31m▀█[0;1;31;41m░▒▒▓▓[0;1;31;40m▀[0m [31m▐[0;1;31;41m▒[0;31m▌█▀[0;37m [0;1;31;41m░░░[0;31m▀███[0;1;31;41m░░▒▓[0m
 [31m▒▓███▓▄[0;37m [0;1;31;41m▓▓▓▒[0;31m [0;37m [0;31m▀[0;37m   [0;31m▀[0m    [31m ▒ [0m  [1;31m▀[0m       [31m▀[0m        [1;31m▀[0m   [1;31m [0m   [31m▒▓▒[0m [1;31m▀[0m     [31m▀[0;37m    [0;1;31;41m▒[0;31m▀[0;37m  [0;31m▀[0;37m [0;1;31;41m░▒▓[0;1;31;40m▀[0;31m▓[0m
 [31m▓█▓▀[0;37m    [0;1;31;41m█▓[0;1;31;40m▀[0m            [31m ░[0m                             [31m▒[0m             [31m▄[0m     [31m▄▀▓[0m [31m▒[0m
-[37m [0;31m▀■[0m     [1;31;41m█[0m                    [1;37;40mT[0mHE [1mA[0mSSASSINS'' [1mG[0mUILD                           [31m▒[0m
+[37m [0;31m▀■[0m     [1;31;41m█[0m                    [1;37;40m [0m   [1m [0m          [1m [0m                               [31m▒[0m
         [1;31m▄[0m                               [1;30m▄▄[0m                                 [31m■[0m'

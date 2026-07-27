@@ -5,7 +5,7 @@
 # Source SHA-256: 21b210e1d59ff68d45dabfa67b4b63cc12efe09e89c2c52879495cd289e91ec8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DS-MTX02.ANS by Darkside (MATRiX); released in mtx-05a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Matrix Logo #02
 # SAUCE Author: Darkside
 # SAUCE Group: MATRiX
@@ -32,5 +32,5 @@ Write-Host '
                      ▀▀▀▀           [1;30m ▀▀▀▀[0m             ▀[1m▄[0m▄▄▀    [1m▀[0m▄▄[1m▄[0m▄▄[1m▀▀[0m
 
                       [35m%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%[0m         [1;30mD/┤RKSiDe/MtX[0m
-                      [35m%[0;1;35mo[0;35mOO[0;1;30mo[0;35m~[0;1;30m^[0;1;35mL[0;35mET''[0;1;35mS[0;1;30m^[0;1;35mK[0;35miC[0;1;35mK[0;1;30m^[0;1;35mS[0;35mOM[0;1;35mE[0;1;30m^[0;1;35mA[0;35mSSE[0;1;35mS[0;1;30m^[0;35m~[0;1;30mo[0;35mOO[0;1;35mo[0;35m%[0m
+                      [35m [0;1;35m [0;35m  [0;1;30m [0;35m [0;1;30m [0;1;35m [0;35m   [0;1;35m [0;1;30m [0;1;35m [0;35m  [0;1;35m [0;1;30m [0;1;35m [0;35m  [0;1;35m [0;1;30m [0;1;35m [0;35m   [0;1;35m [0;1;30m [0;35m [0;1;30m [0;35m  [0;1;35m [0;35m [0m
                       [35m%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%%[0;1;35m#[0;1;37m!![0;1;35m#[0;35m%[0m'

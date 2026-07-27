@@ -5,7 +5,7 @@
 # Source SHA-256: bd0d17bc159eb838e8b09ef90e9dcd832af7fcc6ef2a9cef873f4d1a24162da5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TS-TT.ANS by Ts (TekLordZ); released in tl-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Termite Terrace
 # SAUCE Author: Ts
 # SAUCE Group: TekLordZ
@@ -53,8 +53,8 @@ Write-Host '
 [1;34;44m▀░ [0;1;34;40m█▌[0;34m▐██████[0;1;34;44m░▓█▒█[0;34m█[0m [1;34m▄[0m [1;37m▀▀[0;1;37;47m▓▄▄▄▄▄▄▄[0;1;37;40m▀▀[0;34m ▄█[0;1;34;44m█▓▄[0;34m█[0;1;34;44m▓▄░█▓▄[0;34m█[0m [1;34m▐█[0;1;34;44m░ ▀░[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m█▌[0m [34m█[0;1;34;44m▀█▓▄▄▓▄█▄[0;34m▄▄[0;1;34m▀▀▀███[0;1;34;44m▀░ [0m
 [1;34;40m▀[0;1;34;44m▄▄[0;1;34;40m█[0m [34m█████[0;1;34;44m░[0;34m██[0;1;34;44m▒▒▀▀[0;34m▌[0;1;34m▐[0;1;34;44m▓░▄[0;1;34;40m▄▄▄▄▄▄▄▄▄▄[0;34m ██[0;1;34;44m▀▀▀[0;34m█[0;1;34;44m▀▀▀▀▀▀▓▀[0;34m█▄[0;1;34m▀█[0;1;34;44m▄▄▄▄ ▄[0;1;34;40m█▄[0m [34m▀█[0;1;34;44m▀▀▀[0;34m█[0;1;34;44m▓▀▀[0;34m████▄▄[0m [1;34m▀▀█▀[0m
 [1;30m [0m▄▄▄▄▄▄▄▄[1;30m▄[0m▄▄▄▄▄▄[1;30m▄▄[0m▄[1;30m▄▄[0m▄▄▄▄▄▄▄▄▄[1;30m▄▄[0m▄▄[1;30m▄▄[0m▄▄▄▄▄▄▄▄▄▄[1;30m▄▄[0m▄[1;30m▄▄[0m▄▄▄▄▄▄[1;30m▄▄[0m▄▄▄▄▄▄[1;30m▄▄[0m▄▄▄▄▄▄▄[1;30m▄[0m▄▄▄▄[1;30m [0m
-[1;30;47m▄ ▄[0m  [1;37;40m   Termite Terrace[0m.[1m  SysBrahs[0m.[1m  Nivenh [union] and To0n Goon [iCE][0m.[1m    [0m [1;30;47m▄[0m█[1;30;47m▄[0m
-[1;30;40m▓█▓[0m  ansi by ts.TekLordz.  Happiness is... a carefree world without fonts..  [1;30m▓██[0m
+[1;30;47m▄ ▄[0m  [1;37;40m                  [0m [1m          [0m [1m                                    [0m [1m    [0m [1;30;47m▄[0m█[1;30;47m▄[0m
+[1;30;40m▓█▓[0m                                                                          [1;30m▓██[0m
 [34m▄[0;1;30m▀▒▀▀▀▀▀▀▀▀▀▀░▀▀▀▀▒▀▀▀▀▀▀▀▀▀░▀▀▀▀▀▀▀▀▒▀▀▀▀▀▀░▀▀▀▀▀[0;1;37m ▄[0;1;37;47m   ▀[0;1;37;40m▄ [0;1;30;40m░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▒▀▀▀▀[0;34m■[0m
 [34m■[0;1;37m▄[0;1;37;47m▀         ▀[0;1;37;40m▌ [0m▀[1;47m      ▀[0;1;40m▌[0m ▀[1;47m  [0m▄[1;47m      ▀[0;1;40m▌ [0m▀[1;47m  [0m▄ [34m▀[0m [37m▄[0;1;37;47m ▀[0;1;37;40m█ ▐[0;1;37;47m▌   ░▐[0;1;37;40m▌▐[0m████████[1;47m▀[0;1;40m▌ ▀[0;1;47m    ░ ▀[0;1;40m▌[0;34m█[0m
 [1;37m▐[0;1;37;47m▒ ▄[0;1;37;40m▀▐[0;1;37;47m▌  ▄[0;1;37;40m▀▀[0;1;37;47m▄[0;1;37;40m▀ [0;1;37;47m▄[0;1;37;40m▀▀[0;1;37;47m▄▄▄▄▄[0;1;37;40m▀[0m [1;37;47m▌  ▄[0;1;37;40m▀[0;1;37;47m▄   ▒[0;1;37;40m█▀[0m [1;37;47m░    [0m▄[1;47m     [0;1;40m█ ▀█[0;1;47m▄[0;1;40m█[0;1;47m▓[0;1;40m▀[0m [1;40m█[0m▀[1m▐[0;1;47m▌  ▄[0;1;40m▀▀█▀[0m [1;47m▄[0;1;40m▀▀[0;1;47m▄▄▄▄▄[0;1;40m▀[0;34m▐[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 58ed19f928c72288a333474ddeaf061f85c04c8e15e5362c749f7316131e0fe8
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PB-OOD.ANS by Putbull (tri-1094); released in tri-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
@@ -55,8 +55,8 @@ Write-Host '
 [31m   ▀▀▀▀▀▀██████▄ █[0;1;31;41m▀▀ [0;31m█ █[0;1;31;41m▀█▀[0;31m█ █[0;1;31;41m▀█▀ [0m [31m█[0;31;41m [0;1;31;41m▀▀[0;31m█  █[0;1;31;41m▀▀ [0;31m█ █[0;1;31;41m▀█▀ [0m [31m█[0;1;31;41m▀█▀ [0m [31m█[0;31;41m [0;1;31;41m▀▀[0;31m█ ▄██████▀▀▀▀▀▀[0m
                   [31m▀▀▀  ▀███▀ ▀███▀  ▀▀▀    ▀▀▀  ▀███▀ ▀███▀  ▀▀▀[0m
              [1;30;47m▒░░░[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1m▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄▄▄▄[0m▄[1m▄[0m▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30;47m░░░▒[0m
-             [1;30;40m█[0;1;30;47m▓[0m            .[33m·[0;1;33mv[0;1;37mU[0;1;33mv[0;33m·[0;37m.[0;1;33mO[0;33mcea[0;1;33mN[0m.[33mo[0;1;33mƒ[0m.[1;33mD[0;33miseas[0;1;33mE[0m.[33m·[0;1;33mv[0;1;37mU[0;1;33mv[0;33m·[0;37m.[0m           [1;30;47m▓[0;1;30;40m█[0m
-             [1;30;40m▓█[0m      .[33m·[0;1;33mv[0;1;37mU[0;1;33mv[0;33m·[0;37m.[0;1;33mS[0;33mo[0;1;33mP[0;33m:[0;1;33mW[0;33mol[0;1;33mƒ[0;33mma[0;1;33mN[0m.[33m·[0;37m.[0;1;33mC[0;33mo[0;1;33mS[0;33mo[0;1;33mP[0;33m:[0;1;33mB[0;33mack[0;1;33mD[0;33moo[0;1;33mR[0m.[33m·[0;1;33mv[0;1;37mU[0;1;33mv[0;33m·[0;1;30m.[0m     [1;30m█▓[0m
+             [1;30;40m█[0;1;30;47m▓[0m             [33m [0;1;33m [0;1;37m [0;1;33m [0;33m [0;37m [0;1;33m [0;33m   [0;1;33m [0m [33m [0;1;33m [0m [1;33m [0;33m     [0;1;33m [0m [33m [0;1;33m [0;1;37m [0;1;33m [0;33m [0;37m [0m           [1;30;47m▓[0;1;30;40m█[0m
+             [1;30;40m▓█[0m       [33m [0;1;33m [0;1;37m [0;1;33m [0;33m [0;37m [0;1;33m [0;33m [0;1;33m [0;33m [0;1;33m [0;33m  [0;1;33m [0;33m  [0;1;33m [0m [33m [0;37m [0;1;33m [0;33m [0;1;33m [0;33m [0;1;33m [0;33m [0;1;33m [0;33m   [0;1;33m [0;33m  [0;1;33m [0m [33m [0;1;33m [0;1;37m [0;1;33m [0;33m [0;1;30m [0m     [1;30m█▓[0m
              [1;30m▒▓ [0m.[33m·[0;1;33mv[0;1;37mU[0;1;33mv[0;33m·[0;37m.[0;1;33mR[0;33munnin[0;1;33mG[0m.[1;33mOBV\2[0m.[1;33m2[0m.[1;33m25[0m.[1;33m144[0;33moo[0;37m.[0;1;33mV42[0m.[1;33m22[0;33mo[0;37m.[0;1;33mM[0;33meg[0;1;33mZ[0m.[33m·[0;1;33mv[0;1;37mU[0;1;33mv[0;33m·[0;37m. [0;1;30m▓▒[0m
              [1;30m░▒[0m             .[33m·[0;1;33mv[0;1;37mU[0;1;33mv[0;33m·[0;37m.[0;33m([0;1;33m819[0;33m)[0;1;33m776[0;33m-[0;1;33m339[0;33mo[0;37m.[0;33m·[0;1;33mv[0;1;37mU[0;1;33mv[0;33m·[0;37m.[0m             [1;30m▒░[0m
               [1;30m░ ▀▀ ▀  ▀[0m                                     [1;30m▀  ▀ ▀▀ ░[0m'

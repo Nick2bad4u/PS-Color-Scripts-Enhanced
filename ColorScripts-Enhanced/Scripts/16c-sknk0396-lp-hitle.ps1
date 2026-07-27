@@ -5,7 +5,7 @@
 # Source SHA-256: fde9a0796a6abc99a4241de0785ac4e301c05168e99ea1a2b1a5341b4c9d948b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LP-HITLE.ANS by Limpy (SKANK); released in sknk0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Adolf Hitler
 # SAUCE Author: Limpy
 # SAUCE Group: SKANK
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
- [31m▄█[0;30;41mansi by limpy of skank (c) copyright ''96[0;31;40m█[0;30;41mSKANK Inc. Adolf Hitler. 43lines.[0;31;40m█▄[0m
+ [31m▄█[0;30;41m                                        [0;31;40m█[0;30;41m                                 [0;31;40m█▄[0m
 [31;40m ██████████████████████████████████████████████████████████████████████████████[0m
 [31;40m █████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;41m  [0;31m█████████████████████████████[0m
 [31m ████████████████████▀▀ [0;1;31m▄▄▄███████■[0;1;30m▓▓▓▓▒▒▒▒▒▓▓▓▄ ▀[0;1;30;41m▄[0;31m████████████████████████████[0m

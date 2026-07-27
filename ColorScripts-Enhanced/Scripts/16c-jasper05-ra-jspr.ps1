@@ -5,7 +5,7 @@
 # Source SHA-256: 02593a4873d33df96b2e29192a447de6d59f0d1fe1230a730535563dafc99839
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RA-JSPR.ANS by Reanimator (jasper05); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-26
 # Columns: 1-80
 
@@ -27,11 +27,4 @@ Write-Host '
         [1;35m [0;1;30m░░[0;1;35m [0;35m▐[0;1;35;45m░░[0;1;30;40m▌[0;1;35;40m [0;36m▄█▀[0m                                              [1;35m   [0;1;37;41mra[0;1;5;37;40m_[0m
         [1;35m    [0;1;30;45m░░▓[0m
         [1;35m  [0;1;30m▄█▀▀[0m
-        [1;30m▀[0m
-
-
-[1;35m  [0;1;30m-damn, im sorry that i didnt have time to finish any picture,[0m
-[1;35m  [0;1;30m but hey maybe next month! yay! i''m getting into the ansi doodling[0m
-[1;30m   mood again![0m
-
-[1;35m   [0;1;30m-reanimator[0m'
+        [1;30m▀[0m'

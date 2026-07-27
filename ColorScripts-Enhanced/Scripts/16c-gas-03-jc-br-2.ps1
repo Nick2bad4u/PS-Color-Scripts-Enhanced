@@ -5,7 +5,7 @@
 # Source SHA-256: a5bb745cae24665b168fbb553e517b340f133d5abc4fc31b5a011ca5febfa192
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: JC-BR#2.ANS by juice (gas); released in gas-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: banana republic
 # SAUCE Author: juice
 # SAUCE Group: gas
@@ -51,4 +51,4 @@ Write-Host '
         [34m░▒░[0m                [1;37m▀▀▀▀[0m     [1;37m▀▀▀▀[0m     [1;37m▀▀▀▀[0m     [1;37m▀▀▀▀[0m     [1;37m▀▀▀▀[0m     [34m░  ░▀[0m
 [34m   ░[0m     [34m░   [0;1;36mr[0m      [1;36me[0m       [1;36mp[0m       [1;36mu[0m      [1;36mb[0m       [1;36ml[0m       [1;36mi[0m      [1;36mc  [0;34m░    ░▒░ ░[0m
 [34m  ░▒░  ░[0m                                                                [34m░  ░[0m
-[34m   ░[0m       [34m░    more fun than a truckload of laxatives! oh yes![0m     [34m░[0m'
+[34m   ░[0m       [34m░                                                   [0m     [34m░[0m'

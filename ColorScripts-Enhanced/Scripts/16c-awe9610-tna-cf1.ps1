@@ -5,7 +5,7 @@
 # Source SHA-256: a16cf71df95bb1e0dca70d649896d16cb126e6d5d34ae11c5fd5d27c80916c71
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TNA-CF1.ANS by The Night Angel (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chronic Farts
 # SAUCE Author: The Night Angel
 # SAUCE Group: awe lettering
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-                                                            [1m░[0m           tna([1mawe[0m)
+                                                            [1m░[0m               [1m   [0m 
                              [1m░ ▄▄▄[0m                          [1m▌    ░ [0;1;36m▄[0;1;37m▄▄[0m
 [1mChronic[0m           [1m░░[0;1;36m▄[0;1;37m▄▄▄▄▄ ░▄▓[0;1;37;46m█▓[0;1;37;40m▌ ░░[0m                   ▄ ▬  [1m▌  ░▄▓██▌ ░░[0m
 F a r t s       [1m▄▐▓▓█▓▌▀▀▌░▓█▌▀▀█▀▓▓▌[0m              ▄▄▐[1;47m▄█[0;1;40m█▀ ▐▌ ░▓█▌[0;1;30;40m▀[0;1;37;40m▀█▀▓▓▌[0m

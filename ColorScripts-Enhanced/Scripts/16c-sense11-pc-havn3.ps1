@@ -5,7 +5,7 @@
 # Source SHA-256: a01f7ec372b63078b30ad381b86ca95ac723d89dcd319b98f5c813c34409c4fc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PC-HAVN3.ANS by Proctologist (SeNSE); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Haven again
 # SAUCE Author: Proctologist
 # SAUCE Group: SeNSE
@@ -36,11 +36,11 @@ Write-Host '
 [1;30mb,.__.,$$,.__.,db,.__.,$$,.__.,db,.__________.,db,.__________.,db,.__.,$$,.__.,d[0m
 [1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;30m$$$$*╜ⁿ"^`[0m                                                            [1;30m`^"ⁿ╙*$$$$[0m
-[1;30m$ⁿ`[0m                      [1;30m"Put a quote or something here"[0m                     [1;30m`ⁿ$[0m
+[1;30m   [0m                      [1;30m                               [0m                     [1;30m   [0m
 [1;30mb,_[0m                                                                          [1;30m_,d[0m
 [1;30m [0m
 [1;30m--------------[circumcise here]---------------------------------------<ouch!>---[0m
-[1;30mRecognize the design on top?  I took it from a "Caustic" logo I did in pack #1.[0m
-[1;30mFixed it up a teeny bit too.[0m
+[1;30m                                                                               [0m
+[1;30m                            [0m
                                  [1;34m.·[0;36m·[0;1;36m·[0;1;37m.  .[0;1;36m·[0;36m·[0;1;34m·.[0m
             [1m. [0m·   -     [1;30m-  -[0;34m--=[0;1;34m=°[0;31mpr[0;1;31moc[0;1;37mtolo[0;1;31mgi[0;31mst[0;1;34m°==[0;34m--   [0;1;30m-[0m     -   · [1m.[0m'

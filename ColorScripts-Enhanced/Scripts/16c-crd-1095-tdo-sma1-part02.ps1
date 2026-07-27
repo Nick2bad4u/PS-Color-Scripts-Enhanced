@@ -5,7 +5,7 @@
 # Source SHA-256: fa3a63aa3eaebf6e9c91d9d5599b0f54c23df38cea070f8c59d705f468d7d01b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TDO-SMA1.ANS by teardrop (Creed); released in crd-1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: !sOma!
 # SAUCE Author: teardrop
 # SAUCE Group: Creed
@@ -53,6 +53,4 @@ Write-Host '
 
 
 
-[1;30m░--------░--------------------------------------------------------------------░ [0m
-[1;30mdont ask me what the fuck this is.[0m
-[1;30mippy: check part of that out niggah ;)[0m'
+[1;30m░--------░--------------------------------------------------------------------░ [0m'

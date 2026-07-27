@@ -5,7 +5,7 @@
 # Source SHA-256: 5f5d94dccbc01a236f38bc0ef5369777c7a8a75021c226f8ccc864351f65cade
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MI!PHAR.ANS by Mirror Image (phar); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Phar Logo
 # SAUCE Author: Mirror Image
 # SAUCE Group: phar
@@ -29,5 +29,4 @@ Write-Host '
 [1;30m █[0;35m░░[0;34m█▓▒░░▒▓█[0;35m░░░▒░░▒[0;34m███▓▒▒▓█[0;35m░▒░░░▒░░[0;34m█▓▒░░▒▓█[0;35m [0;34m██░░█▄▀[0;35m░▒░[0;34m▀█░░██▀ █░░█[0;37m [0;35m░░▒░░▒░░▒░░[0;1;30m█[0m
 [1;30m█[0;35m░░[0;34m▄████████▄[0;35m░░░▒░[0;34m▄████████▄[0;35m░░▒░░▒[0;34m▄████████▄ ▀█▀▀[0;35m░▒░░▒░░[0;34m▀█▀▄▄█████▄[0;35m░▒░░▒░░▒░▒░░[0;1;30m█[0m
 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄███▄▄▄▄▄▄▄▄▄▄▄▄████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-                     [1;30m       [0m                                   [1m    /┤NSi By: BuD[0m
-                       [1;30m    [0m'
+                     [1;30m       [0m                                   [1m     ┤           [0m'

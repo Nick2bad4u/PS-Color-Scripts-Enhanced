@@ -5,7 +5,7 @@
 # Source SHA-256: ece0298e49342d3ec1693f8d4f0e4dae715f8539db1938ec1a1b98049b9aad0f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IM-TSN.ANS by The Image (READ THE INI FILE); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Stellar Nights add
 # SAUCE Author: The Image
 # SAUCE Group: READ THE INI FILE
@@ -45,18 +45,18 @@ Write-Host '
                                       [1;34;40m░[0m
 [1;37;40m            [0m        [1;37;40m/\[0m [1;37;40mT[0m [1;36;40mh[0m [1;34;40me[0m  [34mS[0m [1;30mt[0m [1;30me[0m [1;30ml[0m [1;30ml[0m [1;30ma[0m [1;30mr[0m  [1;30mN[0m [1;30mi[0m [34mg[0m [1;34mh[0m [1;36mt[0m [1;37ms[0m [1;37m/\[0m
 
-                   sysgod: [1mthe wizard[0m [cia/spastic/ice, etc..]
+                           [1m          [0m                         
 
-[1;37m            [0m                     spastic [1mwhq [0m
-[1;37m    [0m                              vain [1mushq[0m
-  [1;37m [0m [1;37m [0m                 [1;30m    [0m      integrity[1m ushq[0m
-   [1;37m [0m                   [1;30m    [0m       shiver [1mehq[0m
-    [1;37m [0m                  [1;30m  [0m [1;30m    [0m     cia [1mehq[0m
-     [1;37m [0m                        too many f''n [1maffils[0m
+[1;37m            [0m                             [1m    [0m
+[1;37m    [0m                                   [1m    [0m
+  [1;37m [0m [1;37m [0m                 [1;30m    [0m               [1m     [0m
+   [1;37m [0m                   [1;30m    [0m              [1m   [0m
+    [1;37m [0m                  [1;30m  [0m [1;30m    [0m         [1m   [0m
+     [1;37m [0m                                     [1m      [0m
 
-                             crime in progress [1mnet[0m
+                                               [1m   [0m
 
-[1;37m [0m                           [1;37m  [0m   [1;37m1[0m [1;37m610[0m [1;37msumt[0m [1;37mhin[0m
- [1;37m [0m                               [1;37m1[0m [1;37m800[0m [1;37myea rite[0m
-[1;37m''//// eof, fucker.[0m
+[1;37m [0m                           [1;37m  [0m   [1;37m [0m [1;37m   [0m [1;37m    [0m [1;37m   [0m
+ [1;37m [0m                               [1;37m [0m [1;37m   [0m [1;37m        [0m
+[1;37m                  [0m
 [1;37m%PA[0m'

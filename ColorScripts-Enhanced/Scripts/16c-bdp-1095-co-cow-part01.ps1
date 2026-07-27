@@ -5,7 +5,7 @@
 # Source SHA-256: 0e6973fbeb9edfe31c6f427bfa9445ab8f158fac7a8f2f9a4c6dedfe4bbe76f7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CO-COW.ANS by Coeffey (BdP); released in bdp-1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Cow-Net
 # SAUCE Author: Coeffey
 # SAUCE Group: BdP
@@ -17,10 +17,10 @@
 Write-Host '
 [30;47m▀▀[0;1;37;47m▓[0;30;47m▀▀▀▀[0;1;37;47m▓[0;30;47m▀▀▀[0;1;30;47m█[0m [1;37;47m▓[0;30;47m▀▀▀[0m [30;47m▀[0;1;37;47m▓[0;30;47m▀▀▀▀[0;1;37;47m▓[0;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
 [1;30;47m░[0m [1;37;47m▒▓[0;30;47m ▀▄[0;1;37;47m▒▓[0;30;47m [0m [1;30;47m░[0m [1;37;47m▒▓[0;30;47m ▀▄▄[0;1;37;47m▒▓[0;30;47m [0m [1;30;47m▓[0;1;37;47m▒[0m
-[1;30;47m▒[0m [1;37;47m▒▓[0;30;47m [0m [1;30;47m░[0;1;30;40m [0;1;37;47m▓[0m [1;30;47m▓░[0m [1;37;47m▒▓[0;30;47m [0m [1;30;47m▓[0m [1;37;47m▒▓[0;30;47m [0m [1;30;47m▒[0;1;37;47m▒[0m Yeah tha Coeffey fo'' ya oNe Time ! Check this OG shit[1;30;47m▒[0m
+[1;30;47m▒[0m [1;37;47m▒▓[0;30;47m [0m [1;30;47m░[0;1;30;40m [0;1;37;47m▓[0m [1;30;47m▓░[0m [1;37;47m▒▓[0;30;47m [0m [1;30;47m▓[0m [1;37;47m▒▓[0;30;47m [0m [1;30;47m▒[0;1;37;47m▒[0m                                                      [1;30;47m▒[0m
 [1;30;47m▓[0m [1;37;47m░▒▓[0m [1;30;47m░[0m  [1;30;47m▒░░[0m [1;37;47m░▒▓[0m [1;30;47m▒[0m [1;37;47m░▒▓[0m [1;30;47m░[0;1;37;47m░[0m out !  For ordering an ansi contact me on a place    [1;30;47m▓[0m
 [1;30;47m▒[0m [1;37;47m░▒▓[0m [1;30;47m▒[0;1;30;40m [0;1;37;47m▒[0;1;30;40m [0;1;30;47m▒░[0m [1;37;47m░▒▓[0m [1;30;47m░[0m [1;37;47m░▒▓[0m [1;30;47m░▒[0m where i have called more then 5 times ! or call me
-[1;30;47m░[0m [30;47m [0;1;37;47m░▒[0m  [30;47m [0;1;37;47m░▒[0m [1;30;47m▒[0m [30;47m [0;1;37;47m░▒[0m   [30;47m [0;1;37;47m░▒[0m [1;30;47m▓[0;30;47m [0m [37;40mvoice 03-7661089 . Peace to all my Catz & Bitchez ![0m
+[1;30;47m░[0m [30;47m [0;1;37;47m░▒[0m  [30;47m [0;1;37;47m░▒[0m [1;30;47m▒[0m [30;47m [0;1;37;47m░▒[0m   [30;47m [0;1;37;47m░▒[0m [1;30;47m▓[0;30;47m [0m [37;40m                                                   [0m
 [1;30;47m░[0;1;30;40m [0;30;47m [0;1;37;47m░▒[0;30;47m▀▄ [0;1;37;47m░▒[0m [1;30;47m░[0m [30;47m [0;1;37;47m░▒[0;30;47m▀▄▄ [0;1;37;47m░▒[0m [1;30;47m░[0;30;47m [0m [37;40mAnd Remember don''t stop tha voilence ! Lbcya Keiko ![0m
 [1;30;47m░[0;30;47m▀▀▀▀▀▀▀▀▀▀[0;1;30;47m░[0;30;47m▀▀▀▀▀[0;1;30;47m░▒[0;30;47m▀▀▀▀[0;1;30;47m░[0;30;47m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m░[0m
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 5b30910e3c09faaf553aa02aebfbe5c808cb880dbe760effe771487f6d93f5d0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NI-T67B.ANS by nitron (nitron-bftd); released in nitron-bftd and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: T-76 Interceptor Blue
 # SAUCE Author: nitron
 # SAUCE Date: 20220323
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1m┌──────────────────[0;1;34m──[0;1;37m──────[0;1;34m─[0;1;37m────[0;1;34m──[0;1;37m─[0;1;34m──────────────────[0;34m──[0;1;34m───[0;34m──[0;1;34m──[0;34m─[0;1;34m─[0;34m────[0;1;34m─[0;34m──────────┐[0m
-[1;37m│T-67 Interceptor[0;31m                      [0;1;37m▄▄[0m  .                            [1m·   .  [0;34m│[0m
+[1;37m│                [0;31m                      [0;1;37m▄▄[0m                               [1m       [0;34m│[0m
 [1;37m│[0;31m   [0;1;37m·[0;31m                                 [0;1;37m▐[0;1;30;107m▐[0;1;30;47m▌[0m▌                                     [34m│[0m
 [1;37m│[0;31m                [0;1;37m.[0;31m                    [0;1;37m▐[0;1;37;47m▒[0;107m▓[0m▌      [1m.[0m          [1m·[0m         [1m.[0m    .    [34m│[0m
 [1;37m│[0;31m                         [0;1;37m.[0;31m [0;1;37m∙[0;31m         [0;1;34m▓[0;33;107m▐[0;33;47m▌[0;34;100m▓[0m           .                         [34m│[0m

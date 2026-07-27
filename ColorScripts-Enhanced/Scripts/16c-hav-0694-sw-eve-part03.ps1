@@ -5,7 +5,7 @@
 # Source SHA-256: f5f042ad552cde610d5ad841c7eb7fc284bf1ea79812310f9223e4bf0094df3d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SW-EVE.ANS by Sword Weaver (hav-0694); released in hav-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 64-112
 # Columns: 1-80
 
@@ -43,18 +43,18 @@ Write-Host '
        [30;41m▄▄▄      [0m [30;41m ▄▄▄[0m    [30;41m▄▄▄[0;1;31;41m░░░ [0m [1;31;41m  [0;30;41m▐[0m    [30;41m▄   ▄[0m  [30;41m▄▄▄▄▄▄▄▄▄▄▄▄[0m [30;41m▄▄        [0;1;31;41m░░░░[0;30;41m▄▄[0m
 
 
-                                                      [36mAnsi: Sword Weaver[0m
+                                                      [36m                  [0m
 [1;32m┌───────────-──────────-──[0;32m─[0;1;32m─[0;32m──[0;1;32m─[0;32m-─────-───-──-─-─∙∙ · ··[0m         [36m[HAVOK][0m
-[1;32m│ [0;1;33mEve Of Chaos[0m
+[1;32m│ [0;1;33m            [0m
 [1;32m│ [0;1;33m915.581.1592[0m
-[1;32m│ Leech Access for LD Callers[0m
-[1;32m│ Heavily Modified Renegade[0m
-[1;32m│ [0;32mDREADLoC US South HQ[0m
-[1;32m│ [0;32mCyberPunk Liberation Front HQ #15[0m
-[1;32m│ [0;32mDist Sites: MiiS / DÆRK[0m
-[1;32m│ [0;32mNets: ThunderNet / Crime in Progress / DeadNet / FreedomNet[0m
-[1;32m│[0m       [1;32mAdvantageNet WHQ[0m
-[1;32m│ Support For: 0-7 Day Wares / HPAVC / Art[0m
-[1;32m│ [0;1;33mSysop: Wire Fashion [DLC/EMPiRE/CLF][0m
-[1;32m│ [0;1;33mRemote: Ronin [iCE/PSY/IRIDIUM/DLC] / Shadow Storm [DLC][0m
+[1;32m│                            [0m
+[1;32m│                          [0m
+[1;32m│ [0;32m                    [0m
+[1;32m│ [0;32m                                 [0m
+[1;32m│ [0;32m                       [0m
+[1;32m│ [0;32m                                                           [0m
+[1;32m│[0m       [1;32m                [0m
+[1;32m│                                         [0m
+[1;32m│ [0;1;33m                                    [0m
+[1;32m│ [0;1;33m                                                        [0m
 [1;32m└───────────-──────────-──[0;32m──[0;1;32m─[0;32m──-─[0;1;32m─[0;32m───-───-──-─-─∙∙ · ··[0m'

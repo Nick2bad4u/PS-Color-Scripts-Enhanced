@@ -5,7 +5,7 @@
 # Source SHA-256: 79a82aeec3732edb7b37c5139589eba8d65af5e0aeb1660694c627d520456e49
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-ATC1.ANS by Hoax-Tl + Smooth (TekLordZ); released in tl199512 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: A Touch Of Class Promo
 # SAUCE Author: Hoax & Smooth
 # SAUCE Group: TekLordZ
@@ -49,9 +49,7 @@ Write-Host '
 [34m [0;1;30m [0m                          [1;30m▀▀▀▀▀▀▀▀▀▀▀█▄▄▄▄▄▄▄▄▄▄▄▄█[0m                        [1;30m [0;34m [0m
 [34m [0;1;30m                                                                             [0;34m [0;1;30m [0m
 [34m░[0m                   [1;30mA   T o u c h   O f   C l a s s   B B S[0m                   [34m░[0m
-[34m▒[0m                 [1;30mOp: Celestian [0;34m■[0;1;30m 8o8·423·2198[0;34m ■[0;37m [0;1;30mCo-Op: Zappa[0m                 [34m▒[0m
-[34m▓ [0;1;30m Art[0;34m/[0;1;30mE-mags[0;34m/[0;1;30mPPEs [0;34m■[0;37m [0;1;30mFTA Member Board[0;34m/[0;1;30mPTW Member Board[0m [34m■[0;37m [0;1;30mAttitudenet[0;34m/[0;1;30mBlacknet[0m [34m▓[0m
+[34m▒[0m                 [1;30m              [0;34m■[0;1;30m             [0;34m ■[0;37m [0;1;30m            [0m                 [34m▒[0m
+[34m▓ [0;1;30m    [0;34m [0;1;30m      [0;34m [0;1;30m     [0;34m■[0;37m [0;1;30m                [0;34m [0;1;30m                [0m [34m■[0;37m [0;1;30m           [0;34m [0;1;30m        [0m [34m▓[0m
 [34m█▄[0m                                [34m■[0;37m [0;1;30miNFLUXnet[0m [34m■[0m                              [34m▄█[0m
-[37m [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-                                                                       [34m [0m
-[34m [0m                                                                             [34m [0m'
+[37m [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

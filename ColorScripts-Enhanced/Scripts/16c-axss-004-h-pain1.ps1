@@ -5,7 +5,7 @@
 # Source SHA-256: 62d0cc0d59baa5ae6bf276e0a21be156185b1e97aba1d9bd5a5da7231d8134f1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: $H-PAIN1.ANS by Shinigami (.%.AXss.%. -97); released in axss-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Pain Title Ansi #1
 # SAUCE Author: Shinigami
 # SAUCE Group: .%.AXss.%. -97
@@ -42,12 +42,10 @@ Write-Host '
 [1;30;40m████[0;1;30;44m▓▒░░[0;34m███[0;30;44m▀[0;34;40m█[0;30;44m■[0;34;40m██[0;30;44m▬[0;34;40m█[0;30;44m.[0;34;40m████████▄▄▄▄▄▄▄▄█[0;30;44m▬ [0;34;40m█▄▄▄▄▄████████[0;30;44m▬[0;34;40m█[0;30;44m■[0;34;40m█[0;30;44m [0;34;40m██▄█[0;1;32;44m  Ansi:  Shinigami [0m
 
 [1;30m─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-[0m
-  [30;44mN[0;1;30;40mame[0;34m: [0;30;44mP[0;1;30;40main Title Ansi #1[0m              [30;44mB[0;1;30;40my[0;34m: [0;30;44mS[0;1;30;40mhinigami//AXss[0m              [30;44m1[0;1;30;40m997[0;1;5;30;40m_[0m
+  [30;44m [0;1;30;40m   [0;34m  [0;30;44m [0;1;30;40m                 [0m              [30;44m [0;1;30;40m [0;34m  [0;30;44m [0;1;30;40m              [0m              [30;44m [0;1;30;40m   [0;1;5;30;40m [0m
 [1;30m─-─-─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-░─-─-─-─-─-─-─-─-─-─-─-─-─-[0m
 
-  [1;30mW[0;34mell [0;1;30mw[0;34mell, [0;1;30mI[0;34m [0;1;30mw[0;34mas [0;1;30ma[0;34mked [0;1;30mt[0;34mo [0;1;30mm[0;34make [0;1;30ms[0;34mum [0;1;30mP[0;34mAiN [0;1;30mt[0;34mitle [0;1;30ma[0;34mnsis, [0;1;30ms[0;34mo [0;1;30mh[0;34mere [0;1;30mt[0;34mhey [0;1;30ma[0;34mre, [0;1;30mt[0;34mhree[0m
-[37m  [0;1;30mc[0;34mewl [0;1;30ma[0;34mnsis [0;1;30mf[0;34mor [0;1;30mP[0;34mAiN. [0;1;30mD[0;34mon''t [0;1;30mr[0;34mip [0;1;30m`[0;34mem, [0;1;30mt[0;34mhat [0;1;30mw[0;34mould [0;1;30mb[0;34me [0;1;30mp[0;34moor. [0;1;30mc[0;34mu [0;1;30mt[0;34mhen [0;1;30md[0;34mewd.[0m
+  [1;30m [0;34m    [0;1;30m [0;34m     [0;1;30m [0;34m [0;1;30m [0;34m   [0;1;30m [0;34m    [0;1;30m [0;34m  [0;1;30m [0;34m    [0;1;30m [0;34m   [0;1;30m [0;34m    [0;1;30m [0;34m     [0;1;30m [0;34m      [0;1;30m [0;34m  [0;1;30m [0;34m    [0;1;30m [0;34m    [0;1;30m [0;34m    [0;1;30m [0;34m    [0m
+[37m  [0;1;30m [0;34m    [0;1;30m [0;34m     [0;1;30m [0;34m   [0;1;30m [0;34m     [0;1;30m [0;34m     [0;1;30m [0;34m   [0;1;30m [0;34m    [0;1;30m [0;34m    [0;1;30m [0;34m     [0;1;30m [0;34m  [0;1;30m [0;34m     [0;1;30m [0;34m  [0;1;30m [0;34m    [0;1;30m [0;34m    [0m
 
-                                                      [37m    [0;1;30m  $[0;34m h í ∩ í Ç /┤ m ì[0m
-
-                             [1;30mI[0m [1;30mcommand[0m [1;30mthe[0m [1;30mDevil...[0m'
+                                                      [37m    [0;1;30m  $[0;34m h í ∩ í Ç /┤ m ì[0m'

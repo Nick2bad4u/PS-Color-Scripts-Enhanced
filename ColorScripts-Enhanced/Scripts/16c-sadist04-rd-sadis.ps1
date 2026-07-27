@@ -5,7 +5,7 @@
 # Source SHA-256: 6f3d49cc315c736d94b71e030e60c68ac63c8507a2716ed27dfacc64c76499e7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RD-SADIS.ANS by Rare Delusion (sadist04); released in sadist04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
@@ -35,21 +35,11 @@ Write-Host '
 [1;35;40m██[0;1;35;47m▓[0;1;35;40m█[0;1;35;45m█[0;1;35;40m█████[0;1;35;45m▄▄▄▄▄▄[0;35m█[0;1;35;45m░[0;35m█▄▄███▄██████████████████▓▄▄▄████████████████▓[0;1;35;45m▄▄[0;1;35;40m██[0;1;35;47m▄[0;1;35;40m█[0;1;35;47m▄▄▄▄▄[0;1;35;40m█████[0m
 [1;30;40m--------------------------------------------------------------------------------[0m
 [1;30;40m    ▒────┘░────────────────────────────────────────────────────────▓▓───┐┌┐[0m
-[1;30;40m    │After a year of absence i''m back. I expected to come[0m           [1;30;40m│   └░│[0m
-[1;30;40m    │back to find ansi dead, but instead i find an amazing[0m          [1;30;40m│[0m     [1;30;40m│[0m
-[1;30;40m    │group called [0mSAD[1;30mi[0mST[1;30m, <-(Oldschooler all the way man =] )[0m       [1;30m│  ░──┘[0m
-[1;30m    │Anyways i broke out thedraw, and surprisingly i can[0m            [1;30m│  │[0m
-[1;30m    │still arrange pretty colored blocks so that they[0m               [1;30m│  └───>[0m
-[1;30m    │make something that looks cool ;] Anyways if yer bored enough  │[0m
-[1;30m   ░├to read that then i can send out some greetz... . .[0m            [1;30m│[0m
-[1;30m    ──░─────────────────────────────────────────────────────────────▒░[0m
-        [1;30mgreetings to all the people that i recognize that still[0m
-        [1;30mhang out on irc and, danger mouse, napalm death, seph,[0m
-        [1;30mall the peeps in sadist, creator, and to px, if yer out[0m
-        [1;30mthere man reading this, get on irc and say hi sometime..[0m
-        and a big thanks to everybody that has kept the ansi scene
-        alive and well, and for keeping it warm until i got back =]
-
-
-
-                                                       -rare delusion[0m'
+[1;30;40m    │                                                    [0m           [1;30;40m│   └░│[0m
+[1;30;40m    │                                                     [0m          [1;30;40m│[0m     [1;30;40m│[0m
+[1;30;40m    │             [0m   [1;30m [0m  [1;30m                                     [0m       [1;30m│  ░──┘[0m
+[1;30m    │                                                   [0m            [1;30m│  │[0m
+[1;30m    │                                                [0m               [1;30m│  └─── [0m
+[1;30m    │                                                               │[0m
+[1;30m   ░├                                                   [0m            [1;30m│[0m
+[1;30m    ──░─────────────────────────────────────────────────────────────▒░[0m'

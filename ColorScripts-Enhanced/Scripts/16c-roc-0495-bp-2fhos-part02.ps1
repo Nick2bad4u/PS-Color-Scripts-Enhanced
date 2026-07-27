@@ -5,7 +5,7 @@
 # Source SHA-256: 47882049ec5409dae92b75f1a5aa58a83a8ab40f8f3e5f597ced2f14a2eebc1b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: BP-2FHOS.ANS by Blood Priest + Silver Rat (Rulers Of Chaos); released in roc-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Too Fucking Hostile
 # SAUCE Author: Blood Priest & SR
 # SAUCE Group: Rulers Of Chaos
@@ -29,9 +29,4 @@ Write-Host '
               [31m  [0m        [31m▀[0m   [31m■█▓ [0m [31m▓█   ██[0m [31m  █▓[0m [31m  [0m   [31m [0;1;33m [0;31m  ▀▀▀▀ [0m         [37m [0m
                               [31m░[0m  [31m░[0m   [31m  [0m     [31m░[0m                        [37m [0m
 
-                     [31m  [0;1;31m2[0;31m*([0;1;31mFukn[0;31m)^[0;1;31mHostile[0m  [31m([0;1;31m703[0;31m)!%#!@*^&[0m
-                  [1;31m [0m  [1;31mrOC [0;31mUS-HQ  [0;1;31msHockWave[0;31m-[0;1;31mPro[0;31m(ßeta)site[0m
-[31m [0m          [1;30m [0m  [31mSysDem+o''s: [0;1;31mZealot[0;31m[rOc] & [0;1;31mBlack Guard[0;31m[aCid/rOc][0m
-
-                [37mFont[0;1;31m+[0mPac[1;31m-[0mmaN[1;31m~[0mala[1;31m:[0mld![1;31m=[0mSilver[1;31m_[0mRat[1;31m([0maC[1mi[0md[1;31m)/[0mrOC[1;31m?[0m
-                [1;31m [0m BIG[1;31m|[0mpicture[1;31m%[0mJonx[1;31m![0mBlood[1;31m.[0mPr[1mi[0mest[1;31m@[0mrOc[1;31m.[0mansi[0m'
+                     [31m  [0;1;31m2[0;31m*([0;1;31mFukn[0;31m)^[0;1;31mHostile[0m  [31m([0;1;31m703[0;31m)!%#!@*^&[0m'

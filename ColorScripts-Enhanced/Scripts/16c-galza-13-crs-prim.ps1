@@ -5,7 +5,7 @@
 # Source SHA-256: 2526bee0210674f3ce8d98a509aa7a1fdb3af57e7f07ab8e01f493624c4f0758
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CRS-PRIM.ANS by Crasher (just-x/galza); released in galza-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: primerka
 # SAUCE Author: Crasher
 # SAUCE Group: just-x/galza
@@ -38,11 +38,4 @@ Write-Host '
              [1m.[0;1;34m+[0m        [32m [0;1;35mdP''[0m
            [1;34m.[0m           [1;35md''[0m
                       [1;35m*[0m
-                     [1;35m.[0m
-
-
-
-
-
-
-'
+                     [1;35m.[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 72414adb5a77481313f31befd0fde720f02735773cc55cc64bdbfde76a258b0b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SF-CB4#2.ANS by Superfly (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-99
 # Columns: 1-80
 
@@ -45,17 +45,15 @@ Write-Host '
                                  [31m▀[0m                                     [1;36m▄▀[0m
 [1;36m  [0;36m┌───[0;1;36m────[0;1;37m────[0m                   [1;36m▄[0m         [1;36m▄▀[0m
 [1;36m  [0;36m│[0m                             [1;36m▀ ▀▄[0;31m▀[0m     [1;34m█[0m
-[1;34m  [0;1;36m│  [0;1;37mD[0;31mo[0;1;37mPE [0;36mWHQ [0;1;36mφ [0;36mP[0;1;36ma[0;36mT HQ [0;1;36mφ [0;36mG[0;1;36ma[0;36mN[0;1;36mj[0;36mA HQ  [0;1;36m▐[0;31m▐[0m     [1;34m█[0m
-[1;34m  [0;1;36m│[0m                                [1;36m▐[0;31m▐[0m     [1;34m█[0m       [36mS[0;1;36my[0;1;37ms[0;36mG[0;1;36mo[0;1;37md...[0;36mM[0;1;36ma[0;1;37mlicious [0;36mI[0;1;36mn[0;1;37mtent[0m
-[1;37m  │   [0;36mP[0;1;36mh[0;1;37mase[0;36mN[0;1;36me[0;1;37mt [0;36mH[0;1;36mu[0;1;37mb [0;1;36mφ [0;1;37mD[0;31mo[0;1;37mPE[0;36mN[0;1;36mE[0;1;37mT [0;36mWHQ   [0;1;36m▐[0;31m▐[0m     [1;34m█[0m                   [1;36mφ[0m
+[1;34m  [0;1;36m│  [0;1;37m [0;31m [0;1;37m   [0;36m    [0;1;36m  [0;36m [0;1;36m [0;36m     [0;1;36m  [0;36m [0;1;36m [0;36m [0;1;36m [0;36m      [0;1;36m▐[0;31m▐[0m     [1;34m█[0m
+[1;34m  [0;1;36m│[0m                                [1;36m▐[0;31m▐[0m     [1;34m█[0m       [36m [0;1;36m [0;1;37m [0;36m [0;1;36m [0;1;37m    [0;36m [0;1;36m [0;1;37m        [0;36m [0;1;36m [0;1;37m    [0m
+[1;37m  │   [0;36m [0;1;36m [0;1;37m   [0;36m [0;1;36m [0;1;37m  [0;36m [0;1;36m [0;1;37m  [0;1;36m  [0;1;37m [0;31m [0;1;37m  [0;36m [0;1;36m [0;1;37m  [0;36m      [0;1;36m▐[0;31m▐[0m     [1;34m█[0m                   [1;36m [0m
 [1;36m  [0;1;37m│[0m                                 [1;36m▀▀▀▀▀▀█[0;1;34m▀▀▀[0;1;36m▄[0m       [36mC[0;1;36mo[0;36mS[0;1;36my[0;1;37ms[0;36mG[0;1;36mo[0;1;37md...[0;36mP[0;1;36ma[0;1;37mscal[0m
-     [36mF[0;1;36ma[0;1;37mtal[0;36mN[0;1;36me[0;1;37mt [0;1;36mφ [0;36mD[0;1;36me[0;1;37mmon[0;36mN[0;1;36me[0;1;37mt [0;1;36mφ [0;36mC[0;1;36mi[0;36mPN[0;1;36me[0;1;37mt[0m         [1;36m█[0;31m▐[0m                  [1;36mφ[0m
-                                          [1;36m█[0;31m▐[0m      [36mN[0;1;36mo [0;1;37mlocals ''cept by invite[0m
-[1;37m [0;36mHAVOK M[0;1;36me[0;1;37mmber [0;36mB[0;1;36mo[0;1;37mard [0;1;36mφ [0;36mBLADE D[0;1;36mi[0;1;37mstro [0;36mS[0;1;36mi[0;1;37mte   [0;1;36m█[0;31m▐[0m                  [1;36mφ[0m             [1;37m│[0m
-                                    [1;36m▄[0m     [1;36m█[0;31m▐[0m          [36mV[0;1;36ma[0;1;37mlidation by vote    │[0m
-[1;37m    [0;36mA[0;1;36mr[0;1;37mt [0;1;36mφ [0;36mH[0;1;37m/[0;36mP[0;1;37m/[0;36mA[0;1;37m/[0;36mC [0;1;36mφ [0;36mV[0;1;36mi[0;1;37mrii [0;1;36mφ [0;36mW[0;1;36ma[0;1;37mrez[0m     [1;36m▄   █[0;31m▐[0m                  [1;36mφ[0m             [1;36m│[0m
+     [36m [0;1;36m [0;1;37m   [0;36m [0;1;36m [0;1;37m  [0;1;36m  [0;36m [0;1;36m [0;1;37m   [0;36m [0;1;36m [0;1;37m  [0;1;36m  [0;36m [0;1;36m [0;36m  [0;1;36m [0;1;37m [0m         [1;36m█[0;31m▐[0m                  [1;36m [0m
+                                          [1;36m█[0;31m▐[0m      [36m [0;1;36m  [0;1;37m                      [0m
+[1;37m [0;36m       [0;1;36m [0;1;37m     [0;36m [0;1;36m [0;1;37m    [0;1;36m  [0;36m       [0;1;36m [0;1;37m     [0;36m [0;1;36m [0;1;37m     [0;1;36m█[0;31m▐[0m                  [1;36m [0m             [1;37m│[0m
+                                    [1;36m▄[0m     [1;36m█[0;31m▐[0m          [36m [0;1;36m [0;1;37m                    │[0m
+[1;37m    [0;36m [0;1;36m [0;1;37m  [0;1;36m  [0;36m [0;1;37m [0;36m [0;1;37m [0;36m [0;1;37m [0;36m  [0;1;36m  [0;36m [0;1;36m [0;1;37m    [0;1;36m  [0;36m [0;1;36m [0;1;37m   [0m     [1;36m▄   █[0;31m▐[0m                  [1;36m [0m             [1;36m│[0m
                                        [1;36m▀▄▀[0m             [1;37m815 [0;1;36mφ [0;1;37m282 [0;1;36mφ [0;1;37m8732[0m     [1;36m│[0m
                                                                             [36m│[0m
-                        [1;36mφ [0;1;37m"It''s the sheeeat beeeatch!" [0;1;36mφ[0m          [1;37m────[0;1;36m───[0;36m───┘[0m
-
-                             [1;30mANSi By Süpeτƒlÿ [0m[[1mD[0;31mo[0;1;37mPE[0m][0m'
+                        [1;36mφ [0;1;37m"It''s the sheeeat beeeatch!" [0;1;36mφ[0m          [1;37m────[0;1;36m───[0;36m───┘[0m'

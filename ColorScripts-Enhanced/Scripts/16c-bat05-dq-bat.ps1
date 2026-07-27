@@ -5,7 +5,7 @@
 # Source SHA-256: a7ac18a72c64b2640e0730c68f022e5bb263fb46b83eb1e58859b4f5c121c049
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DQ-BAT.ANS by Don Quijote (Bad Attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: BaT Logo
 # SAUCE Author: Don Quijote
 # SAUCE Group: Bad Attitude
@@ -46,7 +46,4 @@ Write-Host '
 [1;30m░[0m   [1;30m░[0m  [1;30m░[0m [35m ▀▓█■[0;37m  [0;35m▐[0;37m  [0;1;30m░[0;35m [0;37m [0;35m▀[0;37m [0;35m [0m   [1;30m░[0m [1;35m█[0m    [35m█[0m   [1;30m░[0;1;35m [0m [1;35m▐[0m [35m▐[0;1;35;45m▓[0;35m▌[0m   [1;30m░[0m      [35m▐[0;1;35;45m▒[0;1;35;40m▌[0m [1;30m░[0m [35m▌[0;37m [0m       [1;30m░░[0m
 [1;30m░[0m       [1;30m░░[0m [35m▀▀▀▀[0;37m [0;35m█[0m   [1;30m░░[0m  [35m [0m   [1;30m░[0m [1;35m▐▌[0m  [35m▐[0;1;35;45m▓[0;35m▌[0m        [35m▀[0m            [35m▀[0m    [35m█[0;37m  [0m
           [1;30m░░[0m   [35m▐[0;1;35;45m░[0;35m▌[0;37m  [0;35m            [0;37m  [0;35m ▀ %[0;1;35mDon Quijote[0;35m%[0;1;35mBaT[0;35m%[0m      [1;35m░[0m [1;35m■[0;1;35;45m░[0;35m▌[0;37m   [0m
-          [37m      [0;35m▀[0m                   [35m   [0;37m     [0m                   [35m▀[0m
-         [37m     [0m     [35m  [0;37m       [0m          [35m  [0;37m     [0m
-          [37m    [0m                        [35m       [0m
-                                        [35m   [0m'
+          [37m      [0;35m▀[0m                   [35m   [0;37m     [0m                   [35m▀[0m'

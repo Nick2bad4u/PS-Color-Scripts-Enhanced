@@ -5,7 +5,7 @@
 # Source SHA-256: 7a819bd7f2128964503928f97008f5e5e56ed6947f09a2957dc7668eb163a23d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: gee-piss.ans by Energeezer (duodaughters01); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Date: 20151210
 # SAUCE Dimensions: 80x109
 # SAUCE Font: IBM VGA
@@ -22,11 +22,11 @@ Write-Host '
 ██████████████████▌▐[1;47m▀[0m▄▄▄[1;47m░[0m▄[1m██▄█▄▄▄█▄█▄█▄▄▄█▄▄▄█▄▄▄█▄▄▄[0;1;33m█▄▄▄[0;31m█▄[0;37m█▄██ ▄███████████████[0m
 [37m██████████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄████████████████[0m
 [37m████████████████████████████████████████████████████████████████████████████████[0m
-[37m██████████[0;30;47mEnergeezer of DD focking shit up in the 2015. Shout out to all        [0m
-[37;40m████████[0;30;47mthe groups keeping it real in the scene. Greets fly out to: desire[0;37;40m████[0;30;47m  [0m
-[37;40m████████[0;30;47mdezign, SaC, Galza, and all my peeps. No greets for da laymahz in[0;37;40m███████[0m
-[37;40m██████[0;30;47mMiSTiGRiS, PEN15, or any other group talking shit like they all that![0;37;40m███[0;30;47m  [0m
-[37;40m██████[0;30;47mWhuttup to all my Philly hoes, daddy lockin'' it down for all ya''ll!!![0;37;40m█████[0m
+[37m██████████[0;30;47m                                                                      [0m
+[37;40m████████[0;30;47m                                                                  [0;37;40m████[0;30;47m  [0m
+[37;40m████████[0;30;47m                                                                 [0;37;40m███████[0m
+[37;40m██████[0;30;47m                                                                     [0;37;40m███[0;30;47m  [0m
+[37;40m██████[0;30;47m                                                                     [0;37;40m█████[0m
 [37;40m████████████████████████████████████████████████████████████████████████████████[0m
 [37;40m██████████████████████████████████▀▀▀▀▀▀████████▀▀██████████████████████████████[0m
 [37;40m████████████████████████████▀▀▀[0m           [37;40m▀▓██▀[0m     [37;40m▀▀▓█████████████████████████[0m

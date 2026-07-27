@@ -5,7 +5,7 @@
 # Source SHA-256: 9d962efd93d708ea3f05555a4a8676cfe373f45b38511dbcd5ed4185961aaff9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SK!KORE.ANS by sIMONkING (tHElo0p); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: kORE.2001
 # SAUCE Author: sIMONkING
 # SAUCE Group: tHElo0p
@@ -30,8 +30,4 @@ Write-Host '
 [33m [0m   [1;30m█[0;1;30;43m▓▓▓[0;1;36;40m  [0;1;36;46m░[0;1;30;46m░░[0;36m▐▌[0;1;30;43m▓▓[0;1;30;40m▀▄[0;1;30;46m▓▓▓▓▓[0;1;36;40m [0;1;30;40m▌[0;1;36;40m  ▌[0;1;36;46m░░░░░[0;36m▄█[0;1;36;46m░░░[0;36m▀░[0;1;36m [0;36m░[0;1;36;46m▒▓▓▓[0;1;30;40m░[0;1;36;40m▀[0;1;36;47m▓▓[0;1;36;40m▄ [0;36m░░[0;1;30m ▌[0;36m▀▀▀▀▀▀▀▀▀[0;1;30m▀▀[0;1;36m  [0;36m▀[0;1;36;46m░░░[0;36m▀[0;1;30m░[0;1;36m [0;1;30m▐[0m
   [1;30;43m▒[0;33m▄[0;1;30;43m▒▒▒▒[0;1;36;40m [0;36m░[0;1;30;46m░▒▒[0;36m▐[0;1;36m [0;1;30;43m▒[0;1;36;40m [0;1;30;40m░▓▓▓▓█▀[0;1;36;40m [0;1;30;43m▓[0;1;30;40m▄[0m   [36m░░▀▀▀▀▐[0;1;30m▌[0;36m░░[0;1;36m [0;1;30m▄[0;1;36m [0;1;36;46m░[0;36m▌[0;1;36;46m▒▒[0;1;36;40m  ▐[0;1;36;46m▓▓▓▒░ [0;1;36;40m  [0;1;30;43m▓▓▓▓▓▓▒▒▒▒▓[0;1;30;40m▄[0m    [1;30;40m [0;1;36;40m [0;1;30;40m▐[0;1;30;43m▓[0m
   [33m█[0;1;30;43m░░░░░[0;33m▄[0;1;36m [0;36m░░░░[0;1;36m [0;33m▌▄[0;1;36m [0;1;30m░░░░░[0;1;36m [0;33m▄[0;1;30;43m▒▒▒░[0;33m▄[0;1;36m [0;33m▄▄▄[0;1;30;43m░[0;1;36;40m [0;36m░░[0;1;36m  [0;33m▄[0;1;30;43m░[0;1;36;40m [0;1;36;46m [0;36m▌[0;1;36;46m░░[0;1;36;40m [0;33m▌▄▄▄▄▄▄▄▄▄[0;1;30;43m▒▒▒▒▒▒░░░░▒▒▒▒▒▒▒▒▒░[0m
-                                           [1;30m▌[0;1;36m [0;36m░░[0m
-  [1;30mdzieki kempy za pomoc, dla ciebie kore. tak jak dla mnie thelo0p. ya know...[0m
-
-
-  [1;30msimonking/thelo0p(2001)[0m'
+                                           [1;30m▌[0;1;36m [0;36m░░[0m'

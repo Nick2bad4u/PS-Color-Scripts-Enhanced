@@ -5,7 +5,7 @@
 # Source SHA-256: ec5909c9bf61be94cfebe242dad06ffd563494acf4e99013a95bc5756baaf70a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ED-CN.ICE by Eternal Darkness (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 39-84
 # Columns: 1-80
 
@@ -54,5 +54,4 @@ Write-Host '
                                                         [33m▄█▓▒[0m      [33m░░░░[0m
                                                         [33m▀▓▒▒▒▒░░░░   ░░░[0m
                                                             [33m░░ ▒▒▒░░░░░[0m
-                                                              [33m░░░░▒▒[0m
-'
+                                                              [33m░░░░▒▒[0m'

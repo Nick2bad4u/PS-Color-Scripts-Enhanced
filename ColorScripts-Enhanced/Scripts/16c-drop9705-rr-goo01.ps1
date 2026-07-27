@@ -5,7 +5,7 @@
 # Source SHA-256: cd636572677c0820ff6f4046d2871c7c2cf53ea95b48ca7e01b88add61480510
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RR-GOO01.ANS by rink rat (dr0p); released in drop9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: savage dragon for my board, g00
 # SAUCE Author: rink rat
 # SAUCE Group: dr0p
@@ -38,5 +38,4 @@ Write-Host '
                           [1;32m`$$$[0;32m$ [0;37m",[0;1;37m$$$$$$$$$[0m,xd" [32md"[0;1;32m$$$''[0m
                            [1;32m$$$$[0;32m`, [0;37m"x,.,xⁿ°"  [0;32m.d[0;1;32m$$$$$$[0m
                             [1;32m''$$$$[0;32mⁿbx,.,xdⁿ°"''[0;1;32m$$$$$$"[0m
-                              [1;32m`$$$$$$$$$$$$$$$$$$''[0m
-                                 [1;32m`''"°ⁿªº²ºªⁿ°"''[0m                [1;32m-rr-drop-[0m'
+                              [1;32m`$$$$$$$$$$$$$$$$$$''[0m'

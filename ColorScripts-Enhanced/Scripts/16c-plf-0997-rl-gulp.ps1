@@ -5,7 +5,7 @@
 # Source SHA-256: b51b01136151867a5cbb871243704b5453024ca3e282e1d3c1ad9ca3966cbf62
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RL!-GULP.ANS by rAwlOck!    (rl!) (plf-0997); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gULP!
 # SAUCE Author: rAwlOck!    (rl!)
 # SAUCE Group: -
@@ -35,4 +35,4 @@ Write-Host '
 [1;30;47m▀[0;35m [0;31m▐[0;1;35m█[0;1;35;41m▓▓[0;1;35;40m█[0;1;35;41m▌[0;30;41m▓▓[0;37;40m [0;35;40m [0;1;33;45m▐[0;1;37;40m██[0;1;33;43m▌[0;30;43m▓▓[0;37;40m [0;32;40m▀▀▀▀▀▀▀[0;1;32;40m [0;34m▀[0;1;34m▀▀▀[0;34m▀[0;1;32m [0;36m▀[0m    [1;30m▄▄[0;1;37m [0m    [31m░▓█[0;1;35;41m▀▀▀▀▀[0;31m█[0;1;32m [0m [30;43m▓▓[0;1;33;43m▐[0;1;37;40m█[0;1;33;45m█▌[0;35m [0;1;37m   [0m [1;36m▐[0;1;32m████[0;32m▌[0;37m [0;1;30m▐[0;1;37;47m▐▒▓▌[0;1;30;40m▌[0m
 [1;37;47m▓[0m [31m▀[0;1;35m▀▀▀▀▀▀[0;31m▀[0;35m ▀[0;1;33;45m▐██[0;1;33;43m▌[0m   [1;30m  ░░▄[0m▄▄[1m▄▄▄▄▄▄▄▄▄▄▄[0;1;47m▄[0;1;40m█[0;1;47m▓▄[0;1;40m▄[0m▄[1;30m▄[0;1;37m [0m             [1;33;43m▐[0;1;33;45m██▌[0;35m▀ [0;36m▀[0;1;32m▀▀[0;32m▀▀▀▀▀▀[0;37m [0;1;30m▐[0;1;37;47m▐[0;1;37;40m▌[0m▐[1;47m▌[0;1;30;40m▌[0m
 [1;37;40m▀▀▀▀▀▀[0m▀▀[1;30m▀▀[0;1;37m [0;35m▀▀▀▀▀▀[0;37m [0;1;37m [0;1;30m▀▀[0m▀▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀▀▀▀[1;30m▀[0m▀[1;30m▀▀ ▀[0;1;37m [0;35m ▀▀▀▀▀▀[0;37m  [0;1;30m▀[0m▀▀[1m▀▀▀▀▀▀▀▀▌  [0m
-gulp [1m░[0m░[31m [0;37moperated by zendel[0;1;37m,[0m blah[1m,[0m blah[1m,[0m blah [1m..[0m'
+     [1m░[0m░[31m [0;37m                  [0;1;37m [0m     [1m [0m     [1m [0m      [1m  [0m'

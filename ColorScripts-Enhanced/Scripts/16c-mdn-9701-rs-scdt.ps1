@@ -5,7 +5,7 @@
 # Source SHA-256: 175d54727e229915d1db1db9f4f3015e8c0f279603b54b04a81e3761e54665d5
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-SCDT.ANS by rorshack (Maiden Brazil!); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: suicidal tendencies [uk]
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil!
@@ -30,11 +30,4 @@ Write-Host '
 [1;30m█[0m [32m██[0;1;30;42m░[0;1;30;40m░[0;1;30;42m░░[0;32m█▀█[0;1;32;42m░░[0;32m░[0;1;32;42m░[0;32m██▄███[0;37m [0;32m███[0;37m [0;1;32m▀▀▀[0m [32m▄▄▄[0;37m [0;32m███[0;37m [0;32m███▄███[0;37m [0;32m███▀███[0;37m [0;32m███[0;37m [0;32m███▀███[0;37m [0;32m███▀███[0;37m [0;1;32m▀▀▀[0m [1;30m█[0m
 [1;30m█[0m [32m▀██▄███[0;37m [0;32m███ ██[0;1;30;42m░[0;1;30;40m░[0;1;30;42m░░[0;32m█ ███[0;37m [0;32m▀██▄█[0;1;30;42m░░[0;1;30;40m░[0;1;30;42m░[0;32m██ ███[0;37m [0;32m███ █[0;1;32;42m░░[0;32m░[0;1;32;42m░[0;32m██ ███▀███ ██[0;1;30;42m░[0;1;30;40m░[0;1;30;42m░░[0;32m█[0;37m [0;32m██[0;1;32;42m░[0;32m░[0;1;32;42m░░[0;32m█[0;37m [0;1;30m█[0m
 [1;30m▀█▄▄▄[0m [32m▀▀[0;37m [0;1;30m▄[0m [32m▀▀▀██▀[0;37m [0;1;30m▄▄▄[0m [32m▀▀▀[0;37m [0;1;30m▄▄▄ [0;32m▀▀▀[0;37m  [0;32m▀▀▀██▀[0;37m [0;1;30m▄▄▄[0m [32m▀▀▀[0;37m  [0;32m▀▀▀██▀[0;37m [0;1;30m▄▄▄▄[0m [32m▀▀▀██▀[0;37m  [0;32m▀▀▀██▀[0;37m [0;1;30m█[0m
-    [1;30m▀▀▀▀▀▀▀▀█▄▄▄▄█▀[0m [1;30m▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀▀█▄▄▄▄█▀[0m [1;30m▀▀▀▀▀▀▀▀█▄▄[0m▄[1;30m▄█▀[0m  [1;30m▀▀▀█▄▄▄▄█▀▀█▄▄▄▄█▀[0m
-
-             [1ms[0;1;33mui[0;33mcidal tendencies. put info and stuff here[0m
-             [1;37ma[0;1;33mns[0;33mi by rorshack "i don''t like infectious grooves" of maiden[0m
-             [1;37mm[0;1;33mai[0;33mden brazil - the coolest[0m
-                                 [33msmoothest[0m
-                                 [33mcutest[0m
-                                 [33mand heaviest brazilian art group[0m'
+    [1;30m▀▀▀▀▀▀▀▀█▄▄▄▄█▀[0m [1;30m▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀▀█▄▄▄▄█▀[0m [1;30m▀▀▀▀▀▀▀▀█▄▄[0m▄[1;30m▄█▀[0m  [1;30m▀▀▀█▄▄▄▄█▀▀█▄▄▄▄█▀[0m'

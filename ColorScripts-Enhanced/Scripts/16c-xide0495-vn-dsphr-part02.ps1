@@ -5,7 +5,7 @@
 # Source SHA-256: ef2488986f16b5fa049d85a41b47cc46b5fb7959d819f2f4da37c0f433e244ed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: VN-DSPHR.ANS by Venom (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 29-51
 # Columns: 1-80
 
@@ -25,10 +25,10 @@ Write-Host '
                    ▀▀▀▀  ▀▀     ▀▀  ▀▀  ▀▀▀▀  ▀▀  ▀▀  ▀▀▀▀
 
 
-                             ■ [1;34mS[0;1;30mysop: [0;1;34mV[0;1;30mertack [0m■
-                            ■ [1;34mP[0;1;30mrogrammer: [0;1;34mZ[0;1;30mork [0m■
-                             ■ [1;34mE[0;1;30mditor: [0;1;34mL[0;1;30mestat [0m■
-                           ■ [1;34mR[0;1;30munning [0;1;34mT[0;1;30mRiBBS [0;1;34m5[0;1;30m.1 [0m■
-                            ■ [1;34m5[0;1;30mOO  [0;1;34mM[0;1;30megz [0;1;34mO[0;1;30mNLiNE [0m■
-                              ■ [1;34mX[0;1;30miDE  [0;1;34mD[0;1;30mistro [0m■
+                             ■ [1;34m [0;1;30m      [0;1;34m [0;1;30m       [0m■
+                            ■ [1;34m [0;1;30m           [0;1;34m [0;1;30m    [0m■
+                             ■ [1;34m [0;1;30m       [0;1;34m [0;1;30m      [0m■
+                           ■ [1;34m [0;1;30m       [0;1;34m [0;1;30m      [0;1;34m [0;1;30m   [0m■
+                            ■ [1;34m [0;1;30m    [0;1;34m [0;1;30m    [0;1;34m [0;1;30m      [0m■
+                              ■ [1;34m [0;1;30m     [0;1;34m [0;1;30m      [0m■
                                ■ [1;34m2[0;1;30m4OO-[0;1;34m1[0;1;30m92OO [0m■[0m'

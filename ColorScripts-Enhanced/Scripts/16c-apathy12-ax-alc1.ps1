@@ -5,7 +5,7 @@
 # Source SHA-256: c49c9b8c2699e8fcd9c762a2072e5e515264e0df0bf1158202e1977ecedc3c50
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AX-ALC1.ANS by Apox + Ellisdee (Apathy); released in apathy12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Apathy Logo Colly
 # SAUCE Author: Apox
 # SAUCE Group: Apathy
@@ -38,10 +38,10 @@ Write-Host '
 [33m░▒▓██[0;31;43m░░░[0;33;40m██▄▄▄▄█████[0;33;47m▓[0;37;43m░[0;33;47m▓▓[0;37;43m░[0;33;47m▓▓[0;33;40m██████████████████▓▓[0;30;43m░[0;33;40m▓▓▓▓[0;30;43m░[0;33;40m▓▓▓▓███████████▓▒▓███▄▄▄▄█▓▒[0m
 [37;40m [0;33;40m░[0m                                          [33;40m░[0;30;43m▓[0;33;40m░░░░░░░░░[0;30;43m▓[0m            [33;40m░ [0m         [33;40m░[0m
 [37;40m [0;33;40m   [0m                                                                [33;40m [0m
-[37;40m [0;33;40mLet   t h   e    suM m  er    of   hA  te[0m    [33;40mtOu  r    bEg  In[0m
+[37;40m [0;33;40m                                         [0m    [33;40m                 [0m
 
-[37;40m [0;33;40moutline: ellisdee[0m
-[37;40m [0;33;40mshading + touch ups: apox[0m
+[37;40m [0;33;40m                 [0m
+[37;40m [0;33;40m                         [0m
 
 [37;40m--------------------------------------------------------------------------------[0m
 [37;40m   [0m
@@ -58,8 +58,4 @@ Write-Host '
 [37m  [0;35m [0;30;46m▓[0;36;40m░▒[0;30;46m░[0;1;36;46m░░[0;36m▓[0;37m [0;1;37;47m▐▓[0;1;37;40m▄░[0m     ▐▄▓▓[30;47m▓[0;37;40m░  ▐▓▄█[0;1;37;47m▓[0;1;37;40m▄▄[0m  [1m░[0;30;47m▓[0;37;40m░▓[0;1;37;47m░[0m  [31m [0;30;46m▓░[0;36;40m▄[0;37;40m ▐▓░[0;30;47m▓[0m    [1;37;40m▓[0m ▓[30;47m▓▓[0;1;37;40m░▒░[0m [1;47m▓▒░[0m [36m█▓[0;1;36;46m░░[0;30;46m░▒[0;36;40m▒[0;30;46m▓[0m
 [37;40m [0;36;40m░░[0;30;46m▓▒░[0;36;40m▄[0;1;36;46m▒▒░[0m ▐▀[1;47m▀[0;1;40m█▄▄▄▒▄[0;1;47m█▓▒░░[0m█[1;47m▒▓[0;1;40m▀▀[0m ▐▀[1;47m▀█▓[0;1;40m▄▄█▄[0;1;47m▓▒[0m▀ [36m▄[0;30;46m░[0;36;40m█[0;30;46m░[0;36;40m▄[0;37;40m ▀■[0;1;37;47m░▓[0;1;37;40m▄▄▄▌▄█▄▄▄▄▄█▀▀[0m [36m▄█[0;1;36;46m░▒▒░[0;36m▓[0;30;46m▒▓[0;36;40m░[0m
 [37;40m  [0;33;40m▄[0;1;31;40m▄▄▄▄▄▄▄▄[0;33m▄[0;1;33me[0m ▀▀[1m▀▀▀▀▀▀[0;1;33m▀[0m [33m▄[0;1;31m▄▄▄▄[0;1;31;43m▄▐[0;1;31;40m▄[0;33m▄[0;1;33mr[0m▀▀[1m▀▀▀▀[0;1;33m▀[0m [33m▄▓[0;1;31m▄▄▄▄▄▄[0;33m▌▄[0;1;33ma[0m▀▀[1m▀▀▀▀▀▀[0;1;33m▀[0m [33m▄▄▄▐[0;1;31;43m▄[0;1;31;40m▄▄▄▄▄▄▄▄▄[0;33m▄[0;37m [0m
-[33m■▀▀▀▀[0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀▀▀▀■[0m
-[33m [0;37mthis is a logo that i like that i doubt most of you ever got to see, phunk y0e[0m
-
-
-[1;33m  happy 1 year birthday apathy! yay.. hehe im glad you guys let me back in =)[0m'
+[33m■▀▀▀▀[0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀▀▀▀■[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: a8dccbe52dccfe1bc10772bfd3b3ec1ddff3429b5f73e6b9c36a9487189fc272
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-E255.ANS by Static Addiction + Zeromous (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: el255 thing
 # SAUCE Author: s4/zeromous
 # SAUCE Group: Root
@@ -44,6 +44,4 @@ Write-Host '
 [1;35;45m█████████████▌[0;35m█▌ ▐█[0;1;35;45m▐█████████████[0;35m██[0;34m █████[0;37m [0;35m███[0;1;35;45m▄▄▄█████████▓░[0;35m█  ▐█[0;1;35;45m▐█▀[0;35m█▀█[0;1;35;45m██████████[0m
 [1;35;45m████████████▓░[0;35m█  ▐█[0;1;35;45m▐██████████████▄[0;35m█▄[0;34m▀█▀[0;35m▄█[0;1;35;45m▄██████████████▌[0;35m█▌  █[0;1;35;45m █▌[0;35m█▌ ▀[0;1;35;45m ▀██▀▀▀[0;35m██▀[0m
 [1;35;45m███████████▓░[0;35m█   █[0;1;35;45m░▓██████████████▓░[0;35m█[0;37m [0;34m█[0;37m [0;35m█[0;1;35;45m░▓█████████████▌ [0;35m▌  ▐[0;1;35;45m ▐██▄ [0;35m▄  ▀██▀▀▀   [0m
-[1;35;45m███████████▌ [0;35m▌  ▐█[0;1;35;45m▐█████████████████▄[0;35m█▄█[0;1;35;45m▄██████████████▓░[0;35m█   █[0;1;35;45m░▓█[0;1;35;40m▀▀▀[0;35m▀▀          [0m
-                                      [35m [0m
-[1;37mErrorlevel 255.. ansi by static addiction and zeromous[0m'
+[1;35;45m███████████▌ [0;35m▌  ▐█[0;1;35;45m▐█████████████████▄[0;35m█▄█[0;1;35;45m▄██████████████▓░[0;35m█   █[0;1;35;45m░▓█[0;1;35;40m▀▀▀[0;35m▀▀          [0m'

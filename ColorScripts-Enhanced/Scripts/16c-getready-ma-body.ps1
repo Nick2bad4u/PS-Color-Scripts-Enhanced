@@ -5,7 +5,7 @@
 # Source SHA-256: 7ac3f5cf5b71fb22c6f7c64e6bdb13438a19b2d077bf1f129ca4cf1f13d7eb0c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MA-BODY.ANS by Mage and Cthulu (Integrity and Mist); released in getready and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: She's got a great body (of water)
 # SAUCE Author: Mage and Cthulu
 # SAUCE Group: Integrity and Mist
@@ -61,6 +61,4 @@ Write-Host '
  [1mA[0;1;36mt long last[0;36m,[0;1;37m [0;1;36mI lie spent[0;36m,[0;1;33;43m▒▓▓[0;32m [0;1;32;42m░[0;32m▄▀▌▐[0;1;32;42m▒[0;32m █[0;1;32;42m▒▒[0;1;32;40m▀[0;33m▄▄[0;37m [0;33m▄[0;36m▀▀▀▀▀█▄▄▄▄▄█▀[0;32m▄[0;36m▀█████▀[0;1;32m▄▀▀[0;32m▄▄▄[0;37m [0;1;32m▀▀▀▄[0m
  [1mo[0;1;36mn an outcropping shelf[0;36m.[0;37m  [0;1;33;43m▒▒[0;1;33;40m▀[0;1;33;43m▓[0;32m [0;1;32;42m░░[0;32m▄ █▐[0;1;32;42m░[0;32m▀[0;33m▄▀[0;1;32m▄▄▀[0;33m▄[0;1;33;43m░░░ ░[0;33m▄[0;1;33m▄[0;33m▄[0;1;33m▄▄▄▄▌[0;32m▐[0;1;32;42m░[0;32m▄▄[0;36m▀[0;1;32m▄[0;32m▄[0;1;32m▀[0;32m▄[0;1;32;42m░░[0;32m▀[0;1;32;42m  ░░░[0;32m▄▄[0m
 [37m [0;1;37mA[0;1;36mnd I look down below[0;36m,[0;37m    [0;1;33;43m░▒[0;1;33;40m▀[0;32m▄▌▐▀[0;1;32;42m░[0;32m▌▌▀[0;37m [0;32m▄[0;1;32m▄[0;1;32;42m▓[0;1;32;40m▀[0;33m▄▀[0;1;33;43m▒[0;33m▄[0;1;33;43m▒▒[0;33m▀[0;1;33;43m▒▒▒▓▒[0;1;33;40m▄[0;1;33;43m▒▒[0;1;33;40m▀▄[0;32m▀[0;1;32;42m░▒▀▓▒░[0;32m▀█[0;1;32;42m [0;32m█████[0;1;32;42m ░░[0m
- [1ms[0;1;36meeing bits of myself[0;36m.[0;37m    [0;1;33;43m░░░[0;33m▄[0;32m▀[0;33m▄[0;32m▀[0;1;32;42m░░[0;32m▄[0;1;32;42m░▒[0;32m▀▀[0;33m▄[0;1;33;43m▒▒▒[0;33m▄[0;1;33;43m▒▒▒▒░░▒▒▓▒▓[0;1;33;40m▄[0;1;33;43m▓▓▓[0;1;33;40m▄▄[0;32m▀▀▀▀▀[0;33m▄[0;1;33m▄▄▄▄▄[0;32m▀▀██[0m
-
-                 [36mLit by Cthulu [0;1;36m<[0;36mMist[0;1;36m>[0;36m   Ansified by Mage [0;1;36m<[0;36mInt[0;1;36m>[0m'
+ [1ms[0;1;36meeing bits of myself[0;36m.[0;37m    [0;1;33;43m░░░[0;33m▄[0;32m▀[0;33m▄[0;32m▀[0;1;32;42m░░[0;32m▄[0;1;32;42m░▒[0;32m▀▀[0;33m▄[0;1;33;43m▒▒▒[0;33m▄[0;1;33;43m▒▒▒▒░░▒▒▓▒▓[0;1;33;40m▄[0;1;33;43m▓▓▓[0;1;33;40m▄▄[0;32m▀▀▀▀▀[0;33m▄[0;1;33m▄▄▄▄▄[0;32m▀▀██[0m'

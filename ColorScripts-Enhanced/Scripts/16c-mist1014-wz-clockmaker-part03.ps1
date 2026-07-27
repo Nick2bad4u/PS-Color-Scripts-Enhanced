@@ -5,7 +5,7 @@
 # Source SHA-256: f5b2ebdd29b0a37a793353f3751e128404a9160e0e192a06dc00936ecf657b81
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: wz-clockmaker.ans by Whazzit (Mistigris); released in mist1014 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Clockmaker
 # SAUCE Author: Whazzit
 # SAUCE Group: Mistigris
@@ -17,12 +17,12 @@
 
 Write-Host '
                     [1;37m▐▌[0m
-                    [1m▐▌[0m   [36mAfter numerous greetings and welcomes, the questions of[0m
-                    [1;37m▐▌[0m   [36mhow he was and what he had been doing, the clock maker[0m
-                    [1;37m▐▌[0m   [36msaid "My friends, I will tell you all that I have done[0m
-                     [1;37m█[0m   [36mand discovered this past year. But please wait a while[0m
-                 [38;2;101;44;29m▄▄▀█▄▄    [0;36myet. I shall make an announcement this Sunday in the[0m
-             [38;2;101;44;29m▄▄█[0;38;2;101;44;29;47m▓▓▒[0;38;2;101;44;29;40m ████[0;38;2;101;44;29;47m▓[0;38;2;101;44;29;40m▄▄    [0;36;40msquare. You will come to know everything then."[0m
+                    [1m▐▌[0m   [36m                                                       [0m
+                    [1;37m▐▌[0m   [36m                                                      [0m
+                    [1;37m▐▌[0m   [36m                                                      [0m
+                     [1;37m█[0m   [36m                                                      [0m
+                 [38;2;101;44;29m▄▄▀█▄▄    [0;36m                                                    [0m
+             [38;2;101;44;29m▄▄█[0;38;2;101;44;29;47m▓▓▒[0;38;2;101;44;29;40m ████[0;38;2;101;44;29;47m▓[0;38;2;101;44;29;40m▄▄    [0;36;40m                                               [0m
            [38;2;101;44;29;47m▒▓[0;38;2;101;44;29;40m██[0;38;2;101;44;29;47m▓▒░ [0;38;2;101;44;29;40m ██[0;38;2;101;44;29;47m█▓▒▓[0;38;2;101;44;29;40m███▄▄[0m
           [38;2;101;44;29;47m░░▓█[0;38;2;101;44;29;40m█[0;38;2;101;44;29;47m▓░ ░[0;38;2;101;44;29;40m ██[0;38;2;101;44;29;47m▓░░░▓▓▓▒▒▓[0;38;2;101;44;29;40m█▄▄ [0;36;40mFollowing some further talk the clock maker[0m
           [36;47m [0;38;2;101;44;29;47m░▒▓[0;38;2;101;44;29;40m██[0;38;2;101;44;29;47m ░▒[0;38;2;101;44;29;40m █[0;38;2;101;44;29;47m▓▒░▓░░░░░▒▒▓[0;38;2;101;44;29;40m██ [0;36;40mbegged leave to return home, "For the sun is[0m

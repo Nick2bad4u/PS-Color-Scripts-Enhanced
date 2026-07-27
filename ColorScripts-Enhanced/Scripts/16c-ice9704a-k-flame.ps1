@@ -5,7 +5,7 @@
 # Source SHA-256: 2efe7ca1b0d0485874aa8be43755868c05a7e71d854459ee623b9d3e2ac8506a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: K-FLAME.ICE by kyp (ice); released in ice9704a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: flame's landscape screen
 # SAUCE Author: kyp
 # SAUCE Group: ice
@@ -40,21 +40,19 @@ Write-Host '
 [37;40m [0;1;34;40m▐█[0;1;34;44m▓▓[0;1;34;40m▓[0m ▀[1m▀▀▀▀[0m         [34m▀[0;37m [0;34m▀[0;1;34m▀[0;1;34;44m▓▓▓[0;1;34;40m█[0;34m▀▀[0;1;30m░▓[0;1;30;47m▓[0m▓▄[1m▄▄[0m▌▌   [33m▀▀▀[0;37m [0;33m▀▀[0;37m▓▓▀▀ [0m
 
 
-[37m-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-[0m
+[37m                                                                                [0m
 
-[37mlandscape screen for flame / fire. hope you like it as much as i enjoyed making[0m
-[37mit. here''s the stuff you''re supposed to see, heh: two clouds, two mountains,[0m
-[37mtwo birds, a sun and a big blue eye as well as a sky. [0m
-[37mMy original intention for this pic was to demonstrate that you''re never free in[0m
-[37mthis society, except in your dreams (-> eye -> dream -> pink birds). I''m not[0m
-[37msaying that''s awful, it''s pretty ok though it''s sometimes annoying, but there[0m
-[37mis no other way of living together with other creatures. So if you''d give that[0m
-[37mup you''d be lonely as hell, and that''s even worse. [0m
-[37mHowever, that''s the story behind it but it''s rather late now (1:30am, started[0m
-[37mthe screen at 11.45pm), so I''ll stop talking nonsense. Flame, use it as[0m
-[37mwhatever you like to, your decision if you use it anyway, heh..  [0m
+[37m                                                                               [0m
+[37m                                                                            [0m
+[37m                                                      [0m
+[37m                                                                               [0m
+[37m                                                                            [0m
+[37m                                                                             [0m
+[37m                                                                              [0m
+[37m                                                   [0m
+[37m                                                                             [0m
+[37m                                                                       [0m
+[37m                                                                 [0m
 
-[37m                       [0m         [37mreminds in silence, your ansi''n''vga doodler, kyp[0m
-[37m         [0m                                 [37m[ethos9■ice■mean scheme] [kyp@ice.org][0m
-
-[37m-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-·-(chop)-[0m'
+[37m                       [0m         [37m                                                [0m
+[37m         [0m                                 [37m       ■   ■                          [0m'

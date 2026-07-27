@@ -5,7 +5,7 @@
 # Source SHA-256: d88b704a0e885b446ddecd32988826f5b475ee9cac04999414cf2acedc9a4b17
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MT-GZER0.ANS by miSfit (unIOn!); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: gROUNd zER0! .. !
 # SAUCE Author: miSfit
 # SAUCE Group: unIOn!
@@ -40,9 +40,4 @@ Write-Host '
 [1;37;47m▐[0;1;37;40m▄[0;1;31;40m▀[0;1;31;41m▒[0;31m▀[0;1;37m [0;1;30m▀▀█[0;1;30;47m▓▓[0;1;30;40m▄▄▄▄▄[0;1;30;47m▒░░[0;47m [0;40m▀[0;47m [0;40m▄[0;47m  [0;1;30;47m    [0;47m [0;1;30;47m ░░▒▒[0;1;30;40m▄░░[0m       [1;30m▄[0;1;30;47m▓▒░░[0m [1;30m█[0;1;30;47m▓[0m shawk, ap0c, ck, ld, 3t,[1;30m█[0;1;30;47m▓[0m
 [1;37;47m ▓[0;1;37;40m█  [0m▐[1;47m▐[0;1;40m▄▄ [0;1;30;40m▀▀▀[0;1;30;47m▓▒▓[0;1;30;40m▀[0m▀[1;30m▄▄[0;1;30;47m▒░[0;47m    [0;1;30;47m  [0;47m     [0;1;30;47m░░▒▓[0;1;30;40m▄▄░░░▄▄[0;1;30;47m▓▓▒▒░░[0m▌[1;30m▐█▌[0m etc.. ansi by misfit..[1;30m▐▄▌[0m
 [1;37;47m░▀█[0;1;37;42m▓[0;1;37;40m [0;1;37;47m ░▀[0;1;37;42m▓[0;1;37;40m▌[0m▐▄[1m▄ [0;1;31m■[0;31m▄[0;1;37m [0;1;30m▀▀▀[0;1;30;47m▓▒░░[0;47m [0;1;30;47m░░[0;47m  [0;1;30;47m░░ [0;47m [0;1;30;47m [0;47m [0;1;30;47m░▒[0;1;30;40m▄▀▀▀[0;1;30;47m▓▒▓▓▒▒░░▒░[0m▄[1;30m▀[0;1;30;47m▓▓[0;1;30;40m▄▄▄ ░▄▄▓ [0mmT[1;30m [0;36m*[0;1;30m [0munIOn[1;30m ▄▓▓▀[0m
-[1;30m---<load up aciddraw and cut here..>--------------------------------------------[0m
-[1;30mhmm.. i''m still trying to perfect my shaded style.. ick. ahwell.. btw, this pic [0m
-[1;30mis for sharpy''s ground zer0 *only*. don''t fucking rip it for your lame ass board[0m
-[1;30mor i''ll send people to your house..[0m [1;30m;)[0m  [1;30mif you want one o'' these for your bbs[0m
-[1;30mor whatever, either mail me on sadistic temple or sinnah@squeaky.free.org, or[0m
-[1;30m(rarely) find me on irc.. l8a..   - miSfit[uniOn/mOp/trAnk][0m'
+[1;30m---<load up aciddraw and cut here..>--------------------------------------------[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: cc7f4af979bd53e1d7df77b0cbca5f8de4182a2540fa5070489518ceaff60ffd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: fil-todd goya.ans by filthy mcfarlane (BROCK T. RONICS); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Malebolgia Devouring His Spawn
 # SAUCE Author: filthy mcfarlane
 # SAUCE Group: BROCK T. RONICS
@@ -38,14 +38,14 @@ Write-Host '
                    [1;33m  [0;33m [0;1;37m██[0m [1;33m██[0;33m [0;1;33;43m▓▓[0m [1;33;43m▒▒[0m [1;33;43m░░[0;33m [0;1;33;43m  [0;33m [0;30;43m░[0;33;40m▓[0;37;40m [0;33;40m▓▓ [0;30;43m▒▒[0;37;40m [0;33;40m▒▒ ░[0;30;43m▓[0;37;40m [0;33;40m░░[0m
 
 
-     [33;40m  [0m            [1;33;40m [0;33m    [0;37m [0;1;33mMalebolgia[0m [1;33mDevouring[0m [1;33mHis[0m [1;33mSpawn[0m
+     [33;40m  [0m            [1;33;40m [0;33m    [0;37m [0;1;33m          [0m [1;33m         [0m [1;33m   [0m [1;33m     [0m
 
 
 
-     [33m   [0;30m    [0;33mand the chasm gazing back is awfully hard to distinguish[0m
-     [33m   from the darkness once the spark inside my heart is extinguished[0m
-     [33m    i''ll relinquish my convictions in the face of resistance, i mean:[0m
-             [1;33mdead or alive, it really doesn''t make any difference.[0m
+     [33m   [0;30m    [0;33m                                                        [0m
+     [33m                                                                   [0m
+     [33m                                                                     [0m
+             [1;33m                                                     [0m
 
 
 

@@ -5,7 +5,7 @@
 # Source SHA-256: 6a4a783499cbfa9ff91eba2a4ef68d383b5623e4b03fda0f3b1668c53d31c041
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ZS-BTWOS.ANS by Zerostar (sys2_02); released in sys2_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-39
 # Columns: 1-80
 
@@ -45,7 +45,4 @@ Write-Host '
                               . [32m  [0;35m`[0;1;31m└*÷SQ%[0;35mq┐▬,.[0;37m  [0;1;31m§[0m
                                            [35m`°²  l[0;32m [0;35m§][0m
                                                 [35m:[0;37m  [0;35m`[0m
-[37m--------------------------------------------------------------------------------[0m
-[37mthis ones for c4nnibis. i dont know if he wanted a btwos logo or a btw oldschool[0m
-[37mlogo, but fuck it, here it is =) - use whatever you want, i like the skye mix,[0m
-[37mpersonally. peace, zs.[0m'
+[37m--------------------------------------------------------------------------------[0m'

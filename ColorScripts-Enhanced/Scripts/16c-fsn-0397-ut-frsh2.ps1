@@ -5,7 +5,7 @@
 # Source SHA-256: 35c1ee8a5996103ca4b1a37519c81b4f9e3d476da9e1f914d98726f5298f14d9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UT^FRSH2.ANS by +undertaker+ (fsn^3o3); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: +1oo%.swedish.art+
 # SAUCE Author: +undertaker+
 # SAUCE Group: fsn^3o3
@@ -39,9 +39,6 @@ Write-Host '
                       [37m░░[0;1;37mf[0m     r     e      s         h
 
 
-                 the.1oo%.fresh.artboard.opped.by.dezeit
-             call.it.for.a.great.time.leech art.art.art.art.. .
-      ░░     i.lost.the.number.but.whattehell., ,you know.it
-             if.you.want.an.ansi.from.me.then.email.me.at:
-               johan.soderberg@gotland.mail.telia.com .,.[0m
-'
+                                                        
+                                                               
+      ░░                                                    [0m'

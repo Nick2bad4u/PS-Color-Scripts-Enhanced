@@ -5,7 +5,7 @@
 # Source SHA-256: f9b415f7b10765b957d5891ba4a1dda892fd2e073168c78f70ae7d0afd21f417
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 22-fmon2.ans by catch22 (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: coitus monkey
 # SAUCE Author: catch22
 # SAUCE Group: lure
@@ -29,7 +29,4 @@ Write-Host '
 [37m [0;31m▓█▄▄[0m                  [34m         [0;31m█[0;1;37;47m▓█[0;1;37;44m███▓[0;1;34;41m [0m   [34m▀█[0;30;44m░[0;34;40m▓[0;1;34;44m░[0;34m███▌ █[0;1;34;44m░░[0;34m▌   ▄▄▄▄▄ ▄▄[0;1;34m▄▄▄▄▄[0;1;34;44m▄▄[0;1;34;40m██[0;1;34;41m [0;34m [0m
                                 [31m▀▀▀[0m   [31m▀▀[0m     [30;44m░[0;34;40m▓[0;1;34;44m░[0;34m███▌ █[0;1;34;44m░░[0;34m▀███████[0;30;44m░[0;34;40m ▀▀[0;1;34;40m▀▀▀▀▀▀▀[0;1;34;41m▀▀ [0m
                                              [34m░░[0;30;44m▓[0;34;40m░░░[0m      [34;40m███████[0;30;44m░[0;34;40m [0;31;40m█▌[0;1;30;40m   [0m  [1;30mcatch[0m
-                                                               [31m▄▄▄█▌[0m
-
-
-[1;30mfakin the girl with a gentleman''s tongue[0m'
+                                                               [31m▄▄▄█▌[0m'

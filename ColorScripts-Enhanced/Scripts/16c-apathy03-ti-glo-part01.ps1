@@ -5,7 +5,7 @@
 # Source SHA-256: 7e28d1fe64957fa40ca57f3883ba0632485bac998eba917bac1cb5b3a745a86d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TI-GLO.ANS by Trip (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Globe
 # SAUCE Author: Trip
 # SAUCE Date: 19951106
@@ -24,7 +24,7 @@ Write-Host '
    [1;30m▒▄[0m     ▐[1;47m█▌[0m████  [1m▐[0;1;47m▌░[0m██[1;47m░[0m█         █  don''t wanna pay, I might still do you one,
    [1;30m░▒  ▄  [0m█[1;47m███▄■[0m▌  [1;47m██▄▄■[0m█▌   [1;30m░   [0m█▀▀  although I would prefer a trade instead[1;30m░[0mof
 ▌     [1;30m▓  [0m▄[1;47m▀▀▀[0m▀▀▀  █▀▀▀      [1;30m▒  [0m█▀▀ a freebie. If you want 1 completely free, you
-▌     [1;30m▒  [0m▀                 [1;30m░ [0m▄▄█   may not get 1. [1mgreetz[0m: sw,ky,ev, niv. hal!@#$
+▌     [1;30m▒  [0m▀                 [1;30m░ [0m▄▄█                  [1m      [0m                        
 ▀▀▀█  [1;30m░[0m       [1;30m░ ░   ▓   ░░   [0m█   [=============================================]
 [31m   [0;37m█    [0;1;30m▒░[0m        [1;30m░▒ [0m▄▄▄▄▄▄█▀▀ [31m▄█▓████▓▒▓█▓█████▓▒▓▓█▓███▓▓███████████████▄     [0m
 [31m   [0;37m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m       [31m▀█████▓█████▀██▀██▀█████▀██▓█████████████████▌▄▄▌  [0m

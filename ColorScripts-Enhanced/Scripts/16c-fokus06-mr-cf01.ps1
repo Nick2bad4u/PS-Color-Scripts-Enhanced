@@ -5,7 +5,7 @@
 # Source SHA-256: f9b895cc0412f6473a5ab93c8bae8383dea2325c2aafa54c1b3208e4f7a07850
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-CF01.ANS by Mr.Wrong (Fokus fonting); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Chronic Farts
 # SAUCE Author: Mr.Wrong
 # SAUCE Group: Fokus fonting
@@ -37,6 +37,4 @@ Write-Host '
  [1;30m ▀[0m  [1;30m▀[0m [1;30m▄[0;33m▄[0;1;31m▄[0;1;30m▀[0;33m▀[0;1;33m [0;36m▄[0;1;36m▄[0;1;36;46m▄[0;1;33;40m  ▄[0;33m▄[0;1;33m▀[0;33m▀[0;1;33m [0;36m▄[0;1;36m▄▄[0;36m [0;1;33m [0;1;36;46m▄█▄[0m [1;30;47m▓[0;1;30;40m▌[0m [36m█[0;1;36m▄▄[0;1;36;46m▄██▄▄[0;1;33;40m [0;1;30;40m▐[0;1;30;47m▀[0m [36m▄[0;37m [0;33m▀[0;1;33m▀[0;33m▄[0;1;33m▄   [0;33m▀[0;1;30m▀[0;1;31m▄[0;33m▄[0;1;30m▄[0m [1;30m▀▀▀   Mr[0;33m.[0;1;30mWrong[0m
   [1;33m  [0;1;30m▀[0;33m▀[0;1;31m▀[0m    [36m▄▀[0;1;36m▀[0;36m▀[0;37m  [0;33m▀[0m   [36m▄▀[0;1;36m▀[0;36m [0;1;33m  [0;36m▀[0;1;36m▀[0;1;36;46m▀█[0;1;36;40m▀[0m [1;30m▀[0;1;33m [0;1;30m▄[0m [36m▀[0;1;36m▀▀[0;36m▀[0;1;33m [0;1;30m▄[0;1;33m [0;1;30m▀[0m [36m▄[0;1;36;46m▄█▄[0;1;36;40m▄[0;36m▄[0;1;33m [0;33m▀[0;1;33m [0;36m▀[0;1;36;46m▀▄[0;36m▄[0;37m  [0;1;31m▀[0;33m▀[0;1;30m▀[0;36m▄[0;1;36;46m▄[0;36m▄ [0;37m [0;33m([0;1;30mFokus[0;33m)[0m
           [36m▄[0m     [1;30m▀[0m   [36m [0m       [36m▀[0m                 [36m   ▀[0;1;36m▀[0;36m▄[0;37m  [0;33m▀[0;1;33m [0m   [36m▀[0m     [36m▀▀▄[0;1;31m▀[0;33m▀[0;1;30m▀[0m
-                           [36m▀[0m   [1;30m- [0;1;33mC[0;33mhronic [0;1;33mF[0;33marts[0;1;30m -[0m    [36m▄[0m       [36m▀[0m       [36m▄[0m
-                                     [1;30m+o[0;33m [0;1;33mK[0;33mayozz[0m
-              [37m [0m'
+                           [36m▀[0m   [1;30m  [0;1;33m [0;33m       [0;1;33m [0;33m    [0;1;30m  [0m    [36m▄[0m       [36m▀[0m       [36m▄[0m'

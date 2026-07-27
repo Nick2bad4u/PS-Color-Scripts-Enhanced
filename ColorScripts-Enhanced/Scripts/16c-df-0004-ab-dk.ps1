@@ -5,7 +5,7 @@
 # Source SHA-256: 77598748a779a90023ff41e1adbd574127695eca3dcc71795742e4337caa0671
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AB-DK.ANS by Acid Brain (df-0004); released in df-0004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-23
 # Columns: 1-80
 
@@ -30,6 +30,6 @@ Write-Host '
 [35m    ≡[0m            [33m\    \_//[0m          [33m/[0m                 [33m\[0m           [35m≡[0m
 [35m   ≡[0m              [33m\___/\____/\_____/\_________________/[0m          [35m≡[0m
 [35m  ≡[0m                                                               [35m≡[0m
-[35m ≡≡≡≡≡[0m        [1;32mA[0;32mRT [0;1;32mD[0;32mEDICATED [0;1;32mB[0;32mOARD   [0;33m╜[0m                            [35m≡[0m
+[35m      [0m        [1;32m [0;32m   [0;1;32m [0;32m         [0;1;32m [0;32m       [0;33m╜[0m                            [35m [0m
       [35m≡≡≡≡≡≡≡[0m             [35m≡≡≡≡≡≡≡≡≡≡≡≡≡≡[0m            [35m≡≡≡≡≡≡≡≡≡≡≡≡≡[0m
              [35m≡≡≡≡≡≡≡≡≡≡≡≡≡[0m              [35m≡≡≡≡≡≡≡≡≡≡≡≡[0m'

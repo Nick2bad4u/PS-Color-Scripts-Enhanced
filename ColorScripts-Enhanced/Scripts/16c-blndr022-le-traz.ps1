@@ -5,7 +5,7 @@
 # Source SHA-256: 914949064eff654ffbe4fa6912413959462838a1df219fa4358b7ab932c334aa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LE-TRAZ.ANS by Leaf Eater (blndr022); released in blndr022 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-44
 # Columns: 1-80
 
@@ -38,10 +38,10 @@ Write-Host '
 [34m [0;37m  [0;34mdP''''` `b.`$$$$$$P''''''`  [0m                      [34ma single man... [0m
    [34m$$b,...[0m
    [34m$$$$P$╝''````[0m
-   [34ml$$$$'' [0m                                                [34mcover of night...[0m
+   [34m       [0m                                                [34m                 [0m
    [34ml$P''l      [0m
    [34ml7''[0;37m [0;34m: [0m         [34m  [0m
-   [34ml''[0;37m  [0;34m.[0;37m  [0;34m, [0m       [34m [0m                 [34mbut what has he brought with him....  [0m
+   [34m  [0;37m  [0;34m [0;37m  [0;34m  [0m       [34m [0m                 [34m                                      [0m
    [34ml[0m      [34md$b,,...d$.[0m
    [34m`[0m      [34m`?$$$$$$$P''``[0m                         [37m  [0m      [37m`$$$$P''''''[0m
             [34m`''''''''''` [0m                            [37m.db.[0m     [37m`╚P''[0m
@@ -52,5 +52,4 @@ Write-Host '
                                                  db    b.[1m.[0m [1mi[0m
                                                  $$b,  `$b,
                                                  ?$$ib  `?$$b,  [1m  [0m
-                                                  `'''' `   `''''''`  [1mle[0m
- [1m  [0m'
+                                                  `'''' `   `''''''`  [1mle[0m'

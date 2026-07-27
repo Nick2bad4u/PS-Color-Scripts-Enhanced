@@ -5,7 +5,7 @@
 # Source SHA-256: 43a755b1944cdc51ccab0aa25c5849d1b420fdaf605b1844f1bf5672958bb430
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-C3O3.ANS by avenger (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: lost in 3o3 chatter
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -38,6 +38,4 @@ Write-Host '
 [32m▓░[0m                         [31m▓░[0m   [1;31;41m░[0m [1;31;41m▓[0;31m▌[0;37m [0;31m█▌[0m    [33m▀▐[0;1;31;43m  ▓[0;1;31;40m██████▄▄[0m▀[1m▀▀▀▀[0;1;31m▄▄▄███[0;1;31;43m▓[0;1;31;40m█[0;33m▓██▀░[0;1;31m [0m [31m░[0m
 [1;37;42m░[0;32m▄[0;37m [0;31m          [0m              [31m█░[0m   [1;31;41m░[0m [31m▓░ [0;1;31;41m░[0;31m█▓░[0;37m  [0;1;31m  [0;33m▀[0;1;31;43m  ░▓[0;1;31;40m████████████████[0;1;31;43m▓░[0;33m▀░▀[0;1;31m    [0;31m░▓[0m
 [32;44m▀[0;1;32;40m▓[0;32m█[0;1;32m▒[0;32m░[0;37m [0;32mave_[0m                 [31m░[0m    [31m▓[0;37m [0;31m░ [0;37m  [0;31m▀▌░[0m       [33m▀[0;1;31m▀▀[0;1;31;43m▀[0;1;31;40m██▀[0;1;31;43m▀▓[0;1;31;40m██[0;1;31;47m▓▓[0;1;31;40m██▀▐   [0m
-                                                        [1;31m [0;33m▀[0;1;31m▀▀▀[0m
-[36mwell, ramirez didn''t like my idea of a "pflaster" placed on the mouth, so[0m
-[36mi had to insert these sucking teeth <g>[0m'
+                                                        [1;31m [0;33m▀[0;1;31m▀▀▀[0m'

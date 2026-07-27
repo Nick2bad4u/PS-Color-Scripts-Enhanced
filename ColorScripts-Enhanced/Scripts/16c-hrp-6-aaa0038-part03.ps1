@@ -5,7 +5,7 @@
 # Source SHA-256: 5dedbe343ea92c3db7fbd92289a10d72860767e243e2f2b2017afd550116b1e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AAA0038.ANS by Xanadu (hrp-6); released in hrp-6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 69-112
 # Columns: 1-80
 
@@ -45,9 +45,9 @@ Write-Host '
          [34m▄[0;1;34;44m▄[0;34m▄[0;1;34;44m▄█[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;1;34;44m▄█[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;1;34;44m▄█[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;1;34;44m▄█[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;1;34;44m▄█[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;1;34;44m▄█[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;1;34;44m▄█[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;1;34;44m▄█[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;1;34;44m▄█[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;1;34;44m▄█[0;34m▀[0;1;34;44m▀▄[0;34m▄[0m
           [34m▀[0;1;34;44m▀[0;34m▀   ▀[0;1;34;44m▀[0;34m▀   ▀[0;1;34;44m▀[0;34m▀   ▀[0;1;34;44m▀[0;34m▀   ▀[0;1;34;44m▀[0;34m▀   ▀[0;1;34;44m▀[0;34m▀   ▀[0;1;34;44m▀[0;34m▀   ▀[0;1;34;44m▀[0;34m▀   ▀[0;1;34;44m▀[0;34m▀   ▀[0;1;34;44m▀[0;34m▀   ▀[0m
 
-              [1;30m◄►  [0;31mZ[0;1;30moom [0;31m2[0;1;30m8.8  ◄►  [0;31m1[0;1;30m.2 [0;31mG[0;1;30miGS  ◄►  [0;31mV[0;1;30migilante [0;31mD[0;1;30mistro  ◄►[0m
-                   [1;30m◄►  [0;31mA[0;1;30mmerican [0;31mA[0;1;30mnarachists [0;31mA[0;1;30mlliance [0;31mU[0;1;30mSWH  ◄►[0m
-                        [1;30m◄►  [0;31mG[0;1;30ma[0;31mN[0;1;30mj[0;31mA [0;1;30mDistro  ◄►  [0;31m4[0;1;30m86DX/66  ◄►[0m
+              [1;30m◄►  [0;31m [0;1;30m    [0;31m [0;1;30m     ◄►  [0;31m [0;1;30m   [0;31m [0;1;30m     ◄►  [0;31m [0;1;30m         [0;31m [0;1;30m       ◄►[0m
+                   [1;30m◄►  [0;31m [0;1;30m        [0;31m [0;1;30m           [0;31m [0;1;30m        [0;31m [0;1;30m     ◄►[0m
+                        [1;30m◄►  [0;31m [0;1;30m [0;31m [0;1;30m [0;31m  [0;1;30m        ◄►  [0;31m [0;1;30m         ◄►[0m
 
              [31m▄[0;1;31;41m▄[0;31m▄   ▄[0;1;31;41m▄[0;31m▄   ▄[0;1;31;41m▄[0;31m▄   ▄[0;1;31;41m▄[0;31m▄   ▄[0;1;31;41m▄[0;31m▄   ▄[0;1;31;41m▄[0;31m▄   ▄[0;1;31;41m▄[0;31m▄   ▄[0;1;31;41m▄[0;31m▄   ▄[0;1;31;41m▄[0;31m▄   ▄[0;1;31;41m▄[0;31m▄[0m
          [31m▄[0;1;31;41m▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄▀[0;31m▀[0;1;31;41m▀▄[0;31m▄[0;1;31;41m▄[0;31m▄[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 31c38df18fcc221733f641d2dfda3e6bfad5aed5d992dc54c26ccd5cd2b36162
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2006 - 01 - tcf-tribute.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 180-224
 # Columns: 1-80
 
@@ -38,9 +38,9 @@ Write-Host '
 
 
 
-   [1;30mTHE ABOMINATION[0m
-   [1;30mThis has been a Creep Fever production for[0;36m Sense #25! [0;37mCongratulations guys![0m
-[37m   [0;1;30mGreetz to the artists in Sense. [0;36mAes[0;1;30m - Keep it going, and going..[0m
+   [1;30m               [0m
+   [1;30m                                          [0;36m            [0;37m                     [0m
+[37m   [0;1;30m                                [0;36m   [0;1;30m                             [0m
 
 
 
@@ -51,7 +51,4 @@ Write-Host '
                                    ▒[5;31m██[0;1;30m█▓▓▓[0;5;31;40m██[0;1;30m▒[0m
                                    [1;30m▀▀▀█▄▄█▀▀▀[0m
                                    [1;30m ▀ ▌▐▌▐ ▀[0m
-                                       [1;30m▄▄[0m
-
-
-                             [1;30mSanse 25 - Game Over![0m'
+                                       [1;30m▄▄[0m'

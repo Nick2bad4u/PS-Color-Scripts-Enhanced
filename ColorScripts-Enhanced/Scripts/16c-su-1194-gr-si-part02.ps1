@@ -5,7 +5,7 @@
 # Source SHA-256: a2b5a90e89f7c2fdc1947461d793196675f5ee9d6ef990c62ff2475eaaba6215
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GR-SI.ANS by GRiFFiN (SUiCiDE); released in su-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Sardonic Irony Ad
 # SAUCE Author: GRiFFiN
 # SAUCE Group: SUiCiDE
@@ -34,14 +34,14 @@ Write-Host '
 
 
 
-                                                     [34mGR [SUiCiDE][0m
+                                                     [34m            [0m
 
 
-               [37m    [0;1;30m·   ■  S[0;34mS[0;1;34mS A R D O N I C  I R O N Y[0;34mY[0;1;30mY  ■   ·[0m
+               [37m    [0;1;30m    ■   [0;34m [0;1;34m                          [0;34m [0;1;30m   ■    [0m
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
-[1;30m█ [0;1;34mSUiCiDE Member[0m [1;34mBoard[0m [1;34m·[0m [1;34mFiRE Distro · SuicideNet WHQ · Sysop: GRiFFiN · Remo[0m [1;34m [0;1;30m█[0m
-[1;30m█ [0;1;34mte: ShadowHawk · Co: The RooK · 817.XXX.XXXX · iDENTiTY SHQ · H/P/Art ONLY[0m [1;34m  [0;1;30m█[0m
-[1;30m█ [0;1;34m· Locals allowed by invite only · Please don''t bleed on the carpet...[0m
+[1;30m█ [0;1;34m              [0m [1;34m     [0m [1;34m [0m [1;34m                                                    [0m [1;34m [0;1;30m█[0m
+[1;30m█ [0;1;34m                                                                          [0m [1;34m  [0;1;30m█[0m
+[1;30m█ [0;1;34m                                                                     [0m
 [1;30m█[0m
-[1;30m█[0m                  [1;34m''SUiCiDE - Your choice... for life''[0m
+[1;30m█[0m                  [1;34m                                   [0m
 [1;30m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m'

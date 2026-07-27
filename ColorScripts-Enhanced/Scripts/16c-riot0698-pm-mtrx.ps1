@@ -5,7 +5,7 @@
 # Source SHA-256: 7bcc2340f790e9db90a08495717bb55a4c6e1f30491c3ba96e0a025c9c33e4bd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PM-MTRX.ANS by Precious Metal (riot0698); released in riot0698 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-35
 # Columns: 1-80
 
@@ -33,15 +33,4 @@ Write-Host '
 [36m█[0;1;36;44m▓▒░[0;34m▌[0m   [1;37m-pM[0m      [34m▀[0;1;34m▀████████▀▄[0;34m▀▀▀[0;37m [0;1;34;44m░[0;34m▀▀ [0m         [36m  [0;37m [0;1;36m▄▄[0;1;36;46m▄[0;1;36;40m██[0;1;37;40m██[0;1;36;40m█████████[0;1;36;44m▓[0;1;36;40m█[0;1;37;40m█[0;1;36;40m█[0;1;36;46m▄▄▄[0;36m▄[0m   [36m█[0;1;37m██[0;1;36m█[0m
 [36m▐[0;1;36m█[0;1;36;44m▌ [0;1;34;44m█[0;34m▌[0;1;34m  [0;34m     ▄[0;1;34;44m▒▓[0;1;34;40m██████████[0m [1;34m▀[0m [34m▄[0;1;34;44m▄▄[0;1;34;40m▄▄▄▄▄▄▄▄[0;1;34;44m▄[0;1;34;40m██████▄[0m [1;34m████[0;1;37m██[0;1;37;44m▓[0;1;34;40m▄▄▄▄▄▄▄▄[0;1;36;44m▓▓[0;1;36;40m▄[0;1;37;46m▓[0;1;37;40m█[0;1;36;40m████[0;1;36;46m▄[0;36m▄▄█[0;1;36m███[0m
  [36m▀▀[0;1;36;44m▓▌[0;1;34;40m█[0;1;34;44m░[0;1;34;40m▄▄▄▄[0;1;34;44m▄[0;1;34;40m█[0;1;34;44m▓▓[0;1;34;40m██████████▄▄[0;1;34;44m▄[0;1;34;40m██████████████████████████[0;1;37;44m▓░[0;1;34;40m█▀▀▀[0;1;34;44m▀▀[0;1;36;44m░░▒▓▀▀▀▀▀▀▀▀▀[0;1;36;40m▀▀▀[0m
-        [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m
-
-
-
-
-[37m  Another freebee.  Please leave the inits in them.  Use it for a logon[0m
-[37m  or menu or whatever you''d like.  Call Metal Edge (619)423-4970[0m
-
-   [37mThis kinda looks like the dork from Green Day (singer)[0m
-      [37mdoesn''t it?[0m
-
-      [37mSuggestions for free shit?  email:prcmetal@pacbell.net[0m'
+        [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

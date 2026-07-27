@@ -5,7 +5,7 @@
 # Source SHA-256: 1cfe9ab58515d6d9886d4dea5d6174157d33c07e6c48925fb4afb09a4440aa74
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AVE-MS5.ANS by avenger (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mean scheme
 # SAUCE Author: avenger
 # SAUCE Group: black maiden
@@ -35,9 +35,7 @@ Write-Host '
 [35;40m          [0;36;40m░[0;30;46m▓▓[0;36;40m▀[0;1;36;45m▀█▀░░[0;45m▄▄[0;35;40m▄[0;37;45m▄▌[0;33;40m              [0;35;40m░[0;33;40m     [0;35;40m   [0;1;30;40m▄▄[0m█[1;47m ▀▀[0;1;45m██▄[0;35m▄[0;1;36;45m░░[0;35m█▀███▀█▄▄[0;37;45m▄   ░ [0m
 [35;40m               ▀▀▀[0;37;45m▀██▀[0;35;40m▀ [0;33;40m                    [0;35;40m_ave  [0;1;30;40m▀[0m▀[35m [0;37m▀[0;1;37;45m▀▀░[0;35m▀   [0;33m  [0;35m▀▀▀[0;37;45m▀██▀[0;35;40m▀▀░░░ e[0m
                 [30;45m▓▓▓▓[0m
-                                     [1;32;40m░░[0m  [1;31mmean scheme[0m [1;31m..[0m
+                                     [1;32;40m░░[0m  [1;31m           [0m [1;31m  [0m
 
 
-[35m↓↓[0m
-
-[37mtoo bad the last pack haven''t been released. good luck to all former members![0m'
+[35m↓↓[0m'

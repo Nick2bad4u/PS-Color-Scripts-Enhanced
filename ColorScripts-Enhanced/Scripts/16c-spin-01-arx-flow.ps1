@@ -5,7 +5,7 @@
 # Source SHA-256: a2af1f4f5dea96c59e290a63a881b534302f6538248e3a90c17a3e51f83b2b4c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARX_FLOW.ANS by ARX (SPIN); released in spin-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Author: ARX
 # SAUCE Group: SPIN
 # SAUCE Date: 19980719
@@ -43,10 +43,4 @@ Write-Host '
 [1m┬$$$$$55;;%%%% [0;1;36m,Y$[0;36m$[0;1;37m$[0;36mY, [0;1;37m%%%%%;;;;55555$$$Ii[0m         ^"ⁿ$$╝''        ^"ⁿ$$╝''   [1miiII[0m
 [1m$$$$$55;;;;%%% [0;36m└$$$$$┘ [0;1;37m%%%%;;;55555$$$$Iiii[0m           └┴             └┴      [1miI$[0m
 [1m"$$$$$555;;;;%%%[0m     [1m%%%%%%%;;;;;5555ARXIi[0m                                 [1miiI$$[0m
-[1m- --- - -  ----------------- --------------------------] Clearasil here [--- --[0m
-[1m   funny holliday huhh!!!....noway...it sux big time...raining and stuff..=([0m
-[1m   no people on tha beach and no''ones out...i''m just sittin here,,eating my[0m
-[1m   micro pops...;)))[0m
-[1m   [0m
-[1m [0m [1m Reach:   arx@hotmail.com[0m                  [1m% ArX % ART % 98;19.53 %[0m
-[1m   [0m'
+[1m- --- - -  ----------------- --------------------------] Clearasil here [--- --[0m'

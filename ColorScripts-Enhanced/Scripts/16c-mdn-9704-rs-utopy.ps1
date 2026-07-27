@@ -5,7 +5,7 @@
 # Source SHA-256: 64caaada52dee0e1609027f7b35a8326c8893655d6becfe170e8ef0ffaf3d045
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RS-UTOPY.ANS by rorshack (Maiden Brazil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: u t o p i a
 # SAUCE Author: rorshack
 # SAUCE Group: Maiden Brazil
@@ -32,14 +32,14 @@ Write-Host '
 [1;37m███[0;1;35m▄[0;1;37m▄█[0;1;35m█[0;1;35;45m█▐▌ ▌[0;35m██[0;1;37;45mu   t o [0;35m▄▄[0;1;37;45m p  i   a,   i n  c.[0;35m███[0;1;35;45m░█[0;1;37;40m██[0;1;35;45m█▓░[0;35m██▄[0;1;36m░[0;1;37m▀█▀[0m [35m▄[0;1;35;45m▓███▓░[0;35m██[0;1;35;45m░[0;1;35;40m██[0;1;35;47m▓▒[0;1;37;40m▄██[0m
 
 
-  [1mutopia[0;36m logo by [0;1;37mrorshack[0;36m, [0;1;37mmaiden[0;36m founder[0m
-[37m  [0;36mgreets to [0;1;37mutopia[0;36m sysops, [0;1;37msoulphuree[0;36m and [0;1;37mroyal voomit[0m
-  [36mit is a bit strange.. maybe too big.. all right, it is average :)[0m
+  [1m      [0;36m         [0;1;37m        [0;36m  [0;1;37m      [0;36m        [0m
+[37m  [0;36m          [0;1;37m      [0;36m         [0;1;37m          [0;36m     [0;1;37m            [0m
+  [36m                                                                 [0m
 
-                                                [1;30m(scroll ↓↓)[0m
+                                                [1;30m        ↓↓ [0m
 
 
-                 [1mLet''s create a board[0m           [1;30m [0m [1mCool![0m
+                 [1m                    [0m           [1;30m [0m [1m     [0m
                [1;30m-----------.[0m  [1;30m.---------[0m         [1;30m---.[0m [1;30m.---[0m
                           [1;30m|[0m [1;30m/[0m                      [1;30m|/[0m     [1;30m░░[0m
                           [1;30m|/[0m                   [1m▄▄▄▄▄[0m▄[1m▄▄[0m▄▄▄ [1;30m░[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 63817179957f6f6bb4e226cdbea490af3ca504d1c712353d85a51303f8f4bc8b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: UC-SPAZM.ANS by Unknown Comic (blnt0494); released in blnt0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 90-123
 # Columns: 1-80
 
@@ -18,7 +18,7 @@ Write-Host '
                [30;41m▄[0m                        [1;34m▐█▌    [0;1;36m▐[0;36m█▌ [0;1;34m█▌    [0;36m▄[0;1;36m▌[0m
                                          [1;34m▀[0;34m█▄▄▄[0;1;34m█▀█[0;36m█▄ [0;1;34;44m▀[0;34m▄▄▄[0;1;34m█▀[0m
                                                  [36m▀▀[0m
-                                           [1;34mU[0;36mNKNOWN [0;1;34mC[0;36mOM[0;1;36mi[0;36mC[0m
+                                           [1;34m [0;36m       [0;1;34m [0;36m  [0;1;36m [0;36m [0m
                                             [1;30m·--[0mM[1ma[0mCK[1;30m--·[0m
 [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [30m█████████[0;1m▄▄▄▄[0;30m██████████████████████████████████████████████████████████████████[0m

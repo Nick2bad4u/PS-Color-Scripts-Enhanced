@@ -5,7 +5,7 @@
 # Source SHA-256: 5f8c4934392b96bbedb970730b0fce4bccf27c25b107126adf16dfed0feaf815
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: WW-LOK.ANS by Wetworks (Mistigris); released in mist0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Legion of Knights colly
 # SAUCE Author: Wetworks
 # SAUCE Group: Mistigris
@@ -33,9 +33,9 @@ Write-Host '
                [37m   [0;1;31m■▀ [0m [32m░ [0;37m     [0;32m░ [0;37m  [0;1;31m▀[0m  [32m▒[0;37m [0;1;31m▀[0m  [32m ░▀  ░ [0;37m  [0;1;31m■▀[0m      [32m░[0m
                [37m   [0m     [1;37ml[0;32m [0;1;32me[0;32m g [0;1;30mi o n  o f  k n i g[0;32m h [0;1;32mt[0;32m [0;1;37ms[0m
                          [1;30m1 . 6 o 4 . 4 3 o . 5 9 1 8[0m
-                      [32m    [0;1;30m Op:  Wetworks-/-KesTrel[0m
-                      [32m  [0;1;37m [0;32m [0;1;30m MiSTiGRiS Member Board[0m
-                      [32m [0;37m  [0;32m [0m   [1;30mSEPTiC Distro Site[0m
+                      [32m    [0;1;30m                        [0m
+                      [32m  [0;1;37m [0;32m [0;1;30m                       [0m
+                      [32m [0;37m  [0;32m [0m   [1;30m                  [0m
 
 
 

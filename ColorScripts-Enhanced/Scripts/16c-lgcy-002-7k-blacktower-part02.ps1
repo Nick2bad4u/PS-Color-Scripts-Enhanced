@@ -5,7 +5,7 @@
 # Source SHA-256: 6f0005061362c7dc2657d8e18516ddd2ab777318f52cdc75e47ec817743d798f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 7k-blacktower.ans by The Knight (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Black Tower
 # SAUCE Author: The Knight
 # SAUCE Group: Legacy Krew
@@ -59,5 +59,4 @@ Write-Host '
 [31m ▐[0;1;30;41m░░░░░░[0;31m▄ [0;1;30m▓▓▓[0;31m █[0;1;30;41m░░░░░[0;31m█▄ [0;1;30m▓▓▐[0;1;30;41m▒[0;31m█▓▓[0;1;30;41m▒▒▒▒[0;31m██▄ ▄█[0;1;30;41m░░░░░[0;31m█▄ [0;1;30;41m▒▒░[0;31m░[0;1;30;41m▒▒▒[0;31m█ [0;1;30m▓▓▓▓[0m [1;30;41m▒▒▒▒▒[0;31m [0;1;30m▒▓ [0;1;30;41m▒▒▒░░░[0;31m▌[0m
 [31m [0;30m ▀[0;31m█[0;1;30;41m░░░░░░░[0;31m▄▄▄░▀███████▄[0;1;30;41m░░[0;31m█▀ ░█[0;1;30;41m░░░░░░[0;31m██▀█[0;1;30;41m░░░░░[0;31m██▀░ ░▓[0;1;30;41m░░░░[0;31m [0;1;30m▀▀▀[0m [1;30;41m░░░░░[0;31m [0;1;30m██[0;31m ▀█[0;1;30;41m░░░░[0;31m█[0m
 [1;30m ▓▄[0;31m ▀██████████▀ ▀███████▀░ [0;1;30m█▄ [0;31m▀████▀░ [0;1;30m▄ [0;31m▀████▀ [0;34m [0;1;30m▄█▄ [0;31m▀████▄▄▄▄▄▄██▄ [0;1;30m▓██▄[0;31m ▀████▄[0m
-[1;33m [0;1;30m▀▀▀▀[0;31m  ▀▀▀▀▀▀   [0;1;30m▀▀[0;31m  ▀▀▀▀ [0;1;30m▀[0;34m [0;1;30m▀▀▀▀[0;31m  ▀▀   [0;1;30m▀▀▀▀[0;31m ▀▀  [0;1;30m▀▀▀▀▀▀▀ [0;31m  ▀▀▀▀▀▀▀▀▀▀ [0;1;30m▀▀▀▀▀▀[0;31m  ▀▀▀[0m
-[37m [0;1;30m:[0m ansi by the knight[1;30m ::::::::: -- - -- blacktowerbbs.com:26[0m  [1mThe Black Tower[0;1;30m -[0m'
+[1;33m [0;1;30m▀▀▀▀[0;31m  ▀▀▀▀▀▀   [0;1;30m▀▀[0;31m  ▀▀▀▀ [0;1;30m▀[0;34m [0;1;30m▀▀▀▀[0;31m  ▀▀   [0;1;30m▀▀▀▀[0;31m ▀▀  [0;1;30m▀▀▀▀▀▀▀ [0;31m  ▀▀▀▀▀▀▀▀▀▀ [0;1;30m▀▀▀▀▀▀[0;31m  ▀▀▀[0m'

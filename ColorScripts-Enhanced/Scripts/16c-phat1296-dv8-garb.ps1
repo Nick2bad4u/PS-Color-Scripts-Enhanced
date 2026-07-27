@@ -5,7 +5,7 @@
 # Source SHA-256: 8308d676ff0884e50a2062a6e3536ac119ec908bb120d7c910c1b0c8c94fdaa7
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DV8-GARB.ANS by dv8! (phat!); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: garbage promo!
 # SAUCE Author: dv8!
 # SAUCE Group: phat!
@@ -39,10 +39,4 @@ Write-Host '
 [30;40m▐█████████████████▀                                          ▀█████████████████▌[0m
 [30;40m ▀███████████████                                                               [0m
 
-[37;40m--------------------------------------------------------------------------------[0m
-[37;40mwell, not that much for the pack, but i thougt i had 12 days more to do my [0m
-[37;40mthings. mhhhh, fuck. so you''ll see the now unfinished things in the next pack.[0m
-[37;40merr... 10 minutes left. i''ve got to say goodbye, cause i had to send my ansis[0m
-[37;40mto blade =)[0m
-[37;40mquick greetz to : ave, trc, poti, noize, wiktor, scope, blade, bk, kyp and the[0m
-[37;40mrest of phat and black maiden![0m'
+[37;40m--------------------------------------------------------------------------------[0m'

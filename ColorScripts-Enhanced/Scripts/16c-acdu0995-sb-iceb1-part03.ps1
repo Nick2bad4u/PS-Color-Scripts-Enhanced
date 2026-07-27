@@ -5,7 +5,7 @@
 # Source SHA-256: 7f9dea9dc66272957b599f8e59c1bdddb8e0dccfe0c2b16fefeaa2ac98a6b907
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SB-ICEB1.ANS by Spellbinder (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Ice Box
 # SAUCE Author: Spellbinder
 # SAUCE Group: ACiD Productions
@@ -28,9 +28,9 @@ Write-Host '
           [31;40m████████[0;37;40m ▀[0m            [1;31;43m      ▄▄▄▄▄▄░░[0;33m▌[0m                    [31m█[0m
      [37m▄▄▄▀ [0;31m█████[0;1;31;41m░[0;31m██[0m              [33m▐[0;1;31;43m  ░░▓▓[0;1;31;40m███[0;1;31;43m▓▓▓▓[0;33m▌[0m                    [31m█[0m
 [37m  ▄██▀[0m   [31m▐▀[0m                     [33m▐[0;1;31;43m ░▓▓[0;1;31;40m███████[0;1;31;43m▓░[0;33m▌[0m                    [31m█[0m
-   [37m▀[0m    [31m▄▀[0m                    [1;30m [0m [1;30m<CUTCUTCUTCUT>[0m
-   ███▄▄[31m███[0m               [1;30m I had a low budget, therefor I [0m
-       ▀▀▀▀█▄▄▄      [1;30mhad to cut it rite here and start with de font.[0m
+   [37m▀[0m    [31m▄▀[0m                    [1;30m [0m [1;30m              [0m
+   ███▄▄[31m███[0m               [1;30m                                [0m
+       ▀▀▀▀█▄▄▄      [1;30m                                               [0m
                ▀▀▀  ▄▄▄▄                 [1m▄[0;1;33m█[0;1;33;43m▄[0;1;33;40m▄[0m      [1;33m▄[0m [1m▀█▄[0;1;33m▄[0m        [1;33m▄[0m  [1;30m■[0m
               [1;30m▄[0;1;30;47m▓[0;1;30;40m▄[0m      ▀▀▀▀  ▄▄▄        [1m▐[0;1;33m█[0;1;33;43m▓▓▓[0;33m▌[0;37m [0;1;37m ▄[0;1;33;43m▓[0;1;33;40m▀[0;1;30;40m▄▌[0m [1;47m▓[0m▌[1m▀[0;1;33m█[0;1;33;43m▀[0;33m▀[0;37m [0;1;37m▄[0;1;33;43m▓[0;1;33;40m▀[0m   [1;33m▀[0;1;33;43m▓[0;1;33;40m▄[0;1;30;40m▀▄[0m
                [1;30m▀[0m [1;33m▄[0;1;33;43m▒[0m [1;30m▀[0m       [1;33m ▄▄[0m ▀████▄▄  [1;33m▀▄[0;1;33;43m░[0;33m▀[0;37m  [0;1;33m▓[0;1;33;43m▓[0;33m▌[0;1;30m▐▓[0m  [1m▐[0m     [1;33m▐[0;1;33;43m▓[0;1;33;40m▌[0m  [33m▄[0;37m [0;1;33m▀[0;33m▀[0;37m ░[0;1;30m▄[0;1;30;44m▓[0;1;30;40m▄[0m
@@ -47,9 +47,9 @@ Write-Host '
                   [1;37m▄▄[0m▄    [1;30m░[0m [1;33m▐[0;1;33;43m▒[0m [1;30m▓[0m [1m░░[0m    [1;33m▐[0;1;33;43m▓[0;33m▌[0;37m spellbinder<acid>[0m
                  [1;37;47m▀[0m▀[1m█▀[0;1;47m▄[0m    [1;33m▄▐[0;1;33;43m░[0m [1;30m▒[0m      [1;33m▄[0;1;33;43m▀[0;33m▀[0m
                  [37m [0;1;37m░▄█[0m      [1;33m▀▄[0m [1;30m░[0m   [33m▄■▀[0m
-                  [37m▀ [0;1;37m▀[0m        [1;33m▀■[0m [33m▀[0m   [1;37mil[0;1;32mlnes[0;32ms[0;1;32m swedeh[0;32mq[0;1;32m (belive i[0;32mt[0;1;32m o[0;32mr[0;1;32m no[0;32mt).[0m
-                                      [1;37me[0;1;32mrro[0;32mr[0;1;32m ar[0;32mt[0;1;32m worldh[0;32mq. [0m
-                       [1;32mfarm[0;32mer-[0;1;32msyso[0;32mp:[0;1;32m tosh1[0;32m0 /[0;1;32m blea[0;32mch[0;1;32m^teklord[0;32mz^[0;1;32mea[0;32m.[0m
-   [1;32m [0m                            [1;32mrunnin[0;32mg[0;1;32m oblivio[0;32mn/2[0;1;32m (he should chan[0;32mge[0;1;32m to sc[0;32my).[0m
-                            [1;32m [0;1;36mth[0;1;32me boa[0;32mrd[0;1;32m is [0;1;34ms[0;1;32mom[0;32me[0;1;32m were in d[0;32me[0;1;32m de[0;32mep[0;1;32m forre[0;32mst.[0m
+                  [37m▀ [0;1;37m▀[0m        [1;33m▀■[0m [33m▀[0m   [1;37m  [0;1;32m    [0;32m [0;1;32m       [0;32m [0;1;32m          [0;32m [0;1;32m  [0;32m [0;1;32m   [0;32m   [0m
+                                      [1;37m [0;1;32m   [0;32m [0;1;32m   [0;32m [0;1;32m       [0;32m   [0m
+                       [1;32m    [0;32m   [0;1;32m    [0;32m  [0;1;32m      [0;32m   [0;1;32m     [0;32m  [0;1;32m        [0;32m  [0;1;32m  [0;32m [0m
+   [1;32m [0m                            [1;32m      [0;32m [0;1;32m        [0;32m   [0;1;32m                [0;32m  [0;1;32m      [0;32m   [0m
+                            [1;32m [0;1;36m  [0;1;32m     [0;32m  [0;1;32m    [0;1;34m [0;1;32m  [0;32m [0;1;32m          [0;32m [0;1;32m   [0;32m  [0;1;32m      [0;32m   [0m
                                           [37m^[0;1;30mblue?![0m'

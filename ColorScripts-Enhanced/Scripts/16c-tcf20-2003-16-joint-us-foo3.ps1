@@ -5,7 +5,7 @@
 # Source SHA-256: 63474937a03958813e603e64143949da39e3cc815c51fb94d157ffff48810363
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 2003 - 16 - Joint  - US-FOO3.ANS by Enzo + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-29
 # Columns: 1-80
 
@@ -36,6 +36,6 @@ Write-Host '
 [33;40m ██▀[0;1;31;43m███[0;1;31;47m█▄▓[0;1;31;43m█████████  [0;33m█████▄ ▀█▄▄[0;1;35m▀▀███▀▀[0;33m ▄[0;1;31;43m▄█[0;1;31;40m█[0;1;31;43m▀[0;33m▀ [0m         [33m▄▒█▓ ▒▄▄▄██▄▄██▄█▒▒ [0;32m▒ [0;33m█[0;1;31;43m [0m
 [33m▐[0;1;31;43m█ [0;33m ▀[0;1;31;43m▀██████████████  [0;33m██████▄▄▀▀██████[0;1;31;43m▄██▀[0;1;31;40m▀[0;33m▀   [0;1;30m  [0;33m     ▄██▓██████[0;37;43me0[0;31;43m,[0;37;43mtcf[0;33;40m█████ [0;32;40m▓▌[0;33;40m▐█[0m
 
-[37;40m [0;1;35;40m:: Enzo[0m [1;35m& The Creep Fever[0m [1;35m::[0m
-    [1;31mfor Fubar #3.. Say "NO!" to fornication![0m
+[37;40m [0;1;35;40m       [0m [1;35m                 [0m [1;35m  [0m
+    [1;31m                                        [0m
     [1;31m#27"[0m'

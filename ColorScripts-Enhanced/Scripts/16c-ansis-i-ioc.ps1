@@ -5,7 +5,7 @@
 # Source SHA-256: c890457ddd5673539607f3261dfb496e9bc987d109a506f6f8a77aeab9837bed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: IOC.ANS by Uncle Fester (ansis-i); released in ansis-i and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-47
 # Columns: 1-80
 
@@ -49,10 +49,10 @@ Write-Host '
                              [1;40m▀▀[0;1;47m░▒▓▓▓▓▓▓▒▒▒▒░▓▓▓▓▓▓[0;1;40m▀▀[0m
                                   [1;40m▀▀▀████[0;1;47m▓▓▓[0;1;40m▀▀▀[0m
 
-                              [32mÆ[0;1;32mNS[0;1;37mi: [0;34mU[0;1;34mn[0;1;36mc[0;1;37m£e [0;34mF[0;1;34me[0;1;36ms[0;1;37mτer[0m
+                              [32m [0;1;32m  [0;1;37m   [0;34m [0;1;34m [0;1;36m [0;1;37m   [0;34m [0;1;34m [0;1;36m [0;1;37m   [0m
 
                       [1;37mi [0;1;33mN C U R S [0;1;37mi o [0;1;33mN S   [0;1;37mo [0;1;33mF   C H A [0;1;37mo [0;1;33mS[0m
                            [34m3 1 3  [0;1;34m♦  3 [0;36m8 0  [0;1;34m♦  9 [0;34m2 4 1[0m
-                    [32m-[0;1;32m= [0;1;30mSy[0msO[1mp: [0;1;30mBe[0mast[1mman  [0;1;31m↔  [0;1;30mC[0moO[1mp: [0;1;30mEi[0mnst[1mein [0;1;32m=[0;32m-[0m
-                  [32m-[0;1;32m= [0;1;30m2[0m10[1m+ [0;1;30mOn[0mli[1mne  [0;1;31m↔  [0;1;30mH[0m/[1mP  [0;1;31m↔  [0;1;30mCel[0meri[1mty [0;1;30m1[0m.4[1m0 [0;1;32m=[0;32m-[0m
-                [32m-[0;1;32m= [0;1;30mN[0me[1mw [0;1;30mWa[0mre[1mz  [0;1;31m↔  [0;1;30m96[0m00[1m+ [0;1;30mO[0mNL[1mY  [0;1;31m↔  [0;1;30m1[0m4.[1m4 [0;1;30mv.[0m32b[1mis [0;1;32m=[0;32m-[0m'
+                    [32m [0;1;32m  [0;1;30m  [0m  [1m   [0;1;30m  [0m   [1m     [0;1;31m↔  [0;1;30m [0m  [1m   [0;1;30m  [0m   [1m    [0;1;32m [0;32m [0m
+                  [32m [0;1;32m  [0;1;30m [0m  [1m  [0;1;30m  [0m  [1m    [0;1;31m↔  [0;1;30m [0m [1m   [0;1;31m↔  [0;1;30m   [0m   [1m   [0;1;30m [0m  [1m  [0;1;32m [0;32m [0m
+                [32m [0;1;32m  [0;1;30m [0m [1m  [0;1;30m  [0m  [1m   [0;1;31m↔  [0;1;30m  [0m  [1m  [0;1;30m [0m  [1m   [0;1;31m↔  [0;1;30m [0m  [1m  [0;1;30m  [0m   [1m   [0;1;32m [0;32m [0m'

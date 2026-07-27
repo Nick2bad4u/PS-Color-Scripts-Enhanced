@@ -5,7 +5,7 @@
 # Source SHA-256: a3d920e86ad1fbb8026cf9e7237594796b84f3f5512fade444e5c4ea5b543420
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SA-WBT3.ANS by Sabotage (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: WBT Promo Pic
 # SAUCE Author: Sabotage
 # SAUCE Group: WBT/SHiVER
@@ -59,9 +59,8 @@ Write-Host '
         [1;30m▄▀[0m  [1;30m▀[0m▄▀  [1;33m▀[0m      [33m▒▀[0;1;33m▀▀▀▀[0m   [1;33m▀[0;33m ░[0m   [1;33m▀[0m  [33m░[0m  [33m▀[0;1;33m▀▀[0m    [33m▓▀■[0m   [1;33m▀[0;1;33;43m▒░[0;33m█[0;1;33;43m░▒▓[0;1;33;40m█▀[0m
        [1;30m▐░[0m   █[1;30;47m░[0m                                               [33m▒[0m
 [1;30m────────────[0;1;30;47m▓[0;1;30;40m───────────────────────────────────────────────────────────────────[0m
-[1;33;40mW[0;33mi[0;1;30mld Buffalo░Tamerz 94'' Check the member/site list for bbs''s to apply at.. [0;33mO[0;1;33mr[0m
-[1;33mI[0;33m''[0;1;30mm sure one of our kind WBT''s will hand out their Internet address. Wanna pi[0;33mc[0;1;33mk[0m
-[1;33mu[0;33mp[0;1;30m some cool messages? Set up buffaloNet on your bbs, For more info talk[0;33m t[0;1;33mo[0m
-[1;33ma[0;33mn[0;1;30my senior member.. 100% Original.. Well It wasn''t copied outa com[0;33mi[0;1;33mc..[0m
-[1;30m────────────────────────────────────────────────────────────────────────────────[0m
-'
+[1;33;40m [0;33m [0;1;30m          ░                                                              [0;33m [0;1;33m [0m
+[1;33m [0;33m [0;1;30m                                                                           [0;33m [0;1;33m [0m
+[1;33m [0;33m [0;1;30m                                                                      [0;33m  [0;1;33m [0m
+[1;33m [0;33m [0;1;30m                                                                [0;33m [0;1;33m   [0m
+[1;30m────────────────────────────────────────────────────────────────────────────────[0m'

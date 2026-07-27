@@ -5,7 +5,7 @@
 # Source SHA-256: cc48da47a3e41bc1707cacae631ad01e69385ba34544aadb7d4f6e7687e9429d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: RG!ALBK.ANS by rage (opium); released in blndr006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: aliens playing moonbasket?!
 # SAUCE Author: rage
 # SAUCE Group: opium
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[33m        [0m    [1;33m [0m   [1;33ma[0;33mLieNs [0;1;33mp[0;33mLayIng [0;1;33mm[0;33mOoNbasKet[0;1;32m....[0;33m [0;1;33mn[0;33mAAhHhh[0;1;32m....[0m
+[33m        [0m    [1;33m [0m   [1;33m [0;33m      [0;1;33m [0;33m       [0;1;33m [0;33m         [0;1;32m    [0;33m [0;1;33m [0;33m      [0;1;32m    [0m
            [1;30m▄[0m     [1;30m▄▄█▄▄▄▌[0m [1;30m▄[0m      [1;30m▄[0m     [1;30m▄[0m [1;30m▄ ▄▄▄▄▄▌▄▄▄▄▄▄█▓▄▄▄▄▌  ▄ [0m         [1;30m▄[0m
 [1;30m▐▄███▄▄[0;34m [0;1;30m▄[0;34m▌█████▄█[0;1;30;44m▀▌■[0;34m█[0;1;30;44m▀▀█▀▀[0;34m██▄▄▓[0;1;30;44m■[0;34m█[0;1;30;44m▀█[0;1;30;40m▄[0;1;30;44m███████▀▀▌▀████████[0;1;30;40m██████████▓▄▄▄ ▐▄▄████▄▐[0m
 [1;30;40m█[0;1;30;44m▀▌▀[0;1;34;44m [0;1;30;44m▀[0;1;34;44m     ▄▄▄■    ▄▄▌            [0;1;30;44m▄[0;1;34;44m [0;1;30;44m▄███████■ [0;34m███[0;1;30;44m▀█▌▀█▀[0;1;30;40m███[0;1;30;44m███[0;1;30;40m█████████████████▀[0m
@@ -52,5 +52,5 @@ Write-Host '
   [1;30m▀▀▀▌▀[0;34m [0;37m  [0;32m▀▀[0;37m  [0;32m▐▀[0;37m  [0;32m▀[0;1;30m▀▀[0m   [1;30m▐▀▀▀ ▀▀▀▐██▀██████▓▀ ▀▀[0m    [1;30m▀▀[0m [1;30m▀[0m [1;30m▌[0m [1;30m▀▀[0m   [1;30m▀[0m [1;30m▀▀[0;34m [0;1;30m▀▀[0m
                                       [1;30m▀[0m
 [32m─────────────────────────────────────────────────────────────────────────────── [0m
-[1;32m [0m          [1;31ma[0;33mnsi [0;1;31mb[0;33my [0;1;37mrage[0;33m [0;1;31mo[0;33mf [0;1;37mopium[0;33m [0;1;31mf[0;33mor [0;1;31mc[0;33mompo [0;1;31mo[0;33mn [0;1;33m#[0;1;31mb[0;33mlender[0;1;33m,[0;33m [0;1;31md[0;33mec[0;1;33m,[0;33m [0;1;31mi[0;33m996[0m
+[1;32m [0m          [1;31m [0;33m    [0;1;31m [0;33m  [0;1;37m    [0;33m [0;1;31m [0;33m  [0;1;37m     [0;33m [0;1;31m [0;33m   [0;1;31m [0;33m     [0;1;31m [0;33m  [0;1;33m [0;1;31m [0;33m      [0;1;33m [0;33m [0;1;31m [0;33m  [0;1;33m [0;33m [0;1;31m [0;33m   [0m
 [32m─────────────────────────────────────────────────────────────────────────────── [0m'

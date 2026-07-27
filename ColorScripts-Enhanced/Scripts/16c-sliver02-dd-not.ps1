@@ -5,7 +5,7 @@
 # Source SHA-256: 3e3f0a37e1e829b362eb4dd706aef698d2e22596cec9b2280a00f724871d161a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DD-NOT.ANS by dadrip (sliver); released in sliver02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: nOthing EMAG!
 # SAUCE Author: dadrip
 # SAUCE Group: sliver
@@ -15,10 +15,10 @@
 # Columns: 1-80
 
 Write-Host '
-                  pump
+                      
                   me
-                  harder
-                       \             [1;31m▄▄[0;33m██    [0;37moh yes dear!![0m
+                        
+                                     [1;31m▄▄[0;33m██    [0;37m             [0m
                            [1;33m▄███▀▄    [0;1;37m▄[0;1;31m▀█[0;33m██  [0;37m/i like it up[0m
                          [1;33m▄▀[0;1;37m▄ [0;1;31m█[0;1;33m█▀█    [0;1;37m▄▀[0;1;31m██[0;33m██  [0;37mthe anal...[0m
             [37m████▀▀[0m         [1;37m▄▀[0;1;31m▄[0;1;33m█▄▀▄  [0;1;31m▀▄█[0;1;5;31m▀█[0;1;31m█   [0mohhh i like this magazine!!!
@@ -30,7 +30,4 @@ Write-Host '
           ████████[1;5;32;47m■[0m ▄█▄▄[1;5;31m▀▀▄  [0;33m▀[0;1;31m▀  ▓██▀ ██[0;1;5;31m▌  [0;1;33msuggested position while reading[0m
          [33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m       [1;31m██▌  ██   [0;1;37mnothing EMAG[0m
          [33m██[0m             [33m██[0m       [1;31m██   ██[0m
-         [33m██[0m             [33m██[0m      [1;31m▄██  ▄██[0m
-
-
-[1;37mANSI BY DA DRUG[0m'
+         [33m██[0m             [33m██[0m      [1;31m▄██  ▄██[0m'

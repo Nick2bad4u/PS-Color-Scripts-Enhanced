@@ -5,7 +5,7 @@
 # Source SHA-256: 5639822b2ca42274c9c976b9f9fc206e917a06c75369994607194d441bc653e0
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: sm-dungeon.ans by Smooth + Asphixia (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Dungeon BBS (remix)
 # SAUCE Author: Smooth
 # SAUCE Group: Fuel
@@ -45,11 +45,11 @@ Write-Host '
 [37m   [0;1;30m▄▀█[0;1;30;42m▄[0;1;30;40m▀░░  [0m                                                         [1;30m ░░▀█[0;1;30;42m▄[0;1;32;40m▀[0;32m▄[0m
 [37m  [0;1;30m█▄[0;1;30;42m▓[0;1;30;40m░[0m   [1;35m [0m                                                            [1;35m [0m   [1;30m░[0;1;30;42m▓[0;1;30;40m▄█[0m
   [1;30m█[0;1;30;42m▓▒[0m                                                                      [1;30;42m▒▓█[0m
-  [1;30m█[0m [1;30;42m▓[0m             [1;35mDungeon BBS . running Mystic BBS v1.12 a39[0;31m [0m              [1;30;42m▓[0m [1;30m█[0m
-  [1;30m█ ░[0m               [35m  telnet: dungeon.bbs.io port 2323[0m                     [1;30m░ █[0m
-  [1;30m█[0m          [1;35msysop: Smooth . [0;1;37mFUEL[0;1;35m Member Board . [0;1;37mPHENOM[0;1;35m Member Board[0m         [1;30m█[0m
-  [1;30m█[0m [1;30m░[0m                   [35mhosted on Amazon Web Services[0m                      [1;30m░[0m [1;30m█[0m
-  [1;30m█[0m [1;30m▒[0m                  [1;35mArakNet / PInet / Commodore Net[0m                     [1;30m▒[0m [1;30m█[0m
+  [1;30m█[0m [1;30;42m▓[0m             [1;35m                                          [0;31m [0m              [1;30;42m▓[0m [1;30m█[0m
+  [1;30m█ ░[0m               [35m                                  [0m                     [1;30m░ █[0m
+  [1;30m█[0m          [1;35m                [0;1;37m    [0;1;35m                [0;1;37m      [0;1;35m             [0m         [1;30m█[0m
+  [1;30m█[0m [1;30m░[0m                   [35m                             [0m                      [1;30m░[0m [1;30m█[0m
+  [1;30m█[0m [1;30m▒[0m                  [1;35m                               [0m                     [1;30m▒[0m [1;30m█[0m
   [1;30m ▀█▄▄   [0m                                                            [1;30m   ▄▄█▀[0m
   [1;30m▀[0;32m▄[0;37m  [0;1;30m▀▀▀▄▄▄▄[0m                                                      [1;30m▄▄▄▄▀▀▀[0m  [32m▄[0;1;30m▀[0m
 [32;44m█[0;32;40m▄[0;37;40m  [0;1;32;40m▀[0;1;30;40m▀▀▀▄[0;36m▄▄[0;37m  [0;1;30m▀▀▀▄▄▄▄▄▄[0m                                    [1;30m▄▄▄▄▄▄▀▀▀[0m  [36m▄▄[0;1;30m▄▀▀▀[0;1;32m▀[0m  [32m▄[0;32;44m█[0m
@@ -57,10 +57,10 @@ Write-Host '
 [32m▄▄▄[0;1;36m▀[0m [1;32;42m█▀[0;32m▀▄[0;1;32;42m▄█[0;32m▄▀▄▄[0;37m [0;32m▄ [0;37m [0;1;32m▀▀[0;32m▀▀▀▄▄▄▄▄[0m     [1;30m▀▀▀[0m     [1;30m▀▀▀[0m      [32m▄▄▄▄▄▀▀▀[0;1;32m▀▀[0m [32m ▄[0;37m [0;32m▄▄▀▄[0;1;32;42m▄█[0;32m▄▀[0;1;32;42m█▀[0m [1;36m▀[0;32m▄▄▄[0m
 [32m█▀[0;37m  [0;32m▀[0m     [32m▀[0;1;36m▀[0m [32m▀▀▀[0;37m  [0;32m▀▀  [0m        [32m▀▀▀▀▀▄▄[0;1;32m▄[0;1;36m▄[0;1;37m▄[0;1;36m▄[0;1;32m▄[0;32m▄▄▀▀▀▀▀▀[0m         [32m ▀▀[0;37m  [0;32m▀▀▀[0;37m [0;1;36m▀[0;32m▀[0m     [32m▀[0;37m  [0;32m▀▀[0m
 
-[37m   [0;1;30mI was hoping that Asphixia would  [0m  █    [1;30mmemory of him, I dedicate this[0m
-  [1;30mhave been able to see and enjoy[0m     ▀[1;47m▀[0m▀   [1;30mANSI to one of ACiD''s amazing[0m
-[32m [0;37m [0;1;30mthis remix, but heard that he had  [0m  [1;47m▄[0m    [1;30martists and may you never be[0m
-[36m ▀[0;37m [0;1;30mpassed away a few years ago.  In[0m         [1;30mforgotten.[0m  [1;30m- Smooth <Fuel>[0m       [36m▀[0m
+[37m   [0;1;30m                                  [0m  █    [1;30m                              [0m
+  [1;30m                               [0m     ▀[1;47m▀[0m▀   [1;30m                             [0m
+[32m [0;37m [0;1;30m                                   [0m  [1;47m▄[0m    [1;30m                            [0m
+[36m ▀[0;37m [0;1;30m                                [0m         [1;30m          [0m  [1;30m               [0m       [36m▀[0m
 [32m█[0;36m▄[0m                                                                            [36m▄[0;32m█[0m
 [37m [0;32m▀[0;1;32;42m▒[0;32m▄▄[0;1;32;42m▄[0;32m▄[0m                                                                  [32m▄[0;1;32;42m▄[0;32m▄▄[0;1;32;42m░[0;32m▀[0m
 [37m    [0;32m▀▀[0;37m [0;32m▄▀█▄[0;37m [0;1;32m▀■[0m         [1;33m *[0;1;36m In Memory of Asphixia [0;36m<[0;1;36mACiD[0;36m> [0;1;33m*  [0m        [1;32m■▀[0m [32m▄█▀▄[0;37m [0;32m▀▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: 45afc860f33bb76d2be737609ed0667bdc5bbfb465803f01ac9330c6b05b4270
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SP-TOP10.ANS by spinal (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: top10
 # SAUCE Author: spinal
 # SAUCE Group: phobia
@@ -32,7 +32,7 @@ Write-Host '
 
 
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m
-   [1;37mWelps.. this one is for choff and his board.. hmm.. mortal dreams? :)[0m
-   [1;37mI haven''t been drawin'' for like.. one month so i''m not 100% pleased[0m
-             [1;37mwith the logo and the rest of the shit.  //spinal[0m
+   [1;37m                                                                     [0m
+   [1;37m                                                                   [0m
+             [1;37m                                                 [0m
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m'

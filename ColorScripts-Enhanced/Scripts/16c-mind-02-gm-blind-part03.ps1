@@ -5,7 +5,7 @@
 # Source SHA-256: b0d78b8c56615e8be1ee6fee3659c4e53754f03627f71a39909d255216fd5ef6
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GM-BLIND.ANS by G-Man (mind-02); released in mind-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 74-115
 # Columns: 1-80
 
@@ -43,12 +43,12 @@ Write-Host '
                            [1;37;47m▓ [0;1;30;47m■ Blind Faith ■ ▓[0m
                            [1;37;47m░[0;1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
 
-                [1;37;40m■ B[0;1;36;40ml[0;36mi[0;37mnd [0;1;30mFaith ■ Sysop: The Mystic K[0mni[36mg[0;1;36mh[0;1;37mt ■[0m
-         [1;37m■ 7[0;1;36m1[0;36m3[0;37m.48[0;1;30m0-5705 ■ Runnin'' Latest Insomnia ■ Insomn[0mia[36mN[0;1;36me[0;1;37mt ■[0m
-                    [1;37m■ 3[0;1;36mo[0;36mo M[0;37meg[0;1;30ms ■ 9600+ ■ 0 Day [0mWa[36mr[0;1;36me[0;1;37mz ■[0m
-       [1;37m■ M[0;1;36mi[0;36mN[0;37mDL[0;1;30mESS/HQ ■ DESTiNY Distribution ■ Sinister Affi[0mli[36ma[0;1;36mt[0;1;37me ■[0m
-              [1;37m■ M[0;1;36mi[0;36mN[0;37mDL[0;1;30mESS Net ■ Large Provider of Art [0mFi[36ml[0;1;36me[0;1;37ms ■[0m
-         [1;37m■ S[0;1;36mu[0;36mp[0;37mpo[0;1;30mrting Groups : iCE//┤CiD/LEGACY/SPECTRE/X[0mAP[36mA[0;1;36mR[0;1;37mT ■[0m
-                       [1;37m■ H[0;1;36mi[0;36mP[0;37mE[0;1;30m/[0mM[1;30m/┤X/SLAM/iMAG[0mE[1;30m/[0mH[36my[0;1;36mP[0;1;37mE ■[0m
+                [1;37;40m■  [0;1;36;40m [0;36m [0;37m   [0;1;30m      ■                    [0m  [36m [0;1;36m [0;1;37m  ■[0m
+         [1;37m■  [0;1;36m [0;36m [0;37m   [0;1;30m       ■                         ■       [0m  [36m [0;1;36m [0;1;37m  ■[0m
+                    [1;37m■  [0;1;36m [0;36m   [0;37m  [0;1;30m  ■       ■       [0m  [36m [0;1;36m [0;1;37m  ■[0m
+       [1;37m■  [0;1;36m [0;36m [0;37m  [0;1;30m       ■                      ■              [0m  [36m [0;1;36m [0;1;37m  ■[0m
+              [1;37m■  [0;1;36m [0;36m [0;37m  [0;1;30m        ■                       [0m  [36m [0;1;36m [0;1;37m  ■[0m
+         [1;37m■  [0;1;36m [0;36m [0;37m  [0;1;30m                    ┤                    [0m  [36m [0;1;36m [0;1;37m  ■[0m
+                       [1;37m■  [0;1;36m [0;36m [0;37m [0;1;30m [0m [1;30m ┤           [0m [1;30m [0m [36m [0;1;36m [0;1;37m  ■[0m
 
-          [35m⌐ ANSi by: [0;1;35mThe G-Man [0;35m¬   ⌐ [0;1;35mMiNDLESS [0;35mProductions ''93 ¬[0m'
+          [35m⌐          [0;1;35m          [0;35m    ⌐ [0;1;35m         [0;35m                 [0m'

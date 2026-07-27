@@ -5,7 +5,7 @@
 # Source SHA-256: 66215f0aaad362f27227ef4204666e78ed1ea9b2c78a424560d951b5836c3e56
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LRY-RZ01.ANS by lArrY (PHaT); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: RaVe ZoNe 8oLiNeS
 # SAUCE Author: lArrY
 # SAUCE Group: PHaT
@@ -35,17 +35,17 @@ Write-Host '
 
                     [1;30m.  o  O  ( R A V E   Z O N E )  O  o  .[0m
 
-                [1;30m■[0mHARD BεHAVi0UR εXCiTATi0N εUR0PεAN HεADQUARTεR[1;30m■[0m
-     [1;30m■[0mNεW LiNε εUR0PεAN HεADQUARTεR[1;30m■[0mMεMBεRS 0F MAYDAY εUR0PεAN HεADQUARTεR[1;30m■[0m
-            [1;30m■[0mPHAT PR0B0ARD HεADQUARTεR[1;30m■[0mTHε BRAiN DAMAGεD DiST SiTε[1;30m■[0m
-            KεiTH 3O3 DiST SiTE[1;30m■[0mSDi DiST SiTε[1;30m■[0mTHε FACT0RY DiST SiTε[1;30m■[0m
-                   [1;30m■[0mTHε CRYPTiC PRεDiCTi0N W0RLD HεADQUARTεR[1;30m■[0m
-        ▄▀ ▄             [1;30m■[0mPÖSε PUBεN W0RLD HεADQUARTεR[1;30m■[0m             ▄ ▀▄
+                [1;30m■[0m                                              [1;30m■[0m
+     [1;30m■[0m                             [1;30m■[0m                                      [1;30m■[0m
+            [1;30m■[0m                         [1;30m■[0m                           [1;30m■[0m
+                               [1;30m■[0m             [1;30m■[0m                     [1;30m■[0m
+                   [1;30m■[0m                                        [1;30m■[0m
+        ▄▀ ▄             [1;30m■[0m                            [1;30m■[0m             ▄ ▀▄
       [1;30;47m▓[0m▀     [1;30m▀[0m■           [1;30m■[0mDJ SKYJUMP TεAM DiST SiTε![1;30m■[0m           ■[1;30m▀[0m     ▀[1;30;47m▓[0m
      [1;30;47m▓[0m   [1;30m■    [0m■       [1;30m░[0m                                  [1;30m░[0m       ■[1;30m    ■[0m   [1;30;47m▓[0m
-[1;30m    [0;1;30;47m▓[0m     [1;30m■  [0m■      [1;30m░[0m     [1;30m[FUN/MODULS/DEMOS/PARTiES!][0m      [1;30m░[0m      ■[1;30m  ■[0m     [1;30;47m▓[0;1;30;40m    [0m
+[1;30m    [0;1;30;47m▓[0m     [1;30m■  [0m■      [1;30m░[0m     [1;30m                           [0m      [1;30m░[0m      ■[1;30m  ■[0m     [1;30;47m▓[0;1;30;40m    [0m
 [1;30;40m   [0;1;30;47m▒[0m                 [1;30m░[0m                                    [1;30m░[0m                 [1;30;47m▒[0;1;30;40m   [0m
-[1;30;40m   [0;1;30;47m▒[0m                       [1;30m[ANSi[0mARt[1;30mbY[0mlArrY[1;30moF[0mPHaT[1;30m`95][0m                        [1;30;47m▒[0;1;30;40m   [0m
+[1;30;40m   [0;1;30;47m▒[0m                       [1;30m     [0m   [1;30m  [0m     [1;30m  [0m    [1;30m    [0m                        [1;30;47m▒[0;1;30;40m   [0m
 [1;30;40m   [0m■▀              [1;30m░░[0m                                      [1;30m░░[0m              ▀■[1;30m   [0m
 [1;30m    [0;1;30;47m▒[0m              [1;30m▒[0m                                        [1;30m▒[0m              [1;30;47m▒[0;1;30;40m    [0m
 [1;30;40m    [0m■                [1;30m▒░[0m    [1;30m░[0m  [1;30m░[0m                          [1;30m░▒[0m                ■[1;30m    [0m

@@ -5,7 +5,7 @@
 # Source SHA-256: aa02d1caab0f4907b1000dadc96c77f297181202c912a14eec274e97449844d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MAY-OBS.ANS by maytag happy bday! (epic); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: obsolete
 # SAUCE Author: maytag happy bday!
 # SAUCE Group: epic
@@ -39,13 +39,11 @@ Write-Host '
 [1;35;44m░[0;34m██[0;37m [0;33m█[0;33;47m▓[0;33;40m██[0;30;43m▄[0;33;40m██ [0;37;40m [0;1;31;40m  ▐ ▀▐██▄▄[0m    [1;31m▀▀▀▀▀▀█████████▀▀▀[0;33m▀[0m
 [34m████▄[0;33m▀▀▐█▀▌ [0;37m [0;1;31m   █ ▐█████▌▌▄             [0m
 
-[1;30mwell well... this is the first time ive drawn a matrix  in like 3 years...[0m
+[1;30m                                                                          [0m
 [1;30mwow...[0m
-[1;30mthere is no obsolete bbs so anyone can use this (if there are any left)[0m
-[1;30ma guy ive known at school for about a year finally found out my oldschool bbs[0m
-[1;30mhandle... and was shocked... he was a fan of a local group (thug) in which i[0m
-[1;30mwas a member... ("yer corrosion?!") he said he had always wanted to meat me and[0m
-[1;30mthe other good artists of the group (for a local group we kicked, unsane was [0m
-[1;30min it ;))[0m
-[1;30manyways this is for you ian[0m
-[1;30mkeep dos running... dont pimp out yer box to mega-hard (you know what i mean)[0m'
+[1;30m                                                                       [0m
+[1;30m                                                                             [0m
+[1;30m                                                                            [0m
+[1;30m                                                                               [0m
+[1;30m                                                                             [0m
+[1;30min it ;))[0m'

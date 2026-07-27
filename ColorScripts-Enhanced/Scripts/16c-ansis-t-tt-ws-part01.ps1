@@ -5,7 +5,7 @@
 # Source SHA-256: 8cb8fb5d1cda27d6a12cd1db5c1c93fad289b78b5f2825a317c721dd52132972
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TT-WS.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-49
 # Columns: 1-80
 
@@ -57,5 +57,4 @@ Write-Host '
 [1;31m  █[0m         [1;31m■[0m                       [31m■    [0;1;31m■[0m                    [1;31m■[0m               [1;31m█[0m
 [1;31m  █[0m                 [1;31m■[0m                                        [31m■[0m                [1;31m█[0m
 [1;31m  ▌[0m                                                                           [1;31m▐[0m
-                                                                              [1;31m▐[0m
-'
+                                                                              [1;31m▐[0m'

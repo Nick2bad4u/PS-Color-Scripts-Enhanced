@@ -5,7 +5,7 @@
 # Source SHA-256: 0e80643ec2493e73b8c7e13d2c2648d9033247a260dd8c5d2b04260d62695965
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-QUEND.ANS by Ize + Noah (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: quendi matrix
 # SAUCE Author: noah + ize
 # SAUCE Group: fusion
@@ -35,6 +35,4 @@ Write-Host '
 [1;36;46m [0;1;36;40m████▄[0;33m [0;1;33;43m░[0;33m [0;1;33;43m░[0;33m█▓▀[0;1;33;43m░[0;33m▓▒[0;37m  [0;1;30m▀▀[0;1;30;47m██▓▓░░[0m█[1;47m▓░░[0m██[1;30;47m░░▓▓██[0;1;30;40m▓░[0m [1;36;46m [0;1;36;40m███[0;1;36;46m▀[0;36m▀[0;1;36m [0;36m█[0;1;36m█ ███████████████████████[0;1;33m██[0;1;37m█[0;1;36m███[0m
 [1;36;46m [0;1;36;40m████ [0;33m▄▀  [0;1;33;43m░[0;33m▓ [0;1;33;43m░[0;33m▒░[0;36m▄[0;1;36;46m▄[0;1;36;40m█▄▄▄[0m  [1;30m▀[0m▀▀▀[1;30;47m  ░░▓▓[0;1;30;40m▀▀▀░░[0m [1;36;46m [0;1;36;40m█████[0;1;36;46m▄[0;1;36;40m▄[0;36m▄[0;1;36m ▄▄▄[0;36m▄[0;1;36m █████████████████████[0;1;33m█[0;1;37m█[0;1;36m██[0m
 [1;36;46m [0;1;36;40m██[0;1;36;46m▀[0;1;36;40m▀[0;1;36;46m▄[0;1;36;40m▄▄[0;33m ▀  █▒░▄[0;1;36;46m▄[0;1;36;40m██████████▄▄▄▄[0m [1;30m░░[0m [1;36;46m [0;1;36;40m▄▄▄[0;1;36;46m▄[0;1;36;40m████[0;1;36;46m▀[0;1;36;40m▀[0;36m▀[0;1;36m ▄▄[0;36m▄[0;1;36m ███████████████████[0;1;33m█████[0;1;37m█[0;1;36m███[0m
-[1;36;46m [0;1;36;40m█████████ [0;33m▀ [0;36m▄[0;1;36m▄[0;1;36;46m▄[0;1;36;40m█████████████████████████████████[0;1;36;46m█▄[0;1;36;40m▄▄▄███████████████████[0;1;33;40m█[0;1;36;40m██████[0m
-[1;36;40m        [0m
-           [36mnoah did the outline and ize did the shading + background :)[0m'
+[1;36;46m [0;1;36;40m█████████ [0;33m▀ [0;36m▄[0;1;36m▄[0;1;36;46m▄[0;1;36;40m█████████████████████████████████[0;1;36;46m█▄[0;1;36;40m▄▄▄███████████████████[0;1;33;40m█[0;1;36;40m██████[0m'

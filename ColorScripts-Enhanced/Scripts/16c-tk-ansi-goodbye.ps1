@@ -5,7 +5,7 @@
 # Source SHA-256: ae98e7c0f29a949f9eb7e36dddb84bc9af94f0d39766414313e8cf3aaf4188b2
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: GOODBYE.ANS by Tank (ACiD Productions); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Electric Commune Goodby Screen
 # SAUCE Author: Tank
 # SAUCE Group: ACiD Productions
@@ -38,4 +38,4 @@ Write-Host '
      [1;36m▀[0;1;35m▐[0;1;30m▒▓█[0;1;30;47m▓[0;35m▌  [0;1;35m▐[0;1;35;47m [0;1;37;47m░▒▓[0;35m▌[0;1;35m▐[0;1;37;47m▓▒░[0;35m▌   [0;1;35m▐[0;1;30m▓▒░[0;35m▌[0;1;35m▐[0;1;30m▒▓█[0;35m▌   [0;1;35m▐[0;1;37;47m▒▓█[0;35m▌ [0;1;35m▐[0;1;37;47m▒░ [0;1;30;47m░▒▓[0;35m▌[0;1;35m▐[0;1;30m▓▒░[0;35m▌  [0;1;35m▐[0;1;30;47m▒░ [0;35m▌[0;1;35m▐[0;1;37;47m░▒▓█▓[0;35m▌[0;1;36m▀▄▀[0m
 [1;36m▀▄ ▄▀▄▀   ▀▄[0m                                                       [1;36m▀▄  ▀▄▀[0m     [1;36m▄[0m
 [1;36m  ▀▄   ▄▀▄▀[0m                 [1;37mI[0mde[1;30ma [0;1;37mB[0my[1;30m:[0;1;35mSlyce [0;1;31mV[0;1;37mS[0;1;34mí[0m                        [1;36m▀▄▀▄▄   ▄▀[0m
-                            [1;37mA[0mns[1;30mi [0;1;37mB[0my[1;30m:[0;1;35mSlyce [0;1;31mV[0;1;37mS[0;1;34mí [0;1;33m& [0;1;37mT[0;1;36ma[0;1;34mn[0;34mk [0;1;32m<[0;32mAC[0;1;32mi[0;32mD[0;1;32m>[0;36m''92''[0m           [1;36m▀▄▀[0m'
+                            [1;37m [0m  [1;30m  [0;1;37m [0m [1;30m [0;1;35m      [0;1;31m [0;1;37m [0;1;34m  [0;1;33m  [0;1;37m [0;1;36m [0;1;34m [0;34m  [0;1;32m [0;32m  [0;1;32m [0;32m [0;1;32m [0;36m    [0m           [1;36m▀▄▀[0m'

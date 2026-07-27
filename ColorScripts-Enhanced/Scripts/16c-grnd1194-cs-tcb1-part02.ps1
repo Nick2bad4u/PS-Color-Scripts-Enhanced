@@ -5,22 +5,22 @@
 # Source SHA-256: 16e1a32d81995612de143611cc7215f9b0167f5d8aea9a38204b39009c558136
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CS-TCB1.ANS by Cryptic Stench (grnd1194); released in grnd1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 51-100
 # Columns: 1-80
 
 Write-Host '
                                    [31m█ ▌    ▐█[0m
-                                   [31m█ ▌[0m     [31m█  B[0;1;30morn [0;31mt[0;1;30mhrough [0;31mm[0;1;30modern [0;31md[0;1;30may [0;31ms[0;1;30mcience[0m
-                                   [31m█ ▌[0m     [31m█  M[0;1;30man [0;31mh[0;1;30mas [0;31mm[0;1;30made [0;31mh[0;1;30mis [0;31ml[0;1;30mast [0;31mm[0;1;30mistake[0m
-                                   [31m█ ▌[0m     [31m█  A c[0;1;30mreature [0;31ms[0;1;30mo [0;31mh[0;1;30mideously [0;31mh[0;1;30morrible[0m
-                                   [31m█ ▌[0m     [31m█  L[0;1;30meaving [0;31mn[0;1;30mothing [0;31mt[0;1;30mo [0;31mw[0;1;30maste[0m
-                                   [31m█ ▌[0m     [31m█  E[0;1;30mvil [0;31mh[0;1;30mas [0;31ma n[0;1;30mew [0;31mf[0;1;30mace,[0m
-                                   [31m█ ▌[0m     [31m█  A m[0;1;30mangled [0;31mh[0;1;30morrible [0;31mf[0;1;30mace[0m
-                                   [31m█ ▌[0m     [31m█  H[0;1;30mis [0;31mv[0;1;30miews [0;31ma[0;1;30mre [0;31mt[0;1;30mhose [0;31mo[0;1;30mf [0;31md[0;1;30meath,[0m
-                                   [31m█ ▌[0m     [31m█  N[0;1;30mothing [0;31mw[0;1;30mill [0;31ms[0;1;30mtop [0;31mh[0;1;30mis [0;31ml[0;1;30must[0m
+                                   [31m█ ▌[0m     [31m█   [0;1;30m    [0;31m [0;1;30m       [0;31m [0;1;30m      [0;31m [0;1;30m   [0;31m [0;1;30m      [0m
+                                   [31m█ ▌[0m     [31m█   [0;1;30m   [0;31m [0;1;30m   [0;31m [0;1;30m    [0;31m [0;1;30m   [0;31m [0;1;30m    [0;31m [0;1;30m      [0m
+                                   [31m█ ▌[0m     [31m█     [0;1;30m        [0;31m [0;1;30m  [0;31m [0;1;30m         [0;31m [0;1;30m       [0m
+                                   [31m█ ▌[0m     [31m█   [0;1;30m       [0;31m [0;1;30m       [0;31m [0;1;30m  [0;31m [0;1;30m    [0m
+                                   [31m█ ▌[0m     [31m█   [0;1;30m    [0;31m [0;1;30m   [0;31m   [0;1;30m   [0;31m [0;1;30m    [0m
+                                   [31m█ ▌[0m     [31m█     [0;1;30m       [0;31m [0;1;30m        [0;31m [0;1;30m   [0m
+                                   [31m█ ▌[0m     [31m█   [0;1;30m   [0;31m [0;1;30m     [0;31m [0;1;30m   [0;31m [0;1;30m     [0;31m [0;1;30m  [0;31m [0;1;30m     [0m
+                                   [31m█ ▌[0m     [31m█   [0;1;30m       [0;31m [0;1;30m    [0;31m [0;1;30m    [0;31m [0;1;30m   [0;31m [0;1;30m   [0m
                                    [31m█ ▌[0m     [31m█[0m
-                                   [31m█ ▌[0m     [31m█  -C[0;1;30mannibal [0;31mC[0;1;30morpse [0;31m"M[0;1;30mangled"[0m
+                                   [31m█ ▌[0m     [31m█    [0;1;30m        [0;31m [0;1;30m      [0;31m  [0;1;30m       [0m
                                [31m·   █ ▌  ·  █ ·[0m
                              [31m·  ■ ·█ ▌ ·■· █ ■· ·[0m
                               [31m■··■ █ ▌· ■· █ ·■·■·[0m
@@ -58,5 +58,5 @@ Write-Host '
 [31;40m    ▐  ▐  ▌    [0;33;40m█[0m                                               [33;40m█    [0;31;40m▐ ▌   █[0m
 [31;40m    ▐  ▐  ▌    [0;33;40m█[0m                 [31;40m4[0;33;40m1[0;31;40m4[0;33;40m.[0;31;40m4[0;33;40m9[0;31;40m4[0;33;40m.[0;31;40m0[0;33;40m76[0;31;40m9[0m                  [33;40m█    [0;31;40m▐ ▌   █[0m
 [31;40m    ▐  ▐[0m                                                            [31;40m▐[0m     [31;40m▐[0m
-[31;40m    ▐  ▐[0;1;30;40mANSi BY CRYPTiC STeNCH/GRiND[0m                                [31m▐[0m     [31m▐[0m
+[31;40m    ▐  ▐[0;1;30;40m                            [0m                                [31m▐[0m     [31m▐[0m
 [31m    ▐[0m                                                                     [31m▐[0m'

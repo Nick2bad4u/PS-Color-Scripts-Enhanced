@@ -5,7 +5,7 @@
 # Source SHA-256: 1614659ff5b5356c5b318507d6b0a0e8ebdddf095a1170a3ffc22a003d452194
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: CU-TM.ICE by Cold and Ugly (iCE); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Tainted Meat
 # SAUCE Author: Cold and Ugly
 # SAUCE Group: iCE
@@ -38,5 +38,4 @@ Write-Host '
 [34m█▄███████▄▀[0;37m [0;33m▀[0;1;33;43m░[0;33m▄▄[0;1;33;43m░░▒▓▀  [0;33m▀▀[0;34m  ▄▄ ▓ ▀█▀█▄▀██ █▀ ▄▄[0;35m [0;33m▄[0;1;33;43m▒[0;33m▄[0;37m [0;34m▀█[0;37m [0;1;35;45m▒▀[0;35m█▀▀▀▀[0;34m▄▄ ▄▀▄▄▌[0;37m [0;35m█[0;1;35;45m█▓██▄▄▓▒[0m
 [34m█▀██▄██▄█▀ █▄[0;37m [0;33m▀▀█[0;1;33;43m░[0;33m█▀▀[0;34m▄▄██▀ ▄▀██ █▀▄█▄ ▄█▀█▄ █ ▄[0;35m [0;33m▀[0;35m [0;34m ▀[0;35m▄▀▀[0;34m▄▄ ▀▄█[0;37m [0;35m▄ [0;34m▀███▀[0;35m▐[0;1;35;45m▓▐[0;1;35;47m▓[0;1;35;45m█▓▀░[0;35m█▀[0m
 [34m▀▀▀▀▀▀▀ ▀ ▀▀▀▀▀ [0;37m    [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m   [34m▀▀▀▀▀▀▀ [0;37m [0;1;35;45m░[0;35m▄▄[0;37m  [0;35m▄[0;1;35;45m▄██▀▒▒[0;35m▀▀[0;37m [0;34m▀[0m
-[35m [0;1;30m- C[0mo[1mld and Ugly[0m/[1mi[0;1;31mC[0;31mE[0;37m [0;1;30m..[0m [33m.[0;1;30m.[0m [1;30m.[0;33m.[0;1;30m. .[0;33m.....[0;1;33m. [0;1;37mTainted Meat[0;1;33m .[0;33m..[0;1;30m..[0;33m.[0;1;30m...[0m [1;30m..[0;35m▀▀█[0;1;35;45m▓▀[0;35m█▀▀▀[0;37m [0;1;30m.[0m
-'
+[35m [0;1;30m- C[0mo[1mld and Ugly[0m/[1mi[0;1;31mC[0;31mE[0;37m [0;1;30m..[0m [33m.[0;1;30m.[0m [1;30m.[0;33m.[0;1;30m. .[0;33m.....[0;1;33m. [0;1;37mTainted Meat[0;1;33m .[0;33m..[0;1;30m..[0;33m.[0;1;30m...[0m [1;30m..[0;35m▀▀█[0;1;35;45m▓▀[0;35m█▀▀▀[0;37m [0;1;30m.[0m'

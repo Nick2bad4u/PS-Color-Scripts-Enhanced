@@ -5,7 +5,7 @@
 # Source SHA-256: a5633f6582dca0bf0976fdbcbd2cd14287750abc515a164bd2077efb06331f15
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: NV-CIRCL.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 48-93
 # Columns: 1-80
 
@@ -54,5 +54,4 @@ Write-Host '
 [37m█████[0;1;30;47m░▒▓[0;1;30;40m▌  [0m███[1;30;47m░▒▓▓▓[0;1;30;40m█▄   [0m█[47m [0;1;30;47m░▒▓[0;1;30;41m█▓▒░ [0m   ██[1;30;47m▒▓[0;1;30;41m█▓▒[0;31m▌ [0;1;30m█[0;1;30;41m█▓▒░[0;31m█[0m
 [37m██████[0;1;30;47m░▒▓[0m  ▐█████[1;30;47m░▒▓▓[0;1;30;40m█ [0m▐█[47m  [0;1;30;47m░▒▓[0;1;30;41m█▓▒░[0;31m▌ [0;37m██[0;1;30;47m░▒▓[0;1;30;41m█▓▒[0;31m▌[0;1;30m▀[0;1;30;41m██▓▒[0;31m▀[0m
 [31m [0;37m▀███[0;1;30;47m░▒▓[0m    █████[1;30;47m░▒▓[0;1;30;40m█   [0m▀[1;30;47m░▒▓[0;1;30;41m█▓▒░[0;31m█▀   [0;37m▀▀▒[0;1;30;47m▓[0;1;30;41m█▓[0;31m▀   [0;1;30m▀▀[0m
-[1;30m    [0m▀▀▀[0m
-'
+[1;30m    [0m▀▀▀[0m'

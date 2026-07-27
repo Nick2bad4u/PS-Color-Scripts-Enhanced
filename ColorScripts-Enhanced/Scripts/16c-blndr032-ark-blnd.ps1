@@ -5,7 +5,7 @@
 # Source SHA-256: 01fd03aa1524d314fd6f580e3d5ab3c9296f74d454d0ca09c6aa384e2ed6873c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ARK-BLND.ANS by Ark Anjel (blndr032); released in blndr032 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-27
 # Columns: 1-80
 
@@ -28,12 +28,10 @@ Write-Host '
                                    [33m▄▄[0;1;33m▄[0;33m▌[0;1;37m▄[0;1;33m▄[0;33m▄▄▄▄▄[0;37m [0;32m░[0;30;42m▓[0m                     [30;42m▓[0m   [32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓▓[0m
     [36;40m    ▄ [0;37;40m  [0;36;40m ▀▀▌[0m               [36;40m░[0;30;46m▓[0;37;40m [0;33;40m  ▄▌▀▀▀ [0m   [35;40m [0m   [36;40m    [0;37;40m▄[0;36;40m [0;37;40m  [0;36;40m [0;37;40m▀▀▌[0m               [1;36;40m  [0m
   [36m▄[0;1;36;46m▄[0;36m▐▀[0m                             [33m▄[0m     [35m▄▌  [0;30;45m▓[0;37;40m ▄[0;1;37;47m▄[0m▐▀
-   [36m█[0;37m  [0;1;36m  i walked  for days...[0m     [33m▐▌[0;35m▄[0;1;35m▌[0;35m▀[0m         [1;37;47m░[0m  [1;36m  [0;1;37mwe drudged around the [0m
-[1;36m [0m  [36m▐[0m    [1;36mthrough the  ever dry[0m   [36m▄[0;37m [0;30;43m░[0;33;40m [0;37;40m [0;35;40mart  and[0m   [37;40m▐[0m    [1;37;40mship for hours, findn[0m   ▄
-        [1;36mdesert in  search for[0m     [30;43m▒[0;37;40m  [0;35;40mwords by[0m        [1;37;40monly  one life  form,  [0m
-        [1;36mwater, yet found none[0m  [36m ▌[0;37m [0;30;43m▓[0;37;40m  [0;1;35;40mark[0;35m^[0;1;37mfuel[0m        [1mwhich was the famoues[0m  [36m [0;37m▌[0m
-       [1;36mbut what is that above [0m [36m▐▌[0;37m [0;33m [0;37m  [0;35m4 blendr ▐[0m      [1;37mpicasso ...[0;36m [0;1;37mget him!![0m  ▐▌
+   [36m█[0;37m  [0;1;36m                       [0m     [33m▐▌[0;35m▄[0;1;35m▌[0;35m▀[0m         [1;37;47m░[0m  [1;36m  [0;1;37m                      [0m
+[1;36m [0m  [36m▐[0m    [1;36m                     [0m   [36m▄[0;37m [0;30;43m░[0;33;40m [0;37;40m [0;35;40m        [0m   [37;40m▐[0m    [1;37;40m                     [0m   ▄
+        [1;36m                     [0m     [30;43m▒[0;37;40m  [0;35;40m        [0m        [1;37;40m                       [0m
+        [1;36m                     [0m  [36m ▌[0;37m [0;30;43m▓[0;37;40m  [0;1;35;40m   [0;35m [0;1;37m    [0m        [1m                     [0m  [36m [0;37m▌[0m
+       [1;36m                       [0m [36m▐▌[0;37m [0;33m [0;37m  [0;35m         ▐[0m      [1;37m           [0;36m [0;1;37m         [0m  ▐▌
    [36m ░[0;30;46m▓[0m       [36;40m  [0m   [36;40m     [0m       [36;40m▄[0;1;36;46m▄[0m   [30;45m▓[0m       [35;40m  ▄[0;1;35;45m░[0m [36m [0;37m░[0;30;47m▓[0m       [36;40m  [0m   [36;40m     [0m       [37;40m▄[0;1;37;47m▄▌[0m
-                     [36m▀▌[0m    [36m▐▀▀▀▌▀[0;37m [0;30;45m▓▒▓[0;37;40m [0;35;40m▄ ▐▄▄█[0;1;35;45m▀[0;35m▀▌[0m                   [37m▀▌[0m   [37m ▐▀▀▀▌▀[0m
-
-                                             [35m [0m'
+                     [36m▀▌[0m    [36m▐▀▀▀▌▀[0;37m [0;30;45m▓▒▓[0;37;40m [0;35;40m▄ ▐▄▄█[0;1;35;45m▀[0;35m▀▌[0m                   [37m▀▌[0m   [37m ▐▀▀▀▌▀[0m'

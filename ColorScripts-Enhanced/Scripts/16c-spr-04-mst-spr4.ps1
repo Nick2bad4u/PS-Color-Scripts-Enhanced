@@ -5,7 +5,7 @@
 # Source SHA-256: f4700e499023bc761cd79086bc35d53fa69646bc570d57dd369f1e5904b9a9db
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MST!SPR4.ANS by Mist (spr_04); released in spr_04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-25
 # Columns: 1-80
 
@@ -24,7 +24,7 @@ Write-Host '
 [1;37m                         [0;1;31m %%%[0;1;37m [0;1;30m░░░░░░░░░[0m░░[1m [0m^"''[1;30m ░░[0;1;37m  [0m.,,,..[33mSSs,sS''[0;1;37m  [0;33m''SS[0;1;31m$$$$$$![0;1;37m [0;1;36m%%%%[0m
 [1;37m                          [0;1;31m%%%[0;1;37m [0;1;30m░░  [0;1;37m   [0;1;30m   [0;1;37m      [0;1;30m░░[0;1;37m [0m,S%;;''[1m [0;33m''?$$S;[0;1;37m     [0;33m''*[0;1;31mSS$$$;[0;1;37m [0;1;36m%%%%[0m
 [1;37m                          [0mSSS[1m [0;1;30m░░[0;1;37m  [0m%%%[1m   [0m%%%[1m     [0m,$S%;''[1m    [0;33m"?''[0;1;37m    [0;33m.,s%[0;1;31mSSSS?[0;1;37m [0;1;36m ÷÷÷÷[0m
-[1;37m                          [0mSSS[1m [0;1;30m [0;1;37m [0;1;30mss[0mS[1mS[0mS[1;30msss[0mS[1mS[0mS[1;30mss[0;1;37m  [0m,S[1m$S[0m%''[1m [0;1;30mssss[0;1;37m   [0;1;30m  [0;1;37m  [0;33m$$*^"''?[0;1;31m''[0;1;37m   [0;1;36m%%%%[0m
+[1;37m                          [0m   [1m [0;1;30m [0;1;37m [0;1;30m  [0m [1m [0m [1;30m   [0m [1m [0m [1;30m  [0;1;37m  [0m  [1m  [0m  [1m [0;1;30m    [0;1;37m   [0;1;30m  [0;1;37m  [0;33m       [0;1;31m [0;1;37m   [0;1;36m    [0m
 [1;37m                          [0mSSS[1m [0;1;30m [0;1;37m [0;1;30m""[0m$[1m$[0m$[1;30m"""[0m$[1m$[0m$[1;30m""[0;1;37m [0m,SS$$;[1m┐┐[0;1;30m$$SS[0;1;37m┐┐  [0;1;30m  [0;1;37m  [0;33m_.,s;''[0;1;37m    [0;1;36m%%%%[0m
 [1;37m                          $$$ [0;1;30m [0;1;37m [0;1;30mss[0mS[1mS[0mS[1;30msss[0mS[1mS[0mS[1;30mss[0;1;37m [0m""""""""$$[1;30m$$[0m""[1m    [0;33m''"^$$?[0;1;37m [0;33m░░░[0;1;37m  [0;1;36mSSSS[0m
 [1;30m.[0;1;37m                        .$$$. [0;1;30m ""[0m%%%[1;30m"""[0m%%%[1;30m""[0;1;37m  [0m░░[1;30m░░░[0;1;37m  [0m$$$$     [1;31m.,sS[0;33mS?''[0;1;37m [0;33m░░░[0;1;37m  [0;1;36mSSSS[0m
@@ -32,6 +32,6 @@ Write-Host '
 [1;30m;[0;1;37m                      [0m  ;$$$;▒▒▒▒▒░░[1;30m░[0m░░[1;30m░[0m░░░░░░░░[1;30m░░░░░░░░░░░░[0;1;31m ^^^[0;33m"'' [0;1;37m [0;33m░░░░░[0;1;37m [0;1;36m.$$$$[0m
 [1;30m?[0;1;37m                     [0m   [1m?$$$?[0m▓▓▓▒▒░░[1;30m░░░░░░░░░░░░░░░   [0;1;37m       [0;1;31m   [0;33m [0;1;37m [0;1;31m  [0;33m░░░░░[0;1;37m [0;1;36m:$$$$[0m
 [1;30mS,[0;1;37m                   [0m   ,S$$$S[1;30;47m,[0m▓▓▒▒░░░░░░░░░░░░░░[1;30m░[0m░░[1m [0;1;31m░░░░░░░[0;33m░░[0;1;31m░░[0;33m░░░░░░░░░░[0;1;37m [0;1;36m;$$$$[0m
-[1;30m%Ss,._[0;1;37m              [0m .,sSS$$$SSs,.[1m                                      [0m_.,sSSSS
+[1;30m      [0;1;37m              [0m              [1m                                      [0m        
 [1;30m''%S$$$[0m$$$$$$$$$$$$$$$$$$$$[1;30mSSS[0m$$$$$$$$$$$$$$$$[1;36m$$[0m$$[1;36m$$$$$$$$$$$[0;1;37m$$$[0;1;36m$$$$$$$$$[0mSSS[1;30m????%[0m
 [1;30m  "*$$[0m$$$$$$$$$$$$$$$$$$$$[1;30mS%S[0m$$$$$$$$$$$$$$$$[1;36m$$[0m$$[1;36m$$$$$$$$$$$$[0;1;37m$$$[0;1;36m$$$$S[0mSSS[1;30m????%*" [0m'

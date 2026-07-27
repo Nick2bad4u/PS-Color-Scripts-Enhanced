@@ -5,7 +5,7 @@
 # Source SHA-256: 90ef5262148f3cfa660727cd1a6c2ce2280c03164263ba3a63bc02e3ff520ede
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-LEGIO.ANS by Snowball + President (ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the legion
 # SAUCE Author: snowball & president
 # SAUCE Group: ecolove
@@ -56,8 +56,4 @@ Write-Host '
              [31m [0m               [32m░░[0m
 
 
-[1;30m(----------)[0m
-[1;30mjoint by snowball and president[0m
-[1;30mdedicated to the legion (rip)[0m
-
-[1;30mthere''s a whole story behind this one, but that''s the thing for you to find out.[0m'
+[1;30m(----------)[0m'

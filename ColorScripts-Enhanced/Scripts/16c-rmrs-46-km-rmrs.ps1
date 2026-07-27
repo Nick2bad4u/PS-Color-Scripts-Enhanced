@@ -5,7 +5,7 @@
 # Source SHA-256: c40c8b9bbfae7d026fc068e97982433b5ab3de4039f5411167d5845db6931afa
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: KM!-RMRS.ANS by Kamione (rmrs-46); released in rmrs-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-28
 # Columns: 1-80
 
@@ -36,5 +36,5 @@ Write-Host '
 [1;37m$[0;36m$[0;1;34m$$[0;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ssssssssssss$$$$$$$$$$$$$$[0m
 [1;37m$$[0;36m$$[0;1;34m$$[0;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m
 [1;37m--------------------------------------------------------------------------------[0m
-[1;37mThis was a kinda fast ansi, so it is not very good i think ;) maybe next time![0m
+[1;37m                                                                              [0m
              [1m-Kami.One (09.04.02)[0m'

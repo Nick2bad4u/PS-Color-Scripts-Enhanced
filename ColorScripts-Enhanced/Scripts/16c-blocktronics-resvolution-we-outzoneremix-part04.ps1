@@ -5,7 +5,7 @@
 # Source SHA-256: 2ddc44ab137249c88257a2d1f50beb79ae75bc9d4a2080aadf2a1c4051232345
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: we-outzoneRemix.ans by Enzo + Capsone (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 122-162
 # Columns: 1-80
 
@@ -45,9 +45,4 @@ Write-Host '
 [1;30;46m▒ ▄[0;1;30;40m▀[0m        [1;30m▀[0;1;30;46m▄[0;1;30;40m█[0m  [1;30m▀▀[0m                                           [1;30m▀▀▀▀▀[0m        [35m█[0m
 [1;30m▀[0;1;30;47m█[0;1;30;40m▄[0m           [1;30m▀█[0m      [1m·[0m [1;35mt[0m [35mh[0;37m [0;1;30me[0m   [1;30mo[0m [1;30mu[0m [1;30mt[0m [1;30mz[0m [1;30mo[0m [1;30mn[0m [1;30me[0m   [1;30mb[0m [35mb[0;37m [0;1;35ms[0m [1m·[0m                    [35m█[0m
                 [1;30m▒[0m                      [1;30m-[0m                                   [35m▒[0m
-                 [1;30m░[0m   [1;35mt[0;35mh[0;1;30meoutzonebbs.net[0m [1;30m│[0m [1;30msOp:[0m [1;30msiniste[0;35mr[0;37m [0;1;35mx[0m
-
-          [1;35ma[0m [35m1[0;1;30m00%[0m [1;30moriginal[0m [1;30mansi[0m [1;30mby[0m [1;30mmr[0m [1;30mcaps[0m [1;30mfor[0m [1;30mthe[0m [1;30msexy[0m [1;30mseven[0m [1;30mposs[0;35me[0;1;35m![0m
-                       [1;35ma[0;35mn[0;1;30msi[0m [1;30mremix[0m [1;30mby[0m [1;30menzO [blxcktrxn[0;35mx[0;1;35m][0m
-
-        [1;32m([0;32mc[0;1;30m)[0m [1;30mcaps^67[0m [1;30m·[0m [1;30m2008[0m [1;30m·[0m [1;30mall[0m [1;30mrights[0m [1;30mreserved[0m [1;30m·[0m [1;30mall[0m [1;30mbiters[0m [1;30mserv[0;32me[0;1;32md[0m'
+                 [1;30m░[0m   [1;35m [0;35m [0;1;30m               [0m [1;30m│[0m [1;30m    [0m [1;30m       [0;35m [0;37m [0;1;35m [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 3867f77fd469249142aa271fd742577a5a9080f25614df32a712f156b0073b91
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TL-BOILP.ANS by Turmoil (CaNCeR); released in cnc-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: The Boiling Point
 # SAUCE Author: Turmoil
 # SAUCE Group: CaNCeR
@@ -30,18 +30,18 @@ Write-Host '
       [31m█[0m [1;30m█[0;1;37;47m███▓[0;1;30;40m█[0m [31m█[0m  [31m█[0m [1;30m█[0;1;37;47m███▓[0;1;30;40m█[0m [1;30;40m█[0;1;37;47m░░[0;31;47m  [0;1;30;40m█[0m [31m█ [0m   [31m│[0m [37mTo go any further,[0m            [31m│[0m
       [31m▀▄[0;37m [0;1;30m▀▀▀▀[0m [31m▄▀[0m  [31m▀▄ [0;1;30m▀▀▀▀[0m [31m▄ [0;1;30m▀▀▀▀[0;31m ▄▀[0m    [31m│[0m [37mA brutal world this is,[0m       [31m│[0m
         [31m▀▀▀▀▀▀[0m      [31m▀▀▀▀▀▀[0m [31m▀▀▀▀▀▀[0m      [31m│[0m [37mChaos and murder.[0m             [31m│[0m
- [37mt[0;1;30m  [0;31m∙[0;1;30m  [0mu[1;30m  [0;31m∙[0;1;30m [0m r  [31m∙[0m  [37mm[0m [1;30m [0;31m∙[0m  [37mo[0;1;30m [0m [31m∙[0;1;30m  [0mi[1;30m  [0;31m∙[0m  [37ml[0m [31m│[0m [37mI''ve struggled through life,[0m  [31m│[0m
-                                       [31m│[0m [37mAnd tried to be strong,[0m       [31m│[0m
-           [1;30mrival.cancer[0m                [31m│[0m [37mTackling my obstacles,[0m        [31m│[0m
-                                       [31m│[0m [37mAnd carrying on.[0m              [31m│[0m
-                                       [31m│[0m [37mBut now I give up,[0m            [31m│[0m
-                                       [31m│[0m [37mI''ve taken too many blows,[0m    [31m│[0m
-                                       [31m│[0m [37mYou think you understand,[0m     [31m│[0m
-                                       [31m│[0m [37mThough you really don''t know,[0m [31m│[0m
-                                       [31m│[0m [37mOf what I''ve been through,[0m    [31m│[0m
-                                       [31m│[0m [37mAnd the places I''ve been,[0m     [31m│[0m
-                                       [31m│[0m [37mPlease let me go now,[0m         [31m│[0m
-                                       [31m│[0m [37mSo I can no longer sin...[0m     [31m│[0m
+ [37m [0;1;30m  [0;31m [0;1;30m  [0m [1;30m  [0;31m [0;1;30m [0m    [31m [0m  [37m [0m [1;30m [0;31m [0m  [37m [0;1;30m [0m [31m [0;1;30m  [0m [1;30m  [0;31m [0m  [37m [0m [31m│[0m [37m                            [0m  [31m│[0m
+                                       [31m│[0m [37m                       [0m       [31m│[0m
+           [1;30m            [0m                [31m│[0m [37m                      [0m        [31m│[0m
+                                       [31m│[0m [37m                [0m              [31m│[0m
+                                       [31m│[0m [37m                  [0m            [31m│[0m
+                                       [31m│[0m [37m                          [0m    [31m│[0m
+                                       [31m│[0m [37m                         [0m     [31m│[0m
+                                       [31m│[0m [37m                             [0m [31m│[0m
+                                       [31m│[0m [37m                          [0m    [31m│[0m
+                                       [31m│[0m [37m                         [0m     [31m│[0m
+                                       [31m│[0m [37m                     [0m         [31m│[0m
+                                       [31m│[0m [37m                         [0m     [31m│[0m
                                        [31m└──────────────────────────[0;1;30mtl[0;31m───┘[0m
 
 

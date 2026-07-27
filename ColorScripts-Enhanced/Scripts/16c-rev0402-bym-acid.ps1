@@ -5,7 +5,7 @@
 # Source SHA-256: 9a98657e6c6082baba19cc18866b26bfe814cb6e70b28eb8faff833d8becd021
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: bym-acid.ans by bym (revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: acid
 # SAUCE Author: bym
 # SAUCE Group: revival
@@ -37,5 +37,4 @@ Write-Host '
     [32m░░░▒▒▒▒▒▒▒▓▓▓▓▓[0;30;42m░[0;32;40m▓▓▓▓▓▓[0;30;47m█▀[0;1;37;40m▄▄▄▄▄▄▄[0;30;47m▀██████████████[0;1;37;47m▒▓▓[0;30;47m█[0;1;37;47m███▀[0;30;47m██[0;1;37;47m██▓▒▒▒▒▒░░░▒░░[0m█
     [32m░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30;47m█ [0;1;37;47m████████[0;1;37;40m▄▄▄▄▄▄▄▄▄▄▄[0;30;47m▀▀█[0;37;40m█[0;1;37;47m▓▓▓[0;30;47m█[0;1;37;47m███▄▄███▓▓▓▓▓▓▒▒▒▒░▒░[0m
    [31m [0;32m░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒[0;30;47m█[0;37;40m█[0;1;37;47m██████▀[0;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;37;47m▓▓▓[0;30;47m█[0;1;37;47m███▀[0;30;47m██[0;1;37;47m████▓▓▓▓▓▒▒▓▒▒▒░[0m
-   [31m [0;32m░░░░░░░░░░░▒▒▒▒▒▒▒▒▒[0;30;47m▄▄▄▄▄▄▄▄█████[0;34;40m  [0;30;47m███████[0;34;40m ░[0;37;40m█[0;1;37;47m██▓[0;30;47m█[0;1;37;47m███▄▄████▓▓▓▓▓▓▓▓▓▒▓▒▒[0m
-    [32mTextmode Bym for Revial III[0;37m [0;32m04-2002[0;37m  [0;32m  "Party ppl! Yo let''s get funky!"[0m'
+   [31m [0;32m░░░░░░░░░░░▒▒▒▒▒▒▒▒▒[0;30;47m▄▄▄▄▄▄▄▄█████[0;34;40m  [0;30;47m███████[0;34;40m ░[0;37;40m█[0;1;37;47m██▓[0;30;47m█[0;1;37;47m███▄▄████▓▓▓▓▓▓▓▓▓▒▓▒▒[0m'

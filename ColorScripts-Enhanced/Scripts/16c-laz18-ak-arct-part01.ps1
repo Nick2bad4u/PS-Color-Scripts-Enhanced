@@ -5,7 +5,7 @@
 # Source SHA-256: 441fb06c832ee13005fa2cf95b6d7448c5c38bccfcc507de522f8eb8e7e8d618
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: AK-ARCT.ANS by abstrakt (fire); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: stratospheric polar vortex
 # SAUCE Author: abstrakt
 # SAUCE Group: fire
@@ -34,7 +34,7 @@ Write-Host '
 [37m                         [0;1;37m.[0m   [1;31m($$$$,[0;33m┌.[0;1;37m`[0m''[33mj$,[0;1;37m`[0m''[33m/[0;37m                        [0;1;37m.[0m
                     [1m.[0m        [1;31m`4[0;33mP$[0;1;31m$$$[0;33m$#$[0;1;31m$$$bs┐▬.[0m     [1;36moh my jeez[0;1;37m            [0m.
     [1m.[0m      [1m.[0m                    [33m$[0;1;31m$$$$$$$$`4S↕┘''[0m       [1mthere was no[0m             .
-                                [33mY[0;1;31m$$P┘└4$$Ss[0;33m┐.[0;1;31m     [0m-     [1mwarning!![0m
+                                [33m [0;1;31m   ┘└     [0;33m┐ [0;1;31m     [0m      [1m         [0m
 .               [1m.[0m        [1m.[0m      [33m`$[0;1;31m$ [0;31m:`[0;1;31m `└┘''$[0;33ml                          [0;37m.[0m
 [37m      .                     [0;1;32m.┌[0;32m\P[0;33m Y[0;1;31m$┐. `Y%s$$[0;33m;[0;1;31m        [0;1;37mIT''S THE-[0;1;30m      [0;1;37m.[0m
                   [1;32m.┌ss¬┐⌐s%[0;32m$[0;1;32m$[0;32m$[0;1;32m$[0;32mL[0;37m  [0;33m└$[0;1;31m$$$$$j[0;33mP┘[0m
@@ -45,7 +45,7 @@ Write-Host '
  .            [1m.[0m    [32m└4$[0;1;32m$[0;32mPjS%s$[0;1;32m$$$$$[0;32m$''[0;1;32m,$$[0;32m''d$$[0;1;32m$$$[0;32m┐[0;36m`[0;37m [0;31ml[0;37m [0;36m`[0;1;34m4$P''[0m [1;31m;[0;31m;[0;37m        . [0;1;37m.d$$$$$$$[0m$$
          [1m.[0m      [1;34m.┌s┐,.,[0;32m $[0;1;32m$$[0;32m$[0;1;32m$$$$$$[0;32m''.[0;1;32m$$[0;32m''j$$[0;1;32m$$$$$[0;32mb[0;37m [0;31m`Q[0;1;31mqpyypS┘[0;31m''[0;37m         [0;1;37mj$$$$$$$$$$[0m$
                [1;34m,$$$$$Q$b.[0;32m`[0;1;32m$$$$S↕[0;32m┘; [0;1;32m$┘[0;32m''`4[0;1;32m$$$$$[0;32m$┘`[0;37m     [0;33myy[0;37m      [0;1;37m.,,.[0m  [1m,$$$$$$$$$$$[0m$
-    [1m.[0m          [36ml[0;1;34m$$$P[0;36m`[0;32m.[0;1;34m`└''[0;32mj$[0;1;32m$$[0;32m$s[0;1;32m%[0;32mS [0;1;32mj$[0;32mP[0;37m   [0;32m`└*┘`[0;37m   .    [0;33mI$  [0;37m.sS[0;1;37m$$$$$b[0m,[1m$$$$$$$$$$$$$[0m
+    [1m [0m          [36m [0;1;34m    [0;36m [0;32m [0;1;34m └ [0;32m  [0;1;32m  [0;32m  [0;1;32m [0;32m  [0;1;32m  [0;32m [0;37m   [0;32m └ ┘ [0;37m        [0;33m    [0;37m   [0;1;37m      [0m [1m             [0m
           .    [36m`└[0;1;34m┘[0;36m''[0;32m,d$$S$[0;1;32m$$$$$$s[0;32m%[0;37m [0;1;32ml$[0;32mL[0;37m       .        [0;33ml$[0;37m  $$[0;1;37m$$$$$$$[0m$$[1m$$[0m$$[1m$[0m$$$$[1m$$$[0m
                   [32m:$$[0;1;32m7[0;32m,[0;1;32m$[0;32m$[0;1;32m$$$$$$[0;32m$$,[0;1;32m└$[0;32m$b[0;37m          [0;1;37m.[0m    [33m:$  [0;37m$[0;1;37m$[0m$[1m$$$$$[0m$$$j[1;30m$$[0mSS[1;30mj$[0m$└$$$
                   [32m`''[0;1;32m''[0;32m```^^^''''''''``[0;1;30m.,[0;32m`^''[0;37m    [0;1;37m.[0m        [1;30mj[0m$ [33m$  [0;37m$$$$[0;1;37m$$[0m$$[1;30mP┘`      `┘[0m [1;30m`4$[0m

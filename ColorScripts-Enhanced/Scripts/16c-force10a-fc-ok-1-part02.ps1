@@ -5,7 +5,7 @@
 # Source SHA-256: df4b16e1d412a6730101c6d8dc0dc5124441ae52df3af1ce1cf0ca18bcb85bed
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FC-OK#1.ANS by Fruitcake (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Organized Kaos
 # SAUCE Author: Fruitcake
 # SAUCE Group: fORCE
@@ -15,7 +15,7 @@
 # Columns: 1-80
 
 Write-Host '
-[1;30m░░░ "SOAk dESiNAGRO - CitOAk EMOCEb dESiNAGRO EHt EREhW" [0;30m◄ backwards fewls![0;1;30m     [0m
+[1;30m░░░                                                      [0;30m◄                 [0;1;30m     [0m
                       [1;30m                                 [0m
                                                                     [36m [0;1;36m▄[0m
     [36m    [0m      [36m     ▄▄▄▄▄▄▄▄▄     [0m           [36m▀▄▄            [0m       [1;36m▄▄[0;1;36;46m█[0;1;36;40m▌[0m
@@ -32,5 +32,4 @@ Write-Host '
     [36m [0m         [36m     ▀▀▀▀▀▀▀▀▀     [0m           [36m▀ [0m       [37m▀▀▄[0m    [36m▐▓█[0;1;36;46m▐████[0;1;36;47m░[0m▌
                              [1;30m    [0m                          [36m ▀▀▀[0;1;36m▀█[0;1;36;47m░▀   [0m
 [1;30m░░ O ░░ R ░░ G ░░ A ░░ N ░░ i ░░ S ░░ E ░░ d ░░  ░░ k ░░ A ░░ O[0m    ▀▀[1;30;47m░[0m▌ [1;30mA ░░ S  [0m
-                                                                      ▀
-SOP: kRiSiS                   +61-2-876-1536                    StAff: kURRUPt[0m'
+                                                                      ▀[0m'

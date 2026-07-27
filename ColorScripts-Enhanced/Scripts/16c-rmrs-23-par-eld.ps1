@@ -5,7 +5,7 @@
 # Source SHA-256: 1ed2d4425d8433b14bdcdf0a97de0e5024b8201b1ad49e840c637f275826985c
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PAR-ELD.ANS by Pariah (rmrs-23); released in rmrs-23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
@@ -13,7 +13,7 @@ Write-Host '
 
 
 
-                 [1mELDORADO[0m: [1mKIDS LOVE IT[0m! ([1mELDORADO[0m.[1mDETOUR.NET[0m)
+                 [1m        [0m  [1m            [0m   [1m        [0m [1m          [0m 
 
      [34m_,[0;1;34m╓g@8Ñ$$Ñ8@g╖[0;34m,_[0;37m   [0m      [34m__[0;1;34m______[0;34m_[0;37m      [0m       [34m__[0;1;34m_________[0;34m_[0;37m [0m
 [37m   [0;34m,[0;1;34md$$$$$$$$$$$$$$$$h[0;34m,[0;37m    [0m   [34m$[0;1;34m$$$$$$$$[0m             [34m$[0;1;34m$$$$$$$$$$$║Ñ8@g╖[0;34m,_[0m
@@ -30,6 +30,4 @@ Write-Host '
 [1;37m$[0mh[1;30m,[0;31m`7[0;1;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;31mP''[0;37m,[0;1;37m$[0m
 [1;37m$$$[0mh[1;30m,[0;31m`ⁿ7[0;1;31m$$$$$$P[0;31m'',[0;1;31mg8$$g[0;31m,`7[0;1;31m$$$$$$$$$$$$$$$$$$$$$$$$$$[0;31m"[0;1;31m$$$$$$P[0;31m'',[0;1;31mg$$8g[0;31m,`[0;1;31m7$$$$$[0;31mP''[0;1;30m,[0md[1m$$[0m
          [31m`^[0;1;31m''ⁿ[0;31m''[0;37m [0;31m;[0;1;31m$$$$$$$[0;31m;[0;37m [0;31m`╙╨[0;1;31m╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨╨[0;31m╨╜[0;33m [0;1;31m$$$$$[0;31ml[0;37m [0;31m;[0;1;31m$$$$$$$[0;31m;[0;37m [0;31m)[0;1;31m$P[0;31mⁿ''[0;37m      [0m
-[37m([0;1;37mc[0m) [1mPariah[0m      [31m`[0;1;31mⁿ╨╩╨ⁿ[0;31m''[0;37m                                     [0;31m`[0;1;31mⁿ╨╩╨ⁿ[0;31m''[0;37m             [0m
-[37m                             [0m
-                       [37m                  [0m'
+[37m([0;1;37mc[0m) [1mPariah[0m      [31m`[0;1;31mⁿ╨╩╨ⁿ[0;31m''[0;37m                                     [0;31m`[0;1;31mⁿ╨╩╨ⁿ[0;31m''[0;37m             [0m'

@@ -5,12 +5,12 @@
 # Source SHA-256: ada879ca224d0cd7d2fa2fd886960c227ee4065fe4640ff134b47316abbfa885
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 1998 - 18 - Joint - 33-cloud.ans by Eerie + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-34
 # Columns: 1-80
 
 Write-Host '
-[1;30manother [0maverage [1;30mansi from eerie!  legion nine-eight du0d!@#[0m          [31m░░░░░░▒▓[0m
+[1;30m        [0m        [1;30m                                           [0m          [31m░░░░░░▒▓[0m
 [31m█▌[0m
 [1;30m"this is beyond help" --inazone[0m                                    [36m░ [0;31m▓▓▓▓▓████▌[0m
                                                                    [36m▒ [0;31m█████████▌[0m

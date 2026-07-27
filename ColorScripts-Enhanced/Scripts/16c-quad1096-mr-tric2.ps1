@@ -5,7 +5,7 @@
 # Source SHA-256: 87b0d1109f1e99b7c5ba0095207069ba8f5b7e6d414bf041c43e6c28e4c151cb
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-TRIC2.ANS by mithrandir (quad-p); released in quad1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: the realm of insane creations #2
 # SAUCE Author: mithrandir
 # SAUCE Group: quad-p
@@ -26,8 +26,6 @@ Write-Host '
  [1;32m█[0;1;32;42m░[0;32m█[0;1;32;42m░▒▓▒[0m [1;47m   [0;1;30;47m░░[0m▄[1;30;47m░░[0;1;37;47m▀▀▀  [0m [1;47m   [0;1;30;47m░░[0;1;37;40m [0m█[1;30;47m░[0;1;37;47m▀▀▀[0;1;30;47m░[0;1;37;47m [0m [1;30;47m░░[0;1;37;47m  [0;1;30;47m░[0m▄█[1;30;47m░▒░[0m██[1;30;47m░[0m [1;30;47m░[0;1;37;47m▀[0;1;37;40m█[0;1;37;47m▀[0;1;30;47m░[0m [1;30;47m░░[0;1;37;47m   [0m▄[1;30;47m▒░[0;1;37;47m▀▀▀ [0;1;30;47m░[0m [1;32;42m░[0;32m██[0;1;32;42m ░[0;32m██[0m
 [37m [0;1;37m█[0;32m███[0;1;32;42m░▒░[0;32m▄▄▄▄▄▄[0;37m ▀▀▀▀[0;1;30;47m░[0m▀[1;47m [0;1;30;47m░[0m▄▄▄▄▄[1m [0m▀▀▀▀▀▀▀[1m [0m█[1m [0;32m▄▄[0;1;32;42m░░[0;32m▄▄[0;1;32;42m░[0;32m▄▄[0;37m [0;1;30;47m░[0;1;37;40m [0m▀▀▀▀▀[1m [0m█ [32m▄▄▄▄[0;1;30;47m░[0m▀▀▀▀▀▀[32m [0;1;32;42m▒░[0;32m█[0;1;32;42m░[0;32m██[0;1;32;42m░[0m
  [1m▀▀▀▀[0;1;32m▀[0;1;37m▀▀▀[0;1;32m▀[0;1;37m▀[0;1;32m▀▀[0;1;37m▀[0;1;32m▀▀▀[0;1;37m▀[0;1;32m▀▀[0m       ▀▀▀▀▀▀▀▀▀▀▀ [1;32m▀[0;1;37m▀[0;1;32m▀[0;32m▀[0;1;32m▀▀[0;1;37m▀[0;32m▀[0;1;32m▀[0m ▀▀▀▀▀▀▀▀▀ [1;32m▀[0;1;37m▀[0;1;32m▀[0;32m▀[0;1;32m▀[0;32m▀▀▀▀[0;1;32m▀[0;32m▀▀[0;1;32;42m░[0;32m▀▀[0;1;32m▀[0;32m▀▀▀[0m
-           [37m             the realm of insane creations.[0m                  [37mmr-qdp[0m
+           [37m                                           [0m                  [37m      [0m
 
-[37mcut this ansi here>-─--- -──- -─- -- ─ - - -─ -─- -─-─ -──--<ereh isna siht tuc[0m
-
-[37m-+(see mr-tric1.ans)+-[0m'
+[37m                    ─     ──   ─     ─      ─  ─   ─ ─  ──                     [0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 31a60f98edffb49fb8f33fe2334afd2957956e41bd36c7afdf8881b28dd722dc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TSK-FR.ANS by The Silent Killer (laz02jan); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-21
 # Columns: 1-80
 
@@ -28,5 +28,4 @@ Write-Host '
          [1;33m ▀▀[0;33m [0;37m  [0;1;37;44m▒▒▒[0m    [1;34;40m [0;1;37;44m▒▒▒[0;1;34;40m▐[0;1;37;44m▒▒[0;1;37;40m▌[0m   [1;37;40m▐[0;1;37;44m▒▒[0;1;34;40m▌[0;1;37;40m▐[0;1;37;44m▒▒[0;1;37;40m▌[0m   [1;37;40m▐[0;1;37;44m▒▒[0;1;34;40m▌[0m [1;44m▓▓▓[0m  [1m▀[0;1;44m▓▓[0;1;40m▄ [0;1;31;40m▀[0;1;33;43m  ░[0;1;33;40m▀▀[0m       [33m  [0m
                [1;37;44m░░[0;1;34;40m█      [0m   [1;37;44m░░░░[0;1;34;40m▄█[0;1;37;44m░░░[0;1;34;40m  [0;1;37;44m░░░░[0;1;34;40m▄█[0;1;37;44m░░░[0;1;34;40m [0m [1;44m▒▒▒[0m    [1;44m▒▒▒[0m           [33m    [0m
               [36m▄[0;1;34;46m▀▀▓[0m          [36m▀▀[0;1;34;46m▀▀[0;1;34;40m█▀▀ [0m   [36m▀▀[0;1;34;46m▀▀[0;1;34;40m█▀▀  [0m [1;44m░░░[0m    [1;34m▐[0;1;37;44m░░[0;1;34;40m▌[0m [1mTsk[0m      [33m  [0m
-                [36m▀▀▀[0m                              [36m▀▀[0;1;34m▀[0m     [1;34;46m▀▀[0;1;34;40m█[0m
-                                                       [1m        [0m'
+                [36m▀▀▀[0m                              [36m▀▀[0;1;34m▀[0m     [1;34;46m▀▀[0;1;34;40m█[0m'

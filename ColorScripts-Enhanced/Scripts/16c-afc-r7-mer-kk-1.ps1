@@ -5,7 +5,7 @@
 # Source SHA-256: d5d1df947161fa1cf05073b3a2fcd11ec107f477b8b5dc6218efaf6f866eb86d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MER-KK#1.ANS by Mercer (afc-r7); released in afc-r7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-43
 # Columns: 1-80
 
@@ -51,5 +51,5 @@ Write-Host '
 [1;37m█[0m         [1;37;47m▓▒░[0m █ [1;47m▓▒░[0m █ [1;47m▓▒░[0m [1;47m▓▒░[0m █ [1;47m▓▒░[0m █ [1;47m▓▒░[0m █ [1;47m▓▒░[0m █ [1;47m▓▒░[0m █ [1;47m▓▒░[0m   [1;47m▓▒░[0m   [1;47m▓▒░[0m       [1;30;40m█[0m
 [1;37;40m█[0m         [1;37;47m█▓▒[0m █ [1m▀[0;1;47m▓▒[0m▄▀ [1;47m█▓▒[0m [1;47m█▓▒[0m █ [1;47m█▓▒[0m █ [1;47m█▓▒[0m █ [1;47m█▓▒[0m █ [1m▀[0;1;47m▓▒[0m▄▀ [1;47m█▓▒[0m   [1;47m█▓▒[0m   [1;47m█▓▒[0m       [1;30;40m█[0m
 [1;37;40m█[0m                                                                             [1;30;40m█[0m
-[1;37;40m█[0m                                                                 [1;30;40m[M[0mER[1mCER/[0mAF[1;30mC]█[0m
+[1;37;40m█[0m                                                                 [1;30;40m  [0m  [1m    [0m  [1;30m  █[0m
 ▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m'

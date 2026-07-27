@@ -5,7 +5,7 @@
 # Source SHA-256: c53641f21bc6af76733d922f297e5ee8e999c1f782d73c54f94fe2bcabe5baea
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: TAE!NEWU.ANS by taevore (nph..); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: newbie..
 # SAUCE Author: taevore
 # SAUCE Group: nph..
@@ -19,9 +19,9 @@ Write-Host '
 [34m   ▄▀■▄■▀ █■  ▄■▄▄■▀▄■▀[0m                                   [34m·.▄▀▀   ▀■▄[0m
 [34m▄■▀[0m      [34m▀■▄▀▀[0m                                              [34m▀■▀■    ▀▄▄■▀▀■▄▄■▀▄[0m
 [34m▀▄[0m                                                                             [34m▐[0m
-[34m▐■[0m        [1;30mtxt for newbie..[0m                                                     [34m▌[0m
+[34m▐■[0m        [1;30m                [0m                                                     [34m▌[0m
 [34m▀▄[0m                                                                            [34m▀▌[0m
-[34m▀▄[0m            [1;30mthis one is for myself / insitol .. for a newus =)[0m             [34m▄■▀[0m
+[34m▀▄[0m            [1;30m                                                  [0m             [34m▄■▀[0m
 [34m▐[0m                                                                             [34m▀▄[0m
 [34m▌[0m                                                                [34m▄■▀■▄[0m       [34m▄■▀[0m
 [34m■▄▀■▄[0m                                                          [34m■▀    ▀■▄■▀■▄▀[0m

@@ -5,7 +5,7 @@
 # Source SHA-256: affecaa793bc1d3cd87cdae52cdefc8bd5bb553a6ba1f5404401236a8d23fb7e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: PT-GC.ANS by Produkt (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 76-108
 # Columns: 1-80
 
@@ -36,10 +36,4 @@ Write-Host '
 
 
 
-[35m-----------------------------------------------------------------------------cut[0m
-[37m    hrm. mostly original pic, some outlines were taken from a pic of a girl[0m
-[37m    with big breasts.[0m
-[37m    a couple of the ideas on here were taken from a cd cover, but the "theme"[0m
-[37m    that makes no sense is out of produkt''s mind. what the hell is this anyway.[0m
-
-[37m [0m'
+[35m-----------------------------------------------------------------------------cut[0m'

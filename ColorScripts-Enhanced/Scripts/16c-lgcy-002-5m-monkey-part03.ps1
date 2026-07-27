@@ -5,7 +5,7 @@
 # Source SHA-256: 49a938246f4b2deab34f6ceb09c3890a53c7b1e8c1b6331ebe6c7df8a2f653dd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 5m-monkey.ans by Smooth (Gaz); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Grape Ape
 # SAUCE Author: Smooth
 # SAUCE Group: Gaz
@@ -52,8 +52,4 @@ Write-Host '
                 [1;34m▀▀▀██▌[0m
 
 
-                [1;36m. .  .</[0;36m/[0;30;46m/ i n k  .  t w o  .  b b s \[0;36;40m\[0;1;36;40m\>.  . .[0m
-
-                                 [1;36mSysop > Smooth[0m
-
-                       [1;36mBlocktronics . Legacy Krew . Impure[0m'
+                [1;36m. .  .</[0;36m/[0;30;46m/ i n k  .  t w o  .  b b s \[0;36;40m\[0;1;36;40m\>.  . .[0m'

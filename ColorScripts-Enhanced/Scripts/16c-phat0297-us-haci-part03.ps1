@@ -5,7 +5,7 @@
 # Source SHA-256: 027178a83711d334d294331025080e6f8bba8c568b9714a4eeb06f6ac2ffea41
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-HACI.ANS by Hube + Insert (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: muchas haciendos della notte
 # SAUCE Author: insert/hube
 # SAUCE Group: phat studios '97
@@ -34,23 +34,4 @@ Write-Host '
                  [33m█▓▓[0m
                  [33m▀▓▀▀▀▀▀▀▀▀►[0;32m [0;33mhacienda ^ op: Tricyckle (phat)[0m
                  [37m [0m
-[1;37m--------------------------------< kut >----------------------------------------[0m
-[1mi was chatting with hube and tought that we could do a joint prod..[0m
-[1mhe agreed and we wondered that whaddafuk are we gonna do and i said that [0m
-[1mhow about tricycle''s board [0m
-[1m..he is the other leader of phat anyway, ya know.. so we did this.. [0m
-[1m-insert[0m
-
-[1;31m           [0;1;31;45m hmm... i''ve never made a joint-ansi before. actually this was kinda[0m
-[1;31;45mcool thing to do. i think... i don''t know what i think... i mean, insert can [0m
-[1;31;45mmake cool pics and i like making logos. yeah. read more from my logocluster :)[0m
-[1;31;45m... kewl. this colord kinda roks or something?  :) [0m
-
-
-[1;33mcredits:[0m
-[1;33m-insert[0;1;37mphat[0;1;33m <picture>[0m
-[1;33m-hube[0;1;37mphat[0;1;33m   <logo>[0m
-
-
-  [1;33m1oo per cent original picture&logo for tricycle only![0m
-[1;33m [0m       [1;33m                   [0m   [1;33mrippers burn in hell![0m'
+[1;37m--------------------------------< kut >----------------------------------------[0m'

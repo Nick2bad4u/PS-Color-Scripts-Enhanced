@@ -5,7 +5,7 @@
 # Source SHA-256: f0fbd2aea6e7eab90cd4a7d18e3bccfcd81c64b52e8d8cbdc4e9a7798de4ffd1
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SC-SBR.ANS by sCAPe (SBR); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: SBR-LoGO
 # SAUCE Author: sCAPe
 # SAUCE Group: SBR
@@ -30,10 +30,4 @@ Write-Host '
            [1m▐▌[0m [1;31m█[0;1;31;45m▄▌▒▀▓[0;1;31;40m▌▄█[0;1;31;45m▐▀░■▄[0;1;31;40m█[0m [1;31m░█[0;1;31;45m▄▓▀[0;35m█[0;1;31;45m■[0;1;31;40m▌▄█[0;1;31;45m▄▌▀▓▄[0;1;31;40m█░ [0;1;31;45m█▄■▀▌▓[0;1;31;40m▌[0;35m [0;37m [0;1;31m▄[0;1;31;45m▓[0;1;31;40m▄[0m [1;45msC![0;1;40m█[0m
            [1;30m▀[0;1;37;45m▓[0;1;37;40m▄[0;1;30;40m▄[0;1;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m▄[0;1;37;40m▄▄[0;1;30;40m▄[0;1;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m▄[0;1;37;40m▄▄[0;1;30;40m▄[0;1;31;40m▀▀▀▀▀▀  ■▀[0;1;37;40m▄▄[0;1;37;45m▓[0;1;37;40m▄[0;1;37;45m█[0;1;37;40m▀[0;1;30;40m [0m
             [1;30m▀[0;1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▀[0;1;30m▀[0;1;37m [0m [35m ░░[0;1;30m▄[0m
-                 [1;30m▀[0;1;37m░░[0m                    [1;31;45m+ !make.it.rock![0m
-
-
-
-
-
-[1;30m   [0m                                             [1;30m     [0m'
+                 [1;30m▀[0;1;37m░░[0m                    [1;31;45m                [0m'

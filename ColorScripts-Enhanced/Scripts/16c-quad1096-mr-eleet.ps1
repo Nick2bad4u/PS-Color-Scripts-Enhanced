@@ -5,7 +5,7 @@
 # Source SHA-256: 0395f1d9b5f3fbe8ee472a0ca7f84378d5224e38e3e7e80a193da0bb632bf984
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-ELEET.ANS by mithrandir (quad-p); released in quad1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: eleet logo
 # SAUCE Author: mithrandir
 # SAUCE Group: quad-p
@@ -16,8 +16,8 @@
 
 Write-Host '
 
-                        [35mgggg[0m                  [35mgggg[0m
-            [1;35m [0;35mgggg[0m       [1;35m$$$[0;35m$[0;37m       [0;35mgggg[0m       [1;35m$$$[0;35m$"²$$$L[0;37m [0;35mgggg[0m
+                        [35m    [0m                  [35m    [0m
+            [1;35m [0;35m    [0m       [1;35m   [0;35m [0;37m       [0;35m    [0m       [1;35m   [0;35m       [0;37m [0;35m    [0m
              [1;35;45m$[0;1;35;40m$$[0;35m$"²$$$L[0;37m [0;1;35m$[0;1;35;45m$[0;1;35;40m$[0;35m$[0;37m  [0;35mggggs[0;1;35m $$[0;35m$"²$$$L[0;37m [0;1;35m² ²[0;35m$[0;37m  [0;1;35m$$[0;1;35;45m$[0;35m$[0;37m [0;1;35m$$$[0;35m$$S²"''[0;37m [0m
              [1;35m$$$[0;35m$[0;37m  [0;1;35m$$$[0;35m$[0;37m [0;1;35m$$$[0;35m$[0;37m  [0;1;35m$$²[0;35m$[0;37m [0;1;35ms$$[0;35m$[0;37m  [0;1;35m$$$[0;35m$[0;37m [0;1;35m$s$[0;35m$[0;1;35mss$$$[0;35m$[0;37m [0;1;35m$$²[0;35m$[0;37m  [0;35mggggs[0m
              [1;35m$$$[0;35m$[0;1;35mss$$$[0;35m$[0;37m [0;1;35m$$$[0;35m$[0;37m  [0;1;35m$s[0;35m s[0;37m [0;1;35m$$$[0;35m$[0;1;35mss$$$[0;35m$[0;37m [0;1;35m$[0;1;35;45m$[0;1;35;40m$[0;35m$[0;37m  [0;35mggggs[0;37m [0;1;35ms [0;35ms[0;37m  [0;1;35;45m$[0;1;35;40m$$[0;35m$[0m
@@ -28,5 +28,5 @@ Write-Host '
           [1;32m$[0;32m$[0;1;32m [0;1;35m$$$$[0m  [1;35m$$$[0;35m$[0;37m [0;1;35;45m$[0;1;35;40ms$$[0m  [1;35m$$$[0;35m$[0;37m [0;1;35m² ²$[0m  [1;35m$$$[0;35m$[0;37m [0;1;35m$$$$[0m  [1;35m$s [0;35ms[0;37m [0;1;35m$$$$[0m  [1;35ms s$[0m [1;32;42m$[0;32m$[0m
           [1;32m$[0;32m$[0;1;32m [0;1;35;45m$[0;1;35;40m$$$[0m  [1;35m$$$[0;35m$[0;37m [0;1;35m$$$[0;35m$[0;1;35mss$$$$[0m [1;35m$s[0;1;35;45m$[0;1;35;40m$[0m  [1;35m$$$[0;35m$[0;37m [0;1;35;45m$[0;1;35;40m$$[0;35m$[0;1;35mss[0;1;35;45m$[0;1;35;40m$$$[0m [1;35m$[0;1;35;45m$[0;1;35;40m$$[0m  [1;35m$$$[0;35m$[0;37m [0;1;32m$[0;32m$[0m
           [1;32m$[0;1;32;42m$[0m [1;35m$$$[0;35m$[0;1;35mss$$$$[0m [1;32ms[0;32ms[0;1;32ms[0;32mss[0;37m [0;1;35m$$$$[0m [1;35;45m$[0;1;35;40m$$[0;35m$[0;1;35mss$$[0;1;35;45m$[0;1;35;40m$[0m [1;32ms[0;32ms[0;1;32ms[0;32mss[0;37m [0;1;35m$$$[0;35m$[0;37m [0;1;35m$$$[0;35m$[0;1;35mss$$[0;1;35;45m$[0;1;35;40m$[0m [1;32m$$[0m
-          [1;32m$[0;32m$[0;1;32ms[0;32ms[0;1;32mss[0;32mss[0;37m [0;1;35;45m$[0;1;35;40m$$[0;35m$[0;37m [0;1;32m$$$$$[0;32ms[0;1;32mss[0;32mss[0;1;32mss[0;32mssss[0;37m [0;1;35m$$$[0;35m$[0;37m [0;1;32m$$$$$ss[0;32ms[0;1;32ms[0;32ms[0;1;32ms[0;32msssss[0;37m [0;1;35m$$$$[0m [1;32m$[0;1;32;42m$[0m
+          [1;32m [0;32m [0;1;32m [0;32m [0;1;32m  [0;32m  [0;37m [0;1;35;45m [0;1;35;40m  [0;35m [0;37m [0;1;32m     [0;32m [0;1;32m  [0;32m  [0;1;32m  [0;32m    [0;37m [0;1;35m   [0;35m [0;37m [0;1;32m       [0;32m [0;1;32m [0;32m [0;1;32m [0;32m     [0;37m [0;1;35m    [0m [1;32m [0;1;32;42m [0m
           [1;32m$$$$$$$$ssssss$[0;1;32;42m$[0;1;32;40m$$$$$$$$$$$$$$ssssss$$$$$$$$$$[0;1;32;42m$[0;1;32;40m$$$$$ssssss$[0;1;32;42m$[0m'

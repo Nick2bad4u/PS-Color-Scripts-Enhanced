@@ -5,14 +5,14 @@
 # Source SHA-256: 14171de4de8b65769022382c56356126f4a293fbc3ee62ea8f555fea16e0a1a9
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: REP!FUNK.ANS by Reptical (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 1-24
 # Columns: 1-80
 
 Write-Host '
 [1;31m..[0;33m.. [0;1;34m                 [0;1;36m    [0m   [1;36m [0mj[1;36m         [0m
 [1;31m:::[0;33m:[0m                    [37m/[0;1;36m/[0m  .d[1;36m$b[0m.[1;36m        [0m
-[1;31mIll[0;33mi[0m                    [37m _,d[0;1;36m$$[0;1;33m$$[0;1;36m$[0mb,_ [1;36m    [0mrock thouse [1;36mFUNK-E[0m beats[1;36m.[0m
+[1;31m   [0;33m [0m                    [37m    [0;1;36m  [0;1;33m  [0;1;36m [0m    [1;36m    [0m            [1;36m      [0m      [1;36m [0m
 [36m$$[0;1;31mP[0;33m`[0;1;34m.[0m                   ''~^"l[1;36mlll[0ml"^~`[1;36m [0m [1;36m  [0m                          [33m [0;1;31m.j[0;33m.[0;1;31m  \[0;33m\[0;37m [0;1;30mrep[0m
 [1;31mP`[0;35m.[0;1;34md$$@g┐,._[0;35m [0;1;34m  [0;35m. __[0;1;34m  [0;1;31m┐[0;33m,.[0;1;34m  [0;35m_[0;1;34m [0m'':[1;36mii[0m: [1;34m,._    [0m    [35m  .db,_ [0;1;34m          _  [0;1;31m.d$$$[0;33mb.[0;1;34m  ┐,[0;35m._[0m
 [35m.d[0;1;34m$$$$$$$7*┘"    [0;35ml[0;1;34m$: [0;1;31m$P[0;33m`[0;35m.d[0;1;34m$l[0;1;36m [0m:;[1;36mi.[0m [1;34ml$Ql:[0;35m,[0;1;34m   [0;35m''4b;l[0;1;34mQ$$$$S@%*gg%@S$$b[0;35m.[0;1;31m`[0;33m4[0;1;31m$$$[0;33mP`[0;1;34m.d$$$[0;35mP[0m
@@ -32,5 +32,4 @@ Write-Host '
 [35m4$P*┘[0;1;34mⁿ"^`~  ~^"°ⁿ└*$$$$$P*┘²°"~    [0;35m   [0;1;34m ` [0;35m ∙   [0;1;34m''┘ⁿ"^~~[0;35m``"`  ∙   [0;1;34m''[0;35m`   `4[0;1;34m$$[0;35mP[0;1;34m` [0;33m.d[0;1;31m$$[0m
 [35m    [0m              [35m.[0;1;34md$$l[0;35m: [0;1;34m     [0m               [1;34m                     [0;35m\[0;1;34m\ [0;35m ┘`[0;1;34m   [0;33mI[0;1;31mlli[0m
 [35m [0;1;34m                 [0;35m`4P`[0m                                             [1;34m  [0m      [1;31m:::[0;33m:[0m
-[1;34m     [0m      [1;34m          /[0;35m/[0;1;34m  [0m                         [1;34m                        [0;1;31m ∙∙[0;33m∙∙[0m
-                                                                           [1;34m    [0m'
+[1;34m     [0m      [1;34m          /[0;35m/[0;1;34m  [0m                         [1;34m                        [0;1;31m ∙∙[0;33m∙∙[0m'

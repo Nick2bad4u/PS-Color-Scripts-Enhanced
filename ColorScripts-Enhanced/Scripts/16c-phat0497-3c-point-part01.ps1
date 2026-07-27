@@ -5,7 +5,7 @@
 # Source SHA-256: 35e17a1ffc077ffdb0219f484f7556f27f9a44c23369860fa24f391f744d73bc
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: 3C-POINT.ANS by tricolOre (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: this is the title
 # SAUCE Author: tricolOre
 # SAUCE Group: phat studios '97
@@ -23,7 +23,7 @@ Write-Host '
 [37;40m▄▄▄▄[0;30;47m [0;37;40m  [0;30;47m [0;37;40m▄▄[0;30;47m [0;37;40m  [0;30;47m [0;37;40m██[0;30;47m [0;37;40m  [0;30;47m [0;37;40m  [0;30;47m [0;37;40m▀▀[0;30;47m [0;37;40m  [0;30;47m [0;37;40m  [0;30;47m [0;37;40m  [0;30;47m [0;37;40m  [0;30;47m [0;37;40m  [0;30;47m [0;37;40m  [0;30;47m [0;37;40m  [0;30;47m [0;37;40m██[0;30;47m [0;37;40m  ▄▄▄[0;30;47m [0;37;40m  ▀  [0;30;47m [0;37;40m  ▀  [0;30;47m [0;37;40m  [0;30;47m [0;37;40m▄▄█ ██ ▄▄[0m
 [37;40m█[0m   [30;47m [0;37;40m▄▄[0;30;47m [0;37;40m██[0;30;47m [0;37;40m▄▄[0;30;47m [0;37;40m██[0;30;47m [0;37;40m▄▄[0;30;47m [0;37;40m▄▄▄▄▄[0;30;47m [0;37;40m▄▄▄▄▄[0;30;47m [0;37;40m▄▄▄▄▄[0;30;47m [0;37;40m▄▄▄▄▄[0;30;47m [0;37;40m▄▄[0;30;47m [0;37;40m██[0;30;47m [0;37;40m▄▄███[0;30;47m [0;37;40m▄▄█▄▄[0;30;47m [0;37;40m▄▄[0;30;47m [0;37;40m▄▄[0;30;47m [0;37;40m▄▄████ ▄▄ ▀▀[0m
 [37;40m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█████[0m
-[30;47m              [0;37;40m▀[0;30;47m       [0;37;40m▄[0;30;47m    - newskool abstract -            [0;37;40m▄[0;30;47m       [0;37;40m█▀[0;30;47m          [0m
+[30;47m              [0;37;40m▀[0;30;47m       [0;37;40m▄[0;30;47m                                     [0;37;40m▄[0;30;47m       [0;37;40m█▀[0;30;47m          [0m
 [37;40m██████[0;30;47m  [0;37;40m  █[0;30;47m  [0;37;40m██████████████████████████▀▀▀▀▀▀▀▀▀▀▀███████████████████[0;30;47m  [0;37;40m██[0;30;47m▓[0;37;40m █████[0m
 [37;40m██    █████████▀▀▀▀▀▀[0;35;40m▄▄▄▄▄▄▄▄[0;37;40m▀▀▀██▀▀[0;1;37;40m▄▄▄████[0;1;37;47m███████[0;1;37;40m▄▄▄▄▄▄▄▄[0m▀▀▀▀▀▀█████████████[30;47m▓▓[0;37;40m [0m
 [30;47m░░▓▓▓▓░░░░[0;37;40m▀▀[0;35;40m▄▄▄██████[0;1;35;45m  ▀▀▀██▓▄▄[0;35m█[0;1;37m ▄█████████[0;1;37;47m▀▀ [0m█[1;47m    ▀▀▀▀█████████[0;1;40m▄▄▄[0m▀▀████████

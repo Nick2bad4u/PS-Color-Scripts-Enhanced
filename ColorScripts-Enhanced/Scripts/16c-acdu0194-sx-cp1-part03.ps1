@@ -5,7 +5,7 @@
 # Source SHA-256: 75765f2fb3a9587b269b7495fa5451972e263399e423939e082d93d7083735e3
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SX-CP1.ANS by Sushi X (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 85-125
 # Columns: 1-80
 
@@ -40,14 +40,14 @@ E[1mternity · RI[0;1;34mO[0;34mT █ [0;1;34m▄[0;1;34;46m▀[0;34m▄�
 M[1miRAGE · De[0;1;34mA[0;34mD    ▀▀▀  █  [0;1;34m▀[0;34m▄▀▄▄▄▄[0;1;34;44m▀[0;34m▀▄   [0;35m▄ ▄   [0;1;31m▄ [0;31m▄   [0;1;31m▄ [0;31m▄▀▄ [0;1;31m▄▀ [0;31m█[0m            [31mV[0;1;31ma[0;1;37mlian[0mt
 I[1mND · Empire · N[0;1;34mC[0;34mA    █  [0;1;34m█[0;34m█[0m       [34m█ [0;1;34m▄[0;1;34;46m▀[0;34;45m▒[0m   [35;40m▀[0;31;40m▀▄▀ ▀▄[0;1;31;40m▀[0;31m▄▀   ▀▄[0;1;31m▀ [0;31m█[0m         [31mF[0;1;31me[0;1;37mderatio[0mn
 L[1mithium · LUP[0;1;34mU[0;34mS[0m       [34m▀▄[0;1;34;44m▀[0;34;46m▄[0;34;40m▀   ▄▄   ▀▀▀[0m           [31;40m▀[0m       [31;40m▀▄▀[0m         [31;40mS[0;1;31;40mt[0;1;37;40mormWatc[0mh
-T[1mKN · Psychos[0;1;34mi[0;34ms[0m              [34m▀▄[0;1;34;44m▀[0;34m▀[0m                           [31m▀[0m               [37m...[0m
-[37mC[0;1;37mORRUPTION · Lance[0;1;34m/[0;34m2[0m
-[37mP[0;1;37moW · Defiant · CRIT[0;1;34mI[0;34mC[0m
+ [1m            [0;1;34m [0;34m [0m              [34m▀▄[0;1;34;44m▀[0;34m▀[0m                           [31m▀[0m               [37m   [0m
+[37m [0;1;37m                 [0;1;34m [0;34m [0m
+[37m [0;1;37m                   [0;1;34m [0;34m [0m
 [34m [0;1;34m▄[0;34m▄▄▄ ▄▄   ▄    [0;35m▄   ▄▄ ▄▄▄▄▄▄▄▄▄▄▄[0;1;35m▄▀▀▀▄[0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▀  ▄    [0;31m▄   ▄▄ ▄▄▄[0;1;31m▄[0m
 [34m▀[0m                                   [37m▀[0m                       [37m▀[0m                 [31m▀[0m
 [1;37m▄▀▀▀▀ ▄▀▀▀▄ ▀▀▀▀▄ ▀▀▀▀▄ ▄▀▀▀▄ ▄▀▀▀ █ █ ▄▀ [0m▄▀▀▄ [1;30m█ ▀[0m▀▀▀▄ [1m▄▀▀▀▄ █ ▄▀▀▀ ▄▀▀▀▄ █▀▀▀▄[0m
 [1m ▀▀▀▀  ▀▀▀  ▄▀▀▀  ▄▀▀▀   ▀▀▀   ▀▀▄ ▀ ▀▀  [0m▀▄ ▀  [1;30m█ [0m▄▀▀▀   [1m▀▀▀  ▀  ▀▀▄  ▀▀▀  ▀   ▀[0m
 [34m▓  [0;37mPsychotic [0;1;37m▀[0m▄    [1m▀[0m▄  Kronos  ▄[1m▀  [0mQuasar  ▀[1;30m▄  ▀   [0mDeep Freeze  ▄[1m▀[0m        [1mby. [0;31m▓[0m
-[34m▒  [0;37mFiend[0m               [1;30m[ACiD][0m      [1;30m[ACiD][0m      [1;30m▀   [MiRAGE][0m            SUSHiX [31m▒[0m
+[34m▒  [0;37m     [0m               [1;30m      [0m      [1;30m      [0m      [1;30m▀           [0m                   [31m▒[0m
 [34m▄  [0;1;30m[SysOp(s)][0m                                                          [1;30m─/┤Ci> [0;31m▄[0m
 [31m [0;1;34m▀─[0;34m─────────────────[0;1;30m─ ■ [0m[[1m516[0m] [1m897 0857 [0mor [[1m516[0m] [1m897 8837 [0;1;30m... ─[0;31m──────────────[0;1;31m─▀[0m'

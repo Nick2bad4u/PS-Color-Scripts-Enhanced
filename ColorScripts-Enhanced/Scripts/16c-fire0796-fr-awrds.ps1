@@ -5,7 +5,7 @@
 # Source SHA-256: a258117b205e1e67dd892100a455b4bb440bbb20d2687b46c37baa55faa9e67f
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: FR-AWRDS.ANS by Fractal (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Awards 96
 # SAUCE Author: Fractal
 # SAUCE Group: fire
@@ -33,10 +33,4 @@ Write-Host '
 [36;40m [0;34;40m▄    ▀▀[0;1;34;40m▀[0;1;34;44m▓░[0;34m▄▄   █▄▄▄[0;34;44m  [0;34;40m▄▄    ▀▀██▌ [0;30;45m▓[0m   [30;45m [0;1;35;40m▀[0;35m▀[0m     [34m▀▀▀▀[0;1;34m▀[0;34m▀▀ ▀[0m     [34m▄▀▀▀▀ [0;1;34m▀   [0;34m▀[0;1;34;44m░[0;1;34;40m▀[0;34m▀    ▄[0m
 [34m▀[0;1;34;44m░[0;34m▀[0;1;34m▀ [0;34m▀[0m     [34m▀▀[0;34;44m [0;1;34;44m▄[0;34m█[0;1;34;44m░▀[0;34m▓▓▀[0;34;44m [0;34;40m█[0;1;34;44m░[0;34m█[0;30;44m░[0;34;40m░[0;30;44m▓[0m   [34;40m█▀   [0;1;34;44m░[0;34m▄ [0;1;30m[ [0;1;37;47ma[0;1;37;40mw[0ma[1;30mrds 1996 [0m- [1;47mc[0;1;40mo[0mm[1;30ming july 30th ] [0;34m▀ ▀[0;1;34m▀[0;1;34;44m░[0;34m▀[0m
            [34m▄ [0;1;34m▀    [0;34m░░ ▐▌▀ ░[0m       [34m▀   [0;1;34m▀[0;34m▀ ▄  ▄▄    ▄▄[0;1;34m▄▄[0;1;37m▄[0;1;34m▄▄[0;34m▄▄▄▄ ▄  ▄[0;1;34m▄[0;34m▄  ▄▄[0;1;34;44m▄[0;34m▌-frak!@[0m
-                     [34m▀[0m                                                  [34m▀ ▄[0m
-[34m [0;1;30mphunky mixture of styleZ by fractal of fire (c) 1996.[0m
-[1;30m i used platonic, toon and smallscale all in one... le-w0op. :>[0m
-
-[1;30m [0m[note from the editor: i think he means pnakotic shading. :)
-  note part 2 from the editor: pnakotic should be nominated for best
-  fontist of all time in the above awards, dumbass. :)               ][0m'
+                     [34m▀[0m                                                  [34m▀ ▄[0m'

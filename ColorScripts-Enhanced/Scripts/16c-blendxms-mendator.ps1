@@ -5,7 +5,7 @@
 # Source SHA-256: b20fa2bbbf6e8a6a5ed9c754e3013ae185da9c76deb8a91efdc5598ec5208949
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MENDATOR.ANS by mendator (blend); released in blendxms and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: mendator's greetings
 # SAUCE Author: mendator
 # SAUCE Group: blend
@@ -34,7 +34,6 @@ Write-Host '
 [37m [0;34m▐[0;1;31;44m░▒▓[0;1;31;40m▀▀▀▀▀▀[0;1;31;44m▀██[0;34m▌[0;1;30mwi[0;31mth the monke[0;32mys, a[0;1;32mnd the d[0;32molphins[0m   [37m▀[0;30;47m░░[0;37;40m▓▓[0;30;47m░[0;37;40m▓▓[0;30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▌ [0;34;40m█▄▄ [0;37;40m [0;31;40m▀▌▀[0;37;40m [0;34;40m▄[0;1;37;44m ░▓[0m
  [34m▐▀  ▄▄▄▄▄▄  ▀▌[0;1;30mnobo[0;31mdy is sad,[0;32m at c[0;1;32manada''s [0;32mwonderland[0;37m [0;30;47m▓[0;37;40m░░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m [0;34;40m▀▀▀▀▀▀[0;37;40m  [0;34;40m▀▀▀▀▀▀[0m
 [37;40m ·-─-·-─-─- -·─·--─·─ ─ -─-·-·-─·─    ·─- ·-─- ─·─-·─ · -· ·-─·  ▌▌▐▌▐▐▌▌▌ ▌▐▌[0m
-[37;40m okey.. don''t take this too serious! it''s 3am (monday) here in[0m   [37;40m▌▌▐▌▐▐▌▌▌ ▌▐▌[0m
-[37;40m sweden! And I can''t think straight! Tired as hell but wtf![0m      [37;40m▌▌▐▌▐▐▌▌▌ ▌▐▌[0m
-[37;40m I have a holiday!.. so I dont really care! greets to raider! [0m   [37;40m▌▌▐▌▐▐▌▌▌ ▌▐▌[0m
-[37;40m // mendator([0;30;47mblend[0;5;30;47m_[0m) [1;33moh btw! this piece of shit is for blender5[0m [1;33m [0m31337 - blend[0m'
+[37;40m                                                              [0m   [37;40m▌▌▐▌▐▐▌▌▌ ▌▐▌[0m
+[37;40m                                                           [0m      [37;40m▌▌▐▌▐▐▌▌▌ ▌▐▌[0m
+[37;40m                                                              [0m   [37;40m▌▌▐▌▐▐▌▌▌ ▌▐▌[0m'

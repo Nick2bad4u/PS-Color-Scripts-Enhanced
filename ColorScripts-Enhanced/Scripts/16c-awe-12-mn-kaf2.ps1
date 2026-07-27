@@ -5,7 +5,7 @@
 # Source SHA-256: 7f42c9070f02311f3b44995dd8e84f8cdbf491d31b7d8b51001622fbef04f9cd
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MN-KAF2.ANS by Menace (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Kafkaesk
 # SAUCE Author: Menace
 # SAUCE Group: AWE Lettering
@@ -37,4 +37,4 @@ menace([1mawe[0m)             [1;30m▀[0m                [1;30m▀[0m    
 [34m█[0;30;44m░[0;34;40m▓[0;1;34;44m░░░▒[0m      [1;30;40m▀▀▀█▓ ██▌[0m       [1;30;40m▓▓▀▀▀[0m           [1;30;40m▀▀█ ████[0;1;30;42m▓▓[0;1;30;40m▄▄▄ [0;1;33;40m▀▀▀ [0;1;33;43m▀[0;1;33;41m▓[0;1;33;40m▀[0m
 [34m███▀  ▓[0m          [1;30m░[0m           [1;30m░[0m                 [1;30m▓    ▀▀▀▀▀███▓░[0m
 [30;44m░░[0;34;40m▓░[0;30;44m▓[0m [34;40m░[0m                                        [1;30;40m░[0m
-[34m░░[0;30;44m▓[0m      [37;40m/ [0;1;30;40mloading kafkaesk[0m... .  [1;30mdone![0m'
+[34m░░[0;30;44m▓[0m      [37;40m  [0;1;30;40m                [0m       [1;30m     [0m'

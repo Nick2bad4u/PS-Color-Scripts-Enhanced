@@ -5,7 +5,7 @@
 # Source SHA-256: 3d4d08a240e1466a233711bc27edce3d646ec841b777f2651b40b5fba47fb498
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SD-COVEN.ANS by Superdave (CaNCeR Productions); released in cnc-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Coven
 # SAUCE Author: Superdave
 # SAUCE Group: CaNCeR Productions
@@ -31,7 +31,7 @@ Write-Host '
 [1;34m   [0m███▓[34m▓█[0m▐██████▄  [1;30m▓[0;1;30;45m▄▄▄▄▄▄▄▄▄[0;1;30m▓▓▓█▀  [0m███▄ █▄    [35m░[0m       [35m░░░▒▒[0m         [1;34;44m▒▓[0;1;34m▌[0m     [1m░[0m
 [1m   [0m████▄[34m▀█[0m▐███████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████████                          [1;34;44m▒▓[0;1;34m▄■▀  [0;1m▓[0m
 [1m   ▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;47m█[0m
-[1;40m   [0;1;47m▓▌                   [0;30;47mK I L L J O Y  from Cyber Force #7                  [0;1;47m▐▓[0m
+[1;40m   [0;1;47m▓▌                   [0;30;47m                                                    [0;1;47m▐▓[0m
 [1;40m   [0m▓[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m█
    ░                                                                         ▓
 
@@ -53,8 +53,8 @@ Write-Host '
 
                                T h [1me   [0mC o v e [1mn[0m
                             3 6 0 . 2 9 7 . 4 0 4 9
-                        Renegade 10[1m-[0m31exp. Modd[1me[0md to hell
-                               100 [1mm[0mgs online o[1mf[0m
-       [1;31m▄▓▄[0m               virii/mods[1m/[0mhackin/art/[1ma[0mnarchy                [1;31m▄█▓█  [0m▄
+                                   [1m [0m           [1m [0m         
+                                   [1m [0m           [1m [0m
+       [1;31m▄▓▄[0m                         [1m [0m           [1m [0m                      [1;31m▄█▓█  [0m▄
     ▒▄[1;31m▀▀█▀[0m                                                             [1;31m▀▀ [0m▄▓█
-    ▀█▓█▄     [1;30mansi by superdave of Cancer graphical productions `95    [0m▄▒██▀[0m'
+    ▀█▓█▄     [1;30m                                                         [0m▄▒██▀[0m'

@@ -5,7 +5,7 @@
 # Source SHA-256: 443b5692e3ef22092c7aacbf72d790bedc5bc2216cb61e217aeda5a48f424da4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-WOE01.ANS by Mr. Wrong (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Woezine
 # SAUCE Author: Mr. Wrong
 # SAUCE Group: AWE Lettering
@@ -37,6 +37,4 @@ Write-Host '
 [31m   [0;35m▀▀[0;35;41m▀[0;31;40m▄[0;35;40m▄▄[0;31;40m▄[0;35;41m░[0;31;40m▀▄[0m     [31;40m [0;35;41m▀[0;31;40m▓▓▀[0;35;40m░▀▀[0;35;41m▓[0;31;40m▌  [0m     [31;40m▄ ▄[0;35;41m░[0;31;40m▄[0;35;41m░▓██[0;31;40m▌   ░░▀▓▌ [0;1;30;40m▀[0;32m [0;37m [0;35;41m▀[0;31;40m▀▓▓▐▄▄▄▓░[0;37;40m [0;34;40m░[0;37;40m [0;31;40m [0;34;40m [0;37;40m░[0;36;40m░[0;31;40m ░[0;37;40m [0;34;40m▀[0;37;40m [0;32;40m [0m
 [31;40m  ▀ ▀▐[0;35;41m░[0;31;40m▄[0;35;41m░[0;31;40m▄ ▄  ▀[0m     [31;40m░░[0m   [31;40m  ▀ ▄[0m         [31;40m▀▀▐[0;37;41m░[0;35;40m░[0;31;40m▀ ▄[0m    [31;40m░▀ ▄[0m   [32;40m [0;31;40m▀▀▀[0;35;40m█[0;35;41m▓░[0;35;40m▄[0;31;40m▄▄[0;37;40m [0;31;40m▄▄▄[0;35;40m▄[0;31;40m▄▄[0;35;40m▓░[0;37;40m [0;35;40m░[0m
     [31;40m▄▀ [0;35;40m▀[0;35;41m▓[0;31;40m▌[0m           [31;40m-[0;37;40m [0;1;36;40mW[0;34m [0;36mo e[0;34m z i n e[0;37m [0;31m-[0;37m [0;31m▄ ▀[0m                   [31m▀[0;37m [0;31m▐[0;37;41m░[0;31;40m▀[0;37;40m [0;36;40m([0;34;40mawe[0;36;40m)[0;31;40m▀[0;37;40m [0;35;41m▀[0;31;40m▌[0m
-[31;40m   [0m     [35;40m░[0;31;40m▀ ▄[0m                                                 [35;40m [0;37;40m [0;31;40m▀[0;37;40m [0;34;40mMr[0;36;40m.[0;34;40mWrong[0;37;40m  [0;31;40m▀[0;35;40m   [0m
-
-[1;30;40mfor pogue.[0m                                                  [1;30mRogne@hotmail.com[0m'
+[31;40m   [0m     [35;40m░[0;31;40m▀ ▄[0m                                                 [35;40m [0;37;40m [0;31;40m▀[0;37;40m [0;34;40mMr[0;36;40m.[0;34;40mWrong[0;37;40m  [0;31;40m▀[0;35;40m   [0m'

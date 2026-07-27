@@ -5,7 +5,7 @@
 # Source SHA-256: ddf0d0ac0c1dd143ef987527c2baa136522012850204924b46f486dbbcb5f459
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: D0-PLAS.ANS by double 0 (motion); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: plastiq london
 # SAUCE Author: double 0
 # SAUCE Group: motion
@@ -36,13 +36,10 @@ Write-Host '
 [36m████████████[0;1;30;46m░[0;36m████████████████████████████████████████████████ [0;1;31;43m [0m [33m█▓▓[0;1;31;43m░░▒▒▒▓███[0;1;31;40m▓[0;1;31;43m█[0;1;31;40m▀ [0m
 [36m███████[0;1;30;46m░[0;36m████[0;1;30;46m░[0;36m████████████████████████████████▓████████████████  [0;1;31m▓▀▄[0;1;31;43m░░▒▒▒▒▓▓█[0;1;31;40m▀▀[0;36m  [0m
 [37m   [0m                                                             [36m                [0m
-[37m [0;1;37mop:[0m [36manimal nitrate [shiver.divine.motion][0m
-[33m [0;1;37mco:[0;33m [0;36minquisidor [angst.motion][0m
+[37m [0;1;37m   [0m [36m                                     [0m
+[33m [0;1;37m   [0;33m [0;36m                         [0m
 
 [1;30m■▄■▄▄▄▄■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▄▄▄▄▄▄▄▄▄■■▄[0m
-[1;30mdouble 0 · <[0;1;31mm[0;1;32mo[0mt[31mi[0;32mo[0;1;30mn>[0m
+[1;30m            [0;1;31m [0;1;32m [0m [31m [0;32m [0;1;30m  [0m
 
-[1;30m-----------------------------------!chop!---------------------------------------[0m
-[1;30mgreets:  iq: sorry so short, I''ll do another for you.[0m
-[1;30m         pz: font king.[0m
-[1;30m         sb: BUSY[0m'
+[1;30m-----------------------------------!chop!---------------------------------------[0m'

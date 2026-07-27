@@ -5,7 +5,7 @@
 # Source SHA-256: 660b20619cad63c9e4e0b63fe9fe820eb53cc30cf21c8c9c97aa0266742dd046
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: DR-EOT1.ANS by Duster (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: End of Time
 # SAUCE Author: Duster
 # SAUCE Group: ACiD Productions
@@ -15,11 +15,11 @@
 # Columns: 1-80
 
 Write-Host '
-[1;31m  [0;1;37mI [0mwa[1;30mnna a house with a pool, shorter hours in school and a room with my [0mow[1mn[0m
-     [1mp[0mri[1;30mvate phone... I want to stay up all night, see the big city lig[0mht[1ms[0m
-[1m    n[0mo m[1;30more troubles or worries at home... Just gimme some time on my ha[0mnd[1ms[0m
-[1m    I [0mwa[1;30mnna make my own private plans...Yea, I want my own Coupe De Vi[0mll[1me[0;1;30m,[0m
-[1;30m [0;1;37mm[0mak[1;30me my dad pay the bill, Oh yea man, that''s a heaven to me.[0m.[1m. [0;1;30m- [0;1;37mE[0;1;34md[0;34mdi[0;1;30me Coc[0;34mhr[0;1;34ma[0;1;37mn[0m
+[1;31m  [0;1;37m  [0m  [1;30m                                                                    [0m  [1m [0m
+     [1m [0m  [1;30m                                                               [0m  [1m [0m
+[1m     [0m   [1;30m                                                                [0m  [1m [0m
+[1m      [0m  [1;30m                                                              [0m  [1m [0;1;30m [0m
+[1;30m [0;1;37m [0m  [1;30m                                                         [0m [1m  [0;1;30m  [0;1;37m [0;1;34m [0;34m  [0;1;30m     [0;34m  [0;1;34m [0;1;37m [0m
 
 [1;31m▀▀[0;31m▀[0;1;31m▀[0;31m▀▀[0;1;30m▀[0;31m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31m▀[0;1;30m▀[0;31m▀▀[0;1;31m▀[0;31m▀[0;1;31m▀▀[0m
 

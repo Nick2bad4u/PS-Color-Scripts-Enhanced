@@ -5,7 +5,7 @@
 # Source SHA-256: 48080e0836611186c11fe5bc22006ce6abc472fd79e2e7f83b618d8e5d9b0d4e
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: ret-entropy.ans by Retribution (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 263-305
 # Columns: 1-80
 
@@ -48,8 +48,6 @@ Write-Host '
 [1;37m████████████[0;1;37;46m▌[0;36m███[0;1;37m███[0;1;37;46m [0;36m█[0;1;37;46m▐[0;1;37;40m████████████████[0;1;37;46m▀[0;36m▀▄[0;1;37;46m▄[0;1;37;40m████[0;36m█[0;1;37;46m▐[0;1;37;40m█████████████████[0;1;37;46m▄[0;1;37;40m▄[0;36m▄▀[0;1;37m▀[0;1;37;46m█[0;1;37;40m█████████[0m
 [1;37;40m█████████████[0;1;37;46m [0;36m██[0;1;37m████████████████████[0;1;37;46m▀[0;36m█[0;1;37;46m ▄[0;1;37;40m████████████████████████████[0;1;37;46m▄[0;36m██[0;1;37;46m ▀▀[0;1;37;40m██████[0m
 [1;37;40m█████████████[0;1;37;46m░░[0;36m█[0;1;37m██████████████████████████████████████████████████████[0;1;37;46m█▄▄▄[0;36m█[0;1;37;46m ▀▀[0;1;37;40m██[0m
-[36mretribution[0m               [1;37me[0m [1mn[0m [1mt[0m [1mr[0m [1mo[0m [1mp[0m [1my ││[0m [1m+o deathr0w.[0m
-  [36mblocktronics[0;1;30m(/sense)[0m
-[1;30m________________________________________________________________________________[0m
-[1;30m   Author''s note: This was intended for the sense 28 release and out of respect[0m
-         [1;30mfor that group I''ve decided to release the original version.[0m'
+[36m           [0m               [1;37m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m [0m [1m  ││[0m [1m            [0m
+  [36m            [0;1;30m        [0m
+[1;30m________________________________________________________________________________[0m'

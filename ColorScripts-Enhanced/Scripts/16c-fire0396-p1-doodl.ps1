@@ -5,7 +5,7 @@
 # Source SHA-256: e8204a899a39fa42d2b2d00f92c59fef055a509b0e74779725b8f77316e0a72d
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: P1-DOODL.ANS by Prisoner#1 (Fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Doodle Emag
 # SAUCE Author: Prisoner#1
 # SAUCE Group: Fire
@@ -16,7 +16,7 @@
 
 Write-Host '
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30md00dl3 emag[0;1;31m [0m [35m▄▐▄[0m [1;30mdood[0ma[1;30ml emag[0m [1;30md[0mu[1;30md[0meAl[1;30ml [0mema[1;30mg[0;1;31m [0md@@d[1mΣ[0mL em[1mag[0;1;31m [0;35m▄▐▄[0m  [35m▄▐▄[0m [1;31m [0;1;37mDOODLE EMAG![0m [1;37m=)[0m
+[1;30m           [0;1;31m [0m [35m▄▐▄[0m [1;30m    [0m [1;30m      [0m [1;30m [0m [1;30m [0m   [1;30m  [0m   [1;30m [0;1;31m [0m    [1m [0m    [1m  [0;1;31m [0;35m▄▐▄[0m  [35m▄▐▄[0m [1;31m [0;1;37m            [0m [1;37m  [0m
 [1;30m────────────[0m [35;43m▓[0;35;40m█[0;35;43m▓[0;35;40m▌[0;1;30;40m────────────────────────────────────[0m [35m█[0;35;43m▓[0;35;40m█▌[0m [35;43m▓▓▓[0;35;40m▌[0;1;30;40m────────────────[0m
 [1m▄▐[0;1;46m▓▓[0;1;40m▄[0;1;46m▓▒░[0;36m▓▒░░[0m [35;43m▒[0;35;40m█[0;35;43m▓[0;35;40m▌[0m [36;40m░░[0;1;30;40m▒[0;36m░[0;1;30m░░[0m [36m░[0;1;30m░░[0m [36m░[0;1;30m░[0m  [1;30m░[0m      [1;30m░[0m [1;30m░[0;36m░[0;1;30m░░▒[0;36m░░[0;1;30m▒[0;36m░░░[0m [35;43m▓[0;35;40m█[0;35;43m▓[0;35;40m▌[0m [35;43m▓▓▓[0;35;40m▌[0;36;40m░▒▒▓██[0;1;37;46m░░▒░▒▒▓▓[0;1;37;40m▄▌ [0m
 [1;37;46m██▓▒▓▒[0;36m▄▀▀   [0m [35;43m▓[0;35;40m▐[0;35;43m▒[0;35;40m▌[0m [1;33;40m [0m                                   [35;43m▓▓▓[0;35;40m▌[0m [35;43m▓[0;35;40m▐[0;35;43m▓[0;35;40m▌[0;36;40m▒▓▓██▄▀▀▀▀▀▐[0;1;37;46m▒▓█▓[0;1;37;40m [0m
@@ -36,5 +36,5 @@ Write-Host '
 [1;37;40m▀▐[0;1;37;46m█▓▒░░[0;36m███▓▓▒░[0m [36m░░[0;1;30m░[0;36m░░░[0m [36m░[0;1;30m░[0;36m [0m                          [36m░[0;1;30m▒▓[0;36m░░░░[0;1;30m▒▓▒[0;36m░▒▒▒▓▓██▄▄█[0;1;37;46m░▒▒▓▓█[0;1;37;40m▌ [0m
 [36m [0;1;37;46m█▓▒░[0;36m▀▐█▀███▓▓▒▒░░░░[0;1;30m▒░[0;36m░░[0;1;30m░[0m [36m░░[0m [1;30m░[0;36m░[0;1;30m ░[0m       [1;30m░[0m [1;30m░[0;36m░[0;1;30m░░[0m [1;30m▒[0;36m░░[0;1;30m▒▓[0;36m░░░[0;1;30m▓[0;36m░[0;1;30m▒[0;36m░[0;1;30m░[0;36m░░░▒▓▒▓▓████[0;1;37;46m░░[0;36m▄[0;1;37;46m░▒▓[0;1;37;40m▀ [0m
 [1;30;40m───────────────────────────────────────────────────────────────────────────────[0m
-[1;30mlOGO for the Grind King.  Colored block arrangement by Prisoner#1.Fire 02-27-96[0m
+[1;30m                                                                               [0m
 [1;30m─────────────────────────────────────────────────────────────────────────────── [0m'

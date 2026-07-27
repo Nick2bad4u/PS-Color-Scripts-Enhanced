@@ -5,7 +5,7 @@
 # Source SHA-256: 7d6d3167cd49660562ad96266fbf92f6b016f1372e731bec93c4bb3f7c369713
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: SE-UGTEN.ANS by Sharp Edge (ACiD Productions); released in acdu1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: Underground Tensions
 # SAUCE Author: Sharp Edge
 # SAUCE Group: ACiD Productions
@@ -43,7 +43,6 @@ Write-Host '
 [1;30m▀[0;1;30;47m▓[0;1;30;40m█ [0m    [1;31;41m░[0;31m▌[0m       [1;30m██▄[0m        [33m               [0m                           [31m▄[0;1;31;41m [0m  [1;30m  [0m [1;30m▄▀[0m
 [1;30m    [0m   [31m▐▄[0m        [1;30m▐▀[0m                                                    [31m█▌[0;1;30m [0m [1;30m■▀[0m
 [1;30m  [0m   [31m ▄[0;1;31;41m [0;31m▌[0m                                                             [1;30m [0;31m▐█▄[0m
-[1;30m  [0m  [31m▀▓█[0;1;31;41m░[0;31m▄[0m      [1;30mSharpstah of ACiD presents a pic for his bud ippy![0m  [1;30m▄▄■[0m [31m▄[0;1;31;41m░ [0;31m▓▀[0m
+[1;30m  [0m  [31m▀▓█[0;1;31;41m░[0;31m▄[0m      [1;30m                                                  [0m  [1;30m▄▄■[0m [31m▄[0;1;31;41m░ [0;31m▓▀[0m
       [31m▀▀[0;1;31;41m░[0;31m▀[0m                                                       [1;30m▀█[0;1;30;47m▓[0;1;30;40m▌[0m [31m▀[0;1;31;41m░[0;31m▀ [0m
-                                                                 [1;30m [0m [1;30m▀  [0m
-                                           [31m [0m'
+                                                                 [1;30m [0m [1;30m▀  [0m'

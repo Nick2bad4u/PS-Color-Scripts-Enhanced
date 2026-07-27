@@ -5,7 +5,7 @@
 # Source SHA-256: 553edee393f5abe2067670f5a0fd9ca5dac08e61a0e454679f38cd7263728f29
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: INC^AG.ANS by Incarnate (Department 38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: THE agency
 # SAUCE Author: Incarnate
 # SAUCE Group: Department 38
@@ -30,14 +30,10 @@ Write-Host '
    [1;30m█░[0;1;31;45m▒░ [0;35m██ █████[0;1;30m░[0;1;31;45m▒░[0;35m███ █████[0;1;30m░[0;1;31;45m▒░[0;35m███ ████▓[0;1;30m░[0;1;31;45m▒░[0;35m███[0;1;30m▒[0;1;31;45m▓▒░░[0;35m█[0;1;31m░[0;1;31;45m▓▒░░[0;1;30;40m░[0;1;31;40m▓[0;1;31;45m▓▒░░[0;1;30;40m░[0;1;31;45m▒░[0;35m███ █████[0;1;30m░[0m
    [1;30m▓▄[0;1;31m▒▀[0;1;31;45m▒░[0;35m█▀▀▀▀[0;1;31m▒[0;35m▀[0;1;30m▒[0;1;31;45m▓▒░[0;1;31;40m▒[0;35m█▄[0;35;45m [0;35;40m███▀[0;1;30;40m▒[0;1;31;45m▓▒░[0;1;31;40m▒[0;35;45m [0;35;40m▄█[0;1;31;40m▒[0;35m█▀[0;1;31m▒[0;1;30m▒[0;1;31;45m▓▒░░[0;35m█[0;1;31m▒▀▀▀[0;35m▀▀ [0;1;31m▒▀▀[0;35m▀▀[0;1;31m▒▀▀▀▀[0;1;30m▒[0;1;31;45m▓▒░[0;1;31;40m▒[0;35m█▄[0;35;45m [0;35;40m███▀[0;1;30;40m▒[0m
    [34m [0;1;30m▀[0;1;31m░ [0;1;30m▄▄▄▄▓▀ [0;1;31m░[0;1;30m▀▓▀▀ [0;1;31m░[0;1;34m [0;1;30m▄▄▄▄▓▀▓▀▀[0;1;34m [0;1;31m░[0;1;30m ▀[0;1;34m [0;1;31m░[0;1;30m ▀▀▓▄▄▄▄ [0;1;31m░ [0;1;30m■▀▀▀▀[0;1;31m░ [0;1;30m▀▀▀[0;1;31m░ [0;1;30m▀▀▀▓▀▀ [0;1;31m░[0;1;34m [0;1;30m▄▄▄▄▓▀▓[0m
-                                                                 [1;30miNCARNATE[0m
+                                                                 [1;30m         [0m
 
 
 [1;30m------------>cut here <---------------------------------------------------------[0m
 
-[1;30mphew.. finally finished.. =) well hope you like... =))[0m
-[1;30ml8r[0m
-
-
-
-                          [1;31m [0m                [1;31m [0m'
+[1;30m                                                      [0m
+[1;30ml8r[0m'

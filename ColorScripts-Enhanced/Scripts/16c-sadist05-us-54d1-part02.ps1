@@ -5,7 +5,7 @@
 # Source SHA-256: 5aee6df3040bab04d22ef1d0a2a82d1c89641cead01b5b910415cd5ba1059e5b
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: US-54D1.ANS by Mixelpic + Sephiroth (sadist05); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: sadist
 # SAUCE Author: seph+mix
 # SAUCE Date: 20000122
@@ -42,9 +42,4 @@ Write-Host '
 [32m░    ▄ ▄▀[0;1;32;42m░[0;32m█▀▄▄█▀███[0;1;32;42m░[0;32m▓█ [0m    [32m░█ ▓██▀[0;1;32;42m░▀░[0;32m▄██[0;1;32;42m░[0;32m▀[0;1;32;42m▀░[0;32m▄▄█▀▀▄▄▄░▄█[0;1;32;42m░▀▀[0;32m▀▀▄▄▓▀[0m   [32m░[0;37m [0;32m█[0;37m [0;32m█▓[0;1;32;42m░[0;32m█[0;37m [0;32m░[0m
 [32m▓█▀▀ ██▀▀[0;1;32;42m▓▀[0;32m▀▄▄▀▀  [0;1;32;42m░▄░[0;32m█▄▄▀[0m   [32m░ ░ ▓░▓▄▀▀▄▄▄▀▀▀▀▀ ▀▀▀[0;1;32;42m░░[0;32m▓▀▀▀▄▀▀▀  ░[0m     [32m▄▀[0;1;32;42m░▄░░░[0;32m█▓░[0m
 [32m▀▀▀▀███▀▀▀[0;1;32;42m░[0;32m▀▀[0m     [32m▄▀▀[0;1;32;42m░[0;32m▄▀▀▀[0m     [32m▓▄▄▄▀▀▀[0m          [32m▄▀▀░░[0m              [32m▀▀▀▓▀▀ ▀ ░[0m
-   [32m▀  ▀▀▓▒[0m        [32m▄ ▀▀░[0m        [32m░ ░[0m               [32m [0m                    [32m░[0m
-[1;37m                    [0m
-[1m  [0m
-[1;30mpic by mixelpic[0m
-[1;30mfont + touchups by seph[0m
-[1;30m       [0m'
+   [32m▀  ▀▀▓▒[0m        [32m▄ ▀▀░[0m        [32m░ ░[0m               [32m [0m                    [32m░[0m'

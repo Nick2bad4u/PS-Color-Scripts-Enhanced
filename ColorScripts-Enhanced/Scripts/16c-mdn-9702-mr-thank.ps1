@@ -5,7 +5,7 @@
 # Source SHA-256: 4e0e891d7b8aa83bb3e15bbbc5dcfc85990ba4eafade1434412a2147c84b489a
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: MR-THANK.ANS by .,s$(minotaur)$s,. (MAiDEN BRAZiL); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # SAUCE Title: thanks logo
 # SAUCE Author: .,s$(minotaur)$s,.
 # SAUCE Group: MAiDEN BRAZiL
@@ -29,16 +29,8 @@ Write-Host '
 [1;30;47m▄▓[0;1;31;40m [0;34m▀█[0;1;34;44m▀▀[0;34m▄█[0;1;34;44m▀▀[0;34m▀▀ [0;36;44m   [0;34;40m██  █[0;1;34;44m█▀▀[0;36;44m [0;37;40m [0;34;40m▀▀[0;1;34;44m▀▀▀[0;34m▄▄██[0;1;34;44m▀[0;34m▀ [0;37m [0;36;44m   [0;34;40m██  █[0;1;34;44m█▀▀[0;36;44m [0;37;40m [0;36;44m  [0;1;34;44m▀▀[0;34m█ ▐[0;1;34;44m▀█▓▀ [0m [34m▀▀[0;1;34;44m▀▀[0;34m█▄[0;1;34;44m▀▀[0;34m█▀[0;1;31m [0;1;30m▄[0;1;30;47m▌▐[0m
 [1;30;47m ▀▀[0;1;30;40m▄▄[0m▄[1;30m▄▄▄▄▄▄[0;1;30;47m▓[0m       [34m ▀▀▀▀ [0m     [34m  [0m      [34m [0m      [34m ▀▀▀▀ [0m       [34m▀▀▀▀▀ [0;1;30m▄[0;1;30;47m▓[0;1;30;40m▄▄▄▄▄▄▄▄▄[0;30;47m▒[0;1;30;47m▀ ▄[0m
 [1;30;47m▌▄▓[0;1;30;40m▀▀▀[0m                                                                  [1;30m▀▀[0;1;30;47m▄    ▐[0m
-[1;30;47m▓[0;1;34;40m [0m                [1;34mfill here with the text that u want ... [0m                [1;30m▐[0;1;30;47m▄▌  [0m▒
+[1;30;47m▓[0;1;34;40m [0m                [1;34m                                        [0m                [1;30m▐[0;1;30;47m▄▌  [0m▒
 [1;30m▌[0m                                                                        ▄[1;30;47m▌▀ ▄▄▄[0m
   [1;30m [0m   [1;30m  [0m        [1;30m▄[0m                                                    [1;30m▄▄▄[0;1;30;47m▓▄[0;1;30;40m█▀▀[0m
   [1;30m▀[0m  [1;30m▄[0m   [1;30m   [0m ▄[1;30m  [0m                                                [1;30m [0m [1;30m▀▀▀▀▀▀[0m
-         [1;30m▀[0m▀
-                                                          [36mminotaur[0;1;36m<[0;1;34mmaiden[0;1;36m>[0;36m  [0m
-
-
-
-[1;36m-[0;36m i did this for [0;1;36mmarine fighter[0;36m [0;1;36monly ...[0;36m [0m
-[1;36m-[0;36m if u[0;1;36m''[0;36mre not marine fighter u don[0;1;36m''[0;36mt deserve this ansi [0;1;36m=)[0m
-[1;36m-[0;36m if u want an ansi[0;1;36m,[0;36m contact me in [0;1;36m#[0;36mansi in irc or[0m
-[36m  minotaur[0;1;36m@[0;36mnitnet[0;1;36m.[0;36mcom[0;1;36m.[0;36mbr [0m'
+         [1;30m▀[0m▀[0m'

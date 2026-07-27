@@ -5,7 +5,7 @@
 # Source SHA-256: 0fea8eadf45a7e2dac9fd4c7a6bccac937a83ed50393b9e0404f22cd621e94d4
 # Source License: LicenseRef-16colors-discord-permission
 # Source Attribution: LC-TCB.ANS by Luc (aim-0994); released in aim-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
+# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
 # Lines: 50-88
 # Columns: 1-80
 
@@ -39,13 +39,5 @@ Write-Host '
                    [1;32;40m▀[0;1;32;42m▄[0;32m▄▄[0;1;34m▀▀▀[0;32m▄[0;1;32;42m▄[0;1;32;40m▀    ▀[0;1;32;42m▄▄[0;32m▄▄▄[0;1;34m▀▀▀▀[0;32m▄▄[0;1;32;42m▄[0;1;32;40m▀ ▀[0;1;32;42m▄[0;32m▄▄[0;1;34m▀▀▀▀▀[0;32m▄▄▄▄[0;1;32;42m▄▄[0;1;32;40m▀[0m
                      [1;32;40m▀▀[0;1;32;42m▄▄▄[0;1;32;40m▀[0m         [1;32;40m▀▀▀[0;1;32;42m▄▄▄▄[0;1;32;40m▀▀[0m     [1;32;40m▀▀[0;1;32;42m▄▄▄▄▄[0;1;32;40m▀▀▀▀[0m
 
-                               [1;32;40mT[0;32mhe [0;1;30mCellbl[0;32moc[0;1;32mk[0m
-                              [1;32m([0;32m31[0;1;30m0)  822·2[0;32m73[0;1;32m7[0m
-                                 [1;32mS[0;32m: W[0;1;30mar[0;32mde[0;1;32mn[0m
-                              [1;32mR[0;32m: D[0;1;30moc Holli[0;32mda[0;1;32my[0m
-                              [1;32m1[0;32m.6 [0;1;30mGigz Onl[0;32min[0;1;32me[0m
-                              [1;32m0[0;32m-3[0;1;30m0 Dayz Wa[0;32mre[0;1;32mz[0m
-                                 [1;32mV[0;32mIS[0;1;30mIO[0;32mN-[0;1;32mX[0m
-                              [1;32mE[0;32mli[0;1;30mte/H/P/A/[0;32mC/[0;1;32mV[0m
-                                 [1;32mO[0;32mX  [0;1;30mCi[0;32mt[0;1;32me[0m
-                              [1;32mA[0;32mNS[0;1;30mI: LUC =A[0;32miM[0;1;32m=[0m'
+                               [1;32;40m [0;32m   [0;1;30m      [0;32m  [0;1;32m [0m
+                              [1;32m([0;32m31[0;1;30m0)  822·2[0;32m73[0;1;32m7[0m'
